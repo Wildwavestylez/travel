@@ -5,6 +5,19 @@ const STORE='travel-v3-state';
 const state=JSON.parse(localStorage.getItem(STORE)||'null')||{index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 
+const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[14,18],iconAnchor:[7,18]});
+const stopMarkers=L.markerClusterGroup({
+  maxClusterRadius:70,
+  showCoverageOnHover:false,
+  spiderfyOnMaxZoom:true,
+  chunkedLoading:true,
+  iconCreateFunction:cluster=>L.divIcon({
+    className:'travel-cluster',
+    html:'<span>'+cluster.getChildCount()+'</span>',
+    iconSize:[34,34]
+  })
+}).addTo(map);
+
 const car=L.circleMarker([51.0504,13.7373],{radius:9}).addTo(map);
 const save=()=>localStorage.setItem(STORE,JSON.stringify(state));
 const setStatus=(t,busy=false)=>{document.getElementById('statusText').textContent=t;document.getElementById('statusDot').style.background=busy?'#f59e0b':'#22c55e'};
@@ -27,13 +40,27 @@ async function loadData(pc){
   if(!r.ok)throw Error('Data pro PSČ '+pc+' není dostupná');
   return r.json();
 }
-async function route(from,to){
-  const u='https://router.project-osrm.org/route/v1/driving/'+from[1]+','+from[0]+';'+to[1]+','+to[0]+'?overview=full&geometries=geojson';
-  const r=await fetch(u);
-  if(!r.ok)throw Error('Routing selhal');
-  const d=await r.json();
-  if(d.code!=='Ok'||!d.routes?.[0])throw Error('Trasa nebyla nalezena');
-  return d.routes[0];
+function markerPopup(data){
+  const facts=(data.facts||[]).map(x=>'<li>'+x+'</li>').join('');
+  const photo=data.photo&&data.photo.url
+    ? '<p>📷 <a href="'+data.photo.url+'" target="_blank" rel="noopener">Foto</a></p>'
+    : '<p class="photo-placeholder">📷 Fotografie bude doplněna později.</p>';
+  return '<strong>📍 '+data.postcode+' · '+data.city+'</strong>'+
+    (data.district?'<br><span>'+data.district+'</span>':'')+
+    (data.county?'<br><b>Okres:</b> '+data.county:'')+
+    (data.state?'<br><b>Bundesland:</b> '+data.state:'')+
+    '<hr><b>'+data.representative_place+'</b>'+
+    (facts?'<ul>'+facts+'</ul>':'')+photo;
+}
+function addStopMarker(data){
+  if(!data?.representative_point||stopMarkers.getLayers().some(m=>m.options.stopPostcode===data.postcode))return;
+  const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
+    icon:pinIcon,
+    title:data.postcode+' '+data.city,
+    stopPostcode:data.postcode
+  });
+  marker.bindPopup(markerPopup(data),{maxWidth:360});
+  stopMarkers.addLayer(marker);
 }
 function draw(){
   if(!state.route)return;
@@ -58,15 +85,14 @@ function pos(k,d){
   }
   return routeLatLngs.at(-1);
 }
-function arrivalText(data){
-  const facts=(data.facts||[]).map(x=>'<li>'+x+'</li>').join('');
-  return '<strong>📍 '+data.postcode+' '+data.city+'</strong><br><b>'+data.representative_place+'</b>'+
-    (facts?'<ul>'+facts+'</ul>':'');
-}
 function showArrival(){
-  const factHtml=arrivalText(currentData);
-  L.popup({maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon]).setContent(factHtml).openOn(map);
+  addStopMarker(currentData);
+  const factHtml=markerPopup(currentData);
+  L.popup({maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false})
+    .setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
+    .setContent(factHtml).openOn(map);
   setInfo('<strong>📍 Dorazili jsme do '+currentData.postcode+'</strong><p><b>'+currentData.representative_place+'</b></p>'+
+    (currentData.county?'<p><b>Okres:</b> '+currentData.county+'</p>':'')+
     (currentData.facts||[]).map(x=>'<p>• '+x+'</p>').join('')+
     '<p class="continue">🚗 Auto mezitím pokračuje na další PSČ…</p>');
 }
@@ -89,8 +115,6 @@ function arrived(){
     btn.disabled=true;
     btn.textContent='🚗 Auto pokračuje…';
     setStatus('Zastávka objevena — pokračujeme');
-    // Krátká pauza jen kvůli čitelnosti příjezdu. Popup zůstává otevřený,
-    // zatímco se další úsek už rozbíhá.
     setTimeout(()=>start(true),1200);
   }else{
     btn.disabled=true;
@@ -137,15 +161,24 @@ async function start(auto=false){
     btn.disabled=false;
   }
 }
+async function route(from,to){
+  const u='https://router.project-osrm.org/route/v1/driving/'+from[1]+','+from[0]+';'+to[1]+','+to[0]+'?overview=full&geometries=geojson';
+  const r=await fetch(u);
+  if(!r.ok)throw Error('Routing selhal');
+  const d=await r.json();
+  if(d.code!=='Ok'||!d.routes?.[0])throw Error('Trasa nebyla nalezena');
+  return d.routes[0];
+}
 document.getElementById('routeBtn').addEventListener('click',()=>start(false));
 
 (async()=>{
   try{
     const s=await fetch('./data/germany/sequence.json');
-    if(!s.ok)throw Error('Testovací sekvence není dostupná');
+    if(!s.ok)throw Error('Produkční sekvence není dostupná');
     sequence=(await s.json()).sequence;
     currentData=await loadData(sequence[state.index]);
     car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
+    addStopMarker(currentData);
     updatePanel();
 
     if(state.route&&state.startedAt){
@@ -154,12 +187,12 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     }else if(state.index>=sequence.length-1){
       setInfo('<strong>🏁 Hotovo</strong><p>Všechna aktuálně připravená PSČ byla dokončena.</p>');
       document.getElementById('routeBtn').disabled=true;
-      document.getElementById('routeBtn').textContent='🏁 Testovací sekvence dokončena';
-      setStatus('Testovací sekvence dokončena');
+      document.getElementById('routeBtn').textContent='🏁 Aktuální sekvence dokončena';
+      setStatus('Aktuální sekvence dokončena');
     }else{
       setInfo('<strong>👋 Vítej v TRAVEL</strong><p>Začínáme v historickém centru Drážďan, v PSČ <b>01067</b>.</p>'+
-        '<p>Čeká nás cesta PSČ po PSČ. První zastávka je Frauenkirche a Neumarkt — samotné srdce drážďanské Altstadt. Pak už auto pojede dál a postupně objeví dalších 19 testovacích PSČ.</p>'+
-        '<p>📍 Na každé zastávce dostaneš krátké informace o místě. Auto ale nebude čekat, až je dočteš.</p>');
+        '<p>Čeká nás cesta PSČ po PSČ. Na každé objevené zastávce zůstane na mapě malý pin s informacemi. Při odzoomování se piny automaticky seskupí do číselných clusterů.</p>'+
+        '<p>📍 Pin zůstává na objeveném místě, auto ale pokračuje dál.</p>');
       setStatus('Připraven');
       car.bindPopup('<strong>👋 Vítej v TRAVEL</strong><br>Historické centrum Drážďan · 01067',{maxWidth:300}).openPopup();
     }
