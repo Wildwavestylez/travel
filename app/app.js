@@ -1,28 +1,170 @@
 const map=L.map('map').setView([51.0504,13.7373],13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
 
-const STORE='travel-v2-state';
+const STORE='travel-v3-state';
 const state=JSON.parse(localStorage.getItem(STORE)||'null')||{index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
-let sequence=[];
-let currentData=null;
-let nextData=null;
-let routeLayer=null;
-let routeLatLngs=[];
-const car=L.circleMarker([51.0504,13.7373],{radius:9}).addTo(map);
+let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 
+const car=L.circleMarker([51.0504,13.7373],{radius:9}).addTo(map);
 const save=()=>localStorage.setItem(STORE,JSON.stringify(state));
 const setStatus=(t,busy=false)=>{document.getElementById('statusText').textContent=t;document.getElementById('statusDot').style.background=busy?'#f59e0b':'#22c55e'};
 const setInfo=h=>document.getElementById('info').innerHTML=h;
-const updatePanel=()=>{if(!currentData)return;document.getElementById('postcode').textContent=currentData.postcode;document.getElementById('place').textContent=currentData.city+(currentData.district?' · '+currentData.district:'');document.getElementById('totalKm').textContent=state.totalKm.toFixed(1);document.getElementById('sequence').textContent=state.index+1};
+const updatePanel=()=>{
+  if(!currentData)return;
+  document.getElementById('postcode').textContent=currentData.postcode;
+  document.getElementById('place').textContent=currentData.city+(currentData.district?' · '+currentData.district:'');
+  document.getElementById('totalKm').textContent=state.totalKm.toFixed(1);
+  document.getElementById('sequence').textContent=state.index+1;
+};
 const fmt=m=>m<1?Math.max(1,Math.round(m*60))+' s':m<60?m.toFixed(1)+' min':Math.floor(m/60)+' h '+Math.round(m%60)+' min;
-const hav=(a,b)=>{const R=6371,d1=(b[0]-a[0])*Math.PI/180,d2=(b[1]-a[1])*Math.PI/180,x=Math.sin(d1/2)**2+Math.cos(a[0]*Math.PI/180)*Math.cos(b[0]*Math.PI/180)*Math.sin(d2/2)**2;return 2*R*Math.asin(Math.sqrt(x))};
-async function loadData(pc){const r=await fetch('./data/germany/'+pc+'.json');if(!r.ok)throw Error('Data pro PSČ '+pc+' není dostupná');return r.json()}
-async function route(from,to){const u='https://router.project-osrm.org/route/v1/driving/'+from[1]+','+from[0]+';'+to[1]+','+to[0]+'?overview=full&geometries=geojson';const r=await fetch(u);if(!r.ok)throw Error('Routing selhal');const d=await r.json();if(d.code!=='Ok'||!d.routes?.[0])throw Error('Trasa nebyla nalezena');return d.routes[0]}
-function draw(){if(!state.route)return;if(routeLayer)map.removeLayer(routeLayer);routeLayer=L.geoJSON(state.route.geometry,{style:{weight:6,opacity:.85}}).addTo(map);routeLatLngs=state.route.geometry.coordinates.map(([lon,lat])=>[lat,lon])}
-function cumulative(){const d=[0];for(let i=1;i<routeLatLngs.length;i++)d.push(d[i-1]+hav(routeLatLngs[i-1],routeLatLngs[i]));return d}
-function pos(k,d){if(k<=0)return routeLatLngs[0];if(k>=d[d.length-1])return routeLatLngs.at(-1);for(let i=1;i<d.length;i++)if(d[i]>=k){const t=(k-d[i-1])/(d[i]-d[i-1]||1);return[routeLatLngs[i-1][0]+(routeLatLngs[i][0]-routeLatLngs[i-1][0])*t,routeLatLngs[i-1][1]+(routeLatLngs[i][1]-routeLatLngs[i-1][1])*t]}return routeLatLngs.at(-1)}
-function arrived(){state.index++;state.totalKm+=state.routeKm;state.route=null;state.startedAt=null;state.routeKm=0;save();currentData=nextData;nextData=null;updatePanel();car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);const fact=currentData.facts?.[0]||'Nová zastávka byla objevena.';setInfo('<strong>🎉 Dorazili jsme</strong><p><b>'+currentData.postcode+' '+currentData.city+'</b><br>'+currentData.representative_place+'<br><br>'+fact+'</p>');document.getElementById('routeBtn').textContent=state.index<sequence.length?'🚗 Vyrazit na další úsek':'🏁 Testovací sekvence dokončena';setStatus('Dorazili jsme')}
-function animate(){if(!state.route||!state.startedAt)return;draw();const d=cumulative(),dur=state.routeKm/80*3600000;function tick(){const p=Math.min(1,(Date.now()-state.startedAt)/dur),km=state.routeKm*p;car.setLatLng(pos(km,d));if(p<1){setStatus('Na cestě — 80 km/h');setInfo('<strong>🚗 Na cestě do '+nextData.postcode+'</strong><p>Ujeto '+km.toFixed(1)+' km z '+state.routeKm.toFixed(1)+' km.<br>Zbývá '+(state.routeKm-km).toFixed(1)+' km · '+fmt((state.routeKm-km)/80*60)+'.</p>');requestAnimationFrame(tick)}else arrived()}tick()}
-async function start(){if(state.index>=sequence.length-1||state.startedAt)return;const btn=document.getElementById('routeBtn');btn.disabled=true;setStatus('Připravuji trasu…',true);try{nextData=await loadData(sequence[state.index+1]);const from=[car.getLatLng().lat,car.getLatLng().lng],to=[nextData.access_point.lat,nextData.access_point.lon];const r=await route(from,to);state.route=r;state.routeKm=r.distance/1000;state.startedAt=Date.now();save();draw();map.fitBounds(routeLayer.getBounds(),{padding:[30,30]});btn.textContent='🚗 Cesta probíhá…';animate()}catch(e){setInfo('<strong>Chyba</strong><p>'+e.message+'</p>');setStatus('Chyba')}finally{btn.disabled=false}}
-document.getElementById('routeBtn').addEventListener('click',start);
-(async()=>{try{const s=await fetch('./data/germany/test-sequence.json');if(!s.ok)throw Error('Testovací sekvence není dostupná');sequence=(await s.json()).sequence;currentData=await loadData(sequence[state.index]);car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);car.bindPopup('<b>'+currentData.postcode+' '+currentData.city+'</b><br>'+currentData.representative_place);updatePanel();if(state.route&&state.startedAt){nextData=await loadData(sequence[state.index+1]);animate()}else{setInfo('<strong>Startovní bod</strong><p>'+currentData.postcode+' '+currentData.city+'<br>'+currentData.representative_place+'<br><br>'+currentData.facts.join('<br>')+'</p>');setStatus('Připraven');}}catch(e){setStatus('Chyba');setInfo('<strong>Chyba načtení dat</strong><p>'+e.message+'</p>')}})();
+const hav=(a,b)=>{
+  const R=6371,d1=(b[0]-a[0])*Math.PI/180,d2=(b[1]-a[1])*Math.PI/180;
+  const x=Math.sin(d1/2)**2+Math.cos(a[0]*Math.PI/180)*Math.cos(b[0]*Math.PI/180)*Math.sin(d2/2)**2;
+  return 2*R*Math.asin(Math.sqrt(x));
+};
+async function loadData(pc){
+  const r=await fetch('./data/germany/'+pc+'.json');
+  if(!r.ok)throw Error('Data pro PSČ '+pc+' není dostupná');
+  return r.json();
+}
+async function route(from,to){
+  const u='https://router.project-osrm.org/route/v1/driving/'+from[1]+','+from[0]+';'+to[1]+','+to[0]+'?overview=full&geometries=geojson';
+  const r=await fetch(u);
+  if(!r.ok)throw Error('Routing selhal');
+  const d=await r.json();
+  if(d.code!=='Ok'||!d.routes?.[0])throw Error('Trasa nebyla nalezena');
+  return d.routes[0];
+}
+function draw(){
+  if(!state.route)return;
+  if(routeLayer)map.removeLayer(routeLayer);
+  routeLayer=L.geoJSON(state.route.geometry,{style:{weight:6,opacity:.85}}).addTo(map);
+  routeLatLngs=state.route.geometry.coordinates.map(([lon,lat])=>[lat,lon]);
+}
+function cumulative(){
+  const d=[0];
+  for(let i=1;i<routeLatLngs.length;i++)d.push(d[i-1]+hav(routeLatLngs[i-1],routeLatLngs[i]));
+  return d;
+}
+function pos(k,d){
+  if(k<=0)return routeLatLngs[0];
+  if(k>=d[d.length-1])return routeLatLngs.at(-1);
+  for(let i=1;i<d.length;i++)if(d[i]>=k){
+    const t=(k-d[i-1])/(d[i]-d[i-1]||1);
+    return[
+      routeLatLngs[i-1][0]+(routeLatLngs[i][0]-routeLatLngs[i-1][0])*t,
+      routeLatLngs[i-1][1]+(routeLatLngs[i][1]-routeLatLngs[i-1][1])*t
+    ];
+  }
+  return routeLatLngs.at(-1);
+}
+function arrivalText(data){
+  const facts=(data.facts||[]).map(x=>'<li>'+x+'</li>').join('');
+  return '<strong>📍 '+data.postcode+' '+data.city+'</strong><br><b>'+data.representative_place+'</b>'+
+    (facts?'<ul>'+facts+'</ul>':'');
+}
+function showArrival(){
+  const factHtml=arrivalText(currentData);
+  car.bindPopup(factHtml,{maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false}).openPopup();
+  setInfo('<strong>📍 Dorazili jsme do '+currentData.postcode+'</strong><p><b>'+currentData.representative_place+'</b></p>'+
+    (currentData.facts||[]).map(x=>'<p>• '+x+'</p>').join('')+
+    '<p class="continue">🚗 Auto mezitím pokračuje na další PSČ…</p>');
+}
+function arrived(){
+  state.index++;
+  state.totalKm+=state.routeKm;
+  state.route=null;
+  state.startedAt=null;
+  state.routeKm=0;
+  save();
+
+  currentData=nextData;
+  nextData=null;
+  updatePanel();
+  car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
+  showArrival();
+
+  const btn=document.getElementById('routeBtn');
+  if(state.index<sequence.length-1){
+    btn.disabled=true;
+    btn.textContent='🚗 Auto pokračuje…';
+    setStatus('Zastávka objevena — pokračujeme');
+    // Krátká pauza jen kvůli čitelnosti příjezdu. Popup zůstává otevřený,
+    // zatímco se další úsek už rozbíhá.
+    setTimeout(()=>start(true),1200);
+  }else{
+    btn.disabled=true;
+    btn.textContent='🏁 Testovací sekvence dokončena';
+    setStatus('Testovací sekvence dokončena');
+  }
+}
+function animate(){
+  if(!state.route||!state.startedAt)return;
+  draw();
+  const d=cumulative(),dur=state.routeKm/80*3600000;
+  function tick(){
+    const p=Math.min(1,(Date.now()-state.startedAt)/dur),km=state.routeKm*p;
+    car.setLatLng(pos(km,d));
+    if(p<1){
+      setStatus('Na cestě — 80 km/h',true);
+      setInfo('<strong>🚗 Na cestě do '+nextData.postcode+'</strong><p>Ujeto '+km.toFixed(1)+' km z '+state.routeKm.toFixed(1)+' km.<br>Zbývá '+(state.routeKm-km).toFixed(1)+' km · '+fmt((state.routeKm-km)/80*60)+'.</p>');
+      requestAnimationFrame(tick);
+    }else arrived();
+  }
+  tick();
+}
+async function start(auto=false){
+  if(state.index>=sequence.length-1||state.startedAt)return;
+  const btn=document.getElementById('routeBtn');
+  btn.disabled=true;
+  setStatus('Připravuji trasu…',true);
+  try{
+    nextData=await loadData(sequence[state.index+1]);
+    const from=[car.getLatLng().lat,car.getLatLng().lng];
+    const to=[nextData.access_point.lat,nextData.access_point.lon];
+    const r=await route(from,to);
+    state.route=r;
+    state.routeKm=r.distance/1000;
+    state.startedAt=Date.now();
+    save();
+    draw();
+    map.fitBounds(routeLayer.getBounds(),{padding:[30,30]});
+    btn.textContent='🚗 Cesta probíhá…';
+    animate();
+  }catch(e){
+    setInfo('<strong>Chyba</strong><p>'+e.message+'</p>');
+    setStatus('Chyba');
+    btn.disabled=false;
+  }
+}
+document.getElementById('routeBtn').addEventListener('click',()=>start(false));
+
+(async()=>{
+  try{
+    const s=await fetch('./data/germany/test-sequence.json');
+    if(!s.ok)throw Error('Testovací sekvence není dostupná');
+    sequence=(await s.json()).sequence;
+    currentData=await loadData(sequence[state.index]);
+    car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
+    updatePanel();
+
+    if(state.route&&state.startedAt){
+      nextData=await loadData(sequence[state.index+1]);
+      animate();
+    }else if(state.index>=sequence.length-1){
+      setInfo('<strong>🏁 Hotovo</strong><p>Testovací sekvence 20 PSČ byla dokončena.</p>');
+      document.getElementById('routeBtn').disabled=true;
+      document.getElementById('routeBtn').textContent='🏁 Testovací sekvence dokončena';
+      setStatus('Testovací sekvence dokončena');
+    }else{
+      setInfo('<strong>👋 Vítej v TRAVEL</strong><p>Začínáme v historickém centru Drážďan, v PSČ <b>01067</b>.</p>'+
+        '<p>Čeká nás cesta PSČ po PSČ. První zastávka je Frauenkirche a Neumarkt — samotné srdce drážďanské Altstadt. Pak už auto pojede dál a postupně objeví dalších 19 testovacích PSČ.</p>'+
+        '<p>📍 Na každé zastávce dostaneš krátké informace o místě. Auto ale nebude čekat, až je dočteš.</p>');
+      setStatus('Připraven');
+      car.bindPopup('<strong>👋 Vítej v TRAVEL</strong><br>Historické centrum Drážďan · 01067',{maxWidth:300}).openPopup();
+    }
+  }catch(e){
+    setStatus('Chyba');
+    setInfo('<strong>Chyba načtení dat</strong><p>'+e.message+'</p>');
+  }
+})();
