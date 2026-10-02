@@ -1,12 +1,25 @@
 {
   "postcode": "01067",
   "city": "Dresden",
-  "district": null,
+  "district": "Altstadt",
   "county": "Dresden",
   "state": "Sachsen",
-  "representative_place": null,
-  "representative_point": null,
-  "access_point": null,
-  "facts": [],
-  "photo": null
+  "representative_place": "Frauenkirche / Neumarkt",
+  "representative_point": {
+    "lat": 51.051905,
+    "lon": 13.741545
+  },
+  "access_point": {
+    "lat": 51.0516,
+    "lon": 13.7407
+  },
+  "facts": [
+    "Frauenkirche byla postavena 1726–1743 podle plánů George Bähra.",
+    "Po zničení v roce 1945 byla znovu vysvěcena v roce 2005."
+  ],
+  "photo": null,
+  "verification": {
+    "geographic_test_data": true,
+    "access_point_verified": false
+  }
 }
