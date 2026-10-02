@@ -5,17 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>TRAVEL — Germany Postcode Road Trip</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <div class="brand">TRAVEL</div>
-      <div class="subtitle">Germany Postcode Road Trip</div>
-    </div>
+    <div><div class="brand">TRAVEL</div><div class="subtitle">Germany Postcode Road Trip</div></div>
     <div class="status"><span id="statusDot"></span><span id="statusText">Připraven</span></div>
   </header>
-
   <main>
     <section class="panel">
       <div class="eyebrow">CURRENT STOP</div>
@@ -31,14 +29,13 @@
         <p>01067 Dresden. Zde začíná naše cesta přes Německo — PSČ po PSČ, vždy ve vzestupném pořadí.</p>
       </div>
       <button id="routeBtn">🚗 Odstartovat cestu</button>
-      <div class="small">V1 demo používá veřejné geokódování a routing. Simulační čas se počítá pouze z délky silniční trasy při 80 km/h.</div>
+      <div class="small">Objevená PSČ zůstávají na mapě jako malé piny. Při odzoomování se automaticky slučují do clusterů.</div>
     </section>
     <section id="map"></section>
   </main>
-
   <footer>OSM map data · TRAVEL V1</footer>
-
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
