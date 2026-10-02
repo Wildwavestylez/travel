@@ -16,7 +16,7 @@ const updatePanel=()=>{
   document.getElementById('totalKm').textContent=state.totalKm.toFixed(1);
   document.getElementById('sequence').textContent=state.index+1;
 };
-const fmt=m=>m<1?Math.max(1,Math.round(m*60))+' s':m<60?m.toFixed(1)+' min':Math.floor(m/60)+' h '+Math.round(m%60)+' min;
+const fmt=m=>m<1?Math.max(1,Math.round(m*60))+' s':m<60?m.toFixed(1)+' min':Math.floor(m/60)+' h '+Math.round(m%60)+' min';
 const hav=(a,b)=>{
   const R=6371,d1=(b[0]-a[0])*Math.PI/180,d2=(b[1]-a[1])*Math.PI/180;
   const x=Math.sin(d1/2)**2+Math.cos(a[0]*Math.PI/180)*Math.cos(b[0]*Math.PI/180)*Math.sin(d2/2)**2;
@@ -65,7 +65,7 @@ function arrivalText(data){
 }
 function showArrival(){
   const factHtml=arrivalText(currentData);
-  car.bindPopup(factHtml,{maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false}).openPopup();
+  L.popup({maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon]).setContent(factHtml).openOn(map);
   setInfo('<strong>📍 Dorazili jsme do '+currentData.postcode+'</strong><p><b>'+currentData.representative_place+'</b></p>'+
     (currentData.facts||[]).map(x=>'<p>• '+x+'</p>').join('')+
     '<p class="continue">🚗 Auto mezitím pokračuje na další PSČ…</p>');
