@@ -2,7 +2,7 @@
   "$schema":"https://json-schema.org/draft/2020-12/schema",
   "title":"German postcode stop",
   "type":"object",
-  "required":["postcode","city"],
+  "required":["postcode","city","county","state","representative_place","representative_point","access_point","facts","photo"],
   "properties":{
     "postcode":{"type":"string","pattern":"^[0-9]{5}$"},
     "city":{"type":"string"},
@@ -13,6 +13,6 @@
     "representative_point":{"type":["object","null"],"properties":{"lat":{"type":"number"},"lon":{"type":"number"}}},
     "access_point":{"type":["object","null"],"properties":{"lat":{"type":"number"},"lon":{"type":"number"}}},
     "facts":{"type":"array","items":{"type":"string"}},
-    "photo":{"type":["object","null"]}
+    "photo":{"type":["object","null"],"properties":{"source":{"type":["string","null"]},"url":{"type":["string","null"]},"author":{"type":["string","null"]},"license":{"type":["string","null"]}}}
   }
 }
