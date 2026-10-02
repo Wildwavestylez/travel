@@ -94,8 +94,8 @@ function arrived(){
     setTimeout(()=>start(true),1200);
   }else{
     btn.disabled=true;
-    btn.textContent='🏁 Testovací sekvence dokončena';
-    setStatus('Testovací sekvence dokončena');
+    btn.textContent='🏁 Aktuální sekvence dokončena';
+    setStatus('Aktuální sekvence dokončena');
   }
 }
 function animate(){
@@ -141,7 +141,7 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
 
 (async()=>{
   try{
-    const s=await fetch('./data/germany/test-sequence.json');
+    const s=await fetch('./data/germany/sequence.json');
     if(!s.ok)throw Error('Testovací sekvence není dostupná');
     sequence=(await s.json()).sequence;
     currentData=await loadData(sequence[state.index]);
@@ -152,7 +152,7 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
       nextData=await loadData(sequence[state.index+1]);
       animate();
     }else if(state.index>=sequence.length-1){
-      setInfo('<strong>🏁 Hotovo</strong><p>Testovací sekvence 20 PSČ byla dokončena.</p>');
+      setInfo('<strong>🏁 Hotovo</strong><p>Všechna aktuálně připravená PSČ byla dokončena.</p>');
       document.getElementById('routeBtn').disabled=true;
       document.getElementById('routeBtn').textContent='🏁 Testovací sekvence dokončena';
       setStatus('Testovací sekvence dokončena');
