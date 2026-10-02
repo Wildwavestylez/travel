@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TRAVEL — Germany Postcode Road Trip</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">TRAVEL</div>
+      <div class="subtitle">Germany Postcode Road Trip</div>
+    </div>
+    <div class="status"><span id="statusDot"></span><span id="statusText">Připraven</span></div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div class="eyebrow">CURRENT STOP</div>
+      <div class="postcode" id="postcode">01067</div>
+      <div class="place" id="place">Dresden</div>
+      <div class="grid">
+        <div><span>Rychlost</span><strong>80 km/h</strong></div>
+        <div><span>Celkem km</span><strong id="totalKm">0.0</strong></div>
+        <div><span>Pořadí</span><strong id="sequence">1</strong></div>
+      </div>
+      <div class="card" id="info">
+        <strong>Startovní bod</strong>
+        <p>01067 Dresden. Zde začíná naše cesta přes Německo — PSČ po PSČ, vždy ve vzestupném pořadí.</p>
+      </div>
+      <button id="routeBtn">Naplánovat ukázkovou trasu</button>
+      <div class="small">V1 demo používá veřejné geokódování a routing. Simulační čas se počítá pouze z délky silniční trasy při 80 km/h.</div>
+    </section>
+    <section id="map"></section>
+  </main>
+
+  <footer>OSM map data · TRAVEL V1</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
