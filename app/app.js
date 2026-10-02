@@ -5,7 +5,7 @@ const STORE='travel-v3-state';
 const state=JSON.parse(localStorage.getItem(STORE)||'null')||{index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 
-const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[14,18],iconAnchor:[7,18]});
+const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[18,22],iconAnchor:[9,22]});
 const stopMarkers=L.markerClusterGroup({
   maxClusterRadius:70,
   showCoverageOnHover:false,
@@ -178,7 +178,18 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     sequence=(await s.json()).sequence;
     currentData=await loadData(sequence[state.index]);
     car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
-    addStopMarker(currentData);
+
+    // Obnovení všech dosud objevených PSČ po refreshi.
+    // Piny nejsou jen dočasná součást aktuálního běhu.
+    const discovered=sequence.slice(0,state.index+1);
+    const discoveredData=await Promise.all(discovered.map(loadData));
+    discoveredData.forEach(addStopMarker);
+
+    map.setView(
+      [currentData.representative_point.lat,currentData.representative_point.lon],
+      Math.max(map.getZoom(),13)
+    );
+    setTimeout(()=>map.invalidateSize(),100);
     updatePanel();
 
     if(state.route&&state.startedAt){
