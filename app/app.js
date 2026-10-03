@@ -21,6 +21,7 @@ function setLanguage(next){
   document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
   applyLanguageUI();
   if(currentData)updatePanel();
+  refreshPopupLanguages();
 }
 function applyLanguageUI(){
   document.getElementById('statusText').textContent=tr('ready');
@@ -89,6 +90,16 @@ function popupHtml(data){
     '</div></div>';
 }
 function markerPopup(data){return popupHtml(data);}
+function refreshPopupLanguages(){
+  stopMarkers.eachLayer(marker=>{
+    const data=marker._travelData;
+    if(data)marker.setPopupContent(markerPopup(data));
+  });
+  if(car._travelPopupData)car.setPopupContent(car._travelPopupData());
+  if(currentData && map._popup && map._popup.options?.travelArrival){
+    map._popup.setContent(markerPopup(currentData));
+  }
+}
 function popupOptions(){
   const mobile=window.innerWidth<=800;
   return {maxWidth:mobile?520:360,maxHeight:mobile?260:420,autoPan:false,keepInView:false};
@@ -98,6 +109,7 @@ function addStopMarker(data){
   const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
     icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
+  marker._travelData=data;
   marker.bindPopup(markerPopup(data),popupOptions());
   stopMarkers.addLayer(marker);
 }
@@ -127,7 +139,7 @@ function pos(k,d){
 function showArrival(){
   addStopMarker(currentData);
   const factHtml=markerPopup(currentData);
-  L.popup({...popupOptions(),closeButton:true,autoClose:false,closeOnClick:false}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
+  L.popup({...popupOptions(),closeButton:true,autoClose:false,closeOnClick:false,travelArrival:true}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
     .setContent(factHtml).openOn(map);
   setInfo('<strong>'+tr('arrivedAt')+' '+currentData.postcode+'</strong><p><b>'+localized(currentData,'representative_place',currentData.representative_place)+'</b></p>'+
     (currentData.county?'<p><b>'+tr('county')+':</b> '+currentData.county+'</p>':'')+
@@ -243,17 +255,15 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     }else{
       setInfo('<strong>'+tr('welcome')+'</strong><p>'+tr('welcomeText')+' <b>01067</b>.</p><p>'+tr('help')+'</p><p>📍 '+(lang==='cs'?'Pin zůstává na objeveném místě, auto ale pokračuje dál.':'The pin stays at the discovered place while the car continues.')+'</p>');
       setStatus(tr('ready'));
-      car.bindPopup(
-        '<div class="travel-popup-content">'+
+      car._travelPopupData=()=>'<div class="travel-popup-content">'+
         '<div class="travel-popup-title">'+tr('welcome')+'</div>'+
         '<div class="travel-popup-sub">'+(lang==='cs'?'Historické centrum Drážďan':'Historic centre of Dresden')+' · 01067</div>'+
         '<div class="travel-popup-scroll">'+
         '<p>'+tr('welcomeText')+' <b>01067</b>.</p>'+
         '<p>'+tr('help')+'</p>'+
         '<p>📍 '+(lang==='cs'?'Pin zůstává na objeveném místě, auto pokračuje dál.':'The pin stays at the discovered place while the car continues.')+'</p>'+
-        '</div></div>',
-        popupOptions()
-      ).openPopup();
+        '</div></div>';
+      car.bindPopup(car._travelPopupData(),popupOptions()).openPopup();
     }
   }catch(e){
     setStatus('Chyba');
