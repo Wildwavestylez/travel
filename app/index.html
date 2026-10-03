@@ -12,28 +12,38 @@
 <body>
   <header class="topbar">
     <div><div class="brand">TRAVEL</div><div class="subtitle">Germany Postcode Road Trip</div></div>
-    <div class="status"><span id="statusDot"></span><span id="statusText">Připraven</span></div>
+    <div class="top-actions">
+      <div class="language-switcher" id="languageSwitcher" aria-label="Jazyk">
+        <button type="button" data-lang="cs">CS</button>
+        <button type="button" data-lang="de">DE</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="it">IT</button>
+      </div>
+      <div class="status"><span id="statusDot"></span><span id="statusText">Připraven</span></div>
+    </div>
   </header>
   <main>
     <section class="panel">
-      <div class="eyebrow">CURRENT STOP</div>
+      <div class="eyebrow" id="currentStopLabel">AKTUÁLNÍ ZASTÁVKA</div>
       <div class="postcode" id="postcode">01067</div>
       <div class="place" id="place">Dresden</div>
       <div class="grid">
-        <div><span>Rychlost</span><strong>80 km/h</strong></div>
-        <div><span>Celkem km</span><strong id="totalKm">0.0</strong></div>
-        <div><span>Pořadí</span><strong id="sequence">1</strong></div>
+        <div><span id="speedLabel">Rychlost</span><strong>80 km/h</strong></div>
+        <div><span id="totalKmLabel">Celkem km</span><strong id="totalKm">0.0</strong></div>
+        <div><span id="sequenceLabel">Pořadí</span><strong id="sequence">1</strong></div>
       </div>
       <div class="card" id="info">
         <strong>Startovní bod</strong>
         <p>01067 Dresden. Zde začíná naše cesta přes Německo — PSČ po PSČ, vždy ve vzestupném pořadí.</p>
       </div>
       <button id="routeBtn">🚗 Odstartovat cestu</button>
-      <div class="small">Objevená PSČ zůstávají na mapě jako malé piny. Při odzoomování se automaticky slučují do clusterů.</div>
+      <div class="small"><span id="smallHelp">Objevená PSČ zůstávají na mapě jako malé piny. Při odzoomování se automaticky slučují do clusterů.</span></div>
     </section>
     <section id="map"></section>
   </main>
-  <footer>OSM map data · TRAVEL V1</footer>
+  <footer id="footerText">OSM map data · TRAVEL V1</footer>
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="./app.js"></script>
