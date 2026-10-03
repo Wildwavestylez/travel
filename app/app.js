@@ -58,7 +58,7 @@ function popupHtml(data){
 function markerPopup(data){return popupHtml(data);}
 function popupOptions(){
   const mobile=window.innerWidth<=800;
-  return {maxWidth:360,maxHeight:mobile?260:420,autoPan:!mobile,keepInView:!mobile};
+  return {maxWidth:mobile?520:360,maxHeight:mobile?260:420,autoPan:false,keepInView:false};
 }
 function addStopMarker(data){
   if(!data?.representative_point||stopMarkers.getLayers().some(m=>m.options.stopPostcode===data.postcode))return;
