@@ -40,26 +40,28 @@ async function loadData(pc){
   if(!r.ok)throw Error('Data pro PSČ '+pc+' není dostupná');
   return r.json();
 }
-function markerPopup(data){
+function popupHtml(data){
   const facts=(data.facts||[]).map(x=>'<li>'+x+'</li>').join('');
   const photo=data.photo&&data.photo.url
     ? '<p>📷 <a href="'+data.photo.url+'" target="_blank" rel="noopener">Foto</a></p>'
     : '<p class="photo-placeholder">📷 Fotografie bude doplněna později.</p>';
-  return '<strong>📍 '+data.postcode+' · '+data.city+'</strong>'+
-    (data.district?'<br><span>'+data.district+'</span>':'')+
-    (data.county?'<br><b>Okres:</b> '+data.county:'')+
-    (data.state?'<br><b>Bundesland:</b> '+data.state:'')+
-    '<hr><b>'+data.representative_place+'</b>'+
-    (facts?'<ul>'+facts+'</ul>':'')+photo;
+  return '<div class="travel-popup-content">'+
+    '<div class="travel-popup-title">📍 '+data.postcode+' · '+data.city+'</div>'+
+    (data.district?'<div class="travel-popup-sub">'+data.district+'</div>':'')+
+    '<div class="travel-popup-scroll">'+
+      (data.county?'<div><b>Okres:</b> '+data.county+'</div>':'')+
+      (data.state?'<div><b>Bundesland:</b> '+data.state+'</div>':'')+
+      '<hr><b>'+data.representative_place+'</b>'+
+      (facts?'<ul>'+facts+'</ul>':'')+photo+
+    '</div></div>';
 }
+function markerPopup(data){return popupHtml(data);}
 function addStopMarker(data){
   if(!data?.representative_point||stopMarkers.getLayers().some(m=>m.options.stopPostcode===data.postcode))return;
   const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
-    icon:pinIcon,
-    title:data.postcode+' '+data.city,
-    stopPostcode:data.postcode
+    icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
-  marker.bindPopup(markerPopup(data),{maxWidth:360});
+  marker.bindPopup(markerPopup(data),{maxWidth:360,maxHeight:window.innerWidth<=800?260:420,autoPan:true,keepInView:true});
   stopMarkers.addLayer(marker);
 }
 function draw(){
@@ -88,8 +90,15 @@ function pos(k,d){
 function showArrival(){
   addStopMarker(currentData);
   const factHtml=markerPopup(currentData);
-  L.popup({maxWidth:360,closeButton:true,autoClose:false,closeOnClick:false})
-    .setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
+  L.popup({
+    maxWidth:360,
+    maxHeight:window.innerWidth<=800?260:420,
+    closeButton:true,
+    autoClose:false,
+    closeOnClick:false,
+    autoPan:true,
+    keepInView:true
+  }).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
     .setContent(factHtml).openOn(map);
   setInfo('<strong>📍 Dorazili jsme do '+currentData.postcode+'</strong><p><b>'+currentData.representative_place+'</b></p>'+
     (currentData.county?'<p><b>Okres:</b> '+currentData.county+'</p>':'')+
@@ -205,7 +214,17 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
         '<p>Čeká nás cesta PSČ po PSČ. Na každé objevené zastávce zůstane na mapě malý pin s informacemi. Při odzoomování se piny automaticky seskupí do číselných clusterů.</p>'+
         '<p>📍 Pin zůstává na objeveném místě, auto ale pokračuje dál.</p>');
       setStatus('Připraven');
-      car.bindPopup('<strong>👋 Vítej v TRAVEL</strong><br>Historické centrum Drážďan · 01067',{maxWidth:300}).openPopup();
+      car.bindPopup(
+        '<div class="travel-popup-content">'+
+        '<div class="travel-popup-title">👋 Vítej v TRAVEL</div>'+
+        '<div class="travel-popup-sub">Historické centrum Drážďan · 01067</div>'+
+        '<div class="travel-popup-scroll">'+
+        '<p>Začínáme v historickém centru Drážďan.</p>'+
+        '<p>Čeká nás cesta PSČ po PSČ. Na každé objevené zastávce zůstane na mapě pin s informacemi.</p>'+
+        '<p>📍 Pin zůstává na objeveném místě, auto pokračuje dál.</p>'+
+        '</div></div>',
+        {maxWidth:360,maxHeight:window.innerWidth<=800?260:420,autoPan:true,keepInView:true}
+      ).openPopup();
     }
   }catch(e){
     setStatus('Chyba');
