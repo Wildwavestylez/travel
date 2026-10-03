@@ -105,13 +105,20 @@ function popupOptions(){
   return {maxWidth:mobile?520:360,maxHeight:mobile?260:420,autoPan:false,keepInView:false};
 }
 function addStopMarker(data){
-  if(!data?.representative_point||stopMarkers.getLayers().some(m=>m.options.stopPostcode===data.postcode))return;
+  if(!data?.representative_point)return null;
+  const existing=stopMarkers.getLayers().find(m=>m.options.stopPostcode===data.postcode);
+  if(existing){
+    existing._travelData=data;
+    existing.setPopupContent(markerPopup(data));
+    return existing;
+  }
   const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
     icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
   marker._travelData=data;
   marker.bindPopup(markerPopup(data),popupOptions());
   stopMarkers.addLayer(marker);
+  return marker;
 }
 function draw(){
   if(!state.route)return;
@@ -137,10 +144,11 @@ function pos(k,d){
   return routeLatLngs.at(-1);
 }
 function showArrival(){
-  addStopMarker(currentData);
-  const factHtml=markerPopup(currentData);
-  L.popup({...popupOptions(),closeButton:true,autoClose:false,closeOnClick:false,travelArrival:true}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
-    .setContent(factHtml).openOn(map);
+  const marker=addStopMarker(currentData);
+  if(marker){
+    marker.setLatLng([currentData.representative_point.lat,currentData.representative_point.lon]);
+    marker.openPopup();
+  }
   setInfo('<strong>'+tr('arrivedAt')+' '+currentData.postcode+'</strong><p><b>'+localized(currentData,'representative_place',currentData.representative_place)+'</b></p>'+
     (currentData.county?'<p><b>'+tr('county')+':</b> '+currentData.county+'</p>':'')+
     localizedFacts(currentData).map(x=>'<p>• '+x+'</p>').join('')+
