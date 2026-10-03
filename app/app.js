@@ -56,12 +56,16 @@ function popupHtml(data){
     '</div></div>';
 }
 function markerPopup(data){return popupHtml(data);}
+function popupOptions(){
+  const mobile=window.innerWidth<=800;
+  return {maxWidth:360,maxHeight:mobile?260:420,autoPan:!mobile,keepInView:!mobile};
+}
 function addStopMarker(data){
   if(!data?.representative_point||stopMarkers.getLayers().some(m=>m.options.stopPostcode===data.postcode))return;
   const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
     icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
-  marker.bindPopup(markerPopup(data),{maxWidth:360,maxHeight:window.innerWidth<=800?260:420,autoPan:true,keepInView:true});
+  marker.bindPopup(markerPopup(data),popupOptions());
   stopMarkers.addLayer(marker);
 }
 function draw(){
@@ -90,15 +94,7 @@ function pos(k,d){
 function showArrival(){
   addStopMarker(currentData);
   const factHtml=markerPopup(currentData);
-  L.popup({
-    maxWidth:360,
-    maxHeight:window.innerWidth<=800?260:420,
-    closeButton:true,
-    autoClose:false,
-    closeOnClick:false,
-    autoPan:true,
-    keepInView:true
-  }).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
+  L.popup({...popupOptions(),closeButton:true,autoClose:false,closeOnClick:false}).setLatLng([currentData.representative_point.lat,currentData.representative_point.lon])
     .setContent(factHtml).openOn(map);
   setInfo('<strong>📍 Dorazili jsme do '+currentData.postcode+'</strong><p><b>'+currentData.representative_place+'</b></p>'+
     (currentData.county?'<p><b>Okres:</b> '+currentData.county+'</p>':'')+
@@ -223,7 +219,7 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
         '<p>Čeká nás cesta PSČ po PSČ. Na každé objevené zastávce zůstane na mapě pin s informacemi.</p>'+
         '<p>📍 Pin zůstává na objeveném místě, auto pokračuje dál.</p>'+
         '</div></div>',
-        {maxWidth:360,maxHeight:window.innerWidth<=800?260:420,autoPan:true,keepInView:true}
+        popupOptions()
       ).openPopup();
     }
   }catch(e){
