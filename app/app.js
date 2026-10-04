@@ -109,6 +109,9 @@ if(typeof L.markerClusterGroup==='function'){
     maxClusterRadius:70,
     showCoverageOnHover:false,
     spiderfyOnMaxZoom:true,
+    // Keep markers available while the user pans the map so an open popup
+    // is not destroyed by the clusterer's viewport cleanup.
+    removeOutsideVisibleBounds:false,
     chunkedLoading:true,
     iconCreateFunction:cluster=>L.divIcon({
       className:'travel-cluster',
@@ -232,7 +235,17 @@ function refreshPopupLanguages(){
 }
 function popupOptions(){
   const mobile=window.innerWidth<=800;
-  return {maxWidth:mobile?520:360,maxHeight:mobile?260:420,autoPan:false,keepInView:false};
+  return {
+    maxWidth:mobile?520:360,
+    maxHeight:mobile?260:420,
+    autoPan:false,
+    keepInView:false,
+    // Panning/clicking the map must not dismiss an open popup.
+    // Leaflet's own X button remains the normal way to close it.
+    closeOnClick:false,
+    autoClose:true,
+    closeButton:true
+  };
 }
 function validPoint(p){
   return p && Number.isFinite(Number(p.lat)) && Number.isFinite(Number(p.lon))
