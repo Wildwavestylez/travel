@@ -65,3 +65,12 @@ main{display:grid;grid-template-columns:360px 1fr;height:calc(100dvh - 98px);min
 
 /* Journey reset */
 .reset-btn{background:#6b7280;margin-top:8px;font-size:13px;min-height:42px}.reset-btn:hover{background:#4b5563}.reset-btn:active{transform:scale(.99)}
+
+/* Persistent travel popup: lives above the map, so it stays visible even when its pin is panned off-screen. */
+.travel-persistent-popup{position:fixed;z-index:10000;width:min(520px,calc(100vw - 16px));max-height:min(420px,calc(100vh - 16px));box-sizing:border-box;background:#fff;color:#111827;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.28);padding:4px;}
+.travel-persistent-body{padding:6px 10px 8px;max-height:inherit;box-sizing:border-box;overflow:hidden;}
+.travel-persistent-close{position:absolute;right:5px;top:4px;z-index:2;width:32px;height:32px;border:0;background:transparent;color:#4b5563;font-size:28px;line-height:28px;padding:0;cursor:pointer;}
+.travel-persistent-close:active{background:#f3f4f6;border-radius:8px}
+.travel-persistent-popup .travel-popup-content{padding-right:28px}
+.travel-persistent-popup .travel-popup-scroll{max-height:360px}
+@media(max-width:800px){.travel-persistent-popup{width:calc(100vw - 12px);max-height:calc(100vh - 12px)}.travel-persistent-body{padding:5px 8px 7px}.travel-persistent-popup .travel-popup-scroll{max-height:210px}.travel-persistent-close{right:4px;top:3px;width:36px;height:36px;font-size:30px}}
