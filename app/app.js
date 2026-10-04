@@ -73,7 +73,16 @@ function applyLanguageUI(){
 }
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
 const STORE='travel-v3-state';
-const state=JSON.parse(localStorage.getItem(STORE)||'null')||{index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
+let state;
+try{
+  const saved=JSON.parse(localStorage.getItem(STORE)||'null');
+  state=(saved&&Number.isInteger(saved.index)&&saved.index>=0)
+    ? {...{index:0,totalKm:0,route:null,startedAt:null,routeKm:0},...saved}
+    : {index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
+}catch{
+  state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
+  localStorage.removeItem(STORE);
+}
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 
 const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[18,22],iconAnchor:[9,22]});
@@ -137,6 +146,17 @@ async function loadPostalData(){
     }];
   }));
   sequence=[...dataMap.keys()];
+
+  // A previously saved journey must never be allowed to point outside
+  // the current Supabase sequence. New records may be added at any time.
+  if(state.index>=sequence.length){
+    state.index=0;
+    state.totalKm=0;
+    state.route=null;
+    state.startedAt=null;
+    state.routeKm=0;
+    save();
+  }
 }
 
 async function loadData(pc){
@@ -178,8 +198,14 @@ function popupOptions(){
   const mobile=window.innerWidth<=800;
   return {maxWidth:mobile?520:360,maxHeight:mobile?260:420,autoPan:false,keepInView:false};
 }
+function validPoint(p){
+  return p && Number.isFinite(Number(p.lat)) && Number.isFinite(Number(p.lon))
+    ? {lat:Number(p.lat),lon:Number(p.lon)}
+    : null;
+}
 function addStopMarker(data){
-  if(!data?.representative_point)return null;
+  const point=validPoint(data?.representative_point);
+  if(!point)return null;
   const existing=stopMarkers.getLayers().find(m=>m.options.stopPostcode===data.postcode);
   if(existing){
     existing._travelData=data;
@@ -220,7 +246,8 @@ function pos(k,d){
 function showArrival(){
   const marker=addStopMarker(currentData);
   if(marker){
-    marker.setLatLng([currentData.representative_point.lat,currentData.representative_point.lon]);
+    const point=validPoint(currentData.representative_point);
+    if(point)marker.setLatLng([point.lat,point.lon]);
     marker.openPopup();
   }
   setInfo('<strong>'+tr('arrivedAt')+' '+currentData.postcode+'</strong><p><b>'+localized(currentData,'representative_place',currentData.representative_place)+'</b></p>'+
@@ -239,7 +266,8 @@ function arrived(){
   currentData=nextData;
   nextData=null;
   updatePanel();
-  car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
+  const point=validPoint(currentData.access_point)||validPoint(currentData.representative_point);
+  if(point)car.setLatLng([point.lat,point.lon]);
   showArrival();
 
   const btn=document.getElementById('routeBtn');
@@ -308,7 +336,10 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     applyLanguageUI();
     await loadPostalData();
     currentData=await loadData(sequence[state.index]);
-    car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
+    const startPoint=validPoint(currentData.access_point)||validPoint(currentData.representative_point);
+    const displayPoint=validPoint(currentData.representative_point)||startPoint;
+    if(!startPoint||!displayPoint)throw Error('PSČ '+currentData.postcode+' nemá platné souřadnice.');
+    car.setLatLng([startPoint.lat,startPoint.lon]);
 
     // Obnovení všech dosud objevených PSČ po refreshi.
     // Piny nejsou jen dočasná součást aktuálního běhu.
@@ -317,7 +348,7 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     discoveredData.forEach(addStopMarker);
 
     map.setView(
-      [currentData.representative_point.lat,currentData.representative_point.lon],
+      [displayPoint.lat,displayPoint.lon],
       Math.max(map.getZoom(),13)
     );
     refreshMapSize();
