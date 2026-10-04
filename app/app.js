@@ -405,6 +405,77 @@ function animate(){
   }
   tick();
 }
+const BACKGROUND_MAX_STOPS=5;
+let catchingUp=false;
+
+async function catchUpAfterBackground(){
+  if(catchingUp||document.visibilityState!=='visible'||!state.startedAt||!state.route)return;
+  catchingUp=true;
+  try{
+    let completed=0;
+    while(completed<BACKGROUND_MAX_STOPS&&state.startedAt&&state.route&&state.index<sequence.length-1){
+      const elapsed=Date.now()-state.startedAt;
+      const duration=state.routeKm/80*3600000;
+      if(elapsed<duration)break;
+
+      const overflow=elapsed-duration;
+      const completedData=nextData;
+      state.index++;
+      state.totalKm+=state.routeKm;
+      state.route=null;
+      state.startedAt=null;
+      state.routeKm=0;
+      save();
+
+      currentData=completedData;
+      nextData=null;
+      const point=validPoint(currentData.access_point)||validPoint(currentData.representative_point);
+      if(point)car.setLatLng([point.lat,point.lon]);
+      completed++;
+
+      if(state.index>=sequence.length-1)break;
+
+      nextData=await loadData(sequence[state.index+1]);
+      const from=[car.getLatLng().lat,car.getLatLng().lng];
+      const targetPoint=validPoint(nextData.access_point)||validPoint(nextData.representative_point);
+      if(!targetPoint)throw Error('PSČ '+nextData.postcode+' nemá platný access_point ani representative_point.');
+      const r=await route(from,[targetPoint.lat,targetPoint.lon]);
+      state.route=r;
+      state.routeKm=r.distance/1000;
+      // Preserve the time already spent beyond the completed route so the
+      // simulation can catch up through several stops after returning.
+      state.startedAt=Date.now()-overflow;
+      save();
+    }
+
+    if(completed>0){
+      updatePanel();
+      draw();
+      const btn=document.getElementById('routeBtn');
+      if(state.index<sequence.length-1){
+        btn.disabled=true;
+        btn.textContent=tr('traveling');
+        setStatus(tr('onRoad'),true);
+        animate();
+      }else{
+        btn.disabled=true;
+        btn.textContent='🏁 '+tr('done').replace(/^🏁\\s*/,'');
+        setStatus(tr('done'));
+        showArrival();
+      }
+    }
+  }catch(e){
+    setInfo('<strong>'+tr('routeError')+'</strong><p>'+e.message+'</p>');
+    setStatus(tr('error'));
+  }finally{
+    catchingUp=false;
+  }
+}
+
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible')catchUpAfterBackground();
+});
+
 async function start(auto=false){
   if(state.index>=sequence.length-1||state.startedAt)return;
   const btn=document.getElementById('routeBtn');
