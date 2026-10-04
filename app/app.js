@@ -94,10 +94,10 @@ let state;
 try{
   const saved=JSON.parse(localStorage.getItem(STORE)||'null');
   state=(saved&&Number.isInteger(saved.index)&&saved.index>=0)
-    ? {...{index:0,totalKm:0,route:null,startedAt:null,routeKm:0},...saved}
-    : {index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
+    ? {...{index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false},...saved}
+    : {index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false};
 }catch{
-  state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0};
+  state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false};
   localStorage.removeItem(STORE);
 }
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
@@ -377,6 +377,7 @@ async function start(auto=false){
   if(state.index>=sequence.length-1||state.startedAt)return;
   const btn=document.getElementById('routeBtn');
   btn.disabled=true;
+  closePersistentPopup();
   setStatus(tr('preparing'),true);
   try{
     nextData=await loadData(sequence[state.index+1]);
@@ -466,7 +467,11 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
         '<p>'+tr('help')+'</p>'+
         '<p>📍 '+(lang==='cs'?'Pin zůstává na objeveném místě, auto pokračuje dál.':'The pin stays at the discovered place while the car continues.')+'</p>'+
         '</div></div>';
-      openPersistentPopup(car,car._travelPopupData());
+      if(!state.welcomeShown && state.index===0 && !state.route && !state.startedAt){
+        openPersistentPopup(car,car._travelPopupData());
+        state.welcomeShown=true;
+        save();
+      }
     }
   }catch(e){
     setStatus('Chyba');
