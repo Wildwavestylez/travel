@@ -1,25 +1,42 @@
-const map=L.map('map',{preferCanvas:false,zoomControl:true}).setView([51.0504,13.7373],13);
-const osmLayer=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-  maxZoom:19,
-  minZoom:2,
-  attribution:'© OpenStreetMap contributors',
-  updateWhenIdle:false,
-  keepBuffer:2
-}).addTo(map);
+// TRAVEL map bootstrap: CDN failures must never prevent the base map from starting.
+(async()=>{
+  const loadScript=src=>new Promise((resolve,reject)=>{
+    const s=document.createElement('script');
+    s.src=src;
+    s.async=false;
+    s.onload=()=>resolve();
+    s.onerror=()=>reject(new Error('Nelze načíst '+src));
+    document.head.appendChild(s);
+  });
 
-// Leaflet needs an explicit size recalculation after responsive layout,
-// mobile browser chrome changes, and GitHub Pages loading.
-function refreshMapSize(){
-  if(!map) return;
-  requestAnimationFrame(()=>map.invalidateSize({pan:false,debounceMoveend:true}));
-}
-map.whenReady(refreshMapSize);
-window.addEventListener('resize',refreshMapSize,{passive:true});
-window.addEventListener('orientationchange',()=>setTimeout(refreshMapSize,250),{passive:true});
-window.addEventListener('pageshow',()=>setTimeout(refreshMapSize,100),{passive:true});
-setTimeout(refreshMapSize,100);
-setTimeout(refreshMapSize,500);
-setTimeout(refreshMapSize,1200);
+  if(!window.L){
+    try{await loadScript('https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js')}
+    catch(_){await loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js')}
+  }
+  if(!window.L) throw new Error('Leaflet se nepodařilo načíst.');
+
+  const map=L.map('map',{preferCanvas:false,zoomControl:true}).setView([51.0504,13.7373],13);
+  const osmLayer=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    maxZoom:19,
+    minZoom:2,
+    attribution:'© OpenStreetMap contributors',
+    updateWhenIdle:false,
+    keepBuffer:2
+  }).addTo(map);
+
+  // Leaflet needs an explicit size recalculation after responsive layout,
+  // mobile browser chrome changes, and GitHub Pages loading.
+  function refreshMapSize(){
+    if(!map) return;
+    requestAnimationFrame(()=>map.invalidateSize({pan:false,debounceMoveend:true}));
+  }
+  map.whenReady(refreshMapSize);
+  window.addEventListener('resize',refreshMapSize,{passive:true});
+  window.addEventListener('orientationchange',()=>setTimeout(refreshMapSize,250),{passive:true});
+  window.addEventListener('pageshow',()=>setTimeout(refreshMapSize,100),{passive:true});
+  setTimeout(refreshMapSize,100);
+  setTimeout(refreshMapSize,500);
+  setTimeout(refreshMapSize,1200);
 
 const LANG_STORE='travel-language';
 const LANGS=['cs','de','en','es','fr','it'];
@@ -86,17 +103,23 @@ try{
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 
 const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[18,22],iconAnchor:[9,22]});
-const stopMarkers=L.markerClusterGroup({
-  maxClusterRadius:70,
-  showCoverageOnHover:false,
-  spiderfyOnMaxZoom:true,
-  chunkedLoading:true,
-  iconCreateFunction:cluster=>L.divIcon({
-    className:'travel-cluster',
-    html:'<span>'+cluster.getChildCount()+'</span>',
-    iconSize:[34,34]
-  })
-}).addTo(map);
+let stopMarkers;
+if(typeof L.markerClusterGroup==='function'){
+  stopMarkers=L.markerClusterGroup({
+    maxClusterRadius:70,
+    showCoverageOnHover:false,
+    spiderfyOnMaxZoom:true,
+    chunkedLoading:true,
+    iconCreateFunction:cluster=>L.divIcon({
+      className:'travel-cluster',
+      html:'<span>'+cluster.getChildCount()+'</span>',
+      iconSize:[34,34]
+    })
+  }).addTo(map);
+}else{
+  // Cluster plugin is optional; plain markers still work if its CDN is down.
+  stopMarkers=L.layerGroup().addTo(map);
+}
 
 const car=L.circleMarker([51.0504,13.7373],{radius:9}).addTo(map);
 const save=()=>localStorage.setItem(STORE,JSON.stringify(state));
@@ -389,4 +412,5 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
     setStatus('Chyba');
     setInfo('<strong>'+tr('dataError')+'</strong><p>'+e.message+'</p>');
   }
+})();
 })();
