@@ -91,6 +91,18 @@ function setLanguage(next){
   if(currentData)updatePanel();
   refreshPopupLanguages();
 }
+function setCountry(next){
+  if(!COUNTRIES.some(c=>c.code===next&&c.enabled)||next===countryCode)return;
+  localStorage.setItem(COUNTRY_STORE,next);
+  window.location.reload();
+}
+function applyCountryUI(){
+  const select=document.getElementById('countrySelect');
+  if(!select)return;
+  select.innerHTML=COUNTRIES.map(c=>'<option value="'+c.code+'"'+(c.code===countryCode?' selected':'')+(c.enabled?'':' disabled')+'>'+c.flag+' '+c.name+(c.enabled?'':' — coming soon')+'</option>').join('');
+  select.value=countryCode;
+}
+
 function applyLanguageUI(){
   document.getElementById('statusText').textContent=tr('ready');
   document.getElementById('currentStopLabel').textContent=tr('currentStop');
