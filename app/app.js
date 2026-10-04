@@ -69,10 +69,43 @@ const hav=(a,b)=>{
   const x=Math.sin(d1/2)**2+Math.cos(a[0]*Math.PI/180)*Math.cos(b[0]*Math.PI/180)*Math.sin(d2/2)**2;
   return 2*R*Math.asin(Math.sqrt(x));
 };
+const SUPABASE_URL='https://ipnkjcpewtdaikiyzktv.supabase.co';
+const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
+const supabase=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+let dataMap=new Map();
+
+async function loadPostalData(){
+  const {data,error}=await supabase
+    .from('postal_codes')
+    .select('postal_code,city,district,region,representative_name,latitude,longitude,content')
+    .eq('country_code','DE')
+    .eq('status','published')
+    .order('postal_code',{ascending:true});
+  if(error)throw Error('Supabase: '+error.message);
+  if(!data?.length)throw Error('Supabase neobsahuje žádná publikovaná německá PSČ.');
+  dataMap=new Map(data.map(row=>{
+    const content=row.content||{};
+    return [row.postal_code,{
+      ...content,
+      postcode:row.postal_code,
+      city:content.city||row.city,
+      district:content.district||row.district,
+      state:content.state||row.region,
+      representative_place:content.representative_place||row.representative_name,
+      representative_point:content.representative_point||(
+        row.latitude!=null&&row.longitude!=null
+          ? {lat:row.latitude,lon:row.longitude}
+          : null
+      )
+    }];
+  }));
+  sequence=[...dataMap.keys()];
+}
+
 async function loadData(pc){
-  const r=await fetch('./data/germany/'+pc+'.json');
-  if(!r.ok)throw Error('Data pro PSČ '+pc+' není dostupná');
-  return r.json();
+  const data=dataMap.get(pc);
+  if(!data)throw Error('Data pro PSČ '+pc+' nejsou v Supabase dostupná');
+  return data;
 }
 function popupHtml(data){
   const facts=localizedFacts(data).map(x=>'<li>'+x+'</li>').join('');
@@ -232,9 +265,7 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
 (async()=>{
   try{
     applyLanguageUI();
-    const s=await fetch('./data/germany/sequence.json');
-    if(!s.ok)throw Error('Produkční sekvence není dostupná');
-    sequence=(await s.json()).sequence;
+    await loadPostalData();
     currentData=await loadData(sequence[state.index]);
     car.setLatLng([currentData.access_point.lat,currentData.access_point.lon]);
 
