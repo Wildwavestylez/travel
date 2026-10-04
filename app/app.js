@@ -14,7 +14,24 @@ const UI={
 let lang=localStorage.getItem(LANG_STORE)||'cs';
 const tr=k=>(UI[lang]&&UI[lang][k])||UI.cs[k]||k;
 const localized=(data,key,fallback)=>data?.translations?.[lang]?.[key] ?? data?.[key] ?? fallback;
-const localizedFacts=data=>localized(data,'facts',data?.facts||[]);
+
+// Nový formát: translations[lang].facts je pole objektů {id,title,text}.
+// Kompatibilita: staré záznamy mají facts jako prosté řetězce.
+const localizedFacts=data=>{
+  const translated=data?.translations?.[lang]?.facts;
+  if(Array.isArray(translated)&&translated.length)return translated.map(f=>{
+    if(typeof f==='string')return {id:null,title:'',text:f};
+    return {id:f.id||null,title:f.title||'',text:f.text||''};
+  });
+  const canonical=Array.isArray(data?.facts)?data.facts:[];
+  return canonical.map(f=>{
+    if(typeof f==='string')return {id:null,title:'',text:f};
+    return {id:f.id||null,title:f.title||'',text:f.text||''};
+  });
+};
+const factText=f=>typeof f==='string'?f:(f?.text||'');
+const factTitle=f=>typeof f==='string'?'':(f?.title||'');
+
 function setLanguage(next){
   if(!LANGS.includes(next))next='cs';
   lang=next;localStorage.setItem(LANG_STORE,lang);document.documentElement.lang=lang;
@@ -108,7 +125,11 @@ async function loadData(pc){
   return data;
 }
 function popupHtml(data){
-  const facts=localizedFacts(data).map(x=>'<li>'+x+'</li>').join('');
+  const facts=localizedFacts(data).map(f=>{
+    const title=factTitle(f);
+    const text=factText(f);
+    return '<li>'+(title?'<strong>'+title+'</strong><br>':'')+text+'</li>';
+  }).join('');
   const photo=data.photo&&data.photo.url
     ? '<p>📷 <a href="'+data.photo.url+'" target="_blank" rel="noopener">'+tr('photo')+'</a></p>'
     : '<p class="photo-placeholder">'+tr('photoLater')+'</p>';
@@ -184,7 +205,7 @@ function showArrival(){
   }
   setInfo('<strong>'+tr('arrivedAt')+' '+currentData.postcode+'</strong><p><b>'+localized(currentData,'representative_place',currentData.representative_place)+'</b></p>'+
     (currentData.county?'<p><b>'+tr('county')+':</b> '+currentData.county+'</p>':'')+
-    localizedFacts(currentData).map(x=>'<p>• '+x+'</p>').join('')+
+    localizedFacts(currentData).map(f=>'<p>• '+(factTitle(f)?'<b>'+factTitle(f)+'</b>: ':'')+factText(f)+'</p>').join('')+
     '<p class="continue">'+tr('carContinues')+'</p>');
 }
 function arrived(){
