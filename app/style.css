@@ -48,3 +48,7 @@ main{display:grid;grid-template-columns:360px 1fr;height:calc(100dvh - 98px);min
 .top-actions{display:flex;align-items:center;gap:12px}.language-switcher{display:flex;gap:3px;align-items:center}.language-switcher button{width:auto;min-width:34px;min-height:32px;margin:0;padding:5px 7px;border:1px solid #374151;border-radius:7px;background:#1f2937;color:#d1d5db;font-size:10px;font-weight:800;cursor:pointer;box-shadow:none}.language-switcher button.active{background:#fff;color:#111827;border-color:#fff}.language-switcher button:active{transform:scale(.97)}
 @media(max-width:800px){.top-actions{gap:7px}.language-switcher{gap:2px}.language-switcher button{min-width:30px;min-height:30px;padding:4px 5px;font-size:9px}.status{gap:5px}}
 @media(max-width:380px){.language-switcher button{min-width:27px;padding-left:4px;padding-right:4px}.top-actions{gap:5px}}
+
+
+/* Journey reset */
+.reset-btn{background:#6b7280;margin-top:8px;font-size:13px;min-height:42px}.reset-btn:hover{background:#4b5563}.reset-btn:active{transform:scale(.99)}
