@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "TRAVEL German postcode stop",
-  "description": "Canonical TRAVEL postcode record. This schema and CONTENT_STANDARD.md together are the only production standard for new postcode JSON records.",
+  "description": "Canonical TRAVEL German postcode record. This schema and CONTENT_STANDARD.md together are the only production standard for new postcode JSON records.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -94,8 +94,9 @@
     "translations": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["de", "en", "es", "fr", "it"],
+      "required": ["cs", "de", "en", "es", "fr", "it"],
       "properties": {
+        "cs": {"$ref": "#/$defs/translation"},
         "de": {"$ref": "#/$defs/translation"},
         "en": {"$ref": "#/$defs/translation"},
         "es": {"$ref": "#/$defs/translation"},
@@ -126,6 +127,7 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
+        "id",
         "title",
         "text",
         "category",
@@ -133,6 +135,10 @@
         "sources"
       ],
       "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
         "title": {
           "type": "string",
           "minLength": 1
@@ -211,9 +217,27 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "type": "string",
-            "minLength": 1
+            "$ref": "#/$defs/translated_fact"
           }
+        }
+      }
+    },
+    "translated_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "text"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }
