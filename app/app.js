@@ -1,5 +1,25 @@
-const map=L.map('map').setView([51.0504,13.7373],13);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+const map=L.map('map',{preferCanvas:false,zoomControl:true}).setView([51.0504,13.7373],13);
+const osmLayer=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  maxZoom:19,
+  minZoom:2,
+  attribution:'© OpenStreetMap contributors',
+  updateWhenIdle:false,
+  keepBuffer:2
+}).addTo(map);
+
+// Leaflet needs an explicit size recalculation after responsive layout,
+// mobile browser chrome changes, and GitHub Pages loading.
+function refreshMapSize(){
+  if(!map) return;
+  requestAnimationFrame(()=>map.invalidateSize({pan:false,debounceMoveend:true}));
+}
+map.whenReady(refreshMapSize);
+window.addEventListener('resize',refreshMapSize,{passive:true});
+window.addEventListener('orientationchange',()=>setTimeout(refreshMapSize,250),{passive:true});
+window.addEventListener('pageshow',()=>setTimeout(refreshMapSize,100),{passive:true});
+setTimeout(refreshMapSize,100);
+setTimeout(refreshMapSize,500);
+setTimeout(refreshMapSize,1200);
 
 const LANG_STORE='travel-language';
 const LANGS=['cs','de','en','es','fr','it'];
@@ -300,7 +320,9 @@ document.getElementById('routeBtn').addEventListener('click',()=>start(false));
       [currentData.representative_point.lat,currentData.representative_point.lon],
       Math.max(map.getZoom(),13)
     );
-    setTimeout(()=>map.invalidateSize(),100);
+    refreshMapSize();
+    setTimeout(refreshMapSize,250);
+    setTimeout(refreshMapSize,750);
     updatePanel();
     setLanguage(lang);
 
