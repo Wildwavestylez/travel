@@ -209,7 +209,7 @@ function validPoint(p){
     : null;
 }
 function addStopMarker(data){
-  const point=validPoint(data?.representative_point);
+  const point=validPoint(data?.access_point)||validPoint(data?.representative_point);
   if(!point)return null;
   const existing=stopMarkers.getLayers().find(m=>m.options.stopPostcode===data.postcode);
   if(existing){
@@ -217,7 +217,7 @@ function addStopMarker(data){
     existing.setPopupContent(markerPopup(data));
     return existing;
   }
-  const marker=L.marker([data.representative_point.lat,data.representative_point.lon],{
+  const marker=L.marker([point.lat,point.lon],{
     icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
   marker._travelData=data;
@@ -310,7 +310,9 @@ async function start(auto=false){
   try{
     nextData=await loadData(sequence[state.index+1]);
     const from=[car.getLatLng().lat,car.getLatLng().lng];
-    const to=[nextData.access_point.lat,nextData.access_point.lon];
+    const targetPoint=validPoint(nextData.access_point)||validPoint(nextData.representative_point);
+    if(!targetPoint)throw Error('PSČ '+nextData.postcode+' nemá platný access_point ani representative_point.');
+    const to=[targetPoint.lat,targetPoint.lon];
     const r=await route(from,to);
     state.route=r;
     state.routeKm=r.distance/1000;
