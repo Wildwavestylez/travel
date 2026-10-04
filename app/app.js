@@ -389,10 +389,15 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
     updatePanel();
     setLanguage(lang);
 
+    // Never restart a moving journey automatically after a page reload.
+    // The journey is started only by the user's button press.
     if(state.route&&state.startedAt){
-      nextData=await loadData(sequence[state.index+1]);
-      animate();
-    }else if(state.index>=sequence.length-1){
+      state.route=null;
+      state.startedAt=null;
+      state.routeKm=0;
+      save();
+    }
+    if(state.index>=sequence.length-1){
       setInfo('<strong>'+tr('allDone')+'</strong><p>'+tr('sequenceDone')+'</p>');
       document.getElementById('routeBtn').disabled=true;
       document.getElementById('routeBtn').textContent='🏁 Aktuální sekvence dokončena';
