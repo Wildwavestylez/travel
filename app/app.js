@@ -40,6 +40,20 @@
 
 const LANG_STORE='travel-language';
 const LANGS=['cs','de','en','es','fr','it'];
+const COUNTRIES=[
+  {code:'DE',flag:'🇩🇪',name:'Germany',start:'01067',enabled:true},
+  {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:null,enabled:false},
+  {code:'AT',flag:'🇦🇹',name:'Austria',start:null,enabled:false},
+  {code:'PL',flag:'🇵🇱',name:'Poland',start:null,enabled:false},
+  {code:'NL',flag:'🇳🇱',name:'Netherlands',start:null,enabled:false},
+  {code:'FR',flag:'🇫🇷',name:'France',start:null,enabled:false},
+  {code:'IT',flag:'🇮🇹',name:'Italy',start:null,enabled:false}
+];
+const COUNTRY_STORE='travel-country';
+let countryCode=localStorage.getItem(COUNTRY_STORE)||'DE';
+if(!COUNTRIES.some(c=>c.code===countryCode&&c.enabled))countryCode='DE';
+const countryConfig=()=>COUNTRIES.find(c=>c.code===countryCode)||COUNTRIES[0];
+const countryLabel=()=>countryConfig().flag+' '+countryConfig().name;
 const UI={
   cs:{ready:'Připraven',currentStop:'AKTUÁLNÍ ZASTÁVKA',speed:'Rychlost',totalKm:'Celkem km',order:'Pořadí',start:'🚗 Odstartovat cestu',traveling:'🚗 Cesta probíhá…',continue:'🚗 Auto pokračuje…',preparing:'Připravuji trasu…',onRoad:'Na cestě — 80 km/h',arrived:'Zastávka objevena — pokračujeme',done:'Aktuální sekvence dokončena',reset:'↩️ Resetovat cestu',error:'Chyba',startTitle:'Startovní bod',welcome:'👋 Vítej v TRAVEL',welcomeText:'Začínáme v historickém centru Drážďan, v PSČ',help:'Objevená PSČ zůstávají na mapě jako malé piny. Při odzoomování se automaticky slučují do clusterů.',district:'Městská část',county:'Okres',state:'Bundesland',photoLater:'📷 Fotografie bude doplněna později.',photo:'📷 Foto',arrivedAt:'📍 Dorazili jsme do',place:'Místo',carContinues:'🚗 Auto mezitím pokračuje na další PSČ…',routeError:'Chyba',dataError:'Chyba načtení dat',allDone:'🏁 Hotovo',sequenceDone:'Všechna aktuálně připravená PSČ byla dokončena.'},
   de:{ready:'Bereit',currentStop:'AKTUELLER HALT',speed:'Geschwindigkeit',totalKm:'Gesamt km',order:'Reihenfolge',start:'🚗 Fahrt starten',traveling:'🚗 Fahrt läuft…',continue:'🚗 Auto fährt weiter…',preparing:'Route wird vorbereitet…',onRoad:'Unterwegs — 80 km/h',arrived:'Halt entdeckt — wir fahren weiter',done:'Aktuelle Sequenz abgeschlossen',reset:'↩️ Reise zurücksetzen',error:'Fehler',startTitle:'Startpunkt',welcome:'👋 Willkommen bei TRAVEL',welcomeText:'Wir starten im historischen Zentrum von Dresden, PLZ',help:'Entdeckte PLZ bleiben als kleine Pins auf der Karte. Beim Herauszoomen werden sie automatisch gruppiert.',district:'Stadtteil',county:'Landkreis',state:'Bundesland',photoLater:'📷 Foto wird später ergänzt.',photo:'📷 Foto',arrivedAt:'📍 Wir sind angekommen bei',place:'Ort',carContinues:'🚗 Das Auto fährt inzwischen zur nächsten PLZ…',routeError:'Fehler',dataError:'Fehler beim Laden der Daten',allDone:'🏁 Fertig',sequenceDone:'Alle aktuell vorbereiteten PLZ wurden abgeschlossen.'},
@@ -85,11 +99,13 @@ function applyLanguageUI(){
   document.getElementById('sequenceLabel').textContent=tr('order');
   document.getElementById('smallHelp').textContent=tr('help');
   document.getElementById('footerText').textContent='OSM map data · TRAVEL V1';
+  applyCountryUI();
   const btn=document.getElementById('routeBtn');
   if(!state.startedAt && state.index<sequence.length-1)btn.textContent=tr('start');
 }
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
-const STORE='travel-v3-state';
+document.getElementById('countrySelect')?.addEventListener('change',e=>setCountry(e.target.value));
+const STORE='travel-v3-state-'+countryCode;
 let state;
 try{
   const saved=JSON.parse(localStorage.getItem(STORE)||'null');
@@ -150,7 +166,7 @@ let dataMap=new Map();
 // optional supabase-js CDN: if that CDN is blocked on a phone, the old
 // code stopped here and never attached the Start button handler.
 async function fetchPostalRows(){
-  const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=eq.published&order=postal_code.asc';
+  const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.'+encodeURIComponent(countryCode)+'&status=eq.published&order=postal_code.asc';
   const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
   if(!r.ok){
     let detail='HTTP '+r.status;
@@ -184,7 +200,11 @@ async function loadPostalData(){
       )
     }];
   }));
-  sequence=[...dataMap.keys()];
+  const allSequence=[...dataMap.keys()];
+  const startPostcode=countryConfig().start;
+  const startIndex=startPostcode?allSequence.indexOf(startPostcode):0;
+  if(startPostcode&&startIndex<0)throw Error('Startovní PSČ '+startPostcode+' pro '+countryLabel()+' není v Supabase publikované.');
+  sequence=startIndex>=0?allSequence.slice(startIndex):allSequence;
 
   // A previously saved journey must never be allowed to point outside
   // the current Supabase sequence. New records may be added at any time.
@@ -454,7 +474,7 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
     if(state.index>=sequence.length-1){
       setInfo('<strong>'+tr('allDone')+'</strong><p>'+tr('sequenceDone')+'</p>');
       document.getElementById('routeBtn').disabled=true;
-      document.getElementById('routeBtn').textContent='🏁 Aktuální sekvence dokončena';
+      document.getElementById('routeBtn').textContent='🏁 '+tr('done').replace(/^🏁\s*/,'');
       setStatus(tr('done'));
     }else{
       setInfo('<strong>'+tr('welcome')+'</strong><p>'+tr('welcomeText')+' <b>01067</b>.</p><p>'+tr('help')+'</p><p>📍 '+(lang==='cs'?'Pin zůstává na objeveném místě, auto ale pokračuje dál.':'The pin stays at the discovered place while the car continues.')+'</p>');
