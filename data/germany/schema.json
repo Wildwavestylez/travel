@@ -1,18 +1,26 @@
 {
-  "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"German postcode stop",
-  "type":"object",
-  "required":["postcode","city","county","state","representative_place","representative_point","access_point","facts","photo"],
-  "properties":{
-    "postcode":{"type":"string","pattern":"^[0-9]{5}$"},
-    "city":{"type":"string"},
-    "district":{"type":["string","null"]},
-    "county":{"type":["string","null"]},
-    "state":{"type":["string","null"]},
-    "representative_place":{"type":["string","null"]},
-    "representative_point":{"type":["object","null"],"properties":{"lat":{"type":"number"},"lon":{"type":"number"}}},
-    "access_point":{"type":["object","null"],"properties":{"lat":{"type":"number"},"lon":{"type":"number"}}},
-    "facts":{"type":"array","items":{"type":"string"}},
-    "photo":{"type":["object","null"],"properties":{"source":{"type":["string","null"]},"url":{"type":["string","null"]},"author":{"type":["string","null"]},"license":{"type":["string","null"]}}}
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "German postcode stop",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["postcode","city","district","county","state","representative_place","representative_point","access_point","facts","photo","verification","translations"],
+  "properties": {
+    "postcode": {"type":"string","pattern":"^[0-9]{5}$"},
+    "city": {"type":"string","minLength":1},
+    "district": {"type":["string","null"]},
+    "county": {"type":["string","null"]},
+    "state": {"type":["string","null"]},
+    "representative_place": {"type":"string","minLength":1},
+    "representative_point": {"type":"object","additionalProperties":false,"required":["lat","lon"],"properties":{"lat":{"type":"number","minimum":-90,"maximum":90},"lon":{"type":"number","minimum":-180,"maximum":180}}},
+    "access_point": {"type":"object","additionalProperties":false,"required":["lat","lon"],"properties":{"lat":{"type":"number","minimum":-90,"maximum":90},"lon":{"type":"number","minimum":-180,"maximum":180}}},
+    "facts": {"type":"array","minItems":3,"items":{"type":"string","minLength":1}},
+    "photo": {"type":["object","null"],"additionalProperties":false,"properties":{"source":{"type":["string","null"]},"url":{"type":["string","null"]},"author":{"type":["string","null"]},"license":{"type":["string","null"]}}},
+    "verification": {"type":"object","additionalProperties":false,"required":["plz_source","geographic_test_data","access_point_verified"],"properties":{"plz_source":{"type":"string","minLength":1},"geographic_test_data":{"type":"boolean"},"access_point_verified":{"type":"boolean"}}},
+    "translations": {"type":"object","additionalProperties":false,"required":["de","en","es","fr","it"],"properties":{
+      "de":{"$ref":"#/$defs/translation"},"en":{"$ref":"#/$defs/translation"},"es":{"$ref":"#/$defs/translation"},"fr":{"$ref":"#/$defs/translation"},"it":{"$ref":"#/$defs/translation"}
+    }}
+  },
+  "$defs": {
+    "translation": {"type":"object","additionalProperties":false,"required":["representative_place","facts"],"properties":{"representative_place":{"type":"string","minLength":1},"facts":{"type":"array","minItems":3,"items":{"type":"string","minLength":1}}}}
   }
 }
