@@ -166,7 +166,7 @@ let dataMap=new Map();
 // optional supabase-js CDN: if that CDN is blocked on a phone, the old
 // code stopped here and never attached the Start button handler.
 async function fetchPostalRows(){
-  const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.'+encodeURIComponent(countryCode)+'&status=eq.published&order=postal_code.asc';
+  const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=eq.published&order=postal_code.asc';
   const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
   if(!r.ok){
     let detail='HTTP '+r.status;
