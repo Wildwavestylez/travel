@@ -141,17 +141,24 @@ const hav=(a,b)=>{
 };
 const SUPABASE_URL='https://ipnkjcpewtdaikiyzktv.supabase.co';
 const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
-const supabase=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 let dataMap=new Map();
 
+// Use the Supabase REST API directly. The app must not depend on the
+// optional supabase-js CDN: if that CDN is blocked on a phone, the old
+// code stopped here and never attached the Start button handler.
+async function fetchPostalRows(){
+  const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=eq.published&order=postal_code.asc';
+  const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
+  if(!r.ok){
+    let detail='HTTP '+r.status;
+    try{const e=await r.json();if(e?.message)detail+=' — '+e.message}catch{}
+    throw Error('Supabase: '+detail);
+  }
+  return r.json();
+}
+
 async function loadPostalData(){
-  const {data,error}=await supabase
-    .from('postal_codes')
-    .select('postal_code,city,district,region,representative_name,latitude,longitude,content')
-    .eq('country_code','DE')
-    .eq('status','published')
-    .order('postal_code',{ascending:true});
-  if(error)throw Error('Supabase: '+error.message);
+  const data=await fetchPostalRows();
   if(!data?.length)throw Error('Supabase neobsahuje žádná publikovaná německá PSČ.');
   dataMap=new Map(data.map(row=>{
     const content=row.content||{};
