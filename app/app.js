@@ -223,29 +223,54 @@ function popupHtml(data){
     '</div></div>';
 }
 function markerPopup(data){return popupHtml(data);}
+let activePersistentPopup=null;
+
+function closePersistentPopup(){
+  if(activePersistentPopup?.el)activePersistentPopup.el.remove();
+  activePersistentPopup=null;
+}
+
+function openPersistentPopup(source, html){
+  closePersistentPopup();
+  const el=document.createElement('div');
+  el.className='travel-persistent-popup';
+  el.innerHTML=
+    '<button type="button" class="travel-persistent-close" aria-label="Close">×</button>'+
+    '<div class="travel-persistent-body">'+html+'</div>';
+  document.body.appendChild(el);
+
+  el.querySelector('.travel-persistent-close').addEventListener('click',e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    closePersistentPopup();
+  });
+
+  const rect=map.getContainer().getBoundingClientRect();
+  const point=map.latLngToContainerPoint(source.getLatLng());
+  const box=el.getBoundingClientRect();
+  const margin=8;
+  let left=rect.left+point.x-box.width/2;
+  let top=rect.top+point.y-box.height-14;
+
+  left=Math.max(margin,Math.min(left,window.innerWidth-box.width-margin));
+  top=Math.max(margin,Math.min(top,window.innerHeight-box.height-margin));
+
+  el.style.left=Math.round(left)+'px';
+  el.style.top=Math.round(top)+'px';
+
+  activePersistentPopup={el,source,html};
+}
+
 function refreshPopupLanguages(){
   stopMarkers.eachLayer(marker=>{
     const data=marker._travelData;
-    if(data)marker.setPopupContent(markerPopup(data));
+    if(data && activePersistentPopup?.source===marker){
+      openPersistentPopup(marker,markerPopup(data));
+    }
   });
-  if(car._travelPopupData)car.setPopupContent(car._travelPopupData());
-  if(currentData && map._popup && map._popup.options?.travelArrival){
-    map._popup.setContent(markerPopup(currentData));
+  if(car._travelPopupData && activePersistentPopup?.source===car){
+    openPersistentPopup(car,car._travelPopupData());
   }
-}
-function popupOptions(){
-  const mobile=window.innerWidth<=800;
-  return {
-    maxWidth:mobile?520:360,
-    maxHeight:mobile?260:420,
-    autoPan:false,
-    keepInView:false,
-    // Panning/clicking the map must not dismiss an open popup.
-    // Leaflet's own X button remains the normal way to close it.
-    closeOnClick:false,
-    autoClose:true,
-    closeButton:true
-  };
 }
 function validPoint(p){
   return p && Number.isFinite(Number(p.lat)) && Number.isFinite(Number(p.lon))
@@ -258,14 +283,16 @@ function addStopMarker(data){
   const existing=stopMarkers.getLayers().find(m=>m.options.stopPostcode===data.postcode);
   if(existing){
     existing._travelData=data;
-    existing.setPopupContent(markerPopup(data));
     return existing;
   }
   const marker=L.marker([point.lat,point.lon],{
     icon:pinIcon,title:data.postcode+' '+data.city,stopPostcode:data.postcode
   });
   marker._travelData=data;
-  marker.bindPopup(markerPopup(data),popupOptions());
+  marker.on('click',e=>{
+    L.DomEvent.stopPropagation(e);
+    openPersistentPopup(marker,markerPopup(marker._travelData));
+  });
   stopMarkers.addLayer(marker);
   return marker;
 }
@@ -297,7 +324,7 @@ function showArrival(){
   if(marker){
     const point=validPoint(currentData.representative_point);
     if(point)marker.setLatLng([point.lat,point.lon]);
-    marker.openPopup();
+    openPersistentPopup(marker,markerPopup(marker._travelData));
   }
   setInfo('<strong>'+tr('arrivedAt')+' '+currentData.postcode+'</strong><p><b>'+localized(currentData,'representative_place',currentData.representative_place)+'</b></p>'+
     (currentData.county?'<p><b>'+tr('county')+':</b> '+currentData.county+'</p>':'')+
@@ -439,7 +466,7 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
         '<p>'+tr('help')+'</p>'+
         '<p>📍 '+(lang==='cs'?'Pin zůstává na objeveném místě, auto pokračuje dál.':'The pin stays at the discovered place while the car continues.')+'</p>'+
         '</div></div>';
-      car.bindPopup(car._travelPopupData(),popupOptions()).openPopup();
+      openPersistentPopup(car,car._travelPopupData());
     }
   }catch(e){
     setStatus('Chyba');
