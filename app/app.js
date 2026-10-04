@@ -142,6 +142,11 @@ async function loadPostalData(){
         row.latitude!=null&&row.longitude!=null
           ? {lat:row.latitude,lon:row.longitude}
           : null
+      ),
+      access_point:content.access_point||content.representative_point||(
+        row.latitude!=null&&row.longitude!=null
+          ? {lat:row.latitude,lon:row.longitude}
+          : null
       )
     }];
   }));
