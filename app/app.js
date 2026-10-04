@@ -389,13 +389,19 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
     updatePanel();
     setLanguage(lang);
 
-    // Never restart a moving journey automatically after a page reload.
-    // The journey is started only by the user's button press.
-    if(state.route&&state.startedAt){
-      state.route=null;
-      state.startedAt=null;
-      state.routeKm=0;
-      save();
+    // Resume an actually running journey from the persisted state.
+    // The saved index is the last completed destination; the saved route/startedAt
+    // represent the leg that was already in progress when the page was reloaded.
+    // Do NOT reset the route: the car must continue from its real position.
+    if(state.route&&state.startedAt&&state.index<sequence.length-1){
+      try{
+        nextData=await loadData(sequence[state.index+1]);
+        draw();
+        animate();
+      }catch(e){
+        setInfo('<strong>'+tr('routeError')+'</strong><p>'+e.message+'</p>');
+        setStatus(tr('error'));
+      }
     }
     if(state.index>=sequence.length-1){
       setInfo('<strong>'+tr('allDone')+'</strong><p>'+tr('sequenceDone')+'</p>');
