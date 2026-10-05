@@ -75,7 +75,19 @@ Examples:
 - major historical event
 - person of exceptional significance with a strong connection to the place
 
-### Priority B — strong regional significance
+### Priority B — exceptional hidden gem
+A hidden gem can be small and local but may rank highly if it is unusually surprising, distinctive and well documented.
+
+Examples:
+- an unexpectedly important local site;
+- a rare or unusual surviving feature;
+- a little-known historical, cultural, technical or natural story;
+- a distinctive place or object with significance disproportionate to its size or fame;
+- a documented local fact that would strongly satisfy the TRAVEL “I know this place, but I did not know that” test.
+
+Hidden gems must still be genuinely interesting, specific, surprising or unusually useful. A small object is not automatically a Priority B fact.
+
+### Priority C — strong regional significance
 Examples:
 - important protected natural area
 - significant historic building
@@ -84,16 +96,13 @@ Examples:
 - significant historical personality
 - important transport/technical heritage
 
-### Priority C — local significance
+### Priority D — local significance
 Examples:
 - lesser-known local historical personality
 - local craft or industry
 - smaller historic structure
 - local historical event
 - locally important natural feature
-
-### Priority D — exceptional hidden gem
-A hidden gem can be small and local but may rank highly if it is unusually surprising, distinctive and well documented.
 
 Priority is contextual. A fact may move higher or lower when compared with the other facts for that postcode.
 
