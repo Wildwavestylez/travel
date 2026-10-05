@@ -1,221 +1,392 @@
-# TRAVEL — PROMPT FOR CREATING NEW GERMAN POSTAL-CODE RECORDS
+# TRAVEL — MASTER PROMPT PRO TVORBU NOVÝCH NĚMECKÝCH PSČ
 
-## Purpose
+## 1. ÚČEL
 
-This prompt is specifically for **creating new German postal-code records** for the TRAVEL project.
+Tento soubor je hlavní výrobní zadání pro tvorbu NOVÝCH záznamů německých poštovních směrovacích čísel (PLZ/PSČ) projektu TRAVEL.
 
-It is separate from:
+Cílem není vyrábět pouze technicky platné JSONy.
 
-`data/germany/prompt_rework.md`
+Cílem je vytvářet **vědomostně bohaté, důkladně prozkoumané, překvapivé, ověřitelné a redakčně kvalitní záznamy**, které mohou samy o sobě fungovat jako hodnotná znalostní databáze místa.
 
-Do not use this prompt to migrate or rewrite records that have already been completed.
+Každý vytvořený JSON musí kvalitativně odpovídat nejlepším existujícím vzorovým záznamům projektu, nikoli pouze minimálním požadavkům schématu.
 
-## Production specification
+Tento prompt platí společně s:
 
-Before doing any work, use these files as the authoritative production specification:
+- `data/germany/schema.json`
+- `data/germany/CONTENT_STANDARD.md`
+- `data/germany/sequence.json`
+
+**Schema určuje technickou strukturu.**
+**CONTENT_STANDARD určuje obsahovou a redakční kvalitu.**
+**sequence.json určuje výrobní posloupnost.**
+Tento prompt určuje, jak má být celý proces proveden.
+
+Neměň `schema.json` ani `CONTENT_STANDARD.md`, pokud k tomu není výslovný samostatný pokyn.
+
+---
+
+# 2. ZÁKLADNÍ PRAVIDLO
+
+Nikdy nevytvářej JSON pouze proto, aby byl formálně správný.
+
+Výsledkem musí být:
+
+> **maximum důvěryhodných, významných a překvapivých informací bez balastu.**
+
+Každý záznam musí odpovědět nejen na otázku:
+
+> „Co zde je?“
+
+ale především:
+
+> „Proč je toto místo zajímavé, čím je výjimečné a co by o něm běžný člověk pravděpodobně nevěděl?“
+
+Ideální výsledek vyvolá reakci:
+
+> „Tohle místo znám, ale tohle jsem o něm nevěděl.“
+
+A zároveň:
+
+> „Ověřil jsem zdroj a opravdu to tak je.“
+
+---
+
+# 3. AUTORITATIVNÍ PRAVIDLA
+
+Před každou výrobou načti a respektuj:
 
 1. `data/germany/schema.json`
 2. `data/germany/CONTENT_STANDARD.md`
+3. `data/germany/sequence.json`
 
-Do **not** modify either file.
+Pokud se obsah tohoto promptu dostane do rozporu se `schema.json` nebo `CONTENT_STANDARD.md`, mají tyto soubory přednost.
 
-The task is to discover/select real German postal codes that are not yet present in the database and create complete, high-quality records for them.
+Nikdy nevymýšlej vlastní pole, kategorie, priority nebo strukturu JSONu mimo aktuální schema.
 
-## Database
+---
 
-Use the existing Supabase project and the existing `public.postal_codes` table.
+# 4. VÝBĚR PSČ A SEQUENCE
 
-For Germany:
+Pracuj pouze se skutečnými německými PSČ.
 
-- `country_code = "DE"`
+Nikdy nepředpokládej, že každá číselná hodnota v určité řadě existuje.
 
-Before creating a record, check whether the exact postal code already exists.
+Postup:
 
-Never create duplicates.
+1. načti aktuální `sequence.json`;
+2. určuj další PSČ podle jeho skutečné posloupnosti;
+3. ověř, že PSČ skutečně existuje;
+4. zkontroluj databázi;
+5. pokud už existuje kompletní záznam, nevytvářej duplicitu;
+6. pokud je nové, zpracuj ho;
+7. po úspěšném vytvoření a validaci zapiš PSČ do `sequence.json` na správné místo;
+8. aktualizuj také odpovídající `count`;
+9. zachovej pořadí sequence.
 
-Do not overwrite an existing completed record merely because it is easier than creating a new one.
+**Nikdy nezapisuj PSČ do sequence dříve, než je jeho JSON úspěšně vytvořen a ověřen.**
 
-## Postal-code selection
+Pokud skutečné PSČ v sequence chybí, nevyplňuj mezeru vymyšleným číslem.
 
-Only use real German postal codes.
+Sequence musí obsahovat pouze skutečná PSČ určená pro produkci TRAVEL.
 
-Never assume that every numeric value in a postal-code range exists.
+---
 
-The sequence must follow the project's intended geographic/ascending postal-code progression.
+# 5. KONTROLA DATABÁZE
 
-When continuing an existing TRAVEL sequence:
+Před vytvořením každého nového záznamu zkontroluj existenci přesného PSČ v:
 
-1. determine the highest/last relevant completed German postal code
-2. identify the next real German postal code(s)
-3. verify that each postal code actually exists
-4. create only postal codes that are genuinely valid
+`public.postal_codes`
 
-Do not invent postal codes.
+pro:
 
-Do not fill gaps with fictional or guessed values.
+`country_code = "DE"`
 
-Prepare multiple records ahead when practical so the dataset can grow efficiently, but quality always takes priority.
+Nikdy nevytvářej duplicitu.
 
-## Research requirement
+Nikdy nepřepisuj hotový záznam jen proto, že je jednodušší ho vytvořit znovu.
 
-Every new postal code must be researched individually.
+Pokud databáze obsahuje neúplný nebo problémový záznam, nejprve ho vyhodnoť podle aktuálního workflow. Tento prompt je určen primárně pro NOVÉ záznamy, nikoli pro rework existujících záznamů.
 
-Do not generate records by simply changing the city name, coordinates or number from another postal code.
+---
 
-For each postal code:
+# 6. VÝZKUM KAŽDÉHO PSČ
 
-1. verify the postal code
-2. identify the relevant settlement/city
-3. identify district/county/state
-4. determine a suitable representative place
-5. determine representative coordinates
-6. determine an appropriate access point where required
-7. research meaningful facts
-8. research reliable sources
-9. create the complete multilingual record
-10. validate it
-11. save it to Supabase
+Každé PSČ musí být prozkoumáno individuálně.
 
-## Content quality
+Nikdy nevytvářej záznam tak, že pouze změníš:
 
-Follow `CONTENT_STANDARD.md` strictly.
+- číslo PSČ;
+- název města;
+- souřadnice;
+- okres;
+- několik slov v existujícím JSONu.
 
-The objective is:
+Každé místo má vlastní historii, geografii, kulturní význam a okolí.
 
-**maximum density of trustworthy, meaningful and surprising information without ballast.**
+Pro každé PSČ zjisti a ověř:
 
-Do not use artificial fact quotas.
+- skutečné PSČ;
+- město nebo obec;
+- městskou část / Ortsteil, pokud je relevantní;
+- okres / district;
+- county / správní celek podle schématu;
+- spolkovou zemi;
+- reprezentativní místo;
+- reprezentativní bod;
+- vhodný access point;
+- významné historické skutečnosti;
+- významné památky;
+- přírodu a krajinu;
+- relevantní okolí;
+- průmyslové, technické nebo dopravní dědictví;
+- významné osobnosti;
+- kulturní význam;
+- lokální příběhy;
+- skutečné hidden gems;
+- důvěryhodné zdroje.
 
-Some postal codes may genuinely deserve only a few facts.
+---
 
-Others may deserve many more.
+# 7. HLOUBKA VÝZKUMU
 
-Never add facts merely to make the JSON longer.
+Výzkum nesmí skončit u prvního výsledku vyhledávání.
 
-Every fact should pass the quality test:
+Nejdříve zjisti základní identitu místa.
 
-1. true
-2. sourceable
-3. genuinely interesting
-4. meaningful about the location
-5. potentially new to a normal user
-6. potentially useful to a professional user
-7. non-generic
-8. supported by a strong enough source
+Poté hledej jeho skutečný příběh.
 
-## Research areas
+Aktivně zkoumej:
 
-Where relevant, investigate:
+### Historie
+- vznik osídlení;
+- důvod jeho polohy;
+- historické události;
+- středověký vývoj;
+- městský nebo regionální rozvoj;
+- války;
+- změny hranic;
+- významná období;
+- poválečný vývoj.
+
+### Dědictví
+- významné památky;
+- archeologické lokality;
+- historické stavby;
+- sakrální stavby;
+- zámky, hrady a tvrze;
+- městská struktura;
+- historické technické objekty.
+
+### Příroda
+- národní parky;
+- přírodní parky;
+- chráněná území;
+- přírodní rezervace;
+- přírodní památky;
+- řeky;
+- jezera;
+- mokřady;
+- lesy;
+- hory;
+- údolí;
+- skály;
+- jeskyně;
+- geologické útvary;
+- výjimečné přírodní prvky.
+
+Přírodu nikdy nepoužívej jako výplň.
+
+Pokud je významná, vysvětli **proč**.
 
-- history
-- origins and development of the settlement
-- historical events
-- heritage
-- monuments
-- archaeological sites
-- industrial heritage
-- crafts
-- trade
-- transport history
-- railway history when genuinely significant
-- culture
-- important people
-- local stories
-- geography
-- rivers
-- lakes
-- forests
-- mountains
-- valleys
-- geological features
-- protected landscapes
-- national parks
-- nature parks
-- nature reserves
-- natural monuments
-- significant natural features
-- nearby connected nature and heritage
-- tourism significance
-- hidden gems
+### Kultura a průmysl
+- tradiční řemesla;
+- těžba;
+- výroba;
+- průmyslové dědictví;
+- porcelán;
+- textil;
+- sklářství;
+- hornictví;
+- energetika;
+- technické památky;
+- železnice;
+- významné dopravní trasy;
+- kulturní instituce.
 
-Nature and landscape are first-class content.
+### Lidé
+Hledej pouze osobnosti se skutečně významnou vazbou k místu.
 
-If a protected area or notable natural feature exists, explain why it matters rather than merely listing its name.
+Nestačí, že zde někdo jednou přespal nebo krátce pobýval.
 
-## "Why here?" principle
+### Okolí
+Přidej významné místo mimo přesnou hranici PSČ pouze tehdy, když existuje skutečná geografická nebo tematická vazba.
 
-Where possible, explain why the place exists or why it became significant.
+---
 
-Useful examples include:
+# 8. PRINCIP „PROČ PRÁVĚ TADY“
 
-- settlement location
-- river crossing
-- trade route
-- industrial development
-- mining
-- agriculture
-- railway connection
-- border position
-- strategic location
-- historical event
-- religious significance
-- spa development
-- tourism
-- environmental protection
+Kdekoliv je to možné, vysvětli důvod vzniku nebo významu místa.
 
-The record should help the user understand the place, not merely recognize its name.
+Hledej souvislosti jako:
 
-## Hidden gems
+- říční přechod;
+- obchodní cesta;
+- křižovatka cest;
+- hranice;
+- strategická poloha;
+- těžba;
+- průmysl;
+- zemědělství;
+- železnice;
+- přístav;
+- lázeňství;
+- náboženství;
+- vojenská poloha;
+- přírodní podmínky;
+- turistický význam.
 
-Look beyond the most obvious tourist attractions.
+Nejde o seznam dat.
 
-A lesser-known documented feature can be more valuable than a famous generic attraction.
+Jde o pochopení místa.
 
-Hidden gems must still be:
+---
 
-- real
-- relevant
-- sourceable
-- meaningful
-- geographically appropriate
+# 9. FAKTA — REDAKČNÍ KVALITA
 
-Never invent "hidden gems" simply to make the record interesting.
+Každý fakt musí projít testem:
 
-## Commercial content
+1. Je pravdivý?
+2. Je ověřitelný?
+3. Je skutečně spojený s místem?
+4. Je zajímavý?
+5. Přináší konkrétní informaci?
+6. Není generický?
+7. Není pouze přeformulovaným turistickým sloganem?
+8. Má dostatečně silný zdroj?
+9. Má pro uživatele skutečnou hodnotu?
+10. Pomáhá pochopit místo?
 
-Do not turn the dataset into free advertising.
+Pokud ne, fakt nepřidávej.
 
-Do not add hotels, restaurants, shops or ordinary businesses unless the entity itself has genuine documented historical, cultural, industrial, scientific or other significance.
+---
 
-Commercial information can later exist in a separate advertising/business layer.
+# 10. ŽÁDNÝ UMĚLÝ POČET FAKTŮ
 
-## Sources
+Nikdy neplatí:
 
-Prefer:
+> „Každé PSČ musí mít například 9 faktů.“
 
-1. official and primary sources
-2. archives
-3. museums
-4. universities
-5. specialist institutions
-6. high-quality journalism
-7. reliable regional/local sources
+Počet musí odpovídat skutečnému významu místa.
 
-Do not rely on weak SEO pages when stronger sources are available.
+Malé místo může mít 3 vynikající fakta.
 
-Do not invent facts.
+Mimořádně významné místo může mít 10, 15 nebo více kvalitních faktů.
 
-Do not invent URLs.
+Nikdy nepřidávej slabé informace jen proto, aby JSON vypadal bohatší.
 
-Every factual claim must be supported by an appropriate source.
+**Raději 6 skvělých faktů než 15 průměrných.**
 
-Top-level sources must conform to the current schema.
+---
 
-Fact-level source references must point to relevant source identifiers.
+# 11. SKLÁDÁNÍ PŘÍBĚHU
 
-## Current fact structure
+Fakta nemají být náhodnou sbírkou turistických zajímavostí.
 
-Facts must use the current structured format:
+Pokud je to vhodné, vytvoř logickou strukturu:
+
+**místo → krajina → vznik → historie → kultura/průmysl → významné osobnosti → dědictví → okolí → hidden gems**
+
+Fakta se mohou tematicky doplňovat.
+
+Nesmí však být redundantní.
+
+Dvě fakta, která říkají prakticky totéž, spoj do jednoho silnějšího faktu.
+
+---
+
+# 12. HIDDEN GEMS
+
+Hidden gem je jeden z nejdůležitějších prvků kvality TRAVEL.
+
+Hledej věci typu:
+
+- archeologická stopa ukrytá pod známou stavbou;
+- nečekaný historický detail;
+- málo známý průmyslový příběh;
+- vzácně dochovaný objekt;
+- překvapivá přírodní zvláštnost;
+- méně známá vazba na významnou osobnost;
+- místní událost s širším významem;
+- skutečnost, která zásadně mění pohled na známé místo.
+
+Hidden gem musí být:
+
+- konkrétní;
+- ověřitelný;
+- relevantní;
+- geograficky správný;
+- skutečně překvapivý nebo výjimečný.
+
+„V obci stojí starý kostel“ není hidden gem.
+
+„Pod dnešní stavbou se zachovaly archeologické pozůstatky původního opevnění“ hidden gem být může.
+
+Používej kategorii `hidden_gem` a prioritu podle skutečného významu.
+
+Díky aktuálnímu CONTENT_STANDARD může výjimečný hidden gem získat **Priority B**.
+
+---
+
+# 13. PRIORITY
+
+Používej pouze priority definované aktuálním CONTENT_STANDARD:
+
+- **A** — výjimečný význam;
+- **B** — výjimečný hidden gem;
+- **C** — silný regionální význam;
+- **D** — lokální význam.
+
+Priority nejsou dekorace.
+
+Nedávej A všemu.
+
+Nedělej umělou rovnováhu A/B/C/D.
+
+Priority musí vyjadřovat skutečnou významnost faktu v kontextu daného místa.
+
+---
+
+# 14. ZDROJE
+
+Preferuj v tomto pořadí:
+
+1. oficiální zdroje;
+2. primární zdroje;
+3. archivy;
+4. muzea;
+5. univerzity;
+6. odborné instituce;
+7. kvalitní média;
+8. spolehlivé regionální zdroje.
+
+Slabé SEO weby používej pouze tehdy, pokud neexistuje lepší zdroj.
+
+Nikdy:
+
+- nevymýšlej zdroje;
+- nevymýšlej URL;
+- nepoužívej neověřené tvrzení;
+- nepovažuj několik kopií stejného tvrzení za několik nezávislých zdrojů.
+
+Jeden výborný primární zdroj je lepší než šest slabých webů.
+
+Každý významný fakt musí být dohledatelný ke zdroji.
+
+---
+
+# 15. STRUKTURA FAKTU
+
+Každý fakt musí odpovídat aktuálnímu schema:
 
 ```json
 {
@@ -228,30 +399,17 @@ Facts must use the current structured format:
 }
 ```
 
-Fact IDs must be sequential within the record:
+ID musí být sekvenční:
 
-- `fact_001`
-- `fact_002`
-- `fact_003`
-- ...
+`fact_001`, `fact_002`, `fact_003` ...
 
-The same fact ID represents the same fact in every language.
+Stejné ID musí označovat stejný fakt ve všech šesti jazycích.
 
-## Categories and priorities
+---
 
-Use the categories defined by the current schema and CONTENT_STANDARD.md.
+# 16. ŠEST JAZYKŮ
 
-Do not force a fact into an inappropriate category.
-
-Priorities A/B/C/D must reflect the actual significance of the fact.
-
-Do not assign A to everything.
-
-Do not create artificial priority distributions.
-
-## Six languages
-
-Every new record must contain:
+Každý záznam musí obsahovat:
 
 - `cs`
 - `de`
@@ -260,157 +418,319 @@ Every new record must contain:
 - `fr`
 - `it`
 
-Each translation must contain:
+Každý jazyk musí mít:
 
-- `representative_place`
-- `facts`
+- `representative_place`;
+- všechny fakta.
 
-Each translated fact must contain:
+Každý překlad faktu musí mít:
 
-- `id`
-- `title`
-- `text`
+- stejné `id`;
+- `title`;
+- `text`.
 
-Fact IDs must correspond exactly across all six languages.
+Překlady nesmí být mechanicky zkrácené.
 
-Translations must preserve meaning and be natural in the target language.
+Musí zachovat:
 
-Do not simply copy Czech text into other languages.
+- význam;
+- konkrétní fakta;
+- data;
+- jména;
+- vztahy mezi událostmi;
+- význam zdělení.
 
-## Verification
-
-Before saving a new record, verify:
-
-- postal code exists
-- city/settlement
-- district/county
-- state
-- representative place
-- representative coordinates
-- access point
-- facts
-- sources
-- source URLs
-- translation structure
-- fact IDs
-- schema compliance
-
-The final JSON MUST validate against the current `schema.json`.
-
-If validation fails, fix it before saving.
-
-## Database write
-
-Create the new postal-code record in the existing `public.postal_codes` table.
-
-Use:
-
-- `country_code = "DE"`
-- the verified postal code
-- the researched location metadata
-- the complete JSON in the appropriate content field
-- appropriate source information
-- the current data version
-- the appropriate publication/validation status according to the existing project workflow
-
-Do not create a duplicate record.
-
-## Autonomous batch operation
-
-When this prompt is invoked, work autonomously.
-
-Do not ask for confirmation between postal codes.
-
-Do not ask:
-
-- "Should I continue?"
-- "Do you want the next one?"
-- "Shall I proceed?"
-
-Instead:
-
-**find next real postal code → research → create → validate → save → next**
-
-Continue until the requested batch is complete or a genuine system-level blocker prevents further work.
-
-## Resumability
-
-The process must be safe to run repeatedly.
-
-At the beginning of every run:
-
-1. inspect the existing database
-2. determine which postal codes already exist
-3. determine the current sequence position
-4. continue from the next appropriate real postal code
-
-Never restart from the beginning.
-
-Never overwrite completed records unnecessarily.
-
-If a run stops or times out, the next run must continue from the correct position.
-
-## Error handling
-
-If one postal code cannot be completed:
-
-1. record the error
-2. do not create an incomplete or invalid record
-3. continue with the next postal code if the problem is record-specific
-
-One problematic postal code must not stop the entire batch.
-
-At the end of a run, report:
-
-- postal codes attempted
-- successfully created
-- skipped because they already existed
-- failed
-- reasons for failures
-- next postal code/sequence position
-
-## Database safety
-
-Do not:
-
-- delete existing postal-code records
-- overwrite completed records without a clear reason
-- delete the postal_codes table
-- change schema.json
-- change CONTENT_STANDARD.md
-- change application code
-- change RLS policies
-- create duplicate postal codes
-- expose or store service-role credentials
-- replace the Supabase project
-
-## Quality over speed
-
-Do not sacrifice research quality for the number of records created.
-
-It is better to create fewer excellent postal-code records than many weak or repetitive records.
-
-Every record should be capable of standing on its own as a trustworthy piece of the TRAVEL knowledge base.
-
-## Completion
-
-When the requested batch is complete:
-
-- stop
-- provide a concise report
-- list created postal codes
-- list skipped postal codes
-- list failed postal codes
-- state the next sequence position
-
-Do not create placeholder records.
-
-Do not invent missing postal codes.
+Jazyk musí působit přirozeně pro rodilého čtenáře.
 
 ---
 
-**IMPORTANT:** This file is the dedicated prompt for **CREATING NEW GERMAN POSTAL-CODE RECORDS**.
+# 17. TECHNICKÁ VALIDITA JSON
 
-For reworking existing records, use:
+Před uložením musí být JSON validní proti aktuálnímu:
 
-`data/germany/prompt_rework.md`
+`data/germany/schema.json`
+
+Zkontroluj minimálně:
+
+- povinná pole;
+- přesný formát PSČ;
+- datové typy;
+- souřadnice;
+- povolené kategorie;
+- povolené priority;
+- fact ID;
+- source strukturu;
+- šest jazyků;
+- shodu fact ID mezi jazyky;
+- žádná nepovolená pole.
+
+**Nepoužívej pole, která schema nepovoluje.**
+
+Pokud schema vyžaduje konkrétní strukturu, schema má přednost před starším vzorem JSONu.
+
+---
+
+# 18. GEOGRAFICKÁ KONTROLA
+
+Reprezentativní bod musí skutečně reprezentovat dané místo.
+
+Access point musí být zvolen rozumně pro geografickou reprezentaci/virtuální příjezd podle pravidel projektu.
+
+Ověř:
+
+- že souřadnice leží v relevantním území;
+- že nedošlo k záměně města;
+- že nejde o střed sousedního místa;
+- že representative point a access point nejsou zaměněny.
+
+Pokud je geografický údaj nejistý, nehádej.
+
+---
+
+# 19. FOTOGRAFIE
+
+Pole `photo` musí odpovídat aktuálnímu schématu.
+
+Pokud není ověřená fotografie vhodná pro uložení, použij hodnotu povolenou aktuálním schematem, typicky `null`.
+
+Nevymýšlej autora, licenci ani URL.
+
+---
+
+# 20. DATABASE ZÁPIS
+
+Po dokončení výzkumu vytvoř kompletní záznam v:
+
+`public.postal_codes`
+
+s:
+
+`country_code = "DE"`
+
+Zapiš:
+
+- správné PSČ;
+- správná metadata;
+- kompletní JSON do příslušného `content`;
+- zdroje podle aktuální struktury databáze;
+- aktuální `data_version`;
+- správný status podle existujícího workflow.
+
+Nikdy neukládej nekompletní JSON jen proto, aby záznam existoval.
+
+---
+
+# 21. SEQUENCE — POVINNÝ KROK PO ÚSPĚŠNÉM ZÁPISU
+
+Po úspěšném zápisu a ověření databázového záznamu musí být PSČ zapsáno také do:
+
+`data/germany/sequence.json`
+
+Pravidla:
+
+1. PSČ musí být skutečné;
+2. musí být zpracované;
+3. databázový záznam musí existovat;
+4. JSON musí být validní;
+5. PSČ musí být vloženo na správné místo v pořadí;
+6. nesmí vzniknout duplicita;
+7. aktualizuj `count`;
+8. zachovej ostatní položky beze změny.
+
+**Sequence nikdy nesmí tvrdit, že bylo PSČ zpracováno, pokud jeho JSON nebyl skutečně úspěšně vytvořen a ověřen.**
+
+---
+
+# 22. FINÁLNÍ REDAKČNÍ AUDIT
+
+Před každým uložením proveď samostatnou redakční kontrolu.
+
+Ptej se:
+
+### Obsah
+- Je záznam opravdu vědomostně bohatý?
+- Obsahuje historii, pokud je relevantní?
+- Obsahuje přírodu, pokud je relevantní?
+- Obsahuje významné dědictví?
+- Obsahuje okolí, pokud má skutečnou vazbu?
+- Hledal jsem hidden gem?
+- Nezůstala mi důležitá známá skutečnost mimo záznam?
+
+### Kvalita
+- Je každý fakt konkrétní?
+- Je každý fakt zajímavý?
+- Je každý fakt ověřitelný?
+- Neobsahuje text balast?
+- Neopakují se fakta?
+- Nejsou priority přehnané?
+- Jsou hidden gems opravdu hidden gems?
+
+### Zdroje
+- Je každý důležitý claim dohledatelný?
+- Jsou použity co nejsilnější dostupné zdroje?
+- Nejsou URL vymyšlené?
+
+### Překlady
+- Existuje všech šest jazyků?
+- Mají všechny stejné fact ID?
+- Nechybí žádný fakt?
+- Jsou překlady významově úplné a přirozené?
+
+### Technika
+- Projde JSON schema?
+- Jsou souřadnice správné?
+- Nejsou žádná nepovolená pole?
+- Neexistuje duplicita v databázi?
+
+Pokud odpověď na některou z důležitých otázek zní NE, záznam ještě není hotový.
+
+---
+
+# 23. ZÁKAZ „DOBRÉHO DOST“
+
+Neakceptuj první použitelnou verzi.
+
+Pokud výzkum odhalí lepší zdroj, lepší fakt nebo zajímavější souvislost, použij ji.
+
+Pokud je text příliš obecný, přepiš ho.
+
+Pokud je hidden gem slabý, vyřaď ho a hledej lepší.
+
+Pokud je fakt pouze turistická fráze, nahraď ho konkrétní informací.
+
+Pokud místo skutečně nemá více kvalitních faktů, nepřidávej balast.
+
+**Výsledkem musí být nejlepší dostupná verze, ne první verze, která projde schematem.**
+
+---
+
+# 24. AUTONOMNÍ PROVOZ
+
+Po spuštění pracuj samostatně:
+
+**najdi další PSČ → ověř → prozkoumej → napiš fakta → najdi zdroje → vytvoř JSON → přelož → validuj → zapiš do databáze → ověř zápis → zapiš do sequence → pokračuj**
+
+Nezastavuj po každém PSČ kvůli otázce:
+
+- „Mám pokračovat?“
+- „Chceš další?“
+- „Mám to uložit?“
+- „Je to takhle dobré?“
+
+Pokud není skutečný systémový problém, pokračuj autonomně.
+
+---
+
+# 25. CHYBY
+
+Pokud nelze jedno PSČ dokončit:
+
+1. nevytvářej neúplný záznam;
+2. nezapisuj ho do sequence;
+3. zaznamenej důvod;
+4. pokračuj dalším PSČ, pokud problém není systémový.
+
+Jedno problematické PSČ nesmí bezdůvodně zastavit celou dávku.
+
+---
+
+# 26. RESUMOVATELNOST
+
+Každé spuštění musí bezpečně navázat tam, kde předchozí skončilo.
+
+Na začátku:
+
+1. načti sequence;
+2. zjisti aktuální pozici;
+3. zkontroluj databázi;
+4. zjisti již vytvořené záznamy;
+5. pokračuj dalším vhodným skutečným PSČ.
+
+Nikdy zbytečně nezačínej znovu od začátku.
+
+---
+
+# 27. BEZPEČNOST
+
+Nikdy:
+
+- nemaž existující záznamy;
+- nemaž databázovou tabulku;
+- nepřepisuj hotové záznamy bez důvodu;
+- neměň schema;
+- neměň CONTENT_STANDARD;
+- neměň aplikační kód;
+- neměň RLS bez výslovného pokynu;
+- nevytvářej duplicity;
+- neukládej service-role klíče;
+- neměň Supabase projekt.
+
+Tento prompt má oprávnění pouze k produkci nových dat a aktualizaci příslušné sequence podle výše uvedených pravidel.
+
+---
+
+# 28. PRIORITA KVALITY
+
+Pokud je konflikt mezi:
+
+**rychlostí × množstvím × kvalitou**
+
+vždy vyhrává:
+
+**KVALITA.**
+
+Je lepší vytvořit jeden mimořádně kvalitní záznam než deset slabých.
+
+Každý záznam má být schopen obstát jako samostatná znalostní jednotka TRAVEL.
+
+---
+
+# 29. VÝSTUP PO DOKONČENÍ DÁVKY
+
+Po dokončení dávky uveď stručně:
+
+- zpracovaná PSČ;
+- úspěšně vytvořená PSČ;
+- přeskočená PSČ;
+- neúspěšná PSČ;
+- důvody případných chyb;
+- poslední zpracované PSČ;
+- další PSČ v sequence.
+
+Nevypisuj zbytečně celý JSON, pokud o něj není požádáno.
+
+---
+
+# 30. FINÁLNÍ DEFINICE HOTOVÉHO ZÁZNAMU
+
+Záznam je HOTOVÝ pouze tehdy, když současně platí:
+
+1. PSČ je skutečné;
+2. nebyla vytvořena duplicita;
+3. místo bylo individuálně prozkoumáno;
+4. fakta jsou konkrétní a významná;
+5. obsah odpovídá CONTENT_STANDARD;
+6. byly aktivně hledány hidden gems;
+7. příroda a okolí byly posouzeny;
+8. zdroje jsou důvěryhodné;
+9. všechna tvrzení jsou ověřitelná;
+10. JSON odpovídá schema.json;
+11. existuje všech šest jazyků;
+12. překlady odpovídají faktům;
+13. souřadnice jsou ověřené;
+14. záznam byl úspěšně uložen do databáze;
+15. PSČ bylo následně správně zapsáno do sequence.json.
+
+**Teprve potom pokračuj na další PSČ.**
+
+---
+
+## HLAVNÍ VÝROBNÍ PRINCIP
+
+TRAVEL nemá být databáze, která pouze ví, **kde co je**.
+
+TRAVEL má být databáze, která umí vysvětlit:
+
+**co tam je → proč to tam je → proč je to důležité → co je na tom překvapivé → co o tom stojí za to vědět → a odkud to víme.**
+
+Každý nový německý postcode JSON musí být vytvořen právě tímto způsobem.
