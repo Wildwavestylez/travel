@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD v1.0
+# TRAVEL — CONTENT STANDARD v1.1
 
 ## 1. Single source of truth
 
@@ -21,15 +21,112 @@ TRAVEL is not a database that tries to fill every postcode with the same amount 
 
 TRAVEL is a curated database of places. Each postcode receives as much information as the place genuinely deserves.
 
-Quality and relevance are more important than quantity.
+Quality, relevance and local significance are more important than quantity.
 
 A postcode may have 3 excellent facts. Another may have 15. Both are correct.
 
 NEVER invent or expand content merely to hit a quota.
 
+The target is not:
+
+> “How many facts can we put into this postcode?”
+
+The target is:
+
+> “What would a visitor, researcher or local tourism professional genuinely want to know about this place if they arrived here?”
+
 ---
 
-## 3. What every postcode should answer
+## 3. Mandatory discovery before writing
+
+Before writing any facts, the creator MUST first perform a structured significance check of the postcode and its relevant surroundings.
+
+Do not begin by collecting random facts.
+
+First determine what the place is and what stories define it.
+
+### 3.1 Local significance check
+
+Actively investigate whether the postcode or its relevant geographic surroundings are connected with:
+
+- major historical events;
+- important settlements or historic villages;
+- UNESCO or other internationally significant heritage;
+- nationally or regionally important monuments;
+- important people;
+- important religious, cultural or artistic history;
+- major industries, factories or technical achievements;
+- famous brands or products;
+- automobile, railway, aviation, shipping or other transport history;
+- mining, energy or other major resource industries;
+- important trade routes or infrastructure;
+- military history;
+- major scientific or educational institutions;
+- protected landscapes and nature;
+- unusual geological or archaeological features;
+- major tourist attractions;
+- distinctive local traditions;
+- unusual documented stories or hidden gems;
+- other facts with significance clearly greater than ordinary local trivia.
+
+### 3.2 Significant stories must not be missed
+
+If research reveals a historically, culturally, technically, industrially, naturally or regionally important story, it MUST be considered for inclusion even if:
+
+- it is not a conventional tourist attraction;
+- it is associated with an industry or product rather than a monument;
+- it is no longer active;
+- it is mainly remembered by a particular generation;
+- it is surprising rather than famous;
+- the place has already reached an arbitrary number of facts.
+
+A significant industrial or cultural story is not filler.
+
+For example, a place known for a major automobile brand, vehicle production, railway technology or industrial product should not receive only generic “history” facts while that defining story is omitted.
+
+---
+
+## 4. Geographic scope — the postcode is not the whole story
+
+The postcode boundary is NOT automatically the boundary of the content.
+
+A postcode may contain several districts, villages, industrial areas, natural areas or historically independent settlements.
+
+Before writing, identify the meaningful places that geographically belong to the postcode.
+
+Relevant surrounding places may also be included when there is a genuine geographic, historical, natural or thematic connection.
+
+The connection MUST be clear in the fact.
+
+Do NOT attach famous places to a postcode merely because they are somewhere in the same city or region.
+
+---
+
+## 5. Build the story before building the fact list
+
+After research, identify the strongest stories and organize them conceptually before writing individual facts.
+
+Prefer a coherent local narrative where one exists.
+
+A strong sequence may look like:
+
+**origin → development → important people → industry/technology → cultural significance → present-day legacy → nature/hidden gem**
+
+This is especially valuable when several facts describe different periods of the same local story.
+
+Example:
+
+A city with a major automotive history may have a meaningful chain such as:
+
+**founder/person → company/brand → later industrial development → vehicle production → museum/present-day legacy**
+
+Such connected facts are often more valuable than five unrelated attractions.
+
+Do not force a narrative where none exists.
+
+---
+
+## 6. What every postcode should answer
 
 A user arriving virtually at a postcode should understand:
 
@@ -43,7 +140,7 @@ A professional tourism, heritage or regional-development user should ideally fin
 
 ---
 
-## 4. Content categories
+## 7. Content categories
 
 Facts may belong to one or more of these conceptual areas:
 
@@ -62,23 +159,28 @@ These are content categories, NOT a fixed order.
 
 ---
 
-## 5. Priority
+## 8. Priority
 
 Categories do not have equal automatic priority. The importance of the individual fact determines its position.
 
 ### Priority A — exceptional significance
+
 Examples:
+
 - UNESCO designation
 - national park
 - nationally or internationally important monument
 - exceptional natural feature
 - major historical event
 - person of exceptional significance with a strong connection to the place
+- historically important company, invention, technology or industrial achievement with national or international relevance
 
 ### Priority B — exceptional hidden gem
+
 A hidden gem can be small and local but may rank highly if it is unusually surprising, distinctive and well documented.
 
 Examples:
+
 - an unexpectedly important local site;
 - a rare or unusual surviving feature;
 - a little-known historical, cultural, technical or natural story;
@@ -88,16 +190,21 @@ Examples:
 Hidden gems must still be genuinely interesting, specific, surprising or unusually useful. A small object is not automatically a Priority B fact.
 
 ### Priority C — strong regional significance
+
 Examples:
+
 - important protected natural area
 - significant historic building
 - important industrial heritage
 - major regional tourist attraction
 - significant historical personality
 - important transport/technical heritage
+- regionally important company, product or production history
 
 ### Priority D — local significance
+
 Examples:
+
 - lesser-known local historical personality
 - local craft or industry
 - smaller historic structure
@@ -108,7 +215,7 @@ Priority is contextual. A fact may move higher or lower when compared with the o
 
 ---
 
-## 6. Nature and landscape
+## 9. Nature and landscape
 
 Nature is a first-class TRAVEL topic, not filler.
 
@@ -135,9 +242,7 @@ If no meaningful natural feature is relevant, do not invent one.
 
 ---
 
-## 7. Relevant surroundings
-
-The postcode boundary is NOT the boundary of the story.
+## 10. Relevant surroundings
 
 Important places in the surrounding area may be included when there is a genuine geographic or thematic connection, especially:
 
@@ -148,16 +253,18 @@ Important places in the surrounding area may be included when there is a genuine
 - historic towns
 - important tourist regions
 - significant cultural landscapes
+- historically connected industrial or cultural sites
 
 The connection to the postcode should be clear.
 
 ---
 
-## 8. History
+## 11. History
 
 Historical information should explain the place rather than become a list of dates.
 
 Prefer:
+
 - events that changed the place;
 - reasons the settlement developed where it did;
 - industry and crafts;
@@ -167,13 +274,44 @@ Prefer:
 - important buildings;
 - spa history;
 - notable people;
-- surviving traces of the past.
+- surviving traces of the past;
+- technological and industrial development;
+- long-term cultural or social legacy.
 
 A person or minor event should normally be integrated into the relevant historical story rather than presented as isolated trivia.
 
 ---
 
-## 9. Hidden gems
+## 12. Industry, technology and cultural memory
+
+Industrial and technical history deserves the same editorial attention as monuments and traditional tourism.
+
+Actively check for:
+
+- factories and production sites;
+- important brands;
+- vehicles and machinery;
+- inventions and engineering;
+- railway and transport technology;
+- mining and energy;
+- shipbuilding;
+- aviation;
+- chemical, textile, glass, metal or other major industries;
+- products strongly associated with the place;
+- museums preserving industrial history;
+- stories that remain important to regional or generational cultural memory.
+
+Do not reduce such history to a company name and a date.
+
+Explain why the connection matters.
+
+If a product, brand or technology was widely known beyond the locality, that broader significance should be reflected in the fact.
+
+Where a story has strong generational or cultural memory, it may be included when it is documented and relevant. Clearly distinguish documented history from folklore, popular sayings or retrospective local memory.
+
+---
+
+## 13. Hidden gems
 
 A hidden gem must be genuinely interesting, specific, surprising or unusually useful.
 
@@ -185,21 +323,46 @@ If the church has an unusual history, architecture, event, connection or other d
 
 Hidden gems require reliable sources just like major facts.
 
+The ideal hidden gem should create the reaction:
+
+> “I never needed to know this, but I am very glad I know it now.”
+
 ---
 
-## 10. Facts must have context
+## 14. Facts must have context
 
 Facts should not be dumped as disconnected trivia.
 
 Where appropriate, connect them into a coherent story:
 
-place → landscape → history → industry/culture → people → present-day significance.
+**place → landscape → history → industry/culture → people → present-day significance.**
 
 A minor fact can be valuable when it helps explain a larger story.
 
+When several facts belong to one major local story, avoid unnecessary repetition. Each fact should add a distinct piece of information.
+
 ---
 
-## 11. Quality over source count
+## 15. No arbitrary fact quota
+
+There is NO fixed minimum or maximum number of facts.
+
+Do not force every postcode to have:
+
+- the same number of facts;
+- the same number of categories;
+- the same number of hidden gems;
+- the same number of sources.
+
+The correct number is the number required to represent the genuinely significant stories of the place without repetition or filler.
+
+However, a postcode with an unusually rich history should NOT be artificially limited merely to match smaller postcodes.
+
+A major city district, industrial center or historically exceptional place may legitimately require substantially more facts than a small rural postcode.
+
+---
+
+## 16. Quality over source count
 
 There is no required number of sources.
 
@@ -220,7 +383,7 @@ Do not treat repeated copies of the same claim as independent confirmation.
 
 ---
 
-## 12. Source traceability
+## 17. Source traceability
 
 Important factual claims must be traceable to their sources.
 
@@ -238,7 +401,7 @@ Local confirmation may be added in the future as an additional verification laye
 
 ---
 
-## 13. Anti-bloat rule
+## 18. Anti-bloat rule
 
 Never manufacture content to make a postcode look richer.
 
@@ -255,9 +418,11 @@ Such statements are useful only when the specific fact has meaningful significan
 
 If there are only 3 worthwhile facts, publish 3.
 
+More facts are NOT automatically better.
+
 ---
 
-## 14. The WOW test
+## 19. The WOW test
 
 Before a fact is included, ask:
 
@@ -269,6 +434,8 @@ Before a fact is included, ask:
 6. Is it non-generic?
 7. Is it free of promotional filler?
 8. Is the source strong enough for the claim?
+9. Does it represent a significant local story that would otherwise be missed?
+10. If it belongs to a larger story, does it add something new rather than repeat another fact?
 
 If the answer is no, improve the fact, find a better source, or leave it out.
 
@@ -282,11 +449,12 @@ Then:
 
 ---
 
-## 15. Commercial neutrality
+## 20. Commercial neutrality
 
 Do not turn factual content into free advertising.
 
 Do not routinely promote:
+
 - hotels;
 - restaurants;
 - local companies;
@@ -299,9 +467,10 @@ Future advertising belongs in a separate commercial layer.
 
 ---
 
-## 16. No invented symmetry
+## 21. No invented symmetry
 
 Do not force every postcode to contain the same number of:
+
 - historical facts;
 - nature facts;
 - famous people;
@@ -316,7 +485,51 @@ The dataset must reflect the real significance of the place, not an artificial c
 
 ---
 
-## 17. Final production rule
+## 22. Final pre-publication audit
+
+Before a new postcode is considered complete, the creator MUST perform a final content audit.
+
+Check:
+
+### Geographic completeness
+- Did I identify the relevant districts, villages, industrial areas and natural areas belonging to this postcode?
+- Did I check meaningful surrounding places with a genuine connection?
+
+### Significance completeness
+- Did I check for major history?
+- Did I check people?
+- Did I check industry and technology?
+- Did I check transport?
+- Did I check culture and heritage?
+- Did I check nature and landscape?
+- Did I check archaeology?
+- Did I check hidden gems?
+- Did I check stories with national, regional or generational significance?
+
+### Editorial quality
+- Are the strongest stories included?
+- Did I accidentally omit a defining local story?
+- Are any facts merely generic?
+- Are any facts duplicates or unnecessarily overlapping?
+- Does each fact add something distinct?
+- Is the number of facts appropriate to the real significance of the place?
+
+### Evidence quality
+- Is every important claim sourceable?
+- Are primary/official sources used where available?
+- Are sources attached to the relevant facts?
+- Have folklore and documented history been clearly distinguished?
+
+### Translation quality
+- Are all required languages semantically aligned?
+- Are translations natural rather than literal?
+- Are proper names preserved appropriately while explanatory text remains understandable?
+
+Only after this audit should the record be published as complete.
+
+---
+
+## 23. Final production rule
 
 The combination of:
 
@@ -330,4 +543,8 @@ The goal is not “more information”.
 
 The goal is:
 
-**the highest possible density of trustworthy, meaningful and surprising information without balast.**
+**the highest possible density of trustworthy, meaningful and surprising information without ballast.**
+
+And the production principle is:
+
+**Research first. Identify the real stories. Select what matters. Write with context. Verify. Then publish.**
