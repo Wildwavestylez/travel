@@ -1,5 +1,7 @@
 # TRAVEL — MASTER PROMPT PRO TVORBU NOVÝCH NĚMECKÝCH PSČ
 
+> **V1.1 — význam lokality je potřeba identifikovat před samotným psaním faktů.**
+
 ## 1. ÚČEL
 
 Tento soubor je hlavní výrobní zadání pro tvorbu NOVÝCH záznamů německých poštovních směrovacích čísel (PLZ/PSČ) projektu TRAVEL.
@@ -178,6 +180,83 @@ Pro každé PSČ zjisti a ověř:
 - lokální příběhy;
 - skutečné hidden gems;
 - důvěryhodné zdroje.
+
+---
+
+# 7. POVINNÝ LOCAL SIGNIFICANCE CHECK
+
+Tento krok je povinný a musí proběhnout **před výběrem a psaním finálních faktů**.
+
+Nestačí pouze najít několik zajímavostí. Nejdříve musíš zjistit, **čím je dané území skutečně významné**.
+
+Pro každé PSČ si před tvorbou faktů vytvoř interní přehled hlavních příběhů lokality. Přehled nemusí být součástí výsledného JSONu.
+
+Aktivně prověř:
+
+- významnou historii a historické události;
+- významné osobnosti;
+- významné památky a kulturní dědictví;
+- archeologii;
+- přírodu a krajinu;
+- průmysl a výrobu;
+- významné firmy, značky a produkty;
+- technické objevy a vynálezy;
+- automobilismus, železnici, dopravu, lodní dopravu nebo letectví;
+- hornictví, energetiku a další významné surovinové obory;
+- vojenskou historii;
+- vědu, vzdělávání a významné instituce;
+- kulturní tradice a kulturní paměť;
+- významné turistické cíle;
+- neobvyklé a dobře doložené hidden gems;
+- příběhy s regionálním, celoněmeckým, evropským nebo generacemi sdíleným významem.
+
+### 7.1 Defining story test
+
+Po průzkumu se ptej:
+
+> **„Kdybych měl člověku vysvětlit, proč je toto místo zajímavé, které 3–5 příběhů bych rozhodně nesměl vynechat?“**
+
+Tyto příběhy musí být zohledněny ve finálním výběru faktů.
+
+Pokud je místo známé například výrobou určité značky, vozidel, strojů nebo jiného významného produktu, nesmí být tento příběh vynechán jen proto, že nejde o klasickou památku.
+
+Pokud existuje několik historicky propojených období jednoho příběhu, může být vhodné vytvořit více navazujících faktů. Každý z nich však musí přidávat novou informaci a nesmí být pouze opakováním.
+
+### 7.2 Research before quota
+
+Počet faktů nesmí být stanoven před výzkumem.
+
+Nejdříve zjisti významné příběhy, potom rozhodni, kolik samostatných faktů je potřeba k jejich smysluplnému zachycení.
+
+Místo s velmi bohatou historií může oprávněně dostat výrazně více faktů než malé místo.
+
+Místo s chudšími zdroji nesmí být uměle nafukováno.
+
+### 7.3 Do not stop at the first obvious story
+
+První známý turistický nebo historický motiv není automaticky celý příběh lokality.
+
+Pokud například objevíš významnou památku, pokračuj v průzkumu také směrem k:
+
+- průmyslu a technice;
+- dopravě;
+- významným značkám a výrobkům;
+- přírodě;
+- archeologii;
+- osobnostem;
+- vojenské historii;
+- kulturní paměti;
+- méně známým místním příběhům.
+
+Cílem je zabránit tomu, aby známá památka nebo první výsledek vyhledávání zastínily další významný příběh.
+
+### 7.4 Významné příběhy mají přednost před náhodnými zajímavostmi
+
+Pokud výzkum odhalí silný a dobře doložený příběh, má přednost před slabší náhodnou zajímavostí.
+
+Například významná výroba, značka, technická historie nebo průmyslové dědictví má přednost před generickým faktem typu „v této části města stojí historická budova“, pokud je tato budova sama o sobě bez výraznějšího významu.
+
+Nejde o to přidat co nejvíce průmyslových faktů. Jde o to **nepřehlédnout to, co je pro identitu místa skutečně důležité**.
 
 ---
 
@@ -577,12 +656,18 @@ Pravidla:
 
 # 22. FINÁLNÍ REDAKČNÍ AUDIT
 
+Tento audit musí ověřit nejen kvalitu jednotlivých faktů, ale také to, zda záznam zachycuje **hlavní významné příběhy celého území**.
+
 Před každým uložením proveď samostatnou redakční kontrolu.
 
 Ptej se:
 
 ### Obsah
 - Je záznam opravdu vědomostně bohatý?
+- Provedl jsem před tvorbou faktů Local Significance Check?
+- Identifikoval jsem hlavní 3–5 příběhů, které definují význam tohoto místa?
+- Jsou tyto hlavní příběhy skutečně zastoupeny ve finálních faktech?
+- Nevynechal jsem významný průmyslový, technický, dopravní nebo kulturně-paměťový příběh jen proto, že není klasickou turistickou památkou?
 - Obsahuje historii, pokud je relevantní?
 - Obsahuje přírodu, pokud je relevantní?
 - Obsahuje významné dědictví?
