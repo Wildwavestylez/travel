@@ -65,6 +65,40 @@ Nikdy nevymýšlej vlastní pole, kategorie, priority nebo strukturu JSONu mimo 
 
 ---
 
+## POVINNOST DODRŽET SCHEMA DO POSLEDNÍHO POLE
+
+Každý vytvořený JSON musí být vytvořen **přesně podle aktuálního `data/germany/schema.json`**.
+
+Schema není doporučení ani orientační vzor. Je **technicky závazné**.
+
+Nesmíš vynechat žádné povinné pole ze `schema.json`, i kdyby se ti zdálo zbytečné, samozřejmé nebo obtížně zjistitelné.
+
+Každý záznam musí obsahovat všechna povinná pole definovaná schématem, včetně zejména:
+
+- `postcode`
+- `city`
+- `district`
+- `county`
+- `state`
+- `representative_place`
+- `representative_point`
+- `access_point`
+- `facts`
+- `photo`
+- `verification`
+- `sources`
+- `translations`
+
+Musí být zachována také **přesná struktura, názvy polí, datové typy, vnoření a povolené hodnoty** definované aktuálním schematem.
+
+Nikdy nenahrazuj povinné pole jiným názvem ani vlastní alternativní strukturou.
+
+To platí i pro správní údaje: `district`, `county` a `state` jsou samostatná povinná pole a musí být vyplněna hodnotami odpovídajícími skutečné geografické a správní identitě místa.
+
+Stejně závazné jsou všechny povinné části `facts`, `sources` a `translations`. Překlady musí obsahovat všech šest jazyků definovaných schématem a odpovídat přesně stejné sadě faktů.
+
+Pokud si nejsi jistý strukturou některého pole, **znovu načti `schema.json` a řiď se jím. Nevymýšlej vlastní řešení.**
+
 # 4. VÝBĚR PSČ A SEQUENCE
 
 Pracuj pouze se skutečnými německými PSČ.
