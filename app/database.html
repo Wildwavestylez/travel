@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TRAVEL — Database</title>
+<link rel="stylesheet" href="./database.css?v=20261005-1">
+</head>
+<body>
+<div class="app">
+<header>
+  <div><div class="brand">TRAVEL / DATABASE</div><div class="subtitle">Čtečka německých PSČ · 01067 → dál · data přímo ze Supabase</div></div>
+  <div class="toolbar"><input id="search" class="search" placeholder="Hledat PSČ nebo město…" autocomplete="off"></div>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="side-head"><strong>PSČ</strong><span id="count" class="count">Načítám…</span></div>
+    <div id="list" class="list"></div>
+    <div class="pager"><button id="prev">← Předchozí</button><button id="next">Další →</button></div>
+  </aside>
+  <main class="main"><div id="detail"><div class="empty">Načítám databázi…</div></div></main>
+</div>
+</div>
+<script src="./database.js?v=20261005-1"></script>
+</body>
+</html>
