@@ -56,7 +56,6 @@ async function select(pc,scroll=true){
   }catch(e){renderDetail({error:e.message})}
 }
 function factData(data){
-  if(language==='cs')return data.facts||[];
   return data.translations?.[language]?.facts||data.facts||[];
 }
 const categoryLabel={nature_and_landscape:'Příroda a krajina',heritage_and_monuments:'Dědictví a památky',history:'Historie',culture_and_industry:'Kultura a průmysl',people:'Osobnosti',geography_and_context:'Geografie a kontext',tourism_and_surroundings:'Turismus a okolí',hidden_gem:'Skrytý klenot',local_story:'Místní příběh',other_verified_significance:'Ověřený význam'};
