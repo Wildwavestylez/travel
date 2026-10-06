@@ -78,7 +78,7 @@ function renderDetail(data){
     '<div class="section-title">'+(language==='cs'?'Fakta':'Facts')+' · '+facts.length+'</div>'+
     '<div class="facts">'+(facts.length?facts.map(f=>{
       const original=originalFacts.find(x=>x.id===f.id);
-      const sources=(original?.sources||[]).map(id=>data.sources?.find(s=>s.title===id||s.url===id)||null).filter(Boolean);
+      const sources=(original?.sources||[]).map(id=>data.sources?.find(s=>s&&(typeof s==='string'?s===id:(s.title===id||s.url===id)))||null).filter(Boolean);
       return '<article class="fact"><div class="fact-top"><span class="badge">'+esc(f.id)+'</span><span class="badge priority '+esc(original?.priority||'')+'">Priorita '+esc(original?.priority||'—')+'</span><span class="badge">'+esc(categoryLabel[original?.category]||original?.category||'')+'</span></div>'+
       '<div class="fact-title">'+esc(f.title)+'</div><div class="fact-text">'+esc(f.text)+'</div>'+
       (sources.length?'<div class="sources">'+sources.map(s=>'<a class="source" href="'+esc(s.url)+'" target="_blank" rel="noopener">↗ '+esc(s.title)+'</a>').join('')+'</div>':'')+
