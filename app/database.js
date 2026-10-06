@@ -57,8 +57,8 @@ async function select(pc,scroll=true){
 }
 function factData(data){
   const facts=data.translations?.[language]?.facts??data.facts??[];
-  if(Array.isArray(facts))return facts;
-  if(facts&&typeof facts==='object')return Object.entries(facts).map(([id,f])=>({id,...f}));
+  if(Array.isArray(facts))return facts.filter(Boolean).map(f=>({id:f.id??'',title:f.title??'',text:f.text??''}));
+  if(facts&&typeof facts==='object')return Object.entries(facts).filter(([,f])=>f&&typeof f==='object').map(([id,f])=>({id,...f}));
   return [];
 }
 const categoryLabel={nature_and_landscape:'Příroda a krajina',heritage_and_monuments:'Dědictví a památky',history:'Historie',culture_and_industry:'Kultura a průmysl',people:'Osobnosti',geography_and_context:'Geografie a kontext',tourism_and_surroundings:'Turismus a okolí',hidden_gem:'Skrytý klenot',local_story:'Místní příběh',other_verified_significance:'Ověřený význam'};
@@ -77,8 +77,12 @@ function renderDetail(data){
     '<div class="section-title">Jazyk faktů</div><div class="langbar">'+Object.entries(langNames).map(([k,v])=>'<button class="lang '+(language===k?'active':'')+'" data-lang="'+k+'">'+k.toUpperCase()+' · '+v+'</button>').join('')+'</div>'+
     '<div class="section-title">'+(language==='cs'?'Fakta':'Facts')+' · '+facts.length+'</div>'+
     '<div class="facts">'+(facts.length?facts.map(f=>{
-      const original=originalFacts.find(x=>x.id===f.id);
-      const sources=(original?.sources||[]).map(id=>data.sources?.find(s=>s&&(typeof s==='string'?s===id:(s.title===id||s.url===id)))||null).filter(Boolean);
+      const original=originalFacts.find(x=>x&&x.id===f.id);
+      const sources=(original?.sources||[]).map(id=>{
+        const s=data.sources?.find(x=>x&&(typeof x==='string'?x===id:(x.title===id||x.url===id)));
+        if(!s)return null;
+        return typeof s==='string'?{title:s,url:s}:{title:s.title??s.url??'',url:s.url??''};
+      }).filter(s=>s&&s.title);
       return '<article class="fact"><div class="fact-top"><span class="badge">'+esc(f.id)+'</span><span class="badge priority '+esc(original?.priority||'')+'">Priorita '+esc(original?.priority||'—')+'</span><span class="badge">'+esc(categoryLabel[original?.category]||original?.category||'')+'</span></div>'+
       '<div class="fact-title">'+esc(f.title)+'</div><div class="fact-text">'+esc(f.text)+'</div>'+
       (sources.length?'<div class="sources">'+sources.map(s=>'<a class="source" href="'+esc(s.url)+'" target="_blank" rel="noopener">↗ '+esc(s.title)+'</a>').join('')+'</div>':'')+
