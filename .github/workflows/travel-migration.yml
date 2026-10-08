@@ -1,8 +1,8 @@
 name: TRAVEL postcode migration
 
 on:
-  schedule:
-    - cron: "25 * * * *"
+  # Automatic hourly migration disabled.
+  # The workflow can still be started manually if ever needed.
   workflow_dispatch:
 
 concurrency:
