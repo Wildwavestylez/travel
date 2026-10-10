@@ -17,12 +17,12 @@ const api=async(path,extra={})=>{
 function parseTotal(range){if(!range)return null;const m=range.match(/\/(\d+)$/);return m?Number(m[1]):null}
 
 function listQuery(){
-  const base='select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
+  const base='select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
   const q=$('#search').value.trim();
   if(!q)return base;
   const safe=q.replace(/[%_]/g,'');
-  if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&postal_code=eq.'+encodeURIComponent(safe);
-  return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
+  if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&postal_code=eq.'+encodeURIComponent(safe);
+  return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
 async function loadList(){
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
@@ -47,10 +47,10 @@ async function select(pc,scroll=true){
   selected=pc;renderList();
   renderDetail({loading:true});
   try{
-    const r=await api('select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.'+country+'&postal_code=eq.'+encodeURIComponent(pc)+'&limit=1');
+    const r=await api('select=postal_code,city,district,region,representative_name,latitude,longitude,content,status,data_version,updated_at&country_code=eq.'+country+'&postal_code=eq.'+encodeURIComponent(pc)+'&limit=1');
     if(!r.data?.[0])throw Error('PSČ '+pc+' nebylo nalezeno.');
     const row=r.data[0], c=row.content||{};
-    selected={...c,postcode:row.postal_code,city:c.city||row.city,district:c.district??row.district,state:c.state||row.region,representative_place:c.representative_place||row.representative_name,representative_point:c.representative_point||(row.latitude!=null?{lat:row.latitude,lon:row.longitude}:null)};
+    selected={...c,status:row.status,data_version:row.data_version,updated_at:row.updated_at,postcode:row.postal_code,city:c.city||row.city,district:c.district??row.district,state:c.state||row.region,representative_place:c.representative_place||row.representative_name,representative_point:c.representative_point||(row.latitude!=null?{lat:row.latitude,lon:row.longitude}:null)};
     renderDetail(selected);
     if(scroll)window.scrollTo({top:0,behavior:'smooth'});
   }catch(e){renderDetail({error:e.message})}
