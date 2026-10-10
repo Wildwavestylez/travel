@@ -17,12 +17,12 @@ const api=async(path,extra={})=>{
 function parseTotal(range){if(!range)return null;const m=range.match(/\/(\d+)$/);return m?Number(m[1]):null}
 
 function listQuery(){
-  const base='select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
+  const base='select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
   const q=$('#search').value.trim();
   if(!q)return base;
   const safe=q.replace(/[%_]/g,'');
-  if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&postal_code=eq.'+encodeURIComponent(safe);
-  return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
+  if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&postal_code=eq.'+encodeURIComponent(safe);
+  return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,draft)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
 async function loadList(){
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
