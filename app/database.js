@@ -71,7 +71,7 @@ function renderDetail(data){
   const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano'};
   const originalFacts=data.facts||[];
   el.innerHTML=
-    '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta">'+
+    '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(data.status||'—')+'</span> <span class="badge">V'+esc(data.data_version??'—')+' · k obsahové kontrole</span><br>'+
     [data.representative_place?'📍 '+esc(data.representative_place):'',data.district?'🏛 '+esc(data.district):'',data.county?'📌 '+esc(data.county):'',data.state?(country==='DE'?'🇩🇪 ':'🇨🇿 ')+esc(data.state):''].filter(Boolean).join(' · ')+
     '</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div>'+
     '<div class="section-title">Jazyk faktů</div><div class="langbar">'+Object.entries(langNames).map(([k,v])=>'<button class="lang '+(language===k?'active':'')+'" data-lang="'+k+'">'+k.toUpperCase()+' · '+v+'</button>').join('')+'</div>'+
