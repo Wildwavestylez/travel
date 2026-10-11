@@ -128,6 +128,7 @@ try{
   state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false,autoContinue:false};
   localStorage.removeItem(STORE);
 }
+if(state.route&&state.startedAt)state.autoContinue=true;
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
 let animationRunId=0;
 
