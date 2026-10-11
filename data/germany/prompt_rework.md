@@ -213,6 +213,12 @@ Do not claim that an access point or geographic check has been verified unless i
 - Did I look beyond the first obvious attraction?
 - Are hidden gems included only when genuinely valuable?
 
+### Postal-code and administrative correctness
+- Did I verify that this is a valid German postal code suitable for a geographic travel stop?
+- Did I check for post-office-box, large-recipient, or other special-purpose codes?
+- Did I verify the actual locality, district where applicable, county, federal state, and coordinates against reliable sources?
+- Did I record any suspected obsolete, misassigned, duplicated, or non-geographic code rather than falsely marking it complete?
+
 ### Geography and duplication
 - Does each fact have a concrete connection to this postcode?
 - Did I avoid treating “same city” as sufficient evidence?
@@ -258,7 +264,7 @@ After each record is successfully saved, validated, and marked complete, immedia
 
 Persist completion record by record. If the process times out, crashes, or loses connection, the next run must resume at the first remaining eligible record. Do not restart the whole queue, and do not reprocess completed records unless explicitly requested.
 
-Do not block content rework on an exhaustive comparison of every German postcode against external postcode lists. The full postcode-coverage audit will be performed manually during the final review. During this phase, work on the existing German records and their content; do not invent missing postcodes or silently change the queue's scope.
+Do not block content rework on an exhaustive comparison of every German postcode against external postcode lists. Postal-code verification is mandatory during this rework. For every existing record, verify the code's validity, whether it is geographic or a special-purpose code (including post-office-box and large-recipient codes), and whether its locality, district, county, federal state, and coordinates are correct. Do not invent or insert missing postal codes; report suspected coverage gaps and unsuitable codes for review.
 
 ## 15. Error handling and run report
 
