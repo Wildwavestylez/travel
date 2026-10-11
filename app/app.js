@@ -129,6 +129,7 @@ try{
   localStorage.removeItem(STORE);
 }
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
+let animationRunId=0;
 
 const pinIcon=L.divIcon({className:'travel-pin-wrap',html:'<div class="travel-pin"></div>',iconSize:[18,22],iconAnchor:[9,22]});
 let stopMarkers;
@@ -391,10 +392,14 @@ function arrived(){
   }
 }
 function animate(){
-  if(!state.route||!state.startedAt)return;
+  if(!state.route||!state.startedAt||!nextData)return;
+  const runId=++animationRunId;
   draw();
   const d=cumulative(),dur=state.routeKm/80*3600000;
   function tick(){
+    // A previous animation may resume after the tab returns to the foreground.
+    // Only the newest loop may update the car or complete a stop.
+    if(runId!==animationRunId||!state.route||!state.startedAt||!nextData)return;
     const p=Math.min(1,(Date.now()-state.startedAt)/dur),km=state.routeKm*p;
     car.setLatLng(pos(km,d));
     if(p<1){
