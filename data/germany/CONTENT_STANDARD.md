@@ -112,7 +112,7 @@ This rule governs both **which facts are included and the order in which they ar
 
 ---
 
-## 24. Geographic scope — the postcode is not the whole story
+## 5. Geographic scope — the postcode is not the whole story
 
 The postcode boundary is NOT automatically the boundary of the content.
 
@@ -128,7 +128,7 @@ Do NOT attach famous places to a postcode merely because they are somewhere in t
 
 ---
 
-## 24. Build the story before building the fact list
+## 6. Build the story before building the fact list
 
 After research, identify the strongest stories and organize them conceptually before writing individual facts.
 
@@ -152,7 +152,7 @@ Do not force a narrative where none exists.
 
 ---
 
-## 24. What every postcode should answer
+## 7. What every postcode should answer
 
 A user arriving virtually at a postcode should understand:
 
@@ -166,7 +166,7 @@ A professional tourism, heritage or regional-development user should ideally fin
 
 ---
 
-## 24. Content categories
+## 8. Content categories
 
 Facts may belong to one or more of these conceptual areas:
 
@@ -185,7 +185,7 @@ These are content categories, NOT a fixed order.
 
 ---
 
-## 24. Priority
+## 9. Priority
 
 Categories do not have equal automatic priority. The importance of the individual fact determines its position.
 
@@ -241,7 +241,7 @@ Priority is contextual. A fact may move higher or lower when compared with the o
 
 ---
 
-## 24. Nature and landscape
+## 10. Nature and landscape
 
 Nature is a first-class TRAVEL topic, not filler.
 
@@ -268,7 +268,7 @@ If no meaningful natural feature is relevant, do not invent one.
 
 ---
 
-## 24. Relevant surroundings
+## 11. Relevant surroundings
 
 Important places in the surrounding area may be included when there is a genuine geographic or thematic connection, especially:
 
@@ -285,7 +285,7 @@ The connection to the postcode should be clear.
 
 ---
 
-## 24. History
+## 12. History
 
 Historical information should explain the place rather than become a list of dates.
 
@@ -308,7 +308,7 @@ A person or minor event should normally be integrated into the relevant historic
 
 ---
 
-## 24. Industry, technology and cultural memory
+## 13. Industry, technology and cultural memory
 
 Industrial and technical history deserves the same editorial attention as monuments and traditional tourism.
 
@@ -337,7 +337,7 @@ Where a story has strong generational or cultural memory, it may be included whe
 
 ---
 
-## 24. Hidden gems
+## 14. Hidden gems
 
 A hidden gem must be genuinely interesting, specific, surprising or unusually useful.
 
@@ -355,7 +355,7 @@ The ideal hidden gem should create the reaction:
 
 ---
 
-## 24. Facts must have context
+## 15. Facts must have context
 
 Facts should not be dumped as disconnected trivia.
 
@@ -369,7 +369,7 @@ When several facts belong to one major local story, avoid unnecessary repetition
 
 ---
 
-## 24. No arbitrary fact quota
+## 16. No arbitrary fact quota
 
 There is NO fixed minimum or maximum number of facts.
 
@@ -388,7 +388,7 @@ A major city district, industrial center or historically exceptional place may l
 
 ---
 
-## 24. Quality over source count
+## 17. Quality over source count
 
 There is no required number of sources.
 
@@ -409,7 +409,7 @@ Do not treat repeated copies of the same claim as independent confirmation.
 
 ---
 
-## 24. Source traceability
+## 18. Source traceability
 
 Important factual claims must be traceable to their sources.
 
@@ -427,7 +427,7 @@ Local confirmation may be added in the future as an additional verification laye
 
 ---
 
-## 24. Anti-bloat rule
+## 19. Anti-bloat rule
 
 Never manufacture content to make a postcode look richer.
 
@@ -448,7 +448,7 @@ More facts are NOT automatically better.
 
 ---
 
-## 24. The WOW test
+## 20. The WOW test
 
 Before a fact is included, ask:
 
@@ -475,7 +475,7 @@ Then:
 
 ---
 
-## 24. Commercial neutrality
+## 21. Commercial neutrality
 
 Do not turn factual content into free advertising.
 
@@ -493,7 +493,7 @@ Future advertising belongs in a separate commercial layer.
 
 ---
 
-## 24. No invented symmetry
+## 22. No invented symmetry
 
 Do not force every postcode to contain the same number of:
 
@@ -511,7 +511,7 @@ The dataset must reflect the real significance of the place, not an artificial c
 
 ---
 
-## 24. Final pre-publication audit
+## 23. Final pre-publication audit
 
 Before a new postcode is considered complete, the creator MUST perform a final content audit.
 
