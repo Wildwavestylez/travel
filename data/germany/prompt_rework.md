@@ -53,7 +53,24 @@ For records with existing content, treat the old facts as leads to investigate, 
 
 For empty records, conduct the same research and story-selection process without relying on old facts.
 
-## 2. Research the area anew
+## 2. Mandatory postal-code and administrative verification
+
+This check is part of the rework of every existing record. Never assume a postal-code row is correct merely because it already exists.
+
+For each record, verify from reliable postal and administrative sources:
+- that the German postal code is valid and appropriate for a geographic travel stop;
+- whether it is a normal geographic delivery code or a special-purpose code, including post-office-box and large-recipient codes;
+- the actual locality/municipality, city district where applicable, county (Kreis/Landkreis or equivalent), and federal state;
+- whether the stored locality fields, representative place, and coordinates match the verified assignment;
+- whether the code is obsolete, misassigned, duplicated, non-geographic, or covers a different area than the record claims.
+
+Prefer authoritative postal sources such as Deutsche Post and official municipal or administrative sources. Cross-check uncertain assignments; do not rely on a search snippet alone.
+
+Do not silently replace a postal code, invent a replacement, delete a row, or insert a guessed missing code. If a code is invalid, special-purpose/non-geographic, obsolete, duplicated, or uncertain, record the issue and supporting evidence. Do not falsely mark it as a verified geographic stop. Follow existing exception handling; if no suitable mechanism exists, report it for review rather than inventing a status or changing the schema.
+
+Only after checking the postal code and its geographic assignment should you decide which facts belong in the record.
+
+## 3. Research the area anew
 
 Research before writing the final fact list. Establish what the postal-code area actually covers and what makes it distinctive.
 
@@ -63,7 +80,7 @@ This is a research checklist, not a quota. Not every category needs to appear in
 
 Use a breadth-first research mindset: do not stop after the first obvious attraction or after discovering a single interesting person, building, company, or landscape. Look for the other important stories that genuinely help explain the area.
 
-## 3. Determine the identity of this specific place
+## 4. Determine the identity of this specific place
 
 Before selecting and ordering facts, answer:
 
@@ -75,7 +92,7 @@ Before selecting and ordering facts, answer:
 
 Use these answers to establish a place-specific editorial priority order. Do not apply a universal category hierarchy.
 
-## 4. Relevance determines fact selection and order
+## 5. Relevance determines fact selection and order
 
 **No subject category has automatic priority. The defining identity of the specific area determines what comes first.**
 
@@ -98,7 +115,7 @@ Hidden gems are welcome when they are distinctive, factual, sourceable, and loca
 
 The same priorities must be reflected in the final fact ordering and preserved consistently in all six language versions.
 
-## 5. Defining-story completeness check
+## 6. Defining-story completeness check
 
 Before finalizing the record, ask:
 
@@ -108,7 +125,7 @@ Identify those stories, then verify that the final record represents them where 
 
 Do not omit an important story merely because it is not a conventional tourist attraction. Equally, do not include a weak story just to represent a research category.
 
-## 6. Geographic relevance — the postal-code area is the unit of truth
+## 7. Geographic relevance — the postal-code area is the unit of truth
 
 The record describes a specific postal-code area, not a generic city, district, county, or region summary.
 
@@ -123,7 +140,7 @@ Examples of concrete connections include:
 
 Do not attach famous attractions merely because they are elsewhere in the same city, district, county, or state. If postal-code boundaries or the precise location are uncertain, be conservative and investigate further. Do not invent precision.
 
-## 7. Duplication control across postal codes
+## 8. Duplication control across postal codes
 
 TRAVEL is a postal-code database, not a collection of repeated city summaries.
 
@@ -137,7 +154,7 @@ Before including a major story, ask:
 
 Avoid unnecessary repetition, but do not omit a genuinely relevant shared story just because it also appears in another record.
 
-## 8. Build a coherent, useful record
+## 9. Build a coherent, useful record
 
 After research and prioritization, build a coherent picture of the area. The record should explain what makes it distinctive and why the selected stories matter.
 
@@ -154,7 +171,7 @@ Remove generic statements about churches, railway stations, beautiful scenery, t
 
 Cultural memory and folklore may be included when presented accurately as tradition or cultural memory, not as proven historical fact without evidence.
 
-## 9. Sources and evidence
+## 10. Sources and evidence
 
 Prefer, where available:
 
@@ -170,7 +187,7 @@ Do not invent facts, citations, source identifiers, or URLs. Verify that a sourc
 
 A source that merely mentions a city is not automatically evidence for a claim about a particular postcode.
 
-## 10. Required record structure and six languages
+## 11. Required record structure and six languages
 
 Follow `data/germany/schema.json` exactly, including every required field and its constraints. Do not rely on an old record's structure as proof that it is valid. Pay particular attention to the required geographic points, access point, verification fields, photo structure, sources, facts, and translations.
 
@@ -194,13 +211,13 @@ Every record must include all six language versions:
 
 Each translation must include `representative_place` and `facts`; each translated fact must include `id`, `title`, and `text`. All six versions must contain exactly the same fact IDs in the same order. Translate the meaning naturally and accurately; do not simply copy text between language fields. Keep factual meaning and editorial priorities aligned across all translations.
 
-## 11. Coordinates, access, and representative place
+## 12. Coordinates, access, and representative place
 
 Verify the representative place, representative coordinates, and access-point coordinates according to the current schema and existing project rules. Coordinates must be plausible and correspond to the intended place. Do not copy coordinates blindly from old content.
 
 Do not claim that an access point or geographic check has been verified unless it has actually been checked. Follow the schema's required verification flags honestly.
 
-## 12. Final audit before saving
+## 13. Final audit before saving
 
 ### Content and relevance
 - Did I research the area anew, including when old content existed?
@@ -236,7 +253,7 @@ Do not claim that an access point or geographic check has been verified unless i
 
 If any required check fails, fix the record and validate again. Do not mark it complete merely because the content has been generated or saved.
 
-## 13. Save and completion state
+## 14. Save and completion state
 
 The database is the production source of truth. Save the final schema-compliant content to the correct fields of the existing Supabase row, preserving unrelated metadata and fields.
 
@@ -250,7 +267,7 @@ A record is complete only when:
 3. all six translations and matching fact IDs are present;
 4. the project's established completion marker is persisted successfully.
 
-## 14. Queue, order, and resuming after interruption
+## 15. Queue, order, and resuming after interruption
 
 Process the existing German records in the established ascending postal-code order, unless the current worker explicitly defines another production order.
 
@@ -266,7 +283,7 @@ Persist completion record by record. If the process times out, crashes, or loses
 
 Do not block content rework on an exhaustive comparison of every German postcode against external postcode lists. Postal-code verification is mandatory during this rework. For every existing record, verify the code's validity, whether it is geographic or a special-purpose code (including post-office-box and large-recipient codes), and whether its locality, district, county, federal state, and coordinates are correct. Do not invent or insert missing postal codes; report suspected coverage gaps and unsuitable codes for review.
 
-## 15. Error handling and run report
+## 16. Error handling and run report
 
 If an individual record cannot be completed:
 1. log the postcode and specific reason;
@@ -286,7 +303,7 @@ At the end of a run, report:
 
 Do not claim completion based only on the number of records attempted.
 
-## 16. Database safety
+## 17. Database safety
 
 Never:
 - delete the postal-code table or unrelated records;
