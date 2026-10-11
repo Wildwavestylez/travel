@@ -1,262 +1,190 @@
-# TRAVEL — REWORK PROMPT FOR EXISTING GERMAN POSTAL-CODE JSON RECORDS
+# TRAVEL — REWORK PROMPT FOR EXISTING GERMAN POSTAL-CODE RECORDS
 
 ## Version
 
-**REWORK PROMPT V1.1**
+**REWORK PROMPT V1.2**
 
-This prompt is methodologically paired with `prompt_create.md V1.1`.
-
-The purpose of rework is not merely to repair formatting or translate existing data. An existing record is only a working starting point that may be incomplete, weak, duplicated, geographically wrong or factually outdated.
-
-**Core workflow:** READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → CHECK GEOGRAPHIC RELEVANCE → AUDIT EXISTING FACTS → REMOVE / KEEP / ADD → BUILD COMPLETE STORY → TRANSLATE → VALIDATE → SAVE → MARK COMPLETE → NEXT
+This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
 ## Purpose
 
-This prompt is specifically for **reworking existing German postal-code records** that are already present in the TRAVEL database.
+Rework existing German postal-code records in TRAVEL into consistent, researched, geographically relevant, high-quality records.
 
-It is **not** the prompt for creating new postal-code records.
+This is not a prompt for creating new postal-code records. Process only existing German records already present in the database. Do not invent missing postal codes or create duplicates.
 
-The future prompt for creating new records must remain separate.
+An existing record is working material, not an authoritative account of the place. Its facts may be useful, incomplete, weak, duplicated, geographically misleading, outdated, or absent. Research the area anew before deciding what the final record should contain.
 
-## Production specification
+## Authoritative specification
 
-Before doing any work, use these files as the authoritative production specification:
+Before starting, read and follow:
 
 1. `data/germany/schema.json`
 2. `data/germany/CONTENT_STANDARD.md`
 
-Do **not** modify either file as part of this migration.
+These files remain authoritative. Do not modify them as part of this rework. The final record must conform to the current schema and content standard.
 
-The task is to take existing German postal-code records and rewrite them into the current production format and content standard.
+## Core workflow
 
-Do not perform a mechanical format conversion. Research and re-evaluate the content.
+**READ RECORD → CLASSIFY CONTENT STATE → RESEARCH THE AREA ANEW → IDENTIFY LOCAL IDENTITY → RANK STORIES BY RELEVANCE → AUDIT OLD CONTENT → SELECT / REMOVE / ADD → BUILD FINAL RECORD → TRANSLATE → VALIDATE → SAVE → CONFIRM COMPLETION → NEXT RECORD**
 
-The existing record is not the authoritative content. Treat it as working material only. Re-research the place before deciding what to keep.
+Do not skip research because an old record already looks complete. Do not discard useful verified facts merely because the record is being researched again.
 
-## Database
+## Database and scope
 
 Use the existing Supabase project and the existing `public.postal_codes` table.
 
-Only process existing German records:
+Process only existing German records where `country_code = "DE"`. Update the existing record for its existing postal code; do not insert a duplicate.
 
-- `country_code = "DE"`
-- `postal_code = <existing postal code>`
+Follow the current database structure and the application's established mapping between database columns and the JSON content schema. Do not assume that the JSON Schema root object is identical to the database row layout: inspect the existing implementation/data layout and write the schema-compliant content to the correct field(s).
 
-Do not create duplicate postal codes.
+Do not change the database schema, table, RLS policies, application code, Supabase project, or unrelated records. Never expose credentials.
 
-Do not delete the table, change RLS, change the schema, or modify unrelated records.
+## 1. Classify the starting state — do not create separate methodologies
 
-A successfully migrated record must be persisted as completed so a later run can resume safely.
+For each record, determine which description best fits its current content:
 
-## Migration objective
+- **Existing and potentially useful:** meaningful facts are present, but they still require fresh research and evaluation.
+- **Weak or incomplete:** some content exists, but it lacks important stories, local specificity, good sources, translations, or valid structure.
+- **Empty or practically empty:** little or no usable content exists; build the record from the ground up.
 
-For every unmigrated German postal code:
+This classification is a workflow aid only. It does not change the quality bar, the research method, the schema, or the final requirements. Every record must reach the same standard.
 
-1. Read the existing record.
-2. Research the location again.
-3. Evaluate all existing information.
-4. Keep useful information after verification.
-5. Remove weak, generic, duplicated or unsupported information.
-6. Add important missing information.
-7. Create a complete record according to the current schema.
-8. Validate it against the current schema.
-9. Save it back to the existing Supabase record.
-10. Mark it successfully migrated.
-11. Immediately continue with the next unmigrated record.
+For records with existing content, treat the old facts as leads to investigate, not as a limit on the research. Keep a fact only if it remains relevant, sufficiently supported, geographically connected, and worth including. Rewrite it if needed. Remove it if it is weak, false, duplicated, generic, or insufficiently connected to the postal-code area.
 
-Never ask the user whether to continue.
+For empty records, conduct the same research and story-selection process without relying on old facts.
 
-Never treat the old fact count as a quota.
+## 2. Research the area anew
 
-Never stop after an arbitrary small number of records.
+Research before writing the final fact list. Establish what the postal-code area actually covers and what makes it distinctive.
 
-## Mandatory Local Significance Check
+Investigate broadly where relevant: history, settlement and development, landmarks, architecture, film and television connections, culture, important people, local traditions, industry, companies and products, manufacturing, engineering, transport, railway, aviation, shipping, mining, energy, science, technology, military history, archaeology, nature, geology, protected landscapes, recreation, and lesser-known local stories.
 
-Before writing the final facts, perform a structured Local Significance Check.
+This is a research checklist, not a quota. Not every category needs to appear in every record. Do not force industrial history into a nature-focused area, or nature facts into a place whose defining significance lies elsewhere. Do not force every category into the final result.
 
-### Defining story test
+Use a breadth-first research mindset: do not stop after the first obvious attraction or after discovering a single interesting person, building, company, or landscape. Look for the other important stories that genuinely help explain the area.
 
-Ask:
+## 3. Determine the identity of this specific place
 
-**If I had to explain why this specific postal-code area is interesting, which 3–5 stories would I absolutely not be allowed to omit?**
+Before selecting and ordering facts, answer:
 
-Identify those stories before finalizing the fact list. The final record must represent important defining stories that are genuinely supported by evidence.
+- What is this area best known for, locally or beyond the region?
+- What are the strongest reasons someone would visit, recognize, study, or care about it?
+- Which events, places, people, industries, cultural works, traditions, or natural features genuinely shaped its identity?
+- Which less obvious stories add real value beyond the obvious headline?
+- What is important specifically within this postal-code area, rather than merely somewhere in the same city or region?
 
-This is a completeness test, not a fact quota.
+Use these answers to establish a place-specific editorial priority order. Do not apply a universal category hierarchy.
 
-### Research before quota
+## 4. Relevance determines fact selection and order
 
-Do not decide the number of facts before research. First determine what shaped the place, what is distinctive, what is significant, what survives today, what may surprise a visitor, and what is useful to a professional user.
+**No subject category has automatic priority. The defining identity of the specific area determines what comes first.**
 
-### Do not stop at the first obvious story
+Include all facts that are genuinely interesting, relevant, sufficiently supported, and geographically appropriate. There is no fixed maximum fact count. Ten, fifteen, or more facts are acceptable when each adds meaningful, distinct value. Do not pad the record to reach a target, and do not remove a strong fact simply to keep the list short.
 
-After finding a church, castle, museum or other obvious attraction, continue searching for major history, important people, companies and brands, products and manufacturing, automobile history, railway and transport history, aviation, shipping, mining, energy, industry, science and technology, military history, archaeology, protected nature, geology, cultural memory, local traditions and hidden gems.
+Order facts by their importance and relevance to the specific place—not by the order in which research found them, by the ease of sourcing them, or by a predetermined preference for industry, technology, nature, tourism, or hidden gems.
 
-A major story must not be omitted merely because it is not a conventional tourist attraction.
+Examples of how to apply this rule:
 
-### Significant stories beat random trivia
+- If a place is widely known for a castle and a famous film shot there, the film connection and castle history may deserve to come before nearby ponds or landscape details.
+- If a place is a gateway to a distinctive sandstone landscape or national park, its rocks, scenery, nature, and outdoor significance may deserve to come before a notable miner or a secondary historical detail.
+- If a place is defined by a major industrial, transport, engineering, or scientific achievement, that story may lead.
+- If a place is best explained by a historic event, a person with a strong local connection, a cultural tradition, architecture, or another defining story, lead with that instead.
 
-A well-documented significant local story takes priority over a weak curiosity. A significant factory, product, transport connection, technical achievement or cultural-memory story should beat a generic building or tourism fact when it is more important to the place.
+These are illustrations, not templates. Determine the priority order separately for each postal-code area.
 
-## Geographic relevance — the postcode is the unit of truth
+Secondary subjects still belong in the record when they are genuinely valuable. A nature feature need not be excluded from a historically important town; an industrial story need not be excluded from a scenic area. The rule is about relevance and order, not about banning categories.
 
-The record describes a specific postal-code area, not simply the whole municipality, district or region.
+Hidden gems are welcome when they are distinctive, factual, sourceable, and locally relevant. They must not be pushed above a more defining story merely to make the record feel surprising.
 
-A city-wide association is not sufficient. Before including an important person, company, product, event, attraction or natural feature, verify the concrete connection to this postal code.
+The same priorities must be reflected in the final fact ordering and preserved consistently in all six language versions.
 
-For people, acceptable concrete links include birth, residence, workplace, business, school or institution, specific building, specific event or documented activity in the area.
+## 5. Defining-story completeness check
 
-For companies and products, verify a factory, headquarters, workshop, production site, founding location, documented operation or another concrete geographic connection.
+Before finalizing the record, ask:
 
-For events and sites, verify that they actually occurred or exist in the postal-code area or have a direct documented connection to it.
+**“If I had to explain why this specific postal-code area is interesting, which 3–5 stories would I absolutely not be allowed to omit?”**
 
-**“It is in the same city” is not enough.**
+Identify those stories, then verify that the final record represents them where evidence supports them. This is a completeness test, not a required number of facts. A defining story may require more than one fact if each fact adds distinct information.
 
-Do not attach famous attractions merely because they are somewhere in the same city, district, county or state.
+Do not omit an important story merely because it is not a conventional tourist attraction. Equally, do not include a weak story just to represent a research category.
 
-## Duplication control across postal codes
+## 6. Geographic relevance — the postal-code area is the unit of truth
+
+The record describes a specific postal-code area, not a generic city, district, county, or region summary.
+
+For every major person, company, product, event, attraction, building, or natural feature, establish the concrete connection to the postal-code area. A shared city name is not enough.
+
+Examples of concrete connections include:
+
+- a person was born, lived, worked, studied, created something, or took part in a documented event at a specific local site;
+- a company or product has a documented local founding, factory, workshop, headquarters, production site, or other meaningful local connection;
+- a film, event, or cultural story is tied to a verified location in the area;
+- a natural feature lies within the area or has a direct, documented connection to it.
+
+Do not attach famous attractions merely because they are elsewhere in the same city, district, county, or state. If postal-code boundaries or the precise location are uncertain, be conservative and investigate further. Do not invent precision.
+
+## 7. Duplication control across postal codes
 
 TRAVEL is a postal-code database, not a collection of repeated city summaries.
 
-If a major story is already represented in another postal-code record, do not automatically copy it into neighboring or same-city records. A shared story may appear in more than one record only when each record has a genuine geographic, historical or biographical connection to it.
+Do not automatically copy a city-wide story into every postcode. A story may appear in multiple records only when each has a genuine geographic or historical connection and the fact adds a relevant perspective for that area.
 
-Before adding a major city-wide story, ask: Is it specifically connected to this postal code? Is there a concrete local site, person, event or production connection? Does this record add a distinct local perspective?
+Before including a major story, ask:
 
-If not, do not duplicate it.
+- Is it specifically connected to this postal-code area?
+- Is there a concrete local place, person, event, or production connection?
+- Does this record add a distinct perspective, rather than repeat a generic city summary?
 
-## Build the story before building the fact list
+Avoid unnecessary repetition, but do not omit a genuinely relevant shared story just because it also appears in another record.
 
-After research, build a coherent story of the postal-code area. Facts should explain what shaped the place, what makes it distinctive, what important things happened there, what important people, companies, products or technologies are genuinely connected to it, what survives today, and what natural or cultural features deserve attention.
+## 8. Build a coherent, useful record
 
-Use multiple facts for one broader story only when each adds distinct information.
-
-## Content quality
-
-Follow `CONTENT_STANDARD.md` strictly.
-
-Quality is more important than quantity.
-
-Do not use artificial fact quotas.
-
-A postal code may have 3 excellent facts or 15 excellent facts. Only include information that genuinely deserves to be there.
+After research and prioritization, build a coherent picture of the area. The record should explain what makes it distinctive and why the selected stories matter.
 
 Each fact should be:
+- accurate and supportable;
+- genuinely interesting and meaningful for this location;
+- specific rather than generic;
+- geographically relevant to the postcode;
+- distinct from the other facts;
+- useful to a normal user and, where appropriate, a professional user such as a tourism or local-information organization;
+- written clearly and without filler.
 
-- true
-- sourceable
-- genuinely interesting
-- meaningful for the location
-- potentially useful to a normal user
-- potentially useful to a professional user
-- non-generic
-- supported by an appropriate source
+Remove generic statements about churches, railway stations, beautiful scenery, tourism, or German history unless the specific detail has real significance. Commercial entities are not advertising opportunities: include businesses only when they have genuine documented historical, cultural, industrial, scientific, or other significance.
 
-Remove filler such as generic statements about churches, railway stations, tourism, beautiful scenery, or German history unless the specific detail has genuine significance.
+Cultural memory and folklore may be included when presented accurately as tradition or cultural memory, not as proven historical fact without evidence.
 
-## Research areas
+## 9. Sources and evidence
 
-Where relevant, investigate:
+Prefer, where available:
 
-- history
-- settlement origins and development
-- historical events
-- monuments and heritage
-- archaeology
-- industrial heritage
-- crafts and trade
-- transport and railway history when genuinely significant
-- culture
-- important people
-- local stories
-- geography
-- rivers, lakes, forests, mountains and valleys
-- geological features
-- protected areas
-- nature reserves
-- nature parks
-- natural monuments
-- significant natural features
-- nearby connected heritage and nature
-- tourism significance
-- hidden gems
+1. official and primary sources;
+2. archives;
+3. museums;
+4. universities and research institutions;
+5. specialist institutions;
+6. high-quality journalism;
+7. reliable regional and local sources.
 
-Also actively investigate significant companies, brands, products, factories, vehicles, inventions, technologies and other industrial or technical achievements when relevant.
+Do not invent facts, citations, source identifiers, or URLs. Verify that a source supports the specific claim for which it is used. Every factual claim must have appropriate evidence, and fact-level source references must resolve to relevant top-level source identifiers according to the current schema.
 
-Nature and landscape are first-class content.
+A source that merely mentions a city is not automatically evidence for a claim about a particular postcode.
 
-If a protected or notable natural feature is included, explain why it matters.
+## 10. Required record structure and six languages
 
+Follow `data/germany/schema.json` exactly, including every required field and its constraints. Do not rely on an old record's structure as proof that it is valid. Pay particular attention to the required geographic points, access point, verification fields, photo structure, sources, facts, and translations.
 
-## Commercial content
+Use the schema's current fact structure, including:
+- `id`
+- `title`
+- `text`
+- `category`
+- `priority`
+- `sources`
 
-Do not turn the dataset into free advertising.
+Use sequential fact IDs within the final record: `fact_001`, `fact_002`, `fact_003`, and so on. If facts are removed, renumber the final surviving list. The same ID must represent the same fact in every language.
 
-Do not add hotels, restaurants, shops or businesses unless the entity itself has genuine documented historical, cultural, industrial, scientific or other significance.
-
-## Important people and local connections
-
-A famous person must not be included merely because they are associated with the same city or region. Verify a concrete connection to the specific postal-code area. If the only connection is “same city”, remove the story.
-
-## Industry, technology and cultural memory
-
-Industrial and technical history are first-class local content. If the area has a significant connection to a company, brand, vehicle, product, factory, mining operation, railway, shipyard, aircraft, invention, technical achievement or major industrial event, investigate it before finalizing the record.
-
-Cultural memory and local folklore may be included when clearly presented as cultural memory or tradition rather than as an unverified historical fact.
-
-## Hidden gems
-
-Actively look for the kind of information that produces: **“I never needed to know this, but I am very glad I know it now.”** Hidden gems must still be factual, sourceable and locally relevant.
-
-## Sources
-
-Prefer:
-
-1. official and primary sources
-2. archives
-3. museums
-4. universities
-5. specialist institutions
-6. high-quality journalism
-7. reliable regional/local sources
-
-Do not invent facts or URLs.
-
-Every factual claim must be supported by appropriate sources.
-
-Top-level sources must conform to the current schema.
-
-Fact-level source references must refer to relevant source identifiers.
-
-## Current fact structure
-
-Facts must use the current structured format:
-
-```json
-{
-  "id": "fact_001",
-  "title": "...",
-  "text": "...",
-  "category": "...",
-  "priority": "A",
-  "sources": ["..."]
-}
-```
-
-Fact IDs must be sequential within the record:
-
-- `fact_001`
-- `fact_002`
-- `fact_003`
-- ...
-
-The same ID represents the same fact in every language.
-
-If facts are removed during rework, renumber the final surviving facts sequentially. Do not preserve obsolete gaps merely because the old record used them.
-
-## Six languages
-
-Every migrated record must contain:
-
+Every record must include all six language versions:
 - `cs`
 - `de`
 - `en`
@@ -264,155 +192,123 @@ Every migrated record must contain:
 - `fr`
 - `it`
 
-Each translation must contain:
+Each translation must include `representative_place` and `facts`; each translated fact must include `id`, `title`, and `text`. All six versions must contain exactly the same fact IDs in the same order. Translate the meaning naturally and accurately; do not simply copy text between language fields. Keep factual meaning and editorial priorities aligned across all translations.
 
-- `representative_place`
-- `facts`
+## 11. Coordinates, access, and representative place
 
-Each translated fact must contain:
+Verify the representative place, representative coordinates, and access-point coordinates according to the current schema and existing project rules. Coordinates must be plausible and correspond to the intended place. Do not copy coordinates blindly from old content.
 
-- `id`
-- `title`
-- `text`
+Do not claim that an access point or geographic check has been verified unless it has actually been checked. Follow the schema's required verification flags honestly.
 
-The fact IDs must correspond exactly across all six languages.
+## 12. Final audit before saving
 
-Translations must preserve the meaning of the canonical fact. Do not simply copy Czech text into other language fields.
+### Content and relevance
+- Did I research the area anew, including when old content existed?
+- Did I determine the identity of this specific area?
+- Are facts selected and ordered by actual local relevance?
+- Did I avoid giving any category automatic priority?
+- Are all defining stories represented where evidence supports them?
+- Are all included facts worth keeping, even if the list is long?
+- Have I avoided arbitrary quotas, padding, and weak filler?
+- Did I look beyond the first obvious attraction?
+- Are hidden gems included only when genuinely valuable?
 
-## Final pre-publication audit
-
-Before saving, verify all of the following:
-
-### Content completeness
-- Did I research the location again rather than merely edit the old record?
-- Did I perform the Local Significance Check?
-- Did I identify the main defining stories?
-- Are the important defining stories represented in the final facts?
-- Did I search beyond conventional tourist attractions?
-- Did I check industry, technology, transport, companies, products, people, nature, archaeology, military history and cultural memory where relevant?
-- Did I omit any major story simply because it is not a classic tourist attraction?
-- Did I avoid weak filler and arbitrary fact quotas?
-
-### Geographic correctness
-- Does every important fact belong to this postal-code area?
-- Does every included person have a concrete local connection?
-- Does every included company or product have a concrete local connection?
-- Are nearby sites genuinely connected?
-- Did I avoid using “same city” as the only justification?
-- Did I avoid unnecessary duplication with other postal codes?
-
-### Editorial quality
-- Does every fact add something distinct?
-- Is the representative place appropriate?
-- Are hidden gems included where genuinely available?
-- Is the record useful to a visitor and to a professional user such as a tourism office?
-- Does the record tell a coherent story of the place?
+### Geography and duplication
+- Does each fact have a concrete connection to this postcode?
+- Did I avoid treating “same city” as sufficient evidence?
+- Are people, companies, products, events, and sites linked to the correct location?
+- Have I avoided unnecessary duplication with other postcodes?
 
 ### Evidence and structure
 - Are factual claims supported by appropriate sources?
-- Are source references valid?
-- Are URLs valid and not invented?
-- Does the record conform to the current schema?
-- Are fact IDs sequential?
-- Do all six languages contain exactly the same fact IDs?
-- Are translations semantically aligned?
-- Are required fields and coordinates valid?
+- Do source references resolve correctly, and do URLs exist?
+- Are all required schema fields present and valid?
+- Are coordinates and verification flags honest and valid?
+- Are fact IDs sequential and consistent across all six languages?
+- Are all translations complete, accurate, and semantically aligned?
+- Does the complete record validate against the current `schema.json`?
 
-Only after all checks pass may the record be marked completed.
+If any required check fails, fix the record and validate again. Do not mark it complete merely because the content has been generated or saved.
 
-## Validation
+## 13. Save and completion state
 
-Before saving:
+The database is the production source of truth. Save the final schema-compliant content to the correct fields of the existing Supabase row, preserving unrelated metadata and fields.
 
-- verify postal code
-- verify city
-- verify district/county/state
-- verify representative place
-- verify coordinates
-- verify factual claims
-- verify source URLs
-- verify all required schema fields
-- verify fact IDs
-- verify six-language structure
-- validate against the current `schema.json`
+Use the project's existing completion mechanism only after the content has been saved successfully and all required validation has passed. A pre-existing status such as `validated`, a high data version, or the mere presence of content is not proof that this rework is complete.
 
-If validation fails, fix the record before marking it complete.
+Do not invent a new database status, change the schema, or change the application's completion logic as part of this prompt unless that mechanism is explicitly part of the existing implementation. Inspect the current worker/database conventions and follow them consistently. If no reliable completion marker exists, report that as a genuine workflow blocker rather than falsely marking the record complete.
 
-## Resumability
+A record is complete only when:
+1. the final content is saved to the correct existing row;
+2. schema and content checks pass;
+3. all six translations and matching fact IDs are present;
+4. the project's established completion marker is persisted successfully.
 
-The migration must be resumable.
+## 14. Queue, order, and resuming after interruption
 
-After every successfully migrated record, persist its completed state.
+Process the existing German records in the established ascending postal-code order, unless the current worker explicitly defines another production order.
 
-If the worker stops, times out, crashes or loses connection, the next run must identify the first remaining unmigrated record and continue from there.
+At the beginning of a run:
+1. load the prompt, content standard, and schema from the repository;
+2. inspect the current database/worker completion conventions;
+3. identify records that still require rework using the project's reliable completion marker—not merely the presence of a record or a generic status label;
+4. select the next eligible existing German postcode in order.
 
-Never restart from the beginning.
+After each record is successfully saved, validated, and marked complete, immediately continue to the next eligible record.
 
-Never reprocess completed records unless explicitly requested.
+Persist completion record by record. If the process times out, crashes, or loses connection, the next run must resume at the first remaining eligible record. Do not restart the whole queue, and do not reprocess completed records unless explicitly requested.
 
-## Error handling
+Do not block content rework on an exhaustive comparison of every German postcode against external postcode lists. The full postcode-coverage audit will be performed manually during the final review. During this phase, work on the existing German records and their content; do not invent missing postcodes or silently change the queue's scope.
 
-If one postal code cannot be completed:
+## 15. Error handling and run report
 
-1. record the error
-2. do not mark it as completed
-3. continue with the next record if the problem is record-specific
+If an individual record cannot be completed:
+1. log the postcode and specific reason;
+2. do not mark it complete;
+3. continue to the next record if the error is isolated to that postcode;
+4. retry transient service or network errors according to the existing worker's retry policy.
 
-One bad postal code must not stop the entire migration.
+Do not let one bad record stop the entire queue unless there is a genuine system-wide blocker, such as loss of database access or unavailable required credentials.
 
 At the end of a run, report:
+- total existing German records in scope, if available from the worker;
+- already completed according to the reliable completion marker;
+- completed during this run;
+- remaining;
+- failed postcodes and reasons;
+- any system-level blocker.
 
-- total records found
-- already migrated
-- migrated during this run
-- remaining
-- failed
-- failed postal codes and reasons
+Do not claim completion based only on the number of records attempted.
 
-## Database safety
+## 16. Database safety
 
-Do not:
+Never:
+- delete the postal-code table or unrelated records;
+- create duplicate postal-code records;
+- change `schema.json` or `CONTENT_STANDARD.md`;
+- change application code, RLS policies, or the Supabase project;
+- expose or store credentials in the content;
+- mark a record complete before successful save and validation;
+- overwrite unrelated fields or records.
 
-- delete the postal_codes table
-- delete unrelated records
-- change schema.json
-- change CONTENT_STANDARD.md
-- change application code
-- change RLS policies
-- create duplicate records
-- expose or store service-role credentials
-- replace the Supabase project
-
-Update only the intended German postal-code records.
+Update only the intended existing German rows.
 
 ## Autonomous execution
 
-This is an explicit instruction to work autonomously.
+This is an explicit instruction to work autonomously. Do not repeatedly ask whether to continue.
 
-Do not ask:
+For each eligible record, follow:
 
-- "Should I continue?"
-- "Do you want me to process the next one?"
-- "Shall I proceed?"
+**research → establish local identity → rank by relevance → rework → translate → validate → save → mark complete → next**
 
-Instead:
-
-**research → rework → validate → save → mark complete → next**
-
-Repeat until the migration queue is empty or a genuine system-level blocker prevents further work.
+Continue until the eligible queue is empty or a genuine system-level blocker prevents further work.
 
 ## Completion
 
-The migration is complete only when no unmigrated German postal-code records remain.
+The rework phase is complete when no eligible existing German records remain according to the project's reliable completion mechanism. Then provide a final report.
 
-When the queue is empty, stop and provide a final migration report.
-
-Do not create placeholder records.
-
-Do not invent missing postal codes.
+Do not create placeholder records. Do not invent missing postal codes. The separate final manual review will check postcode coverage and any remaining geographic assignment issues.
 
 ---
 
-**IMPORTANT:** This file is the dedicated prompt for **REWORK / MIGRATION OF EXISTING RECORDS**.
-
-A separate prompt must later be created for **CREATING NEW POSTAL-CODE RECORDS**.
+**IMPORTANT:** This file is the dedicated prompt for **REWORK / MIGRATION OF EXISTING GERMAN POSTAL-CODE RECORDS**. The prompt for creating new postal-code records remains separate.
