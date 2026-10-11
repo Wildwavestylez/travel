@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD v1.1
+# TRAVEL — CONTENT STANDARD v1.2
 
 ## 1. Single source of truth
 
@@ -12,6 +12,8 @@ Every new JSON record MUST comply with both.
 No new JSON may be created outside these rules. Do not add fields, sections, facts, categories, source practices or content patterns ad hoc.
 
 The standard is the quality contract for TRAVEL.
+
+**Version 1.2 clarification:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority.
 
 ---
 
@@ -86,7 +88,31 @@ For example, a place known for a major automobile brand, vehicle production, rai
 
 ---
 
-## 4. Geographic scope — the postcode is not the whole story
+## 4. Relevance determines selection and order
+
+There is no universal subject hierarchy for TRAVEL. The actual identity of each place determines which stories are most important and which facts appear first.
+
+Before finalizing a record, determine what the specific area is best known for, what genuinely shaped its identity, why people visit or recognize it, and which stories most clearly explain why the place matters.
+
+Order facts by their real significance and relevance to that place—not by the order in which research discovered them, by how easy they are to source, or by an automatic preference for nature, industry, technology, tourism, history, famous people, or hidden gems.
+
+Examples:
+- If a place is best known for a castle and a famous film shot there, the film connection and castle history may come before secondary landscape details.
+- If a place is known as a gateway to distinctive rocks, a national park, or exceptional scenery, nature and landscape may come before a less relevant historical personality.
+- If a place is defined by a major industrial, technical, scientific, or transport achievement, that story may lead.
+- If its identity is primarily shaped by a historic event, cultural tradition, architecture, a person, or another local story, that subject may lead instead.
+
+These are examples, not templates. Apply the rule independently to each postcode. Do not force a place into a category or give any category priority just because it appears in this standard's research checklist.
+
+Include every fact that is genuinely relevant, distinct, sufficiently supported, and useful—even if the final record contains 10, 15, or more facts. Do not remove good facts to meet a preferred length. Equally, do not add facts just to make a record look comprehensive. Relevance, evidence, and distinct value determine inclusion.
+
+The defining story or stories should generally appear first. Strong secondary facts follow in descending order of relevance. Hidden gems are valuable, but must not be placed above a more defining story simply because they are surprising.
+
+This rule governs both **which facts are included and the order in which they are presented**. Preserve the same factual priorities across all translations.
+
+---
+
+## 24. Geographic scope — the postcode is not the whole story
 
 The postcode boundary is NOT automatically the boundary of the content.
 
@@ -102,7 +128,7 @@ Do NOT attach famous places to a postcode merely because they are somewhere in t
 
 ---
 
-## 5. Build the story before building the fact list
+## 24. Build the story before building the fact list
 
 After research, identify the strongest stories and organize them conceptually before writing individual facts.
 
@@ -126,7 +152,7 @@ Do not force a narrative where none exists.
 
 ---
 
-## 6. What every postcode should answer
+## 24. What every postcode should answer
 
 A user arriving virtually at a postcode should understand:
 
@@ -140,7 +166,7 @@ A professional tourism, heritage or regional-development user should ideally fin
 
 ---
 
-## 7. Content categories
+## 24. Content categories
 
 Facts may belong to one or more of these conceptual areas:
 
@@ -159,7 +185,7 @@ These are content categories, NOT a fixed order.
 
 ---
 
-## 8. Priority
+## 24. Priority
 
 Categories do not have equal automatic priority. The importance of the individual fact determines its position.
 
@@ -215,7 +241,7 @@ Priority is contextual. A fact may move higher or lower when compared with the o
 
 ---
 
-## 9. Nature and landscape
+## 24. Nature and landscape
 
 Nature is a first-class TRAVEL topic, not filler.
 
@@ -242,7 +268,7 @@ If no meaningful natural feature is relevant, do not invent one.
 
 ---
 
-## 10. Relevant surroundings
+## 24. Relevant surroundings
 
 Important places in the surrounding area may be included when there is a genuine geographic or thematic connection, especially:
 
@@ -259,7 +285,7 @@ The connection to the postcode should be clear.
 
 ---
 
-## 11. History
+## 24. History
 
 Historical information should explain the place rather than become a list of dates.
 
@@ -282,7 +308,7 @@ A person or minor event should normally be integrated into the relevant historic
 
 ---
 
-## 12. Industry, technology and cultural memory
+## 24. Industry, technology and cultural memory
 
 Industrial and technical history deserves the same editorial attention as monuments and traditional tourism.
 
@@ -311,7 +337,7 @@ Where a story has strong generational or cultural memory, it may be included whe
 
 ---
 
-## 13. Hidden gems
+## 24. Hidden gems
 
 A hidden gem must be genuinely interesting, specific, surprising or unusually useful.
 
@@ -329,7 +355,7 @@ The ideal hidden gem should create the reaction:
 
 ---
 
-## 14. Facts must have context
+## 24. Facts must have context
 
 Facts should not be dumped as disconnected trivia.
 
@@ -343,7 +369,7 @@ When several facts belong to one major local story, avoid unnecessary repetition
 
 ---
 
-## 15. No arbitrary fact quota
+## 24. No arbitrary fact quota
 
 There is NO fixed minimum or maximum number of facts.
 
@@ -362,7 +388,7 @@ A major city district, industrial center or historically exceptional place may l
 
 ---
 
-## 16. Quality over source count
+## 24. Quality over source count
 
 There is no required number of sources.
 
@@ -383,7 +409,7 @@ Do not treat repeated copies of the same claim as independent confirmation.
 
 ---
 
-## 17. Source traceability
+## 24. Source traceability
 
 Important factual claims must be traceable to their sources.
 
@@ -401,7 +427,7 @@ Local confirmation may be added in the future as an additional verification laye
 
 ---
 
-## 18. Anti-bloat rule
+## 24. Anti-bloat rule
 
 Never manufacture content to make a postcode look richer.
 
@@ -422,7 +448,7 @@ More facts are NOT automatically better.
 
 ---
 
-## 19. The WOW test
+## 24. The WOW test
 
 Before a fact is included, ask:
 
@@ -449,7 +475,7 @@ Then:
 
 ---
 
-## 20. Commercial neutrality
+## 24. Commercial neutrality
 
 Do not turn factual content into free advertising.
 
@@ -467,7 +493,7 @@ Future advertising belongs in a separate commercial layer.
 
 ---
 
-## 21. No invented symmetry
+## 24. No invented symmetry
 
 Do not force every postcode to contain the same number of:
 
@@ -485,7 +511,7 @@ The dataset must reflect the real significance of the place, not an artificial c
 
 ---
 
-## 22. Final pre-publication audit
+## 24. Final pre-publication audit
 
 Before a new postcode is considered complete, the creator MUST perform a final content audit.
 
@@ -529,7 +555,7 @@ Only after this audit should the record be published as complete.
 
 ---
 
-## 23. Final production rule
+## 24. Final production rule
 
 The combination of:
 
