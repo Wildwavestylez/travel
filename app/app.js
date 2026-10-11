@@ -122,10 +122,10 @@ let state;
 try{
   const saved=JSON.parse(localStorage.getItem(STORE)||'null');
   state=(saved&&Number.isInteger(saved.index)&&saved.index>=0)
-    ? {...{index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false},...saved}
-    : {index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false};
+    ? {...{index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false,autoContinue:false},...saved}
+    : {index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false,autoContinue:false};
 }catch{
-  state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false};
+  state={index:0,totalKm:0,route:null,startedAt:null,routeKm:0,welcomeShown:false,autoContinue:false};
   localStorage.removeItem(STORE);
 }
 let sequence=[],currentData=null,nextData=null,routeLayer=null,routeLatLngs=[];
@@ -386,6 +386,8 @@ function arrived(){
     setStatus(tr('arrived'));
     setTimeout(()=>start(true),1200);
   }else{
+    state.autoContinue=false;
+    save();
     btn.disabled=true;
     btn.textContent='🏁 '+tr('done').replace(/^🏁\s*/,'');
     setStatus(tr('done'));
@@ -438,7 +440,7 @@ async function catchUpAfterBackground(){
       if(point)car.setLatLng([point.lat,point.lon]);
       completed++;
 
-      if(state.index>=sequence.length-1)break;
+      if(state.index>=sequence.length-1){state.autoContinue=false;save();break;}
 
       nextData=await loadData(sequence[state.index+1]);
       const from=[car.getLatLng().lat,car.getLatLng().lng];
@@ -478,7 +480,14 @@ async function catchUpAfterBackground(){
 }
 
 document.addEventListener('visibilitychange',()=>{
-  if(document.visibilityState==='visible')catchUpAfterBackground();
+  if(document.visibilityState!=='visible')return;
+  if(state.route&&state.startedAt){
+    catchUpAfterBackground();
+  }else if(state.autoContinue&&state.index<sequence.length-1&&!catchingUp){
+    // Mobile browsers can suspend the 1.2-second between-stop timer.
+    // Resume the next leg when the page becomes visible again.
+    start(true);
+  }
 });
 
 async function start(auto=false){
@@ -497,6 +506,7 @@ async function start(auto=false){
     state.route=r;
     state.routeKm=r.distance/1000;
     state.startedAt=Date.now();
+    state.autoContinue=true;
     save();
     draw();
     map.fitBounds(routeLayer.getBounds(),{padding:[30,30]});
