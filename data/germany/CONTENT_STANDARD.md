@@ -172,6 +172,7 @@ Facts may belong to one or more of these conceptual areas:
 
 - nature_and_landscape
 - heritage_and_monuments
+- architecture_and_urbanism
 - history
 - culture_and_industry
 - people
@@ -180,6 +181,8 @@ Facts may belong to one or more of these conceptual areas:
 - hidden_gem
 - local_story
 - other_verified_significance
+
+Use **architecture_and_urbanism** for facts whose main significance concerns architecture, urban planning, settlement design, housing estates, urban development or notable building concepts and ensembles. This includes historically or technically significant residential planning and modernist or post-war architectural experiments. Use **heritage_and_monuments** when the primary focus is the heritage or monument status and historical significance of a specific protected building or site. The categories may be conceptually related, but choose the one that best describes the fact's central subject.
 
 These are content categories, NOT a fixed order.
 
