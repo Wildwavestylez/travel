@@ -187,6 +187,13 @@ Do not invent facts, citations, source identifiers, or URLs. Verify that a sourc
 
 A source that merely mentions a city is not automatically evidence for a claim about a particular postcode.
 
+### Proper names and natural localization
+Write each language version for a native reader. Translate ordinary descriptive wording whenever a clear, natural equivalent exists; do not leave common German words, street types, facility types or generic labels untranslated. For Czech, for example, use „ulice“ for *Straße*, „nádraží“ for *Bahnhof* and „nákupní centrum“ for *Einkaufszentrum* when they are descriptions, not inseparable parts of an official name.
+
+Preserve genuine official proper names when no established target-language equivalent exists. Do not invent translations or mechanically add Czech possessive endings to German names. Keep **Landwehrkanal** as **Landwehrkanal** in Czech; never write „Landwehrův kanál“. If a name may be unfamiliar, explain what it is in natural Czech prose rather than translating or deforming the name itself.
+
+Use established conventional translations where they genuinely exist. Apply the same principle consistently in all six languages: preserve the identity of proper names, translate descriptive meaning, and make the text comfortable to read without a dictionary.
+
 ## 11. Required record structure and six languages
 
 Follow `data/germany/schema.json` exactly, including every required field and its constraints. Do not rely on an old record's structure as proof that it is valid. Pay particular attention to the required geographic points, access point, verification fields, photo structure, sources, facts, and translations.
