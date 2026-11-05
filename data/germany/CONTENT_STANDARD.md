@@ -554,6 +554,13 @@ Check:
 - Are translations natural rather than literal?
 - Are proper names preserved appropriately while explanatory text remains understandable?
 
+### Proper names and localization
+Translate the explanatory language naturally for the target reader. Do not leave ordinary German words, descriptions, street types, facility types, or generic place labels untranslated when a clear, natural equivalent exists. A Czech reader should not need a dictionary for routine wording: for example, translate *Straße* as „ulice“, *Bahnhof* as „nádraží“ and *Einkaufszentrum* as „nákupní centrum“ when these words are descriptive rather than part of an official name.
+
+Preserve genuine proper names in their original form when translating them would distort or obscure the identity of the place. This includes official names of canals, streets, squares, buildings, institutions, monuments, companies, brands and other named entities when no established target-language name exists. Do not invent pseudo-translations or mechanically attach target-language possessive endings to German names. For example, keep **Landwehrkanal** exactly as written in Czech; do not turn it into „Landwehrův kanál“ or another improvised translation.
+
+Use established conventional translations when they genuinely exist and are familiar to the target audience. Otherwise retain the original proper name and explain its nature in the surrounding sentence if needed. The goal is balanced localization: preserve names, translate meaning, and keep the prose readable.
+
 Only after this audit should the record be published as complete.
 
 ---
