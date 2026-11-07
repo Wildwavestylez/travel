@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD v1.2
+# TRAVEL — CONTENT STANDARD v2.0
 
 ## 1. Single source of truth
 
@@ -13,7 +13,7 @@ No new JSON may be created outside these rules. Do not add fields, sections, fac
 
 The standard is the quality contract for TRAVEL.
 
-**Version 1.2 clarification:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority.
+**Retained from Version 1.2:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority. Version 2.0 preserves all rules from Version 1.2 and adds two binding clarifications: one unambiguous representative place per postcode, and target-language explanations for local names and cultural references.
 
 ---
 
@@ -125,6 +125,26 @@ Relevant surrounding places may also be included when there is a genuine geograp
 The connection MUST be clear in the fact.
 
 Do NOT attach famous places to a postcode merely because they are somewhere in the same city or region.
+
+### 5.1 One representative place and one representative point
+
+Every postcode MUST have exactly **one specific representative place** in `representative_place`. The corresponding `representative_point` coordinates MUST identify that same place.
+
+Binding rules:
+
+- Select one clearly identifiable, real-world place or site that best represents the postcode.
+- Enter one place only. Do NOT list two or three alternatives, several attractions, a collection of landmarks, or a broad group of places in this field.
+- The representative place must be specific enough to identify and locate unambiguously. Prefer a named, mappable site or object, such as a particular square, building, monument, museum, station, park feature or other clearly defined location.
+- The representative point must point directly to the selected representative place. It must not point to a different attraction, a second candidate, a general district center, or an arbitrary point elsewhere in the postcode.
+- The place and coordinates must form one consistent pair: a reader or map user looking up the coordinates should arrive at the named representative place.
+- Choose the single strongest representative candidate based on its relevance to the postcode, local significance, geographic fit and ability to represent the area. Do not choose several places to avoid making an editorial decision.
+- If no famous attraction exists, select another suitable, verifiable and precisely mappable place that genuinely represents the postcode. Do not invent a landmark or use a vague area name merely to fill the field.
+- Keep the representative place geographically appropriate to the postcode. Do not select a famous place elsewhere in the city simply because it is better known.
+- Translations may explain the selected place in the target language, but must preserve the identity of the same one place. Translation must not introduce additional candidates.
+
+This one-place rule applies ONLY to the representative-place field and its corresponding representative coordinates. It does NOT limit the number of distinct places, attractions or stories that may be covered in the facts.
+
+The representative place and `representative_point` are separate from `access_point`. This rule does not authorize changing, combining, auditing or redefining access-point data. Access-point handling remains governed by its existing rules and schema.
 
 ---
 
@@ -554,12 +574,36 @@ Check:
 - Are translations natural rather than literal?
 - Are proper names preserved appropriately while explanatory text remains understandable?
 
-### Proper names and localization
-Translate the explanatory language naturally for the target reader. Do not leave ordinary German words, descriptions, street types, facility types, or generic place labels untranslated when a clear, natural equivalent exists. A Czech reader should not need a dictionary for routine wording: for example, translate *Straße* as „ulice“, *Bahnhof* as „nádraží“ and *Einkaufszentrum* as „nákupní centrum“ when these words are descriptive rather than part of an official name.
+### Proper names, local terminology and cultural context
 
-Preserve genuine proper names in their original form when translating them would distort or obscure the identity of the place. This includes official names of canals, streets, squares, buildings, institutions, monuments, companies, brands and other named entities when no established target-language name exists. Do not invent pseudo-translations or mechanically attach target-language possessive endings to German names. For example, keep **Landwehrkanal** exactly as written in Czech; do not turn it into „Landwehrův kanál“ or another improvised translation.
+All six language versions are written for readers who may have no prior knowledge of German language, history, institutions or popular culture. German source material does NOT mean that German terms can be left unexplained in the published content.
 
-Use established conventional translations when they genuinely exist and are familiar to the target audience. Otherwise retain the original proper name and explain its nature in the surrounding sentence if needed. The goal is balanced localization: preserve names, translate meaning, and keep the prose readable.
+The goal is that a reader can understand the fact naturally without opening a German dictionary or having to research an unfamiliar local reference independently.
+
+**Preserve the identity of official names, but explain their meaning and context in the target language whenever the reader may not understand them.**
+
+Binding rules:
+
+- Translate ordinary German words, descriptions, street types, facility types and generic place labels when a clear, natural equivalent exists. For example, translate *Straße* as „ulice“, *Bahnhof* as „nádraží“ and *Einkaufszentrum* as „nákupní centrum“ when these words are descriptive rather than part of an official name.
+- Preserve genuine proper names in their original form when translating them would distort or obscure the identity of the place. This includes official names of canals, streets, squares, buildings, institutions, monuments, companies, brands and other named entities when no established target-language name exists.
+- Do not invent pseudo-translations or mechanically attach target-language possessive endings to German names. For example, keep **Landwehrkanal** exactly as written in Czech; do not turn it into „Landwehrův kanál“ or another improvised translation.
+- When an official name, local term, institution, museum, tradition, media character or cultural reference is unfamiliar or potentially ambiguous to the target audience, explain it naturally at its first relevant mention in each language version.
+- The explanation must tell the reader what the thing actually is, what it does, or why it matters. A literal translation or a bare statement that something is famous is not sufficient.
+- For cultural references, provide enough context for someone outside Germany to understand their significance. Do not assume that a Czech, Spanish, French, Italian or international English-speaking reader knows a German children's television character, local custom, historical institution or regional expression.
+- Use the established conventional translation of a name when one genuinely exists and is familiar to the target audience. Otherwise retain the official name and add a concise explanation in the surrounding sentence.
+- Explanations must be accurate, proportionate and relevant to the fact. Do not add long dictionary definitions or unnecessary background where a short clarification is enough.
+- Apply this independently in CS, DE, EN, ES, FR and IT. A phrase that is obvious to a German reader may still require explanation in the other five languages. Do not assume that one language's explanation automatically works in another.
+- Translations must sound natural to native readers. Do not mechanically copy a German sentence structure or use the same explanatory wording in every language if a more natural local formulation is available.
+- Keep the official name and the explanation consistent across all facts in the same record. Explain a term on first relevant use; avoid repeating the full explanation unnecessarily later.
+
+Examples of the required approach:
+
+- **Sandmännchen:** Do not merely write that the Sandmännchen is a famous character. Explain that it is a beloved German television character from children's bedtime programming, known for appearing in stories shown before children go to sleep. Adapt the wording naturally to each target language.
+- **Museum für Naturkunde:** Preserve the official museum name where useful, but explain that it is a natural history museum if the target reader might not recognize the German name.
+- **Gartenstadt:** Explain the concept as a planned garden suburb or garden city, with housing integrated with green spaces, rather than leaving the German word unexplained.
+- **Trudelturm:** Preserve the proper name, but explain its function and connection to aerodynamics or aviation research when it appears in a fact.
+
+Use established conventional translations when they genuinely exist and are familiar to the target audience. Otherwise retain the original proper name and explain its nature in the surrounding sentence if needed. The goal is balanced localization: preserve names, translate meaning, explain unfamiliar context, and keep the prose readable.
 
 Only after this audit should the record be published as complete.
 
