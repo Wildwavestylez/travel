@@ -310,6 +310,36 @@ The connection to the postcode should be clear.
 
 ---
 
+## 11A. Standardized map categories (V3.1)
+
+Every fact MUST have exactly one `map_category`. This is a precise, visitor-facing classification used to choose the map pin icon. It does not replace or change the existing `category` field, which remains the broad editorial/research classification.
+
+Use exactly one of these machine values:
+
+| map_category | Map icon | Meaning and assignment rule |
+|---|---|---|
+| `castle` | 🏰 | A specific castle, palace, fortress, manor house or comparable fortified/noble residence. |
+| `historical_monument` | 🏛️ | A secular historical monument, memorial, archaeological remnant or heritage site that is not primarily a castle, religious site, museum or technical site. |
+| `nature` | 🌲 | A natural feature, protected natural site, forest, geological formation, water feature, habitat or biodiversity location. |
+| `viewpoint_landscape` | 🏞️ | A viewpoint, scenic overlook, panorama, distinctive landscape area or route whose primary value is the view/landscape. |
+| `historic_city` | 🏙️ | A historic town centre, old town, historic square/street ensemble or clearly defined urban heritage area. Do not use for a single building. |
+| `museum` | 🏺 | A museum, exhibition collection, visitor centre or interpretive institution whose primary purpose is displaying or explaining collections/history. |
+| `religious_site` | ⛪ | A church, cathedral, monastery, synagogue, mosque, chapel, cemetery or other specifically religious/sacred site. |
+| `technical_heritage` | 🏗️ | A historically or technically significant industrial, engineering, transport, energy, mining or infrastructure site/object. |
+
+### Binding classification rules
+- Choose the category of the fact's **specific mapped subject/location**, not merely the broad topic of its text.
+- Assign exactly one primary value. Do not create combined values or add new values ad hoc.
+- When a site could fit several categories, classify by its primary identity: museum institution → `museum`; religious site → `religious_site`; castle/palace/fortress → `castle`; industrial/engineering/transport object → `technical_heritage`; historic urban ensemble → `historic_city`; otherwise choose the best-fitting monument, nature or landscape category.
+- A fact about a person, company, event, film or tradition is classified by its one principal physical location where possible. If no defensible physical location exists, select the best-supported subject category; the fact receives a map pin only when it has a valid `location`.
+- Do not classify a fact as a museum merely because a museum is mentioned as a source or nearby attraction.
+- Map categories do not determine fact priority, inclusion, wording or editorial ranking.
+- The value is language-neutral and is not translated in the six language versions.
+
+During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
+
+---
+
 ## 12. History
 
 Historical information should explain the place rather than become a list of dates.
