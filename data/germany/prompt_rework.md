@@ -2,7 +2,7 @@
 
 ## Version
 
-**REWORK PROMPT V1.4 — CONTENT STANDARD V3**
+**REWORK PROMPT V1.5 — CONTENT STANDARD V3.1**
 
 This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
@@ -21,7 +21,7 @@ Before starting, read and follow:
 1. `data/germany/schema.json`
 2. `data/germany/CONTENT_STANDARD.md`
 
-These files remain authoritative. They have been updated to Content Standard V3. Do not modify them ad hoc during a record run. The final record must conform to the current schema and content standard.
+These files remain authoritative. They define Content Standard V3.1, including the dedicated `personality` map category. Do not modify them ad hoc during a record run. The final record must conform to the current schema and content standard.
 
 ## Core workflow and mandatory mode selection
 
@@ -256,6 +256,7 @@ For facts that genuinely belong to the current postcode but have no single defen
 - Place local customs, traditions, folklore, language and cultural practices on the postcode's existing `representative_point`.
 - For a person, first find a verified physical place in this postcode connected with them (birthplace, residence, workplace, study, creative work, documented activity, memorial or burial). Use it when supported.
 - If no defensible person-related site in the postcode can be found, use `representative_point`. The fact text must explain why the person matters to this specific postcode area and describe the documented local connection; a generic biography is insufficient.
+- **Map classification is independent of pin location:** every fact whose primary subject is a specific person MUST use `map_category: "personality"`, whether its location is a concrete building/site or the postcode-level representative-point fallback. Do not classify a person-centred fact as `technical_heritage`, `museum`, `historical_monument` or another site category merely because the person is pinned to a factory, house, museum, memorial or other physical place. A person mentioned only incidentally in a fact about something else does not trigger `personality`.
 - For either fallback, use the exact `representative_point` coordinates, `name` = `representative_place`, `type` = `postal_area`, and `accuracy` = `area_representative`. Never substitute `access_point`.
 - `location.source` supports the representative place/point; the fact's own sources support the local tradition or the person's local connection and significance.
 - The pin represents association with the postcode area, not an assertion that the custom or person's event happened at the representative point.
@@ -400,7 +401,7 @@ For every existing record in a geographic-enrichment batch:
 1. Read the current database record and retain an exact before-copy of all relevant content.
 2. For each existing fact, identify the one principal real-world location to which that fact refers.
 3. Research and verify that location independently.
-4. Add the `location` and `map_category` properties to the corresponding source-language fact. Choose map_category using Content Standard V3 Section 11A, based on the fact's existing subject. Do not rewrite any existing fact content. For location:
+4. Add the `location` and `map_category` properties to the corresponding source-language fact. Choose map_category using Content Standard V3.1 Section 11A, based on the fact's existing primary subject. Person-centred facts must use `personality`, independently of their physical pin location. Do not rewrite any existing fact content. For location:
    - a complete location object when the position is sufficiently supported;
    - explicit `null` when it cannot be reliably established.
 5. Preserve the exact fact order and every existing fact ID.
