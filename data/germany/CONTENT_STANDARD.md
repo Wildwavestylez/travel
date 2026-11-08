@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD v2.0
+# TRAVEL — CONTENT STANDARD v3.0
 
 ## 1. Single source of truth
 
@@ -12,6 +12,8 @@ Every new JSON record MUST comply with both.
 No new JSON may be created outside these rules. Do not add fields, sections, facts, categories, source practices or content patterns ad hoc.
 
 The standard is the quality contract for TRAVEL.
+
+**Version 3.0 adds a fact-level geographic layer. It does not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass. Existing fact content is preserved verbatim; only the separate location metadata is added.**
 
 **Retained from Version 1.2:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority. Version 2.0 preserves all rules from Version 1.2 and adds two binding clarifications: one unambiguous representative place per postcode, and target-language explanations for local names and cultural references.
 
@@ -628,3 +630,133 @@ The goal is:
 And the production principle is:
 
 **Research first. Identify the real stories. Select what matters. Write with context. Verify. Then publish.**
+
+
+---
+
+## 23. Three distinct coordinate roles — mandatory separation
+
+TRAVEL uses three separate geographic concepts. They serve different purposes and MUST never be substituted for one another.
+
+### 23.1 Postcode representative point — `representative_point`
+
+- Exactly one point for the postcode record.
+- Identifies the selected `representative_place`.
+- Communicates the single place that best represents the postal-code area.
+- It is not a general postcode centroid, an access point, or the location of every fact.
+
+### 23.2 Postcode access point — `access_point`
+
+- Exactly one practical point for arriving at or accessing the postal-code area.
+- May be a station, stop, entrance, or another verified access location.
+- It does not need to be the representative place.
+- It is not a substitute for any fact's own location.
+
+### 23.3 Fact-level location — `facts[].location`
+
+Each individual fact has its own independent `location` property.
+
+- It identifies the real-world place, site, feature, or historically documented location to which that particular fact refers.
+- It belongs to the fact, not to the postcode record as a whole.
+- It must not be copied from `representative_point` or `access_point` merely because those coordinates are already available.
+- It is a single primary location per fact. If a fact mentions several places, select the principal place that the fact is actually about. Do not create multiple locations or invent a midpoint.
+- The location object is stored once alongside the source-language fact. Do not duplicate it in any of the six translation objects.
+
+The three roles are therefore:
+
+| Field | Geographic meaning | Scope |
+|---|---|---|
+| `representative_point` | Where the postcode's representative place is | One per postcode |
+| `access_point` | Where a visitor can practically access the postcode area | One per postcode |
+| `facts[].location` | Where the subject of this particular fact is located | One per fact |
+
+## 24. Fact location object
+
+When a fact has a defensible geographic location, use this structure:
+
+```json
+{
+  "name": "Dorfkirche Blankenfelde",
+  "address": "Hauptstraße 21, 13159 Berlin",
+  "lat": 52.618000,
+  "lon": 13.392000,
+  "type": "building",
+  "accuracy": "exact",
+  "source": "https://example.org/source"
+}
+```
+
+The values above illustrate the structure only; they are not verified coordinates or a usable source.
+
+Required properties:
+- `name`: identifiable name of the actual location;
+- `lat` and `lon`: WGS84 latitude and longitude;
+- `type`: one of the enumerated values in `schema.json`;
+- `accuracy`: one of the enumerated confidence/precision values;
+- `source`: a direct URL supporting the location.
+
+Optional property:
+- `address`: verified address, or `null` where no street address applies.
+
+The `location` property itself may be `null` when no defensible location can be established. For backward compatibility, legacy facts may temporarily omit the property. New facts and facts processed by the geographic-enrichment workflow MUST explicitly contain `location`, either as a complete object or `null`.
+
+## 25. Location selection and precision
+
+Choose the location according to the actual subject of the fact:
+
+- A building or monument: locate the actual building/site, not its district or postcode center.
+- Transport or industrial infrastructure: locate the specific station, facility, structure, or documented site.
+- A natural feature: use a defensible representative point within the named feature; use `landscape_area` or `natural_feature` as appropriate and set `accuracy` to `area_representative` when the feature covers an area rather than one point.
+- A historical event: use the documented event location. If only an approximate historical location is known, use `historical_approximate`.
+- A vanished building or site: use its documented historical location only when evidence supports it; otherwise use `null`.
+- A person-related fact: locate the specific local site that makes the person's connection to this postcode meaningful, not the person's unrelated birthplace or a generic district center.
+
+Never infer coordinates from a place name alone, use a postcode centroid as a shortcut, or copy the representative/access point into a fact. Do not present approximate coordinates as exact.
+
+If the fact concerns a broad area and no meaningful single point can be established, use a defensible area-representative point and label it accordingly. If even that cannot be supported, use `null`.
+
+## 26. Evidence for geographic locations
+
+Every non-null fact location MUST have a source URL that supports the location or enables its independent verification.
+
+Prefer:
+1. official address, cadastral, municipal, heritage, transport, or geographic records;
+2. official site/operator pages and institutional maps;
+3. archives, museums, universities, and specialist geographic/heritage sources;
+4. other reliable sources with an explicit location.
+
+The fact's existing `sources` remain unchanged during a coordinate-only enrichment pass. The location object's `source` is a separate direct URL specifically supporting the geographic position. It may also appear in the top-level `sources` list when appropriate, but do not alter existing fact-source references merely to add coordinates.
+
+A URL that only mentions the name of a city or district is not sufficient evidence for the precise location of a building or feature.
+
+## 27. Six-language storage and preservation of existing facts
+
+The location object is stored once on the source-language item in `facts[]`.
+
+Do NOT add coordinates or duplicate `location` objects to:
+- `translations.cs.facts[]`
+- `translations.de.facts[]`
+- `translations.en.facts[]`
+- `translations.es.facts[]`
+- `translations.fr.facts[]`
+- `translations.it.facts[]`
+
+Translation fact IDs and order remain unchanged.
+
+During a geographic-enrichment pass, preserve verbatim:
+- every existing fact `id`, `title`, and `text`;
+- every existing fact `category`, `priority`, and `sources`;
+- all six translation objects, including their representative-place wording and every translated fact ID, title, text, and order;
+- all unrelated postcode metadata and verification fields.
+
+The only intended content change in that pass is adding `facts[].location` metadata. Do not rewrite facts to make them easier to geocode. If a factual or translation defect is discovered, report it separately for a separately authorized editorial task.
+
+## 28. Backward compatibility and migration
+
+The schema allows legacy facts to omit `location` so existing records remain readable while the geographic layer is introduced progressively.
+
+This compatibility allowance is not permission to omit locations from newly created facts or from facts included in a geographic-enrichment batch. For those records, every fact must have the `location` property, with either a verified object or explicit `null`.
+
+A record must not be described as fully geographically enriched while any fact still lacks the `location` property. Facts with `location: null` are explicitly reviewed but unresolved; report their count separately from facts with verified coordinates.
+
+Do not change the postcode-level representative or access point merely to make the fact-location layer appear complete. These remain independently verified fields.
