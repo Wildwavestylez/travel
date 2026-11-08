@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD v3.0
+# TRAVEL — CONTENT STANDARD v3.1
 
 ## 1. Single source of truth
 
@@ -13,7 +13,7 @@ No new JSON may be created outside these rules. Do not add fields, sections, fac
 
 The standard is the quality contract for TRAVEL.
 
-**Version 3.0 adds a fact-level geographic layer. It does not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass. Existing fact content is preserved verbatim; only the separate location metadata is added.**
+**Version 3.1 adds a standardized map_category for every fact, alongside the existing broad editorial category. Version 3.0 adds a fact-level geographic layer. It does not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass. Existing fact content is preserved verbatim; only the separate location metadata is added.**
 
 **Retained from Version 1.2:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority. Version 2.0 preserves all rules from Version 1.2 and adds two binding clarifications: one unambiguous representative place per postcode, and target-language explanations for local names and cultural references.
 
