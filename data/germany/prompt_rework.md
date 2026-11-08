@@ -2,7 +2,7 @@
 
 ## Version
 
-**REWORK PROMPT V1.4 — CONTENT STANDARD V3**
+**REWORK PROMPT V1.5 — CONTENT STANDARD V3.1**
 
 This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
@@ -390,11 +390,11 @@ For every existing record in a geographic-enrichment batch:
 1. Read the current database record and retain an exact before-copy of all relevant content.
 2. For each existing fact, identify the one principal real-world location to which that fact refers.
 3. Research and verify that location independently.
-4. Add only the `location` property to the corresponding source-language fact:
+4. Add the `location` and `map_category` properties to the corresponding source-language fact. Choose map_category using Content Standard V3.1 Section 11A, based on the fact's existing subject. Do not rewrite any existing fact content. For location:
    - a complete location object when the position is sufficiently supported;
    - explicit `null` when it cannot be reliably established.
 5. Preserve the exact fact order and every existing fact ID.
-6. Preserve all existing source-language fact fields: `id`, `title`, `text`, `category`, `priority`, and `sources`.
+6. Preserve all existing source-language fact fields exactly: `id`, `title`, `text`, `category`, `priority`, and `sources`. The only permitted additions are `location` and `map_category`.
 7. Preserve all six translations byte-for-byte where practical; at minimum, preserve every field, value, ID, and order exactly.
 8. Preserve postcode-level `representative_point`, `access_point`, `representative_place`, administrative fields, photo, verification data, top-level sources, and unrelated database columns. Do not change them as part of this annotation-only task.
 9. Save only the intended location metadata to the existing record. Never insert a duplicate postcode row.
@@ -415,6 +415,6 @@ For each record, report:
 - exact-preservation check for all original fact fields and translations (must pass);
 - representative point and access point unchanged (must pass).
 
-A record is geographically enriched only when every fact has an explicit `location` object or `null`, every non-null location is sourced and valid, and the preservation audit passes. Report unresolved `null` locations honestly; do not describe them as geocoded.
+A record is geographically enriched only when every fact has an explicit `location` object or `null`, every fact has one valid `map_category`, every non-null location is sourced and valid, and the preservation audit passes. Report unresolved `null` locations honestly; do not describe them as geocoded.
 
 Do not run this geographic-enrichment mode automatically for ordinary rework records. Select it only when the record is already completed and belongs to one of the protected groups listed above. For every other record, use full editorial rework (Mode A).
