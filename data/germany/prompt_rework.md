@@ -252,6 +252,16 @@ Never copy one of these coordinate types into another field merely for convenien
 
 For each non-null fact location, verify the actual place and coordinates using a reliable source and store the direct supporting URL in `location.source`. Use `null` when a defensible location cannot be established. Never guess coordinates, geocode only from an ambiguous name, or claim exact precision without evidence.
 
+For facts that genuinely belong to the current postcode but have no single defensible physical point, do not leave `location` as `null` merely because the subject is area-wide:
+- Place local customs, traditions, folklore, language and cultural practices on the postcode's existing `representative_point`.
+- For a person, first find a verified physical place in this postcode connected with them (birthplace, residence, workplace, study, creative work, documented activity, memorial or burial). Use it when supported.
+- If no defensible person-related site in the postcode can be found, use `representative_point`. The fact text must explain why the person matters to this specific postcode area and describe the documented local connection; a generic biography is insufficient.
+- For either fallback, use the exact `representative_point` coordinates, `name` = `representative_place`, `type` = `postal_area`, and `accuracy` = `area_representative`. Never substitute `access_point`.
+- `location.source` supports the representative place/point; the fact's own sources support the local tradition or the person's local connection and significance.
+- The pin represents association with the postcode area, not an assertion that the custom or person's event happened at the representative point.
+- Apply this only to facts genuinely connected to the current postcode. Wider county, Bundesland or regional material belongs in a separately scoped record.
+
+
 Do not claim that a representative point, access point, fact location, or geographic check has been verified unless it has actually been checked. Follow the schema's required verification flags honestly.
 
 ## 13. Final audit before saving
