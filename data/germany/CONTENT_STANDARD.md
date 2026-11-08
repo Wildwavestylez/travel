@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD V3
+# TRAVEL — CONTENT STANDARD V3.1
 
 ## 1. Single source of truth
 
@@ -13,7 +13,7 @@ No new JSON may be created outside these rules. Do not add fields, sections, fac
 
 The standard is the quality contract for TRAVEL.
 
-**Version 3 includes a standardized map_category for every fact, alongside the existing broad editorial category. Version 3.0 adds a fact-level geographic layer. It does not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass. Existing fact content is preserved verbatim; only the separate location metadata is added.**
+**Version 3.1 retains the V3 fact-level geographic layer and adds a dedicated `personality` map category so person-centred facts are visually distinguishable on the map, independently of the physical location used for their pin. Version 3.0 added the fact-level geographic layer. The geographic-enrichment preservation rules remain unchanged: they do not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass.**
 
 **Retained from Version 1.2:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority. Version 2.0 preserves all rules from Version 1.2 and adds two binding clarifications: one unambiguous representative place per postcode, and target-language explanations for local names and cultural references.
 
@@ -310,7 +310,7 @@ The connection to the postcode should be clear.
 
 ---
 
-## 11A. Standardized map categories (V3)
+## 11A. Standardized map categories (V3.1)
 
 Every fact MUST have exactly one `map_category`. This is a precise, visitor-facing classification used to choose the map pin icon. It does not replace or change the existing `category` field, which remains the broad editorial/research classification.
 
@@ -326,12 +326,15 @@ Use exactly one of these machine values:
 | `museum` | 🏺 | A museum, exhibition collection, visitor centre or interpretive institution whose primary purpose is displaying or explaining collections/history. |
 | `religious_site` | ⛪ | A church, cathedral, monastery, synagogue, mosque, chapel, cemetery or other specifically religious/sacred site. |
 | `technical_heritage` | 🏗️ | A historically or technically significant industrial, engineering, transport, energy, mining or infrastructure site/object. |
+| `personality` | 👤 | A fact whose primary subject is a specific person with a documented connection to the postcode. Use this category even when the person is represented by a house, workplace, factory, memorial, grave or postcode-level fallback point. |
 
 ### Binding classification rules
-- Choose the category of the fact's **specific mapped subject/location**, not merely the broad topic of its text.
+- Choose the category according to the fact's **primary subject**, not merely the physical object at which the pin is placed.
+- If the fact is primarily about a specific person, always use `personality`, even when the verified map location is that person's former home, workplace, factory, memorial, grave, museum or the postcode representative point. The pin location answers “where is this person connected to this postcode?”; the `personality` map category answers “who/what is this fact about?”.
+- Use `personality` only when the person is the central subject of the fact. A passing mention of a person in a fact primarily about a building, company, event or institution does not make it a personality fact.
 - Assign exactly one primary value. Do not create combined values or add new values ad hoc.
 - When a site could fit several categories, classify by its primary identity: museum institution → `museum`; religious site → `religious_site`; castle/palace/fortress → `castle`; industrial/engineering/transport object → `technical_heritage`; historic urban ensemble → `historic_city`; otherwise choose the best-fitting monument, nature or landscape category.
-- A fact about a person, company, event, film or tradition is classified by its principal mapped subject/location where possible. If no single physical place exists but the fact is genuinely tied to the current postcode area, use the postcode-level representative-location fallback defined below; do not leave the fact without a map pin merely because its subject is area-wide.
+- A fact about a person uses `personality` regardless of the selected physical location. Facts about companies, events, films or traditions are classified by their principal mapped subject/location where possible. If no single physical place exists but the fact is genuinely tied to the current postcode area, use the postcode-level representative-location fallback defined below; do not leave the fact without a map pin merely because its subject is area-wide.
 - Do not classify a fact as a museum merely because a museum is mentioned as a source or nearby attraction.
 - Map categories do not determine fact priority, inclusion, wording or editorial ranking.
 - The value is language-neutral and is not translated in the six language versions.
@@ -348,7 +351,7 @@ The record is about the individual postal-code area. When a fact genuinely belon
 - A fallback pin means that the fact is associated with the postal-code area, not that the custom or person-related event occurred at the representative place itself. Do not imply otherwise in the fact text.
 - This fallback applies only to facts belonging to the current postcode. Facts about a wider county, Bundesland or region belong in a separately scoped record, not copied into an individual postcode without a genuine local connection.
 
-This is a map-display assignment for existing postcode-level content. It does not change the editorial meaning, selection, wording standards or eight allowed `map_category` values. Continue assigning `map_category` according to the fact's subject as already defined above.
+This is a map-display assignment for existing postcode-level content. It does not change the editorial meaning, selection or wording standards. The nine allowed `map_category` values are defined above. For person-centred facts, `personality` takes precedence over the category of the physical site used for the pin.
 
 During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
 
