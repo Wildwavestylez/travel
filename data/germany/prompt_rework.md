@@ -2,7 +2,7 @@
 
 ## Version
 
-**REWORK PROMPT V1.2**
+**REWORK PROMPT V1.3 — CONTENT STANDARD V3**
 
 This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
@@ -21,7 +21,7 @@ Before starting, read and follow:
 1. `data/germany/schema.json`
 2. `data/germany/CONTENT_STANDARD.md`
 
-These files remain authoritative. Do not modify them as part of this rework. The final record must conform to the current schema and content standard.
+These files remain authoritative. They have been updated to Content Standard V3. Do not modify them ad hoc during a record run. The final record must conform to the current schema and content standard.
 
 ## Core workflow
 
@@ -49,7 +49,7 @@ For each record, determine which description best fits its current content:
 
 This classification is a workflow aid only. It does not change the quality bar, the research method, the schema, or the final requirements. Every record must reach the same standard.
 
-For records with existing content, treat the old facts as leads to investigate, not as a limit on the research. Keep a fact only if it remains relevant, sufficiently supported, geographically connected, and worth including. Rewrite it if needed. Remove it if it is weak, false, duplicated, generic, or insufficiently connected to the postal-code area.
+For the ordinary editorial rework phase, existing facts may be evaluated under the content rules. HOWEVER, when the task is specifically a geographic-enrichment pass, the preservation rules in Section 18A override editorial rework: do not rewrite, remove, reorder, shorten, expand, or retranslate any existing fact.
 
 For empty records, conduct the same research and story-selection process without relying on old facts.
 
@@ -205,6 +205,7 @@ Use the schema's current fact structure, including:
 - `category`
 - `priority`
 - `sources`
+- `location` — the independent location of this individual fact; see Content Standard V3.
 
 Use sequential fact IDs within the final record: `fact_001`, `fact_002`, `fact_003`, and so on. If facts are removed, renumber the final surviving list. The same ID must represent the same fact in every language.
 
@@ -218,11 +219,19 @@ Every record must include all six language versions:
 
 Each translation must include `representative_place` and `facts`; each translated fact must include `id`, `title`, and `text`. All six versions must contain exactly the same fact IDs in the same order. Translate the meaning naturally and accurately; do not simply copy text between language fields. Keep factual meaning and editorial priorities aligned across all translations.
 
-## 12. Coordinates, access, and representative place
+## 12. Coordinates, access, representative place, and fact locations
 
-Verify the representative place, representative coordinates, and access-point coordinates according to the current schema and existing project rules. Coordinates must be plausible and correspond to the intended place. Do not copy coordinates blindly from old content.
+Treat the three coordinate roles as separate fields with separate meanings:
 
-Do not claim that an access point or geographic check has been verified unless it has actually been checked. Follow the schema's required verification flags honestly.
+1. `representative_point`: the one point locating `representative_place` for the postcode.
+2. `access_point`: the one practical arrival/access point for the postcode area.
+3. `facts[].location`: the independently verified location of the subject of each individual fact.
+
+Never copy one of these coordinate types into another field merely for convenience. Follow the location object, allowed types, accuracy labels, and evidence rules in Content Standard V3 and `schema.json`.
+
+For each non-null fact location, verify the actual place and coordinates using a reliable source and store the direct supporting URL in `location.source`. Use `null` when a defensible location cannot be established. Never guess coordinates, geocode only from an ambiguous name, or claim exact precision without evidence.
+
+Do not claim that a representative point, access point, fact location, or geographic check has been verified unless it has actually been checked. Follow the schema's required verification flags honestly.
 
 ## 13. Final audit before saving
 
@@ -245,6 +254,9 @@ Do not claim that an access point or geographic check has been verified unless i
 
 ### Geography and duplication
 - Does each fact have a concrete connection to this postcode?
+- Does every new/enriched fact contain its own `location` property, either a verified object or explicit `null`?
+- Are representative_point, access_point, and facts[].location kept separate?
+- Does every non-null fact location have a direct supporting URL and honest accuracy label?
 - Did I avoid treating “same city” as sufficient evidence?
 - Are people, companies, products, events, and sites linked to the correct location?
 - Have I avoided unnecessary duplication with other postcodes?
@@ -315,7 +327,7 @@ Do not claim completion based only on the number of records attempted.
 Never:
 - delete the postal-code table or unrelated records;
 - create duplicate postal-code records;
-- change `schema.json` or `CONTENT_STANDARD.md`;
+- make ad hoc changes to `schema.json` or `CONTENT_STANDARD.md` during record processing (the controlled V3 specification update is maintained in the repository);
 - change application code, RLS policies, or the Supabase project;
 - expose or store credentials in the content;
 - mark a record complete before successful save and validation;
@@ -342,3 +354,46 @@ Do not create placeholder records. Do not invent missing postal codes. The separ
 ---
 
 **IMPORTANT:** This file is the dedicated prompt for **REWORK / MIGRATION OF EXISTING GERMAN POSTAL-CODE RECORDS**. The prompt for creating new postal-code records remains separate.
+
+
+---
+
+## 18A. Geographic-enrichment mode — preserve all existing facts
+
+This section governs the dedicated task of adding the V3 fact-location layer to already completed records. It is an annotation-only migration, not a content rework.
+
+**Absolute preservation rule:** Do not rewrite, edit, summarize, expand, shorten, remove, add, reorder, or retranslate any existing fact.
+
+For every existing record in a geographic-enrichment batch:
+
+1. Read the current database record and retain an exact before-copy of all relevant content.
+2. For each existing fact, identify the one principal real-world location to which that fact refers.
+3. Research and verify that location independently.
+4. Add only the `location` property to the corresponding source-language fact:
+   - a complete location object when the position is sufficiently supported;
+   - explicit `null` when it cannot be reliably established.
+5. Preserve the exact fact order and every existing fact ID.
+6. Preserve all existing source-language fact fields: `id`, `title`, `text`, `category`, `priority`, and `sources`.
+7. Preserve all six translations byte-for-byte where practical; at minimum, preserve every field, value, ID, and order exactly.
+8. Preserve postcode-level `representative_point`, `access_point`, `representative_place`, administrative fields, photo, verification data, top-level sources, and unrelated database columns. Do not change them as part of this annotation-only task.
+9. Save only the intended location metadata to the existing record. Never insert a duplicate postcode row.
+10. Read the record back and compare it with the before-copy. Confirm that the only intended content difference is the addition of fact-level `location` properties.
+
+If a fact refers to several sites, choose the one principal site that the fact is chiefly about. Do not add multiple points or invent a midpoint. For a natural area, use one sourced representative point and label its accuracy `area_representative`. For vanished or historical places, use a historically documented point only when evidence supports it; otherwise use `null`.
+
+If a defect is noticed in a fact's wording, factual claim, source list, category, priority, or translation, do not fix it during geographic enrichment. Record it separately for a future, separately authorized editorial review.
+
+### Geographic-enrichment audit
+
+For each record, report:
+- total facts;
+- facts with verified non-null locations;
+- facts explicitly set to `null`;
+- facts still missing the `location` property (must be zero for a completed enrichment pass);
+- location objects with invalid coordinates, unsupported type/accuracy, or missing source (must be zero);
+- exact-preservation check for all original fact fields and translations (must pass);
+- representative point and access point unchanged (must pass).
+
+A record is geographically enriched only when every fact has an explicit `location` object or `null`, every non-null location is sourced and valid, and the preservation audit passes. Report unresolved `null` locations honestly; do not describe them as geocoded.
+
+Do not run this geographic-enrichment mode automatically as part of ordinary editorial rework. It is a separate migration mode and must be explicitly selected.
