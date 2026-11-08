@@ -331,7 +331,7 @@ Use exactly one of these machine values:
 - Choose the category of the fact's **specific mapped subject/location**, not merely the broad topic of its text.
 - Assign exactly one primary value. Do not create combined values or add new values ad hoc.
 - When a site could fit several categories, classify by its primary identity: museum institution → `museum`; religious site → `religious_site`; castle/palace/fortress → `castle`; industrial/engineering/transport object → `technical_heritage`; historic urban ensemble → `historic_city`; otherwise choose the best-fitting monument, nature or landscape category.
-- A fact about a person, company, event, film or tradition is classified by its one principal physical location where possible. If no defensible physical location exists, select the best-supported subject category; the fact receives a map pin only when it has a valid `location`.
+- A fact about a person, company, event, film or tradition is classified by its principal mapped subject/location where possible. If no single physical place exists but the fact is genuinely tied to the current postcode area, use the postcode-level representative-location fallback defined below; do not leave the fact without a map pin merely because its subject is area-wide.
 - Do not classify a fact as a museum merely because a museum is mentioned as a source or nearby attraction.
 - Map categories do not determine fact priority, inclusion, wording or editorial ranking.
 - The value is language-neutral and is not translated in the six language versions.
