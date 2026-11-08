@@ -600,6 +600,20 @@ Pokud je geografický údaj nejistý, nehádej.
 
 ---
 
+# 18A. UMÍSTĚNÍ FAKTŮ PRO EUROPE EXPLORER
+
+Každý fakt musí mít `location` podle aktuálního V3 schema. Pokud fakt skutečně patří k danému PSČ, ale nemá jeden konkrétní fyzický bod, použij existující `representative_point` daného PSČ:
+
+- Místní zvyklost, tradici, folklor, jazykový nebo kulturní jev bez konkrétního místa umísti na `representative_point`.
+- U osobnosti nejprve vyhledej a ověř konkrétní místo v daném PSČ, ke kterému měla doložitelný vztah (narození, bydliště, práce, studium, tvorba, činnost, památník nebo hrob). Pokud takové místo nenajdeš, použij `representative_point`.
+- Pokud je osobnost umístěna na reprezentativní bod, text faktu musí výslovně vysvětlit, proč je tato osobnost důležitá právě pro danou oblast PSČ a jaká je její doložená místní vazba. Nestačí obecný životopis.
+- Pro tento typ umístění použij přesně souřadnice `representative_point`, `name` = `representative_place`, `type` = `postal_area` a `accuracy` = `area_representative`. Nikdy nepoužívej `access_point` jako náhradu.
+- Zdroj `location.source` musí podporovat reprezentativní místo a jeho polohu; zdroje samotného faktu musí podporovat místní tradici nebo vazbu a význam osobnosti.
+- Reprezentativní bod označuje vazbu faktu k oblasti PSČ. Nesmí se tvrdit ani naznačovat, že se zvyk nebo osobní událost odehrály přímo na tomto bodě.
+- Tato pravidla platí pouze pro obsah konkrétního PSČ. Obsah okresu, země nebo širšího regionu bude mít samostatný záznam.
+
+Nejde o novou obsahovou kategorii ani změnu osmi hodnot `map_category`. Jde o správné geografické umístění faktu pro Europe Explorer podle Content Standard V3.
+
 # 19. FOTOGRAFIE
 
 Pole `photo` musí odpovídat aktuálnímu schématu.
