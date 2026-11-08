@@ -23,11 +23,32 @@ Before starting, read and follow:
 
 These files remain authoritative. They have been updated to Content Standard V3. Do not modify them ad hoc during a record run. The final record must conform to the current schema and content standard.
 
-## Core workflow
+## Core workflow and mandatory mode selection
 
-**READ RECORD → CLASSIFY CONTENT STATE → RESEARCH THE AREA ANEW → IDENTIFY LOCAL IDENTITY → RANK STORIES BY RELEVANCE → AUDIT OLD CONTENT → SELECT / REMOVE / ADD → BUILD FINAL RECORD → TRANSLATE → VALIDATE → SAVE → CONFIRM COMPLETION → NEXT RECORD**
+**FIRST SELECT THE CORRECT WORK MODE → READ RECORD → RESEARCH / GEO-ENRICH → VALIDATE → SAVE → CONFIRM COMPLETION**
 
-Do not skip research because an old record already looks complete. Do not discard useful verified facts merely because the record is being researched again.
+There are two distinct work modes. Select the mode from the postcode and its established completion state before editing anything.
+
+### MODE A — FULL EDITORIAL REWORK (default)
+
+Use this mode for all existing German postcodes that are not explicitly protected under Mode B. This is the normal purpose of this prompt and the default for the ongoing postcode rework queue.
+
+In this mode, fully research and rework the content. Existing facts are working material, NOT protected text. You MUST correct, rewrite, expand, shorten, remove, replace, reorder, or add facts as required by the research and Content Standard V3. Rebuild all translations to match the final facts. Do not preserve weak, inaccurate, duplicated, or poorly sourced wording merely because it was present in the database.
+
+### MODE B — GEOGRAPHIC ENRICHMENT ONLY (strict preservation)
+
+Use this mode ONLY for already completed records in these protected groups:
+- completed 10xxx records;
+- completed 12xxx records;
+- completed 13xxx records.
+
+These records have already completed their editorial rework. Add the new V3 geographic metadata without changing their existing content. Apply Section 18A. Do not use Mode B for unfinished records or any other postcode range.
+
+### Mandatory mode decision
+
+Before editing a record, determine which mode applies and why. If the record is not an already completed record in one of the protected groups above, Mode A applies. Never let the preservation rule from Mode B restrict ordinary editorial rework.
+
+The fact-preservation rule is a narrow exception for the listed completed records only. It is NOT a general rule for this prompt.
 
 ## Database and scope
 
