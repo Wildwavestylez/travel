@@ -2,7 +2,7 @@
 
 ## Version
 
-**REWORK PROMPT V1.5 — CONTENT STANDARD V3.1**
+**REWORK PROMPT V1.4 — CONTENT STANDARD V3**
 
 This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
@@ -390,7 +390,7 @@ For every existing record in a geographic-enrichment batch:
 1. Read the current database record and retain an exact before-copy of all relevant content.
 2. For each existing fact, identify the one principal real-world location to which that fact refers.
 3. Research and verify that location independently.
-4. Add the `location` and `map_category` properties to the corresponding source-language fact. Choose map_category using Content Standard V3.1 Section 11A, based on the fact's existing subject. Do not rewrite any existing fact content. For location:
+4. Add the `location` and `map_category` properties to the corresponding source-language fact. Choose map_category using Content Standard V3 Section 11A, based on the fact's existing subject. Do not rewrite any existing fact content. For location:
    - a complete location object when the position is sufficiently supported;
    - explicit `null` when it cannot be reliably established.
 5. Preserve the exact fact order and every existing fact ID.
