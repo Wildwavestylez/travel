@@ -2,7 +2,7 @@
 
 ## Version
 
-**REWORK PROMPT V1.3 — CONTENT STANDARD V3**
+**REWORK PROMPT V1.4 — CONTENT STANDARD V3**
 
 This prompt is paired with `data/germany/CONTENT_STANDARD.md` and `data/germany/schema.json`. It governs the rework of existing German records, whether they contain substantial content, weak/partial content, or almost no content.
 
@@ -49,7 +49,7 @@ For each record, determine which description best fits its current content:
 
 This classification is a workflow aid only. It does not change the quality bar, the research method, the schema, or the final requirements. Every record must reach the same standard.
 
-For the ordinary editorial rework phase, existing facts may be evaluated under the content rules. HOWEVER, when the task is specifically a geographic-enrichment pass, the preservation rules in Section 18A override editorial rework: do not rewrite, remove, reorder, shorten, expand, or retranslate any existing fact.
+Mode A is the standard editorial rework and permits full editorial changes to existing facts. The preservation exception applies only to records explicitly eligible for Mode B as defined in the Core workflow and Section 18A.
 
 For empty records, conduct the same research and story-selection process without relying on old facts.
 
@@ -353,14 +353,14 @@ Do not create placeholder records. Do not invent missing postal codes. The separ
 
 ---
 
-**IMPORTANT:** This file is the dedicated prompt for **REWORK / MIGRATION OF EXISTING GERMAN POSTAL-CODE RECORDS**. The prompt for creating new postal-code records remains separate.
+**IMPORTANT:** This file is the dedicated prompt for **FULL EDITORIAL REWORK OF EXISTING GERMAN POSTAL-CODE RECORDS**, with a narrowly scoped geographic-enrichment-only exception for already completed 10xxx, 12xxx, and 13xxx records. The prompt for creating new postal-code records remains separate.
 
 
 ---
 
 ## 18A. Geographic-enrichment mode — preserve all existing facts
 
-This section governs the dedicated task of adding the V3 fact-location layer to already completed records. It is an annotation-only migration, not a content rework.
+This section governs the dedicated task of adding the V3 fact-location layer to already completed records in the protected groups ONLY: completed 10xxx, completed 12xxx, and completed 13xxx records. It is an annotation-only migration, not a content rework. It does NOT apply to any other postcode range or to unfinished records. All other records use Mode A and their facts may and must be editorially reworked as needed.
 
 **Absolute preservation rule:** Do not rewrite, edit, summarize, expand, shorten, remove, add, reorder, or retranslate any existing fact.
 
@@ -396,4 +396,4 @@ For each record, report:
 
 A record is geographically enriched only when every fact has an explicit `location` object or `null`, every non-null location is sourced and valid, and the preservation audit passes. Report unresolved `null` locations honestly; do not describe them as geocoded.
 
-Do not run this geographic-enrichment mode automatically as part of ordinary editorial rework. It is a separate migration mode and must be explicitly selected.
+Do not run this geographic-enrichment mode automatically for ordinary rework records. Select it only when the record is already completed and belongs to one of the protected groups listed above. For every other record, use full editorial rework (Mode A).
