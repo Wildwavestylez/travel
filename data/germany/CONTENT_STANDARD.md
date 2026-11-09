@@ -743,6 +743,12 @@ Required properties:
 Optional property:
 - `address`: verified address, or `null` where no street address applies.
 
+### Controlled fact-location type vocabulary
+
+The `facts[].location.type` value MUST be selected from the fixed 168-value `enum` defined in `data/germany/schema.json`. This is a controlled vocabulary, not free text: do not invent, translate, abbreviate, or improvise type values in individual records. Use the exact machine-readable value from the schema.
+
+The schema is the single authoritative list of allowed values. The same vocabulary must be kept synchronized with the Germany schema used by EuropeExplorer. Before a newly verified type is used in published postcode data, add it to both schemas and validate the affected records. Do not remove or rename an existing type merely to make the list shorter; any semantic grouping for icons or filters is a separate presentation-layer mapping and must not change the stored type.
+
 The `location` property itself may be `null` when no defensible location can be established. For backward compatibility, legacy facts may temporarily omit the property. New facts and facts processed by the geographic-enrichment workflow MUST explicitly contain `location`, either as a complete object or `null`.
 
 ## 25. Location selection and precision
