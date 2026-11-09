@@ -83,7 +83,9 @@
             "string",
             "null"
           ],
-          "format": "uri"
+          "pattern": "^[\\x00-\\x7F]+$",
+          "format": "uri",
+          "description": "When present, must be a valid URI containing ASCII characters only. UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
         },
         "author": {
           "type": [
@@ -280,7 +282,9 @@
         },
         "url": {
           "type": "string",
-          "format": "uri"
+          "pattern": "^[\\x00-\\x7F]+$",
+          "format": "uri",
+          "description": "Must be a valid URI containing ASCII characters only. UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
         },
         "type": {
           "type": "string",
@@ -562,8 +566,9 @@
         },
         "source": {
           "type": "string",
+          "pattern": "^[\\x00-\\x7F]+$",
           "format": "uri",
-          "description": "Direct URL supporting the identification or geographic position of this fact location."
+          "description": "Direct URL supporting the identification or geographic position of this fact location. Must contain ASCII characters only; UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
         }
       }
     }
