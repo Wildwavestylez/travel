@@ -495,6 +495,27 @@ Never use “a local person told us” as a substitute for documented evidence.
 
 Local confirmation may be added in the future as an additional verification layer, but it is NOT required for the current dataset.
 
+### 18.1 URL syntax — ASCII and percent-encoding (mandatory)
+
+Every URL stored anywhere in a German postcode record MUST be a valid URI and MUST contain ASCII characters only. This applies to all URL fields, including:
+
+- top-level `sources[].url`;
+- `facts[].location.source`;
+- `photo.url`, when present.
+
+Never paste raw German umlauts or other non-ASCII characters directly into a URL. Convert each non-ASCII character in the URL path or query to its UTF-8 percent-encoded form before saving it. Examples:
+
+- `ä` → `%C3%A4`
+- `ö` → `%C3%B6`
+- `ü` → `%C3%BC`
+- `ß` → `%C3%9F`
+
+For example, `.../Alt-Hohenschönhausen` must be stored as `.../Alt-Hohensch%C3%B6nhausen`.
+
+Do not transliterate, translate, remove, or otherwise rewrite the URL's path or query. Percent-encode the original UTF-8 characters so the destination remains the same. Preserve existing valid percent-encoded sequences; do not double-encode them (for example, do not turn `%C3%B6` into `%25C3%25B6`).
+
+Before publishing a record, inspect every URL field for non-ASCII characters and validate that it is a syntactically valid URI. A URL that contains raw umlauts or other non-ASCII characters is invalid for this dataset, even if a browser appears to open it.
+
 ---
 
 ## 19. Anti-bloat rule
