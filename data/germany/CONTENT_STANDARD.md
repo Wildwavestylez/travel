@@ -43,7 +43,7 @@ The target is:
 
 ## 3. Mandatory discovery before writing
 
-Before writing any facts, the creator MUST first perform a structured significance check of the postcode. Wider surroundings may be researched for context, but only facts with a verified primary location inside the postcode polygon may be included.
+Before writing any facts, the creator MUST first perform a structured significance check of the postcode. Wider surroundings may be researched for context, but only facts with a verified primary location genuinely belonging to the postcode area may be included. Establish that connection through reliable postal, administrative, institutional, address or other location-specific sources. Do not download, inspect or validate postcode polygons, and do not perform polygon-based boundary checks.
 
 Do not begin by collecting random facts.
 
@@ -72,6 +72,8 @@ Actively investigate whether the postcode or its relevant geographic surrounding
 - distinctive local traditions;
 - unusual documented stories or hidden gems;
 - other facts with significance clearly greater than ordinary local trivia.
+
+Where they exist, identify and consider all genuinely significant landmarks and notable places: internationally or nationally known attractions as well as smaller sites of local or regional importance. Do not omit a defining monument, historic building, palace, memorial, museum or other major local attraction merely because it is less prominent in general search results.
 
 ### 3.2 Significant stories must not be missed
 
@@ -114,28 +116,26 @@ This rule governs both **which facts are included and the order in which they ar
 
 ---
 
-## 5. Geographic scope — strict postcode boundary
+## 5. Geographic scope — postcode-specific facts
 
-**A fact belongs to exactly one postal-code area, and its map location MUST lie inside the official geographic boundary of that same postcode.** This is a binding geographic rule for all TRAVEL records.
+**A fact belongs to exactly one postal-code area, and its primary location must genuinely belong to that postcode.** This is a binding geographic rule for all TRAVEL records.
 
-The postcode polygon is the spatial boundary for fact selection and map pins. Historical, cultural, thematic, administrative or regional connections do NOT permit a fact located outside the postcode to be assigned to it.
+Establish the connection using reliable postal, administrative, address, institutional or other location-specific evidence. Do not use postcode polygons or perform polygon-based boundary checks.
 
 Binding rules:
 
-- Every fact MUST have one primary real-world location inside the official polygon of the postcode record to which the fact belongs.
-- The fact's `facts[].location` coordinates MUST fall within that postcode polygon. A location just across the boundary is outside; proximity does not create an exception.
-- Each fact may be assigned to one postcode record only. Never duplicate the same fact or physical attraction in a neighboring postcode to provide overlapping coverage.
-- A fact about a site that crosses a postcode boundary may be included only when its selected primary location is demonstrably inside the postcode. Do not create a second copy for another postcode. If the fact cannot be represented accurately by one primary in-boundary location, omit it or flag it for editorial review.
-- Do not use a nearby postcode's attraction, a district-wide landmark, or a thematically related site as a substitute for a location inside the current postcode.
-- A surrounding place outside the polygon may be mentioned briefly as context in the text when genuinely useful, but it MUST NOT become a separate fact, map pin, representative place or location assigned to this postcode.
+- Every fact MUST have one primary real-world location genuinely associated with the postcode record to which the fact belongs.
+- Do not assign a fact to a postcode merely because it is nearby, in the same city, district, county or region, or thematically connected.
+- Each fact may be assigned to one postcode record only. Never duplicate the same fact or physical attraction in neighboring postcode records.
+- A fact about a site associated with more than one area may be included only when its primary local connection to the current postcode is clear and supported. If that connection is ambiguous, flag it for editorial review.
+- A surrounding place that belongs to another postcode may be mentioned briefly as context when genuinely useful, but it MUST NOT become a separate fact, map pin, representative place or location assigned to this postcode.
 - Research may examine wider surroundings to understand context and discover relevant stories. Research scope does not expand the geographic scope of facts.
-- A fact tied to an area-wide custom, tradition, personality or other phenomenon may use the postcode's representative point only where the standard's relevant fallback rule permits it and the fact genuinely belongs to that postcode. The fallback point itself must be inside the postcode polygon.
-- If the location cannot be reliably confirmed as inside the correct polygon, mark the fact for verification. Do not guess, move coordinates to a convenient point, or silently retain an uncertain pin.
-- Boundary membership MUST be checked against an authoritative or otherwise reliable postcode polygon dataset, not inferred solely from a street address, postal text, district name, city affiliation or approximate map display.
+- A fact tied to an area-wide custom, tradition, personality or other phenomenon may use the postcode's representative point only where the standard's relevant fallback rule permits it and the fact genuinely belongs to that postcode.
+- If the local connection or location cannot be reliably confirmed, mark the fact for verification. Do not guess, move coordinates to a convenient point, or silently retain an uncertain pin.
 
 ### 5.1 One representative place and one representative point
 
-Every postcode MUST have exactly **one specific representative place** in `representative_place`. The corresponding `representative_point` coordinates MUST identify that same place and MUST lie inside the official polygon of that postcode.
+Every postcode MUST have exactly **one specific representative place** in `representative_place`. The corresponding `representative_point` coordinates MUST identify that same place and must be supported as belonging to the postcode area.
 
 Binding rules:
 
@@ -146,14 +146,12 @@ Binding rules:
 - The place and coordinates must form one consistent pair: a reader or map user looking up the coordinates should arrive at the named representative place.
 - Choose the single strongest representative candidate based on its relevance to the postcode, local significance, geographic fit and ability to represent the area. Do not choose several places to avoid making an editorial decision.
 - If no famous attraction exists, select another suitable, verifiable and precisely mappable place that genuinely represents the area. Do not invent a landmark or use a vague area name merely to fill the field.
-- Keep the representative place geographically inside the postcode. Do not select a famous place elsewhere in the city simply because it is better known.
+- Keep the representative place genuinely associated with the postcode. Do not select a famous place elsewhere in the city simply because it is better known.
 - Translations may explain the selected place in the target language, but must preserve the identity of the same one place. Translation must not introduce additional candidates.
 
-This one-place rule applies ONLY to the representative-place field and its corresponding representative coordinates. It does NOT limit the number of distinct facts, provided every fact independently satisfies the strict postcode-boundary rule above.
+This one-place rule applies ONLY to the representative-place field and its corresponding representative coordinates. It does NOT limit the number of distinct facts, provided every fact independently satisfies the postcode-association rule above.
 
 The representative place and `representative_point` are separate from `access_point`. This rule does not authorize changing, combining, auditing or redefining access-point data. Access-point handling remains governed by its existing rules and schema.
-
----
 
 ## 6. Build the story before building the fact list
 
@@ -302,7 +300,7 @@ If no meaningful natural feature is relevant, do not invent one.
 
 Wider surroundings may be researched to understand the postcode's history, geography and context, and to identify connections that help explain facts located inside the postcode.
 
-However, **a place outside the postcode polygon MUST NOT be included as a separate fact or map pin in this postcode record**, even when it is nearby or historically, geographically or thematically connected.
+However, **a place that belongs to another postcode MUST NOT be included as a separate fact or map pin in this postcode record**, even when it is nearby or historically, geographically or thematically connected.
 
 An external place may be mentioned briefly in the text of an in-boundary fact only when that context is genuinely necessary and does not imply that the external place belongs to this postcode. Do not assign the external place's coordinates to the fact.
 
