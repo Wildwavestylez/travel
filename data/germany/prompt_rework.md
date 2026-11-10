@@ -63,6 +63,8 @@ Do not turn this step into a full national postcode-coverage audit. That broader
 
 Research the actual postcode area before writing the final fact list. Establish what it covers and what makes it distinctive.
 
+Pay particular attention to significant landmarks, historic buildings, monuments, museums, palaces, memorials and other notable places. Do not overlook major internationally or nationally known attractions, but also research smaller locally important sites and stories wherever they exist. Include them when they genuinely belong to the postcode area and are supported by reliable sources.
+
 Investigate relevant subjects such as history, settlement, landmarks, architecture, film and television, culture, important people, traditions, industry, companies and products, manufacturing, engineering, transport and railways, aviation, shipping, mining, energy, science, technology, military history, archaeology, nature, geology, protected landscapes, recreation, and lesser-known local stories.
 
 This is a discovery guide, not a checklist or quota. Do not force irrelevant categories into a record.
@@ -108,6 +110,8 @@ Write naturally in each language. Translate ordinary descriptive words and gener
 ## 6. Geographic data — preserve the complete V3 layer
 
 The geographic layer is mandatory and must not be shortened or omitted for speed. Follow the current Content Standard and schema.
+
+Do not download, inspect, or validate postcode polygons, and do not perform polygon-based boundary checks. Verify postcode assignment and each fact's local connection using reliable postal, administrative, institutional, address, and location sources. Keep all other geographic verification and accuracy requirements in force.
 
 Keep these three geographic roles separate:
 
