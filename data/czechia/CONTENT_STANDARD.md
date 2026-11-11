@@ -708,3 +708,23 @@ Cílem je:
 Základní produkční postup:
 
 **Nejprve ověř PSČ a území. Proveď rešerši. Najdi skutečné příběhy. Vyber to podstatné. Ověř geografickou vazbu. Napiš srozumitelná fakta. Lokalizuj do šesti jazyků. Proveď závěrečný audit. Teprve potom publikuj.**
+
+
+---
+
+## 26. Řízený slovník typů míst u faktů
+
+Česká část TRAVEL používá vlastní normalizovaný slovník typu místa. Je oddělený od historického německého seznamu hodnot v `data/germany/schema.json`.
+
+Závazná pravidla:
+
+- Každé `facts[].location.type` musí používat jednu z hodnot definovaných v `data/czechia/schema.json` a popsaných v `data/czechia/location_types.json`.
+- Identifikátory jsou stabilní anglické slugy v jednotném čísle.
+- Typ popisuje druh místa, nikoli počet objektů. Použij například `historic_villa` pro jednu i více historických vil, `hill` pro jeden i více kopců a `pond` pro jeden i více rybníků.
+- Množné varianty jako `historic_villas`, `hills` nebo `ponds` se nikdy nepoužívají.
+- Významově odlišné typy neslučuj jen kvůli podobnému názvu. Nový typ přidej pouze tehdy, pokud existující hodnoty nedokážou přesně popsat místo.
+- Do záznamů se ukládá stabilní ID, nikoli český volný text. České názvy jsou v samostatném slovníku.
+- Tento slovník popisuje `location.type`; nenahrazuje redakční `facts[].category`. Jde o dvě různé informace.
+- Změna českého slovníku nesmí automaticky měnit německé schéma, německé záznamy ani jejich historické hodnoty.
+
+U nových nebo přepracovaných faktů uveď `location` jako samostatnou polohu konkrétního objektu, pokud ji lze důvěryhodně určit. Pokud ji určit nelze, použij `null`. Nikdy nekopíruj do `location` souřadnice reprezentativního nebo přístupového bodu PSČ, pokud tyto body skutečně nejsou polohou samotného faktu.
