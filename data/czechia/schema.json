@@ -117,9 +117,7 @@
       "required": [
         "plz_source",
         "geographic_test_data",
-        "access_point_verified",
-        "postcode_authority",
-        "geographic_authority"
+        "access_point_verified"
       ],
       "properties": {
         "plz_source": {
@@ -135,8 +133,7 @@
         },
         "postcode_authority": {
           "type": "string",
-          "const": "CESKA_POSTA",
-          "description": "Oficiální autorita pro poštovní údaje a PSČ."
+          "description": "Autorita použitá pro poštovní údaje a PSČ; u nového ověřování používej Českou poštu (identifikátor CESKA_POSTA). Textové pole zachovává kompatibilitu se staršími záznamy."
         },
         "postcode_source_dataset": {
           "type": [
@@ -180,8 +177,7 @@
         },
         "geographic_authority": {
           "type": "string",
-          "const": "CSU",
-          "description": "Oficiální autorita pro administrativní a statistické územní údaje."
+          "description": "Autorita použitá pro administrativní a statistické územní údaje; u nového ověřování používej ČSÚ (identifikátor CSU). Textové pole zachovává kompatibilitu se staršími záznamy."
         }
       }
     },
