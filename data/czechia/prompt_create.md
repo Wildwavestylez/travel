@@ -10,6 +10,9 @@ Create new Czech postcode records for TRAVEL. This prompt works together with:
 ## Authoritative rules
 Load `schema.json` and `CONTENT_STANDARD.md` before production. Schema is technically binding; CONTENT_STANDARD is editorially binding. Never modify either while producing records unless explicitly instructed.
 
+## Mandatory postcode authority
+Before creating or changing any Czech postcode record, apply the official postcode authority rule in `data/czechia/CONTENT_STANDARD.md`. ČSÚ is the controlling primary source for postcode selection and geographic assignment. Use the current ČSÚ postcode code list (code list 0028) and current RSO address-level data as applicable; record the exact dataset/release and retrieval date. Do not substitute a different postcode merely because a search result or delivery-office lookup shows another code. A delivery-office handover is not, by itself, a postcode change. Log conflicts and investigate them without silently overriding ČSÚ. Follow the documented exception process in CONTENT_STANDARD.
+
 ## Workflow
 **select real Czech PSČ → verify → research → Local Significance Check → identify defining stories → geographic audit → select facts → find sources → build JSON → translate → validate → save → continue**
 
