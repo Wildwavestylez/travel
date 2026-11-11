@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "title": "TRAVEL Czechia — řízený slovník typů míst",
-  "description": "Stabilní identifikátory typu konkrétní polohy faktu. Identifikátory jsou v jednotném čísle bez ohledu na počet objektů.",
+  "description": "Stabilní identifikátory typu polohy faktu v jednotném čísle. Slovník je samostatný pro Česko a zahrnuje postal_area pro faktum vztahující se k oblasti PSČ bez jediného fyzického bodu.",
   "language": "cs",
   "location_types": [
     {
@@ -519,6 +519,10 @@
     {
       "id": "historic_fortress",
       "label_cs": "Historická pevnost"
+    },
+    {
+      "id": "postal_area",
+      "label_cs": "Oblast PSČ"
     }
   ]
 }
