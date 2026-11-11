@@ -182,8 +182,8 @@ Závazná pravidla:
 
 Příklady:
 - Praha — Dejvice: `city = Praha`, `district = Dejvice`, `district_type = city_quarter`, pokud jde o čtvrť/lokalitu v daném kontextu.
-- Čkyně — Záhoříčko: `city = Čkyně`, `district = Záhoříčko`, `district_type = municipal_part), pokud je tak vedeno v oficiální evidenci.
-- Zálezly — Kovanín nebo Setěchovice: `city = Zálezly`, `district` podle konkrétní lokality a `district_type = municipal_part), pokud to potvrzuje oficiální evidence.
+- Čkyně — Záhoříčko: `city = Čkyně`, `district = Záhoříčko`, `district_type = municipal_part`, pokud je tak vedeno v oficiální evidenci.
+- Zálezly — Kovanín nebo Setěchovice: `city = Zálezly`, `district` podle konkrétní lokality a `district_type = municipal_part`, pokud to potvrzuje oficiální evidence.
 
 Typ vybírej podle skutečného postavení. Nezaměňuj část obce, městskou část, městský obvod, čtvrť, sídelní lokalitu a katastrální území. Katastrální území není automaticky hodnotou `district`. Okres a kraj zůstávají samostatné úrovně. PSČ není administrativní jednotka.
 
@@ -276,6 +276,7 @@ Používej pouze hodnoty povolené v aktuálním `schema.json`. Význam kategori
 
 - `nature_and_landscape` — příroda, krajina, geologie, vodstvo a chráněná území;
 - `heritage_and_monuments` — památky, historické objekty, archeologie a kulturní dědictví;
+- `architecture_and_urbanism` — architektura, urbanistická struktura, plánování a vývoj zástavby;
 - `history` — historické události, období a vývoj místa;
 - `culture_and_industry` — kultura, tradice, průmysl, řemesla, výroba, značky a produkty;
 - `people` — osobnosti s doloženou vazbou na místo;
@@ -287,7 +288,7 @@ Používej pouze hodnoty povolené v aktuálním `schema.json`. Význam kategori
 
 Kategorie `hidden_gem` není odměna za malou nebo málo známou atrakci. Musí jít o skutečně neobvyklou informační hodnotu.
 
-Pokud je fakt primárně o architektuře nebo urbanismu a schéma zatím nemá samostatnou kategorii, vyber nejbližší povolenou kategorii podle hlavního významu. Nepřidávej novou hodnotu bez změny schématu.
+Kategorie jsou společné s německým schématem a Europe Explorerem. V Česku používej pouze ty, které se pro konkrétní fakt hodí; není nutné využít všechny kategorie.
 
 ---
 
