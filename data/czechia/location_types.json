@@ -1,0 +1,524 @@
+{
+  "version": "1.0",
+  "title": "TRAVEL Czechia — řízený slovník typů míst",
+  "description": "Stabilní identifikátory typu konkrétní polohy faktu. Identifikátory jsou v jednotném čísle bez ohledu na počet objektů.",
+  "language": "cs",
+  "location_types": [
+    {
+      "id": "agricultural_landscape",
+      "label_cs": "Zemědělská krajina"
+    },
+    {
+      "id": "airport",
+      "label_cs": "Letiště"
+    },
+    {
+      "id": "arboretum",
+      "label_cs": "Arboretum"
+    },
+    {
+      "id": "archaeological_site",
+      "label_cs": "Archeologická lokalita"
+    },
+    {
+      "id": "architectural_ensemble",
+      "label_cs": "Architektonický soubor"
+    },
+    {
+      "id": "archive",
+      "label_cs": "Archiv"
+    },
+    {
+      "id": "artwork",
+      "label_cs": "Umělecké dílo"
+    },
+    {
+      "id": "brewery",
+      "label_cs": "Pivovar"
+    },
+    {
+      "id": "bridge",
+      "label_cs": "Most"
+    },
+    {
+      "id": "building",
+      "label_cs": "Budova"
+    },
+    {
+      "id": "bunker",
+      "label_cs": "Bunkr"
+    },
+    {
+      "id": "business_park",
+      "label_cs": "Průmyslový nebo obchodní park"
+    },
+    {
+      "id": "canal",
+      "label_cs": "Kanál nebo průplav"
+    },
+    {
+      "id": "castle",
+      "label_cs": "Hrad nebo zámek"
+    },
+    {
+      "id": "cemetery",
+      "label_cs": "Hřbitov"
+    },
+    {
+      "id": "chapel",
+      "label_cs": "Kaple"
+    },
+    {
+      "id": "church",
+      "label_cs": "Kostel"
+    },
+    {
+      "id": "cinema",
+      "label_cs": "Kino"
+    },
+    {
+      "id": "city_gate",
+      "label_cs": "Městská brána"
+    },
+    {
+      "id": "community_center",
+      "label_cs": "Komunitní centrum"
+    },
+    {
+      "id": "cultural_center",
+      "label_cs": "Kulturní centrum"
+    },
+    {
+      "id": "dam",
+      "label_cs": "Přehrada nebo hráz"
+    },
+    {
+      "id": "factory",
+      "label_cs": "Továrna"
+    },
+    {
+      "id": "farm",
+      "label_cs": "Farma nebo statek"
+    },
+    {
+      "id": "ferry_terminal",
+      "label_cs": "Přístaviště přívozu"
+    },
+    {
+      "id": "fire_station",
+      "label_cs": "Hasičská stanice"
+    },
+    {
+      "id": "forest",
+      "label_cs": "Les"
+    },
+    {
+      "id": "fortress",
+      "label_cs": "Pevnost"
+    },
+    {
+      "id": "fountain",
+      "label_cs": "Kašna nebo fontána"
+    },
+    {
+      "id": "gallery",
+      "label_cs": "Galerie"
+    },
+    {
+      "id": "garden",
+      "label_cs": "Zahrada"
+    },
+    {
+      "id": "harbor",
+      "label_cs": "Přístav"
+    },
+    {
+      "id": "hill",
+      "label_cs": "Kopec"
+    },
+    {
+      "id": "historic_address",
+      "label_cs": "Historická adresa"
+    },
+    {
+      "id": "historic_district",
+      "label_cs": "Historická čtvrť"
+    },
+    {
+      "id": "historic_estate",
+      "label_cs": "Historický dvůr nebo usedlost"
+    },
+    {
+      "id": "historic_industrial_site",
+      "label_cs": "Historický průmyslový areál"
+    },
+    {
+      "id": "historic_monument",
+      "label_cs": "Historická památka"
+    },
+    {
+      "id": "historic_railway_site",
+      "label_cs": "Historické železniční místo"
+    },
+    {
+      "id": "historic_settlement",
+      "label_cs": "Historické sídlo"
+    },
+    {
+      "id": "historic_square",
+      "label_cs": "Historické náměstí"
+    },
+    {
+      "id": "historic_street",
+      "label_cs": "Historická ulice"
+    },
+    {
+      "id": "historic_villa",
+      "label_cs": "Historická vila"
+    },
+    {
+      "id": "historic_village",
+      "label_cs": "Historická vesnice"
+    },
+    {
+      "id": "historic_waterway",
+      "label_cs": "Historická vodní cesta"
+    },
+    {
+      "id": "hospital",
+      "label_cs": "Nemocnice"
+    },
+    {
+      "id": "hotel",
+      "label_cs": "Hotel"
+    },
+    {
+      "id": "industrial_site",
+      "label_cs": "Průmyslový areál"
+    },
+    {
+      "id": "infrastructure",
+      "label_cs": "Technická infrastruktura"
+    },
+    {
+      "id": "island",
+      "label_cs": "Ostrov"
+    },
+    {
+      "id": "landmark",
+      "label_cs": "Významná dominanta"
+    },
+    {
+      "id": "landscape",
+      "label_cs": "Krajina"
+    },
+    {
+      "id": "market",
+      "label_cs": "Tržiště nebo tržnice"
+    },
+    {
+      "id": "memorial",
+      "label_cs": "Památník"
+    },
+    {
+      "id": "memorial_site",
+      "label_cs": "Pietní místo"
+    },
+    {
+      "id": "metro_station",
+      "label_cs": "Stanice metra"
+    },
+    {
+      "id": "mine",
+      "label_cs": "Důl"
+    },
+    {
+      "id": "monastery",
+      "label_cs": "Klášter"
+    },
+    {
+      "id": "monument",
+      "label_cs": "Pomník nebo monument"
+    },
+    {
+      "id": "mosque",
+      "label_cs": "Mešita"
+    },
+    {
+      "id": "museum",
+      "label_cs": "Muzeum"
+    },
+    {
+      "id": "natural_feature",
+      "label_cs": "Přírodní útvar"
+    },
+    {
+      "id": "natural_monument",
+      "label_cs": "Přírodní památka"
+    },
+    {
+      "id": "nature_reserve",
+      "label_cs": "Přírodní rezervace"
+    },
+    {
+      "id": "neighborhood",
+      "label_cs": "Městská nebo obytná čtvrť"
+    },
+    {
+      "id": "observatory",
+      "label_cs": "Observatoř"
+    },
+    {
+      "id": "open_air_museum",
+      "label_cs": "Muzeum v přírodě"
+    },
+    {
+      "id": "park",
+      "label_cs": "Park"
+    },
+    {
+      "id": "pedestrian_street",
+      "label_cs": "Pěší zóna"
+    },
+    {
+      "id": "pilgrimage_site",
+      "label_cs": "Poutní místo"
+    },
+    {
+      "id": "pond",
+      "label_cs": "Rybník"
+    },
+    {
+      "id": "power_station",
+      "label_cs": "Elektrárna"
+    },
+    {
+      "id": "quarry",
+      "label_cs": "Lom"
+    },
+    {
+      "id": "railway_station",
+      "label_cs": "Železniční stanice"
+    },
+    {
+      "id": "religious_site",
+      "label_cs": "Náboženské místo"
+    },
+    {
+      "id": "research_facility",
+      "label_cs": "Výzkumné pracoviště"
+    },
+    {
+      "id": "residential_ensemble",
+      "label_cs": "Obytný soubor"
+    },
+    {
+      "id": "river",
+      "label_cs": "Řeka"
+    },
+    {
+      "id": "rock_formation",
+      "label_cs": "Skalní útvar"
+    },
+    {
+      "id": "school",
+      "label_cs": "Škola"
+    },
+    {
+      "id": "sculpture",
+      "label_cs": "Socha"
+    },
+    {
+      "id": "shopping_center",
+      "label_cs": "Obchodní centrum"
+    },
+    {
+      "id": "square",
+      "label_cs": "Náměstí"
+    },
+    {
+      "id": "stadium",
+      "label_cs": "Stadion"
+    },
+    {
+      "id": "street",
+      "label_cs": "Ulice"
+    },
+    {
+      "id": "synagogue",
+      "label_cs": "Synagoga"
+    },
+    {
+      "id": "technical_monument",
+      "label_cs": "Technická památka"
+    },
+    {
+      "id": "technology_park",
+      "label_cs": "Technologický park"
+    },
+    {
+      "id": "theatre",
+      "label_cs": "Divadlo"
+    },
+    {
+      "id": "town_hall",
+      "label_cs": "Radnice"
+    },
+    {
+      "id": "transport_hub",
+      "label_cs": "Dopravní uzel"
+    },
+    {
+      "id": "university",
+      "label_cs": "Univerzita"
+    },
+    {
+      "id": "viewpoint",
+      "label_cs": "Vyhlídka"
+    },
+    {
+      "id": "waterfall",
+      "label_cs": "Vodopád"
+    },
+    {
+      "id": "water_tower",
+      "label_cs": "Vodárenská věž"
+    },
+    {
+      "id": "waterway",
+      "label_cs": "Vodní tok nebo cesta"
+    },
+    {
+      "id": "waterworks",
+      "label_cs": "Vodárna"
+    },
+    {
+      "id": "windmill",
+      "label_cs": "Větrný mlýn"
+    },
+    {
+      "id": "woodland",
+      "label_cs": "Lesní porost"
+    },
+    {
+      "id": "zoo",
+      "label_cs": "Zoologická zahrada"
+    },
+    {
+      "id": "spa",
+      "label_cs": "Lázně"
+    },
+    {
+      "id": "cave",
+      "label_cs": "Jeskyně"
+    },
+    {
+      "id": "battlefield",
+      "label_cs": "Bojiště"
+    },
+    {
+      "id": "protected_area",
+      "label_cs": "Chráněné území"
+    },
+    {
+      "id": "national_park",
+      "label_cs": "Národní park"
+    },
+    {
+      "id": "geological_site",
+      "label_cs": "Geologická lokalita"
+    },
+    {
+      "id": "lookout_tower",
+      "label_cs": "Rozhledna"
+    },
+    {
+      "id": "fortification",
+      "label_cs": "Opevnění"
+    },
+    {
+      "id": "ruin",
+      "label_cs": "Zřícenina"
+    },
+    {
+      "id": "library",
+      "label_cs": "Knihovna"
+    },
+    {
+      "id": "sports_facility",
+      "label_cs": "Sportovní areál"
+    },
+    {
+      "id": "swimming_pool",
+      "label_cs": "Plavecký bazén"
+    },
+    {
+      "id": "camping_site",
+      "label_cs": "Kemp"
+    },
+    {
+      "id": "railway_heritage_site",
+      "label_cs": "Železniční památka"
+    },
+    {
+      "id": "industrial_heritage_site",
+      "label_cs": "Průmyslová památka"
+    },
+    {
+      "id": "historic_bridge",
+      "label_cs": "Historický most"
+    },
+    {
+      "id": "historic_church",
+      "label_cs": "Historický kostel"
+    },
+    {
+      "id": "historic_park",
+      "label_cs": "Historický park"
+    },
+    {
+      "id": "historic_garden",
+      "label_cs": "Historická zahrada"
+    },
+    {
+      "id": "historic_cemetery",
+      "label_cs": "Historický hřbitov"
+    },
+    {
+      "id": "historic_mill",
+      "label_cs": "Historický mlýn"
+    },
+    {
+      "id": "historic_mine",
+      "label_cs": "Historický důl"
+    },
+    {
+      "id": "historic_quarry",
+      "label_cs": "Historický lom"
+    },
+    {
+      "id": "historic_brewery",
+      "label_cs": "Historický pivovar"
+    },
+    {
+      "id": "historic_factory",
+      "label_cs": "Historická továrna"
+    },
+    {
+      "id": "historic_workshop",
+      "label_cs": "Historická dílna"
+    },
+    {
+      "id": "historic_market",
+      "label_cs": "Historické tržiště"
+    },
+    {
+      "id": "historic_station",
+      "label_cs": "Historické nádraží"
+    },
+    {
+      "id": "historic_fortress",
+      "label_cs": "Historická pevnost"
+    }
+  ]
+}
