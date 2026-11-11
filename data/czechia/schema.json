@@ -26,35 +26,49 @@
     },
     "city": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "Název obce (města i menší obce) podle oficiálního územního členění ČSÚ."
     },
     "district": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "description": "Konkrétní část obce, městská část, městský obvod, čtvrť nebo pojmenovaná sídelní lokalita uvnitř obce. Pokud není přesnější lokalita určena, použij null."
     },
     "county": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "description": "Okres podle oficiálního územního členění ČSÚ."
     },
     "state": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "description": "Kraj podle oficiálního územního členění ČSÚ."
     },
     "representative_place": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "Jedno jednoduché orientační reprezentativní místo pro celé PSČ; nemusí být turistickou atrakcí ani geometrickým středem."
     },
     "representative_point": {
-      "$ref": "#/$defs/point"
+      "$ref": "#/$defs/point",
+      "description": "Souřadnice orientačního reprezentativního místa PSČ; nejde o polohu konkrétního faktu ani o přístupový bod."
     },
     "access_point": {
-      "$ref": "#/$defs/point"
+      "oneOf": [
+        {
+          "$ref": "#/$defs/point"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Jednoduchý pomocný bod pro příjezd/příchod. Pokud nemá jasný praktický smysl nebo není spolehlivě ověřen, použij null."
     },
     "facts": {
       "type": "array",
@@ -103,12 +117,15 @@
       "required": [
         "plz_source",
         "geographic_test_data",
-        "access_point_verified"
+        "access_point_verified",
+        "postcode_authority",
+        "geographic_authority"
       ],
       "properties": {
         "plz_source": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "description": "Konkrétní oficiální zdroj použitý k ověření PSČ; přednost má Česká pošta. Nezaměňovat s územními údaji ČSÚ."
         },
         "geographic_test_data": {
           "type": "boolean"
@@ -118,7 +135,8 @@
         },
         "postcode_authority": {
           "type": "string",
-          "const": "CSU"
+          "const": "CESKA_POSTA",
+          "description": "Oficiální autorita pro poštovní údaje a PSČ."
         },
         "postcode_source_dataset": {
           "type": [
@@ -159,6 +177,11 @@
             "string",
             "null"
           ]
+        },
+        "geographic_authority": {
+          "type": "string",
+          "const": "CSU",
+          "description": "Oficiální autorita pro administrativní a statistické územní údaje."
         }
       }
     },
@@ -199,6 +222,21 @@
           "$ref": "#/$defs/translation"
         }
       }
+    },
+    "district_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "municipal_part",
+        "municipal_district",
+        "city_quarter",
+        "settlement",
+        "locality",
+        null
+      ],
+      "description": "Nepovinné upřesnění druhu district: municipal_part = oficiální část obce; municipal_district = městská část/obvod; city_quarter = městská čtvrť či lokalita; settlement = sídlo/osada; locality = jiná místní lokalita."
     }
   },
   "$defs": {
@@ -251,6 +289,7 @@
           "enum": [
             "nature_and_landscape",
             "heritage_and_monuments",
+            "architecture_and_urbanism",
             "history",
             "culture_and_industry",
             "people",
@@ -532,9 +571,10 @@
             "historic_workshop",
             "historic_market",
             "historic_station",
-            "historic_fortress"
+            "historic_fortress",
+            "postal_area"
           ],
-          "description": "Řízený český slovník typů polohy faktu. ID jsou stabilní anglické identifikátory v jednotném čísle. Typ popisuje druh místa, nikoli počet objektů; množné varianty se nepoužívají."
+          "description": "Řízený český slovník typů polohy faktu v jednotném čísle. postal_area označuje faktum vztahující se k oblasti PSČ bez jediného konkrétního fyzického místa."
         },
         "accuracy": {
           "type": "string",
@@ -551,8 +591,9 @@
           "format": "uri",
           "description": "Přímá URL dokládající identifikaci místa nebo jeho geografickou polohu."
         }
-      }
+      },
+      "description": "Geografická poloha konkrétního faktu podle stejných principů jako německé TRAVEL. U nových a přepracovaných faktů uveď location; použij null pouze tehdy, když nelze obhajitelnou polohu doložit. Nikdy automaticky nekopíruj representative_point ani access_point."
     }
   },
-  "$comment": "CZECHIA CONTENT STANDARD V2: Czechia uses its own normalized singular-form fact location type vocabulary in $defs.fact_location.properties.type. It is intentionally independent of the historical German location.type enum. Do not modify German schema or records as part of Czechia changes."
+  "$comment": "CZECHIA CONTENT STANDARD: Czechia uses Czech administrative terminology and an independent location-type dictionary. Fact-location behavior follows German TRAVEL rules. Shared editorial fact categories stay aligned with Germany for EuropeExplorer compatibility. Do not modify German schema or records."
 }
