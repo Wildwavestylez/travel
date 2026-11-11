@@ -9,6 +9,9 @@ Use only:
 
 **Czechia is isolated from Germany. Never use German records as content sources or merge their data into Czech records.**
 
+## Mandatory postcode authority
+For every reworked record, apply the official postcode authority rule in `data/czechia/CONTENT_STANDARD.md`. ČSÚ remains the controlling primary source for postcode selection and geographic assignment. Recheck against the current ČSÚ postcode code list (code list 0028) and current RSO address-level data as applicable, and record the exact dataset/release and retrieval date. Never change a postcode merely because a search result, map, directory or changed delivery office displays a different code. Record discrepancies separately; only use a documented exception if the ČSÚ record itself is shown to be wrong or superseded.
+
 ## Workflow
 **READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → GEOGRAPHIC CHECK → AUDIT → REMOVE/KEEP/ADD → TRANSLATE → VALIDATE → SAVE → NEXT**
 
