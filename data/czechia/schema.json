@@ -123,7 +123,7 @@
         "plz_source": {
           "type": "string",
           "minLength": 1,
-          "description": "Konkrétní oficiální zdroj použitý k ověření PSČ; přednost má Česká pošta. Nezaměňovat s územními údaji ČSÚ."
+          "description": "Konkrétní zdroj použitý k ověření PSČ. ČSÚ je jediná primární autorita projektu pro výběr PSČ a jeho přiřazení k území; používej číselník ČSÚ PSČ (kódový seznam 0028) a podle potřeby oficiální adresní data ČSÚ, zejména RSO. Česká pošta může být pouze doplňkovým kontrolním zdrojem a její údaje nesmějí automaticky přebít ČSÚ."
         },
         "geographic_test_data": {
           "type": "boolean"
@@ -133,7 +133,7 @@
         },
         "postcode_authority": {
           "type": "string",
-          "description": "Autorita použitá pro poštovní údaje a PSČ; u nového ověřování používej Českou poštu (identifikátor CESKA_POSTA). Textové pole zachovává kompatibilitu se staršími záznamy."
+          "description": "Primární autorita projektu pro výběr PSČ a jeho přiřazení k území je ČSÚ (identifikátor CSU). Česká pošta může být uvedena pouze jako doplňkový kontrolní zdroj. Textové pole zachovává kompatibilitu se staršími záznamy."
         },
         "postcode_source_dataset": {
           "type": [
