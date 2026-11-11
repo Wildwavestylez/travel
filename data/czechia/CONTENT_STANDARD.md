@@ -48,12 +48,9 @@ Cílem je co nejvyšší hustota důvěryhodných, významných a překvapivých
 
 ## 3. Autority a ověřování českých PSČ a územních údajů
 
-Rozlišuj dvě nezávislé oficiální autority:
+**ČSÚ je jediná primární autorita projektu pro výběr PSČ a jeho přiřazení k území.** Pro výběr a ověřování českých PSČ používej číselník ČSÚ PSČ (kódový seznam 0028) a pro vazbu adres a PSČ na územní jednotky používej oficiální územní a adresní data ČSÚ, zejména Registr sčítacích obvodů a budov (RSO).
 
-- **Česká pošta** je primární autorita pro poštovní údaje a PSČ.
-- **ČSÚ** je primární autorita pro administrativní a statistické územní členění: obec, část obce, okres a kraj.
-
-Tyto role se nesmějí zaměňovat. Fyzická doručovací pošta ani doručovací trasa sama o sobě nemění územní identitu obce nebo evidenci PSČ.
+Toto pravidlo platí pro projektovou identitu PSČ i jeho geografické přiřazení. Česká pošta a její vyhledávače mohou sloužit jako doplňkový kontrolní zdroj poštovních údajů, nikoli jako autorita, která automaticky přebíjí ČSÚ. Provozní doručovací pošta, spádovost nebo doručovací trasa sama o sobě nemění projektovou identitu PSČ ani jeho přiřazení k území.
 
 ### 3.1 Výchozí pravidlo pro existující databázi
 
@@ -61,10 +58,10 @@ Stávající české přiřazení PSČ a územní vazby považuj za výchozí sp
 
 ### 3.2 Hierarchie zdrojů
 
-1. Oficiální zdroje České pošty — poštovní údaje a PSČ.
-2. Oficiální data ČSÚ — územní identifikace a administrativní vazby.
+1. **ČSÚ — jediná primární autorita projektu** pro výběr PSČ a jeho přiřazení k území; zejména číselník PSČ (kódový seznam 0028) a oficiální adresní/územní data RSO.
+2. Česká pošta — doplňkový kontrolní zdroj poštovních údajů; její údaje nesmějí automaticky přebít ČSÚ.
 3. Ostatní státní a veřejné instituce — doplňující zdroje podle jejich působnosti.
-4. Weby obcí, organizací, firem, turistické portály a soukromé stránky — druhotné zdroje; mohou doplnit kontext, ale nepřebíjejí oficiální údaje.
+4. Weby obcí, organizací, firem, turistické portály a soukromé stránky — druhotné zdroje; mohou doplnit kontext, ale nepřebíjejí rozhodující údaje ČSÚ.
 
 ### 3.3 Rozpory a nahlášení chyby
 
