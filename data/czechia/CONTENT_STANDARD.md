@@ -46,49 +46,33 @@ Cílem je co nejvyšší hustota důvěryhodných, významných a překvapivých
 
 ---
 
-## 3. Oficiální autorita pro česká PSČ — závazné pravidlo
+## 3. Autority a ověřování českých PSČ a územních údajů
 
-Pro českou část TRAVEL je **Český statistický úřad (ČSÚ) hlavní a rozhodující autoritou projektu pro výběr PSČ a jeho přiřazení k území**.
+Rozlišuj dvě nezávislé oficiální autority:
 
-Toto pravidlo je závazné. Nejde pouze o preferenci zdroje.
+- **Česká pošta** je primární autorita pro poštovní údaje a PSČ.
+- **ČSÚ** je primární autorita pro administrativní a statistické územní členění: obec, část obce, okres a kraj.
 
-### 3.1 Rozhodující datové zdroje
+Tyto role se nesmějí zaměňovat. Fyzická doručovací pošta ani doručovací trasa sama o sobě nemění územní identitu obce nebo evidenci PSČ.
 
-- Aktuální číselník ČSÚ PSČ, kódový seznam **0028**, je rozhodujícím podkladem pro platnost, výběr a oficiální označení PSČ.
-- Relevantní data Registru sčítacích obvodů a budov (RSO), zejména adresní údaje, se používají k ověření vazby adres na území, pokud jsou pro daný účel dostupná.
-- Další oficiální geografické a územní datové výstupy ČSÚ se používají podle jejich skutečného obsahu, metodiky, územního rozlišení a data vydání.
-- U každého ověření musí být dohledatelné, jaký konkrétní soubor, číselník nebo vydání ČSÚ bylo použito.
+### 3.1 Výchozí pravidlo pro existující databázi
 
-### 3.2 Pravidla při rozporu zdrojů
+Stávající české přiřazení PSČ a územní vazby považuj za výchozí správné. Neprováděj plošné přepisování ani nové odvozování PSČ z obce, části obce nebo doručovací pošty. Konkrétní nesrovnalost prověř až tehdy, když se objeví doložený rozpor.
 
-- Pokud vyhledávač, mapa, katalog, firemní profil, poštovní směrovací služba nebo jiný sekundární zdroj uvádí jiné PSČ než rozhodující data ČSÚ, nepřebírej automaticky hodnotu sekundárního zdroje.
-- Změna pošty, která zásilky prakticky obsluhuje nebo doručuje, sama o sobě nemění projektovou identitu PSČ podle ČSÚ.
-- Provozní spádovost pošty, doručovací trasa a územní přiřazení PSČ jsou odlišné informace. Nesmějí se zaměňovat.
-- Pokud si zdroje odporují, ponech projektovou hodnotu podle ČSÚ a zaznamenej rozpor k prověření.
-- Sekundární zdroj může pomoci vysvětlit rozpor, ale sám o sobě nepřebíjí ČSÚ.
+### 3.2 Hierarchie zdrojů
 
-### 3.3 Geografická data ČSÚ
+1. Oficiální zdroje České pošty — poštovní údaje a PSČ.
+2. Oficiální data ČSÚ — územní identifikace a administrativní vazby.
+3. Ostatní státní a veřejné instituce — doplňující zdroje podle jejich působnosti.
+4. Weby obcí, organizací, firem, turistické portály a soukromé stránky — druhotné zdroje; mohou doplnit kontext, ale nepřebíjejí oficiální údaje.
 
-Používej oficiální geografická data ČSÚ, pokud jsou pro danou otázku relevantní a dostupná. Vždy respektuj, co konkrétní datová sada skutečně reprezentuje.
+### 3.3 Rozpory a nahlášení chyby
 
-- Nezaměňuj statistické nebo dominantní přiřazení území k PSČ za přesnou hranici doručovacího obvodu, pokud to metodika zdroje výslovně nepotvrzuje.
-- Nepřisuzuj datové sadě přesnost ani význam, který její dokumentace neuvádí.
-- Pokud ČSÚ poskytuje pro daný účel přesnější adresní nebo územní údaj, upřednostni jej před hrubším statistickým vyjádřením.
-- Nevytvářej vlastní náhradní hranice a nepřebírej neověřené hranice z komerčních map jako autoritativní data.
-- Německý zákaz polygonových kontrol se na českou část projektu automaticky nevztahuje. Česká metodika vychází z dostupných oficiálních dat ČSÚ a z jejich doložené metodiky.
+Při konkrétním rozporu zachovej dosavadní hodnotu, dokud nebude ověřen. Zjisti, zda jde o poštovní údaj, administrativní členění, provozní doručování nebo chybu sekundárního zdroje. Zaznamenej důvod a použité zdroje; opravu proveď až po ověření.
 
-### 3.4 Výjimky a evidence
+Budoucí Europe Explorer má umožnit uživateli nahlásit chybu nebo problém. Hlášení je podnět ke kontrole, nikoli automaticky potvrzená oprava.
 
-Odchylka od hodnoty ČSÚ je možná pouze po zdokumentovaném přezkoumání, které prokáže, že:
-- záznam ČSÚ je chybný;
-- údaj je pro definovaný účel projektu zastaralý; nebo
-- novější oficiální vydání ČSÚ původní údaj nahradilo.
-
-Každá odchylka musí obsahovat důkazy, důvod rozhodnutí, datum a identifikaci odpovědné kontroly a seznam dotčených záznamů. Konflikt se nikdy nesmí vyřešit potichu.
-
-V záznamu uchovávej dostupnou provenienci: autoritu, název datové sady nebo číselníku, vydání či datum získání a případnou poznámku o rozporu nebo rozhodnutí. Konkrétní názvy a datové typy polí určuje `schema.json`.
-
----
+Eviduj dostupný zdroj a datum ověření podle možností současné struktury. Nezaváděj složitou povinnou provenienci tam, kde potřebné údaje nejsou dostupné.
 
 ## 4. Povinná rešerše před psaním
 
@@ -188,24 +172,20 @@ Závazná pravidla:
 - Rešerše může zkoumat širší okolí. Širší rešeršní oblast však nerozšiřuje geografický rozsah výsledných faktů.
 - Pokud geografickou vazbu nelze spolehlivě ověřit, faktum nepublikuj jako potvrzené. Nehádej, nepřesouvej souřadnice na vhodnější místo a nejistotu nezamlčuj.
 
-### 6.1 Česká územní realita
+### 6.1 Česká územní realita a pole v JSON
 
-Používej správné české administrativní a geografické pojmy podle skutečné situace:
+- `city` = obec (město i menší obec), například Čkyně nebo Zálezly;
+- `district` = konkrétní část obce, městská část, městský obvod, čtvrť nebo pojmenovaná sídelní lokalita, například Dejvice, Záhoříčko, Kovanín nebo Setěchovice;
+- `district_type` = nepovinné upřesnění druhu lokality v poli `district`;
+- `county` = okres;
+- `state` = kraj.
 
-- obec;
-- město;
-- městská část;
-- část obce;
-- městský obvod, pokud existuje;
-- okres;
-- kraj;
-- katastrální území, pokud je pro vysvětlení vazby relevantní.
+Příklady:
+- Praha — Dejvice: `city = Praha`, `district = Dejvice`, `district_type = city_quarter`, pokud jde o čtvrť/lokalitu v daném kontextu.
+- Čkyně — Záhoříčko: `city = Čkyně`, `district = Záhoříčko`, `district_type = municipal_part), pokud je tak vedeno v oficiální evidenci.
+- Zálezly — Kovanín nebo Setěchovice: `city = Zálezly`, `district` podle konkrétní lokality a `district_type = municipal_part), pokud to potvrzuje oficiální evidence.
 
-Tyto úrovně nejsou zaměnitelné. Nepoužívej německé správní členění ani nevytvářej umělou hierarchii.
-
-U statutárních měst a Prahy rozlišuj příslušné městské části nebo obvody podle oficiálního členění. U menších sídel rozlišuj obec a část obce. Pokud se územní pojmy v běžném jazyce liší od oficiálního názvu, použij přesný oficiální údaj a případně jej přirozeně vysvětli.
-
----
+Typ vybírej podle skutečného postavení. Nezaměňuj část obce, městskou část, městský obvod, čtvrť, sídelní lokalitu a katastrální území. Katastrální území není automaticky hodnotou `district`. Okres a kraj zůstávají samostatné úrovně. PSČ není administrativní jednotka.
 
 ## 7. Jedno reprezentativní místo pro každé PSČ
 
@@ -229,33 +209,29 @@ Pravidlo jednoho reprezentativního místa nijak neomezuje počet samostatných 
 
 ## 8. Reprezentativní místo, přístupový bod a poloha faktu
 
-Jde o tři rozdílné geografické role. Nesmějí se zaměňovat.
+Jde o tři rozdílné geografické role.
 
 ### 8.1 Reprezentativní bod
-
-- Jeden bod pro celé PSČ.
-- Označuje vybrané reprezentativní místo.
-- Není automaticky středem PSČ ani přístupovým bodem.
-- Není náhradou za polohu jednotlivých faktů.
+- Zachovej jedno jednoduché orientační reprezentativní místo a jeho souřadnice pro celé PSČ.
+- Nemusí jít o turistickou atrakci ani geometrický střed.
+- Nezaměňuj jej za polohu konkrétního faktu.
 
 ### 8.2 Přístupový bod
-
-- Jeden praktický bod pro příchod nebo příjezd do oblasti PSČ.
-- Může jím být ověřené nádraží, zastávka, vstup, veřejný přístup nebo jiné vhodné místo.
-- Nemusí být totožný s reprezentativním místem.
-- Není náhradou za polohu konkrétního faktu.
+- Ponech jej jako pomocný údaj pro příjezd nebo příchod.
+- Pokud existuje jasný a ověřitelný praktický bod, uveď jej.
+- Pokud nemá smysl nebo není spolehlivě ověřen, použij `null`.
+- Neprováděj složitou navigační analýzu a nevymýšlej přístupový bod za každou cenu.
 
 ### 8.3 Poloha konkrétního faktu
+Používej stejné geografické podmínky jako německé TRAVEL:
+- poloha označuje skutečný objekt, místo, přírodní útvar nebo doloženou historickou lokalitu, o které fakt pojednává;
+- nepřebírej automaticky reprezentativní ani přístupový bod;
+- u nových a přepracovaných faktů vyplň `location`, pokud lze polohu doložit; použij `null`, pokud ji nelze obhajitelně určit;
+- u konkrétního objektu preferuj jeho vlastní ověřené souřadnice;
+- u rozlehlého území nebo faktu vztahujícího se k oblasti PSČ bez jediného fyzického bodu lze použít reprezentativní bod s `type = postal_area` a `accuracy = area_representative`;
+- netvrď, že se událost odehrála přesně na reprezentativním bodě, pokud to není doloženo.
 
-- Každé faktum má vlastní hlavní geografickou polohu, pokud ji lze spolehlivě doložit.
-- Poloha označuje skutečné místo, objekt, přírodní útvar nebo historicky doloženou lokalitu, o níž faktum pojednává.
-- Nepřebírej automaticky souřadnice reprezentativního nebo přístupového bodu.
-- Pokud faktum zmiňuje více míst, vyber hlavní místo, o kterém faktum skutečně je. Nevytvářej umělý střed mezi místy.
-- Pokud nelze určit obhajitelnou polohu, ponech ji jako nevyřešenou podle možností schématu. Nevymýšlej souřadnice.
-
-Konkrétní názvy polí, strukturu objektů, typy lokalit, přesnost a povinné zdroje určuje `schema.json`. Tento standard stanovuje jejich geografický význam. Strukturální rozšíření schématu musí být provedeno a ověřeno v samostatném kroku.
-
----
+Strukturu `fact_location`, přesnost, zdroj a povolené typy určuje `schema.json`. Český slovník typů je samostatný; geografický princip je stejný jako v Německu.
 
 ## 9. Sestavení příběhu před tvorbou seznamu faktů
 
@@ -554,7 +530,7 @@ Vysvětlení musí být:
 - přirozené v cílovém jazyce;
 - relevantní pro pochopení faktu.
 
-Každý jazyk posuzuj samostatně. To, co je samozřejmé českému čtenáři, nemusí být známé čtenáři německému, anglickému, španělskému, francouzskému nebo italskému.
+Každý jazyk posuzuj samostatně. To, co je samozřejmé českému čtenáři, nemusí být známé čtenáři německému, anglickému, španělskému, francouzskému nebo italskému. Cílem není pouze překlad, ale přirozené vysvětlení českých reálií, institucí, správních pojmů, tradic a historického kontextu. České vlastní názvy zachovávej a při prvním relevantním výskytu přidej stručné vysvětlení v cílovém jazyce.
 
 ### 19.4 Konzistence
 
