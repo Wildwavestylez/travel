@@ -7,6 +7,21 @@ For Czech postcode data, the authoritative production rules are:
 
 Do not add fields, categories or content patterns ad hoc.
 
+## Official postcode authority — mandatory rule
+
+For TRAVEL Czechia, the **Czech Statistical Office (ČSÚ) is the single primary authority for selecting a postcode and assigning it to the geographic area represented in our dataset**. This is a binding project rule, not merely a source preference.
+
+- Use the current ČSÚ postcode code list (ČSÚ číselník PSČ, code list 0028) as the controlling reference for whether a postcode is included and for its official ČSÚ designation.
+- Use the relevant ČSÚ Register of Census Districts and Buildings (RSO) address-level data to verify/address the geographic linkage where available. Record which exact ČSÚ dataset and release/date were consulted.
+- Do not replace a ČSÚ postcode with a different code just because a search engine, map, directory, business listing or postal-office page displays another code.
+- A change in the post office that operationally handles or delivers mail does **not by itself** change the postcode assigned by ČSÚ to the area. Keep postal delivery arrangements separate from the project's postcode/geographic identity.
+- If another source disagrees, retain the ČSÚ value as the project value and open a discrepancy check. Secondary sources are evidence for understanding the discrepancy; they are not an automatic override.
+- An override is permitted only after a documented review establishes that the ČSÚ record itself is erroneous, obsolete for the defined project purpose, or that a newer authoritative ČSÚ release supersedes it. Record the evidence, decision, reviewer/date and affected records before changing anything.
+- If ČSÚ datasets themselves appear to disagree, prefer the current official code list for code validity/designation and the most granular current RSO address-level data for address-to-area linkage. Do not treat statistical/dominant-code polygon products as exact delivery-boundary geometry.
+- Store provenance: source name, dataset/code-list identifier, release or retrieval date, and any discrepancy/decision note. Never silently resolve a conflict.
+
+**Example of the rule:** if ČSÚ assigns a locality to one postcode while a current delivery-office lookup displays a neighbouring office's postcode, TRAVEL keeps the ČSÚ assignment as its canonical postcode and records the operational discrepancy separately. The internet search result does not decide the record.
+
 ## 2. Core philosophy
 TRAVEL is a curated knowledge database, not a quota-filling postcode list. Quality, local relevance and significance are more important than the number of facts.
 
