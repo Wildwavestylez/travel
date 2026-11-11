@@ -276,6 +276,17 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "location": {
+          "description": "Samostatná geografická poloha objektu nebo místa, kterého se konkrétní fakt týká. Nekopíruj sem representative_point ani access_point. Pole je volitelné kvůli zpětné kompatibilitě; u nových a přepracovaných faktů se vyplňuje, pokud lze polohu doložit, jinak null.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/fact_location"
+            },
+            {
+              "type": "null"
+            }
+          ]
         }
       }
     },
@@ -355,6 +366,193 @@
           "minLength": 1
         }
       }
+    },
+    "fact_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "lat",
+        "lon",
+        "type",
+        "accuracy",
+        "source"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Název konkrétního objektu, místa nebo historicky doložené lokality."
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Ověřená poštovní adresa, pokud existuje; jinak null."
+        },
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "agricultural_landscape",
+            "airport",
+            "arboretum",
+            "archaeological_site",
+            "architectural_ensemble",
+            "archive",
+            "artwork",
+            "brewery",
+            "bridge",
+            "building",
+            "bunker",
+            "business_park",
+            "canal",
+            "castle",
+            "cemetery",
+            "chapel",
+            "church",
+            "cinema",
+            "city_gate",
+            "community_center",
+            "cultural_center",
+            "dam",
+            "factory",
+            "farm",
+            "ferry_terminal",
+            "fire_station",
+            "forest",
+            "fortress",
+            "fountain",
+            "gallery",
+            "garden",
+            "harbor",
+            "hill",
+            "historic_address",
+            "historic_district",
+            "historic_estate",
+            "historic_industrial_site",
+            "historic_monument",
+            "historic_railway_site",
+            "historic_settlement",
+            "historic_square",
+            "historic_street",
+            "historic_villa",
+            "historic_village",
+            "historic_waterway",
+            "hospital",
+            "hotel",
+            "industrial_site",
+            "infrastructure",
+            "island",
+            "landmark",
+            "landscape",
+            "market",
+            "memorial",
+            "memorial_site",
+            "metro_station",
+            "mine",
+            "monastery",
+            "monument",
+            "mosque",
+            "museum",
+            "natural_feature",
+            "natural_monument",
+            "nature_reserve",
+            "neighborhood",
+            "observatory",
+            "open_air_museum",
+            "park",
+            "pedestrian_street",
+            "pilgrimage_site",
+            "pond",
+            "power_station",
+            "quarry",
+            "railway_station",
+            "religious_site",
+            "research_facility",
+            "residential_ensemble",
+            "river",
+            "rock_formation",
+            "school",
+            "sculpture",
+            "shopping_center",
+            "square",
+            "stadium",
+            "street",
+            "synagogue",
+            "technical_monument",
+            "technology_park",
+            "theatre",
+            "town_hall",
+            "transport_hub",
+            "university",
+            "viewpoint",
+            "waterfall",
+            "water_tower",
+            "waterway",
+            "waterworks",
+            "windmill",
+            "woodland",
+            "zoo",
+            "spa",
+            "cave",
+            "battlefield",
+            "protected_area",
+            "national_park",
+            "geological_site",
+            "lookout_tower",
+            "fortification",
+            "ruin",
+            "library",
+            "sports_facility",
+            "swimming_pool",
+            "camping_site",
+            "railway_heritage_site",
+            "industrial_heritage_site",
+            "historic_bridge",
+            "historic_church",
+            "historic_park",
+            "historic_garden",
+            "historic_cemetery",
+            "historic_mill",
+            "historic_mine",
+            "historic_quarry",
+            "historic_brewery",
+            "historic_factory",
+            "historic_workshop",
+            "historic_market",
+            "historic_station",
+            "historic_fortress"
+          ],
+          "description": "Řízený český slovník typů polohy faktu. ID jsou stabilní anglické identifikátory v jednotném čísle. Typ popisuje druh místa, nikoli počet objektů; množné varianty se nepoužívají."
+        },
+        "accuracy": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "approximate",
+            "area_representative",
+            "historical_approximate"
+          ],
+          "description": "exact = ověřený bod objektu; approximate = známá lokalita s nepřesným bodem; area_representative = reprezentativní bod rozlehlého území; historical_approximate = doložená historická poloha s nejistým přesným umístěním."
+        },
+        "source": {
+          "type": "string",
+          "format": "uri",
+          "description": "Přímá URL dokládající identifikaci místa nebo jeho geografickou polohu."
+        }
+      }
     }
-  }
+  },
+  "$comment": "CZECHIA CONTENT STANDARD V2: Czechia uses its own normalized singular-form fact location type vocabulary in $defs.fact_location.properties.type. It is intentionally independent of the historical German location.type enum. Do not modify German schema or records as part of Czechia changes."
 }
