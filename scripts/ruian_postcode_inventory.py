@@ -179,6 +179,18 @@ for row in reader:
             }[key]
             item[target].add(value)
 
+# A postcode with address points but no municipality would indicate a broken
+# source-column mapping or incomplete source rows. Fail closed instead of
+# publishing an inventory with silently missing territorial relationships.
+missing_municipality_postcodes = sorted(
+    psc for psc, item in groups.items() if not item["municipalities"]
+)
+if missing_municipality_postcodes:
+    raise RuntimeError(
+        "Municipality aggregation produced empty values for postcodes: "
+        + ", ".join(missing_municipality_postcodes[:50])
+    )
+
 result = []
 for psc, item in sorted(groups.items()):
     result.append({
