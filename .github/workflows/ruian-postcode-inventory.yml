@@ -1,0 +1,34 @@
+name: RUIAN nationwide postcode inventory
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 4 2 * *"
+  push:
+    paths:
+      - ".github/workflows/ruian-postcode-inventory.yml"
+      - "scripts/ruian_postcode_inventory.py"
+
+permissions:
+  contents: read
+
+jobs:
+  build-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download and process official ČÚZK RÚIAN CSV
+        run: python scripts/ruian_postcode_inventory.py
+      - name: Upload inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: ruian-nationwide-postcode-inventory
+          path: ruian-output/
+          if-no-files-found: error
+          retention-days: 30
