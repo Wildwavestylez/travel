@@ -96,7 +96,7 @@ Prefer:
 
 ## Verification
 
-`verification.identifier_source` should document the authoritative source used to establish the PLZ/geographic relationship.
+`verification.plz_source` should document the authoritative source used to establish the PLZ/geographic relationship.
 
 `verification.geographic_test_data` confirms that the geographic assignment has been checked.
 
