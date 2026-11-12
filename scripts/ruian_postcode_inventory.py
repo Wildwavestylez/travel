@@ -32,29 +32,40 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].lower()
 
 feed = ET.fromstring(get(FEED_URL))
-entries = [el for el in feed.iter() if local(el.tag) == "entry"]
+# Accept both Atom (<entry>) and RSS (<item>) feeds. Some Atom providers expose
+# the archive through content@src rather than link@href.
+entries = [el for el in feed.iter() if local(el.tag) in ("entry", "item")]
 candidates = []
+feed_diagnostics = []
 for entry in entries:
     title = ""
-    links = []
     updated = ""
+    links = []
     for child in entry.iter():
         tag = local(child.tag)
         if tag == "title" and not title:
             title = (child.text or "").strip()
-        elif tag == "updated":
+        elif tag in ("updated", "pubdate"):
             updated = (child.text or "").strip()
-        elif tag == "link":
-            href = child.attrib.get("href", "")
-            rel = child.attrib.get("rel", "")
-            typ = child.attrib.get("type", "")
-            if href:
-                links.append((href, rel, typ))
+        # Atom: href/src; RSS: url; tolerate namespaced attributes.
+        attrs = {local(k): v for k, v in child.attrib.items()}
+        href = attrs.get("href") or attrs.get("src") or attrs.get("url") or ""
+        rel = attrs.get("rel", "").lower()
+        typ = attrs.get("type", "").lower()
+        if href:
+            links.append((href, rel, typ))
+    feed_diagnostics.extend(links)
     for href, rel, typ in links:
-        if ".zip" in href.lower() or "zip" in typ.lower() or rel == "enclosure":
+        if ".zip" in href.lower() or "zip" in typ or rel == "enclosure":
             candidates.append((updated, href, title))
 if not candidates:
-    raise RuntimeError("Atom feed contained no downloadable ZIP enclosure; refusing to guess a URL.")
+    root_name = local(feed.tag)
+    sample_links = feed_diagnostics[:10]
+    raise RuntimeError(
+        "Official ČÚZK Atom feed contained no downloadable ZIP link. "
+        f"Root={root_name!r}, entries={len(entries)}, "
+        f"sample_links={sample_links!r}. Refusing to guess a URL."
+    )
 
 # The feed is ordered newest-first on some servers, but sort explicitly by updated timestamp.
 candidates.sort(key=lambda x: x[0], reverse=True)
@@ -109,8 +120,11 @@ fields = {
     "prague_district": choose("NAZEV_MOP", "MESTSKY_OBVOD_PRAHY"),
     "validity": choose("PLATNOST_OD", "DATUM_PLATNOSTI", "DATEOFVALIDITY"),
 }
-if not fields["postcode"]:
-    raise RuntimeError(f"Could not identify postcode column. CSV headers: {reader.fieldnames}")
+if not fields["postcode"] or not fields["municipality"]:
+    raise RuntimeError(
+        "Could not identify required postcode and municipality columns. "
+        f"Detected fields: {fields}; CSV headers: {reader.fieldnames}"
+    )
 
 groups = defaultdict(lambda: {
     "address_points": 0, "municipalities": set(), "municipality_parts": set(),
@@ -133,7 +147,13 @@ for row in reader:
         col = fields.get(key)
         value = (row.get(col) or "").strip() if col else ""
         if value:
-            target = "validity_dates" if key == "validity" else key + ("s" if key != "municipality_part" else "s")
+            target = {
+                "municipality": "municipalities",
+                "municipality_part": "municipality_parts",
+                "city_district": "city_districts",
+                "prague_district": "prague_districts",
+                "validity": "validity_dates",
+            }[key]
             item[target].add(value)
 
 result = []
