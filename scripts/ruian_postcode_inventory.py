@@ -32,9 +32,22 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].lower()
 
 feed = ET.fromstring(get(FEED_URL))
+# The catalogue endpoint currently points to a dataset-specific Atom feed via
+# an alternate application/atom+xml link. Follow that official link rather
+# than assuming the catalogue document itself contains the archive enclosure.
+feeds = [feed]
+for node in list(feed.iter()):
+    attrs = {local(k): v for k, v in node.attrib.items()}
+    href = attrs.get("href") or attrs.get("src") or ""
+    rel = attrs.get("rel", "").lower()
+    typ = attrs.get("type", "").lower()
+    if href and rel == "alternate" and ("atom+xml" in typ or href.lower().endswith(".xml")):
+        feeds.append(ET.fromstring(get(href)))
+        break
+
 # Accept both Atom (<entry>) and RSS (<item>) feeds. Some Atom providers expose
 # the archive through content@src rather than link@href.
-entries = [el for el in feed.iter() if local(el.tag) in ("entry", "item")]
+entries = [el for doc in feeds for el in doc.iter() if local(el.tag) in ("entry", "item")]
 candidates = []
 feed_diagnostics = []
 for entry in entries:
