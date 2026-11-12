@@ -32,55 +32,65 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].lower()
 
 feed = ET.fromstring(get(FEED_URL))
-# The catalogue endpoint currently points to a dataset-specific Atom feed via
-# an alternate application/atom+xml link. Follow that official link rather
-# than assuming the catalogue document itself contains the archive enclosure.
-feeds = [feed]
-for node in list(feed.iter()):
-    attrs = {local(k): v for k, v in node.attrib.items()}
-    href = attrs.get("href") or attrs.get("src") or ""
-    rel = attrs.get("rel", "").lower()
-    typ = attrs.get("type", "").lower()
-    if href and rel == "alternate" and ("atom+xml" in typ or href.lower().endswith(".xml")):
-        feeds.append(ET.fromstring(get(href)))
-        break
+# ČÚZK's Atom endpoint may expose the downloadable archive either in entries
+# or as a feed-level enclosure. Follow alternate Atom feeds when advertised,
+# but never manufacture a download URL.
+from urllib.parse import urljoin
 
-# Accept both Atom (<entry>) and RSS (<item>) feeds. Some Atom providers expose
-# the archive through content@src rather than link@href.
-entries = [el for doc in feeds for el in doc.iter() if local(el.tag) in ("entry", "item")]
-candidates = []
-feed_diagnostics = []
-for entry in entries:
-    title = ""
-    updated = ""
-    links = []
-    for child in entry.iter():
-        tag = local(child.tag)
-        if tag == "title" and not title:
-            title = (child.text or "").strip()
-        elif tag in ("updated", "pubdate"):
-            updated = (child.text or "").strip()
-        # Atom: href/src; RSS: url; tolerate namespaced attributes.
-        attrs = {local(k): v for k, v in child.attrib.items()}
+feeds = [(FEED_URL, feed)]
+seen_feed_urls = {FEED_URL}
+for base_url, doc in list(feeds):
+    for node in doc.iter():
+        attrs = {local(k): v for k, v in node.attrib.items()}
         href = attrs.get("href") or attrs.get("src") or attrs.get("url") or ""
         rel = attrs.get("rel", "").lower()
         typ = attrs.get("type", "").lower()
-        if href:
-            links.append((href, rel, typ))
-    feed_diagnostics.extend(links)
-    for href, rel, typ in links:
-        if ".zip" in href.lower() or "zip" in typ or rel == "enclosure":
-            candidates.append((updated, href, title))
+        if not href:
+            continue
+        resolved = urljoin(base_url, href)
+        if rel == "alternate" and ("atom+xml" in typ or resolved.lower().endswith(".xml")):
+            if resolved not in seen_feed_urls:
+                seen_feed_urls.add(resolved)
+                feeds.append((resolved, ET.fromstring(get(resolved))))
+
+candidates = []
+feed_diagnostics = []
+for base_url, doc in feeds:
+    # Read metadata from each entry/item, but inspect feed-level links too.
+    entries = [el for el in doc.iter() if local(el.tag) in ("entry", "item")]
+    scopes = entries if entries else [doc]
+    # Include the document itself as a scope so feed-level enclosures are not missed.
+    scopes = [doc] + scopes
+    for scope in scopes:
+        title = ""
+        updated = ""
+        for child in scope.iter():
+            tag = local(child.tag)
+            if tag == "title" and not title:
+                title = (child.text or "").strip()
+            elif tag in ("updated", "pubdate") and not updated:
+                updated = (child.text or "").strip()
+            attrs = {local(k): v for k, v in child.attrib.items()}
+            href = attrs.get("href") or attrs.get("src") or attrs.get("url") or ""
+            rel = attrs.get("rel", "").lower()
+            typ = attrs.get("type", "").lower()
+            if href:
+                resolved = urljoin(base_url, href)
+                feed_diagnostics.append((resolved, rel, typ, title))
+                if ".zip" in resolved.lower() or "zip" in typ or rel == "enclosure":
+                    candidates.append((updated, resolved, title))
+
+# De-duplicate links repeated through feed and entry scopes.
+candidates = list(dict.fromkeys(candidates))
 if not candidates:
-    root_name = local(feed.tag)
-    sample_links = feed_diagnostics[:10]
     raise RuntimeError(
         "Official ČÚZK Atom feed contained no downloadable ZIP link. "
-        f"Root={root_name!r}, entries={len(entries)}, "
-        f"sample_links={sample_links!r}. Refusing to guess a URL."
+        f"Feed documents={len(feeds)}, "
+        f"root={local(feed.tag)!r}, "
+        f"diagnostic_links={feed_diagnostics[:30]!r}. "
+        "Refusing to guess a URL."
     )
 
-# The feed is ordered newest-first on some servers, but sort explicitly by updated timestamp.
 candidates.sort(key=lambda x: x[0], reverse=True)
 updated, zip_url, title = candidates[0]
 archive = get(zip_url)
@@ -184,7 +194,7 @@ for psc, item in sorted(groups.items()):
 payload = {
     "source": "ČÚZK RÚIAN – nationwide address points CSV",
     "feed_url": FEED_URL,
-    "feed_entry_title": title,
+    "feed_entry_title": title,\n    "detected_csv_fields": fields,
     "feed_updated": updated,
     "download_url": zip_url,
     "downloaded_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -204,4 +214,4 @@ with (OUT / "ruian_postcodes.csv").open("w", newline="", encoding="utf-8-sig") a
     for item in result:
         w.writerow([item["postcode"], item["address_points"], "; ".join(item["municipalities"]), "; ".join(item["municipality_parts"]), "; ".join(item["city_districts"]), "; ".join(item["prague_districts"])])
 (OUT / "ruian_import_manifest.json").write_text(json.dumps({k:v for k,v in payload.items() if k != "postcodes"}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(json.dumps({k: payload[k] for k in ("feed_entry_title","feed_updated","archive_member","csv_encoding","csv_delimiter","total_csv_rows","unique_postcodes","rows_without_postcode")}, ensure_ascii=False, indent=2))
+print(json.dumps({k: payload[k] for k in ("feed_entry_title","feed_updated","archive_member","csv_encoding","csv_delimiter","detected_csv_fields","total_csv_rows","unique_postcodes","rows_without_postcode")}, ensure_ascii=False, indent=2))
