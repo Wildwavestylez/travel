@@ -2,7 +2,7 @@
   "country": "Czechia",
   "mode": "production",
   "start": "10000",
-  "count": 9,
+  "count": 13,
   "sequence": [
     "10000",
     "10100",
@@ -12,7 +12,11 @@
     "10600",
     "10700",
     "10800",
-    "10900"
+    "10900",
+    "11000",
+    "11101",
+    "11800",
+    "11900"
   ],
   "groups": [
     {
@@ -91,6 +95,41 @@
             "Dolní Měcholupy (část)",
             "Petrovice",
             "Hostivař (část)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Praha 1 - druhá Městská část ze seznamu",
+      "administrative_area": "Obvod Praha 1",
+      "postcodes": [
+        {
+          "postcode": "11000",
+          "localities": [
+            "Staré Město",
+            "Josefov",
+            "část Nového Města"
+          ]
+        },
+        {
+          "postcode": "11101",
+          "localities": [
+            "část Dolních Měcholup (výjimka z řady 11x, historicky/provozně navázaná na poštu Dolní Měcholupy)"
+          ]
+        },
+        {
+          "postcode": "11800",
+          "localities": [
+            "Malá Strana",
+            "část Hradčan",
+            "nepatrná část Holešovic"
+          ]
+        },
+        {
+          "postcode": "11900",
+          "localities": [
+            "Pražský hrad",
+            "přilehlá část Hradčan"
           ]
         }
       ]
