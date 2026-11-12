@@ -123,7 +123,7 @@
         "plz_source": {
           "type": "string",
           "minLength": 1,
-          "description": "Konkrétní zdroj použitý k ověření PSČ. ČSÚ je jediná primární autorita projektu pro výběr PSČ a jeho přiřazení k území; používej číselník ČSÚ PSČ (kódový seznam 0028) a podle potřeby oficiální adresní data ČSÚ, zejména RSO. Česká pošta může být pouze doplňkovým kontrolním zdrojem a její údaje nesmějí automaticky přebít ČSÚ."
+          "description": "Konkrétní zdroj použitý k ověření PSČ. ČSÚ (číselník 0028 a typový číselník 0029) je autoritou pro oficiální evidenci a klasifikaci kódu PSČ. RÚIAN/ČÚZK je hlavní autoritou pro geografické přiřazení konkrétního adresního místa k PSČ. Česká pošta je pouze doplňkový kontrolní zdroj."
         },
         "geographic_test_data": {
           "type": "boolean"
@@ -133,7 +133,7 @@
         },
         "postcode_authority": {
           "type": "string",
-          "description": "Primární autorita projektu pro výběr PSČ a jeho přiřazení k území je ČSÚ (identifikátor CSU). Česká pošta může být uvedena pouze jako doplňkový kontrolní zdroj. Textové pole zachovává kompatibilitu se staršími záznamy."
+          "description": "Autorita pro oficiální evidenci a klasifikaci kódu PSČ: ČSÚ (identifikátor CSU). Geografické přiřazení adresních míst ověřuj v RÚIAN/ČÚZK. Textové pole zachovává kompatibilitu se staršími záznamy; neměň jeho strukturu ani existující hodnoty bez samostatné migrace."
         },
         "postcode_source_dataset": {
           "type": [
@@ -177,7 +177,7 @@
         },
         "geographic_authority": {
           "type": "string",
-          "description": "Autorita použitá pro administrativní a statistické územní údaje; u nového ověřování používej ČSÚ (identifikátor CSU). Textové pole zachovává kompatibilitu se staršími záznamy."
+          "description": "Autorita použitá pro územní údaj. Pro geografické přiřazení adresního místa a PSČ používej RÚIAN/ČÚZK; pro statistické a administrativní klasifikace použij odpovídající oficiální data ČSÚ nebo RÚIAN podle povahy údaje. Textové pole zachovává kompatibilitu se staršími záznamy."
         }
       }
     },
@@ -313,7 +313,7 @@
           }
         },
         "location": {
-          "description": "Samostatná geografická poloha objektu nebo místa, kterého se konkrétní fakt týká. Nekopíruj sem representative_point ani access_point. Pole je volitelné kvůli zpětné kompatibilitě; u nových a přepracovaných faktů se vyplňuje, pokud lze polohu doložit, jinak null.",
+          "description": "Samostatná geografická poloha objektu nebo místa, kterého se konkrétní fakt týká. Nekopíruj sem representative_point ani access_point. Pole zůstává volitelné; pokud nelze obhajitelnou polohu doložit, použij null. Nevyřazuj kvůli tomu zajímavost a nepřidávej nový stav ani příznak; geografické přiřazení se může prověřit při finálním auditu.",
           "oneOf": [
             {
               "$ref": "#/$defs/fact_location"
@@ -588,7 +588,7 @@
           "description": "Přímá URL dokládající identifikaci místa nebo jeho geografickou polohu."
         }
       },
-      "description": "Geografická poloha konkrétního faktu podle stejných principů jako německé TRAVEL. U nových a přepracovaných faktů uveď location; použij null pouze tehdy, když nelze obhajitelnou polohu doložit. Nikdy automaticky nekopíruj representative_point ani access_point."
+      "description": "Geografická poloha konkrétního faktu podle pravidel českého Content Standardu. Uveď location, pokud lze doložit přesnou nebo obhajitelnou přibližnou polohu; jinak použij null. Zajímavost kvůli chybějící přesné adrese nevyřazuj. Nezaváděj nový stav ani příznak a nikdy automaticky nekopíruj representative_point ani access_point."
     }
   },
   "$comment": "CZECHIA CONTENT STANDARD: Czechia uses Czech administrative terminology and an independent location-type dictionary. Fact-location behavior follows German TRAVEL rules. Shared editorial fact categories stay aligned with Germany for EuropeExplorer compatibility. Do not modify German schema or records."
