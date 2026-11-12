@@ -194,7 +194,8 @@ for psc, item in sorted(groups.items()):
 payload = {
     "source": "ČÚZK RÚIAN – nationwide address points CSV",
     "feed_url": FEED_URL,
-    "feed_entry_title": title,\n    "detected_csv_fields": fields,
+    "feed_entry_title": title,
+    "detected_csv_fields": fields,
     "feed_updated": updated,
     "download_url": zip_url,
     "downloaded_at_utc": datetime.now(timezone.utc).isoformat(),
