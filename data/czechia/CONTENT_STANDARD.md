@@ -48,29 +48,39 @@ Cílem je co nejvyšší hustota důvěryhodných, významných a překvapivých
 
 ## 3. Autority a ověřování českých PSČ a územních údajů
 
-**ČSÚ je jediná primární autorita projektu pro výběr PSČ a jeho přiřazení k území.** Pro výběr a ověřování českých PSČ používej číselník ČSÚ PSČ (kódový seznam 0028) a pro vazbu adres a PSČ na územní jednotky používej oficiální územní a adresní data ČSÚ, zejména Registr sčítacích obvodů a budov (RSO).
+Projekt rozlišuje dvě různé otázky a nepoužívá pro ně jednu univerzální autoritu:
 
-Toto pravidlo platí pro projektovou identitu PSČ i jeho geografické přiřazení. Česká pošta a její vyhledávače mohou sloužit jako doplňkový kontrolní zdroj poštovních údajů, nikoli jako autorita, která automaticky přebíjí ČSÚ. Provozní doručovací pošta, spádovost nebo doručovací trasa sama o sobě nemění projektovou identitu PSČ ani jeho přiřazení k území.
+- **ČSÚ — autorita pro oficiální evidenci a klasifikaci PSČ.** Pro ověření existence a typu kódu používej číselník ČSÚ PSČ (kódový seznam 0028) a související číselník typu PSČ 0029. Číselník 0028 může obsahovat geografická i organizační PSČ; samotná přítomnost kódu v číselníku proto ještě nedokazuje, že jde o geografické PSČ použitelné pro územní obsah TRAVEL.
+- **RÚIAN spravovaný ČÚZK — hlavní autorita projektu pro geografické přiřazení adresních míst k PSČ.** Pro ověření, jaké PSČ náleží konkrétnímu adresnímu místu a do jakého území toto místo patří, používej oficiální data RÚIAN. RÚIAN eviduje PSČ ve vazbě na územní prvky a adresní místa; organizační PSČ bez územní vazby do geografického inventáře RÚIAN nepatří.
+
+Pro projektovou geografickou sekvenci slouží inventář adresních míst RÚIAN jako základní referenční seznam geografických PSČ. ČSÚ zůstává zdrojem pro ověření oficiální evidence a typu kódu. Tyto role se doplňují, nikoli nahrazují.
+
+Česká pošta a její vyhledávače mohou sloužit jako doplňkový kontrolní zdroj poštovních údajů. Provozní doručovací pošta, spádovost nebo doručovací trasa sama o sobě nemění geografické přiřazení adresního místa v RÚIAN.
 
 ### 3.1 Výchozí pravidlo pro existující databázi
 
-Stávající české přiřazení PSČ a územní vazby považuj za výchozí správné. Neprováděj plošné přepisování ani nové odvozování PSČ z obce, části obce nebo doručovací pošty. Konkrétní nesrovnalost prověř až tehdy, když se objeví doložený rozpor.
+Stávající českou geografickou sekvenci považuj za výchozí správnou, pokud odpovídá inventáři geografických PSČ získanému z RÚIAN. Neprováděj plošné přepisování. Konkrétní nesrovnalost prověř podle příslušné role zdrojů: ČSÚ pro evidenci a typ PSČ, RÚIAN pro geografickou vazbu adresního místa.
 
-### 3.2 Hierarchie zdrojů
+### 3.2 Hierarchie zdrojů podle účelu
 
-1. **ČSÚ — jediná primární autorita projektu** pro výběr PSČ a jeho přiřazení k území; zejména číselník PSČ (kódový seznam 0028) a oficiální adresní/územní data RSO.
-2. Česká pošta — doplňkový kontrolní zdroj poštovních údajů; její údaje nesmějí automaticky přebít ČSÚ.
-3. Ostatní státní a veřejné instituce — doplňující zdroje podle jejich působnosti.
-4. Weby obcí, organizací, firem, turistické portály a soukromé stránky — druhotné zdroje; mohou doplnit kontext, ale nepřebíjejí rozhodující údaje ČSÚ.
+1. **Oficiální evidence a typ PSČ:** ČSÚ, číselník 0028 a číselník typu PSČ 0029.
+2. **Geografické přiřazení adresního místa k PSČ:** RÚIAN / ČÚZK, zejména oficiální data adresních míst a jejich územních vazeb.
+3. **Ověření administrativního a statistického členění:** příslušné referenční registry a územní data ČSÚ nebo RÚIAN podle konkrétního údaje.
+4. Česká pošta — doplňkový kontrolní zdroj poštovních údajů, nikoli automatická náhrada geografické vazby v RÚIAN.
+5. Ostatní státní a veřejné instituce — doplňující zdroje podle jejich působnosti.
+6. Weby obcí, organizací, firem, turistické portály a soukromé stránky — druhotné zdroje pro kontext a doplňující ověření.
 
-### 3.3 Rozpory a nahlášení chyby
+### 3.3 Geografické ověření zajímavostí
 
-Při konkrétním rozporu zachovej dosavadní hodnotu, dokud nebude ověřen. Zjisti, zda jde o poštovní údaj, administrativní členění, provozní doručování nebo chybu sekundárního zdroje. Zaznamenej důvod a použité zdroje; opravu proveď až po ověření.
+Při přiřazování faktu ke konkrétnímu PSČ nejprve zjisti skutečnou polohu objektu nebo místa. Pokud má ověřenou adresu, vyhledej odpovídající adresní místo v RÚIAN a zkontroluj jeho PSČ a územní příslušnost. Nepřiřazuj PSČ pouze podle názvu obce, okresu, kraje, poštovní pobočky ani odhadu.
+
+Pokud místo nemá vlastní adresní bod nebo přesnou adresu (například zaniklý provoz, archeologické naleziště, historická událost nebo přírodní lokalita), zajímavost kvůli tomu nevyřazuj. Zachovej ji v obsahu. Pokud lze doložit alespoň přibližnou polohu, použij ji podle pravidel geografické lokalizace; pokud ji nelze spolehlivě určit, ponech pole location jako null. **Nezaváděj kvůli tomu nové povinné pole, nový stav ani zvláštní značku v JSON.** Případy bez dostatečně ověřené geografické vazby se dohledají a posoudí samostatně při finálním geografickém auditu. Do té doby jim svévolně nepřiřazuj PSČ.
+
+Při rozporu mezi zdroji zachovej faktum a jeho doložený obsah, ale nepředstírej potvrzené geografické přiřazení. Rozpor prověř podle účelu jednotlivých zdrojů a případně jej odlož k samostatnému auditu. Opravu proveď až po ověření.
 
 Budoucí Europe Explorer má umožnit uživateli nahlásit chybu nebo problém. Hlášení je podnět ke kontrole, nikoli automaticky potvrzená oprava.
 
 Eviduj dostupný zdroj a datum ověření podle možností současné struktury. Nezaváděj složitou povinnou provenienci tam, kde potřebné údaje nejsou dostupné.
-
 ## 4. Povinná rešerše před psaním
 
 Před vytvořením nebo přepracováním faktů MUSÍ proběhnout strukturovaná rešerše významu konkrétního PSČ.
@@ -167,7 +177,7 @@ Závazná pravidla:
 - Pokud objekt nebo příběh zasahuje do více území, vyber PSČ podle jasné a doložené primární místní vazby. Pokud ji nelze určit, označ případ k redakčnímu posouzení.
 - Místo z jiného PSČ lze stručně zmínit jako kontext, pokud je to pro pochopení faktu opravdu důležité. Nesmí se však stát samostatným faktem, mapovým bodem ani reprezentativním místem aktuálního PSČ.
 - Rešerše může zkoumat širší okolí. Širší rešeršní oblast však nerozšiřuje geografický rozsah výsledných faktů.
-- Pokud geografickou vazbu nelze spolehlivě ověřit, faktum nepublikuj jako potvrzené. Nehádej, nepřesouvej souřadnice na vhodnější místo a nejistotu nezamlčuj.
+- Pokud geografickou vazbu nelze spolehlivě ověřit, zajímavost zachovej. Nehádej PSČ ani nepřesouvej souřadnice na vhodnější místo. Pokud nelze doložit ani obhajitelnou přibližnou polohu, ponech pole location jako null; případ se vyřeší samostatně při finálním geografickém auditu. Nepřidávej kvůli tomu do JSON nový stav, příznak ani povinné pole.
 
 ### 6.1 Česká územní realita a pole v JSON
 
