@@ -749,3 +749,20 @@ Závazná pravidla:
 - Změna českého slovníku nesmí automaticky měnit německé schéma, německé záznamy ani jejich historické hodnoty.
 
 U nových nebo přepracovaných faktů uveď `location` jako samostatnou polohu konkrétního objektu, pokud ji lze důvěryhodně určit. Pokud ji určit nelze, použij `null`. Nikdy nekopíruj do `location` souřadnice reprezentativního nebo přístupového bodu PSČ, pokud tyto body skutečně nejsou polohou samotného faktu.
+
+
+## 27. Povinný postup při nedostupných referenčních datech
+
+Nedostupný, prázdný nebo neúplný lokální referenční soubor není důvodem zastavit český rework ani opakovat stejný technický problém u každého dalšího PSČ. Pokud lokální data chybí, pokračuj ověřením přímo v oficiálních online zdrojích.
+
+Závazná hierarchie a pravidla:
+
+1. Nejprve zkus příslušný lokální referenční soubor a dostupné alternativní formáty (např. JSON, CSV nebo manifest). Při technickém selhání zkus i oficiální/raw endpoint nebo jiný podporovaný způsob načtení.
+2. Pokud údaj stále chybí, ověř jej přímo na oficiálním webu instituce, která za daný údaj odpovídá. Pro statistické číselníky a klasifikace používej ČSÚ; pro územní a adresní data RÚIAN/ČÚZK; pro poštovní služby a informace v kompetenci provozovatele poštovních služeb použij oficiální zdroje České pošty.
+3. Rozlišuj účel jednotlivých zdrojů. Číselník PSČ, číselník druhu PSČ, územní evidence RÚIAN a evidence adresních pošt nejsou zaměnitelné. Údaj z jednoho zdroje nepoužívej jako důkaz jiného údaje.
+4. U každého ověřovaného údaje zaznamenej konkrétní oficiální zdroj/URL a datum ověření. Pokud zdroj uvádí platnost nebo referenční datum, zaznamenej je odděleně od data kontroly.
+5. CSV smí být použito jako náhradní zdroj pouze pro pole, která skutečně obsahuje. Chybějící `validity_dates` ani jiná pole se nesmějí odhadovat, doplňovat z jiného PSČ nebo odvozovat z nesouvisejícího číselníku.
+6. Pokud údaj nelze potvrdit ani v dostupných oficiálních online zdrojích, označ jej jako `unverified` / čeká na ověření, uveď co přesně chybí a pokračuj v ostatní bezpečné práci. Neoznačuj celý záznam za chybný jen kvůli nedostupnosti jednoho pomocného zdroje.
+7. Stejný zdrojový problém a jeho vyřešení nebo stav nevyřešení přenes do navazujícího pracovního okna. Neopakuj bezúčelně stejné pokusy; řiď se zaznamenaným výsledkem a aktualizuj jej pouze při nové kontrole.
+
+Příklad: pokud `ruian_postcodes.json` nelze načíst a CSV neobsahuje `validity_dates`, ověř dostupné územní údaje na oficiálním RÚIAN/ČÚZK a samostatně ověř příslušné PSČ/typ v odpovídajících číselnících ČSÚ. Nezaměňuj potvrzení PSČ v jednom číselníku za potvrzení jeho typu v jiném číselníku. Neověřené pole ponech nevyplněné nebo ve stavu určeném schématem; nikdy nevyráběj náhradní hodnotu.
