@@ -96,6 +96,27 @@ Při rozporu mezi zdroji zachovej faktum a jeho doložený obsah, ale nepředst�
 Budoucí Europe Explorer má umožnit uživateli nahlásit chybu nebo problém. Hlášení je podnět ke kontrole, nikoli automaticky potvrzená oprava.
 
 Eviduj dostupný zdroj a datum ověření podle možností současné struktury. Nezaváděj složitou povinnou provenienci tam, kde potřebné údaje nejsou dostupné.
+## 3.4 Produkční ukládání českých PSČ do Supabase
+
+Tato část se vztahuje výhradně na česká data projektu TRAVEL. Při tvorbě, reworku, auditu nebo ukládání českého PSČ pracuj pouze s českým záznamem; německé záznamy ani německý dataset nejsou součástí tohoto workflow.
+
+**Produkční data českých PSČ se ukládají do předpřipravených záznamů v Supabase, nikoli jako samostatné JSON soubory v repozitáři.**
+
+- Produkční tabulka: `public.postal_codes`.
+- Český záznam musí mít `country_code = 'CZ'`.
+- Samotný JSON záznam se ukládá do existujícího JSONB sloupce `content`.
+- Záznam vyhledej podle přesného PSČ a aktualizuj odpovídající předpřipravený český řádek.
+- Zachovej existující identifikaci záznamu a všechna metadata, která nejsou výslovně předmětem změny.
+- Nevytvářej duplicitní řádky ani nové databázové tabulky. Nový řádek zakládej pouze tehdy, pokud to zadání výslovně požaduje a příslušný produkční postup to dovoluje.
+- Před zápisem ověř, že cílový řádek skutečně odpovídá požadovanému PSČ a má `country_code = 'CZ'`. Pokud český cílový záznam chybí nebo je nejednoznačný, zápis zastav a problém oznam.
+- Nikdy při českém workflow neupravuj řádky s `country_code = 'DE'`, nepřeváděj mezi zeměmi `country_code` a neměň strukturu databáze, RLS ani aplikační kód.
+- Zápis musí zachovat strukturu definovanou v `data/czechia/schema.json`. Před uložením validuj celý výsledný JSON.
+- Po uložení znovu načti cílový řádek a ověř, že se obsah uložil do správného českého záznamu.
+
+Repozitář obsahuje pravidla, schéma a společné referenční soubory. Není náhradním úložištěm produkčních JSON záznamů. Při běžné tvorbě a reworku je zdrojem i cílem produkčních záznamů Supabase.
+
+---
+
 ## 4. Povinná rešerše před psaním
 
 Před vytvořením nebo přepracováním faktů MUSÍ proběhnout strukturovaná rešerše významu konkrétního PSČ.
