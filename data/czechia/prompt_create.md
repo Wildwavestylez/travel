@@ -21,6 +21,25 @@ Do not download or reprocess the nationwide RÚIAN archive when the current comm
 
 If a reference file is missing, unreadable or clearly stale, report that limitation and use the official source workflow described in the Content Standard. If a postcode is absent from the inventory, do not silently invent a match or conclude solely from absence that it is invalid; investigate it against ČSÚ and current official data. Never edit the shared reference files during ordinary postcode production.
 
+## Production storage — mandatory
+
+This workflow is for Czech records only. Work exclusively with Czech postcode records; German records and the German dataset are out of scope.
+
+**Save each completed Czech JSON into its already prepared Supabase record. Do not treat a local or GitHub JSON file as the production record.**
+
+- Production table: `public.postal_codes`.
+- Czech country discriminator: `country_code = 'CZ'`.
+- JSON record payload: existing JSONB column `content`.
+- Find the pre-created row by the exact five-digit postcode and confirm that its `country_code` is `CZ` before writing.
+- Update the existing prepared row; preserve its row identity and unrelated metadata.
+- Do not create duplicate rows or new tables. Create a row only if the user explicitly requests it and the approved workflow permits it.
+- If the target row is missing, ambiguous, or does not have `country_code = 'CZ'`, stop and report the issue instead of guessing.
+- Never alter rows where `country_code = 'DE'` and never change a row's country identifier.
+- Validate the complete JSON against `data/czechia/schema.json` before saving.
+- After saving, read the same row back and verify the postcode, `country_code`, and stored `content`.
+
+The repository holds the Czech rules, schema and shared reference inventory. Supabase is the production storage for prepared Czech postcode JSON records.
+
 ## Workflow
 **select real Czech PSČ → verify → research → Local Significance Check → identify defining stories → geographic audit → select facts → find sources → build JSON → translate → validate → save → continue**
 
