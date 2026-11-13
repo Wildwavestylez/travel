@@ -55,6 +55,21 @@ Projekt rozlišuje dvě různé otázky a nepoužívá pro ně jednu univerzáln
 
 Pro projektovou geografickou sekvenci slouží inventář adresních míst RÚIAN jako základní referenční seznam geografických PSČ. ČSÚ zůstává zdrojem pro ověření oficiální evidence a typu kódu. Tyto role se doplňují, nikoli nahrazují.
 
+### 3.0.1 Společný referenční inventář RÚIAN pro všechna pracovní okna
+
+Projekt udržuje jeden centrální, verzovaný inventář celostátních geografických PSČ odvozený z oficiálních dat adresních míst RÚIAN. Je uložen přímo v repozitáři a je společným výchozím zdrojem pro tvorbu i rework všech českých PSČ:
+
+- `data/czechia/reference/ruian_postcodes.json` — hlavní strojově čitelný inventář; vyhledávej přesnou pětimístnou hodnotu `postcode`.
+- `data/czechia/reference/ruian_postcodes.csv` — tabulková, člověkem čitelná kopie téhož přehledu.
+- `data/czechia/reference/ruian_import_manifest.json` — metadata zdrojového feedu, stažení, zpracování a počtu záznamů.
+- `data/czechia/reference/README.md` — stručný návod k použití a omezením inventáře.
+
+Před tvorbou nebo reworkem načti README a aktuální JSON z větve `main`. Pro konkrétní PSČ použij zejména `address_points`, `municipalities`, `municipality_parts`, `city_districts`, `prague_districts` a `validity_dates`. Manifest použij k posouzení stáří a původu dat. Všechna pracovní okna musí vycházet ze stejného committed inventáře; nevytvářej paralelní lokální seznamy ani znovu nestahuj celostátní archiv, pokud jsou aktuální referenční soubory dostupné.
+
+Inventář je agregací výskytu PSČ na adresních místech v konkrétním zpracovaném RÚIAN feedu. Není náhradou číselníků ČSÚ 0028/0029 pro oficiální evidenci a typ PSČ, není důkazem PO-box-only statusu a nepotvrzuje polohu konkrétní turistické zajímavosti. Nepřítomnost PSČ v inventáři sama o sobě nedokazuje jeho neplatnost; případ musí být prověřen proti ČSÚ a případně aktuálním oficiálním datům. Geografickou vazbu každého faktu ověřuj samostatně podle oddílu 3.3.
+
+Pokud některý referenční soubor chybí, nelze jej načíst nebo je podle manifestu zjevně zastaralý, uveď tuto skutečnost a použij oficiální náhradní postup. Běžná tvorba ani rework nesmí měnit centrální referenční soubory. Jejich aktualizaci provádí pouze samostatný řízený RÚIAN workflow.
+
 Česká pošta a její vyhledávače mohou sloužit jako doplňkový kontrolní zdroj poštovních údajů. Provozní doručovací pošta, spádovost nebo doručovací trasa sama o sobě nemění geografické přiřazení adresního místa v RÚIAN.
 
 ### 3.1 Výchozí pravidlo pro existující databázi
@@ -599,9 +614,10 @@ Dvě fakta o jednom objektu mohou existovat pouze tehdy, pokud popisují skuteč
 Každý nový nebo přepracovaný záznam musí projít kontrolou všech následujících oblastí.
 
 ### 23.1 PSČ a územní správnost
-- Odpovídá PSČ aktuálnímu rozhodujícímu číselníku ČSÚ?
-- Je zaznamenán použitý zdroj a jeho vydání nebo datum?
-- Odpovídá přiřazení obce, části obce, městské části, okresu a kraje oficiálním údajům?
+- Odpovídá PSČ aktuálnímu rozhodujícímu číselníku ČSÚ 0028 a jeho typu podle číselníku 0029?
+- Byla před kontrolou načtena společná referenční data z `data/czechia/reference/` a ověřeno přesné PSČ v RÚIAN inventáři?
+- Je zaznamenán skutečně použitý zdroj, dataset/release a datum ověření podle dostupných polí schématu?
+- Odpovídá přiřazení obce, části obce, městské části, okresu a kraje oficiálním údajům RÚIAN/ČSÚ podle povahy údaje?
 - Jsou případné rozpory se sekundárními zdroji zaznamenány a vyhodnoceny?
 - Nezaměňuje se doručovací pošta s geografickou identitou PSČ?
 
