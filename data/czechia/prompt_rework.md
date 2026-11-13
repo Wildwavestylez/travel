@@ -10,7 +10,15 @@ Use only:
 **Czechia is isolated from Germany. Never use German records as content sources or merge their data into Czech records.**
 
 ## Mandatory postcode authority
-For every reworked record, apply the official postcode authority rule in `data/czechia/CONTENT_STANDARD.md`. ČSÚ remains the controlling primary source for postcode selection and geographic assignment. Recheck against the current ČSÚ postcode code list (code list 0028) and current RSO address-level data as applicable, and record the exact dataset/release and retrieval date. Never change a postcode merely because a search result, map, directory or changed delivery office displays a different code. Record discrepancies separately; only use a documented exception if the ČSÚ record itself is shown to be wrong or superseded.
+For every reworked record, apply the authority hierarchy in `data/czechia/CONTENT_STANDARD.md`. ČSÚ is authoritative for official postcode registration and type (code lists 0028/0029); the shared RÚIAN inventory is the default nationwide reference for geographic postcode-to-address-point assignment; administrative fields must be checked against the appropriate official ČSÚ/RÚIAN data. Do not describe ČSÚ as the geographic address-point authority. Never change a postcode merely because a search result, map, directory or changed delivery office displays a different code. Record discrepancies separately and correct only after source-specific verification.
+
+## Shared RÚIAN reference inventory (mandatory)
+
+Before reworking a postcode, read `data/czechia/reference/README.md` and load `data/czechia/reference/ruian_postcodes.json` from the repository's current `main` branch. Find the exact five-digit postcode and use its `address_points`, `municipalities`, `municipality_parts`, `city_districts`, `prague_districts` and `validity_dates` as the common nationwide geographic reference. Use `ruian_import_manifest.json` to identify the source feed and data refresh timestamp. The CSV is a human-readable alternative, not a separate authority.
+
+Do not redownload or reprocess the nationwide RÚIAN archive when the committed reference files are available. Reuse the shared inventory across all records and work windows. It does not establish official ČSÚ registration/type, PO-box-only status, or the location of an individual attraction. Check ČSÚ code lists 0028/0029 for official registration and type, and verify each fact's own location independently.
+
+If the files are unavailable, unreadable or stale, state that explicitly and follow the official fallback process in the Content Standard. Absence from the inventory is a discrepancy to investigate, not automatic proof that a postcode is invalid. Never modify the shared inventory during ordinary rework.
 
 ## Workflow
 **READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → GEOGRAPHIC CHECK → AUDIT → REMOVE/KEEP/ADD → TRANSLATE → VALIDATE → SAVE → NEXT**
