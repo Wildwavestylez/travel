@@ -98,3 +98,9 @@ Validate postcode, administrative data, coordinates, facts, sources, schema, fac
 
 ## Autonomous production
 Do not stop after each postcode to ask whether to continue. If one postcode fails, record the reason, leave it incomplete and continue when safe.
+
+
+## Official-source fallback (mandatory)
+If a local reference file is unavailable, empty or incomplete, do not stop creation or invent missing values. Try the available alternate format/official raw endpoint; if the field remains unavailable, verify it directly on the official website of the authority responsible for it: ČSÚ for statistical postcode registers and classifications, RÚIAN/ČÚZK for territorial and address geography, and Česká pošta for postal-service information within its remit.
+
+Keep distinct registers and meanings separate: postcode existence/territorial designation, postcode type, RÚIAN address geography and delivery-post-office records do not prove one another. Record the exact official URL and check date for each externally verified value. Use fallback files only for fields they actually contain. Never guess missing `validity_dates` or infer missing values from neighboring postcodes. If no official source confirms a field, leave it unverified/unset as allowed by the schema, explain the blocker and continue other safe work. Carry unresolved blockers into the next work window to avoid repeating the same failed attempts.
