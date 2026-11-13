@@ -20,6 +20,26 @@ Do not redownload or reprocess the nationwide RÚIAN archive when the committed 
 
 If the files are unavailable, unreadable or stale, state that explicitly and follow the official fallback process in the Content Standard. Absence from the inventory is a discrepancy to investigate, not automatic proof that a postcode is invalid. Never modify the shared inventory during ordinary rework.
 
+## Production storage — mandatory
+
+This workflow is for Czech records only. Work exclusively with the intended Czech postcode record; German records and the German dataset are out of scope.
+
+**Save the completed Czech JSON into the already prepared Supabase record. Do not save it as a standalone production JSON file in the GitHub repository.**
+
+- Production table: `public.postal_codes`.
+- Czech country discriminator: `country_code = 'CZ'`.
+- JSON record payload: existing JSONB column `content`.
+- Find the pre-created row by the exact five-digit postcode and confirm that its `country_code` is `CZ` before writing.
+- Update that existing prepared row; preserve its row identity and unrelated metadata.
+- Do not create duplicate rows or new tables. Create a row only if the user explicitly requests it and the approved workflow permits it.
+- If the target row is missing, ambiguous, or does not have `country_code = 'CZ'`, stop and report the issue instead of guessing.
+- Never read-modify-write or otherwise alter rows where `country_code = 'DE'`. Never change a row's country identifier.
+- Do not change database structure, RLS, application code, or the Czech schema during ordinary rework.
+- Validate the complete JSON against `data/czechia/schema.json` before saving.
+- After saving, read the same row back and verify the postcode, `country_code`, and stored `content`.
+
+The repository holds the Czech rules, schema and shared reference inventory. Supabase is the production storage for prepared Czech postcode JSON records.
+
 ## Workflow
 **READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → GEOGRAPHIC CHECK → AUDIT → REMOVE/KEEP/ADD → TRANSLATE → VALIDATE → SAVE → NEXT**
 
