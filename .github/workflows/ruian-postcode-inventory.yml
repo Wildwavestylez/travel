@@ -10,7 +10,7 @@ on:
       - "scripts/ruian_postcode_inventory.py"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-inventory:
@@ -25,7 +25,24 @@ jobs:
           python-version: "3.12"
       - name: Download and process official ČÚZK RÚIAN CSV
         run: python scripts/ruian_postcode_inventory.py
-      - name: Upload inventory
+      - name: Publish permanent reference data
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data/czechia/reference
+          cp ruian-output/ruian_postcodes.json data/czechia/reference/ruian_postcodes.json
+          cp ruian-output/ruian_postcodes.csv data/czechia/reference/ruian_postcodes.csv
+          cp ruian-output/ruian_import_manifest.json data/czechia/reference/ruian_import_manifest.json
+          if git diff --quiet -- data/czechia/reference/; then
+            echo "RÚIAN reference data is unchanged; no commit is needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/czechia/reference/
+          git commit -m "data(czechia): refresh official RUIAN postcode reference"
+          git push
+      - name: Upload inventory artifact (secondary backup)
         uses: actions/upload-artifact@v4
         with:
           name: ruian-nationwide-postcode-inventory
