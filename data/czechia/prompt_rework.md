@@ -70,3 +70,14 @@ Modify only intended Czech records. Never delete unrelated records, alter German
 
 ## Completion
 A record is complete only after research, geographic audit, content audit, translation and schema validation all pass.
+
+
+## Official-source fallback (mandatory)
+A missing, empty, inaccessible or incomplete local reference file must not repeatedly block Czech rework. First try the local JSON/CSV/manifest and an alternative supported endpoint (including the official raw file endpoint where applicable). If the needed field is still unavailable, verify it directly online using the official authority responsible for that field:
+- ČSÚ for statistical postcode registers, code lists and classifications;
+- RÚIAN/ČÚZK for territorial, address-point and administrative geography;
+- Česká pošta official sources for postal-service information within its remit.
+
+Do not treat these sources or code lists as interchangeable. In particular, postcode existence/territorial designation, postcode type, RÚIAN address geography and delivery-post-office records are separate checks. Use each source only for claims it actually supports.
+
+For every externally verified value, record the exact official source URL and the date checked. Keep source validity/reference dates separate from the check date. A fallback CSV can support only fields it actually contains. Never infer missing `validity_dates`, a postcode type, or any other missing field from a neighboring postcode or unrelated list. If official online verification also fails, mark only that field as unverified/pending, state what is missing, leave it unset as permitted by the schema, and continue the remaining safe work. Carry the blocker and its last-known status into the next work window so the same failed attempts are not repeated without reason.
