@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "TRAVEL German postcode stop — Content Standard V3.1",
-  "description": "Content Standard V3.1 schema, including explicit fact-level map categories for consistent tourist map iconography and a dedicated personality pin.",
+  "description": "Content Standard V3.1 schema, including explicit fact-level map categories for consistent tourist map iconography, including cultural venues and a dedicated personality pin.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -254,6 +254,7 @@
           "type": "string",
           "enum": [
             "castle",
+            "cultural_site",
             "historical_monument",
             "nature",
             "viewpoint_landscape",
