@@ -612,7 +612,7 @@ Každý fakt musí mít `location` podle aktuálního V3 schema. Pokud fakt skut
 - Reprezentativní bod označuje vazbu faktu k oblasti PSČ. Nesmí se tvrdit ani naznačovat, že se zvyk nebo osobní událost odehrály přímo na tomto bodě.
 - Tato pravidla platí pouze pro obsah konkrétního PSČ. Obsah okresu, země nebo širšího regionu bude mít samostatný záznam.
 
-Nejde o novou obsahovou kategorii ani změnu osmi hodnot `map_category`. Jde o správné geografické umístění faktu pro Europe Explorer podle Content Standard V3.
+Nejde o novou obsahovou kategorii. Aktuální `map_category` hodnoty jsou závazně definované v `schema.json` a `CONTENT_STANDARD.md`. Jde o správné geografické umístění faktu pro Europe Explorer podle Content Standard V3.
 
 # 19. FOTOGRAFIE
 
