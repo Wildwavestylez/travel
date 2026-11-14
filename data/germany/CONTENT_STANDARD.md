@@ -315,6 +315,7 @@ Use exactly one of these machine values:
 | map_category | Map icon | Meaning and assignment rule |
 |---|---|---|
 | `castle` | 🏰 | A specific castle, palace, fortress, manor house or comparable fortified/noble residence. |
+| `cultural_site` | 🎭 | A theatre, opera house, concert hall, cultural centre or other venue whose primary identity is hosting live performance or public cultural activity. Do not use for museums or buildings whose cultural use is incidental. |
 | `historical_monument` | 🏛️ | A secular historical monument, memorial, archaeological remnant or heritage site that is not primarily a castle, religious site, museum or technical site. |
 | `nature` | 🌲 | A natural feature, protected natural site, forest, geological formation, water feature, habitat or biodiversity location. |
 | `viewpoint_landscape` | 🏞️ | A viewpoint, scenic overlook, panorama, distinctive landscape area or route whose primary value is the view/landscape. |
@@ -347,7 +348,7 @@ The record is about the individual postal-code area. When a fact genuinely belon
 - A fallback pin means that the fact is associated with the postal-code area, not that the custom or person-related event occurred at the representative place itself. Do not imply otherwise in the fact text.
 - This fallback applies only to facts belonging to the current postcode. Facts about a wider county, Bundesland or region belong in a separately scoped record, not copied into an individual postcode without a genuine local connection.
 
-This is a map-display assignment for existing postcode-level content. It does not change the editorial meaning, selection or wording standards. The nine allowed `map_category` values are defined above. For person-centred facts, `personality` takes precedence over the category of the physical site used for the pin.
+This is a map-display assignment for existing postcode-level content. It does not change the editorial meaning, selection or wording standards. The ten allowed `map_category` values are defined above. For person-centred facts, `personality` takes precedence over the category of the physical site used for the pin.
 
 During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
 
