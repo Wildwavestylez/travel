@@ -47,11 +47,15 @@ Treat the existing record as working material, not as truth.
 
 ## Re-research
 For each Czech postcode:
-- verify PSČ, municipality, relevant part of municipality, okres and kraj;
+- identify the post office that serves the postcode and verify the municipality in which that post office physically stands;
+- set `city` to exactly that one post-office municipality; never list all municipalities, villages or settlements covered by the postal district in administrative fields;
+- set `county` and `state` from the official administrative affiliation of that post-office municipality, not from the location of another settlement in the postal district;
+- set `district` only to a documented local part/quarter within the post-office municipality when relevant; otherwise use `null`;
+- keep the research and fact scope across the entire geographic area served by the postcode, including all municipalities, villages and settlements in that postal district; this administrative naming rule does not narrow the content scope;
 - verify representative and access coordinates;
-- research defining historical, cultural, industrial, natural and local stories;
+- research defining historical, cultural, industrial, natural and local stories across the full postcode/postal-district area;
 - check important people, companies, products, transport, military history, archaeology and hidden gems where relevant;
-- check meaningful surroundings.
+- check meaningful surroundings without duplicating facts assigned to another postcode.
 
 ## Geographic truth
 A city-wide or regional association is insufficient. Every important fact must have a concrete connection to the specific postcode area. Remove facts that only belong to another part of the municipality.
