@@ -143,6 +143,8 @@ For these area-level fallbacks, use the exact representative-point coordinates, 
 
 **Map category is independent of pin location.** A fact whose primary subject is a specific person must use `map_category: "personality"`, even if its pin is a building, workplace, museum, memorial, or representative point. A person mentioned only incidentally in a fact about another subject does not trigger this category. Use the other map categories according to the actual primary subject of each fact.
 
+For a fact whose primary subject is a theatre, opera house, concert hall, cultural centre, or another venue primarily hosting live performance or public cultural activity, use `map_category: "cultural_site"`. Do not use it for museums (use `museum`) or for buildings whose cultural use is incidental. The complete allowed values and assignment rules are defined by `schema.json` and `CONTENT_STANDARD.md`; never invent additional values.
+
 The location source and the fact's content sources serve different purposes. A location source must support the geographic position. The fact's `sources` must support the factual claim and its local significance. The same URL may serve both purposes only when it genuinely supports both.
 
 Do not duplicate fact-location objects in the six translation arrays. Store each location once alongside its source-language fact. Do not claim that a point or geographic check is verified unless it has actually been checked. Set verification flags honestly.
