@@ -27,28 +27,28 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "Název obce (města i menší obce) podle oficiálního územního členění ČSÚ."
+      "description": "Jediná obec, ve které fyzicky sídlí příslušná pošta obsluhující dané PSČ. Neuváděj seznam obcí ani sídel z poštovního obvodu."
     },
     "district": {
       "type": [
         "string",
         "null"
       ],
-      "description": "Konkrétní část obce, městská část, městský obvod, čtvrť nebo pojmenovaná sídelní lokalita uvnitř obce. Pokud není přesnější lokalita určena, použij null."
+      "description": "Konkrétní část obce, městská část, městský obvod nebo čtvrť uvnitř obce, ve které sídlí příslušná pošta, pokud je relevantní a doložená. Neuváděj sem jiné obce, vesnice ani osady z poštovního obvodu. Pokud není relevantní přesnější lokalita, použij null."
     },
     "county": {
       "type": [
         "string",
         "null"
       ],
-      "description": "Okres podle oficiálního územního členění ČSÚ."
+      "description": "Okres, do kterého administrativně spadá obec, ve které fyzicky sídlí příslušná pošta obsluhující dané PSČ."
     },
     "state": {
       "type": [
         "string",
         "null"
       ],
-      "description": "Kraj podle oficiálního územního členění ČSÚ."
+      "description": "Kraj, do kterého administrativně spadá obec, ve které fyzicky sídlí příslušná pošta obsluhující dané PSČ."
     },
     "representative_place": {
       "type": "string",
@@ -232,7 +232,7 @@
         "locality",
         null
       ],
-      "description": "Nepovinné upřesnění druhu district: municipal_part = oficiální část obce; municipal_district = městská část/obvod; city_quarter = městská čtvrť či lokalita; settlement = sídlo/osada; locality = jiná místní lokalita."
+      "description": "Nepovinné upřesnění druhu district v obci sídla pošty: municipal_part = oficiální část obce; municipal_district = městská část/obvod; city_quarter = městská čtvrť či lokalita; settlement = sídlo/osada uvnitř obce sídla pošty; locality = jiná místní lokalita."
     }
   },
   "$defs": {
