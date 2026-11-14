@@ -4,10 +4,10 @@
   "district": "Innenstadt",
   "county": "Frankfurt am Main",
   "state": "Hessen",
-  "representative_place": "FOUR Frankfurt",
+  "representative_place": "FOUR Tower 1",
   "representative_point": {
-    "lat": 50.11194,
-    "lon": 8.67361
+    "lat": 50.112145,
+    "lon": 8.673569
   },
   "access_point": {
     "lat": 50.11235,
@@ -17,12 +17,12 @@
     {
       "id": "fact_001",
       "title": "FOUR Frankfurt – vier Hochhäuser als vertikales Stadtquartier",
-      "text": "Komplex tvoří čtyři věže vysoké 100 až 233 metrů. Jsou v nich kanceláře, byty, hotely a městské služby nad společným vícepodlažním podem. Nejvyšší věž T1 dosahuje 233 metrů; projekt uvádí u T2, T3 a T4 výšky 173, 120 a 100 metrů. FOUR proto není jen kancelářský komplex, ale výšková městská čtvrť propojující bydlení, práci, ubytování a veřejně přístupné prostory.",
+      "text": "Komplex tvoří čtyři věže vysoké 100 až 233 metrů. Jsou v nich kanceláře, byty, hotely a městské služby nad společným vícepodlažním podiem. Nejvyšší věž T1 dosahuje 233 metrů; projekt uvádí u T2, T3 a T4 výšky 173, 120 a 100 metrů. FOUR proto není jen kancelářský komplex, ale výšková městská čtvrť propojující bydlení, práci, ubytování a veřejně přístupné prostory.",
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_001",
-        "src_002"
+        "https://www.4frankfurt.de/en/about-four/",
+        "https://www.hpp.com/en/projects/four-frankfurt/"
       ],
       "location": {
         "name": "FOUR Tower 1",
@@ -41,9 +41,9 @@
       "category": "history",
       "priority": "B",
       "sources": [
-        "src_001",
-        "src_002",
-        "src_003"
+        "https://www.4frankfurt.de/en/about-four/",
+        "https://www.hpp.com/en/projects/four-frankfurt/",
+        "https://www.stadtplanungsamt-frankfurt.de/banking_district_four_high_rise_project_17849.html"
       ],
       "location": {
         "name": "FOUR Frankfurt – bývalý areál Deutsche Bank",
@@ -62,8 +62,8 @@
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_001",
-        "src_002"
+        "https://www.4frankfurt.de/en/about-four/",
+        "https://www.hpp.com/en/projects/four-frankfurt/"
       ],
       "location": {
         "name": "FOUR Frankfurt – společné podium",
@@ -82,7 +82,7 @@
       "category": "architecture_and_urbanism",
       "priority": "C",
       "sources": [
-        "src_001"
+        "https://www.4frankfurt.de/en/about-four/"
       ],
       "location": {
         "name": "FOUR Tower 1",
@@ -98,10 +98,10 @@
       "id": "fact_005",
       "title": "Pilotní projekt pro udržitelnou výstavbu výškových čtvrtí",
       "text": "FOUR patří k prvním projektům, které zkoušejí hodnotit výškové budovy jako propojené městské prostředí, nikoli jen jako jednotlivé stavby. HPP uvádí, že projekt získal první německý certifikát DGNB pro dekonstrukci; při demolici předchozích budov se materiály třídily, odstraňovaly se škodliviny a části památkově chráněných fasád byly demontovány pro možné opětovné použití. Koncept doplňují geotermální energie, digitální monitoring a více než 2 300 míst pro jízdní kola.",
-      "category": "culture_and_industry",
+      "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_002"
+        "https://www.hpp.com/en/projects/four-frankfurt/"
       ],
       "location": {
         "name": "FOUR Frankfurt – areál a společné podium",
@@ -122,39 +122,34 @@
   },
   "sources": [
     {
-      "id": "src_001",
-      "title": "FOUR Frankfurt – About FOUR (oficiální stránky projektu)",
+      "title": "FOUR Frankfurt – About FOUR (official project website)",
       "url": "https://www.4frankfurt.de/en/about-four/",
       "type": "official"
     },
     {
-      "id": "src_002",
       "title": "HPP Architekten – FOUR Frankfurt",
       "url": "https://www.hpp.com/en/projects/four-frankfurt/",
       "type": "official"
     },
     {
-      "id": "src_003",
       "title": "Stadtplanungsamt Frankfurt – Bankenviertel / Hochhausprojekt FOUR",
       "url": "https://www.stadtplanungsamt-frankfurt.de/banking_district_four_high_rise_project_17849.html",
       "type": "official"
     },
     {
-      "id": "src_004",
       "title": "Stadt Frankfurt am Main – Straßenverzeichnis 2026",
       "url": "https://statistikportal.frankfurt.de/download/Strassenverzeichnis/Strassenverzeichnis_2026.pdf",
       "type": "official"
     },
     {
-      "id": "src_005",
-      "title": "Scraperbase – Four Frankfurt Tower 1 (souřadnice)",
+      "title": "Scraperbase – Four Frankfurt Tower 1 (coordinates)",
       "url": "https://www.scraperbase.com/Germany/Frankfurt/Four_Frankfurt_Tower_1",
       "type": "specialist"
     }
   ],
   "translations": {
     "de": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "FOUR Tower 1",
       "facts": [
         {
           "id": "fact_001",
@@ -184,7 +179,7 @@
       ]
     },
     "cs": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "FOUR Tower 1",
       "facts": [
         {
           "id": "fact_001",
@@ -214,7 +209,7 @@
       ]
     },
     "en": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "FOUR Tower 1",
       "facts": [
         {
           "id": "fact_001",
@@ -244,7 +239,7 @@
       ]
     },
     "es": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "Torre 1 de FOUR",
       "facts": [
         {
           "id": "fact_001",
@@ -274,7 +269,7 @@
       ]
     },
     "fr": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "Tour 1 de FOUR",
       "facts": [
         {
           "id": "fact_001",
@@ -304,7 +299,7 @@
       ]
     },
     "it": {
-      "representative_place": "FOUR Frankfurt",
+      "representative_place": "Torre 1 di FOUR",
       "facts": [
         {
           "id": "fact_001",
