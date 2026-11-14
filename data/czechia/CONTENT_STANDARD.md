@@ -215,20 +215,25 @@ Závazná pravidla:
 - Rešerše může zkoumat širší okolí. Širší rešeršní oblast však nerozšiřuje geografický rozsah výsledných faktů.
 - Pokud geografickou vazbu nelze spolehlivě ověřit, zajímavost zachovej. Nehádej PSČ ani nepřesouvej souřadnice na vhodnější místo. Pokud nelze doložit ani obhajitelnou přibližnou polohu, ponech pole location jako null; případ se vyřeší samostatně při finálním geografickém auditu. Nepřidávej kvůli tomu do JSON nový stav, příznak ani povinné pole.
 
-### 6.1 Česká územní realita a pole v JSON
+### 6.1 Česká územní realita a pole v JSON — obec sídla pošty
 
-- `city` = obec (město i menší obec), například Čkyně nebo Zálezly;
-- `district` = konkrétní část obce, městská část, městský obvod, čtvrť nebo pojmenovaná sídelní lokalita, například Dejvice, Záhoříčko, Kovanín nebo Setěchovice;
-- `district_type` = nepovinné upřesnění druhu lokality v poli `district`;
-- `county` = okres;
-- `state` = kraj.
+**Pro administrativní identifikaci každého PSČ se vždy používá jediná obec: obec, ve které fyzicky sídlí příslušná pošta obsluhující dané PSČ.** Neuváděj v administrativních polích seznam všech obcí, částí obcí, vesnic ani osad, které PSČ nebo doručovací obvod pokrývá.
+
+- `city` = oficiální název jediné obce, ve které fyzicky sídlí příslušná pošta pro dané PSČ. Rozhodující je skutečné umístění pošty, nikoli název PSČ, největší obec v obvodu ani seznam obcí obsluhovaných poštou.
+- `county` = okres, do kterého administrativně spadá obec sídla této pošty.
+- `state` = kraj, do kterého administrativně spadá obec sídla této pošty.
+- `district` = konkrétní část obce, městská část, městský obvod nebo čtvrť uvnitř obce, ve které pošta sídlí, pokud je pro identifikaci sídla pošty relevantní a doložená; jinak `null`. Neuváděj sem ostatní obce, vesnice ani osady z poštovního obvodu.
+- `district_type` = nepovinné upřesnění druhu lokality uvedené v poli `district`.
+
+Obec, okres a kraj se ověřují podle oficiálního územního členění a skutečné adresy pošty. RÚIAN slouží k ověření adresního místa a jeho územní příslušnosti; ČSÚ k ověření příslušného administrativního členění. Česká pošta nebo jiný oficiální zdroj se použije k ověření, která pošta dané PSČ obsluhuje a kde se její provozovna fyzicky nachází.
+
+**Rozsah zajímavostí se tímto pravidlem nemění.** Fakta se nadále vyhledávají a vybírají na celém geografickém území daného PSČ / poštovního obvodu, včetně všech obcí, částí obcí, vesnic a osad, které do něj spadají. Tato sídla se však nevypisují do polí `city`, `county` ani `district`; jejich konkrétní místa mohou být uvedena v jednotlivých faktech a jejich `location`.
 
 Příklady:
-- Praha — Dejvice: `city = Praha`, `district = Dejvice`, `district_type = city_quarter`, pokud jde o čtvrť/lokalitu v daném kontextu.
-- Čkyně — Záhoříčko: `city = Čkyně`, `district = Záhoříčko`, `district_type = municipal_part`, pokud je tak vedeno v oficiální evidenci.
-- Zálezly — Kovanín nebo Setěchovice: `city = Zálezly`, `district` podle konkrétní lokality a `district_type = municipal_part`, pokud to potvrzuje oficiální evidence.
+- Pokud pošta obsluhující PSČ sídlí v obci A, zatímco obvod zahrnuje také obce B a C, bude `city = A`; okres a kraj se určí podle obce A. Obce B a C zůstávají součástí geografického rozsahu rešerše a faktů.
+- Pokud pošta sídlí v konkrétní městské části obce, `city` zůstává oficiální název obce a příslušná městská část může být uvedena v `district`, pokud je to doložené.
 
-Typ vybírej podle skutečného postavení. Nezaměňuj část obce, městskou část, městský obvod, čtvrť, sídelní lokalitu a katastrální území. Katastrální území není automaticky hodnotou `district`. Okres a kraj zůstávají samostatné úrovně. PSČ není administrativní jednotka.
+PSČ samo o sobě není administrativní jednotka. Nikdy nezaměňuj obec sídla pošty s celým územím jejího poštovního obvodu.
 
 ## 7. Jedno reprezentativní místo pro každé PSČ
 
