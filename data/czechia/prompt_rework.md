@@ -85,3 +85,22 @@ A missing, empty, inaccessible or incomplete local reference file must not repea
 Do not treat these sources or code lists as interchangeable. In particular, postcode existence/territorial designation, postcode type, RÚIAN address geography and delivery-post-office records are separate checks. Use each source only for claims it actually supports.
 
 For every externally verified value, record the exact official source URL and the date checked. Keep source validity/reference dates separate from the check date. A fallback CSV can support only fields it actually contains. Never infer missing `validity_dates`, a postcode type, or any other missing field from a neighboring postcode or unrelated list. If official online verification also fails, mark only that field as unverified/pending, state what is missing, leave it unset as permitted by the schema, and continue the remaining safe work. Carry the blocker and its last-known status into the next work window so the same failed attempts are not repeated without reason.
+---
+## Povinný dodatek — rozšířená turistická rešerše a dvoufázový postup
+
+Tento dodatek používej společně s úplným aktuálním českým Content Standardem. Doplňuje stávající workflow; nenahrazuje pravidla schématu, územní správnosti, redakčního výběru, zdrojů, ukládání, zachování dat ani překladů.
+
+U každého PSČ při běžném obsahovém reworku:
+
+1. Zachovej stávající geografický postup. Ověř území PSČ a primární polohu kandidátů podle českého Content Standardu. Širší oblast slouží k objevování a kontextu, nikoli k přiřazování atrakce z jiného PSČ.
+2. **Fáze 1 — široké objevování:** hledej podle PSČ, obcí, částí obcí a místních či historických názvů v oficiálních turistických portálech, památkových registrech, muzeích, obecních a regionálních zdrojích, institucích ochrany přírody, odborných institucích a vlastivědných zdrojích. Neomezuj se na starý záznam ani první obecné výsledky.
+3. **Fáze 2 — tematický audit:** použij kapitolu 28.2 českého Content Standardu jako kontrolní seznam. Cíleně prověř všechny relevantní skupiny, zejména muzea a specializované sbírky, architekturu, sakrální dědictví, pomníky, archeologii, chráněnou přírodu, geologii, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické a dopravní dědictví, paměťová místa, turistické atrakce, UNESCO, místní příběhy a pověsti, historické události, osobnosti, film/literaturu/hudbu, tradice, řemesla a gastronomické dědictví.
+4. Dodrž vyloučení v kapitole 28.3: běžné hřbitovy, hroby a současné firmy nejsou běžnými turistickými fakty; platí pouze úzce vymezené výjimky pro doloženou mimořádnou památkovou či návštěvnickou hodnotu.
+5. Ověř identitu, význam, fakta, přesnou primární polohu, příslušnost k PSČ, zdrojovou oporu a duplicity každého vybraného kandidáta. Příslušnost k PSČ neodvozuj pouze z města, okresu ani blízkosti.
+6. V pracovních poznámkách eviduj u každé skupiny stav: nalezeno a ověřeno; prověřeno bez relevantního výsledku; nebo nevyřešeno. Tyto stavy nevkládej do JSON. Relevantní nevyřešená skupina nebo podstatná nejasnost polohy brání dokončení.
+7. Teprve potom vybírej a piš fakta podle stávajících pravidel významu, priority, absence kvót, zdrojů, mapových kategorií, polohy, překladů a validace. Turistická témata nemají automatickou prioritu.
+
+Dvoufázová metoda je povinná při běžném obsahovém reworku. Neopravňuje k úpravám chráněných záznamů během čistě geografického obohacování; stávající pravidla zachování obsahu zůstávají závazná. Pokud je úkol výslovně omezen na geografické obohacení, neprováděj redakční rešerši a neměň chráněné texty.
+
+Tento dodatek mění pouze stručný pokyn k jednorázové rešerši tím, že zavádí dvě povinné fáze. Všechna ostatní stávající pravidla zůstávají v platnosti.
+
