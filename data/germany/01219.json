@@ -1,74 +1,903 @@
 {
   "postcode": "01219",
   "city": "Dresden",
-  "district": "Seevorstadt-Ost / Großer Garten",
-  "county": "Dresden",
+  "district": "Seevorstadt-Ost / Gruna / Leubnitz-Neuostra / Strehlen / Südvorstadt-Ost / Räcknitz/Zschertnitz",
+  "county": "Kreisfreie Stadt Dresden",
   "state": "Sachsen",
-  "representative_place": "Dresden-Zoo v Großer Garten",
+  "representative_place": "Palais im Großen Garten",
   "representative_point": {
-    "lat": 51.03786,
-    "lon": 13.76284
+    "lat": 51.0378,
+    "lon": 13.7628
   },
   "access_point": {
-    "lat": 51.03786,
-    "lon": 13.76284
+    "lat": 51.0279367,
+    "lon": 13.7596309
   },
   "facts": [
-    "Dresden-Zoo byl otevřen roku 1861 a patří mezi nejstarší zoologické zahrady v Německu; leží přímo v areálu Großer Garten.",
-    "Großer Garten vznikal od 17. století jako reprezentativní dvorský park; dnešní areál má přibližně 147 hektarů a spojuje barokní osu kolem Palais s krajinářskými částmi.",
-    "Zoo nebylo od začátku jen malou městskou atrakcí: jeho rozšíření ovlivnilo také podobu okolních parkových ploch a vedlo k vytvoření většího městského rekreačního prostoru.",
-    "V této části města se tak na jednom místě potkává barokní dvorská krajina, městský park 19. století a moderní zoologická zahrada."
+    {
+      "id": "fact_001",
+      "title": "Palais im Großen Garten – früher bedeutender Barockbau Sachsens",
+      "text": "Der Bau des Palais begann 1678 nach Plänen von Johann Georg Starcke für den späteren Kurfürsten Johann Georg III.; 1683 war der Rohbau vollendet. Das Palais zählt zu den frühen bedeutenden barocken Profanbauten Sachsens und prägt als architektonischer Mittelpunkt den Großen Garten. Nach schweren Kriegsschäden von 1945 wurde es gesichert und schrittweise wiederhergestellt.",
+      "category": "heritage_and_monuments",
+      "map_category": "castle",
+      "priority": "A",
+      "location": {
+        "name": "Palais im Großen Garten",
+        "address": "Hauptallee, 01219 Dresden, Germany",
+        "lat": 51.03785,
+        "lon": 13.76286,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.openstreetmap.org/way/20675812"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214121",
+        "https://www.openstreetmap.org/way/20675812",
+        "https://commons.wikimedia.org/wiki/Category%3APalais_im_Gro%C3%9Fen_Garten"
+      ]
+    },
+    {
+      "id": "fact_002",
+      "title": "Zoo Dresden – viertältester Zoo Deutschlands",
+      "text": "Der Zoo Dresden wurde am 9. Mai 1861 eröffnet und gilt als viertältester Zoo Deutschlands. Das 12,8 Hektar große Gelände wurde unter Mitwirkung Peter Joseph Lennés gestaltet; das 1862 errichtete Ziegenhaus ist das älteste erhaltene Zoogebäude. Nach den Zerstörungen von 1945 öffnete der Zoo 1946 wieder; seine eigene Geschichtsaufarbeitung benennt auch die rassistischen „Völkerschauen“ der Jahre 1878 bis 1934.",
+      "category": "tourism_and_surroundings",
+      "map_category": "visitor_attraction",
+      "priority": "A",
+      "location": {
+        "name": "Zoo Dresden",
+        "address": "Tiergartenstraße 1, 01219 Dresden, Germany",
+        "lat": 51.037,
+        "lon": 13.75491,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/de/W371178363"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://www.zoo-dresden.de/unser-zoo/ueber-uns/",
+        "https://mapcarta.com/de/W371178363"
+      ]
+    },
+    {
+      "id": "fact_003",
+      "title": "Heckentheater im Großen Garten – barockes Gartentheater von 1719",
+      "text": "Das barocke Heckentheater entstand 1719 für die Hochzeitsfeierlichkeiten des Kurprinzen Friedrich August und Maria Josepha. Die Bühne war von geschnittenen Hecken eingefasst und mit 14 Putten geschmückt; im Siebenjährigen Krieg wurde die Anlage zerstört, erhalten blieben die steinernen Sockel der Figuren. Der Ort ist eine seltene Spur höfischer Festkultur im Großen Garten.",
+      "category": "heritage_and_monuments",
+      "map_category": "historical_monument",
+      "priority": "B",
+      "location": {
+        "name": "Heckentheater im Großen Garten",
+        "address": "Hauptallee, 01219 Dresden, Germany",
+        "lat": 51.036379,
+        "lon": 13.763791,
+        "type": "historic_site",
+        "accuracy": "exact",
+        "source": "https://commons.wikimedia.org/wiki/File%3ADresden-Parktheater.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214116",
+        "https://commons.wikimedia.org/wiki/File%3ADresden-Parktheater.jpg"
+      ]
+    },
+    {
+      "id": "fact_004",
+      "title": "Steinkreuz im Großen Garten – spätmittelalterliches Mord- und Sühnekreuz",
+      "text": "Das Steinkreuz an der Fürstenallee wird in der Denkmalliste als spätmittelalterliches Mord- und Sühnekreuz geführt und vor 1500 datiert. Kreuze dieser Art erinnerten häufig an einen tödlichen Zwischenfall oder dienten als Sühnezeichen; welches konkrete Ereignis diesem Kreuz zugrunde liegt, ist nicht zuverlässig überliefert.",
+      "category": "hidden_gem",
+      "map_category": "historical_monument",
+      "priority": "B",
+      "location": {
+        "name": "Steinkreuz im Großen Garten",
+        "address": "Fürstenallee, 01219 Dresden, Germany",
+        "lat": 51.04011,
+        "lon": 13.76416,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://www.openstreetmap.org/node/2001109289"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214127",
+        "https://www.openstreetmap.org/node/2001109289"
+      ]
+    },
+    {
+      "id": "fact_005",
+      "title": "Christuskirche Strehlen – Jugendstilkirche von Schilling & Gräbner",
+      "text": "Die Christuskirche wurde 1902 bis 1905 nach Plänen der Architekten Schilling & Gräbner errichtet. Sie zählt zu den markanten Jugendstilkirchen Dresdens und zu den frühen modernen Kirchenbauten Sachsens; Zentralraum und Doppeltürme lösen sich vom historistischen Basilikaschema. Zum geschützten Ensemble gehört auch die Orgel von 1905.",
+      "category": "heritage_and_monuments",
+      "map_category": "religious_site",
+      "priority": "B",
+      "location": {
+        "name": "Christuskirche Strehlen",
+        "address": "An der Christuskirche 8, 01219 Dresden, Germany",
+        "lat": 51.02731,
+        "lon": 13.76526,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.kirchbau.de/300_datenblatt.php?id=259"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://www.christuskirche-dresden.de/",
+        "https://www.kirchbau.de/300_datenblatt.php?id=259",
+        "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)"
+      ]
+    },
+    {
+      "id": "fact_006",
+      "title": "Königspavillon Strehlen – Empfangspavillon des königlichen Haltepunkts",
+      "text": "1897 entstand an der Bahnstrecke Richtung Prag ein privater königlicher Haltepunkt, der die nahe Königliche Villa an das Eisenbahnnetz anschloss. Der von Gustav Frölich entworfene neobarocke Pavillon diente König Albert und seinen Gästen, darunter Kaiser Wilhelm II., als Empfangs- und Wartegebäude. Die Villa wurde 1945 zerstört, der Pavillon blieb erhalten.",
+      "category": "heritage_and_monuments",
+      "map_category": "technical_heritage",
+      "priority": "B",
+      "location": {
+        "name": "Königspavillon der ehemaligen Haltestelle Strehlen",
+        "address": "Franz-Liszt-Straße, 01219 Dresden, Germany",
+        "lat": 51.03224,
+        "lon": 13.75638,
+        "type": "historic_railway_site",
+        "accuracy": "exact",
+        "source": "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09212249",
+        "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)"
+      ]
+    },
+    {
+      "id": "fact_007",
+      "title": "Ehemaliges Luftgaukommando – NS-Militärbau und spätere NVA-Militärakademie",
+      "text": "Der monumentale Komplex wurde 1937–1938 nach Plänen von Wilhelm Kreis als Sitz des regionalen Luftwaffenkommandos im nationalsozialistischen Deutschland errichtet. Nach 1945 diente das Gelände zunächst der sächsischen Verwaltung; von 1959 bis 1990 war hier die NVA-Militärakademie Friedrich Engels untergebracht. Das Denkmalensemble umfasst Hauptbau, Wachhäuser und Reste der Gartenanlage der früheren Königlichen Villa.",
+      "category": "history",
+      "map_category": "architecture",
+      "priority": "B",
+      "location": {
+        "name": "Ehemaliges Luftgaukommando Dresden-Strehlen",
+        "address": "August-Bebel-Straße 15–19, 01219 Dresden, Germany",
+        "lat": 51.031458,
+        "lon": 13.754249,
+        "type": "historic_military_site",
+        "accuracy": "area_representative",
+        "source": "https://commons.wikimedia.org/wiki/File%3A20070103010DR_Dresden-Strehlen_Luftgaukommando_Milit%C3%A4rakademie.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09212245",
+        "https://commons.wikimedia.org/wiki/File%3A20070103010DR_Dresden-Strehlen_Luftgaukommando_Milit%C3%A4rakademie.jpg"
+      ]
+    },
+    {
+      "id": "fact_008",
+      "title": "Villa Erlwein – Wohnhaus des Dresdner Stadtbaurats Hans Erlwein",
+      "text": "Die Villa wurde 1868 für den Unternehmer Ernst Ludwig Aulhorn errichtet. Von 1905 bis 1914 wohnte hier Hans Erlwein, der einflussreiche Dresdner Stadtbaurat. Zum geschützten Anwesen gehören neben dem Haupthaus auch Remise, Pavillon, Terrassen und ein großer parkartiger Garten.",
+      "category": "people",
+      "map_category": "personality",
+      "priority": "B",
+      "location": {
+        "name": "Villa Erlwein",
+        "address": "Elsa-Brändström-Straße 13, 01219 Dresden, Germany",
+        "lat": 51.024941,
+        "lon": 13.767193,
+        "type": "historic_villa",
+        "accuracy": "exact",
+        "source": "https://commons.wikimedia.org/wiki/File%3A20190910210DR_Dresden-Strehlen_Villa_Erlwein_Rayskistra%C3%9Fe_25.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)",
+        "https://commons.wikimedia.org/wiki/File%3A20190910210DR_Dresden-Strehlen_Villa_Erlwein_Rayskistra%C3%9Fe_25.jpg"
+      ]
+    },
+    {
+      "id": "fact_009",
+      "title": "Weichbildstein Nr. 34 – historischer Grenzstein und Napoleonhügel",
+      "text": "Der Stein an der Elsa-Brändström-Straße 16 ist einer der erhaltenen Dresdner Weichbildsteine, die früher die Stadt- und Gerichtsgrenze markierten. Der Denkmalnachweis datiert ihn auf 1554; am Stein finden sich außerdem die späteren Jahreszahlen 1729 und 1837, daneben Reste eines Brunnens und einer Mauer im Schindergässchen. Der benachbarte Napoleonhügel ist mit der lokalen Überlieferung verbunden, Napoleon habe 1813 seine Truppen beobachtet; diese Episode ist nicht sicher belegt.",
+      "category": "hidden_gem",
+      "map_category": "historical_monument",
+      "priority": "B",
+      "location": {
+        "name": "Weichbildstein Nr. 34 am Schindergässchen",
+        "address": "Elsa-Brändström-Straße 16, 01219 Dresden, Germany",
+        "lat": 51.025139,
+        "lon": 13.765694,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://sciezkawbok.wordpress.com/author/wyrypa/page/6/"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)",
+        "https://www.dresdens-stadtteile.de/docs/sudost/strehlen/strassen_strehlen/",
+        "https://sciezkawbok.wordpress.com/author/wyrypa/page/6/"
+      ]
+    },
+    {
+      "id": "fact_010",
+      "title": "Altstrehlen – historischer Dorfplatz und Vierseithof",
+      "text": "Strehlen ist seit 1288 schriftlich belegt und wurde 1892 nach Dresden eingemeindet. Der historische Dorfplatz Altstrehlen gehört zu den größten dörflichen Plätzen Dresdens; sein heutiges Erscheinungsbild wurde wesentlich durch den Dorfbrand von 1855 geprägt. Der Vierseithof Altstrehlen 3–5 wurde 1856 wiederaufgebaut und bewahrt die ländliche Struktur des alten Dorfes.",
+      "category": "history",
+      "map_category": "historic_city",
+      "priority": "B",
+      "location": {
+        "name": "Vierseithof am Dorfplatz Altstrehlen 3–5",
+        "address": "Altstrehlen 3–5, 01219 Dresden, Germany",
+        "lat": 51.027654,
+        "lon": 13.76217,
+        "type": "historic_farmstead",
+        "accuracy": "exact",
+        "source": "https://commons.wikimedia.org/wiki/File%3A20201022120DR_Dresden-Strehlen_Altstrehlen_3.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://hov.isgv.de/Strehlen",
+        "https://www.dresdens-stadtteile.de/docs/sudost/strehlen/strassen_strehlen/altstrehlen/",
+        "https://commons.wikimedia.org/wiki/File%3A20201022120DR_Dresden-Strehlen_Altstrehlen_3.jpg"
+      ]
+    },
+    {
+      "id": "fact_011",
+      "title": "Leubnitz-Neuostra – mittelalterlicher Dorfkern mit Kirche und Klosterhof",
+      "text": "Leubnitz-Neuostra bewahrt einen der am besten ablesbaren historischen Dorfkerne Dresdens. Der Kirchturm ist um 1170 erstmals belegt, das Langhaus entstand 1430–1437, die bemalte Decke um 1671 und der barocke Altar 1730. 1288 gingen Gut, Kirche und Gerichtsbarkeit an das Zisterzienserkloster Altzella; der nahe Klosterhof entwickelte sich zu einem großen landwirtschaftlichen und verwaltungsgeschichtlichen Zentrum.",
+      "category": "history",
+      "map_category": "historic_city",
+      "priority": "B",
+      "location": {
+        "name": "Historischer Dorfkern Leubnitz-Neuostra (Klosterteichplatz)",
+        "address": "Klosterteichplatz, 01219 Dresden, Germany",
+        "lat": 51.012825,
+        "lon": 13.767266,
+        "type": "historic_village_center",
+        "accuracy": "area_representative",
+        "source": "https://commons.wikimedia.org/wiki/File%3A20230318305DR_Dresden-Leubnitz-Neuostra_Klosterteichplatz.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://stiftung-kiba.de/kirchen/dorfkirche-leubnitz-neuostra",
+        "https://www.dresden-klosterhof.de/startseite/ueber-uns/geschichte.html",
+        "https://commons.wikimedia.org/wiki/File%3A20230318305DR_Dresden-Leubnitz-Neuostra_Klosterteichplatz.jpg"
+      ]
+    },
+    {
+      "id": "fact_012",
+      "title": "Heiliger Born – historische Quelle der Dresdner Wasserversorgung",
+      "text": "Der Heiliger Born war eine wichtige historische Trinkwasserquelle Dresdens. Zwischen 1551 und 1555 wurde ihr Wasser durch eine hölzerne Leitung in die Stadt geführt und versorgte unter anderem das Residenzschloss und den Stallhof; die Leitung blieb fast vier Jahrhunderte bis 1939 in Betrieb. Die Quellfassung stammt von 1835 und wurde 2023 saniert. Erzählungen über heilende Kräfte gehören zur lokalen Überlieferung, nicht zu den gesicherten historischen Befunden.",
+      "category": "hidden_gem",
+      "map_category": "technical_heritage",
+      "priority": "B",
+      "location": {
+        "name": "Heiliger Born – Quellfassung am Koitzschgraben",
+        "address": "Heiligenbornweg am Koitzschgraben, 01219 Dresden, Germany",
+        "lat": 51.00781,
+        "lon": 13.75825,
+        "type": "waterworks",
+        "accuracy": "exact",
+        "source": "https://commons.wikimedia.org/wiki/File%3A20130614020DR_Dresden-Leubnitz_Heiliger_Born_Quelle_1.jpg"
+      },
+      "sources": [
+        "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+        "https://www-docs.b-tu.de/ag-wassertechnik/public/Publikationen/Schriftenreihe/Heft33.pdf",
+        "https://www.dresden.de/media/pdf/umwelt/UB_Grundwasser.pdf",
+        "https://www.dresdens-stadtteile.de/sudost/leubnitz-neuostra/heiliger_born/heiliger_born.html",
+        "https://commons.wikimedia.org/wiki/File%3A20130614020DR_Dresden-Leubnitz_Heiliger_Born_Quelle_1.jpg"
+      ]
+    }
   ],
   "photo": null,
   "verification": {
     "plz_source": "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
     "geographic_test_data": true,
-    "access_point_verified": false
+    "access_point_verified": true
   },
+  "sources": [
+    {
+      "title": "Straßenverzeichnis der Landeshauptstadt Dresden 2025",
+      "url": "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Strassenverzeichnis_2025.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Denkmalliste Sachsen: Palais im Großen Garten (HIDA 09214121)",
+      "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214121",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap: Palais im Großen Garten",
+      "url": "https://www.openstreetmap.org/way/20675812",
+      "type": "specialist"
+    },
+    {
+      "title": "Wikimedia Commons: Palais im Großen Garten",
+      "url": "https://commons.wikimedia.org/wiki/Category%3APalais_im_Gro%C3%9Fen_Garten",
+      "type": "other"
+    },
+    {
+      "title": "Zoo Dresden: Geschichte und Über uns",
+      "url": "https://www.zoo-dresden.de/unser-zoo/ueber-uns/",
+      "type": "official"
+    },
+    {
+      "title": "Mapcarta: Zoo Dresden",
+      "url": "https://mapcarta.com/de/W371178363",
+      "type": "specialist"
+    },
+    {
+      "title": "Denkmalliste Sachsen: Heckentheater im Großen Garten (HIDA 09214116)",
+      "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214116",
+      "type": "official"
+    },
+    {
+      "title": "Wikimedia Commons: Dresden-Parktheater.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File%3ADresden-Parktheater.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Denkmalliste Sachsen: Steinkreuz im Großen Garten (HIDA 09214127)",
+      "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09214127",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap: Steinkreuz im Großen Garten",
+      "url": "https://www.openstreetmap.org/node/2001109289",
+      "type": "specialist"
+    },
+    {
+      "title": "Christuskirche Dresden: Gemeinde und Geschichte",
+      "url": "https://www.christuskirche-dresden.de/",
+      "type": "official"
+    },
+    {
+      "title": "Kirchbau: Christuskirche Dresden-Strehlen",
+      "url": "https://www.kirchbau.de/300_datenblatt.php?id=259",
+      "type": "specialist"
+    },
+    {
+      "title": "Liste der Kulturdenkmale in Strehlen (Dresden)",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Strehlen_(Dresden)",
+      "type": "regional"
+    },
+    {
+      "title": "Denkmalliste Sachsen: Königspavillon Strehlen (HIDA 09212249)",
+      "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09212249",
+      "type": "official"
+    },
+    {
+      "title": "Denkmalliste Sachsen: ehemaliges Luftgaukommando (HIDA 09212245)",
+      "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09212245",
+      "type": "official"
+    },
+    {
+      "title": "Wikimedia Commons: Luftgaukommando Dresden-Strehlen",
+      "url": "https://commons.wikimedia.org/wiki/File%3A20070103010DR_Dresden-Strehlen_Luftgaukommando_Milit%C3%A4rakademie.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Wikimedia Commons: Villa Erlwein, Rayskistraße 25",
+      "url": "https://commons.wikimedia.org/wiki/File%3A20190910210DR_Dresden-Strehlen_Villa_Erlwein_Rayskistra%C3%9Fe_25.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Dresdens Stadtteile: Strehlen und Schindergässchen",
+      "url": "https://www.dresdens-stadtteile.de/docs/sudost/strehlen/strassen_strehlen/",
+      "type": "regional"
+    },
+    {
+      "title": "Sciezka w bok: Weichbildstein in Strehlen (Lage)",
+      "url": "https://sciezkawbok.wordpress.com/author/wyrypa/page/6/",
+      "type": "other"
+    },
+    {
+      "title": "Historisches Ortsverzeichnis Sachsen: Strehlen",
+      "url": "https://hov.isgv.de/Strehlen",
+      "type": "university"
+    },
+    {
+      "title": "Dresdens Stadtteile: Altstrehlen",
+      "url": "https://www.dresdens-stadtteile.de/docs/sudost/strehlen/strassen_strehlen/altstrehlen/",
+      "type": "regional"
+    },
+    {
+      "title": "Wikimedia Commons: Altstrehlen 3",
+      "url": "https://commons.wikimedia.org/wiki/File%3A20201022120DR_Dresden-Strehlen_Altstrehlen_3.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Stiftung KiBa: Dorfkirche Leubnitz-Neuostra",
+      "url": "https://stiftung-kiba.de/kirchen/dorfkirche-leubnitz-neuostra",
+      "type": "specialist"
+    },
+    {
+      "title": "Klosterhof Leubnitz: Geschichte",
+      "url": "https://www.dresden-klosterhof.de/startseite/ueber-uns/geschichte.html",
+      "type": "regional"
+    },
+    {
+      "title": "Wikimedia Commons: Klosterteichplatz in Leubnitz-Neuostra",
+      "url": "https://commons.wikimedia.org/wiki/File%3A20230318305DR_Dresden-Leubnitz-Neuostra_Klosterteichplatz.jpg",
+      "type": "other"
+    },
+    {
+      "title": "BTU Cottbus: Historische Wasserversorgung Dresdens aus dem Leubnitzer Born",
+      "url": "https://www-docs.b-tu.de/ag-wassertechnik/public/Publikationen/Schriftenreihe/Heft33.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Landeshauptstadt Dresden: Umweltbericht Grundwasser",
+      "url": "https://www.dresden.de/media/pdf/umwelt/UB_Grundwasser.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Dresdens Stadtteile: Heiliger Born in Leubnitz-Neuostra",
+      "url": "https://www.dresdens-stadtteile.de/sudost/leubnitz-neuostra/heiliger_born/heiliger_born.html",
+      "type": "regional"
+    },
+    {
+      "title": "Wikimedia Commons: Heiliger Born, Quellfassung",
+      "url": "https://commons.wikimedia.org/wiki/File%3A20130614020DR_Dresden-Leubnitz_Heiliger_Born_Quelle_1.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Neue Straßen: Wasaplatz Dresden (Lage)",
+      "url": "https://www.neue-strassen.de/sachsen/dresden/wasaplatz",
+      "type": "specialist"
+    }
+  ],
   "translations": {
     "de": {
-      "representative_place": "Dresden-Zoo im Großen Garten",
+      "representative_place": "Palais im Großen Garten",
       "facts": [
-        "Der Dresden-Zoo wurde 1861 eröffnet und gehört zu den ältesten zoologischen Gärten Deutschlands; er liegt direkt im Großen Garten.",
-        "Der Große Garten entstand seit dem 17. Jahrhundert als repräsentativer Hofpark; das heutige Gelände umfasst etwa 147 Hektar und verbindet die barocke Achse um das Palais mit Landschaftsbereichen.",
-        "Der Zoo war von Anfang an mehr als eine kleine Stadtattraktion: Seine Erweiterung beeinflusste auch die umliegenden Parkflächen und trug zur Entwicklung eines größeren Erholungsraums bei.",
-        "In diesem Stadtteil treffen barocke Hoflandschaft, Stadtpark des 19. Jahrhunderts und moderner zoologischer Garten aufeinander."
+        {
+          "id": "fact_001",
+          "title": "Palais im Großen Garten – früher bedeutender Barockbau Sachsens",
+          "text": "Der Bau des Palais begann 1678 nach Plänen von Johann Georg Starcke für den späteren Kurfürsten Johann Georg III.; 1683 war der Rohbau vollendet. Das Palais zählt zu den frühen bedeutenden barocken Profanbauten Sachsens und prägt als architektonischer Mittelpunkt den Großen Garten. Nach schweren Kriegsschäden von 1945 wurde es gesichert und schrittweise wiederhergestellt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zoo Dresden – viertältester Zoo Deutschlands",
+          "text": "Der Zoo Dresden wurde am 9. Mai 1861 eröffnet und gilt als viertältester Zoo Deutschlands. Das 12,8 Hektar große Gelände wurde unter Mitwirkung Peter Joseph Lennés gestaltet; das 1862 errichtete Ziegenhaus ist das älteste erhaltene Zoogebäude. Nach den Zerstörungen von 1945 öffnete der Zoo 1946 wieder; seine eigene Geschichtsaufarbeitung benennt auch die rassistischen „Völkerschauen“ der Jahre 1878 bis 1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Heckentheater im Großen Garten – barockes Gartentheater von 1719",
+          "text": "Das barocke Heckentheater entstand 1719 für die Hochzeitsfeierlichkeiten des Kurprinzen Friedrich August und Maria Josepha. Die Bühne war von geschnittenen Hecken eingefasst und mit 14 Putten geschmückt; im Siebenjährigen Krieg wurde die Anlage zerstört, erhalten blieben die steinernen Sockel der Figuren. Der Ort ist eine seltene Spur höfischer Festkultur im Großen Garten."
+        },
+        {
+          "id": "fact_004",
+          "title": "Steinkreuz im Großen Garten – spätmittelalterliches Mord- und Sühnekreuz",
+          "text": "Das Steinkreuz an der Fürstenallee wird in der Denkmalliste als spätmittelalterliches Mord- und Sühnekreuz geführt und vor 1500 datiert. Kreuze dieser Art erinnerten häufig an einen tödlichen Zwischenfall oder dienten als Sühnezeichen; welches konkrete Ereignis diesem Kreuz zugrunde liegt, ist nicht zuverlässig überliefert."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – Jugendstilkirche von Schilling & Gräbner",
+          "text": "Die Christuskirche wurde 1902 bis 1905 nach Plänen der Architekten Schilling & Gräbner errichtet. Sie zählt zu den markanten Jugendstilkirchen Dresdens und zu den frühen modernen Kirchenbauten Sachsens; Zentralraum und Doppeltürme lösen sich vom historistischen Basilikaschema. Zum geschützten Ensemble gehört auch die Orgel von 1905."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – Empfangspavillon des königlichen Haltepunkts",
+          "text": "1897 entstand an der Bahnstrecke Richtung Prag ein privater königlicher Haltepunkt, der die nahe Königliche Villa an das Eisenbahnnetz anschloss. Der von Gustav Frölich entworfene neobarocke Pavillon diente König Albert und seinen Gästen, darunter Kaiser Wilhelm II., als Empfangs- und Wartegebäude. Die Villa wurde 1945 zerstört, der Pavillon blieb erhalten."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ehemaliges Luftgaukommando – NS-Militärbau und spätere NVA-Militärakademie",
+          "text": "Der monumentale Komplex wurde 1937–1938 nach Plänen von Wilhelm Kreis als Sitz des regionalen Luftwaffenkommandos im nationalsozialistischen Deutschland errichtet. Nach 1945 diente das Gelände zunächst der sächsischen Verwaltung; von 1959 bis 1990 war hier die NVA-Militärakademie Friedrich Engels untergebracht. Das Denkmalensemble umfasst Hauptbau, Wachhäuser und Reste der Gartenanlage der früheren Königlichen Villa."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – Wohnhaus des Dresdner Stadtbaurats Hans Erlwein",
+          "text": "Die Villa wurde 1868 für den Unternehmer Ernst Ludwig Aulhorn errichtet. Von 1905 bis 1914 wohnte hier Hans Erlwein, der einflussreiche Dresdner Stadtbaurat. Zum geschützten Anwesen gehören neben dem Haupthaus auch Remise, Pavillon, Terrassen und ein großer parkartiger Garten."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein Nr. 34 – historischer Grenzstein und Napoleonhügel",
+          "text": "Der Stein an der Elsa-Brändström-Straße 16 ist einer der erhaltenen Dresdner Weichbildsteine, die früher die Stadt- und Gerichtsgrenze markierten. Der Denkmalnachweis datiert ihn auf 1554; am Stein finden sich außerdem die späteren Jahreszahlen 1729 und 1837, daneben Reste eines Brunnens und einer Mauer im Schindergässchen. Der benachbarte Napoleonhügel ist mit der lokalen Überlieferung verbunden, Napoleon habe 1813 seine Truppen beobachtet; diese Episode ist nicht sicher belegt."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – historischer Dorfplatz und Vierseithof",
+          "text": "Strehlen ist seit 1288 schriftlich belegt und wurde 1892 nach Dresden eingemeindet. Der historische Dorfplatz Altstrehlen gehört zu den größten dörflichen Plätzen Dresdens; sein heutiges Erscheinungsbild wurde wesentlich durch den Dorfbrand von 1855 geprägt. Der Vierseithof Altstrehlen 3–5 wurde 1856 wiederaufgebaut und bewahrt die ländliche Struktur des alten Dorfes."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – mittelalterlicher Dorfkern mit Kirche und Klosterhof",
+          "text": "Leubnitz-Neuostra bewahrt einen der am besten ablesbaren historischen Dorfkerne Dresdens. Der Kirchturm ist um 1170 erstmals belegt, das Langhaus entstand 1430–1437, die bemalte Decke um 1671 und der barocke Altar 1730. 1288 gingen Gut, Kirche und Gerichtsbarkeit an das Zisterzienserkloster Altzella; der nahe Klosterhof entwickelte sich zu einem großen landwirtschaftlichen und verwaltungsgeschichtlichen Zentrum."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – historische Quelle der Dresdner Wasserversorgung",
+          "text": "Der Heiliger Born war eine wichtige historische Trinkwasserquelle Dresdens. Zwischen 1551 und 1555 wurde ihr Wasser durch eine hölzerne Leitung in die Stadt geführt und versorgte unter anderem das Residenzschloss und den Stallhof; die Leitung blieb fast vier Jahrhunderte bis 1939 in Betrieb. Die Quellfassung stammt von 1835 und wurde 2023 saniert. Erzählungen über heilende Kräfte gehören zur lokalen Überlieferung, nicht zu den gesicherten historischen Befunden."
+        }
+      ]
+    },
+    "cs": {
+      "representative_place": "Palais v Großer Garten",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Palais v Großer Garten – raně barokní palác Saska",
+          "text": "Stavba začala roku 1678 podle návrhu Johanna Georga Starckeho pro pozdějšího kurfiřta Jana Jiřího III.; hrubá stavba byla dokončena roku 1683. Palác patří k významným raně barokním světským stavbám Saska a po těžkém poškození v roce 1945 byl postupně zajištěn a obnovován."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zoo Dresden – čtvrtá nejstarší zoologická zahrada Německa",
+          "text": "Zoo byla otevřena 9. května 1861 a je čtvrtou nejstarší v Německu. Areál o rozloze 12,8 hektaru vznikal za účasti krajinářského architekta Petera Josepha Lenného; nejstarší dochovanou budovou je Kozí dům z roku 1862. Po zničení v roce 1945 se zoo znovu otevřela roku 1946 a dnes také kriticky připomíná rasistické „Völkerschauen“ z let 1878–1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Heckentheater v Großer Garten – barokní zahradní divadlo z roku 1719",
+          "text": "Divadlo vzniklo roku 1719 pro svatební oslavy korunního prince Friedricha Augusta a Marie Josefy. Jeviště obklopovaly stříhané živé ploty a zdobilo je 14 putti; během sedmileté války bylo zničeno a dochovaly se pouze kamenné podstavce soch."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kamenný kříž v Großer Garten – pozdně středověký smírčí kříž",
+          "text": "Kříž u Fürstenallee je v památkovém seznamu veden jako pozdně středověký Mord- und Sühnekreuz a datován před rok 1500. Podobné kříže připomínaly smrtelnou událost nebo sloužily jako smírčí znamení; konkrétní příběh tohoto kříže není spolehlivě doložen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – secesní kostel od Schillinga a Gräbnera",
+          "text": "Kostel postavili v letech 1902–1905 architekti Schilling & Gräbner. Patří k výrazným drážďanským ukázkám sakrální secese a k raným moderním kostelům Saska; centrální prostor a dvojice věží se odlišují od historizujících bazilik. Součástí chráněného celku jsou také varhany z roku 1905."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – královský železniční pavilon",
+          "text": "Soukromá královská zastávka vznikla roku 1897 na trati směrem k Praze, aby spojila nedalekou Königliche Villa se železnicí. Novobarokní pavilon Gustava Frölicha sloužil králi Albertovi a jeho hostům, mezi nimiž byl i císař Vilém II.; vila byla roku 1945 zničena, pavilon se zachoval."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bývalé Luftgaukommando – nacistický vojenský komplex a akademie NVA",
+          "text": "Monumentální komplex vznikl v letech 1937–1938 podle návrhu Wilhelma Kreise jako regionální velitelství Luftwaffe v nacistickém Německu. Po válce sloužil saské správě a v letech 1959–1990 zde sídlila vojenská akademie NVA Friedrich Engels. Areál zahrnuje hlavní budovu, strážnice a zbytky zahrady bývalé královské vily."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – dům drážďanského architekta Hanse Erlweina",
+          "text": "Vila byla postavena roku 1868 pro podnikatele Ernsta Ludwiga Aulhorna. V letech 1905–1914 zde bydlel Hans Erlwein, významný drážďanský městský architekt. Chráněný areál zahrnuje hlavní vilu, kočárovnu, pavilon, terasy a rozsáhlou zahradu."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein č. 34 – historický hraniční kámen a Napoleonův pahorek",
+          "text": "Kámen na Elsa-Brändström-Straße 16 patří k dochovaným drážďanským Weichbildsteine, které dříve vyznačovaly městskou a soudní hranici. Památkový záznam jej datuje do roku 1554; vyryty jsou také letopočty 1729 a 1837 a poblíž se dochovaly zbytky studny a zdi. Napoleonův pahorek je spojen s místní tradicí o Napoleonově pozorování vojsk v roce 1813, tato epizoda však není spolehlivě doložena."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – historická náves a čtyřstranný statek",
+          "text": "Strehlen je písemně doložen od roku 1288 a k Drážďanům byl připojen roku 1892. Historická náves Altstrehlen patří k největším vesnickým náměstím města; její podobu výrazně ovlivnil požár z roku 1855. Čtyřstranný statek Altstrehlen 3–5 byl obnoven roku 1856 a zachovává venkovskou strukturu původní obce."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – středověké jádro obce s kostelem a klášterním dvorem",
+          "text": "Leubnitz-Neuostra si uchovalo jedno z nejlépe čitelných historických vesnických jader Drážďan. Věž kostela je doložena kolem roku 1170, loď vznikla v letech 1430–1437, malovaný strop kolem roku 1671 a barokní oltář roku 1730. Roku 1288 přešel statek, kostel a soudní pravomoc na klášter Altzella; nedaleký Klosterhof se stal významným hospodářským a správním centrem."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – pramen historického zásobování Drážďan vodou",
+          "text": "Heiliger Born byl významným historickým zdrojem pitné vody pro Drážďany. V letech 1551–1555 vedlo z pramene dřevěné potrubí do města a zásobovalo mimo jiné Residenzschloss a Stallhof; fungovalo téměř čtyři století až do roku 1939. Pramenná komora z roku 1835 byla opravena v roce 2023; pověsti o léčivých účincích patří k místnímu folkloru."
+        }
       ]
     },
     "en": {
-      "representative_place": "Dresden Zoo in the Großer Garten",
+      "representative_place": "Palais in the Great Garden",
       "facts": [
-        "Dresden Zoo opened in 1861 and is one of the oldest zoological gardens in Germany; it lies directly within the Großer Garten.",
-        "The Großer Garten developed from the 17th century as a representative court park; today it covers about 147 hectares and combines the Baroque axis around the Palais with landscaped areas.",
-        "From the beginning, the zoo was more than a small city attraction: its expansion also affected surrounding park areas and helped create a larger urban recreation space.",
-        "This part of the city brings together a Baroque court landscape, a 19th-century city park and a modern zoological garden."
+        {
+          "id": "fact_001",
+          "title": "Palais in the Great Garden – an early Baroque palace of Saxony",
+          "text": "Construction began in 1678 to plans by Johann Georg Starcke for the future Elector Johann Georg III; the shell was completed in 1683. The palace is one of Saxony's early major Baroque secular buildings and was secured and gradually restored after severe damage in 1945."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dresden Zoo – Germany's fourth-oldest zoo",
+          "text": "Opened on 9 May 1861, Dresden Zoo is Germany's fourth-oldest zoo. Its 12.8-hectare grounds were laid out with input from landscape architect Peter Joseph Lenné; the 1862 Goat House is the oldest surviving zoo building. The zoo reopened in 1946 after wartime destruction and now also acknowledges the racist human exhibitions held there from 1878 to 1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hedge Theatre in the Great Garden – a Baroque garden theatre from 1719",
+          "text": "The theatre was created in 1719 for the wedding celebrations of Crown Prince Friedrich August and Maria Josepha. Its stage was enclosed by clipped hedges and decorated with 14 putti; the complex was destroyed during the Seven Years' War, leaving only the stone pedestals."
+        },
+        {
+          "id": "fact_004",
+          "title": "Stone Cross in the Great Garden – a late-medieval atonement cross",
+          "text": "The cross on Fürstenallee is listed as a late-medieval murder-and-atonement cross and dated before 1500. Crosses of this kind often commemorated a fatal incident or served as a penance marker, but the specific event behind this one is not reliably documented."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – an Art Nouveau church by Schilling & Gräbner",
+          "text": "Built between 1902 and 1905 by architects Schilling & Gräbner, the church is a major Dresden example of Art Nouveau sacred architecture and an early modern church building in Saxony. Its centralised interior and twin towers depart from the historicist basilica model; the protected ensemble also includes its 1905 organ."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – the royal railway pavilion",
+          "text": "A private royal halt was built in 1897 on the railway towards Prague to connect the nearby Royal Villa to the railway network. Gustav Frölich's Neo-Baroque pavilion served King Albert and royal guests, including Kaiser Wilhelm II; the villa was destroyed in 1945, but the pavilion survives."
+        },
+        {
+          "id": "fact_007",
+          "title": "Former Luftgaukommando – Nazi military complex and later NVA academy",
+          "text": "Built in 1937–1938 to designs by Wilhelm Kreis, the monumental complex served as a regional Luftwaffe command during Nazi rule. After 1945 it housed Saxon administration and, from 1959 to 1990, the NVA's Friedrich Engels Military Academy. The listed ensemble includes the main building, guardhouses and remnants of the former Royal Villa gardens."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – the home of Dresden city architect Hans Erlwein",
+          "text": "The villa was built in 1868 for entrepreneur Ernst Ludwig Aulhorn. Hans Erlwein, Dresden's influential municipal building officer, lived here from 1905 to 1914. The protected property includes the main villa, coach house, pavilion, terraces and a large garden."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein No. 34 – historic boundary stone and Napoleon Hill",
+          "text": "The stone at Elsa-Brändström-Straße 16 is one of Dresden's surviving Weichbildsteine, former markers of the city's jurisdictional boundary. The monument record dates it to 1554; later dates 1729 and 1837 are also carved on it, with remains of a well and wall nearby. Local tradition says Napoleon watched his troops from nearby Napoleon Hill in 1813, but the episode is not securely documented."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – historic village square and four-sided farmstead",
+          "text": "Strehlen is documented in writing from 1288 and was incorporated into Dresden in 1892. Altstrehlen is one of Dresden's largest village squares; much of its present appearance reflects the 1855 village fire. The four-sided farmstead at Altstrehlen 3–5 was rebuilt in 1856 and preserves the rural structure of the former village."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – medieval village core, church and monastic farm",
+          "text": "Leubnitz-Neuostra preserves one of Dresden's clearest historic village cores. The church tower is documented around 1170, the nave dates from 1430–1437, the painted ceiling from around 1671 and the Baroque altar from 1730. In 1288 the estate, church and jurisdiction passed to Altzella monastery; the nearby Klosterhof became a major agricultural and administrative centre."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – a historic source of Dresden's water supply",
+          "text": "Heiliger Born was an important historic drinking-water source for Dresden. Between 1551 and 1555 a wooden conduit carried its water into the city, supplying among other places the Residenzschloss and Stallhof; it remained in use until 1939. The spring chamber dates from 1835 and was renovated in 2023; stories of healing powers belong to local folklore."
+        }
       ]
     },
     "es": {
-      "representative_place": "Zoo de Dresde en el Großer Garten",
+      "representative_place": "Palais del Gran Jardín",
       "facts": [
-        "El Zoo de Dresde abrió en 1861 y es uno de los jardines zoológicos más antiguos de Alemania; está situado directamente en el Großer Garten.",
-        "El Großer Garten se desarrolló desde el siglo XVII como parque cortesano representativo; hoy ocupa unas 147 hectáreas y combina el eje barroco del palacio con zonas paisajísticas.",
-        "Desde el principio, el zoo fue más que una pequeña atracción urbana: su ampliación también influyó en las zonas verdes circundantes y contribuyó a crear un mayor espacio recreativo urbano.",
-        "En esta parte de la ciudad se encuentran un paisaje cortesano barroco, un parque urbano del siglo XIX y un zoológico moderno."
+        {
+          "id": "fact_001",
+          "title": "Palais del Gran Jardín – palacio barroco temprano de Sajonia",
+          "text": "La construcción comenzó en 1678 según los planos de Johann Georg Starcke para el futuro elector Johann Georg III; la obra estructural quedó terminada en 1683. Es uno de los primeros grandes edificios civiles barrocos de Sajonia y fue consolidado y restaurado gradualmente tras los graves daños de 1945."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zoo de Dresde – el cuarto zoológico más antiguo de Alemania",
+          "text": "Inaugurado el 9 de mayo de 1861, el Zoo de Dresde es el cuarto más antiguo de Alemania. Sus 12,8 hectáreas se diseñaron con la participación de Peter Joseph Lenné; la Casa de las Cabras de 1862 es el edificio zoológico conservado más antiguo. Reabrió en 1946 tras la destrucción bélica y hoy también reconoce las racistas «exhibiciones humanas» celebradas allí entre 1878 y 1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Teatro de setos del Gran Jardín – teatro barroco de 1719",
+          "text": "El teatro se creó en 1719 para las celebraciones de boda del príncipe heredero Friedrich August y Maria Josepha. El escenario estaba rodeado de setos recortados y adornado con 14 putti; el conjunto fue destruido durante la Guerra de los Siete Años y solo quedaron los pedestales de piedra."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cruz de piedra del Gran Jardín – cruz medieval de expiación",
+          "text": "La cruz de Fürstenallee figura en el inventario monumental como una cruz medieval de homicidio y expiación, fechada antes de 1500. Este tipo de cruces solía recordar una muerte violenta o servir como señal de penitencia, pero no se conoce con certeza el suceso concreto relacionado con esta."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – iglesia modernista de Schilling y Gräbner",
+          "text": "Construida entre 1902 y 1905 por los arquitectos Schilling & Gräbner, es un destacado ejemplo de arquitectura religiosa modernista en Dresde y uno de los primeros templos modernos de Sajonia. Su espacio central y sus dos torres rompen con el modelo historicista de basílica; el conjunto protegido incluye también el órgano de 1905."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – pabellón ferroviario real",
+          "text": "En 1897 se creó una parada privada para la familia real en la línea hacia Praga, conectada con la cercana Villa Real. El pabellón neobarroco de Gustav Frölich sirvió de recepción y espera para el rey Alberto y sus invitados, incluido el káiser Guillermo II; la villa fue destruida en 1945, pero el pabellón se conserva."
+        },
+        {
+          "id": "fact_007",
+          "title": "Antiguo Luftgaukommando – complejo militar nazi y posterior academia de la NVA",
+          "text": "Construido en 1937–1938 según el proyecto de Wilhelm Kreis, el complejo fue sede del mando regional de la Luftwaffe durante el nazismo. Después de 1945 albergó la administración sajona y, entre 1959 y 1990, la Academia Militar Friedrich Engels de la NVA. El conjunto protegido incluye el edificio principal, garitas y restos de los jardines de la antigua Villa Real."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – residencia del arquitecto municipal Hans Erlwein",
+          "text": "La villa se construyó en 1868 para el empresario Ernst Ludwig Aulhorn. Hans Erlwein, influyente arquitecto municipal de Dresde, vivió aquí entre 1905 y 1914. La finca protegida incluye la villa, cochera, pabellón, terrazas y un amplio jardín."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein n.º 34 – mojón histórico y colina de Napoleón",
+          "text": "La piedra de Elsa-Brändström-Straße 16 es uno de los Weichbildsteine conservados de Dresde, antiguos marcadores del límite jurisdiccional de la ciudad. El registro patrimonial la fecha en 1554; también lleva las fechas posteriores de 1729 y 1837, y cerca quedan restos de un pozo y un muro. Una tradición local afirma que Napoleón observó sus tropas desde la cercana colina en 1813, aunque el episodio no está demostrado."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – plaza histórica y granja de cuatro alas",
+          "text": "Strehlen aparece documentado desde 1288 y se incorporó a Dresde en 1892. Altstrehlen es una de las plazas rurales más grandes de Dresde; su aspecto actual refleja en gran medida el incendio de 1855. La granja de cuatro alas de Altstrehlen 3–5 fue reconstruida en 1856 y conserva la estructura rural del antiguo pueblo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – núcleo medieval con iglesia y patio monástico",
+          "text": "Leubnitz-Neuostra conserva uno de los núcleos rurales históricos más legibles de Dresde. La torre de la iglesia está documentada hacia 1170, la nave data de 1430–1437, el techo pintado de alrededor de 1671 y el altar barroco de 1730. En 1288 la finca, la iglesia y la jurisdicción pasaron al monasterio de Altzella; el cercano Klosterhof se convirtió en un importante centro agrícola y administrativo."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – fuente histórica del abastecimiento de agua de Dresde",
+          "text": "Heiliger Born fue una importante fuente histórica de agua potable para Dresde. Entre 1551 y 1555 una conducción de madera llevaba el agua a la ciudad y abastecía, entre otros lugares, el Residenzschloss y el Stallhof; siguió funcionando hasta 1939. La cámara de captación data de 1835 y fue restaurada en 2023; las historias sobre poderes curativos pertenecen al folclore local."
+        }
       ]
     },
     "fr": {
-      "representative_place": "Zoo de Dresde dans le Großer Garten",
+      "representative_place": "Palais du Grand Jardin",
       "facts": [
-        "Le zoo de Dresde a ouvert en 1861 et compte parmi les plus anciens jardins zoologiques d’Allemagne ; il se trouve directement dans le Großer Garten.",
-        "Le Großer Garten s’est développé depuis le XVIIe siècle comme parc de cour représentatif ; il couvre aujourd’hui environ 147 hectares et associe l’axe baroque autour du palais à des parties paysagères.",
-        "Dès l’origine, le zoo fut plus qu’une petite attraction urbaine : son agrandissement influença aussi les espaces du parc environnant et contribua à créer un vaste espace de loisirs urbain.",
-        "Cette partie de la ville réunit un paysage de cour baroque, un parc urbain du XIXe siècle et un jardin zoologique moderne."
+        {
+          "id": "fact_001",
+          "title": "Palais du Grand Jardin – palais baroque ancien de Saxe",
+          "text": "La construction commença en 1678 sur les plans de Johann Georg Starcke pour le futur électeur Johann Georg III ; le gros œuvre était achevé en 1683. Le palais compte parmi les premiers grands édifices civils baroques de Saxe et fut sécurisé puis restauré progressivement après les graves dégâts de 1945."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zoo de Dresde – quatrième plus ancien zoo d’Allemagne",
+          "text": "Ouvert le 9 mai 1861, le zoo de Dresde est le quatrième plus ancien d’Allemagne. Ses 12,8 hectares furent aménagés avec la participation de Peter Joseph Lenné ; la Maison des chèvres de 1862 est le plus ancien bâtiment zoologique conservé. Détruit pendant la guerre, le zoo rouvrit en 1946 et reconnaît aujourd’hui aussi les « expositions humaines » racistes organisées entre 1878 et 1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Théâtre de haies du Grand Jardin – théâtre de jardin baroque de 1719",
+          "text": "Le théâtre fut créé en 1719 pour les festivités du mariage du prince héritier Friedrich August et de Maria Josepha. La scène était entourée de haies taillées et ornée de 14 putti ; l’ensemble fut détruit pendant la guerre de Sept Ans et seuls les socles de pierre subsistent."
+        },
+        {
+          "id": "fact_004",
+          "title": "Croix de pierre du Grand Jardin – croix médiévale d’expiation",
+          "text": "La croix de la Fürstenallee est répertoriée comme une croix médiévale de meurtre et d’expiation, datée d’avant 1500. Ces croix rappelaient souvent une mort violente ou servaient de signe de pénitence, mais l’événement précis lié à celle-ci n’est pas établi de manière fiable."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche de Strehlen – église Art nouveau de Schilling & Gräbner",
+          "text": "Construite entre 1902 et 1905 par les architectes Schilling & Gräbner, l’église est un exemple majeur d’architecture religieuse Art nouveau à Dresde et l’un des premiers édifices religieux modernes de Saxe. Son espace central et ses deux tours rompent avec le modèle basilical historiciste ; l’orgue de 1905 fait également partie de l’ensemble protégé."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon de Strehlen – pavillon ferroviaire royal",
+          "text": "En 1897, un arrêt privé fut aménagé sur la ligne vers Prague pour relier la Villa royale voisine au réseau ferroviaire. Le pavillon néobaroque de Gustav Frölich servait de salle d’attente et de réception au roi Albert et à ses invités, dont l’empereur Guillaume II ; la villa fut détruite en 1945, mais le pavillon subsiste."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ancien Luftgaukommando – complexe militaire nazi puis académie de la NVA",
+          "text": "Construit en 1937–1938 d’après les plans de Wilhelm Kreis, le complexe abritait le commandement régional de la Luftwaffe sous le régime nazi. Après 1945, il accueillit l’administration saxonne puis, de 1959 à 1990, l’Académie militaire Friedrich Engels de la NVA. L’ensemble protégé comprend le bâtiment principal, les postes de garde et des vestiges des jardins de l’ancienne Villa royale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – demeure de l’architecte municipal Hans Erlwein",
+          "text": "La villa fut construite en 1868 pour l’entrepreneur Ernst Ludwig Aulhorn. Hans Erlwein, influent architecte municipal de Dresde, y vécut de 1905 à 1914. La propriété protégée comprend la villa, la remise, le pavillon, les terrasses et un vaste jardin."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein n° 34 – borne historique et colline de Napoléon",
+          "text": "La pierre d’Elsa-Brändström-Straße 16 est l’un des Weichbildsteine conservés de Dresde, anciens marqueurs de la limite juridictionnelle de la ville. Le registre patrimonial la date de 1554 ; les dates ultérieures de 1729 et 1837 y figurent aussi, avec les vestiges voisins d’un puits et d’un mur. Selon une tradition locale, Napoléon aurait observé ses troupes depuis la colline voisine en 1813, mais cet épisode n’est pas établi."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – place villageoise historique et ferme à quatre ailes",
+          "text": "Strehlen est attesté par écrit depuis 1288 et fut intégré à Dresde en 1892. Altstrehlen est l’une des plus grandes places villageoises de Dresde ; son aspect actuel reflète largement l’incendie de 1855. La ferme à quatre ailes d’Altstrehlen 3–5 fut reconstruite en 1856 et conserve la structure rurale de l’ancien village."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – noyau médiéval avec église et cour monastique",
+          "text": "Leubnitz-Neuostra conserve l’un des noyaux villageois historiques les plus lisibles de Dresde. La tour de l’église est attestée vers 1170, la nef date de 1430–1437, le plafond peint d’environ 1671 et l’autel baroque de 1730. En 1288, le domaine, l’église et la juridiction passèrent au monastère d’Altzella ; le Klosterhof voisin devint un important centre agricole et administratif."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – source historique de l’approvisionnement en eau de Dresde",
+          "text": "Heiliger Born était une importante source historique d’eau potable pour Dresde. Entre 1551 et 1555, une conduite en bois acheminait son eau vers la ville et alimentait notamment le Residenzschloss et le Stallhof ; elle resta en service jusqu’en 1939. La chambre de captage date de 1835 et fut rénovée en 2023 ; les récits de vertus curatives relèvent du folklore local."
+        }
       ]
     },
     "it": {
-      "representative_place": "Zoo di Dresda nel Großer Garten",
+      "representative_place": "Palais nel Grande Giardino",
       "facts": [
-        "Lo zoo di Dresda fu aperto nel 1861 ed è tra i più antichi giardini zoologici della Germania; si trova direttamente nel Großer Garten.",
-        "Il Großer Garten si sviluppò dal XVII secolo come parco di corte rappresentativo; oggi copre circa 147 ettari e combina l’asse barocco attorno al Palais con aree paesaggistiche.",
-        "Fin dall’inizio lo zoo fu più di una piccola attrazione cittadina: il suo ampliamento influenzò anche le aree del parco circostante e contribuì a creare un più ampio spazio ricreativo urbano.",
-        "In questa parte della città si incontrano paesaggio di corte barocco, parco urbano del XIX secolo e moderno giardino zoologico."
+        {
+          "id": "fact_001",
+          "title": "Palais nel Grande Giardino – palazzo barocco delle origini sassoni",
+          "text": "La costruzione iniziò nel 1678 su progetto di Johann Georg Starcke per il futuro elettore Johann Georg III; la struttura principale fu completata nel 1683. Il palazzo è uno dei primi importanti edifici civili barocchi della Sassonia e fu messo in sicurezza e restaurato gradualmente dopo i gravi danni del 1945."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zoo di Dresda – quarto zoo più antico della Germania",
+          "text": "Inaugurato il 9 maggio 1861, lo Zoo di Dresda è il quarto più antico della Germania. I suoi 12,8 ettari furono progettati con il contributo di Peter Joseph Lenné; la Casa delle capre del 1862 è il più antico edificio zoologico conservato. Dopo le distruzioni belliche riaprì nel 1946 e oggi riconosce anche le razziste «esposizioni umane» organizzate tra il 1878 e il 1934."
+        },
+        {
+          "id": "fact_003",
+          "title": "Teatro delle siepi nel Grande Giardino – teatro barocco del 1719",
+          "text": "Il teatro fu creato nel 1719 per le celebrazioni nuziali del principe ereditario Friedrich August e di Maria Josepha. Il palcoscenico era racchiuso da siepi potate e decorato con 14 putti; il complesso fu distrutto durante la guerra dei Sette Anni e restano soltanto i piedistalli in pietra."
+        },
+        {
+          "id": "fact_004",
+          "title": "Croce di pietra nel Grande Giardino – croce medievale di espiazione",
+          "text": "La croce sulla Fürstenallee è registrata come croce medievale di omicidio ed espiazione e datata a prima del 1500. Croci di questo tipo ricordavano spesso una morte violenta o fungevano da segno di penitenza, ma l’evento preciso legato a questa croce non è documentato in modo affidabile."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – chiesa Art Nouveau di Schilling & Gräbner",
+          "text": "Costruita tra il 1902 e il 1905 dagli architetti Schilling & Gräbner, è un importante esempio di architettura sacra Art Nouveau a Dresda e uno dei primi edifici ecclesiastici moderni della Sassonia. Lo spazio centrale e le due torri si discostano dalla basilica storicista; l’organo del 1905 fa parte del complesso tutelato."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – padiglione ferroviario reale",
+          "text": "Nel 1897 fu realizzata una fermata privata sulla linea verso Praga per collegare la vicina Villa Reale alla ferrovia. Il padiglione neobarocco di Gustav Frölich serviva da sala d’attesa e ricevimento per il re Alberto e i suoi ospiti, tra cui l’imperatore Guglielmo II; la villa fu distrutta nel 1945, ma il padiglione è sopravvissuto."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ex Luftgaukommando – complesso militare nazista e successiva accademia NVA",
+          "text": "Costruito nel 1937–1938 su progetto di Wilhelm Kreis, il complesso ospitava il comando regionale della Luftwaffe durante il regime nazista. Dopo il 1945 fu sede dell’amministrazione sassone e, dal 1959 al 1990, dell’Accademia militare Friedrich Engels della NVA. Il complesso tutelato comprende l’edificio principale, le garitte e resti dei giardini dell’antica Villa Reale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – residenza dell’architetto municipale Hans Erlwein",
+          "text": "La villa fu costruita nel 1868 per l’imprenditore Ernst Ludwig Aulhorn. Hans Erlwein, influente architetto municipale di Dresda, vi abitò dal 1905 al 1914. La proprietà tutelata comprende la villa, la rimessa, il padiglione, le terrazze e un ampio giardino."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein n. 34 – pietra di confine storica e collina di Napoleone",
+          "text": "La pietra in Elsa-Brändström-Straße 16 è uno dei Weichbildsteine conservati di Dresda, antichi segnali del confine giurisdizionale cittadino. Il registro dei monumenti la data al 1554; sulla pietra compaiono anche le date 1729 e 1837 e nelle vicinanze restano tracce di un pozzo e di un muro. Una tradizione locale racconta che Napoleone osservò le sue truppe dalla collina vicina nel 1813, ma l’episodio non è provato."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – piazza storica del villaggio e fattoria a quattro ali",
+          "text": "Strehlen è attestata per iscritto dal 1288 e fu incorporata a Dresda nel 1892. Altstrehlen è una delle più grandi piazze di villaggio della città; l’aspetto attuale riflette in gran parte l’incendio del 1855. La fattoria a quattro ali di Altstrehlen 3–5 fu ricostruita nel 1856 e conserva la struttura rurale dell’antico villaggio."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – nucleo medievale con chiesa e corte monastica",
+          "text": "Leubnitz-Neuostra conserva uno dei nuclei storici di villaggio meglio leggibili di Dresda. La torre della chiesa è documentata intorno al 1170, la navata risale al 1430–1437, il soffitto dipinto a circa il 1671 e l’altare barocco al 1730. Nel 1288 la tenuta, la chiesa e la giurisdizione passarono al monastero di Altzella; il vicino Klosterhof divenne un importante centro agricolo e amministrativo."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – fonte storica dell’approvvigionamento idrico di Dresda",
+          "text": "Heiliger Born era un’importante fonte storica di acqua potabile per Dresda. Tra il 1551 e il 1555 una condotta di legno portava l’acqua in città, rifornendo tra gli altri il Residenzschloss e lo Stallhof; rimase in uso fino al 1939. La camera di captazione risale al 1835 ed è stata restaurata nel 2023; le storie sulle proprietà curative appartengono al folclore locale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Palais in de Grote Tuin",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Palais im Großen Garten – vroegbarok paleis in Saksen",
+          "text": "De bouw begon in 1678 naar ontwerp van Johann Georg Starcke voor de latere keurvorst Johann Georg III; in 1683 was het casco voltooid. Het paleis behoort tot de vroege belangrijke barokke wereldlijke gebouwen van Saksen en werd na zware oorlogsschade in 1945 beveiligd en geleidelijk hersteld."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dierentuin Dresden – vierde oudste dierentuin van Duitsland",
+          "text": "De dierentuin opende op 9 mei 1861 en is de vierde oudste van Duitsland. Het terrein van 12,8 hectare werd aangelegd met medewerking van Peter Joseph Lenné; het Geitenhuis uit 1862 is het oudste bewaard gebleven dierenverblijf. Na de oorlogsschade heropende de dierentuin in 1946 en zij erkent tegenwoordig ook de racistische «Völkerschauen» die er tussen 1878 en 1934 plaatsvonden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Heggentheater in de Grote Tuin – barok tuintheater uit 1719",
+          "text": "Het theater werd in 1719 aangelegd voor de huwelijksfeesten van kroonprins Friedrich August en Maria Josepha. Het toneel was omgeven door gesnoeide hagen en versierd met 14 putti; tijdens de Zevenjarige Oorlog werd het complex verwoest en alleen de stenen sokkels bleven over."
+        },
+        {
+          "id": "fact_004",
+          "title": "Stenen kruis in de Grote Tuin – laatmiddeleeuws boete- en verzoeningskruis",
+          "text": "Het kruis aan de Fürstenallee staat in de monumentenlijst als laatmiddeleeuws moord- en verzoeningskruis en dateert van vóór 1500. Zulke kruisen herinnerden vaak aan een dodelijk incident of dienden als boeteteken, maar de specifieke gebeurtenis achter dit kruis is niet betrouwbaar overgeleverd."
+        },
+        {
+          "id": "fact_005",
+          "title": "Christuskirche Strehlen – jugendstilkerk van Schilling & Gräbner",
+          "text": "De kerk werd tussen 1902 en 1905 gebouwd naar ontwerp van Schilling & Gräbner. Zij is een belangrijk voorbeeld van religieuze jugendstilarchitectuur in Dresden en een van de vroege moderne kerkgebouwen in Saksen; de centrale ruimte en dubbele torens wijken af van de historistische basiliekvorm. Ook het orgel uit 1905 behoort tot het beschermde ensemble."
+        },
+        {
+          "id": "fact_006",
+          "title": "Königspavillon Strehlen – koninklijk spoorwegpaviljoen",
+          "text": "In 1897 werd aan de spoorlijn richting Praag een particuliere koninklijke halte aangelegd om de nabijgelegen Königliche Villa met het spoor te verbinden. Het neobarokke paviljoen van Gustav Frölich diende als wacht- en ontvangstgebouw voor koning Albert en zijn gasten, onder wie keizer Wilhelm II; de villa werd in 1945 verwoest, maar het paviljoen bleef behouden."
+        },
+        {
+          "id": "fact_007",
+          "title": "Voormalig Luftgaukommando – nazi-militair complex en latere NVA-academie",
+          "text": "Het monumentale complex werd in 1937–1938 naar ontwerp van Wilhelm Kreis gebouwd als regionaal hoofdkwartier van de Luftwaffe onder het naziregime. Na 1945 huisvestte het de Saksische administratie en van 1959 tot 1990 de NVA-militaire academie Friedrich Engels. Het beschermde ensemble omvat het hoofdgebouw, wachthuizen en resten van de tuinen van de voormalige Königliche Villa."
+        },
+        {
+          "id": "fact_008",
+          "title": "Villa Erlwein – woning van stadsarchitect Hans Erlwein",
+          "text": "De villa werd in 1868 gebouwd voor ondernemer Ernst Ludwig Aulhorn. Hans Erlwein, een invloedrijke gemeentelijke architect van Dresden, woonde er van 1905 tot 1914. Het beschermde terrein omvat de villa, koetshuis, paviljoen, terrassen en een grote tuin."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weichbildstein nr. 34 – historische grenssteen en Napoleonheuvel",
+          "text": "De steen aan de Elsa-Brändström-Straße 16 is een van de bewaard gebleven Weichbildsteine van Dresden, oude markeringen van de stads- en rechtsgrens. De monumentenregistratie dateert hem op 1554; ook de latere jaartallen 1729 en 1837 staan erop en in de buurt zijn resten van een put en muur bewaard. Volgens een lokale overlevering bekeek Napoleon in 1813 zijn troepen vanaf de nabijgelegen heuvel, maar dat verhaal is niet bewezen."
+        },
+        {
+          "id": "fact_010",
+          "title": "Altstrehlen – historisch dorpsplein en vierzijdige boerderij",
+          "text": "Strehlen wordt sinds 1288 schriftelijk vermeld en werd in 1892 bij Dresden gevoegd. Altstrehlen is een van de grootste dorpspleinen van Dresden; het huidige aanzien werd sterk bepaald door de dorpsbrand van 1855. De vierzijdige boerderij aan Altstrehlen 3–5 werd in 1856 herbouwd en bewaart de landelijke structuur van het oude dorp."
+        },
+        {
+          "id": "fact_011",
+          "title": "Leubnitz-Neuostra – middeleeuwse dorpskern met kerk en kloosterhof",
+          "text": "Leubnitz-Neuostra bewaart een van de best herkenbare historische dorpskernen van Dresden. De kerktoren wordt rond 1170 voor het eerst vermeld, het schip dateert uit 1430–1437, het beschilderde plafond uit circa 1671 en het barokke altaar uit 1730. In 1288 gingen landgoed, kerk en rechtspraak over naar het klooster Altzella; de nabijgelegen Klosterhof werd een belangrijk landbouwkundig en bestuurlijk centrum."
+        },
+        {
+          "id": "fact_012",
+          "title": "Heiliger Born – historische bron voor de watervoorziening van Dresden",
+          "text": "Heiliger Born was een belangrijke historische drinkwaterbron voor Dresden. Tussen 1551 en 1555 voerde een houten leiding het water naar de stad en voorzag onder meer het Residenzschloss en de Stallhof; de leiding bleef tot 1939 in gebruik. De bronkamer dateert uit 1835 en werd in 2023 gerenoveerd; verhalen over geneeskracht behoren tot de plaatselijke folklore."
+        }
       ]
     }
   }
