@@ -866,3 +866,39 @@ U každého faktu a v každém jazyce ověř:
 5. Je každé vysvětlení přesné, stručné a podložené?
 
 Pokud je některá odpověď záporná, text není vyhovující a musí být opraven už při reworku.
+
+
+## 3.5 Rozlišení geografického PSČ a poštovní / korespondenční adresy instituce
+
+Toto pravidlo je závazné pro tvorbu, rework i audit všech českých PSČ. Jeho účelem je zabránit záměně geografického přiřazení adresního místa s PSČ uvedeným institucí pro korespondenci, doručování nebo kontakt s poštou.
+
+**PSČ uvedené na webu památky, synagogy, muzea, firmy, úřadu nebo jiné instituce samo o sobě nedokazuje, že její fyzická poloha geograficky patří do tohoto PSČ.** Může jít o korespondenční adresu, P.O. BOX, poštovní přihrádku, podatelnu, zvláštní organizační PSČ nebo jiný poštovní údaj. Takový údaj nikdy automaticky nepřepisuje geografické přiřazení.
+
+### Povinný postup při rozporu nebo podezřelém PSČ
+
+1. **Nejdříve ověř fyzickou polohu objektu.** Zjisti skutečnou adresu návštěvnického vstupu nebo fyzického sídla objektu. U památky bez běžné adresy ověř její skutečnou polohu jiným důvěryhodným zdrojem.
+2. **Ověř adresní místo v RÚIAN.** Pokud objekt má adresu, najdi odpovídající adresní místo a zjisti PSČ evidované pro toto místo. To je výchozí geografický důkaz pro přiřazení faktu.
+3. **Údaj na webu instituce posuzuj podle jeho účelu.** Rozliš fyzickou adresu od korespondenční adresy, adresy sídla organizace, fakturační adresy, P.O. BOX a adresy poštovní pobočky. Pokud web účel adresy neupřesňuje, nepovažuj jeho PSČ za rozhodující.
+4. **Poštovní pobočka není územní hranice.** Skutečnost, že v dané lokalitě existuje pošta, přepážky pro příjem a výdej zásilek, služby pro zákazníky nebo P.O. BOX pro velké klienty, sama o sobě nedokazuje, že okolní adresní místa náleží do PSČ této pošty. Provozní nebo organizační funkce pošty nesmí změnit geografické přiřazení objektu.
+5. **Nevytvářej nové PSČ ani neupravuj sequence na základě jediného nálezu.** PSČ nalezené na webu instituce, v katalogu, mapě, adresáři nebo u poštovní pobočky, které není v aktuální projektové sequence, je pouze podnětem k prověření. Nesmí automaticky vést k přidání PSČ, rozdělení obsahu, přesunu faktů ani změně existujícího záznamu.
+6. **Při rozporu zachovej ověřenou geografickou vazbu.** Pokud RÚIAN přiřazuje skutečné adresní místo objektu k PSČ A, zatímco web instituce uvádí PSČ B, nepřesouvej objekt do B jen podle webového údaje. Prověř, zda B není korespondenční nebo organizační údaj. Pokud rozpor nelze spolehlivě vysvětlit, označ jej v pracovních poznámkách jako nevyřešený a neprováděj změnu.
+7. **Použij více zdrojů podle jejich kompetence.** RÚIAN/ČÚZK ověřuje geografickou vazbu adresního místa; ČSÚ oficiální evidenci PSČ; Česká pošta provozní a poštovní služby v rozsahu své působnosti; web instituce může potvrdit její vlastní adresu a návštěvnické informace, nikoli sám o sobě geografické hranice PSČ.
+
+### Ochrana sequence a existujícího obsahu
+
+- Aktuální sequence.json je závazný projektový rozsah kandidátních PSČ. Běžný rework ani rešerše nesmí sequence svévolně rozšiřovat, zužovat, přeuspořádávat nebo nahrazovat.
+- Nález jiného PSČ mimo sequence se zaznamená jako podnět k samostatnému ověření. Změna sequence je samostatné rozhodnutí a vyžaduje doložený oficiální geografický důvod a výslovné schválení.
+- Neprováděj hromadné přesuny faktů, změny názvů, rozdělování záznamů ani přepis existujících textů jen proto, že některý zdroj uvádí jiné PSČ.
+- Jednotlivý rozpor není důkazem, že je chybná celá sequence nebo celý městský blok. Nepřenášej závěr z jedné adresy na jiné adresy ve stejném městě.
+- Stejný postup platí ve všech městech a regionech Česka, včetně Prahy, Brna, Ostravy, Plzně a menších měst. Nevyvozuj obecná pravidla z jediné pošty nebo jediné instituce.
+
+### Povinný test před přiřazením každého sporného faktu
+
+Před změnou PSČ si odpověz:
+1. Znám skutečnou fyzickou polohu objektu, nikoli jen jeho korespondenční adresu?
+2. Ověřil jsem konkrétní adresní místo a jeho PSČ v RÚIAN, pokud je adresní místo evidováno?
+3. Vím, jaký účel má PSČ uvedené na webu instituce?
+4. Nezaměňuji PSČ pošty, P.O. BOX nebo organizační adresu s geografickým PSČ objektu?
+5. Je navrhovaná změna v souladu s aktuální sequence a doložena zdroji příslušnými pro daný údaj?
+
+Pokud některá odpověď chybí, **PSČ ani sequence neměň**. Zachovej bezpečně doložený obsah, rozpor uveď v pracovních poznámkách a pokračuj pouze v činnostech, které nejsou na tomto neověřeném údaji závislé.
