@@ -357,6 +357,22 @@ For borderline cases, classify by the primary identity and main message of the f
 
 ### Geographic fallback for facts tied to the postal-code area
 
+The record is about the individual postal-code area. When a fact genuinely belongs to that area but has no single defensible physical point, it must still receive a usable map location so Europe Explorer can display it.
+
+- **Local customs, traditions, language, folklore, cultural identity and other area-wide practices:** use the postcode's existing `representative_point` as the fact location. Do not omit a relevant local fact merely because the practice has no single venue or address.
+- **People:** first identify and verify a concrete place in this postcode that the person was connected with (for example birthplace, residence, workplace, place of study, creative work, documented activity, memorial or burial place). Use that place when the relationship is supported.
+- If no defensible person-related physical place can be identified within the postcode, use the postcode's `representative_point`. The fact text MUST explicitly explain why the person is important to this particular postal-code area and what the documented local connection is. A biography without a meaningful connection to the postcode is not sufficient.
+- For these fallback pins, set `facts[].location.lat` and `lon` to the exact existing `representative_point` coordinates; set `name` to the postcode's `representative_place`; set `type` to `postal_area`; and set `accuracy` to `area_representative`. Do not invent a new coordinate or use `access_point`.
+- The `location.source` must support the representative place/point. The fact's own sources must independently support the local custom or the person's connection and significance.
+- A fallback pin means that the fact is associated with the postal-code area, not that the custom or person-related event occurred at the representative place itself. Do not imply otherwise in the fact text.
+- This fallback applies only to facts belonging to the current postcode. Facts about a wider county, Bundesland or region belong in a separately scoped record, not copied into an individual postcode without a genuine local connection.
+
+This is a map-display assignment for existing postcode-level content. It does not change editorial meaning, selection or wording standards. The shared 17 allowed `map_category` values are defined above. For person-centred facts, `personality` takes precedence over the category of the physical site used for the pin.
+
+During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
+
+---
+
 The existing national geographic fallback rules below remain in force. The shared map taxonomy does not change how a country's representative point, access point or fact location is verified.
 
 ## 12. History
