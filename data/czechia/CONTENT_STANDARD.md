@@ -902,3 +902,10 @@ Před změnou PSČ si odpověz:
 5. Je navrhovaná změna v souladu s aktuální sequence a doložena zdroji příslušnými pro daný údaj?
 
 Pokud některá odpověď chybí, **PSČ ani sequence neměň**. Zachovej bezpečně doložený obsah, rozpor uveď v pracovních poznámkách a pokračuj pouze v činnostech, které nejsou na tomto neověřeném údaji závislé.
+
+
+### 3.0.2 Úplná shoda sequence a groups
+
+V `data/czechia/sequence.json` je pole `sequence` kanonickým úplným seznamem projektových PSČ. Pole `groups` slouží k členění a navigaci, nikoli k definování odlišného rozsahu. Každé PSČ z `sequence` musí být uvedeno právě jednou také v některé skupině `groups`; žádná skupina nesmí obsahovat kód mimo `sequence`. Před každým pracovním blokem a auditem porovnej počet, unikátnost i přesnou množinu obou seznamů. Musí platit: `count = sequence.length = součet položek groups`, bez duplicit a bez rozdílových položek. Při nesouladu práci s dotčeným rozsahem zastav a rozpor nahlas; neodvozuj, která část se má automaticky přepsat.
+
+PSČ s vlastním doručovacím obvodem uvedená v `sequence` jsou plnohodnotnou součástí projektového rozsahu, i když leží mimo běžné číselné řady nebo jejich `localities` nejsou rozepsány. Prázdné `localities` není důkazem neexistence územního rozsahu. Konkrétní obce a lokality se při reworku zjišťují samostatně podle geografických pravidel tohoto standardu a důvěryhodných zdrojů; nesmějí se domýšlet ani přebírat od jiného PSČ.
