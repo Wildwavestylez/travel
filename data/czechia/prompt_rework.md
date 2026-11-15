@@ -155,3 +155,22 @@ Při geografickém obohacení existujícího chráněného záznamu zachovej ve�
 Pole `sequence` v `data/czechia/sequence.json` je kanonický úplný seznam všech PSČ zahrnutých do projektu. Pole `groups` je jeho členění a musí obsahovat každé PSČ z `sequence` právě jednou. Před každým pracovním blokem porovnej oba seznamy: počet, unikátnost i přesnou množinu kódů. Jejich počty a množiny se musí shodovat. Pokud se liší, zastav výběr bloku a nahlas nesoulad; nepracuj pouze podle jedné části souboru a nic automaticky nemaž.
 
 PSČ s vlastním doručovacím obvodem, která jsou výslovně uvedena v `sequence`, patří do rozsahu projektu stejně jako ostatní položky, i když jejich území není rozepsáno v `localities` nebo nejsou součástí běžné číselné řady. Prázdné `localities` znamená pouze to, že seznam lokalit není v tomto souboru specifikován; neznamená to, že PSČ nemá vlastní územní/doručovací rozsah. Při reworku musí být skutečný rozsah ověřen samostatně podle Content Standardu. Nevymýšlej lokality ani nepřebírej území sousedního PSČ.
+
+
+## NEPŘEKROČITELNÉ PRAVIDLO STAVŮ A UKLÁDÁNÍ — HOTOVÁ PRÁCE NIKDY DO DRAFT
+
+Toto pravidlo je závazné pro každé české PSČ a má přednost před jakoukoli nejednoznačnou formulací v tomto promptu nebo neformálním pracovním postupu.
+
+**Hotový rework PSČ se MUSÍ uložit přímo se stavem `status = 'validated'`. Hotový finální audit se MUSÍ uložit přímo se stavem `status = 'published'`. Hotový záznam se NIKDY nesmí ponechat ve stavu `draft` ani do něj přesunout.**
+
+- **Dokončený rework → ihned `validated`.** Jakmile je obsah PSČ dokončen, zapsán do existujícího řádku Supabase a prošel příslušnou validací reworku, ulož/zachovej záznam jako `validated`.
+- **Dokončený finální audit → ihned `published`.** Jakmile je finální audit daného záznamu nebo příslušné sekce dokončen a úspěšně prošel, ulož/zachovej auditovaný záznam jako `published`.
+- **`draft` není odkladiště, mezistanice, záložní stav ani místo pro hotovou práci čekající na pozdější kontrolu.** Hotový obsah PSČ do `draft` nikdy neukládej, ani když chybí pole, fakt, překlad, souřadnice, zdroj, metadata nebo jiný požadavek.
+- Chybějící nebo nevyřešená informace sama o sobě **není důvodem** změnit cílový stav na `draft`. Dokonči vše, co lze odpovědně ověřit; skutečně nedostupné volitelné či nullable údaje reprezentuj přesně podle schématu a podstatné nevyřešené problémy výslovně zaznamenej/nahlas. Nikdy si informace nevymýšlej.
+- Pokud povinná podmínka skutečně brání dokončení nebo validaci, nesmíš nepravdivě tvrdit, že je rework či audit hotový. Uveď konkrétní blokátor a ponech záznam v jeho stávajícím nedokončeném stavu; nepřesouvej jej do `draft` jako náhradní řešení. Pokud je to možné, pokračuj dalšími PSČ.
+- Při běžném reworku, překladu, obohacení ani auditu nikdy nesnižuj již dokončený záznam ze stavu `validated` nebo `published` do `draft`.
+- Po každém zápisu ověř skutečný uložený stav v databázi. Samotný úspěšný zápis obsahu bez potvrzení požadovaného stavu neznamená dokončení operace.
+
+**Povinný životní cyklus: rozpracovaná práce zůstává ve svém stávajícím pracovním stavu → hotový rework = `validated` → dokončený a úspěšný finální audit = `published`. Pro hotovou práci neexistuje cesta do `draft`.**
+
+Toto pravidlo platí pro veškerý český rework a audit. Jde o provozní požadavek, nikoli o povolení měnit databázové schéma, RLS nebo aplikační logiku.
