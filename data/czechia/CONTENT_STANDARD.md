@@ -886,7 +886,7 @@ Tato vrstva rozšiřuje objevování, nikoli pravidla významu, kvality, priorit
 
 ### 29.1 Závazný princip
 
-Každý fakt musí být srozumitelný zahraničnímu čtenáři, který nemusel nikdy navštívit Českou republiku a nemusí znát její historii, kulturu, instituce, tradice ani místní pojmy. Požadavek platí pro původní text i samostatně pro všech šest jazykových verzí.
+Každý fakt musí být srozumitelný zahraničnímu čtenáři, který nemusel nikdy navštívit Českou republiku a nemusí znát její historii, kulturu, instituce, tradice ani místní pojmy. Požadavek platí pro původní text i samostatně pro všech sedm jazykových verzí.
 
 Správný překlad nestačí. Text musí předat význam i kontext potřebný k pochopení.
 
