@@ -319,7 +319,7 @@ Use exactly these 17 values:
 | `historical_monument` | 🗿 | Monuments, memorials, commemorative sites, historical monuments, significant fountains and public commemorative/art works not better classified elsewhere. |
 | `architecture` | 🏛️ | A single significant building or architectural work whose primary identity is not a castle, religious building, museum or technical heritage site. |
 | `historic_city` | 🏙️ | Historic centres, old towns, squares, streets and coherent historic urban ensembles; never a single building. |
-| `museum` | 🏺 | Museums, galleries, open-air museums, collections, memorial/documentation centres and visitor centres primarily presenting or interpreting collections, history or a subject. |
+| `museum` | 🖼️ | Museums, galleries, open-air museums, collections, memorial/documentation centres and visitor centres primarily presenting or interpreting collections, history or a subject. |
 | `archaeological_site` | 🏺 | Archaeological sites, prehistoric settlements, excavations and places whose primary value is archaeological research or surviving archaeological remains. |
 | `nature` | 🌳 | Protected areas, natural features, forests, waterfalls, lakes, rivers, habitats, geological phenomena and other natural locations. |
 | `viewpoint_landscape` | 🏞️ | Observation towers, viewpoints, panoramas, distinctive scenery and landscape areas whose main visitor value is the view or landscape. |
@@ -372,8 +372,6 @@ This is a map-display assignment for existing postcode-level content. It does no
 During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
 
 ---
-
-The existing national geographic fallback rules below remain in force. The shared map taxonomy does not change how a country's representative point, access point or fact location is verified.
 
 ## 12. History
 
