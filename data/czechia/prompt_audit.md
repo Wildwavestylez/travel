@@ -187,6 +187,21 @@ U každého faktu:
 - `map_category` odpovídá hlavnímu tématu faktu a používá pouze povolené hodnoty schématu;
 - zdroje polohy podporují souřadnice, zatímco zdroje faktu podporují jeho obsah.
 
+
+**Povinná kontrola mapové taxonomie (17 kategorií)**
+
+U každého faktu ověř:
+- `map_category` existuje a obsahuje právě jednu hodnotu z úplného enumu v `data/czechia/schema.json`;
+- hodnota odpovídá hlavnímu tématu faktu podle oddílu 11A Content Standardu;
+- obsahová `category` nebyla zaměněna za `map_category`;
+- klasifikace není odvozena pouze z typu fyzické polohy;
+- při překryvu byly dodrženy závazné priority (zejména `personality`, hrady, muzea, náboženská místa, archeologie, technické dědictví a historická sídla);
+- stejná mapová kategorie je zachována jako jazykově neutrální metadata a není duplikována ani překládána v šesti překladech.
+
+Použij přesně těchto 17 hodnot: `castle`, `religious_site`, `historical_monument`, `architecture`, `historic_city`, `museum`, `archaeological_site`, `nature`, `viewpoint_landscape`, `park_garden`, `technical_heritage`, `cultural_site`, `visitor_attraction`, `local_culture`, `science_site`, `personality`, `sports_venue`.
+
+Ikony ani jejich grafické soubory nejsou součástí tohoto datového auditu. Audit ověřuje stabilní identifikátor a správnost klasifikace, nikoli budoucí vizuální implementaci.
+
 Nehádej souřadnice, nevymýšlej adresy, nevytvářej libovolné středy a netvrď, že byla provedena kontrola, která neproběhla. Nepřidávej nové mapové kategorie ani typy polohy.
 
 ### G. Shoda šesti jazyků a kvalita překladů
