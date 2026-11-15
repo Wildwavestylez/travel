@@ -123,7 +123,7 @@
         "plz_source": {
           "type": "string",
           "minLength": 1,
-          "description": "Konkrétní zdroj použitý k ověření PSČ. ČSÚ (číselník 0028 a typový číselník 0029) je autoritou pro oficiální evidenci a klasifikaci kódu PSČ. RÚIAN/ČÚZK je hlavní autoritou pro geografické přiřazení konkrétního adresního místa k PSČ. Česká pošta je pouze doplňkový kontrolní zdroj."
+          "description": "Konkrétní zdroj použitý k ověření PSČ. ČSÚ (číselník 0028) je autoritou pro oficiální evidenci PSČ. RÚIAN/ČÚZK je hlavní autoritou pro geografické přiřazení konkrétního adresního místa k PSČ. Česká pošta je pouze doplňkový kontrolní zdroj. Typ PSČ ověřuj individuálně pouze při konkrétní nejasnosti; rutinní kontrola číselníku 0029 není povinná."
         },
         "geographic_test_data": {
           "type": "boolean"
