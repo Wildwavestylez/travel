@@ -179,7 +179,7 @@ Every record must contain all seven languages:
 - `it`
 - `nl` (standard Netherlands Dutch, `nl-NL`; natural and understandable to Flemish readers as well)
 
-Each translation must include `representative_place` and `facts`. Each translated fact must include `id`, `title`, and `text`. All six language versions must contain exactly the same fact IDs in the same order. Translate naturally and accurately; preserve the meaning, factual detail, and editorial priority of the source-language facts.
+Each translation must include `representative_place` and `facts`. Each translated fact must include `id`, `title`, and `text`. All seven language versions must contain exactly the same fact IDs in the same order. Translate naturally and accurately; preserve the meaning, factual detail, and editorial priority of the source-language facts.
 
 The geographic location object is stored only once in the source-language fact. Do not duplicate it in translations.
 
@@ -192,7 +192,7 @@ Perform one basic validation pass before saving. Check only the essentials:
 - every fact has an explicit `location` property and a valid `map_category`;
 - every non-null location has valid coordinates, type, accuracy, and a supporting source;
 - required schema fields are present and valid;
-- all six translations are complete and have matching fact IDs and order;
+- all seven translations are complete and have matching fact IDs and order;
 - verification flags reflect checks that were actually performed.
 
 If a basic check fails, correct that specific issue and validate the correction. Do not restart the research or repeat the entire workflow. Do not run a second editorial audit, a cross-postcode comparison, or the final section audit here.
@@ -233,7 +233,7 @@ Do not start that final audit during ordinary rework. Do not delay the next post
 
 This exception applies only when a record is already editorially complete and is being processed solely to add the V3 fact-location layer. It does not apply to unfinished records.
 
-For such a record, preserve the existing editorial content and all six translations exactly. Add or verify only the missing geographic metadata required by the current schema and Content Standard: fact-level `location` and the required `map_category`. Do not rewrite facts, change their order or IDs, or retranslate them during this geographic-only pass.
+For such a record, preserve the existing editorial content and all seven translations exactly. Add or verify only the missing geographic metadata required by the current schema and Content Standard: fact-level `location` and the required `map_category`. Do not rewrite facts, change their order or IDs, or retranslate them during this geographic-only pass.
 
 If a content or translation defect is noticed, note it for a separately authorized editorial rework. Do not silently change it during geographic enrichment.
 
