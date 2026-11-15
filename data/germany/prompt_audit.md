@@ -181,13 +181,13 @@ Icon artwork and graphic assets are outside this data audit. The audit verifies 
 
 Do not guess coordinates, invent addresses, create arbitrary midpoints or claim checks that were not performed. Do not add new map categories or location types.
 
-### G. Six-language parity and translation quality
+### G. Seven-language parity and translation quality
 
-Verify all six required language versions: cs, de, en, es, fr and it.
+Verify all seven required language versions: cs, de, en, es, fr, it and nl.
 
 Check:
 - every language exists and has the required structure;
-- the same fact IDs appear in all six languages;
+- the same fact IDs appear in all seven languages;
 - fact IDs are in exactly the same order;
 - no fact is missing, merged, duplicated or silently added in one language;
 - titles and texts preserve the same factual content, dates, names, qualifications and significance;
@@ -202,7 +202,7 @@ A matching ID list is necessary but not sufficient: compare the actual meaning o
 
 This is a mandatory independent audit area. Verify the rule in section 30 of the German Content Standard and the corresponding addendum in the rework prompt.
 
-For every fact and separately in all six languages, ask:
+For every fact and separately in all seven languages, ask:
 1. Would a reader who has never visited Germany and has no prior knowledge of German culture understand what the subject is?
 2. Are unfamiliar local terms, institutions, traditions, memorial forms and administrative concepts explained at first meaningful use?
 3. Are historical events and references given enough concise context to explain what happened and why they matter?
@@ -230,7 +230,7 @@ Check:
 - explicit location properties and valid non-null location objects;
 - valid coordinate ranges and numeric types;
 - correct source references and structure;
-- all six language structures and matching IDs/order;
+- all seven language structures and matching IDs/order;
 - verification flags reflect checks actually performed;
 - no unintended changes to unrelated metadata.
 
@@ -273,7 +273,7 @@ Produce a report with the following sections:
 4. **Record-by-record matrix:** postcode, row ID, record status, controls passed/failed, finding count and final record result.
 5. **Cross-postcode findings:** duplicate facts, ownership errors, overlaps and block-wide consistency problems.
 6. **Tourist-discovery coverage:** checklist-group states and unresolved candidate discoveries.
-7. **Language and international-readability results:** separate result for cs, de, en, es, fr and it, with affected fact IDs.
+7. **Language and international-readability results:** separate result for cs, de, en, es, fr, it and nl, with affected fact IDs.
 8. **Technical validation:** schema and JSON validation results.
 9. **Correction queue:** ordered list of exact fixes, dependencies and responsible follow-up.
 10. **Unresolved questions and evidence gaps.**
@@ -290,7 +290,7 @@ The initial audit is read-only. After the report:
 4. Preserve IDs and unrelated metadata unless a documented correction requires otherwise.
 5. Revalidate every changed record against the schema.
 6. Recheck cross-postcode effects for any changed fact, location, assignment or duplicate.
-7. Recheck all six languages and international readability whenever fact text or meaning changes.
+7. Recheck all seven languages and international readability whenever fact text or meaning changes.
 8. Re-run the relevant block controls and update the report with resolved/unresolved status.
 9. Do not mark the block PASS until the acceptance conditions in section 5 are met.
 
