@@ -164,6 +164,21 @@ For each fact:
 - map_category reflects the fact's primary subject and uses only allowed schema values;
 - location sources support coordinates, while fact sources support factual claims.
 
+
+**Mandatory map-taxonomy control (17 categories)**
+
+For every fact, verify:
+- `map_category` exists and contains exactly one value from the complete enum in `data/germany/schema.json`;
+- the value matches the fact's primary subject under section 11A of the Content Standard;
+- editorial `category` has not been confused with `map_category`;
+- the classification was not inferred solely from the physical location type;
+- binding precedence rules were followed, especially for `personality`, castles, museums, religious sites, archaeology, technical heritage and historic urban ensembles;
+- the same language-neutral map category is stored once as fact metadata and is not duplicated or translated in the six translations.
+
+Use exactly these 17 values: `castle`, `religious_site`, `historical_monument`, `architecture`, `historic_city`, `museum`, `archaeological_site`, `nature`, `viewpoint_landscape`, `park_garden`, `technical_heritage`, `cultural_site`, `visitor_attraction`, `local_culture`, `science_site`, `personality`, `sports_venue`.
+
+Icon artwork and graphic assets are outside this data audit. The audit verifies stable identifiers and correct classification, not the future visual implementation.
+
 Do not guess coordinates, invent addresses, create arbitrary midpoints or claim checks that were not performed. Do not add new map categories or location types.
 
 ### G. Six-language parity and translation quality
