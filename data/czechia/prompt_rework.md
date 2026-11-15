@@ -123,3 +123,20 @@ Příklad: nestačí napsat, že Stolpersteine připomínají oběti nacismu. Vy
 Před uložením proveď čtenářský test v každém jazyce: pochopí člověk bez předchozí znalosti země, o jaký objekt či téma jde, co znamená neznámý pojem, jaký kontext potřebuje a proč je fakt významný? Pokud ne, uprav příslušnou jazykovou verzi.
 
 Jde o běžnou součást psaní a překladu, nikoli o volitelnou dodatečnou redakční fázi. Základní validace musí potvrdit, že tímto testem prošlo všech šest jazykových verzí.
+
+
+## Povinný dodatek — ochrana geografického PSČ před záměnou s poštovní adresou instituce
+
+Při každém reworku bez výjimky dodrž oddíl 3.5 českého Content Standardu. PSČ uvedené na webu památky, synagogy, muzea, firmy, úřadu nebo jiné instituce není samo o sobě důkazem geografického PSČ její fyzické polohy. Může jít o korespondenční adresu, P.O. BOX, poštovní přihrádku, podatelnu, organizační PSČ nebo údaj poštovní pobočky.
+
+- Nejdříve ověř skutečnou fyzickou polohu objektu a jeho adresní místo v RÚIAN; geografické přiřazení faktu odvozuj od tohoto ověření, nikoli automaticky od PSČ uvedeného na webu instituce.
+- Rozlišuj fyzickou/návštěvnickou adresu od korespondenční, fakturační, sídelní adresy organizace a P.O. BOX. Pokud účel adresy není jasný, údaj nepovažuj za rozhodující.
+- Existence pošty, přepážek, příjmu a výdeje zásilek, dalších poštovních služeb nebo P.O. BOX pro velké zákazníky nedokazuje, že okolní objekty geograficky patří do PSČ této pošty.
+- Aktuální sequence.json je závazný rozsah kandidátních PSČ. PSČ nalezené mimo sequence je pouze podnět k prověření; nikdy je automaticky nepřidávej a kvůli němu nepřesouvej fakta, nerozděluj záznamy ani nepřepisuj existující obsah.
+- Pokud web instituce uvádí jiné PSČ než RÚIAN pro její skutečné adresní místo, nejprve prověř účel webového údaje. Zachovej geografické přiřazení podložené RÚIAN; nevyřešený rozpor zaznamenej a změnu zastav.
+- Nevyvozuj závěr o celé městské oblasti z jedné pošty nebo jedné instituce. Stejný postup používej v Praze, Brně, Ostravě, Plzni i všech ostatních městech.
+- Změna sequence.json je samostatný zásah, který vyžaduje doložený oficiální geografický důvod a výslovné schválení. Běžný rework sequence nemění.
+
+Před jakoukoli změnou sporného PSČ ověř: skutečnou fyzickou polohu; konkrétní adresní místo v RÚIAN; účel PSČ uvedeného institucí; zda nejde o poštovní/korespondenční údaj; a soulad s aktuální sequence. Pokud něco z toho chybí, PSČ ani sequence neměň, rozpor zaznamenej a pokračuj jen v bezpečné části práce.
+
+**Nikdy nerozbourej existující geografické přiřazení ani obsah na základě jediného PSČ nalezeného na webu instituce.**
