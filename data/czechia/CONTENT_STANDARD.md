@@ -771,3 +771,61 @@ Závazná hierarchie a pravidla:
 7. Stejný zdrojový problém a jeho vyřešení nebo stav nevyřešení přenes do navazujícího pracovního okna. Neopakuj bezúčelně stejné pokusy; řiď se zaznamenaným výsledkem a aktualizuj jej pouze při nové kontrole.
 
 Příklad: pokud `ruian_postcodes.json` nelze načíst a CSV neobsahuje `validity_dates`, ověř dostupné územní údaje na oficiálním RÚIAN/ČÚZK a samostatně ověř příslušné PSČ/typ v odpovídajících číselnících ČSÚ. Nezaměňuj potvrzení PSČ v jednom číselníku za potvrzení jeho typu v jiném číselníku. Neověřené pole ponech nevyplněné nebo ve stavu určeném schématem; nikdy nevyráběj náhradní hodnotu.
+---
+## 28. Povinná turistická, památková a místní objevitelská rešerše (doplňující vrstva)
+
+Tato kapitola rozšiřuje stávající rešerši a audit. Nenahrazuje ani neuvolňuje žádné dosavadní pravidlo, nemění schéma, nevytváří nová pole, nemění řízené slovníky ani nezavádí automatickou prioritu turistických témat.
+
+### 28.1 Cíl
+U každého PSČ zjisti, co by návštěvník v dané konkrétní oblasti mohl chtít vidět, navštívit, zažít, poznat nebo objevit. Pokryj známé cíle i méně nápadné místní příběhy, památky, přírodu a neobvyklé doložené zajímavosti. Nevytvářej z každého PSČ turistickou destinaci a nevynucuj minimální počet faktů.
+
+### 28.2 Povinný tematický kontrolní seznam
+Výslovně prověř každou relevantní skupinu. Jde o výzkumná témata, nikoli nové hodnoty schématu:
+1. Hrady, zámky, tvrze, historická sídla, pevnosti, zříceniny, opevnění a zámecké parky.
+2. Sakrální dědictví: katedrály, kostely, kaple, kláštery, poutní místa, synagogy, mešity a sakrální umění.
+3. Pomníky a veřejné umění: sochy, kašny, památníky, obelisky, historické mezníky, sochařské parky a významné instalace.
+4. Historická sídla a architektura: historická centra, náměstí, brány, radnice, ulice, mosty, hradby, významné budovy a architektonické soubory včetně výjimečné moderní a poválečné architektury.
+5. Muzea, galerie a sbírky: historická, archeologická, umělecká, technická, průmyslová, dopravní, železniční, letecká, vojenská, přírodovědná a specializovaná muzea; skanzeny, pamětní a dokumentační centra, významné expozice a návštěvnická centra.
+6. Archeologie a pravěk: pravěká naleziště, mohyly, megality, hradiště, oppida, římské pozůstatky, archeologické krajiny a podzemní dědictví.
+7. Chráněná příroda: národní parky, CHKO, přírodní parky, rezervace, přírodní památky, biosférické rezervace, přírodní dědictví UNESCO, geoparky, mokřady, rašeliniště a pralesy.
+8. Geologie a krajinné útvary: skalní města, pískovce, jeskyně, kras, soutěsky, kaňony, sopečné a ledovcové útvary, zkameněliny a výjimečné geologické vyhlídky.
+9. Hory, vyhlídky a trasy: vrcholy, rozhledny, panoramata, horské chaty, naučné stezky, hřebenové trasy, významné pěší/cyklistické trasy, sedla a turistické lanovky.
+10. Voda a vodní dědictví: vodopády, jezera, řeky, soutoky, prameny, soutěsky, přehrady, nádrže, historické rybníky, kanály, mlýny, přístavy a významná vodohospodářská díla.
+11. Parky, zahrady a živé sbírky: botanické zahrady, arboreta, historické zahrady, zámecké a městské parky, zoologické zahrady, safari/obory, ptačí parky, akvária a motýlí domy.
+12. Technické, průmyslové a dopravní dědictví: doly, lomy, historické továrny, hutě, vysoké pece, elektrárny, mlýny, historické železnice/nádraží, mosty, tunely, viadukty, majáky, vodárenské věže a technická díla.
+13. Paměťová místa a historické události: bojiště, revoluce a povstání, památníky, bývalé věznice, památníky totalitních režimů, železná opona, místa smluv a zásadních událostí i doložené lokality významných katastrof.
+14. Turistické atrakce a zážitky: zpřístupněné jeskyně a podzemí, historické lázně, termální areály, vyhlídkové železnice, lanovky, lodní výlety, zpřístupněné industriální památky, zábavní/tematické parky, aquaparky, letní divadla a významné stadiony.
+15. UNESCO a mimořádné dědictví: kulturní a přírodní památky, kulturní krajiny, přeshraniční dědictví, historická města, Evropské dědictví a obdobná formální ocenění.
+16. Místní příběhy a neobvyklé zajímavosti: doložené pověsti, neobvyklé události, záhady s faktickým základem, kuriózní zvyky, rekordy, neobvyklé objekty, specifické místní názvy a příběhy vysvětlující identitu oblasti.
+17. Osobnosti, film, literatura, hudba a kultura: domy a působiště významných osobností, filmové/televizní lokace, literární místa, hudební historie, divadla, operní domy, koncertní sály a kulturní instituce.
+18. Tradice, řemesla a gastronomické dědictví: regionální zvyky, tradiční řemesla, historické trhy/jarmarky, významné slavnosti, tradiční výroba, pivovary, vinařství a lihovary s doloženou návštěvnickou či historickou hodnotou.
+19. Trasy a návštěvnický kontext: významné poutní, kulturní, průmyslové, dopravní, cyklistické a turistické trasy, hraniční kuriozity a další prvky, jejichž relevantní část leží v daném PSČ.
+
+Seznam je záměrně široký. Zařazuj pouze konkrétní, významné a geograficky správně přiřaditelné objekty či příběhy. Dočasné akce, běžná zařízení, obecná regionální témata a podniky se automaticky nestávají trvalými fakty PSČ.
+
+### 28.3 Vyloučení
+- Běžné hřbitovy, jednotlivé hroby a obvyklá pohřebiště nezařazuj jako turistická fakta. Výjimkou je mimořádný doložený památkový či návštěvnický areál díky architektuře, krajinářskému řešení, historické hodnotě nebo významnému souboru památníků. Samotný hrob známé osobnosti nestačí.
+- Současné firmy, obchody, restaurace, hotely a běžné provozovny nezařazuj jen proto, že zde působí. Podnikové téma lze zahrnout pouze jako doložené historické, technické, kulturní či průmyslové dědictví, veřejné muzeum/návštěvnické centrum, významný návštěvnický zážitek nebo jiný samostatně hodnotný místní příběh.
+- Běžný program akcí není trvalou atrakcí. Opakovaná tradice nebo historicky významná událost může být zahrnuta, je-li doložena její místní důležitost.
+- Trasu nezařazuj jako bodové faktum, pokud její poloha nemůže být přesně reprezentována podle stávajícího schématu.
+- Stručná kontextová zmínka zůstává možná, pokud je důležitá pro jiné doložené faktum.
+
+### 28.4 Povinná dvoufázová rešerše
+**Fáze 1 — široké objevování:** urči území PSČ podle stávajících pravidel; hledej v oficiálních turistických, památkových, muzejních, přírodovědných, obecních, regionálních a odborných zdrojích; používej PSČ, obce, části obcí, místní a historické názvy, krajinné celky a názvy památek; objevuj hlavní atrakce a příběhy bez omezení starým záznamem či prvními obecnými výsledky; eviduj kandidáty, polohu a zdroje.
+
+**Fáze 2 — audit tematických mezer:** projdi každou relevantní skupinu v 28.2 jednotlivě; cíleně hledej zejména muzea a specializované sbírky, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické dědictví, paměťová místa, místní pověsti, historické události a neobvyklé zajímavosti; porovnej výsledky se starým záznamem a první fází; identifikuj opomenutí, duplicity, slabé kandidáty a fakta patřící jinam. Obecné vyhledávání samo o sobě neznamená, že byla kategorie prověřena.
+
+Obě fáze jsou povinné před dokončením běžného obsahového reworku.
+
+### 28.5 Strategie zdrojů
+Přednost mají odpovědné primární zdroje: oficiální turistické organizace obcí, měst, krajů a státu; památkové registry a orgány památkové péče; oficiální weby muzeí, galerií, parků, zoo, akvárií a atrakcí; správy národních parků a chráněných území, instituce ochrany přírody a geologie; obecní a regionální archivy, muzea, vlastivědné instituce a kroniky; univerzity a odborné instituce; oficiální seznamy UNESCO a dalších forem ochrany dědictví. Turistické portály a komunitní zdroje mohou objevit kandidáta, ale důležitá fakta, přesnou polohu, přístupnost a historii ověřuj kvalitnějšími zdroji, jsou-li dostupné. Existence atrakce sama o sobě nedokazuje její příslušnost k PSČ. Rozlišuj doloženou historii, zaznamenanou tradici a folklor; pověst nikdy nepodávej jako prokázanou historii.
+
+### 28.6 Ověření a přiřazení k PSČ
+U každého vybraného kandidáta ověř identitu, význam, faktické podrobnosti a přesnou primární polohu. Dolož příslušnost k danému PSČ podle stávajících pravidel; kontroluj duplicity a rozlišuj fyzické místo od plošného příběhu, trasy či události. Širší rešerše nerozšiřuje geografický rozsah faktů. Místo patřící do jiného PSČ sem nezařazuj; nejasné přiřazení označ k ověření, nikdy nehádej.
+
+### 28.7 Stav pokrytí a podmínka dokončení
+V pracovních poznámkách (nikoli v produkčním JSON) eviduj u každé skupiny jeden stav: **nalezeno a ověřeno**; **prověřeno — bez relevantního výsledku**; nebo **nevyřešeno**. PSČ je rešeršně dokončeno pouze tehdy, když jsou prověřeny všechny relevantní skupiny a nezůstává podstatná nevyřešená otázka. „Bez relevantního výsledku“ je platný výsledek; vymýšlení faktů a plnění kvót je zakázáno. Tyto stavy nepřidávej do JSON bez schválené změny schématu.
+
+### 28.8 Stávající redakční pravidla zůstávají závazná
+Tato vrstva rozšiřuje objevování, nikoli pravidla významu, kvality, priority, pořadí, zdrojů, geografické příslušnosti, šestijazyčné shody, mapové klasifikace nebo validace schématu. Turistická zajímavost automaticky nepředbíhá významnější příběh definující dané místo.
+
