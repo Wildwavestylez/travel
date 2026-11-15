@@ -281,7 +281,7 @@ Vytvoř report s těmito částmi:
 4. **Matice po jednotlivých záznamech:** PSČ, ID řádku, stav záznamu, prošlé/neprošlé kontroly, počet nálezů a konečný výsledek záznamu.
 5. **Nálezy napříč PSČ:** duplicitní fakta, chybná geografická příslušnost, překryvy a problémy konzistence celého bloku.
 6. **Pokrytí turistické rešerše:** stavy jednotlivých tematických skupin a nevyřešené kandidáty.
-7. **Výsledky jazyků a mezinárodní srozumitelnosti:** samostatný výsledek pro cs, de, en, es a it, včetně dotčených ID faktů.
+7. **Výsledky jazyků a mezinárodní srozumitelnosti:** samostatný výsledek pro cs, de, en, es, fr a it, včetně dotčených ID faktů.
 8. **Technická validace:** výsledky validace schématu a JSON.
 9. **Fronta oprav:** seřazený seznam přesných oprav, závislostí a navazujících kroků.
 10. **Nevyřešené otázky a mezery v důkazech.**
