@@ -149,6 +149,14 @@ The location source and the fact's content sources serve different purposes. A l
 
 Do not duplicate fact-location objects in the six translation arrays. Store each location once alongside its source-language fact. Do not claim that a point or geographic check is verified unless it has actually been checked. Set verification flags honestly.
 
+## Mandatory map-category assignment
+
+Before completing each fact, assign exactly one `map_category` according to section 11A of `data/germany/CONTENT_STANDARD.md`. The complete allowed values are defined by `data/germany/schema.json`. Use the shared 17 identifiers exactly; never invent values or use the editorial `category` as a substitute.
+
+Classify by the fact's primary subject, not merely by the physical object or coordinates used for the pin. Use `personality` when a specific person is the central subject. Apply the precedence rules for overlaps and briefly justify borderline cases in working notes. Do not store map categories in translations or translate them. Never infer the map category from `location.type`; map classification and physical location are independent.
+
+For protected geographic-enrichment records, preserve all existing editorial content. Add or correct `map_category` only within the scope authorized by the task and the preservation rules. Before saving, verify that every fact has exactly one allowed value.
+
 ## 7. Required structure and six languages
 
 Follow `data/germany/schema.json` exactly. The schema is authoritative for required fields, allowed values, and data types.
