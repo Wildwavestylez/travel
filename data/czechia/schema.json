@@ -265,7 +265,8 @@
         "text",
         "category",
         "priority",
-        "sources"
+        "sources",
+        "map_category"
       ],
       "properties": {
         "id": {
@@ -322,6 +323,29 @@
               "type": "null"
             }
           ]
+        },
+        "map_category": {
+          "type": "string",
+          "enum": [
+            "castle",
+            "religious_site",
+            "historical_monument",
+            "architecture",
+            "historic_city",
+            "museum",
+            "archaeological_site",
+            "nature",
+            "viewpoint_landscape",
+            "park_garden",
+            "technical_heritage",
+            "cultural_site",
+            "visitor_attraction",
+            "local_culture",
+            "science_site",
+            "personality",
+            "sports_venue"
+          ],
+          "description": "Exactly one stable, language-neutral map category for the fact's primary subject. Used for future map iconography only; the existing category field retains its broader editorial meaning. Independent of the fact's physical location."
         }
       }
     },
