@@ -157,7 +157,7 @@ Classify by the fact's primary subject, not merely by the physical object or coo
 
 For protected geographic-enrichment records, preserve all existing editorial content. Add or correct `map_category` only within the scope authorized by the task and the preservation rules. Before saving, verify that every fact has exactly one allowed value.
 
-## 7. Required structure and six languages
+## 7. Required structure and seven languages
 
 Follow `data/germany/schema.json` exactly. The schema is authoritative for required fields, allowed values, and data types.
 
@@ -170,13 +170,14 @@ Each source-language fact must include the current required fields, including:
 
 Use sequential fact IDs: `fact_001`, `fact_002`, and so on. Renumber the final list if facts are removed. The same ID must represent the same fact in every language.
 
-Every record must contain all six languages:
+Every record must contain all seven languages:
 - `cs`
 - `de`
 - `en`
 - `es`
 - `fr`
 - `it`
+- `nl` (standard Netherlands Dutch, `nl-NL`; natural and understandable to Flemish readers as well)
 
 Each translation must include `representative_place` and `facts`. Each translated fact must include `id`, `title`, and `text`. All six language versions must contain exactly the same fact IDs in the same order. Translate naturally and accurately; preserve the meaning, factual detail, and editorial priority of the source-language facts.
 
@@ -261,7 +262,7 @@ The two-pass method is mandatory for ordinary editorial rework. It does not auth
 This addendum supersedes only any earlier shorthand instruction to perform a single simple research pass. All other existing rules remain in force.
 ## Mandatory addendum — international readability and cultural context
 
-This rule is mandatory for every newly written or substantively rewritten fact and for each of its six language versions. It applies together with the complete German Content Standard and does not change the schema.
+This rule is mandatory for every newly written or substantively rewritten fact and for each of its seven language versions. It applies together with the complete German Content Standard and does not change the schema.
 
 Write for an international reader who may never have visited Germany and may know nothing about German history, culture, institutions, traditions or local terminology. Correct translation alone is not sufficient: translate the meaning and the necessary context, not just the words.
 
@@ -270,7 +271,7 @@ Write for an international reader who may never have visited Germany and may kno
 - Explain country-specific institutions, movements, customs, memorial forms, historical events and concepts where a foreign reader would otherwise miss their meaning.
 - For historical events, add concise context about what happened, when or why it matters whenever needed to understand the fact.
 - Do not leave unexplained abbreviations, local administrative labels, dialect expressions or culturally specific references that are essential to understanding.
-- Apply this requirement independently in cs, de, en, es, fr and it. Do not assume that an explanation in one language makes another version understandable.
+- Apply this requirement independently in cs, de, en, es, fr, it and nl. Do not assume that an explanation in one language makes another version understandable.
 - Integrate explanations naturally and concisely. Do not turn every fact into an encyclopaedia entry or add context that does not help the reader.
 - Never invent background, interpretations or significance. Context must be supported by reliable sources.
 
@@ -278,4 +279,4 @@ Example: do not merely say that Stolpersteine commemorate victims of Nazism. Exp
 
 Before saving, apply the reader test to every language: could a person with no prior knowledge of the country understand what the subject is, what an unfamiliar term means, the necessary historical or cultural context, and why the fact is significant? If not, improve that language version before completion.
 
-This is a normal part of writing and translation, not a separate optional editorial pass. The basic validation in this prompt must confirm that all six versions pass this test.
+This is a normal part of writing and translation, not a separate optional editorial pass. The basic validation in this prompt must confirm that all seven versions pass this test.
