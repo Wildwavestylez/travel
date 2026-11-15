@@ -142,6 +142,14 @@ Před jakoukoli změnou sporného PSČ ověř: skutečnou fyzickou polohu; konkr
 **Nikdy nerozbourej existující geografické přiřazení ani obsah na základě jediného PSČ nalezeného na webu instituce.**
 
 
+## Povinná mapová klasifikace faktů
+
+Před dokončením každého faktu přiřaď právě jednu `map_category` podle oddílu 11A v `data/czechia/CONTENT_STANDARD.md`. Povolené hodnoty a jejich význam jsou závazně definovány v `data/czechia/schema.json`. Používej všech 17 sdílených identifikátorů přesně; nevytvářej vlastní hodnoty ani nepoužívej obsahovou `category` jako náhradu mapové kategorie.
+
+Rozhoduj podle hlavního tématu faktu, nikoli pouze podle fyzického objektu nebo souřadnic pinu. U osobnostního faktu použij `personality`, pokud je konkrétní osoba hlavním tématem. Při překryvu uplatni pravidla přednosti a hraniční případy zdůvodni v pracovních poznámkách. Mapová kategorie se neukládá do překladů a nepřekládá se. Neodvozuj ji z `location.type`; mapová klasifikace a fyzická poloha jsou nezávislé údaje.
+
+Při geografickém obohacení existujícího chráněného záznamu zachovej veškerý existující redakční obsah; doplň nebo oprav `map_category` pouze v rozsahu povoleném příslušným zadáním a pravidly zachování dat. Před uložením ověř, že každý fakt má právě jednu povolenou hodnotu.
+
 ## Závazná synchronizace sequence a groups
 
 Pole `sequence` v `data/czechia/sequence.json` je kanonický úplný seznam všech PSČ zahrnutých do projektu. Pole `groups` je jeho členění a musí obsahovat každé PSČ z `sequence` právě jednou. Před každým pracovním blokem porovnej oba seznamy: počet, unikátnost i přesnou množinu kódů. Jejich počty a množiny se musí shodovat. Pokud se liší, zastav výběr bloku a nahlas nesoulad; nepracuj pouze podle jedné části souboru a nic automaticky nemaž.
