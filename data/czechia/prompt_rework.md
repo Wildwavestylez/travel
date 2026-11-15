@@ -140,3 +140,10 @@ Při každém reworku bez výjimky dodrž oddíl 3.5 českého Content Standardu
 Před jakoukoli změnou sporného PSČ ověř: skutečnou fyzickou polohu; konkrétní adresní místo v RÚIAN; účel PSČ uvedeného institucí; zda nejde o poštovní/korespondenční údaj; a soulad s aktuální sequence. Pokud něco z toho chybí, PSČ ani sequence neměň, rozpor zaznamenej a pokračuj jen v bezpečné části práce.
 
 **Nikdy nerozbourej existující geografické přiřazení ani obsah na základě jediného PSČ nalezeného na webu instituce.**
+
+
+## Závazná synchronizace sequence a groups
+
+Pole `sequence` v `data/czechia/sequence.json` je kanonický úplný seznam všech PSČ zahrnutých do projektu. Pole `groups` je jeho členění a musí obsahovat každé PSČ z `sequence` právě jednou. Před každým pracovním blokem porovnej oba seznamy: počet, unikátnost i přesnou množinu kódů. Jejich počty a množiny se musí shodovat. Pokud se liší, zastav výběr bloku a nahlas nesoulad; nepracuj pouze podle jedné části souboru a nic automaticky nemaž.
+
+PSČ s vlastním doručovacím obvodem, která jsou výslovně uvedena v `sequence`, patří do rozsahu projektu stejně jako ostatní položky, i když jejich území není rozepsáno v `localities` nebo nejsou součástí běžné číselné řady. Prázdné `localities` znamená pouze to, že seznam lokalit není v tomto souboru specifikován; neznamená to, že PSČ nemá vlastní územní/doručovací rozsah. Při reworku musí být skutečný rozsah ověřen samostatně podle Content Standardu. Nevymýšlej lokality ani nepřebírej území sousedního PSČ.
