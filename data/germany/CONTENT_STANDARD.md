@@ -306,53 +306,58 @@ An external place may be mentioned briefly in the text of an in-boundary fact on
 
 Never duplicate one attraction or fact across neighboring postcode records. Each mapped fact belongs to exactly one postcode: the postcode containing its verified primary location.
 
-## 11A. Standardized map categories (V3.1)
+## 11A. Standardized TRAVEL map categories (shared taxonomy V1)
 
-Every fact MUST have exactly one `map_category`. This is a precise, visitor-facing classification used to choose the map pin icon. It does not replace or change the existing `category` field, which remains the broad editorial/research classification.
+Every fact MUST have exactly one `map_category`. This is a stable, language-neutral classification of the fact's primary subject and will determine the future Europe Explorer map icon. It does not replace or alter the existing `category` field, which remains the broader editorial/research classification.
 
-Use exactly one of these machine values:
+Use exactly these 17 values:
 
-| map_category | Map icon | Meaning and assignment rule |
+| map_category | Indicative symbol | Meaning and assignment rule |
 |---|---|---|
-| `castle` | 🏰 | A specific castle, palace, fortress, manor house or comparable fortified/noble residence. |
-| `cultural_site` | 🎭 | A theatre, opera house, concert hall, cultural centre or other venue whose primary identity is hosting live performance or public cultural activity. Do not use for museums or buildings whose cultural use is incidental. |
-| `historical_monument` | 🏛️ | A secular historical monument, memorial, archaeological remnant or heritage site that is not primarily a castle, religious site, museum or technical site. |
-| `nature` | 🌲 | A natural feature, protected natural site, forest, geological formation, water feature, habitat or biodiversity location. |
-| `viewpoint_landscape` | 🏞️ | A viewpoint, scenic overlook, panorama, distinctive landscape area or route whose primary value is the view/landscape. |
-| `historic_city` | 🏙️ | A historic town centre, old town, historic square/street ensemble or clearly defined urban heritage area. Do not use for a single building. |
-| `museum` | 🏺 | A museum, exhibition collection, visitor centre or interpretive institution whose primary purpose is displaying or explaining collections/history. |
-| `religious_site` | ⛪ | A church, cathedral, monastery, synagogue, mosque, chapel, cemetery or other specifically religious/sacred site. |
-| `technical_heritage` | 🏗️ | A historically or technically significant industrial, engineering, transport, energy, mining or infrastructure site/object. |
-| `personality` | 👤 | A fact whose primary subject is a specific person with a documented connection to the postcode. Use this category even when the person is represented by a house, workplace, factory, memorial, grave or postcode-level fallback point. |
+| `castle` | 🏰 | Castles, palaces, manor houses, fortresses, forts, fortified residences and ruins of these sites. |
+| `religious_site` | ⛪ | Churches, cathedrals, chapels, monasteries, synagogues, mosques, pilgrimage sites and other primarily religious/sacred places. |
+| `historical_monument` | 🗿 | Monuments, memorials, commemorative sites, historical monuments, significant fountains and public commemorative/art works not better classified elsewhere. |
+| `architecture` | 🏛️ | A single significant building or architectural work whose primary identity is not a castle, religious building, museum or technical heritage site. |
+| `historic_city` | 🏙️ | Historic centres, old towns, squares, streets and coherent historic urban ensembles; never a single building. |
+| `museum` | 🏺 | Museums, galleries, open-air museums, collections, memorial/documentation centres and visitor centres primarily presenting or interpreting collections, history or a subject. |
+| `archaeological_site` | 🏺 | Archaeological sites, prehistoric settlements, excavations and places whose primary value is archaeological research or surviving archaeological remains. |
+| `nature` | 🌳 | Protected areas, natural features, forests, waterfalls, lakes, rivers, habitats, geological phenomena and other natural locations. |
+| `viewpoint_landscape` | 🏞️ | Observation towers, viewpoints, panoramas, distinctive scenery and landscape areas whose main visitor value is the view or landscape. |
+| `park_garden` | 🌷 | Public and historic parks, gardens, botanical gardens, arboreta, zoos, safari/wildlife parks, bird parks, aquariums and butterfly houses: managed parks and living collections. |
+| `technical_heritage` | ⚙️ | Technical, industrial, mining, energy, transport and engineering heritage, historic factories, mines, railways, bridges and infrastructure. |
+| `cultural_site` | 🎭 | Theatres, opera houses, concert halls, cultural centres and other physical venues primarily dedicated to live arts or public cultural activity. Not museums. |
+| `visitor_attraction` | 🎡 | Significant visitor experiences and attractions without a more precise primary category, such as amusement/water parks, accessible caves and underground sites, historic spas, scenic cruises or visitor-accessible operations. |
+| `local_culture` | 🎎 | Local traditions, folklore, customs, crafts, festivals, gastronomic heritage and other intangible/community cultural phenomena, not their separate buildings or cultural venues. |
+| `science_site` | 🔭 | Significant, visitor-relevant scientific or research places, such as observatories, planetariums, science centres and accessible research institutions. Ordinary schools or universities do not qualify automatically. |
+| `personality` | 👤 | A fact whose primary subject is a specific person with a documented connection to the postcode, regardless of the physical location used for the map pin. |
+| `sports_venue` | 🏟️ | Significant stadiums, sports arenas, historic sports grounds and sports complexes with documented visitor, historical or wider public value. |
+
+The symbols are indicative thematic examples only. They are not JSON data or final graphic assets. The future map icon set will be keyed to the stable `map_category` values; changing icon artwork must not require changing data identifiers.
 
 ### Binding classification rules
-- Choose the category according to the fact's **primary subject**, not merely the physical object at which the pin is placed.
-- If the fact is primarily about a specific person, always use `personality`, even when the verified map location is that person's former home, workplace, factory, memorial, grave, museum or the postcode representative point. The pin location answers “where is this person connected to this postcode?”; the `personality` map category answers “who/what is this fact about?”.
-- Use `personality` only when the person is the central subject of the fact. A passing mention of a person in a fact primarily about a building, company, event or institution does not make it a personality fact.
-- Assign exactly one primary value. Do not create combined values or add new values ad hoc.
-- When a site could fit several categories, classify by its primary identity: museum institution → `museum`; religious site → `religious_site`; castle/palace/fortress → `castle`; industrial/engineering/transport object → `technical_heritage`; historic urban ensemble → `historic_city`; otherwise choose the best-fitting monument, nature or landscape category.
-- A fact about a person uses `personality` regardless of the selected physical location. Facts about companies, events, films or traditions are classified by their principal mapped subject/location where possible. If no single physical place exists but the fact is genuinely tied to the current postcode area, use the postcode-level representative-location fallback defined below; do not leave the fact without a map pin merely because its subject is area-wide.
-- Do not classify a fact as a museum merely because a museum is mentioned as a source or nearby attraction.
-- Map categories do not determine fact priority, inclusion, wording or editorial ranking.
-- The value is language-neutral and is not translated in the six language versions.
+
+- Choose according to the fact's **primary subject**, not merely the physical object used for the pin.
+- Every fact has exactly one map category. Never use combined values, custom variants or ad hoc categories.
+- If the primary subject is a specific person, always use `personality`, even when the pin is at their home, workplace, museum, memorial, grave or postcode representative point. An incidental mention of a person does not trigger this category.
+- Castles, palaces, forts and fortresses use `castle`; religious buildings and pilgrimage sites use `religious_site`; museums and galleries use `museum`; archaeological locations use `archaeological_site`.
+- A coherent historic urban ensemble uses `historic_city`; a single significant building uses `architecture`, unless a more specific category applies.
+- A primary technical or industrial identity takes precedence over generic architecture. Historic water infrastructure uses `technical_heritage`; a natural water feature uses `nature`.
+- Protected nature and natural features use `nature`; a viewpoint or landscape whose main value is the panorama uses `viewpoint_landscape`.
+- Botanical gardens, arboreta, zoos, aquariums and comparable living collections use `park_garden`. Amusement and water parks use `visitor_attraction`.
+- A physical venue primarily dedicated to live arts uses `cultural_site`; a museum remains `museum`. Traditions and intangible cultural practices use `local_culture`.
+- A `science_site` must have a genuine scientific/research identity and independent visitor, historical or public significance. Ordinary educational institutions do not automatically qualify.
+- A significant sports venue uses `sports_venue`; an ordinary local playing field or facility without special significance is not automatically a fact.
+- `visitor_attraction` is a fallback only when the primary nature of the place/experience does not fit a more precise category. Do not use it instead of a castle, museum, natural site, technical heritage site, etc.
+- UNESCO is not a separate map category. Classify the site by its actual subject.
+- Military history does not determine the category by itself: a fortress may be `castle`, a battlefield or memorial site `historical_monument`, and military technology/infrastructure `technical_heritage`.
+- Map category does not determine fact priority, order, significance or inclusion. The value is language-neutral and is not translated in the six language versions.
+- Map category and geographic location are independent. Never infer the category solely from the type or name of the coordinate point.
+
+For borderline cases, classify by the primary identity and main message of the fact, apply the precedence rules above, and briefly justify the choice in working notes. If the primary subject cannot be determined, clarify the fact editorially rather than inventing a new category.
 
 ### Geographic fallback for facts tied to the postal-code area
 
-The record is about the individual postal-code area. When a fact genuinely belongs to that area but has no single defensible physical point, it must still receive a usable map location so Europe Explorer can display it.
-
-- **Local customs, traditions, language, folklore, cultural identity and other area-wide practices:** use the postcode's existing `representative_point` as the fact location. Do not omit a relevant local fact merely because the practice has no single venue or address.
-- **People:** first identify and verify a concrete place in this postcode that the person was connected with (for example birthplace, residence, workplace, place of study, creative work, documented activity, memorial or burial place). Use that place when the relationship is supported.
-- If no defensible person-related physical place can be identified within the postcode, use the postcode's `representative_point`. The fact text MUST explicitly explain why the person is important to this particular postal-code area and what the documented local connection is. A biography without a meaningful connection to the postcode is not sufficient.
-- For these fallback pins, set `facts[].location.lat` and `lon` to the exact existing `representative_point` coordinates; set `name` to the postcode's `representative_place`; set `type` to `postal_area`; and set `accuracy` to `area_representative`. Do not invent a new coordinate or use `access_point`.
-- The `location.source` must support the representative place/point. The fact's own sources must independently support the local custom or the person's connection and significance.
-- A fallback pin means that the fact is associated with the postal-code area, not that the custom or person-related event occurred at the representative place itself. Do not imply otherwise in the fact text.
-- This fallback applies only to facts belonging to the current postcode. Facts about a wider county, Bundesland or region belong in a separately scoped record, not copied into an individual postcode without a genuine local connection.
-
-This is a map-display assignment for existing postcode-level content. It does not change the editorial meaning, selection or wording standards. The ten allowed `map_category` values are defined above. For person-centred facts, `personality` takes precedence over the category of the physical site used for the pin.
-
-During geographic enrichment of protected completed records, preserve every existing fact field and add both `location` and `map_category` as the only permitted new fact-level metadata. Select the map category from the fact's established subject; do not rewrite the fact itself.
-
----
+The existing national geographic fallback rules below remain in force. The shared map taxonomy does not change how a country's representative point, access point or fact location is verified.
 
 ## 12. History
 
