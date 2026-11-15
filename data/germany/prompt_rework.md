@@ -233,3 +233,22 @@ A geographic-enrichment record is complete when every fact has an explicit locat
 ---
 
 **Operating principle: use the simple V1.2 workflow. Keep the V3 geographic requirements and all current schema additions. Check each postcode once, save it, and move on. The cross-postcode final audit happens separately after the whole section is complete.**
+---
+## Mandatory addendum — expanded tourist discovery and two-pass research
+
+Apply this addendum together with the complete current German Content Standard. It supplements the existing workflow and does not replace schema, geographic, editorial, source, preservation or translation rules.
+
+For every postcode undergoing ordinary editorial rework:
+
+1. Keep the existing geographic procedure. Verify the postcode area and the primary location of every candidate under the current German Content Standard. Wider research is for discovery/context only and does not authorize assigning an outside attraction to this postcode.
+2. **Pass 1 — broad discovery:** search postcode, municipality, locality and relevant historic names across official tourism portals, heritage registers, museums, municipal/regional sources, nature authorities, specialist institutions and local-history sources. Discover defining attractions and stories without relying only on the old record or first general results.
+3. **Pass 2 — category audit:** use section 29.2 of the German Content Standard as a checklist. Deliberately search every relevant group, including museums and specialist collections, architecture, religious heritage, monuments, archaeology, protected nature, geology, viewpoints, gardens, zoos, aquariums, caves/underground sites, technical and transport heritage, memorials, visitor attractions, UNESCO, local stories/legends, historical events, people, film/literature/music, traditions, crafts and food heritage.
+4. Apply section 29.3 exclusions: ordinary cemeteries, graves and contemporary businesses are not routine tourist facts; only the narrow documented heritage/visitor-value exceptions qualify.
+5. Verify each selected candidate's identity, significance, facts, exact primary location, postcode ownership, source support and duplication status. Never infer postcode assignment from a city, district or proximity.
+6. Record working-note coverage states for every group: found and verified; checked with no qualifying result; or unresolved. Do not add these statuses to JSON. A relevant unresolved group or material location issue prevents completion.
+7. Only then select and write facts under the existing significance, priority, no-quota, source, map-category, location, translation and schema rules. Tourism has no automatic editorial priority.
+
+The two-pass method is mandatory for ordinary editorial rework. It does not authorize changes to protected records during geographic-only enrichment: the existing preservation exception remains binding. For a task explicitly limited to geographic enrichment, do not perform editorial research or change protected text.
+
+This addendum supersedes only any earlier shorthand instruction to perform a single simple research pass. All other existing rules remain in force.
+
