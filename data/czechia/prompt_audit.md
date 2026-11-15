@@ -313,3 +313,10 @@ Netvrď, že záloha existuje nebo je ověřena, dokud nebyla skutečně vytvoř
 ## 9. Závěrečný provozní princip
 
 **Audituj celý blok, nikoli vzorek. Ověř rework podle aktuálního standardu. Zaznamenej důkazy a přesné vady. Během auditu tiše neopravuj produkční data. Schválené opravy znovu audituj. Teprve potom potvrď výsledek a připrav neměnný AUDITED snapshot.**
+
+
+### Povinná kontrola synchronizace sequence a groups
+
+Před auditem bloku ověř, že `sequence` je kanonický úplný seznam a `groups` jeho úplné členění. Porovnej přesnou množinu PSČ, počet a unikátnost. Každý kód musí být v obou strukturách právě jednou; musí platit `count = sequence.length = součet položek groups`. Jakýkoli rozdíl je nález HIGH a blok nesmí dostat PASS, dokud není vysvětlen a opraven se schválením. Nevyvozuj automaticky, že je správná jedna část a druhá chybná.
+
+Zkontroluj také PSČ s vlastním doručovacím obvodem, včetně těch, která nejsou v běžné číselné řadě. Pokud je kód v `sequence`, patří do rozsahu auditu. Prázdné `localities` neznamená, že nemá vlastní územní rozsah; ověř jej podle Content Standardu a nepřidávej domnělé lokality.
