@@ -828,4 +828,41 @@ V pracovních poznámkách (nikoli v produkčním JSON) eviduj u každé skupiny
 
 ### 28.8 Stávající redakční pravidla zůstávají závazná
 Tato vrstva rozšiřuje objevování, nikoli pravidla významu, kvality, priority, pořadí, zdrojů, geografické příslušnosti, šestijazyčné shody, mapové klasifikace nebo validace schématu. Turistická zajímavost automaticky nepředbíhá významnější příběh definující dané místo.
+---
 
+## 29. Mezinárodní srozumitelnost a kulturní kontext
+
+### 29.1 Závazný princip
+
+Každý fakt musí být srozumitelný zahraničnímu čtenáři, který nemusel nikdy navštívit Českou republiku a nemusí znát její historii, kulturu, instituce, tradice ani místní pojmy. Požadavek platí pro původní text i samostatně pro všech šest jazykových verzí.
+
+Správný překlad nestačí. Text musí předat význam i kontext potřebný k pochopení.
+
+### 29.2 Vysvětlování místních a národních reálií
+
+- Při prvním smysluplném výskytu vysvětli neznámé kulturní, historické, institucionální, politické, náboženské, společenské a správní pojmy.
+- Zachovávej správné vlastní názvy, ale podle potřeby uveď, co označují a proč jsou důležité.
+- Vysvětluj české instituce, hnutí, zvyky, pamětní formy, historické události a specifické pojmy, pokud by jejich význam nebyl zahraničnímu čtenáři zřejmý.
+- U historických událostí doplň stručný kontext toho, co se stalo, kdy nebo proč je událost důležitá, pokud je to nutné pro pochopení.
+- Nenechávej bez vysvětlení podstatné zkratky, místní správní označení, nářeční výrazy ani kulturně specifické odkazy.
+
+### 29.3 Samostatná srozumitelnost šesti jazyků
+
+Požadavek uplatni samostatně v cs, de, en, es, fr a it. Žádná jazyková verze nesmí spoléhat na vysvětlení obsažené pouze v jiném jazyce. Všechny verze musí zachovat stejný faktický význam a potřebný kontext, ale přirozenou formulací v daném jazyce. Doslovný překlad, kterému cílový čtenář nerozumí, není vyhovující.
+
+### 29.4 Stručnost, přesnost a zdroje
+
+Vysvětlení přirozeně začleňuj a zachovávej přiměřenou délku. Nedělej z každého faktu encyklopedické heslo ani nepřidávej nepodstatné pozadí. Nevymýšlej kontext, interpretace ani význam; vysvětlující tvrzení musí být podložena důvěryhodnými zdroji. Vlastní názvy zachovávej přesně a nevyráběj jejich překlady.
+
+Příklad: zmínka o Stolpersteine má vysvětlit, že jde o malé mosazné pamětní destičky zasazené do chodníku, obvykle před posledním svobodně zvoleným bydlištěm lidí pronásledovaných nebo zavražděných nacistickým režimem, přičemž každá destička připomíná konkrétního člověka. Pouhé označení „pamětní kameny“ neposkytuje neznalému čtenáři dostatečný kontext.
+
+### 29.5 Čtenářský test
+
+U každého faktu a v každém jazyce ověř:
+1. Pozná čtenář bez předchozích znalostí, o jaký objekt či téma jde?
+2. Jsou neznámé místní pojmy a vlastní názvy podle potřeby vysvětleny?
+3. Obsahuje text historický, kulturní či institucionální kontext nutný k pochopení?
+4. Pochopí čtenář, proč je fakt místně nebo historicky významný?
+5. Je každé vysvětlení přesné, stručné a podložené?
+
+Pokud je některá odpověď záporná, text není vyhovující a musí být opraven už při reworku.
