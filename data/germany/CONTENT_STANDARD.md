@@ -350,7 +350,7 @@ The symbols are indicative thematic examples only. They are not JSON data or fin
 - `visitor_attraction` is a fallback only when the primary nature of the place/experience does not fit a more precise category. Do not use it instead of a castle, museum, natural site, technical heritage site, etc.
 - UNESCO is not a separate map category. Classify the site by its actual subject.
 - Military history does not determine the category by itself: a fortress may be `castle`, a battlefield or memorial site `historical_monument`, and military technology/infrastructure `technical_heritage`.
-- Map category does not determine fact priority, order, significance or inclusion. The value is language-neutral and is not translated in the six language versions.
+- Map category does not determine fact priority, order, significance or inclusion. The value is language-neutral and is not translated in the seven language versions.
 - Map category and geographic location are independent. Never infer the category solely from the type or name of the coordinate point.
 
 For borderline cases, classify by the primary identity and main message of the fact, apply the precedence rules above, and briefly justify the choice in working notes. If the primary subject cannot be determined, clarify the fact editorially rather than inventing a new category.
@@ -662,7 +662,7 @@ Check:
 
 ### Proper names, local terminology and cultural context
 
-All six language versions are written for readers who may have no prior knowledge of German language, history, institutions or popular culture. German source material does NOT mean that German terms can be left unexplained in the published content.
+All seven language versions are written for readers who may have no prior knowledge of German language, history, institutions or popular culture. German source material does NOT mean that German terms can be left unexplained in the published content.
 
 The goal is that a reader can understand the fact naturally without opening a German dictionary or having to research an unfamiliar local reference independently.
 
@@ -678,7 +678,7 @@ Binding rules:
 - For cultural references, provide enough context for someone outside Germany to understand their significance. Do not assume that a Czech, Spanish, French, Italian or international English-speaking reader knows a German children's television character, local custom, historical institution or regional expression.
 - Use the established conventional translation of a name when one genuinely exists and is familiar to the target audience. Otherwise retain the official name and add a concise explanation in the surrounding sentence.
 - Explanations must be accurate, proportionate and relevant to the fact. Do not add long dictionary definitions or unnecessary background where a short clarification is enough.
-- Apply this independently in CS, DE, EN, ES, FR and IT. A phrase that is obvious to a German reader may still require explanation in the other five languages. Do not assume that one language's explanation automatically works in another.
+- Apply this independently in CS, DE, EN, ES, FR, IT and NL. A phrase that is obvious to a German reader may still require explanation in the other five languages. Do not assume that one language's explanation automatically works in another.
 - Translations must sound natural to native readers. Do not mechanically copy a German sentence structure or use the same explanatory wording in every language if a more natural local formulation is available.
 - Keep the official name and the explanation consistent across all facts in the same record. Explain a term on first relevant use; avoid repeating the full explanation unnecessarily later.
 
@@ -819,7 +819,7 @@ The fact's existing `sources` remain unchanged during a coordinate-only enrichme
 
 A URL that only mentions the name of a city or district is not sufficient evidence for the precise location of a building or feature.
 
-## 27. Six-language storage and preservation of existing facts
+## 27. Seven-language storage and preservation of existing facts
 
 The location object is stored once on the source-language item in `facts[]`.
 
@@ -830,13 +830,14 @@ Do NOT add coordinates or duplicate `location` objects to:
 - `translations.es.facts[]`
 - `translations.fr.facts[]`
 - `translations.it.facts[]`
+- `translations.nl.facts[]`
 
 Translation fact IDs and order remain unchanged.
 
 During a geographic-enrichment pass, preserve verbatim:
 - every existing fact `id`, `title`, and `text`;
 - every existing fact `category`, `priority`, and `sources`;
-- all six translation objects, including their representative-place wording and every translated fact ID, title, text, and order;
+- all seven translation objects, including their representative-place wording and every translated fact ID, title, text, and order;
 - all unrelated postcode metadata and verification fields.
 
 The only intended content change in that pass is adding `facts[].location` metadata. Do not rewrite facts to make them easier to geocode. If a factual or translation defect is discovered, report it separately for a separately authorized editorial task.
@@ -906,14 +907,14 @@ For every selected candidate, verify identity, significance, factual details and
 Keep working notes (not production JSON) for every checklist group: **found and verified**; **checked — no qualifying result**; or **unresolved**. A postcode is research-complete only when every relevant group has been checked and no material unresolved issue remains. No qualifying result is valid; invented facts and quota-filling are prohibited. Do not add these statuses to JSON without an explicitly approved schema revision.
 
 ### 29.8 Existing editorial rules remain binding
-This layer broadens discovery only. Existing rules still govern significance, selection, priority, ordering, evidence, geography, map classification, six-language parity and schema validation. A tourist attraction does not automatically outrank a more important defining local story.
+This layer broadens discovery only. Existing rules still govern significance, selection, priority, ordering, evidence, geography, map classification, seven-language parity and schema validation. A tourist attraction does not automatically outrank a more important defining local story.
 ---
 
 ## 30. International readability and cultural context
 
 ### 30.1 Binding principle
 
-Every fact must be understandable to an international reader who may never have visited Germany and may have no prior knowledge of German history, culture, institutions, traditions or local terminology. This requirement applies to the original text and independently to all six language versions.
+Every fact must be understandable to an international reader who may never have visited Germany and may have no prior knowledge of German history, culture, institutions, traditions or local terminology. This requirement applies to the original text and independently to all seven language versions.
 
 Correct translation is not enough. The text must communicate the meaning and the context needed to understand it.
 
@@ -927,7 +928,7 @@ Correct translation is not enough. The text must communicate the meaning and the
 
 ### 30.3 Six-language independence
 
-Apply the requirement separately to cs, de, en, es, fr and it. No language version may rely on context supplied only in another language. All versions must preserve the same factual meaning and necessary explanatory context, expressed naturally in that language. A literal translation that remains opaque to its intended reader is not compliant.
+Apply the requirement separately to cs, de, en, es, fr, it and nl. No language version may rely on context supplied only in another language. All versions must preserve the same factual meaning and necessary explanatory context, expressed naturally in that language. A literal translation that remains opaque to its intended reader is not compliant.
 
 ### 30.4 Concision, accuracy and evidence
 
