@@ -280,3 +280,22 @@ Example: do not merely say that Stolpersteine commemorate victims of Nazism. Exp
 Before saving, apply the reader test to every language: could a person with no prior knowledge of the country understand what the subject is, what an unfamiliar term means, the necessary historical or cultural context, and why the fact is significant? If not, improve that language version before completion.
 
 This is a normal part of writing and translation, not a separate optional editorial pass. The basic validation in this prompt must confirm that all seven versions pass this test.
+
+
+## NON-NEGOTIABLE STATUS AND SAVE RULE — NEVER USE DRAFT FOR FINISHED WORK
+
+This rule is mandatory and overrides any ambiguous wording elsewhere in this prompt or in an informal working procedure.
+
+**A finished postcode rework MUST be saved directly with `status = 'validated'`. A finished final audit MUST be saved directly with `status = 'published'`. A finished record MUST NEVER be left in or moved to `draft`.**
+
+- **Completed rework → `validated` immediately.** Once the postcode rework is complete, its required content has been written to the existing Supabase row, and the applicable rework validation has been performed, save/retain that row as `validated`.
+- **Completed final audit → `published` immediately.** Once the final audit of the relevant record/section is complete and passes, save/retain the audited record as `published`.
+- **`draft` is not a staging area, fallback, intermediate destination, or place to park completed work.** Do not save finished postcode content to `draft` for later review, even if a field, fact, translation, coordinate, source, metadata item, or other requirement is missing.
+- Missing or unresolved information does **not** change the destination status to `draft`. Complete everything that can be responsibly verified, represent genuinely unavailable optional/nullable data exactly as the schema permits, and document/report any material unresolved issue. Never invent information to make a record pass.
+- If a required condition genuinely prevents completion or validation, do not falsely claim the rework or audit is finished. Report the exact blocker and leave the record in its existing non-complete state; do not move it to `draft` as a workaround. Continue with other eligible records when possible.
+- Never downgrade an already completed `validated` or `published` record to `draft` as part of routine rework, translation, enrichment, or audit.
+- After every write, verify the actual persisted database status. A successful content write without confirmation of the required status is not a completed operation.
+
+**The required lifecycle is: unfinished work stays in its existing working state → completed rework = `validated` → completed and passed final audit = `published`. There is no completed-work-to-`draft` path.**
+
+This status rule governs every German postcode rework and audit handled under this prompt. It is an operational requirement, not permission to alter database schema, RLS policies, or application logic.
