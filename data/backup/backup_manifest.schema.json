@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Wildwavestylez/travel/blob/main/data/backup/backup_manifest.schema.json",
+  "title": "TRAVEL Backup Manifest",
+  "description": "Manifest for immutable full backups and postcode work-wave snapshots.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "backup_id",
+    "backup_type",
+    "created_at",
+    "source",
+    "scope",
+    "data_version",
+    "record_count",
+    "fingerprint",
+    "storage",
+    "validation"
+  ],
+  "properties": {
+    "manifest_version": { "type": "string", "const": "1.0" },
+    "backup_id": { "type": "string", "minLength": 1 },
+    "backup_type": {
+      "type": "string",
+      "enum": ["FULL_DATABASE", "WORK_WAVE", "MANUAL"]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["platform", "project_id", "table"],
+      "properties": {
+        "platform": { "type": "string", "const": "supabase" },
+        "project_id": { "type": "string" },
+        "table": { "type": "string" },
+        "environment": { "type": "string" }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country_codes", "record_ids", "postcodes"],
+      "properties": {
+        "country_codes": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "uniqueItems": true
+        },
+        "operation": {
+          "type": "string",
+          "enum": ["REWORK", "AUDIT", "CORRECTION", "IMPORT", "MANUAL", "FULL"]
+        },
+        "region": { "type": ["string", "null"] },
+        "postcode_group": { "type": ["string", "null"] },
+        "wave_id": { "type": ["string", "null"] },
+        "predecessor_backup_id": { "type": ["string", "null"] },
+        "selection_description": { "type": ["string", "null"] },
+        "record_ids": {
+          "type": "array",
+          "items": { "type": ["string", "integer"] },
+          "uniqueItems": true
+        },
+        "postcodes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "members_complete": { "type": "boolean", "default": false }
+      }
+    },
+    "data_version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version"],
+      "properties": {
+        "schema_version": { "type": "string" },
+        "content_version": { "type": ["string", "integer", "null"] }
+      }
+    },
+    "record_count": { "type": "integer", "minimum": 0 },
+    "fingerprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["algorithm", "canonical_scope_hash"],
+      "properties": {
+        "algorithm": { "type": "string", "const": "SHA-256" },
+        "canonical_scope_hash": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+        "object_sha256": { "type": ["string", "null"], "pattern": "^[a-fA-F0-9]{64}$" }
+      }
+    },
+    "storage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "path", "immutable"],
+      "properties": {
+        "provider": { "type": "string", "const": "dropbox" },
+        "path": { "type": "string", "minLength": 1 },
+        "immutable": { "type": "boolean", "const": true }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "structural_validation", "readback_verified"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["PENDING", "VERIFIED", "FAILED"]
+        },
+        "structural_validation": { "type": "boolean" },
+        "readback_verified": { "type": "boolean" },
+        "verified_at": { "type": ["string", "null"], "format": "date-time" },
+        "verified_record_count": { "type": ["integer", "null"], "minimum": 0 },
+        "verified_scope_hash": { "type": ["string", "null"] },
+        "error": { "type": ["string", "null"] }
+      }
+    },
+    "retention": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "class": {
+          "type": "string",
+          "enum": ["WORK_WAVE_HISTORY", "DAILY_FULL", "MONTHLY_ARCHIVE"]
+        },
+        "delete_after": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}
