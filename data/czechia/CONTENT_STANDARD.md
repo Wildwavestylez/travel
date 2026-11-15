@@ -50,10 +50,10 @@ Cílem je co nejvyšší hustota důvěryhodných, významných a překvapivých
 
 Projekt rozlišuje dvě různé otázky a nepoužívá pro ně jednu univerzální autoritu:
 
-- **ČSÚ — autorita pro oficiální evidenci a klasifikaci PSČ.** Pro ověření existence a typu kódu používej číselník ČSÚ PSČ (kódový seznam 0028) a související číselník typu PSČ 0029. Číselník 0028 může obsahovat geografická i organizační PSČ; samotná přítomnost kódu v číselníku proto ještě nedokazuje, že jde o geografické PSČ použitelné pro územní obsah TRAVEL.
+- **ČSÚ — autorita pro oficiální evidenci PSČ.** Pro ověření oficiální evidence používej číselník ČSÚ PSČ (kódový seznam 0028). Samostatné rutinní načítání typového číselníku 0029 není pro projektový výběr nutné: relevantní geografický rozsah projektu vymezuje `sequence.json` a geografickou vazbu adresních míst ověřuje RÚIAN. Pokud vznikne konkrétní nejasnost, zda jde o územní nebo organizační PSČ, lze typ dohledat individuálně v oficiálních zdrojích; tato kontrola však nesmí automaticky měnit sequence ani existující obsah.
 - **RÚIAN spravovaný ČÚZK — hlavní autorita projektu pro geografické přiřazení adresních míst k PSČ.** Pro ověření, jaké PSČ náleží konkrétnímu adresnímu místu a do jakého území toto místo patří, používej oficiální data RÚIAN. RÚIAN eviduje PSČ ve vazbě na územní prvky a adresní místa; organizační PSČ bez územní vazby do geografického inventáře RÚIAN nepatří.
 
-Pro projektovou geografickou sekvenci slouží inventář adresních míst RÚIAN jako základní referenční seznam geografických PSČ. ČSÚ zůstává zdrojem pro ověření oficiální evidence a typu kódu. Tyto role se doplňují, nikoli nahrazují.
+Pro projektovou geografickou sekvenci slouží `sequence.json` jako závazný rozsah kandidátních PSČ a inventář adresních míst RÚIAN jako základní referenční seznam jejich geografické vazby. ČSÚ zůstává zdrojem pro ověření oficiální evidence PSČ. Tyto role se doplňují, nikoli nahrazují.
 
 ### 3.0.1 Společný referenční inventář RÚIAN pro všechna pracovní okna
 
@@ -66,7 +66,7 @@ Projekt udržuje jeden centrální, verzovaný inventář celostátních geograf
 
 Před tvorbou nebo reworkem načti README a aktuální JSON z větve `main`. Pro konkrétní PSČ použij zejména `address_points`, `municipalities`, `municipality_parts`, `city_districts`, `prague_districts` a `validity_dates`. Manifest použij k posouzení stáří a původu dat. Všechna pracovní okna musí vycházet ze stejného committed inventáře; nevytvářej paralelní lokální seznamy ani znovu nestahuj celostátní archiv, pokud jsou aktuální referenční soubory dostupné.
 
-Inventář je agregací výskytu PSČ na adresních místech v konkrétním zpracovaném RÚIAN feedu. Není náhradou číselníků ČSÚ 0028/0029 pro oficiální evidenci a typ PSČ, není důkazem PO-box-only statusu a nepotvrzuje polohu konkrétní turistické zajímavosti. Nepřítomnost PSČ v inventáři sama o sobě nedokazuje jeho neplatnost; případ musí být prověřen proti ČSÚ a případně aktuálním oficiálním datům. Geografickou vazbu každého faktu ověřuj samostatně podle oddílu 3.3.
+Inventář je agregací výskytu PSČ na adresních místech v konkrétním zpracovaném RÚIAN feedu. Není náhradou číselníku ČSÚ 0028 pro oficiální evidenci PSČ, není důkazem PO-box-only statusu a nepotvrzuje polohu konkrétní turistické zajímavosti. Nepřítomnost PSČ v inventáři sama o sobě nedokazuje jeho neplatnost; případ musí být prověřen proti ČSÚ a případně aktuálním oficiálním datům. Geografickou vazbu každého faktu ověřuj samostatně podle oddílu 3.3.
 
 Pokud některý referenční soubor chybí, nelze jej načíst nebo je podle manifestu zjevně zastaralý, uveď tuto skutečnost a použij oficiální náhradní postup. Běžná tvorba ani rework nesmí měnit centrální referenční soubory. Jejich aktualizaci provádí pouze samostatný řízený RÚIAN workflow.
 
@@ -74,11 +74,11 @@ Pokud některý referenční soubor chybí, nelze jej načíst nebo je podle man
 
 ### 3.1 Výchozí pravidlo pro existující databázi
 
-Stávající českou geografickou sekvenci považuj za výchozí správnou, pokud odpovídá inventáři geografických PSČ získanému z RÚIAN. Neprováděj plošné přepisování. Konkrétní nesrovnalost prověř podle příslušné role zdrojů: ČSÚ pro evidenci a typ PSČ, RÚIAN pro geografickou vazbu adresního místa.
+Stávající českou geografickou sekvenci považuj za výchozí správnou, pokud odpovídá inventáři geografických PSČ získanému z RÚIAN. Neprováděj plošné přepisování. Konkrétní nesrovnalost prověř podle příslušné role zdrojů: ČSÚ pro oficiální evidenci PSČ, RÚIAN pro geografickou vazbu adresního místa. Typ PSČ dohledávej individuálně pouze tehdy, když je to pro vyřešení konkrétního rozporu nezbytné.
 
 ### 3.2 Hierarchie zdrojů podle účelu
 
-1. **Oficiální evidence a typ PSČ:** ČSÚ, číselník 0028 a číselník typu PSČ 0029.
+1. **Oficiální evidence PSČ:** ČSÚ, číselník 0028. Individuální ověření typu PSČ použij pouze při konkrétní nejasnosti, nikoli jako povinný krok každého reworku.
 2. **Geografické přiřazení adresního místa k PSČ:** RÚIAN / ČÚZK, zejména oficiální data adresních míst a jejich územních vazeb.
 3. **Ověření administrativního a statistického členění:** příslušné referenční registry a územní data ČSÚ nebo RÚIAN podle konkrétního údaje.
 4. Česká pošta — doplňkový kontrolní zdroj poštovních údajů, nikoli automatická náhrada geografické vazby v RÚIAN.
@@ -640,7 +640,7 @@ Dvě fakta o jednom objektu mohou existovat pouze tehdy, pokud popisují skuteč
 Každý nový nebo přepracovaný záznam musí projít kontrolou všech následujících oblastí.
 
 ### 23.1 PSČ a územní správnost
-- Odpovídá PSČ aktuálnímu rozhodujícímu číselníku ČSÚ 0028 a jeho typu podle číselníku 0029?
+- Odpovídá PSČ oficiální evidenci ČSÚ 0028 a projektovému geografickému rozsahu v `sequence.json`? Pokud vznikl konkrétní rozpor ohledně organizačního či územního charakteru PSČ, byl individuálně prověřen bez automatické změny sequence?
 - Byla před kontrolou načtena společná referenční data z `data/czechia/reference/` a ověřeno přesné PSČ v RÚIAN inventáři?
 - Je zaznamenán skutečně použitý zdroj, dataset/release a datum ověření podle dostupných polí schématu?
 - Odpovídá přiřazení obce, části obce, městské části, okresu a kraje oficiálním údajům RÚIAN/ČSÚ podle povahy údaje?
