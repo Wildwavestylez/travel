@@ -251,4 +251,23 @@ For every postcode undergoing ordinary editorial rework:
 The two-pass method is mandatory for ordinary editorial rework. It does not authorize changes to protected records during geographic-only enrichment: the existing preservation exception remains binding. For a task explicitly limited to geographic enrichment, do not perform editorial research or change protected text.
 
 This addendum supersedes only any earlier shorthand instruction to perform a single simple research pass. All other existing rules remain in force.
+## Mandatory addendum — international readability and cultural context
 
+This rule is mandatory for every newly written or substantively rewritten fact and for each of its six language versions. It applies together with the complete German Content Standard and does not change the schema.
+
+Write for an international reader who may never have visited Germany and may know nothing about German history, culture, institutions, traditions or local terminology. Correct translation alone is not sufficient: translate the meaning and the necessary context, not just the words.
+
+- Explain unfamiliar cultural, historical, institutional, political, religious, social and administrative terms at their first meaningful occurrence.
+- Keep genuine proper names in their correct form, but briefly identify what the named thing is and why it matters when that is not self-evident internationally.
+- Explain country-specific institutions, movements, customs, memorial forms, historical events and concepts where a foreign reader would otherwise miss their meaning.
+- For historical events, add concise context about what happened, when or why it matters whenever needed to understand the fact.
+- Do not leave unexplained abbreviations, local administrative labels, dialect expressions or culturally specific references that are essential to understanding.
+- Apply this requirement independently in cs, de, en, es, fr and it. Do not assume that an explanation in one language makes another version understandable.
+- Integrate explanations naturally and concisely. Do not turn every fact into an encyclopaedia entry or add context that does not help the reader.
+- Never invent background, interpretations or significance. Context must be supported by reliable sources.
+
+Example: do not merely say that Stolpersteine commemorate victims of Nazism. Explain that they are small brass memorial plaques set into pavement, usually outside the last freely chosen homes of people persecuted or murdered by the Nazi regime, and that each plaque commemorates an individual.
+
+Before saving, apply the reader test to every language: could a person with no prior knowledge of the country understand what the subject is, what an unfamiliar term means, the necessary historical or cultural context, and why the fact is significant? If not, improve that language version before completion.
+
+This is a normal part of writing and translation, not a separate optional editorial pass. The basic validation in this prompt must confirm that all six versions pass this test.
