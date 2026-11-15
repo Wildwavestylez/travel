@@ -353,7 +353,7 @@ Používej výhradně těchto 17 hodnot:
 | `historical_monument` | 🗿 | Pomníky, památníky, pamětní místa, historické monumenty, významné kašny a veřejná pamětní/umělecká díla, která nejsou lépe zařaditelná jinam. |
 | `architecture` | 🏛️ | Jednotlivé významné stavby a architektonická díla, pokud jejich hlavní identitou není hrad, náboženská stavba, muzeum ani technické dědictví. |
 | `historic_city` | 🏙️ | Historická centra, stará města, náměstí, ulice a souvislé historické urbanistické celky; nikdy ne jednotlivá budova. |
-| `museum` | 🏺 | Muzea, galerie, skanzeny, sbírky, pamětní a dokumentační centra a návštěvnická centra, jejichž hlavním účelem je prezentace či výklad sbírek, historie nebo tématu. |
+| `museum` | 🖼️ | Muzea, galerie, skanzeny, sbírky, pamětní a dokumentační centra a návštěvnická centra, jejichž hlavním účelem je prezentace či výklad sbírek, historie nebo tématu. |
 | `archaeological_site` | 🏺 | Archeologická naleziště, pravěká sídliště, vykopávky a další lokality, jejichž hlavní hodnotou je archeologický výzkum nebo dochované archeologické pozůstatky. |
 | `nature` | 🌳 | Chráněná území, přírodní útvary, lesy, vodopády, jezera, řeky, biotopy, geologické jevy a další přírodní lokality. |
 | `viewpoint_landscape` | 🏞️ | Rozhledny, vyhlídky, panoramata, výrazné scenérie a krajinné oblasti, jejichž hlavní návštěvnickou hodnotou je výhled nebo krajina. |
