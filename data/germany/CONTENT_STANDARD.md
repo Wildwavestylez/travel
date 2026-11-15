@@ -831,3 +831,61 @@ This compatibility allowance is not permission to omit locations from newly crea
 A record must not be described as fully geographically enriched while any fact still lacks the `location` property. Facts with `location: null` are explicitly reviewed but unresolved; report their count separately from facts with verified coordinates.
 
 Do not change the postcode-level representative or access point merely to make the fact-location layer appear complete. These remain independently verified fields.
+---
+## 29. Mandatory tourist, landmark and local-discovery research layer (additive)
+
+This section supplements all existing discovery, relevance, geographic, source, editorial, map-category and translation rules. It does not replace or relax them, change the schema, create fields, change controlled vocabularies, or give tourism facts automatic priority.
+
+### 29.1 Objective
+For every postcode, investigate what a visitor could genuinely want to see, visit, experience, understand or discover in that exact area. Cover recognizable attractions and less obvious local stories. Do not force every postcode to become a tourist destination or impose a minimum number of facts.
+
+### 29.2 Mandatory thematic checklist
+Explicitly check every relevant group. These are research topics, not new schema values:
+1. Castles, palaces, manor houses, fortifications, ruins and castle parks.
+2. Religious heritage: cathedrals, churches, chapels, monasteries, pilgrimage sites, synagogues, mosques and sacred art.
+3. Monuments and public art: statues, fountains, memorials, obelisks, historic markers, sculpture parks and significant installations.
+4. Historic settlements and architecture: old towns, squares, gates, town halls, streets, bridges, walls, notable buildings and architectural ensembles, including exceptional modern and post-war architecture.
+5. Museums, galleries and collections: historical, archaeological, art, technical, industrial, transport, railway, aviation, military, natural-history and specialist museums; open-air museums, skansens, memorial/documentation centres, notable exhibitions and visitor centres.
+6. Archaeology and prehistory: prehistoric sites, burial mounds, megaliths, hillforts, oppida, Roman remains, archaeological landscapes and underground heritage.
+7. Protected nature: national and nature parks, protected landscapes, reserves, natural monuments, biosphere reserves, UNESCO natural heritage, geoparks, wetlands, peatlands and old-growth forests.
+8. Geology and landforms: rock cities, sandstone formations, caves, karst, gorges, canyons, volcanic and glacial landforms, fossils and exceptional geological viewpoints.
+9. Mountains, viewpoints and outdoor routes: peaks, observation towers, panoramas, mountain huts, educational trails, ridge routes, notable hiking/cycling routes, passes and tourist cableways.
+10. Water and waterside heritage: waterfalls, lakes, rivers, confluences, springs, gorges, dams, reservoirs, historic ponds, canals, mills, ports and significant water-management structures.
+11. Parks, gardens and living collections: botanical gardens, arboreta, historic gardens, palace parks, notable public parks, zoos, wildlife/safari/bird parks, aquariums and butterfly houses.
+12. Technical, industrial and transport heritage: mines, quarries, historically significant factories, smelters, power stations, mills, historic railways/stations, bridges, tunnels, viaducts, lighthouses, water towers and engineering works.
+13. Memory sites and historical events: battlefields, revolutions/uprisings, memorials, former prisons, concentration-camp and dictatorship memorials, Iron Curtain heritage, treaty/event sites and documented places connected with major disasters or turning points.
+14. Visitor attractions and experiences: show caves, underground tours, historic spas, scenic railways, funiculars, sightseeing boats, accessible industrial heritage, theme/amusement/water parks, open-air theatres and notable stadiums.
+15. UNESCO and exceptional heritage: cultural/natural sites, cultural landscapes, transnational heritage, historic towns, European Heritage Label and comparable formal designations.
+16. Local stories and unusual facts: documented legends, unusual events, mysteries with factual basis, curious customs, records, unusual objects, distinctive place names and stories explaining local identity.
+17. People, film, literature, music and culture: homes/workplaces of significant people, film/TV locations, literary places, music history, theatres, opera houses, concert venues and cultural institutions.
+18. Traditions, crafts and food heritage: regional customs, traditional crafts, historic markets/fairs, culturally significant festivals, traditional production, breweries, wineries and distilleries where the place has documented visitor or heritage value.
+19. Routes and visitor context: significant pilgrimage, cultural, industrial, transport, cycling and hiking routes, border curiosities and other routes/features whose relevant part is genuinely in the postcode.
+
+The list is deliberately broad. Include only specific, meaningful and geographically valid subjects. Temporary events, ordinary facilities, generic regional themes and businesses do not automatically qualify as permanent postcode facts.
+
+### 29.3 Exclusions
+- Do not include ordinary cemeteries, individual graves or routine burial places as tourist facts. Exception: an exceptional documented heritage/visitor site because of architecture, landscape design, historical importance or a significant memorial ensemble. A famous grave alone is insufficient.
+- Do not include contemporary companies, shops, restaurants, hotels or ordinary businesses merely because they operate there. A business-related subject qualifies only for documented historical/technical/cultural/industrial heritage, a public museum or visitor centre, a significant visitor experience or another independently valuable local story.
+- Do not treat ordinary event listings as permanent attractions. A recurring tradition or historically significant event may qualify when its local importance is documented.
+- Do not represent a route as a point fact where its location cannot be accurately represented under the existing schema.
+- Contextual mention remains possible when genuinely relevant to another supported fact.
+
+### 29.4 Mandatory two-pass research
+**Pass 1 — broad discovery:** establish the exact postcode area under existing geographic rules; search official tourism, heritage, museum, nature, municipal, regional and specialist sources; use postcode, municipality, locality, historic names, local districts, landscape and landmark names, and relevant German-language terms; discover defining attractions and stories without relying only on the old record or first general results; record candidate locations and evidence.
+
+**Pass 2 — category gap audit:** revisit every relevant group in 29.2 one by one; perform targeted searches especially for museums/specialist collections, viewpoints, gardens, zoos/aquariums, caves/underground sites, technical heritage, memorials, local legends, historical events and unusual features; compare findings with the old record and Pass 1; identify omissions, duplicates, weak candidates and facts belonging elsewhere. A category is not checked merely because a broad search was run.
+
+Both passes are mandatory before ordinary editorial completion.
+
+### 29.5 Source strategy
+Prefer responsible primary sources: official municipal/regional/national tourism bodies; heritage registers and monument authorities; official museum, gallery, park, zoo, aquarium and attraction sites; national-park/protected-area/nature/geology authorities; municipal and regional archives, museums, local-history institutions and published chronicles; universities and specialist heritage bodies; official UNESCO and other heritage registers. Discovery portals and community sources may reveal candidates, but important facts, exact locations, access status and historical details require stronger verification where available. Existence of an attraction does not prove postcode assignment. Distinguish documented history, recorded tradition and folklore; never present a legend as proven history.
+
+### 29.6 Candidate and postcode verification
+For every selected candidate, verify identity, significance, factual details and exact primary location independently. Prove that the location belongs to this postcode under the existing rules; check duplicates and distinguish a physical site from an area-wide story, route or event. Wider-area research does not expand fact geography. If the place belongs to another postcode, do not add it here; if assignment is ambiguous, flag it rather than guessing.
+
+### 29.7 Coverage states and completion
+Keep working notes (not production JSON) for every checklist group: **found and verified**; **checked — no qualifying result**; or **unresolved**. A postcode is research-complete only when every relevant group has been checked and no material unresolved issue remains. No qualifying result is valid; invented facts and quota-filling are prohibited. Do not add these statuses to JSON without an explicitly approved schema revision.
+
+### 29.8 Existing editorial rules remain binding
+This layer broadens discovery only. Existing rules still govern significance, selection, priority, ordering, evidence, geography, map classification, six-language parity and schema validation. A tourist attraction does not automatically outrank a more important defining local story.
+
