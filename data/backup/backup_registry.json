@@ -1,0 +1,15 @@
+{
+  "$schema": "./backup_manifest.schema.json",
+  "registry_version": "1.0",
+  "registry_type": "REPOSITORY_BOOTSTRAP",
+  "description": "Schema-aligned bootstrap only. The live operational registry belongs in Supabase and is not populated by this file.",
+  "updated_at": null,
+  "work_waves": [],
+  "latest_verified_snapshots": [],
+  "last_successful_full_backup": null,
+  "notes": [
+    "No historical work waves have been imported into this registry yet.",
+    "Do not infer completed or audited postcode scopes from examples in documentation.",
+    "Populate operational records only after exact record membership and backup verification are established."
+  ]
+}
