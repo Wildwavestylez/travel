@@ -103,4 +103,23 @@ U každého PSČ při běžném obsahovém reworku:
 Dvoufázová metoda je povinná při běžném obsahovém reworku. Neopravňuje k úpravám chráněných záznamů během čistě geografického obohacování; stávající pravidla zachování obsahu zůstávají závazná. Pokud je úkol výslovně omezen na geografické obohacení, neprováděj redakční rešerši a neměň chráněné texty.
 
 Tento dodatek mění pouze stručný pokyn k jednorázové rešerši tím, že zavádí dvě povinné fáze. Všechna ostatní stávající pravidla zůstávají v platnosti.
+## Povinný dodatek — mezinárodní srozumitelnost a kulturní kontext
 
+Toto pravidlo je závazné pro každý nově napsaný nebo podstatně přepracovaný fakt a pro každou jeho jazykovou verzi. Platí společně s úplným českým Content Standardem a nemění schéma.
+
+Piš pro zahraničního čtenáře, který Českou republiku nemusel nikdy navštívit a nemusí znát její historii, kulturu, instituce, tradice ani místní pojmy. Správný překlad sám o sobě nestačí: překládej význam a potřebný kontext, nejen jednotlivá slova.
+
+- Při prvním smysluplném výskytu vysvětli neznámé kulturní, historické, institucionální, politické, náboženské, společenské a správní pojmy.
+- Zachovej správné vlastní názvy, ale stručně vysvětli, co označují a proč jsou důležité, pokud to zahraničnímu čtenáři není zřejmé.
+- Vysvětli české instituce, hnutí, zvyky, pamětní formy, historické události a specifické pojmy, pokud by bez toho čtenář z jiné země nepochopil jejich význam.
+- U historických událostí doplň stručný kontext toho, co se stalo, kdy nebo proč je událost důležitá, pokud je to pro pochopení potřeba.
+- Nenechávej bez vysvětlení zkratky, místní správní označení, nářeční výrazy ani kulturně specifické odkazy, které jsou podstatné pro pochopení.
+- Požadavek uplatni samostatně v cs, de, en, es, fr a it. Nepředpokládej, že vysvětlení v jednom jazyce automaticky zpřístupní význam ostatním čtenářům.
+- Vysvětlení přirozeně a úsporně začleň do textu. Nedělej z každého faktu encyklopedické heslo a nepřidávej kontext, který čtenáři nepomáhá.
+- Nevymýšlej historické pozadí, interpretace ani význam. Kontext musí být podložen důvěryhodnými zdroji.
+
+Příklad: nestačí napsat, že Stolpersteine připomínají oběti nacismu. Vysvětli, že jde o malé mosazné pamětní destičky zasazené do chodníku, obvykle před posledním svobodně zvoleným bydlištěm lidí pronásledovaných nebo zavražděných nacistickým režimem, přičemž každá destička připomíná konkrétního člověka.
+
+Před uložením proveď čtenářský test v každém jazyce: pochopí člověk bez předchozí znalosti země, o jaký objekt či téma jde, co znamená neznámý pojem, jaký kontext potřebuje a proč je fakt významný? Pokud ne, uprav příslušnou jazykovou verzi.
+
+Jde o běžnou součást psaní a překladu, nikoli o volitelnou dodatečnou redakční fázi. Základní validace musí potvrdit, že tímto testem prošlo všech šest jazykových verzí.
