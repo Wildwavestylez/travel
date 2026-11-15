@@ -173,7 +173,7 @@ For every fact, verify:
 - editorial `category` has not been confused with `map_category`;
 - the classification was not inferred solely from the physical location type;
 - binding precedence rules were followed, especially for `personality`, castles, museums, religious sites, archaeology, technical heritage and historic urban ensembles;
-- the same language-neutral map category is stored once as fact metadata and is not duplicated or translated in the six translations.
+- the same language-neutral map category is stored once as fact metadata and is not duplicated or translated in any of the seven translations.
 
 Use exactly these 17 values: `castle`, `religious_site`, `historical_monument`, `architecture`, `historic_city`, `museum`, `archaeological_site`, `nature`, `viewpoint_landscape`, `park_garden`, `technical_heritage`, `cultural_site`, `visitor_attraction`, `local_culture`, `science_site`, `personality`, `sports_venue`.
 
