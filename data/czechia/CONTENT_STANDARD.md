@@ -384,7 +384,7 @@ Uvedené symboly jsou pouze orientační tematické příklady. Nejsou součást
 - `visitor_attraction` je záchytná kategorie pouze tehdy, když hlavní podstata místa/zážitku nespadá do žádné přesnější kategorie. Nepoužívej ji místo hradu, muzea, přírodní lokality, technického dědictví apod.
 - UNESCO není samostatná mapová kategorie. Zařaď lokalitu podle její skutečné podstaty.
 - Vojenská historie sama o sobě neurčuje kategorii: pevnost může být `castle`, bojiště nebo pamětní místo `historical_monument`, vojenská technika či infrastruktura `technical_heritage`.
-- Kategorie neurčuje prioritu, pořadí, význam ani to, zda fakt do databáze patří. Hodnota je jazykově neutrální a nepřekládá se v šesti jazykových verzích.
+- Kategorie neurčuje prioritu, pořadí, význam ani to, zda fakt do databáze patří. Hodnota je jazykově neutrální a nepřekládá se v sedmi jazykových verzích.
 - Mapová kategorie a geografická poloha jsou dvě nezávislé informace. Kategorii nikdy neodvozuj pouze z typu nebo názvu souřadnicového bodu.
 
 Při hraničním případu vyber kategorii podle primární identity a hlavního sdělení faktu, uplatni výše uvedená pravidla přednosti a v pracovních poznámkách stručně zdůvodni volbu. Pokud nelze hlavní téma určit, fakt nejprve redakčně vyjasni; neřeš nejasnost vytvořením nové kategorie.
@@ -577,18 +577,19 @@ Pokud je příběh založen na legendě, pověsti nebo tradovaném vyprávění,
 
 ---
 
-## 19. Šest jazyků a lokalizace
+## 19. Sedm jazyků a lokalizace
 
-Každý záznam obsahuje šest jazykových verzí:
+Každý záznam obsahuje sedm povinných jazykových verzí:
 
 - `cs` — čeština;
 - `de` — němčina;
 - `en` — angličtina;
 - `es` — španělština;
 - `fr` — francouzština;
-- `it` — italština.
+- `it` — italština;
+- `nl` — nizozemština (standardní nizozemština `nl-NL`, formulovaná přirozeně a srozumitelně i vlámským čtenářům).
 
-Všech šest jazyků musí obsahovat přesně stejnou sadu ID faktů a zachovat jejich pořadí.
+Všech sedm jazyků musí obsahovat přesně stejnou sadu ID faktů a zachovat jejich pořadí.
 
 ### 19.1 Významová shoda
 
@@ -647,7 +648,7 @@ Každý jazyk posuzuj samostatně. To, co je samozřejmé českému čtenáři, 
 Každé faktum musí mít stabilní a jedinečné ID podle pravidel aktuálního `schema.json`.
 
 - ID musí být jedinečné v rámci záznamu.
-- Všech šest jazyků musí používat přesně stejná ID.
+- Všech sedm jazyků musí používat přesně stejná ID.
 - Pořadí faktů musí být ve všech jazycích totožné.
 - Při překladu se ID nemění.
 - Při redakční úpravě textu se ID nemění, pokud nejde o skutečně nový nebo odstraněný fakt.
@@ -730,7 +731,7 @@ Každý nový nebo přepracovaný záznam musí projít kontrolou všech násled
 - Jsou geografické polohy doloženy samostatně, pokud to vyžaduje schéma?
 
 ### 23.6 Jazyky
-- Obsahuje všech šest jazyků stejná ID faktů?
+- Obsahuje všech sedm jazyků stejná ID faktů?
 - Je pořadí faktů ve všech jazycích stejné?
 - Zachovávají překlady všechna fakta, data, jména a souvislosti?
 - Zní každý jazyk přirozeně?
@@ -784,7 +785,7 @@ Cílem je:
 
 Základní produkční postup:
 
-**Nejprve ověř PSČ a území. Proveď rešerši. Najdi skutečné příběhy. Vyber to podstatné. Ověř geografickou vazbu. Napiš srozumitelná fakta. Lokalizuj do šesti jazyků. Proveď závěrečný audit. Teprve potom publikuj.**
+**Nejprve ověř PSČ a území. Proveď rešerši. Najdi skutečné příběhy. Vyber to podstatné. Ověř geografickou vazbu. Napiš srozumitelná fakta. Lokalizuj do sedmi jazyků. Proveď závěrečný audit. Teprve potom publikuj.**
 
 
 ---
@@ -878,7 +879,7 @@ U každého vybraného kandidáta ověř identitu, význam, faktické podrobnost
 V pracovních poznámkách (nikoli v produkčním JSON) eviduj u každé skupiny jeden stav: **nalezeno a ověřeno**; **prověřeno — bez relevantního výsledku**; nebo **nevyřešeno**. PSČ je rešeršně dokončeno pouze tehdy, když jsou prověřeny všechny relevantní skupiny a nezůstává podstatná nevyřešená otázka. „Bez relevantního výsledku“ je platný výsledek; vymýšlení faktů a plnění kvót je zakázáno. Tyto stavy nepřidávej do JSON bez schválené změny schématu.
 
 ### 28.8 Stávající redakční pravidla zůstávají závazná
-Tato vrstva rozšiřuje objevování, nikoli pravidla významu, kvality, priority, pořadí, zdrojů, geografické příslušnosti, šestijazyčné shody, mapové klasifikace nebo validace schématu. Turistická zajímavost automaticky nepředbíhá významnější příběh definující dané místo.
+Tato vrstva rozšiřuje objevování, nikoli pravidla významu, kvality, priority, pořadí, zdrojů, geografické příslušnosti, sedmijazyčné shody, mapové klasifikace nebo validace schématu. Turistická zajímavost automaticky nepředbíhá významnější příběh definující dané místo.
 ---
 
 ## 29. Mezinárodní srozumitelnost a kulturní kontext
@@ -897,9 +898,9 @@ Správný překlad nestačí. Text musí předat význam i kontext potřebný k 
 - U historických událostí doplň stručný kontext toho, co se stalo, kdy nebo proč je událost důležitá, pokud je to nutné pro pochopení.
 - Nenechávej bez vysvětlení podstatné zkratky, místní správní označení, nářeční výrazy ani kulturně specifické odkazy.
 
-### 29.3 Samostatná srozumitelnost šesti jazyků
+### 29.3 Samostatná srozumitelnost sedmi jazyků
 
-Požadavek uplatni samostatně v cs, de, en, es, fr a it. Žádná jazyková verze nesmí spoléhat na vysvětlení obsažené pouze v jiném jazyce. Všechny verze musí zachovat stejný faktický význam a potřebný kontext, ale přirozenou formulací v daném jazyce. Doslovný překlad, kterému cílový čtenář nerozumí, není vyhovující.
+Požadavek uplatni samostatně v cs, de, en, es, fr, it a nl. Žádná jazyková verze nesmí spoléhat na vysvětlení obsažené pouze v jiném jazyce. Všechny verze musí zachovat stejný faktický význam a potřebný kontext, ale přirozenou formulací v daném jazyce. Doslovný překlad, kterému cílový čtenář nerozumí, není vyhovující.
 
 ### 29.4 Stručnost, přesnost a zdroje
 
