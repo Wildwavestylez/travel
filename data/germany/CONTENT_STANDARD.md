@@ -821,6 +821,8 @@ A URL that only mentions the name of a city or district is not sufficient eviden
 
 ## 27. Seven-language storage and preservation of existing facts
 
+Every record contains seven required language versions: cs, de, en, es, fr, it and nl. Dutch is written in standard Netherlands Dutch (`nl-NL`), with natural wording that remains readily understandable to Flemish readers.
+
 The location object is stored once on the source-language item in `facts[]`.
 
 Do NOT add coordinates or duplicate `location` objects to:
@@ -926,7 +928,7 @@ Correct translation is not enough. The text must communicate the meaning and the
 - Add concise context for historical events when necessary to explain what happened, when or why it matters.
 - Do not leave essential abbreviations, local administrative labels, dialect expressions or culturally specific references unexplained.
 
-### 30.3 Six-language independence
+### 30.3 Seven-language independence
 
 Apply the requirement separately to cs, de, en, es, fr, it and nl. No language version may rely on context supplied only in another language. All versions must preserve the same factual meaning and necessary explanatory context, expressed naturally in that language. A literal translation that remains opaque to its intended reader is not compliant.
 
