@@ -340,6 +340,57 @@ Kategorie jsou společné s německým schématem a Europe Explorerem. V Česku 
 
 ---
 
+## 11A. Jednotné mapové kategorie TRAVEL
+
+Každý fakt MUSÍ mít právě jednu vlastnost `map_category`. Jde o stabilní, jazykově neutrální klasifikaci hlavního tématu faktu, podle které Europe Explorer v budoucnu vybere mapovou ikonu. Nenahrazuje ani nemění obsahovou vlastnost `category`, která zůstává širší redakční/výzkumnou klasifikací.
+
+Používej výhradně těchto 17 hodnot:
+
+| map_category | Orientační symbol | Význam a pravidlo přiřazení |
+|---|---|---|
+| `castle` | 🏰 | Hrady, zámky, tvrze, pevnosti, opevnění, zámecká sídla a jejich zříceniny. |
+| `religious_site` | ⛪ | Kostely, katedrály, kaple, kláštery, synagogy, mešity, poutní a další primárně náboženská místa. |
+| `historical_monument` | 🗿 | Pomníky, památníky, pamětní místa, historické monumenty, významné kašny a veřejná pamětní/umělecká díla, která nejsou lépe zařaditelná jinam. |
+| `architecture` | 🏛️ | Jednotlivé významné stavby a architektonická díla, pokud jejich hlavní identitou není hrad, náboženská stavba, muzeum ani technické dědictví. |
+| `historic_city` | 🏙️ | Historická centra, stará města, náměstí, ulice a souvislé historické urbanistické celky; nikdy ne jednotlivá budova. |
+| `museum` | 🏺 | Muzea, galerie, skanzeny, sbírky, pamětní a dokumentační centra a návštěvnická centra, jejichž hlavním účelem je prezentace či výklad sbírek, historie nebo tématu. |
+| `archaeological_site` | 🏺 | Archeologická naleziště, pravěká sídliště, vykopávky a další lokality, jejichž hlavní hodnotou je archeologický výzkum nebo dochované archeologické pozůstatky. |
+| `nature` | 🌳 | Chráněná území, přírodní útvary, lesy, vodopády, jezera, řeky, biotopy, geologické jevy a další přírodní lokality. |
+| `viewpoint_landscape` | 🏞️ | Rozhledny, vyhlídky, panoramata, výrazné scenérie a krajinné oblasti, jejichž hlavní návštěvnickou hodnotou je výhled nebo krajina. |
+| `park_garden` | 🌷 | Veřejné a historické parky, zahrady, botanické zahrady, arboreta, zoologické zahrady, safari, ptačí parky, akvária a motýlí domy; tedy spravované parky a živé kolekce. |
+| `technical_heritage` | ⚙️ | Technické, průmyslové, hornické, energetické, dopravní a inženýrské dědictví, historické továrny, doly, železnice, mosty a infrastruktura. |
+| `cultural_site` | 🎭 | Divadla, operní domy, koncertní sály, kulturní domy a další fyzická místa, jejichž hlavní funkcí je živé umění nebo veřejná kulturní činnost. Neplatí pro muzea. |
+| `visitor_attraction` | 🎡 | Významné návštěvnické zážitky a atrakce bez přesnější hlavní kategorie, například zábavní a vodní parky, zpřístupněné jeskyně a podzemí, historické lázně, vyhlídkové plavby či návštěvnické provozy. |
+| `local_culture` | 🎎 | Místní tradice, folklor, zvyky, řemesla, slavnosti, gastronomické dědictví a další nehmotné nebo komunitní kulturní jevy, nikoli jejich samostatná budova či kulturní venue. |
+| `science_site` | 🔭 | Významná a návštěvnicky relevantní vědecká či výzkumná místa, například observatoře, planetária, vědecká centra a zpřístupněné výzkumné instituce. Běžná škola či univerzita sem automaticky nepatří. |
+| `personality` | 👤 | Fakt, jehož hlavním tématem je konkrétní osobnost s doloženou vazbou na dané PSČ, bez ohledu na fyzické místo použité pro mapový bod. |
+| `sports_venue` | 🏟️ | Významné stadiony, sportovní arény, historická sportoviště a sportovní areály s doloženou návštěvnickou, historickou nebo širší veřejnou hodnotou. |
+
+Uvedené symboly jsou pouze orientační tematické příklady. Nejsou součástí JSON ani závazným grafickým assetem. Budoucí sada mapových ikon bude navázána na stabilní hodnoty `map_category`; změna vzhledu ikony nesmí vyžadovat změnu datových identifikátorů.
+
+### Závazná pravidla klasifikace
+
+- Rozhoduje **hlavní téma faktu**, nikoli pouze objekt, na jehož souřadnicích je umístěn pin.
+- Každý fakt má přesně jednu mapovou kategorii. Nepoužívej kombinované hodnoty, vlastní varianty ani ad hoc nové kategorie.
+- Pokud je hlavním tématem konkrétní osoba, použij vždy `personality`, i když je pin umístěn u jejího domu, pracoviště, muzea, památníku, hrobu nebo reprezentativního bodu PSČ. Osoba zmíněná pouze okrajově kategorii nemění.
+- Hrad, zámek, tvrz nebo pevnost patří do `castle`; náboženská stavba či poutní místo do `religious_site`; muzeum nebo galerie do `museum`; archeologická lokalita do `archaeological_site`.
+- Souvislý historický městský celek patří do `historic_city`, jednotlivá významná stavba do `architecture`, pokud nemá přesnější kategorii výše.
+- Technická či průmyslová funkce/identita má přednost před obecným označením architektury. Historická vodní infrastruktura patří do `technical_heritage`; přírodní vodní útvar do `nature`.
+- Chráněná příroda a přírodní útvary patří do `nature`; vyhlídka nebo krajina, jejíž hlavní hodnotou je panorama, do `viewpoint_landscape`.
+- Botanické zahrady, arboreta, zoologické zahrady, akvária a obdobné živé kolekce patří do `park_garden`. Zábavní a vodní parky patří do `visitor_attraction`.
+- Fyzické místo určené primárně živému umění patří do `cultural_site`; muzeum zůstává `museum`. Tradice a nehmotné kulturní jevy patří do `local_culture`.
+- Vědecké místo musí mít skutečný vědecký/výzkumný charakter a samostatnou návštěvnickou, historickou nebo veřejnou hodnotu; běžné vzdělávací instituce automaticky nezařazuj do `science_site`.
+- Významný sportovní areál patří do `sports_venue`; běžné sportovní hřiště nebo lokální zařízení bez zvláštního významu není automaticky samostatným faktem.
+- `visitor_attraction` je záchytná kategorie pouze tehdy, když hlavní podstata místa/zážitku nespadá do žádné přesnější kategorie. Nepoužívej ji místo hradu, muzea, přírodní lokality, technického dědictví apod.
+- UNESCO není samostatná mapová kategorie. Zařaď lokalitu podle její skutečné podstaty.
+- Vojenská historie sama o sobě neurčuje kategorii: pevnost může být `castle`, bojiště nebo pamětní místo `historical_monument`, vojenská technika či infrastruktura `technical_heritage`.
+- Kategorie neurčuje prioritu, pořadí, význam ani to, zda fakt do databáze patří. Hodnota je jazykově neutrální a nepřekládá se v šesti jazykových verzích.
+- Mapová kategorie a geografická poloha jsou dvě nezávislé informace. Kategorii nikdy neodvozuj pouze z typu nebo názvu souřadnicového bodu.
+
+Při hraničním případu vyber kategorii podle primární identity a hlavního sdělení faktu, uplatni výše uvedená pravidla přednosti a v pracovních poznámkách stručně zdůvodni volbu. Pokud nelze hlavní téma určit, fakt nejprve redakčně vyjasni; neřeš nejasnost vytvořením nové kategorie.
+
+---
+
 ## 12. Priorita faktů
 
 Používej priority A–D podle skutečného významu faktu v kontextu daného místa.
