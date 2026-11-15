@@ -204,13 +204,13 @@ Ikony ani jejich grafické soubory nejsou součástí tohoto datového auditu. A
 
 Nehádej souřadnice, nevymýšlej adresy, nevytvářej libovolné středy a netvrď, že byla provedena kontrola, která neproběhla. Nepřidávej nové mapové kategorie ani typy polohy.
 
-### G. Shoda šesti jazyků a kvalita překladů
+### G. Shoda sedmi jazyků a kvalita překladů
 
-Ověř všech šest povinných jazykových verzí: cs, de, en, es, fr a it.
+Ověř všech sedm povinných jazykových verzí: cs, de, en, es, fr, it a nl.
 
 Kontroluj:
 - každý jazyk existuje a má požadovanou strukturu;
-- ve všech šesti jazycích jsou stejná ID faktů;
+- ve všech sedmi jazycích jsou stejná ID faktů;
 - ID faktů jsou ve zcela stejném pořadí;
 - žádný fakt nechybí, není sloučen, duplikován ani tiše přidán pouze v jednom jazyce;
 - názvy a texty zachovávají stejný faktický obsah, data, jména, výhrady a význam;
@@ -225,7 +225,7 @@ Shodný seznam ID je nutná, nikoli dostačující podmínka: porovnej skutečn�
 
 Toto je samostatná povinná kontrolní oblast. Ověř pravidlo v oddílu 29 českého Content Standardu a odpovídající dodatek v rework promptu.
 
-U každého faktu a samostatně ve všech šesti jazycích se ptej:
+U každého faktu a samostatně ve všech sedmi jazycích se ptej:
 1. Pochopí téma čtenář, který nikdy nenavštívil Česko a nezná českou kulturu?
 2. Jsou neznámé místní pojmy, instituce, tradice, pamětní formy a správní koncepty vysvětleny při prvním smysluplném použití?
 3. Mají historické události a odkazy dostatečný stručný kontext, aby bylo jasné, co se stalo a proč je to důležité?
@@ -253,7 +253,7 @@ Zkontroluj:
 - explicitní vlastnosti polohy a validní nenulové objekty polohy;
 - platné rozsahy souřadnic a číselné datové typy;
 - správnou strukturu zdrojů a jejich odkazy;
-- všech šest jazykových struktur a shodná ID/pořadí;
+- všech sedm jazykových struktur a shodná ID/pořadí;
 - příznaky ověření odpovídají kontrolám, které byly skutečně provedeny;
 - žádné nechtěné změny nesouvisejících metadat.
 
@@ -296,7 +296,7 @@ Vytvoř report s těmito částmi:
 4. **Matice po jednotlivých záznamech:** PSČ, ID řádku, stav záznamu, prošlé/neprošlé kontroly, počet nálezů a konečný výsledek záznamu.
 5. **Nálezy napříč PSČ:** duplicitní fakta, chybná geografická příslušnost, překryvy a problémy konzistence celého bloku.
 6. **Pokrytí turistické rešerše:** stavy jednotlivých tematických skupin a nevyřešené kandidáty.
-7. **Výsledky jazyků a mezinárodní srozumitelnosti:** samostatný výsledek pro cs, de, en, es, fr a it, včetně dotčených ID faktů.
+7. **Výsledky jazyků a mezinárodní srozumitelnosti:** samostatný výsledek pro cs, de, en, es, fr, it a nl, včetně dotčených ID faktů.
 8. **Technická validace:** výsledky validace schématu a JSON.
 9. **Fronta oprav:** seřazený seznam přesných oprav, závislostí a navazujících kroků.
 10. **Nevyřešené otázky a mezery v důkazech.**
@@ -313,7 +313,7 @@ První audit je pouze pro čtení. Po vytvoření reportu:
 4. Zachovej ID a nesouvisející metadata, pokud zdokumentovaná oprava nevyžaduje jinak.
 5. Každý změněný záznam znovu validuj podle schématu.
 6. U každého změněného faktu, polohy, přiřazení nebo duplicity znovu prověř dopad napříč PSČ.
-7. Pokud se změní text nebo význam faktu, znovu zkontroluj všech šest jazyků a mezinárodní srozumitelnost.
+7. Pokud se změní text nebo význam faktu, znovu zkontroluj všech sedm jazyků a mezinárodní srozumitelnost.
 8. Znovu spusť relevantní kontroly bloku a aktualizuj report o vyřešené/nevyřešené stavy.
 9. Blok označ PASS až po splnění podmínek v oddílu 5.
 
