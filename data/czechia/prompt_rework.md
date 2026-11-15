@@ -64,10 +64,10 @@ A city-wide or regional association is insufficient. Every important fact must h
 Keep verified strong facts. Remove generic, duplicated, weak or unsupported facts. Add missing defining stories. Do not preserve the old fact count as a quota.
 
 ## Translations
-Final records must contain cs, de, en, es, fr, it with identical sequential fact IDs and semantically complete natural translations.
+Final records must contain cs, de, en, es, fr, it and nl with identical sequential fact IDs and semantically complete natural translations. Dutch uses standard Netherlands Dutch (`nl-NL`), phrased naturally and clearly for readers in both the Netherlands and Flanders.
 
 ## Validation
-Before saving verify schema, administrative data, coordinates, facts, sources, fact IDs and all six languages.
+Before saving verify schema, administrative data, coordinates, facts, sources, fact IDs and all seven languages.
 
 ## Database safety
 Modify only intended Czech records. Never delete unrelated records, alter German records, change RLS, change application code, expose credentials or change the Czech schema during normal rework.
@@ -114,7 +114,7 @@ Piš pro zahraničního čtenáře, který Českou republiku nemusel nikdy navš
 - Vysvětli české instituce, hnutí, zvyky, pamětní formy, historické události a specifické pojmy, pokud by bez toho čtenář z jiné země nepochopil jejich význam.
 - U historických událostí doplň stručný kontext toho, co se stalo, kdy nebo proč je událost důležitá, pokud je to pro pochopení potřeba.
 - Nenechávej bez vysvětlení zkratky, místní správní označení, nářeční výrazy ani kulturně specifické odkazy, které jsou podstatné pro pochopení.
-- Požadavek uplatni samostatně v cs, de, en, es, fr a it. Nepředpokládej, že vysvětlení v jednom jazyce automaticky zpřístupní význam ostatním čtenářům.
+- Požadavek uplatni samostatně v cs, de, en, es, fr, it a nl. Nepředpokládej, že vysvětlení v jednom jazyce automaticky zpřístupní význam ostatním čtenářům.
 - Vysvětlení přirozeně a úsporně začleň do textu. Nedělej z každého faktu encyklopedické heslo a nepřidávej kontext, který čtenáři nepomáhá.
 - Nevymýšlej historické pozadí, interpretace ani význam. Kontext musí být podložen důvěryhodnými zdroji.
 
@@ -122,7 +122,7 @@ Příklad: nestačí napsat, že Stolpersteine připomínají oběti nacismu. Vy
 
 Před uložením proveď čtenářský test v každém jazyce: pochopí člověk bez předchozí znalosti země, o jaký objekt či téma jde, co znamená neznámý pojem, jaký kontext potřebuje a proč je fakt významný? Pokud ne, uprav příslušnou jazykovou verzi.
 
-Jde o běžnou součást psaní a překladu, nikoli o volitelnou dodatečnou redakční fázi. Základní validace musí potvrdit, že tímto testem prošlo všech šest jazykových verzí.
+Jde o běžnou součást psaní a překladu, nikoli o volitelnou dodatečnou redakční fázi. Základní validace musí potvrdit, že tímto testem prošlo všech sedm jazykových verzí.
 
 
 ## Povinný dodatek — ochrana geografického PSČ před záměnou s poštovní adresou instituce
