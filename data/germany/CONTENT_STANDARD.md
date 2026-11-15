@@ -888,4 +888,41 @@ Keep working notes (not production JSON) for every checklist group: **found and 
 
 ### 29.8 Existing editorial rules remain binding
 This layer broadens discovery only. Existing rules still govern significance, selection, priority, ordering, evidence, geography, map classification, six-language parity and schema validation. A tourist attraction does not automatically outrank a more important defining local story.
+---
 
+## 30. International readability and cultural context
+
+### 30.1 Binding principle
+
+Every fact must be understandable to an international reader who may never have visited Germany and may have no prior knowledge of German history, culture, institutions, traditions or local terminology. This requirement applies to the original text and independently to all six language versions.
+
+Correct translation is not enough. The text must communicate the meaning and the context needed to understand it.
+
+### 30.2 Explain local and country-specific references
+
+- Explain unfamiliar cultural, historical, institutional, political, religious, social and administrative terms at their first meaningful occurrence.
+- Preserve genuine proper names, but identify what the named thing is and why it matters when this is not internationally self-evident.
+- Explain country-specific institutions, movements, customs, memorial forms, historical events and concepts where a reader from another country would otherwise miss their meaning.
+- Add concise context for historical events when necessary to explain what happened, when or why it matters.
+- Do not leave essential abbreviations, local administrative labels, dialect expressions or culturally specific references unexplained.
+
+### 30.3 Six-language independence
+
+Apply the requirement separately to cs, de, en, es, fr and it. No language version may rely on context supplied only in another language. All versions must preserve the same factual meaning and necessary explanatory context, expressed naturally in that language. A literal translation that remains opaque to its intended reader is not compliant.
+
+### 30.4 Concision, accuracy and evidence
+
+Explanations must be naturally integrated and proportionate. Do not turn every fact into an encyclopaedia entry or add irrelevant background. Do not invent context, interpretations or significance; explanatory statements must be supported by reliable sources. Keep proper names accurate and do not fabricate translated names.
+
+Example: a reference to Stolpersteine should explain that these are small brass memorial plaques set into pavement, usually outside the last freely chosen homes of people persecuted or murdered by the Nazi regime, with each plaque commemorating an individual. Merely calling them memorial stones does not provide enough context for an unfamiliar reader.
+
+### 30.5 Reader test
+
+For each fact and each language, ask:
+1. Can a reader with no prior knowledge identify what the subject is?
+2. Are unfamiliar local terms and proper-name references explained where necessary?
+3. Is the historical, cultural or institutional context needed to understand the fact present?
+4. Can the reader understand why the fact is locally or historically significant?
+5. Is every explanation accurate, concise and supported?
+
+If any answer is no, the text is not yet compliant and must be improved during rework.
