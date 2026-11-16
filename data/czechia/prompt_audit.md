@@ -23,7 +23,7 @@ Tato pravidla platí pro celý audit a všechna konverzační okna. Mají předn
 4. **Cílené ověřování:** Každý externí požadavek musí řešit konkrétní otázku. Sluč podobné dotazy a používej dávkové vyhledávání, pokud je podporováno. Jakmile je tvrzení doloženo zdrojem kompetentním pro daný údaj, další redundantní požadavky ukonči. Nezaměňuj úsporu požadavků za vynechání povinné kontroly.
 5. **Omez souběh:** Standardně prováděj nejvýše 2 externí požadavky současně. Zápisy do databáze a aktualizace stejného souboru/taháku prováděj sekvenčně. Neodesílej opakované nebo hromadné požadavky, které nejsou nutné.
 6. **Povinné zpracování 429 / Too Many Requests:** Při HTTP 429 nebo ekvivalentní chybě okamžitě zastav další požadavky vůči dané službě. Pokud odpověď obsahuje `Retry-After`, dodrž jej. Jinak použij exponenciální prodlevu přibližně 2, 4, 8, 16 a 32 sekund. Po nejvýše 5 neúspěšných pokusech označ zdroj jako `RATE LIMITED`, zaznamenej poslední stav a pokračuj pouze nezávislými kontrolami. Neopakuj bezprostředně totožný požadavek a nepokoušej se limit obcházet paralelními voláními.
-7. **Práce po částech:** Dokončuj a zapisuj auditní části průběžně. Nečekej na konec celého bloku. Po obnovení pokračuj pouze otevřenými kontrolami; zamčené části a jejich důkazy se započítají bez nových volání.
+7. **Checkpoint pouze při skutečném přerušení:** Audit prováděj souvisle přes celý zadaný blok. Nezapisuj checkpoint po každém PSČ, faktu, jazyku ani kontrolní oblasti. Kanonický tahák aktualizuj dávkově při skutečném přerušení (např. vyčerpání kontextu/tokenů, technická překážka nebo nutnost otevřít nové okno) a na konci běhu. Při obnovení načti uložený stav a pokračuj pouze nedokončenými položkami; hotové kontroly neopakuj.
 8. **Lokální kontroly:** Porovnání JSON, ID, jazykových struktur, duplicit v načteném bloku a validaci proti již načtenému schématu prováděj lokálně, pokud je to možné. Externí zdroj používej pro faktické ověření, nikoli pro opakování mechanických kontrol.
 9. **Bezpečné opakování:** Po timeoutu nebo chybě zápisu nejprve zjisti, zda operace skutečně selhala, nebo zda výsledek již existuje. Aktualizaci databáze ani souboru neopakuj naslepo. Při nejistém výsledku zastav zápis a ověř stav.
 10. **Žádné falešné dokončení:** Nedostupný zdroj, rate limit nebo timeout není důkazem PASS ani HOTOVO. Označ přesně dotčenou kontrolu jako čekající/nedoloženou; ostatní nezávislé kontroly mohou pokračovat.
@@ -150,29 +150,33 @@ Nevycházej z paměti, dřívějších auditních reportů ani starších verzí
 - **Chraň obsah při geografickém úkolu:** při úkolu omezeném na geografické obohacení neměň chráněné redakční texty; uplatni příslušnou výjimku v rework promptu.
 - **Chraň sequence:** audit sám o sobě neopravňuje k přidání, odebrání, přeuspořádání ani přegenerování `sequence.json`. Rozpor je nález k samostatnému rozhodnutí, nikoli pokyn k automatické změně.
 
-## 3A. Okamžité uzavírání hotových částí a zákaz přepisování (POVINNÉ)
+## 3A. Kontinuita auditu, checkpoint při přerušení a ochrana hotové práce (POVINNÉ)
 
-Toto pravidlo má přednost před pohodlností práce v konverzaci a platí pro každý auditní rozsah, každé konverzační okno i každé předání práce.
+Kanonický auditní tahák je povinný a slouží právě k tomu, aby bylo možné bezpečně pokračovat v novém konverzačním okně po vyčerpání kontextu nebo tokenů. **Neruš kvůli němu souvislou práci a nevytvářej administrativní checkpoint po každém malém kroku.**
 
-**Definice:** „Vyřešená část“ znamená „hotová část“. Část auditu je hotová, jakmile byly dokončeny všechny kontroly, které do ní patří, výsledek je podložen důkazy, jsou zaznamenány případné nálezy a je jasně uvedeno, co bylo a nebylo ověřeno. Nestačí pouhý průběžný komentář nebo předběžný odhad.
+### Kdy tahák aktualizovat
+1. Během běžného běhu pracuj nad načteným snapshotem a pokračuj přes celý zadaný blok bez zastavování po jednotlivých PSČ, faktech, jazycích nebo kontrolních oblastech.
+2. Tahák aktualizuj dávkově pouze:
+   - když hrozí vyčerpání kontextu/tokenů nebo je nutné přejít do nového konverzačního okna;
+   - když práci přeruší skutečná technická překážka;
+   - na konci celého zadaného běhu.
+3. Pokud lze práci dokončit v aktuálním běhu, neprováděj mezilehlé zápisy do taháku jen kvůli tomu, že byla dokončena část auditu.
+4. Při checkpointu ulož stručný, ale jednoznačný stav: přesný rozsah, dokončené kontroly a PSČ, otevřené kontroly, provedené a ověřené opravy, nevyřešené blokátory a **konkrétní další krok**. Zachovej odkazy na důkazy a historii změn.
+5. Po skutečném checkpointu ověř, že se změna uložila. Potom pokračuj, pokud je to možné; pokud je nutné nové okno, checkpoint musí umožnit navázání bez opakování práce.
 
-### Povinný okamžitý zápis
-1. Jakmile je libovolná část auditu dokončena, **ihned po jejím dokončení** zapiš její úplný výsledek do příslušného kanonického auditního taháku v repozitáři. Nečekej na dokončení celé oblasti A–I, celého bloku, konverzace ani pracovní relace.
-2. Zápis musí obsahovat alespoň: identifikaci rozsahu a kontrolované části, datum, provedené kontroly, výsledek, důkazy/zdroje, přesné nálezy a jejich stav, neověřené body (pokud existují) a jednoznačný stav **HOTOVO / ČÁSTEČNĚ DOLOŽENO / NEHOTOVO**.
-3. Část označ **HOTOVO** pouze tehdy, když jsou splněna všechna její příslušná kritéria. Jakmile je označena HOTOVO a zápis je uložen, je uzavřena a zamčena.
-4. Po zápisu ověř, že se změna skutečně uložila a že lze hotovou část znovu načíst. Teprve potom pokračuj k další části.
-5. Aktualizuj také checkpoint/registr tak, aby bylo zřejmé, které části jsou HOTOVO a kde přesně pokračovat. Před předáním nebo ukončením práce ulož checkpoint.
+### Povinné obnovení v novém okně
+1. Vyhledej kanonický tahák pro přesně zadaný rozsah a načti jeho aktuální stav.
+2. Neopakuj hotové kontroly ani opravy. Převzmi jejich výsledek jako platný a pokračuj pouze od uvedeného dalšího kroku a otevřených položek.
+3. Pokud tahák ukazuje, že celý požadovaný rozsah je dokončen, nepouštěj audit znovu. Předlož existující výsledek; novou kontrolu proveď jen na základě výslovně nového zadání nebo nového konkrétního důkazu.
+4. Pokud je checkpoint neúplný, nejprve ověř pouze stav nejasných operací a pokračuj od posledního bezpečně potvrzeného bodu. Neopakuj celou oblast kvůli jediné nejasné položce.
 
-### Zákaz návratu a přepisování
-- **K HOTOVÝM ČÁSTEM SE NEVRACEJ.** Při pokračování auditu je pouze převezmi jako uzavřený výsledek a pokračuj první dosud nedokončenou částí.
-- **PŘÍSNÝ ZÁKAZ PŘEPISOVÁNÍ HOTOVÝCH ČÁSTÍ AUDITU.** Nikdy nemaž, nepřepisuj, nezkracuj, nepřeformulovávej, nepřesouvej ani zpětně neupravuj jejich text, důkazy, závěry, časové údaje nebo historii. Zákaz platí i při konsolidaci reportu, změně konverzačního okna, změně modelu nebo aktualizaci promptu.
-- Nepoužívej hotovou část jako pracovní koncept. Neprováděj její opakovanou kontrolu jen proto, že začala nová relace nebo že je potřeba vytvořit souhrnný report.
-- Pokud pozdější práce odhalí nový problém, který se hotové části týká, **neotvírej ani neupravuj původní hotovou část**. Založ samostatný nový dodatek/nález s vlastním datem, důkazem a odkazem na původní uzavřenou část. Původní zápis zachovej beze změny. Nový dodatek nesmí potichu změnit ani nahradit původní výsledek.
-- Pokud je nutné opravit chybu v samotném auditním zápisu, nepřepisuj uzavřenou část. Založ samostatný opravný dodatek, který přesně identifikuje chybný údaj, vysvětlí důvod opravy a uvede správnou informaci; původní záznam musí zůstat čitelný a zachovaný.
-- Před každou aktualizací auditního taháku načti jeho aktuální verzi a zapisuj pouze do dosud otevřené části nebo jako nový append-only dodatek. Nikdy nenahrazuj celý soubor starší nebo částečnou kopií.
-- Technická nutnost nebo pohodlí nástroje nejsou výjimkou ze zákazu. Pokud nelze bezpečně přidat nový záznam bez změny hotové části, práci zastav a oznam překážku.
+### Ochrana hotové práce
+- Hotové kontroly a ověřené opravy se znovu neprovádějí jen proto, že se změnilo konverzační okno nebo model.
+- Nový problém týkající se hotové části eviduj jako nový nález/dodatek; původní výsledek nemaž ani nepřepisuj.
+- Znovu otevři pouze přesně dotčenou položku, a to při novém důkazu, změně relevantního standardu/schématu/zdroje nebo doložené změně produkčních dat.
+- Před aktualizací taháku načti jeho aktuální verzi. Zachovej historii a zapisuj pouze skutečné změny stavu; nepřepisuj jej starší kopií.
 
-**Provozní pravidlo:** jedna dokončená část = jeden okamžitý zápis = jeden uzavřený a neměnný výsledek. Nejdříve zapiš a ověř uložení, potom pokračuj. Hotové části se znovu neprovádějí ani nepřepisují.
+**Provozní pravidlo:** Jeden blok = jeden souvislý auditní běh. Checkpoint není průběžná povinnost; je to záchranný bod pro přerušení a spolehlivé navázání. Hotové se započítává, neopakuje.
 
 ## 4. Auditní checklist — devět povinných kontrolních oblastí
 
@@ -494,8 +498,8 @@ Pouze konkrétní nejednoznačnost, chybějící autoritativní důkaz, technick
 
 **Zastavení celého auditu je přípustné pouze tehdy, když technická nebo bezpečnostní překážka znemožňuje pokračovat v podstatné části práce.** Jediný nejasný nález, chybějící zdroj nebo neproveditelná oprava nesmí zastavit celý blok.
 
-### 7.4 Průběžné ukládání a závěrečný report
-Po každém opraveném PSČ a po každé uzavřené kontrolní oblasti aktualizuj kanonický tahák. Nečekej na konec bloku. Závěrečný report předlož až po dokončení všech dostupných kontrol a automatických oprav. Uveď:
+### 7.4 Dávkové ukládání, checkpoint a závěrečný report
+Kanonický tahák **neaktualizuj po každém opraveném PSČ ani po každé uzavřené kontrolní oblasti**. Během souvislého běhu shromažďuj průběžné výsledky v pracovním snapshotu a tahák aktualizuj pouze při skutečném přerušení podle oddílu 3A nebo po dokončení celého bloku. Závěrečný report předlož až po dokončení všech dostupných kontrol a automatických oprav. Uveď:
 - všechny nalezené chyby a jejich závažnost;
 - co přesně bylo změněno, včetně PSČ, ID faktů a původní/nové hodnoty v rozsahu potřebném pro auditní stopu;
 - jaké důkazy opravu podpořily;
@@ -533,7 +537,7 @@ Zkontroluj také PSČ s vlastním doručovacím obvodem, včetně těch, která 
 1. Nejdříve stanov zemi a přesnou identitu rozsahu: souvislý rozsah PSČ, explicitní množinu PSČ, okres/obec/oblast a případné hranice výběru.
 2. Prohledej příslušnou složku `data/czechia/audits/` a její `README.md` registr. Hledej podle kanonického rozsahu, nikoli podle data, názvu konverzace nebo aktuálního okna.
 3. Kanonická cesta pro blok je `data/czechia/audits/{scope}_audit.md`, kde `scope` je normalizovaný rozsah, například `60200-64400`. Pro pojmenované území použij stabilní, jednoznačný slug.
-4. Pokud tahák existuje, **načti celý jeho obsah a pokračuj v něm**. Nevytvářej nový soubor ani paralelní tahák. Nejprve ověř jeho rozsah, stav, poslední aktualizaci, rozhodnutí, hotové kontroly, otevřené nálezy a přesný další krok.
+4. Pokud tahák existuje, **načti jeho aktuální stav a pracovní část potřebnou k navázání**. Není nutné znovu načítat celý historický obsah; načti rozsah, stav, dokončené/uzamčené kontroly, otevřené nálezy a přesný další krok. Podrobné důkazy otevři jen pro položky, na kterých se pokračuje. Nevytvářej nový soubor ani paralelní tahák.
 5. Pokud tahák neexistuje, ověř ještě registr a případné překrývající se/alternativně pojmenované taháky. Pokud stejný rozsah už pokrývá existující dokument, použij jej. Nový tahák vytvoř pouze tehdy, když pro tento rozsah skutečně žádný použitelný neexistuje.
 6. Pokud existuje více kandidátů nebo se rozsahy překrývají, nevytvářej další. Nejdříve zdokumentuj vztah, zvol jeden kanonický registr a ostatní označ jako alias/nahrazený/část širšího rozsahu; historii nemaž.
 7. Zapiš kanonický soubor do `README.md` registru. Po vytvoření nebo změně taháku aktualizuj také jeho metadata v registru.
@@ -554,13 +558,14 @@ Každý tahák musí obsahovat:
 - poslední dokončený krok a přesný další krok;
 - historii změn s datem, změnou a důvodem.
 
-### 10.3 Pravidla kontinuity a ochrana před opakováním
-- Nové konverzační okno není nový audit. Je pouze další pracovní relací nad stejným tahákem.
-- Nikdy neopakuj již uzavřenou kontrolu nebo opravu jen proto, že se změnilo okno či model. Před opětovným otevřením musí existovat nový důkaz, změna zdroje/standardu/schématu nebo konkrétní rozpor.
-- Zamčené rozhodnutí se nesmí znovu označit za chybu bez uvedení nového důkazu a vysvětlení, proč původní důkaz/rozhodnutí přestalo platit.
-- Pokud se kontrola musí opakovat kvůli změně dat nebo standardu, zachovej původní výsledek a přidej novou revizi; nepřepisuj historii.
-- Každá pracovní relace aktualizuje stejný tahák průběžně, zejména po významném rozhodnutí, opravě nebo uzavření kontrolní oblasti. Nečekej až na konec dlouhého okna.
-- Při předání vždy ulož stav a přesný další krok. Při nedostatku kontextového prostoru nejprve zapiš checkpoint do taháku.
+### 10.3 Pravidla kontinuity mezi konverzačními okny
+- Nové konverzační okno není nový audit, ale pokračování stejného rozsahu nad stejným kanonickým tahákem.
+- Při obnovení načti registr a aktuální stav taháku, zejména stav auditu, dokončené/uzamčené kontroly, otevřené položky a přesný další krok. Historické detaily a důkazy načítej pouze tehdy, když jsou potřebné pro konkrétní otevřenou položku.
+- **Nikdy znovu nespouštěj hotové kontroly ani opravy jen proto, že došly tokeny, změnilo se okno nebo model.** Hotové výsledky se přebírají z taháku.
+- Pokud je stav konkrétní operace nejasný, ověř pouze tuto operaci; neopakuj celý audit ani celou dávku.
+- Původní uzavřené výsledky zachovej. Nový důkaz nebo změna dat/standardu může otevřít pouze přesně dotčenou položku a musí být zaznamenán jako nová revize/dodatek.
+- Tahák aktualizuj dávkově při skutečném přerušení a po dokončení bloku, nikoli po každém rozhodnutí, opravě nebo PSČ.
+- Každý checkpoint musí obsahovat poslední bezpečně potvrzený krok a konkrétní další krok, aby nové okno mohlo navázat bez opakování.
 - Tahák nesmí tvrdit, že kontrola proběhla, pokud není zaznamenán její rozsah, výsledek a odpovídající důkaz.
 - `PASS` lze použít jen při splnění všech požadavků promptu; uzavření oprav samo o sobě neznamená úplný audit PASS.
 
@@ -592,7 +597,7 @@ Před vytvořením nového taháku porovnej jeho rozsah s registrem. Pokud nový
 
 **Základní pravidlo:** Jakmile je konkrétní kontrola, dílčí oblast nebo nález výslovně označen jako **HOTOVO / UZAVŘENO / PASS**, považuje se za zamčený výsledek auditu. Nesmí se znovu auditovat, opakovat ani vracet do otevřené fronty jen proto, že pokračuje nová konverzace, vznikl nový checkpoint nebo se provádí širší souhrnný audit.
 
-- Před každou další prací načti registr a kanonický tahák a sestav seznam zamčených kontrol. Zamčené položky automaticky přeskoč.
+- Při zahájení nebo obnovení práce načti aktuální stav registru a taháku a převezmi seznam zamčených kontrol. Není nutné znovu pročítat jejich kompletní historii; zamčené položky automaticky přeskoč.
 - Zamčená kontrola se započítá jako splněná na základě již zaznamenaného výsledku a důkazů. V matici A–I se označí například `LOCKED / HOTOVO` a uvede se odkaz na původní kontrolu; neprovádí se znovu.
 - Opětovné otevření je povoleno pouze tehdy, když existuje alespoň jeden konkrétní spouštěč: (1) nový důkaz přímo zpochybňující původní závěr, (2) změna relevantního standardu, schématu nebo autoritativního zdroje, (3) doložená změna auditovaných produkčních dat, nebo (4) konkrétní rozpor zjištěný při jiné dosud otevřené kontrole.
 - Pouhé podezření, obecná kontrolní rutina, změna konverzačního okna nebo potřeba vyplnit matici A–I nejsou důvodem k opakování.
