@@ -233,3 +233,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-GATE0-TECH-01:** Provedeno porovnání oficiálního katalogu technických památek TIC BRNO s 176 fakty. Zaznamenány nové kandidáty Cejl, Vlněna/Mosilana, Wannieck, obě elektrárny, jatka/Masná burza, železniční objekty, Svitavská pobřežní dráha, Ponávka a pět konkrétních mostů/lávek. Esslerova přádelna je již pokryta 61400/fact_005. Nové kandidáty je nutné geolokačně ověřit; liniové prvky nesmí být duplikovány napříč PSČ. Viz dodatek 70 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-CULTURE-01:** Provedena první nezávislá kulturní/architektonická inventura PSČ 60200, 60300 a 61600. Zaznamenáno 11 nových kandidátů s ověřenou adresou a PSČ (vily Löw-Beer a Stiassni, Hotel Avion, Káznice, Dům umění, Muzeum romské kultury, Diecézní muzeum, Otevřená zahrada, Památník Leoše Janáčka, VIDA! a Kounicovy koleje) a 1 kandidát k ověření (Letohrádek Mitrovských). Nejde o uzavření brány 0; zbývajících 24 PSČ a další katalogy čekají. Viz dodatek 71 kanonického taháku.
