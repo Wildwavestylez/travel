@@ -161,3 +161,6 @@
 
 
 **Doplnění brány 0 — zpřesnění důkazů:** Potvrzené kandidátní mezery: Krematorium Strašnice (Vinohradská 2263/214, 10000), Vinohradský hřbitov (Vinohradská 294/212, 10000), Vršovický zámeček/Rangherka (Moskevská 120/21, 10100) a Nový židovský hřbitov (Izraelská 1, 13000). Hostivařská přehrada a Nuselský most zůstávají REVIEW REQUIRED kvůli geografickému přesahu/adresní nejednoznačnosti. Brána 0 stále ČÁSTEČNĚ DOLOŽENO a blokuje uzavření auditu. Viz oddíl 18 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-11:** Německé verze 63800 (4 fakta) a 63900 (3 fakta) zkontrolovány. DE/63800: doplnit Brno-Lesná ve všech čtyřech samostatných textech; datum svěcení kostela 20. 9. 2026 je již minulostí a formulace v němčině odpovídá. DE/63900: výslovně lokalizovat AZ/N Tower, Ústřední hřbitov a krematorium do Brna v těle každého faktu. Viz oddíl 49 taháku.
