@@ -236,3 +236,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-GATE0-CULTURE-01:** Provedena první nezávislá kulturní/architektonická inventura PSČ 60200, 60300 a 61600. Zaznamenáno 11 nových kandidátů s ověřenou adresou a PSČ (vily Löw-Beer a Stiassni, Hotel Avion, Káznice, Dům umění, Muzeum romské kultury, Diecézní muzeum, Otevřená zahrada, Památník Leoše Janáčka, VIDA! a Kounicovy koleje) a 1 kandidát k ověření (Letohrádek Mitrovských). Nejde o uzavření brány 0; zbývajících 24 PSČ a další katalogy čekají. Viz dodatek 71 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-GOTO-01:** Druhé porovnání oficiálního katalogu TIC BRNO/Go To Brno: 17 dalších položek k vyhodnocení, včetně Retro muzea Na statku (61900), Muzea historických vozů BMW (62700), Tyršova sadu (60200), Hádeckých lomů, naučných stezek Bohunice/Žebětín/Jelení žlíbek/Medlánky/Soběšice/Lesná/Akátky a tras přes více PSČ. U tras a soukromých muzeí je vyžadována kontrola přesahu, samostatnosti a nepřítomnosti marketingu. Viz dodatek 72 kanonického taháku.
