@@ -200,20 +200,20 @@ Pořadí musí zůstat významově stejné ve všech jazykových verzích.
 
 ## 6. Geografický rozsah — každé PSČ musí mít vlastní fakta
 
-**Každé faktum patří právě do jednoho PSČ a jeho hlavní místo musí mít doložitelnou vazbu na území tohoto PSČ.**
-
-PSČ je základní geografickou jednotkou obsahu TRAVEL. Nestačí, že se objekt nachází ve stejném městě, okrese nebo kraji.
+**PSČ jsou interní organizační pomůckou projektu TRAVEL pro třídění a navázání faktů, nikoli nepřekročitelnou hranicí turistického obsahu.** Každé faktum se ukládá právě do jednoho PSČ záznamu, ale skutečná lokalita, příběh ani rozsah objektu nemusí přesně kopírovat hranice PSČ.
 
 Závazná pravidla:
 
-- Každé faktum musí mít jedno hlavní reálné místo nebo lokalizovatelný předmět, který skutečně souvisí s daným PSČ.
-- Nepřiřazuj faktum k PSČ jen proto, že je objekt poblíž, ve stejné obci, městské části, okrese nebo kraji.
-- Každé faktum nebo fyzická atrakce může být součástí pouze jednoho PSČ záznamu.
-- Neduplikuj stejnou atrakci, objekt, událost ani příběh v sousedních PSČ.
-- Pokud objekt nebo příběh zasahuje do více území, vyber PSČ podle jasné a doložené primární místní vazby. Pokud ji nelze určit, označ případ k redakčnímu posouzení.
-- Místo z jiného PSČ lze stručně zmínit jako kontext, pokud je to pro pochopení faktu opravdu důležité. Nesmí se však stát samostatným faktem, mapovým bodem ani reprezentativním místem aktuálního PSČ.
-- Rešerše může zkoumat širší okolí. Širší rešeršní oblast však nerozšiřuje geografický rozsah výsledných faktů.
-- Pokud geografickou vazbu nelze spolehlivě ověřit, zajímavost zachovej. Nehádej PSČ ani nepřesouvej souřadnice na vhodnější místo. Pokud nelze doložit ani obhajitelnou přibližnou polohu, ponech pole location jako null; případ se vyřeší samostatně při finálním geografickém auditu. Nepřidávej kvůli tomu do JSON nový stav, příznak ani povinné pole.
+- Každé faktum musí mít jedno hlavní reálné místo nebo lokalizovatelný předmět a právě jedno primární PSČ přiřazení.
+- PSČ neomezují, o jakém významném místě lze vyprávět. Ikonický most, park, rozsáhlý areál, významná stezka, liniová stavba, krajinný celek nebo jiný objekt může přirozeně zasahovat do více PSČ.
+- U takového objektu vyber **jedno nejpravděpodobnější a redakčně nejlépe obhajitelné PSČ** podle hlavního/reprezentativního místa, polohy hlavní části, hlavního vstupu, adresy či jiného nejsilnějšího místního spojení. Zohledni dostupné oficiální podklady a skutečnou povahu objektu. Nemusíš dokazovat, že celý objekt leží uvnitř hranice jediného PSČ.
+- Pokud je k dispozici konkrétní adresa nebo adresní místo, ověř ji podle českého Content Standardu v RÚIAN/ČÚZK. RÚIAN nadále slouží k přesnému ověření adresních míst, jejich PSČ a územních vazeb; nenahrazuje však redakční rozhodnutí o jediném PSČ pro rozsáhlý či liniový objekt bez jediné rozhodující adresy.
+- U objektů bez jednoznačné adresy použij oficiální vymezení, důvěryhodné mapové/geografické zdroje a obhajitelný reprezentativní bod. Nepředstírej přesnost, kterou zdroje neposkytují.
+- **Jakmile je fakt jednou přiřazen k jednomu PSČ a toto přiřazení je doloženě nebo rozumně obhajitelně uzavřeno, považuje se za stabilní a uzamčené.** Při dalších reworkech a auditech se znovu neotevírá a nepřesouvá jen proto, že objekt zasahuje i do jiného PSČ nebo že jiný bod by mohl spadat do sousedního PSČ.
+- Uzamčené přiřazení lze znovu otevřít pouze při konkrétním novém důkazu, že původní volba byla fakticky chybná, případně při doloženém zásadním rozporu. Samotný přesah přes více PSČ, blízkost hranice nebo alternativní možné přiřazení takovým důkazem není. Před změnou zachovej původní rozhodnutí a zdůvodni novou revizi.
+- Každá fyzická atrakce nebo souvislý příběh má standardně jeden primární záznam; nevytvářej duplicitní fakta v sousedních PSČ. Samostatné záznamy jsou přípustné pouze pro skutečně odlišné, nezávisle významné příběhy či objekty.
+- Širší okolí lze zkoumat a uvádět v textu jako kontext. Není nutné násilně omezovat samotný příběh na administrativní hranici PSČ.
+- Pokud poloha není dostatečně doložená, zachovej zajímavost a označ geografickou nejistotu podle existujících pravidel; PSČ nevymýšlej a souřadnice neposouvej na pohodlné místo.
 
 ### 6.1 Česká územní realita a pole v JSON — obec sídla pošty
 
