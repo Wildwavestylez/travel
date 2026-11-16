@@ -282,3 +282,6 @@
 
 
 **Uzavření 2026-11-16 — CLOSE-GATE0-USER-01:** Brána 0 pro CZ-60200–64400 je uzavřena jako **HOTOVO** podle kurátorského významnostního prahu a stop-pravidla promptu 0.0/0.5 a výslovného rozhodnutí uživatele dále nehledat další zajímavosti. Nižší prioritní kandidáti z dřívějších dodatků zůstávají historicky evidováni, nejsou schváleni k vložení a neblokují A–I; žádné produkční fakty se tímto rozhodnutím nemění. Navázáno oblastí C: všech 8 faktů PSČ 62100 bylo geograficky zkontrolováno, bez zjištěné chybné příslušnosti PSČ; nejednoznačné/plošné body zůstaly korektně `location: null`. Další C dávka: 62300. Viz dodatek 82 kanonického taháku.
+
+
+**Oprava 2026-11-16 — CORR-C-GEO-62100-01:** Opraven aritmetický souhrn dodatku 82: PSČ 62100 má 2 přesné body, 1 přibližný bod a 5 oprávněných `location: null`; geografický závěr 8/8 zůstává beze změny. Viz dodatek 83.
