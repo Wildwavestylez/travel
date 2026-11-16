@@ -276,3 +276,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-ES-FR-IT-60200-60300:** V PSČ 60200 byly dokončeny a opraveny španělské, francouzské a italské překlady všech 18 faktů (23 konkrétních nálezů). V PSČ 60300 byly ve stejných třech jazycích zkontrolovány všechny 7 faktů; opraven význam „včelína z roku 1871“, zachování a vysvětlení názvu Staré Brno a francouzské označení Bauerova zámečku. Read-back ze Supabase potvrdil shodu ID/pořadí, 18/18 a 7/7 faktů; oba řádky zůstaly `validated`. DE/NL ani zamčené kontroly nebyly znovu otevřeny. G/H pro celý rozsah 60200–64400 zůstává otevřené; další krok je pokračovat od PSČ 61200. Podrobnosti v dodatku 80 kanonického taháku.
+
+
+**Upřesnění 2026-11-16 — AUDIT-RESUME-PRIORITY-01:** Podle povinné priority oddílu 0 aktuálního promptu V1.1 zůstává Brána 0 rozsahu 60200–64400 ČÁSTEČNĚ DOLOŽENO/NEHOTOVO a má přednost před dalším uzavíráním A–I. Navázat pouze na významné/ikonické kandidáty a uplatnit stop-pravidlo; nevyhledávat drobné instituce ani malé objekty. Jazykové opravy ES/FR/IT 60200–60300 zůstávají ověřené. Podrobnosti v dodatku 81 taháku.
