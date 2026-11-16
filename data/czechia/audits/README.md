@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–32 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -358,3 +358,6 @@
 
 
 **Pokračování 2026-11-17 — CZ-10000-15900, oddíl 33:** PSČ 10300: dokončena ruční jazyková kontrola všech 6 faktů ve všech 7 jazycích; v fact_006 doplněn kulturní kontext tereziánského katastru v CS+6 a v fact_005 nahrazen slabý polohový zdroj přímým NPÚ/MK, přesnost bodu upravena na approximate. Read-back: 6 faktů, 7 jazyků, status validated, data_version=5. Kumulativně 17/225 faktů sémanticky zkontrolováno. D/G/H zůstávají částečné; další PSČ 10400. Podrobnosti v kanonickém taháku.
+
+
+**Pokračování auditu 2026-11-17 — oddíl 33:** Všech šest faktů PSČ 10300 (fact_001–006) ručně porovnáno ve všech sedmi jazycích. U fact_002 opraven rozsah rezervace Mýto z „necelých 18 ha“ na přibližně 18,6 ha podle aktuální AOPK/ISOP (18,579 ha). U fact_004 doplněna první písemná zmínka Lipan 1325 a zpřesněn význam tří lánových statků; opraveno ve všech sedmi jazycích a přidány místní historické zdroje. U fact_001 zpřesněn překlad pojmu „tvrz“ v pěti jazycích. Fact_003, 005 a 006 bez nutnosti obsahové opravy. Read-back potvrzuje 7 jazyků a status validated. Kumulativně 17/225 faktů. Podrobnosti v oddílu 33 taháku.
