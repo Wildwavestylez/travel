@@ -134,3 +134,6 @@
 
 
 **Doplnění 2026-11-16 — CZ-10000-15900 / oblast B, dodatek 9:** Adresní VDP RÚIAN důkazy potvrzují konkrétní adresy v Radlicích s PSČ 15800 (Radlická 364/152, 365/154; jiné adresy v Radlicích mají 15000) a ve Štěrboholech s PSČ 10900 (Černokostelecká 312/134; další adresy mají 10200). Sequence nebyla změněna; rozsah obou lokalit vyžaduje samostatné rozhodnutí. Doplňková kontrola district zjistila chybějící hodnoty u 10100, 10200, 10300, 15400 a sémanticky chybnou hodnotu „Hlavní město Praha“ u 10400, 10700, 10800, 10900, 15900. B-01/B-02 zůstávají zamčené; B-04 otevřeno, B-05 adresní ověření dokončeno s nálezy k rozhodnutí, B-06 čeká pouze na fyzické sídlo 10200. Supabase beze změny. Viz oddíl 9 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — CZ-10000-15900 / oblast B, dodatek 10:** Aktuální oficiální detaily České pošty potvrzují fyzická sídla: 10300 Kolovraty, 10400 Uhříněves, 10700 Dubeč, 10900 Horní Měcholupy, 15400 Slivenec a 15900 Velká Chuchle. Pro tyto záznamy jsou doloženy kandidátní opravy district, ale Supabase nebyla změněna. 10800 zůstává bez doloženého současného sídla pošty (historická veřejná pobočka zrušena); 10200 zůstává REVIEW REQUIRED. B-04 otevřeno kvůli těmto dvěma případům a samostatné opravné fázi; B-06 otevřeno pouze pro 10200. Viz oddíl 10 taháku.
