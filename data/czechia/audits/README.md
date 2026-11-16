@@ -304,3 +304,6 @@
 
 
 **G-H-11 — 2026-11-16:** V PSČ 63500 a 63600 zkontrolovány všechny dostupné jazykové větve (3 fakta v každém záznamu). V 63500/fact_002 opraveno šest překladů (DE/EN/ES/FR/IT/NL): české „odchov šimpanze“ nyní přesně vyjadřuje úspěšný odchov, nikoli obecné rozmnožování. V 63600/fact_001/EN zpřesněno vyjádření chráněného suchého trávníku a uhlazena formulace data demonstrace; v 63600/fact_003/ES/IT/NL doplněna chybějící informace o jeslích / péči o nejmenší děti. Celkem 10 jazykových verzí opraveno a read-back potvrzen. Řádky 10371/10372 zůstaly `validated`, `data_version=1`, 3 fakta, sedm jazyků; bez změny ID/pořadí. Viz dodatek 94 kanonického taháku. G/H zůstává otevřené.
+
+
+**G-H-12 — 2026-11-16:** V PSČ 63700 opraveno pět jazykových verzí: fact_002/FR — nepřirozené „débits de Brno“ v titulku nahrazeno „auberges de Brno“; fact_003/EN/ES/FR/IT doplnilo vysvětlení Orel jako české katolické tělovýchovné a mládežnické organizace (DE/NL již kontext měly). Všech sedm jazyků u 63700/fact_003 zkontrolováno; v 63900/fact_003 zkontrolováno všech sedm jazykových verzí popisu krematoria Ernsta Wiesnera bez nutnosti změny. Read-back potvrzen; řádek 63700 (ID 10373) zůstal `validated`, `data_version=1`, 4 fakta, sedm jazyků a shodná ID/pořadí. Viz dodatek 95 kanonického taháku. G/H zůstává otevřené.
