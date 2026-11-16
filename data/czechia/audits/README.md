@@ -70,3 +70,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-11:** NL/64400 (4 fakta) dokončeno bez blokujícího nálezu a zamčeno jako `NL / LOCKED / PASS`. NL/64200 zůstává otevřené kvůli chybějícímu kontextu Bosonoh a nevysvětlené zkratce ÚAN I/Eneolitu/Halštatu; NL/64300 kvůli chybějícímu kontextu Chrlic a nevysvětlenému letounu Il-2. Viz oddíl 29 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-12:** NL/60200 (18 faktů) obsahuje nepřirozené `Brnoose bouwmeester` a nevysvětlený pojem `Panduren`; při redakci doplnit kontext Černých Polí/Brno-střed. Ostatní kulturní vysvětlení a rozlišení legendy/faktu jsou v pořádku. NL subcheck zůstává otevřený. Viz oddíl 30 taháku.
