@@ -269,3 +269,7 @@
 
 
 **Rozhodnutí 2026-11-16 — GATE0-60200 / Muzeum romské kultury:** Kandidát z dodatku 76 byl po upřesnění významnostního prahu vyřazen z aktivní fronty k doplnění; není schválen k vytvoření samostatného turistického faktu. Další práce se soustředí na otevřené auditní oblasti A–I, nikoli na rozšiřování seznamu o jednotlivé instituce a drobné lokální cíle. Podrobnosti v dodatku 78 taháku 60200–64400.
+
+
+
+**Oprava 2026-11-16 — FIX-GH-EN-60200-01:** Na základě změny pracovního pokynu byly rovnou opraveny všechny čtyři nálezy G/H v angličtině PSČ 60200: vysvětlení Zelný trh (Vegetable Market), lokalizace Černých Polí jako městské části Brna, původní název Žlutý kopec (Yellow Hill) s lokalizací v Brně a vysvětlení pandurů jako nepravidelné lehké pěchoty. Všechny čtyři texty byly znovu načteny a ověřeny v Supabase; EN má nadále 18 faktů a řádek zůstal `validated`. Ostatní jazyky a data beze změny. Podrobnosti v dodatku 79 taháku 60200–64400.
