@@ -340,3 +340,6 @@
 
 
 **Pokračování auditu 2026-11-17 — oddíl 30:** U 10000/fact_001 byla provedena ruční kontrola sedmi jazyků bez nálezu. U 10000/fact_002 bylo ve všech šesti cizojazyčných verzích zpřesněno překládání českého historického pojmu „tvrz“; EN navíc stručně vysvětluje poplužní/demesne farm. Oficiální NPÚ potvrzuje rok 1781 a převzetí Tomášem Bečvářem v roce 1862; přímé načtení katalogu vrátilo 502, proto URL není označeno jako plně live-verified. Read-back textů a statusu validated potvrzen. Podrobnosti v oddílu 30 taháku.
+
+
+**G-H-18 — 2026-11-17:** Zdrojově sjednoceny 61200/fact_001–002. Oficiální FIT VUT a Encyklopedie města Brna ověřují založení kláštera, pohřbení Prokopa (mladšího bratra Jošta), zrušení 18. 1. 1782, vojenské využití od 1784/1877 a VUT jako nového hospodáře od roku 1963. V šesti překladech opraven chybný vztah Prokopa (ne syn Jana Jindřicha) a nepřesné absolutní tvrzení „jediný dochovaný“; časová osa VUT sjednocena na rok 1963. U fact_002 byly z odborné publikace Technického muzea v Brně ověřeny tramvaje, desetitisící vůz z ledna 1917 a svařovaná konstrukce pro výstaviště z roku 1928; údaje doplněny do českého originálu a větve CS. Řádek 61200 (ID 10355) zůstal validated, data_version=1, 8 faktů, 7 jazyků, shoda ID/pořadí potvrzena. Viz dodatek 101. G/H zůstává otevřené.
