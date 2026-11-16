@@ -46,6 +46,30 @@ Do not rely on memory, earlier audit reports or a previous version of the standa
 - **Separate audit from repair:** identify and report defects first. Corrections are a separate authorized phase. After corrections, recheck the affected items and rerun any dependent validation.
 - **Do not alter protected editorial content during a geographic-only task.** Apply the preservation exception in the rework prompt where relevant.
 
+## 3A. Immediate closure of completed sections and prohibition on rewriting (MANDATORY)
+
+This rule takes precedence over conversational convenience and applies to every audit scope, conversation window and work handover.
+
+**Definition:** A “resolved section” means a “completed section”. An audit section is complete once all checks belonging to it have been performed, its result is supported by evidence, any findings have been recorded, and it clearly states what was and was not verified. A progress note or preliminary estimate is not sufficient.
+
+### Mandatory immediate recording
+1. As soon as any audit section is complete, **record its full result immediately** in the applicable canonical audit log in the repository. Do not wait until the entire A–I area, postcode block, conversation or work session is finished.
+2. The entry must include at least: scope and section identity, date, checks performed, result, evidence/sources, exact findings and their status, any unverified items, and an explicit status of **COMPLETE / PARTIALLY EVIDENCED / NOT COMPLETE**.
+3. Mark a section **COMPLETE** only when all criteria applicable to that section have been met. Once marked COMPLETE and successfully saved, it is closed and locked.
+4. Verify that the update was actually saved and that the completed section can be fetched again. Only then proceed to the next section.
+5. Update the checkpoint/registry so it clearly identifies which sections are COMPLETE and the exact next section to be processed. Save a checkpoint before handing over or ending work.
+
+### No revisiting and no rewriting
+- **DO NOT RETURN TO COMPLETED SECTIONS.** When resuming an audit, carry completed sections forward as closed results and continue with the first section that is not yet complete.
+- **STRICTLY DO NOT REWRITE COMPLETED AUDIT SECTIONS.** Never delete, overwrite, shorten, rephrase, move or retrospectively edit their text, evidence, conclusions, timestamps or history. This prohibition also applies when consolidating a report, changing conversation windows or models, or updating the prompt.
+- Do not treat a completed section as a working draft. Do not repeat its checks merely because a new session has started or a consolidated report is needed.
+- If later work reveals a new issue related to a completed section, **do not reopen or edit the original completed section**. Create a separate dated addendum/finding with its own evidence and a reference to the original locked section. Preserve the original entry unchanged. The addendum must not silently alter or replace the original result.
+- If an error in the audit record itself must be corrected, do not rewrite the completed section. Create a separate correction addendum that identifies the incorrect entry, explains why it is wrong and states the corrected information; retain the original record in readable form.
+- Before every audit-log update, fetch the current version and write only to a section that is still open or append a new addendum. Never replace the whole file with an older or partial copy.
+- Tool limitations or convenience are not exceptions. If a new entry cannot be safely added without changing a completed section, stop and report the blocker.
+
+**Operating rule:** one completed section = one immediate record = one closed and immutable result. Record and verify the save before continuing. Completed sections are neither repeated nor rewritten.
+
 ## 4. Audit checklist — nine mandatory control areas
 
 ### A. Block inventory and completeness
