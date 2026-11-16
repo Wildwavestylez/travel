@@ -149,3 +149,6 @@
 
 
 **Doplnění 2026-11-16 — oblast C / tematické překryvy:** Celé texty 11900 fact_007 (obecný přehled Pražského hradu) vůči faktům 001–006 a 12800 fact_001 (obecný přehled Vyšehradu) vůči faktům 002–005 byly porovnány. Nejde o duplicitní příběhy; obecné přehledy přidávají širší historický kontext a konkrétní fakta mají vlastní témata. Tyto dvě kontroly jsou uzavřeny. Potvrzená duplicita kaple 10900 × 11101 zůstává otevřená. Viz oddíl 14 taháku.
+
+
+**Oprava 2026-11-16 — počet faktů v C-02:** Rozsah 12000–15900 obsahuje 113 faktů, nikoli 120. Rozsah 10000–11900 obsahuje 99; celkem 212 (99 + 113). Viz oddíl 15 taháku.
