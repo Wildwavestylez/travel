@@ -37,3 +37,6 @@
 
 
 **Doplnění 2026-11-16 — E-03:** Pro 61400 nalezeny dva silné kandidáty: 250m lávka nad Maloměřickým seřazovacím nádražím (oficiální Go To Brno + RSO potvrzuje PSČ 61400 na obou koncích) a Cacovický ostrov (městský přírodní/rekreační areál, regionální biocentrum; přesný bod před vložením ověřit). Seřazovací nádraží samo zůstává jen kontextem; Sluneční lázně prověřeny a vyřazeny jako běžný komunitní prostor bez samostatné trvalé návštěvnické hodnoty. Viz oddíl 19 taháku.
+
+
+**Doplnění 2026-11-16 — E-04:** Oficiální web Komec potvrdil veřejnou přístupnost 25m rozhledny na komíně v návštěvních hodinách areálu; RSO potvrzuje Hněvkovského 730/62c, 61700. Komec je silný kandidát E pro 61700, ale nebyl vložen do Supabase. Viz oddíl 20 taháku.
