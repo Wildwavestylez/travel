@@ -273,3 +273,6 @@
 
 
 **Oprava 2026-11-16 — FIX-GH-EN-60200-01:** Na základě změny pracovního pokynu byly rovnou opraveny všechny čtyři nálezy G/H v angličtině PSČ 60200: vysvětlení Zelný trh (Vegetable Market), lokalizace Černých Polí jako městské části Brna, původní název Žlutý kopec (Yellow Hill) s lokalizací v Brně a vysvětlení pandurů jako nepravidelné lehké pěchoty. Všechny čtyři texty byly znovu načteny a ověřeny v Supabase; EN má nadále 18 faktů a řádek zůstal `validated`. Ostatní jazyky a data beze změny. Podrobnosti v dodatku 79 taháku 60200–64400.
+
+
+**Doplnění 2026-11-16 — FIX-GH-ES-FR-IT-60200-60300:** V PSČ 60200 byly dokončeny a opraveny španělské, francouzské a italské překlady všech 18 faktů (23 konkrétních nálezů). V PSČ 60300 byly ve stejných třech jazycích zkontrolovány všechny 7 faktů; opraven význam „včelína z roku 1871“, zachování a vysvětlení názvu Staré Brno a francouzské označení Bauerova zámečku. Read-back ze Supabase potvrdil shodu ID/pořadí, 18/18 a 7/7 faktů; oba řádky zůstaly `validated`. DE/NL ani zamčené kontroly nebyly znovu otevřeny. G/H pro celý rozsah 60200–64400 zůstává otevřené; další krok je pokračovat od PSČ 61200. Podrobnosti v dodatku 80 kanonického taháku.
