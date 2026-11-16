@@ -49,3 +49,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-05:** NL verze 62000/fact_001 a 62100/fact_002–004,008 neidentifikují Tuřany, Řečkovice a Medlánky jako městské části Brna; u 62100/fact_003 zůstává místní název `V šraňcích` bez vysvětlení. Nález otevřený; pozitivní kulturní a historická vysvětlení v dalších faktech zachována. Viz oddíl 23 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-06:** NL verze 62300 a 62400: nedostatečný kontext městských částí Kohoutovice/Komín, nevysvětlený Poesiomat, Ruský vrch a Kaplanovy turbíny, nepřirozené `Komínse`. Nález otevřený; ostatních šest jazyků nebylo tímto dodatkem hodnoceno. Viz oddíl 24 taháku.
