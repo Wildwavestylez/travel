@@ -91,3 +91,6 @@
 
 
 **Doplnění 2026-11-16 — B-03:** B je `HOTOVO / ZAMČENO` pro všech 27 PSČ. Po původních 16 individuálních RSO záznamech z B-02 bylo doloženo dalších 11 kódů (61300, 61500, 61600, 61800, 61900, 62300, 62500, 62800, 63600, 63800, 63900). Oficiální RSO pole `PSC` a `NAZ_POSTA` používají číselník 0028 a metodika určuje RÚIAN jako referenční zdroj. Všech 27 je v RÚIAN inventáři A-01; obec `city: Brno` odpovídá obci Brno. Neřeší se provozní stav přepážek. Viz oddíl 36 taháku.
+
+
+**Nejnovější stav 2026-11-16 — checkpoint 37:** B je HOTOVO/ZAMČENO pro 27/27 PSČ na základě RSO adresních záznamů a vazby polí `PSC`/`NAZ_POSTA` na číselník 0028; není nutný další export ani kontrola provozu poboček. C přesné duplicity zamčeny; GEO-01 až GEO-08 zůstávají zamčené. NL review 27/27 PSČ a 176/176 faktů dokončeno a zamčeno (3 dílčí PASS, 24 PSČ s nálezy); zbývá šest jazyků. E zůstává otevřené s kandidáty Komec, Wilsonův les, lávka nad Maloměřickým nádražím, Cacovický ostrov a slévárna Uxů (REVIEW). I oficiální AJV `BLOCKED / NOT RUN`. Žádná produkční data ani statusy nebyly změněny. Otevřená fronta v oddílu 37 taháku.
