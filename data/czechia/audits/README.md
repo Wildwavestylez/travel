@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |\n| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Bez oprav — audit read-only | IN PROGRESS — potvrzen HIGH nález map_category; oblasti B–H otevřené | 2026-11-16 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |\n| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Bez oprav — audit read-only | IN PROGRESS — potvrzen HIGH nález county (25 záznamů) a map_category (49 faktů); B-01/B-02 zamčeno, B-03–B-06 částečně otevřeno; C–H otevřené | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -94,3 +94,6 @@
 
 
 **Nejnovější stav 2026-11-16 — checkpoint 37:** B je HOTOVO/ZAMČENO pro 27/27 PSČ na základě RSO adresních záznamů a vazby polí `PSC`/`NAZ_POSTA` na číselník 0028; není nutný další export ani kontrola provozu poboček. C přesné duplicity zamčeny; GEO-01 až GEO-08 zůstávají zamčené. NL review 27/27 PSČ a 176/176 faktů dokončeno a zamčeno (3 dílčí PASS, 24 PSČ s nálezy); zbývá šest jazyků. E zůstává otevřené s kandidáty Komec, Wilsonův les, lávka nad Maloměřickým nádražím, Cacovický ostrov a slévárna Uxů (REVIEW). I oficiální AJV `BLOCKED / NOT RUN`. Žádná produkční data ani statusy nebyly změněny. Otevřená fronta v oddílu 37 taháku.
+
+
+**Doplnění 2026-11-16 — pokračování CZ-10000-15900, oblast B:** B-01 (ČSÚ 0028, zdrojové záznamy 33/33) a B-02 (RÚIAN CSV 33/33, 80 074 adresních míst) uzavřeny a zamčeny. B-03 odhalilo 25/33 nesprávných hodnot `county=Hlavní město Praha`; správná okresní hodnota je `Praha`, zatímco `state=Hlavní město Praha` je správně. B-04: chybějící `district` u 10100 a 10200; 10100 doloženo jako Vršovice, 10200 zůstává k ověření fyzického sídla. B-05: otevřené adresní konflikty 10900 a 15800/Radlice. B-06: aktuální oficiální detail České pošty potvrzen pro 5/6 záznamů bez delivery-office note; 10200 zůstává bez současného detailu pobočky. Supabase zůstala beze změny.
