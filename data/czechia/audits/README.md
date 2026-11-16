@@ -310,3 +310,6 @@
 
 
 **G-H-13 — 2026-11-16:** Cílená kontrola všech sedmi jazykových větví 64100/fact_001. V EN/ES/FR/IT/NL opraveno pět verzí, které mohly zaměňovat závod vozů podle předpisů Formule 1 v roce 1949 za závod oficiálního mistrovství světa. Doplněno, že závod nebyl součástí oficiálního šampionátu, který začal v roce 1950. DE již rozdíl správně vysvětlovalo; CS zůstalo beze změny. Read-back potvrzen; řádek 10376 zůstal `validated`, `data_version=1`, 10 faktů, sedm jazyků, ID/pořadí beze změny. Viz dodatek 96 kanonického taháku. Jde pouze o cílenou opravu fact_001; G/H zůstává otevřené.
+
+
+**G-H-14 — 2026-11-16:** Kompletní cílená jazyková kontrola všech sedmi jazyků a všech faktů v PSČ 64200 (11), 64300 (6) a 64400 (4), celkem 21 faktů. Opravena jedna verze: 64300/fact_006/FR — „accident de voiture tirée par des chevaux emballés“ nahrazeno přesným „accident de calèche attelée à des chevaux emballés“ (nehoda kočáru taženého splašenými koňmi). Ostatní kontrolované texty nevyžadovaly jednoznačnou opravu. Read-back potvrzen; řádky 10377–10379 zůstaly validated, data_version=1, počty 11/6/4 faktů, sedm jazyků, ID/pořadí shodné. Viz dodatek 97 kanonického taháku. G/H zůstává otevřené.
