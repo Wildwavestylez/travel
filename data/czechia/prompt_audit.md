@@ -51,6 +51,30 @@ Nevycházej z paměti, dřívějších auditních reportů ani starších verzí
 - **Chraň obsah při geografickém úkolu:** při úkolu omezeném na geografické obohacení neměň chráněné redakční texty; uplatni příslušnou výjimku v rework promptu.
 - **Chraň sequence:** audit sám o sobě neopravňuje k přidání, odebrání, přeuspořádání ani přegenerování `sequence.json`. Rozpor je nález k samostatnému rozhodnutí, nikoli pokyn k automatické změně.
 
+## 3A. Okamžité uzavírání hotových částí a zákaz přepisování (POVINNÉ)
+
+Toto pravidlo má přednost před pohodlností práce v konverzaci a platí pro každý auditní rozsah, každé konverzační okno i každé předání práce.
+
+**Definice:** „Vyřešená část“ znamená „hotová část“. Část auditu je hotová, jakmile byly dokončeny všechny kontroly, které do ní patří, výsledek je podložen důkazy, jsou zaznamenány případné nálezy a je jasně uvedeno, co bylo a nebylo ověřeno. Nestačí pouhý průběžný komentář nebo předběžný odhad.
+
+### Povinný okamžitý zápis
+1. Jakmile je libovolná část auditu dokončena, **ihned po jejím dokončení** zapiš její úplný výsledek do příslušného kanonického auditního taháku v repozitáři. Nečekej na dokončení celé oblasti A–I, celého bloku, konverzace ani pracovní relace.
+2. Zápis musí obsahovat alespoň: identifikaci rozsahu a kontrolované části, datum, provedené kontroly, výsledek, důkazy/zdroje, přesné nálezy a jejich stav, neověřené body (pokud existují) a jednoznačný stav **HOTOVO / ČÁSTEČNĚ DOLOŽENO / NEHOTOVO**.
+3. Část označ **HOTOVO** pouze tehdy, když jsou splněna všechna její příslušná kritéria. Jakmile je označena HOTOVO a zápis je uložen, je uzavřena a zamčena.
+4. Po zápisu ověř, že se změna skutečně uložila a že lze hotovou část znovu načíst. Teprve potom pokračuj k další části.
+5. Aktualizuj také checkpoint/registr tak, aby bylo zřejmé, které části jsou HOTOVO a kde přesně pokračovat. Před předáním nebo ukončením práce ulož checkpoint.
+
+### Zákaz návratu a přepisování
+- **K HOTOVÝM ČÁSTEM SE NEVRACEJ.** Při pokračování auditu je pouze převezmi jako uzavřený výsledek a pokračuj první dosud nedokončenou částí.
+- **PŘÍSNÝ ZÁKAZ PŘEPISOVÁNÍ HOTOVÝCH ČÁSTÍ AUDITU.** Nikdy nemaž, nepřepisuj, nezkracuj, nepřeformulovávej, nepřesouvej ani zpětně neupravuj jejich text, důkazy, závěry, časové údaje nebo historii. Zákaz platí i při konsolidaci reportu, změně konverzačního okna, změně modelu nebo aktualizaci promptu.
+- Nepoužívej hotovou část jako pracovní koncept. Neprováděj její opakovanou kontrolu jen proto, že začala nová relace nebo že je potřeba vytvořit souhrnný report.
+- Pokud pozdější práce odhalí nový problém, který se hotové části týká, **neotvírej ani neupravuj původní hotovou část**. Založ samostatný nový dodatek/nález s vlastním datem, důkazem a odkazem na původní uzavřenou část. Původní zápis zachovej beze změny. Nový dodatek nesmí potichu změnit ani nahradit původní výsledek.
+- Pokud je nutné opravit chybu v samotném auditním zápisu, nepřepisuj uzavřenou část. Založ samostatný opravný dodatek, který přesně identifikuje chybný údaj, vysvětlí důvod opravy a uvede správnou informaci; původní záznam musí zůstat čitelný a zachovaný.
+- Před každou aktualizací auditního taháku načti jeho aktuální verzi a zapisuj pouze do dosud otevřené části nebo jako nový append-only dodatek. Nikdy nenahrazuj celý soubor starší nebo částečnou kopií.
+- Technická nutnost nebo pohodlí nástroje nejsou výjimkou ze zákazu. Pokud nelze bezpečně přidat nový záznam bez změny hotové části, práci zastav a oznam překážku.
+
+**Provozní pravidlo:** jedna dokončená část = jeden okamžitý zápis = jeden uzavřený a neměnný výsledek. Nejdříve zapiš a ověř uložení, potom pokračuj. Hotové části se znovu neprovádějí ani nepřepisují.
+
 ## 4. Auditní checklist — devět povinných kontrolních oblastí
 
 ### A. Inventář bloku a úplnost
