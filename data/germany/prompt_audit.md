@@ -374,3 +374,21 @@ Every ledger must contain:
 Before creating a new ledger, compare its scope with the register. If the requested scope is contained in an existing wider audit, continue in the wider ledger and record the sub-scope as a subsection. If a request expands an existing scope, first update the existing ledger's scope definition and inventory; create a linked new audit only when it is genuinely a separate audit unit. Never create a second ledger for the same area merely because a new chat window was opened.
 
 **Operating command:** Before any work, perform `FIND → READ → RESUME`; `CREATE` is permitted only after confirming that no canonical or usable overlapping ledger exists.
+
+## 10.5 Locked rule — postal codes, territory and the post office's municipality (MANDATORY)
+
+**Audit the postal-code system and geography, not the retail operating model of postal counters.**
+
+- For audit purposes, a postcode is evidenced when it is demonstrably in use, has a traceable territorial/address assignment, and can be checked in the relevant RÚIAN data. Verify the existence and territorial relationship of the postcode; do not require a standalone, currently open, brick-and-mortar post office.
+- **A closed, relocated or operationally reorganised branch is not, by itself, a postcode defect or an audit blocker.** Moving service into a shop, a parcel shop/partner point or another retail location does not automatically change the postcode or its territorial record in RÚIAN. Do not investigate historical branches unless there is concrete evidence of an actual postcode or territorial mismatch.
+- For a village/municipality, apply this JSON rule: **the municipality of the serving post office = the municipality recorded in the JSON `city` field**. If the serving post office is based in Čkyně, write `city: "Čkyně"`; in descriptive text or a representative-place label, “Post Office Čkyně” may be used. For Travel search and navigation, use the municipality name “Čkyně”, not the name of a closed branch or partner shop.
+- Do not conflate: (1) the postcode's geographic/address territory in RÚIAN, (2) the municipality where the serving post office is based and represented by `city`, and (3) the current retail outlet where parcels can be handed in or collected. Only the first two are required by this audit rule; the third is not.
+- If a postcode covers multiple municipalities, do not derive `city` from the full list of municipalities in the postal delivery area. `city` identifies the municipality where the serving post office is based; the territorial extent is checked separately against RÚIAN.
+- Close this check without further branch research once it is evidenced that the postcode is in use, has a corresponding territorial/address relationship in RÚIAN, and `city` matches the municipality where the serving post office is based.
+- If the municipality where the serving post office is based is not evidenced, mark only that specific field as unevidenced. Do not automatically treat the postcode itself as invalid and do not start investigating whether a counter is open.
+- This rule does not waive evidence requirements for genuine geographic conflicts, incorrect postcodes, missing territorial relationships or a mismatch in `city`. Record any new concrete contradiction as a new finding/addendum; never rewrite completed audit sections.
+
+**Forbidden audit detours:** checking whether a historical branch is still open; searching for the retail outlet that replaced it; deciding whether a partner shop/parcel point is a “full post office”; blocking the audit solely because the operating model changed.
+
+**Closure criterion:** postcode in use + territory traceable in RÚIAN + `city` matches the municipality where the serving post office is based = this audit check is COMPLETE.
+
