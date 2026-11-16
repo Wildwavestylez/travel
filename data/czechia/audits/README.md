@@ -230,3 +230,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-GATE0-NATURE-01:** Provedeno porovnání všech 30 lokalit z oficiálního městského seznamu zvláště chráněných území s 176 fakty v bloku CZ-60200-64400. Výsledek katalogu: 11 POKRYTO, 1 ČÁSTEČNĚ POKRYTO, 16 CHYBÍ, 2 REVIEW REQUIRED (Kavky, Medlánecké kopce). Nejde o úplnou bránu 0; zbývá ověřit přesné body/PSČ a nezávislé kulturní, technické, historické a turistické katalogy. Viz dodatek 69 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-TECH-01:** Provedeno porovnání oficiálního katalogu technických památek TIC BRNO s 176 fakty. Zaznamenány nové kandidáty Cejl, Vlněna/Mosilana, Wannieck, obě elektrárny, jatka/Masná burza, železniční objekty, Svitavská pobřežní dráha, Ponávka a pět konkrétních mostů/lávek. Esslerova přádelna je již pokryta 61400/fact_005. Nové kandidáty je nutné geolokačně ověřit; liniové prvky nesmí být duplikovány napříč PSČ. Viz dodatek 70 kanonického taháku.
