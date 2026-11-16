@@ -257,3 +257,6 @@
 
 
 **Doplnění 2026-11-16 — GATE0-RUIAN-60200-02:** Dům umění města Brna (Malinovského náměstí 652/2; RÚIAN 19100671; PSČ 60200) a Besední dům (Komenského náměstí 534/8; RÚIAN 19099282; PSČ 60200) prošly ověřením fyzické adresy v oficiálním VDP ČÚZK/RÚIAN. Porovnáno s aktuálními 18 fakty 60200: oba samostatné příběhy chybí. Oba kandidáti přijati do inventáře jako geograficky ověřené / připravené k redakčnímu zpracování; nové produkční fakty zatím nevytvořeny. Viz dodatek 75 kanonického taháku 60200–64400. Produkční Supabase a sequence beze změny.
+
+
+**Upřesnění 2026-11-16 — Nuselský most:** Doplňující rešerše zjistila tři katalogové PSČ pro různé části/označení téhož liniového objektu: 12000 (Encyklopedie Prahy 2), 12800 (Prague City Tourism) a 14000 (Prague City Line, jižní zakončení u Pankráce). Primární záznam zůstává jediný: 12800/fact_011; ostatní PSČ jsou pouze alternativní geografické reference a nesmějí vytvářet duplicitu. Viz oddíl 23 pražského taháku.
