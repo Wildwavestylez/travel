@@ -382,6 +382,34 @@ Zkontroluj:
 
 Neměň schéma jako obezličku při auditu. Omezení nebo rozpor schématu oznam samostatně k výslovnému posouzení.
 
+
+## 4A. HROMADNÁ JAZYKOVÁ KONTROLA CELÉHO BLOKU — JEDEN PRŮCHOD, JEDEN SOUHRN (POVINNÉ)
+
+Tato část závazně určuje způsob provádění kontrol G a H. Má přednost před jakýmkoli výkladem, který by vedl k oddělenému zpracování jazyků nebo jednotlivých PSČ, a v oblasti jazykových kontrol má přednost také před dílčími checkpointy v oddílech 3A, 7.4 a 10.3.
+
+**Jazyková kontrola se provádí hromadně nad celým uživatelem zadaným rozsahem PSČ. Nikdy ji nerozděluj na samostatné uživatelské úkoly podle jazyků nebo jednotlivých PSČ.**
+
+### Povinný postup
+
+1. **Načti celý auditovaný blok najednou** (nebo v nezbytných stránkovaných dávkách) včetně všech sedmi jazykových verzí: cs, de, en, es, fr, it a nl. Vytvoř jeden pracovní snapshot všech záznamů a faktů.
+2. **Proveď jeden souvislý jazykový průchod přes celý blok.** U každého faktu zkontroluj všech sedm verzí v rámci jedné společné kontroly. Nepřepínej pracovní režim na „teď celý blok jen německy, potom celý blok anglicky…“ a neukončuj práci po jednom PSČ.
+3. **Porovnávej překlady napříč jazyky i s českým zdrojem.** Ověř úplnost a shodu ID/pořadí, zachování významu a faktů, gramatiku, pravopis, interpunkci, přirozenost, idiomatickou formulaci, srozumitelnost pro rodilého i zahraničního čtenáře a potřebný kulturní kontext. Odstraň doslovné nebo strojově působící formulace, nepřirozené slovní spojení, zavádějící výrazy, nejasné zájmenové odkazy a formulace, které jsou sice gramaticky možné, ale v cílovém jazyce nedávají přirozený smysl. Zachovej fakta, nuance, výhrady a tón; nic nepřidávej bez opory.
+4. **Vytvoř jednu společnou frontu oprav pro celý blok.** Každou potvrzenou jazykovou chybu oprav automaticky hned, bez předkládání nálezu uživateli a bez žádosti o schválení. Pokud oprava vyžaduje změnu významu zdrojového českého textu, nejdříve ověř správné znění podle zdrojů a Content Standardu; nejasnost označ pouze u dotčeného faktu.
+5. **Opravy ukládej účelně po dávkách.** Neprováděj samostatné ukládání a checkpoint po každém jazyku nebo každém faktu. Seskup bezpečné opravy do logických dávek; zápisy prováděj sekvenčně a bezpečně. Po dávce ověř skutečné uložení a následně validuj dotčené překlady.
+6. **Po opravách proveď jednu závěrečnou validační kontrolu celého jazykového bloku:** všech sedm jazyků, všechna ID a jejich pořadí, úplnost, významová shoda, gramatika, přirozenost, srozumitelnost a kulturní kontext. Změněný fakt ověř ve všech sedmi jazykových verzích společně.
+7. **Teprve po dokončení celého rozsahu uzavři jazykovou část** a zapiš jediný souhrnný výsledek do taháku: počet zkontrolovaných PSČ, faktů a jazykových verzí; nalezené typy chyb; provedené opravy s PSČ/ID/jazykem; výsledek následné validace; nevyřešené výjimky.
+
+### Výslovně zakázaný postup
+
+- Jeden jazyk jako samostatný úkol, po něm zastavení a čekání na uživatele.
+- Jedno PSČ jako samostatný jazykový audit, po něm zastavení a žádost o „pokračuj“.
+- Opakované dotazy, zda má být nalezená chyba opravena.
+- Předkládání každé jednotlivé formulace ke schválení, pokud je správná oprava zřejmá a bezpečná.
+- Opakované otevírání již zkontrolovaných jazyků bez konkrétního nového důkazu.
+- Průběžné vypisování dlouhých nálezů místo provedení oprav a pokračování.
+
+**Pravidlo dokončení:** pokud uživatel zadá jazykovou kontrolu bloku PSČ, pokračuj automaticky přes celý zadaný blok a všech sedm jazyků v rámci jednoho běhu. Nezastavuj se mezi PSČ ani mezi jazyky. Uživatel dostane až závěrečný souhrn ve stylu „zkontrolováno X PSČ / Y faktů; opraveny tyto typy chyb; validace hotova; zbývá toto“. Přerušení je přípustné pouze při skutečné technické překážce nebo vyčerpání možností pokračovat, nikoli kvůli běžnému nálezu či potřebě dalšího souhlasu.
+
 ## 5. Nálezy, závažnost a stav auditu
 
 Každý nález musí obsahovat:
