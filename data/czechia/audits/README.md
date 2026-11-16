@@ -182,3 +182,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-61800-62100:** V DE překladech 61800, 61900, 62000 a 62100 bylo opraveno 14 konkrétních lokalizačních/terminologických nálezů (včetně neutrálního historického pojmenování instituce, vysvětlení Sokola, názvu Olomoucká a současné lokalizace městských částí). Všechny texty byly ověřeny po zápisu; záznamy zůstaly `validated`. Viz dodatek 55 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-62300-62700:** V DE překladech 62300, 62400, 62500 a 62700 bylo opraveno 26 konkrétních geografických a kulturně-terminologických nálezů. Texty byly znovu načteny a ověřeny v Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 56 kanonického taháku.
