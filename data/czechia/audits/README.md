@@ -209,3 +209,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-62500-62700:** V NL překladech 62500 a 62700 bylo opraveno osm konkrétních lokalizačních a terminologických nálezů (Kejbaly/Bohunice, pomologie a lokality v Brně-Slatině). Texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Viz dodatek 64 kanonického taháku.
+
+
+**Checkpoint 2026-11-16 — obnovení finálního auditu CZ-60200-64400:** Kanonický tahák byl rozšířen append-only dodatkem 65. Nový read-only dotaz Supabase potvrzuje 27/27 unikátních PSČ, 27 validated, 0 published a aktuálně 176 faktů (historický úvodní údaj 177 je evidován jako rozpor, bez přepisu historie). Brána 0 — nezávislá inventura památek a zajímavostí pro všech 27 PSČ — zůstává ČÁSTEČNĚ DOLOŽENO/NEHOTOVO; běžné A–I se neuzavírá, dokud nebude dokončena. Zamčené kontroly se neopakují. Viz dodatek 65 kanonického taháku.
