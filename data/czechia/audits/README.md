@@ -206,3 +206,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-62300-62400:** V NL překladech 62300 a 62400 bylo opraveno deset konkrétních jazykových a lokalizačních nálezů (současná příslušnost Kohoutovic a Komína k Brnu, Poesiomat, Kaplanovy vodní turbíny, Ruský vrch a další). Všechny texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Viz dodatek 63 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-NL-62500-62700:** V NL překladech 62500 a 62700 bylo opraveno osm konkrétních lokalizačních a terminologických nálezů (Kejbaly/Bohunice, pomologie a lokality v Brně-Slatině). Texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Viz dodatek 64 kanonického taháku.
