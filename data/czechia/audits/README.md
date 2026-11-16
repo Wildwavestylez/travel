@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Bez oprav — audit read-only | IN PROGRESS — potvrzen HIGH nález county (25 záznamů) a map_category (49 faktů); B-01/B-02 zamčeno, B-03–B-06 částečně otevřeno; C–H otevřené | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy provedeny a ověřeny; viz oddíl 25 | REVIEW REQUIRED — A PASS, I vlastní validátor PASS; B/C/F/H otevřené, D/G částečné; E uzavřeno rozhodnutím uživatele | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -316,3 +316,6 @@
 
 
 **G-H-15 — 2026-11-16:** V PSČ 64200 (11 faktů), 64300 (6) a 64400 (4) zkontrolováno všech sedm jazykových větví. Opraveno 30 jazykových verzí: 64300/fact_002/DE/EN/ES/FR/IT/NL doplnilo místo narození a časovou osu pamětních prvků Ernsta Macha; 64300/fact_003/DE/EN/ES/FR/IT/NL doplnilo manská sídla 1320–1326, spojení panství 1567, vznik Roznberku a průmyslový vývoj; 64200/fact_008/DE/EN/ES/FR/IT/NL doplnilo původ a další funkce obecního domu; 64200/fact_010/DE/EN/ES/FR/IT/NL doplnilo přesné datum narození Bohuslava Kiliana, vydávání Měsíce od 1933 a příklady exilových autorů; 64200/fact_011/DE/EN/ES/FR/IT/NL doplnilo detaily povodně o vnikání vody okny a odnášení stavebního materiálu. 64400 bez nutnosti opravy. Read-back a SQL kontrola potvrzeny; řádky 10377–10379 zůstaly validated, data_version=1, 11/6/4 faktů, sedm jazyků a shodná ID/pořadí. Viz dodatek 98 kanonického taháku. G/H zůstává otevřené.
+
+
+**Finální audit 2026-11-16 — CZ-10000-15900:** Aktuální snapshot 33 PSČ / 225 faktů / 33 validated. A-01 PASS (database/sequence/groups 33/33). Provedeny a ověřeny opravy: 25 county, 48 chybějících map_category (+ 5 zpřesnění), tři location.type, pět nesprávných německých zdrojů, jazykové a geografické opravy. Vlastní JSON Schema validátor: 33/33 bez chyb; oficiální AJV nebyl spuštěn. Brána 0 uzavřena podle výslovného pokynu uživatele; žádné další kandidáty ani nové fakty nepřidávat. Konečný stav **REVIEW REQUIRED**, nikoli PASS: B/C/F/H mají otevřené položky, zejména 10200, sequence/RÚIAN konflikty, 15 null poloh a 26 null access_point. Podrobnosti v oddílu 25 kanonického taháku. Sequence, schema a statusy řádků nebyly změněny.
