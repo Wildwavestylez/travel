@@ -242,3 +242,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-GATE0-CENTRAL-NORTH-01:** Doplňkový katalog Go To Brno pro 60200/60300/61600/61700 identifikoval Lužánky, Kryt Denis, Synagogu Agudas Achim a Komec jako nové kandidáty; Mendlovo náměstí, Wilsonův les a parky Kraví hora/Špilberk jako samostatné nebo částečně pokryté kandidáty. Přesné PSČ Mendlova náměstí 60300 a Komec 61700 ověřeno přes RÚIAN/ČSÚ. Viz dodatek 73 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-CHECKPOINT-2026-11-16-EOD:** Aktuální Supabase snapshot: 27 PSČ, 176 faktů, 27 `validated`, 0 `published`. V cílených opravách bylo ověřeno 115 DE a 98 NL nálezů (213 celkem); předchozí průběžné odhady v konverzaci byly nepřesné. DE/NL opravné fronty jsou uzavřené; Gate 0 zůstává blokující a částečně doložená. Zbývá dokončit lokalita-po-lokalitě inventuru všech 27 PSČ, následně otevřené C, jazyky cs/en/es/fr/it a oficiální AJV (stále blocked). Viz dodatek 74 kanonického taháku.
