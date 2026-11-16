@@ -119,3 +119,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-07:** Německé verze 62300 (9 faktů) a 62400 (6 faktů) zkontrolovány. DE/62300: doplnit lokalizaci kaple, přírodní památky a pamětních desek do Brna-Kohoutovic; vysvětlit Poesiomat. DE/62400: důsledně určit Komín jako městskou část Brna v samostatných faktech a vysvětlit Kaplanovy vodní turbíny. Viz oddíl 44 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-08:** Německé verze 62500 (9 faktů) a 62700 (8 faktů) zkontrolovány. DE/62500: doplnit Brno-Bohunice u Kejbalů, Bohunic a Starého Lískovce; vysvětlit pomologii. DE/62700: lokalizovat Stránskou skálu, Slatinu, Slatinku a Černovičky do Brna-Slatiny; vysvětlit Flugmotorenwerke Ostmark, pozdní eneolit a sochu Slévač. Pozitivní výklad Stolpersteine zachovat. Viz oddíl 45 taháku.
