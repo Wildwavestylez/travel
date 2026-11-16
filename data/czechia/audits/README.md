@@ -16,3 +16,6 @@
 - Historii nemaž; změny přidávej jako nové revize.
 
 **Doplnění 2026-11-16:** V kanonickém taháku byly append-only zapsány a po opětovném načtení ověřeny dílčí výsledky **A-01** (inventární reconciliace HOTOVO: 27/27 PSČ, sequence/groups 2 677/2 677 bez rozdílů) a **B-01** (okres/kraj a district proti ČSÚ/RÚIAN HOTOVO; celá oblast B zůstává ČÁSTEČNĚ DOLOŽENO kvůli položkovému ověření ČSÚ 0028 a nezávislému ověření sídel pošt). Další krok: dokončit zbývající B bez opakování A-01 a B-01.
+
+
+**Doplnění 2026-11-16 — HOTOVO = ZAMČENO:** V auditu CZ-60200-64400 bylo zavedeno nevratné provozní pravidlo, že každá uzavřená kontrola se započítává a neopakuje. GEO-01 až GEO-08, A-01, B-01 v rozsahu dodatku a ostatní výslovně uzavřené nálezy zůstávají zamčené. Pokračuje se výhradně v otevřených položkách uvedených v oddílu 14 kanonického taháku. Znovuotevření je možné pouze na základě nového konkrétního důkazu nebo relevantní změny standardu, schématu či auditovaných dat.
