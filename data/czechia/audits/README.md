@@ -152,3 +152,6 @@
 
 
 **Oprava 2026-11-16 — počet faktů v C-02:** Rozsah 12000–15900 obsahuje 113 faktů, nikoli 120. Rozsah 10000–11900 obsahuje 99; celkem 212 (99 + 113). Viz oddíl 15 taháku.
+
+
+**Nové pravidlo 2026-11-16 — BRÁNA 0:** Před jakýmkoli auditem A–I musí proběhnout nezávislá inventura významných památek a zajímavostí celého území, vytvořená z oficiálních a odborných katalogů a následně porovnaná s databází. Chybějící zásadní památky jsou závažný nález. Nový povinný postup je první položkou každého taháku; viz V1.1 prompt_audit.md, oddíl 0. Praha 10000–15900: první screening odhalil kandidátní mezery (Krematorium Strašnice, Vinohradský hřbitov, kostel Neposkvrněného početí Panny Marie, Rangherka, Hostivařská přehrada, Nuselský most, Nový židovský hřbitov) a další kandidáty k prověření. Brána 0 zůstává ČÁSTEČNĚ DOLOŽENO; audit nelze uzavřít.
