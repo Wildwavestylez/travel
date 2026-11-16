@@ -76,3 +76,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-13:** NL/60300 obsahuje zavádějící překlad `Bauer-ramp` pro historický velodrom; NL/61200 má nepřirozené `Brnoose`, nepřesné `Hus-vergaderzaal` a odborný termín kartuziánů bez krátkého vysvětlení. Nález otevřený. Viz oddíl 31 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-14:** NL/61300: Villa Tugendhat nemá v úvodní větě jasné umístění v Brně; `Brnoose architect` je nepřirozené; Černá Pole u dětské nemocnice nejsou identifikována jako městská čtvrť Brna. Nález otevřený. Viz oddíl 32 taháku.
