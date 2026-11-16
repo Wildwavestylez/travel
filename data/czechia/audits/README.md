@@ -104,3 +104,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-02:** Německé verze 61200 (8 faktů) a 61300 (5 faktů) zkontrolovány. Otevřené nálezy: u 61200/fact_001,003,004,005 doplnit, že Královo Pole/Na Slovanech leží v Brně; u 61300/fact_001 výslovně lokalizovat Villu Tugendhat do Brna a u fact_003,005 vysvětlit Černá Pole jako městskou čtvrť. DE/60300 zůstává zamčeno PASS; ostatní PSČ v DE a jazyky cs/en/es/fr/it otevřené. Viz oddíl 39 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-03:** Německé verze 61400 (5 faktů) a 61500 (6 faktů) zkontrolovány. DE/61400: doplnit Brno u Husovic (fact_002–003) a Obřan/Maloměřic (fact_005). DE/61500: doplnit Brno u Židenic (fact_002) a Zábrdovic + stručné vysvětlení premonstrátů (fact_003); sjednotit vlastní název Karáskovo náměstí v fact_005. DE/60300 zůstává zamčeno PASS; nálezy u DE/60200, 61200–61500 otevřené. Viz oddíl 40 taháku.
