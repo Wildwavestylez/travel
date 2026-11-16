@@ -335,3 +335,48 @@ Netvrď, že záloha existuje nebo je ověřena, dokud nebyla skutečně vytvoř
 Před auditem bloku ověř, že `sequence` je kanonický úplný seznam a `groups` jeho úplné členění. Porovnej přesnou množinu PSČ, počet a unikátnost. Každý kód musí být v obou strukturách právě jednou; musí platit `count = sequence.length = součet položek groups`. Jakýkoli rozdíl je nález HIGH a blok nesmí dostat PASS, dokud není vysvětlen a opraven se schválením. Nevyvozuj automaticky, že je správná jedna část a druhá chybná.
 
 Zkontroluj také PSČ s vlastním doručovacím obvodem, včetně těch, která nejsou v běžné číselné řadě. Pokud je kód v `sequence`, patří do rozsahu auditu. Prázdné `localities` neznamená, že nemá vlastní územní rozsah; ověř jej podle Content Standardu a nepřidávej domnělé lokality.
+
+
+## 10. Povinný centrální auditní tahák a navazování mezi okny
+
+**Závazné pravidlo: jeden stát + jeden přesně vymezený auditní rozsah = jeden kanonický auditní tahák.** Tahák je trvalý pracovní registr auditu, nikoli jednorázový report ani poznámka konkrétního konverzačního okna.
+
+### 10.1 Povinné vyhledání před každým auditem nebo pokračováním
+1. Nejdříve stanov zemi a přesnou identitu rozsahu: souvislý rozsah PSČ, explicitní množinu PSČ, okres/obec/oblast a případné hranice výběru.
+2. Prohledej příslušnou složku `data/czechia/audits/` a její `README.md` registr. Hledej podle kanonického rozsahu, nikoli podle data, názvu konverzace nebo aktuálního okna.
+3. Kanonická cesta pro blok je `data/czechia/audits/{scope}_audit.md`, kde `scope` je normalizovaný rozsah, například `60200-64400`. Pro pojmenované území použij stabilní, jednoznačný slug.
+4. Pokud tahák existuje, **načti celý jeho obsah a pokračuj v něm**. Nevytvářej nový soubor ani paralelní tahák. Nejprve ověř jeho rozsah, stav, poslední aktualizaci, rozhodnutí, hotové kontroly, otevřené nálezy a přesný další krok.
+5. Pokud tahák neexistuje, ověř ještě registr a případné překrývající se/alternativně pojmenované taháky. Pokud stejný rozsah už pokrývá existující dokument, použij jej. Nový tahák vytvoř pouze tehdy, když pro tento rozsah skutečně žádný použitelný neexistuje.
+6. Pokud existuje více kandidátů nebo se rozsahy překrývají, nevytvářej další. Nejdříve zdokumentuj vztah, zvol jeden kanonický registr a ostatní označ jako alias/nahrazený/část širšího rozsahu; historii nemaž.
+7. Zapiš kanonický soubor do `README.md` registru. Po vytvoření nebo změně taháku aktualizuj také jeho metadata v registru.
+
+### 10.2 Povinný obsah živého taháku
+Každý tahák musí obsahovat:
+- kanonické ID rozsahu, stát, přesnou definici rozsahu a cestu k souboru;
+- stav: `NOT STARTED`, `IN PROGRESS`, `PAUSED`, `FIXES IN PROGRESS`, `RE-AUDIT`, `PASS`, `FIX REQUIRED`, `REVIEW REQUIRED` nebo `BLOCKED`;
+- verze/commity promptu, schématu, Content Standardu, sequence a referenčních dat;
+- inventář a reconciliaci PSČ;
+- matici všech záznamů a kontrol A–I;
+- tematický checklist s výsledkem každé kategorie;
+- samostatné výsledky sedmi jazyků;
+- všechny nálezy, jejich důkazy, rozhodnutí a stav;
+- opravy a následné ověření;
+- **zamčená rozhodnutí**: co už bylo prověřeno a odsouhlaseno, proč je to správně, důkaz, dotčené PSČ/fakta a co se nesmí znovu otevírat bez nového důkazu nebo změny standardu;
+- otevřené otázky a chybějící důkazy;
+- poslední dokončený krok a přesný další krok;
+- historii změn s datem, změnou a důvodem.
+
+### 10.3 Pravidla kontinuity a ochrana před opakováním
+- Nové konverzační okno není nový audit. Je pouze další pracovní relací nad stejným tahákem.
+- Nikdy neopakuj již uzavřenou kontrolu nebo opravu jen proto, že se změnilo okno či model. Před opětovným otevřením musí existovat nový důkaz, změna zdroje/standardu/schématu nebo konkrétní rozpor.
+- Zamčené rozhodnutí se nesmí znovu označit za chybu bez uvedení nového důkazu a vysvětlení, proč původní důkaz/rozhodnutí přestalo platit.
+- Pokud se kontrola musí opakovat kvůli změně dat nebo standardu, zachovej původní výsledek a přidej novou revizi; nepřepisuj historii.
+- Každá pracovní relace aktualizuje stejný tahák průběžně, zejména po významném rozhodnutí, opravě nebo uzavření kontrolní oblasti. Nečekej až na konec dlouhého okna.
+- Při předání vždy ulož stav a přesný další krok. Při nedostatku kontextového prostoru nejprve zapiš checkpoint do taháku.
+- Tahák nesmí tvrdit, že kontrola proběhla, pokud není zaznamenán její rozsah, výsledek a odpovídající důkaz.
+- `PASS` lze použít jen při splnění všech požadavků promptu; uzavření oprav samo o sobě neznamená úplný audit PASS.
+
+### 10.4 Ochrana proti paralelním a překrývajícím se auditům
+Před vytvořením nového taháku porovnej jeho rozsah s registrem. Pokud nový požadavek spadá do již existujícího širšího auditu, pokračuj v širším taháku a eviduj dílčí rozsah jako podsekci. Pokud nový požadavek rozšiřuje stávající rozsah, nejprve aktualizuj definici a inventář stávajícího taháku, případně vytvoř výslovně navázaný nový audit jen tehdy, když jde o samostatnou auditní jednotku. Nikdy nevytvářej druhý tahák pro stejnou oblast pouze kvůli novému oknu.
+
+**Provozní příkaz:** Před každou prací proveď `FIND → READ → RESUME`; `CREATE` je povolen pouze po prokazatelném nenalezení existujícího kanonického nebo použitelného překrývajícího se taháku.
