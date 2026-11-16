@@ -64,3 +64,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-09:** NL verze 63500–63700: chybí kontext městských částí Kníničky/Židenice/Jundrov/Bystrc/Kohoutovice, u Mniší hory chybí vysvětlení kopce a u 63700/fact_003 není vysvětlen spolek Orel (katolická tělovýchovná organizace). Nález otevřený. Viz oddíl 27 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-10:** NL subchecks 63800 (4 fakta) and 63900 (3 fakta) dokončeny bez blokujícího nálezu a zamčeny jako `NL / LOCKED / PASS`. NL/64100 zůstává otevřené kvůli chybějícímu vysvětlení Žebětína jako městské části Brna v samostatných faktech. Ostatní jazyky nejsou tímto zamčením dotčeny. Viz oddíl 28 taháku.
