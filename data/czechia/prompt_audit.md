@@ -44,20 +44,21 @@ Nejdříve nezjišťuj, zda jsou správná fakta, která databáze obsahuje. Nej
 Cílem je odhalit vynechané zásadní památky, historické objekty, kostely a sakrální stavby, hrady a zámky, muzea, technické památky, významné veřejné stavby, archeologická naleziště, památníky, hřbitovy, přírodní rezervace, krajinné dominanty a další místa s prokazatelným místním, regionálním nebo celostátním významem. Zvláštní pozornost věnuj územím s vysokou koncentrací kulturního dědictví a velkým turistickým významem (zejména Praha, Brno a další velká historická města), ale pravidlo platí bez výjimky pro každou obec a každý blok.
 
 ### 0.2 Nezávislé vytvoření kandidátního inventáře
-Kandidátní inventář vytvářej nezávisle na stávajících faktech. Nesmíš se omezit na vyhledávání podle názvů, které už databáze obsahuje, ani na doplňování prázdných kategorií.
+
+Kandidátní inventář vytvářej nezávisle na stávajících faktech. Nesmíš se omezit na vyhledávání podle názvů, které už databáze obsahuje, ani na doplňování prázdných kategorií. **Inventář však není úplným soupisem všech evidovaných památek:** zahrnuje pouze kandidáty odpovídající hierarchii významnosti v oddílu 0.0.
 
 Pro celé auditované území:
-1. Rozděl rozsah na všechny obce, městské části, místní části a další lokality uvedené v aktuálním `sequence.json`. U každé lokality zaznamenej, jaké zdroje a tematické okruhy byly prověřeny.
-2. Proveď rešerši v několika nezávislých a kompetentních katalozích a seznamech. Podle charakteru území použij zejména:
+1. Zkontroluj hlavní města, obce, městské části a lokality uvedené v aktuálním `sequence.json` z hlediska jejich nejvýznamnějších dominant. Rozsah kontroly přizpůsob významu a velikosti lokality; neprováděj mechanicky stejně hlubokou rešerši každé malé obce.
+2. Použij několik vhodných a kompetentních zdrojů k ověření hlavních kandidátů. Podle charakteru území využij zejména:
    - Národní památkový ústav: Památkový katalog, národní kulturní památky, památkové rezervace a zóny, významné archeologické lokality;
    - oficiální městské/regionální turistické portály a katalogy míst (např. Prague City Tourism, Go To Brno, krajské a obecní turistické portály);
-   - oficiální weby obcí, městských částí, muzeí, galerií, církevních institucí, správců památek a významných kulturních zařízení;
-   - AOPK ČR, Natura 2000 a oficiální seznamy chráněných území pro přírodní lokality;
-   - odborné a institucionální zdroje pro technické, průmyslové, dopravní a vojenské dědictví;
-   - další důvěryhodné místní historické inventáře a odborné publikace, pokud pokrývají konkrétní lokalitu.
-3. Neomezuj se na jeden portál ani na jednu kategorii. Použij tematické seznamy i obecné přehledy a hledej také varianty názvů, historické názvy, místní názvy a objekty, které nejsou označeny jako turistická atrakce.
-4. Zaznamenej kandidáty bez ohledu na to, zda jsou již v databázi. Každý kandidát musí mít název, typ, lokalitu, důvod významnosti, zdroj(y) a předběžnou geografickou vazbu.
-5. Pro významné areály kontroluj i jejich samostatné součásti. Nepředpokládej, že obecný fakt o areálu automaticky pokrývá všechny samostatně významné stavby nebo příběhy uvnitř něj.
+   - oficiální weby obcí, městských částí, muzeí, galerií, církevních institucí, správců významných památek a kulturních zařízení;
+   - AOPK ČR, Natura 2000 a oficiální seznamy chráněných území pro skutečně významné přírodní lokality;
+   - odborné a institucionální zdroje pro významné technické, průmyslové, dopravní a vojenské dědictví;
+   - další důvěryhodné místní historické inventáře a odborné publikace, pokud pomáhají ověřit konkrétní významnou dominantu.
+3. Neomezuj se na jediný zdroj, pokud ověřuješ skutečně zásadní dominantu. Není však cílem procházet vyčerpávajícím způsobem všechny katalogy, kategorie a jednotlivé chráněné objekty.
+4. Zaznamenej pouze kandidáty odpovídající hierarchii významnosti v oddílu 0.0. Každý kandidát musí mít název, typ, lokalitu, stručný důvod zásadního významu, zdroj(y) a předběžnou geografickou vazbu.
+5. U významných areálů ověř samostatné součásti pouze tehdy, pokud jsou samy ikonické, významné nebo mají vlastní podstatný příběh. Drobné součásti automaticky nerozepisuj do samostatných faktů.
 
 ### 0.3 Porovnání s databází a kontrola geografické příslušnosti
 Teprve po vytvoření nezávislého kandidátního inventáře jej porovnej se všemi existujícími fakty v celém auditovaném bloku:
