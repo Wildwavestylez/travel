@@ -6,6 +6,8 @@
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
 
+**Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
+
 ## Pravidla registru
 - Identita auditu je dána zemí a přesným rozsahem, nikoli konverzačním oknem.
 - Při překryvu rozsahů použij existující širší tahák a eviduj dílčí oblast uvnitř něj.
