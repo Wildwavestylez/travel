@@ -122,3 +122,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-08:** Německé verze 62500 (9 faktů) a 62700 (8 faktů) zkontrolovány. DE/62500: doplnit Brno-Bohunice u Kejbalů, Bohunic a Starého Lískovce; vysvětlit pomologii. DE/62700: lokalizovat Stránskou skálu, Slatinu, Slatinku a Černovičky do Brna-Slatiny; vysvětlit Flugmotorenwerke Ostmark, pozdní eneolit a sochu Slévač. Pozitivní výklad Stolpersteine zachovat. Viz oddíl 45 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-09:** Německé verze 62800 (7 faktů) a 63400 (4 fakta) zkontrolovány. DE/62800: doplnit Brno-Líšeň u Starých Zámků, Líšně, Kostelíčku, trati, Zetoru a Mariánského údolí. DE/63400: doplnit Brno-Nový Lískovec ve všech čtyřech faktech a vysvětlit odborné pojmy Linearbandkeramik/Jordanów-Kultur. Viz oddíl 46 taháku.
