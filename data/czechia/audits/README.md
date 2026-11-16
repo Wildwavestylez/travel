@@ -43,3 +43,6 @@
 
 
 **Doplnění 2026-11-16 — I-01:** Oficiální AJV běh nebylo možné spustit: balíček `ajv` v Node prostředí chybí a npm registry není dostupná (timeout). Předchozí vlastní validátor zůstává uzamčený; oficiální AJV je `BLOCKED / NOT RUN`, nikoli PASS/FAIL. Bez souhlasu nebyly přidány závislosti ani CI workflow. Viz oddíl 21 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-04:** NL verze 61800 a 61900: zastaralé/stigmatizující `Geesteszieken`, nepřirozené `Brno'se`, nevysvětlený Sokol v 61800/fact_003 a chybějící kontext městských čtvrtí Horní Heršpice/Přízřenice. Nález otevřený; ostatních šest jazyků nebylo tímto dodatkem hodnoceno. Viz oddíl 22 taháku.
