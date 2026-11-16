@@ -31,3 +31,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-03:** NL verze 61600 a 61700 obsahují nepřirozené adjektivum `Brno'se` a nevysvětlené lokální názvy (Žabovřesky, Komárov, Burianovo/Mariánské náměstí, Kraví hora). Nález otevřený; ostatních šest jazyků tímto dodatkem nebylo hodnoceno. Viz oddíl 17 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — E-02:** Nové tematické kandidáty: Komec – 25m komínová vyhlídka (61700, silný kandidát s adresou potvrzenou RSO ČSÚ); Wilsonův les – 34ha lesopark a vyhlídka (61600, přesný bod nutno ověřit kvůli více katastrálním územím); Slévárna Uxů (60200, průmyslové dědictví, zatím REVIEW kvůli aktivnímu provozu a neověřené přístupnosti; výslovně nepatří do 61700). Viz oddíl 18 kanonického taháku.
