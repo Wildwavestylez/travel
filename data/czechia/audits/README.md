@@ -191,3 +191,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-63800-64200:** V DE překladech 63800, 63900, 64100 a 64200 bylo opraveno 25 konkrétních lokalizačních/terminologických nálezů; u 64100/fact_001 bylo zpřesněno odlišení závodu podle formule-1 reglementu od oficiálního mistrovství světa. Texty byly znovu načteny a ověřeny v Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 58 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-64300-64400:** V DE překladech 64300 a 64400 bylo opraveno devět evidovaných lokalizačních nálezů; již správné označení Bahnhof Brno-Chrlice v 64300/fact_004 zůstalo beze změny. Všech devět textů bylo ověřeno v Supabase; oba řádky zůstaly `validated`. Viz dodatek 59 kanonického taháku.
