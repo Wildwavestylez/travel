@@ -188,3 +188,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-62800-63700:** V DE překladech 62800, 63400, 63500, 63600 a 63700 bylo opraveno 18 konkrétních lokalizačních/terminologických nálezů. Texty byly znovu načteny a ověřeny v Supabase; všechny dotčené řádky zůstaly `validated`. Viz dodatek 57 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-63800-64200:** V DE překladech 63800, 63900, 64100 a 64200 bylo opraveno 25 konkrétních lokalizačních/terminologických nálezů; u 64100/fact_001 bylo zpřesněno odlišení závodu podle formule-1 reglementu od oficiálního mistrovství světa. Texty byly znovu načteny a ověřeny v Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 58 kanonického taháku.
