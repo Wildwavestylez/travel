@@ -131,3 +131,6 @@
 
 
 **Oprava 2026-11-16 — G-H-DE-10:** Rozsah je 10 faktů, nikoli 9: 63500 = 3, 63600 = 3, 63700 = 4. Viz opravný oddíl 48 taháku; věcné nálezy zůstávají beze změny.
+
+
+**Doplnění 2026-11-16 — CZ-10000-15900 / oblast B, dodatek 9:** Adresní VDP RÚIAN důkazy potvrzují konkrétní adresy v Radlicích s PSČ 15800 (Radlická 364/152, 365/154; jiné adresy v Radlicích mají 15000) a ve Štěrboholech s PSČ 10900 (Černokostelecká 312/134; další adresy mají 10200). Sequence nebyla změněna; rozsah obou lokalit vyžaduje samostatné rozhodnutí. Doplňková kontrola district zjistila chybějící hodnoty u 10100, 10200, 10300, 15400 a sémanticky chybnou hodnotu „Hlavní město Praha“ u 10400, 10700, 10800, 10900, 15900. B-01/B-02 zůstávají zamčené; B-04 otevřeno, B-05 adresní ověření dokončeno s nálezy k rozhodnutí, B-06 čeká pouze na fyzické sídlo 10200. Supabase beze změny. Viz oddíl 9 kanonického taháku.
