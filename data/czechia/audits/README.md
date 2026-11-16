@@ -164,3 +164,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-11:** Německé verze 63800 (4 fakta) a 63900 (3 fakta) zkontrolovány. DE/63800: doplnit Brno-Lesná ve všech čtyřech samostatných textech; datum svěcení kostela 20. 9. 2026 je již minulostí a formulace v němčině odpovídá. DE/63900: výslovně lokalizovat AZ/N Tower, Ústřední hřbitov a krematorium do Brna v těle každého faktu. Viz oddíl 49 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-12:** Německé verze 64100 (10 faktů) a 64200 (11 faktů) zkontrolovány. DE/64100: doplnit Brno-Žebětín u fact_001,002,004,006,008,009,010; u fact_001 ověřit přesné označení závodu 1949 (F1-reglement vs. mistrovství světa). DE/64200: všech 11 faktů potřebuje úvodní lokalizaci do Brna-Bosonoh; fact_004 navíc může vysvětlit archeologické epochy. Viz oddíl 50 taháku.
