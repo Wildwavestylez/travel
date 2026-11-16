@@ -239,3 +239,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-GATE0-GOTO-01:** Druhé porovnání oficiálního katalogu TIC BRNO/Go To Brno: 17 dalších položek k vyhodnocení, včetně Retro muzea Na statku (61900), Muzea historických vozů BMW (62700), Tyršova sadu (60200), Hádeckých lomů, naučných stezek Bohunice/Žebětín/Jelení žlíbek/Medlánky/Soběšice/Lesná/Akátky a tras přes více PSČ. U tras a soukromých muzeí je vyžadována kontrola přesahu, samostatnosti a nepřítomnosti marketingu. Viz dodatek 72 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-CENTRAL-NORTH-01:** Doplňkový katalog Go To Brno pro 60200/60300/61600/61700 identifikoval Lužánky, Kryt Denis, Synagogu Agudas Achim a Komec jako nové kandidáty; Mendlovo náměstí, Wilsonův les a parky Kraví hora/Špilberk jako samostatné nebo částečně pokryté kandidáty. Přesné PSČ Mendlova náměstí 60300 a Komec 61700 ověřeno přes RÚIAN/ČSÚ. Viz dodatek 73 kanonického taháku.
