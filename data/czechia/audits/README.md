@@ -370,3 +370,6 @@
 
 
 **Pokračování F 2026-11-17 — CZ-60200-64400 (oddíl 106):** Doplněna poloha 63800/fact_003 (Čertova rokle, area_representative) a 62500/fact_009 (socha sv. Jana Nepomuckého, approximate). Read-back: 176 faktů, 153 vyplněných poloh, 23 explicitních null, 0 chybějících location klíčů, 0 neúplných objektů, 0 souřadnic mimo rozsah. Poloha Pekárny v 64100 zůstává otevřená kvůli rozlehlému území na rozhraní PSČ. Celkový stav **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 106 kanonického taháku.
+
+
+**Pokračování finálního auditu 2026-11-17 — CZ-10000-15900 (oddíl 35):** PSČ 10700: sémanticky zkontrolována 4 fakta ve všech 7 jazycích; opraven překlad „fara“ u fact_002 v šesti jazycích a nepřesné zúžení „pozdní doby kamenné“ na pozdní neolit u fact_003 v ES/IT/NL. Read-back ověřen, status/version beze změny. PSČ 10800: HIGH / REVIEW REQUIRED — u 5/9 faktů se liší česká větev translations.cs od kanonického content.facts; nutné zdrojové a sémantické sjednocení, bez spekulativního přepisu. PSČ 10900: 5 faktů, 7 jazyků, česká větev shodná; zatím jen strukturální kontrola. Kumulativně plně sémanticky ověřeno 23/225 faktů. Další krok: vyřešit 10800/fact_001–fact_005, poté dokončit 10900 a pokračovat od 11000. Podrobnosti v oddílu 35 kanonického taháku.
