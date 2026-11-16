@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–29 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–30 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -337,3 +337,6 @@
 
 
 **Pokračování auditu 2026-11-17 — oddíl 29:** U 10000/fact_005 (Strašnické divadlo) ručně porovnáno všech sedm jazyků bez významové vady. Zdroje ověřeny: databáze Divadelní architektury, Sochy a města, oficiální Kronika MČ Praha 10 2011 a Česká divadelní encyklopedie IDU. Nefunkční odkaz na Kroniku 2006 odstraněn a nahrazen funkčním oficiálním zdrojem; doplněn nezávislý zdroj IDU. Supabase read-back potvrdil 6 zdrojů, 7 jazyků a status validated. D/G/H zůstávají PARTIAL; hotová kontrola fact_005 se neopakuje. Podrobnosti v oddílu 29 kanonického taháku.
+
+
+**Pokračování auditu 2026-11-17 — oddíl 30:** U 10000/fact_001 byla provedena ruční kontrola sedmi jazyků bez nálezu. U 10000/fact_002 bylo ve všech šesti cizojazyčných verzích zpřesněno překládání českého historického pojmu „tvrz“; EN navíc stručně vysvětluje poplužní/demesne farm. Oficiální NPÚ potvrzuje rok 1781 a převzetí Tomášem Bečvářem v roce 1862; přímé načtení katalogu vrátilo 502, proto URL není označeno jako plně live-verified. Read-back textů a statusu validated potvrzen. Podrobnosti v oddílu 30 taháku.
