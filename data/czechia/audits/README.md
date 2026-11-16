@@ -125,3 +125,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-09:** Německé verze 62800 (7 faktů) a 63400 (4 fakta) zkontrolovány. DE/62800: doplnit Brno-Líšeň u Starých Zámků, Líšně, Kostelíčku, trati, Zetoru a Mariánského údolí. DE/63400: doplnit Brno-Nový Lískovec ve všech čtyřech faktech a vysvětlit odborné pojmy Linearbandkeramik/Jordanów-Kultur. Viz oddíl 46 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-10:** Německé verze 63500, 63600 a 63700 zkontrolovány. DE/63500: doplnit Brno-Kníničky a Brno-Bystrc, vysvětlit Mniší horu jako kopec; DE/63600: doplnit Brno-Židenice u Bílé hory; DE/63700: doplnit Brno-Jundrov/Holedná a vysvětlit Orel jako českou katolickou tělovýchovnou organizaci. Viz oddíl 47 taháku.
