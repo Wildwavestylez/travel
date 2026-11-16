@@ -221,3 +221,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-64100-64300:** V NL překladech 64100, 64200 a 64300 bylo opraveno 23 konkrétních lokalizačních/terminologických nálezů (Žebětín, Bosonohy, Chrlice a vysvětlení archeologických období). Všechny texty byly po změně znovu načteny ze Supabase; všechny tři řádky zůstaly `validated`. Viz dodatek 66 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-NL-61400-61500:** V NL překladech 61400 a 61500 bylo opraveno posledních sedm konkrétních jazykových/lokalizačních nálezů (Husovice, Obřany, Maloměřice, Židenice, Zábrdovice, Juliánov, Slatina a Tuřany). Všechny texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Tím jsou vyřešeny všechny nálezy evidované v NL review; viz dodatek 67 kanonického taháku.
