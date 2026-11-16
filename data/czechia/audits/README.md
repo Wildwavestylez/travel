@@ -40,3 +40,6 @@
 
 
 **Doplnění 2026-11-16 — E-04:** Oficiální web Komec potvrdil veřejnou přístupnost 25m rozhledny na komíně v návštěvních hodinách areálu; RSO potvrzuje Hněvkovského 730/62c, 61700. Komec je silný kandidát E pro 61700, ale nebyl vložen do Supabase. Viz oddíl 20 taháku.
+
+
+**Doplnění 2026-11-16 — I-01:** Oficiální AJV běh nebylo možné spustit: balíček `ajv` v Node prostředí chybí a npm registry není dostupná (timeout). Předchozí vlastní validátor zůstává uzamčený; oficiální AJV je `BLOCKED / NOT RUN`, nikoli PASS/FAIL. Bez souhlasu nebyly přidány závislosti ani CI workflow. Viz oddíl 21 taháku.
