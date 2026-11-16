@@ -343,3 +343,6 @@
 
 
 **G-H-18 — 2026-11-17:** Zdrojově sjednoceny 61200/fact_001–002. Oficiální FIT VUT a Encyklopedie města Brna ověřují založení kláštera, pohřbení Prokopa (mladšího bratra Jošta), zrušení 18. 1. 1782, vojenské využití od 1784/1877 a VUT jako nového hospodáře od roku 1963. V šesti překladech opraven chybný vztah Prokopa (ne syn Jana Jindřicha) a nepřesné absolutní tvrzení „jediný dochovaný“; časová osa VUT sjednocena na rok 1963. U fact_002 byly z odborné publikace Technického muzea v Brně ověřeny tramvaje, desetitisící vůz z ledna 1917 a svařovaná konstrukce pro výstaviště z roku 1928; údaje doplněny do českého originálu a větve CS. Řádek 61200 (ID 10355) zůstal validated, data_version=1, 8 faktů, 7 jazyků, shoda ID/pořadí potvrzena. Viz dodatek 101. G/H zůstává otevřené.
+
+
+**G-H-19 — 2026-11-17:** Cílená jazyková kontrola PSČ 61200 uzavřena po kontrole všech 8 faktů ve všech 7 jazykových větvích a zdrojovém sjednocení fact_001–002. Fact_003 opraveny ES/FR významové posuny; fact_004, 005, 007, 008 bez dalších nutných zásahů. Read-back a strukturální SQL potvrzují ID 10355, 8 faktů, 7 jazyků, validated, data_version=1 a shodná ID/pořadí. Viz dodatek 102. G/H jako celek zůstává otevřené; 61300 pokračuje.
