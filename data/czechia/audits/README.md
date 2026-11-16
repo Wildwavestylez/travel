@@ -4,7 +4,8 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |\n| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Bez oprav — audit read-only | IN PROGRESS — potvrzen HIGH nález county (25 záznamů) a map_category (49 faktů); B-01/B-02 zamčeno, B-03–B-06 částečně otevřeno; C–H otevřené | 2026-11-16 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Bez oprav — audit read-only | IN PROGRESS — potvrzen HIGH nález county (25 záznamů) a map_category (49 faktů); B-01/B-02 zamčeno, B-03–B-06 částečně otevřeno; C–H otevřené | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
