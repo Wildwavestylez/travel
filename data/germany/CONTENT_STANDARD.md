@@ -13,7 +13,7 @@ No new JSON may be created outside these rules. Do not add fields, sections, fac
 
 The standard is the quality contract for TRAVEL.
 
-**Version 3: every fact belongs to exactly one postcode, and its primary map location must lie inside that postcode's official boundary. Facts and pins must never be duplicated across neighboring postcodes. Relevant surrounding places outside the postcode may be mentioned only as context in the text; they must not be added as separate facts or map pins. The geographic-enrichment preservation rules remain unchanged: they do not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass.**
+**Version 3: every fact is assigned to exactly one primary postcode as an internal organizational decision. Its subject and real-world extent may cross postcode boundaries; the primary map location does not have to lie inside the selected postcode's official boundary when a single most plausible assignment for a bridge, park, large complex, trail, linear structure or other cross-postcode feature is supported. Facts and pins must not be duplicated across neighboring postcodes. Once an assignment is reasonably supported and closed, it is stable and must not be reopened merely because the feature spans another postcode. The geographic-enrichment preservation rules remain unchanged: they do not authorize rewriting, shortening, expanding, re-ranking, or retranslating existing facts during a coordinate-enrichment pass.**
 
 **Retained from Version 1.2:** fact selection and ordering must reflect the actual identity and relevance of each specific place. No subject category has automatic priority. Version 2.0 preserves all rules from Version 1.2 and adds two binding clarifications: one unambiguous representative place per postcode, and target-language explanations for local names and cultural references.
 
@@ -302,11 +302,11 @@ If no meaningful natural feature is relevant, do not invent one.
 
 Wider surroundings may be researched to understand the postcode's history, geography and context, and to identify connections that help explain facts located inside the postcode.
 
-However, **a place that belongs to another postcode MUST NOT be included as a separate fact or map pin in this postcode record**, even when it is nearby or historically, geographically or thematically connected.
+However, **a place that is separately assigned to another postcode MUST NOT be duplicated as a separate fact or map pin in this postcode record**, even when it is nearby or historically, geographically or thematically connected.
 
 An external place may be mentioned briefly in the text of an in-boundary fact only when that context is genuinely necessary and does not imply that the external place belongs to this postcode. Do not assign the external place's coordinates to the fact.
 
-Never duplicate one attraction or fact across neighboring postcode records. Each mapped fact belongs to exactly one postcode: the postcode containing its verified primary location.
+Never duplicate one attraction or fact across neighboring postcode records. Each mapped fact belongs to exactly one primary postcode chosen by the most plausible, evidence-based association. For a cross-postcode feature, the selected primary location may be outside the assigned postcode boundary; the assignment itself remains single and stable.
 
 ## 11A. Standardized TRAVEL map categories (shared taxonomy V1)
 
