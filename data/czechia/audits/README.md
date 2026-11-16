@@ -194,3 +194,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-64300-64400:** V DE překladech 64300 a 64400 bylo opraveno devět evidovaných lokalizačních nálezů; již správné označení Bahnhof Brno-Chrlice v 64300/fact_004 zůstalo beze změny. Všech devět textů bylo ověřeno v Supabase; oba řádky zůstaly `validated`. Viz dodatek 59 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-NL-60200-61300:** V nizozemských překladech 60200, 60300, 61200 a 61300 bylo opraveno deset konkrétních jazykových a kulturních nálezů (včetně pandurů, historické Bauerovy velodromové dráhy, kartuziánů, Hus-gebedshuis a lokalizace Černých Polí). Všechny texty byly po změně znovu načteny ze Supabase; řádky zůstaly `validated`. Viz dodatek 60 kanonického taháku.
