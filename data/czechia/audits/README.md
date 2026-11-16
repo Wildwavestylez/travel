@@ -22,3 +22,6 @@
 
 
 **Doplnění 2026-11-16 — CZ-10000-15900:** Vytvořen kanonický tahák. A-01 je HOTOVO/ZAMČENO: inventář 33/33, bez chybějících, neočekávaných či duplicitních PSČ; všech 33 je v RÚIAN CSV. Globální shoda sequence/groups převzata z již uzamčené kontroly při identickém SHA sequence. Základní jazyková kontrola 33/33 (7 jazyků a shodná ID/pořadí) uzavřena jako dílčí podkontrola. I-01 zůstává částečně doložena; zjištěno 49 chybějících map_category (HIGH) v PSČ 10000–10900 a jedna chybějící explicitní location (10900/fact_004, MEDIUM). Další krok: B, bez opakování A-01.
+
+
+**Checkpoint 2026-11-16 — B-02 / C-02 / G-H-01:** ČSÚ 0028 a RSO metodika potvrzeny; 16/27 PSČ individuálně doloženo ve veřejných detailech budov RSO, všech 27 již dříve v RÚIAN inventáři (A-01 zamčeno). Úplný položkový export 0028 zůstává otevřený, B není uzavřeno. Přesný titulní scan 176 faktů bez duplicit; opakovaný název Husova sboru označuje dvě různé lokality. Zjištěny dílčí jazykové nálezy u 61400/NL a 61500/DE,NL,EN,ES,FR,IT; bez produkčních změn. Podrobnosti v oddílu 15 kanonického taháku.
