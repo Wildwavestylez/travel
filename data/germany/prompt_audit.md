@@ -103,6 +103,8 @@ Do not silently replace, delete or invent a postcode. Report invalid, special-pu
 
 Review all facts across the entire selected block, not one record at a time only.
 
+**Postcodes are an internal organizational aid, not absolute content boundaries.** For a feature spanning multiple postcodes, the single most plausible primary assignment is sufficient; do not require the full physical feature or its every segment to fall inside that postcode. Address-level postal verification remains mandatory where a concrete address exists.
+
 For every fact:
 - establish a concrete connection to its assigned postcode;
 - verify the principal physical location where applicable;
