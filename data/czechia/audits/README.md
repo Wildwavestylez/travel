@@ -55,3 +55,6 @@
 
 
 **Doplnění 2026-11-16 — pokračování CZ-10000-15900, oblast B:** Tahák byl rozšířen a znovu načten. B-01 (oficiální existence kódů / RÚIAN presence 33/33, 80 074 adresních bodů) a B-02 (city Praha + state Hlavní město Praha, 33/33) jsou HOTOVO/ZAMČENO. B zůstává ČÁSTEČNĚ DOLOŽENO: otevřen nález MEDIUM na county u 25 PSČ, chybějící district u 10100/10200, lokalitní rozdíly sequence/RÚIAN u 23 PSČ (potvrzená mezera sequence u 10000/Žižkov; rozpory 10900 a 15800 vyžadují adresní potvrzení) a nedokončené primární ověření některých sídel pošt. Přesný checkpoint je v oddílech 7–9 kanonického taháku. A-01 zůstává zamčeno a nebylo opakováno.
+
+
+**Doplnění 2026-11-16 — G-H-07:** NL verze 62500 a 62700: chybí kontext Kejbalů/Bohunic, vysvětlení pomologie, Eneolitu a Flugmotorenwerke Ostmark, lokalizace Stránské skály/Slatiny a vysvětlení sochy `Slévač`. Pozitivní výklad Stolpersteine zachovat. Nález otevřený. Viz oddíl 25 taháku.
