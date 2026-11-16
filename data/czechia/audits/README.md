@@ -158,3 +158,6 @@
 
 
 **Doplnění 2026-11-16 — vyřešení kapličky Dolní Měcholupy:** Oficiální VDP RÚIAN uvádí adresní místo Na návsi 2/16 (ID 22548572) s PSČ 11101; NPÚ umisťuje kapličku do středu bývalé návsi. Kaplička zůstává pouze v 11101 fact_002, doplněn přibližný mapový bod podle adresního místa 2/16 (50.054963055556, 14.562278888889). Duplicitní 10900 fact_006 odstraněn. Supabase ověřena SELECTem: 33 PSČ, 211 faktů. Viz oddíl 17 taháku. 
+
+
+**Doplnění brány 0 — zpřesnění důkazů:** Potvrzené kandidátní mezery: Krematorium Strašnice (Vinohradská 2263/214, 10000), Vinohradský hřbitov (Vinohradská 294/212, 10000), Vršovický zámeček/Rangherka (Moskevská 120/21, 10100) a Nový židovský hřbitov (Izraelská 1, 13000). Hostivařská přehrada a Nuselský most zůstávají REVIEW REQUIRED kvůli geografickému přesahu/adresní nejednoznačnosti. Brána 0 stále ČÁSTEČNĚ DOLOŽENO a blokuje uzavření auditu. Viz oddíl 18 taháku.
