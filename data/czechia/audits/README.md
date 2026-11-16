@@ -146,3 +146,6 @@
 
 
 **Doplnění 2026-11-16 — oblast C / strukturální validace:** Oprava počtu: 189 neprázdných location objektů, 22 explicitních null a 1 chybějící vlastnost location (10900 fact_004 „Pod Vartou“). U všech 189 objektů jsou povinné klíče, číselné souřadnice v rozsahu WGS84, platné accuracy a HTTP(S) zdroje. **HIGH / FIX REQUIRED:** 49 faktů v PSČ 10000–10900 nemá povinné map_category; 12800 fact_007 má nepovolený location.type botanical_garden a 12800 fact_009 sculpture_garden. Zbývajících 163 map_category hodnot je platných. Žádné opravy v Supabase. Viz oddíl 13 taháku.
+
+
+**Doplnění 2026-11-16 — oblast C / tematické překryvy:** Celé texty 11900 fact_007 (obecný přehled Pražského hradu) vůči faktům 001–006 a 12800 fact_001 (obecný přehled Vyšehradu) vůči faktům 002–005 byly porovnány. Nejde o duplicitní příběhy; obecné přehledy přidávají širší historický kontext a konkrétní fakta mají vlastní témata. Tyto dvě kontroly jsou uzavřeny. Potvrzená duplicita kaple 10900 × 11101 zůstává otevřená. Viz oddíl 14 taháku.
