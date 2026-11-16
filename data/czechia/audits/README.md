@@ -266,3 +266,6 @@
 
 
 **Doplnění 2026-11-16 — G/H-EN-60200:** Provedena cílená read-only kontrola všech 18 anglických faktů PSČ 60200. Všech sedm jazyků má 18/18 faktů se shodnými ID a pořadím. V EN zjištěny 3 nálezy MEDIUM (nevysvětlené Černá Pole, doslovně přeložené Žlutý kopec bez českého názvu, nevysvětlený vojenský pojem Pandurs) a 1 LOW (Zelný trh bez vysvětlení v těle textu). Zapsáno v dodatku 77 kanonického taháku 60200–64400. Bez produkčních změn; EN/60200 REVIEW COMPLETE / FINDINGS OPEN.
+
+
+**Rozhodnutí 2026-11-16 — GATE0-60200 / Muzeum romské kultury:** Kandidát z dodatku 76 byl po upřesnění významnostního prahu vyřazen z aktivní fronty k doplnění; není schválen k vytvoření samostatného turistického faktu. Další práce se soustředí na otevřené auditní oblasti A–I, nikoli na rozšiřování seznamu o jednotlivé instituce a drobné lokální cíle. Podrobnosti v dodatku 78 taháku 60200–64400.
