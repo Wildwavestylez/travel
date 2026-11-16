@@ -373,3 +373,6 @@
 
 
 **Pokračování finálního auditu 2026-11-17 — CZ-10000-15900 (oddíl 35):** PSČ 10700: sémanticky zkontrolována 4 fakta ve všech 7 jazycích; opraven překlad „fara“ u fact_002 v šesti jazycích a nepřesné zúžení „pozdní doby kamenné“ na pozdní neolit u fact_003 v ES/IT/NL. Read-back ověřen, status/version beze změny. PSČ 10800: HIGH / REVIEW REQUIRED — u 5/9 faktů se liší česká větev translations.cs od kanonického content.facts; nutné zdrojové a sémantické sjednocení, bez spekulativního přepisu. PSČ 10900: 5 faktů, 7 jazyků, česká větev shodná; zatím jen strukturální kontrola. Kumulativně plně sémanticky ověřeno 23/225 faktů. Další krok: vyřešit 10800/fact_001–fact_005, poté dokončit 10900 a pokračovat od 11000. Podrobnosti v oddílu 35 kanonického taháku.
+
+
+**Pokračování F 2026-11-17 — CZ-60200-64400 (oddíl 107):** Doplněny dvě doložené polohy v 62100: bývalý panský pivovar Jehnice (49.271275, 16.593976; approximate) a PP Medlánecká skalka (49.2415447, 16.5676175; area_representative). Read-back celého rozsahu: 176 faktů, 155 vyplněných poloh, 21 explicitních null, bez chybějících location klíčů a neúplných objektů. U 64100/fact_004 (Jan Prokeš) zjištěn rozpor v adresním určení pamětní desky; text ani poloha nebyly měněny, položka zůstává REVIEW REQUIRED. Celkový stav **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 107 kanonického taháku.
