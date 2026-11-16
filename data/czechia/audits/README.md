@@ -113,3 +113,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-05:** Německé verze 61800 (5 faktů) a 61900 (6 faktů) zkontrolovány. DE/61800: historické stigmatizující `Geisteskranke` označit jako dobový název a v popisu neutralizovat; zachovat oficiální `Olomoucká` místo překladu `Olmützer Straße`; vysvětlit Sokol a lokalizovat Černovice do Brna. DE/61900: doplnit Brno-Horní Heršpice u fact_002–004 a současné začlenění Přízřenic do Brna u fact_005. Viz oddíl 42 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-06:** Německé verze 62000 (7 faktů) a 62100 (8 faktů) zkontrolovány. DE/62000: doplnit Brno-Tuřany u fact_001–002 a Brno u Holáseckých jezer a mohyl v krajině Tuřan (fact_003–004). DE/62100: doplnit Brno-Medlánky u bývalého lomu Medlánecká skalka (fact_008). Viz oddíl 43 taháku.
