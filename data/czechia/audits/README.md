@@ -82,3 +82,6 @@
 
 
 **Checkpoint 2026-11-16 — G-H-NL-01:** Nizozemská jazyková/kulturní kontrola dokončena pro všech 27 PSČ a 176 faktů; fáze review je `HOTOVO / ZAMČENO`, aby se neopakovala. NL PASS: 63800, 63900, 64400 (11 faktů); NL nálezy k nápravě: 24 PSČ (60200, 60300, 61200, 61300, 61400, 61500, 61600, 61700, 61800, 61900, 62000, 62100, 62300, 62400, 62500, 62700, 62800, 63400, 63500, 63600, 63700, 64100, 64200, 64300). Ostatních šest jazyků zůstává otevřených; G/H jako celek není PASS. Viz oddíl 33 taháku.
+
+
+**Doplnění 2026-11-16 — C-03:** Přesné duplicity 176 faktů zkontrolovány a zamčeny: 0 duplicitních titulů, 0 duplicitních celých textů; jediný opakovaný název místa „Husův sbor“ odpovídá dvěma různým budovám (61200 a 62000). GEO-01 až GEO-08 se znovu neprovádějí. Viz oddíl 34 taháku.
