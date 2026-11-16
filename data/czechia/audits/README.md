@@ -67,3 +67,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-10:** NL subchecks 63800 (4 fakta) and 63900 (3 fakta) dokončeny bez blokujícího nálezu a zamčeny jako `NL / LOCKED / PASS`. NL/64100 zůstává otevřené kvůli chybějícímu vysvětlení Žebětína jako městské části Brna v samostatných faktech. Ostatní jazyky nejsou tímto zamčením dotčeny. Viz oddíl 28 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-11:** NL/64400 (4 fakta) dokončeno bez blokujícího nálezu a zamčeno jako `NL / LOCKED / PASS`. NL/64200 zůstává otevřené kvůli chybějícímu kontextu Bosonoh a nevysvětlené zkratce ÚAN I/Eneolitu/Halštatu; NL/64300 kvůli chybějícímu kontextu Chrlic a nevysvětlenému letounu Il-2. Viz oddíl 29 taháku.
