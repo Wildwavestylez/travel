@@ -197,3 +197,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-60200-61300:** V nizozemských překladech 60200, 60300, 61200 a 61300 bylo opraveno deset konkrétních jazykových a kulturních nálezů (včetně pandurů, historické Bauerovy velodromové dráhy, kartuziánů, Hus-gebedshuis a lokalizace Černých Polí). Všechny texty byly po změně znovu načteny ze Supabase; řádky zůstaly `validated`. Viz dodatek 60 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-NL-61600-61700:** V nizozemských překladech 61600 a 61700 bylo opraveno devět konkrétních jazykových a lokalizačních nálezů (Žabovřesky, Burianovo náměstí, Kraví hora, přirozené nizozemské vazby pro Brno a Komárov, Mariánské náměstí). Všechny texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Viz dodatek 61 kanonického taháku.
