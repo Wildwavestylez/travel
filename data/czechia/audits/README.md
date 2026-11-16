@@ -260,3 +260,6 @@
 
 
 **Upřesnění 2026-11-16 — Nuselský most:** Doplňující rešerše zjistila tři katalogové PSČ pro různé části/označení téhož liniového objektu: 12000 (Encyklopedie Prahy 2), 12800 (Prague City Tourism) a 14000 (Prague City Line, jižní zakončení u Pankráce). Primární záznam zůstává jediný: 12800/fact_011; ostatní PSČ jsou pouze alternativní geografické reference a nesmějí vytvářet duplicitu. Viz oddíl 23 pražského taháku.
+
+
+**Doplnění 2026-11-16 — GATE0-RUIAN-60200-03:** Muzeum romské kultury, Bratislavská 67/246, Brno-Zábrdovice, bylo ověřeno přes oficiální VDP ČÚZK/RÚIAN: adresní místo 19184654, identifikace 246/67, PSČ 60200. Institucionální a městské zdroje potvrzují význam instituce a její historii od roku 1991. Porovnáno s 18 fakty 60200 a 7 fakty 60300: samostatný příběh muzea v databázi chybí. Kandidát přijat do inventáře jako CHYBÍ / RÚIAN ověřeno / připraveno k redakčnímu zpracování. Viz dodatek 76 kanonického taháku 60200–64400. Produkční Supabase a sequence beze změny.
