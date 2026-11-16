@@ -367,3 +367,6 @@
 
 
 **Pokračování F 2026-11-17 — CZ-60200-64400 (oddíl 105):** Doplněna poloha 62700/fact_006 (romské Stolpersteine v Černovičkách 23; approximate) a reprezentativní poloha 63900/fact_002 (Ústřední hřbitov; area_representative). Read-back: 176 faktů, 151 vyplněných poloh, 25 explicitních null, 0 chybějících location klíčů, 0 neúplných objektů, 0 souřadnic mimo rozsah. Celkový stav zůstává **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 105 kanonického taháku.
+
+
+**Pokračování F 2026-11-17 — CZ-60200-64400 (oddíl 106):** Doplněna poloha 63800/fact_003 (Čertova rokle, area_representative) a 62500/fact_009 (socha sv. Jana Nepomuckého, approximate). Read-back: 176 faktů, 153 vyplněných poloh, 23 explicitních null, 0 chybějících location klíčů, 0 neúplných objektů, 0 souřadnic mimo rozsah. Poloha Pekárny v 64100 zůstává otevřená kvůli rozlehlému území na rozhraní PSČ. Celkový stav **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 106 kanonického taháku.
