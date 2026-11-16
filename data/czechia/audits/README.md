@@ -101,3 +101,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-01:** Německá verze 60300 (7 faktů) zkontrolována a zamčena `LOCKED / PASS`. DE/60200 (18 faktů) zkontrolováno; otevřené dva konkrétní nálezy: vysvětlit Černá Pole jako městskou čtvrť Brna (fact_005) a pojem Panduren (fact_015). Ostatních 25 PSČ v DE a jazyky cs/en/es/fr/it zůstávají otevřené. Viz oddíl 38 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-02:** Německé verze 61200 (8 faktů) a 61300 (5 faktů) zkontrolovány. Otevřené nálezy: u 61200/fact_001,003,004,005 doplnit, že Královo Pole/Na Slovanech leží v Brně; u 61300/fact_001 výslovně lokalizovat Villu Tugendhat do Brna a u fact_003,005 vysvětlit Černá Pole jako městskou čtvrť. DE/60300 zůstává zamčeno PASS; ostatní PSČ v DE a jazyky cs/en/es/fr/it otevřené. Viz oddíl 39 taháku.
