@@ -227,3 +227,6 @@
 
 
 **Doplnění 2026-11-16 — AUDIT-APPEND-INDEX-01:** Kvůli souběžným append-only zápisům mají dva novější dodatky duplicitní číselné hlavičky. Pro jednoznačné odkazy se používají stabilní ID: 65-START/AUDIT-START-2026-11-16, 65b/FIX-GH-NL-62800-63700, 66-GATE0/AUDIT-GATE0-RUIAN-LOCALITIES a 66b/FIX-GH-NL-64100-64300. Další dodatky pokračují od 69. Historické části nebyly přepsány. Viz dodatek 68 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-NATURE-01:** Provedeno porovnání všech 30 lokalit z oficiálního městského seznamu zvláště chráněných území s 176 fakty v bloku CZ-60200-64400. Výsledek katalogu: 11 POKRYTO, 1 ČÁSTEČNĚ POKRYTO, 16 CHYBÍ, 2 REVIEW REQUIRED (Kavky, Medlánecké kopce). Nejde o úplnou bránu 0; zbývá ověřit přesné body/PSČ a nezávislé kulturní, technické, historické a turistické katalogy. Viz dodatek 69 kanonického taháku.
