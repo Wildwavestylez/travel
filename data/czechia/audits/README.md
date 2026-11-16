@@ -203,3 +203,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-61800-62100:** V NL překladech 61800, 61900, 62000 a 62100 bylo opraveno 12 konkrétních jazykových a kulturních nálezů (historické psychiatrické pojmenování, Sokol, městské části Horní Heršpice/Tuřany/Řečkovice/Medlánky a místní název železničářské kolonie). Texty byly po změně znovu načteny ze Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 62 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-NL-62300-62400:** V NL překladech 62300 a 62400 bylo opraveno deset konkrétních jazykových a lokalizačních nálezů (současná příslušnost Kohoutovic a Komína k Brnu, Poesiomat, Kaplanovy vodní turbíny, Ruský vrch a další). Všechny texty byly po změně znovu načteny ze Supabase; oba řádky zůstaly `validated`. Viz dodatek 63 kanonického taháku.
