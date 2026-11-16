@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–31 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–32 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -349,3 +349,6 @@
 
 
 **Pokračování auditu 2026-11-17 — oddíl 31:** Dokončena další ruční kontrola šesti faktů (10000/fact_007–008; 10100/fact_001–004) ve všech sedmi jazycích. U 10000/fact_007 a 10100/fact_001 byly zdroje zpřesněny oficiálním RÚIAN. U 10000/fact_008 byla geometrie trojbokého jehlanu po ověření farností a odborným článkem potvrzena; předchozí podezření na chybu bylo odvoláno a text zůstal beze změny. U 10100/fact_002 doplněn kontext Československé církve husitské a přesný název Vršovické divadlo MANA ve všech jazycích. U 10100/fact_003 doplněn spoluzakladatel Hynek Puc a přesnější názvy sortimentu v sedmi jazycích. U 10100/fact_004 opraveno rozlišení Giuseppe a Jindřicha/Enrica Rangheriho ve všech jazycích; zdroje potvrzují roky 1842, 1882, 1899–1900 a 1974. Read-back potvrzuje 7 jazyků a status validated. Podrobnosti v oddílu 31 taháku.
+
+
+**Pokračování auditu 2026-11-17 — oddíl 32:** Ručně zkontrolována další dvě fakta 10200/fact_001–002 ve všech sedmi jazycích. U Toulcova dvora potvrzeny historické údaje i rozloha 10 ha; sekundární odkaz nahrazen oficiální stránkou přírodního areálu a ve třech překladech zpřesněn pojem „tvrz“. U pomníku bitvy u Štěrbohol ověřeny údaje v místních historických záznamech MČ; slabší zdroj nahrazen dvěma oficiálními stránkami Štěrbohol. Read-back potvrzuje 7 jazyků a status validated. Kumulativně ručně prověřeno 11/225 faktů. Podrobnosti v oddílu 32 taháku.
