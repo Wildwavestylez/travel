@@ -143,3 +143,6 @@
 
 
 **Doplnění 2026-11-16 — oblast C / první geografický průchod:** Prohlédnuto všech 212 faktů a jejich uložené polohy v rozsahu 10000–15900. U 12000–15900 nebylo při porovnání se sequence.json potvrzeno jednoznačné chybné přiřazení; Pacoldova vápenka patří do Velké Chuchle (15900) a Lahovice mají doložené adresy 15900. Celkem 23 faktů má explicitní null location; jejich oprávněnost se musí posoudit jednotlivě, nikoli automaticky doplňovat. Potvrzený obsahový duplikát: 10900 fact_006 × 11101 fact_002 (kaplička v Dolních Měcholupech). Možné širší překryvy: obecný přehled Pražského hradu (11900 fact_007) a Vyšehradu (12800 fact_001) vůči dílčím faktům. C zůstává otevřeno; žádná produkční data změněna. Viz oddíly 11–12 taháku.
+
+
+**Doplnění 2026-11-16 — oblast C / strukturální validace:** Oprava počtu: 189 neprázdných location objektů, 22 explicitních null a 1 chybějící vlastnost location (10900 fact_004 „Pod Vartou“). U všech 189 objektů jsou povinné klíče, číselné souřadnice v rozsahu WGS84, platné accuracy a HTTP(S) zdroje. **HIGH / FIX REQUIRED:** 49 faktů v PSČ 10000–10900 nemá povinné map_category; 12800 fact_007 má nepovolený location.type botanical_garden a 12800 fact_009 sculpture_garden. Zbývajících 163 map_category hodnot je platných. Žádné opravy v Supabase. Viz oddíl 13 taháku.
