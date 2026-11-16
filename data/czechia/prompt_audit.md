@@ -422,3 +422,19 @@ Před vytvořením nového taháku porovnej jeho rozsah s registrem. Pokud nový
 
 **Kritérium uzavření:** PSČ používané + územně dohledatelné v RÚIAN + `city` odpovídá obci sídla obsluhující pošty = kontrola této části HOTOVO.
 
+
+
+## 10.6 Nevratné uzamčení dokončených kontrol — HOTOVO = ZAMČENO (POVINNÉ)
+
+**Základní pravidlo:** Jakmile je konkrétní kontrola, dílčí oblast nebo nález výslovně označen jako **HOTOVO / UZAVŘENO / PASS**, považuje se za zamčený výsledek auditu. Nesmí se znovu auditovat, opakovat ani vracet do otevřené fronty jen proto, že pokračuje nová konverzace, vznikl nový checkpoint nebo se provádí širší souhrnný audit.
+
+- Před každou další prací načti registr a kanonický tahák a sestav seznam zamčených kontrol. Zamčené položky automaticky přeskoč.
+- Zamčená kontrola se započítá jako splněná na základě již zaznamenaného výsledku a důkazů. V matici A–I se označí například `LOCKED / HOTOVO` a uvede se odkaz na původní kontrolu; neprovádí se znovu.
+- Opětovné otevření je povoleno pouze tehdy, když existuje alespoň jeden konkrétní spouštěč: (1) nový důkaz přímo zpochybňující původní závěr, (2) změna relevantního standardu, schématu nebo autoritativního zdroje, (3) doložená změna auditovaných produkčních dat, nebo (4) konkrétní rozpor zjištěný při jiné dosud otevřené kontrole.
+- Pouhé podezření, obecná kontrolní rutina, změna konverzačního okna nebo potřeba vyplnit matici A–I nejsou důvodem k opakování.
+- Pokud spouštěč existuje, původní uzavřený výsledek se nemaže ani nepřepisuje. Vytvoří se nový datovaný append-only dodatek s ID navazujícím na původní nález; uvede se spouštěč, nový důkaz, přesný dotčený rozsah a důvod, proč je nutné původní závěr přezkoumat. Otevře se pouze dotčená část, nikoli automaticky celá oblast.
+- Nově objevený problém v zamčené oblasti se eviduje jako nový nález. Neobnovuje automaticky všechny kontroly dané oblasti.
+- Každý checkpoint musí oddělovat: (a) zamčené hotové kontroly, (b) otevřené kontroly, (c) nové nálezy. Zakázáno uvádět zamčenou položku mezi zbývajícími úkoly.
+- Stav celé oblasti A–I může zůstat `IN PROGRESS`, i když některé její dílčí kontroly jsou `LOCKED / HOTOVO`. To není důvod k opakování hotových dílčích kontrol.
+
+**Provozní příkaz:** Nejdříve `READ → LOCKED LIST → OPEN ITEMS ONLY`. Hotové se započítává, neopakuje. Nový důkaz otevírá pouze přesně dotčenou část.
