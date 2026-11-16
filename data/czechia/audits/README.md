@@ -170,3 +170,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-13:** Německé verze 64300 (6 faktů) a 64400 (4 fakta) zkontrolovány. DE/64300: doplnit Brno-Chrlice ve fact_001–003,005–006; fact_004 již uvádí Bahnhof Brno-Chrlice. DE/64400: doplnit Brno-Soběšice u fact_001,002,004; fact_003 již uvádí severní okraj Brna. V rozsahu nebyl v Supabase nalezen záznam 64000. Tím je německá jazyková kontrola všech nalezených DE překladů v rozsahu dokončena; cílené opravy nálezů zůstávají otevřené. Viz oddíl 51 taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-60200-01:** V PSČ 60200 byly cíleně opraveny a znovu načtením ze Supabase ověřeny tři jazykové nálezy: DE fact_005 (Černá Pole jako městská část Brna), DE fact_015 (vysvětlení Panduren) a NL fact_005 (přirozená nizozemská formulace „bouwmeester uit Brno“ a lokalizace Černých Polí). Záznam zůstal `validated`; žádná jiná data ani statusy nebyly změněny. Viz dodatek 52 kanonického taháku.
