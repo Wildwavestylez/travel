@@ -331,3 +331,6 @@
 
 
 **Pokračování auditu 2026-11-16 — oddíl 28:** Jednozdrojové skupiny 22/22 otevřeny a tematicky zkontrolovány; přidán zdroj VHÚ k československým legiím; Myslbekův pomník 11000/fact_014 opraven chronologicky (kompletní 18. 5. 1925) v CS+6 překladech. Doplněny kulturní a místopisné glosses v 10100, 10400, 11101, 11800 a 12000. Automatické jazykové/reklamní kontroly: 0 kopií českého textu, 0 krátkých/dlouhých anomálií, 0 untranslated titles, 0 promo CTA, 0 duplicit ID. Aktuální schema validace 33/33 bez chyb. D/G/H zůstávají částečné kvůli hromadné kontrole 203 vícesourceových faktů a úplné sémantické revizi 225×7 textů. Podrobnosti v oddílu 28 taháku.
+
+
+**G-H-17 — 2026-11-17:** V PSČ 61200 dokončena cílená jazyková kontrola fact_003–008. Opraveno 8 jazykových verzí: v ES/FR u fact_003 odstraněno nepodložené tvrzení o pronájmu hostince (nahrazeno převzetím) a v DE/EN/ES/FR/IT/NL u fact_006 sjednoceno přesné datum otevření nové nádražní budovy na 1. 10. 2025. Fact_004, 005, 007 a 008 bez jednoznačné jazykové chyby. Řádek 61200 (ID 10355) zůstal validated, data_version=1, 8 faktů, 7 jazyků; shoda ID a pořadí potvrzena. Otevřené zůstávají obsahové rozdíly fact_001 a fact_002 z G-H-16. Viz dodatek 100 kanonického taháku. G/H zůstává otevřené.
