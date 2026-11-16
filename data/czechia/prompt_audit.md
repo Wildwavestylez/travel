@@ -47,9 +47,9 @@ Teprve po vytvoření nezávislého kandidátního inventáře jej porovnej se v
 - **MIMO ROZSAH:** místo leží mimo auditovanou geografickou jednotku nebo jeho PSČ není v projektovém rozsahu.
 - **REVIEW REQUIRED:** významnost, přesná poloha nebo PSČ nejsou zatím dostatečně doloženy.
 
-U každého chybějícího nebo částečně pokrytého kandidáta ověř skutečnou geografickou polohu a PSČ. Pro adresní místa použij aktuální RÚIAN/ČÚZK; u objektů bez adresního místa (mosty, parky, rozsáhlé areály, přírodní celky, archeologická území) použij důvěryhodné oficiální vymezení a konkrétní reprezentativní bod. Ověř, zda místo skutečně náleží do auditovaného PSČ podle pravidel Content Standardu. Samotná městská část, korespondenční adresa instituce ani obecný webový kontakt nestačí.
+U každého chybějícího nebo částečně pokrytého kandidáta ověř skutečnou geografickou polohu a zvol jedno nejpravděpodobnější primární PSČ. Pro konkrétní adresní místa použij aktuální RÚIAN/ČÚZK a ověř přesné PSČ i územní vazbu adresy. U objektů bez jediné rozhodující adresy nebo přesahujících více PSČ (mosty, parky, rozsáhlé areály, stezky, liniové stavby, přírodní celky, archeologická území) použij důvěryhodné oficiální vymezení, reprezentativní bod, hlavní část či vstup a nejsilnější místní souvislost. Není nutné, aby celý objekt ležel v hranicích vybraného PSČ. Samotná korespondenční adresa instituce ani obecný webový kontakt nestačí.
 
-**Nikdy nepřesouvej kandidáta do sousedního PSČ jen proto, že je v témže městě nebo blízko hranice.** Pokud je lokalita rozdělená mezi více PSČ, rozliš konkrétní adresní místo nebo obhajitelný fyzický bod. Pokud to nejde, ponech REVIEW REQUIRED.
+**PSČ jsou organizační pomůcka, nikoli nepřekročitelná hranice obsahu.** U takových kandidátů vyber jedno nejpravděpodobnější PSČ; nevyřazuj je ani neblokuj jen proto, že zasahují do více PSČ.
 
 ### 0.4 Významnost a ochrana proti umělému plnění
 - Nejde o povinnost zapsat každou evidovanou kulturní památku ani naplnit kvótu faktů.
@@ -183,7 +183,7 @@ U každého faktu:
 - rozliš skutečnou polohu faktu od regionálního kontextu, trasy, události nebo tradice zasahující větší území;
 - porovnej opakující se témata a rozhodni, zda jde o legitimně odlišné příběhy, nebo o nechtěnou duplicitu.
 
-Fakt má zpravidla patřit pouze do jednoho PSČ. Zachování stejného tématu ve více záznamech vyžaduje jasně odlišný a samostatně významný příběh s obhajitelnou místní vazbou v každém záznamu. Blízkost ani společná obec nejsou důkazem příslušnosti.
+Fakt má zpravidla patřit pouze do jednoho PSČ. U rozsáhlých a liniových objektů je přípustné zvolit jedno nejpravděpodobnější PSČ, i když objekt fyzicky zasahuje do dalších PSČ. Při auditu respektuj již doložené a uzamčené přiřazení: znovu je neotevírej ani nepřesouvej jen kvůli přesahu, hranici nebo alternativnímu možnému bodu. Změnu lze navrhnout pouze při konkrétním novém důkazu, že původní přiřazení bylo fakticky chybné. Zachování tématu ve více záznamech vyžaduje skutečně odlišné a samostatně významné příběhy.
 
 #### Povinná zvláštní kontrola: PSČ instituce versus geografické PSČ objektu
 
