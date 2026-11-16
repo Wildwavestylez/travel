@@ -305,3 +305,48 @@ Do not claim that a backup exists or is verified until it has actually been crea
 ## 9. Operating principle
 
 **Audit the complete block, not a sample. Verify the rework against the current standard. Record evidence and exact defects. Do not silently repair production data during the audit. Re-audit authorized corrections. Only then sign off and prepare the immutable AUDITED snapshot.**
+
+
+## 10. Mandatory persistent audit register and cross-session continuity
+
+**Binding rule: one country + one precisely defined audit scope = one canonical audit working file.** The file is a persistent audit ledger, not a one-off report or a note belonging to a particular chat window.
+
+### 10.1 Mandatory lookup before every audit or continuation
+1. Define the country and exact scope identity first: contiguous postcode range, explicit postcode set, Landkreis/municipality/area and selection boundaries.
+2. Search `data/germany/audits/` and its `README.md` register. Search by canonical scope, never by date, chat title or current session.
+3. The canonical block path is `data/germany/audits/{scope}_audit.md`, with a normalized range such as `94000-94199`. Use a stable, unambiguous slug for a named administrative area.
+4. If a ledger exists, **read its complete contents and resume it**. Do not create a new file or parallel ledger. First verify scope, status, last update, decisions, completed controls, open findings and exact next step.
+5. If no ledger exists, inspect the register and any overlapping/alternatively named ledgers. If an existing document already covers the same scope, reuse it. Create a new ledger only when no usable ledger for that scope exists.
+6. If multiple candidates exist or scopes overlap, do not create another. Document the relationship first, select one canonical ledger, and mark the others as alias/superseded/subscope without deleting history.
+7. Record the canonical file in the `README.md` register. Update the register metadata whenever the ledger is created or materially changed.
+
+### 10.2 Required contents of the living ledger
+Every ledger must contain:
+- canonical scope ID, country, exact scope definition and file path;
+- status: `NOT STARTED`, `IN PROGRESS`, `PAUSED`, `FIXES IN PROGRESS`, `RE-AUDIT`, `PASS`, `FIX REQUIRED`, `REVIEW REQUIRED` or `BLOCKED`;
+- versions/commits of prompt, schema, Content Standard, sequence and reference data;
+- inventory and reconciliation;
+- record-by-record matrix for controls A–I;
+- category-by-category discovery checklist;
+- separate results for all seven languages;
+- all findings, evidence, decisions and status;
+- corrections and subsequent verification;
+- **locked decisions**: what was already checked and agreed, why it is correct, evidence, affected postcodes/facts and what must not be reopened without new evidence or a standards change;
+- open questions and evidence gaps;
+- last completed step and exact next step;
+- change history with date, change and reason.
+
+### 10.3 Continuity and anti-repeat rules
+- A new chat window is not a new audit. It is another work session on the same ledger.
+- Never repeat a closed check or correction merely because the window or model changed. Reopen it only when new evidence appears, a source/standard/schema changes, or a concrete contradiction is identified.
+- A locked decision must not be relabelled as an error without stating the new evidence and explaining why the original evidence/decision no longer holds.
+- If a check must be repeated because data or standards changed, preserve the previous result and append a new revision; never erase the history.
+- Each work session updates the same ledger incrementally, especially after a material decision, correction or closed control. Do not wait until the end of a long session.
+- At handoff, save the current status and exact next step. If context space is running low, write a checkpoint to the ledger first.
+- A ledger must never claim a check was completed unless its scope, result and supporting evidence are recorded.
+- `PASS` is allowed only when every prompt requirement is met; closing the repair queue alone does not mean a complete audit PASS.
+
+### 10.4 Protection against parallel and overlapping audits
+Before creating a new ledger, compare its scope with the register. If the requested scope is contained in an existing wider audit, continue in the wider ledger and record the sub-scope as a subsection. If a request expands an existing scope, first update the existing ledger's scope definition and inventory; create a linked new audit only when it is genuinely a separate audit unit. Never create a second ledger for the same area merely because a new chat window was opened.
+
+**Operating command:** Before any work, perform `FIND → READ → RESUME`; `CREATE` is permitted only after confirming that no canonical or usable overlapping ledger exists.
