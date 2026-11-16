@@ -254,3 +254,6 @@
 
 
 **Doplnění 2026-11-16 — autorizované doplnění faktů CZ-10000-15900:** Na základě výslovného pokynu uživatele bylo do sedmi existujících českých řádků Supabase (10000, 10100, 10400, 11800, 12000, 12800, 13000) přidáno 11 nových faktů. Každý má zdroje, map_category, doloženou polohu a všech sedm jazyků. Read-back potvrzuje 33 řádků a **222 faktů** v rozsahu 10000–15900. Nuselský most byl před zápisem prověřen napříč celou českou databází: samostatný fakt předtím nikde nebyl; alternativní katalogová adresa 12000 je evidována, ale jediné primární přiřazení bylo zvoleno 12800 a nyní existuje pouze jeden mostní fakt. Podrobnosti, ID, zdroje a kontroly jsou v oddílech 21–22 kanonického taháku. Brána 0 zůstává ČÁSTEČNĚ DOLOŽENO; audit A–I je nadále blokován do dokončení nezávislé inventury všech lokalit.
+
+
+**Doplnění 2026-11-16 — GATE0-RUIAN-60200-02:** Dům umění města Brna (Malinovského náměstí 652/2; RÚIAN 19100671; PSČ 60200) a Besední dům (Komenského náměstí 534/8; RÚIAN 19099282; PSČ 60200) prošly ověřením fyzické adresy v oficiálním VDP ČÚZK/RÚIAN. Porovnáno s aktuálními 18 fakty 60200: oba samostatné příběhy chybí. Oba kandidáti přijati do inventáře jako geograficky ověřené / připravené k redakčnímu zpracování; nové produkční fakty zatím nevytvořeny. Viz dodatek 75 kanonického taháku 60200–64400. Produkční Supabase a sequence beze změny.
