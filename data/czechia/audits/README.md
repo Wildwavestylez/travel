@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy a pokračování ověřeny; viz oddíly 25–27 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá úplná kontrola URL a redakční sémantiky) | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy, zdroje a jazykové kontexty ověřeny; viz oddíly 25–28 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (vícesource URL + úplná sémantická redakce) | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -328,3 +328,6 @@
 
 
 **Pokračování auditu 2026-11-16 — oddíl 27:** B uzavřeno po opravě 14100/district=Záběhlice a nastavení 10800/district=null (fyzické sídlo interní pošty nebylo doloženo). Doplňkové zdroje přidány k šesti jednozdrojovým faktům. 11000/fact_014 opraveno v CS+DE+EN+ES+FR+IT+NL: celý Myslbekův pomník byl dokončen 18. 5. 1925, nikoli 1924. Aktuální snapshot: 33 PSČ / 225 faktů / 33 validated; vlastní JSON Schema validátor 33/33 bez chyb; 213 objektových faktových poloh + 12 zdůvodněných null; access_point 32/33 verified, jediný null 10800. A/B/C/E/F/I PASS, D/G/H PARTIAL; celkový verdikt REVIEW REQUIRED. Podrobnosti v oddílu 27 kanonického taháku.
+
+
+**Pokračování auditu 2026-11-16 — oddíl 28:** Jednozdrojové skupiny 22/22 otevřeny a tematicky zkontrolovány; přidán zdroj VHÚ k československým legiím; Myslbekův pomník 11000/fact_014 opraven chronologicky (kompletní 18. 5. 1925) v CS+6 překladech. Doplněny kulturní a místopisné glosses v 10100, 10400, 11101, 11800 a 12000. Automatické jazykové/reklamní kontroly: 0 kopií českého textu, 0 krátkých/dlouhých anomálií, 0 untranslated titles, 0 promo CTA, 0 duplicit ID. Aktuální schema validace 33/33 bez chyb. D/G/H zůstávají částečné kvůli hromadné kontrole 203 vícesourceových faktů a úplné sémantické revizi 225×7 textů. Podrobnosti v oddílu 28 taháku.
