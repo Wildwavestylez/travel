@@ -155,3 +155,6 @@
 
 
 **Nové pravidlo 2026-11-16 — BRÁNA 0:** Před jakýmkoli auditem A–I musí proběhnout nezávislá inventura významných památek a zajímavostí celého území, vytvořená z oficiálních a odborných katalogů a následně porovnaná s databází. Chybějící zásadní památky jsou závažný nález. Nový povinný postup je první položkou každého taháku; viz V1.1 prompt_audit.md, oddíl 0. Praha 10000–15900: první screening odhalil kandidátní mezery (Krematorium Strašnice, Vinohradský hřbitov, kostel Neposkvrněného početí Panny Marie, Rangherka, Hostivařská přehrada, Nuselský most, Nový židovský hřbitov) a další kandidáty k prověření. Brána 0 zůstává ČÁSTEČNĚ DOLOŽENO; audit nelze uzavřít.
+
+
+**Doplnění 2026-11-16 — vyřešení kapličky Dolní Měcholupy:** Oficiální VDP RÚIAN uvádí adresní místo Na návsi 2/16 (ID 22548572) s PSČ 11101; NPÚ umisťuje kapličku do středu bývalé návsi. Kaplička zůstává pouze v 11101 fact_002, doplněn přibližný mapový bod podle adresního místa 2/16 (50.054963055556, 14.562278888889). Duplicitní 10900 fact_006 odstraněn. Supabase ověřena SELECTem: 33 PSČ, 211 faktů. Viz oddíl 17 taháku. 
