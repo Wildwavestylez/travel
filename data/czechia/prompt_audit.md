@@ -13,6 +13,23 @@ Tento prompt se používá společně s:
 
 Schéma určuje povolenou strukturu a hodnoty. Český Content Standard je závazný pro fakta, geografii, rešerši, redakci, zdroje a překlady. Rework prompt určuje způsob tvorby záznamů. Tento auditní prompt nezávisle ověřuje hotovou skupinu záznamů.
 
+## Provozní efektivita, limity API a bezpečné pokračování (POVINNÉ)
+
+Tato pravidla platí pro celý audit a všechna konverzační okna. Mají přednost před opakováním hotových kontrol a jejich cílem je snížit počet externích požadavků a zabránit chybám typu `429 Too Many Requests`, aniž by se snižovala důkazní úroveň auditu.
+
+1. **Jednorázové načtení společných podkladů:** Na začátku pracovní relace načti aktuální schema, Content Standard, rework prompt, sequence, RÚIAN reference a příslušný auditní tahák/registr. Zaznamenej jejich verze/commity. V téže relaci je znovu nenačítej, pokud se jejich verze nezměnila, obsah nebyl neúplný nebo se neobjevil konkrétní rozpor.
+2. **Dávkové čtení databáze:** Inventář auditovaného bloku načti jedním vhodným dotazem nebo malým počtem stránkovaných dotazů. Neprováděj samostatný databázový read pro každý řádek, pokud lze potřebná pole získat hromadně. Poté pracuj nad načteným snapshotem. Nové čtení proveď pouze pro ověření konkrétní změny nebo při doložené změně dat.
+3. **Znovupoužití důkazů:** Eviduj URL, datum kontroly, tvrzení, které zdroj podporuje, a výsledek. Stejný zdroj znovu neotvírej kvůli stejnému tvrzení, pokud není zastaralý, neúplný, změněný nebo zpochybněný novým důkazem. Vyhledávej pouze k nevyřešeným významným nálezům; neprováděj duplicitní rešerše.
+4. **Cílené ověřování:** Každý externí požadavek musí řešit konkrétní otázku. Sluč podobné dotazy a používej dávkové vyhledávání, pokud je podporováno. Jakmile je tvrzení doloženo zdrojem kompetentním pro daný údaj, další redundantní požadavky ukonči. Nezaměňuj úsporu požadavků za vynechání povinné kontroly.
+5. **Omez souběh:** Standardně prováděj nejvýše 2 externí požadavky současně. Zápisy do databáze a aktualizace stejného souboru/taháku prováděj sekvenčně. Neodesílej opakované nebo hromadné požadavky, které nejsou nutné.
+6. **Povinné zpracování 429 / Too Many Requests:** Při HTTP 429 nebo ekvivalentní chybě okamžitě zastav další požadavky vůči dané službě. Pokud odpověď obsahuje `Retry-After`, dodrž jej. Jinak použij exponenciální prodlevu přibližně 2, 4, 8, 16 a 32 sekund. Po nejvýše 5 neúspěšných pokusech označ zdroj jako `RATE LIMITED`, zaznamenej poslední stav a pokračuj pouze nezávislými kontrolami. Neopakuj bezprostředně totožný požadavek a nepokoušej se limit obcházet paralelními voláními.
+7. **Práce po částech:** Dokončuj a zapisuj auditní části průběžně. Nečekej na konec celého bloku. Po obnovení pokračuj pouze otevřenými kontrolami; zamčené části a jejich důkazy se započítají bez nových volání.
+8. **Lokální kontroly:** Porovnání JSON, ID, jazykových struktur, duplicit v načteném bloku a validaci proti již načtenému schématu prováděj lokálně, pokud je to možné. Externí zdroj používej pro faktické ověření, nikoli pro opakování mechanických kontrol.
+9. **Bezpečné opakování:** Po timeoutu nebo chybě zápisu nejprve zjisti, zda operace skutečně selhala, nebo zda výsledek již existuje. Aktualizaci databáze ani souboru neopakuj naslepo. Při nejistém výsledku zastav zápis a ověř stav.
+10. **Žádné falešné dokončení:** Nedostupný zdroj, rate limit nebo timeout není důkazem PASS ani HOTOVO. Označ přesně dotčenou kontrolu jako čekající/nedoloženou; ostatní nezávislé kontroly mohou pokračovat.
+
+**Provozní pravidlo:** načti jednou → vytvoř snapshot → ověř pouze otevřené otázky → zapisuj průběžně → po chybě bezpečně čekej a navazuj.
+
 ## 0. POVINNÁ BRÁNA ÚPLNOSTI PAMÁTEK A ZAJÍMAVOSTÍ — PŘED JAKÝMKOLI AUDITEM (NEJVYŠŠÍ PRIORITA)
 
 Tato kontrola je **první povinný krok každého auditu**. Má přednost před inventářem A, kontrolami B–I, kontrolou kvality existujících faktů i všemi dalšími částmi auditu. Audit samotný NESMÍ začít, dokud není tato brána provedena a její výsledek zapsán do taháku.
