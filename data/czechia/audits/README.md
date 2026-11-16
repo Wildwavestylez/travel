@@ -176,3 +176,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-61200-61300:** V DE překladech 61200 a 61300 bylo opraveno a následně ověřeno sedm konkrétních lokalizačních nálezů (61200/fact_001,003,004,005; 61300/fact_001,003,005). Oba záznamy zůstaly `validated`. Viz dodatek 53 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-61400-61700:** V DE překladech 61400, 61500, 61600 a 61700 bylo opraveno 14 evidovaných faktů (lokalizace městských částí Brna, vysvětlení premonstrátů a sjednocení názvu Burianovo náměstí). Texty byly ověřeny opětovným načtením ze Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 54 kanonického taháku.
