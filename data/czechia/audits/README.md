@@ -279,3 +279,6 @@
 
 
 **Upřesnění 2026-11-16 — AUDIT-RESUME-PRIORITY-01:** Podle povinné priority oddílu 0 aktuálního promptu V1.1 zůstává Brána 0 rozsahu 60200–64400 ČÁSTEČNĚ DOLOŽENO/NEHOTOVO a má přednost před dalším uzavíráním A–I. Navázat pouze na významné/ikonické kandidáty a uplatnit stop-pravidlo; nevyhledávat drobné instituce ani malé objekty. Jazykové opravy ES/FR/IT 60200–60300 zůstávají ověřené. Podrobnosti v dodatku 81 taháku.
+
+
+**Uzavření 2026-11-16 — CLOSE-GATE0-USER-01:** Brána 0 pro CZ-60200–64400 je uzavřena jako **HOTOVO** podle kurátorského významnostního prahu a stop-pravidla promptu 0.0/0.5 a výslovného rozhodnutí uživatele dále nehledat další zajímavosti. Nižší prioritní kandidáti z dřívějších dodatků zůstávají historicky evidováni, nejsou schváleni k vložení a neblokují A–I; žádné produkční fakty se tímto rozhodnutím nemění. Navázáno oblastí C: všech 8 faktů PSČ 62100 bylo geograficky zkontrolováno, bez zjištěné chybné příslušnosti PSČ; nejednoznačné/plošné body zůstaly korektně `location: null`. Další C dávka: 62300. Viz dodatek 82 kanonického taháku.
