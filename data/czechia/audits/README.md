@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy ověřeny; pokračování viz oddíl 26 | REVIEW REQUIRED — A/C/E/F/I PASS (C/F s odůvodněnými null); B otevřeno ve 3 RÚIAN/sequence rozporech; D/G/H částečné | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy a pokračování ověřeny; viz oddíly 25–27 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá úplná kontrola URL a redakční sémantiky) | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -325,3 +325,6 @@
 
 
 **G-H-16 — 2026-11-17:** Pokračování jazykové kontroly 61200–61300. V 61300/fact_002/ES opraven nepřeložený výraz „brněnense“ na přirozené „de Brno“; read-back potvrzen. U 61200/fact_001 a fact_002 zjištěny cizojazyčné podrobnosti, které české originály neobsahují (historie kláštera; tramvajová a železniční výroba Královopolské strojírny). Nejde zatím o potvrzené nepravdy; položky zůstávají otevřené k ověření zdrojů a sjednocení obsahu. Řádky 61200/61300 zůstaly validated, data_version=1, 8/5 faktů, sedm jazyků a shodná ID/pořadí. Viz dodatek 99 kanonického taháku. G/H zůstává otevřené.
+
+
+**Pokračování auditu 2026-11-16 — oddíl 27:** B uzavřeno po opravě 14100/district=Záběhlice a nastavení 10800/district=null (fyzické sídlo interní pošty nebylo doloženo). Doplňkové zdroje přidány k šesti jednozdrojovým faktům. 11000/fact_014 opraveno v CS+DE+EN+ES+FR+IT+NL: celý Myslbekův pomník byl dokončen 18. 5. 1925, nikoli 1924. Aktuální snapshot: 33 PSČ / 225 faktů / 33 validated; vlastní JSON Schema validátor 33/33 bez chyb; 213 objektových faktových poloh + 12 zdůvodněných null; access_point 32/33 verified, jediný null 10800. A/B/C/E/F/I PASS, D/G/H PARTIAL; celkový verdikt REVIEW REQUIRED. Podrobnosti v oddílu 27 kanonického taháku.
