@@ -40,6 +40,22 @@ This workflow is for Czech records only. Work exclusively with the intended Czec
 
 The repository holds the Czech rules, schema and shared reference inventory. Supabase is the production storage for prepared Czech postcode JSON records.
 
+## Provozní efektivita, limity API a bezpečné pokračování (POVINNÉ)
+
+Tato pravidla platí pro celý rework a mají přednost před opakováním již provedených kroků. Jejich cílem je snížit počet externích požadavků a zabránit chybám typu `429 Too Many Requests`, aniž by se snižovala požadovaná kvalita.
+
+1. **Jednorázové načtení společných podkladů:** Na začátku pracovní relace načti aktuální schema, Content Standard, relevantní promptové dodatky, sequence a společné RÚIAN reference. Zaznamenej jejich verzi/commit nebo kontrolní identifikátor. Pro další PSČ ve stejné relaci je znovu nenačítej, pokud se jejich verze nezměnila, soubor nebyl neúplný nebo se neobjevil konkrétní rozpor. RÚIAN inventář načti jednou a opakovaně v něm vyhledávej lokálně; nestahuj ani neparsuj celý soubor pro každé PSČ.
+2. **Cílená rešerše místo opakovaných širokých dotazů:** Nejprve sestav stručný seznam kandidátů a otevřených otázek. Podobné dotazy sluč do jednoho dávkového vyhledávání, pokud to nástroj podporuje. Stejný dotaz ani stejnou URL znovu nevolej, pokud už výsledek máme a neexistuje důvodné podezření na změnu nebo neúplnost. U každého kandidáta dohledávej pouze chybějící důkaz; nezačínej znovu celou rešerši.
+3. **Důkazy a tematické pokrytí:** Počet požadavků není cílem. Nevynechávej povinný důkaz jen kvůli úspoře volání. Jakmile je kandidát spolehlivě ověřen kompetentním zdrojem a jeho poloha/PSČ je doloženo příslušným autoritativním zdrojem, další redundantní hledání ukonči. Nevyřešenou otázku označ přesně a pokračuj bezpečnou částí práce.
+4. **Omez souběh:** Nespouštěj velké množství požadavků paralelně. Standardně prováděj nejvýše 2 externí požadavky současně; databázové zápisy prováděj sekvenčně. Pokud nástroj nabízí dávkové čtení více položek, použij je místo mnoha jednotlivých čtení.
+5. **Povinné zpracování 429 / Too Many Requests:** Při HTTP 429 nebo ekvivalentní chybě okamžitě zastav další požadavky vůči dané službě. Pokud odpověď obsahuje `Retry-After`, dodrž jej. Jinak použij exponenciální prodlevu přibližně 2, 4, 8, 16 a 32 sekund; mezi pokusy nepokračuj v paralelním volání stejné služby. Po nejvýše 5 neúspěšných pokusech daný zdroj dočasně označ jako `RATE LIMITED`, ulož poslední stav a pokračuj pouze kroky, které na něm nezávisí. Neopakuj bezprostředně totožný požadavek.
+6. **Bezpečný checkpoint:** Před čekáním, přerušením nebo předáním ulož PSČ, dokončené kroky, použité zdroje, již získané důkazy, otevřené otázky, poslední chybu/čas a přesný další krok. Po obnovení pokračuj od prvního nedokončeného kroku; neopakuj hotové rešerše ani validace.
+7. **Lokální validace:** JSON, schéma, ID, strukturu, překlady a konzistenci kontroluj lokálně nad již načtenými daty, kdykoli to nástroje umožňují. Nevolej externí službu pro kontrolu, kterou lze spolehlivě provést lokálně. Po změně textu kontroluj dotčený fakt a jeho jazykové verze; úplnou validaci záznamu proveď před uložením, ne po každé dílčí editaci.
+8. **Databáze:** Načti pouze cílový český řádek. Před zápisem ověř jeho identitu a ochranná pravidla. Proveď jeden cílený zápis a jedno následné načtení pro ověření; neopakuj čtení celé tabulky. Při chybě zápisu nejprve ověř, zda se změna přesto neuložila, a teprve potom rozhodni o opakování. Nikdy neposílej opakovaný UPDATE naslepo.
+9. **Žádné falešné dokončení:** Rate limit, nedostupný zdroj ani timeout neznamená úspěšné ověření. Označ pouze dotčený bod jako čekající/nedoložený; ostatní nezávislé části dokonči.
+
+**Provozní pravidlo:** načti jednou → hledej cíleně → ukládej důkazy → validuj lokálně → zapisuj jednou → ověř jedním read-backem → pokračuj.
+
 ## Workflow
 **READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → GEOGRAPHIC CHECK → AUDIT → REMOVE/KEEP/ADD → TRANSLATE → VALIDATE → SAVE → NEXT**
 
