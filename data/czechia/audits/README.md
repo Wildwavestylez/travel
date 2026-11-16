@@ -364,3 +364,6 @@
 
 
 **Pokračování finálního auditu 2026-11-17 — CZ-60200-64400 (oddíl 104):** Geografický read-back všech 176 faktů: 149 vyplněných location, 27 explicitních null, 0 chybějících klíčů, 0 neúplných objektů, 0 souřadnic mimo rozsah. Doplněna poloha 62300/fact_002 (Grand Prix, Voříškova 289/2), 64100/fact_001 (památník Farinovy zatáčky) a opravena poloha 61400/fact_002 (kostel Nejsvětějšího Srdce Páně; dříve chybně sdílel reprezentativní bod Husovic). SQL nenašlo duplicitní názvy ani identické texty; shodné souřadnice byly posouzeny jako tematicky legitimní. Otevřených 27 null vyžaduje individuální posouzení. G/H stále eviduje 13 rozdílů canonical vs. `translations.cs`. Celkový stav **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 104 kanonického taháku.
+
+
+**Pokračování F 2026-11-17 — CZ-60200-64400 (oddíl 105):** Doplněna poloha 62700/fact_006 (romské Stolpersteine v Černovičkách 23; approximate) a reprezentativní poloha 63900/fact_002 (Ústřední hřbitov; area_representative). Read-back: 176 faktů, 151 vyplněných poloh, 25 explicitních null, 0 chybějících location klíčů, 0 neúplných objektů, 0 souřadnic mimo rozsah. Celkový stav zůstává **REVIEW REQUIRED / IN PROGRESS**. Podrobnosti v oddílu 105 kanonického taháku.
