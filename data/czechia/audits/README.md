@@ -263,3 +263,6 @@
 
 
 **Doplnění 2026-11-16 — GATE0-RUIAN-60200-03:** Muzeum romské kultury, Bratislavská 67/246, Brno-Zábrdovice, bylo ověřeno přes oficiální VDP ČÚZK/RÚIAN: adresní místo 19184654, identifikace 246/67, PSČ 60200. Institucionální a městské zdroje potvrzují význam instituce a její historii od roku 1991. Porovnáno s 18 fakty 60200 a 7 fakty 60300: samostatný příběh muzea v databázi chybí. Kandidát přijat do inventáře jako CHYBÍ / RÚIAN ověřeno / připraveno k redakčnímu zpracování. Viz dodatek 76 kanonického taháku 60200–64400. Produkční Supabase a sequence beze změny.
+
+
+**Doplnění 2026-11-16 — G/H-EN-60200:** Provedena cílená read-only kontrola všech 18 anglických faktů PSČ 60200. Všech sedm jazyků má 18/18 faktů se shodnými ID a pořadím. V EN zjištěny 3 nálezy MEDIUM (nevysvětlené Černá Pole, doslovně přeložené Žlutý kopec bez českého názvu, nevysvětlený vojenský pojem Pandurs) a 1 LOW (Zelný trh bez vysvětlení v těle textu). Zapsáno v dodatku 77 kanonického taháku 60200–64400. Bez produkčních změn; EN/60200 REVIEW COMPLETE / FINDINGS OPEN.
