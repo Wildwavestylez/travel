@@ -307,3 +307,6 @@
 
 
 **G-H-12 — 2026-11-16:** V PSČ 63700 opraveno pět jazykových verzí: fact_002/FR — nepřirozené „débits de Brno“ v titulku nahrazeno „auberges de Brno“; fact_003/EN/ES/FR/IT doplnilo vysvětlení Orel jako české katolické tělovýchovné a mládežnické organizace (DE/NL již kontext měly). Všech sedm jazyků u 63700/fact_003 zkontrolováno; v 63900/fact_003 zkontrolováno všech sedm jazykových verzí popisu krematoria Ernsta Wiesnera bez nutnosti změny. Read-back potvrzen; řádek 63700 (ID 10373) zůstal `validated`, `data_version=1`, 4 fakta, sedm jazyků a shodná ID/pořadí. Viz dodatek 95 kanonického taháku. G/H zůstává otevřené.
+
+
+**G-H-13 — 2026-11-16:** Cílená kontrola všech sedmi jazykových větví 64100/fact_001. V EN/ES/FR/IT/NL opraveno pět verzí, které mohly zaměňovat závod vozů podle předpisů Formule 1 v roce 1949 za závod oficiálního mistrovství světa. Doplněno, že závod nebyl součástí oficiálního šampionátu, který začal v roce 1950. DE již rozdíl správně vysvětlovalo; CS zůstalo beze změny. Read-back potvrzen; řádek 10376 zůstal `validated`, `data_version=1`, 10 faktů, sedm jazyků, ID/pořadí beze změny. Viz dodatek 96 kanonického taháku. Jde pouze o cílenou opravu fact_001; G/H zůstává otevřené.
