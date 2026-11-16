@@ -61,3 +61,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-08:** NL verze 62800 a 63400: nedostatečné vysvětlení Líšně/Nového Lískovce jako městských částí Brna a odborných pojmů Bandkeramická a Jordanówská kultura. Nález otevřený; pozitivní historický a technický kontext zachován. Viz oddíl 26 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-09:** NL verze 63500–63700: chybí kontext městských částí Kníničky/Židenice/Jundrov/Bystrc/Kohoutovice, u Mniší hory chybí vysvětlení kopce a u 63700/fact_003 není vysvětlen spolek Orel (katolická tělovýchovná organizace). Nález otevřený. Viz oddíl 27 taháku.
