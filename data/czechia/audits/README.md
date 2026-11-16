@@ -285,3 +285,6 @@
 
 
 **Oprava 2026-11-16 — CORR-C-GEO-62100-01:** Opraven aritmetický souhrn dodatku 82: PSČ 62100 má 2 přesné body, 1 přibližný bod a 5 oprávněných `location: null`; geografický závěr 8/8 zůstává beze změny. Viz dodatek 83.
+
+
+**C-GEO-62300-01:** Dokončena read-only geografická kontrola všech 9 faktů PSČ 62300. Všech 9 příběhů odpovídá danému PSČ; 4 přesné body, 2 přibližné, 1 reprezentativní bod a 2 oprávněná `location: null` u vícebodových příběhů. Bez produkčních změn. Další dávka C: 62400. Viz dodatek 84 kanonického taháku.
