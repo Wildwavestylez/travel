@@ -88,3 +88,6 @@
 
 
 **Aktuální stav 2026-11-16 — checkpoint 35:** Zamčené GEO-01 až GEO-08 a další dříve hotové kontroly se neopakují. C přesné duplicity je HOTOVO/ZAMČENO. NL review 27/27 PSČ a 176/176 faktů je dokončen a zamčen; NL PASS 63800, 63900, 64400, otevřené NL nálezy u 24 PSČ. B-02 čeká na položkový export 0028 pro 11 kódů. E má nové kandidáty Komec (61700), Wilsonův les (61600), lávku a Cacovický ostrov (61400), slévárnu Uxů (60200, REVIEW); Sluneční lázně vyřazeny. G/H zbývá šest jazyků. I: oficiální AJV `BLOCKED / NOT RUN`. Produkční Supabase data nebyla změněna. Kompletní open-only fronta a sekce **PROBLÉMY K VYŘEŠENÍ** v oddílu 35 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — B-03:** B je `HOTOVO / ZAMČENO` pro všech 27 PSČ. Po původních 16 individuálních RSO záznamech z B-02 bylo doloženo dalších 11 kódů (61300, 61500, 61600, 61800, 61900, 62300, 62500, 62800, 63600, 63800, 63900). Oficiální RSO pole `PSC` a `NAZ_POSTA` používají číselník 0028 a metodika určuje RÚIAN jako referenční zdroj. Všech 27 je v RÚIAN inventáři A-01; obec `city: Brno` odpovídá obci Brno. Neřeší se provozní stav přepážek. Viz oddíl 36 taháku.
