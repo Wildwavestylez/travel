@@ -179,3 +179,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-61400-61700:** V DE překladech 61400, 61500, 61600 a 61700 bylo opraveno 14 evidovaných faktů (lokalizace městských částí Brna, vysvětlení premonstrátů a sjednocení názvu Burianovo náměstí). Texty byly ověřeny opětovným načtením ze Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 54 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-61800-62100:** V DE překladech 61800, 61900, 62000 a 62100 bylo opraveno 14 konkrétních lokalizačních/terminologických nálezů (včetně neutrálního historického pojmenování instituce, vysvětlení Sokola, názvu Olomoucká a současné lokalizace městských částí). Všechny texty byly ověřeny po zápisu; záznamy zůstaly `validated`. Viz dodatek 55 kanonického taháku.
