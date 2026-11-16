@@ -80,8 +80,8 @@ Pro celé auditované území:
 ### 0.3 Porovnání s databází a kontrola geografické příslušnosti
 Teprve po vytvoření nezávislého kandidátního inventáře jej porovnej se všemi existujícími fakty v celém auditovaném bloku:
 - **POKRYTO:** kandidát je v databázi obsažen jako samostatný fakt nebo je jeho příběh prokazatelně a dostatečně pokryt jiným faktorem; uveď konkrétní PSČ a ID faktu.
-- **CHYBÍ:** významné místo/příběh v databázi není; uveď kandidátní PSČ, ale nepřidávej jej automaticky.
-- **ČÁSTEČNĚ POKRYTO:** existuje obecný fakt, ale chybí samostatně významná součást, konkrétní příběh nebo podstatná část lokality.
+- **CHYBÍ:** významné místo/příběh v databázi není; po ověření významnosti, faktů a geografického přiřazení jej automaticky doplň do správného existujícího PSČ a následně označ jako POKRYTO. Pokud některý podstatný údaj nelze doložit, ponech jej jako REVIEW REQUIRED.
+- **ČÁSTEČNĚ POKRYTO:** existuje obecný fakt, ale chybí samostatně významná součást, konkrétní příběh nebo podstatná část lokality; doplň chybějící část automaticky, pokud je samostatně významná a doložená.
 - **DUPLICITA / PŘEKRYV:** kandidát je obsažen vícekrát nebo je příběh rozdělen mezi více faktů.
 - **MIMO ROZSAH:** místo leží mimo auditovanou geografickou jednotku nebo jeho PSČ není v projektovém rozsahu.
 - **REVIEW REQUIRED:** významnost, přesná poloha nebo PSČ nejsou zatím dostatečně doloženy.
@@ -95,7 +95,7 @@ U každého chybějícího nebo částečně pokrytého kandidáta ověř skute�
 - Prioritně ale zachyť mimořádně významné, ikonické, národně/regionálně důležité nebo pro danou lokalitu zásadní objekty. Vynechání takové památky je závažný nález, i kdyby byl zbytek záznamu kvalitní.
 - Rozliš samostatně významnou památku od drobného objektu, který je vhodnější zahrnout do širšího místního příběhu.
 - Nezaměňuj marketingový žebříček popularity za odborné hodnocení významnosti.
-- Nevytvářej fakta jen proto, aby se doplnil seznam. V této fázi se pouze vytváří a ověřuje kandidátní inventář a reportují mezery.
+- Nevytvářej fakta jen proto, aby se doplnil seznam. Pokud však kandidát splňuje kritéria významnosti, jeho existence, příběh i geografické přiřazení jsou dostatečně doloženy a v databázi skutečně chybí, doplň jej automaticky do správného existujícího PSČ, podle Content Standardu a schématu. Poté ověř celý nový fakt i všech sedm jazyků. Nejasné nebo nedostatečně doložené kandidáty označ `REVIEW REQUIRED`, nevymýšlej jejich obsah a pokračuj dalšími kontrolami.
 
 ### 0.5 Povinný výstup a blokace pokračování
 Do kanonického auditního taháku zapiš:
@@ -140,13 +140,13 @@ Nevycházej z paměti, dřívějších auditních reportů ani starších verzí
 ## 3. Základní principy auditu
 
 - **Nezávislé ověření:** nepředpokládej správnost záznamu jen proto, že byl označen jako dokončený, přepracovaný, publikovaný nebo dříve auditovaný.
-- **Nejprve pouze čtení:** první fáze auditu slouží výhradně ke kontrole a reportování. Neměň řádky Supabase, JSON, GitHub soubory, stavy ani aplikační data.
-- **Důkazy před závěrem:** každý podstatný nález musí uvádět PSČ, ID záznamu/faktu, problém, důkaz a požadovanou opravu.
+- **Audit s průběžnou automatickou opravou:** audit není pouze čtecí fáze. Každou potvrzenou a bezpečně opravitelnou chybu oprav ihned v rámci auditu, ověř opravu a pokračuj. Nečekej na souhlas uživatele. Oprávnění se vztahuje na opravy obsahu existujících českých záznamů v `public.postal_codes` v auditovaném rozsahu a na související auditní tahák/report; nevztahuje se na změnu schématu, RLS, triggerů, aplikačního kódu, německých dat ani `sequence.json`.
+- **Důkazy před opravou:** před každou opravou ověř chybu, správnou podobu a cílové PSČ důvěryhodnými důkazy. Zaznamenej původní stav, provedenou změnu a výsledek následné validace.
 - **Žádná vymyšlená jistota:** rozlišuj potvrzenou chybu, nejasnost a nedostupný důkaz.
-- **Žádné tiché změny rozsahu:** nepřidávej ani neodebírej PSČ z auditované jednotky bez zdokumentování a vyřešení rozsahu.
+- **Žádné tiché změny rozsahu:** nepřidávej ani neodebírej PSČ z auditované jednotky. Chybějící fakta významných míst lze po ověření doplnit do již existujícího správného PSČ; nevytvářej nové řádky PSČ.
 - **Žádné plnění kvót:** prázdná tematická kategorie může být správným výsledkem, pokud byla řádně prověřena a neexistuje relevantní fakt.
 - **Žádné polygonové kontroly:** nestahuj ani nekontroluj polygony PSČ a neprováděj kontroly hranic pomocí polygonů. Používej důvěryhodné poštovní, správní, institucionální, adresní a lokalizační zdroje podle českého Content Standardu.
-- **Audit odděluj od oprav:** nejprve identifikuj a popiš vady. Opravy jsou samostatná autorizovaná fáze. Po opravách znovu zkontroluj dotčené položky a všechny závislé kontroly.
+- **Audit a opravy tvoří jeden nepřerušený proces:** identifikuj vadu → ověř správné řešení → ihned oprav → znovu ověř změněnou položku a závislé kontroly → pokračuj. Samostatná schvalovací fáze po inventarizaci nálezů se neprovádí.
 - **Chraň obsah při geografickém úkolu:** při úkolu omezeném na geografické obohacení neměň chráněné redakční texty; uplatni příslušnou výjimku v rework promptu.
 - **Chraň sequence:** audit sám o sobě neopravňuje k přidání, odebrání, přeuspořádání ani přegenerování `sequence.json`. Rozpor je nález k samostatnému rozhodnutí, nikoli pokyn k automatické změně.
 
@@ -427,18 +427,55 @@ Vytvoř report s těmito částmi:
 
 Nikdy neuváděj „plně auditováno“, pokud byl zkontrolován pouze vzorek. Nikdy netvrď, že proběhla kontrola zdroje, URL, souřadnic, jazyka nebo schématu, pokud se ve skutečnosti neprovedla.
 
-## 7. Postup oprav a opakovaného auditu
+## 7. Automatické opravy během auditu — bez schvalovací zastávky (POVINNÉ)
 
-První audit je pouze pro čtení. Po vytvoření reportu:
-1. Předlož nálezy a navrhované opravy.
-2. Před úpravou produkčních záznamů nebo souborů repozitáře vyčkej na výslovné povolení.
-3. Oprav pouze výslovně schválené a identifikované vady; nepřepisuj nesouvisející obsah.
-4. Zachovej ID a nesouvisející metadata, pokud zdokumentovaná oprava nevyžaduje jinak.
-5. Každý změněný záznam znovu validuj podle schématu.
-6. U každého změněného faktu, polohy, přiřazení nebo duplicity znovu prověř dopad napříč PSČ.
-7. Pokud se změní text nebo význam faktu, znovu zkontroluj všech sedm jazyků a mezinárodní srozumitelnost.
-8. Znovu spusť relevantní kontroly bloku a aktualizuj report o vyřešené/nevyřešené stavy.
-9. Blok označ PASS až po splnění podmínek v oddílu 5.
+Audit a opravy jsou jeden souvislý autonomní běh. **Nikdy nečekej na průběžné schválení uživatele a nikdy nepřerušuj audit jen proto, abys předložil seznam nálezů.** Uživatel zadáním auditu současně povoluje automatické opravy potvrzených vad v rámci níže vymezeného rozsahu.
+
+### 7.1 Povinná smyčka pro každý nález
+1. **NAJDI:** při běžné kontrole identifikuj konkrétní chybu nebo nedostatek.
+2. **OVĚŘ:** dolož, že jde skutečně o chybu, zjisti správný stav z kompetentního zdroje a ověř geografickou příslušnost i soulad se schématem a Content Standardem.
+3. **OPRAV HNED:** pokud je správná oprava dostatečně jistá a spadá do povoleného rozsahu, proveď ji přímo v produkčním záznamu nebo příslušném auditním souboru. Neodkládej ji do fronty a nežádej uživatele o potvrzení.
+4. **VALIDUJ:** znovu načti změněnou položku, ověř zápis, JSON/schema, ID, zdroje, polohu a všechny závislé jazykové verze či kontroly podle typu změny.
+5. **ZAZNAMENEJ:** do auditního taháku zapiš původní chybu, důkaz, přesnou opravu, dotčené PSČ/ID, výsledek následné validace a stav `FIXED / VERIFIED`.
+6. **POKRAČUJ:** okamžitě pokračuj další otevřenou kontrolou nebo dalším PSČ. Nečekej na reakci uživatele.
+
+### 7.2 Rozsah automatického oprávnění
+Automaticky opravuj potvrzené chyby v existujících českých řádcích `public.postal_codes` uvnitř přesně vymezeného auditovaného rozsahu, včetně:
+- chybných nebo neúplných faktů, názvů, formulací, kategorií, zdrojů a překladů;
+- chybných souřadnic, reprezentativních bodů, přístupových bodů a geografického přiřazení, pokud je správná podoba doložena;
+- potvrzených duplicit a strukturálních vad jednotlivých záznamů, při zachování potřebné historie a ID podle pravidel projektu;
+- doplnění skutečně chybějících zásadních míst/faktů po ověření významnosti, obsahu a správného PSČ;
+- oprav auditního taháku, registru a reportu potřebných k přesnému zachycení průběhu.
+
+Automatické oprávnění **nezahrnuje**:
+- změnu databázového schématu, tabulek, RLS, triggerů, oprávnění nebo databázové architektury;
+- změnu aplikačního kódu, webu nebo nesouvisejících souborů;
+- změny německých či jiných nečeských dat;
+- přidání, odebrání nebo přeuspořádání PSČ v `sequence.json` ani změnu samotného rozsahu auditu;
+- zásah do výslovně zamčených/chráněných záznamů nebo částí, jejichž ochranné pravidlo zakazuje změnu;
+- spekulativní opravy, pro které není dostatečný důkaz.
+
+Pokud oprava vyžaduje některý z těchto nepovolených zásahů, nic takového neprováděj. Zaznamenej přesný blokátor, bezpečně pokračuj všemi nezávislými kontrolami a dalšími PSČ a nečekej kvůli tomu na uživatele.
+
+### 7.3 Nejednoznačné případy a skutečné blokátory
+Pouze konkrétní nejednoznačnost, chybějící autoritativní důkaz, technická nedostupnost, ochranné pravidlo nebo bezpečnostní riziko může zabránit automatické opravě konkrétní položky. V takovém případě:
+- označ pouze dotčený nález `REVIEW REQUIRED` nebo `BLOCKED` a vysvětli proč;
+- neodhaduj správný údaj a neprováděj nevratnou spekulativní změnu;
+- ulož checkpoint včetně důkazů, posledního kroku a přesného důvodu blokace;
+- pokračuj dalšími nezávislými kontrolami a dalšími PSČ.
+
+**Zastavení celého auditu je přípustné pouze tehdy, když technická nebo bezpečnostní překážka znemožňuje pokračovat v podstatné části práce.** Jediný nejasný nález, chybějící zdroj nebo neproveditelná oprava nesmí zastavit celý blok.
+
+### 7.4 Průběžné ukládání a závěrečný report
+Po každém opraveném PSČ a po každé uzavřené kontrolní oblasti aktualizuj kanonický tahák. Nečekej na konec bloku. Závěrečný report předlož až po dokončení všech dostupných kontrol a automatických oprav. Uveď:
+- všechny nalezené chyby a jejich závažnost;
+- co přesně bylo změněno, včetně PSČ, ID faktů a původní/nové hodnoty v rozsahu potřebném pro auditní stopu;
+- jaké důkazy opravu podpořily;
+- výsledek následné validace;
+- nevyřešené nálezy, které nešlo bezpečně opravit, a konkrétní důvod;
+- celkový výsledek bloku podle oddílu 5.
+
+Uživatel nemusí být přítomen během běhu. **Výchozí režim je automaticky opravit a pokračovat až do konce auditního úkolu; nikoli zastavit se a čekat na schválení.**
 
 ## 8. Záloha a předání po dokončení auditu
 
@@ -450,7 +487,7 @@ Netvrď, že záloha existuje nebo je ověřena, dokud nebyla skutečně vytvoř
 
 ## 9. Závěrečný provozní princip
 
-**Audituj celý blok, nikoli vzorek. Ověř rework podle aktuálního standardu. Zaznamenej důkazy a přesné vady. Během auditu tiše neopravuj produkční data. Schválené opravy znovu audituj. Teprve potom potvrď výsledek a připrav neměnný AUDITED snapshot.**
+**Audituj celý blok, nikoli vzorek. Každou potvrzenou a bezpečně opravitelnou vadu oprav ihned, ověř výsledek a pokračuj bez schvalovací zastávky až do konce rozsahu. Uživatel dostane až závěrečný souhrn všech změn a nevyřešených blokátorů. Teprve potom potvrď výsledek a připrav neměnný AUDITED snapshot.**
 
 
 ### Povinná kontrola synchronizace sequence a groups
