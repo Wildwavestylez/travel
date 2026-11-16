@@ -118,20 +118,22 @@ This rule governs both **which facts are included and the order in which they ar
 
 ## 5. Geographic scope — postcode-specific facts
 
-**A fact belongs to exactly one postal-code area, and its primary location must genuinely belong to that postcode.** This is a binding geographic rule for all TRAVEL records.
-
-Establish the connection using reliable postal, administrative, address, institutional or other location-specific evidence. Do not use postcode polygons or perform polygon-based boundary checks.
+**Postcodes are TRAVEL's internal organizational aid for grouping and indexing facts, not an absolute boundary that limits the subject or geographic extent of a tourist story.** Every fact is stored under exactly one primary postcode record, but a real-world site, story or feature does not have to fit entirely inside that postcode's boundary.
 
 Binding rules:
 
-- Every fact MUST have one primary real-world location genuinely associated with the postcode record to which the fact belongs.
-- Do not assign a fact to a postcode merely because it is nearby, in the same city, district, county or region, or thematically connected.
-- Each fact may be assigned to one postcode record only. Never duplicate the same fact or physical attraction in neighboring postcode records.
-- A fact about a site associated with more than one area may be included only when its primary local connection to the current postcode is clear and supported. If that connection is ambiguous, flag it for editorial review.
-- A surrounding place that belongs to another postcode may be mentioned briefly as context when genuinely useful, but it MUST NOT become a separate fact, map pin, representative place or location assigned to this postcode.
-- Research may examine wider surroundings to understand context and discover relevant stories. Research scope does not expand the geographic scope of facts.
-- A fact tied to an area-wide custom, tradition, personality or other phenomenon may use the postcode's representative point only where the standard's relevant fallback rule permits it and the fact genuinely belongs to that postcode.
-- If the local connection or location cannot be reliably confirmed, mark the fact for verification. Do not guess, move coordinates to a convenient point, or silently retain an uncertain pin.
+- Every fact MUST have one principal real-world subject/location and exactly one primary postcode assignment.
+- A bridge, park, large complex, trail, linear structure, landscape feature or other site may naturally extend across several postcodes. Do not omit an important fact merely because its footprint crosses postcode areas.
+- For such a feature, choose the **single most plausible and editorially defensible postcode** based on its principal/representative location, main or central section, primary entrance, verified address, or strongest local association. Use reliable official and geographic evidence. You do not need to prove that the entire feature lies within one postcode.
+- Continue to verify concrete addresses and address points using the appropriate authoritative postal, administrative and official address sources. These checks establish the postcode of the address itself; they do not, by themselves, decide the single editorial assignment of a large or linear feature that has no one decisive address.
+- For features without a unique address, use official site descriptions/boundaries, reliable geographic sources and a defensible representative point. Never invent precision or coordinates.
+- **Once a fact has been assigned to one postcode and that assignment has been reasonably supported and closed, the assignment is stable and locked.** Later rework and audits must not reopen or move it merely because the feature also extends into another postcode or another possible point could be associated with a neighboring postcode.
+- Reopen a locked assignment only when concrete new evidence shows that the original choice was factually wrong or reveals a material contradiction. The mere fact that a feature crosses postcode boundaries, lies near a boundary, or could plausibly be grouped elsewhere is not sufficient. Preserve the original decision and document the new evidence before any authorized change.
+- A physical attraction or continuous story normally has one primary record. Do not duplicate the same fact across neighboring postcodes. Separate records are appropriate only for genuinely distinct, independently significant subjects or stories.
+- Research may cover the wider surroundings, and text may explain the full real-world story even when it extends beyond the assigned postcode. Do not artificially truncate the story at an administrative line.
+- If a location remains uncertain, retain the interesting subject and record the uncertainty under the existing rules; do not guess a postcode or move coordinates to a convenient point.
+
+Do not download, inspect or validate postcode polygons, and do not perform polygon-based boundary checks.
 
 ### 5.1 One representative place and one representative point
 
