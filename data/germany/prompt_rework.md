@@ -149,6 +149,14 @@ The location source and the fact's content sources serve different purposes. A l
 
 Do not duplicate fact-location objects in the six translation arrays. Store each location once alongside its source-language fact. Do not claim that a point or geographic check is verified unless it has actually been checked. Set verification flags honestly.
 
+## Mandatory postcode-assignment rule for cross-postcode features
+
+Postcodes are an internal organizational aid for grouping TRAVEL facts, not an absolute boundary for the real-world subject or story. Every fact must be stored under exactly one primary postcode, but a bridge, park, large complex, trail, linear structure or other feature may extend across several postcode areas.
+
+For such a feature, choose the single most plausible postcode based on its principal/representative location, main or central section, primary entrance, verified address or strongest local association. Continue to verify concrete addresses and address points through the appropriate authoritative postal and official geographic sources. Address-level verification remains mandatory; it does not require the entire feature to lie inside the selected postcode.
+
+Once the assignment has been reasonably supported and closed, it is stable and locked. Do not move or re-audit it merely because the feature also touches another postcode or could plausibly be associated with a neighboring one. Reopen it only when concrete new evidence demonstrates that the original assignment was factually wrong. Do not duplicate the same attraction or continuous story across postcode records.
+
 ## Mandatory map-category assignment
 
 Before completing each fact, assign exactly one `map_category` according to section 11A of `data/germany/CONTENT_STANDARD.md`. The complete allowed values are defined by `data/germany/schema.json`. Use the shared 17 identifiers exactly; never invent values or use the editorial `category` as a substitute.
