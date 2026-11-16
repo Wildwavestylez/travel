@@ -110,3 +110,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-04:** Německé verze 61600 (5 faktů) a 61700 (5 faktů) zkontrolovány. DE/61600: doplnit Žabovřesky jako městskou část Brna ve fact_001–003 a sjednotit vlastní název Burianovo náměstí. DE/61700: doplnit Komárov jako městskou část Brna ve všech pěti samostatných faktech. DE/60300 zůstává zamčeno PASS; DE/60200 a 61200–61700 mají otevřené konkrétní nálezy. Viz oddíl 41 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-05:** Německé verze 61800 (5 faktů) a 61900 (6 faktů) zkontrolovány. DE/61800: historické stigmatizující `Geisteskranke` označit jako dobový název a v popisu neutralizovat; zachovat oficiální `Olomoucká` místo překladu `Olmützer Straße`; vysvětlit Sokol a lokalizovat Černovice do Brna. DE/61900: doplnit Brno-Horní Heršpice u fact_002–004 a současné začlenění Přízřenic do Brna u fact_005. Viz oddíl 42 taháku.
