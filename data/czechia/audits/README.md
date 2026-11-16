@@ -98,3 +98,6 @@
 
 
 **Doplnění 2026-11-16 — pokračování CZ-10000-15900, oblast B:** B-01 (ČSÚ 0028, zdrojové záznamy 33/33) a B-02 (RÚIAN CSV 33/33, 80 074 adresních míst) uzavřeny a zamčeny. B-03 odhalilo 25/33 nesprávných hodnot `county=Hlavní město Praha`; správná okresní hodnota je `Praha`, zatímco `state=Hlavní město Praha` je správně. B-04: chybějící `district` u 10100 a 10200; 10100 doloženo jako Vršovice, 10200 zůstává k ověření fyzického sídla. B-05: otevřené adresní konflikty 10900 a 15800/Radlice. B-06: aktuální oficiální detail České pošty potvrzen pro 5/6 záznamů bez delivery-office note; 10200 zůstává bez současného detailu pobočky. Supabase zůstala beze změny.
+
+
+**Doplnění 2026-11-16 — G-H-DE-01:** Německá verze 60300 (7 faktů) zkontrolována a zamčena `LOCKED / PASS`. DE/60200 (18 faktů) zkontrolováno; otevřené dva konkrétní nálezy: vysvětlit Černá Pole jako městskou čtvrť Brna (fact_005) a pojem Panduren (fact_015). Ostatních 25 PSČ v DE a jazyky cs/en/es/fr/it zůstávají otevřené. Viz oddíl 38 taháku.
