@@ -185,3 +185,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-DE-62300-62700:** V DE překladech 62300, 62400, 62500 a 62700 bylo opraveno 26 konkrétních geografických a kulturně-terminologických nálezů. Texty byly znovu načteny a ověřeny v Supabase; všechny čtyři řádky zůstaly `validated`. Viz dodatek 56 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-62800-63700:** V DE překladech 62800, 63400, 63500, 63600 a 63700 bylo opraveno 18 konkrétních lokalizačních/terminologických nálezů. Texty byly znovu načteny a ověřeny v Supabase; všechny dotčené řádky zůstaly `validated`. Viz dodatek 57 kanonického taháku.
