@@ -291,3 +291,5 @@
 
 
 **Doplnění 2026-11-16 — C-GEO-62400-64400:** Hromadná geografická kontrola 14 existujících PSČ a 82 faktů dokončena jako PASS. Všech 82 faktů odpovídá příslušnému území podle uložených poloh/zdrojů a RÚIAN inventáře; 28 přesných, 19 přibližných, 14 reprezentativních bodů a 21 obhajitelných null. Bez produkčních oprav; všech 14 řádků zůstalo validated. Viz dodatek 85 kanonického taháku. Další krok: pokračovat v další otevřené části A–I podle open-only fronty.
+
+**I-TECH-01 — 2026-11-16:** Vlastní read-only SQL strukturální validátor porovnal všech 27 řádků PSČ 60200–64400 (176 faktů, 7 jazykových větví) s aktuálním schema.json. Bez chyb povinných/zakázaných polí, typů, enumů, poloh, zdrojových objektů, ID/pořadí překladů nebo prázdných textů: PASS vlastního validátoru. Supabase beze změn. Oficiální AJV nebyl spuštěn, proto I zůstává otevřené do doložení AJV. Podrobnosti dodatek 86 taháku.
