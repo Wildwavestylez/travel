@@ -85,3 +85,6 @@
 
 
 **Doplnění 2026-11-16 — C-03:** Přesné duplicity 176 faktů zkontrolovány a zamčeny: 0 duplicitních titulů, 0 duplicitních celých textů; jediný opakovaný název místa „Husův sbor“ odpovídá dvěma různým budovám (61200 a 62000). GEO-01 až GEO-08 se znovu neprovádějí. Viz oddíl 34 taháku.
+
+
+**Aktuální stav 2026-11-16 — checkpoint 35:** Zamčené GEO-01 až GEO-08 a další dříve hotové kontroly se neopakují. C přesné duplicity je HOTOVO/ZAMČENO. NL review 27/27 PSČ a 176/176 faktů je dokončen a zamčen; NL PASS 63800, 63900, 64400, otevřené NL nálezy u 24 PSČ. B-02 čeká na položkový export 0028 pro 11 kódů. E má nové kandidáty Komec (61700), Wilsonův les (61600), lávku a Cacovický ostrov (61400), slévárnu Uxů (60200, REVIEW); Sluneční lázně vyřazeny. G/H zbývá šest jazyků. I: oficiální AJV `BLOCKED / NOT RUN`. Produkční Supabase data nebyla změněna. Kompletní open-only fronta a sekce **PROBLÉMY K VYŘEŠENÍ** v oddílu 35 kanonického taháku.
