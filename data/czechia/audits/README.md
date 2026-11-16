@@ -28,3 +28,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-02:** U 61500/fact_003 byly ve všech sedmi jazykových verzích zjištěny chybějící stručné vysvětlení premonstrátského řádu a chybějící určení Zábrdovic jako městské čtvrti Brna; nález je otevřený, bez změny Supabase. Viz oddíl 16 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — G-H-03:** NL verze 61600 a 61700 obsahují nepřirozené adjektivum `Brno'se` a nevysvětlené lokální názvy (Žabovřesky, Komárov, Burianovo/Mariánské náměstí, Kraví hora). Nález otevřený; ostatních šest jazyků tímto dodatkem nebylo hodnoceno. Viz oddíl 17 kanonického taháku.
