@@ -137,3 +137,6 @@
 
 
 **Doplnění 2026-11-16 — CZ-10000-15900 / oblast B, dodatek 10:** Aktuální oficiální detaily České pošty potvrzují fyzická sídla: 10300 Kolovraty, 10400 Uhříněves, 10700 Dubeč, 10900 Horní Měcholupy, 15400 Slivenec a 15900 Velká Chuchle. Pro tyto záznamy jsou doloženy kandidátní opravy district, ale Supabase nebyla změněna. 10800 zůstává bez doloženého současného sídla pošty (historická veřejná pobočka zrušena); 10200 zůstává REVIEW REQUIRED. B-04 otevřeno kvůli těmto dvěma případům a samostatné opravné fázi; B-06 otevřeno pouze pro 10200. Viz oddíl 10 taháku.
+
+
+**Doplnění 2026-11-16 — CZ-10000-15900 / zahájení oblasti C:** Read-only inventura Supabase: 33 PSČ, 212 faktů, 189 neprázdných location objektů a 23 explicitních null location. První průchod 10000–11900 odhalil pravděpodobnou duplicitu kaple na návsi v Dolních Měcholupech mezi 10900 fact_006 a 11101 fact_002; přesné PSČ kaple zůstává nevyřešené, protože ulice Na návsi obsahuje adresní místa obou PSČ a uložený bod 10900 odkazuje na sousední adresní objekt, nikoli výslovně na kapli. U 11101 jsou 4/5 faktů bez přesné polohy. C-00 inventura je uzamčena; C-01 zůstává otevřeno. Žádná změna Supabase. Viz oddíl 11 taháku.
