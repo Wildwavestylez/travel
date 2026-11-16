@@ -288,3 +288,6 @@
 
 
 **C-GEO-62300-01:** Dokončena read-only geografická kontrola všech 9 faktů PSČ 62300. Všech 9 příběhů odpovídá danému PSČ; 4 přesné body, 2 přibližné, 1 reprezentativní bod a 2 oprávněná `location: null` u vícebodových příběhů. Bez produkčních změn. Další dávka C: 62400. Viz dodatek 84 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — C-GEO-62400-64400:** Hromadná geografická kontrola 14 existujících PSČ a 82 faktů dokončena jako PASS. Všech 82 faktů odpovídá příslušnému území podle uložených poloh/zdrojů a RÚIAN inventáře; 28 přesných, 19 přibližných, 14 reprezentativních bodů a 21 obhajitelných null. Bez produkčních oprav; všech 14 řádků zůstalo validated. Viz dodatek 85 kanonického taháku. Další krok: pokračovat v další otevřené části A–I podle open-only fronty.
