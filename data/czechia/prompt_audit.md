@@ -2,7 +2,7 @@
 
 ## Verze
 
-**AUDITNÍ PROMPT V1.0 — BLOKOVÝ AUDIT ČESKÝCH PSČ**
+**AUDITNÍ PROMPT V1.1 — BLOKOVÝ AUDIT ČESKÝCH PSČ**
 
 Tento prompt se používá společně s:
 - `data/czechia/schema.json`
@@ -12,6 +12,66 @@ Tento prompt se používá společně s:
 - společnými referenčními soubory v `data/czechia/reference/`
 
 Schéma určuje povolenou strukturu a hodnoty. Český Content Standard je závazný pro fakta, geografii, rešerši, redakci, zdroje a překlady. Rework prompt určuje způsob tvorby záznamů. Tento auditní prompt nezávisle ověřuje hotovou skupinu záznamů.
+
+## 0. POVINNÁ BRÁNA ÚPLNOSTI PAMÁTEK A ZAJÍMAVOSTÍ — PŘED JAKÝMKOLI AUDITEM (NEJVYŠŠÍ PRIORITA)
+
+Tato kontrola je **první povinný krok každého auditu**. Má přednost před inventářem A, kontrolami B–I, kontrolou kvality existujících faktů i všemi dalšími částmi auditu. Audit samotný NESMÍ začít, dokud není tato brána provedena a její výsledek zapsán do taháku.
+
+### 0.1 Základní otázka
+Nejdříve nezjišťuj, zda jsou správná fakta, která databáze obsahuje. Nejdříve nezávisle zjisti, **co důležitého v celém auditovaném území existuje a zda to v databázi nechybí**.
+
+Cílem je odhalit vynechané zásadní památky, historické objekty, kostely a sakrální stavby, hrady a zámky, muzea, technické památky, významné veřejné stavby, archeologická naleziště, památníky, hřbitovy, přírodní rezervace, krajinné dominanty a další místa s prokazatelným místním, regionálním nebo celostátním významem. Zvláštní pozornost věnuj územím s vysokou koncentrací kulturního dědictví a velkým turistickým významem (zejména Praha, Brno a další velká historická města), ale pravidlo platí bez výjimky pro každou obec a každý blok.
+
+### 0.2 Nezávislé vytvoření kandidátního inventáře
+Kandidátní inventář vytvářej nezávisle na stávajících faktech. Nesmíš se omezit na vyhledávání podle názvů, které už databáze obsahuje, ani na doplňování prázdných kategorií.
+
+Pro celé auditované území:
+1. Rozděl rozsah na všechny obce, městské části, místní části a další lokality uvedené v aktuálním `sequence.json`. U každé lokality zaznamenej, jaké zdroje a tematické okruhy byly prověřeny.
+2. Proveď rešerši v několika nezávislých a kompetentních katalozích a seznamech. Podle charakteru území použij zejména:
+   - Národní památkový ústav: Památkový katalog, národní kulturní památky, památkové rezervace a zóny, významné archeologické lokality;
+   - oficiální městské/regionální turistické portály a katalogy míst (např. Prague City Tourism, Go To Brno, krajské a obecní turistické portály);
+   - oficiální weby obcí, městských částí, muzeí, galerií, církevních institucí, správců památek a významných kulturních zařízení;
+   - AOPK ČR, Natura 2000 a oficiální seznamy chráněných území pro přírodní lokality;
+   - odborné a institucionální zdroje pro technické, průmyslové, dopravní a vojenské dědictví;
+   - další důvěryhodné místní historické inventáře a odborné publikace, pokud pokrývají konkrétní lokalitu.
+3. Neomezuj se na jeden portál ani na jednu kategorii. Použij tematické seznamy i obecné přehledy a hledej také varianty názvů, historické názvy, místní názvy a objekty, které nejsou označeny jako turistická atrakce.
+4. Zaznamenej kandidáty bez ohledu na to, zda jsou již v databázi. Každý kandidát musí mít název, typ, lokalitu, důvod významnosti, zdroj(y) a předběžnou geografickou vazbu.
+5. Pro významné areály kontroluj i jejich samostatné součásti. Nepředpokládej, že obecný fakt o areálu automaticky pokrývá všechny samostatně významné stavby nebo příběhy uvnitř něj.
+
+### 0.3 Porovnání s databází a kontrola geografické příslušnosti
+Teprve po vytvoření nezávislého kandidátního inventáře jej porovnej se všemi existujícími fakty v celém auditovaném bloku:
+- **POKRYTO:** kandidát je v databázi obsažen jako samostatný fakt nebo je jeho příběh prokazatelně a dostatečně pokryt jiným faktorem; uveď konkrétní PSČ a ID faktu.
+- **CHYBÍ:** významné místo/příběh v databázi není; uveď kandidátní PSČ, ale nepřidávej jej automaticky.
+- **ČÁSTEČNĚ POKRYTO:** existuje obecný fakt, ale chybí samostatně významná součást, konkrétní příběh nebo podstatná část lokality.
+- **DUPLICITA / PŘEKRYV:** kandidát je obsažen vícekrát nebo je příběh rozdělen mezi více faktů.
+- **MIMO ROZSAH:** místo leží mimo auditovanou geografickou jednotku nebo jeho PSČ není v projektovém rozsahu.
+- **REVIEW REQUIRED:** významnost, přesná poloha nebo PSČ nejsou zatím dostatečně doloženy.
+
+U každého chybějícího nebo částečně pokrytého kandidáta ověř skutečnou geografickou polohu a PSČ. Pro adresní místa použij aktuální RÚIAN/ČÚZK; u objektů bez adresního místa (mosty, parky, rozsáhlé areály, přírodní celky, archeologická území) použij důvěryhodné oficiální vymezení a konkrétní reprezentativní bod. Ověř, zda místo skutečně náleží do auditovaného PSČ podle pravidel Content Standardu. Samotná městská část, korespondenční adresa instituce ani obecný webový kontakt nestačí.
+
+**Nikdy nepřesouvej kandidáta do sousedního PSČ jen proto, že je v témže městě nebo blízko hranice.** Pokud je lokalita rozdělená mezi více PSČ, rozliš konkrétní adresní místo nebo obhajitelný fyzický bod. Pokud to nejde, ponech REVIEW REQUIRED.
+
+### 0.4 Významnost a ochrana proti umělému plnění
+- Nejde o povinnost zapsat každou evidovanou kulturní památku ani naplnit kvótu faktů.
+- Prioritně ale zachyť mimořádně významné, ikonické, národně/regionálně důležité nebo pro danou lokalitu zásadní objekty. Vynechání takové památky je závažný nález, i kdyby byl zbytek záznamu kvalitní.
+- Rozliš samostatně významnou památku od drobného objektu, který je vhodnější zahrnout do širšího místního příběhu.
+- Nezaměňuj marketingový žebříček popularity za odborné hodnocení významnosti.
+- Nevytvářej fakta jen proto, aby se doplnil seznam. V této fázi se pouze vytváří a ověřuje kandidátní inventář a reportují mezery.
+
+### 0.5 Povinný výstup a blokace pokračování
+Do kanonického auditního taháku zapiš:
+1. přesné vymezení území a všechny prověřené lokality;
+2. seznam použitých nezávislých zdrojů a katalogů;
+3. počty kandidátů podle stavu POKRYTO / CHYBÍ / ČÁSTEČNĚ POKRYTO / DUPLICITA / MIMO ROZSAH / REVIEW REQUIRED;
+4. všechny významné chybějící nebo částečně pokryté památky s důkazy a předběžným PSČ;
+5. seznam neprozkoumaných lokalit nebo zdrojů a důvod;
+6. rozhodnutí, zda je brána **HOTOVO**, **ČÁSTEČNĚ DOLOŽENO** nebo **NEHOTOVO**.
+
+Brána je **HOTOVO** pouze tehdy, když byly všechny lokality v rozsahu pokryty nezávislou rešerší, kandidáti byli porovnáni s databází a jejich významná geografická přiřazení byla doložena. Pokud část zdrojů nebo lokalit zůstává neprověřena, označ bránu ČÁSTEČNĚ DOLOŽENO/NEHOTOVO a pokračování auditu pozastav na této bráně.
+
+Po jejím uzavření se běžný audit A–I provádí podle dalších oddílů. Nový zásadní kandidát nalezený v pozdější části auditu se zaznamená jako nový dodatek k bráně 0; původní uzavřený záznam se nepřepisuje.
+
+---
 
 ## 1. Účel a auditní jednotka
 
