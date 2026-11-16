@@ -107,3 +107,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-03:** Německé verze 61400 (5 faktů) a 61500 (6 faktů) zkontrolovány. DE/61400: doplnit Brno u Husovic (fact_002–003) a Obřan/Maloměřic (fact_005). DE/61500: doplnit Brno u Židenic (fact_002) a Zábrdovic + stručné vysvětlení premonstrátů (fact_003); sjednotit vlastní název Karáskovo náměstí v fact_005. DE/60300 zůstává zamčeno PASS; nálezy u DE/60200, 61200–61500 otevřené. Viz oddíl 40 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-DE-04:** Německé verze 61600 (5 faktů) a 61700 (5 faktů) zkontrolovány. DE/61600: doplnit Žabovřesky jako městskou část Brna ve fact_001–003 a sjednotit vlastní název Burianovo náměstí. DE/61700: doplnit Komárov jako městskou část Brna ve všech pěti samostatných faktech. DE/60300 zůstává zamčeno PASS; DE/60200 a 61200–61700 mají otevřené konkrétní nálezy. Viz oddíl 41 taháku.
