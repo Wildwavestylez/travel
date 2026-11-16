@@ -14,3 +14,5 @@
 - Nový tahák vytvoř pouze po ověření, že neexistuje stejný ani použitelný překrývající se audit.
 - Každý tahák musí obsahovat checkpoint, zamčená rozhodnutí, otevřené nálezy a přesný další krok.
 - Historii nemaž; změny přidávej jako nové revize.
+
+**Doplnění 2026-11-16:** V kanonickém taháku byly append-only zapsány a po opětovném načtení ověřeny dílčí výsledky **A-01** (inventární reconciliace HOTOVO: 27/27 PSČ, sequence/groups 2 677/2 677 bez rozdílů) a **B-01** (okres/kraj a district proti ČSÚ/RÚIAN HOTOVO; celá oblast B zůstává ČÁSTEČNĚ DOLOŽENO kvůli položkovému ověření ČSÚ 0028 a nezávislému ověření sídel pošt). Další krok: dokončit zbývající B bez opakování A-01 a B-01.
