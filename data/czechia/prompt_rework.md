@@ -57,8 +57,12 @@ For each Czech postcode:
 - check important people, companies, products, transport, military history, archaeology and hidden gems where relevant;
 - check meaningful surroundings without duplicating facts assigned to another postcode.
 
-## Geographic truth
-A city-wide or regional association is insufficient. Every important fact must have a concrete connection to the specific postcode area. Remove facts that only belong to another part of the municipality.
+## Geographic truth — postcode is an organizational aid, not a content boundary
+Postcodes are used to organize and index TRAVEL facts. They do not restrict the real-world extent of a landmark or story. Every fact receives exactly one primary postcode assignment, but a bridge, park, large complex, trail, linear structure or other feature may extend across several postcode areas.
+
+For a feature spanning more than one postcode, choose the single most plausible assignment using its principal/representative location, main section, primary entrance, verified address or strongest local association. Do not force the whole feature to fit inside one postcode boundary. Continue to verify concrete addresses and address points through RÚIAN/ČÚZK as required by the Czech Content Standard; RÚIAN verifies address-level postcode and territorial relationships, while the editorial assignment of a large or linear feature is made using the best-supported representative association.
+
+Once an assignment has been reasonably supported and closed, treat it as stable and locked. Do not move or re-audit it merely because the feature also touches another postcode. Reopen it only if concrete new evidence demonstrates that the original assignment was wrong. Do not duplicate the same attraction or continuous story across postcode records.
 
 ## Editorial rework
 Keep verified strong facts. Remove generic, duplicated, weak or unsupported facts. Add missing defining stories. Do not preserve the old fact count as a quota.
@@ -92,11 +96,11 @@ Tento dodatek používej společně s úplným aktuálním českým Content Stan
 
 U každého PSČ při běžném obsahovém reworku:
 
-1. Zachovej stávající geografický postup. Ověř území PSČ a primární polohu kandidátů podle českého Content Standardu. Širší oblast slouží k objevování a kontextu, nikoli k přiřazování atrakce z jiného PSČ.
+1. Zachovej ověřování PSČ a adresních míst podle českého Content Standardu včetně RÚIAN. PSČ jsou však organizační pomůcka, nikoli nepřekročitelná hranice turistického příběhu. U mostu, parku, rozsáhlého areálu, stezky nebo jiné lokality přesahující více PSČ vyber jedno nejpravděpodobnější PSČ podle reprezentativního místa, hlavní části, vstupu, ověřené adresy či nejsilnější místní vazby.
 2. **Fáze 1 — široké objevování:** hledej podle PSČ, obcí, částí obcí a místních či historických názvů v oficiálních turistických portálech, památkových registrech, muzeích, obecních a regionálních zdrojích, institucích ochrany přírody, odborných institucích a vlastivědných zdrojích. Neomezuj se na starý záznam ani první obecné výsledky.
 3. **Fáze 2 — tematický audit:** použij kapitolu 28.2 českého Content Standardu jako kontrolní seznam. Cíleně prověř všechny relevantní skupiny, zejména muzea a specializované sbírky, architekturu, sakrální dědictví, pomníky, archeologii, chráněnou přírodu, geologii, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické a dopravní dědictví, paměťová místa, turistické atrakce, UNESCO, místní příběhy a pověsti, historické události, osobnosti, film/literaturu/hudbu, tradice, řemesla a gastronomické dědictví.
 4. Dodrž vyloučení v kapitole 28.3: běžné hřbitovy, hroby a současné firmy nejsou běžnými turistickými fakty; platí pouze úzce vymezené výjimky pro doloženou mimořádnou památkovou či návštěvnickou hodnotu.
-5. Ověř identitu, význam, fakta, přesnou primární polohu, příslušnost k PSČ, zdrojovou oporu a duplicity každého vybraného kandidáta. Příslušnost k PSČ neodvozuj pouze z města, okresu ani blízkosti.
+5. Ověř identitu, význam, fakta, polohu, zdrojovou oporu a duplicity každého vybraného kandidáta. U konkrétních adres ověř PSČ přes RÚIAN. U rozsáhlých nebo liniových objektů dolož nejpravděpodobnější reprezentativní přiřazení; nevyžaduj, aby celý objekt ležel v hranicích jednoho PSČ.
 6. V pracovních poznámkách eviduj u každé skupiny stav: nalezeno a ověřeno; prověřeno bez relevantního výsledku; nebo nevyřešeno. Tyto stavy nevkládej do JSON. Relevantní nevyřešená skupina nebo podstatná nejasnost polohy brání dokončení.
 7. Teprve potom vybírej a piš fakta podle stávajících pravidel významu, priority, absence kvót, zdrojů, mapových kategorií, polohy, překladů a validace. Turistická témata nemají automatickou prioritu.
 
