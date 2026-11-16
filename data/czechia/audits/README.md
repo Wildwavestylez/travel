@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–30 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–31 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -346,3 +346,6 @@
 
 
 **G-H-19 — 2026-11-17:** Cílená jazyková kontrola PSČ 61200 uzavřena po kontrole všech 8 faktů ve všech 7 jazykových větvích a zdrojovém sjednocení fact_001–002. Fact_003 opraveny ES/FR významové posuny; fact_004, 005, 007, 008 bez dalších nutných zásahů. Read-back a strukturální SQL potvrzují ID 10355, 8 faktů, 7 jazyků, validated, data_version=1 a shodná ID/pořadí. Viz dodatek 102. G/H jako celek zůstává otevřené; 61300 pokračuje.
+
+
+**Pokračování auditu 2026-11-17 — oddíl 31:** Dokončena další ruční kontrola šesti faktů (10000/fact_007–008; 10100/fact_001–004) ve všech sedmi jazycích. U 10000/fact_007 a 10100/fact_001 byly zdroje zpřesněny oficiálním RÚIAN. U 10000/fact_008 byla geometrie trojbokého jehlanu po ověření farností a odborným článkem potvrzena; předchozí podezření na chybu bylo odvoláno a text zůstal beze změny. U 10100/fact_002 doplněn kontext Československé církve husitské a přesný název Vršovické divadlo MANA ve všech jazycích. U 10100/fact_003 doplněn spoluzakladatel Hynek Puc a přesnější názvy sortimentu v sedmi jazycích. U 10100/fact_004 opraveno rozlišení Giuseppe a Jindřicha/Enrica Rangheriho ve všech jazycích; zdroje potvrzují roky 1842, 1882, 1899–1900 a 1974. Read-back potvrzuje 7 jazyků a status validated. Podrobnosti v oddílu 31 taháku.
