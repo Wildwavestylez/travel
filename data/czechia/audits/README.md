@@ -355,3 +355,6 @@
 
 
 **Checkpoint finálního auditu 2026-11-17 — CZ-60200-64400 (oddíl 103):** Aktuální Supabase snapshot 27 PSČ / 176 faktů / 27 validated / 0 published; 189/189 jazykových seznamů má shodná ID a pořadí, mechanické kontroly struktury, map_category, poloh a zdrojových vazeb bez nálezu. Opraveno 11 canonical českých textů v 61400 a 61500 podle již existující `translations.cs`; statusy a data_version zachovány. Aktuální read-back potvrdil vyřešení starších DE lokalizačních nálezů v 60200 a 61200–61500. Zůstává 13 obsahových rozdílů canonical vs. `translations.cs` v 9 PSČ k ručnímu porovnání. Brána 0 je uzavřena dle uživatele; NL review a GEO-01 až GEO-08 se neopakují. Celkový stav **REVIEW REQUIRED / IN PROGRESS**: otevřené C, D, F, G/H a oficiální AJV. Podrobnosti a další krok v kanonickém taháku 60200–64400, oddíl 103.
+
+
+**Pokračování 2026-11-17 — CZ-10000-15900, oddíl 33:** PSČ 10300: dokončena ruční jazyková kontrola všech 6 faktů ve všech 7 jazycích; v fact_006 doplněn kulturní kontext tereziánského katastru v CS+6 a v fact_005 nahrazen slabý polohový zdroj přímým NPÚ/MK, přesnost bodu upravena na approximate. Read-back: 6 faktů, 7 jazyků, status validated, data_version=5. Kumulativně 17/225 faktů sémanticky zkontrolováno. D/G/H zůstávají částečné; další PSČ 10400. Podrobnosti v kanonickém taháku.
