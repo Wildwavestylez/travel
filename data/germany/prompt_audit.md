@@ -113,7 +113,9 @@ For every fact:
 - distinguish the fact's actual location from regional context, routes, events or area-wide traditions;
 - compare repeated subjects to decide whether they are legitimate distinct stories or accidental duplication.
 
-A fact should normally belong to one postcode only. Retention in more than one record requires a clearly distinct and independently significant story with a defensible local connection in each record. Do not use proximity or shared municipality as proof of ownership.
+A fact normally belongs to exactly one postcode record. For a bridge, park, large complex, trail, linear structure or other feature spanning multiple postcode areas, one most plausible primary postcode is sufficient; the entire feature does not need to lie inside that postcode. Use its principal/representative location, main section, primary entrance, verified address or strongest local association.
+
+Respect previously documented and closed assignments as stable, locked decisions. Do not reopen or move them merely because the feature crosses a postcode boundary or could plausibly be associated with a neighboring postcode. Reopen an assignment only when concrete new evidence demonstrates that the original choice was factually wrong. Preserve the prior decision and record the new evidence before proposing any authorized change. Do not duplicate the same attraction or continuous story across postcode records; genuinely distinct stories may remain separate.
 
 ### D. Factual quality, significance, writing and sources
 
