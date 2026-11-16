@@ -46,3 +46,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-04:** NL verze 61800 a 61900: zastaralé/stigmatizující `Geesteszieken`, nepřirozené `Brno'se`, nevysvětlený Sokol v 61800/fact_003 a chybějící kontext městských čtvrtí Horní Heršpice/Přízřenice. Nález otevřený; ostatních šest jazyků nebylo tímto dodatkem hodnoceno. Viz oddíl 22 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-05:** NL verze 62000/fact_001 a 62100/fact_002–004,008 neidentifikují Tuřany, Řečkovice a Medlánky jako městské části Brna; u 62100/fact_003 zůstává místní název `V šraňcích` bez vysvětlení. Nález otevřený; pozitivní kulturní a historická vysvětlení v dalších faktech zachována. Viz oddíl 23 taháku.
