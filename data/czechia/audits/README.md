@@ -215,3 +215,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-NL-62800-63700:** V NL překladech 62800, 63400, 63500, 63600 a 63700 bylo opraveno 18 konkrétních lokalizačních a terminologických nálezů (Líšeň, Nový Lískovec, Bystrc, Židenice, Jundrov, vysvětlení archeologických kultur a organizace Orel). Texty byly po změně znovu načteny ze Supabase; všechny dotčené řádky zůstaly `validated`. Viz dodatek 65 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — AUDIT-GATE0-RUIAN-LOCALITIES:** Do kanonického taháku CZ-60200-64400 byl přidán dodatek 66 s kompletním seznamem adresních částí obcí a počty adresních míst pro všech 27 PSČ podle sdíleného RÚIAN CSV. Výslovně evidován zvláštní rozsah 62700 zahrnující Brno i Šlapanice. Jde o geografický podklad, nikoli dokončenou turistickou inventuru; brána 0 zůstává ČÁSTEČNĚ DOLOŽENO/NEHOTOVO. Viz dodatek 66 taháku.
