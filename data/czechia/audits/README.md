@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy provedeny a ověřeny; viz oddíl 25 | REVIEW REQUIRED — A PASS, I vlastní validátor PASS; B/C/F/H otevřené, D/G částečné; E uzavřeno rozhodnutím uživatele | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Dílčí opravy ověřeny; pokračování viz oddíl 26 | REVIEW REQUIRED — A/C/E/F/I PASS (C/F s odůvodněnými null); B otevřeno ve 3 RÚIAN/sequence rozporech; D/G/H částečné | 2026-11-16 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -319,3 +319,6 @@
 
 
 **Finální audit 2026-11-16 — CZ-10000-15900:** Aktuální snapshot 33 PSČ / 225 faktů / 33 validated. A-01 PASS (database/sequence/groups 33/33). Provedeny a ověřeny opravy: 25 county, 48 chybějících map_category (+ 5 zpřesnění), tři location.type, pět nesprávných německých zdrojů, jazykové a geografické opravy. Vlastní JSON Schema validátor: 33/33 bez chyb; oficiální AJV nebyl spuštěn. Brána 0 uzavřena podle výslovného pokynu uživatele; žádné další kandidáty ani nové fakty nepřidávat. Konečný stav **REVIEW REQUIRED**, nikoli PASS: B/C/F/H mají otevřené položky, zejména 10200, sequence/RÚIAN konflikty, 15 null poloh a 26 null access_point. Podrobnosti v oddílu 25 kanonického taháku. Sequence, schema a statusy řádků nebyly změněny.
+
+
+**Pokračování auditu 2026-11-16 — CZ-10000-15900 (oddíl 26):** Opraveno 10200 (district Hostivař, správná adresa pošty Praha 102, access point), doplněny 3 faktové polohy (11101/fact_004, 15531/fact_005, 15800/fact_001) a přístupové body 13 dalších pošt. Výsledný read-back: 33 PSČ / 225 faktů / 33 validated; vlastní validátor schema 33/33 bez chyb; 213 objektových faktových poloh + 12 zdůvodněných null; access_point 32/33 verified, jediný null 10800 kvůli zrušené veřejné pobočce a nedoloženému internímu provozu. C a F uzavřeny. Otevřené zůstávají B (10000/10900/15800 RÚIAN vs sequence), D (neprovedena hromadná živá kontrola URL) a G/H (neuzavřená úplná sémantická redakční kontrola 7 jazyků). Brána 0 zůstává uzavřena; sequence, schema a statusy se neměnily. Podrobnosti v oddílu 26 kanonického taháku.
