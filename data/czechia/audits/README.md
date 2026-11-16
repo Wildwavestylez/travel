@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
-| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy, zdroje a jazykové kontexty ověřeny; viz oddíly 25–28 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (vícesource URL + úplná sémantická redakce) | 2026-11-16 |
+| CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–29 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -334,3 +334,6 @@
 
 
 **G-H-17 — 2026-11-17:** V PSČ 61200 dokončena cílená jazyková kontrola fact_003–008. Opraveno 8 jazykových verzí: v ES/FR u fact_003 odstraněno nepodložené tvrzení o pronájmu hostince (nahrazeno převzetím) a v DE/EN/ES/FR/IT/NL u fact_006 sjednoceno přesné datum otevření nové nádražní budovy na 1. 10. 2025. Fact_004, 005, 007 a 008 bez jednoznačné jazykové chyby. Řádek 61200 (ID 10355) zůstal validated, data_version=1, 8 faktů, 7 jazyků; shoda ID a pořadí potvrzena. Otevřené zůstávají obsahové rozdíly fact_001 a fact_002 z G-H-16. Viz dodatek 100 kanonického taháku. G/H zůstává otevřené.
+
+
+**Pokračování auditu 2026-11-17 — oddíl 29:** U 10000/fact_005 (Strašnické divadlo) ručně porovnáno všech sedm jazyků bez významové vady. Zdroje ověřeny: databáze Divadelní architektury, Sochy a města, oficiální Kronika MČ Praha 10 2011 a Česká divadelní encyklopedie IDU. Nefunkční odkaz na Kroniku 2006 odstraněn a nahrazen funkčním oficiálním zdrojem; doplněn nezávislý zdroj IDU. Supabase read-back potvrdil 6 zdrojů, 7 jazyků a status validated. D/G/H zůstávají PARTIAL; hotová kontrola fact_005 se neopakuje. Podrobnosti v oddílu 29 kanonického taháku.
