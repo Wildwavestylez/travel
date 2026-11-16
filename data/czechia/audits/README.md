@@ -79,3 +79,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-14:** NL/61300: Villa Tugendhat nemá v úvodní větě jasné umístění v Brně; `Brnoose architect` je nepřirozené; Černá Pole u dětské nemocnice nejsou identifikována jako městská čtvrť Brna. Nález otevřený. Viz oddíl 32 taháku.
+
+
+**Checkpoint 2026-11-16 — G-H-NL-01:** Nizozemská jazyková/kulturní kontrola dokončena pro všech 27 PSČ a 176 faktů; fáze review je `HOTOVO / ZAMČENO`, aby se neopakovala. NL PASS: 63800, 63900, 64400 (11 faktů); NL nálezy k nápravě: 24 PSČ (60200, 60300, 61200, 61300, 61400, 61500, 61600, 61700, 61800, 61900, 62000, 62100, 62300, 62400, 62500, 62700, 62800, 63400, 63500, 63600, 63700, 64100, 64200, 64300). Ostatních šest jazyků zůstává otevřených; G/H jako celek není PASS. Viz oddíl 33 taháku.
