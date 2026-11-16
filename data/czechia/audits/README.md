@@ -140,3 +140,6 @@
 
 
 **Doplnění 2026-11-16 — CZ-10000-15900 / zahájení oblasti C:** Read-only inventura Supabase: 33 PSČ, 212 faktů, 189 neprázdných location objektů a 23 explicitních null location. První průchod 10000–11900 odhalil pravděpodobnou duplicitu kaple na návsi v Dolních Měcholupech mezi 10900 fact_006 a 11101 fact_002; přesné PSČ kaple zůstává nevyřešené, protože ulice Na návsi obsahuje adresní místa obou PSČ a uložený bod 10900 odkazuje na sousední adresní objekt, nikoli výslovně na kapli. U 11101 jsou 4/5 faktů bez přesné polohy. C-00 inventura je uzamčena; C-01 zůstává otevřeno. Žádná změna Supabase. Viz oddíl 11 taháku.
+
+
+**Doplnění 2026-11-16 — oblast C / první geografický průchod:** Prohlédnuto všech 212 faktů a jejich uložené polohy v rozsahu 10000–15900. U 12000–15900 nebylo při porovnání se sequence.json potvrzeno jednoznačné chybné přiřazení; Pacoldova vápenka patří do Velké Chuchle (15900) a Lahovice mají doložené adresy 15900. Celkem 23 faktů má explicitní null location; jejich oprávněnost se musí posoudit jednotlivě, nikoli automaticky doplňovat. Potvrzený obsahový duplikát: 10900 fact_006 × 11101 fact_002 (kaplička v Dolních Měcholupech). Možné širší překryvy: obecný přehled Pražského hradu (11900 fact_007) a Vyšehradu (12800 fact_001) vůči dílčím faktům. C zůstává otevřeno; žádná produkční data změněna. Viz oddíly 11–12 taháku.
