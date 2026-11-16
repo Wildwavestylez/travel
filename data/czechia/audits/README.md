@@ -58,3 +58,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-07:** NL verze 62500 a 62700: chybí kontext Kejbalů/Bohunic, vysvětlení pomologie, Eneolitu a Flugmotorenwerke Ostmark, lokalizace Stránské skály/Slatiny a vysvětlení sochy `Slévač`. Pozitivní výklad Stolpersteine zachovat. Nález otevřený. Viz oddíl 25 taháku.
+
+
+**Doplnění 2026-11-16 — G-H-08:** NL verze 62800 a 63400: nedostatečné vysvětlení Líšně/Nového Lískovce jako městských částí Brna a odborných pojmů Bandkeramická a Jordanówská kultura. Nález otevřený; pozitivní historický a technický kontext zachován. Viz oddíl 26 taháku.
