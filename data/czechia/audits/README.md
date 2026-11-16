@@ -173,3 +173,6 @@
 
 
 **Doplnění 2026-11-16 — FIX-GH-60200-01:** V PSČ 60200 byly cíleně opraveny a znovu načtením ze Supabase ověřeny tři jazykové nálezy: DE fact_005 (Černá Pole jako městská část Brna), DE fact_015 (vysvětlení Panduren) a NL fact_005 (přirozená nizozemská formulace „bouwmeester uit Brno“ a lokalizace Černých Polí). Záznam zůstal `validated`; žádná jiná data ani statusy nebyly změněny. Viz dodatek 52 kanonického taháku.
+
+
+**Doplnění 2026-11-16 — FIX-GH-DE-61200-61300:** V DE překladech 61200 a 61300 bylo opraveno a následně ověřeno sedm konkrétních lokalizačních nálezů (61200/fact_001,003,004,005; 61300/fact_001,003,005). Oba záznamy zůstaly `validated`. Viz dodatek 53 kanonického taháku.
