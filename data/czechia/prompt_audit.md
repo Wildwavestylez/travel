@@ -17,6 +17,27 @@ Schéma určuje povolenou strukturu a hodnoty. Český Content Standard je záva
 
 Tato kontrola je **první povinný krok každého auditu**. Má přednost před inventářem A, kontrolami B–I, kontrolou kvality existujících faktů i všemi dalšími částmi auditu. Audit samotný NESMÍ začít, dokud není tato brána provedena a její výsledek zapsán do taháku.
 
+### 0.0 Co přesně znamená „zásadní“ — hlavní účel této brány (NADŘAZENÉ PRAVIDLO)
+
+**Zásadní věci znamenají významné památky, dominanty a místa, jejichž absence by byla v kvalitním cestovatelském průvodci daným městem nebo oblastí zjevnou a podstatnou mezerou.** Cílem není vytvořit úplný registr všech evidovaných nebo chráněných objektů. Cílem je ověřit, že Travel nevynechává nejdůležitější místa, která charakterizují dané město, obec nebo region a která by návštěvník oprávněně očekával.
+
+Typické příklady úrovně významnosti:
+- Praha: Karlův most, Pražský hrad, Staroměstské náměstí a další skutečně zásadní dominanty.
+- Brno: hrad Špilberk, katedrála sv. Petra a Pavla a další hlavní symboly města.
+- Plzeň: katedrála sv. Bartoloměje a další hlavní historické či kulturní dominanty.
+- V jiných městech a regionech obdobně: nejvýznamnější hrady a zámky, kláštery, katedrály, historická centra, světově/národně/regionálně významné památky, technické památky, muzea, přírodní dominanty a místa s mimořádným příběhem.
+
+Při rozhodování používej tuto hierarchii:
+1. **Ikonické a celostátně známé dominanty** — jejich vynechání je vždy nutné prověřit a případně označit jako závažnou mezeru.
+2. **Významné regionální a městské dominanty** — místa, která zásadně charakterizují dané město, obec nebo region.
+3. **Další samostatně zajímavá místa** — zařaď je jen tehdy, pokud mají vlastní silný historický, kulturní, architektonický, technický, přírodní nebo návštěvnický význam.
+
+**Co samo o sobě nestačí:** zápis v Památkovém katalogu, status kulturní památky, ochrana celé kolonie/zóny, architektonická zdobnost, stáří objektu ani pouhá existence kapličky, kříže, sochy, pomníčku, domu či jiné drobnosti. Takový objekt se nestává automaticky kandidátem na samostatný fakt. Samostatný fakt vyžaduje vlastní podstatný význam nebo příběh; jinak jej vynech, případně zahrň do širšího příběhu lokality, pokud to dává smysl.
+
+**Stop-pravidlo proti nekonečné rešerši:** jakmile jsou ověřeny hlavní ikonické a místní dominanty, nejvýznamnější historické/kulturní/turistické body a nejsou patrné další zjevné zásadní mezery, rešerši této brány ukonči. Nepokračuj v hledání každého jednotlivého chráněného objektu, drobné stavby nebo položky katalogu jen proto, že existuje. Nehledej „co ještě lze přidat“, ale ověřuj „co zásadního by nám mohlo chybět“. Po splnění tohoto cíle je brána z hlediska významného obsahu HOTOVO; drobné objekty nejsou důvodem k jejímu blokování.
+
+Toto pravidlo má přednost před jakoukoli formulací o širokém či nezávislém inventáři v oddílech 0.1–0.5. Tyto oddíly se vždy vykládají v mezích výše uvedené kurátorské úrovně významnosti, nikoli jako požadavek na úplný soupis památek.
+
 ### 0.1 Základní otázka
 Nejdříve nezjišťuj, zda jsou správná fakta, která databáze obsahuje. Nejdříve nezávisle zjisti, **co důležitého v celém auditovaném území existuje a zda to v databázi nechybí**.
 
@@ -67,7 +88,7 @@ Do kanonického auditního taháku zapiš:
 5. seznam neprozkoumaných lokalit nebo zdrojů a důvod;
 6. rozhodnutí, zda je brána **HOTOVO**, **ČÁSTEČNĚ DOLOŽENO** nebo **NEHOTOVO**.
 
-Brána je **HOTOVO** pouze tehdy, když byly všechny lokality v rozsahu pokryty nezávislou rešerší, kandidáti byli porovnáni s databází a jejich významná geografická přiřazení byla doložena. Pokud část zdrojů nebo lokalit zůstává neprověřena, označ bránu ČÁSTEČNĚ DOLOŽENO/NEHOTOVO a pokračování auditu pozastav na této bráně.
+Brána je **HOTOVO**, když byly prověřeny hlavní dominanty a očekávané zásadní památky v auditovaném území, významní kandidáti byli porovnáni s databází a případné významné geografické přiřazení je doloženo. Není nutné vyčerpat všechny katalogy ani prověřit každý drobný chráněný objekt. Bránu neblokuj kvůli neprozkoumaným drobnostem nebo zdrojům, které by sloužily pouze k jejich vyhledávání. Pokud však nebyla prověřena některá významná lokalita nebo existuje konkrétní podezření na chybějící zásadní dominantu, označ bránu ČÁSTEČNĚ DOLOŽENO/NEHOTOVO a uveď přesně, co zásadního zbývá ověřit.
 
 Po jejím uzavření se běžný audit A–I provádí podle dalších oddílů. Nový zásadní kandidát nalezený v pozdější části auditu se zaznamená jako nový dodatek k bráně 0; původní uzavřený záznam se nepřepisuje.
 
