@@ -128,3 +128,6 @@
 
 
 **Doplnění 2026-11-16 — G-H-DE-10:** Německé verze 63500, 63600 a 63700 zkontrolovány. DE/63500: doplnit Brno-Kníničky a Brno-Bystrc, vysvětlit Mniší horu jako kopec; DE/63600: doplnit Brno-Židenice u Bílé hory; DE/63700: doplnit Brno-Jundrov/Holedná a vysvětlit Orel jako českou katolickou tělovýchovnou organizaci. Viz oddíl 47 taháku.
+
+
+**Oprava 2026-11-16 — G-H-DE-10:** Rozsah je 10 faktů, nikoli 9: 63500 = 3, 63600 = 3, 63700 = 4. Viz opravný oddíl 48 taháku; věcné nálezy zůstávají beze změny.
