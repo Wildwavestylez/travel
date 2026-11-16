@@ -404,3 +404,21 @@ Každý tahák musí obsahovat:
 Před vytvořením nového taháku porovnej jeho rozsah s registrem. Pokud nový požadavek spadá do již existujícího širšího auditu, pokračuj v širším taháku a eviduj dílčí rozsah jako podsekci. Pokud nový požadavek rozšiřuje stávající rozsah, nejprve aktualizuj definici a inventář stávajícího taháku, případně vytvoř výslovně navázaný nový audit jen tehdy, když jde o samostatnou auditní jednotku. Nikdy nevytvářej druhý tahák pro stejnou oblast pouze kvůli novému oknu.
 
 **Provozní příkaz:** Před každou prací proveď `FIND → READ → RESUME`; `CREATE` je povolen pouze po prokazatelném nenalezení existujícího kanonického nebo použitelného překrývajícího se taháku.
+
+## 10.5 Zamčené pravidlo — PSČ, území a sídlo pošty (POVINNÉ)
+
+**Audituj poštovní směrovací systém a geografii, nikoli obchodní model přepážek.**
+
+- PSČ je pro účely auditu doloženo, pokud je prokazatelně používáno, má dohledatelné územní/adresní přiřazení a lze je ověřit v příslušných datech RÚIAN. Kontroluj existenci a územní vazbu PSČ, nikoli to, zda na daném místě právě funguje samostatná kamenná přepážka.
+- **Zrušená, přestěhovaná nebo organizačně změněná pobočka není sama o sobě problémem PSČ ani důvodem k blokaci auditu.** Přesun obsluhy do obchodu, Balíkovny či jiného partnerského místa nemění automaticky PSČ ani územní evidenci v RÚIAN. Nevyhledávej ani neřeš historické pobočky, pokud neexistuje konkrétní důkaz skutečného nesouladu PSČ nebo území.
+- U obce/vesnice platí pro JSON pravidlo: **sídlo obsluhující pošty = obec uvedená v JSON v poli `city`**. Je-li sídlem pošty Čkyně, zapíše se `city: "Čkyně"`; v textu či názvu orientačního bodu lze použít „Pošta Čkyně“. Pro vyhledávání a cestovní orientaci v Travel používej název obce „Čkyně“ (nikoli název zrušené provozovny nebo partnerského obchodu).
+- Nezaměňuj tři různé věci: (1) geografické/adresní území PSČ podle RÚIAN, (2) obec sídla obsluhující pošty použitou v `city`, (3) aktuální obchodní místo, kde lze podat/vyzvednout zásilku. Pouze první dvě jsou relevantní pro toto auditní pravidlo; třetí se nevyžaduje.
+- U PSČ pokrývajícího více obcí neodvozuj `city` z úplného seznamu obcí v poštovním obvodu. `city` označuje obec sídla obsluhující pošty; územní rozsah se ověřuje samostatně podle RÚIAN.
+- Uzavři kontrolu bez dalšího pátrání po pobočkách, jakmile je doloženo, že PSČ se používá, má odpovídající územní/adresní vazbu v RÚIAN a `city` odpovídá obci sídla obsluhující pošty.
+- Pokud není obec sídla pošty doložena, označ pouze tento konkrétní údaj jako nedoložený. Nevyvozuj z toho automaticky chybu PSČ a nezačínej pátrat po tom, zda je přepážka otevřená.
+- Toto pravidlo nemění požadavek na důkazy a zdroje pro skutečné geografické rozpory, chybná PSČ, chybějící územní vazby nebo nesoulad `city`. Nový konkrétní rozpor se zaznamená jako nový nález/dodatek; hotové části auditu se nepřepisují.
+
+**Zakázané auditní odbočky:** zjišťování, zda je historická pobočka stále otevřená; hledání provozovny, která ji nahradila; posuzování, zda je partnerský obchod/Balíkovna „plnohodnotná pošta“; blokování auditu pouze kvůli změně provozního modelu.
+
+**Kritérium uzavření:** PSČ používané + územně dohledatelné v RÚIAN + `city` odpovídá obci sídla obsluhující pošty = kontrola této části HOTOVO.
+
