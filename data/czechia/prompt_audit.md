@@ -111,7 +111,7 @@ Na konci předlož stručný report: rozsah a počty PSČ, výsledek, zásadní 
 
 ## 6. Uzavření úspěšného auditu
 
-Po skutečném PASS proveď projektový uzavírací postup: ověř celý rozsah, nastav V5 + `published` podle pravidel projektu, vytvoř úplnou zálohu ze Supabase do Dropboxu a ověř její čitelnost i shodu. Teprve poté zamkni přesně auditovaný rozsah read-only a ověř, že zámek nezasahuje mimo něj. Pokud publikace, záloha nebo její ověření selže, rozsah nezamykej a audit neoznačuj jako definitivně uzavřený. Nikdy netvrď, že záloha nebo zámek existuje, pokud nebyly skutečně provedeny a ověřeny.
+Po dokončení auditu pouze předej výsledky a stav rozsahu uživateli. **Publikaci (V5 + published), zálohování Supabase do Dropboxu a read-only zamykání Supabase provádí výhradně uživatel.** Tyto operace nespouštěj, neprováděj a nevyžaduj k nim přístupové údaje. Neoznačuj rozsah za publikovaný, zazálohovaný ani zamčený, pokud to uživatel sám nepotvrdí.
 
 ---
 
