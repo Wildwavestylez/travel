@@ -553,3 +553,6 @@
 
 
 **Sémantický průchod 2026-11-17 — CZ-11000/fact_017–fact_022:** Dokončena kontrola šesti faktů ve všech sedmi jazycích (42 jazykových verzí). Opraveny tři věcné chyby: kostel sv. Jindřicha vznikl v souvislosti se založením Nového Města 1348 a Jindřišská věž je samostatná zvonice; Pinkasova synagoga připomíná přibližně 80 000 obětí; Španělská synagoga vznikla 1868 a její maurská výzdoba byla vytvořena 1882–1883, přičemž původ názvu je popsán bez kategorického závěru. Všechny opravy synchronizovány v sedmi jazycích. PSČ 11000 nyní 22/32 faktů plně sémanticky ověřeno; kumulativně **139/225** v rozsahu 10000–15900. Další krok: 11000/fact_023. Nuselský most zůstává uzamčen.
+
+
+**Sémantický průchod 2026-11-17 — CZ-11000/fact_023–fact_028:** Dokončena kontrola šesti faktů ve všech sedmi jazycích (42 jazykových verzí). Opravena biografická chyba u Paláce Kinských: Franz Kafka se zde nenarodil; navštěvoval zde německé gymnázium v letech 1893–1901 a jeho otec měl v přízemí obchod s galanterií od roku 1912. U Clam-Gallasova paláce byla chronologie formulována bezpečněji jako zahájení stavby 1713 a pokračování dědicem po roce 1719. Vše synchronizováno v sedmi jazycích. PSČ 11000 nyní 28/32 faktů plně sémanticky ověřeno; kumulativně **145/225** v rozsahu 10000–15900. Další krok: 11000/fact_029–fact_032. Nuselský most zůstává uzamčen.
