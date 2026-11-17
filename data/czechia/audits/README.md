@@ -518,3 +518,6 @@
 
 
 **Doplnění 2026-11-17 — F-62100 / V šraňcích:** U 62100/fact_003 byl na základě Encyklopedie Brna, městského zpravodaje Řečkovic a adresního bodu Jandáskova 440/3 doplněn reprezentativní bod historické železničářské čtvrti. Read-back UPDATE potvrzen. Viz oddíl 125 taháku.
+
+
+**Doplnění 2026-11-17 — F-62100 / V Černých:** Archeologická lokalita byla prověřena proti Encyklopedii Brna a původní zprávě Archeologického ústavu AV ČR. Poloha mezi ulicemi Přezjedova a Černohorská je doložena, ale přesný bod/parcelní rozsah nikoli; `location: null` zůstává správně. Viz oddíl 126 taháku.
