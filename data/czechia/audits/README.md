@@ -595,3 +595,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-10400:** Uzavřeno zbývajících devět faktů ve všech sedmi jazycích. Opravena zásadní chronologie cukrovaru: výroba skončila po kampani 1968 (ukončení v roce 1969), demolice proběhla v roce 2000. U židovského hřbitova opraveno zaměnění data nejstaršího náhrobku (1719) za přesný rok založení; nově uvedeno založení nejpozději v první čtvrtině 18. století. Opravy synchronizovány v sedmi jazycích. PSČ 10400 dokončeno **11/11**; kumulativně **214/225** v rozsahu 10000–15900. Další krok: PSČ 10600. Nuselský most zůstává uzamčen.
+
+
+**Plná sémantická kontrola 2026-11-17 — CZ-10600:** Dokončeno všech pět faktů ve všech sedmi jazycích. U kostela v Záběhlicích doplněna zásadní výhrada: listina datovaná 1088 je dochována pouze v pozdějších opisech a jde o falzum z 12. století, nikoli originál z roku 1088. U zámku doplněna novobarokní přestavba po požáru 1885. Vše synchronizováno v sedmi jazycích. PSČ 10600 dokončeno **5/5**; kumulativně **219/225** v rozsahu 10000–15900. Další krok: PSČ 10800. Nuselský most zůstává uzamčen.
