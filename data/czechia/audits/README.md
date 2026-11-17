@@ -512,3 +512,6 @@
 
 
 **Oprava 2026-11-17 — F-62100:** následný úplný SQL read-back upřesnil výchozí počet explicitních null: před opravou jich bylo 18, po opravě 17 (nikoli 19 → 18). Aktuálně 159/176 vyplněných poloh, 17 explicitních null a 0 chybějících location klíčů. Viz oddíl 123 taháku.
+
+
+**Doplnění 2026-11-17 — F-62000:** Poloha 62000/fact_004 (Holásecké mohyly) byla prověřena proti Encyklopedii Brna a odborným archeologickým zdrojům. Ty potvrzují polohu v polích východně od Holásek, nikoli však jednoznačný bod WGS84; `location: null` proto zůstává správně a nebyla provedena spekulativní oprava. Viz oddíl 124 taháku.
