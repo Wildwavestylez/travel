@@ -586,3 +586,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-14200:** Uzavřeny zbývající dva fakty: kaplička sv. Petra a Pavla ve Lhotce a biotopové koupaliště Lhotka. Oba ověřeny ve všech sedmi jazycích; potvrzena nejistá datace kapličky, památková ochrana a přesné rozměry koupacího jezera. PSČ 14200 dokončeno **5/5 faktů**; kumulativně **205/225** v rozsahu 10000–15900. Další krok: PSČ 14300. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-14300:** Uzavřeny zbývající tři fakta (kostel Nanebevzetí Panny Marie, cukrovar a boží muka U Pily) ve všech sedmi jazycích. U kostela zpřesněn titulek tak, aby netvrdil nedoložené dochované středověké jádro; u božích muk zachována opatrnost vůči místní kronikářské tradici o boji 1757. PSČ 14300 dokončeno **6/6**; kumulativně **208/225** v rozsahu 10000–15900. Další krok: PSČ 14700. Nuselský most zůstává uzamčen.
