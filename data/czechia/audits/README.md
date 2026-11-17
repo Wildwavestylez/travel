@@ -580,3 +580,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-13000:** Uzavřeno zbývajících 11 faktů (002–009, 011, 013, 014) ve všech sedmi jazycích. Ověřeny technické a průmyslové památky Žižkova, kostely, Betlémská kaple, Atrium, Rajská zahrada a oba židovské hřbitovy. Bez nutnosti zásadní věcné opravy; všechny zdroje jsou přítomny. PSČ 13000 dokončeno **14/14 faktů**; kumulativně **196/225** v rozsahu 10000–15900. Další krok: další neuzavřené PSČ dle sequence.json. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-14000:** Dokončeno zbývajících sedm faktů (001–004, 006, 008, 009) ve všech sedmi jazycích; dříve byly ověřeny 005, 007 a 010. U Michelského dvora doplněn přesný kontext koleje Panny Marie z roku 1438 pro česky mluvící studenty podobojí. Všech 10 faktů má zdroje a záznam zůstává validated. PSČ 14000 dokončeno **10/10**; kumulativně **203/225** v rozsahu 10000–15900. Další krok: PSČ 14100. Nuselský most zůstává uzamčen.
