@@ -521,3 +521,6 @@
 
 
 **Doplnění 2026-11-17 — F-62100 / V Černých:** Archeologická lokalita byla prověřena proti Encyklopedii Brna a původní zprávě Archeologického ústavu AV ČR. Poloha mezi ulicemi Přezjedova a Černohorská je doložena, ale přesný bod/parcelní rozsah nikoli; `location: null` zůstává správně. Viz oddíl 126 taháku.
+
+
+**Doplnění 2026-11-17 — F-62300/62400/62700:** Prověřeny tři další explicitní null: veřejné umění a zvuková paměť Kohoutovic (více samostatných míst), komínský kroj a hody (nehmotná komunitní tradice bez jediného bodu) a archeologický dětský hrob na Černovické terase (přesné místo nálezu není veřejně vyznačeno). Ve všech případech `location: null` zůstává správně; žádná změna Supabase. Viz oddíl 127 taháku.
