@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opravné práce uzavřeny | IN PROGRESS — úplné pokrytí A–I zatím není doloženo | 2026-11-16 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Částečně uzavřeny; nové překladové opravy čekají na dostupnost DB | REVIEW REQUIRED / BLOCKED — 4 chyby translated_fact, 1 canonical/CS mismatch, E/G/H nedokončeno | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
@@ -625,3 +625,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-63500 (oddíl 140):** Revidováno a doplněno 9 faktů ve všech 7 jazycích (63 verzí). Zpřesněna Mniší hora jako dnešní 25ha přírodní památka; přidány Jelení žlíbek a Břenčák, kostel sv. Janů, funkcionalistická kaple v Kníničkách a pamětní místa Josefa Ondry, Jindřicha Novotného a Stanislava Živného. SQL read-back: 9 faktů, 37 root zdrojů, 0 duplicitních fact ID/URL, 0 prázdných fact.sources, 0 null/neúplných poloh, 0 souřadnic mimo WGS84, 0 neplatných enumů, 0 rozdílů canonical/CS. Všech 7 jazyků má 9/9 faktů; status validated, data_version 1 zachovány. AJV byla na výslovný pokyn uživatele zrušena; žádné secrets ani klíče se nenastavují. Další krok: 63600. Viz oddíl 140 taháku.
+
+
+**Doplnění 2026-11-17 — CZ-60200-64400:** Závěrečný read-back potvrdil 27/27 PSČ a 192 faktů, ale našel čtyři chyby schématu překladů v 62700 a jeden canonical/CS nesoulad v 63600. Supabase SQL spojení opakovaně timeoutovalo; nebylo provedeno V5/published, Dropbox záloha ani zámek. Tahák je v oddílu 141 označen REVIEW REQUIRED / BLOCKED; po obnovení DB je nutné pokračovat přesně podle jeho dalšího kroku. Žádný auditní PASS ani dokončení snapshotu se nepředstírá.
