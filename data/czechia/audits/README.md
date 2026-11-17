@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REVIEW REQUIRED — otevřený nález A-01 (Metronom, PSČ 17000) |
+| CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REVIEW REQUIRED — obsahové kontroly PASS; 8 záznamů V1 čeká na uživatelské rozhodnutí o sjednocení V5/publikaci |
 | CZ-60200-64400 | 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | REVIEW REQUIRED — obsahové kontroly hotové; čeká AJV, V5/published, ověřená záloha a read-only zámek |
 
 ## Pravidla registru
