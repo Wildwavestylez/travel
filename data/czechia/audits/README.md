@@ -1,10 +1,10 @@
 # Registr auditních taháků — Česko
 
-**Stav:** Registr je vyčištěn pro nové spuštění auditů podle `prompt_audit.md` V2.0.
+**Stav:** Aktivní auditní taháky podle `prompt_audit.md` V2.0.
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| — | Žádný aktivní auditní tahák | — | Připraveno pro nový audit |
+| CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REVIEW REQUIRED — otevřený nález A-01 (Metronom, PSČ 17000) |
 
 ## Pravidla registru
 - Před novým auditem ověř, zda již neexistuje tahák pro stejný nebo překrývající se rozsah.
