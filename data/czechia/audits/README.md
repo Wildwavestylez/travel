@@ -754,3 +754,16 @@
 - **CZ-63500, CZ-63600, CZ-63700, CZ-63800, CZ-63900 a CZ-64100–64400:** dílčí G/H checkpointy jsou zaznamenány v auditním taháku. Nezaměňovat dílčí uzavření s globálním G/H PASS.
 - Podrobnosti: auditní tahák 60200–64400, oddíl 168.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, publikace, záloha a auditní lock se nespouští.
+
+
+## Aktuální stav po CZ-62800 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 228 faktů, 1 596 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-62800:** 10 faktů / 70 jazykových verzí. Doplněn Líšeňský hřbitov a Údolí vzpomínek; příběh Kostelíčku je označen jako místní pověst a časově citlivé podrobnosti o výrobě Zetoru byly stabilizovány. E/G/H a F/I read-back uzavřeny.
+- **CZ-60200:** 18 faktů / 126 jazykových verzí; zbývající redakční body ověřeny a uzavřeny.
+- **CZ-60300:** 7 faktů / 49 jazykových verzí; G/H a SQL read-back uzavřeny.
+- **CZ-63500:** 14 faktů / 98 jazykových verzí; ztracené faktové zápisy obnoveny a E/G/H/F/I uzavřeny.
+- **CZ-63600:** 3 fakta / 21 jazykových verzí; G/H a SQL read-back uzavřeny.
+- **CZ-64400:** 5 faktů / 35 jazykových verzí; chybná duplicita Jezírko odstraněna, E/G/H/F/I uzavřeny.
+- Podrobnosti: auditní tahák 60200–64400, oddíly 165–170.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do dokončení globální kontroly A–I a závěrečného cross-record read-backu. V5 snapshot, published export, záloha a auditní lock se nespouští.
