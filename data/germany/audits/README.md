@@ -1,14 +1,13 @@
 # German postcode audit ledger registry
 
-**Rule:** before every audit or continuation, look up the scope here, open the existing ledger and resume it. Do not create a new document for an already registered scope.
+**Status:** Registry reset for new audits under `data/germany/prompt_audit.md` V2.0.
 
-| Canonical ID | Scope | Canonical ledger | Repair status | Full audit status | Last updated |
-|---|---|---|---|---|---|
-| — | No scope registered yet | — | — | — | — |
+| Canonical ID | Scope | Canonical ledger | Status |
+|---|---|---|---|
+| — | No active audit ledger | — | Ready for a new audit |
 
 ## Registry rules
-- Audit identity is country + exact scope, never the chat window.
-- For overlapping scopes, reuse the existing wider ledger and record the sub-scope inside it.
-- Create a new ledger only after confirming that no same-scope or usable overlapping audit exists.
-- Every ledger must retain checkpoints, locked decisions, open findings and the exact next step.
-- Never erase history; append revisions.
+- Before a new audit, check for an existing ledger with the same or an overlapping scope.
+- Create one canonical ledger for a new audit using the current `prompt_audit.md` V2.0.
+- Do not repeat completed checks; record only genuine findings, corrections and open steps.
+- This registry contains active ledger references and status only, not a running audit diary.
