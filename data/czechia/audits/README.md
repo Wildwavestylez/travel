@@ -678,3 +678,6 @@
 - Samostatná Brána 0 zůstává zavřená. Audit pokračuje podle promptu V1.2.
 - Cílené jazykové a kontextové opravy jsou zaznamenány v auditu, sekce 156. Plná sémantická G/H kontrola všech textů a významové pokrytí E však zůstávají **OPEN**.
 - V5 snapshot, published export, záloha a auditní lock zatím nejsou povoleny; spustí se až po PASS všech povinných částí E/G/H a závěrečném read-backu.
+
+
+- Doplňující korekce po úplném přečtení 62500/fact_011: původní hřbitov byl odstraněn roku 1974; správný titulek „zaniklé pohřebiště se zachovanými stopami“ je obnoven ve všech jazycích. Podrobnosti: auditní sekce 157.
