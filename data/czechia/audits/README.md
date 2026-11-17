@@ -559,3 +559,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-11000/fact_029–fact_032:** Dokončena kontrola posledních čtyř faktů ve všech sedmi jazycích (28 jazykových verzí). Opravena chyba u chrámu sv. Mikuláše: křišťálový lustr věnoval roku 1880 pravoslavné církvi car **Mikuláš II.**, nikoli Alexandr II.; oprava a historická návaznost 1787–1871–1920 synchronizovány v sedmi jazycích. Pomník Jana Husa, Mariánský sloup a Karlův most ověřeny bez věcné opravy. **PSČ 11000 dokončeno sémanticky 32/32 faktů.** Kumulativně **149/225** faktů v rozsahu 10000–15900. Další krok: další neuzavřené PSČ dle sequence.json; Nuselský most zůstává uzamčen.
+
+
+**Sémantické dokončení 2026-11-17 — CZ-11101:** Dokončena kontrola zbývajících čtyř faktů (fact_002–fact_005) ve všech sedmi jazycích (28 jazykových verzí); fact_001 byl uzavřen již dříve. Potvrzeny místní kaplička a zvon, urbanistické jádro podle Metropolitního plánu, pomník padlým a historie spolku Svornost / sálu U Jaurisů. Bez nutnosti věcné opravy. PSČ 11101 dokončeno **5/5 faktů**; kumulativně **153/225** v rozsahu 10000–15900. Další krok: PSČ 11800. Nuselský most zůstává uzamčen.
