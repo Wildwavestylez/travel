@@ -601,3 +601,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-10800:** Navázáno na dříve vyřešených pět faktů (001–005); nyní dokončeny zbývající čtyři (006–009) ve všech sedmi jazycích. Ověřen Malešický park, liniová Stezka sv. Josefa, aktivní areál LOM PRAHA a univerzitní historie Malešic. Dvě polohy zůstaly správně null, protože nemají jediný reprezentativní bod. PSČ 10800 dokončeno **9/9**; kumulativně **224/225** v rozsahu 10000–15900. Zbývá poslední neuzamčený fakt 11900/fact_007; Nuselský most zůstává uzamčen.
+
+
+**Pokračování auditu 2026-11-17 — CZ-62400 (oddíl 135):** Dokončena kontrola 7 faktů v 7 jazycích (49 verzí). Opraven chybný rok 60. výročí vlády Františka Josefa I. z 1909 na 1908; rozdíl proti profilu školy v Encyklopedii Brna je nyní transparentně popsán ve všech jazycích. Doplněn chybějící významný fakt 62400/fact_007 — Komínský hřbitov — s historií zrušení a obnovy, 7 překlady a reprezentativní polohou. SQL read-back: 7 faktů, 33 root zdrojů, 1 oprávněný null (nehmotná tradice), 0 chybějících location klíčů, 0 neúplných poloh, 0 mimo WGS84, 0 nepovolených fact enumů; 0 canonical/CS rozdílů. Status `validated`, data_version 1 zachovány. Další krok: 62500. Viz oddíl 135 taháku.
