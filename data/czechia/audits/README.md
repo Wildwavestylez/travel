@@ -544,3 +544,6 @@
 
 
 **Sémantický průchod 2026-11-17 — CZ-11000:** Dokončena plná sémantická kontrola 11000/fact_003, fact_004, fact_006, fact_007, fact_008, fact_009 a fact_010 ve všech sedmi jazycích (49 jazykových verzí); bez dalších věcných nebo překladových oprav. V kombinaci s dříve ověřenými fact_001, fact_002 a fact_005 je hotovo **10/32 faktů** PSČ 11000. Kumulativně **127/225 faktů** v rozsahu 10000–15900. Další krok: 11000/fact_011. 12800/fact_011 (Nuselský most) zůstává uzamčen a nesmí být znovu otevřen.
+
+
+**Sémantický průchod 2026-11-17 — CZ-11000/fact_011–fact_016:** Dokončena kontrola šesti faktů ve všech sedmi jazycích (42 jazykových verzí). Opravena závažná chronologická a historická formulace u 11000/fact_016: výstavba Obecního domu 1905–1911, kolaudace 1912, vyhlášení republiky z balkonu před Primátorským sálem a zasedání Národního výboru 28. 10.–13. 11. 1918; oprava synchronizována ve všech sedmi jazycích. Fact_011–015 bez nutnosti věcné opravy. PSČ 11000 nyní 16/32 faktů plně sémanticky ověřeno; kumulativně **133/225** v rozsahu 10000–15900. Další krok: 11000/fact_017.
