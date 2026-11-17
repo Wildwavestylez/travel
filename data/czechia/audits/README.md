@@ -9,6 +9,7 @@
 | CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REOPENED — 26/26 V5 + published; doplněny Divoká Šárka, Džbán, Hanavský pavilon, Šlechtova restaurace, Čimická tvrz a Libeňský most (jediné přiřazení 18000); mapový bod ověřen; původní záloha před opravami; UNLOCKED |
 | CZ-70030-72529 | 70030–72529 | [70030-72529.md](70030-72529.md) | PASS — 24/24 V5 + published; záloha VERIFIED (3 soubory, SHA-256 read-back); READ-ONLY LOCKED, UPDATE/DELETE/INSERT blokovány |
 | CZ-60200-64400 | 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | REVIEW REQUIRED — obsahové kontroly hotové; čeká AJV, V5/published, ověřená záloha a read-only zámek |
+| CZ-37001-37501 | 37001–37501 | [37001-37501_audit.md](37001-37501_audit.md) | REVIEW REQUIRED — 50/50 sequence, RÚIAN a Supabase; 290 faktů, 2 030 překladů; opraveny administrativní údaje, map_category a ID; otevřeno 6 skupin možných duplicit, 97 null poloh a 1 762 textů mimo 500–600 znaků; bez publikace a zamčení |
 | CZ-PLZEN-30100-33001 | 30100, 31200, 31600, 31800, 32100, 32200, 32300, 32600, 33001 | [30100-33001_plzen_audit.md](30100-33001_plzen_audit.md) | COMPLETE — audit V2.0, 9/9 V5 published, read-only zamčeno a ověřeno |
 
 ## Pravidla registru
