@@ -509,3 +509,6 @@
 
 
 **Doplnění 2026-11-17 — F-62100:** U 62100/fact_006 byla na základě Vets.cz, Encyklopedie Brna a webu městské části doplněna a read-backem ověřena poloha památníku v Mokré Hoře. Počet explicitních null v bloku se snížil z 19 na 18. Podrobnosti v oddílu 122 kanonického taháku.
+
+
+**Oprava 2026-11-17 — F-62100:** následný úplný SQL read-back upřesnil výchozí počet explicitních null: před opravou jich bylo 18, po opravě 17 (nikoli 19 → 18). Aktuálně 159/176 vyplněných poloh, 17 explicitních null a 0 chybějících location klíčů. Viz oddíl 123 taháku.
