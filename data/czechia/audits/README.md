@@ -736,3 +736,12 @@
 - **CZ-64400:** 5 faktů / 35 jazykových verzí; E/G/H a cílený F/I read-back uzavřeny, duplicitní Jezírko odstraněno z 64400 a zachováno v 66401.
 - Podrobnosti: auditní tahák 60200–64400, oddíly 165–166.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. Úplný G/H a další otevřené body A–I ještě nejsou uzavřeny. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí.
+
+
+## Pokračování G/H po CZ-63600 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400 zůstává **27 PSČ, 227 faktů, 1 589 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-63600:** dokončena úplná sémantická kontrola 3 existujících faktů × 7 jazyků = 21 verzí. Opraven chybějící místní kontext v několika úvodních větách. SQL read-back bez nálezu.
+- E/G/H a F/I jsou doloženy pro CZ-63500 a CZ-63600; CZ-63700 má G/H checkpoint 143.
+- Podrobnosti: auditní tahák 60200–64400, oddíly 166–167.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. Publikace, V5, záloha a auditní lock zůstávají pozastaveny.
