@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Opraveno 84 chybných překladových struktur, 64300/fact_007 location, 62500/fact_010 poloha a 60200/fact_028 text; pokračuje cílený audit | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 246 faktů, 1 722 jazykových položek; E/C/D/G/H a plná AJV otevřeny | 2026-11-17 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Sémantické G/H kontroly 27/27 uzavřeny; neopakovat. Zbývají jen nezávislé body E/C/F/D/I a závěrečný proces | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 246 faktů, 1 722 jazykových položek; G/H PASS, ostatní otevřené brány viz tahák | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 | CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 133 faktů / 931 jazykových položek; opraveno 19700/fact_007 a 19900/fact_003; rozpor locality u 16000 potvrzen externími adresními příklady, bez změny sequence; pokračuje C/F + D/G/H/I průchod | REVIEW REQUIRED / IN PROGRESS — A PASS; B–I PARTIAL; 22 null/neověřených access_point (schema dovoluje null), 2 postcode_conflict (16900 rozhodnuto podle RÚIAN; 16000 otevřeno); 0 published, bez V5 migrace/locku/zálohy | 2026-11-17 |
 
