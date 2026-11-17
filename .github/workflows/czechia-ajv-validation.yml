@@ -1,0 +1,48 @@
+name: Czechia AJV schema validation
+
+on:
+  workflow_dispatch:
+    inputs:
+      postcode_from:
+        description: First five-digit Czech postcode (inclusive)
+        required: false
+        default: "10000"
+        type: string
+      postcode_to:
+        description: Last five-digit Czech postcode (inclusive)
+        required: false
+        default: "15900"
+        type: string
+  push:
+    paths:
+      - "data/czechia/schema.json"
+      - "scripts/validate_czechia_postal_codes.mjs"
+      - ".github/workflows/czechia-ajv-validation.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: czechia-ajv-validation
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+      POSTCODE_FROM: ${{ inputs.postcode_from || '10000' }}
+      POSTCODE_TO: ${{ inputs.postcode_to || '15900' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install pinned AJV dependencies
+        run: npm install --no-save --package-lock=false ajv@8.17.1 ajv-formats@3.0.1
+      - name: Validate Supabase Czechia records against JSON Schema
+        run: node scripts/validate_czechia_postal_codes.mjs
