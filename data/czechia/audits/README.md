@@ -5,7 +5,7 @@
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
 | CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REOPENED — 26/26 V5 + published; doplněny Divoká Šárka, Džbán, Hanavský pavilon, Šlechtova restaurace, Čimická tvrz a Libeňský most (jediné přiřazení 18000); mapový bod ověřen; původní záloha před opravami; UNLOCKED |
-| CZ-70030-72529 | 70030–72529 | [70030-72529.md](70030-72529.md) | REVIEW REQUIRED — 24/24 inventář; opraveno 49 map_category, 29 fact sources a 1 kategorie; celkem 40 doplněných poloh; 0 explicitních location null, 11 volitelných chybějících polí; ověření RÚIAN 71100 |
+| CZ-70030-72529 | 70030–72529 | [70030-72529.md](70030-72529.md) | PASS — 24/24 inventář; opraveno 49 map_category, 29 fact sources a 1 kategorie; celkem 40 doplněných poloh; 0 explicitních location null, 11 volitelných chybějících polí; RÚIAN 71100 ověřeno |
 | CZ-60200-64400 | 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | REVIEW REQUIRED — obsahové kontroly hotové; čeká AJV, V5/published, ověřená záloha a read-only zámek |
 | CZ-PLZEN-30100-33001 | 30100, 31200, 31600, 31800, 32100, 32200, 32300, 32600, 33001 | [30100-33001_plzen_audit.md](30100-33001_plzen_audit.md) | COMPLETE — audit V2.0, 9/9 V5 published, read-only zamčeno a ověřeno |
 
