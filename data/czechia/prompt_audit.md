@@ -109,9 +109,20 @@ Při pokračování načti tahák a pokračuj pouze otevřenými položkami. Hot
 
 Na konci předlož stručný report: rozsah a počty PSČ, výsledek, zásadní chybějící témata, počty a typy skutečných chyb, provedené opravy, nevyřešené položky a výsledek již dostupných základních technických kontrol (bez samostatného AJV běhu).
 
-## 6. Uzavření úspěšného auditu
+## 6. Uzavření auditu, publikace a záloha na výslovné vyzvání uživatele
 
-Po dokončení auditu pouze předej výsledky a stav rozsahu uživateli. **Publikaci (V5 + published), zálohování Supabase do Dropboxu a read-only zamykání Supabase provádí výhradně uživatel.** Tyto operace nespouštěj, neprováděj a nevyžaduj k nim přístupové údaje. Neoznačuj rozsah za publikovaný, zazálohovaný ani zamčený, pokud to uživatel sám nepotvrdí.
+Po dokončení auditu nejprve předej uživateli stručný report a jasně uveď, že auditní práce je dokončena. **Publikaci ani zálohu nespouštěj automaticky. Vyčkej na výslovné vyzvání uživatele.**
+
+Teprve když uživatel po dokončení auditu výslovně požádá o publikaci (například „všechno do V5 a published“), proveď následující kroky v tomto pořadí:
+
+1. **Publikace přes Supabase:** pracuj pouze s přesným auditovaným rozsahem a jeho ověřeným inventářem. Existující záznamy tohoto rozsahu nastav na `data_version = 5` a `status = 'published'`. Nevytvářej nové PSČ, neměň jiná PSČ ani jiné země. Zachovej všechna ID a obsah záznamů.
+2. **Read-back kontrola:** znovu načti rozsah ze Supabase a ověř přesný počet i seznam PSČ, že každý očekávaný řádek má `data_version = 5` a `status = 'published'`, a že nejsou žádné výjimky. Pokud kontrola neprojde, zálohu nespouštěj a uživateli oznam konkrétní nesoulad.
+3. **Záloha přes existující Supabase Edge Function:** použij dedikovanou zálohovací Edge Function odpovídající přesnému auditovanému rozsahu. Použij stejný ověřený postup jako u úspěšných záloh Prahy 10000–15900 a Brna 60200–64400: Edge Function načte data ze Supabase read-only, přes serverové Dropbox OAuth secrets vytvoří časově označenou složku v aplikačním Dropbox prostoru `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/` a uloží úplný JSON export, obnovovací SQL a `manifest.json`. Spouštění prováděj zavedenou cestou přes Supabase `pg_net` HTTP GET na endpoint příslušné Edge Function s jejím platným run parametrem; nevymýšlej jiný endpoint ani ruční náhradní export.
+4. **Ověření Dropboxu:** nekontroluj pouze osobní Dropbox složku `/TRAVEL_BACKUP`. Skutečné zálohy ověř v aplikačním Dropbox namespace pod `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/`. Vyhledej nově vytvořenou složku pro přesný auditovaný rozsah a ověř přítomnost všech tří souborů: JSON, restore SQL a manifest. Načti manifest a potvrď správný rozsah, počet i seznam PSČ, `validation.status = 'VERIFIED'`, `validation.readback_verified = true` a odpovídající hash rozsahu. Záloha je dokončena pouze tehdy, když Dropbox obsahuje všechny tři soubory a manifest potvrzuje read-back SHA-256 ověření. Samotné přijetí HTTP požadavku ani vytvoření složky není důkaz dokončené zálohy.
+5. **Report:** uživateli sděl výsledek publikace a zálohy odděleně, včetně počtu PSČ, verze, statusu, přesné Dropbox cesty a výsledku ověření. Při chybě nebo timeoutu nejprve ověř stav v Dropboxu; nikdy neopakuj zápis nebo spuštění naslepo. Existující zálohy nepřepisuj a při opakovaném spuštění respektuj timestampované nové složky.
+
+**Read-only zamykání Supabase provádí výhradně uživatel.** Neprováděj zámek, neměň RLS, oprávnění ani provozní konfiguraci. Nevyžaduj ani nevypisuj přístupové klíče a secrets; používej pouze již nakonfigurované serverové secrets Edge Function.
+
 
 ---
 
