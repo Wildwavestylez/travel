@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Částečně uzavřeny; nové překladové opravy čekají na dostupnost DB | REVIEW REQUIRED / BLOCKED — 4 překladové závady (2 schema + 2 jazykové), 1 canonical/CS mismatch, E/G/H nedokončeno | 2026-11-17 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Původní překladové blokery opraveny; doplněny nové lokality, audit pokračuje | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 199 faktů, 1 393 překladů; E/G/H a snapshot/publikace otevřeny | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 | CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 123 faktů / 861 jazykových položek; pokračování ve stejném kanonickém taháku kvůli překryvu 16000/16100 | IN PROGRESS / REVIEW REQUIRED — HIGH county/state, Gate 0 PARTIAL, finální read-back a produkční kroky čekají | 2026-11-17 |
 
@@ -629,3 +629,6 @@
 
 
 **Doplnění 2026-11-17 — CZ-60200-64400:** Závěrečný read-back potvrdil 27/27 PSČ a 192 faktů, ale našel čtyři chyby schématu překladů v 62700 a jeden canonical/CS nesoulad v 63600. Supabase SQL spojení opakovaně timeoutovalo; nebylo provedeno V5/published, Dropbox záloha ani zámek. Tahák je v oddílu 141 označen REVIEW REQUIRED / BLOCKED; po obnovení DB je nutné pokračovat přesně podle jeho dalšího kroku. Žádný auditní PASS ani dokončení snapshotu se nepředstírá.
+
+
+**Pokračování 2026-11-17:** Supabase je opět dostupný. Opravy 62700 a 63600 jsou ověřeny; doplněny Cacovický ostrov (61400), Wilsonův les (61600), Komec (61700) a čtyři přírodní lokality (63500). Read-back: 27 PSČ, 199 faktů, 1 393 překladů, nulové strukturální chyby, nulové canonical/CS rozdíly a nulové duplicitní root URL. Audit zůstává REVIEW REQUIRED / IN PROGRESS; viz oddíl 142. V5/published, Dropbox snapshot ani zámek nebyly provedeny.
