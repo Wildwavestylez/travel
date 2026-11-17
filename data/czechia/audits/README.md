@@ -767,3 +767,15 @@
 - **CZ-64400:** 5 faktů / 35 jazykových verzí; chybná duplicita Jezírko odstraněna, E/G/H/F/I uzavřeny.
 - Podrobnosti: auditní tahák 60200–64400, oddíly 165–170.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do dokončení globální kontroly A–I a závěrečného cross-record read-backu. V5 snapshot, published export, záloha a auditní lock se nespouští.
+
+
+## Aktuální stav po rozšíření centrálního Brna — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 241 faktů, 1 687 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-60200:** 30 faktů / 210 jazykových verzí. Doplněny Hotel Avion, Dům umění, Besední dům, Červený kostel, Káznice, Synagoga Agudas Achim, Vila Löw-Beer, Muzeum romské kultury, Dům pánů z Kunštátu, Jezuitský kostel, Kostel sv. Janů s Loretou a Pravoslavný chrám sv. Václava. E/G/H a F/I cílený read-back uzavřeny.
+- **CZ-61300:** 6 faktů / 42 jazykových verzí. Park Lužánky je správně zařazen do Černých Polí (61300), nikoli do 60200.
+- **CZ-62800:** 10 faktů / 70 jazykových verzí; E/G/H a F/I uzavřeny.
+- **CZ-63500:** 14 faktů / 98 jazykových verzí; obnovené a doplněné přírodní lokality, E/G/H/F/I uzavřeny.
+- **CZ-63600:** 3 fakta / 21 jazykových verzí; G/H a SQL read-back uzavřeny.
+- Podrobnosti: auditní tahák 60200–64400, oddíly 170–172.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do uzavření všech zbývajících kandidátů E a cross-record kontrol C/D. V5 snapshot, published export, záloha a auditní lock se nespouští.
