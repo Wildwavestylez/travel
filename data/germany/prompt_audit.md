@@ -1,214 +1,119 @@
-# TRAVEL GERMANY — BLOCK AUDIT PROMPT
+# TRAVEL GERMANY — SHORT POSTCODE AUDIT PROMPT
 
-## Version and authority
+**Version 2.0 — focused quality audit**
 
-**BLOCK AUDIT PROMPT V1.2 — SIMPLIFIED CONTINUOUS BLOCK AUDIT**
+## 1. Purpose and strict separation from rework
 
-Use this prompt with the current:
+Audit existing German records in `public.postal_codes` (`country_code = 'DE'`) and correct material defects. This is not a second rework and not a new round of comprehensive research.
+
+**NON--NEGOTIABLE SEPARATION:** This prompt applies to the audit only. Its selection criteria, simplifications and limitations must never be transferred to `data/germany/prompt_rework.md`, the German Content Standard, the schema or the creation of new records. Those documents remain unchanged and fully binding for production. During rework, follow only the current rework documentation. Never use an audit limitation to justify omitting or simplifying production research, facts, translations or quality requirements.
+
+Authority: the schema defines structure and permitted values; the German Content Standard and rework prompt define production and geographic rules; this prompt defines only the narrower audit scope.
+
+## 2. Sources and scope
+
+Before starting, load the current:
 - `data/germany/schema.json`
 - `data/germany/CONTENT_STANDARD.md`
 - `data/germany/prompt_rework.md`
-- canonical audit ledgers and register in `data/germany/audits/`
+- relevant sequence/inventory files
+- the register and canonical audit ledger for the exact scope in `data/germany/audits/`
 
-The schema defines structure and permitted values. The German Content Standard governs factual, editorial, geographic, research, translation and quality requirements. The rework prompt governs production and preservation rules. This prompt governs the audit workflow.
+Audit the entire requested block, not a sample. Reconcile the exact scope and inventory with the database and sequence. Work only on existing German rows. Do not create postcode rows, change the scope or sequence, or modify Czech or other-country data.
 
-**Germany-specific source rule:** Germany does not use the Czech RÚIAN reference system. Never request, search for, cite or require RÚIAN data. Verify German postcode and address relationships using appropriate German postal, official administrative, municipal, institutional and address sources, as required by the German Content Standard. Do not import Czech-only procedures or assumptions into German records.
+Resume from the canonical ledger. Treat completed checks as complete. Do not repeat them because a new chat, model or session started. Reopen a completed check only for concrete new evidence, a material data change or a change to a binding standard.
 
-## 1. Goal and scope
+**Germany-specific source rule:** use appropriate German postal, official administrative, municipal, institutional and address sources. Never import Czech RÚIAN or Czech post-office rules.
 
-Audit the complete user-selected German postcode block, Landkreis or other clearly defined set—not a sample. Work only with existing German records in `public.postal_codes` where `country_code = 'DE'`.
+## 3. Required audit controls
 
-- Establish the exact scope and inventory before reviewing content.
-- Do not create missing postcode rows or duplicate records.
-- Do not change schema, database architecture, RLS, triggers, permissions, application code, unrelated countries or out-of-scope records.
-- Do not inspect postcode polygons or perform polygon-based boundary checks.
-- Preserve existing IDs, fact IDs, history and unrelated metadata.
-- Follow all protected-content and exception rules in the current German Content Standard and rework prompt.
+### A. Major tourist and historical coverage — once for the whole area
 
-## 2. Load sources and resume the canonical ledger
+Review the audited area as a whole and check whether it is missing truly major:
+- landmarks and structures of national or international importance, or defining landmarks of the region;
+- major historical events and turning points;
+- historically or culturally significant people, such as heads of state, rulers, major inventors, explorers, writers, artists and comparable figures.
 
-At the start, read the current complete schema, Content Standard and rework prompt. Then search `data/germany/audits/README.md` and `data/germany/audits/` for the exact scope and any overlapping ledger.
+Use the scale of major nationally or internationally recognised landmarks, major battles and turning points, and figures with lasting historical or cultural impact.
 
-1. Reuse the existing canonical ledger whenever one exists. Do not create parallel ledgers for the same or overlapping scope.
-2. Confirm its scope, inventory, source versions, completed controls, locked decisions, open findings and exact next step.
-3. If no usable ledger exists, create one only after checking the register and overlapping scopes.
-4. Reconcile the selected scope against existing German database rows. Record expected, retrieved, missing, duplicate, out-of-scope and blocked rows.
-5. If resuming, continue only with unfinished work. Do not restart the audit or repeat completed checks because the chat window, model or session changed.
+Do not build an exhaustive catalogue of listed buildings or minor local attractions. Heritage protection status alone does not make an item essential. Do not require minor sheds, small roadside shrines, ordinary trails or marginal anecdotes. Close this check once the area's major landmarks and stories are covered. **This selection threshold applies to the audit only, never to rework.**
 
-## 3. Continuous audit workflow
+### B. Postcode and administrative data
 
-Run the audit as one continuous process across the entire selected block. Batch comparable database reads, source checks, language comparisons and safe corrections. Do not stop after each postcode, fact, language or control area to ask the user whether to continue.
+Verify:
+- the postcode and its geographic assignment;
+- `city`, `district`, `county` and `state` according to the definitions and source rules in the German Content Standard and rework prompt;
+- a city district only where it is a genuine, relevant and documented district of a large city.
 
-For each item: **CHECK → VERIFY → FIX confirmed safe defects → VALIDATE → RECORD → CONTINUE.**
+Do not turn every isolated hamlet or small settlement into an urban district. Apply the existing German rules; do not invent new definitions or import Czech rules.
 
-- Evidence must support every material conclusion. Distinguish confirmed errors from uncertainty and missing evidence.
-- Automatically correct confirmed, unambiguous and safe defects within the authorized scope. Preserve IDs and unrelated content; validate every write by reading the saved record back.
-- Do not invent facts, sources, coordinates, addresses or certainty.
-- If an issue is genuinely ambiguous or a correction could change meaning, ownership, protected content or another record, leave that individual item unchanged, record the exact blocker and continue with other work.
-- Do not make speculative edits or expand the scope.
-- If rate-limited or interrupted, use sensible batching/backoff and preserve the exact continuation point.
+### C. Cross-postcode duplicates and fact assignment
 
-## 4. Audit controls A–I
+Make a quick cross-block check for the same attraction, event or subject being unnecessarily covered more than once in different postcodes. Focus on clear duplicates and near-identical stories, not every thematic similarity.
 
-Complete all nine controls for every in-scope record and perform cross-record checks across the whole block. Batch the work; do not turn each control into a separate audit session.
+Respect the established primary-postcode rule for large or linear features and all previously locked assignments. Do not split one attraction or story merely because it crosses postcode boundaries. A tourist story is not subordinate to a postcode boundary.
 
-### A. Inventory and completeness
-Verify each expected record exists exactly once, has the correct database ID/postcode, belongs to Germany and the requested scope, and has a status consistent with its actual content and workflow. Identify missing, duplicate, placeholder, unexpected and out-of-scope rows. Do not infer national coverage from a partial block.
+### D. Map category
 
-### B. Postcode, locality and administrative data
-Verify the postcode is in use and suitable for the record's purpose. Distinguish ordinary delivery postcodes from special-purpose, PO-box and large-recipient codes. Check the locality/municipality, district, Landkreis and Bundesland using appropriate German sources, including Deutsche Post and responsible official administrative or municipal sources. Confirm that `city`, `district`, `county`, `state` and `representative_place` reflect the definitions in the German schema and Content Standard. Do not require a currently open standalone post-office building. A retail parcel outlet or branch relocation is not by itself evidence that a postcode is invalid. Do not import Czech post-office or RÚIAN rules.
+Check that each fact uses a permitted `map_category` from the current German schema and that it matches the actual type of place or subject. Do not confuse editorial `category` with `map_category`. Correct only genuinely wrong or invalid classifications.
 
-### C. Geographic ownership, duplication and block consistency
-Review facts across the entire block, not only one record at a time. Verify a concrete connection between each fact and its assigned postcode using addresses, institutional sources, official maps or other reliable location-specific evidence. Identify misassigned facts, duplicates, near-duplicates, artificially split stories and facts supported only by a broad city or regional association. A large or linear feature spanning multiple postcodes may have one defensible primary assignment; do not require its entire footprint to fit within one postcode. Respect locked prior assignments unless concrete new evidence proves them wrong. Do not duplicate the same attraction or continuous story across records.
+### E. Translations
 
-### D. Factual, editorial and source quality
-Check names, dates, chronology, descriptions, factual claims, local significance, priority and ordering. Sources must support the actual claims and be relevant, accessible and traceable; prefer primary sources and responsible institutions. Distinguish documented history from legend or tradition. Remove advertising, company promotion, unsupported superlatives, generic filler and invented detail. Record source gaps separately from proven factual errors. Do not fill categories or meet arbitrary fact quotas.
+Check all seven languages: `cs, de, en, es, fr, it, nl`.
+- Each language is in the correct field and is actually written in that language.
+- Each translation belongs to the correct fact and preserves its meaning.
+- No languages are swapped; no translation from another fact has been inserted.
+- No required language or text is missing, empty, truncated or corrupted.
+- Important facts, names, dates and qualifications are preserved.
 
-### E. Tourist, heritage, nature and local-discovery research
-Verify the mandatory two-pass research and thematic coverage required by section 29 of the German Content Standard, including its relevant categories and source strategy. Review evidence for broad discovery and deliberate category-by-category gap checking. Relevant groups include heritage and architecture, religious sites, monuments and memorials, museums and collections, archaeology, nature and landscapes, viewpoints and routes, water features, parks and gardens, industrial/technical/transport heritage, historical events, visitor attractions, exceptional heritage, local stories, notable people and cultural traditions.
+Fix errors that change meaning or demonstrably damage a translation. Do not rewrite correct, understandable translations for stylistic alternatives, minor nuances or personal preference.
 
-For each relevant group record one state: **found and verified**, **checked — no qualifying result**, or **unresolved**. A valid search with no qualifying result is acceptable. Do not turn this into endless discovery: no fixed fact quota, no exhaustive hunting for every minor cross, chapel, ordinary building or listed object. Stop when the mandatory research process has been evidenced and significant local stories and material gaps have been addressed. Do not reopen completed research solely to search for more marginal candidates.
+### F. JSON, database and technical consistency
 
-Apply exclusions in section 29.3 of the German Content Standard. A material unresolved category or candidate must be recorded, but it does not justify restarting unrelated completed checks.
+Check:
+- valid JSON and compliance with the current `schema.json`;
+- required fields, data types, permitted values, IDs and fact order;
+- correct fact-to-postcode assignment and no corrupted or unintended duplicate records;
+- consistency of the database inventory, sequence and `groups` — each expected postcode appears exactly once;
+- correct country, status and version under the current project lifecycle.
 
-### F. Geographic metadata and map integrity
-Keep the three coordinate roles distinct: `representative_point`, `access_point` and each `facts[].location`. Verify the roles, coordinate values, names, location types, accuracy and direct location sources. A fact location must be its principal verified location or explicit `null` where permitted; do not copy representative/access points as if they were exact fact locations. Apply the documented fallback rules for postcode-area facts and people-related facts. Check that `map_category` uses exactly one of the 17 values permitted by the current German schema and follows section 11A of the Content Standard. Do not confuse editorial `category` with `map_category`. Do not invent coordinates, addresses, types or categories.
+Record sequence or inventory discrepancies; do not change the sequence or audit scope without explicit authority.
 
-### G. Seven-language parity and translation quality
-Review all seven languages together in one comparative pass: **cs, de, en, es, fr, it, nl**. Verify every language exists and has the required structure; fact IDs and order match the source language; no facts are missing, merged, duplicated or silently added; and titles/texts preserve the same facts, dates, names, qualifications and significance. Check natural grammar, terminology and readability in each language. Do not audit one language at a time or repeat the whole language review after every correction. Batch safe translation fixes and validate all seven versions together after changes.
+### G. Coordinates — no blanket rechecking
 
-### H. International readability and cultural context
-Apply section 30 of the German Content Standard to every fact in all seven languages. A reader unfamiliar with Germany should understand local institutions, historical references, traditions, memorial forms and essential cultural terms. Explain unfamiliar concepts concisely at first meaningful use, preserve proper names accurately, and make each language version independently understandable. Do not over-explain internationally familiar concepts or turn facts into encyclopaedia entries.
+Do not re-verify, re-measure or move existing non-null coordinates or locations. The only exception: if a fact has `facts[].location = null`, try to assign a location strictly according to the hierarchy and rules in the current German `prompt_rework.md` and Content Standard. If no responsible location can be established, retain `null` and briefly record why. Never invent a location. Leave all other coordinate fields unchanged.
 
-### I. Technical and schema validation
-Validate each final record against the current `data/germany/schema.json`. Check valid JSON/database mapping, required fields and types, no unknown fields, permitted enums, unique and correctly ordered fact IDs, translation structure/parity, coordinate ranges, location objects, source URL syntax and all other schema constraints. Validate again after every correction. Do not change the schema to make a record pass.
+### H. Obvious factual defects
 
-## 5. Findings and completion states
+Do not repeat full factual research for every fact or recheck every historical date. Intervene only when there is a concrete reason: an obvious contradiction, demonstrably false or fabricated claim, advertising/company promotion, an irrelevant or invalid source, or content clearly assigned to the wrong place or subject. Do not endlessly debate small differences between ambiguous historical sources. Use proportionate precision and retain wording that is already reasonably supported.
 
-Each material finding must identify postcode, row ID, fact ID if applicable, control area, severity, exact issue, evidence, required correction and whether it affects one fact, one record or the block.
+## 4. Workflow, corrections and findings
 
-Severity:
-- **CRITICAL** — materially false/fabricated content, wrong postcode ownership, serious geographic misassignment, corrupted record or unsafe structural defect.
-- **HIGH** — missing major local fact, significant duplication, major source failure, missing language/fact, materially misleading translation or major schema/geographic defect.
-- **MEDIUM** — incomplete cultural context, material research gap, translation nuance or correctable metadata/source issue.
-- **LOW** — minor wording, style or non-material consistency issue.
+Process the entire block in one continuous run. Batch mechanical checks and perform them locally where possible. For each genuine defect: **find → verify → safely correct → read back → validate the correction → record briefly**.
 
-Record-level audit states:
-- `NOT_STARTED` — no audit performed.
-- `IN_PROGRESS` — audit has unfinished controls.
-- `OPEN_FINDINGS` — checks are complete but one or more findings remain unresolved.
-- `DONE` — all controls A–I are complete, corrections (if any) are verified, and no unresolved material finding remains.
-- `DONE_WITH_NOTES` — all mandatory controls are complete and no unresolved material finding remains; only documented non-blocking notes remain.
-- `BLOCKED` — a specific required check cannot be completed due to missing data, access or authoritative evidence.
+- Automatically fix only confirmed, safe defects in existing German records.
+- Preserve IDs and unrelated content.
+- Mark an unclear individual item `REVIEW REQUIRED` and continue; do not block the entire block because of one uncertain item.
+- Do not change the schema, RLS, triggers, permissions, database architecture, application code, other-country data or audit scope.
+- Perform database writes safely and sequentially. After a timeout, never blindly repeat a write; first check whether it already succeeded.
+- Respect API `Retry-After` limits; do not bypass rate limits with parallel requests.
 
-A block is fully passed only when every in-scope record is `DONE` or `DONE_WITH_NOTES`, the inventory is reconciled, cross-block checks are complete, and no unresolved CRITICAL or HIGH finding remains. Never claim a check, source review, translation comparison, validation or write was completed unless it actually was.
+Use severities `CRITICAL`, `HIGH`, `MEDIUM`, `LOW`. Block results: `PASS`, `FIX REQUIRED`, `REVIEW REQUIRED` or `BLOCKED`. PASS requires all relevant checks to be complete and no unresolved material defect. Do not create findings from stylistic preferences.
 
-## 6. Canonical ledger and anti-repeat rules
+## 5. Ledger, resumption and report
 
-The ledger is the persistent source of audit progress across sessions. Maintain one canonical ledger per defined scope.
+Maintain one canonical ledger for the exact scope. Keep it concise: inventory, completed checks, genuine findings, corrections, open items and the exact next step. Do not create a duplicate ledger or checkpoint after every postcode or fact. Save a checkpoint only for a real interruption, imminent context limit or at the end of the run.
 
-It must record:
-- scope ID, country, exact postcode range/selection and ledger path;
-- prompt, schema, Content Standard and rework-prompt versions/commits;
-- reconciled record inventory and each record's state;
-- controls A–I completed per record or group;
-- research-category states required by section 29;
-- seven-language comparison result;
-- findings, evidence, decisions and correction status;
-- locked decisions and completed checks that must not be repeated;
-- exact open items and the next action;
-- concise dated change history.
+On resumption, read the ledger and continue only with open items. Never repeat completed work.
 
-**Anti-repeat rules:**
-1. Once a record is `DONE` or `DONE_WITH_NOTES`, lock it. Skip it in future runs.
-2. Reopen a completed record only for concrete new evidence, a material change to that record, or a relevant change to the schema/Content Standard/rework rules. Preserve the previous result and append a dated addendum; never erase history.
-3. If only one finding remains open, work on that finding and its dependent validation—not the whole postcode or block.
-4. Never repeat completed controls merely because a new chat, model or session has started.
-5. Do not restart tourist discovery after its mandatory coverage has been completed. New candidates are addenda, not a reason to repeat the whole search.
-6. Update the ledger in batches after meaningful progress. Save a checkpoint only when context/token capacity is running low, a real technical interruption occurs, or the whole run finishes. Do not checkpoint after every postcode, fact, language or control.
-7. On resumption, read the ledger status and continue from the first genuinely open item. Do not re-audit closed records.
-8. Before updating a ledger, fetch its current version and preserve its existing history. Never overwrite it with a stale copy or create a parallel ledger for the same scope.
+At the end, provide one concise report: scope and postcode counts, result, major missing topics, counts/types of genuine defects, corrections made, unresolved items and technical validation result.
 
-## 7. Corrections and final validation
+## 6. Closing a successful audit
 
-Fix confirmed, unambiguous and safe defects directly within the selected scope. Preserve record/fact IDs and all unrelated fields. After each batch:
-- read back the persisted records and confirm the write;
-- validate affected records against the schema;
-- recheck dependent geographic ownership or duplicate decisions;
-- when fact meaning/text changes, recheck all seven languages and international readability together;
-- update the ledger with the exact fix, evidence and validation result.
-
-Do not downgrade completed `validated` or `published` records or alter the German lifecycle defined in the current rework prompt. If a required condition genuinely blocks completion, retain the existing non-complete state and document the precise blocker. Never use `draft` as a parking state for completed work.
-
-## 8. Final report and handoff
-
-At the end of the run, provide one concise report containing:
-1. exact scope and inventory counts;
-2. counts of `DONE`, `DONE_WITH_NOTES`, `OPEN_FINDINGS`, `IN_PROGRESS` and `BLOCKED`;
-3. material findings by severity;
-4. corrections actually saved and validated;
-5. remaining open items and exact next step;
-6. ledger path and latest commit/reference.
-
-Prepare an immutable AUDITED snapshot only if the repository's agreed backup workflow is available and the snapshot is actually created and verified. Never claim a backup exists otherwise.
-
-## 9. Operating principle
-
-**Audit each German postcode once, completely and with evidence. Correct safe confirmed defects, validate the saved result, lock completed records and move forward. Resume only open work. Germany uses German postal and administrative evidence—not Czech RÚIAN. The audit is a finite quality-control process, not an endless search for marginal attractions.**
----
-
-## 10. MANDATORY AUDIT CLOSURE — V5, PUBLISHED, BACKUP, LOCK
-
-This procedure is mandatory for every successfully completed audited scope. It is not optional and must not be skipped or replaced by a note in the audit ledger.
-
-### Mandatory step order
-
-1. **Successful audit completion.** The exact scope must be fully audited. All mandatory controls must be complete, the inventory reconciled, and no unresolved material finding may prevent PASS.
-2. **Unconditionally set the entire audited scope to V5 + published.** Every existing record in scope must have `data_version = 5` and `status = 'published'`. This is mandatory, not optional: publication is required for completed postcodes to appear on the map. Apply the change in Supabase, read the records back and verify 100% of the scope. Do not leave any part of a successfully audited scope on an older version or another status.
-3. **Back up directly from Supabase to Dropbox through the connected API.** Use the existing direct Supabase → Dropbox API integration. Do not bypass it with a manual local-file export while the direct path is available. The backup must contain complete, restorable data for every row in the exact audited scope, including the full JSON content, all facts, sources, translations, metadata and identifiers required for restoration. Back up only after V5 + published has been confirmed.
-4. **Verify the Dropbox backup.** An API success response alone is insufficient. Verify that the backup artifact actually exists in Dropbox and can be read; check its scope, record count and consistency with the data in Supabase. The backup must be usable to restore the data to Supabase. If verification fails or the backup is unavailable, stop and DO NOT LOCK the scope.
-5. **Lock exactly the audited scope in Supabase.** Only after a successful, verified backup, apply a database read-only lock to the exact audited postcode list/range. The lock must block `INSERT`, `UPDATE` and `DELETE` for protected records; `SELECT`/reads must remain allowed. Use the existing verified database-trigger mechanism or a safe extension of it. The lock condition must be restricted by `country_code` and the exact completed range/list. Never lock an entire country, another country, an adjacent range or any unaudited records.
-6. **Verify the lock and close the audit.** Verify that protected records cannot be updated or deleted, reads still work, and a representative record outside the scope remains unlocked. Preserve all previously locked scopes unchanged. Record counts, scope, V5/published confirmation, Dropbox backup identifier and location, verification result, lock mechanism/scope and completion date in the audit ledger.
-
-### Non-negotiable conditions
-
-- **Never lock any record unless it has BOTH `data_version = 5` AND `status = 'published'`.** Verify both conditions for every row before locking. If even one record fails, do not activate the lock for that record; first correct its state and re-verify the entire scope.
-- A successful audit automatically leads to V5 + `published` for the entire audited scope. Do not wait for further user approval to publish.
-- The order is fixed: **AUDIT PASS → V5 + PUBLISHED → SUPABASE→DROPBOX BACKUP → BACKUP VERIFICATION → READ-ONLY LOCK → AUDIT CLOSED.**
-- If publication, backup, backup verification or locking fails, report it and do not mark the process closed. Save the exact state and safely resume only from the unfinished step; do not repeat the completed audit.
-- Never delete or release previously locked scopes. Unlocking or changing an existing lock's scope requires a separate, explicitly approved database change.
-- The lock is database-level write protection, not a read ban. Data must remain available to the map and application.
-- Do not introduce AJV or other unnecessary repeated validation workflows. Technical checks against the current schema are part of the audit; do not add a separate automated validation system.
-
-### Closure state
-
-The audited scope is **definitively closed** only after every row is V5 + published, the backup is verified in Dropbox, and the exact scope is locked in Supabase. `PASS` alone, publication alone or merely creating a backup file is not sufficient.
+After a genuine PASS, follow the project's closure procedure: verify the full scope, set V5 + `published` according to project rules, create a complete Supabase-to-Dropbox backup and verify that it is readable and matches the data. Only then apply a read-only lock to the exact audited scope and verify that no records outside it are affected. If publication, backup or backup verification fails, do not lock the scope or report the audit as definitively closed. Never claim a backup or lock exists unless it has actually been completed and verified.
 
 ---
 
-## Binding clarification: map locations and geographic fallbacks
+## Operating principle
 
-This rule clarifies and supersedes any earlier wording in this document that would result in `location: null` merely because exact coordinates are unavailable.
-
-**Goal: every fact that can be meaningfully located must receive a usable map point.** Survey-grade precision is not required. A geographically sensible approximate point is better than an empty location and a missing map pin. `location: null` is a last resort, not the default response to an unknown exact position.
-
-Use this hierarchy:
-
-1. **Specific object or site:** place the pin at the object's actual location (building, monument, museum, bridge, station, etc.).
-2. **Extended area:** choose a representative point inside the real extent of the area. For a park, forest, site, nature reserve, lake or large complex, the point does not need to identify one uniquely surveyed attraction; it may be on a path, near an entrance, at a viewpoint or at another suitable place within the area. The important thing is that the pin is inside the feature and reasonably represents it.
-3. **Historical site or event with unknown exact position:** use a documented approximate location when one can be established. If not, place an orientation pin at the historic settlement centre or a public landmark: village green, square, town hall, municipal office, tourist information centre or another major public reference point. Mark the location as approximate/historical-approximate according to the actual uncertainty. Never imply that the historical site or event stood exactly at this substitute point.
-4. **History of a town, village or urban district:** use its village green, main square, town hall, district office or another clear public centre that helps the map reader orient themselves.
-5. **Transport and infrastructure:** use the relevant railway station, stop, terminal, transport hub or specific infrastructure point to which the information is thematically connected.
-6. **Other local subject without one precise point:** choose the most suitable public reference point in the place genuinely connected with the story. If the fact concerns the postcode area as a whole, use the existing `representative_point` under the `postal_area` rules.
-
-### Accuracy, type and source
-
-- Set `accuracy` honestly: `exact` only for a verified point on the specific object; `approximate` for an approximate point; `area_representative` for a representative point within an extended area; `historical_approximate` for an uncertain historical position. Use only values permitted by the current schema.
-- `name` must describe the actual point where the pin is placed (for example, the square, town hall, station or representative site), not falsely claim to be the exact location of the fact's subject.
-- Select `type` according to the real physical type of the chosen point and the controlled vocabulary in the current schema.
-- `source` must support the location of the chosen point or allow it to be independently verified. For an orientation point, it is sufficient to verify that reference point and its position; the location source does not have to prove that a historical event happened exactly there. The fact's content sources must independently support the story itself.
-- An approximate pin is a map-orientation aid. The fact text must not claim that the event or object was exactly at a point used only as an orientation substitute.
-- Do not copy `representative_point` or `access_point` automatically; use either only when it genuinely satisfies the applicable rule for that fact.
-- If a meaningful area or public reference point can be identified, `location` MUST NOT be `null` merely because the exact position is unknown. Use `null` only when no responsible specific, approximate, representative or orientation point can be established.
-
-**During creation and rework, actively find a usable map point. During audit, treat `null` as a finding to be resolved using this hierarchy; retain it only when the ledger explains why no meaningful point can be established.**
+**The audit checks for major missing tourist topics and genuine geographic, translation, category, duplication and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck existing coordinates. The rework process remains unchanged and retains its full quality requirements.**
