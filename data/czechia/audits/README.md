@@ -681,3 +681,6 @@
 
 
 - Doplňující korekce po úplném přečtení 62500/fact_011: původní hřbitov byl odstraněn roku 1974; správný titulek „zaniklé pohřebiště se zachovanými stopami“ je obnoven ve všech jazycích. Podrobnosti: auditní sekce 157.
+
+
+- Dnešní kontextové opravy pokračovaly také v 60300 a 61400; jejich počty faktů i shoda kanonické češtiny byly ověřeny read-backem. Plná G/H kontrola těchto PSČ přesto zůstává otevřená. Podrobnosti: auditní sekce 158.
