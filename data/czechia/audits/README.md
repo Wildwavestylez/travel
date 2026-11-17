@@ -583,3 +583,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-14000:** Dokončeno zbývajících sedm faktů (001–004, 006, 008, 009) ve všech sedmi jazycích; dříve byly ověřeny 005, 007 a 010. U Michelského dvora doplněn přesný kontext koleje Panny Marie z roku 1438 pro česky mluvící studenty podobojí. Všech 10 faktů má zdroje a záznam zůstává validated. PSČ 14000 dokončeno **10/10**; kumulativně **203/225** v rozsahu 10000–15900. Další krok: PSČ 14100. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-14200:** Uzavřeny zbývající dva fakty: kaplička sv. Petra a Pavla ve Lhotce a biotopové koupaliště Lhotka. Oba ověřeny ve všech sedmi jazycích; potvrzena nejistá datace kapličky, památková ochrana a přesné rozměry koupacího jezera. PSČ 14200 dokončeno **5/5 faktů**; kumulativně **205/225** v rozsahu 10000–15900. Další krok: PSČ 14300. Nuselský most zůstává uzamčen.
