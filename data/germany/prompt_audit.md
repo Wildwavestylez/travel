@@ -68,6 +68,17 @@ Check all seven languages: `cs, de, en, es, fr, it, nl`.
 
 Fix errors that change meaning or demonstrably damage a translation. Do not rewrite correct, understandable translations for stylistic alternatives, minor nuances or personal preference.
 
+
+### E2. Text length and sufficient substance
+
+Check the `text` field of every fact independently in all seven language versions. The target length is **500–600 characters including spaces**. Count the actual text content, not JSON markup or wrapper structure.
+- 500–600 characters: leave unchanged unless the text is obviously perfunctory or substantively defective.
+- Under 500 characters: expand with specific, relevant and verifiable information, context or an interesting detail.
+- Over 600 characters: shorten proportionately without losing essential information.
+- Preserve natural language, factual accuracy and meaning across all languages. Adapt each language naturally; do not mechanically pad translations.
+- Do not add filler, repetition or unverified details. If a text cannot safely be expanded with verified information, mark it `REVIEW REQUIRED` and continue.
+- Recount after editing and confirm the text is within the target range. Do not restart comprehensive research for every fact.
+
 ### F. JSON, database and technical consistency
 
 Check:
