@@ -565,3 +565,6 @@
 
 
 **Plná sémantická kontrola 2026-11-17 — CZ-11800:** Dokončeno všech 11 faktů ve všech sedmi jazycích (77 jazykových verzí). Opraven titulek chrámu sv. Mikuláše z „fresek“ na přesnější „nástěnné malby“ a aktualizován počet knih Strahovské knihovny z 200 000 na přibližně **300 000 svazků** podle oficiálního webu kláštera. Ostatní fakta ověřena bez věcných oprav. PSČ 11800 dokončeno **11/11**; kumulativně **164/225** v rozsahu 10000–15900. Další krok: PSČ 11900. Nuselský most zůstává uzamčen.
+
+
+**Plná sémantická kontrola 2026-11-17 — CZ-11900:** Dokončeno všech šest faktů ve všech sedmi jazycích (42 jazykových verzí). Opraven titulek katedrály sv. Víta na přesné „tisíciletí stavebního vývoje“ a u Pražského hradu formulace o Bořivojovi: sídlo přenesl na místo již existujícího slovanského hradiště, nezaložil je. Opravy synchronizovány v sedmi jazycích. PSČ 11900 dokončeno **6/6**; kumulativně **170/225** v rozsahu 10000–15900. Další krok: další neuzavřené PSČ podle sequence.json. Nuselský most zůstává uzamčen.
