@@ -619,3 +619,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-63400 (oddíl 139):** Dokončena kontrola 4 faktů ve všech 7 jazycích (28 verzí). Aktualizovány odborné odhady populace koniklece velkokvětého v rezervaci Kamenný vrch (monitoring 2021: 63 391 trsů; pečovatelé v březnu 2026 uváděli přes 61 000), doplněna 250m vyvýšená lávka otevřená v roce 2024. Upřesněny archeologické pojmy u neolitického sídliště a location source sídliště Nový Lískovec. SQL read-back: 4 fakta, 21 root zdrojů, 0 prázdných fact.sources, 0 null, 0 chybějících location klíčů, 0 neúplných poloh, 0 rozdílů canonical/CS. Všech 7 jazyků má 4/4 faktů; status `validated`, data_version 1 zachovány. AJV nadále čeká na nastavení GitHub Actions secrets podle oddílu 37.46. Další krok: 63500. Viz oddíl 139 taháku.
+
+
+**Uživatelské rozhodnutí 2026-11-17 — AJV zrušen:** Externí AJV validace ani GitHub Actions workflow nejsou součástí auditu. Nebudou se nastavovat žádné GitHub secrets ani jiné klíče. Historické zmínky o původním pokusu jsou ponechány pouze jako auditní historie; neblokují stav ani další práci.
