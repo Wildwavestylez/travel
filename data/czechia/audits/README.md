@@ -641,3 +641,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-63900 (oddíl 145):** Dokončena sémantická kontrola všech 3 existujících faktů ve všech 7 jazycích (21 verzí): AZ Tower/N Tower, Ústřední hřbitov a krematorium Ernsta Wiesnera. Bez překladových závad vyžadujících opravu. SQL read-back: 3 fakta, 7 jazyků, 21 překladů, 0 prázdných polí, 0 ID/order mismatch, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů a 0 neplatných souřadnic. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená; nebyla přidána žádná lokalita. Viz oddíl 145 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-64100 (oddíl 146):** Dokončena společná kontrola 10 existujících faktů ve všech 7 jazycích (70 verzí). V DE/EN/ES/FR/IT/NL u fact_004 doplněno vysvětlení československých legií; read-back ověřil všech 7 verzí. GEO-06 Jan Prokeš uzavřen: primární událostní záznam uvádí Bukovou a tehdejší čp. 119, profil osobnosti uvádí pamětní desku Buková 19/01; Bartolomějská 0/01 je samostatný sousední objekt. Přesný mapový bod zůstává záměrně null. SQL read-back: 10 faktů, 7 jazyků, 70 překladů, 0 count/ID/order mismatch, 0 prázdných polí, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů, 0 neplatných souřadnic. Status validated, data_version 1 zachovány; Brána 0 zůstává uzavřena. Viz oddíl 146 taháku.
