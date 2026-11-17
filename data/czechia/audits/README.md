@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | REVIEW REQUIRED — obsahové kontroly PASS; 8 záznamů V1 čeká na uživatelské rozhodnutí o sjednocení V5/publikaci |
+| CZ-16000-19900 | 16000–19900 | [16000-19900_audit.md](16000-19900_audit.md) | PASS — 26/26 V5 + published; záloha VERIFIED; read-only zámek neproveden |
 | CZ-60200-64400 | 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | REVIEW REQUIRED — obsahové kontroly hotové; čeká AJV, V5/published, ověřená záloha a read-only zámek |\n| CZ-PLZEN-30100-33001 | 30100, 31200, 31600, 31800, 32100, 32200, 32300, 32600, 33001 | [30100-33001_plzen_audit.md](30100-33001_plzen_audit.md) | IN PROGRESS — opakovaný audit podle V2.0; dočasně odemčeno |
 
 ## Pravidla registru
