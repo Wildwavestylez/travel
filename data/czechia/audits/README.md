@@ -530,3 +530,6 @@
 
 
 **Doplnění 2026-11-17 — F-64200 / Bohuslav Kilian:** U 64200/fact_010 doplněn doložený rodný dům na Pražské 171/43 podle Encyklopedie Brna; adresu a PSČ 64200 potvrzuje registr budov ČSÚ. Souřadnice uloženy jako `approximate` a read-back potvrzen. Viz oddíl 129 taháku.
+
+
+**Doplnění 2026-11-17 — F-63600/64100/64200/64300/64400:** Posouzeno dalších 7 explicitních null (historie Židenic, Žebětína, literární krajina Ríšovy, hostinec U Brücknerů, povodeň Leskavy, historie Chrlic a Soběšic). Většina popisuje celé sídlo, více lokalit nebo liniovou událost; u U Brücknerů je zatím doloženo pouze náměstí bez jednoznačné parcely. Žádná spekulativní poloha nebyla doplněna. Viz oddíl 130 taháku.
