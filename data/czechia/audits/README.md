@@ -704,3 +704,14 @@
 - Nové faktové doplnění v těchto dvou PSČ: Bosonožský lom, Bosonožská orlovna, Vrbovecký mlýn, pomník obětem první světové války a socha sv. Jana Nepomuckého. Obsahové změny a zdroje jsou zaznamenány v auditních oddílech 162–163.
 - Další otevřená tematická kontrola v pořadí `sequence.json`: **CZ-64300 — Brno-Chrlice**.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští, dokud neprojdou všechny povinné části celého rozsahu.
+
+
+## Aktuální stav po CZ-64300 — 2026-11-17
+
+- Rozsah 60200–64400: **27 PSČ, 216 faktů, 1 512 jazykových položek**.
+- Všech 27 záznamů zůstává `validated`, `data_version=1`; žádný záznam není publikován.
+- E/G/H a vlastní SQL read-back jsou uzavřeny pro **CZ-64100, CZ-64200 a CZ-64300**.
+- CZ-64300 má 8 faktů / 56 jazykových verzí. Doplněno Kino Sibiř/Svět/Dukla a soubor kaple Panny Marie se zvonicí; `fact_007/location=null` je záměrné kvůli vícemístnému příběhu bez bezpečného jediného bodu.
+- Podrobnosti: auditní oddíly 162–164.
+- Další otevřená tematická kontrola v pořadí `sequence.json`: **CZ-64400**.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí.
