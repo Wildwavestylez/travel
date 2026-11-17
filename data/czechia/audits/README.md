@@ -672,11 +672,11 @@
 
 ## Aktuální stav — 2026-11-17 (nahrazuje starší souhrny)
 
-- Rozsah 60200–64400: **27 PSČ, 201 faktů, 1 407 jazykových verzí** (7 jazyků na fakt).
+- Rozsah 60200–64400: **27 PSČ, 207 faktů, 1 449 jazykových verzí** (7 jazyků na fakt).
 - Strukturální read-back Supabase: 27/27 záznamů, 189/189 jazykových větví; bez chyb v počtech překladů, shodě kanonické češtiny, lokacích, zdrojových vazbách, ID faktů, enum hodnotách, administrativních polích nebo stavech `validated`/`data_version=1`.
 - RÚIAN CSV potvrzuje všech 27 PSČ a kladný počet adresních bodů; `sequence.json` a skupiny obsahují stejných 2 677 kódů bez duplicit. Rozsah 60200–64400 se shoduje s DB.
 - Samostatná Brána 0 zůstává zavřená. Audit pokračuje podle promptu V1.2.
-- Cílené jazykové a kontextové opravy jsou zaznamenány v auditu, sekce 156. Plná sémantická G/H kontrola všech textů a významové pokrytí E však zůstávají **OPEN**.
+- Cílené jazykové a kontextové opravy jsou zaznamenány v auditu, sekce 156 a 159. Plná sémantická G/H kontrola všech textů a významové pokrytí E však zůstávají **OPEN**.
 - V5 snapshot, published export, záloha a auditní lock zatím nejsou povoleny; spustí se až po PASS všech povinných částí E/G/H a závěrečném read-backu.
 
 
@@ -684,3 +684,6 @@
 
 
 - Dnešní kontextové opravy pokračovaly také v 60300 a 61400; jejich počty faktů i shoda kanonické češtiny byly ověřeny read-backem. Plná G/H kontrola těchto PSČ přesto zůstává otevřená. Podrobnosti: auditní sekce 158.
+
+
+**Checkpoint 2026-11-17 — CZ-63700 / oddíl 159:** Po tematické rešerši bylo v 63700 doplněno 12 faktů (fact_005–fact_016), opraven rok otevření rozhledny Holedná 2018→2020 ve všech jazycích a opravena mapová kategorie zaniklé kaple. Read-back: 16 faktů, 7 jazyků, 112 překladových položek, 61 unikátních root zdrojů; 0 canonical/CS rozdílů, 0 null/neúplných poloh, 0 chybějících zdrojů, 0 duplicitních ID/URL a 0 neplatných enumů. Status validated, data_version 1. G/H pro 63700 je REVIEW COMPLETE; E zůstává IN PROGRESS kvůli nevyřešenému druhému záznamu legionářského památníku v oboře Holedná 0/04. Celý rozsah nyní 27 PSČ, 207 faktů a 1 449 jazykových položek; 0 published. Podrobnosti v oddílu 159 kanonického taháku. Brána 0 zavřená.
