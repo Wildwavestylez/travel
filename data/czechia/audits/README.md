@@ -536,3 +536,8 @@
 
 
 **Read-back 2026-11-17 — F po dodatcích 122–130:** Supabase potvrzuje 176 faktů, 162 vyplněných poloh, 14 explicitních null a 0 chybějících klíčů location. Tři polohy byly nově doplněny (62100/fact_003, 63700/fact_003, 64200/fact_010); ostatní null byly individuálně posouzeny jako oprávněné nebo zůstávají samostatně otevřené. Viz oddíl 131 taháku.
+
+
+**Uživatelské rozhodnutí 2026-11-17 — CZ-10000-15900:** 12800/fact_011 (Nuselský most) uzamčen na výslovný pokyn uživatele. Stav **USER-LOCKED / CLOSED BY USER DECISION**; dále neprověřovat, neupravovat, nepřesouvat ani znovu neotevírat. Historické záznamy REVIEW REQUIRED / HIGH zůstávají pouze jako auditní historie a jsou tímto rozhodnutím nahrazeny.
+
+**Pokračování sémantiky 2026-11-17 — CZ-10000-15900:** v PSČ 11000 nově plně sémanticky ověřeny fact_001 a fact_005 ve všech 7 jazycích (14 jazykových verzí). Opraveno autorství/chronologie úpravy pražského orloje a objednatel Domu U Černé Matky Boží (stavitel Josef Herbst) v kanonické češtině a šesti překladech. Již dříve dokončený fact_002 se znovu nepočítá. Kumulativně **122/225 faktů**. Další krok: 11000/fact_003; Nuselský most je uzamčená výjimka.
