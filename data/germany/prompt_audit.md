@@ -112,7 +112,7 @@ At the end, provide one concise report: scope and postcode counts, result, major
 
 ## 6. Closing a successful audit
 
-After a genuine PASS, follow the project's closure procedure: verify the full scope, set V5 + `published` according to project rules, create a complete Supabase-to-Dropbox backup and verify that it is readable and matches the data. Only then apply a read-only lock to the exact audited scope and verify that no records outside it are affected. If publication, backup or backup verification fails, do not lock the scope or report the audit as definitively closed. Never claim a backup or lock exists unless it has actually been completed and verified.
+After completing the audit, report the results and hand the scope back to the user. **The user alone handles publication (V5 + published), Supabase-to-Dropbox backups and read-only Supabase locking.** Do not initiate or perform these operations, and do not request credentials for them. Do not claim that a scope is published, backed up or locked unless the user confirms it.
 
 ---
 
