@@ -6,7 +6,7 @@
 
 Audit existing German records in `public.postal_codes` (`country_code = 'DE'`) and correct material defects. This is not a second rework and not a new round of comprehensive research.
 
-**NON--NEGOTIABLE SEPARATION:** This prompt applies to the audit only. Its selection criteria, simplifications and limitations must never be transferred to `data/germany/prompt_rework.md`, the German Content Standard, the schema or the creation of new records. Those documents remain unchanged and fully binding for production. During rework, follow only the current rework documentation. Never use an audit limitation to justify omitting or simplifying production research, facts, translations or quality requirements.
+**NON-NEGOTIABLE SEPARATION:** This prompt applies to the audit only. Its selection criteria, simplifications and limitations must never be transferred to `data/germany/prompt_rework.md`, the German Content Standard, the schema or the creation of new records. Those documents remain unchanged and fully binding for production. During rework, follow only the current rework documentation. Never use an audit limitation to justify omitting or simplifying production research, facts, translations or quality requirements.
 
 Authority: the schema defines structure and permitted values; the German Content Standard and rework prompt define production and geographic rules; this prompt defines only the narrower audit scope.
 
