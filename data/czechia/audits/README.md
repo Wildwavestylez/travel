@@ -556,3 +556,6 @@
 
 
 **Sémantický průchod 2026-11-17 — CZ-11000/fact_023–fact_028:** Dokončena kontrola šesti faktů ve všech sedmi jazycích (42 jazykových verzí). Opravena biografická chyba u Paláce Kinských: Franz Kafka se zde nenarodil; navštěvoval zde německé gymnázium v letech 1893–1901 a jeho otec měl v přízemí obchod s galanterií od roku 1912. U Clam-Gallasova paláce byla chronologie formulována bezpečněji jako zahájení stavby 1713 a pokračování dědicem po roce 1719. Vše synchronizováno v sedmi jazycích. PSČ 11000 nyní 28/32 faktů plně sémanticky ověřeno; kumulativně **145/225** v rozsahu 10000–15900. Další krok: 11000/fact_029–fact_032. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-11000/fact_029–fact_032:** Dokončena kontrola posledních čtyř faktů ve všech sedmi jazycích (28 jazykových verzí). Opravena chyba u chrámu sv. Mikuláše: křišťálový lustr věnoval roku 1880 pravoslavné církvi car **Mikuláš II.**, nikoli Alexandr II.; oprava a historická návaznost 1787–1871–1920 synchronizovány v sedmi jazycích. Pomník Jana Husa, Mariánský sloup a Karlův most ověřeny bez věcné opravy. **PSČ 11000 dokončeno sémanticky 32/32 faktů.** Kumulativně **149/225** faktů v rozsahu 10000–15900. Další krok: další neuzavřené PSČ dle sequence.json; Nuselský most zůstává uzamčen.
