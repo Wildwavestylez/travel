@@ -527,3 +527,6 @@
 
 
 **Doplnění 2026-11-17 — F-63700:** U 63700/fact_003 byla podle Encyklopedie Brna doplněna historicky přibližná poloha zaniklé kaple sv. Josefa na křižovatce Nálepkovy a Lelkovy; read-back potvrzen. Jundrovské ledárny (fact_002) byly posouzeny jako vícemístný průmyslový soubor na obou březích Svratky, takže `location: null` zůstává správně. Viz oddíl 128 taháku.
+
+
+**Doplnění 2026-11-17 — F-64200 / Bohuslav Kilian:** U 64200/fact_010 doplněn doložený rodný dům na Pražské 171/43 podle Encyklopedie Brna; adresu a PSČ 64200 potvrzuje registr budov ČSÚ. Souřadnice uloženy jako `approximate` a read-back potvrzen. Viz oddíl 129 taháku.
