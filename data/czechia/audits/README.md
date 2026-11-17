@@ -589,3 +589,6 @@
 
 
 **Dokončení sémantiky 2026-11-17 — CZ-14300:** Uzavřeny zbývající tři fakta (kostel Nanebevzetí Panny Marie, cukrovar a boží muka U Pily) ve všech sedmi jazycích. U kostela zpřesněn titulek tak, aby netvrdil nedoložené dochované středověké jádro; u božích muk zachována opatrnost vůči místní kronikářské tradici o boji 1757. PSČ 14300 dokončeno **6/6**; kumulativně **210/225** v rozsahu 10000–15900. Další krok: PSČ 14700. Nuselský most zůstává uzamčen.
+
+
+**Pokračování auditu 2026-11-17 — CZ-62300 (oddíl 134):** Dokončena kontrola 9 faktů ve všech 7 jazycích (63 verzí). Opraveny polohové zdroje historické školy, kapličky a vodojemu; zpřesněna poloha bývalé školy. Ve všech jazycích transparentně popsány tři zdrojové rozpory: zvon kaple 1916/1917, datum vyhlášení Údolí Kohoutovického potoka v různých dnech roku 1987 a odhalení pamětní desky 2005/2006. Délka stezky sjednocena na přibližně 1,2 km. E kontrola potvrdila dostatečné tematické pokrytí; Obora Holedná se neduplikuje, protože je již evidována v 63700. SQL read-back: 9 faktů, 32 root zdrojů, 1 oprávněný null (vícemístné veřejné umění), 0 chybějících location klíčů, 0 neúplných poloh, 0 mimo WGS84, 0 nepovolených fact enumů; 7/7 jazyků, 0 canonical/CS rozdílů. Status `validated`, data_version 1 zachovány. PSČ 62200 v inventáři/databázi není; další existující PSČ: 62400. Viz oddíl 134 taháku.
