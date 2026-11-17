@@ -155,3 +155,31 @@ Prepare an immutable AUDITED snapshot only if the repository's agreed backup wor
 ## 9. Operating principle
 
 **Audit each German postcode once, completely and with evidence. Correct safe confirmed defects, validate the saved result, lock completed records and move forward. Resume only open work. Germany uses German postal and administrative evidence—not Czech RÚIAN. The audit is a finite quality-control process, not an endless search for marginal attractions.**
+---
+
+## 10. MANDATORY AUDIT CLOSURE — V5, PUBLISHED, BACKUP, LOCK
+
+This procedure is mandatory for every successfully completed audited scope. It is not optional and must not be skipped or replaced by a note in the audit ledger.
+
+### Mandatory step order
+
+1. **Successful audit completion.** The exact scope must be fully audited. All mandatory controls must be complete, the inventory reconciled, and no unresolved material finding may prevent PASS.
+2. **Unconditionally set the entire audited scope to V5 + published.** Every existing record in scope must have `data_version = 5` and `status = 'published'`. This is mandatory, not optional: publication is required for completed postcodes to appear on the map. Apply the change in Supabase, read the records back and verify 100% of the scope. Do not leave any part of a successfully audited scope on an older version or another status.
+3. **Back up directly from Supabase to Dropbox through the connected API.** Use the existing direct Supabase → Dropbox API integration. Do not bypass it with a manual local-file export while the direct path is available. The backup must contain complete, restorable data for every row in the exact audited scope, including the full JSON content, all facts, sources, translations, metadata and identifiers required for restoration. Back up only after V5 + published has been confirmed.
+4. **Verify the Dropbox backup.** An API success response alone is insufficient. Verify that the backup artifact actually exists in Dropbox and can be read; check its scope, record count and consistency with the data in Supabase. The backup must be usable to restore the data to Supabase. If verification fails or the backup is unavailable, stop and DO NOT LOCK the scope.
+5. **Lock exactly the audited scope in Supabase.** Only after a successful, verified backup, apply a database read-only lock to the exact audited postcode list/range. The lock must block `INSERT`, `UPDATE` and `DELETE` for protected records; `SELECT`/reads must remain allowed. Use the existing verified database-trigger mechanism or a safe extension of it. The lock condition must be restricted by `country_code` and the exact completed range/list. Never lock an entire country, another country, an adjacent range or any unaudited records.
+6. **Verify the lock and close the audit.** Verify that protected records cannot be updated or deleted, reads still work, and a representative record outside the scope remains unlocked. Preserve all previously locked scopes unchanged. Record counts, scope, V5/published confirmation, Dropbox backup identifier and location, verification result, lock mechanism/scope and completion date in the audit ledger.
+
+### Non-negotiable conditions
+
+- **Never lock any record unless it has BOTH `data_version = 5` AND `status = 'published'`.** Verify both conditions for every row before locking. If even one record fails, do not activate the lock for that record; first correct its state and re-verify the entire scope.
+- A successful audit automatically leads to V5 + `published` for the entire audited scope. Do not wait for further user approval to publish.
+- The order is fixed: **AUDIT PASS → V5 + PUBLISHED → SUPABASE→DROPBOX BACKUP → BACKUP VERIFICATION → READ-ONLY LOCK → AUDIT CLOSED.**
+- If publication, backup, backup verification or locking fails, report it and do not mark the process closed. Save the exact state and safely resume only from the unfinished step; do not repeat the completed audit.
+- Never delete or release previously locked scopes. Unlocking or changing an existing lock's scope requires a separate, explicitly approved database change.
+- The lock is database-level write protection, not a read ban. Data must remain available to the map and application.
+- Do not introduce AJV or other unnecessary repeated validation workflows. Technical checks against the current schema are part of the audit; do not add a separate automated validation system.
+
+### Closure state
+
+The audited scope is **definitively closed** only after every row is V5 + published, the backup is verified in Dropbox, and the exact scope is locked in Supabase. `PASS` alone, publication alone or merely creating a backup file is not sufficient.
