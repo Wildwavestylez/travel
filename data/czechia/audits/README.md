@@ -638,3 +638,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-63800 (oddíl 144):** Dokončena sémantická kontrola všech 4 existujících faktů ve všech 7 jazycích (28 verzí): sídliště Lesná, kostel Marie Restituty, Čertova rokle a veřejné umění. Bez věcných či jazykových závad vyžadujících opravu. SQL read-back: 4 fakta, 7 jazyků, 28 překladů, 0 prázdných polí, 0 ID/order mismatch, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů a 0 neplatných souřadnic. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená; nebyla přidána žádná lokalita. Viz oddíl 144 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-63900 (oddíl 145):** Dokončena sémantická kontrola všech 3 existujících faktů ve všech 7 jazycích (21 verzí): AZ Tower/N Tower, Ústřední hřbitov a krematorium Ernsta Wiesnera. Bez překladových závad vyžadujících opravu. SQL read-back: 3 fakta, 7 jazyků, 21 překladů, 0 prázdných polí, 0 ID/order mismatch, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů a 0 neplatných souřadnic. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená; nebyla přidána žádná lokalita. Viz oddíl 145 taháku.
