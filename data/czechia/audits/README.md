@@ -668,3 +668,13 @@
 
 
 **Doplnění 2026-11-17 — CZ-16000-19900 / checkpoint 38.2:** Read-back potvrdil 26 PSČ, 133 faktů a 931 jazykových položek; 0 null/invalid location, 0 překladových ID/order mismatch, 0 canonical/CS rozdílů a 0 administrativních chyb. Opraveny texty 16000/fact_004 (Matějská pouť), 19300/fact_001 (falzum listiny 1088) a 19016/fact_003 (zaniklý kostel u Staroújezdské 65), vždy ve všech sedmi jazycích. Fakt kostela v Karlíně byl na základě RÚIAN a souřadnic farnosti přesunut z 18000 do 18600 bez změny celkového počtu faktů. Všechna existující fakta mají mapovou polohu; 22 access_point zůstává neověřeno a dva postcode_conflict zůstávají otevřené. Brána 0 zůstává zavřená; 0 published, žádná V5 migrace, záloha ani lock. Podrobnosti a přesný další krok v oddílu 38.2 kanonického taháku.
+
+
+## Aktuální stav — 2026-11-17 (nahrazuje starší souhrny)
+
+- Rozsah 60200–64400: **27 PSČ, 201 faktů, 1 407 jazykových verzí** (7 jazyků na fakt).
+- Strukturální read-back Supabase: 27/27 záznamů, 189/189 jazykových větví; bez chyb v počtech překladů, shodě kanonické češtiny, lokacích, zdrojových vazbách, ID faktů, enum hodnotách, administrativních polích nebo stavech `validated`/`data_version=1`.
+- RÚIAN CSV potvrzuje všech 27 PSČ a kladný počet adresních bodů; `sequence.json` a skupiny obsahují stejných 2 677 kódů bez duplicit. Rozsah 60200–64400 se shoduje s DB.
+- Samostatná Brána 0 zůstává zavřená. Audit pokračuje podle promptu V1.2.
+- Cílené jazykové a kontextové opravy jsou zaznamenány v auditu, sekce 156. Plná sémantická G/H kontrola všech textů a významové pokrytí E však zůstávají **OPEN**.
+- V5 snapshot, published export, záloha a auditní lock zatím nejsou povoleny; spustí se až po PASS všech povinných částí E/G/H a závěrečném read-backu.
