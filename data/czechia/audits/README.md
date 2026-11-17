@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav oprav | Stav úplného auditu | Poslední aktualizace |
 |---|---|---|---|---|---|
-| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Původní překladové blokery opraveny; doplněny nové lokality, audit pokračuje | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 199 faktů, 1 393 překladů; E/G/H a snapshot/publikace otevřeny | 2026-11-17 |
+| CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Původní překladové blokery opraveny; doplněny nové lokality, audit pokračuje | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 195 faktů, 1 365 překladů; E/G/H a snapshot/publikace otevřeny | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
 | CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 133 faktů / 931 jazykových položek; 11 doložených doplnění, 1 administrativní pseudo-fakt odstraněn; county opraveno 26/26 | IN PROGRESS / REVIEW REQUIRED — A inventura PASS; B–H PARTIAL; I strukturální schema PASS, metadata/URL pending; bez publikace/zámku | 2026-11-17 |
 
@@ -647,3 +647,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-63500 (oddíl 147):** Společná kontrola všech 9 aktuálně existujících faktů ve všech 7 jazycích (63 verzí); odstraněný duplicitní fact_003 se nevrací. Opraven německý titul fact_007 a fact_009 ve všech šesti cizích jazycích: Kounicovy koleje správně vysvětleny jako brněnská policejní věznice gestapa, nikoli „kasematy“. Read-back: 9 faktů, 7 jazyků, 63 překladů, 0 count/ID/order mismatch, 0 prázdných polí, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů a 0 neplatných souřadnic. Status validated, data_version 1 zachovány; bez nových faktů a bez otevření Brány 0. Viz oddíl 147 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-61400 (oddíl 148):** Dřívější G/H checkpoint uzavřel 5 faktů; nyní byl navíc zkontrolován aktuálně existující fact_006 ve všech 7 jazycích. Všech 7 verzí zachovává obsah o Cacovickém ostrově, náhonu, historickém mlýně a revitalizaci; bez jazykové opravy. Aktuální SQL read-back: 6 faktů, 7 jazyků, 42 překladů, 0 count/ID/order mismatch, 0 prázdných polí, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů, 0 neplatných souřadnic, 0 duplicitních ID. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená. Viz oddíl 148 taháku.
