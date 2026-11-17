@@ -71,13 +71,15 @@ Fix errors that change meaning or demonstrably damage a translation. Do not rewr
 ### F. JSON, database and technical consistency
 
 Check:
-- valid JSON and compliance with the current `schema.json`;
+- basic structural consistency of existing JSON data using already available checks and the current `schema.json`;
 - required fields, data types, permitted values, IDs and fact order;
 - correct fact-to-postcode assignment and no corrupted or unintended duplicate records;
 - consistency of the database inventory, sequence and `groups` — each expected postcode appears exactly once;
 - correct country, status and version under the current project lifecycle.
 
 Record sequence or inventory discrepancies; do not change the sequence or audit scope without explicit authority.
+
+**AJV and other separate validation runs are not required.** Do not run AJV, install packages for the audit, or request tokens, passwords, access keys or a new validation environment. If basic structural and database checks have already been completed, do not repeat them. Only read back a specific corrected item to verify that correction, then continue.
 
 ### G. Coordinates — no blanket rechecking
 
@@ -106,7 +108,7 @@ Maintain one canonical ledger for the exact scope. Keep it concise: inventory, c
 
 On resumption, read the ledger and continue only with open items. Never repeat completed work.
 
-At the end, provide one concise report: scope and postcode counts, result, major missing topics, counts/types of genuine defects, corrections made, unresolved items and technical validation result.
+At the end, provide one concise report: scope and postcode counts, result, major missing topics, counts/types of genuine defects, corrections made, unresolved items and the result of already available basic technical checks (no separate AJV run).
 
 ## 6. Closing a successful audit
 
