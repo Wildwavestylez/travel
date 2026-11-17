@@ -577,3 +577,6 @@
 
 
 **Pokračování sémantiky 2026-11-17 — CZ-12800:** Po dříve uzavřených faktech 001, 003 a 009 dokončeno dalších sedm (002, 004, 005, 006, 007, 008, 010) ve všech sedmi jazycích. Opravena rozloha a výška sálu Gorlice na 290 m² / 12 m podle aktuálního Prague City Tourism; upřesněn titul baziliky „více než 950 let“; opraven kontext 17. listopadu 1989 (uzavření univerzit 17. 11. 1939, Jan Opletal zemřel 11. 11. 1939). Doplněny překlady a historické souvislosti. **12800 má 10 ověřených faktů a 1 uživatelsky uzamčenou výjimku.** Nuselský most se dále neřeší. Kumulativně **185/225** faktů v rozsahu 10000–15900. Další krok: PSČ 13000.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-13000:** Uzavřeno zbývajících 11 faktů (002–009, 011, 013, 014) ve všech sedmi jazycích. Ověřeny technické a průmyslové památky Žižkova, kostely, Betlémská kaple, Atrium, Rajská zahrada a oba židovské hřbitovy. Bez nutnosti zásadní věcné opravy; všechny zdroje jsou přítomny. PSČ 13000 dokončeno **14/14 faktů**; kumulativně **196/225** v rozsahu 10000–15900. Další krok: další neuzavřené PSČ dle sequence.json. Nuselský most zůstává uzamčen.
