@@ -693,3 +693,14 @@
 
 
 **Checkpoint 2026-11-17 — CZ-63900 / oddíl 161:** E/G/H pro 63900 dokončeno. Doplněna Kamenná čtvrť (dělnická kolonie v bývalém kamenolomu) a NPP Červený kopec (0,5476 ha, vyhlášení 24. 11. 1970, nejúplnější sled spraší a fosilních půd ve střední Evropě; návaznost na Kohnovu cihelnu). Read-back: 5 faktů × 7 jazyků, 35 položek, 34 unikátních root zdrojů; 0 canonical/CS rozdílů, 0 chybějících zdrojů, 0 null/neúplných poloh, 0 duplicitních ID/URL a 0 nepovolených enumů. Status validated, data_version 1. Celý rozsah nyní 27 PSČ, 209 faktů a 1 463 jazykových položek; 0 published. Podrobnosti v oddílu 161 kanonického taháku. Brána 0 zavřená.
+
+
+## Aktuální stav po pokračování auditu 64100 a 64200 — 2026-11-17
+
+- Rozsah 60200–64400: **27 PSČ, 214 faktů, 1 498 jazykových položek** (7 jazyků na každý fakt).
+- Všech 27 záznamů zůstává `validated`, `data_version=1`; žádný záznam není publikován.
+- **CZ-64100:** 13 faktů / 91 jazykových verzí. E/G/H dokončeno; GEO-06 uzavřeno; F/I cílený SQL read-back bez nálezu.
+- **CZ-64200:** 13 faktů / 91 jazykových verzí. E/G/H dokončeno; F/I cílený SQL read-back bez nálezu.
+- Nové faktové doplnění v těchto dvou PSČ: Bosonožský lom, Bosonožská orlovna, Vrbovecký mlýn, pomník obětem první světové války a socha sv. Jana Nepomuckého. Obsahové změny a zdroje jsou zaznamenány v auditních oddílech 162–163.
+- Další otevřená tematická kontrola v pořadí `sequence.json`: **CZ-64300 — Brno-Chrlice**.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští, dokud neprojdou všechny povinné části celého rozsahu.
