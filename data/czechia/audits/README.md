@@ -715,3 +715,14 @@
 - Podrobnosti: auditní oddíly 162–164.
 - Další otevřená tematická kontrola v pořadí `sequence.json`: **CZ-64400**.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí.
+
+
+## Aktuální stav po CZ-64400 — 2026-11-17
+
+- Rozsah 60200–64400: **27 PSČ, 222 faktů, 1 554 jazykových položek** podle aktuálního Supabase snapshotu.
+- Všech 27 záznamů zůstává validated, data_version=1; žádný není published.
+- E/G/H a cílený F/I read-back jsou doloženy pro **CZ-64100, CZ-64200, CZ-64300 a CZ-64400**.
+- **CZ-64400:** 5 faktů / 35 jazykových verzí. Tematické pokrytí Soběšic uzavřeno bez blokující mezery. Opravena opětovně vložená duplicita pracoviště Jezírko; správné fyzické zařazení zůstává v 66401/fact_007.
+- Podrobnosti a důkazy: [auditní tahák 60200–64400](60200-64400_audit.md), oddíl 165.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí A–I.
+- Další práce: gap-check zbývajících otevřených oblastí A–I v kanonickém taháku; neopakovat zamčené kontroly ani neotevírat Bránu 0.
