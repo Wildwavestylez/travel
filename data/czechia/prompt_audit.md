@@ -70,13 +70,15 @@ Oprav chyby, které mění význam nebo prokazatelně poškozují překlad. Spr�
 ### F. JSON, databáze a technická konzistence
 
 Ověř:
-- validní JSON a soulad s aktuálním `schema.json`;
+- základní strukturální konzistence existujících JSON dat podle již dostupných kontrol a aktuálního `schema.json`;
 - povinná pole, datové typy, povolené hodnoty, ID a pořadí faktů;
 - správné přiřazení faktů k PSČ a nepřítomnost poškozených či nechtěných duplicit;
 - soulad inventáře databáze, `sequence.json` a `groups` — každý očekávaný kód právě jednou;
 - správnou zemi, status a verzi podle aktuálního životního cyklu projektu.
 
 Rozpor v sekvenci nebo inventáři zaznamenej; neměň `sequence.json` ani rozsah bez výslovného oprávnění.
+
+**AJV a další samostatné validační běhy nejsou požadované.** Nespouštěj AJV, neinstaluj kvůli auditu balíčky a nevyžaduj žádné tokeny, hesla, přístupové klíče ani nové validační prostředí. Pokud už byly základní strukturální a databázové kontroly provedeny, nepouštěj je znovu. Ověř pouze konkrétní opravenou položku načtením zpět a pokračuj.
 
 ### G. Souřadnice — žádná plošná kontrola
 
@@ -105,7 +107,7 @@ Používej jeden kanonický tahák pro přesný rozsah. Zapiš do něj pouze inv
 
 Při pokračování načti tahák a pokračuj pouze otevřenými položkami. Hotovou práci neopakuj.
 
-Na konci předlož stručný report: rozsah a počty PSČ, výsledek, zásadní chybějící témata, počty a typy skutečných chyb, provedené opravy, nevyřešené položky a výsledek technické validace.
+Na konci předlož stručný report: rozsah a počty PSČ, výsledek, zásadní chybějící témata, počty a typy skutečných chyb, provedené opravy, nevyřešené položky a výsledek již dostupných základních technických kontrol (bez samostatného AJV běhu).
 
 ## 6. Uzavření úspěšného auditu
 
