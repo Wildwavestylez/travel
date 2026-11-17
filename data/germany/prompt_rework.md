@@ -228,3 +228,32 @@ Use this hierarchy:
 - If a meaningful area or public reference point can be identified, `location` MUST NOT be `null` merely because the exact position is unknown. Use `null` only when no responsible specific, approximate, representative or orientation point can be established.
 
 **During creation and rework, actively find a usable map point. During audit, treat `null` as a finding to be resolved using this hierarchy; retain it only when the ledger explains why no meaningful point can be established.**
+
+---
+
+## Binding editorial rule — legends, chronicles and proportionate historical dating
+
+This rule applies to the selection, writing, reworking and translation of all historical and local stories.
+
+### 1. Tell legends as legends — neither as proven facts nor as apologetic disclaimers
+
+- If a story comes from a legend, local tale, oral tradition or literary account and its historical truth is not established, **do not present it as a verified historical event**. You may and should still tell it vividly when it has cultural or visitor significance for the place.
+- Attribute its origin naturally and briefly in the narrative: “According to local legend…”, “The legend tells…”, “According to the medieval chronicle…”, “Local tradition holds…” or the appropriate local-language equivalent.
+- Name the specific chronicle, author, collection or tradition when the evidence allows. A chronicle's account does not automatically prove that the event it describes actually happened.
+- Once the origin is clearly attributed, tell the story fluently and confidently as part of that tradition. Do not overload the text with repeated “allegedly”, “perhaps”, “possibly”, “it may have been” or lengthy warnings that the story might not be true.
+- Avoid unnecessary academic disclaimers such as “historians are unsure whether this really happened” unless that uncertainty is essential to understanding the story.
+- Never invent details or attribute a story to a source that does not contain it. Content sources must support the existence and form of the tradition/legend; claims about its historical background require appropriate historical sources.
+- Example: “According to old Czech legends, Princess Libuše ruled the Czech people in ancient times. The legend credits her with a prophecy of a city whose fame would reach the stars — the future Prague.” Do not replace this with a dry disclaimer about the uncertain historical existence of Libuše when the fact's purpose is to present an important Czech legend.
+
+### 2. Historical dates — precision should match significance, not a hunt for one exact year
+
+- Do not require an exact year when it is not important to the identity, significance or understanding of the story.
+- If reliable sources differ slightly on an exact year, use a proportionate and truthful formulation: “around…”, “approximately in the mid-…”, “in the first half of the 18th century”, “at the turn of the 18th and 19th centuries”, “during the 14th century” or “between … and …”.
+- If the exact year is uncertain but the period is supported, state the period. If only the century is supported, do not imply decade-level or year-level precision.
+- Do not stop rework or audit over a minor date discrepancy that does not change the substance of the story. Do not rewrite an otherwise correct fact merely to make a cosmetic date adjustment.
+- Verify and correct an exact year only when it is essential to the identity of an event/person, changes the historical context or meaning of the story, or there is a genuine material contradiction.
+- Never conceal a material conflict or create false certainty. If sources materially disagree, explain the difference briefly and clearly or use a safer time range.
+
+### 3. Rework check
+
+For each story, distinguish between a documented historical event, a chronicle account, a legend/local tradition and a modern interpretation. Choose the wording and sources accordingly. The goal is an engaging, specific and trustworthy story that honestly identifies its origin — not sterile prose or invented history.
