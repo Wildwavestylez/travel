@@ -662,3 +662,6 @@
 
 
 **Technický read-back 2026-11-17 — CZ-60200 (oddíl 152):** Supabase potvrzuje 1 řádek, status validated, data_version 1, 18 canonical faktů a 18 faktů v každém ze 7 jazyků. ID/pořadí i společná pole canonical/CS (id, title, text) jsou bez rozdílu. SQL kontrola: 0 chybějících povinných polí, 0 faktů bez zdrojů, 0 nepropojených fact URL, 0 duplicitních root URL, 0 chybějících/neúplných location a 0 neplatných souřadnic; root sources 62. Tento technický read-back neznamená G/H PASS celého 60200. Viz oddíl 152 taháku.
+
+
+**Checkpoint 2026-11-17 — CZ-60200-64400 / oddíl 155:** G/H pro CZ-63600 dokončeno a uzamčeno: 3 existující fakta × 7 jazyků = 21 verzí, bez potvrzené blokující vady a bez produkčních změn. Supabase read-back pro 63600: 3 unikátní fakta, všechny s platnou polohou a zdroji; status validated, data_version 1. Celý rozsah zůstává REVIEW REQUIRED / IN PROGRESS; E a úplné G/H pro zbývající otevřené položky nejsou uzavřeny. Brána 0 zůstává zavřená.
