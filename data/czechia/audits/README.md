@@ -622,3 +622,6 @@
 
 
 **Uživatelské rozhodnutí 2026-11-17 — AJV zrušen:** Externí AJV validace ani GitHub Actions workflow nejsou součástí auditu. Nebudou se nastavovat žádné GitHub secrets ani jiné klíče. Historické zmínky o původním pokusu jsou ponechány pouze jako auditní historie; neblokují stav ani další práci.
+
+
+**Pokračování auditu 2026-11-17 — CZ-63500 (oddíl 140):** Revidováno a doplněno 9 faktů ve všech 7 jazycích (63 verzí). Zpřesněna Mniší hora jako dnešní 25ha přírodní památka; přidány Jelení žlíbek a Břenčák, kostel sv. Janů, funkcionalistická kaple v Kníničkách a pamětní místa Josefa Ondry, Jindřicha Novotného a Stanislava Živného. SQL read-back: 9 faktů, 37 root zdrojů, 0 duplicitních fact ID/URL, 0 prázdných fact.sources, 0 null/neúplných poloh, 0 souřadnic mimo WGS84, 0 neplatných enumů, 0 rozdílů canonical/CS. Všech 7 jazyků má 9/9 faktů; status validated, data_version 1 zachovány. AJV byla na výslovný pokyn uživatele zrušena; žádné secrets ani klíče se nenastavují. Další krok: 63600. Viz oddíl 140 taháku.
