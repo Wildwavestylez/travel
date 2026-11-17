@@ -223,3 +223,32 @@ Použij následující hierarchii:
 - Pokud lze určit alespoň smysluplnou oblast nebo veřejný orientační bod, `location` nesmí být `null` jen kvůli chybějící přesné poloze. `null` použij pouze tehdy, když nelze odpovědně určit ani konkrétní, přibližný, reprezentativní či orientační bod.
 
 **Při tvorbě i reworku aktivně hledej použitelný bod pro mapu. Při auditu považuj `null` za nález, který je nutné zkusit vyřešit touto hierarchií; ponech jej pouze po doložení, proč není možné určit žádný smysluplný bod.**
+
+---
+
+## Závazné redakční pravidlo — legendy, kroniky a přiměřená přesnost letopočtů
+
+Toto pravidlo platí pro výběr, psaní, přepracování i překlady všech historických a místních příběhů.
+
+### 1. Legenda se vypráví jako legenda — ne jako doložený fakt ani jako omluva
+
+- Pokud příběh pochází z pověsti, legendy, ústní tradice nebo literárního podání a jeho historická pravdivost není doložena, **neprezentuj jej jako ověřenou historickou událost**. Přesto jej můžeš a máš vyprávět poutavě, pokud je pro místo kulturně či turisticky významný.
+- Původ příběhu označ přirozeně a stručně přímo ve vyprávění: „Podle staré pověsti…“, „Legenda vypráví…“, „Podle Kosmovy kroniky…“, „Staré české pověsti vyprávějí…“ nebo odpovídajícím místním a jazykovým ekvivalentem.
+- Pokud odkazuješ na konkrétní kroniku, autora, sbírku pověstí nebo tradici, pojmenuj ji přesně, pokud to zdroje umožňují. Kronikářské podání samo o sobě automaticky nedokazuje, že se popisovaná událost skutečně stala.
+- Po jasném označení původu příběh vyprávěj plynule a sebevědomě jako obsah dané tradice. Nezahlcuj text opakovanými výrazy „údajně“, „možná“, „pravděpodobně“, „nelze vyloučit“ ani dlouhými upozorněními, že příběh nemusí být pravdivý.
+- Nevkládej do textu zbytečné akademické omluvy typu „historici si nejsou jisti, zda se to opravdu stalo“, pokud tato informace není pro pochopení příběhu zásadní.
+- Nevymýšlej detaily legendy ani nepřipisuj příběh konkrétnímu prameni, který jej neobsahuje. Obsahové zdroje musí doložit existenci a podobu tradice/pověsti; u tvrzení o jejím historickém pozadí použij odpovídající historické zdroje.
+- Příklad vhodného přístupu: „Podle starých českých pověstí vládla v dávných dobách kněžna Libuše. Legenda jí připisuje předpověď o městě, jehož sláva se dotkne hvězd — o budoucí Praze.“ Nepřepisuj to na suché upozornění, že existence kněžny není bezpečně doložena, pokud cílem faktu je představit významnou českou pověst.
+
+### 2. Historické datování — přesnost podle významu, ne honba za jedním rokem
+
+- Nevyžaduj přesný letopočet, pokud není důležitý pro identitu, význam nebo pochopení příběhu.
+- Když se důvěryhodné zdroje v přesném roce mírně rozcházejí, zvol přiměřeně přesné a pravdivé vyjádření: „kolem roku…“, „přibližně v polovině…“, „v první polovině 18. století“, „na přelomu 18. a 19. století“, „během 14. století“ nebo „mezi lety…“.
+- Pokud je přesný rok nejistý, ale období je doložené, napiš období. Pokud je doložené pouze století, nepředstírej přesnost na desetiletí či rok.
+- Nezastavuj rework ani audit kvůli drobnému rozdílu v letopočtu, který nemění podstatu příběhu. Nepřepisuj jinak správný fakt jen kvůli kosmetickému zpřesnění data.
+- Přesný rok ověřuj a opravuj pouze tehdy, pokud je zásadní pro identitu události/osoby, mění historickou souvislost nebo význam příběhu, případně pokud existuje skutečný a podstatný rozpor.
+- Nikdy neskrývej významný rozpor ani nevytvářej falešnou jistotu. Pokud se prameny zásadně rozcházejí, stručně a srozumitelně popiš rozdíl nebo zvol bezpečnější časové vymezení.
+
+### 3. Kontrola při reworku
+
+U každého příběhu rozliš, zda jde o doloženou historickou událost, kronikářské podání, legendu/pověst, nebo novodobou interpretaci. Podle toho zvol formulaci a zdroje. Cílem je čtivý, konkrétní a věrohodný příběh, který poctivě označuje svůj původ — nikoli sterilní text ani smyšlená historie.
