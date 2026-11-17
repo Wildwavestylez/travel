@@ -524,3 +524,6 @@
 
 
 **Doplnění 2026-11-17 — F-62300/62400/62700:** Prověřeny tři další explicitní null: veřejné umění a zvuková paměť Kohoutovic (více samostatných míst), komínský kroj a hody (nehmotná komunitní tradice bez jediného bodu) a archeologický dětský hrob na Černovické terase (přesné místo nálezu není veřejně vyznačeno). Ve všech případech `location: null` zůstává správně; žádná změna Supabase. Viz oddíl 127 taháku.
+
+
+**Doplnění 2026-11-17 — F-63700:** U 63700/fact_003 byla podle Encyklopedie Brna doplněna historicky přibližná poloha zaniklé kaple sv. Josefa na křižovatce Nálepkovy a Lelkovy; read-back potvrzen. Jundrovské ledárny (fact_002) byly posouzeny jako vícemístný průmyslový soubor na obou březích Svratky, takže `location: null` zůstává správně. Viz oddíl 128 taháku.
