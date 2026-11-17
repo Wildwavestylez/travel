@@ -950,3 +950,32 @@ For each fact and each language, ask:
 5. Is every explanation accurate, concise and supported?
 
 If any answer is no, the text is not yet compliant and must be improved during rework.
+
+---
+
+## Binding clarification: map locations and geographic fallbacks
+
+This rule clarifies and supersedes any earlier wording in this document that would result in `location: null` merely because exact coordinates are unavailable.
+
+**Goal: every fact that can be meaningfully located must receive a usable map point.** Survey-grade precision is not required. A geographically sensible approximate point is better than an empty location and a missing map pin. `location: null` is a last resort, not the default response to an unknown exact position.
+
+Use this hierarchy:
+
+1. **Specific object or site:** place the pin at the object's actual location (building, monument, museum, bridge, station, etc.).
+2. **Extended area:** choose a representative point inside the real extent of the area. For a park, forest, site, nature reserve, lake or large complex, the point does not need to identify one uniquely surveyed attraction; it may be on a path, near an entrance, at a viewpoint or at another suitable place within the area. The important thing is that the pin is inside the feature and reasonably represents it.
+3. **Historical site or event with unknown exact position:** use a documented approximate location when one can be established. If not, place an orientation pin at the historic settlement centre or a public landmark: village green, square, town hall, municipal office, tourist information centre or another major public reference point. Mark the location as approximate/historical-approximate according to the actual uncertainty. Never imply that the historical site or event stood exactly at this substitute point.
+4. **History of a town, village or urban district:** use its village green, main square, town hall, district office or another clear public centre that helps the map reader orient themselves.
+5. **Transport and infrastructure:** use the relevant railway station, stop, terminal, transport hub or specific infrastructure point to which the information is thematically connected.
+6. **Other local subject without one precise point:** choose the most suitable public reference point in the place genuinely connected with the story. If the fact concerns the postcode area as a whole, use the existing `representative_point` under the `postal_area` rules.
+
+### Accuracy, type and source
+
+- Set `accuracy` honestly: `exact` only for a verified point on the specific object; `approximate` for an approximate point; `area_representative` for a representative point within an extended area; `historical_approximate` for an uncertain historical position. Use only values permitted by the current schema.
+- `name` must describe the actual point where the pin is placed (for example, the square, town hall, station or representative site), not falsely claim to be the exact location of the fact's subject.
+- Select `type` according to the real physical type of the chosen point and the controlled vocabulary in the current schema.
+- `source` must support the location of the chosen point or allow it to be independently verified. For an orientation point, it is sufficient to verify that reference point and its position; the location source does not have to prove that a historical event happened exactly there. The fact's content sources must independently support the story itself.
+- An approximate pin is a map-orientation aid. The fact text must not claim that the event or object was exactly at a point used only as an orientation substitute.
+- Do not copy `representative_point` or `access_point` automatically; use either only when it genuinely satisfies the applicable rule for that fact.
+- If a meaningful area or public reference point can be identified, `location` MUST NOT be `null` merely because the exact position is unknown. Use `null` only when no responsible specific, approximate, representative or orientation point can be established.
+
+**During creation and rework, actively find a usable map point. During audit, treat `null` as a finding to be resolved using this hierarchy; retain it only when the ledger explains why no meaningful point can be established.**
