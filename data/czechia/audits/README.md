@@ -515,3 +515,6 @@
 
 
 **Doplnění 2026-11-17 — F-62000:** Poloha 62000/fact_004 (Holásecké mohyly) byla prověřena proti Encyklopedii Brna a odborným archeologickým zdrojům. Ty potvrzují polohu v polích východně od Holásek, nikoli však jednoznačný bod WGS84; `location: null` proto zůstává správně a nebyla provedena spekulativní oprava. Viz oddíl 124 taháku.
+
+
+**Doplnění 2026-11-17 — F-62100 / V šraňcích:** U 62100/fact_003 byl na základě Encyklopedie Brna, městského zpravodaje Řečkovic a adresního bodu Jandáskova 440/3 doplněn reprezentativní bod historické železničářské čtvrti. Read-back UPDATE potvrzen. Viz oddíl 125 taháku.
