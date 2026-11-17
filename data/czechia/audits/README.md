@@ -541,3 +541,6 @@
 **Uživatelské rozhodnutí 2026-11-17 — CZ-10000-15900:** 12800/fact_011 (Nuselský most) uzamčen na výslovný pokyn uživatele. Stav **USER-LOCKED / CLOSED BY USER DECISION**; dále neprověřovat, neupravovat, nepřesouvat ani znovu neotevírat. Historické záznamy REVIEW REQUIRED / HIGH zůstávají pouze jako auditní historie a jsou tímto rozhodnutím nahrazeny.
 
 **Pokračování sémantiky 2026-11-17 — CZ-10000-15900:** v PSČ 11000 nově plně sémanticky ověřeny fact_001 a fact_005 ve všech 7 jazycích (14 jazykových verzí). Opraveno autorství/chronologie úpravy pražského orloje a objednatel Domu U Černé Matky Boží (stavitel Josef Herbst) v kanonické češtině a šesti překladech. Již dříve dokončený fact_002 se znovu nepočítá. Kumulativně **122/225 faktů**. Další krok: 11000/fact_003; Nuselský most je uzamčená výjimka.
+
+
+**Sémantický průchod 2026-11-17 — CZ-11000:** Dokončena plná sémantická kontrola 11000/fact_003, fact_004, fact_006, fact_007, fact_008, fact_009 a fact_010 ve všech sedmi jazycích (49 jazykových verzí); bez dalších věcných nebo překladových oprav. V kombinaci s dříve ověřenými fact_001, fact_002 a fact_005 je hotovo **10/32 faktů** PSČ 11000. Kumulativně **127/225 faktů** v rozsahu 10000–15900. Další krok: 11000/fact_011. 12800/fact_011 (Nuselský most) zůstává uzamčen a nesmí být znovu otevřen.
