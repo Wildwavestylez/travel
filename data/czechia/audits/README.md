@@ -653,3 +653,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 149):** Cílený read-only read-back ověřil dříve evidované jazykové nálezy: NL/fact_005 (nepřirozené „Brnoose“) a NL/fact_015 (nevysvětlené panduren) jsou již opravené; DE/fact_005 (chybějící městský kontext Černá Pole) a DE/fact_015 (nevysvětlené Panduren) jsou rovněž již opravené. Všechna čtyři konkrétní zjištění jsou uzavřena podle aktuálního obsahu Supabase. Navíc cíleně zkontrolován DE/EN/ES/FR/IT fact_001 bez blokujícího nálezu. Nejde o G/H PASS celého 60200. Supabase nebyla změněna; status validated a data_version 1 zachovány. Bez nových faktů/lokalit, Brána 0 zavřená. Viz oddíl 149 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 150):** Read-only kontrola 30 překladů DE/EN/ES/FR/IT/NL pro fact_002–fact_006 a cílené porovnání fact_001. Všechny verze zachovávají klíčový historický obsah; dva konkrétní redakční body zůstávají otevřené: NL/fact_004 má zachovat vlastní název „Zelný trh“ vedle překladu „Groentemarkt“ a IT/fact_006 má použít přirozené „dramaturgo“ místo „dramaturg“. Dříve otevřené DE/NL nálezy u fact_005 a fact_015 jsou již ověřeně opravené (oddíl 149). Supabase beze změny; status validated, data_version 1; Brána 0 zavřená. Viz oddíl 150 taháku.
