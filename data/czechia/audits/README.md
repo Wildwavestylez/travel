@@ -547,3 +547,6 @@
 
 
 **Sémantický průchod 2026-11-17 — CZ-11000/fact_011–fact_016:** Dokončena kontrola šesti faktů ve všech sedmi jazycích (42 jazykových verzí). Opravena závažná chronologická a historická formulace u 11000/fact_016: výstavba Obecního domu 1905–1911, kolaudace 1912, vyhlášení republiky z balkonu před Primátorským sálem a zasedání Národního výboru 28. 10.–13. 11. 1918; oprava synchronizována ve všech sedmi jazycích. Fact_011–015 bez nutnosti věcné opravy. PSČ 11000 nyní 16/32 faktů plně sémanticky ověřeno; kumulativně **133/225** v rozsahu 10000–15900. Další krok: 11000/fact_017.
+
+
+**Pokračování auditu 2026-11-17 — CZ-62000 (oddíl 132):** Dokončena obsahová a jazyková kontrola 7 faktů ve všech 7 jazycích (49 verzí). ID/pořadí shodné, bez prázdných textů; jedna česká formulace fact_002 je významově shodná s canonical a ponechána. Opraven německý výraz `Flurstück` na `Flurbereich` u archeologické lokality. U faktů 003 a 006 opraven mapový typ z `nature_reserve` na `natural_monument`; u Holáseckých jezer zpřesněn přímý AOPK mapový zdroj. SQL read-back: 7 faktů, 31 root zdrojů, 0 prázdných fact.sources, 0 nepovolených map_category, 0 root URL bez HTTP(S). PSČ 62000: G/H REVIEW COMPLETE / NO BLOCKING FINDINGS; celkový blok zůstává IN PROGRESS. Viz oddíl 132 taháku.
