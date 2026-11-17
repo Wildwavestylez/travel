@@ -67,6 +67,17 @@ Zkontroluj všech sedm jazyků: `cs, de, en, es, fr, it, nl`.
 
 Oprav chyby, které mění význam nebo prokazatelně poškozují překlad. Správné a srozumitelné překlady nepřepisuj kvůli stylistickým alternativám, drobným nuancím nebo osobní preferenci.
 
+
+### E2. Délka a dostatečná propracovanost textů
+
+U každého faktu zkontroluj pole `text` samostatně ve všech sedmi jazykových verzích. Cílová délka je **500–600 znaků včetně mezer**. Počítej skutečné znaky textového obsahu, nikoli značky nebo obalovou strukturu JSON.
+- 500–600 znaků: ponech beze změny, pokud text není zjevně odfláknutý nebo obsahově vadný.
+- Méně než 500 znaků: vhodně doplň konkrétní, relevantní a ověřitelné informace, souvislosti nebo zajímavý detail.
+- Více než 600 znaků: přiměřeně zkrať bez ztráty podstatných informací.
+- Zachovej přirozený styl, věcnou přesnost a významovou shodu mezi jazyky. Každý jazyk uprav přirozeně, ne doslovným mechanickým natahováním.
+- Nevkládej výplň, opakování ani neověřené podrobnosti. Pokud nelze text bezpečně doplnit ověřenými informacemi, označ jej `REVIEW REQUIRED` a pokračuj.
+- Po úpravě znovu spočítej délku a ověř, že text spadá do cílového rozmezí. Neprováděj kvůli tomu novou kompletní rešerši všech faktů.
+
 ### F. JSON, databáze a technická konzistence
 
 Ověř:
