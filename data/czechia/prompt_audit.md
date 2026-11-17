@@ -95,7 +95,7 @@ Pracuj v jednom souvislém běhu nad celým blokem. Mechanické kontroly provád
 - Automaticky opravuj pouze potvrzené a bezpečné chyby v existujících českých záznamech.
 - Zachovávej ID a nesouvisející obsah.
 - Nejasný jednotlivý případ označ `REVIEW REQUIRED` a pokračuj; nezastavuj kvůli němu celý blok.
-- Neprováděj změny schématu, RLS, triggerů, oprávnění, databázové architektury, aplikačního kódu, cizích dat ani rozsahu auditu.
+- Neprováděj změny schématu, triggerů, databázové architektury, aplikačního kódu, cizích dat ani rozsahu auditu. Změny RLS nebo oprávnění jsou zakázané při běžném auditu a publikaci; výjimkou je pouze výslovně vyžádané read-only zamčení podle existujícího ověřeného mechanismu projektu a pouze v nezbytném rozsahu.
 - Zápisy do databáze prováděj bezpečně a sekvenčně. Po timeoutu nikdy neopakuj zápis naslepo; nejprve ověř, zda už proběhl.
 - Při omezení API respektuj `Retry-After`; neobcházej limity paralelními požadavky.
 
@@ -121,7 +121,7 @@ Teprve když uživatel po dokončení auditu výslovně požádá o publikaci (n
 4. **Ověření Dropboxu:** nekontroluj pouze osobní Dropbox složku `/TRAVEL_BACKUP`. Skutečné zálohy ověř v aplikačním Dropbox namespace pod `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/`. Vyhledej nově vytvořenou složku pro přesný auditovaný rozsah a ověř přítomnost všech tří souborů: JSON, restore SQL a manifest. Načti manifest a potvrď správný rozsah, počet i seznam PSČ, `validation.status = 'VERIFIED'`, `validation.readback_verified = true` a odpovídající hash rozsahu. Záloha je dokončena pouze tehdy, když Dropbox obsahuje všechny tři soubory a manifest potvrzuje read-back SHA-256 ověření. Samotné přijetí HTTP požadavku ani vytvoření složky není důkaz dokončené zálohy.
 5. **Report:** uživateli sděl výsledek publikace a zálohy odděleně, včetně počtu PSČ, verze, statusu, přesné Dropbox cesty a výsledku ověření. Při chybě nebo timeoutu nejprve ověř stav v Dropboxu; nikdy neopakuj zápis nebo spuštění naslepo. Existující zálohy nepřepisuj a při opakovaném spuštění respektuj timestampované nové složky.
 
-**Read-only zamykání Supabase provádí výhradně uživatel.** Neprováděj zámek, neměň RLS, oprávnění ani provozní konfiguraci. Nevyžaduj ani nevypisuj přístupové klíče a secrets; používej pouze již nakonfigurované serverové secrets Edge Function.
+**Read-only zamykání Supabase prováděj pouze na výslovný příkaz uživatele.** Nikdy ho nespouštěj automaticky po auditu, publikaci ani záloze a nepovažuj samotný pokyn k publikaci nebo záloze za souhlas se zamčením. Pokud uživatel výslovně požádá o zamčení konkrétního rozsahu, proveď ho samostatně pomocí již existujícího a ověřeného mechanismu projektu; nejprve ověř přesný rozsah a dopad, zamkni pouze požadované záznamy a následně ověř, že jsou skutečně pouze pro čtení. Nevyžaduj, aby zamčení provedl uživatel sám. Neimprovizuj nový mechanismus ani neměň nesouvisející RLS, oprávnění či provozní konfiguraci. Pokud existující mechanismus nelze bezpečně dohledat nebo ověřit, nic neměň a oznam konkrétní překážku. Nevyžaduj ani nevypisuj přístupové klíče a secrets; používej pouze již nakonfigurované serverové secrets a oprávněné nástroje projektu.
 
 
 ---
