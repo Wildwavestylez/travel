@@ -130,3 +130,19 @@ After completing the audit, report the results and hand the scope back to the us
 ## Operating principle
 
 **The audit checks for major missing tourist topics and genuine geographic, translation, category, duplication and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck existing coordinates. The rework process remains unchanged and retains its full quality requirements.**
+
+---
+
+## Binding audit rule — legends, chronicles and proportionate historical dating
+
+During the audit, distinguish between a documented historical event, a chronicle account, a legend/local tradition and a modern interpretation.
+
+- **A legend is not automatically a factual defect.** If the text clearly says “according to local legend”, “the legend tells”, “according to the chronicle” or otherwise correctly attributes the story, do not flag it as false merely because the person or event is not independently established as historical fact.
+- Check whether the cited source actually contains the story and whether its origin is attributed correctly. A chronicle proves that the chronicler recorded the account; it does not necessarily prove the historical truth of the event described.
+- If a legend is presented as certain documented history without attribution, correct the wording so the story remains engaging but is properly attributed to a tradition, legend or named chronicle. Do not remove a valuable story merely because it is legendary.
+- Do not require repeated “allegedly”, “perhaps” or lengthy explanations of historical uncertainty when a clear initial attribution is sufficient.
+- **Assess dates proportionately.** A minor disagreement over an exact year is not a finding by itself if it does not change the identity, significance or historical context. Accept safe formulations such as “around…”, “in the first half of the century”, “at the turn of the century” or a broader supported period.
+- Flag an exact year only when it is material and demonstrably wrong, or when a genuine contradiction changes the meaning or identity of the event/person. Otherwise, do not block the audit or rewrite correct text for cosmetic date precision.
+- Never create false certainty: if a conflict is material, record it briefly and recommend safer wording. If sources simply preserve different traditions, retain their correct attribution and continue.
+
+**Audit objective:** preserve interesting and culturally significant stories, verify their origin and attribution, and correct genuine factual defects — not penalize legends for being legends or delay work over immaterial date discrepancies.
