@@ -53616,5 +53616,5 @@
       "validity_dates": []
     }
   ],
-  "method_note": "Every CSV member in the official nationwide ZIP archive is processed and aggregated. A postcode is included only if it occurs on at least one address point. This is a reference inventory, not an automatic edit of the production sequence."
+  "method_note": "Reconstructed from the committed CSV output generated from the official nationwide ČÚZK RÚIAN ZIP feed. The committed manifest records validity=null for the detected feed columns, so validity_dates are empty arrays. This is a reference inventory, not an automatic edit of sequence.json."
 }
