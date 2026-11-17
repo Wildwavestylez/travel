@@ -788,3 +788,13 @@
 - **CZ-61300:** 6 faktů / 42 jazykových verzí; Park Lužánky je přiřazen do Černých Polí podle reprezentativní polohy.
 - Podrobnosti: auditní tahák 60200–64400, oddíly 171–173.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do uzavření zbývajících tematických kandidátů a kontrol A–I. V5 snapshot, published export, záloha a auditní lock se nespouští.
+
+
+## Aktuální stav po CZ-61400 a CZ-61500 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 245 faktů, 1 715 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-61400:** 7 faktů / 49 jazykových verzí. Doplněna lávka nad Maloměřickým nádražím; Cacovický ostrov má opravený neutrální zdroj polohy.
+- **CZ-61500:** 7 faktů / 49 jazykových verzí. Doplněn lesopark Akátky a naučná stezka s ověřeným začátkem na Rokytově v PSČ 61500.
+- E/G/H a cílený F/I read-back jsou uzavřeny pro oba záznamy.
+- Podrobnosti: auditní tahák 60200–64400, oddíl 174.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do uzavření zbývajících tematických kandidátů a globálních kontrol A–I.
