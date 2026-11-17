@@ -568,3 +568,6 @@
 
 
 **Plná sémantická kontrola 2026-11-17 — CZ-11900:** Dokončeno všech šest faktů ve všech sedmi jazycích (42 jazykových verzí). Opraven titulek katedrály sv. Víta na přesné „tisíciletí stavebního vývoje“ a u Pražského hradu formulace o Bořivojovi: sídlo přenesl na místo již existujícího slovanského hradiště, nezaložil je. Opravy synchronizovány v sedmi jazycích. PSČ 11900 dokončeno **6/6**; kumulativně **170/225** v rozsahu 10000–15900. Další krok: další neuzavřené PSČ podle sequence.json. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-12000:** Uzavřeno zbývajících osm faktů (003, 004, 006, 007, 008, 010, 011, 013) ve všech sedmi jazycích. Opravena chronologie Vinohradského divadla: soutěž 1902, výstavba 1905–1907; upřesněna posloupnost názvů náměstí Míru. Překlady doplněny o chybějící důležité údaje u Českého rozhlasu, sv. Ludmily, Vily Amerika, Riegrových sadů, hlavního nádraží a Tančícího domu. PSČ 12000 nyní sémanticky dokončeno **13/13 faktů**; kumulativně **178/225** v rozsahu 10000–15900. Další krok: 12800, s výslovně uzamčeným Nuselským mostem mimo kontrolu.
