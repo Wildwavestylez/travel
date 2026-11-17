@@ -506,3 +506,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-60200-64400 (oddíl 121):** Dokončena revize všech 6 faktů v 61900 (42 jazykových verzí). U pamětní desky upřesněna adresa na ulici Sokolova. U Přízřenic odstraněn chybný odkaz na profil Horních Heršpic a nepodložené tvrzení o „první dosídlené obci“ s přesným datem 19. 8. 1945; zachováno doložené poválečné dosídlení po nuceném vysídlení většiny původních německy mluvících obyvatel. U biotopu Brno-jih odstraněn neověřený superlativ „první“ a doplněn zdroj Encyklopedie Brna k otevření v roce 2014. Ostatní fakta ověřena; úplné překlady 7 jazyků synchronizovány. Read-back: 6 faktů, 7 jazyků, 0 canonical/CS rozdílů v textech/titulcích, 0 nesouladů ID/pořadí, 0 chybějících zdrojů, 0 duplicit, 0 neplatných poloh. Celý blok: 27 PSČ, 176 faktů, 27 validated, 0 published, data_version 1, 158 poloh a 18 explicitních null. Stav **REVIEW REQUIRED / IN PROGRESS**, oficiální AJV BLOCKED / NOT RUN. Další krok: 62000. Podrobnosti v oddílu 121 auditního souboru.
+
+
+**Doplnění 2026-11-17 — F-62100:** U 62100/fact_006 byla na základě Vets.cz, Encyklopedie Brna a webu městské části doplněna a read-backem ověřena poloha památníku v Mokré Hoře. Počet explicitních null v bloku se snížil z 19 na 18. Podrobnosti v oddílu 122 kanonického taháku.
