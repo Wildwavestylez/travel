@@ -562,3 +562,6 @@
 
 
 **Sémantické dokončení 2026-11-17 — CZ-11101:** Dokončena kontrola zbývajících čtyř faktů (fact_002–fact_005) ve všech sedmi jazycích (28 jazykových verzí); fact_001 byl uzavřen již dříve. Potvrzeny místní kaplička a zvon, urbanistické jádro podle Metropolitního plánu, pomník padlým a historie spolku Svornost / sálu U Jaurisů. Bez nutnosti věcné opravy. PSČ 11101 dokončeno **5/5 faktů**; kumulativně **153/225** v rozsahu 10000–15900. Další krok: PSČ 11800. Nuselský most zůstává uzamčen.
+
+
+**Plná sémantická kontrola 2026-11-17 — CZ-11800:** Dokončeno všech 11 faktů ve všech sedmi jazycích (77 jazykových verzí). Opraven titulek chrámu sv. Mikuláše z „fresek“ na přesnější „nástěnné malby“ a aktualizován počet knih Strahovské knihovny z 200 000 na přibližně **300 000 svazků** podle oficiálního webu kláštera. Ostatní fakta ověřena bez věcných oprav. PSČ 11800 dokončeno **11/11**; kumulativně **164/225** v rozsahu 10000–15900. Další krok: PSČ 11900. Nuselský most zůstává uzamčen.
