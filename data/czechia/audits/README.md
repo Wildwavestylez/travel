@@ -659,3 +659,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 151):** Přečteno dalších 72 překladů DE/EN/ES/FR/IT/NL pro fact_007–fact_018. Obsahové milníky, historický kontext a významové rozlišení zůstávají zachovány. Nově otevřen dílčí nález EN/ES/fact_010: vysvětlit „Brno-střed“ jako centrální městskou část Brna. Dřívější body NL/fact_004 (vlastní název Zelný trh) a IT/fact_006 (dramaturgo) zůstávají otevřené z oddílu 150. Bez změny Supabase; status validated, data_version 1; Brána 0 zavřená. Viz oddíl 151 taháku.
+
+
+**Technický read-back 2026-11-17 — CZ-60200 (oddíl 152):** Supabase potvrzuje 1 řádek, status validated, data_version 1, 18 canonical faktů a 18 faktů v každém ze 7 jazyků. ID/pořadí i společná pole canonical/CS (id, title, text) jsou bez rozdílu. SQL kontrola: 0 chybějících povinných polí, 0 faktů bez zdrojů, 0 nepropojených fact URL, 0 duplicitních root URL, 0 chybějících/neúplných location a 0 neplatných souřadnic; root sources 62. Tento technický read-back neznamená G/H PASS celého 60200. Viz oddíl 152 taháku.
