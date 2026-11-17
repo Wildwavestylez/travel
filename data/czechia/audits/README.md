@@ -672,7 +672,7 @@
 
 ## Aktuální stav — 2026-11-17 (nahrazuje starší souhrny)
 
-- Rozsah 60200–64400: **27 PSČ, 207 faktů, 1 449 jazykových verzí** (7 jazyků na fakt).
+- Rozsah 60200–64400: **27 PSČ, 209 faktů, 1 463 jazykových verzí** (7 jazyků na fakt).
 - Strukturální read-back Supabase: 27/27 záznamů, 189/189 jazykových větví; bez chyb v počtech překladů, shodě kanonické češtiny, lokacích, zdrojových vazbách, ID faktů, enum hodnotách, administrativních polích nebo stavech `validated`/`data_version=1`.
 - RÚIAN CSV potvrzuje všech 27 PSČ a kladný počet adresních bodů; `sequence.json` a skupiny obsahují stejných 2 677 kódů bez duplicit. Rozsah 60200–64400 se shoduje s DB.
 - Samostatná Brána 0 zůstává zavřená. Audit pokračuje podle promptu V1.2.
@@ -690,3 +690,6 @@
 
 
 **Checkpoint 2026-11-17 — CZ-63800 / oddíl 160:** E/G/H pro 63800 dokončeno. V Husovicích byly oficiálním VDP/ČÚZK výpisem ověřeny pouze adresy Soběšické v rozsahu 63800; hlavní husovické památky (např. kostel Nejsvětějšího Srdce Páně, Vranovská 103, PSČ 61400) jsou mimo rozsah. Divišova čtvrť (61200) a kaple sv. Antonína v Sadové nebyly chybně připsány. Fact_002 doplněn o věž P. Martina Středy, 31 m, zvonkohru a vyhlídku; fact_004 rozšířen o konkrétní veřejná díla na Halasově náměstí a map_category změněna na cultural_site. Read-back: 4 fakta × 7 jazyků, 0 canonical/CS rozdílů, 0 chybějících zdrojů, 0 null/neúplných poloh, 0 duplicitních URL a 0 nepovolených enumů. Status validated, data_version 1. Celý rozsah zůstává REVIEW REQUIRED / IN PROGRESS; 27 PSČ, 207 faktů, 1 449 jazykových položek, 0 published. Brána 0 zavřená.
+
+
+**Checkpoint 2026-11-17 — CZ-63900 / oddíl 161:** E/G/H pro 63900 dokončeno. Doplněna Kamenná čtvrť (dělnická kolonie v bývalém kamenolomu) a NPP Červený kopec (0,5476 ha, vyhlášení 24. 11. 1970, nejúplnější sled spraší a fosilních půd ve střední Evropě; návaznost na Kohnovu cihelnu). Read-back: 5 faktů × 7 jazyků, 35 položek, 34 unikátních root zdrojů; 0 canonical/CS rozdílů, 0 chybějících zdrojů, 0 null/neúplných poloh, 0 duplicitních ID/URL a 0 nepovolených enumů. Status validated, data_version 1. Celý rozsah nyní 27 PSČ, 209 faktů a 1 463 jazykových položek; 0 published. Podrobnosti v oddílu 161 kanonického taháku. Brána 0 zavřená.
