@@ -779,3 +779,12 @@
 - **CZ-63600:** 3 fakta / 21 jazykových verzí; G/H a SQL read-back uzavřeny.
 - Podrobnosti: auditní tahák 60200–64400, oddíly 170–172.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do uzavření všech zbývajících kandidátů E a cross-record kontrol C/D. V5 snapshot, published export, záloha a auditní lock se nespouští.
+
+
+## Aktuální stav po doplnění 60200 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 243 faktů, 1 701 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-60200:** 32 faktů / 224 jazykových verzí. E kandidáti pro centrální Brno doplněni včetně Krytu Denis a Diecézního muzea; G/H a F/I cílený read-back bez nálezu.
+- **CZ-61300:** 6 faktů / 42 jazykových verzí; Park Lužánky je přiřazen do Černých Polí podle reprezentativní polohy.
+- Podrobnosti: auditní tahák 60200–64400, oddíly 171–173.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS** do uzavření zbývajících tematických kandidátů a kontrol A–I. V5 snapshot, published export, záloha a auditní lock se nespouští.
