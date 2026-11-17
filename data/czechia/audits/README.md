@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Částečně uzavřeny; nové překladové opravy čekají na dostupnost DB | REVIEW REQUIRED / BLOCKED — 4 chyby translated_fact, 1 canonical/CS mismatch, E/G/H nedokončeno | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
+| CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 123 faktů / 861 jazykových položek; pokračování ve stejném kanonickém taháku kvůli překryvu 16000/16100 | IN PROGRESS / REVIEW REQUIRED — HIGH county/state, Gate 0 PARTIAL, finální read-back a produkční kroky čekají | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
