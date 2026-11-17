@@ -726,3 +726,13 @@
 - Podrobnosti a důkazy: [auditní tahák 60200–64400](60200-64400_audit.md), oddíl 165.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí A–I.
 - Další práce: gap-check zbývajících otevřených oblastí A–I v kanonickém taháku; neopakovat zamčené kontroly ani neotevírat Bránu 0.
+
+
+## Aktuální stav po reconciliaci CZ-63500 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 227 faktů, 1 589 jazykových položek**.
+- Všech 27 záznamů zůstává validated, data_version=1; 0 published.
+- **CZ-63500:** po reconciliaci obnoveny čtyři dříve doložené, ale v živé DB chybějící fakty fact_011–fact_014 (Junácká louka, Krnovec, Kůlny, Skalky u přehrady); doplněn také fact_015 Na skalách na základě oficiální Geoturistické mapy Brna. Nyní 14 faktů / 98 jazykových verzí, E/G/H a F/I read-back uzavřeny.
+- **CZ-64400:** 5 faktů / 35 jazykových verzí; E/G/H a cílený F/I read-back uzavřeny, duplicitní Jezírko odstraněno z 64400 a zachováno v 66401.
+- Podrobnosti: auditní tahák 60200–64400, oddíly 165–166.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. Úplný G/H a další otevřené body A–I ještě nejsou uzavřeny. V5 snapshot, published export, záloha a auditní lock se nespouští před PASS všech povinných částí.
