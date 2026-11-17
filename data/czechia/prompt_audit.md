@@ -140,3 +140,19 @@ Teprve když uživatel po dokončení auditu výslovně požádá o publikaci (n
 ## Základní pravidlo
 
 **Audit hledá zásadní chybějící turistická témata a skutečné geografické, překladové, kategoriální, duplicitní a technické vady. Neprovádí druhý rework, neřeší marginální historické spory, nepřepisuje správné texty a znovu nekontroluje existující souřadnice. Rework zůstává beze změny a v plné kvalitě.**
+
+---
+
+## Závazné auditní pravidlo — legendy, kroniky a přiměřená přesnost letopočtů
+
+Při auditu rozlišuj mezi doloženou historickou událostí, kronikářským podáním, legendou/pověstí a novodobou interpretací.
+
+- **Legenda není automaticky faktografická chyba.** Pokud text jasně uvádí „podle pověsti“, „legenda vypráví“, „podle kroniky“ nebo jinak správně označuje původ příběhu, neoznačuj jej za nepravdivý jen proto, že samotná událost či osoba nejsou nezávisle historicky doloženy.
+- Ověř, zda použitý pramen skutečně obsahuje daný příběh a zda je jeho původ správně připsán. Kronika dokládá, že kronikář příběh zaznamenal; sama o sobě nemusí dokazovat historickou pravdivost popisované události.
+- Pokud je legenda podána jako jistá doložená historie bez označení svého původu, oprav formulaci tak, aby příběh zůstal poutavý, ale byl správně připsán tradici, pověsti nebo konkrétní kronice. Nemaž hodnotný příběh jen kvůli jeho legendární povaze.
+- Nevyžaduj opakovaná upozornění typu „údajně“, „možná“ nebo dlouhé vysvětlování historické nejistoty, pokud stačí jasné úvodní připsání příběhu.
+- **Letopočty posuzuj přiměřeně.** Drobné rozdíly v přesném roce nejsou samy o sobě nálezem, pokud nemění identitu, význam ani historickou souvislost. Přijmi bezpečné formulace jako „kolem roku“, „v první polovině století“, „na přelomu století“ nebo širší doložené období.
+- Přesný rok označ za vadu pouze tehdy, když je podstatný a prokazatelně chybný, případně když skutečný rozpor mění význam či identitu události/osoby. Jinak neblokuj audit a nepřepisuj správný text kvůli kosmetickému zpřesnění.
+- Nevytvářej falešnou jistotu: pokud je rozpor zásadní, zaznamenej jej stručně a navrhni bezpečnější formulaci. Pokud jde pouze o rozdílné tradice, zachovej jejich správné připsání a pokračuj.
+
+**Auditní cíl:** zachovat zajímavé a kulturně významné příběhy, ověřit jejich původ a správné podání a opravovat skutečné věcné chyby — nikoli trestat legendy za to, že jsou legendami, nebo brzdit práci kvůli nepodstatným letopočtům.
