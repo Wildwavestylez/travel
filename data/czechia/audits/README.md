@@ -632,3 +632,6 @@
 
 
 **Pokračování 2026-11-17:** Supabase je opět dostupný. Opravy 62700 a 63600 jsou ověřeny; doplněny Cacovický ostrov (61400), Wilsonův les (61600), Komec (61700) a čtyři přírodní lokality (63500). Read-back: 27 PSČ, 199 faktů, 1 393 překladů, nulové strukturální chyby, nulové canonical/CS rozdíly a nulové duplicitní root URL. Audit zůstává REVIEW REQUIRED / IN PROGRESS; viz oddíl 142. V5/published, Dropbox snapshot ani zámek nebyly provedeny.
+
+
+**Pokračování auditu 2026-11-17 — CZ-63700 (oddíl 143):** Dokončena sémantická kontrola všech 4 existujících faktů ve všech 7 jazycích (28 verzí). Bez věcných či jazykových závad vyžadujících opravu; vysvětlení Orel, chronologie ledáren a vodních sportů jsou zachovány. SQL read-back: 4 fakta, 7 jazyků, 28 překladů, 0 prázdných polí, 0 ID/order mismatch, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů a 0 neplatných souřadnic; 1 odůvodněný null u vícemístné ledárenské činnosti. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená; nebyla přidána žádná lokalita. Viz oddíl 143 taháku.
