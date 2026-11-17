@@ -204,3 +204,31 @@ Pokud projekt používá dohodnutý workflow pro neměnný snapshot `AUDITED`, p
 ## Základní provozní pravidlo
 
 **Jeden zadaný blok = jeden souvislý auditní úkol. Načti podklady a tahák, zkontroluj celý blok ve všech oblastech A–I, oprav potvrzené bezpečné chyby, hromadně ověř zápisy, ulož checkpoint jen při skutečném přerušení a na konci dej jediný souhrn. Hotovou práci nikdy neopakuj.**
+---
+
+## 10. POVINNÉ UZAVŘENÍ AUDITU — V5, PUBLISHED, ZÁLOHA, ZÁMEK
+
+Tento postup je závazný pro každý úspěšně dokončený auditovaný rozsah. Není volitelný a nesmí být přeskočen ani nahrazen pouhým záznamem v auditním taháku.
+
+### Pevné pořadí kroků
+
+1. **Úspěšné dokončení auditu.** Nejprve musí být celý přesně vymezený rozsah skutečně auditován. Všechny povinné kontroly musí být dokončené, inventář odsouhlasený a nesmí zůstat nevyřešený podstatný nález, který brání PASS.
+2. **Bezpodmínečně nastavit celý auditovaný rozsah na V5 + published.** Každý existující záznam v rozsahu musí mít `data_version = 5` a `status = 'published'`. Nejde o doporučení ani volitelný krok: publikace je nutná, aby se dokončená PSČ zobrazila na mapě. Proveď změnu v Supabase a následně načti záznamy zpět a ověř 100 % rozsahu. Nenechávej část úspěšně auditovaného rozsahu v nižší verzi nebo v jiném statusu.
+3. **Záloha přímo ze Supabase do Dropboxu přes propojené API.** Použij existující přímé API propojení Supabase → Dropbox. Neobcházej jej ručním exportem přes lokální soubory, pokud je přímá cesta dostupná. Záloha musí obsahovat kompletní obnovitelná data všech řádků přesného auditovaného rozsahu včetně celého JSON obsahu, všech faktů, zdrojů, překladů, metadat a identifikátorů potřebných pro obnovu. Zálohuj až po potvrzení V5 + published.
+4. **Ověřit zálohu v Dropboxu.** Úspěšná odpověď API sama nestačí. Ověř, že záložní artefakt v Dropboxu skutečně existuje a lze jej přečíst; zkontroluj rozsah, počet záznamů a shodu uložených dat se stavem v Supabase. Záloha musí být použitelná pro obnovení dat do Supabase. Pokud ověření selže nebo záloha není dostupná, proces zastav a rozsah NEZAMYKEJ.
+5. **Zamknout přesně auditovaný rozsah v Supabase.** Teprve po úspěšné a ověřené záloze nastav databázový read-only zámek pro přesný seznam/range auditovaných PSČ. Zámek musí blokovat `INSERT`, `UPDATE` a `DELETE` pro chráněné záznamy; `SELECT`/čtení musí zůstat povolené. Použij existující ověřený mechanismus databázového triggeru nebo jeho bezpečné rozšíření. Podmínka zámku musí být omezena na `country_code` a přesný dokončený rozsah/seznam. Nikdy nezamkni celý stát, jinou zemi, sousední rozsah ani jiné neauditované záznamy.
+6. **Ověřit zámek a uzavřít audit.** Ověř, že chráněné záznamy nelze měnit ani mazat, čtení funguje a reprezentativní záznam mimo rozsah zůstává nezamčený. Zachovej všechny dříve zamčené rozsahy beze změny. Do auditního taháku zapiš počty, rozsah, V5/published potvrzení, identifikaci a umístění Dropbox zálohy, výsledek ověření, mechanismus/rozsah zámku a datum dokončení.
+
+### Nepřekročitelné podmínky
+
+- **Nikdy nezamykat žádný záznam, který není současně `data_version = 5` A `status = 'published'`.** Před zamknutím ověř obě podmínky pro každý jednotlivý řádek. Pokud jediný záznam nevyhovuje, zámek se nesmí aktivovat pro nevyhovující záznamy; nejprve oprav stav a znovu ověř celý rozsah.
+- Úspěšný audit automaticky vede k V5 + `published` pro celý auditovaný rozsah. Nečekej na další uživatelské schválení publikace.
+- Pořadí je neměnné: **AUDIT PASS → V5 + PUBLISHED → SUPABASE→DROPBOX BACKUP → BACKUP VERIFICATION → READ-ONLY LOCK → AUDIT CLOSED.**
+- Pokud selže publikace, záloha, ověření zálohy nebo zamknutí, nezamlčuj to a neoznačuj celý proces za uzavřený. Ulož přesný stav a bezpečně pokračuj pouze od nedokončeného kroku; neopakuj hotový audit.
+- Nikdy nemaž ani neuvolňuj dříve zamčené rozsahy. Odemknutí nebo změna rozsahu existujícího zámku je samostatná výslovně schválená databázová změna.
+- Zámek je databázová ochrana proti zápisu, nikoli zákaz čtení. Data musí zůstat dostupná pro mapu a aplikaci.
+- Nezaváděj AJV ani jiné zbytečné opakované validační workflow. Technická kontrola podle aktuální schema je součástí auditu; nepřidávej samostatný automatický validační systém.
+
+### Stav dokončení
+
+Auditní rozsah je **definitivně uzavřen** až poté, co jsou všechny řádky V5 + published, záloha je ověřená v Dropboxu a přesný rozsah je zamčený v Supabase. Samotný `PASS`, samotná publikace ani samotné vytvoření záložního souboru nestačí.
