@@ -598,3 +598,6 @@
 
 
 **Plná sémantická kontrola 2026-11-17 — CZ-10600:** Dokončeno všech pět faktů ve všech sedmi jazycích. U kostela v Záběhlicích doplněna zásadní výhrada: listina datovaná 1088 je dochována pouze v pozdějších opisech a jde o falzum z 12. století, nikoli originál z roku 1088. U zámku doplněna novobarokní přestavba po požáru 1885. Vše synchronizováno v sedmi jazycích. PSČ 10600 dokončeno **5/5**; kumulativně **219/225** v rozsahu 10000–15900. Další krok: PSČ 10800. Nuselský most zůstává uzamčen.
+
+
+**Dokončení sémantiky 2026-11-17 — CZ-10800:** Navázáno na dříve vyřešených pět faktů (001–005); nyní dokončeny zbývající čtyři (006–009) ve všech sedmi jazycích. Ověřen Malešický park, liniová Stezka sv. Josefa, aktivní areál LOM PRAHA a univerzitní historie Malešic. Dvě polohy zůstaly správně null, protože nemají jediný reprezentativní bod. PSČ 10800 dokončeno **9/9**; kumulativně **223/225** v rozsahu 10000–15900. Zbývá poslední neuzamčený fakt 11900/fact_007; Nuselský most zůstává uzamčen.
