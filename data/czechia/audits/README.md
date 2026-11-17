@@ -650,3 +650,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-61400 (oddíl 148):** Dřívější G/H checkpoint uzavřel 5 faktů; nyní byl navíc zkontrolován aktuálně existující fact_006 ve všech 7 jazycích. Všech 7 verzí zachovává obsah o Cacovickém ostrově, náhonu, historickém mlýně a revitalizaci; bez jazykové opravy. Aktuální SQL read-back: 6 faktů, 7 jazyků, 42 překladů, 0 count/ID/order mismatch, 0 prázdných polí, 0 canonical/CS rozdílů, 0 faktů bez zdrojů, 0 chybějících location klíčů, 0 neplatných souřadnic, 0 duplicitních ID. Status validated, data_version 1 zachovány. Brána 0 zůstává uzavřená. Viz oddíl 148 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 149):** Cílený read-only read-back ověřil dříve evidované jazykové nálezy: NL/fact_005 (nepřirozené „Brnoose“) a NL/fact_015 (nevysvětlené panduren) jsou již opravené; DE/fact_005 (chybějící městský kontext Černá Pole) a DE/fact_015 (nevysvětlené Panduren) jsou rovněž již opravené. Všechna čtyři konkrétní zjištění jsou uzavřena podle aktuálního obsahu Supabase. Navíc cíleně zkontrolován DE/EN/ES/FR/IT fact_001 bez blokujícího nálezu. Nejde o G/H PASS celého 60200. Supabase nebyla změněna; status validated a data_version 1 zachovány. Bez nových faktů/lokalit, Brána 0 zavřená. Viz oddíl 149 taháku.
