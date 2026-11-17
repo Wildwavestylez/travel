@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | CZ-60200-64400 | PSČ 60200–64400 | [60200-64400_audit.md](60200-64400_audit.md) | Původní překladové blokery opraveny; doplněny nové lokality, audit pokračuje | REVIEW REQUIRED / IN PROGRESS — 27 PSČ, 195 faktů, 1 365 překladů; E/G/H a snapshot/publikace otevřeny | 2026-11-17 |
 | CZ-10000-15900 | PSČ 10000–15900 | [10000-15900_audit.md](10000-15900_audit.md) | Opravy a zdrojové/jazykové kontroly pokračují; viz oddíly 25–33 | REVIEW REQUIRED — A/B/C/E/F/I PASS; D/G/H PARTIAL (zbývá většina vícesource URL a sémantická redakce) | 2026-11-17 |
-| CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 133 faktů / 931 jazykových položek; 11 doložených doplnění, 1 administrativní pseudo-fakt odstraněn; county opraveno 26/26 | IN PROGRESS / REVIEW REQUIRED — A inventura PASS; B–H PARTIAL; I strukturální schema PASS, metadata/URL pending; bez publikace/zámku | 2026-11-17 |
+| CZ-16000-19900 | PSČ 16000–19900 | [10000-15900_audit.md](10000-15900_audit.md) | 26 PSČ / 133 faktů / 931 jazykových položek; 133/133 faktů má validní nenulovou polohu; opraveny 3 texty v 7 jazycích, posíleny lokalizační zdroje, kostel v Karlíně přeřazen 18000→18600 | REVIEW REQUIRED / IN PROGRESS — A PASS; B–I PARTIAL; 22 access_point neověřeno, 2 postcode_conflict; 0 published, bez V5 migrace/locku/zálohy | 2026-11-17 |
 
 **Aktualizace 2026-11-16:** U rozsahu CZ-60200-64400 bylo uzavřeno pravidlo poštovních pracovišť: zrušená nebo přemístěná přepážka sama o sobě neblokuje audit. Úplný audit A–I zůstává `IN PROGRESS`; navazuje se v existujícím taháku se započtením všech již provedených oprav a kontrol.
 
@@ -665,3 +665,6 @@
 
 
 **Checkpoint 2026-11-17 — CZ-60200-64400 / oddíl 155:** G/H pro CZ-63600 dokončeno a uzamčeno: 3 existující fakta × 7 jazyků = 21 verzí, bez potvrzené blokující vady a bez produkčních změn. Supabase read-back pro 63600: 3 unikátní fakta, všechny s platnou polohou a zdroji; status validated, data_version 1. Celý rozsah zůstává REVIEW REQUIRED / IN PROGRESS; E a úplné G/H pro zbývající otevřené položky nejsou uzavřeny. Brána 0 zůstává zavřená.
+
+
+**Doplnění 2026-11-17 — CZ-16000-19900 / checkpoint 38.2:** Read-back potvrdil 26 PSČ, 133 faktů a 931 jazykových položek; 0 null/invalid location, 0 překladových ID/order mismatch, 0 canonical/CS rozdílů a 0 administrativních chyb. Opraveny texty 16000/fact_004 (Matějská pouť), 19300/fact_001 (falzum listiny 1088) a 19016/fact_003 (zaniklý kostel u Staroújezdské 65), vždy ve všech sedmi jazycích. Fakt kostela v Karlíně byl na základě RÚIAN a souřadnic farnosti přesunut z 18000 do 18600 bez změny celkového počtu faktů. Všechna existující fakta mají mapovou polohu; 22 access_point zůstává neověřeno a dva postcode_conflict zůstávají otevřené. Brána 0 zůstává zavřená; 0 published, žádná V5 migrace, záloha ani lock. Podrobnosti a přesný další krok v oddílu 38.2 kanonického taháku.
