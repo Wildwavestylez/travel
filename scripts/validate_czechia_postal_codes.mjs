@@ -20,8 +20,7 @@ async function page(offset) {
   const u = new URL(base + "/rest/v1/postal_codes");
   u.searchParams.set("select", "country_code,postal_code,status,data_version,content");
   u.searchParams.set("country_code", "eq.CZ");
-  u.searchParams.set("postal_code", "gte." + from);
-  u.searchParams.append("postal_code", "lte." + to);
+  u.searchParams.set("and", "(postal_code.gte." + from + ",postal_code.lte." + to + ")");
   u.searchParams.set("order", "postal_code.asc");
   const r = await fetch(u, { headers: { apikey: key, Authorization: "Bearer " + key, Accept: "application/json", Range: offset + "-" + (offset + 499) } });
   if (!r.ok) throw new Error("Supabase REST " + r.status + ": " + (await r.text()).slice(0, 1200));
