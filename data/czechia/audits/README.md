@@ -533,3 +533,6 @@
 
 
 **Doplnění 2026-11-17 — F-63600/64100/64200/64300/64400:** Posouzeno dalších 7 explicitních null (historie Židenic, Žebětína, literární krajina Ríšovy, hostinec U Brücknerů, povodeň Leskavy, historie Chrlic a Soběšic). Většina popisuje celé sídlo, více lokalit nebo liniovou událost; u U Brücknerů je zatím doloženo pouze náměstí bez jednoznačné parcely. Žádná spekulativní poloha nebyla doplněna. Viz oddíl 130 taháku.
+
+
+**Read-back 2026-11-17 — F po dodatcích 122–130:** Supabase potvrzuje 176 faktů, 162 vyplněných poloh, 14 explicitních null a 0 chybějících klíčů location. Tři polohy byly nově doplněny (62100/fact_003, 63700/fact_003, 64200/fact_010); ostatní null byly individuálně posouzeny jako oprávněné nebo zůstávají samostatně otevřené. Viz oddíl 131 taháku.
