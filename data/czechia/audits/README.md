@@ -656,3 +656,6 @@
 
 
 **Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 150):** Read-only kontrola 30 překladů DE/EN/ES/FR/IT/NL pro fact_002–fact_006 a cílené porovnání fact_001. Všechny verze zachovávají klíčový historický obsah; dva konkrétní redakční body zůstávají otevřené: NL/fact_004 má zachovat vlastní název „Zelný trh“ vedle překladu „Groentemarkt“ a IT/fact_006 má použít přirozené „dramaturgo“ místo „dramaturg“. Dříve otevřené DE/NL nálezy u fact_005 a fact_015 jsou již ověřeně opravené (oddíl 149). Supabase beze změny; status validated, data_version 1; Brána 0 zavřená. Viz oddíl 150 taháku.
+
+
+**Pokračování auditu 2026-11-17 — CZ-60200 (oddíl 151):** Přečteno dalších 72 překladů DE/EN/ES/FR/IT/NL pro fact_007–fact_018. Obsahové milníky, historický kontext a významové rozlišení zůstávají zachovány. Nově otevřen dílčí nález EN/ES/fact_010: vysvětlit „Brno-střed“ jako centrální městskou část Brna. Dřívější body NL/fact_004 (vlastní název Zelný trh) a IT/fact_006 (dramaturgo) zůstávají otevřené z oddílu 150. Bez změny Supabase; status validated, data_version 1; Brána 0 zavřená. Viz oddíl 151 taháku.
