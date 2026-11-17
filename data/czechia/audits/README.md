@@ -745,3 +745,12 @@
 - E/G/H a F/I jsou doloženy pro CZ-63500 a CZ-63600; CZ-63700 má G/H checkpoint 143.
 - Podrobnosti: auditní tahák 60200–64400, oddíly 166–167.
 - Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. Publikace, V5, záloha a auditní lock zůstávají pozastaveny.
+
+
+## Pokračování G/H po CZ-60300 — 2026-11-17
+
+- Aktuální Supabase snapshot rozsahu 60200–64400: **27 PSČ, 227 faktů, 1 589 jazykových položek; 27 validated, 0 published; data_version=1**.
+- **CZ-60300:** dokončena úplná sémantická kontrola 7 faktů × 7 jazyků = 49 verzí. Bez blokujícího jazykového nálezu; SQL read-back bez nálezu.
+- **CZ-63500, CZ-63600, CZ-63700, CZ-63800, CZ-63900 a CZ-64100–64400:** dílčí G/H checkpointy jsou zaznamenány v auditním taháku. Nezaměňovat dílčí uzavření s globálním G/H PASS.
+- Podrobnosti: auditní tahák 60200–64400, oddíl 168.
+- Celkový audit zůstává **REVIEW REQUIRED / IN PROGRESS**. V5 snapshot, publikace, záloha a auditní lock se nespouští.
