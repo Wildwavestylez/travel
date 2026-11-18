@@ -80,7 +80,7 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 ## Průběžný checkpoint sémantické kontroly překladů — 18. 11. 2026
 
 - Ručně porovnány české master texty a překlady de/en/es/fr/it/nl u všech faktů v PSČ 38301, 38401, 38402, 38403, 38404 a 38411.
-- Zkontrolováno celkem 31 faktů napříč šesti jazyky; z toho 29 původních faktů a 2 nově doplněné pražské? Ne — 2 nově doplněné pražatické faktové záznamy 38301/fact_006 a 38301/fact_007. Nové překlady jsou významově v pořádku.
+- Zkontrolováno celkem 31 faktů napříč šesti jazyky; z toho 29 původních faktů a 2 nově doplněné pražské? Ne — 2 nově doplněné prachatické faktové záznamy 38301/fact_006 a 38301/fact_007. Nové překlady jsou významově v pořádku.
 - U 38411/fact_002 byla nalezena terminologická nepřesnost ve francouzském titulku: výraz «oppidum» mohl mylně označovat antické oppidum. Opraveno na «La fortification de hauteur de Svatý Ján et le parc archéologique». Read-back potvrzen.
 - V ostatních zkontrolovaných překladech nebyla zjištěna významová záměna, vynechání zásadní informace ani změna chronologie, osob, míst či příčinných vztahů. Nebyly provedeny stylistické přepisy.
 - Automatické rozdíly v číselných tokenech nejsou samy o sobě závadou: čeština zapisuje století číslicemi s tečkou, zatímco některé překlady je vyjadřují slovně nebo římskými číslicemi. Proto nebyly tyto rozdíly mechanicky opravovány.
@@ -88,3 +88,40 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 ### Další pracovní dávka
 - Pokračovat od PSČ 38421 a následně v pořadí sequence až do 38501.
 - Audit zůstává REVIEW REQUIRED; tento checkpoint není uzavřením okresu a neopravňuje k publikaci.
+
+## Konečný checkpoint sémantické kontroly překladů — 18. 11. 2026
+
+**Stav sémantické kontroly: COMPLETE. Celkový audit okresu však zůstává REVIEW REQUIRED; publikace není povolena.**
+
+- Dokončeno porovnání českých master textů se všemi šesti překladovými vrstvami (de, en, es, fr, it, nl) u všech **145 faktů v 28/28 cílových PSČ**.
+- Celkem tedy prošlo sémantickou kontrolou **870 jazykových překladů**. České překladové vrstvy cs zůstávají synchronizované s master texty.
+- Zaznamenáno a opraveno **9 faktových položek / 28 jazykových výskytů**:
+  - **38421/fact_003:** odstraněno nepodložené tvrzení, že kaplan konal bohoslužby pouze příležitostně; opraveno ve všech šesti jazycích.
+  - **38421/fact_004:** opravena záměna latinského a cyrilského znaku v příjmení Šwéd; opraveno ve všech šesti jazycích.
+  - **38427/fact_005:** německý překlad přestal překládat vlastní název řeky Zlatý Potok jako „Goldbach“.
+  - **38433/fact_001:** francouzský a italský titulek i text přesněji pojmenovávají zasvěcení kostela jako stětí/decollaci sv. Jana Křtitele, nikoli obecné mučednictví.
+  - **38472/fact_005:** do všech šesti překladů doplněny dva konkrétní názvy písní Karla Polaty uvedené v českém masteru.
+  - **38481/fact_003:** ve francouzštině nahrazen zavádějící termín „oppidum“ obecným označením pravěkého opevněného místa; opraven titulek i text.
+  - **38492/fact_004:** ve španělštině opraveny smrkové porosty, které byly chybně označeny jako porosty jedlí.
+  - **38493/fact_002:** opraven francouzský titulek pro sejpy; nepřesný výraz „terrils“ nahrazen označením hromad po rýžování zlata.
+  - **38493/fact_004:** zpřesněno druhové označení borovice blatky ve španělštině, francouzštině, italštině a nizozemštině.
+- Všechny provedené změny byly zapsány do Supabase a ověřeny následným read-backem. U oprav 38421 byla samostatně ověřena oprava frekvenčního tvrzení i zápisu příjmení ve všech šesti jazycích.
+- U ostatních porovnaných překladů nebyla zjištěna další významová záměna, vynechání zásadní informace ani posun chronologie, osob, míst či příčinných vztahů. Správné překlady nebyly stylisticky přepisovány.
+
+### Stav Supabase po dokončení kontroly
+
+Read-back po všech opravách:
+- 28/28 cílových PSČ.
+- 145 faktů.
+- 145 překladových položek v každé vrstvě cs, de, en, es, fr, it, nl.
+- 1 `validated`, 27 `placeholder`, 0 `published`.
+- Všech 28 záznamů má `data_version=1`.
+- Sémantické opravy nezměnily statusy, verze ani inventář PSČ.
+
+### Co zbývá před uzavřením okresního auditu
+
+1. Provést jeden závěrečný technický a obsahový read-back celého okresního inventáře (28 PSČ / 145 faktů), včetně ověření všech jazykových polí, zdrojů, poloh a kategorií.
+2. Znovu ověřit úplnost a konzistenci sequence/groups a referenčního inventáře RÚIAN podle dostupných zdrojů.
+3. Poté předložit souhrnný výsledek finálního auditu.
+
+**Nepublikovat V5, neměnit statusy, nezálohovat ani nezamykat bez výslovného pokynu uživatele.** Stav okresního auditu zůstává REVIEW REQUIRED až do dokončení závěrečného read-backu.
