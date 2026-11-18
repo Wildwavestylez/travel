@@ -69,16 +69,19 @@ Check all seven languages: `cs, de, en, es, fr, it, nl`.
 Fix errors that change meaning or demonstrably damage a translation. Do not rewrite correct, understandable translations for stylistic alternatives, minor nuances or personal preference.
 
 
-### E2. Text length and sufficient substance
+### E2. Czech master text length and translation alignment
 
-Check the `text` field of every fact independently in all seven language versions. The target length is **500–600 characters including spaces**. Count the actual text content, not JSON markup or wrapper structure.
-- 500–600 characters: leave unchanged unless the text is obviously perfunctory or substantively defective.
-- Under 500 characters: expand with specific, relevant and verifiable information, context or an interesting detail.
-- Over 600 characters: shorten proportionately without losing essential information.
-- Preserve natural language, factual accuracy and meaning across all languages. Adapt each language naturally; do not mechanically pad translations.
-- Do not add filler, repetition or unverified details. If a text cannot safely be expanded with verified information, mark it `REVIEW REQUIRED` and continue.
-- Recount after editing and confirm the text is within the target range. Do not restart comprehensive research for every fact.
+For each fact, check **only the Czech-language master text** in `facts[].text` / the corresponding Czech fact text. The sole length threshold in this audit is **350 characters including spaces**.
 
+- **Czech text with 350 or more characters:** leave it unchanged for length. Do not shorten it, do not enforce a maximum, and do not revise its translations merely because another language is shorter or longer.
+- **Czech text under 350 characters:** this is the only length-related finding. Appropriately expand or improve the Czech text to at least 350 characters using specific, relevant and verifiable information. Preserve its original meaning and factual accuracy; do not add filler, repetition or unverified details.
+- After correcting a Czech text, revise the corresponding translations in all required languages (`de, en, es, fr, it, nl`) so that they accurately reflect the corrected Czech master text. Keep each translation natural and idiomatic; do not translate mechanically or pad to a target character count.
+- **Do not check, flag, expand or shorten foreign-language texts based on their character count.** A foreign-language text may be shorter than 350 characters; that alone is not a defect and must not trigger an edit.
+- Do not impose any upper character limit on Czech or translated texts.
+- If a Czech text under 350 characters cannot be responsibly expanded from verified information, mark that specific fact `REVIEW REQUIRED` and continue.
+- Recount the Czech text after editing and confirm only that it has at least 350 characters. Verify the translations for meaning and completeness, not length.
+
+This rule applies only to the audit. It does not change the requirements of the German rework prompt or Content Standard.
 ### F. JSON, database and technical consistency
 
 Check:
