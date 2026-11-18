@@ -1,7 +1,7 @@
 # Audit českých PSČ — okres Prachatice
 
 **Kanonické ID:** CZ-PRACHATICE-38301-38501  
-**Stav:** AUDIT COMPLETE — NOT PUBLISHED (AWAITING USER INSTRUCTION)  
+**Stav:** AUDIT COMPLETE — PUBLISHED V5 + BACKUP VERIFIED  
 **Snapshot:** 18. 11. 2026  
 **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`  
 **Jediný platný tahák pro okres Prachatice.**
@@ -132,3 +132,26 @@ Read-back po všech opravách:
 - Nebyly zjištěny reklamní ani propagační formulace. Zásadní obsahové doplnění a odstranění duplicity jsou popsány výše.
 
 **AUDIT COMPLETE.** Neprovádět publikaci V5, změnu statusů, zálohu ani read-only zamčení bez výslovného následného pokynu uživatele.
+
+
+## Publikace V5 a ověřená záloha — 18. 11. 2026
+
+Na výslovný pokyn uživatele byl přesně auditovaný rozsah publikován v Supabase a následně zálohován.
+
+### Publikace
+- Rozsah: 28 existujících českých PSČ okresu Prachatice.
+- Všech 28 řádků bylo nastaveno na `data_version = 5` a `status = 'published'`.
+- Read-back po zápisu potvrdil 28/28 unikátních očekávaných PSČ, 28/28 ve V5 a published, 0 výjimek.
+- Žádné jiné PSČ, země ani záznamy nebyly cílem zápisu.
+
+### Záloha
+- Supabase Edge Function: `travel-backup-cz-38301-38501-audited` (aktivní verze 2).
+- Výsledek běhu: `BACKUP_AND_READBACK_VERIFIED`.
+- Dropbox aplikační cesta: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_38301-38501_2026-11-18T18-32-10-844Z/`.
+- Obsah složky: `CZ_AUDIT_38301-38501_backup.json` (1 252 334 B), `CZ_AUDIT_38301-38501_restore.sql` (1 091 448 B), `manifest.json` (2 496 B).
+- Všechny tři soubory byly vytvořeny bez přepsání existujících souborů; zálohovací funkce každý soubor stáhla zpět a ověřila jeho SHA-256.
+- Manifest byl načten přímo z aplikačního Dropbox namespace a potvrzuje: `record_count = 28`, `validation.status = VERIFIED`, `validation.readback_verified = true`, `verified_record_count = 28`, `error = null`.
+- Canonical scope SHA-256: `4e1584927934291b1ee32c55e21f7c4c7c1cda0eb16391b500babfb2510feba8`.
+- Seznam PSČ v manifestu přesně odpovídá auditovanému inventáři; žádné navíc ani nechybí.
+
+**Publikace a záloha dokončeny.** Read-only zamčení nebylo požadováno a nebylo provedeno.
