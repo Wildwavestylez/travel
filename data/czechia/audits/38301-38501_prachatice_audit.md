@@ -77,3 +77,14 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 1. Dokončit sémantickou kontrolu starších překladů de, en, es, fr, it, nl u všech dříve existujících faktů. Strukturální synchronizace a počty jsou v pořádku, ale tento běh neprošel ruční sémantickou kontrolou všech 145 × 6 překladových textů.
 2. Po uzavření překladové kontroly znovu načíst celý rozsah a předložit finální výsledek.
 3. Nepublikovat ani nezálohovat bez výslovného následného pokynu uživatele. Aktuální stavy zůstávají 1 validated a 27 placeholder; žádné statusy ani verze nebyly tímto během měněny.
+## Průběžný checkpoint sémantické kontroly překladů — 18. 11. 2026
+
+- Ručně porovnány české master texty a překlady de/en/es/fr/it/nl u všech faktů v PSČ 38301, 38401, 38402, 38403, 38404 a 38411.
+- Zkontrolováno celkem 31 faktů napříč šesti jazyky; z toho 29 původních faktů a 2 nově doplněné pražské? Ne — 2 nově doplněné pražatické faktové záznamy 38301/fact_006 a 38301/fact_007. Nové překlady jsou významově v pořádku.
+- U 38411/fact_002 byla nalezena terminologická nepřesnost ve francouzském titulku: výraz «oppidum» mohl mylně označovat antické oppidum. Opraveno na «La fortification de hauteur de Svatý Ján et le parc archéologique». Read-back potvrzen.
+- V ostatních zkontrolovaných překladech nebyla zjištěna významová záměna, vynechání zásadní informace ani změna chronologie, osob, míst či příčinných vztahů. Nebyly provedeny stylistické přepisy.
+- Automatické rozdíly v číselných tokenech nejsou samy o sobě závadou: čeština zapisuje století číslicemi s tečkou, zatímco některé překlady je vyjadřují slovně nebo římskými číslicemi. Proto nebyly tyto rozdíly mechanicky opravovány.
+
+### Další pracovní dávka
+- Pokračovat od PSČ 38421 a následně v pořadí sequence až do 38501.
+- Audit zůstává REVIEW REQUIRED; tento checkpoint není uzavřením okresu a neopravňuje k publikaci.
