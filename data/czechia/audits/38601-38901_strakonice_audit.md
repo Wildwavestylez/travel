@@ -1,7 +1,7 @@
 # Finální audit českých PSČ — okres Strakonice
 
 **Kanonické ID:** CZ-STRAKONICE-38601-38901  
-**Stav:** PASS — AUDIT DOKONČEN (prompt_audit.md V2.0)  
+**Stav:** REVIEW REQUIRED — geografické dořešení 7 NULL poloh (prompt_audit.md V2.0)  
 **Datum dokončení:** 18. 11. 2026  
 **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`  
 **Jediný kanonický tahák pro tento přesný okresní rozsah.**
@@ -88,14 +88,14 @@ Po opravách: 0 chybějících důležitých číselných údajů v překladech.
 - Základní strukturální a databázové kontroly PASS.
 - AJV ani samostatné validační prostředí nebyly spouštěny; prompt je výslovně nevyžaduje.
 
-### G. Souřadnice
+### G. Souřadnice — otevřená kontrola podle promptu V2.0
 
-Stávající neprázdné souřadnice nebyly plošně znovu kontrolovány ani přesouvány. Doplněny byly pouze tři dříve prázdné polohy:
+Stávající neprázdné souřadnice nebyly plošně znovu kontrolovány ani přesouvány. Doplněny byly tři dříve prázdné polohy. Při následném ověření pravidel sekce G se ukázalo, že zbývajících sedm NULL nebylo před původním uzavřením dostatečně individuálně prověřeno. Proto se výsledek mění na REVIEW REQUIRED a níže uvedené případy zůstávají otevřené; nejde o potvrzení, že všechny musejí zůstat NULL.
 - 38772/fact_004 — orientační bod u Nového zámku Libějovice pro krajinnou osu.
 - 38772/fact_006 — orientační bod areálu Nového zámku pro příběh Františka Horského.
 - 38773/fact_015 — reprezentativní bod historického jádra Bavorova pro skupinu místních osobností.
 
-Sedm poloh zůstává záměrně `null`; přesný bod nelze odpovědně určit:
+Sedm poloh je zatím `null`; jejich konečný stav musí být určen po cíleném ověření:
 - 38706/fact_007 — více archeologických lokalit a zaniklé/nejasně rozpoznatelné mohyly.
 - 38772/fact_008 — historická chovatelská stanice československého vlčáka bez spolehlivě doloženého přesného stanoviště.
 - 38772/fact_009 — archeologické pohřebiště Černoháj bez veřejně ověřitelného přesného bodu.
@@ -104,7 +104,16 @@ Sedm poloh zůstává záměrně `null`; přesný bod nelze odpovědně určit:
 - 38775/fact_008 — archeologické pohřebiště pod Růžovým vrchem, přesná poloha není bezpečně doložena.
 - 38801/fact_014 — žárové pohřebiště u Škvořetic je ve zdrojích lokalizováno pouze přibližně.
 
-Tyto případy jsou v souladu s pravidlem promptu: nevymýšlet souřadnice a při nemožnosti odpovědného určení ponechat `null`.
+Předběžné dohledání po zjištění nedostatečné kontroly již ukázalo konkrétní kandidátní zdroje a pravděpodobně doplnitelné polohy:
+- 38706/fact_007: Atlas české architektury lokalizuje původní dvě mohyly na návrší asi 700 m západně od Volyňky, ale uvádí, že je dnes nelze spolehlivě identifikovat. Prověřit, zda lze doložit reprezentativní bod původního naleziště; jinak ponechat null. Zdroj: https://www.archmap.cz/cs/objekt/5638.
+- 38772/fact_008: první kříženci československého vlčáka se narodili 26. 5. 1958 v chovatelské stanici Libějovice; existující body faktů 004/006 označují Nový zámek Libějovice. Prověřit, zda jde o totožný historický areál a zda lze bod bezpečně převzít. Zdroje: https://csv.sk/plemeno/nic a https://www.mistopisy.cz/pruvodce/body-zajmu/2308/novy-zamek-libejovice.
+- 38772/fact_009: NPÚ ISAD vymezuje mohylové pohřebiště na jižním okraji lesa Černoháj, jižně od Velkého Černohájského rybníka, s přesností vymezení cca 200 m. Pravděpodobně lze použít area_representative bod podle polygonu. Zdroj: https://isad.npu.cz/ujezd-s-okraj-lesa-cernohaj-20298.
+- 38773/fact_006: AOPK eviduje přírodní památku Bavorovská stráň a odkazuje na mapu i úřední polygon; získat reprezentativní bod z oficiální geometrie. Zdroje: https://portal.nature.cz/w/uzemi-1687 a https://sbirkapp.gov.cz/detail/SPPQGUE4U4BO6VYK/text.
+- 38773/fact_014: text zahrnuje více objektů ve dvou obcích; prověřit konkrétní polohu kaple sv. Prokopa v Měkynci nebo vybrat jeden hlavní objekt podle faktu, případně ponechat null, pokud není možné určit jediný reprezentativní bod. Pro Tourov jsou doložené body božích muk a kapličky.
+- 38775/fact_008: obec Skočice uvádí pohřebiště asi 700 m jihozápadně od hradiště v sedle mezi Růžovým vrchem a Kostelním lesem. Prověřit mapové vymezení a reprezentativní bod. Zdroj: https://www.skocice.cz/pamatky-zajimavosti/skocicky-hrad.
+- 38801/fact_014: NPÚ ISAD eviduje pohřebiště pod vrchem Hradiště a uvádí vymezení s rozptylem cca 200 m; doplnit area_representative bod z oficiálního polygonu, pokud je dostupný. Zdroj: https://isad.npu.cz/pod-vrchem-hradiste-17378.
+
+Toto předběžné dohledání není dokončená lokalizace ani souhlas s odhadem. Pro každý případ je nutné získat a ověřit konkrétní souřadnice, správný `location.type`, `accuracy` a zdroj; následně zapsat do Supabase, načíst zpět a ověřit. Nevyplňovat souřadnice naslepo. Po dokončení všech sedmi případů znovu vyhodnotit stav auditu.
 
 ### H. Zjevné věcné vady a propagace
 
@@ -118,6 +127,6 @@ Tyto případy jsou v souladu s pravidlem promptu: nevymýšlet souřadnice a p�
 
 ## Konečný stav a další krok
 
-**PASS — audit okresního bloku je dokončen.** Nebyla nalezena nevyřešená podstatná vada. Sedm `null` poloh je zdůvodněno výše a není důvodem k blokaci.
+**REVIEW REQUIRED — auditní obsah a technické kontroly jsou dokončeny, ale geografická kontrola sedmi NULL poloh nebyla podle sekce G promptu V2.0 řádně uzavřena.** Konečný PASS lze udělit až po individuálním prověření všech sedmi poloh, doplnění těch, které lze doložit, a zdůvodnění těch, které skutečně musí zůstat null.
 
 Supabase zůstává na `data_version=1`, `status='validated'`. **Neprovádět V5, published, zálohu ani read-only zamčení bez výslovného následného pokynu uživatele.** Při pokračování nejprve načíst tento tahák; dokončené kontroly neopakovat.
