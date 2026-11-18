@@ -45,7 +45,7 @@ Při úvodním průzkumu byly nalezeny a doplněny čtyři skutečně významné
 - `fact_015` — povstání odbojové organizace Niva a osvobození Strakonic v květnu 1945.
 - `fact_016` — Josef Režný, folklorista a zakladatel Mezinárodního dudáckého festivalu.
 
-Příběhy jsou doložené městskými, knihovními, odbornými a paměťovými zdroji. U nových faktů byly doplněny odpovídající mapové body. Nebyl vytvářen katalog drobných objektů.
+Příběhy jsou doložené městskými, knihovními, odbornými a paměťovými zdroji. U nových faktů byly doplněny odpovídající mapové body. Nebyl vytvářen katalog drobných objektů. U události z května 1945 byl vyřešen rozpor v pramenech: rozporné označení „94. divize“ z jednoho sekundárního zdroje nebylo převzato; finální text uvádí první tanky 4. obrněné divize XII. sboru 3. americké armády odpoledne 6. 5. 1945 podle městského zpravodaje a přehledu postupu 4th Armored Division.
 
 ### B. PSČ a správní údaje
 
