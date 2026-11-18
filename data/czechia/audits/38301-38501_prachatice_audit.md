@@ -35,11 +35,10 @@ Tyto počty jsou orientační snapshot; před každou dávkovou změnou znovu na
 
 ## Povinný další postup
 
-1. Před prací znovu načíst `data/czechia/prompt_rework.md`, `data/czechia/CONTENT_STANDARD.md`, `data/czechia/schema.json`, `data/czechia/prompt_audit.md`, `data/czechia/sequence.json` a relevantní RÚIAN referenční podklady.
-2. Ověřit přesný inventář tohoto souboru proti sequence a Supabase. Změny provádět pouze pro uvedená PSČ s `country_code='CZ'` a okresním zařazením Prachatice.
-3. Pokračovat v reworku/auditu po jednotlivých PSČ; po každé změně provést read-back.
-4. Nepublikovat V5, nezálohovat ani nezamykat, dokud nebude dokončen okresní audit a uživatel to výslovně neschválí.
-5. Při budoucím uzavření: audit → V5 + published → ověřená Dropbox záloha → read-only zámek.
+1. Pokračovat pouze sémantickou kontrolou starších překladů de, en, es, fr, it, nl u 142 původních faktů. Tři nově doplněné/upravené fakty (38301/fact_006, 38301/fact_007, 38451/fact_003) mají nové překlady připravené v sedmi jazykových vrstvách.
+2. Opravovat pouze prokazatelné významové chyby; po každé skutečné opravě načíst dotčený záznam zpět a ověřit všech sedm jazyků. Nepřepisovat správné překlady stylisticky.
+3. Po uzavření sémantické kontroly provést cílený závěrečný read-back inventáře a všech opravených položek a aktualizovat výsledek auditu.
+4. Nepublikovat V5, nezálohovat ani nezamykat bez výslovného následného pokynu uživatele. Aktuální stav zůstává REVIEW REQUIRED.
 
 ## Zákaz použití starého společného taháku
 
