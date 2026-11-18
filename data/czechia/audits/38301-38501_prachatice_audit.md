@@ -1,7 +1,7 @@
 # Audit českých PSČ — okres Prachatice
 
 **Kanonické ID:** CZ-PRACHATICE-38301-38501  
-**Stav:** REVIEW REQUIRED — AUDIT / SEMANTIC TRANSLATION REVIEW OPEN  
+**Stav:** AUDIT COMPLETE — NOT PUBLISHED (AWAITING USER INSTRUCTION)  
 **Snapshot:** 18. 11. 2026  
 **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`  
 **Jediný platný tahák pro okres Prachatice.**
@@ -46,7 +46,7 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 
 ## Výsledek auditního běhu — 18. 11. 2026
 
-**Průběžný výsledek:** REVIEW REQUIRED — technické a obsahové opravy jsou zapsány a ověřeny, ale sémantická kontrola všech starších překladů v sedmi jazycích ještě není kompletně uzavřena. Nepublikovat.
+**Konečný výsledek:** AUDIT COMPLETE — všech 28 PSČ a 145 faktů prošlo obsahovou, strukturální a sémantickou kontrolou. Záznamy zůstávají V1; publikace ani záloha nebyly spuštěny.
 
 ### Inventář a rozsah
 - Ověřeno 28/28 cílových PSČ v Supabase.
@@ -73,10 +73,11 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 - Rychlá kontrola reklamních a propagačních formulací: bez nálezu.
 - Odstraněna jedna potvrzená duplicita mezi 38444 a 38451.
 
-### Otevřené položky
-1. Dokončit sémantickou kontrolu starších překladů de, en, es, fr, it, nl u všech dříve existujících faktů. Strukturální synchronizace a počty jsou v pořádku, ale tento běh neprošel ruční sémantickou kontrolou všech 145 × 6 překladových textů.
-2. Po uzavření překladové kontroly znovu načíst celý rozsah a předložit finální výsledek.
-3. Nepublikovat ani nezálohovat bez výslovného následného pokynu uživatele. Aktuální stavy zůstávají 1 validated a 27 placeholder; žádné statusy ani verze nebyly tímto během měněny.
+### Uzavření auditu
+- Sémantická kontrola překladů je dokončena pro všech 145 faktů × 6 cizojazyčných vrstev.
+- Závěrečný technický read-back celého okresního rozsahu je dokončen; souhrn je uveden v posledním checkpointu níže.
+- Bez otevřených auditních oprav. Publikace a záloha zůstávají odděleným krokem a vyžadují výslovný pokyn uživatele.
+- Aktuální stavy zůstávají 1 validated a 27 placeholder; všech 28 záznamů má data_version=1.
 ## Průběžný checkpoint sémantické kontroly překladů — 18. 11. 2026
 
 - Ručně porovnány české master texty a překlady de/en/es/fr/it/nl u všech faktů v PSČ 38301, 38401, 38402, 38403, 38404 a 38411.
@@ -118,10 +119,16 @@ Read-back po všech opravách:
 - Všech 28 záznamů má `data_version=1`.
 - Sémantické opravy nezměnily statusy, verze ani inventář PSČ.
 
-### Co zbývá před uzavřením okresního auditu
+### Závěrečné technické ověření a uzavření — 18. 11. 2026
 
-1. Provést jeden závěrečný technický a obsahový read-back celého okresního inventáře (28 PSČ / 145 faktů), včetně ověření všech jazykových polí, zdrojů, poloh a kategorií.
-2. Znovu ověřit úplnost a konzistenci sequence/groups a referenčního inventáře RÚIAN podle dostupných zdrojů.
-3. Poté předložit souhrnný výsledek finálního auditu.
+- Supabase read-back: 28/28 PSČ, 145 faktů; 145 položek v každé jazykové vrstvě cs/de/en/es/fr/it/nl.
+- Povinná pole a administrativní údaje: 0 chyb; všech 28 záznamů má county Prachatice a state Jihočeský kraj.
+- Český master a překladové ID/pořadí: 0 nesouladů. Všech 145 českých textů má nejméně 350 znaků.
+- Kategorie, priority, mapové kategorie, polohy, reprezentativní body, access_point a zdrojové objekty: 0 zjištěných strukturálních chyb.
+- Kontrola vazeb zdrojů odhalila v 38472 dva osiřelé interní odkazy: 38472/fact_003 odkazoval na neexistující s17 (odstraněn; zůstaly s10 a s11), 38472/fact_006 odkazoval na neexistující s15 (opraven na existující s14 – položka Schwarzenberského pivovaru). Následný read-back potvrdil 0 osiřelých interních odkazů.
+- RÚIAN CSV: všech 28 cílových PSČ je v oficiálním referenčním inventáři; žádné nechybí. Manifest uvádí 2 677 unikátních PSČ a zdrojový feed ČÚZK aktualizovaný 1. 11. 2026, zpracovaný 13. 11. 2026.
+- sequence.json: 2 677/2 677 unikátních kódů. groups: 2 677/2 677 unikátních položek. Množiny sequence a groups se přesně shodují; všech 28 cílových PSČ je v každé právě jednou.
+- Stav po opravách: 1 validated, 27 placeholder, 0 published; všech 28 záznamů data_version=1.
+- Nebyly zjištěny reklamní ani propagační formulace. Zásadní obsahové doplnění a odstranění duplicity jsou popsány výše.
 
-**Nepublikovat V5, neměnit statusy, nezálohovat ani nezamykat bez výslovného pokynu uživatele.** Stav okresního auditu zůstává REVIEW REQUIRED až do dokončení závěrečného read-backu.
+**AUDIT COMPLETE.** Neprovádět publikaci V5, změnu statusů, zálohu ani read-only zamčení bez výslovného následného pokynu uživatele.
