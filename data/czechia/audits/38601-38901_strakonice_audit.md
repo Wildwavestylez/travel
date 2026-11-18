@@ -1,7 +1,7 @@
 # Finální audit českých PSČ — okres Strakonice
 
 **Kanonické ID:** CZ-STRAKONICE-38601-38901  
-**Stav:** PASS — PUBLISHED V5 / BACKUP VERIFIED  
+**Stav:** PASS — PUBLISHED V5 / BACKUP VERIFIED / READ-ONLY LOCKED  
 **Datum dokončení:** 18. 11. 2026  
 **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`  
 **Jediný kanonický tahák pro tento přesný okresní rozsah.**
@@ -23,7 +23,7 @@ Read-back ze Supabase po všech opravách:
 - **188 faktů celkem**; PSČ 38601 obsahuje 16 faktů.
 - 38801 Blatná má 14 faktů a 38901 Vodňany 21 faktů; starý záznam o prázdných placeholder z těchto PSČ je zastaralý a pro tento audit neplatí.
 
-Publikace V5 a `status='published'` byly dokončeny. Následná záloha byla ověřena v Dropboxu. Read-only zámek nebyl proveden.
+Publikace V5 a `status='published'` byly dokončeny. Následná záloha byla ověřena v Dropboxu. Následně byl na přesných 25 PSČ nasazen databázový READ-ONLY zámek.
 
 ## Inventář, sekvence a RÚIAN
 
@@ -122,8 +122,10 @@ Po zápisu proběhl samostatný read-back všech sedmi faktů. Všech sedm `loca
 - **Soubory:** `CZ_AUDIT_38601-38901_backup.json` (1 714 057 B), `CZ_AUDIT_38601-38901_restore.sql` (1 500 194 B), `manifest.json` (2 393 B).
 - **Manifest:** `record_count=25`, úplný seznam PSČ a record IDs, `validation.status=VERIFIED`, `validation.readback_verified=true`, `verified_record_count=25`, `verified_scope_hash=52385dce1a017e0bafd7892cae6b47852f7628d14a47bf3a50eba2cd74712ea1`.
 - **SHA-256 read-back:** JSON `1d004e2afb3d383c4fb5eadeff9605f5693c7f2fd099a52ed667e8dce5bc557c`; restore SQL `2c185df67facc7881098010cc0c4e115db5482dca4dcb40056a7d9bd802ee5d4`; manifest `0daa984fe1a5a6a116b25aa8019d8f8c2a1dea7936f5156958fbb168271528d6`. Všechny tři soubory byly po uploadu znovu staženy Edge Function a jejich SHA-256 souhlasí; Dropbox listing následně potvrdil právě tyto tři soubory.
-- Read-only zámek nebyl proveden; uživatel jej nepožadoval.
+- **READ-ONLY LOCK:** trigger `lock_cz_strakonice_38601_38901_read_only` na `public.postal_codes` chrání přesně uvedených 25 PSČ při `INSERT`, `UPDATE` i `DELETE`; funkce `prevent_cz_strakonice_38601_38901_mutation()` vrací SQLSTATE `55000` a vyžaduje explicitní reviewed migration pro odemčení.
+- **Test zámku:** pokusný `UPDATE` nad `38601` byl zachycen jako SQLSTATE `55000`; test proběhl v bezpečném exception bloku a data se nezměnila.
+- **Následný read-back:** 25/25 záznamů zůstává `data_version=5`, `status='published'`, 0 výjimek.
 
 ## Konečný stav
 
-**PASS — audit okresu Strakonice dokončen, 25/25 PSČ publikováno ve V5 a záloha ověřena.**
+**PASS — audit okresu Strakonice dokončen, 25/25 PSČ publikováno ve V5, záloha ověřena a rozsah READ-ONLY LOCKED.**
