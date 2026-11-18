@@ -88,7 +88,7 @@ Soubor `DEPRECATED_DO_NOT_USE_38101-38901_audit.md` je pouze historický archiv 
 
 ### Další pracovní dávka
 - Pokračovat od PSČ 38421 a následně v pořadí sequence až do 38501.
-- Audit zůstává REVIEW REQUIRED; tento checkpoint není uzavřením okresu a neopravňuje k publikaci.
+- Tento checkpoint zachycuje průběžný stav v době svého vzniku; byl nahrazen konečným checkpointem níže. Publikace zůstává odděleným krokem vyžadujícím výslovný pokyn.
 
 ## Konečný checkpoint sémantické kontroly překladů — 18. 11. 2026
 
