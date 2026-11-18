@@ -1,7 +1,7 @@
 # Finální audit českých PSČ — okres Strakonice
 
 **Kanonické ID:** CZ-STRAKONICE-38601-38901  
-**Stav:** PASS — geografická kontrola uzavřena, 188/188 faktů má polohu, 0 NULL  
+**Stav:** PASS — PUBLISHED V5 / BACKUP VERIFIED  
 **Datum dokončení:** 18. 11. 2026  
 **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`  
 **Jediný kanonický tahák pro tento přesný okresní rozsah.**
@@ -18,12 +18,12 @@ Nejde o celý souvislý číselný interval. Český Krumlov, Prachatice, němec
 
 Read-back ze Supabase po všech opravách:
 - **25/25** očekávaných českých řádků.
-- **25 validated**, 0 placeholder, 0 published.
-- **25/25 data_version=1**.
+- **25 published**, 0 validated, 0 placeholder.
+- **25/25 data_version=5**; read-back potvrdil přesný inventář a nulový počet výjimek.
 - **188 faktů celkem**; PSČ 38601 obsahuje 16 faktů.
 - 38801 Blatná má 14 faktů a 38901 Vodňany 21 faktů; starý záznam o prázdných placeholder z těchto PSČ je zastaralý a pro tento audit neplatí.
 
-Publikace V5, změna statusu, záloha ani read-only zámek nebyly provedeny.
+Publikace V5 a `status='published'` byly dokončeny. Následná záloha byla ověřena v Dropboxu. Read-only zámek nebyl proveden.
 
 ## Inventář, sekvence a RÚIAN
 
@@ -113,8 +113,17 @@ Po zápisu proběhl samostatný read-back všech sedmi faktů. Všech sedm `loca
 - Starý společný tahák `38101-38901_audit.md` je historický a pro strakonický okresní podblok již není autoritativní. Jeho údaj, že 38801 a 38901 jsou prázdné placeholdery, je překonaný.
 - Václav Čeněk Bendl ve Volyni je doložitelná regionální literární stopa, ale při odlehčeném auditu nebyl vyhodnocen jako zásadní chybějící téma srovnatelné s nově doplněnými osobnostmi; není otevřenou vadou auditu.
 
-## Konečný stav a další krok
+## Publikace V5 a ověřená záloha
 
-**REVIEW REQUIRED — auditní obsah a technické kontroly jsou dokončeny, ale geografická kontrola sedmi NULL poloh nebyla podle sekce G promptu V2.0 řádně uzavřena.** Konečný PASS lze udělit až po individuálním prověření všech sedmi poloh, doplnění těch, které lze doložit, a zdůvodnění těch, které skutečně musí zůstat null.
+- **Supabase:** přesně 25/25 očekávaných PSČ nastaveno na `data_version=5`, `status='published'`.
+- **Read-back:** 25 řádků, 25 published V5, 0 výjimek, 0 nesouladů země/okresu. Ověřený seznam: `38601, 38701, 38706, 38711, 38715, 38716, 38719, 38731, 38732, 38733, 38734, 38735, 38736, 38737, 38742, 38743, 38751, 38752, 38756, 38771, 38772, 38773, 38775, 38801, 38901`.
+- **Záloha:** dedikovaná Supabase Edge Function `travel-backup-cz-38601-38901-strakonice-audited`, spuštěná zavedenou cestou přes `pg_net` HTTP GET. Supabase byl při exportu pouze čten.
+- **Dropbox složka:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_38601-38901_2026-11-18T19-45-30-717Z/`.
+- **Soubory:** `CZ_AUDIT_38601-38901_backup.json` (1 714 057 B), `CZ_AUDIT_38601-38901_restore.sql` (1 500 194 B), `manifest.json` (2 393 B).
+- **Manifest:** `record_count=25`, úplný seznam PSČ a record IDs, `validation.status=VERIFIED`, `validation.readback_verified=true`, `verified_record_count=25`, `verified_scope_hash=52385dce1a017e0bafd7892cae6b47852f7628d14a47bf3a50eba2cd74712ea1`.
+- **SHA-256 read-back:** JSON `1d004e2afb3d383c4fb5eadeff9605f5693c7f2fd099a52ed667e8dce5bc557c`; restore SQL `2c185df67facc7881098010cc0c4e115db5482dca4dcb40056a7d9bd802ee5d4`; manifest `0daa984fe1a5a6a116b25aa8019d8f8c2a1dea7936f5156958fbb168271528d6`. Všechny tři soubory byly po uploadu znovu staženy Edge Function a jejich SHA-256 souhlasí; Dropbox listing následně potvrdil právě tyto tři soubory.
+- Read-only zámek nebyl proveden; uživatel jej nepožadoval.
 
-Supabase zůstává na `data_version=1`, `status='validated'`. **Neprovádět V5, published, zálohu ani read-only zamčení bez výslovného následného pokynu uživatele.** Při pokračování nejprve načíst tento tahák; dokončené kontroly neopakovat.
+## Konečný stav
+
+**PASS — audit okresu Strakonice dokončen, 25/25 PSČ publikováno ve V5 a záloha ověřena.**
