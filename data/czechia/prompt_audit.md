@@ -68,16 +68,19 @@ Zkontroluj všech sedm jazyků: `cs, de, en, es, fr, it, nl`.
 Oprav chyby, které mění význam nebo prokazatelně poškozují překlad. Správné a srozumitelné překlady nepřepisuj kvůli stylistickým alternativám, drobným nuancím nebo osobní preferenci.
 
 
-### E2. Délka a dostatečná propracovanost textů
+### E2. Délka českého master textu a návaznost překladů
 
-U každého faktu zkontroluj pole `text` samostatně ve všech sedmi jazykových verzích. Cílová délka je **500–600 znaků včetně mezer**. Počítej skutečné znaky textového obsahu, nikoli značky nebo obalovou strukturu JSON.
-- 500–600 znaků: ponech beze změny, pokud text není zjevně odfláknutý nebo obsahově vadný.
-- Méně než 500 znaků: vhodně doplň konkrétní, relevantní a ověřitelné informace, souvislosti nebo zajímavý detail.
-- Více než 600 znaků: přiměřeně zkrať bez ztráty podstatných informací.
-- Zachovej přirozený styl, věcnou přesnost a významovou shodu mezi jazyky. Každý jazyk uprav přirozeně, ne doslovným mechanickým natahováním.
-- Nevkládej výplň, opakování ani neověřené podrobnosti. Pokud nelze text bezpečně doplnit ověřenými informacemi, označ jej `REVIEW REQUIRED` a pokračuj.
-- Po úpravě znovu spočítej délku a ověř, že text spadá do cílového rozmezí. Neprováděj kvůli tomu novou kompletní rešerši všech faktů.
+U každého faktu kontroluj z hlediska délky **výhradně český master text** v `facts[].text` / odpovídající český text faktu. Jedinou délkovou hranicí tohoto auditu je **350 znaků včetně mezer**.
 
+- **Český text s délkou 350 a více znaků:** z hlediska délky jej ponech beze změny. Nezkracuj ho, nestanovuj žádnou horní hranici a neupravuj jeho překlady jen proto, že jsou v jiném jazyce kratší nebo delší.
+- **Český text kratší než 350 znaků:** pouze toto je délkový nález. Český text vhodně doplň nebo přepracuj alespoň na 350 znaků pomocí konkrétních, relevantních a ověřitelných informací. Zachovej původní význam a věcnou přesnost; nepřidávej výplň, opakování ani neověřené podrobnosti.
+- Po opravě českého textu uprav odpovídající překlady ve všech požadovaných jazycích (`de, en, es, fr, it, nl`) tak, aby přesně odpovídaly opravenému českému master textu. Každý překlad formuluj přirozeně a idiomaticky; nepřekládej mechanicky a nenatahuj text na žádný počet znaků.
+- **Délku cizojazyčných textů podle počtu znaků nekontroluj, neoznačuj jako chybu, nedoplňuj ani nezkracuj.** Cizojazyčný text může mít méně než 350 znaků; samo o sobě to není závada a nesmí to vyvolat žádnou úpravu.
+- Pro české ani přeložené texty nestanovuj žádnou horní délkovou hranici.
+- Pokud český text kratší než 350 znaků nelze odpovědně doplnit ověřenými informacemi, označ konkrétní fakt `REVIEW REQUIRED` a pokračuj.
+- Po úpravě znovu spočítej český text a ověř pouze to, že má alespoň 350 znaků. Překlady kontroluj z hlediska významu a úplnosti, nikoli délky.
+
+Toto pravidlo platí pouze pro audit. Nemění požadavky českého rework promptu ani Content Standardu.
 ### F. JSON, databáze a technická konzistence
 
 Ověř:
