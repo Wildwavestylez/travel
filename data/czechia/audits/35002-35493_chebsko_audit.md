@@ -89,6 +89,12 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 5/12 PSČ, 264/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35134 Skalná (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 13 faktů × 6 cizojazyčných verzí = **78/78 překladových položek**.
+- **fact_010:** opravena nizozemská typografická chyba „Sint-Clarak kerk“ na správné složené označení „Sint-Clarakerk“.
+- Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Oprava ověřena read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 6/12 PSČ, 342/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
