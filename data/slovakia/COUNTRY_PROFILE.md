@@ -34,7 +34,7 @@ Use the canonical flat top-level record fields defined by `data/slovakia/schema.
 
 Slovakia has eight kraje and 79 okresy. The administrative relationship is generally kraj → okres → obec, with official mestské časti or miestne časti below the municipality where relevant. Preserve the actual administrative hierarchy and official Slovak names. Do not confuse a kraj with an okres, or an okres with a municipality.
 
-The administrative fields describe the principal municipality selected for the record; they do not reduce the fact-research scope to that municipality if the geographic PSČ demonstrably covers a wider area. Where a postal area crosses municipal or administrative boundaries, document the situation and follow the schema's permitted representation. Never silently assign the whole postal area to the wrong okres or kraj.
+The administrative fields describe the municipality in which the serving post office is physically located: `district` may identify only a relevant part within that same municipality; `county` is the okres containing that municipality; and `state` is its samosprávny kraj. They do not reduce the fact-research scope to that municipality if the geographic PSČ demonstrably covers a wider area. Where the postal delivery area crosses municipal or administrative boundaries, document the wider coverage in the manner permitted by the schema and Content Standard, but do not change the post-office-based meaning of `city`, `county` or `state`.
 
 ## Postal-code verification and source authority
 
