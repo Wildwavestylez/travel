@@ -28,28 +28,28 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "One principal municipality (obec) associated with the geographic PSČ, established from Slovak postal and official geographic evidence. Do not use an unstructured list of every locality in the delivery area."
+      "description": "The one municipality (obec) or town in which the serving post office for this geographic PSČ is physically located. Identify the actual serving post office and use the municipality where its post office building is located. Do not select the first municipality in the list of localities served, the largest or most populous municipality in the delivery area, or an arbitrary principal locality. Example: if the serving post office is physically in Snina, city is Snina even if the delivery area also includes Dolná nad Hornou. The PSČ may cover a wider area; that does not change this field."
     },
     "district": {
       "type": [
         "string",
         "null"
       ],
-      "description": "An officially documented mestská časť, miestna časť, urban district or other relevant locality within the principal municipality, where applicable; otherwise null. Do not list neighbouring municipalities or every settlement in the postal area."
+      "description": "An officially documented mestská časť, miestna časť, urban district or other relevant part within the same municipality in which the serving post office is physically located, where applicable; otherwise null. Do not put a neighbouring municipality, another locality in the post office's delivery area, or every settlement in the postal area here."
     },
     "county": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The okres to which the principal municipality belongs. Use the official Slovak name."
+      "description": "The okres to which the municipality containing the physically located serving post office belongs. Use the official Slovak name; do not derive it from another municipality merely served by that post office."
     },
     "state": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The samosprávny kraj (kraj) to which the principal municipality belongs. Use the official Slovak name."
+      "description": "The samosprávny kraj (kraj) to which the municipality containing the physically located serving post office belongs. Use the official Slovak name; do not derive it from another municipality merely served by that post office."
     },
     "representative_place": {
       "type": "string",
