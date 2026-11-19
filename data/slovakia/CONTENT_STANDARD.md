@@ -12,7 +12,7 @@ The binding production contract consists of:
 
 Every new or reworked record MUST comply with the current schema and this standard. If they conflict, stop and resolve the document-level conflict; do not silently work around it. Do not add fields, enums, categories, languages, lifecycle states or undocumented content patterns ad hoc.
 
-This is the Slovak national implementation of the shared TRAVEL methodology. It preserves the common record architecture, fact model, A–D priorities, shared categories, 17-value map-category taxonomy and seven-language structure. Slovak postal, administrative, geographic, historical and cultural realities are handled through this country-specific standard. Czech and German procedures, authorities and data workflows must not be imported merely because the shared architecture is similar.
+This is the Slovak geographic and editorial implementation of the shared TRAVEL methodology, but Slovak records do not have a Slovak-language content layer. The original/source text in `facts[]` is written in Czech, exactly as in the Czech TRAVEL workflow. The seven required language versions are `cs`, `de`, `en`, `es`, `fr`, `it` and `nl`; `translations.cs` must match the Czech source text, while the other six versions are translated from that Czech original. Do not create Slovak-language originals or a Slovak (`sk`) translation. Slovak postal, administrative, geographic, historical and cultural realities are handled through this country-specific standard. Czech and German postal/geographic procedures must not be imported merely because the shared content language and record architecture are similar.
 
 ## 2. Core philosophy
 
@@ -487,17 +487,17 @@ Every production record must contain all seven language versions required by the
 
 All seven versions must preserve the same fact IDs and order and communicate the same verified meaning. Do not add, remove, reorder or merge facts in only one language.
 
-### 23.1 Meaning before literal translation
+### 23.1 Czech original and meaning before translation
 
-Translate the meaning, not the sentence structure. Each version must read naturally to a fluent speaker of that language. Avoid machine-like phrasing, false friends, untranslated grammar and unexplained Slovak administrative or cultural terminology.
+Write the original fact title and text in Czech in the root `facts[]` array. Czech is the source language for every Slovak-geography record; do not write the original in Slovak and do not create a Slovak-language layer. The `translations.cs` version must reproduce the Czech source meaning and content faithfully (it may be text-identical where the source is already natural Czech). Translate the Czech original into German, English, Spanish, French, Italian and standard Netherlands Dutch. Translate meaning, not sentence structure. Each version must read naturally to a fluent speaker of that language. Avoid machine-like phrasing, false friends, untranslated grammar and unexplained Slovak administrative or cultural terminology.
 
-### 23.2 Slovak names and terminology
+### 23.2 Slovak proper names and terminology inside Czech originals
 
-Preserve official Slovak names and diacritics. Do not invent foreign-language place names or institutional names where no established equivalent exists.
+The editorial prose is Czech, but the subjects and geographic context are Slovak. Preserve official Slovak proper names and diacritics inside the Czech original. Do not invent foreign-language place names or institutional names where no established equivalent exists.
 
 Explain terms that international readers may not know, including relevant administrative, historical, religious, architectural, cultural and traditional terms. Depending on context, this may include terms such as obec, okres, kraj, samosprávny kraj, mestská časť, salaš, valašská kultúra, drevený kostol, banská osada or other specifically Slovak or regional concepts.
 
-Do not assume that a Czech reader automatically understands a Slovak institution, historical event or regional term. Czech and Slovak are related but distinct languages and cultural contexts.
+The Czech original must explain Slovak institutions, historical events and regional terms sufficiently for Czech readers; do not rely on language similarity as a substitute for context. The six non-Czech translations must independently explain unfamiliar Slovak concepts for their readers.
 
 ### 23.3 Historical and multi-ethnic context
 
@@ -505,7 +505,7 @@ When relevant, explain the historic Central European and multi-ethnic context of
 
 ### 23.4 Independent reader test
 
-Each language version must stand alone. It must not rely on an explanation found only in the Slovak or English text. A correct translation that leaves an unfamiliar reader unable to understand the subject is insufficient.
+Each language version must stand alone. It must not rely on an explanation found only in the Czech original or English translation. A correct translation that leaves an unfamiliar reader unable to understand the subject is insufficient.
 
 ## 24. Photographs
 
@@ -534,7 +534,7 @@ When reworking an existing record:
 4. Correct factual errors, weak sourcing, misleading wording, wrong categories, wrong priorities, translation inconsistencies and invalid locations.
 5. Search for significant missing facts using the mandatory research process.
 6. Check neighboring records for duplicate subjects and stable primary-postcode assignment.
-7. Rebuild or correct all seven languages in parallel with the source-language content.
+7. Write the original facts in Czech and rebuild or correct all seven language versions in parallel; translate the six non-Czech versions from the Czech original and keep `translations.cs` aligned with it.
 8. Validate the complete JSON after editing.
 
 Do not delete a fact simply because it is difficult to translate or geolocate. Do not rewrite sound content merely for stylistic preference. Do not move facts between postcodes based on an unverified postal address or a single search result. Record unresolved issues for review and avoid making dependent changes.
@@ -656,7 +656,7 @@ Before a record is declared complete, verify all areas below.
 - Do they preserve identical fact IDs and order?
 - Is the meaning complete and consistent?
 - Does each version read naturally?
-- Are Slovak names, diacritics and local concepts handled correctly?
+- Are Slovak names, diacritics and local concepts handled correctly within the Czech original and all translations?
 - Can an international reader understand the subject without relying on another language?
 
 ### 28.8 Technical validation
@@ -692,7 +692,7 @@ If any answer is no, the fact or translation needs revision.
 
 ## 30. Final production rule
 
-A Slovak TRAVEL postcode record is complete only when its postal identity and post-office municipality are correctly established, its geographic scope and administrative fields are defensible, its content reflects a thorough two-pass discovery process, every fact is significant and assigned to one primary PSČ, sources support the claims, map locations are meaningful and honestly described, all seven languages preserve the same meaning, and the full JSON validates against the current Slovak schema.
+A Slovak-geography TRAVEL postcode record is complete only when its postal identity and post-office municipality are correctly established, its geographic scope and administrative fields are defensible, its content reflects a thorough two-pass discovery process, every fact is significant and assigned to one primary PSČ, sources support the claims, map locations are meaningful and honestly described, the Czech original and all seven required language versions preserve the same meaning, and the full JSON validates against the current Slovak schema.
 
 Never trade accuracy for speed, completeness for a fact quota, geographic truth for convenience, or editorial independence for promotion.
 
