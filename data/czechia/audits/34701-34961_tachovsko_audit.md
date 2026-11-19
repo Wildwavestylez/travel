@@ -113,5 +113,10 @@ Prázdná poloha u 34801/fact_013 není závadou vyžadující odhad; důvod pon
 
 ### Read-only zamčení
 
-- **Neprovedeno.** Vyžaduje samostatný výslovný příkaz uživatele.
-- Schéma, `sequence.json`, `groups`, triggery, RLS a aplikační kód nebyly při publikaci ani záloze měněny.
+- Na samostatný výslovný pokyn uživatele dne 2026-11-19 byl aktivován databázový read-only zámek.
+- Migrace: `lock_cz_tachovsko_34701_34961_v5_read_only`.
+- Trigger: `lock_cz_tachovsko_34701_34961_read_only` na `public.postal_codes`; funkce: `public.prevent_cz_tachovsko_34701_34961_mutation()`.
+- Chráněný je výhradně přesný inventář 11 českých PSČ uvedený v oddílu 1; podmínka ověřuje `country_code='CZ'` a explicitní seznam kódů. Zámek blokuje INSERT, UPDATE i DELETE a také přesun řádku do chráněného rozsahu nebo z něj. Odmítnutí používá SQLSTATE `55000`.
+- **Testy zámku PASS:** pokusy UPDATE (34701), DELETE (34801) a INSERT (34961) byly všechny odmítnuty SQLSTATE `55000`; testovací blok ověřil všechny tři případy a nezměnil data.
+- Trigger je aktivní (`tgenabled='O'`). Závěrečný read-back potvrdil přesně 11/11 PSČ, všechna `data_version=5` a `status=published`, celkem 121 faktů.
+- Zámek je nezávislý na RLS; žádná existující RLS politika, schéma, `sequence.json`, `groups` ani aplikační kód nebyly změněny. Odemčení vyžaduje samostatnou výslovnou, revidovanou migraci.
