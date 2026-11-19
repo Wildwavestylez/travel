@@ -110,6 +110,13 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Doplnění ověřeno read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 8/12 PSČ, 426/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35201 Aš (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 12 faktů × 6 cizojazyčných verzí = **72/72 překladových položek**.
+- **fact_002:** ve všech šesti jazycích doplněna závěrečná informace, že požár roku 1814 zásadně změnil podobu historické Aše.
+- **fact_004:** v šesti překladech zpřesněn obecný popis textilních postupů na konkrétní procesy: předení, tkaní, pletení a textilní zušlechťování.
+- Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 9/12 PSČ, 498/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
