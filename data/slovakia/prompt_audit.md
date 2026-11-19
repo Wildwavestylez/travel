@@ -214,6 +214,7 @@ If no version instruction is given, leave every `data_version` unchanged.
 Dropbox is the Slovak backup archive; GitHub remains the only production source of truth.
 
 - Do not back up before the complete audit is finished.
+- After reporting the audit, wait for the user's explicit instruction to perform the final backup. If the user also requests a data-version change, complete that change first and read it back from GitHub.
 - Do not back up before any explicitly requested data-version changes have been completed and read back from GitHub.
 - The backup is the final operation of the workflow. Do not perform further record edits after the backup; if later changes are required, create a new timestamped backup after they are complete.
 - Use the established TRAVEL backup location in the user's Dropbox. If the correct project folder cannot be identified, ask the user rather than guessing a path.
@@ -229,7 +230,7 @@ Do not lock GitHub files, create read-only rules or change application permissio
 
 ## Operating principle
 
-**The audit checks for major missing topics and genuine geographic, administrative, translation, category, duplication, source and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck every existing coordinate. A record is visible on the map only after it has passed audit and is saved as `published`. The data version changes only on the user's explicit instruction after the complete audit. Dropbox backup comes last.**
+**The audit checks for major missing topics and genuine geographic, administrative, translation, category, duplication, source and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck every existing coordinate. A record is eligible for map display only after it has passed audit and is saved as `published`; the map must filter strictly on that status. The data version changes only on the user's explicit instruction after the complete audit. Dropbox backup comes last.**
 
 ---
 
