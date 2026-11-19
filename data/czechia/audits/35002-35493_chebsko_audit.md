@@ -68,6 +68,13 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 2/12 PSČ, 132/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35124 Hranice (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 11 faktů × 6 cizojazyčných verzí = **66/66 překladových položek**.
+- **fact_005:** v pěti překladech (EN/ES/FR/IT/NL) doplněno datování padlých členů spolku Jungmannschaft Ostmark Rossbach do let 1914–1918; následně ověřeno, že datum je součástí jediné věty a nevzniká duplicitní sdělení.
+- **fact_009:** v nizozemštině opravena záměna hnědáska chrastavcového (Euphydryas aurinia) za jiný druh motýla „Spaanse vlag“; nyní je uveden správný nizozemský název moerasparelmoervlinder.
+- Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 3/12 PSČ, 198/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
