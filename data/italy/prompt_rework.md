@@ -8,9 +8,9 @@ This is a full research and editorial rework, not a mechanical conversion of an 
 
 Use these documents together:
 
-1. \`data/italy/COUNTRY_PROFILE.md\` — Italian postal, geographic and administrative interpretation.
-2. \`data/italy/schema.json\` — exact JSON structure, required fields, data types and controlled values.
-3. \`data/italy/CONTENT_STANDARD.md\` — binding research, geographic, editorial, source and translation requirements.
+1. `data/italy/COUNTRY_PROFILE.md` — Italian postal, geographic and administrative interpretation.
+2. `data/italy/schema.json` — exact JSON structure, required fields, data types and controlled values.
+3. `data/italy/CONTENT_STANDARD.md` — binding research, geographic, editorial, source and translation requirements.
 
 The schema defines what may be stored. The Country Profile defines the geographic concepts. The Content Standard defines what quality and evidence are required. This prompt defines how to perform the work.
 
@@ -26,26 +26,26 @@ For every CAP record:
 
 - Identify the post office that actually serves the CAP.
 - Verify the physical location of that serving post office.
-- Set \`city\` to **exactly one official Comune in which that serving post office physically stands**.
-- Never put a list of Comuni, villages, frazioni, località or settlements into \`city\`.
+- Set `city` to **exactly one official Comune in which that serving post office physically stands**.
+- Never put a list of Comuni, villages, frazioni, località or settlements into `city`.
 - Never choose the largest, best-known, most touristically important or most central Comune merely because it seems representative.
 - Never choose a different Comune because it contains more attractions or more addresses.
 - Do not infer the serving office from proximity alone. Verify the actual postal service relationship using competent evidence.
 - If the serving office or its physical Comune cannot be established reliably, do not guess. Record the precise unresolved issue and leave the record incomplete until it can be resolved.
 
-The \`city\` value is the record's clear organizational and audit anchor. It does **not** claim that the CAP covers only that Comune, that the CAP boundary follows the Comune boundary, or that all facts are located in that Comune.
+The `city` value is the record's clear organizational and audit anchor. It does **not** claim that the CAP covers only that Comune, that the CAP boundary follows the Comune boundary, or that all facts are located in that Comune.
 
-Set \`county\` and \`state\` consistently from the current official administrative affiliation of the Comune in which the serving post office physically stands:
+Set `county` and `state` consistently from the current official administrative affiliation of the Comune in which the serving post office physically stands:
 
-- \`county\`: the applicable intermediate territorial unit, using its full official name and type where necessary — for example Provincia, Città metropolitana, Provincia autonoma or Libero consorzio comunale. Do not force every unit into the legal category Provincia.
-- \`state\`: the current official Regione.
-- \`district\`: only a documented sub-municipal locality within the post-office Comune, when genuinely relevant and supported. Otherwise use null. Do not use it as a list of settlements elsewhere in the CAP area.
+- `county`: the applicable intermediate territorial unit, using its full official name and type where necessary — for example Provincia, Città metropolitana, Provincia autonoma or Libero consorzio comunale. Do not force every unit into the legal category Provincia.
+- `state`: the current official Regione.
+- `district`: only a documented sub-municipal locality within the post-office Comune, when genuinely relevant and supported. Otherwise use null. Do not use it as a list of settlements elsewhere in the CAP area.
 
 Use current official ISTAT names and classifications. If a special territorial arrangement applies, preserve its actual current form. Do not infer administrative membership from the CAP digits.
 
 ### 2.1 Full CAP research area — never narrow the content to city
 
-The one-Comune \`city\` rule is an organizational naming rule only. It must never narrow research or map coverage.
+The one-Comune `city` rule is an organizational naming rule only. It must never narrow research or map coverage.
 
 For each CAP, actively research the **entire defensible geographic area served by that CAP**, including all relevant:
 
@@ -57,11 +57,11 @@ For each CAP, actively research the **entire defensible geographic area served b
 - urban districts, rioni, quartieri or other sub-municipal areas;
 - historic settlements and named places that remain geographically identifiable.
 
-Do not stop research at the Comune named in \`city\`. A CAP may serve multiple Comuni, and a Comune may be served by multiple CAPs or urban CAP zones.
+Do not stop research at the Comune named in `city`. A CAP may serve multiple Comuni, and a Comune may be served by multiple CAPs or urban CAP zones.
 
 Every meaningful village, frazione or local settlement in the CAP area is eligible for geographic representation on the map. Every independently significant, verified attraction, heritage site, natural feature, technical site, local tradition or story found there is eligible for a fact, subject to the Content Standard and the one-primary-CAP / no-duplication rules.
 
-Do not hide a well-known town among a long list of small settlements. Keep the one post-office Comune visible in \`city\`, while researching and mapping the whole CAP area.
+Do not hide a well-known town among a long list of small settlements. Keep the one post-office Comune visible in `city`, while researching and mapping the whole CAP area.
 
 ### 2.2 Settlement identity and map representation
 
@@ -72,7 +72,7 @@ Distinguish Comune from frazione, località, borgata, quartiere, rione and other
 - A frazione does not become a Comune merely because it has a distinct name, a church, a square or a strong local identity.
 - Do not invent a CAP for a settlement or assume that a named frazione has its own CAP.
 - Do not omit a settlement from the research merely because it has no separate CAP.
-- Do not put a list of all CAP settlements into \`city\` or \`district\`.
+- Do not put a list of all CAP settlements into `city` or `district`.
 
 A settlement may be shown as a geographic point on the map where the application/data model supports it. A fact about a particular frazione must be located in that frazione, not automatically at the municipal seat.
 
@@ -96,7 +96,7 @@ Third-party CAP directories may help discover a candidate or cross-check a resul
 
 ### 3.2 Serving post office
 
-The serving post office is the basis for the \`city\` anchor. It is not merely the nearest post office on a map.
+The serving post office is the basis for the `city` anchor. It is not merely the nearest post office on a map.
 
 Verify, as far as the available official information permits:
 
@@ -115,7 +115,7 @@ Use ISTAT as the principal reference for current official Comune names and codes
 
 The conceptual navigation hierarchy is:
 
-\`Italia → Regione → intermediate territorial unit → Comune → CAP\`
+`Italia → Regione → intermediate territorial unit → Comune → CAP`
 
 The intermediate unit may be a Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale or another currently relevant territorial/statistical unit. Preserve the official current type and name. Do not flatten special arrangements into an inaccurate generic province.
 
@@ -172,18 +172,18 @@ Never move facts or alter a CAP solely because an institution's website displays
 
 ## 5. Fact location and map coordinates
 
-The fact's physical location is independent of the CAP's \`representative_point\` and legacy \`access_point\`.
+The fact's physical location is independent of the CAP's `representative_point` and legacy `access_point`.
 
-The Italian schema's \`facts[].location\` object contains:
+The Italian schema's `facts[].location` object contains:
 
-- \`name\` — name of the actual object, place or meaningful fallback point;
-- \`address\` — verified physical address, or null where no reliable street address exists;
-- \`lat\` and \`lon\` — WGS84 coordinates;
-- \`type\` — one permitted value from the Italian schema;
-- \`accuracy\` — one permitted value from the Italian schema;
-- \`source\` — direct URL supporting the chosen geographic point.
+- `name` — name of the actual object, place or meaningful fallback point;
+- `address` — verified physical address, or null where no reliable street address exists;
+- `lat` and `lon` — WGS84 coordinates;
+- `type` — one permitted value from the Italian schema;
+- `accuracy` — one permitted value from the Italian schema;
+- `source` — direct URL supporting the chosen geographic point.
 
-Do not invent coordinates. Do not copy \`representative_point\` or \`access_point\` automatically. Do not duplicate location metadata in translated fact objects.
+Do not invent coordinates. Do not copy `representative_point` or `access_point` automatically. Do not duplicate location metadata in translated fact objects.
 
 ### 5.1 Mandatory location hierarchy
 
@@ -213,9 +213,9 @@ Examples of acceptable fallback points, when genuinely located in the relevant f
 - its documented settlement centre;
 - a locally recognised public orientation point.
 
-The \`name\` must identify the actual point used. If the pin is at the centre of a frazione, name that centre or the actual square/place — do not name the distant municipal town hall and do not imply that the fact occurred at an exact site that remains unknown.
+The `name` must identify the actual point used. If the pin is at the centre of a frazione, name that centre or the actual square/place — do not name the distant municipal town hall and do not imply that the fact occurred at an exact site that remains unknown.
 
-Use \`accuracy = approximate\` for a general locality-centre fallback, or the most appropriate permitted schema value for the actual uncertainty. Use \`exact\` only for a verified exact location. Use \`area_representative\` for a representative point within a large area and \`historical_approximate\` for an uncertain historical location, exactly as allowed by the schema.
+Use `accuracy = approximate` for a general locality-centre fallback, or the most appropriate permitted schema value for the actual uncertainty. Use `exact` only for a verified exact location. Use `area_representative` for a representative point within a large area and `historical_approximate` for an uncertain historical location, exactly as allowed by the schema.
 
 ### 5.3 Accuracy and evidence
 
@@ -225,18 +225,18 @@ Use \`accuracy = approximate\` for a general locality-centre fallback, or the mo
 - Never place a pin at a convenient point with no genuine relationship to the subject.
 - If a meaningful specific, approximate, representative or orientation point can be responsibly identified, do not use null merely because exact coordinates are unavailable.
 - Use null only when no defensible point can be established. Record the reason in working notes; do not invent an explanation or coordinates.
-- Choose \`type\` only from the exact controlled values in \`schema.json\`. Never improvise a type. If a recurring real-world type is missing, flag it for a separate schema review.
-- Do not infer \`type\` from \`map_category\`. They represent different things.
+- Choose `type` only from the exact controlled values in `schema.json`. Never improvise a type. If a recurring real-world type is missing, flag it for a separate schema review.
+- Do not infer `type` from `map_category`. They represent different things.
 
 ## 6. CAP representative place and legacy access point
 
-Every record requires one \`representative_place\` and its matching \`representative_point\`. Choose a specific, identifiable place or geographic feature that genuinely characterises the CAP area. It is a record-level map anchor, not the serving post office by definition, not the centroid of a CAP polygon and not the location of every fact.
+Every record requires one `representative_place` and its matching `representative_point`. Choose a specific, identifiable place or geographic feature that genuinely characterises the CAP area. It is a record-level map anchor, not the serving post office by definition, not the centroid of a CAP polygon and not the location of every fact.
 
 The representative place may be a settlement, historic centre, urban quarter, landscape, heritage site, industrial area, port, island locality or another genuinely representative feature. Do not choose a famous attraction solely because it is famous. Do not list multiple alternatives.
 
-The \`access_point\` is a separate legacy TRAVEL navigation point used for practical vehicle approach/navigation. It is not the representative point, post office by definition, fact location or CAP boundary.
+The `access_point` is a separate legacy TRAVEL navigation point used for practical vehicle approach/navigation. It is not the representative point, post office by definition, fact location or CAP boundary.
 
-The Italian schema requires both points. Do not omit them or replace one with the other. Choose a practical, geographically defensible point for each. Set \`verification.access_point_verified\` to true only if the access point has actually been checked; never claim verification that did not happen.
+The Italian schema requires both points. Do not omit them or replace one with the other. Choose a practical, geographically defensible point for each. Set `verification.access_point_verified` to true only if the access point has actually been checked; never claim verification that did not happen.
 
 ## 7. Italian source hierarchy and evidence
 
@@ -282,10 +282,10 @@ Use multiple independent sources for important facts where available. Repeated c
 
 For every fact:
 
-- define its supporting sources in the top-level \`sources\` array;
-- include the relevant source IDs in that fact's \`sources\` array;
+- define its supporting sources in the top-level `sources` array;
+- include the relevant source IDs in that fact's `sources` array;
 - use only source IDs that exist in the top-level source list;
-- choose the correct \`type\` enum from the schema;
+- choose the correct `type` enum from the schema;
 - ensure that each significant claim is supported by a source competent for that claim;
 - provide a separate geographic source for the map point where required;
 - keep source release/reference dates and access/check dates distinct where the source or working record requires them;
@@ -309,7 +309,7 @@ At the start of a work session:
 4. Reuse them for subsequent CAPs in the same session unless a version changes, a file is incomplete or a concrete conflict appears.
 5. Do not assume an Italian sequence, reference inventory, database table or production workflow exists merely because the Czech or German project has one.
 
-The Italian \`sequence.json\` has not been established by this prompt. If it does not exist or has not been formally approved, do not invent a canonical CAP sequence, infer its complete scope or treat an ad hoc list as authoritative. Report the missing prerequisite and work only within an explicitly authorised CAP scope.
+The Italian `sequence.json` has not been established by this prompt. If it does not exist or has not been formally approved, do not invent a canonical CAP sequence, infer its complete scope or treat an ad hoc list as authoritative. Report the missing prerequisite and work only within an explicitly authorised CAP scope.
 
 ### 8.2 Efficient research and API limits
 
@@ -327,10 +327,10 @@ The Italian \`sequence.json\` has not been established by this prompt. If it doe
 When HTTP 429 or an equivalent rate-limit response occurs:
 
 1. stop further requests to that service immediately;
-2. honour \`Retry-After\` if supplied;
+2. honour `Retry-After` if supplied;
 3. otherwise use exponential delays of approximately 2, 4, 8, 16 and 32 seconds;
 4. do not send parallel retries to the same service;
-5. after no more than five unsuccessful attempts, mark that source temporarily \`RATE LIMITED\`;
+5. after no more than five unsuccessful attempts, mark that source temporarily `RATE LIMITED`;
 6. preserve the last state and continue only work that does not depend on that source.
 
 A rate limit, timeout, missing page or inaccessible dataset is not successful verification. Mark only the affected question as unresolved and continue safe independent work.
@@ -362,8 +362,8 @@ Both phases are required for a full content rework. They apply across the full C
 ### Phase 1 — broad discovery
 
 1. Verify the CAP and current postal assignment.
-2. Identify and verify the serving post office and the one Comune used in \`city\`.
-3. Verify \`county\` and \`state\` from that post-office Comune's current official administrative affiliation.
+2. Identify and verify the serving post office and the one Comune used in `city`.
+3. Verify `county` and `state` from that post-office Comune's current official administrative affiliation.
 4. Map the complete CAP research area: all relevant Comuni, frazioni, villages, località, urban districts, named settlements and historic localities.
 5. Search in Italian and, where useful, in local language variants, bilingual official names and historic place names.
 6. Search by CAP, post-office Comune, every relevant served Comune and each identified frazione/località; also search by local attraction names, people, events, institutions, landscape names and historic terminology.
@@ -444,43 +444,43 @@ Priority is relative to the CAP and the actual value of the fact. A remarkable l
 
 Use only the exact controlled values in the current Italian schema.
 
-Editorial \`category\` values:
+Editorial `category` values:
 
-- \`nature_and_landscape\`
-- \`heritage_and_monuments\`
-- \`architecture_and_urbanism\`
-- \`history\`
-- \`culture_and_industry\`
-- \`people\`
-- \`geography_and_context\`
-- \`tourism_and_surroundings\`
-- \`hidden_gem\`
-- \`local_story\`
-- \`other_verified_significance\`
+- `nature_and_landscape`
+- `heritage_and_monuments`
+- `architecture_and_urbanism`
+- `history`
+- `culture_and_industry`
+- `people`
+- `geography_and_context`
+- `tourism_and_surroundings`
+- `hidden_gem`
+- `local_story`
+- `other_verified_significance`
 
-Map \`map_category\` values:
+Map `map_category` values:
 
-- \`castle\`
-- \`religious_site\`
-- \`historical_monument\`
-- \`architecture\`
-- \`historic_city\`
-- \`museum\`
-- \`archaeological_site\`
-- \`nature\`
-- \`viewpoint_landscape\`
-- \`park_garden\`
-- \`technical_heritage\`
-- \`cultural_site\`
-- \`visitor_attraction\`
-- \`local_culture\`
-- \`science_site\`
-- \`personality\`
-- \`sports_venue\`
+- `castle`
+- `religious_site`
+- `historical_monument`
+- `architecture`
+- `historic_city`
+- `museum`
+- `archaeological_site`
+- `nature`
+- `viewpoint_landscape`
+- `park_garden`
+- `technical_heritage`
+- `cultural_site`
+- `visitor_attraction`
+- `local_culture`
+- `science_site`
+- `personality`
+- `sports_venue`
 
-Every fact must have exactly one \`map_category\`. Choose it according to the primary subject, not merely the physical object where the pin is placed. For a fact whose main subject is a specific person, use \`personality\` even if the pin is at a building or monument.
+Every fact must have exactly one `map_category`. Choose it according to the primary subject, not merely the physical object where the pin is placed. For a fact whose main subject is a specific person, use `personality` even if the pin is at a building or monument.
 
-The physical \`location.type\` is a separate field and must use only the exact enum values in \`schema.json\`. Do not confuse it with editorial \`category\` or \`map_category\`.
+The physical `location.type` is a separate field and must use only the exact enum values in `schema.json`. Do not confuse it with editorial `category` or `map_category`.
 
 ### 10.4 Exclusions and advertising
 
@@ -504,13 +504,13 @@ An official company website may be a source for its own history, collection, mus
 
 Every record must contain all seven languages required by the schema:
 
-- \`cs\` — Czech;
-- \`de\` — German;
-- \`en\` — English;
-- \`es\` — Spanish;
-- \`fr\` — French;
-- \`it\` — Italian;
-- \`nl\` — Dutch.
+- `cs` — Czech;
+- `de` — German;
+- `en` — English;
+- `es` — Spanish;
+- `fr` — French;
+- `it` — Italian;
+- `nl` — Dutch.
 
 Every language version must be independently understandable to a reader who may know nothing about Italy, its history, institutions, religions, regional culture or local terminology.
 
@@ -535,47 +535,47 @@ If any answer is no, revise that language version. Identical fact IDs and fact o
 
 ## 12. JSON structure and validation
 
-The complete record must validate against the current \`data/italy/schema.json\`.
+The complete record must validate against the current `data/italy/schema.json`.
 
 Mandatory top-level fields are:
 
-- \`postcode\`
-- \`city\`
-- \`district\`
-- \`county\`
-- \`state\`
-- \`representative_place\`
-- \`representative_point\`
-- \`access_point\`
-- \`facts\`
-- \`photo\`
-- \`verification\`
-- \`sources\`
-- \`translations\`
+- `postcode`
+- `city`
+- `district`
+- `county`
+- `state`
+- `representative_place`
+- `representative_point`
+- `access_point`
+- `facts`
+- `photo`
+- `verification`
+- `sources`
+- `translations`
 
 Important structural rules:
 
-- \`postcode\` is exactly five digits stored as a string.
-- \`city\` is exactly one verified post-office Comune under Section 2.
-- \`district\` is a documented sub-municipal locality within that post-office Comune or null.
-- \`county\` and \`state\` derive from the post-office Comune's current official administrative affiliation.
-- \`representative_place\` and \`representative_point\` refer to the same representative place.
-- \`access_point\` remains separate.
-- Every fact has a unique sequential ID in the format \`fact_001\`, \`fact_002\`, etc.
+- `postcode` is exactly five digits stored as a string.
+- `city` is exactly one verified post-office Comune under Section 2.
+- `district` is a documented sub-municipal locality within that post-office Comune or null.
+- `county` and `state` derive from the post-office Comune's current official administrative affiliation.
+- `representative_place` and `representative_point` refer to the same representative place.
+- `access_point` remains separate.
+- Every fact has a unique sequential ID in the format `fact_001`, `fact_002`, etc.
 - Every fact has title, text, one permitted editorial category, one priority, source IDs and exactly one permitted map category.
-- New or enriched facts must include the \`location\` property. Use a valid location object when a defensible point exists; use null only as the final justified fallback.
+- New or enriched facts must include the `location` property. Use a valid location object when a defensible point exists; use null only as the final justified fallback.
 - Every location object must contain the schema-required fields and valid enum values.
-- Top-level \`sources\` must define every source ID used by facts. Do not use dangling or invented source references.
-- All seven translation objects must exist and contain \`representative_place\` and \`facts\`.
+- Top-level `sources` must define every source ID used by facts. Do not use dangling or invented source references.
+- All seven translation objects must exist and contain `representative_place` and `facts`.
 - Each translation must contain the same fact IDs in the same order as the source-language facts.
 - Translated fact objects contain only the fields allowed by the schema; do not add coordinates or duplicate location metadata to translations.
-- \`verification.postcode_source\` must identify the actual source/release used to verify the CAP.
-- Set \`verification.geographic_test_data\` to true only after the geographic assignment has actually been checked.
-- Set \`verification.access_point_verified\` to true only after the access point has actually been checked.
-- \`photo\` must follow the schema; use null when no valid, properly attributed photo data is available.
+- `verification.postcode_source` must identify the actual source/release used to verify the CAP.
+- Set `verification.geographic_test_data` to true only after the geographic assignment has actually been checked.
+- Set `verification.access_point_verified` to true only after the access point has actually been checked.
+- `photo` must follow the schema; use null when no valid, properly attributed photo data is available.
 - Do not add undocumented keys, comments, trailing commas, Markdown or explanatory prose inside JSON.
 
-The schema currently requires \`access_point\` and at least one fact. Do not silently relax those requirements. If a required element cannot be responsibly established, report the blocker rather than fabricating it.
+The schema currently requires `access_point` and at least one fact. Do not silently relax those requirements. If a required element cannot be responsibly established, report the blocker rather than fabricating it.
 
 ## 13. Preservation and scope protection
 
@@ -608,9 +608,9 @@ A CAP is complete only when all applicable checks below pass.
 
 - [ ] CAP is a current, verified five-digit string.
 - [ ] The actual serving post office is identified and its physical address checked.
-- [ ] \`city\` contains exactly the one Comune where that serving post office physically stands.
-- [ ] \`county\` and \`state\` match that Comune's current official administrative affiliation.
-- [ ] \`district\` is a valid documented sub-municipal locality within the post-office Comune or null.
+- [ ] `city` contains exactly the one Comune where that serving post office physically stands.
+- [ ] `county` and `state` match that Comune's current official administrative affiliation.
+- [ ] `district` is a valid documented sub-municipal locality within the post-office Comune or null.
 - [ ] No list of settlements has been placed in administrative fields.
 
 ### Full geographic coverage
@@ -657,7 +657,7 @@ If a material required check fails, do not claim the CAP is complete. State the 
 
 TRAVEL must represent the entire real geographic area of each CAP without making the JSON administrative naming chaotic.
 
-**One CAP record. One clear post-office Comune in \`city\`. Full research across all settlements served by the CAP. Every meaningful village and verified fact located where it actually belongs.**
+**One CAP record. One clear post-office Comune in `city`. Full research across all settlements served by the CAP. Every meaningful village and verified fact located where it actually belongs.**
 
 The record's administrative anchor must be predictable and easy to audit. Its content and map must remain geographically rich, accurate and complete.
 
