@@ -119,7 +119,7 @@ If the target path is ambiguous, a filename conflict exists, or the existing fil
 
 These rules reduce repeated work and rate-limit failures without reducing evidence or content quality.
 
-1. **Load shared documents once per work session.** At the start, read the current Slovak schema, Country Profile, Content Standard and this prompt. Record their commit/version identifiers. Reuse them for subsequent postcodes in the same session unless a version changes, a file was incomplete or a concrete conflict appears.
+1. **Load shared documents and the canonical sequence once per work session.** At the start, read the current Slovak schema, Country Profile, Content Standard, this prompt and `data/slovakia/sequence.json`. Record their commit/version identifiers. Verify the sequence structure, declared count, five-digit postcode format and uniqueness, and confirm that each queued postcode has its exact record file under `data/slovakia/records/`. Reuse these loaded files for subsequent postcodes in the same session unless a version changes, a file was incomplete or a concrete conflict appears.
 2. **Build a short research plan.** List candidate subjects and material open questions before searching. Combine closely related searches when practical. Do not repeat the same query or URL when its result is already sufficient and no change or gap is suspected.
 3. **Research only what remains unverified.** Once a competent source establishes a claim and the appropriate source establishes its location/postcode relationship, stop redundant searching. Do not omit a required check merely to save calls.
 4. **Limit concurrency.** Avoid large parallel bursts. Normally make no more than two external research requests concurrently. Perform GitHub writes sequentially. Prefer a supported batch read over many separate reads.
@@ -131,22 +131,35 @@ These rules reduce repeated work and rate-limit failures without reducing eviden
 
 **Operating principle:** load once → research deliberately → preserve evidence → validate locally → write once → verify once → continue.
 
-## 5. Queue and continuation
+## 5. Canonical sequence, queue and continuation
 
-Process only existing eligible Slovak records in the project's established work order, when such an order or queue is actually available.
+`data/slovakia/sequence.json` is the **canonical and binding production sequence** for Slovak geographic postcodes. It already exists in the repository. Use it to determine the project's complete postcode scope and the order in which records are processed.
 
-- Read the current project progress/queue mechanism before selecting the next record.
-- Do not invent a Slovak `sequence.json` or assume that a Slovak sequence exists. If no authoritative Slovak queue is present, use only the exact postcode(s) explicitly assigned by the user or the established production work instruction.
-- Do not infer completion from the presence of facts alone. Read the persisted `status`: `placeholder` means no content work is complete, `validated` means rework is complete and audit is pending, and `published` means the record passed audit. Never use `draft`.
+### 5.1 Sequence is authoritative
+
+- At the beginning of a work session, read the current `data/slovakia/sequence.json` from GitHub and record its commit/blob identifier.
+- The `sequence` array is the canonical ordered list. Follow its exact order; do not independently sort it, infer a different order, or replace it with search results or another dataset.
+- Verify that `count` equals the actual number of entries in `sequence`, every entry is a five-digit string, and there are no duplicates.
+- Verify that each sequence entry has exactly one corresponding file at `data/slovakia/records/{postcode}.json`. A missing file, unexpected extra record, duplicate, malformed code or count mismatch is a queue-integrity issue: report it and do not silently repair the sequence or create/delete records as part of ordinary rework.
+- Slovakia's current sequence format has a single `sequence` array; it does not use the Czech `groups` structure. Do not add or expect `groups` unless the Slovak sequence format is explicitly changed at project level.
+- The sequence defines project membership and processing order; it does not by itself prove a code's current postal validity, serving post office, delivery area or geographic boundaries. Verify those independently for each postcode under the Slovak Content Standard.
+- A code discovered outside the sequence is only a lead for a separate review. Do not add it to the sequence, create a record for it, or reassign facts to it during ordinary rework.
+- Changing `sequence.json` is a separate project-level operation requiring documented official evidence and the user's explicit approval. Ordinary rework must never change it.
+
+### 5.2 Selecting the next record and lifecycle
+
+- Before selecting work, read the sequence and inspect the persisted status of records in sequence order.
+- Process the first eligible record in the canonical sequence: `placeholder` means rework has not yet been completed; `validated` means rework is complete and final audit is pending; `published` means the record has passed audit.
+- Skip `validated` and `published` records unless the user explicitly reopens them or a documented project-level change requires it. Never use `draft`.
+- Do not infer completion from the presence or number of facts. The persisted `status` is authoritative for lifecycle.
+- A successfully reworked record must be saved as `validated`; it is complete for the rework stage. Rework never sets `published`.
+- If a sequence entry is blocked by a source or verification issue, preserve the exact reason and continue to the next eligible record only if the blocker is isolated and doing so does not compromise queue integrity or a shared prerequisite.
 - Process records continuously when instructed to continue; do not ask after every postcode whether to proceed.
 - Save and confirm each record separately so an interruption does not lose completed work.
-- A successfully reworked record must be saved as `validated` and is complete for the rework stage; skip it in later runs unless explicitly reopened. A `placeholder` is not reworked content, and a `published` record is reopened only for an explicit reason.
 - Reopen a completed record only when the user requests it, concrete new evidence appears, the record materially changes, or the schema/Content Standard changes in a way that affects it. Preserve the previous result and document why it was reopened.
-- If one record is blocked, preserve the exact reason and continue to the next eligible record if the issue is isolated.
-- At handoff, record the last completed postcode, next eligible postcode and blocked items using the project's existing progress mechanism. Do not create a parallel tracker if one already exists.
+- At handoff, state the last completed postcode, the next eligible postcode in sequence order and any blocked items. Use the project's existing progress mechanism; do not create a parallel tracker if one already exists.
 
 A new chat or model is a continuation of the same work, not a reason to restart completed records.
-
 ## 6. One-pass workflow for each postcode
 
 Use this sequence once per record:
