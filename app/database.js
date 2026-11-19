@@ -3,6 +3,47 @@ const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
 
 const PAGE_SIZE=60;
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
+let slovakiaSequencePromise=null;
+const slovakiaRecordCache=new Map();
+const GITHUB_RAW='https://raw.githubusercontent.com/Wildwavestylez/travel/main/';
+const selectedPostcode=()=>typeof selected==='string'?selected:(selected?.postcode??null);
+async function githubJson(path){
+  const response=await fetch(GITHUB_RAW+path,{headers:{Accept:'application/json'}});
+  if(!response.ok)throw Error('GitHub HTTP '+response.status+' při načítání '+path);
+  return response.json();
+}
+async function getSlovakiaSequence(){
+  if(!slovakiaSequencePromise)slovakiaSequencePromise=githubJson('data/slovakia/sequence.json').then(data=>{
+    if(!Array.isArray(data.sequence)||data.count!==data.sequence.length)throw Error('Slovenská sequence.json má neplatný počet PSČ.');
+    if(new Set(data.sequence).size!==data.sequence.length||data.sequence.some(pc=>typeof pc!=='string'||!/^\\d{5}$/.test(pc)))throw Error('Slovenská sequence.json obsahuje duplicitní nebo neplatné PSČ.');
+    return data.sequence;
+  }).catch(error=>{slovakiaSequencePromise=null;throw error;});
+  return slovakiaSequencePromise;
+}
+async function getSlovakiaRecord(pc){
+  if(slovakiaRecordCache.has(pc))return slovakiaRecordCache.get(pc);
+  const record=await githubJson('data/slovakia/records/'+encodeURIComponent(pc)+'.json');
+  if(record.postcode!==pc)throw Error('GitHub vrátil jiný postcode než '+pc+'.');
+  if(!['placeholder','validated','published'].includes(record.status))throw Error('Neplatný status slovenského záznamu '+pc+'.');
+  slovakiaRecordCache.set(pc,record);
+  return record;
+}
+async function loadSlovakiaList(){
+  $('#list').innerHTML='<div class="loading">Načítám slovenskou sequence z GitHubu…</div>';
+  try{
+    const sequence=await getSlovakiaSequence();
+    const q=$('#search').value.trim();
+    const filtered=q?sequence.filter(pc=>pc.includes(q.replace(/\\s/g,''))):sequence;
+    total=filtered.length;
+    const page=filtered.slice(offset,offset+PAGE_SIZE);
+    rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||''}));
+    renderList();
+    const current=selectedPostcode();
+    if(!current||!page.some(x=>x.postal_code===current)){
+      if(page[0])select(page[0].postal_code,false);else renderDetail(null);
+    }else select(current,false);
+  }catch(error){$('#list').innerHTML='<div class="error">'+esc(error.message)+'</div>';$('#count').textContent='Chyba';}
+}
 
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -25,6 +66,7 @@ function listQuery(){
   return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
 async function loadList(){
+  if(country==='SK')return loadSlovakiaList();
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
   try{
     const r=await api(listQuery());
@@ -38,7 +80,7 @@ async function loadList(){
 }
 function renderList(){
   $('#count').textContent=total==null?rows.length+' záznamů':total.toLocaleString('cs-CZ')+' záznamů';
-  $('#list').innerHTML=rows.length?rows.map(r=>'<div class="row '+(r.postal_code===selected?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(r.city||'—')+'</div></div>').join(''):'<div class="empty">Nic nenalezeno.</div>';
+  $('#list').innerHTML=rows.length?rows.map(r=>'<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(r.city||(country==='SK'?'Slovensko · GitHub':'—'))+'</div></div>').join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
   $('#prev').disabled=offset===0;
   $('#next').disabled=total!=null?offset+PAGE_SIZE>=total:rows.length<PAGE_SIZE;
@@ -47,6 +89,14 @@ async function select(pc,scroll=true){
   selected=pc;renderList();
   renderDetail({loading:true});
   try{
+    if(country==='SK'){
+      const record=await getSlovakiaRecord(pc);
+      selected=record;
+      if(record.city)rows=rows.map(x=>x.postal_code===pc?{...x,city:record.city}:x);
+      renderList();renderDetail(record);
+      if(scroll)window.scrollTo({top:0,behavior:'smooth'});
+      return;
+    }
     const r=await api('select=postal_code,city,district,region,representative_name,latitude,longitude,content,status,data_version,updated_at&country_code=eq.'+country+'&postal_code=eq.'+encodeURIComponent(pc)+'&limit=1');
     if(!r.data?.[0])throw Error('PSČ '+pc+' nebylo nalezeno.');
     const row=r.data[0], c=row.content||{};
@@ -68,11 +118,11 @@ function renderDetail(data){
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
   const facts=factData(data);
-  const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano'};
+  const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano',nl:'Nederlands'};
   const originalFacts=data.facts||[];
   el.innerHTML=
     '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(data.status||'—')+'</span> <span class="badge">V'+esc(data.data_version??'—')+'</span><br>'+
-    [data.representative_place?'📍 '+esc(data.representative_place):'',data.district?'🏛 '+esc(data.district):'',data.county?'📌 '+esc(data.county):'',data.state?(country==='DE'?'🇩🇪 ':'🇨🇿 ')+esc(data.state):''].filter(Boolean).join(' · ')+
+    [data.representative_place?'📍 '+esc(data.representative_place):'',data.district?'🏛 '+esc(data.district):'',data.county?'📌 '+esc(data.county):'',data.state?(country==='DE'?'🇩🇪 ':country==='SK'?'🇸🇰 ':'🇨🇿 ')+esc(data.state):''].filter(Boolean).join(' · ')+
     '</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div>'+
     '<div class="section-title">Jazyk faktů</div><div class="langbar">'+Object.entries(langNames).map(([k,v])=>'<button class="lang '+(language===k?'active':'')+'" data-lang="'+k+'">'+k.toUpperCase()+' · '+v+'</button>').join('')+'</div>'+
     '<div class="section-title">'+(language==='cs'?'Fakta':'Facts')+' · '+facts.length+'</div>'+
@@ -106,10 +156,11 @@ document.addEventListener('keydown',e=>{
 loadList();
 
 function updateCountryUI(){
-  const labels={DE:{name:'Německo',from:'01067'},CZ:{name:'Česko',from:'10000'}};
+  const labels={DE:{name:'Německo',from:'01067',source:'data přímo ze Supabase'},CZ:{name:'Česko',from:'10000',source:'data přímo ze Supabase'},SK:{name:'Slovensko',from:'01001',source:'data přímo z GitHubu · data/slovakia/records'}};
   const x=labels[country];
-  $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · data přímo ze Supabase';
+  $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · '+x.source;
+  $('#search').placeholder=country==='SK'?'Hledat slovenské PSČ…':'Hledat PSČ nebo město…';
   document.querySelectorAll('.country').forEach(b=>b.classList.toggle('active',b.dataset.country===country));
 }
-document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{country=b.dataset.country;offset=0;selected=null;language=country==='CZ'?'cs':'de';updateCountryUI();loadList();});
+document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{country=b.dataset.country;offset=0;selected=null;language=(country==='CZ'||country==='SK')?'cs':'de';updateCountryUI();loadList();});
 updateCountryUI();
