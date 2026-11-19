@@ -61,7 +61,7 @@ async function loadSlovakiaList(requestId, requestedCountry){
       const numeric=q.replace(/\s/g,'');
       filtered=sequence.filter(pc=>{
         const item=index.get(pc);
-        return pc.includes(numeric)||(item?.city||'').toLocaleLowerCase('cs').includes(q);
+        return pc.startsWith(numeric)||(item?.city||'').toLocaleLowerCase('cs').includes(q);
       });
     }
     total=filtered.length;
