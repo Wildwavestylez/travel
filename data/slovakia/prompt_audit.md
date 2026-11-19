@@ -15,6 +15,9 @@ The public manifest `data/slovakia/explorer_index.json` is generated automatical
 - The generator includes only records whose canonical JSON has both `status = "published"` and `data_version = 5`. Placeholders, validated records and published records of another version are excluded.
 - Each included record contributes its canonical postcode, city, district, county, state and representative point.
 - Each fact with a valid non-null `facts[].location` contributes one map point using its canonical fact ID, title, editorial category, `map_category` and exact WGS84 coordinates. A missing fact location never falls back to `representative_point` or `access_point`.
+- Map points are published as compact geographic JSON tiles under `data/slovakia/explorer_tiles/{z}/{x}/{y}.json`, generated for zoom levels 4–8. The manifest contains occupied tile keys and random-discovery tile counts, not the full map-point collection.
+- Europe Explorer requests only occupied tiles intersecting the current map viewport. Tile files are derived artifacts: never edit them manually. The generator deletes and rebuilds the complete tile directory so unpublished or removed facts cannot remain in stale tiles.
+- Random Explorer selects a tile using its generated point count and loads only that tile before fetching the selected canonical postcode record.
 - If a published record is not V5, lacks required Explorer fields, has invalid coordinates or has incomplete required language branches, the generator fails rather than silently publishing a partial index.
 - When a record ceases to be published V5, the next generated manifest removes that record and all its fact points.
 - After the workflow completes, fetch `explorer_index.json` and verify the affected postcode, record count, status/version, map-point count and coordinates against the canonical JSON. The canonical record files remain the sole source of truth.
