@@ -117,6 +117,13 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 9/12 PSČ, 498/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35301 Mariánské Lázně (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 19 faktů × 6 cizojazyčných verzí = **114/114 překladových položek**.
+- **fact_001:** všech šest cizojazyčných verzí bylo výrazně zkráceno oproti českému masteru a vynechávalo zásadní historické milníky. Překlady byly kompletně doplněny: první zděný lázeňský dům Johanna Josefa Nehra (1805–1807), vznik obce (1812), status veřejného lázeňského místa (1818), parková kompozice Václava Skalníka a zápis do sériové památky UNESCO v roce 2021 včetně jedenácti měst. Read-back potvrdil úplné nové texty ve všech šesti jazycích.
+- **fact_016:** ve španělštině, francouzštině, italštině a nizozemštině doplněna konkrétní dvojice druhů sleziníků z hadcových skalek (Asplenium cuneifolium a Asplenium adulterinum), které byly předtím shrnuty jen jako obecné kapradiny.
+- Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna další potvrzená záměna osob, míst, dat ani historických souvislostí. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 10/12 PSČ, 612/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
