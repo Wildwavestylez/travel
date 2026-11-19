@@ -2,6 +2,10 @@
 
 **Version 1.0 — Czech-method adaptation, Slovak national implementation**
 
+## Database Viewer index synchronization
+
+After each audited record is saved and verified, update the matching entry in `data/slovakia/database_index.json` with the canonical record's `city` (or `null`) and final `status`. Fetch before writing, preserve all other entries and sequence order, then fetch again to verify. This file is a derived viewer/search cache only; individual record JSON files remain the sole source of truth.
+
 ## 1. Purpose and strict separation from rework
 
 Audit existing Slovak geographic postcode records and correct genuine, material defects. This is a focused final audit, not a second rework and not a new round of comprehensive research.
