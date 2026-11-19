@@ -86,11 +86,11 @@ AJV ani samostatný validační běh nebyl spuštěn — podle promptu V2.0 nen�
 
 Nejsou evidovány žádné otevřené CRITICAL nebo HIGH věcné, geografické, kategoriální, strukturální ani sémantické vady.
 
-## 6. Publikace, záloha a zamčení
+## 6. Publikace, záloha a read-only zamčení
 
-- Nic nebylo publikováno: 19/19 zůstává `validated`, `data_version = 1`.
-- Záloha nebyla spuštěna.
-- Read-only zamčení nebylo spuštěno.
-- `sequence.json`, schéma, Content Standard a rework prompt zůstaly beze změny.
-- Auditní výsledek je PASS; záznamy však zůstávají `validated`, `data_version = 1`.
-- Publikaci V5, zálohu a read-only zamčení provádět pouze na výslovný pokyn uživatele.
+- **Publikace dokončena:** všech 19/19 PSČ má `status = published` a `data_version = 5`; Supabase read-back potvrdil přesný inventář bez výjimek.
+- **Obsah zachován:** 19 záznamů a 178 faktů; žádné změny `sequence.json`, `groups`, schématu, Content Standardu ani rework promptu.
+- **Záloha VERIFIED:** Dropbox `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_34401-34601_2026-11-19T18-25-25-775Z/`; obsahuje `CZ_AUDIT_34401-34601_backup.json`, `CZ_AUDIT_34401-34601_restore.sql` a `manifest.json`. Manifest potvrzuje 19 záznamů, `validation.status = VERIFIED`, `readback_verified = true` a shodu SHA-256.
+- **Read-only zamčeno v Supabase:** trigger `lock_cz_domazlicko_34401_34601_read_only` na `public.postal_codes`, funkce `prevent_cz_domazlicko_34401_34601_mutation()`. Chrání přesně těchto 19 PSČ (CZ) proti INSERT, UPDATE a DELETE a také proti přesunu z chráněného rozsahu nebo do něj. Odmítnutí používá SQLSTATE `55000`; odemčení je možné pouze výslovnou, revidovanou migrací.
+- **Testy zámku PASS:** pokusy UPDATE (34401), DELETE (34501) a INSERT (34601) byly všechny odmítnuty SQLSTATE `55000`. Testy nezměnily data.
+- Závěrečný read-back: 19/19 `published` V5, 178 faktů, 0 výjimek. Zámek je aktivní (`tgenabled = O`).
