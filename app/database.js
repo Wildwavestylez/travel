@@ -52,6 +52,7 @@ async function loadSlovakiaList(){
   $('#list').innerHTML='<div class="loading">Načítám slovenskou sequence z GitHubu…</div>';
   try{
     const [sequence,index]=await Promise.all([getSlovakiaSequence(),getSlovakiaIndex()]);
+    if(index.size!==sequence.length||sequence.some(pc=>!index.has(pc)))throw Error('Slovenský database_index.json neodpovídá canonical sequence.json.');
     const q=$('#search').value.trim().toLocaleLowerCase('cs');
     let filtered=sequence;
     if(q){
@@ -197,7 +198,7 @@ function updateCountryUI(){
   const x=COUNTRY_CONFIG[country];
   const source=x.backend==='github'?'data přímo z GitHubu · '+x.sequencePath:'data přímo ze Supabase';
   $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · '+source;
-  $('#search').placeholder=x.backend==='github'?'Hledat PSČ…':'Hledat PSČ nebo město…';
+  $('#search').placeholder='Hledat PSČ nebo město…';
   document.querySelectorAll('.country').forEach(b=>b.classList.toggle('active',b.dataset.country===country));
 }
 document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{country=b.dataset.country;offset=0;selected=null;language=(country==='CZ'||country==='SK')?'cs':'de';updateCountryUI();loadList();});
