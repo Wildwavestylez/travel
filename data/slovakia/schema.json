@@ -1,23 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "TRAVEL Slovakia postcode stop",
-  "description": "Canonical TRAVEL Slovak geographic postcode record. This schema and the Slovakia CONTENT_STANDARD.md define the production structure for Slovak PSČ records.",
+  "description": "Canonical TRAVEL Slovak geographic postcode record. This schema and the Slovakia CONTENT_STANDARD.md define the production structure for Slovak PSČ records. Production lifecycle: placeholder records contain only postcode and status (plus optional data_version); validated and published records contain the complete production content. Only published records are eligible for map display.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "postcode",
-    "city",
-    "district",
-    "county",
-    "state",
-    "representative_place",
-    "representative_point",
-    "access_point",
-    "facts",
-    "photo",
-    "verification",
-    "sources",
-    "translations"
+    "status"
   ],
   "properties": {
     "postcode": {
@@ -244,6 +233,23 @@
         null
       ],
       "description": "Optional clarification of the Slovak district value: municipal_part = officially recognised part of a municipality; urban_district = mestská časť or urban district; local_part = miestna časť; settlement = settlement within the municipality; locality = another documented local area."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "placeholder",
+        "validated",
+        "published"
+      ],
+      "description": "Production lifecycle state. placeholder = intentionally empty geographic postcode record with no content fields; validated = complete reworked content waiting for the separate final audit; published = successfully audited record eligible for map display. The map must load published records only."
+    },
+    "data_version": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "Optional manually controlled record data version. Preserve the existing value exactly during rework and audit. Change it only after the complete requested audit scope has passed and only on the user's explicit instruction. This is independent of status."
     }
   },
   "$defs": {
@@ -626,5 +632,102 @@
       "description": "WGS84 coordinates for the fact's physical subject or a clearly identified representative/orientation point, following the Slovak Content Standard. The name, type and accuracy must honestly describe the actual mapped point."
     }
   },
-  "$comment": "SLOVAKIA CONTENT STANDARD: Slovak geographic PSČ only. Slovak postal authority is Slovenská pošta; RAGEO supports address geography, ŠÚ SR official administrative units, and ÚGKK SR/ZBGIS geographic corroboration. Preserve the shared TRAVEL record structure, editorial categories, A-D priorities, 17-value map_category taxonomy and seven required languages. access_point is a secondary Europe Explorer/game field and may equal representative_point. The principal geographic enrichment priority is facts[].location, where meaningful map points should be resolved under the Slovak Content Standard rather than left null by default. Slovakia has its own administrative descriptions and controlled district_type vocabulary. Do not modify Czech or German schemas or records."
+  "$comment": "SLOVAKIA CONTENT STANDARD: Slovak geographic PSČ only. Slovak postal authority is Slovenská pošta; RAGEO supports address geography, ŠÚ SR official administrative units, and ÚGKK SR/ZBGIS geographic corroboration. Preserve the shared TRAVEL record structure, editorial categories, A-D priorities, 17-value map_category taxonomy and seven required languages. access_point is a secondary Europe Explorer/game field and may equal representative_point. The principal geographic enrichment priority is facts[].location, where meaningful map points should be resolved under the Slovak Content Standard rather than left null by default. Slovakia has its own administrative descriptions and controlled district_type vocabulary. Do not modify Czech or German schemas or records.",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "placeholder"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "city"
+              ]
+            },
+            {
+              "required": [
+                "district"
+              ]
+            },
+            {
+              "required": [
+                "county"
+              ]
+            },
+            {
+              "required": [
+                "state"
+              ]
+            },
+            {
+              "required": [
+                "representative_place"
+              ]
+            },
+            {
+              "required": [
+                "representative_point"
+              ]
+            },
+            {
+              "required": [
+                "access_point"
+              ]
+            },
+            {
+              "required": [
+                "facts"
+              ]
+            },
+            {
+              "required": [
+                "photo"
+              ]
+            },
+            {
+              "required": [
+                "verification"
+              ]
+            },
+            {
+              "required": [
+                "sources"
+              ]
+            },
+            {
+              "required": [
+                "translations"
+              ]
+            }
+          ]
+        }
+      },
+      "else": {
+        "required": [
+          "postcode",
+          "city",
+          "district",
+          "county",
+          "state",
+          "representative_place",
+          "representative_point",
+          "access_point",
+          "facts",
+          "photo",
+          "verification",
+          "sources",
+          "translations"
+        ]
+      }
+    }
+  ]
 }
