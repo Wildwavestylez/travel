@@ -2,7 +2,7 @@
 
 **Kanonické ID:** CZ-DOMAZLICKO-34401-34601  
 **Auditní prompt:** `data/czechia/prompt_audit.md` V2.0  
-**Stav:** REVIEW REQUIRED — technické a obsahové opravy provedeny; zbývá úplná sémantická kontrola starších překladů  
+**Stav:** PASS — kompletní sémantická kontrola 178/178 faktů a 1 068/1 068 cizojazyčných překladů dokončena; bez dalších významových vad  
 **Zdroj produkčních dat:** Supabase `public.postal_codes`, `country_code = 'CZ'`
 
 ## 1. Inventář a rozsah
@@ -56,7 +56,9 @@ Všechny nové fakty mají vlastní zdroje, kategorii, mapovou kategorii, polohu
 - Při porovnání titulů a duplicit napříč sedmi jazykovými poli byla nalezena záměna u **34401 / fact_017**: český master popisuje Draženovské dožínky roku 1924 s J. Š. Baarem, ale `translations.cs`, `de`, `en`, `es`, `fr`, `it`, `nl` obsahovaly texty Vavřinecké pouti z `fact_007`.
 - Všech sedm překladových položek `fact_017` bylo nahrazeno odpovídající verzí Draženovských dožínek podle českého masteru. ID, pořadí faktů, zdroje, lokace a master text zůstaly zachovány.
 - Read-back potvrdil správný český master a anglickou verzi; následné dávkové kontroly potvrdily **0 rozdílů `translations.cs`**, **0 duplicitních názvů a textů** napříč jazykovými poli.
-- Kontrola názvů všech překladů a cílené posouzení výrazně kratších cizojazyčných textů neodhalily další zjevnou záměnu. Zkrácené překlady nebyly označeny jen kvůli délce; zachovávají hlavní sdělení.
+- Byla dokončena individuální sémantická kontrola všech **178/178 faktů** a všech **1 068/1 068 cizojazyčných textů** v jazycích de/en/es/fr/it/nl proti českému masteru. Nebyla nalezena žádná další významová záměna, vynechání zásadního historického údaje ani změna míry jistoty tvrzení.
+- Zkrácené překlady byly posuzovány podle zachování významu, nikoli podle mechanické délky; všechny prošly.
+- Při závěrečném průchodu byla navíc opravena slepená věta po údaji o zvonu z roku 1727 u `34601/fact_003` v českém masteru a všech jazykových polích; read-back potvrdil opravu.
 
 ## 4. Technické kontroly — read-back PASS
 
@@ -80,9 +82,9 @@ AJV ani samostatný validační běh nebyl spuštěn — podle promptu V2.0 nen�
 
 ## 5. Otevřené položky a výsledek
 
-**REVIEW REQUIRED — jediná otevřená oblast:** úplná věcná sémantická kontrola všech **1 068 cizojazyčných textů** (`de/en/es/fr/it/nl`) napříč 178 fakty. Strukturální přítomnost, přiřazení ID, názvy, neprázdnost, synchronizace češtiny a zjevné duplicity jsou ověřeny; cílená kontrola odhalila a opravila jedinou záměnu `34401/fact_017`. Zbývající starší cizojazyčné texty nebyly všechny jednotlivě porovnány s českým masterem, proto audit zatím neoznačuji jako PASS.
+**PASS — kompletní sémantická kontrola dokončena.** Všech 178/178 faktů a 1 068/1 068 cizojazyčných překladů bylo jednotlivě porovnáno s českým masterem. Jediná dříve nalezená záměna `34401/fact_017` byla opravena ve všech sedmi jazykových polích ještě před touto kontrolou; při úplném průchodu nebyla nalezena žádná další významová vada.
 
-Nejsou evidovány žádné otevřené CRITICAL nebo HIGH věcné, geografické, kategoriální ani strukturální vady.
+Nejsou evidovány žádné otevřené CRITICAL nebo HIGH věcné, geografické, kategoriální, strukturální ani sémantické vady.
 
 ## 6. Publikace, záloha a zamčení
 
@@ -90,4 +92,5 @@ Nejsou evidovány žádné otevřené CRITICAL nebo HIGH věcné, geografické, 
 - Záloha nebyla spuštěna.
 - Read-only zamčení nebylo spuštěno.
 - `sequence.json`, schéma, Content Standard a rework prompt zůstaly beze změny.
-- Po dokončení otevřené sémantické kontroly znovu vyhodnotit výsledek. Publikaci, zálohu a zamčení provádět pouze na výslovný pokyn uživatele.
+- Auditní výsledek je PASS; záznamy však zůstávají `validated`, `data_version = 1`.
+- Publikaci V5, zálohu a read-only zamčení provádět pouze na výslovný pokyn uživatele.
