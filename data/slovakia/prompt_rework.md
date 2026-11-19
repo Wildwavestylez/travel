@@ -86,25 +86,32 @@ Before assigning a fact:
 
 Do not let a website's contact postcode override stronger evidence about the physical site. If a material conflict remains unresolved, record it and do not move the fact or change the postcode on that basis.
 
-## 3. Production storage — GitHub is the sole record store for Slovakia
+## 3. Production storage and lifecycle — GitHub is the sole record store for Slovakia
 
-**Slovak postcode records MUST NOT be stored in Supabase.** Unlike the Czech and German production workflows, Slovakia uses GitHub as its canonical storage location for completed postcode JSON records.
+**Slovak postcode records MUST NOT be stored in Supabase.** GitHub is the sole source of truth for Slovak production records.
 
 Repository: `Wildwavestylez/travel`
 
-- Store each completed Slovak postcode record as one standalone JSON file in `data/slovakia/records/`.
-- Canonical filename: `{postcode}.json`, using the exact five-digit postcode without a space; for example, `data/slovakia/records/81101.json`.
-- The `data/slovakia/` country folder remains the home of Slovak country documentation, schema, prompts and the `records/` subfolder containing the postcode JSON files.
-- GitHub is the sole source of truth for Slovak production records. Do not create, query, update, synchronize or use Supabase rows for Slovak PSČ.
-- Do not use `public.postal_codes`, `country_code = 'SK'` or any Supabase JSONB payload as part of the Slovak record workflow.
-- Before creating a record file, check whether the exact path already exists. For rework, fetch and preserve the existing file; update it rather than creating a duplicate or a differently named copy.
-- Do not overwrite an existing file without first fetching its current content and blob SHA.
+- Store each Slovak postcode as one standalone JSON file at `data/slovakia/records/{postcode}.json`, using the exact five-digit postcode without a space (for example, `81101.json`).
+- Do not create, query, update, synchronize or use Supabase rows for Slovak PSČ. Do not use `public.postal_codes`, `country_code = 'SK'` or a Supabase JSONB payload.
+- The JSON root must contain `postcode` and `status`. The only permitted lifecycle values are:
+  - `placeholder` — a deliberately empty geographic postcode record. It contains only `postcode` and `status`, plus optional `data_version`. It contains no content fields and is not shown on the map.
+  - `validated` — the complete content rework has passed its record-level validation and is waiting for the separate final audit. It is not shown on the map.
+  - `published` — the record has passed the applicable final audit and is eligible for map display.
+- Never use `draft`. Never store a completed content record as `placeholder`.
+- A placeholder becomes `validated` only after the full content rework is complete, all seven languages and geographic fields are ready, and the complete JSON passes the Slovak schema.
+- Rework never sets a record to `published`. Only the separate successful final audit may do that.
+- If a previously published record is explicitly reopened and its content or geographic data is materially changed, set it back to `validated` until it passes the audit again. If no substantive change is made, preserve its existing status.
+- `data_version` is independent of `status`. Preserve its existing value exactly. Do not add, increment, reset or otherwise change it during rework. A version change is permitted only after the complete requested audit scope has passed and only on the user's explicit instruction.
+- The Europe Explorer map must load Slovak records with `status = 'published'` only. It must never display `placeholder` or `validated` records.
+- Before creating a file, check whether the exact path already exists. For rework, fetch and preserve the existing file; update it rather than creating a duplicate or differently named copy.
+- Never overwrite an existing file without first fetching its current content and blob SHA.
 - Validate the complete JSON against `data/slovakia/schema.json` before committing.
-- After every create/update, fetch the exact GitHub path again and verify the persisted JSON, postcode, schema compliance and resulting blob SHA.
-- Save only the completed schema-compliant record. Do not commit partial drafts, temporary research notes, candidate lists or working audit ledgers into the production records folder.
+- After every create/update, fetch the exact GitHub path again and verify the persisted JSON, postcode, status, unchanged `data_version`, schema compliance and resulting blob SHA.
+- A placeholder is the sole intentional exception to the full content requirements: it must remain empty and must validate against the placeholder branch of the schema. Never commit partial content under `validated`.
 - Do not modify Czech or German record storage or workflows.
 
-**Completion evidence:** a Slovak rework is saved only when the GitHub create/update operation succeeds and a subsequent fetch confirms the exact file content. The Git commit history is the persistence/change record. The Slovak JSON schema does not contain a database status field; do not add `status`, `country_code` or database metadata to the JSON unless the schema is deliberately changed.
+**Completion evidence:** a Slovak rework is saved only when the GitHub create/update succeeds and a subsequent fetch confirms the exact file content and lifecycle state. Git commit history is the persistence/change record.
 
 If the target path is ambiguous, a filename conflict exists, or the existing file cannot be fetched, stop and report the exact issue. Never guess a path or silently create a second record.
 
@@ -115,11 +122,11 @@ These rules reduce repeated work and rate-limit failures without reducing eviden
 1. **Load shared documents once per work session.** At the start, read the current Slovak schema, Country Profile, Content Standard and this prompt. Record their commit/version identifiers. Reuse them for subsequent postcodes in the same session unless a version changes, a file was incomplete or a concrete conflict appears.
 2. **Build a short research plan.** List candidate subjects and material open questions before searching. Combine closely related searches when practical. Do not repeat the same query or URL when its result is already sufficient and no change or gap is suspected.
 3. **Research only what remains unverified.** Once a competent source establishes a claim and the appropriate source establishes its location/postcode relationship, stop redundant searching. Do not omit a required check merely to save calls.
-4. **Limit concurrency.** Avoid large parallel bursts. Normally make no more than two external research requests concurrently. Perform database writes sequentially. Prefer a supported batch read over many separate reads.
+4. **Limit concurrency.** Avoid large parallel bursts. Normally make no more than two external research requests concurrently. Perform GitHub writes sequentially. Prefer a supported batch read over many separate reads.
 5. **Handle HTTP 429 and equivalent rate limits.** Stop further requests to the affected service immediately. Respect `Retry-After` when supplied. Otherwise use exponential waits of approximately 2, 4, 8, 16 and 32 seconds. Do not send parallel retries to the same service. After at most five failed attempts, mark that source `RATE LIMITED`, preserve the last state and continue only with independent work. A rate limit is not a successful verification.
 6. **Maintain a safe checkpoint.** Before interruption, handoff or context exhaustion, record the postcode, completed steps, sources used, evidence obtained, open questions, last error/time and exact next action. Resume at the first incomplete step; do not repeat completed research or validation.
 7. **Validate locally wherever possible.** Check JSON structure, schema, IDs, translations and consistency locally against already loaded data. Do not call an external service for a check that can be performed reliably in memory.
-8. **Use one targeted database read and write cycle.** Read only the target Slovak row. Verify its identity before writing. Make one targeted update, then one read-back. If a write reports an error, first check whether it nevertheless persisted; never blindly repeat an UPDATE.
+8. **Use one targeted GitHub read/write cycle.** Fetch only the target JSON file and its current blob SHA. Verify the exact postcode and current status before writing. Make one create/update, then one read-back. If a write reports an error, first check whether it nevertheless persisted; never blindly repeat an update.
 9. **Never claim false completion.** An unavailable source, timeout or rate limit does not prove a fact. Mark only the affected check as pending/unverified, complete independent safe work and carry the blocker forward.
 
 **Operating principle:** load once → research deliberately → preserve evidence → validate locally → write once → verify once → continue.
@@ -130,10 +137,10 @@ Process only existing eligible Slovak records in the project's established work 
 
 - Read the current project progress/queue mechanism before selecting the next record.
 - Do not invent a Slovak `sequence.json` or assume that a Slovak sequence exists. If no authoritative Slovak queue is present, use only the exact postcode(s) explicitly assigned by the user or the established production work instruction.
-- Do not infer that a record is complete merely because it contains facts or has a particular generic status. Confirm the project's completion mechanism and persisted status.
+- Do not infer completion from the presence of facts alone. Read the persisted `status`: `placeholder` means no content work is complete, `validated` means rework is complete and audit is pending, and `published` means the record passed audit. Never use `draft`.
 - Process records continuously when instructed to continue; do not ask after every postcode whether to proceed.
 - Save and confirm each record separately so an interruption does not lose completed work.
-- A successfully reworked and validated record is complete for the rework stage and should be skipped in later runs unless explicitly reopened.
+- A successfully reworked record must be saved as `validated` and is complete for the rework stage; skip it in later runs unless explicitly reopened. A `placeholder` is not reworked content, and a `published` record is reopened only for an explicit reason.
 - Reopen a completed record only when the user requests it, concrete new evidence appears, the record materially changes, or the schema/Content Standard changes in a way that affects it. Preserve the previous result and document why it was reopened.
 - If one record is blocked, preserve the exact reason and continue to the next eligible record if the issue is isolated.
 - At handoff, record the last completed postcode, next eligible postcode and blocked items using the project's existing progress mechanism. Do not create a parallel tracker if one already exists.
@@ -366,6 +373,7 @@ Every source ID must resolve. Every non-null fact location must have the exact r
 Perform one final basic validation pass after the editorial, geographic and translation work. Confirm:
 
 - the postcode is a verified geographic Slovak PSČ;
+- the completed content record is saved with `status = 'validated'` (or remains `published` only if it was not substantively changed);
 - the serving post office is identified and its physical municipality is correctly used for `city`;
 - `district`, `county` and `state` correspond to that same post-office municipality;
 - the full defensible PSČ area, not just the post-office municipality, was researched;
@@ -395,7 +403,7 @@ If a check fails, correct that specific issue and validate the correction. Do no
 - For an existing record, fetch its current content and blob SHA before updating it.
 - After the write, fetch the exact path again and verify the saved JSON, postcode, schema compliance and new blob SHA.
 - Preserve the file's established identity and do not create alternate filenames or duplicate copies.
-- Do not add database status fields or metadata that are absent from the Slovak schema. A successful GitHub write plus successful read-back is the evidence that the rework has been saved.
+- Include the schema-defined `status` field. Save completed rework as `validated`; preserve `data_version` unchanged. A successful GitHub write plus successful read-back is the evidence that the rework has been saved.
 - If a required condition genuinely blocks completion, do not commit a partial or misleadingly complete production record. Preserve the exact blocker in the working handoff.
 
 Do not use Supabase for Slovak records. Do not change schema, tables, RLS, triggers, permissions, database architecture or application code.
@@ -418,7 +426,7 @@ Do not run this section-wide audit during ordinary per-postcode rework, repeat i
 
 ## 13. Operating principle
 
-**Rework each eligible Slovak geographic PSČ once: establish the serving post office and its physical municipality, research the full delivery area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, commit the JSON to `data/slovakia/records/{postcode}.json`, verify it by reading it back from GitHub and move forward. Keep the section-wide audit separate.**
+**Rework each eligible Slovak geographic PSČ once: establish the serving post office and its physical municipality, research the full geographic area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, save the JSON as `validated` in `data/slovakia/records/{postcode}.json`, preserve `data_version`, verify it by reading it back from GitHub and move forward. Keep the section-wide audit separate.**
 
 The administrative fields describe the municipality containing the serving post office. The research scope remains the full geographic PSČ area. Never confuse those two things.
 
