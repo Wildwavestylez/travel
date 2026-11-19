@@ -131,6 +131,12 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky významově odpovídají českým masterům; opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 11/12 PSČ, 678/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35493 Dolní Žandov (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 8 faktů × 6 cizojazyčných verzí = **48/48 překladových položek**.
+- Všechna cizojazyčná znění významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat, událostí ani podstatné vynechání. Nebyla nutná žádná textová oprava.
+- **Sémantická kontrola všech 12 PSČ je dokončena: 121/121 faktů a 726/726 cizojazyčných překladových položek.**
+- Tím není automaticky uzavřen celý audit: stále je nutné provést závěrečný souhrnný read-back po všech opravách, opakovaný RÚIAN cross-check a finální přehled turistické úplnosti. Publikace, záloha a read-only zamčení zůstávají neprovedeny.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
