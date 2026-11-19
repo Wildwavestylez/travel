@@ -1,0 +1,630 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TRAVEL Slovakia postcode stop",
+  "description": "Canonical TRAVEL Slovak geographic postcode record. This schema and the Slovakia CONTENT_STANDARD.md define the production structure for Slovak PSČ records.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "postcode",
+    "city",
+    "district",
+    "county",
+    "state",
+    "representative_place",
+    "representative_point",
+    "access_point",
+    "facts",
+    "photo",
+    "verification",
+    "sources",
+    "translations"
+  ],
+  "properties": {
+    "postcode": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$",
+      "description": "Five-digit Slovak geographic postal code (PSČ), stored as a string without a space, e.g. 81101. Display with the conventional space, e.g. 811 01. Special-purpose and non-geographic codes are excluded."
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One principal municipality (obec) associated with the geographic PSČ, established from Slovak postal and official geographic evidence. Do not use an unstructured list of every locality in the delivery area."
+    },
+    "district": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "An officially documented mestská časť, miestna časť, urban district or other relevant locality within the principal municipality, where applicable; otherwise null. Do not list neighbouring municipalities or every settlement in the postal area."
+    },
+    "county": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The okres to which the principal municipality belongs. Use the official Slovak name."
+    },
+    "state": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The samosprávny kraj (kraj) to which the principal municipality belongs. Use the official Slovak name."
+    },
+    "representative_place": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One human-readable place or feature that genuinely characterises the geographic PSČ area. It need not be a tourist attraction or geometric centre."
+    },
+    "representative_point": {
+      "$ref": "#/$defs/point",
+      "description": "WGS84 coordinates for the same postcode-level representative place. This is not a fact location or access point."
+    },
+    "access_point": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/point"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional legacy/game compatibility point for practical arrival or approach. Use null if no defensible practical point is available. It is not a building entrance, representative point or fact location."
+    },
+    "facts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "photo": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "plz_source",
+        "geographic_test_data",
+        "access_point_verified"
+      ],
+      "properties": {
+        "plz_source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Specific source used to verify the Slovak PSČ. Slovenská pošta is the primary postal authority for code existence, geographic use and special-purpose classification. RAGEO and official mapping sources corroborate address geography; they do not by themselves establish the full postal delivery area."
+        },
+        "geographic_test_data": {
+          "type": "boolean"
+        },
+        "access_point_verified": {
+          "type": "boolean"
+        },
+        "postcode_authority": {
+          "type": "string",
+          "description": "Postal authority for the code's existence, geographic use and classification: Slovenská pošta. Keep geographic address corroboration separate (RAGEO/Ministry of Interior) from postal assignment."
+        },
+        "postcode_source_dataset": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional name of the official Slovak postal source or dataset used."
+        },
+        "postcode_source_release": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional release/version of the postal source, if stated by the source."
+        },
+        "postcode_source_checked_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "Date on which the postal source was checked."
+        },
+        "postcode_conflict": {
+          "type": "boolean"
+        },
+        "postcode_conflict_note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Explain any unresolved or resolved conflict between Slovak postal and geographic evidence."
+        },
+        "delivery_office_note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional note about the postal office or postal assignment where relevant to interpreting the PSČ. Do not treat the post office location as the postcode representative point."
+        },
+        "postcode_override_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Documented reason for any justified manual resolution or override. Never use this to conceal missing evidence."
+        },
+        "geographic_authority": {
+          "type": "string",
+          "description": "Authority used for the geographic or administrative claim: RAGEO/Ministry of Interior for address points; ŠÚ SR and official territorial-unit registers for administrative hierarchy; ÚGKK SR/ZBGIS for geographic identification and coordinate corroboration."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "translations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "nl"
+      ],
+      "properties": {
+        "cs": {
+          "$ref": "#/$defs/translation"
+        },
+        "de": {
+          "$ref": "#/$defs/translation"
+        },
+        "en": {
+          "$ref": "#/$defs/translation"
+        },
+        "es": {
+          "$ref": "#/$defs/translation"
+        },
+        "fr": {
+          "$ref": "#/$defs/translation"
+        },
+        "it": {
+          "$ref": "#/$defs/translation"
+        },
+        "nl": {
+          "$ref": "#/$defs/translation"
+        }
+      }
+    },
+    "district_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "municipal_part",
+        "urban_district",
+        "local_part",
+        "settlement",
+        "locality",
+        null
+      ],
+      "description": "Optional clarification of the Slovak district value: municipal_part = officially recognised part of a municipality; urban_district = mestská časť or urban district; local_part = miestna časť; settlement = settlement within the municipality; locality = another documented local area."
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lat",
+        "lon"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "text",
+        "category",
+        "priority",
+        "sources",
+        "map_category"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "nature_and_landscape",
+            "heritage_and_monuments",
+            "architecture_and_urbanism",
+            "history",
+            "culture_and_industry",
+            "people",
+            "geography_and_context",
+            "tourism_and_surroundings",
+            "hidden_gem",
+            "local_story",
+            "other_verified_significance"
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "location": {
+          "description": "Independent physical/map location of the subject of this fact. Do not copy representative_point or access_point automatically. Use a defensible exact, approximate, area-representative or historical-approximate point according to the Slovak Content Standard; use null only when no meaningful point can be established.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/fact_location"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "map_category": {
+          "type": "string",
+          "enum": [
+            "castle",
+            "religious_site",
+            "historical_monument",
+            "architecture",
+            "historic_city",
+            "museum",
+            "archaeological_site",
+            "nature",
+            "viewpoint_landscape",
+            "park_garden",
+            "technical_heritage",
+            "cultural_site",
+            "visitor_attraction",
+            "local_culture",
+            "science_site",
+            "personality",
+            "sports_venue"
+          ],
+          "description": "Exactly one stable, language-neutral value from the shared 17-value TRAVEL map-category taxonomy. It classifies the fact's primary subject, not its physical location."
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "type"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "official",
+            "primary",
+            "archive",
+            "museum",
+            "university",
+            "specialist",
+            "news",
+            "regional",
+            "other"
+          ]
+        }
+      }
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "representative_place",
+        "facts"
+      ],
+      "properties": {
+        "representative_place": {
+          "type": "string",
+          "minLength": 1
+        },
+        "facts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/translated_fact"
+          }
+        }
+      }
+    },
+    "translated_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fact_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "lat",
+        "lon",
+        "type",
+        "accuracy",
+        "source"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the actual mapped object, feature or orientation point. If an approximate public reference point is used, name that point rather than falsely presenting it as the exact historical or factual site."
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Verified postal address of the mapped point, if one exists; otherwise null."
+        },
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "agricultural_landscape",
+            "airport",
+            "arboretum",
+            "archaeological_site",
+            "architectural_ensemble",
+            "archive",
+            "artwork",
+            "brewery",
+            "bridge",
+            "building",
+            "bunker",
+            "business_park",
+            "canal",
+            "castle",
+            "cemetery",
+            "chapel",
+            "church",
+            "cinema",
+            "city_gate",
+            "community_center",
+            "cultural_center",
+            "dam",
+            "factory",
+            "farm",
+            "ferry_terminal",
+            "fire_station",
+            "forest",
+            "fortress",
+            "fountain",
+            "gallery",
+            "garden",
+            "harbor",
+            "hill",
+            "historic_address",
+            "historic_district",
+            "historic_estate",
+            "historic_industrial_site",
+            "historic_monument",
+            "historic_railway_site",
+            "historic_settlement",
+            "historic_square",
+            "historic_street",
+            "historic_villa",
+            "historic_village",
+            "historic_waterway",
+            "hospital",
+            "hotel",
+            "industrial_site",
+            "infrastructure",
+            "island",
+            "landmark",
+            "landscape",
+            "market",
+            "memorial",
+            "memorial_site",
+            "metro_station",
+            "mine",
+            "monastery",
+            "monument",
+            "mosque",
+            "museum",
+            "natural_feature",
+            "natural_monument",
+            "nature_reserve",
+            "neighborhood",
+            "observatory",
+            "open_air_museum",
+            "park",
+            "pedestrian_street",
+            "pilgrimage_site",
+            "pond",
+            "power_station",
+            "quarry",
+            "railway_station",
+            "religious_site",
+            "research_facility",
+            "residential_ensemble",
+            "river",
+            "rock_formation",
+            "school",
+            "sculpture",
+            "shopping_center",
+            "square",
+            "stadium",
+            "street",
+            "synagogue",
+            "technical_monument",
+            "technology_park",
+            "theatre",
+            "town_hall",
+            "transport_hub",
+            "university",
+            "viewpoint",
+            "waterfall",
+            "water_tower",
+            "waterway",
+            "waterworks",
+            "windmill",
+            "woodland",
+            "zoo",
+            "spa",
+            "cave",
+            "battlefield",
+            "protected_area",
+            "national_park",
+            "geological_site",
+            "lookout_tower",
+            "fortification",
+            "ruin",
+            "library",
+            "sports_facility",
+            "swimming_pool",
+            "camping_site",
+            "railway_heritage_site",
+            "industrial_heritage_site",
+            "historic_bridge",
+            "historic_church",
+            "historic_park",
+            "historic_garden",
+            "historic_cemetery",
+            "historic_mill",
+            "historic_mine",
+            "historic_quarry",
+            "historic_brewery",
+            "historic_factory",
+            "historic_workshop",
+            "historic_market",
+            "historic_station",
+            "historic_fortress",
+            "postal_area"
+          ],
+          "description": "Řízený český slovník typů polohy faktu v jednotném čísle. postal_area označuje faktum vztahující se k oblasti PSČ bez jediného konkrétního fyzického místa."
+        },
+        "accuracy": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "approximate",
+            "area_representative",
+            "historical_approximate"
+          ],
+          "description": "exact = verified point on the specific object; approximate = approximate point for a known location; area_representative = representative point within an extended area; historical_approximate = uncertain historical position or an explicitly approximate orientation point."
+        },
+        "source": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct URL supporting the identification or geographic position of the chosen map point."
+        }
+      },
+      "description": "WGS84 coordinates for the fact's physical subject or a clearly identified representative/orientation point, following the Slovak Content Standard. The name, type and accuracy must honestly describe the actual mapped point."
+    }
+  },
+  "$comment": "SLOVAKIA CONTENT STANDARD: Slovak geographic PSČ only. Slovak postal authority is Slovenská pošta; RAGEO supports address geography, ŠÚ SR official administrative units, and ÚGKK SR/ZBGIS geographic corroboration. Preserve the shared TRAVEL record structure, editorial categories, A-D priorities, 17-value map_category taxonomy and seven required languages. Slovakia has its own administrative descriptions and controlled district_type vocabulary. Do not modify Czech or German schemas or records."
+}
