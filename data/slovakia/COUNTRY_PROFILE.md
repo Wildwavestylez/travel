@@ -25,7 +25,7 @@ A PSČ is a postal identifier, not an administrative boundary and not automatica
 Use the canonical flat top-level record fields defined by `data/slovakia/schema.json`. Their Slovak meaning is:
 
 - `postcode`: five-digit geographic Slovak PSČ, stored as a string without a space.
-- `city`: the principal municipality (obec) associated with the geographic PSČ, established from postal and official geographic evidence. Use one clear principal municipality, not an unstructured list of every locality in the delivery area. If the postal area covers several municipalities, explain or record that coverage according to the schema and Content Standard rather than pretending it is a single municipality.
+- `city`: the one municipality (obec) or town in which the serving post office for the geographic PSČ is physically located. Identify the actual post office serving the PSČ and use the municipality where that post-office building is located. Do not select the first municipality in a list of localities served by the post office, the largest or most populous municipality in the delivery area, or an arbitrary “principal” locality. For example, if the serving post office is physically in Snina, `city` is `Snina`, even if its delivery area also includes Dolná nad Hornou. The full geographic PSČ area may cover other municipalities; that wider coverage belongs in the fact-research scope and must not change `city`.
 - `district`: an officially documented mestská časť, miestna časť, urban district or other relevant locality within the municipality, where applicable; otherwise `null`. Do not put neighbouring municipalities or every settlement in the postal area into this field.
 - `county`: the okres.
 - `state`: the samosprávny kraj (kraj).
