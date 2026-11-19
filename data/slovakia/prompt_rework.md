@@ -19,13 +19,13 @@ If any instruction conflicts with the current schema, Country Profile or Content
 
 Rework existing Slovak geographic PSČ records into the current Slovak production standard. This is a complete research and editorial rework, not a mechanical conversion or a translation-only pass.
 
-- Work only on the intended Slovak record in the existing production dataset.
-- The production country discriminator is `country_code = 'SK'`.
-- Update the existing record for its exact five-digit postcode; do not create duplicate rows or new postcode records during ordinary rework.
-- Preserve the existing row identity and unrelated metadata.
+- Work only on the intended Slovak JSON record in `Wildwavestylez/travel`.
+- The canonical identity is the exact five-digit `postcode` and its file path `data/slovakia/records/{postcode}.json`; do not add a `country_code` field.
+- Update the existing JSON file for its exact postcode; do not create duplicate files or new postcode records during ordinary rework.
+- Preserve the existing file identity, fact IDs, source IDs and unrelated content.
 - Do not modify Czech or German records, schemas, prompts, standards, sequence files or country data.
-- Do not change database structure, tables, columns, RLS, triggers, permissions, application code or shared architecture.
-- Do not create new fields, categories, enums, lifecycle states or language variants.
+- Do not change the Slovak schema during ordinary rework, or modify application code or shared architecture.
+- Do not create ad hoc fields, categories, enums, lifecycle states or language variants. Use only the schema-defined `status` and optional `data_version` fields for the agreed lifecycle.
 - Do not infer postcode polygons or claim polygon-level boundary certainty.
 - Do not import Czech RÚIAN/ČSÚ procedures or German Deutsche Post/PLZ procedures.
 - Do not treat the old record as authoritative. Existing facts are leads and working material, not guaranteed truth.
@@ -406,7 +406,7 @@ If a check fails, correct that specific issue and validate the correction. Do no
 - Include the schema-defined `status` field. Save completed rework as `validated`; preserve `data_version` unchanged. A successful GitHub write plus successful read-back is the evidence that the rework has been saved.
 - If a required condition genuinely blocks completion, do not commit a partial or misleadingly complete production record. Preserve the exact blocker in the working handoff.
 
-Do not use Supabase for Slovak records. Do not change schema, tables, RLS, triggers, permissions, database architecture or application code.
+Do not use Supabase for Slovak records. Do not change the schema during ordinary rework, and do not change application code or shared architecture.
 
 ## 11. Protected geographic-enrichment exception
 
