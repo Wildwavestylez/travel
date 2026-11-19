@@ -86,23 +86,27 @@ Before assigning a fact:
 
 Do not let a website's contact postcode override stronger evidence about the physical site. If a material conflict remains unresolved, record it and do not move the fact or change the postcode on that basis.
 
-## 3. Production storage — mandatory
+## 3. Production storage — GitHub is the sole record store for Slovakia
 
-Production records are stored in the existing shared production dataset. For Slovak records:
+**Slovak postcode records MUST NOT be stored in Supabase.** Unlike the Czech and German production workflows, Slovakia uses GitHub as its canonical storage location for completed postcode JSON records.
 
-- Production table: `public.postal_codes`.
-- Country discriminator: `country_code = 'SK'`.
-- JSON record payload: existing JSONB column `content`.
-- Locate the pre-existing row by the exact five-digit postcode and confirm that its country discriminator is `SK` before writing.
-- Update only that existing row. Preserve its row identity and unrelated metadata.
-- Do not create duplicate rows, new tables or missing postcode rows during ordinary rework.
-- If the row is missing, ambiguous or has a different country discriminator, stop and report the exact issue. Never guess or change the country identifier.
-- Never read-modify-write or otherwise alter rows belonging to another country.
-- Do not change database structure, RLS, application code, permissions or the Slovak schema during ordinary rework.
-- Validate the complete record against `data/slovakia/schema.json` before saving.
-- After saving, read the same row back and verify the postcode, `country_code`, stored `content` and status.
+Repository: `Wildwavestylez/travel`
 
-Do not save a production record as a standalone JSON file in GitHub as a substitute for the prepared production row. GitHub contains the rules, schema and reference documents; the production database remains the record store.
+- Store each completed Slovak postcode record as one standalone JSON file in `data/slovakia/records/`.
+- Canonical filename: `{postcode}.json`, using the exact five-digit postcode without a space; for example, `data/slovakia/records/81101.json`.
+- The `data/slovakia/` country folder remains the home of Slovak country documentation, schema, prompts and the `records/` subfolder containing the postcode JSON files.
+- GitHub is the sole source of truth for Slovak production records. Do not create, query, update, synchronize or use Supabase rows for Slovak PSČ.
+- Do not use `public.postal_codes`, `country_code = 'SK'` or any Supabase JSONB payload as part of the Slovak record workflow.
+- Before creating a record file, check whether the exact path already exists. For rework, fetch and preserve the existing file; update it rather than creating a duplicate or a differently named copy.
+- Do not overwrite an existing file without first fetching its current content and blob SHA.
+- Validate the complete JSON against `data/slovakia/schema.json` before committing.
+- After every create/update, fetch the exact GitHub path again and verify the persisted JSON, postcode, schema compliance and resulting blob SHA.
+- Save only the completed schema-compliant record. Do not commit partial drafts, temporary research notes, candidate lists or working audit ledgers into the production records folder.
+- Do not modify Czech or German record storage or workflows.
+
+**Completion evidence:** a Slovak rework is saved only when the GitHub create/update operation succeeds and a subsequent fetch confirms the exact file content. The Git commit history is the persistence/change record. The Slovak JSON schema does not contain a database status field; do not add `status`, `country_code` or database metadata to the JSON unless the schema is deliberately changed.
+
+If the target path is ambiguous, a filename conflict exists, or the existing file cannot be fetched, stop and report the exact issue. Never guess a path or silently create a second record.
 
 ## 4. Efficient operation, API limits and safe continuation — mandatory
 
@@ -415,7 +419,7 @@ Do not run this section-wide audit during ordinary per-postcode rework, repeat i
 
 ## 13. Operating principle
 
-**Rework each eligible Slovak geographic PSČ once: establish the serving post office and its physical municipality, research the full delivery area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, save as `validated`, confirm the persisted record and move forward. Keep the section-wide audit separate.**
+**Rework each eligible Slovak geographic PSČ once: establish the serving post office and its physical municipality, research the full delivery area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, commit the JSON to `data/slovakia/records/{postcode}.json`, verify it by reading it back from GitHub and move forward. Keep the section-wide audit separate.**
 
 The administrative fields describe the municipality containing the serving post office. The research scope remains the full geographic PSČ area. Never confuse those two things.
 
