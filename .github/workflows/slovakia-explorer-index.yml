@@ -1,5 +1,7 @@
 name: Build Slovakia Europe Explorer index
 
+# Rebuild the derived manifest after canonical Slovak record/sequence changes.
+
 on:
   push:
     branches: [main]
