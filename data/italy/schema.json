@@ -1,0 +1,599 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TRAVEL Italian CAP record — Explorer-compatible content schema",
+  "description": "Italian CAP record schema aligned with the shared TRAVEL / EuropeExplorer fact model and seven-language presentation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "postcode",
+    "city",
+    "district",
+    "county",
+    "state",
+    "representative_place",
+    "representative_point",
+    "access_point",
+    "facts",
+    "photo",
+    "verification",
+    "sources",
+    "translations"
+  ],
+  "properties": {
+    "postcode": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$",
+      "description": "Five-digit Italian CAP (Codice di Avviamento Postale). Store as a string, preserving leading zeroes."
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary human-readable Comune or postal locality label for this CAP record. The value is a display label, not proof that the CAP boundary equals the Comune boundary."
+    },
+    "district": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional documented sub-municipal locality, such as frazione, località, borgata, quartiere or rione. Use the locally supported designation; do not treat it as a Comune."
+    },
+    "county": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Intermediate territorial unit used by EuropeExplorer's county filter. Store its full official name, including its legal type where needed (Provincia, Città metropolitana, Provincia autonoma or Libero consorzio comunale). Do not use this field for a Comune or sub-municipal district."
+    },
+    "state": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Regione name used by EuropeExplorer's region/state filter. Use the current official ISTAT name."
+    },
+    "representative_place": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One human-readable place or geographic feature that genuinely characterises the CAP area."
+    },
+    "representative_point": {
+      "$ref": "#/$defs/point",
+      "description": "Coordinates of representative_place. This is the CAP record's map anchor, not a fact location, access point or asserted CAP polygon centroid."
+    },
+    "access_point": {
+      "$ref": "#/$defs/point",
+      "description": "Legacy TRAVEL navigation/access point. Keep separate from representative_point and every facts[].location."
+    },
+    "facts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/fact"
+      },
+      "description": "Facts assigned to this CAP. Every fact must have an independently defensible map location when one can be verified; do not substitute the CAP representative point or access point."
+    },
+    "photo": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[\\x00-\\x7F]+$",
+          "format": "uri",
+          "description": "When present, must be a valid URI containing ASCII characters only. UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "postcode_source",
+        "geographic_test_data",
+        "access_point_verified"
+      ],
+      "properties": {
+        "postcode_source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Source and release used to verify the current Italian CAP assignment, normally Poste Italiane."
+        },
+        "geographic_test_data": {
+          "type": "boolean",
+          "description": "True only when the geographic assignment has actually been checked."
+        },
+        "access_point_verified": {
+          "type": "boolean",
+          "description": "True only when the legacy access point has actually been checked."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "translations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "nl"
+      ],
+      "properties": {
+        "cs": {
+          "$ref": "#/$defs/translation"
+        },
+        "de": {
+          "$ref": "#/$defs/translation"
+        },
+        "en": {
+          "$ref": "#/$defs/translation"
+        },
+        "es": {
+          "$ref": "#/$defs/translation"
+        },
+        "fr": {
+          "$ref": "#/$defs/translation"
+        },
+        "it": {
+          "$ref": "#/$defs/translation"
+        },
+        "nl": {
+          "$ref": "#/$defs/translation"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lat",
+        "lon"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "text",
+        "category",
+        "priority",
+        "sources",
+        "map_category"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "nature_and_landscape",
+            "heritage_and_monuments",
+            "architecture_and_urbanism",
+            "history",
+            "culture_and_industry",
+            "people",
+            "geography_and_context",
+            "tourism_and_surroundings",
+            "hidden_gem",
+            "local_story",
+            "other_verified_significance"
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "location": {
+          "description": "Independent geographic location of the subject of this specific fact. Do not copy representative_point or access_point here. Optional only for legacy-record compatibility; new/enriched facts must include this property and use null when a defensible location cannot be verified.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/fact_location"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "map_category": {
+          "type": "string",
+          "enum": [
+            "castle",
+            "religious_site",
+            "historical_monument",
+            "architecture",
+            "historic_city",
+            "museum",
+            "archaeological_site",
+            "nature",
+            "viewpoint_landscape",
+            "park_garden",
+            "technical_heritage",
+            "cultural_site",
+            "visitor_attraction",
+            "local_culture",
+            "science_site",
+            "personality",
+            "sports_venue"
+          ],
+          "description": "Single primary map category for the specific subject of this fact. Use personality for facts whose primary subject is a specific person, regardless of the physical site used for the map location. Used only for map iconography; the existing category field retains its broader editorial meaning."
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "type"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^[\\x00-\\x7F]+$",
+          "format": "uri",
+          "description": "Must be a valid URI containing ASCII characters only. UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "official",
+            "primary",
+            "archive",
+            "museum",
+            "university",
+            "specialist",
+            "news",
+            "regional",
+            "other"
+          ]
+        }
+      }
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "representative_place",
+        "facts"
+      ],
+      "properties": {
+        "representative_place": {
+          "type": "string",
+          "minLength": 1
+        },
+        "facts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/translated_fact"
+          }
+        }
+      }
+    },
+    "translated_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^fact_[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fact_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "lat",
+        "lon",
+        "type",
+        "accuracy",
+        "source"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the specific site, feature, or historically documented place to which the fact refers."
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Verified postal address when one exists; null for natural features or locations without a reliable street address."
+        },
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "agricultural_landscape",
+            "airport",
+            "airport_area",
+            "airport_building",
+            "arboretum",
+            "archaeological_site",
+            "architectural_ensemble",
+            "archive",
+            "artworks",
+            "brewery",
+            "brewery_site",
+            "bridge",
+            "building",
+            "bunker",
+            "business_park",
+            "canal",
+            "canal_settlement",
+            "castle",
+            "cemetery",
+            "church",
+            "church_historic_site",
+            "cinema",
+            "community_center",
+            "community_garden",
+            "crematorium",
+            "cultural_center",
+            "event_location",
+            "factory",
+            "farm",
+            "ferry_crossing",
+            "ferry_landing",
+            "film_studio_site",
+            "fire_station",
+            "forest",
+            "former_military_training_area",
+            "fountain",
+            "gallery",
+            "garden",
+            "harbor",
+            "highrise",
+            "hill",
+            "hills",
+            "hills_viewpoint",
+            "hindu_temple",
+            "historic_address",
+            "historic_airfield",
+            "historic_bathing_site",
+            "historic_building",
+            "historic_buildings",
+            "historic_city",
+            "historic_crematorium",
+            "historic_district",
+            "historic_ensemble",
+            "historic_estate",
+            "historic_farmstead",
+            "historic_fire_station",
+            "historic_hospital",
+            "historic_industrial_district",
+            "historic_industrial_site",
+            "historic_inn",
+            "historic_island",
+            "historic_landscape",
+            "historic_manor",
+            "historic_military_site",
+            "historic_monument",
+            "historic_nursery",
+            "historic_railway_site",
+            "historic_restaurant",
+            "historic_settlement",
+            "historic_site",
+            "historic_square",
+            "historic_street",
+            "historic_studio",
+            "historic_tramway",
+            "historic_transport_site",
+            "historic_villa",
+            "historic_village",
+            "historic_village_center",
+            "historic_villages",
+            "historic_villas",
+            "historic_waterway",
+            "historic_workshop",
+            "historical_monument",
+            "historical_site",
+            "hospital",
+            "hotel_congress_center",
+            "industrial_area",
+            "industrial_monument",
+            "industrial_site",
+            "infrastructure",
+            "island",
+            "landmark",
+            "landscape",
+            "landscape_area",
+            "landscape_park",
+            "lido",
+            "literary_site",
+            "market",
+            "media_campus",
+            "memorial",
+            "memorial_museum",
+            "memorial_site",
+            "memorial_tree",
+            "metro_line_site",
+            "metro_station",
+            "model_railway",
+            "monument",
+            "museum",
+            "natural_feature",
+            "natural_monument",
+            "nature",
+            "nature_area",
+            "nature_reserve",
+            "nature_site",
+            "neighborhood",
+            "observatory",
+            "other",
+            "park",
+            "pavilion",
+            "pedestrian_bridge",
+            "pedestrian_street",
+            "pedestrian_tunnel",
+            "peninsula",
+            "pond",
+            "ponds",
+            "postal_area",
+            "power_station",
+            "racecourse",
+            "railway_hall",
+            "railway_heritage",
+            "railway_station",
+            "religious_site",
+            "research_campus",
+            "research_facility",
+            "research_site",
+            "residential_area",
+            "residential_building",
+            "residential_ensemble",
+            "riverside",
+            "rowing_club_site",
+            "rowing_course",
+            "school",
+            "school_site",
+            "sculptures",
+            "shopping_center",
+            "square",
+            "square_pond",
+            "stadium",
+            "street",
+            "sundial",
+            "survey_marker",
+            "swimming_pool",
+            "technical_heritage",
+            "technical_monument",
+            "technology_park",
+            "town_hall",
+            "transport",
+            "university_campus",
+            "university_hospital",
+            "urban_center",
+            "urban_design_site",
+            "urban_development_site",
+            "viewpoint",
+            "water_tower",
+            "waterway",
+            "waterworks",
+            "windmill",
+            "woodland"
+          ],
+          "description": "Controlled location type vocabulary synchronized with the published TRAVEL Germany dataset and EuropeExplorer. Use only one of these enumerated values; do not invent free-text types. Add a newly verified type to this schema and the EuropeExplorer schema before publishing records that use it."
+        },
+        "accuracy": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "approximate",
+            "area_representative",
+            "historical_approximate"
+          ],
+          "description": "exact = verified point on the specific object/site; approximate = location known but point is not exact; area_representative = representative point used for an extended area or a fact associated with the postal-code area rather than one specific site; historical_approximate = documented historical location whose exact position is uncertain."
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[\\x00-\\x7F]+$",
+          "format": "uri",
+          "description": "Direct URL supporting the identification or geographic position of this fact location. Must contain ASCII characters only; UTF-8 characters such as ä, ö, ü and ß must be percent-encoded."
+        }
+      }
+    }
+  },
+  "$comment": "ITALY / EUROPEEXPLORER COMPATIBILITY: keep the shared fact structure, seven-language translations, representative_place, representative_point, legacy access_point, shared editorial category and shared 17-value map_category. EuropeExplorer reads the Region from state/region and the intermediate territorial unit from county; district is a sub-municipal locality. The county value must include the official unit name/type where needed. The application currently does not consume separate Italian territorial-unit codes or type fields, so none are introduced here. Fact pins use facts[].location.lat/lon; fact selection and translations are joined by facts[].id; map presentation uses map_category. Do not confuse a fact location with the CAP representative point or access point."
+}
