@@ -15,7 +15,7 @@ async function githubJson(path){
 async function getSlovakiaSequence(){
   if(!slovakiaSequencePromise)slovakiaSequencePromise=githubJson('data/slovakia/sequence.json').then(data=>{
     if(!Array.isArray(data.sequence)||data.count!==data.sequence.length)throw Error('Slovenská sequence.json má neplatný počet PSČ.');
-    if(new Set(data.sequence).size!==data.sequence.length||data.sequence.some(pc=>typeof pc!=='string'||!/^\\d{5}$/.test(pc)))throw Error('Slovenská sequence.json obsahuje duplicitní nebo neplatné PSČ.');
+    if(new Set(data.sequence).size!==data.sequence.length||data.sequence.some(pc=>typeof pc!=='string'||!/^\d{5}$/.test(pc)))throw Error('Slovenská sequence.json obsahuje duplicitní nebo neplatné PSČ.');
     return data.sequence;
   }).catch(error=>{slovakiaSequencePromise=null;throw error;});
   return slovakiaSequencePromise;
@@ -33,7 +33,7 @@ async function loadSlovakiaList(){
   try{
     const sequence=await getSlovakiaSequence();
     const q=$('#search').value.trim();
-    const filtered=q?sequence.filter(pc=>pc.includes(q.replace(/\\s/g,''))):sequence;
+    const filtered=q?sequence.filter(pc=>pc.includes(q.replace(/\s/g,''))):sequence;
     total=filtered.length;
     const page=filtered.slice(offset,offset+PAGE_SIZE);
     rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||''}));
@@ -72,8 +72,8 @@ async function loadList(){
     const r=await api(listQuery());
     rows=r.data||[]; total=parseTotal(r.range);
     renderList();
-    if(!selected && rows[0])select(rows[0].postal_code,false);
-    else if(selected && rows.some(x=>x.postal_code===selected))select(selected,false);
+    if(!selectedPostcode() && rows[0])select(rows[0].postal_code,false);
+    else if(selectedPostcode() && rows.some(x=>x.postal_code===selectedPostcode()))select(selectedPostcode(),false);
     else if(rows[0])select(rows[0].postal_code,false);
     else renderDetail(null);
   }catch(e){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>'}
