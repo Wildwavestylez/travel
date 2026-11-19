@@ -37,11 +37,24 @@ async function loadSlovakiaList(){
   $('#list').innerHTML='<div class="loading">Načítám slovenskou sequence z GitHubu…</div>';
   try{
     const sequence=await getSlovakiaSequence();
-    const q=$('#search').value.trim();
-    const filtered=q?sequence.filter(pc=>pc.includes(q.replace(/\s/g,''))):sequence;
+    const q=$('#search').value.trim().toLocaleLowerCase('cs');
+    let filtered=sequence;
+    if(q){
+      const numeric=q.replace(/\s/g,'');
+      if(/^\d{1,5}$/.test(numeric)){
+        filtered=sequence.filter(pc=>pc.includes(numeric));
+      }else{
+        // City names are read from canonical records already loaded in this session.
+        // Placeholder records intentionally contain no city; never infer it from a postcode.
+        filtered=sequence.filter(pc=>{
+          const record=slovakiaRecordCache.get(pc);
+          return pc.includes(numeric)||(record?.city||'').toLocaleLowerCase('cs').includes(q);
+        });
+      }
+    }
     total=filtered.length;
     const page=filtered.slice(offset,offset+PAGE_SIZE);
-    rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||''}));
+    rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||'',status:slovakiaRecordCache.get(pc)?.status||'placeholder'}));
     renderList();
     const current=selectedPostcode();
     if(!current||!page.includes(current)){
@@ -85,7 +98,11 @@ async function loadList(){
 }
 function renderList(){
   $('#count').textContent=total==null?rows.length+' záznamů':total.toLocaleString('cs-CZ')+' záznamů';
-  $('#list').innerHTML=rows.length?rows.map(r=>{const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;const label=r.city||(cached?'GitHub · '+cached.status:(country==='SK'?'Slovensko · GitHub':'—'));return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>'}).join(''):'<div class="empty">Nic nenalezeno.</div>';
+  $('#list').innerHTML=rows.length?rows.map(r=>{
+    const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;
+    const label=r.city||(cached?.status==='placeholder'?'Čeká na rework':cached?'Bez názvu města':country==='SK'?'Čeká na rework':'—');
+    return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>';
+  }).join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
   $('#prev').disabled=offset===0;
   $('#next').disabled=total!=null?offset+PAGE_SIZE>=total:rows.length<PAGE_SIZE;
@@ -122,6 +139,12 @@ function renderDetail(data){
   if(!data){el.innerHTML='<div class="empty">Vyber PSČ vlevo.</div>';return}
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
+  if(country==='SK'&&data.status==='placeholder'){
+    el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Slovensko</div><div class="meta"><span class="badge">placeholder</span><br>Zdroj: GitHub · '+esc(COUNTRY_CONFIG.SK.recordsPath)+esc(data.postcode)+'.json</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div><div class="section-title">Stav záznamu</div><div class="empty">Toto PSČ je zatím pouze prázdný placeholder. Po kompletním reworku se zde zobrazí město, okres, kraj, fakta, zdroje a všech sedm jazykových verzí.</div><details class="raw"><summary>Zobrazit celý surový JSON</summary><pre class="json">'+esc(JSON.stringify(data,null,2))+'</pre></details>';
+    $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data,null,2));
+    $('#rawBtn').onclick=()=>document.querySelector('.raw summary').click();
+    return;
+  }
   const facts=factData(data);
   const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano'};
   if(country==='SK')langNames.nl='Nederlands';
