@@ -60,6 +60,14 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky: bez potvrzené významové vady. Změny ověřeny následným read-backem ze Supabase.
 - Stav sémantické kontroly celého bloku zůstává REVIEW REQUIRED; zbývá 11 PSČ.
 
+### Sémantická kontrola — 35101 Františkovy Lázně (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 9 faktů × 6 cizojazyčných verzí = **54/54 překladových položek**.
+- **fact_004:** v německém překladu doplněna vynechaná informace o krátké naučné stezce; ostatní překlady významově odpovídají masteru.
+- **fact_005:** opravena typografická chyba „Zwieb elkuppel“ → „Zwiebelkuppel“ v německém textu.
+- **fact_008:** ve všech šesti překladech doplněna vynechaná lokalizace muzea v bývalém hasičském domě v Dlouhé ulici a výslovná zmínka o dějinách města; italská a nizozemská formulace následně jazykově zpřesněna.
+- Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 2/12 PSČ, 132/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
