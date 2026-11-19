@@ -52,6 +52,14 @@ Významné nově rozšířené položky:
 - Texty upravené v tomto pokračování byly přeloženy do šesti cizích jazyků a načteny zpět.
 - **Otevřeno:** individuální sémantická kontrola všech dříve existujících cizojazyčných překladů v celém rozsahu 121 × 6 není dosud doložena. Strukturální úplnost ani samotná existence textu nenahrazují sémantické ověření. Do uzavření této kontroly zůstává stav `REVIEW REQUIRED`.
 
+### Sémantická kontrola — 35002 Cheb (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 13 faktů × 6 cizojazyčných verzí = **78/78 překladových položek**.
+- **fact_004:** ve všech šesti jazycích opraven význam „velitelství“; původní formulace mylně označovala budovu za rezidenci/obydlí velitele. Nyní odpovídá významu vojenského velitelství a radnice.
+- **fact_011:** ověřen historický název „Soudce chebský“ (Egerer Richter / Egerer Judge). Anglický text a titulek sjednoceny na „Judge of Eger“; španělský titulek opraven z obecného „Acuerdo de Cheb“ na „Juez de Cheb“. Ostatní jazyky zachovávají význam historického názvu.
+- **fact_013:** ve všech šesti cizojazyčných textech doplněna vynechaná závěrečná informace, že obléhání patřilo k nejdramatičtějším událostem třicetileté války v regionu.
+- Ostatní zkontrolované položky: bez potvrzené významové vady. Změny ověřeny následným read-backem ze Supabase.
+- Stav sémantické kontroly celého bloku zůstává REVIEW REQUIRED; zbývá 11 PSČ.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
