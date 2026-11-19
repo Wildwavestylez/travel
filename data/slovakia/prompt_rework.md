@@ -269,6 +269,20 @@ Use historical dating proportionately. Do not force an exact year when a support
 
 For international readers, explain unfamiliar Slovak institutions, administrative terms, historical arrangements, religious traditions, architectural forms, regional customs and cultural references when needed. Relevant context may include Great Moravian history, the Kingdom of Hungary, Habsburg rule, Czechoslovakia, modern Slovak statehood, the Slovak National Uprising, and documented Hungarian, German, Jewish, Roma, Rusyn, Ukrainian or other local communities. Include only context supported by evidence and relevant to the particular story. Do not flatten distinct historical periods or identities into present-day national labels.
 
+
+For facts about Slovak regional culture and folklore, naming a tradition or translating its name literally is not enough. Explain to readers what it actually refers to, what it looks or sounds like, how it is practised and what local role or meaning it has, using only source-supported details.
+
+- **Language and dialect:** explain whether a term refers to Slovak, a regional dialect, local speech or another historically documented language. Identify where it is used, its evidenced linguistic features and its relationship to local identity. Distinguish dialects from separate languages; do not invent linguistic classifications or claim that a local speech is a separate language without specialist evidence. Because the source-language fact is written in Czech, explain Slovak terms and institutions that a Czech reader may not know as well.
+- **Music and instruments:** describe unfamiliar instruments, how they are built or played, their sound or function, and their role in a local ensemble or ceremony where relevant.
+- **Traditional dress:** describe recognisable clothing features and local variants, and explain when and by whom the clothing is or was worn. Do not treat all Slovak folk costumes as interchangeable.
+- **Dances, festivals and rites:** explain what happens, when and why, who takes part and what the event means in its local, seasonal, religious or community context. Explain local names, processions, masks and ritual actions.
+- **Crafts, food and everyday culture:** explain the object, process, technique, ingredients or practical use, and why it is characteristic of the particular locality.
+- **Local variation:** distinguish village-level and regional variants. Do not generalise a custom documented in one village to an entire region or Slovakia as a whole.
+- **Cultural equivalents:** do not replace a Slovak term with a superficially similar Czech or foreign cultural term unless it is genuinely equivalent. Preserve the original name and explain its meaning.
+- **All six non-Czech versions:** independently provide the context needed by readers unfamiliar with Slovakia. Do not rely on the Czech original or on another translation to explain a term. Each version must stand alone.
+
+The reader should be able to picture what they would see, hear or experience. Keep explanations concise, natural and relevant to the specific fact; do not add generic folklore background or unsupported interpretations.
+
 ## 7. Geographic data — mandatory Slovak layer
 
 Follow the full Slovak Content Standard and schema. The three coordinate roles must remain distinct:
