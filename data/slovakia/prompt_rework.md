@@ -108,6 +108,7 @@ Repository: `Wildwavestylez/travel`
 - Never overwrite an existing file without first fetching its current content and blob SHA.
 - Validate the complete JSON against `data/slovakia/schema.json` before committing.
 - After every create/update, fetch the exact GitHub path again and verify the persisted JSON, postcode, status, unchanged `data_version`, schema compliance and resulting blob SHA.
+- Keep the derived Database Viewer index `data/slovakia/database_index.json` synchronized after every Slovak record create/update. Fetch its current content and blob SHA, update only the matching `postcode` entry's `city` and `status` from the verified canonical record (use `city: null` when the record has no city), preserve the sequence order and all other entries, then fetch the index again and verify the changed entry. This index is a read/search cache only; the individual record JSON files remain the sole source of truth. Never use the index to establish or overwrite canonical record content.
 - A placeholder is the sole intentional exception to the full content requirements: it must remain empty and must validate against the placeholder branch of the schema. Never commit partial content under `validated`.
 - Do not modify Czech or German record storage or workflows.
 
