@@ -5,10 +5,10 @@ const PAGE_SIZE=60;
 const COUNTRY_CONFIG={
   DE:{name:'Německo',from:'01067',backend:'supabase'},
   CZ:{name:'Česko',from:'10000',backend:'supabase'},
-  SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',recordsPath:'data/slovakia/records/'}
+  SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'}
 };
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
-let slovakiaSequencePromise=null;
+let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
 const slovakiaRecordCache=new Map();
 const GITHUB_RAW='https://raw.githubusercontent.com/Wildwavestylez/travel/main/';
 const selectedPostcode=()=>typeof selected==='string'?selected:(selected?.postcode??null);
@@ -25,36 +25,45 @@ async function getSlovakiaSequence(){
   }).catch(error=>{slovakiaSequencePromise=null;throw error;});
   return slovakiaSequencePromise;
 }
+async function getSlovakiaIndex(){
+  if(!slovakiaIndexPromise)slovakiaIndexPromise=githubJson(COUNTRY_CONFIG.SK.indexPath).then(data=>{
+    if(!Array.isArray(data.records)||data.count!==data.records.length)throw Error('Slovenský database_index.json má neplatný počet záznamů.');
+    const map=new Map();
+    for(const item of data.records){
+      if(!item||typeof item.postcode!=='string'||!/^\d{5}$/.test(item.postcode)||map.has(item.postcode))throw Error('Slovenský database_index.json obsahuje neplatné nebo duplicitní PSČ.');
+      map.set(item.postcode,item);
+    }
+    return map;
+  }).catch(error=>{slovakiaIndexPromise=null;throw error;});
+  return slovakiaIndexPromise;
+}
 async function getSlovakiaRecord(pc){
   if(slovakiaRecordCache.has(pc))return slovakiaRecordCache.get(pc);
   const record=await githubJson(COUNTRY_CONFIG.SK.recordsPath+encodeURIComponent(pc)+'.json');
   if(record.postcode!==pc)throw Error('GitHub vrátil jiný postcode než '+pc+'.');
   if(!['placeholder','validated','published'].includes(record.status))throw Error('Neplatný status slovenského záznamu '+pc+'.');
   slovakiaRecordCache.set(pc,record);
+  const index=await getSlovakiaIndex();
+  const item=index.get(pc);
+  if(item){item.city=record.city||null;item.status=record.status;}
   return record;
 }
 async function loadSlovakiaList(){
   $('#list').innerHTML='<div class="loading">Načítám slovenskou sequence z GitHubu…</div>';
   try{
-    const sequence=await getSlovakiaSequence();
+    const [sequence,index]=await Promise.all([getSlovakiaSequence(),getSlovakiaIndex()]);
     const q=$('#search').value.trim().toLocaleLowerCase('cs');
     let filtered=sequence;
     if(q){
       const numeric=q.replace(/\s/g,'');
-      if(/^\d{1,5}$/.test(numeric)){
-        filtered=sequence.filter(pc=>pc.includes(numeric));
-      }else{
-        // City names are read from canonical records already loaded in this session.
-        // Placeholder records intentionally contain no city; never infer it from a postcode.
-        filtered=sequence.filter(pc=>{
-          const record=slovakiaRecordCache.get(pc);
-          return pc.includes(numeric)||(record?.city||'').toLocaleLowerCase('cs').includes(q);
-        });
-      }
+      filtered=sequence.filter(pc=>{
+        const item=index.get(pc);
+        return pc.includes(numeric)||(item?.city||'').toLocaleLowerCase('cs').includes(q);
+      });
     }
     total=filtered.length;
     const page=filtered.slice(offset,offset+PAGE_SIZE);
-    rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||'',status:slovakiaRecordCache.get(pc)?.status||'placeholder'}));
+    rows=page.map(pc=>{const item=index.get(pc);return {postal_code:pc,city:item?.city||'',status:item?.status||'placeholder'};});
     renderList();
     const current=selectedPostcode();
     if(!current||!page.includes(current)){
