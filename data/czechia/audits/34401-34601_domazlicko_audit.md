@@ -16,7 +16,7 @@ Rozsah auditovaný přesně podle průniku `sequence.json` a Supabase:
 - 19/19 českých řádků v Supabase.
 - Všech 19 kódů nalezeno v centrálním RÚIAN CSV inventáři.
 - Rozsah, pořadí, `sequence.json`, `groups` ani jiné země nebyly změněny.
-- Výsledný stav: 168 faktů v 19 záznamech.
+- Výsledný stav při aktuálním read-backu: **178 faktů v 19 záznamech** (původní počet 168 v tomto taháku byl zastaralý).
 
 ## 2. Zásadní turistická úplnost — uzavřeno
 
@@ -51,11 +51,18 @@ Všechny nové fakty mají vlastní zdroje, kategorii, mapovou kategorii, polohu
 - Opraveny rozdíly `facts[].text` vs. odpovídající `translations.cs[].text` u 34522 a 34535.
 - Read-back po všech změnách: 0 rozdílů českého masteru.
 
+### Sémantické přiřazení překladů
+
+- Při porovnání titulů a duplicit napříč sedmi jazykovými poli byla nalezena záměna u **34401 / fact_017**: český master popisuje Draženovské dožínky roku 1924 s J. Š. Baarem, ale `translations.cs`, `de`, `en`, `es`, `fr`, `it`, `nl` obsahovaly texty Vavřinecké pouti z `fact_007`.
+- Všech sedm překladových položek `fact_017` bylo nahrazeno odpovídající verzí Draženovských dožínek podle českého masteru. ID, pořadí faktů, zdroje, lokace a master text zůstaly zachovány.
+- Read-back potvrdil správný český master a anglickou verzi; následné dávkové kontroly potvrdily **0 rozdílů `translations.cs`**, **0 duplicitních názvů a textů** napříč jazykovými poli.
+- Kontrola názvů všech překladů a cílené posouzení výrazně kratších cizojazyčných textů neodhalily další zjevnou záměnu. Zkrácené překlady nebyly označeny jen kvůli délce; zachovávají hlavní sdělení.
+
 ## 4. Technické kontroly — read-back PASS
 
 Poslední dávková kontrola Supabase potvrdila:
 
-- 19 PSČ / 168 faktů.
+- 19 PSČ / **178 faktů / 1 246 jazykových položek** (178 × 7).
 - 0 krátkých českých master textů.
 - 0 null poloh.
 - 0 neplatných `category`, `priority` a `map_category`.
@@ -64,7 +71,7 @@ Poslední dávková kontrola Supabase potvrdila:
 - 0 chybějících překladových řádků v sedmi jazycích.
 - 0 rozdílů `translations.cs` proti českému masteru.
 - 0 duplicitních překladových ID.
-- 0 duplicitních názvů faktů uvnitř PSČ.
+- 0 duplicitních názvů a textů překladů po opravě `34401/fact_017`.
 - 0 chybějících povinných polí faktů.
 - 0 reklamních/propagačních formulací v cíleném vícejazyčném scanu.
 - Všech 19 záznamů zůstává `status = validated`, `data_version = 1`.
@@ -73,7 +80,7 @@ AJV ani samostatný validační běh nebyl spuštěn — podle promptu V2.0 nen�
 
 ## 5. Otevřené položky a výsledek
 
-**REVIEW REQUIRED — jediná otevřená oblast:** úplná sémantická kontrola všech starších překladů de/en/es/fr/it/nl napříč 168 fakty. Strukturální přítomnost, přiřazení ID, neprázdnost a synchronizace češtiny jsou ověřeny; nové překlady doplněných faktů byly zkontrolovány při tvorbě. Starší cizojazyčné texty nebyly všechny jednotlivě sémanticky porovnány s českým masterem, proto audit zatím neoznačuji jako PASS.
+**REVIEW REQUIRED — jediná otevřená oblast:** úplná věcná sémantická kontrola všech **1 068 cizojazyčných textů** (`de/en/es/fr/it/nl`) napříč 178 fakty. Strukturální přítomnost, přiřazení ID, názvy, neprázdnost, synchronizace češtiny a zjevné duplicity jsou ověřeny; cílená kontrola odhalila a opravila jedinou záměnu `34401/fact_017`. Zbývající starší cizojazyčné texty nebyly všechny jednotlivě porovnány s českým masterem, proto audit zatím neoznačuji jako PASS.
 
 Nejsou evidovány žádné otevřené CRITICAL nebo HIGH věcné, geografické, kategoriální ani strukturální vady.
 
