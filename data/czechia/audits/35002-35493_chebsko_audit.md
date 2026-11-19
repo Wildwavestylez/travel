@@ -95,6 +95,15 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Oprava ověřena read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 6/12 PSČ, 342/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35135 Plesná (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 7 faktů × 6 cizojazyčných verzí = **42/42 překladových položek**.
+- **Zásadní oprava přiřazení titulů:** všech 42 cizojazyčných nadpisů (DE/EN/ES/FR/IT/NL) bylo kruhově posunuto o jedno ID, zatímco samotné texty již byly přiřazeny správně. Všech 42 titulů bylo znovu přiřazeno podle českého masteru a ID faktu; následný read-back potvrdil správné přiřazení všech 7 × 6 titulů.
+- **fact_002:** ve všech šesti jazycích doplněna chybějící informace, že evangelická komunita v Plesné zachovala své tradice navzdory rekatolizačním tlakům.
+- **fact_004:** ve všech šesti jazycích doplněna návaznost kostela na starší katolickou tradici a doložení provizorní svatyně sv. Jiří kolem roku 1400.
+- **fact_007:** ve všech šesti jazycích doplněna závěrečná informace o nové kulturní funkci bývalé továrny a uchování paměti průmyslového města.
+- Ostatní texty významově odpovídají českým masterům. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 7/12 PSČ, 384/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
