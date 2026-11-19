@@ -138,6 +138,21 @@ Piš pro zahraničního čtenáře, který Českou republiku nemusel nikdy navš
 - Vysvětlení přirozeně a úsporně začleň do textu. Nedělej z každého faktu encyklopedické heslo a nepřidávej kontext, který čtenáři nepomáhá.
 - Nevymýšlej historické pozadí, interpretace ani význam. Kontext musí být podložen důvěryhodnými zdroji.
 
+### Zvláštní pravidlo — jazyk, nářečí, folklor a místní tradice
+
+U faktů o regionální kultuře nestačí pojmenovat tradici nebo doslovně přeložit její název. Vysvětli zahraničnímu čtenáři, co konkrétně označuje, jak vypadá nebo zní, jak se praktikuje a jakou má místní funkci či význam — vždy jen v rozsahu doloženém zdroji.
+
+- **Jazyk a nářečí:** uveď, ke kterému jazyku či jazykové skupině nářečí patří, kde se používá, čím se doložitelně vyznačuje (např. výslovností, slovní zásobou nebo gramatickými rysy) a jak souvisí s místní identitou. Rozlišuj jazyk, nářečí, místní mluvu a historickou jazykovou situaci; nikdy nevydávej nářečí za samostatný jazyk bez odborného podkladu. Uveď konkrétní příklady jen tehdy, jsou-li doložené.
+- **Hudba a nástroje:** neznámý nástroj nejen pojmenuj, ale stručně popiš jeho konstrukci, způsob hry a roli v místní muzice. Vysvětli také místní hudební obsazení, zpěv nebo taneční doprovod, pokud jsou pro příběh podstatné.
+- **Kroje a oděv:** vysvětli, že jde o tradiční regionální oděv, popiš jeho rozpoznávací prvky, místní varianty, kdo a při jakých příležitostech jej nosil či nosí. Nezaměňuj různé obce nebo národopisné oblasti do jednoho obecného „lidového kroje“.
+- **Tance, slavnosti a obřady:** popiš, co se při nich skutečně děje, kdy a proč se konají, kdo se účastní a jaký mají společenský, kalendářní či náboženský význam. Vysvětli místní názvy, masky, průvody a rituální úkony.
+- **Řemesla, jídlo a každodenní kultura:** vysvětli, co se vyrábí nebo připravuje, jakou technikou či z jakých typických surovin, k čemu předmět nebo pokrm sloužil a proč je pro danou obec či oblast charakteristický.
+- **Místní rozdíly:** pokud se tradice liší mezi obcemi nebo částmi regionu, zachovej tyto rozdíly. Nepřisuzuj zvyk celé oblasti, pokud je doložen pouze v jedné obci.
+- **Kulturní ekvivalenty:** nepoužívej automaticky podobný pojem z cílové kultury (např. jiný typ dud, tance, kroje nebo slavnosti), pokud nejde o skutečný ekvivalent. Původní název zachovej a jeho význam vysvětli.
+- **Samostatná srozumitelnost:** vysvětlení musí být obsaženo v každé jazykové verzi, která je potřebuje. Nepředpokládej, že čtenář německé, anglické, španělské, francouzské, italské či nizozemské verze zná české reálie nebo že si chybějící kontext dohledá jinde.
+
+Vysvětlení má čtenáři umožnit představit si, co uvidí, uslyší nebo zažije. Zachovej přitom čtivost a přiměřenou délku; nepřidávej obecný folklorní výklad, který nesouvisí s konkrétním faktem.
+
 Příklad: nestačí napsat, že Stolpersteine připomínají oběti nacismu. Vysvětli, že jde o malé mosazné pamětní destičky zasazené do chodníku, obvykle před posledním svobodně zvoleným bydlištěm lidí pronásledovaných nebo zavražděných nacistickým režimem, přičemž každá destička připomíná konkrétního člověka.
 
 Před uložením proveď čtenářský test v každém jazyce: pochopí člověk bez předchozí znalosti země, o jaký objekt či téma jde, co znamená neznámý pojem, jaký kontext potřebuje a proč je fakt významný? Pokud ne, uprav příslušnou jazykovou verzi.
