@@ -17,19 +17,12 @@ The production unit for Italy is the five-digit Italian postal code, the **CAP (
 - One CAP is one production unit and one canonical postcode record.
 - A CAP is a postal routing and delivery identifier. It is not itself an administrative unit, municipality, neighbourhood or tourist destination.
 - A CAP record must represent the defensible geographic delivery area associated with that CAP, not merely the name of a town printed beside it.
-- The geographic scope of research is the area actually served by the CAP. Administrative labels are descriptive relationships and must not arbitrarily narrow the scope of the facts that can be researched.
-- A CAP may be associated with a municipality, several municipalities/localities, a provincial road grouping, or a specific urban CAP zone. The exact relationship must be established from reliable postal and geographic evidence.
-- Never assume that one CAP equals one Comune, that one Comune has only one CAP, or that a CAP boundary follows a municipal, provincial or regional boundary.
+- The CAP is the geographic content layer to which we attach interesting places, facts and stories.
+- Each fact must have a real, defensible location on the map and a meaningful geographic relationship to the CAP record.
+- Administrative labels such as Regione, Provincia and Comune help users navigate and filter the content; they do not define the editorial purpose of a CAP record.
+- Do not turn the project into a historical register of municipal mergers, boundary changes or former villages. Record administrative detail only to the extent needed for correct current geographic classification and useful search.
 
-Keep distinct:
-1. the postal CAP and its delivery geography;
-2. the Comune or Comuni related to that CAP;
-3. the administrative location of a serving postal office, where relevant;
-4. the physical location of an individual fact;
-5. the postcode-level representative place and point;
-6. the legacy access/navigation point.
-
-These are different concepts and must not be substituted for one another.
+Keep the CAP record, the map location of each fact, the representative place/point and the legacy access point conceptually distinct. Administrative labels are supporting metadata for search and filtering, not the main content.
 
 ## Italian postal system — CAP
 
@@ -46,12 +39,7 @@ This digit structure is useful for understanding and checking CAP values, but it
 
 Poste Italiane distinguishes ordinary locality CAPs and urban CAP zones. Larger provincial capitals may have multiple CAP zones. Smaller provincial capitals may use a single CAP ending in `00`. There are also patterns in which a final zero represents a group of municipalities rather than one individual Comune. Treat the actual published assignment as authoritative.
 
-The CAP system changes over time. Poste Italiane publishes periodic CAP updates and states that new CAP assignments became operational on 25 May 2026; older CAPs remain valid for a transition period of at least twelve months. Therefore:
-- record the source release/date used to establish a CAP inventory;
-- distinguish current assignments from legacy or transitional codes when the source provides that information;
-- do not treat a CAP as current solely because it appears in an old third-party list;
-- re-check affected CAPs when Poste Italiane publishes changes;
-- do not silently merge historical and current CAP identities.
+Use a current, reliable CAP inventory when preparing the national sequence. Check the source version during initial inventory preparation and refresh the list if a relevant official update is encountered. The project does not need a separate historical CAP change-management system for ordinary content production.
 
 A PO-box or organisation using an ordinary geographic CAP does not make that CAP non-geographic. Do not exclude a CAP merely because it may also be used in a postal address for an organisation or a casella postale. A postal box is an addressee/delivery arrangement, not by itself proof of a separate postcode territory. Conversely, do not assume that every numeric pattern is a valid geographic CAP: verify the actual postal assignment.
 
@@ -127,21 +115,15 @@ The existing shared concepts must retain their distinct meanings:
 - `representative_place`: one human-readable place or feature that genuinely characterises the CAP's geographic area.
 - `representative_point`: coordinates of that same representative place.
 
-The future schema must decide how to represent one-to-many and many-to-many relationships without losing information. In particular:
-- one Comune may be associated with multiple CAPs;
-- one CAP may cover multiple Comuni or localities;
-- a Comune may have multiple urban CAP zones;
-- the postal assignment and the current administrative hierarchy may change at different times.
+The administrative fields should provide a clear, useful primary classification for search and filters. Where a CAP genuinely relates to more than one Comune, use the project's agreed practical assignment rule and preserve enough information to avoid misleading users. Do not build a complex historical or boundary-management model solely to represent rare administrative edge cases.
 
-Do not choose a single Comune or intermediate unit merely to make the data look hierarchical if that would conceal a real multi-municipality CAP assignment. If the shared record structure requires one primary display value, document the selection rule and preserve the complete verified relationship in a suitable structured representation or reference layer. The precise implementation belongs in the schema design, not in ad hoc prose values.
-
-The serving post office's physical location, if used as a record label or verification aid, must not be mistaken for the full CAP territory. The facts may concern any defensibly assigned location within the CAP's real geographic scope.
+The serving post office's physical location must not automatically be treated as the location of every fact. Our primary concern is that each interesting place and story is correctly located and assigned to the appropriate CAP content record.
 
 ## Representative place and point
 
 Every production record must retain the shared concept of one `representative_place` and one `representative_point`, subject to the final Italian schema.
 
-The point must identify the selected representative place and be geographically defensible for the CAP area.
+The point must identify the selected representative place and provide a useful map position for the CAP record.
 
 The representative point is not automatically:
 - the geometric centre of a CAP polygon;
@@ -152,9 +134,7 @@ The representative point is not automatically:
 
 Choose a place that genuinely characterises the CAP area. It may be a settlement, historic centre, urban quarter, landscape, heritage site, industrial area, port, island locality or another representative geographic feature. Fame alone is not sufficient.
 
-Where a CAP covers several municipalities or localities, select a representative place according to a documented and consistently applied rule. Do not imply that the selected point represents the precise centre or complete boundary of the postal territory.
-
-Do not invent CAP polygons or derive them from municipality boundaries. Use verified postal geography where available. If no defensible polygon is available, the representative point remains a point-level descriptor, not a fabricated boundary.
+Choose a practical, genuinely representative place for the CAP record. The representative point is a map anchor for the record, not a claim about an exact postal polygon. We do not need to build or maintain CAP boundary polygons as a prerequisite for producing useful content.
 
 ## Fact locations
 
@@ -174,7 +154,7 @@ The Italian location-type vocabulary must be country-specific where Italian plac
 
 Store location metadata only once on the source-language fact. Do not duplicate coordinates and location metadata in translated fact objects.
 
-A fact must have a genuine and defensible geographic relationship to the CAP to which it is assigned. A Comune name appearing in a broad source is not sufficient proof that a specific attraction lies inside a particular CAP. Use exact address, official locality evidence, authoritative map/address data or other reliable location evidence as appropriate. Where a location is close to or crosses an uncertain postal boundary, record the uncertainty and do not claim a precision the evidence does not support.
+A fact must have a genuine and defensible geographic relationship to the CAP record. The key requirement is to locate the actual place on the map and verify that it belongs in that CAP's content area. Do not spend effort reconstructing obscure historical postal boundaries when a reliable current address/locality assignment is sufficient. Never invent a location or coordinates.
 
 ## Access point — legacy game compatibility
 
@@ -289,15 +269,11 @@ All language versions must preserve the same fact IDs and order, and must convey
 
 This profile establishes geographic concepts and requirements. It does not by itself finalise the Italian JSON field names, data types, controlled vocabularies, database relations or application behaviour.
 
-The following decisions must be resolved in the Italian schema and Content Standard before production records are created:
+The Italian schema and Content Standard must settle only the practical details needed for consistent records and useful application filters:
 
-1. How to represent a CAP associated with multiple Comuni and a Comune associated with multiple CAPs without losing the verified relationships.
-2. Which canonical ISTAT identifiers and unit-type fields are required for Regione, intermediate territorial unit and Comune.
-3. How to represent special and non-uniform intermediate territorial arrangements without forcing them into a false uniform Province hierarchy.
-4. How to represent the record's primary display locality where a CAP serves multiple Comuni.
-5. Whether and how to store CAP polygons or other postal-geography geometry, separately from representative points.
-6. How the Italian schema will handle the legacy `access_point` requirement consistently with existing application compatibility.
-7. The exact Italian controlled vocabulary for fact location types and any country-specific geographic classifications.
-8. How current, transitional and historical CAP assignments will be distinguished and versioned.
+1. Which Italian administrative values populate the shared region, county and city concepts.
+2. How special Italian administrative forms are displayed without forcing users to understand their legal complexity.
+3. How the legacy `access_point` requirement is handled consistently with the existing application.
+4. The controlled Italian fact-location vocabulary, while preserving the shared map-category system.
 
-Do not create or publish Italian CAP records, finalise `sequence.json`, or change either application based on unresolved assumptions. First approve this profile, then design and validate the Italian schema and Content Standard, then complete the operational prompts and authoritative CAP inventory/sequence.
+Do not delay content production over rare historical boundary cases or a comprehensive CAP polygon model. The sequence needs a reliable current list of CAPs; each CAP then becomes a content layer for map points, interesting places and stories. First approve this profile, then prepare the Italian schema and Content Standard, followed by the operational prompts and CAP sequence.
