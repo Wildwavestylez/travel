@@ -68,7 +68,7 @@ Read-back ze Supabase po opravách:
 - 0 chybějících zdrojů faktů.
 - 0 nepovolených `category`, `map_category`, `priority`, `location.type` nebo `location.accuracy`.
 - 0 nálezů reklamních či propagačních formulací v jazykových textech.
-- Všech 11 záznamů zůstává `status = validated`, `data_version = 1`.
+- Po publikaci: všech 11 záznamů má `status = published`, `data_version = 5`; přesný seznam i počet 11/11 potvrzeny samostatným read-backem ze Supabase.
 
 Individuálně sémanticky zkontrolováno všech **726/726 cizojazyčných překladů** (654 položek u 109 dříve nezměněných faktů + 72 položek u 12 obsahově změněných faktů z předchozí fáze). Všech 121 českých master faktů má odpovídající českou překladovou položku; 0 rozdílů mezi facts[].title/text a translations.cs; 0 prázdných jazykových položek. V této fázi bylo opraveno **26 cizojazyčných překladových položek** a jeden český master text s odpovídající českou překladovou položkou.
 
@@ -94,10 +94,24 @@ Prázdná poloha u 34801/fact_013 není závadou vyžadující odhad; důvod pon
 
 ## 6. Publikace, záloha a zamčení
 
-- Publikace V5: **neprovedena**.
-- Změna `status` na `published`: **neprovedena**.
-- Záloha: **nespuštěna**.
-- Read-only zamčení: **neprovedeno**.
-- Schéma, `sequence.json`, `groups`, triggery, RLS a aplikační kód nebyly měněny.
+### Publikace V5 — dokončena
 
-Podle `prompt_audit.md` se publikace ani záloha nespouští bez výslovného pokynu uživatele. Read-only zamčení vyžaduje samostatný výslovný příkaz.
+- Všech 11 přesně auditovaných PSČ bylo v Supabase nastaveno na `data_version = 5`, `status = published`.
+- Read-back: **11/11**, přesný inventář potvrzen, 0 nesouladů.
+- Žádná jiná PSČ ani země nebyly změněny.
+
+### Záloha Dropbox — VERIFIED
+
+- Dedikovaná Supabase Edge Function: `travel-backup-cz-34701-34961-tachovsko-audited` (ACTIVE, verze 1).
+- Funkce čte pouze přesný inventář 11 PSČ, před exportem vyžaduje V5 + published, CZ, Plzeňský kraj a okres Tachov; databázi nemění.
+- Spuštěno zavedenou cestou přes Supabase `pg_net` HTTP GET.
+- Dropbox složka: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_34701-34961_2026-11-19T21-44-39-551Z/`.
+- Uloženy všechny tři požadované soubory: `CZ_AUDIT_34701-34961_backup.json` (963 466 B), `CZ_AUDIT_34701-34961_restore.sql` (823 031 B) a `manifest.json` (2 008 B).
+- Dropbox read-back SHA-256 všech tří souborů: **PASS**; metadata všech tří souborů ověřena přímo v aplikačním Dropbox prostoru.
+- Manifest potvrzuje `validation.status = VERIFIED`, `validation.readback_verified = true`, `verified_record_count = 11` a shodu `verified_scope_hash`.
+- Počet a seznam PSČ v manifestu: 11/11, přesná shoda. SHA-256 scope: `1460068b24575c1e0a80155c5d949b4b5fb672977e81fda84ae9de4e2dc614ca`.
+
+### Read-only zamčení
+
+- **Neprovedeno.** Vyžaduje samostatný výslovný příkaz uživatele.
+- Schéma, `sequence.json`, `groups`, triggery, RLS a aplikační kód nebyly při publikaci ani záloze měněny.
