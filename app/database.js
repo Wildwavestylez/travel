@@ -94,7 +94,7 @@ async function select(pc,scroll=true){
   selected=pc;renderList();
   renderDetail({loading:true});
   try{
-    if(country==='SK'){
+    if(COUNTRY_CONFIG[country]?.backend==='github'){
       const record=await getSlovakiaRecord(pc);
       selected=record;
       if(record.city)rows=rows.map(x=>x.postal_code===pc?{...x,city:record.city}:x);
