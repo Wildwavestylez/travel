@@ -4,7 +4,7 @@
 
 This profile defines the Slovak geographic, postal and administrative meaning of the fields in a TRAVEL Slovakia postcode record.
 
-The canonical data contract is `data/slovakia/schema.json`, together with `data/slovakia/CONTENT_STANDARD.md`, `data/slovakia/prompt_rework.md` and `data/slovakia/prompt_audit.md`. The Slovak record must preserve the shared TRAVEL record architecture and the same core field meanings, fact model, priority system, map-category taxonomy and seven-language structure used by the other countries. Do not create a separate Slovak data model or introduce new field names, enums or lifecycle states without an explicit project-level decision.
+The canonical data contract is `data/slovakia/schema.json`, together with `data/slovakia/CONTENT_STANDARD.md`, `data/slovakia/prompt_rework.md` and `data/slovakia/prompt_audit.md`. Slovak-geography records use the shared TRAVEL record architecture and seven-language structure, but have no Slovak-language content layer. The original/source text in root `facts[]` is Czech. The seven language versions are `cs`, `de`, `en`, `es`, `fr`, `it` and `nl`; `translations.cs` must match the Czech original, and the other six versions are translated from Czech. Never create Slovak originals or a `sk` translation. Do not create a separate Slovak data model or introduce new field names, enums or lifecycle states without an explicit project-level decision.
 
 The schema defines field names, types, required properties and permitted values. The Slovak Content Standard and prompts define research, geographic assignment, source and editorial rules. This profile explains the Slovak national meaning of geographic and postal fields; it does not replace those documents.
 
@@ -126,7 +126,7 @@ All verification fields must describe checks actually performed. Never set a ver
 
 ## Language layer
 
-Every production record must contain all seven required languages:
+Every production record must use Czech as the original/source language in root `facts[]` and contain all seven required language versions:
 
 - `cs` — Czech
 - `de` — German
@@ -136,4 +136,4 @@ Every production record must contain all seven required languages:
 - `it` — Italian
 - `nl` — standard Netherlands Dutch (`nl-NL`), phrased naturally and clearly for readers in both the Netherlands and Flanders
 
-All seven language versions must preserve the same fact IDs and order, and convey the same verified meaning. Translate naturally rather than word-for-word. Preserve Slovak proper names and diacritics where appropriate; explain culturally specific terms when needed for international readers. Do not invent translated names for places or institutions when no established equivalent exists.
+The Czech original and all seven language versions must preserve the same fact IDs and order and convey the same verified meaning. `translations.cs` must match the Czech original; translate the other six versions from Czech naturally rather than word-for-word. Preserve Slovak proper names and diacritics within the Czech text and translations where appropriate; explain culturally specific terms when needed for readers. Do not invent translated names for places or institutions where no established equivalent exists. Do not add a Slovak (`sk`) language layer.
