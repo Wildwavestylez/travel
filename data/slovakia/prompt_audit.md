@@ -92,13 +92,13 @@ Check that every fact uses exactly one permitted `map_category` from the current
 
 ### E. Seven-language consistency
 
-Check the Slovak master content and all seven required language versions: `cs, de, en, es, fr, it, nl`.
+Check the Czech original content in the root `facts[]` array and all seven required language versions: `cs, de, en, es, fr, it, nl`. There is no Slovak-language content layer. The `translations.cs` version must match the Czech original; the six other versions are translated from Czech.
 
 - Every language is in the correct field and is actually written in that language.
-- Each translated fact belongs to the correct master fact and preserves its meaning, names, dates, qualifications and cultural context.
+- Each translated fact belongs to the correct Czech-original fact and preserves its meaning, names, dates, qualifications and cultural context.
 - Fact IDs and order match across all language arrays.
-- No language is missing, empty, truncated, corrupted, swapped or copied from another fact.
-- Slovak names and diacritics are preserved; unfamiliar Slovak terms and historical context are explained where needed for international readers.
+- No language is missing, empty, truncated, corrupted, swapped or copied from another fact. No Slovak (`sk`) language layer is added.
+- The Czech original preserves Slovak proper names and diacritics; unfamiliar Slovak terms and historical context are explained where needed in Czech and independently in each non-Czech translation.
 - Translations are natural and independently understandable, not mechanically literal.
 
 Correct errors that change meaning or demonstrably damage a translation. Do not rewrite sound translations for stylistic alternatives or personal preference. Do not impose a character-count threshold that is not specified by the current Slovak Content Standard. Never pad text with filler.
