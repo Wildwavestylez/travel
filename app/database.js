@@ -123,7 +123,8 @@ function renderDetail(data){
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
   const facts=factData(data);
-  const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano',nl:'Nederlands'};
+  const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano'};
+  if(country==='SK')langNames.nl='Nederlands';
   const originalFacts=data.facts||[];
   el.innerHTML=
     '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(data.status||'—')+'</span> <span class="badge">V'+esc(data.data_version??'—')+'</span><br>'+
