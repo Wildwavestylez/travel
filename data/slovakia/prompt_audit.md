@@ -6,6 +6,19 @@
 
 After each audited record is saved and verified, update the matching entry in `data/slovakia/database_index.json` with the canonical record's `city` (or `null`) and final `status`. Fetch before writing, preserve all other entries and sequence order, then fetch again to verify. This file is a derived viewer/search cache only; individual record JSON files remain the sole source of truth.
 
+## Europe Explorer V5 manifest synchronization
+
+After the canonical Slovak record has passed the audit and its final JSON has been read back from GitHub, synchronize `data/slovakia/explorer_index.json`. This file is a derived public map/search index only; individual files in `data/slovakia/records/{postcode}.json` remain the sole source of truth.
+
+- Include a record only when its canonical JSON has both `status = "published"` and `data_version = 5`. Never include placeholders, validated records, or published records of another data version.
+- For an eligible record, add/update one `records[]` entry containing `postcode`, `city`, `district`, `county`, `state`, `representative_point`, `status`, and `data_version`.
+- For every fact in that record whose `location` is a valid non-null WGS84 point, add one `map_points[]` entry containing `postcode`, `city`, `fact_id`, `title`, `category`, `map_category`, `lat`, and `lon`. Preserve the fact's canonical ID and coordinates exactly. Do not substitute `representative_point` or `access_point` for a missing fact location.
+- If a record is reopened, becomes `validated`, loses V5, or otherwise ceases to meet both eligibility conditions, remove its record entry and all its map-point entries.
+- Keep records sorted by postcode and map points sorted by postcode then canonical fact order. Set root `count` to `records.length`; keep root `country_code = "SK"`, `data_version = 5`, and `status = "published"`.
+- Fetch the current manifest before editing; update only the affected postcode and its fact points, preserving all other entries. After writing, fetch the manifest again and verify count, order, uniqueness, all coordinates and the exact changed postcode. Also verify every included record against its canonical JSON.
+- If a published V5 record has a fact with a missing or invalid location, do not create a pin for that fact. Do not fabricate coordinates. The record may still be listed if it passes the canonical schema and audit.
+- This manifest is consumed by Europe Explorer; never store independent editorial content in it or use it to overwrite canonical record JSON.
+
 ## 1. Purpose and strict separation from rework
 
 Audit existing Slovak geographic postcode records and correct genuine, material defects. This is a focused final audit, not a second rework and not a new round of comprehensive research.
