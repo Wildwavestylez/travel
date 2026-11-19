@@ -110,7 +110,8 @@ function renderList(){
   $('#count').textContent=total==null?rows.length+' záznamů':total.toLocaleString('cs-CZ')+' záznamů';
   $('#list').innerHTML=rows.length?rows.map(r=>{
     const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;
-    const label=r.city||(cached?.status==='placeholder'?'Čeká na rework':cached?'Bez názvu města':country==='SK'?'Čeká na rework':'—');
+    const status=r.status||cached?.status;
+    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):'—');
     return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>';
   }).join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
