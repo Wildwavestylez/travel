@@ -81,6 +81,14 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 4/12 PSČ, 228/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35132 Hazlov (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 6 faktů × 6 cizojazyčných verzí = **36/36 překladových položek**.
+- **fact_001:** ve španělském překladu doplněna chybějící posloupnost stavebních proměn hradu (renesanční podoba na konci 16. století, barokní přestavba 1719–1720 a rokoková úprava kolem 1770); formulace o roli rodiny Moser následně zpřesněna.
+- **fact_003:** do všech šesti překladů doplněna chybějící závěrečná informace o tom, že konec textilní výroby uzavřel dlouhou kapitolu místního zaměstnání a identity obce; v němčině odstraněno opakování.
+- **fact_006:** ve španělštině, nizozemštině a italštině časově zpřesněno, že ukončení bohoslužeb nastalo po druhé světové válce.
+- Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 5/12 PSČ, 264/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
