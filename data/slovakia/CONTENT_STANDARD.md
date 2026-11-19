@@ -695,3 +695,64 @@ If any answer is no, the fact or translation needs revision.
 A Slovak TRAVEL postcode record is complete only when its postal identity and post-office municipality are correctly established, its geographic scope and administrative fields are defensible, its content reflects a thorough two-pass discovery process, every fact is significant and assigned to one primary PSČ, sources support the claims, map locations are meaningful and honestly described, all seven languages preserve the same meaning, and the full JSON validates against the current Slovak schema.
 
 Never trade accuracy for speed, completeness for a fact quota, geographic truth for convenience, or editorial independence for promotion.
+
+---
+
+## 31. Production lifecycle, publication and version integrity
+
+This section defines the Slovak record lifecycle and is binding on the Slovak rework and audit prompts. It does not change the editorial or geographic meaning of a fact.
+
+### 31.1 Canonical storage
+
+- GitHub repository `Wildwavestylez/travel` is the sole production source of truth for Slovak postcode records.
+- Each postcode is stored as one JSON file at `data/slovakia/records/{postcode}.json`.
+- Supabase is not used for Slovak records.
+- Dropbox is a separate final backup destination, not a live data source and not a replacement for GitHub.
+
+### 31.2 Required lifecycle states
+
+Every Slovak record has a schema-defined `status`:
+
+- `placeholder`: an intentionally empty geographic postcode record. It contains only `postcode` and `status`, plus optional `data_version`. It contains no content fields and is not eligible for map display.
+- `validated`: a complete record whose per-record rework and schema validation are finished, but whose separate final audit is still pending. It is not eligible for map display.
+- `published`: a record that has successfully passed the applicable final audit. It is eligible for map display.
+
+The map must display only records whose status is exactly `published`. It must never expose placeholders or records waiting for audit.
+
+Never use `draft`. A placeholder is not a place to store partially written content. A content record becomes `validated` only when its full required content, geographic layer, sources and all seven languages are complete and schema-valid.
+
+### 31.3 Status transitions and preservation
+
+- Empty geographic record → `placeholder`.
+- Completed rework → `validated`.
+- Successful final audit → `published`.
+- If a published record is explicitly reopened and materially changed, return it to `validated` until the changed record passes audit again.
+- Do not change a status merely for cosmetic edits that do not affect the published facts or geographic data.
+- An unresolved material audit defect prevents publication; keep the affected record `validated` and report the reason.
+- Preserve record IDs, fact IDs, sources, assignments and unrelated content.
+
+### 31.4 Manual data-version control
+
+`data_version` is independent of `status`.
+
+- Rework and audit must preserve the existing `data_version` exactly.
+- Do not automatically set, increment, reset or otherwise change a data version when a record becomes `validated` or `published`.
+- The data version may be changed only after the complete requested audit scope has passed and only on the user's explicit instruction.
+- If the user has not specified a version change, leave the field unchanged (or absent/null where no value has yet been assigned).
+- A status transition is not a version transition.
+
+### 31.5 Final Dropbox backup
+
+Dropbox is the final backup archive for Slovak records. It is not used for production reads or writes.
+
+- Create the backup only after the complete requested audit is finished and all user-authorized status/version changes have been completed.
+- The backup is the final operation of the workflow; do not create it before the audit or before an explicitly requested data-version change.
+- Back up the exact audited scope as standalone JSON files and include a manifest listing the scope, postcode count, filenames, each file's SHA-256 hash, the source GitHub commit/blob identifiers, statuses, data versions and backup timestamp.
+- Use a new timestamped backup folder. Never overwrite an earlier backup.
+- Read the uploaded files back from Dropbox and verify the manifest, file count and hashes against the final GitHub files. A successful upload response alone is not proof of a completed backup.
+- If the established TRAVEL backup folder cannot be identified, ask the user where the Slovak archive should be stored. Do not guess a Dropbox path.
+- Do not create SQL dumps or Supabase restore files for Slovakia; GitHub JSON files are the production records.
+- Do not lock or make GitHub files read-only. Normal GitHub editability remains unchanged.
+
+A backup is complete only after Dropbox read-back verification succeeds. Report its exact folder and verification result separately from the audit and publication result.
+
