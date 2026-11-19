@@ -106,7 +106,7 @@
       "priority": "B",
       "map_category": "architecture",
       "sources": [
-        "https://www.archinfo.sk/diela/hotel-devin.html",
+        "https://www.hoteldevin.sk/works-of-art-in-hotel-devin/?lang=en",
         "https://bratislava.oma.sk/u/riecna/4"
       ],
       "location": {
@@ -195,16 +195,16 @@
         "https://www.snm.sk/muzea-snm/muzeum-kultury-madarov-na-slovensku/muzeum-kultury-madarov-na-slovensku/muzejna-pedagogika/verejnost?clanok=predstavenie-snm-muzea-kultury-madarov-na-slovensku",
         "https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/muzeum-kultury-karpatskych-nemcov/o-muzeu",
         "https://www.snm.sk/muzea-snm/archeologicke-muzeum/archeologicke-muzeum/navstivte/kontakt",
-        "https://bratislava.oma.sk/u/zizkova/12"
+        "https://bratislava.oma.sk/u/zizkova/18"
       ],
       "location": {
         "name": "Súbor historických kúrií na Žižkovej ulici",
         "address": "Žižkova 12–18, Bratislava",
-        "lat": 48.1405255,
-        "lon": 17.0976542,
+        "lat": 48.1406927,
+        "lon": 17.0970767,
         "type": "architectural_ensemble",
         "accuracy": "area_representative",
-        "source": "https://bratislava.oma.sk/u/zizkova/12"
+        "source": "https://bratislava.oma.sk/u/zizkova/18"
       }
     },
     {
@@ -216,22 +216,44 @@
       "map_category": "religious_site",
       "sources": [
         "https://www.chatamsofer.sk/en/memorial/",
-        "https://poi.oma.sk/n2391634635",
-        "https://www.jewishcemetery.sk/orthodox-cemetery/history/",
-        "https://www.jewishcemetery.sk/neolog-cemetery/history/"
+        "https://www.chatamsofer.sk/en/chatam-sofer/",
+        "https://slovakia.travel/en/places-to-go/slovakias-hidden-nooks/chatam-sofer-memorial"
       ],
       "location": {
-        "name": "Mauzóleum Chatama Sofera a historické židovské pohrebiská",
-        "address": "Nábrežie arm. gen. Ludvíka Svobodu 20, Bratislava",
-        "lat": 48.141198,
-        "lon": 17.0924593,
+        "name": "Mauzóleum Chatama Sofera a historický židovský cintorín",
+        "address": "Nábrežie arm. gen. Ludvíka Svobodu, Bratislava",
+        "lat": 48.1419444,
+        "lon": 17.0913889,
         "type": "memorial_site",
-        "accuracy": "area_representative",
-        "source": "https://poi.oma.sk/n2391634635"
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/en/places-to-go/slovakias-hidden-nooks/chatam-sofer-memorial"
       }
     },
     {
       "id": "fact_011",
+      "title": "Ortodoxní a neologický hřbitov: dvě větve bratislavského židovství",
+      "text": "Ortodoxní hřbitov byl založen roku 1845 a dnes uchovává více než 7 000 hrobů. Jeho kapli navrhli architekti Fridrich Weinwurm a Ignác Vécsei a dokončili ji v letech 1928–1929; jde o výraznou meziválečnou modernistickou stavbu. Neologický hřbitov vznikl roku 1873 a má přibližně 2 000 hrobů. Jeho kaple a pamětní deska padlým z první světové války připomínají další část židovské komunity. Hroby architektů Eugena Bárkánya a Artura Szalatnaie-Slatinského propojují místo také s dějinami bratislavské architektury.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.jewishcemetery.sk/orthodox-cemetery/",
+        "https://www.jewishcemetery.sk/neolog-cemetery/",
+        "https://public.bratislava.sk/UGZ_BA_analyt_cast/UGZ%20BA_Analyticka%20cast_finalne%20znenie_09%202022/UGZ%20Bratislava_analyticka%20cast_Textova%20cast.pdf",
+        "https://www.jewishcemetery.sk/home/"
+      ],
+      "location": {
+        "name": "Ortodoxní židovský hřbitov – vstupní areál",
+        "address": "Žižkova 36, Bratislava",
+        "lat": 48.1427472,
+        "lon": 17.0889583,
+        "type": "cemetery",
+        "accuracy": "area_representative",
+        "source": "https://www.jewishcemetery.sk/orthodox-cemetery/"
+      }
+    },
+    {
+      "id": "fact_012",
       "title": "Mikulášský hřbitov: paměť starého Zuckermandla",
       "text": "Mikulášský hřbitov byl založen roku 1784 a patří k nejstarším zachovaným pohřebištím Bratislavy. Sloužil obyvatelům Podhradí a Zuckermandla, tedy čtvrti lodníků, rybářů a řemeslníků, jejíž velká část později zanikla. Dochované náhrobky a hroby připomínají místní rodiny i společenský život někdejšího předměstí. Hřbitov je dnes tichým historickým prostorem na okraji staré zástavby pod hradem.",
       "category": "heritage_and_monuments",
@@ -239,6 +261,7 @@
       "map_category": "historical_monument",
       "sources": [
         "https://marianum.sk/o-nas/cintoriny-v-sprave/mikulassky-cintorin",
+        "https://public.bratislava.sk/UGZ_BA_analyt_cast/UGZ%20BA_Analyticka%20cast_finalne%20znenie_09%202022/UGZ%20Bratislava_analyticka%20cast_Textova%20cast.pdf",
         "https://bratislava.oma.sk/u/zizkova/30"
       ],
       "location": {
@@ -252,7 +275,7 @@
       }
     },
     {
-      "id": "fact_012",
+      "id": "fact_013",
       "title": "Osvobození Bratislavy: památníky na dunajském nábřeží",
       "text": "Podél Dunaje vznikla souvislá skupina památníků připomínajících osvobození Bratislavy v dubnu 1945. Památník Dunajské flotily odkazuje na bojové operace na řece, památník bulharským partyzánům připomíná jejich účast v protifašistickém odboji a další pietní místa připomínají pontonový most vybudovaný pro přechod přes Dunaj i Pomník vítězství. Společně vytvářejí paměťovou trasu, která propojuje vojenské události s konkrétními místy na nábřeží.",
       "category": "history",
@@ -262,7 +285,7 @@
         "https://umeniemesta.sk/diela/recK3QgCCLpg52gJc",
         "https://www.pamiatkynaslovensku.sk/bratislava-pomnik-bulharskym-partizanom-bojujucim-v-snp",
         "https://vets.estranky.cz/clanky/sr---bratislavsky-kraj/bratislava.html",
-        "https://www.pamiatkynaslovensku.sk/bratislava-pomnik-vitazstva"
+        "https://umeniemesta.sk/diela/rechxeNv2NexjFB0n"
       ],
       "location": {
         "name": "Pamätník Dunajskej flotily – nábrežná pamätná zóna",
@@ -275,9 +298,9 @@
       }
     },
     {
-      "id": "fact_013",
+      "id": "fact_014",
       "title": "Hrob neznámého vojáka: ústřední pietní místo Slovenska",
-      "text": "Hrob neznámého vojáka byl na bratislavském nábřeží slavnostně otevřen v roce 2022. Uloženy jsou v něm ostatky neznámého vojáka československého zahraničního vojska, nalezené na Dukle; jeho totožnost se nepodařilo spolehlivě určit. Místo připomíná nejen jednoho padlého, ale také všechny vojáky, kteří se nevrátili z bojů a jejichž jména zůstala neznámá. Slouží jako celostátní pietní a protokolární místo.",
+      "text": "Hrob neznámého vojáka byl na bratislavském nábřeží slavnostně otevřen v roce 2022. Uloženy jsou v něm ostatky vojáka, který padl během Karpatsko-dukelské operace na podzim 1944; jeho totožnost se nepodařilo spolehlivě určit. Minimalistickou podobu pietního místa navrhl Marek Kvetan. Hrob připomíná všechny vojáky, kteří se nevrátili z bojů a jejichž jména zůstala neznámá.",
       "category": "heritage_and_monuments",
       "priority": "A",
       "map_category": "historical_monument",
@@ -287,15 +310,15 @@
       "location": {
         "name": "Hrob neznámeho vojaka",
         "address": "Rázusovo nábrežie, Bratislava",
-        "lat": 48.1398694,
-        "lon": 17.1068611,
+        "lat": 48.139806,
+        "lon": 17.110512,
         "type": "memorial_site",
         "accuracy": "exact",
         "source": "https://umeniemesta.sk/diela/recKijLEUK0qBAjNi"
       }
     },
     {
-      "id": "fact_014",
+      "id": "fact_015",
       "title": "Památník československé státnosti a Masarykova socha",
       "text": "Památník československé státnosti na náměstí T. G. Masaryka vznikl v letech 1987–1988 k 70. výročí založení první Československé republiky. Jeho podoba se po roce 1989 proměňovala: dnešní celek tvoří kamenný blok s bronzovou deskou a socha T. G. Masaryka, odlitá podle staršího díla Ladislava Šalouna z roku 1924. Památník tak zachycuje nejen vznik společného státu, ale i proměny politické paměti po roce 1989.",
       "category": "history",
@@ -315,7 +338,7 @@
       }
     },
     {
-      "id": "fact_015",
+      "id": "fact_016",
       "title": "Svíčková manifestace: pokojný protest proti komunistickému režimu",
       "text": "Dne 25. března 1988 se v Bratislavě konala pokojná svíčková manifestace za náboženskou svobodu a občanská práva. Účastníci se modlili a drželi zapálené svíčky, bezpečnostní složky proti nim nasadily vodní děla, policejní kordony a násilí. Protest se stal jedním z nejvýznamnějších veřejných vystoupení proti komunistickému režimu v Československu před rokem 1989 a získal mezinárodní pozornost. Pamětní místo připomíná odvahu lidí, kteří přišli pokojně vyjádřit svůj postoj.",
       "category": "history",
@@ -336,7 +359,7 @@
       }
     },
     {
-      "id": "fact_016",
+      "id": "fact_017",
       "title": "Rybné náměstí: morový sloup, zaniklá synagoga a památník holokaustu",
       "text": "Rybné náměstí patřilo k historickým veřejným prostorům při Dunaji, kde se obchodovalo s rybami a pohybovalo zboží z říčních lodí. Barokní mariánský morový sloup připomíná epidemie, které město postihly na počátku 18. století. Na severní straně náměstí stála neologická synagoga, postavená roku 1894 podle projektu architekta Dionýze Milcha; při výstavbě Mostu SNP byla roku 1969 zbořena. Na jejím místě dnes stojí památník obětem holokaustu, který připomíná zničenou židovskou komunitu i ztracenou stavbu.",
       "category": "history",
@@ -385,7 +408,7 @@
       "type": "official"
     },
     {
-      "title": "Slovenská národná galéria – dejiny a architektúra areálu",
+      "title": "Slovenská národná galéria – história a architektúra areálu",
       "url": "https://sng.sk/sk/sng-bratislava/stranka/o-galerii/historia",
       "type": "museum"
     },
@@ -415,9 +438,9 @@
       "type": "specialist"
     },
     {
-      "title": "Hotel Devín – architektonické dielo Emila Belluša",
-      "url": "https://www.archinfo.sk/diela/hotel-devin.html",
-      "type": "specialist"
+      "title": "Hotel Devín – pôvodné výtvarné diela a architektúra",
+      "url": "https://www.hoteldevin.sk/works-of-art-in-hotel-devin/?lang=en",
+      "type": "official"
     },
     {
       "title": "Riečna 4 – adresný bod a súradnice",
@@ -480,28 +503,43 @@
       "type": "museum"
     },
     {
-      "title": "Žižkova 12 – adresný bod historických kúrií",
-      "url": "https://bratislava.oma.sk/u/zizkova/12",
+      "title": "Žižkova 18 – adresný bod súboru historických kúrií",
+      "url": "https://bratislava.oma.sk/u/zizkova/18",
       "type": "specialist"
     },
     {
-      "title": "Chatam Sofer Memorial – história starého židovského cintorína",
+      "title": "Chatam Sofer Memorial – starý židovský cintorín a 23 zachovaných hrobov",
       "url": "https://www.chatamsofer.sk/en/memorial/",
       "type": "official"
     },
     {
-      "title": "Chatam Sófer – mapový bod, adresa a súradnice",
-      "url": "https://poi.oma.sk/n2391634635",
-      "type": "specialist"
-    },
-    {
-      "title": "Židovská obec – história ortodoxného cintorína v Bratislave",
-      "url": "https://www.jewishcemetery.sk/orthodox-cemetery/history/",
+      "title": "Chatam Sofer – život a pôsobenie v Bratislave",
+      "url": "https://www.chatamsofer.sk/en/chatam-sofer/",
       "type": "official"
     },
     {
-      "title": "Židovská obec – história neologického cintorína v Bratislave",
-      "url": "https://www.jewishcemetery.sk/neolog-cemetery/history/",
+      "title": "Chatam Sofer Memorial – poloha a GPS",
+      "url": "https://slovakia.travel/en/places-to-go/slovakias-hidden-nooks/chatam-sofer-memorial",
+      "type": "official"
+    },
+    {
+      "title": "Židovské cintoríny v Bratislave – oficiálny informačný portál",
+      "url": "https://www.jewishcemetery.sk/home/",
+      "type": "official"
+    },
+    {
+      "title": "Ortodoxný židovský cintorín – história, kaplnka a významné hroby",
+      "url": "https://www.jewishcemetery.sk/orthodox-cemetery/",
+      "type": "official"
+    },
+    {
+      "title": "Neologický židovský cintorín – história, kaplnka a významné hroby",
+      "url": "https://www.jewishcemetery.sk/neolog-cemetery/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Bratislava – Územný generel zelene, analytická časť 2022",
+      "url": "https://public.bratislava.sk/UGZ_BA_analyt_cast/UGZ%20BA_Analyticka%20cast_finalne%20znenie_09%202022/UGZ%20Bratislava_analyticka%20cast_Textova%20cast.pdf",
       "type": "official"
     },
     {
@@ -520,7 +558,7 @@
       "type": "official"
     },
     {
-      "title": "Pamätníky na Slovensku – Pamätník bulharským partizánom",
+      "title": "Pamätník bulharským partizánom – Pamiatky na Slovensku",
       "url": "https://www.pamiatkynaslovensku.sk/bratislava-pomnik-bulharskym-partizanom-bojujucim-v-snp",
       "type": "specialist"
     },
@@ -530,9 +568,9 @@
       "type": "specialist"
     },
     {
-      "title": "Pamätníky na Slovensku – Pomník Víťazstva",
-      "url": "https://www.pamiatkynaslovensku.sk/bratislava-pomnik-vitazstva",
-      "type": "specialist"
+      "title": "Umenie mesta – Víťazstvo, pomník oslobodenia Bratislavy Červenou armádou",
+      "url": "https://umeniemesta.sk/diela/rechxeNv2NexjFB0n",
+      "type": "official"
     },
     {
       "title": "Umenie mesta – Hrob neznámeho vojaka",
@@ -621,31 +659,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Ortodoxní a neologický hřbitov: dvě větve bratislavského židovství",
+          "text": "Ortodoxní hřbitov byl založen roku 1845 a dnes uchovává více než 7 000 hrobů. Jeho kapli navrhli architekti Fridrich Weinwurm a Ignác Vécsei a dokončili ji v letech 1928–1929; jde o výraznou meziválečnou modernistickou stavbu. Neologický hřbitov vznikl roku 1873 a má přibližně 2 000 hrobů. Jeho kaple a pamětní deska padlým z první světové války připomínají další část židovské komunity. Hroby architektů Eugena Bárkánya a Artura Szalatnaie-Slatinského propojují místo také s dějinami bratislavské architektury."
+        },
+        {
+          "id": "fact_012",
           "title": "Mikulášský hřbitov: paměť starého Zuckermandla",
           "text": "Mikulášský hřbitov byl založen roku 1784 a patří k nejstarším zachovaným pohřebištím Bratislavy. Sloužil obyvatelům Podhradí a Zuckermandla, tedy čtvrti lodníků, rybářů a řemeslníků, jejíž velká část později zanikla. Dochované náhrobky a hroby připomínají místní rodiny i společenský život někdejšího předměstí. Hřbitov je dnes tichým historickým prostorem na okraji staré zástavby pod hradem."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "Osvobození Bratislavy: památníky na dunajském nábřeží",
           "text": "Podél Dunaje vznikla souvislá skupina památníků připomínajících osvobození Bratislavy v dubnu 1945. Památník Dunajské flotily odkazuje na bojové operace na řece, památník bulharským partyzánům připomíná jejich účast v protifašistickém odboji a další pietní místa připomínají pontonový most vybudovaný pro přechod přes Dunaj i Pomník vítězství. Společně vytvářejí paměťovou trasu, která propojuje vojenské události s konkrétními místy na nábřeží."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Hrob neznámého vojáka: ústřední pietní místo Slovenska",
-          "text": "Hrob neznámého vojáka byl na bratislavském nábřeží slavnostně otevřen v roce 2022. Uloženy jsou v něm ostatky neznámého vojáka československého zahraničního vojska, nalezené na Dukle; jeho totožnost se nepodařilo spolehlivě určit. Místo připomíná nejen jednoho padlého, ale také všechny vojáky, kteří se nevrátili z bojů a jejichž jména zůstala neznámá. Slouží jako celostátní pietní a protokolární místo."
+          "text": "Hrob neznámého vojáka byl na bratislavském nábřeží slavnostně otevřen v roce 2022. Uloženy jsou v něm ostatky vojáka, který padl během Karpatsko-dukelské operace na podzim 1944; jeho totožnost se nepodařilo spolehlivě určit. Minimalistickou podobu pietního místa navrhl Marek Kvetan. Hrob připomíná všechny vojáky, kteří se nevrátili z bojů a jejichž jména zůstala neznámá."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Památník československé státnosti a Masarykova socha",
           "text": "Památník československé státnosti na náměstí T. G. Masaryka vznikl v letech 1987–1988 k 70. výročí založení první Československé republiky. Jeho podoba se po roce 1989 proměňovala: dnešní celek tvoří kamenný blok s bronzovou deskou a socha T. G. Masaryka, odlitá podle staršího díla Ladislava Šalouna z roku 1924. Památník tak zachycuje nejen vznik společného státu, ale i proměny politické paměti po roce 1989."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "Svíčková manifestace: pokojný protest proti komunistickému režimu",
           "text": "Dne 25. března 1988 se v Bratislavě konala pokojná svíčková manifestace za náboženskou svobodu a občanská práva. Účastníci se modlili a drželi zapálené svíčky, bezpečnostní složky proti nim nasadily vodní děla, policejní kordony a násilí. Protest se stal jedním z nejvýznamnějších veřejných vystoupení proti komunistickému režimu v Československu před rokem 1989 a získal mezinárodní pozornost. Pamětní místo připomíná odvahu lidí, kteří přišli pokojně vyjádřit svůj postoj."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Rybné náměstí: morový sloup, zaniklá synagoga a památník holokaustu",
           "text": "Rybné náměstí patřilo k historickým veřejným prostorům při Dunaji, kde se obchodovalo s rybami a pohybovalo zboží z říčních lodí. Barokní mariánský morový sloup připomíná epidemie, které město postihly na počátku 18. století. Na severní straně náměstí stála neologická synagoga, postavená roku 1894 podle projektu architekta Dionýze Milcha; při výstavbě Mostu SNP byla roku 1969 zbořena. Na jejím místě dnes stojí památník obětem holokaustu, který připomíná zničenou židovskou komunitu i ztracenou stavbu."
         }
@@ -706,31 +749,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Orthodoxer und neologischer Friedhof: zwei Zweige des jüdischen Bratislava",
+          "text": "Der orthodoxe Friedhof wurde 1845 gegründet und bewahrt heute mehr als 7.000 Gräber. Seine Kapelle entwarfen die Architekten Fridrich Weinwurm und Ignác Vécsei; sie wurde 1928–1929 fertiggestellt und ist ein markantes Beispiel der Zwischenkriegsmoderne. Der neologische Friedhof entstand 1873 und umfasst etwa 2.000 Gräber. Seine Kapelle und eine Gedenktafel für Gefallene des Ersten Weltkriegs erinnern an einen weiteren Teil der jüdischen Gemeinde. Die Gräber der Architekten Eugen Bárkány und Artur Szalatnai-Slatinský verbinden den Ort auch mit Bratislavas Architekturgeschichte."
+        },
+        {
+          "id": "fact_012",
           "title": "Der Mikuláš-Friedhof: Erinnerung an das alte Zuckermandel",
           "text": "Der Mikuláš-Friedhof wurde 1784 gegründet und zählt zu den ältesten erhaltenen Begräbnisstätten Bratislavas. Er diente den Bewohnern von Podhradie und Zuckermandel, einem Viertel der Schiffer, Fischer und Handwerker, das später weitgehend verschwand. Die erhaltenen Grabsteine und Gräber bewahren die Erinnerung an lokale Familien und das gesellschaftliche Leben des ehemaligen Vororts."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "Die Befreiung Bratislavas: Denkmäler am Donauufer",
           "text": "Entlang der Donau entstand eine Reihe von Denkmälern zur Erinnerung an die Befreiung Bratislavas im April 1945. Das Denkmal der Donauflottille erinnert an die Kämpfe auf dem Fluss, das Denkmal für bulgarische Partisanen an ihren antifaschistischen Einsatz; weitere Orte erinnern an die Pontonbrücke über die Donau und das Siegesdenkmal. Zusammen bilden sie einen Erinnerungsweg entlang des Ufers."
         },
         {
-          "id": "fact_013",
-          "title": "Das Grab des unbekannten Soldaten: zentrale nationale Gedenkstätte",
-          "text": "Das Grab des unbekannten Soldaten wurde 2022 am Donauufer feierlich eröffnet. Es enthält die sterblichen Überreste eines unbekannten Soldaten des tschechoslowakischen Auslandsheeres, die bei Dukla gefunden wurden. Seine Identität konnte nicht zuverlässig festgestellt werden. Der Ort erinnert an alle Soldaten, die nicht aus den Kämpfen zurückkehrten und deren Namen unbekannt blieben."
+          "id": "fact_014",
+          "title": "Grab des unbekannten Soldaten: zentrale nationale Gedenkstätte",
+          "text": "Das Grab des unbekannten Soldaten wurde 2022 am Donauufer feierlich eröffnet. Es enthält die sterblichen Überreste eines Soldaten, der während der Karpaten-Dukla-Operation im Herbst 1944 fiel; seine Identität konnte nicht zuverlässig festgestellt werden. Die minimalistische Gedenkstätte wurde von Marek Kvetan entworfen. Sie ehrt alle Soldaten, die nicht aus den Kämpfen zurückkehrten und deren Namen unbekannt blieben."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Denkmal der tschechoslowakischen Staatlichkeit und die Masaryk-Statue",
           "text": "Das Denkmal der tschechoslowakischen Staatlichkeit am T.-G.-Masaryk-Platz entstand 1987–1988 zum 70. Jahrestag der Gründung der ersten Tschechoslowakischen Republik. Seine Gestaltung wurde nach 1989 verändert: Heute besteht das Ensemble aus einem Steinblock mit Bronzetafel und einer Masaryk-Statue nach einem älteren Werk von Ladislav Šaloun aus dem Jahr 1924. Das Denkmal spiegelt auch den Wandel politischer Erinnerung."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "Die Kerzenmanifestation: friedlicher Protest gegen das kommunistische Regime",
           "text": "Am 25. März 1988 fand in Bratislava eine friedliche Kerzenmanifestation für Religionsfreiheit und Bürgerrechte statt. Die Teilnehmer beteten und hielten brennende Kerzen; Sicherheitskräfte setzten Wasserwerfer, Polizeikordons und Gewalt ein. Der Protest wurde zu einer der wichtigsten öffentlichen Aktionen gegen das kommunistische Regime in der Tschechoslowakei vor 1989 und erlangte internationale Aufmerksamkeit."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Rybné námestie: Pestsäule, verschwundene Synagoge und Holocaust-Denkmal",
           "text": "Rybné námestie gehörte zu den historischen öffentlichen Plätzen an der Donau, an denen Fisch gehandelt und Waren von Flussschiffen umgeschlagen wurden. Die barocke Marien-Pestsäule erinnert an die Seuchen des frühen 18. Jahrhunderts. An der Nordseite stand die 1894 nach Plänen von Dionýz Milch errichtete neologische Synagoge; sie wurde 1969 beim Bau der SNP-Brücke abgerissen. An ihrer Stelle erinnert heute ein Holocaust-Denkmal an die zerstörte jüdische Gemeinde."
         }
@@ -791,31 +839,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Orthodox and Neolog cemeteries: two branches of Jewish Bratislava",
+          "text": "The Orthodox cemetery was founded in 1845 and preserves more than 7,000 graves. Its chapel was designed by architects Fridrich Weinwurm and Ignác Vécsei and completed in 1928–1929; it is a notable example of interwar modernism. The Neolog cemetery was established in 1873 and contains about 2,000 graves. Its chapel and a memorial plaque to those killed in the First World War preserve another strand of the community’s history. The graves of architects Eugen Bárkány and Artur Szalatnai-Slatinský also connect the site with Bratislava’s architectural heritage."
+        },
+        {
+          "id": "fact_012",
           "title": "Mikuláš Cemetery: memory of old Zuckermandel",
           "text": "Mikuláš Cemetery was founded in 1784 and is one of Bratislava’s oldest surviving burial grounds. It served the residents of Podhradie and Zuckermandel, a neighbourhood of boatmen, fishermen and craftspeople that later largely disappeared. Its surviving tombstones and graves preserve the memory of local families and the social life of the former suburb."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "The liberation of Bratislava: memorials along the Danube",
           "text": "A cluster of monuments along the Danube commemorates the liberation of Bratislava in April 1945. The Danube Flotilla Memorial recalls fighting on the river, while the Bulgarian Partisans Memorial honours their anti-fascist service. Other sites commemorate the pontoon bridge built across the Danube and the Victory Monument. Together they form a memorial route along the waterfront."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Tomb of the Unknown Soldier: Slovakia’s central national memorial",
-          "text": "The Tomb of the Unknown Soldier was ceremonially opened on the Danube embankment in 2022. It contains the remains of an unidentified soldier of the Czechoslovak foreign army, found at Dukla. His identity could not be reliably established. The site honours not only one fallen soldier but all those who never returned from battle and whose names remain unknown."
+          "text": "The Tomb of the Unknown Soldier was ceremonially opened on the Bratislava riverfront in 2022. It contains the remains of a soldier who fell during the Carpathian-Dukla Operation in autumn 1944; his identity could not be reliably established. The minimalist memorial was designed by Marek Kvetan. It honours all soldiers who never returned from battle and whose names remain unknown."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Memorial to Czechoslovak statehood and the statue of Masaryk",
           "text": "The Memorial to Czechoslovak Statehood at T. G. Masaryk Square was created in 1987–1988 for the 70th anniversary of the first Czechoslovak Republic. Its design changed after 1989: today the ensemble includes a stone block with a bronze plaque and a statue of Masaryk based on an earlier 1924 work by Ladislav Šaloun. The memorial reflects changing political memory as well as the creation of the common state."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "The Candle Demonstration: peaceful protest against the communist regime",
           "text": "On 25 March 1988, Bratislava hosted a peaceful candle demonstration calling for religious freedom and civil rights. Participants prayed and held lit candles; security forces responded with water cannons, police cordons and violence. The protest became one of the most important public acts against communist rule in Czechoslovakia before 1989 and attracted international attention."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Rybné Square: plague column, lost synagogue and Holocaust memorial",
           "text": "Rybné Square was a historic public space by the Danube where fish were traded and goods from river vessels were handled. Its Baroque Marian plague column recalls epidemics in the early 18th century. A Neolog synagogue designed by Dionýz Milch and built in 1894 stood at the northern edge; it was demolished in 1969 during construction of the SNP Bridge. A Holocaust memorial now commemorates the destroyed Jewish community on the site."
         }
@@ -876,31 +929,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Cementerios ortodoxo y neólogo: dos ramas del judaísmo de Bratislava",
+          "text": "El cementerio ortodoxo se fundó en 1845 y conserva hoy más de 7.000 tumbas. Su capilla fue diseñada por los arquitectos Fridrich Weinwurm e Ignác Vécsei y terminada en 1928–1929; es un ejemplo destacado del modernismo de entreguerras. El cementerio neólogo se estableció en 1873 y contiene unas 2.000 tumbas. Su capilla y una placa conmemorativa a los caídos en la Primera Guerra Mundial recuerdan otra parte de la comunidad. Las tumbas de los arquitectos Eugen Bárkány y Artur Szalatnai-Slatinský vinculan el lugar con la historia arquitectónica de Bratislava."
+        },
+        {
+          "id": "fact_012",
           "title": "Cementerio de Mikuláš: memoria del antiguo Zuckermandel",
           "text": "El cementerio de Mikuláš se fundó en 1784 y es uno de los cementerios históricos más antiguos que se conservan en Bratislava. Servía a los habitantes de Podhradie y Zuckermandel, un barrio de barqueros, pescadores y artesanos que más tarde desapareció en gran parte. Sus lápidas y tumbas conservadas guardan la memoria de las familias locales y de la vida social del antiguo suburbio."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "La liberación de Bratislava: monumentos a lo largo del Danubio",
           "text": "A lo largo del Danubio hay un conjunto de monumentos que recuerda la liberación de Bratislava en abril de 1945. El monumento a la Flotilla del Danubio recuerda los combates en el río; el monumento a los partisanos búlgaros honra su lucha antifascista. Otros lugares conmemoran el puente de pontones construido sobre el Danubio y el Monumento a la Victoria. Juntos forman una ruta de memoria junto al agua."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Tumba del Soldado Desconocido: lugar central de memoria nacional",
-          "text": "La Tumba del Soldado Desconocido se inauguró solemnemente en el paseo del Danubio en 2022. Contiene los restos de un soldado desconocido del ejército checoslovaco en el extranjero, hallados en Dukla. No fue posible establecer su identidad con certeza. El lugar honra no solo a un combatiente, sino a todos los soldados que no regresaron de la guerra y cuyos nombres se perdieron."
+          "text": "La Tumba del Soldado Desconocido se inauguró solemnemente en el paseo del Danubio de Bratislava en 2022. Contiene los restos de un soldado que cayó durante la operación de los Cárpatos-Dukla en otoño de 1944; no fue posible establecer su identidad con certeza. El memorial minimalista fue diseñado por Marek Kvetan. Honra a todos los soldados que no regresaron del combate y cuyos nombres siguen siendo desconocidos."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Monumento a la estatalidad checoslovaca y estatua de Masaryk",
           "text": "El Monumento a la Estatalidad Checoslovaca, en la plaza T. G. Masaryk, se creó en 1987–1988 para el 70.º aniversario de la primera República Checoslovaca. Su composición cambió después de 1989: hoy incluye un bloque de piedra con una placa de bronce y una estatua de Masaryk basada en una obra anterior de Ladislav Šaloun de 1924. El monumento refleja también los cambios en la memoria política."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "La manifestación de las velas: protesta pacífica contra el régimen comunista",
           "text": "El 25 de marzo de 1988 tuvo lugar en Bratislava una manifestación pacífica con velas en favor de la libertad religiosa y los derechos civiles. Los participantes rezaban y sostenían velas encendidas; las fuerzas de seguridad respondieron con cañones de agua, cordones policiales y violencia. La protesta fue una de las mayores acciones públicas contra el régimen comunista en Checoslovaquia antes de 1989."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Plaza Rybné: columna de la peste, sinagoga desaparecida y memorial del Holocausto",
           "text": "Rybné era una plaza histórica junto al Danubio donde se comerciaba con pescado y mercancías transportadas por río. Su columna mariana barroca recuerda las epidemias de comienzos del siglo XVIII. En el lado norte se encontraba una sinagoga neóloga diseñada por Dionýz Milch y construida en 1894; fue demolida en 1969 durante la construcción del puente SNP. En su lugar se alza hoy un memorial a las víctimas del Holocausto."
         }
@@ -961,31 +1019,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Cimetières orthodoxe et néologue : deux branches du judaïsme de Bratislava",
+          "text": "Le cimetière orthodoxe fut fondé en 1845 et conserve aujourd’hui plus de 7 000 tombes. Sa chapelle, conçue par les architectes Fridrich Weinwurm et Ignác Vécsei, fut achevée en 1928–1929 ; c’est un exemple marquant du modernisme de l’entre-deux-guerres. Le cimetière néologue fut créé en 1873 et compte environ 2 000 tombes. Sa chapelle et une plaque commémorative aux morts de la Première Guerre mondiale rappellent une autre partie de la communauté. Les tombes des architectes Eugen Bárkány et Artur Szalatnai-Slatinský relient aussi le lieu à l’histoire architecturale de Bratislava."
+        },
+        {
+          "id": "fact_012",
           "title": "Le cimetière Mikuláš : mémoire de l’ancien Zuckermandel",
           "text": "Le cimetière Mikuláš fut fondé en 1784 et compte parmi les plus anciens lieux d’inhumation conservés de Bratislava. Il servait aux habitants de Podhradie et de Zuckermandel, quartier de bateliers, pêcheurs et artisans qui a ensuite largement disparu. Les pierres tombales et sépultures conservées gardent la mémoire des familles locales et de la vie sociale de l’ancien faubourg."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "La libération de Bratislava : monuments le long du Danube",
           "text": "Une série de monuments le long du Danube rappelle la libération de Bratislava en avril 1945. Le monument de la Flottille du Danube évoque les combats sur le fleuve ; celui des partisans bulgares honore leur lutte antifasciste. D’autres lieux commémorent le pont flottant construit sur le Danube et le Monument de la Victoire. Ensemble, ils forment un parcours mémoriel sur le quai."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Tombe du Soldat inconnu : lieu central de mémoire nationale",
-          "text": "La Tombe du Soldat inconnu fut inaugurée solennellement sur le quai du Danube en 2022. Elle contient les restes d’un soldat inconnu de l’armée tchécoslovaque à l’étranger, retrouvés à Dukla. Son identité n’a pas pu être établie avec certitude. Le lieu rend hommage à tous les soldats qui ne sont pas revenus des combats et dont les noms sont restés inconnus."
+          "text": "La Tombe du Soldat inconnu fut inaugurée solennellement sur le quai de Bratislava en 2022. Elle contient les restes d’un soldat tombé lors de l’opération des Carpates-Dukla à l’automne 1944 ; son identité n’a pas pu être établie avec certitude. Le mémorial minimaliste a été conçu par Marek Kvetan. Il rend hommage à tous les soldats qui ne sont pas revenus des combats et dont les noms restent inconnus."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Mémorial de l’État tchécoslovaque et statue de Masaryk",
           "text": "Le Mémorial de l’État tchécoslovaque, sur la place T. G. Masaryk, fut créé en 1987–1988 pour le 70e anniversaire de la première République tchécoslovaque. Sa composition fut modifiée après 1989 : l’ensemble comprend aujourd’hui un bloc de pierre avec une plaque de bronze et une statue de Masaryk d’après une œuvre antérieure de Ladislav Šaloun datant de 1924. Le mémorial reflète aussi l’évolution de la mémoire politique."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "La manifestation des bougies : protestation pacifique contre le régime communiste",
           "text": "Le 25 mars 1988, Bratislava accueillit une manifestation pacifique aux bougies en faveur de la liberté religieuse et des droits civiques. Les participants priaient et tenaient des bougies allumées ; les forces de sécurité utilisèrent des canons à eau, des cordons policiers et la violence. La manifestation devint l’une des plus importantes actions publiques contre le régime communiste en Tchécoslovaquie avant 1989."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Place Rybné : colonne de peste, synagogue disparue et mémorial de la Shoah",
           "text": "Rybné était une place historique près du Danube où l’on vendait du poisson et échangeait les marchandises transportées par voie fluviale. Sa colonne mariale baroque rappelle les épidémies du début du XVIIIe siècle. Au nord se trouvait une synagogue néologue conçue par Dionýz Milch et construite en 1894 ; elle fut démolie en 1969 lors de la construction du pont SNP. Un mémorial de la Shoah rappelle aujourd’hui la communauté juive détruite."
         }
@@ -1046,31 +1109,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Cimiteri ortodosso e neologo: due rami dell’ebraismo di Bratislava",
+          "text": "Il cimitero ortodosso fu fondato nel 1845 e oggi conserva oltre 7.000 tombe. La sua cappella fu progettata dagli architetti Fridrich Weinwurm e Ignác Vécsei e completata nel 1928–1929; è un notevole esempio di modernismo tra le due guerre. Il cimitero neologo fu istituito nel 1873 e contiene circa 2.000 tombe. La sua cappella e una lapide commemorativa ai caduti della Prima guerra mondiale ricordano un’altra parte della comunità. Le tombe degli architetti Eugen Bárkány e Artur Szalatnai-Slatinský collegano il luogo anche alla storia architettonica di Bratislava."
+        },
+        {
+          "id": "fact_012",
           "title": "Il cimitero Mikuláš: memoria della vecchia Zuckermandel",
           "text": "Il cimitero Mikuláš fu fondato nel 1784 ed è uno dei più antichi luoghi di sepoltura conservati a Bratislava. Serviva gli abitanti di Podhradie e Zuckermandel, un quartiere di barcaioli, pescatori e artigiani che in seguito scomparve in gran parte. Le lapidi e le tombe conservate custodiscono la memoria delle famiglie locali e della vita sociale dell’antico sobborgo."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "La liberazione di Bratislava: monumenti lungo il Danubio",
           "text": "Lungo il Danubio si trova un gruppo di monumenti che ricorda la liberazione di Bratislava nell’aprile 1945. Il monumento alla Flottiglia del Danubio ricorda i combattimenti sul fiume; quello ai partigiani bulgari onora la loro lotta antifascista. Altri luoghi commemorano il ponte di pontoni costruito sul Danubio e il Monumento alla Vittoria. Insieme formano un percorso della memoria sul lungofiume."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Tomba del Milite Ignoto: luogo centrale della memoria nazionale",
-          "text": "La Tomba del Milite Ignoto fu inaugurata solennemente sul lungofiume del Danubio nel 2022. Contiene i resti di un soldato ignoto dell’esercito cecoslovacco all’estero, ritrovati a Dukla. Non è stato possibile stabilirne con certezza l’identità. Il luogo rende omaggio a tutti i soldati che non tornarono dai combattimenti e i cui nomi sono rimasti sconosciuti."
+          "text": "La Tomba del Milite Ignoto fu inaugurata solennemente sul lungofiume di Bratislava nel 2022. Contiene i resti di un soldato caduto durante l’operazione dei Carpazi-Dukla nell’autunno del 1944; non è stato possibile identificarlo con certezza. Il memoriale minimalista è stato progettato da Marek Kvetan. Rende omaggio a tutti i soldati che non tornarono dai combattimenti e i cui nomi sono rimasti sconosciuti."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Monumento alla statualità cecoslovacca e statua di Masaryk",
           "text": "Il Monumento alla statualità cecoslovacca in piazza T. G. Masaryk fu realizzato nel 1987–1988 per il 70º anniversario della prima Repubblica cecoslovacca. La sua composizione cambiò dopo il 1989: oggi comprende un blocco di pietra con una targa bronzea e una statua di Masaryk basata su un’opera precedente di Ladislav Šaloun del 1924. Il monumento riflette anche l’evoluzione della memoria politica."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "La manifestazione delle candele: protesta pacifica contro il regime comunista",
           "text": "Il 25 marzo 1988 Bratislava ospitò una manifestazione pacifica con candele per la libertà religiosa e i diritti civili. I partecipanti pregavano e tenevano candele accese; le forze di sicurezza usarono idranti, cordoni di polizia e violenza. La protesta divenne una delle più importanti azioni pubbliche contro il regime comunista in Cecoslovacchia prima del 1989 e attirò l’attenzione internazionale."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Piazza Rybné: colonna della peste, sinagoga scomparsa e memoriale della Shoah",
           "text": "Rybné era una piazza storica sul Danubio, dove si vendeva pesce e si movimentavano merci trasportate via fiume. La colonna mariana barocca ricorda le epidemie dei primi anni del XVIII secolo. Sul lato nord sorgeva una sinagoga neologica progettata da Dionýz Milch e costruita nel 1894; fu demolita nel 1969 durante la costruzione del ponte SNP. Oggi un memoriale della Shoah ricorda la comunità ebraica distrutta."
         }
@@ -1131,31 +1199,36 @@
         },
         {
           "id": "fact_011",
+          "title": "Orthodoxe en neologische begraafplaatsen: twee takken van het Joodse Bratislava",
+          "text": "De orthodoxe begraafplaats werd in 1845 gesticht en bewaart tegenwoordig meer dan 7.000 graven. De kapel werd ontworpen door de architecten Fridrich Weinwurm en Ignác Vécsei en voltooid in 1928–1929; het is een opvallend voorbeeld van het interbellummodernisme. De neologische begraafplaats werd in 1873 opgericht en telt ongeveer 2.000 graven. De kapel en een gedenkplaat voor de gesneuvelden van de Eerste Wereldoorlog bewaren een andere tak van de gemeenschapsgeschiedenis. De graven van architecten Eugen Bárkány en Artur Szalatnai-Slatinský verbinden de plek ook met de architectuurgeschiedenis van Bratislava."
+        },
+        {
+          "id": "fact_012",
           "title": "Mikuláš-begraafplaats: herinnering aan het oude Zuckermandel",
           "text": "De Mikuláš-begraafplaats werd in 1784 gesticht en is een van de oudste bewaard gebleven begraafplaatsen van Bratislava. Ze diende de bewoners van Podhradie en Zuckermandel, een wijk van schippers, vissers en ambachtslieden die later grotendeels verdween. De bewaard gebleven grafstenen en graven bewaren de herinnering aan lokale families en het sociale leven van de vroegere voorstad."
         },
         {
-          "id": "fact_012",
+          "id": "fact_013",
           "title": "De bevrijding van Bratislava: monumenten langs de Donau",
           "text": "Langs de Donau staat een reeks monumenten ter herinnering aan de bevrijding van Bratislava in april 1945. Het monument voor de Donauflottielje herinnert aan de gevechten op de rivier; het monument voor de Bulgaarse partizanen eert hun antifascistische strijd. Andere plekken herdenken de pontonbrug over de Donau en het Overwinningsmonument. Samen vormen ze een herdenkingsroute langs de kade."
         },
         {
-          "id": "fact_013",
+          "id": "fact_014",
           "title": "Graf van de Onbekende Soldaat: centrale nationale herdenkingsplaats",
-          "text": "Het Graf van de Onbekende Soldaat werd in 2022 plechtig geopend aan de Donaukade. Het bevat de stoffelijke resten van een onbekende soldaat van het Tsjechoslowaakse buitenlandse leger, gevonden bij Dukla. Zijn identiteit kon niet met zekerheid worden vastgesteld. De plek eert niet alleen één gesneuvelde, maar alle soldaten die niet terugkeerden uit de strijd en wier namen onbekend bleven."
+          "text": "Het Graf van de Onbekende Soldaat werd in 2022 plechtig geopend aan de Donaukade in Bratislava. Het bevat de stoffelijke resten van een soldaat die in de herfst van 1944 sneuvelde tijdens de Karpaten-Dukla-operatie; zijn identiteit kon niet met zekerheid worden vastgesteld. Het minimalistische monument is ontworpen door Marek Kvetan. Het eert alle soldaten die niet terugkeerden uit de strijd en wier namen onbekend bleven."
         },
         {
-          "id": "fact_014",
+          "id": "fact_015",
           "title": "Monument voor de Tsjechoslowaakse staat en het standbeeld van Masaryk",
           "text": "Het Monument voor de Tsjechoslowaakse Staat op het T. G. Masarykplein werd in 1987–1988 opgericht voor de 70e verjaardag van de eerste Tsjechoslowaakse Republiek. Na 1989 veranderde de compositie: tegenwoordig bestaat het geheel uit een stenen blok met bronzen plaquette en een standbeeld van Masaryk, gebaseerd op een ouder werk van Ladislav Šaloun uit 1924. Het monument weerspiegelt ook de veranderende politieke herinnering."
         },
         {
-          "id": "fact_015",
+          "id": "fact_016",
           "title": "De Kaarsenmanifestatie: vreedzaam protest tegen het communistische regime",
           "text": "Op 25 maart 1988 vond in Bratislava een vreedzame kaarsenmanifestatie plaats voor godsdienstvrijheid en burgerrechten. De deelnemers baden en hielden brandende kaarsen vast; de veiligheidsdiensten zetten waterkanonnen, politiecordons en geweld in. Het protest werd een van de belangrijkste openbare acties tegen het communistische regime in Tsjechoslowakije vóór 1989 en kreeg internationale aandacht."
         },
         {
-          "id": "fact_016",
+          "id": "fact_017",
           "title": "Rybnéplein: pestzuil, verdwenen synagoge en Holocaustmonument",
           "text": "Rybné was een historisch plein aan de Donau waar vis werd verhandeld en goederen van rivierschepen werden overgeslagen. De barokke Mariapestzuil herinnert aan epidemieën uit het begin van de 18e eeuw. Aan de noordzijde stond een neologische synagoge, ontworpen door Dionýz Milch en gebouwd in 1894; zij werd in 1969 gesloopt voor de bouw van de SNP-brug. Op de plek staat nu een Holocaustmonument ter herinnering aan de vernietigde Joodse gemeenschap."
         }
