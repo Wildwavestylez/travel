@@ -274,7 +274,7 @@ Treat `access_point` as a limited compatibility field, not a tourism-content req
 
 ### 7.3 Fact-level location — explicit and meaningful
 
-For every source-language fact, include the `location` property. Use a complete Slovak-schema location object whenever a meaningful point can be established; use explicit `null` only as the genuine last resort and only where permitted by the schema.
+For every Czech-original fact in the root `facts[]` array, include the `location` property. Use a complete Slovak-schema location object whenever a meaningful point can be established; use explicit `null` only as the genuine last resort and only where permitted by the schema.
 
 Every non-null location must contain the exact required fields:
 - `name` — the actual mapped object, feature or orientation point;
@@ -318,8 +318,8 @@ Use the Content Standard's precedence rules. A person-centred fact uses `persona
 
 ## 8. Seven-language production — one comparative pass
 
-Every production record must contain all seven required languages:
-- `cs` — Czech;
+Every production record must use Czech as its original/source language in the root `facts[]` array and contain all seven required language versions:
+- `cs` — Czech; this must match the Czech original in the root `facts[]` array;
 - `de` — German;
 - `en` — English;
 - `es` — Spanish;
@@ -329,17 +329,19 @@ Every production record must contain all seven required languages:
 
 Follow the schema exactly:
 - all seven translation objects must exist;
+- the root `facts[]` title/text are Czech originals; never write them in Slovak;
+- `translations.cs` must match the Czech original faithfully and may be text-identical; do not create a separate Slovak (`sk`) version;
 - each must contain `representative_place` and `facts`;
 - each translated fact must contain `id`, `title` and `text`;
 - every language must contain exactly the same fact IDs in the same order;
-- source-language fact IDs must follow the schema pattern `fact_001`, `fact_002`, etc.;
-- geographic location objects and map categories remain only in the source-language fact metadata, not in translations.
+- Czech-original fact IDs must follow the schema pattern `fact_001`, `fact_002`, etc.;
+- geographic location objects and map categories remain only in the Czech-original fact metadata, not in translations.
 
 Preserve IDs of existing facts that are retained. Do not casually renumber facts or create duplicate IDs. If facts are removed or added, produce one coherent final sequence of unique IDs and align every language exactly.
 
-Write and compare all seven versions together, not one language at a time. Translate meaning, not sentence structure. Preserve names, dates, qualifications and significance. Keep official Slovak proper names and diacritics; do not invent foreign-language names where no established equivalent exists.
+Write the original fact content in Czech. Create the six non-Czech translations from that Czech original, and keep `translations.cs` faithfully aligned with it. Compare all seven language versions together, not one language at a time. Translate meaning, not sentence structure. Preserve names, dates, qualifications and significance. Keep official Slovak proper names and diacritics inside the Czech prose; do not invent foreign-language names where no established equivalent exists. Do not create Slovak-language originals or a `sk` translation.
 
-Apply the international readability test independently to each language. Explain unfamiliar Slovak terms when needed; do not assume Czech readers automatically understand Slovak institutions or terminology. Do not rely on an explanation present only in Slovak/Czech or English. Each version must stand alone.
+Apply the international readability test independently to each language. Explain unfamiliar Slovak terms in the Czech original where needed; do not assume Czech readers automatically understand Slovak institutions or terminology. Ensure the six non-Czech translations independently explain relevant context. Do not rely on an explanation present only in Czech or English. Each version must stand alone.
 
 Before saving, compare the seven versions side by side for factual equivalence, completeness, naturalness, cultural context and correct names. Correct safe translation issues in one batch. Do not repeat the entire translation review unless a later factual change affects meaning.
 
@@ -387,7 +389,7 @@ Perform one final basic validation pass after the editorial, geographic and tran
 - every non-null location has valid WGS84 coordinates, name, type, accuracy and supporting location source;
 - `null` is retained only after applying the full fallback hierarchy;
 - all source IDs resolve to top-level sources;
-- all seven languages are complete, aligned by fact ID/order and independently understandable;
+- the Czech original and all seven language versions are complete, aligned by fact ID/order and independently understandable;
 - IDs are unique and conform to the schema;
 - photo metadata is valid or `null`;
 - all required fields, types, enums, patterns and null values validate against the current Slovak schema;
