@@ -16,6 +16,7 @@ After the canonical Slovak record has passed the audit and its final JSON has be
 - If a record is reopened, becomes `validated`, loses V5, or otherwise ceases to meet both eligibility conditions, remove its record entry and all its map-point entries.
 - Keep records sorted by postcode and map points sorted by postcode then canonical fact order. Set root `count` to `records.length`; keep root `country_code = "SK"`, `data_version = 5`, and `status = "published"`.
 - Fetch the current manifest before editing; update only the affected postcode and its fact points, preserving all other entries. After writing, fetch the manifest again and verify count, order, uniqueness, all coordinates and the exact changed postcode. Also verify every included record against its canonical JSON.
+- Repeat this synchronization after any explicitly authorized `data_version` change that makes a previously published record enter or leave V5. The version change must first be read back from the canonical JSON; never change the version merely to make a record appear in Explorer.
 - If a published V5 record has a fact with a missing or invalid location, do not create a pin for that fact. Do not fabricate coordinates. The record may still be listed if it passes the canonical schema and audit.
 - This manifest is consumed by Europe Explorer; never store independent editorial content in it or use it to overwrite canonical record JSON.
 
