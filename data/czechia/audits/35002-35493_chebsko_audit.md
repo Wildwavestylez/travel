@@ -75,6 +75,12 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 3/12 PSČ, 198/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35131 Libá (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 5 faktů × 6 cizojazyčných verzí = **30/30 překladových položek**.
+- **fact_005 — Bílá kaple:** ve všech šesti jazycích doplněna podstatná část pověsti: kaple měla dceři připomínat rodný kraj, který mohla zahlédnout z okna nového sídla. Ve španělštině, francouzštině a italštině doplněna také informace, že renovace v roce 2014 dala kapli dnešní bílý vzhled. Ve španělštině a nizozemštině výslovně upřesněno, že vysídlení německého obyvatelstva následovalo po druhé světové válce.
+- Ostatní zkontrolované položky bez potvrzené významové vady. Opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 4/12 PSČ, 228/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
