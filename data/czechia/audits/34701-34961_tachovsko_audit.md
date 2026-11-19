@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-TACHOVSKO-34701-34961`  
 **Datum auditu:** 2026-11-19  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.0  
-**Stav:** `REVIEW REQUIRED`
+**Stav:** `PASS`
 
 ## 1. Rozsah a inventář
 
@@ -70,11 +70,25 @@ Read-back ze Supabase po opravách:
 - 0 nálezů reklamních či propagačních formulací v jazykových textech.
 - Všech 11 záznamů zůstává `status = validated`, `data_version = 1`.
 
-Sémanticky byly zkontrolovány všechny překlady 12 obsahově změněných faktů (72 cizojazyčných položek). Strukturální kontrola pokryla všech 847 jazykových položek.
+Individuálně sémanticky zkontrolováno všech **726/726 cizojazyčných překladů** (654 položek u 109 dříve nezměněných faktů + 72 položek u 12 obsahově změněných faktů z předchozí fáze). Všech 121 českých master faktů má odpovídající českou překladovou položku; 0 rozdílů mezi facts[].title/text a translations.cs; 0 prázdných jazykových položek. V této fázi bylo opraveno **26 cizojazyčných překladových položek** a jeden český master text s odpovídající českou překladovou položkou.
 
-## 5. Otevřená položka a výsledek
+## 5. Sémantická kontrola překladů a opravy
 
-**REVIEW REQUIRED — jediný otevřený krok:** dokončit individuální sémantickou kontrolu 654 cizojazyčných položek u 109 nezměněných faktů (de/en/es/fr/it/nl). Jejich struktura, přiřazení ID, úplnost polí a pořadí prošly; tato položka zůstává otevřená pouze proto, že nebyla dokončena individuální kontrola významové shody každého z těchto textů.
+**Individuální sémantická kontrola: PASS — 726/726 cizojazyčných položek.** Kontrola porovnávala význam, klíčová fakta, jména, data, geografii a omezení přístupnosti s českým masterem. Správné a srozumitelné překlady nebyly stylisticky přepisovány.
+
+Provedené překladové opravy:
+- **34701 / fact_017:** opraveno nepřesné označení drobné sakrální památky ve francouzštině a nizozemštině.
+- **34801 / fact_001:** opravena chybná nizozemská větná konstrukce.
+- **34802 / fact_005:** do španělštiny, francouzštiny, italštiny a nizozemštiny vrácena informace o gotické a pozdější barokní úpravě kostela.
+- **34901 / fact_002:** v šesti cizojazyčných verzích odstraněna délka důlní železnice 325 m, která nebyla obsažena v českém masteru.
+- **34901 / fact_004:** do šesti překladů doplněno důležité srovnání věže mostu ve Stříbře s věží Karlova mostu jako jednoho ze dvou dochovaných příkladů tohoto typu v Česku.
+- **34901 / fact_007:** opraven rozpor mezi narozením Antonína Petra Příchovského roku 1707 a stavbou zámku roku 1723. Český master a všech šest překladů nyní správně uvádějí narození ve Svojšíně, nikoli na později postaveném zámku. Ověřeno podle oficiální historie obce Svojšín: https://www.svojsin.cz/nase-obec/historie/
+- **34958 / fact_007:** opravena italská formulace povolání France Richtera a gramatika názvu.
+
+Po opravách proběhl read-back dotčených položek. České facts[].title/text a translations.cs.title/text zůstávají synchronizované.
+
+**Nevyřešené sémantické vady: 0.**  
+**Výsledek celého auditu: PASS.**
 
 Prázdná poloha u 34801/fact_013 není závadou vyžadující odhad; důvod ponechání je výše zaznamenán.
 
