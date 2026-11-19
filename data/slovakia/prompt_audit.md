@@ -8,17 +8,19 @@ After each audited record is saved and verified, update the matching entry in `d
 
 ## Europe Explorer V5 manifest synchronization
 
-After the canonical Slovak record has passed the audit and its final JSON has been read back from GitHub, synchronize `data/slovakia/explorer_index.json`. This file is a derived public map/search index only; individual files in `data/slovakia/records/{postcode}.json` remain the sole source of truth.
+The public manifest `data/slovakia/explorer_index.json` is generated automatically by the GitHub Actions workflow `.github/workflows/slovakia-explorer-index.yml` from canonical Slovak record JSON files. The generator is `scripts/build-slovakia-explorer-index.mjs`.
 
-- Include a record only when its canonical JSON has both `status = "published"` and `data_version = 5`. Never include placeholders, validated records, or published records of another data version.
-- For an eligible record, add/update one `records[]` entry containing `postcode`, `city`, `district`, `county`, `state`, `representative_point`, `status`, and `data_version`.
-- For every fact in that record whose `location` is a valid non-null WGS84 point, add one `map_points[]` entry containing `postcode`, `city`, `fact_id`, `title`, `category`, `map_category`, `lat`, and `lon`. Preserve the fact's canonical ID and coordinates exactly. Do not substitute `representative_point` or `access_point` for a missing fact location.
-- If a record is reopened, becomes `validated`, loses V5, or otherwise ceases to meet both eligibility conditions, remove its record entry and all its map-point entries.
-- Keep records sorted by postcode and map points sorted by postcode then canonical fact order. Set root `count` to `records.length`; keep root `country_code = "SK"`, `data_version = 5`, and `status = "published"`.
-- Fetch the current manifest before editing; update only the affected postcode and its fact points, preserving all other entries. After writing, fetch the manifest again and verify count, order, uniqueness, all coordinates and the exact changed postcode. Also verify every included record against its canonical JSON.
-- Repeat this synchronization after any explicitly authorized `data_version` change that makes a previously published record enter or leave V5. The version change must first be read back from the canonical JSON; never change the version merely to make a record appear in Explorer.
-- If a published V5 record has a fact with a missing or invalid location, do not create a pin for that fact. Do not fabricate coordinates. The record may still be listed if it passes the canonical schema and audit.
-- This manifest is consumed by Europe Explorer; never store independent editorial content in it or use it to overwrite canonical record JSON.
+- Never edit or construct the Explorer manifest manually during an audit.
+- After canonical record JSON changes are committed to GitHub, the workflow rebuilds the manifest from `sequence.json` and every canonical record file.
+- The generator includes only records whose canonical JSON has both `status = "published"` and `data_version = 5`. Placeholders, validated records and published records of another version are excluded.
+- Each included record contributes its canonical postcode, city, district, county, state and representative point.
+- Each fact with a valid non-null `facts[].location` contributes one map point using its canonical fact ID, title, editorial category, `map_category` and exact WGS84 coordinates. A missing fact location never falls back to `representative_point` or `access_point`.
+- If a published record is not V5, lacks required Explorer fields, has invalid coordinates or has incomplete required language branches, the generator fails rather than silently publishing a partial index.
+- When a record ceases to be published V5, the next generated manifest removes that record and all its fact points.
+- After the workflow completes, fetch `explorer_index.json` and verify the affected postcode, record count, status/version, map-point count and coordinates against the canonical JSON. The canonical record files remain the sole source of truth.
+- Do not change `data_version` merely to make a record appear in Explorer. Only the explicit project publication/versioning instruction can authorize that change.
+
+The manifest is a derived read-only delivery format for Europe Explorer. It contains no independent editorial content and must never overwrite canonical JSON.
 
 ## 1. Purpose and strict separation from rework
 
