@@ -388,18 +388,17 @@ Perform one final basic validation pass after the editorial, geographic and tran
 
 If a check fails, correct that specific issue and validate the correction. Do not restart the entire research or repeat unrelated checks. Do not run the separate section-wide final audit here.
 
-Save the schema-compliant content to the correct field of the existing Supabase row, preserving unrelated metadata. Do not assume the JSON Schema root object is identical to the database row layout. Read the saved row back and verify its postcode, country discriminator, content and status.
+### Mandatory GitHub save and verification
 
-### Mandatory status lifecycle
+- Commit the complete schema-compliant JSON to the exact path `data/slovakia/records/{postcode}.json`, following section 3.
+- For a new record, confirm the target file does not already exist before creating it.
+- For an existing record, fetch its current content and blob SHA before updating it.
+- After the write, fetch the exact path again and verify the saved JSON, postcode, schema compliance and new blob SHA.
+- Preserve the file's established identity and do not create alternate filenames or duplicate copies.
+- Do not add database status fields or metadata that are absent from the Slovak schema. A successful GitHub write plus successful read-back is the evidence that the rework has been saved.
+- If a required condition genuinely blocks completion, do not commit a partial or misleadingly complete production record. Preserve the exact blocker in the working handoff.
 
-- Completed rework with successful validation → save/retain `status = 'validated'`.
-- Completed final audit that passes → save/retain `status = 'published'`.
-- Never use `draft` as a staging or parking state for finished work.
-- If a required condition genuinely blocks completion, do not claim completion or falsely set `validated`; retain the existing non-complete state and record the exact blocker.
-- Never downgrade an already `validated` or `published` record to `draft`.
-- Verify the persisted status after every write. A successful content write without confirmation of the required status is not completion.
-
-Do not change schema, tables, RLS, triggers, permissions, database architecture or application code.
+Do not use Supabase for Slovak records. Do not change schema, tables, RLS, triggers, permissions, database architecture or application code.
 
 ## 11. Protected geographic-enrichment exception
 
