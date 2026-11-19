@@ -154,6 +154,22 @@ Write and compare all seven versions together—not one language at a time. Pres
 
 Apply section 30 of the German Content Standard independently to every language. Write for an international reader unfamiliar with Germany: explain essential local institutions, historical events, memorial forms, traditions, abbreviations and cultural/administrative terms at first meaningful use. Preserve proper names but identify what an unfamiliar subject is and why it matters. Keep explanations concise, natural and sourced; do not turn every fact into an encyclopaedia entry or add irrelevant background.
 
+
+### Specific rule — language, dialects, folklore and local traditions
+
+For facts about regional culture, naming a tradition or translating its name literally is not enough. Explain to an international reader what it actually refers to, what it looks or sounds like, how it is practised and what local role or meaning it has, but only to the extent supported by sources.
+
+- **Language and dialect:** identify the language or language group to which a dialect belongs, where it is used, its documented characteristics (such as pronunciation, vocabulary or grammar), and its connection with local identity. Distinguish a language, dialect, local speech and historical language situation. Never present a dialect as a separate language without specialist evidence. Give examples only when documented.
+- **Music and instruments:** do not merely name an unfamiliar instrument. Briefly explain its construction, how it is played and its role in local music. Explain a distinctive ensemble, singing style or dance accompaniment when relevant.
+- **Traditional dress:** explain that it is a regional form of traditional clothing; describe recognisable features, local variants and who wore or wears it and on what occasions. Do not flatten differences between villages or ethnographic regions into one generic folk costume.
+- **Dances, festivals and rites:** describe what actually happens, when and why it takes place, who participates and its social, seasonal or religious meaning. Explain local names, masks, processions and ritual actions.
+- **Crafts, food and everyday culture:** explain what is made or prepared, the technique or characteristic ingredients, what an object or dish was used for, and why it is distinctive to that place or region.
+- **Local variation:** preserve differences between villages and parts of a region. Do not attribute a custom to an entire region when evidence documents it only in one locality.
+- **Cultural equivalents:** do not automatically substitute a superficially similar term from the target culture (for example, another kind of bagpipe, dance, costume or festival) unless it is a genuine equivalent. Retain the original name and explain it.
+- **Independent readability:** include the necessary explanation separately in every language version. Do not assume readers of Czech, German, English, Spanish, French, Italian or Dutch know the local context or will look it up elsewhere.
+
+The explanation should let readers picture what they would see, hear or experience. Keep it engaging and proportionate; do not add generic folklore background unrelated to the specific fact.
+
 Before saving, compare the seven texts side by side for meaning, completeness, naturalness and cultural clarity. Correct safe translation issues in one batch and validate the seven versions together. Do not repeat the entire language review unless a later change affects meaning.
 
 ## 6. Basic validation, save and completion
