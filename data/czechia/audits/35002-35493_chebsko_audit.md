@@ -104,6 +104,12 @@ Významné nově rozšířené položky:
 - Ostatní texty významově odpovídají českým masterům. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 7/12 PSČ, 384/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35137 Luby (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 7 faktů × 6 cizojazyčných verzí = **42/42 překladových položek**.
+- **fact_003 — Muzeum strunných nástrojů:** ve všech šesti překladech doplněna závěrečná souvislost, že Luby jsou součástí širší historie výroby strunných hudebních nástrojů.
+- Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat ani historických souvislostí. Doplnění ověřeno read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 8/12 PSČ, 426/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
