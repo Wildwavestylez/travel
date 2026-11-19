@@ -69,7 +69,7 @@
           "type": "null"
         }
       ],
-      "description": "Optional legacy/game compatibility point for practical arrival or approach. Use null if no defensible practical point is available. It is not a building entrance, representative point or fact location."
+      "description": "Legacy/game compatibility point for Europe Explorer arrival or navigation. It may be identical to representative_point; do not invent a separate point when the representative point is already suitable. It is not a fact location. Keep this field compatible with the shared record structure."
     },
     "facts": {
       "type": "array",
@@ -626,5 +626,5 @@
       "description": "WGS84 coordinates for the fact's physical subject or a clearly identified representative/orientation point, following the Slovak Content Standard. The name, type and accuracy must honestly describe the actual mapped point."
     }
   },
-  "$comment": "SLOVAKIA CONTENT STANDARD: Slovak geographic PSČ only. Slovak postal authority is Slovenská pošta; RAGEO supports address geography, ŠÚ SR official administrative units, and ÚGKK SR/ZBGIS geographic corroboration. Preserve the shared TRAVEL record structure, editorial categories, A-D priorities, 17-value map_category taxonomy and seven required languages. Slovakia has its own administrative descriptions and controlled district_type vocabulary. Do not modify Czech or German schemas or records."
+  "$comment": "SLOVAKIA CONTENT STANDARD: Slovak geographic PSČ only. Slovak postal authority is Slovenská pošta; RAGEO supports address geography, ŠÚ SR official administrative units, and ÚGKK SR/ZBGIS geographic corroboration. Preserve the shared TRAVEL record structure, editorial categories, A-D priorities, 17-value map_category taxonomy and seven required languages. access_point is a secondary Europe Explorer/game field and may equal representative_point. The principal geographic enrichment priority is facts[].location, where meaningful map points should be resolved under the Slovak Content Standard rather than left null by default. Slovakia has its own administrative descriptions and controlled district_type vocabulary. Do not modify Czech or German schemas or records."
 }
