@@ -48,9 +48,10 @@ Významné nově rozšířené položky:
 - Povinné jazykové objekty `cs, de, en, es, fr, it, nl`: přítomny u všech 12 záznamů.
 - Počet faktů v každém jazykovém poli odpovídá českému masteru: **0 rozdílů**.
 - České `translations.cs.title/text` proti `facts[].title/text`: **0 rozdílů** po závěrečné synchronizaci podle ID.
-- Všech šest cizojazyčných verzí má neprázdný text u všech 121 faktů.
-- Texty upravené v tomto pokračování byly přeloženy do šesti cizích jazyků a načteny zpět.
-- **Otevřeno:** individuální sémantická kontrola všech dříve existujících cizojazyčných překladů v celém rozsahu 121 × 6 není dosud doložena. Strukturální úplnost ani samotná existence textu nenahrazují sémantické ověření. Do uzavření této kontroly zůstává stav `REVIEW REQUIRED`.
+- Všech šest cizojazyčných verzí bylo individuálně sémanticky zkontrolováno podle ID: **726/726 položek dokončeno**.
+- Každý cizojazyčný jazyk obsahuje přesně 121/121 očekávaných faktů; 0 chybějících ID, 0 neočekávaných ID, 0 duplicitních ID skupin a 0 prázdných titulů/textů.
+- Texty a nadpisy opravené v průběhu kontroly byly načteny zpět ze Supabase.
+- Sémantická kontrola je dokončena, ale celý audit zůstává `REVIEW REQUIRED` do závěrečného RÚIAN cross-checku a přehledu turistické úplnosti.
 
 ### Sémantická kontrola — 35002 Cheb (dokončeno 2026-11-20)
 - Individuálně zkontrolováno všech 13 faktů × 6 cizojazyčných verzí = **78/78 překladových položek**.
@@ -144,7 +145,8 @@ Závěrečný read-back ze Supabase po opravách:
 - 121 faktů.
 - 0 českých master textů pod 350 znaků.
 - 0 rozdílů mezi českým masterem a `translations.cs`.
-- 0 chybějících nebo prázdných cizojazyčných textů.
+- 0 chybějících nebo prázdných cizojazyčných textů; pro každý jazyk DE/EN/ES/FR/IT/NL přesně 121/121 správně přiřazených ID.
+- 0 chybějících, neočekávaných nebo duplicitních cizojazyčných ID.
 - 0 faktů bez zdrojů.
 - 0 nepovolených `map_category`.
 - 0 rozdílů v počtech jazykových faktů.
@@ -155,8 +157,8 @@ AJV nebylo spuštěno v souladu s promptem V2.0. Nebyly měněny schéma, RLS, t
 
 ## 6. Otevřené kroky
 
-1. Individuálně sémanticky zkontrolovat existující cizojazyčné překlady všech 121 faktů (726 cizojazyčných položek); opravit jen skutečné významové vady.
+1. Provést závěrečný opakovaný RÚIAN cross-check inventáře všech 12 PSČ a jejich obcí.
 2. Dokončit závěrečný přehled zásadní turistické úplnosti pro celý přesný rozsah a uzavřít případné nejasné věcné nálezy.
-3. Po dokončení kontrol aktualizovat tento tahák a registr README konečným výsledkem.
+3. Po dokončení těchto kontrol aktualizovat tento tahák a registr README konečným výsledkem.
 
 **Publikace, V5, záloha Dropbox ani read-only zamčení nebyly provedeny.** Vyžadují samostatný výslovný pokyn uživatele po dokončení auditu.
