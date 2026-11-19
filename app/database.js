@@ -44,8 +44,8 @@ async function loadSlovakiaList(){
     rows=page.map(pc=>({postal_code:pc,city:slovakiaRecordCache.get(pc)?.city||''}));
     renderList();
     const current=selectedPostcode();
-    if(!current||!page.some(x=>x.postal_code===current)){
-      if(page[0])select(page[0].postal_code,false);else renderDetail(null);
+    if(!current||!page.includes(current)){
+      if(page[0])select(page[0],false);else renderDetail(null);
     }else select(current,false);
   }catch(error){$('#list').innerHTML='<div class="error">'+esc(error.message)+'</div>';$('#count').textContent='Chyba';}
 }
