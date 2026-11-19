@@ -9,6 +9,7 @@ const COUNTRY_CONFIG={
 };
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
 let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
+let listRequestId=0, selectionRequestId=0;
 const slovakiaRecordCache=new Map();
 const GITHUB_RAW='https://raw.githubusercontent.com/Wildwavestylez/travel/main/';
 const selectedPostcode=()=>typeof selected==='string'?selected:(selected?.postcode??null);
@@ -48,10 +49,11 @@ async function getSlovakiaRecord(pc){
   if(item){item.city=record.city||null;item.status=record.status;}
   return record;
 }
-async function loadSlovakiaList(){
+async function loadSlovakiaList(requestId, requestedCountry){
   $('#list').innerHTML='<div class="loading">Načítám slovenskou sequence z GitHubu…</div>';
   try{
     const [sequence,index]=await Promise.all([getSlovakiaSequence(),getSlovakiaIndex()]);
+    if(requestId!==listRequestId||requestedCountry!==country)return;
     if(index.size!==sequence.length||sequence.some(pc=>!index.has(pc)))throw Error('Slovenský database_index.json neodpovídá canonical sequence.json.');
     const q=$('#search').value.trim().toLocaleLowerCase('cs');
     let filtered=sequence;
@@ -70,7 +72,7 @@ async function loadSlovakiaList(){
     if(!current||!page.includes(current)){
       if(page[0])select(page[0],false);else renderDetail(null);
     }else select(current,false);
-  }catch(error){$('#list').innerHTML='<div class="error">'+esc(error.message)+'</div>';$('#count').textContent='Chyba';}
+  }catch(error){if(requestId===listRequestId&&requestedCountry===country){$('#list').innerHTML='<div class="error">'+esc(error.message)+'</div>';$('#count').textContent='Chyba';}}
 }
 
 const $=s=>document.querySelector(s);
@@ -94,17 +96,20 @@ function listQuery(){
   return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
 async function loadList(){
-  if(COUNTRY_CONFIG[country]?.backend==='github')return loadSlovakiaList();
+  const requestId=++listRequestId;
+  const requestedCountry=country;
+  if(COUNTRY_CONFIG[requestedCountry]?.backend==='github')return loadSlovakiaList(requestId,requestedCountry);
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
   try{
     const r=await api(listQuery());
+    if(requestId!==listRequestId||requestedCountry!==country)return;
     rows=r.data||[]; total=parseTotal(r.range);
     renderList();
     if(!selectedPostcode() && rows[0])select(rows[0].postal_code,false);
     else if(selectedPostcode() && rows.some(x=>x.postal_code===selectedPostcode()))select(selectedPostcode(),false);
     else if(rows[0])select(rows[0].postal_code,false);
     else renderDetail(null);
-  }catch(e){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>'}
+  }catch(e){if(requestId===listRequestId&&requestedCountry===country){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>';$('#count').textContent='Chyba';}}
 }
 function renderList(){
   $('#count').textContent=total==null?rows.length+' záznamů':total.toLocaleString('cs-CZ')+' záznamů';
@@ -119,24 +124,28 @@ function renderList(){
   $('#next').disabled=total!=null?offset+PAGE_SIZE>=total:rows.length<PAGE_SIZE;
 }
 async function select(pc,scroll=true){
+  const requestId=++selectionRequestId;
+  const requestedCountry=country;
   selected=pc;renderList();
   renderDetail({loading:true});
   try{
     if(COUNTRY_CONFIG[country]?.backend==='github'){
       const record=await getSlovakiaRecord(pc);
+      if(requestId!==selectionRequestId||requestedCountry!==country)return;
       selected=record;
       if(record.city)rows=rows.map(x=>x.postal_code===pc?{...x,city:record.city}:x);
       renderList();renderDetail(record);
       if(scroll)window.scrollTo({top:0,behavior:'smooth'});
       return;
     }
-    const r=await api('select=postal_code,city,district,region,representative_name,latitude,longitude,content,status,data_version,updated_at&country_code=eq.'+country+'&postal_code=eq.'+encodeURIComponent(pc)+'&limit=1');
+    const r=await api('select=postal_code,city,district,region,representative_name,latitude,longitude,content,status,data_version,updated_at&country_code=eq.'+requestedCountry+'&postal_code=eq.'+encodeURIComponent(pc)+'&limit=1');
+    if(requestId!==selectionRequestId||requestedCountry!==country)return;
     if(!r.data?.[0])throw Error('PSČ '+pc+' nebylo nalezeno.');
     const row=r.data[0], c=row.content||{};
     selected={...c,status:row.status,data_version:row.data_version,updated_at:row.updated_at,postcode:row.postal_code,city:c.city||row.city,district:c.district??row.district,state:c.state||row.region,representative_place:c.representative_place||row.representative_name,representative_point:c.representative_point||(row.latitude!=null?{lat:row.latitude,lon:row.longitude}:null)};
     renderDetail(selected);
     if(scroll)window.scrollTo({top:0,behavior:'smooth'});
-  }catch(e){renderDetail({error:e.message})}
+  }catch(e){if(requestId===selectionRequestId&&requestedCountry===country)renderDetail({error:e.message})}
 }
 function factData(data){
   const facts=data.translations?.[language]?.facts??data.facts??[];
@@ -202,5 +211,15 @@ function updateCountryUI(){
   $('#search').placeholder='Hledat PSČ nebo město…';
   document.querySelectorAll('.country').forEach(b=>b.classList.toggle('active',b.dataset.country===country));
 }
-document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{country=b.dataset.country;offset=0;selected=null;language=(country==='CZ'||country==='SK')?'cs':'de';updateCountryUI();loadList();});
+document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{
+  country=b.dataset.country;
+  offset=0; total=null; rows=[]; selected=null;
+  listRequestId++; selectionRequestId++;
+  language=(country==='CZ'||country==='SK')?'cs':'de';
+  $('#count').textContent='Načítám…';
+  $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
+  renderDetail(null);
+  updateCountryUI();
+  loadList();
+});
 updateCountryUI();
