@@ -124,6 +124,13 @@ Významné nově rozšířené položky:
 - Ostatní zkontrolované položky významově odpovídají českým masterům; nebyla zjištěna další potvrzená záměna osob, míst, dat ani historických souvislostí. Opravy ověřeny read-backem ze Supabase.
 - Sémantická kontrola celého bloku: dokončeno 10/12 PSČ, 612/726 cizojazyčných položek.
 
+### Sémantická kontrola — 35491 Lázně Kynžvart (dokončeno 2026-11-20)
+- Individuálně zkontrolováno všech 11 faktů × 6 cizojazyčných verzí = **66/66 překladových položek**.
+- **fact_002:** ve všech šesti jazycích doplněna výslovná informace, že zámek sloužil Metternichovi jako letní sídlo a místo přijímání významných hostů.
+- **fact_010:** opravena botanická záměna v italštině — „farnia“ (Quercus robur) nahrazena správným názvem „rovere“ (Quercus petraea, zimní dub / sessile oak).
+- Ostatní zkontrolované položky významově odpovídají českým masterům; opravy ověřeny read-backem ze Supabase.
+- Sémantická kontrola celého bloku: dokončeno 11/12 PSČ, 678/726 cizojazyčných položek.
+
 ## 5. Základní strukturální a databázové kontroly
 
 Závěrečný read-back ze Supabase po opravách:
