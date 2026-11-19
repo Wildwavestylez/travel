@@ -1,4 +1,475 @@
 {
   "postcode": "81101",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Staré Mesto",
+  "county": "Bratislava I",
+  "state": "Bratislavský kraj",
+  "representative_place": "Stará radnica, historické jadro Bratislavy",
+  "representative_point": {
+    "lat": 48.143751,
+    "lon": 17.108849
+  },
+  "access_point": {
+    "lat": 48.143751,
+    "lon": 17.108849
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Stará radnica: dejiny mesta v jednom stavebnom celku",
+      "text": "Stará radnica nevznikla ako jediná budova postavená naraz. Jej dnešná podoba sa vyvíjala postupným spájaním a prestavbami viacerých stredovekých meštianskych domov, preto sa tu stretávajú gotické, renesančné aj barokové vrstvy. Dnes v komplexe sídli Múzeum mesta Bratislavy s expozíciou dejín mesta. V stene veže zostala zapustená delová guľa, ktorá pripomína napoleonské bombardovanie Bratislavy. Radnica tak spája dejiny mestskej správy, architektúru aj konkrétnu stopu vojnových udalostí.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "s003"
+      ],
+      "location": {
+        "name": "Stará radnica, Hlavné námestie",
+        "address": "Hlavné námestie 501/1, Bratislava",
+        "lat": 48.143751,
+        "lon": 17.108849,
+        "type": "town_hall",
+        "accuracy": "exact",
+        "source": "https://muzeumbratislava.sk/sites/default/files/museum_share/publikacia-stara-radnica-vyber.pdf"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Apponyiho palác a príbeh bratislavského vinohradníctva",
+      "text": "Gróf Juraj Apponyi dal palác zásadne prestavať v rokoch 1761 – 1762; budova dodnes nesie jeho meno. Zachované rokokové interiéry pripomínajú reprezentatívny život šľachtickej rodiny v Prešporku. Mesto palác odkúpilo v roku 1867 a neskôr ho využívalo aj na múzejné účely. Bratislavské vinárske múzeum tu otvorilo expozíciu už v roku 1932. Dnešná expozícia vinohradníctva približuje tradíciu pestovania viniča a výroby vína v okolí mesta. Palác je tak nielen architektonickou pamiatkou, ale aj miestom, kde možno čítať hospodárske a spoločenské dejiny Bratislavy.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "map_category": "museum",
+      "sources": [
+        "s005"
+      ],
+      "location": {
+        "name": "Apponyiho palác",
+        "address": "Radničná 3, Bratislava",
+        "lat": 48.143453,
+        "lon": 17.109051,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://muzeumbratislava.sk/sites/default/files/museum_share/publikacia-stara-radnica-vyber.pdf"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Františkánsky kostol: najstaršia zachovaná sakrálna stavba Starého Mesta",
+      "text": "Františkáni postavili kostol Zvestovania Pána na konci 13. storočia; vysvätený bol za prítomnosti uhorského kráľa Ondreja III. Patrí k najstarším zachovaným sakrálnym stavbám Bratislavy. Z pôvodnej gotickej stavby sa zachovalo presbytérium a bočné steny lode. Výrazným prvkom je dvojpodlažná gotická Kaplnka svätého Jána Evanjelistu zo 14. storočia, kým ďalšie časti interiéru získali neskôr barokovú podobu. V kostole sa odohrávala aj tradičná súčasť prešporských korunovácií: nový uhorský panovník tu vybraných šľachticov pasoval za rytierov Zlatej ostrohy.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "s006"
+      ],
+      "location": {
+        "name": "Františkánsky kostol Zvestovania Pána",
+        "address": "Františkánska 2, Bratislava",
+        "lat": 48.144683,
+        "lon": 17.108378,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/frantiskansky-kostol-zvestovania-pana-v-bratislave"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Dom U dobrého pastiera: rokokový dom, ktorý prežil zánik starej štvrte",
+      "text": "Úzky meštiansky dom pod hradom vznikol v rokoch 1760 – 1765 a patrí k najvýraznejším rokokovým stavbám Bratislavy. Jeho nezvyčajne úzka parcela a vertikálne usporiadanie ukazujú, ako sa stavitelia prispôsobovali stiesnenému priestoru podhradského svahu. Dom stojí v bývalej židovskej štvrti, ktorej veľká časť bola v 20. storočí zbúraná; patrí preto medzi vzácne zachované pripomienky jej pôvodnej podoby. V interiéri sídli expozícia hodín s predmetmi dokumentujúcimi bratislavské hodinárstvo od 17. do 19. storočia.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "map_category": "museum",
+      "sources": [
+        "s007"
+      ],
+      "location": {
+        "name": "Dom U dobrého pastiera",
+        "address": "Židovská 1, Bratislava",
+        "lat": 48.14202487238085,
+        "lon": 17.10402695994279,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://archivzverejnovanie.bratislava.sk/assets/File.ashx?id_dokumenty=77567&id_org=700026"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Pálffyho palác ukrýva keltskú mincovňu aj gotické jadro",
+      "text": "Pálffyho palác na Panskej ulici je stavebnou kronikou niekoľkých období. Archeologický výskum tu odkryl keltskú mincovňu a gotické jadro paláca zo 14. storočia; neskôr nasledovali renesančné a klasicistické úpravy. Rodina Pálffyovcov využívala objekt na reprezentačné účely. Dnes je jedným z hlavných výstavných priestorov Galérie mesta Bratislavy. Návštevník tu môže prejsť od nálezov spojených s keltským razením mincí ku gotickému tabuľovému maliarstvu a súčasnému umeniu vrátane priestorovej inštalácie Mateja Kréna Pasáž.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "s009"
+      ],
+      "location": {
+        "name": "Pálffyho palác na Panskej ulici",
+        "address": "Panská 261/19, Bratislava",
+        "lat": 48.14212213093493,
+        "lon": 17.10714975428319,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w37492947"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Kapitulská ulica – tichá stopa najstaršieho cirkevného Prešporka",
+      "text": "Kapitulská sa považuje za najstaršiu ulicu Bratislavy a jej vznik sa spája s raným osídlením pod hradom. Po stáročia bola spätá s cirkevnou správou: sídlila tu katedrálna kapitula, prepošt aj farnosť a v domoch bývali kanonici a kňazi. Mnohé domy si zachovali gotické stavebné jadrá, hoci ich dnešná podoba nesie aj renesančné a barokové prestavby. Vysoké múry a uzavreté dvory vytvárajú neobvyklý pokoj len pár krokov od rušných ulíc historického centra. Ulica uchováva čitateľnú stopu cirkevného života starého mesta.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historic_city",
+      "sources": [
+        "s011"
+      ],
+      "location": {
+        "name": "Kapitulská ulica – stredný úsek",
+        "address": "Kapitulská, Bratislava",
+        "lat": 48.14365,
+        "lon": 17.10484,
+        "type": "historic_street",
+        "accuracy": "area_representative",
+        "source": "https://www.bainfo.sk/zaujimavosti/ulice/kapitulska-ulica"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálny zoznam smerovania dodávacích pôšt v Bratislave; rozsah 811 01 – 811 09 je smerovaný na Bratislavu 1. Oficiálna stránka pošty uvádza pobočku Bratislava 1 na Námestí SNP 35.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a; oficiálne informácie o pobočke Bratislava 1",
+    "postcode_source_release": "Technické parametre zverejnené 2025",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Osobitná inštitucionálna adresa SNM na Bratislavskom hrade (810 06) sa nepoužíva ako dôkaz geografického priradenia hradu k 811 01. Hrad nebol do faktov 811 01 zaradený; jeho návštevnícka adresa a poštové priradenie sa posudzujú oddelene. Záznam netvrdí presné hranice doručovacej oblasti.",
+    "delivery_office_note": "Slovenská pošta uvádza pre rozsah 811 01 – 811 09 dodávaciu poštu Bratislava 1. Pobočka sa nachádza na Námestí SNP 35 v obci Bratislava. Poloha pošty neurčuje reprezentatívny bod ani polohy jednotlivých faktov.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Mesto Bratislava – oficiálne adresné a GPS údaje; Múzeum mesta Bratislavy a oficiálne turistické a kultúrne inštitúcie pre polohy objektov. RAGEO jednotlivé adresné body neboli v tomto priechode priamo načítané; presnosť je obmedzená na doložené fyzické adresy a publikované súradnice."
+  },
+  "sources": [
+    {
+      "id": "s001",
+      "title": "Slovenská pošta – smerovanie pôšt v Bratislave",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s002",
+      "title": "Slovenská pošta – pobočka Bratislava 1, Námestie SNP 35",
+      "url": "https://www.posta.sk/clanky/na-vybranych-pobockach-si-zakaznici-vybavia-financne-sluzby-rychlo-a-bez-cakania-v-modernych-kioskoch",
+      "type": "official"
+    },
+    {
+      "id": "s003",
+      "title": "Stará radnica – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/old-town-hall/",
+      "type": "official"
+    },
+    {
+      "id": "s004",
+      "title": "Publikácia Stará radnica – Múzeum mesta Bratislavy",
+      "url": "https://muzeumbratislava.sk/sites/default/files/museum_share/publikacia-stara-radnica-vyber.pdf",
+      "type": "museum"
+    },
+    {
+      "id": "s005",
+      "title": "Apponyiho palác – Múzeum mesta Bratislavy",
+      "url": "https://muzeumbratislava.sk/apponyiho-palac",
+      "type": "museum"
+    },
+    {
+      "id": "s006",
+      "title": "Františkánsky kostol – Slovakia.travel",
+      "url": "https://slovakia.travel/frantiskansky-kostol-zvestovania-pana-v-bratislave",
+      "type": "official"
+    },
+    {
+      "id": "s007",
+      "title": "Dom U dobrého pastiera – Múzeum mesta Bratislavy",
+      "url": "https://mmb.sk/lokality/dom-u-dobreho-pastiera",
+      "type": "museum"
+    },
+    {
+      "id": "s008",
+      "title": "Mesto Bratislava – oficiálne GPS údaje objektov, Židovská 1",
+      "url": "https://archivzverejnovanie.bratislava.sk/assets/File.ashx?id_dokumenty=77567&id_org=700026",
+      "type": "official"
+    },
+    {
+      "id": "s009",
+      "title": "Pálffy Palace – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/palffy-palace-bratislava/",
+      "type": "official"
+    },
+    {
+      "id": "s010",
+      "title": "Pálffyho palác – mapový bod a adresa",
+      "url": "https://poi.oma.sk/w37492947",
+      "type": "specialist"
+    },
+    {
+      "id": "s011",
+      "title": "Kapitulská Street – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/kapitulska-street/",
+      "type": "official"
+    },
+    {
+      "id": "s012",
+      "title": "Kapitulská ulica – BAinfo, GPS orientačný bod",
+      "url": "https://www.bainfo.sk/zaujimavosti/ulice/kapitulska-ulica",
+      "type": "regional"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Stará radnice, historické jádro Bratislavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Stará radnice: dějiny města v jednom stavebním celku",
+          "text": "Stará radnice nevznikla jako jediná budova postavená najednou. Její dnešní podoba se vyvíjela postupným spojováním a přestavbami několika středověkých měšťanských domů, proto se zde setkávají gotické, renesanční i barokní vrstvy. Dnes v komplexu sídlí Muzeum města Bratislavy s expozicí dějin města. Ve zdi věže zůstala zasazená dělová koule, která připomíná napoleonské bombardování Bratislavy. Radnice tak spojuje dějiny městské správy, architekturu i konkrétní stopu válečných událostí."
+        },
+        {
+          "id": "fact_002",
+          "title": "Apponyiho palác a příběh bratislavského vinařství",
+          "text": "Hrabě Juraj Apponyi nechal palác zásadně přestavět v letech 1761–1762; budova dodnes nese jeho jméno. Zachované rokokové interiéry připomínají reprezentativní život šlechtické rodiny v Prešpurku. Město palác koupilo v roce 1867 a později jej využívalo také pro muzejní účely. Bratislavské vinařské muzeum zde otevřelo expozici již v roce 1932. Dnešní expozice vinohradnictví přibližuje tradici pěstování révy a výroby vína v okolí města."
+        },
+        {
+          "id": "fact_003",
+          "title": "Františkánský kostel: nejstarší dochovaná sakrální stavba Starého Města",
+          "text": "Františkáni postavili kostel Zvěstování Páně na konci 13. století; vysvěcen byl za přítomnosti uherského krále Ondřeje III. Patří k nejstarším dochovaným sakrálním stavbám Bratislavy. Z původní gotické stavby se zachovalo presbyterium a boční stěny lodi. Výrazným prvkem je dvoupatrová gotická Kaple svatého Jana Evangelisty ze 14. století, zatímco další části interiéru získaly později barokní podobu. V kostele se odehrávala také tradiční součást prešpurských korunovací: nový uherský panovník zde vybrané šlechtice pasoval na rytíře Zlaté ostruhy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Dům U dobrého pastýře: rokokový dům, který přežil zánik staré čtvrti",
+          "text": "Úzký měšťanský dům pod hradem vznikl v letech 1760–1765 a patří k nejvýraznějším rokokovým stavbám Bratislavy. Jeho neobvykle úzká parcela a vertikální uspořádání ukazují, jak se stavitelé přizpůsobovali stísněnému prostoru podhradního svahu. Dům stojí v bývalé židovské čtvrti, jejíž velká část byla ve 20. století zbořena; patří proto mezi vzácně zachované připomínky její původní podoby. V interiéru sídlí expozice hodin dokumentující bratislavské hodinářství od 17. do 19. století."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pálffyho palác ukrývá keltskou mincovnu i gotické jádro",
+          "text": "Pálffyho palác na Panské ulici je stavební kronikou několika období. Archeologický výzkum zde odkryl keltskou mincovnu a gotické jádro paláce ze 14. století; později následovaly renesanční a klasicistní úpravy. Rodina Pálffyů využívala objekt k reprezentačním účelům. Dnes je jedním z hlavních výstavních prostorů Galerie města Bratislavy. Návštěvník zde může přejít od nálezů spojených s keltským ražením mincí ke gotickému deskovému malířství a současnému umění včetně prostorové instalace Mateje Kréna Pasáž."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kapitulská ulice – tichá stopa nejstaršího církevního Prešpurku",
+          "text": "Kapitulská je považována za nejstarší ulici Bratislavy a její vznik se spojuje s raným osídlením pod hradem. Po staletí byla spjata s církevní správou: sídlila zde katedrální kapitula, probošt i farnost a v domech bydleli kanovníci a kněží. Mnohé domy si zachovaly gotická stavební jádra, ačkoli jejich dnešní podoba nese také renesanční a barokní přestavby. Vysoké zdi a uzavřené dvory vytvářejí neobvyklý klid jen pár kroků od rušných ulic historického centra."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Altes Rathaus, historischer Kern von Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Das Alte Rathaus: Stadtgeschichte in einem Bauensemble",
+          "text": "Das Alte Rathaus entstand nicht in einem einzigen Bauabschnitt. Seine heutige Gestalt entwickelte sich durch die Verbindung und den Umbau mehrerer mittelalterlicher Bürgerhäuser; deshalb treffen hier gotische, Renaissance- und Barockelemente aufeinander. Heute beherbergt der Komplex das Museum der Stadt Bratislava mit einer Ausstellung zur Stadtgeschichte. In der Turmwand steckt noch eine Kanonenkugel, die an Napoleons Beschießung Bratislavas erinnert. Das Rathaus verbindet so die Geschichte der Stadtverwaltung, Architektur und eine konkrete Spur der Kriegsereignisse."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Apponyi-Palast und die Weinbautradition Bratislavas",
+          "text": "Graf Juraj Apponyi ließ den Palast 1761–1762 grundlegend umbauen; das Gebäude trägt bis heute seinen Namen. Die erhaltenen Rokoko-Innenräume erinnern an das repräsentative Leben einer Adelsfamilie im damaligen Pressburg. Die Stadt kaufte den Palast 1867 und nutzte ihn später auch für museale Zwecke. Das Bratislavaer Weinbaumuseum eröffnete hier bereits 1932 eine Ausstellung. Die heutige Ausstellung vermittelt die Tradition des Rebenanbaus und der Weinherstellung im Umland."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Franziskanerkirche: das älteste erhaltene Sakralgebäude der Altstadt",
+          "text": "Die Franziskaner errichteten die Verkündigungskirche Ende des 13. Jahrhunderts; geweiht wurde sie in Anwesenheit des ungarischen Königs Andreas III. Sie zählt zu den ältesten erhaltenen Sakralbauten Bratislavas. Vom ursprünglichen gotischen Bau blieben das Presbyterium und die Seitenwände des Kirchenschiffs erhalten. Besonders bemerkenswert ist die zweigeschossige gotische Johannes-Evangelist-Kapelle aus dem 14. Jahrhundert; andere Teile wurden später barock gestaltet. Hier fand auch ein Teil der Pressburger Krönungszeremonien statt: Der neue ungarische Herrscher schlug ausgewählte Adlige zu Rittern des Goldenen Sporns."
+        },
+        {
+          "id": "fact_004",
+          "title": "Das Haus zum Guten Hirten: ein Rokokohaus überdauerte den Verlust eines alten Viertels",
+          "text": "Das schmale Bürgerhaus unterhalb der Burg entstand 1760–1765 und zählt zu den markantesten Rokokobauten Bratislavas. Sein schmales Grundstück und die vertikale Raumaufteilung zeigen, wie sich die Bauherren an den beengten Hang anpassten. Das Haus steht im ehemaligen jüdischen Viertel, von dem im 20. Jahrhundert große Teile abgerissen wurden. Es gehört deshalb zu den seltenen Zeugnissen des früheren Stadtbildes. Im Inneren befindet sich eine Uhrensammlung zur Bratislavaer Uhrmacherei vom 17. bis zum 19. Jahrhundert."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Pálffy-Palast birgt eine keltische Münzstätte und einen gotischen Kern",
+          "text": "Der Pálffy-Palast in der Panská-Straße ist eine bauliche Chronik mehrerer Epochen. Archäologische Untersuchungen legten hier eine keltische Münzstätte und den gotischen Kern eines Palastes aus dem 14. Jahrhundert frei; später folgten Renaissance- und klassizistische Umbauten. Die Familie Pálffy nutzte das Gebäude für repräsentative Zwecke. Heute ist es ein wichtiger Ausstellungsort der Stadtgalerie Bratislava. Zu sehen sind Funde zur keltischen Münzprägung, gotische Tafelmalerei und zeitgenössische Kunst, darunter Matej Kréns Installation Passage."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Kapitulská-Straße – eine stille Spur des ältesten kirchlichen Pressburgs",
+          "text": "Die Kapitulská gilt als älteste Straße Bratislavas und wird mit der frühen Siedlung unterhalb der Burg verbunden. Jahrhundertelang war sie eng mit der Kirche verbunden: Domkapitel, Propst und Pfarrei hatten hier ihren Sitz, und Kanoniker und Priester lebten in den Häusern. Viele Gebäude bewahren gotische Bausubstanz, auch wenn ihre heutige Gestalt ebenso von Renaissance- und Barockumbauten geprägt ist. Hohe Mauern und abgeschlossene Höfe schaffen wenige Schritte von den belebten Altstadtstraßen entfernt ungewöhnliche Ruhe."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Old Town Hall, historic core of Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Old Town Hall: the city's history in one architectural complex",
+          "text": "The Old Town Hall did not emerge in a single building campaign. Its present form developed as several medieval burgher houses were gradually joined and rebuilt, bringing together Gothic, Renaissance and Baroque layers. The complex now houses the Bratislava City Museum and its exhibition on the city's history. A cannonball remains embedded in the tower wall, recalling Napoleon's bombardment of Bratislava. The town hall connects the history of municipal government, architecture and a tangible trace of wartime events."
+        },
+        {
+          "id": "fact_002",
+          "title": "Apponyi Palace and Bratislava's wine-growing tradition",
+          "text": "Count Juraj Apponyi had the palace substantially remodelled in 1761–1762, and it still bears his name. Its preserved Rococo interiors evoke the formal life of an aristocratic family in Pressburg. The city bought the palace in 1867 and later used it for museum purposes. The Bratislava Wine Museum opened an exhibition here in 1932. Today's wine-growing exhibition introduces the tradition of cultivating vines and making wine around the city."
+        },
+        {
+          "id": "fact_003",
+          "title": "Franciscan Church: the Old Town's oldest preserved sacred building",
+          "text": "The Franciscans built the Church of the Annunciation at the end of the 13th century; it was consecrated in the presence of King Andrew III of Hungary. It is among Bratislava's oldest surviving sacred buildings. The Gothic presbytery and side walls of the nave survive from the original structure. A notable feature is the two-storey Gothic Chapel of St John the Evangelist from the 14th century; other parts were later remodelled in Baroque style. The church also hosted part of Pressburg's coronation ceremonies, when the new Hungarian monarch dubbed selected nobles Knights of the Golden Spur."
+        },
+        {
+          "id": "fact_004",
+          "title": "House of the Good Shepherd: a Rococo house that survived the loss of an old quarter",
+          "text": "This narrow burgher house below the castle was built in 1760–1765 and is one of Bratislava's most distinctive Rococo buildings. Its narrow plot and vertical layout show how builders adapted to the limited space on the castle slope. It stands in the former Jewish quarter, much of which was demolished in the 20th century, making it a rare reminder of the area's earlier appearance. Its interior houses a clock exhibition documenting Bratislava's clockmaking tradition from the 17th to the 19th century."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pálffy Palace conceals a Celtic mint and a Gothic core",
+          "text": "Pálffy Palace on Panská Street records several architectural periods. Archaeological research uncovered a Celtic mint and the Gothic core of a 14th-century palace; Renaissance and Neoclassical alterations followed. The Pálffy family used the building for representative purposes. Today it is one of the main exhibition venues of Bratislava City Gallery, with finds connected to Celtic coin production, Gothic panel painting and contemporary art, including Matej Krén's installation Passage."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kapitulská Street – a quiet trace of Pressburg's oldest ecclesiastical quarter",
+          "text": "Kapitulská is considered Bratislava's oldest street and is associated with the early settlement below the castle. For centuries it was linked to church administration: the cathedral chapter, provost and parish were based here, and canons and priests lived in its houses. Many buildings retain Gothic cores, although their present appearance also reflects Renaissance and Baroque rebuilding. High walls and enclosed courtyards create unusual quiet just steps from the busy streets of the historic centre."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Antiguo Ayuntamiento, casco histórico de Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "El Antiguo Ayuntamiento: la historia de la ciudad en un conjunto arquitectónico",
+          "text": "El Antiguo Ayuntamiento no surgió en una sola fase constructiva. Su aspecto actual nació al unir y reformar varias casas burguesas medievales, por lo que reúne elementos góticos, renacentistas y barrocos. El conjunto alberga hoy el Museo de la Ciudad de Bratislava y su exposición sobre la historia urbana. En el muro de la torre permanece incrustada una bala de cañón que recuerda el bombardeo napoleónico de Bratislava. El edificio reúne la historia de la administración municipal, la arquitectura y una huella concreta de los conflictos bélicos."
+        },
+        {
+          "id": "fact_002",
+          "title": "El Palacio Apponyi y la tradición vitivinícola de Bratislava",
+          "text": "El conde Juraj Apponyi ordenó una profunda reforma del palacio en 1761–1762, y el edificio conserva su nombre. Sus interiores rococó evocan la vida de una familia aristocrática en la antigua Pressburg. La ciudad compró el palacio en 1867 y más tarde lo destinó a usos museísticos. El Museo del Vino de Bratislava abrió aquí una exposición en 1932. La exposición actual presenta la tradición del cultivo de la vid y la elaboración del vino en los alrededores."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia franciscana: el edificio sacro conservado más antiguo del casco antiguo",
+          "text": "Los franciscanos construyeron la iglesia de la Anunciación a finales del siglo XIII y fue consagrada en presencia del rey húngaro Andrés III. Es uno de los edificios religiosos conservados más antiguos de Bratislava. Del edificio gótico original permanecen el presbiterio y los muros laterales de la nave. Destaca la capilla gótica de dos plantas de San Juan Evangelista, del siglo XIV; otras partes adoptaron después una apariencia barroca. La iglesia acogió también una ceremonia de las coronaciones de Pressburg: el nuevo monarca nombraba aquí a nobles caballeros de la Espuela de Oro."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Casa del Buen Pastor: una casa rococó que sobrevivió a la desaparición de un barrio",
+          "text": "Esta estrecha casa burguesa bajo el castillo se construyó entre 1760 y 1765 y es uno de los edificios rococó más singulares de Bratislava. Su parcela estrecha y su distribución vertical muestran la adaptación al escaso espacio de la ladera. Está en el antiguo barrio judío, gran parte del cual fue demolido en el siglo XX; por eso es un raro testimonio de su aspecto anterior. En su interior hay una exposición de relojes que documenta la relojería local entre los siglos XVII y XIX."
+        },
+        {
+          "id": "fact_005",
+          "title": "El Palacio Pálffy esconde una ceca celta y un núcleo gótico",
+          "text": "El Palacio Pálffy, en la calle Panská, reúne varias épocas arquitectónicas. Las investigaciones arqueológicas descubrieron una ceca celta y el núcleo gótico de un palacio del siglo XIV; después llegaron reformas renacentistas y neoclásicas. La familia Pálffy utilizó el edificio para actos representativos. Hoy es una de las principales sedes de la Galería de la Ciudad de Bratislava y presenta hallazgos de acuñación celta, pintura gótica y arte contemporáneo, incluida la instalación Pasaje, de Matej Krén."
+        },
+        {
+          "id": "fact_006",
+          "title": "La calle Kapitulská: una huella tranquila del antiguo barrio eclesiástico",
+          "text": "Kapitulská está considerada la calle más antigua de Bratislava y se relaciona con el primer asentamiento bajo el castillo. Durante siglos estuvo vinculada a la administración eclesiástica: aquí tenían su sede el cabildo catedralicio, el preboste y la parroquia, y vivían canónigos y sacerdotes. Muchos edificios conservan núcleos góticos, aunque su aspecto actual también refleja reformas renacentistas y barrocas. Sus muros y patios crean tranquilidad a pocos pasos de las calles más animadas del centro histórico."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Ancien hôtel de ville, cœur historique de Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’ancien hôtel de ville : l’histoire de la ville dans un ensemble architectural",
+          "text": "L’ancien hôtel de ville ne fut pas construit en une seule campagne. Sa forme actuelle résulte de la réunion et de la transformation de plusieurs maisons bourgeoises médiévales ; on y retrouve donc des éléments gothiques, Renaissance et baroques. Le complexe abrite aujourd’hui le Musée de la ville de Bratislava et son exposition sur l’histoire urbaine. Un boulet de canon est encore incrusté dans le mur de la tour et rappelle le bombardement napoléonien de Bratislava. L’édifice associe ainsi l’histoire municipale, l’architecture et une trace concrète des événements militaires."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le palais Apponyi et la tradition viticole de Bratislava",
+          "text": "Le comte Juraj Apponyi fit profondément remanier le palais en 1761–1762, et l’édifice porte toujours son nom. Ses intérieurs rococo évoquent la vie d’une famille aristocratique dans l’ancienne Pressbourg. La ville acheta le palais en 1867 et l’utilisa ensuite à des fins muséales. Le musée viticole de Bratislava y ouvrit une exposition dès 1932. L’exposition actuelle présente la tradition de la culture de la vigne et de la production du vin dans les environs."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église des Franciscains : le plus ancien édifice religieux conservé de la vieille ville",
+          "text": "Les Franciscains construisirent l’église de l’Annonciation à la fin du XIIIe siècle ; elle fut consacrée en présence du roi de Hongrie André III. Elle compte parmi les plus anciens édifices religieux conservés de Bratislava. Le presbytère gothique et les murs latéraux de la nef subsistent de la construction d’origine. La chapelle gothique à deux niveaux de saint Jean l’Évangéliste, du XIVe siècle, est remarquable ; d’autres parties furent ensuite remaniées dans le style baroque. L’église accueillait aussi une cérémonie des couronnements de Pressbourg, où certains nobles étaient faits chevaliers de l’Éperon d’or."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Maison du Bon Pasteur : une demeure rococo qui a survécu à la disparition d’un quartier",
+          "text": "Cette étroite maison bourgeoise sous le château fut construite entre 1760 et 1765 et compte parmi les bâtiments rococo les plus singuliers de Bratislava. Sa parcelle étroite et son organisation verticale montrent l’adaptation au manque d’espace sur le versant. Elle se trouve dans l’ancien quartier juif, dont une grande partie fut démolie au XXe siècle ; elle est donc un rare témoin de son aspect ancien. L’intérieur accueille une exposition d’horlogerie consacrée aux horlogers de Bratislava du XVIIe au XIXe siècle."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le palais Pálffy cache un atelier monétaire celte et un noyau gothique",
+          "text": "Le palais Pálffy, rue Panská, témoigne de plusieurs époques architecturales. Les recherches archéologiques y ont mis au jour un atelier monétaire celte et le noyau gothique d’un palais du XIVe siècle ; des transformations Renaissance et néoclassiques ont suivi. La famille Pálffy utilisait le bâtiment pour des réceptions. Il accueille aujourd’hui l’un des principaux espaces de la Galerie de la ville de Bratislava, avec des vestiges celtes, de la peinture gothique et de l’art contemporain, notamment l’installation Passage de Matej Krén."
+        },
+        {
+          "id": "fact_006",
+          "title": "La rue Kapitulská : une trace paisible du vieux quartier ecclésiastique",
+          "text": "Kapitulská est considérée comme la plus ancienne rue de Bratislava et son origine est liée au premier habitat sous le château. Pendant des siècles, le chapitre cathédral, le prévôt et la paroisse y avaient leur siège ; des chanoines et des prêtres vivaient dans ses maisons. De nombreux bâtiments conservent un noyau gothique, même si leur apparence porte aussi la marque de remaniements Renaissance et baroques. Les murs et les cours créent un calme inhabituel à quelques pas du centre historique animé."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Antico Municipio, centro storico di Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’Antico Municipio: la storia della città in un complesso architettonico",
+          "text": "L’Antico Municipio non fu costruito in un’unica fase. La sua forma attuale nacque dall’unione e dalla trasformazione di diverse case borghesi medievali, dove convivono elementi gotici, rinascimentali e barocchi. Oggi il complesso ospita il Museo della città di Bratislava e la sua esposizione sulla storia urbana. Nel muro della torre è ancora incastonata una palla di cannone che ricorda il bombardamento napoleonico. L’edificio unisce così la storia dell’amministrazione cittadina, l’architettura e una traccia concreta degli eventi bellici."
+        },
+        {
+          "id": "fact_002",
+          "title": "Palazzo Apponyi e la tradizione vitivinicola di Bratislava",
+          "text": "Il conte Juraj Apponyi fece ristrutturare profondamente il palazzo nel 1761–1762, e l’edificio conserva il suo nome. Gli interni rococò evocano la vita di una famiglia aristocratica nella storica Pressburg. La città acquistò il palazzo nel 1867 e in seguito lo destinò anche a funzioni museali. Il Museo del vino di Bratislava vi aprì una mostra già nel 1932. L’attuale esposizione racconta la tradizione della coltivazione della vite e della produzione del vino nei dintorni."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa francescana: il più antico edificio sacro conservato della Città Vecchia",
+          "text": "I francescani costruirono la chiesa dell’Annunciazione alla fine del XIII secolo; fu consacrata alla presenza del re d’Ungheria Andrea III. È tra gli edifici sacri più antichi conservati a Bratislava. Della struttura gotica originaria restano il presbiterio e le pareti laterali della navata. Spicca la cappella gotica a due piani di San Giovanni Evangelista del XIV secolo; altre parti furono poi trasformate in stile barocco. La chiesa ospitava anche una cerimonia delle incoronazioni di Pressburg, durante la quale alcuni nobili venivano nominati cavalieri dello Sperone d’Oro."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Casa del Buon Pastore: una dimora rococò sopravvissuta alla scomparsa di un quartiere",
+          "text": "Questa stretta casa borghese sotto il castello fu costruita tra il 1760 e il 1765 ed è uno degli edifici rococò più caratteristici di Bratislava. Il lotto stretto e la disposizione verticale mostrano l’adattamento allo spazio limitato del pendio. Sorge nell’antico quartiere ebraico, gran parte del quale fu demolita nel XX secolo; è quindi una rara testimonianza del suo aspetto precedente. All’interno si trova un’esposizione di orologi che documenta l’orologeria locale dal XVII al XIX secolo."
+        },
+        {
+          "id": "fact_005",
+          "title": "Palazzo Pálffy nasconde una zecca celtica e un nucleo gotico",
+          "text": "Palazzo Pálffy, in via Panská, racconta diverse epoche architettoniche. Le ricerche archeologiche hanno portato alla luce una zecca celtica e il nucleo gotico di un palazzo del XIV secolo; seguirono trasformazioni rinascimentali e neoclassiche. La famiglia Pálffy utilizzava l’edificio per funzioni di rappresentanza. Oggi è una delle principali sedi della Galleria della città di Bratislava, con reperti legati alla monetazione celtica, pittura gotica e arte contemporanea, tra cui l’installazione Passage di Matej Krén."
+        },
+        {
+          "id": "fact_006",
+          "title": "Via Kapitulská: una traccia silenziosa dell’antico quartiere ecclesiastico",
+          "text": "Kapitulská è considerata la strada più antica di Bratislava ed è legata al primo insediamento sotto il castello. Per secoli fu connessa all’amministrazione ecclesiastica: qui avevano sede il capitolo della cattedrale, il prevosto e la parrocchia, e nelle case vivevano canonici e sacerdoti. Molti edifici conservano nuclei gotici, anche se l’aspetto attuale riflette anche ristrutturazioni rinascimentali e barocche. Mura alte e cortili chiusi creano quiete a pochi passi dalle strade animate del centro storico."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Oud Stadhuis, historische binnenstad van Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het Oude Stadhuis: stadsgeschiedenis in één gebouwencomplex",
+          "text": "Het Oude Stadhuis is niet in één bouwfase ontstaan. De huidige vorm ontwikkelde zich doordat verschillende middeleeuwse burgerhuizen werden samengevoegd en verbouwd. Daardoor komen gotische, renaissance- en barokke bouwlagen samen. Het complex huisvest nu het Stadsmuseum van Bratislava met een tentoonstelling over de stadsgeschiedenis. In de torenmuur zit nog een kanonskogel die herinnert aan de Napoleontische beschieting van Bratislava. Het gebouw verbindt zo de geschiedenis van het stadsbestuur, architectuur en een tastbaar spoor van oorlogsgeschiedenis."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Apponyi-paleis en de wijnbouwtraditie van Bratislava",
+          "text": "Graaf Juraj Apponyi liet het paleis in 1761–1762 ingrijpend verbouwen; het gebouw draagt nog altijd zijn naam. De bewaard gebleven rococo-interieurs geven een beeld van het leven van een adellijke familie in het vroegere Pressburg. De stad kocht het paleis in 1867 en gebruikte het later ook voor museale doeleinden. Het Bratislavaanse Wijnmuseum opende hier al in 1932 een tentoonstelling. De huidige presentatie laat de traditie zien van druiventeelt en wijnproductie rond de stad."
+        },
+        {
+          "id": "fact_003",
+          "title": "Franciscanenkerk: het oudste bewaard gebleven kerkgebouw in de Oude Stad",
+          "text": "De franciscanen bouwden de Annunciatiekerk aan het einde van de 13e eeuw; de wijding vond plaats in aanwezigheid van de Hongaarse koning Andreas III. De kerk behoort tot de oudste bewaard gebleven religieuze gebouwen van Bratislava. Van het oorspronkelijke gotische gebouw zijn het priesterkoor en de zijmuren van het schip behouden. Opvallend is de tweelaagse gotische kapel van Sint-Jan de Evangelist uit de 14e eeuw; andere delen kregen later een barokke vorm. De kerk was ook het toneel van een traditionele kroningsceremonie waarbij edelen tot ridders van de Gulden Spoor werden geslagen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het Huis van de Goede Herder: een rococohuis dat het verdwijnen van een oude wijk overleefde",
+          "text": "Dit smalle burgerhuis onder het kasteel werd gebouwd tussen 1760 en 1765 en is een van de opvallendste rococogebouwen van Bratislava. Het smalle perceel en de verticale indeling tonen hoe bouwers zich aanpasten aan de beperkte ruimte op de helling. Het staat in de voormalige Joodse wijk, waarvan in de 20e eeuw een groot deel werd gesloopt. Het is daardoor een zeldzame herinnering aan het vroegere straatbeeld. Binnen bevindt zich een klokkententoonstelling over de lokale uurwerktraditie van de 17e tot en met de 19e eeuw."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het Pálffy-paleis verbergt een Keltische muntwerkplaats en een gotische kern",
+          "text": "Het Pálffy-paleis aan de Panská-straat vertelt verschillende architectonische tijdperken. Archeologisch onderzoek bracht hier een Keltische muntwerkplaats en de gotische kern van een 14e-eeuws paleis aan het licht; later volgden renaissance- en classicistische verbouwingen. De familie Pálffy gebruikte het gebouw voor representatieve doeleinden. Tegenwoordig is het een belangrijke tentoonstellingslocatie van de Stadsgalerij Bratislava, met vondsten over Keltische muntslag, gotische paneelschilderkunst en hedendaagse kunst, waaronder Matej Kréns installatie Passage."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kapitulská-straat: een stille herinnering aan het oudste kerkelijke Pressburg",
+          "text": "Kapitulská geldt als de oudste straat van Bratislava en wordt verbonden met de vroege nederzetting onder het kasteel. Eeuwenlang was de straat verbonden met het kerkelijke bestuur: het kathedrale kapittel, de proost en de parochie hadden hier hun zetel, en kanunniken en priesters woonden in de huizen. Veel gebouwen hebben een gotische kern, hoewel hun huidige uiterlijk ook renaissance- en barokke verbouwingen laat zien. Hoge muren en afgesloten binnenplaatsen zorgen voor rust op slechts enkele stappen van de drukke straten van het historische centrum."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
