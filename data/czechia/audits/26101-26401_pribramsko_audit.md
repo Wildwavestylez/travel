@@ -45,8 +45,8 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
 - Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
-- `facts[].location=null`: 27 faktů. Podle promptu se existující neprázdné polohy nepřeměřují; 27 null poloh vyžaduje cílené ověření a doplnění pouze tam, kde lze určit obhajitelný bod. Neznámé body zůstanou null s důvodem.
-- RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; CSV fallback je dostupný. Ověřena přesná přítomnost všech 36 kódů v CSV (36/36), shoda všech 36 kódů mezi `sequence` a `groups` bez duplicit či rozdílů (36/36) a přítomnost 36/36 v Supabase. Zbývá věcný geografický cross-check místních částí a přiřazení faktů vůči RÚIAN inventáři.
+- `facts[].location=null`: po cílené opravě zbývá 26 faktů (původně 27). Doplněn `26223/fact_011` — Na horách u Křešína: reprezentativní bod území 49.802222, 13.9525, `nature_reserve`, `area_representative`; identita a charakter lokality potvrzeny AOPK/ISOP, souřadnice převzaty z oficiálního podkladu Natura 2000. Read-back potvrdil kompletní objekt polohy a povolené hodnoty. Ostatních 26 null poloh vyžaduje samostatné cílené ověření; neznámé body zůstanou null s důvodem. Existující neprázdné polohy nebyly přeměřovány.
+- RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; CSV fallback je dostupný. Ověřena přesná přítomnost všech 36 kódů v CSV (36/36), shoda všech 36 kódů mezi `sequence` a `groups` bez duplicit či rozdílů (36/36) a přítomnost 36/36 v Supabase. Zbývá věcný geografický cross-check místních částí a přiřazení faktů vůči RÚIAN inventáři. Doplnění bodu Na horách u Křešína bylo provedeno na základě AOPK/ISOP a oficiálního Natura 2000 souřadnicového podkladu.
 - Neproveden AJV ani samostatný validační běh, v souladu s promptem.
 
 ## Otevřené kroky
@@ -57,4 +57,4 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** pokračovat cíleným řešením 27 prázdných poloh podle hierarchie v Content Standardu; existující neprázdné polohy znovu neověřovat.
+**Další krok:** pokračovat cíleným řešením zbývajících 26 prázdných poloh podle hierarchie v Content Standardu; existující neprázdné polohy znovu neověřovat.
