@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 22/261 faktů, tedy 132/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201 a 7 v 74213. Zjištěné významové nedostatky byly opraveny a načteny zpět. Zbývá 239 faktů / 1 434 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 40/261 faktů, tedy 240/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231 a 4 v 74233. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 6 PSČ potvrdil 240/240 neprázdných jazykových položek a 6/6 záznamů validated V1. Zbývá 221 faktů / 1 326 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -191,6 +191,16 @@ Primární podklady první dávky:
 16. 74213/fact_001: francouzská a italská verze doplněny o městský nákup zámku s parkem v roce 1936 a jeho současnou kulturní funkci.
 17. 74213/fact_004: nepřesný překlad české „tvrze“ jako velké pevnosti opraven ve všech šesti jazycích na význam odpovídající opevněnému panskému sídlu.
 18. 74213/fact_006: opraveny botanicky chybné německé a nizozemské názvy druhu Nymphoides peltata („Schild-Wasserhahnenfuß“ / „schildbladige waterranonkel“) na správné „Seekanne“ / „watergentiaan“; read-back PASS.
+19. 74221/fact_001: v šesti jazycích vysvětlen význam názvu Neutitscheinka (žena z Neutitscheinu, německého názvu Nového Jičína); zpřesněny i překlady historického fojtství v názvech.
+20. 74221/fact_003: španělská, francouzská, italská a nizozemská verze zpřesněny na železniční motorové vozy/autoraily, nikoli obecné vlakové soupravy; doplněna závěrečná souvislost se strojírenskou tradicí.
+21. 74221/fact_008: ve španělštině, francouzštině a italštině upřesněno, že se na stavbě kostela podílela místní stavební jednota, nikoli obecně farní sdružení.
+22. 74231/fact_002: ve všech šesti jazycích doplněno časové vymezení Púchovské kultury (přibližně od 3. století př. n. l. do počátku našeho letopočtu).
+23. 74231/fact_003: doplněno, že kostelní areál dokládá dlouhý historický vývoj městečka; odstraněno zdvojení závěrečné věty po read-back kontrole.
+24. 74231/fact_005: ve španělštině, francouzštině, italštině a nizozemštině doplněn přechod historického centra od tržní vsi k dnešnímu obecnímu náměstí.
+25. 74231/fact_006: opraven německý název, který mylně vykládal rok 1867 jako počátek samostatnosti; nyní odkazuje na dřívější samostatnost Vlčnova.
+26. 74233/fact_001: ve všech šesti jazycích doplněna role několika generací místních mecenášů při obnově kostela.
+27. 74233/fact_002: ve všech šesti jazycích doplněno vysvětlení chronogramu — zvýrazněná písmena dávají římskými číslicemi rok 1708.
+28. 74233/fact_003: ve všech šesti jazycích doplněno, že přirozená říční krajina byla výrazně proměněna regulací Odry.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
