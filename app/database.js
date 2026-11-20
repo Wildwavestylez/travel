@@ -111,11 +111,10 @@ async function loadItalyList(requestId){
   try{
     const sql=await getItalySql();
     const q=$('#search').value.trim();
-    const status=$('#statusFilter')?.value||'all';
-    const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3) AND ($4 = 'all' OR workflow_status = $4)";
+    const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3)";
     const [countRows,pageRows]=await Promise.all([
-      sql.query('SELECT count(*)::int AS total FROM public.italy_cap_records '+where,[q,q+'%','%'+q+'%',status]),
-      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $5 OFFSET $6",[q,q+'%','%'+q+'%',status,PAGE_SIZE,offset])
+      sql.query('SELECT count(*)::int AS total FROM public.italy_cap_records '+where,[q,q+'%','%'+q+'%']),
+      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5",[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
     ]);
     if(requestId!==listRequestId||country!=='IT')return;
     total=countRows[0]?.total??0;
@@ -248,7 +247,6 @@ function renderDetail(data){
   $('#rawBtn').onclick=()=>document.querySelector('.raw summary').click();
 }
 $('#search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{offset=0;selected=null;loadList()},300)});
-$('#statusFilter')?.addEventListener('change',()=>{offset=0;selected=null;loadList()});
 $('#prev').onclick=()=>{offset=Math.max(0,offset-PAGE_SIZE);selected=null;loadList();$('#list').scrollTop=0};
 $('#next').onclick=()=>{offset+=PAGE_SIZE;selected=null;loadList();$('#list').scrollTop=0};
 document.addEventListener('keydown',e=>{
@@ -263,7 +261,6 @@ function updateCountryUI(){
   const source=x.backend==='github'?'data přímo z GitHubu · '+x.sequencePath:x.backend==='neon'?'data přímo z Neonu · '+x.table:'data přímo ze Supabase';
   $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · '+source;
   $('#search').placeholder='Hledat PSČ nebo město…';
-  const filter=$('#statusFilter');if(filter){filter.hidden=country!=='IT';if(country!=='IT')filter.value='all';}
   document.querySelectorAll('.country').forEach(b=>b.classList.toggle('active',b.dataset.country===country));
 }
 document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{
