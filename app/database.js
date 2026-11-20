@@ -5,8 +5,13 @@ const PAGE_SIZE=60;
 const COUNTRY_CONFIG={
   DE:{name:'Německo',from:'01067',backend:'supabase'},
   CZ:{name:'Česko',from:'10000',backend:'supabase'},
-  SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'}
+  SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'},
+  IT:{name:'Itálie',from:'00010',backend:'neon',table:'public.italy_cap_records'}
 };
+const ITALY_API_URL='https://br-wispy-glade-bgorspmq-traveldatabase.compute.c-9.eu-central-1.aws.neon.tech';
+function getItalyToken(){let token=sessionStorage.getItem('travel_italy_api_token');if(!token){token=prompt('Přístupový klíč pro interní italskou databázi:');if(token)sessionStorage.setItem('travel_italy_api_token',token.trim());}return (token||'').trim();}
+async function italyApi(path){const token=getItalyToken();if(!token)throw Error('Pro přístup k italské databázi je potřeba zadat přístupový klíč.');const r=await fetch(ITALY_API_URL+path,{headers:{Accept:'application/json',Authorization:'Bearer '+token}});if(r.status===401){sessionStorage.removeItem('travel_italy_api_token');throw Error('Přístupový klíč není platný. Obnov stránku a zadej ho znovu.');}if(!r.ok){let m='HTTP '+r.status;try{const e=await r.json();m+=' — '+(e.error||'')}catch{}throw Error(m);}return r.json();}
+const statusLabel={inventory:'Inventář · bez JSON',researching:'Rozpracováno',review:'Ke kontrole',published:'Publikováno'};
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
 let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
 let listRequestId=0, selectionRequestId=0;
@@ -95,10 +100,24 @@ function listQuery(){
   if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&postal_code=eq.'+encodeURIComponent(safe);
   return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
+async function loadItalyList(requestId){
+  $('#list').innerHTML='<div class="loading">Načítám italské CAP z Neonu…</div>';
+  try{
+    const params=new URLSearchParams({limit:String(PAGE_SIZE),offset:String(offset),q:$('#search').value.trim(),status:$('#statusFilter')?.value||'all'});
+    const data=await italyApi('/api/italy/caps?'+params.toString());
+    if(requestId!==listRequestId||country!=='IT')return;
+    total=data.total;rows=(data.rows||[]).map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,has_record:x.has_record}));
+    renderList();
+    const current=selectedPostcode();
+    if(!current||!rows.some(x=>x.postal_code===current)){if(rows[0])select(rows[0].postal_code,false);else renderDetail(null);}
+    else select(current,false);
+  }catch(e){if(requestId===listRequestId&&country==='IT'){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>';$('#count').textContent='Chyba';}}
+}
 async function loadList(){
   const requestId=++listRequestId;
   const requestedCountry=country;
   if(COUNTRY_CONFIG[requestedCountry]?.backend==='github')return loadSlovakiaList(requestId,requestedCountry);
+  if(COUNTRY_CONFIG[requestedCountry]?.backend==='neon')return loadItalyList(requestId);
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
   try{
     const r=await api(listQuery());
@@ -116,7 +135,7 @@ function renderList(){
   $('#list').innerHTML=rows.length?rows.map(r=>{
     const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;
     const status=r.status||cached?.status;
-    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):'—');
+    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):country==='IT'?(statusLabel[status]||'—'):'—');
     return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>';
   }).join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
@@ -129,6 +148,12 @@ async function select(pc,scroll=true){
   selected=pc;renderList();
   renderDetail({loading:true});
   try{
+    if(COUNTRY_CONFIG[country]?.backend==='neon'){
+      const item=await italyApi('/api/italy/caps/'+encodeURIComponent(pc));
+      if(requestId!==selectionRequestId||requestedCountry!==country)return;
+      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,record:null,updated_at:item.updated_at};
+      renderDetail(selected);if(scroll)window.scrollTo({top:0,behavior:'smooth'});return;
+    }
     if(COUNTRY_CONFIG[country]?.backend==='github'){
       const record=await getSlovakiaRecord(pc);
       if(requestId!==selectionRequestId||requestedCountry!==country)return;
@@ -159,6 +184,11 @@ function renderDetail(data){
   if(!data){el.innerHTML='<div class="empty">Vyber PSČ vlevo.</div>';return}
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
+  if(country==='IT'&&!data.record){
+    const status=data.workflow_status||data.status||'inventory';
+    el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Itálie · CAP inventář</div><div class="meta"><span class="badge">'+esc(statusLabel[status]||status)+'</span><br>Zdroj: Neon · italy_cap_records · JSON zatím není vložen</div></div></div><div class="section-title">Pracovní stav</div><div class="empty">Tento CAP je v inventáři, ale zatím nemá kompletní JSON záznam. Po reworku se zde zobrazí celý obsah včetně faktů, zdrojů, souřadnic a sedmi jazykových verzí.</div><details class="raw"><summary>Zobrazit surový stav záznamu</summary><pre class="json">'+esc(JSON.stringify({postcode:data.postcode,workflow_status:status,record:null,updated_at:data.updated_at},null,2))+'</pre></details>';
+    return;
+  }
   if(country==='SK'&&data.status==='placeholder'){
     el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Slovensko</div><div class="meta"><span class="badge">placeholder</span><br>Zdroj: GitHub · '+esc(COUNTRY_CONFIG.SK.recordsPath)+esc(data.postcode)+'.json</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div><div class="section-title">Stav záznamu</div><div class="empty">Toto PSČ je zatím pouze prázdný placeholder. Po kompletním reworku se zde zobrazí město, okres, kraj, fakta, zdroje a všech sedm jazykových verzí.</div><details class="raw"><summary>Zobrazit celý surový JSON</summary><pre class="json">'+esc(JSON.stringify(data,null,2))+'</pre></details>';
     $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data,null,2));
@@ -167,7 +197,7 @@ function renderDetail(data){
   }
   const facts=factData(data);
   const langNames={cs:'Čeština',de:'Deutsch',en:'English',es:'Español',fr:'Français',it:'Italiano'};
-  if(country==='SK')langNames.nl='Nederlands';
+  if(country==='SK'||country==='IT')langNames.nl='Nederlands';
   const originalFacts=data.facts||[];
   el.innerHTML=
     '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(data.status||'—')+'</span> <span class="badge">V'+esc(data.data_version??'—')+'</span><br>'+
@@ -188,7 +218,7 @@ function renderDetail(data){
       '</article>'
     }).join(''):'<div class="empty">Pro tento jazyk nejsou fakta k dispozici.</div>')+'</div>'+
     '<div class="section-title">Ověření</div><div class="meta">'+
-    'PLZ zdroj: '+esc(data.verification?.plz_source||'—')+' · geografická data: '+(data.verification?.geographic_test_data?'✓':'—')+' · access point: '+(data.verification?.access_point_verified?'✓':'—')+'</div>'+
+    'Zdroj PSČ: '+esc(data.verification?.postcode_source||data.verification?.plz_source||'—')+' · geografická data: '+(data.verification?.geographic_test_data?'✓':'—')+' · access point: '+(data.verification?.access_point_verified?'✓':'—')+'</div>'+
     '<details class="raw"><summary>Zobrazit celý surový JSON</summary><pre class="json">'+esc(JSON.stringify(data,null,2))+'</pre></details>';
   document.querySelectorAll('.lang').forEach(b=>b.onclick=()=>{language=b.dataset.lang;renderDetail(data)});
   $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data,null,2)).then(()=>{const b=$('#copyBtn');b.textContent='✓ Zkopírováno';setTimeout(()=>b.textContent='📋 Kopírovat JSON',1200)});
@@ -209,13 +239,14 @@ function updateCountryUI(){
   const source=x.backend==='github'?'data přímo z GitHubu · '+x.sequencePath:'data přímo ze Supabase';
   $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · '+source;
   $('#search').placeholder='Hledat PSČ nebo město…';
+  const filter=$('#statusFilter');if(filter){filter.hidden=country!=='IT';if(country!=='IT')filter.value='all';}
   document.querySelectorAll('.country').forEach(b=>b.classList.toggle('active',b.dataset.country===country));
 }
 document.querySelectorAll('.country').forEach(b=>b.onclick=()=>{
   country=b.dataset.country;
   offset=0; total=null; rows=[]; selected=null;
   listRequestId++; selectionRequestId++;
-  language=(country==='CZ'||country==='SK')?'cs':'de';
+  language=(country==='CZ'||country==='SK'||country==='IT')?'cs':'de';
   $('#count').textContent='Načítám…';
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
   renderDetail(null);
