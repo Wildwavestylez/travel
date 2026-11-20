@@ -307,7 +307,7 @@ At the start of a work session:
 2. Load this prompt and any approved Italian source/sequence reference documents that actually exist.
 3. Record their current commit/version identifiers.
 4. Reuse them for subsequent CAPs in the same session unless a version changes, a file is incomplete or a concrete conflict appears.
-5. Do not assume an Italian sequence, reference inventory, database table or production workflow exists merely because the Czech or German project has one.
+5. Do not copy Czech or German sequence contents, postal assignments or storage semantics into Italy. Use the currently committed Italian sequence/reference files and the established Neon production contract documented in Section 14; verify their current versions before use.
 
 The Italian `sequence.json` has not been established by this prompt. If it does not exist or has not been formally approved, do not invent a canonical CAP sequence, infer its complete scope or treat an ad hoc list as authoritative. Report the missing prerequisite and work only within an explicitly authorised CAP scope.
 
