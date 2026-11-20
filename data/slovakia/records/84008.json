@@ -1,4 +1,233 @@
 {
   "postcode": "84008",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Záhorská Bystrica",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "representative_place": "Podkerepušky – zahrádkářská a rekreační lokalita v Záhorské Bystrici",
+  "representative_point": {
+    "lat": 48.22328,
+    "lon": 17.03917
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Podkerepušky – 16,6 hektaru zahrádkářské a rekreační krajiny",
+      "text": "Podkerepušky jsou jednou ze tří stabilizovaných rekreačních lokalit městské části Bratislava-Záhorská Bystrica. Městská část uvádí rozlohu 16,6 hektaru a 95 přihlášených obyvatel. Územní plán je vede jako zemědělskou zeleň a půdu určenou pro zahrady, zahrádkářské a chatové osady (funkční kód 1203). Charakter území tvoří zahrady a rekreační objekty s různou mírou zastavění a technického vybavení; stabilizovaný režim omezuje novou výstavbu tak, aby respektovala měřítko a podobu lokality. Adresní body PSČ 840 08 jsou soustředěny v Záhorské Bystrici a jejich reprezentativní poloha leží v oblasti Podkerepušek.",
+      "category": "tourism_and_surroundings",
+      "priority": "D",
+      "sources": [
+        "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/"
+      ],
+      "map_category": "park_garden",
+      "location": {
+        "name": "Podkerepušky – zahrádkářská a rekreační lokalita (reprezentativní bod)",
+        "address": null,
+        "lat": 48.22328,
+        "lon": 17.03917,
+        "type": "garden",
+        "accuracy": "area_representative",
+        "source": "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Podkerepušky – proměna zahrádkářské kolonie v obytnou čtvrť",
+      "text": "Jižní okraj Podkerepušek se postupně mění z krajiny zahrad a ovocných sadů na trvalé bydlení. Dokumentace EIA k obytnému souboru Podkerepušky uvádí, že řešené území bylo původně využíváno jako zahrady a ovocné sady, ale v době přípravy projektu už nebylo zemědělsky ani sadovnicky využíváno. Následné projekty Bývanie Záhorská a Orešianky navázaly na stávající zahrádkářskou kolonii výstavbou infrastruktury a rodinných domů; dokumentace další etapy počítala také s veřejnou zelení, odpočinkovými plochami a dětskými hřišti. Jde o výraznou proměnu okraje městské části, kde se rekreační zahrady postupně prolínají s novou obytnou zástavbou.",
+      "category": "architecture_and_urbanism",
+      "priority": "D",
+      "sources": [
+        "https://www.enviroportal.sk/eia/dokument/309435?uid=d8cb29f4d8740cc5303a774c6d8a8b32cefba8f1",
+        "https://www.enviroportal.sk/eia/dokument/319152?uid=fa7d2813617bc666c3bdb563f0e9146b3d018173",
+        "https://www.yimba.sk/obytny-subor-zahorska/priprava-projektu-byvanie-zahorska-uz-prebieha-bytove-domy-maju-nove-vizualizacie"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Podkerepušky – rozvojová obytná zóna na okraji rekreační osady",
+        "address": null,
+        "lat": 48.22328,
+        "lon": 17.03917,
+        "type": "residential_ensemble",
+        "accuracy": "area_representative",
+        "source": "https://www.enviroportal.sk/eia/dokument/309435?uid=d8cb29f4d8740cc5303a774c6d8a8b32cefba8f1"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálny zoznam pôšt uvádza poštu Bratislava 48 na adrese Gbelská 25 a pod kódom 840 08. Pobočka aj adresné body PSČ 84008 sa nachádzajú v mestskej časti Záhorská Bystrica.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiálny zoznam pôšt; doplnkovo verejný CC0 dataset slovak-postal-codes odvodený z Registra adries SR (RAGEO)",
+    "postcode_source_release": "Oficiálny zoznam pôšt a adresný dataset kontrolované 20. 11. 2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Obslužná pošta Bratislava 48 sa nachádza na adrese Gbelská 25 v mestskej časti Záhorská Bystrica. Oficiálny zoznam Slovenskej pošty uvádza pobočku pod kódom 840 08; fyzická poloha pobočky aj všetky adresné body v doplnkovom RAGEO-odvodenom datasete patria do rovnakej mestskej časti. Administratívne polia sú preto Bratislava, Záhorská Bystrica, okres Bratislava IV, Bratislavský kraj.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO) Ministerstva vnútra SR je primárnym zdrojom adresných bodov. Samostatný export RAGEO nebol získaný; na systematickú kontrolu bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Dataset postal_codes.csv uvádza pre PSČ 84008 celkom 164 adresných bodov, všetky v Bratislave-Záhorskej Bystrici. Dataset postal_code_areas.csv uvádza reprezentatívny bod 48.22328, 17.03917 a obalový rozsah 48.22085–48.22543 N, 17.03470–17.04514 E; nejde o polygonálnu hranicu doručovacej oblasti. Mestská časť eviduje Podkerepušky ako stabilizovanú rekreačnú a záhradkársku lokalitu s rozlohou 16,6 ha a 95 prihlásenými obyvateľmi. Oficiálny zoznam pôšt uvádza obslužnú poštu Bratislava 48 na Gbelskej 25, ktorá sa nachádza v tej istej mestskej časti. Názov Poľný mlyn sa objavuje v sekundárnych adresných a mlynárskych katalógoch pri PSČ 84008, avšak aktuálny obchodný register uvádza prevádzkovú adresu Poľný mlyn 1 s PSČ 84106 a jej poloha leží mimo obalového rozsahu adresných bodov 84008. Historický mlyn preto nie je do tohto záznamu zaradený, kým sa jeho konkrétny adresný bod a poštové priradenie nezosúladia. Presná polygonálna hranica doručovacej oblasti sa netvrdí."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, účinné od 1. 1. 2026",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom: Bratislava 48, Gbelská 25, PSČ 840 08",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – verejný CC0 dataset odvodený z Registra adries SR (RAGEO), README a metodika",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – adresné body a administratívne priradenie (postal_codes.csv)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – súhrn PSČ a reprezentatívne body (postal_code_areas.csv)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Mestská časť Bratislava-Záhorská Bystrica – Podkerepušky: funkčné využitie, rozloha a počet prihlásených obyvateľov",
+      "url": "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/",
+      "type": "official"
+    },
+    {
+      "title": "Enviroportál – EIA: Obytný súbor Podkerepušky, opis pôvodného využitia záhrad a ovocných sadov",
+      "url": "https://www.enviroportal.sk/eia/dokument/309435?uid=d8cb29f4d8740cc5303a774c6d8a8b32cefba8f1",
+      "type": "official"
+    },
+    {
+      "title": "Enviroportál – EIA: Obytný súbor Orešianky, nadväznosť na Podkerepušky a verejná zeleň",
+      "url": "https://www.enviroportal.sk/eia/dokument/319152?uid=fa7d2813617bc666c3bdb563f0e9146b3d018173",
+      "type": "official"
+    },
+    {
+      "title": "YIM.BA – Príprava projektu Bývanie Záhorská, Podkerepušky (2020)",
+      "url": "https://www.yimba.sk/obytny-subor-zahorska/priprava-projektu-byvanie-zahorska-uz-prebieha-bytove-domy-maju-nove-vizualizacie",
+      "type": "news"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Gbelská 25, Bratislava-Záhorská Bystrica, fyzická poloha pošty Bratislava 48",
+      "url": "https://bratislava.oma.sk/u/gbelska/25",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Podkerepušky – zahrádkářská a rekreační lokalita v Záhorské Bystrici",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16,6 hektaru zahrádkářské a rekreační krajiny",
+          "text": "Podkerepušky jsou jednou ze tří stabilizovaných rekreačních lokalit městské části Bratislava-Záhorská Bystrica. Městská část uvádí rozlohu 16,6 hektaru a 95 přihlášených obyvatel. Územní plán je vede jako zemědělskou zeleň a půdu určenou pro zahrady, zahrádkářské a chatové osady (funkční kód 1203). Charakter území tvoří zahrady a rekreační objekty s různou mírou zastavění a technického vybavení; stabilizovaný režim omezuje novou výstavbu tak, aby respektovala měřítko a podobu lokality. Adresní body PSČ 840 08 jsou soustředěny v Záhorské Bystrici a jejich reprezentativní poloha leží v oblasti Podkerepušek."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – proměna zahrádkářské kolonie v obytnou čtvrť",
+          "text": "Jižní okraj Podkerepušek se postupně mění z krajiny zahrad a ovocných sadů na trvalé bydlení. Dokumentace EIA k obytnému souboru Podkerepušky uvádí, že řešené území bylo původně využíváno jako zahrady a ovocné sady, ale v době přípravy projektu už nebylo zemědělsky ani sadovnicky využíváno. Následné projekty Bývanie Záhorská a Orešianky navázaly na stávající zahrádkářskou kolonii výstavbou infrastruktury a rodinných domů; dokumentace další etapy počítala také s veřejnou zelení, odpočinkovými plochami a dětskými hřišti. Jde o výraznou proměnu okraje městské části, kde se rekreační zahrady postupně prolínají s novou obytnou zástavbou."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Podkerepušky – Garten- und Erholungsgebiet in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16,6 Hektar Garten- und Erholungslandschaft",
+          "text": "Podkerepušky ist eines von drei dauerhaft ausgewiesenen Erholungsgebieten im Stadtteil Bratislava-Záhorská Bystrica. Die Stadtteilverwaltung nennt eine Fläche von 16,6 Hektar und 95 gemeldete Einwohner. Der Flächenwidmungsplan führt das Gebiet als landwirtschaftliche Grünfläche und Boden für Gärten, Kleingarten- und Ferienhaussiedlungen (Funktionscode 1203). Prägend sind Gärten und Freizeitgebäude mit unterschiedlicher Bebauungsdichte und technischer Ausstattung. Der Status als stabilisiertes Gebiet begrenzt Neubauten, damit Maßstab und Charakter erhalten bleiben. Die Adresspunkte der Postleitzahl 840 08 liegen in Záhorská Bystrica; ihr repräsentativer Schwerpunkt befindet sich im Gebiet Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – Wandel von der Gartensiedlung zum Wohngebiet",
+          "text": "Am südlichen Rand von Podkerepušky wandelt sich die Landschaft aus Gärten und Obstgärten schrittweise zu dauerhaftem Wohnraum. Die UVP-Unterlagen zum Wohngebiet Podkerepušky halten fest, dass das Gelände ursprünglich als Gärten und Obstplantagen genutzt wurde, zur Projektvorbereitung jedoch nicht mehr landwirtschaftlich oder gärtnerisch bewirtschaftet war. Spätere Projekte Bývanie Záhorská und Orešianky knüpften an die bestehende Gartensiedlung an und sahen Infrastruktur sowie Einfamilienhäuser vor; die Unterlagen für eine weitere Etappe enthielten auch öffentliche Grünflächen, Erholungsbereiche und Spielplätze. So verändert sich der Rand des Stadtteils, an dem Freizeitgärten zunehmend in neue Wohnbebauung übergehen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Podkerepušky – garden and recreational area in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16.6 hectares of gardens and recreational landscape",
+          "text": "Podkerepušky is one of three established recreational areas in the Bratislava-Záhorská Bystrica district. The district authority gives its area as 16.6 hectares and records 95 registered residents. The zoning plan classifies it as agricultural green space and land for gardens, allotments and cottage settlements (functional code 1203). Its character is defined by gardens and recreational buildings with varying levels of development and infrastructure. Its stabilised status limits new construction so that the scale and character of the area are respected. The address points for postcode 840 08 are concentrated in Záhorská Bystrica, with their representative centre in Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – the transition from garden colony to residential district",
+          "text": "The southern edge of Podkerepušky is gradually changing from a landscape of gardens and orchards into permanent housing. The environmental assessment for the Podkerepušky residential complex states that the site was originally used as gardens and orchards, but was no longer farmed or cultivated when the project was prepared. Later projects, Bývanie Záhorská and Orešianky, extended infrastructure and family housing alongside the existing garden colony; documents for a subsequent phase also included public green space, rest areas and playgrounds. This is a significant transformation of the district's edge, where recreational plots are gradually merging with new residential development."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Podkerepušky – zona de jardines y recreo en Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky: 16,6 hectáreas de jardines y paisaje recreativo",
+          "text": "Podkerepušky es una de las tres zonas recreativas estabilizadas del distrito de Bratislava-Záhorská Bystrica. El ayuntamiento indica una superficie de 16,6 hectáreas y 95 residentes empadronados. El plan urbanístico la clasifica como zona verde agrícola y suelo destinado a jardines, huertos y asentamientos de casas de recreo (código funcional 1203). Su carácter está definido por jardines y construcciones recreativas con distintos grados de edificación e infraestructura. Su condición de zona estabilizada limita las nuevas construcciones para preservar la escala y el carácter del lugar. Los puntos de dirección del código postal 840 08 se concentran en Záhorská Bystrica, con su centro representativo en Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky: transformación de colonia de jardines en zona residencial",
+          "text": "El extremo sur de Podkerepušky está pasando gradualmente de un paisaje de jardines y huertos a una zona de viviendas permanentes. La documentación de evaluación ambiental del conjunto residencial Podkerepušky señala que el terreno se utilizaba originalmente como jardines y huertos, pero que ya no tenía uso agrícola ni frutícola cuando se preparó el proyecto. Los proyectos posteriores Bývanie Záhorská y Orešianky ampliaron las infraestructuras y las viviendas unifamiliares junto a la colonia de jardines existente; la documentación de una fase posterior también contempló zonas verdes públicas, áreas de descanso y parques infantiles. Es una transformación importante del borde del distrito, donde las parcelas recreativas se mezclan progresivamente con nuevas viviendas."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Podkerepušky – secteur de jardins et de loisirs à Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16,6 hectares de jardins et de paysage récréatif",
+          "text": "Podkerepušky est l'un des trois secteurs de loisirs stabilisés du quartier de Bratislava-Záhorská Bystrica. La municipalité indique une superficie de 16,6 hectares et 95 habitants enregistrés. Le plan d'urbanisme le classe comme espace vert agricole et terrain destiné aux jardins, jardins familiaux et lotissements de chalets (code fonctionnel 1203). Son caractère est défini par des jardins et des constructions de loisirs présentant différents niveaux de densité et d'équipement. Son statut stabilisé limite les nouvelles constructions afin de préserver l'échelle et le caractère du lieu. Les points d'adresse du code postal 840 08 sont concentrés à Záhorská Bystrica, avec leur centre représentatif à Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – transformation d'une zone de jardins en quartier résidentiel",
+          "text": "La partie sud de Podkerepušky passe progressivement d'un paysage de jardins et de vergers à un secteur d'habitation permanente. Le dossier d'évaluation environnementale du lotissement Podkerepušky indique que le terrain était autrefois utilisé comme jardins et vergers, mais qu'il n'était déjà plus exploité à des fins agricoles ou arboricoles lors de la préparation du projet. Les projets ultérieurs Bývanie Záhorská et Orešianky ont prolongé les infrastructures et les maisons individuelles au contact du lotissement de jardins existant ; les documents d'une phase suivante prévoyaient également des espaces verts publics, des aires de repos et des terrains de jeux. Cette évolution transforme la frange du quartier, où les parcelles de loisirs se mêlent peu à peu aux nouveaux logements."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Podkerepušky – area di giardini e ricreazione a Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16,6 ettari di giardini e paesaggio ricreativo",
+          "text": "Podkerepušky è una delle tre aree ricreative stabilizzate del quartiere di Bratislava-Záhorská Bystrica. Il Comune indica una superficie di 16,6 ettari e 95 residenti registrati. Il piano urbanistico la classifica come area verde agricola e terreno destinato a giardini, orti e insediamenti di villette (codice funzionale 1203). Il suo carattere è definito da giardini e costruzioni ricreative con diversi livelli di edificazione e dotazione tecnica. Lo status stabilizzato limita le nuove costruzioni per rispettare la scala e il carattere del luogo. I punti di indirizzo del CAP 840 08 sono concentrati a Záhorská Bystrica, con il centro rappresentativo nell'area di Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – la trasformazione da colonia di giardini a zona residenziale",
+          "text": "Il margine meridionale di Podkerepušky sta passando gradualmente da un paesaggio di giardini e frutteti a un'area di abitazioni permanenti. La documentazione di valutazione ambientale del complesso residenziale Podkerepušky afferma che il terreno era originariamente utilizzato come giardini e frutteti, ma non era più coltivato quando il progetto fu preparato. I progetti successivi Bývanie Záhorská e Orešianky hanno esteso infrastrutture e case unifamiliari accanto alla colonia di giardini esistente; i documenti di una fase ulteriore prevedevano anche verde pubblico, aree di sosta e parchi giochi. È una trasformazione significativa del margine del quartiere, dove i lotti ricreativi si stanno fondendo gradualmente con nuove abitazioni."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Podkerepušky – tuin- en recreatiegebied in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Podkerepušky – 16,6 hectare tuinen en recreatielandschap",
+          "text": "Podkerepušky is een van de drie bestendige recreatiegebieden in het stadsdeel Bratislava-Záhorská Bystrica. Het stadsdeel vermeldt een oppervlakte van 16,6 hectare en 95 ingeschreven inwoners. Het bestemmingsplan classificeert het als agrarisch groen en grond voor tuinen, volkstuinen en vakantiehuisjes (functiecode 1203). Het karakter wordt bepaald door tuinen en recreatieve gebouwen met uiteenlopende bebouwingsdichtheid en voorzieningen. De status als bestendig gebied beperkt nieuwbouw om de schaal en het karakter van de plek te behouden. De adrespunten van postcode 840 08 liggen geconcentreerd in Záhorská Bystrica, met hun representatieve centrum in Podkerepušky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podkerepušky – de overgang van tuinkolonie naar woonwijk",
+          "text": "Aan de zuidrand van Podkerepušky verandert het landschap van tuinen en boomgaarden geleidelijk in permanente woonbebouwing. De milieueffectrapportage voor het wooncomplex Podkerepušky vermeldt dat het terrein oorspronkelijk als tuinen en boomgaarden werd gebruikt, maar ten tijde van de projectvoorbereiding niet meer agrarisch of als boomgaard werd beheerd. Latere projecten, Bývanie Záhorská en Orešianky, breidden infrastructuur en eengezinswoningen uit naast de bestaande tuinkolonie; documenten voor een volgende fase voorzagen ook in openbaar groen, rustplaatsen en speelplekken. Zo verandert de rand van het stadsdeel, waar recreatieve percelen geleidelijk overgaan in nieuwe woningen."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
