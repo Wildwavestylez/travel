@@ -279,14 +279,18 @@ Primární podklady první dávky:
 102. 74292/fact_001: zkontrolováno všech šest jazykových verzí latinské listiny z roku 1276 a sporu Budislava z Lubojat; zachovány právní souvislosti, role olomoucké kapituly i historická podoba názvu Hluboiat. Překlady věcně odpovídají masteru.
 103. 74292/fact_002: zkontrolováno všech šest překladů kostela sv. Jiří; správně zachycují gotický presbytář, žebrovou klenbu, lidské tváře na konzolách, věž z doby kolem roku 1520, zvon z roku 1523 i luteránské pastory po roce 1571.
 104. 74292/fact_003: zkontrolováno všech šest překladů urbáře z roku 1606; zachován počet 13 sedláků, tři zahradníci, tři mateční rybníčky a robotní povinnosti. Terminologie odpovídá českému historickému kontextu. Read-back: 3/3 master–cs shoda a 0 chybějících jazykových title/text.
+105. 74293/fact_001: zkontrolováno všech šest překladů historie moravské enklávy Slatina; data 1371, 1480 a 1592 i souvislost s fulneckým panstvím zachovány. Opravena francouzská gramatická shoda v titulku.
+106. 74293/fact_002: zkontrolováno všech šest překladů kostela Nanebevzetí Panny Marie a kopie Sixtinské madony; datace, dárce i obnova interiéru v roce 2014 odpovídají masteru.
+107. 74293/fact_003: odstraněno dvojí opakování koupě zámku obcí v roce 1910 a důvodu proti germanizaci; sjednocena časová osa, ručení obyvatel a zápis do zemských desek. Všech šest překladů aktualizováno.
+108. 74293/fact_004: opraven vnitřní rozpor českého masteru, který současně uváděl šestibokou a devítiúhelníkovou věž; zachována šestiboká konstrukce potvrzená překlady. Read-back 4/4 master–cs shoda, 0 chybějících masterů a 0 chybějících jazykových title/text.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 242/261 faktů hotovo (1 452/1 566 textů), zbývá 19 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 246/261 faktů hotovo (1 476/1 566 textů), zbývá 15 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74293/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74301/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
