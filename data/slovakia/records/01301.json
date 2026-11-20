@@ -1,7 +1,7 @@
 {
   "postcode": "01301",
   "city": "Teplička nad Váhom",
-  "district": "Teplička nad Váhom",
+  "district": null,
   "district_type": null,
   "county": "Žilina",
   "state": "Žilinský kraj",
@@ -139,6 +139,42 @@
         "source": "https://www.regionmalafatra.sk/wp-content/uploads/2025/12/Brozura_OOCR_ZIMA_POI_2_SPOJENA_WEB.pdf"
       },
       "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_007",
+      "title": "Kia Slovakia – první evropský závod značky a archeologická krajina pod továrnou",
+      "text": "Výstavba závodu Kia v Tepličce nad Váhom začala na podzim 2004, trvala přibližně 25 měsíců a sériová výroba se rozběhla 6. prosince 2006. Šlo o první výrobní závod Kia Corporation v Evropě; v červnu 2024 zde vyrobili pětimiliontý vůz, hybridní Kia Sportage pro slovenského zákazníka. Před vybudováním rozsáhlého areálu proběhl záchranný archeologický výzkum. V prostoru továrny byly zachyceny stopy pravěkého osídlení, keramika z doby bronzové a železné a pozůstatky zaniklé středověké vesnice z 12.–14. století; územně-plánovací dokumentace zaznamenává i starší komunikační trasy využívané v pravěku a raném středověku. Moderní průmyslový areál tak stojí v krajině, která byla osídlena a propojena cestami dávno před automobilovou výrobou.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://preprod2-press.kia.com/sk/sk/home/media-resouces/press-releases/2024/5--milionte-vozidlo-vyrobene-v-kia-slovakia.html",
+        "https://www.teplickanadvahom.sk/obcan/informujeme-vas-2/5-milionte-auto-v-zavode-kia-slovakia-2873sk.html",
+        "https://archeol.sav.sk/files/AVANS_2005.pdf",
+        "https://www.teplickanadvahom.sk/modules/file_storage/download.php?file=89024e30%7C157"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_008",
+      "title": "Socha sv. Jana Nepomuckého z roku 1789 – návrat na cyklotrasu",
+      "text": "Na staré cestě z Tepličky nad Váhom do Terchové stála kamenná socha sv. Jana Nepomuckého s letopočtem 1789 vytesaným na zadní straně. Po přeložení silnice v roce 1971 se ocitla uprostřed pole; po vybudování továrny Kia zůstala za jejím oplocením a na dlouhá léta se z veřejného prostoru téměř vytratila. Na konci roku 2024 byla přemístěna k cyklotrase na veřejně přístupné místo mezi Tepličkou nad Váhom a Nededzou. Přesun zachycují zápisy obecního zastupitelstva a obec jej představila jako návrat historického prvku do veřejného prostoru. Socha tak znovu připomíná starou cestu do Terchové i místní náboženskou tradici.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://zilina.sp21.sk/a/f8a2a46f-3f03-42dc-8f2b-a2d728744a40/pri-teplicke-nad-vahom-sa-objavila-socha-svatca-ktora-sa-na-roky-stratila-z-dohladu",
+        "https://www.teplickanadvahom.sk/modules/file_storage/download.php?file=78cd25a2%7C708&inline=1"
+      ],
+      "location": {
+        "name": "Socha sv. Jána Nepomuckého pri cyklotrase",
+        "address": "Teplička nad Váhom, Slovensko",
+        "lat": 49.2224617,
+        "lon": 18.8110726,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n13702183359"
+      },
+      "map_category": "historical_monument"
     }
   ],
   "sources": [
@@ -241,6 +277,41 @@
       "title": "Slovak postal codes – postal_code_areas.csv, súhrn geografických údajov PSČ",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
       "type": "other"
+    },
+    {
+      "title": "Kia Slovakia – 5-millionth vehicle produced in Teplička nad Váhom (4 June 2024)",
+      "url": "https://preprod2-press.kia.com/sk/sk/home/media-resouces/press-releases/2024/5--milionte-vozidlo-vyrobene-v-kia-slovakia.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Teplička nad Váhom – 5-millionth car at the Kia Slovakia plant",
+      "url": "https://www.teplickanadvahom.sk/obcan/informujeme-vas-2/5-milionte-auto-v-zavode-kia-slovakia-2873sk.html",
+      "type": "official"
+    },
+    {
+      "title": "Archaeological Institute of the Slovak Academy of Sciences – AVANS 2005 rescue excavation report",
+      "url": "https://archeol.sav.sk/files/AVANS_2005.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Obec Teplička nad Váhom – land-use plan and archaeological findings in the Kia development area",
+      "url": "https://www.teplickanadvahom.sk/modules/file_storage/download.php?file=89024e30%7C157",
+      "type": "official"
+    },
+    {
+      "title": "SP21 – the 1789 statue of St John of Nepomuk returned to the cycling route",
+      "url": "https://zilina.sp21.sk/a/f8a2a46f-3f03-42dc-8f2b-a2d728744a40/pri-teplicke-nad-vahom-sa-objavila-socha-svatca-ktora-sa-na-roky-stratila-z-dohladu",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Teplička nad Váhom – municipal council minutes on moving the statue of St John of Nepomuk (2024)",
+      "url": "https://www.teplickanadvahom.sk/modules/file_storage/download.php?file=78cd25a2%7C708&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "OMA – statue of St John of Nepomuk, Teplička nad Váhom, location and coordinates",
+      "url": "https://poi.oma.sk/n13702183359",
+      "type": "other"
     }
   ],
   "photo": null,
@@ -277,6 +348,16 @@
           "id": "fact_006",
           "title": "Straník – pravěké sídliště a známý start pro paragliding nad Tepličkou",
           "text": "Vrch Straník nad Tepličkou nad Váhom je známý výhledem na Žilinskou kotlinu a jako významný terén pro bezmotorové létání. Startovací plocha leží přibližně v nadmořské výšce 760 metrů a převýšení k přistávací ploše v Tepličce dosahuje zhruba 410 metrů. Straník má vhodné svahy pro termické létání a patří k nejznámějším slovenským místům pro paragliding. Jeho význam je však mnohem starší než moderní létání: archeologové zde zjistili eneolitické osídlení, sídliště lužické kultury z halštatského období a slovanské osídlení z 9. století. Straník tak spojuje pravěkou a raně středověkou krajinu s dnešní leteckou sportovní tradicí."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – první evropský závod značky a archeologická krajina pod továrnou",
+          "text": "Výstavba závodu Kia v Tepličce nad Váhom začala na podzim 2004, trvala přibližně 25 měsíců a sériová výroba se rozběhla 6. prosince 2006. Šlo o první výrobní závod Kia Corporation v Evropě; v červnu 2024 zde vyrobili pětimiliontý vůz, hybridní Kia Sportage pro slovenského zákazníka. Před vybudováním rozsáhlého areálu proběhl záchranný archeologický výzkum. V prostoru továrny byly zachyceny stopy pravěkého osídlení, keramika z doby bronzové a železné a pozůstatky zaniklé středověké vesnice z 12.–14. století; územně-plánovací dokumentace zaznamenává i starší komunikační trasy využívané v pravěku a raném středověku. Moderní průmyslový areál tak stojí v krajině, která byla osídlena a propojena cestami dávno před automobilovou výrobou."
+        },
+        {
+          "id": "fact_008",
+          "title": "Socha sv. Jana Nepomuckého z roku 1789 – návrat na cyklotrasu",
+          "text": "Na staré cestě z Tepličky nad Váhom do Terchové stála kamenná socha sv. Jana Nepomuckého s letopočtem 1789 vytesaným na zadní straně. Po přeložení silnice v roce 1971 se ocitla uprostřed pole; po vybudování továrny Kia zůstala za jejím oplocením a na dlouhá léta se z veřejného prostoru téměř vytratila. Na konci roku 2024 byla přemístěna k cyklotrase na veřejně přístupné místo mezi Tepličkou nad Váhom a Nededzou. Přesun zachycují zápisy obecního zastupitelstva a obec jej představila jako návrat historického prvku do veřejného prostoru. Socha tak znovu připomíná starou cestu do Terchové i místní náboženskou tradici."
         }
       ]
     },
@@ -312,6 +393,16 @@
           "id": "fact_006",
           "title": "Straník – prähistorische Siedlung und bekannter Gleitschirmstart über Teplička",
           "text": "Der Berg Straník bietet einen weiten Blick über das Žilinaer Becken und ist ein bekannter Startplatz für Gleitschirmflieger. Der Start liegt auf etwa 760 Metern Höhe. Archäologen fanden hier eneolithische Spuren, eine Siedlung der Lausitzer Kultur und slawische Besiedlung aus dem 9. Jahrhundert."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – Europas erstes Kia-Werk und eine archäologische Landschaft unter der Fabrik",
+          "text": "Der Bau des Kia-Werks in Teplička nad Váhom begann im Herbst 2004 und dauerte etwa 25 Monate; die Serienproduktion startete am 6. Dezember 2006. Es war das erste Kia-Produktionswerk in Europa. Im Juni 2024 lief dort das fünfmillionste Fahrzeug vom Band, ein Hybrid-Kia Sportage für einen slowakischen Kunden. Vor dem Bau des großen Industrieareals fanden Rettungsgrabungen statt. Im Werksgelände wurden Spuren prähistorischer Besiedlung, Keramik aus Bronze- und Eisenzeit sowie Reste eines verlassenen mittelalterlichen Dorfes aus dem 12.–14. Jahrhundert entdeckt. Planungsunterlagen verzeichnen auch ältere Verkehrswege aus vorgeschichtlicher und frühmittelalterlicher Zeit. Das moderne Industriegebiet liegt somit in einer Landschaft, die lange vor der Automobilproduktion besiedelt und durchquert wurde."
+        },
+        {
+          "id": "fact_008",
+          "title": "Statue des heiligen Johannes Nepomuk von 1789 – Rückkehr an den Radweg",
+          "text": "An der alten Straße von Teplička nad Váhom nach Terchová stand eine steinerne Statue des heiligen Johannes Nepomuk mit der auf der Rückseite eingemeißelten Jahreszahl 1789. Nach der Verlegung der Straße 1971 stand sie mitten auf einem Feld; nach dem Bau des Kia-Werks blieb sie hinter dessen Zaun verborgen und verschwand für viele Jahre aus dem öffentlichen Raum. Ende 2024 wurde sie an einen öffentlich zugänglichen Platz am Radweg zwischen Teplička nad Váhom und Nededza versetzt. Die Verlegung ist in den Gemeinderatsprotokollen dokumentiert und wurde von der Gemeinde als Rückkehr eines historischen Elements in den öffentlichen Raum vorgestellt. Die Statue erinnert wieder an die alte Straße nach Terchová und an die religiöse Tradition des Ortes."
         }
       ]
     },
@@ -347,6 +438,16 @@
           "id": "fact_006",
           "title": "Straník – a prehistoric settlement and a renowned paragliding launch above Teplička",
           "text": "Straník overlooks the Žilina Basin and is a well-known paragliding launch at about 760 metres above sea level. Archaeologists have identified Eneolithic remains, a Lusatian-culture settlement and Slavic occupation dating to the 9th century."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – Europe’s first Kia plant and an archaeological landscape beneath the factory",
+          "text": "Construction of the Kia plant in Teplička nad Váhom began in autumn 2004 and took about 25 months; series production started on 6 December 2006. It was Kia Corporation’s first manufacturing plant in Europe. In June 2024 the five-millionth vehicle was produced there, a hybrid Kia Sportage for a Slovak customer. Rescue archaeology carried out before the large industrial complex was built uncovered traces of prehistoric settlement, Bronze and Iron Age pottery, and remains of an abandoned medieval village dating from the 12th–14th centuries. Municipal planning documents also record older communication routes used in prehistoric and early medieval times. The modern industrial complex therefore stands in a landscape inhabited and crossed long before car manufacturing."
+        },
+        {
+          "id": "fact_008",
+          "title": "Statue of St John of Nepomuk, dated 1789 – returned to the cycle route",
+          "text": "A stone statue of St John of Nepomuk, with the year 1789 carved on its back, once stood beside the old road from Teplička nad Váhom to Terchová. After the road was rerouted in 1971, the statue ended up in the middle of a field; after the Kia plant was built, it remained behind the factory fence and largely disappeared from public view. At the end of 2024 it was moved to an accessible public place beside the cycle route between Teplička nad Váhom and Nededza. Municipal council minutes document the move, which the village presented as the return of a historic feature to public space. The statue once again recalls the old road to Terchová and the village’s religious tradition."
         }
       ]
     },
@@ -382,6 +483,16 @@
           "id": "fact_006",
           "title": "Straník: asentamiento prehistórico y conocido punto de despegue para parapente sobre Teplička",
           "text": "Straník ofrece vistas sobre la cuenca de Žilina y es un conocido punto de despegue para parapente, a unos 760 metros de altitud. Los arqueólogos han identificado allí restos eneolíticos, un asentamiento de la cultura de Lusacia y ocupación eslava del siglo IX."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia: la primera fábrica europea de Kia y un paisaje arqueológico bajo la planta",
+          "text": "La construcción de la fábrica de Kia en Teplička nad Váhom comenzó en otoño de 2004 y duró unos 25 meses; la producción en serie empezó el 6 de diciembre de 2006. Fue la primera planta de producción de Kia Corporation en Europa. En junio de 2024 salió de la línea el vehículo número cinco millones, un Kia Sportage híbrido para un cliente eslovaco. Antes de construir el gran complejo industrial se realizaron excavaciones arqueológicas de urgencia. En el terreno aparecieron huellas de asentamientos prehistóricos, cerámica de la Edad del Bronce y del Hierro y restos de una aldea medieval abandonada de los siglos XII–XIV. Los documentos urbanísticos municipales registran también antiguas rutas utilizadas en la prehistoria y la Alta Edad Media. La moderna zona industrial se encuentra así en un paisaje habitado y recorrido mucho antes de la industria automovilística."
+        },
+        {
+          "id": "fact_008",
+          "title": "Estatua de San Juan Nepomuceno de 1789: regreso al carril bici",
+          "text": "Junto al antiguo camino de Teplička nad Váhom a Terchová había una estatua de piedra de San Juan Nepomuceno con el año 1789 grabado en la parte posterior. Tras modificar el trazado de la carretera en 1971, quedó en medio de un campo; después de construirse la fábrica Kia permaneció detrás de su valla y desapareció durante años de la vista pública. A finales de 2024 fue trasladada a un lugar público y accesible junto al carril bici entre Teplička nad Váhom y Nededza. El traslado consta en las actas del ayuntamiento y el municipio lo presentó como la recuperación de un elemento histórico para el espacio público. La estatua vuelve a recordar el antiguo camino hacia Terchová y la tradición religiosa local."
         }
       ]
     },
@@ -417,6 +528,16 @@
           "id": "fact_006",
           "title": "Straník – un site préhistorique et un célèbre décollage de parapente au-dessus de Teplička",
           "text": "Straník offre une vue sur le bassin de Žilina et constitue un site réputé de décollage de parapente, à environ 760 mètres d’altitude. Les archéologues y ont identifié des traces énéolithiques, un habitat de la culture lusacienne et une occupation slave du IXe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – la première usine européenne de Kia et un paysage archéologique sous le site industriel",
+          "text": "La construction de l’usine Kia à Teplička nad Váhom commença à l’automne 2004 et dura environ 25 mois ; la production en série débuta le 6 décembre 2006. Il s’agissait du premier site de production de Kia Corporation en Europe. En juin 2024, le cinq-millionième véhicule y fut fabriqué, un Kia Sportage hybride destiné à un client slovaque. Des fouilles archéologiques de sauvetage furent menées avant l’aménagement du vaste complexe industriel. Le site a livré des traces d’occupation préhistorique, des céramiques de l’âge du Bronze et du Fer, ainsi que les vestiges d’un village médiéval abandonné des XIIe–XIVe siècles. Les documents d’urbanisme communaux recensent également d’anciens itinéraires utilisés à la préhistoire et au haut Moyen Âge. Le complexe industriel moderne se trouve ainsi dans un paysage habité et traversé bien avant l’automobile."
+        },
+        {
+          "id": "fact_008",
+          "title": "Statue de saint Jean Népomucène de 1789 – retour près de la piste cyclable",
+          "text": "Une statue en pierre de saint Jean Népomucène, portant la date 1789 gravée au dos, se trouvait autrefois près de l’ancienne route de Teplička nad Váhom à Terchová. Après le déplacement de la route en 1971, elle se retrouva au milieu d’un champ ; après la construction de l’usine Kia, elle resta derrière la clôture du site et disparut longtemps de la vue du public. À la fin de 2024, elle fut transférée vers un emplacement accessible au public près de la piste cyclable entre Teplička nad Váhom et Nededza. Le transfert figure dans les procès-verbaux du conseil municipal et la commune l’a présenté comme le retour d’un élément historique dans l’espace public. La statue rappelle à nouveau l’ancienne route vers Terchová et la tradition religieuse locale."
         }
       ]
     },
@@ -452,6 +573,16 @@
           "id": "fact_006",
           "title": "Straník – insediamento preistorico e famoso punto di decollo per il parapendio sopra Teplička",
           "text": "Straník offre una vista sulla conca di Žilina ed è un noto punto di decollo per il parapendio, a circa 760 metri di altitudine. Gli archeologi vi hanno individuato resti eneolitici, un insediamento della cultura lusaziana e una presenza slava del IX secolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – il primo stabilimento europeo Kia e il paesaggio archeologico sotto la fabbrica",
+          "text": "La costruzione dello stabilimento Kia a Teplička nad Váhom iniziò nell’autunno del 2004 e durò circa 25 mesi; la produzione in serie partì il 6 dicembre 2006. Fu il primo impianto produttivo di Kia Corporation in Europa. Nel giugno 2024 vi fu prodotto il veicolo numero cinque milioni, una Kia Sportage ibrida destinata a un cliente slovacco. Prima della costruzione del grande complesso industriale furono condotti scavi archeologici di emergenza. Nell’area emersero tracce di insediamenti preistorici, ceramiche dell’età del Bronzo e del Ferro e resti di un villaggio medievale abbandonato del XII–XIV secolo. I documenti urbanistici comunali registrano anche antichi percorsi utilizzati nella preistoria e nell’alto Medioevo. Il moderno complesso industriale sorge quindi in un paesaggio abitato e attraversato molto prima dell’industria automobilistica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Statua di San Giovanni Nepomuceno del 1789 – ritorno presso la pista ciclabile",
+          "text": "Una statua in pietra di San Giovanni Nepomuceno, con la data 1789 incisa sul retro, si trovava un tempo accanto alla vecchia strada da Teplička nad Váhom a Terchová. Dopo la modifica del tracciato stradale nel 1971 finì in mezzo a un campo; dopo la costruzione dello stabilimento Kia rimase dietro la recinzione industriale e per anni scomparve dalla vista del pubblico. Alla fine del 2024 fu trasferita in un luogo accessibile vicino alla pista ciclabile tra Teplička nad Váhom e Nededza. Il trasferimento è documentato nei verbali del consiglio comunale e fu presentato dal comune come il ritorno di un elemento storico nello spazio pubblico. La statua ricorda nuovamente l’antica strada per Terchová e la tradizione religiosa locale."
         }
       ]
     },
@@ -487,12 +618,22 @@
           "id": "fact_006",
           "title": "Straník – een prehistorische nederzetting en bekende startplaats voor paragliding boven Teplička",
           "text": "Straník biedt uitzicht over het Žilina-bekken en is een bekende startplaats voor paragliding op ongeveer 760 meter hoogte. Archeologen hebben er eneolithische resten, een nederzetting van de Lausitzcultuur en Slavische bewoning uit de negende eeuw vastgesteld."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kia Slovakia – Kia’s eerste Europese fabriek en een archeologisch landschap onder het fabrieksterrein",
+          "text": "De bouw van de Kia-fabriek in Teplička nad Váhom begon in het najaar van 2004 en duurde ongeveer 25 maanden; de serieproductie startte op 6 december 2006. Het was de eerste productiefabriek van Kia Corporation in Europa. In juni 2024 rolde er het vijfmiljoenste voertuig van de band, een hybride Kia Sportage voor een Slowaakse klant. Vóór de aanleg van het grote industrieterrein werden noodopgravingen uitgevoerd. Op het terrein werden sporen van prehistorische bewoning, aardewerk uit de bronstijd en ijzertijd en resten van een verlaten middeleeuws dorp uit de 12e–14e eeuw gevonden. Gemeentelijke planningsdocumenten registreren ook oudere routes die in de prehistorie en vroege middeleeuwen werden gebruikt. Het moderne industriegebied ligt dus in een landschap dat al lang vóór de auto-industrie bewoond en doorkruist werd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Beeld van Sint-Jan Nepomuk uit 1789 – terug bij het fietspad",
+          "text": "Een stenen beeld van Sint-Jan Nepomuk, met het jaartal 1789 op de achterkant, stond vroeger langs de oude weg van Teplička nad Váhom naar Terchová. Nadat de weg in 1971 werd verlegd, kwam het midden in een veld te staan; na de bouw van de Kia-fabriek bleef het achter het fabrieksterreinhek verborgen en verdween het jarenlang uit het openbare zicht. Eind 2024 werd het verplaatst naar een toegankelijke plek bij het fietspad tussen Teplička nad Váhom en Nededza. De gemeenteraadsnotulen documenteren de verplaatsing, die de gemeente presenteerde als de terugkeer van een historisch element naar de openbare ruimte. Het beeld herinnert opnieuw aan de oude weg naar Terchová en de plaatselijke religieuze traditie."
         }
       ]
     }
   },
   "verification": {
-    "plz_source": "Slovenská pošta uvádza pobočku Teplička nad Váhom na Námestí sv. Floriána 290/2 s PSČ 01301; rovnakú adresu a GPS zverejňuje oficiálna stránka obce. Verejný dataset odvodený z Registra adries SR priraďuje PSČ 01301 k obci Teplička nad Váhom.",
+    "plz_source": "Slovenská pošta a oficiálna stránka obce uvádzajú Poštu Teplička nad Váhom na Námestí sv. Floriána 290/2 s PSČ 01301; rovnakú adresu a GPS zverejňuje obec.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
@@ -501,9 +642,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "PSČ 01301 je v adresnom datasete priradené k obci Teplička nad Váhom; dataset eviduje 1 455 adresných bodov v tejto obci. Pošta Teplička nad Váhom sa nachádza na Námestí sv. Floriána 290/2. Adresu, GPS a otváracie hodiny zverejňuje oficiálna stránka obce; zoznam Slovenskej pošty z 15. 4. 2023 potvrdzuje pobočku na rovnakej adrese a aktuálny prehľad pobočiek uvádza prevádzku aj v októbri 2026. Access point je preto overený.",
+    "delivery_office_note": "PSČ 01301 je v adresnom datasete priradené k obci Teplička nad Váhom; dataset eviduje 1 455 adresných bodov v tejto obci. Pošta Teplička nad Váhom sa nachádza na Námestí sv. Floriána 290/2. Adresu, GPS a otváracie hodiny zverejňuje oficiálna stránka obce; zoznam Slovenskej pošty z 15. 4. 2023 potvrdzuje pobočku na rovnakej adrese a aktuálny prehľad pobočiek uvádza prevádzku aj v októbri 2026. Keďže ide o samostatnú obec bez mestskej časti, city = Teplička nad Váhom a district = null. Reprezentatívny bod zostáva v historickom jadre pri farskom kostole sv. Martina a renesančnom kaštieli.",
     "postcode_override_reason": null,
-    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a poštovú prevádzku. Verejný CC0 dataset odvodený z Registra adries SR priraďuje PSČ 01301 k jednej obci – Teplička nad Váhom – a eviduje 1 455 adresných bodov. Okres Žilina a Žilinský kraj zodpovedajú administratívnemu zaradeniu obce."
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a poštovú prevádzku. Verejný CC0 dataset odvodený z Registra adries SR priraďuje PSČ 01301 k jednej obci – Teplička nad Váhom – a eviduje 1 455 adresných bodov. Okres Žilina a Žilinský kraj zodpovedajú administratívnemu zaradeniu obce. Keďže Teplička nad Váhom nemá samostatnú mestskú časť, pole district zostáva null."
   },
   "status": "validated"
 }
