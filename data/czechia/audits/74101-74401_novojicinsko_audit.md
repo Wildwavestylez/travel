@@ -276,14 +276,17 @@ Primární podklady první dávky:
 99. 74291/fact_001: opraveny nepřirozené doslovné překlady pojmu vodní tvrz (zejména angličtina, španělština a italština); terminologie nyní odpovídá opevněnému panskému sídlu s vodním příkopem. Upřesněn i název archeologického registru.
 100. 74291/fact_002: zkontrolováno všech šest překladů gotického kostela sv. Jana Křtitele a historického areálu; terminologie stavebních prvků odpovídá českému masteru, bez nutnosti dalších zásahů.
 101. 74291/fact_003: sjednocen překlad vodní tvrze s fact_001 a zpřesněna terminologie opevněného sídla a vesnické struktury; read-back potvrdil 3/3 master–cs shodu, 0 chybějících jazykových title/text a 3/3 faktů kompletní v de/en/es/fr/it/nl.
+102. 74292/fact_001: zkontrolováno všech šest jazykových verzí latinské listiny z roku 1276 a sporu Budislava z Lubojat; zachovány právní souvislosti, role olomoucké kapituly i historická podoba názvu Hluboiat. Překlady věcně odpovídají masteru.
+103. 74292/fact_002: zkontrolováno všech šest překladů kostela sv. Jiří; správně zachycují gotický presbytář, žebrovou klenbu, lidské tváře na konzolách, věž z doby kolem roku 1520, zvon z roku 1523 i luteránské pastory po roce 1571.
+104. 74292/fact_003: zkontrolováno všech šest překladů urbáře z roku 1606; zachován počet 13 sedláků, tři zahradníci, tři mateční rybníčky a robotní povinnosti. Terminologie odpovídá českému historickému kontextu. Read-back: 3/3 master–cs shoda a 0 chybějících jazykových title/text.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 239/261 faktů hotovo (1 434/1 566 textů), zbývá 22 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 242/261 faktů hotovo (1 452/1 566 textů), zbývá 19 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74292/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74293/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
