@@ -391,7 +391,7 @@ Do not combine several unrelated attractions into one overloaded fact merely bec
 
 ### 10.1 Writing quality
 
-Write independent, readable, source-based popular history and cultural/geographic storytelling — not advertising, a bare catalogue or an academic paper.
+Write independent, readable, source-based popular history and cultural/geographic storytelling — not advertising, a bare catalogue or an academic paper. Target an average of approximately 500–600 characters including spaces per fact in the base language. Treat this as an editorial average, not a mechanical per-fact limit; never pad a weak subject to reach it.
 
 - Start with the actual subject or an interesting supported connection.
 - Explain what the place is and why it matters.
