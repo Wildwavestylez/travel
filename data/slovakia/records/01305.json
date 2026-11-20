@@ -1,4 +1,625 @@
 {
   "postcode": "01305",
-  "status": "placeholder"
+  "city": "Belá",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Farní kostel sv. Máří Magdalény v Belej",
+  "representative_point": {
+    "lat": 49.23835,
+    "lon": 18.9401
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Belské skály – vápencové a dolomitové bradlá nad vstupem do Belské doliny",
+      "text": "Nad obcí Belá, při vstupu do Belské doliny v pohoří Malá Fatra, vystupují Belské skály – skalní útvary tvořené vápenci a dolomity. Dříve šlo především o vyhledávané místo horolezců; od roku 2015 je lokalita zpřístupněna také běžným turistům. Z obce k ní vede upravený značený chodník, který překonává potok v Belské dolině po malém mostku a v prudších úsecích využívá zajišťovací řetězy. Výstup trvá přibližně jednu až jednu a půl hodiny. Na trase jsou tři zabezpečené vyhlídky, z nichž se otevírají pohledy do Belské doliny, na Žilinskou kotlinu i na samotnou Belou. Skály tak spojují geologickou zajímavost s dobře čitelným pohledem na krajinu, v níž se obec rozvíjela.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.bela.sk/obec/cestovny-ruch-a-turizmus/",
+        "https://www.bela.sk/obec/vseobecne/"
+      ],
+      "location": {
+        "name": "Belské skaly – značená vyhlídková trasa",
+        "address": null,
+        "lat": 49.220953,
+        "lon": 18.955165,
+        "type": "viewpoint",
+        "accuracy": "exact",
+        "source": "https://www.bela.sk/obec/cestovny-ruch-a-turizmus/"
+      },
+      "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_002",
+      "title": "Belá od roku 1378 – valašští pastýři, mlýny a staré hospodářství",
+      "text": "Písemné doklady o Belej na území starohradského panství pocházejí z roku 1378. Tehdy varínský farář Šimon požádal uherského krále Ľudovíta I., aby znovu vymezil majetek kostela v Belej; listina zároveň naznačuje, že ves byla starší než samotný zápis. Roku 1390 se zde připomíná dědičné richtárstvo, tedy dědičný úřad místního rychtáře. V 15. století se do zdejšího prostředí rozšířilo valašské pastevectví a výsady udělené valachům po roce 1475 později potvrdil Vladislav II. V 19. století měla Belá sedm mlýnů a pálenice, vedle rolnictví se rozvíjelo salašnictví a využívání horských pastvin. Dějiny obce proto nejsou jen příběhem jedné staré vsi, ale také proměny hospodaření v údolí Varínky a na přilehlých svazích.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_af3815e6-38c1-4227-b440-0896379c045e",
+        "https://www.bela.sk/obec/historia-obce/"
+      ],
+      "location": {
+        "name": "Belá – orientační bod historického jádra obce",
+        "address": null,
+        "lat": 49.239722,
+        "lon": 18.944167,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.bela.sk/obec/vseobecne/"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Máří Magdalény v Belej – chrám postavený pro dvě sousední obce",
+      "text": "Římskokatolický kostel sv. Máří Magdalény v Belej byl postaven roku 1683 z iniciativy Michala Szmutka, nitranského kanovníka a někdejšího varínského faráře, který stavbu financoval z vlastních prostředků a nadačních výnosů. Kostel stojí na vyvýšeném místě při západním okraji obce a jeho poloha měla být výhodná nejen pro obyvatele Belej, ale také pro věřící z nedaleké Lysice. Zajímavá je i vnitřní konstrukce: starší kanonické vizitace a nápis na chóru připisují financování kleneb Imrichu Pongráczovi, biskupovi z Farensis. Ve věži jsou tři zvony, zděné schody vznikly roku 1794 a poškozená střecha se opravovala v roce 1818. Kostel nebyl konsekrován, přesto po staletí sloužil jako hlavní duchovní bod širšího okolí; farnost Belá se osamostatnila od Varína roku 1788.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.bela.sk/obec/spolocnost-a-komunita/farnost-bela/",
+        "https://dcza.sk/sk/schematizmus/farnosti/bela"
+      ],
+      "location": {
+        "name": "Farní kostel sv. Máří Magdalény v Belej",
+        "address": null,
+        "lat": 49.23835,
+        "lon": 18.9401,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://mapcarta.com/W294381967"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Hôrka v Lysici – národní kulturní památka s nálezy púchovské kultury",
+      "text": "Severně od Lysice vystupuje homolovitý vrch Hôrka, na němž se nachází hrádek evidovaný jako národní kulturní památka pod číslem 2149/1. Archeologické nálezy zde dokládají osídlení púchovské kultury a pozdější využití ve středověku až raném novověku. Odborná zpráva Martina Furmana publikovaná v ročence Archeologické výskumy a nálezy na Slovensku popisuje keramické zlomky, fragment železného nožíku a část bronzového náramku. Terénní dokumentace zachytila také starší výkopy na svazích a terasách kopce; průzkum tak pomohl upřesnit rozsah osídlení na temeni i v jeho bezprostředním okolí. Hôrka není jen místní vyvýšenina s pěkným výhledem: jde o archeologickou lokalitu, která ukazuje, že okolí dnešní Lysice mělo význam už dávno před vznikem středověké vesnice.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://archeol.sav.sk/files/AVANS-2014_na-net.pdf",
+        "https://www.obeclysica.sk/pages/historia"
+      ],
+      "location": {
+        "name": "Hôrka – hrádek a archeologická lokalita v Lysici",
+        "address": null,
+        "lat": 49.2471446,
+        "lon": 18.9234551,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n5486104285"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Lysické kopanice – dřevěná řemesla, domácí tkalcovství a zaniklé osady",
+      "text": "Lysica měla původně řadovou zástavbu podél potoka a její starší podobu doplňovaly roubené domy s podsklepením a hospodářskými stavbami krytými šindelem. Místní obyvatelé se vedle zemědělství a chovu dobytka věnovali salašnictví, výrobě dřevěných šindelů, domácímu tkaní sukna a plátna z lnu i konopí, výrobě koberců a dřevěného nádobí či nářadí. Tato řemesla souvisela s rozptýleným kopaničářským osídlením, v němž jednotlivé osady tvořily samostatné malé krajinné celky. Obecní historie připomíná také osady Kramárovia a Durčovia, které byly během Slovenského národního povstání zničeny německými jednotkami; někteří místní muži zahynuli v koncentračních táborech. Dnešní Lysica tak uchovává paměť nejen tradičního horského hospodaření, ale i zániku části někdejšího osídlení.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "https://www.obeclysica.sk/pages/historia",
+        "https://www.obeclysica.sk/pages/zakladne-udaje-o-obci"
+      ],
+      "location": {
+        "name": "Lysica – orientační bod historického jádra obce",
+        "address": null,
+        "lat": 49.2522173,
+        "lon": 18.9253746,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://lysica.oma.sk/"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Lutiše – požár osady Ústredie a ničivá povodeň roku 1948",
+      "text": "Dějiny Lutiší poznamenaly dvě přírodní a živelní katastrofy, které obecní kronika popisuje s neobvyklou konkrétností. Večer 20. října 1928 začal hořet jeden z místních seníků; silný západní vítr roznesl oheň po osadě Ústredie, která celá vyhořela. Požár zasáhl také farní budovu. O dvacet let později, 25. července 1948, přišel prudký liják, během něhož voda vystoupila z koryta Lutišského potoka a valila se mezi domy. Kronika zaznamenává plovoucí kusy dřeva, stržené mosty a poškozené hospodářské budovy. Nejde tedy o obecnou vzpomínku na „staré povodně“, ale o dva přesně datované zásahy, které změnily podobu osady i každodenní život jejích obyvatel. Zápisy zároveň ukazují, jak zranitelné bylo rozptýlené horské osídlení vůči větru, ohni a přívalové vodě.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://lutise.sk/historia-obce/",
+        "https://lutise.sk/o-obci/"
+      ],
+      "location": {
+        "name": "Lutiše – orientační bod středu obce",
+        "address": null,
+        "lat": 49.2954514,
+        "lon": 18.9568682,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://lutise.oma.sk/"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_007",
+      "title": "Kostel sv. Štěpána v Lutiších – novoklasicistní stavba s příběhem zřícené věže",
+      "text": "Farní kostel sv. Štěpána, uherského krále, patří k nejvýraznějším stavbám Lutiší. Výstavba začala roku 1903 a dokončena byla v roce 1907; podle obecní kroniky ji vedli italští stavitelé a na financování přispěli také obyvatelé okolních obcí. Sotva byla stavba dokončena, zřítila se věž a musela být znovu postavena. Odborný popis řadí kostel k novoklasicismu: jde o jednolodní stavbu s polygonálním presbytářem a štíhlou věží předsazenou před západní průčelí. Vnitřní prostor je zaklenutý, zařízení je převážně pseudogotické a obraz patrona sv. Štěpána pochází z druhé poloviny 19. století. Kostel tak spojuje stavební ambici malé horské obce s prací zahraničních řemeslníků a s příběhem technického selhání, které stavbu provázelo už při jejím vzniku.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://lutise.sk/historia-obce/",
+        "https://www.pamiatkynaslovensku.sk/lutise-kostol-sv-stefana-krala",
+        "https://lutise.sk/o-obci/"
+      ],
+      "location": {
+        "name": "Kostel sv. Štěpána krále v Lutiších",
+        "address": null,
+        "lat": 49.291667,
+        "lon": 18.955029,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/lutise-kostol-sv-stefana-krala"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_008",
+      "title": "Čierna Lutiša – chráněný bukovo-jedlový les v Kysucké vrchovině",
+      "text": "V katastru Lutiší leží přírodní rezervace Čierna Lutiša, vyhlášená 6. března 1972 a chráněná nejvyšším, pátým stupněm ochrany. Rezervace zaujímá 26,35 hektaru lesního půdního fondu a její ochranné pásmo dalších 50,82 hektaru. Rozkládá se v nadmořské výšce přibližně 665 až 904 metrů v Kysucké vrchovině. Předmětem ochrany jsou zachovalé květnaté bukové a jedlovo-bukové lesy, v nichž převládá buk, doplněný jedlí a smrkem. Odborný přehled Správy CHKO Kysuce uvádí také vzácnější rostliny, například Cardamine trifoliata, Hordelymus europaeus a Carex remota, a z velkých šelem medvěda hnědého, vlka a rysa. Hodnota území spočívá v uchování lesních společenstev, která v této části Kysucké vrchoviny představují cenný zbytek přirozenější horské krajiny.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://chkokysuce.sopsr.sk/priroda/mchu/",
+        "https://lutise.sk/o-obci/"
+      ],
+      "location": {
+        "name": "Čierna Lutiša – orientační bod v přírodní rezervaci",
+        "address": null,
+        "lat": 49.3143003,
+        "lon": 18.9867597,
+        "type": "protected_area",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/n2015923890?s=poi"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ https://www.posta.sk/psc bylo konzultováno; přiřazení PSČ 013 05 k poště Belá pri Varíne a seznam doručovaných obcí Belá, Kubíková, Lutiše a Lysica byly dále porovnány s nezávislým PSČ adresářem a údaji o pobočce. Pobočka je fyzicky v Belej na adrese Oslobodenia 183/28.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty a doplňující veřejné poštovní adresáře; online výsledek Slovenské pošty nebyl v této relaci strojově čitelný.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 013 05 je spojeno s poštou Belá pri Varíne; evidovaná adresa pobočky je Oslobodenia 183/28, fyzicky v obci Belá. Doručovací oblast zahrnuje Belou, místní část Kubíková, Lutiše a Lysicu. Pole city proto označuje obec, v níž sídlí pošta, nikoli všechny obce a místní části doručovací oblasti.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální portál slovensko.sk a obecní zdroje pro správní zařazení a polohu obcí; obecní souřadnice a odborné/mapové zdroje pro polohu konkrétních lokalit; Správa CHKO Kysuce pro přírodní rezervaci."
+  },
+  "sources": [
+    {
+      "url": "https://www.posta.sk/psc",
+      "title": "Slovenská pošta – oficiální vyhledávání PSČ",
+      "type": "official"
+    },
+    {
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/01305/",
+      "title": "PSČ 013 05 – seznam obcí a pošta Belá pri Varíne",
+      "type": "regional"
+    },
+    {
+      "url": "https://allslovakia.info/posta/slovenska-posta-oslobodenia-18328-bela",
+      "title": "Pošta Belá pri Varíne – adresa Oslobodenia 183/28 a poloha",
+      "type": "other"
+    },
+    {
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_af3815e6-38c1-4227-b440-0896379c045e",
+      "title": "Ústredný portál verejnej správy – obec Belá, okres Žilina a historie",
+      "type": "official"
+    },
+    {
+      "url": "https://www.bela.sk/obec/vseobecne/",
+      "title": "Obec Belá – geografické údaje, poloha a osady včetně Kubíkové",
+      "type": "official"
+    },
+    {
+      "url": "https://www.bela.sk/obec/historia-obce/",
+      "title": "Obec Belá – historie obce",
+      "type": "official"
+    },
+    {
+      "url": "https://www.bela.sk/obec/spolocnost-a-komunita/farnost-bela/",
+      "title": "Obec Belá – farnost a historie kostela sv. Máří Magdalény",
+      "type": "official"
+    },
+    {
+      "url": "https://dcza.sk/sk/schematizmus/farnosti/bela",
+      "title": "Žilinská diecéze – farnost Belá a filiálky",
+      "type": "official"
+    },
+    {
+      "url": "https://www.bela.sk/obec/cestovny-ruch-a-turizmus/",
+      "title": "Obec Belá – Belské skály, trasa a GPS",
+      "type": "official"
+    },
+    {
+      "url": "https://lutise.sk/historia-obce/",
+      "title": "Obec Lutiše – kronika a historie, požár 1928, povodeň 1948 a kostel",
+      "type": "official"
+    },
+    {
+      "url": "https://lutise.sk/o-obci/",
+      "title": "Obec Lutiše – přírodní a geografické údaje",
+      "type": "official"
+    },
+    {
+      "url": "https://www.pamiatkynaslovensku.sk/lutise-kostol-sv-stefana-krala",
+      "title": "Pamiatky na Slovensku – kostel sv. Štěpána v Lutiších, architektura a GPS",
+      "type": "specialist"
+    },
+    {
+      "url": "https://www.obeclysica.sk/pages/historia",
+      "title": "Obec Lysica – historie, řemesla, osady a Hôrka",
+      "type": "official"
+    },
+    {
+      "url": "https://www.obeclysica.sk/pages/zakladne-udaje-o-obci",
+      "title": "Obec Lysica – geografické údaje a historie osídlení",
+      "type": "official"
+    },
+    {
+      "url": "https://archeol.sav.sk/files/AVANS-2014_na-net.pdf",
+      "title": "Archeologický ústav SAV – Martin Furman, Nové nálezy z hrádku Hôrka v Lysici, AVANS 2014",
+      "type": "university"
+    },
+    {
+      "url": "https://poi.oma.sk/n5486104285",
+      "title": "OpenStreetMap/OMA – Hôrka v Lysici, orientační poloha",
+      "type": "other"
+    },
+    {
+      "url": "https://chkokysuce.sopsr.sk/priroda/mchu/",
+      "title": "Správa CHKO Kysuce – přírodní rezervace Čierna Lutiša, ochrana, rozloha a biotopy",
+      "type": "official"
+    },
+    {
+      "url": "https://www.oma.sk/n2015923890?s=poi",
+      "title": "OpenStreetMap/OMA – Na Čiernej Lutiši, orientační poloha",
+      "type": "other"
+    },
+    {
+      "url": "https://mapcarta.com/W294381967",
+      "title": "OpenStreetMap/Mapcarta – poloha kostela sv. Máří Magdalény v Belej",
+      "type": "other"
+    },
+    {
+      "url": "https://lysica.oma.sk/",
+      "title": "OpenStreetMap/OMA – Lysica, orientační bod sídla",
+      "type": "other"
+    },
+    {
+      "url": "https://lutise.oma.sk/",
+      "title": "OpenStreetMap/OMA – Lutiše, orientační bod sídla",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Farní kostel sv. Máří Magdalény v Belej",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skály – vápencové a dolomitové bradlá nad vstupem do Belské doliny",
+          "text": "Nad obcí Belá, při vstupu do Belské doliny v pohoří Malá Fatra, vystupují Belské skály – skalní útvary tvořené vápenci a dolomity. Dříve šlo především o vyhledávané místo horolezců; od roku 2015 je lokalita zpřístupněna také běžným turistům. Z obce k ní vede upravený značený chodník, který překonává potok v Belské dolině po malém mostku a v prudších úsecích využívá zajišťovací řetězy. Výstup trvá přibližně jednu až jednu a půl hodiny. Na trase jsou tři zabezpečené vyhlídky, z nichž se otevírají pohledy do Belské doliny, na Žilinskou kotlinu i na samotnou Belou. Skály tak spojují geologickou zajímavost s dobře čitelným pohledem na krajinu, v níž se obec rozvíjela."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá od roku 1378 – valašští pastýři, mlýny a staré hospodářství",
+          "text": "Písemné doklady o Belej na území starohradského panství pocházejí z roku 1378. Tehdy varínský farář Šimon požádal uherského krále Ľudovíta I., aby znovu vymezil majetek kostela v Belej; listina zároveň naznačuje, že ves byla starší než samotný zápis. Roku 1390 se zde připomíná dědičné richtárstvo, tedy dědičný úřad místního rychtáře. V 15. století se do zdejšího prostředí rozšířilo valašské pastevectví a výsady udělené valachům po roce 1475 později potvrdil Vladislav II. V 19. století měla Belá sedm mlýnů a pálenice, vedle rolnictví se rozvíjelo salašnictví a využívání horských pastvin. Dějiny obce proto nejsou jen příběhem jedné staré vsi, ale také proměny hospodaření v údolí Varínky a na přilehlých svazích."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel sv. Máří Magdalény v Belej – chrám postavený pro dvě sousední obce",
+          "text": "Římskokatolický kostel sv. Máří Magdalény v Belej byl postaven roku 1683 z iniciativy Michala Szmutka, nitranského kanovníka a někdejšího varínského faráře, který stavbu financoval z vlastních prostředků a nadačních výnosů. Kostel stojí na vyvýšeném místě při západním okraji obce a jeho poloha měla být výhodná nejen pro obyvatele Belej, ale také pro věřící z nedaleké Lysice. Zajímavá je i vnitřní konstrukce: starší kanonické vizitace a nápis na chóru připisují financování kleneb Imrichu Pongráczovi, biskupovi z Farensis. Ve věži jsou tři zvony, zděné schody vznikly roku 1794 a poškozená střecha se opravovala v roce 1818. Kostel nebyl konsekrován, přesto po staletí sloužil jako hlavní duchovní bod širšího okolí; farnost Belá se osamostatnila od Varína roku 1788."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka v Lysici – národní kulturní památka s nálezy púchovské kultury",
+          "text": "Severně od Lysice vystupuje homolovitý vrch Hôrka, na němž se nachází hrádek evidovaný jako národní kulturní památka pod číslem 2149/1. Archeologické nálezy zde dokládají osídlení púchovské kultury a pozdější využití ve středověku až raném novověku. Odborná zpráva Martina Furmana publikovaná v ročence Archeologické výskumy a nálezy na Slovensku popisuje keramické zlomky, fragment železného nožíku a část bronzového náramku. Terénní dokumentace zachytila také starší výkopy na svazích a terasách kopce; průzkum tak pomohl upřesnit rozsah osídlení na temeni i v jeho bezprostředním okolí. Hôrka není jen místní vyvýšenina s pěkným výhledem: jde o archeologickou lokalitu, která ukazuje, že okolí dnešní Lysice mělo význam už dávno před vznikem středověké vesnice."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lysické kopanice – dřevěná řemesla, domácí tkalcovství a zaniklé osady",
+          "text": "Lysica měla původně řadovou zástavbu podél potoka a její starší podobu doplňovaly roubené domy s podsklepením a hospodářskými stavbami krytými šindelem. Místní obyvatelé se vedle zemědělství a chovu dobytka věnovali salašnictví, výrobě dřevěných šindelů, domácímu tkaní sukna a plátna z lnu i konopí, výrobě koberců a dřevěného nádobí či nářadí. Tato řemesla souvisela s rozptýleným kopaničářským osídlením, v němž jednotlivé osady tvořily samostatné malé krajinné celky. Obecní historie připomíná také osady Kramárovia a Durčovia, které byly během Slovenského národního povstání zničeny německými jednotkami; někteří místní muži zahynuli v koncentračních táborech. Dnešní Lysica tak uchovává paměť nejen tradičního horského hospodaření, ale i zániku části někdejšího osídlení."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – požár osady Ústredie a ničivá povodeň roku 1948",
+          "text": "Dějiny Lutiší poznamenaly dvě přírodní a živelní katastrofy, které obecní kronika popisuje s neobvyklou konkrétností. Večer 20. října 1928 začal hořet jeden z místních seníků; silný západní vítr roznesl oheň po osadě Ústredie, která celá vyhořela. Požár zasáhl také farní budovu. O dvacet let později, 25. července 1948, přišel prudký liják, během něhož voda vystoupila z koryta Lutišského potoka a valila se mezi domy. Kronika zaznamenává plovoucí kusy dřeva, stržené mosty a poškozené hospodářské budovy. Nejde tedy o obecnou vzpomínku na „staré povodně“, ale o dva přesně datované zásahy, které změnily podobu osady i každodenní život jejích obyvatel. Zápisy zároveň ukazují, jak zranitelné bylo rozptýlené horské osídlení vůči větru, ohni a přívalové vodě."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kostel sv. Štěpána v Lutiších – novoklasicistní stavba s příběhem zřícené věže",
+          "text": "Farní kostel sv. Štěpána, uherského krále, patří k nejvýraznějším stavbám Lutiší. Výstavba začala roku 1903 a dokončena byla v roce 1907; podle obecní kroniky ji vedli italští stavitelé a na financování přispěli také obyvatelé okolních obcí. Sotva byla stavba dokončena, zřítila se věž a musela být znovu postavena. Odborný popis řadí kostel k novoklasicismu: jde o jednolodní stavbu s polygonálním presbytářem a štíhlou věží předsazenou před západní průčelí. Vnitřní prostor je zaklenutý, zařízení je převážně pseudogotické a obraz patrona sv. Štěpána pochází z druhé poloviny 19. století. Kostel tak spojuje stavební ambici malé horské obce s prací zahraničních řemeslníků a s příběhem technického selhání, které stavbu provázelo už při jejím vzniku."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – chráněný bukovo-jedlový les v Kysucké vrchovině",
+          "text": "V katastru Lutiší leží přírodní rezervace Čierna Lutiša, vyhlášená 6. března 1972 a chráněná nejvyšším, pátým stupněm ochrany. Rezervace zaujímá 26,35 hektaru lesního půdního fondu a její ochranné pásmo dalších 50,82 hektaru. Rozkládá se v nadmořské výšce přibližně 665 až 904 metrů v Kysucké vrchovině. Předmětem ochrany jsou zachovalé květnaté bukové a jedlovo-bukové lesy, v nichž převládá buk, doplněný jedlí a smrkem. Odborný přehled Správy CHKO Kysuce uvádí také vzácnější rostliny, například Cardamine trifoliata, Hordelymus europaeus a Carex remota, a z velkých šelem medvěda hnědého, vlka a rysa. Hodnota území spočívá v uchování lesních společenstev, která v této části Kysucké vrchoviny představují cenný zbytek přirozenější horské krajiny."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Pfarrkirche der heiligen Maria Magdalena in Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skály – Kalk- und Dolomitfelsen über dem Eingang zum Belské-Tal",
+          "text": "Oberhalb von Belá, am Eingang zum Belské-Tal in der Kleinen Fatra, erheben sich die Belské skály, Felsformationen aus Kalkstein und Dolomit. Früher war das Gebiet vor allem bei Kletterern beliebt; seit 2015 ist es auch für Wanderer zugänglich. Ein markierter Weg führt vom Dorf hinauf, überquert den Bach über eine kleine Brücke und ist an steileren Stellen mit Sicherungsketten ausgestattet. Der Aufstieg dauert etwa eine bis anderthalb Stunden. Drei gesicherte Aussichtspunkte bieten Blicke auf das Tal, das Žilinaer Becken und Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá seit 1378 – walachische Hirten, Mühlen und alte Landwirtschaft",
+          "text": "Schriftliche Belege für Belá auf dem Gebiet der Herrschaft Starý hrad stammen aus dem Jahr 1378. Damals bat der Pfarrer von Varín König Ludwig I., den Besitz der Kirche in Belá erneut abzugrenzen. 1390 wird ein erbliches Richteramt erwähnt. Im 15. Jahrhundert breitete sich die walachische Weidewirtschaft aus; Privilegien der Hirten nach 1475 bestätigte später Vladislav II. Im 19. Jahrhundert gab es sieben Mühlen und Brennereien. Neben Ackerbau und Viehzucht waren Almwirtschaft und Bergweiden wichtig."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kirche der heiligen Maria Magdalena in Belá – für zwei Nachbarorte erbaut",
+          "text": "Die Kirche wurde 1683 auf Initiative von Michal Szmutko, einem Nitraer Kanoniker und früheren Pfarrer von Varín, errichtet. Sie steht erhöht am westlichen Ortsrand und sollte auch den Gläubigen aus Lysica dienen. Die Finanzierung der Gewölbe wird Imrich Pongrácz zugeschrieben. Im Turm hängen drei Glocken; die gemauerten Stufen entstanden 1794, das Dach wurde 1818 repariert. Die Kirche wurde nie konsekriert. Die Pfarrei Belá löste sich 1788 von Varín."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Lysica – nationales Kulturdenkmal mit Funden der Púchov-Kultur",
+          "text": "Nördlich von Lysica liegt der Hügel Hôrka mit einer Befestigungsanlage, die als nationales Kulturdenkmal Nr. 2149/1 registriert ist. Funde belegen die Púchov-Kultur sowie eine spätere Nutzung im Mittelalter und in der frühen Neuzeit. Ein Fachbericht von Martin Furman beschreibt Keramikscherben, ein Fragment eines Eisenmessers und einen Teil eines Bronze-Armbands. Ältere Grabungsspuren wurden an Hängen und Terrassen dokumentiert. Hôrka ist damit ein archäologischer Ort, der die lange Nutzung der Landschaft vor der mittelalterlichen Dorfgründung belegt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Kopanitzen von Lysica – Holzhandwerk, Hausweberei und verschwundene Weiler",
+          "text": "Zum älteren Ortsbild von Lysica gehörten Blockhäuser mit Kellern und Wirtschaftsgebäude mit Schindeldächern. Neben Landwirtschaft und Viehzucht betrieben die Einwohner Almwirtschaft, stellten Holzschindeln her und webten zu Hause Wolltuch sowie Leinen- und Hanfstoffe. Sie fertigten auch Teppiche, Holzgeschirr und Werkzeuge. Die Ortsgeschichte erinnert an die Weiler Kramárovia und Durčovia, die während des Slowakischen Nationalaufstands von deutschen Einheiten zerstört wurden; einige Männer starben in Konzentrationslagern."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – der Brand im Weiler Ústredie und das Hochwasser von 1948",
+          "text": "Am Abend des 20. Oktober 1928 geriet eine Scheune in Brand. Starker Westwind trug das Feuer durch den Weiler Ústredie, der vollständig niederbrannte; auch das Pfarrgebäude wurde zerstört. Am 25. Juli 1948 ließ ein heftiger Wolkenbruch den Bach über die Ufer treten. Die Chronik berichtet von treibendem Holz, weggerissenen Brücken und beschädigten Wirtschaftsgebäuden. Diese beiden genau datierten Katastrophen veränderten das Ortsbild und zeigen die Verletzlichkeit verstreuter Bergsiedlungen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kirche des heiligen Stephan in Lutiše – ein neoklassizistischer Bau mit eingestürztem Turm",
+          "text": "Der Bau der Pfarrkirche begann 1903 und wurde 1907 abgeschlossen. Laut Ortschronik leiteten italienische Baumeister die Arbeiten; Einwohner umliegender Dörfer beteiligten sich an den Kosten. Kurz nach der Fertigstellung stürzte der Turm ein und musste wieder aufgebaut werden. Die einschiffige Kirche besitzt einen polygonalen Chor und einen schlanken Turm vor der Westfassade. Die Ausstattung ist überwiegend neugotisch; das Bild des heiligen Stephan stammt aus der zweiten Hälfte des 19. Jahrhunderts."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – geschützter Buchen-Tannen-Wald im Kysuca-Bergland",
+          "text": "Das Naturreservat Čierna Lutiša wurde 1972 ausgewiesen und unterliegt der höchsten, fünften Schutzstufe. Es umfasst 26,35 Hektar Waldfläche sowie eine Schutzzone von 50,82 Hektar und liegt auf etwa 665 bis 904 Metern Höhe. Geschützt werden artenreiche Buchen- und Tannen-Buchenwälder. Die Verwaltung des Landschaftsschutzgebiets Kysuce nennt seltene Pflanzen wie Cardamine trifoliata und Carex remota sowie Braunbär, Wolf und Luchs."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Parish Church of St Mary Magdalene in Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské Skaly – limestone and dolomite cliffs above the entrance to Belské Valley",
+          "text": "Above Belá, at the entrance to Belské Valley in the Malá Fatra range, rise Belské Skaly, rock formations of limestone and dolomite. Once mainly popular with climbers, the area has also been open to hikers since 2015. A marked trail climbs from the village, crosses the stream by a small bridge and uses fixed chains on steeper sections. The walk takes about one to one and a half hours. Three secured viewpoints overlook the valley, the Žilina Basin and Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá since 1378 – Wallachian shepherds, mills and rural life",
+          "text": "Written evidence for Belá within the Starý hrad estate dates to 1378, when the parish priest of Varín asked King Louis I to redefine the church's property. An hereditary local reeve is mentioned in 1390. Wallachian pastoralism spread in the fifteenth century, and privileges granted to shepherds after 1475 were later confirmed by Vladislaus II. In the nineteenth century Belá had seven mills and distilleries. Mountain pastures and sheep-farming were important alongside agriculture and livestock raising."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of St Mary Magdalene in Belá – built to serve two villages",
+          "text": "The church was built in 1683 at the initiative of Michal Szmutko, a Nitra canon and former parish priest of Varín. It stands on raised ground at the western edge of Belá and was also intended to serve worshippers from nearby Lysica. Funding for the vaults is attributed to Imrich Pongrácz. The tower has three bells; masonry steps were built in 1794 and the roof repaired in 1818. The church was never consecrated. The parish became independent of Varín in 1788."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Lysica – a national cultural monument with Púchov-culture finds",
+          "text": "North of Lysica, Hôrka is a hilltop fortified site registered as a national cultural monument under number 2149/1. Finds document the Púchov culture and later medieval and early modern use. A specialist report by Martin Furman describes pottery fragments, part of an iron knife and a fragment of a bronze bracelet. Older excavations were also recorded on the slopes and terraces. Hôrka is an archaeological site showing that this landscape was used long before the medieval village developed."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lysica’s scattered hamlets – woodcraft, home weaving and lost settlements",
+          "text": "Lysica’s older landscape included timber houses with cellars and farm buildings roofed with wooden shingles. Residents practised mountain sheep-farming, made shingles and wove woollen cloth as well as linen and hemp fabric at home. They also produced rugs, wooden household vessels and tools. The municipal history remembers the hamlets of Kramárovia and Durčovia, destroyed by German forces during the Slovak National Uprising; some local men died in concentration camps."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – the fire in Ústredie and the flood of 1948",
+          "text": "On 20 October 1928 a barn caught fire. Strong westerly winds spread the blaze through the hamlet of Ústredie, which burned down completely; the parish building was also destroyed. On 25 July 1948 a cloudburst caused the stream to overflow. The chronicle records floating timber, bridges swept away and damaged farm buildings. These two precisely dated disasters changed the settlement and show how vulnerable scattered mountain communities were."
+        },
+        {
+          "id": "fact_007",
+          "title": "Church of St Stephen in Lutiše – a Neoclassical building with a collapsed tower",
+          "text": "Construction of the parish church began in 1903 and was completed in 1907. According to the municipal chronicle, Italian builders led the work and neighbouring villages also contributed. Soon after completion, the tower collapsed and had to be rebuilt. The single-nave church has a polygonal sanctuary and a slender tower in front of the western façade. Its furnishings are mostly Neo-Gothic; the image of St Stephen dates from the second half of the nineteenth century."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – a protected beech and fir forest in the Kysuce Highlands",
+          "text": "The Čierna Lutiša Nature Reserve was designated in 1972 and has the highest, fifth level of protection. It covers 26.35 hectares of forest, with a further 50.82-hectare protection zone, at elevations of about 665–904 metres. It protects species-rich beech and beech-fir forests. The Kysuce Protected Landscape Area inventory lists uncommon plants such as Cardamine trifoliata and Carex remota, as well as brown bears, wolves and lynx."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia parroquial de Santa María Magdalena en Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skaly – peñascos de caliza y dolomía sobre el valle de Belské",
+          "text": "Sobre Belá, junto a la entrada del valle de Belské en Malá Fatra, se alzan Belské skaly, formaciones de caliza y dolomía. Antes eran conocidas sobre todo entre escaladores; desde 2015 también están abiertas a excursionistas. Un sendero señalizado cruza el arroyo por un pequeño puente y utiliza cadenas de seguridad en los tramos empinados. La subida dura entre una hora y hora y media. Tres miradores protegidos ofrecen vistas del valle, la cuenca de Žilina y Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá desde 1378 – pastores valacos, molinos y economía rural",
+          "text": "Los documentos de Belá dentro del señorío de Starý hrad se remontan a 1378, cuando el párroco de Varín pidió al rey Luis I que delimitara de nuevo las propiedades de la iglesia. En 1390 aparece un cargo hereditario de juez local. En el siglo XV se extendió el pastoreo valaco, y los privilegios concedidos después de 1475 fueron confirmados por Vladislao II. En el siglo XIX Belá tenía siete molinos y destilerías. Los pastos de montaña y la cría de ovejas fueron importantes junto con la agricultura."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de Santa María Magdalena en Belá – un templo para dos pueblos",
+          "text": "La iglesia se construyó en 1683 por iniciativa de Michal Szmutko, canónigo de Nitra y antiguo párroco de Varín. Se levanta en un lugar elevado al oeste del pueblo y también debía servir a los fieles de Lysica. La financiación de las bóvedas se atribuye a Imrich Pongrácz. La torre tiene tres campanas; los escalones de piedra se hicieron en 1794 y el tejado se reparó en 1818. La iglesia nunca fue consagrada. La parroquia se independizó de Varín en 1788."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka en Lysica – monumento cultural nacional con hallazgos de la cultura de Púchov",
+          "text": "Al norte de Lysica se encuentra Hôrka, una colina con un recinto fortificado inscrito como monumento cultural nacional con el número 2149/1. Los hallazgos documentan la cultura de Púchov y usos posteriores medievales y modernos. Un informe de Martin Furman describe cerámica, parte de un cuchillo de hierro y un fragmento de brazalete de bronce. También se documentaron antiguas excavaciones en las laderas y terrazas. Hôrka demuestra que el paisaje se utilizaba mucho antes del pueblo medieval."
+        },
+        {
+          "id": "fact_005",
+          "title": "Las aldeas dispersas de Lysica – madera, tejido doméstico y asentamientos desaparecidos",
+          "text": "El paisaje antiguo de Lysica incluía casas de madera con sótanos y edificios agrícolas cubiertos con tablillas. Sus habitantes practicaban el pastoreo, fabricaban tablillas para tejados y tejían paño de lana y telas de lino y cáñamo. También elaboraban alfombras y utensilios de madera. La historia municipal recuerda los asentamientos de Kramárovia y Durčovia, destruidos por fuerzas alemanas durante el Levantamiento Nacional Eslovaco; algunos hombres murieron en campos de concentración."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – el incendio de Ústredie y la inundación de 1948",
+          "text": "El 20 de octubre de 1928 se incendió un granero. El viento del oeste propagó las llamas por toda la aldea de Ústredie, que quedó destruida; también ardió la casa parroquial. El 25 de julio de 1948 un aguacero hizo desbordarse el arroyo. La crónica recuerda madera arrastrada por el agua, puentes arrancados y edificios agrícolas dañados. Estas dos catástrofes fechadas transformaron el asentamiento y muestran la vulnerabilidad de las aldeas de montaña."
+        },
+        {
+          "id": "fact_007",
+          "title": "Iglesia de San Esteban en Lutiše – edificio neoclásico con una torre derrumbada",
+          "text": "La construcción de la iglesia parroquial comenzó en 1903 y terminó en 1907. Según la crónica municipal, la dirigieron constructores italianos y contribuyeron también vecinos de pueblos cercanos. Poco después, la torre se derrumbó y tuvo que reconstruirse. La iglesia tiene una sola nave, presbiterio poligonal y una torre esbelta delante de la fachada occidental. El mobiliario es mayoritariamente neogótico; la imagen de San Esteban data de la segunda mitad del siglo XIX."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – bosque protegido de hayas y abetos en Kysuce",
+          "text": "La reserva natural de Čierna Lutiša fue declarada en 1972 y cuenta con el máximo nivel de protección. Ocupa 26,35 hectáreas de bosque y tiene una zona de protección de 50,82 hectáreas, entre 665 y 904 metros de altitud. Protege bosques de hayas y hayas con abetos. El inventario de la administración del área protegida de Kysuce cita plantas poco comunes y grandes depredadores como el oso pardo, el lobo y el lince."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église paroissiale Sainte-Marie-Madeleine de Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skaly – falaises calcaires et dolomitiques au-dessus de la vallée de Belské",
+          "text": "Au-dessus de Belá, à l’entrée de la vallée de Belské dans le massif de Malá Fatra, se dressent les Belské skaly, des formations de calcaire et de dolomie. Autrefois fréquenté surtout par les grimpeurs, le site est aussi accessible aux randonneurs depuis 2015. Un sentier balisé traverse le ruisseau sur une petite passerelle et comporte des chaînes de sécurité dans les passages raides. La montée dure environ une heure à une heure et demie. Trois belvédères sécurisés offrent des vues sur la vallée, le bassin de Žilina et Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá depuis 1378 – bergers valaques, moulins et économie rurale",
+          "text": "Les documents concernant Belá dans la seigneurie de Starý hrad remontent à 1378, lorsque le curé de Varín demanda au roi Louis Ier de redélimiter les biens de l’église. Une charge héréditaire de juge local est attestée en 1390. Au XVe siècle, l’élevage pastoral valaque se développa et les privilèges accordés après 1475 furent confirmés par Vladislav II. Au XIXe siècle, Belá comptait sept moulins et des distilleries. Les pâturages de montagne et l’élevage ovin étaient importants aux côtés de l’agriculture."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église Sainte-Marie-Madeleine de Belá – un édifice pour deux villages",
+          "text": "L’église fut construite en 1683 à l’initiative de Michal Szmutko, chanoine de Nitra et ancien curé de Varín. Située en hauteur à l’ouest du village, elle devait aussi servir aux fidèles de Lysica. Le financement des voûtes est attribué à Imrich Pongrácz. La tour abrite trois cloches ; les marches maçonnées datent de 1794 et le toit fut réparé en 1818. L’église ne fut jamais consacrée. La paroisse de Belá devint indépendante de Varín en 1788."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka à Lysica – monument culturel national et vestiges de la culture de Púchov",
+          "text": "Au nord de Lysica se trouve Hôrka, une colline portant un petit site fortifié inscrit comme monument culturel national sous le numéro 2149/1. Les découvertes attestent la culture de Púchov puis des usages médiévaux et modernes. Un rapport de Martin Furman décrit des tessons, un fragment de couteau en fer et un morceau de bracelet en bronze. D’anciennes excavations ont aussi été documentées sur les pentes et les terrasses. Hôrka montre que ce paysage était occupé bien avant la formation du village médiéval."
+        },
+        {
+          "id": "fact_005",
+          "title": "Les hameaux dispersés de Lysica – artisanat du bois, tissage et villages disparus",
+          "text": "L’ancien paysage de Lysica comprenait des maisons en bois avec cave et des bâtiments agricoles couverts de bardeaux. Les habitants pratiquaient l’élevage en alpage, fabriquaient des bardeaux et tissaient à domicile du drap de laine ainsi que des étoffes de lin et de chanvre. Ils produisaient aussi des tapis et des ustensiles en bois. L’histoire communale rappelle les hameaux de Kramárovia et Durčovia, détruits par les forces allemandes pendant le Soulèvement national slovaque ; certains hommes moururent dans des camps de concentration."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – l’incendie d’Ústredie et la crue de 1948",
+          "text": "Le 20 octobre 1928, une grange prit feu. Un vent d’ouest violent propagea les flammes dans tout le hameau d’Ústredie, entièrement détruit ; le presbytère brûla également. Le 25 juillet 1948, un orage fit déborder le ruisseau. La chronique mentionne du bois emporté, des ponts arrachés et des bâtiments agricoles endommagés. Ces deux catastrophes précisément datées transformèrent le hameau et montrent la vulnérabilité des habitats montagnards dispersés."
+        },
+        {
+          "id": "fact_007",
+          "title": "Église Saint-Étienne de Lutiše – édifice néoclassique à la tour effondrée",
+          "text": "La construction de l’église paroissiale commença en 1903 et s’acheva en 1907. Selon la chronique communale, des constructeurs italiens dirigèrent les travaux et les villages voisins contribuèrent aux frais. Peu après son achèvement, la tour s’effondra et dut être reconstruite. L’église possède une nef unique, un chœur polygonal et une tour élancée devant la façade ouest. Le mobilier est principalement néogothique ; le tableau de saint Étienne date de la seconde moitié du XIXe siècle."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – forêt protégée de hêtres et de sapins dans les hauteurs de Kysuce",
+          "text": "La réserve naturelle de Čierna Lutiša fut créée en 1972 et bénéficie du cinquième degré de protection, le plus élevé. Elle couvre 26,35 hectares de forêt et possède une zone de protection de 50,82 hectares, entre 665 et 904 mètres d’altitude. Elle protège des hêtraies et des hêtraies-sapinières. L’inventaire de l’aire paysagère protégée de Kysuce cite des plantes peu communes ainsi que l’ours brun, le loup et le lynx."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa parrocchiale di Santa Maria Maddalena a Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skaly – pareti calcaree e dolomitiche sopra la valle di Belské",
+          "text": "Sopra Belá, all’ingresso della valle di Belské nella Malá Fatra, si trovano le Belské skaly, formazioni di calcare e dolomia. Un tempo frequentate soprattutto dagli arrampicatori, dal 2015 sono accessibili anche agli escursionisti. Un sentiero segnalato attraversa il torrente su un piccolo ponte e dispone di catene nei tratti ripidi. La salita dura circa un’ora o un’ora e mezza. Tre punti panoramici protetti offrono viste sulla valle, sulla conca di Žilina e su Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá dal 1378 – pastori valacchi, mulini ed economia rurale",
+          "text": "I documenti su Belá, nella signoria di Starý hrad, risalgono al 1378, quando il parroco di Varín chiese al re Luigi I di ridefinire i beni della chiesa. Nel 1390 è attestata una carica ereditaria di giudice locale. Nel XV secolo si diffuse la pastorizia valacca e i privilegi concessi dopo il 1475 furono confermati da Vladislao II. Nel XIX secolo Belá contava sette mulini e distillerie. I pascoli montani e l’allevamento ovino erano importanti insieme all’agricoltura."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa di Santa Maria Maddalena a Belá – un edificio per due villaggi",
+          "text": "La chiesa fu costruita nel 1683 su iniziativa di Michal Szmutko, canonico di Nitra ed ex parroco di Varín. Sorge in posizione elevata a ovest del paese e doveva servire anche i fedeli di Lysica. Il finanziamento delle volte è attribuito a Imrich Pongrácz. La torre ospita tre campane; i gradini in muratura risalgono al 1794 e il tetto fu riparato nel 1818. La chiesa non fu mai consacrata. La parrocchia di Belá divenne indipendente da Varín nel 1788."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka a Lysica – monumento culturale nazionale con reperti della cultura di Púchov",
+          "text": "A nord di Lysica si trova Hôrka, una collina con un piccolo sito fortificato registrato come monumento culturale nazionale n. 2149/1. I reperti documentano la cultura di Púchov e usi successivi medievali e moderni. Un rapporto di Martin Furman descrive frammenti ceramici, parte di un coltello in ferro e un frammento di bracciale in bronzo. Sono stati documentati anche vecchi scavi sui pendii e sulle terrazze. Hôrka dimostra che il paesaggio era frequentato molto prima della nascita del villaggio medievale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le borgate sparse di Lysica – legno, tessitura domestica e insediamenti scomparsi",
+          "text": "Il paesaggio antico di Lysica comprendeva case in legno con cantine e fabbricati agricoli coperti da scandole. Gli abitanti praticavano la pastorizia, producevano scandole e tessevano panni di lana e tessuti di lino e canapa. Realizzavano anche tappeti e utensili in legno. La storia comunale ricorda le borgate di Kramárovia e Durčovia, distrutte dalle forze tedesche durante l’Insurrezione nazionale slovacca; alcuni uomini morirono nei campi di concentramento."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – l’incendio di Ústredie e l’alluvione del 1948",
+          "text": "Il 20 ottobre 1928 prese fuoco un fienile. Il vento occidentale propagò le fiamme in tutta la borgata di Ústredie, che bruciò completamente; anche la canonica fu distrutta. Il 25 luglio 1948 un nubifragio fece straripare il torrente. La cronaca ricorda legname trascinato dall’acqua, ponti divelti e fabbricati agricoli danneggiati. Questi due eventi datati trasformarono la borgata e mostrano la vulnerabilità degli insediamenti montani dispersi."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chiesa di Santo Stefano a Lutiše – edificio neoclassico con torre crollata",
+          "text": "La costruzione della chiesa parrocchiale iniziò nel 1903 e terminò nel 1907. Secondo la cronaca comunale, i lavori furono diretti da costruttori italiani e contribuirono anche i villaggi vicini. Poco dopo il completamento, la torre crollò e dovette essere ricostruita. La chiesa ha una navata, un presbiterio poligonale e una torre slanciata davanti alla facciata occidentale. Gli arredi sono per lo più neogotici; l’immagine di Santo Stefano risale alla seconda metà del XIX secolo."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – foresta protetta di faggi e abeti negli altopiani di Kysuce",
+          "text": "La riserva naturale di Čierna Lutiša fu istituita nel 1972 ed è sottoposta al quinto e più alto livello di protezione. Copre 26,35 ettari di bosco e ha una zona di protezione di 50,82 ettari, tra 665 e 904 metri di altitudine. Protegge faggete e boschi di faggio e abete. L’inventario dell’area protetta di Kysuce cita piante poco comuni e grandi predatori come orso bruno, lupo e lince."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Parochiekerk van de Heilige Maria Magdalena in Belá",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Belské skaly – kalksteen- en dolomietrotsen boven de Belské-vallei",
+          "text": "Boven Belá, bij de ingang van de Belské-vallei in Malá Fatra, liggen de Belské skaly, rotsformaties van kalksteen en dolomiet. Vroeger kwamen hier vooral klimmers; sinds 2015 kunnen ook wandelaars er terecht. Een gemarkeerd pad steekt de beek over via een kleine brug en heeft op steile stukken vaste veiligheidskettingen. De klim duurt ongeveer één tot anderhalf uur. Drie beveiligde uitzichtpunten bieden zicht op de vallei, het bekken van Žilina en Belá."
+        },
+        {
+          "id": "fact_002",
+          "title": "Belá sinds 1378 – Walachijse herders, molens en plattelandsleven",
+          "text": "Schriftelijke bronnen over Belá op het landgoed Starý hrad dateren uit 1378, toen de pastoor van Varín koning Lodewijk I vroeg het kerkbezit opnieuw af te bakenen. In 1390 wordt een erfelijk ambt van dorpsrechter genoemd. In de vijftiende eeuw verspreidde de Walachijse veehouderij zich; voorrechten voor herders na 1475 werden later bevestigd door Wladislaus II. In de negentiende eeuw had Belá zeven molens en distilleerderijen. Bergweiden en schapenhouderij waren naast landbouw belangrijk."
+        },
+        {
+          "id": "fact_003",
+          "title": "De kerk van de Heilige Maria Magdalena in Belá – gebouwd voor twee dorpen",
+          "text": "De kerk werd in 1683 gebouwd op initiatief van Michal Szmutko, kanunnik van Nitra en voormalig pastoor van Varín. Ze staat hoger aan de westkant van het dorp en was ook bedoeld voor gelovigen uit Lysica. De financiering van de gewelven wordt toegeschreven aan Imrich Pongrácz. De toren heeft drie klokken; de gemetselde treden dateren uit 1794 en het dak werd in 1818 hersteld. De kerk is nooit ingewijd. De parochie werd in 1788 onafhankelijk van Varín."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Lysica – nationaal cultureel monument met vondsten van de Púchovcultuur",
+          "text": "Ten noorden van Lysica ligt Hôrka, een heuvel met een versterkte plek die als nationaal cultureel monument is geregistreerd onder nummer 2149/1. Vondsten tonen de Púchovcultuur en later middeleeuws en vroegmodern gebruik aan. Een rapport van Martin Furman beschrijft aardewerk, een fragment van een ijzeren mes en een stuk van een bronzen armband. Ook oudere graafsporen op hellingen en terrassen zijn vastgelegd. Hôrka laat zien dat het landschap al vóór het middeleeuwse dorp werd gebruikt."
+        },
+        {
+          "id": "fact_005",
+          "title": "De verspreide gehuchten van Lysica – houtwerk, thuisweverij en verdwenen nederzettingen",
+          "text": "Het oudere landschap van Lysica bestond uit houten huizen met kelders en boerderijgebouwen met houten dakspanen. Bewoners hielden schapen, maakten dakspanen en weefden thuis wollen stof en linnen- en hennepdoek. Ook maakten zij tapijten en houten gebruiksvoorwerpen. De gemeentelijke geschiedenis herinnert aan de gehuchten Kramárovia en Durčovia, die tijdens de Slowaakse Nationale Opstand door Duitse troepen werden verwoest; enkele mannen stierven in concentratiekampen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lutiše – de brand in Ústredie en de overstroming van 1948",
+          "text": "Op 20 oktober 1928 vloog een hooischuur in brand. Een westenwind verspreidde het vuur door het gehucht Ústredie, dat volledig afbrandde; ook de pastorie werd verwoest. Op 25 juli 1948 trad de beek na een stortbui buiten haar oevers. De kroniek vermeldt meegesleurd hout, vernielde bruggen en beschadigde boerderijgebouwen. Deze twee precies gedateerde rampen veranderden het gehucht en tonen de kwetsbaarheid van verspreide bergnederzettingen."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Sint-Stefanuskerk in Lutiše – neoclassicistisch gebouw met ingestorte toren",
+          "text": "De bouw van de parochiekerk begon in 1903 en was in 1907 voltooid. Volgens de gemeentelijke kroniek leidden Italiaanse bouwmeesters het werk en droegen naburige dorpen bij. Kort na de voltooiing stortte de toren in en moest hij opnieuw worden gebouwd. De kerk heeft één schip, een veelhoekig koor en een slanke toren vóór de westgevel. De inrichting is grotendeels neogotisch; het beeld van Sint-Stefanus dateert uit de tweede helft van de negentiende eeuw."
+        },
+        {
+          "id": "fact_008",
+          "title": "Čierna Lutiša – beschermd beuken- en sparrenbos in de Kysuce-hooglanden",
+          "text": "Het natuurreservaat Čierna Lutiša werd in 1972 ingesteld en heeft het hoogste, vijfde beschermingsniveau. Het omvat 26,35 hectare bos en een beschermingszone van 50,82 hectare, op ongeveer 665 tot 904 meter hoogte. Het beschermt soortenrijke beuken- en beuken-sparrenbossen. De inventaris van het beschermde landschapsgebied Kysuce vermeldt bijzondere planten en grote roofdieren zoals bruine beer, wolf en lynx."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
