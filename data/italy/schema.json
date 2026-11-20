@@ -27,8 +27,8 @@
     },
     "status": {
       "type": "string",
-      "minLength": 1,
-      "description": "Content lifecycle status stored in the JSON record. This is separate from the database workflow_status."
+      "enum": ["placeholder", "validated", "published"],
+      "description": "Content lifecycle status stored in the JSON record. Allowed values are placeholder, validated and published. This is separate from the database workflow_status."
     },
     "data_version": {
       "type": "integer",
