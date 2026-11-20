@@ -430,6 +430,20 @@ CAP je rešeršně dokončeno pouze tehdy, když byly prověřeny všechny relev
 
 Každý záznam musí obsahovat sedm jazyků definovaných schématem: `cs`, `de`, `en`, `es`, `fr`, `it`, `nl`.
 
+### 14.1 Stabilní ID a totožné pořadí faktů ve všech jazycích
+
+Všech sedm jazykových verzí musí obsahovat **přesně stejnou množinu ID faktů a zachovávat jejich totožné pořadí**. Toto pravidlo platí pro základní pole `facts` i pro `translations[lang].facts` ve všech jazycích `cs`, `de`, `en`, `es`, `fr`, `it` a `nl`.
+
+- Každé faktum musí mít stabilní a jedinečné ID v rámci záznamu.
+- Každý jazyk musí obsahovat právě jedno odpovídající faktum pro každé ID v základním seznamu; žádné ID nesmí chybět ani přebývat.
+- Pořadí ID musí být ve všech sedmi jazykových seznamech totožné. Pořadí vyjadřuje redakční prioritu stanovenou podle oddílu 4, nikoli pořadí překládání.
+- ID je jazykově neutrální identifikátor: nikdy se nepřekládá, nepřepisuje ani nemění pouze kvůli překladu nebo jazykové redakci.
+- Překlady se párují výhradně podle `facts[].id`. Nepáruj fakta podle pořadí, názvu, textu ani podobnosti obsahu.
+- Při přidání, odstranění nebo skutečném rozdělení/sloučení faktu promítni odpovídající změnu konzistentně do všech sedmi jazyků. Zachovej stabilní ID u faktů, jejichž identita se nezměnila.
+- Duplicitní ID, chybějící ID, nadbytečné ID nebo odlišné pořadí v kterémkoli jazyce znamená, že záznam není dokončen. Náhradní zobrazení původního textu aplikací nenahrazuje povinnost dodat úplný a správně spárovaný překlad.
+
+Před dokončením každého CAP porovnej seznam ID a jejich pořadí mezi základním `facts` a všemi sedmi jazykovými verzemi. Kontrola musí potvrdit shodu celé posloupnosti, nikoli pouze stejný počet faktů.
+
 Každá jazyková verze musí být samostatně srozumitelná čtenáři, který nemusí znát Itálii, její historii, instituce, náboženství, regionální kulturu ani místní pojmy. Správný překlad nestačí; text musí předat i potřebný kontext.
 
 - Při prvním smysluplném výskytu vysvětli neznámé historické, kulturní, institucionální, politické, náboženské a správní pojmy.
