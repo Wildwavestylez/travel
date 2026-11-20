@@ -282,7 +282,7 @@ Primární podklady první dávky:
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 236/261 faktů hotovo (1 416/1 566 textů), zbývá 25 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 239/261 faktů hotovo (1 434/1 566 textů), zbývá 22 faktů.
 
 Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74292/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
