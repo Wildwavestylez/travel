@@ -54,7 +54,7 @@
         "lat": 48.1530672,
         "lon": 17.1381544,
         "type": "historic_industrial_site",
-        "accuracy": "exact",
+        "accuracy": "area_representative",
         "source": "https://bratislava.oma.sk/u/mileticova/17"
       }
     },
@@ -140,10 +140,10 @@
       "location": {
         "name": "Bellušova obytná kolonie – dům Miletičova 36",
         "address": "Miletičova 36, Bratislava, Slovensko",
-        "lat": 48.1519274,
-        "lon": 17.1360437,
+        "lat": 48.15498885,
+        "lon": 17.13356684,
         "type": "residential_ensemble",
-        "accuracy": "area_representative",
+        "accuracy": "exact",
         "source": "https://bratislava.oma.sk/u/mileticova/36"
       }
     },
@@ -165,7 +165,7 @@
         "lat": 48.1502251,
         "lon": 17.1340762,
         "type": "residential_ensemble",
-        "accuracy": "area_representative",
+        "accuracy": "exact",
         "source": "https://bratislava.oma.sk/u/dulovo-namestie/3"
       }
     },
@@ -259,11 +259,32 @@
         "accuracy": "exact",
         "source": "https://umeniemesta.sk/diela/rec2ioAXjD6XFrJ67"
       }
+    },
+    {
+      "id": "fact_012",
+      "title": "Cholerová nemocnice na Nivách – izolace na tehdejším okraji města",
+      "text": "Kolem roku 1876 vznikala na tehdejším okraji Prešpurku zařízení pro izolovanou léčbu infekčních nemocí. Přísně oplocený komplex pro nemocné cholerou stál na místě dnešního Doprastavu u křižovatky Miletičovy a Košické; léčebna tuberkulózy se nacházela na dnešní Bajzově ulici. Zřízení zařízení souviselo s opakovanými epidemiemi, zejména s ničivou cholerou roku 1831 a obavami z šíření nákazy vodou a potravinami. Původní budovy se nedochovaly; dnešní bod je orientačním vyznačením historické polohy.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.ruzinovskeecho.sk/clanok/nivy-temna-minulost-vychytenej-stvrte",
+        "https://bratislava.oma.sk/u/kosicka/56"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Historické místo cholerové nemocnice – dnešní areál Doprastavu",
+        "address": "Košická 56, Bratislava, Slovensko",
+        "lat": 48.15214885,
+        "lon": 17.13634319,
+        "type": "hospital",
+        "accuracy": "historical_approximate",
+        "source": "https://bratislava.oma.sk/u/kosicka/56"
+      }
     }
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia účinná od 1. 1. 2026, časť 2.3.2.1 a príloha 3a: PSČ 82108–82109 sú priradené k dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt uvádza prevádzku Bratislava 1 na Námestí SNP 35 v mestskej časti Staré Mesto.",
+    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia účinná od 1. 1. 2026, časť 2.3.2.1 a príloha 3a: PSČ 82108–82109 sú priradené k dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt poskytujúcich integrované služby uvádza Bratislavu 1 na Námestí SNP 35; rovnakú adresu potvrdzuje aj dokument Slovenskej pošty z roku 2026.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
@@ -272,7 +293,7 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": "Staršia verzia technických parametrov z roku 2024 uvádzala pre PSČ 82108–82109 poštu Bratislava 2. Aktuálna verzia Slovenskej pošty účinná od 1. 1. 2026 v časti 2.3.2.1 a prílohe 3a už uvádza dodávaciu poštu Bratislava 1. Použitá je aktuálna verzia; nejde o nevyriešený súčasný rozpor.",
-    "delivery_office_note": "Aktuálny oficiálny dokument Slovenskej pošty účinný od 1. 1. 2026 priraďuje PSČ 82108 k dodávacej pošte Bratislava 1. Jej prevádzka je na Námestí SNP 35 v Bratislave-Starom Meste; preto administratívne polia city, district, county a state vychádzajú z fyzickej polohy obslužnej pošty, nie z väčšiny adresných bodov PSČ. Verejný dataset odvodený z RAGEO eviduje pri PSČ 82108 spolu 754 adresných bodov: 746 v Bratislave-Ružinove a 8 v Bratislave-Starom Meste. Presná polygonálna hranica PSČ sa netvrdí.",
+    "delivery_office_note": "Aktuálny oficiálny dokument Slovenskej pošty účinný od 1. 1. 2026 priraďuje PSČ 82108 k dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt uvádza prevádzku Bratislava 1 na Námestí SNP 35 v Bratislave-Starom Meste a dokument Slovenskej pošty z roku 2026 potvrdzuje tú istú adresu. Preto administratívne polia city, district, county a state vychádzajú z fyzickej polohy obslužnej pošty, nie z väčšiny adresných bodov PSČ. Verejný dataset odvodený z RAGEO eviduje pri PSČ 82108 spolu 754 adresných bodov: 746 v Bratislave-Ružinove a 8 v Bratislave-Starom Meste. Presná polygonálna hranica PSČ sa netvrdí.",
     "postcode_override_reason": null,
     "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. RAGEO nebolo samostatne exportované; ako doplnková systematická kontrola bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Pre PSČ 82108 uvádza 754 adresných bodov v dvoch mestských častiach (746 Ružinov, 8 Staré Mesto) a reprezentatívny bod 48.15394, 17.13315. Jednotlivé pamätihodnosti boli kontrolované cez oficiálne mestské a miestne evidencie a ich konkrétne adresy a súradnice doplnené mapovými adresnými bodmi OMA/OpenStreetMap. Tieto sekundárne mapové údaje slúžia na kontrolu konkrétnych miest, nie ako dôkaz presného polygonu doručovacieho obvodu."
   },
@@ -283,8 +304,8 @@
       "type": "official"
     },
     {
-      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
-      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "title": "Slovenská pošta – Zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-poskytujucich-sluzby-integrovanych-obsluznych-miest.pdf",
       "type": "official"
     },
     {
@@ -466,6 +487,16 @@
       "title": "OMA / OpenStreetMap – Socha sv. Ondreja, Miletičova 9",
       "url": "https://poi.oma.sk/n3579109052",
       "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – oficiálna adresa spoločnosti na Námestí SNP 35, Bratislava 1 (2026)",
+      "url": "https://www.posta.sk/files/68d2af033c30145adf86b454/sutazne-pokyny-muzla.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Košická 56, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/kosicka/56",
+      "type": "other"
     }
   ],
   "translations": {
@@ -526,6 +557,11 @@
           "id": "fact_011",
           "title": "Fontána lásky – filmová kulisa, která ožila díky místním",
           "text": "Fontána lásky ve vnitrobloku mezi ulicemi Záhradnícka, Kupeckého, Šumavská a Dohnányho vznikla roku 1985 podle návrhu architekta M. Kaliny jako filmová kulisa pro kultovní slovenský film Fontána pre Zuzanu. Původně nebyla napojena na vodovodní síť a vodu do ní dovážela cisterna. V roce 2008 se po iniciativě místních obyvatel podařilo fontánu znovu zprovoznit. Městská část ji eviduje jako pamětihodnost; její příběh propojuje filmovou historii, veřejné umění a sousedskou péči o společný prostor."
+        },
+        {
+          "id": "fact_012",
+          "title": "Cholerová nemocnice na Nivách – izolace na tehdejším okraji města",
+          "text": "Kolem roku 1876 vznikala na tehdejším okraji Prešpurku zařízení pro izolovanou léčbu infekčních nemocí. Přísně oplocený komplex pro nemocné cholerou stál na místě dnešního Doprastavu u křižovatky Miletičovy a Košické; léčebna tuberkulózy se nacházela na dnešní Bajzově ulici. Zřízení zařízení souviselo s opakovanými epidemiemi, zejména s ničivou cholerou roku 1831 a obavami z šíření nákazy vodou a potravinami. Původní budovy se nedochovaly; dnešní bod je orientačním vyznačením historické polohy."
         }
       ]
     },
@@ -586,6 +622,11 @@
           "id": "fact_011",
           "title": "Brunnen der Liebe – eine Filmkulisse, die von den Bewohnern wiederbelebt wurde",
           "text": "Der Brunnen der Liebe im Innenhof zwischen den Straßen Záhradnícka, Kupeckého, Šumavská und Dohnányho entstand 1985 nach einem Entwurf des Architekten M. Kalina als Filmkulisse für den Kultfilm Fontána pre Zuzanu. Ursprünglich war er nicht an das Wassernetz angeschlossen; Wasser wurde mit einem Tankwagen gebracht. Nach einer Initiative der Anwohner wurde der Brunnen 2008 wieder in Betrieb genommen. Die Stadtteilverwaltung führt ihn als lokales Denkmal."
+        },
+        {
+          "id": "fact_012",
+          "title": "Cholera-Krankenhaus in Nivy – Isolation am damaligen Stadtrand",
+          "text": "Um 1876 entstanden am damaligen Stadtrand von Pressburg Einrichtungen zur isolierten Behandlung ansteckender Krankheiten. Das streng umzäunte Cholera-Krankenhaus lag auf dem Gelände des heutigen Doprastav an der Kreuzung Miletičova und Košická; eine Tuberkulose-Heilstätte befand sich an der heutigen Bajzová-Straße. Die Gebäude sind verschwunden; der Kartenpunkt markiert nur die ungefähre historische Lage."
         }
       ]
     },
@@ -646,6 +687,11 @@
           "id": "fact_011",
           "title": "Fountain of Love – a film set brought back to life by residents",
           "text": "The Fountain of Love in the courtyard between Záhradnícka, Kupeckého, Šumavská and Dohnányho streets was built in 1985 to architect M. Kalina’s design as a film set for the cult Slovak film Fontána pre Zuzanu. It was not originally connected to the water mains; water was delivered by tanker. Following an initiative by local residents, the fountain was restored to working order in 2008. The district lists it as local heritage."
+        },
+        {
+          "id": "fact_012",
+          "title": "Cholera hospital in Nivy – isolation on the city’s former edge",
+          "text": "Around 1876, public-health reforms led to isolation facilities on the then edge of Pressburg. The fenced cholera hospital stood on the site of today’s Doprastav at the Miletičova–Košická junction; a tuberculosis clinic was on today’s Bajzová Street. The original buildings have not survived, so the map point is an approximate historical locator."
         }
       ]
     },
@@ -706,6 +752,11 @@
           "id": "fact_011",
           "title": "Fuente del amor – un decorado cinematográfico recuperado por los vecinos",
           "text": "La Fuente del Amor, situada en un patio interior entre las calles Záhradnícka, Kupeckého, Šumavská y Dohnányho, se construyó en 1985 según el diseño del arquitecto M. Kalina como decorado de la película de culto eslovaca Fontána pre Zuzanu. Al principio no estaba conectada a la red de agua y el agua llegaba en cisterna. Tras una iniciativa de los vecinos, volvió a funcionar en 2008. El distrito la incluye en su inventario de patrimonio local."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hospital de cólera en Nivy: aislamiento en el antiguo límite de la ciudad",
+          "text": "Hacia 1876 surgieron en el entonces límite de Presburgo instalaciones para aislar a pacientes con enfermedades infecciosas. El hospital de cólera, rodeado por una valla, ocupaba el lugar del actual Doprastav, en el cruce de Miletičova y Košická; el sanatorio para la tuberculosis estaba en la actual calle Bajzová. Los edificios originales han desaparecido y el punto del mapa indica solo la ubicación histórica aproximada."
         }
       ]
     },
@@ -766,6 +817,11 @@
           "id": "fact_011",
           "title": "Fontaine de l’amour – un décor de cinéma remis en service par les habitants",
           "text": "La Fontaine de l’amour, située dans une cour intérieure entre les rues Záhradnícka, Kupeckého, Šumavská et Dohnányho, fut construite en 1985 selon le projet de l’architecte M. Kalina comme décor du film culte slovaque Fontána pre Zuzanu. Elle n’était pas reliée au réseau d’eau ; l’eau était apportée par camion-citerne. À la suite d’une initiative des habitants, la fontaine fut remise en service en 2008. Le quartier la répertorie comme patrimoine local."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hôpital cholérique de Nivy – l’isolement à l’ancienne périphérie de la ville",
+          "text": "Vers 1876, des établissements d’isolement pour les maladies infectieuses furent créés à la périphérie de l’ancienne Presbourg. L’hôpital cholérique, entouré d’une enceinte, se trouvait sur le site de l’actuel Doprastav, au carrefour des rues Miletičova et Košická ; un établissement pour la tuberculose se situait sur l’actuelle rue Bajzová. Les bâtiments ont disparu ; le point cartographique indique seulement l’emplacement historique approximatif."
         }
       ]
     },
@@ -826,6 +882,11 @@
           "id": "fact_011",
           "title": "Fontana dell’amore – una scenografia cinematografica riportata in vita dagli abitanti",
           "text": "La Fontana dell’amore, nel cortile interno tra le vie Záhradnícka, Kupeckého, Šumavská e Dohnányho, fu costruita nel 1985 su progetto dell’architetto M. Kalina come scenografia del film cult slovacco Fontána pre Zuzanu. In origine non era collegata alla rete idrica e l’acqua veniva portata con un’autocisterna. Dopo un’iniziativa degli abitanti, la fontana tornò a funzionare nel 2008. Il municipio la registra come patrimonio locale."
+        },
+        {
+          "id": "fact_012",
+          "title": "Ospedale per il colera a Nivy – isolamento ai margini della città storica",
+          "text": "Intorno al 1876, ai margini dell’allora Presburgo furono creati istituti per l’isolamento delle malattie infettive. L’ospedale per il colera, circondato da una recinzione, sorgeva sul sito dell’attuale Doprastav, all’incrocio tra le vie Miletičova e Košická; un sanatorio per la tubercolosi si trovava nell’attuale via Bajzová. Gli edifici originari non esistono più e il punto sulla mappa indica soltanto la posizione storica approssimativa."
         }
       ]
     },
@@ -886,6 +947,11 @@
           "id": "fact_011",
           "title": "Liefdesfontein – een filmdecor dat door bewoners weer tot leven kwam",
           "text": "De Liefdesfontein op de binnenplaats tussen de straten Záhradnícka, Kupeckého, Šumavská en Dohnányho werd in 1985 ontworpen door architect M. Kalina als filmdecor voor de cultfilm Fontána pre Zuzanu. Oorspronkelijk was de fontein niet aangesloten op het waternet; water werd met een tankwagen aangevoerd. Na een initiatief van buurtbewoners werd de fontein in 2008 weer in gebruik genomen. Het stadsdeel registreert haar als lokaal erfgoed."
+        },
+        {
+          "id": "fact_012",
+          "title": "Cholera-ziekenhuis in Nivy – isolatie aan de vroegere stadsrand",
+          "text": "Rond 1876 werden aan de toenmalige rand van Pressburg voorzieningen voor de isolatie van besmettelijke ziekten opgericht. Het omheinde cholera-ziekenhuis stond op de plaats van het huidige Doprastav, bij de kruising van de Miletičova- en Košická-straat; een tuberculosekliniek lag aan de huidige Bajzová-straat. De oorspronkelijke gebouwen zijn verdwenen; de kaartpin geeft alleen de historische locatie bij benadering aan."
         }
       ]
     }
