@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 156/261 faktů, tedy 936/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265 a 6 v 74266. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 23 PSČ potvrdil 936/936 kompletních jazykových položek (title i text) a 156/156 faktů validated V1. Zbývá 105 faktů / 630 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 190/261 faktů, tedy 1 140/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265, 6 v 74266, 8 v 74267, 8 v 74271, 13 v 74272 a 5 v 74273. Zjištěné významové a terminologické nedostatky byly opraveny a načteny zpět; poslední read-back u 74273/fact_005 potvrzuje opravenou italskou a nizozemskou větu. Read-back dotčených 27 PSČ potvrdil kompletní jazykové položky (title i text) u všech kontrolovaných faktů. Zbývá 71 faktů / 426 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -250,14 +250,19 @@ Primární podklady první dávky:
 75. 74266/fact_003: překlady sjednoceny s českým popisem smíšeného souboru roubených i zděných domů; doplněny dřevěné štíty a kamenné podezdívky.
 76. 74266/fact_004: doplněno, že mílové právo chránilo řemeslníky před okolní konkurencí, město smělo pořádat úterní trhy a místní odboj nesl název Štramberští partyzáni.
 77. 74266/fact_006: doplněno využití vápence pro hutní výrobu; francouzský výraz „oppidum“ nahrazen přesnějším označením pravěkého opevněného sídla.
+
+78. 74267/fact_001–008: individuálně zkontrolováno všech 8 faktů v šesti cizojazyčných verzích; opraveny časové a kontextové detaily v příběhu Christiana Davida, kostelní věže, historie obce a terminologie historické funkce. Nizozemský překlad 74267/fact_008 zpřesněn pro bývalou funkci domu.
+79. 74271/fact_001–008: individuálně zkontrolováno 8 faktů; doplněny chybějící podrobnosti o Františku Palackém, upřesněna typologie dřevěného kostela, datum zahájení stavby kamenného kostela, zasvěcení kostela sv. Ondřejovi a technické údaje větrného mlýna. Opravy byly provedeny pouze v příslušných jazykových položkách.
+80. 74272/fact_001–013: individuálně zkontrolováno všech 13 faktů; fact_003 o kapli Panny Marie Bolestné a heraldické desce Jana Jeřábka byl významově přepracován ve všech šesti cizích jazycích podle českého masteru a památkového kontextu.
+81. 74273/fact_001–005: individuálně zkontrolováno prvních 5 z 10 faktů; fact_005 o železničním propojení Veřovic opraven v italštině a nizozemštině kvůli chybné větné vazbě. Zbývajících pět faktů 74273 zůstává otevřeno.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 156/261 faktů hotovo (936/1 566 textů), zbývá 105 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 190/261 faktů hotovo (1 140/1 566 textů), zbývá 71 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74267/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74273/fact_006 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
