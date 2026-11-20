@@ -160,7 +160,7 @@ Schema vyžaduje `access_point`, `representative_point` a alespoň jeden fakt. N
 
 Ověř stavový lifecycle přímo v Neonu:
 - po reworku: `workflow_status = 'validated'`, `record.status = 'validated'`, `record.data_version = 1`;
-- záznamy ve stavu `inventory` / `placeholder` nejsou dokončeným reworkem a nesmějí být považovány za auditované V1;
+- záznamy ve stavu `placeholder` nejsou dokončeným reworkem a nesmějí být považovány za auditované V1; italské workflow nepoužívá samostatné stavy `inventory`, `researching` ani `review`;
 - `published` a `data_version = 5` jsou vyhrazeny výhradně pro fázi po úspěšném finálním auditu a výslovném příkazu uživatele.
 
 Při inventuře a auditu nikdy automaticky nepovyšuj ani nesnižuj stav. Pokud metadata navzájem nesouhlasí (např. `workflow_status` neodpovídá `record.status`), zaznamenej konkrétní nesoulad a oprav jej pouze tehdy, když je oprava bezpečná, jednoznačná a spadá do povoleného auditního zásahu. Neprováděj publikaci v rámci běžných oprav.
