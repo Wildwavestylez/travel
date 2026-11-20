@@ -19,8 +19,8 @@
       "category": "culture_and_industry",
       "priority": "A",
       "sources": [
-        "src_unesco",
-        "src_terchova_history"
+        "https://ich.unesco.org/en/RL/music-of-terchova-00877",
+        "https://www.terchova.sk/navstevnik/historia/obec"
       ],
       "map_category": "local_culture",
       "location": {
@@ -39,7 +39,7 @@
       "category": "people",
       "priority": "A",
       "sources": [
-        "src_janosik_bio"
+        "https://www.terchova.sk/navstevnik/historia/vyznamni-rodaci"
       ],
       "map_category": "personality",
       "location": {
@@ -58,10 +58,10 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "src_terchova_history",
-        "src_terchova_1580"
+        "https://www.terchova.sk/navstevnik/historia/obec",
+        "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025"
       ],
-      "map_category": "historic_village",
+      "map_category": "local_culture",
       "location": {
         "name": "Terchová – historické centrum, orientační bod",
         "lat": 49.25779,
@@ -78,7 +78,7 @@
       "category": "nature_and_landscape",
       "priority": "A",
       "sources": [
-        "src_diery"
+        "https://www.terchova.sk/en/navstevnik/turisticke-trasy/janosikove-diery"
       ],
       "map_category": "nature",
       "location": {
@@ -97,8 +97,8 @@
       "category": "nature_and_landscape",
       "priority": "B",
       "sources": [
-        "src_tiesnavy",
-        "src_vratna_slovakiatravel"
+        "https://www.terchova.sk/navstevnik/turizmus/tiesnavy",
+        "https://slovakia.travel/kam-ist/ocarujuce-slovensko/vratna-dolina"
       ],
       "map_category": "viewpoint_landscape",
       "location": {
@@ -117,8 +117,8 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "src_terchova_ww2",
-        "src_church"
+        "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025",
+        "https://www.terchova.sk/navstevnik/historia/kostol"
       ],
       "map_category": "historical_monument",
       "location": {
@@ -137,7 +137,7 @@
       "category": "architecture_and_urbanism",
       "priority": "C",
       "sources": [
-        "src_church"
+        "https://www.terchova.sk/navstevnik/historia/kostol"
       ],
       "map_category": "religious_site",
       "location": {
@@ -156,7 +156,7 @@
       "category": "local_story",
       "priority": "C",
       "sources": [
-        "src_emigration"
+        "https://www.terchova.sk/navstevnik/historia/vystahovalectvo-z-obce-terchova-a-horna-tizina"
       ],
       "map_category": "local_culture",
       "location": {
@@ -175,8 +175,8 @@
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
-        "src_statue",
-        "src_slovakiatravel_statue"
+        "https://www.terchova.sk/navstevnik/zaujimavosti-obce/socha-janosika",
+        "https://slovakia.travel/pamaetnik-juraja-janosika-terchova"
       ],
       "map_category": "historical_monument",
       "location": {
@@ -206,97 +206,81 @@
   },
   "sources": [
     {
-      "id": "src_unesco",
       "title": "Music of Terchová – UNESCO Intangible Cultural Heritage",
       "url": "https://ich.unesco.org/en/RL/music-of-terchova-00877",
       "type": "official"
     },
     {
-      "id": "src_terchova_history",
       "title": "Obec Terchová – Obec (historie a vývoj obce)",
       "url": "https://www.terchova.sk/navstevnik/historia/obec",
       "type": "official"
     },
     {
-      "id": "src_janosik_bio",
       "title": "Obec Terchová – Významní rodáci: Juraj Jánošík",
       "url": "https://www.terchova.sk/navstevnik/historia/vyznamni-rodaci",
       "type": "official"
     },
     {
-      "id": "src_terchova_1580",
       "title": "Obec Terchová – obecné noviny 2/2025: 445. výročí založení",
       "url": "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025",
       "type": "official"
     },
     {
-      "id": "src_diery",
       "title": "Obec Terchová – Jánošíkove diery",
       "url": "https://www.terchova.sk/en/navstevnik/turisticke-trasy/janosikove-diery",
       "type": "official"
     },
     {
-      "id": "src_tiesnavy",
       "title": "Obec Terchová – Tiesňavy",
       "url": "https://www.terchova.sk/navstevnik/turizmus/tiesnavy",
       "type": "official"
     },
     {
-      "id": "src_vratna_slovakiatravel",
       "title": "Slovakia.travel – Vrátna dolina",
       "url": "https://slovakia.travel/kam-ist/ocarujuce-slovensko/vratna-dolina",
       "type": "official"
     },
     {
-      "id": "src_terchova_ww2",
       "title": "Obec Terchová – obecní noviny 2/2025: 80. výročí osvobození Terchové",
       "url": "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025",
       "type": "official"
     },
     {
-      "id": "src_church",
       "title": "Obec Terchová – Kostol sv. Cyrila a Metoda",
       "url": "https://www.terchova.sk/navstevnik/historia/kostol",
       "type": "official"
     },
     {
-      "id": "src_emigration",
       "title": "Obec Terchová – Vysťahovalectvo z obcí Terchová a Horná Tižina do USA v rokoch 1892–1938",
       "url": "https://www.terchova.sk/navstevnik/historia/vystahovalectvo-z-obce-terchova-a-horna-tizina",
       "type": "official"
     },
     {
-      "id": "src_statue",
       "title": "Obec Terchová – Socha Juraja Jánošíka",
       "url": "https://www.terchova.sk/navstevnik/zaujimavosti-obce/socha-janosika",
       "type": "official"
     },
     {
-      "id": "src_slovakiatravel_statue",
       "title": "Slovakia.travel – Pamätník Juraja Jánošíka (Terchová)",
       "url": "https://slovakia.travel/pamaetnik-juraja-janosika-terchova",
       "type": "official"
     },
     {
-      "id": "src_post_office",
       "title": "Slovenská pošta – oficiální seznam poboček, Pošta Terchová 013 06",
       "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
       "type": "official"
     },
     {
-      "id": "src_post_lookup",
       "title": "Slovenská pošta – Vyhľadávanie PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "official"
     },
     {
-      "id": "src_post_conflict",
       "title": "Obchodný vestník Ministerstva spravodlivosti SR – adresa Nižné Kamence, Belá, 013 05",
       "url": "https://obchodnyvestnik.justice.gov.sk/ObchodnyVestnik/Formular/FormularDetail.aspx?IdFormular=2480035",
       "type": "primary"
     },
     {
-      "id": "src_bela_nizne",
       "title": "Slovakia.travel – Camping Belá – Nižné Kamence, Belá 013 05",
       "url": "https://slovakia.travel/camping-bela-nizne-kamence",
       "type": "official"
