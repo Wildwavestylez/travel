@@ -1,7 +1,7 @@
 {
   "postcode": "01009",
   "city": "Žilina",
-  "district": "Bytčica",
+  "district": "Solinky",
   "county": "Žilina",
   "state": "Žilinský kraj",
   "representative_place": "Bytčica – barokový kaštieľ a historické jadro",
@@ -437,7 +437,7 @@
     }
   },
   "verification": {
-    "plz_source": "Slovenská pošta – zoznam pobočiek s ukončenou prevádzkou a oznámenie mesta Žilina potvrdzujú, že Pošta Žilina 9 v Bytčici ukončila prevádzku k 1. 9. 2025 a nástupníckou pobočkou sa stala Pošta Žilina 7 na adrese Prielohy 1012/1C. Verejný adresný dataset odvodený z Registra adries SR priraďuje PSČ 01009 k obci Žilina a mestskej časti Bytčica.",
+    "plz_source": "Slovenská pošta – zoznam pobočiek s ukončenou prevádzkou a oznámenie mesta Žilina potvrdzujú, že Pošta Žilina 9 v Bytčici ukončila prevádzku k 1. 9. 2025 a nástupníckou pobočkou sa stala Pošta Žilina 7 na adrese Prielohy 1012/1C. Budova nástupníckej pošty leží v mestskej časti Solinky, preto city = Žilina a district = Solinky. Geografická oblasť PSČ 01009 je samostatne reprezentovaná miestom Bytčica.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
@@ -446,9 +446,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "PSČ 01009 zostáva v adresnom datasete priradené k 847 adresným bodom v obci Žilina; municipality_parts.csv všetkých 847 bodov priraďuje k mestskej časti Bytčica. Pôvodná dodávacia pošta Žilina 9 sídlila na Hlavnej 404/1 v Bytčici, ale Slovenská pošta ju k 1. 9. 2025 zatvorila. Nástupníckou pobočkou je Pošta Žilina 7 na adrese Prielohy 1012/1C, ktorá fyzicky leží v mestskej časti Solinky. Táto zmena sídla pobočky nemení geografické priradenie PSČ 01009: city = Žilina a district = Bytčica. Aktuálna nástupnícka pobočka zostáva uvedená samostatne v access_point.",
+    "delivery_office_note": "PSČ 01009 zostáva v adresnom datasete priradené k 847 adresným bodom v obci Žilina; municipality_parts.csv všetkých 847 bodov priraďuje k mestskej časti Bytčica. Pôvodná dodávacia pošta Žilina 9 sídlila na Hlavnej 404/1 v Bytčici, ale Slovenská pošta ju k 1. 9. 2025 zatvorila. Nástupníckou pobočkou je Pošta Žilina 7 na adrese Prielohy 1012/1C, ktorá fyzicky leží v mestskej časti Solinky. Podľa COUNTRY_PROFILE a CONTENT_STANDARD sa preto city = Žilina a district = Solinky podľa aktuálnej nástupníckej pošty; representative_place a representative_point zostávajú v Bytčici, pretože opisujú skutočnú geografickú oblasť adresných bodov PSČ. Presná polygonálna hranica doručovacieho obvodu nie je v datasete uvedená.",
     "postcode_override_reason": null,
-    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a prevádzku pobočiek. Oficiálny zoznam ukončených prevádzok a mesto Žilina potvrdzujú zatvorenie Pošty Žilina 9 k 1. 9. 2025 a nástupnícku Poštu Žilina 7 na Prielohy 1012/1C. Verejný CC0 dataset odvodený z Registra adries SR uvádza pre PSČ 01009 jednu obec a 847 adresných bodov; municipality_parts.csv ich všetky priraďuje k Bytčici. Oficiálny mestský zoznam zaraďuje ulice v oblasti do mestskej časti Bytčica. Preto sa rozlišuje geografické územie PSČ (Bytčica) a fyzické sídlo nástupníckej pošty (Solinky)."
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a prevádzku pobočiek. Oficiálny zoznam ukončených prevádzok a mesto Žilina potvrdzujú zatvorenie Pošty Žilina 9 k 1. 9. 2025 a nástupnícku Poštu Žilina 7 na Prielohy 1012/1C. Verejný CC0 dataset odvodený z Registra adries SR uvádza pre PSČ 01009 jednu obec a 847 adresných bodov; municipality_parts.csv ich všetky priraďuje k Bytčici. Oficiálny mestský zoznam zaraďuje Prielohy do Soliniek. Záznam preto správne odlišuje post-office-based administrative field district = Solinky od geographic representative_place = Bytčica."
   },
   "status": "validated"
 }
