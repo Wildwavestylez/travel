@@ -1,4 +1,148 @@
 {
   "postcode": "84002",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Záhorská Bystrica",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Plánky – zahrádkářská a chatová lokalita v Záhorské Bystrici",
+  "representative_point": {
+    "lat": 48.20037,
+    "lon": 17.05290
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Plánky – zahrádkářská krajina s vlastním rekreačním charakterem",
+      "text": "Plánky patří mezi tři stabilizované lokality městské části Bratislava-Záhorská Bystrica, které územní plán vymezuje pro zemědělskou zeleň a půdu určenou pro zahrady, zahrádkářské a chatové osady (funkční kód 1203). Městská část uvádí rozlohu 19,4 hektaru a 75 přihlášených obyvatel. Nejde tedy jen o několik zahrad na okraji města, ale o rozsáhlejší rekreační krajinu s vlastní strukturou zahrad a rekreačních objektů. Stabilizovaný režim území má zachovat jeho měřítko a charakter a omezuje novou výstavbu, která by se s nimi neslučovala. Ve veřejném adresním datasetu odvozeném z Registru adries SR je pro PSČ 84002 evidováno 128 adresních bodů v Záhorské Bystrici; souhrnný reprezentativní bod tohoto PSČ leží právě v oblasti Plánek. Dva další evidované body jsou vedeny v Lamači, proto je geografický rozsah PSČ v tomto záznamu výslovně označen jako ne zcela uzavřený.",
+      "category": "tourism_and_surroundings",
+      "priority": "D",
+      "sources": [
+        "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv"
+      ],
+      "map_category": "park_garden",
+      "location": {
+        "name": "Plánky – zahrádkářská a chatová lokalita (reprezentativní bod)",
+        "address": null,
+        "lat": 48.20037,
+        "lon": 17.05290,
+        "type": "garden",
+        "accuracy": "area_representative",
+        "source": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta je autoritou pro přidělení PSČ. Oficiální seznam pošt spojuje kód 840 02 s poštou Bratislava 42; geografické přiřazení adresních bodů bylo doplněno veřejným CC0 datasetem odvozeným z Registru adries SR (RAGEO).",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiální seznam pôšt; doplňkově CC0 dataset slovak-postal-codes odvozený z RAGEO",
+    "postcode_source_release": "Kontrola zdrojů 20. 11. 2026; dataset pin commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": true,
+    "postcode_conflict_note": "Adresní dataset uvádí 128 adresních bodů v Bratislavě-Záhorské Bystrici a 2 body v Lamači. Souhrnný reprezentativní bod PSČ 84002 leží v Plánkách v Záhorské Bystrici, proto je tento bod použit pro mapovou reprezentaci záznamu. Dva lamačské body nebyly individuálně identifikovány a rozpory sekundárních adresních evidencí pro některé adresy v okolí nebyly definitivně vyřešeny. Záznam proto nepředstírá přesnou polygonální hranici ani úplné vyřešení každého adresního bodu.",
+    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí poštu Bratislava 42 pod PSČ 840 02. Její fyzická adresa Saratovská 9 leží v Dúbravce a má vlastní adresní PSČ; poloha poštovní pobočky proto nebyla použita jako reprezentativní bod PSČ 84002.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR; pro tento záznam byl použit veřejný CC0 dataset odvozený z RAGEO, nikoli přímý export registru. Administrativní zařazení ověřeno vůči oficiálním informacím městské části Bratislava-Záhorská Bystrica. Souřadnice 48.20037, 17.05290 jsou reprezentativním bodem souhrnného datasetu pro PSČ 84002, nikoli hranicí doručovací oblasti."
+  },
+  "sources": [
+    {
+      "title": "Mestská časť Bratislava-Záhorská Bystrica – informácie o mestskej časti: Plánky, Podkerepušky a Devínske jazero",
+      "url": "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – verejný CC0 dataset odvodený z Registra adries SR (RAGEO), adresné body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – súhrn PSČ a reprezentatívne body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom: Bratislava 42, PSČ 840 02",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Plánky – zahrádkářská a chatová lokalita v Záhorské Bystrici",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – zahrádkářská krajina s vlastním rekreačním charakterem",
+          "text": "Plánky patří mezi tři stabilizované lokality městské části Bratislava-Záhorská Bystrica, které územní plán vymezuje pro zemědělskou zeleň a půdu určenou pro zahrady, zahrádkářské a chatové osady (funkční kód 1203). Městská část uvádí rozlohu 19,4 hektaru a 75 přihlášených obyvatel. Nejde tedy jen o několik zahrad na okraji města, ale o rozsáhlejší rekreační krajinu s vlastní strukturou zahrad a rekreačních objektů. Stabilizovaný režim území má zachovat jeho měřítko a charakter a omezuje novou výstavbu, která by se s nimi neslučovala. Ve veřejném adresním datasetu odvozeném z Registru adries SR je pro PSČ 84002 evidováno 128 adresních bodů v Záhorské Bystrici; souhrnný reprezentativní bod tohoto PSČ leží právě v oblasti Plánek. Dva další evidované body jsou vedeny v Lamači, proto je geografický rozsah PSČ v tomto záznamu výslovně označen jako ne zcela uzavřený."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Plánky – Garten- und Ferienhaussiedlung in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – eine Gartenlandschaft mit eigenständigem Erholungscharakter",
+          "text": "Plánky gehört zu den drei stabilisierten Gebieten des Stadtteils Bratislava-Záhorská Bystrica, die der Flächenwidmungsplan für landwirtschaftliche Grünflächen sowie für Gärten, Kleingärten und Ferienhaussiedlungen (Funktionscode 1203) vorsieht. Die Stadtteilverwaltung nennt eine Fläche von 19,4 Hektar und 75 gemeldete Einwohner. Es handelt sich somit nicht nur um einige Gärten am Stadtrand, sondern um eine größere Erholungslandschaft mit einer eigenen Struktur aus Gärten und Freizeitgebäuden. Der stabilisierte Gebietsstatus soll Maßstab und Charakter bewahren und begrenzt Neubauten, die nicht dazu passen. Ein öffentliches Adressdatenset auf Grundlage des slowakischen Adressregisters RAGEO verzeichnet für die Postleitzahl 84002 insgesamt 128 Adresspunkte in Záhorská Bystrica; der repräsentative Gesamtpunkt dieser Postleitzahl liegt im Gebiet Plánky. Zwei weitere Datensätzeinträge befinden sich in Lamač. Deshalb wird ausdrücklich darauf hingewiesen, dass die geografische Zuordnung der Postleitzahl noch nicht vollständig geklärt ist."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Plánky – garden and cottage area in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – a garden landscape with a distinct recreational character",
+          "text": "Plánky is one of three established areas in the Bratislava-Záhorská Bystrica district that the zoning plan designates for agricultural green space and land used for gardens, allotments and cottage settlements (functional code 1203). The district authority gives its area as 19.4 hectares and records 75 registered residents. It is therefore more than a handful of gardens on the edge of the city: it is a sizeable recreational landscape with its own pattern of gardens and leisure buildings. Its stabilised planning status is intended to preserve the area's scale and character and restricts development that would undermine them. A public address dataset derived from Slovakia's RAGEO address register lists 128 address points in Záhorská Bystrica under postcode 84002; the postcode's aggregate representative point lies in Plánky. Two additional entries are listed in Lamač, so the geographic assignment of the postcode is explicitly treated here as not yet fully resolved."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Plánky – zona de jardines y casas de recreo en Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – un paisaje de jardines con carácter recreativo propio",
+          "text": "Plánky es una de las tres zonas estabilizadas del distrito de Bratislava-Záhorská Bystrica que el plan urbanístico destina a zonas verdes agrícolas y terrenos para jardines, huertos y asentamientos de casas de recreo (código funcional 1203). El ayuntamiento indica una superficie de 19,4 hectáreas y 75 residentes empadronados. Por tanto, no se trata simplemente de unos cuantos jardines en las afueras, sino de un paisaje recreativo de cierta extensión, con una estructura propia de jardines y construcciones de ocio. La clasificación urbanística estabilizada pretende conservar la escala y el carácter del lugar y limita las nuevas construcciones que no respeten esos rasgos. Un conjunto público de datos de direcciones derivado del registro eslovaco RAGEO contabiliza 128 puntos de dirección en Záhorská Bystrica para el código postal 84002; el punto representativo agregado de ese código se encuentra en Plánky. Otros dos registros aparecen en Lamač, por lo que aquí se indica expresamente que la asignación geográfica del código postal aún no está completamente resuelta."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Plánky – secteur de jardins et de chalets à Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – un paysage de jardins au caractère récréatif affirmé",
+          "text": "Plánky fait partie des trois secteurs stabilisés du quartier de Bratislava-Záhorská Bystrica que le plan d’urbanisme réserve aux espaces verts agricoles ainsi qu’aux jardins, jardins familiaux et lotissements de chalets (code fonctionnel 1203). La municipalité indique une superficie de 19,4 hectares et 75 habitants enregistrés. Il ne s’agit donc pas de quelques jardins en périphérie, mais d’un paysage de loisirs relativement vaste, structuré par des jardins et des constructions récréatives. Le statut urbanistique stabilisé vise à préserver l’échelle et le caractère du lieu et limite les constructions nouvelles qui ne les respecteraient pas. Un jeu de données public dérivé du registre slovaque des adresses RAGEO recense 128 points d’adresse à Záhorská Bystrica sous le code postal 84002 ; le point représentatif global de ce code se situe à Plánky. Deux autres entrées sont situées à Lamač : l’affectation géographique du code postal est donc signalée comme n’étant pas encore entièrement résolue."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Plánky – area di giardini e case di villeggiatura a Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – un paesaggio di giardini dal carattere ricreativo distintivo",
+          "text": "Plánky è una delle tre aree stabilizzate del quartiere di Bratislava-Záhorská Bystrica che il piano urbanistico destina a verde agricolo e a terreni per giardini, orti e insediamenti di case di villeggiatura (codice funzionale 1203). Il Comune indica una superficie di 19,4 ettari e 75 residenti registrati. Non si tratta quindi di pochi giardini ai margini della città, ma di un paesaggio ricreativo piuttosto esteso, con una propria struttura di giardini ed edifici per il tempo libero. Lo status urbanistico stabilizzato mira a conservarne la scala e il carattere e limita le nuove costruzioni che non li rispettano. Un dataset pubblico di indirizzi derivato dal registro slovacco RAGEO conta 128 punti di indirizzo a Záhorská Bystrica per il CAP 84002; il punto rappresentativo complessivo di questo CAP si trova nell’area di Plánky. Altri due punti risultano a Lamač, perciò l’attribuzione geografica del CAP è qui indicata esplicitamente come non ancora del tutto chiarita."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Plánky – tuin- en recreatiegebied in Záhorská Bystrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Plánky – een tuinlandschap met een eigen recreatief karakter",
+          "text": "Plánky is een van de drie bestendige gebieden in het stadsdeel Bratislava-Záhorská Bystrica die in het bestemmingsplan zijn aangewezen voor agrarisch groen en grond voor tuinen, volkstuinen en recreatiewoningen (functiecode 1203). Het stadsdeel vermeldt een oppervlakte van 19,4 hectare en 75 ingeschreven inwoners. Het gaat dus om meer dan enkele tuinen aan de stadsrand: het is een uitgestrekt recreatielandschap met een eigen structuur van tuinen en recreatiegebouwen. De bestendige planologische status moet de schaal en het karakter van het gebied behouden en beperkt nieuwbouw die daarmee in strijd is. Een openbare adresdataset op basis van het Slowaakse adressenregister RAGEO vermeldt voor postcode 84002 128 adrespunten in Záhorská Bystrica; het geaggregeerde representatieve punt van deze postcode ligt in Plánky. Twee andere vermeldingen liggen in Lamač. Daarom wordt de geografische toewijzing van de postcode hier uitdrukkelijk als nog niet volledig opgehelderd aangeduid."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
