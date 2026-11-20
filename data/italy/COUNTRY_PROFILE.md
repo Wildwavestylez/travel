@@ -33,15 +33,18 @@ Preserve the established TRAVEL / EuropeExplorer architecture used for Czechia a
 
 The production unit for Italy is the five-digit Italian postal code, the **CAP (Codice di Avviamento Postale)**.
 
-- One CAP is one production unit and one canonical postcode record.
-- A CAP is a postal routing and delivery identifier. It is not itself an administrative unit, municipality, neighbourhood or tourist destination.
-- A CAP record must represent the defensible geographic delivery area associated with that CAP, not merely the name of a town printed beside it.
-- The CAP is the geographic content layer to which we attach interesting places, facts and stories.
-- Each fact must have a real, defensible location on the map and a meaningful geographic relationship to the CAP record.
-- Administrative labels such as Regione, Provincia and Comune help users navigate and filter the content; they do not define the editorial purpose of a CAP record.
-- Do not turn the project into a historical register of municipal mergers, boundary changes or former villages. Record administrative detail only to the extent needed for correct current geographic classification and useful search.
+- **One CAP is one production unit and exactly one canonical postcode record**, including when the CAP is shared by several Comuni.
+- Never split one CAP into multiple records by Comune and never create multiple records with the same CAP.
+- The CAP is our project content/indexing layer. The record covers the complete defensible geographic area associated with that CAP.
+- The `city` field contains the current official names of **all Comuni associated with the CAP**, in one comma-separated string. It is a compact administrative orientation label, not a choice of one representative or serving Comune.
+- The `county` and `state` fields reflect all applicable intermediate territorial units and Regioni associated with those Comuni. If more than one applies, list the official names in one comma-separated string rather than silently choosing one.
+- A CAP's Comune list is administrative context only. It does not divide the editorial work or the facts into municipal sub-records.
+- Research all interesting places, attractions and stories across the entire CAP area, regardless of the Comune, frazione or locality in which they physically lie.
+- Each fact is located at its actual physical subject on the map. Do not add a municipality-based fact assignment or require the fact to be associated with one particular Comune.
+- `representative_place` and `representative_point` provide one useful map anchor for the CAP as a whole. They are not a representative Comune, serving post office or boundary centroid.
+- Administrative labels support orientation and filtering; they do not define the editorial purpose of the CAP record.
 
-Keep the CAP record, the map location of each fact, the representative place/point and the legacy access point conceptually distinct. Administrative labels are supporting metadata for search and filtering, not the main content.
+Keep the CAP record, the map location of each fact, the representative place/point and the legacy access point conceptually distinct. Do not turn the project into a historical register of municipal mergers, boundary changes or former villages.
 
 ## Italian postal system — CAP
 
@@ -127,16 +130,14 @@ The canonical field names, required structure and controlled values are defined 
 The existing shared concepts must retain their distinct meanings:
 
 - `postcode`: the five-digit CAP, stored as a string.
-- municipality/city concept: the official Comune or postal locality used as the record's principal human-readable place label. It must not be an arbitrary list of every place associated with the CAP.
-- intermediate administrative concept: the relevant Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale or other correctly typed territorial unit, as supported by official sources.
-- Region/state concept: the Regione to which the relevant Comune belongs, using the current official ISTAT identity.
-- district/locality concept: a documented frazione, località, quartiere or other sub-municipal place where genuinely relevant. Preserve its local type; do not treat all such terms as equivalent.
-- `representative_place`: one human-readable place or feature that genuinely characterises the CAP's geographic area.
+- `city`: all current official Comuni associated with the CAP, written in one comma-separated string. Do not select a single Comune as a representative or serving-office anchor.
+- `county`: all applicable current intermediate territorial units — Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale or other correctly typed unit — for the associated Comuni. Use comma-separated official names if more than one applies.
+- `state`: all applicable current official Regioni for the associated Comuni. Use comma-separated official names if more than one applies.
+- `district`: only a genuinely relevant, documented sub-municipal locality; never a list of Comuni or all settlements in the CAP. Otherwise null.
+- `representative_place`: one human-readable place or feature that genuinely characterises the CAP's overall geographic area.
 - `representative_point`: coordinates of that same representative place.
 
-The administrative fields should provide a clear, useful primary classification for search and filters. Where a CAP genuinely relates to more than one Comune, use the project's agreed practical assignment rule and preserve enough information to avoid misleading users. Do not build a complex historical or boundary-management model solely to represent rare administrative edge cases.
-
-The serving post office's physical location must not automatically be treated as the location of every fact. Our primary concern is that each interesting place and story is correctly located and assigned to the appropriate CAP content record.
+The Comune list is administrative orientation only. It does not partition research, facts or map coverage. Do not require each fact to be assigned to a Comune. A fact's location is determined by its real physical subject, while the CAP record is determined by the defensible CAP relationship. The physical location of a post-office branch is not a mandatory content anchor and must never determine where facts are researched or placed.
 
 ## Representative place and point
 
