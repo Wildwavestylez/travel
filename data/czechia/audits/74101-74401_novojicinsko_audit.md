@@ -75,7 +75,7 @@ Zdroje:
 
 ## 7. E2 — Délka českého master textu
 
-Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **11/23 faktů** ve třech dávkách; zbývá **12 otevřených položek**.
+Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **22/23 faktů** v pěti dávkách; zbývá **1 položka REVIEW REQUIRED**.
 
 | PSČ | ID | Původní délka | Fakt | Stav |
 |---|---|---:|---|---|
@@ -107,8 +107,15 @@ Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **1
 - 74285/fact_014 — 263 → 732 znaků; doplněn správní kontext záboru, přejmenování obce, protest žen, zásah vojska a následné propuštění zadržených.
 - 74293/fact_003 — 346 → 675 znaků; doplněn kontext obecní koupě zámku a velkostatku v roce 1910 jako ochrany před germanizací, ručení občanů a následné hospodaření s pozemky.
 - 74293/fact_004 — 325 → 684 znaků; doplněn výběr návrhu občany, termín realizace a financování z programu přeshraniční spolupráce INTERREG Česko–Polsko.
+- 74285/fact_005 — 194 → 608 znaků; doplněno studium a kněžská dráha Kazimíra Tomáška, jeho podíl na vzniku Opavského besedníku a táboru lidu na Ostré hůrce.
+- 74285/fact_006 — 217 → 640 znaků; doplněno financování pomníku, odhalení v roce 1923, pozdější rozšíření a úprava Evženem Schollerem.
+- 74285/fact_008 — 256 → 683 znaků; doplněn rozsah ledovcového postupu, změna odtoku Odry, sedimenty a pazourky.
+- 74285/fact_009 — 238 → 646 znaků; doplněna posloupnost prvních usedlostí, rodina Rykalových a původní místní názvy.
+- 74285/fact_010 — 236 → 638 znaků; neutrálně doplněna současná struktura areálu (minizoo, 18jamkový minigolf, lanové a další atrakce), výslovně odlišeno od historické památky.
+- 74285/fact_012 — 212 → 559 znaků; doplněna existence dvou původních svatých obrázků a rozlišení původních zaniklých objektů od dnešního novodobého památníku.
+- 74285/fact_013 — 281 → 987 znaků; doplněn detailní rodinný příběh ukrývání Andreje Melnika na statku čp. 43, přesun do silážního žlabu, řezbářství a jeho odchod po osvobození.
 
-U všech jedenácti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývajících **12** položek je otevřeno nebo označeno REVIEW REQUIRED.
+U všech dvaadvaceti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývá jediná položka: 74272/fact_013 — Zdislavice. Oficiální obecní zdroj potvrzuje pouze polohu v dolině mezi Jedlí a Hlásnicí a pravděpodobný zánik živelnou pohromou; další bezpečně doložené informace nebyly nalezeny, proto je text ponechán bez výplně a označen REVIEW REQUIRED.
 
 Primární podklady první dávky:
 - https://www.albrechticky.cz/pamatne-stromy
@@ -181,7 +188,7 @@ Primární podklady první dávky:
 ## 11. Provedené zápisy a read-back
 
 1. 74235: přidán Mendelův fakt a 7 překladů; read-back 5 faktů a česká shoda PASS.
-2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531, 562, 647, 633, 732, 675 a 684 znaků PASS.
+2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531, 562, 647, 633, 732, 675, 684, 618, 537, 546, 577, 608, 640, 683, 646, 559, 987 a 638 znaků PASS.
 6. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
 2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
 3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
@@ -193,9 +200,9 @@ Primární podklady první dávky:
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
-1. 12 krátkých českých master textů stále otevřeno; 11/23 uzavřeno. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
+1. 22/23 krátkých českých master textů uzavřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
 2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: vyřešit zbývajících 12 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: uzavřít délkovou kontrolu českých master textů; jediná nedoplnitelná položka 74272/fact_013 zůstává REVIEW REQUIRED a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
