@@ -118,24 +118,45 @@ Všech 23 položek zůstává `REVIEW REQUIRED` do doloženého rozšíření č
 
 ## 9. G — Souřadnice
 
-Nalezeno **32 explicitních `facts[].location = null`**. Existující neprázdné souřadnice nebyly znovu kontrolovány ani měněny.
+**Dokončeno 2026-11-20 — všech 32 původně prázdných poloh doplněno.**
 
-Otevřené položky:
-- 74201: fact_001, fact_004, fact_007, fact_008
-- 74213: fact_002, fact_003
-- 74260: fact_003, fact_005, fact_008, fact_009, fact_010, fact_011, fact_012, fact_013
-- 74267: fact_008
-- 74273: fact_003, fact_010
-- 74274: fact_005, fact_006
-- 74275: fact_006, fact_007, fact_008
-- 74281: fact_004
-- 74282: fact_002, fact_006
-- 74285: fact_011, fact_013
-- 74291: fact_002, fact_003
-- 74292: fact_001, fact_003
-- 74293: fact_001
+- Původní stav: 32 faktů s explicitním `facts[].location = null`.
+- Nový stav po zápisech a read-backu: **261/261 faktů má neprázdnou polohu; 0 null**.
+- Existující neprázdné polohy nebyly plošně znovu ověřovány ani přeměřovány. U již neprázdných faktů byly změny omezeny na několik cílených oprav vzniklých při dohledávání chybně určeného bodu v rámci této nulové výjimky.
+- Každý nově doplněný objekt má povinná pole `name`, `lat`, `lon`, `type`, `accuracy`, `source`; read-back potvrdil 0 neúplných objektů.
+- Použité hodnoty `accuracy` jsou pouze povolené enumy: `exact`, `approximate`, `area_representative`, `historical_approximate`.
+- Použité hodnoty `type` jsou ověřeny proti slovníku `schema.json`; 0 nepovolených hodnot.
+- Dodržena hierarchie rework promptu: konkrétní objekt → reprezentativní bod uvnitř rozlehlé lokality → doložená historická poloha → veřejný orientační bod obce → relevantní dopravní/infrastrukturní bod. `representative_point` ani `access_point` nebyly automaticky kopírovány.
 
-V tomto běhu nebyly tyto polohy nahrazeny odhadovanými souřadnicemi. Každá položka vyžaduje dohledání konkrétního bodu nebo doloženého veřejného orientačního místa podle hierarchie v rework promptu. Pokud takový bod nelze doložit, musí zůstat null s vysvětlením.
+### Příklady vyřešených poloh
+- 74201: Muzeum Moravských bratří v usedlosti čp. 21; železniční stanice Suchdol; reprezentativní bod nivy Odry v Poodří; veřejný orientační bod historického centra pro příběh očkování.
+- 74213: areál bývalé Vagonky v Butovicích; železniční stanice Studénka.
+- 74260: kaple na Dvorku; reprezentativní bod krajiny Petřvaldíku; památník v Petřvaldíku pro Hrabovského; orientační bod Petřvaldu pro rodáky RAF, pivovar a zaniklý zámek; podstavec u domu čp. 44; kostel sv. Mikuláše pro boje v květnu 1945.
+- 74267: pomník padlým německým vojákům v Ženklavě.
+- 74273: plastika Vlčí hlava s dítětem; přibližná oblast železniční nehody mezi Veřovicemi a Mořkovem.
+- 74274 a 74275: veřejné orientační body v Tiché a Lichnově pro osobnostní příběhy bez doložené konkrétní adresy či památníku.
+- 74281: památník Antona Hankeho před školou v Bravanticích.
+- 74282: reprezentativní bod PR Jistebnické mokřady; sousoší Jistebnických zpěváčků.
+- 74285: orientační bod Vřesiny pro bývalé letní kino Lesana; historický statek čp. 43 pro příběh Andreje Melnika.
+- 74291: kostel sv. Jana Křtitele a orientační bod historického sídla pro příběh hranice Moravy a Slezska.
+- 74292: historické jádro Lubojat pro listinu o původní kapli a pro urbářové rybníčky, jejichž přesná historická poloha nebyla bezpečně určena.
+- 74293: historické centrum Slatiny jako reprezentativní bod příběhu moravské enklávy.
+
+### Přesnost a omezení
+- Přesné body konkrétních objektů jsou označeny `exact` jen tam, kde zdroj identifikuje konkrétní místo.
+- Rozlehlé přírodní lokality používají `area_representative`.
+- Příběhy bez dochovaného přesného místa používají `approximate` nebo `historical_approximate`; pin nepředstírá přesnost.
+- U Lubojat zůstává bod pro urbářový příběh orientační v historickém jádru, nikoli tvrzení, že rybníčky ležely přímo u kostela.
+- Nevyřešené geografické null položky: **0**.
+
+### Technický read-back
+- Celkem faktů: 261.
+- Neprázdná `location`: 261.
+- `location = null`: 0.
+- Neúplné location objekty: 0.
+- Nepovolené hodnoty accuracy: 0.
+- Nepovolené hodnoty type: 0.
+- Změněné statusy/verze záznamů: 0.
 
 ## 10. H — Zjevné věcné vady a propagace
 
@@ -146,6 +167,7 @@ V tomto běhu nebyly tyto polohy nahrazeny odhadovanými souřadnicemi. Každá 
 ## 11. Provedené zápisy a read-back
 
 1. 74235: přidán Mendelův fakt a 7 překladů; read-back 5 faktů a česká shoda PASS.
+6. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
 2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
 3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
 4. 74101: odstraněn duplicitní hrad Starý Jičín z masteru a všech jazyků; read-back 7 faktů a 7 českých překladů PASS.
@@ -157,9 +179,8 @@ V tomto běhu nebyly tyto polohy nahrazeny odhadovanými souřadnicemi. Každá 
 
 Blokující otevřené oblasti:
 1. 23 krátkých českých master textů pod 350 znaků.
-2. 32 null mapových poloh, které je třeba individuálně prověřit podle geografické hierarchie.
-3. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: vyřešit pouze uvedené otevřené položky, zapsat opravy a načíst je zpět.
+Hotové kontroly se při pokračování neopakují. Další krok: vyřešit pouze 23 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
