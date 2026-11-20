@@ -1,4 +1,592 @@
 {
   "postcode": "82106",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Podunajské Biskupice",
+  "county": "Bratislava II",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Podunajských Biskupic – Trojičné námestie",
+  "representative_point": {
+    "lat": 48.125008,
+    "lon": 17.210909
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kostel svatého Mikuláše – středověké jádro",
+      "text": "Farní kostel svatého Mikuláše patří k nejstarším dochovaným stavbám Podunajských Biskupic. Vznik se tradičně klade do roku 1221, ale přímý doklad o stavbě v tomto roce chybí; farnost je bezpečně doložena papežskou listinou z roku 1254. Jádro, svatyně, sakristie a věž pocházejí ze 13. století. Výrazné úpravy proběhly v letech 1751–1755 a při rozšíření o dvě boční lodě v roce 1937.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://new.farapb.sk/index.php?Itemid=101&catid=25:nasa-farnost&id=109:historia-farskeho-kostola-sv-mikulasa&lang=sk&option=com_content&view=article",
+        "https://www.biskupice.sk/evt_file.php?file=10315",
+        "https://poi.oma.sk/w238308128"
+      ],
+      "location": {
+        "name": "Kostel svatého Mikuláše",
+        "address": "Trojičné námestie 4, Bratislava, Slovensko",
+        "lat": 48.12427186587949,
+        "lon": 17.209787876800927,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w238308128"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Římský milník císaře Alexandra Severa",
+      "text": "Kamenný milník z 3. století, spojovaný s císařem Alexandrem Severem a datovaný do roku 230 n. l., dokládá římskou minulost oblasti. Originál byl nalezen v prostoru někdejší arcibiskupské zahrady. V zeleném pásu na Biskupické ulici stojí od roku 1996 jeho kopie, nikoli původní antický kámen.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.muop.eu/p-biskupice-nehnutelne",
+        "https://bratislavskykraj.sk/spoznajte-kraj/mesta-a-obce/podunajske-biskupice/",
+        "https://www.biskupice.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf",
+        "https://poi.oma.sk/n12688182904"
+      ],
+      "location": {
+        "name": "Kopie římského milníku na Biskupické ulici",
+        "address": "Biskupická 25, Bratislava, Slovensko",
+        "lat": 48.1260847,
+        "lon": 17.209125,
+        "type": "monument",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n12688182904"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Trojičný sloup – dominanta historického náměstí",
+      "text": "Trojičný sloup byl vztyčen roku 1730 a dal jméno hlavnímu veřejnému prostranství Podunajských Biskupic. Kanelovaný sloup vrcholí sousoším Nejsvětější Trojice a u paty má starší barokní sochy. A. Brandl jej obnovoval v letech 1851 a 1886; další restaurátorský zásah proběhl v roce 2016. Jde o národní kulturní památku.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.muop.eu/sakralne-diela-podunajske-biskupice",
+        "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-trojicny-stlp",
+        "https://www.biskupice.sk/evt_file.php?file=10315"
+      ],
+      "location": {
+        "name": "Trojičný sloup",
+        "address": "Trojičné námestie, Bratislava, Slovensko",
+        "lat": 48.125008,
+        "lon": 17.210909,
+        "type": "monument",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-trojicny-stlp"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kúria Juraja Alberta – šlechtické sídlo a Muzeum obchodu",
+      "text": "Kúrii nechal kolem poloviny 18. století postavit Juraj Albert, hlavní finanční správce bratislavského arcibiskupského panství. K sídlu patřil několikahektarový park, z něhož se dochovala část kaštanové aleje. Po Albertově smrti přešla kúria přes jeho zetě Antona Galgóczyho k rodině Linzbóth. Po válce sloužila veřejným účelům a od roku 1988 v ní sídlí Muzeum obchodu.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-kuria-juraja-alberta",
+        "https://www.biskupice.sk/evt_file.php?file=10315"
+      ],
+      "location": {
+        "name": "Kúria Juraja Alberta",
+        "address": "Linzbothova 16, Bratislava, Slovensko",
+        "lat": 48.12884,
+        "lon": 17.20475,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-kuria-juraja-alberta"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Letní zámeček kardinála Batthyányho v Lieskovci",
+      "text": "Kardinál József Batthyány nechal kolem poloviny 18. století v Lieskovci vybudovat letní sídlo určené pro oslavy, společenská setkání a taneční zábavy. Dvoupatrový zámeček měl asi osmnáct pokojů a několik tanečních sálů; roku 1783 dostal malby s čínskými motivy. V 19. století chátral, později sloužil jako sklad a po válce byl součástí drůbežářské farmy.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-letny-kastiel-kardinala-batthyaniho",
+        "https://ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Kastiele-a-kurie-Bratislavkej-zupy_2011small.pdf",
+        "https://www.biskupice.sk/evt_file.php?file=10315"
+      ],
+      "location": {
+        "name": "Letní zámeček kardinála Batthyányho – Kaštieľ Lieskovec",
+        "address": null,
+        "lat": 48.100434,
+        "lon": 17.197922,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-letny-kastiel-kardinala-batthyaniho"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Sestra Zdenka Schelingová a poutní kostel Povýšení svatého Kříže",
+      "text": "Podunajské Biskupice byly centrem slovenské provincie Milosrdných sester svatého Kříže. Cecília Schelingová vstoupila do mateřského domu roku 1931, přijala jméno Zdenka a první řeholní sliby složila roku 1937. Komunistický režim sestry v roce 1950 násilně vyvezl; později zde vznikl ústav tuberkulózy. Kostel byl znovu vysvěcen roku 1992 a od blahoslavení Zdenky v roce 2003 je hlavním poutním kostelem s jejími relikviemi.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "https://sestrysvkriza.sk/dejiny-a-zakladatelia/3881/dejiny-kongregacie-milosrdnych-sestier-sv-kriza-a-jej-zakladatelia/",
+        "https://www.upn.gov.sk/sk/pribeh-pamatnika-cecilia-schelingova-sr-zdenka-1916-1955/",
+        "https://www.muop.eu/p-biskupice-nehnutelne",
+        "https://poi.oma.sk/w67839361"
+      ],
+      "location": {
+        "name": "Kostel Povýšení svatého Kříže",
+        "address": "Krajinská 91, Bratislava, Slovensko",
+        "lat": 48.126037645513705,
+        "lon": 17.208538107749966,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w67839361"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_007",
+      "title": "Pamětní sloup vysídlených maďarských rodin",
+      "text": "U základní školy na Vetvárské ulici stojí řezbářsky zdobený dřevěný sloup na památku maďarských rodin, které musely proti své vůli opustit Podunajské Biskupice. Je na něm letopočet 1947 a nápis In memoriam. Místní historický přehled uvádí, že roku 1946 bylo do českých zemí násilně odvlečeno 140 biskupických maďarských rodin. Památník byl odhalen 6. října 2007.",
+      "category": "history",
+      "priority": "D",
+      "sources": [
+        "https://www.biskupice.sk/evt_file.php?file=10325",
+        "https://www.biskupice.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf",
+        "https://www.muop.eu/pomniky-podunajske-biskupice",
+        "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/vystahovanie-madarov-z-podunajskych-biskupic-1947-park-pri-trojicnom-nam"
+      ],
+      "location": {
+        "name": "Pamětní sloup vysídlených maďarských rodin",
+        "address": "Vetvárska ulice, Bratislava, Slovensko",
+        "lat": 48.1248279,
+        "lon": 17.2107053,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/vystahovanie-madarov-z-podunajskych-biskupic-1947-park-pri-trojicnom-nam"
+      },
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, príloha 3a: PSČ 821 06 – 821 07 a 821 10 sú priradené k vybranej pošte Bratislava 214. Nástupnícka prevádzka pošty Bratislava 214 je na Uzbeckej 5227/4 v Podunajských Biskupiciach.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok; denný CC0 dataset odvodený z Registra adries SR",
+    "postcode_source_release": "Technické parametre účinné od 1. 1. 2026; adresný dataset kontrolovaný 20. 11. 2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Odvodený adresný dataset obsahuje adresné body PSČ 82106 vo viacerých mestských častiach Bratislavy. Administratívne polia city, district, county a state sú určené podľa fyzickej polohy vybranej pošty Bratislava 214, nie podľa všetkých okrajových adresných bodov doručovacej oblasti. Presná polygonálna hranica PSČ sa netvrdí.",
+    "delivery_office_note": "Slovenská pošta zaraďuje PSČ 82106 k vybranej pošte Bratislava 214. Nástupnícka prevádzka je na adrese Uzbecká 5227/4 v Bratislave-Podunajských Biskupiciach. Poloha pošty určuje administratívne polia, nie reprezentatívny bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. Na systematickú kontrolu bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie údajov z Registra adries SR a registra obcí. Dataset pre PSČ 82106 uvádza 3 990 adresných bodov a päť jednotiek obcí/mestských častí; eviduje adresy v Podunajských Biskupiciach a menšie okrajové adresné skupiny v Ružinove a Vrakuni. Administratívna príslušnosť vybranej pošty Bratislava 214 je určená jej fyzickou adresou Uzbecká 4 v Podunajských Biskupiciach. RAGEO nebol samostatne exportovaný cez portál; hranica doručovacej oblasti sa neinterpretuje ako presný polygon."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – nástupnícka pošta Bratislava 214 na Uzbeckej",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/ukoncenie-prevadzky-posty-vo-vlcom-hrdle",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/top/uvod/06-register-adries",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – README and daily CC0 datasets derived from the Slovak address register",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_code_areas.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – municipalities.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipalities.csv",
+      "type": "other"
+    },
+    {
+      "title": "Supporting source for Kostel svatého Mikuláše – středověké jádro",
+      "url": "https://new.farapb.sk/index.php?Itemid=101&catid=25:nasa-farnost&id=109:historia-farskeho-kostola-sv-mikulasa&lang=sk&option=com_content&view=article",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Kostel svatého Mikuláše – středověké jádro",
+      "url": "https://www.biskupice.sk/evt_file.php?file=10315",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Kostel svatého Mikuláše – středověké jádro",
+      "url": "https://poi.oma.sk/w238308128",
+      "type": "other"
+    },
+    {
+      "title": "Supporting source for Římský milník císaře Alexandra Severa",
+      "url": "https://www.muop.eu/p-biskupice-nehnutelne",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Římský milník císaře Alexandra Severa",
+      "url": "https://bratislavskykraj.sk/spoznajte-kraj/mesta-a-obce/podunajske-biskupice/",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Římský milník císaře Alexandra Severa",
+      "url": "https://www.biskupice.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Římský milník císaře Alexandra Severa",
+      "url": "https://poi.oma.sk/n12688182904",
+      "type": "other"
+    },
+    {
+      "title": "Supporting source for Trojičný sloup – dominanta historického náměstí",
+      "url": "https://www.muop.eu/sakralne-diela-podunajske-biskupice",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Trojičný sloup – dominanta historického náměstí",
+      "url": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-trojicny-stlp",
+      "type": "specialist"
+    },
+    {
+      "title": "Supporting source for Kúria Juraja Alberta – šlechtické sídlo a Muzeum obchodu",
+      "url": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-kuria-juraja-alberta",
+      "type": "specialist"
+    },
+    {
+      "title": "Supporting source for Letní zámeček kardinála Batthyányho v Lieskovci",
+      "url": "https://www.pamiatkynaslovensku.sk/podunajske-biskupice-bratislava-letny-kastiel-kardinala-batthyaniho",
+      "type": "specialist"
+    },
+    {
+      "title": "Supporting source for Letní zámeček kardinála Batthyányho v Lieskovci",
+      "url": "https://ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Kastiele-a-kurie-Bratislavkej-zupy_2011small.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Supporting source for Sestra Zdenka Schelingová a poutní kostel Povýšení svatého Kříže",
+      "url": "https://sestrysvkriza.sk/dejiny-a-zakladatelia/3881/dejiny-kongregacie-milosrdnych-sestier-sv-kriza-a-jej-zakladatelia/",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Sestra Zdenka Schelingová a poutní kostel Povýšení svatého Kříže",
+      "url": "https://www.upn.gov.sk/sk/pribeh-pamatnika-cecilia-schelingova-sr-zdenka-1916-1955/",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Sestra Zdenka Schelingová a poutní kostel Povýšení svatého Kříže",
+      "url": "https://poi.oma.sk/w67839361",
+      "type": "other"
+    },
+    {
+      "title": "Supporting source for Pamětní sloup vysídlených maďarských rodin",
+      "url": "https://www.biskupice.sk/evt_file.php?file=10325",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Pamětní sloup vysídlených maďarských rodin",
+      "url": "https://www.muop.eu/pomniky-podunajske-biskupice",
+      "type": "official"
+    },
+    {
+      "title": "Supporting source for Pamětní sloup vysídlených maďarských rodin",
+      "url": "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/vystahovanie-madarov-z-podunajskych-biskupic-1947-park-pri-trojicnom-nam",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Podunajských Biskupic – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostel svatého Mikuláše – středověké jádro",
+          "text": "Farní kostel svatého Mikuláše patří k nejstarším dochovaným stavbám Podunajských Biskupic. Vznik se tradičně klade do roku 1221, ale přímý doklad o stavbě v tomto roce chybí; farnost je bezpečně doložena papežskou listinou z roku 1254. Jádro, svatyně, sakristie a věž pocházejí ze 13. století. Výrazné úpravy proběhly v letech 1751–1755 a při rozšíření o dvě boční lodě v roce 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "Římský milník císaře Alexandra Severa",
+          "text": "Kamenný milník z 3. století, spojovaný s císařem Alexandrem Severem a datovaný do roku 230 n. l., dokládá římskou minulost oblasti. Originál byl nalezen v prostoru někdejší arcibiskupské zahrady. V zeleném pásu na Biskupické ulici stojí od roku 1996 jeho kopie, nikoli původní antický kámen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trojičný sloup – dominanta historického náměstí",
+          "text": "Trojičný sloup byl vztyčen roku 1730 a dal jméno hlavnímu veřejnému prostranství Podunajských Biskupic. Kanelovaný sloup vrcholí sousoším Nejsvětější Trojice a u paty má starší barokní sochy. A. Brandl jej obnovoval v letech 1851 a 1886; další restaurátorský zásah proběhl v roce 2016. Jde o národní kulturní památku."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúria Juraja Alberta – šlechtické sídlo a Muzeum obchodu",
+          "text": "Kúrii nechal kolem poloviny 18. století postavit Juraj Albert, hlavní finanční správce bratislavského arcibiskupského panství. K sídlu patřil několikahektarový park, z něhož se dochovala část kaštanové aleje. Po Albertově smrti přešla kúria přes jeho zetě Antona Galgóczyho k rodině Linzbóth. Po válce sloužila veřejným účelům a od roku 1988 v ní sídlí Muzeum obchodu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Letní zámeček kardinála Batthyányho v Lieskovci",
+          "text": "Kardinál József Batthyány nechal kolem poloviny 18. století v Lieskovci vybudovat letní sídlo určené pro oslavy, společenská setkání a taneční zábavy. Dvoupatrový zámeček měl asi osmnáct pokojů a několik tanečních sálů; roku 1783 dostal malby s čínskými motivy. V 19. století chátral, později sloužil jako sklad a po válce byl součástí drůbežářské farmy."
+        },
+        {
+          "id": "fact_006",
+          "title": "Sestra Zdenka Schelingová a poutní kostel Povýšení svatého Kříže",
+          "text": "Podunajské Biskupice byly centrem slovenské provincie Milosrdných sester svatého Kříže. Cecília Schelingová vstoupila do mateřského domu roku 1931, přijala jméno Zdenka a první řeholní sliby složila roku 1937. Komunistický režim sestry v roce 1950 násilně vyvezl; později zde vznikl ústav tuberkulózy. Kostel byl znovu vysvěcen roku 1992 a od blahoslavení Zdenky v roce 2003 je hlavním poutním kostelem s jejími relikviemi."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pamětní sloup vysídlených maďarských rodin",
+          "text": "U základní školy na Vetvárské ulici stojí řezbářsky zdobený dřevěný sloup na památku maďarských rodin, které musely proti své vůli opustit Podunajské Biskupice. Je na něm letopočet 1947 a nápis In memoriam. Místní historický přehled uvádí, že roku 1946 bylo do českých zemí násilně odvlečeno 140 biskupických maďarských rodin. Památník byl odhalen 6. října 2007."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historisches Zentrum von Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "St.-Nikolaus-Kirche – mittelalterlicher Kern",
+          "text": "Die Kirche gehört zu den ältesten erhaltenen Bauten des Ortes. Die Gründung wird traditionell auf 1221 datiert, doch ein direkter Baunachweis fehlt; eine päpstliche Urkunde belegt die Pfarrei 1254. Kern, Sakristei und Turm stammen aus dem 13. Jahrhundert. Größere Umbauten erfolgten 1751–1755 und 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "Römischer Meilenstein von Severus Alexander",
+          "text": "Ein Meilenstein des 3. Jahrhunderts, verbunden mit Kaiser Severus Alexander und datiert auf 230 n. Chr., belegt die römische Vergangenheit. Das Original wurde im ehemaligen erzbischöflichen Garten gefunden. An der Biskupická-Straße steht seit 1996 eine Kopie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dreifaltigkeitssäule – Wahrzeichen des Platzes",
+          "text": "Die 1730 errichtete Säule gab dem Trojičné námestie seinen Namen. Sie trägt eine Gruppe der Heiligsten Dreifaltigkeit und ältere barocke Figuren. A. Brandl restaurierte sie 1851 und 1886; 2016 erfolgte eine weitere Restaurierung. Sie ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúria von Juraj Albert und Handelsmuseum",
+          "text": "Juraj Albert ließ das Herrenhaus um die Mitte des 18. Jahrhunderts errichten. Zum Anwesen gehörte ein großer Park, von dem ein Teil der Kastanienallee erhalten ist. Später kam es an die Familie Linzbóth. Seit 1988 befindet sich hier das Handelsmuseum."
+        },
+        {
+          "id": "fact_005",
+          "title": "Sommerpalais von Kardinal Batthyány in Lieskovec",
+          "text": "Kardinal Batthyány ließ um 1750 ein Sommerpalais für Feste und Tanzveranstaltungen errichten. Es hatte etwa 18 Räume und mehrere Tanzsäle; 1783 erhielt es Malereien mit chinesischen Motiven. Später verfiel es und diente als Lager und Geflügelfarm."
+        },
+        {
+          "id": "fact_006",
+          "title": "Schwester Zdenka und die Wallfahrtskirche zur Kreuzerhöhung",
+          "text": "Cecília Schelingová trat 1931 in das Mutterhaus der Schwestern vom Heiligen Kreuz ein und legte 1937 ihre ersten Gelübde ab. 1950 wurden die Schwestern gewaltsam entfernt. Die Kirche wurde 1992 neu geweiht und ist seit Zdenkas Seligsprechung 2003 Wallfahrtskirche mit ihren Reliquien."
+        },
+        {
+          "id": "fact_007",
+          "title": "Gedenksäule für vertriebene ungarische Familien",
+          "text": "Bei der Schule in der Vetvárska-Straße steht eine geschnitzte Gedenksäule für ungarische Familien, die den Ort verlassen mussten. Sie trägt die Jahreszahl 1947 und „In memoriam“. Eine Ortschronik berichtet von 140 Familien, die 1946 gewaltsam in die böhmischen Länder deportiert wurden. Das Denkmal wurde 2007 enthüllt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "St Nicholas Church – the medieval core",
+          "text": "The church is among the oldest surviving buildings in the area. Its foundation is traditionally dated to 1221, but no direct proof confirms that year; a papal charter documents the parish in 1254. The core, sacristy and tower date from the 13th century. Major alterations followed in 1751–1755 and 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Roman milestone of Severus Alexander",
+          "text": "A 3rd-century milestone associated with Emperor Severus Alexander and dated to AD 230 documents the Roman past of the area. The original was found in the former archbishop’s garden. A replica was installed on Biskupická Street in 1996."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Holy Trinity Column – landmark of the square",
+          "text": "Erected in 1730, the column gave its name to Trojičné námestie. It is crowned by a sculptural group of the Holy Trinity and has older Baroque statues at its base. A. Brandl restored it in 1851 and 1886; it was restored again in 2016. It is a national cultural monument."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Juraj Albert Manor and Museum of Trade",
+          "text": "Juraj Albert built the manor around the mid-18th century. Its grounds once included a large park, part of whose chestnut avenue survives. The manor later passed to the Linzbóth family. Since 1988 it has housed the Museum of Trade."
+        },
+        {
+          "id": "fact_005",
+          "title": "Cardinal Batthyány’s summer palace at Lieskovec",
+          "text": "Around the mid-18th century Cardinal Batthyány built a summer palace for celebrations and dances. It had about eighteen rooms and several dance halls; in 1783 its interior received paintings with Chinese motifs. It later deteriorated and served as a warehouse and poultry farm."
+        },
+        {
+          "id": "fact_006",
+          "title": "Sister Zdenka and the Pilgrimage Church of the Exaltation of the Holy Cross",
+          "text": "Cecília Schelingová entered the Sisters of the Holy Cross mother house in 1931 and made her first vows in 1937. The communist regime forcibly removed the sisters in 1950. The church was reconsecrated in 1992 and became the main pilgrimage church holding Zdenka’s relics after her beatification in 2003."
+        },
+        {
+          "id": "fact_007",
+          "title": "Memorial pillar to displaced Hungarian families",
+          "text": "A carved wooden pillar beside the school on Vetvárska Street commemorates Hungarian families forced to leave the area. It bears 1947 and “In memoriam”. A local history records that 140 families were forcibly deported to the Czech lands in 1946. The memorial was unveiled in 2007."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Iglesia de San Nicolás: núcleo medieval",
+          "text": "Es uno de los edificios conservados más antiguos. Su origen se fecha tradicionalmente en 1221, aunque no existe prueba directa; una bula papal documenta la parroquia en 1254. El núcleo, la sacristía y la torre datan del siglo XIII. Hubo reformas importantes en 1751–1755 y en 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "El miliario romano de Alejandro Severo",
+          "text": "Un miliario del siglo III, relacionado con Alejandro Severo y fechado en 230 d. C., documenta el pasado romano. El original apareció en el antiguo jardín arzobispal. En 1996 se instaló una réplica en la calle Biskupická."
+        },
+        {
+          "id": "fact_003",
+          "title": "La columna de la Santísima Trinidad",
+          "text": "Erigida en 1730, dio nombre a Trojičné námestie. Está coronada por un grupo de la Trinidad y tiene esculturas barrocas en la base. A. Brandl la restauró en 1851 y 1886; volvió a restaurarse en 2016. Es un monumento cultural nacional."
+        },
+        {
+          "id": "fact_004",
+          "title": "La kúria de Juraj Albert y el Museo del Comercio",
+          "text": "Juraj Albert construyó la residencia hacia mediados del siglo XVIII. La finca tenía un gran parque, del que se conserva parte de una alameda de castaños. Después pasó a la familia Linzbóth. Desde 1988 alberga el Museo del Comercio."
+        },
+        {
+          "id": "fact_005",
+          "title": "El palacio de verano del cardenal Batthyány",
+          "text": "Hacia 1750 el cardenal Batthyány mandó construir un palacio de verano para fiestas y bailes. Tenía unas dieciocho habitaciones y varios salones; en 1783 recibió pinturas de motivos chinos. Después se deterioró y sirvió como almacén y granja avícola."
+        },
+        {
+          "id": "fact_006",
+          "title": "La hermana Zdenka y la iglesia de peregrinación",
+          "text": "Cecília Schelingová ingresó en la casa madre de las Hermanas de la Santa Cruz en 1931 y profesó en 1937. El régimen comunista expulsó a las religiosas en 1950. La iglesia fue consagrada de nuevo en 1992 y conserva las reliquias de Zdenka desde su beatificación en 2003."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pilar conmemorativo de familias húngaras desplazadas",
+          "text": "Un pilar tallado junto a la escuela de Vetvárska recuerda a las familias húngaras obligadas a marcharse. Lleva el año 1947 y «In memoriam». Una historia local recoge que 140 familias fueron deportadas a tierras checas en 1946. El monumento se inauguró en 2007."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’église Saint-Nicolas, cœur médiéval",
+          "text": "C’est l’un des plus anciens bâtiments conservés. Sa fondation est traditionnellement datée de 1221, sans preuve directe ; une bulle pontificale atteste la paroisse en 1254. Le noyau, la sacristie et la tour datent du XIIIe siècle. Des transformations eurent lieu en 1751–1755 et en 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "La borne romaine de Sévère Alexandre",
+          "text": "Une borne du IIIe siècle, associée à Sévère Alexandre et datée de 230 apr. J.-C., témoigne du passé romain. L’original fut découvert dans l’ancien jardin archiépiscopal. Une copie fut installée rue Biskupická en 1996."
+        },
+        {
+          "id": "fact_003",
+          "title": "La colonne de la Sainte Trinité",
+          "text": "Érigée en 1730, elle a donné son nom à Trojičné námestie. Elle porte un groupe de la Sainte Trinité et des statues baroques plus anciennes. A. Brandl la restaura en 1851 et 1886 ; une nouvelle restauration eut lieu en 2016. C’est un monument culturel national."
+        },
+        {
+          "id": "fact_004",
+          "title": "La kúria de Juraj Albert et le Musée du commerce",
+          "text": "Juraj Albert fit construire cette demeure vers le milieu du XVIIIe siècle. Le domaine possédait un grand parc dont une partie de l’allée de marronniers subsiste. La demeure passa ensuite à la famille Linzbóth. Elle accueille le Musée du commerce depuis 1988."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le palais d’été du cardinal Batthyány",
+          "text": "Vers 1750, le cardinal Batthyány fit construire un palais d’été destiné aux fêtes et aux bals. Il comptait environ dix-huit pièces et plusieurs salles de danse ; en 1783, son intérieur reçut des peintures chinoises. Il se dégrada ensuite et servit d’entrepôt puis de ferme avicole."
+        },
+        {
+          "id": "fact_006",
+          "title": "Sœur Zdenka et l’église de pèlerinage",
+          "text": "Cecília Schelingová entra en 1931 à la maison mère des Sœurs de la Sainte-Croix et prononça ses premiers vœux en 1937. Le régime communiste expulsa les sœurs en 1950. L’église fut consacrée à nouveau en 1992 et conserve les reliques de Zdenka depuis sa béatification en 2003."
+        },
+        {
+          "id": "fact_007",
+          "title": "La colonne commémorative des familles hongroises déplacées",
+          "text": "Une colonne sculptée près de l’école de la rue Vetvárska rappelle les familles hongroises contraintes de partir. Elle porte la date 1947 et « In memoriam ». Une histoire locale rapporte que 140 familles furent déportées vers les pays tchèques en 1946. Le monument fut inauguré en 2007."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La chiesa di San Nicola, nucleo medievale",
+          "text": "È uno degli edifici conservati più antichi. La fondazione è tradizionalmente datata al 1221, ma manca una prova diretta; una bolla papale attesta la parrocchia nel 1254. Il nucleo, la sacrestia e la torre risalgono al XIII secolo. Modifiche importanti seguirono nel 1751–1755 e nel 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "La pietra miliare romana di Severo Alessandro",
+          "text": "Una pietra miliare del III secolo, associata a Severo Alessandro e datata al 230 d.C., documenta il passato romano. L’originale fu ritrovato nell’antico giardino arcivescovile. Una copia fu collocata in via Biskupická nel 1996."
+        },
+        {
+          "id": "fact_003",
+          "title": "La colonna della Santissima Trinità",
+          "text": "Eretta nel 1730, diede il nome a Trojičné námestie. È coronata da un gruppo della Trinità e presenta statue barocche alla base. A. Brandl la restaurò nel 1851 e nel 1886; un altro restauro fu eseguito nel 2016. È un monumento culturale nazionale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La kúria di Juraj Albert e il Museo del commercio",
+          "text": "Juraj Albert fece costruire la dimora verso la metà del XVIII secolo. La tenuta aveva un grande parco, di cui resta parte del viale di castagni. In seguito passò alla famiglia Linzbóth. Dal 1988 ospita il Museo del commercio."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il palazzo estivo del cardinale Batthyány",
+          "text": "Verso il 1750 il cardinale Batthyány fece costruire un palazzo estivo per feste e balli. Aveva circa diciotto stanze e diverse sale da ballo; nel 1783 fu decorato con dipinti cinesi. In seguito cadde in rovina e fu usato come magazzino e allevamento avicolo."
+        },
+        {
+          "id": "fact_006",
+          "title": "Suor Zdenka e la chiesa di pellegrinaggio",
+          "text": "Cecília Schelingová entrò nella casa madre delle Suore della Santa Croce nel 1931 e pronunciò i primi voti nel 1937. Il regime comunista espulse le suore nel 1950. La chiesa fu riconsacrata nel 1992 e custodisce le reliquie di Zdenka dalla sua beatificazione nel 2003."
+        },
+        {
+          "id": "fact_007",
+          "title": "La colonna commemorativa delle famiglie ungheresi sfollate",
+          "text": "Una colonna intagliata vicino alla scuola di via Vetvárska ricorda le famiglie ungheresi costrette a lasciare il paese. Riporta il 1947 e «In memoriam». Una storia locale riferisce che 140 famiglie furono deportate nelle terre ceche nel 1946. Il monumento fu inaugurato nel 2007."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Podunajské Biskupice – Trojičné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Sint-Nicolaaskerk – middeleeuws hart",
+          "text": "De kerk is een van de oudste bewaard gebleven gebouwen. De stichting wordt traditioneel op 1221 gedateerd, maar rechtstreeks bewijs ontbreekt; een pauselijke oorkonde vermeldt de parochie in 1254. De kern, sacristie en toren dateren uit de dertiende eeuw. Grote verbouwingen volgden in 1751–1755 en in 1937."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Romeinse mijlpaal van Severus Alexander",
+          "text": "Een mijlpaal uit de derde eeuw, verbonden met Severus Alexander en gedateerd op 230 na Christus, toont het Romeinse verleden. Het origineel werd gevonden in de voormalige aartsbisschoppelijke tuin. In 1996 werd aan de Biskupická-straat een replica geplaatst."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Drievuldigheidszuil",
+          "text": "De zuil werd in 1730 opgericht en gaf Trojičné námestie zijn naam. Bovenaan staat de Heilige Drie-eenheid; aan de voet staan oudere barokke beelden. A. Brandl restaureerde haar in 1851 en 1886; in 2016 volgde opnieuw restauratie. Het is een nationaal cultureel monument."
+        },
+        {
+          "id": "fact_004",
+          "title": "De kúria van Juraj Albert en het Handelsmuseum",
+          "text": "Juraj Albert liet het huis rond het midden van de achttiende eeuw bouwen. Het domein had een groot park; een deel van de kastanjelaan is bewaard. Later kwam het in handen van de familie Linzbóth. Sinds 1988 is het Handelsmuseum er gevestigd."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het zomerpaleis van kardinaal Batthyány",
+          "text": "Rond 1750 liet kardinaal Batthyány een zomerpaleis bouwen voor feesten en dansavonden. Het had ongeveer achttien kamers en meerdere danszalen; in 1783 kreeg het Chinese muurschilderingen. Later raakte het in verval en werd het gebruikt als opslagplaats en pluimveebedrijf."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zuster Zdenka en de bedevaartskerk",
+          "text": "Cecília Schelingová trad in 1931 toe tot het moederhuis van de Zusters van het Heilig Kruis en legde in 1937 haar eerste geloften af. Het communistische regime verdreef de zusters in 1950. De kerk werd in 1992 opnieuw ingewijd en bewaart sinds Zdenka’s zaligverklaring in 2003 haar relieken."
+        },
+        {
+          "id": "fact_007",
+          "title": "De gedenkzuil voor verdreven Hongaarse families",
+          "text": "Een bewerkte zuil bij de school aan de Vetvárska-straat herdenkt Hongaarse families die gedwongen vertrokken. Onderaan staan 1947 en ‘In memoriam’. Een lokale geschiedenis vermeldt dat in 1946 140 families naar Tsjechische gebieden werden gedeporteerd. Het monument werd in 2007 onthuld."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
