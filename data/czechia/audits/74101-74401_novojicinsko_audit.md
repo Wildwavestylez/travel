@@ -80,22 +80,8 @@ Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **2
 | PSČ | ID | Původní délka | Fakt | Stav |
 |---|---|---:|---|---|
 | 74272 | fact_013 | 336 | Zaniklá ves Zdislavice | REVIEW REQUIRED — oficiální zdroj potvrzuje pouze polohu v dolině mezi Jedlí a Hlásnicí a pravděpodobný zánik živelnou pohromou; další bezpečně doložený obsah pro odpovědné rozšíření nebyl nalezen. |
-| 74285 | fact_001 | 238 | Od středověké vsi k dělnické Vřesině | Otevřeno |
-| 74285 | fact_002 | 184 | Gustav Kořený a tradice Vynášení Mařáka | Otevřeno |
-| 74285 | fact_003 | 184 | Kaple se zvoničkou – místní kulturní památka | Otevřeno |
-| 74285 | fact_004 | 173 | Kostel sv. Antonína Paduánského | Otevřeno |
-| 74285 | fact_005 | 194 | Kazimír Tomášek – slezský národní buditel | Otevřeno |
-| 74285 | fact_006 | 217 | Pomník padlým hrdinům a obětem osvobození | Otevřeno |
 
-| 74285 | fact_008 | 256 | Ledovcové stopy ve Vřesinské strži | Otevřeno |
-| 74285 | fact_009 | 238 | Osada Mexiko na hranici dvou katastrů | Otevřeno |
-| 74285 | fact_010 | 236 | Skalka Family Park – současný rodinný areál | Otevřeno — prověřit relevantní kontext nad rámec současné nabídky, bez reklamního tónu. |
-
-| 74285 | fact_012 | 212 | Boží muka a tragédie sedláka Hurníka | Otevřeno |
-| 74285 | fact_013 | 281 | Andrej Melnik – ukrytý sovětský zajatec | Otevřeno |
-
-
-**Dokončeno v první dávce — 6/23 faktů:**
+**Doložené rozšíření a zápisy — 22/23 faktů:**
 - 74255/fact_004 — 345 → 632 znaků; doplněna pramenná výhrada k datu výsadby a přesný popis kronikářské slavnosti z roku 1928.
 - 74255/fact_006 — 339 → 667 znaků; doplněn průběh leteckých a pozemních bojů a škody na obci.
 - 74256/fact_005 — 343 → 580 znaků; doplněna metodika měření a výslovné omezení, že zdroj nepotvrzuje léčivost ani pitnost.
@@ -115,7 +101,7 @@ Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **2
 - 74285/fact_012 — 212 → 559 znaků; doplněna existence dvou původních svatých obrázků a rozlišení původních zaniklých objektů od dnešního novodobého památníku.
 - 74285/fact_013 — 281 → 987 znaků; doplněn detailní rodinný příběh ukrývání Andreje Melnika na statku čp. 43, přesun do silážního žlabu, řezbářství a jeho odchod po osvobození.
 
-U všech dvaadvaceti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývá jediná položka: 74272/fact_013 — Zdislavice. Oficiální obecní zdroj potvrzuje pouze polohu v dolině mezi Jedlí a Hlásnicí a pravděpodobný zánik živelnou pohromou; další bezpečně doložené informace nebyly nalezeny, proto je text ponechán bez výplně a označen REVIEW REQUIRED.
+U všech 22 opravených faktů byly aktualizovány texty cs/de/en/es/fr/it/nl. Read-back potvrdil 154/154 jazykových položek bez prázdných textů a pod 350 znaků; české master texty i translations.cs mají 0 rozdílů. Po synchronizaci cs je 0 nesouladů master/cs napříč všemi 261 fakty. Zbývá jediná položka: 74272/fact_013 — Zdislavice. Oficiální obecní zdroj potvrzuje pouze polohu v dolině mezi Jedlí a Hlásnicí a pravděpodobný zánik živelnou pohromou; další bezpečně doložené informace nebyly nalezeny, proto je text ponechán bez výplně a označen REVIEW REQUIRED.
 
 Primární podklady první dávky:
 - https://www.albrechticky.cz/pamatne-stromy
@@ -187,22 +173,25 @@ Primární podklady první dávky:
 
 ## 11. Provedené zápisy a read-back
 
-1. 74235: přidán Mendelův fakt a 7 překladů; read-back 5 faktů a česká shoda PASS.
-2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531, 562, 647, 633, 732, 675, 684, 618, 537, 546, 577, 608, 640, 683, 646, 559, 987 a 638 znaků PASS.
-6. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
-2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
-3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
-4. 74101: odstraněn duplicitní hrad Starý Jičín z masteru a všech jazyků; read-back 7 faktů a 7 českých překladů PASS.
-5. 74101, 74201, 74213, 74281, 74282: sjednocen zápis kraje; read-back PASS.
-
+1. 74235: přidán Mendelův fakt a 7 jazykových verzí; read-back 5 faktů a česká shoda PASS.
+2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a šest cizojazyčných překladů; následně synchronizováno translations.cs.
+3. 74285/fact_001–014 (s výjimkou již delšího obsahu a zachovaných ID): rozšířeny krátké faktory fact_001–006, fact_007, fact_008–014; u všech dotčených faktů aktualizováno cs/de/en/es/fr/it/nl.
+4. 74293/fact_003 a fact_004: rozšířeny české texty a všech šest cizojazyčných verzí.
+5. Read-back 22 rozšířených faktů: 154/154 jazykových položek existuje, 0 prázdných textů, 0 jazykových textů pod 350 znaků.
+6. Synchronizace českých překladů: 22 položek translations.cs srovnáno s facts[].text; následný read-back všech 261 faktů potvrdil 0 rozdílů master/cs.
+7. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
+8. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
+9. 74254, 74258, 74267: synchronizován translations.cs s českým masterem; read-back PASS.
+10. 74101: odstraněn duplicitní hrad Starý Jičín z masteru a všech jazyků; read-back PASS.
+11. 74101, 74201, 74213, 74281, 74282: sjednocen zápis kraje; read-back PASS.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
-1. 22/23 krátkých českých master textů uzavřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
+1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
 2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: uzavřít délkovou kontrolu českých master textů; jediná nedoplnitelná položka 74272/fact_013 zůstává REVIEW REQUIRED a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: dokončit individuální sémantickou kontrolu cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
