@@ -1,4 +1,674 @@
 {
   "postcode": "01004",
-  "status": "placeholder"
+  "city": "Žilina",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Hôrky – stred doručovacieho územia PSČ 010 04",
+  "representative_point": {
+    "lat": 49.20673,
+    "lon": 18.69663
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Bánová – veľkomoravské mohylové pohrebisko Dúbravka-Kalinové",
+      "text": "V lesnej polohe Dúbravka-Kalinové na území Bánovej sa nachádzalo rozsiahle včasnostredoveké mohylové pohrebisko z 8.–9. storočia. Výskum v roku 1962 odkryl až 33 mohýl, v ktorých bolo birituálne – kostrovo aj žiarovo – pochovaných približne 80 ľudí. V hroboch sa našli bojové sekery, nože, hroty šípov a kosáky; výbava niektorých hrobov naznačuje pochovávanie bojovníkov. Ide o dôležitý doklad veľkomoravského osídlenia severného Považia. Presný bod pohrebiska nie je vo verejných mapových podkladoch spoľahlivo vymedzený; mapa preto používa iba orientačný bod miestnej časti Bánová.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://pmza.sk/page/121/?page_id=0%2F",
+        "https://zilina.sk/wp-content/uploads/2026/03/MUSES-Zilina_01_2026.pdf",
+        "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2006_2.pdf",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv"
+      ],
+      "location": {
+        "name": "Bánová – les Dúbravka-Kalinové (orientačný bod miestnej časti)",
+        "address": null,
+        "lat": 49.20244,
+        "lon": 18.72167,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Veľké Hradisko pri Závodí – opevnené útočisko z praveku",
+      "text": "Na severozápad od Závodia sa nachádza archeologická lokalita Veľké Hradisko, rozsiahle výšinné opevnenie, ktoré mohlo slúžiť ako útočisko pre obyvateľstvo širšieho okolia. Datovanie nie je v podkladoch jednotné: pamiatkový dokument ho zaraďuje do halštatského obdobia, zatiaľ čo mestský ekologický plán z roku 2026 uvádza neskorú dobu laténsku a rímske obdobie. Rozpor môže odrážať viac fáz využívania alebo rozdielne vyhodnotenie starších nálezov; bez nového systematického výskumu ho nemožno uzavrieť. Nejde o zachované hradné ruiny, ale o archeologické opevnenie v teréne.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://zilina.sk/wp-content/uploads/2026/03/MUSES-Zilina_01_2026.pdf",
+        "https://www.pamiatky.sk/fileadmin/documents/news/ZASADY/Zilina/Zilina_zasady-ochrany.pdf",
+        "https://zilina.oma.sk/u/hradisko"
+      ],
+      "location": {
+        "name": "Veľké Hradisko – archeologická lokalita pri Závodí",
+        "address": null,
+        "lat": 49.2301598,
+        "lon": 18.6906632,
+        "type": "archaeological_site",
+        "accuracy": "exact",
+        "source": "https://zilina.oma.sk/u/hradisko"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Hôrky – archeologická krajina Kopce, Chrasť a Kopenec",
+      "text": "Chotár Hôrok bol osídlený už v mladšej dobe bronzovej. V polohe Kopce sa našlo sídlisko lužickej kultúry a niekoľko mohýl; v oblasti Chrasť bolo odkryté slovanské mohylové pohrebisko z veľkomoravského obdobia. Najzáhadnejšia je poloha Kopenec pri močiari Kaniža: v roku 1943 tu zaevidovali približne 80 metrov dlhý a 52 metrov široký mohylovitý útvar. Jeho pôvod nie je bezpečne vysvetlený a kultová funkcia je iba hypotézou. Hôrky tak uchovávajú niekoľko odlišných vrstiev osídlenia aj archeologickú záhadu.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.obechorky.sk/obec-2/historia/",
+        "https://www.obechorky.sk/modules/file_storage/download.php?file=7e9cf94e%7C63",
+        "https://horky.oma.sk/"
+      ],
+      "location": {
+        "name": "Hôrky – archeologická krajina Kopce, Chrasť a Kopenec",
+        "address": null,
+        "lat": 49.2066503,
+        "lon": 18.6897895,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://horky.oma.sk/"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Bitarová – stredoveká dedina odkrytá pri stavbe diaľnice",
+      "text": "Záchranný archeologický výskum v roku 2010, vyvolaný výstavbou diaľnice D1, odkryl v polohe Lány v Bitarovej 39 sídliskových objektov. Nálezy potvrdili staršie osídlenie púchovskej kultúry a najmä pozostatky stredovekej dediny z 12.–13. storočia vrátane jej hospodárskeho zázemia pozdĺž Bitarovského potoka. Miestne dejiny uvádzajú aj sídlisko lužickej a púchovskej kultúry z mladšej doby bronzovej a slovanský mohylník z veľkomoravského obdobia. Moderná dopravná stavba tak nečakane odkryla zaniknutú stredovekú osadu a oveľa staršie vrstvy života v tejto doline.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://archeol.sav.sk/files/SZ-58_obsah.pdf",
+        "https://www.e-obce.sk/obec/bitarova/2-historia.html",
+        "https://bitarova.oma.sk/"
+      ],
+      "location": {
+        "name": "Bitarová – archeologická poloha Lány a stredoveké sídlisko",
+        "address": null,
+        "lat": 49.2080737,
+        "lon": 18.6717157,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://bitarova.oma.sk/"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Ovčiarsko a Mikuláš Dohnányi – štúrovský dejateľ s nejednoznačným rodiskom",
+      "text": "Ovčiarsko bolo späté so zemianskymi rodinami Kožarovcov a Dohnányovcov; dodnes sa tu zachovala miestna časť nazývaná Panský dvor. Obec označuje Mikuláša Dohnányiho za svojho významného rodáka. Bol básnikom, historikom, prekladateľom, literárnym kritikom a redaktorom Slovenských pohľadov, patril k štúrovskej generácii. Jeho presné miesto narodenia však nie je v prameňoch jednotné: Ovčiarsko ho uvádza ako rodáka, zatiaľ čo iné biografické a obecné zdroje uvádzajú Dolné Držkovce; múzejné spracovanie pripúšťa Ovčiarsko ako pravdepodobnú možnosť. Bezpečné je hovoriť o silnej rodinnej a historickej väzbe Dohnányovcov na Ovčiarsko, nie o bezvýhradne potvrdenom rodisku.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.obecovciarsko.sk/pages/zakladne-udaje",
+        "https://www.obecovciarsko.sk/files/20591-Vyrocna-sprava-2024.pdf",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_98a32748-4f90-4464-b58c-d608f0c65a46",
+        "https://www.velkedrzkovce.sk/historia",
+        "https://www.zahorskemuzeum.sk/dohnany-dohnani-mikulas-28-11-1824-dolne-drzkovce-2-6-1852-trnava/",
+        "https://ovciarsko.oma.sk/"
+      ],
+      "location": {
+        "name": "Ovčiarsko – Panský dvor a historické sídlo rodiny Dohnányovcov",
+        "address": null,
+        "lat": 49.2233921,
+        "lon": 18.6659999,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://ovciarsko.oma.sk/"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_006",
+      "title": "Bánová – kostol Božského Srdca a trojičný stĺp z roku 1821",
+      "text": "Základný kameň kostola Božského Srdca Ježišovho v Bánovej posvätil Andrej Hlinka v roku 1935; kostol vysvätil 21. mája 1939 nitriansky biskup Karol Kmeťko. Pri vstupe stojí starší trojičný stĺp z roku 1821 so súsoším Najsvätejšej Trojice. V jednom priestore tak vedľa seba stoja dve rozdielne vrstvy miestnej náboženskej histórie: klasicistický pamätný stĺp z prvej polovice 19. storočia a kostol vybudovaný v období prvej Československej republiky.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://dcza.sk/sk/dokumenty/ostatne/kostoly/dekanat-zilina/kostol-bozskeho-srdca-jezisovho-banova-1935",
+        "https://www.pamiatkynaslovensku.sk/banova-kostol-bozskeho-srdca-jezisovho",
+        "https://zilina.oma.sk/u/namestie-sv-jana-bosca/85"
+      ],
+      "location": {
+        "name": "Kostol Božského Srdca Ježišovho a trojičný stĺp",
+        "address": "Námestie sv. Jána Bosca 190/85, Žilina, Slovensko",
+        "lat": 49.201739,
+        "lon": 18.721555,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://zilina.oma.sk/u/namestie-sv-jana-bosca/85"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Bánová – Pongráczovský kaštieľ, klasicistické sídlo v súkromných rukách",
+      "text": "V centre Bánovej stojí prízemný klasicistický kaštieľ z prvej polovice 19. storočia. Pôvodne mal jednoduchú jednokrídlovú dispozíciu s vystupujúcim rizalitom; na dvornom priečelí sa zachovali arkády a hospodárske budovy nadväzujú kolmo na obytnú časť. V rokoch 2005–2007 prešiel rozsiahlou rekonštrukciou. Objekt je v súkromnom vlastníctve a nie je voľne prístupný, no predstavuje výraznú stopu niekdajšieho zemianskeho sídla v Bánovej.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/kastiel-banova",
+        "https://zilina.sk/wp-content/uploads/2026/03/MUSES-Zilina_01_2026.pdf"
+      ],
+      "location": {
+        "name": "Pongráczovský kaštieľ v Bánovej",
+        "address": null,
+        "lat": 49.202292,
+        "lon": 18.720806,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kastiel-banova"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_008",
+      "title": "Brezany – dedina troch panských rybníkov a konských handliarov",
+      "text": "Brezany sa v písomných prameňoch objavujú roku 1393 pod názvom Berzen a v stredoveku patrili k panstvu Lietava. V 17. storočí tu boli tri panské rybníky; obyvatelia sa živili poľnohospodárstvom a chovom dobytka. Ešte v prvej polovici 20. storočia bolo pre obec typické povozníctvo a obchodovanie s koňmi. Archeologické nálezy dokazujú staršie osídlenie: v katastri sa našlo pohrebisko lužickej kultúry a sídlisko púchovskej kultúry z doby laténskej. Brezany tak spájajú stredovekú históriu lietavského panstva s osobitou hospodárskou tradíciou a oveľa staršími stopami osídlenia.",
+      "category": "local_story",
+      "priority": "C",
+      "sources": [
+        "https://www.obecbrezany.sk/pages/historia",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_82c7bac0-beb2-4405-8550-c6bed00d67f0",
+        "https://brezany.oma.sk/"
+      ],
+      "location": {
+        "name": "Brezany – historické jadro obce",
+        "address": null,
+        "lat": 49.18827,
+        "lon": 18.6658445,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://brezany.oma.sk/"
+      },
+      "map_category": "local_culture"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom (Pošta Žilina 4 – Závodie, 010 04)",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – dataset documentation (RAGEO-derived address data, CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_codes.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_code_areas.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – municipality_parts.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Žilina – Miestny územný systém ekologickej stability 2026, archeologické lokality",
+      "url": "https://zilina.sk/wp-content/uploads/2026/03/MUSES-Zilina_01_2026.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatkový úrad SR – Zásady ochrany pamiatkovej rezervácie Žilina",
+      "url": "https://www.pamiatky.sk/fileadmin/documents/news/ZASADY/Zilina/Zilina_zasady-ochrany.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Považské múzeum – veľkomoravské mohylové pohrebisko v Bánovej",
+      "url": "https://pmza.sk/page/121/?page_id=0%2F",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská archeológia – hrob z mohylového pohrebiska Bánová-Dúbravka-Kalinové",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2006_2.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Žilinská diecéza – Kostol Božského Srdca Ježišovho, Bánová",
+      "url": "https://dcza.sk/sk/dokumenty/ostatne/kostoly/dekanat-zilina/kostol-bozskeho-srdca-jezisovho-banova-1935",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol Božského Srdca Ježišovho, Bánová",
+      "url": "https://www.pamiatkynaslovensku.sk/banova-kostol-bozskeho-srdca-jezisovho",
+      "type": "specialist"
+    },
+    {
+      "title": "OMA – adresa kostola Božského Srdca Ježišovho, Bánová",
+      "url": "https://zilina.oma.sk/u/namestie-sv-jana-bosca/85",
+      "type": "other"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Bánová",
+      "url": "https://www.pamiatkynaslovensku.sk/kastiel-banova",
+      "type": "specialist"
+    },
+    {
+      "title": "OMA – Veľké Hradisko pri Závodí, poloha a súradnice",
+      "url": "https://zilina.oma.sk/u/hradisko",
+      "type": "other"
+    },
+    {
+      "title": "Oficiálna stránka obce Hôrky – história a archeologické lokality",
+      "url": "https://www.obechorky.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Hôrky – územný plán, archeologické lokality Kopce, Chrasť a Kopenec",
+      "url": "https://www.obechorky.sk/modules/file_storage/download.php?file=7e9cf94e%7C63",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Hôrky, orientačný bod obce",
+      "url": "https://horky.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "E-Obce – Bitarová, história a archeologické nálezy",
+      "url": "https://www.e-obce.sk/obec/bitarova/2-historia.html",
+      "type": "specialist"
+    },
+    {
+      "title": "Archeologický ústav SAV – Študijné zvesti 58/2015, stredoveké sídlisko v Bitarovej",
+      "url": "https://archeol.sav.sk/files/SZ-58_obsah.pdf",
+      "type": "university"
+    },
+    {
+      "title": "OMA – Bitarová, orientačný bod obce",
+      "url": "https://bitarova.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Oficiálna stránka obce Brezany – história obce",
+      "url": "https://www.obecbrezany.sk/pages/historia",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – informácie o obci Brezany",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_82c7bac0-beb2-4405-8550-c6bed00d67f0",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Brezany, okres Žilina, orientačný bod obce",
+      "url": "https://brezany.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Obec Ovčiarsko – základné údaje a historické súvislosti",
+      "url": "https://www.obecovciarsko.sk/pages/zakladne-udaje",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ovčiarsko – individuálna výročná správa 2024",
+      "url": "https://www.obecovciarsko.sk/files/20591-Vyrocna-sprava-2024.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Veľké Držkovce, rodisko bratov Dohnányovcov",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_98a32748-4f90-4464-b58c-d608f0c65a46",
+      "type": "official"
+    },
+    {
+      "title": "Veľké Držkovce – história obce a rodisko Mikuláša Dohnányiho",
+      "url": "https://www.velkedrzkovce.sk/historia",
+      "type": "official"
+    },
+    {
+      "title": "Záhorské múzeum – Mikuláš Dohnányi, biografické údaje",
+      "url": "https://www.zahorskemuzeum.sk/dohnany-dohnani-mikulas-28-11-1824-dolne-drzkovce-2-6-1852-trnava/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Ovčiarsko, orientačný bod obce",
+      "url": "https://ovciarsko.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "translations": {
+    "cs": {
+      "representative_place": "Hôrky – stred doručovacieho územia PSČ 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – veľkomoravské mohylové pohrebisko Dúbravka-Kalinové",
+          "text": "V lesnej polohe Dúbravka-Kalinové na území Bánovej sa nachádzalo rozsiahle včasnostredoveké mohylové pohrebisko z 8.–9. storočia. Výskum v roku 1962 odkryl až 33 mohýl, v ktorých bolo birituálne – kostrovo aj žiarovo – pochovaných približne 80 ľudí. V hroboch sa našli bojové sekery, nože, hroty šípov a kosáky; výbava niektorých hrobov naznačuje pochovávanie bojovníkov. Ide o dôležitý doklad veľkomoravského osídlenia severného Považia. Presný bod pohrebiska nie je vo verejných mapových podkladoch spoľahlivo vymedzený; mapa preto používa iba orientačný bod miestnej časti Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko pri Závodí – opevnené útočisko z praveku",
+          "text": "Na severozápad od Závodia sa nachádza archeologická lokalita Veľké Hradisko, rozsiahle výšinné opevnenie, ktoré mohlo slúžiť ako útočisko pre obyvateľstvo širšieho okolia. Datovanie nie je v podkladoch jednotné: pamiatkový dokument ho zaraďuje do halštatského obdobia, zatiaľ čo mestský ekologický plán z roku 2026 uvádza neskorú dobu laténsku a rímske obdobie. Rozpor môže odrážať viac fáz využívania alebo rozdielne vyhodnotenie starších nálezov; bez nového systematického výskumu ho nemožno uzavrieť. Nejde o zachované hradné ruiny, ale o archeologické opevnenie v teréne."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – archeologická krajina Kopce, Chrasť a Kopenec",
+          "text": "Chotár Hôrok bol osídlený už v mladšej dobe bronzovej. V polohe Kopce sa našlo sídlisko lužickej kultúry a niekoľko mohýl; v oblasti Chrasť bolo odkryté slovanské mohylové pohrebisko z veľkomoravského obdobia. Najzáhadnejšia je poloha Kopenec pri močiari Kaniža: v roku 1943 tu zaevidovali približne 80 metrov dlhý a 52 metrov široký mohylovitý útvar. Jeho pôvod nie je bezpečne vysvetlený a kultová funkcia je iba hypotézou. Hôrky tak uchovávajú niekoľko odlišných vrstiev osídlenia aj archeologickú záhadu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – stredoveká dedina odkrytá pri stavbe diaľnice",
+          "text": "Záchranný archeologický výskum v roku 2010, vyvolaný výstavbou diaľnice D1, odkryl v polohe Lány v Bitarovej 39 sídliskových objektov. Nálezy potvrdili staršie osídlenie púchovskej kultúry a najmä pozostatky stredovekej dediny z 12.–13. storočia vrátane jej hospodárskeho zázemia pozdĺž Bitarovského potoka. Miestne dejiny uvádzajú aj sídlisko lužickej a púchovskej kultúry z mladšej doby bronzovej a slovanský mohylník z veľkomoravského obdobia. Moderná dopravná stavba tak nečakane odkryla zaniknutú stredovekú osadu a oveľa staršie vrstvy života v tejto doline."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko a Mikuláš Dohnányi – štúrovský dejateľ s nejednoznačným rodiskom",
+          "text": "Ovčiarsko bolo späté so zemianskymi rodinami Kožarovcov a Dohnányovcov; dodnes sa tu zachovala miestna časť nazývaná Panský dvor. Obec označuje Mikuláša Dohnányiho za svojho významného rodáka. Bol básnikom, historikom, prekladateľom, literárnym kritikom a redaktorom Slovenských pohľadov, patril k štúrovskej generácii. Jeho presné miesto narodenia však nie je v prameňoch jednotné: Ovčiarsko ho uvádza ako rodáka, zatiaľ čo iné biografické a obecné zdroje uvádzajú Dolné Držkovce; múzejné spracovanie pripúšťa Ovčiarsko ako pravdepodobnú možnosť. Bezpečné je hovoriť o silnej rodinnej a historickej väzbe Dohnányovcov na Ovčiarsko, nie o bezvýhradne potvrdenom rodisku."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – kostol Božského Srdca a trojičný stĺp z roku 1821",
+          "text": "Základný kameň kostola Božského Srdca Ježišovho v Bánovej posvätil Andrej Hlinka v roku 1935; kostol vysvätil 21. mája 1939 nitriansky biskup Karol Kmeťko. Pri vstupe stojí starší trojičný stĺp z roku 1821 so súsoším Najsvätejšej Trojice. V jednom priestore tak vedľa seba stoja dve rozdielne vrstvy miestnej náboženskej histórie: klasicistický pamätný stĺp z prvej polovice 19. storočia a kostol vybudovaný v období prvej Československej republiky."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – Pongráczovský kaštieľ, klasicistické sídlo v súkromných rukách",
+          "text": "V centre Bánovej stojí prízemný klasicistický kaštieľ z prvej polovice 19. storočia. Pôvodne mal jednoduchú jednokrídlovú dispozíciu s vystupujúcim rizalitom; na dvornom priečelí sa zachovali arkády a hospodárske budovy nadväzujú kolmo na obytnú časť. V rokoch 2005–2007 prešiel rozsiahlou rekonštrukciou. Objekt je v súkromnom vlastníctve a nie je voľne prístupný, no predstavuje výraznú stopu niekdajšieho zemianskeho sídla v Bánovej."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – dedina troch panských rybníkov a konských handliarov",
+          "text": "Brezany sa v písomných prameňoch objavujú roku 1393 pod názvom Berzen a v stredoveku patrili k panstvu Lietava. V 17. storočí tu boli tri panské rybníky; obyvatelia sa živili poľnohospodárstvom a chovom dobytka. Ešte v prvej polovici 20. storočia bolo pre obec typické povozníctvo a obchodovanie s koňmi. Archeologické nálezy dokazujú staršie osídlenie: v katastri sa našlo pohrebisko lužickej kultúry a sídlisko púchovskej kultúry z doby laténskej. Brezany tak spájajú stredovekú históriu lietavského panstva s osobitou hospodárskou tradíciou a oveľa staršími stopami osídlenia."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Hôrky – zentraler Bereich des Zustellgebiets 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – großmährisches Hügelgräberfeld Dúbravka-Kalinové",
+          "text": "Im Waldgebiet Dúbravka-Kalinové in Bánová lag ein frühmittelalterliches Hügelgräberfeld aus dem 8.–9. Jahrhundert. Bei Ausgrabungen 1962 wurden bis zu 33 Grabhügel mit rund 80 Bestatteten entdeckt, sowohl Körper- als auch Brandbestattungen. Zu den Grabbeigaben gehörten Streitäxte, Messer, Pfeilspitzen und Sicheln; einige Gräber weisen auf bestattete Krieger hin. Der genaue Punkt ist auf öffentlichen Karten nicht zuverlässig abgegrenzt; die Karte zeigt deshalb nur einen Orientierungspunkt für Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko bei Závodie – eine befestigte Zuflucht aus der Vorgeschichte",
+          "text": "Nordwestlich von Závodie liegt die archäologische Stätte Veľké Hradisko, eine Höhenbefestigung, die der Bevölkerung als Zuflucht gedient haben könnte. Die Datierung ist uneinheitlich: Das Denkmalschutzdokument nennt die Hallstattzeit, der städtische Umweltplan von 2026 die späte Latènezeit und die Römerzeit. Der Unterschied kann mehrere Nutzungsphasen oder unterschiedliche Deutungen älterer Funde widerspiegeln. Es handelt sich nicht um Burgruinen, sondern um eine archäologische Befestigung im Gelände."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – die archäologische Landschaft von Kopce, Chrasť und Kopenec",
+          "text": "Hôrky war bereits in der jüngeren Bronzezeit besiedelt. Bei Kopce wurde eine Siedlung der Lausitzer Kultur gefunden, in Chrasť ein slawisches Hügelgräberfeld großmährischer Zeit. Besonders rätselhaft ist Kopenec beim Moor Kaniža: 1943 wurde dort eine etwa 80 mal 52 Meter große hügelartige Formation registriert. Ihr Ursprung ist unklar; eine kultische Funktion bleibt eine Hypothese. Hôrky bewahrt mehrere Besiedlungsphasen und ein archäologisches Rätsel."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – ein mittelalterliches Dorf, das beim Autobahnbau entdeckt wurde",
+          "text": "Eine Rettungsgrabung 2010 im Zuge des D1-Baus legte in Lány 39 Siedlungsobjekte frei. Die Funde belegen ältere Púchov-Kultur und die Reste eines mittelalterlichen Dorfes aus dem 12.–13. Jahrhundert samt Wirtschaftsbereich am Bitarovský-Bach. Ortsgeschichtliche Quellen nennen außerdem Siedlungen der Lausitzer und Púchov-Kultur sowie ein slawisches Hügelgräberfeld großmährischer Zeit. Der Autobahnbau machte so eine verschwundene Siedlung und ältere Spuren sichtbar."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko und Mikuláš Dohnányi – ein Štúr-Anhänger mit umstrittenem Geburtsort",
+          "text": "Ovčiarsko war mit den Familien Kožar und Dohnányi verbunden; ein Ortsteil heißt bis heute Panský dvor. Die Gemeinde zählt Mikuláš Dohnányi zu ihren bedeutenden Persönlichkeiten: Er war Dichter, Historiker, Übersetzer, Literaturkritiker und Redakteur von Slovenské pohľady. Sein Geburtsort ist jedoch umstritten: Ovčiarsko nennt ihn als eigenen Sohn, andere biografische und kommunale Quellen geben Dolné Držkovce an; eine Museumsdarstellung hält Ovčiarsko für wahrscheinlich. Die enge Familienverbindung ist belegt, der genaue Geburtsort nicht eindeutig."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – Herz-Jesu-Kirche und Dreifaltigkeitssäule von 1821",
+          "text": "Andrej Hlinka segnete 1935 den Grundstein der Herz-Jesu-Kirche in Bánová; Bischof Karol Kmeťko weihte sie am 21. Mai 1939. Am Eingang steht eine ältere Dreifaltigkeitssäule aus dem Jahr 1821. Hier treffen zwei Schichten lokaler Religionsgeschichte aufeinander: eine Säule aus der ersten Hälfte des 19. Jahrhunderts und eine Kirche aus der Zeit der Ersten Tschechoslowakischen Republik."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – das klassizistische Pongrácz-Herrenhaus in Privatbesitz",
+          "text": "Im Zentrum von Bánová steht ein eingeschossiges klassizistisches Herrenhaus aus der ersten Hälfte des 19. Jahrhunderts. Auf der Hofseite sind Arkaden erhalten; das Gebäude wurde 2005–2007 umfassend restauriert. Es befindet sich in Privatbesitz und ist nicht frei zugänglich, bleibt aber ein markantes Zeugnis des ehemaligen Landadelsitzes von Bánová."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – ein Dorf mit drei herrschaftlichen Teichen und Pferdehändlern",
+          "text": "Brezany wird 1393 erstmals als Berzen erwähnt und gehörte im Mittelalter zum Herrschaftsgut Lietava. Im 17. Jahrhundert gab es drei herrschaftliche Teiche; die Einwohner lebten von Landwirtschaft und Viehzucht. Noch in der ersten Hälfte des 20. Jahrhunderts waren Fuhrwesen und Pferdehandel typisch. Archäologische Funde belegen ein Gräberfeld der Lausitzer Kultur und eine Siedlung der Púchov-Kultur aus der Latènezeit."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Hôrky – central area of the 010 04 delivery zone",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – the Great Moravian burial mound cemetery at Dúbravka-Kalinové",
+          "text": "The forest locality of Dúbravka-Kalinové in Bánová contained an early medieval burial mound cemetery from the 8th–9th centuries. Excavations in 1962 uncovered up to 33 mounds and around 80 people, buried through both inhumation and cremation. Grave goods included battle axes, knives, arrowheads and sickles; some burials suggest warriors. The exact site is not reliably delimited on public maps, so the map uses only a representative point for Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko near Závodie – a prehistoric fortified refuge",
+          "text": "North-west of Závodie lies Veľké Hradisko, a hilltop fortification that may have served as a refuge for local people. Dating differs across sources: the heritage document assigns it to the Hallstatt period, while Žilina’s 2026 environmental plan lists the Late La Tène and Roman periods. The difference may reflect several phases or different readings of older finds. It is not a standing castle ruin but an archaeological fortification in the landscape."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – the archaeological landscape of Kopce, Chrasť and Kopenec",
+          "text": "Hôrky was settled in the Late Bronze Age. Kopce contained a Lusatian-culture settlement, while Chrasť had a Slavic burial mound cemetery from Great Moravian times. At Kopenec by the Kaniža marsh, researchers recorded an unusual mound-like formation about 80 by 52 metres in 1943. Its origin is uncertain and a ritual function remains a hypothesis. Hôrky preserves several settlement phases and an archaeological mystery."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – a medieval village uncovered during motorway construction",
+          "text": "A 2010 rescue excavation prompted by the D1 motorway uncovered 39 settlement features at Lány. Finds revealed Púchov-culture activity and the remains of a 12th–13th-century village with its economic hinterland along the Bitarovský stream. Local history also records Lusatian and Púchov-culture settlements and a Slavic burial mound cemetery from Great Moravian times. Modern road construction brought a vanished village and older traces of life to light."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko and Mikuláš Dohnányi – a Štúr-era figure with a disputed birthplace",
+          "text": "Ovčiarsko was linked to the Kožar and Dohnányi families; one local area is still called Panský dvor. The municipality counts Mikuláš Dohnányi among its notable figures: he was a poet, historian, translator, literary critic and editor of Slovenské pohľady. His birthplace is disputed: Ovčiarsko claims him as a native, while other biographical and municipal sources name Dolné Držkovce; a museum account considers Ovčiarsko likely. The family connection is clear, but the exact birthplace is not."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – the Sacred Heart Church and 1821 Holy Trinity column",
+          "text": "Andrej Hlinka blessed the foundation stone of Bánová’s Sacred Heart Church in 1935; Bishop Karol Kmeťko consecrated it on 21 May 1939. At the entrance stands an older Holy Trinity column from 1821. Two layers of local religious history meet here: a column from the first half of the 19th century and a church built during the First Czechoslovak Republic."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – the privately owned Classical Pongrácz manor house",
+          "text": "In central Bánová stands a single-storey Classical manor house from the first half of the 19th century. Arcades survive on the courtyard façade; the building was extensively restored in 2005–2007. It is privately owned and not open to the public, but remains a distinctive trace of Bánová’s former landed estate."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – a village of three manor ponds and horse traders",
+          "text": "Brezany was first recorded in 1393 as Berzen and belonged to the Lietava estate in the Middle Ages. Three manor ponds stood here in the 17th century; residents farmed and raised livestock. Horse trading and carriage transport remained typical into the first half of the 20th century. Archaeology also reveals a Lusatian-culture cemetery and a La Tène-period Púchov-culture settlement."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Hôrky – zona central del área postal 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – el cementerio tumular granmoravo de Dúbravka-Kalinové",
+          "text": "En el bosque de Dúbravka-Kalinové, en Bánová, hubo un cementerio tumular altomedieval de los siglos VIII–IX. Las excavaciones de 1962 descubrieron hasta 33 túmulos y unos 80 individuos, enterrados mediante inhumación y cremación. Los ajuares incluían hachas de combate, cuchillos, puntas de flecha y hoces; algunos enterramientos apuntan a guerreros. El punto exacto no está delimitado con fiabilidad en los mapas públicos, por lo que el mapa utiliza un punto orientativo de Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko, junto a Závodie – un refugio fortificado prehistórico",
+          "text": "Al noroeste de Závodie se encuentra Veľké Hradisko, una fortificación en altura que pudo servir de refugio a la población local. Las fuentes discrepan sobre su datación: el documento patrimonial la sitúa en Hallstatt, mientras que el plan ecológico municipal de 2026 menciona La Tène tardía y la época romana. La diferencia podría reflejar varias fases o distintas interpretaciones de hallazgos antiguos. No son ruinas de un castillo, sino una fortificación arqueológica en el terreno."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – el paisaje arqueológico de Kopce, Chrasť y Kopenec",
+          "text": "Hôrky estaba habitado ya en la Edad del Bronce reciente. En Kopce se encontró un asentamiento de la cultura de Lusacia y en Chrasť un cementerio tumular eslavo de época granmorava. En Kopenec, junto al humedal de Kaniža, se registró en 1943 una formación parecida a un túmulo de unos 80 por 52 metros. Su origen no está claro y la posible función ritual sigue siendo una hipótesis. Hôrky conserva varias etapas de poblamiento y un enigma arqueológico."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – una aldea medieval descubierta durante la construcción de la autopista",
+          "text": "Una excavación de urgencia de 2010, motivada por la autopista D1, descubrió 39 estructuras de asentamiento en Lány. Los hallazgos revelaron actividad de la cultura de Púchov y los restos de una aldea medieval de los siglos XII–XIII con su zona económica junto al arroyo Bitarovský. La historia local también registra asentamientos de las culturas de Lusacia y Púchov y un cementerio tumular eslavo de época granmorava. Una obra moderna sacó a la luz una aldea desaparecida y huellas más antiguas."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko y Mikuláš Dohnányi, figura de la generación de Štúr con lugar de nacimiento discutido",
+          "text": "Ovčiarsko estuvo vinculada a las familias Kožar y Dohnányi; una de sus zonas aún se llama Panský dvor. El municipio considera a Mikuláš Dohnányi una personalidad destacada: fue poeta, historiador, traductor, crítico literario y redactor de Slovenské pohľady. Su lugar de nacimiento es discutido: Ovčiarsko lo reivindica como hijo del pueblo, mientras que otras fuentes biográficas y municipales indican Dolné Držkovce; un estudio museístico considera probable Ovčiarsko. El vínculo familiar es claro, pero el lugar exacto no está resuelto."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – la iglesia del Sagrado Corazón y la columna de la Trinidad de 1821",
+          "text": "Andrej Hlinka bendijo la primera piedra de la iglesia del Sagrado Corazón de Bánová en 1935; el obispo Karol Kmeťko la consagró el 21 de mayo de 1939. En la entrada se encuentra una columna de la Santísima Trinidad de 1821. En un mismo lugar conviven dos etapas de la historia religiosa local: una columna de la primera mitad del siglo XIX y una iglesia de la Primera República Checoslovaca."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – la casa señorial clasicista de Pongrácz, de propiedad privada",
+          "text": "En el centro de Bánová se encuentra una casa señorial clasicista de una planta de la primera mitad del siglo XIX. Conserva arcadas en la fachada del patio y fue restaurada ampliamente entre 2005 y 2007. Es de propiedad privada y no está abierta al público, pero sigue siendo un vestigio destacado del antiguo señorío de Bánová."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – una aldea de tres estanques señoriales y comerciantes de caballos",
+          "text": "Brezany aparece por primera vez en documentos en 1393 como Berzen y en la Edad Media pertenecía al señorío de Lietava. En el siglo XVII tenía tres estanques señoriales; sus habitantes vivían de la agricultura y la ganadería. El transporte con carros y el comercio de caballos siguieron siendo actividades típicas hasta la primera mitad del siglo XX. La arqueología también ha descubierto un cementerio de la cultura de Lusacia y un asentamiento de la cultura de Púchov del periodo de La Tène."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Hôrky – secteur central de la zone postale 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – la nécropole tumulaire grand-morave de Dúbravka-Kalinové",
+          "text": "Dans le secteur forestier de Dúbravka-Kalinové, à Bánová, se trouvait une nécropole tumulaire du haut Moyen Âge, datée des VIIIe–IXe siècles. Les fouilles de 1962 ont révélé jusqu’à 33 tertres et environ 80 défunts, inhumés ou incinérés. Le mobilier comprenait des haches de combat, des couteaux, des pointes de flèches et des faucilles ; certaines sépultures évoquent des guerriers. Le point exact n’étant pas délimité de manière fiable sur les cartes publiques, la carte indique seulement un repère pour Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko près de Závodie – un refuge fortifié préhistorique",
+          "text": "Au nord-ouest de Závodie se trouve Veľké Hradisko, une fortification de hauteur qui a pu servir de refuge à la population locale. Les sources divergent sur sa datation : le document patrimonial la rattache à Hallstatt, tandis que le plan écologique municipal de 2026 mentionne la fin de La Tène et l’époque romaine. Cette différence peut refléter plusieurs phases ou des interprétations différentes de découvertes anciennes. Il ne s’agit pas de ruines de château, mais d’un ouvrage défensif archéologique."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – le paysage archéologique de Kopce, Chrasť et Kopenec",
+          "text": "Hôrky était habité dès l’âge du Bronze récent. Un habitat de la culture lusacienne a été découvert à Kopce et une nécropole tumulaire slave de l’époque grand-morave à Chrasť. À Kopenec, près du marais de Kaniža, une formation en forme de tumulus d’environ 80 sur 52 mètres a été recensée en 1943. Son origine reste incertaine et sa fonction cultuelle n’est qu’une hypothèse. Hôrky conserve plusieurs phases d’occupation et une énigme archéologique."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – un village médiéval découvert lors de la construction de l’autoroute",
+          "text": "Une fouille de sauvetage menée en 2010 à la suite de la construction de l’autoroute D1 a révélé 39 structures d’habitat dans le secteur de Lány. Les découvertes attestent la culture de Púchov et surtout les vestiges d’un village médiéval des XIIe–XIIIe siècles avec ses dépendances économiques le long du ruisseau Bitarovský. L’histoire locale mentionne également des habitats des cultures lusacienne et de Púchov ainsi qu’une nécropole tumulaire slave de l’époque grand-morave. Les travaux routiers ont ainsi révélé un village disparu et des traces plus anciennes."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko et Mikuláš Dohnányi – une figure de la génération de Štúr au lieu de naissance contesté",
+          "text": "Ovčiarsko était lié aux familles Kožar et Dohnányi ; l’un de ses secteurs porte encore le nom de Panský dvor. La commune compte Mikuláš Dohnányi parmi ses personnalités : poète, historien, traducteur, critique littéraire et rédacteur de Slovenské pohľady. Son lieu de naissance est toutefois discuté : Ovčiarsko le revendique comme enfant du village, tandis que d’autres sources biographiques et municipales indiquent Dolné Držkovce ; une étude muséale juge Ovčiarsko probable. Le lien familial est certain, mais le lieu précis ne l’est pas."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – l’église du Sacré-Cœur et la colonne de la Trinité de 1821",
+          "text": "Andrej Hlinka bénit la première pierre de l’église du Sacré-Cœur de Bánová en 1935 ; l’évêque Karol Kmeťko la consacra le 21 mai 1939. À l’entrée se trouve une colonne de la Sainte-Trinité datant de 1821. Deux périodes de l’histoire religieuse locale se côtoient : une colonne de la première moitié du XIXe siècle et une église construite sous la Première République tchécoslovaque."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – le manoir classique de Pongrácz, propriété privée",
+          "text": "Au centre de Bánová se trouve un manoir classique d’un seul niveau datant de la première moitié du XIXe siècle. Des arcades sont conservées côté cour et le bâtiment a été largement restauré entre 2005 et 2007. Il est privé et n’est pas ouvert au public, mais reste un témoignage marquant de l’ancien domaine seigneurial de Bánová."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – un village aux trois étangs seigneuriaux et aux marchands de chevaux",
+          "text": "Brezany est mentionné pour la première fois en 1393 sous le nom de Berzen et appartenait au domaine de Lietava au Moyen Âge. Au XVIIe siècle, il possédait trois étangs seigneuriaux ; les habitants vivaient de l’agriculture et de l’élevage. Le transport en charrette et le commerce des chevaux restèrent caractéristiques jusqu’à la première moitié du XXe siècle. L’archéologie a également révélé une nécropole de la culture lusacienne et un habitat de la culture de Púchov de l’époque de La Tène."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Hôrky – area centrale della zona postale 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – la necropoli di tumuli della Grande Moravia a Dúbravka-Kalinové",
+          "text": "Nella località boschiva di Dúbravka-Kalinové, a Bánová, si trovava una necropoli altomedievale di tumuli dell’VIII–IX secolo. Gli scavi del 1962 scoprirono fino a 33 tumuli e circa 80 persone, sepolte sia per inumazione sia per cremazione. I corredi comprendevano asce da combattimento, coltelli, punte di freccia e falci; alcune tombe indicano la presenza di guerrieri. Il punto esatto non è delimitato con affidabilità nelle mappe pubbliche, quindi la mappa mostra soltanto un punto orientativo per Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko presso Závodie – un rifugio fortificato preistorico",
+          "text": "A nord-ovest di Závodie si trova Veľké Hradisko, una fortificazione d’altura che potrebbe aver servito da rifugio alla popolazione locale. Le fonti divergono sulla datazione: il documento di tutela la colloca nell’età di Hallstatt, mentre il piano ecologico comunale del 2026 indica la tarda età di La Tène e il periodo romano. La differenza potrebbe riflettere diverse fasi o interpretazioni dei reperti. Non sono rovine di un castello, ma una fortificazione archeologica."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – il paesaggio archeologico di Kopce, Chrasť e Kopenec",
+          "text": "Hôrky era abitata già nella tarda età del Bronzo. A Kopce è stato trovato un insediamento della cultura lusaziana e a Chrasť una necropoli slava a tumuli dell’epoca della Grande Moravia. A Kopenec, presso la palude di Kaniža, nel 1943 fu registrata una formazione simile a un tumulo di circa 80 per 52 metri. La sua origine non è certa e la funzione cultuale resta un’ipotesi. Hôrky conserva diverse fasi di insediamento e un enigma archeologico."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – un villaggio medievale scoperto durante la costruzione dell’autostrada",
+          "text": "Uno scavo di emergenza del 2010, avviato per la costruzione dell’autostrada D1, portò alla luce 39 strutture insediative nella località Lány. I reperti documentano la cultura di Púchov e soprattutto i resti di un villaggio medievale del XII–XIII secolo, con le sue strutture economiche lungo il torrente Bitarovský. La storia locale ricorda anche insediamenti delle culture lusaziana e di Púchov e una necropoli slava a tumuli dell’epoca della Grande Moravia. Un’opera stradale moderna ha così rivelato un villaggio scomparso e tracce più antiche."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko e Mikuláš Dohnányi – una figura della generazione di Štúr con luogo di nascita controverso",
+          "text": "Ovčiarsko era legata alle famiglie Kožar e Dohnányi; una località conserva ancora il nome Panský dvor. Il comune annovera Mikuláš Dohnányi tra le sue personalità: fu poeta, storico, traduttore, critico letterario e redattore di Slovenské pohľady. Il suo luogo di nascita è però controverso: Ovčiarsko lo considera un proprio figlio, mentre altre fonti biografiche e comunali indicano Dolné Držkovce; uno studio museale considera probabile Ovčiarsko. Il legame familiare è certo, ma il luogo preciso non lo è."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – la chiesa del Sacro Cuore e la colonna della Trinità del 1821",
+          "text": "Andrej Hlinka benedisse la prima pietra della chiesa del Sacro Cuore di Bánová nel 1935; il vescovo Karol Kmeťko la consacrò il 21 maggio 1939. All’ingresso si trova una colonna della Santissima Trinità del 1821. In un unico luogo convivono due fasi della storia religiosa locale: una colonna della prima metà dell’Ottocento e una chiesa costruita durante la Prima Repubblica cecoslovacca."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – il palazzo neoclassico di Pongrácz, proprietà privata",
+          "text": "Nel centro di Bánová sorge un palazzo neoclassico a un piano della prima metà del XIX secolo. Sulla facciata verso il cortile si conservano le arcate; l’edificio fu ampiamente restaurato tra il 2005 e il 2007. È di proprietà privata e non è aperto al pubblico, ma resta una testimonianza dell’antica residenza signorile di Bánová."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – un villaggio di tre stagni signorili e commercianti di cavalli",
+          "text": "Brezany compare per la prima volta nei documenti nel 1393 come Berzen e nel Medioevo apparteneva al feudo di Lietava. Nel XVII secolo vi erano tre stagni signorili; gli abitanti vivevano di agricoltura e allevamento. Il trasporto con carri e il commercio di cavalli rimasero tipici fino alla prima metà del XX secolo. L’archeologia ha inoltre rivelato una necropoli della cultura lusaziana e un insediamento della cultura di Púchov del periodo di La Tène."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Hôrky – centraal gebied van de bezorgzone 010 04",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bánová – het Groot-Moravische grafheuvelveld bij Dúbravka-Kalinové",
+          "text": "In het bosgebied Dúbravka-Kalinové in Bánová lag een vroegmiddeleeuws grafheuvelveld uit de 8e–9e eeuw. Opgravingen in 1962 brachten tot 33 heuvels en ongeveer 80 begraven personen aan het licht, met zowel crematie- als lichaamsbegravingen. Grafgiften omvatten strijdbijlen, messen, pijlpunten en sikkels; sommige graven wijzen op krijgers. De exacte plek is op openbare kaarten niet betrouwbaar afgebakend, dus de kaart toont alleen een oriëntatiepunt voor Bánová."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľké Hradisko bij Závodie – een prehistorische versterkte schuilplaats",
+          "text": "Ten noordwesten van Závodie ligt Veľké Hradisko, een hoogteversterking die mogelijk als toevluchtsoord voor de lokale bevolking diende. De bronnen verschillen over de datering: het erfgoeddocument noemt de Hallstatt-periode, terwijl het gemeentelijke milieubeleidsplan van 2026 de late La Tène-periode en de Romeinse tijd vermeldt. Dit kan wijzen op meerdere gebruiksfasen of verschillende interpretaties van oude vondsten. Het zijn geen kasteelruïnes, maar archeologische verdedigingswerken in het landschap."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hôrky – het archeologische landschap van Kopce, Chrasť en Kopenec",
+          "text": "Hôrky was al in de late bronstijd bewoond. Bij Kopce werd een nederzetting van de Lausitzcultuur gevonden en in Chrasť een Slavisch grafheuvelveld uit de Groot-Moravische periode. Bij Kopenec aan het moeras Kaniža werd in 1943 een heuvelachtige formatie van ongeveer 80 bij 52 meter geregistreerd. De oorsprong is onzeker en een rituele functie blijft een hypothese. Hôrky bewaart meerdere bewoningslagen en een archeologisch raadsel."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bitarová – een middeleeuws dorp ontdekt tijdens de aanleg van de snelweg",
+          "text": "Een reddingsopgraving in 2010 vanwege de aanleg van de D1-snelweg bracht bij Lány 39 nederzettingsstructuren aan het licht. De vondsten tonen Púchovcultuur en de resten van een middeleeuws dorp uit de 12e–13e eeuw met een economisch achterland langs de Bitarovský-beek. De lokale geschiedenis vermeldt ook nederzettingen van de Lausitz- en Púchovcultuur en een Slavisch grafheuvelveld uit de Groot-Moravische tijd. De aanleg van een moderne weg bracht zo een verdwenen dorp en oudere bewoningssporen aan het licht."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ovčiarsko en Mikuláš Dohnányi – een Štúr-generatiefiguur met een betwiste geboorteplaats",
+          "text": "Ovčiarsko was verbonden met de families Kožar en Dohnányi; een deel van het dorp heet nog steeds Panský dvor. De gemeente rekent Mikuláš Dohnányi tot haar belangrijke persoonlijkheden: hij was dichter, historicus, vertaler, literair criticus en redacteur van Slovenské pohľady. Zijn geboorteplaats is omstreden: Ovčiarsko noemt hem een dorpsgenoot, terwijl andere biografische en gemeentelijke bronnen Dolné Držkovce vermelden; een museumstudie acht Ovčiarsko waarschijnlijk. De familieband is duidelijk, maar de exacte geboorteplaats is niet zeker."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bánová – de Heilig Hartkerk en de Drievuldigheidszuil uit 1821",
+          "text": "Andrej Hlinka zegende in 1935 de eerste steen van de Heilig Hartkerk in Bánová; bisschop Karol Kmeťko wijdde de kerk op 21 mei 1939 in. Bij de ingang staat een oudere Drievuldigheidszuil uit 1821. Twee lagen van de plaatselijke religieuze geschiedenis komen hier samen: een zuil uit de eerste helft van de negentiende eeuw en een kerk uit de periode van de Eerste Tsjechoslowaakse Republiek."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bánová – het classicistische Pongrácz-landhuis in privébezit",
+          "text": "In het centrum van Bánová staat een classicistisch landhuis van één verdieping uit de eerste helft van de negentiende eeuw. Aan de binnenplaatszijde zijn arcaden bewaard gebleven; het gebouw werd tussen 2005 en 2007 grondig gerestaureerd. Het is privébezit en niet vrij toegankelijk, maar blijft een opvallend spoor van het vroegere adellijke landgoed van Bánová."
+        },
+        {
+          "id": "fact_008",
+          "title": "Brezany – een dorp met drie herenhofvijvers en paardenhandelaren",
+          "text": "Brezany wordt in 1393 voor het eerst vermeld als Berzen en behoorde in de middeleeuwen tot het landgoed Lietava. In de zeventiende eeuw lagen hier drie herenhofvijvers; inwoners leefden van landbouw en veeteelt. Paardenhandel en vervoer met paard en wagen bleven tot de eerste helft van de twintigste eeuw kenmerkend. Archeologisch zijn ook een grafveld van de Lausitzcultuur en een nederzetting van de Púchovcultuur uit de La Tène-periode aangetoond."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "plz_source": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom; dokument uvádza Poštu Žilina 4 – Závodie na adrese Juraja Závodského 170, Žilina, PSČ 010 04. Údaje o adresných bodoch a územnom pokrytí boli porovnané s verejným datasetom odvodeným z Registra adries SR.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom; Slovak postal codes – postal_codes.csv, postal_code_areas.csv a municipality_parts.csv (údaje odvodené z Registra adries SR)",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny zoznam Slovenskej pošty uvádza Poštu Žilina 4 – Závodie na adrese Juraja Závodského 170, Žilina, s PSČ 010 04. Fyzická poloha pošty je v meste Žilina, preto city = Žilina. Súhrnný dataset postal_code_areas.csv eviduje pre 01004 päť obcí a 3 006 adresných bodov; postal_codes.csv eviduje 1 816 bodov priamo v obci Žilina. municipality_parts.csv identifikuje v rámci Žiliny mestské časti Bánová, Strážov a Závodie. Ďalšie obce v doručovacom území sú Bitarová, Brezany, Hôrky a Ovčiarsko. Údaje predstavujú adresné body, nie presnú polygonálnu hranicu doručovacieho obvodu.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR Ministerstva vnútra SR je zdrojom adresných bodov. Použitý verejný CC0 dataset slovak-postal-codes je podľa dokumentácie obnovovaný z Registra adries SR. Pre 01004 uvádza postal_code_areas.csv päť obcí a 3 006 adresných bodov; postal_codes.csv eviduje 1 816 bodov v obci Žilina. municipality_parts.csv uvádza mestské časti Bánová, Strážov a Závodie. Zvyšné obce v súhrnnej oblasti sú Bitarová, Brezany, Hôrky a Ovčiarsko. Keďže dataset neposkytuje presnú polygonálnu hranicu doručovacieho obvodu, zaradenie jednotlivých bodov sa neopiera o domnienku, že celé okolité administratívne územia sú automaticky pokryté."
+  },
+  "status": "validated"
 }
