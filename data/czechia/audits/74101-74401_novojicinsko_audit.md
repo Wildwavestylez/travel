@@ -75,7 +75,7 @@ Zdroje:
 
 ## 7. E2 — Délka českého master textu
 
-Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **9/23 faktů** ve dvou dávkách; zbývá **14 otevřených položek**.
+Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **11/23 faktů** ve třech dávkách; zbývá **12 otevřených položek**.
 
 | PSČ | ID | Původní délka | Fakt | Stav |
 |---|---|---:|---|---|
@@ -94,8 +94,6 @@ Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **9
 | 74285 | fact_012 | 212 | Boží muka a tragédie sedláka Hurníka | Otevřeno |
 | 74285 | fact_013 | 281 | Andrej Melnik – ukrytý sovětský zajatec | Otevřeno |
 
-| 74293 | fact_003 | 346 | Zámek Slatina – sídlo, které koupili sami obyvatelé | Otevřeno |
-| 74293 | fact_004 | 325 | Rozhledna Slatina na vrchu Okrouhlík | Otevřeno |
 
 **Dokončeno v první dávce — 6/23 faktů:**
 - 74255/fact_004 — 345 → 632 znaků; doplněna pramenná výhrada k datu výsadby a přesný popis kronikářské slavnosti z roku 1928.
@@ -107,8 +105,10 @@ Původně nalezeno **23 faktů kratších než 350 znaků**. Dosud uzavřeno **9
 - 74285/fact_007 — 267 → 647 znaků; doplněna stavba a rozšiřování trati, počet stanic, jízdní doba, přepravní výkon a nákladní doprava.
 - 74285/fact_011 — 184 → 633 znaků; doplněno umístění kina, technika projekce, formát filmu, premiéra filmu v roce 1991 a filmový festival.
 - 74285/fact_014 — 263 → 732 znaků; doplněn správní kontext záboru, přejmenování obce, protest žen, zásah vojska a následné propuštění zadržených.
+- 74293/fact_003 — 346 → 675 znaků; doplněn kontext obecní koupě zámku a velkostatku v roce 1910 jako ochrany před germanizací, ručení občanů a následné hospodaření s pozemky.
+- 74293/fact_004 — 325 → 684 znaků; doplněn výběr návrhu občany, termín realizace a financování z programu přeshraniční spolupráce INTERREG Česko–Polsko.
 
-U všech devíti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývajících **14** položek je otevřeno nebo označeno REVIEW REQUIRED.
+U všech jedenácti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývajících **12** položek je otevřeno nebo označeno REVIEW REQUIRED.
 
 Primární podklady první dávky:
 - https://www.albrechticky.cz/pamatne-stromy
@@ -181,7 +181,7 @@ Primární podklady první dávky:
 ## 11. Provedené zápisy a read-back
 
 1. 74235: přidán Mendelův fakt a 7 překladů; read-back 5 faktů a česká shoda PASS.
-2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531, 562, 647, 633 a 732 znaků PASS.
+2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531, 562, 647, 633, 732, 675 a 684 znaků PASS.
 6. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
 2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
 3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
@@ -193,9 +193,9 @@ Primární podklady první dávky:
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
-1. 14 krátkých českých master textů stále otevřeno; 9/23 uzavřeno. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
+1. 12 krátkých českých master textů stále otevřeno; 11/23 uzavřeno. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
 2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: vyřešit zbývajících 14 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: vyřešit zbývajících 12 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
