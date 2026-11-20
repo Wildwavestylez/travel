@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 195/261 faktů, tedy 1 170/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265, 6 v 74266, 8 v 74267, 8 v 74271, 13 v 74272 a všech 10 faktů v 74273. Zjištěné významové a terminologické nedostatky byly opraveny a načteny zpět; poslední read-back u 74273/fact_005 potvrzuje opravenou italskou a nizozemskou větu. Read-back dotčených 27 PSČ potvrdil kompletní jazykové položky (title i text) u všech kontrolovaných faktů. Zbývá 66 faktů / 396 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Sémantická kontrola cizojazyčných překladů dokončena 20. 11. 2026:** individuálně zkontrolováno **261/261 faktů a 1 566/1 566 cizojazyčných textů** v jazycích de/en/es/fr/it/nl, včetně názvů. Kontrola pokrývá všech 38 PSČ. Významové a terminologické nedostatky byly opraveny přímo v příslušných překladových položkách; tam, kde oprava nebyla potřebná, byla potvrzena věcná shoda s českým masterem. Závěrečné dávky: 74301/fact_001–004 (24 textů), 74401/fact_001–005 (30 textů) a dosud neevidované 74271/fact_009–010 (12 textů). U 74401 byla opravena terminologie historické Národopisné výstavy českoslovanské, gramatické pojmenování náměstí v němčině a nizozemštině a přesnost překladu roubeného domu; u 74271/fact_009 byla uhlazena německá formulace. Read-back potvrdil úplnost šesti jazyků, správná ID a shodu `facts` / `translations.cs` u závěrečných dávek. **0 zbývajících cizojazyčných textů.**
 
 ## 7. E2 — Délka českého master textu
 
@@ -285,14 +285,18 @@ Primární podklady první dávky:
 108. 74293/fact_004: opraven vnitřní rozpor českého masteru, který současně uváděl šestibokou a devítiúhelníkovou věž; zachována šestiboká konstrukce potvrzená překlady. Read-back 4/4 master–cs shoda, 0 chybějících masterů a 0 chybějících jazykových title/text.
 109. 74301/fact_001–004: individuálně zkontrolovány všechny čtyři překladové sady v de/en/es/fr/it/nl (24 cizojazyčných textů včetně názvů). Zachovány správné významy městské památkové zóny a Slezského náměstí, gotické halové trojlodní dispozice kostela sv. Mikuláše, chronologie vzniku muzea i technická charakteristika větrného mlýna na Nových Dvorech. Překlady jsou úplné a věcně odpovídají českým masterům; nebyla zjištěna chyba vyžadující zásah. Read-back 4/4 faktů: master–cs shoda, všech šest cizojazyčných title/text kompletních. PSČ 74301 uzavřeno 4/4; celkem 247/261 faktů a 1 482/1 566 cizojazyčných textů zkontrolováno.
 
+
+110. 74401/fact_001–005: individuálně zkontrolováno všech pět faktů a 30 cizojazyčných textů v de/en/es/fr/it/nl. V němčině a nizozemštině opravena gramatická vazba u názvu náměstí Náměstí Míru; sjednocen přesný historický název Národopisné výstavy českoslovanské jako Czech-Slavonic / tchéco-slave / ceco-slava / Tsjechisch-Slavisch; u pěti jazykových verzí fact_005 zpřesněn překlad roubeného domu, aby neevokoval hrázděnou stavbu. Read-back: 5/5 master–cs shoda, všech 6 jazyků kompletních, cílené opravy potvrzeny.
+111. 74271/fact_009–010: doplněna do evidence a individuálně zkontrolována poslední dvě fakta tohoto PSČ (12 cizojazyčných textů). Obsah i názvy ve všech šesti jazycích zachovávají podrobnosti o odbojové činnosti Ondřeje Bartoně, jednotce Karel 20, poválečných dokumentech a právu odúmrti / volného odkazování majetku. V němčině u fact_009 uhlazena formulace na „Ein lokales Geschichtsbulletin der Gemeinde“. Read-back potvrdil 10/10 faktů v každém jazykovém poli, master–cs shodu a úplnost všech překladů.
+
 ## 12. Výsledek a další krok
 
-**REVIEW REQUIRED** — blok není připraven k publikaci.
+**REVIEW REQUIRED** — blok zatím není připraven k publikaci.
 
-Blokující otevřené oblasti:
-1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 247/261 faktů hotovo (1 482/1 566 textů), zbývá 14 faktů.
+- **Sémantická kontrola překladů: PASS, 261/261 faktů a 1 566/1 566 cizojazyčných textů.** Při závěrečném porovnání počtů byl opraven chybný průběžný součet: 74271 obsahuje 10 faktů (ne 8 uvedených ve starším checkpointu) a 74301 čtyři fakta; všechny položky jsou nyní zahrnuty.
+- **Jediná otevřená obsahová výjimka:** 74272/fact_013 — zaniklá ves Zdislavice, 336 znaků. Zůstává REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace pro odpovědné rozšíření.
+- Délková kontrola českých masterů: 22/23 krátkých faktů rozšířeno; uvedená výjimka zůstává záměrně stručná, bez výplňového textu.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74401/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové sémantické kontroly se neopakují. Další práce na tomto rozsahu se soustředí pouze na dohledání důvěryhodných podkladů k výjimce 74272/fact_013, případně na závěrečné formální kroky auditu podle výslovného pokynu uživatele.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
