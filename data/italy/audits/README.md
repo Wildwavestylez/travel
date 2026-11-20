@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; oblast A rozpracována; do 59015 doplněny Pietramarina a Festa di San Michele, do 59016 Filippo Mazzei a Assedio alla Villa; římská krajina Prata a Gonfienti čekají na samostatný rework placeholderu 59100; Badia di San Salvatore jen kontrolní poznámka; Valibona geograficky vyloučena; detailní evidence ve výkazu; bez publikace, zálohy a read-only zamčení |
+| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; oblast A rozpracována; do 59015 doplněny Pietramarina a Festa di San Michele, do 59016 Filippo Mazzei a Assedio alla Villa; římské lokality detailně rozlišeny: Via Bresci, Gonfienti, Galciana, Sant’Ippolito (59100 placeholder), Podere Bosco (59013), římský pagus u Badia di San Salvatore (59021), slabší stopy Fossato (59025); Vernio bez potvrzeného římského monumentu; detailní evidence ve výkazu; bez publikace, zálohy a read-only zamčení |
 
 ## Pravidla registru
 - Před novým auditem ověř, zda již neexistuje tahák pro stejný nebo překrývající se rozsah.
