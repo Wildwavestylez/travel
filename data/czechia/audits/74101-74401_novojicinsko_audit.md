@@ -3,8 +3,8 @@
 **Kanonické ID:** CZ-74101-74401-NOVOJIČÍNSKO  
 **Verze auditu:** `prompt_audit.md` V2.0  
 **Datum:** 2026-11-20  
-**Výsledek:** **REVIEW REQUIRED**  
-**Publikace / záloha / read-only lock:** neprovedeno — čeká na výslovný pokyn uživatele.
+**Výsledek:** **PUBLISHED V5 / BACKUP VERIFIED — CONTENT REVIEW ACCEPTED WITH ONE DOCUMENTED EXCEPTION**  
+**Publikace / záloha / read-only lock:** `data_version=5` a `status=published` potvrzeno read-backem 38/38; Dropbox JSON + restore SQL + manifest ověřeny SHA-256; read-only lock záměrně neproveden.
 
 ## 1. Inventář a rozsah
 
@@ -14,7 +14,7 @@
 - RÚIAN reference `ruian_postcodes.csv`: všech 38 PSČ má záznam.
 - Počet faktů po opravách: **261**.
 - Jazykové položky: **1 827** (261 × 7).
-- Aktuální databázový stav: 38/38 `validated`, `data_version=1`. Audit nemění verzi ani stav.
+- Konečný databázový stav: **38/38 `published`, `data_version=5`**, potvrzeno následným read-backem; 0 nesouladů.
 
 PSČ:
 74101, 74201, 74213, 74221, 74231, 74233, 74235, 74236, 74237, 74242, 74243, 74245, 74247, 74251, 74253, 74254, 74255, 74256, 74257, 74258, 74260, 74265, 74266, 74267, 74271, 74272, 74273, 74274, 74275, 74281, 74282, 74283, 74285, 74291, 74292, 74293, 74301, 74401.
@@ -291,12 +291,13 @@ Primární podklady první dávky:
 
 ## 12. Výsledek a další krok
 
-**REVIEW REQUIRED** — blok zatím není připraven k publikaci.
+**PUBLISHED V5 / BACKUP VERIFIED — CONTENT REVIEW ACCEPTED WITH ONE DOCUMENTED EXCEPTION.**
 
-- **Sémantická kontrola překladů: PASS, 261/261 faktů a 1 566/1 566 cizojazyčných textů.** Při závěrečném porovnání počtů byl opraven chybný průběžný součet: 74271 obsahuje 10 faktů (ne 8 uvedených ve starším checkpointu) a 74301 čtyři fakta; všechny položky jsou nyní zahrnuty.
-- **Jediná otevřená obsahová výjimka:** 74272/fact_013 — zaniklá ves Zdislavice, 336 znaků. Zůstává REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace pro odpovědné rozšíření.
-- Délková kontrola českých masterů: 22/23 krátkých faktů rozšířeno; uvedená výjimka zůstává záměrně stručná, bez výplňového textu.
+- **Sémantická kontrola překladů: PASS, 261/261 faktů a 1 566/1 566 cizojazyčných textů.** Při závěrečném porovnání počtů byl opraven chybný průběžný součet: 74271 obsahuje 10 faktů (ne 8 uvedených ve starším checkpointu) a 74301 čtyři fakta; všechny položky jsou zahrnuty.
+- **Jediná přijatá obsahová výjimka:** 74272/fact_013 — zaniklá ves Zdislavice, 336 znaků. Ponecháno bez výplňového rozšíření, protože nebyly nalezeny další bezpečně doložené informace.
+- Délková kontrola českých masterů: 22/23 krátkých faktů rozšířeno; Zdislavice zůstávají záměrně stručné.
+- **Publikace:** všech 38/38 PSČ má `data_version=5` a `status=published`; read-back potvrdil 38/38, 0 nesouladů. Celkem 261 faktů.
+- **Záloha:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_74101-74401_2026-11-20T20-29-28-962Z/` — JSON, restore SQL a manifest; `validation.status=VERIFIED`, `readback_verified=true`, 38/38 záznamů, SHA-256 všech tří souborů PASS. Canonical scope hash: `4616f577455e75c93ea8444e9c706086166d8c6ecc491f1b6ba8db11a8aa8e71`.
+- **Read-only lock:** záměrně neproveden; záznamy zůstávají editovatelné.
 
-Hotové sémantické kontroly se neopakují. Další práce na tomto rozsahu se soustředí pouze na dohledání důvěryhodných podkladů k výjimce 74272/fact_013, případně na závěrečné formální kroky auditu podle výslovného pokynu uživatele.
-
-**Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
+Hotové obsahové kontroly se neopakují. Novojičínsko je publikováno V5 a zálohováno; jediná obsahová výjimka Zdislavice je vědomě ponechána.
