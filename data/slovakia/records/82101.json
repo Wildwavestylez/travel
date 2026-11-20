@@ -1,4 +1,231 @@
 {
   "postcode": "82101",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Ružinov",
+  "county": "Bratislava II",
+  "state": "Bratislavský kraj",
+  "representative_place": "Trávniky – pamětní místo Eugena Guderny",
+  "representative_point": {
+    "lat": 48.1519917,
+    "lon": 17.1546815
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pamětní místo Eugena Guderny: odboj a Mauthausen",
+      "text": "Na Nevädzovej ulici v Ružinově je pamětní místo Eugena Guderny, organizátora ilegálního revolučního mládežnického hnutí v Bratislavě. V jeho bytě se roku 1941 tiskl ilegální časopis Mor ho!. V roce 1942 byl zatčen a odsouzen k pěti letům vězení. V únoru 1945 byl spolu s dalšími vězni deportován z Bratislavy do koncentračního tábora Mauthausen, odkud se již nevrátil. Pamětní dílo bylo odhaleno 2. dubna 1981; specializovaný soupis památek je popisuje jako bronzovou bustu na kamenném pylónu. Městský seznam Marianum používá označení pamětní tabule, proto je zde zvoleno neutrální označení pamětní místo.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://marianum.sk/o-nas/starostlivost-o-pamatniky-a-vojnove-hroby",
+        "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/eugen-guderna-1921-1945-nevadzova-ul",
+        "https://poi.oma.sk/n13174147034"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamětní místo Eugena Guderny, Nevädzová 2",
+        "address": "Nevädzová 2, Bratislava, Slovensko",
+        "lat": 48.1519917,
+        "lon": 17.1546815,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n13174147034"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Štrkovecké jazero: štěrkovna, která se proměnila v městské jezero",
+      "text": "V prostoru dnešního Štrkoveckého jezera kdysi vedlo Mlynské rameno Malého Dunaje. Ještě ve 30. letech 20. století tu byl kanál, zemědělský dvůr a zahrady; později lokalitu změnila těžba štěrku a štěrkopísku pro výstavbu okolních sídlišť. Jezero vzniklo těžbou v letech 1960–1964. Má přibližně 5,16 hektaru, průměrnou hloubku 3,6 metru a jeho vodu doplňuje podzemní proudění v dunajských štěrkových sedimentech. Po revitalizaci v letech 1995–1997 se stalo významným rekreačním a přírodním prostorem Ružinova. Protože jde o vodní plochu bez vlastní poštovní adresy a PSČ nemají veřejně doložené polygonové hranice, je její bod pro potřeby mapy interně zařazen do vrstvy 82101; nejde o tvrzení, že jezero má poštovní adresu 82101.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.ruzinov.sk/sk/aktuality/view/pribeh-strkovca-zacal-tazbou",
+        "https://www.ruzinov.sk/data/MediaLibrary/2/21922/11_mz_im_bod_03_prevadzkovy-poriadok_strkovecke-jazero.pdf",
+        "https://poi.oma.sk/n1680494811",
+        "https://www.skgeodesy.sk/files/sk/slovensky/ugkk/geodezia-kartografia/standardizacia-geografickeho-nazvoslovia/nazvy-vod/jazera_februar_2017.pdf"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Štrkovecké jazero – reprezentativní bod na vodní ploše",
+        "address": null,
+        "lat": 48.1578438,
+        "lon": 17.1455745,
+        "type": "natural_feature",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n1680494811"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia účinná od 01.01.2026; Príloha 3a přiřazuje PSČ 821 01 dodací poště Bratislava 27.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a (účinnost 01.01.2026)",
+    "postcode_source_release": "V – účinnost od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodací pošta určená Slovenskou poštou pro PSČ 821 01 je Bratislava 27. Fyzická adresa pobočky je Nevädzová 6, Bratislava, v městské části Ružinov; tato adresa pobočky má vlastní PSČ 820 07 a není zaměňována s PSČ obsluhované oblasti.",
+    "postcode_override_reason": "Štrkovecké jazero nemá vlastní poštovní adresu. Pro mapovou vrstvu je jeho reprezentativní bod interně zařazen do 82101 podle lokálního geografického kontextu; nejde o tvrzení, že vodní plocha má poštovní adresu 82101.",
+    "geographic_authority": "Register adries SR / Ministerstvo vnútra SR, Slovenská pošta pro dodací poštu a adresní PSČ; OSM/OMA pro geografické body; městská část Ružinov a ÚGKK pro názvosloví a lokalizaci vodní plochy."
+  },
+  "sources": [
+    {
+      "title": "Marianum: Starostlivosť o pamätníky a vojnové hroby",
+      "url": "https://marianum.sk/o-nas/starostlivost-o-pamatniky-a-vojnove-hroby",
+      "type": "official"
+    },
+    {
+      "title": "Epocha: Eugen Guderna (1921–1945), Nevädzová",
+      "url": "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/eugen-guderna-1921-1945-nevadzova-ul",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap / OMA: Eugen Guderna, Nevädzová 2",
+      "url": "https://poi.oma.sk/n13174147034",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta: Technické parametre – Triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta: Zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-poskytujucich-sluzby-integrovanych-obsluznych-miest.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov: Príbeh Štrkovca začal ťažbou",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/pribeh-strkovca-zacal-tazbou",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov: Prevádzkový poriadok Štrkoveckého jazera",
+      "url": "https://www.ruzinov.sk/data/MediaLibrary/2/21922/11_mz_im_bod_03_prevadzkovy-poriadok_strkovecke-jazero.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap / OMA: Štrkovecké jazero",
+      "url": "https://poi.oma.sk/n1680494811",
+      "type": "other"
+    },
+    {
+      "title": "ÚGKK SR: Štandardizované názvy jazier",
+      "url": "https://www.skgeodesy.sk/files/sk/slovensky/ugkk/geodezia-kartografia/standardizacia-geografickeho-nazvoslovia/nazvy-vod/jazera_februar_2017.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Trávniky – pamětní místo Eugena Guderny",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pamětní místo Eugena Guderny: odboj a Mauthausen",
+          "text": "Na Nevädzovej ulici v Ružinově je pamětní místo Eugena Guderny, organizátora ilegálního revolučního mládežnického hnutí v Bratislavě. V jeho bytě se roku 1941 tiskl ilegální časopis Mor ho!. V roce 1942 byl zatčen a odsouzen k pěti letům vězení. V únoru 1945 byl spolu s dalšími vězni deportován z Bratislavy do koncentračního tábora Mauthausen, odkud se již nevrátil. Pamětní dílo bylo odhaleno 2. dubna 1981; specializovaný soupis památek je popisuje jako bronzovou bustu na kamenném pylónu. Městský seznam Marianum používá označení pamětní tabule, proto je zde zvoleno neutrální označení pamětní místo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Štrkovecké jazero: štěrkovna, která se proměnila v městské jezero",
+          "text": "V prostoru dnešního Štrkoveckého jezera kdysi vedlo Mlynské rameno Malého Dunaje. Ještě ve 30. letech 20. století tu byl kanál, zemědělský dvůr a zahrady; později lokalitu změnila těžba štěrku a štěrkopísku pro výstavbu okolních sídlišť. Jezero vzniklo těžbou v letech 1960–1964. Má přibližně 5,16 hektaru, průměrnou hloubku 3,6 metru a jeho vodu doplňuje podzemní proudění v dunajských štěrkových sedimentech. Po revitalizaci v letech 1995–1997 se stalo významným rekreačním a přírodním prostorem Ružinova. Protože jde o vodní plochu bez vlastní poštovní adresy a PSČ nemají veřejně doložené polygonové hranice, je její bod pro potřeby mapy interně zařazen do vrstvy 82101; nejde o tvrzení, že jezero má poštovní adresu 82101."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Trávniky – Gedenkstätte für Eugen Guderna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Gedenkstätte für Eugen Guderna: Widerstand und Mauthausen",
+          "text": "In der Nevädzová-Straße in Ružinov befindet sich eine Gedenkstätte für Eugen Guderna, einen Organisator der illegalen revolutionären Jugendbewegung in Bratislava. In seiner Wohnung wurde 1941 die illegale Zeitschrift Mor ho! gedruckt. 1942 wurde er verhaftet und zu fünf Jahren Haft verurteilt. Im Februar 1945 wurde er zusammen mit anderen Gefangenen aus Bratislava in das Konzentrationslager Mauthausen deportiert und kehrte nicht zurück. Das Gedenkwerk wurde am 2. April 1981 enthüllt; ein Fachverzeichnis beschreibt es als Bronzebüste auf einem steinernen Sockel. Marianum, die städtische Einrichtung, verwendet die Bezeichnung Gedenktafel. Deshalb wird hier neutral von einer Gedenkstätte gesprochen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Štrkovec-See: aus einer Kiesgrube wurde ein Stadtsee",
+          "text": "Durch das Gebiet des heutigen Štrkovec-Sees verlief einst der Mühlarm des Kleinen Donaus. Noch in den 1930er Jahren gab es hier einen Kanal, einen landwirtschaftlichen Hof und Gärten; später veränderte der Kiesabbau für den Bau der umliegenden Wohnsiedlungen das Gebiet. Der See entstand durch den Abbau in den Jahren 1960 bis 1964. Er ist etwa 5,16 Hektar groß, durchschnittlich 3,6 Meter tief und wird durch Grundwasser in den Donauschottern gespeist. Nach der Revitalisierung 1995–1997 wurde er zu einem wichtigen Erholungs- und Naturraum von Ružinov. Da es sich um eine Wasserfläche ohne eigene Postadresse handelt und keine öffentlich belegten Polygon-Grenzen der Postleitzahlen vorliegen, wird der Kartenpunkt intern der Ebene 82101 zugeordnet; dies bedeutet nicht, dass der See eine Postadresse mit der Postleitzahl 82101 hat."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Trávniky – Eugen Guderna memorial",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Eugen Guderna memorial: resistance and Mauthausen",
+          "text": "A memorial to Eugen Guderna stands on Nevädzová Street in Ružinov. Guderna organised an illegal revolutionary youth movement in Bratislava. The underground magazine Mor ho! was printed in his flat in 1941. He was arrested in 1942 and sentenced to five years in prison. In February 1945 he was deported from Bratislava with other prisoners to the Mauthausen concentration camp and never returned. The memorial was unveiled on 2 April 1981; a specialist memorial inventory describes it as a bronze bust on a stone plinth. The municipal Marianum list calls it a commemorative plaque, so this record uses the neutral term memorial site."
+        },
+        {
+          "id": "fact_002",
+          "title": "Štrkovec Lake: a gravel pit transformed into an urban lake",
+          "text": "The Mlynské branch of the Little Danube once crossed the area of today's Štrkovec Lake. In the 1930s the area still contained a canal, a farmyard and gardens; later, gravel extraction for the construction of nearby housing estates transformed the landscape. The lake was created by extraction between 1960 and 1964. It covers about 5.16 hectares, has an average depth of 3.6 metres and is fed by groundwater flowing through Danube gravel sediments. After its revitalisation in 1995–1997, it became an important recreational and natural space in Ružinov. As this is a body of water without its own postal address, and no publicly documented postcode polygons are available, its map point is internally assigned to the 82101 layer; this does not claim that the lake has a postal address in 82101."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Trávniky – memorial a Eugen Guderna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Memorial a Eugen Guderna: resistencia y Mauthausen",
+          "text": "En la calle Nevädzová, en Ružinov, se encuentra un memorial dedicado a Eugen Guderna, organizador del movimiento juvenil revolucionario clandestino de Bratislava. En su piso se imprimió en 1941 la revista ilegal Mor ho!. Fue detenido en 1942 y condenado a cinco años de prisión. En febrero de 1945 fue deportado desde Bratislava junto con otros presos al campo de concentración de Mauthausen y nunca regresó. El monumento conmemorativo se inauguró el 2 de abril de 1981; un inventario especializado lo describe como un busto de bronce sobre un pedestal de piedra. El registro municipal Marianum lo denomina placa conmemorativa, por lo que aquí se utiliza el término neutral lugar conmemorativo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Lago Štrkovec: de gravera a lago urbano",
+          "text": "Por la zona del actual lago Štrkovec discurría antiguamente un brazo del Pequeño Danubio. En la década de 1930 todavía había un canal, una granja y jardines; más tarde, la extracción de grava para construir los barrios residenciales cercanos transformó el paisaje. El lago se formó mediante esa extracción entre 1960 y 1964. Tiene unas 5,16 hectáreas, una profundidad media de 3,6 metros y recibe agua subterránea que circula por los sedimentos de grava del Danubio. Tras su renovación entre 1995 y 1997, se convirtió en un importante espacio recreativo y natural de Ružinov. Como es una masa de agua sin dirección postal propia y no existen límites poligonales públicos verificados de los códigos postales, su punto se asigna internamente a la capa 82101 del mapa; esto no significa que el lago tenga una dirección postal 82101."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Trávniky – mémorial d’Eugen Guderna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le mémorial d’Eugen Guderna : résistance et Mauthausen",
+          "text": "Un lieu de mémoire consacré à Eugen Guderna se trouve rue Nevädzová, dans le quartier de Ružinov. Guderna organisait le mouvement clandestin de jeunesse révolutionnaire à Bratislava. Le journal illégal Mor ho! fut imprimé dans son appartement en 1941. Arrêté en 1942, il fut condamné à cinq ans de prison. En février 1945, il fut déporté de Bratislava avec d’autres détenus vers le camp de concentration de Mauthausen et ne revint jamais. Le mémorial fut inauguré le 2 avril 1981 ; un inventaire spécialisé le décrit comme un buste en bronze sur un socle de pierre. La liste municipale de Marianum le désigne comme une plaque commémorative ; cette fiche emploie donc le terme neutre de lieu de mémoire."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le lac Štrkovec : une gravière devenue lac urbain",
+          "text": "Le bras Mlynské du Petit Danube traversait autrefois le secteur du lac Štrkovec actuel. Dans les années 1930, on y trouvait encore un canal, une ferme et des jardins ; l’extraction de gravier destinée à la construction des ensembles résidentiels voisins a ensuite transformé le paysage. Le lac s’est formé par cette extraction entre 1960 et 1964. Il couvre environ 5,16 hectares, sa profondeur moyenne est de 3,6 mètres et il est alimenté par les eaux souterraines circulant dans les sédiments graveleux du Danube. Après sa revitalisation entre 1995 et 1997, il est devenu un important espace naturel et de loisirs de Ružinov. Comme il s’agit d’un plan d’eau sans adresse postale propre et qu’aucune limite polygonale publique des codes postaux n’est documentée, son point est affecté en interne à la couche 82101 de la carte ; cela ne signifie pas que le lac possède une adresse postale 82101."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Trávniky – memoriale di Eugen Guderna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il memoriale di Eugen Guderna: resistenza e Mauthausen",
+          "text": "In via Nevädzová, nel quartiere di Ružinov, si trova un luogo commemorativo dedicato a Eugen Guderna, organizzatore del movimento giovanile rivoluzionario clandestino di Bratislava. Nel suo appartamento veniva stampata nel 1941 la rivista illegale Mor ho!. Fu arrestato nel 1942 e condannato a cinque anni di carcere. Nel febbraio 1945 fu deportato da Bratislava insieme ad altri prigionieri nel campo di concentramento di Mauthausen e non fece più ritorno. Il memoriale fu inaugurato il 2 aprile 1981; un inventario specialistico lo descrive come un busto in bronzo su un piedistallo in pietra. L’elenco municipale di Marianum lo definisce targa commemorativa; per questo la scheda usa il termine neutro luogo commemorativo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il lago Štrkovec: da cava di ghiaia a lago urbano",
+          "text": "Un tempo il ramo Mlynské del Piccolo Danubio attraversava l’area dell’attuale lago Štrkovec. Negli anni Trenta vi erano ancora un canale, un podere e giardini; in seguito l’estrazione di ghiaia destinata alla costruzione dei quartieri residenziali vicini trasformò il paesaggio. Il lago si formò con l’estrazione tra il 1960 e il 1964. Copre circa 5,16 ettari, ha una profondità media di 3,6 metri ed è alimentato dalle acque sotterranee che scorrono nei sedimenti ghiaiosi del Danubio. Dopo la rivitalizzazione del 1995–1997 è diventato un importante spazio naturale e ricreativo di Ružinov. Poiché è uno specchio d’acqua senza un proprio indirizzo postale e non sono disponibili confini poligonali pubblici verificati dei codici postali, il suo punto è assegnato internamente al livello cartografico 82101; ciò non significa che il lago abbia un indirizzo postale 82101."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Trávniky – gedenkplaats voor Eugen Guderna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De gedenkplaats voor Eugen Guderna: verzet en Mauthausen",
+          "text": "Aan de Nevädzovástraat in Ružinov bevindt zich een gedenkplaats voor Eugen Guderna, organisator van de illegale revolutionaire jongerenbeweging in Bratislava. In zijn woning werd in 1941 het illegale tijdschrift Mor ho! gedrukt. Hij werd in 1942 gearresteerd en tot vijf jaar gevangenisstraf veroordeeld. In februari 1945 werd hij samen met andere gevangenen vanuit Bratislava naar concentratiekamp Mauthausen gedeporteerd; hij keerde niet terug. Het gedenkteken werd op 2 april 1981 onthuld. Een gespecialiseerde inventaris beschrijft het als een bronzen buste op een stenen sokkel. De gemeentelijke lijst van Marianum noemt het een gedenkplaat; daarom gebruikt deze registratie de neutrale term gedenkplaats."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Štrkovec-meer: van grindgroeve tot stadsmeer",
+          "text": "Door het gebied van het huidige Štrkovec-meer liep vroeger een zijarm van de Kleine Donau, de Mlynské-arm. In de jaren dertig lagen hier nog een kanaal, een boerderij en tuinen; later veranderde grindwinning voor de bouw van omliggende woonwijken het landschap. Het meer ontstond door deze winning tussen 1960 en 1964. Het beslaat ongeveer 5,16 hectare, is gemiddeld 3,6 meter diep en wordt gevoed door grondwater dat door de grindafzettingen van de Donau stroomt. Na de herinrichting in 1995–1997 werd het een belangrijke recreatieve en natuurlijke plek in Ružinov. Omdat het een waterpartij zonder eigen postadres is en er geen openbaar gedocumenteerde postcodepolygonen beschikbaar zijn, wordt het kaartpunt intern aan de laag 82101 toegewezen; dit betekent niet dat het meer een postadres met postcode 82101 heeft."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
