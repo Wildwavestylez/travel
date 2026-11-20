@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 100/261 faktů, tedy 600/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255 a 9 v 74256. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 18 PSČ potvrdil 600/600 kompletních jazykových položek (title i text) a 100/100 faktů validated V1. Zbývá 161 faktů / 966 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 141/261 faktů, tedy 846/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258 a 13 v 74260. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 21 PSČ potvrdil 846/846 kompletních jazykových položek (title i text) a 141/141 faktů validated V1. Zbývá 120 faktů / 720 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -223,14 +223,30 @@ Primární podklady první dávky:
 48. 74256/fact_003: ve všech šesti jazycích doplněno, že jarní výskyt sněženek je přirozenou místní zvláštností, nikoli zahradní výsadbou.
 49. 74256/fact_005: odstraněna duplicitní informace o neprokázané léčivosti a pitnosti pramene z českého masteru i šesti překladů; translations.cs synchronizováno a read-back potvrzen.
 50. 74256/fact_006: doplněno vydání tří básní Jana Zábranského v Puchmajerově sbírce roku 1797 a opraven význam španělského názvu „Renacimiento nacional checo“.
+51. 74257/fact_005: terminologie štípané kamenné industrie zpřesněna; rozlišeno baltské pazourkové suroviny a místní rohovec, odstraněn chybný nizozemský význam „broušené“.
+52. 74257/fact_006: španělské „Lacek de Kravaře“ opraveno na historické rodové jméno „Lacek de Krawarn“.
+53. 74257/fact_007: odstraněna nepodložená interpretace sedimentů jako uložených vodou z tajících ledovců; nizozemský překlad „parish chronicle“ opraven z archivu na kroniku a zpřesněn název.
+54. 74257/fact_012: nepřiměřeně silné tvrzení „jeden z nejznámějších“ zmírněno na významnou literární osobnost narozenou v Libhošti.
+55. 74257/fact_013: ve všech šesti jazycích doplněno přesné číslo rodného statku Jana Čepelky — čp. 65.
+56. 74258/fact_002: nizozemský titul opraven z piaristického kláštera na piaristickou kolej, která odpovídá českému masteru.
+57. 74258/fact_004: středověká tvrz přeložena jako opevněné panské sídlo, nikoli velká pevnost.
+58. 74258/fact_005: z překladů odstraněny dodatečné informace o meandrující Trnávce a lužních lesích, které nebyly součástí českého masteru.
+59. 74258/fact_008: italské technické termíny opraveny — válcové stolice jako „molini a cilindri“ a šrotovník jako „trituratore per cereali“.
+60. 74258/fact_010: španělské a italské překlady „božích muk“ opraveny z kaple/nesprávného „capitello“ na cestovní votivní svatyni („santuario de camino“ / „edicola votiva“).
+61. 74258/fact_013: španělské a italské názvy vojenských jednotek opraveny z leteckých skupin na 8. stíhací a 1. dopravní letecký pluk.
+62. 74260/fact_003: tvrz, na jejímž místě vznikl pozdější zámek, přeložena jako opevněné panské sídlo, nikoli pevnost.
+63. 74260/fact_007: překlady amatérského motorového letadla opraveny tak, aby netvrdily, že šlo o vlastní konstrukci bratrů Žurovcových.
+64. 74260/fact_008: ve všech šesti jazycích doplněno, že Hrabovský sloužil v západním i východním odboji.
+65. 74260/fact_011: v místním příběhu o ukradených koních zpřesněno „splašila se“ jako „bolted / desbocó / s’emballa / imbizzarrita / op hol sloeg“.
+66. 74260/fact_012: původní tvrz přeložena jako opevněné panské sídlo, nikoli pevnost.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 100/261 faktů hotovo (600/1 566 textů), zbývá 161 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 141/261 faktů hotovo (846/1 566 textů), zbývá 120 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74257/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od dalšího nezpracovaného faktu po 74260 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
