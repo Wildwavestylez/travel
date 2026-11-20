@@ -1,4 +1,654 @@
 {
   "postcode": "81103",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Staré Mesto",
+  "county": "Bratislava I",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Michalská brána a veža, severný vstup do historického jadra Bratislavy",
+  "representative_point": {
+    "lat": 48.1451183,
+    "lon": 17.1067626
+  },
+  "access_point": {
+    "lat": 48.1451183,
+    "lon": 17.1067626
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Michalská brána: jediná zachovaná mestská brána Bratislavy",
+      "text": "Michalská brána je jedinou zo štyroch stredovekých mestských brán Bratislavy, ktorá sa zachovala. Jej počiatky siahajú do 14. storočia; veža prešla výraznou barokovou úpravou a dnešnú podobu získala najmä v 18. storočí. Nad bránou stojí socha archanjela Michala bojujúceho s drakom. Veža dnes ukrýva expozíciu dejín mestského opevnenia a z vyhliadkovej galérie sa otvára pohľad na strechy Starého Mesta.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.visitbratislava.com/sights-attractions/michaels-tower/"
+      ],
+      "location": {
+        "name": "Michalská brána a veža",
+        "address": "Michalská 806/24, Bratislava",
+        "lat": 48.1451183,
+        "lon": 17.1067626,
+        "type": "city_gate",
+        "accuracy": "exact",
+        "source": "https://www.visitbratislava.com/sights-attractions/michaels-tower/"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Mestské hradby: zachovaný úsek stredovekého opevnenia pod Dómom sv. Martina",
+      "text": "Od 13. storočia chránili Prešporok kamenné hradby, priekopa a niekoľko brán. Koncom 18. storočia dala Mária Terézia väčšinu opevnenia odstrániť, priekopu zasypať a mesto sa začalo spájať s predmestiami. Pod Dómom sv. Martina sa zachoval dlhý úsek hradieb, odkrytý pri budovaní prístupovej komunikácie k Mostu SNP a následne obnovený pre peších. Súčasťou dochovanej línie je aj Baxova veža.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.visitbratislava.com/sights-attractions/bratislava-city-walls-medieval-fortifications/",
+        "https://www.visitbratislava.com/wp-content/uploads/2016/07/panel_800x1200_PHOTO.pdf"
+      ],
+      "location": {
+        "name": "Obnovený úsek mestských hradieb pod Dómom sv. Martina",
+        "address": "Staromestská, Bratislava",
+        "lat": 48.1455186,
+        "lon": 17.1038853,
+        "type": "fortification",
+        "accuracy": "area_representative",
+        "source": "https://www.visitbratislava.com/sights-attractions/bratislava-city-walls-medieval-fortifications/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Najužší dom a nultý kilometer: drobné kuriozity pri Michalskej bráne",
+      "text": "V tesnom susedstve Michalskej brány stojí dom na Baštovej ulici, ktorého priečelie má šírku len približne 1,3 metra. Patrí k najužším domom v Bratislave a pripomína, ako sa historická zástavba prispôsobovala stiesnenému priestoru niekdajšej mestskej priekopy. Neďaleko je aj nultý kilometer – kovový kruh v dlažbe s vyznačenými vzdialenosťami z Bratislavy do vybraných svetových metropol.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.visitbratislava.com/sights-attractions/the-narrowest-house-in-bratislava/"
+      ],
+      "location": {
+        "name": "Najužší dom na Baštovej ulici",
+        "address": "Baštová 4, Bratislava",
+        "lat": 48.1451239,
+        "lon": 17.1066093,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.visitbratislava.com/sights-attractions/the-narrowest-house-in-bratislava/"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Klarisky: gotický kláštor s vežou, ktorá nemá vlastné základy",
+      "text": "Komplex klarisiek vznikol v 13. storočí na základoch staršieho cisterciánskeho kláštora. Bývalý kostol Povýšenia svätého Kríža má výnimočnú päťbokú vežu, ktorá nemá vlastné základy a stojí na nároží chrámovej lode ako takzvaná zavesená veža. Po zrušení rádu v roku 1782 slúžil kláštor okrem iného Právnickej akadémii a gymnáziu; kostol bol v roku 1913 odsvätený. Dnes je koncertnou sieňou a v kláštornom komplexe sídli Univerzitná knižnica, ktorá uchováva aj Bašagićovu zbierku islamských rukopisov zapísanú v programe UNESCO Pamäť sveta.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.bkis.sk/klarisky/"
+      ],
+      "location": {
+        "name": "Kostol Povýšenia svätého Kríža – Klarisky",
+        "address": "Farská 4, Bratislava",
+        "lat": 48.1439085,
+        "lon": 17.1059294,
+        "type": "architectural_ensemble",
+        "accuracy": "exact",
+        "source": "https://www.bkis.sk/klarisky/"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Trinitársky kostol: baroková iluzívna kupola od Galli-Bibienu",
+      "text": "Kostol svätého Jána z Mathy a svätého Felixa z Valois vznikol pre rád trinitárov v prvej polovici 18. storočia. Jeho architektúra sa inšpirovala viedenským kostolom svätého Petra, no najväčšiu pozornosť priťahuje maľovaná iluzívna kupola, ktorá vytvára dojem oveľa vyššieho priestoru. Patrí k dielam okruhu bolonského scénografa Antonia Galli-Bibienu a k najvýraznejším barokovým interiérom Bratislavy.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.visitbratislava.com/sights-attractions/trinitarian-church/"
+      ],
+      "location": {
+        "name": "Kostol svätého Jána z Mathy a svätého Felixa z Valois",
+        "address": "Župné námestie 25/11, Bratislava",
+        "lat": 48.1461907,
+        "lon": 17.1066063,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.visitbratislava.com/sights-attractions/trinitarian-church/"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Historická budova Národnej rady: z trinitárskeho kláštora na župný dom",
+      "text": "Budova na Župnom námestí vznikla ako súčasť trinitárskeho kláštora z počiatku 18. storočia. Po zrušení rádu v roku 1783 slúžil kláštor dočasne ako vojenská nemocnica a neskôr ako župný dom Bratislavskej župy. V rokoch 1844–1847 ho rozšírili a prestavali v klasicistickom štýle pod vedením Ignáca Feiglera. Na hlavnom priečelí zostal letopočet 1848 a erb Pálffyovcov; práve tu bola v roku 1992 prijatá Deklarácia o zvrchovanosti Slovenskej republiky.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.coe.int/en/web/electoral-management-bodies-conference/historical-building",
+        "https://bratislava.oma.sk/u/zupne-namestie/12"
+      ],
+      "location": {
+        "name": "Historická budova Národnej rady Slovenskej republiky",
+        "address": "Župné námestie 12, Bratislava",
+        "lat": 48.146011,
+        "lon": 17.1059746,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/zupne-namestie/12"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Kapucínsky kostol svätého Štefana: kláštor založený v čase moru",
+      "text": "Kapucíni prišli do Bratislavy v roku 1676 a najprv pôsobili v kaplnke svätej Kataríny. Základný kameň ich nového kláštora položili v decembri 1708 a kostol svätého Štefana Uhorského bol dokončený a konsekrovaný v roku 1717. Počas morovej epidémie v rokoch 1712–1713 bratia ošetrovali chorých a dvaja z nich pri tejto službe zomreli. Kostol neskôr prešiel rozsiahlym statickým zabezpečením, pretože jeho základy na podmáčanej pôde povoľovali; dnešná stavba tak nesie stopy viacerých stavebných etáp.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.kapucini.sk/bratstva/bratstvo-bratislava/",
+        "https://bratislava.oma.sk/u/zupne-namestie/10"
+      ],
+      "location": {
+        "name": "Kapucínsky kostol svätého Štefana Uhorského",
+        "address": "Župné námestie 10, Bratislava",
+        "lat": 48.145879,
+        "lon": 17.107055,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/zupne-namestie/10"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Cintorín pri Kozej bráne: Bahýľ, Viest a Bella na starom evanjelickom cintoríne",
+      "text": "Evanjelický cintorín pri Kozej bráne bol založený v roku 1783 na pozemkoch niekdajších viníc a záhrad medzi ulicami Palisády, Šulekova a Bradlianska. Pochovávalo sa tu do polovice 20. storočia a dnes je cintorín národnou kultúrnou pamiatkou s osobitou parkovou atmosférou. Odpočívajú tu hudobný skladateľ Ján Levoslav Bella, generál Rudolf Viest aj vynálezca Ján Bahýľ, známy svojimi konštrukciami lietajúcich strojov. Cintorín je cenným svedectvom o evanjelickej komunite aj o kultúrnych, vedeckých a vojenských dejinách mesta.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/bratislava-cintorin-pri-kozej-brane",
+        "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/ulickami-stareho-mesta/280128/kozia-brana"
+      ],
+      "location": {
+        "name": "Evanjelický cintorín pri Kozej bráne",
+        "address": "Šulekova 1, Bratislava",
+        "lat": 48.147478,
+        "lon": 17.098787,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/bratislava-cintorin-pri-kozej-brane"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Georgievitsov palác – Dom hudby: operná speváčka, socha Cantus a hudobná škola",
+      "text": "Palác dal po roku 1890 postaviť poľný podmaršal Georg Georgievits de Apadia ako svoje mestské sídlo. Projekt vypracoval Ignác Feigler mladší podľa návrhu viedenského architekta; palác mal terasovitú záhradu, ktorá kedysi siahala až po Palisády. V roku 1912 ho kúpila rodina Trebitschovcov; manželka finančníka Dionýza Trebitscha, operná speváčka Oľga Trebitschová, dala palácu výraznú hudobnú stopu. Okolo roku 1921 vznikla na jej počesť mramorová socha s fontánou Cantus od Alojza Rigeleho. Dnes tu sídli ZUŠ Miloša Ruppeldta, najstaršia základná umelecká škola na Slovensku, a po rekonštrukcii v roku 2024 aj Dom hudby s koncertnými sálami.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "map_category": "cultural_site",
+      "sources": [
+        "https://www.bkis.sk/priestory/dom-hudby/",
+        "https://bratislava.oma.sk/u/panenska/13"
+      ],
+      "location": {
+        "name": "Georgievitsov palác – Dom hudby",
+        "address": "Panenská 11–13, Bratislava",
+        "lat": 48.1477778,
+        "lon": 17.1027778,
+        "type": "building",
+        "accuracy": "approximate",
+        "source": "https://bratislava.oma.sk/u/panenska/13"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – technické parametre triedenia a zväzkovania zásielok uvádzajú smerovanie rozsahu 811 01 – 811 09 na dodávaciu poštu Bratislava 1; oficiálna stránka pošty uvádza pobočku Bratislava 1 na Námestí SNP 35.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a; oficiálne informácie o pobočke Bratislava 1",
+    "postcode_source_release": "Technické parametre zverejnené 2025",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": true,
+    "postcode_conflict_note": "Hranica PSČ sa v okolí Michalskej ulice nedá bezpečne odvodiť iba zo všeobecného názvu ulice. Michalská veža na adrese Michalská 806/24 a Najužší dom na Baštovej 4 majú doložené PSČ 811 03. Lekáreň U červeného raka na Michalskej 28 je v aktuálnom turistickom zázname uvádzaná pri PSČ 811 01 a do tohto záznamu preto nie je zaradená; rovnako je mimo záznamu Kaplnka sv. Kataríny na Michalskej 8. Kapucíni používajú v kontaktoch poštový priečinok 814 99, ktorý nie je PSČ ich fyzickej adresy na Župnom námestí 10; fyzický adresný bod patrí do 811 03. Pri Dome hudby uvádza BKIS adresu Panenská 11, zatiaľ čo mapový adresný bod OMA uvádza Panenská 13; oba zdroje umiestňujú objekt do 811 03. Záznam netvrdí presné hranice doručovacej oblasti.",
+    "delivery_office_note": "Slovenská pošta uvádza pre rozsah 811 01 – 811 09 dodávaciu poštu Bratislava 1. Pobočka Bratislava 1 sa nachádza na Námestí SNP 35 v obci Bratislava. Poloha pošty neurčuje reprezentatívny bod ani polohy jednotlivých faktov.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta pre poštové priradenie; Visit Bratislava, BKIS, Rada Európy, Kapucíni a pamiatkové zdroje pre identifikáciu objektov; adresné body OMA a publikované GPS pre geografické umiestnenie. Jednotlivé adresné body RAGEO neboli v tomto priechode priamo načítané."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – technické parametre triedenia a zväzkovania zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – pobočka Bratislava 1, Námestie SNP 35",
+      "url": "https://www.posta.sk/clanky/na-vybranych-pobockach-si-zakaznici-vybavia-financne-sluzby-rychlo-a-bez-cakania-v-modernych-kioskoch",
+      "type": "official"
+    },
+    {
+      "title": "Michalská veža – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/michaels-tower/",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavské mestské hradby – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/bratislava-city-walls-medieval-fortifications/",
+      "type": "official"
+    },
+    {
+      "title": "Mestské hradby – fotografická dokumentácia Mestského ústavu ochrany pamiatok",
+      "url": "https://www.visitbratislava.com/wp-content/uploads/2016/07/panel_800x1200_PHOTO.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Najužší dom a nultý kilometer – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/the-narrowest-house-in-bratislava/",
+      "type": "official"
+    },
+    {
+      "title": "Koncertná sieň Klarisky – Bratislavské kultúrne a informačné stredisko",
+      "url": "https://www.bkis.sk/klarisky/",
+      "type": "official"
+    },
+    {
+      "title": "Trinitársky kostol – Visit Bratislava",
+      "url": "https://www.visitbratislava.com/sights-attractions/trinitarian-church/",
+      "type": "official"
+    },
+    {
+      "title": "Historická budova Národnej rady SR – Council of Europe",
+      "url": "https://www.coe.int/en/web/electoral-management-bodies-conference/historical-building",
+      "type": "official"
+    },
+    {
+      "title": "Župné námestie 12 – adresný bod a súradnice",
+      "url": "https://bratislava.oma.sk/u/zupne-namestie/12",
+      "type": "specialist"
+    },
+    {
+      "title": "Bratislavskí kapucíni – história kláštora a kostola sv. Štefana",
+      "url": "https://www.kapucini.sk/bratstva/bratstvo-bratislava/",
+      "type": "official"
+    },
+    {
+      "title": "Župné námestie 10 – adresný bod a súradnice",
+      "url": "https://bratislava.oma.sk/u/zupne-namestie/10",
+      "type": "specialist"
+    },
+    {
+      "title": "Cintorín pri Kozej bráne – pamiatková ochrana a GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/bratislava-cintorin-pri-kozej-brane",
+      "type": "specialist"
+    },
+    {
+      "title": "Kozia brána – história cintorína a pochované osobnosti, STVR",
+      "url": "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/ulickami-stareho-mesta/280128/kozia-brana",
+      "type": "official"
+    },
+    {
+      "title": "Dom hudby / Georgievitsov palác – BKIS",
+      "url": "https://www.bkis.sk/priestory/dom-hudby/",
+      "type": "official"
+    },
+    {
+      "title": "Panenská 13 – adresný bod Georgievitsovho paláca",
+      "url": "https://bratislava.oma.sk/u/panenska/13",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Michalská brána a veža, severný vstup do historického jadra Bratislavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Michalská brána: jediná zachovaná mestská brána Bratislavy",
+          "text": "Michalská brána je jedinou zo štyroch stredovekých mestských brán Bratislavy, ktorá sa zachovala. Jej počiatky siahajú do 14. storočia; veža prešla výraznou barokovou úpravou a dnešnú podobu získala najmä v 18. storočí. Nad bránou stojí socha archanjela Michala bojujúceho s drakom. Veža dnes ukrýva expozíciu dejín mestského opevnenia a z vyhliadkovej galérie sa otvára pohľad na strechy Starého Mesta."
+        },
+        {
+          "id": "fact_002",
+          "title": "Mestské hradby: zachovaný úsek stredovekého opevnenia pod Dómom sv. Martina",
+          "text": "Od 13. storočia chránili Prešporok kamenné hradby, priekopa a niekoľko brán. Koncom 18. storočia dala Mária Terézia väčšinu opevnenia odstrániť, priekopu zasypať a mesto sa začalo spájať s predmestiami. Pod Dómom sv. Martina sa zachoval dlhý úsek hradieb, odkrytý pri budovaní prístupovej komunikácie k Mostu SNP a následne obnovený pre peších. Súčasťou dochovanej línie je aj Baxova veža."
+        },
+        {
+          "id": "fact_003",
+          "title": "Najužší dom a nultý kilometer: drobné kuriozity pri Michalskej bráne",
+          "text": "V tesnom susedstve Michalskej brány stojí dom na Baštovej ulici, ktorého priečelie má šírku len približne 1,3 metra. Patrí k najužším domom v Bratislave a pripomína, ako sa historická zástavba prispôsobovala stiesnenému priestoru niekdajšej mestskej priekopy. Neďaleko je aj nultý kilometer – kovový kruh v dlažbe s vyznačenými vzdialenosťami z Bratislavy do vybraných svetových metropol."
+        },
+        {
+          "id": "fact_004",
+          "title": "Klarisky: gotický kláštor s vežou, ktorá nemá vlastné základy",
+          "text": "Komplex klarisiek vznikol v 13. storočí na základoch staršieho cisterciánskeho kláštora. Bývalý kostol Povýšenia svätého Kríža má výnimočnú päťbokú vežu, ktorá nemá vlastné základy a stojí na nároží chrámovej lode ako takzvaná zavesená veža. Po zrušení rádu v roku 1782 slúžil kláštor okrem iného Právnickej akadémii a gymnáziu; kostol bol v roku 1913 odsvätený. Dnes je koncertnou sieňou a v kláštornom komplexe sídli Univerzitná knižnica, ktorá uchováva aj Bašagićovu zbierku islamských rukopisov zapísanú v programe UNESCO Pamäť sveta."
+        },
+        {
+          "id": "fact_005",
+          "title": "Trinitársky kostol: baroková iluzívna kupola od Galli-Bibienu",
+          "text": "Kostol svätého Jána z Mathy a svätého Felixa z Valois vznikol pre rád trinitárov v prvej polovici 18. storočia. Jeho architektúra sa inšpirovala viedenským kostolom svätého Petra, no najväčšiu pozornosť priťahuje maľovaná iluzívna kupola, ktorá vytvára dojem oveľa vyššieho priestoru. Patrí k dielam okruhu bolonského scénografa Antonia Galli-Bibienu a k najvýraznejším barokovým interiérom Bratislavy."
+        },
+        {
+          "id": "fact_006",
+          "title": "Historická budova Národnej rady: z trinitárskeho kláštora na župný dom",
+          "text": "Budova na Župnom námestí vznikla ako súčasť trinitárskeho kláštora z počiatku 18. storočia. Po zrušení rádu v roku 1783 slúžil kláštor dočasne ako vojenská nemocnica a neskôr ako župný dom Bratislavskej župy. V rokoch 1844–1847 ho rozšírili a prestavali v klasicistickom štýle pod vedením Ignáca Feiglera. Na hlavnom priečelí zostal letopočet 1848 a erb Pálffyovcov; práve tu bola v roku 1992 prijatá Deklarácia o zvrchovanosti Slovenskej republiky."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapucínsky kostol svätého Štefana: kláštor založený v čase moru",
+          "text": "Kapucíni prišli do Bratislavy v roku 1676 a najprv pôsobili v kaplnke svätej Kataríny. Základný kameň ich nového kláštora položili v decembri 1708 a kostol svätého Štefana Uhorského bol dokončený a konsekrovaný v roku 1717. Počas morovej epidémie v rokoch 1712–1713 bratia ošetrovali chorých a dvaja z nich pri tejto službe zomreli. Kostol neskôr prešiel rozsiahlym statickým zabezpečením, pretože jeho základy na podmáčanej pôde povoľovali; dnešná stavba tak nesie stopy viacerých stavebných etáp."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cintorín pri Kozej bráne: Bahýľ, Viest a Bella na starom evanjelickom cintoríne",
+          "text": "Evanjelický cintorín pri Kozej bráne bol založený v roku 1783 na pozemkoch niekdajších viníc a záhrad medzi ulicami Palisády, Šulekova a Bradlianska. Pochovávalo sa tu do polovice 20. storočia a dnes je cintorín národnou kultúrnou pamiatkou s osobitou parkovou atmosférou. Odpočívajú tu hudobný skladateľ Ján Levoslav Bella, generál Rudolf Viest aj vynálezca Ján Bahýľ, známy svojimi konštrukciami lietajúcich strojov. Cintorín je cenným svedectvom o evanjelickej komunite aj o kultúrnych, vedeckých a vojenských dejinách mesta."
+        },
+        {
+          "id": "fact_009",
+          "title": "Georgievitsov palác – Dom hudby: operná speváčka, socha Cantus a hudobná škola",
+          "text": "Palác dal po roku 1890 postaviť poľný podmaršal Georg Georgievits de Apadia ako svoje mestské sídlo. Projekt vypracoval Ignác Feigler mladší podľa návrhu viedenského architekta; palác mal terasovitú záhradu, ktorá kedysi siahala až po Palisády. V roku 1912 ho kúpila rodina Trebitschovcov; manželka finančníka Dionýza Trebitscha, operná speváčka Oľga Trebitschová, dala palácu výraznú hudobnú stopu. Okolo roku 1921 vznikla na jej počesť mramorová socha s fontánou Cantus od Alojza Rigeleho. Dnes tu sídli ZUŠ Miloša Ruppeldta, najstaršia základná umelecká škola na Slovensku, a po rekonštrukcii v roku 2024 aj Dom hudby s koncertnými sálami."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Michaelstor und Michaelsturm, nördlicher Eingang zur historischen Altstadt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Michaelstor: das einzige erhaltene Stadttor Bratislavas",
+          "text": "Das Michaelstor ist das einzige der vier mittelalterlichen Stadttore Bratislavas, das erhalten geblieben ist. Seine Ursprünge reichen ins 14. Jahrhundert zurück; der Turm wurde später deutlich barock umgestaltet und erhielt vor allem im 18. Jahrhundert sein heutiges Aussehen. Über dem Tor steht die Statue des Erzengels Michael im Kampf mit dem Drachen. Heute beherbergt der Turm eine Ausstellung zur Stadtbefestigung; von der Aussichtsgalerie blickt man über die Dächer der Altstadt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Stadtmauern: ein erhaltener Abschnitt der mittelalterlichen Befestigung unter dem Martinsdom",
+          "text": "Seit dem 13. Jahrhundert schützten steinerne Mauern, ein Graben und mehrere Tore das mittelalterliche Pressburg. Im späten 18. Jahrhundert ließ Maria Theresia den größten Teil der Befestigung abtragen, den Graben auffüllen und die Stadt mit ihren Vorstädten verbinden. Unterhalb des Martinsdoms blieb ein langer Mauerabschnitt erhalten. Er wurde beim Bau der Zufahrtsstraße zur SNP-Brücke freigelegt und später für Fußgänger restauriert. Zur erhaltenen Linie gehört auch der Bax-Turm."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das schmalste Haus und der Nullkilometer: kleine Kuriositäten am Michaelstor",
+          "text": "Ganz in der Nähe des Michaelstors steht in der Baštová-Straße ein Haus, dessen Fassade nur etwa 1,3 Meter breit ist. Es gehört zu den schmalsten Häusern Bratislavas und zeigt, wie sich die historische Bebauung dem engen Raum des ehemaligen Stadtgrabens anpasste. Nicht weit davon markiert ein Nullkilometerstein in Form eines Metallrings im Pflaster die Entfernungen von Bratislava zu ausgewählten Metropolen der Welt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Klarissenkloster: eine gotische Klosteranlage mit einem Turm ohne eigene Fundamente",
+          "text": "Die Anlage der Klarissen entstand im 13. Jahrhundert auf den Fundamenten eines älteren Zisterzienserklosters. Die ehemalige Kirche zur Erhöhung des Heiligen Kreuzes besitzt einen außergewöhnlichen fünfeckigen Turm, der keine eigenen Fundamente hat und auf der Ecke des Kirchenschiffs ruht – ein sogenannter Hängeturm. Nach der Aufhebung des Ordens 1782 diente das Kloster unter anderem als Juristische Akademie und Gymnasium; die Kirche wurde 1913 entweiht. Heute ist sie ein Konzertsaal. Im Klosterkomplex befindet sich die Universitätsbibliothek, die auch die Bašagić-Sammlung islamischer Handschriften bewahrt, die in das UNESCO-Programm Memory of the World aufgenommen wurde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Trinitarierkirche: eine barocke illusionistische Kuppel von Galli-Bibiena",
+          "text": "Die Kirche des heiligen Johannes von Matha und des heiligen Felix von Valois wurde in der ersten Hälfte des 18. Jahrhunderts für den Trinitarierorden errichtet. Ihre Architektur orientiert sich an der Peterskirche in Wien. Besonders auffällig ist die gemalte illusionistische Kuppel, die einen viel höheren Raum vortäuscht. Sie gehört zum Umkreis des Bologneser Bühnenbildners Antonio Galli-Bibiena und zählt zu den eindrucksvollsten Barockinterieurs Bratislavas."
+        },
+        {
+          "id": "fact_006",
+          "title": "Historisches Gebäude des Nationalrats: vom Trinitarierkloster zum Komitatshaus",
+          "text": "Das Gebäude am Župné-Platz entstand als Teil eines Trinitarierklosters zu Beginn des 18. Jahrhunderts. Nach der Aufhebung des Ordens 1783 diente das Kloster vorübergehend als Militärkrankenhaus und später als Komitatshaus des Pressburger Komitats. Zwischen 1844 und 1847 wurde es unter Ignác Feigler erweitert und klassizistisch umgestaltet. An der Hauptfassade blieben die Jahreszahl 1848 und das Wappen der Familie Pálffy erhalten. Hier wurde 1992 die Erklärung über die Souveränität der Slowakischen Republik angenommen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapuzinerkirche des heiligen Stephan: ein Kloster aus der Zeit der Pest",
+          "text": "Die Kapuziner kamen 1676 nach Bratislava und wirkten zunächst in der Katharinenkapelle. Der Grundstein ihres neuen Klosters wurde im Dezember 1708 gelegt; die Kirche des heiligen Stephan von Ungarn wurde 1717 fertiggestellt und geweiht. Während der Pestepidemie von 1712–1713 pflegten die Brüder die Kranken, zwei von ihnen starben dabei. Später musste die Kirche statisch gesichert werden, weil ihre Fundamente im feuchten Boden nachgaben. Der heutige Bau zeigt daher mehrere Bauphasen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Friedhof am Ziegentor: Bahýľ, Viest und Bella auf dem alten evangelischen Friedhof",
+          "text": "Der evangelische Friedhof am Ziegentor wurde 1783 auf ehemaligem Weinberg- und Gartengelände zwischen Palisády, Šulekova und Bradlianska angelegt. Hier wurde bis zur Mitte des 20. Jahrhunderts bestattet; heute ist der Friedhof ein nationales Kulturdenkmal mit parkartiger Atmosphäre. Hier ruhen der Komponist Ján Levoslav Bella, General Rudolf Viest und der Erfinder Ján Bahýľ, bekannt für seine Flugmaschinenkonstruktionen. Der Friedhof dokumentiert die Geschichte der evangelischen Gemeinde sowie das kulturelle, wissenschaftliche und militärische Leben der Stadt."
+        },
+        {
+          "id": "fact_009",
+          "title": "Georgievits-Palais – Haus der Musik: Opernsängerin, Cantus-Skulptur und Musikschule",
+          "text": "Das Palais ließ Feldmarschall Georg Georgievits de Apadia nach 1890 als Stadthaus errichten. Der Entwurf stammte von Ignác Feigler dem Jüngeren nach einer Vorlage eines Wiener Architekten; zum Palais gehörte ein Terrassengarten, der einst bis zu den Palisády reichte. 1912 kaufte es die Familie Trebitsch. Oľga Trebitschová, Opernsängerin und Ehefrau des Finanzmanns Dionýz Trebitsch, prägte die musikalische Geschichte des Hauses. Um 1921 entstand ihr zu Ehren die Marmorskulptur mit Brunnen Cantus von Alojz Rigele. Heute beherbergt das Palais die älteste Musikschule der Slowakei, die 1919 gegründete ZUŠ Miloša Ruppeldta, sowie nach der Renovierung 2024 das Haus der Musik mit Konzertsälen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Michael’s Gate and Tower, northern entrance to Bratislava’s historic centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Michael’s Gate: Bratislava’s only surviving medieval city gate",
+          "text": "Michael’s Gate is the only one of Bratislava’s four medieval city gates that has survived. Its origins date to the 14th century; the tower was later substantially remodelled in the Baroque style and acquired its present appearance mainly in the 18th century. A statue of the Archangel Michael fighting a dragon stands above the gate. The tower now houses an exhibition on the city’s fortifications, and its viewing gallery looks out over the Old Town rooftops."
+        },
+        {
+          "id": "fact_002",
+          "title": "The city walls: a surviving stretch of medieval fortifications below St Martin’s Cathedral",
+          "text": "From the 13th century, stone walls, a moat and several gates protected medieval Pressburg. In the late 18th century Maria Theresa ordered most of the fortifications to be dismantled, the moat filled in and the town joined to its suburbs. A long stretch survived below St Martin’s Cathedral. It was uncovered during construction of the approach road to the SNP Bridge and later restored for pedestrians. Bax Tower is also part of the surviving line."
+        },
+        {
+          "id": "fact_003",
+          "title": "The narrowest house and the kilometre stone: small curiosities by Michael’s Gate",
+          "text": "Very close to Michael’s Gate, a house on Baštová Street has a façade only about 1.3 metres wide. It is among the narrowest houses in Bratislava and shows how historic buildings adapted to the tight space of the former city moat. Nearby, a metal ring set into the pavement marks the kilometre point, showing distances from Bratislava to selected world cities."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Poor Clare complex: a Gothic monastery with a tower that has no foundations of its own",
+          "text": "The Poor Clare complex was established in the 13th century on the foundations of an older Cistercian monastery. The former Church of the Exaltation of the Holy Cross has an unusual five-sided tower that has no foundations of its own and rests on the corner of the nave – a so-called hanging tower. After the order was dissolved in 1782, the monastery served, among other purposes, as a law academy and grammar school; the church was deconsecrated in 1913. It is now a concert hall, while the monastery houses the University Library, which preserves the Bašagić Collection of Islamic manuscripts, included in UNESCO’s Memory of the World programme."
+        },
+        {
+          "id": "fact_005",
+          "title": "Trinitarian Church: Galli-Bibiena’s Baroque illusionistic dome",
+          "text": "The Church of St John of Matha and St Felix of Valois was built for the Trinitarian order in the first half of the 18th century. Its architecture was inspired by Vienna’s Church of St Peter. The most striking feature is its painted illusionistic dome, which creates the impression of a much taller space. It belongs to the circle of Bolognese stage designer Antonio Galli-Bibiena and is one of Bratislava’s most remarkable Baroque interiors."
+        },
+        {
+          "id": "fact_006",
+          "title": "Historic Building of the National Council: from Trinitarian monastery to county house",
+          "text": "The building on Župné Square began as part of a Trinitarian monastery in the early 18th century. After the order was dissolved in 1783, the monastery temporarily served as a military hospital and later as the county house of Bratislava County. Between 1844 and 1847 it was enlarged and remodelled in the Neoclassical style under Ignác Feigler. The year 1848 and the Pálffy family coat of arms remain on the main façade. The Declaration of Sovereignty of the Slovak Republic was adopted here in 1992."
+        },
+        {
+          "id": "fact_007",
+          "title": "Capuchin Church of St Stephen: a monastery founded during the plague years",
+          "text": "The Capuchins arrived in Bratislava in 1676 and initially served at St Catherine’s Chapel. The foundation stone of their new monastery was laid in December 1708, and the Church of St Stephen of Hungary was completed and consecrated in 1717. During the plague epidemic of 1712–1713, the friars cared for the sick and two died while doing so. The church later needed major structural repairs because its foundations were settling in the marshy ground. The present building therefore preserves traces of several construction phases."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cemetery by the Goat Gate: Bahýľ, Viest and Bella in the old Evangelical cemetery",
+          "text": "The Evangelical cemetery by the Goat Gate was established in 1783 on former vineyard and garden land between Palisády, Šulekova and Bradlianska streets. Burials continued until the middle of the 20th century; today it is a national cultural monument with a distinctive park-like atmosphere. It is the resting place of composer Ján Levoslav Bella, General Rudolf Viest and inventor Ján Bahýľ, known for his flying-machine designs. The cemetery bears witness to the Evangelical community and to the city’s cultural, scientific and military history."
+        },
+        {
+          "id": "fact_009",
+          "title": "Georgievits Palace – House of Music: an opera singer, the Cantus sculpture and a music school",
+          "text": "Field Marshal Georg Georgievits de Apadia had the palace built after 1890 as his town residence. It was designed by Ignác Feigler Jr. based on a Viennese architect’s proposal; the palace had a terraced garden that once reached as far as Palisády. The Trebitsch family bought it in 1912. Oľga Trebitschová, an opera singer and wife of financier Dionýz Trebitsch, gave the building a strong musical connection. Around 1921, sculptor Alojz Rigele created the marble Cantus sculpture and fountain in her memory. Today the palace houses Slovakia’s oldest arts school, the ZUŠ Miloša Ruppeldta founded in 1919, and, after its 2024 renovation, the House of Music with concert halls."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Puerta y torre de San Miguel, entrada norte al centro histórico de Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Puerta de San Miguel: la única puerta medieval de Bratislava que se conserva",
+          "text": "La Puerta de San Miguel es la única de las cuatro puertas medievales de Bratislava que ha llegado hasta nuestros días. Sus orígenes se remontan al siglo XIV; la torre fue reformada profundamente en época barroca y adquirió su aspecto actual sobre todo en el siglo XVIII. Sobre la puerta se alza una estatua del arcángel Miguel luchando contra un dragón. Hoy la torre alberga una exposición sobre las fortificaciones de la ciudad y desde su galería se contemplan los tejados del casco antiguo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Las murallas de la ciudad: un tramo medieval conservado bajo la catedral de San Martín",
+          "text": "Desde el siglo XIII, murallas de piedra, un foso y varias puertas protegían la Pressburg medieval. A finales del siglo XVIII, María Teresa ordenó derribar la mayor parte de las fortificaciones, rellenar el foso y unir la ciudad con sus arrabales. Bajo la catedral de San Martín se conservó un largo tramo, descubierto durante la construcción del acceso al puente SNP y restaurado después para los peatones. La torre Bax también forma parte de la línea conservada."
+        },
+        {
+          "id": "fact_003",
+          "title": "La casa más estrecha y el kilómetro cero: pequeñas curiosidades junto a la Puerta de San Miguel",
+          "text": "Muy cerca de la Puerta de San Miguel, una casa de la calle Baštová tiene una fachada de apenas 1,3 metros de ancho. Es una de las casas más estrechas de Bratislava y muestra cómo la edificación histórica se adaptó al reducido espacio del antiguo foso. Cerca se encuentra también el kilómetro cero, un anillo metálico en el pavimento que indica las distancias desde Bratislava a varias ciudades del mundo."
+        },
+        {
+          "id": "fact_004",
+          "title": "El convento de las clarisas: un complejo gótico con una torre sin cimientos propios",
+          "text": "El complejo de las clarisas surgió en el siglo XIII sobre los cimientos de un antiguo monasterio cisterciense. La antigua iglesia de la Exaltación de la Santa Cruz tiene una singular torre pentagonal que carece de cimientos propios y se apoya en la esquina de la nave, una llamada torre suspendida. Tras la supresión de la orden en 1782, el convento sirvió, entre otros usos, como academia de derecho y escuela secundaria; la iglesia fue desacralizada en 1913. Hoy es una sala de conciertos y el convento alberga la Biblioteca Universitaria, que conserva la colección Bašagić de manuscritos islámicos, inscrita en el programa Memoria del Mundo de la UNESCO."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia trinitaria: la cúpula barroca ilusionista de Galli-Bibiena",
+          "text": "La iglesia de San Juan de Mata y San Félix de Valois fue construida para la orden trinitaria en la primera mitad del siglo XVIII. Su arquitectura se inspiró en la iglesia de San Pedro de Viena. Destaca su cúpula pintada ilusionista, que crea la impresión de un espacio mucho más alto. Se relaciona con el escenógrafo boloñés Antonio Galli-Bibiena y es uno de los interiores barrocos más notables de Bratislava."
+        },
+        {
+          "id": "fact_006",
+          "title": "Edificio histórico del Consejo Nacional: de monasterio trinitario a casa del condado",
+          "text": "El edificio de la plaza Župné nació como parte de un monasterio trinitario a comienzos del siglo XVIII. Tras la disolución de la orden en 1783, el monasterio se utilizó temporalmente como hospital militar y después como sede del condado de Bratislava. Entre 1844 y 1847 fue ampliado y reformado en estilo neoclásico bajo la dirección de Ignác Feigler. En la fachada principal permanecen el año 1848 y el escudo de la familia Pálffy. Aquí se aprobó en 1992 la Declaración de Soberanía de la República Eslovaca."
+        },
+        {
+          "id": "fact_007",
+          "title": "Iglesia capuchina de San Esteban: un convento fundado durante los años de la peste",
+          "text": "Los capuchinos llegaron a Bratislava en 1676 y al principio ejercieron su labor en la capilla de Santa Catalina. La primera piedra del nuevo convento se colocó en diciembre de 1708 y la iglesia de San Esteban de Hungría se terminó y consagró en 1717. Durante la epidemia de peste de 1712–1713, los frailes atendieron a los enfermos y dos de ellos murieron mientras los cuidaban. Más tarde fue necesario reforzar la estructura porque los cimientos cedían en el terreno pantanoso. El edificio actual conserva así huellas de varias etapas constructivas."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cementerio de la Puerta de la Cabra: Bahýľ, Viest y Bella en el antiguo cementerio evangélico",
+          "text": "El cementerio evangélico de la Puerta de la Cabra se fundó en 1783 en antiguos viñedos y jardines entre las calles Palisády, Šulekova y Bradlianska. Se realizaron enterramientos hasta mediados del siglo XX; hoy es monumento cultural nacional y conserva un ambiente de parque singular. Aquí descansan el compositor Ján Levoslav Bella, el general Rudolf Viest y el inventor Ján Bahýľ, conocido por sus diseños de máquinas voladoras. El cementerio documenta la historia de la comunidad evangélica y la vida cultural, científica y militar de la ciudad."
+        },
+        {
+          "id": "fact_009",
+          "title": "Palacio Georgievits – Casa de la Música: una cantante de ópera, la escultura Cantus y una escuela musical",
+          "text": "El mariscal de campo Georg Georgievits de Apadia mandó construir el palacio después de 1890 como residencia urbana. El proyecto fue elaborado por Ignác Feigler hijo a partir de una propuesta de un arquitecto vienés; el palacio tenía un jardín en terrazas que antiguamente llegaba hasta Palisády. La familia Trebitsch lo compró en 1912. Oľga Trebitschová, cantante de ópera y esposa del financiero Dionýz Trebitsch, dejó una importante huella musical en el edificio. Hacia 1921, Alojz Rigele creó en su memoria la escultura y fuente de mármol Cantus. Hoy alberga la escuela artística más antigua de Eslovaquia, la ZUŠ Miloša Ruppeldta, fundada en 1919, y, tras la reforma de 2024, la Casa de la Música con salas de conciertos."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Porte et tour Saint-Michel, entrée nord du centre historique de Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Porte Saint-Michel : la seule porte médiévale de Bratislava encore debout",
+          "text": "La porte Saint-Michel est la seule des quatre portes médiévales de Bratislava à avoir été conservée. Ses origines remontent au XIVe siècle ; la tour fut profondément remaniée à l’époque baroque et prit surtout au XVIIIe siècle son apparence actuelle. Une statue de l’archange Michel combattant un dragon se dresse au-dessus de la porte. La tour abrite aujourd’hui une exposition sur les fortifications de la ville et sa galerie offre une vue sur les toits de la vieille ville."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les remparts : un vestige des fortifications médiévales sous la cathédrale Saint-Martin",
+          "text": "À partir du XIIIe siècle, des remparts de pierre, un fossé et plusieurs portes protégeaient la Pressbourg médiévale. À la fin du XVIIIe siècle, Marie-Thérèse fit démolir la majeure partie des fortifications, combler le fossé et relier la ville à ses faubourgs. Un long tronçon subsiste sous la cathédrale Saint-Martin. Découvert lors de la construction de la voie d’accès au pont SNP, il fut restauré et ouvert aux piétons. La tour Bax fait également partie de cette ligne conservée."
+        },
+        {
+          "id": "fact_003",
+          "title": "La maison la plus étroite et le kilomètre zéro : de petites curiosités près de la porte Saint-Michel",
+          "text": "Tout près de la porte Saint-Michel, une maison de la rue Baštová possède une façade d’à peine 1,3 mètre de large. Elle compte parmi les maisons les plus étroites de Bratislava et montre comment le bâti historique s’adaptait à l’espace restreint de l’ancien fossé. Non loin de là, un anneau métallique incrusté dans le pavage marque le kilomètre zéro et indique les distances entre Bratislava et plusieurs villes du monde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le couvent des Clarisses : un ensemble gothique avec une tour sans fondations propres",
+          "text": "Le complexe des Clarisses fut créé au XIIIe siècle sur les fondations d’un ancien monastère cistercien. L’ancienne église de l’Exaltation de la Sainte-Croix possède une tour pentagonale exceptionnelle, sans fondations propres, qui repose sur l’angle de la nef : une tour dite suspendue. Après la suppression de l’ordre en 1782, le couvent servit notamment d’académie de droit et de lycée ; l’église fut désaffectée en 1913. Elle est aujourd’hui une salle de concert, tandis que le couvent abrite la Bibliothèque universitaire, qui conserve aussi la collection Bašagić de manuscrits islamiques inscrite au programme Mémoire du monde de l’UNESCO."
+        },
+        {
+          "id": "fact_005",
+          "title": "Église des Trinitaires : la coupole baroque illusionniste de Galli-Bibiena",
+          "text": "L’église Saint-Jean-de-Matha et Saint-Félix-de-Valois fut construite pour l’ordre des Trinitaires dans la première moitié du XVIIIe siècle. Son architecture s’inspire de l’église Saint-Pierre de Vienne. Son élément le plus remarquable est la coupole peinte en trompe-l’œil, qui donne l’impression d’un espace beaucoup plus élevé. Elle est liée au scénographe bolonais Antonio Galli-Bibiena et compte parmi les intérieurs baroques les plus remarquables de Bratislava."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bâtiment historique du Conseil national : du monastère trinitaire à la maison du comté",
+          "text": "Le bâtiment de la place Župné faisait partie d’un monastère trinitaire construit au début du XVIIIe siècle. Après la dissolution de l’ordre en 1783, le monastère servit temporairement d’hôpital militaire, puis de siège du comté de Bratislava. Entre 1844 et 1847, il fut agrandi et remanié dans le style néoclassique sous la direction d’Ignác Feigler. L’année 1848 et les armoiries de la famille Pálffy sont encore visibles sur la façade principale. La Déclaration de souveraineté de la République slovaque y fut adoptée en 1992."
+        },
+        {
+          "id": "fact_007",
+          "title": "Église capucine Saint-Étienne : un couvent fondé pendant les années de peste",
+          "text": "Les Capucins arrivèrent à Bratislava en 1676 et exercèrent d’abord leur ministère dans la chapelle Sainte-Catherine. La première pierre de leur nouveau couvent fut posée en décembre 1708 ; l’église Saint-Étienne de Hongrie fut achevée et consacrée en 1717. Pendant l’épidémie de peste de 1712–1713, les frères soignèrent les malades et deux d’entre eux moururent à leur service. L’église dut ensuite être consolidée, car ses fondations s’affaissaient dans le sol marécageux. L’édifice actuel conserve donc les traces de plusieurs phases de construction."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cimetière de la porte de la Chèvre : Bahýľ, Viest et Bella dans l’ancien cimetière évangélique",
+          "text": "Le cimetière évangélique de la porte de la Chèvre fut fondé en 1783 sur d’anciens terrains de vignes et de jardins entre les rues Palisády, Šulekova et Bradlianska. Les inhumations se poursuivirent jusqu’au milieu du XXe siècle ; aujourd’hui, le lieu est un monument culturel national à l’atmosphère de parc. Le compositeur Ján Levoslav Bella, le général Rudolf Viest et l’inventeur Ján Bahýľ, connu pour ses machines volantes, y reposent. Le cimetière témoigne de l’histoire de la communauté évangélique ainsi que de la vie culturelle, scientifique et militaire de la ville."
+        },
+        {
+          "id": "fact_009",
+          "title": "Palais Georgievits – Maison de la musique : une cantatrice, la sculpture Cantus et une école de musique",
+          "text": "Le maréchal Georg Georgievits de Apadia fit construire le palais après 1890 comme résidence citadine. Le projet fut élaboré par Ignác Feigler fils d’après une proposition d’un architecte viennois ; le palais possédait un jardin en terrasses qui s’étendait autrefois jusqu’à Palisády. La famille Trebitsch l’acheta en 1912. Oľga Trebitschová, cantatrice et épouse du financier Dionýz Trebitsch, marqua l’histoire musicale du bâtiment. Vers 1921, Alojz Rigele créa en sa mémoire la sculpture-fontaine en marbre Cantus. Le palais abrite aujourd’hui la plus ancienne école artistique de Slovaquie, la ZUŠ Miloša Ruppeldta fondée en 1919, ainsi que la Maison de la musique et ses salles de concert après la rénovation de 2024."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Porta e torre di San Michele, ingresso settentrionale al centro storico di Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Porta di San Michele: l’unica porta medievale di Bratislava ancora conservata",
+          "text": "La Porta di San Michele è l’unica delle quattro porte medievali di Bratislava giunta fino a noi. Le sue origini risalgono al XIV secolo; la torre fu poi profondamente rimaneggiata in epoca barocca e assunse soprattutto nel XVIII secolo l’aspetto attuale. Sopra la porta si trova la statua dell’arcangelo Michele che combatte un drago. Oggi la torre ospita un’esposizione sulle fortificazioni cittadine e dalla galleria panoramica si osservano i tetti della Città Vecchia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le mura cittadine: un tratto conservato delle fortificazioni medievali sotto la cattedrale di San Martino",
+          "text": "Dal XIII secolo mura di pietra, un fossato e diverse porte proteggevano la Pressburg medievale. Alla fine del XVIII secolo Maria Teresa fece demolire gran parte delle fortificazioni, colmare il fossato e unire la città ai sobborghi. Sotto la cattedrale di San Martino è rimasto un lungo tratto di mura, scoperto durante la costruzione della strada di accesso al Ponte SNP e successivamente restaurato per i pedoni. Anche la torre Bax fa parte della linea conservata."
+        },
+        {
+          "id": "fact_003",
+          "title": "La casa più stretta e il chilometro zero: piccole curiosità vicino alla Porta di San Michele",
+          "text": "Molto vicino alla Porta di San Michele, una casa in via Baštová ha una facciata larga appena 1,3 metri. È tra le case più strette di Bratislava e mostra come gli edifici storici si adattassero allo spazio ristretto dell’antico fossato cittadino. Poco lontano, un anello metallico inserito nella pavimentazione segna il chilometro zero e indica le distanze da Bratislava ad alcune città del mondo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il convento delle Clarisse: un complesso gotico con una torre senza fondamenta proprie",
+          "text": "Il complesso delle Clarisse nacque nel XIII secolo sulle fondamenta di un antico monastero cistercense. L’ex chiesa dell’Esaltazione della Santa Croce possiede una singolare torre pentagonale priva di fondamenta proprie, appoggiata all’angolo della navata: una cosiddetta torre sospesa. Dopo la soppressione dell’ordine nel 1782, il convento fu utilizzato anche come accademia di diritto e ginnasio; la chiesa fu sconsacrata nel 1913. Oggi è una sala da concerto, mentre il convento ospita la Biblioteca universitaria, che conserva anche la raccolta Bašagić di manoscritti islamici inserita nel programma UNESCO Memoria del mondo."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chiesa trinitaria: la cupola barocca illusionistica di Galli-Bibiena",
+          "text": "La chiesa di San Giovanni di Matha e San Felice di Valois fu costruita per l’ordine trinitario nella prima metà del XVIII secolo. La sua architettura si ispira alla chiesa di San Pietro a Vienna. L’elemento più sorprendente è la cupola dipinta illusionistica, che crea l’impressione di uno spazio molto più alto. È legata all’ambiente dello scenografo bolognese Antonio Galli-Bibiena ed è uno degli interni barocchi più notevoli di Bratislava."
+        },
+        {
+          "id": "fact_006",
+          "title": "Edificio storico del Consiglio nazionale: da monastero trinitario a casa della contea",
+          "text": "L’edificio in piazza Župné nacque come parte di un monastero trinitario all’inizio del XVIII secolo. Dopo la soppressione dell’ordine nel 1783, il monastero fu usato temporaneamente come ospedale militare e in seguito come sede della contea di Bratislava. Tra il 1844 e il 1847 fu ampliato e trasformato in stile neoclassico sotto la direzione di Ignác Feigler. Sulla facciata principale restano l’anno 1848 e lo stemma della famiglia Pálffy. Qui fu adottata nel 1992 la Dichiarazione di sovranità della Repubblica Slovacca."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chiesa cappuccina di Santo Stefano: un convento fondato negli anni della peste",
+          "text": "I cappuccini arrivarono a Bratislava nel 1676 e inizialmente operarono nella cappella di Santa Caterina. La prima pietra del nuovo convento fu posata nel dicembre 1708; la chiesa di Santo Stefano d’Ungheria fu completata e consacrata nel 1717. Durante l’epidemia di peste del 1712–1713 i frati assistettero i malati e due di loro morirono mentre li curavano. In seguito la chiesa dovette essere consolidata perché le fondamenta cedevano nel terreno paludoso. L’edificio attuale conserva quindi le tracce di diverse fasi costruttive."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cimitero della Porta della Capra: Bahýľ, Viest e Bella nell’antico cimitero evangelico",
+          "text": "Il cimitero evangelico della Porta della Capra fu fondato nel 1783 su ex vigneti e giardini tra le vie Palisády, Šulekova e Bradlianska. Le sepolture continuarono fino alla metà del XX secolo; oggi è un monumento culturale nazionale con un’atmosfera simile a un parco. Vi riposano il compositore Ján Levoslav Bella, il generale Rudolf Viest e l’inventore Ján Bahýľ, noto per i suoi progetti di macchine volanti. Il cimitero testimonia la storia della comunità evangelica e la vita culturale, scientifica e militare della città."
+        },
+        {
+          "id": "fact_009",
+          "title": "Palazzo Georgievits – Casa della musica: una cantante lirica, la scultura Cantus e una scuola musicale",
+          "text": "Il feldmaresciallo Georg Georgievits de Apadia fece costruire il palazzo dopo il 1890 come residenza cittadina. Il progetto fu elaborato da Ignác Feigler Jr. sulla base di una proposta di un architetto viennese; il palazzo aveva un giardino terrazzato che un tempo arrivava fino a Palisády. Nel 1912 fu acquistato dalla famiglia Trebitsch. Oľga Trebitschová, cantante lirica e moglie del finanziere Dionýz Trebitsch, lasciò un’impronta musicale nell’edificio. Intorno al 1921 Alojz Rigele realizzò in sua memoria la scultura-fontana in marmo Cantus. Oggi il palazzo ospita la più antica scuola artistica di base della Slovacchia, la ZUŠ Miloša Ruppeldta fondata nel 1919, e dopo il restauro del 2024 la Casa della musica con sale da concerto."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Michielspoort en -toren, noordelijke toegang tot het historische centrum van Bratislava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Michielspoort: de enige bewaard gebleven middeleeuwse stadspoort van Bratislava",
+          "text": "De Michielspoort is de enige van de vier middeleeuwse stadspoorten van Bratislava die bewaard is gebleven. De oorsprong gaat terug tot de 14e eeuw; de toren werd later ingrijpend in barokstijl verbouwd en kreeg vooral in de 18e eeuw zijn huidige uiterlijk. Boven de poort staat een beeld van de aartsengel Michaël die met een draak vecht. De toren huisvest nu een tentoonstelling over de stadsverdediging; vanaf de galerij is er uitzicht over de daken van de Oude Stad."
+        },
+        {
+          "id": "fact_002",
+          "title": "De stadsmuren: een bewaard gebleven deel van de middeleeuwse verdedigingswerken onder de Sint-Martinuskathedraal",
+          "text": "Vanaf de 13e eeuw beschermden stenen muren, een gracht en verschillende poorten het middeleeuwse Pressburg. Aan het einde van de 18e eeuw liet Maria Theresia het grootste deel van de verdedigingswerken afbreken, de gracht dempen en de stad met haar voorsteden verbinden. Onder de Sint-Martinuskathedraal bleef een lang stuk muur bewaard. Het werd ontdekt bij de aanleg van de toegangsweg naar de SNP-brug en later gerestaureerd voor voetgangers. Ook de Bax-toren maakt deel uit van deze bewaarde lijn."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het smalste huis en de kilometermarkering: kleine bijzonderheden bij de Michielspoort",
+          "text": "Vlak bij de Michielspoort staat aan de Baštová-straat een huis met een gevel van slechts ongeveer 1,3 meter breed. Het behoort tot de smalste huizen van Bratislava en laat zien hoe historische bebouwing zich aanpaste aan de beperkte ruimte van de voormalige stadsgracht. Niet ver daarvandaan markeert een metalen ring in het plaveisel het nulpunt en toont hij de afstanden van Bratislava tot verschillende wereldsteden."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het Clarissenklooster: een gotisch complex met een toren zonder eigen fundament",
+          "text": "Het Clarissencomplex ontstond in de 13e eeuw op de fundamenten van een ouder cisterciënzerklooster. De voormalige Kerk van de Verheffing van het Heilig Kruis heeft een bijzondere vijfhoekige toren zonder eigen fundamenten, die op de hoek van het schip rust: een zogenoemde hangende toren. Na de opheffing van de orde in 1782 diende het klooster onder meer als rechtenacademie en gymnasium; de kerk werd in 1913 ontwijd. Tegenwoordig is het een concertzaal en huisvest het klooster de Universiteitsbibliotheek, die ook de Bašagić-collectie islamitische handschriften bewaart, opgenomen in UNESCO’s Memory of the World-programma."
+        },
+        {
+          "id": "fact_005",
+          "title": "Trinitariërskerk: de barokke illusionistische koepel van Galli-Bibiena",
+          "text": "De kerk van Sint-Jan van Matha en Sint-Felix van Valois werd in de eerste helft van de 18e eeuw gebouwd voor de trinitariërs. De architectuur is geïnspireerd op de Sint-Pieterskerk in Wenen. Het opvallendste element is de geschilderde illusionistische koepel, die een veel hogere ruimte suggereert. Het werk behoort tot de kring van de Bolognese toneelontwerper Antonio Galli-Bibiena en is een van de opmerkelijkste barokinterieurs van Bratislava."
+        },
+        {
+          "id": "fact_006",
+          "title": "Historisch gebouw van de Nationale Raad: van trinitariërsklooster tot provinciehuis",
+          "text": "Het gebouw aan het Župné-plein ontstond als onderdeel van een trinitariërsklooster aan het begin van de 18e eeuw. Na de opheffing van de orde in 1783 werd het klooster tijdelijk een militair hospitaal en later het provinciehuis van Bratislava. Tussen 1844 en 1847 werd het uitgebreid en in neoclassicistische stijl verbouwd onder leiding van Ignác Feigler. Op de voorgevel zijn het jaartal 1848 en het wapen van de familie Pálffy behouden gebleven. Hier werd in 1992 de Verklaring van Soevereiniteit van de Slowaakse Republiek aangenomen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapucijnenkerk van Sint-Stefanus: een klooster gesticht in de pestjaren",
+          "text": "De kapucijnen kwamen in 1676 naar Bratislava en werkten aanvankelijk vanuit de Sint-Catharinakapel. De eerste steen van hun nieuwe klooster werd in december 1708 gelegd; de kerk van Sint-Stefanus van Hongarije werd in 1717 voltooid en ingewijd. Tijdens de pestepidemie van 1712–1713 verzorgden de broeders zieken; twee van hen stierven daarbij. Later moest de kerk bouwkundig worden versterkt omdat de funderingen in de drassige bodem verzakten. Het huidige gebouw toont daarom verschillende bouwfasen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Begraafplaats bij de Geitenpoort: Bahýľ, Viest en Bella op de oude evangelische begraafplaats",
+          "text": "De evangelische begraafplaats bij de Geitenpoort werd in 1783 aangelegd op voormalige wijngaarden en tuinen tussen de straten Palisády, Šulekova en Bradlianska. Er werd begraven tot het midden van de 20e eeuw; tegenwoordig is het een nationaal cultureel monument met een bijzondere parkachtige sfeer. Hier liggen componist Ján Levoslav Bella, generaal Rudolf Viest en uitvinder Ján Bahýľ, bekend om zijn ontwerpen van vliegmachines. De begraafplaats getuigt van de geschiedenis van de evangelische gemeenschap en van het culturele, wetenschappelijke en militaire leven van de stad."
+        },
+        {
+          "id": "fact_009",
+          "title": "Georgievits-paleis – Huis van de Muziek: een operazangeres, het Cantus-beeld en een muziekschool",
+          "text": "Veldmaarschalk Georg Georgievits de Apadia liet het paleis na 1890 als stadspaleis bouwen. Het ontwerp werd uitgewerkt door Ignác Feigler jr. op basis van een voorstel van een Weense architect; het paleis had een terrassentuin die vroeger tot aan Palisády reikte. De familie Trebitsch kocht het in 1912. Oľga Trebitschová, operazangeres en echtgenote van financier Dionýz Trebitsch, gaf het gebouw een sterke muzikale geschiedenis. Rond 1921 maakte Alojz Rigele ter nagedachtenis aan haar het marmeren beeld en de fontein Cantus. Tegenwoordig huisvest het paleis de oudste basisschool voor kunstonderwijs in Slowakije, de in 1919 opgerichte ZUŠ Miloša Ruppeldta, en na de renovatie van 2024 ook het Huis van de Muziek met concertzalen."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
