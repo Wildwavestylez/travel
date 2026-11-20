@@ -18,18 +18,13 @@ The production table is `public.italy_cap_records` in the Neon project `Europe E
 - `record`: the complete Italian CAP JSON record stored as JSONB;
 - `created_at` and `updated_at`: database timestamps.
 
-The database `workflow_status` column uses exactly three values: `placeholder`, `validated` and `published`, with `placeholder` as its default. It mirrors the JSONB root `record.status`; it is not a separate lifecycle. Legacy `inventory` rows were normalised to `placeholder` without changing the JSONB record. The JSONB lifecycle is constrained by `data/italy/schema.json` to the same three values.
+The database `workflow_status` column is the operational lifecycle field and is separate from the JSONB record. Its established values are `placeholder`, `validated` and `published`, with `placeholder` as the default. Do not add `status` or `data_version` to the JSONB record: neither is part of the shared canonical Czechia/Italy JSON structure.
 
-The JSONB `record` must conform to `data/italy/schema.json`. Its root `status` and `data_version` are content-level metadata and are distinct from the database column `workflow_status`. Do not treat these three values as interchangeable.
+The JSONB `record` must conform to `data/italy/schema.json`, whose complete technical structure is kept 1:1 with `data/czechia/schema.json`. Country-specific Italian meaning belongs in values and descriptions, not additional JSON fields or enums.
 
 Neon is authoritative for all Italian production reads and writes. GitHub contains the versioned schema, standards, prompts and supporting project files; it is not a second production database. Do not write Italian production records to Supabase, local JSON files, GitHub data files or another database as an alternative source of truth.
 
-EuropeExplorer reads Italian production content from Neon using read-only access. Do not introduce write operations into the Explorer read path or expose database credentials in client code. The application's Italian publication gate requires all three conditions simultaneously:
-- database `workflow_status = 'published'`;
-- JSONB root `record.status = 'published'`;
-- JSONB root `record.data_version = 5`.
-
-A record that fails any one of these conditions is not published for Explorer display. Do not weaken or bypass this gate in country data, prompts or application code.
+EuropeExplorer reads Italian production content from Neon using read-only access. Do not introduce write operations into the Explorer read path or expose database credentials in client code. The publication gate uses the database-level `workflow_status = 'published'`; it must not depend on non-schema root JSON fields.
 
 
 Preserve the established TRAVEL / EuropeExplorer architecture used for Czechia and Germany wherever the underlying concept is shared. Adapt country-specific postal, geographic, administrative and source details to Italy. Do not mechanically copy Czech or German administrative semantics.
@@ -239,7 +234,7 @@ Use authoritative specialist and local sources where necessary, checking that ea
 
 ### Evidence rules
 
-- Attach source IDs to the facts they support and define those sources in the record's top-level `sources` collection, following the final schema.
+- Put the exact source URLs supporting each fact in `facts[].sources`; each URL must match a `url` value in the top-level `sources` collection. Each top-level source object contains exactly `title`, `url` and `type`. Do not invent source IDs or additional source-object properties.
 - Evidence for a fact's location is separate from evidence for the historical or cultural claim and must support the geographic point.
 - Keep source dates, release identifiers and access dates where the schema and Content Standard require them.
 - Distinguish official registers, open datasets, commercial datasets, third-party directories and editorial sources.
@@ -276,15 +271,15 @@ This profile establishes the geographic requirements. The exact database tables,
 
 The Italian record lifecycle must preserve the separation between content validation, audit approval and publication.
 
-- A newly reworked record remains on the validated V1 track: JSONB root `status = 'validated'`, JSONB root `data_version = 1`, and database `workflow_status = 'validated'`.
-- An audit result of `PASS` confirms audit acceptance only. It does not itself publish the record or change its data version.
-- Promotion to V5 and publication is permitted only after a successful final audit and the user's explicit publication instruction for the defined CAP scope.
-- Publication must update the database workflow state and the JSONB root metadata together, without unintentionally changing the content or unrelated records.
-- After a publication write, read the exact records back from Neon and verify the requested CAP scope, row count and all three publication-gate values. A successful write response alone is not proof of successful publication.
+- A newly reworked record is saved with database `workflow_status = 'validated'` after the complete JSON record passes the shared schema and content validation.
+- An audit result of `PASS` confirms audit acceptance only. It does not itself publish the record.
+- Publication is permitted only after a successful final audit and the user's explicit publication instruction for the defined CAP scope.
+- Publication changes the database-level `workflow_status` to `published`; it does not add or modify root-level JSON `status` or `data_version` fields.
+- After a publication write, read the exact records back from Neon and verify the requested CAP scope, row count, full JSON records and database workflow state. A successful write response alone is not proof of successful publication.
 - Do not mark a record published merely because its content looks complete, because an audit passed, or because a neighbouring record was published.
 - Read-only locking is a separate operation and must never be inferred from publication.
 
-The numeric `data_version` identifies the content-standard version consumed by the application. V5 is the current Explorer publication target; do not invent intermediate versions or change version numbering without a separately approved project-wide decision. Keep the database workflow state and JSONB content metadata synchronised according to the Italian operational prompts.
+The content record itself has no country-specific version field. Keep versioning and workflow metadata outside the shared JSON structure, in the established database/application layer.
 
 ## Language layer
 
@@ -311,7 +306,7 @@ The Italian schema and Content Standard must settle only the practical details n
 
 1. Which Italian administrative values populate the shared region, county and city concepts.
 2. How special Italian administrative forms are displayed without forcing users to understand their legal complexity.
-3. How the legacy `access_point` requirement is handled consistently with the existing application.
+3. How the nullable legacy `access_point` field is used consistently with the shared Czechia JSON contract and existing application.
 4. The controlled Italian fact-location vocabulary, while preserving the shared map-category system.
 
 Do not delay content production over rare historical boundary cases or a comprehensive CAP polygon model. The sequence needs a reliable current list of CAPs; each CAP then becomes a content layer for map points, interesting places and stories. Keep this profile aligned with the current Italian schema, Content Standard and operational prompts as those documents evolve.
