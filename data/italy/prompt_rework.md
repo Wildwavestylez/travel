@@ -122,7 +122,7 @@ CAP is a postal identifier and a project content/indexing layer. It is not autom
 
 - Every fact must have exactly one primary CAP record.
 - Verify the actual physical location of the subject and its defensible geographic relationship to the CAP.
-- Research across the full CAP area, not only the post-office Comune.
+- Research across the full CAP area and all associated Comuni.
 - Do not assign a fact merely because its source mentions a Comune, Region, tourist area or CAP in a postal/correspondence address.
 - Do not assign an external place to the current CAP merely because it is nearby or useful as context.
 - A large or linear feature may extend across several CAPs. Choose one defensible primary CAP using its principal location, main section, representative point, main entrance, verified address or strongest local association.
@@ -208,7 +208,7 @@ Use `accuracy = approximate` for a general locality-centre fallback, or the most
 
 Every record requires one `representative_place` and its matching `representative_point`. Choose a specific, identifiable place or geographic feature that genuinely characterises the CAP area. It is a record-level map anchor, not the serving post office by definition, not the centroid of a CAP polygon and not the location of every fact.
 
-The representative place may be a settlement, historic centre, urban quarter, landscape, heritage site, industrial area, port, island locality or another genuinely representative feature. Do not choose a famous attraction solely because it is famous. Do not list multiple alternatives.
+The representative place may be a settlement, historic centre, urban quarter, landscape, heritage site, industrial area, port, island locality or another genuinely representative feature of the overall CAP area. It does not need to be in any particular Comune. Do not choose a famous attraction solely because it is famous. Do not list multiple alternatives.
 
 The `access_point` is a separate legacy TRAVEL navigation point used for practical vehicle approach/navigation. It is not the representative point, post office by definition, fact location or CAP boundary.
 
@@ -605,7 +605,7 @@ A CAP is complete only when all applicable checks below pass.
 
 ### Full geographic coverage
 
-- [ ] The full CAP research area has been investigated, not just the post-office Comune.
+- [ ] The full CAP research area and all associated Comuni have been investigated.
 - [ ] Relevant served Comuni, frazioni, villages, località and other named settlements have been identified.
 - [ ] Meaningful settlements can be represented at their own geographic locations where supported.
 - [ ] Relevant verified attractions and stories from across the CAP area have been considered.
