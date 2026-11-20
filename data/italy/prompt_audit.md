@@ -66,20 +66,22 @@ Jakmile jsou hlavní dominanty a zásadní příběhy auditovaného území pokr
 ### B. CAP, pošta a správní údaje
 
 Ověř:
-- správnost a aktuálnost pětimístného CAP;
-- skutečnou poštu, která daný CAP obsluhuje, a její fyzickou adresu;
-- `city` podle závazného pravidla: přesně jedno Comune, ve kterém fyzicky stojí obsluhující pošta;
-- `county` podle aktuální oficiální mezilehlé územní jednotky tohoto Comune;
-- `state` podle aktuální Regione tohoto Comune;
-- `district` pouze jako doloženou podměstskou lokalitu uvnitř Comune obsluhující pošty, jinak null.
+- správnost a aktuálnost pětimístného CAP podle aktuálního oficiálního přiřazení Poste Italiane, včetně relevantních změn a jejich data účinnosti;
+- poštovní přiřazení CAP a dostupné oficiální údaje o poštách či pobočkách, které obsluhují danou oblast; fyzickou adresu každé ověřené pobočky eviduj jako údaj o pobočce, nikoli jako definici pole `city`;
+- `city` jako seznam **všech aktuálních oficiálních Comuni přiřazených k danému CAP**, v jednom řetězci oddělených čárkami, přesně podle `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`;
+- `county` jako seznam všech aktuálních oficiálních mezilehlých územních jednotek, do nichž příslušná Comuni náleží; více hodnot odděl čárkami;
+- `state` jako seznam všech aktuálních Regione příslušných k těmto Comuni; více hodnot odděl čárkami;
+- `district` pouze jako doloženou relevantní podměstskou lokalitu podle pravidel `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`, jinak null.
 
-**Nikdy nepřepisuj `city` na největší, nejznámější nebo turisticky nejvýznamnější Comune.** Nikdy do něj nevkládej seznam obcí nebo osad. Pokud není skutečná obsluhující pošta spolehlivě identifikována, označ případ `REVIEW REQUIRED`; nehádej podle blízkosti.
+**Pole `city` nikdy neurčuj podle polohy obsluhující pošty.** Pošta a její adresa jsou samostatné ověřované poštovní údaje; nejsou náhradou za oficiální seznam Comuni přiřazených k CAP. Nikdy nevybírej pouze jedno „hlavní“, největší, nejznámější, reprezentativní nebo turisticky nejvýznamnější Comune, pokud je CAP oficiálně přiřazen více Comuni. Nevynechávej Comune jen proto, že v něm není nalezena poštovní pobočka. Naopak do `city` nepřidávej okolní Comune nebo osadu bez doloženého přiřazení k danému CAP.
 
-Rozlišuj právní typ mezilehlé jednotky: Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale nebo jiná aktuální oficiální forma. Nepřepisuj všechny typy na Provincia. Použij aktuální ISTAT klasifikaci a názvy, nikoli zastaralé správní seznamy.
+Pro ověření úplného seznamu Comuni používej aktuální oficiální CAP-to-locality podklady Poste Italiane a podle potřeby je porovnej s aktuálními administrativními údaji ISTAT a Regione. Rozlišuj seznam obcí přiřazených ke CAP od seznamu poboček, poštovních služeb, doručovacích adres a názvů frazioni. Seznam poboček nebo adresa jedné provozovny samy o sobě nedokládají úplný rozsah CAP. Pokud úplné přiřazení Comuni nelze spolehlivě doložit, označ konkrétní CAP `REVIEW REQUIRED`; nevymýšlej ani neodvozuj seznam z nejbližší pošty.
+
+Rozlišuj právní typ mezilehlé jednotky: Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale nebo jiná aktuální oficiální forma. Nepřepisuj všechny typy na Provincia. Použij aktuální ISTAT klasifikaci a názvy, nikoli zastaralé správní seznamy. Pokud Comuni jednoho CAP spadají do více mezilehlých jednotek nebo Regioni, uveď všechny doložené příslušné názvy.
 
 ### C. Plný geografický rozsah CAP a přiřazení faktů
 
-`city` je organizační kotva podle obsluhující pošty, nikoli hranice rešerše ani tvrzení, že celý CAP leží v jednom Comune.
+`city` je úplný seznam všech oficiálních Comuni přiřazených k CAP podle `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`; není to organizační kotva podle obsluhující pošty ani hranice rešerše.
 
 Zkontroluj, zda:
 - záznam nezaměňuje Comune obsluhující pošty s celým územím CAP;
