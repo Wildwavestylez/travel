@@ -1,4 +1,500 @@
 {
   "postcode": "81104",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Staré Mesto",
+  "county": "Bratislava I",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Horský park – historický lesopark na severozápadnom okraji Starého Mesta",
+  "representative_point": {
+    "lat": 48.1562433,
+    "lon": 17.0884427
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Horský park: městský les, který proměnil starý Študentský les",
+      "text": "Horský park vznikl ve druhé polovině 19. století úpravou původního lesního porostu známého jako Študentský les. Významně se o jeho vznik zasadil bratislavský měšťanosta Henrich von Justi, který podporoval také činnost Bratislavského okrašlovacího spolku. Rozšíření Hlboké cesty kolem roku 1870 zpřístupnilo svahy a umožnilo rekreační využití nového parku. Jeho přirozeným středem se stal Justiho památník, který město nechalo postavit roku 1909 a jehož autorem byl sochař Alojz Rigele. Horský park si uchoval charakter lesního prostředí s původními i později vysazenými dřevinami. Dnes je zároveň chráněným areálem s významnou ekologickou, krajinářskou a rekreační funkcí; jeho správa musí vyvažovat ochranu starého porostu s bezpečným pohybem návštěvníků.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "map_category": "park_garden",
+      "sources": [
+        "https://www.bratislava.sk/zivotne-prostredie-a-vystavba/zelen/udrzba-a-tvorba-zelene/parky-a-zahrady/horsky-park",
+        "https://muop.bratislava.sk/assets/File.ashx?id_dokumenty=4205&id_org=600176"
+      ],
+      "location": {
+        "name": "Horský park – reprezentativní bod parku",
+        "address": "Búdková, Bratislava",
+        "lat": 48.1562433,
+        "lon": 17.0884427,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://www.naspark.sk/sk/park/37-horsky-park-v-bratislave"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Bratislavská Kalvárie: barokní poutní areál, který téměř zmizel",
+      "text": "Bratislavská Kalvárie patřila k raným barokním křížovým cestám v tehdejším Uherském království. Její základní kámen byl položen 27. května 1694 a areál byl dokončen roku 1725. Původní kompozici tvořilo sedm hlavních kalvárských kaplí a dvě přípravné kaple, které vedly poutníky po svahu k vrcholné scéně Ukřižování a dále k Božímu hrobu. V padesátých letech 20. století byl komplex postupně zničen; zásadní zásah přinesla také výstavba Pražské ulice, při níž byla část svahu odtěžena a zanikly další kaple. Do současnosti se zachovala jen část původní cesty a torzo kaple Ecce Homo. Obnovovací práce v posledních desetiletích vrátily místu část jeho duchovní funkce: obnovila se terasa u kříže a jedna z kaplí a podél historické trasy přibyly současné obrazy zastavení. Kalvárie tak připomíná nejen barokní poutní kulturu, ale i ztrátu městského dědictví ve 20. století.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.bratislavskakalvaria.sk/historia/",
+        "https://www.muop.eu/ix-kapitola-zahrady-parky-a-horarne",
+        "https://www.ozivenepamiatky.sk/projekty/bratislavska-kalvaria/"
+      ],
+      "location": {
+        "name": "Bratislavská Kalvárie – obnovená kaple IV. zastavení",
+        "address": "Kalvársky vrch, Bratislava",
+        "lat": 48.160887,
+        "lon": 17.101534,
+        "type": "pilgrimage_site",
+        "accuracy": "area_representative",
+        "source": "https://www.ozivenepamiatky.sk/projekty/bratislavska-kalvaria/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Hlboká cesta: stará mýtní trasa podél lomů a pramenů",
+      "text": "Hlboká cesta patří k historickým komunikacím na severozápadním okraji staré Bratislavy. Její předchůdce je doložen na konci 15. století; cesta souvisela s vnější městskou celní a mýtní linií a směřovala z města k Lamači a dál na Záhorie. V okolí se těžil kámen využívaný při stavbě cest, hradeb a domů a prameny podél trasy přispívaly k zásobování městského vodovodu. Původně úzký úsek mezi dnešními ulicemi Čapkova a Havlíčkova byl veden jako skalní lesní chodník sevřený strmými svahy. Roku 1870 jej nechal měšťanosta Henrich Justi na podnět Bratislavského okrašlovacího spolku rozšířit. Zlepšený přístup podpořil vznik vilové čtvrti mezi Kalvárií a Horským parkem a otevřel okolní lesopark rekreaci obyvatel. Hlboká cesta je proto nejen dopravní spojnicí, ale také čitelnou stopou toho, jak se skalnatý okraj města proměnil v obytnou a rekreační krajinu.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.muop.eu/ix-kapitola-zahrady-parky-a-horarne",
+        "https://www.pammap.sk/bratislava?miesta=450"
+      ],
+      "location": {
+        "name": "Hlboká cesta – historický úsek",
+        "address": "Hlboká cesta, Bratislava",
+        "lat": 48.15617657935049,
+        "lon": 17.101595409716353,
+        "type": "historic_street",
+        "accuracy": "area_representative",
+        "source": "https://bratislava.oma.sk/u/hlboka-cesta"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Prüger-Wallnerova záhrada: vila, okrasný park a někdejší skleníky",
+      "text": "Prüger-Wallnerova záhrada vznikla na konci 19. století při vile rodiny Prüger-Wallnerovců na severním konci dnešní Havlíčkovy ulice. Členitý svah byl rozdělen na reprezentativní okrasnou zahradu v přírodně-krajinářském stylu a užitkovou část, kde se pěstovaly květiny, ovoce a zelenina. V jižní části stály skleníky a kotelna, která zajišťovala jejich vytápění. Po druhé světové válce zahrada postupně zpustla; původní kompozice se z velké části ztratila a užitková část byla rozdělena na menší zahrádky. Základní historické prvky a část vzrostlé zeleně však přežily. Bratislava začala areál ve spolupráci s partnery obnovovat a dnes zde znovu funguje veřejně přístupná zahrada s obnovenými historickými skleníky, mokřadními prvky a komunitním zázemím. Místo ukazuje, jak vypadaly soukromé měšťanské zahrady v někdejší vilové čtvrti a jak lze jejich zbytky citlivě vracet do městského života.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "park_garden",
+      "sources": [
+        "https://bratislava.sk/zivotne-prostredie-a-vystavba/zelen/udrzba-a-tvorba-zelene/parky-a-zahrady/pr%C3%BCger-wallnerova-zahrada",
+        "https://www.bkis.sk/pekne-miesta/pruger-wallnerova-zahrada/",
+        "https://www.nt.sk/sk/projekt/20-komunitna-zahradka-prugerka"
+      ],
+      "location": {
+        "name": "Prüger-Wallnerova záhrada",
+        "address": "Nekrasovova 1, Bratislava",
+        "lat": 48.15695,
+        "lon": 17.09721,
+        "type": "garden",
+        "accuracy": "area_representative",
+        "source": "https://www.bkis.sk/pekne-miesta/pruger-wallnerova-zahrada/"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Lurdská jaskyňa: mariánská grotta v bývalém kamenolomu",
+      "text": "Lurdská jaskyňa vznikla roku 1892 v opuštěném kamenolomu pod někdejší kaplí Panny Marie Sněžné. Podnět k její úpravě dala bratislavská hraběnka Helena Szapáry a pomohli jí místní obyvatelé; do upravené grotty byla umístěna socha Panny Marie Lurdské. Místo navázalo na starší poutní tradici Kalvárie a na kapli, která stávala nad lomem. Jeho podoba napodobuje známou lurdskou jeskyni ve Francii, ale zároveň využívá konkrétní bratislavskou stopu těžby kamene: prostor, z něhož se dříve získával stavební materiál, se proměnil v drobné poutní místo. Jaskyňa leží při Hlboké cestě v bezprostřední blízkosti kostela Panny Márie Snežnej a připomíná, jak se zde přírodní terén, hospodářské využití svahu a náboženská tradice navzájem propojily.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.minzp.sk/files/aktuality/bulletin_vopz_2018.pdf",
+        "https://www.muop.eu/ix-kapitola-zahrady-parky-a-horarne"
+      ],
+      "location": {
+        "name": "Lurdská jaskyňa",
+        "address": "Vstup z Hlboké cesty, Bratislava",
+        "lat": 48.157215,
+        "lon": 17.099586,
+        "type": "religious_site",
+        "accuracy": "exact",
+        "source": "https://www.minzp.sk/files/aktuality/bulletin_vopz_2018.pdf"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Kostel Panny Márie Snežnej: válečná stavba na místě starší poutní kaple",
+      "text": "Kostel Panny Márie Snežnej na Kalvárii je výraznou sakrální stavbou, která vznikla v letech 1943–1948 na místě starší kaple. Předchůdkyně zasvěcená Panně Marii Sněžné stála v této lokalitě už v první polovině 19. století a navazovala na poutní tradici spojenou s Kalvárií a nedalekou Lurdskou jaskyňou. Nový kostel navrhli architekti Fuchs, Vécsei a Quastler; jeho mohutná železobetonová konstrukce se odlišuje od historických kaplí a vil v okolí. Původně měl také vysokou věž, která byla roku 1958 odstraněna. Název Kalvárie se postupně vžil i pro okolní farní oblast, jejíž farnost byla zřízena roku 1933. Kostel tak spojuje starší mariánské poutní místo s architekturou a náboženským životem Bratislavy 20. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.kalvaria.sk/farnost/kostol",
+        "https://www.bratislavskenoviny.sk/aktuality/stare-mesto/5768-na-mieste-kostola-stala-kedysi-kaplnka",
+        "https://www.palffyhopalac.sk/files/palffy_zahrady.pdf"
+      ],
+      "location": {
+        "name": "Kostol Panny Márie Snežnej",
+        "address": "Gorazdova 6, Bratislava",
+        "lat": 48.15777785248807,
+        "lon": 17.098719645801662,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w28187595"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre – Triedenie a zväzkovanie zásielok, účinné od 01. 01. 2026, príloha 3a: rozsah 811 01–811 09 je priradený k vybranej pošte Bratislava 1; oficiálna stránka Slovenskej pošty uvádza jej fyzickú adresu Námestie SNP 35.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": "Účinnosť od 01. 01. 2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny dokument Slovenskej pošty zaraďuje rozsah 811 01–811 09 k vybranej pošte Bratislava 1. Pobočka Bratislava 1 sa fyzicky nachádza na Námestí SNP 35 v obci Bratislava. Údaj o pošte neurčuje hranice PSČ ani reprezentatívny bod oblasti.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO) je oficiálnym zdrojom adresných bodov. V tomto reworku boli jednotlivé polohy podopreté mestskými a odbornými zdrojmi (MÚOP, Mesto Bratislava, BKIS, Oživené pamiatky, Ministerstvo životného prostredia a mapové záznamy s adresnými údajmi MINV); samostatné výpisy RAGEO neboli pre všetky objekty priamo exportované."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Technické parametre, triedenie a zväzkovanie zásielok (účinné od 1. 1. 2026)",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – pobočka Bratislava 1, Námestie SNP 35",
+      "url": "https://www.posta.sk/clanky/na-vybranych-pobockach-si-zakaznici-vybavia-financne-sluzby-rychlo-a-bez-cakania-v-modernych-kioskoch",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Bratislava – Horský park",
+      "url": "https://www.bratislava.sk/zivotne-prostredie-a-vystavba/zelen/udrzba-a-tvorba-zelene/parky-a-zahrady/horsky-park",
+      "type": "official"
+    },
+    {
+      "title": "Mestský ústav ochrany pamiatok – evidenčný list Horského parku",
+      "url": "https://muop.bratislava.sk/assets/File.ashx?id_dokumenty=4205&id_org=600176",
+      "type": "official"
+    },
+    {
+      "title": "Národná sieť parkov – Horský park v Bratislave, poloha a charakteristika",
+      "url": "https://www.naspark.sk/sk/park/37-horsky-park-v-bratislave",
+      "type": "specialist"
+    },
+    {
+      "title": "OZ Bratislavská Kalvária – história Kalvárie",
+      "url": "https://www.bratislavskakalvaria.sk/historia/",
+      "type": "specialist"
+    },
+    {
+      "title": "Mestský ústav ochrany pamiatok – Hlboká cesta a historické parky",
+      "url": "https://www.muop.eu/ix-kapitola-zahrady-parky-a-horarne",
+      "type": "official"
+    },
+    {
+      "title": "Oživené pamiatky – Bratislavská Kalvária, obnova kaplnky a poloha",
+      "url": "https://www.ozivenepamiatky.sk/projekty/bratislavska-kalvaria/",
+      "type": "specialist"
+    },
+    {
+      "title": "PAMMAP – Hlboká cesta",
+      "url": "https://www.pammap.sk/bratislava?miesta=450",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Bratislava – Prüger-Wallnerova záhrada",
+      "url": "https://bratislava.sk/zivotne-prostredie-a-vystavba/zelen/udrzba-a-tvorba-zelene/parky-a-zahrady/pr%C3%BCger-wallnerova-zahrada",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavské kultúrne a informačné stredisko – Prüger-Wallnerova záhrada, poloha",
+      "url": "https://www.bkis.sk/pekne-miesta/pruger-wallnerova-zahrada/",
+      "type": "official"
+    },
+    {
+      "title": "Národný Trust – komunitná záhradka a historické skleníky Prügerka",
+      "url": "https://www.nt.sk/sk/projekt/20-komunitna-zahradka-prugerka",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo životného prostredia SR – Víkend otvorených parkov a záhrad 2018, Lurdská jaskyňa",
+      "url": "https://www.minzp.sk/files/aktuality/bulletin_vopz_2018.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Farnosť Bratislava – Kalvária – Kostol Panny Márie Snežnej",
+      "url": "https://www.kalvaria.sk/farnost/kostol",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavské noviny – Na mieste kostola stála kedysi kaplnka",
+      "url": "https://www.bratislavskenoviny.sk/aktuality/stare-mesto/5768-na-mieste-kostola-stala-kedysi-kaplnka",
+      "type": "regional"
+    },
+    {
+      "title": "Pálffyho palác – Kalvária v Bratislave, historický vývoj",
+      "url": "https://www.palffyhopalac.sk/files/palffy_zahrady.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "OMA – Panny Márie Snežnej, adresa a poloha (adresné údaje MINV)",
+      "url": "https://poi.oma.sk/w28187595",
+      "type": "specialist"
+    },
+    {
+      "title": "Ministerstvo vnútra SR – Register adries (RAGEO)",
+      "url": "https://rageo.minv.sk/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Horský park – historický lesopark na severozápadním okraji Starého Města",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park: městský les, který proměnil starý Študentský les",
+          "text": "Horský park vznikl ve druhé polovině 19. století úpravou původního lesního porostu známého jako Študentský les. Významně se o jeho vznik zasadil bratislavský měšťanosta Henrich von Justi, který podporoval také činnost Bratislavského okrašlovacího spolku. Rozšíření Hlboké cesty kolem roku 1870 zpřístupnilo svahy a umožnilo rekreační využití nového parku. Jeho přirozeným středem se stal Justiho památník, který město nechalo postavit roku 1909 a jehož autorem byl sochař Alojz Rigele. Horský park si uchoval charakter lesního prostředí s původními i později vysazenými dřevinami. Dnes je zároveň chráněným areálem s významnou ekologickou, krajinářskou a rekreační funkcí; jeho správa musí vyvažovat ochranu starého porostu s bezpečným pohybem návštěvníků."
+        },
+        {
+          "id": "fact_002",
+          "title": "Bratislavská Kalvárie: barokní poutní areál, který téměř zmizel",
+          "text": "Bratislavská Kalvárie patřila k raným barokním křížovým cestám v tehdejším Uherském království. Její základní kámen byl položen 27. května 1694 a areál byl dokončen roku 1725. Původní kompozici tvořilo sedm hlavních kalvárských kaplí a dvě přípravné kaple, které vedly poutníky po svahu k vrcholné scéně Ukřižování a dále k Božímu hrobu. V padesátých letech 20. století byl komplex postupně zničen; zásadní zásah přinesla také výstavba Pražské ulice, při níž byla část svahu odtěžena a zanikly další kaple. Do současnosti se zachovala jen část původní cesty a torzo kaple Ecce Homo. Obnovovací práce v posledních desetiletích vrátily místu část jeho duchovní funkce: obnovila se terasa u kříže a jedna z kaplí a podél historické trasy přibyly současné obrazy zastavení. Kalvárie tak připomíná nejen barokní poutní kulturu, ale i ztrátu městského dědictví ve 20. století."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta: stará mýtní trasa podél lomů a pramenů",
+          "text": "Hlboká cesta patří k historickým komunikacím na severozápadním okraji staré Bratislavy. Její předchůdce je doložen na konci 15. století; cesta souvisela s vnější městskou celní a mýtní linií a směřovala z města k Lamači a dál na Záhorie. V okolí se těžil kámen využívaný při stavbě cest, hradeb a domů a prameny podél trasy přispívaly k zásobování městského vodovodu. Původně úzký úsek mezi dnešními ulicemi Čapkova a Havlíčkova byl veden jako skalní lesní chodník sevřený strmými svahy. Roku 1870 jej nechal měšťanosta Henrich Justi na podnět Bratislavského okrašlovacího spolku rozšířit. Zlepšený přístup podpořil vznik vilové čtvrti mezi Kalvárií a Horským parkem a otevřel okolní lesopark rekreaci obyvatel. Hlboká cesta je proto nejen dopravní spojnicí, ale také čitelnou stopou toho, jak se skalnatý okraj města proměnil v obytnou a rekreační krajinu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Prüger-Wallnerova zahrada: vila, okrasný park a někdejší skleníky",
+          "text": "Prüger-Wallnerova záhrada vznikla na konci 19. století při vile rodiny Prüger-Wallnerovců na severním konci dnešní Havlíčkovy ulice. Členitý svah byl rozdělen na reprezentativní okrasnou zahradu v přírodně-krajinářském stylu a užitkovou část, kde se pěstovaly květiny, ovoce a zelenina. V jižní části stály skleníky a kotelna, která zajišťovala jejich vytápění. Po druhé světové válce zahrada postupně zpustla; původní kompozice se z velké části ztratila a užitková část byla rozdělena na menší zahrádky. Základní historické prvky a část vzrostlé zeleně však přežily. Bratislava začala areál ve spolupráci s partnery obnovovat a dnes zde znovu funguje veřejně přístupná zahrada s obnovenými historickými skleníky, mokřadními prvky a komunitním zázemím. Místo ukazuje, jak vypadaly soukromé měšťanské zahrady v někdejší vilové čtvrti a jak lze jejich zbytky citlivě vracet do městského života."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lurdská jaskyňa: mariánská grotta v bývalém kamenolomu",
+          "text": "Lurdská jaskyňa vznikla roku 1892 v opuštěném kamenolomu pod někdejší kaplí Panny Marie Sněžné. Podnět k její úpravě dala bratislavská hraběnka Helena Szapáry a pomohli jí místní obyvatelé; do upravené grotty byla umístěna socha Panny Marie Lurdské. Místo navázalo na starší poutní tradici Kalvárie a na kapli, která stávala nad lomem. Jeho podoba napodobuje známou lurdskou jeskyni ve Francii, ale zároveň využívá konkrétní bratislavskou stopu těžby kamene: prostor, z něhož se dříve získával stavební materiál, se proměnil v drobné poutní místo. Jaskyňa leží při Hlboké cestě v bezprostřední blízkosti kostela Panny Márie Snežnej a připomíná, jak se zde přírodní terén, hospodářské využití svahu a náboženská tradice navzájem propojily."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kostel Panny Márie Snežnej: válečná stavba na místě starší poutní kaple",
+          "text": "Kostel Panny Márie Snežnej na Kalvárii je výraznou sakrální stavbou, která vznikla v letech 1943–1948 na místě starší kaple. Předchůdkyně zasvěcená Panně Marii Sněžné stála v této lokalitě už v první polovině 19. století a navazovala na poutní tradici spojenou s Kalvárií a nedalekou Lurdskou jaskyňou. Nový kostel navrhli architekti Fuchs, Vécsei a Quastler; jeho mohutná železobetonová konstrukce se odlišuje od historických kaplí a vil v okolí. Původně měl také vysokou věž, která byla roku 1958 odstraněna. Název Kalvárie se postupně vžil i pro okolní farní oblast, jejíž farnost byla zřízena roku 1933. Kostel tak spojuje starší mariánské poutní místo s architekturou a náboženským životem Bratislavy 20. století."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Horský park – historischer Waldpark am nordwestlichen Rand der Altstadt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Der Horský park: Wie aus dem alten Študentský les ein Stadtwald wurde",
+          "text": "Der Horský park entstand in der zweiten Hälfte des 19. Jahrhunderts durch die Gestaltung eines bestehenden Waldbestands, der als Študentský les (Studentenwald) bekannt war. Eine wichtige Rolle spielte der Bratislavaer Bürgermeister Henrich von Justi, der auch den örtlichen Verschönerungsverein unterstützte. Die um 1870 verbreiterte Hlboká cesta machte die Hänge zugänglich und ermöglichte die Erholungsnutzung des neuen Parks. Zu seinem natürlichen Mittelpunkt wurde das Justi-Denkmal, das die Stadt 1909 errichten ließ; es stammt vom Bildhauer Alojz Rigele. Der Park bewahrte den Charakter eines Waldgebiets mit ursprünglichen und später angepflanzten Bäumen. Heute ist er zugleich ein geschütztes Gebiet mit bedeutender ökologischer, landschaftlicher und Erholungsfunktion. Seine Pflege muss den Schutz des alten Baumbestands mit der Sicherheit der Besucher in Einklang bringen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Kalvarienberg von Bratislava: Ein barocker Wallfahrtsort, der fast verschwand",
+          "text": "Der Kalvarienberg von Bratislava gehörte zu den frühen barocken Kreuzwegen im damaligen Königreich Ungarn. Der Grundstein wurde am 27. Mai 1694 gelegt, fertiggestellt wurde die Anlage 1725. Die ursprüngliche Komposition bestand aus sieben Hauptkapellen des Kalvarienbergs und zwei vorbereitenden Kapellen. Sie führten die Pilger den Hang hinauf zur Kreuzigungsszene und weiter zum Heiligen Grab. In den 1950er-Jahren wurde die Anlage schrittweise zerstört. Einen besonders schweren Eingriff bedeutete der Bau der Straße Pražská, bei dem ein Teil des Hangs abgetragen wurde und weitere Kapellen verschwanden. Erhalten blieben Teile des ursprünglichen Weges und die Ruine der Kapelle Ecce Homo. Restaurierungen der letzten Jahrzehnte gaben dem Ort einen Teil seiner religiösen Funktion zurück: Die Terrasse am Kreuz und eine Kapelle wurden erneuert, entlang des historischen Weges kamen zeitgenössische Bilder der Kreuzwegstationen hinzu. Der Kalvarienberg erinnert somit an die barocke Wallfahrtskultur und an den Verlust städtischen Kulturerbes im 20. Jahrhundert."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Hlboká cesta: ein alter Zollweg entlang von Steinbrüchen und Quellen",
+          "text": "Die Hlboká cesta gehört zu den historischen Verkehrswegen am nordwestlichen Rand des alten Bratislava. Ihr Vorgänger ist bereits am Ende des 15. Jahrhunderts belegt; der Weg gehörte zur äußeren städtischen Zoll- und Mautlinie und führte aus der Stadt in Richtung Lamač und weiter in die Záhorie-Region. In der Umgebung wurde Stein für Straßen, Befestigungen und Häuser gebrochen, während Quellen entlang des Weges zur städtischen Wasserversorgung beitrugen. Der Abschnitt zwischen den heutigen Straßen Čapkova und Havlíčkova war ursprünglich ein schmaler, in den Fels gehauener Waldweg zwischen steilen Hängen. 1870 ließ Bürgermeister Henrich Justi ihn auf Anregung des Verschönerungsvereins verbreitern. Der bessere Zugang förderte die Entstehung eines Villenviertels zwischen Kalvarienberg und Horský park und erschloss den Waldpark für die Erholung der Stadtbewohner. Die Hlboká cesta ist daher nicht nur eine Verkehrsverbindung, sondern auch ein sichtbares Zeugnis dafür, wie sich der felsige Stadtrand in eine Wohn- und Erholungslandschaft verwandelte."
+        },
+        {
+          "id": "fact_004",
+          "title": "Der Prüger-Wallner-Garten: Villa, Landschaftsgarten und historische Gewächshäuser",
+          "text": "Der Prüger-Wallner-Garten entstand Ende des 19. Jahrhunderts bei der Villa der Familie Prüger-Wallner am nördlichen Ende der heutigen Havlíčkova-Straße. Das bewegte Gelände wurde in einen repräsentativen Landschaftsgarten und einen Nutzgarten aufgeteilt, in dem Blumen, Obst und Gemüse angebaut wurden. Im südlichen Teil standen Gewächshäuser und ein Heizhaus. Nach dem Zweiten Weltkrieg verwilderte der Garten allmählich; ein großer Teil der ursprünglichen Gestaltung ging verloren, und der Nutzgarten wurde in kleinere Parzellen aufgeteilt. Historische Elemente und einige alte Bäume blieben jedoch erhalten. Die Stadt Bratislava begann gemeinsam mit Partnern, das Gelände wiederherzustellen. Heute ist hier erneut ein öffentlich zugänglicher Garten mit restaurierten historischen Gewächshäusern, Feuchtbiotopen und gemeinschaftlich genutzten Bereichen entstanden. Der Ort zeigt, wie die privaten Gärten des einstigen Villenviertels aussahen und wie ihre Überreste behutsam in das heutige Stadtleben zurückgeführt werden können."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Lourdesgrotte: ein Marienheiligtum in einem ehemaligen Steinbruch",
+          "text": "Die Lourdesgrotte entstand 1892 in einem aufgelassenen Steinbruch unterhalb der früheren Kapelle Maria Schnee. Die Initiative zur Gestaltung ging von der Bratislavaer Gräfin Helena Szapáry aus; Einwohner der Stadt halfen bei der Umsetzung. In die Grotte wurde eine Statue der Muttergottes von Lourdes gestellt. Der Ort knüpfte an die ältere Wallfahrtstradition des Kalvarienbergs und an die oberhalb des Steinbruchs stehende Kapelle an. Seine Gestaltung ahmt die berühmte Grotte von Lourdes in Frankreich nach, bewahrt aber zugleich eine konkrete Spur der lokalen Steingewinnung: Ein Ort, an dem einst Baumaterial gewonnen wurde, verwandelte sich in eine kleine Pilgerstätte. Die Grotte liegt an der Hlboká cesta nahe der Kirche Maria Schnee und veranschaulicht, wie Naturraum, wirtschaftliche Nutzung des Hangs und religiöse Tradition hier ineinandergreifen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Kirche Maria Schnee: ein Bau aus der Kriegszeit anstelle einer älteren Wallfahrtskapelle",
+          "text": "Die Kirche Maria Schnee am Kalvarienberg ist ein markantes Sakralgebäude, das 1943–1948 an der Stelle einer älteren Kapelle errichtet wurde. Eine Vorgängerkapelle unter dem Patrozinium Maria Schnee stand hier bereits in der ersten Hälfte des 19. Jahrhunderts und knüpfte an die Wallfahrtstradition des Kalvarienbergs und die nahe Lourdesgrotte an. Der Neubau wurde von den Architekten Fuchs, Vécsei und Quastler entworfen. Seine massive Stahlbetonkonstruktion unterscheidet sich deutlich von den historischen Kapellen und Villen der Umgebung. Ursprünglich besaß die Kirche auch einen hohen Turm, der 1958 abgetragen wurde. Der Name Kalvarienberg setzte sich nach und nach auch für das umliegende Pfarrgebiet durch; die Pfarrei wurde 1933 gegründet. Die Kirche verbindet damit einen älteren Marienwallfahrtsort mit der Architektur und dem religiösen Leben Bratislavas im 20. Jahrhundert."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Horský park – historic woodland park on the north-western edge of the Old Town",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park: the city woodland that grew from the old Študentský les",
+          "text": "Horský park was created in the second half of the 19th century by shaping an existing woodland known as Študentský les, or Student Forest. Bratislava mayor Henrich von Justi played an important role in its creation and supported the Bratislava Beautification Society. The widening of Hlboká cesta around 1870 opened up the slopes and made recreational use of the new park possible. The Justi Memorial became its natural focal point; the city erected it in 1909, and it was made by sculptor Alojz Rigele. The park has retained its woodland character, with native trees and species planted later. Today it is also a protected area of ecological, landscape and recreational importance. Its management must balance the protection of old woodland with the safety of visitors."
+        },
+        {
+          "id": "fact_002",
+          "title": "Bratislava Calvary: the Baroque pilgrimage complex that almost disappeared",
+          "text": "Bratislava Calvary was among the early Baroque Stations of the Cross in the Kingdom of Hungary. Its foundation stone was laid on 27 May 1694 and the complex was completed in 1725. The original design comprised seven main Calvary chapels and two preparatory chapels, guiding pilgrims up the slope to the Crucifixion scene and then to the Holy Sepulchre. The complex was gradually destroyed in the 1950s. The construction of Pražská Street caused especially severe damage: part of the hill was cut away and further chapels disappeared. Only sections of the original route and the remains of the Ecce Homo chapel survive. Restoration in recent decades has revived part of the site's religious role: the terrace by the cross and one chapel have been restored, and contemporary images of the Stations have been placed along the historic route. Calvary therefore recalls both Baroque pilgrimage culture and the loss of urban heritage in the 20th century."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta: an old toll road beside quarries and springs",
+          "text": "Hlboká cesta is one of the historic routes on the north-western edge of old Bratislava. Its predecessor is documented by the late 15th century; the road formed part of the city's outer customs and toll line and led from the town towards Lamač and the Záhorie region. Stone quarried nearby was used for roads, fortifications and houses, while springs along the route contributed to the city's water supply. The section between today's Čapkova and Havlíčkova streets was originally a narrow woodland path cut into rock and enclosed by steep slopes. In 1870 mayor Henrich Justi had it widened at the suggestion of the Bratislava Beautification Society. Better access encouraged the development of a villa district between Calvary and Horský park and opened the woodland park to residents for recreation. Hlboká cesta is therefore more than a road: it records how the rocky edge of the city became a residential and recreational landscape."
+        },
+        {
+          "id": "fact_004",
+          "title": "Prüger-Wallner Garden: a villa, a landscaped garden and historic greenhouses",
+          "text": "Prüger-Wallner Garden was created in the late 19th century around the villa of the Prüger-Wallner family at the northern end of today's Havlíčkova Street. Its sloping terrain was arranged as a formal ornamental landscape garden near the villa and a productive garden where flowers, fruit and vegetables were grown. Greenhouses and a boiler house stood in the southern part. After the Second World War the garden gradually fell into neglect; much of its original design disappeared and the productive area was divided into smaller garden plots. Some historic features and mature trees survived. Bratislava later began restoring the site with partners. Today it is once again a public garden, with restored historic greenhouses, wetland features and community spaces. It shows how private gardens in the former villa district were designed and how their surviving elements can be carefully returned to urban life."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Lourdes Grotto: a Marian shrine in a former quarry",
+          "text": "The Lourdes Grotto was created in 1892 in a disused quarry below the former Chapel of Our Lady of the Snows. The initiative came from Bratislava resident Countess Helena Szapáry, with help from local people; a statue of Our Lady of Lourdes was placed in the adapted grotto. The site continued the older pilgrimage tradition of Calvary and the chapel that once stood above the quarry. Its design imitates the famous grotto at Lourdes in France, while preserving a distinct local trace of stone quarrying: a place once used to extract building material became a small pilgrimage site. The grotto lies by Hlboká cesta, close to the Church of Our Lady of the Snows. It illustrates how the natural terrain, the economic use of the hillside and religious tradition became intertwined here."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Church of Our Lady of the Snows: a wartime building on an older pilgrimage site",
+          "text": "The Church of Our Lady of the Snows on Calvary is a prominent religious building erected between 1943 and 1948 on the site of an older chapel. A predecessor dedicated to Our Lady of the Snows stood here in the first half of the 19th century and was linked to the pilgrimage tradition of Calvary and the nearby Lourdes Grotto. The new church was designed by architects Fuchs, Vécsei and Quastler. Its massive reinforced-concrete structure contrasts with the historic chapels and villas nearby. It originally had a tall tower, which was removed in 1958. The name Calvary gradually came to designate the surrounding parish area as well; the parish itself was established in 1933. The church thus connects an older Marian pilgrimage site with Bratislava's architecture and religious life in the 20th century."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Horský park – parque forestal histórico en el extremo noroeste del casco antiguo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park: el bosque urbano nacido del antiguo Študentský les",
+          "text": "Horský park se creó en la segunda mitad del siglo XIX mediante la transformación de un bosque existente conocido como Študentský les, o Bosque de los Estudiantes. El alcalde de Bratislava Henrich von Justi desempeñó un papel importante en su creación y apoyó la actividad de la Sociedad de Embellecimiento de Bratislava. La ampliación de Hlboká cesta hacia 1870 facilitó el acceso a las laderas y permitió el uso recreativo del nuevo parque. El monumento a Justi se convirtió en su centro natural; el ayuntamiento lo encargó en 1909 y fue obra del escultor Alojz Rigele. El parque ha conservado su carácter boscoso, con árboles autóctonos y especies plantadas posteriormente. Hoy es también un espacio protegido de importancia ecológica, paisajística y recreativa. Su gestión debe conciliar la protección del arbolado antiguo con la seguridad de los visitantes."
+        },
+        {
+          "id": "fact_002",
+          "title": "El Calvario de Bratislava: el conjunto barroco de peregrinación que casi desapareció",
+          "text": "El Calvario de Bratislava fue uno de los primeros viacrucis barrocos del entonces Reino de Hungría. La primera piedra se colocó el 27 de mayo de 1694 y el conjunto quedó terminado en 1725. Su composición original incluía siete capillas principales del Calvario y dos capillas preparatorias, que guiaban a los peregrinos por la ladera hasta la escena de la Crucifixión y después al Santo Sepulcro. El conjunto fue destruido progresivamente durante la década de 1950. La construcción de la calle Pražská causó daños especialmente graves: se rebajó parte de la colina y desaparecieron otras capillas. Solo se conservan fragmentos del recorrido original y las ruinas de la capilla Ecce Homo. Las restauraciones de las últimas décadas han recuperado parte de la función religiosa del lugar: se restauraron la terraza junto a la cruz y una capilla, y se instalaron imágenes contemporáneas de las estaciones a lo largo del itinerario histórico. El Calvario recuerda tanto la cultura barroca de peregrinación como la pérdida del patrimonio urbano en el siglo XX."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta: una antigua ruta de peaje entre canteras y manantiales",
+          "text": "Hlboká cesta es una de las vías históricas del extremo noroeste de la antigua Bratislava. Su antecedente está documentado a finales del siglo XV; el camino formaba parte de la línea exterior de aduanas y peajes de la ciudad y conducía hacia Lamač y la región de Záhorie. En los alrededores se extraía piedra para construir caminos, fortificaciones y casas, mientras que los manantiales de la ruta contribuían al abastecimiento de agua de la ciudad. El tramo entre las actuales calles Čapkova y Havlíčkova era originalmente un estrecho sendero forestal excavado en la roca y encajado entre laderas escarpadas. En 1870 el alcalde Henrich Justi ordenó ampliarlo a propuesta de la Sociedad de Embellecimiento de Bratislava. La mejora del acceso favoreció la creación de un barrio de villas entre el Calvario y Horský park y abrió el parque forestal al ocio de los habitantes. Hlboká cesta no es solo una vía de comunicación: también muestra cómo el borde rocoso de la ciudad se transformó en un paisaje residencial y recreativo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jardín Prüger-Wallner: una villa, un jardín paisajístico y antiguos invernaderos",
+          "text": "El jardín Prüger-Wallner se creó a finales del siglo XIX junto a la villa de la familia Prüger-Wallner, en el extremo norte de la actual calle Havlíčkova. El terreno en pendiente se organizó en un jardín ornamental de estilo paisajístico alrededor de la villa y una zona productiva donde se cultivaban flores, frutas y verduras. En la parte sur había invernaderos y una sala de calderas para calentarlos. Después de la Segunda Guerra Mundial, el jardín cayó gradualmente en el abandono; gran parte de su diseño original desapareció y la zona productiva se dividió en pequeñas parcelas. Sin embargo, sobrevivieron algunos elementos históricos y árboles maduros. Más tarde, Bratislava inició la restauración del recinto junto con sus colaboradores. Hoy vuelve a ser un jardín público, con invernaderos históricos restaurados, elementos de humedal y espacios comunitarios. El lugar muestra cómo eran los jardines privados del antiguo barrio de villas y cómo sus restos pueden reintegrarse cuidadosamente en la vida urbana."
+        },
+        {
+          "id": "fact_005",
+          "title": "La gruta de Lourdes: un santuario mariano en una antigua cantera",
+          "text": "La gruta de Lourdes se creó en 1892 en una cantera abandonada situada bajo la antigua capilla de Nuestra Señora de las Nieves. La iniciativa fue de la condesa Helena Szapáry, residente en Bratislava, con la ayuda de habitantes de la ciudad; en la gruta acondicionada se colocó una estatua de Nuestra Señora de Lourdes. El lugar prolongó la antigua tradición de peregrinación del Calvario y de la capilla que se encontraba sobre la cantera. Su diseño imita la famosa gruta de Lourdes en Francia, pero conserva también una huella local de la extracción de piedra: un espacio donde antes se obtenía material de construcción se convirtió en un pequeño lugar de peregrinación. La gruta se encuentra junto a Hlboká cesta, cerca de la iglesia de Nuestra Señora de las Nieves. Ilustra cómo se entrelazaron aquí el relieve natural, el aprovechamiento económico de la ladera y la tradición religiosa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Iglesia de Nuestra Señora de las Nieves: un edificio de guerra en un antiguo lugar de peregrinación",
+          "text": "La iglesia de Nuestra Señora de las Nieves, en el Calvario, es un destacado edificio religioso construido entre 1943 y 1948 en el lugar de una capilla anterior. Una capilla dedicada a Nuestra Señora de las Nieves ya se encontraba aquí en la primera mitad del siglo XIX y estaba vinculada a la tradición de peregrinación del Calvario y a la cercana gruta de Lourdes. La nueva iglesia fue diseñada por los arquitectos Fuchs, Vécsei y Quastler. Su maciza estructura de hormigón armado contrasta con las capillas históricas y las villas de los alrededores. Originalmente tenía una torre alta, que fue retirada en 1958. El nombre Calvario acabó designando también la zona parroquial circundante; la parroquia se estableció en 1933. La iglesia conecta así un antiguo lugar de peregrinación mariana con la arquitectura y la vida religiosa de Bratislava en el siglo XX."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Horský park – parc forestier historique à la limite nord-ouest de la vieille ville",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park : le bois urbain issu de l’ancien Študentský les",
+          "text": "Horský park a été créé dans la seconde moitié du XIXe siècle en aménageant un bois préexistant connu sous le nom de Študentský les, ou « forêt des étudiants ». Le maire de Bratislava Henrich von Justi a joué un rôle important dans sa création et a soutenu l’action de la Société d’embellissement de Bratislava. L’élargissement de la rue Hlboká cesta vers 1870 a rendu les pentes accessibles et permis l’usage récréatif du nouveau parc. Le monument à Justi en est devenu le centre naturel ; la ville l’a fait ériger en 1909 et il est l’œuvre du sculpteur Alojz Rigele. Le parc a conservé son caractère forestier, avec des arbres indigènes et d’autres espèces plantées plus tard. Il constitue aujourd’hui également une zone protégée d’importance écologique, paysagère et récréative. Sa gestion doit concilier la protection des vieux peuplements forestiers et la sécurité des visiteurs."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le Calvaire de Bratislava : un ensemble baroque de pèlerinage presque disparu",
+          "text": "Le Calvaire de Bratislava comptait parmi les premiers chemins de croix baroques du royaume de Hongrie. La première pierre fut posée le 27 mai 1694 et l’ensemble fut achevé en 1725. Sa composition initiale comprenait sept chapelles principales du Calvaire et deux chapelles préparatoires, qui guidaient les pèlerins sur la pente jusqu’à la scène de la Crucifixion puis au Saint-Sépulcre. L’ensemble fut progressivement détruit dans les années 1950. La construction de la rue Pražská causa des dégâts particulièrement graves : une partie de la colline fut arasée et d’autres chapelles disparurent. Seuls subsistent des fragments du parcours original et les vestiges de la chapelle Ecce Homo. Les restaurations des dernières décennies ont rendu au site une partie de sa fonction religieuse : la terrasse près de la croix et une chapelle ont été restaurées, et des images contemporaines des stations ont été installées le long de l’itinéraire historique. Le Calvaire évoque ainsi à la fois la culture baroque du pèlerinage et la perte du patrimoine urbain au XXe siècle."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta : une ancienne route de péage entre carrières et sources",
+          "text": "Hlboká cesta est l’une des voies historiques situées à la limite nord-ouest de l’ancienne Bratislava. Son prédécesseur est attesté à la fin du XVe siècle ; la route faisait partie de la ligne extérieure de douane et de péage de la ville et menait vers Lamač puis la région de Záhorie. La pierre extraite dans les environs servait à construire routes, fortifications et maisons, tandis que les sources le long du parcours contribuaient à l’alimentation en eau de la ville. Le tronçon situé entre les actuelles rues Čapkova et Havlíčkova était à l’origine un étroit chemin forestier taillé dans la roche et encaissé entre des pentes abruptes. En 1870, le maire Henrich Justi le fit élargir à la demande de la Société d’embellissement de Bratislava. Cet accès amélioré favorisa la création d’un quartier de villas entre le Calvaire et Horský park et ouvrit le parc forestier aux loisirs des habitants. Hlboká cesta est donc à la fois une voie de circulation et le témoin de la transformation d’une périphérie rocheuse en paysage résidentiel et récréatif."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le jardin Prüger-Wallner : une villa, un jardin paysager et des serres historiques",
+          "text": "Le jardin Prüger-Wallner a été créé à la fin du XIXe siècle autour de la villa de la famille Prüger-Wallner, à l’extrémité nord de l’actuelle rue Havlíčkova. Le terrain en pente fut aménagé en jardin d’ornement paysager près de la villa et en jardin utilitaire où l’on cultivait fleurs, fruits et légumes. Des serres et une chaufferie se trouvaient dans la partie sud. Après la Seconde Guerre mondiale, le jardin tomba progressivement à l’abandon ; une grande partie de son aménagement d’origine disparut et la zone utilitaire fut divisée en petites parcelles. Certains éléments historiques et de grands arbres ont toutefois survécu. Bratislava a ensuite entrepris de restaurer le site avec des partenaires. Il s’agit aujourd’hui de nouveau d’un jardin public, avec des serres historiques restaurées, des éléments de zone humide et des espaces communautaires. Le lieu montre comment étaient conçus les jardins privés de l’ancien quartier de villas et comment leurs vestiges peuvent retrouver leur place dans la vie urbaine."
+        },
+        {
+          "id": "fact_005",
+          "title": "La grotte de Lourdes : un sanctuaire marial dans une ancienne carrière",
+          "text": "La grotte de Lourdes a été aménagée en 1892 dans une carrière abandonnée située sous l’ancienne chapelle Notre-Dame-des-Neiges. L’initiative revint à la comtesse Helena Szapáry, habitante de Bratislava, avec l’aide des habitants ; une statue de Notre-Dame de Lourdes fut installée dans la grotte aménagée. Le lieu prolongeait l’ancienne tradition de pèlerinage du Calvaire et celle de la chapelle située au-dessus de la carrière. Son aménagement imite la célèbre grotte de Lourdes en France, tout en conservant une trace locale de l’extraction de la pierre : un espace autrefois utilisé pour produire des matériaux de construction est devenu un petit lieu de pèlerinage. La grotte se trouve près de la rue Hlboká cesta, à proximité de l’église Notre-Dame-des-Neiges. Elle illustre la manière dont le relief naturel, l’exploitation économique du versant et la tradition religieuse se sont ici entremêlés."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’église Notre-Dame-des-Neiges : un édifice de guerre sur un ancien lieu de pèlerinage",
+          "text": "L’église Notre-Dame-des-Neiges, sur le Calvaire, est un édifice religieux marquant construit entre 1943 et 1948 à l’emplacement d’une chapelle plus ancienne. Une chapelle dédiée à Notre-Dame-des-Neiges se trouvait déjà ici dans la première moitié du XIXe siècle et était liée à la tradition de pèlerinage du Calvaire ainsi qu’à la grotte de Lourdes toute proche. La nouvelle église fut conçue par les architectes Fuchs, Vécsei et Quastler. Sa massive structure en béton armé contraste avec les chapelles historiques et les villas du quartier. Elle possédait à l’origine une haute tour, supprimée en 1958. Le nom de Calvaire s’est progressivement étendu à la zone paroissiale environnante ; la paroisse fut créée en 1933. L’église relie ainsi un ancien lieu de pèlerinage marial à l’architecture et à la vie religieuse de Bratislava au XXe siècle."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Horský park – parco boschivo storico al margine nord-occidentale della Città Vecchia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park: il bosco urbano nato dall’antico Študentský les",
+          "text": "Horský park nacque nella seconda metà del XIX secolo dalla sistemazione di un bosco preesistente noto come Študentský les, cioè il Bosco degli studenti. Un ruolo importante nella sua creazione fu svolto dal sindaco di Bratislava Henrich von Justi, che sostenne anche l’attività della Società di abbellimento cittadino. L’ampliamento della Hlboká cesta intorno al 1870 rese accessibili i pendii e permise l’uso ricreativo del nuovo parco. Il monumento a Justi divenne il suo centro naturale: la città lo fece erigere nel 1909 e l’opera è dello scultore Alojz Rigele. Il parco ha conservato il carattere boschivo, con alberi autoctoni e specie introdotte in seguito. Oggi è anche un’area protetta di grande valore ecologico, paesaggistico e ricreativo. La sua gestione deve conciliare la tutela del vecchio bosco con la sicurezza dei visitatori."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il Calvario di Bratislava: il complesso barocco di pellegrinaggio quasi scomparso",
+          "text": "Il Calvario di Bratislava fu uno dei primi percorsi della Via Crucis in stile barocco nell’allora Regno d’Ungheria. La prima pietra venne posata il 27 maggio 1694 e il complesso fu completato nel 1725. La composizione originaria comprendeva sette cappelle principali del Calvario e due cappelle preparatorie, che guidavano i pellegrini lungo il pendio fino alla scena della Crocifissione e poi al Santo Sepolcro. Il complesso venne progressivamente distrutto negli anni Cinquanta del Novecento. La costruzione di via Pražská causò danni particolarmente gravi: una parte della collina fu sbancata e altre cappelle scomparvero. Restano soltanto tratti del percorso originario e i ruderi della cappella Ecce Homo. I restauri degli ultimi decenni hanno restituito al luogo parte della sua funzione religiosa: sono stati restaurati la terrazza presso la croce e una cappella, mentre lungo il percorso storico sono state collocate immagini contemporanee delle stazioni. Il Calvario ricorda così sia la cultura barocca del pellegrinaggio sia la perdita del patrimonio urbano nel XX secolo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta: un’antica strada di pedaggio tra cave e sorgenti",
+          "text": "Hlboká cesta è una delle vie storiche al margine nord-occidentale della vecchia Bratislava. Un suo tracciato precedente è documentato già alla fine del XV secolo; la strada faceva parte della linea esterna di dogana e pedaggio della città e conduceva verso Lamač e la regione di Záhorie. Nella zona si estraeva pietra utilizzata per costruire strade, fortificazioni e case, mentre le sorgenti lungo il percorso contribuivano all’approvvigionamento idrico cittadino. Il tratto tra le attuali vie Čapkova e Havlíčkova era in origine uno stretto sentiero boschivo scavato nella roccia e racchiuso da pendii ripidi. Nel 1870 il sindaco Henrich Justi ne fece ampliare il tracciato su proposta della Società di abbellimento di Bratislava. Il migliore accesso favorì la nascita di un quartiere di ville tra il Calvario e Horský park e rese il parco boschivo più accessibile per il tempo libero dei residenti. Hlboká cesta è quindi non solo una strada, ma anche una testimonianza della trasformazione del margine roccioso della città in paesaggio residenziale e ricreativo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il giardino Prüger-Wallner: una villa, un giardino paesaggistico e serre storiche",
+          "text": "Il giardino Prüger-Wallner nacque alla fine del XIX secolo intorno alla villa della famiglia Prüger-Wallner, all’estremità settentrionale dell’attuale via Havlíčkova. Il terreno in pendenza fu organizzato in un giardino ornamentale paesaggistico vicino alla villa e in una parte produttiva dove si coltivavano fiori, frutta e verdura. Nella zona meridionale si trovavano serre e una centrale termica per il loro riscaldamento. Dopo la Seconda guerra mondiale il giardino cadde gradualmente in abbandono; gran parte dell’impianto originario scomparve e la parte produttiva fu suddivisa in piccoli orti. Alcuni elementi storici e alberi maturi sono però sopravvissuti. In seguito Bratislava ha avviato il recupero dell’area insieme a diversi partner. Oggi è nuovamente un giardino pubblico, con serre storiche restaurate, elementi di zona umida e spazi comunitari. Il luogo mostra come erano concepiti i giardini privati dell’antico quartiere di ville e come i loro resti possano tornare con cura nella vita urbana."
+        },
+        {
+          "id": "fact_005",
+          "title": "La grotta di Lourdes: un santuario mariano in una vecchia cava",
+          "text": "La grotta di Lourdes fu realizzata nel 1892 in una cava dismessa sotto l’antica cappella della Madonna della Neve. L’iniziativa fu della contessa Helena Szapáry, residente a Bratislava, con l’aiuto degli abitanti della città; nella grotta sistemata venne collocata una statua della Madonna di Lourdes. Il luogo proseguì la più antica tradizione di pellegrinaggio del Calvario e della cappella che sorgeva sopra la cava. La sua forma richiama la celebre grotta di Lourdes in Francia, ma conserva anche una traccia locale dell’estrazione della pietra: uno spazio un tempo usato per ricavare materiale da costruzione divenne un piccolo luogo di pellegrinaggio. La grotta si trova presso Hlboká cesta, vicino alla chiesa della Madonna della Neve. Mostra come qui si siano intrecciati il paesaggio naturale, lo sfruttamento economico del pendio e la tradizione religiosa."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chiesa della Madonna della Neve: un edificio di guerra su un antico luogo di pellegrinaggio",
+          "text": "La chiesa della Madonna della Neve sul Calvario è un importante edificio religioso costruito tra il 1943 e il 1948 sul sito di una cappella più antica. Una cappella dedicata alla Madonna della Neve sorgeva qui già nella prima metà del XIX secolo ed era legata alla tradizione di pellegrinaggio del Calvario e alla vicina grotta di Lourdes. La nuova chiesa fu progettata dagli architetti Fuchs, Vécsei e Quastler. La sua imponente struttura in cemento armato si distingue dalle cappelle storiche e dalle ville circostanti. In origine aveva anche un’alta torre, rimossa nel 1958. Il nome Calvario finì per indicare anche l’area parrocchiale circostante, la cui parrocchia fu istituita nel 1933. La chiesa collega così un antico luogo di pellegrinaggio mariano con l’architettura e la vita religiosa di Bratislava nel XX secolo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Horský park – historisch bospark aan de noordwestelijke rand van de Oude Stad",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horský park: het stadsbos dat voortkwam uit het oude Študentský les",
+          "text": "Horský park ontstond in de tweede helft van de negentiende eeuw door de aanleg van een bestaand bosgebied dat bekendstond als Študentský les, het Studentenbos. De burgemeester van Bratislava, Henrich von Justi, speelde een belangrijke rol bij de totstandkoming en steunde ook de plaatselijke vereniging voor stadsverfraaiing. Door de verbreding van de Hlboká cesta rond 1870 werden de hellingen beter bereikbaar en kon het nieuwe park voor recreatie worden gebruikt. Het Justi-monument werd het natuurlijke middelpunt van het park; de stad liet het in 1909 oprichten en het is gemaakt door beeldhouwer Alojz Rigele. Het park heeft zijn bosachtige karakter behouden, met inheemse bomen en later aangeplante soorten. Tegenwoordig is het ook een beschermd gebied met grote ecologische, landschappelijke en recreatieve waarde. Het beheer moet de bescherming van het oude bosbestand combineren met de veiligheid van bezoekers."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Kalvarieberg van Bratislava: een barok bedevaartsoord dat bijna verdween",
+          "text": "De Kalvarieberg van Bratislava was een van de vroege barokke kruiswegcomplexen in het toenmalige Koninkrijk Hongarije. De eerste steen werd op 27 mei 1694 gelegd en het geheel was in 1725 voltooid. De oorspronkelijke opzet bestond uit zeven hoofd kapellen op de Kalvarieberg en twee voorbereidende kapellen. Ze leidden pelgrims de helling op naar de kruisigingsscène en vervolgens naar het Heilig Graf. In de jaren vijftig van de twintigste eeuw werd het complex geleidelijk verwoest. Vooral de aanleg van de straat Pražská richtte grote schade aan: een deel van de heuvel werd afgegraven en meer kapellen verdwenen. Alleen delen van de oorspronkelijke route en de ruïne van de Ecce Homo-kapel zijn bewaard gebleven. Restauraties in de afgelopen decennia hebben een deel van de religieuze functie teruggebracht: het terras bij het kruis en een kapel zijn hersteld en langs de historische route zijn eigentijdse afbeeldingen van de kruiswegstaties geplaatst. De Kalvarieberg herinnert zo aan zowel de barokke pelgrimscultuur als het verlies van stedelijk erfgoed in de twintigste eeuw."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hlboká cesta: een oude tolweg langs steengroeven en bronnen",
+          "text": "Hlboká cesta is een van de historische wegen aan de noordwestelijke rand van het oude Bratislava. Een voorganger van de weg is al aan het einde van de vijftiende eeuw gedocumenteerd. De route maakte deel uit van de buitenste douane- en tolgrens van de stad en liep richting Lamač en de streek Záhorie. In de omgeving werd steen gewonnen voor wegen, vestingwerken en huizen; bronnen langs de route droegen bij aan de watervoorziening van de stad. Het gedeelte tussen de huidige straten Čapkova en Havlíčkova was oorspronkelijk een smal bospad dat in de rots was uitgehouwen en tussen steile hellingen lag. In 1870 liet burgemeester Henrich Justi het op initiatief van de vereniging voor stadsverfraaiing verbreden. De betere bereikbaarheid stimuleerde de aanleg van een villawijk tussen de Kalvarieberg en Horský park en maakte het bospark toegankelijker voor recreatie. Hlboká cesta is daarom niet alleen een verkeersverbinding, maar ook een tastbare herinnering aan de verandering van een rotsachtige stadsrand in een woon- en recreatielandschap."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Prüger-Wallner-tuin: een villa, een landschapstuin en historische kassen",
+          "text": "De Prüger-Wallner-tuin werd aan het einde van de negentiende eeuw aangelegd bij de villa van de familie Prüger-Wallner, aan het noordelijke uiteinde van de huidige Havlíčkova-straat. Het glooiende terrein werd ingericht als een representatieve landschapstuin bij de villa en een gebruikstuin waar bloemen, fruit en groenten werden geteeld. In het zuidelijke deel stonden kassen en een ketelhuis om ze te verwarmen. Na de Tweede Wereldoorlog raakte de tuin geleidelijk in verval; een groot deel van de oorspronkelijke aanleg verdween en het gebruiksgedeelte werd verdeeld in kleine tuinen. Enkele historische elementen en oude bomen bleven behouden. Bratislava begon later samen met partners het terrein te herstellen. Tegenwoordig is het opnieuw een openbaar toegankelijke tuin, met gerestaureerde historische kassen, natte natuur en gemeenschappelijke ruimtes. De plek laat zien hoe de particuliere tuinen van de vroegere villawijk waren ingericht en hoe de overblijfselen ervan zorgvuldig weer deel kunnen worden van het stadsleven."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Lourdesgrot: een Mariaheiligdom in een voormalige steengroeve",
+          "text": "De Lourdesgrot werd in 1892 aangelegd in een verlaten steengroeve onder de vroegere kapel van Onze-Lieve-Vrouw ter Sneeuw. Het initiatief kwam van gravin Helena Szapáry uit Bratislava, met hulp van plaatselijke bewoners; in de ingerichte grot werd een beeld van Onze-Lieve-Vrouw van Lourdes geplaatst. De plek sloot aan bij de oudere bedevaartstraditie van de Kalvarieberg en bij de kapel die boven de groeve stond. De vorm verwijst naar de beroemde grot van Lourdes in Frankrijk, maar bewaart ook een plaatselijk spoor van steenwinning: een plek waar vroeger bouwsteen werd gewonnen, veranderde in een klein bedevaartsoord. De grot ligt aan de Hlboká cesta, vlak bij de kerk van Onze-Lieve-Vrouw ter Sneeuw. Ze laat zien hoe het natuurlijke landschap, het economische gebruik van de helling en de religieuze traditie hier met elkaar verweven raakten."
+        },
+        {
+          "id": "fact_006",
+          "title": "De kerk van Onze-Lieve-Vrouw ter Sneeuw: een oorlogsgebouw op een oudere bedevaartplek",
+          "text": "De kerk van Onze-Lieve-Vrouw ter Sneeuw op de Kalvarieberg is een markant religieus gebouw dat tussen 1943 en 1948 werd opgetrokken op de plaats van een oudere kapel. Een voorganger, gewijd aan Onze-Lieve-Vrouw ter Sneeuw, stond hier al in de eerste helft van de negentiende eeuw en was verbonden met de bedevaartstraditie van de Kalvarieberg en de nabijgelegen Lourdesgrot. De nieuwe kerk werd ontworpen door de architecten Fuchs, Vécsei en Quastler. De massieve constructie van gewapend beton wijkt duidelijk af van de historische kapellen en villa's in de omgeving. Oorspronkelijk had de kerk ook een hoge toren, die in 1958 werd verwijderd. De naam Kalvarieberg ging geleidelijk ook de omliggende parochiewijk aanduiden; de parochie werd in 1933 opgericht. De kerk verbindt zo een oudere Maria-bedevaartplek met de architectuur en het religieuze leven van Bratislava in de twintigste eeuw."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
