@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TRAVEL — Database</title>
-<link rel="stylesheet" href="./database.css?v=20261010-1">
+<link rel="stylesheet" href="./database.css?v=20261120-italy-1">
 </head>
 <body>
 <div class="app">
 <header>
   <div><div class="brand">TRAVEL / DATABASE</div><div id="subtitle" class="subtitle">Čtečka PSČ · data přímo ze Supabase</div></div>
-  <div class="toolbar"><div id="countrySwitch" class="country-switch"><button class="country active" data-country="DE">🇩🇪 Německo</button><button class="country" data-country="CZ">🇨🇿 Česko</button><button class="country" data-country="SK">🇸🇰 Slovensko</button></div><input id="search" class="search" placeholder="Hledat PSČ nebo město…" autocomplete="off"></div>
+  <div class="toolbar"><div id="countrySwitch" class="country-switch"><button class="country active" data-country="DE">🇩🇪 Německo</button><button class="country" data-country="CZ">🇨🇿 Česko</button><button class="country" data-country="SK">🇸🇰 Slovensko</button><button class="country" data-country="IT">🇮🇹 Itálie</button></div><select id="statusFilter" class="status-filter" hidden><option value="all">Všechny stavy</option><option value="inventory">Inventář</option><option value="researching">Rozpracováno</option><option value="review">Ke kontrole</option><option value="published">Publikováno</option></select><input id="search" class="search" placeholder="Hledat PSČ nebo město…" autocomplete="off"></div>
 </header>
 <div class="layout">
   <aside class="sidebar">
@@ -21,6 +21,6 @@
   <main class="main"><div id="detail"><div class="empty">Načítám databázi…</div></div></main>
 </div>
 </div>
-<script src="./database.js?v=20261119-5"></script>
+<script src="./database.js?v=20261120-italy-1"></script>
 </body>
 </html>
