@@ -236,7 +236,7 @@ The representative place may be a settlement, historic centre, urban quarter, la
 
 The `access_point` is a separate legacy TRAVEL navigation point used for practical vehicle approach/navigation. It is not the representative point, post office by definition, fact location or CAP boundary.
 
-The Italian schema requires both points. Do not omit them or replace one with the other. Choose a practical, geographically defensible point for each. Set `verification.access_point_verified` to true only if the access point has actually been checked; never claim verification that did not happen.
+`representative_point` is required. `access_point` is a separate nullable field: use a practical, geographically defensible navigation point only when it has a clear purpose and has been checked; otherwise use `null`. Set `verification.access_point_verified` to true only if a non-null access point has actually been checked; never claim verification that did not happen.
 
 ## 7. Italian source hierarchy and evidence
 
@@ -283,15 +283,15 @@ Use multiple independent sources for important facts where available. Repeated c
 For every fact:
 
 - define its supporting sources in the top-level `sources` array;
-- include the relevant source IDs in that fact's `sources` array;
-- use only source IDs that exist in the top-level source list;
+- put the exact source URLs supporting each fact in that fact's `sources` array;
+- define every URL used by a fact in the top-level `sources` array as a source object with `title`, `url` and `type`; each `facts[].sources` URL must match a top-level `sources[].url` exactly;
 - choose the correct `type` enum from the schema;
 - ensure that each significant claim is supported by a source competent for that claim;
 - provide a separate geographic source for the map point where required;
 - keep source release/reference dates and access/check dates distinct where the source or working record requires them;
 - respect copyright, source licences, reuse conditions, attribution, API terms and rate limits.
 
-Do not invent source titles, URLs, source IDs, release dates or evidence. Do not mark an unsupported value as verified.
+Do not invent source titles, URLs, release dates or evidence. Do not introduce source IDs or extra source-object properties; the shared schema stores source references as URLs in `facts[].sources` and source metadata as `{title, url, type}` in top-level `sources`. Do not mark an unsupported value as verified.
 
 ## 8. Research workflow and operating discipline
 
@@ -549,7 +549,7 @@ Mandatory top-level fields are:
 - `access_point`
 - `facts`
 - `photo`
-- `verification`
+- `verification` (with the exact shared keys and types, including `plz_source`, `geographic_test_data`, `access_point_verified` and the optional compatibility metadata defined by the schema)
 - `sources`
 - `translations`
 
@@ -562,20 +562,20 @@ Important structural rules:
 - `representative_place` and `representative_point` refer to the same representative place.
 - `access_point` remains separate.
 - Every fact has a unique sequential ID in the format `fact_001`, `fact_002`, etc.
-- Every fact has title, text, one permitted editorial category, one priority, source IDs and exactly one permitted map category.
+- Every fact has title, text, one permitted editorial category, one priority, a `sources` array of exact source URLs and exactly one permitted map category.
 - New or enriched facts must include the `location` property. Use a valid location object when a defensible point exists; use null only as the final justified fallback.
 - Every location object must contain the schema-required fields and valid enum values.
-- Top-level `sources` must define every source ID used by facts. Do not use dangling or invented source references.
+- Every URL in `facts[].sources` must match a URL in a top-level source object. Top-level source objects contain exactly `title`, `url` and `type`; do not add IDs or other properties.
 - All seven translation objects must exist and contain `representative_place` and `facts`.
 - Each translation must contain the same fact IDs in the same order as the source-language facts.
 - Translated fact objects contain only the fields allowed by the schema; do not add coordinates or duplicate location metadata to translations.
-- `verification.postcode_source` must identify the actual source/release used to verify the CAP.
+- `verification.plz_source` must identify the actual source used to verify the CAP. Populate the other verification fields exactly as defined by the shared schema.
 - Set `verification.geographic_test_data` to true only after the geographic assignment has actually been checked.
 - Set `verification.access_point_verified` to true only after the access point has actually been checked.
 - `photo` must follow the schema; use null when no valid, properly attributed photo data is available.
 - Do not add undocumented keys, comments, trailing commas, Markdown or explanatory prose inside JSON.
 
-The schema currently requires `access_point` and at least one fact. Do not silently relax those requirements. If a required element cannot be responsibly established, report the blocker rather than fabricating it.
+The schema requires `representative_point` and at least one fact. `access_point` is nullable and may be `null` when no defensible practical navigation point is available. Do not fabricate required values.
 
 ## 13. Preservation and scope protection
 
@@ -605,18 +605,12 @@ GitHub stores versioned schemas, standards, prompts, sequence and supporting doc
 - Before writing, read the current row and confirm its postcode and current workflow state. Preserve unrelated rows and fields.
 - Validate the complete JSON record against the current `data/italy/schema.json` and the applicable Content Standard before saving.
 - Save the complete record to the JSONB `record` column and set the database `workflow_status` consistently with the content lifecycle below. Do not partially overwrite a record or silently discard existing valid content.
-- After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved record, `workflow_status`, JSONB `status` and JSONB `data_version`. If read-back does not match the intended write, report failure; never claim success.
+- After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved JSON record and database `workflow_status`. Do not expect or add root-level JSON `status` or `data_version`; these are not part of the shared Czechia/Italy record schema.
 - Use only the established, authorised Neon connection. Never expose credentials or add write access to the Explorer client.
 
 ### Mandatory content lifecycle
 
-The Italian database `workflow_status` and JSONB root `record.status` share exactly three permitted values: `placeholder`, `validated` and `published`. The database default is `placeholder`. `placeholder` means the CAP is awaiting rework; `validated` means the V1 rework is complete and awaits final audit; `published` means the audited V5 record is approved for Explorer display. Do not use the legacy states `inventory`, `researching` or `review`.
-
-- A completed rework is **V1 / validated**: JSONB root `record.data_version = 1`, JSONB root `record.status = 'validated'`, and database `workflow_status = 'validated'`.
-- V1 / validated means rework is complete and the record is awaiting the separate final audit. It is not published and must not appear in EuropeExplorer.
-- Audit PASS alone does not publish or change a record's version/status.
-- **V5 / published** is permitted only after the complete final audit passes and the user explicitly instructs publication. The three publication fields must then all agree: database `workflow_status = 'published'`, JSONB root `record.status = 'published'`, and JSONB root `record.data_version = 5`.
-- Never promote a record to V5, publish it, or apply a read-only lock merely because rework or audit is complete. Each requires its own authorised step.
+The database-level `workflow_status` is separate from the JSON record and is not a JSON field. Use the established lifecycle values `placeholder`, `validated` and `published`: `placeholder` means the CAP awaits rework; `validated` means the rework is complete and awaits the separate final audit; `published` means the final audit passed and publication was explicitly authorised. A completed rework is saved as `workflow_status = 'validated'`. A record may be set to `published` only after the complete final audit passes and the user explicitly instructs publication. Do not add `status` or `data_version` to the JSONB record; neither exists in the shared canonical record schema. Do not promote a record automatically or apply an unrequested lock.
 
 Do not infer Czech Supabase tables, German storage conventions, endpoints or write APIs for Italy. Do not claim that a record has been saved, validated, published or backed up unless the corresponding operation actually succeeded and, for database writes, the read-back was verified.
 
