@@ -17,7 +17,7 @@ async function getItalySql(){
     .catch(error=>{italySqlPromise=null;throw error;});
   return italySqlPromise;
 }
-const statusLabel={inventory:'Inventář',researching:'Rozpracováno',review:'Ke kontrole',published:'Publikováno'};
+const statusLabel={placeholder:'Čeká na rework',validated:'Čeká na audit',published:'Publikováno'};
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
 let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
 let listRequestId=0, selectionRequestId=0;
@@ -147,7 +147,7 @@ function renderList(){
   $('#list').innerHTML=rows.length?rows.map(r=>{
     const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;
     const status=r.status||cached?.status;
-    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):country==='IT'?(r.has_record?(r.record_status==='placeholder'?'Placeholder':(statusLabel[status]||r.record_status||'JSON načten')):'Bez JSON'):'—');
+    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):country==='IT'?(r.has_record?(statusLabel[status]||statusLabel[r.record_status]||r.record_status||'JSON načten'):'Bez JSON'):'—');
     return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>';
   }).join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
@@ -200,7 +200,7 @@ function renderDetail(data){
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
   if(country==='IT'&&data.record?.status==='placeholder'){
-    const status=data.workflow_status||'inventory';
+    const status=data.workflow_status||'placeholder';
     el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Itálie · CAP inventář</div><div class="meta"><span class="badge">placeholder</span> <span class="badge">'+esc(statusLabel[status]||status)+'</span><br>Zdroj: Neon · italy_cap_records · JSON načten z databáze</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div><div class="section-title">Stav záznamu</div><div class="empty">Tento CAP má v Neonu uložený JSON placeholder. Při následném reworku se jeho obsah rozšíří o město, okres, fakta, zdroje, souřadnice a jazykové verze.</div><details class="raw"><summary>Zobrazit celý JSON z Neonu</summary><pre class="json">'+esc(JSON.stringify(data.record,null,2))+'</pre></details>';
     $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data.record,null,2));
     $('#rawBtn').onclick=()=>document.querySelector('.raw summary').click();
