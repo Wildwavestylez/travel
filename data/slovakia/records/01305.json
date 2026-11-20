@@ -183,11 +183,11 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ https://www.posta.sk/psc bylo konzultováno; přiřazení PSČ 013 05 k poště Belá pri Varíne a seznam doručovaných obcí Belá, Kubíková, Lutiše a Lysica byly dále porovnány s nezávislým PSČ adresářem a údaji o pobočce. Pobočka je fyzicky v Belej na adrese Oslobodenia 183/28.",
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ https://www.posta.sk/psc a oficiální seznam vybraných poboček k 15. 4. 2023 https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf; tento seznam uvádí Belá pri Varíne jako dodávací poštu s PSČ 01305 na adrese Oslobodenia 183/28 v obci Belá. Doručovací obce byly porovnány s nezávislým PSČ adresářem.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty a doplňující veřejné poštovní adresáře; online výsledek Slovenské pošty nebyl v této relaci strojově čitelný.",
+    "postcode_source_dataset": "Slovenská pošta – oficiální seznam vybraných poboček k 15. 4. 2023 (Belá pri Varíne, dodávací pošta, PSČ 01305); aktuální oficiální online vyhledávání PSČ konzultováno.",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
@@ -301,6 +301,11 @@
       "url": "https://lutise.oma.sk/",
       "title": "OpenStreetMap/OMA – Lutiše, orientační bod sídla",
       "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – oficiální seznam vybraných poboček k 15. 4. 2023; Belá pri Varíne, dodávací pošta, PSČ 01305, Oslobodenia 183/28",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
     }
   ],
   "translations": {
