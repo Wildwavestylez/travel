@@ -4,7 +4,7 @@
 **Verze auditu:** `prompt_audit.md` V2.0  
 **Datum:** 2026-11-20  
 **Výsledek:** **PUBLISHED V5 / BACKUP VERIFIED — CONTENT REVIEW ACCEPTED WITH ONE DOCUMENTED EXCEPTION**  
-**Publikace / záloha / read-only lock:** `data_version=5` a `status=published` potvrzeno read-backem 38/38; Dropbox JSON + restore SQL + manifest ověřeny SHA-256; read-only lock záměrně neproveden.
+**Publikace / záloha / read-only lock:** `data_version=5` a `status=published` potvrzeno read-backem 38/38; Dropbox JSON + restore SQL + manifest ověřeny SHA-256; **READ-ONLY LOCKED** — trigger `lock_cz_novojicinsko_74101_74401_read_only` chrání přesně 38 uvedených PSČ před INSERT/UPDATE/DELETE; všechny tři testy odmítnuty SQLSTATE 55000.
 
 ## 1. Inventář a rozsah
 
@@ -298,6 +298,6 @@ Primární podklady první dávky:
 - Délková kontrola českých masterů: 22/23 krátkých faktů rozšířeno; Zdislavice zůstávají záměrně stručné.
 - **Publikace:** všech 38/38 PSČ má `data_version=5` a `status=published`; read-back potvrdil 38/38, 0 nesouladů. Celkem 261 faktů.
 - **Záloha:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_74101-74401_2026-11-20T20-29-28-962Z/` — JSON, restore SQL a manifest; `validation.status=VERIFIED`, `readback_verified=true`, 38/38 záznamů, SHA-256 všech tří souborů PASS. Canonical scope hash: `4616f577455e75c93ea8444e9c706086166d8c6ecc491f1b6ba8db11a8aa8e71`.
-- **Read-only lock:** záměrně neproveden; záznamy zůstávají editovatelné.
+- **Read-only lock:** aktivní trigger `lock_cz_novojicinsko_74101_74401_read_only` / funkce `prevent_cz_novojicinsko_74101_74401_mutation()` chrání přesně 38 PSČ. Test UPDATE, DELETE i INSERT byl zablokován očekávaným SQLSTATE `55000`; následný read-back potvrdil trigger i 38/38 V5 published. Odemčení pouze výslovnou a předem kontrolovanou migrací.
 
 Hotové obsahové kontroly se neopakují. Novojičínsko je publikováno V5 a zálohováno; jediná obsahová výjimka Zdislavice je vědomě ponechána.
