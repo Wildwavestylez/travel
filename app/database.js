@@ -225,6 +225,7 @@ function renderDetail(data){
   $('#rawBtn').onclick=()=>document.querySelector('.raw summary').click();
 }
 $('#search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{offset=0;selected=null;loadList()},300)});
+$('#statusFilter')?.addEventListener('change',()=>{offset=0;selected=null;loadList()});
 $('#prev').onclick=()=>{offset=Math.max(0,offset-PAGE_SIZE);selected=null;loadList();$('#list').scrollTop=0};
 $('#next').onclick=()=>{offset+=PAGE_SIZE;selected=null;loadList();$('#list').scrollTop=0};
 document.addEventListener('keydown',e=>{
