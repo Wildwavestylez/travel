@@ -1,4 +1,657 @@
 {
   "postcode": "01306",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Terchová",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Terchová – centrum u kostela sv. Cyrila a Metoda",
+  "representative_point": {
+    "lat": 49.25779,
+    "lon": 19.029909
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Terchovská muzika: tradice zapsaná na seznamu UNESCO",
+      "text": "Terchová si uchovala osobitou hudební tradici, v níž se propojují sláčikové soubory, vícehlasý zpěv a tanec. Typické obsazení tvoří tři až pět hudebníků: první a druhé housle, kontra a malá dvoustrunná basa, někdy doplněné diatonickou harmonikou. K tradici patří i sólová hra na pastýřské píšťaly a znalost výroby nástrojů. Muzika se předává ústně a doprovází rodinné slavnosti i církevní a světské události. Není jen pódiovým folklorem, ale součástí místní identity. UNESCO ji v roce 2013 zapsalo na Reprezentativní seznam nehmotného kulturního dědictví lidstva.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "src_unesco",
+        "src_terchova_history"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Terchová – centrum obce, orientační bod tradice",
+        "lat": 49.25779,
+        "lon": 19.029909,
+        "type": "cultural_center",
+        "accuracy": "area_representative",
+        "source": "https://ich.unesco.org/en/RL/music-of-terchova-00877"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Juraj Jánošík: doložený rodák, kolem něhož vyrostla legenda",
+      "text": "Juraj Jánošík se narodil v lednu 1688 v terchovské osadě u Jánošov pod vrchem Pupov. Záznam o jeho křtu z 25. ledna 1688 se dochoval ve varínské matrice, protože Terchová tehdy patřila do varínské farnosti. Obecní historický přehled ho spojuje s kuruckým vojskem Františka II. Rákociho, službou v císařské posádce na bytčianském zámku a pozdější družinou Tomáše Uhorčíka. Jánošík byl popraven 17. března 1713 v Liptovském Mikuláši. Příběhy o tom, že bohatým bral a chudým dával, patří k pozdější lidové legendě, nikoli k přesnému popisu doložených skutků.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "src_janosik_bio"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Osada u Jánošov pod vrchem Pupov – přibližná oblast rodiště",
+        "lat": 49.27497,
+        "lon": 19.07618,
+        "type": "historic_address",
+        "accuracy": "historical_approximate",
+        "source": "https://www.terchova.sk/navstevnik/historia/vyznamni-rodaci"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Terchová vznikla na valašském právu a její dějiny sahají hlouběji než rok 1580",
+      "text": "Zakládací listina Terchové je datována 22. dubna 1580; obec se tehdy uváděla také starším názvem Kráľova. Její vznik souvisel s kolonizací na valašském právu, která do horského kraje přinesla pastevectví, salašnictví a postupně usedlejší zemědělství. Z původní valašské osady vyrostla pastýřsko-rolnická obec s rozptýlenými osadami. Archeologické nálezy ukazují, že zdejší horské území lidé využívali už dříve: u bývalé Chaty pod Rozsutcem byl nalezen železný hrot kopí spojovaný s púchovskou kulturou z 2.–1. století př. n. l. Přesné okolnosti nálezu nejsou známy.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "src_terchova_history",
+        "src_terchova_1580"
+      ],
+      "map_category": "historic_village",
+      "location": {
+        "name": "Terchová – historické centrum, orientační bod",
+        "lat": 49.25779,
+        "lon": 19.029909,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.terchova.sk/navstevnik/historia/obec"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Jánošíkovy diery: tři soustavy soutěsek a více než dvacet vodopádů",
+      "text": "Jánošíkovy diery tvoří soustava soutěsek a kaňonů v Kriváňské Malé Fatře, na území národní přírodní rezervace Rozsutec. Dierový potok tu vyhloubil skalní průchody, kaskády a více než dvacet vodopádů. Trasa se dělí na Dolné diery, Nové diery a Horné diery; jednotlivé úseky se liší náročností i charakterem. Překonávají se lávky, kovové žebříky a řetězy. Výchozími místy jsou terchovské osady Biely Potok a Štefanová. Horní část může být při vydatných deštích neprůchodná a v zimě se uzavírá kvůli bezpečnosti i ochraně citlivého prostředí.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "src_diery"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Jánošíkovy diery – nástupní oblast Biely Potok",
+        "lat": 49.2575,
+        "lon": 19.0668,
+        "type": "nature_reserve",
+        "accuracy": "approximate",
+        "source": "https://www.terchova.sk/en/navstevnik/turisticke-trasy/janosikove-diery"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Tiesňavy: skalní brána do Vrátnej doliny",
+      "text": "Při cestě z Terchové do Vrátnej doliny se silnice sevře do úzkého kaňonu Tiesňavy, kterým protéká Varínka. Vápence a dolomity tu vytvářejí nápadné skalní útvary, jimž místní dali obrazná jména – například Mních, Ťava nebo Päť furmanov. Území je chráněno jako národní přírodní rezervace Tiesňavy, vyhlášená roku 1967; zahrnuje soutěsku i přilehlé masivy Sokolie a Boboty. Zvláštností je výskyt horských rostlin v neobvykle nízké nadmořské výšce, související s místní klimatickou inverzí. Tiesňavy jsou cenným geologickým i botanickým územím.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "src_tiesnavy",
+        "src_vratna_slovakiatravel"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Tiesňavy – vstupní kaňon Vrátnej doliny",
+        "lat": 49.24465,
+        "lon": 19.0382,
+        "type": "nature_reserve",
+        "accuracy": "approximate",
+        "source": "https://www.terchova.sk/navstevnik/turizmus/tiesnavy"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Duben 1945: fronta, vypálené domy a osvobození Terchové",
+      "text": "Terchová se na jaře 1945 ocitla přímo v bojové linii Ostravské operace. Obecní historické materiály uvádějí, že 10. dubna byla první osvobozenou obcí žilinského okresu; boje v okolí však pokračovaly a střelba mezi Terchovou a Belou trvala až do 18. dubna. Při bojích 8.–9. dubna shořelo přibližně 150 dřevěných domů a hospodářských budov. V katastru Terchové padlo podle obecních údajů 370, případně 385 sovětských vojáků. Raněným i civilistům poskytla útočiště také nedokončená stavba nového kostela. Horná Tižina byla osvobozena 24. dubna 1945.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "src_terchova_ww2",
+        "src_church"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Terchová – centrum, orientační bod pro události dubna 1945",
+        "lat": 49.25779,
+        "lon": 19.029909,
+        "type": "memorial_site",
+        "accuracy": "historical_approximate",
+        "source": "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Kostel sv. Cyrila a Metoda a zvony, které přežily starší chrám",
+      "text": "Nový terchovský kostel vznikal v době, kdy starší kostel sv. Martina z roku 1731 přestal kapacitně stačit. Základní kámen položili roku 1942 z iniciativy kněze Štefana Bittera; na podzim 1944 už stála hrubá stavba. Po vypálení části obce v dubnu 1945 poskytla rozestavěná budova přístřeší lidem, kteří přišli o domovy. Kostel sv. Cyrila a Metoda byl konsekrován 8. října 1949. Do nové stavby byly přeneseny tři zvony ze starého kostela; nejstarší a největší, Juraj, pochází z první poloviny 18. století. Chrám tak uchovává hmotnou paměť starší farní Terchové.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "src_church"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Cyrila a Metoda, Terchová",
+        "lat": 49.2576,
+        "lon": 19.0299,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.terchova.sk/navstevnik/historia/kostol"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Z Terchové a Hornej Tižiny odcházeli lidé za prací až do Ameriky",
+      "text": "Hospodářská nouze na konci 19. a začátku 20. století přiměla řadu obyvatel horského kraje hledat obživu za oceánem. Terchovská obecní studie, která porovnávala lodní seznamy a imigrační záznamy z let 1892–1938, identifikovala 334 lidí pocházejících z Terchové a dalších 21 z Hornej Tižiny. Většina odcházela do Spojených států za placenou prací; část emigrantů se chtěla po několika letech vrátit s úsporami, jiní se usadili natrvalo. Studie pracuje s konkrétními lodními a imigračními záznamy, v nichž bývají slovenská jména často zapsána maďarským pravopisem nebo zkomolena americkými úředníky. Příběh připomíná i složitost pátrání po rodinné historii.",
+      "category": "local_story",
+      "priority": "C",
+      "sources": [
+        "src_emigration"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Terchová – centrum, orientační bod pro příběh emigrace",
+        "lat": 49.25779,
+        "lon": 19.029909,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.terchova.sk/navstevnik/historia/vystahovalectvo-z-obce-terchova-a-horna-tizina"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Ocelová socha Jánošíka střeží cestu do Vrátnej doliny",
+      "text": "Na návrší nad Terchovou stojí monumentální socha Juraja Jánošíka, která se stala jedním z výrazných symbolů obce. Sedm a půl metru vysokou plastiku z ocelového plechu vytvořil akademický sochař Ján Kulich a odhalili ji v roce 1988 při příležitosti třístého výročí Jánošíkova narození. Památník leží nad silnicí směřující do Vrátnej doliny, na opačné straně terchovského chotára než osada u Jánošov, kde se Jánošík podle obecních historických pramenů narodil. Socha je moderním pamětním dílem a připomínkou toho, jak se historická postava proměnila v symbol místní a slovenské lidové kultury.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "src_statue",
+        "src_slovakiatravel_statue"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Socha Juraja Jánošíka, Terchová",
+        "lat": 49.2542,
+        "lon": 19.03782,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/pamaetnik-juraja-janosika-terchova"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální seznam poboček uvádí Poštu Terchová, Svätého Martina 297, PSČ 013 06; oficiální vyhledávač PSČ byl rovněž konzultován.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam pôšt poskytujúcich kopírovacie služby a seznam pôšt s rozšířeným predajom Slovenské pošty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": true,
+    "postcode_conflict_note": "Některé sekundární PSČ adresáře uvádějí u 013 06 také Nižné Kamence. Tuto položku nepřebírám: úřední záznamy Ministerstva spravedlnosti SR uvádějí adresy Nižné Kamence v obci Belá s PSČ 013 05 a oficiální portál Slovakia.travel rovněž uvádí Belá – Nižné Kamence jako 013 05. Pro 013 06 je doložena dodávací pošta Terchová a Horná Tižina je součástí katastrálního území Terchové. Konflikt sekundárních adresářů je zaznamenán a chybná přiřazení vyloučena.",
+    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí Poštu Terchová na adrese Svätého Martina 297, Terchová, PSČ 013 06. Proto je správnou hodnotou city Terchová.",
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR / oficiální územní členění; ÚGKK SR / ZBGIS a oficiální obecní geografické podklady Terchové"
+  },
+  "sources": [
+    {
+      "id": "src_unesco",
+      "title": "Music of Terchová – UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/RL/music-of-terchova-00877",
+      "type": "official"
+    },
+    {
+      "id": "src_terchova_history",
+      "title": "Obec Terchová – Obec (historie a vývoj obce)",
+      "url": "https://www.terchova.sk/navstevnik/historia/obec",
+      "type": "official"
+    },
+    {
+      "id": "src_janosik_bio",
+      "title": "Obec Terchová – Významní rodáci: Juraj Jánošík",
+      "url": "https://www.terchova.sk/navstevnik/historia/vyznamni-rodaci",
+      "type": "official"
+    },
+    {
+      "id": "src_terchova_1580",
+      "title": "Obec Terchová – obecné noviny 2/2025: 445. výročí založení",
+      "url": "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025",
+      "type": "official"
+    },
+    {
+      "id": "src_diery",
+      "title": "Obec Terchová – Jánošíkove diery",
+      "url": "https://www.terchova.sk/en/navstevnik/turisticke-trasy/janosikove-diery",
+      "type": "official"
+    },
+    {
+      "id": "src_tiesnavy",
+      "title": "Obec Terchová – Tiesňavy",
+      "url": "https://www.terchova.sk/navstevnik/turizmus/tiesnavy",
+      "type": "official"
+    },
+    {
+      "id": "src_vratna_slovakiatravel",
+      "title": "Slovakia.travel – Vrátna dolina",
+      "url": "https://slovakia.travel/kam-ist/ocarujuce-slovensko/vratna-dolina",
+      "type": "official"
+    },
+    {
+      "id": "src_terchova_ww2",
+      "title": "Obec Terchová – obecní noviny 2/2025: 80. výročí osvobození Terchové",
+      "url": "https://www.terchova.sk/obec/dokumenty-obce/obecne-noviny?download=7711%3Aobecne-noviny-2-2025",
+      "type": "official"
+    },
+    {
+      "id": "src_church",
+      "title": "Obec Terchová – Kostol sv. Cyrila a Metoda",
+      "url": "https://www.terchova.sk/navstevnik/historia/kostol",
+      "type": "official"
+    },
+    {
+      "id": "src_emigration",
+      "title": "Obec Terchová – Vysťahovalectvo z obcí Terchová a Horná Tižina do USA v rokoch 1892–1938",
+      "url": "https://www.terchova.sk/navstevnik/historia/vystahovalectvo-z-obce-terchova-a-horna-tizina",
+      "type": "official"
+    },
+    {
+      "id": "src_statue",
+      "title": "Obec Terchová – Socha Juraja Jánošíka",
+      "url": "https://www.terchova.sk/navstevnik/zaujimavosti-obce/socha-janosika",
+      "type": "official"
+    },
+    {
+      "id": "src_slovakiatravel_statue",
+      "title": "Slovakia.travel – Pamätník Juraja Jánošíka (Terchová)",
+      "url": "https://slovakia.travel/pamaetnik-juraja-janosika-terchova",
+      "type": "official"
+    },
+    {
+      "id": "src_post_office",
+      "title": "Slovenská pošta – oficiální seznam poboček, Pošta Terchová 013 06",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_post_lookup",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "src_post_conflict",
+      "title": "Obchodný vestník Ministerstva spravodlivosti SR – adresa Nižné Kamence, Belá, 013 05",
+      "url": "https://obchodnyvestnik.justice.gov.sk/ObchodnyVestnik/Formular/FormularDetail.aspx?IdFormular=2480035",
+      "type": "primary"
+    },
+    {
+      "id": "src_bela_nizne",
+      "title": "Slovakia.travel – Camping Belá – Nižné Kamence, Belá 013 05",
+      "url": "https://slovakia.travel/camping-bela-nizne-kamence",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Terchová – centrum u kostela sv. Cyrila a Metoda",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Terchovská muzika: tradice zapsaná na seznamu UNESCO",
+          "text": "Terchová si uchovala osobitou hudební tradici, v níž se propojují sláčikové soubory, vícehlasý zpěv a tanec. Typické obsazení tvoří tři až pět hudebníků: první a druhé housle, kontra a malá dvoustrunná basa, někdy doplněné diatonickou harmonikou. K tradici patří i sólová hra na pastýřské píšťaly a znalost výroby nástrojů. Muzika se předává ústně a doprovází rodinné slavnosti i církevní a světské události. Není jen pódiovým folklorem, ale součástí místní identity. UNESCO ji v roce 2013 zapsalo na Reprezentativní seznam nehmotného kulturního dědictví lidstva."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: doložený rodák, kolem něhož vyrostla legenda",
+          "text": "Juraj Jánošík se narodil v lednu 1688 v terchovské osadě u Jánošov pod vrchem Pupov. Záznam o jeho křtu z 25. ledna 1688 se dochoval ve varínské matrice, protože Terchová tehdy patřila do varínské farnosti. Obecní historický přehled ho spojuje s kuruckým vojskem Františka II. Rákociho, službou v císařské posádce na bytčianském zámku a pozdější družinou Tomáše Uhorčíka. Jánošík byl popraven 17. března 1713 v Liptovském Mikuláši. Příběhy o tom, že bohatým bral a chudým dával, patří k pozdější lidové legendě, nikoli k přesnému popisu doložených skutků."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová vznikla na valašském právu a její dějiny sahají hlouběji než rok 1580",
+          "text": "Zakládací listina Terchové je datována 22. dubna 1580; obec se tehdy uváděla také starším názvem Kráľova. Její vznik souvisel s kolonizací na valašském právu, která do horského kraje přinesla pastevectví, salašnictví a postupně usedlejší zemědělství. Z původní valašské osady vyrostla pastýřsko-rolnická obec s rozptýlenými osadami. Archeologické nálezy ukazují, že zdejší horské území lidé využívali už dříve: u bývalé Chaty pod Rozsutcem byl nalezen železný hrot kopí spojovaný s púchovskou kulturou z 2.–1. století př. n. l. Přesné okolnosti nálezu nejsou známy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jánošíkovy diery: tři soustavy soutěsek a více než dvacet vodopádů",
+          "text": "Jánošíkovy diery tvoří soustava soutěsek a kaňonů v Kriváňské Malé Fatře, na území národní přírodní rezervace Rozsutec. Dierový potok tu vyhloubil skalní průchody, kaskády a více než dvacet vodopádů. Trasa se dělí na Dolné diery, Nové diery a Horné diery; jednotlivé úseky se liší náročností i charakterem. Překonávají se lávky, kovové žebříky a řetězy. Výchozími místy jsou terchovské osady Biely Potok a Štefanová. Horní část může být při vydatných deštích neprůchodná a v zimě se uzavírá kvůli bezpečnosti i ochraně citlivého prostředí."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: skalní brána do Vrátnej doliny",
+          "text": "Při cestě z Terchové do Vrátnej doliny se silnice sevře do úzkého kaňonu Tiesňavy, kterým protéká Varínka. Vápence a dolomity tu vytvářejí nápadné skalní útvary, jimž místní dali obrazná jména – například Mních, Ťava nebo Päť furmanov. Území je chráněno jako národní přírodní rezervace Tiesňavy, vyhlášená roku 1967; zahrnuje soutěsku i přilehlé masivy Sokolie a Boboty. Zvláštností je výskyt horských rostlin v neobvykle nízké nadmořské výšce, související s místní klimatickou inverzí. Tiesňavy jsou cenným geologickým i botanickým územím."
+        },
+        {
+          "id": "fact_006",
+          "title": "Duben 1945: fronta, vypálené domy a osvobození Terchové",
+          "text": "Terchová se na jaře 1945 ocitla přímo v bojové linii Ostravské operace. Obecní historické materiály uvádějí, že 10. dubna byla první osvobozenou obcí žilinského okresu; boje v okolí však pokračovaly a střelba mezi Terchovou a Belou trvala až do 18. dubna. Při bojích 8.–9. dubna shořelo přibližně 150 dřevěných domů a hospodářských budov. V katastru Terchové padlo podle obecních údajů 370, případně 385 sovětských vojáků. Raněným i civilistům poskytla útočiště také nedokončená stavba nového kostela. Horná Tižina byla osvobozena 24. dubna 1945."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kostel sv. Cyrila a Metoda a zvony, které přežily starší chrám",
+          "text": "Nový terchovský kostel vznikal v době, kdy starší kostel sv. Martina z roku 1731 přestal kapacitně stačit. Základní kámen položili roku 1942 z iniciativy kněze Štefana Bittera; na podzim 1944 už stála hrubá stavba. Po vypálení části obce v dubnu 1945 poskytla rozestavěná budova přístřeší lidem, kteří přišli o domovy. Kostel sv. Cyrila a Metoda byl konsekrován 8. října 1949. Do nové stavby byly přeneseny tři zvony ze starého kostela; nejstarší a největší, Juraj, pochází z první poloviny 18. století. Chrám tak uchovává hmotnou paměť starší farní Terchové."
+        },
+        {
+          "id": "fact_008",
+          "title": "Z Terchové a Hornej Tižiny odcházeli lidé za prací až do Ameriky",
+          "text": "Hospodářská nouze na konci 19. a začátku 20. století přiměla řadu obyvatel horského kraje hledat obživu za oceánem. Terchovská obecní studie, která porovnávala lodní seznamy a imigrační záznamy z let 1892–1938, identifikovala 334 lidí pocházejících z Terchové a dalších 21 z Hornej Tižiny. Většina odcházela do Spojených států za placenou prací; část emigrantů se chtěla po několika letech vrátit s úsporami, jiní se usadili natrvalo. Studie pracuje s konkrétními lodními a imigračními záznamy, v nichž bývají slovenská jména často zapsána maďarským pravopisem nebo zkomolena americkými úředníky. Příběh připomíná i složitost pátrání po rodinné historii."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ocelová socha Jánošíka střeží cestu do Vrátnej doliny",
+          "text": "Na návrší nad Terchovou stojí monumentální socha Juraja Jánošíka, která se stala jedním z výrazných symbolů obce. Sedm a půl metru vysokou plastiku z ocelového plechu vytvořil akademický sochař Ján Kulich a odhalili ji v roce 1988 při příležitosti třístého výročí Jánošíkova narození. Památník leží nad silnicí směřující do Vrátnej doliny, na opačné straně terchovského chotára než osada u Jánošov, kde se Jánošík podle obecních historických pramenů narodil. Socha je moderním pamětním dílem a připomínkou toho, jak se historická postava proměnila v symbol místní a slovenské lidové kultury."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Terchová – Ortszentrum bei der Kirche der Heiligen Kyrill und Method",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Musik aus Terchová: eine UNESCO-anerkannte Tradition",
+          "text": "Terchová hat eine eigenständige Musiktradition bewahrt, in der Streicherensembles, mehrstimmiger Gesang und Tanz zusammenkommen. Typisch sind Gruppen mit drei bis fünf Musikern: erste und zweite Geige, Kontra und ein kleiner zweisaitiger Bass, gelegentlich ergänzt durch ein diatonisches Akkordeon. Dazu gehören Solodarbietungen auf Hirtenflöten und das Wissen um den Instrumentenbau. Die mündlich überlieferte Musik begleitet Familienfeste sowie kirchliche und weltliche Anlässe und prägt die lokale Identität. 2013 nahm die UNESCO sie in die Repräsentative Liste des immateriellen Kulturerbes der Menschheit auf."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: ein historisch belegter Sohn Terchovás, um den sich eine Legende bildete",
+          "text": "Juraj Jánošík wurde im Januar 1688 in der Siedlung u Jánošov unterhalb des Berges Pupov geboren. Sein Taufeintrag vom 25. Januar 1688 ist im Kirchenbuch von Varín erhalten, denn Terchová gehörte damals zur Pfarrei Varín. Die Ortschronik verbindet ihn mit dem Kuruzzenheer von Franz II. Rákóczi, dem Dienst in der kaiserlichen Garnison auf Schloss Bytča und später mit der Räubergruppe von Tomáš Uhorčík. Jánošík wurde am 17. März 1713 in Liptovský Mikuláš hingerichtet. Die Erzählung, er habe den Reichen genommen und den Armen gegeben, gehört zur späteren Volkslegende und ist nicht mit den belegten Taten gleichzusetzen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová entstand auf Grundlage des walachischen Rechts – ihre Geschichte reicht weiter zurück als 1580",
+          "text": "Die Gründungsurkunde von Terchová datiert vom 22. April 1580; damals wurde der Ort auch Kráľova genannt. Seine Entstehung hängt mit der Kolonisation nach walachischem Recht zusammen, die Viehhaltung, Almwirtschaft und später eine sesshaftere Landwirtschaft in die Bergregion brachte. Aus einer walachischen Siedlung entwickelte sich eine Hirten- und Bauerngemeinde mit verstreuten Einzelsiedlungen. Archäologische Funde zeigen eine frühere Nutzung des Berglands: Bei der ehemaligen Chata pod Rozsutcom wurde eine eiserne Lanzenspitze gefunden, die mit der Púchov-Kultur des 2.–1. Jahrhunderts v. Chr. verbunden wird. Die genauen Fundumstände sind unbekannt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jánošík-Schluchten: drei Abschnitte und mehr als zwanzig Wasserfälle",
+          "text": "Die Jánošík-Schluchten sind ein System aus Engtälern und Canyons in der Kriváňská Malá Fatra innerhalb des Nationalen Naturreservats Rozsutec. Der Bach Dierový hat hier Felsdurchgänge, Kaskaden und mehr als zwanzig Wasserfälle geformt. Das Gebiet gliedert sich in Dolné diery, Nové diery und Horné diery. Der Weg führt über Stege, Metallleitern und Ketten. Ausgangspunkte sind die Terchováer Siedlungen Biely Potok und Štefanová. Der obere Abschnitt kann bei starkem Regen unpassierbar sein und ist im Winter gesperrt – aus Sicherheitsgründen und zum Schutz des empfindlichen Naturraums."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: das Felsentor zum Vrátna-Tal",
+          "text": "Auf der Fahrt von Terchová ins Vrátna-Tal verengt sich die Straße zur Schlucht Tiesňavy, durch die die Varínka fließt. Kalkstein und Dolomit bilden markante Felsgestalten, die Einheimische Mních, Ťava oder Päť furmanov nennen. Seit 1967 steht das Gebiet als Nationales Naturreservat Tiesňavy unter Schutz; es umfasst die Schlucht sowie die Bergmassive Sokolie und Boboty. Eine Besonderheit sind alpine Pflanzen in ungewöhnlich geringer Höhe, begünstigt durch eine lokale Temperaturinversion. Tiesňavy ist damit ein wertvolles geologisches und botanisches Gebiet."
+        },
+        {
+          "id": "fact_006",
+          "title": "April 1945: Frontkämpfe, niedergebrannte Häuser und die Befreiung Terchovás",
+          "text": "Im Frühjahr 1945 lag Terchová direkt an der Frontlinie der Mährisch-Ostrauer Operation. Laut den historischen Materialien der Gemeinde war Terchová am 10. April die erste befreite Gemeinde im Bezirk Žilina; die Kämpfe gingen jedoch weiter, und der Beschuss zwischen Terchová und Belá dauerte bis zum 18. April. Am 8. und 9. April brannten etwa 150 Holzhäuser und Wirtschaftsgebäude nieder. Im Gemeindegebiet fielen nach Angaben der Gemeinde 370 beziehungsweise 385 sowjetische Soldaten. Der Rohbau der neuen Kirche bot Verwundeten und Zivilisten Schutz. Horná Tižina wurde am 24. April 1945 befreit."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Kirche der Heiligen Kyrill und Method und die Glocken des älteren Gotteshauses",
+          "text": "Die neue Kirche entstand, weil die ältere Martinskirche von 1731 zu klein geworden war. Der Grundstein wurde 1942 auf Initiative des Priesters Štefan Bitter gelegt; im Herbst 1944 stand bereits der Rohbau. Nach dem Brand eines Teils des Dorfes im April 1945 bot das unfertige Gebäude Menschen ohne Zuhause Schutz. Die Kirche der Heiligen Kyrill und Method wurde am 8. Oktober 1949 geweiht. Drei Glocken aus der alten Kirche wurden übernommen; die älteste und größte, Juraj, stammt aus der ersten Hälfte des 18. Jahrhunderts. So bewahrt das Gotteshaus auch die materielle Erinnerung an die ältere Pfarrgeschichte Terchovás."
+        },
+        {
+          "id": "fact_008",
+          "title": "Aus Terchová und Horná Tižina gingen Menschen auf Arbeitssuche bis nach Amerika",
+          "text": "Die wirtschaftliche Not um 1900 veranlasste viele Bewohner der Bergregion, Arbeit jenseits des Atlantiks zu suchen. Eine Gemeindestudie anhand von Passagierlisten und Einwanderungsunterlagen aus den Jahren 1892 bis 1938 identifizierte 334 Menschen aus Terchová und weitere 21 aus Horná Tižina. Die meisten reisten zur Arbeit in die Vereinigten Staaten; manche wollten mit Ersparnissen zurückkehren, andere blieben dauerhaft. In den Unterlagen wurden slowakische Namen häufig ungarisch geschrieben oder von US-Beamten entstellt. Die Geschichte erzählt daher auch von den Schwierigkeiten, Familiengeschichte zu rekonstruieren."
+        },
+        {
+          "id": "fact_009",
+          "title": "Die stählerne Jánošík-Statue wacht über die Straße ins Vrátna-Tal",
+          "text": "Auf einer Anhöhe über Terchová steht eine monumentale Statue von Juraj Jánošík, heute eines der bekanntesten Symbole der Gemeinde. Die 7,5 Meter hohe Skulptur aus Stahlblech schuf der Bildhauer Ján Kulich; enthüllt wurde sie 1988 zum 300. Geburtstag Jánošíks. Das Denkmal steht über der Straße ins Vrátna-Tal, auf der gegenüberliegenden Seite des Gemeindegebiets von der Siedlung u Jánošov, in der Jánošík nach den historischen Quellen geboren wurde. Die moderne Gedenkskulptur zeigt, wie die historische Person zum Symbol lokaler und slowakischer Volkskultur wurde."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Terchová – village centre by the Church of Saints Cyril and Methodius",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Terchová music: a tradition inscribed by UNESCO",
+          "text": "Terchová has preserved a distinctive musical tradition combining string ensembles, multipart singing and dance. A typical group has three to five musicians: first and second violins, kontra and a small two-string bass, sometimes joined by a diatonic button accordion. The heritage also includes solo shepherd’s-fife performances and instrument-making skills. Passed down orally, the music accompanies family celebrations and religious and secular events and forms part of local identity. In 2013 UNESCO inscribed it on the Representative List of the Intangible Cultural Heritage of Humanity."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: a documented native of Terchová surrounded by legend",
+          "text": "Juraj Jánošík was born in January 1688 in the settlement of u Jánošov below Mount Pupov. His baptism entry dated 25 January 1688 survives in the parish register of Varín, since Terchová then belonged to that parish. The municipal history links him to the kuruc army of Francis II Rákóczi, service in the imperial garrison at Bytča Castle and later the band led by Tomáš Uhorčík. Jánošík was executed in Liptovský Mikuláš on 17 March 1713. The story that he took from the rich and gave to the poor belongs to later folk legend, not to a precise account of documented deeds."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová began under Wallachian settlement law, but its story reaches further back than 1580",
+          "text": "Terchová’s founding charter is dated 22 April 1580; the settlement was also known by the older name Kráľova. Its establishment was connected with colonisation under Wallachian law, bringing pastoral farming, sheep-rearing and gradually more settled agriculture to the mountains. The original settlement developed into a farming and herding community with scattered hamlets. Archaeological finds show earlier use of the area: an iron spearhead associated with the Púchov culture of the 2nd–1st centuries BC was found near the former Chata pod Rozsutcom. The exact circumstances of the find are unknown."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jánošík’s Gorges: three sections and more than twenty waterfalls",
+          "text": "Jánošík’s Gorges are a system of ravines and canyons in the Kriváň Malá Fatra, within Rozsutec National Nature Reserve. The Dierový stream has carved rock passages, cascades and more than twenty waterfalls. The area has three sections: Dolné diery, Nové diery and Horné diery. The route uses footbridges, metal ladders and chains. Access points are the Terchová settlements of Biely Potok and Štefanová. The upper section can become impassable in heavy rain and is closed in winter, for safety and to protect the sensitive environment."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: the rocky gateway to the Vrátna Valley",
+          "text": "On the road from Terchová into the Vrátna Valley, the route narrows into Tiesňavy gorge, through which the Varínka flows. Limestone and dolomite form striking rock shapes known locally as Mních, Ťava and Päť furmanov. The area has been protected as Tiesňavy National Nature Reserve since 1967 and includes the gorge and the Sokolie and Boboty massifs. A notable feature is the occurrence of alpine plants at unusually low elevations, encouraged by a local temperature inversion. Tiesňavy is a valuable geological and botanical area."
+        },
+        {
+          "id": "fact_006",
+          "title": "April 1945: frontline fighting, burned homes and the liberation of Terchová",
+          "text": "In spring 1945 Terchová lay on the frontline of the Moravian-Ostrava Offensive. Municipal historical material says it was the first municipality in Žilina District to be liberated, on 10 April; fighting continued, however, and shelling between Terchová and Belá lasted until 18 April. Around 150 wooden houses and farm buildings burned on 8–9 April. Municipal records report 370, or in some accounts 385, Soviet soldiers killed in Terchová’s cadastral area. The unfinished new church sheltered wounded people and civilians who had lost their homes. Horná Tižina was liberated on 24 April 1945."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Church of Saints Cyril and Methodius and the bells inherited from the older church",
+          "text": "The new church was built because the older Church of St Martin, dating from 1731, had become too small. Its foundation stone was laid in 1942 at the initiative of priest Štefan Bitter; by autumn 1944 the shell was standing. After part of the village burned in April 1945, the unfinished building sheltered people who had lost their homes. The Church of Saints Cyril and Methodius was consecrated on 8 October 1949. Three bells were transferred from the old church; the oldest and largest, Juraj, dates from the first half of the eighteenth century. The building preserves a tangible link with Terchová’s earlier parish history."
+        },
+        {
+          "id": "fact_008",
+          "title": "People from Terchová and Horná Tižina crossed the Atlantic in search of work",
+          "text": "Economic hardship around 1900 led many people from this mountain region to seek work overseas. A municipal study comparing passenger lists and immigration records from 1892 to 1938 identified 334 people from Terchová and another 21 from Horná Tižina. Most travelled to the United States for work; some planned to return with savings, while others settled permanently. Slovak names in the records were often written using Hungarian spelling or distorted by US officials. The story also illustrates the difficulty of tracing family history."
+        },
+        {
+          "id": "fact_009",
+          "title": "The steel statue of Jánošík watches over the road into the Vrátna Valley",
+          "text": "A monumental statue of Juraj Jánošík stands on a rise above Terchová and has become one of the municipality’s best-known symbols. The 7.5-metre steel-plate sculpture was created by Ján Kulich and unveiled in 1988 to mark the 300th anniversary of Jánošík’s birth. It stands above the road into the Vrátna Valley, on the opposite side of the municipality from u Jánošov, where historical sources place his birthplace. The modern memorial shows how a historical figure became an emblem of local and Slovak folk culture."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Terchová – centro del pueblo junto a la iglesia de San Cirilo y San Metodio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La música de Terchová: una tradición inscrita por la UNESCO",
+          "text": "Terchová ha conservado una tradición musical propia que une conjuntos de cuerda, canto polifónico y danza. La formación típica reúne de tres a cinco músicos: primer y segundo violín, kontra y un pequeño bajo de dos cuerdas, a veces acompañado por acordeón diatónico. El patrimonio incluye también flautas de pastor y saberes de fabricación de instrumentos. Transmitida oralmente, la música acompaña fiestas familiares y actos religiosos y civiles y forma parte de la identidad local. En 2013 la UNESCO la inscribió en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: un personaje histórico documentado rodeado de leyendas",
+          "text": "Juraj Jánošík nació en enero de 1688 en el asentamiento de u Jánošov, bajo el monte Pupov. Su partida de bautismo del 25 de enero de 1688 se conserva en el registro parroquial de Varín, pues Terchová pertenecía entonces a esa parroquia. La historia municipal lo relaciona con el ejército kuruc de Francisco II Rákóczi, el servicio en la guarnición imperial del castillo de Bytča y la partida de Tomáš Uhorčík. Fue ejecutado en Liptovský Mikuláš el 17 de marzo de 1713. La historia de que robaba a los ricos para dar a los pobres pertenece a la leyenda popular posterior, no a los hechos documentados."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová nació bajo el derecho valaco, pero su historia es anterior a 1580",
+          "text": "El acta fundacional de Terchová está fechada el 22 de abril de 1580; el asentamiento también se conocía como Kráľova. Su origen estuvo ligado a la colonización según el derecho valaco, que introdujo la ganadería pastoril y, gradualmente, una agricultura más sedentaria. La aldea inicial evolucionó hacia una comunidad de pastores y agricultores con asentamientos dispersos. Los hallazgos arqueológicos indican un uso anterior del territorio: cerca de la antigua Chata pod Rozsutcom apareció una punta de lanza de hierro asociada a la cultura de Púchov de los siglos II–I a. C. Se desconocen las circunstancias exactas del hallazgo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Las gargantas de Jánošík: tres tramos y más de veinte cascadas",
+          "text": "Las gargantas de Jánošík forman un conjunto de desfiladeros y cañones en la Malá Fatra de Kriváň, dentro de la Reserva Natural Nacional de Rozsutec. El arroyo Dierový ha excavado pasos rocosos, cascadas y más de veinte saltos de agua. El sistema comprende tres sectores: Dolné diery, Nové diery y Horné diery. El recorrido incluye pasarelas, escaleras metálicas y cadenas. Se accede desde los asentamientos de Biely Potok y Štefanová. El tramo superior puede quedar impracticable con lluvias intensas y se cierra en invierno por seguridad y para proteger el entorno."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: la puerta rocosa del valle de Vrátna",
+          "text": "En la carretera de Terchová al valle de Vrátna, el camino se estrecha en el desfiladero de Tiesňavy, por donde discurre el arroyo Varínka. La caliza y la dolomía forman figuras rocosas llamadas localmente Mních, Ťava y Päť furmanov. El lugar está protegido como Reserva Natural Nacional de Tiesňavy desde 1967 e incluye el desfiladero y los macizos de Sokolie y Boboty. Destaca la presencia de plantas alpinas a cotas inusualmente bajas, favorecida por una inversión térmica local. Es un espacio de gran valor geológico y botánico."
+        },
+        {
+          "id": "fact_006",
+          "title": "Abril de 1945: combates en el frente, casas incendiadas y liberación de Terchová",
+          "text": "En la primavera de 1945 Terchová quedó en la línea del frente de la operación de Ostrava. Según la documentación municipal, fue la primera localidad liberada del distrito de Žilina, el 10 de abril; los combates continuaron y los bombardeos entre Terchová y Belá duraron hasta el 18 de abril. Durante los días 8 y 9 de abril ardieron unas 150 viviendas de madera y edificios agrícolas. Los registros municipales contabilizan 370, o según otras fuentes 385, soldados soviéticos muertos en el término de Terchová. La iglesia nueva aún inacabada dio refugio a heridos y civiles sin hogar. Horná Tižina fue liberada el 24 de abril de 1945."
+        },
+        {
+          "id": "fact_007",
+          "title": "La iglesia de San Cirilo y San Metodio y las campanas del templo antiguo",
+          "text": "La nueva iglesia se construyó porque la antigua iglesia de San Martín, de 1731, se había quedado pequeña. La primera piedra se colocó en 1942 por iniciativa del sacerdote Štefan Bitter; en otoño de 1944 ya estaba levantada la estructura. Tras el incendio de parte del pueblo en abril de 1945, el edificio inacabado acogió a quienes habían perdido su hogar. La iglesia de San Cirilo y San Metodio fue consagrada el 8 de octubre de 1949. Se trasladaron tres campanas del templo anterior; la más antigua y grande, Juraj, data de la primera mitad del siglo XVIII. El edificio conserva una memoria material de la antigua parroquia."
+        },
+        {
+          "id": "fact_008",
+          "title": "Desde Terchová y Horná Tižina hubo emigrantes que cruzaron el Atlántico en busca de trabajo",
+          "text": "Las dificultades económicas alrededor de 1900 llevaron a muchos habitantes de esta región montañosa a buscar trabajo en el extranjero. Un estudio municipal de listas de pasajeros y registros migratorios de 1892 a 1938 identificó a 334 personas de Terchová y otras 21 de Horná Tižina. La mayoría viajó a Estados Unidos para trabajar; algunos pensaban regresar con ahorros y otros se establecieron allí. Los nombres eslovacos de los documentos aparecen a menudo con grafía húngara o deformados por funcionarios estadounidenses. La historia también muestra lo difícil que puede ser reconstruir la memoria familiar."
+        },
+        {
+          "id": "fact_009",
+          "title": "La estatua de acero de Jánošík vigila el camino hacia el valle de Vrátna",
+          "text": "En una elevación sobre Terchová se alza una estatua monumental de Juraj Jánošík, uno de los símbolos más conocidos del municipio. La escultura de chapa de acero, de 7,5 metros, fue creada por Ján Kulich e inaugurada en 1988 por el tricentenario del nacimiento de Jánošík. Domina la carretera hacia el valle de Vrátna, al otro lado del término municipal respecto a u Jánošov, donde las fuentes históricas sitúan su nacimiento. Este memorial moderno recuerda cómo una figura histórica se convirtió en emblema de la cultura popular local y eslovaca."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Terchová – centre du village près de l’église Saints-Cyrille-et-Méthode",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La musique de Terchová : une tradition inscrite par l’UNESCO",
+          "text": "Terchová a préservé une tradition musicale singulière associant ensembles à cordes, chant polyphonique et danse. La formation typique réunit trois à cinq musiciens : premier et second violons, kontra et petite basse à deux cordes, parfois accompagnés d’un accordéon diatonique. Le patrimoine comprend aussi les flûtes de berger et le savoir-faire instrumental. Transmise oralement, cette musique accompagne les fêtes familiales et les événements religieux et profanes et fait partie de l’identité locale. En 2013, l’UNESCO l’a inscrite sur la Liste représentative du patrimoine culturel immatériel de l’humanité."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík : un personnage historique attesté, entouré de légendes",
+          "text": "Juraj Jánošík est né en janvier 1688 dans le hameau d’u Jánošov, sous le mont Pupov. Son acte de baptême du 25 janvier 1688 est conservé dans le registre paroissial de Varín, car Terchová dépendait alors de cette paroisse. L’histoire communale le relie à l’armée kuruc de François II Rákóczi, au service dans la garnison impériale du château de Bytča puis à la bande de Tomáš Uhorčík. Il fut exécuté à Liptovský Mikuláš le 17 mars 1713. Le récit selon lequel il prenait aux riches pour donner aux pauvres relève de la légende populaire postérieure, non des faits établis."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová s’est développée sous le droit valaque, mais son histoire remonte avant 1580",
+          "text": "L’acte de fondation de Terchová est daté du 22 avril 1580 ; le lieu portait aussi l’ancien nom de Kráľova. Sa création est liée à la colonisation selon le droit valaque, qui a introduit l’élevage pastoral puis une agriculture plus sédentaire. Le hameau initial est devenu une communauté de bergers et d’agriculteurs aux établissements dispersés. Des découvertes archéologiques attestent une fréquentation antérieure : une pointe de lance en fer associée à la culture de Púchov des IIe–Ier siècles av. J.-C. a été trouvée près de l’ancienne Chata pod Rozsutcom. Les circonstances précises restent inconnues."
+        },
+        {
+          "id": "fact_004",
+          "title": "Les gorges de Jánošík : trois secteurs et plus de vingt cascades",
+          "text": "Les gorges de Jánošík forment un ensemble de défilés et de canyons dans la Petite Fatra de Kriváň, au sein de la réserve naturelle nationale de Rozsutec. Le ruisseau Dierový a creusé des passages rocheux, des cascades et plus de vingt chutes d’eau. Le site comprend trois secteurs : Dolné diery, Nové diery et Horné diery. Le parcours emprunte passerelles, échelles métalliques et chaînes. Les départs se font depuis Biely Potok et Štefanová. La partie supérieure peut devenir impraticable lors de fortes pluies et ferme en hiver pour des raisons de sécurité et de protection du milieu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy : la porte rocheuse de la vallée de Vrátna",
+          "text": "Sur la route de Terchová vers la vallée de Vrátna, le passage se resserre dans le défilé de Tiesňavy, traversé par le ruisseau Varínka. Le calcaire et la dolomie forment des silhouettes rocheuses nommées localement Mních, Ťava et Päť furmanov. Le site est protégé depuis 1967 en tant que réserve naturelle nationale de Tiesňavy ; elle comprend le défilé et les massifs de Sokolie et Boboty. Des plantes alpines poussent à une altitude inhabituellement basse, favorisées par une inversion thermique locale. Tiesňavy possède ainsi une grande valeur géologique et botanique."
+        },
+        {
+          "id": "fact_006",
+          "title": "Avril 1945 : combats sur le front, maisons incendiées et libération de Terchová",
+          "text": "Au printemps 1945, Terchová se trouvait sur la ligne de front de l’opération d’Ostrava. Selon les documents communaux, elle fut la première localité libérée du district de Žilina, le 10 avril ; les combats continuèrent et les tirs entre Terchová et Belá durèrent jusqu’au 18 avril. Environ 150 maisons en bois et bâtiments agricoles brûlèrent les 8 et 9 avril. Les archives communales comptent 370 soldats soviétiques morts dans le territoire de Terchová, ou 385 selon certaines sources. Le gros œuvre de la nouvelle église abrita des blessés et des civils sans logement. Horná Tižina fut libérée le 24 avril 1945."
+        },
+        {
+          "id": "fact_007",
+          "title": "L’église Saints-Cyrille-et-Méthode et les cloches de l’ancien sanctuaire",
+          "text": "La nouvelle église fut construite parce que l’ancienne église Saint-Martin de 1731 était devenue trop petite. La première pierre fut posée en 1942 à l’initiative du prêtre Štefan Bitter ; à l’automne 1944, le gros œuvre était achevé. Après l’incendie d’une partie du village en avril 1945, le bâtiment inachevé abrita les habitants ayant perdu leur maison. L’église Saints-Cyrille-et-Méthode fut consacrée le 8 octobre 1949. Trois cloches de l’ancien édifice y furent transférées ; la plus ancienne et la plus grande, Juraj, date de la première moitié du XVIIIe siècle. L’église conserve ainsi la mémoire matérielle de l’ancienne paroisse."
+        },
+        {
+          "id": "fact_008",
+          "title": "Des habitants de Terchová et de Horná Tižina sont partis travailler jusqu’en Amérique",
+          "text": "Les difficultés économiques autour de 1900 ont poussé de nombreux habitants de cette région montagneuse à chercher du travail outre-Atlantique. Une étude communale comparant les listes de passagers et les dossiers d’immigration de 1892 à 1938 a identifié 334 personnes de Terchová et 21 de Horná Tižina. La plupart sont parties travailler aux États-Unis ; certaines comptaient revenir avec des économies, d’autres se sont installées durablement. Les noms slovaques étaient souvent transcrits selon l’orthographe hongroise ou déformés par les agents américains. Cette histoire raconte aussi les difficultés de reconstitution des histoires familiales."
+        },
+        {
+          "id": "fact_009",
+          "title": "La statue d’acier de Jánošík veille sur la route de la vallée de Vrátna",
+          "text": "Sur une hauteur au-dessus de Terchová se dresse une statue monumentale de Juraj Jánošík, devenue l’un des symboles de la commune. Haute de 7,5 mètres, cette sculpture en tôle d’acier a été réalisée par Ján Kulich et inaugurée en 1988 pour le tricentenaire de la naissance de Jánošík. Le monument domine la route de la vallée de Vrátna, à l’opposé du hameau d’u Jánošov où les sources historiques situent sa naissance. Cette œuvre commémorative moderne rappelle comment un personnage historique est devenu un emblème de la culture populaire locale et slovaque."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Terchová – centro del paese presso la chiesa dei Santi Cirillo e Metodio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La musica di Terchová: una tradizione iscritta dall’UNESCO",
+          "text": "Terchová ha conservato una tradizione musicale distintiva che unisce gruppi di archi, canto polifonico e danza. La formazione tipica comprende da tre a cinque musicisti: primo e secondo violino, kontra e un piccolo basso a due corde, talvolta affiancati da una fisarmonica diatonica. Il patrimonio include anche flauti da pastore e competenze nella costruzione degli strumenti. Tramandata oralmente, la musica accompagna feste familiari ed eventi religiosi e civili ed è parte dell’identità locale. Nel 2013 l’UNESCO l’ha iscritta nella Lista rappresentativa del patrimonio culturale immateriale dell’umanità."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: un personaggio storico documentato, circondato dalla leggenda",
+          "text": "Juraj Jánošík nacque nel gennaio 1688 nell’insediamento di u Jánošov, sotto il monte Pupov. Il suo atto di battesimo del 25 gennaio 1688 è conservato nel registro parrocchiale di Varín, poiché allora Terchová apparteneva a quella parrocchia. La storia comunale lo collega all’esercito kuruc di Francesco II Rákóczi, al servizio nella guarnigione imperiale del castello di Bytča e poi alla banda di Tomáš Uhorčík. Fu giustiziato a Liptovský Mikuláš il 17 marzo 1713. Il racconto secondo cui rubava ai ricchi per dare ai poveri appartiene alla leggenda popolare successiva, non ai fatti documentati."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová nacque sotto il diritto valacco, ma la sua storia precede il 1580",
+          "text": "L’atto di fondazione di Terchová è datato 22 aprile 1580; l’insediamento era noto anche come Kráľova. La sua origine è legata alla colonizzazione secondo il diritto valacco, che portò l’allevamento pastorale e gradualmente un’agricoltura più stabile. Il nucleo iniziale si trasformò in una comunità di pastori e agricoltori con piccoli insediamenti sparsi. I reperti archeologici mostrano una frequentazione precedente: vicino all’ex Chata pod Rozsutcom fu trovata una punta di lancia in ferro associata alla cultura di Púchov del II–I secolo a.C. Le circostanze precise del ritrovamento sono sconosciute."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le gole di Jánošík: tre settori e più di venti cascate",
+          "text": "Le gole di Jánošík sono un sistema di gole e canyon nella Piccola Fatra di Kriváň, all’interno della Riserva Naturale Nazionale di Rozsutec. Il torrente Dierový ha scavato passaggi nella roccia, cascate e più di venti salti d’acqua. Il sistema comprende tre settori: Dolné diery, Nové diery e Horné diery. Il percorso attraversa passerelle, scale metalliche e catene. I punti di partenza sono Biely Potok e Štefanová. Il tratto superiore può diventare impraticabile con piogge intense ed è chiuso in inverno per sicurezza e tutela ambientale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: la porta rocciosa della valle di Vrátna",
+          "text": "Sulla strada da Terchová alla valle di Vrátna, il percorso si restringe nella gola di Tiesňavy, attraversata dal torrente Varínka. Calcare e dolomia formano profili rocciosi chiamati localmente Mních, Ťava e Päť furmanov. Dal 1967 l’area è protetta come Riserva Naturale Nazionale di Tiesňavy e comprende la gola e i massicci di Sokolie e Boboty. Una particolarità è la presenza di piante alpine a quote insolitamente basse, favorita da un’inversione termica locale. Tiesňavy è un’area di grande valore geologico e botanico."
+        },
+        {
+          "id": "fact_006",
+          "title": "Aprile 1945: combattimenti al fronte, case incendiate e liberazione di Terchová",
+          "text": "Nella primavera del 1945 Terchová si trovava sulla linea del fronte dell’operazione di Ostrava. Secondo i documenti comunali, fu il primo centro liberato nel distretto di Žilina, il 10 aprile; i combattimenti continuarono e il fuoco tra Terchová e Belá durò fino al 18 aprile. L’8 e 9 aprile bruciarono circa 150 case in legno ed edifici agricoli. I registri comunali riportano 370, o secondo alcune fonti 385, soldati sovietici caduti nel territorio di Terchová. La nuova chiesa incompiuta offrì riparo a feriti e civili senza casa. Horná Tižina fu liberata il 24 aprile 1945."
+        },
+        {
+          "id": "fact_007",
+          "title": "La chiesa dei Santi Cirillo e Metodio e le campane del vecchio edificio",
+          "text": "La nuova chiesa fu costruita perché la precedente chiesa di San Martino, del 1731, era diventata troppo piccola. La prima pietra fu posata nel 1942 su iniziativa del sacerdote Štefan Bitter; nell’autunno del 1944 la struttura era già in piedi. Dopo l’incendio di parte del paese nell’aprile 1945, l’edificio incompiuto offrì riparo a chi aveva perso la casa. La chiesa dei Santi Cirillo e Metodio fu consacrata l’8 ottobre 1949. Furono trasferite tre campane della vecchia chiesa; la più antica e grande, Juraj, risale alla prima metà del XVIII secolo. L’edificio conserva una memoria materiale della vecchia parrocchia."
+        },
+        {
+          "id": "fact_008",
+          "title": "Da Terchová e Horná Tižina partirono emigranti in cerca di lavoro fino in America",
+          "text": "Le difficoltà economiche intorno al 1900 spinsero molti abitanti di questa regione montuosa a cercare lavoro oltreoceano. Uno studio comunale su elenchi dei passeggeri e registri d’immigrazione del 1892–1938 ha identificato 334 persone di Terchová e altre 21 di Horná Tižina. La maggior parte partì per lavorare negli Stati Uniti; alcuni volevano tornare con i risparmi, altri si stabilirono definitivamente. Nei documenti i nomi slovacchi erano spesso trascritti con grafia ungherese o deformati dagli impiegati statunitensi. La vicenda racconta anche le difficoltà di ricostruire la storia delle famiglie."
+        },
+        {
+          "id": "fact_009",
+          "title": "La statua d’acciaio di Jánošík veglia sulla strada per la valle di Vrátna",
+          "text": "Su un’altura sopra Terchová si erge una statua monumentale di Juraj Jánošík, diventata uno dei simboli più noti del comune. La scultura in lamiera d’acciaio, alta 7,5 metri, fu realizzata da Ján Kulich e inaugurata nel 1988 per il trecentesimo anniversario della nascita di Jánošík. Il monumento domina la strada verso la valle di Vrátna, sul lato opposto del territorio comunale rispetto a u Jánošov, dove le fonti storiche collocano la sua nascita. È un memoriale moderno che ricorda come una figura storica sia diventata un emblema della cultura popolare locale e slovacca."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Terchová – dorpscentrum bij de kerk van de heiligen Cyrillus en Methodius",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De muziek van Terchová: een traditie op de UNESCO-lijst",
+          "text": "Terchová heeft een eigen muziektraditie behouden waarin strijkensembles, meerstemmige zang en dans samenkomen. Een typische groep bestaat uit drie tot vijf muzikanten: eerste en tweede viool, kontra en een kleine tweesnarige bas, soms aangevuld met een diatonische knopaccordeon. Tot het erfgoed behoren ook herdersfluiten en kennis van instrumentenbouw. De muziek wordt mondeling doorgegeven en klinkt bij familiefeesten en religieuze en wereldlijke gebeurtenissen. Ze maakt deel uit van de plaatselijke identiteit. In 2013 plaatste UNESCO de traditie op de Representatieve Lijst van het Immaterieel Cultureel Erfgoed van de Mensheid."
+        },
+        {
+          "id": "fact_002",
+          "title": "Juraj Jánošík: een historisch gedocumenteerde Terchovaanse geboorteplaats, omgeven door legenden",
+          "text": "Juraj Jánošík werd in januari 1688 geboren in de nederzetting u Jánošov, onder de berg Pupov. Zijn doopinschrijving van 25 januari 1688 is bewaard in het parochieregister van Varín, omdat Terchová toen bij die parochie hoorde. De gemeentelijke geschiedschrijving verbindt hem met het kuruc-leger van Frans II Rákóczi, zijn dienst in het keizerlijke garnizoen op kasteel Bytča en later de roversbende van Tomáš Uhorčík. Hij werd op 17 maart 1713 in Liptovský Mikuláš terechtgesteld. Het verhaal dat hij van de rijken stal om aan de armen te geven, hoort bij de latere volkslegende en niet bij de gedocumenteerde feiten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Terchová ontstond onder het Walachijse kolonisatierecht, maar de geschiedenis gaat terug tot vóór 1580",
+          "text": "De stichtingsakte van Terchová dateert van 22 april 1580; de nederzetting stond ook bekend als Kráľova. Het ontstaan hing samen met kolonisatie volgens het Walachijse recht, dat veeteelt, schapenhouderij en later meer vaste landbouw naar het berggebied bracht. De oorspronkelijke nederzetting groeide uit tot een gemeenschap van herders en boeren met verspreide gehuchten. Archeologische vondsten wijzen op eerder gebruik: bij de voormalige Chata pod Rozsutcom werd een ijzeren speerpunt gevonden die wordt verbonden met de Púchovcultuur uit de 2e–1e eeuw v.Chr. De precieze omstandigheden van de vondst zijn onbekend."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Jánošík-kloof: drie delen en meer dan twintig watervallen",
+          "text": "De Jánošík-kloof bestaat uit nauwe kloven en canyons in de Kriváň-Malá Fatra, binnen het Nationaal Natuurreservaat Rozsutec. De beek Dierový heeft rotsdoorgangen, stroomversnellingen en meer dan twintig watervallen uitgesleten. Het gebied bestaat uit drie delen: Dolné diery, Nové diery en Horné diery. De route voert over loopbruggen, metalen ladders en kettingen. Je kunt vertrekken vanuit Biely Potok en Štefanová. Het bovenste deel kan bij zware regen onbegaanbaar worden en is in de winter gesloten, voor de veiligheid en ter bescherming van de natuur."
+        },
+        {
+          "id": "fact_005",
+          "title": "Tiesňavy: de rotsachtige toegangspoort tot de Vrátna-vallei",
+          "text": "Op de weg van Terchová naar de Vrátna-vallei versmalt de route tot de kloof Tiesňavy, waar de beek Varínka doorheen stroomt. Kalksteen en dolomiet vormen opvallende rotsfiguren die lokaal Mních, Ťava en Päť furmanov worden genoemd. Het gebied is sinds 1967 beschermd als Nationaal Natuurreservaat Tiesňavy en omvat de kloof en de bergmassieven Sokolie en Boboty. Alpiene planten komen hier op ongewoon lage hoogte voor, mede door een plaatselijke temperatuurinversie. Tiesňavy is daardoor een waardevol geologisch en botanisch gebied."
+        },
+        {
+          "id": "fact_006",
+          "title": "April 1945: frontgevechten, afgebrande huizen en de bevrijding van Terchová",
+          "text": "In het voorjaar van 1945 lag Terchová aan de frontlinie van de operatie rond Ostrava. Volgens gemeentelijke historische bronnen was het op 10 april de eerste bevrijde gemeente in het district Žilina; de gevechten gingen door en beschietingen tussen Terchová en Belá duurden tot 18 april. Op 8 en 9 april brandden ongeveer 150 houten huizen en boerderijgebouwen af. Volgens gemeentelijke gegevens kwamen 370, of volgens sommige bronnen 385, Sovjetsoldaten om in het grondgebied van Terchová. De onafgewerkte nieuwe kerk bood onderdak aan gewonden en burgers zonder huis. Horná Tižina werd op 24 april 1945 bevrijd."
+        },
+        {
+          "id": "fact_007",
+          "title": "De kerk van de heiligen Cyrillus en Methodius en de klokken uit de oude kerk",
+          "text": "De nieuwe kerk werd gebouwd omdat de oudere Sint-Martinuskerk uit 1731 te klein was geworden. De eerste steen werd in 1942 gelegd op initiatief van priester Štefan Bitter; in het najaar van 1944 stond het casco er al. Na de brand in een deel van het dorp in april 1945 bood het onvoltooide gebouw onderdak aan mensen die hun huis kwijt waren. De kerk van de heiligen Cyrillus en Methodius werd op 8 oktober 1949 ingewijd. Drie klokken uit de oude kerk werden overgebracht; de oudste en grootste, Juraj, dateert uit de eerste helft van de achttiende eeuw. Zo bewaart de kerk ook de materiële herinnering aan de vroegere parochie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Uit Terchová en Horná Tižina vertrokken mensen op zoek naar werk, tot in Amerika",
+          "text": "Economische problemen rond 1900 brachten veel inwoners van dit berggebied ertoe werk aan de andere kant van de oceaan te zoeken. Een gemeentelijke studie op basis van passagierslijsten en immigratieregisters uit 1892–1938 identificeerde 334 mensen uit Terchová en nog eens 21 uit Horná Tižina. De meesten reisden naar de Verenigde Staten om te werken; sommigen wilden met spaargeld terugkeren, anderen bleven voorgoed. Slowaakse namen werden in de documenten vaak met Hongaarse spelling genoteerd of door Amerikaanse ambtenaren verbasterd. Het verhaal laat ook zien hoe lastig het kan zijn om familiegeschiedenissen te reconstrueren."
+        },
+        {
+          "id": "fact_009",
+          "title": "Het stalen beeld van Jánošík waakt over de weg naar de Vrátna-vallei",
+          "text": "Op een heuvel boven Terchová staat een monumentaal beeld van Juraj Jánošík, een bekend symbool van de gemeente. Het stalen beeld is 7,5 meter hoog, werd gemaakt door Ján Kulich en onthuld in 1988 ter gelegenheid van de driehonderdste geboortedag van Jánošík. Het staat boven de weg naar de Vrátna-vallei, aan de andere kant van het gemeentelijke gebied dan u Jánošov, waar historische bronnen zijn geboorte plaatsen. Het moderne gedenkteken laat zien hoe een historische figuur uitgroeide tot een symbool van de plaatselijke en Slowaakse volkscultuur."
+        }
+      ]
+    }
+  }
 }
