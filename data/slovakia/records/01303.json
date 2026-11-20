@@ -1,4 +1,606 @@
 {
   "postcode": "01303",
-  "status": "placeholder"
+  "city": "Varín",
+  "district": "Varín",
+  "district_type": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Varín – kostel Nejsvětější Trojice a historické jádro (PSČ zahrnuje také Krasňany)",
+  "representative_point": {
+    "lat": 49.198571955,
+    "lon": 18.870232906
+  },
+  "access_point": {
+    "name": "Pošta Varín",
+    "address": "Jozefa Martinčeka 131/4, 013 03 Varín, Slovensko",
+    "lat": 49.201667,
+    "lon": 18.87
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pongráczovský kaštieľ v Krasňanoch – dvojitá renesančná rezidencia so stopami vodného hradu",
+      "text": "Kaštieľ Pongráczovcov v Krasňanoch netvorí jediná budova, ale dvojobjektový šľachtický areál. Staršie jadro nadväzuje na neskorogotickú opevnenú kúriu, ktorú rodina prestavala na renesančné sídlo; historické pramene uvádzajú prestavbu v roku 1561, zatiaľ čo vstupný portál nesie datovanie 1678. Koncom 17. storočia vznikol v tesnej blízkosti druhý kaštieľ a v 18. storočí ich spojilo krídlo s nádvorím. Erbový portál pripomína pôvodný vstup cez padací most nad vodnou priekopou. V parku sa zachovali aj dve kamenné barokové sochy. Areál je zapísaný v Ústrednom zozname pamiatkového fondu pod číslom 1350/1–2 a dnes je v súkromnom vlastníctve.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.hrady-zamky.sk/krasnany/",
+        "https://www.pamiatkynaslovensku.sk/krasnany",
+        "https://www.enviroportal.sk/eia/dokument/222790"
+      ],
+      "location": {
+        "name": "Pongráczovský kaštieľ v Krasňanoch",
+        "address": "Krasňany 21, 013 03 Varín, Slovensko",
+        "lat": 49.212495,
+        "lon": 18.889043,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/krasnany"
+      },
+      "map_category": "castle"
+    },
+    {
+      "id": "fact_002",
+      "title": "Krasňany – veľkomoravský birituálny mohylník s 51 mohylami",
+      "text": "V lokalite Háj pri Krasňanoch sa nachádza významné staroslovanské pohrebisko z 8. až 9. storočia. Archeológ Vojtech Budinský-Krička tu v roku 1933 preskúmal birituálny mohylník, v ktorom bolo evidovaných 51 mohýl. Pochovávalo sa tu viacerými spôsobmi a výbava hrobov zahŕňala keramiku, zbrane aj ozdoby. Ide o jedno z najvýznamnejších včasnostredovekých pohrebísk severozápadného Slovenska; nálezy sú uložené v Slovenskom národnom múzeu – Etnografickom múzeu v Martine. Samotná lokalita je dnes neprístupná, preto záznam nepoužíva vymyslený presný mapový bod.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.obeckrasnany.sk/historia-obce",
+        "https://www.enviroportal.sk/eia/dokument/222790",
+        "https://cevnad.sav.sk/aktivita_1_1/SZ_03.pdf"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Pongrácovský archív – požiar kaštieľa v roku 1654 rozptýlil dejiny panstva",
+      "text": "Najstaršie zachované správy o archíve Starhradského panstva pochádzajú z dokumentu o jeho rozdelení v roku 1639. Pri požiari krasňanského kaštieľa v roku 1654 archív vyhorel; menšiu časť zachovaných písomností usporiadal a zaregistroval Juraj Bučanský až v roku 1804. Materiál z kaštieľa neskôr prevzal bývalý Pôdohospodársky archív v Trenčíne a v roku 1955 ho presunuli do Štátneho archívu v Bytči. Ďalšia časť pongrácovského archívu, ktorá sa nachádzala v Nededzi, bola v 20. storočí uložená v Rumunsku a od roku 1944 je v Ústrednej knižnici Rumunskej akadémie vied v Bukurešti. Dejiny rodu sú preto dnes rozdelené medzi viaceré archívne inštitúcie.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.minv.sk/swift_data/source/verejna_sprava/sa_v_ziline/archiv_zilina/inventare/584.pdf",
+        "https://www.hrady-zamky.sk/krasnany/"
+      ],
+      "location": {
+        "name": "Pongráczovský kaštieľ – historické sídlo archívu",
+        "address": "Krasňany 21, 013 03 Varín, Slovensko",
+        "lat": 49.212495,
+        "lon": 18.889043,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/krasnany"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Krasňany – od usadlosti Staré Krasňany k obci Karazna a železnej bani",
+      "text": "Miestna história spomína usadlosť Staré Krasňany v lokalite Tehelňa alebo Za Hájom už v roku 1001; tento údaj však treba odlišovať od prvej jednoznačnej písomnej zmienky o obci. Tá sa uvádza až v roku 1354 pod názvom Karazna, keď Bohuš, syn Dezlona, získal dedičné richtárstvo. Krasňany patrili k panstvu Varín – Starý hrad a neskôr sa stali jeho sídlom. V 17. a 18. storočí sa v Kúrskej doline ťažila železná ruda a v chotári sa dobýval aj vápenec. Kúrsky potok, ktorý pramení v doline a ústi do Varínky, dodnes tvorí jednu z prirodzených osí krasnianskej krajiny.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obeckrasnany.sk/historia-obce",
+        "https://www.enviroportal.sk/eia/dokument/222790"
+      ],
+      "location": {
+        "name": "Krasňany – historické jadro pri Pongráczovskom kaštieli",
+        "address": null,
+        "lat": 49.212495,
+        "lon": 18.889043,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/krasnany"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostol Najsvätejšej Trojice vo Varíne – miesto spájané s krstom Juraja Jánošíka",
+      "text": "Farský kostol Najsvätejšej Trojice patrí k najstarším sakrálnym stavbám regiónu. Miestna kronika kladie jeho vznik do roku 1233, kým umeleckohistorické spracovanie datuje zachované ranogotické jadro do druhej polovice 13. storočia. Pôvodne bol zasvätený Panne Márii a dnešné patrocínium získal po neskorších prestavbách. Podľa miestnej a farskej tradície tu 25. januára 1688 pokrstili Juraja Jánošíka. V interiéri sa nachádzajú historické krstiteľnice a bočná kaplnka – rodová hrobka Pongrácovcov. Jej datovanie sa v prameňoch rozchádza: obecná kronika uvádza rok 1727, umeleckohistorický katalóg rok 1828. Tento rozdiel je vhodné zachovať, nie svojvoľne rozhodnúť.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.varin.sk/historia-0.html",
+        "https://www.varin.sk/kalendarium-0.html",
+        "https://login.apsida.sk/c/1457/varin",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/varin"
+      ],
+      "location": {
+        "name": "Farský kostol Najsvätejšej Trojice vo Varíne",
+        "address": "Farská 326, 013 03 Varín, Slovensko",
+        "lat": 49.198571955,
+        "lon": 18.870232906,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w255632305"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Varín – stredoveké trhové mestečko s pätnástimi remeselnými cechmi",
+      "text": "Varín získal trhové privilégium v roku 1340 a mestské privilégiá v roku 1362. Vďaka polohe na dôležitej ceste Považím sa stal remeselným a obchodným centrom širšieho okolia. V obci pôsobilo až pätnásť cechov; deväť z nich pretrvalo do roku 1950. Cechové pravidlá a remeselné tradície formovali každodenný život obce celé stáročia. Varín tak nebol iba poľnohospodárskou dedinou, ale mal aj mestské práva a nezvyčajne rozvinutú remeselnú štruktúru.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.varin.sk/historia-0.html",
+        "https://www.varin.sk/kalendarium-0.html",
+        "https://www.varin.sk/download_file_f.php?id=776310"
+      ],
+      "location": {
+        "name": "Varín – historické centrum pri obecnom úrade",
+        "address": "Námestie sv. Floriána, 013 03 Varín, Slovensko",
+        "lat": 49.2,
+        "lon": 18.8691667,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.varin.sk/doprava-do-obce-0.html"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Varínske kaplnky – stopy morovej epidémie, šľachtickej zbožnosti a zrušenia poddanstva",
+      "text": "Varín má nezvyčajne bohatú sieť menších sakrálnych stavieb. Farské a obecné pramene uvádzajú kaplnku sv. Kríža s tradovaným pôvodom okolo roku 1200 a kaplnku sv. Floriána z roku 1750, ktorú dal postaviť gróf Pongrác. Ďalšie mariánske kaplnky pripomínajú miestne historické udalosti: jedna vznikla ako poďakovanie po morovej epidémii okolo roku 1600, druhá v roku 1785 po zrušení poddanstva. Nie všetky objekty majú v dostupných zdrojoch jednoznačne potvrdené presné súradnice, preto sú opísané ako súbor miestnej sakrálnej krajiny, nie ako jediný bod.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.varin.sk/kalendarium-0.html",
+        "https://www.varin.sk/historia-0.html",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/varin"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_008",
+      "title": "Kaplnka Všetkých svätých v Krasňanoch – bohoslužby v obci bez farského kostola",
+      "text": "Krasňany nemajú vlastný farský kostol a patria do farnosti Varín. Pri výstavbe Domu smútku v roku 1991 obec upravila jeho vnútorné priestory tak, aby vznikla kaplnka Všetkých svätých; posvätená bola v roku 1993. Pôvodným dôvodom bolo umožniť starším obyvateľom účasť na bohoslužbách bez dochádzania do varínskeho farského kostola. Kaplnka sa postupne stala miestom pravidelných nedeľných a pondelkových omší a dôležitým komunitným priestorom obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.obeckrasnany.sk/spolocenske-podujatia/235-20-vyrocie-otvorenia-a-posvatenia-domu-smutku",
+        "https://www.dcza.sk/sk/schematizmus/filialky/krasnany"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pamiatky na Slovensku – Pongráczovský kaštieľ v Krasňanoch, história a GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/krasnany",
+      "type": "specialist"
+    },
+    {
+      "title": "Hrady a zámky na Slovensku – história kaštieľa Pongráczovcov v Krasňanoch",
+      "url": "https://www.hrady-zamky.sk/krasnany/",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Krasňany – história obce, Staré Krasňany a mohylník",
+      "url": "https://www.obeckrasnany.sk/historia-obce",
+      "type": "official"
+    },
+    {
+      "title": "Enviroportál – územný plán Krasňany, archeologické lokality a mohylník",
+      "url": "https://www.enviroportal.sk/eia/dokument/222790",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo vnútra SR – Štátny archív v Žiline, inventár Starhradského panstva",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/sa_v_ziline/archiv_zilina/inventare/584.pdf",
+      "type": "official"
+    },
+    {
+      "title": "CEVNAD / Slovenská akadémia vied – odborná archeologická literatúra k mohylníku v Krasňanoch",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/SZ_03.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Obec Varín – história obce a mestské privilégiá",
+      "url": "https://www.varin.sk/historia-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Varín – kalendárium, kostol a miestne kaplnky",
+      "url": "https://www.varin.sk/kalendarium-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Varín – doprava, poloha pošty a GPS súradnice",
+      "url": "https://www.varin.sk/doprava-do-obce-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Varín – výročná správa a miestne dejiny",
+      "url": "https://www.varin.sk/download_file_f.php?id=776310",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – Kostol Najsvätejšej Trojice vo Varíne, umeleckohistorický opis",
+      "url": "https://login.apsida.sk/c/1457/varin",
+      "type": "specialist"
+    },
+    {
+      "title": "Žilinská diecéza – Farnosť Varín, kostol a kaplnky",
+      "url": "https://www.dcza.sk/sk/schematizmus/farnosti/varin",
+      "type": "official"
+    },
+    {
+      "title": "Žilinská diecéza – Filiálka Krasňany a Kaplnka Všetkých svätých",
+      "url": "https://www.dcza.sk/sk/schematizmus/filialky/krasnany",
+      "type": "official"
+    },
+    {
+      "title": "Obec Krasňany – 20. výročie otvorenia a posvätenia Domu smútku – kaplnky",
+      "url": "https://www.obeckrasnany.sk/spolocenske-podujatia/235-20-vyrocie-otvorenia-a-posvatenia-domu-smutku",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – oficiálny vyhľadávač pobočky Varín",
+      "url": "https://otvaraciehodiny.posta.sk/?n=varin",
+      "type": "official"
+    },
+    {
+      "title": "Pošty.sk – Pošta Varín, aktuálna adresa a prevádzkové údaje",
+      "url": "https://posty.sk/varin/",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Kostol Najsvätejšej Trojice vo Varíne, poloha a súradnice",
+      "url": "https://poi.oma.sk/w255632305",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_codes.csv, adresné body podľa PSČ a obce",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_code_areas.csv, súhrn geografických údajov PSČ",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – municipality_parts.csv, rozdelenie adresných bodov",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "translations": {
+    "cs": {
+      "representative_place": "Varín – kostel Nejsvětější Trojice a historické jádro (PSČ zahrnuje také Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pongráczovský kaštieľ v Krasňanoch – dvojitá renesančná rezidencia so stopami vodného hradu",
+          "text": "Kaštieľ Pongráczovcov v Krasňanoch netvorí jediná budova, ale dvojobjektový šľachtický areál. Staršie jadro nadväzuje na neskorogotickú opevnenú kúriu, ktorú rodina prestavala na renesančné sídlo; historické pramene uvádzajú prestavbu v roku 1561, zatiaľ čo vstupný portál nesie datovanie 1678. Koncom 17. storočia vznikol v tesnej blízkosti druhý kaštieľ a v 18. storočí ich spojilo krídlo s nádvorím. Erbový portál pripomína pôvodný vstup cez padací most nad vodnou priekopou. V parku sa zachovali aj dve kamenné barokové sochy. Areál je zapísaný v Ústrednom zozname pamiatkového fondu pod číslom 1350/1–2 a dnes je v súkromnom vlastníctve."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – veľkomoravský birituálny mohylník s 51 mohylami",
+          "text": "V lokalite Háj pri Krasňanoch sa nachádza významné staroslovanské pohrebisko z 8. až 9. storočia. Archeológ Vojtech Budinský-Krička tu v roku 1933 preskúmal birituálny mohylník, v ktorom bolo evidovaných 51 mohýl. Pochovávalo sa tu viacerými spôsobmi a výbava hrobov zahŕňala keramiku, zbrane aj ozdoby. Ide o jedno z najvýznamnejších včasnostredovekých pohrebísk severozápadného Slovenska; nálezy sú uložené v Slovenskom národnom múzeu – Etnografickom múzeu v Martine. Samotná lokalita je dnes neprístupná, preto záznam nepoužíva vymyslený presný mapový bod."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pongrácovský archív – požiar kaštieľa v roku 1654 rozptýlil dejiny panstva",
+          "text": "Najstaršie zachované správy o archíve Starhradského panstva pochádzajú z dokumentu o jeho rozdelení v roku 1639. Pri požiari krasňanského kaštieľa v roku 1654 archív vyhorel; menšiu časť zachovaných písomností usporiadal a zaregistroval Juraj Bučanský až v roku 1804. Materiál z kaštieľa neskôr prevzal bývalý Pôdohospodársky archív v Trenčíne a v roku 1955 ho presunuli do Štátneho archívu v Bytči. Ďalšia časť pongrácovského archívu, ktorá sa nachádzala v Nededzi, bola v 20. storočí uložená v Rumunsku a od roku 1944 je v Ústrednej knižnici Rumunskej akadémie vied v Bukurešti. Dejiny rodu sú preto dnes rozdelené medzi viaceré archívne inštitúcie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – od usadlosti Staré Krasňany k obci Karazna a železnej bani",
+          "text": "Miestna história spomína usadlosť Staré Krasňany v lokalite Tehelňa alebo Za Hájom už v roku 1001; tento údaj však treba odlišovať od prvej jednoznačnej písomnej zmienky o obci. Tá sa uvádza až v roku 1354 pod názvom Karazna, keď Bohuš, syn Dezlona, získal dedičné richtárstvo. Krasňany patrili k panstvu Varín – Starý hrad a neskôr sa stali jeho sídlom. V 17. a 18. storočí sa v Kúrskej doline ťažila železná ruda a v chotári sa dobýval aj vápenec. Kúrsky potok, ktorý pramení v doline a ústi do Varínky, dodnes tvorí jednu z prirodzených osí krasnianskej krajiny."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostol Najsvätejšej Trojice vo Varíne – miesto spájané s krstom Juraja Jánošíka",
+          "text": "Farský kostol Najsvätejšej Trojice patrí k najstarším sakrálnym stavbám regiónu. Miestna kronika kladie jeho vznik do roku 1233, kým umeleckohistorické spracovanie datuje zachované ranogotické jadro do druhej polovice 13. storočia. Pôvodne bol zasvätený Panne Márii a dnešné patrocínium získal po neskorších prestavbách. Podľa miestnej a farskej tradície tu 25. januára 1688 pokrstili Juraja Jánošíka. V interiéri sa nachádzajú historické krstiteľnice a bočná kaplnka – rodová hrobka Pongrácovcov. Jej datovanie sa v prameňoch rozchádza: obecná kronika uvádza rok 1727, umeleckohistorický katalóg rok 1828. Tento rozdiel je vhodné zachovať, nie svojvoľne rozhodnúť."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – stredoveké trhové mestečko s pätnástimi remeselnými cechmi",
+          "text": "Varín získal trhové privilégium v roku 1340 a mestské privilégiá v roku 1362. Vďaka polohe na dôležitej ceste Považím sa stal remeselným a obchodným centrom širšieho okolia. V obci pôsobilo až pätnásť cechov; deväť z nich pretrvalo do roku 1950. Cechové pravidlá a remeselné tradície formovali každodenný život obce celé stáročia. Varín tak nebol iba poľnohospodárskou dedinou, ale mal aj mestské práva a nezvyčajne rozvinutú remeselnú štruktúru."
+        },
+        {
+          "id": "fact_007",
+          "title": "Varínske kaplnky – stopy morovej epidémie, šľachtickej zbožnosti a zrušenia poddanstva",
+          "text": "Varín má nezvyčajne bohatú sieť menších sakrálnych stavieb. Farské a obecné pramene uvádzajú kaplnku sv. Kríža s tradovaným pôvodom okolo roku 1200 a kaplnku sv. Floriána z roku 1750, ktorú dal postaviť gróf Pongrác. Ďalšie mariánske kaplnky pripomínajú miestne historické udalosti: jedna vznikla ako poďakovanie po morovej epidémii okolo roku 1600, druhá v roku 1785 po zrušení poddanstva. Nie všetky objekty majú v dostupných zdrojoch jednoznačne potvrdené presné súradnice, preto sú opísané ako súbor miestnej sakrálnej krajiny, nie ako jediný bod."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kaplnka Všetkých svätých v Krasňanoch – bohoslužby v obci bez farského kostola",
+          "text": "Krasňany nemajú vlastný farský kostol a patria do farnosti Varín. Pri výstavbe Domu smútku v roku 1991 obec upravila jeho vnútorné priestory tak, aby vznikla kaplnka Všetkých svätých; posvätená bola v roku 1993. Pôvodným dôvodom bolo umožniť starším obyvateľom účasť na bohoslužbách bez dochádzania do varínskeho farského kostola. Kaplnka sa postupne stala miestom pravidelných nedeľných a pondelkových omší a dôležitým komunitným priestorom obce."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Varín – Dreifaltigkeitskirche und historischer Ortskern (das Postleitzahlengebiet umfasst auch Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Das Pongrácz-Schloss in Krasňany – zwei Renaissance-Residenzen mit Spuren einer Wasserburg",
+          "text": "Das Schloss der Familie Pongrácz besteht aus zwei verbundenen Adelssitzen. Das ältere Gebäude geht auf einen befestigten spätgotischen Herrensitz zurück; Quellen nennen einen Umbau von 1561, während das Eingangsportal die Jahreszahl 1678 trägt. Ende des 17. Jahrhunderts kam ein zweites Schloss hinzu, später verband ein Flügel beide Bauten. Das Wappenportal erinnert an eine Zugbrücke über einen Wassergraben."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – ein großmährisches Hügelgräberfeld mit 51 Grabhügeln",
+          "text": "Im Gebiet Háj bei Krasňany liegt ein bedeutendes slawisches Gräberfeld aus dem 8.–9. Jahrhundert. Vojtech Budinský-Krička untersuchte es 1933; dokumentiert wurden 51 Grabhügel mit Keramik, Waffen und Schmuck. Die Funde befinden sich im Ethnografischen Museum des Slowakischen Nationalmuseums in Martin. Das Gelände ist heute nicht öffentlich zugänglich."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Pongrác-Archiv – der Schlossbrand von 1654 zerstreute die Geschichte des Besitzes",
+          "text": "Die ältesten Hinweise auf das Archiv der Herrschaft Starý hrad stammen aus einer Teilungsurkunde von 1639. Beim Brand des Schlosses in Krasňany 1654 ging das Archiv weitgehend verloren. Ein kleiner Teil wurde 1804 neu geordnet; spätere Bestände gelangten 1955 in das Staatsarchiv Bytča, weitere Dokumente aus Nededza befinden sich seit 1944 in der Rumänischen Akademiebibliothek in Bukarest."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – von der Siedlung Staré Krasňany zum mittelalterlichen Ort Karazna",
+          "text": "Die örtliche Überlieferung nennt für die Siedlung Staré Krasňany das Jahr 1001; die erste eindeutige schriftliche Erwähnung des Dorfes als Karazna stammt jedoch aus 1354. Krasňany gehörte zur Herrschaft Varín–Starý hrad und wurde später deren Sitz. Im 17. und 18. Jahrhundert wurde im Kúr-Tal Eisenerz abgebaut; auch Kalkstein wurde gewonnen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Dreifaltigkeitskirche in Varín – mit der Taufe von Juraj Jánošík verbunden",
+          "text": "Die Pfarrkirche der Heiligsten Dreifaltigkeit gehört zu den ältesten Sakralbauten der Region. Die Ortschronik nennt 1233, die kunsthistorische Forschung datiert den erhaltenen frühgotischen Kern in die zweite Hälfte des 13. Jahrhunderts. Der Überlieferung nach wurde Juraj Jánošík hier 1688 getauft. Die Seitenkapelle als Familiengruft der Pongrács wird in verschiedenen Quellen auf 1727 beziehungsweise 1828 datiert."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – mittelalterlicher Marktort mit fünfzehn Handwerkszünften",
+          "text": "Varín erhielt 1340 ein Marktrecht und 1362 städtische Privilegien. Dank seiner Lage an einer wichtigen Straße durch das Waagtal entwickelte es sich zu einem Handels- und Handwerkszentrum. Im Ort bestanden bis zu fünfzehn Zünfte; neun davon überdauerten bis 1950. Varín war damit weit mehr als ein landwirtschaftliches Dorf."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Kapellen von Varín – Erinnerungen an Pest, Adel und das Ende der Leibeigenschaft",
+          "text": "Varín besitzt mehrere kleine Sakralbauten. Quellen nennen die Kapelle zum Heiligen Kreuz mit einer überlieferten Gründung um 1200 und die 1750 vom Grafen Pongrác errichtete Florianikapelle. Weitere Marienkapellen erinnern an eine Pestepidemie um 1600 und an die Aufhebung der Leibeigenschaft 1785. Da die Bauten verstreut liegen, wird hier kein einzelner Kartenpunkt behauptet."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Allerheiligenkapelle in Krasňany – Gottesdienste in einem Dorf ohne Pfarrkirche",
+          "text": "Krasňany gehört zur Pfarrei Varín und besitzt keine eigene Pfarrkirche. Beim Bau des Trauerhauses 1991 richtete die Gemeinde darin eine Allerheiligenkapelle ein, die 1993 geweiht wurde. Sie sollte älteren Einwohnern Gottesdienste ermöglichen, ohne nach Varín fahren zu müssen; heute finden dort regelmäßig Messen statt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Varín – Holy Trinity Church and historic centre (the postal area also includes Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The Pongrác Manor in Krasňany – two Renaissance residences with traces of a water castle",
+          "text": "The Pongrác family manor is a complex of two connected noble residences. The older building grew from a fortified late-Gothic manor; sources mention a rebuilding in 1561, while the entrance portal bears the date 1678. A second manor was added in the late 17th century and later joined by a connecting wing. The heraldic portal recalls a drawbridge over a moat."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – a Great Moravian burial mound cemetery with 51 mounds",
+          "text": "The Háj locality near Krasňany contains an important Slavic cemetery from the 8th–9th centuries. Vojtech Budinský-Krička excavated it in 1933; 51 mounds with pottery, weapons and ornaments were documented. Finds are held by the Slovak National Museum’s Ethnographic Museum in Martin. The site is not open to the public today."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Pongrác archive – the 1654 manor fire scattered the estate’s records",
+          "text": "The oldest references to the Starý hrad estate archive come from a division document of 1639. A fire at Krasňany Manor in 1654 destroyed much of the archive. A small surviving portion was reorganised in 1804; later records were transferred to the State Archive in Bytča in 1955, while other documents from Nededza have been held by the Romanian Academy Library in Bucharest since 1944."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – from the settlement of Staré Krasňany to the medieval village of Karazna",
+          "text": "Local tradition dates the settlement of Staré Krasňany to 1001, but the first clear written mention of the village as Karazna is from 1354. Krasňany belonged to the Varín–Starý hrad estate and later became its seat. Iron ore was mined in the Kúr Valley in the 17th and 18th centuries, and limestone was also quarried."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Holy Trinity Church in Varín – linked to the baptism of Juraj Jánošík",
+          "text": "The parish Church of the Holy Trinity is among the region’s oldest sacred buildings. The local chronicle gives 1233, while art-historical research dates the surviving Early Gothic core to the second half of the 13th century. Local tradition says Juraj Jánošík was baptised here in 1688. Sources date the Pongrác family funerary side chapel to either 1727 or 1828."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – a medieval market town with fifteen craft guilds",
+          "text": "Varín received market privileges in 1340 and town privileges in 1362. Its position on an important route through the Váh valley helped it become a trading and craft centre. As many as fifteen guilds operated here; nine survived until 1950. Varín was therefore much more than an agricultural village."
+        },
+        {
+          "id": "fact_007",
+          "title": "Varín’s chapels – memories of plague, noble devotion and the end of serfdom",
+          "text": "Varín has several small sacred buildings. Sources mention the Chapel of the Holy Cross, traditionally dated to around 1200, and the Chapel of St Florian, built by Count Pongrác in 1750. Other Marian chapels commemorate a plague around 1600 and the abolition of serfdom in 1785. As these buildings are scattered, no single map point is claimed."
+        },
+        {
+          "id": "fact_008",
+          "title": "The All Saints Chapel in Krasňany – worship in a village without a parish church",
+          "text": "Krasňany belongs to the parish of Varín and has no parish church of its own. When the local House of Mourning was built in 1991, a Chapel of All Saints was incorporated into it and consecrated in 1993. It allowed older residents to attend services without travelling to Varín; regular Masses are still held there."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Varín – iglesia de la Santísima Trinidad y centro histórico (el área postal también incluye Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "El palacio Pongrác de Krasňany: dos residencias renacentistas con huellas de un castillo de agua",
+          "text": "El palacio de los Pongrác está formado por dos residencias nobiliarias unidas. El edificio más antiguo procede de una casa señorial fortificada tardogótica; algunas fuentes citan una reforma en 1561, mientras que el portal lleva la fecha 1678. A finales del siglo XVII se añadió un segundo palacio, unido después por un ala. El portal heráldico recuerda el antiguo puente levadizo sobre un foso."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany: un cementerio tumular granmoravo con 51 túmulos",
+          "text": "En la zona de Háj, cerca de Krasňany, se encuentra un importante cementerio eslavo de los siglos VIII–IX. Vojtech Budinský-Krička lo excavó en 1933 y documentó 51 túmulos con cerámica, armas y adornos. Los hallazgos se conservan en el Museo Etnográfico del Museo Nacional Eslovaco, en Martin. El yacimiento no está abierto al público."
+        },
+        {
+          "id": "fact_003",
+          "title": "El archivo de los Pongrác: el incendio de 1654 dispersó los documentos del señorío",
+          "text": "Las referencias más antiguas al archivo del señorío de Starý hrad proceden de un documento de división de 1639. El incendio del palacio de Krasňany en 1654 destruyó gran parte del archivo. Una pequeña parte superviviente fue ordenada en 1804; otros documentos pasaron al Archivo Estatal de Bytča en 1955 y parte de los fondos de Nededza se conserva en la Biblioteca de la Academia Rumana de Bucarest desde 1944."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany: del asentamiento de Staré Krasňany al pueblo medieval de Karazna",
+          "text": "La tradición local sitúa el asentamiento de Staré Krasňany en el año 1001, pero la primera mención documental clara del pueblo como Karazna data de 1354. Krasňany perteneció al señorío de Varín–Starý hrad y más tarde fue su sede. En los siglos XVII y XVIII se extrajo mineral de hierro en el valle de Kúr y también se explotó piedra caliza."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia de la Santísima Trinidad de Varín, vinculada al bautismo de Juraj Jánošík",
+          "text": "La iglesia parroquial de la Santísima Trinidad es uno de los edificios religiosos más antiguos de la región. La crónica local cita 1233, mientras que el estudio histórico-artístico fecha el núcleo gótico conservado en la segunda mitad del siglo XIII. Según la tradición local, Juraj Jánošík fue bautizado aquí en 1688. Las fuentes datan la capilla funeraria de los Pongrác en 1727 o 1828."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín: una villa de mercado medieval con quince gremios artesanales",
+          "text": "Varín obtuvo privilegios de mercado en 1340 y privilegios urbanos en 1362. Su posición en una ruta importante del valle del Váh favoreció el comercio y la artesanía. Llegaron a funcionar quince gremios, nueve de los cuales sobrevivieron hasta 1950. Varín fue mucho más que una aldea agrícola."
+        },
+        {
+          "id": "fact_007",
+          "title": "Las capillas de Varín: recuerdos de epidemias, devoción nobiliaria y el fin de la servidumbre",
+          "text": "Varín conserva varias pequeñas construcciones religiosas. Las fuentes mencionan la capilla de la Santa Cruz, tradicionalmente fechada hacia 1200, y la capilla de san Florián, construida por el conde Pongrác en 1750. Otras capillas marianas recuerdan una epidemia de peste hacia 1600 y la abolición de la servidumbre en 1785. Al estar dispersas, no se asigna un único punto cartográfico."
+        },
+        {
+          "id": "fact_008",
+          "title": "La capilla de Todos los Santos en Krasňany: culto en un pueblo sin iglesia parroquial",
+          "text": "Krasňany pertenece a la parroquia de Varín y no tiene iglesia parroquial propia. Al construir la casa de duelo en 1991, se habilitó dentro una capilla de Todos los Santos, consagrada en 1993. Permitió a las personas mayores asistir a misa sin desplazarse a Varín; allí siguen celebrándose servicios regulares."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Varín – église de la Sainte-Trinité et centre historique (la zone postale comprend aussi Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le manoir Pongrác de Krasňany – deux résidences Renaissance aux traces d’un château d’eau",
+          "text": "Le manoir des Pongrác est un ensemble de deux résidences seigneuriales reliées. Le bâtiment le plus ancien provient d’un logis fortifié de la fin du Moyen Âge ; certaines sources mentionnent une reconstruction en 1561, tandis que le portail porte la date de 1678. Un second manoir fut ajouté à la fin du XVIIe siècle, puis relié par une aile. Le portail armorié rappelle l’ancien pont-levis au-dessus des douves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – une nécropole grand-morave de 51 tertres funéraires",
+          "text": "Dans le secteur de Háj, près de Krasňany, se trouve une importante nécropole slave des VIIIe–IXe siècles. Vojtech Budinský-Krička l’a fouillée en 1933 et a recensé 51 tertres contenant céramiques, armes et parures. Les objets sont conservés au Musée ethnographique du Musée national slovaque à Martin. Le site n’est aujourd’hui pas accessible au public."
+        },
+        {
+          "id": "fact_003",
+          "title": "Les archives des Pongrác – l’incendie de 1654 dispersa les documents du domaine",
+          "text": "Les plus anciennes mentions des archives du domaine de Starý hrad proviennent d’un acte de partage de 1639. L’incendie du manoir de Krasňany en 1654 détruisit une grande partie des archives. Une petite partie fut classée en 1804 ; d’autres documents furent transférés aux Archives d’État de Bytča en 1955, tandis qu’une partie des fonds de Nededza est conservée à la Bibliothèque de l’Académie roumaine à Bucarest depuis 1944."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – de l’habitat de Staré Krasňany au village médiéval de Karazna",
+          "text": "La tradition locale situe l’habitat de Staré Krasňany en 1001, mais la première mention écrite certaine du village sous le nom de Karazna date de 1354. Krasňany appartenait au domaine de Varín–Starý hrad et en devint plus tard le siège. Du minerai de fer fut extrait dans la vallée de Kúr aux XVIIe et XVIIIe siècles, et du calcaire y fut également exploité."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église de la Sainte-Trinité de Varín – liée au baptême de Juraj Jánošík",
+          "text": "L’église paroissiale de la Sainte-Trinité est l’un des plus anciens édifices religieux de la région. La chronique locale indique 1233, tandis que l’étude historico-artistique date le noyau gothique conservé de la seconde moitié du XIIIe siècle. Selon la tradition locale, Juraj Jánošík y fut baptisé en 1688. Les sources datent la chapelle funéraire des Pongrác de 1727 ou de 1828."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – une bourgade marchande médiévale avec quinze corporations artisanales",
+          "text": "Varín obtint un privilège de marché en 1340 et des privilèges urbains en 1362. Sa position sur une route importante de la vallée du Váh favorisa le commerce et l’artisanat. Quinze corporations y furent actives ; neuf subsistaient encore en 1950. Varín était donc bien plus qu’un village agricole."
+        },
+        {
+          "id": "fact_007",
+          "title": "Les chapelles de Varín – souvenirs d’épidémie, de piété nobiliaire et de la fin du servage",
+          "text": "Varín possède plusieurs petits édifices religieux. Les sources mentionnent la chapelle de la Sainte-Croix, traditionnellement datée vers 1200, et la chapelle Saint-Florian construite par le comte Pongrác en 1750. D’autres chapelles mariales commémorent une épidémie vers 1600 et l’abolition du servage en 1785. Ces édifices étant dispersés, aucun point cartographique unique n’est indiqué."
+        },
+        {
+          "id": "fact_008",
+          "title": "La chapelle de Tous-les-Saints à Krasňany – des offices dans un village sans église paroissiale",
+          "text": "Krasňany dépend de la paroisse de Varín et ne possède pas sa propre église paroissiale. Lors de la construction de la maison funéraire en 1991, une chapelle de Tous-les-Saints y fut aménagée et consacrée en 1993. Elle permettait aux personnes âgées d’assister aux offices sans se rendre à Varín ; des messes régulières y sont toujours célébrées."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Varín – chiesa della Santissima Trinità e centro storico (l’area postale comprende anche Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il maniero Pongrác di Krasňany – due residenze rinascimentali con tracce di un castello d’acqua",
+          "text": "Il maniero dei Pongrác è un complesso formato da due residenze nobiliari collegate. L’edificio più antico deriva da una residenza fortificata tardogotica; alcune fonti indicano una ricostruzione nel 1561, mentre il portale reca la data 1678. Alla fine del XVII secolo fu aggiunto un secondo edificio, poi unito da un’ala. Il portale araldico ricorda l’antico ponte levatoio sopra il fossato."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – una necropoli tumulare della Grande Moravia con 51 tumuli",
+          "text": "Nella località Háj, vicino a Krasňany, si trova un’importante necropoli slava dell’VIII–IX secolo. Vojtech Budinský-Krička la scavò nel 1933 e documentò 51 tumuli con ceramiche, armi e ornamenti. I reperti sono conservati al Museo etnografico del Museo nazionale slovacco a Martin. Oggi il sito non è accessibile al pubblico."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’archivio dei Pongrác – l’incendio del 1654 disperse i documenti del dominio",
+          "text": "Le più antiche notizie sull’archivio del dominio di Starý hrad provengono da un atto di divisione del 1639. L’incendio del maniero di Krasňany nel 1654 distrusse gran parte dell’archivio. Una piccola parte fu riordinata nel 1804; altri documenti passarono all’Archivio di Stato di Bytča nel 1955, mentre una parte dei fondi di Nededza si trova dal 1944 nella Biblioteca dell’Accademia romena a Bucarest."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – dall’insediamento di Staré Krasňany al villaggio medievale di Karazna",
+          "text": "La tradizione locale colloca l’insediamento di Staré Krasňany nel 1001, ma la prima menzione scritta certa del villaggio come Karazna risale al 1354. Krasňany appartenne al dominio di Varín–Starý hrad e in seguito ne divenne la sede. Nella valle di Kúr si estraeva minerale di ferro nei secoli XVII e XVIII; veniva estratto anche il calcare."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa della Santissima Trinità a Varín – legata al battesimo di Juraj Jánošík",
+          "text": "La chiesa parrocchiale della Santissima Trinità è uno degli edifici sacri più antichi della regione. La cronaca locale indica il 1233, mentre gli studi storico-artistici datano il nucleo gotico conservato alla seconda metà del XIII secolo. Secondo la tradizione locale, Juraj Jánošík fu battezzato qui nel 1688. Le fonti datano la cappella funeraria dei Pongrác al 1727 oppure al 1828."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – borgo mercantile medievale con quindici corporazioni artigiane",
+          "text": "Varín ottenne il privilegio di mercato nel 1340 e privilegi cittadini nel 1362. La sua posizione su un’importante via della valle del Váh favorì il commercio e l’artigianato. Vi operarono fino a quindici corporazioni; nove sopravvissero fino al 1950. Varín era quindi molto più di un villaggio agricolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le cappelle di Varín – memorie di epidemie, devozione nobiliare e fine della servitù",
+          "text": "Varín conserva diverse piccole costruzioni sacre. Le fonti menzionano la cappella della Santa Croce, tradizionalmente datata intorno al 1200, e la cappella di san Floriano, costruita dal conte Pongrác nel 1750. Altre cappelle mariane ricordano un’epidemia di peste intorno al 1600 e l’abolizione della servitù nel 1785. Poiché sono distribuite in luoghi diversi, non viene indicato un unico punto sulla mappa."
+        },
+        {
+          "id": "fact_008",
+          "title": "La cappella di Ognissanti a Krasňany – celebrazioni in un villaggio senza chiesa parrocchiale",
+          "text": "Krasňany appartiene alla parrocchia di Varín e non possiede una propria chiesa parrocchiale. Durante la costruzione della casa funeraria nel 1991 fu ricavata una cappella di Ognissanti, consacrata nel 1993. Permise agli anziani di partecipare alle messe senza recarsi a Varín; vi si celebrano ancora funzioni regolari."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Varín – Drievuldigheidskerk en historische kern (het postcodegebied omvat ook Krasňany)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het Pongrác-landhuis in Krasňany – twee renaissanceresidenties met sporen van een waterburcht",
+          "text": "Het landhuis van de familie Pongrác bestaat uit twee verbonden adellijke residenties. Het oudste gebouw gaat terug op een versterkt laatgotisch herenhuis; bronnen noemen een verbouwing in 1561, terwijl het toegangspoortje het jaartal 1678 draagt. Aan het einde van de zeventiende eeuw kwam er een tweede landhuis bij, later verbonden door een vleugel. Het wapenschild boven de poort herinnert aan de vroegere ophaalbrug over de gracht."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasňany – een Groot-Moravisch grafheuvelveld met 51 heuvels",
+          "text": "In het gebied Háj bij Krasňany ligt een belangrijke Slavische begraafplaats uit de 8e–9e eeuw. Vojtech Budinský-Krička onderzocht deze in 1933 en documenteerde 51 grafheuvels met aardewerk, wapens en sieraden. De vondsten worden bewaard in het Etnografisch Museum van het Slowaaks Nationaal Museum in Martin. Het terrein is tegenwoordig niet toegankelijk voor publiek."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Pongrác-archief – de brand van 1654 verspreidde de documenten van het domein",
+          "text": "De oudste verwijzingen naar het archief van het domein Starý hrad komen uit een verdelingsakte van 1639. Bij de brand van het landhuis in Krasňany in 1654 ging een groot deel van het archief verloren. Een klein deel werd in 1804 opnieuw geordend; andere documenten kwamen in 1955 in het Staatsarchief van Bytča terecht, terwijl een deel van het materiaal uit Nededza sinds 1944 wordt bewaard in de bibliotheek van de Roemeense Academie in Boekarest."
+        },
+        {
+          "id": "fact_004",
+          "title": "Krasňany – van de nederzetting Staré Krasňany tot het middeleeuwse dorp Karazna",
+          "text": "Volgens de lokale overlevering bestond de nederzetting Staré Krasňany al in 1001, maar de eerste duidelijke schriftelijke vermelding van het dorp als Karazna dateert uit 1354. Krasňany behoorde tot het domein Varín–Starý hrad en werd later de zetel ervan. In de 17e en 18e eeuw werd ijzererts gewonnen in de Kúr-vallei; ook kalksteen werd ontgonnen."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Drievuldigheidskerk in Varín – verbonden met de doop van Juraj Jánošík",
+          "text": "De parochiekerk van de Heilige Drie-eenheid is een van de oudste religieuze gebouwen in de regio. De lokale kroniek noemt 1233, terwijl kunsthistorisch onderzoek de bewaarde vroeggotische kern in de tweede helft van de dertiende eeuw dateert. Volgens de lokale traditie werd Juraj Jánošík hier in 1688 gedoopt. Bronnen dateren de grafkapel van de familie Pongrác op 1727 of 1828."
+        },
+        {
+          "id": "fact_006",
+          "title": "Varín – een middeleeuwse marktstad met vijftien ambachtsgilden",
+          "text": "Varín kreeg marktrechten in 1340 en stadsprivileges in 1362. De ligging aan een belangrijke route door het Váh-dal bevorderde handel en ambacht. Er waren ooit vijftien gilden actief; negen bleven bestaan tot 1950. Varín was dus veel meer dan een landbouwdorp."
+        },
+        {
+          "id": "fact_007",
+          "title": "De kapellen van Varín – herinneringen aan epidemieën, adellijke devotie en het einde van de horigheid",
+          "text": "Varín heeft meerdere kleine religieuze gebouwen. Bronnen vermelden de Kapel van het Heilig Kruis, traditioneel gedateerd rond 1200, en de Sint-Floriaankapel die graaf Pongrác in 1750 liet bouwen. Andere Mariakapellen herinneren aan een pestepidemie rond 1600 en de afschaffing van de horigheid in 1785. Omdat de kapellen verspreid liggen, wordt geen enkel kaartpunt als hun gezamenlijke locatie voorgesteld."
+        },
+        {
+          "id": "fact_008",
+          "title": "De Allerheiligenkapel in Krasňany – erediensten in een dorp zonder parochiekerk",
+          "text": "Krasňany behoort tot de parochie van Varín en heeft geen eigen parochiekerk. Bij de bouw van het rouwcentrum in 1991 werd daarin een Allerheiligenkapel ingericht, die in 1993 werd ingewijd. Zo konden oudere inwoners de mis bijwonen zonder naar Varín te reizen; er worden nog steeds regelmatig diensten gehouden."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "plz_source": "Oficiálne obecné a poštové zdroje potvrdzujú PSČ 01303 pre Varín aj Krasňany. Doručovacia pošta sa nachádza vo Varíne na adrese Jozefa Martinčeka 131/4; polohu uvádza oficiálna stránka obce a prevádzku potvrdzuje vyhľadávač Slovenskej pošty.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovak postal codes – verejný CC0 dataset odvodený z Registra adries SR, súbory postal_codes.csv a postal_code_areas.csv. PSČ 01303 zahŕňa 1 455 adresných bodov vo Varíne a 504 v Krasňanoch, spolu 1 959 bodov v dvoch obciach. municipality_parts.csv neuvádza ďalšiu samostatnú časť obce.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 01303 sa používa vo Varíne aj v Krasňanoch. Doručovacia pošta je fyzicky vo Varíne na adrese Jozefa Martinčeka 131/4; oficiálna stránka obce uvádza jej polohu a GPS, oficiálny vyhľadávač Slovenskej pošty potvrdzuje pobočku. Preto city = Varín a district = Varín, hoci geografický obsah záznamu zahŕňa aj Krasňany. Verejný adresný dataset eviduje 1 455 bodov vo Varíne a 504 v Krasňanoch.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a poštovú prevádzku. Verejný CC0 dataset odvodený z Registra adries SR potvrdzuje dve obce v PSČ 01303: Varín a Krasňany. Doručovacia pošta sa nachádza vo Varíne, preto city a district označujú Varín; representative_place a fakty pokrývajú obe obce."
+  },
+  "status": "validated"
 }
