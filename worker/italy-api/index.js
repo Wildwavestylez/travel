@@ -60,7 +60,7 @@ export default {
         return reply({ country: 'IT', total: count[0].total, limit, offset, q, status, rows }, 200, origin);
       }
 
-      const match = url.pathname.match(/^\\/api\\/italy\\/caps\\/(\\d{5})$/);
+      const match = url.pathname.match(/^\/api\/italy\/caps\/(\d{5})$/);
       if (match) {
         const rows = await sql`
           SELECT postcode, workflow_status, record, created_at, updated_at
