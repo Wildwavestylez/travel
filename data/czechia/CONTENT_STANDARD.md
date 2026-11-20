@@ -990,3 +990,16 @@ Použij následující hierarchii:
 - Pokud lze určit alespoň smysluplnou oblast nebo veřejný orientační bod, `location` nesmí být `null` jen kvůli chybějící přesné poloze. `null` použij pouze tehdy, když nelze odpovědně určit ani konkrétní, přibližný, reprezentativní či orientační bod.
 
 **Při tvorbě i reworku aktivně hledej použitelný bod pro mapu. Při auditu považuj `null` za nález, který je nutné zkusit vyřešit touto hierarchií; ponech jej pouze po doložení, proč není možné určit žádný smysluplný bod.**
+
+## 30. Kulturní a historická hodnota nezávisí na přístupnosti ani vlastnictví
+
+Toto pravidlo je závazné pro objevování, výběr, rework i audit všech českých PSČ.
+
+- **Soukromé vlastnictví, uzavřený areál ani nepřístupnost veřejnosti nejsou důvodem k vynechání významného objektu nebo příběhu.** Historický zámek, vila, továrna, zahrada, technická památka, archeologická lokalita či jiný hodnotný objekt patří do obsahu, pokud splňuje běžná kritéria významu, doložitelnosti a geografického přiřazení.
+- Nezaměňuj turistickou použitelnost s kulturní, historickou, architektonickou, technickou nebo místopisnou hodnotou. TRAVEL je mapa zajímavých míst a příběhů, nikoli pouze katalog právě otevřených atrakcí.
+- U každého kandidáta posuzuj především identitu, význam, historii, jedinečnost, zdroje a polohu. Vlastnický režim, možnost vstupu, návštěvní hodiny ani aktuální provoz nesmějí fungovat jako automatický filtr pro zařazení.
+- Informaci o přístupnosti nebo soukromém vlastnictví uváděj v textu pouze tehdy, pokud je sama důležitá pro pochopení příběhu nebo praktické bezpečnosti návštěvníka. Není povinnou součástí faktu a nesmí vytlačovat hodnotnější historický či kulturní obsah.
+- **Nikdy nevyřazuj objekt jen proto, že je soukromý, veřejnosti nepřístupný, uzavřený nebo není možné si jej prohlédnout zevnitř.** Jeho exteriér, architektura, areál, krajinný kontext a doložené dějiny mohou být plnohodnotným mapovým obsahem.
+- Nadále platí zákaz vstupu na cizí pozemek bez oprávnění a povinnost nevyzývat k neoprávněnému vstupu. To však nijak neomezuje samotné zařazení objektu do mapy a popis jeho hodnoty.
+
+Rozhodovací otázka zní: **Je to skutečně zajímavé, významné a doložitelné místo nebo příběh, který chceme mít na mapě?** Nikoli: „Je tam otevřeno a pustí nás dovnitř?“
