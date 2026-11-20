@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 40/261 faktů, tedy 240/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231 a 4 v 74233. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 6 PSČ potvrdil 240/240 neprázdných jazykových položek a 6/6 záznamů validated V1. Zbývá 221 faktů / 1 326 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 57/261 faktů, tedy 342/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242 a 3 v 74243. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 11 PSČ potvrdil 342/342 kompletních jazykových položek (title i text) a 57/57 faktů validated V1. Zbývá 204 faktů / 1 224 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -201,6 +201,13 @@ Primární podklady první dávky:
 26. 74233/fact_001: ve všech šesti jazycích doplněna role několika generací místních mecenášů při obnově kostela.
 27. 74233/fact_002: ve všech šesti jazycích doplněno vysvětlení chronogramu — zvýrazněná písmena dávají římskými číslicemi rok 1708.
 28. 74233/fact_003: ve všech šesti jazycích doplněno, že přirozená říční krajina byla výrazně proměněna regulací Odry.
+29. 74235/fact_002: německé „Folterjustiz“ zpřesněno na historické „Folterrecht“; z anglické, španělské, francouzské, italské a nizozemské verze odstraněno nepodložené tvrzení, že mučírna je rekonstruovaná; doplněna role obnovy budovy pro uchování regionální paměti.
+30. 74235/fact_003: ve všech šesti jazycích výslovně uvedeno, že letopočet vyrytý v nadpraží potvrzuje dokončení stavby v roce 1795.
+31. 74235/fact_004: ve všech šesti jazycích doplněna přesná geologická charakteristika krasového či pseudokrasového jevu.
+32. 74237/fact_002: zpřesněn překlad šrotování obilí jako drcení na hrubou krmnou směs; odstraněna nepřesná formulace o výrobě sena/obecného krmiva.
+33. 74237/fact_003: ve všech šesti jazycích doplněno náboženské poselství latinského nápisu na kříži obrácené ke Kristu ukřižovanému a výslovně zachováno, že památky nejsou jen dekorací cest a návsi.
+34. 74242/fact_001: zpřesněn překlad hranolové věže; anglická, francouzská, italská a nizozemská verze nyní používají odpovídající termín „prismatic“.
+35. 74243/fact_001: opraven německý název kostela, který ponechával české „Kostel sv.“ místo překladu „Kirche der heiligen Maria Magdalena“.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
