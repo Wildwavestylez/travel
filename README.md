@@ -1,8 +1,23 @@
 # travel
 
-Germany-first postcode road-trip simulator.
+Germany-first postcode road-trip simulator and a multi-country geographic content project.
 
-## Core rules
+## Project scope
+
+- The original road-trip simulator is Germany-first, beginning at **01067 Dresden**.
+- Country datasets have country-specific schemas, content standards, research rules and storage authorities. Never assume that one country's database or workflow applies to another.
+- German postcode data lives under `data/germany/`; Czech postcode data lives under `data/czechia/`; Italian CAP documentation and sequence live under `data/italy/`.
+- Follow the country-specific prompts and standards before creating, reworking, auditing or publishing records.
+
+## Canonical production data stores
+
+- **Germany:** use the German storage and publication rules documented in the Germany-specific project files.
+- **Czechia:** Supabase is the single source of truth for Czech postcode records. Do not use it for another country.
+- **Italy:** Neon project **Europe Explorer**, database **neondb**, table **public.italy_cap_records** is the single source of truth for Italian CAP production records. The table stores the CAP in `postcode`, its workflow state in `workflow_status`, and the complete record as JSONB in `record`. GitHub contains Italian schemas, standards, prompts, sequence and supporting documentation—not a second production record store.
+
+For Italy, rework completion is V1 / validated. Final audit PASS does not publish a record. Publication to V5 / published requires an explicit user instruction and all three publication values to agree: database `workflow_status = 'published'`, JSONB `record.status = 'published'`, and JSONB `record.data_version = 5`. EuropeExplorer reads Italian production content from Neon using read-only access and displays only records that pass this publication gate. See `data/italy/COUNTRY_PROFILE.md`, `data/italy/prompt_rework.md` and `data/italy/prompt_audit.md` for the binding country-specific rules.
+
+## Core simulator rules
 
 - Start at **01067 Dresden**.
 - Visit every real geographic German postcode in ascending order.
@@ -16,6 +31,8 @@ Germany-first postcode road-trip simulator.
 ## Repository layout
 
 - `app/` — application code
-- `data/germany/` — canonical German postcode/location data
+- `data/germany/` — German postcode/location data
+- `data/czechia/` — Czech postcode data and country-specific rules
+- `data/italy/` — Italian CAP sequence, schema, standards, prompts and country profile
 - `routes/` — cached route data
 - `assets/` — static assets
