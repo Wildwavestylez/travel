@@ -587,18 +587,36 @@ The schema currently requires `access_point` and at least one fact. Do not silen
 - Do not change the schema, Country Profile, Content Standard, application code, database structure or sequence as part of ordinary record rework.
 - A suspected missing CAP or sequence discrepancy is a separate research finding, not permission to expand or change the project scope.
 
-## 14. Italian storage and production lifecycle — do not assume readiness
+## 14. Italian storage and production lifecycle — Neon is canonical
 
-The Italian workspace is a preparation area. Do not assume that Italian production records, an Italian CAP sequence, a Neon table, database schema, status lifecycle or approved write workflow already exist.
+Italy has an established production storage target and lifecycle. The single source of truth for Italian CAP records is the Neon project **Europe Explorer**, database **neondb**, table **public.italy_cap_records**. Do not describe the Italian workspace as preparation-only and do not treat storage as an unapproved future workflow.
 
-- Do not write Italian records into the Czech Supabase table or German dataset.
-- Do not create tables, alter database structure, RLS, application code or production records as part of ordinary rework.
-- Do not invent a Neon table name, column layout, country discriminator, record status or write API.
-- Do not claim that a record has been saved, published, validated or backed up unless an approved Italian production workflow exists and the operation has actually succeeded.
-- Until the user approves and the Italian storage workflow is established, treat the completed JSON as a validated work product for review, not as a production database write.
-- If an approved Italian storage workflow is later supplied, follow its exact target identity, write, validation, read-back and status rules. Never infer those rules from Czech or German storage.
+The table contract is:
+- `postcode`: five-character CAP identifier stored as text;
+- `workflow_status`: database-level workflow state;
+- `record`: complete Italian CAP record stored as JSONB;
+- `created_at` and `updated_at`: database timestamps.
 
-A missing storage workflow does not justify fabricating a successful save. Complete research and local JSON validation where possible, clearly state the storage blocker, and preserve the exact finished JSON as working output through the approved channel.
+GitHub stores versioned schemas, standards, prompts, sequence and supporting documentation. It is not a second production record store. Do not save Italian production CAP records to GitHub data files, local JSON files, Czech Supabase, the German dataset or another database as an alternative source of truth. EuropeExplorer uses read-only access to Neon.
+
+### Rework write procedure
+
+- Rework the explicitly requested existing CAP row in `public.italy_cap_records`. Do not create a new CAP row, invent a missing CAP, change the sequence, alter the table, or modify database permissions as part of ordinary rework. If the requested CAP row does not exist, stop and report the exact blocker.
+- Before writing, read the current row and confirm its postcode and current workflow state. Preserve unrelated rows and fields.
+- Validate the complete JSON record against the current `data/italy/schema.json` and the applicable Content Standard before saving.
+- Save the complete record to the JSONB `record` column and set the database `workflow_status` consistently with the content lifecycle below. Do not partially overwrite a record or silently discard existing valid content.
+- After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved record, `workflow_status`, JSONB `status` and JSONB `data_version`. If read-back does not match the intended write, report failure; never claim success.
+- Use only the established, authorised Neon connection. Never expose credentials or add write access to the Explorer client.
+
+### Mandatory content lifecycle
+
+- A completed rework is **V1 / validated**: JSONB root `record.data_version = 1`, JSONB root `record.status = 'validated'`, and database `workflow_status = 'validated'`.
+- V1 / validated means rework is complete and the record is awaiting the separate final audit. It is not published and must not appear in EuropeExplorer.
+- Audit PASS alone does not publish or change a record's version/status.
+- **V5 / published** is permitted only after the complete final audit passes and the user explicitly instructs publication. The three publication fields must then all agree: database `workflow_status = 'published'`, JSONB root `record.status = 'published'`, and JSONB root `record.data_version = 5`.
+- Never promote a record to V5, publish it, or apply a read-only lock merely because rework or audit is complete. Each requires its own authorised step.
+
+Do not infer Czech Supabase tables, German storage conventions, endpoints or write APIs for Italy. Do not claim that a record has been saved, validated, published or backed up unless the corresponding operation actually succeeded and, for database writes, the read-back was verified.
 
 ## 15. Completion checklist
 
