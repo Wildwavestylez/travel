@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 190/261 faktů, tedy 1 140/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265, 6 v 74266, 8 v 74267, 8 v 74271, 13 v 74272 a 5 v 74273. Zjištěné významové a terminologické nedostatky byly opraveny a načteny zpět; poslední read-back u 74273/fact_005 potvrzuje opravenou italskou a nizozemskou větu. Read-back dotčených 27 PSČ potvrdil kompletní jazykové položky (title i text) u všech kontrolovaných faktů. Zbývá 71 faktů / 426 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 195/261 faktů, tedy 1 170/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265, 6 v 74266, 8 v 74267, 8 v 74271, 13 v 74272 a všech 10 faktů v 74273. Zjištěné významové a terminologické nedostatky byly opraveny a načteny zpět; poslední read-back u 74273/fact_005 potvrzuje opravenou italskou a nizozemskou větu. Read-back dotčených 27 PSČ potvrdil kompletní jazykové položky (title i text) u všech kontrolovaných faktů. Zbývá 66 faktů / 396 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -255,14 +255,17 @@ Primární podklady první dávky:
 79. 74271/fact_001–008: individuálně zkontrolováno 8 faktů; doplněny chybějící podrobnosti o Františku Palackém, upřesněna typologie dřevěného kostela, datum zahájení stavby kamenného kostela, zasvěcení kostela sv. Ondřejovi a technické údaje větrného mlýna. Opravy byly provedeny pouze v příslušných jazykových položkách.
 80. 74272/fact_001–013: individuálně zkontrolováno všech 13 faktů; fact_003 o kapli Panny Marie Bolestné a heraldické desce Jana Jeřábka byl významově přepracován ve všech šesti cizích jazycích podle českého masteru a památkového kontextu.
 81. 74273/fact_001–005: individuálně zkontrolováno prvních 5 z 10 faktů; fact_005 o železničním propojení Veřovic opraven v italštině a nizozemštině kvůli chybné větné vazbě. Zbývajících pět faktů 74273 zůstává otevřeno.
+
+82. 74273/fact_006–008: dokončena sémantická kontrola tří překladových sad; názvy a významy odpovídají českým masterům, bez nutnosti dalších oprav.
+83. 74273/fact_009–010: dokončena sémantická kontrola posledních dvou překladových sad PSČ 74273; biografický text Oldřicha Černocha i historický popis vykolejení evakuačního vlaku významově odpovídají českým masterům. PSČ 74273 je nyní celé zkontrolováno 10/10 faktů.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 190/261 faktů hotovo (1 140/1 566 textů), zbývá 71 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 195/261 faktů hotovo (1 170/1 566 textů), zbývá 66 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74273/fact_006 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74274/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
