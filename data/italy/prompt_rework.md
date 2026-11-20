@@ -610,6 +610,8 @@ GitHub stores versioned schemas, standards, prompts, sequence and supporting doc
 
 ### Mandatory content lifecycle
 
+The Italian database `workflow_status` and JSONB root `record.status` share exactly three permitted values: `placeholder`, `validated` and `published`. The database default is `placeholder`. `placeholder` means the CAP is awaiting rework; `validated` means the V1 rework is complete and awaits final audit; `published` means the audited V5 record is approved for Explorer display. Do not use the legacy states `inventory`, `researching` or `review`.
+
 - A completed rework is **V1 / validated**: JSONB root `record.data_version = 1`, JSONB root `record.status = 'validated'`, and database `workflow_status = 'validated'`.
 - V1 / validated means rework is complete and the record is awaiting the separate final audit. It is not published and must not appear in EuropeExplorer.
 - Audit PASS alone does not publish or change a record's version/status.
