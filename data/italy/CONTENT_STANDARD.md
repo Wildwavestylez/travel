@@ -204,18 +204,24 @@ Toto měřítko podporuje hloubku rešerše; není to povinný požadavek na sen
 
 ## 6. Geografický rozsah a přiřazení faktů ke CAP
 
-CAP je poštovní identifikátor a interní geografická obsahová vrstva projektu. Není totožný s Comune, čtvrtí, turistickou oblastí ani automaticky přesným polygonem. Každé faktum se přiřazuje právě k jednomu primárnímu CAP záznamu.
+CAP je poštovní identifikátor a interní geografická obsahová vrstva projektu. Není totožný s Comune, čtvrtí, turistickou oblastí ani automaticky přesným polygonem. **Jeden CAP je vždy jeden produkční záznam**, i když je sdílen několika Comuni.
 
 - Každé faktum musí mít jedno hlavní reálné místo nebo lokalizovatelný předmět a právě jedno primární CAP přiřazení.
 - Ověř skutečnou polohu objektu nebo místa a jeho geografickou vazbu na CAP. Nepřiřazuj fakt pouze podle názvu obce, regionu, turistické oblasti nebo poštovní adresy uvedené bez ověření.
-- CAP může pokrývat více lokalit nebo se vyskytovat ve složitějších poštovních vzorcích. Nepředpokládej, že jedno CAP odpovídá jednomu Comune, ani že každý Comune má jen jedno CAP.
+- Pokud CAP zahrnuje více Comuni, uveď jejich oficiální názvy společně v poli `city`, oddělené čárkami. **Nevytvářej pro jednotlivé obce samostatné záznamy a neděl obsah podle obcí.**
+- `city` je pouze stručný seznam administrativních názvů spojených s CAP. Neurčuje reprezentativní obec, obslužnou poštu ani místo, ke kterému se musí přiřazovat fakta.
+- `county` a `state` musí zahrnout všechny odpovídající aktuální územní jednotky a Regioni; více hodnot odděl čárkami. Nepředstírej jedinou příslušnost, pokud CAP zasahuje do více jednotek.
+- Rešerše pokrývá celé obhajitelné území CAP napříč všemi příslušnými Comuni, frazioni a località. Hledání zajímavostí se nesmí rozdělit na obecní podčásti, kvóty ani samostatné obecní seznamy faktů.
+- Každý fakt se umístí podle skutečné fyzické polohy svého předmětu. Jeho Comune je pro obsahové přiřazení irelevantní; rozhoduje skutečná poloha a vztah k CAP.
 - U rozsáhlého nebo liniového objektu (park, archeologický areál, most, stezka, historické centrum, krajinný celek, přístav či infrastruktura) zvol jedno nejlépe obhajitelné primární CAP podle hlavní části, reprezentativního místa, vstupu, adresy nebo nejsilnější místní vazby. Není nutné, aby celý objekt ležel v jednom CAP.
 - Každý objekt nebo souvislý příběh má standardně jeden primární záznam. Neduplikuj stejné faktum a mapový pin v sousedních CAP. Samostatná fakta jsou přípustná pro skutečně odlišné, nezávisle významné objekty nebo příběhy.
 - Širší okolí lze zkoumat pro kontext a příběh. Externí místo, které patří do jiného CAP, však nevydávej za součást právě zpracovávaného CAP a nepřebírej jeho souřadnice.
-- Jakmile je geografické přiřazení rozumně podloženo a uzavřeno, považuj je za stabilní. Neotevírej je znovu jen proto, že rozsáhlý objekt zasahuje do dalšího CAP nebo by mohl být alternativně přiřazen jinam. Změna je přípustná pouze při konkrétním novém důkazu, že původní přiřazení bylo fakticky chybné nebo obsahuje zásadní rozpor.
-- Nevyžaduj CAP polygon ani polygonovou kontrolu jako předpoklad běžné tvorby. Používej aktuální poštovní přiřazení, adresní a geografické důkazy, oficiální popisy lokalit a obhajitelné mapové body. Nevytvářej historický registr změn hranic obcí ani CAP.
+- Jakmile je geografické přiřazení rozumně podloženo a uzavřeno, považuj je za stabilní. Změna je přípustná pouze při konkrétním novém důkazu, že původní přiřazení bylo fakticky chybné nebo obsahuje zásadní rozpor.
+- Nevyžaduj CAP polygon ani polygonovou kontrolu jako předpoklad běžné tvorby. Používej aktuální poštovní přiřazení, adresní a geografické důkazy, oficiální popisy lokalit a obhajitelné mapové body.
 
 ### 6.1 Italská administrativní a poštovní realita
+
+Pro každý CAP platí: jeden CAP = jeden záznam. Pokud je CAP sdílen více obcemi, vypiš všechny příslušné oficiální názvy Comune společně v poli `city`, oddělené čárkami. Nevybírej jednu „hlavní“ či „reprezentativní“ obec a nerozděluj CAP na obecní záznamy. Seznam obcí slouží pouze k orientaci a vyhledávání; zajímavosti se hledají a zpracovávají společně za celé území CAP, bez přiřazování faktů jednotlivým obcím.
 
 Pro správnou klasifikaci rozlišuj:
 - **Regione** — regionální úroveň;
@@ -224,7 +230,7 @@ Pro správnou klasifikaci rozlišuj:
 - **frazione, località, borgata, quartiere, rione, municipio/circoscrizione** — místní nebo podměstské označení, která nejsou vzájemně zaměnitelná a nemají vždy stejný právní status;
 - **CAP** — poštovní oblast nebo městská poštovní zóna.
 
-Používej aktuální oficiální klasifikaci a názvy. Nepřeváděj automaticky každou mezilehlou jednotku na „Provincia“. Uveď oficiální typ v hodnotě `county`, pokud je to pro jednoznačnost potřeba. `city` označuje primární Comune nebo poštovní lokalitu podle ověřeného přiřazení; není důkazem, že CAP přesně kopíruje hranice Comune. `district` je pouze doložená místní/podměstská lokalita. `state` označuje Regione.
+Používej aktuální oficiální klasifikaci a názvy. Nepřeváděj automaticky každou mezilehlou jednotku na „Provincia“. Pole `city` obsahuje všechny oficiální Comuni přiřaditelné k danému CAP, v jednom řetězci oddělené čárkami; nikdy nevybírej jednu obec jako reprezentativní nebo jako povinnou obec obslužné pošty. Pole `county` a `state` obsahují všechny příslušné aktuální mezilehlé územní jednotky a Regioni; pokud jich je více, uveď jejich oficiální názvy oddělené čárkami. `district` je pouze doložená místní/podměstská lokalita, nikoli seznam obcí nebo sídel.
 
 Zohledni zvláštní regionální uspořádání, zejména autonomní provincie Bolzano/Bozen a Trento, zvláštní statut regionů, sicilské Liberi consorzi comunali a další změny v aktuální klasifikaci. Nezaváděj však zbytečnou historickou správní evidenci. Pro běžnou produkci potřebujeme správnou současnou klasifikaci a užitečné vyhledávání, nikoli úplnou historii správních změn.
 
