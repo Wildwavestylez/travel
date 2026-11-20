@@ -27,33 +27,33 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "One Comune in which the serving post office for this CAP is physically located. Do not list all settlements or Comuni in the CAP delivery area."
+      "description": "All official Comuni whose territory is included in this CAP area, written in one string and separated by commas. Do not select a single Comune based on the location of a post office. Determine the complete CAP geography from authoritative postal and geographic sources; facts are researched across the whole CAP area."
     },
     "district": {
       "type": [
         "string",
         "null"
       ],
-      "description": "A documented sub-municipal locality, frazione, quartiere, rione or other relevant subdivision within the Comune where the serving post office is located. Do not put other Comuni or settlements from the wider CAP area here; use null when no precise sub-municipal value is relevant."
+      "description": "A relevant documented sub-municipal locality, frazione, quartiere, rione or other subdivision within the CAP area, not a substitute for listing Comuni. Use null when no precise sub-municipal value is relevant. Never place other Comuni here."
     },
     "county": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The current intermediate administrative area (normally Provincia or Città metropolitana) to which the post-office Comune belongs."
+      "description": "All applicable current intermediate administrative areas (normally Province or Città metropolitane) covering the Comuni included in this CAP, written in one string and separated by commas when more than one applies. Do not derive this field solely from a post-office address."
     },
     "state": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The Regione to which the post-office Comune belongs."
+      "description": "All applicable Regioni covering the Comuni included in this CAP, written in one string and separated by commas when more than one applies. Do not derive this field solely from a post-office address."
     },
     "representative_place": {
       "type": "string",
       "minLength": 1,
-      "description": "One simple, identifiable representative place for the whole CAP area; it need not be a tourist attraction or geometric centroid."
+      "description": "One simple, identifiable orientation anchor for the whole CAP area; it need not be a tourist attraction or geometric centroid and does not designate a representative Comune or the location of a serving post office."
     },
     "representative_point": {
       "$ref": "#/$defs/point",
@@ -171,7 +171,7 @@
             "string",
             "null"
           ],
-          "description": "Documented note about the serving post office or delivery-office arrangement, where relevant."
+          "description": "Documented note about postal-office or delivery arrangements where relevant. A branch address within a CAP does not by itself prove that it exclusively serves the CAP or defines the complete CAP geography."
         },
         "postcode_override_reason": {
           "type": [
@@ -241,7 +241,7 @@
         "locality",
         null
       ],
-      "description": "Nepovinné upřesnění druhu district v obci sídla pošty: municipal_part = oficiální část obce; municipal_district = městská část/obvod; city_quarter = městská čtvrť či lokalita; settlement = sídlo/osada uvnitř obce sídla pošty; locality = jiná místní lokalita."
+      "description": "Optional clarification of the type of district/locality within the CAP area: municipal_part = official municipal subdivision; municipal_district = municipal district; city_quarter = city quarter or neighborhood; settlement = settlement within a Comune; locality = another local area. This field does not replace the complete Comune list in city."
     }
   },
   "$defs": {
@@ -624,5 +624,5 @@
       "description": "Geografická poloha konkrétního faktu podle pravidel českého Content Standardu. Uveď location, pokud lze doložit přesnou nebo obhajitelnou přibližnou polohu; jinak použij null. Zajímavost kvůli chybějící přesné adrese nevyřazuj. Nezaváděj nový stav ani příznak a nikdy automaticky nekopíruj representative_point ani access_point."
     }
   },
-  "$comment": "ITALY CONTENT STANDARD: The JSON structure, field names, required/optional/null behavior, source object structure, translation structure, fact-location structure and controlled enums are kept technically identical to data/czechia/schema.json. Only country-specific descriptive semantics and authorities are adapted for Italian CAP geography. Do not introduce Italy-only technical fields or enum values."
+  "$comment": "ITALY CONTENT STANDARD: The JSON structure, field names, required/optional/null behavior, source object structure, translation structure, fact-location structure and controlled enums are kept technically identical to data/czechia/schema.json. Only country-specific descriptive semantics and authorities are adapted for Italian CAP geography. One CAP remains one record even when it covers multiple Comuni. city, county and state contain all applicable official names as comma-separated values; district is reserved for a relevant sub-municipal locality. Research and locate facts across the full CAP territory, independently of Comune boundaries. representative_place and representative_point are orientation anchors for the whole CAP, not a representative Comune or serving post office. Do not introduce Italy-only technical fields or enum values."
 }
