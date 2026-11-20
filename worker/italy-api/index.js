@@ -37,7 +37,7 @@ export default {
         const offset = Math.max(0, Number.parseInt(url.searchParams.get('offset') || '0', 10) || 0);
         const q = (url.searchParams.get('q') || '').trim().slice(0, 100);
         const status = url.searchParams.get('status') || 'all';
-        if (!['all', 'inventory', 'researching', 'review', 'published'].includes(status)) {
+        if (!['all', 'placeholder', 'validated', 'published'].includes(status)) {
           return reply({ error: 'Invalid status filter' }, 400, origin);
         }
 
