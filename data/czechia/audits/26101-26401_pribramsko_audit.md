@@ -9,15 +9,15 @@
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
-- Supabase read-only inventář: 36/36 řádků, 238 faktů.
+- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 241 faktů.
 - Stav záznamů: 35 `validated`, 1 `placeholder` (26232 Pečice), 0 `published`; všechny záznamy jsou `data_version=1`.
 - Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
 
 ## A. Zásadní turistická úplnost — úvodní průzkum
-### Potvrzené mezery k doplnění
-1. **26101 — Svatá Hora:** v osmi existujících faktech chybí zásadní národní kulturní památka a významné evropské mariánské poutní místo. Adresa Svatá Hora 591, Příbram II, PSČ 26101 je doložena. Kandidát na samostatný fakt; zachovat legendární tradice s jasným připsáním pověsti.
-2. **26101 — František Drtikol:** světově uznávaný fotograf a příbramský rodák není zpracován jako samostatný příběh; současný fakt o Zámečku-Ernestinu pouze zmiňuje galerii nesoucí jeho jméno. Kandidát na samostatný fakt.
-3. **26101 — Jan Drda:** příbramský rodák, spisovatel a novinář nebyl v původních osmi faktech samostatně zachycen. Prověřit zařazení jako významné české literární osobnosti.
+### Potvrzené mezery z úvodního průzkumu — nyní doplněné
+1. **26101 — Svatá Hora:** v osmi existujících faktech chybí zásadní národní kulturní památka a významné evropské mariánské poutní místo. Adresa Svatá Hora 591, Příbram II, PSČ 26101 je doložena. Doplněno jako `fact_009`; legendární tradice jsou výslovně označeny jako pověst.
+2. **26101 — František Drtikol:** světově uznávaný fotograf a příbramský rodák není zpracován jako samostatný příběh; současný fakt o Zámečku-Ernestinu pouze zmiňuje galerii nesoucí jeho jméno. Doplněno jako `fact_010`.
+3. **26101 — Jan Drda:** příbramský rodák, spisovatel a novinář nebyl v původních osmi faktech samostatně zachycen. Zařazení potvrzeno a doplněno jako `fact_011`.
 
 ### Provedené doplnění — 26101
 - **fact_009 Svatá Hora** — doplněno; `heritage_and_monuments`, priorita A, `religious_site`; text 998 znaků, 3 zdroje, poloha baziliky 49.6849572, 14.0176303; legenda o Arnoštovi z Pardubic je výslovně označena jako pověst.
@@ -40,13 +40,13 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 
 ## F. Základní technické a datové kontroly
 - 36/36 záznamů existuje v Supabase a odpovídá vybranému rozsahu sequence.
-- 238/238 faktů má zdroj, platnou `category`, `priority` a `map_category`.
+- 241/241 faktů má zdroj, platnou `category`, `priority` a `map_category`.
 - 0 duplicitních ID v rámci záznamů; 0 duplicitních názvů faktů v auditovaném bloku.
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
-- Délka českého master textu: 4 faktů pod 350 znaky — 26284/fact_001 (291), 26284/fact_003 (343), 26285/fact_001 (256), 26285/fact_002 (303). Vyžadují věcné doplnění a následnou aktualizaci šesti cizojazyčných překladů.
+- Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
 - `facts[].location=null`: 27 faktů. Podle promptu se existující neprázdné polohy nepřeměřují; 27 null poloh vyžaduje cílené ověření a doplnění pouze tam, kde lze určit obhajitelný bod. Neznámé body zůstanou null s důvodem.
-- RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; dostupný CSV fallback obsahuje mimo jiné záznam 26101 (7 328 adresních míst). Kompletní 36kódový RÚIAN CSV cross-check a skupiny/manifest je nutné uzavřít v pokračování.
+- RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; CSV fallback je dostupný. Ověřena přesná přítomnost všech 36 kódů v CSV (36/36), shoda všech 36 kódů mezi `sequence` a `groups` bez duplicit či rozdílů (36/36) a přítomnost 36/36 v Supabase. Zbývá věcný geografický cross-check místních částí a přiřazení faktů vůči RÚIAN inventáři.
 - Neproveden AJV ani samostatný validační běh, v souladu s promptem.
 
 ## Otevřené kroky
@@ -57,4 +57,4 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** pokračovat od otevřených bodů výše; hotovou kontrolu synchronizace `translations.cs` neopakovat.
+**Další krok:** pokračovat cíleným řešením 27 prázdných poloh podle hierarchie v Content Standardu; existující neprázdné polohy znovu neověřovat.
