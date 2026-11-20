@@ -4,9 +4,31 @@
 
 This profile defines the Italian geographic, postal and administrative meaning of the fields used by an Italian CAP record in TRAVEL / EuropeExplorer.
 
-The Italian country contract will be defined by the future `data/italy/schema.json`, together with `data/italy/CONTENT_STANDARD.md`. The schema will define field names, types, required properties and controlled values. The Italian Content Standard and operational prompts will define research, geographic assignment, source, editorial, creation, rework and audit rules.
+The current Italian record contract is defined by `data/italy/schema.json`, together with `data/italy/CONTENT_STANDARD.md`. The schema defines field names, types, required properties and controlled values. The Italian Content Standard and operational prompts define research, geographic assignment, source, editorial, creation, rework and audit rules.
 
 This profile explains the Italian meaning of the geographic concepts and the relationships that the data model and applications must preserve. It does not replace the schema, Content Standard or prompts. It must not silently introduce final schema fields before those documents are designed and reviewed.
+
+## Canonical storage and application authority
+
+Italy's production source of truth is the Neon database, not JSON files in the GitHub repository and not the Czech Supabase project.
+
+The production table is `public.italy_cap_records` in the Neon project `Europe Explorer`, database `neondb`. Its record contract is:
+- `postcode`: five-character CAP identifier stored as text;
+- `workflow_status`: database-level workflow state;
+- `record`: the complete Italian CAP JSON record stored as JSONB;
+- `created_at` and `updated_at`: database timestamps.
+
+The JSONB `record` must conform to `data/italy/schema.json`. Its root `status` and `data_version` are content-level metadata and are distinct from the database column `workflow_status`. Do not treat these three values as interchangeable.
+
+Neon is authoritative for all Italian production reads and writes. GitHub contains the versioned schema, standards, prompts and supporting project files; it is not a second production database. Do not write Italian production records to Supabase, local JSON files, GitHub data files or another database as an alternative source of truth.
+
+EuropeExplorer reads Italian production content from Neon using read-only access. Do not introduce write operations into the Explorer read path or expose database credentials in client code. The application's Italian publication gate requires all three conditions simultaneously:
+- database `workflow_status = 'published'`;
+- JSONB root `record.status = 'published'`;
+- JSONB root `record.data_version = 5`.
+
+A record that fails any one of these conditions is not published for Explorer display. Do not weaken or bypass this gate in country data, prompts or application code.
+
 
 Preserve the established TRAVEL / EuropeExplorer architecture used for Czechia and Germany wherever the underlying concept is shared. Adapt country-specific postal, geographic, administrative and source details to Italy. Do not mechanically copy Czech or German administrative semantics.
 
@@ -60,7 +82,7 @@ The conceptual hierarchy for filtering is:
 
 `Italia → Regione → Provincia / unità territoriale sovracomunale → Comune → CAP`
 
-This is a navigation and relationship model, not a claim that every intermediate unit has the same legal status or exists in the same form in every Region. The profile and future schema must preserve the specific official unit type and identifier rather than flattening every intermediate unit into a generic province without qualification.
+This is a navigation and relationship model, not a claim that every intermediate unit has the same legal status or exists in the same form in every Region. The profile and schema must preserve the specific official unit type and identifier rather than flattening every intermediate unit into a generic province without qualification.
 
 ### Regions and special autonomy
 
@@ -103,7 +125,7 @@ The existence of a named locality does not prove that it has its own CAP. Likewi
 
 ## Canonical record fields and administrative meaning
 
-The final field names and required structure must be set in `data/italy/schema.json` after this profile and the shared schema architecture have been reviewed. Do not add speculative fields to individual records.
+The canonical field names, required structure and controlled values are defined by the current `data/italy/schema.json`. This profile explains their Italian geographic meaning; it does not override the schema or authorise speculative fields in individual records.
 
 The existing shared concepts must retain their distinct meanings:
 
@@ -168,7 +190,7 @@ It is not:
 
 Keep this concept separate from `representative_point` and fact locations. Do not use it as a substitute for either.
 
-The Czech and German schemas currently differ in whether an access point may be null or is required. The Italian schema must make an explicit compatibility decision after reviewing the shared application and legacy data requirements. This profile does not silently decide that schema question. Do not remove or change the shared field without a separately reviewed schema and application migration.
+The current Italian schema permits `access_point` to be either a point or `null`. Keep that contract unless a separately reviewed schema and application migration changes it. Do not remove or change the shared field as part of a country-profile clarification.
 
 Do not spend disproportionate research effort inventing an access point solely for EuropeExplorer. Any verification flag must reflect a check actually performed.
 
@@ -224,7 +246,7 @@ Use authoritative specialist and local sources where necessary, checking that ea
 
 ## Search and filtering geography
 
-The Italian data model must support the future EuropeExplorer and companion application search/filter experience without changing the one-CAP-one-record production principle.
+The Italian data model supports the EuropeExplorer search/filter experience without changing the one-CAP-one-record production principle.
 
 The intended user navigation is:
 
@@ -244,9 +266,23 @@ Requirements:
 - Administrative changes must be date-aware and must not silently reassign historical CAP or fact records.
 - Search/filter relationships must not be inferred from CAP digit patterns alone.
 
-Postal geography and administrative geography are different dimensions. The future data model and application filters must join them through verified relationships without pretending that CAPs are administrative polygons or that administrative boundaries are postal boundaries.
+Postal geography and administrative geography are different dimensions. The data model and application filters must join them through verified relationships without pretending that CAPs are administrative polygons or that administrative boundaries are postal boundaries.
 
 This profile establishes the geographic requirements. The exact database tables, indexes, API responses, search UI and cross-application implementation belong to the relevant application and database design work and must not be improvised in this country profile.
+
+## Content lifecycle and versioning
+
+The Italian record lifecycle must preserve the separation between content validation, audit approval and publication.
+
+- A newly reworked record remains on the validated V1 track: JSONB root `status = 'validated'`, JSONB root `data_version = 1`, and database `workflow_status = 'validated'`.
+- An audit result of `PASS` confirms audit acceptance only. It does not itself publish the record or change its data version.
+- Promotion to V5 and publication is permitted only after a successful final audit and the user's explicit publication instruction for the defined CAP scope.
+- Publication must update the database workflow state and the JSONB root metadata together, without unintentionally changing the content or unrelated records.
+- After a publication write, read the exact records back from Neon and verify the requested CAP scope, row count and all three publication-gate values. A successful write response alone is not proof of successful publication.
+- Do not mark a record published merely because its content looks complete, because an audit passed, or because a neighbouring record was published.
+- Read-only locking is a separate operation and must never be inferred from publication.
+
+The numeric `data_version` identifies the content-standard version consumed by the application. V5 is the current Explorer publication target; do not invent intermediate versions or change version numbering without a separately approved project-wide decision. Keep the database workflow state and JSONB content metadata synchronised according to the Italian operational prompts.
 
 ## Language layer
 
@@ -263,11 +299,11 @@ The current Czech and German production schemas require these seven languages:
 
 Use the same seven-language set for Italy unless a separately reviewed EuropeExplorer-wide language decision changes it. Do not create a country-specific reduction in language coverage.
 
-All language versions must preserve the same fact IDs and order, and must convey the same verified meaning. Place names, official administrative names, historical terms and culturally specific concepts must be translated or explained naturally without changing their identity. Preserve official local names where appropriate and add clear explanatory wording for international readers.
+All language versions must preserve the same fact IDs and order, and must convey the same verified meaning. The canonical language keys are exactly `cs`, `de`, `en`, `es`, `fr`, `it` and `nl`, as required by the Italian schema. The base `facts` array and each of the seven `translations[lang].facts` arrays must contain the same unique IDs in the same order, paired by ID. The exact ID/order rule is specified in `data/italy/CONTENT_STANDARD.md`; this profile does not create a separate translation structure. Place names, official administrative names, historical terms and culturally specific concepts must be translated or explained naturally without changing their identity. Preserve official local names where appropriate and add clear explanatory wording for international readers.
 
 ## Change control and unresolved design decisions
 
-This profile establishes geographic concepts and requirements. It does not by itself finalise the Italian JSON field names, data types, controlled vocabularies, database relations or application behaviour.
+This profile establishes Italian geographic concepts and requirements. The current JSON field names, data types and controlled vocabularies are defined by `data/italy/schema.json`; the production database and Explorer publication contract are defined in this profile. It does not replace those contracts.
 
 The Italian schema and Content Standard must settle only the practical details needed for consistent records and useful application filters:
 
@@ -276,4 +312,4 @@ The Italian schema and Content Standard must settle only the practical details n
 3. How the legacy `access_point` requirement is handled consistently with the existing application.
 4. The controlled Italian fact-location vocabulary, while preserving the shared map-category system.
 
-Do not delay content production over rare historical boundary cases or a comprehensive CAP polygon model. The sequence needs a reliable current list of CAPs; each CAP then becomes a content layer for map points, interesting places and stories. First approve this profile, then prepare the Italian schema and Content Standard, followed by the operational prompts and CAP sequence.
+Do not delay content production over rare historical boundary cases or a comprehensive CAP polygon model. The sequence needs a reliable current list of CAPs; each CAP then becomes a content layer for map points, interesting places and stories. Keep this profile aligned with the current Italian schema, Content Standard and operational prompts as those documents evolve.
