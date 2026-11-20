@@ -18,11 +18,11 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "turie_history",
-        "turie_church",
-        "turie_heritage",
-        "turie_diocese",
-        "turie_commons"
+        "https://www.obecturie.sk/historia.html",
+        "https://www.obecturie.sk/sakralne-stavby-clanok/mid/370661/.html",
+        "https://www.enviroportal.sk/eia/dokument/312983",
+        "https://dcza.sk/sk/schematizmus/filialky/turie-2",
+        "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Michael_(Turie)"
       ],
       "map_category": "religious_site",
       "location": {
@@ -41,9 +41,9 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "turie_archaeology",
-        "turie_enviro",
-        "turie_general"
+        "https://www.snm.sk/swift_data/source/archeologicke_muzeum/zborniky/z20/ZbornikSlovenskehoNarodnehoMuzeaArcheologia20_2010_119_138.pdf",
+        "https://www.enviroportal.sk/eia/dokument/312983",
+        "https://www.obecturie.sk/vseobecne.html"
       ],
       "map_category": "archaeological_site",
       "location": {
@@ -62,9 +62,9 @@
       "category": "nature_and_landscape",
       "priority": "C",
       "sources": [
-        "turie_nature",
-        "turie_nature_admin",
-        "turie_enviro"
+        "https://www.rajecke-teplice.info/pages/pp-turska-skala",
+        "https://www.npmalafatra.sk/priroda/chranene-uzemia/",
+        "https://www.enviroportal.sk/eia/dokument/312983"
       ],
       "map_category": "nature",
       "location": {
@@ -83,9 +83,9 @@
       "category": "tourism_and_surroundings",
       "priority": "C",
       "sources": [
-        "turie_cipcie",
-        "turie_cipcie_event",
-        "turie_kst"
+        "https://www.zilinskyturistickykraj.sk/sk/clanok/cipcie",
+        "https://www.obecturie.sk/oznamy/zimny-vystup-na-cipcie.html",
+        "https://www.kstza.sk/zoznam-klubov/kst-turie/historia-a-sucasnost-kst-turie/"
       ],
       "map_category": "viewpoint_landscape",
       "location": {
@@ -104,8 +104,8 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "turie_history",
-        "turie_enviro",
+        "https://www.obecturie.sk/historia.html",
+        "https://www.enviroportal.sk/eia/dokument/312983",
         "turie_upvs"
       ],
       "map_category": "historic_city",
@@ -125,7 +125,7 @@
       "category": "local_story",
       "priority": "D",
       "sources": [
-        "turie_chapels"
+        "https://www.obecturie.sk/sakralne-stavby-clanok/mid/370661/.html"
       ],
       "map_category": "religious_site",
       "location": null
@@ -136,97 +136,81 @@
   "status": "validated",
   "sources": [
     {
-      "id": "turie_history",
       "title": "Obec Turie – Historie obce a sakrální stavby",
       "url": "https://www.obecturie.sk/historia.html",
       "type": "official"
     },
     {
-      "id": "turie_church",
       "title": "Obec Turie – Kostel sv. Michala a jeho obnova",
       "url": "https://www.obecturie.sk/sakralne-stavby-clanok/mid/370661/.html",
       "type": "official"
     },
     {
-      "id": "turie_heritage",
       "title": "Enviroportál – Územní plán obce Turie, kulturně-historické hodnoty a archeologická naleziště",
       "url": "https://www.enviroportal.sk/eia/dokument/312983",
       "type": "official"
     },
     {
-      "id": "turie_diocese",
       "title": "Žilinská diecéze – Filiálka Turie",
       "url": "https://dcza.sk/sk/schematizmus/filialky/turie-2",
       "type": "official"
     },
     {
-      "id": "turie_commons",
       "title": "Wikimedia Commons – Kostol sv. Michala v Turí, poloha a identifikace památky",
       "url": "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Michael_(Turie)",
       "type": "other"
     },
     {
-      "id": "turie_archaeology",
       "title": "Slovenské národné múzeum – Archeológia 20, Turie–Hrádek",
       "url": "https://www.snm.sk/swift_data/source/archeologicke_muzeum/zborniky/z20/ZbornikSlovenskehoNarodnehoMuzeaArcheologia20_2010_119_138.pdf",
       "type": "museum"
     },
     {
-      "id": "turie_enviro",
       "title": "Enviroportál – Územní plán obce Turie",
       "url": "https://www.enviroportal.sk/eia/dokument/312983",
       "type": "official"
     },
     {
-      "id": "turie_general",
       "title": "Obec Turie – Všeobecné informace a Turská dolina",
       "url": "https://www.obecturie.sk/vseobecne.html",
       "type": "official"
     },
     {
-      "id": "turie_nature",
       "title": "Rajecké Teplice – Přírodní památka Turská skala",
       "url": "https://www.rajecke-teplice.info/pages/pp-turska-skala",
       "type": "regional"
     },
     {
-      "id": "turie_nature_admin",
       "title": "Správa Národního parku Malá Fatra – Chráněná území, Turská skala",
       "url": "https://www.npmalafatra.sk/priroda/chranene-uzemia/",
       "type": "official"
     },
     {
-      "id": "turie_cipcie",
       "title": "Žilinský turistický kraj – Čipčie",
       "url": "https://www.zilinskyturistickykraj.sk/sk/clanok/cipcie",
       "type": "regional"
     },
     {
-      "id": "turie_cipcie_event",
       "title": "Obec Turie – Padesátý zimní výstup na Čipčie",
       "url": "https://www.obecturie.sk/oznamy/zimny-vystup-na-cipcie.html",
       "type": "official"
     },
     {
-      "id": "turie_kst",
       "title": "Klub slovenských turistov regiónu Žilina – Historie KST Turie",
       "url": "https://www.kstza.sk/zoznam-klubov/kst-turie/historia-a-sucasnost-kst-turie/",
       "type": "specialist"
     },
     {
-      "id": "turie_chapels",
       "title": "Obec Turie – Sakrální stavby: kaple v katastru obce",
       "url": "https://www.obecturie.sk/sakralne-stavby-clanok/mid/370661/.html",
       "type": "official"
     },
     {
-      "id": "turie_post",
       "title": "Obec Turie – Služby v obci, oznámení o poště Turie a jejím ukončení",
       "url": "https://www.obecturie.sk/sluzby-v-obci.html",
       "type": "official"
     },
     {
-      "id": "turie_post_closure",
       "title": "Obec Turie – Ukončení provozu pošty Turie",
       "url": "https://www.obecturie.sk/oznamy/ca/390837/module_page/0/2/aktuality-vseobecne-oznamy.html?id=0",
       "type": "official"
