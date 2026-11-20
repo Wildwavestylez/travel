@@ -18,6 +18,8 @@ The production table is `public.italy_cap_records` in the Neon project `Europe E
 - `record`: the complete Italian CAP JSON record stored as JSONB;
 - `created_at` and `updated_at`: database timestamps.
 
+The database `workflow_status` column uses exactly three values: `placeholder`, `validated` and `published`, with `placeholder` as its default. It mirrors the JSONB root `record.status`; it is not a separate lifecycle. Legacy `inventory` rows were normalised to `placeholder` without changing the JSONB record. The JSONB lifecycle is constrained by `data/italy/schema.json` to the same three values.
+
 The JSONB `record` must conform to `data/italy/schema.json`. Its root `status` and `data_version` are content-level metadata and are distinct from the database column `workflow_status`. Do not treat these three values as interchangeable.
 
 Neon is authoritative for all Italian production reads and writes. GitHub contains the versioned schema, standards, prompts and supporting project files; it is not a second production database. Do not write Italian production records to Supabase, local JSON files, GitHub data files or another database as an alternative source of truth.
