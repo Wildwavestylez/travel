@@ -18,63 +18,42 @@ The schema defines what may be stored. The Country Profile defines the geographi
 
 Preserve the shared TRAVEL / EuropeExplorer architecture where the underlying concept is common. Apply Italian postal, geographic, administrative and source rules where they differ from Czechia or Germany.
 
-## 2. Absolute Italian geographic naming rule — one post-office Comune in city
+## 2. Italian CAP record geography — one CAP, one record, all associated Comuni
 
-This is a mandatory project-wide organizational rule.
+This is the mandatory project-wide rule for Italian records.
 
-For every CAP record:
+- **One CAP always remains one production record.** Never split a shared CAP into one record per Comune and never create multiple records with the same CAP.
+- The CAP is our project content/indexing unit. It may cover one Comune, several Comuni or an urban postal zone. Its content is the complete defensible geographic area associated with that CAP.
+- Set `city` to the official names of **all Comuni associated with the CAP**, using current ISTAT names. If there is more than one, list the names in one string separated by commas. Do not select one Comune as a supposed representative or organizational anchor.
+- Determine the Comune list from the best available authoritative evidence for the CAP assignment and the physical municipal locations covered by it. Poste Italiane is the primary postal authority; ISTAT is the authority for current Comune names and administrative identity. A post-office branch address may help identify a locality, but its existence alone does not prove that it is the only office serving the CAP or define the full CAP area.
+- Do not require identification of one exclusive serving post office. Do not hold up a record merely because Poste Italiane does not publish a single CAP-to-serving-office relationship.
+- If a CAP is associated with more than one intermediate territorial unit or Regione, represent all applicable official names in the corresponding string field, separated by commas. Never silently choose one. If the scope cannot be established reliably, document the precise uncertainty and do not guess.
+- `district` is not a list of settlements or Comuni. Use it only for a genuinely relevant, documented sub-municipal locality when the record itself requires one; otherwise use null.
+- `representative_place` and `representative_point` describe one useful map anchor for the CAP's overall area. They do not designate a representative Comune, postal office or boundary centroid.
+- The municipality list is administrative orientation only. It does not partition the content and does not determine where facts belong.
 
-- Identify the post office that actually serves the CAP.
-- Verify the physical location of that serving post office.
-- Set `city` to **exactly one official Comune in which that serving post office physically stands**.
-- Never put a list of Comuni, villages, frazioni, località or settlements into `city`.
-- Never choose the largest, best-known, most touristically important or most central Comune merely because it seems representative.
-- Never choose a different Comune because it contains more attractions or more addresses.
-- Do not infer the serving office from proximity alone. Verify the actual postal service relationship using competent evidence.
-- If the serving office or its physical Comune cannot be established reliably, do not guess. Record the precise unresolved issue and leave the record incomplete until it can be resolved.
+### 2.1 Full CAP research area — content is independent of Comune
 
-The `city` value is the record's clear organizational and audit anchor. It does **not** claim that the CAP covers only that Comune, that the CAP boundary follows the Comune boundary, or that all facts are located in that Comune.
+Research the entire defensible geographic area associated with the CAP, across all its Comuni, settlements and localities.
 
-Set `county` and `state` consistently from the current official administrative affiliation of the Comune in which the serving post office physically stands:
-
-- `county`: the applicable intermediate territorial unit, using its full official name and type where necessary — for example Provincia, Città metropolitana, Provincia autonoma or Libero consorzio comunale. Do not force every unit into the legal category Provincia.
-- `state`: the current official Regione.
-- `district`: only a documented sub-municipal locality within the post-office Comune, when genuinely relevant and supported. Otherwise use null. Do not use it as a list of settlements elsewhere in the CAP area.
-
-Use current official ISTAT names and classifications. If a special territorial arrangement applies, preserve its actual current form. Do not infer administrative membership from the CAP digits.
-
-### 2.1 Full CAP research area — never narrow the content to city
-
-The one-Comune `city` rule is an organizational naming rule only. It must never narrow research or map coverage.
-
-For each CAP, actively research the **entire defensible geographic area served by that CAP**, including all relevant:
-
-- Comuni;
-- frazioni;
-- località;
-- villages and hamlets;
-- borgate and other locally recognised settlements;
-- urban districts, rioni, quartieri or other sub-municipal areas;
-- historic settlements and named places that remain geographically identifiable.
-
-Do not stop research at the Comune named in `city`. A CAP may serve multiple Comuni, and a Comune may be served by multiple CAPs or urban CAP zones.
-
-Every meaningful village, frazione or local settlement in the CAP area is eligible for geographic representation on the map. Every independently significant, verified attraction, heritage site, natural feature, technical site, local tradition or story found there is eligible for a fact, subject to the Content Standard and the one-primary-CAP / no-duplication rules.
-
-Do not hide a well-known town among a long list of small settlements. Keep the one post-office Comune visible in `city`, while researching and mapping the whole CAP area.
+- Search for attractions, heritage, nature, history, people, traditions, technical sites and stories throughout the CAP area.
+- Do not organise, quota, split or filter facts by Comune. Do not require a fact to be associated with one of the names in `city` as a separate editorial classification.
+- A fact may be located in any settlement or locality within the CAP area. Its map coordinates must identify the real physical location of the subject, regardless of municipal affiliation.
+- Use the Comune and locality names as research search terms and geographic context, not as containers to which facts must be assigned.
+- Keep one fact in the one most defensible primary CAP record. Avoid duplicate facts across different CAP records, but do not create separate Comune records inside one CAP.
+- Do not expand the CAP area to an entire Comune or neighbouring tourist region without evidence. Equally, do not narrow it to one municipal seat or post-office address.
 
 ### 2.2 Settlement identity and map representation
 
 Distinguish Comune from frazione, località, borgata, quartiere, rione and other local designations. These terms are not interchangeable and their legal meaning can vary by region and municipality.
 
-- Use the official Comune identity for administrative classification.
-- Preserve the locally supported name and type of a frazione or località when describing or locating it.
+- Use official Comune identities for the `city` list and administrative classification.
+- Preserve locally supported names and types of frazioni and località when describing or locating a fact.
 - A frazione does not become a Comune merely because it has a distinct name, a church, a square or a strong local identity.
 - Do not invent a CAP for a settlement or assume that a named frazione has its own CAP.
-- Do not omit a settlement from the research merely because it has no separate CAP.
-- Do not put a list of all CAP settlements into `city` or `district`.
-
-A settlement may be shown as a geographic point on the map where the application/data model supports it. A fact about a particular frazione must be located in that frazione, not automatically at the municipal seat.
+- Do not omit a settlement from research merely because it has no separate CAP.
+- Do not use `district` as a substitute list of Comuni or as a container for all CAP settlements.
+- A fact about a specific locality must be pinned at the actual subject or a meaningful point in that locality, not at a distant municipal seat.
 
 ## 3. Italian postal and administrative verification
 
@@ -94,20 +73,17 @@ Use Poste Italiane as the primary authority for the current CAP system, publishe
 
 Third-party CAP directories may help discover a candidate or cross-check a result, but they do not override Poste Italiane and must not be treated as the canonical national inventory without verification.
 
-### 3.2 Serving post office
+### 3.2 Comune coverage for a CAP
 
-The serving post office is the basis for the `city` anchor. It is not merely the nearest post office on a map.
+The purpose of this check is to establish the complete set of Comuni associated with the CAP, not to select one serving post office.
 
-Verify, as far as the available official information permits:
+1. Verify the current CAP assignment and its geographic scope using Poste Italiane's published CAP information and other competent postal evidence.
+2. Identify the Comuni physically covered by that CAP using current ISTAT identities and reliable address/locality evidence.
+3. Record every associated Comune name in `city`, separated by commas, using one CAP record only.
+4. Identify all applicable intermediate territorial units and Regioni for `county` and `state`; list multiple official values separated by commas when necessary.
+5. Record the evidence and any real limitations in the existing verification fields. Do not invent a serving-office relationship or require one exclusive office to be identified.
 
-1. the post office or postal office that actually serves the CAP;
-2. its current physical address;
-3. the Comune in which that physical address lies;
-4. the current intermediate territorial unit and Regione of that Comune.
-
-Keep evidence for postal service assignment separate from evidence for the physical address and administrative affiliation. A source proving that an office exists does not necessarily prove that it serves the target CAP. A source proving an address does not necessarily prove postal responsibility.
-
-If Poste Italiane does not expose a direct CAP-to-office relationship for a case, use additional competent evidence and clearly record the limits. Do not turn an unsupported proximity assumption into a verified relationship.
+A list of post-office branches may corroborate that a Comune is associated with a CAP, but it does not by itself prove that the listed branches exhaust the CAP's full geographic coverage. Where the full Comune set cannot be established conclusively, use the best defensible evidence, state the limitation precisely and do not present an incomplete list as officially exhaustive.
 
 ### 3.3 Administrative hierarchy
 
@@ -357,16 +333,16 @@ After editing a fact, check the affected fact and its language versions. Perform
 
 ## 9. Two-phase research — mandatory
 
-Both phases are required for a full content rework. They apply across the full CAP area, not only the post-office Comune.
+Both phases are required for a full content rework. They apply across the full CAP area and all associated Comuni, with no municipality-based partition of the facts.
 
 ### Phase 1 — broad discovery
 
 1. Verify the CAP and current postal assignment.
-2. Identify and verify the serving post office and the one Comune used in `city`.
-3. Verify `county` and `state` from that post-office Comune's current official administrative affiliation.
+2. Identify the complete defensible set of Comuni associated with the CAP and list their current official names in `city`.
+3. Verify all applicable `county` and `state` values from the current official administrative affiliation of those Comuni; list multiple values when necessary.
 4. Map the complete CAP research area: all relevant Comuni, frazioni, villages, località, urban districts, named settlements and historic localities.
 5. Search in Italian and, where useful, in local language variants, bilingual official names and historic place names.
-6. Search by CAP, post-office Comune, every relevant served Comune and each identified frazione/località; also search by local attraction names, people, events, institutions, landscape names and historic terminology.
+6. Search by CAP and by every associated Comune and locality, as well as local attraction names, people, events, institutions, landscape names and historic terminology. Use these names for discovery only; do not divide facts by Comune.
 7. Discover tourist attractions and historical, cultural, natural, artistic, scientific, industrial, military and technical stories.
 8. Record candidates, actual locations, CAP relationship, significance, possible duplication and sources.
 9. Do not limit discovery to existing facts, the first search results, one municipality, or general tourism pages.
@@ -556,9 +532,9 @@ Mandatory top-level fields are:
 Important structural rules:
 
 - `postcode` is exactly five digits stored as a string.
-- `city` is exactly one verified post-office Comune under Section 2.
-- `district` is a documented sub-municipal locality within that post-office Comune or null.
-- `county` and `state` derive from the post-office Comune's current official administrative affiliation.
+- `city` contains all verified Comuni associated with the CAP, using current ISTAT names separated by commas; it is not restricted to a single post-office Comune.
+- `district` is a documented sub-municipal locality only when genuinely relevant, otherwise null; it is not a list of settlements.
+- `county` and `state` contain all applicable current official territorial units and Regioni for the associated Comuni, separated by commas where more than one applies.
 - `representative_place` and `representative_point` refer to the same representative place.
 - `access_point` remains separate.
 - Every fact has a unique sequential ID in the format `fact_001`, `fact_002`, etc.
@@ -621,11 +597,11 @@ A CAP is complete only when all applicable checks below pass.
 ### Postal and administrative identity
 
 - [ ] CAP is a current, verified five-digit string.
-- [ ] The actual serving post office is identified and its physical address checked.
-- [ ] `city` contains exactly the one Comune where that serving post office physically stands.
-- [ ] `county` and `state` match that Comune's current official administrative affiliation.
-- [ ] `district` is a valid documented sub-municipal locality within the post-office Comune or null.
-- [ ] No list of settlements has been placed in administrative fields.
+- [ ] The complete defensible set of Comuni associated with the CAP has been identified from appropriate evidence.
+- [ ] `city` lists all those Comuni using current ISTAT names, separated by commas; no arbitrary single Comune has been selected.
+- [ ] `county` and `state` reflect all applicable current intermediate territorial units and Regioni.
+- [ ] No exclusive serving post office has been invented or made a prerequisite when the postal authority does not designate one.
+- [ ] `district` is used only for a genuinely relevant sub-municipal locality, or is null.
 
 ### Full geographic coverage
 
@@ -671,7 +647,7 @@ If a material required check fails, do not claim the CAP is complete. State the 
 
 TRAVEL must represent the entire real geographic area of each CAP without making the JSON administrative naming chaotic.
 
-**One CAP record. One clear post-office Comune in `city`. Full research across all settlements served by the CAP. Every meaningful village and verified fact located where it actually belongs.**
+**One CAP record. All associated Comuni listed in `city`. Full research across the entire CAP area without municipality-based content partitions. Every meaningful attraction and verified fact mapped where it actually belongs.**
 
 The record's administrative anchor must be predictable and easy to audit. Its content and map must remain geographically rich, accurate and complete.
 
