@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 141/261 faktů, tedy 846/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258 a 13 v 74260. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 21 PSČ potvrdil 846/846 kompletních jazykových položek (title i text) a 141/141 faktů validated V1. Zbývá 120 faktů / 720 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 156/261 faktů, tedy 936/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255, 9 v 74256, 14 v 74257, 14 v 74258, 13 v 74260, 9 v 74265 a 6 v 74266. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 23 PSČ potvrdil 936/936 kompletních jazykových položek (title i text) a 156/156 faktů validated V1. Zbývá 105 faktů / 630 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -239,14 +239,25 @@ Primární podklady první dávky:
 64. 74260/fact_008: ve všech šesti jazycích doplněno, že Hrabovský sloužil v západním i východním odboji.
 65. 74260/fact_011: v místním příběhu o ukradených koních zpřesněno „splašila se“ jako „bolted / desbocó / s’emballa / imbizzarrita / op hol sloeg“.
 66. 74260/fact_012: původní tvrz přeložena jako opevněné panské sídlo, nikoli pevnost.
+67. 74265/fact_002: anglický titul opraven z „crossroad“ na přesný význam křížové cesty („Stations of the Cross“); do španělštiny, francouzštiny, italštiny a nizozemštiny doplněno upozornění, že celý soubor kaplí nelze připsat Rybí.
+68. 74265/fact_003: ve všech šesti jazycích doplněno, že odhalení pomníku 28. října 1923 připadlo na páté výročí vzniku samostatného Československa.
+69. 74265/fact_004: ve všech šesti jazycích doplněny informační panely, QR kódy s ukázkami a souvislost krajiny Podbeskydí se Zábranského vztahem k přírodě a výtvarnou tvorbou.
+70. 74265/fact_005: doplněna charakteristika salvatoriánů jako řeholního společenství se spirituálním a misijním posláním, tajná práce s mládeží po roce 1955, přesné datum zatčení 28. 6. 1961 při razii proti salvatoriánům a úmrtí v nemocnici u sv. Anny v Brně.
+71. 74265/fact_008: ve všech šesti jazycích doplněn účel výsadby přibližně 200 odrostlých tisů — podpora návratu tisu do místních lesů.
+72. 74265/fact_009: ve všech šesti jazycích doplněno využití krajiny jako přirozeného rámce pro pěší a cyklistické výlety v okolí obce.
+73. 74266/fact_001: zpřesněna válcová věž Trúba jako cylindrická a doplněno, že hrad byl za třicetileté války těžce poškozen.
+74. 74266/fact_002: ve všech šesti jazycích doplněna poloha jeskyně na severním svahu Kotouče, Jezevčí díra, označení nálezu jako šipecká čelist, volný přístup a celková délka chodeb 93 metrů.
+75. 74266/fact_003: překlady sjednoceny s českým popisem smíšeného souboru roubených i zděných domů; doplněny dřevěné štíty a kamenné podezdívky.
+76. 74266/fact_004: doplněno, že mílové právo chránilo řemeslníky před okolní konkurencí, město smělo pořádat úterní trhy a místní odboj nesl název Štramberští partyzáni.
+77. 74266/fact_006: doplněno využití vápence pro hutní výrobu; francouzský výraz „oppidum“ nahrazen přesnějším označením pravěkého opevněného sídla.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 141/261 faktů hotovo (846/1 566 textů), zbývá 120 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 156/261 faktů hotovo (936/1 566 textů), zbývá 105 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od dalšího nezpracovaného faktu po 74260 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74267/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
