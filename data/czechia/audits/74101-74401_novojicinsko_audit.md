@@ -41,7 +41,7 @@ Zdroje:
 - Geografický inventář RÚIAN a PSČ odpovídají přesnému rozsahu.
 - Okresy: Nový Jičín; pro 74283 a 74285 Ostrava-město.
 - Kraj: Moravskoslezský kraj.
-- Opraveny čtyři nekonzistentní hodnoty `state`: 74101, 74201, 74281 a 74282 měly „Moravskoslezský“ místo jednotného „Moravskoslezský kraj“. Read-back všech čtyř PASS.
+- Opraveno pět nekonzistentních hodnot `state`: 74101, 74201, 74213, 74281 a 74282 měly „Moravskoslezský“ místo jednotného „Moravskoslezský kraj“. Read-back všech pěti PASS.
 - Ostatní top-level správní hodnoty ponechány beze změny.
 
 ## 4. C — Duplicity a přiřazení
@@ -149,7 +149,7 @@ V tomto běhu nebyly tyto polohy nahrazeny odhadovanými souřadnicemi. Každá 
 2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
 3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
 4. 74101: odstraněn duplicitní hrad Starý Jičín z masteru a všech jazyků; read-back 7 faktů a 7 českých překladů PASS.
-5. 74101, 74201, 74281, 74282: sjednocen zápis kraje; read-back PASS.
+5. 74101, 74201, 74213, 74281, 74282: sjednocen zápis kraje; read-back PASS.
 
 ## 12. Výsledek a další krok
 
