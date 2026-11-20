@@ -1,4 +1,717 @@
 {
   "postcode": "01302",
-  "status": "placeholder"
+  "city": "Gbeľany",
+  "district": "Gbeľany",
+  "district_type": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Gbeľany – barokový kaštieľ a historické jadro (PSČ zahŕňa aj Nededzu a Kotrčinú Lúčku)",
+  "representative_point": {
+    "lat": 49.21385431097599,
+    "lon": 18.847713487699508
+  },
+  "access_point": {
+    "name": "Pošta Gbeľany",
+    "address": "Kostolná 8, 013 02 Gbeľany, Slovensko",
+    "lat": 49.2142277,
+    "lon": 18.8507356
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Barokový kaštieľ Gbeľany – sídlo samostatného panstva uprostred historického parku",
+      "text": "Honosný barokový kaštieľ v Gbeľanoch sa stal sídlom samostatného Gbelianskeho panstva po majetkovom rozdelení v roku 1749. Stojí uprostred parku obohnaného kamenným múrom a bol rezidenciou grófskej rodiny; panstvo postupne vlastnili Szerényiovci, Nyáriovci, Zichyovci a Majláthovci. V miestnom kaštieli sa zachovala aj kaplnka Panny Márie, ktorej vznik sa datuje do roku 1750. Kaštieľ je výraznou dominantou obce a pripomína obdobie, keď Gbeľany neboli iba poddanskou dedinou, ale aj správnym a hospodárskym centrom vlastného panstva. Budova bola rozsiahlo obnovená v roku 2015 a dnes je v súkromnom vlastníctve.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": {
+        "name": "Barokový kaštieľ Gbeľany – Veľký alebo Majláthovský kaštieľ",
+        "address": "Hlavná 17, 013 02 Gbeľany, Slovensko",
+        "lat": 49.21385431097599,
+        "lon": 18.847713487699508,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/r-7049209"
+      },
+      "map_category": "castle"
+    },
+    {
+      "id": "fact_002",
+      "title": "Malý kaštieľ – klasicistická kúria grófa Sučániho",
+      "text": "V Sučianskej záhrade, historickom parku v Gbeľanoch, stojí jednoposchodová klasicistická kúria grófa Sučániho. Postavili ju v prvej tretine 19. storočia a od väčšieho barokového kaštieľa sa líši jednoduchšou klasicistickou architektúrou a portikovým vstupom. V mapových a pamiatkových podkladoch sa označuje aj ako Malý kaštieľ. Objekt je v súkromnom vlastníctve a prechádza postupnou obnovou; nejde o bežne prístupnú verejnú expozíciu. Spolu s veľkým kaštieľom a parkom dokladá, že v Gbeľanoch stáli dve odlišné šľachtické rezidencie.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1",
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=930fc5a2%7C318&inline=1"
+      ],
+      "location": {
+        "name": "Malý kaštieľ – klasicistická kúria grófa Sučániho",
+        "address": "Hlavná 30, 013 02 Gbeľany, Slovensko",
+        "lat": 49.21130647938335,
+        "lon": 18.848592914183005,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w98317295"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Pseudogotická cintorínska kaplnka – jedinečné spojenie hrobky a sakrálnej stavby",
+      "text": "Uprostred malého cintorína v Gbeľanoch stojí štíhla pseudogotická kaplnka z 19. storočia. Jej lomené oblúky, vysoké nárožné piliere a výrazná vertikalita pripomínajú gotické stavby, hoci vznikla o stáročia neskôr. Osobitosťou objektu je spojenie dvoch funkcií v jednej budove: slúžil ako kaplnka aj ako rodinná hrobka. V roku 1871 ho obci darovala grófka Vincencia Nyári a v roku 2015 prešiel obnovou fasády, oplotenia a schodiska. V širšom okolí Žiliny je takáto kombinácia cintorínskej kaplnky a hrobky architektonicky neobvyklá.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": {
+        "name": "Pseudogotická kaplnka na cintoríne v Gbeľanoch",
+        "address": "Hlavná 27, 013 02 Gbeľany, Slovensko",
+        "lat": 49.2103171,
+        "lon": 18.8500312,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n35593988"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Socha sv. Jána Nepomuckého z roku 1827 – dar grófskeho páru Nyáryovcov",
+      "text": "Pri hlavnej bráne základnej školy v Gbeľanoch stojí klasicistická socha sv. Jána Nepomuckého z jemného pieskovca. Na podstavci je zachovaný latinský nápis s menami donátorov: grófa Karola Nyáryho a jeho manželky grófky Františky Pongráczovej. Dátum 1827 je vytesaný priamo do nápisu, takže pôvod diela je doložený nezvyčajne presne. Socha je drobnou, no výrečnou stopou šľachtickej patronácie v obci, kde rodina Nyáryovcov vlastnila panstvo aj ďalšie historické objekty.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": {
+        "name": "Socha sv. Jána Nepomuckého pri hlavnej bráne školy",
+        "address": "Hlavná 22, 013 02 Gbeľany, Slovensko",
+        "lat": 49.2122147,
+        "lon": 18.8481463,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n12345651045"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostol sv. Jozefa Robotníka – základný kameň požehnal Ján Pavol II.",
+      "text": "Základný kameň farského kostola sv. Jozefa Robotníka v Gbeľanoch požehnal pápež Ján Pavol II. v Bratislave 22. apríla 1990 počas svojej prvej návštevy Slovenska. Prvá nedeľná omša sa v novom chráme slávila 18. decembra 1994 a 9. septembra 1995 ho vysvätil kardinál Ján Chryzostom Korec. Pred kostolom stojí socha ukrižovaného Krista od významného sochára Alexandra Trizuljaka. V roku 2016 pribudla aj socha sv. Marka, patróna obce, vytvorená podľa motívu historickej obecnej pečate z roku 1720. Moderný chrám tak prepája súčasný náboženský život s oveľa staršími symbolmi Gbelian.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": {
+        "name": "Farský kostol sv. Jozefa Robotníka",
+        "address": "Hlavná 21, 013 02 Gbeľany, Slovensko",
+        "lat": 49.21294917641588,
+        "lon": 18.849277373038753,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w98316652"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Gbeľany – od stredovekej poddanskej dediny k samostatnému panstvu",
+      "text": "Gbeľany sa v písomných prameňoch objavujú už v roku 1362 pod názvom Koblen; v roku 1434 sa uvádza podoba Villa Belene. Obec bola súčasťou Strečnianskeho panstva, ktoré kráľ Žigmund Luxemburský v roku 1421 daroval rodu Dersffyovcov. Po majetkovom rozdelení v roku 1749 vzniklo samostatné Gbelianske panstvo, ktoré neskôr vlastnili Szerényiovci, Nyáriovci, Zichyovci a Majláthovci. Hospodárstvo panstva stálo na chove dobytka, lesnom hospodárstve, prenájme siedmich mlynov a piatich jatí aj na mýtnych poplatkoch v Terchovej a Strečne. V Gbeľanoch stála panská pálenica; novú budovu postavili v roku 1886 a obnovili v roku 1921. Pôvod názvu obce nie je jednoznačný a historici uvádzajú viacero výkladov.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": {
+        "name": "Gbeľany – historické jadro pri barokovom kaštieli",
+        "address": null,
+        "lat": 49.21385431097599,
+        "lon": 18.847713487699508,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/r-7049209"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Archeologické Gbeľany – bronzový kosák a stredoveká minca Mateja Korvína",
+      "text": "Gbeľanský chotár ukrýva nálezy z viacerých období. Pri melioračných prácach v roku 1967 sa našiel rozsiahly súbor keramiky a drobných predmetov. Na lokalite Prostredný lán objavili bronzový kosák používaný približne od 8. do 5. storočia pred n. l. spolu s keramikou lužickej kultúry. Na rozhraní Gbelian a Nededze ležali dve malé valové opevnenia označované ako Hradisko; našli sa tam črepy datované do 15. storočia a minca Mateja Korvína z roku 1464. Ďalšie lokality zahŕňajú popolnicové pohrebisko Klin a neolitické sídlisko Nad cintorínom. Keďže ide o viacero rozptýlených nálezísk, nemožno ich zameniť za jediný archeologický bod.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_008",
+      "title": "Nededza – renesančný kaštieľ Pongrácovcov a neskoršie šľachtické kúrie",
+      "text": "Nededza je doložená už v roku 1384, keď kráľovná Mária darovala tunajší majetok členom rodu Nedeckých; platnosť donácie potvrdil v roku 1412 kráľ Žigmund. V polovici 16. storočia tu rodina Pongrácovcov postavila rozsiahly renesančný kaštieľ s menším kostolíkom a organom, vežou a kamenným múrom. Západná časť stavby sa zachovala, hoci je poškodená; model kaštieľa je uložený v Historickom múzeu vo Viedni. V obci neskôr žili aj Nyáryovci, ktorí mali ďalšie sídlo z prvej polovice 19. storočia, a zachovala sa tu aj klasicistická kúria. Nededza tak uchováva nezvyčajne hustú stopu šľachtických sídiel na malej ploche.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.nededza.eu/zivot-v-obci/historia"
+      ],
+      "location": {
+        "name": "Renesančný kaštieľ Nededza",
+        "address": "Hlavná 3, 013 02 Nededza, Slovensko",
+        "lat": 49.21988387911548,
+        "lon": 18.83548519917761,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w295246937"
+      },
+      "map_category": "castle"
+    },
+    {
+      "id": "fact_009",
+      "title": "Kotrčiná Lúčka – tri lužické hradiská a archeologická lokalita Hrádek",
+      "text": "Kotrčiná Lúčka je písomne doložená od roku 1439. V roku 1469 sa uvádza pod názvom Luczka a mala iba jedenásť domov; dnešné pomenovanie používa od roku 1773. Podľa obecnej kroniky sa v jej chotári nachádzajú tri lužické hradiská, ktoré dokazujú osídlenie krajiny ešte pred vznikom samotnej obce. Osobitne sa spomína lokalita Hrádek, ktorú environmentálne a územnoplánovacie podklady evidujú ako archeologické nálezisko s púchovskými a stredovekými vrstvami. Rozdielne datovania naznačujú viacero fáz využívania územia; bez podrobného archeologického výskumu ich nemožno zjednodušiť na jedinú dobu. Presný rozsah jednotlivých hradísk nie je v dostupných mapových podkladoch spoľahlivo vymedzený.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://kotrcinalucka.sk/obec/o-obci/kronika/",
+        "https://www.enviroportal.sk/eia/dokument/331805"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_010",
+      "title": "Vajcovka – dve minerálne pramene pri Kotrčinej Lúčke",
+      "text": "V chotári Kotrčinej Lúčky sú evidované dva pramene známe ako Vajcovka 1 a Vajcovka 2. Ich názov odkazuje na charakteristický sírny zápach vody. Hoci ich mapové databázy niekedy označujú ako pitnú vodu, environmentálne podklady upozorňujú, že pramene nie sú chránené pred znečistením a v súčasnosti sa nepoužívajú ako zdroj pitnej vody. Ide o zaujímavú prírodnú zvláštnosť obce, nie o overené verejné pitné miesto; vodu preto nemožno odporúčať na konzumáciu bez aktuálneho rozboru.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "https://www.enviroportal.sk/eia/dokument/331805"
+      ],
+      "location": {
+        "name": "Vajcovka 1 – minerálny prameň",
+        "address": null,
+        "lat": 49.2535131,
+        "lon": 18.8345451,
+        "type": "natural_feature",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n2502504749"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Obec Gbeľany – história obce a pamiatky, obecná monografia",
+      "url": "https://www.gbelany.eu/modules/file_storage/download.php?file=63f72d06%7C283&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Gbeľany – územný plán a zoznam národných kultúrnych pamiatok",
+      "url": "https://www.gbelany.eu/modules/file_storage/download.php?file=930fc5a2%7C318&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Gbeľany – pošta, otváracie hodiny a kontakty",
+      "url": "https://www.gbelany.eu/prakticke-informacie/posta/",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – oficiálny vyhľadávač pobočky Gbeľany",
+      "url": "https://otvaraciehodiny.posta.sk/?n=gbelanypriziline",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Château Gbeľany / Veľký a Majláthovský kaštieľ, poloha a súradnice",
+      "url": "https://poi.oma.sk/r-7049209",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Malý kaštieľ v Gbeľanoch, poloha a súradnice",
+      "url": "https://poi.oma.sk/w98317295",
+      "type": "other"
+    },
+    {
+      "title": "OMA – cintorínska kaplnka v Gbeľanoch, poloha a súradnice",
+      "url": "https://poi.oma.sk/n35593988",
+      "type": "other"
+    },
+    {
+      "title": "OMA – socha sv. Jána Nepomuckého v Gbeľanoch",
+      "url": "https://poi.oma.sk/n12345651045",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Kostol sv. Jozefa Robotníka v Gbeľanoch",
+      "url": "https://poi.oma.sk/w98316652",
+      "type": "other"
+    },
+    {
+      "title": "OMA – socha sv. Marka pred kostolom v Gbeľanoch",
+      "url": "https://poi.oma.sk/n9602616147",
+      "type": "other"
+    },
+    {
+      "title": "Obec Nededza – história obce a kaštieľ",
+      "url": "https://www.nededza.eu/zivot-v-obci/historia",
+      "type": "official"
+    },
+    {
+      "title": "Obec Nededza – kontaktné údaje a PSČ 013 02",
+      "url": "https://www.nededza.eu/kontakty-a22-799",
+      "type": "official"
+    },
+    {
+      "title": "OMA – renesančný kaštieľ Nededza, poloha a súradnice",
+      "url": "https://poi.oma.sk/w295246937",
+      "type": "other"
+    },
+    {
+      "title": "Obec Kotrčiná Lúčka – kronika obce, prvá zmienka a tri lužické hradiská",
+      "url": "https://kotrcinalucka.sk/obec/o-obci/kronika/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kotrčiná Lúčka – oficiálna stránka a kontaktné údaje s PSČ 013 02",
+      "url": "https://kotrcinalucka.sk/",
+      "type": "official"
+    },
+    {
+      "title": "Enviroportál – environmentálne a územnoplánovacie podklady pre Kotrčinú Lúčku, Hrádek a pramene Vajcovka",
+      "url": "https://www.enviroportal.sk/eia/dokument/331805",
+      "type": "official"
+    },
+    {
+      "title": "OMA – minerálny prameň Vajcovka 1",
+      "url": "https://poi.oma.sk/n2502504749",
+      "type": "other"
+    },
+    {
+      "title": "OMA – minerálny prameň Vajcovka 2",
+      "url": "https://poi.oma.sk/n2502504750",
+      "type": "other"
+    },
+    {
+      "title": "OMA – pošta Gbeľany pri Žiline, Kostolná 8, poloha a súradnice",
+      "url": "https://poi.oma.sk/n8930546252",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_codes.csv, adresné body odvodené z Registra adries SR",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_code_areas.csv, súhrn geografických údajov PSČ",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "translations": {
+    "cs": {
+      "representative_place": "Gbeľany – barokový kaštieľ a historické jadro (PSČ zahŕňa aj Nededzu a Kotrčinú Lúčku)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Barokový kaštieľ Gbeľany – sídlo samostatného panstva uprostred historického parku",
+          "text": "Honosný barokový kaštieľ v Gbeľanoch sa stal sídlom samostatného Gbelianskeho panstva po majetkovom rozdelení v roku 1749. Stojí uprostred parku obohnaného kamenným múrom a bol rezidenciou grófskej rodiny; panstvo postupne vlastnili Szerényiovci, Nyáriovci, Zichyovci a Majláthovci. V miestnom kaštieli sa zachovala aj kaplnka Panny Márie, ktorej vznik sa datuje do roku 1750. Kaštieľ je výraznou dominantou obce a pripomína obdobie, keď Gbeľany neboli iba poddanskou dedinou, ale aj správnym a hospodárskym centrom vlastného panstva. Budova bola rozsiahlo obnovená v roku 2015 a dnes je v súkromnom vlastníctve."
+        },
+        {
+          "id": "fact_002",
+          "title": "Malý kaštieľ – klasicistická kúria grófa Sučániho",
+          "text": "V Sučianskej záhrade, historickom parku v Gbeľanoch, stojí jednoposchodová klasicistická kúria grófa Sučániho. Postavili ju v prvej tretine 19. storočia a od väčšieho barokového kaštieľa sa líši jednoduchšou klasicistickou architektúrou a portikovým vstupom. V mapových a pamiatkových podkladoch sa označuje aj ako Malý kaštieľ. Objekt je v súkromnom vlastníctve a prechádza postupnou obnovou; nejde o bežne prístupnú verejnú expozíciu. Spolu s veľkým kaštieľom a parkom dokladá, že v Gbeľanoch stáli dve odlišné šľachtické rezidencie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pseudogotická cintorínska kaplnka – jedinečné spojenie hrobky a sakrálnej stavby",
+          "text": "Uprostred malého cintorína v Gbeľanoch stojí štíhla pseudogotická kaplnka z 19. storočia. Jej lomené oblúky, vysoké nárožné piliere a výrazná vertikalita pripomínajú gotické stavby, hoci vznikla o stáročia neskôr. Osobitosťou objektu je spojenie dvoch funkcií v jednej budove: slúžil ako kaplnka aj ako rodinná hrobka. V roku 1871 ho obci darovala grófka Vincencia Nyári a v roku 2015 prešiel obnovou fasády, oplotenia a schodiska. V širšom okolí Žiliny je takáto kombinácia cintorínskej kaplnky a hrobky architektonicky neobvyklá."
+        },
+        {
+          "id": "fact_004",
+          "title": "Socha sv. Jána Nepomuckého z roku 1827 – dar grófskeho páru Nyáryovcov",
+          "text": "Pri hlavnej bráne základnej školy v Gbeľanoch stojí klasicistická socha sv. Jána Nepomuckého z jemného pieskovca. Na podstavci je zachovaný latinský nápis s menami donátorov: grófa Karola Nyáryho a jeho manželky grófky Františky Pongráczovej. Dátum 1827 je vytesaný priamo do nápisu, takže pôvod diela je doložený nezvyčajne presne. Socha je drobnou, no výrečnou stopou šľachtickej patronácie v obci, kde rodina Nyáryovcov vlastnila panstvo aj ďalšie historické objekty."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostol sv. Jozefa Robotníka – základný kameň požehnal Ján Pavol II.",
+          "text": "Základný kameň farského kostola sv. Jozefa Robotníka v Gbeľanoch požehnal pápež Ján Pavol II. v Bratislave 22. apríla 1990 počas svojej prvej návštevy Slovenska. Prvá nedeľná omša sa v novom chráme slávila 18. decembra 1994 a 9. septembra 1995 ho vysvätil kardinál Ján Chryzostom Korec. Pred kostolom stojí socha ukrižovaného Krista od významného sochára Alexandra Trizuljaka. V roku 2016 pribudla aj socha sv. Marka, patróna obce, vytvorená podľa motívu historickej obecnej pečate z roku 1720. Moderný chrám tak prepája súčasný náboženský život s oveľa staršími symbolmi Gbelian."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – od stredovekej poddanskej dediny k samostatnému panstvu",
+          "text": "Gbeľany sa v písomných prameňoch objavujú už v roku 1362 pod názvom Koblen; v roku 1434 sa uvádza podoba Villa Belene. Obec bola súčasťou Strečnianskeho panstva, ktoré kráľ Žigmund Luxemburský v roku 1421 daroval rodu Dersffyovcov. Po majetkovom rozdelení v roku 1749 vzniklo samostatné Gbelianske panstvo, ktoré neskôr vlastnili Szerényiovci, Nyáriovci, Zichyovci a Majláthovci. Hospodárstvo panstva stálo na chove dobytka, lesnom hospodárstve, prenájme siedmich mlynov a piatich jatí aj na mýtnych poplatkoch v Terchovej a Strečne. V Gbeľanoch stála panská pálenica; novú budovu postavili v roku 1886 a obnovili v roku 1921. Pôvod názvu obce nie je jednoznačný a historici uvádzajú viacero výkladov."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archeologické Gbeľany – bronzový kosák a stredoveká minca Mateja Korvína",
+          "text": "Gbeľanský chotár ukrýva nálezy z viacerých období. Pri melioračných prácach v roku 1967 sa našiel rozsiahly súbor keramiky a drobných predmetov. Na lokalite Prostredný lán objavili bronzový kosák používaný približne od 8. do 5. storočia pred n. l. spolu s keramikou lužickej kultúry. Na rozhraní Gbelian a Nededze ležali dve malé valové opevnenia označované ako Hradisko; našli sa tam črepy datované do 15. storočia a minca Mateja Korvína z roku 1464. Ďalšie lokality zahŕňajú popolnicové pohrebisko Klin a neolitické sídlisko Nad cintorínom. Keďže ide o viacero rozptýlených nálezísk, nemožno ich zameniť za jediný archeologický bod."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – renesančný kaštieľ Pongrácovcov a neskoršie šľachtické kúrie",
+          "text": "Nededza je doložená už v roku 1384, keď kráľovná Mária darovala tunajší majetok členom rodu Nedeckých; platnosť donácie potvrdil v roku 1412 kráľ Žigmund. V polovici 16. storočia tu rodina Pongrácovcov postavila rozsiahly renesančný kaštieľ s menším kostolíkom a organom, vežou a kamenným múrom. Západná časť stavby sa zachovala, hoci je poškodená; model kaštieľa je uložený v Historickom múzeu vo Viedni. V obci neskôr žili aj Nyáryovci, ktorí mali ďalšie sídlo z prvej polovice 19. storočia, a zachovala sa tu aj klasicistická kúria. Nededza tak uchováva nezvyčajne hustú stopu šľachtických sídiel na malej ploche."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – tri lužické hradiská a archeologická lokalita Hrádek",
+          "text": "Kotrčiná Lúčka je písomne doložená od roku 1439. V roku 1469 sa uvádza pod názvom Luczka a mala iba jedenásť domov; dnešné pomenovanie používa od roku 1773. Podľa obecnej kroniky sa v jej chotári nachádzajú tri lužické hradiská, ktoré dokazujú osídlenie krajiny ešte pred vznikom samotnej obce. Osobitne sa spomína lokalita Hrádek, ktorú environmentálne a územnoplánovacie podklady evidujú ako archeologické nálezisko s púchovskými a stredovekými vrstvami. Rozdielne datovania naznačujú viacero fáz využívania územia; bez podrobného archeologického výskumu ich nemožno zjednodušiť na jedinú dobu. Presný rozsah jednotlivých hradísk nie je v dostupných mapových podkladoch spoľahlivo vymedzený."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – dve minerálne pramene pri Kotrčinej Lúčke",
+          "text": "V chotári Kotrčinej Lúčky sú evidované dva pramene známe ako Vajcovka 1 a Vajcovka 2. Ich názov odkazuje na charakteristický sírny zápach vody. Hoci ich mapové databázy niekedy označujú ako pitnú vodu, environmentálne podklady upozorňujú, že pramene nie sú chránené pred znečistením a v súčasnosti sa nepoužívajú ako zdroj pitnej vody. Ide o zaujímavú prírodnú zvláštnosť obce, nie o overené verejné pitné miesto; vodu preto nemožno odporúčať na konzumáciu bez aktuálneho rozboru."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Gbeľany – Barockschloss und historischer Ortskern (das Postleitzahlengebiet umfasst auch Nededza und Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Das Barockschloss Gbeľany – Sitz einer eigenen Herrschaft in einem historischen Park",
+          "text": "Das repräsentative Barockschloss wurde nach der Teilung der Herrschaft 1749 zum Sitz des eigenständigen Gbeľany-Gutes. Es steht in einem von einer Steinmauer umgebenen Park; die Kapelle der Jungfrau Maria stammt aus dem Jahr 1750. Das Gut gehörte nacheinander den Familien Szerényi, Nyári, Zichy und Majláth."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Kleine Schloss – klassizistisches Herrenhaus des Grafen Sučáni",
+          "text": "Im historischen Park Sučianska záhrada steht das eingeschossige klassizistische Herrenhaus des Grafen Sučáni. Es wurde im ersten Drittel des 19. Jahrhunderts errichtet und wird auch als Kleines Schloss bezeichnet. Das private Gebäude wird schrittweise restauriert."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die neugotische Friedhofskapelle – eine ungewöhnliche Verbindung von Grabmal und Sakralbau",
+          "text": "Die schlanke pseudogotische Kapelle auf dem Friedhof von Gbeľany stammt aus dem 19. Jahrhundert. 1871 schenkte Gräfin Vincencia Nyári sie der Gemeinde; sie vereint die Funktionen einer Kapelle und einer Familiengruft. 2015 wurden Fassade, Einfriedung und Treppe restauriert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Statue des heiligen Johannes Nepomuk von 1827 – gestiftet von den Nyáris",
+          "text": "Am Haupteingang der Schule steht eine klassizistische Sandsteinstatue des heiligen Johannes Nepomuk. Die Inschrift nennt Graf Károly Nyáry und seine Frau Gräfin Francisca Pongrácz als Stifter und datiert das Werk auf 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Josef-Arbeiter-Kirche – der Grundstein wurde von Johannes Paul II. gesegnet",
+          "text": "Papst Johannes Paul II. segnete den Grundstein der Kirche des heiligen Josef des Arbeiters am 22. April 1990 in Bratislava. Die erste Sonntagsmesse fand 1994 statt; Kardinal Ján Chryzostom Korec weihte die Kirche am 9. September 1995. Eine Statue des heiligen Markus aus dem Jahr 2016 bezieht sich auf ein Gemeindesiegel von 1720."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – vom mittelalterlichen Dorf zum eigenständigen Herrschaftsgut",
+          "text": "Gbeľany ist 1362 unter dem Namen Koblen und 1434 als Villa Belene belegt. Das Dorf gehörte zur Herrschaft Strečno; nach einer Teilung 1749 entstand das eigenständige Gbeľany-Gut. Es besaß sieben Mühlen, fünf Schlachthöfe und eine Brennerei, deren neues Gebäude 1886 errichtet und 1921 erneuert wurde."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archäologische Funde in Gbeľany – eine bronzezeitliche Sichel und eine Münze von Matthias Corvinus",
+          "text": "Bei Meliorationsarbeiten 1967 kamen zahlreiche Funde verschiedener Epochen ans Licht. In Prostredný lán wurde eine Bronzesichel aus dem 8.–5. Jahrhundert v. Chr. mit Keramik der Lausitzer Kultur gefunden; am Hradisko entdeckte man mittelalterliche Keramik und eine Münze von Matthias Corvinus aus dem Jahr 1464. Weitere Fundstellen umfassen ein Urnengräberfeld und eine neolithische Siedlung."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – das Renaissance-Schloss der Pongrács und spätere Adelssitze",
+          "text": "Nededza ist seit 1384 schriftlich belegt. Mitte des 16. Jahrhunderts errichtete die Familie Pongrác hier ein großes Renaissance-Schloss mit kleiner Kirche, Orgel, Turm und Steinmauer; der Westteil ist noch erhalten, wenn auch beschädigt. Ein Modell des Schlosses befindet sich im Historischen Museum in Wien. Später besaßen auch die Nyáris ein Herrenhaus in der Gemeinde."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – drei lausitzische Wallburgen und die archäologische Stätte Hrádek",
+          "text": "Kotrčiná Lúčka ist seit 1439 belegt; 1469 hieß der Ort Luczka und hatte nur elf Häuser. Laut der Gemeindegeschichte liegen im Gemeindegebiet drei Wallburgen der Lausitzer Kultur. Die Stätte Hrádek weist laut Planungsunterlagen außerdem Funde der Púchov-Kultur und des Mittelalters auf; die verschiedenen Datierungen sollten nicht zu einer einzigen Phase zusammengezogen werden."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – zwei Mineralquellen bei Kotrčiná Lúčka",
+          "text": "Im Gemeindegebiet liegen zwei Quellen namens Vajcovka 1 und Vajcovka 2, deren Wasser einen schwefelartigen Geruch hat. Umweltunterlagen warnen, dass die Quellen nicht vor Verunreinigung geschützt sind und derzeit nicht als Trinkwasser genutzt werden. Sie sind eine interessante Naturbesonderheit, aber kein verlässlicher öffentlicher Trinkwasserpunkt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Gbeľany – Baroque manor and historic centre (the postal area also includes Nededza and Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gbeľany Baroque Manor – seat of an independent estate in a historic park",
+          "text": "The imposing Baroque manor became the seat of the independent Gbeľany estate after the property division of 1749. It stands in a park enclosed by a stone wall; the manor chapel dedicated to the Virgin Mary dates from 1750. The estate was successively held by the Szerényi, Nyári, Zichy and Majláth families."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Small Manor – a Neoclassical residence of Count Sučáni",
+          "text": "The single-storey Neoclassical manor of Count Sučáni stands in the historic Sučianska záhrada park. It was built in the first third of the 19th century and is also known as the Small Manor. The privately owned building is undergoing gradual restoration."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Neo-Gothic cemetery chapel – an unusual combination of tomb and sacred building",
+          "text": "The slender pseudo-Gothic chapel in Gbeľany cemetery dates from the 19th century. Countess Vincencia Nyári donated it to the village in 1871; it combines the functions of a chapel and a family tomb. Its façade, enclosure and stairs were restored in 2015."
+        },
+        {
+          "id": "fact_004",
+          "title": "The 1827 statue of St John of Nepomuk – commissioned by the Nyáry family",
+          "text": "A Neoclassical sandstone statue of St John of Nepomuk stands by the main school gate. Its inscription names Count Károly Nyáry and his wife, Countess Francisca Pongrácz, as donors and dates the work to 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Church of St Joseph the Worker – its cornerstone was blessed by John Paul II",
+          "text": "Pope John Paul II blessed the foundation stone of the Church of St Joseph the Worker in Bratislava on 22 April 1990. The first Sunday Mass was held in 1994, and Cardinal Ján Chryzostom Korec consecrated the church on 9 September 1995. A statue of St Mark, based on the village seal of 1720, was installed in front of it in 2016."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – from a medieval village to an independent estate",
+          "text": "Gbeľany is documented in 1362 as Koblen and in 1434 as Villa Belene. It belonged to the Strečno estate until a separate Gbeľany domain was formed in 1749. The estate had seven mills, five slaughterhouses and a distillery whose new building was erected in 1886 and renovated in 1921."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archaeological Gbeľany – a Bronze Age sickle and a coin of Matthias Corvinus",
+          "text": "Excavations during drainage works in 1967 revealed finds from several periods. A bronze sickle dating from the 8th–5th centuries BC and Lusatian pottery were found at Prostredný lán; at Hradisko, archaeologists found medieval pottery and a coin of Matthias Corvinus from 1464. Other sites include an urnfield and a Neolithic settlement."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – the Renaissance manor of the Pongrác family and later noble residences",
+          "text": "Nededza is documented from 1384. In the mid-16th century the Pongrác family built a large Renaissance manor with a small church, organ, tower and stone wall; its western part survives in damaged condition. A model of the manor is held by the Historical Museum in Vienna. The Nyáry family later had another residence in the village."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – three Lusatian hillforts and the Hrádek archaeological site",
+          "text": "Kotrčiná Lúčka is documented from 1439; in 1469 it was called Luczka and had only eleven houses. The municipal chronicle records three Lusatian-culture hillforts in its territory. Planning documents also identify Hrádek as a site with Púchov-culture and medieval layers, so the different dates should not be reduced to a single period."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – two mineral springs near Kotrčiná Lúčka",
+          "text": "Two springs known as Vajcovka 1 and Vajcovka 2 lie in the municipality; their water has a sulphurous smell. Environmental documents warn that the springs are not protected from contamination and are not currently used as drinking-water sources. They are a natural curiosity, not a verified public drinking-water point."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Gbeľany – palacio barroco y centro histórico (el área postal también incluye Nededza y Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "El palacio barroco de Gbeľany: sede de un señorío independiente en un parque histórico",
+          "text": "El palacio barroco se convirtió en sede del señorío independiente de Gbeľany tras la división de propiedades de 1749. Se encuentra en un parque rodeado por un muro de piedra; la capilla de la Virgen María del recinto data de 1750. El señorío perteneció sucesivamente a las familias Szerényi, Nyári, Zichy y Majláth."
+        },
+        {
+          "id": "fact_002",
+          "title": "El palacete pequeño: residencia neoclásica del conde Sučáni",
+          "text": "En el parque histórico Sučianska záhrada se encuentra la residencia neoclásica de una planta del conde Sučáni. Fue construida en el primer tercio del siglo XIX y también se conoce como el Palacete Pequeño. El edificio, de propiedad privada, está siendo restaurado por fases."
+        },
+        {
+          "id": "fact_003",
+          "title": "La capilla neogótica del cementerio: una combinación singular de tumba y edificio religioso",
+          "text": "La esbelta capilla seudogótica del cementerio de Gbeľany data del siglo XIX. La condesa Vincencia Nyári la donó al pueblo en 1871; combina las funciones de capilla y sepulcro familiar. En 2015 se restauraron la fachada, el cerramiento y la escalera."
+        },
+        {
+          "id": "fact_004",
+          "title": "La estatua de san Juan Nepomuceno de 1827, encargada por los Nyáry",
+          "text": "Junto a la entrada principal de la escuela se encuentra una estatua neoclásica de arenisca de san Juan Nepomuceno. La inscripción identifica como donantes al conde Károly Nyáry y a su esposa, la condesa Francisca Pongrácz, y fecha la obra en 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia de San José Obrero: Juan Pablo II bendijo su primera piedra",
+          "text": "El papa Juan Pablo II bendijo la primera piedra de la iglesia de San José Obrero en Bratislava el 22 de abril de 1990. La primera misa dominical se celebró en 1994 y el cardenal Ján Chryzostom Korec consagró el templo el 9 de septiembre de 1995. En 2016 se instaló ante la iglesia una estatua de san Marcos inspirada en el sello municipal de 1720."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany: de aldea medieval a señorío independiente",
+          "text": "Gbeľany aparece documentada en 1362 como Koblen y en 1434 como Villa Belene. Perteneció al señorío de Strečno hasta que en 1749 se formó un dominio independiente de Gbeľany. La hacienda contaba con siete molinos, cinco mataderos y una destilería cuyo nuevo edificio se construyó en 1886 y se renovó en 1921."
+        },
+        {
+          "id": "fact_007",
+          "title": "La arqueología de Gbeľany: una hoz de la Edad del Bronce y una moneda de Matías Corvino",
+          "text": "Las obras de drenaje de 1967 sacaron a la luz hallazgos de varias épocas. En Prostredný lán apareció una hoz de bronce de los siglos VIII–V a. C. junto con cerámica de la cultura de Lusacia; en Hradisko se encontraron cerámicas medievales y una moneda de Matías Corvino de 1464. También hay un campo de urnas y un asentamiento neolítico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza: el palacio renacentista de los Pongrác y otras residencias nobles",
+          "text": "Nededza está documentada desde 1384. A mediados del siglo XVI la familia Pongrác construyó un gran palacio renacentista con una pequeña iglesia, órgano, torre y muro de piedra; se conserva la parte occidental, aunque dañada. El Museo Histórico de Viena conserva una maqueta del palacio. Más tarde, la familia Nyáry tuvo otra residencia en el pueblo."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka: tres fortificaciones lusacianas y el yacimiento de Hrádek",
+          "text": "Kotrčiná Lúčka aparece documentada desde 1439; en 1469 se llamaba Luczka y tenía solo once casas. La crónica municipal registra tres fortificaciones de la cultura de Lusacia en su término. Los documentos de planificación también identifican Hrádek con niveles de la cultura de Púchov y medievales, por lo que no conviene reducir las distintas dataciones a una sola fase."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka: dos manantiales minerales cerca de Kotrčiná Lúčka",
+          "text": "En el término municipal hay dos manantiales llamados Vajcovka 1 y Vajcovka 2, con un olor característico a azufre. Los documentos ambientales advierten que no están protegidos contra la contaminación y que actualmente no se utilizan como fuentes de agua potable. Son una curiosidad natural, no un punto público de agua potable verificada."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Gbeľany – manoir baroque et centre historique (la zone postale comprend aussi Nededza et Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le manoir baroque de Gbeľany – siège d’un domaine indépendant au milieu d’un parc historique",
+          "text": "Le manoir baroque devint le siège du domaine indépendant de Gbeľany après le partage des propriétés en 1749. Il se trouve dans un parc entouré d’un mur de pierre ; la chapelle de la Vierge Marie du domaine date de 1750. Le domaine appartint successivement aux familles Szerényi, Nyári, Zichy et Majláth."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le petit manoir – résidence néoclassique du comte Sučáni",
+          "text": "Dans le parc historique Sučianska záhrada se trouve la résidence néoclassique à un étage du comte Sučáni. Elle fut construite dans le premier tiers du XIXe siècle et est également appelée le Petit Manoir. Le bâtiment privé fait l’objet d’une restauration progressive."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chapelle néogothique du cimetière – une combinaison rare de tombeau et d’édifice religieux",
+          "text": "La chapelle pseudo-gothique du cimetière de Gbeľany date du XIXe siècle. La comtesse Vincencia Nyári en fit don à la commune en 1871 ; elle réunit les fonctions de chapelle et de tombeau familial. Sa façade, son enceinte et son escalier furent restaurés en 2015."
+        },
+        {
+          "id": "fact_004",
+          "title": "La statue de saint Jean Népomucène de 1827 – commandée par les Nyáry",
+          "text": "Une statue néoclassique en grès de saint Jean Népomucène se dresse près de l’entrée principale de l’école. Son inscription nomme le comte Károly Nyáry et son épouse, la comtesse Francisca Pongrácz, comme donateurs et date l’œuvre de 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église Saint-Joseph-Ouvrier – sa première pierre bénie par Jean-Paul II",
+          "text": "Le pape Jean-Paul II bénit la première pierre de l’église Saint-Joseph-Ouvrier à Bratislava le 22 avril 1990. La première messe dominicale fut célébrée en 1994 et le cardinal Ján Chryzostom Korec consacra l’église le 9 septembre 1995. Une statue de saint Marc inspirée du sceau communal de 1720 fut installée devant l’église en 2016."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – d’un village médiéval à un domaine seigneurial indépendant",
+          "text": "Gbeľany est attesté en 1362 sous le nom de Koblen et en 1434 comme Villa Belene. Le village appartenait au domaine de Strečno jusqu’à la création d’un domaine indépendant de Gbeľany en 1749. Le domaine possédait sept moulins, cinq abattoirs et une distillerie dont le nouveau bâtiment fut construit en 1886 et rénové en 1921."
+        },
+        {
+          "id": "fact_007",
+          "title": "L’archéologie de Gbeľany – une faucille de l’âge du Bronze et une monnaie de Matthias Corvin",
+          "text": "Des travaux de drainage en 1967 révélèrent des vestiges de plusieurs périodes. À Prostredný lán, on découvrit une faucille en bronze des VIIIe–Ve siècles av. J.-C. avec de la céramique de la culture lusacienne ; à Hradisko, de la céramique médiévale et une monnaie de Matthias Corvin datée de 1464. D’autres sites comprennent une nécropole à urnes et un habitat néolithique."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – le manoir Renaissance des Pongrác et d’autres résidences nobles",
+          "text": "Nededza est attesté depuis 1384. Au milieu du XVIe siècle, la famille Pongrác y construisit un grand manoir Renaissance avec une petite église, un orgue, une tour et un mur de pierre ; sa partie occidentale subsiste, bien qu’endommagée. Le Musée historique de Vienne conserve une maquette du manoir. La famille Nyáry posséda plus tard une autre résidence dans le village."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – trois enceintes lusaciennes et le site archéologique de Hrádek",
+          "text": "Kotrčiná Lúčka est attesté depuis 1439 ; en 1469, le lieu s’appelait Luczka et ne comptait que onze maisons. La chronique communale recense trois enceintes de la culture lusacienne sur son territoire. Les documents d’aménagement identifient également à Hrádek des niveaux de la culture de Púchov et du Moyen Âge ; les différentes datations ne doivent donc pas être réduites à une seule phase."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – deux sources minérales près de Kotrčiná Lúčka",
+          "text": "Deux sources appelées Vajcovka 1 et Vajcovka 2 se trouvent sur le territoire communal ; leur eau dégage une odeur soufrée caractéristique. Les documents environnementaux avertissent qu’elles ne sont pas protégées contre la pollution et ne sont actuellement pas utilisées comme sources d’eau potable. Il s’agit d’une curiosité naturelle, et non d’un point d’eau potable publique vérifié."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Gbeľany – palazzo barocco e centro storico (l’area postale comprende anche Nededza e Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il palazzo barocco di Gbeľany – sede di un dominio indipendente in un parco storico",
+          "text": "Il palazzo barocco divenne sede del dominio indipendente di Gbeľany dopo la divisione dei possedimenti del 1749. Sorge in un parco circondato da un muro di pietra; la cappella della Vergine Maria all’interno del complesso risale al 1750. Il dominio appartenne successivamente alle famiglie Szerényi, Nyári, Zichy e Majláth."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il piccolo palazzo – residenza neoclassica del conte Sučáni",
+          "text": "Nel parco storico Sučianska záhrada sorge la residenza neoclassica a un piano del conte Sučáni. Fu costruita nel primo terzo del XIX secolo ed è nota anche come Piccolo Palazzo. L’edificio privato è sottoposto a un restauro graduale."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cappella neogotica del cimitero – un’insolita unione di tomba e edificio sacro",
+          "text": "La slanciata cappella pseudogotica del cimitero di Gbeľany risale al XIX secolo. La contessa Vincencia Nyári la donò al comune nel 1871; l’edificio unisce le funzioni di cappella e tomba di famiglia. Nel 2015 furono restaurati la facciata, la recinzione e la scalinata."
+        },
+        {
+          "id": "fact_004",
+          "title": "La statua di san Giovanni Nepomuceno del 1827 – voluta dai Nyáry",
+          "text": "Vicino all’ingresso principale della scuola si trova una statua neoclassica in arenaria di san Giovanni Nepomuceno. L’iscrizione indica come donatori il conte Károly Nyáry e la moglie, contessa Francisca Pongrácz, e data l’opera al 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa di San Giuseppe Lavoratore – la prima pietra fu benedetta da Giovanni Paolo II",
+          "text": "Papa Giovanni Paolo II benedisse la prima pietra della chiesa di San Giuseppe Lavoratore a Bratislava il 22 aprile 1990. La prima messa domenicale si celebrò nel 1994 e il cardinale Ján Chryzostom Korec consacrò la chiesa il 9 settembre 1995. Nel 2016 fu collocata davanti alla chiesa una statua di san Marco ispirata al sigillo comunale del 1720."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – da villaggio medievale a dominio signorile indipendente",
+          "text": "Gbeľany è documentata nel 1362 con il nome Koblen e nel 1434 come Villa Belene. Appartenne al dominio di Strečno fino alla creazione di un dominio indipendente di Gbeľany nel 1749. Il dominio possedeva sette mulini, cinque macelli e una distilleria il cui nuovo edificio fu costruito nel 1886 e rinnovato nel 1921."
+        },
+        {
+          "id": "fact_007",
+          "title": "L’archeologia di Gbeľany – una falce dell’età del Bronzo e una moneta di Mattia Corvino",
+          "text": "Gli interventi di drenaggio del 1967 portarono alla luce reperti di varie epoche. A Prostredný lán fu trovata una falce di bronzo dell’VIII–V secolo a.C. insieme a ceramiche della cultura lusaziana; a Hradisko emersero ceramiche medievali e una moneta di Mattia Corvino del 1464. Altri siti comprendono una necropoli a urne e un insediamento neolitico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – il maniero rinascimentale dei Pongrác e altre residenze nobiliari",
+          "text": "Nededza è documentata dal 1384. A metà del XVI secolo la famiglia Pongrác vi costruì un grande maniero rinascimentale con una piccola chiesa, un organo, una torre e un muro di pietra; la parte occidentale è ancora visibile, sebbene danneggiata. Il Museo storico di Vienna conserva un modello del maniero. In seguito anche la famiglia Nyáry ebbe un’altra residenza nel villaggio."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – tre fortificazioni lusaziane e il sito archeologico di Hrádek",
+          "text": "Kotrčiná Lúčka è documentata dal 1439; nel 1469 il luogo si chiamava Luczka e contava solo undici case. La cronaca comunale registra tre fortificazioni della cultura lusaziana nel territorio. I documenti urbanistici identificano inoltre a Hrádek livelli della cultura di Púchov e medievali, quindi le diverse datazioni non vanno ridotte a un’unica fase."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – due sorgenti minerali vicino a Kotrčiná Lúčka",
+          "text": "Nel territorio comunale si trovano due sorgenti chiamate Vajcovka 1 e Vajcovka 2, con un caratteristico odore sulfureo. I documenti ambientali avvertono che non sono protette dall’inquinamento e attualmente non vengono utilizzate come fonti di acqua potabile. Sono una curiosità naturale, non un punto pubblico di acqua potabile verificata."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Gbeľany – barok landhuis en historische kern (het postcodegebied omvat ook Nededza en Kotrčiná Lúčka)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het barokke landhuis van Gbeľany – zetel van een zelfstandig domein in een historisch park",
+          "text": "Het barokke landhuis werd na de verdeling van de bezittingen in 1749 het centrum van het zelfstandige domein Gbeľany. Het staat in een door een stenen muur omgeven park; de Mariakapel op het terrein dateert uit 1750. Het domein was achtereenvolgens in handen van de families Szerényi, Nyári, Zichy en Majláth."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Kleine Landhuis – neoclassicistische residentie van graaf Sučáni",
+          "text": "In het historische park Sučianska záhrada staat het gelijkvloerse neoclassicistische landhuis van graaf Sučáni. Het werd in het eerste derde deel van de negentiende eeuw gebouwd en staat ook bekend als het Kleine Landhuis. Het particuliere gebouw wordt geleidelijk gerestaureerd."
+        },
+        {
+          "id": "fact_003",
+          "title": "De neogotische begraafplaatskapel – een bijzondere combinatie van graf en heiligdom",
+          "text": "De slanke pseudogotische kapel op de begraafplaats van Gbeľany dateert uit de negentiende eeuw. Gravin Vincencia Nyári schonk haar in 1871 aan het dorp; het gebouw combineert de functies van kapel en familiegraf. In 2015 werden de gevel, omheining en trap gerestaureerd."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het standbeeld van Sint-Jan Nepomucenus uit 1827 – geschonken door de Nyáry’s",
+          "text": "Bij de hoofdingang van de school staat een neoclassicistisch zandstenen beeld van Sint-Jan Nepomucenus. De inscriptie noemt graaf Károly Nyáry en zijn vrouw, gravin Francisca Pongrácz, als schenkers en dateert het beeld op 1827."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Sint-Jozef-Arbeiderkerk – de eerste steen werd gezegend door Johannes Paulus II",
+          "text": "Paus Johannes Paulus II zegende de eerste steen van de Sint-Jozef-Arbeiderkerk in Bratislava op 22 april 1990. De eerste zondagsmis vond plaats in 1994 en kardinaal Ján Chryzostom Korec wijdde de kerk op 9 september 1995 in. In 2016 werd voor de kerk een beeld van Sint-Marcus geplaatst, geïnspireerd op het gemeentelijke zegel uit 1720."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gbeľany – van middeleeuws dorp tot zelfstandig adellijk domein",
+          "text": "Gbeľany wordt in 1362 vermeld als Koblen en in 1434 als Villa Belene. Het dorp behoorde tot het domein Strečno totdat in 1749 een zelfstandig domein Gbeľany ontstond. Het domein bezat zeven molens, vijf slachthuizen en een distilleerderij waarvan het nieuwe gebouw in 1886 werd gebouwd en in 1921 werd vernieuwd."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archeologisch Gbeľany – een bronzen sikkel en een munt van Matthias Corvinus",
+          "text": "Bij drainagewerkzaamheden in 1967 kwamen vondsten uit verschillende perioden aan het licht. In Prostredný lán werd een bronzen sikkel uit de 8e–5e eeuw v.Chr. gevonden met aardewerk van de Lausitzcultuur; bij Hradisko werden middeleeuwse scherven en een munt van Matthias Corvinus uit 1464 gevonden. Andere vindplaatsen zijn een urnenveld en een neolithische nederzetting."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nededza – het renaissancelandhuis van de familie Pongrác en latere adellijke residenties",
+          "text": "Nededza wordt sinds 1384 schriftelijk vermeld. In het midden van de zestiende eeuw bouwde de familie Pongrác er een groot renaissancelandhuis met een kleine kerk, orgel, toren en stenen muur; het westelijke deel is nog aanwezig, maar beschadigd. Het Historisch Museum in Wenen bewaart een model van het landhuis. Later had ook de familie Nyáry een residentie in het dorp."
+        },
+        {
+          "id": "fact_009",
+          "title": "Kotrčiná Lúčka – drie Lusatische wallen en de archeologische vindplaats Hrádek",
+          "text": "Kotrčiná Lúčka wordt sinds 1439 vermeld; in 1469 heette de plaats Luczka en telde zij slechts elf huizen. De gemeentekroniek vermeldt drie wallen uit de Lausitzcultuur binnen het grondgebied. Planningsdocumenten identificeren Hrádek bovendien als een vindplaats met lagen uit de Púchovcultuur en de middeleeuwen; de verschillende dateringen mogen niet tot één periode worden teruggebracht."
+        },
+        {
+          "id": "fact_010",
+          "title": "Vajcovka – twee mineraalbronnen bij Kotrčiná Lúčka",
+          "text": "In de gemeente liggen twee bronnen die Vajcovka 1 en Vajcovka 2 heten; het water heeft een kenmerkende zwavelgeur. Milieudocumenten waarschuwen dat de bronnen niet tegen verontreiniging zijn beschermd en momenteel niet als drinkwaterbron worden gebruikt. Het zijn natuurlijke bijzonderheden, geen gecontroleerde openbare drinkwaterpunten."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "plz_source": "Oficiálne kontaktné stránky obcí Gbeľany, Nededza a Kotrčiná Lúčka uvádzajú PSČ 01302. Poštová prevádzka pre túto oblasť je v Gbeľanoch na adrese Kostolná 8; adresu a otváracie hodiny potvrdzuje oficiálna stránka obce a vyhľadávač Slovenskej pošty.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovak postal codes – verejný CC0 dataset odvodený z Registra adries SR, súbory postal_codes.csv a postal_code_areas.csv. Dataset eviduje 538 adresných bodov len v Gbeľanoch; oficiálne kontaktné stránky Nededze a Kotrčinej Lúčky však tiež uvádzajú PSČ 01302. Dataset preto nepokrýva celý doručovací obvod a nesmie sa použiť na vylúčenie týchto dvoch obcí.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Doručovacia pošta pre PSČ 01302 je v Gbeľanoch na adrese Kostolná 8. Oficiálna obecná stránka a vyhľadávač Slovenskej pošty potvrdzujú prevádzku; OMA poskytuje geografický bod. PSČ 01302 sa používa v Gbeľanoch, Nededzi a Kotrčinej Lúčke, čo potvrdzujú oficiálne kontaktné stránky všetkých troch obcí. Verejný adresný dataset uvádza iba 538 bodov v Gbeľanoch a nezahŕňa adresné body v Nededzi a Kotrčinej Lúčke; ide o neúplné pokrytie datasetu, nie o rozpor v oficiálnom PSČ. Polia city a district označujú fyzické umiestnenie doručovacej pošty – Gbeľany – nie všetky obce v doručovacom obvode.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a poštovú prevádzku. Oficiálne kontaktné stránky Gbelian, Nededze a Kotrčinej Lúčky potvrdzujú používanie PSČ 01302 vo všetkých troch obciach. Doručovacia pošta sa fyzicky nachádza v Gbeľanoch na Kostolnej 8, preto city = Gbeľany a district = Gbeľany; district_type je null, pretože ide o samostatnú obec. Verejný adresný dataset je v tomto prípade neúplný."
+  },
+  "status": "validated"
 }
