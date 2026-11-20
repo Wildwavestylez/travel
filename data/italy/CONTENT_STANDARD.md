@@ -333,7 +333,7 @@ Každé faktum musí být samostatně srozumitelné a mít jasný hlavní předm
 - Nevkládej do jednoho faktu několik nesouvisejících atrakcí jen proto, že leží blízko sebe.
 - Nezaměňuj přístupnost nebo otevírací dobu za trvalou historickou hodnotu. Proměnlivé provozní údaje patří do aktuálních návštěvnických zdrojů, nikoli do trvalého historického faktu.
 
-Faktum má být dostatečně bohaté, aby vysvětlilo své téma, ale ne uměle dlouhé. Nepoužívej univerzální limit slov jako náhradu redakčního úsudku.
+Faktum má být dostatečně bohaté, aby vysvětlilo své téma, ale ne uměle dlouhé. **Redakční cílový rozsah je průměrně přibližně 500–600 znaků na faktum** (včetně mezer) v základním jazyce. Jde o průměrný kvalitativní cíl, nikoli mechanický limit pro každý jednotlivý text: mimořádně silné téma může vyžadovat více prostoru, zatímco stručnější faktum je přijatelné jen tehdy, když jeho téma skutečně neposkytuje další ověřitelné a hodnotné souvislosti. Nikdy text neprodlužuj vatou, obecnými popisy krajiny, turistickými frázemi ani opakováním. Rozhodující je informační hustota, konkrétní příběh a doložené souvislosti.
 
 ## 10. Priority A–D
 
