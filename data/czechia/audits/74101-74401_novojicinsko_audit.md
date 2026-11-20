@@ -263,14 +263,16 @@ Primární podklady první dávky:
 86. 74281/fact_001–005: individuálně zkontrolováno všech 5 faktů v šesti jazycích. U starého zámku doplněn chybějící krajinářský park s barokními sochami a opraven doslovný překlad vodní tvrze; opraven chybný německý titul začínající českým „Od“. U kostela sv. Valentina zpřesněna německá terminologie Panny Marie Sedmibolestné. Read-back PASS.
 87. 74282/fact_001–006: individuálně zkontrolováno všech 6 faktů. U Jistebnických mokřadů doplněna v překladech souvislost s ochranou pramenné oblasti největší rybniční soustavy Poodří. U historického vývoje Jistebníku doplněna jména šlechtických rodů a opraveny titulky, které zaměňovaly rybníkářskou obec za rybářskou ves. U Jistebnických zpěváčků doplněna role školního zpěvu a veřejných vystoupení dětí. Všechny opravy načteny zpět.
 88. 74283/fact_001–006: individuálně zkontrolováno všech 6 faktů v šesti jazycích; v němčině u fact_001 zpřesněno „Festung“ na „befestigter Herrensitz“ podle českého „tvrz“. Read-back PASS.
+89. 74285/fact_001: odstraněno opakování historických údajů v českém masteru; text zkrácen bez ztráty podstatných informací a synchronizován s translations.cs. Všech šest cizojazyčných verzí nově formulováno podle opraveného masteru. Read-back PASS.
+90. 74285/fact_006: odstraněno opakované sdělení o odhalení pomníku a pozdějším doplnění jmen; český master, translations.cs a všech šest překladů sjednoceno do jedné chronologické verze. Read-back PASS.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 226/261 faktů hotovo (1 356/1 566 textů), zbývá 35 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 228/261 faktů hotovo (1 368/1 566 textů), zbývá 33 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74285/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74285/fact_007 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
