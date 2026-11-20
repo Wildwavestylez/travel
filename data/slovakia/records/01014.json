@@ -1,10 +1,10 @@
 {
   "postcode": "01014",
   "city": "Žilina",
-  "district": "Budatín",
+  "district": "Brodno a Vranie",
   "county": "Žilina",
   "state": "Žilinský kraj",
-  "representative_place": "Brodno – Kostol Všetkých svätých, hlavná časť oblasti PSČ 010 14",
+  "representative_place": "Brodno – Kostel Všech svatých (PSČ zahrnuje také Vranie)",
   "representative_point": {
     "lat": 49.254647894,
     "lon": 18.757998705
@@ -25,7 +25,7 @@
       ],
       "location": {
         "name": "Kostel Všech svatých v Brodně",
-        "address": "Brodno 296, Žilina, Slovensko",
+        "address": null,
         "lat": 49.254647894,
         "lon": 18.757998705,
         "type": "church",
@@ -48,7 +48,7 @@
       ],
       "location": {
         "name": "Kaple svatých Cyrila a Metoděje ve Vraní",
-        "address": "Ďatlia 4, Žilina-Vranie, Slovensko",
+        "address": "Ďatlia 4, 010 14 Žilina-Vranie, Slovensko",
         "lat": 49.25772183964647,
         "lon": 18.741258046403395,
         "type": "chapel",
@@ -90,6 +90,48 @@
         "https://www.slovensko.sk/sk/lokality/_1ec3734e-6488-4299-bef1-a38d147a5b87"
       ],
       "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Brodnianka – chráněný skalnatý hřeben s reliktním dubovým lesem",
+      "text": "Nad Brodnem se zvedá vrch Brodnianka, jehož jižní část je chráněna jako přírodní rezervace. Jde o skalnatý bradlový útvar s dubovým porostem reliktního charakteru a výskytem několika vzácných rostlinných druhů. Národní park Malá Fatra uvádí, že právě zde se nachází nejsevernější výskyt přirozeného dubového porostu na Slovensku. Na protější straně údolí Kysuce leží přírodní rezervace Rochovica s teplomilnými lesními společenstvy; oba výrazné svahy společně utvářejí krajinnou bránu Kysuckého údolí. Brodnianka tak není jen vyhlídkovým vrchem nad obcí, ale i cenným útočištěm rostlin, které se v této zeměpisné šířce vyskytují neobvykle daleko na severu.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.npmalafatra.sk/priroda/chranene-uzemia/",
+        "https://poi.oma.sk/n839249861"
+      ],
+      "location": {
+        "name": "Brodnianka – vrchol a orientační bod přírodní rezervace",
+        "address": null,
+        "lat": 49.2652225,
+        "lon": 18.7672009,
+        "type": "hill",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n839249861"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_006",
+      "title": "Brodňanka – dechová kapela, která od roku 1969 drží místní tradice",
+      "text": "Dechový soubor Brodňanka vznikl 24. dubna 1969 a jeho první oficiální veřejné vystoupení se konalo 7. září téhož roku při otevření nové základní školy v Brodně. V prvním roce měl soubor 26 členů, z nichž většina se hudbu učila od základů. Už 1. listopadu 1969 zahrál na místním hřbitově chorály a smuteční pochody na památku zemřelých; vystoupení se stalo každoroční tradicí, která se v Brodně udržuje dodnes. Brodňanka stála také u zrodu fašiangového průvodu a „pochovávání basy“ – první taková slavnost se konala 10. února 1970. Kapela tak po více než půl století propojuje hudbu, komunitní život a lidové obyčeje Brodna.",
+      "category": "culture_and_industry",
+      "priority": "D",
+      "sources": [
+        "https://www.academia.edu/90265733/Hudobn%C3%A1_kult%C3%BAra_v_Brodne_so_zameran%C3%ADm_na_Dychov%C3%BD_s%C3%BAbor_Brod%C5%88anka",
+        "https://zilina.sk/organizacia/zakladna-skola-s-materskou-skolou-brodnanska/"
+      ],
+      "location": {
+        "name": "Základní škola Brodňanská – místo prvního oficiálního vystoupení Brodňanky",
+        "address": "Brodňanská 110/17, 010 14 Žilina, Slovensko",
+        "lat": 49.2566091,
+        "lon": 18.7551597,
+        "type": "school",
+        "accuracy": "exact",
+        "source": "https://zilina.sk/organizacia/zakladna-skola-s-materskou-skolou-brodnanska/"
+      },
       "map_category": "local_culture"
     }
   ],
@@ -183,12 +225,32 @@
       "title": "ZO JDS Vranie – local community history, school built in 1925 and opened in 1926",
       "url": "https://jdszilina.webnode.sk/zo-jds-vranie/",
       "type": "regional"
+    },
+    {
+      "title": "Mesto Žilina – ukončenie prevádzky Pošty Žilina 3 a Pošty Žilina 9 od 1. septembra 2025",
+      "url": "https://zilina.sk/od-1-septembra-2025-svoju-prevadzku-ukoncia-dve-posty-v-ziline/",
+      "type": "official"
+    },
+    {
+      "title": "Národný park Malá Fatra – chránené územia Brodnianka a Rochovica",
+      "url": "https://www.npmalafatra.sk/priroda/chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – vrch Brodnianka, poloha a súradnice",
+      "url": "https://poi.oma.sk/n839249861",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Žilina – Základná škola s materskou školou Brodňanská 110/17, adresa a súradnice",
+      "url": "https://zilina.sk/organizacia/zakladna-skola-s-materskou-skolou-brodnanska/",
+      "type": "official"
     }
   ],
   "photo": null,
   "translations": {
     "cs": {
-      "representative_place": "Brodno – Kostol Všetkých svätých, hlavná časť oblasti PSČ 010 14",
+      "representative_place": "Brodno – Kostel Všech svatých (PSČ zahrnuje také Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -209,11 +271,21 @@
           "id": "fact_004",
           "title": "Vranie – školu si obyvatelé postavili vlastními silami v roce 1925",
           "text": "Místní vzpomínkový přehled organizace Jednoty dôchodcov Slovenska ve Vraní zaznamenává pozoruhodnou komunitní iniciativu: v roce 1925 začali obyvatelé Vraní společně s lidmi z Malé Rudinky svépomocí stavět vlastní školu. První žáci do ní nastoupili v roce 1926. Škola sloužila místnímu vzdělávání až do osmdesátých let 20. století, kdy byly děti převedeny do školy v Brodně. Mateřská škola vznikla v padesátých letech a zanikla v roce 2005. Příběh připomíná dobu, kdy si menší kysucké obce zajišťovaly základní veřejné služby vlastní prací a společnými prostředky."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – chráněný skalnatý hřeben s reliktním dubovým lesem",
+          "text": "Nad Brodnem se zvedá vrch Brodnianka, jehož jižní část je chráněna jako přírodní rezervace. Jde o skalnatý bradlový útvar s dubovým porostem reliktního charakteru a výskytem několika vzácných rostlinných druhů. Národní park Malá Fatra uvádí, že právě zde se nachází nejsevernější výskyt přirozeného dubového porostu na Slovensku. Na protější straně údolí Kysuce leží přírodní rezervace Rochovica s teplomilnými lesními společenstvy; oba výrazné svahy společně utvářejí krajinnou bránu Kysuckého údolí. Brodnianka tak není jen vyhlídkovým vrchem nad obcí, ale i cenným útočištěm rostlin, které se v této zeměpisné šířce vyskytují neobvykle daleko na severu."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – dechová kapela, která od roku 1969 drží místní tradice",
+          "text": "Dechový soubor Brodňanka vznikl 24. dubna 1969 a jeho první oficiální veřejné vystoupení se konalo 7. září téhož roku při otevření nové základní školy v Brodně. V prvním roce měl soubor 26 členů, z nichž většina se hudbu učila od základů. Už 1. listopadu 1969 zahrál na místním hřbitově chorály a smuteční pochody na památku zemřelých; vystoupení se stalo každoroční tradicí, která se v Brodně udržuje dodnes. Brodňanka stála také u zrodu fašiangového průvodu a „pochovávání basy“ – první taková slavnost se konala 10. února 1970. Kapela tak po více než půl století propojuje hudbu, komunitní život a lidové obyčeje Brodna."
         }
       ]
     },
     "de": {
-      "representative_place": "Brodno – Allerheiligenkirche, Hauptteil des Postleitzahlengebiets 010 14",
+      "representative_place": "Brodno – Allerheiligenkirche (das Postleitzahlengebiet umfasst auch Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -234,11 +306,21 @@
           "id": "fact_004",
           "title": "Vranie – die Einwohner bauten ihre Schule 1925 in Eigenleistung",
           "text": "Ein lokaler Erinnerungsbericht der slowakischen Rentnervereinigung in Vranie dokumentiert eine bemerkenswerte Gemeinschaftsinitiative: 1925 begannen Einwohner von Vranie gemeinsam mit Menschen aus Malá Rudinka, in Eigenleistung eine eigene Schule zu bauen. Die ersten Kinder besuchten sie 1926. Die Schule diente bis in die 1980er Jahre dem örtlichen Unterricht; danach wurden die Kinder der Schule in Brodno zugeteilt. Ein Kindergarten war in den 1950er Jahren eingerichtet worden und wurde 2005 geschlossen. Die Geschichte erinnert an eine Zeit, in der kleinere Kysuce-Gemeinden grundlegende öffentliche Einrichtungen durch gemeinsame Arbeit und eigene Mittel schufen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – ein geschützter Felsrücken mit Relikt-Eichenwald",
+          "text": "Über Brodno erhebt sich der Berg Brodnianka, dessen südlicher Teil als Naturschutzgebiet geschützt ist. Es handelt sich um eine felsige Klippenformation mit einem Eichenbestand von Reliktcharakter und mehreren seltenen Pflanzenarten. Der Nationalpark Malá Fatra nennt hier das nördlichste natürliche Eichenwaldvorkommen der Slowakei. Auf der gegenüberliegenden Seite des Kysuca-Tals liegt das Naturschutzgebiet Rochovica mit wärmeliebenden Waldgemeinschaften; gemeinsam prägen die beiden markanten Hänge das Landschaftstor des Kysuca-Tals. Brodnianka ist daher nicht nur ein Aussichtspunkt über dem Dorf, sondern auch ein wertvoller Rückzugsraum für Pflanzen, die in dieser geografischen Breite ungewöhnlich weit im Norden vorkommen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – die Blaskapelle, die seit 1969 lokale Traditionen bewahrt",
+          "text": "Das Blasorchester Brodňanka wurde am 24. April 1969 gegründet. Sein erster offizieller öffentlicher Auftritt fand am 7. September desselben Jahres zur Eröffnung der neuen Grundschule in Brodno statt. Im ersten Jahr hatte das Ensemble 26 Mitglieder, von denen die meisten das Musizieren von Grund auf erlernten. Bereits am 1. November 1969 spielte es auf dem örtlichen Friedhof Choräle und Trauermärsche zum Gedenken an die Verstorbenen; daraus entstand eine jährliche Tradition, die in Brodno bis heute gepflegt wird. Brodňanka stand auch am Anfang des Faschingsumzugs und des symbolischen „Begräbnisses des Kontrabasses“ – das erste Fest dieser Art fand am 10. Februar 1970 statt. Seit mehr als einem halben Jahrhundert verbindet die Kapelle Musik, Gemeinschaftsleben und Volksbräuche von Brodno."
         }
       ]
     },
     "en": {
-      "representative_place": "Brodno – All Saints’ Church, main part of postal area 010 14",
+      "representative_place": "Brodno – All Saints’ Church (the postal area also includes Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -259,11 +341,21 @@
           "id": "fact_004",
           "title": "Vranie – residents built their own school in 1925",
           "text": "A local community-history account by the Slovak Union of Senior Citizens in Vranie records a notable collective effort: in 1925, residents of Vranie joined people from Malá Rudinka to build a school themselves. The first pupils entered it in 1926. The school served local children until the 1980s, when they were transferred to the school in Brodno. A kindergarten had opened in the 1950s and closed in 2005. The story recalls a time when smaller Kysuce communities created essential public services through shared labour and local resources."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – a protected rocky ridge with a relict oak woodland",
+          "text": "The hill of Brodnianka rises above Brodno, and its southern slopes are protected as a nature reserve. It is a rocky klippe formation with a relict oak woodland and several rare plant species. Malá Fatra National Park identifies this as the northernmost occurrence of natural oak woodland in Slovakia. Across the Kysuca valley lies the Rochovica nature reserve, known for its thermophilous woodland communities; together, the two prominent slopes shape the landscape gateway of the Kysuca valley. Brodnianka is therefore more than a viewpoint above the village: it is a valuable refuge for plant species that occur unusually far north at this latitude."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – the brass band that has kept local traditions alive since 1969",
+          "text": "The Brodňanka brass ensemble was founded on 24 April 1969. Its first official public performance took place on 7 September that year at the opening of the new primary school in Brodno. In its first year the ensemble had 26 members, most of whom were learning music from the basics. On 1 November 1969 it played chorales and funeral marches at the local cemetery in remembrance of the dead; this became an annual tradition that continues in Brodno today. Brodňanka also helped establish the local Shrovetide procession and the symbolic “burial of the bass” – the first such celebration was held on 10 February 1970. For more than half a century, the band has connected music, community life and Brodno’s folk customs."
         }
       ]
     },
     "es": {
-      "representative_place": "Brodno – iglesia de Todos los Santos, parte principal del área postal 010 14",
+      "representative_place": "Brodno – iglesia de Todos los Santos (el área postal también incluye Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -284,11 +376,21 @@
           "id": "fact_004",
           "title": "Vranie: los vecinos construyeron su propia escuela en 1925",
           "text": "Un relato local de la asociación eslovaca de jubilados de Vranie recuerda una iniciativa comunitaria notable: en 1925, los vecinos de Vranie y de Malá Rudinka comenzaron a construir por sus propios medios una escuela. Los primeros alumnos entraron en 1926. La escuela funcionó hasta los años ochenta, cuando los niños fueron trasladados a la escuela de Brodno. Un jardín de infancia, creado en los años cincuenta, cerró en 2005. La historia recuerda una época en la que las pequeñas comunidades de Kysuce levantaban servicios públicos esenciales mediante el trabajo colectivo y sus propios recursos."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka: una cresta rocosa protegida con un robledal relicto",
+          "text": "Sobre Brodno se eleva la colina de Brodnianka, cuya vertiente sur está protegida como reserva natural. Es una formación rocosa de tipo klippe con un robledal de carácter relicto y varias especies vegetales raras. El Parque Nacional Malá Fatra señala que aquí se encuentra la presencia más septentrional de robledal natural de Eslovaquia. En la otra orilla del valle del Kysuca se encuentra la reserva natural de Rochovica, con comunidades forestales termófilas; ambas laderas destacadas configuran juntas la puerta paisajística del valle del Kysuca. Brodnianka no es solo un mirador sobre el pueblo, sino también un refugio valioso para plantas que aparecen inusualmente al norte en esta latitud."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka: la banda de viento que mantiene vivas las tradiciones locales desde 1969",
+          "text": "La agrupación de viento Brodňanka se fundó el 24 de abril de 1969. Su primera actuación pública oficial tuvo lugar el 7 de septiembre de ese año, durante la inauguración de la nueva escuela primaria de Brodno. En su primer año contaba con 26 miembros, la mayoría de los cuales aprendió música desde los fundamentos. El 1 de noviembre de 1969 tocó corales y marchas fúnebres en el cementerio local en memoria de los difuntos; aquella actuación se convirtió en una tradición anual que continúa hoy en Brodno. Brodňanka también impulsó el desfile de carnaval y el simbólico «entierro del contrabajo»: la primera celebración se realizó el 10 de febrero de 1970. Desde hace más de medio siglo, la banda une música, vida comunitaria y costumbres populares de Brodno."
         }
       ]
     },
     "fr": {
-      "representative_place": "Brodno – église de Tous-les-Saints, partie principale de la zone postale 010 14",
+      "representative_place": "Brodno – église de Tous-les-Saints (la zone postale comprend aussi Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -309,11 +411,21 @@
           "id": "fact_004",
           "title": "Vranie – les habitants ont construit leur école eux-mêmes en 1925",
           "text": "Un récit local de l’Union slovaque des retraités de Vranie rapporte une initiative communautaire remarquable : en 1925, les habitants de Vranie et de Malá Rudinka commencèrent à construire eux-mêmes une école. Les premiers élèves y entrèrent en 1926. L’école accueillit les enfants du lieu jusqu’aux années 1980, avant leur transfert à l’école de Brodno. Une école maternelle ouverte dans les années 1950 ferma en 2005. Cette histoire rappelle une époque où les petites communautés de Kysuce créaient des services publics essentiels grâce au travail collectif et à leurs propres moyens."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – une crête rocheuse protégée et sa chênaie relique",
+          "text": "La colline de Brodnianka domine Brodno et son versant sud est protégé en tant que réserve naturelle. Il s’agit d’une formation rocheuse de type klippe, couverte d’une chênaie relique et abritant plusieurs espèces végétales rares. Le parc national de Malá Fatra y signale la présence la plus septentrionale d’une chênaie naturelle en Slovaquie. De l’autre côté de la vallée de la Kysuca se trouve la réserve naturelle de Rochovica, caractérisée par des communautés forestières thermophiles ; les deux versants marquants forment ensemble la porte paysagère de la vallée. Brodnianka est donc plus qu’un point de vue au-dessus du village : c’est un refuge précieux pour des plantes présentes exceptionnellement au nord à cette latitude."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – la fanfare qui perpétue les traditions locales depuis 1969",
+          "text": "L’ensemble de cuivres Brodňanka a été fondé le 24 avril 1969. Sa première représentation publique officielle eut lieu le 7 septembre de la même année, à l’occasion de l’ouverture de la nouvelle école primaire de Brodno. Au cours de sa première année, l’ensemble comptait 26 membres, dont la plupart apprenaient la musique depuis les bases. Le 1er novembre 1969, il joua des chorals et des marches funèbres au cimetière local en mémoire des défunts ; cette prestation devint une tradition annuelle toujours maintenue à Brodno. Brodňanka contribua également à instaurer le cortège de carnaval et la cérémonie symbolique de « l’enterrement de la contrebasse », organisée pour la première fois le 10 février 1970. Depuis plus d’un demi-siècle, la fanfare relie musique, vie communautaire et coutumes populaires de Brodno."
         }
       ]
     },
     "it": {
-      "representative_place": "Brodno – chiesa di Ognissanti, parte principale dell’area postale 010 14",
+      "representative_place": "Brodno – chiesa di Ognissanti (l’area postale comprende anche Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -334,11 +446,21 @@
           "id": "fact_004",
           "title": "Vranie – gli abitanti costruirono da soli la scuola nel 1925",
           "text": "Un resoconto locale dell’associazione slovacca dei pensionati di Vranie ricorda una notevole iniziativa comunitaria: nel 1925 gli abitanti di Vranie e quelli di Malá Rudinka iniziarono a costruire autonomamente una scuola. I primi alunni vi entrarono nel 1926. La scuola servì i bambini del luogo fino agli anni Ottanta, quando furono trasferiti alla scuola di Brodno. Una scuola materna aperta negli anni Cinquanta chiuse nel 2005. La storia ricorda un’epoca in cui le piccole comunità di Kysuce realizzavano servizi pubblici essenziali grazie al lavoro comune e alle proprie risorse."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – una cresta rocciosa protetta con un bosco relitto di querce",
+          "text": "Sopra Brodno si innalza il colle di Brodnianka, il cui versante meridionale è protetto come riserva naturale. È una formazione rocciosa di tipo klippe con un querceto relitto e diverse specie vegetali rare. Il Parco nazionale Malá Fatra segnala qui la presenza più settentrionale di un bosco naturale di querce in Slovacchia. Sull’altro lato della valle del Kysuca si trova la riserva naturale di Rochovica, caratterizzata da comunità forestali termofile; insieme, i due versanti prominenti formano la porta paesaggistica della valle del Kysuca. Brodnianka è quindi più di un punto panoramico sul villaggio: è un rifugio prezioso per specie vegetali che a questa latitudine si spingono insolitamente a nord."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – la banda di ottoni che mantiene vive le tradizioni locali dal 1969",
+          "text": "Il complesso bandistico Brodňanka fu fondato il 24 aprile 1969. La sua prima esibizione pubblica ufficiale si tenne il 7 settembre dello stesso anno, in occasione dell’apertura della nuova scuola primaria di Brodno. Nel primo anno il gruppo contava 26 membri, la maggior parte dei quali imparò la musica dalle basi. Il 1º novembre 1969 suonò corali e marce funebri nel cimitero locale in memoria dei defunti; da quell’esibizione nacque una tradizione annuale che continua ancora oggi a Brodno. Brodňanka contribuì anche a creare la sfilata di carnevale e il simbolico «funerale del contrabbasso», celebrato per la prima volta il 10 febbraio 1970. Da oltre mezzo secolo la banda unisce musica, vita comunitaria e usanze popolari di Brodno."
         }
       ]
     },
     "nl": {
-      "representative_place": "Brodno – Allerheiligenkerk, hoofddeel van postcodegebied 010 14",
+      "representative_place": "Brodno – Allerheiligenkerk (het postcodegebied omvat ook Vranie)",
       "facts": [
         {
           "id": "fact_001",
@@ -359,12 +481,22 @@
           "id": "fact_004",
           "title": "Vranie – inwoners bouwden in 1925 zelf hun school",
           "text": "Een lokaal geschiedkundig verslag van de Slowaakse seniorenvereniging in Vranie beschrijft een opmerkelijk gemeenschapsinitiatief: in 1925 begonnen inwoners van Vranie samen met mensen uit Malá Rudinka zelf een school te bouwen. De eerste leerlingen begonnen er in 1926. De school verzorgde het plaatselijke onderwijs tot in de jaren tachtig, toen de kinderen naar de school in Brodno gingen. Een kleuterschool die in de jaren vijftig was geopend, sloot in 2005. Het verhaal herinnert aan een tijd waarin kleine gemeenschappen in Kysuce essentiële openbare voorzieningen met gezamenlijke arbeid en eigen middelen tot stand brachten."
+        },
+        {
+          "id": "fact_005",
+          "title": "Brodnianka – een beschermde rotsrug met een relict-eikenbos",
+          "text": "Boven Brodno rijst de heuvel Brodnianka op; de zuidelijke helling is beschermd als natuurreservaat. Het is een rotsachtige klippeformatie met een eikenbos van relictkarakter en verschillende zeldzame plantensoorten. Nationaal Park Malá Fatra noemt dit de noordelijkste natuurlijke eikenbosstand van Slowakije. Aan de overkant van het Kysuca-dal ligt het natuurreservaat Rochovica, bekend om zijn warmteminnende bosgemeenschappen; samen vormen de twee markante hellingen de landschappelijke poort van het Kysuca-dal. Brodnianka is dus meer dan een uitzichtpunt boven het dorp: het is een waardevolle schuilplaats voor planten die op deze breedtegraad ongewoon ver noordelijk voorkomen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Brodňanka – de blaaskapel die sinds 1969 lokale tradities levend houdt",
+          "text": "Het blaasensemble Brodňanka werd opgericht op 24 april 1969. Het eerste officiële openbare optreden vond plaats op 7 september van dat jaar, bij de opening van de nieuwe basisschool in Brodno. In het eerste jaar telde het ensemble 26 leden, van wie de meesten muziek vanaf de basis leerden. Op 1 november 1969 speelde het koorwerken en treurmarsen op de plaatselijke begraafplaats ter nagedachtenis aan de overledenen; dit werd een jaarlijkse traditie die in Brodno nog steeds voortleeft. Brodňanka hielp ook de carnavalsoptocht en de symbolische ‘begrafenis van de contrabas’ op gang te brengen; de eerste viering vond plaats op 10 februari 1970. Al meer dan een halve eeuw verbindt de kapel muziek, gemeenschapsleven en volksgebruiken van Brodno."
         }
       ]
     }
   },
   "verification": {
-    "plz_source": "Mesto Žilina a Slovenská pošta potvrdili, že Pošta Žilina 14 v Brodne bola zrušená k 1. 12. 2021, ale PSČ 010 14 sa nemenilo a bolo priradené k Pošte Žilina 3. Aktuálny zoznam Slovenskej pošty uvádza Poštu Žilina 3 – Budatín na adrese Na lány 387; oficiálny mestský zoznam ulíc zaraďuje Na lány do mestskej časti Budatín.",
+    "plz_source": "Mesto Žilina potvrdilo, že Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021 a služby pre Brodno a Vranie prevzala Pošta Žilina 3; PSČ 01014 zostalo nezmenené. Mesto následne oznámilo ukončenie prevádzky Pošty Žilina 3 k 1. 9. 2025. Verejný adresný dataset odvodený z Registra adries SR priraďuje PSČ 01014 k obci Žilina a k dvom mestským častiam: Brodno a Vranie.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
@@ -373,9 +505,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021. Mesto Žilina výslovne uvádza, že poštové služby pre mestské časti Brodno a Vranie zabezpečuje Pošta Žilina 3 a že PSČ 010 14 zostalo nezmenené a bolo priradené k Pošte Žilina 3. Aktuálny zoznam Slovenskej pošty uvádza Poštu Žilina 3 – Budatín na adrese Na lány 387; mestský zoznam ulíc zaraďuje ulicu Na lány do Budatína. Preto city = Žilina a district = Budatín podľa aktuálnej dodávacej pošty, zatiaľ čo geografická oblasť PSČ zahŕňa Brodno (462 adresných bodov) a Vranie (299 adresných bodov). Reprezentatívny bod je v Brodne, ktoré má väčšinu adresných bodov. Presný polygon doručovacieho obvodu nie je v datasete uvedený.",
+    "delivery_office_note": "Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021; mesto vtedy uviedlo, že služby pre Brodno a Vranie prevezme Pošta Žilina 3 a PSČ 01014 zostane nezmenené. Pošta Žilina 3 v Budatíne však ukončila prevádzku k 1. 9. 2025. Mesto uviedlo nástupnícke pobočky Žilina 1 a Žilina 7, ale dostupné oznámenie neurčuje, ktorá z nich je konkrétne priradená k PSČ 01014. Preto access_point zostáva null a access_point_verified = false. Geografická oblasť PSČ sa určuje nezávisle od sídla pobočky: dataset eviduje 761 adresných bodov v Žiline, z toho 462 v Brodne a 299 vo Vraní. Preto district = Brodno a Vranie; Budatín bol iba sídlom medzičasom zrušenej pobočky.",
     "postcode_override_reason": null,
-    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a prevádzku pobočiek. Mesto Žilina zverejnilo, že Pošta Žilina 14 bola zrušená k 1. 12. 2021, poštové služby pre Brodno a Vranie prevzala Pošta Žilina 3 a PSČ 010 14 zostalo nezmenené. Aktuálny zoznam Slovenskej pošty uvádza Poštu Žilina 3 – Budatín na Na lány 387; mestský zoznam zaraďuje ulicu Na lány do Budatína. Verejný CC0 dataset odvodený z Registra adries SR eviduje pre 01014 761 adresných bodov v Žiline: 462 v Brodne a 299 vo Vraní."
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a prevádzku pobočiek. Mesto Žilina potvrdilo, že PSČ 01014 zostalo nezmenené po zatvorení Pošty Žilina 14 v roku 2021; následne bola zatvorená aj Pošta Žilina 3 v Budatíne v roku 2025 a presné priradenie nástupníckej pobočky k 01014 nie je v oznámení uvedené. Verejný CC0 dataset odvodený z Registra adries SR eviduje pre 01014 761 adresných bodov v meste Žilina: 462 v Brodne a 299 vo Vraní. Geografická oblasť preto zahŕňa mestské časti Brodno a Vranie, nie Budatín."
   },
   "status": "validated"
 }
