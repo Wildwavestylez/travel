@@ -1,4 +1,157 @@
 {
   "postcode": "83007",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Nové Mesto",
+  "county": "Bratislava III",
+  "state": "Bratislavský kraj",
+  "representative_place": "Kamzík – vrch a lesní rekreační krajina v Malých Karpatech",
+  "representative_point": {
+    "lat": 48.1818507,
+    "lon": 17.0933671
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kamzík – městský les, jehož jméno připomíná starý Gemsenberg",
+      "text": "Kamzík je výrazný vrch jižní části Malých Karpat, vysoký přibližně 439 metrů, a zároveň jedna z nejdůležitějších rekreačních krajin Bratislavy. Jeho název vznikl překladem staršího německého označení Gemsenberg, tedy „kamzičí vrch“. Městský územní generel sportu a rekreace vymezuje na Kamzíku rekreační plochu o rozloze 342 348 m² a přisuzuje jí celoměstský význam. Počítá zde s pobytovými loukami, naučnými a turistickými trasami, cyklistikou i zimní rekreací; území leží v chráněné krajinné oblasti Malé Karpaty. Kamzík tak není jen bodem s výhledem, ale součástí rozsáhlého lesního zázemí, které obyvatelům hlavního města nabízí rychlý přechod z městské zástavby do karpatské přírody.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.bratislavaregion.travel/poi/46/kamzik",
+        "https://bratislavask.s3.bratislava.sk/upload/Uzemny_generel_sportu_a_rekreacie_hlavneho_mesta_SR_Bratislavy_Textova_cast_c87fc0fe1d.pdf"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Kamzík – vrchol Malých Karpat",
+        "address": null,
+        "lat": 48.1818507,
+        "lon": 17.0933671,
+        "type": "mountain",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n249660891"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálny zoznam vybraných pôšt uvádza pobočku Bratislava 37 s PSČ 83007 na adrese Jelšová 1. Geografické použitie kódu pre lokalitu/ulicu Kamzík je potvrdené doplnkovými PSČ adresármi. Nezamieňam ho s okolitými adresami Kamzík-les a Kamzíkov vrch, pri ktorých sa objavuje aj PSČ 83101.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiálny zoznam pôšt Slovenskej pošty; doplnkovo uliční PSČ adresár pre lokalitu Kamzík",
+    "postcode_source_release": "Oficiálny zoznam pôšt z 15. 4. 2023; geografická kontrola 20. 11. 2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Záznam je obsahovo obmedzený na lokalitu Kamzík priradenú k PSČ 83007. Okolité názvy Kamzík-les, Kamzíkov vrch a Cesta na Kamzík majú v adresných mapových zdrojoch aj priradenie 83101; tieto susedné adresné celky sa do PSČ 83007 automaticky nerozširujú.",
+    "delivery_office_note": "Oficiálny zoznam Slovenskej pošty uvádza Poštu Bratislava 37, Jelšová 1, s PSČ 83007. Adresa Jelšová 1 leží v mestskej časti Nové Mesto, okres Bratislava III. Preto top-level administratívne polia vychádzajú z fyzickej polohy tejto pošty, nie z okolitého turistického územia Kamzíka.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Územný generel športu a rekreácie Hlavného mesta Bratislavy preukazuje polohu a charakter rekreačnej lokality Kamzík; oficiálny zoznam komunikácií Bratislavy identifikuje Jelšovú v mestskej časti Nové Mesto; ÚGKK/ZBGIS je uvedený ako zdroj výškovej a polohovej referencie vrcholu v mapovom zázname OMA/OpenStreetMap. Presný polygon PSČ 83007 sa netvrdí."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Zoznam vybraných pôšt na predaj eKolkov, stav k 15. 4. 2023 (Bratislava 37, PSČ 83007, Jelšová 1)",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislava Region – Kamzík, poloha, nadmorská výška a pôvod názvu Gemsenberg",
+      "url": "https://www.bratislavaregion.travel/poi/46/kamzik",
+      "type": "regional"
+    },
+    {
+      "title": "Hlavné mesto Bratislava – Územný generel športu a rekreácie, lokalita Kamzík",
+      "url": "https://bratislavask.s3.bratislava.sk/upload/Uzemny_generel_sportu_a_rekreacie_hlavneho_mesta_SR_Bratislavy_Textova_cast_c87fc0fe1d.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Hlavné mesto Bratislava – Zoznam komunikácií, február 2026",
+      "url": "https://bratislavask.s3.bratislava.sk/upload/Zoznam_komunikacii_Bratislava_februar_2026_2f17b40c93.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Kamzík, vrchol a WGS84 poloha",
+      "url": "https://poi.oma.sk/n249660891",
+      "type": "other"
+    },
+    {
+      "title": "PSČ Bratislava – Kamzík, doplnkový uliční adresár",
+      "url": "https://najdipsc.zones.sk/PS%C4%8C_Bratislava/Kamz%C3%ADk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kamzík – vrch a lesní rekreační krajina v Malých Karpatech",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – městský les, jehož jméno připomíná starý Gemsenberg",
+          "text": "Kamzík je výrazný vrch jižní části Malých Karpat, vysoký přibližně 439 metrů, a zároveň jedna z nejdůležitějších rekreačních krajin Bratislavy. Jeho název vznikl překladem staršího německého označení Gemsenberg, tedy „kamzičí vrch“. Městský územní generel sportu a rekreace vymezuje na Kamzíku rekreační plochu o rozloze 342 348 m² a přisuzuje jí celoměstský význam. Počítá zde s pobytovými loukami, naučnými a turistickými trasami, cyklistikou i zimní rekreací; území leží v chráněné krajinné oblasti Malé Karpaty. Kamzík tak není jen bodem s výhledem, ale součástí rozsáhlého lesního zázemí, které obyvatelům hlavního města nabízí rychlý přechod z městské zástavby do karpatské přírody."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Kamzík – Berg und Wald-Erholungsgebiet in den Kleinen Karpaten",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – der Stadtwald mit dem alten Namen Gemsenberg",
+          "text": "Der Kamzík ist ein markanter Berg im südlichen Teil der Kleinen Karpaten und erreicht etwa 439 Meter Höhe. Zugleich gehört er zu den wichtigsten Erholungslandschaften Bratislavas. Sein Name ist eine Übersetzung der älteren deutschen Bezeichnung Gemsenberg. Der städtische Generalplan für Sport und Erholung weist am Kamzík eine Erholungsfläche von 342.348 m² mit gesamtstädtischer Bedeutung aus. Vorgesehen sind Wiesen zum Verweilen, Lehr- und Wanderwege, Radfahren sowie winterliche Freizeitaktivitäten; das Gebiet liegt im Landschaftsschutzgebiet Kleine Karpaten. Der Kamzík ist damit nicht nur ein Aussichtspunkt, sondern Teil eines ausgedehnten Waldgebiets, das den Bewohnern der Hauptstadt einen schnellen Übergang vom Stadtgebiet in die Karpatenlandschaft ermöglicht."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Kamzík – a hill and forest recreation landscape in the Little Carpathians",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – the city forest whose name recalls the old Gemsenberg",
+          "text": "Kamzík is a prominent hill in the southern part of the Little Carpathians, rising to about 439 metres, and one of Bratislava’s most important recreational landscapes. Its name is a translation of the older German name Gemsenberg, meaning “chamois mountain”. Bratislava’s municipal sports and recreation plan designates a 342,348-square-metre recreation area at Kamzík and gives it citywide importance. The plan provides for open meadows, educational and hiking trails, cycling and winter recreation; the area lies within the Little Carpathians Protected Landscape Area. Kamzík is therefore more than a viewpoint: it is part of an extensive forest setting that allows residents of the capital to move quickly from the built-up city into the Carpathian countryside."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Kamzík – monte y paisaje forestal recreativo en los Pequeños Cárpatos",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík: el bosque urbano cuyo nombre recuerda al antiguo Gemsenberg",
+          "text": "Kamzík es una montaña destacada del sector meridional de los Pequeños Cárpatos, con unos 439 metros de altitud, y uno de los paisajes recreativos más importantes de Bratislava. Su nombre procede de la traducción de la antigua denominación alemana Gemsenberg, «monte de los rebecos». El plan municipal de deporte y recreación delimita en Kamzík una zona recreativa de 342.348 m² y le atribuye importancia para toda la ciudad. Prevé praderas para descansar, senderos educativos y de excursionismo, ciclismo y actividades invernales; el área se encuentra dentro del Paisaje Protegido de los Pequeños Cárpatos. Kamzík no es, por tanto, solo un mirador, sino parte de un amplio entorno forestal que permite a los habitantes de la capital pasar rápidamente de la ciudad construida a la naturaleza carpática."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Kamzík – colline et paysage forestier de loisirs dans les Petites Carpates",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – la forêt urbaine dont le nom rappelle l’ancien Gemsenberg",
+          "text": "Kamzík est une colline marquante du sud des Petites Carpates, culminant à environ 439 mètres, et l’un des principaux espaces de loisirs de Bratislava. Son nom est la traduction de l’ancienne appellation allemande Gemsenberg, « montagne des chamois ». Le plan municipal des sports et des loisirs délimite à Kamzík un espace récréatif de 342 348 m² auquel il attribue une importance à l’échelle de toute la ville. Il prévoit des prairies de détente, des sentiers pédagogiques et de randonnée, des itinéraires cyclables ainsi que des activités hivernales ; le secteur se trouve dans la zone de paysage protégé des Petites Carpates. Kamzík n’est donc pas seulement un point de vue, mais une vaste lisière forestière qui permet aux habitants de la capitale de passer rapidement de la ville bâtie à la nature des Carpates."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Kamzík – collina e paesaggio forestale ricreativo nei Piccoli Carpazi",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – il bosco urbano il cui nome ricorda l’antico Gemsenberg",
+          "text": "Kamzík è una collina prominente nella parte meridionale dei Piccoli Carpazi, alta circa 439 metri, ed è uno dei paesaggi ricreativi più importanti di Bratislava. Il suo nome deriva dalla traduzione dell’antica denominazione tedesca Gemsenberg, cioè «monte dei camosci». Il piano comunale per lo sport e il tempo libero individua a Kamzík un’area ricreativa di 342.348 m² e le attribuisce importanza per l’intera città. Il piano prevede prati per la sosta, sentieri didattici ed escursionistici, percorsi ciclabili e attività invernali; l’area si trova nella zona paesaggistica protetta dei Piccoli Carpazi. Kamzík non è quindi soltanto un punto panoramico, ma parte di un vasto ambiente forestale che consente agli abitanti della capitale di passare rapidamente dalla città costruita alla natura dei Carpazi."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Kamzík – heuvel en bosrijk recreatiegebied in de Kleine Karpaten",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kamzík – het stadsbos waarvan de naam herinnert aan het oude Gemsenberg",
+          "text": "Kamzík is een markante heuvel in het zuidelijke deel van de Kleine Karpaten, ongeveer 439 meter hoog, en een van de belangrijkste recreatiegebieden van Bratislava. De naam is een vertaling van de oudere Duitse benaming Gemsenberg, oftewel ‘berg van de gemzen’. Het gemeentelijke sport- en recreatieplan wijst bij Kamzík een recreatiegebied van 342.348 m² aan en kent het stadsbrede betekenis toe. Het plan voorziet in open weides, educatieve en wandelroutes, fietsroutes en winterrecreatie; het gebied ligt in het beschermde landschapsgebied Kleine Karpaten. Kamzík is daarmee meer dan alleen een uitzichtpunt: het maakt deel uit van een uitgestrekt bosgebied waar inwoners van de hoofdstad snel de bebouwde stad kunnen verruilen voor de natuur van de Karpaten."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
