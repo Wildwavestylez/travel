@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Otevřeno:** úplná individuální sémantická kontrola všech 1 566 cizojazyčných textů nebyla v tomto běhu uzavřena. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává součástí REVIEW REQUIRED.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 22/261 faktů, tedy 132/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201 a 7 v 74213. Zjištěné významové nedostatky byly opraveny a načteny zpět. Zbývá 239 faktů / 1 434 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -184,14 +184,21 @@ Primární podklady první dávky:
 9. 74254, 74258, 74267: synchronizován translations.cs s českým masterem; read-back PASS.
 10. 74101: odstraněn duplicitní hrad Starý Jičín z masteru a všech jazyků; read-back PASS.
 11. 74101, 74201, 74213, 74281, 74282: sjednocen zápis kraje; read-back PASS.
+12. Sémantická kontrola překladů — 74101 (7 faktů): texty a názvy de/en/es/fr/it/nl individuálně zkontrolovány; bez nutnosti oprav.
+13. 74201/fact_001: opraveno všech šest cizojazyčných názvů, které chybně přidávaly „muzeum“; nyní odpovídají příběhu Moravských bratří.
+14. 74201/fact_002, fact_003, fact_005 a fact_007: doplněny ve všech šesti jazycích vynechané významové části (předchozí exil do Herrnhutu, památkový význam kostela a fary, historický význam budovy muzea a tradiční krajinná mozaika Poodří).
+15. 74201/fact_006: opravena nizozemská chyba „ertsw inning“ → „ertswinning“; read-back PASS.
+16. 74213/fact_001: francouzská a italská verze doplněny o městský nákup zámku s parkem v roce 1936 a jeho současnou kulturní funkci.
+17. 74213/fact_004: nepřesný překlad české „tvrze“ jako velké pevnosti opraven ve všech šesti jazycích na význam odpovídající opevněnému panskému sídlu.
+18. 74213/fact_006: opraveny botanicky chybné německé a nizozemské názvy druhu Nymphoides peltata („Schild-Wasserhahnenfuß“ / „schildbladige waterranonkel“) na správné „Seekanne“ / „watergentiaan“; read-back PASS.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 22/261 faktů hotovo (132/1 566 textů), zbývá 239 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: dokončit individuální sémantickou kontrolu cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74221/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
