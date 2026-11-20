@@ -1,4 +1,241 @@
 {
   "postcode": "01007",
-  "status": "placeholder"
+  "city": "Žilina",
+  "district": "Solinky",
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Solinky – centrální část sídliště",
+  "representative_point": {
+    "lat": 49.19744,
+    "lon": 18.74067
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kostel Dobrého pastýře v Solinkách – základní kámen požehnal Jan Pavel II.",
+      "text": "Kostel Dobrého pastýře stojí uprostřed žilinského sídliště Solinky na ulici Smreková. Základní kámen požehnal papež Jan Pavel II. při své první návštěvě Slovenska v Bratislavě dne 22. dubna 1990. Samotná stavba začala na jaře 1998 a chrám slavnostně vysvětil 8. května 1999 nitranský biskup Ján Chryzostom Korec. Farnost Žilina-Solinky vznikla už v červenci 1997; v hlavním oltáři jsou uloženy relikvie svatých Andreje-Svorada a Beňadika. Kostel se tak stal duchovním středem nové obytné čtvrti, která se rozvíjela na konci 20. století.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.dcza.sk/sk/ostatne/kostoly/dekanat-zilina",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/zilina-solinky-farnost-dobreho-pastiera",
+        "https://zilina.oma.sk/u/smrekova/39"
+      ],
+      "location": {
+        "name": "Kostel Dobrého pastýře – farní kostel na ulici Smreková",
+        "address": "Smreková 8097/39, Žilina, Slovensko",
+        "lat": 49.19904324782703,
+        "lon": 18.73799136817307,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://zilina.oma.sk/u/smrekova/39"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Solinky – sídliště s názvem z latinské Solny a ulicemi podle stromů",
+      "text": "Solinky vznikly jako nové žilinské sídliště na přelomu 70. a 80. let 20. století. Podle historického přehledu městské společnosti Bytterm navrhl profesor Košecký název Solinky podle latinského označení Žiliny „Solna“ a latinské básně o městě, kterou přeložil do slovenštiny. Původně plánované obytné celky Hliny IX a X byly v roce 1975 sjednoceny pod novým názvem. První domy se začaly stavět v červenci 1981, sídliště bylo postupně dokončováno do roku 1988 a vzniklo zde 4 310 bytů. V roce 1983 dostaly místní ulice jména podle stromů – Borová, Dubová, Gaštanová, Jaseňová, Javorová, Limbová, Osiková, Platanová a Smreková. Sídliště navíc vzniklo na území dvou katastrů, Žiliny a Bytčice, což vysvětluje rozdíl mezi městskou částí Solinky a katastrálním označením části adresních bodů.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.bytterm.sk/data/casopis/1429524948.pdf",
+        "https://zilina.sk/mesto-zilina/sprava-mesta/mestske-casti/",
+        "https://www.zilina.sk/wp-content/uploads/2021/04/10.-zasadnutie-Mestskeho-zastupitelstva-v-Ziline-bod-c.-12-1.pdf",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv"
+      ],
+      "location": {
+        "name": "Solinky – centrální část sídliště (reprezentativní bod PSČ 010 07)",
+        "address": null,
+        "lat": 49.19744,
+        "lon": 18.74067,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv"
+      },
+      "map_category": "architecture"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom (Pošta Žilina 7, Prielohy 1012/1C, 010 07)",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – dataset documentation (RAGEO-derived address data, CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_codes.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – postal_code_areas.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – municipality_parts.csv",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/municipality_parts.csv",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Žilina – mestské časti a zaradenie ulíc",
+      "url": "https://zilina.sk/mesto-zilina/sprava-mesta/mestske-casti/",
+      "type": "official"
+    },
+    {
+      "title": "Bytterm – Solinky: báseň o meste a ulice podľa stromov (2014)",
+      "url": "https://www.bytterm.sk/data/casopis/1429524948.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Žilina – materiál mestského zastupiteľstva o sídlisku Solinky",
+      "url": "https://www.zilina.sk/wp-content/uploads/2021/04/10.-zasadnutie-Mestskeho-zastupitelstva-v-Ziline-bod-c.-12-1.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Žilinská diecéza – Kostol Dobrého pastiera, Solinky a história farnosti",
+      "url": "https://www.dcza.sk/sk/ostatne/kostoly/dekanat-zilina",
+      "type": "official"
+    },
+    {
+      "title": "Žilinská diecéza – Farnosť Dobrého pastiera, Žilina-Solinky",
+      "url": "https://www.dcza.sk/sk/schematizmus/farnosti/zilina-solinky-farnost-dobreho-pastiera",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Smreková 39, Žilina, PSČ 010 07, súradnice adresného bodu",
+      "url": "https://zilina.oma.sk/u/smrekova/39",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "translations": {
+    "cs": {
+      "representative_place": "Solinky – centrální část sídliště",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostel Dobrého pastýře v Solinkách – základní kámen požehnal Jan Pavel II.",
+          "text": "Kostel Dobrého pastýře stojí uprostřed žilinského sídliště Solinky na ulici Smreková. Základní kámen požehnal papež Jan Pavel II. při své první návštěvě Slovenska v Bratislavě dne 22. dubna 1990. Samotná stavba začala na jaře 1998 a chrám slavnostně vysvětil 8. května 1999 nitranský biskup Ján Chryzostom Korec. Farnost Žilina-Solinky vznikla už v červenci 1997; v hlavním oltáři jsou uloženy relikvie svatých Andreje-Svorada a Beňadika. Kostel se tak stal duchovním středem nové obytné čtvrti, která se rozvíjela na konci 20. století."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – sídliště s názvem z latinské Solny a ulicemi podle stromů",
+          "text": "Solinky vznikly jako nové žilinské sídliště na přelomu 70. a 80. let 20. století. Podle historického přehledu městské společnosti Bytterm navrhl profesor Košecký název Solinky podle latinského označení Žiliny „Solna“ a latinské básně o městě, kterou přeložil do slovenštiny. Původně plánované obytné celky Hliny IX a X byly v roce 1975 sjednoceny pod novým názvem. První domy se začaly stavět v červenci 1981, sídliště bylo postupně dokončováno do roku 1988 a vzniklo zde 4 310 bytů. V roce 1983 dostaly místní ulice jména podle stromů – Borová, Dubová, Gaštanová, Jaseňová, Javorová, Limbová, Osiková, Platanová a Smreková. Sídliště navíc vzniklo na území dvou katastrů, Žiliny a Bytčice, což vysvětluje rozdíl mezi městskou částí Solinky a katastrálním označením části adresních bodů."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Solinky – zentraler Bereich der Wohnsiedlung",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Kirche des Guten Hirten in Solinky – Grundsteinsegnung durch Johannes Paul II.",
+          "text": "Die Kirche des Guten Hirten steht im Zentrum der Žilinaer Wohnsiedlung Solinky in der Smreková-Straße. Papst Johannes Paul II. segnete ihren Grundstein am 22. April 1990 während seines ersten Besuchs in der Slowakei in Bratislava. Der Bau begann im Frühjahr 1998; am 8. Mai 1999 weihte Bischof Ján Chryzostom Korec die Kirche. Die Pfarrei Žilina-Solinky war bereits im Juli 1997 gegründet worden. Im Hauptaltar befinden sich Reliquien der Heiligen Andrej-Svorad und Beňadik. Die Kirche wurde so zum geistlichen Zentrum des neuen Wohnviertels."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – eine Wohnsiedlung mit einem Namen aus dem lateinischen Solna und Baumstraßen",
+          "text": "Solinky entstand als neues Wohnviertel von Žilina an der Wende von den 1970er zu den 1980er Jahren. Laut einem historischen Beitrag der städtischen Gesellschaft Bytterm schlug Professor Košecký den Namen Solinky nach der lateinischen Bezeichnung Žilinas, „Solna“, und einem lateinischen Gedicht über die Stadt vor, das er ins Slowakische übersetzt hatte. Die ursprünglich geplanten Wohngebiete Hliny IX und X wurden 1975 unter einem gemeinsamen Namen zusammengeführt. Die ersten Häuser entstanden ab Juli 1981; die Bebauung wurde bis 1988 schrittweise abgeschlossen und umfasst 4.310 Wohnungen. 1983 erhielten die Straßen Namen von Bäumen, darunter Borová, Dubová, Gaštanová, Jaseňová, Javorová, Limbová, Osiková, Platanová und Smreková. Die Siedlung entstand zudem auf den Katastralgebieten Žilina und Bytčica."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Solinky – central part of the housing estate",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The Good Shepherd Church in Solinky – its cornerstone was blessed by John Paul II",
+          "text": "The Good Shepherd Church stands at the centre of Žilina’s Solinky housing estate, on Smreková Street. Pope John Paul II blessed its foundation stone in Bratislava on 22 April 1990 during his first visit to Slovakia. Construction began in spring 1998, and Bishop Ján Chryzostom Korec consecrated the church on 8 May 1999. The Žilina-Solinky parish had been established in July 1997. The main altar holds relics of Saints Andrej-Svorad and Beňadik. The church became the spiritual centre of a new residential district developed in the late 20th century."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – a housing estate named after Latin Solna, with streets named after trees",
+          "text": "Solinky developed as a new Žilina housing estate at the turn of the 1970s and 1980s. According to a local-history article by the city-owned company Bytterm, Professor Košecký proposed the name Solinky after the Latin name for Žilina, “Solna”, and a Latin poem about the city that he translated into Slovak. The originally planned residential areas Hliny IX and X were merged under one name in 1975. Construction of the first blocks began in July 1981; the estate was completed in stages through 1988 and contains 4,310 flats. In 1983 its streets were named after trees, including pine, oak, chestnut, ash, maple, limba, aspen, plane and spruce. The estate also spans the cadastral territories of Žilina and Bytčica."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Solinky – zona central del conjunto residencial",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La iglesia del Buen Pastor de Solinky: Juan Pablo II bendijo su primera piedra",
+          "text": "La iglesia del Buen Pastor se encuentra en el centro del conjunto residencial Solinky, en Žilina, en la calle Smreková. El papa Juan Pablo II bendijo su primera piedra en Bratislava el 22 de abril de 1990, durante su primera visita a Eslovaquia. Las obras comenzaron en la primavera de 1998 y el obispo Ján Chryzostom Korec consagró el templo el 8 de mayo de 1999. La parroquia de Žilina-Solinky se había creado en julio de 1997. El altar mayor conserva reliquias de los santos Andrej-Svorad y Beňadik. La iglesia se convirtió así en el centro espiritual de un nuevo barrio residencial."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky: un barrio con nombre de la Solna latina y calles con nombres de árboles",
+          "text": "Solinky surgió como nuevo conjunto residencial de Žilina entre finales de los años setenta y comienzos de los ochenta. Según un artículo histórico de la empresa municipal Bytterm, el profesor Košecký propuso el nombre Solinky a partir del nombre latino de Žilina, «Solna», y de un poema latino sobre la ciudad que tradujo al eslovaco. Las zonas residenciales previstas inicialmente como Hliny IX y X se unificaron bajo un solo nombre en 1975. Las primeras viviendas comenzaron a construirse en julio de 1981; el conjunto se completó por etapas hasta 1988 y cuenta con 4.310 pisos. En 1983 sus calles recibieron nombres de árboles: pinos, robles, castaños, fresnos, arces, limbas, álamos temblones, plátanos y abetos. El barrio se extiende además sobre los términos catastrales de Žilina y Bytčica."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Solinky – secteur central de la cité résidentielle",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’église du Bon Pasteur de Solinky – sa première pierre bénie par Jean-Paul II",
+          "text": "L’église du Bon Pasteur se trouve au centre de la cité résidentielle Solinky, à Žilina, rue Smreková. Le pape Jean-Paul II bénit sa première pierre à Bratislava le 22 avril 1990, lors de sa première visite en Slovaquie. Les travaux commencèrent au printemps 1998 et l’évêque Ján Chryzostom Korec consacra l’église le 8 mai 1999. La paroisse de Žilina-Solinky avait été créée en juillet 1997. Le maître-autel conserve des reliques des saints Andrej-Svorad et Beňadik. L’église est ainsi devenue le centre spirituel de ce nouveau quartier résidentiel."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – une cité nommée d’après la Solna latine, aux rues portant des noms d’arbres",
+          "text": "Solinky s’est développé comme nouveau quartier résidentiel de Žilina à la charnière des années 1970 et 1980. Selon un article historique de la société municipale Bytterm, le professeur Košecký a proposé le nom Solinky d’après le nom latin de Žilina, « Solna », et un poème latin sur la ville qu’il avait traduit en slovaque. Les zones résidentielles initialement prévues sous les noms Hliny IX et X ont été réunies sous un seul nom en 1975. La construction des premiers immeubles a commencé en juillet 1981 ; le quartier a été achevé par étapes jusqu’en 1988 et compte 4 310 appartements. En 1983, les rues ont reçu des noms d’arbres, notamment pin, chêne, châtaignier, frêne, érable, limba, tremble, platane et épicéa. Le quartier s’étend également sur les territoires cadastraux de Žilina et de Bytčica."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Solinky – zona centrale del quartiere residenziale",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La chiesa del Buon Pastore a Solinky – la prima pietra fu benedetta da Giovanni Paolo II",
+          "text": "La chiesa del Buon Pastore si trova al centro del quartiere residenziale Solinky, a Žilina, in via Smreková. Papa Giovanni Paolo II benedisse la prima pietra a Bratislava il 22 aprile 1990, durante la sua prima visita in Slovacchia. I lavori iniziarono nella primavera del 1998 e il vescovo Ján Chryzostom Korec consacrò la chiesa l’8 maggio 1999. La parrocchia di Žilina-Solinky era stata istituita nel luglio 1997. Nell’altare maggiore sono conservate reliquie dei santi Andrej-Svorad e Beňadik. La chiesa divenne così il centro spirituale del nuovo quartiere residenziale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – un quartiere dal nome della Solna latina e con strade intitolate agli alberi",
+          "text": "Solinky nacque come nuovo quartiere residenziale di Žilina tra la fine degli anni Settanta e l’inizio degli Ottanta. Secondo un articolo storico della società municipale Bytterm, il professor Košecký propose il nome Solinky ispirandosi al nome latino di Žilina, «Solna», e a una poesia latina sulla città da lui tradotta in slovacco. Le aree residenziali inizialmente previste come Hliny IX e X furono riunite sotto un unico nome nel 1975. La costruzione dei primi edifici iniziò nel luglio 1981; il quartiere fu completato per fasi entro il 1988 e conta 4.310 appartamenti. Nel 1983 le strade furono intitolate ad alberi: pino, quercia, castagno, frassino, acero, limba, pioppo tremulo, platano e abete. Il quartiere si estende inoltre sui territori catastali di Žilina e Bytčica."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Solinky – centraal deel van de woonwijk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Goede-Herderkerk in Solinky – de eerste steen werd gezegend door Johannes Paulus II",
+          "text": "De Goede-Herderkerk staat in het centrum van de woonwijk Solinky in Žilina, aan de Smreková-straat. Paus Johannes Paulus II zegende de eerste steen in Bratislava op 22 april 1990 tijdens zijn eerste bezoek aan Slowakije. De bouw begon in het voorjaar van 1998 en bisschop Ján Chryzostom Korec wijdde de kerk op 8 mei 1999 in. De parochie Žilina-Solinky was al in juli 1997 opgericht. In het hoofdaltaar worden relieken van de heiligen Andrej-Svorad en Beňadik bewaard. De kerk werd zo het geestelijke middelpunt van een nieuwe woonwijk."
+        },
+        {
+          "id": "fact_002",
+          "title": "Solinky – een woonwijk genoemd naar het Latijnse Solna, met straten naar bomen",
+          "text": "Solinky ontstond als nieuwe woonwijk van Žilina rond de overgang van de jaren zeventig naar de jaren tachtig. Volgens een historisch artikel van het gemeentelijke bedrijf Bytterm stelde professor Košecký de naam Solinky voor, naar de Latijnse naam van Žilina, ‘Solna’, en een Latijns gedicht over de stad dat hij in het Slowaaks vertaalde. De oorspronkelijk geplande woongebieden Hliny IX en X werden in 1975 onder één naam samengevoegd. De bouw van de eerste flats begon in juli 1981; de wijk werd gefaseerd voltooid tot 1988 en telt 4.310 woningen. In 1983 kregen de straten namen van bomen, waaronder den, eik, kastanje, es, esdoorn, limba, ratelpopulier, plataan en spar. De woonwijk ligt bovendien op de kadastrale gebieden Žilina en Bytčica."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "plz_source": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom; Pošta Žilina 7 je uvedena na adrese Prielohy 1012/1C, Žilina, PSČ 010 07. Městský seznam ulic zařazuje Prielohy a ulici Smreková do městské části Solinky.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom; Slovak postal codes – postal_codes.csv, postal_code_areas.csv a municipality_parts.csv (adresní body odvozené z Registru adres SR); oficiální seznam ulic a městských částí města Žilina",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí Poštu Žilina 7 na adrese Prielohy 1012/1C, PSČ 010 07. Ulice Prielohy i adresa farního kostela na Smrekové 8097/39 jsou v oficiálním městském členění zařazeny do městské části Solinky, proto district = Solinky. Souhrnný dataset eviduje 404 adresních bodů v obci Žilina; municipality_parts.csv uvádí 116 bodů v katastrálním území Bytčica. Nejde o rozpor v městské části: historický přehled Bytterm výslovně uvádí, že sídliště Solinky vzniklo na území dvou katastrálních území – Žiliny a Bytčice. Katastrální označení části adresních bodů proto nelze zaměňovat s městskou částí Solinky.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta je autoritou pro PSČ a doručovací poštu. Adresní body a souhrnné údaje pocházejí z veřejného CC0 datasetu odvozeného z Registru adres SR. Pro 01007 uvádí postal_code_areas.csv 404 adresních bodů v obci Žilina; municipality_parts.csv přiřazuje 116 bodů ke katastrálnímu území Bytčica. Oficiální městský seznam ulic zařazuje Prielohy a Smrekovou do městské části Solinky. Historický zdroj Bytterm potvrzuje, že sídliště Solinky se rozkládá na katastrálních územích Žiliny a Bytčice. Rozdíl je tedy mezi městskou částí a katastrálním územím, nikoli mezi dvěma protichůdnými hranicemi PSČ."
+  },
+  "status": "validated"
 }
