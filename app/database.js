@@ -8,9 +8,15 @@ const COUNTRY_CONFIG={
   SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'},
   IT:{name:'Itálie',from:'00010',backend:'neon',table:'public.italy_cap_records'}
 };
-const ITALY_API_URL='https://br-wispy-glade-bgorspmq-traveldatabase.compute.c-9.eu-central-1.aws.neon.tech';
-function getItalyToken(){let token=sessionStorage.getItem('travel_italy_api_token');if(!token){token=prompt('Přístupový klíč pro interní italskou databázi:');if(token)sessionStorage.setItem('travel_italy_api_token',token.trim());}return (token||'').trim();}
-async function italyApi(path){const token=getItalyToken();if(!token)throw Error('Pro přístup k italské databázi je potřeba zadat přístupový klíč.');const r=await fetch(ITALY_API_URL+path,{headers:{Accept:'application/json',Authorization:'Bearer '+token}});if(r.status===401){sessionStorage.removeItem('travel_italy_api_token');throw Error('Přístupový klíč není platný. Obnov stránku a zadej ho znovu.');}if(!r.ok){let m='HTTP '+r.status;try{const e=await r.json();m+=' — '+(e.error||'')}catch{}throw Error(m);}return r.json();}
+// Přímé čtení z Neonu. Účet travel_reader má pouze SELECT oprávnění.
+const ITALY_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
+let italySqlPromise=null;
+async function getItalySql(){
+  if(!italySqlPromise)italySqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
+    .then(({neon})=>neon(ITALY_DATABASE_URL,{disableWarningInBrowsers:true}))
+    .catch(error=>{italySqlPromise=null;throw error;});
+  return italySqlPromise;
+}
 const statusLabel={inventory:'Inventář · bez JSON',researching:'Rozpracováno',review:'Ke kontrole',published:'Publikováno'};
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
 let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
@@ -101,12 +107,19 @@ function listQuery(){
   return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
 async function loadItalyList(requestId){
-  $('#list').innerHTML='<div class="loading">Načítám italské CAP z Neonu…</div>';
+  $('#list').innerHTML='<div class="loading">Načítám italské CAP přímo z Neonu…</div>';
   try{
-    const params=new URLSearchParams({limit:String(PAGE_SIZE),offset:String(offset),q:$('#search').value.trim(),status:$('#statusFilter')?.value||'all'});
-    const data=await italyApi('/api/italy/caps?'+params.toString());
+    const sql=await getItalySql();
+    const q=$('#search').value.trim();
+    const status=$('#statusFilter')?.value||'all';
+    const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3) AND ($4 = 'all' OR workflow_status = $4)";
+    const [countRows,pageRows]=await Promise.all([
+      sql.query('SELECT count(*)::int AS total FROM public.italy_cap_records '+where,[q,q+'%','%'+q+'%',status]),
+      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $5 OFFSET $6",[q,q+'%','%'+q+'%',status,PAGE_SIZE,offset])
+    ]);
     if(requestId!==listRequestId||country!=='IT')return;
-    total=data.total;rows=(data.rows||[]).map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,has_record:x.has_record}));
+    total=countRows[0]?.total??0;
+    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,has_record:x.has_record}));
     renderList();
     const current=selectedPostcode();
     if(!current||!rows.some(x=>x.postal_code===current)){if(rows[0])select(rows[0].postal_code,false);else renderDetail(null);}
@@ -149,9 +162,12 @@ async function select(pc,scroll=true){
   renderDetail({loading:true});
   try{
     if(COUNTRY_CONFIG[country]?.backend==='neon'){
-      const item=await italyApi('/api/italy/caps/'+encodeURIComponent(pc));
+      const sql=await getItalySql();
+      const found=await sql.query('SELECT postcode, workflow_status, record, created_at, updated_at FROM public.italy_cap_records WHERE postcode = $1 LIMIT 1',[pc]);
       if(requestId!==selectionRequestId||requestedCountry!==country)return;
-      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,record:null,updated_at:item.updated_at};
+      if(!found.length)throw Error('CAP '+pc+' nebylo v Neonu nalezeno.');
+      const item=found[0];
+      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,record:null,created_at:item.created_at,updated_at:item.updated_at};
       renderDetail(selected);if(scroll)window.scrollTo({top:0,behavior:'smooth'});return;
     }
     if(COUNTRY_CONFIG[country]?.backend==='github'){
@@ -237,7 +253,7 @@ loadList();
 
 function updateCountryUI(){
   const x=COUNTRY_CONFIG[country];
-  const source=x.backend==='github'?'data přímo z GitHubu · '+x.sequencePath:'data přímo ze Supabase';
+  const source=x.backend==='github'?'data přímo z GitHubu · '+x.sequencePath:x.backend==='neon'?'data přímo z Neonu · '+x.table:'data přímo ze Supabase';
   $('#subtitle').textContent='Čtečka '+x.name+' · '+x.from+' → dál · '+source;
   $('#search').placeholder='Hledat PSČ nebo město…';
   const filter=$('#statusFilter');if(filter){filter.hidden=country!=='IT';if(country!=='IT')filter.value='all';}
