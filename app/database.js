@@ -17,7 +17,7 @@ async function getItalySql(){
     .catch(error=>{italySqlPromise=null;throw error;});
   return italySqlPromise;
 }
-const statusLabel={inventory:'Inventář · bez JSON',researching:'Rozpracováno',review:'Ke kontrole',published:'Publikováno'};
+const statusLabel={inventory:'Inventář',researching:'Rozpracováno',review:'Ke kontrole',published:'Publikováno'};
 let offset=0, total=null, rows=[], selected=null, language='cs', searchTimer=null, country='DE';
 let slovakiaSequencePromise=null, slovakiaIndexPromise=null;
 let listRequestId=0, selectionRequestId=0;
@@ -115,11 +115,11 @@ async function loadItalyList(requestId){
     const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3) AND ($4 = 'all' OR workflow_status = $4)";
     const [countRows,pageRows]=await Promise.all([
       sql.query('SELECT count(*)::int AS total FROM public.italy_cap_records '+where,[q,q+'%','%'+q+'%',status]),
-      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $5 OFFSET $6",[q,q+'%','%'+q+'%',status,PAGE_SIZE,offset])
+      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $5 OFFSET $6",[q,q+'%','%'+q+'%',status,PAGE_SIZE,offset])
     ]);
     if(requestId!==listRequestId||country!=='IT')return;
     total=countRows[0]?.total??0;
-    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,has_record:x.has_record}));
+    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,record_status:x.record_status||'',has_record:x.has_record}));
     renderList();
     const current=selectedPostcode();
     if(!current||!rows.some(x=>x.postal_code===current)){if(rows[0])select(rows[0].postal_code,false);else renderDetail(null);}
@@ -148,7 +148,7 @@ function renderList(){
   $('#list').innerHTML=rows.length?rows.map(r=>{
     const cached=country==='SK'?slovakiaRecordCache.get(r.postal_code):null;
     const status=r.status||cached?.status;
-    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):country==='IT'?(statusLabel[status]||'—'):'—');
+    const label=r.city||(country==='SK'?(status==='placeholder'?'Čeká na rework':status==='validated'?'Čeká na audit':status==='published'?'Publikováno':'—'):country==='IT'?(r.has_record?(r.record_status==='placeholder'?'Placeholder':(statusLabel[status]||r.record_status||'JSON načten')):'Bez JSON'):'—');
     return '<div class="row '+(r.postal_code===selectedPostcode()?'active':'')+'" data-pc="'+esc(r.postal_code)+'"><div class="pc">'+esc(r.postal_code)+'</div><div class="city">'+esc(label)+'</div></div>';
   }).join(''):'<div class="empty">Nic nenalezeno.</div>';
   document.querySelectorAll('.row').forEach(x=>x.onclick=()=>select(x.dataset.pc,true));
@@ -167,7 +167,7 @@ async function select(pc,scroll=true){
       if(requestId!==selectionRequestId||requestedCountry!==country)return;
       if(!found.length)throw Error('CAP '+pc+' nebylo v Neonu nalezeno.');
       const item=found[0];
-      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:item.workflow_status,record:null,created_at:item.created_at,updated_at:item.updated_at};
+      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record_status:item.record.status||null,record:item.record,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:null,record:null,created_at:item.created_at,updated_at:item.updated_at};
       renderDetail(selected);if(scroll)window.scrollTo({top:0,behavior:'smooth'});return;
     }
     if(COUNTRY_CONFIG[country]?.backend==='github'){
@@ -200,8 +200,15 @@ function renderDetail(data){
   if(!data){el.innerHTML='<div class="empty">Vyber PSČ vlevo.</div>';return}
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
+  if(country==='IT'&&data.record?.status==='placeholder'){
+    const status=data.workflow_status||'inventory';
+    el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Itálie · CAP inventář</div><div class="meta"><span class="badge">placeholder</span> <span class="badge">'+esc(statusLabel[status]||status)+'</span><br>Zdroj: Neon · italy_cap_records · JSON načten z databáze</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div><div class="section-title">Stav záznamu</div><div class="empty">Tento CAP má v Neonu uložený JSON placeholder. Při následném reworku se jeho obsah rozšíří o město, okres, fakta, zdroje, souřadnice a jazykové verze.</div><details class="raw"><summary>Zobrazit celý JSON z Neonu</summary><pre class="json">'+esc(JSON.stringify(data.record,null,2))+'</pre></details>';
+    $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data.record,null,2));
+    $('#rawBtn').onclick=()=>document.querySelector('.raw summary').click();
+    return;
+  }
   if(country==='IT'&&!data.record){
-    const status=data.workflow_status||data.status||'inventory';
+    const status=data.workflow_status||'inventory';
     el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Itálie · CAP inventář</div><div class="meta"><span class="badge">'+esc(statusLabel[status]||status)+'</span><br>Zdroj: Neon · italy_cap_records · JSON zatím není vložen</div></div></div><div class="section-title">Pracovní stav</div><div class="empty">Tento CAP je v inventáři, ale zatím nemá kompletní JSON záznam. Po reworku se zde zobrazí celý obsah včetně faktů, zdrojů, souřadnic a sedmi jazykových verzí.</div><details class="raw"><summary>Zobrazit surový stav záznamu</summary><pre class="json">'+esc(JSON.stringify({postcode:data.postcode,workflow_status:status,record:null,updated_at:data.updated_at},null,2))+'</pre></details>';
     return;
   }
