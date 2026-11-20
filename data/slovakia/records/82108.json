@@ -1,4 +1,535 @@
 {
   "postcode": "82108",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Staré Mesto",
+  "county": "Bratislava I",
+  "state": "Bratislavský kraj",
+  "representative_place": "Nivy – oblast Miletičovy a Záhradnické ulice",
+  "representative_point": {
+    "lat": 48.15394,
+    "lon": 17.13315
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Uhorská cvernová továrna – Cvernovka na Páričkově",
+      "text": "V areálu někdejší Uhorská cvernová továreň na Páričkově 18 stojí hlavní přádelenská budova z let 1904–1905. Továrna začala vyrábět na počátku 20. století a postupně se rozrůstala o barvírnu, úpravnu, strojovnu a dílny. Zásadní je přesné vymezení ochrany: národní kulturní památkou vyhlášenou v roce 2008 je hlavní výrobní objekt – přádelna, nikoli automaticky celý historický areál. Cvernovka patřila k průmyslovým provozům, které proměnily Nivy v dělnickou čtvrť.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://zastupitelstvo.bratislava.sk/data/att/33652.pdf",
+        "https://www.ruzinov.sk/data/MediaLibrary/0/2088/phsr-na-roky-2014-2020.pdf",
+        "https://bratislava.oma.sk/u/parickova/18"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Hlavní přádelna Cvernovky",
+        "address": "Páričkova 18, Bratislava, Slovensko",
+        "lat": 48.1487789,
+        "lon": 17.1321438,
+        "type": "factory",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/parickova/18"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Městská jatka na Miletičově – průmyslový areál a park svatého Ondřeje",
+      "text": "Na Miletičově ulici se maso zpracovávalo už od roku 1884; nový městský bitúnok, tedy jatka, zde vznikl v roce 1924. Areál tvořily funkčně rozdělené haly, chladírna, prostory pro nemocná zvířata i kafilerie. Dominantami byly věž a komín, které připomínají průmyslovou technologii areálu. V 70. letech se do prostoru přestěhovala tržnice. Místní památková evidence zahrnuje bývalé jatky i přilehlý park, kde stojí barokní votivní socha sv. Ondřeje.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.ruzinov.sk/data/MediaLibrary/2/27211/phsr-ruzinov-2021-2027-finalapr.pdf",
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://mib.sk/projekt/trhovisko-mileticova/",
+        "https://www.muop.eu/e-drobne-sakralne-objekty-sochy-svatcov",
+        "https://bratislava.oma.sk/u/mileticova/17",
+        "https://poi.oma.sk/n3579109052"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Areál bývalých městských jatek – tržnice Miletičova",
+        "address": "Miletičova 17, Bratislava, Slovensko",
+        "lat": 48.1530672,
+        "lon": 17.1381544,
+        "type": "historic_industrial_site",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/mileticova/17"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Salesiánský dům Dona Bosca a kostel Panny Marie Pomocnice křesťanů",
+      "text": "Salesiánský dům Dona Bosca na Miletičově 7 vznikl jako vzdělávací a výchovné centrum pro chudou a opuštěnou mládež; komplex byl otevřen v září 1933. V noci z 13. na 14. dubna 1950 komunistický režim násilně obsadil řeholní domy a salesiánský ústav převzal stát. Salesiáni se do areálu vrátili po pádu režimu. Nový kostel Panny Marie Pomocnice křesťanů vznikl v komplexu roku 1990 podle návrhu manželů Weberových. Městská část chrání soubor jako pamětihodnost a příklad sakrální architektury 30. let.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://www.saleziani.sk/images/doc/Sv.%20Jn%20Bosco%20na%20Slovensku.pdf",
+        "https://bratislava.oma.sk/u/mileticova/7"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Salesiánský ústav a kostel Panny Marie Pomocnice křesťanů",
+        "address": "Miletičova 7, Bratislava, Slovensko",
+        "lat": 48.1556552,
+        "lon": 17.1342772,
+        "type": "architectural_ensemble",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/mileticova/7"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Ludwigův mlýn – parní provoz a první trvalé elektrické osvětlení Bratislavy",
+      "text": "Gottfried Ludwig založil na dnešní Metodově ulici parní mlýn v letech 1880–1882; patřil k největším průmyslovým provozům tehdejší Bratislavy. Dne 2. února 1884 se zde poprvé v Bratislavě trvale svítilo elektrickými žárovkami napájenými z vlastního zdroje. Vedle mlýna Ludwig choval prasata a otruby z výroby sloužily jako krmivo; zvířata pak mířila do městských jatek na Miletičově. Z celého areálu se dochovalo především obilné silo z mladší meziválečné etapy, evidované jako pamětihodnost.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://zastupitelstvo.bratislava.sk/data/att/51606.pdf",
+        "https://bratislavaregion.travel/poi/6765/ludwigov-mlyn",
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://bratislava.oma.sk/u/metodova/1A"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Dochované obilné silo Ludwigova mlýna",
+        "address": "Metodova 1A, Bratislava, Slovensko",
+        "lat": 48.1561394,
+        "lon": 17.1265979,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/metodova/1A"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "500 bytů a Kino Nivy – poválečná čtvrť s vlastním kulturním centrem",
+      "text": "Obytný soubor 500 bytů začal na Nivách vyrůstat kolem roku 1949 a v roce 1950 jej místní historie označuje za první velké sídliště Ružinova. Nízké cihlové domy s menšími byty vytvořily samostatnou obytnou kolonii, odlišnou od pozdějších panelových sídlišť. Její společenský dům na Súťažné 18 hostil Kino Nivy, které zahájilo provoz 3. dubna 1965 švédským filmem Krátké léto s Liv Ullmannovou a Bibi Anderssonovou. Z kina se stalo známé bratislavské reprízové kino a nedělní dopoledne patřila dětem.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.ruzinov.sk/sk/aktuality/view/predstavme-si-ruzinov",
+        "https://www.ruzinov.sk/sk/aktuality/view/historicke-mapy-ako-sa-menil-ruzinov",
+        "https://www.ruzinovskeecho.sk/clanok/nivy-temna-minulost-vychytenej-stvrte",
+        "https://bratislava.oma.sk/u/sutazna/18"
+      ],
+      "map_category": "cultural_site",
+      "location": {
+        "name": "Společenský dům Nivy – bývalé Kino Nivy",
+        "address": "Súťažná 18, Bratislava, Slovensko",
+        "lat": 48.1505479,
+        "lon": 17.1285174,
+        "type": "cinema",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/sutazna/18"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Kolonie Emila Belluše – část obytného souboru na Miletičově",
+      "text": "Dům na Miletičově 36 je součástí jedenáctidomové bytové kolonie navržené architektem Emilem Bellušem. Projekt vznikl roku 1930 a stavba probíhala v letech 1930–1931 z městských prostředků jako odpověď na bytovou krizi. Celý soubor tvoří 11 samostatně stojících čtyřpodlažních domů s přibližně 400 byty; většina má půdorys ve tvaru H, dva domy tvar L. Kolonie se rozkládá na více ulicích a poštovních územích; tento záznam mapuje její dům na adrese Miletičova 36, která patří do PSČ 82108.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://bratislava.oma.sk/u/mileticova/36"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Bellušova obytná kolonie – dům Miletičova 36",
+        "address": "Miletičova 36, Bratislava, Slovensko",
+        "lat": 48.1519274,
+        "lon": 17.1360437,
+        "type": "residential_ensemble",
+        "accuracy": "area_representative",
+        "source": "https://bratislava.oma.sk/u/mileticova/36"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Dulovo náměstí – část urbanistického souboru z konce 50. let",
+      "text": "Dům na Dulově náměstí 3 je součástí širšího obytného souboru, který vznikal na konci 50. a na začátku 60. let 20. století. Urbanistický celek navrhl architekt Štefan Svetko a městská část jej eviduje jako mimořádně hodnotný urbanisticko-architektonický komplex. Soubor zahrnuje několik obytných domů a veřejných prostorů; jeho jednotlivé části zasahují do více poštovních území. Tento záznam proto zachycuje pouze dům na straně PSČ 82108, nikoli celé náměstí ani jeho prvky v sousedním PSČ 82109.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://www.ruzinovskeecho.sk/node/1770",
+        "https://bratislava.oma.sk/u/dulovo-namestie/3"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Dulovo náměstí – obytný dům č. 3",
+        "address": "Dulovo námestie 3, Bratislava, Slovensko",
+        "lat": 48.1502251,
+        "lon": 17.1340762,
+        "type": "residential_ensemble",
+        "accuracy": "area_representative",
+        "source": "https://bratislava.oma.sk/u/dulovo-namestie/3"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Busta Štefana Marka Daxnera – připomínka štúrovského národního hnutí",
+      "text": "Busta Štefana Marka Daxnera (1822–1892) stojí v parčíku na Daxnerově náměstí. Daxner byl právník, politik a významný představitel slovenského národního hnutí; podílel se na formulaci Žiadostí slovenského národa z roku 1848 a Memoranda slovenského národa z roku 1861. Busta na mramorovém sloupu je v parku od roku 1973; vytvořil ji sochař Karol Lacko ve spolupráci s architektem Virgilem Droppou. Městská část ji eviduje jako místní pamětihodnost.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://www.ruzinov.sk/data/MediaLibrary/1/14816/jul-august-2018.pdf",
+        "https://matica.sk/stefan-marko-daxner/",
+        "https://poi.oma.sk/n9082268947"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Busta Štefana Marka Daxnera",
+        "address": "Kvetná 14, Bratislava, Slovensko",
+        "lat": 48.153077,
+        "lon": 17.1332081,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n9082268947"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Busta Ľudovíta Kukorelliho – paměť protifašistického odboje",
+      "text": "V parčíku mezi ulicemi Koceľova, Svätoplukova, Bazová a Kvačalova stojí busta majora Ľudovíta Kukorelliho, organizátora protifašistického odboje a účastníka Slovenského národního povstání. Pomník byl na místě instalován v roce 1969; jeho autorem je akademický sochař Ľudovít Polák. Kukorelli patřil k velitelům partyzánské skupiny Čapajev a zahynul v roce 1944 během karpatsko-dukelské operace. Park nese jeho jméno a městská část eviduje pomník jako místní pamětihodnost.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://www.ruzinov.sk/data/MediaLibrary/1/14816/jul-august-2018.pdf",
+        "https://www.vhu.sk/major-in-memoriam-ludovit-kukorelli/",
+        "https://umeniemesta.sk/diela/recCm5RZWxeY4x2Vf",
+        "https://poi.oma.sk/n4918708121"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Busta majora Ľudovíta Kukorelliho",
+        "address": "Parčík medzi ulicami Koceľova, Svätoplukova a Kvačalova, Bratislava, Slovensko",
+        "lat": 48.1530697,
+        "lon": 17.1294555,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://umeniemesta.sk/diela/recCm5RZWxeY4x2Vf"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Materstvo – reliéf Jozefa Kostky na domě Dohnányho 1",
+      "text": "Kamenný reliéf Matka s dítětem vytvořil sochař Jozef Kostka na domě Dohnányho 1. Dílo je zařazeno do místního seznamu pamětihodností a představuje příklad začlenění figurální plastiky přímo do obytné architektury. Kostka patřil k nejvýznamnějším představitelům moderní slovenské sochařské tvorby. Reliéf je cenný právě tím, že nejde o samostatný pomník v parku, ale o umělecké dílo, které se stalo součástí každodenního městského prostředí.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://umeniemesta.sk/diela/recCLcrbeSEuQrYTb",
+        "https://bratislava.oma.sk/u/dohnanyho/1"
+      ],
+      "map_category": "cultural_site",
+      "location": {
+        "name": "Reliéf Materstvo – Jozef Kostka",
+        "address": "Dohnányho 1, Bratislava, Slovensko",
+        "lat": 48.154683,
+        "lon": 17.132291,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://umeniemesta.sk/diela/recCLcrbeSEuQrYTb"
+      }
+    },
+    {
+      "id": "fact_011",
+      "title": "Fontána lásky – filmová kulisa, která ožila díky místním",
+      "text": "Fontána lásky ve vnitrobloku mezi ulicemi Záhradnícka, Kupeckého, Šumavská a Dohnányho vznikla roku 1985 podle návrhu architekta M. Kaliny jako filmová kulisa pro kultovní slovenský film Fontána pre Zuzanu. Původně nebyla napojena na vodovodní síť a vodu do ní dovážela cisterna. V roce 2008 se po iniciativě místních obyvatel podařilo fontánu znovu zprovoznit. Městská část ji eviduje jako pamětihodnost; její příběh propojuje filmovou historii, veřejné umění a sousedskou péči o společný prostor.",
+      "category": "hidden_gem",
+      "priority": "D",
+      "sources": [
+        "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+        "https://umeniemesta.sk/diela/rec2ioAXjD6XFrJ67",
+        "https://poi.oma.sk/n321368689"
+      ],
+      "map_category": "cultural_site",
+      "location": {
+        "name": "Fontána lásky – Fontána pre Zuzanu",
+        "address": "Záhradnícka 79, Bratislava, Slovensko",
+        "lat": 48.154932,
+        "lon": 17.131336,
+        "type": "fountain",
+        "accuracy": "exact",
+        "source": "https://umeniemesta.sk/diela/rec2ioAXjD6XFrJ67"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia účinná od 1. 1. 2026, časť 2.3.2.1 a príloha 3a: PSČ 82108–82109 sú priradené k dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt uvádza prevádzku Bratislava 1 na Námestí SNP 35 v mestskej časti Staré Mesto.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Technické parametre účinné od 1. 1. 2026; doplnkovo verejný CC0 dataset slovak-postal-codes odvodený z Registra adries SR (RAGEO)",
+    "postcode_source_release": "Technické parametre Slovenskej pošty účinné od 1. 1. 2026; adresný dataset kontrolovaný 20. 11. 2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Staršia verzia technických parametrov z roku 2024 uvádzala pre PSČ 82108–82109 poštu Bratislava 2. Aktuálna verzia Slovenskej pošty účinná od 1. 1. 2026 v časti 2.3.2.1 a prílohe 3a už uvádza dodávaciu poštu Bratislava 1. Použitá je aktuálna verzia; nejde o nevyriešený súčasný rozpor.",
+    "delivery_office_note": "Aktuálny oficiálny dokument Slovenskej pošty účinný od 1. 1. 2026 priraďuje PSČ 82108 k dodávacej pošte Bratislava 1. Jej prevádzka je na Námestí SNP 35 v Bratislave-Starom Meste; preto administratívne polia city, district, county a state vychádzajú z fyzickej polohy obslužnej pošty, nie z väčšiny adresných bodov PSČ. Verejný dataset odvodený z RAGEO eviduje pri PSČ 82108 spolu 754 adresných bodov: 746 v Bratislave-Ružinove a 8 v Bratislave-Starom Meste. Presná polygonálna hranica PSČ sa netvrdí.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. RAGEO nebolo samostatne exportované; ako doplnková systematická kontrola bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Pre PSČ 82108 uvádza 754 adresných bodov v dvoch mestských častiach (746 Ružinov, 8 Staré Mesto) a reprezentatívny bod 48.15394, 17.13315. Jednotlivé pamätihodnosti boli kontrolované cez oficiálne mestské a miestne evidencie a ich konkrétne adresy a súradnice doplnené mapovými adresnými bodmi OMA/OpenStreetMap. Tieto sekundárne mapové údaje slúžia na kontrolu konkrétnych miest, nie ako dôkaz presného polygonu doručovacieho obvodu."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, účinné od 1. 1. 2026",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Štatistický úrad SR – Charakteristika Bratislavského kraja",
+      "url": "https://slovak.statistics.sk/wps/portal/ext/themes/regional/bratislava/about/",
+      "type": "official"
+    },
+    {
+      "title": "Štatistický úrad SR – otvorené údaje územných jednotiek",
+      "url": "https://data.statistics.sk/api/detail.php?cubeName=om7005rr&language=sk",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – verejný CC0 dataset odvodený z Registra adries SR (RAGEO)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – prehľad PSČ a reprezentatívnych geografických údajov",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – adresné body a administratívne priradenie",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/main/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – zoznam pamätihodností",
+      "url": "https://ruzinov.egov.sk/data/MediaLibrary/0/8650/mz_xv_bod_02_phsrpdf.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – Program hospodárskeho a sociálneho rozvoja 2021–2027",
+      "url": "https://www.ruzinov.sk/data/MediaLibrary/2/27211/phsr-ruzinov-2021-2027-finalapr.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – Program hospodárskeho a sociálneho rozvoja 2014–2020",
+      "url": "https://www.ruzinov.sk/data/MediaLibrary/0/2088/phsr-na-roky-2014-2020.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – Predstavme si Ružinov: historický prehľad",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/predstavme-si-ruzinov",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – Historické mapy: ako sa menil Ružinov",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/historicke-mapy-ako-sa-menil-ruzinov",
+      "type": "official"
+    },
+    {
+      "title": "Ružinovské ECHO – Nivy: temná minulosť vychytenej štvrte",
+      "url": "https://www.ruzinovskeecho.sk/clanok/nivy-temna-minulost-vychytenej-stvrte",
+      "type": "official"
+    },
+    {
+      "title": "Ružinovské ECHO – Zaujímavosti Dulovho námestia",
+      "url": "https://www.ruzinovskeecho.sk/node/1770",
+      "type": "official"
+    },
+    {
+      "title": "Metropolitný inštitút Bratislavy – Trhovisko Miletičova",
+      "url": "https://mib.sk/projekt/trhovisko-mileticova/",
+      "type": "official"
+    },
+    {
+      "title": "Saleziáni dona Bosca – história saleziánskeho diela na Slovensku",
+      "url": "https://www.saleziani.sk/images/doc/Sv.%20Jn%20Bosco%20na%20Slovensku.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Hlavné mesto SR Bratislava – evidencia pamätihodností: Ludwigov mlyn",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/51606.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislava Region – Ludwigov mlyn",
+      "url": "https://bratislavaregion.travel/poi/6765/ludwigov-mlyn",
+      "type": "regional"
+    },
+    {
+      "title": "Ružinovské ECHO – Parky na Nivách nie sú bez mena",
+      "url": "https://www.ruzinov.sk/data/MediaLibrary/1/14816/jul-august-2018.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Matica slovenská – Štefan Marko Daxner",
+      "url": "https://matica.sk/stefan-marko-daxner/",
+      "type": "official"
+    },
+    {
+      "title": "Vojenský historický ústav – Major in memoriam Ľudovít Kukorelli",
+      "url": "https://www.vhu.sk/major-in-memoriam-ludovit-kukorelli/",
+      "type": "official"
+    },
+    {
+      "title": "Umenie mesta Bratislavy – Pomník Ľudovíta Kukorelliho",
+      "url": "https://umeniemesta.sk/diela/recCm5RZWxeY4x2Vf",
+      "type": "official"
+    },
+    {
+      "title": "Umenie mesta Bratislavy – Materstvo, Jozef Kostka",
+      "url": "https://umeniemesta.sk/diela/recCLcrbeSEuQrYTb",
+      "type": "official"
+    },
+    {
+      "title": "Umenie mesta Bratislavy – Fontána pre Zuzanu / Fontána lásky",
+      "url": "https://umeniemesta.sk/diela/rec2ioAXjD6XFrJ67",
+      "type": "official"
+    },
+    {
+      "title": "Mestský ústav ochrany pamiatok – Drobné sakrálne objekty: Socha sv. Ondreja",
+      "url": "https://www.muop.eu/e-drobne-sakralne-objekty-sochy-svatcov",
+      "type": "official"
+    },
+    {
+      "title": "Hlavné mesto SR Bratislava – podklady k ochrane objektu Cvernovky na Páričkovej",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/33652.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Páričkova 18, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/parickova/18",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Miletičova 17, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/mileticova/17",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Miletičova 7, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/mileticova/7",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Metodova 1A, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/metodova/1A",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Súťažná 18, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/sutazna/18",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Miletičova 36, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/mileticova/36",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Dulovo námestie 3, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/dulovo-namestie/3",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – busta Štefana Marka Daxnera, Kvetná 14",
+      "url": "https://poi.oma.sk/n9082268947",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – pomník Ľudovíta Kukorelliho, Kvačalova 4",
+      "url": "https://poi.oma.sk/n4918708121",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Dohnányho 1, Bratislava, PSČ 82108",
+      "url": "https://bratislava.oma.sk/u/dohnanyho/1",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Fontána lásky, Záhradnícka 79",
+      "url": "https://poi.oma.sk/n321368689",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Socha sv. Ondreja, Miletičova 9",
+      "url": "https://poi.oma.sk/n3579109052",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Nivy – oblast Miletičovy a Záhradnické ulice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Uhorská cvernová továrna – Cvernovka na Páričkově",
+          "text": "V areálu někdejší Uhorská cvernová továreň na Páričkově 18 stojí hlavní přádelenská budova z let 1904–1905. Továrna začala vyrábět na počátku 20. století a postupně se rozrůstala o barvírnu, úpravnu, strojovnu a dílny. Zásadní je přesné vymezení ochrany: národní kulturní památkou vyhlášenou v roce 2008 je hlavní výrobní objekt – přádelna, nikoli automaticky celý historický areál. Cvernovka patřila k průmyslovým provozům, které proměnily Nivy v dělnickou čtvrť."
+        },
+        {
+          "id": "fact_002",
+          "title": "Městská jatka na Miletičově – průmyslový areál a park svatého Ondřeje",
+          "text": "Na Miletičově ulici se maso zpracovávalo už od roku 1884; nový městský bitúnok, tedy jatka, zde vznikl v roce 1924. Areál tvořily funkčně rozdělené haly, chladírna, prostory pro nemocná zvířata i kafilerie. Dominantami byly věž a komín, které připomínají průmyslovou technologii areálu. V 70. letech se do prostoru přestěhovala tržnice. Místní památková evidence zahrnuje bývalé jatky i přilehlý park, kde stojí barokní votivní socha sv. Ondřeje."
+        },
+        {
+          "id": "fact_003",
+          "title": "Salesiánský dům Dona Bosca a kostel Panny Marie Pomocnice křesťanů",
+          "text": "Salesiánský dům Dona Bosca na Miletičově 7 vznikl jako vzdělávací a výchovné centrum pro chudou a opuštěnou mládež; komplex byl otevřen v září 1933. V noci z 13. na 14. dubna 1950 komunistický režim násilně obsadil řeholní domy a salesiánský ústav převzal stát. Salesiáni se do areálu vrátili po pádu režimu. Nový kostel Panny Marie Pomocnice křesťanů vznikl v komplexu roku 1990 podle návrhu manželů Weberových. Městská část chrání soubor jako pamětihodnost a příklad sakrální architektury 30. let."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ludwigův mlýn – parní provoz a první trvalé elektrické osvětlení Bratislavy",
+          "text": "Gottfried Ludwig založil na dnešní Metodově ulici parní mlýn v letech 1880–1882; patřil k největším průmyslovým provozům tehdejší Bratislavy. Dne 2. února 1884 se zde poprvé v Bratislavě trvale svítilo elektrickými žárovkami napájenými z vlastního zdroje. Vedle mlýna Ludwig choval prasata a otruby z výroby sloužily jako krmivo; zvířata pak mířila do městských jatek na Miletičově. Z celého areálu se dochovalo především obilné silo z mladší meziválečné etapy, evidované jako pamětihodnost."
+        },
+        {
+          "id": "fact_005",
+          "title": "500 bytů a Kino Nivy – poválečná čtvrť s vlastním kulturním centrem",
+          "text": "Obytný soubor 500 bytů začal na Nivách vyrůstat kolem roku 1949 a v roce 1950 jej místní historie označuje za první velké sídliště Ružinova. Nízké cihlové domy s menšími byty vytvořily samostatnou obytnou kolonii, odlišnou od pozdějších panelových sídlišť. Její společenský dům na Súťažné 18 hostil Kino Nivy, které zahájilo provoz 3. dubna 1965 švédským filmem Krátké léto s Liv Ullmannovou a Bibi Anderssonovou. Z kina se stalo známé bratislavské reprízové kino a nedělní dopoledne patřila dětem."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kolonie Emila Belluše – část obytného souboru na Miletičově",
+          "text": "Dům na Miletičově 36 je součástí jedenáctidomové bytové kolonie navržené architektem Emilem Bellušem. Projekt vznikl roku 1930 a stavba probíhala v letech 1930–1931 z městských prostředků jako odpověď na bytovou krizi. Celý soubor tvoří 11 samostatně stojících čtyřpodlažních domů s přibližně 400 byty; většina má půdorys ve tvaru H, dva domy tvar L. Kolonie se rozkládá na více ulicích a poštovních územích; tento záznam mapuje její dům na adrese Miletičova 36, která patří do PSČ 82108."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dulovo náměstí – část urbanistického souboru z konce 50. let",
+          "text": "Dům na Dulově náměstí 3 je součástí širšího obytného souboru, který vznikal na konci 50. a na začátku 60. let 20. století. Urbanistický celek navrhl architekt Štefan Svetko a městská část jej eviduje jako mimořádně hodnotný urbanisticko-architektonický komplex. Soubor zahrnuje několik obytných domů a veřejných prostorů; jeho jednotlivé části zasahují do více poštovních území. Tento záznam proto zachycuje pouze dům na straně PSČ 82108, nikoli celé náměstí ani jeho prvky v sousedním PSČ 82109."
+        },
+        {
+          "id": "fact_008",
+          "title": "Busta Štefana Marka Daxnera – připomínka štúrovského národního hnutí",
+          "text": "Busta Štefana Marka Daxnera (1822–1892) stojí v parčíku na Daxnerově náměstí. Daxner byl právník, politik a významný představitel slovenského národního hnutí; podílel se na formulaci Žiadostí slovenského národa z roku 1848 a Memoranda slovenského národa z roku 1861. Busta na mramorovém sloupu je v parku od roku 1973; vytvořil ji sochař Karol Lacko ve spolupráci s architektem Virgilem Droppou. Městská část ji eviduje jako místní pamětihodnost."
+        },
+        {
+          "id": "fact_009",
+          "title": "Busta Ľudovíta Kukorelliho – paměť protifašistického odboje",
+          "text": "V parčíku mezi ulicemi Koceľova, Svätoplukova, Bazová a Kvačalova stojí busta majora Ľudovíta Kukorelliho, organizátora protifašistického odboje a účastníka Slovenského národního povstání. Pomník byl na místě instalován v roce 1969; jeho autorem je akademický sochař Ľudovít Polák. Kukorelli patřil k velitelům partyzánské skupiny Čapajev a zahynul v roce 1944 během karpatsko-dukelské operace. Park nese jeho jméno a městská část eviduje pomník jako místní pamětihodnost."
+        },
+        {
+          "id": "fact_010",
+          "title": "Materstvo – reliéf Jozefa Kostky na domě Dohnányho 1",
+          "text": "Kamenný reliéf Matka s dítětem vytvořil sochař Jozef Kostka na domě Dohnányho 1. Dílo je zařazeno do místního seznamu pamětihodností a představuje příklad začlenění figurální plastiky přímo do obytné architektury. Kostka patřil k nejvýznamnějším představitelům moderní slovenské sochařské tvorby. Reliéf je cenný právě tím, že nejde o samostatný pomník v parku, ale o umělecké dílo, které se stalo součástí každodenního městského prostředí."
+        },
+        {
+          "id": "fact_011",
+          "title": "Fontána lásky – filmová kulisa, která ožila díky místním",
+          "text": "Fontána lásky ve vnitrobloku mezi ulicemi Záhradnícka, Kupeckého, Šumavská a Dohnányho vznikla roku 1985 podle návrhu architekta M. Kaliny jako filmová kulisa pro kultovní slovenský film Fontána pre Zuzanu. Původně nebyla napojena na vodovodní síť a vodu do ní dovážela cisterna. V roce 2008 se po iniciativě místních obyvatel podařilo fontánu znovu zprovoznit. Městská část ji eviduje jako pamětihodnost; její příběh propojuje filmovou historii, veřejné umění a sousedskou péči o společný prostor."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
