@@ -1,7 +1,7 @@
 {
   "postcode": "01014",
   "city": "Žilina",
-  "district": "Brodno a Vranie",
+  "district": null,
   "county": "Žilina",
   "state": "Žilinský kraj",
   "representative_place": "Brodno – Kostel Všech svatých (PSČ zahrnuje také Vranie)",
@@ -10,7 +10,7 @@
     "lon": 18.757998705
   },
   "access_point": null,
-  "district_type": "urban_district",
+  "district_type": null,
   "facts": [
     {
       "id": "fact_001",
@@ -496,7 +496,7 @@
     }
   },
   "verification": {
-    "plz_source": "Mesto Žilina potvrdilo, že Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021 a služby pre Brodno a Vranie prevzala Pošta Žilina 3; PSČ 01014 zostalo nezmenené. Mesto následne oznámilo ukončenie prevádzky Pošty Žilina 3 k 1. 9. 2025. Verejný adresný dataset odvodený z Registra adries SR priraďuje PSČ 01014 k obci Žilina a k dvom mestským častiam: Brodno a Vranie.",
+    "plz_source": "Mesto Žilina potvrdilo, že Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021 a služby pre Brodno a Vranie prevzala Pošta Žilina 3; PSČ 01014 zostalo nezmenené. Pošta Žilina 3 následne ukončila prevádzku k 1. 9. 2025. Mesto a následný oficiálny prehľad uvádzajú dve nástupnícke prevádzky – Žilina 1 a Žilina 7 – bez jednoznačného priradenia konkrétneho PSČ 01014 k jednej z nich.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
@@ -505,9 +505,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021; mesto vtedy uviedlo, že služby pre Brodno a Vranie prevezme Pošta Žilina 3 a PSČ 01014 zostane nezmenené. Pošta Žilina 3 v Budatíne však ukončila prevádzku k 1. 9. 2025. Mesto uviedlo nástupnícke pobočky Žilina 1 a Žilina 7, ale dostupné oznámenie neurčuje, ktorá z nich je konkrétne priradená k PSČ 01014. Preto access_point zostáva null a access_point_verified = false. Geografická oblasť PSČ sa určuje nezávisle od sídla pobočky: dataset eviduje 761 adresných bodov v Žiline, z toho 462 v Brodne a 299 vo Vraní. Preto district = Brodno a Vranie; Budatín bol iba sídlom medzičasom zrušenej pobočky.",
+    "delivery_office_note": "Pošta Žilina 14 v Brodne ukončila prevádzku k 1. 12. 2021; služby pre Brodno a Vranie vtedy prevzala Pošta Žilina 3 a PSČ 01014 zostalo nezmenené. Pošta Žilina 3 v Budatíne však ukončila prevádzku k 1. 9. 2025. Oficiálne oznámenie uvádza dve nástupnícke prevádzky, Poštu Žilina 1 na Sládkovičovej a Poštu Žilina 7 na Prielohách, ale neurčuje, ktorá z nich je konkrétne priradená k PSČ 01014. Keďže obe pobočky ležia v odlišných mestských častiach, nie je možné bezpečne určiť jediný district ani access_point. City zostáva Žilina, keďže obe možné nástupnícke pobočky sa nachádzajú v Žiline; district a access_point zostávajú null. Geografická oblasť PSČ je samostatná: dataset eviduje 761 adresných bodov, z toho 462 v Brodne a 299 vo Vraní.",
     "postcode_override_reason": null,
-    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a prevádzku pobočiek. Mesto Žilina potvrdilo, že PSČ 01014 zostalo nezmenené po zatvorení Pošty Žilina 14 v roku 2021; následne bola zatvorená aj Pošta Žilina 3 v Budatíne v roku 2025 a presné priradenie nástupníckej pobočky k 01014 nie je v oznámení uvedené. Verejný CC0 dataset odvodený z Registra adries SR eviduje pre 01014 761 adresných bodov v meste Žilina: 462 v Brodne a 299 vo Vraní. Geografická oblasť preto zahŕňa mestské časti Brodno a Vranie, nie Budatín."
+    "geographic_authority": "Slovenská pošta je autoritou pre PSČ a poštovú prevádzku. Mesto Žilina potvrdilo, že PSČ 01014 zostalo nezmenené po zatvorení Pošty Žilina 14 v roku 2021. Následne bola zatvorená aj Pošta Žilina 3 v Budatíne v roku 2025; oficiálne zdroje uvádzajú dve nástupnícke pobočky v Žiline, ale nie konkrétne priradenie PSČ 01014. Verejný CC0 dataset odvodený z Registra adries SR eviduje pre 01014 761 adresných bodov v meste Žilina: 462 v Brodne a 299 vo Vraní. Preto sa geografická reprezentácia PSČ a poloha poštovej prevádzky nesmú zamieňať."
   },
   "status": "validated"
 }
