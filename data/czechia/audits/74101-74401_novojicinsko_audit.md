@@ -71,7 +71,7 @@ Zdroje:
 - Celkem 15 synchronizovaných faktů; read-back potvrzuje shodu masteru a cs u všech dotčených záznamů.
 - Mendelův nový fakt má všech 7 jazyků.
 
-**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 57/261 faktů, tedy 342/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242 a 3 v 74243. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 11 PSČ potvrdil 342/342 kompletních jazykových položek (title i text) a 57/57 faktů validated V1. Zbývá 204 faktů / 1 224 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
+**Průběžný stav sémantické kontroly (20. 11. 2026):** individuálně zkontrolováno 100/261 faktů, tedy 600/1 566 cizojazyčných textů (de/en/es/fr/it/nl) včetně názvů; z toho 7 faktů v 74101, 8 v 74201, 7 v 74213, 8 v 74221, 6 v 74231, 4 v 74233, 5 v 74235, 3 v 74236, 3 v 74237, 3 v 74242, 3 v 74243, 5 v 74245, 4 v 74247, 3 v 74251, 4 v 74253, 11 v 74254, 7 v 74255 a 9 v 74256. Zjištěné významové nedostatky byly opraveny a načteny zpět. Read-back dotčených 18 PSČ potvrdil 600/600 kompletních jazykových položek (title i text) a 100/100 faktů validated V1. Zbývá 161 faktů / 966 cizojazyčných textů. Strukturální a návaznostní kontroly PASS; sémantická kontrola zůstává otevřená.
 
 ## 7. E2 — Délka českého master textu
 
@@ -208,6 +208,21 @@ Primární podklady první dávky:
 33. 74237/fact_003: ve všech šesti jazycích doplněno náboženské poselství latinského nápisu na kříži obrácené ke Kristu ukřižovanému a výslovně zachováno, že památky nejsou jen dekorací cest a návsi.
 34. 74242/fact_001: zpřesněn překlad hranolové věže; anglická, francouzská, italská a nizozemská verze nyní používají odpovídající termín „prismatic“.
 35. 74243/fact_001: opraven německý název kostela, který ponechával české „Kostel sv.“ místo překladu „Kirche der heiligen Maria Magdalena“.
+36. 74245/fact_001: ve všech šesti jazycích opraven překlad tvrze na opevněné panské sídlo; upřesněno, že návrh nového komplexu je Mikuláši Thalherrovi pouze připisován; názvy doplněny o gotický rajský dvůr.
+37. 74245/fact_003: ve všech šesti jazycích doplněno, že hrad byl během třicetileté války nejen dobyt, ale zasáhly jej také požáry.
+38. 74245/fact_005: opraveny španělský, francouzský, italský, nizozemský a německý název kostela — empírový styl není označen jako „imperiální“.
+39. 74247/fact_001: anglický a francouzský překlad hranolové věže sjednocen s přesnějším termínem „prismatic“.
+40. 74251/fact_001: překlady hranolové věže sjednoceny na odpovídající termín „prismatic/prismatisch“ ve všech šesti jazycích.
+41. 74251/fact_003: odstraněna nepodložená tvrzení o vlastním návrhu letadel a nedostatku financí; text nyní uvádí vlastní letecké pokusy bratrů Žurovcových a jejich pokus pokračovat v civilním létání s letounem z válečných přebytků.
+42. 74253/fact_001: tvrz přeložena jako opevněné panské sídlo; závěrečné tvrzení opraveno z „nejlépe zachované“ na významově správné „nejlépe vybavené“ historické sídlo.
+43. 74253/fact_002: anglické „poor tenants“ opraveno na historicky odpovídající „poor serfs“.
+44. 74253/fact_003: zpřesněno, že dokument uložený zakladatelkou ve věžičce připomíná období napoleonských válek a hospodářské nouze; nepřisuzuje se mu nedoložený obsah.
+45. 74254/fact_001: tvrz přeložena jako opevněné panské sídlo; z anglické verze odstraněno nepodložené označení lazaretní místnosti za rekonstruovanou.
+46. 74254/fact_003: Ramsarská úmluva přeložena jako úmluva o mokřadech mezinárodního významu; odstraněna cizí technická poznámka o mapovém bodu, která nepatří do obsahu faktu.
+47. 74256/fact_002: tvrz přeložena jako opevněné panské sídlo, nikoli velká pevnost.
+48. 74256/fact_003: ve všech šesti jazycích doplněno, že jarní výskyt sněženek je přirozenou místní zvláštností, nikoli zahradní výsadbou.
+49. 74256/fact_005: odstraněna duplicitní informace o neprokázané léčivosti a pitnosti pramene z českého masteru i šesti překladů; translations.cs synchronizováno a read-back potvrzen.
+50. 74256/fact_006: doplněno vydání tří básní Jana Zábranského v Puchmajerově sbírce roku 1797 a opraven význam španělského názvu „Renacimiento nacional checo“.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
