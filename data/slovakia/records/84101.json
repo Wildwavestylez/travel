@@ -1,4 +1,223 @@
 {
   "postcode": "84101",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Dúbravka",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Historické a sakrální jádro Dúbravky – kaple Panny Marie Růžencové a kostel Ducha Svatého",
+  "representative_point": {
+    "lat": 48.18602,
+    "lon": 17.03483
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kaple Panny Marie Růžencové – barokní torzo s příběhem zázračného zjevení",
+      "text": "Na Brižitské ulici v Dúbravce stojí kaple Panny Marie Růžencové, která je pravděpodobně dochovaným zbytkem nedostavěného barokního kostela. Její pozdně barokní hlavní oltář pochází z konce druhé třetiny 18. století; prostor má valenou lunetovou klenbu a na severní straně sakristii. Kaple a přilehlý historický park jsou chráněny jako národní kulturní památka. Místní vyprávění spojuje místo s legendou o pastýři, který měl na hrušni spatřit Pannu Marii. Když mu farář z Devína neuvěřil, měl podle pověsti oslepnout; po pokání se mu zrak vrátil na místě, kde dnes stojí mariánský památník. Kaple leží na adrese Brižitská 15, která je doložena s PSČ 841 01.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kaplnka-panny-marie-ruzencovej.html",
+        "https://www.farnostdubravka.sk/kontakt/",
+        "https://www.farnostdubravka.sk/wp-content/uploads/2023/08/historia_2023.pdf"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaple Panny Marie Růžencové, Brižitská 15",
+        "address": "Brižitská 15, Bratislava-Dúbravka, Slovensko",
+        "lat": 48.18875,
+        "lon": 17.027528,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kaplnka-panny-marie-ruzencovej.html"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel Ducha Svatého – moderní dominanta Dúbravky",
+      "text": "Kostel Ducha Svatého v Dúbravce patří k novějším sakrálním stavbám městské části. Základní kámen byl posvěcen v roce 1995 a kostel byl vysvěcen 26. října 2002. Projekt architektů Ľudovíta Režuchy a Mariána Luptáka má neobvyklý kruhový půdorys a výraznou střechu vysokou přibližně 30 metrů. Do chrámového prostoru se vejde asi 600 návštěvníků. Místo oltářního obrazu je na stěně kovová holubice – symbol Ducha Svatého, dílo uměleckého kováře Jurovatého. Kostel stojí na adrese M. Sch. Trnavského 19, Bratislava-Dúbravka, PSČ 841 01.",
+      "category": "architecture_and_urbanism",
+      "priority": "D",
+      "sources": [
+        "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kostol-ducha-svateho.html",
+        "https://www.farnostdubravka.sk/kontakt/"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Kostel Ducha Svatého, M. Sch. Trnavského 19",
+        "address": "M. Sch. Trnavského 19, Bratislava-Dúbravka, Slovensko",
+        "lat": 48.184889,
+        "lon": 17.037039,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kostol-ducha-svateho.html"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta je primární autoritou pro přidělení PSČ. Oficiální program městské části Bratislava-Dúbravka uvádí PSČ 841 01 a 841 02; konkrétní adresa kaple na Brižitské 15 i adresa kostela Ducha Svatého jsou doloženy s PSČ 841 01.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiální poštovní dokumenty; doplňkově veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO",
+    "postcode_source_release": "Kontrola zdrojů 20. 11. 2026; dataset pin commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiální technické parametry Slovenské pošty uvádějí pro rozsah 841 01–02 vybranou poštu Bratislava 411. Tento třídicí dokument je používán pouze jako podpůrná informace; fyzická poloha pošty nebyla zaměněna za reprezentativní bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR; pro systematické ověření byl použit veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO, nikoli přímý export registru. Dataset uvádí pro PSČ 84101 celkem 1 045 adresních bodů, všechny v městské části Bratislava-Dúbravka, okres Bratislava IV, Bratislavský kraj. Souhrnný reprezentativní bod je 48.18602, 17.03483; obalový rozsah bodů není polygonální hranicí doručovací oblasti. Obě mapované památky mají samostatné doložené polohy uvnitř tohoto rozsahu a jejich adresní vazba na PSČ 84101 je podpořena farními kontaktními údaji."
+  },
+  "sources": [
+    {
+      "title": "Mestská časť Bratislava-Dúbravka – Program hospodárskeho a sociálneho rozvoja 2025–2031 (administrativní údaje a PSČ 841 01/841 02)",
+      "url": "https://www.dubravka.sk/files/documents/samosprava/strategicke%20dokumenty/phsr-2025-2031.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – veřejný CC0 dataset odvozený z Registru adries SR (RAGEO), adresní body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – souhrn PSČ a reprezentativní body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Dúbravka – Kaplnka Panny Márie Ružencovej",
+      "url": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kaplnka-panny-marie-ruzencovej.html",
+      "type": "official"
+    },
+    {
+      "title": "Farnosť Bratislava-Dúbravka – adresa kaple a PSČ 841 01",
+      "url": "https://www.farnostdubravka.sk/kontakt/",
+      "type": "primary"
+    },
+    {
+      "title": "Farnosť Bratislava-Dúbravka – historie kaple, farnosti a sakrálních staveb",
+      "url": "https://www.farnostdubravka.sk/wp-content/uploads/2023/08/historia_2023.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Mestská časť Bratislava-Dúbravka – Kostol Ducha Svätého",
+      "url": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/kostol-ducha-svateho.html",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické a sakrální jádro Dúbravky – kaple Panny Marie Růžencové a kostel Ducha Svatého",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kaple Panny Marie Růžencové – barokní torzo s příběhem zázračného zjevení",
+          "text": "Na Brižitské ulici v Dúbravce stojí kaple Panny Marie Růžencové, která je pravděpodobně dochovaným zbytkem nedostavěného barokního kostela. Její pozdně barokní hlavní oltář pochází z konce druhé třetiny 18. století; prostor má valenou lunetovou klenbu a na severní straně sakristii. Kaple a přilehlý historický park jsou chráněny jako národní kulturní památka. Místní vyprávění spojuje místo s legendou o pastýři, který měl na hrušni spatřit Pannu Marii. Když mu farář z Devína neuvěřil, měl podle pověsti oslepnout; po pokání se mu zrak vrátil na místě, kde dnes stojí mariánský památník. Kaple leží na adrese Brižitská 15, která je doložena s PSČ 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel Ducha Svatého – moderní dominanta Dúbravky",
+          "text": "Kostel Ducha Svatého v Dúbravce patří k novějším sakrálním stavbám městské části. Základní kámen byl posvěcen v roce 1995 a kostel byl vysvěcen 26. října 2002. Projekt architektů Ľudovíta Režuchy a Mariána Luptáka má neobvyklý kruhový půdorys a výraznou střechu vysokou přibližně 30 metrů. Do chrámového prostoru se vejde asi 600 návštěvníků. Místo oltářního obrazu je na stěně kovová holubice – symbol Ducha Svatého, dílo uměleckého kováře Jurovatého. Kostel stojí na adrese M. Sch. Trnavského 19, Bratislava-Dúbravka, PSČ 841 01."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer und sakraler Ortskern von Dúbravka – Rosenkranz-Maria-Kapelle und Heilig-Geist-Kirche",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rosenkranz-Maria-Kapelle – barockes Fragment mit einer Legende über eine Marienerscheinung",
+          "text": "An der Brižitská-Straße in Dúbravka steht die Kapelle der Rosenkranz-Maria, die vermutlich ein erhaltener Teil einer unvollendeten Barockkirche ist. Ihr spätbarocker Hauptaltar stammt aus dem letzten Drittel des 18. Jahrhunderts; der Raum besitzt ein Tonnengewölbe mit Stichkappen und auf der Nordseite eine Sakristei. Die Kapelle und der angrenzende historische Park stehen unter Denkmalschutz als nationales Kulturdenkmal. Eine lokale Überlieferung verbindet den Ort mit der Legende eines Hirten, der auf einem Birnbaum eine Marienerscheinung gesehen haben soll. Der Pfarrer aus Devín habe ihm zunächst nicht geglaubt und sei der Erzählung nach erblindet; nach seiner Reue soll er an dem Ort sein Augenlicht zurückerlangt haben, an dem heute ein Mariengedenkmal steht. Die Kapelle befindet sich in der Brižitská 15, für die die Postleitzahl 841 01 belegt ist."
+        },
+        {
+          "id": "fact_002",
+          "title": "Heilig-Geist-Kirche – eine moderne Landmarke von Dúbravka",
+          "text": "Die Heilig-Geist-Kirche in Dúbravka gehört zu den jüngeren Sakralbauten des Stadtteils. Der Grundstein wurde 1995 geweiht, die Kirche selbst am 26. Oktober 2002. Der Entwurf der Architekten Ľudovít Režucha und Marián Lupták besitzt einen ungewöhnlichen kreisförmigen Grundriss und ein markantes, etwa 30 Meter hohes Dach. Der Kirchenraum bietet Platz für rund 600 Besucher. Anstelle eines Altarbildes befindet sich an der Wand eine metallene Taube als Symbol des Heiligen Geistes, ein Werk des Kunstschmieds Jurovatý. Die Kirche steht in der M. Sch. Trnavského 19, Bratislava-Dúbravka, Postleitzahl 841 01."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic and sacred centre of Dúbravka – Our Lady of the Rosary Chapel and Church of the Holy Spirit",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Our Lady of the Rosary Chapel – a Baroque remnant linked to a local apparition legend",
+          "text": "On Brižitská Street in Dúbravka stands the Chapel of Our Lady of the Rosary, probably a surviving fragment of an unfinished Baroque church. Its late-Baroque main altar dates from the final third of the 18th century; the interior has a barrel vault with lunettes and a sacristy on the north side. The chapel and adjoining historic park are protected as a national cultural monument. Local tradition links the site to a story about a shepherd who is said to have seen the Virgin Mary in a pear tree. According to the legend, the priest from Devín did not believe him and went blind; after repenting, he regained his sight at the place where a Marian memorial now stands. The chapel is at Brižitská 15, an address documented with postcode 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of the Holy Spirit – a modern landmark of Dúbravka",
+          "text": "The Church of the Holy Spirit in Dúbravka is one of the district’s newer religious buildings. Its foundation stone was blessed in 1995 and the church was consecrated on 26 October 2002. Designed by architects Ľudovít Režucha and Marián Lupták, it has an unusual circular floor plan and a striking roof about 30 metres high. The worship space can accommodate around 600 people. Instead of a traditional altarpiece, a metal dove – the symbol of the Holy Spirit, made by metal artist Jurovatý – hangs on the wall. The church stands at M. Sch. Trnavského 19, Bratislava-Dúbravka, postcode 841 01."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico y religioso de Dúbravka – capilla de Nuestra Señora del Rosario e iglesia del Espíritu Santo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Capilla de Nuestra Señora del Rosario: vestigio barroco ligado a una leyenda de aparición mariana",
+          "text": "En la calle Brižitská de Dúbravka se encuentra la capilla de Nuestra Señora del Rosario, probablemente un resto conservado de una iglesia barroca que nunca llegó a terminarse. Su altar mayor tardobarroco data del último tercio del siglo XVIII; el interior tiene una bóveda de cañón con lunetos y una sacristía en el lado norte. La capilla y el parque histórico contiguo están protegidos como monumento cultural nacional. La tradición local relaciona el lugar con la historia de un pastor que habría visto a la Virgen María en un peral. Según la leyenda, el sacerdote de Devín no le creyó y quedó ciego; tras arrepentirse, recuperó la vista en el lugar donde hoy se alza un monumento mariano. La capilla está en Brižitská 15, dirección documentada con el código postal 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia del Espíritu Santo: un hito moderno de Dúbravka",
+          "text": "La iglesia del Espíritu Santo de Dúbravka es uno de los edificios religiosos más recientes del distrito. La primera piedra fue bendecida en 1995 y el templo se consagró el 26 de octubre de 2002. Diseñado por los arquitectos Ľudovít Režucha y Marián Lupták, tiene una inusual planta circular y un tejado distintivo de unos 30 metros de altura. El espacio del templo puede acoger a unas 600 personas. En lugar de un retablo tradicional, en la pared hay una paloma metálica, símbolo del Espíritu Santo, obra del artista metalúrgico Jurovatý. La iglesia se encuentra en M. Sch. Trnavského 19, Bratislava-Dúbravka, código postal 841 01."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique et religieux de Dúbravka – chapelle Notre-Dame du Rosaire et église du Saint-Esprit",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chapelle Notre-Dame du Rosaire – vestige baroque associé à une légende d’apparition mariale",
+          "text": "Dans la rue Brižitská, à Dúbravka, se trouve la chapelle Notre-Dame du Rosaire, probablement un vestige conservé d’une église baroque restée inachevée. Son maître-autel de style baroque tardif date du dernier tiers du XVIIIe siècle ; l’intérieur possède une voûte en berceau à lunettes et une sacristie au nord. La chapelle et le parc historique voisin sont protégés au titre de monument culturel national. La tradition locale associe le lieu à l’histoire d’un berger qui aurait aperçu la Vierge Marie dans un poirier. Selon la légende, le prêtre de Devín ne l’aurait pas cru et serait devenu aveugle ; après s’être repenti, il aurait retrouvé la vue à l’endroit où se trouve aujourd’hui un monument marial. La chapelle se situe au 15, rue Brižitská, adresse attestée avec le code postal 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Église du Saint-Esprit – un repère moderne de Dúbravka",
+          "text": "L’église du Saint-Esprit de Dúbravka compte parmi les édifices religieux les plus récents du quartier. La première pierre a été bénie en 1995 et l’église a été consacrée le 26 octobre 2002. Conçue par les architectes Ľudovít Režucha et Marián Lupták, elle présente un plan circulaire inhabituel et une toiture marquante d’environ 30 mètres de haut. L’espace de culte peut accueillir près de 600 personnes. À la place d’un tableau d’autel traditionnel, une colombe métallique – symbole du Saint-Esprit, œuvre de l’artiste métallier Jurovatý – est fixée au mur. L’église se trouve au 19, rue M. Sch. Trnavského, Bratislava-Dúbravka, code postal 841 01."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico e religioso di Dúbravka – cappella della Madonna del Rosario e chiesa dello Spirito Santo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Cappella della Madonna del Rosario – vestigia barocca legata a una leggenda di apparizione mariana",
+          "text": "In via Brižitská, a Dúbravka, sorge la cappella della Madonna del Rosario, probabilmente ciò che resta di una chiesa barocca mai completata. Il suo altare maggiore tardobarocco risale all’ultimo terzo del XVIII secolo; l’interno presenta una volta a botte con lunette e una sacrestia sul lato nord. La cappella e il parco storico adiacente sono tutelati come monumento culturale nazionale. La tradizione locale collega il luogo alla storia di un pastore che avrebbe visto la Vergine Maria su un pero. Secondo la leggenda, il sacerdote di Devín non gli credette e divenne cieco; dopo essersi pentito, riacquistò la vista nel punto in cui oggi si trova un monumento mariano. La cappella si trova in Brižitská 15, indirizzo documentato con CAP 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chiesa dello Spirito Santo – un punto di riferimento moderno di Dúbravka",
+          "text": "La chiesa dello Spirito Santo di Dúbravka è uno degli edifici religiosi più recenti del quartiere. La prima pietra fu benedetta nel 1995 e la chiesa venne consacrata il 26 ottobre 2002. Progettata dagli architetti Ľudovít Režucha e Marián Lupták, presenta una pianta circolare insolita e un tetto caratteristico alto circa 30 metri. Lo spazio interno può accogliere circa 600 fedeli. Al posto della pala d’altare tradizionale è collocata sulla parete una colomba metallica, simbolo dello Spirito Santo, opera dell’artista del metallo Jurovatý. La chiesa si trova in M. Sch. Trnavského 19, Bratislava-Dúbravka, CAP 841 01."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch en religieus centrum van Dúbravka – Onze-Lieve-Vrouw-van-de-Rozenkranskapel en de Heilige-Geestkerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kapel van Onze-Lieve-Vrouw van de Rozenkrans – barok overblijfsel met een Mariaverschijningslegende",
+          "text": "Aan de Brižitská-straat in Dúbravka staat de kapel van Onze-Lieve-Vrouw van de Rozenkrans, vermoedelijk een bewaard gebleven deel van een nooit voltooide barokkerk. Het laatbarokke hoofdaltaar dateert uit het laatste derde deel van de 18e eeuw; het interieur heeft een tongewelf met lunetten en aan de noordzijde een sacristie. De kapel en het aangrenzende historische park zijn beschermd als nationaal cultureel monument. De plaatselijke overlevering verbindt de plek met het verhaal van een herder die Maria in een perenboom zou hebben gezien. Volgens de legende geloofde de priester uit Devín hem niet en werd hij blind; na berouw kreeg hij zijn gezichtsvermogen terug op de plek waar nu een Mariamonument staat. De kapel bevindt zich op Brižitská 15, een adres dat is geregistreerd met postcode 841 01."
+        },
+        {
+          "id": "fact_002",
+          "title": "Heilige-Geestkerk – een modern herkenningspunt van Dúbravka",
+          "text": "De Heilige-Geestkerk in Dúbravka behoort tot de nieuwere religieuze gebouwen van het stadsdeel. De eerste steen werd in 1995 gezegend en de kerk werd op 26 oktober 2002 ingewijd. Het ontwerp van architecten Ľudovít Režucha en Marián Lupták heeft een ongebruikelijke ronde plattegrond en een opvallend dak van ongeveer 30 meter hoog. De kerkruimte biedt plaats aan circa 600 bezoekers. In plaats van een traditioneel altaarschilderij hangt aan de muur een metalen duif, symbool van de Heilige Geest en een werk van metaalartiest Jurovatý. De kerk staat aan M. Sch. Trnavského 19, Bratislava-Dúbravka, postcode 841 01."
+        }
+      ]
+    }
+  }
 }
