@@ -1,4 +1,519 @@
 {
   "postcode": "01319",
-  "status": "placeholder"
+  "city": "Kľače",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+  "representative_point": {
+    "lat": 49.120781,
+    "lon": 18.646169
+  },
+  "access_point": {
+    "lat": 49.1066667,
+    "lon": 18.6445
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Lurdská kaple v Kľačích: mariánské místo z roku 1928",
+      "text": "Kľače nemají vlastní farní kostel; duchovní život místní filiálky se soustřeďuje kolem kaple Panny Marie Lurdské, postavené v roce 1928. Její interiér dominuje socha Lurdské Panny Marie, doplněná menšími sochami Božského Srdce a svaté Terezie. Věřící se zde scházejí k modlitbě a mariánské úctě; pravidelné bohoslužby se konají také v Domě nádeje na místním hřbitově. Kaple tak už téměř sto let představuje důležité společné místo malé obce a v roce 2028 si připomene sté výročí svého vzniku.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.tvlux.sk/archiv/play/tyzden-s-2509-35710",
+        "https://poi.oma.sk/n672081044",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/jasenove"
+      ],
+      "location": {
+        "name": "Kaplnka Panny Márie Lurdskej",
+        "address": "Kľače, Slovensko",
+        "lat": 49.106934,
+        "lon": 18.647025,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n672081044"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Rajecká Anča a zastávka Kľače: železnice, která málem skončila v roce 2003",
+      "text": "Místní trať Žilina–Rajec byla slavnostně otevřena 10. října 1899. Měřila přibližně 20,8 kilometru a měla původně pokračovat až do Nitrianského Pravna, čímž by vzniklo přímé železniční spojení Žiliny s Prievidzou; plán se však nikdy neuskutečnil. Zastávka Kľače leží na 19,4. kilometru tratě a její název se v železničních podkladech objevuje od roku 1935. V únoru 2003 byla osobní doprava na celé trati zastavena, ale po jednáních obcí a regionálních partnerů se už 17. února znovu rozjela v přechodném režimu; od 15. června převzala provoz zpět ZSSK. Přezdívka Rajecká Anča tak označuje lokálku, kterou si obyvatelé Rajecké doliny dokázali uhájit.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.rail.sk/arp/slovakia/history/h126.htm",
+        "https://www.zsr.sk/o-nas/historia-zeleznic/1873-1918/miestne-zeleznice/miestna-zeleznica-zilina-rajec/",
+        "https://www.atlasdrah.net/sk/zilinsky/?id=baza&poz=2803",
+        "https://www.zeleznicne.info/view.php?cisloclanku=2007090053&nazevclanku=trat-126-zilina-rajec"
+      ],
+      "location": {
+        "name": "Železničná zastávka Kľače",
+        "address": "Kľače, Slovensko",
+        "lat": 49.1066667,
+        "lon": 18.6445,
+        "type": "railway_station",
+        "accuracy": "exact",
+        "source": "https://www.atlasdrah.net/sk/zilinsky/?id=baza&poz=2803"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_003",
+      "title": "Zaniklý gotický kostel v Jasenovém a jeho Madona z doby kolem roku 1500",
+      "text": "Jasenové mělo už ve 14. století gotický kostel Všech svatých. V 17. století jej upravili a roku 1882 přestavěli v neorománském slohu; starý chrám později zanikl a na jeho místo nastoupil nový kostel Božského Srdce Ježíšova, vysvěcený v roce 2000. Z historického inventáře je zvlášť cenná pozdně gotická plastika Madony z doby kolem roku 1500, později barokně upravená, dále menší sochy svaté Doroty, Barbory, Markéty a Kateřiny Alexandrijské a gotický zvon. Dochované popisy těchto předmětů připomínají, že i malá obec měla kdysi hodnotné středověké sakrální vybavení. Poloha v záznamu označuje historické místo zaniklého kostela, nikoli současnou stavbu.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/jasenove-kostol-vsetkych-svatych",
+        "https://www.e-obce.info/jasenove/article/default/1876",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/jasenove"
+      ],
+      "location": {
+        "name": "Historické miesto zaniknutého kostola Všetkých svätých",
+        "address": "Jasenové, Slovensko",
+        "lat": 49.10881,
+        "lon": 18.63416,
+        "type": "historic_church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/jasenove-kostol-vsetkych-svatych"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kaple Božského Srdce v Jasenovém: místo, kde se obec scházela před stavbou kostela",
+      "text": "Kaple Božského Srdce Ježíšova v centru Jasenového byla postavena roku 1924 z darů věřících; její vznik je spojen s knězem Benediktem Skácelem. Než byl v letech 1998–2000 vybudován nový farní kostel, sloužila kaple jako hlavní místo společných modliteb a bohoslužeb. Místní obyvatelé vzpomínají na májové pobožnosti, říjnový růženec i každoroční mši na svátek Božského Srdce. V roce 2017 byla obnovena její fasáda a kaple nadále slouží svému účelu. Její drobná architektura s předsunutou věží, lomenými okny a otevřenou předsíní zvonice je typickým příkladem venkovské sakrální stavby první poloviny 20. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/jasenove-kaplnka-bozskeho-srdca-jezisovho",
+        "https://farnostrajec.sk/article/default/1800",
+        "https://www.tvlux.sk/archiv/play/tyzden-s-2509-35710"
+      ],
+      "location": {
+        "name": "Kaplnka Božského Srdca Ježišovho",
+        "address": "Jasenové, Slovensko",
+        "lat": 49.11089,
+        "lon": 18.636085,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/jasenove-kaplnka-bozskeho-srdca-jezisovho"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Zbyňovská zvonice a kříž se jmény vystěhovalců do Ameriky",
+      "text": "Nedaleko obecního úřadu v Zbyňově stojí klasicistická zvonice s kaplí, kterou obec datuje do roku 1840. Před ní je kamenný kříž z roku 1909, do jehož kamene jsou vytesána jména místních lidí, kteří odešli za prací do Ameriky. Památka tak není jen náboženským místem, ale také neobvyklou připomínkou vystěhovalectví, které zasáhlo rodiny v Rajecké dolině. V interiéru zvonice se nachází plastika sedící Madony, vytvořená podle barokní kopie středověkého mariánského obrazu. Soubor kaple, zvonice a kříže propojuje každodenní zbožnost s osobními příběhy lidí, kteří odešli za oceán a jejichž jména zůstala vytesána v kameni.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.obeczbynov.sk/modules/file_storage/download.php?file=bd7bf3de%7C437",
+        "https://www.pamiatkynaslovensku.sk/zbynov-zvonica-s-kaplnkou"
+      ],
+      "location": {
+        "name": "Zvonica s kaplnkou a kamenným krížom",
+        "address": "Zbyňov, Slovensko",
+        "lat": 49.120781,
+        "lon": 18.646169,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/zbynov-zvonica-s-kaplnkou"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Zbyňov před školou: tři křížky místo podpisu a těžké roky 19. století",
+      "text": "Zbyňov je písemně doložen od roku 1407 pod podobou Izben a po staletí patřil k panství Lietavského hradu. Obecní kronika zachycuje, jak pomalu se zde šířila gramotnost: podle místního podání do roku 1876 neuměl v obci nikdo psát a notář musel každého richtáře naučit podepsat se, často pouze třemi křížky. Číst, psát a počítat učili obyvatele vysloužilí vojáci a lidé, kteří se tomu naučili na cestách; prvními negraduovanými učiteli byli Jozef Lieskovský a Nevolný. Řádná škola byla postavena až roku 1909. Kronika připomíná také dvě těžké rány: choleru roku 1866, při níž umíraly celé rodiny, a živelní pohromu roku 1885, která zničila úrodu v širokém okolí a přinesla nedostatek jídla i krmiva pro dobytek.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obeczbynov.sk/obec-2/historia-obce/",
+        "https://www.obeczbynov.sk/"
+      ],
+      "location": {
+        "name": "Historické jadro Zbyňova – orientačný bod pri zvonici",
+        "address": "Zbyňov, Slovensko",
+        "lat": 49.120781,
+        "lon": 18.646169,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/zbynov-zvonica-s-kaplnkou"
+      },
+      "map_category": "local_culture"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Týždeň s farnosťou Jasenové – TV Lux",
+      "url": "https://www.tvlux.sk/archiv/play/tyzden-s-2509-35710",
+      "type": "news"
+    },
+    {
+      "title": "Kaplnka Panny Márie Lurdskej v Kľačoch – poloha a súradnice",
+      "url": "https://poi.oma.sk/n672081044",
+      "type": "specialist"
+    },
+    {
+      "title": "Farnosť Jasenové a jej filiálky – Žilinská diecéza",
+      "url": "https://www.dcza.sk/sk/schematizmus/farnosti/jasenove",
+      "type": "official"
+    },
+    {
+      "title": "Železničná trať Žilina – Rajec: história a prerušenie dopravy",
+      "url": "https://www.rail.sk/arp/slovakia/history/h126.htm",
+      "type": "specialist"
+    },
+    {
+      "title": "Miestna železnica Žilina – Rajec – Železnice Slovenskej republiky",
+      "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1873-1918/miestne-zeleznice/miestna-zeleznica-zilina-rajec/",
+      "type": "official"
+    },
+    {
+      "title": "Železničná zastávka Kľače – Atlas Drah střední Evropy",
+      "url": "https://www.atlasdrah.net/sk/zilinsky/?id=baza&poz=2803",
+      "type": "specialist"
+    },
+    {
+      "title": "Trať 126 Žilina – Rajec – Železničné.info",
+      "url": "https://www.zeleznicne.info/view.php?cisloclanku=2007090053&nazevclanku=trat-126-zilina-rajec",
+      "type": "specialist"
+    },
+    {
+      "title": "Jasenové – zaniklý kostel Všech svatých",
+      "url": "https://www.pamiatkynaslovensku.sk/jasenove-kostol-vsetkych-svatych",
+      "type": "specialist"
+    },
+    {
+      "title": "Oficiální adresa obce Jasenové a PSČ 01319",
+      "url": "https://www.e-obce.info/jasenove/article/default/1876",
+      "type": "official"
+    },
+    {
+      "title": "Jasenové – kaple Božského Srdce Ježíšova",
+      "url": "https://www.pamiatkynaslovensku.sk/jasenove-kaplnka-bozskeho-srdca-jezisovho",
+      "type": "specialist"
+    },
+    {
+      "title": "Historie farnosti Rajec – kaple v Jasenovém a Kľačích",
+      "url": "https://farnostrajec.sk/article/default/1800",
+      "type": "official"
+    },
+    {
+      "title": "Historické stavby obce Zbyňov – obecní materiál",
+      "url": "https://www.obeczbynov.sk/modules/file_storage/download.php?file=bd7bf3de%7C437",
+      "type": "official"
+    },
+    {
+      "title": "Zbyňov – zvonice s kaplí",
+      "url": "https://www.pamiatkynaslovensku.sk/zbynov-zvonica-s-kaplnkou",
+      "type": "specialist"
+    },
+    {
+      "title": "Historie obce Zbyňov – oficiální web",
+      "url": "https://www.obeczbynov.sk/obec-2/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Oficiální web obce Zbyňov",
+      "url": "https://www.obeczbynov.sk/",
+      "type": "official"
+    },
+    {
+      "title": "Registr obcí a jejich adres – p104.svspn.sk",
+      "url": "https://p104.svspn.sk/prirucka/obce.php?x_kraj=ZA",
+      "type": "official"
+    },
+    {
+      "title": "Základní údaje obce Kľače – oficiální web",
+      "url": "https://www.e-obce.info/klace/article/default/1887",
+      "type": "official"
+    },
+    {
+      "title": "Pošta Kľače – informace o pobočce a jejím uzavření",
+      "url": "https://www.posty.sk/klace/",
+      "type": "other"
+    },
+    {
+      "title": "Zbyňovský Budzogáň – okolí a turistická poloha",
+      "url": "https://www.krasneslovensko.eu/zilinsky-kraj/zbynovsky-budzogan",
+      "type": "regional"
+    },
+    {
+      "title": "Mapové body v obci Súľov-Hradná – poštovní oblast 01352",
+      "url": "https://sulov-hradna.oma.sk/poi",
+      "type": "specialist"
+    },
+    {
+      "title": "Zbyňov – obecní informační materiál a turistické okolí",
+      "url": "https://www.obeczbynov.sk/evt_file.php?file=2782",
+      "type": "official"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Centrální registr obcí a adres p104 uvádí pod PSČ 01319 obce Kľače, Jasenové a Zbyňov. Oficiální diecézní a obecní adresy toto přiřazení potvrzují. Pošta Kľače byla uzavřena, ale pole city zůstává Kľače jako poštovní lokalita kódu 01319.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Centrální registr obcí a adres p104.svspn.sk; oficiální adresy obcí a záznam poštovní pobočky Kľače",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Poštovní lokalitou kódu 01319 jsou Kľače; pobočka v obci je uzavřena, ale oficiální registr stále přiřazuje PSČ 01319 obcím Kľače, Jasenové a Zbyňov. Jako přístupový bod je použit veřejný železniční zastávkový bod v Kľačích.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Centrální registr p104 a oficiální obecní/diecézní adresy pro poštovní přiřazení; ŽSR, Žilinská diecéze, Pamiatky na Slovensku a obecní historické materiály pro fakta a polohy."
+  },
+  "translations": {
+    "de": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Lourdeskapelle in Kľače: ein Marienort von 1928",
+          "text": "Kľače hat keine eigene Pfarrkirche; das religiöse Leben der Filialgemeinde konzentriert sich auf die 1928 errichtete Kapelle Unserer Lieben Frau von Lourdes. Im Inneren steht eine Lourdes-Madonna, ergänzt durch kleinere Statuen des Heiligsten Herzens und der heiligen Theresia. Die Gläubigen treffen sich hier zum Gebet und zur Marienverehrung; Gottesdienste finden auch im Haus der Hoffnung auf dem örtlichen Friedhof statt. Seit fast hundert Jahren ist die Kapelle ein wichtiger gemeinschaftlicher Ort des kleinen Dorfes; 2028 wird sie ihr hundertjähriges Bestehen feiern."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Rajecká Anča und der Haltepunkt Kľače: eine Bahn, die 2003 beinahe eingestellt wurde",
+          "text": "Die Lokalbahn Žilina–Rajec wurde am 10. Oktober 1899 feierlich eröffnet. Sie war rund 20,8 Kilometer lang und sollte ursprünglich bis Nitrianske Pravno verlängert werden, um eine direkte Bahnverbindung zwischen Žilina und Prievidza zu schaffen; dieser Plan wurde jedoch nie verwirklicht. Der Haltepunkt Kľače liegt am 19,4. Streckenkilometer; sein Name ist in Eisenbahnunterlagen seit 1935 belegt. Im Februar 2003 wurde der Personenverkehr auf der gesamten Strecke eingestellt, doch nach Verhandlungen der Gemeinden und regionalen Partner fuhr bereits am 17. Februar wieder ein Übergangsbetrieb; am 15. Juni übernahm die ZSSK den Betrieb erneut. Der Spitzname Rajecká Anča steht damit für eine Lokalbahn, die sich die Bewohner des Rajecká-Tals bewahren konnten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die verschwundene gotische Kirche in Jasenové und ihre Madonna um 1500",
+          "text": "Jasenové besaß bereits im 14. Jahrhundert eine gotische Allerheiligenkirche. Im 17. Jahrhundert wurde sie umgebaut und 1882 im neoromanischen Stil erneuert; später verschwand das alte Gotteshaus und wurde durch die neue Kirche des Heiligsten Herzens Jesu ersetzt, die im Jahr 2000 geweiht wurde. Zum historischen Inventar gehörte eine spätgotische Madonna um 1500, später barock überarbeitet, außerdem kleinere Statuen der heiligen Dorothea, Barbara, Margareta und Katharina von Alexandrien sowie eine gotische Glocke. Die überlieferten Beschreibungen zeigen, dass selbst das kleine Dorf einst eine wertvolle mittelalterliche Kirchenausstattung besaß. Der Kartenpunkt markiert den historischen Standort der verschwundenen Kirche, nicht ein heutiges Gebäude."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Kapelle des Heiligsten Herzens in Jasenové: ein Treffpunkt vor dem Bau der Kirche",
+          "text": "Die Kapelle des Heiligsten Herzens Jesu im Zentrum von Jasenové wurde 1924 aus Spenden der Gläubigen errichtet; ihre Entstehung ist mit dem Priester Benedikt Skácel verbunden. Bevor 1998–2000 die neue Pfarrkirche gebaut wurde, war die Kapelle der wichtigste Ort für gemeinsames Gebet und Gottesdienste. Die Einwohner erinnern sich an Maiandachten, den Rosenkranz im Oktober und die jährliche Messe zum Fest des Heiligsten Herzens. 2017 wurde die Fassade erneuert; die Kapelle dient weiterhin ihrem Zweck. Ihre kleine Architektur mit vorgestelltem Turm, Spitzbogenfenstern und offener Vorhalle des Glockenturms ist typisch für ländliche Sakralbauten der ersten Hälfte des 20. Jahrhunderts."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Glockenturm von Zbyňov und das Kreuz mit den Namen der Auswanderer nach Amerika",
+          "text": "Unweit des Gemeindeamts in Zbyňov steht ein klassizistischer Glockenturm mit Kapelle, den die Gemeinde auf das Jahr 1840 datiert. Davor befindet sich ein Steinkreuz von 1909, in dessen Stein die Namen örtlicher Menschen eingemeißelt sind, die zur Arbeit nach Amerika auswanderten. Das Denkmal ist somit nicht nur ein religiöser Ort, sondern auch eine ungewöhnliche Erinnerung an die Auswanderung, die Familien im Rajecká-Tal betraf. Im Inneren des Glockenturms befindet sich eine sitzende Madonna nach einer barocken Kopie eines mittelalterlichen Marienbildes. Kapelle, Glockenturm und Kreuz verbinden alltägliche Frömmigkeit mit den persönlichen Geschichten jener Menschen, die über den Ozean gingen und deren Namen im Stein blieben."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov vor der Schule: drei Kreuze statt einer Unterschrift und schwere Jahre im 19. Jahrhundert",
+          "text": "Zbyňov ist seit 1407 unter der Namensform Izben schriftlich belegt und gehörte jahrhundertelang zur Herrschaft der Burg Lietava. Die Ortschronik zeigt, wie langsam sich die Schreib- und Lesefähigkeit verbreitete: Der Überlieferung nach konnte bis 1876 niemand im Dorf schreiben, und der Notar musste jedem Dorfrichter beibringen, seine Unterschrift zu leisten, oft nur mit drei Kreuzen. Lesen, Schreiben und Rechnen vermittelten ehemalige Soldaten und Menschen, die es auf Reisen gelernt hatten; die ersten nicht ausgebildeten Lehrer waren Jozef Lieskovský und Nevolný. Eine reguläre Schule wurde erst 1909 gebaut. Die Chronik erinnert auch an zwei schwere Katastrophen: die Cholera von 1866, bei der ganze Familien starben, und das Unwetter von 1885, das die Ernte in der weiteren Umgebung vernichtete und zu einem Mangel an Nahrung und Viehfutter führte."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The Lourdes Chapel in Kľače: a Marian place dating from 1928",
+          "text": "Kľače has no parish church of its own; the religious life of this branch community centres on the Chapel of Our Lady of Lourdes, built in 1928. Its interior is dominated by a statue of Our Lady of Lourdes, accompanied by smaller statues of the Sacred Heart and St Thérèse. Local believers gather here for prayer and Marian devotion; services are also held in the House of Hope at the village cemetery. For almost a century the chapel has been an important shared place for this small community, and in 2028 it will mark its centenary."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Rajecká Anča and Kľače stop: a railway that nearly disappeared in 2003",
+          "text": "The local railway between Žilina and Rajec was officially opened on 10 October 1899. It is about 20.8 kilometres long and was originally intended to continue as far as Nitrianske Pravno, creating a direct rail link between Žilina and Prievidza; that extension was never built. Kľače stop lies at kilometre 19.4, and its name appears in railway records from 1935. Passenger services on the whole line were suspended in February 2003, but after negotiations involving local authorities and regional partners, a temporary service resumed on 17 February; ZSSK took over again on 15 June. The nickname Rajecká Anča has come to represent a local railway that the people of the Rajecká Valley managed to save."
+        },
+        {
+          "id": "fact_003",
+          "title": "The lost Gothic church in Jasenové and its Madonna from around 1500",
+          "text": "Jasenové already had a Gothic Church of All Saints in the 14th century. It was altered in the 17th century and rebuilt in the Neo-Romanesque style in 1882; the old church later disappeared and was replaced by the new Church of the Sacred Heart of Jesus, consecrated in 2000. Its historic inventory included a late-Gothic Madonna from around 1500, later modified in the Baroque style, smaller statues of St Dorothy, St Barbara, St Margaret and St Catherine of Alexandria, and a Gothic bell. The surviving descriptions show that even this small village once had valuable medieval church furnishings. The map point marks the historic site of the lost church, not a standing building."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Chapel of the Sacred Heart in Jasenové: a gathering place before the church was built",
+          "text": "The Chapel of the Sacred Heart of Jesus in the centre of Jasenové was built in 1924 with donations from the faithful; its creation is associated with Father Benedikt Skácel. Before the new parish church was built in 1998–2000, the chapel was the main place for communal prayer and services. Residents remember May devotions, the October rosary and an annual Mass for the feast of the Sacred Heart. Its façade was restored in 2017 and it continues to serve its purpose. Its small design, with a projecting tower, pointed windows and an open entrance porch beneath the bell tower, is typical of rural sacred architecture from the first half of the 20th century."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Zbyňov bell tower and the cross bearing the names of emigrants to America",
+          "text": "Near the municipal office in Zbyňov stands a Classicist bell tower with a chapel, which the municipality dates to 1840. In front of it is a stone cross from 1909, with the names of local people who emigrated to America for work carved into the stone. The monument is therefore not only a religious site but also an unusual reminder of emigration that affected families throughout the Rajecká Valley. Inside the bell tower is a seated Madonna based on a Baroque copy of a medieval Marian image. The chapel, bell tower and cross connect everyday religious life with the personal stories of people who crossed the ocean and whose names remained carved in stone."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov before the school: three crosses instead of a signature and hard years in the 19th century",
+          "text": "Zbyňov is documented in writing from 1407 under the name Izben and belonged for centuries to the Lietava estate. The village chronicle shows how slowly literacy spread: according to local tradition, nobody in the village could write before 1876, and the notary had to teach each village mayor to sign, often using only three crosses. Retired soldiers and people who had learned on their travels taught residents to read, write and count; the first uncertified teachers were Jozef Lieskovský and Nevolný. A proper school was not built until 1909. The chronicle also recalls two major disasters: the cholera outbreak of 1866, which killed entire families, and the natural disaster of 1885, which destroyed crops across the area and left people short of food and animal fodder."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La capilla de Lourdes de Kľače: un lugar mariano de 1928",
+          "text": "Kľače no tiene iglesia parroquial propia; la vida religiosa de esta comunidad filial se concentra en la capilla de Nuestra Señora de Lourdes, construida en 1928. En su interior destaca la estatua de la Virgen de Lourdes, acompañada por pequeñas imágenes del Sagrado Corazón y santa Teresa. Los fieles se reúnen aquí para rezar y expresar su devoción mariana; también se celebran oficios en la Casa de la Esperanza del cementerio local. Durante casi un siglo, la capilla ha sido un importante lugar de encuentro para esta pequeña comunidad y en 2028 celebrará su centenario."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Rajecká Anča y la parada de Kľače: un ferrocarril que casi desapareció en 2003",
+          "text": "La línea local entre Žilina y Rajec se inauguró oficialmente el 10 de octubre de 1899. Tiene unos 20,8 kilómetros y originalmente debía prolongarse hasta Nitrianske Pravno para crear una conexión ferroviaria directa entre Žilina y Prievidza, pero el proyecto nunca se realizó. La parada de Kľače está en el kilómetro 19,4 y su nombre aparece en los registros ferroviarios desde 1935. En febrero de 2003 se suspendió el servicio de pasajeros en toda la línea, pero tras las negociaciones de los municipios y socios regionales volvió a funcionar provisionalmente el 17 de febrero; ZSSK retomó el servicio el 15 de junio. El apodo Rajecká Anča representa así un ferrocarril local que los habitantes del valle de Rajecká consiguieron salvar."
+        },
+        {
+          "id": "fact_003",
+          "title": "La desaparecida iglesia gótica de Jasenové y su Virgen de hacia 1500",
+          "text": "Jasenové ya tenía en el siglo XIV una iglesia gótica de Todos los Santos. Fue modificada en el siglo XVII y reconstruida en estilo neorrománico en 1882; más tarde desapareció y fue sustituida por la nueva iglesia del Sagrado Corazón de Jesús, consagrada en 2000. Su inventario histórico incluía una Virgen tardogótica de hacia 1500, modificada posteriormente en estilo barroco, pequeñas esculturas de santa Dorotea, santa Bárbara, santa Margarita y santa Catalina de Alejandría, además de una campana gótica. Las descripciones conservadas muestran que incluso este pequeño pueblo tuvo un valioso ajuar religioso medieval. El punto del mapa señala el lugar histórico de la iglesia desaparecida, no un edificio actual."
+        },
+        {
+          "id": "fact_004",
+          "title": "La capilla del Sagrado Corazón en Jasenové: un lugar de encuentro antes de construir la iglesia",
+          "text": "La capilla del Sagrado Corazón de Jesús, en el centro de Jasenové, fue construida en 1924 con donaciones de los fieles; su origen está relacionado con el sacerdote Benedikt Skácel. Antes de que se levantara la nueva iglesia parroquial entre 1998 y 2000, la capilla era el principal lugar de oración comunitaria y celebración de misas. Los vecinos recuerdan las devociones de mayo, el rosario de octubre y la misa anual de la festividad del Sagrado Corazón. Su fachada fue restaurada en 2017 y sigue cumpliendo su función. Su pequeña arquitectura, con torre adelantada, ventanas apuntadas y pórtico abierto bajo el campanario, es típica de los edificios religiosos rurales de la primera mitad del siglo XX."
+        },
+        {
+          "id": "fact_005",
+          "title": "El campanario de Zbyňov y la cruz con los nombres de emigrantes a América",
+          "text": "Cerca del ayuntamiento de Zbyňov se alza un campanario clasicista con capilla que el municipio fecha en 1840. Delante hay una cruz de piedra de 1909 en la que están grabados los nombres de vecinos que emigraron a América para trabajar. El monumento no es solo un lugar religioso, sino también un recuerdo poco común de la emigración que afectó a las familias del valle de Rajecká. En el interior del campanario se conserva una imagen de la Virgen sentada, basada en una copia barroca de una imagen mariana medieval. La capilla, el campanario y la cruz unen la devoción cotidiana con las historias personales de quienes cruzaron el océano y dejaron sus nombres grabados en la piedra."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov antes de la escuela: tres cruces en lugar de una firma y años difíciles en el siglo XIX",
+          "text": "Zbyňov aparece documentado desde 1407 con el nombre de Izben y durante siglos perteneció al señorío del castillo de Lietava. La crónica local muestra lo lentamente que se extendió la alfabetización: según la tradición del pueblo, hasta 1876 nadie sabía escribir y el notario tenía que enseñar a cada alcalde a firmar, a menudo con solo tres cruces. Los soldados licenciados y las personas que habían aprendido durante sus viajes enseñaban a leer, escribir y contar; los primeros maestros sin titulación fueron Jozef Lieskovský y Nevolný. La primera escuela formal no se construyó hasta 1909. La crónica recuerda también dos grandes calamidades: la epidemia de cólera de 1866, que acabó con familias enteras, y el desastre natural de 1885, que destruyó las cosechas de la región y dejó a la población sin alimentos ni forraje."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La chapelle de Lourdes de Kľače : un lieu marial datant de 1928",
+          "text": "Kľače ne possède pas d’église paroissiale propre ; la vie religieuse de cette communauté filiale se concentre autour de la chapelle Notre-Dame-de-Lourdes, construite en 1928. À l’intérieur se trouve une statue de Notre-Dame de Lourdes, accompagnée de petites statues du Sacré-Cœur et de sainte Thérèse. Les fidèles s’y retrouvent pour prier et manifester leur dévotion mariale ; des offices sont également célébrés à la Maison de l’Espérance du cimetière local. Depuis près d’un siècle, la chapelle est un lieu important de la vie commune du petit village et fêtera son centenaire en 2028."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Rajecká Anča et l’arrêt de Kľače : une ligne ferroviaire qui faillit disparaître en 2003",
+          "text": "La ligne locale entre Žilina et Rajec fut officiellement inaugurée le 10 octobre 1899. Elle mesure environ 20,8 kilomètres et devait initialement être prolongée jusqu’à Nitrianske Pravno afin de créer une liaison ferroviaire directe entre Žilina et Prievidza ; ce projet ne fut jamais réalisé. L’arrêt de Kľače se trouve au kilomètre 19,4 et son nom apparaît dans les documents ferroviaires depuis 1935. En février 2003, le trafic voyageurs fut suspendu sur toute la ligne, mais après des négociations entre les communes et les partenaires régionaux, un service provisoire reprit dès le 17 février ; la ZSSK reprit l’exploitation le 15 juin. Le surnom Rajecká Anča désigne ainsi une petite ligne que les habitants de la vallée de Rajecká ont réussi à sauver."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église gothique disparue de Jasenové et sa Vierge datant d’environ 1500",
+          "text": "Jasenové possédait déjà au XIVe siècle une église gothique dédiée à Tous-les-Saints. Elle fut remaniée au XVIIe siècle puis reconstruite dans le style néoroman en 1882 ; elle disparut plus tard et fut remplacée par la nouvelle église du Sacré-Cœur de Jésus, consacrée en 2000. Son ancien inventaire comprenait une Vierge de style gothique tardif datant d’environ 1500, remaniée à l’époque baroque, de petites statues de sainte Dorothée, sainte Barbe, sainte Marguerite et sainte Catherine d’Alexandrie, ainsi qu’une cloche gothique. Les descriptions conservées montrent que même ce petit village possédait autrefois un mobilier religieux médiéval de valeur. Le point cartographique indique l’emplacement historique de l’église disparue, et non un bâtiment actuel."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chapelle du Sacré-Cœur à Jasenové : un lieu de rencontre avant la construction de l’église",
+          "text": "La chapelle du Sacré-Cœur de Jésus, au centre de Jasenové, fut construite en 1924 grâce aux dons des fidèles ; sa création est liée au prêtre Benedikt Skácel. Avant la construction de la nouvelle église paroissiale entre 1998 et 2000, elle était le principal lieu de prière collective et de célébration des offices. Les habitants se souviennent des dévotions du mois de mai, du rosaire d’octobre et de la messe annuelle de la fête du Sacré-Cœur. Sa façade fut restaurée en 2017 et la chapelle continue de remplir sa fonction. Sa petite architecture, avec une tour en avancée, des fenêtres ogivales et un porche ouvert sous le clocher, est typique des édifices religieux ruraux de la première moitié du XXe siècle."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le clocher de Zbyňov et la croix portant les noms des émigrants partis en Amérique",
+          "text": "Près de la mairie de Zbyňov se dresse un clocher classique avec chapelle, que la commune date de 1840. Devant lui se trouve une croix de pierre de 1909, sur laquelle sont gravés les noms d’habitants partis travailler en Amérique. Le monument est donc non seulement un lieu religieux, mais aussi un témoignage inhabituel de l’émigration qui a touché les familles de la vallée de Rajecká. À l’intérieur du clocher se trouve une Madone assise, inspirée d’une copie baroque d’une image mariale médiévale. La chapelle, le clocher et la croix relient la piété quotidienne aux histoires personnelles de ceux qui ont traversé l’océan et dont les noms sont restés gravés dans la pierre."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov avant l’école : trois croix au lieu d’une signature et des années difficiles au XIXe siècle",
+          "text": "Zbyňov est attesté par écrit depuis 1407 sous le nom d’Izben et dépendit pendant des siècles du domaine du château de Lietava. La chronique locale montre la lente diffusion de l’alphabétisation : selon la tradition du village, personne ne savait écrire avant 1876 et le notaire devait apprendre à chaque juge local à signer, souvent avec trois simples croix. Des soldats retraités et des personnes ayant appris au cours de leurs voyages enseignaient la lecture, l’écriture et le calcul ; les premiers instituteurs non diplômés furent Jozef Lieskovský et Nevolný. Une véritable école ne fut construite qu’en 1909. La chronique rappelle aussi deux grandes calamités : l’épidémie de choléra de 1866, qui décima des familles entières, et la catastrophe naturelle de 1885, qui détruisit les récoltes de la région et priva les habitants de nourriture et de fourrage."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La cappella di Lourdes a Kľače: un luogo mariano del 1928",
+          "text": "Kľače non possiede una chiesa parrocchiale propria; la vita religiosa della comunità filiale si concentra nella cappella della Madonna di Lourdes, costruita nel 1928. All’interno domina la statua della Madonna di Lourdes, accompagnata da piccole statue del Sacro Cuore e di santa Teresa. I fedeli si incontrano qui per la preghiera e la devozione mariana; le celebrazioni si svolgono anche nella Casa della Speranza presso il cimitero locale. Da quasi un secolo la cappella è un importante luogo comunitario per il piccolo villaggio e nel 2028 celebrerà il suo centenario."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Rajecká Anča e la fermata di Kľače: una ferrovia che rischiò di scomparire nel 2003",
+          "text": "La linea locale tra Žilina e Rajec fu inaugurata ufficialmente il 10 ottobre 1899. È lunga circa 20,8 chilometri e inizialmente avrebbe dovuto proseguire fino a Nitrianske Pravno, creando un collegamento ferroviario diretto tra Žilina e Prievidza; il progetto non fu mai realizzato. La fermata di Kľače si trova al chilometro 19,4 e il suo nome compare nei documenti ferroviari dal 1935. Nel febbraio 2003 il servizio passeggeri sull’intera linea fu sospeso, ma dopo le trattative tra i comuni e i partner regionali riprese in via provvisoria già il 17 febbraio; il 15 giugno la ZSSK tornò a gestire il servizio. Il soprannome Rajecká Anča indica così una ferrovia locale che gli abitanti della valle di Rajecká riuscirono a salvare."
+        },
+        {
+          "id": "fact_003",
+          "title": "La scomparsa chiesa gotica di Jasenové e la sua Madonna del 1500 circa",
+          "text": "Jasenové aveva già nel XIV secolo una chiesa gotica dedicata a Ognissanti. Fu modificata nel XVII secolo e ricostruita in stile neoromanico nel 1882; in seguito scomparve e fu sostituita dalla nuova chiesa del Sacro Cuore di Gesù, consacrata nel 2000. Il suo antico inventario comprendeva una Madonna tardogotica del 1500 circa, in seguito rimaneggiata in stile barocco, piccole statue di santa Dorotea, santa Barbara, santa Margherita e santa Caterina d’Alessandria, oltre a una campana gotica. Le descrizioni conservate mostrano che anche questo piccolo villaggio possedeva un tempo un prezioso arredo sacro medievale. Il punto sulla mappa indica il luogo storico della chiesa scomparsa, non un edificio attuale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La cappella del Sacro Cuore a Jasenové: luogo di incontro prima della costruzione della chiesa",
+          "text": "La cappella del Sacro Cuore di Gesù, nel centro di Jasenové, fu costruita nel 1924 con le offerte dei fedeli; la sua realizzazione è legata al sacerdote Benedikt Skácel. Prima che la nuova chiesa parrocchiale fosse costruita tra il 1998 e il 2000, la cappella era il principale luogo di preghiera comune e di celebrazione delle funzioni. Gli abitanti ricordano le devozioni di maggio, il rosario di ottobre e la messa annuale per la festa del Sacro Cuore. La facciata fu restaurata nel 2017 e la cappella continua a essere utilizzata. La sua piccola architettura, con torre avanzata, finestre ogivali e portico aperto sotto il campanile, è tipica degli edifici sacri rurali della prima metà del XX secolo."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il campanile di Zbyňov e la croce con i nomi degli emigrati in America",
+          "text": "Vicino al municipio di Zbyňov sorge un campanile neoclassico con cappella, che il comune data al 1840. Davanti si trova una croce di pietra del 1909, sulla quale sono incisi i nomi degli abitanti emigrati in America per lavoro. Il monumento non è quindi soltanto un luogo religioso, ma anche un ricordo insolito dell’emigrazione che coinvolse le famiglie della valle di Rajecká. All’interno del campanile si trova una Madonna seduta, ispirata a una copia barocca di un’immagine mariana medievale. Cappella, campanile e croce collegano la devozione quotidiana alle storie personali di coloro che attraversarono l’oceano e i cui nomi rimasero incisi nella pietra."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov prima della scuola: tre croci al posto della firma e anni difficili nel XIX secolo",
+          "text": "Zbyňov è documentato per iscritto dal 1407 con il nome di Izben e per secoli appartenne alla signoria del castello di Lietava. La cronaca locale mostra quanto lentamente si diffuse l’alfabetizzazione: secondo la tradizione del villaggio, fino al 1876 nessuno sapeva scrivere e il notaio doveva insegnare a ogni giudice locale a firmare, spesso usando soltanto tre croci. Soldati in congedo e persone che avevano imparato durante i viaggi insegnavano a leggere, scrivere e far di conto; i primi insegnanti non diplomati furono Jozef Lieskovský e Nevolný. Una vera scuola fu costruita soltanto nel 1909. La cronaca ricorda anche due grandi calamità: l’epidemia di colera del 1866, che uccise intere famiglie, e il disastro naturale del 1885, che distrusse i raccolti della zona e lasciò la popolazione senza cibo né foraggio."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Lourdeskapel in Kľače: een Mariaplek uit 1928",
+          "text": "Kľače heeft geen eigen parochiekerk; het religieuze leven van deze filiaalgemeenschap draait om de Kapel van Onze-Lieve-Vrouw van Lourdes, gebouwd in 1928. Binnen staat een beeld van Onze-Lieve-Vrouw van Lourdes, aangevuld met kleinere beelden van het Heilig Hart en de heilige Theresia. Gelovigen komen hier samen voor gebed en Mariaverering; diensten worden ook gehouden in het Huis van Hoop op de plaatselijke begraafplaats. Al bijna een eeuw is de kapel een belangrijke gemeenschappelijke plek voor het kleine dorp; in 2028 wordt het honderdjarig bestaan herdacht."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Rajecká Anča en de halte Kľače: een spoorlijn die in 2003 bijna verdween",
+          "text": "De lokale spoorlijn tussen Žilina en Rajec werd officieel geopend op 10 oktober 1899. De lijn is ongeveer 20,8 kilometer lang en zou oorspronkelijk worden doorgetrokken tot Nitrianske Pravno, zodat een rechtstreekse spoorverbinding tussen Žilina en Prievidza zou ontstaan; dat plan werd nooit uitgevoerd. De halte Kľače ligt op kilometer 19,4 en de naam komt sinds 1935 in spoorwegdocumenten voor. In februari 2003 werd het reizigersvervoer op de hele lijn stilgelegd, maar na onderhandelingen tussen gemeenten en regionale partners werd op 17 februari een tijdelijke dienst hervat; op 15 juni nam ZSSK de exploitatie weer over. De bijnaam Rajecká Anča staat zo voor een lokale spoorlijn die de inwoners van het Rajecká-dal wisten te behouden."
+        },
+        {
+          "id": "fact_003",
+          "title": "De verdwenen gotische kerk in Jasenové en haar Madonna van rond 1500",
+          "text": "Jasenové had al in de 14e eeuw een gotische Allerheiligenkerk. Ze werd in de 17e eeuw aangepast en in 1882 in neoromaanse stijl herbouwd; later verdween het oude gebouw en werd het vervangen door de nieuwe Kerk van het Heilig Hart van Jezus, ingewijd in 2000. Tot de historische inventaris behoorde een laatgotische Madonna van rond 1500, later in barokke stijl aangepast, kleinere beelden van de heilige Dorothea, Barbara, Margaretha en Catharina van Alexandrië, en een gotische klok. De bewaard gebleven beschrijvingen tonen dat zelfs dit kleine dorp ooit waardevolle middeleeuwse kerkelijke kunst bezat. Het kaartpunt markeert de historische locatie van de verdwenen kerk, niet een bestaand gebouw."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Kapel van het Heilig Hart in Jasenové: een ontmoetingsplek voordat de kerk werd gebouwd",
+          "text": "De Kapel van het Heilig Hart van Jezus in het centrum van Jasenové werd in 1924 gebouwd met giften van gelovigen; de bouw is verbonden met priester Benedikt Skácel. Voordat de nieuwe parochiekerk tussen 1998 en 2000 werd gebouwd, was de kapel de belangrijkste plek voor gezamenlijk gebed en kerkdiensten. Bewoners herinneren zich de meidevoties, de rozenkrans in oktober en de jaarlijkse mis op het feest van het Heilig Hart. De gevel werd in 2017 gerestaureerd en de kapel wordt nog steeds gebruikt. De kleine architectuur met vooruitstekende toren, spitsboogvensters en een open voorhal onder de klokkentoren is typerend voor landelijke religieuze gebouwen uit de eerste helft van de 20e eeuw."
+        },
+        {
+          "id": "fact_005",
+          "title": "De klokkentoren van Zbyňov en het kruis met de namen van emigranten naar Amerika",
+          "text": "Vlak bij het gemeentehuis van Zbyňov staat een classicistische klokkentoren met kapel, die de gemeente dateert op 1840. Ervoor staat een stenen kruis uit 1909 met de namen van inwoners die naar Amerika emigreerden om werk te zoeken in de steen gegraveerd. Het monument is dus niet alleen een religieuze plek, maar ook een bijzondere herinnering aan de emigratie die gezinnen in het Rajecká-dal trof. Binnen in de klokkentoren staat een zittende Madonna, gebaseerd op een barokke kopie van een middeleeuws Mariabeeld. De kapel, klokkentoren en het kruis verbinden het dagelijkse geloof met de persoonlijke verhalen van mensen die de oceaan overstaken en wier namen in steen bewaard bleven."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov vóór de school: drie kruisjes in plaats van een handtekening en moeilijke jaren in de 19e eeuw",
+          "text": "Zbyňov wordt sinds 1407 schriftelijk vermeld onder de naam Izben en behoorde eeuwenlang tot het domein van Kasteel Lietava. De dorpskroniek laat zien hoe langzaam geletterdheid zich verspreidde: volgens de plaatselijke overlevering kon vóór 1876 niemand in het dorp schrijven en moest de notaris iedere dorpsrechter leren tekenen, vaak met slechts drie kruisjes. Gepensioneerde soldaten en mensen die tijdens hun reizen hadden leren lezen, schrijven en rekenen gaven les; de eerste onbevoegde onderwijzers waren Jozef Lieskovský en Nevolný. Een echte school werd pas in 1909 gebouwd. De kroniek herinnert ook aan twee zware rampen: de cholera-epidemie van 1866, waarbij hele gezinnen stierven, en de natuurramp van 1885, die de oogst in de omgeving verwoestte en een tekort aan voedsel en veevoer veroorzaakte."
+        }
+      ]
+    },
+    "cs": {
+      "representative_place": "Zvonica s kaplnkou a kamenným krížom v Zbyňove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lurdská kaple v Kľačích: mariánské místo z roku 1928",
+          "text": "Kľače nemají vlastní farní kostel; duchovní život místní filiálky se soustřeďuje kolem kaple Panny Marie Lurdské, postavené v roce 1928. Její interiér dominuje socha Lurdské Panny Marie, doplněná menšími sochami Božského Srdce a svaté Terezie. Věřící se zde scházejí k modlitbě a mariánské úctě; pravidelné bohoslužby se konají také v Domě nádeje na místním hřbitově. Kaple tak už téměř sto let představuje důležité společné místo malé obce a v roce 2028 si připomene sté výročí svého vzniku."
+        },
+        {
+          "id": "fact_002",
+          "title": "Rajecká Anča a zastávka Kľače: železnice, která málem skončila v roce 2003",
+          "text": "Místní trať Žilina–Rajec byla slavnostně otevřena 10. října 1899. Měřila přibližně 20,8 kilometru a měla původně pokračovat až do Nitrianského Pravna, čímž by vzniklo přímé železniční spojení Žiliny s Prievidzou; plán se však nikdy neuskutečnil. Zastávka Kľače leží na 19,4. kilometru tratě a její název se v železničních podkladech objevuje od roku 1935. V únoru 2003 byla osobní doprava na celé trati zastavena, ale po jednáních obcí a regionálních partnerů se už 17. února znovu rozjela v přechodném režimu; od 15. června převzala provoz zpět ZSSK. Přezdívka Rajecká Anča tak označuje lokálku, kterou si obyvatelé Rajecké doliny dokázali uhájit."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zaniklý gotický kostel v Jasenovém a jeho Madona z doby kolem roku 1500",
+          "text": "Jasenové mělo už ve 14. století gotický kostel Všech svatých. V 17. století jej upravili a roku 1882 přestavěli v neorománském slohu; starý chrám později zanikl a na jeho místo nastoupil nový kostel Božského Srdce Ježíšova, vysvěcený v roce 2000. Z historického inventáře je zvlášť cenná pozdně gotická plastika Madony z doby kolem roku 1500, později barokně upravená, dále menší sochy svaté Doroty, Barbory, Markéty a Kateřiny Alexandrijské a gotický zvon. Dochované popisy těchto předmětů připomínají, že i malá obec měla kdysi hodnotné středověké sakrální vybavení. Poloha v záznamu označuje historické místo zaniklého kostela, nikoli současnou stavbu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kaple Božského Srdce v Jasenovém: místo, kde se obec scházela před stavbou kostela",
+          "text": "Kaple Božského Srdce Ježíšova v centru Jasenového byla postavena roku 1924 z darů věřících; její vznik je spojen s knězem Benediktem Skácelem. Než byl v letech 1998–2000 vybudován nový farní kostel, sloužila kaple jako hlavní místo společných modliteb a bohoslužeb. Místní obyvatelé vzpomínají na májové pobožnosti, říjnový růženec i každoroční mši na svátek Božského Srdce. V roce 2017 byla obnovena její fasáda a kaple nadále slouží svému účelu. Její drobná architektura s předsunutou věží, lomenými okny a otevřenou předsíní zvonice je typickým příkladem venkovské sakrální stavby první poloviny 20. století."
+        },
+        {
+          "id": "fact_005",
+          "title": "Zbyňovská zvonice a kříž se jmény vystěhovalců do Ameriky",
+          "text": "Nedaleko obecního úřadu v Zbyňově stojí klasicistická zvonice s kaplí, kterou obec datuje do roku 1840. Před ní je kamenný kříž z roku 1909, do jehož kamene jsou vytesána jména místních lidí, kteří odešli za prací do Ameriky. Památka tak není jen náboženským místem, ale také neobvyklou připomínkou vystěhovalectví, které zasáhlo rodiny v Rajecké dolině. V interiéru zvonice se nachází plastika sedící Madony, vytvořená podle barokní kopie středověkého mariánského obrazu. Soubor kaple, zvonice a kříže propojuje každodenní zbožnost s osobními příběhy lidí, kteří odešli za oceán a jejichž jména zůstala vytesána v kameni."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zbyňov před školou: tři křížky místo podpisu a těžké roky 19. století",
+          "text": "Zbyňov je písemně doložen od roku 1407 pod podobou Izben a po staletí patřil k panství Lietavského hradu. Obecní kronika zachycuje, jak pomalu se zde šířila gramotnost: podle místního podání do roku 1876 neuměl v obci nikdo psát a notář musel každého richtáře naučit podepsat se, často pouze třemi křížky. Číst, psát a počítat učili obyvatele vysloužilí vojáci a lidé, kteří se tomu naučili na cestách; prvními negraduovanými učiteli byli Jozef Lieskovský a Nevolný. Řádná škola byla postavena až roku 1909. Kronika připomíná také dvě těžké rány: choleru roku 1866, při níž umíraly celé rodiny, a živelní pohromu roku 1885, která zničila úrodu v širokém okolí a přinesla nedostatek jídla i krmiva pro dobytek."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
