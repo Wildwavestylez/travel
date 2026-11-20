@@ -1,4 +1,230 @@
 {
   "postcode": "82102",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Staré Mesto",
+  "county": "Bratislava I",
+  "state": "Bratislavský kraj",
+  "representative_place": "Centrální park Ostredky",
+  "representative_point": {
+    "lat": 48.15923776128386,
+    "lon": 17.17173236708359
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Park Alfréda Wetzlera: vzpomínka na útěk z Osvětimi",
+      "text": "Park na křižovatce Ružinovské a Tomášikovy ulice nese jméno Alfréda Wetzlera, slovenského židovského vězně, kterému se v dubnu 1944 podařilo uprchnout z vyhlazovacího komplexu Auschwitz-Birkenau společně s Rudolfem Vrbou. Po útěku sepsali 32stránkovou zprávu s plánky tábora, údaji o vězních a popisem mučení a vraždění v plynových komorách. Jejich svědectví patří k zásadním dokumentům, které pomohly upozornit svět na probíhající genocidu. Wetzlerův pozdější život byl spojený s Ružinovem: pracoval zde v místní knihovně. Pojmenování parku po něm schválilo ružinovské zastupitelstvo v listopadu 2019 a město název potvrdilo obecně závazným nařízením účinným od června 2020.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://zastupitelstvo.bratislava.sk/data/att/46358.pdf",
+        "https://bratislava.blob.core.windows.net/media/Default/Dokumenty/vzn%20parky.pdf",
+        "https://www.ruzinovskeecho.sk/rubrika/reportaze?page=23"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Park Alfréda Wetzlera",
+        "address": "Tomášikova 20, Bratislava, Slovensko",
+        "lat": 48.1583333,
+        "lon": 17.1644444,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w11071801"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Ostredky: poválečné sídliště plánované kolem zeleně",
+      "text": "Ostredky patří k nejstarším bratislavským sídlištím. Ještě na leteckých snímcích z roku 1955 tu převažovala pole a několik rozptýlených usedlostí; zeleninu zde pěstovali především bulharští zahradníci. Výstavba sídliště začala v roce 1964 a první obyvatelé se nastěhovali ještě před Vánocemi téhož roku. Během následujících dvou let vzniklo přibližně 3 400 bytů. Urbanistická koncepce omezovala průjezdnou dopravu uvnitř obytných bloků a těžiště veřejného života soustředila do rozlehlého centrálního parku. Z původně otevřených travnatých ploch se postupně stala jedna z nejzelenějších částí Ružinova; městská část uvádí, že dnes na Ostredkách roste více než šest tisíc stromů. Tato kombinace promyšleného poválečného urbanismu a rozsáhlé zeleně je hlavním znakem zdejšího sídliště.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.ruzinov.sk/sk/aktuality/view/ostredky-najzelensie-sidlisko-ruzinova",
+        "https://register-architektury.sk/sk/objekt/541-obytny-subor-ruzinov",
+        "https://poi.oma.sk/w332954277"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Centrální park Ostredky – reprezentativní bod",
+        "address": "Súmračná 32, Bratislava, Slovensko",
+        "lat": 48.15923776128386,
+        "lon": 17.17173236708359,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w332954277"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia V účinná od 01.01.2026, príloha 3a: rozsah 821 02–03 je přiřazen dodací poště Bratislava 1.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": "V – účinnost od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Slovenská pošta přiřazuje PSČ 821 02 dodací poště Bratislava 1. Její fyzická pobočka je na Námestí SNP 35 v městské části Staré Mesto, okres Bratislava I. Proto top-level administrativní pole vyjadřují polohu obslužné pošty podle slovenského standardu, zatímco faktový obsah a mapové body popisují geografickou oblast PSČ v Ružinově, okres Bratislava II. Tato dvě geografická hlediska se nesmějí zaměňovat.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální adresní a geografické body OSM/OMA, městská část Bratislava-Ružinov a Register modernej architektúry; správní zařazení fyzické adresy pošty Bratislava 1 podle oficiální adresy Slovenské pošty."
+  },
+  "sources": [
+    {
+      "title": "Magistrát Bratislavy: Dôvodová správa k pomenovaniu Parku Alfréda Wetzlera",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/46358.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislava: VZN č. 1/2020 o určení názvov novovzniknutých verejných priestranstiev",
+      "url": "https://bratislava.blob.core.windows.net/media/Default/Dokumenty/vzn%20parky.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Ružinovské ECHO: Spomienka na hrdinu – vznikne Park Alfréda Wetzlera",
+      "url": "https://www.ruzinovskeecho.sk/rubrika/reportaze?page=23",
+      "type": "regional"
+    },
+    {
+      "title": "OpenStreetMap / OMA: Park Alfréda Wetzlera, Tomášikova 20",
+      "url": "https://poi.oma.sk/w11071801",
+      "type": "other"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov: Ostredky – Najzelenšie sídlisko Ružinova",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/ostredky-najzelensie-sidlisko-ruzinova",
+      "type": "official"
+    },
+    {
+      "title": "Register modernej architektúry: Obytný súbor Ružinov",
+      "url": "https://register-architektury.sk/sk/objekt/541-obytny-subor-ruzinov",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap / OMA: park na Súmračnej 32, Ostredky",
+      "url": "https://poi.oma.sk/w332954277",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta: Technické parametre – Triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta: Zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Centrální park Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Park Alfréda Wetzlera: vzpomínka na útěk z Osvětimi",
+          "text": "Park na křižovatce Ružinovské a Tomášikovy ulice nese jméno Alfréda Wetzlera, slovenského židovského vězně, kterému se v dubnu 1944 podařilo uprchnout z vyhlazovacího komplexu Auschwitz-Birkenau společně s Rudolfem Vrbou. Po útěku sepsali 32stránkovou zprávu s plánky tábora, údaji o vězních a popisem mučení a vraždění v plynových komorách. Jejich svědectví patří k zásadním dokumentům, které pomohly upozornit svět na probíhající genocidu. Wetzlerův pozdější život byl spojený s Ružinovem: pracoval zde v místní knihovně. Pojmenování parku po něm schválilo ružinovské zastupitelstvo v listopadu 2019 a město název potvrdilo obecně závazným nařízením účinným od června 2020."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: poválečné sídliště plánované kolem zeleně",
+          "text": "Ostredky patří k nejstarším bratislavským sídlištím. Ještě na leteckých snímcích z roku 1955 tu převažovala pole a několik rozptýlených usedlostí; zeleninu zde pěstovali především bulharští zahradníci. Výstavba sídliště začala v roce 1964 a první obyvatelé se nastěhovali ještě před Vánocemi téhož roku. Během následujících dvou let vzniklo přibližně 3 400 bytů. Urbanistická koncepce omezovala průjezdnou dopravu uvnitř obytných bloků a těžiště veřejného života soustředila do rozlehlého centrálního parku. Z původně otevřených travnatých ploch se postupně stala jedna z nejzelenějších částí Ružinova; městská část uvádí, že dnes na Ostredkách roste více než šest tisíc stromů. Tato kombinace promyšleného poválečného urbanismu a rozsáhlé zeleně je hlavním znakem zdejšího sídliště."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Zentralpark Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Alfréd-Wetzler-Park: Erinnerung an die Flucht aus Auschwitz",
+          "text": "Der Park an der Kreuzung der Straßen Ružinovská und Tomášikova trägt den Namen von Alfréd Wetzler, einem slowakischen jüdischen Häftling, dem im April 1944 gemeinsam mit Rudolf Vrba die Flucht aus dem Lagerkomplex Auschwitz-Birkenau gelang. Nach ihrer Flucht verfassten sie einen 32-seitigen Bericht mit Lagerplänen, Angaben zu den Häftlingen und Beschreibungen von Folter und Mord in den Gaskammern. Ihr Zeugnis zählt zu den wichtigen Dokumenten, die die Welt auf den laufenden Völkermord aufmerksam machten. Wetzlers späteres Leben war mit Ružinov verbunden: Er arbeitete in der örtlichen Bibliothek. Die Benennung des Parks nach ihm beschloss der Gemeinderat von Ružinov im November 2019; die Stadt bestätigte den Namen durch eine ab Juni 2020 geltende Verordnung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: eine Nachkriegssiedlung rund um Grünflächen",
+          "text": "Ostredky gehört zu den ältesten Wohnsiedlungen Bratislavas. Auf Luftbildern von 1955 dominierten hier noch Felder und einige verstreute Gehöfte; vor allem bulgarische Gärtner bauten Gemüse an. Der Bau der Siedlung begann 1964, und die ersten Bewohner zogen noch vor Weihnachten desselben Jahres ein. In den folgenden zwei Jahren entstanden rund 3.400 Wohnungen. Das städtebauliche Konzept begrenzte den Durchgangsverkehr innerhalb der Wohnblöcke und konzentrierte das öffentliche Leben auf einen großen zentralen Park. Aus den ursprünglich offenen Rasenflächen entwickelte sich nach und nach einer der grünsten Teile von Ružinov; nach Angaben des Bezirks wachsen heute mehr als sechstausend Bäume in Ostredky. Diese Verbindung aus durchdachter Nachkriegsplanung und ausgedehnten Grünflächen prägt die Siedlung."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Ostredky Central Park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Alfréd Wetzler Park: remembering the escape from Auschwitz",
+          "text": "The park at the junction of Ružinovská and Tomášikova streets is named after Alfréd Wetzler, a Slovak Jewish prisoner who escaped from the Auschwitz-Birkenau camp complex in April 1944 together with Rudolf Vrba. After their escape, they wrote a 32-page report containing camp plans, prisoner statistics and descriptions of torture and murder in the gas chambers. Their testimony became one of the key documents that helped alert the world to the ongoing genocide. Wetzler's later life was connected with Ružinov, where he worked at the local library. The Ružinov local council approved naming the park after him in November 2019, and the city confirmed the name in a generally binding ordinance that took effect in June 2020."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: a post-war housing estate planned around greenery",
+          "text": "Ostredky is one of Bratislava's oldest housing estates. Aerial photographs from 1955 show that the area was still mostly fields with a few scattered farmsteads; Bulgarian gardeners mainly grew vegetables here. Construction of the estate began in 1964, and the first residents moved into their new homes before Christmas that year. Around 3,400 flats were built over the following two years. The urban plan limited through traffic within the residential blocks and focused public life around a large central park. The originally open lawns gradually became one of the greenest parts of Ružinov; the local authority says that more than six thousand trees now grow in Ostredky. This combination of considered post-war urban planning and extensive greenery defines the neighbourhood."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Parque central de Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Parque Alfréd Wetzler: memoria de la fuga de Auschwitz",
+          "text": "El parque situado en el cruce de las calles Ružinovská y Tomášikova lleva el nombre de Alfréd Wetzler, un prisionero judío eslovaco que logró escapar del complejo de Auschwitz-Birkenau en abril de 1944 junto con Rudolf Vrba. Tras la fuga redactaron un informe de 32 páginas con planos del campo, estadísticas de los prisioneros y descripciones de las torturas y asesinatos en las cámaras de gas. Su testimonio fue uno de los documentos fundamentales que ayudaron a alertar al mundo sobre el genocidio en curso. La vida posterior de Wetzler estuvo vinculada a Ružinov, donde trabajó en la biblioteca local. El consejo municipal de Ružinov aprobó dedicarle el parque en noviembre de 2019 y la ciudad confirmó el nombre mediante una ordenanza vigente desde junio de 2020."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: un barrio residencial de posguerra diseñado alrededor del verde",
+          "text": "Ostredky es uno de los barrios residenciales más antiguos de Bratislava. En las fotografías aéreas de 1955 todavía predominaban los campos y algunas granjas dispersas; los horticultores búlgaros cultivaban principalmente verduras. La construcción del barrio comenzó en 1964 y los primeros residentes se instalaron antes de la Navidad de ese mismo año. En los dos años siguientes se levantaron alrededor de 3.400 viviendas. El diseño urbanístico limitó el tráfico de paso dentro de los bloques residenciales y concentró la vida pública alrededor de un gran parque central. Las antiguas zonas abiertas de césped se transformaron gradualmente en una de las partes más verdes de Ružinov; según el ayuntamiento, hoy crecen allí más de seis mil árboles. La combinación de planificación urbana de posguerra y amplias zonas verdes define el barrio."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Parc central d’Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le parc Alfréd-Wetzler : mémoire de l’évasion d’Auschwitz",
+          "text": "Le parc situé au carrefour des rues Ružinovská et Tomášikova porte le nom d’Alfréd Wetzler, un détenu juif slovaque qui réussit à s’évader du complexe d’Auschwitz-Birkenau en avril 1944 avec Rudolf Vrba. Après leur évasion, ils rédigèrent un rapport de 32 pages comprenant des plans du camp, des statistiques sur les détenus et des descriptions des tortures et des meurtres dans les chambres à gaz. Leur témoignage compte parmi les documents essentiels qui contribuèrent à alerter le monde sur le génocide en cours. La vie ultérieure de Wetzler fut liée à Ružinov, où il travailla à la bibliothèque locale. Le conseil municipal de Ružinov approuva le nom du parc en novembre 2019 ; la ville le confirma par un règlement entré en vigueur en juin 2020."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky : un grand ensemble d’après-guerre conçu autour de la verdure",
+          "text": "Ostredky est l’un des plus anciens grands ensembles résidentiels de Bratislava. Les photographies aériennes de 1955 montrent qu’il s’agissait encore principalement de champs et de quelques fermes dispersées ; des maraîchers bulgares y cultivaient surtout des légumes. La construction du quartier commença en 1964 et les premiers habitants emménagèrent avant Noël de cette même année. Environ 3 400 logements furent construits au cours des deux années suivantes. Le plan urbain limitait la circulation de transit à l’intérieur des îlots résidentiels et organisait la vie publique autour d’un vaste parc central. Les pelouses initialement ouvertes sont progressivement devenues l’un des espaces les plus verts de Ružinov ; selon la municipalité, plus de six mille arbres y poussent aujourd’hui. Cette alliance entre urbanisme d’après-guerre réfléchi et vastes espaces verts caractérise le quartier."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Parco centrale di Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il parco Alfréd Wetzler: memoria della fuga da Auschwitz",
+          "text": "Il parco all’incrocio tra le vie Ružinovská e Tomášikova porta il nome di Alfréd Wetzler, prigioniero ebreo slovacco che nell’aprile 1944 riuscì a fuggire dal complesso di Auschwitz-Birkenau insieme a Rudolf Vrba. Dopo la fuga scrissero un rapporto di 32 pagine con planimetrie del campo, statistiche sui prigionieri e descrizioni delle torture e degli omicidi nelle camere a gas. La loro testimonianza è uno dei documenti fondamentali che contribuirono a informare il mondo del genocidio in corso. La vita successiva di Wetzler fu legata a Ružinov, dove lavorò nella biblioteca locale. Il consiglio municipale di Ružinov approvò l’intitolazione del parco nel novembre 2019 e la città confermò il nome con un’ordinanza in vigore dal giugno 2020."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: un quartiere residenziale del dopoguerra progettato intorno al verde",
+          "text": "Ostredky è uno dei quartieri residenziali più antichi di Bratislava. Le fotografie aeree del 1955 mostrano che l’area era ancora occupata soprattutto da campi e da alcune fattorie sparse; qui i giardinieri bulgari coltivavano principalmente ortaggi. La costruzione del quartiere iniziò nel 1964 e i primi residenti entrarono nelle nuove abitazioni prima di Natale dello stesso anno. Nei due anni successivi furono costruiti circa 3.400 appartamenti. Il progetto urbanistico limitava il traffico di attraversamento all’interno degli isolati residenziali e concentrava la vita pubblica intorno a un grande parco centrale. Gli spazi erbosi inizialmente aperti si sono gradualmente trasformati in una delle zone più verdi di Ružinov; secondo il municipio, oggi a Ostredky crescono oltre seimila alberi. Questa combinazione di urbanistica postbellica ponderata e ampie aree verdi definisce il quartiere."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Centraal park van Ostredky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Alfréd Wetzlerpark: herinnering aan de ontsnapping uit Auschwitz",
+          "text": "Het park op de kruising van de Ružinovská- en Tomášikova-straat is genoemd naar Alfréd Wetzler, een Slowaakse Joodse gevangene die in april 1944 samen met Rudolf Vrba uit het kampcomplex Auschwitz-Birkenau wist te ontsnappen. Na hun ontsnapping schreven zij een rapport van 32 pagina's met plattegronden van het kamp, statistieken over gevangenen en beschrijvingen van marteling en moord in de gaskamers. Hun getuigenis werd een van de belangrijke documenten die de wereld hielpen waarschuwen voor de genocide die plaatsvond. Wetzlers latere leven was verbonden met Ružinov, waar hij in de plaatselijke bibliotheek werkte. De gemeenteraad van Ružinov keurde de naamgeving van het park in november 2019 goed; de stad bevestigde de naam in een verordening die in juni 2020 van kracht werd."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostredky: een naoorlogse woonwijk ontworpen rond groen",
+          "text": "Ostredky is een van de oudste woonwijken van Bratislava. Luchtfoto's uit 1955 tonen dat het gebied toen nog vooral uit akkers en enkele verspreide boerderijen bestond; Bulgaarse tuinders verbouwden er voornamelijk groenten. De bouw van de wijk begon in 1964 en de eerste bewoners trokken nog vóór Kerstmis van dat jaar in hun nieuwe woningen. In de twee daaropvolgende jaren werden ongeveer 3.400 appartementen gebouwd. Het stedenbouwkundige ontwerp beperkte doorgaand verkeer binnen de woonblokken en concentreerde het openbare leven rond een groot centraal park. De oorspronkelijke open grasvelden groeiden geleidelijk uit tot een van de groenste delen van Ružinov; volgens de gemeente staan er tegenwoordig meer dan zesduizend bomen in Ostredky. Deze combinatie van doordachte naoorlogse stedenbouw en uitgestrekte groenzones bepaalt het karakter van de wijk."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
