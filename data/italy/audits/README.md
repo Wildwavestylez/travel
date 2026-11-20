@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; A uzavřena; B REVIEW REQUIRED: rozpor `city` mezi prompt_audit a COUNTRY_PROFILE/CONTENT_STANDARD + neověřené oznámení CAP účinné 16.11.2026; 59025 potvrzeny oficiální pobočky Luicciana (Seguimi) a Usella (Fermoposta); C částečně provedena: 55 faktů/8 validovaných CAP, otevřen rozpor CAP Pieve di San Pietro 59011/59015 a přesné přiřazení některých lokalit; D rychlý scan uzavřen bez potvrzené duplicity; bez publikace, zálohy a read-only zamčení |
+| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; A uzavřena; B REVIEW REQUIRED: rozpor `city` byl 21.11.2026 rozhodnut a `prompt_audit.md` opraven podle pravidla všech Comuni přiřazených k CAP; stále zbývá ověřit účinek aktualizace CAP 2026 od 16.11.2026 a úplné seznamy Comuni; 59025 potvrzeny oficiální pobočky Luicciana (Seguimi) a Usella (Fermoposta); C částečně provedena: 55 faktů/8 validovaných CAP, otevřen rozpor CAP Pieve di San Pietro 59011/59015 a přesné přiřazení některých lokalit; D rychlý scan uzavřen bez potvrzené duplicity; bez publikace, zálohy a read-only zamčení |
 
 ## Pravidla registru
 - Před novým auditem ověř, zda již neexistuje tahák pro stejný nebo překrývající se rozsah.
