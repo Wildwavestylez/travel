@@ -32,7 +32,7 @@ Významné nově rozšířené položky:
 - **35301 / fact_018–019:** historické lázně Sangerberg/Prameny, vojenský prostor a uranový průzkum; Chodovský Šmelctál a hornická historie Chodovské Huti.
 - **35135 / fact_006:** železniční propojení Plesné, Tršnice, Chebu a Plavna včetně starší koňské dráhy a vlivu železnice na průmyslový růst.
 
-**Read-back délkové kontroly:** 12/12 PSČ, 121/121 faktů, **0 českých master textů pod 350 znaků**. V Mariánských Lázních má všech 19 faktů délku nejméně 350 znaků.
+**Read-back délkové kontroly:** 12/12 PSČ, 123/123 faktů, **0 českých master textů pod 350 znaků**. V Mariánských Lázních má všech 19 faktů délku nejméně 350 znaků.
 
 ## 3. Věcné a zdrojové opravy
 
@@ -41,6 +41,8 @@ Významné nově rozšířené položky:
 - **35301 / fact_018 — Prameny/Sangerberg:** doplněna chronologie Alžbětiných lázní (1872), vojenského prostoru (1946–1954) a uranového průzkumu/těžby (od 1947, těžba u Kladské 1954–1958).
 - **35301 / fact_019 — Chodovská Huť:** upřesněn vznik roku 1687, vlastnictví Haimhausenů, název Chodovský Šmelctál v letech 1854–1947 a útlum těžby do roku 1861.
 - **35135 / fact_006:** rozšířen kontext dvou železničních spojení a průmyslového rozvoje Plesné.
+- **35124 / fact_012 — Trojstátí:** nový fakt o historickém setkání zemských hranic Čech, Bavorska a Saska; doloženy hraniční kameny z roku 1844, naučná stezka a pozůstatky mlýnů.
+- **35201 / fact_013 — nejzápadnější bod ČR:** nový fakt o geografické krajnosti u Krásné, jejím hraničním mezníku z roku 1844 a přístupu pěší trasou.
 - **35124 / fact_012 — Trojstátí:** doplněn přesný historický význam místa, rok hraničních kamenů 1844, naučná stezka a okolní pozůstatky mlýnů; formulace rozlišuje historické zemské hranice od současných státních hranic.
 - **35201 / fact_013 — nejzápadnější bod ČR:** doplněna poloha v katastru Krásné u bývalého Újezdu, hraniční mezník z roku 1844, současné označení a přístup pěší trasou.
 - Dřívější opravy v Chebu, Skalné, Plesné a dalších PSČ jsou popsány v předchozích konverzačních checkpointech; v tomto souboru nejsou znovu rekonstruovány do detailu.
@@ -52,9 +54,14 @@ Významné nově rozšířené položky:
 - České `translations.cs.title/text` proti `facts[].title/text`: **0 rozdílů** po závěrečné synchronizaci podle ID.
 - Všech šest cizojazyčných verzí bylo individuálně sémanticky zkontrolováno podle ID: **738/738 položek dokončeno** (726 původních + 12 nově doplněných).
 - Každý ze sedmi jazyků obsahuje přesně 123/123 očekávaných faktů; 0 chybějících ID, 0 neočekávaných ID, 0 duplicitních ID skupin a 0 prázdných titulů/textů.
-- Nové faktory 35124/fact_012 a 35201/fact_013 byly přeloženy do všech šesti cizích jazyků, načteny zpět a zkontrolovány podle českých masterů.
+- Nová fakta 35124/fact_012 a 35201/fact_013 byly přeloženy do všech šesti cizích jazyků, načteny zpět a zkontrolovány podle českých masterů.
 - Texty a nadpisy opravené v průběhu kontroly byly načteny zpět ze Supabase.
 - Sémantická kontrola všech 12 PSČ je dokončena.
+
+### Doplňující sémantická kontrola nových faktů (2026-11-20)
+- `35124 / fact_012` — český master a překlady DE/EN/ES/FR/IT/NL: **6/6 cizojazyčných verzí** zkontrolováno; všechny zachovávají rozdíl mezi historickým zemským trojstykem a současným trojmezím států.
+- `35201 / fact_013` — český master a překlady DE/EN/ES/FR/IT/NL: **6/6 cizojazyčných verzí** zkontrolováno; zachována poloha u Krásné, bývalý Újezd a odlišení od Trojstátí.
+- Oba nové záznamy načteny zpět; celkový rozsah po doplnění je 123 faktů a 738 cizojazyčných překladů.
 
 ### Sémantická kontrola — 35002 Cheb (dokončeno 2026-11-20)
 - Individuálně zkontrolováno všech 13 faktů × 6 cizojazyčných verzí = **78/78 překladových položek**.
@@ -62,7 +69,7 @@ Významné nově rozšířené položky:
 - **fact_011:** ověřen historický název „Soudce chebský“ (Egerer Richter / Egerer Judge). Anglický text a titulek sjednoceny na „Judge of Eger“; španělský titulek opraven z obecného „Acuerdo de Cheb“ na „Juez de Cheb“. Ostatní jazyky zachovávají význam historického názvu.
 - **fact_013:** ve všech šesti cizojazyčných textech doplněna vynechaná závěrečná informace, že obléhání patřilo k nejdramatičtějším událostem třicetileté války v regionu.
 - Ostatní zkontrolované položky: bez potvrzené významové vady. Změny ověřeny následným read-backem ze Supabase.
-- Stav sémantické kontroly celého bloku zůstává REVIEW REQUIRED; zbývá 11 PSČ.
+- V okamžiku dokončení této dílčí kontroly zbývalo 11 PSČ; celý blok byl následně dokončen a uzavřen jako PASS.
 
 ### Sémantická kontrola — 35101 Františkovy Lázně (dokončeno 2026-11-20)
 - Individuálně zkontrolováno všech 9 faktů × 6 cizojazyčných verzí = **54/54 překladových položek**.
