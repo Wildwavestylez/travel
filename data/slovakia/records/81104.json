@@ -155,7 +155,7 @@
     "postcode_conflict_note": null,
     "delivery_office_note": "Oficiálny dokument Slovenskej pošty zaraďuje rozsah 811 01–811 09 k vybranej pošte Bratislava 1. Pobočka Bratislava 1 sa fyzicky nachádza na Námestí SNP 35 v obci Bratislava. Údaj o pošte neurčuje hranice PSČ ani reprezentatívny bod oblasti.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO) je oficiálnym zdrojom adresných bodov. V tomto reworku boli jednotlivé polohy podopreté mestskými a odbornými zdrojmi (MÚOP, Mesto Bratislava, BKIS, Oživené pamiatky, Ministerstvo životného prostredia a mapové záznamy s adresnými údajmi MINV); samostatné výpisy RAGEO neboli pre všetky objekty priamo exportované."
+    "geographic_authority": "Register adries SR (RAGEO) je oficiálnym zdrojom adresných bodov; správnu hierarchiu Bratislava / Bratislava I / Bratislavský kraj potvrdzuje oficiálny číselník územných jednotiek. Konkrétne polohy faktov sú podopreté mestskými a odbornými zdrojmi (MÚOP, Mesto Bratislava, BKIS, Oživené pamiatky, Ministerstvo životného prostredia a mapové záznamy s adresnými údajmi MINV); samostatné výpisy RAGEO neboli pre všetky objekty priamo exportované."
   },
   "sources": [
     {
@@ -246,6 +246,21 @@
     {
       "title": "Ministerstvo vnútra SR – Register adries (RAGEO)",
       "url": "https://rageo.minv.sk/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Hlboká cesta, poloha historickej komunikácie",
+      "url": "https://bratislava.oma.sk/u/hlboka-cesta",
+      "type": "specialist"
+    },
+    {
+      "title": "ÚPSVaR – Číselník správnych území SR",
+      "url": "https://www.upsvr.gov.sk/urady-psvr/ciselnik-spravnych-uzemi-sr.html?order=kraj&page_id=309321&urad=1",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo vnútra SR – zoznam obcí a častí obcí tvoriacich okresy",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/odbor_priestupkov/zoznam_obci_casti_obci.pdf",
       "type": "official"
     }
   ],
@@ -471,7 +486,7 @@
         {
           "id": "fact_002",
           "title": "De Kalvarieberg van Bratislava: een barok bedevaartsoord dat bijna verdween",
-          "text": "De Kalvarieberg van Bratislava was een van de vroege barokke kruiswegcomplexen in het toenmalige Koninkrijk Hongarije. De eerste steen werd op 27 mei 1694 gelegd en het geheel was in 1725 voltooid. De oorspronkelijke opzet bestond uit zeven hoofd kapellen op de Kalvarieberg en twee voorbereidende kapellen. Ze leidden pelgrims de helling op naar de kruisigingsscène en vervolgens naar het Heilig Graf. In de jaren vijftig van de twintigste eeuw werd het complex geleidelijk verwoest. Vooral de aanleg van de straat Pražská richtte grote schade aan: een deel van de heuvel werd afgegraven en meer kapellen verdwenen. Alleen delen van de oorspronkelijke route en de ruïne van de Ecce Homo-kapel zijn bewaard gebleven. Restauraties in de afgelopen decennia hebben een deel van de religieuze functie teruggebracht: het terras bij het kruis en een kapel zijn hersteld en langs de historische route zijn eigentijdse afbeeldingen van de kruiswegstaties geplaatst. De Kalvarieberg herinnert zo aan zowel de barokke pelgrimscultuur als het verlies van stedelijk erfgoed in de twintigste eeuw."
+          "text": "De Kalvarieberg van Bratislava was een van de vroege barokke kruiswegcomplexen in het toenmalige Koninkrijk Hongarije. De eerste steen werd op 27 mei 1694 gelegd en het geheel was in 1725 voltooid. De oorspronkelijke opzet bestond uit zeven hoofdkapellen op de Kalvarieberg en twee voorbereidende kapellen. Ze leidden pelgrims de helling op naar de kruisigingsscène en vervolgens naar het Heilig Graf. In de jaren vijftig van de twintigste eeuw werd het complex geleidelijk verwoest. Vooral de aanleg van de straat Pražská richtte grote schade aan: een deel van de heuvel werd afgegraven en meer kapellen verdwenen. Alleen delen van de oorspronkelijke route en de ruïne van de Ecce Homo-kapel zijn bewaard gebleven. Restauraties in de afgelopen decennia hebben een deel van de religieuze functie teruggebracht: het terras bij het kruis en een kapel zijn hersteld en langs de historische route zijn eigentijdse afbeeldingen van de kruiswegstaties geplaatst. De Kalvarieberg herinnert zo aan zowel de barokke pelgrimscultuur als het verlies van stedelijk erfgoed in de twintigste eeuw."
         },
         {
           "id": "fact_003",
