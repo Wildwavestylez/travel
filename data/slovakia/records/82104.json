@@ -1,4 +1,332 @@
 {
   "postcode": "82104",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Ružinov",
+  "county": "Bratislava II",
+  "state": "Bratislavský kraj",
+  "representative_place": "Zlaté piesky",
+  "representative_point": {
+    "lat": 48.1841,
+    "lon": 17.1895
+  },
+  "access_point": {
+    "lat": 48.1841,
+    "lon": 17.1895
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Dornkappel: z polí a provizorních kolonií vznikla Trnávka",
+      "text": "Dnešní Trnávka byla po staletí okrajovou zemědělskou krajinou s poli, loukami a pastvinami. Její historické německé jméno se ustálilo v podobě Dornkappel; název odkazoval na trnovou kapli, která stávala u někdejší cihelny v prostoru dnešní ulice Pri zvonici. Souvislejší osídlení se začalo rozvíjet kolem roku 1869, nejprve u hospodářských dvorů a cihelen. Na přelomu 19. a 20. století a zejména po první světové válce sem přicházeli lidé hledající práci a půdu. Vznikaly svépomocí stavěné domky i velmi chudé kolonie s nedostatečnou infrastrukturou; v meziválečném období přibyly například Štúrova a Masarykova kolonie. Po roce 1945 se název Dornkappel změnil na Trnávku. Pozdější výstavba bytových domů, zvláště v letech 1970–1977, proměnila někdejší předměstí v dnešní městskou čtvrť Ružinova.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "src_trnavka_city",
+        "src_trnavka_parish",
+        "src_trnavka_coords"
+      ],
+      "location": {
+        "name": "Trnávka – orientační bod u historického jádra",
+        "address": "Okružná 13, Bratislava, Slovakia",
+        "lat": 48.1666465545,
+        "lon": 17.1646626646,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://bratislava.oma.sk/u/okruzna/13"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Dona Bosca a saleziánské oratorium na Trnávce",
+      "text": "Kostel sv. Dona Bosca na Okružní ulici je výraznou památkou Trnávky a připomínkou toho, jak důležitou roli hrálo místní saleziánské dílo v životě někdejšího chudého předměstí Dornkappel. Saleziáni přišli do Bratislavy roku 1933 a jejich působení postupně vytvořilo zázemí pro duchovní, vzdělávací, kulturní i sportovní aktivity mládeže. Základní kámen kostela a ústavu byl položen 27. června 1937. Stavbu se podařilo dokončit tak rychle, že kostel začal sloužit už 8. prosince 1938; slavnostní posvěcení kostela a oltáře následovalo 4. června 1939. Oratorium nebylo jen náboženským prostorem: pořádala se zde divadelní představení, filmové projekce, kulturní večery a sportovní činnost. Po válce, 6. července 1945, byla zřízena samostatná farnost Trnávka zasvěcená sv. Janu Boscovi. Areál je evidován mezi pamětihodnostmi Bratislavy jako kostel sv. Dona Bosca a saleziánský ústav na Dornkapli.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "src_church_register",
+        "src_trnavka_parish",
+        "src_church_address",
+        "src_church_coords"
+      ],
+      "location": {
+        "name": "Kostel sv. Dona Bosca",
+        "address": "Okružná 13, 821 04 Bratislava, Slovakia",
+        "lat": 48.1666465545,
+        "lon": 17.1646626646,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w264155687"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Zlaté piesky: štěrkovna, městské koupaliště a místo letecké tragédie",
+      "text": "Jezero Zlaté piesky vzniklo těžbou štěrkopísku v letech 1955–1964. Vytěžený materiál se využíval při rozsáhlé bytové výstavbě Bratislavy a při budování letiště; jámu postupně zaplnila podzemní voda. Rekreační využití se rozvíjelo už na začátku šedesátých let a oficiální pláž byla otevřena roku 1962. Dnes jde o rozsáhlé přírodní koupaliště s vodní plochou přibližně 52–56 hektarů, sportovním a rekreačním zázemím. Zlaté piesky jsou však také místem jedné z nejtragičtějších leteckých nehod v dějinách československé civilní dopravy. Dne 28. července 1976 zde při přistávacím manévru havaroval let ČSA 001 z Prahy do Bratislavy se strojem Iljušin Il-18B; zahynulo 76 lidí a ze 79 cestujících na palubě přežili tři. Událost připomíná památník u vstupu do areálu. Jezero tak spojuje příběh poválečné výstavby a rekreace s místem veřejné paměti.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "src_zlate_uvz",
+        "src_zlate_starz",
+        "src_zlate_visit",
+        "src_crash_museum",
+        "src_crash_city"
+      ],
+      "location": {
+        "name": "Zlaté piesky – reprezentativní bod vodní plochy",
+        "address": "Senecká cesta, Bratislava, Slovakia",
+        "lat": 48.1841,
+        "lon": 17.1895,
+        "type": "natural_feature",
+        "accuracy": "area_representative",
+        "source": "https://www.uvzsr.sk/documents/41637/137194/Zlate_piesky.pdf/508f944f-25e6-7560-fd6a-1ac501e762f5?t=1659555608064"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_branches",
+      "title": "Slovenská pošta – Zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-poskytujucich-sluzby-integrovanych-obsluznych-miest.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_post_office_location",
+      "title": "Bratislava 217 – fyzická poloha pobočky, Cesta na Senec 2A",
+      "url": "https://poi.oma.sk/n8939072818",
+      "type": "other"
+    },
+    {
+      "id": "src_trnavka_city",
+      "title": "Mestská časť Bratislava-Ružinov – Trnávka: Najmladšia časť Ružinova",
+      "url": "https://www.ruzinov.sk/sk/aktuality/view/trnavka-najmladsia-cast-ruzinova",
+      "type": "official"
+    },
+    {
+      "id": "src_trnavka_parish",
+      "title": "Saleziánske dielo na Trnávke – História farnosti",
+      "url": "https://trnavka.sk/historia_viac/",
+      "type": "official"
+    },
+    {
+      "id": "src_church_register",
+      "title": "Magistrát hlavného mesta Bratislavy – Evidenčný list pamätihodnosti: kostol sv. Dona Bosca a Saleziánsky ústav na Dornkapli",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/33157.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_church_address",
+      "title": "Ministerstvo kultúry SR – Evidencia cirkví a náboženských spoločností",
+      "url": "https://www.culture.gov.sk/wp-content/uploads/2019/12/evidencia_CNS-RPO_2026_03_01.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_church_coords",
+      "title": "Kostol sv. Don Bosca – fyzická adresa a súradnice",
+      "url": "https://poi.oma.sk/w264155687",
+      "type": "other"
+    },
+    {
+      "id": "src_trnavka_coords",
+      "title": "Okružná 13, Bratislava – adresa a súradnice",
+      "url": "https://bratislava.oma.sk/u/okruzna/13",
+      "type": "other"
+    },
+    {
+      "id": "src_zlate_uvz",
+      "title": "Úrad verejného zdravotníctva SR – Zlaté piesky: opis lokality a monitorovací bod",
+      "url": "https://www.uvzsr.sk/documents/41637/137194/Zlate_piesky.pdf/508f944f-25e6-7560-fd6a-1ac501e762f5?t=1659555608064",
+      "type": "official"
+    },
+    {
+      "id": "src_zlate_starz",
+      "title": "STARZ Bratislava – Prevádzkový poriadok Areálu zdravia Zlaté piesky",
+      "url": "https://bratislavask.s3.bratislava.sk/upload/2025_PP_AZZP_2de2919819.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_zlate_visit",
+      "title": "Visit Bratislava – Zlaté piesky",
+      "url": "https://www.visitbratislava.com/sk/sights-attractions/zlate-piesky/",
+      "type": "official"
+    },
+    {
+      "id": "src_crash_museum",
+      "title": "Slovenské technické múzeum – Výstava k pádu lietadla na Zlatých pieskoch",
+      "url": "https://stm-ke.sk/asset/uploads/tlacove-spravy/TS_vystava_pad_lietadla.pdf",
+      "type": "museum"
+    },
+    {
+      "id": "src_crash_city",
+      "title": "Mesto Bratislava – Aktualizácia celomestského zoznamu pamätihodností: pamätník obetiam leteckej havárie",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/6219.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Zlaté piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: z polí a provizorních kolonií vznikla Trnávka",
+          "text": "Dnešní Trnávka byla po staletí okrajovou zemědělskou krajinou s poli, loukami a pastvinami. Její historické německé jméno se ustálilo v podobě Dornkappel; název odkazoval na trnovou kapli, která stávala u někdejší cihelny v prostoru dnešní ulice Pri zvonici. Souvislejší osídlení se začalo rozvíjet kolem roku 1869, nejprve u hospodářských dvorů a cihelen. Na přelomu 19. a 20. století a zejména po první světové válce sem přicházeli lidé hledající práci a půdu. Vznikaly svépomocí stavěné domky i velmi chudé kolonie s nedostatečnou infrastrukturou; v meziválečném období přibyly například Štúrova a Masarykova kolonie. Po roce 1945 se název Dornkappel změnil na Trnávku. Pozdější výstavba bytových domů, zvláště v letech 1970–1977, proměnila někdejší předměstí v dnešní městskou čtvrť Ružinova."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Dona Bosca a saleziánské oratorium na Trnávce",
+          "text": "Kostel sv. Dona Bosca na Okružní ulici je výraznou památkou Trnávky a připomínkou toho, jak důležitou roli hrálo místní saleziánské dílo v životě někdejšího chudého předměstí Dornkappel. Saleziáni přišli do Bratislavy roku 1933 a jejich působení postupně vytvořilo zázemí pro duchovní, vzdělávací, kulturní i sportovní aktivity mládeže. Základní kámen kostela a ústavu byl položen 27. června 1937. Stavbu se podařilo dokončit tak rychle, že kostel začal sloužit už 8. prosince 1938; slavnostní posvěcení kostela a oltáře následovalo 4. června 1939. Oratorium nebylo jen náboženským prostorem: pořádala se zde divadelní představení, filmové projekce, kulturní večery a sportovní činnost. Po válce, 6. července 1945, byla zřízena samostatná farnost Trnávka zasvěcená sv. Janu Boscovi. Areál je evidován mezi pamětihodnostmi Bratislavy jako kostel sv. Dona Bosca a saleziánský ústav na Dornkapli."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: štěrkovna, městské koupaliště a místo letecké tragédie",
+          "text": "Jezero Zlaté piesky vzniklo těžbou štěrkopísku v letech 1955–1964. Vytěžený materiál se využíval při rozsáhlé bytové výstavbě Bratislavy a při budování letiště; jámu postupně zaplnila podzemní voda. Rekreační využití se rozvíjelo už na začátku šedesátých let a oficiální pláž byla otevřena roku 1962. Dnes jde o rozsáhlé přírodní koupaliště s vodní plochou přibližně 52–56 hektarů, sportovním a rekreačním zázemím. Zlaté piesky jsou však také místem jedné z nejtragičtějších leteckých nehod v dějinách československé civilní dopravy. Dne 28. července 1976 zde při přistávacím manévru havaroval let ČSA 001 z Prahy do Bratislavy se strojem Iljušin Il-18B; zahynulo 76 lidí a ze 79 cestujících na palubě přežili tři. Událost připomíná památník u vstupu do areálu. Jezero tak spojuje příběh poválečné výstavby a rekreace s místem veřejné paměti."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Zlaté Piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: Aus Feldern und provisorischen Siedlungen entstand Trnávka",
+          "text": "Das heutige Trnávka war jahrhundertelang eine landwirtschaftlich geprägte Randlandschaft mit Feldern, Wiesen und Weiden. Sein historischer deutscher Name etablierte sich als Dornkappel; er verwies auf eine Dornkapelle, die bei der früheren Ziegelei im Bereich der heutigen Straße Pri zvonici stand. Eine dichtere Besiedlung begann um 1869, zunächst bei Gutshöfen und Ziegeleien. Um die Wende zum 20. Jahrhundert und besonders nach dem Ersten Weltkrieg kamen Menschen auf der Suche nach Arbeit und Land hierher. In Eigenarbeit errichtete Häuser und sehr arme Siedlungen ohne ausreichende Infrastruktur entstanden; in der Zwischenkriegszeit kamen unter anderem die Kolonien Štúrova und Masarykova hinzu. Nach 1945 wurde Dornkappel in Trnávka umbenannt. Der spätere Wohnungsbau, besonders von 1970 bis 1977, verwandelte den ehemaligen Vorort in das heutige Stadtviertel des Bezirks Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Don-Bosco-Kirche und das Salesianer-Oratorium in Trnávka",
+          "text": "Die Don-Bosco-Kirche in der Okružná-Straße ist ein markantes Denkmal von Trnávka und erinnert daran, wie wichtig die Salesianer für das Leben des einst armen Vororts Dornkappel waren. Die Salesianer kamen 1933 nach Bratislava; ihre Arbeit schuf nach und nach Räume für religiöse, pädagogische, kulturelle und sportliche Aktivitäten junger Menschen. Der Grundstein für Kirche und Institut wurde am 27. Juni 1937 gelegt. Der Bau ging so schnell voran, dass die Kirche bereits am 8. Dezember 1938 genutzt werden konnte; die feierliche Weihe der Kirche und des Altars folgte am 4. Juni 1939. Das Oratorium war nicht nur ein religiöser Ort: Hier fanden Theateraufführungen, Filmvorführungen, Kulturabende und Sportaktivitäten statt. Nach dem Krieg, am 6. Juli 1945, wurde die eigenständige, dem heiligen Johannes Bosco geweihte Pfarrei Trnávka gegründet. Der Komplex ist im Verzeichnis der Denkmäler Bratislavas als Don-Bosco-Kirche und Salesianer-Institut in Dornkapel eingetragen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: Kiesgrube, städtisches Strandbad und Ort einer Flugzeugkatastrophe",
+          "text": "Der See Zlaté piesky entstand durch den Kiesabbau in den Jahren 1955 bis 1964. Das gewonnene Material wurde für den umfangreichen Wohnungsbau in Bratislava und den Bau des Flughafens verwendet; die Grube füllte sich nach und nach mit Grundwasser. Die Freizeitnutzung entwickelte sich bereits Anfang der 1960er Jahre, und 1962 wurde ein offizieller Strand eröffnet. Heute ist das Gebiet ein großes Naturbad mit einer Wasserfläche von etwa 52 bis 56 Hektar sowie Sport- und Freizeiteinrichtungen. Zlaté piesky ist jedoch auch Schauplatz eines der tragischsten Flugunfälle in der Geschichte des tschechoslowakischen zivilen Luftverkehrs. Am 28. Juli 1976 stürzte der ČSA-Flug 001 von Prag nach Bratislava mit einer Iljuschin Il-18B während des Landeanflugs hier ab; 76 Menschen starben, drei der 79 Passagiere an Bord überlebten. Ein Denkmal am Eingang des Areals erinnert an das Unglück. Der See verbindet damit die Geschichte des Nachkriegsbaus und der Freizeitkultur mit einem Ort des öffentlichen Gedenkens."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Zlaté Piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: Trnávka grew from fields and makeshift settlements",
+          "text": "For centuries, present-day Trnávka was an agricultural fringe landscape of fields, meadows and pastures. Its historic German name became established as Dornkappel, referring to a thorn chapel that stood near the former brickworks in the area of today's Pri zvonici street. More continuous settlement began around 1869, first near farmsteads and brickworks. Around the turn of the twentieth century, and especially after the First World War, people came here in search of work and land. They built homes through their own efforts, while very poor colonies developed without adequate infrastructure; during the interwar period, the Štúrova and Masarykova colonies were among those added. After 1945, the name Dornkappel was replaced by Trnávka. Later apartment construction, particularly from 1970 to 1977, transformed the former suburb into today's urban neighbourhood within Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of Don Bosco and the Salesian oratory in Trnávka",
+          "text": "The Church of Don Bosco on Okružná Street is a landmark of Trnávka and recalls the important role played by the Salesians in the life of the once-poor suburb of Dornkappel. The Salesians arrived in Bratislava in 1933, gradually creating a centre for the spiritual, educational, cultural and sporting activities of young people. The foundation stone of the church and institute was laid on 27 June 1937. Construction progressed quickly enough for the church to begin serving the community on 8 December 1938; its formal consecration, together with the altar, followed on 4 June 1939. The oratory was more than a religious space: it hosted theatre performances, film screenings, cultural evenings and sports activities. After the war, on 6 July 1945, an independent parish dedicated to Saint John Bosco was established in Trnávka. The complex is listed among Bratislava's local heritage sites as the Church of Don Bosco and the Salesian Institute at Dornkapel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: a gravel pit turned city swimming lake, and the site of an air disaster",
+          "text": "The lake Zlaté piesky was created by gravel extraction between 1955 and 1964. The material was used for Bratislava's large-scale housing construction and the development of its airport; groundwater gradually filled the excavated area. Recreation began to develop in the early 1960s, and an official beach opened in 1962. Today the site is a large natural swimming area, with a water surface of approximately 52–56 hectares and facilities for sports and recreation. Zlaté piesky is also the site of one of the deadliest air disasters in the history of Czechoslovak civil aviation. On 28 July 1976, ČSA Flight 001 from Prague to Bratislava crashed into the lake during its approach, involving an Ilyushin Il-18B; 76 people died, while three of the 79 passengers on board survived. A memorial near the entrance to the recreation area commemorates the victims. The lake therefore brings together the story of post-war construction and leisure with a place of public remembrance."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Zlaté piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: Trnávka nació entre campos y asentamientos precarios",
+          "text": "Durante siglos, la actual Trnávka fue un paisaje agrícola periférico de campos, prados y pastos. Su antiguo nombre alemán quedó fijado como Dornkappel y aludía a una capilla entre espinos situada junto a la antigua fábrica de ladrillos, en la zona de la actual calle Pri zvonici. El poblamiento más continuo comenzó hacia 1869, primero alrededor de granjas y tejerías. A finales del siglo XIX y, sobre todo, después de la Primera Guerra Mundial, llegaron personas en busca de trabajo y tierras. Surgieron casas construidas por sus propios habitantes y colonias muy pobres sin infraestructuras adecuadas; en el periodo de entreguerras aparecieron, entre otras, las colonias Štúrova y Masarykova. Después de 1945, Dornkappel pasó a llamarse Trnávka. La posterior construcción de bloques de viviendas, especialmente entre 1970 y 1977, transformó el antiguo suburbio en el actual barrio urbano del distrito de Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de Don Bosco y el oratorio salesiano de Trnávka",
+          "text": "La iglesia de Don Bosco, en la calle Okružná, es uno de los hitos de Trnávka y recuerda la importancia de la obra salesiana en la vida del antiguo y humilde suburbio de Dornkappel. Los salesianos llegaron a Bratislava en 1933 y fueron creando un centro para actividades espirituales, educativas, culturales y deportivas dirigidas a los jóvenes. La primera piedra de la iglesia y del instituto se colocó el 27 de junio de 1937. Las obras avanzaron tan rápido que la iglesia pudo utilizarse desde el 8 de diciembre de 1938; la consagración solemne de la iglesia y del altar tuvo lugar el 4 de junio de 1939. El oratorio no era solo un espacio religioso: acogía representaciones teatrales, proyecciones de cine, veladas culturales y actividades deportivas. Después de la guerra, el 6 de julio de 1945, se estableció una parroquia independiente en Trnávka, dedicada a san Juan Bosco. El conjunto figura en el inventario del patrimonio local de Bratislava como iglesia de Don Bosco e instituto salesiano de Dornkapel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: cantera de grava, playa urbana y escenario de una tragedia aérea",
+          "text": "El lago Zlaté piesky surgió de la extracción de grava entre 1955 y 1964. El material se utilizó en la construcción de grandes conjuntos residenciales de Bratislava y de su aeropuerto; el agua subterránea fue llenando gradualmente la excavación. El uso recreativo empezó a desarrollarse a comienzos de los años sesenta y la playa oficial abrió en 1962. Hoy es una gran zona natural de baño, con una superficie de agua de aproximadamente 52–56 hectáreas y equipamientos deportivos y recreativos. Zlaté piesky también fue escenario de uno de los accidentes más trágicos de la aviación civil checoslovaca. El 28 de julio de 1976, el vuelo ČSA 001 de Praga a Bratislava se estrelló en el lago durante la aproximación con un avión Ilyushin Il-18B; murieron 76 personas y sobrevivieron tres de los 79 pasajeros a bordo. Un monumento cerca de la entrada del recinto recuerda a las víctimas. El lago reúne así la historia de la construcción de posguerra y del ocio con un lugar de memoria pública."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Zlaté piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel : Trnávka est née entre champs et quartiers précaires",
+          "text": "Pendant des siècles, l'actuelle Trnávka était un paysage agricole périphérique composé de champs, de prés et de pâturages. Son ancien nom allemand s'est fixé sous la forme Dornkappel, en référence à une chapelle entourée d'épines qui se trouvait près de l'ancienne briqueterie, dans le secteur de l'actuelle rue Pri zvonici. L'habitat permanent a commencé à se développer vers 1869, d'abord autour des fermes et des briqueteries. À la fin du XIXe siècle et surtout après la Première Guerre mondiale, des habitants sont venus chercher du travail et des terres. Des maisons construites par leurs occupants et des quartiers très pauvres dépourvus d'infrastructures suffisantes ont vu le jour ; pendant l'entre-deux-guerres, les colonies Štúrova et Masarykova se sont notamment développées. Après 1945, le nom Dornkappel a été remplacé par Trnávka. La construction ultérieure d'immeubles, surtout entre 1970 et 1977, a transformé cette ancienne banlieue en quartier urbain actuel de Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "L'église Don Bosco et l'oratoire salésien de Trnávka",
+          "text": "L'église Don Bosco, rue Okružná, est un repère de Trnávka et rappelle le rôle essentiel de l'œuvre salésienne dans la vie de l'ancien faubourg pauvre de Dornkappel. Les Salésiens sont arrivés à Bratislava en 1933 et ont progressivement créé un centre d'activités spirituelles, éducatives, culturelles et sportives pour les jeunes. La première pierre de l'église et de l'institut a été posée le 27 juin 1937. Les travaux ont avancé si rapidement que l'église a pu accueillir les fidèles dès le 8 décembre 1938 ; la consécration solennelle de l'église et de l'autel a suivi le 4 juin 1939. L'oratoire n'était pas seulement un lieu religieux : il accueillait des pièces de théâtre, des projections de films, des soirées culturelles et des activités sportives. Après la guerre, le 6 juillet 1945, une paroisse indépendante dédiée à saint Jean Bosco a été créée à Trnávka. L'ensemble figure dans l'inventaire du patrimoine local de Bratislava sous le nom d'église Don Bosco et d'institut salésien de Dornkapel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky : une gravière devenue plage urbaine, puis lieu d'une catastrophe aérienne",
+          "text": "Le lac Zlaté piesky est né de l'extraction de graviers menée entre 1955 et 1964. Les matériaux ont servi aux grands ensembles résidentiels de Bratislava et à la construction de son aéroport ; les eaux souterraines ont progressivement rempli l'excavation. Les activités de loisirs se sont développées dès le début des années 1960 et une plage officielle a ouvert en 1962. Aujourd'hui, le site est une vaste zone naturelle de baignade, avec une surface d'eau d'environ 52 à 56 hectares et des équipements sportifs et de loisirs. Zlaté piesky est aussi le lieu de l'une des catastrophes les plus meurtrières de l'aviation civile tchécoslovaque. Le 28 juillet 1976, le vol ČSA 001 reliant Prague à Bratislava s'est écrasé dans le lac pendant son approche, avec un appareil Iliouchine Il-18B ; 76 personnes ont péri et trois des 79 passagers ont survécu. Un mémorial près de l'entrée du site commémore les victimes. Le lac associe ainsi l'histoire de la construction d'après-guerre et des loisirs à un lieu de mémoire collective."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Zlaté piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: Trnávka nacque tra campi e insediamenti precari",
+          "text": "Per secoli l'attuale Trnávka fu un paesaggio agricolo periferico di campi, prati e pascoli. Il suo antico nome tedesco si consolidò nella forma Dornkappel e richiamava una cappella tra i rovi che sorgeva vicino alla vecchia fornace, nell'area dell'odierna via Pri zvonici. Un insediamento più stabile iniziò a svilupparsi intorno al 1869, dapprima presso fattorie e fornaci. Tra la fine dell'Ottocento e soprattutto dopo la Prima guerra mondiale arrivarono persone in cerca di lavoro e terra. Nacquero case costruite dagli stessi abitanti e colonie molto povere, prive di infrastrutture adeguate; nel periodo tra le due guerre si svilupparono, tra le altre, le colonie Štúrova e Masarykova. Dopo il 1945 il nome Dornkappel fu sostituito da Trnávka. La successiva costruzione di condomini, soprattutto tra il 1970 e il 1977, trasformò l'antico sobborgo nell'attuale quartiere urbano del distretto di Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di Don Bosco e l'oratorio salesiano di Trnávka",
+          "text": "La chiesa di Don Bosco, in via Okružná, è un punto di riferimento di Trnávka e ricorda il ruolo fondamentale dell'opera salesiana nella vita dell'antico e povero sobborgo di Dornkappel. I salesiani arrivarono a Bratislava nel 1933 e crearono gradualmente un centro per attività spirituali, educative, culturali e sportive rivolte ai giovani. La prima pietra della chiesa e dell'istituto fu posata il 27 giugno 1937. I lavori procedettero così rapidamente che la chiesa poté essere utilizzata già dall'8 dicembre 1938; la solenne consacrazione della chiesa e dell'altare seguì il 4 giugno 1939. L'oratorio non era soltanto uno spazio religioso: ospitava spettacoli teatrali, proiezioni cinematografiche, serate culturali e attività sportive. Dopo la guerra, il 6 luglio 1945, a Trnávka fu istituita una parrocchia autonoma dedicata a san Giovanni Bosco. Il complesso è inserito nell'elenco dei beni del patrimonio locale di Bratislava come chiesa di Don Bosco e istituto salesiano di Dornkapel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: una cava di ghiaia diventata spiaggia urbana e luogo di una tragedia aerea",
+          "text": "Il lago Zlaté piesky nacque dall'estrazione di ghiaia svolta tra il 1955 e il 1964. Il materiale fu utilizzato per la costruzione dei grandi quartieri residenziali di Bratislava e del suo aeroporto; l'acqua sotterranea riempì gradualmente lo scavo. Le attività ricreative si svilupparono già all'inizio degli anni Sessanta e nel 1962 fu aperta una spiaggia ufficiale. Oggi è una grande area balneare naturale, con una superficie d'acqua di circa 52–56 ettari e strutture sportive e ricreative. Zlaté piesky è però anche il luogo di uno dei più tragici incidenti aerei nella storia dell'aviazione civile cecoslovacca. Il 28 luglio 1976 il volo ČSA 001 da Praga a Bratislava precipitò nel lago durante l'avvicinamento, con un Ilyushin Il-18B; morirono 76 persone e sopravvissero tre dei 79 passeggeri a bordo. Un monumento vicino all'ingresso dell'area ricorda le vittime. Il lago unisce così la storia dell'edilizia e del tempo libero del dopoguerra a un luogo di memoria pubblica."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Zlaté piesky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dornkappel: Trnávka groeide uit velden en zelfgebouwde nederzettingen",
+          "text": "Het huidige Trnávka was eeuwenlang een agrarisch buitengebied met akkers, weiden en graslanden. De historische Duitse naam werd Dornkappel; die verwees naar een doornkapel bij de voormalige steenbakkerij, in de omgeving van de huidige straat Pri zvonici. Een meer aaneengesloten nederzetting begon zich rond 1869 te ontwikkelen, eerst bij boerderijen en steenbakkerijen. Rond de overgang naar de twintigste eeuw en vooral na de Eerste Wereldoorlog kwamen mensen hierheen op zoek naar werk en grond. Er ontstonden zelfgebouwde huizen en zeer arme woonkolonies zonder voldoende voorzieningen; in het interbellum kwamen onder meer de kolonies Štúrova en Masarykova tot stand. Na 1945 werd de naam Dornkappel vervangen door Trnávka. De latere bouw van flatgebouwen, vooral tussen 1970 en 1977, veranderde de voormalige voorstad in de huidige stadswijk van het stadsdeel Ružinov."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Don Boscokerk en het salesiaanse oratorium in Trnávka",
+          "text": "De Don Boscokerk aan de Okružná-straat is een herkenningspunt van Trnávka en herinnert aan de belangrijke rol van de salesianen in het leven van de vroegere arme voorstad Dornkappel. De salesianen kwamen in 1933 naar Bratislava en bouwden geleidelijk een centrum op voor religieuze, educatieve, culturele en sportieve activiteiten voor jongeren. De eerste steen van de kerk en het instituut werd gelegd op 27 juni 1937. De bouw verliep zo snel dat de kerk al vanaf 8 december 1938 in gebruik kon worden genomen; de plechtige wijding van kerk en altaar volgde op 4 juni 1939. Het oratorium was meer dan een religieuze ruimte: er vonden theatervoorstellingen, filmvertoningen, culturele avonden en sportactiviteiten plaats. Na de oorlog werd op 6 juli 1945 in Trnávka een zelfstandige parochie opgericht, gewijd aan Sint-Jan Bosco. Het complex staat in de erfgoedinventaris van Bratislava vermeld als de Don Boscokerk en het salesiaanse instituut in Dornkapel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zlaté piesky: grindgroeve, stadsstrand en plaats van een vliegramp",
+          "text": "Het meer Zlaté piesky ontstond door grindwinning tussen 1955 en 1964. Het gewonnen materiaal werd gebruikt voor de grootschalige woningbouw in Bratislava en voor de aanleg van de luchthaven; grondwater vulde de groeve geleidelijk. De recreatieve ontwikkeling begon al aan het begin van de jaren zestig en in 1962 werd een officieel strand geopend. Tegenwoordig is het een groot natuurlijk zwemgebied met een wateroppervlak van ongeveer 52–56 hectare en voorzieningen voor sport en recreatie. Zlaté piesky is ook de plaats van een van de tragischste vliegrampen uit de geschiedenis van de Tsjechoslowaakse burgerluchtvaart. Op 28 juli 1976 stortte vlucht ČSA 001 van Praag naar Bratislava tijdens de nadering met een Ilyushin Il-18B in het meer; 76 mensen kwamen om en drie van de 79 passagiers aan boord overleefden. Een monument bij de ingang van het recreatiegebied herdenkt de slachtoffers. Het meer verbindt zo de geschiedenis van de naoorlogse bouw en vrijetijdsbesteding met een plek van openbare herinnering."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre, príloha 3a, uvádza pre geografické PSČ 821 04 vybranú poštu Bratislava 217; oficiálny zoznam pobočiek potvrdzuje jej adresu Cesta na Senec 2. Tento dokument je smerovaním triedenia, nie samostatným dôkazom úplného doručovacieho obvodu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-20",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny zoznam triedenia priraďuje 821 04 k vybranej pošte Bratislava 217. Oficiálny zoznam pobočiek uvádza Bratislava 217 na Ceste na Senec 2; fyzická poloha je v mestskej časti Ružinov (Trnávka). Verejné katalógy uvádzajú v širšom PSČ aj ďalšie pracovisko Bratislava 216, preto sa zoznam triedenia nepovažuje za dôkaz výlučného doručovacieho priradenia. Administratívne údaje sú však viazané na Bratislavu a Ružinov; hranica PSČ sa z týchto zdrojov neodvodzuje.",
+    "postcode_override_reason": null,
+    "geographic_authority": "RAGEO/Ministerstvo vnútra SR – adresné údaje a fyzická poloha; ŠÚ SR/územné registre – administratívna hierarchia; ÚGKK SR/ZBGIS a lokalizačné zdroje – geografické overenie bodov."
+  }
 }
