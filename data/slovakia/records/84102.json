@@ -1,4 +1,158 @@
 {
   "postcode": "84102",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Dúbravka",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Villa Rustica – římská archeologická lokalita na Veľké lúce",
+  "representative_point": {
+    "lat": 48.18808,
+    "lon": 17.03244
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Villa Rustica – pozůstatky římských lázní ukryté v lesích nad Dúbravkou",
+      "text": "Na Veľké lúce v lesích mezi Dúbravkou a Devínskou Novou Vsí se zachovaly základy římské venkovské stavby Villa Rustica. Archeologové zde v roce 1982 odkryli pozůstatky soukromých římských lázní, takzvaného balnea, ležícího přibližně 210 metrů nad mořem. Lokalita patří k významným nálezům svého druhu ve středním Podunají: její zakonzervované základy dodnes umožňují představit si půdorys a podobu antické stavby. V roce 1990 byla Villa Rustica vyhlášena národní kulturní památkou. Místo leží na katastrálním území Dúbravky a mapové podklady je přiřazují k PSČ 841 02.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/villa-rustica.html",
+        "https://poi.oma.sk/n11018303106",
+        "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv"
+      ],
+      "map_category": "archaeological_site",
+      "location": {
+        "name": "Villa Rustica – archeologická lokalita na Veľké lúce",
+        "address": null,
+        "lat": 48.195527,
+        "lon": 17.015662,
+        "type": "archaeological_site",
+        "accuracy": "exact",
+        "source": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/villa-rustica.html"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "PSČ 841 02 je doloženo adresními a poštovními záznamy pro Bratislavu-Dúbravku. Obslužná pošta Bratislava 42 je fyzicky umístěna na Saratovské 9 v Dúbravce, pod PSČ 841 02; poloha pošty nebyla použita jako reprezentativní bod doručovací oblasti.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – poštovní evidence a oficiální vyhledávač poboček; doplňkově veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO",
+    "postcode_source_release": "Kontrola 21. 11. 2026; dataset pin commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Bratislava 42 se nachází na Saratovské 9 v městské části Dúbravka; adresní záznam pobočky uvádí PSČ 841 02. Pro administrativní pole je proto použita Bratislava, městská část Dúbravka, okres Bratislava IV a Bratislavský kraj.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR; pro systematickou kontrolu byl použit veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO, nikoli přímý export registru. Dataset uvádí pro PSČ 84102 celkem 776 adresních bodů, všechny v Bratislavě-Dúbravce, okres Bratislava IV, Bratislavský kraj. Souhrnný reprezentativní bod je 48.18808, 17.03244; obalový rozsah 48.17705–48.20044 N a 17.01654–17.04020 E není polygonální hranicí doručovací oblasti. Poloha archeologické lokality Villa Rustica je samostatně doložena oficiální stránkou městské části a nezávislým mapovým záznamem, který ji uvádí pod PSČ 841 02."
+  },
+  "sources": [
+    {
+      "title": "Mestská časť Bratislava-Dúbravka – Villa Rustica: archeologická lokalita, poloha a vyhlášení národní kulturní památkou",
+      "url": "https://www.dubravka.sk/sk/kam-v-dubravke/volny-cas/dubravske-pamiatky-1/villa-rustica.html",
+      "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Villa Rustica, Veľká lúka, evidované PSČ 841 02 a souřadnice",
+      "url": "https://poi.oma.sk/n11018303106",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – oficiální vyhledávač poboček, Bratislava 42",
+      "url": "https://otvaraciehodiny.posta.sk/?n=bratislava42",
+      "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – pošta Bratislava 42, Saratovská 9, PSČ 841 02",
+      "url": "https://poi.oma.sk/n279176085",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – veřejný CC0 dataset odvozený z Registru adries SR (RAGEO), adresní body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – souhrn PSČ a reprezentativní body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Villa Rustica – římská archeologická lokalita na Veľké lúce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – pozůstatky římských lázní ukryté v lesích nad Dúbravkou",
+          "text": "Na Veľké lúce v lesích mezi Dúbravkou a Devínskou Novou Vsí se zachovaly základy římské venkovské stavby Villa Rustica. Archeologové zde v roce 1982 odkryli pozůstatky soukromých římských lázní, takzvaného balnea, ležícího přibližně 210 metrů nad mořem. Lokalita patří k významným nálezům svého druhu ve středním Podunají: její zakonzervované základy dodnes umožňují představit si půdorys a podobu antické stavby. V roce 1990 byla Villa Rustica vyhlášena národní kulturní památkou. Místo leží na katastrálním území Dúbravky a mapové podklady je přiřazují k PSČ 841 02."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Villa Rustica – römische archäologische Stätte auf der Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – Überreste eines römischen Badehauses in den Wäldern oberhalb von Dúbravka",
+          "text": "Auf der Veľká lúka, in den Wäldern zwischen Dúbravka und Devínska Nová Ves, sind die Fundamente der römischen Villa Rustica erhalten. Archäologen entdeckten hier 1982 die Überreste eines privaten römischen Badehauses, eines sogenannten Balneums, auf etwa 210 Metern über dem Meeresspiegel. Die Anlage zählt zu den bedeutenden Funden ihrer Art im mittleren Donauraum. Ihre konservierten Fundamente lassen noch heute den Grundriss und die Gestalt des antiken Gebäudes erkennen. 1990 wurde die Villa Rustica zum nationalen Kulturdenkmal erklärt. Der Fundort liegt im Katastergebiet von Dúbravka und wird in den Kartendaten der Postleitzahl 841 02 zugeordnet."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Villa Rustica – Roman archaeological site at Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – remains of a Roman bathhouse in the woods above Dúbravka",
+          "text": "The foundations of the Roman rural residence known as Villa Rustica survive at Veľká lúka, in the woods between Dúbravka and Devínska Nová Ves. Archaeologists uncovered the remains of a private Roman bathhouse, known as a balneum, here in 1982, at an elevation of about 210 metres above sea level. The site is one of the notable discoveries of this building type in the middle Danube region. Its conserved foundations still make it possible to understand the layout and form of the ancient structure. Villa Rustica was declared a national cultural monument in 1990. The site lies within the cadastral territory of Dúbravka and is listed under postcode 841 02 in map records."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Villa Rustica – yacimiento arqueológico romano en Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica: restos de unas termas romanas en los bosques sobre Dúbravka",
+          "text": "En Veľká lúka, en los bosques situados entre Dúbravka y Devínska Nová Ves, se conservan los cimientos de la villa rural romana conocida como Villa Rustica. En 1982, los arqueólogos descubrieron aquí los restos de unas termas privadas romanas, llamadas balneum, a unos 210 metros sobre el nivel del mar. El yacimiento figura entre los hallazgos destacados de este tipo en la región del Danubio medio. Sus cimientos consolidados permiten todavía comprender la planta y la forma de la construcción antigua. Villa Rustica fue declarada monumento cultural nacional en 1990. El lugar se encuentra en el término catastral de Dúbravka y aparece asociado al código postal 841 02 en los registros cartográficos."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Villa Rustica – site archéologique romain de Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – vestiges de thermes romains dans les bois au-dessus de Dúbravka",
+          "text": "À Veľká lúka, dans les bois entre Dúbravka et Devínska Nová Ves, sont conservées les fondations de la villa rurale romaine appelée Villa Rustica. En 1982, des archéologues y ont découvert les vestiges de thermes privés romains, dits balneum, à environ 210 mètres d’altitude. Le site compte parmi les découvertes importantes de ce type dans le moyen bassin du Danube. Les fondations consolidées permettent encore de comprendre le plan et la forme de l’édifice antique. Villa Rustica a été déclarée monument culturel national en 1990. Le site se trouve dans le territoire cadastral de Dúbravka et les données cartographiques l’associent au code postal 841 02."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Villa Rustica – sito archeologico romano a Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – resti di terme romane nei boschi sopra Dúbravka",
+          "text": "A Veľká lúka, nei boschi tra Dúbravka e Devínska Nová Ves, si conservano le fondamenta della villa rurale romana nota come Villa Rustica. Nel 1982 gli archeologi vi scoprirono i resti di terme private romane, dette balneum, a circa 210 metri sul livello del mare. Il sito è uno dei ritrovamenti più significativi di questo tipo nel medio bacino del Danubio. Le fondamenta consolidate permettono ancora oggi di riconoscere la pianta e la forma dell’edificio antico. Nel 1990 Villa Rustica è stata dichiarata monumento culturale nazionale. Il luogo si trova nel territorio catastale di Dúbravka ed è associato al CAP 841 02 nei dati cartografici."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Villa Rustica – Romeinse archeologische vindplaats op Veľká lúka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Villa Rustica – resten van een Romeins badhuis in de bossen boven Dúbravka",
+          "text": "Op Veľká lúka, in de bossen tussen Dúbravka en Devínska Nová Ves, zijn de fundamenten bewaard gebleven van de Romeinse landelijke villa die bekendstaat als Villa Rustica. Archeologen ontdekten hier in 1982 de resten van een particulier Romeins badhuis, een zogenoemd balneum, op ongeveer 210 meter boven zeeniveau. De vindplaats behoort tot de belangrijke ontdekkingen van dit type in het midden van het Donaugebied. De geconserveerde fundamenten maken het nog steeds mogelijk de plattegrond en vorm van het antieke gebouw te begrijpen. Villa Rustica werd in 1990 uitgeroepen tot nationaal cultureel monument. De locatie ligt binnen het kadastrale gebied van Dúbravka en wordt in kaartgegevens gekoppeld aan postcode 841 02."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
