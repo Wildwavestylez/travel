@@ -217,3 +217,13 @@ Rychlá kontrola zjevných duplicit napříč blokem neodhalila bezdůvodné opa
 - Manifest potvrzuje `record_count = 12`, přesný seznam 12 PSČ, `validation.status = VERIFIED`, `validation.readback_verified = true`, `verified_record_count = 12` a scope hash `bfab299b623ea24d82d36de12b420faa183d72099c2422c6f533fb666d55def6`.
 - **Poznámka k metadatům manifestu:** textové pole `scope.selection_description` chybně říká „Exact 11 existing…“. Jde pouze o chybný popisný text; počet, seznam PSČ, ověřený počet i hash jsou správné pro 12 záznamů. Pokus o opravu nasazené Edge Function byl bezpečnostní kontrolou zablokován, proto tato textová drobnost zůstává otevřená k opravě; zálohovací soubory ani původní zálohu jsme nepřepisovali.
 - Read-only zamčení nebylo provedeno.
+
+
+## 10. Read-only ochrana (2026-11-20)
+
+- Na výslovný pokyn uživatele byla vytvořena databázová funkce `public.prevent_cz_chebsko_35002_35493_mutation()` a trigger `lock_cz_chebsko_35002_35493_read_only` na `public.postal_codes`.
+- Trigger chrání přesně 12 PSČ `35002, 35101, 35124, 35131, 35132, 35134, 35135, 35137, 35201, 35301, 35491, 35493` v zemi `CZ`; jiné záznamy neblokuje.
+- Ochrana se spouští před `INSERT`, `UPDATE` i `DELETE` a odmítá změnu SQLSTATE `55000`. Přesun z chráněného PSČ nebo přesun do chráněného PSČ je rovněž blokován.
+- Testy UPDATE, DELETE a INSERT byly provedeny v zachytávajících PL/pgSQL blocích; všechny tři skončily očekávaným SQLSTATE `55000`. Žádný test nezměnil ani nesmazal data.
+- Závěrečný read-back potvrdil 12/12 PSČ, 12/12 `published` + V5 a 123 faktů. Trigger je aktivní.
+- Odemčení je možné pouze samostatnou výslovnou a kontrolovanou databázovou migrací.
