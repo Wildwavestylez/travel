@@ -10,6 +10,21 @@ Jediným závazným produkčním základem jsou společně:
 2. `data/italy/CONTENT_STANDARD.md` — významová, geografická, rešeršní, redakční a překladová pravidla.
 
 Každý nový nebo přepracovaný záznam MUSÍ splňovat oba dokumenty. Nepřidávej pole, kategorie, jazyky, zdroje ani obsahové vzory ad hoc. Pokud se standard a schéma dostanou do rozporu, záznam není dokončen; rozpor musí být vyřešen řízenou revizí dokumentace.
+### Technická shoda s českým kanonickým JSON
+
+Technická struktura italského záznamu musí být **1:1 shodná s aktuálním `data/czechia/schema.json`**. České schéma je společný technický vzor TRAVEL; italská odlišnost se smí projevit pouze v geografickém významu hodnot a ve výběru italských autorit, nikoli ve vlastních polích, typech, nullable chování, překladové struktuře nebo řízených enum hodnotách.
+
+Závazně platí:
+- stejné názvy polí, stejné povinné/nepovinné vlastnosti a stejné datové typy;
+- stejné chování `null`, stejné struktury `verification`, `photo`, `sources`, `translations` a geografických objektů;
+- stejné řízené hodnoty `category`, `priority`, `map_category`, `facts[].location.type` a `facts[].location.accuracy`;
+- stejná struktura zdroje: top-level `sources[]` obsahuje pouze `title`, `url`, `type`;
+- `facts[].sources` obsahuje přesné URL zdrojů, které musí odpovídat hodnotám `sources[].url`; nevytvářej samostatné source ID ani další vlastnosti zdrojů;
+- `access_point` je nullable a smí být `null`, pokud neexistuje spolehlivě ověřený praktický navigační bod;
+- `verification` používá přesně klíče definované českým schématem, včetně `plz_source`; italský význam tohoto pole je ověření CAP pomocí příslušné italské autority;
+- záznam neobsahuje vlastní root pole `status` ani `data_version`; provozní stav zůstává oddělený v databázovém sloupci `workflow_status`.
+
+Při každé změně italského schématu porovnej jeho kompletní strukturální tvar s českým schématem. Jakákoli odchylka v klíčích, povinnosti, typech, nullability, vnořené struktuře nebo řízených hodnotách je nepřípustná, pokud nebyla současně schválena jako společná změna kanonického TRAVEL formátu.
 
 Tento standard vychází z osvědčené metodiky českého TRAVEL Content Standardu V2 a přebírá také vyspělé rešeršní, geografické a redakční principy německého standardu. Česká a německá pravidla pro konkrétní instituce, poštovní evidenci, administrativní členění a databázový provoz se však nepřenášejí mechanicky. Italská specifika se řídí italskými autoritami, CAP systémem a skutečnou územní strukturou Itálie.
 
@@ -284,6 +299,8 @@ Preferuj:
 6. obecné turistické portály, encyklopedie a komunitní zdroje jako vodítko nebo doplněk.
 
 U důležitých faktů používej více zdrojů, pokud jsou dostupné. U každého tvrzení musí být jasné, který zdroj je podporuje. Více kopií stejného textu na různých webech není nezávislé potvrzení.
+
+Technické propojení zdrojů musí odpovídat společnému českému JSON: každé `facts[].sources` obsahuje URL a každá taková URL musí být dohledatelná v `sources[].url` téhož záznamu. Top-level zdroj má přesně `title`, `url` a `type`; nevytvářej source ID ani další pole.
 
 ### 8.3 Přesnost, nejistota a sporné interpretace
 
