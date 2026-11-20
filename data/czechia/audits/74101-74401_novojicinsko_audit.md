@@ -283,14 +283,16 @@ Primární podklady první dávky:
 106. 74293/fact_002: zkontrolováno všech šest překladů kostela Nanebevzetí Panny Marie a kopie Sixtinské madony; datace, dárce i obnova interiéru v roce 2014 odpovídají masteru.
 107. 74293/fact_003: odstraněno dvojí opakování koupě zámku obcí v roce 1910 a důvodu proti germanizaci; sjednocena časová osa, ručení obyvatel a zápis do zemských desek. Všech šest překladů aktualizováno.
 108. 74293/fact_004: opraven vnitřní rozpor českého masteru, který současně uváděl šestibokou a devítiúhelníkovou věž; zachována šestiboká konstrukce potvrzená překlady. Read-back 4/4 master–cs shoda, 0 chybějících masterů a 0 chybějících jazykových title/text.
+109. 74301/fact_001–004: individuálně zkontrolovány všechny čtyři překladové sady v de/en/es/fr/it/nl (24 cizojazyčných textů včetně názvů). Zachovány správné významy městské památkové zóny a Slezského náměstí, gotické halové trojlodní dispozice kostela sv. Mikuláše, chronologie vzniku muzea i technická charakteristika větrného mlýna na Nových Dvorech. Překlady jsou úplné a věcně odpovídají českým masterům; nebyla zjištěna chyba vyžadující zásah. Read-back 4/4 faktů: master–cs shoda, všech šest cizojazyčných title/text kompletních. PSČ 74301 uzavřeno 4/4; celkem 247/261 faktů a 1 482/1 566 cizojazyčných textů zkontrolováno.
+
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 246/261 faktů hotovo (1 476/1 566 textů), zbývá 15 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 247/261 faktů hotovo (1 482/1 566 textů), zbývá 14 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74301/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74401/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
