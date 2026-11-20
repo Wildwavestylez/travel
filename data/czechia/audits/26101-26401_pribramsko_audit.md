@@ -17,7 +17,15 @@
 ### Potvrzené mezery k doplnění
 1. **26101 — Svatá Hora:** v osmi existujících faktech chybí zásadní národní kulturní památka a významné evropské mariánské poutní místo. Adresa Svatá Hora 591, Příbram II, PSČ 26101 je doložena. Kandidát na samostatný fakt; zachovat legendární tradice s jasným připsáním pověsti.
 2. **26101 — František Drtikol:** světově uznávaný fotograf a příbramský rodák není zpracován jako samostatný příběh; současný fakt o Zámečku-Ernestinu pouze zmiňuje galerii nesoucí jeho jméno. Kandidát na samostatný fakt.
-3. **26101 — Jan Drda:** příbramský rodák, spisovatel a novinář není v aktuálních osmi faktech samostatně zachycen. Prověřit zařazení jako významné české literární osobnosti.
+3. **26101 — Jan Drda:** příbramský rodák, spisovatel a novinář nebyl v původních osmi faktech samostatně zachycen. Prověřit zařazení jako významné české literární osobnosti.
+
+### Provedené doplnění — 26101
+- **fact_009 Svatá Hora** — doplněno; `heritage_and_monuments`, priorita A, `religious_site`; text 998 znaků, 3 zdroje, poloha baziliky 49.6849572, 14.0176303; legenda o Arnoštovi z Pardubic je výslovně označena jako pověst.
+- **fact_010 František Drtikol** — doplněno; `people`, priorita A, `personality`; text 1 059 znaků, 4 zdroje, poloha prvního ateliéru Václavské náměstí 144, 49.6890129442, 14.0140644293.
+- **fact_011 Jan Drda** — doplněno; `people`, priorita B, `personality`; text 1 131 znaků, 4 zdroje, rodný dům Žižkova 254, 49.6896523998, 14.0230740420.
+- Všechny tři nové fakty jsou v `facts[]` a v překladech `cs/de/en/es/fr/it/nl`; read-back potvrdil 11 faktů, 3 nové položky, 0 prázdných překladů, 0 krátkých českých master textů, 0 chybějících zdrojů/poloh a 11 položek v každém jazyce.
+- Celkový inventář rozsahu se tím mění z 238 na **241 faktů**; ostatní PSČ nebyla změněna.
+
 
 ### Zásadní témata již pokrytá
 - 26231: Památník Vojna a bitva u Slivice 11.–12. 5. 1945.
