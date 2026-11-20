@@ -265,14 +265,22 @@ Primární podklady první dávky:
 88. 74283/fact_001–006: individuálně zkontrolováno všech 6 faktů v šesti jazycích; v němčině u fact_001 zpřesněno „Festung“ na „befestigter Herrensitz“ podle českého „tvrz“. Read-back PASS.
 89. 74285/fact_001: odstraněno opakování historických údajů v českém masteru; text zkrácen bez ztráty podstatných informací a synchronizován s translations.cs. Všech šest cizojazyčných verzí nově formulováno podle opraveného masteru. Read-back PASS.
 90. 74285/fact_006: odstraněno opakované sdělení o odhalení pomníku a pozdějším doplnění jmen; český master, translations.cs a všech šest překladů sjednoceno do jedné chronologické verze. Read-back PASS.
+91. 74285/fact_007: odstraněno opakování data zahájení provozu a prodloužení tratě; český master a všech šest překladů sjednoceno do jedné chronologie. Zachovány technické údaje, nákladní doprava a dnešní význam jednokolejné tramvajové trati.
+92. 74285/fact_008: odstraněno dvojí opakování ledovcových sedimentů a bývalé pískovny; zpřesněna stručná verze o glaciálním původu krajiny, změně odtoku Odry a nálezech pazourků.
+93. 74285/fact_009: sloučena duplicitní informace o založení gruntu čp. 66 Kalusem; zachována návaznost vlastnictví, vznik dalších usedlostí, neujaté názvy a rozdělení osady mezi katastry.
+94. 74285/fact_010: odstraněno opakování seznamu atrakcí a charakteru současného areálu; zůstaly konkrétní nabídky Skalka Family Parku a jasné odlišení od historické památky.
+95. 74285/fact_011: sloučeny opakované úvodní informace o otevření kina a jeho kapacitě; zachovány technické parametry, vývoj projektorů, filmové formáty a významné projekce.
+96. 74285/fact_012: odstraněno opakování data a okolností tragédie i moderního vzniku současných Božích muk; zachován kontext dvou původních svatých obrázků.
+97. 74285/fact_013: odstraněno dvojí uvedení ukrytí a odchodu Andreje Melnika; sjednocena rodinná vzpomínka do souvislého vyprávění včetně podrobností o úkrytu, řezbách a jeho neznámém dalším osudu.
+98. 74285/fact_014: odstraněno opakování přejmenování obce a stržení školní tabule; zachovány datum anexe, protest, zásah vojáků a správní zařazení za okupace. Read-back všech osmi faktů: 8/8 master–cs shoda, 0 chybějících jazykových title/text a 8/8 faktů kompletních v de/en/es/fr/it/nl.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 228/261 faktů hotovo (1 368/1 566 textů), zbývá 33 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 236/261 faktů hotovo (1 416/1 566 textů), zbývá 25 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74285/fact_007 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74286/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
