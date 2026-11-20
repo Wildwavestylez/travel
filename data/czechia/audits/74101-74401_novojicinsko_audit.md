@@ -75,35 +75,46 @@ Zdroje:
 
 ## 7. E2 — Délka českého master textu
 
-Nalezeno **23 faktů kratších než 350 znaků**. V tomto běhu nebyly uměle natahovány ani doplňovány neověřenou výplní.
+Původně nalezeno **23 faktů kratších než 350 znaků**. První navazující dávka uzavřela 6 faktů; zbývá **17 otevřených položek**.
 
-| PSČ | ID | Délka | Fakt |
-|---|---|---:|---|
-| 74255 | fact_004 | 345 | Lípa svobody: živá připomínka vzniku Československa |
-| 74255 | fact_006 | 339 | Boje o Albrechtičky: osvobození 3. května 1945 |
-| 74256 | fact_005 | 343 | Pramen Pískovna: vydatný zdroj, který nikdy nezamrzá |
-| 74272 | fact_001 | 342 | Cyklostezka Koleje: železnice dostala druhý život |
-| 74272 | fact_003 | 253 | Kaple Panny Marie Bolestné a erb z roku 1587 |
-| 74272 | fact_008 | 331 | Kostel sv. Jiří v Mořkově |
-| 74272 | fact_013 | 336 | Zaniklá ves Zdislavice |
-| 74285 | fact_001 | 238 | Od středověké vsi k dělnické Vřesině |
-| 74285 | fact_002 | 184 | Gustav Kořený a tradice Vynášení Mařáka |
-| 74285 | fact_003 | 184 | Kaple se zvoničkou – místní kulturní památka |
-| 74285 | fact_004 | 173 | Kostel sv. Antonína Paduánského |
-| 74285 | fact_005 | 194 | Kazimír Tomášek – slezský národní buditel |
-| 74285 | fact_006 | 217 | Pomník padlým hrdinům a obětem osvobození |
-| 74285 | fact_007 | 267 | Parní tramvaj údolím Porubky |
-| 74285 | fact_008 | 256 | Ledovcové stopy ve Vřesinské strži |
-| 74285 | fact_009 | 238 | Osada Mexiko na hranici dvou katastrů |
-| 74285 | fact_010 | 236 | Skalka Family Park – současný rodinný areál |
-| 74285 | fact_011 | 184 | Letní kino Lesana – širokoúhlé kino pod širým nebem |
-| 74285 | fact_012 | 212 | Boží muka a tragédie sedláka Hurníka |
-| 74285 | fact_013 | 281 | Andrej Melnik – ukrytý sovětský zajatec |
-| 74285 | fact_014 | 263 | Protest proti německé okupaci v říjnu 1938 |
-| 74293 | fact_003 | 346 | Zámek Slatina – sídlo, které koupili sami obyvatelé |
-| 74293 | fact_004 | 325 | Rozhledna Slatina na vrchu Okrouhlík |
+| PSČ | ID | Původní délka | Fakt | Stav |
+|---|---|---:|---|---|
+| 74272 | fact_013 | 336 | Zaniklá ves Zdislavice | REVIEW REQUIRED — oficiální zdroj potvrzuje pouze polohu v dolině mezi Jedlí a Hlásnicí a pravděpodobný zánik živelnou pohromou; další bezpečně doložený obsah pro odpovědné rozšíření nebyl nalezen. |
+| 74285 | fact_001 | 238 | Od středověké vsi k dělnické Vřesině | Otevřeno |
+| 74285 | fact_002 | 184 | Gustav Kořený a tradice Vynášení Mařáka | Otevřeno |
+| 74285 | fact_003 | 184 | Kaple se zvoničkou – místní kulturní památka | Otevřeno |
+| 74285 | fact_004 | 173 | Kostel sv. Antonína Paduánského | Otevřeno |
+| 74285 | fact_005 | 194 | Kazimír Tomášek – slezský národní buditel | Otevřeno |
+| 74285 | fact_006 | 217 | Pomník padlým hrdinům a obětem osvobození | Otevřeno |
+| 74285 | fact_007 | 267 | Parní tramvaj údolím Porubky | Otevřeno |
+| 74285 | fact_008 | 256 | Ledovcové stopy ve Vřesinské strži | Otevřeno |
+| 74285 | fact_009 | 238 | Osada Mexiko na hranici dvou katastrů | Otevřeno |
+| 74285 | fact_010 | 236 | Skalka Family Park – současný rodinný areál | Otevřeno — prověřit relevantní kontext nad rámec současné nabídky, bez reklamního tónu. |
+| 74285 | fact_011 | 184 | Letní kino Lesana – širokoúhlé kino pod širým nebem | Otevřeno |
+| 74285 | fact_012 | 212 | Boží muka a tragédie sedláka Hurníka | Otevřeno |
+| 74285 | fact_013 | 281 | Andrej Melnik – ukrytý sovětský zajatec | Otevřeno |
+| 74285 | fact_014 | 263 | Protest proti německé okupaci v říjnu 1938 | Otevřeno |
+| 74293 | fact_003 | 346 | Zámek Slatina – sídlo, které koupili sami obyvatelé | Otevřeno |
+| 74293 | fact_004 | 325 | Rozhledna Slatina na vrchu Okrouhlík | Otevřeno |
 
-Všech 23 položek zůstává `REVIEW REQUIRED` do doloženého rozšíření českého textu a aktualizace šesti cizojazyčných verzí.
+**Dokončeno v první dávce — 6/23 faktů:**
+- 74255/fact_004 — 345 → 632 znaků; doplněna pramenná výhrada k datu výsadby a přesný popis kronikářské slavnosti z roku 1928.
+- 74255/fact_006 — 339 → 667 znaků; doplněn průběh leteckých a pozemních bojů a škody na obci.
+- 74256/fact_005 — 343 → 580 znaků; doplněna metodika měření a výslovné omezení, že zdroj nepotvrzuje léčivost ani pitnost.
+- 74272/fact_001 — 342 → 559 znaků; doplněna délka 9,76 km, průběh trasy a společná realizace pěti obcí.
+- 74272/fact_003 — 253 → 531 znaků; doplněn význam heraldické desky a její památkový kontext.
+- 74272/fact_008 — 331 → 562 znaků; doplněna historie první školy v Mořkově (1844, rozšíření 1879 a dnešní využití).
+
+U všech šesti opravených faktů byly aktualizovány překlady de/en/es/fr/it/nl. Supabase read-back potvrdil české délky nad 350 znaků a přítomnost všech šesti jazykových verzí. Zbývajících **17** položek je otevřeno nebo označeno REVIEW REQUIRED.
+
+Primární podklady první dávky:
+- https://www.albrechticky.cz/pamatne-stromy
+- https://casopispoodri.cz/starsicisla/pdf/POODRI%201-2013.pdf
+- https://moravskoslezsky.kraj.cz/encyklopedie/objekty1.phtml?id=51475
+- https://ftp.sedlnice.cz/cs/turista-sedlnice/prirodni-zajimavost
+- https://www.icnj.cz/stranka/cyklostezka-koleje-novy-jicin.html
+- https://iispp.npu.cz/mis_public/documentDetail.htm?id=735521
+- https://www.obec-morkov.cz/historie
 
 ## 8. F — JSON, databáze a technická konzistence
 
@@ -167,6 +178,7 @@ Všech 23 položek zůstává `REVIEW REQUIRED` do doloženého rozšíření č
 ## 11. Provedené zápisy a read-back
 
 1. 74235: přidán Mendelův fakt a 7 překladů; read-back 5 faktů a česká shoda PASS.
+2. 74255/fact_004, 74255/fact_006, 74256/fact_005, 74272/fact_001, 74272/fact_003, 74272/fact_008: rozšířeny české master texty a všech šest cizojazyčných překladů; read-back délky 632, 667, 580, 559, 531 a 562 znaků PASS.
 6. Souřadnice: doplněno všech 32 původních null poloh; read-back potvrdil 261/261 faktů s neprázdnou polohou, 0 null, 0 neúplných location objektů a 0 nepovolených hodnot type/accuracy.
 2. 74301 a 74401: opraven jazyk českého masteru podle již existujících českých překladů; read-back master/cs PASS.
 3. 74254, 74258, 74267: synchronizován `translations.cs` s českým masterem; read-back PASS.
@@ -178,9 +190,9 @@ Všech 23 položek zůstává `REVIEW REQUIRED` do doloženého rozšíření č
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
-1. 23 krátkých českých master textů pod 350 znaků.
+1. 17 krátkých českých master textů stále otevřeno; 6/23 uzavřeno. 74272/fact_013 ponecháno REVIEW REQUIRED kvůli nedostatku dalších doložených podrobností.
 2. Nedokončená individuální sémantická kontrola cizojazyčných překladů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: vyřešit pouze 23 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: vyřešit zbývajících 17 krátkých českých master textů a dokončit individuální sémantickou kontrolu cizojazyčných překladů; hotovou souřadnicovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
