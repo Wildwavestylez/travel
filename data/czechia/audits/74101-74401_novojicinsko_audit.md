@@ -273,6 +273,9 @@ Primární podklady první dávky:
 96. 74285/fact_012: odstraněno opakování data a okolností tragédie i moderního vzniku současných Božích muk; zachován kontext dvou původních svatých obrázků.
 97. 74285/fact_013: odstraněno dvojí uvedení ukrytí a odchodu Andreje Melnika; sjednocena rodinná vzpomínka do souvislého vyprávění včetně podrobností o úkrytu, řezbách a jeho neznámém dalším osudu.
 98. 74285/fact_014: odstraněno opakování přejmenování obce a stržení školní tabule; zachovány datum anexe, protest, zásah vojáků a správní zařazení za okupace. Read-back všech osmi faktů: 8/8 master–cs shoda, 0 chybějících jazykových title/text a 8/8 faktů kompletních v de/en/es/fr/it/nl.
+99. 74291/fact_001: opraveny nepřirozené doslovné překlady pojmu vodní tvrz (zejména angličtina, španělština a italština); terminologie nyní odpovídá opevněnému panskému sídlu s vodním příkopem. Upřesněn i název archeologického registru.
+100. 74291/fact_002: zkontrolováno všech šest překladů gotického kostela sv. Jana Křtitele a historického areálu; terminologie stavebních prvků odpovídá českému masteru, bez nutnosti dalších zásahů.
+101. 74291/fact_003: sjednocen překlad vodní tvrze s fact_001 a zpřesněna terminologie opevněného sídla a vesnické struktury; read-back potvrdil 3/3 master–cs shodu, 0 chybějících jazykových title/text a 3/3 faktů kompletní v de/en/es/fr/it/nl.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
@@ -281,6 +284,6 @@ Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
 2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 236/261 faktů hotovo (1 416/1 566 textů), zbývá 25 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74286/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74292/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
