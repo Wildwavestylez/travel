@@ -258,14 +258,16 @@ Primární podklady první dávky:
 
 82. 74273/fact_006–008: dokončena sémantická kontrola tří překladových sad; názvy a významy odpovídají českým masterům, bez nutnosti dalších oprav.
 83. 74273/fact_009–010: dokončena sémantická kontrola posledních dvou překladových sad PSČ 74273; biografický text Oldřicha Černocha i historický popis vykolejení evakuačního vlaku významově odpovídají českým masterům. PSČ 74273 je nyní celé zkontrolováno 10/10 faktů.
+84. 74274/fact_001–006: dokončena individuální sémantická kontrola všech 6 faktů v šesti cizojazyčných verzích. Opraven francouzský popis disciplín Aloise Havla (autokros i rallyekros) a zpřesněn německý termín obecního kronikáře; ve francouzštině opravena časová shoda u Emila Bordovského. Read-back všech oprav PASS.
+85. 74275/fact_001–008: dokončena individuální sémantická kontrola všech 8 faktů v šesti cizojazyčných verzích. U faktu o lánové kolonizační vsi odstraněn příliš specifický německý termín Waldhufendorf a opraven nizozemský význam jednotky lán (nešlo o 70 samostatných usedlostí). U Johany Špačkové vysvětleno, že 20 kop vajec odpovídá 1 200 kusům, ve všech šesti překladech. Read-back změn PASS.
 ## 12. Výsledek a další krok
 
 **REVIEW REQUIRED** — blok není připraven k publikaci.
 
 Blokující otevřené oblasti:
 1. Délková kontrola: 22/23 textů rozšířeno a ověřeno; 74272/fact_013 Zdislavice ponecháno REVIEW REQUIRED, protože nebyly nalezeny další bezpečně doložené informace.
-2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 195/261 faktů hotovo (1 170/1 566 textů), zbývá 66 faktů.
+2. Nedokončená individuální sémantická kontrola cizojazyčných překladů: 209/261 faktů hotovo (1 254/1 566 textů), zbývá 52 faktů.
 
-Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74274/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
+Hotové kontroly se při pokračování neopakují. Další krok: pokračovat od 74281/fact_001 v individuální sémantické kontrole cizojazyčných překladů; 74272/fact_013 zůstává výslovnou obsahovou výjimkou REVIEW REQUIRED. Hotovou souřadnicovou ani délkovou kontrolu neopakovat.
 
 **Neprovedeno:** `data_version` ani `status` nebyly změněny; žádná publikace V5, záloha Dropbox ani read-only zamčení. Tyto kroky vyžadují výslovný pokyn uživatele.
