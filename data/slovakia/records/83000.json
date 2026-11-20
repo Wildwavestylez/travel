@@ -57,7 +57,7 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiálny zoznam pôšt uvádza dodávaciu poštu Bratislava 3, PSČ 83000, na adrese Tomášikova 3497/54. Uličný rozsah (Horné Židiny s uvedenými výnimkami, Koziarka, Krivé jarky, Na Koziarke a Žabí majer) je doplnkovo overen v adresnom prehľade SITA. Presný polygon doručovacej oblasti sa netvrdí.",
+    "plz_source": "Slovenská pošta – aktuálne technické parametre triedenia priraďujú PSČ 83000 dodávacej pošte Bratislava 3. Oficiálny zoznam pôšt a aktuálna kariérna stránka Slovenskej pošty potvrdzujú fyzické pracovisko Bratislava 3 na Tomášikovej 54; adresné a geografické podklady pre lokalitu Koziarka boli doplnené mestskými a mapovými zdrojmi. Presný polygon doručovacej oblasti sa netvrdí.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
@@ -66,16 +66,11 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "Oficiálny zoznam Slovenskej pošty uvádza dodávaciu poštu Bratislava 3, PSČ 83000, na adrese Tomášikova 3497/54. Oficiálna pracovná ponuka Slovenskej pošty z augusta 2026 označuje pracovisko ako Bratislava-Nové Mesto, okres Bratislava III. Top-level administratívne údaje preto vychádzajú z fyzickej polohy pošty, nie z väčšinového adresného klastra.",
+    "delivery_office_note": "PSČ 83000 je priradené dodávacej pošte Bratislava 3. Fyzické pracovisko Bratislava 3 sa nachádza na Tomášikovej 54 v Bratislave-Novom Meste; vlastné PSČ pobočky je 83000. Top-level administratívne polia preto vychádzajú z fyzickej polohy obslužnej pošty.",
     "postcode_override_reason": null,
-    "geographic_authority": "Mestská časť Bratislava-Nové Mesto – územný plán zóny Podhorský pás – Koziarka; Hlavné mesto Bratislava – Územný generel zelene (PP Rösslerov lom, k. ú. Vinohrady); Univerzita Komenského/UPJŠ geologická štúdia pre Rösslerov lom; OMA/OpenStreetMap len ako doplnkový mapový zdroj pre bod Koziarka. Presná polygonálna hranica doručovacej oblasti nebola stanovená."
+    "geographic_authority": "Slovenská pošta pre priradenie PSČ a dodávaciu poštu; Mestská časť Bratislava-Nové Mesto a odborné zdroje pre miestne dejiny a prírodné lokality; OMA/OpenStreetMap iba ako doplnkový zdroj WGS84 bodov. Presná polygonálna hranica PSČ nebola stanovená."
   },
   "sources": [
-    {
-      "title": "Ústredie práce, sociálnych vecí a rodiny – pracovisko Pošta Bratislava 3, Tomášikova 3497/54, Bratislava-Nové Mesto, Bratislava III",
-      "url": "https://www.sluzbyzamestnanosti.gov.sk/pracovne-ponuky/d660ac72-2870-4a64-ab6c-697fb0309a1e?lang=uk",
-      "type": "official"
-    },
     {
       "title": "SITA – PSČ 83000, zoznam ulíc a priradená pošta Bratislava 3",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/83000/",
@@ -117,14 +112,19 @@
       "type": "official"
     },
     {
-      "title": "Slovenská pošta – Zoznam vybraných pôšt, PSČ 83000 a dodávacia pošta Bratislava 3",
-      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom: Pošta Bratislava 3, Tomášikova 54, Bratislava 83000",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
       "type": "official"
     },
     {
-      "title": "Ministerstvo práce, sociálnych vecí a rodiny SR – pracovisko Slovenskej pošty Bratislava 3, Tomášikova 3497/54, Bratislava-Nové Mesto, Bratislava III (2026)",
-      "url": "https://www.sluzbyzamestnanosti.gov.sk/pracovne-ponuky/d660ac72-2870-4a64-ab6c-697fb0309a1e?lang=uk",
+      "title": "Slovenská pošta – Kariéra: Pošta Bratislava 3, Tomášikova 54, Bratislava",
+      "url": "https://kariera.posta.sk/ponuky/6a7da1d5d6be4a697d25fe98",
       "type": "official"
+    },
+    {
+      "title": "OMA / OpenStreetMap – Tomášikova 54, Bratislava, poloha pošty Bratislava 3",
+      "url": "https://bratislava.oma.sk/u/tomasikova/54",
+      "type": "other"
     }
   ],
   "translations": {
