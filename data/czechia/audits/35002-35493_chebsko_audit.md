@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-CHEBSKO-35002-35493`  
 **Datum checkpointu:** 2026-11-20  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.0  
-**Stav:** `PASS` — sémantická, geografická, RÚIAN, turistická a technická kontrola dokončena 2026-11-20. Publikace a záloha čekají na samostatný výslovný pokyn.
+**Stav:** `PASS / PUBLISHED V5 / BACKUP VERIFIED WITH METADATA NOTE` — audit dokončen 2026-11-20; všech 12 PSČ publikováno jako V5 a záloha vytvořena a ověřena v Dropboxu. V manifestu zůstává drobný textový nesoulad: `selection_description` uvádí 11 záznamů, ale `record_count`, seznam PSČ, `verified_record_count` i ověřený scope hash správně potvrzují 12.
 
 ## 1. Rozsah a inventář
 
@@ -159,7 +159,7 @@ Závěrečný read-back ze Supabase po všech opravách a dvou nových faktech:
 - 0 prázdných překladových titulů nebo textů.
 - 0 faktů bez zdrojů, 0 null locations, 0 nepovolených `map_category` a 0 duplicitních ID faktů.
 - Heuristický reklamní/propagační scan: **0 nálezů z 861 textů** (123 faktů × 7 jazyků).
-- Všechny záznamy zůstaly `country_code = CZ`, `status = validated`, `data_version = 1`; 0 odchylek od dosavadního životního cyklu.
+- Při uzavření auditu byly všechny záznamy `country_code = CZ`, `status = validated`, `data_version = 1`; následná samostatná publikace je popsána v oddílu 9.
 
 AJV nebylo spuštěno v souladu s promptem V2.0. Nebyly měněny schéma, RLS, triggery, aplikační kód, `sequence.json`, `groups`, status, data_version ani žádná jiná země.
 
@@ -204,5 +204,16 @@ Rychlá kontrola zjevných duplicit napříč blokem neodhalila bezdůvodné opa
 ## 8. Otevřené kroky a životní cyklus
 
 - **Otevřené auditní kroky: žádné. Výsledek bloku: `PASS`.**
-- Publikace, V5, záloha Dropbox ani read-only zamčení nebyly provedeny. Vyžadují samostatný výslovný pokyn uživatele.
-- Všech 12 záznamů zůstává `status = validated`, `data_version = 1`.
+- Publikace a záloha byly následně provedeny na výslovný pokyn uživatele; podrobnosti jsou v oddílu 9.
+- Read-only zamčení nebylo požadováno a nebylo provedeno.
+
+
+## 9. Publikace V5 a záloha Dropbox (2026-11-20)
+
+- Na výslovný pokyn uživatele bylo přesně 12 auditovaných řádků v `public.postal_codes` nastaveno na `data_version = 5` a `status = 'published'`. Aktualizace byla podmíněna přesným seznamem PSČ, zemí CZ, okresem Cheb, krajem Karlovarský kraj a původním stavem `validated` / V1.
+- Závěrečný Supabase read-back potvrdil **12/12 PSČ**, všechna `status = published` a `data_version = 5`; celkový počet faktů zůstal **123**. ID, obsah, sekvence ani jiné PSČ nebyly měněny.
+- Záloha byla spuštěna dedikovanou Edge Function `travel-backup-cz-35002-35493-chebsko-audited` přes `pg_net` HTTP GET. Dropbox cesta: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_35002-35493_2026-11-20T08-35-06-915Z/`.
+- V Dropboxu byly ověřeny všechny tři soubory: `CZ_AUDIT_35002-35493_backup.json` (1 051 978 B), `CZ_AUDIT_35002-35493_restore.sql` (918 148 B) a `manifest.json` (2 029 B). Edge Function každý soubor po uploadu znovu stáhla a ověřila SHA-256; všechny tři výsledky `verified = true`.
+- Manifest potvrzuje `record_count = 12`, přesný seznam 12 PSČ, `validation.status = VERIFIED`, `validation.readback_verified = true`, `verified_record_count = 12` a scope hash `bfab299b623ea24d82d36de12b420faa183d72099c2422c6f533fb666d55def6`.
+- **Poznámka k metadatům manifestu:** textové pole `scope.selection_description` chybně říká „Exact 11 existing…“. Jde pouze o chybný popisný text; počet, seznam PSČ, ověřený počet i hash jsou správné pro 12 záznamů. Pokus o opravu nasazené Edge Function byl bezpečnostní kontrolou zablokován, proto tato textová drobnost zůstává otevřená k opravě; zálohovací soubory ani původní zálohu jsme nepřepisovali.
+- Read-only zamčení nebylo provedeno.
