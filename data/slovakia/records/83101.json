@@ -133,13 +133,33 @@
       ],
       "map_category": "park_garden",
       "location": {
-        "name": "Lesnické arboretum Kamzík",
-        "address": "Cesta na Kamzík, 831 01 Bratislava, Slovensko",
-        "lat": 48.1839905,
-        "lon": 17.096928,
+        "name": "Kamzík-les 1 – orientační bod u Lesnického arboreta",
+        "address": "Kamzík-les 1, 831 01 Bratislava, Slovensko",
+        "lat": 48.18464050409801,
+        "lon": 17.0984313376976,
         "type": "arboretum",
-        "accuracy": "approximate",
-        "source": "https://www.nt.sk/sk/user_files/Bulletin_Parky_20231.pdf"
+        "accuracy": "area_representative",
+        "source": "https://bratislava.oma.sk/u/kamzik-les/1"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Teodor Edl – bratislavský mecenáš, jehož poslední procházku připomíná lesní pomník",
+      "text": "V lese na Kamzíku stojí nenápadný žulový pomník Teodora Edla (1815–1882), významného bratislavského obchodníka a finančníka. Edl vlastnil obchod s textilem a módním zbožím, byl spolumajitelem měděného hamru a válcovny a později předsedou první bratislavské spořitelny. Podílel se také na činnosti Bratislavského okrašlovacího spolku, který podporoval zvelebování města a jeho okolí. Dne 14. června 1882 ho zastihla smrt při procházce lesem v kruhu přátel právě v těchto místech. Pomník nese maďarský nápis „Edl Tivadar“ a připomíná náhlé úmrtí na tomto místě. Je to neobvyklá osobní památka: místo poslední procházky městského mecenáše se proměnilo v tichý bod paměti uprostřed lesa.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://pes.banm.sk/data/att/2518.pdf"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Pomník Teodora Edla",
+        "address": "Kamzík, 831 01 Bratislava, Slovensko",
+        "lat": 48.1847258,
+        "lon": 17.0933854,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n1633125962"
       }
     }
   ],
@@ -285,9 +305,14 @@
       "type": "specialist"
     },
     {
-      "title": "VOPZ / Bulletin Parky 2023 – poloha Lesníckeho arboréta na Kamzíku",
-      "url": "https://www.nt.sk/sk/user_files/Bulletin_Parky_20231.pdf",
-      "type": "specialist"
+      "title": "OMA / OpenStreetMap – Kamzík-les 1, adresa a poloha pri Lesníckom arboréte",
+      "url": "https://bratislava.oma.sk/u/kamzik-les/1",
+      "type": "other"
+    },
+    {
+      "title": "OMA / OpenStreetMap – pomník Teodora Edla na Kamzíku, súradnice a poloha",
+      "url": "https://poi.oma.sk/n1633125962",
+      "type": "other"
     }
   ],
   "translations": {
@@ -323,6 +348,11 @@
           "id": "fact_006",
           "title": "Lesnické arboretum na Kamzíku – stoletá sbírka stromů znovu otevřená veřejnosti",
           "text": "V lesním areálu Kamzíku se nachází lesnické arboretum s více než stoletou historií. Po dlouhá léta bylo zanedbané a veřejnosti nepřístupné; v letech 2020–2023 prošlo obnovou, která navázala na vznik nového Centra ekovýchovy. Areál dnes slouží také jako malá naučná trasa a představuje desítky vzácnějších i pro městský lesopark netypických dřevin, například jedli bělokorou, cypřišky, douglasku tisolistou a další druhy. Ekocentrum, které město a Městské lesy v Bratislavě otevřely v roce 2023, poskytuje zázemí pro lesní pedagogiku, kurzy a odborné programy pro školy i veřejnost. Obnova tak vrátila život nejen staré sbírce stromů, ale také místu, kde se ochrana přírody propojuje s poznáváním lesa přímo v terénu."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – bratislavský mecenáš, jehož poslední procházku připomíná lesní pomník",
+          "text": "V lese na Kamzíku stojí nenápadný žulový pomník Teodora Edla (1815–1882), významného bratislavského obchodníka a finančníka. Edl vlastnil obchod s textilem a módním zbožím, byl spolumajitelem měděného hamru a válcovny a později předsedou první bratislavské spořitelny. Podílel se také na činnosti Bratislavského okrašlovacího spolku, který podporoval zvelebování města a jeho okolí. Dne 14. června 1882 ho zastihla smrt při procházce lesem v kruhu přátel právě v těchto místech. Pomník nese maďarský nápis „Edl Tivadar“ a připomíná náhlé úmrtí na tomto místě. Je to neobvyklá osobní památka: místo poslední procházky městského mecenáše se proměnilo v tichý bod paměti uprostřed lesa."
         }
       ]
     },
@@ -358,6 +388,11 @@
           "id": "fact_006",
           "title": "Das forstliche Arboretum am Kamzík – eine hundertjährige Baumsammlung wird wieder zugänglich",
           "text": "Im Waldgebiet am Kamzík liegt ein forstliches Arboretum mit mehr als hundertjähriger Geschichte. Viele Jahre war es vernachlässigt und für die Öffentlichkeit geschlossen; zwischen 2020 und 2023 wurde es im Zusammenhang mit dem neuen Umweltbildungszentrum erneuert. Das Gelände dient heute auch als kleiner Lehrpfad und zeigt Dutzende seltenere oder für den Stadtwald ungewöhnliche Gehölze, darunter Weißtannen, Zypressen, Douglasien und weitere Arten. Das Umweltbildungszentrum, das die Stadt und die Stadtwälder Bratislavas 2023 eröffneten, bietet Räume für Waldpädagogik, Kurse und Fachprogramme für Schulen und die Öffentlichkeit. Die Erneuerung hat nicht nur die alte Baumsammlung wiederbelebt, sondern auch einen Ort geschaffen, an dem Naturschutz und praktisches Lernen im Wald zusammenkommen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – ein Mäzen Bratislavas, an dessen letzten Waldspaziergang ein Denkmal erinnert",
+          "text": "Im Wald am Kamzík steht ein unscheinbares Granitdenkmal für Teodor Edl (1815–1882), einen bedeutenden Kaufmann und Finanzmann aus Bratislava. Edl besaß ein Geschäft für Textilien und Modewaren, war Mitinhaber eines Kupferhammers und Walzwerks und später Vorsitzender der Ersten Bratislavaer Sparkasse. Er engagierte sich außerdem im Bratislavaer Verschönerungsverein, der die Stadt und ihre Umgebung verbessern wollte. Am 14. Juni 1882 starb er während eines Spaziergangs mit Freunden genau an dieser Stelle im Wald. Das Denkmal trägt die ungarische Inschrift „Edl Tivadar“ und erinnert an seinen plötzlichen Tod an diesem Ort. Es ist ein ungewöhnliches persönliches Erinnerungszeichen: Der letzte Spaziergang eines städtischen Mäzens wurde zu einem stillen Gedenkort mitten im Wald."
         }
       ]
     },
@@ -393,6 +428,11 @@
           "id": "fact_006",
           "title": "The Kamzík forestry arboretum – a century-old tree collection restored for the public",
           "text": "A forestry arboretum with more than a century of history lies in the wooded area of Kamzík. For many years it was neglected and closed to the public; between 2020 and 2023 it was restored alongside a new environmental education centre. The grounds now also function as a small educational trail, displaying dozens of rarer trees and species unusual in the city forest, including silver firs, cypresses, Douglas firs and others. The Environmental Education Centre, opened by the city and Bratislava City Forests in 2023, provides facilities for forest education, courses and specialist programmes for schools and the public. The restoration has revived not only the historic tree collection but also a place where nature conservation and learning in the forest meet."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – a Bratislava benefactor remembered at the place of his final woodland walk",
+          "text": "A modest granite monument in the Kamzík forest commemorates Teodor Edl (1815–1882), an important Bratislava merchant and financier. Edl owned a textile and fashion-goods business, co-owned a copper hammer mill and rolling mill, and later chaired the First Bratislava Savings Bank. He was also active in the Bratislava Beautification Association, which worked to improve the city and its surroundings. On 14 June 1882, he died suddenly while walking in the forest with friends, at this very spot. The monument bears the Hungarian inscription “Edl Tivadar” and recalls his sudden death here. It is an unusual personal memorial: the place where a civic benefactor took his final walk became a quiet point of remembrance in the woods."
         }
       ]
     },
@@ -428,6 +468,11 @@
           "id": "fact_006",
           "title": "El arboreto forestal de Kamzík: una colección centenaria de árboles restaurada para el público",
           "text": "En la zona boscosa de Kamzík se encuentra un arboreto forestal con más de cien años de historia. Durante muchos años estuvo descuidado y cerrado al público; entre 2020 y 2023 fue restaurado junto con un nuevo centro de educación ambiental. El recinto funciona también como un pequeño sendero educativo y muestra decenas de árboles poco comunes o atípicos para el bosque urbano, entre ellos abetos blancos, cipreses, douglasias y otras especies. El Centro de Educación Ambiental, inaugurado en 2023 por la ciudad y los Bosques Municipales de Bratislava, ofrece instalaciones para educación forestal, cursos y programas especializados para escuelas y público general. La restauración ha recuperado tanto la antigua colección de árboles como un espacio donde la conservación de la naturaleza se une al aprendizaje en el bosque."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl: el benefactor de Bratislava recordado en el lugar de su último paseo por el bosque",
+          "text": "En el bosque de Kamzík se encuentra un discreto monumento de granito dedicado a Teodor Edl (1815–1882), un importante comerciante y financiero de Bratislava. Edl tenía un negocio de textiles y artículos de moda, fue copropietario de una forja de cobre y de una laminadora y, más tarde, presidió la primera caja de ahorros de Bratislava. También participó en la Asociación de Embellecimiento de Bratislava, que trabajaba por mejorar la ciudad y sus alrededores. El 14 de junio de 1882 murió repentinamente mientras paseaba por el bosque con unos amigos, precisamente en este lugar. El monumento lleva la inscripción húngara «Edl Tivadar» y recuerda su muerte inesperada aquí. Es un memorial personal poco habitual: el lugar del último paseo de un benefactor de la ciudad se convirtió en un silencioso punto de memoria en medio del bosque."
         }
       ]
     },
@@ -463,6 +508,11 @@
           "id": "fact_006",
           "title": "L’arboretum forestier de Kamzík – une collection centenaire d’arbres restaurée pour le public",
           "text": "Dans la zone boisée de Kamzík se trouve un arboretum forestier dont l’histoire dépasse un siècle. Pendant de nombreuses années, il a été négligé et fermé au public ; entre 2020 et 2023, il a été restauré parallèlement à la création d’un nouveau centre d’éducation à l’environnement. Le site sert également de petit sentier pédagogique et présente des dizaines d’arbres rares ou inhabituels dans la forêt urbaine, notamment des sapins blancs, des cyprès, des douglas et d’autres espèces. Le Centre d’éducation à l’environnement, ouvert en 2023 par la ville et les Forêts municipales de Bratislava, accueille des activités de pédagogie forestière, des cours et des programmes spécialisés destinés aux écoles et au public. La restauration a ainsi redonné vie à l’ancienne collection d’arbres et à un lieu où la protection de la nature se conjugue avec l’apprentissage sur le terrain."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – le mécène de Bratislava dont le dernier parcours en forêt est commémoré",
+          "text": "Dans la forêt de Kamzík se trouve un discret monument en granit dédié à Teodor Edl (1815–1882), important commerçant et financier de Bratislava. Edl possédait un commerce de textiles et d’articles de mode, était copropriétaire d’un martinet et d’un laminoir à cuivre, puis président de la Première caisse d’épargne de Bratislava. Il participait également à l’Association d’embellissement de Bratislava, qui œuvrait à l’amélioration de la ville et de ses environs. Le 14 juin 1882, il mourut subitement lors d’une promenade en forêt avec des amis, précisément à cet endroit. Le monument porte l’inscription hongroise « Edl Tivadar » et rappelle sa mort soudaine sur place. C’est un mémorial personnel inhabituel : le lieu de la dernière promenade d’un mécène de la ville est devenu un discret point de mémoire au milieu des bois."
         }
       ]
     },
@@ -498,6 +548,11 @@
           "id": "fact_006",
           "title": "L’arboreto forestale di Kamzík – una collezione centenaria di alberi restaurata per il pubblico",
           "text": "Nell’area boschiva di Kamzík si trova un arboreto forestale con oltre un secolo di storia. Per molti anni è stato trascurato e chiuso al pubblico; tra il 2020 e il 2023 è stato restaurato insieme a un nuovo centro di educazione ambientale. L’area funziona anche come un piccolo percorso didattico e presenta decine di alberi rari o insoliti per il bosco urbano, tra cui abeti bianchi, cipressi, douglasie e altre specie. Il Centro di educazione ambientale, aperto nel 2023 dal Comune e dalle Foreste municipali di Bratislava, offre spazi per la didattica forestale, corsi e programmi specialistici per scuole e pubblico. Il restauro ha ridato vita non soltanto alla vecchia collezione di alberi, ma anche a un luogo in cui la tutela della natura si unisce all’apprendimento diretto nel bosco."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – il benefattore di Bratislava ricordato nel luogo della sua ultima passeggiata nel bosco",
+          "text": "Nel bosco di Kamzík si trova un discreto monumento in granito dedicato a Teodor Edl (1815–1882), importante commerciante e finanziere di Bratislava. Edl possedeva un negozio di tessuti e articoli di moda, era comproprietario di un maglio per il rame e di un laminatoio e in seguito presiedette la Prima Cassa di Risparmio di Bratislava. Partecipò anche all’Associazione per l’abbellimento di Bratislava, che lavorava per migliorare la città e i suoi dintorni. Il 14 giugno 1882 morì improvvisamente durante una passeggiata nel bosco con alcuni amici, proprio in questo punto. Il monumento reca l’iscrizione ungherese «Edl Tivadar» e ricorda la sua morte improvvisa sul luogo. È un memoriale personale insolito: il posto dell’ultima passeggiata di un benefattore cittadino è diventato un tranquillo luogo della memoria nel bosco."
         }
       ]
     },
@@ -533,6 +588,11 @@
           "id": "fact_006",
           "title": "Het bosarboretum van Kamzík – een eeuwenoude boomcollectie opnieuw toegankelijk",
           "text": "In het bosgebied van Kamzík ligt een bosarboretum met een geschiedenis van meer dan honderd jaar. Het werd jarenlang verwaarloosd en was niet toegankelijk voor het publiek; tussen 2020 en 2023 werd het samen met een nieuw centrum voor milieueducatie gerestaureerd. Het terrein dient ook als een kleine educatieve route en toont tientallen zeldzamere bomen en soorten die ongewoon zijn voor het stadsbos, waaronder zilversparren, cipressen, douglassparren en andere soorten. Het centrum voor milieueducatie, dat de stad en de Stadsbossen van Bratislava in 2023 openden, biedt ruimte voor bosonderwijs, cursussen en specialistische programma’s voor scholen en het publiek. De restauratie heeft niet alleen de oude boomcollectie nieuw leven ingeblazen, maar ook een plek hersteld waar natuurbescherming en leren in het bos samenkomen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Teodor Edl – de weldoener van Bratislava die op de plek van zijn laatste boswandeling wordt herdacht",
+          "text": "In het bos van Kamzík staat een bescheiden granieten monument voor Teodor Edl (1815–1882), een belangrijke koopman en financier uit Bratislava. Edl bezat een winkel in textiel en modeartikelen, was mede-eigenaar van een kopersmederij en walserij en werd later voorzitter van de Eerste Spaarbank van Bratislava. Ook was hij actief in de Vereniging tot Verfraaiing van Bratislava, die de stad en haar omgeving wilde verbeteren. Op 14 juni 1882 stierf hij plotseling tijdens een boswandeling met vrienden, precies op deze plek. Het monument draagt de Hongaarse inscriptie ‘Edl Tivadar’ en herdenkt zijn onverwachte overlijden hier. Het is een bijzonder persoonlijk gedenkteken: de plek van de laatste wandeling van een stedelijke weldoener werd een stille herinneringsplek midden in het bos."
         }
       ]
     }
