@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-CHEBSKO-35002-35493`  
 **Datum checkpointu:** 2026-11-20  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.0  
-**Stav:** `REVIEW REQUIRED` — délková, základní strukturální a databázová kontrola PASS; individuální sémantická kontrola všech existujících překladů a úplné závěrečné uzavření ještě nejsou doloženy.
+**Stav:** `PASS` — sémantická, geografická, RÚIAN, turistická a technická kontrola dokončena 2026-11-20. Publikace a záloha čekají na samostatný výslovný pokyn.
 
 ## 1. Rozsah a inventář
 
@@ -12,11 +12,11 @@ Auditovaný číselný interval: **35002–35493**. Nejde o souvislý seznam vš
 `35002, 35101, 35124, 35131, 35132, 35134, 35135, 35137, 35201, 35301, 35491, 35493`
 
 - Počet PSČ: **12**.
-- Počet faktů po dosavadních opravách: **121**.
-- Inventář Supabase, `sequence.json` a `groups`: dříve ověřena přesná shoda 12/12, bez duplicit.
+- Počet faktů po závěrečných doplněních: **123**.
+- Inventář Supabase, `sequence.json` a `groups`: opakovaně ověřena přesná shoda 12/12, bez duplicit; každý z 12 kódů se v sekvenci i skupině nachází právě jednou.
 - Obce: Cheb, Františkovy Lázně, Hranice, Libá, Hazlov, Skalná, Plesná, Luby, Aš, Mariánské Lázně, Lázně Kynžvart a Dolní Žandov.
 - Okres a kraj: všech 12 záznamů je přiřazeno k okresu Cheb a Karlovarskému kraji.
-- RÚIAN: předchozí checkpoint uvádí shodu inventáře; závěrečný opakovaný cross-check RÚIAN v tomto běhu nebyl proveden.
+- RÚIAN: závěrečný cross-check dokončen proti aktuálnímu referenčnímu CSV a manifestu; všech 12 PSČ má adresní body a město uvedené v databázi je v příslušné RÚIAN agregaci. Sídla obsluhujících pošt byla samostatně ověřena v oficiálním katalogu České pošty.
 
 ## 2. Délka českého master textu a provedené opravy
 
@@ -41,6 +41,8 @@ Významné nově rozšířené položky:
 - **35301 / fact_018 — Prameny/Sangerberg:** doplněna chronologie Alžbětiných lázní (1872), vojenského prostoru (1946–1954) a uranového průzkumu/těžby (od 1947, těžba u Kladské 1954–1958).
 - **35301 / fact_019 — Chodovská Huť:** upřesněn vznik roku 1687, vlastnictví Haimhausenů, název Chodovský Šmelctál v letech 1854–1947 a útlum těžby do roku 1861.
 - **35135 / fact_006:** rozšířen kontext dvou železničních spojení a průmyslového rozvoje Plesné.
+- **35124 / fact_012 — Trojstátí:** doplněn přesný historický význam místa, rok hraničních kamenů 1844, naučná stezka a okolní pozůstatky mlýnů; formulace rozlišuje historické zemské hranice od současných státních hranic.
+- **35201 / fact_013 — nejzápadnější bod ČR:** doplněna poloha v katastru Krásné u bývalého Újezdu, hraniční mezník z roku 1844, současné označení a přístup pěší trasou.
 - Dřívější opravy v Chebu, Skalné, Plesné a dalších PSČ jsou popsány v předchozích konverzačních checkpointech; v tomto souboru nejsou znovu rekonstruovány do detailu.
 
 ## 4. Překlady
@@ -48,10 +50,11 @@ Významné nově rozšířené položky:
 - Povinné jazykové objekty `cs, de, en, es, fr, it, nl`: přítomny u všech 12 záznamů.
 - Počet faktů v každém jazykovém poli odpovídá českému masteru: **0 rozdílů**.
 - České `translations.cs.title/text` proti `facts[].title/text`: **0 rozdílů** po závěrečné synchronizaci podle ID.
-- Všech šest cizojazyčných verzí bylo individuálně sémanticky zkontrolováno podle ID: **726/726 položek dokončeno**.
-- Každý cizojazyčný jazyk obsahuje přesně 121/121 očekávaných faktů; 0 chybějících ID, 0 neočekávaných ID, 0 duplicitních ID skupin a 0 prázdných titulů/textů.
+- Všech šest cizojazyčných verzí bylo individuálně sémanticky zkontrolováno podle ID: **738/738 položek dokončeno** (726 původních + 12 nově doplněných).
+- Každý ze sedmi jazyků obsahuje přesně 123/123 očekávaných faktů; 0 chybějících ID, 0 neočekávaných ID, 0 duplicitních ID skupin a 0 prázdných titulů/textů.
+- Nové faktory 35124/fact_012 a 35201/fact_013 byly přeloženy do všech šesti cizích jazyků, načteny zpět a zkontrolovány podle českých masterů.
 - Texty a nadpisy opravené v průběhu kontroly byly načteny zpět ze Supabase.
-- Sémantická kontrola je dokončena, ale celý audit zůstává `REVIEW REQUIRED` do závěrečného RÚIAN cross-checku a přehledu turistické úplnosti.
+- Sémantická kontrola všech 12 PSČ je dokončena.
 
 ### Sémantická kontrola — 35002 Cheb (dokončeno 2026-11-20)
 - Individuálně zkontrolováno všech 13 faktů × 6 cizojazyčných verzí = **78/78 překladových položek**.
@@ -135,30 +138,64 @@ Významné nově rozšířené položky:
 ### Sémantická kontrola — 35493 Dolní Žandov (dokončeno 2026-11-20)
 - Individuálně zkontrolováno všech 8 faktů × 6 cizojazyčných verzí = **48/48 překladových položek**.
 - Všechna cizojazyčná znění významově odpovídají českým masterům; nebyla zjištěna potvrzená záměna osob, míst, dat, událostí ani podstatné vynechání. Nebyla nutná žádná textová oprava.
-- **Sémantická kontrola všech 12 PSČ je dokončena: 121/121 faktů a 726/726 cizojazyčných překladových položek.**
-- Tím není automaticky uzavřen celý audit: stále je nutné provést závěrečný souhrnný read-back po všech opravách, opakovaný RÚIAN cross-check a finální přehled turistické úplnosti. Publikace, záloha a read-only zamčení zůstávají neprovedeny.
+- **Sémantická kontrola všech 12 PSČ je dokončena: 123/123 faktů a 738/738 cizojazyčných překladových položek.**
+- Po této kontrole byly přidány dva nové faktory; jejich překlady byly znovu načteny a ověřeny. Závěrečný databázový read-back je PASS.
 
 ## 5. Základní strukturální a databázové kontroly
 
-Závěrečný read-back ze Supabase po opravách:
-- 12/12 PSČ.
-- 121 faktů.
+Závěrečný read-back ze Supabase po všech opravách a dvou nových faktech:
+- **12/12 PSČ, 123/123 faktů.**
 - 0 českých master textů pod 350 znaků.
 - 0 rozdílů mezi českým masterem a `translations.cs`.
-- 0 chybějících nebo prázdných cizojazyčných textů; pro každý jazyk DE/EN/ES/FR/IT/NL přesně 121/121 správně přiřazených ID.
-- 0 chybějících, neočekávaných nebo duplicitních cizojazyčných ID.
-- 0 faktů bez zdrojů.
-- 0 nepovolených `map_category`.
-- 0 rozdílů v počtech jazykových faktů.
-- Heuristický reklamní/propagační scan: 0 nálezů.
-- Všechny záznamy zůstaly `status = validated`, `data_version = 1`; 0 odchylek od dosavadního životního cyklu.
+- Každý jazyk `cs, de, en, es, fr, it, nl`: přesně 123/123 faktů.
+- 0 chybějících, neočekávaných nebo duplicitních překladových ID.
+- 0 prázdných překladových titulů nebo textů.
+- 0 faktů bez zdrojů, 0 null locations, 0 nepovolených `map_category` a 0 duplicitních ID faktů.
+- Heuristický reklamní/propagační scan: **0 nálezů z 861 textů** (123 faktů × 7 jazyků).
+- Všechny záznamy zůstaly `country_code = CZ`, `status = validated`, `data_version = 1`; 0 odchylek od dosavadního životního cyklu.
 
 AJV nebylo spuštěno v souladu s promptem V2.0. Nebyly měněny schéma, RLS, triggery, aplikační kód, `sequence.json`, `groups`, status, data_version ani žádná jiná země.
 
-## 6. Otevřené kroky
+## 6. Závěrečný RÚIAN a správní cross-check
 
-1. Provést závěrečný opakovaný RÚIAN cross-check inventáře všech 12 PSČ a jejich obcí.
-2. Dokončit závěrečný přehled zásadní turistické úplnosti pro celý přesný rozsah a uzavřít případné nejasné věcné nálezy.
-3. Po dokončení těchto kontrol aktualizovat tento tahák a registr README konečným výsledkem.
+Použitá reference: `data/czechia/reference/ruian_postcodes.csv` a `ruian_import_manifest.json`; CSV je lidsky čitelnou ekvivalentní podobou primární JSON reference. Manifest uvádí zdrojový feed ČÚZK aktualizovaný 2026-11-01 a stažený 2026-11-13.
 
-**Publikace, V5, záloha Dropbox ani read-only zamčení nebyly provedeny.** Vyžadují samostatný výslovný pokyn uživatele po dokončení auditu.
+| PSČ | Adresní body RÚIAN | Obec v databázi | Výsledek |
+|---|---:|---|---|
+| 35002 | 9 433 | Cheb | PASS |
+| 35101 | 1 072 | Františkovy Lázně | PASS |
+| 35124 | 618 | Hranice | PASS |
+| 35131 | 306 | Libá | PASS |
+| 35132 | 369 | Hazlov | PASS |
+| 35134 | 1 502 | Skalná | PASS |
+| 35135 | 498 | Plesná | PASS |
+| 35137 | 556 | Luby | PASS |
+| 35201 | 4 471 | Aš | PASS |
+| 35301 | 5 283 | Mariánské Lázně | PASS |
+| 35491 | 358 | Lázně Kynžvart | PASS |
+| 35493 | 246 | Dolní Žandov | PASS |
+| **Celkem** | **24 712** | **12/12** | **PASS** |
+
+- Všech 12 PSČ má v RÚIAN alespoň jeden adresní bod.
+- Každá obec uložená v `content.city` je součástí RÚIAN agregace příslušného PSČ; víceobecní poštovní obvody zůstávají v referenci a nejsou chybně vypisovány do `city`.
+- `sequence.json`, jeho `groups` a inventář Supabase se přesně shodují: 12/12 kódů, bez chybějících nebo duplicitních položek. Seznamy obcí v `groups` odpovídají RÚIAN agregacím.
+- Samostatně ověřena sídla obsluhujících pošt v oficiálním katalogu České pošty. Všech 12 názvů měst odpovídá sídlu příslušné pošty; u všech je potvrzen okres Cheb a Karlovarský kraj. RÚIAN sám o sobě sídlo pošty neurčuje.
+- Ověřené oficiální detailní stránky pošt: `https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35002`, `/35101`, `/35124`, `/35131`, `/35132`, `/35134`, `/35135`, `/35137`, `/35201`, `/35301`, `/35491`, `/35493`.
+
+## 7. Závěrečný přehled turistické úplnosti
+
+Kontrola byla provedena jednou za celé území podle prahu promptu V2.0; nešlo o katalog všech chráněných objektů. Hlavní celostátní, mezinárodní a regionální dominanty a příběhy jsou pokryté.
+
+**Dvě skutečné mezery byly doplněny:**
+- `35201 / fact_013` — nejzápadnější bod České republiky v katastru Krásné u bývalého Újezdu. Jde o národní geografickou krajnost, označenou historickým mezníkem z roku 1844. Překlady a poloha byly uloženy a načteny zpět.
+- `35124 / fact_012` — Trojstátí u Trojmezí, kde se setkávaly historické zemské hranice Čech, Bavorska a Saska. Text výslovně odlišuje historický zemský trojstyk od dnešního trojmezí tří států.
+
+Hlavní již pokrytá témata zahrnují Chebský hrad a historické jádro, Valdštejnovu smrt, Marii Loreto a Seeberg; UNESCO lázeňská města Františkovy a Mariánské Lázně; Komorní hůrku, Soos, Bystřinu–Lužní potok, Kladskou a další významné geologické a přírodní lokality; zámek Kynžvart a Metternichovu knihovnu; významné kostely, osobnosti, průmyslovou a železniční historii Ašska a Chebska. Po doplnění dvou výše uvedených míst nebyla při cíleném přehledu zjištěna další chybějící dominanta odpovídající prahu auditu.
+
+Rychlá kontrola zjevných duplicit napříč blokem neodhalila bezdůvodné opakování téhož místa nebo příběhu. Dříve prověřené továrny C. B. Göldnera v Libé a Hazlovu zůstávají dvěma odlišnými lokalitami, nikoli duplicitou.
+
+## 8. Otevřené kroky a životní cyklus
+
+- **Otevřené auditní kroky: žádné. Výsledek bloku: `PASS`.**
+- Publikace, V5, záloha Dropbox ani read-only zamčení nebyly provedeny. Vyžadují samostatný výslovný pokyn uživatele.
+- Všech 12 záznamů zůstává `status = validated`, `data_version = 1`.
