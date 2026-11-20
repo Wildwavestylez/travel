@@ -1,4 +1,585 @@
 {
   "postcode": "01325",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Stráňavy",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Stráňavy – centrum obce",
+  "representative_point": {
+    "lat": 49.1722611,
+    "lon": 18.8205389
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Boje o Polom a památník přestěhovaný před vápencovým lomem",
+      "text": "Horský masiv Polom byl v dubnu 1945 jedním z klíčových opěrných bodů německé obrany v Malé Fatře. Boje o vrchol probíhaly od 17. do 26. dubna a patřily k nejtěžším střetům Malofatranské operace, při níž se jednotky 1. československého armádního sboru probíjely přes horský terén směrem k Žilině. Na počest padlých vznikl na Polomu monumentální památník, slavnostně odhalený roku 1961. Jeho reliéfy vytvořila akademická sochařka Ľudmila Cvengrošová. Protože těžba vápence postupně zasáhla původní místo, byl památník roku 1986 přemístěn na nedalekou Javorinu, do výšky přibližně 1 076 metrů. Dnešní travertinový obelisk s bronzovým sousoším je národní kulturní památkou a připomíná nejen vojenskou operaci, ale i cenu, kterou si vyžádalo překonání horské obrany.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "polom_municipality",
+        "polom_remembrance",
+        "polom_tourism",
+        "polom_geology"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamätník I. československého armádneho zboru na Javorine",
+        "address": null,
+        "lat": 49.15395,
+        "lon": 18.84428,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.geology.sk/wp-content/uploads/2025/12/GPS_142_w.pdf"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Muzeum Malofatranské operace v bývalé hájovně",
+      "text": "Za obcí, na okraji Stráňavské doliny, sídlí Muzeum Malofatranské operace v budově, která původně sloužila jako lesní hájovna. Muzejní expozice zde byla otevřena roku 1976; v roce 2009 vznikla nová stálá prezentace dějin Stráňav a bojů 1. československého armádního sboru v dubnu 1945. Místo tak spojuje dvě vrstvy paměti: konkrétní příběh horských bojů v Malé Fatře a život obce, která ležela v jejich zázemí. Územní plán obce uvádí, že muzeum nemá běžný každodenní návštěvní režim a expozice se zpřístupňuje po dohodě, zejména organizovaným skupinám. Není to tedy jen další obecní výstavka, ale místní paměťové místo věnované jedné z nejdramatičtějších kapitol regionálních dějin.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "museum_municipality",
+        "museum_plan",
+        "museum_oma",
+        "museum_regional"
+      ],
+      "map_category": "museum",
+      "location": {
+        "name": "Múzeum Malofatranskej operácie",
+        "address": "č. 483, 013 25 Stráňavy, Slovensko",
+        "lat": 49.1597656,
+        "lon": 18.820349,
+        "type": "museum",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n9179652539"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Stráňavská dolina – krasový kaňon, ponory a jeskyně pod Polomem",
+      "text": "Stráňavská dolina mezi vrchy Polom a Hoblík ukazuje, jak rychle se může horský potok ztratit pod zemí. Hýrov pramení pod Minčolem v krystalických horninách, ale po vstupu do vápencového a dolomitového podloží se údolí mění v krátký, přibližně třistametrový krasový kaňon. Voda se na několika místech propadá do podzemí a znovu vyvěrá u pramenů níže v dolině. Slovenská speleologická společnost připomíná, že zde v 50. a 60. letech 20. století zkoumal povrchový i podzemní kras speleolog Vojtech Bukovinský. Jeho výzkum zahrnoval ponorovou Stráňavskou jeskyni a barvicí pokusy, které prokázaly podzemní propojení ponorů s vyvěračkami. Pozdější územně-plánovací podklady evidují v dolině několik fluviokrasových jeskyní. Jde o nenápadnou, ale odborně zajímavou část Lúčanské Malé Fatry – nikoli o běžnou turistickou jeskyni se zaručeným volným vstupem.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "karst_speleo",
+        "karst_plan",
+        "karst_eia",
+        "karst_municipality",
+        "karst_oma"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Stráňavy, horáreň – orientační bod ve Stráňavské dolině",
+        "address": null,
+        "lat": 49.1586004,
+        "lon": 18.8206568,
+        "type": "landmark",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n249810299"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Pažite – podmáčené louky s chráněnými orchidejemi",
+      "text": "Lokalita Pažite v katastru Stráňav je v obecních a environmentálních plánovacích podkladech popsána jako cenná mozaika slatinných a lučních stanovišť. Průzkumy zde zaznamenaly biotopy evropského významu, včetně nížinných a podhorských kosených luk, a také podmáčené horské a podhorské louky. Územní plán výslovně uvádí výskyt chráněných orchidejí, mezi nimi vstavače bledého (Orchis pallens) a vstavače mužského (Orchis mascula). Tyto rostliny nejsou jen botanickou zajímavostí: jejich přítomnost ukazuje na zachovalé a druhově bohaté luční prostředí, které může být citlivé na odvodnění, zastavění nebo změnu hospodaření. Lokalita se dostala do pozornosti i při posuzování plánované výstavby, protože odborné podklady doporučovaly chránit zdejší mokřadní a luční společenstva. Jde o ekologicky hodnotné místo, nikoli o upravenou návštěvnickou atrakci.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "pažite_plan",
+        "pažite_eia",
+        "pažite_oma"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Stráňavy, Pažite – orientační bod lokality",
+        "address": "č. 332, 013 25 Stráňavy, Slovensko",
+        "lat": 49.1678969,
+        "lon": 18.8203423,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/n2328496286?s=poi"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Lom Polom – století těžby vápence a proměna krajiny",
+      "text": "Vápencový lom Polom patří k nejvýraznějším průmyslovým stopám v okolí Stráňav. Těžba zde byla organizována od roku 1926, zatímco podnik Lom a vápenka Varín vznikl už roku 1925, aby dodával vápenec a vápno pro hutní výrobu. V počátcích se kámen dobýval ručně na strmých stěnách a dopravoval k železnici lanovou dráhou na dřevěných podpěrách. V dalších desetiletích se provoz proměňoval: přibyly šachtové pece, podzemní úpadnice a pásové dopravníky, které postupně nahradily starší lanovky. V letech 1983–1987 byl lom Polom rozšířen a rekonstruován. Těžba zároveň změnila podobu hory natolik, že kvůli ní musel být v roce 1986 přemístěn památník padlým vojákům z Polomu na Javorinu. Příběh lomu proto není jen dějinami výroby suroviny; přímo zasáhl do zdejší krajiny i do způsobu, jakým dnes krajina uchovává válečnou paměť. Provozní areál je průmyslovým pracovištěm, nikoli volně přístupnou turistickou atrakcí.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "quarry_dolvap",
+        "quarry_eia",
+        "quarry_plan",
+        "quarry_municipality"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Lom Polom – provoz Stráňavy",
+        "address": null,
+        "lat": 49.1640253,
+        "lon": 18.8265586,
+        "type": "quarry",
+        "accuracy": "approximate",
+        "source": "https://www.dolvap.sk/sk/o-firme/prevadzky/"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Stráňavy od Ztrany po dnešní obec pod Polomem",
+      "text": "Stráňavy se v písemných pramenech objevují roku 1356 pod jménem Ztrany. Historické podoby názvu se v průběhu staletí měnily: roku 1483 se uvádí Stranyawa, roku 1520 Stranawy, v roce 1773 Stranany a v roce 1888 maďarská podoba Sztrányavi; dnešní slovenské jméno Stráňavy je doloženo od roku 1920. Obec vznikla jako poddanská ves na zákupním právu panství Strečno a část jejího území či majetkových vztahů byla spojena s rody Stráňavských a Nedeckých. Starší místní identitu připomíná také motiv husy pasoucí se na pažiti, který se stal základem obecního erbu: stříbrná husa stojí na zelené pažiti v modrém štítě. Změny jména zachycují nejen proměny jazyka a správy, ale také mnohonárodnostní dějiny severozápadního Slovenska v uherském a později československém kontextu.",
+      "category": "history",
+      "priority": "D",
+      "sources": [
+        "village_history",
+        "village_plan",
+        "village_upvs"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Stráňavy – centrum obce",
+        "address": "Májová 336, 013 25 Stráňavy, Slovensko",
+        "lat": 49.1722611,
+        "lon": 18.8205389,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.regionmalafatra.sk/wp-content/uploads/2025/12/poi-final-oprava.pdf"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Památník osvobození před kulturním domem",
+      "text": "Ve středu Stráňav stojí Pamätník oslobodenia, odhalený roku 1970 před tehdejším kulturním domem. Jeho autory byli architekt Ivan Meliš a akademický sochař Stanislav Bíroš. Památník patří k poválečné vrstvě veřejné paměti obce: vedle horského monumentu na Javorině, který připomíná konkrétní boje o Polom, uchovává vzpomínku na osvobození přímo v každodenním prostoru vesnice. Na pomníku je také veršovaný text připisovaný Kraňovi Kráľovi, který spojuje motiv útrap, jara a svobody. Dvě různá místa paměti tak vyprávějí odlišné, ale propojené části příběhu Stráňav – vojenský střet v horách a jeho poválečné připomínání v obci.",
+      "category": "heritage_and_monuments",
+      "priority": "D",
+      "sources": [
+        "liberation_municipality",
+        "liberation_regional",
+        "liberation_vpm",
+        "liberation_oma"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamätník oslobodenia před kulturním domem",
+        "address": "Stráňavy 345, 013 25 Stráňavy, Slovensko",
+        "lat": 49.1711667,
+        "lon": 18.8193611,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/10003-stranavy/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální stránka obce uvádí Poštu Stráňavy, č. 336, 013 25 Stráňavy. Tím je doložena fyzická obec, v níž se dodávací pošta nachází, a geografické PSČ 013 25. Samostatný statický výpis z vyhledávače Slovenské pošty nebyl v této relaci dostupný.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální kontaktní stránka obce – Pošta Stráňavy; adresní a geografické podklady obce",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiální obecní stránka identifikuje Poštu Stráňavy na adrese č. 336, 013 25 Stráňavy. Pole city proto správně označuje obec, v níž se poštovní budova fyzicky nachází.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Štatistický úrad SR / oficiální územní členění pro okres Žilina a Žilinský kraj; oficiální územní plán obce Stráňavy a státní portál slovensko.sk pro geografický kontext; obecní oficiální poštovní stránka pro polohu dodávací pošty. Souřadnice objektů ověřeny samostatnými mapovými a institucionálními zdroji."
+  },
+  "sources": [
+    {
+      "title": "Pošta Stráňavy – oficiální stránka obce",
+      "url": "https://www.stranavy.sk/kontakty/posta/?lang=sk&zmena-vzhladu=1",
+      "type": "official"
+    },
+    {
+      "title": "O obci Stráňavy – oficiální stránka obce",
+      "url": "https://www.stranavy.sk/obec/informacie-o-obci/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Pamätník I. čs. armádneho zboru – obec Stráňavy",
+      "url": "https://www.stranavy.sk/obec/informacie-o-obci/o-obci/?lang=sk&mapa-webu=1",
+      "type": "official"
+    },
+    {
+      "title": "Vrch Polom – Memorial to the First Czechoslovak Army Corps",
+      "url": "https://monuments-remembrance.eu/en/panstwa/slowacja-2/289-vrch-polom-memorial-to-the-first-czechoslovak-army-corps",
+      "type": "specialist"
+    },
+    {
+      "title": "Polom – Žilinský turistický kraj",
+      "url": "https://www.zilinskyturistickykraj.sk/sk/clanok/polom",
+      "type": "regional"
+    },
+    {
+      "title": "GPS pamätníkov z roku 1961 – Štátny geologický ústav Dionýza Štúra",
+      "url": "https://www.geology.sk/wp-content/uploads/2025/12/GPS_142_w.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Múzeum Malofatranskej operácie – obec Stráňavy",
+      "url": "https://www.stranavy.sk/village/about-us/",
+      "type": "official"
+    },
+    {
+      "title": "Územný plán obce Stráňavy – textová časť (2024)",
+      "url": "https://www.stranavy.sk/e_download.php?file=data%2Furedni_deska%2Fobsah236_9.pdf&original=UPN_O_Stranavy+%C4%8Distopis.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Múzeum Malofatranskej operácie – poloha v OpenStreetMap",
+      "url": "https://poi.oma.sk/n9179652539",
+      "type": "other"
+    },
+    {
+      "title": "Región Malej Fatry – turistická a kultúrna brožúra",
+      "url": "https://www.regionmalafatra.sk/wp-content/uploads/2025/12/poi-final-oprava.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Vojtech Bukovinský a jaskyne Stráňavskej doliny – Spravodaj Slovenskej speleologickej spoločnosti 4/2009",
+      "url": "https://sss.sk/wp-content/uploads/2011/10/Spravodaj-2009-4.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Stráňavy, horáreň – poloha orientačného bodu",
+      "url": "https://poi.oma.sk/n249810299",
+      "type": "other"
+    },
+    {
+      "title": "Územný plán obce Stráňavy – environmentálne podklady (Enviroportál)",
+      "url": "https://www.enviroportal.sk/eia/dokument/368611",
+      "type": "official"
+    },
+    {
+      "title": "Stráňavy, Pažite – poloha orientačného bodu",
+      "url": "https://www.oma.sk/n2328496286?s=poi",
+      "type": "other"
+    },
+    {
+      "title": "DOLVAP – história lomu a vápenky Varín",
+      "url": "https://www.dolvap.sk/en/about-company/look-into-the-history/",
+      "type": "specialist"
+    },
+    {
+      "title": "Lom Polom – oficiálne prevádzky DOLVAP",
+      "url": "https://www.dolvap.sk/sk/o-firme/prevadzky/",
+      "type": "official"
+    },
+    {
+      "title": "Lom Polom – environmentálne a povoľovacie podklady",
+      "url": "https://www.enviroportal.sk/eia/dokument/280099",
+      "type": "official"
+    },
+    {
+      "title": "Vznik obce Stráňavy – historické údaje obce",
+      "url": "https://www.stranavy.sk/modules/file_storage/download.php?file=1fbf76f7%7C428&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Informácie o obci Stráňavy – Ústredný portál verejnej správy",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_faff9729-73c3-47d8-aee1-77e2d7ce90b3",
+      "type": "official"
+    },
+    {
+      "title": "Pamätník oslobodenia – Spolek pro vojenská pietní místa",
+      "url": "https://www.vets.cz/vpm/mista/obec/10003-stranavy/",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamätník oslobodenia a múzeum – Región Malej Fatry",
+      "url": "https://www.regionmalafatra.sk/wp-content/uploads/2025/12/poi-final-oprava.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Pamätník Oslobodenia – poloha v OpenStreetMap",
+      "url": "https://stranavy.oma.sk/c/498",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Stráňavy – centrum obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Boje o Polom a památník přestěhovaný před vápencovým lomem",
+          "text": "Horský masiv Polom byl v dubnu 1945 jedním z klíčových opěrných bodů německé obrany v Malé Fatře. Boje o vrchol probíhaly od 17. do 26. dubna a patřily k nejtěžším střetům Malofatranské operace, při níž se jednotky 1. československého armádního sboru probíjely přes horský terén směrem k Žilině. Na počest padlých vznikl na Polomu monumentální památník, slavnostně odhalený roku 1961. Jeho reliéfy vytvořila akademická sochařka Ľudmila Cvengrošová. Protože těžba vápence postupně zasáhla původní místo, byl památník roku 1986 přemístěn na nedalekou Javorinu, do výšky přibližně 1 076 metrů. Dnešní travertinový obelisk s bronzovým sousoším je národní kulturní památkou a připomíná nejen vojenskou operaci, ale i cenu, kterou si vyžádalo překonání horské obrany."
+        },
+        {
+          "id": "fact_002",
+          "title": "Muzeum Malofatranské operace v bývalé hájovně",
+          "text": "Za obcí, na okraji Stráňavské doliny, sídlí Muzeum Malofatranské operace v budově, která původně sloužila jako lesní hájovna. Muzejní expozice zde byla otevřena roku 1976; v roce 2009 vznikla nová stálá prezentace dějin Stráňav a bojů 1. československého armádního sboru v dubnu 1945. Místo tak spojuje dvě vrstvy paměti: konkrétní příběh horských bojů v Malé Fatře a život obce, která ležela v jejich zázemí. Územní plán obce uvádí, že muzeum nemá běžný každodenní návštěvní režim a expozice se zpřístupňuje po dohodě, zejména organizovaným skupinám. Není to tedy jen další obecní výstavka, ale místní paměťové místo věnované jedné z nejdramatičtějších kapitol regionálních dějin."
+        },
+        {
+          "id": "fact_003",
+          "title": "Stráňavská dolina – krasový kaňon, ponory a jeskyně pod Polomem",
+          "text": "Stráňavská dolina mezi vrchy Polom a Hoblík ukazuje, jak rychle se může horský potok ztratit pod zemí. Hýrov pramení pod Minčolem v krystalických horninách, ale po vstupu do vápencového a dolomitového podloží se údolí mění v krátký, přibližně třistametrový krasový kaňon. Voda se na několika místech propadá do podzemí a znovu vyvěrá u pramenů níže v dolině. Slovenská speleologická společnost připomíná, že zde v 50. a 60. letech 20. století zkoumal povrchový i podzemní kras speleolog Vojtech Bukovinský. Jeho výzkum zahrnoval ponorovou Stráňavskou jeskyni a barvicí pokusy, které prokázaly podzemní propojení ponorů s vyvěračkami. Pozdější územně-plánovací podklady evidují v dolině několik fluviokrasových jeskyní. Jde o nenápadnou, ale odborně zajímavou část Lúčanské Malé Fatry – nikoli o běžnou turistickou jeskyni se zaručeným volným vstupem."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – podmáčené louky s chráněnými orchidejemi",
+          "text": "Lokalita Pažite v katastru Stráňav je v obecních a environmentálních plánovacích podkladech popsána jako cenná mozaika slatinných a lučních stanovišť. Průzkumy zde zaznamenaly biotopy evropského významu, včetně nížinných a podhorských kosených luk, a také podmáčené horské a podhorské louky. Územní plán výslovně uvádí výskyt chráněných orchidejí, mezi nimi vstavače bledého (Orchis pallens) a vstavače mužského (Orchis mascula). Tyto rostliny nejsou jen botanickou zajímavostí: jejich přítomnost ukazuje na zachovalé a druhově bohaté luční prostředí, které může být citlivé na odvodnění, zastavění nebo změnu hospodaření. Lokalita se dostala do pozornosti i při posuzování plánované výstavby, protože odborné podklady doporučovaly chránit zdejší mokřadní a luční společenstva. Jde o ekologicky hodnotné místo, nikoli o upravenou návštěvnickou atrakci."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lom Polom – století těžby vápence a proměna krajiny",
+          "text": "Vápencový lom Polom patří k nejvýraznějším průmyslovým stopám v okolí Stráňav. Těžba zde byla organizována od roku 1926, zatímco podnik Lom a vápenka Varín vznikl už roku 1925, aby dodával vápenec a vápno pro hutní výrobu. V počátcích se kámen dobýval ručně na strmých stěnách a dopravoval k železnici lanovou dráhou na dřevěných podpěrách. V dalších desetiletích se provoz proměňoval: přibyly šachtové pece, podzemní úpadnice a pásové dopravníky, které postupně nahradily starší lanovky. V letech 1983–1987 byl lom Polom rozšířen a rekonstruován. Těžba zároveň změnila podobu hory natolik, že kvůli ní musel být v roce 1986 přemístěn památník padlým vojákům z Polomu na Javorinu. Příběh lomu proto není jen dějinami výroby suroviny; přímo zasáhl do zdejší krajiny i do způsobu, jakým dnes krajina uchovává válečnou paměť. Provozní areál je průmyslovým pracovištěm, nikoli volně přístupnou turistickou atrakcí."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy od Ztrany po dnešní obec pod Polomem",
+          "text": "Stráňavy se v písemných pramenech objevují roku 1356 pod jménem Ztrany. Historické podoby názvu se v průběhu staletí měnily: roku 1483 se uvádí Stranyawa, roku 1520 Stranawy, v roce 1773 Stranany a v roce 1888 maďarská podoba Sztrányavi; dnešní slovenské jméno Stráňavy je doloženo od roku 1920. Obec vznikla jako poddanská ves na zákupním právu panství Strečno a část jejího území či majetkových vztahů byla spojena s rody Stráňavských a Nedeckých. Starší místní identitu připomíná také motiv husy pasoucí se na pažiti, který se stal základem obecního erbu: stříbrná husa stojí na zelené pažiti v modrém štítě. Změny jména zachycují nejen proměny jazyka a správy, ale také mnohonárodnostní dějiny severozápadního Slovenska v uherském a později československém kontextu."
+        },
+        {
+          "id": "fact_007",
+          "title": "Památník osvobození před kulturním domem",
+          "text": "Ve středu Stráňav stojí Pamätník oslobodenia, odhalený roku 1970 před tehdejším kulturním domem. Jeho autory byli architekt Ivan Meliš a akademický sochař Stanislav Bíroš. Památník patří k poválečné vrstvě veřejné paměti obce: vedle horského monumentu na Javorině, který připomíná konkrétní boje o Polom, uchovává vzpomínku na osvobození přímo v každodenním prostoru vesnice. Na pomníku je také veršovaný text připisovaný Kraňovi Kráľovi, který spojuje motiv útrap, jara a svobody. Dvě různá místa paměti tak vyprávějí odlišné, ale propojené části příběhu Stráňav – vojenský střet v horách a jeho poválečné připomínání v obci."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Stráňavy – Ortszentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kämpfe um Polom und das Denkmal, das dem Kalksteinbruch weichen musste",
+          "text": "Das Bergmassiv Polom war im April 1945 einer der wichtigsten Stützpunkte der deutschen Verteidigung in der Kleinen Fatra. Die Kämpfe um den Gipfel dauerten vom 17. bis zum 26. April und gehörten zu den schwersten Gefechten der Operation in der Kleinen Fatra, bei der sich Einheiten des 1. tschechoslowakischen Armeekorps durch das Gebirge in Richtung Žilina vorkämpften. Zum Gedenken an die Gefallenen entstand auf Polom ein monumentales Denkmal, das 1961 feierlich enthüllt wurde. Die Reliefs schuf die akademische Bildhauerin Ľudmila Cvengrošová. Da der Kalksteinabbau den ursprünglichen Standort zunehmend beeinträchtigte, wurde das Denkmal 1986 auf den nahe gelegenen Berg Javorina in etwa 1.076 Metern Höhe versetzt. Der heutige Travertinobelisk mit einer Bronzegruppe ist ein nationales Kulturdenkmal. Er erinnert sowohl an die Militäroperation als auch an den Preis, den die Überwindung der Gebirgsverteidigung forderte."
+        },
+        {
+          "id": "fact_002",
+          "title": "Museum der Operation in der Kleinen Fatra in einem ehemaligen Forsthaus",
+          "text": "Am Ortsrand von Stráňavy, am Eingang zum Stráňavská-Tal, befindet sich das Museum der Operation in der Kleinen Fatra in einem Gebäude, das ursprünglich als Forsthaus diente. Die Museumsausstellung wurde 1976 eröffnet; 2009 entstand eine neue Dauerausstellung zur Geschichte von Stráňavy und zu den Kämpfen des 1. tschechoslowakischen Armeekorps im April 1945. Der Ort verbindet zwei Erinnerungsebenen: die konkreten Gebirgskämpfe in der Kleinen Fatra und das Leben der Gemeinde, die im Hinterland dieser Kämpfe lag. Der Flächennutzungsplan der Gemeinde hält fest, dass das Museum keinen regulären täglichen Besuchsbetrieb hat und die Ausstellung nach Vereinbarung, vor allem für Gruppen, zugänglich gemacht wird. Es ist daher nicht bloß eine kleine Gemeindeschau, sondern ein lokaler Erinnerungsort, der einem der dramatischsten Kapitel der Regionalgeschichte gewidmet ist."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Stráňavská-Tal – Karstschlucht, Schwinden und Höhlen unter Polom",
+          "text": "Das Stráňavská-Tal zwischen den Bergen Polom und Hoblík zeigt, wie schnell ein Gebirgsbach unter der Erde verschwinden kann. Der Bach Hýrov entspringt unterhalb des Minčol in kristallinen Gesteinen. Sobald er den Kalk- und Dolomituntergrund erreicht, verändert sich das Tal und bildet eine kurze, etwa 300 Meter lange Karstschlucht. An mehreren Stellen versickert das Wasser im Untergrund und tritt weiter unten im Tal wieder an Quellen aus. Die Slowakische Höhlengesellschaft erinnert daran, dass der Höhlenforscher Vojtech Bukovinský in den 1950er- und 1960er-Jahren die oberirdischen und unterirdischen Karsterscheinungen hier untersuchte. Seine Forschungen umfassten die Schwindehöhle von Stráňavy und Färbeversuche, mit denen unterirdische Verbindungen zwischen Schwinden und Quellen nachgewiesen wurden. Spätere Planungsunterlagen dokumentieren mehrere fluviokarstische Höhlen im Tal. Es handelt sich um einen unscheinbaren, aber fachlich interessanten Teil der Lúčanská Kleine Fatra – nicht um eine gewöhnliche Schauhöhle mit garantiert freiem Zugang."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – Feuchtwiesen mit geschützten Orchideen",
+          "text": "Das Gebiet Pažite im Gemeindegebiet von Stráňavy wird in kommunalen und umweltfachlichen Planungsunterlagen als wertvolles Mosaik aus Moor- und Wiesenstandorten beschrieben. Untersuchungen verzeichneten hier Lebensräume von europäischer Bedeutung, darunter Tiefland- und Bergwiesen sowie feuchte Berg- und Vorgebirgswiesen. Der Flächennutzungsplan nennt ausdrücklich geschützte Orchideenarten, darunter das blasse Knabenkraut (Orchis pallens) und das Manns-Knabenkraut (Orchis mascula). Diese Pflanzen sind nicht nur eine botanische Besonderheit: Ihr Vorkommen weist auf erhaltene, artenreiche Wiesen hin, die empfindlich auf Entwässerung, Bebauung oder veränderte Bewirtschaftung reagieren können. Das Gebiet geriet auch bei der Prüfung geplanter Bebauung in den Blick, weil Fachunterlagen den Schutz der Feucht- und Wiesengesellschaften empfahlen. Es ist ein ökologisch wertvoller Ort, keine gestaltete Besucherattraktion."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Steinbruch Polom – ein Jahrhundert Kalksteinabbau und Landschaftswandel",
+          "text": "Der Kalksteinbruch Polom gehört zu den markantesten industriellen Spuren in der Umgebung von Stráňavy. Der geregelte Abbau begann 1926; bereits 1925 war das Werk Lom a vápenka Varín gegründet worden, um Kalkstein und Kalk für die Hüttenindustrie zu liefern. Anfangs wurde das Gestein von Hand an steilen Felswänden gewonnen und mit einer Seilbahn auf hölzernen Stützen zur Bahn transportiert. In den folgenden Jahrzehnten veränderte sich der Betrieb: Schachtöfen, geneigte unterirdische Stollen und Förderbänder kamen hinzu und ersetzten nach und nach die älteren Seilbahnen. Zwischen 1983 und 1987 wurde der Steinbruch Polom erweitert und umgebaut. Der Abbau veränderte den Berg so stark, dass das Denkmal für die gefallenen Soldaten 1986 von Polom auf Javorina versetzt werden musste. Die Geschichte des Steinbruchs ist deshalb nicht nur eine Industriegeschichte; sie prägte die Landschaft und beeinflusste, wie die Region heute an den Krieg erinnert. Das Betriebsgelände ist ein Industriearbeitsplatz und keine frei zugängliche Touristenattraktion."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy von Ztrany bis zur heutigen Gemeinde unter Polom",
+          "text": "Stráňavy erscheint 1356 erstmals in schriftlichen Quellen unter dem Namen Ztrany. Im Laufe der Jahrhunderte änderten sich die belegten Namensformen: 1483 Stranyawa, 1520 Stranawy, 1773 Stranany und 1888 die ungarische Form Sztrányavi; der heutige slowakische Name Stráňavy ist seit 1920 belegt. Der Ort entstand als untertäniges Dorf mit Ansiedlungsrecht auf dem Herrschaftsgebiet von Strečno; Teile seiner Besitzverhältnisse waren mit den Familien Stráňavský und Nedecký verbunden. An die ältere lokale Identität erinnert auch das Motiv einer auf einer Wiese grasenden Gans, das zur Grundlage des Gemeindewappens wurde: Eine silberne Gans steht auf einer grünen Wiese in einem blauen Schild. Die Namensformen spiegeln nicht nur sprachliche und administrative Veränderungen, sondern auch die multiethnische Geschichte der Nordwestslowakei im ungarischen und später tschechoslowakischen Kontext."
+        },
+        {
+          "id": "fact_007",
+          "title": "Das Befreiungsdenkmal vor dem Kulturhaus",
+          "text": "Im Zentrum von Stráňavy steht das Befreiungsdenkmal, das 1970 vor dem damaligen Kulturhaus enthüllt wurde. Seine Urheber waren der Architekt Ivan Meliš und der akademische Bildhauer Stanislav Bíroš. Das Denkmal gehört zur Nachkriegsschicht des öffentlichen Gedenkens in der Gemeinde: Neben dem Bergdenkmal auf Javorina, das an die konkreten Kämpfe um Polom erinnert, bewahrt es die Erinnerung an die Befreiung mitten im alltäglichen Dorfraum. Auf dem Denkmal befindet sich auch ein poetischer Text, der Kraňo Kráľ zugeschrieben wird und die Motive von Leid, Frühling und Freiheit verbindet. Die beiden Gedenkorte erzählen unterschiedliche, aber miteinander verbundene Teile der Geschichte von Stráňavy – den militärischen Zusammenstoß in den Bergen und sein Gedenken nach dem Krieg im Dorf."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Stráňavy village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The Battle of Polom and the memorial moved ahead of the limestone quarry",
+          "text": "The Polom massif was one of the key strongpoints in the German defence of the Malá Fatra mountains in April 1945. Fighting for the summit lasted from 17 to 26 April and formed part of the fiercest clashes of the Malá Fatra Operation, during which units of the 1st Czechoslovak Army Corps fought through difficult mountain terrain towards Žilina. A monumental memorial to the fallen was erected on Polom and ceremonially unveiled in 1961. Its reliefs were created by academic sculptor Ľudmila Cvengrošová. As limestone extraction increasingly affected the original site, the memorial was moved in 1986 to nearby Javorina, at an elevation of approximately 1,076 metres. The present travertine obelisk and bronze sculptural group are a National Cultural Monument. They commemorate both the military operation and the cost of breaking through the mountain defences."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Museum of the Malá Fatra Operation in a former forester’s lodge",
+          "text": "On the edge of Stráňavy, at the entrance to the Stráňavská Valley, the Museum of the Malá Fatra Operation occupies a building that originally served as a forester’s lodge. The museum exhibition opened in 1976; a new permanent presentation on the history of Stráňavy and the April 1945 fighting of the 1st Czechoslovak Army Corps was established in 2009. The site connects two layers of memory: the mountain battles in the Malá Fatra and the life of the village that lay in their rear area. The municipal land-use plan notes that the museum does not operate on a regular daily visitor schedule and that the exhibits are made accessible by prior arrangement, especially for organised groups. It is therefore more than a small local display: it is a community memory site devoted to one of the most dramatic chapters in regional history."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Stráňavská Valley – a karst gorge, sinkholes and caves beneath Polom",
+          "text": "The Stráňavská Valley, between the hills of Polom and Hoblík, shows how quickly a mountain stream can disappear underground. The Hýrov stream rises below Minčol in crystalline rocks, but when it reaches the limestone and dolomite bedrock the valley changes into a short, roughly 300-metre karst gorge. At several points the water sinks underground and reappears farther down the valley at springs. The Slovak Speleological Society records that caver Vojtech Bukovinský investigated the surface and underground karst here during the 1950s and 1960s. His work included the Stráňavy sinkhole cave and dye-tracing experiments that demonstrated underground links between swallow holes and springs. Later planning documents record several fluviokarst caves in the valley. This is an understated but scientifically interesting part of the Lúčanská Malá Fatra – not a conventional show cave with guaranteed public access."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – wet meadows with protected orchids",
+          "text": "The Pažite locality within the cadastral area of Stráňavy is described in municipal and environmental planning documents as a valuable mosaic of fen and meadow habitats. Surveys recorded habitats of European importance, including lowland and foothill hay meadows as well as wet mountain and submontane meadows. The municipal land-use plan specifically records protected orchids, including the pale orchid (Orchis pallens) and the early-purple orchid (Orchis mascula). These plants are more than a botanical curiosity: their presence indicates species-rich meadow habitats that can be sensitive to drainage, building development and changes in land management. The area also came under scrutiny during the assessment of proposed construction, because expert documents recommended protecting its wetland and meadow communities. It is an ecologically valuable locality, not a landscaped visitor attraction."
+        },
+        {
+          "id": "fact_005",
+          "title": "Polom Quarry – a century of limestone extraction and landscape change",
+          "text": "The Polom limestone quarry is one of the most visible industrial traces in the surroundings of Stráňavy. Organised extraction began in 1926; the Lom a vápenka Varín works had been established in 1925 to supply limestone and lime for the iron and steel industry. In the early years, workers extracted stone by hand from steep faces and transported it to the railway by a cableway carried on wooden supports. Over the following decades the operation changed: shaft kilns, inclined underground adits and conveyor belts were added, gradually replacing the older cableways. Between 1983 and 1987 the Polom quarry was expanded and reconstructed. Extraction changed the mountain so much that the memorial to fallen soldiers had to be moved from Polom to Javorina in 1986. The quarry’s story is therefore not only industrial history; it directly reshaped the landscape and influenced how the region preserves its wartime memory. The operating site is an industrial workplace, not a freely accessible tourist attraction."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy from Ztrany to the present-day village below Polom",
+          "text": "Stráňavy first appears in written records in 1356 under the name Ztrany. The recorded forms changed over the centuries: Stranyawa in 1483, Stranawy in 1520, Stranany in 1773 and the Hungarian form Sztrányavi in 1888; the present Slovak name Stráňavy is documented from 1920. The settlement developed as a dependent village under the settlement-rights system of the Strečno estate, while parts of its property relations were associated with the Stráňavský and Nedecký families. An older local identity is also reflected in the motif of a goose grazing on a meadow, which inspired the municipal coat of arms: a silver goose standing on a green meadow within a blue shield. The changing names reflect not only linguistic and administrative shifts, but also the multi-ethnic history of north-western Slovakia under the Kingdom of Hungary and later Czechoslovakia."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Liberation Memorial in front of the cultural centre",
+          "text": "In the centre of Stráňavy stands the Liberation Memorial, unveiled in 1970 in front of the then cultural centre. It was created by architect Ivan Meliš and academic sculptor Stanislav Bíroš. The monument belongs to the post-war layer of public remembrance in the village: alongside the mountain memorial on Javorina, which recalls the specific fighting for Polom, it preserves the memory of liberation in the everyday setting of the community itself. The monument also bears a verse text attributed to Kraňo Kráľ, linking themes of hardship, spring and freedom. The two memorial sites tell different but connected parts of Stráňavy’s story – the military clash in the mountains and its post-war commemoration in the village."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Stráňavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La batalla de Polom y el monumento trasladado por la cantera de caliza",
+          "text": "El macizo de Polom fue uno de los puntos clave de la defensa alemana en los montes de Malá Fatra en abril de 1945. Los combates por la cima se prolongaron del 17 al 26 de abril y formaron parte de los enfrentamientos más duros de la Operación de Malá Fatra, durante la cual unidades del 1.er Cuerpo de Ejército Checoslovaco avanzaron por un terreno montañoso difícil hacia Žilina. En memoria de los caídos se levantó en Polom un monumento monumental, inaugurado solemnemente en 1961. Sus relieves fueron obra de la escultora académica Ľudmila Cvengrošová. Como la extracción de caliza fue afectando cada vez más al emplazamiento original, el monumento se trasladó en 1986 a la cercana montaña Javorina, a unos 1.076 metros de altitud. El actual obelisco de travertino con un conjunto escultórico de bronce es monumento cultural nacional. Recuerda tanto la operación militar como el coste humano de superar las defensas de montaña."
+        },
+        {
+          "id": "fact_002",
+          "title": "El Museo de la Operación de Malá Fatra en una antigua casa forestal",
+          "text": "A las afueras de Stráňavy, en el acceso al valle de Stráňavská, el Museo de la Operación de Malá Fatra ocupa un edificio que originalmente fue una casa forestal. La exposición del museo se inauguró en 1976; en 2009 se creó una nueva presentación permanente sobre la historia de Stráňavy y los combates de abril de 1945 del 1.er Cuerpo de Ejército Checoslovaco. El lugar reúne dos capas de memoria: las batallas en las montañas de Malá Fatra y la vida de la localidad situada en su retaguardia. El plan urbanístico municipal señala que el museo no tiene un horario diario regular y que la exposición se abre mediante acuerdo previo, especialmente para grupos organizados. Por tanto, no es solo una pequeña muestra municipal, sino un espacio de memoria local dedicado a uno de los capítulos más dramáticos de la historia regional."
+        },
+        {
+          "id": "fact_003",
+          "title": "El valle de Stráňavská: garganta kárstica, sumideros y cuevas bajo Polom",
+          "text": "El valle de Stráňavská, entre las montañas de Polom y Hoblík, muestra cómo un arroyo de montaña puede desaparecer rápidamente bajo tierra. El arroyo Hýrov nace bajo Minčol, en rocas cristalinas, pero al alcanzar el sustrato de caliza y dolomía el valle cambia y forma una breve garganta kárstica de unos 300 metros. En varios puntos el agua se infiltra bajo tierra y vuelve a salir más abajo en forma de manantiales. La Sociedad Espeleológica Eslovaca recuerda que el espeleólogo Vojtech Bukovinský investigó aquí el karst superficial y subterráneo durante las décadas de 1950 y 1960. Sus trabajos incluyeron la cueva-sumidero de Stráňavy y pruebas con colorantes que demostraron conexiones subterráneas entre los sumideros y los manantiales. Documentos urbanísticos posteriores registran varias cuevas fluviokársticas en el valle. Es una zona discreta pero de interés científico en Lúčanská Malá Fatra, no una cueva turística con acceso público garantizado."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite: prados húmedos con orquídeas protegidas",
+          "text": "La localidad de Pažite, dentro del término municipal de Stráňavy, aparece en documentos de planificación municipal y ambiental como un valioso mosaico de hábitats de turbera y pradera. Los estudios registraron hábitats de importancia europea, entre ellos prados de siega de tierras bajas y piedemonte, así como prados húmedos de montaña y zonas submontanas. El plan urbanístico municipal menciona expresamente orquídeas protegidas, como Orchis pallens y Orchis mascula. Estas plantas son más que una curiosidad botánica: su presencia indica prados ricos en especies que pueden ser sensibles al drenaje, la urbanización y los cambios en la gestión del terreno. La zona también fue objeto de atención durante la evaluación de proyectos de construcción, ya que los documentos técnicos recomendaron proteger sus comunidades húmedas y pratenses. Es un lugar de valor ecológico, no una atracción acondicionada para visitantes."
+        },
+        {
+          "id": "fact_005",
+          "title": "La cantera de Polom: un siglo de extracción de caliza y transformación del paisaje",
+          "text": "La cantera de caliza de Polom es una de las huellas industriales más visibles de los alrededores de Stráňavy. La extracción organizada comenzó en 1926; la planta Lom a vápenka Varín se había creado ya en 1925 para suministrar caliza y cal a la industria siderúrgica. En los primeros años, los trabajadores extraían la piedra a mano en paredes escarpadas y la transportaban hasta el ferrocarril mediante un teleférico sostenido por postes de madera. En las décadas siguientes, la explotación cambió: se añadieron hornos de cuba, galerías inclinadas subterráneas y cintas transportadoras que sustituyeron progresivamente a los antiguos teleféricos. Entre 1983 y 1987 la cantera de Polom se amplió y reconstruyó. La extracción transformó tanto la montaña que el monumento a los soldados caídos tuvo que trasladarse de Polom a Javorina en 1986. Por eso, la historia de la cantera no es solo una historia industrial: modificó directamente el paisaje y la forma en que la región conserva la memoria de la guerra. La explotación es un recinto de trabajo industrial, no una atracción turística de libre acceso."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy, de Ztrany a la localidad actual bajo Polom",
+          "text": "Stráňavy aparece por primera vez en documentos escritos en 1356 con el nombre de Ztrany. Las formas históricas del topónimo cambiaron con los siglos: Stranyawa en 1483, Stranawy en 1520, Stranany en 1773 y la forma húngara Sztrányavi en 1888; el nombre eslovaco actual Stráňavy está documentado desde 1920. El asentamiento nació como pueblo dependiente bajo el régimen de colonización del señorío de Strečno, y parte de sus relaciones de propiedad estuvo vinculada a las familias Stráňavský y Nedecký. Una antigua identidad local también se refleja en el motivo de una oca pastando en un prado, que inspiró el escudo municipal: una oca plateada sobre un prado verde dentro de un escudo azul. Los cambios de nombre reflejan no solo transformaciones lingüísticas y administrativas, sino también la historia multiétnica del noroeste de Eslovaquia bajo el Reino de Hungría y, más tarde, Checoslovaquia."
+        },
+        {
+          "id": "fact_007",
+          "title": "El Monumento a la Liberación frente al centro cultural",
+          "text": "En el centro de Stráňavy se encuentra el Monumento a la Liberación, inaugurado en 1970 frente al entonces centro cultural. Sus autores fueron el arquitecto Ivan Meliš y el escultor académico Stanislav Bíroš. El monumento pertenece a la memoria pública de posguerra de la localidad: junto al monumento de montaña de Javorina, que recuerda los combates concretos por Polom, conserva el recuerdo de la liberación en el espacio cotidiano del propio pueblo. También lleva un texto en verso atribuido a Kraňo Kráľ, que enlaza los temas del sufrimiento, la primavera y la libertad. Los dos lugares conmemorativos cuentan partes distintas pero conectadas de la historia de Stráňavy: el enfrentamiento militar en las montañas y su recuerdo de posguerra en el pueblo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre du village de Stráňavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La bataille de Polom et le mémorial déplacé à cause de la carrière de calcaire",
+          "text": "Le massif de Polom fut l’un des points d’appui essentiels de la défense allemande dans les monts de Malá Fatra en avril 1945. Les combats pour le sommet se déroulèrent du 17 au 26 avril et comptèrent parmi les affrontements les plus violents de l’opération de Malá Fatra, au cours de laquelle des unités du 1er corps d’armée tchécoslovaque progressèrent à travers un terrain montagneux difficile en direction de Žilina. Un monument monumental en hommage aux soldats tombés fut érigé sur Polom et inauguré en 1961. Ses reliefs sont l’œuvre de la sculptrice académique Ľudmila Cvengrošová. L’exploitation du calcaire ayant progressivement affecté l’emplacement d’origine, le monument fut transféré en 1986 sur la montagne voisine de Javorina, à environ 1 076 mètres d’altitude. L’obélisque actuel en travertin et son groupe sculpté en bronze sont classés monument culturel national. Ils rappellent à la fois l’opération militaire et le prix humain du franchissement des défenses en montagne."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le musée de l’opération de Malá Fatra dans une ancienne maison forestière",
+          "text": "À la sortie du village, à l’entrée de la vallée de Stráňavská, le musée de l’opération de Malá Fatra occupe un bâtiment qui servait autrefois de maison forestière. L’exposition muséale y fut inaugurée en 1976 ; une nouvelle présentation permanente consacrée à l’histoire de Stráňavy et aux combats d’avril 1945 du 1er corps d’armée tchécoslovaque fut créée en 2009. Le lieu réunit deux mémoires : celle des combats en montagne dans la Malá Fatra et celle de la vie du village situé à l’arrière de ces affrontements. Le plan d’urbanisme communal précise que le musée n’a pas d’ouverture quotidienne régulière et que les collections sont accessibles sur rendez-vous, notamment aux groupes organisés. Il ne s’agit donc pas d’une simple petite exposition communale, mais d’un lieu de mémoire consacré à l’un des chapitres les plus dramatiques de l’histoire régionale."
+        },
+        {
+          "id": "fact_003",
+          "title": "La vallée de Stráňavská – gorge karstique, pertes d’eau et grottes sous Polom",
+          "text": "La vallée de Stráňavská, entre les sommets de Polom et Hoblík, montre à quelle vitesse un torrent de montagne peut disparaître sous terre. Le ruisseau Hýrov prend sa source sous le Minčol dans des roches cristallines ; lorsqu’il atteint le substrat calcaire et dolomitique, la vallée se transforme en une courte gorge karstique d’environ 300 mètres. En plusieurs endroits, l’eau s’engouffre sous terre puis réapparaît plus bas dans la vallée sous forme de sources. La Société spéléologique slovaque rappelle que le spéléologue Vojtech Bukovinský a étudié ici le karst de surface et souterrain dans les années 1950 et 1960. Ses recherches ont notamment porté sur la grotte-perte de Stráňavy et sur des essais de traçage à la fluorescéine qui ont démontré des connexions souterraines entre les pertes et les résurgences. Des documents d’aménagement plus récents recensent plusieurs grottes fluviokarstiques dans la vallée. Ce secteur discret présente un réel intérêt scientifique dans la Lúčanská Malá Fatra ; ce n’est pas une grotte touristique dont l’accès serait libre et garanti."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – prairies humides et orchidées protégées",
+          "text": "Le lieu-dit Pažite, dans le territoire cadastral de Stráňavy, est décrit dans les documents communaux et environnementaux comme une mosaïque précieuse de milieux tourbeux et de prairies. Les études y ont recensé des habitats d’importance européenne, notamment des prairies de fauche de plaine et de piémont ainsi que des prairies humides de montagne et de moyenne montagne. Le plan d’urbanisme communal mentionne explicitement des orchidées protégées, dont Orchis pallens et Orchis mascula. Ces plantes sont plus qu’une curiosité botanique : leur présence témoigne de prairies riches en espèces, sensibles au drainage, à l’urbanisation et aux changements de gestion des terres. Le site a également été examiné lors de l’évaluation de projets de construction, car les documents spécialisés recommandaient de préserver ses communautés humides et prairiales. Il s’agit d’un espace à valeur écologique, et non d’une attraction aménagée pour les visiteurs."
+        },
+        {
+          "id": "fact_005",
+          "title": "La carrière de Polom – un siècle d’extraction du calcaire et de transformation du paysage",
+          "text": "La carrière de calcaire de Polom constitue l’une des traces industrielles les plus visibles des environs de Stráňavy. L’extraction organisée a commencé en 1926 ; l’établissement Lom a vápenka Varín avait été fondé dès 1925 pour fournir du calcaire et de la chaux à la sidérurgie. À ses débuts, la pierre était extraite à la main sur des parois abruptes et transportée jusqu’au chemin de fer par un téléphérique porté par des poteaux en bois. Au cours des décennies suivantes, l’exploitation évolua : des fours à cuve, des galeries inclinées souterraines et des convoyeurs à bande furent ajoutés, remplaçant progressivement les anciens téléphériques. Entre 1983 et 1987, la carrière de Polom fut agrandie et réaménagée. L’extraction transforma tellement la montagne que le monument aux soldats tombés dut être déplacé de Polom à Javorina en 1986. L’histoire de la carrière ne relève donc pas seulement de l’industrie : elle a directement remodelé le paysage et influencé la manière dont la région conserve la mémoire de la guerre. Le site d’exploitation est un lieu de travail industriel, et non une attraction touristique en libre accès."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy, de Ztrany au village actuel au pied de Polom",
+          "text": "Stráňavy apparaît pour la première fois dans les sources écrites en 1356 sous le nom de Ztrany. Les formes attestées du toponyme ont évolué au fil des siècles : Stranyawa en 1483, Stranawy en 1520, Stranany en 1773 et la forme hongroise Sztrányavi en 1888 ; le nom slovaque actuel Stráňavy est attesté depuis 1920. Le village s’est développé comme localité dépendante sous le régime de colonisation du domaine de Strečno ; une partie de ses liens fonciers était associée aux familles Stráňavský et Nedecký. Une ancienne identité locale apparaît aussi dans le motif d’une oie broutant sur un pré, qui a inspiré les armoiries communales : une oie d’argent se tient sur un pré vert dans un écu bleu. Les changements de nom reflètent non seulement les évolutions linguistiques et administratives, mais aussi l’histoire multiethnique du nord-ouest de la Slovaquie sous le royaume de Hongrie, puis dans le contexte tchécoslovaque."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le monument de la Libération devant le centre culturel",
+          "text": "Au centre de Stráňavy se trouve le monument de la Libération, inauguré en 1970 devant l’ancien centre culturel. Il a été réalisé par l’architecte Ivan Meliš et le sculpteur académique Stanislav Bíroš. Il appartient à la mémoire publique de l’après-guerre dans la commune : à côté du mémorial de montagne de Javorina, qui rappelle les combats précis pour Polom, il conserve le souvenir de la libération au cœur de l’espace quotidien du village. Le monument porte également un texte en vers attribué à Kraňo Kráľ, qui associe les thèmes de l’épreuve, du printemps et de la liberté. Les deux lieux de mémoire racontent des aspects différents mais liés de l’histoire de Stráňavy : l’affrontement militaire dans les montagnes et sa commémoration après la guerre dans le village."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Stráňavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La battaglia di Polom e il memoriale trasferito a causa della cava di calcare",
+          "text": "Il massiccio del Polom fu uno dei punti chiave della difesa tedesca nei monti Malá Fatra nell’aprile 1945. I combattimenti per la vetta durarono dal 17 al 26 aprile e furono tra gli scontri più duri dell’operazione della Malá Fatra, durante la quale le unità del 1º Corpo d’armata cecoslovacco avanzarono attraverso un terreno montuoso difficile in direzione di Žilina. In memoria dei caduti fu eretto sul Polom un monumento monumentale, inaugurato solennemente nel 1961. I rilievi furono realizzati dalla scultrice accademica Ľudmila Cvengrošová. Poiché l’estrazione del calcare interessò progressivamente il sito originario, nel 1986 il monumento fu trasferito sulla vicina montagna Javorina, a circa 1.076 metri di quota. L’attuale obelisco in travertino con il gruppo scultoreo in bronzo è monumento culturale nazionale. Ricorda sia l’operazione militare sia il costo umano del superamento delle difese montane."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il Museo dell’operazione della Malá Fatra in un’ex casa forestale",
+          "text": "Ai margini del paese, all’ingresso della valle di Stráňavská, il Museo dell’operazione della Malá Fatra occupa un edificio che in origine era una casa forestale. L’esposizione museale fu inaugurata nel 1976; nel 2009 venne realizzata una nuova presentazione permanente dedicata alla storia di Stráňavy e ai combattimenti dell’aprile 1945 del 1º Corpo d’armata cecoslovacco. Il luogo unisce due livelli di memoria: le battaglie in montagna nella Malá Fatra e la vita del villaggio che si trovava nelle retrovie di quegli scontri. Il piano urbanistico comunale precisa che il museo non ha un normale orario giornaliero e che le esposizioni vengono aperte previo accordo, soprattutto per gruppi organizzati. Non è quindi una semplice piccola mostra comunale, ma un luogo di memoria locale dedicato a uno dei capitoli più drammatici della storia regionale."
+        },
+        {
+          "id": "fact_003",
+          "title": "La valle di Stráňavská – gola carsica, inghiottitoi e grotte sotto il Polom",
+          "text": "La valle di Stráňavská, tra i rilievi del Polom e dell’Hoblík, mostra quanto rapidamente un torrente di montagna possa scomparire sottoterra. Il torrente Hýrov nasce sotto il Minčol in rocce cristalline, ma quando raggiunge il substrato calcareo e dolomitico la valle cambia e forma una breve gola carsica di circa 300 metri. In più punti l’acqua sprofonda nel sottosuolo e ricompare più a valle sotto forma di sorgenti. La Società speleologica slovacca ricorda che lo speleologo Vojtech Bukovinský studiò qui il carsismo superficiale e sotterraneo negli anni Cinquanta e Sessanta. Le sue ricerche compresero la grotta-inghiottitoio di Stráňavy e prove con traccianti colorati che dimostrarono collegamenti sotterranei tra gli inghiottitoi e le sorgenti. Documenti urbanistici successivi registrano diverse grotte fluvio-carsiche nella valle. È una parte poco appariscente ma scientificamente interessante della Lúčanská Malá Fatra, non una grotta turistica con accesso pubblico garantito."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – prati umidi con orchidee protette",
+          "text": "La località di Pažite, nel territorio catastale di Stráňavy, è descritta nei documenti comunali e ambientali come un prezioso mosaico di torbiere e prati. Gli studi vi hanno individuato habitat di importanza europea, tra cui prati da fieno di pianura e pedemontani e prati umidi di montagna e di media montagna. Il piano urbanistico comunale segnala esplicitamente orchidee protette, tra cui Orchis pallens e Orchis mascula. Queste piante sono più di una curiosità botanica: la loro presenza indica prati ricchi di specie, sensibili al drenaggio, all’edificazione e ai cambiamenti nella gestione del territorio. L’area è stata esaminata anche durante la valutazione di progetti edilizi, poiché i documenti specialistici raccomandavano di proteggere le comunità umide e prative. È un luogo di valore ecologico, non un’attrazione attrezzata per i visitatori."
+        },
+        {
+          "id": "fact_005",
+          "title": "La cava di Polom – un secolo di estrazione del calcare e trasformazione del paesaggio",
+          "text": "La cava di calcare di Polom è una delle tracce industriali più evidenti nei dintorni di Stráňavy. L’estrazione organizzata iniziò nel 1926; già nel 1925 era stato fondato lo stabilimento Lom a vápenka Varín per fornire calcare e calce all’industria siderurgica. All’inizio la pietra veniva estratta a mano da pareti ripide e trasportata alla ferrovia con una teleferica sostenuta da pali di legno. Nei decenni successivi l’impianto cambiò: furono aggiunti forni a tino, gallerie inclinate sotterranee e nastri trasportatori, che sostituirono gradualmente le vecchie teleferiche. Tra il 1983 e il 1987 la cava di Polom fu ampliata e ricostruita. L’estrazione modificò così profondamente la montagna che nel 1986 il monumento ai soldati caduti dovette essere trasferito dal Polom alla Javorina. La storia della cava non riguarda quindi soltanto la produzione industriale: ha trasformato direttamente il paesaggio e influenzato il modo in cui la regione conserva la memoria della guerra. L’area operativa è un luogo di lavoro industriale, non un’attrazione turistica liberamente accessibile."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy, da Ztrany all’attuale paese ai piedi del Polom",
+          "text": "Stráňavy compare per la prima volta nelle fonti scritte nel 1356 con il nome di Ztrany. Le forme storiche del toponimo cambiarono nel corso dei secoli: Stranyawa nel 1483, Stranawy nel 1520, Stranany nel 1773 e la forma ungherese Sztrányavi nel 1888; l’attuale nome slovacco Stráňavy è documentato dal 1920. L’insediamento nacque come villaggio dipendente secondo il sistema di colonizzazione della signoria di Strečno; parte dei suoi rapporti patrimoniali era legata alle famiglie Stráňavský e Nedecký. Un’antica identità locale si riflette anche nel motivo di un’oca al pascolo su un prato, che ispirò lo stemma comunale: un’oca d’argento su un prato verde all’interno di uno scudo blu. I cambiamenti del nome riflettono non solo trasformazioni linguistiche e amministrative, ma anche la storia multietnica della Slovacchia nord-occidentale sotto il Regno d’Ungheria e, in seguito, nel contesto cecoslovacco."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il Monumento alla Liberazione davanti al centro culturale",
+          "text": "Nel centro di Stráňavy si trova il Monumento alla Liberazione, inaugurato nel 1970 davanti all’allora centro culturale. Gli autori furono l’architetto Ivan Meliš e lo scultore accademico Stanislav Bíroš. Il monumento appartiene alla memoria pubblica del dopoguerra nel paese: accanto al memoriale montano sulla Javorina, che ricorda i combattimenti specifici per il Polom, conserva il ricordo della liberazione nello spazio quotidiano della comunità. Il monumento reca anche un testo in versi attribuito a Kraňo Kráľ, che collega i temi della sofferenza, della primavera e della libertà. I due luoghi della memoria raccontano aspetti diversi ma collegati della storia di Stráňavy: lo scontro militare in montagna e la sua commemorazione nel dopoguerra all’interno del paese."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dorpscentrum van Stráňavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Slag om Polom en het monument dat moest wijken voor de kalksteengroeve",
+          "text": "Het bergmassief Polom was in april 1945 een van de belangrijkste steunpunten van de Duitse verdediging in het Malá Fatra-gebergte. De gevechten om de top duurden van 17 tot en met 26 april en behoorden tot de zwaarste confrontaties tijdens de operatie in Malá Fatra. Eenheden van het 1e Tsjechoslowaakse Legerkorps trokken daarbij door moeilijk bergterrein in de richting van Žilina. Ter nagedachtenis aan de gesneuvelden werd op Polom een monument opgericht, dat in 1961 plechtig werd onthuld. De reliëfs zijn gemaakt door de academische beeldhouwster Ľudmila Cvengrošová. Omdat de kalksteenwinning de oorspronkelijke plek steeds meer aantastte, werd het monument in 1986 verplaatst naar de nabijgelegen berg Javorina, op ongeveer 1.076 meter hoogte. De huidige travertijnen obelisk met bronzen beeldengroep is een nationaal cultureel monument. Het herinnert zowel aan de militaire operatie als aan de menselijke prijs van het doorbreken van de bergverdediging."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Museum van de Malá Fatra-operatie in een voormalig boswachtershuis",
+          "text": "Aan de rand van Stráňavy, bij de ingang van het Stráňavská-dal, is het Museum van de Malá Fatra-operatie gevestigd in een gebouw dat oorspronkelijk als boswachtershuis diende. De museumtentoonstelling werd in 1976 geopend; in 2009 kwam er een nieuwe permanente presentatie over de geschiedenis van Stráňavy en de gevechten van het 1e Tsjechoslowaakse Legerkorps in april 1945. De plek verbindt twee lagen van herinnering: de berggevechten in Malá Fatra en het leven van het dorp dat achter het frontgebied lag. Het gemeentelijke bestemmingsplan vermeldt dat het museum geen vaste dagelijkse openingstijden heeft en dat de collectie op afspraak toegankelijk wordt gemaakt, vooral voor georganiseerde groepen. Het is dus meer dan een kleine lokale tentoonstelling: het is een herinneringsplek voor een van de dramatischste hoofdstukken uit de regionale geschiedenis."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Stráňavská-dal – karstkloof, verdwijnpunten en grotten onder Polom",
+          "text": "Het Stráňavská-dal, tussen de bergen Polom en Hoblík, laat zien hoe snel een bergbeek onder de grond kan verdwijnen. De beek Hýrov ontspringt onder de Minčol in kristallijn gesteente, maar zodra hij de kalk- en dolomietondergrond bereikt, verandert het dal in een korte karstkloof van ongeveer 300 meter. Op verschillende plaatsen zakt het water de bodem in en komt het verderop in het dal weer als bron aan de oppervlakte. De Slowaakse Speleologische Vereniging beschrijft hoe speleoloog Vojtech Bukovinský hier in de jaren vijftig en zestig het bovengrondse en ondergrondse karstlandschap onderzocht. Zijn onderzoek omvatte de verdwijnpuntgrot van Stráňavy en kleurstofproeven die ondergrondse verbindingen tussen verdwijnpunten en bronnen aantoonden. Latere ruimtelijke plannen vermelden meerdere fluviokarstgrotten in het dal. Dit is een bescheiden maar wetenschappelijk interessant deel van de Lúčanská Malá Fatra, geen toeristische grot met gegarandeerde vrije toegang."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pažite – natte graslanden met beschermde orchideeën",
+          "text": "De locatie Pažite binnen het kadastrale gebied van Stráňavy wordt in gemeentelijke en milieukundige plandocumenten beschreven als een waardevol mozaïek van moeras- en graslandhabitats. Onderzoeken registreerden hier habitats van Europees belang, waaronder laagland- en heuvelachtige hooilanden en natte berg- en submontane graslanden. Het gemeentelijke bestemmingsplan noemt uitdrukkelijk beschermde orchideeën, waaronder Orchis pallens en Orchis mascula. Deze planten zijn meer dan een botanische bijzonderheid: hun aanwezigheid wijst op soortenrijke graslanden die gevoelig kunnen zijn voor drainage, bebouwing en veranderingen in het landbeheer. De locatie kreeg ook aandacht bij de beoordeling van bouwplannen, omdat deskundige documenten adviseerden de natte en grazige plantengemeenschappen te beschermen. Het is een ecologisch waardevolle plek, geen ingerichte bezoekersattractie."
+        },
+        {
+          "id": "fact_005",
+          "title": "De groeve Polom – een eeuw kalksteenwinning en verandering van het landschap",
+          "text": "De kalksteengroeve Polom is een van de opvallendste industriële sporen in de omgeving van Stráňavy. De georganiseerde winning begon in 1926; de fabriek Lom a vápenka Varín was al in 1925 opgericht om kalksteen en kalk te leveren aan de ijzer- en staalindustrie. In de beginjaren werd steen met de hand uit steile rotswanden gewonnen en via een kabelbaan op houten steunpalen naar de spoorlijn vervoerd. In de daaropvolgende decennia veranderde de exploitatie: schachtovens, hellende ondergrondse gangen en transportbanden werden toegevoegd en vervingen geleidelijk de oudere kabelbanen. Tussen 1983 en 1987 werd de groeve Polom uitgebreid en verbouwd. De winning veranderde de berg zo sterk dat het monument voor de gesneuvelde soldaten in 1986 van Polom naar Javorina moest worden verplaatst. De geschiedenis van de groeve is daarom niet alleen industriële geschiedenis: ze heeft het landschap rechtstreeks veranderd en beïnvloedt hoe de regio de oorlog herdenkt. Het werkterrein is een industriële locatie en geen vrij toegankelijke toeristische attractie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stráňavy, van Ztrany tot het huidige dorp onder Polom",
+          "text": "Stráňavy wordt in 1356 voor het eerst in geschreven bronnen genoemd onder de naam Ztrany. De historische naamvormen veranderden in de loop der eeuwen: Stranyawa in 1483, Stranawy in 1520, Stranany in 1773 en de Hongaarse vorm Sztrányavi in 1888; de huidige Slowaakse naam Stráňavy is vanaf 1920 gedocumenteerd. De nederzetting ontstond als afhankelijk dorp onder het vestigingsrecht van het landgoed Strečno. Een deel van de grondbezitsrelaties was verbonden met de families Stráňavský en Nedecký. Een oudere lokale identiteit komt ook tot uiting in het motief van een gans die op een weide graast, dat de basis vormde voor het gemeentewapen: een zilveren gans op een groene weide in een blauw schild. De veranderende namen weerspiegelen niet alleen taalkundige en bestuurlijke veranderingen, maar ook de multi-etnische geschiedenis van noordwestelijk Slowakije onder het Koninkrijk Hongarije en later in de Tsjechoslowaakse context."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het Bevrijdingsmonument voor het cultureel centrum",
+          "text": "In het centrum van Stráňavy staat het Bevrijdingsmonument, dat in 1970 voor het toenmalige cultureel centrum werd onthuld. De makers waren architect Ivan Meliš en academisch beeldhouwer Stanislav Bíroš. Het monument maakt deel uit van de naoorlogse publieke herinneringscultuur van het dorp: naast het bergmonument op Javorina, dat de concrete gevechten om Polom herdenkt, bewaart het de herinnering aan de bevrijding midden in de dagelijkse leefomgeving van de gemeenschap. Op het monument staat ook een tekst in verzen die wordt toegeschreven aan Kraňo Kráľ en de thema’s ontbering, lente en vrijheid met elkaar verbindt. De twee herdenkingsplaatsen vertellen verschillende maar verbonden delen van de geschiedenis van Stráňavy: de militaire strijd in de bergen en de naoorlogse herdenking ervan in het dorp."
+        }
+      ]
+    }
+  }
 }
