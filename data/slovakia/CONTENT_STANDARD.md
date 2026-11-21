@@ -40,7 +40,6 @@ A PSČ is a postal identifier. It is not automatically:
 - one municipality;
 - one settlement;
 - one administrative district;
-- the physical location of its serving post office;
 - a polygon whose boundaries can be inferred from a postcode directory.
 
 A geographic PSČ may cover multiple municipalities, settlements or parts of municipalities, or only part of a larger municipality. Establish the actual postal and geographic scope using appropriate evidence. Do not infer the full coverage from the best-known town name or from an address displayed by an unrelated institution.
