@@ -24,7 +24,7 @@ This is the mandatory project-wide rule for Italian records.
 
 - **One CAP always remains one production record.** Never split a shared CAP into one record per Comune and never create multiple records with the same CAP.
 - The CAP is our project content/indexing unit. It may cover one Comune, several Comuni or an urban postal zone. Its content is the complete defensible geographic area associated with that CAP.
-- Set `city` to the official names of **all Comuni associated with the CAP**, using current ISTAT names. If there is more than one, list the names in one string separated by commas. Do not select one Comune as a supposed representative or organizational anchor.
+- For the stored `city` field, use the official names of **all Comuni associated with the CAP**, using current ISTAT names. If there is more than one, list the names in one string separated by commas. Do not reduce this stored list to one or two supposed representative Comuni; user-facing display is governed separately by §2.3.
 - Determine the Comune list from the best available authoritative evidence for the CAP assignment and the physical municipal locations covered by it. Poste Italiane is the primary authority for CAP assignment; ISTAT is the authority for current Comune names and administrative identity. A branch address may be used only as incidental locality evidence when better geographic evidence is unavailable; it does not define the full CAP area.
 - Do not require identification of one exclusive serving post office. **Research into who serves the CAP, branch operators, branch opening/closure status, opening hours, postal services, delivery routes or delivery arrangements is out of scope.** Do not add such details as facts or retain branch inventories in the record. Verify only the CAP assignment and its geographic relationship.
 - If a CAP is associated with more than one intermediate territorial unit or Regione, represent all applicable official names in the corresponding string field, separated by commas. Never silently choose one. If the scope cannot be established reliably, document the precise uncertainty and do not guess.
@@ -54,6 +54,17 @@ Distinguish Comune from frazione, località, borgata, quartiere, rione and other
 - Do not omit a settlement from research merely because it has no separate CAP.
 - Do not use `district` as a substitute list of Comuni or as a container for all CAP settlements.
 - A fact about a specific locality must be pinned at the actual subject or a meaningful point in that locality, not at a distant municipal seat.
+
+### 2.3 User-facing display of shared-CAP municipalities
+
+This rule applies specifically to the Italian user interface. It does not change the complete geographic and administrative data stored in the CAP record.
+
+- Keep the complete list of all associated Comuni in the stored `city` field, exactly as required above. Never delete, omit or replace municipalities in the JSON or Neon record to shorten the display.
+- In compact user-facing CAP lists and summary cards, display **one or at most two representative Comuni**. Choose them consistently and deliberately, using their recognisability, significance within the CAP area and geographic representativeness. Do not choose arbitrarily and do not imply that a displayed Comune is the serving post office.
+- If the CAP covers more municipalities than are displayed, append a localized equivalent of **“and X more municipalities”**, where X is the exact number of remaining Comuni (total associated Comuni minus displayed Comuni). For example, a CAP with 21 Comuni may display two names followed by “and 19 more municipalities”.
+- If a CAP has only one Comune, display that Comune normally. If it has two, both may be displayed without a remainder phrase. For larger groups, display one or two names and calculate the remainder accurately.
+- The full municipality list must remain available in the expanded/detail view. The compact card is a summary, not a replacement for the underlying data.
+- This is a presentation-layer rule only. It does not change CAP identity, geographic scope, research coverage, fact assignment, administrative fields, `representative_place`, `representative_point`, fact priorities or the complete stored `city` value. Do not add presentation-only fields to the JSON or schema.
 
 ## 3. Italian postal and administrative verification
 
