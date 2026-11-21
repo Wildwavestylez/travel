@@ -539,3 +539,18 @@ TRAVEL má návštěvníkovi ukázat nejen **co** na mapě vidí, ale také **pr
 Turistická atrakce má svou návštěvnickou hodnotu. Historická památka má své dějiny. Přírodní lokalita má svůj vznik a ekologický význam. Tradice má svůj původ a roli v komunitě. Osobnost má konkrétní vazbu na místo. Tyto vrstvy se mohou prolínat a společně tvořit silný, samostatně ověřený příběh.
 
 **Naším cílem není vyrobit nejdelší text ani největší počet faktů. Naším cílem je vytvořit obsah, který obstojí před návštěvníkem, místním obyvatelem i člověkem, který se historií a kulturou skutečně zabývá — a který dokáže překvapit hloubkou, nikoli přeháněním.**
+
+
+## 13. Prezentační zobrazení CAP sdílených více obcemi
+
+Úplnost geografických dat a stručnost uživatelského rozhraní jsou dvě oddělené věci. Toto pravidlo platí pro italskou prezentaci CAP v aplikaci; nemění obsahové ani geografické požadavky na produkční záznam.
+
+- V JSON a databázi musí pole `city` vždy zachovat úplný seznam všech oficiálních Comuni přiřazených k danému CAP. Tento seznam se kvůli vzhledu nikdy nezkracuje.
+- V kompaktním seznamu CAP nebo souhrnné kartě zobraz jednu, maximálně dvě reprezentativní obce. Výběr musí být rozumný, konzistentní a opřený o rozpoznatelnost, význam v rámci daného CAP a geografickou reprezentativnost.
+- Za zobrazenými názvy uveď lokalizovaný ekvivalent formulace **„a dalších X obcí“**. Číslo X musí být přesný počet všech zbývajících obcí, tedy celkový počet obcí v CAP minus počet zobrazených názvů.
+- U CAP s jedinou obcí zobraz její název běžným způsobem. U dvou obcí lze zobrazit obě bez dodatku o dalších obcích.
+- Detail CAP musí nadále zpřístupnit úplný seznam všech přiřazených obcí. Zkrácená karta je pouze orientační souhrn.
+- Reprezentativní obec zobrazená v kartě není údajem o sídle obsluhující pošty, není administrativní kotvou CAP a nemění fyzické geografické pokrytí CAP.
+- Prezentační výběr nemění rešeršní rozsah: stále se zkoumá celé území CAP a všechny jeho Comuni. Nemění ani přiřazování faktů, pole `county` a `state`, `representative_place`, `representative_point` ani žádné jiné uložené údaje.
+- Nepřidávej kvůli tomuto zobrazení nová pole do JSON ani neměň schéma. Jde o pravidlo prezentační vrstvy aplikace, nikoli o nový datový model.
+
