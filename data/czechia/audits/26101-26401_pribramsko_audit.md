@@ -7,6 +7,15 @@
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
 - **Stav:** `REVIEW REQUIRED` — úvodní průzkum turistické úplnosti a základní databázové kontroly hotové; opravy a zbývající auditní oblasti jsou otevřené.
 
+
+
+## Aktuální stav auditu — poslední read-back (2026-11-21)
+
+- **36 PSČ, 269 faktů, 259 s polohou, 10 null, 0 neplatných location objektů.**
+- **28 nových Explorer faktů** doplněno do Supabase; všechny mají 7 jazykových verzí, nejméně 3 zdroje a texty delší než 350 znaků. 26 má mapový bod, 2 usedlosti jsou zatím bez přesného bodu.
+- Z původních 27 null poloh bylo vyřešeno 19; 8 původních zůstává otevřených. Celkem je nyní 10 null včetně dvou nových usedlostí.
+- Audit zůstává **REVIEW REQUIRED**. Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
+
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
 - Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 269 faktů.
@@ -88,7 +97,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** pokračovat pouze u zbývajících 12 `null` poloh; nepřidávat náhradní souřadnice bez doloženého objektu nebo výslovně označeného reprezentativního bodu.
+**Další krok:** pokračovat u 10 aktuálních `null` poloh (8 původních otevřených a 2 nové usedlosti); nepřidávat náhradní souřadnice bez doloženého objektu nebo výslovně označeného reprezentativního bodu.
 
 
 ## Pokračování — rozšířená turistická rešerše (2026-11-21)
@@ -137,7 +146,7 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 ## Korekce přiřazení podle RÚIAN (2026-11-21)
 
 - Při kontrole sousedních PSČ bylo zjištěno, že Drahenice patří do poštovní oblasti 26285, nikoli 26272. Nový záznam 26272/fact_017 o zámku Drahenice byl proto odstraněn včetně všech sedmi jazykových položek; tematika Drahenického zámku a památkové zóny je již pokryta ve správném záznamu 26285. ID ostatních faktů nebyla měněna.
-- Aktualizovaný read-back celého rozsahu: 36 PSČ, 252 faktů, 239 faktů s polohou, 13 null poloh. Tato korekce předchází duplicitě a chybnému přiřazení mezi PSČ.
+- Aktualizovaný read-back celého rozsahu: 36 PSČ, 269 faktů, 259 faktů s polohou, 10 null poloh. Tato korekce předchází duplicitě a chybnému přiřazení mezi PSČ.
 
 
 ## Pokračování — další opravy poloh a rozšíření obsahu (2026-11-21)
@@ -158,7 +167,7 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 ### Aktuální read-back celého rozsahu
 - 36 PSČ, **269 faktů**, **259 faktů s polohou**, **10 null poloh**, **0 neplatných location objektů**.
 - Z původních 27 null poloh je nyní doloženo 18; 9 zůstává otevřených, protože pro ně nebyl nalezen dostatečně přesný a obhajitelný bod.
-- Všech 24 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
+- Všech 28 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
 - Stav zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy či read-only zamčení.
 
 
@@ -208,12 +217,12 @@ Všech 28 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/
 - `26252/fact_004` — socha sv. Jana Nepomuckého ve Vysokém Chlumci: doplněno GPS 49.61755, 14.3886930556 podle regionálního inventáře MAS Sedlčansko; identita sochy ověřena v NPÚ.
 - `26244/fact_002` — kostel sv. Prokopa a Navštívení Panny Marie ve Hvožďanech: doplněno 49.5271861, 13.8051944 podle geotagu zobrazeného objektu ve Wikimedia Commons a ověřeno proti oficiálnímu popisu obce a Atlasu české architektury.
 - `26301/fact_011` — kaple Nanebevzetí Panny Marie v Budínku: doplněno 49.75568, 14.19153 podle Mapcarta/OSM; NPÚ potvrzuje umístění kaple na východním okraji Budínku.
-- Celkem je nyní doloženo 18 z původních 27 null poloh; 9 zůstává otevřených.
+- Celkem je nyní doloženo 19 z původních 27 null poloh; 8 původních zůstává otevřených. Dvě další null polohy patří nově doplněným usedlostem.
 - V 26272 byl duplicitní `fact_013` o kostele sv. Jana Křtitele sloučen do existujícího `fact_010` o kostele ve Stražišti; podrobnější architektonické informace a sedm překladů byly zachovány pod původním ID. Drahenice zůstávají pouze v PSČ 26285.
 
 ### Aktuální technický read-back
-- 36 PSČ, **265 faktů**, **256 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
-- 24/26 nových faktů má text delší než 350 znaků, nejméně 3 zdroje, platný mapový bod a kompletní překlady v 7 jazycích.
+- 36 PSČ, **269 faktů**, **259 faktů s polohou**, **10 null poloh**, **0 neplatných location objektů**.
+- 28/28 nových faktů má text delší než 350 znaků, nejméně 3 zdroje a kompletní překlady v 7 jazycích; 26 má platný mapový bod a 2 usedlosti zůstávají záměrně bez bodu do přesného ověření.
 - Počty překladů nových faktů: cs 28, de 28, en 28, es 28, fr 28, it 28, nl 28.
 - Žádné existující neprázdné polohy nebyly plošně přeměřovány; doplněny byly pouze tři původní null polohy uvedené výše.
 - Stav zůstává **REVIEW REQUIRED**. Bez publikace, změny data_version, zálohy nebo read-only zamčení.
@@ -225,8 +234,8 @@ Všech 28 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/
 - **26212/fact_005 — Rybářská bašta u Nového rybníka:** nově doplněna jako samostatná historická budova někdejšího rybářství, oddělená od zaniklé tvrze pod hladinou rybníka. Přesné stáří není v dostupných pramenech doloženo a text to výslovně přiznává. Poloha 49.7496453, 14.1431389; building; exact. Současné soukromé využití je uvedeno pouze jako omezení přístupnosti, bez propagace provozovatele.
 - **26212/fact_006 — zájezdní hostinec čp. 46:** barokní patrový dům z 18. století s mansardovou střechou, uvedený v obecním rozvojovém dokumentu jako místně významná stavba. Poloha 49.7423125, 14.1520393; building; exact. Adresa Obořiště 46, PSČ 26212.
 - U těchto dvou nových faktů jsou překlady cs/de/en/es/fr/it/nl úplné. Kontrola ID v PSČ 26212 potvrdila 6/6 unikátních ID; původní `26212/fact_004` — škola z roku 1930 — zůstal zachován a rybářská bašta má vlastní ID `fact_005`.
-- Aktuální read-back po doplnění: **36 PSČ, 267 faktů, 259 faktů s polohou, 8 null poloh, 0 neplatných location objektů**.
-- Z původních 27 null poloh je nyní vyřešeno 19; 8 zůstává otevřených. Všech 26 nových Explorer faktů má text alespoň 736 znaků, nejméně tři zdroje a úplné překlady v sedmi jazycích.
+- Aktuální read-back po doplnění: **36 PSČ, 269 faktů, 259 faktů s polohou, 10 null poloh, 0 neplatných location objektů**.
+- Z původních 27 null poloh je nyní vyřešeno 19; 8 původních zůstává otevřených. Celkem je 10 null (včetně 2 nových usedlostí). Všech 28 nových Explorer faktů má text alespoň 728 znaků, nejméně tři zdroje a úplné překlady v sedmi jazycích; 26 má mapový bod a 2 zůstávají null do geolokačního ověření.
 - Stav zůstává REVIEW REQUIRED; bez publikace, změny data_version, zálohy či read-only zamčení.
 
 
