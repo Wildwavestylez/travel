@@ -117,6 +117,25 @@ Repozitář obsahuje pravidla, schéma a společné referenční soubory. Není 
 
 ---
 
+## Provozní efektivita a ochrana Supabase I/O
+
+Tato pravidla jsou závazná pro tvorbu, rework, audit, publikaci, validaci i zálohování českých PSČ. Platí společně s konkrétními pracovními prompty. Auditní výběrová omezení se na rework nepřenášejí, ale ochrana databázového výkonu je společná pro všechny pracovní režimy.
+
+- **Přesně omez každý databázový dotaz.** Při práci s českými záznamy filtruj současně `country_code = 'CZ'` a přesný seznam cílových `postal_code`. Nečti ostatní země, nesouvisející PSČ ani celé statusové/verzovací skupiny, pokud to konkrétní úkol výslovně a odůvodněně nevyžaduje.
+- **Vyhýbej se plošnému čtení a zbytečným sloupcům.** Nepoužívej neomezené `SELECT *`, globální počty, celotabulkové agregace, stránkování přes celou tabulku ani načtení všech dat s následným filtrováním v aplikaci. Načítej pouze potřebná pole; JSONB `content` pouze pro vybrané záznamy, které se skutečně zpracovávají.
+- **Mapové body čti až po výběru záznamů.** Z `explorer_map_points` načítej pouze body patřící k již vybraným `postal_id`. Nikdy nenačítej celou tabulku mapových bodů. Respektuj složený primární klíč `(postal_id, fact_id)` a správné stránkování podle skutečné unikátní kombinace.
+- **Opakovaně používej již načtená data.** V rámci jedné relace načti společné podklady a cílový blok jednou, pokud se jejich verze nezměnila. Mechanické kontroly, validaci JSON, překladovou konzistenci a porovnání prováděj lokálně nad již načtenými daty.
+- **Zápisy omez na skutečné změny.** Nezapisuj nezměněné záznamy. Zápisy prováděj sekvenčně a pouze do přesně určených řádků. Po zápisu ověř pouze změněný řádek nebo související změněné body, ne celou tabulku. Po timeoutu nikdy neopakuj zápis naslepo; nejprve ověř stav cílové položky.
+- **Omez zbytečné síťové a API operace.** Neopakuj stejné SELECT, refresh, přesné počty, `HEAD`/count požadavky ani polling bez konkrétní potřeby. Upřednostni bezpečné dávkové načtení před mnoha jednotlivými požadavky. Respektuj limity služby a `Retry-After`; nevytvářej retry bouře ani paralelní duplicitní dotazy.
+- **Edge Functions, exporty a zálohy musí být úzce vymezené.** Funkce nesmí při práci s jedním PSČ/blokem číst celou tabulku ani všechny mapové body. Filtruj na straně databáze před stránkováním. Preview nesmí provádět širší čtení než cílený režim. Exporty a zálohy spouštěj jen na výslovný pokyn a pro přesný požadovaný rozsah.
+- **SQL sestavuj pouze podle ověřeného schématu.** Nevymýšlej názvy tabulek, sloupců, indexů, operátorů ani vztahů. Pokud není bezpečný filtr nebo struktura jistá, dotaz nespouštěj a nejprve ověř schéma.
+- **Indexy a RLS/politiky jsou chráněná infrastruktura.** Nepřidávej, nemaž ani neupravuj indexy, RLS, oprávnění, triggery nebo databázovou architekturu během běžného obsahu/reworku/auditu. Výkonnostní upozornění nejprve prověř podle reálného používání, plánů dotazů a bezpečnostního dopadu. Změny prováděj pouze jako samostatný, výslovně schválený optimalizační zásah.
+- **Žádné automatické porovnávání databází.** Supabase a Neon ani jiné databáze mezi sebou neporovnávej, pokud si to uživatel výslovně nevyžádá.
+
+**Provozní zásada:** přesně vybrat → jednou načíst → lokálně zpracovat → zapsat jen změny → ověřit jen změněné položky. Bezpečnost, správnost a povinné důkazy mají přednost před pouhým snižováním počtu volání; úspora se dosahuje odstraněním redundance, nikoli vynecháním nutného ověření.
+
+---
+
 ## 4. Povinná rešerše před psaním
 
 Před vytvořením nebo přepracováním faktů MUSÍ proběhnout strukturovaná rešerše významu konkrétního PSČ.
