@@ -178,7 +178,7 @@ async function select(pc,scroll=true){
       const item=found[0];
       if(country==='CZ'){
         if(!item.record)throw Error('PSČ '+pc+' má v Neonu pouze placeholder bez JSON.');
-        selected={...item.record,postcode:item.postcode,status:item.workflow_status,data_version:item.content_version??null,created_at:item.created_at,updated_at:item.updated_at};
+        selected={...(item.record?.content||item.record),postcode:item.postcode,status:item.workflow_status,data_version:item.content_version??null,created_at:item.created_at,updated_at:item.updated_at};
       }else{
         selected=item.record
           ? {...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record:item.record,created_at:item.created_at,updated_at:item.updated_at}
