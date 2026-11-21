@@ -9,7 +9,7 @@
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
-- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 246 faktů.
+- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 252 faktů.
 - Stav záznamů: 35 `validated`, 1 `placeholder` (26232 Pečice), 0 `published`; všechny záznamy jsou `data_version=1`.
 - Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
 
@@ -40,13 +40,13 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 
 ## F. Základní technické a datové kontroly
 - 36/36 záznamů existuje v Supabase a odpovídá vybranému rozsahu sequence.
-- 241/241 faktů má zdroj, platnou `category`, `priority` a `map_category`.
+- 252/252 faktů má zdroj, platnou `category`, `priority` a `map_category`.
 - 0 duplicitních ID v rámci záznamů; 0 duplicitních názvů faktů v auditovaném bloku.
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
 - Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
 - **Pravidla souřadnic:** pro každý fakt se používá pouze konkrétní doložený bod; \`exact\` pro ověřený objekt/adresu, \`approximate\` pro známou lokalitu s nepřesným bodem, \`area_representative\` pro reprezentativní bod rozlehlého sídla/území a \`historical_approximate\` pro historické místo s nejistou přesnou polohou. Typy jsou z řízeného slovníku \`schema.json\`. Žádný bod se nedoplňuje jen proto, aby na mapě nebylo prázdné místo; neobhajitelné polohy zůstávají \`null\`.
-- **Stav poloh:** původně 27 \`null\`; nyní doplněno 15, zbývá **12 \`null\`**. Read-back Supabase: 241 faktů, 229 s polohou, 12 bez polohy, 0 neplatných souřadnicových objektů (chybějící název/typ/accuracy/source nebo souřadnice mimo rozsah).
+- **Stav poloh:** původně 27 \`null\`; nyní doplněno 15, zbývá **12 \`null\`**. Aktuální read-back Supabase: 252 faktů, 239 s polohou, 13 bez polohy (12 původních otevřených null + 1 nový fakt bez ověřeného bodu), 0 neplatných souřadnicových objektů (chybějící název/typ/accuracy/source nebo souřadnice mimo rozsah).
 - **Doplněné body (15):**
   - \`26223/fact_011\` Na horách u Křešína — 49.802222, 13.9525; \`nature_reserve\`, \`area_representative\`; souřadnice středového bodu lokality Natura 2000 CZ0210044 (4,7059 ha), ověřeno v evropském seznamu a AOPK/ISOP. Opraven také chybný původní odkaz; nyní odkazuje na EUR-Lex.
   - \`26215/fact_002\` Psí hory u Čeliny — 49.74000, 14.33300; \`historic_mine\`, \`approximate\`; bod ložiska zlata, nikoli tvrzení o přesné poloze všech starých důlních děl.
