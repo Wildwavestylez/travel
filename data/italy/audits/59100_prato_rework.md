@@ -166,3 +166,21 @@ Read-back po druhém rozšíření potvrdil:
 - Top-level inventář obsahuje 255 unikátních URL.
 - workflow_status zůstává placeholder; bez validace a publikace.
 - Plný čtenářský audit sedmi překladů a nezávislá geodetická kontrola zůstávají součástí otevřených kontrol A–I.
+
+## 9. Čtvrté tematické doplnění — Istituto Magnolfi (21.11.2026)
+
+- fact_061 — **Il Magnolfi: l’orfanotrofio tecnologico che formò artigiani e ferrovieri**.
+- Doplněna samostatná sociálně-historická a průmyslově-vzdělávací kapitola o instituci založené Gaetanem Magnolfim v roce 1838 v bývalém karmelitánském konventu Pietà. Nešlo pouze o útulek: vzdělávání spojovalo základní výuku s praktickým výcvikem v řemeslech.
+- Od roku 1845 byly v institutu díky dohodě se železniční společností Maria Antonia zřízeny dílny pro stavbu a údržbu vozů a kolejových vozidel. Archivní prameny dokládají trvání instituce do roku 1978.
+- Fakt je oddělen od fact_023 Santa Maria della Pietà: ten popisuje mariánskou svatyni a její tradici, zatímco fact_061 se věnuje instituci sirotčince, odbornému vzdělávání a dílnám.
+- Poloha: Via Piero Gobetti 79, 43.882992, 11.105428; typ building, přesnost approximate. Adresu podporuje inventář majetku Comune di Prato; souřadnice jsou vedeny jako přibližné.
+- Obsahové zdroje: Archivio di Stato di Prato; Sistema Archivistico Toscano; Città di Prato. Zdroj souřadnic je v top-level inventáři samostatně evidován.
+
+### Read-back po fact_061
+
+- 61 master faktů.
+- 61 položek v každém ze sedmi jazyků cs,de,en,es,fr,it,nl — celkem 427 překladových položek.
+- fact_061 má tři obsahové zdroje a jeden zdroj polohy; všechny jsou přítomny v top-level inventáři.
+- Top-level inventář obsahuje 259 unikátních URL.
+- workflow_status zůstává placeholder; bez validace a publikace.
+- Nezávislá geodetická kontrola a plný čtenářský audit překladů zůstávají otevřené.
