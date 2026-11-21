@@ -45,7 +45,38 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
 - Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
-- `facts[].location=null`: po cílené opravě zbývá 26 faktů (původně 27). Doplněn `26223/fact_011` — Na horách u Křešína: reprezentativní bod území 49.802222, 13.9525, `nature_reserve`, `area_representative`; identita a charakter lokality potvrzeny AOPK/ISOP, souřadnice převzaty z oficiálního podkladu Natura 2000. Read-back potvrdil kompletní objekt polohy a povolené hodnoty. Ostatních 26 null poloh vyžaduje samostatné cílené ověření; neznámé body zůstanou null s důvodem. Existující neprázdné polohy nebyly přeměřovány.
+- **Pravidla souřadnic:** pro každý fakt se používá pouze konkrétní doložený bod; \`exact\` pro ověřený objekt/adresu, \`approximate\` pro známou lokalitu s nepřesným bodem, \`area_representative\` pro reprezentativní bod rozlehlého sídla/území a \`historical_approximate\` pro historické místo s nejistou přesnou polohou. Typy jsou z řízeného slovníku \`schema.json\`. Žádný bod se nedoplňuje jen proto, aby na mapě nebylo prázdné místo; neobhajitelné polohy zůstávají \`null\`.
+- **Stav poloh:** původně 27 \`null\`; nyní doplněno 15, zbývá **12 \`null\`**. Read-back Supabase: 241 faktů, 229 s polohou, 12 bez polohy, 0 neplatných souřadnicových objektů (chybějící název/typ/accuracy/source nebo souřadnice mimo rozsah).
+- **Doplněné body (15):**
+  - \`26223/fact_011\` Na horách u Křešína — 49.802222, 13.9525; \`nature_reserve\`, \`area_representative\`; souřadnice středového bodu lokality Natura 2000 CZ0210044 (4,7059 ha), ověřeno v evropském seznamu a AOPK/ISOP. Opraven také chybný původní odkaz; nyní odkazuje na EUR-Lex.
+  - \`26215/fact_002\` Psí hory u Čeliny — 49.74000, 14.33300; \`historic_mine\`, \`approximate\`; bod ložiska zlata, nikoli tvrzení o přesné poloze všech starých důlních děl.
+  - \`26223/fact_004\` rodný dům Josefa Slavíka, Slavíkova 8 — 49.7872950, 13.9785395; \`historic_address\`, \`exact\`; adresa domu č. p. 8 a adresní bod ověřeny.
+  - \`26262/fact_007\` hřbitov Dolní Hbity — 49.66229, 14.172363; \`cemetery\`, \`approximate\`; bod v areálu hřbitova, ne samostatný bod všech tří náhrobků.
+  - \`26284/fact_006\` lom Vachatovka, Kozárovice — 49.5563528, 14.1205111; \`quarry\`, \`approximate\`; reprezentativní bod konkrétního lomu.
+  - \`26221/fact_001\` hornická a hutní Obecnice — 49.7164181, 13.9492508; \`historic_settlement\`, \`area_representative\`; orientační bod sídla, nikoli souřadnice zaniklého dolu.
+  - \`26221/fact_002\` historické jádro Obecnice — 49.7164181, 13.9492508; \`historic_settlement\`, \`area_representative\`; reprezentativní bod historického jádra, nikoli tvrzení o přesném půdorysu roubeného statku č. p. 32.
+  - \`26223/fact_008\` Bratkovice a Dominikální Paseky — 49.78764, 13.9783736; \`postal_area\`, \`area_representative\`; reprezentativní bod poštovní oblasti 26223 u pošty Jince, protože příběh pokrývá více sídel a nemá jediný objektový bod.
+  - \`26225/fact_007\` osobnosti z Pičína — 49.7440024, 14.0585633; \`historic_settlement\`, \`area_representative\`; reprezentativní bod sídla, nikoli neověřené rodné domy.
+  - \`26244/fact_001\` historické Hvožďany — 49.52776, 13.80489; \`historic_settlement\`, \`area_representative\`; reprezentativní bod sídla pro příběh o historických cestách.
+  - \`26251/fact_003\` rybník Musík — 49.68135, 14.37081; \`pond\`, \`approximate\`; orientační bod vodní plochy.
+  - \`26251/fact_004\` historické Dublovice — 49.6701471, 14.3601008; \`historic_settlement\`, \`area_representative\`; reprezentativní bod sídla.
+  - \`26262/fact_005\` kostel sv. Jana Křtitele v Dolních Hbitech — 49.6566806, 14.1696792; \`church\`, \`exact\`; GPS bod kostela.
+  - \`26293/fact_005\` zaniklá tvrz Chlum — 49.698708, 14.379656; \`historic_fortress\`, \`historical_approximate\`; přibližná poloha historického sídla v Chlumu, nikoli přesně zaměřený půdorys tvrze.
+  - \`26301/fact_014\` Županovická plavební komora — 49.7025184, 14.3097; \`historic_waterway\`, \`approximate\`; poloha pod hladinou odvozena průsečíkem dvou směrů uvedených v potápěčském popisu (výchozí bod a parkoviště); záměrně označeno jako přibližné.
+- **Zbývajících 12 \`null\` a důvod:**
+  - \`26212/fact_003\` tvrz Obořiště — zaniklé sídlo je doloženo jen v širším historickém jádru; konkrétní parcela není bezpečně určena.
+  - \`26214/fact_005\` kostel sv. Anny — potvrzena identita kostela, ale nebyl nalezen ověřitelný objektový bod.
+  - \`26215/fact_005\` statek v Cholíně — Cholín je rozdělen mezi poštovní oblasti 26203 a 26215; konkrétní dochovaný statek rodiny Zárubů-Pfeffermannů zatím není identifikován na parcele/adrese. Není to automaticky chyba PSČ, proto zůstává bez pinu.
+  - \`26221/fact_003\` kostel sv. Šimona a Judy — NPÚ potvrzuje objekt a památkovou ochranu, ale dostupný záznam neposkytl přímé souřadnice kostela.
+  - \`26223/fact_009\` Ohrazenice — text spojuje více železnorudných a historických míst; není doložen jediný reprezentativní bod zaniklé tvrze či dolů.
+  - \`26244/fact_002\` kostel ve Hvožďanech — NPÚ potvrzuje kostel i chráněné parcely, ale bez přímého bodu; nepoužívá se střed obce jako náhrada.
+  - \`26251/fact_002\` nález měděné sekery u rybníka Vrbsko — zdrojová mapa nález zakresluje, ale bod nelze bezpečně převést na georeferencované souřadnice; nepoužívá se střed rybníka jako náhrada nálezového místa.
+  - \`26252/fact_004\` socha sv. Jana Nepomuckého — objekt je doložen, ale zatím nebyl získán spolehlivý bod sochy.
+  - \`26284/fact_002\` kostel sv. Karla Boromejského — potvrzená památka bez ověřeného objektového bodu; nepoužívá se střed Zalužan.
+  - \`26284/fact_007\` ukrytá obecní kronika — místo včelína, kde byla kronika nalezena, není určeno; pin na obecní úřad by byl zavádějící.
+  - \`26301/fact_005\` Drhovský poklad — známý je pouze obecný popis pole u zástavby, nikoli jednoznačná parcela/nálezový bod.
+  - \`26301/fact_011\` kaple v Budínku — NPÚ přesně popisuje polohu na východním okraji Budínku, ale nebyly získány ověřené souřadnice vlastní kaple; nepoužívá se střed vesnice.
+- Neprázdné polohy existující před tímto krokem nebyly plošně přeměřovány ani měněny.
 - RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; CSV fallback je dostupný. Ověřena přesná přítomnost všech 36 kódů v CSV (36/36), shoda všech 36 kódů mezi `sequence` a `groups` bez duplicit či rozdílů (36/36) a přítomnost 36/36 v Supabase. Zbývá věcný geografický cross-check místních částí a přiřazení faktů vůči RÚIAN inventáři. Doplnění bodu Na horách u Křešína bylo provedeno na základě AOPK/ISOP a oficiálního Natura 2000 souřadnicového podkladu.
 - Předběžný reklamní/propagační scan textů ve všech 7 jazycích: automatický filtr vytipoval 10 jazykových položek; všech 10 bylo ručně otevřeno. Nálezy jsou pouze neutrální popis návštěvnického provozu, naučných stezek nebo veřejných služeb; nebyla zjištěna reklama, prodejní výzva ani propagace firmy. Tím je uzavřena kontrola těchto kandidátů, nikoli celková sémantická kontrola všech překladů.\n- Neproveden AJV ani samostatný validační běh, v souladu s promptem.
 
@@ -57,4 +88,4 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** pokračovat cíleným řešením zbývajících 26 prázdných poloh podle hierarchie v Content Standardu; existující neprázdné polohy znovu neověřovat.
+**Další krok:** pokračovat pouze u zbývajících 12 `null` poloh; nepřidávat náhradní souřadnice bez doloženého objektu nebo výslovně označeného reprezentativního bodu.
