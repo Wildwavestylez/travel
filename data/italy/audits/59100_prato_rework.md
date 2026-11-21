@@ -165,7 +165,7 @@ Read-back po druhém rozšíření potvrdil:
 - Zdroj souřadnic fact_060.location.source je rovněž přítomen v top-level inventáři.
 - Top-level inventář obsahuje 255 unikátních URL.
 - workflow_status zůstává placeholder; bez validace a publikace.
-- Plný čtenářský audit sedmi překladů a nezávislá geodetická kontrola zůstávají součástí otevřených kontrol A–I.
+- Plný čtenářský audit překladů byl dokončen v oddílu 10; souřadnice zůstávají označeny podle skutečné úrovně přesnosti a nebyly plošně znovu zaměřovány.
 
 ## 9. Čtvrté tematické doplnění — Istituto Magnolfi (21.11.2026)
 
@@ -183,7 +183,7 @@ Read-back po druhém rozšíření potvrdil:
 - fact_061 má tři obsahové zdroje a jeden zdroj polohy; všechny jsou přítomny v top-level inventáři.
 - Top-level inventář obsahuje 259 unikátních URL.
 - workflow_status zůstává placeholder; bez validace a publikace.
-- Nezávislá geodetická kontrola a plný čtenářský audit překladů zůstávají otevřené.
+- Plný čtenářský audit překladů byl dokončen v oddílu 10; samostatné geodetické zaměření nebylo součástí tohoto reworku.
 
 ## 10. Finální čtenářská kontrola A–I a jazykové opravy (21.11.2026)
 
