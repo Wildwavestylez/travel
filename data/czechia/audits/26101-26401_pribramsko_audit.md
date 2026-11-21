@@ -11,10 +11,36 @@
 
 ## Aktuální stav auditu — poslední read-back (2026-11-21)
 
-- **36 PSČ, 269 faktů, 259 s polohou, 10 null, 0 neplatných location objektů.**
-- **28 nových Explorer faktů** doplněno do Supabase; všechny mají 7 jazykových verzí, nejméně 3 zdroje a texty delší než 350 znaků. 26 má mapový bod, 2 usedlosti jsou zatím bez přesného bodu.
-- Z původních 27 null poloh bylo vyřešeno 19; 8 původních zůstává otevřených. Celkem je nyní 10 null včetně dvou nových usedlostí.
-- Audit zůstává **REVIEW REQUIRED**. Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
+- **36 PSČ, 269 faktů, 269 faktů s polohou, 0 null, 0 neplatných location objektů.**
+- **28 nových Explorer faktů** má kompletní překlady cs/de/en/es/fr/it/nl, nejméně 3 zdroje a texty delší než 350 znaků; všech 28 má nyní mapový bod.
+- Vyřešeno všech **27 původních null poloh** a také 2 později přidané null polohy u usedlostí Obořiště čp. 4 a Lhotka čp. 2. Aktuálně nezůstává žádná null poloha.
+- Read-back překladů: 269/269 faktů v každém ze 7 jazyků; duplicitní ID 0.
+- Audit zůstává **REVIEW REQUIRED** kvůli dalším otevřeným oblastem (sémantika překladů, geografický RÚIAN cross-check, kategorie a normalizace starších zdrojových referencí). Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
+
+## Uzavření všech null poloh — poslední kolo (2026-11-21)
+
+Aktuální Supabase read-back po posledních opravách: **36 PSČ, 269 faktů, 269/269 s polohou, 0 null, 0 neplatných location objektů**. Všech 27 původních null poloh je vyřešeno; navíc byly vyřešeny i dvě později přidané usedlosti. Níže je evidováno posledních 10 doplnění:
+
+- **26212/fact_007 — Usedlost čp. 4 v Obořišti:** 49.74448217, 14.15099315; `building`, `exact`. Bod byl dopočten triangulací čtyř nezávislých vzdáleností z referenčních objektů a parcel (81,47 m; 61,29 m; 55,79 m; 48,36 m); reziduum výpočtu je přibližně 0,04 m. Adresa Obořiště 4, 262 12.
+- **26214/fact_005 — Kostel sv. Anny v Hřiměždicích:** 49.68685, 14.27491; `church`, `approximate`. Orientační bod na návsi, kde Mapcarta eviduje kostel sv. Anny v bezprostředním okolí; nejde o tvrzení o přesném půdorysu stavby.
+- **26215/fact_005 — Statek rodiny Zárubů-Pfeffermannů v Cholíně:** 49.72033982, 14.33087939; `historic_settlement`, `area_representative`. Reprezentativní bod části Cholína spadající do PSČ 26215, ukotvený na adresním bodě Cholín ev. č. 129. Není vydáván za přesný bod historického statku; přesná parcela statku zůstává neurčena.
+- **26221/fact_003 — Kostel sv. Šimona a Judy v Obecnici:** 49.716318, 13.946999; `church`, `approximate`. Bod vychází z bezprostředně sousedícího kříže; NPÚ potvrzuje identitu a památkovou ochranu kostela.
+- **26223/fact_009 — Ohrazenice, doly a zaniklá tvrz:** 49.78703492, 13.95971009; `historic_settlement`, `area_representative`. Reprezentativní bod sídla pro příběh zahrnující více hornických a historických lokalit, nikoli přesná poloha tvrze nebo jednotlivých dolů.
+- **26251/fact_002 — Měděná sekera z rybníka Vrbsko:** 49.6603804, 14.3709198; `pond`, `area_representative`. Reprezentativní bod rybníka; Mapcarta jej umisťuje 1¼ km jihovýchodně od kostela Nejsvětější Trojice v Dublovicích a archeologická studie obsahuje mapový zákres nálezu. Přesný nálezový bod není tvrzen.
+- **26284/fact_002 — Kostel sv. Karla Boromejského v Zalužanech:** 49.54317, 14.08520; `church`, `approximate`. Odvozeno od bodu Zalužanského zámku a doložené polohy kostela 110 m východně od něj.
+- **26284/fact_007 — Kronika ukrytá před okupanty v Kozárovicích:** 49.55552258, 14.10648216; `historic_settlement`, `area_representative`. Reprezentativní bod sídla, nikoli místo včelína; přesná poloha včelína zůstává neznámá.
+- **26301/fact_005 — Drhovský poklad:** 49.73588585, 14.22959702; `archaeological_site`, `historical_approximate`. Orientační bod v oblasti pole Husova u Drhovy čp. 48 podle historického popisu; přesná parcela nálezu není potvrzena.
+- **26301/fact_015 — Usedlost čp. 2 v Lhotce:** 49.75654385, 14.15516218; `building`, `approximate`. Bod je odvozen jako střed mezi ověřenými adresními body Lhotka 1 a Lhotka 3; RÚIAN potvrzuje usedlost čp. 2 na stavební parcele st. 10. Nejde o přesný půdorys domu.
+
+Všech deset položek má vyplněné povinné atributy `location`; přesnost je výslovně rozlišena podle síly podkladů. Při těchto opravách nebyly plošně měněny žádné dříve neprázdné polohy. Záznam `26251/fact_002` měl také nahrazen nevyřešený alias `src_axe` skutečnými bibliografickými URL.
+
+### Oddělené otevřené kontroly
+
+- Sémantická kontrola sedmi jazykových verzí napříč celým blokem není uzavřena.
+- Geografický RÚIAN cross-check všech místních částí a jednotlivých faktů zůstává samostatnou kontrolou.
+- Ve starších faktech zůstává 28 zdrojových položek ve formě interních aliasů nebo JSON serializovaných řetězců; jde o samostatný úkol normalizace zdrojů, nikoli o chybějící polohy.
+- Stav celého auditu zůstává **REVIEW REQUIRED**. Bez publikace, změny `data_version`, zálohy nebo read-only zamčení.
+
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
@@ -55,7 +81,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
 - Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
 - **Pravidla souřadnic:** pro každý fakt se používá pouze konkrétní doložený bod; \`exact\` pro ověřený objekt/adresu, \`approximate\` pro známou lokalitu s nepřesným bodem, \`area_representative\` pro reprezentativní bod rozlehlého sídla/území a \`historical_approximate\` pro historické místo s nejistou přesnou polohou. Typy jsou z řízeného slovníku \`schema.json\`. Žádný bod se nedoplňuje jen proto, aby na mapě nebylo prázdné místo; neobhajitelné polohy zůstávají \`null\`.
-- **Stav poloh:** původně 27 `null`; nyní doplněno **19 původních poloh**, 8 původních null zůstává otevřených. Navíc jsou 2 nově doplněné usedlosti záměrně bez polohy do ověření konkrétního bodu. Aktuální read-back Supabase: 269 faktů, 259 s polohou, 10 bez polohy, 0 neplatných souřadnicových objektů.
+- **Stav poloh:** všech **27/27 původních null** a obě později vzniklé null polohy jsou nyní vyřešeny. Aktuální read-back Supabase: 269 faktů, 269 s polohou, 0 bez polohy, 0 neplatných souřadnicových objektů.
 - **Doplněné body (15):**
   - \`26223/fact_011\` Na horách u Křešína — 49.802222, 13.9525; \`nature_reserve\`, \`area_representative\`; souřadnice středového bodu lokality Natura 2000 CZ0210044 (4,7059 ha), ověřeno v evropském seznamu a AOPK/ISOP. Opraven také chybný původní odkaz; nyní odkazuje na EUR-Lex.
   - \`26215/fact_002\` Psí hory u Čeliny — 49.74000, 14.33300; \`historic_mine\`, \`approximate\`; bod ložiska zlata, nikoli tvrzení o přesné poloze všech starých důlních děl.
@@ -92,12 +118,12 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 ## Otevřené kroky
 1. Doplnit a přeložit zásadní chybějící příběhy v 26101 (Svatá Hora, Drtikol; rozhodnout a doložit Jan Drda).
 2. Doplnit čtyři české master texty pod 350 znaků a synchronizovat de/en/es/fr/it/nl.
-3. Prověřit 27 null poloh a doplnit jen doložitelné body.
+3. **Null polohy: 0 otevřených.** Zachovat rozlišení `exact` / `approximate` / `area_representative` / `historical_approximate` a při dalších opravách neumisťovat přesný objekt na pouhý střed obce.
 4. Dokončit tematický/geografický cross-check RÚIAN CSV, skupin a případných překryvů/duplicit.
 5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** pokračovat u 10 aktuálních `null` poloh (8 původních otevřených a 2 nové usedlosti); nepřidávat náhradní souřadnice bez doloženého objektu nebo výslovně označeného reprezentativního bodu.
+**Další krok:** dokončit sémantickou kontrolu překladů, geografický cross-check přiřazení vůči RÚIAN a samostatnou normalizaci starších zdrojových referencí. Null polohy jsou uzavřené.
 
 
 ## Pokračování — rozšířená turistická rešerše (2026-11-21)
