@@ -79,7 +79,7 @@ Zkontroluj přiměřeně dostupným oficiálním nebo důvěryhodným zdrojem:
 
 Pole `city` se nadále řídí `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`: má vyjadřovat Comune/Comuni přiřazené k CAP, nikoli Comune, ve kterém náhodou stojí pošta. Audit však kontroluje především to, zda uvedené názvy odpovídají správné oblasti a neobsahují zjevný nesmysl; nevyžaduje dokazovat úplnost každé položky seznamu.
 
-Poštovní pobočky a jejich adresy používej jen jako podpůrnou indicii, pokud pomáhají ověřit konkrétní pochybnost. Samy o sobě neurčují hodnotu `city` ani hranice CAP. Změny a aktualizace Poste Italiane prověřuj cíleně tehdy, pokud existuje konkrétní informace, že se mohou dotýkat auditovaného CAP; neblokuj audit plošným dohledáváním všech oznámení nebo každé drobné změny.
+Poste Italiane používej pouze k ověření samotného CAP a jeho geografického přiřazení. Nezjišťuj, kdo CAP obsluhuje, stav nebo otevírací dobu poboček, nabízené poštovní služby ani doručovací trasy či režimy; tyto informace nejsou obsahem Europe Exploreru a jsou mimo rozsah auditu. Změny CAP prověřuj cíleně tehdy, pokud existuje konkrétní informace, že se mohou dotýkat auditovaného CAP; neblokuj audit plošným dohledáváním všech oznámení nebo každé drobné změny.
 
 Oprav pouze zjevnou, doloženou a významnou chybu, například nesprávnou Regione, úplně jinou provincii nebo cizí Comune. U drobné nejistoty, která nemění správné celkové geografické zařazení, ponech záznam beze změny. Označení `REVIEW REQUIRED` použij jen tehdy, když nelze rozhodnout ani základní geografickou správnost nebo existuje konkrétní důkaz závažného nesouladu.
 
