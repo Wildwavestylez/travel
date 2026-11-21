@@ -405,9 +405,12 @@ Nezařazuj jako samostatná trvalá fakta:
 - obecné informace o regionu bez konkrétní vazby na CAP;
 - duplicity stejné atrakce nebo příběhu v sousedních CAP;
 - běžné hroby a hřbitovy, pokud nemají mimořádnou doloženou památkovou, uměleckou, historickou nebo návštěvnickou hodnotu;
-- trasy a rozsáhlá témata jako bodové faktum, pokud je nelze podle schématu smysluplně lokalizovat.
+- trasy a rozsáhlá témata jako bodové faktum, pokud je nelze podle schématu smysluplně lokalizovat;
+- informace o tom, která pošta nebo provozovatel CAP obsluhuje, zda je pobočka otevřená či zavřená, její otevírací doba, nabídka služeb nebo způsob doručování.
 
 Podnik nebo výrobek lze zahrnout pouze tehdy, když je předmětem doloženého historického, průmyslového, kulturního nebo technického dědictví, veřejně přístupného muzea/návštěvnického místa nebo jiného samostatně významného příběhu. Samotná komerční existence nestačí.
+
+Poštovní údaje slouží pouze k ověření samotného CAP a jeho geografického přiřazení. Nejsou obsahem Europe Exploreru; podrobnosti o pobočkách, obsluze, provozu a doručování se nevyhledávají ani neukládají.
 
 Krátká kontextová zmínka o externím místě je přípustná, pokud pomáhá vysvětlit faktum; nesmí však vytvářet dojem, že externí místo patří do tohoto CAP.
 
