@@ -16,7 +16,7 @@
     "geographic_test_data": true,
     "postcode_conflict": false,
     "access_point_verified": false,
-    "delivery_office_note": "Doručovací pošta je Predmier (pobočka Predmier, adresa č. 19). PSČ 01351 se používá pro Predmier včetně osady Starovec a pro obec Maršová-Rašov. Pole city uvádí Predmier podle fyzického umístění doručovací pošty. Přesný vjezd či přístupový bod nebyl dostatečně ověřen, proto access_point zůstává null.",
+    "delivery_office_note": "Doručovací pošta je Predmier (pobočka Predmier, adresa č. 19). PSČ 01351 se používá pro obec Predmier a obec Maršová-Rašov. Pole city uvádí Predmier podle fyzického umístění doručovací pošty. Přesný vjezd či přístupový bod nebyl dostatečně ověřen, proto access_point zůstává null.",
     "postcode_authority": "Slovenská pošta",
     "postcode_source_dataset": "Slovenská pošta – oficiální vyhledávání PSČ a záznam pobočky Predmier; registr obcí a oficiální obecní adresy",
     "postcode_source_checked_at": "2026-11-21",
@@ -433,6 +433,27 @@
         "accuracy": "area_representative",
         "source": "https://mapcarta.com/18461458"
       }
+    },
+    {
+      "id": "fact_020",
+      "title": "Drobné sakrální památky Predmiera",
+      "text": "Obecní památkový přehled uvádí cestní kapli Panny Marie z druhé poloviny 19. století a sochu sv. Vendelína z počátku 19. století; památkový soupis eviduje také sochu sv. Jana Nepomuckého. Přesné body těchto drobných objektů nejsou v použitých mapových zdrojích potvrzeny.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://www.enviroportal.sk/eia/dokument/231190",
+        "https://mapcarta.com/18461740"
+      ],
+      "location": {
+        "name": "Predmier – reprezentativní bod pro drobné sakrální památky obce",
+        "lat": 49.1981,
+        "lon": 18.53188,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18461740"
+      }
     }
   ],
   "sources": [
@@ -736,6 +757,11 @@
           "id": "fact_019",
           "title": "Socha sv. Huberta v dolině Rašova",
           "text": "Na návrší Kočacie v Rašovské dolině byla roku 1997 postavena a vysvěcena socha sv. Huberta, iniciovaná místním mysliveckým sdružením. Jde o drobný lesní orientační bod a připomínku místní myslivecké tradice; přesný mapový bod sochy není v dostupných zdrojích potvrzen."
+        },
+        {
+          "id": "fact_020",
+          "title": "Drobné sakrální památky Predmiera",
+          "text": "Obecní památkový přehled uvádí cestní kapli Panny Marie z druhé poloviny 19. století a sochu sv. Vendelína z počátku 19. století; památkový soupis eviduje také sochu sv. Jana Nepomuckého. Přesné body těchto drobných objektů nejsou v použitých mapových zdrojích potvrzeny."
         }
       ]
     },
@@ -836,6 +862,11 @@
           "id": "fact_019",
           "title": "Statue des heiligen Hubertus im Rašov-Tal",
           "text": "Auf der Anhöhe Kočacie im Rašov-Tal wurde 1997 eine Statue des heiligen Hubertus errichtet und geweiht, angeregt vom örtlichen Jagdverein. Sie erinnert an die lokale Jagdtradition; der genaue Kartenpunkt ist nicht bestätigt."
+        },
+        {
+          "id": "fact_020",
+          "title": "Kleine Sakraldenkmäler von Predmier",
+          "text": "Die kommunale Denkmalliste nennt eine Wegkapelle der Jungfrau Maria aus der zweiten Hälfte des 19. Jahrhunderts und eine Statue des heiligen Wendelin vom Anfang des 19. Jahrhunderts; das Denkmalverzeichnis führt auch eine Statue des heiligen Johannes Nepomuk."
         }
       ]
     },
@@ -936,6 +967,11 @@
           "id": "fact_019",
           "title": "Statue of St Hubert in the Rašov Valley",
           "text": "A statue of St Hubert was erected and consecrated on Kočacie hill in the Rašov Valley in 1997, at the initiative of the local hunting association. It is a small woodland landmark recalling the area’s hunting tradition; its exact map point is unconfirmed."
+        },
+        {
+          "id": "fact_020",
+          "title": "Small sacred monuments of Predmier",
+          "text": "The municipal heritage overview lists a roadside chapel of the Virgin Mary from the second half of the 19th century and a statue of St Wendelin from the early 19th century; the heritage register also records a statue of St John of Nepomuk."
         }
       ]
     },
@@ -1036,6 +1072,11 @@
           "id": "fact_019",
           "title": "Estatua de San Huberto en el valle de Rašov",
           "text": "En 1997 se erigió y bendijo una estatua de San Huberto en la colina Kočacie, en el valle de Rašov, por iniciativa de la asociación local de cazadores. Es un pequeño hito forestal que recuerda la tradición cinegética local."
+        },
+        {
+          "id": "fact_020",
+          "title": "Pequeños monumentos religiosos de Predmier",
+          "text": "El inventario municipal menciona una capilla junto al camino dedicada a la Virgen María, de la segunda mitad del siglo XIX, y una estatua de San Vendelino de comienzos del XIX; el registro también incluye una estatua de San Juan Nepomuceno."
         }
       ]
     },
@@ -1136,6 +1177,11 @@
           "id": "fact_019",
           "title": "Statue de saint Hubert dans la vallée de Rašov",
           "text": "Une statue de saint Hubert fut érigée et bénie en 1997 sur la colline Kočacie, dans la vallée de Rašov, à l’initiative de l’association locale de chasse. Elle rappelle la tradition cynégétique du lieu ; son point exact n’est pas confirmé."
+        },
+        {
+          "id": "fact_020",
+          "title": "Petits monuments religieux de Predmier",
+          "text": "L’inventaire communal mentionne une chapelle routière dédiée à la Vierge Marie, de la seconde moitié du XIXe siècle, et une statue de saint Wendelin du début du XIXe siècle ; le registre recense aussi une statue de saint Jean Népomucène."
         }
       ]
     },
@@ -1236,6 +1282,11 @@
           "id": "fact_019",
           "title": "Statua di sant’Uberto nella valle di Rašov",
           "text": "Nel 1997 fu eretta e consacrata una statua di sant’Uberto sulla collina Kočacie, nella valle di Rašov, su iniziativa dell’associazione venatoria locale. È un piccolo punto di riferimento nel bosco che ricorda la tradizione venatoria locale."
+        },
+        {
+          "id": "fact_020",
+          "title": "Piccoli monumenti sacri di Predmier",
+          "text": "L’inventario comunale cita una cappella votiva della Vergine Maria della seconda metà del XIX secolo e una statua di san Vendelino dei primi anni del XIX secolo; il registro include anche una statua di san Giovanni Nepomuceno."
         }
       ]
     },
@@ -1336,6 +1387,11 @@
           "id": "fact_019",
           "title": "Beeld van Sint-Hubertus in de Rašov-vallei",
           "text": "Op de heuvel Kočacie in de Rašov-vallei werd in 1997 op initiatief van de plaatselijke jachtvereniging een beeld van Sint-Hubertus opgericht en ingewijd. Het is een klein bospunt dat de lokale jachttraditie herinnert; de exacte kaartlocatie is niet bevestigd."
+        },
+        {
+          "id": "fact_020",
+          "title": "Kleine religieuze monumenten van Predmier",
+          "text": "Het gemeentelijke erfgoedoverzicht vermeldt een wegkapel van de Maagd Maria uit de tweede helft van de 19e eeuw en een beeld van Sint-Wendelin uit het begin van de 19e eeuw; het erfgoedregister vermeldt ook een beeld van Sint-Jan Nepomuk."
         }
       ]
     }
