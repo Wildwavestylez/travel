@@ -129,7 +129,7 @@ Schéma ani lifecycle databáze se neměnily.
 - Odstraněny tři soft hyphens z českých překladů `fact_008`, `fact_052` a `fact_054`.
 - U nových faktů byly zdroje souřadnic odděleny od obsahových zdrojů a zapsány do `facts[].location.source` i top-level inventáře.
 
-### Opakovaná strukturální kontrola 58 faktů / 406 překladů
+### Opakovaná strukturální kontrola 59 faktů / 413 překladů
 
 Read-back po druhém rozšíření potvrdil:
 
