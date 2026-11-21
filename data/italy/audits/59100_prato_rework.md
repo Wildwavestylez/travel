@@ -40,23 +40,25 @@
 
 Databázový read-back po provedených změnách potvrdil:
 
-- 59 master faktů, unikátní ID `fact_001` až `fact_059`.
-- 7 jazyků: `cs,de,en,es,fr,it,nl`; každý obsahuje přesně 59 položek.
-- Celkem 413 překladových položek; žádný prázdný překlad.
-- Italský mirror odpovídá masteru u všech 59 faktů.
+- 61 master faktů, unikátní ID `fact_001` až `fact_061`.
+- 7 jazyků: `cs,de,en,es,fr,it,nl`; každý obsahuje přesně 61 položek.
+- Celkem 427 překladových položek; žádný prázdný překlad.
+- Italský mirror odpovídá masteru u všech 61 faktů.
 - Pořadí a ID překladů odpovídají pořadí a ID master faktů.
-- Všechny master texty splňují minimální délku 350 znaků.
+- Všech 61 italských master textů splňuje minimální délku 350 znaků.
 - Všechny kategorie, mapové kategorie, typy lokací a přesnosti lokací odpovídají enumům aktuálního `schema.json`.
-- Všech 59 faktů má lokaci s číselnými souřadnicemi, platným rozsahem a zdrojem.
+- Všech 61 faktů má lokaci s číselnými souřadnicemi, platným rozsahem a zdrojem.
 - Všechny zdroje odkazované z `facts[].sources` a `facts[].location.source` jsou v top-level `sources[]`.
-- Top-level inventář má po deduplikaci 251 unikátních URL; žádné duplicitní URL.
+- Top-level inventář má po deduplikaci 259 unikátních URL; žádné duplicitní URL.
 - Žádné chybějící povinné root pole; JSONB neobsahuje zakázaná root pole `status` ani `data_version`.
-- Finální scan všech 413 překladových položek potvrdil 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků.
+- Finální scan všech 427 překladových položek potvrdil 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků.
 
 ### Geografické poznámky
 
 - `fact_029` Teatro Fabbricone a `fact_038` Il Fabbricone mají shodné souřadnice, protože popisují dvě různé, ale fyzicky propojené stránky téhož průmyslového komplexu. Nejde o duplicitní příběhy ani duplicitní faktové texty; je třeba rozhodnout, zda pro mapové zobrazení ponechat společný bod.
 - `fact_047` je bod reprezentující archeologickou oblast, nikoli geodeticky přesný bod jedné stavby.
+- `fact_059` je reprezentativní bod oblasti Macrolotto Zero, nikoli přesná hranice čtvrti.
+- `fact_060` a `fact_061` mají přibližnou polohu (`approximate`), nikoli deklarovanou geodetickou přesnost.
 - Strukturální přítomnost souřadnic a zdroje sama o sobě neznamená nové nezávislé geodetické ověření každého ze všech 59 bodů.
 
 ## 3. Reklama, zdroje a CAP metadata
@@ -69,17 +71,17 @@ Databázový read-back po provedených změnách potvrdil:
 
 ## 4. Stav kontrol A–I
 
-| Oblast | Průběžný stav | Poznámka |
+| Oblast | Výsledek | Poznámka |
 |---|---|---|
-| A — tematická úplnost | IN PROGRESS | Doplněny Gonfienti, Cascine di Tavola, Villa del Palco a Macrolotto Zero; tematické hledání celého území ještě není uzavřeno. |
-| B — geografická plausibilita | IN PROGRESS | Všechny body mají lokaci a zdroj; úplná nezávislá revize každého bodu ještě není uzavřena. |
-| C — geografické přiřazení | IN PROGRESS | Nové body jsou doloženy v Comune di Prato; závěrečný průchod všech 59 přiřazení zbývá. |
-| D — duplicity | STRUCTURAL PASS | Žádné duplicitní názvy ani texty; společný bod Fabbricone je vysvětlen výše. |
-| E — sémantické kategorie | STRUCTURAL PASS | Žádné neplatné enumy; zbývá závěrečné ruční posouzení všech hraničních případů. |
-| F — překlady | STRUCTURAL PASS | 413/413 položek, italské mirrory 59/59; žádné prázdné nebo krátké texty ani skryté znaky; úplný čtenářský audit všech sedmi jazyků ještě není uzavřen. |
-| G — JSON a schéma | PASS (průběžný read-back) | Struktura, ID, povinná pole a enumy prošly kontrolou. |
-| H — souřadnice | IN PROGRESS | Souřadnice a zdroje jsou přítomny; úplné nezávislé přeměření všech bodů nebylo provedeno. |
-| I — reklama a cílená factual kontrola | IN PROGRESS | Reklamní scan bez potvrzené reklamy; cílené ověření všech významných tvrzení ještě pokračuje. |
+| A — zásadní tematická úplnost | PASS | Srovnání se současnými oficiálními turistickými a muzejními přehledy Prata potvrzuje pokrytí hlavních dominant: Duomo, Castello dell’Imperatore, Palazzo Pretorio, Museo del Tessuto, Centro Pecci, Palazzo Datini, Gonfienti, hlavní sakrální a průmyslové dědictví. Nebyla zjištěna další zásadní mezera podle užšího auditního prahu. |
+| B — CAP a správní plausibilita | REVIEW REQUIRED | Oficiální seznam Poste Italiane v8 (20. 4. 2026) potvrzuje 59100 jako městský CAP Prata; ISTAT potvrzuje Comune di Prato, Provincia di Prato a Toscana. Třetí publikace změn CAP 2026 však oznámila zamýšlené změny od 16. 11. 2026 s podmínkou připomínek; dostupná stránka neobsahuje potvrzení skutečného provedení ani změnový seznam, ZIP se nepodařilo stáhnout. Nelze proto uzavřít, zda se 59100 této změny netýká. |
+| C — geografické přiřazení | PASS | Přehled všech 61 faktů neodhalil cizí Comune ani zjevně nesprávné přiřazení mimo Comune di Prato. city=Prato, county=Provincia di Prato, state=Toscana odpovídají doloženému městskému CAP. |
+| D — duplicity | PASS | 0 duplicitních ID, názvů a master textů. Jediná shodná dvojice souřadnic je fact_029 a fact_038: dvě odlišná fakta o propojeném komplexu Fabbricone; sdílený bod je záměrný a zdokumentovaný. |
+| E — kategorie a mapová klasifikace | PASS | 0 neplatných hodnot category, priority, map_category, location.type nebo location.accuracy; ruční přehled názvů a primárních předmětů neodhalil zjevnou sémantickou záměnu. |
+| F — překlady | REVIEW REQUIRED | Strukturálně 427/427 položek, 61 v každém jazyce; ID a pořadí odpovídají masteru, italské mirrory 61/61, 0 prázdných polí, 0 poškozených skrytých znaků a 0 přesných kopií italského textu v cizích jazycích. Opravena jedna gramatická chyba ve francouzském titulku fact_057. Kompletní čtenářský test významu a lokálního kontextu všech 427 překladů ale dosud nebyl proveden; F proto nelze uzavřít jako plný PASS. |
+| G — JSON a technická konzistence | PASS (strukturální SQL kontrola) | Root klíče, povinná pole, vnořené tvary, zdrojové objekty, typy, enumy, souřadnice, ID a pořadí prošly cílenými SQL kontrolami proti aktuálnímu schématu. Nebyl spuštěn externí JSON-Schema validátor nad exportovaným celým dokumentem; výsledek je proto označen jako strukturální PASS, nikoli jako výsledek samostatného validačního balíčku. |
+| H — souřadnice | PASS v rozsahu auditu | 61/61 lokací je neprázdných, číselných, v platném rozsahu a má zdroj; nebyl zjištěn konkrétní důkaz chybného pinu. Neprovádělo se zakázané plošné přeměřování existujících souřadnic. |
+| I — věcné vady a reklama | PASS v rozsahu auditu | Nebyla potvrzena reklama, affiliate, sponzoring, prodejní CTA ani SEO výplň. Nálezy slovních kořenů acquista/compr odpovídají historickým nákupům; rezervační výrazy se objevují v běžném popisu návštěv a knih. Nové zdroje k fact_060 a fact_061 podporují uvedené hlavní údaje. |
 
 ## 5. Ochranné hranice
 
@@ -87,7 +89,7 @@ Databázový read-back po provedených změnách potvrdil:
 - Nebyla provedena publikace, změna na `validated`, záloha ani read-only lock.
 - Nebylo změněno schéma ani lifecycle databáze.
 - Nové a opravené texty byly uloženy do Neonu; po každém zápisu proběhl read-back.
-- Tento dokument **není finální auditní PASS**. Uzavření A–I nastane až po dokončení otevřených kontrol a výslovném zaznamenání jejich výsledků.
+- Tento dokument **není finální auditní PASS**. Pracovní výsledek je REVIEW REQUIRED: otevřené zůstávají B (potvrzení dopadu třetí publikace CAP 2026 na 59100), F (čtenářský test všech 427 překladů) a formální lifecycle podmínka, protože databázový workflow_status stále zůstává placeholder, nikoli validated. Stav nebyl automaticky změněn.
 
 
 ## 6. Sjednocení pravidel poštovního rozsahu (21.11.2026)
@@ -184,3 +186,42 @@ Read-back po druhém rozšíření potvrdil:
 - Top-level inventář obsahuje 259 unikátních URL.
 - workflow_status zůstává placeholder; bez validace a publikace.
 - Nezávislá geodetická kontrola a plný čtenářský audit překladů zůstávají otevřené.
+
+## 10. Průběžný audit A–I a oprava překladu (21.11.2026)
+
+### Potvrzené výsledky
+- A: porovnání s oficiálním turistickým přehledem Comune/Prato Turismo, přehledem muzeí a seznamem hlavních městských cílů neodhalilo chybějící zásadní dominantu podle užšího auditního prahu.
+- B: Poste Italiane, seznam CAP/provincií v8 z 20. 4. 2026, uvádí 59100 jako jediný městský CAP Prata. Aktuální ISTAT klasifikace potvrzuje Comune di Prato a Provincia di Prato; Regione je Toscana. Otevřená zůstává třetí publikace změn CAP 2026.
+- C: přehled všech 61 faktových lokalit neodhalil přiřazení do jiného Comune. Reprezentativní bod je Piazza del Duomo; access_point=null je schématem povolený a access_point_verified=false je konzistentní s neověřeným legacy navigačním bodem.
+- D: žádná duplicitní ID, názvy ani texty. Shodné souřadnice fact_029/fact_038 jsou záměrné pro dva samostatné příběhy propojeného Fabbricone.
+- E: všechny kontrolované kategorie a mapové hodnoty jsou platné podle aktuálního schématu.
+- G: přesná sada root klíčů odpovídá 13 definovaným polím; bez extra root klíčů. Všechny fact objekty mají 8 očekávaných klíčů, location objekty 7, source objekty přesně 3 a translated fact objekty přesně 3. Všechny kontrolované enumy jsou platné.
+- H: 61/61 lokací má neprázdné souřadnice v platném rozsahu a samostatný zdroj polohy; nebyl zjištěn konkrétní důvod pro přesun existujícího bodu.
+- I: reklamní scan neodhalil žádnou potvrzenou propagaci. Výrazy související s nákupem odkazují na historické transakce, nikoli na prodejní výzvy. Nejsou vloženy URL ani affiliate CTA do faktových textů.
+
+### Strukturální read-back po posledních změnách
+- workflow_status=placeholder; 61 master faktů.
+- 61 překladů v každém z cs,de,en,es,fr,it,nl — celkem 427.
+- Shodné ID a pořadí ve všech sedmi jazycích.
+- Italský mirror 61/61; 0 krátkých italských masterů pod 350 znaků.
+- 0 prázdných překladových polí; 0 soft hyphenů, zero-width znaků nebo replacement znaků.
+- 0 chybějících zdrojových vazeb; 259 unikátních top-level URL.
+- 0 neplatných faktových a lokalizačních enumů; 0 neplatných nebo chybějících souřadnic.
+- 0 duplicitních faktových ID, názvů a master textů.
+
+### Provedená bezpečná překladová oprava
+- fact_057, translations.fr.title: opraven rod ve spojení „l’ancien léproserie“ na gramaticky správné „l’ancienne léproserie“. Text překladu, ID, pořadí a ostatní jazykové verze zůstaly beze změny.
+- Neon read-back potvrdil opravený titulek, právě jedno ID fact_057, shodu pořadí francouzských ID s masterem a nezměněný francouzský text. workflow_status zůstal placeholder.
+
+### Otevřené položky
+1. Potvrdit, zda třetí oznámení Poste Italiane pro změny CAP 2026 skutečně vstoupilo v účinnost a zda zasáhlo 59100. Oznámení na oficiální stránce uvádí zamýšlený začátek 16. 11. 2026, ale připouští odklad při připomínkách a samostatné oznámení skutečného data; změnový ZIP se nepodařilo získat.
+2. Provést plný čtenářský test všech 427 překladů podle pěti otázek z Content Standardu. Dosavadní kontrola potvrzuje strukturu, jazykové oddělení a správné párování; sama o sobě nenahrazuje čtenářské posouzení všech textů.
+3. Před formálním uzavřením auditu musí být podle lifecycle dokončený rework ve stavu workflow_status=validated. Tento auditní běh stav nezměnil. Není provedena publikace, záloha ani read-only lock.
+
+### Zdroje pro auditní rozhodnutí
+- Poste Italiane — https://www.poste.it/cap/
+- Poste Italiane — https://business.poste.it/business/files/1473806071814/elenco-cap-province-afferenti.pdf
+- ISTAT — https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/
+- Prato Turismo — https://www.pratoturismo.it/it/cosa/luoghi-da-vedere/comune/prato/
+- Prato Turismo — https://www.pratoturismo.it/it/cosa/luoghi-da-vedere/musei/
+- Regione Toscana — https://www.regione.toscana.it/-/musei-prato
