@@ -31,16 +31,16 @@ Před auditem načti aktuální:
 - `record` — celý italský záznam jako JSONB;
 - `created_at`, `updated_at`.
 
-JSONB `record` obsahuje výhradně pole povolená aktuálním `data/italy/schema.json`. **Nesmí obsahovat kořenová pole `status` ani `data_version`.** Provozní stav je výhradně v databázovém sloupci `workflow_status`. Před každým blokem ověř aktuální schéma tabulky a přesný inventář přímo v Neonu. Pro čtení používej read-only přístup; schválené opravy ukládej pouze oprávněným Neon připojením.
+JSONB `record` obsahuje výhradně pole povolená aktuálním `data/italy/schema.json`, včetně kořenových polí `status` a `data_version`. Pole `record.status` musí přesně odpovídat databázovému `workflow_status`; `record.data_version` vyjadřuje verzi obsahu. Před každým blokem ověř aktuální schéma tabulky a přesný inventář přímo v Neonu. Pro čtení používej read-only přístup; schválené opravy ukládej pouze oprávněným Neon připojením.
 
 Audituj celý výslovně zadaný blok, ne náhodný vzorek. Ověř přesný seznam a počet záznamů proti dostupným řádkům Neonu a výslovně zadanému rozsahu. Pracuj pouze s existujícími italskými řádky v rozsahu zadání.
 
 **Závazný lifecycle podle skutečného schématu a tabulky:**
-- `placeholder` znamená, že CAP čeká na rework; nejde o dokončený ani auditovaný záznam.
-- `validated` znamená, že rework je dokončen a záznam čeká na samostatný finální audit. Auditní opravy ponechávají `workflow_status = 'validated'`.
-- `published` znamená, že finální audit prošel a publikace byla výslovně autorizována uživatelem.
-- Žádná verze V1/V5 se v italském JSONB lifecycle nepoužívá. Nevytvářej ani nekontroluj `record.status` nebo `record.data_version`.
-- Samotný audit ani výsledek `PASS` nesmí automaticky publikovat záznam. Publikace vyžaduje samostatný výslovný příkaz uživatele a mění pouze databázový `workflow_status` na `published`.
+- `placeholder` znamená, že CAP čeká na rework; `record.status` i `workflow_status` mají hodnotu `placeholder`.
+- `validated` znamená, že rework je dokončen a záznam čeká na samostatný finální audit; `record.status` i `workflow_status` mají hodnotu `validated` a `data_version` je `1`.
+- `published` znamená, že finální audit prošel a publikace byla výslovně autorizována uživatelem; `record.status` i `workflow_status` mají hodnotu `published` a `data_version` je `5`.
+- `record.status` a databázový `workflow_status` musí být vždy shodné. Po úspěšném auditu se verze `1` mění na `5` pouze při výslovném příkazu k publikaci.
+- Samotný audit ani výsledek `PASS` nesmí automaticky publikovat záznam. Publikace vyžaduje samostatný výslovný příkaz uživatele.
 
 Nevymýšlej kanonickou `sequence.json`, pokud pro Itálii nebyla schválena. Nevytvářej CAP a nerozšiřuj rozsah; pracovní seznam nepovažuj automaticky za kanonickou sekvenci. Nedotýkej se českých, německých ani jiných zemských dat. Pokud není možné získat úplný inventář zadaného rozsahu, označ výsledek `BLOCKED` a uveď, co chybí. Neodhaduj počet ani rozsah.
 
@@ -177,13 +177,13 @@ Ověř:
 Schema vyžaduje `access_point`, `representative_point` a alespoň jeden fakt. Nezmírňuj tyto požadavky ad hoc. Pokud povinný údaj nelze odpovědně doložit, označ problém a vyžádej rozhodnutí; nevyráběj falešné hodnoty.
 
 Ověř stavový lifecycle přímo v Neonu:
-- `workflow_status = 'placeholder'`: CAP čeká na rework a není součástí dokončeného auditu.
-- `workflow_status = 'validated'`: rework je dokončen; při auditu a běžných opravách tento stav zachovej.
-- `workflow_status = 'published'`: pouze po úspěšném finálním auditu a samostatném výslovném příkazu uživatele.
-- JSONB `record` nesmí obsahovat `status` ani `data_version`; neexistují ani v aktuálním schématu ani jako databázové sloupce.
+- `workflow_status = 'placeholder'`: CAP čeká na rework; `record.status` musí být `placeholder`.
+- `workflow_status = 'validated'`: rework je dokončen; `record.status` musí být `validated` a `record.data_version` musí být `1`.
+- `workflow_status = 'published'`: finální audit prošel a publikaci výslovně autorizoval uživatel; `record.status` musí být `published` a `record.data_version` musí být `5`.
+- Vždy ověř shodu `record.status = workflow_status` a platnou verzi podle lifecycle.
 - Italské workflow nepoužívá stavy `inventory`, `researching` ani `review`.
 
-Při inventuře a auditu nikdy automaticky nepovyšuj ani nesnižuj `workflow_status`. Pokud je stav řádku neočekávaný nebo nejasný, zaznamenej konkrétní nález. Nepřidávej chybějící JSON metadata a neprováděj publikaci v rámci běžných oprav.
+Při inventuře a auditu nikdy automaticky nepovyšuj ani nesnižuj lifecycle. Pokud je stav řádku neočekávaný nebo nejasný, zaznamenej konkrétní nález. Běžné auditní opravy zachovávají `status`, `data_version` i `workflow_status`.
 
 Samostatné validační běhy nebo instalace nových balíčků nejsou automaticky požadovány. Použij již dostupné bezpečné lokální kontroly a případně validaci proti aktuálnímu schématu. Nevyžaduj ani nevypisuj tokeny, hesla či přístupové klíče.
 
@@ -277,7 +277,9 @@ Po dokončení auditu nejprve předej uživateli report. **Publikaci, změnu `wo
 
 Po reworku musí být záznam ve stavu:
 - `workflow_status = 'validated'`;
-- JSONB `record` validní podle aktuálního `schema.json`, bez kořenových polí `status` a `data_version`.
+- `record.status = 'validated'`;
+- `record.data_version = 1`;
+- JSONB `record` validní podle aktuálního `schema.json`.
 
 Tento stav znamená, že rework je dokončen, ale finální audit a publikace ještě neproběhly. Audit PASS tento stav sám o sobě nemění. Pokud audit skončí `FIX REQUIRED`, `REVIEW REQUIRED` nebo `BLOCKED`, záznam nesmí být publikován.
 
@@ -285,9 +287,9 @@ Tento stav znamená, že rework je dokončen, ale finální audit a publikace je
 
 Teprve když celý audit skončí `PASS` a uživatel následně výslovně požádá o publikaci, proveď následující kroky:
 
-1. **Kontrola před publikací:** znovu načti přesný auditovaný rozsah z `public.italy_cap_records`. Ověř seznam a počet CAP a potvrď, že každý určený záznam má `workflow_status='validated'`. Záznamy mimo přesný rozsah nesmí být změněny.
-2. **Publikace do Neonu:** aktualizuj pouze přesně auditované existující řádky a nastav databázový sloupec `workflow_status='published'`. JSONB `record` ponech beze změny; nepřidávej `status`, `data_version` ani jiná nepodporovaná pole. Zachovej všechna fakta, překlady, zdroje, souřadnice a ID. Nepřidávej nové CAP a neměň jiné země. Proveď zápis bezpečně a sekvenčně nebo v jedné ověřitelné transakci.
-3. **Read-back kontrola:** znovu načti publikovaný rozsah přímo z Neonu a ověř přesný seznam i počet CAP. Každý očekávaný řádek musí mít `workflow_status='published'` a jeho JSONB `record` musí zůstat validní podle aktuálního schématu. Ověř také, že mimo auditovaný rozsah nebyl změněn žádný řádek. Pokud kontrola neprojde, nepokračuj k záloze; oznam konkrétní nesoulad a bezpečně jej vyřeš.
+1. **Kontrola před publikací:** znovu načti přesný auditovaný rozsah z `public.italy_cap_records`. Ověř seznam a počet CAP a potvrď, že každý určený záznam má `workflow_status='validated'`, `record.status='validated'` a `record.data_version=1`. Záznamy mimo přesný rozsah nesmí být změněny.
+2. **Publikace do Neonu:** aktualizuj pouze přesně auditované existující řádky. Nastav `workflow_status='published'`, `record.status='published'` a `record.data_version=5`. Zachovej všechna fakta, překlady, zdroje, souřadnice a ID. Nepřidávej nové CAP a neměň jiné země. Proveď zápis bezpečně a sekvenčně nebo v jedné ověřitelné transakci.
+3. **Read-back kontrola:** znovu načti publikovaný rozsah přímo z Neonu a ověř přesný seznam i počet CAP. Každý očekávaný řádek musí mít `workflow_status='published'`, `record.status='published'` a `record.data_version=5`; JSONB musí zůstat validní podle aktuálního schématu. Ověř také, že mimo auditovaný rozsah nebyl změněn žádný řádek. Pokud kontrola neprojde, nepokračuj k záloze; oznam konkrétní nesoulad a bezpečně jej vyřeš.
 4. **Záloha do Dropboxu:** po úspěšném read-back ověření vytvoř zálohu přes schválený italský postup do projektového Dropboxu. Záloha musí odpovídat přesně publikovanému auditovanému rozsahu a umožnit jeho obnovu. Před spuštěním ověř aktuální schválenou cílovou složku a mechanismus; nepřebírej Supabase Edge Function ani SQL/endpointy českého projektu. Ulož úplný export JSON, obnovovací podklady pro Neon a manifest s časem, zemí, rozsahem, počtem CAP, seznamem CAP a kontrolním hashem. Pokud pro italský Neon export není dostupný ověřený postup nebo cílová složka, zastav se a vyžádej si rozhodnutí; nevymýšlej endpoint, Dropbox cestu ani falešnou zálohu.
 5. **Ověření Dropboxu:** po vytvoření zálohy znovu ověř skutečný obsah v Dropboxu. Potvrď, že existují všechny očekávané soubory, manifest odpovídá přesnému publikovanému rozsahu a počtu CAP a kontrolní hash souhlasí s exportem. Samotné přijetí požadavku, vytvoření složky nebo úspěšný upload jednoho souboru není důkaz dokončené zálohy. Při timeoutu nejprve ověř skutečný stav; nikdy neopakuj operaci naslepo.
 6. **Report:** publikaci a zálohu vykazuj odděleně. Uveď počet a přesný seznam CAP, stav `workflow_status='published'`, výsledek read-back, přesnou Dropbox cestu a výsledek ověření souborů a hashe. Pokud publikace proběhla, ale záloha selhala nebo zůstala neověřená, výslovně uveď, že publikace je hotová, ale záloha není dokončena.
