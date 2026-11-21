@@ -20,7 +20,8 @@
       "sources": [
         "src_gerulata_mmb",
         "src_gerulata_unesco",
-        "src_gerulata_pamiatky"
+        "src_gerulata_pamiatky",
+        "src_gerulata_coordinates"
       ],
       "location": {
         "name": "Antická Gerulata – římský kastel",
@@ -42,7 +43,8 @@
       "sources": [
         "src_danubiana_history",
         "src_danubiana_architecture",
-        "src_danubiana_address"
+        "src_danubiana_address",
+        "src_danubiana_coordinates"
       ],
       "location": {
         "name": "Danubiana Meulensteen Art Museum",
@@ -64,7 +66,8 @@
       "sources": [
         "src_jarovce_church_specialist",
         "src_jarovce_church_news",
-        "src_jarovce_postcode"
+        "src_jarovce_postcode",
+        "src_jarovce_history"
       ],
       "location": {
         "name": "Kostel sv. Mikuláše",
@@ -164,6 +167,18 @@
       "id": "src_jarovce_history",
       "title": "Územný plán zóny Jarovce-Sever – historický vývoj Jaroviec",
       "url": "https://www.jarovce.sk/dokumenty/upn/cistopis/00_UPN%20Z_Jarovce_Sever_Smerna_C.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_gerulata_coordinates",
+      "title": "Múzeum mesta Bratislavy – GPS poloha Antickej Gerulaty",
+      "url": "https://muzeumbratislava.sk/en/contact",
+      "type": "official"
+    },
+    {
+      "id": "src_danubiana_coordinates",
+      "title": "Danubiana – GPS poloha múzea",
+      "url": "https://danubiana.sk/kontakt/kontakt",
       "type": "official"
     }
   ],
