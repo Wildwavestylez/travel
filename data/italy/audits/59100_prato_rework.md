@@ -147,3 +147,22 @@ Read-back po druhém rozšíření potvrdil:
 ### Tematická poznámka — Macrolotto Zero
 
 - **Macrolotto Zero** bylo doplněno jako `fact_059`. Reprezentativní bod používá středovou souřadnici v oblasti Via Umberto Giordano s přesností `area_representative`; nejde o přesnou polohu hranic čtvrti ani konkrétního projektu. Fakt popisuje průmyslový vývoj, migraci, kulturní proměnu a městskou regeneraci. Další tematické mezery města zůstávají otevřené.
+
+## 8. Třetí tematické doplnění — Museo del Calcolatore (21.11.2026)
+
+- fact_060 — **Il Museo del Calcolatore Laura Tellini: dalla scuola pratese alla storia dell’informatica**.
+- Doplněno samostatné muzeum dějin počítání a informatiky. Projekt vznikl roku 1996 na Istituto Tecnico “Paolo Dagomari”; stálá expozice byla otevřena roku 2011. Sbírka se rozšiřovala díky záchraně starších přístrojů a darům a zahrnuje mechanické počítací pomůcky, počítače i herní konzole. Důraz je na historický vývoj výpočetních technologií a na možnost prakticky vyzkoušet řadu exponátů.
+- Muzeum vstoupilo v roce 2026 do Rete Musei di Prato. Nezaměňovat stálé muzeum na Via dell’Aiale 15 s dočasnou výstavou Apple na Via Ricasoli 7 (17. 10. 2026–3. 1. 2027).
+- Poloha: 43.8798389, 11.0945167, museum, approximate. Adresa je doložena oficiálním turistickým portálem a oficiální stránkou muzea; souřadnice jsou převzaty z mapového údaje u hesla muzea a záměrně nejsou označeny jako přesné.
+- Obsahové zdroje: Prato Turismo; Museo del Calcolatore; Comune di Prato – vzdělávací nabídka. Zdroj polohy: mapové souřadnice hesla muzea.
+- Fakt je tematicky odlišný od Museo di Scienze Planetarie (fact_009): jedno dokumentuje dějiny výpočtu a informatiky, druhé planetární vědy a meteority.
+
+### Read-back po fact_060
+
+- 60 master faktů.
+- 60 položek v každém ze sedmi jazyků cs,de,en,es,fr,it,nl — celkem 420 překladových položek.
+- fact_060 má tři obsahové zdroje; všechny tři jsou přítomny v top-level inventáři.
+- Zdroj souřadnic fact_060.location.source je rovněž přítomen v top-level inventáři.
+- Top-level inventář obsahuje 255 unikátních URL.
+- workflow_status zůstává placeholder; bez validace a publikace.
+- Plný čtenářský audit sedmi překladů a nezávislá geodetická kontrola zůstávají součástí otevřených kontrol A–I.
