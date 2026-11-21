@@ -88,3 +88,17 @@ Databázový read-back po provedených změnách potvrdil:
 - Nebylo změněno schéma ani lifecycle databáze.
 - Nové a opravené texty byly uloženy do Neonu; po každém zápisu proběhl read-back.
 - Tento dokument **není finální auditní PASS**. Uzavření A–I nastane až po dokončení otevřených kontrol a výslovném zaznamenání jejich výsledků.
+
+
+## 6. Sjednocení pravidel poštovního rozsahu (21.11.2026)
+
+Na základě výslovného pokynu uživatele bylo odstraněno zaměření na provoz poštovních poboček. Aktualizovány byly:
+
+- `data/italy/prompt_rework.md`
+- `data/italy/prompt_audit.md`
+- `data/italy/CONTENT_STANDARD.md`
+- `data/italy/COUNTRY_PROFILE.md`
+
+Závazné pravidlo: poštovní zdroje se používají pouze k ověření samotného CAP a jeho geografického přiřazení. Nezjišťuje se, kdo CAP obsluhuje, zda je konkrétní pobočka otevřená či zavřená, její otevírací doba, nabídka služeb ani doručovací trasy nebo režimy. Tyto informace nejsou obsahem Europe Exploreru a nemají se ukládat do faktů ani do běžného inventáře zdrojů.
+
+Schéma ani lifecycle databáze se neměnily.
