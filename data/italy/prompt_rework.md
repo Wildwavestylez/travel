@@ -592,7 +592,7 @@ GitHub stores versioned schemas, standards, prompts, sequence and supporting doc
 - Before writing, read the current row and confirm its postcode and current workflow state. Preserve unrelated rows and fields.
 - Validate the complete JSON record against the current `data/italy/schema.json` and the applicable Content Standard before saving.
 - Save the complete record to the JSONB `record` column and set the database `workflow_status` consistently with the content lifecycle below. Do not partially overwrite a record or silently discard existing valid content.
-- After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved JSON record and database `workflow_status`. Do not expect or add root-level JSON `status` or `data_version`; these are not part of the shared Czechia/Italy record schema.
+- After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved JSON record and database `workflow_status`. Keep JSONB `status` identical to `workflow_status`; newly reworked records use `status: 'validated'`, `workflow_status = 'validated'` and `data_version: 1`.
 - Use only the established, authorised Neon connection. Never expose credentials or add write access to the Explorer client.
 
 ### Automatic correction authority within an explicitly requested scope
@@ -614,7 +614,7 @@ After every write, read the row back from Neon and verify the changed fields, al
 
 ### Mandatory content lifecycle
 
-The database-level `workflow_status` is separate from the JSON record and is not a JSON field. Use the established lifecycle values `placeholder`, `validated` and `published`: `placeholder` means the CAP awaits rework; `validated` means the rework is complete and awaits the separate final audit; `published` means the final audit passed and publication was explicitly authorised. A completed rework is saved as `workflow_status = 'validated'`. A record may be set to `published` only after the complete final audit passes and the user explicitly instructs publication. Do not add `status` or `data_version` to the JSONB record; neither exists in the shared canonical record schema. Do not promote a record automatically or apply an unrequested lock.
+The database-level `workflow_status` and JSONB root `status` must always match. Use the established lifecycle values `placeholder`, `validated` and `published`: `placeholder` means the CAP awaits rework; `validated` means the rework is complete and awaits the separate final audit; `published` means the final audit passed and publication was explicitly authorised. A completed rework is saved as `workflow_status = 'validated'`, `status = 'validated'` and `data_version = 1`. A record may be set to `published` only after the complete final audit passes and the user explicitly instructs publication; at that point set both status fields to `published` and `data_version = 5`. Do not promote a record automatically or apply an unrequested lock.
 
 Do not infer Czech Supabase tables, German storage conventions, endpoints or write APIs for Italy. Do not claim that a record has been saved, validated, published or backed up unless the corresponding operation actually succeeded and, for database writes, the read-back was verified.
 
