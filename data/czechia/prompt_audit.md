@@ -1,6 +1,6 @@
 # TRAVEL ČESKO — STRUČNÝ AUDITNÍ PROMPT PSČ
 
-**Verze 2.0 — cílený audit kvality**
+**Verze 2.1 — cílený a databázově šetrný audit**
 
 ## 1. Účel a oddělení od reworku
 
@@ -20,7 +20,7 @@ Před prací načti aktuální:
 - příslušné RÚIAN reference a manifest
 - registr a kanonický auditní tahák pro přesný rozsah v `data/czechia/audits/`
 
-Audituj celý zadaný blok, ne vzorek. Ověř přesný rozsah a inventář proti databázi a sekvenci. Pracuj pouze s existujícími českými řádky. Nevytvářej PSČ, neměň rozsah, pořadí ani `sequence.json`. Německých a jiných nečeských dat se nedotýkej.
+Audituj celý zadaný blok, ne vzorek. Přesný seznam PSČ urči z auditního zadání, registru/taháku a `sequence.json`; databázi používej pouze k ověření těchto konkrétních PSČ. **Nevytvářej celodatabázový inventář kvůli auditu jednoho okresu.** Pracuj pouze s existujícími českými řádky. Nevytvářej PSČ, neměň rozsah, pořadí ani `sequence.json`. Německých a jiných nečeských dat se nedotýkej.
 
 Převezmi všechny dokončené kontroly z taháku jako hotové. Neopakuj je kvůli novému oknu, modelu ani vlastní preferenci. Hotovou kontrolu otevři znovu jen při konkrétním novém důkazu, změně dat nebo změně závazného standardu.
 
@@ -92,6 +92,22 @@ Ověř:
 
 Rozpor v sekvenci nebo inventáři zaznamenej; neměň `sequence.json` ani rozsah bez výslovného oprávnění.
 
+#### Povinná pravidla pro databázové dotazy — ochrana výkonu
+
+Tato pravidla mají přednost před jakýmkoli obecným pokynem k inventuře, validaci nebo kontrole konzistence:
+
+1. **Rozsah jednoho okresu = pouze explicitní seznam jeho PSČ.** Každý databázový dotaz na `public.postal_codes` musí být omezen současně na `country_code = 'CZ'` a přesný seznam `postal_code` z auditovaného bloku. Neodvozuj rozsah dotazu pouze z okresu, obce, statusu nebo verze.
+2. **Nikdy nečti celou tabulku kvůli okresnímu auditu.** Zakázáno je `SELECT * FROM public.postal_codes` bez přesného filtru PSČ, stejně jako celotabulkové `COUNT(*)`, seskupení, inventury všech zemí/statusů/verzí, stránkování přes všechny řádky nebo následné filtrování až v paměti.
+3. **Mapové body načítej až podle ID vybraných PSČ.** Nejprve cíleně načti auditované řádky a jejich `id`; následně čti pouze `public.explorer_map_points` s `postal_id` omezeným na tato ID. Nikdy nenačítej všechny mapové body a nefiltruj je až v aplikaci. Respektuj složený primární klíč `(postal_id, fact_id)`; stránkování pouze podle `postal_id` může vynechat další body stejného PSČ.
+4. **Čti jen potřebná pole.** Nepoužívej `SELECT *`, pokud stačí konkrétní sloupce. JSON obsah načti pouze pro přesně vybrané řádky, které audit skutečně potřebuje.
+5. **Žádné vlastní diagnostické SQL.** Nevymýšlej názvy sloupců, tabulek, county/district polí ani operátorů. Před dotazem ověř skutečné schéma v projektové dokumentaci nebo existujícím schématu. Pokud si nejsi jistý syntaxí či rozsahem, dotaz nespouštěj; nejprve si vyžádej ověřený postup.
+6. **Žádné automatické porovnávání Supabase a Neon.** Audit pracuje s určeným zdrojem pravdy podle projektu. Druhou databázi nečti ani s ní data nesrovnávej, pokud uživatel výslovně nepožádá o konkrétní diagnostiku.
+7. **Žádné opakované čtení bez důvodu.** Výsledek jednoho správně vymezeného načtení znovu používej pro všechny kontroly daného bloku. Po zápisu načti zpět pouze změněné PSČ/fakta a nezbytné navázané mapové body.
+8. **Dotazy a zápisy prováděj sekvenčně a úsporně.** Nepouštěj paralelní široké dotazy, opakované stránkování ani retry naslepo. Při timeoutu nejprve ověř stav konkrétního požadavku a respektuj `Retry-After`.
+9. **Záloha není součást auditu.** Během běžného auditu nespouštěj `travel-backup-validated`, jiné Edge Functions, exporty ani celodatabázové kontroly. Záloha se spouští až po výslovném pokynu uživatele a pouze pro přesný auditovaný rozsah.
+
+Pokud dostupný nástroj neumí bezpečně omezit dotaz na přesný seznam PSČ a související `postal_id`, nepokračuj širokým dotazem jako náhradním řešením. Oznam překážku a vyžádej si bezpečný cílený postup.
+
 **AJV a další samostatné validační běhy nejsou požadované.** Nespouštěj AJV, neinstaluj kvůli auditu balíčky a nevyžaduj žádné tokeny, hesla, přístupové klíče ani nové validační prostředí. Pokud už byly základní strukturální a databázové kontroly provedeny, nepouštěj je znovu. Ověř pouze konkrétní opravenou položku načtením zpět a pokračuj.
 
 ### G. Souřadnice — žádná plošná kontrola
@@ -104,7 +120,7 @@ Neprováděj znovu kompletní faktografickou rešerši každého faktu ani nekon
 
 ## 4. Postup, opravy a nálezy
 
-Pracuj v jednom souvislém běhu nad celým blokem. Mechanické kontroly prováděj dávkově a lokálně, kde je to možné. U každé skutečné vady: **najdi → ověř → bezpečně oprav → načti zpět → ověř opravu → stručně zaznamenej**.
+Pracuj v jednom souvislém běhu nad celým blokem. Nejprve si jednou připrav přesný inventář PSČ z lokálních projektových podkladů a jedním cíleným databázovým čtením načti potřebné řádky celého bloku; znovu je nenačítej pro každou kontrolní oblast. Mechanické kontroly prováděj dávkově a lokálně, kde je to možné. Webovou rešerši omez na skutečné nálezy a zásadní témata, neprováděj opakované plošné vyhledávání každého faktu. U každé skutečné vady: **najdi → ověř → bezpečně oprav → načti zpět pouze změněnou položku → ověř opravu → stručně zaznamenej**.
 
 - Automaticky opravuj pouze potvrzené a bezpečné chyby v existujících českých záznamech.
 - Zachovávej ID a nesouvisející obsah.
@@ -131,7 +147,7 @@ Teprve když uživatel po dokončení auditu výslovně požádá o publikaci (n
 
 1. **Publikace přes Supabase:** pracuj pouze s přesným auditovaným rozsahem a jeho ověřeným inventářem. Existující záznamy tohoto rozsahu nastav na `data_version = 5` a `status = 'published'`. Nevytvářej nové PSČ, neměň jiná PSČ ani jiné země. Zachovej všechna ID a obsah záznamů.
 2. **Read-back kontrola:** znovu načti rozsah ze Supabase a ověř přesný počet i seznam PSČ, že každý očekávaný řádek má `data_version = 5` a `status = 'published'`, a že nejsou žádné výjimky. Pokud kontrola neprojde, zálohu nespouštěj a uživateli oznam konkrétní nesoulad.
-3. **Záloha přes existující Supabase Edge Function:** použij dedikovanou zálohovací Edge Function odpovídající přesnému auditovanému rozsahu. Použij stejný ověřený postup jako u úspěšných záloh Prahy 10000–15900 a Brna 60200–64400: Edge Function načte data ze Supabase read-only, přes serverové Dropbox OAuth secrets vytvoří časově označenou složku v aplikačním Dropbox prostoru `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/` a uloží úplný JSON export, obnovovací SQL a `manifest.json`. Spouštění prováděj zavedenou cestou přes Supabase `pg_net` HTTP GET na endpoint příslušné Edge Function s jejím platným run parametrem; nevymýšlej jiný endpoint ani ruční náhradní export.
+3. **Záloha přes existující Supabase Edge Function:** použij pouze zálohovací Edge Function, jejíž skutečný aktuální kód a vstupní parametry byly ověřeny pro přesný auditovaný rozsah. Nikdy nepředpokládej, že funkce určená pro kompletní databázovou zálohu automaticky podporuje okresní rozsah. U `travel-backup-validated` je povinný cílený režim `scope=selected` s přesným `country_code=CZ` a úplným explicitním seznamem auditovaných `postal_codes`; bez těchto parametrů funkce musí požadavek odmítnout bez čtení databáze. `scope=all` je výhradně pro výslovně požadovanou kompletní zálohu, nikdy pro okresní audit. Tato funkce ukládá cílený JSON export, mapové body a schéma s manifestem; nepředpokládej, že vytváří restore SQL. Pokud požadovaný typ zálohy vyžaduje JSON, restore SQL a manifest, použij pouze již existující a ověřenou dedikovanou funkci pro daný rozsah. Před spuštěním ověř její aktuální kód, přesný rozsah a způsob spuštění; nespouštěj neznámý endpoint ani nevymýšlej parametry.
 4. **Ověření Dropboxu:** nekontroluj pouze osobní Dropbox složku `/TRAVEL_BACKUP`. Skutečné zálohy ověř v aplikačním Dropbox namespace pod `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/`. Vyhledej nově vytvořenou složku pro přesný auditovaný rozsah a ověř přítomnost všech tří souborů: JSON, restore SQL a manifest. Načti manifest a potvrď správný rozsah, počet i seznam PSČ, `validation.status = 'VERIFIED'`, `validation.readback_verified = true` a odpovídající hash rozsahu. Záloha je dokončena pouze tehdy, když Dropbox obsahuje všechny tři soubory a manifest potvrzuje read-back SHA-256 ověření. Samotné přijetí HTTP požadavku ani vytvoření složky není důkaz dokončené zálohy.
 5. **Report:** uživateli sděl výsledek publikace a zálohy odděleně, včetně počtu PSČ, verze, statusu, přesné Dropbox cesty a výsledku ověření. Při chybě nebo timeoutu nejprve ověř stav v Dropboxu; nikdy neopakuj zápis nebo spuštění naslepo. Existující zálohy nepřepisuj a při opakovaném spuštění respektuj timestampované nové složky.
 
