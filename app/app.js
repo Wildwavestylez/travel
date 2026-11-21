@@ -195,11 +195,10 @@ async function fetchPostalRows(){
       "SELECT postcode, record FROM public.czechia_cap_records WHERE workflow_status = $1 AND record IS NOT NULL ORDER BY postcode ASC",
       ['published']
     );
-    return rows.map(row=>({
-      postal_code:row.postcode,
-      ...(row.record||{}),
-      postcode:row.postcode
-    }));
+    return rows.map(row=>{
+      const content=row.record?.content||row.record||{};
+      return {...content,postal_code:row.postcode,postcode:row.postcode};
+    });
   }
   const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=in.(published,validated)&order=postal_code.asc';
   const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
