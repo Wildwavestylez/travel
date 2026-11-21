@@ -327,3 +327,15 @@ Tato sekce je nejnovější stav a přepisuje starší součty i poznámky o tur
 - Baštiny/Teslín: nadále nepřiřazeno. Bez bezpečného geografického důkazu příslušnosti k některému PSČ se fakt nevytváří.
 
 **Výsledek auditu zůstává REVIEW REQUIRED.** Otevřené jsou dříve evidované otázky trasovatelnosti zdrojových aliasů, statusu placeholderu 26232, úplné sémantické kontroly překladů a geografického cross-checku.
+
+## Doplnění poloh podle hierarchie prompt_rework.md — 2026-11-21
+
+Při předchozím zápisu dvou nových faktů zůstaly jejich polohy `null`. Uživatel upozornil na závaznou geografickou hierarchii v `prompt_rework.md`; podle ní `null` není výchozí volba jen proto, že chybí geodeticky přesný bod. Obě polohy byly následně dohledány, doplněny do Supabase a načteny zpět.
+
+- **26101 / fact_012 — Vodní kolo dolu Drkolnov:** doplněno `location` na **49.6831017, 13.9870005**. Bod odpovídá GPS poloze komory vodního kola uvedené u konkrétní atrakce. Typ `technical_monument`, přesnost `approximate`; název bodu výslovně říká, že jde o orientační bod komory, nikoli o geodeticky zaměřený střed zařízení. Geografický zdroj: VirtualTravel – Vodní kolo v podzemí dolu Drkolnov (GPS). Identitu a návštěvnickou trasu nezávisle potvrzuje Hornické muzeum Příbram.
+- **26223 / fact_012 — Hradiště Plešivec:** doplněno `location` na **49.8112236, 13.9889417**. Jde o reprezentativní GPS bod uvnitř rozsáhlého archeologického areálu hradiště, nikoli o tvrzení, že celý areál nebo konkrétní archeologická struktura leží přesně na jediném bodě. Typ `archaeological_site`, přesnost `area_representative`. Geografický zdroj: Egeon – Plešivecké hradiště (GPS). NPÚ a Archeologický atlas Čech nezávisle potvrzují identitu, rozsah a polohu hradiště u Rejkovic.
+- Odpovídající geografické zdroje byly přidány také do kořenového registru `content.sources`.
+- Read-back Supabase potvrdil obě polohy, správná ID `fact_012`, 12 faktů v každém dotčeném PSČ a 12 překladových položek ve všech sedmi jazycích.
+- **Aktuálně žádné z těchto dvou nových faktů nemá `location=null`.** Počet faktů a překladů se nemění: celý rozsah zůstává na 36 PSČ, 271 faktech a 1 897 jazykových položkách. Žádné existující neprázdné souřadnice nebyly měněny.
+
+Tato sekce nahrazuje předchozí poznámku, že obě nová fakta zůstala bez polohy. Postup odpovídá pravidlům `prompt_rework.md`: konkrétní objekt → bod v lokalitě → přibližný či reprezentativní bod podle skutečné povahy místa; `null` až tehdy, když nelze odpovědně určit ani takový bod. Auditní omezení na existující neprázdné polohy zůstává zachováno.
