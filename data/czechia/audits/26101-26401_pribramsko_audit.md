@@ -530,3 +530,10 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - Normalizace starších aliasů: **REVIEW REQUIRED** — bez mapování se nesmí provést automatická náhrada.
 - Celkový audit zůstává **REVIEW REQUIRED** kvůli třem nejednoznačným geografickým přiřazením a nevyřešeným zdrojovým aliasům.
 
+
+
+### Doplňující technická kontrola zdrojů a délky textů
+
+- České master texty pod hranicí 350 znaků: **0**.
+- Kořenový registr obsahuje **792 zdrojových položek**; všechny mají neprázdný title, URL a type, všechna type jsou v povoleném enumu a všechny URL mají formát HTTP(S).
+- V polích facts[].sources zůstává 40 starších src_* aliasových odkazů; jejich počet a rozsah jsou uvedeny výše. Tato technická kontrola potvrzuje úplnost kořenového registru, nikoli mapování jednotlivých aliasů na URL.
