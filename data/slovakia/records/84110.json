@@ -1,7 +1,7 @@
 {
   "postcode": "84110",
   "city": "Bratislava",
-  "district": "Devín",
+  "district": "Devínska Nová Ves",
   "county": "Bratislava IV",
   "state": "Bratislavský kraj",
   "representative_place": "Náměstí svatých Cyrila a Metoděje – historické centrum Devína",
@@ -155,8 +155,8 @@
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-21",
     "postcode_conflict": true,
-    "postcode_conflict_note": "Adresní dataset přiřazuje k PSČ 84110 celkem 902 bodů: 898 v městské části Bratislava-Devín, 2 v Bratislava-Karlova Ves, 1 v Bratislava-Devínska Nová Ves a 1 v Pezinku. Čtyři odlehlé body nejsou důkazem skutečné poštovní oblasti a nejsou zahrnuty do jejího výkladu. Další rozpor se týká poštovní obsluhy: některé PSČ katalogy a SITA uvádějí Bratislavu 49, zatímco místní pobočka Bratislava 46 se nachází přímo v Devíně na Kremeľské 39 a její údaje o pobočce uvádějí tuto adresu s PSČ 84110. Pro administrativní pole je použita fyzická poloha místní pobočky v Devíně; nesoulad katalogového přiřazení zůstává otevřený k ověření u Slovenské pošty.",
-    "delivery_office_note": "Místní pošta Bratislava 46 se nachází na Kremeľské 39 v Devíně. Některé katalogy přiřazují PSČ 84110 k poště Bratislava 49 v Devínske Nové Vsi; tento rozpor je zaznamenán výše.",
+    "postcode_conflict_note": "Adresní dataset přiřazuje k PSČ 84110 celkem 902 bodů: 898 v městské části Bratislava-Devín, 2 v Bratislava-Karlova Ves, 1 v Bratislava-Devínska Nová Ves a 1 v Pezinku. Čtyři odlehlé body nejsou důkazem skutečné poštovní oblasti a nejsou zahrnuty do jejího výkladu. Rozsah adresního datasetu se proto nepovažuje za poštovní hranici.",
+    "delivery_office_note": "PSČ 84110 je v adresních seznamech přiřazeno poště Bratislava 49, která sídlí na Pavla Horova 16 v městské části Devínska Nová Ves (vlastní provozní PSČ pobočky 84009). Pošta Bratislava 46 na Kremeľské 39 leží přímo v Devíně, ale její vlastní provozní PSČ je 84006; nejde o dodací poštu pro PSČ 84110.",
     "postcode_override_reason": null,
     "geographic_authority": "RAGEO-derived address-point evidence for geographic corroboration; Slovenská pošta and official Slovak territorial hierarchy for postal and administrative interpretation."
   },
@@ -286,6 +286,18 @@
       "title": "RAGEO-derived Slovak postal-code dataset, pinned source commit",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/tree/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data",
       "type": "other"
+    },
+    {
+      "id": "s22",
+      "title": "Slovak Post – list of express post offices and branch addresses",
+      "url": "https://www.posta.sk/subory/302/zoznam-post-poskytujucich-expres-sluzby.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "Slovak Post – selected post offices and their operating postcodes",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
     }
   ],
   "translations": {
