@@ -1,4 +1,173 @@
 {
   "postcode": "85104",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Ovsištské náměstí",
+  "representative_point": {
+    "lat": 48.120141743409434,
+    "lon": 17.13014749845486
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pamětní deska Jána Bulíka: hlas vojvodinských Slováků a kurýr protifašistického odboje",
+      "text": "Na boční stěně bytového domu na Bulíkově ulici 17 připomíná pamětní deska právníka Jána Bulíka (1897–1942), významného představitele Slováků v tehdejší Jugoslávii. Bulík se narodil v Kovačici v srbském Banátu a po studiích práv působil jako advokát. V roce 1932 patřil k zakladatelům Matice slovenské v Jugoslávii a stal se jejím prvním předsedou. Po rozbití Československa nacistickým Německem pomáhal československým uprchlíkům: zajišťoval jim doklady, peníze, ubytování a cestu do Francie. Zároveň působil jako kurýr mezi domácím odbojem v Praze a Bratislavě a československým exilem v Paříži. Gestapo ho po okupaci Jugoslávie vypátralo a 27. července 1941 zatklo. Po věznění v Bělehradě, Vídni a Praze byl deportován do koncentračního tábora Mauthausen, kde 30. ledna 1942 zemřel. Deska v Petržalce tak připomíná nejen jeho osobní osud, ale také přeshraniční síť pomoci a odporu, kterou organizovali lidé ze slovenské krajanské komunity v jihovýchodní Evropě.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "src_postal",
+        "src_postal_streets",
+        "src_postal_branch",
+        "src_petrzalka_memorials",
+        "src_bulik_mauthausen",
+        "src_bulik_matica",
+        "src_bulik_location"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamětní deska Ján Bulík, Bulíkova 17",
+        "address": "Bulíkova 17, 851 04 Bratislava-Petržalka, Slovensko",
+        "lat": 48.1257778,
+        "lon": 17.1284167,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/376-bratislava/Bul%C3%ADkova/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre účinné od 01.01.2026, príloha 3a: rozsah PSČ 851 01–09 je smerovaný na vybranú poštu Bratislava 5. Zoznam ulíc pre 851 04 zahŕňa Bulíkovu; adresa Bulíkova 17 je doložená ako 851 04 Bratislava.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": "Účinnosť od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 851 04 patrí do rozsahu 851 01–09 smerovaného na vybranú poštu Bratislava 5. Hlavná pošta Bratislava 5 je uvádzaná na adrese Einsteinova 18 v mestskej časti Petržalka. Reprezentatívnym bodom záznamu je Ovsištské námestie, nie pošta.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiálny zoznam pamätihodností MČ Bratislava-Petržalka pre identifikáciu pamätnej tabule; Mauthausen Memorial a Matica slovenská pre biografické údaje; adresné a mapové údaje pre polohu. Priamy export RAGEO nebol v tomto kroku načítaný."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "SITA – PSČ 85104 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85104/",
+      "type": "news"
+    },
+    {
+      "id": "src_postal_branch",
+      "title": "Register mestských úradov – Slovenská pošta Bratislava 5, Einsteinova 18",
+      "url": "https://registermestskychuradov.sk/sluzby/postal_services/sk/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_petrzalka_memorials",
+      "title": "Mestská časť Bratislava-Petržalka – Aktualizácia zoznamu pamätihodností, položka Pamätná tabuľa Bulíkova 17",
+      "url": "https://www.petrzalka.sk/wp-content/uploads/2023/12/31-Aktualizacia-zoznamu-pamatihodnosti-1.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_bulik_mauthausen",
+      "title": "Mauthausen Memorial – Ján Bulík (1897–1942), biografie a odbojová činnost",
+      "url": "https://raumdernamen.mauthausen-memorial.org/?L=0&id=4&p=4343",
+      "type": "official"
+    },
+    {
+      "id": "src_bulik_matica",
+      "title": "Matica slovenská – Pietna spomienka na prvého predsedu MS v Juhoslávii",
+      "url": "https://matica.sk/pietna-spomienka-na-prveho-predsedu-ms-v-juhoslavii/",
+      "type": "official"
+    },
+    {
+      "id": "src_bulik_location",
+      "title": "Spolek pro vojenská pietní místa – Pamětní deska Ján Bulík, Bulíkova 17, souřadnice",
+      "url": "https://www.vets.cz/vpm/mista/obec/376-bratislava/Bul%C3%ADkova/",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Ovsištské náměstí",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pamětní deska Jána Bulíka: hlas vojvodinských Slováků a kurýr protifašistického odboje",
+          "text": "Na boční stěně bytového domu na Bulíkově ulici 17 připomíná pamětní deska právníka Jána Bulíka (1897–1942), významného představitele Slováků v tehdejší Jugoslávii. Bulík se narodil v Kovačici v srbském Banátu a po studiích práv působil jako advokát. V roce 1932 patřil k zakladatelům Matice slovenské v Jugoslávii a stal se jejím prvním předsedou. Po rozbití Československa nacistickým Německem pomáhal československým uprchlíkům: zajišťoval jim doklady, peníze, ubytování a cestu do Francie. Zároveň působil jako kurýr mezi domácím odbojem v Praze a Bratislavě a československým exilem v Paříži. Gestapo ho po okupaci Jugoslávie vypátralo a 27. července 1941 zatklo. Po věznění v Bělehradě, Vídni a Praze byl deportován do koncentračního tábora Mauthausen, kde 30. ledna 1942 zemřel. Deska v Petržalce tak připomíná nejen jeho osobní osud, ale také přeshraniční síť pomoci a odporu, kterou organizovali lidé ze slovenské krajanské komunity v jihovýchodní Evropě."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ovsištské náměstí",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gedenktafel für Ján Bulík: Stimme der Slowaken in der Vojvodina und Kurier des antifaschistischen Widerstands",
+          "text": "An der Seitenwand eines Wohnhauses in der Bulíkova-Straße 17 erinnert eine Gedenktafel an den Juristen Ján Bulík (1897–1942), einen bedeutenden Vertreter der Slowaken im damaligen Jugoslawien. Bulík wurde in Kovačica im serbischen Banat geboren und arbeitete nach seinem Jurastudium als Rechtsanwalt. 1932 gehörte er zu den Gründern der Matica Slovenská in Jugoslawien und wurde ihr erster Vorsitzender. Nach der Zerschlagung der Tschechoslowakei durch NS-Deutschland half er tschechoslowakischen Flüchtlingen: Er beschaffte ihnen Dokumente, Geld und Unterkunft und organisierte ihre Weiterreise nach Frankreich. Zugleich war er Kurier zwischen dem Widerstand in Prag und Bratislava und dem tschechoslowakischen Exil in Paris. Nach der Besetzung Jugoslawiens spürte ihn die Gestapo auf und verhaftete ihn am 27. Juli 1941. Nach Haft in Belgrad, Wien und Prag wurde er in das Konzentrationslager Mauthausen deportiert, wo er am 30. Januar 1942 starb. Die Gedenktafel in Petržalka erinnert damit nicht nur an sein persönliches Schicksal, sondern auch an das grenzüberschreitende Netzwerk aus Hilfe und Widerstand, das Menschen aus der slowakischen Gemeinschaft in Südosteuropa aufbauten."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Ovsištské Square",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ján Bulík memorial plaque: a voice for Vojvodina's Slovaks and a courier for the anti-Nazi resistance",
+          "text": "A memorial plaque on the side wall of the apartment building at 17 Bulíkova Street commemorates lawyer Ján Bulík (1897–1942), an important representative of Slovaks in what was then Yugoslavia. Born in Kovačica in the Serbian Banat, Bulík worked as a lawyer after studying law. In 1932 he helped found the Slovak cultural association Matica Slovenská in Yugoslavia and became its first chairman. After Nazi Germany dismantled Czechoslovakia, he assisted Czechoslovak refugees by arranging documents, money, accommodation and onward travel to France. He also served as a courier between the domestic resistance in Prague and Bratislava and the Czechoslovak exile community in Paris. After the occupation of Yugoslavia, the Gestapo found and arrested him on 27 July 1941. Following imprisonment in Belgrade, Vienna and Prague, he was deported to Mauthausen concentration camp, where he died on 30 January 1942. The plaque in Petržalka therefore commemorates not only his personal fate, but also the cross-border network of aid and resistance organised by members of the Slovak expatriate community in southeastern Europe."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Plaza de Ovsište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Placa conmemorativa de Ján Bulík: voz de los eslovacos de Voivodina y correo de la resistencia antifascista",
+          "text": "Una placa conmemorativa en la pared lateral del edificio residencial de la calle Bulíkova 17 recuerda al abogado Ján Bulík (1897–1942), destacado representante de los eslovacos en la antigua Yugoslavia. Nació en Kovačica, en el Banato serbio, y ejerció la abogacía tras estudiar Derecho. En 1932 participó en la fundación de Matica Slovenská en Yugoslavia, asociación cultural eslovaca de la que fue el primer presidente. Tras la destrucción de Checoslovaquia por la Alemania nazi, ayudó a los refugiados checoslovacos facilitándoles documentos, dinero, alojamiento y el viaje a Francia. También actuó como correo entre la resistencia clandestina de Praga y Bratislava y el exilio checoslovaco en París. Tras la ocupación de Yugoslavia, la Gestapo lo localizó y lo arrestó el 27 de julio de 1941. Después de pasar por prisiones en Belgrado, Viena y Praga, fue deportado al campo de concentración de Mauthausen, donde murió el 30 de enero de 1942. La placa de Petržalka recuerda así tanto su destino personal como la red transfronteriza de ayuda y resistencia organizada por miembros de la comunidad eslovaca emigrada en el sureste de Europa."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Place d’Ovsište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La plaque à la mémoire de Ján Bulík : une voix pour les Slovaques de Voïvodine et un courrier de la résistance antifasciste",
+          "text": "Une plaque commémorative apposée sur le mur latéral de l’immeuble du 17, rue Bulíkova rappelle le juriste Ján Bulík (1897–1942), représentant important des Slovaques dans l’ancienne Yougoslavie. Né à Kovačica, dans le Banat serbe, il exerça comme avocat après des études de droit. En 1932, il participa à la fondation de la Matica Slovenská en Yougoslavie, association culturelle slovaque dont il devint le premier président. Après le démembrement de la Tchécoslovaquie par l’Allemagne nazie, il aida les réfugiés tchécoslovaques en leur procurant des documents, de l’argent, un hébergement et un itinéraire vers la France. Il servit également de courrier entre la résistance intérieure à Prague et Bratislava et l’exil tchécoslovaque à Paris. Après l’occupation de la Yougoslavie, la Gestapo le retrouva et l’arrêta le 27 juillet 1941. Après avoir été détenu à Belgrade, Vienne et Prague, il fut déporté au camp de concentration de Mauthausen, où il mourut le 30 janvier 1942. La plaque de Petržalka rappelle ainsi non seulement son destin personnel, mais aussi le réseau transfrontalier d’entraide et de résistance organisé par des membres de la communauté slovaque expatriée en Europe du Sud-Est."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Piazza di Ovsište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La targa commemorativa di Ján Bulík: voce degli slovacchi della Voivodina e corriere della resistenza antifascista",
+          "text": "Una targa commemorativa sulla parete laterale del palazzo al numero 17 di via Bulíkova ricorda l’avvocato Ján Bulík (1897–1942), importante rappresentante degli slovacchi nell’allora Jugoslavia. Nato a Kovačica, nel Banato serbo, dopo gli studi in giurisprudenza esercitò la professione forense. Nel 1932 contribuì a fondare la Matica Slovenská in Jugoslavia, associazione culturale slovacca di cui divenne il primo presidente. Dopo lo smembramento della Cecoslovacchia da parte della Germania nazista, aiutò i profughi cecoslovacchi procurando loro documenti, denaro, alloggio e un percorso per raggiungere la Francia. Fu inoltre corriere tra la resistenza interna a Praga e Bratislava e l’esilio cecoslovacco a Parigi. Dopo l’occupazione della Jugoslavia, la Gestapo lo rintracciò e lo arrestò il 27 luglio 1941. Dopo la detenzione a Belgrado, Vienna e Praga, fu deportato nel campo di concentramento di Mauthausen, dove morì il 30 gennaio 1942. La targa di Petržalka ricorda così non soltanto il suo destino personale, ma anche la rete transfrontaliera di aiuto e resistenza organizzata dai membri della comunità slovacca emigrata nell’Europa sud-orientale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Ovsištské-plein",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De gedenkplaat voor Ján Bulík: stem van de Slowaken in de Vojvodina en koerier van het antifascistische verzet",
+          "text": "Op de zijgevel van het appartementencomplex aan Bulíkova 17 herinnert een gedenkplaat aan jurist Ján Bulík (1897–1942), een belangrijke vertegenwoordiger van de Slowaken in het toenmalige Joegoslavië. Bulík werd geboren in Kovačica in het Servische Banaat en werkte na zijn rechtenstudie als advocaat. In 1932 hielp hij de Matica Slovenská in Joegoslavië oprichten, een Slowaakse culturele vereniging waarvan hij de eerste voorzitter werd. Na de vernietiging van Tsjechoslowakije door nazi-Duitsland hielp hij Tsjechoslowaakse vluchtelingen aan documenten, geld en onderdak en organiseerde hij hun reis naar Frankrijk. Ook was hij koerier tussen het binnenlandse verzet in Praag en Bratislava en de Tsjechoslowaakse ballingen in Parijs. Na de bezetting van Joegoslavië wist de Gestapo hem op te sporen en arresteerde hem op 27 juli 1941. Na gevangenschap in Belgrado, Wenen en Praag werd hij gedeporteerd naar concentratiekamp Mauthausen, waar hij op 30 januari 1942 overleed. De gedenkplaat in Petržalka herdenkt daarmee niet alleen zijn persoonlijke lot, maar ook het grensoverschrijdende netwerk van hulp en verzet dat leden van de Slowaakse gemeenschap in Zuidoost-Europa organiseerden."
+        }
+      ]
+    }
+  }
 }
