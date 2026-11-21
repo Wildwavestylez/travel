@@ -6,7 +6,7 @@
 - Databázový zdroj pravdy: Neon `public.italy_cap_records`.
 - Aktuální `workflow_status`: `placeholder` (záměrně beze změny).
 - Původní inventář: 46 master faktů a 46 × 7 = 322 překladových položek.
-- Stav po průběžném reworku: **57 master faktů a 57 × 7 = 399 překladových položek**.
+- Stav po průběžném reworku: **58 master faktů a 58 × 7 = 406 překladových položek**.
 - Tento tahák je oddělený od uzavřeného auditu osmi validovaných CAP 59011, 59013, 59015, 59016, 59021, 59024, 59025 a 59026.
 
 ## 1. Provedené obsahové změny
@@ -40,24 +40,24 @@
 
 Databázový read-back po provedených změnách potvrdil:
 
-- 57 master faktů, unikátní ID `fact_001` až `fact_057`.
-- 7 jazyků: `cs,de,en,es,fr,it,nl`; každý obsahuje přesně 57 položek.
-- Celkem 399 překladových položek; žádný prázdný překlad.
-- Italský mirror odpovídá masteru u všech 57 faktů.
+- 58 master faktů, unikátní ID `fact_001` až `fact_058`.
+- 7 jazyků: `cs,de,en,es,fr,it,nl`; každý obsahuje přesně 58 položek.
+- Celkem 406 překladových položek; žádný prázdný překlad.
+- Italský mirror odpovídá masteru u všech 58 faktů.
 - Pořadí a ID překladů odpovídají pořadí a ID master faktů.
 - Všechny master texty splňují minimální délku 350 znaků.
 - Všechny kategorie, mapové kategorie, typy lokací a přesnosti lokací odpovídají enumům aktuálního `schema.json`.
-- Všech 57 faktů má lokaci s číselnými souřadnicemi, platným rozsahem a zdrojem.
+- Všech 58 faktů má lokaci s číselnými souřadnicemi, platným rozsahem a zdrojem.
 - Všechny zdroje odkazované z `facts[].sources` a `facts[].location.source` jsou v top-level `sources[]`.
-- Top-level inventář má po deduplikaci 241 unikátních URL; žádné duplicitní URL.
+- Top-level inventář má po deduplikaci 245 unikátních URL; žádné duplicitní URL.
 - Žádné chybějící povinné root pole; JSONB neobsahuje zakázaná root pole `status` ani `data_version`.
-- Finální scan všech 399 překladových položek potvrdil 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků.
+- Finální scan všech 406 překladových položek potvrdil 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků.
 
 ### Geografické poznámky
 
 - `fact_029` Teatro Fabbricone a `fact_038` Il Fabbricone mají shodné souřadnice, protože popisují dvě různé, ale fyzicky propojené stránky téhož průmyslového komplexu. Nejde o duplicitní příběhy ani duplicitní faktové texty; je třeba rozhodnout, zda pro mapové zobrazení ponechat společný bod.
 - `fact_047` je bod reprezentující archeologickou oblast, nikoli geodeticky přesný bod jedné stavby.
-- Strukturální přítomnost souřadnic a zdroje sama o sobě neznamená nové nezávislé geodetické ověření každého ze všech 57 bodů.
+- Strukturální přítomnost souřadnic a zdroje sama o sobě neznamená nové nezávislé geodetické ověření každého ze všech 58 bodů.
 
 ## 3. Reklama, zdroje a CAP metadata
 
@@ -71,12 +71,12 @@ Databázový read-back po provedených změnách potvrdil:
 
 | Oblast | Průběžný stav | Poznámka |
 |---|---|---|
-| A — tematická úplnost | IN PROGRESS | Doplněny Gonfienti, Cascine di Tavola a další městské lokality; tematické hledání celého území ještě není uzavřeno. Macrolotto Zero zůstává kandidátem k doplnění po doložení bezpečného mapového bodu. |
+| A — tematická úplnost | IN PROGRESS | Doplněny Gonfienti, Cascine di Tavola, Villa del Palco a další městské lokality; tematické hledání celého území ještě není uzavřeno. Macrolotto Zero zůstává kandidátem k doplnění po doložení bezpečného mapového bodu. |
 | B — geografická plausibilita | IN PROGRESS | Všechny body mají lokaci a zdroj; úplná nezávislá revize každého bodu ještě není uzavřena. |
-| C — geografické přiřazení | IN PROGRESS | Nové body jsou doloženy v Comune di Prato; závěrečný průchod všech 57 přiřazení zbývá. |
+| C — geografické přiřazení | IN PROGRESS | Nové body jsou doloženy v Comune di Prato; závěrečný průchod všech 58 přiřazení zbývá. |
 | D — duplicity | STRUCTURAL PASS | Žádné duplicitní názvy ani texty; společný bod Fabbricone je vysvětlen výše. |
 | E — sémantické kategorie | STRUCTURAL PASS | Žádné neplatné enumy; zbývá závěrečné ruční posouzení všech hraničních případů. |
-| F — překlady | STRUCTURAL PASS | 399/399 položek, italské mirrory 57/57; žádné prázdné nebo krátké texty ani skryté znaky; úplný čtenářský audit všech sedmi jazyků ještě není uzavřen. |
+| F — překlady | STRUCTURAL PASS | 406/406 položek, italské mirrory 58/58; žádné prázdné nebo krátké texty ani skryté znaky; úplný čtenářský audit všech sedmi jazyků ještě není uzavřen. |
 | G — JSON a schéma | PASS (průběžný read-back) | Struktura, ID, povinná pole a enumy prošly kontrolou. |
 | H — souřadnice | IN PROGRESS | Souřadnice a zdroje jsou přítomny; úplné nezávislé přeměření všech bodů nebylo provedeno. |
 | I — reklama a cílená factual kontrola | IN PROGRESS | Reklamní scan bez potvrzené reklamy; cílené ověření všech významných tvrzení ještě pokračuje. |
@@ -118,6 +118,8 @@ Schéma ani lifecycle databáze se neměnily.
 - `fact_056` — **Bastione delle Forche**: medicejská fortifikace navržená v kontextu projektu Antonia da Sangalla mladšího, práce obnovené roku 1551, poškození povodní roku 1618 a dokončená městská obnova v roce 2026.
 - `fact_057` — **Oratorio di Santa Maria Maddalena ai Malsani**: středověký oratoriální kostel vedle někdejšího leprosaria Sant’Iacopo, s fragmenty fresek z poloviny XIII. století a malbou připisovanou Pietru di Miniato z roku 1414.
 
+- `fact_058` — **Villa del Palco**: dimora commissionata da Francesco Datini alla fine del Trecento, trasformata nel 1439 in convento francescano; ampliamenti successivi, soggiorno di San Leonardo da Porto Maurizio nel 1716, soppressione nel 1778 e acquisizione da parte della Diocesi nel 1956.
+
 ### Opravy existujících faktů a mapových metadat
 
 - `fact_001` — odstraněno chybné označení „pulpito bronzeo“. Text nyní správně identifikuje mramorový parapet venkovní kazatelny Donatella a Michelozza a uvádí, že originál je dnes v Museo dell’Opera del Duomo; venku je kopie. Opraveno v masteru a všech sedmi jazycích.
@@ -130,14 +132,14 @@ Schéma ani lifecycle databáze se neměnily.
 
 Read-back po druhém rozšíření potvrdil:
 
-- 57 master faktů a 57 překladů v každém z jazyků `cs,de,en,es,fr,it,nl` — celkem 399 položek.
-- 57/57 přesných italských mirrorů; žádné prázdné nebo kratší než 350 znaků.
+- 58 master faktů a 58 překladů v každém z jazyků `cs,de,en,es,fr,it,nl` — celkem 406 položek.
+- 58/58 přesných italských mirrorů; žádné prázdné nebo kratší než 350 znaků.
 - 0 duplicitních fact ID, názvů a textů.
 - 0 neplatných hodnot `category`, `map_category`, `priority`, `location.type` a `location.accuracy` podle aktuálního `schema.json`.
 - 0 chybných nebo chybějících číselných souřadnic; všech 57 lokací má zdroj.
 - 0 chybějících odkazů z `facts[].sources` a `facts[].location.source` do top-level `sources[]`.
-- 241 unikátních URL v top-level `sources[]`; žádné duplicitní URL.
-- 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků ve všech 399 překladech.
+- 245 unikátních URL v top-level `sources[]`; žádné duplicitní URL.
+- 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků ve všech 406 překladech.
 - 2 výskyty italského kořene `acquista` zůstávají pouze v historickém významu: `fact_021` (nákup domů řeholnicemi) a `fact_039` (historické nabytí pozemků rodinou Lucchesi). Nejde o reklamu ani nákupní výzvu.
 - Jediná skupina přesně shodných souřadnic zůstává `fact_029` a `fact_038`, dvě různá místa / příběhy ve fyzicky propojeném komplexu Fabbricone.
 
