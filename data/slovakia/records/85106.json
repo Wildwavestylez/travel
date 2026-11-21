@@ -1,4 +1,167 @@
 {
   "postcode": "85106",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Beňadická – Lúky",
+  "representative_point": {
+    "lat": 48.09858544179048,
+    "lon": 17.10454402835651
+  },
+  "access_point": null,
+  "district_type": "urban_district",
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Zrod: rozkvetlý kamenný strom před školou na Beňadické",
+      "text": "Před vstupem do Cirkevní základní školy Narnia na Beňadické 38 stojí plastika Zrod, kterou městská část Petržalka ve svém seznamu pamětihodností označuje také jako Kvitnúci strom. Dílo vytvořil akademický sochař Jozef Barinka v roce 1985. Tvoří je vysoký betonový sloup představující kmen a oválný pískovcový reliéf s vytesanými květy a listy, který připomíná rozvíjející se korunu stromu. Plastika je příkladem výtvarného dotváření veřejného prostoru při výstavbě petržalského sídliště: umění zde nebylo umístěno do galerie, ale přímo do každodenního prostředí školy a okolních obytných domů. Městský evidenční list ji řadí mezi hmotné nehnutelné pamětihodnosti Bratislavy a uvádí její adresu před hlavním vstupem do školy.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "src_postal",
+        "src_postal_streets",
+        "src_city_heritage",
+        "src_petrzalka_heritage",
+        "src_school_address",
+        "src_location"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Plastika Zrod (Kvitnúci strom), před vstupem do Cirkevní základní školy Narnia",
+        "address": "Beňadická 38, 851 06 Bratislava-Petržalka, Slovensko",
+        "lat": 48.09858544179048,
+        "lon": 17.10454402835651,
+        "type": "sculpture",
+        "accuracy": "approximate",
+        "source": "https://zastupitelstvo.bratislava.sk/data/att/75360.pdf"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre účinné od 01.01.2026, príloha 3a, řadí rozsah 851 01–09 k vybrané poště Bratislava 5. Seznam ulic pro 851 06 uvádí Beňadickou; konkrétní fyzická adresa Beňadická 38 je doložena jako 851 06 Bratislava.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a; SITA – zoznam ulíc PSČ 85106",
+    "postcode_source_release": "Účinnosť od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Rozsah 851 01–09 je v technických parametroch Slovenské pošty smerován na vybranou poštu Bratislava 5. Tento provozní údaj není použit jako geografický reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Konkrétní fyzická adresa Beňadická 38 a její PSČ 851 06 jsou doloženy mapovým adresním záznamem; seznam ulic pro 85106 potvrzuje Beňadickou; městský evidenční list Bratislavy dokládá umístění památky před hlavním vstupem školy. Přímý export RAGEO nebyl načten, proto geographic_test_data zůstává false."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "SITA – PSČ 85106 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85106/",
+      "type": "news"
+    },
+    {
+      "id": "src_city_heritage",
+      "title": "Hlavné mesto SR Bratislava – Evidenčný list pamätihodnosti mesta: Zrod, Beňadická 38",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/75360.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_petrzalka_heritage",
+      "title": "Mestská časť Bratislava-Petržalka – Pamätihodnosti a pamiatky, plastika Kvitnúci strom na Beňadickej",
+      "url": "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "id": "src_school_address",
+      "title": "Cirkevná základná škola Narnia – adresa a prístup do školy, Beňadická 38, 851 06 Bratislava",
+      "url": "https://narnia.sk/cesta-ako-sa-k-nam-dostat/",
+      "type": "official"
+    },
+    {
+      "id": "src_location",
+      "title": "OMA – Beňadická 38, 851 06 Bratislava-Petržalka, adresní bod a souřadnice",
+      "url": "https://bratislava.oma.sk/u/benadicka/38",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: rozkvetlý kamenný strom před školou na Beňadické",
+          "text": "Před vstupem do Cirkevní základní školy Narnia na Beňadické 38 stojí plastika Zrod, kterou městská část Petržalka ve svém seznamu pamětihodností označuje také jako Kvitnúci strom. Dílo vytvořil akademický sochař Jozef Barinka v roce 1985. Tvoří je vysoký betonový sloup představující kmen a oválný pískovcový reliéf s vytesanými květy a listy, který připomíná rozvíjející se korunu stromu. Plastika je příkladem výtvarného dotváření veřejného prostoru při výstavbě petržalského sídliště: umění zde nebylo umístěno do galerie, ale přímo do každodenního prostředí školy a okolních obytných domů. Městský evidenční list ji řadí mezi hmotné nehnutelné pamětihodnosti Bratislavy a uvádí její adresu před hlavním vstupem do školy."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: ein steinerner Blütenbaum vor der Schule in der Beňadická-Straße",
+          "text": "Vor dem Eingang der kirchlichen Grundschule Narnia in der Beňadická 38 steht die Skulptur Zrod, die der Stadtteil Petržalka in seinem Denkmalverzeichnis auch als Kvitnúci strom („Blühender Baum“) bezeichnet. Das Werk schuf der akademische Bildhauer Jozef Barinka im Jahr 1985. Es besteht aus einer hohen Betonsäule, die den Stamm darstellt, und einem ovalen Sandsteinrelief mit eingemeißelten Blüten und Blättern, das an eine sich entfaltende Baumkrone erinnert. Die Skulptur ist ein Beispiel für die künstlerische Gestaltung des öffentlichen Raums während des Baus der Großwohnsiedlung Petržalka: Die Kunst wurde nicht in einer Galerie, sondern unmittelbar im alltäglichen Umfeld der Schule und der benachbarten Wohnhäuser aufgestellt. Das städtische Denkmalverzeichnis führt sie als materielles unbewegliches Denkmal von Bratislava und nennt ihren Standort vor dem Haupteingang der Schule."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: a stone tree in bloom outside the school on Beňadická Street",
+          "text": "A sculpture called Zrod stands outside the entrance to Narnia Church Primary School at 38 Beňadická Street. In its heritage list, the Petržalka borough also refers to the work as Kvitnúci strom, or “Blossoming Tree”. It was created in 1985 by academic sculptor Jozef Barinka. The sculpture consists of a tall concrete column representing a tree trunk and an oval sandstone relief carved with flowers and leaves, suggesting a crown coming into bloom. It illustrates the role of public art in shaping the environment of the Petržalka housing estate: rather than being placed in a gallery, the work became part of the everyday surroundings of a school and nearby apartment buildings. Bratislava’s municipal heritage record lists it as a tangible immovable heritage site and locates it in front of the school’s main entrance."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: un árbol de piedra en flor ante la escuela de la calle Beňadická",
+          "text": "Ante la entrada de la escuela primaria confesional Narnia, en Beňadická 38, se encuentra la escultura Zrod, que el distrito de Petržalka también denomina Kvitnúci strom («Árbol en flor») en su inventario patrimonial. La obra fue creada en 1985 por el escultor académico Jozef Barinka. Está formada por una alta columna de hormigón que representa el tronco y un relieve ovalado de arenisca con flores y hojas talladas, que evoca una copa en pleno desarrollo. La escultura muestra cómo el arte contribuyó a configurar el espacio público durante la construcción del barrio residencial de Petržalka: no se instaló en una galería, sino en el entorno cotidiano de una escuela y de los edificios de viviendas cercanos. El registro patrimonial municipal de Bratislava la incluye entre los bienes inmuebles de interés y sitúa la obra delante de la entrada principal del centro escolar."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod : un arbre de pierre en fleurs devant l’école de la rue Beňadická",
+          "text": "Devant l’entrée de l’école primaire confessionnelle Narnia, au 38, rue Beňadická, se trouve la sculpture Zrod, également appelée Kvitnúci strom (« Arbre en fleurs ») dans l’inventaire patrimonial de l’arrondissement de Petržalka. L’œuvre a été réalisée en 1985 par le sculpteur académique Jozef Barinka. Elle se compose d’une haute colonne en béton figurant le tronc d’un arbre et d’un relief ovale en grès sculpté de fleurs et de feuilles, qui évoque une couronne en train de s’épanouir. Cette sculpture illustre la place accordée à l’art dans l’aménagement de l’espace public lors de la construction du grand ensemble résidentiel de Petržalka : elle n’a pas été installée dans une galerie, mais directement dans l’environnement quotidien d’une école et des immeubles voisins. Le registre patrimonial municipal de Bratislava la classe parmi les biens immobiliers remarquables et la situe devant l’entrée principale de l’établissement."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: un albero di pietra in fiore davanti alla scuola di via Beňadická",
+          "text": "Davanti all’ingresso della scuola primaria confessionale Narnia, al numero 38 di via Beňadická, si trova la scultura Zrod, che nell’inventario dei beni culturali del quartiere di Petržalka è indicata anche come Kvitnúci strom, «Albero in fiore». L’opera fu realizzata nel 1985 dallo scultore accademico Jozef Barinka. È composta da un alto pilastro di cemento che rappresenta il tronco e da un rilievo ovale in arenaria con fiori e foglie scolpiti, che richiama una chioma in fase di fioritura. La scultura mostra il ruolo dell’arte nella progettazione degli spazi pubblici durante la costruzione del grande quartiere residenziale di Petržalka: non fu collocata in una galleria, ma entrò a far parte dell’ambiente quotidiano di una scuola e dei vicini edifici abitativi. Il registro comunale dei beni culturali di Bratislava la classifica come bene immobile di interesse e ne indica la posizione davanti all’ingresso principale della scuola."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Beňadická – Lúky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zrod: een stenen boom in bloei voor de school aan de Beňadická-straat",
+          "text": "Voor de ingang van de kerkelijke basisschool Narnia aan Beňadická 38 staat het beeld Zrod. In de erfgoedlijst van het stadsdeel Petržalka wordt het ook aangeduid als Kvitnúci strom, oftewel ‘Bloeiende boom’. Het werk werd in 1985 gemaakt door de academische beeldhouwer Jozef Barinka. Het bestaat uit een hoge betonnen zuil die de stam verbeeldt en een ovaal reliëf van zandsteen waarin bloemen en bladeren zijn uitgehouwen; samen roepen ze het beeld op van een boomkroon die tot bloei komt. Het beeld laat zien hoe kunst de openbare ruimte van de nieuwe woonwijk Petržalka mede vormgaf. Het kreeg geen plaats in een galerie, maar werd onderdeel van de dagelijkse omgeving van een school en de omliggende flats. In het gemeentelijke erfgoedregister van Bratislava staat het vermeld als onroerend erfgoed, met als locatie de ruimte voor de hoofdingang van de school."
+        }
+      ]
+    }
+  }
 }
