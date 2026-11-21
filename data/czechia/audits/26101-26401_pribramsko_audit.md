@@ -308,3 +308,22 @@ Tato sekce je nejnovější stav a nahrazuje starší průběžné součty a ote
 
 ### Výsledek
 **REVIEW REQUIRED.** Základní inventář, struktura, délky českých textů, polohy, kategorie, duplicity, synchronizace city a reklamní scan jsou uzavřeny. Otevřené zůstávají trasovatelnost 81 zdrojových aliasů, lifecycle status 26232 a úplná sémantická kontrola všech cizojazyčných textů. Žádná publikace V5, záloha ani read-only zamčení nebyly spuštěny.
+
+## Doplnění zásadních témat — 2026-11-21, poslední read-back
+
+Tato sekce je nejnovější stav a přepisuje starší součty i poznámky o turistických mezerách v dotčených PSČ.
+
+- **26101 / fact_012 — Vodní kolo na Drkolnově:** doplněno do Supabase. Podzemní vodní kolo o průměru 12,4 m v areálu bývalého dolu Drkolnov (dříve August), založeného roku 1836; zařízení bylo uvedeno do provozu přibližně kolem roku 1850, sloužilo k čerpání důlní vody do roku 1899 a později se důlní voda využívala pro zásobování Příbrami pitnou vodou až do roku 1961. Kategorie `culture_and_industry`, priorita A, map_category `technical_heritage`. Zdroje: Hornické muzeum Příbram (prohlídkový areál A a hornický skanzen) a NPÚ – Památkový katalog, historické podzemí/vodní patro Drkolnov. Poloha zůstává `null`: přestože je identita a lokalita doložena, přesný bod konkrétního podzemního zařízení nebyl v tomto kroku bezpečně ověřen; nebyla použita souřadnice jiného objektu ani representative_point.
+- **26223 / fact_012 — Hradiště Plešivec:** doplněno do Supabase. Významná pravěká archeologická lokalita u Rejkovic s vícefázovým osídlením, zvláště významnou bronzovou fází, členěním hradiště a dochovanými kamennými valy. Kategorie `history`, priorita A, map_category `archaeological_site`. Zdroje: NPÚ – Státní archeologický seznam (SAS 8114) a Atlas české architektury. Poloha zůstává `null`, protože přesný bod hradiště nebyl v tomto kroku samostatně ověřen; nebyl použit střed obce ani vrchol jako náhrada.
+- Oba nové fakty mají český master text delší než 350 znaků, odpovídající položku v každém jazyce cs/de/en/es/fr/it/nl a nové zdroje v kořenovém registru `content.sources`.
+- Read-back po zápisu: **36 PSČ, 271 faktů**; v obou dotčených PSČ 12 master faktů a 12 položek v každém ze sedmi jazyků. ID `fact_012` je v obou záznamech shodné s ID překladů. České texty mají 775 a 816 znaků. Kořenové zdroje: 31 v každém záznamu; nové zdroje jsou dohledatelné (3 pro Drkolnov, 2 pro Plešivec).
+- Po těchto dvou doplněních je v celém rozsahu nově **271 faktů a 1 897 překladových položek**. Dvě nově přidaná fakta mají záměrně `location=null`; předchozí tvrzení o 0 null polohách proto již neplatí. Nejde o strukturální chybu: schema dovoluje null, dokud není poloha obhajitelně doložena. Žádné existující souřadnice nebyly změněny.
+- Statusy, `data_version`, ostatní obsah a německé záznamy zůstaly nedotčeny. Nebyla spuštěna publikace, V5, záloha ani read-only zamčení.
+
+### Zásadní tematická kontrola — stav
+- 26101: Drkolnov nyní pokryt samostatným faktem; obecný fakt o hornickém muzeu zůstává zachován.
+- 26223: Plešivec nyní pokryt samostatným faktem; existující fakta o Jincích, trilobitech a hutnictví zůstávají zachována.
+- 26203: Nový Knín a jeho hornicko-muzejní příběh již pokrývá existující fact_003; další duplicitní záznam nebyl přidán.
+- Baštiny/Teslín: nadále nepřiřazeno. Bez bezpečného geografického důkazu příslušnosti k některému PSČ se fakt nevytváří.
+
+**Výsledek auditu zůstává REVIEW REQUIRED.** Otevřené jsou dříve evidované otázky trasovatelnosti zdrojových aliasů, statusu placeholderu 26232, úplné sémantické kontroly překladů a geografického cross-checku.
