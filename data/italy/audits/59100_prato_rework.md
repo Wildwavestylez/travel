@@ -18,7 +18,7 @@
   - Odděleno od Museo Archeologico di Gonfienti v Rocca Strozzi, které se nachází v Campi Bisenzio; muzeum nebylo chybně přiřazeno k CAP 59100.
   - Chronologie rozlišuje nejstarší fáze osídlení na konci 7. století př. n. l. a rozvoj plánovaného města v 6. století př. n. l.; nejde o nerozlišený rozpor datací.
   - Lokalita: `43.85476, 11.12943`, `archaeological_site`, přesnost `area_representative`. Bod reprezentuje archeologickou oblast, nikoli konkrétní vykopanou budovu.
-  - Zdroje: Soprintendenza ABAP – strategický plán Gonfienti (2024); Prato Turismo; Prato Musei.
+  - Zdroje: Soprintendenza ABAP – strategický plán Gonfienti (2024); Prato Turismo.
 
 - `fact_048` — **Le Cascine di Tavola: la fattoria modello di Lorenzo il Magnifico e il paesaggio mediceo**.
   - Doplněna významná medicejská zemědělská usedlost a historická krajina na břehu Ombrone na území Prata.
