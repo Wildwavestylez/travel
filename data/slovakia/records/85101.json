@@ -1,4 +1,246 @@
 {
   "postcode": "85101",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Sad Janka Kráľa",
+  "representative_point": {
+    "lat": 48.1349326,
+    "lon": 17.1094339
+  },
+  "access_point": {
+    "lat": 48.1349326,
+    "lon": 17.1094339
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Sad Janka Kráľa: veřejný park z doby Marie Terezie",
+      "text": "Sad Janka Kráľa vznikal v letech 1774–1776 na pravém břehu Dunaje, na místě původního lužního lesa a pastvin. Patří k nejstarším veřejným městským parkům ve střední Evropě. Jeho charakteristický půdorys tvoří osm alejí sbíhajících se do středu. Výraznou dominantou je kamenný vrchol gotické věže z františkánského kostela, přenesený do parku na konci 19. století poté, co věž poškodilo zemětřesení.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "src_park_city",
+        "src_park_visit",
+        "src_park_tower"
+      ],
+      "location": {
+        "name": "Sad Janka Kráľa – střed parku",
+        "lat": 48.1349326,
+        "lon": 17.1094339,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://www.naspark.sk/sk/park/19-sad-janka-krala"
+      },
+      "map_category": "park_garden"
+    },
+    {
+      "id": "fact_002",
+      "title": "Divadlo Aréna: od letního amfiteátru k historické scéně",
+      "text": "Divadelní tradice na petržalském břehu Dunaje začala roku 1828, kdy zde vzniklo otevřené dřevěné letní divadlo v podobě amfiteátru – odtud název Aréna. Na jeho místě byla na přelomu 19. a 20. století vybudována krytá divadelní budova; první představení v ní se konalo 1. června 1900. S Arénou jsou spojeny také rané herecké začátky pozdějšího významného režiséra Maxe Reinhardta, který zde vystupoval jako mladý herec.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "src_arena_history",
+        "src_arena_address",
+        "src_arena_architecture"
+      ],
+      "location": {
+        "name": "Divadlo Aréna, Viedenská cesta 10",
+        "address": "Viedenská cesta 10, 851 01 Bratislava, Slovensko",
+        "lat": 48.1358333,
+        "lon": 17.1147222,
+        "type": "theatre",
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/en/arena-theatre-divadlo-arena"
+      },
+      "map_category": "cultural_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre, príloha 3a: rozsah PSČ 851 01–09 je priradený pošte Bratislava 5 (https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf).",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Rozsah 851 01–851 09 je v technických parametroch Slovenskej pošty priradený vybranej pošte Bratislava 5. Jej fyzická adresa je Vlastenecké námestie 4 v mestskej časti Petržalka; adresa pošty nie je reprezentatívnym bodom PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "RAGEO-derived address-point dataset (pinned release) for postcode address distribution; official Bratislava and Slovak administrative sources for municipality, urban district, okres and kraj."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: triedenie a zväzkovanie zásielok",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_rageo",
+      "title": "Slovak postal-code address dataset – pinned postal_codes.csv release",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "id": "src_post_office",
+      "title": "Slovenská pošta – zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-poskytujucich-sluzby-integrovanych-obsluznych-miest.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_park_city",
+      "title": "Mesto Bratislava – Sad Janka Kráľa a Tyršovo nábrežie",
+      "url": "https://bratislava.sk/zivotne-prostredie-a-vystavba/zelen/udrzba-a-tvorba-zelene/parky-a-zahrady/sad-janka-krala-a-tyrsovo-nabrezie",
+      "type": "official"
+    },
+    {
+      "id": "src_park_visit",
+      "title": "Visit Bratislava – Sad Janka Kráľa",
+      "url": "https://www.visitbratislava.com/sk/sights-attractions/sad-janka-krala/",
+      "type": "official"
+    },
+    {
+      "id": "src_park_tower",
+      "title": "Bratislava Region – Gotická veža z františkánskeho kostola v Sade Janka Kráľa",
+      "url": "https://bratislavaregion.travel/poi/6683/goticka-veza-z-frantiskanskeho-kostola-v-sade-janka-krala",
+      "type": "regional"
+    },
+    {
+      "id": "src_park_location",
+      "title": "Národný portál historických parkov – Sad Janka Kráľa",
+      "url": "https://www.naspark.sk/sk/park/19-sad-janka-krala",
+      "type": "specialist"
+    },
+    {
+      "id": "src_arena_history",
+      "title": "Divadlo Aréna – História",
+      "url": "https://www.divadloarena.sk/cms/historia",
+      "type": "official"
+    },
+    {
+      "id": "src_arena_address",
+      "title": "Slovakia.travel – Divadlo Aréna",
+      "url": "https://slovakia.travel/en/arena-theatre-divadlo-arena",
+      "type": "official"
+    },
+    {
+      "id": "src_arena_architecture",
+      "title": "Register modernej architektúry – Divadlo Aréna",
+      "url": "https://register-architektury.sk/sk/objekt/744-divadlo-arena",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Sad Janka Kráľa",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sad Janka Kráľa: veřejný park z doby Marie Terezie",
+          "text": "Sad Janka Kráľa vznikal v letech 1774–1776 na pravém břehu Dunaje, na místě původního lužního lesa a pastvin. Patří k nejstarším veřejným městským parkům ve střední Evropě. Jeho charakteristický půdorys tvoří osm alejí sbíhajících se do středu. Výraznou dominantou je kamenný vrchol gotické věže z františkánského kostela, přenesený do parku na konci 19. století poté, co věž poškodilo zemětřesení."
+        },
+        {
+          "id": "fact_002",
+          "title": "Divadlo Aréna: od letního amfiteátru k historické scéně",
+          "text": "Divadelní tradice na petržalském břehu Dunaje začala roku 1828, kdy zde vzniklo otevřené dřevěné letní divadlo v podobě amfiteátru – odtud název Aréna. Na jeho místě byla na přelomu 19. a 20. století vybudována krytá divadelní budova; první představení v ní se konalo 1. června 1900. S Arénou jsou spojeny také rané herecké začátky pozdějšího významného režiséra Maxe Reinhardta, který zde vystupoval jako mladý herec."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Janko-Kráľ-Park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Janko-Kráľ-Park: ein öffentlicher Park aus der Zeit Maria Theresias",
+          "text": "Der Janko-Kráľ-Park entstand zwischen 1774 und 1776 am rechten Donauufer auf dem Gelände eines früheren Auwaldes und von Weideflächen. Er zählt zu den ältesten öffentlichen Stadtparks Mitteleuropas. Sein charakteristischer Grundriss besteht aus acht Alleen, die sternförmig auf einen Mittelpunkt zulaufen. Ein markantes Wahrzeichen ist die steinerne Spitze des gotischen Turms der Franziskanerkirche, die Ende des 19. Jahrhunderts in den Park versetzt wurde, nachdem ein Erdbeben den Turm beschädigt hatte."
+        },
+        {
+          "id": "fact_002",
+          "title": "Theater Aréna: vom sommerlichen Amphitheater zur historischen Bühne",
+          "text": "Die Theatergeschichte am Petržalka-Ufer der Donau begann 1828 mit einem offenen hölzernen Sommertheater in Form eines Amphitheaters – daher der Name Aréna. An seiner Stelle entstand um die Wende vom 19. zum 20. Jahrhundert ein überdachtes Theatergebäude; die erste Vorstellung darin fand am 1. Juni 1900 statt. Mit der Aréna sind auch die frühen Schauspieljahre des später bedeutenden Regisseurs Max Reinhardt verbunden, der hier als junger Schauspieler auftrat."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Janko Kráľ Park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Janko Kráľ Park: a public garden from the age of Maria Theresa",
+          "text": "Janko Kráľ Park was laid out between 1774 and 1776 on the right bank of the Danube, on land formerly occupied by floodplain woodland and pastures. It is among the oldest public urban parks in Central Europe. Its distinctive plan is formed by eight avenues radiating towards a central point. A striking landmark is the stone upper section of the Gothic tower from the Franciscan Church, moved into the park in the late 19th century after an earthquake damaged the tower."
+        },
+        {
+          "id": "fact_002",
+          "title": "Aréna Theatre: from an open-air summer amphitheatre to a historic stage",
+          "text": "Theatre on the Petržalka bank of the Danube dates back to 1828, when an open-air wooden summer theatre in the form of an amphitheatre was established here; this gave Aréna its name. A roofed theatre building was constructed on the site around the turn of the 20th century, and its first performance took place on 1 June 1900. Aréna is also linked to the early acting career of the later renowned director Max Reinhardt, who performed here as a young actor."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Parque Janko Kráľ",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Parque Janko Kráľ: un jardín público de la época de María Teresa",
+          "text": "El parque Janko Kráľ se creó entre 1774 y 1776 en la orilla derecha del Danubio, sobre terrenos que antes ocupaban un bosque de ribera y pastos. Está considerado uno de los parques urbanos públicos más antiguos de Europa Central. Su trazado característico está formado por ocho avenidas arboladas que convergen en un punto central. Uno de sus elementos más llamativos es la parte superior de piedra de la torre gótica de la iglesia franciscana, trasladada al parque a finales del siglo XIX después de que un terremoto dañara la torre."
+        },
+        {
+          "id": "fact_002",
+          "title": "Teatro Aréna: de anfiteatro estival al aire libre a escenario histórico",
+          "text": "La tradición teatral en la orilla de Petržalka del Danubio comenzó en 1828, cuando se creó aquí un teatro estival de madera al aire libre con forma de anfiteatro; de ahí procede el nombre Aréna. En el mismo lugar se construyó un edificio teatral cubierto en el cambio del siglo XIX al XX, y la primera representación tuvo lugar el 1 de junio de 1900. Aréna también está vinculada a los primeros años como actor del posteriormente célebre director Max Reinhardt, que actuó aquí cuando era joven."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Parc Janko Kráľ",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le parc Janko Kráľ : un jardin public de l’époque de Marie-Thérèse",
+          "text": "Le parc Janko Kráľ a été aménagé entre 1774 et 1776 sur la rive droite du Danube, à l’emplacement d’une ancienne forêt alluviale et de pâturages. Il compte parmi les plus anciens parcs urbains publics d’Europe centrale. Son plan caractéristique est formé de huit allées qui convergent en étoile vers un point central. L’un de ses éléments les plus remarquables est la partie supérieure en pierre de la tour gothique de l’église des Franciscains, transférée dans le parc à la fin du XIXe siècle après que la tour eut été endommagée par un séisme."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le théâtre Aréna : de l’amphithéâtre estival en plein air à une scène historique",
+          "text": "La tradition théâtrale sur la rive de Petržalka, au bord du Danube, remonte à 1828, lorsqu’un théâtre d’été en bois et à ciel ouvert, aménagé comme un amphithéâtre, y fut créé ; c’est de là que vient le nom Aréna. Un bâtiment de théâtre couvert fut construit sur le même site au tournant des XIXe et XXe siècles, et la première représentation y eut lieu le 1er juin 1900. Aréna est également liée aux débuts sur scène de Max Reinhardt, devenu par la suite un metteur en scène de renom, qui s’y produisit lorsqu’il était jeune acteur."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Parco Janko Kráľ",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Parco Janko Kráľ: un giardino pubblico dell’epoca di Maria Teresa",
+          "text": "Il parco Janko Kráľ fu realizzato tra il 1774 e il 1776 sulla riva destra del Danubio, su un terreno che in precedenza ospitava un bosco ripariale e pascoli. È considerato uno dei più antichi parchi urbani pubblici dell’Europa centrale. La sua caratteristica pianta è formata da otto viali alberati che si diramano a raggiera da un punto centrale. Un elemento distintivo è la parte superiore in pietra della torre gotica della chiesa francescana, trasferita nel parco alla fine del XIX secolo dopo che un terremoto aveva danneggiato la torre."
+        },
+        {
+          "id": "fact_002",
+          "title": "Teatro Aréna: dall’anfiteatro estivo all’aperto a un palcoscenico storico",
+          "text": "La tradizione teatrale sulla riva di Petržalka lungo il Danubio iniziò nel 1828, quando qui fu creato un teatro estivo in legno e all’aperto, con forma di anfiteatro: da questa struttura deriva il nome Aréna. Sullo stesso luogo fu costruito un edificio teatrale coperto tra la fine del XIX e l’inizio del XX secolo; la prima rappresentazione vi si tenne il 1º giugno 1900. Aréna è legata anche agli esordi come attore del futuro celebre regista Max Reinhardt, che vi recitò da giovane."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Janko Kráľ-park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Janko Kráľ-park: een openbaar park uit de tijd van Maria Theresia",
+          "text": "Het Janko Kráľ-park werd tussen 1774 en 1776 aangelegd op de rechteroever van de Donau, op grond waar eerder ooibos en weilanden lagen. Het behoort tot de oudste openbare stadsparken van Centraal-Europa. Het kenmerkende ontwerp bestaat uit acht lanen die stervormig naar een middelpunt lopen. Een opvallend herkenningspunt is het stenen bovenstuk van de gotische toren van de franciscanerkerk. Dat werd aan het einde van de negentiende eeuw naar het park verplaatst nadat een aardbeving de toren had beschadigd."
+        },
+        {
+          "id": "fact_002",
+          "title": "Theater Aréna: van openluchttheater in de zomer tot historisch podium",
+          "text": "De theatergeschiedenis aan de Petržalka-oever van de Donau begon in 1828, toen hier een houten openluchttheater voor de zomer werd opgericht in de vorm van een amfitheater. Daaraan dankt Aréna zijn naam. Op dezelfde plek verrees rond de overgang van de negentiende naar de twintigste eeuw een overdekt theatergebouw; de eerste voorstelling vond er plaats op 1 juni 1900. Aréna is ook verbonden met de vroege toneelcarrière van de latere bekende regisseur Max Reinhardt, die er als jonge acteur optrad."
+        }
+      ]
+    }
+  }
 }
