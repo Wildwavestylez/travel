@@ -4,7 +4,7 @@ const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
 const PAGE_SIZE=60;
 const COUNTRY_CONFIG={
   DE:{name:'Německo',from:'01067',backend:'supabase'},
-  CZ:{name:'Česko',from:'10000',backend:'supabase'},
+  CZ:{name:'Česko',from:'10000',backend:'neon',table:'public.czechia_cap_records'},
   SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'},
   IT:{name:'Itálie',from:'00010',backend:'neon',table:'public.italy_cap_records'}
 };
@@ -106,30 +106,33 @@ function listQuery(){
   if(/^\d{5}$/.test(safe))return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&postal_code=eq.'+encodeURIComponent(safe);
   return 'select=postal_code,city&country_code=eq.'+country+'&status=in.(published,validated,placeholder)&or=(postal_code.like.'+encodeURIComponent(safe)+'*,city.ilike.*'+encodeURIComponent(safe)+'*)&order=postal_code.asc&limit='+PAGE_SIZE+'&offset='+offset;
 }
-async function loadItalyList(requestId){
-  $('#list').innerHTML='<div class="loading">Načítám italské CAP přímo z Neonu…</div>';
+async function loadNeonList(requestId, requestedCountry){
+  const config=COUNTRY_CONFIG[requestedCountry];
+  const isItaly=requestedCountry==='IT';
+  $('#list').innerHTML='<div class="loading">Načítám '+(isItaly?'italské CAP':'česká PSČ')+' přímo z Neonu…</div>';
   try{
     const sql=await getItalySql();
     const q=$('#search').value.trim();
+    const table=config.table;
     const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3)";
     const [countRows,pageRows]=await Promise.all([
-      sql.query('SELECT count(*)::int AS total FROM public.italy_cap_records '+where,[q,q+'%','%'+q+'%']),
-      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, updated_at FROM public.italy_cap_records "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5",[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
+      sql.query('SELECT count(*)::int AS total FROM '+table+' '+where,[q,q+'%','%'+q+'%']),
+      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, content_version, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5",[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
     ]);
-    if(requestId!==listRequestId||country!=='IT')return;
+    if(requestId!==listRequestId||country!==requestedCountry)return;
     total=countRows[0]?.total??0;
-    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,record_status:x.record_status||'',has_record:x.has_record}));
+    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,record_status:x.record_status||'',has_record:x.has_record,content_version:x.content_version}));
     renderList();
     const current=selectedPostcode();
     if(!current||!rows.some(x=>x.postal_code===current)){if(rows[0])select(rows[0].postal_code,false);else renderDetail(null);}
     else select(current,false);
-  }catch(e){if(requestId===listRequestId&&country==='IT'){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>';$('#count').textContent='Chyba';}}
+  }catch(e){if(requestId===listRequestId&&country===requestedCountry){$('#list').innerHTML='<div class="error">'+esc(e.message)+'</div>';$('#count').textContent='Chyba';}}
 }
 async function loadList(){
   const requestId=++listRequestId;
   const requestedCountry=country;
   if(COUNTRY_CONFIG[requestedCountry]?.backend==='github')return loadSlovakiaList(requestId,requestedCountry);
-  if(COUNTRY_CONFIG[requestedCountry]?.backend==='neon')return loadItalyList(requestId);
+  if(COUNTRY_CONFIG[requestedCountry]?.backend==='neon')return loadNeonList(requestId,requestedCountry);
   $('#list').innerHTML='<div class="loading">Načítám PSČ…</div>';
   try{
     const r=await api(listQuery());
@@ -161,12 +164,18 @@ async function select(pc,scroll=true){
   renderDetail({loading:true});
   try{
     if(COUNTRY_CONFIG[country]?.backend==='neon'){
+      const config=COUNTRY_CONFIG[country];
       const sql=await getItalySql();
-      const found=await sql.query('SELECT postcode, workflow_status, record, created_at, updated_at FROM public.italy_cap_records WHERE postcode = $1 LIMIT 1',[pc]);
+      const found=await sql.query('SELECT postcode, workflow_status, record, content_version, created_at, updated_at FROM '+config.table+' WHERE postcode = $1 LIMIT 1',[pc]);
       if(requestId!==selectionRequestId||requestedCountry!==country)return;
-      if(!found.length)throw Error('CAP '+pc+' nebylo v Neonu nalezeno.');
+      if(!found.length)throw Error(pc+' nebylo v Neonu nalezeno.');
       const item=found[0];
-      selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record_status:item.record.status||null,record:item.record,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:null,record:null,created_at:item.created_at,updated_at:item.updated_at};
+      if(country==='CZ'){
+        if(!item.record)throw Error('PSČ '+pc+' má v Neonu pouze placeholder bez JSON.');
+        selected={...item.record,postcode:item.postcode,status:item.workflow_status,data_version:item.content_version??null,created_at:item.created_at,updated_at:item.updated_at};
+      }else{
+        selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record_status:item.record.status||null,record:item.record,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:null,record:null,created_at:item.created_at,updated_at:item.updated_at};
+      }
       renderDetail(selected);if(scroll)window.scrollTo({top:0,behavior:'smooth'});return;
     }
     if(COUNTRY_CONFIG[country]?.backend==='github'){
