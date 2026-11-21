@@ -115,13 +115,16 @@ async function loadNeonList(requestId, requestedCountry){
     const q=$('#search').value.trim();
     const table=config.table;
     const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3)";
+    const pageQuery=isItaly
+      ? "SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'city','') AS city, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5"
+      : "SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, content_version, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5";
     const [countRows,pageRows]=await Promise.all([
       sql.query('SELECT count(*)::int AS total FROM '+table+' '+where,[q,q+'%','%'+q+'%']),
-      sql.query("SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, content_version, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5",[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
+      sql.query(pageQuery,[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
     ]);
     if(requestId!==listRequestId||country!==requestedCountry)return;
     total=countRows[0]?.total??0;
-    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,record_status:x.record_status||'',has_record:x.has_record,content_version:x.content_version}));
+    rows=pageRows.map(x=>({postal_code:x.postcode,city:x.city||'',status:x.workflow_status,record_status:x.record_status||'',has_record:x.has_record,content_version:isItaly?null:x.content_version}));
     renderList();
     const current=selectedPostcode();
     if(!current||!rows.some(x=>x.postal_code===current)){if(rows[0])select(rows[0].postal_code,false);else renderDetail(null);}
@@ -166,7 +169,10 @@ async function select(pc,scroll=true){
     if(COUNTRY_CONFIG[country]?.backend==='neon'){
       const config=COUNTRY_CONFIG[country];
       const sql=await getItalySql();
-      const found=await sql.query('SELECT postcode, workflow_status, record, content_version, created_at, updated_at FROM '+config.table+' WHERE postcode = $1 LIMIT 1',[pc]);
+      const detailQuery=country==='IT'
+        ? 'SELECT postcode, workflow_status, record, created_at, updated_at FROM '+config.table+' WHERE postcode = $1 LIMIT 1'
+        : 'SELECT postcode, workflow_status, record, content_version, created_at, updated_at FROM '+config.table+' WHERE postcode = $1 LIMIT 1';
+      const found=await sql.query(detailQuery,[pc]);
       if(requestId!==selectionRequestId||requestedCountry!==country)return;
       if(!found.length)throw Error(pc+' nebylo v Neonu nalezeno.');
       const item=found[0];
@@ -174,7 +180,9 @@ async function select(pc,scroll=true){
         if(!item.record)throw Error('PSČ '+pc+' má v Neonu pouze placeholder bez JSON.');
         selected={...item.record,postcode:item.postcode,status:item.workflow_status,data_version:item.content_version??null,created_at:item.created_at,updated_at:item.updated_at};
       }else{
-        selected=item.record?{...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record_status:item.record.status||null,record:item.record,created_at:item.created_at,updated_at:item.updated_at}:{postcode:item.postcode,workflow_status:item.workflow_status,status:null,record:null,created_at:item.created_at,updated_at:item.updated_at};
+        selected=item.record
+          ? {...item.record,postcode:item.postcode,workflow_status:item.workflow_status,record:item.record,created_at:item.created_at,updated_at:item.updated_at}
+          : {postcode:item.postcode,workflow_status:item.workflow_status,record:null,created_at:item.created_at,updated_at:item.updated_at};
       }
       renderDetail(selected);if(scroll)window.scrollTo({top:0,behavior:'smooth'});return;
     }
@@ -208,7 +216,7 @@ function renderDetail(data){
   if(!data){el.innerHTML='<div class="empty">Vyber PSČ vlevo.</div>';return}
   if(data.loading){el.innerHTML='<div class="loading">Načítám celý záznam…</div>';return}
   if(data.error){el.innerHTML='<div class="error">'+esc(data.error)+'</div>';return}
-  if(country==='IT'&&data.record?.status==='placeholder'){
+  if(country==='IT'&&data.workflow_status==='placeholder'){
     const status=data.workflow_status||'placeholder';
     el.innerHTML='<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">Itálie · CAP záznam</div><div class="meta"><span class="badge">placeholder</span> <span class="badge">'+esc(statusLabel[status]||status)+'</span><br>Zdroj: Neon · italy_cap_records · JSON načten z databáze</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div><div class="section-title">Stav záznamu</div><div class="empty">Tento CAP má v Neonu uložený JSON placeholder. Při následném reworku se jeho obsah rozšíří o město, okres, fakta, zdroje, souřadnice a jazykové verze.</div><details class="raw"><summary>Zobrazit celý JSON z Neonu</summary><pre class="json">'+esc(JSON.stringify(data.record,null,2))+'</pre></details>';
     $('#copyBtn').onclick=()=>navigator.clipboard?.writeText(JSON.stringify(data.record,null,2));
@@ -231,8 +239,8 @@ function renderDetail(data){
   if(country==='SK'||country==='IT')langNames.nl='Nederlands';
   const originalFacts=data.facts||[];
   el.innerHTML=
-    '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(data.status||'—')+'</span> <span class="badge">V'+esc(data.data_version??'—')+'</span><br>'+
-    [data.representative_place?'📍 '+esc(data.representative_place):'',data.district?'🏛 '+esc(data.district):'',data.county?'📌 '+esc(data.county):'',data.state?(country==='DE'?'🇩🇪 ':country==='SK'?'🇸🇰 ':'🇨🇿 ')+esc(data.state):''].filter(Boolean).join(' · ')+
+    '<div class="hero"><div><div class="postcode">'+esc(data.postcode)+'</div><div class="place">'+esc(data.city)+'</div><div class="meta"><span class="badge">'+esc(country==='IT'?(statusLabel[data.workflow_status]||data.workflow_status||'—'):(data.status||'—'))+'</span>'+(country==='IT'?'':' <span class="badge">V'+esc(data.data_version??'—')+'</span>')+'<br>'+
+    [data.representative_place?'📍 '+esc(data.representative_place):'',data.district?'🏛 '+esc(data.district):'',data.county?'📌 '+esc(data.county):'',data.state?(country==='DE'?'🇩🇪 ':country==='SK'?'🇸🇰 ':country==='IT'?'🇮🇹 ':'🇨🇿 ')+esc(data.state):''].filter(Boolean).join(' · ')+
     '</div></div><div class="actions"><button id="copyBtn">📋 Kopírovat JSON</button><button id="rawBtn">{} JSON</button></div></div>'+
     '<div class="section-title">Jazyk faktů</div><div class="langbar">'+Object.entries(langNames).map(([k,v])=>'<button class="lang '+(language===k?'active':'')+'" data-lang="'+k+'">'+k.toUpperCase()+' · '+v+'</button>').join('')+'</div>'+
     '<div class="section-title">'+(language==='cs'?'Fakta':'Facts')+' · '+facts.length+'</div>'+
