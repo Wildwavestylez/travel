@@ -5,7 +5,7 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; sémantická kontrola všech 271 překladových sad je uzavřena; otevřená zůstává úplná kontrola kategorií/správních údajů a normalizace starších zdrojových referencí.
+- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; sémantická kontrola všech 271 překladových sad je uzavřena; kontrola povolených kategorií a jejich věcné klasifikace je PASS; otevřené zůstává úplné ověření správních údajů, tři geografická přiřazení a normalizace starších zdrojových aliasů.
 
 
 
@@ -118,7 +118,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 ## Otevřené kroky
 
 1. **RÚIAN / primární přiřazení:** dořešit pouze tři nejednoznačné případy: 26211/fact_004 Čtyřmezí; 26215/fact_002 Psí hory; 26215/fact_004 židovský hřbitov v Čelině. Do doložení přesného poštovního přiřazení zachovat stávající jediná primární přiřazení, nepřesouvat a neduplikovat.
-2. **Správní údaje a kategorie:** dokončit kontrolu správních údajů a věcné správnosti map_category v celém bloku.
+2. **Správní údaje:** dokončit zdrojové ověření city/district podle fyzického sídla obsluhující pošty. Enumy, přítomnost a věcná klasifikace category/map_category/priority jsou PASS.
 3. **Zdrojové reference:** vyřešit 40 starších aliasových odkazů ve 14 faktech napříč 26251, 26256 a 26261. V databázi je 36 různých klíčů src_*; explicitní mapování alias → URL se v dostupném obsahu ani repozitáři nepodařilo dohledat. Bez důkazu je nepřepisovat naslepo.
 4. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
 
