@@ -85,6 +85,16 @@ Oprav pouze zjevnou, doloženou a významnou chybu, například nesprávnou Regi
 
 Rozlišuj právní typ mezilehlé jednotky: Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale nebo jiná aktuální oficiální forma. Nepřepisuj všechny typy na Provincia. Použij správný aktuální název a typ; nevyžaduj však vyčerpávající administrativní rozbor každé obce v rámci CAP.
 
+### B1. Zkrácené uživatelské zobrazení seznamu Comuni
+
+Italská aplikace může v kompaktním seznamu nebo souhrnné kartě zobrazovat pouze jednu nebo maximálně dvě reprezentativní obce a za nimi lokalizovaný text odpovídající „a dalších X obcí“. Jde výhradně o prezentační zkrácení, nikoli o změnu geografických dat CAP.
+
+- V produkčním JSON musí pole `city` i nadále obsahovat úplný seznam všech Comuni přiřazených k CAP, podle `COUNTRY_PROFILE.md`, `CONTENT_STANDARD.md` a `prompt_rework.md`.
+- Při auditu JSON nikdy nepovažuj zkrácený text v uživatelském rozhraní za důvod ke zkrácení pole `city`. Naopak ověřuj úplnost uloženého seznamu v rozsahu pravidel auditu.
+- Reprezentativní obce zobrazené na kartě nejsou údajem o obsluhující poště, nejsou novým administrativním zařazením a neurčují geografický rozsah CAP.
+- Zbývající počet musí odpovídat přesnému rozdílu mezi celkovým počtem Comuni a počtem zobrazených názvů. Detail CAP musí zachovat možnost zobrazit celý seznam.
+- Toto pravidlo nemění obsah JSON, schéma, geografické přiřazení faktů ani rozsah auditních kontrol. Audit aplikace nebo jejího zobrazení prováděj pouze tehdy, pokud je výslovně součástí zadání; běžný audit CAP JSON sám o sobě neopravňuje měnit aplikační kód.
+
 ### C. Plný geografický rozsah CAP a přiřazení faktů
 
 `city` je úplný seznam všech oficiálních Comuni přiřazených k CAP podle `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`; není to organizační kotva podle obsluhující pošty ani hranice rešerše.
