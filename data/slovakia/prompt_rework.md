@@ -36,7 +36,7 @@ Keep useful verified facts. Correct, replace or remove false, weak, generic, dup
 
 Use the source hierarchy in the Slovak Content Standard and Country Profile. Each authority is competent only for its own type of claim:
 
-1. **Slovenská pošta** — primary postal authority for PSČ existence, geographic use, postal assignment, identification of the serving post office and distinction between geographic and special-purpose codes.
+1. **Slovenská pošta** — primary postal authority for confirming that a PSČ exists and is geographic rather than special-purpose. Current post-office operation or closure status is not part of this project.
 2. **Register adries SR (RAGEO), Ministry of Interior of the Slovak Republic** — address and address-point evidence; corroborates the physical placement of addresses, buildings and localities. Do not assume it is a complete authoritative register of postal delivery coverage.
 3. **ŠÚ SR and official registers of territorial/spatial units** — official names and administrative relationships of kraje, okresy and obce.
 4. **ÚGKK SR / official ZBGIS and national mapping resources** — geographic identification and coordinate corroboration.
@@ -44,28 +44,21 @@ Use the source hierarchy in the Slovak Content Standard and Country Profile. Eac
 
 Never use one source to prove a claim outside its remit. A postal lookup does not by itself prove a tourist site's coordinates. An address point does not by itself establish the complete postal delivery area. A municipal website does not automatically prove the geographic coverage of a PSČ.
 
-### 2.1 Mandatory meaning of `city` — physical location of the serving post office
+### 2.1 Mandatory meaning of `city` — geographic representative municipality
 
-For every record, identify the actual post office serving the geographic PSČ and verify the municipality in which that post-office building is physically located.
+For every record, identify the municipality that best represents the geographic PSČ area using verified address/geographic evidence and official territorial sources.
 
-- Set top-level `city` to exactly that one municipality/town.
-- Example: if the serving post office is physically located in Snina, set `city: "Snina"`, even if the delivery area also includes Dolná nad Hornou or other localities.
-- Do not select the first municipality in a list of localities served.
-- Do not select the largest or most populous municipality in the delivery area.
-- Do not select an arbitrary “main”, “representative” or best-known locality.
-- Do not put all served municipalities or settlements into `city`.
-- Do not infer the post-office municipality from the postcode digits or a search snippet.
-
-The same physical post-office municipality determines the administrative fields:
-- `county` = the official okres containing that municipality;
-- `state` = the official samosprávny kraj containing that municipality;
+- Set top-level `city` to that representative municipality.
+- Prefer the municipality containing the most relevant verified physical locations or the settlement that genuinely characterises the area's geography; do not choose solely by population, fame or postal-directory label.
+- If the PSČ area clearly corresponds to one municipality, use that municipality.
+- If it covers several municipalities, select one defensible representative municipality and research the full geographic scope; do not list all municipalities in `city`.
+- `county` = the official okres containing the selected representative municipality.
+- `state` = the official samosprávny kraj containing that municipality.
 - `district` = only a documented relevant part within that same municipality, where applicable; otherwise `null`.
 
-Do not derive `county` or `state` from another municipality merely served by the post office. Do not put a neighbouring municipality in `district`.
+Do not derive these fields from the location, operating status or closure history of a post office. A post office may be mentioned as a local landmark only when it has independent historical or architectural significance; its current operation is irrelevant.
 
-**Important distinction:** the post-office municipality determines the administrative fields, but it does not narrow the research scope. Research the full defensible geographic area of the PSČ, including all relevant municipalities, settlements, municipal parts, landscape and localities it serves.
-
-If the serving post office cannot be reliably identified, or several facilities/listings create a material ambiguity, record the exact evidence and blocker. Do not guess the municipality and do not mark the postal check complete.
+Research the full defensible geographic area of the PSČ, including all relevant municipalities, settlements, municipal parts, landscape and localities. The representative municipality is an administrative label, not a limit on content discovery.
 
 ### 2.2 Geographic versus special-purpose codes
 
@@ -185,7 +178,7 @@ The classification does not change the quality standard. Existing facts are rese
 
 Verify that the code is a genuine geographic PSČ (not a special-purpose or organisation-only code) with Slovenská pošta or another source competent for that postal claim. Establish the defensible geographic area and representative municipality using appropriate address, administrative and geographic evidence. Do not investigate whether a post office is open, closed, relocated or operational; that information is outside this project's scope.
 
-Consider all verified municipalities, municipal parts, settlements and localities served by the PSČ. Do not assume that the code equals the post-office municipality or that a postcode directory gives a complete geographic boundary.
+Consider all verified municipalities, municipal parts, settlements and localities within the defensible geographic PSČ area. Do not assume that a postcode directory gives a complete geographic boundary.
 
 Set `city`, `district`, `county` and `state` according to section 2.1. Record any material disagreement between postal and geographic evidence. Do not silently resolve it by choosing the most convenient locality.
 
@@ -242,7 +235,7 @@ For each candidate, verify:
 - suitable source support;
 - absence of an already assigned duplicate fact.
 
-A nearby attraction does not belong to a PSČ merely because it appears in a search for the post-office municipality. A shared town, okres or regional name alone is not proof of local ownership.
+A nearby attraction does not belong to a PSČ merely because it appears in a search for the representative municipality. A shared town, okres or regional name alone is not proof of local ownership.
 
 Research the full delivery-area scope, but assign each fact to exactly one primary geographic PSČ. A bridge, park, route, river feature, industrial complex or other subject may cross postcode areas. Choose the most defensible primary assignment using its principal/representative location, main section, verified physical address, relevant access or strongest documented local association. Do not require the whole feature to fit inside one postcode. Once a reasonable assignment is supported and closed, treat it as stable. Reopen only on concrete new evidence that the original assignment was wrong. Do not duplicate the same attraction or continuous story across records.
 
@@ -407,7 +400,7 @@ Perform one final basic validation pass after the editorial, geographic and tran
 - the completed content record is saved with `status = 'validated'` (or remains `published` only if it was not substantively changed);
 - `city` identifies a defensible representative municipality for the geographic PSČ;
 - `district`, `county` and `state` correspond to that same representative municipality;
-- the full defensible PSČ area, not just the post-office municipality, was researched;
+- the full defensible PSČ area, not just the representative municipality, was researched;
 - facts are accurate, significant, locally connected and adequately sourced;
 - both discovery passes and all relevant thematic checks were completed;
 - no generic filler, commercial promotion, unsupported claims or accidental within-record duplicates remain;
