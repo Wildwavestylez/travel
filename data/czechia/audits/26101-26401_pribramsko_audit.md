@@ -385,3 +385,35 @@ Tato sekce nahrazuje předchozí poznámku, že obě nová fakta zůstala bez po
 - Záznamy 26211/fact_004, 26215/fact_002 a 26215/fact_004 nebyly přesouvány ani duplikovány.
 - Celkový audit zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy, read-only zamčení, změny sequence.json nebo zásahu do Neonu.
 
+
+
+## Sedmijazyčný audit — první sémantické kolo (2026-11-21)
+
+### Strukturální kontrola celého bloku
+
+- Pro všech 271 faktů byly ověřeny jazykové položky de, en, es, fr, it, nl proti českému pořadí a ID.
+- Každý jazyk obsahuje 271/271 položek; žádný prázdný překlad, žádné chybějící ID a žádná neshoda ID na odpovídající pozici.
+- Tato mechanická kontrola nepotvrzuje sama o sobě sémantickou úplnost; ta pokračuje samostatně.
+
+### První cílené sémantické kolo
+
+Ručně porovnáno 43 faktů napříč prioritními a automaticky vytipovanými případy (včetně všech 12 faktů 26101 a vybraných faktů dalších PSČ). Kontrola se zaměřila na význam, vlastní jména, časové údaje, místní reálie, zachování nejistoty a nepřidávání tvrzení, která český master neobsahuje.
+
+### Provedené opravy v Supabase
+
+1. **26101/fact_001 — Zámeček-Ernestinum:** všech šest překladů nově výslovně zachovává, že existence původní dřevěné tvrze ve 13. století je pouze hypotetická; doplněna i podstatná historická posloupnost.
+2. **26101/fact_006 — Kostel sv. Prokopa:** odstraněno nepodložené tvrzení o hornické bratrské společnosti jako stavebníkovi/podporovateli kaple. Všech šest překladů nyní uvádí skutečného iniciátora Jiřího Tomáše Pusche, podporu obce a dobrovolných dárců a doplňuje důležitou chronologii.
+3. **26214/fact_006 — Hřiměždický zámeček:** ve všech šesti překladech doplněna atribuce citlivého poválečného tvrzení k obecním historickým materiálům; překlady nyní zachovávají stejnou míru zdrojové opatrnosti jako český master.
+4. **26301/fact_003 — Kostel Nejsvětější Trojice:** odstraněna z cizojazyčných textů nepodložená doplňující věta o GPS souřadnicích a archivu Noci kostelů, která v českém masteru není. Překlady nyní odpovídají jeho věcnému obsahu.
+
+### Read-back po opravách
+
+- Opravené překlady byly načteny zpět z Supabase.
+- U dotčených PSČ zůstaly počty faktů a překladů beze změny: 26101 = 12, 26214 = 6, 26301 = 15 v každém ze sedmi jazyků.
+- ID, pořadí, české master texty, zdroje, polohy, kategorie a data_version nebyly těmito jazykovými opravami změněny.
+- Žádná publikace ani migrace nebyla spuštěna.
+
+### Zbývající práce
+
+Sémantická kontrola všech 271 faktů není uzavřena. Pokračovat po tematických a jazykových dávkách, prioritně u faktů s výrazně zkrácenými překlady, u historických nejistot, technických parametrů a u tvrzení s citlivou atribucí. Zkrácení samo o sobě není automaticky chybou; opravovat pouze skutečně vynechané důležité informace, významové posuny nebo nepodložená doplnění.
+
