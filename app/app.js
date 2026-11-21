@@ -42,7 +42,7 @@ const LANG_STORE='travel-language';
 const LANGS=['cs','de','en','es','fr','it'];
 const COUNTRIES=[
   {code:'DE',flag:'🇩🇪',name:'Germany',start:'01067',enabled:true},
-  {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:null,enabled:false},
+  {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:'33901',enabled:true},
   {code:'AT',flag:'🇦🇹',name:'Austria',start:null,enabled:false},
   {code:'PL',flag:'🇵🇱',name:'Poland',start:null,enabled:false},
   {code:'NL',flag:'🇳🇱',name:'Netherlands',start:null,enabled:false},
@@ -174,12 +174,33 @@ const hav=(a,b)=>{
 };
 const SUPABASE_URL='https://ipnkjcpewtdaikiyzktv.supabase.co';
 const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
+// Czech production records are read from Neon JSONB. Keep this in sync with
+// the read-only connection used by app/database.js until a server API exists.
+const CZECH_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
+let czechSqlPromise=null;
+async function getCzechSql(){
+  if(!czechSqlPromise)czechSqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
+    .then(({neon})=>neon(CZECH_DATABASE_URL,{disableWarningInBrowsers:true}))
+    .catch(error=>{czechSqlPromise=null;throw error;});
+  return czechSqlPromise;
+}
 let dataMap=new Map();
 
-// Use the Supabase REST API directly. The app must not depend on the
-// optional supabase-js CDN: if that CDN is blocked on a phone, the old
-// code stopped here and never attached the Start button handler.
+// Germany retains its existing Supabase source. Czechia reads published
+// JSONB records directly from public.czechia_cap_records in Neon.
 async function fetchPostalRows(){
+  if(countryCode==='CZ'){
+    const sql=await getCzechSql();
+    const rows=await sql.query(
+      "SELECT postcode, record FROM public.czechia_cap_records WHERE workflow_status = $1 AND record IS NOT NULL ORDER BY postcode ASC",
+      ['published']
+    );
+    return rows.map(row=>({
+      postal_code:row.postcode,
+      ...(row.record||{}),
+      postcode:row.postcode
+    }));
+  }
   const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=in.(published,validated)&order=postal_code.asc';
   const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
   if(!r.ok){
@@ -192,8 +213,19 @@ async function fetchPostalRows(){
 
 async function loadPostalData(){
   const data=await fetchPostalRows();
-  if(!data?.length)throw Error('Supabase neobsahuje žádná publikovaná německá PSČ.');
+  if(!data?.length)throw Error(countryCode==='CZ'
+    ? 'Neon neobsahuje žádná publikovaná česká PSČ.'
+    : 'Supabase neobsahuje žádná publikovaná německá PSČ.');
   dataMap=new Map(data.map(row=>{
+    if(countryCode==='CZ'){
+      const record=row.record||row;
+      return [row.postal_code,{
+        ...record,
+        postcode:row.postal_code,
+        representative_point:record.representative_point||null,
+        access_point:record.access_point||null
+      }];
+    }
     const content=row.content||{};
     return [row.postal_code,{
       ...content,
@@ -217,11 +249,11 @@ async function loadPostalData(){
   const allSequence=[...dataMap.keys()];
   const startPostcode=countryConfig().start;
   const startIndex=startPostcode?allSequence.indexOf(startPostcode):0;
-  if(startPostcode&&startIndex<0)throw Error('Startovní PSČ '+startPostcode+' pro '+countryLabel()+' není v Supabase publikované.');
+  if(startPostcode&&startIndex<0)throw Error('Startovní PSČ '+startPostcode+' pro '+countryLabel()+' není mezi publikovanými záznamy.');
   sequence=startIndex>=0?allSequence.slice(startIndex):allSequence;
 
   // A previously saved journey must never be allowed to point outside
-  // the current Supabase sequence. New records may be added at any time.
+  // the currently published sequence.
   if(state.index>=sequence.length){
     state.index=0;
     state.totalKm=0;
@@ -234,7 +266,7 @@ async function loadPostalData(){
 
 async function loadData(pc){
   const data=dataMap.get(pc);
-  if(!data)throw Error('Data pro PSČ '+pc+' nejsou v Supabase dostupná');
+  if(!data)throw Error('Data pro PSČ '+pc+' nejsou v databázi dostupná');
   return data;
 }
 function popupHtml(data){
@@ -312,7 +344,9 @@ function validPoint(p){
     : null;
 }
 function addStopMarker(data){
-  const point=validPoint(data?.access_point)||validPoint(data?.representative_point);
+  // Europe Explorer pins represent the postcode's canonical representative
+  // place. access_point is retained only for legacy vehicle routing.
+  const point=validPoint(data?.representative_point)||validPoint(data?.access_point);
   if(!point)return null;
   const existing=stopMarkers.getLayers().find(m=>m.options.stopPostcode===data.postcode);
   if(existing){
@@ -542,14 +576,23 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
 
     // Obnovení všech dosud objevených PSČ po refreshi.
     // Piny nejsou jen dočasná součást aktuálního běhu.
-    const discovered=sequence.slice(0,state.index+1);
-    const discoveredData=await Promise.all(discovered.map(loadData));
-    discoveredData.forEach(addStopMarker);
-
-    map.setView(
-      [displayPoint.lat,displayPoint.lon],
-      Math.max(map.getZoom(),13)
-    );
+    if(countryCode==='CZ'){
+      // Show every prepared and published Czech postcode immediately;
+      // the journey sequence remains ordered and starts at 33901.
+      const allCzechData=await Promise.all(sequence.map(loadData));
+      allCzechData.forEach(addStopMarker);
+      const bounds=stopMarkers.getBounds?.();
+      if(bounds?.isValid())map.fitBounds(bounds,{padding:[36,36],maxZoom:12});
+      else map.setView([displayPoint.lat,displayPoint.lon],13);
+    }else{
+      const discovered=sequence.slice(0,state.index+1);
+      const discoveredData=await Promise.all(discovered.map(loadData));
+      discoveredData.forEach(addStopMarker);
+      map.setView(
+        [displayPoint.lat,displayPoint.lon],
+        Math.max(map.getZoom(),13)
+      );
+    }
     refreshMapSize();
     setTimeout(refreshMapSize,250);
     setTimeout(refreshMapSize,750);
