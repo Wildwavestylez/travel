@@ -417,3 +417,21 @@ Ručně porovnáno 43 faktů napříč prioritními a automaticky vytipovanými 
 
 Sémantická kontrola všech 271 faktů není uzavřena. Pokračovat po tematických a jazykových dávkách, prioritně u faktů s výrazně zkrácenými překlady, u historických nejistot, technických parametrů a u tvrzení s citlivou atribucí. Zkrácení samo o sobě není automaticky chybou; opravovat pouze skutečně vynechané důležité informace, významové posuny nebo nepodložená doplnění.
 
+
+
+### Druhé opravné kolo — doplnění vynechaných podstatných údajů (2026-11-21)
+
+Po prvním průchodu byly v dalších překladech doplněny důležité podrobnosti, které byly v některých jazycích příliš zkrácené. Opravy se týkají těchto faktů; vždy byly upraveny všechny šest cizojazyčných verzí:
+
+- **26255/fact_003 — Černý lev 777:** doplněno umístění desky na pomníku obětí první světové války, datum jejího přidání, vznik a působnost odbojové skupiny a rok politického procesu.
+- **26255/fact_004 — Týnčanský kras:** doplněno geologické prostředí, poloha Divišovy jeskyně v lomu U Poslušných, období těžby lomu, objev vstupu po odstřelu v červnu 1973 a ochranný důvod omezeného přístupu.
+- **26255/fact_005 — Počepická křížová cesta:** doplněna gotická fáze kostela, přestavba roku 1790, význam křížové cesty jako katolické formy rozjímání a opětovné vysvěcení v roce 2001.
+- **26285/fact_004 — Panská vinopalna:** doplněn půdorys L, zachované technické prvky, původní rozdělení funkcí křídel a časová návaznost oprav v letech 2025–2026.
+- **26285/fact_005 — Drahenický pivovar:** doplněna zásobovací role pivovaru, historická produkce na počátku 18. století a skutečnost, že nový provoz z roku 1872 vznikl na místě sýpky.
+- **26285/fact_006 — Drahenický mlýn:** doplněna přesnější poloha u rybníka Slepče, zánik staršího mlýna při povodni roku 1745, nedochování původní technologie a podpora obnovy v roce 2026.
+- **26284/fact_002 — Kostel sv. Karla Boromejského:** doplněn kontext neúspěšné žádosti o povýšení Zalužan na městys v roce 1869 a důvod související s absencí farnosti a kostela.
+- **26284/fact_005 — Abraham Kohn:** doplněno přesné datum narození, působení v Hohenems v letech 1833–1844 a následná práce ve Lvově.
+- **26284/fact_006 — Kozárovická žula:** doplněna role železnice Rakovník–Protivín v rozvoji lomů, přibližný počet pracovníků a konkrétní české stavby, kde byla žula použita.
+
+Read-back potvrdil zachování počtu faktů a všech sedmi jazykových polí u dotčených PSČ. Opravy neměnily české master texty, ID, pořadí, zdroje, polohy, kategorie ani data_version.
+
