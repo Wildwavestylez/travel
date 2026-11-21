@@ -21,7 +21,7 @@
   - Zdroje: Soprintendenza ABAP – strategický plán Gonfienti (2024); Prato Turismo; Prato Musei.
 
 - `fact_048` — **Le Cascine di Tavola: la fattoria modello di Lorenzo il Magnifico e il paesaggio mediceo**.
-  - Doplněna významná medicejská zemědělská usedlost a historická krajina na prat­ském břehu Ombrone.
+  - Doplněna významná medicejská zemědělská usedlost a historická krajina na břehu Ombrone na území Prata.
   - Obsah zahrnuje vznik modelového statku v roce 1477, odvodnění mokřadů, síť kanálů a hrází, produkci medu a hedvábí, experimentální pěstování rýže a dochovanou strukturu historické krajiny.
   - Lokalita: `43.8376, 11.0439`, `historic_estate`, `exact`, podle geografického záznamu Museo Galileo / IMSS.
   - Zdroje: Città di Prato; Museo Galileo / IMSS; Cultura Toscana.
@@ -51,7 +51,7 @@ Databázový read-back po provedených změnách potvrdil:
 - Všechny zdroje odkazované z `facts[].sources` a `facts[].location.source` jsou v top-level `sources[]`.
 - Top-level inventář má po deduplikaci 211 unikátních URL; žádné duplicitní URL.
 - Žádné chybějící povinné root pole; JSONB neobsahuje zakázaná root pole `status` ani `data_version`.
-- Po odstranění soft hyphenů a dalších neviditelných znaků musí finální kontrola potvrdit nulový výskyt ve všech 336 překladech.
+- Finální scan všech 336 překladových položek potvrdil 0 soft hyphenů, 0 zero-width znaků a 0 replacement znaků.
 
 ### Geografické poznámky
 
