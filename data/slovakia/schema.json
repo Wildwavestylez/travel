@@ -17,28 +17,28 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "The one municipality (obec) or town in which the serving post office for this geographic PSČ is physically located. Identify the actual serving post office and use the municipality where its post office building is located. Do not select the first municipality in the list of localities served, the largest or most populous municipality in the delivery area, or an arbitrary principal locality. Example: if the serving post office is physically in Snina, city is Snina even if the delivery area also includes Dolná nad Hornou. The PSČ may cover a wider area; that does not change this field."
+      "description": "The principal municipality (obec) or town that geographically characterises this PSČ area and serves as its representative locality. Select it using verified geographic/address evidence and the actual territorial relationship of the PSČ. Do not derive it from a post office, postal directory display name, correspondence address or arbitrary best-known town. If the geographic PSČ spans several municipalities, select the best-supported representative municipality while researching the full defensible area."
     },
     "district": {
       "type": [
         "string",
         "null"
       ],
-      "description": "An officially documented mestská časť, miestna časť, urban district or other relevant part within the same municipality in which the serving post office is physically located, where applicable; otherwise null. Do not put a neighbouring municipality, another locality in the post office's delivery area, or every settlement in the postal area here."
+      "description": "An officially documented mestská časť, miestna časť, urban district or other relevant part within the selected representative municipality, where applicable; otherwise null. Do not put a neighbouring municipality or every settlement in the postal area here."
     },
     "county": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The okres to which the municipality containing the physically located serving post office belongs. Use the official Slovak name; do not derive it from another municipality merely served by that post office."
+      "description": "The official okres containing the selected representative municipality. Use the official Slovak name."
     },
     "state": {
       "type": [
         "string",
         "null"
       ],
-      "description": "The samosprávny kraj (kraj) to which the municipality containing the physically located serving post office belongs. Use the official Slovak name; do not derive it from another municipality merely served by that post office."
+      "description": "The samosprávny kraj (kraj) containing the selected representative municipality. Use the official Slovak name."
     },
     "representative_place": {
       "type": "string",
@@ -113,7 +113,7 @@
         "plz_source": {
           "type": "string",
           "minLength": 1,
-          "description": "Specific source used to verify the Slovak PSČ. Slovenská pošta is the primary postal authority for code existence, geographic use and special-purpose classification. RAGEO and official mapping sources corroborate address geography; they do not by themselves establish the full postal delivery area."
+          "description": "Specific source used to verify the Slovak PSČ's existence and geographic versus special-purpose classification. Slovenská pošta is the primary postal authority for this postal claim; RAGEO and official mapping sources corroborate the geography of places and addresses."
         },
         "geographic_test_data": {
           "type": "boolean"
@@ -123,7 +123,7 @@
         },
         "postcode_authority": {
           "type": "string",
-          "description": "Postal authority for the code's existence, geographic use and classification: Slovenská pošta. Keep geographic address corroboration separate (RAGEO/Ministry of Interior) from postal assignment."
+          "description": "Postal authority for confirming the code's existence and geographic versus special-purpose classification: Slovenská pošta. This does not require checking whether any post office is currently open or operational."
         },
         "postcode_source_dataset": {
           "type": [
@@ -162,7 +162,7 @@
             "string",
             "null"
           ],
-          "description": "Optional note about the postal office or postal assignment where relevant to interpreting the PSČ. Do not treat the post office location as the postcode representative point."
+          "description": "Optional contextual note about a post office or postal assignment, if genuinely relevant. Current operating status or closure history is not required. Never use a post office location as the postcode representative point merely because it exists."
         },
         "postcode_override_reason": {
           "type": [
