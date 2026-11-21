@@ -1,4 +1,238 @@
 {
   "postcode": "85107",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Janíkov Dvor – Slnečnice, Zuzany Chalupovej",
+  "representative_point": {
+    "lat": 48.092388,
+    "lon": 17.116159
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "B-S-13 Stoh: betonová pevnost z roku 1937",
+      "text": "Na Betliarské ulici u přemostění Chorvátského ramene stojí pěchotní srub B-S-13 Stoh, součást československého opevnění bratislavského předmostí. Byl vybetonován mezi 28. únorem a 5. březnem 1937 a patřil k těžkému opevnění s dvoupodlažním uspořádáním. Petržalská obranná linie vznikala od poloviny 30. let; v září 1938 byla dokončena, ale po Mnichovské dohodě připadlo území s opevněním Německu. Za druhé světové války sloužily petržalské objekty německé armádě k výcviku a později se opevnění ocitlo v hraničním pásmu. Stoh je jedním z dochovaných svědků této nedokončené obranné kapitoly předválečného Československa.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "src_bunker_city",
+        "src_bunker_oma",
+        "src_bunker_plan"
+      ],
+      "location": {
+        "name": "Pěchotní srub B-S-13 Stoh",
+        "address": "Betliarska 19, 851 07 Bratislava-Petržalka, Slovensko",
+        "lat": 48.09969364308485,
+        "lon": 17.123607089617604,
+        "type": "bunker",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w78773638"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_002",
+      "title": "Nemocnice sv. Cyrila a Metoda: moderní pavilonová architektura",
+      "text": "Nemocnice sv. Cyrila a Metoda na Antolské ulici je výrazným příkladem velkého zdravotnického areálu navrhovaného v 80. letech 20. století. Projekt vznikal v letech 1982–1986 a stavba se uskutečnila v letech 1986–1997. Na návrhu se podíleli architekti Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič a Štefan Lichvár. Namísto jediného mohutného nemocničního bloku zvolili modifikovaný pavilonový systém: jednotlivé provozy jsou rozděleny do několika propojených hmot, jejichž hlavní části jsou orientovány východo-západním směrem. Lůžkové bloky jsou obráceny do klidnější zelené části areálu, zatímco vyšetřovací a léčebné provozy tvoří společnou základnu. Komplex tak ukazuje, jak se v pozdním období socialistické výstavby hledala lidsky přístupnější podoba velké nemocnice.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "src_hospital_architecture",
+        "src_hospital_spde",
+        "src_hospital_unb"
+      ],
+      "location": {
+        "name": "Nemocnice sv. Cyrila a Metoda",
+        "address": "Antolská 11, 851 07 Bratislava-Petržalka, Slovensko",
+        "lat": 48.10229,
+        "lon": 17.1183,
+        "type": "hospital",
+        "accuracy": "approximate",
+        "source": "https://mapcarta.com/W236814895"
+      },
+      "map_category": "architecture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta, Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a (rozsah 851 01–09); geografické použitie dokládají konkrétní adresy Antolská 11 (851 07) a Betliarska 19 (851 07) a seznam ulic SITA pro 85107.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Slovenská pošta uvádí rozsah 851 01–09 pod vybranou poštou Bratislava 5; jde o třídicí přiřazení, nikoli důkaz hranice doručovací oblasti.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální dokumentace mestskej časti Bratislava-Petržalka a address-level evidence pro konkrétní adresy; administrativní zařazení Bratislava-Petržalka, okres Bratislava V, Bratislavský kraj."
+  },
+  "sources": [
+    {
+      "id": "src_bunker_city",
+      "title": "Aktualizácia zoznamu pamätihodností – B-S 13 Stoh",
+      "url": "https://www.petrzalka.sk/wp-content/uploads/2023/12/31-Aktualizacia-zoznamu-pamatihodnosti-1.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_bunker_oma",
+      "title": "Stoh – poloha a adresa B-S-13",
+      "url": "https://poi.oma.sk/w78773638",
+      "type": "other"
+    },
+    {
+      "id": "src_bunker_plan",
+      "title": "Územný plán zóny Kapitulský dvor – smerná časť, historická stopa a línia opevnenia",
+      "url": "https://www.petrzalka.sk/wp-content/uploads/2022/10/00_KAP_Text-smerna.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_hospital_architecture",
+      "title": "Register modernej architektúry – Nemocnica s poliklinikou II. typu v Petržalke",
+      "url": "https://register-architektury.sk/sk/objekt/4111-nemocnica-s-poliklinikou-iitypu-v-petrzalke",
+      "type": "specialist"
+    },
+    {
+      "id": "src_hospital_spde",
+      "title": "SPDe architekti – Nemocnica s poliklinikou sv. Cyrila a Metoda",
+      "url": "https://spde.sk/projekty/nemocnica-s-poliklinikou-sv-cyrila-a-metoda/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_hospital_unb",
+      "title": "Univerzitná nemocnica Bratislava – Nemocnica sv. Cyrila a Metoda, adresa Antolská 11",
+      "url": "https://www.unb.sk/nemocnica-sv-cyrila-a-metoda",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_technical",
+      "title": "Slovenská pošta – Technické parametre, príloha 3a: triedenie poštových zásielok v Bratislave",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "SITA – PSČ 85107, zoznam ulíc",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85107/",
+      "type": "regional"
+    },
+    {
+      "id": "src_representative_address",
+      "title": "Zuzany Chalupovej 11 – adresa, PSČ a súradnice",
+      "url": "https://bratislava.oma.sk/u/zuzany-chalupovej/11",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Janíkov Dvor – Slnečnice, Zuzany Chalupovej",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: betonová pevnost z roku 1937",
+          "text": "Na Betliarské ulici u přemostění Chorvátského ramene stojí pěchotní srub B-S-13 Stoh, součást československého opevnění bratislavského předmostí. Byl vybetonován mezi 28. únorem a 5. březnem 1937 a patřil k těžkému opevnění s dvoupodlažním uspořádáním. Petržalská obranná linie vznikala od poloviny 30. let; v září 1938 byla dokončena, ale po Mnichovské dohodě připadlo území s opevněním Německu. Za druhé světové války sloužily petržalské objekty německé armádě k výcviku a později se opevnění ocitlo v hraničním pásmu. Stoh je jedním z dochovaných svědků této nedokončené obranné kapitoly předválečného Československa."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nemocnice sv. Cyrila a Metoda: moderní pavilonová architektura",
+          "text": "Nemocnice sv. Cyrila a Metoda na Antolské ulici je výrazným příkladem velkého zdravotnického areálu navrhovaného v 80. letech 20. století. Projekt vznikal v letech 1982–1986 a stavba se uskutečnila v letech 1986–1997. Na návrhu se podíleli architekti Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič a Štefan Lichvár. Namísto jediného mohutného nemocničního bloku zvolili modifikovaný pavilonový systém: jednotlivé provozy jsou rozděleny do několika propojených hmot, jejichž hlavní části jsou orientovány východo-západním směrem. Lůžkové bloky jsou obráceny do klidnější zelené části areálu, zatímco vyšetřovací a léčebné provozy tvoří společnou základnu. Komplex tak ukazuje, jak se v pozdním období socialistické výstavby hledala lidsky přístupnější podoba velké nemocnice."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Janíkov Dvor – Slnečnice, Zuzany-Chalupová-Straße",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: ein Betonbunker von 1937",
+          "text": "An der Betliarska-Straße, nahe der Brücke über den Chorvátske-Kanal, steht der Infanteriebunker B-S-13 Stoh. Er gehörte zur tschechoslowakischen Befestigung des Brückenkopfes von Bratislava. Der zweigeschossige schwere Bunker wurde zwischen dem 28. Februar und dem 5. März 1937 betoniert. Die Verteidigungslinie von Petržalka entstand ab Mitte der 1930er-Jahre und war im September 1938 fertiggestellt. Nach dem Münchner Abkommen musste die Tschechoslowakei das Gebiet samt den Befestigungsanlagen an Deutschland abtreten. Während des Zweiten Weltkriegs nutzte die deutsche Armee die Bunker in Petržalka zu Ausbildungszwecken; später lagen sie im Grenzgebiet. Stoh ist eines der erhaltenen Zeugnisse dieses unvollendeten Kapitels der tschechoslowakischen Vorkriegsverteidigung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krankenhaus St. Cyrill und Method: moderne Pavillonarchitektur",
+          "text": "Das Krankenhaus St. Cyrill und Method in der Antolská-Straße ist ein markantes Beispiel für einen großen Gesundheitskomplex, der in den 1980er-Jahren entworfen wurde. Das Projekt entstand 1982–1986, gebaut wurde die Anlage von 1986 bis 1997. Am Entwurf waren die Architekten Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič und Štefan Lichvár beteiligt. Statt eines einzigen massiven Krankenhausblocks wählten sie ein modifiziertes Pavillonsystem: Die einzelnen Funktionen verteilen sich auf mehrere miteinander verbundene Baukörper, deren Hauptteile in Ost-West-Richtung ausgerichtet sind. Die Bettenhäuser öffnen sich zum ruhigeren Grünbereich des Areals, während Untersuchungs- und Behandlungsbereiche eine gemeinsame Basis bilden. Der Komplex zeigt, wie man in der späten sozialistischen Bauphase nach einer menschenfreundlicheren Form für ein großes Krankenhaus suchte."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Janíkov Dvor – Slnečnice, Zuzana Chalupová Street",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: a concrete fortress built in 1937",
+          "text": "The B-S-13 Stoh infantry bunker stands on Betliarska Street beside the bridge over the Chorvátske rameno canal. It formed part of Czechoslovakia’s fortified Bratislava bridgehead. The two-storey heavy bunker was concreted between 28 February and 5 March 1937. Petržalka’s defensive line had been developed from the mid-1930s and was completed in September 1938. Following the Munich Agreement, Czechoslovakia had to cede the territory, together with its fortifications, to Germany. During the Second World War, the German army used Petržalka’s bunkers for training; later, the fortifications lay within the border zone. Stoh is one of the surviving witnesses to this unfinished chapter of Czechoslovakia’s pre-war defence."
+        },
+        {
+          "id": "fact_002",
+          "title": "Sts Cyril and Methodius Hospital: modern pavilion architecture",
+          "text": "Sts Cyril and Methodius Hospital on Antolská Street is a notable example of a large healthcare complex designed in the 1980s. The project was developed between 1982 and 1986, and construction took place from 1986 to 1997. The architects involved were Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič and Štefan Lichvár. Rather than using one massive hospital block, they chose a modified pavilion system: the functions are distributed among several connected buildings, with their main sections oriented east–west. The inpatient blocks face the quieter green part of the site, while examination and treatment facilities form a shared base. The complex illustrates the search for a more human-scaled form of large hospital architecture in the late socialist period."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Janíkov Dvor – Slnečnice, calle Zuzany Chalupovej",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: una fortificación de hormigón de 1937",
+          "text": "El búnker de infantería B-S-13 Stoh se encuentra en la calle Betliarska, junto al puente sobre el brazo del Chorvátske rameno. Formaba parte del sistema de fortificación checoslovaco de la cabeza de puente de Bratislava. Este búnker pesado de dos plantas fue hormigonado entre el 28 de febrero y el 5 de marzo de 1937. La línea defensiva de Petržalka se construyó desde mediados de los años treinta y quedó terminada en septiembre de 1938. Tras el Acuerdo de Múnich, Checoslovaquia tuvo que ceder a Alemania el territorio junto con sus fortificaciones. Durante la Segunda Guerra Mundial, el ejército alemán utilizó los búnkeres de Petržalka para instrucción; más tarde, quedaron dentro de la zona fronteriza. Stoh es uno de los testimonios conservados de aquel capítulo inconcluso de la defensa checoslovaca de preguerra."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hospital de San Cirilo y Metodio: arquitectura moderna de pabellones",
+          "text": "El Hospital de San Cirilo y Metodio, en la calle Antolská, es un ejemplo destacado de gran complejo sanitario diseñado en los años ochenta. El proyecto se desarrolló entre 1982 y 1986 y la construcción se llevó a cabo de 1986 a 1997. En el diseño participaron los arquitectos Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič y Štefan Lichvár. En lugar de un único bloque hospitalario masivo, eligieron un sistema de pabellones modificado: las distintas funciones se distribuyen en varios volúmenes conectados, cuyas partes principales se orientan de este a oeste. Los bloques de hospitalización dan a la zona verde y más tranquila del recinto, mientras que las áreas de diagnóstico y tratamiento forman una base común. El conjunto muestra la búsqueda de una forma más humana para los grandes hospitales en la etapa final de la construcción socialista."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Janíkov Dvor – Slnečnice, rue Zuzany Chalupovej",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh : un ouvrage fortifié en béton de 1937",
+          "text": "Le bunker d’infanterie B-S-13 Stoh se trouve rue Betliarska, près du pont qui franchit le bras du Chorvátske rameno. Il faisait partie du système de fortification tchécoslovaque de la tête de pont de Bratislava. Cet ouvrage lourd à deux niveaux a été bétonné entre le 28 février et le 5 mars 1937. La ligne défensive de Petržalka fut construite à partir du milieu des années 1930 et achevée en septembre 1938. Après les accords de Munich, la Tchécoslovaquie dut céder à l’Allemagne le territoire et ses fortifications. Pendant la Seconde Guerre mondiale, l’armée allemande utilisa les bunkers de Petržalka pour l’entraînement ; plus tard, les ouvrages se retrouvèrent dans la zone frontalière. Stoh est l’un des témoins conservés de ce chapitre inachevé de la défense tchécoslovaque d’avant-guerre."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hôpital Saints-Cyrille-et-Méthode : une architecture moderne en pavillons",
+          "text": "L’hôpital Saints-Cyrille-et-Méthode, rue Antolská, est un exemple remarquable de grand complexe de santé conçu dans les années 1980. Le projet a été élaboré entre 1982 et 1986 et la construction s’est déroulée de 1986 à 1997. Les architectes Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič et Štefan Lichvár ont participé à sa conception. Plutôt qu’un unique bloc hospitalier massif, ils ont choisi un système pavillonnaire modifié : les fonctions sont réparties dans plusieurs volumes reliés entre eux, dont les parties principales sont orientées est-ouest. Les blocs d’hospitalisation donnent sur la partie verte et plus calme du site, tandis que les espaces d’examen et de traitement forment une base commune. L’ensemble illustre la recherche d’une forme plus humaine pour les grands hôpitaux à la fin de la période de construction socialiste."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Janíkov Dvor – Slnečnice, via Zuzany Chalupovej",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: una fortificazione in cemento del 1937",
+          "text": "Il bunker di fanteria B-S-13 Stoh si trova in via Betliarska, accanto al ponte sul ramo del Chorvátske rameno. Faceva parte del sistema di fortificazioni cecoslovacche della testa di ponte di Bratislava. Il bunker pesante, disposto su due livelli, fu gettato in cemento tra il 28 febbraio e il 5 marzo 1937. La linea difensiva di Petržalka fu realizzata a partire dalla metà degli anni Trenta e completata nel settembre 1938. In seguito all’Accordo di Monaco, la Cecoslovacchia dovette cedere alla Germania il territorio insieme alle fortificazioni. Durante la Seconda guerra mondiale l’esercito tedesco utilizzò i bunker di Petržalka per l’addestramento; in seguito le opere si trovarono nella zona di confine. Stoh è una delle testimonianze conservate di questo capitolo incompiuto della difesa cecoslovacca prebellica."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ospedale dei Santi Cirillo e Metodio: architettura moderna a padiglioni",
+          "text": "L’Ospedale dei Santi Cirillo e Metodio, in via Antolská, è un esempio significativo di grande complesso sanitario progettato negli anni Ottanta. Il progetto fu sviluppato tra il 1982 e il 1986 e la costruzione si svolse dal 1986 al 1997. Alla progettazione parteciparono gli architetti Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič e Štefan Lichvár. Invece di un unico enorme blocco ospedaliero, fu scelto un sistema a padiglioni modificato: le diverse funzioni sono distribuite in più corpi collegati, con le parti principali orientate da est a ovest. I blocchi di degenza si affacciano sulla zona verde più tranquilla del complesso, mentre gli spazi per esami e cure formano una base comune. L’insieme mostra la ricerca di una forma più a misura d’uomo per i grandi ospedali nella fase finale dell’edilizia socialista."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Janíkov Dvor – Slnečnice, Zuzany Chalupovejstraat",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "B-S-13 Stoh: een betonnen bunker uit 1937",
+          "text": "Aan de Betliarska-straat, bij de brug over de arm van het Chorvátske rameno, staat de infanteriebunker B-S-13 Stoh. Hij maakte deel uit van de Tsjechoslowaakse verdedigingslinie rond het bruggenhoofd van Bratislava. De zware bunker met twee verdiepingen werd tussen 28 februari en 5 maart 1937 in beton uitgevoerd. De verdedigingslinie van Petržalka werd vanaf het midden van de jaren dertig aangelegd en was in september 1938 voltooid. Na het Verdrag van München moest Tsjechoslowakije het gebied met de verdedigingswerken aan Duitsland afstaan. Tijdens de Tweede Wereldoorlog gebruikte het Duitse leger de bunkers in Petržalka voor oefeningen; later kwamen de werken in het grensgebied te liggen. Stoh is een van de bewaard gebleven getuigen van dit onafgemaakte hoofdstuk uit de vooroorlogse Tsjechoslowaakse verdediging."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ziekenhuis van de heilige Cyrillus en Methodius: moderne paviljoenarchitectuur",
+          "text": "Het ziekenhuis van de heilige Cyrillus en Methodius aan de Antolská-straat is een opvallend voorbeeld van een groot zorgcomplex dat in de jaren tachtig werd ontworpen. Het project werd uitgewerkt tussen 1982 en 1986 en de bouw vond plaats van 1986 tot 1997. Bij het ontwerp waren de architecten Viktor Šišolák, Jindro Martin, Vladimír Kubiš, Ivan Kolenič en Štefan Lichvár betrokken. In plaats van één massief ziekenhuisblok kozen zij voor een aangepast paviljoensysteem: de verschillende functies zijn verdeeld over meerdere verbonden bouwdelen, waarvan de hoofdgedeelten oost-west zijn gericht. De verpleegafdelingen kijken uit op het rustigere groene deel van het terrein, terwijl de onderzoeks- en behandelafdelingen een gezamenlijke basis vormen. Het complex laat zien hoe men aan het einde van de socialistische bouwperiode zocht naar een menselijker vorm voor een groot ziekenhuis."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
