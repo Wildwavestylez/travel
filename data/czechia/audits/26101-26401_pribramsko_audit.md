@@ -55,7 +55,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
 - Délka českého master textu: původní 4 nálezy pod 350 znaky byly opraveny: 26284/fact_001 (613), 26284/fact_003 (599), 26285/fact_001 (645), 26285/fact_002 (607). Všech šest cizojazyčných překladů (`de/en/es/fr/it/nl`) bylo aktualizováno podle českého masteru; read-back potvrdil 7/7 neprázdných jazykových verzí u každého faktu a shodu `translations.cs` s master textem. Aktuálně 0 českých master textů pod 350 znaků.
 - **Pravidla souřadnic:** pro každý fakt se používá pouze konkrétní doložený bod; \`exact\` pro ověřený objekt/adresu, \`approximate\` pro známou lokalitu s nepřesným bodem, \`area_representative\` pro reprezentativní bod rozlehlého sídla/území a \`historical_approximate\` pro historické místo s nejistou přesnou polohou. Typy jsou z řízeného slovníku \`schema.json\`. Žádný bod se nedoplňuje jen proto, aby na mapě nebylo prázdné místo; neobhajitelné polohy zůstávají \`null\`.
-- **Stav poloh:** původně 27 \`null\`; nyní doplněno 15, zbývá **12 \`null\`**. Aktuální read-back Supabase: 252 faktů, 239 s polohou, 13 bez polohy (12 původních otevřených null + 1 nový fakt bez ověřeného bodu), 0 neplatných souřadnicových objektů (chybějící název/typ/accuracy/source nebo souřadnice mimo rozsah).
+- **Stav poloh:** původně 27 `null`; nyní doplněno **19 původních poloh**, 8 původních null zůstává otevřených. Navíc jsou 2 nově doplněné usedlosti záměrně bez polohy do ověření konkrétního bodu. Aktuální read-back Supabase: 269 faktů, 259 s polohou, 10 bez polohy, 0 neplatných souřadnicových objektů.
 - **Doplněné body (15):**
   - \`26223/fact_011\` Na horách u Křešína — 49.802222, 13.9525; \`nature_reserve\`, \`area_representative\`; souřadnice středového bodu lokality Natura 2000 CZ0210044 (4,7059 ha), ověřeno v evropském seznamu a AOPK/ISOP. Opraven také chybný původní odkaz; nyní odkazuje na EUR-Lex.
   - \`26215/fact_002\` Psí hory u Čeliny — 49.74000, 14.33300; \`historic_mine\`, \`approximate\`; bod ložiska zlata, nikoli tvrzení o přesné poloze všech starých důlních děl.
@@ -166,7 +166,7 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 
 ### Aktuální read-back celého rozsahu
 - 36 PSČ, **269 faktů**, **259 faktů s polohou**, **10 null poloh**, **0 neplatných location objektů**.
-- Z původních 27 null poloh je nyní doloženo 18; 9 zůstává otevřených, protože pro ně nebyl nalezen dostatečně přesný a obhajitelný bod.
+- Z původních 27 null poloh je nyní doloženo 19; 8 původních zůstává otevřených. Dvě další null polohy patří nově doplněným usedlostem.
 - Všech 28 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
 - Stav zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy či read-only zamčení.
 
