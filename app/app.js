@@ -592,7 +592,7 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
 
     // Obnovení všech dosud objevených PSČ po refreshi.
     // Piny nejsou jen dočasná součást aktuálního běhu.
-    if(countryCode==='CZ'){
+    if(countryCode==='CZ'||countryCode==='IT'){
       // Show every published Czech postcode and Italian CAP immediately;
       // each country is loaded from its own Neon production table.
       const allPublishedData=await Promise.all(sequence.map(loadData));
