@@ -118,7 +118,7 @@ Schéma ani lifecycle databáze se neměnily.
 - `fact_056` — **Bastione delle Forche**: medicejská fortifikace navržená v kontextu projektu Antonia da Sangalla mladšího, práce obnovené roku 1551, poškození povodní roku 1618 a dokončená městská obnova v roce 2026.
 - `fact_057` — **Oratorio di Santa Maria Maddalena ai Malsani**: středověký oratoriální kostel vedle někdejšího leprosaria Sant’Iacopo, s fragmenty fresek z poloviny XIII. století a malbou připisovanou Pietru di Miniato z roku 1414.
 
-- `fact_058` — **Villa del Palco**: dimora commissionata da Francesco Datini alla fine del Trecento, trasformata nel 1439 in convento francescano; ampliamenti successivi, soggiorno di San Leonardo da Porto Maurizio nel 1716, soppressione nel 1778 e acquisizione da parte della Diocesi nel 1956.
+- `fact_058` — **Villa del Palco**: sídlo, které si na konci 14. století nechal vybudovat Francesco Datini; roku 1439 se proměnilo ve františkánský klášter, později bylo rozšířeno, roku 1716 zde pobýval svatý Leonardo da Porto Maurizio, roku 1778 byl klášter zrušen a v roce 1956 areál získala diecéze Prato.
 
 ### Opravy existujících faktů a mapových metadat
 
@@ -128,7 +128,7 @@ Schéma ani lifecycle databáze se neměnily.
 - Odstraněny tři soft hyphens z českých překladů `fact_008`, `fact_052` a `fact_054`.
 - U nových faktů byly zdroje souřadnic odděleny od obsahových zdrojů a zapsány do `facts[].location.source` i top-level inventáře.
 
-### Opakovaná strukturální kontrola 57 faktů / 399 překladů
+### Opakovaná strukturální kontrola 58 faktů / 406 překladů
 
 Read-back po druhém rozšíření potvrdil:
 
