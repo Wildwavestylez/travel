@@ -435,3 +435,13 @@ Po prvním průchodu byly v dalších překladech doplněny důležité podrobno
 
 Read-back potvrdil zachování počtu faktů a všech sedmi jazykových polí u dotčených PSČ. Opravy neměnily české master texty, ID, pořadí, zdroje, polohy, kategorie ani data_version.
 
+
+
+### Třetí kolo — další významové nesrovnalosti a rozšíření ruční kontroly (2026-11-21)
+
+- Ruční sémantické porovnání se rozšířilo na **168/271 faktů**; průchod zahrnuje všechna fakta v PSČ 26101, 26202–26215, 26221–26223, 26225, 26231–26232, 26241–26242 a vybrané faktové skupiny v dalších PSČ. U zbývajících 103 faktů pokračovat stejným postupem.
+- **26203/fact_005 — Starý Knín:** v německém překladu bylo odstraněno nepřesné doplnění „německé právo“ vedle emphyteutického práva. Překlad nyní odpovídá českému masteru a uvádí pouze emphyteutické právo.
+- **26212/fact_007 — Usedlost čp. 4 v Obořišti:** český master i všech šest překladů obsahovaly zastaralou větu, že poloha dosud není vyřešena, ačkoli souřadnice byly již dříve doplněny. Věta byla odstraněna; texty nyní popisují usedlost bez neaktuálního tvrzení o chybějící poloze. Samotné souřadnice ani ostatní geografická pole se neměnily.
+- V rámci kontroly byly ověřeny celé jazykové sady u dalších záznamů v Příbramsku, Novoknínsku, Jinecku, Pičínsku, Milínsku a Rožmitálsku. V této dávce nebyla nalezena další potvrzená významová chyba vyžadující opravu.
+- Po všech jazykových opravách zůstává strukturální stav 271/271 položek v každém jazyce; žádné ID ani pořadí se nezměnilo.
+
