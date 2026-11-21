@@ -4,7 +4,7 @@
 
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
-| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; A uzavřena; B CLOSED: orientační kontrola správní a geografické plausibility hotová; všech 9 řádků odpovídá oblasti Provincia di Prato/Toscana, bez zjevně cizího Comune; neprovádí se úplná kontrola každé obce, pobočky ani adresy; 59025 potvrzeny oficiální pobočky Luicciana (Seguimi) a Usella (Fermoposta); C částečně provedena: 55 faktů/8 validovaných CAP, otevřen rozpor CAP Pieve di San Pietro 59011/59015 a přesné přiřazení některých lokalit; D rychlý scan uzavřen bez potvrzené duplicity; bez publikace, zálohy a read-only zamčení |
+| IT-59011-59100 | 59011–59100 | [59011-59100_audit.md](59011-59100_audit.md) | **IN PROGRESS — REVIEW REQUIRED** — 9 řádků (8 validated, 1 placeholder), 61 faktů; A CLOSED; B CLOSED jako orientační sanity check; C PARTIAL: 54/55 bez zjevného geografického přesahu, otevřen konkrétní CAP konflikt Pieve di San Pietro (59011/59015); D CLOSED bez potvrzené duplicity; E PARTIAL: enum opraven, sémantická kontrola zbývá; F PARTIAL: 4 fakta (59015/008–009, 59016/007–008) mají nizozemský text zkopírovaný do všech 7 jazyků, dále drobné chyby 59013; G/H: první průchod souřadnicemi, všech 55 faktů má numerické souřadnice v rozsahu Itálie, bez null lokací; I PARTIAL: scan nenašel potvrzenou reklamu, nedostupný vedlejší CAP zdroj u 59021/004 doporučen k náhradě; bez publikace, zálohy a read-only zamčení |
 
 ## Pravidla registru
 - Před novým auditem ověř, zda již neexistuje tahák pro stejný nebo překrývající se rozsah.
