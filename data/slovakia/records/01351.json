@@ -1,4 +1,1344 @@
 {
   "postcode": "01351",
-  "status": "placeholder"
+  "city": "Predmier",
+  "district": null,
+  "county": "Bytča",
+  "state": "Žilinský kraj",
+  "representative_place": "Predmier – historické jádro u kostela sv. Gála",
+  "representative_point": {
+    "lat": 49.1967237,
+    "lon": 18.5290402
+  },
+  "access_point": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhledávání PSČ (https://www.posta.sk/psc) a oficiální stránka pobočky Predmier (https://otvaraciehodiny.posta.sk/?n=predmier); oficiální registr obcí potvrzuje adresy Predmier a Maršová-Rašov s PSČ 01351 (https://p104.svspn.sk/prirucka/obce.php?x_kraj=ZA); mapové křížové ověření: https://predmier.oma.sk/ a https://marsova-rasov.oma.sk/.",
+    "plz_checked_at": "2026-11-21",
+    "geographic_test_data": true,
+    "postcode_conflict": false,
+    "access_point_verified": false,
+    "delivery_office_note": "Doručovací pošta je Predmier (pobočka Predmier, adresa č. 19). PSČ 01351 se používá pro Predmier včetně osady Starovec a pro obec Maršová-Rašov. Pole city uvádí Predmier podle fyzického umístění doručovací pošty. Přesný vjezd či přístupový bod nebyl dostatečně ověřen, proto access_point zůstává null.",
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiální vyhledávání PSČ a záznam pobočky Predmier; registr obcí a oficiální obecní adresy",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_source_release": null,
+    "postcode_override_reason": null
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Jozef Ignác Bajza a první slovenský román",
+      "text": "V Predmieri se 5. března 1755 narodil kněz a spisovatel Jozef Ignác Bajza, autor díla René mládenca príhody a skúsenosti, považovaného za první román napsaný ve slovenštině. Připomíná ho pamětní busta; jeho rodný dům je veden jako národní kulturní památka.",
+      "category": "people",
+      "priority": "A",
+      "map_category": "personality",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=308",
+        "https://predmier.sk/podstranka?stranka=306",
+        "https://www.enviroportal.sk/eia/dokument/231190",
+        "https://poi.oma.sk/n10147503541"
+      ],
+      "location": {
+        "name": "Památník Jozefa Ignáce Bajzy v Predmieri",
+        "lat": 49.1970375,
+        "lon": 18.5295006,
+        "type": "sculpture",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n10147503541"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Ján Chryzostom Hanulík – básník evropské Arkádie",
+      "text": "Predmier je rodištěm Daniela Hanulíka (1745–1816), piaristy a latinského básníka, jehož řeholní jméno bylo Ján Chryzostom. Byl přijat do římské Arkádie; roku 1803 jej Petrohradská učená společnost označila za nejlepšího žijícího básníka píšícího latinsky a zvolila jej za jejich „knížete“.",
+      "category": "people",
+      "priority": "B",
+      "map_category": "personality",
+      "sources": [
+        "https://mot.sk/media/2023/09/09-10-web-2023_internet.pdf",
+        "https://predmier.sk/podstranka?stranka=308",
+        "https://mapcarta.com/18461740"
+      ],
+      "location": {
+        "name": "Predmier – orientační bod v historickém centru; přesný rodný dům Hanulíka není určen",
+        "lat": 49.1981,
+        "lon": 18.53188,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://mapcarta.com/18461740"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Štefánikův pomník a první mohyla",
+      "text": "V Predmieri vznikla v roce 1919 jedna z prvních, podle obecních zdrojů vůbec první mohyla věnovaná M. R. Štefánikovi. Současný pomník byl odhalen v roce 1930 a zachoval se na původním místě; po poškození bouří v roce 1998 byl obnoven.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://www.enviroportal.sk/eia/dokument/231190",
+        "https://poi.oma.sk/n2109224658"
+      ],
+      "location": {
+        "name": "Pomník Milana Rastislava Štefánika, Predmier",
+        "lat": 49.1964341,
+        "lon": 18.5287178,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n2109224658"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Gála a kaplan František Madva",
+      "text": "Dnešní kostel sv. Gála byl vysvěcen v roce 1799 na starším sakrálním místě; renesanční věž pochází přibližně z roku 1600 a ve zdi jsou náhrobní kameny ze 16. a 17. století. Jako kaplan zde v letech 1813–1815 působil pozdější lidový léčitel František Madva (1786–1852).",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://upload.dobraobec.sk/podstranky/aa7c3_Predmier%20monografia_n%C3%A1h%C4%BEad_web.pdf",
+        "https://www.zahorskemuzeum.sk/madva-frantisek-14-9-1786-skalica-20-8-1852-nitrianske-sucany/",
+        "https://botanici.sav.sk/people/madva-frantisek.html",
+        "https://poi.oma.sk/w164837330"
+      ],
+      "location": {
+        "name": "Kostel sv. Gála v Predmieri",
+        "lat": 49.1967237,
+        "lon": 18.5290402,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w164837330"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Renesanční budova bývalé pošty",
+      "text": "Predmier si zachoval dvoupodlažní renesanční budovu pošty ze 17. století. Později sloužila jako poštovní expozitura a přepřahací stanice, kde se měnily poštovní povozy; výrazně byla upravena v 18. století a po roce 1960. Je vedena jako národní kulturní památka.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://www.enviroportal.sk/eia/dokument/231190",
+        "https://predmier.oma.sk/c/53"
+      ],
+      "location": {
+        "name": "Predmier – orientační bod u historické pošty, č. 53",
+        "lat": 49.1969604,
+        "lon": 18.5285941,
+        "type": "building",
+        "accuracy": "approximate",
+        "source": "https://predmier.oma.sk/c/53"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Predmier – někdejší tržní městečko",
+      "text": "Obecní historie klade první písemnou zmínku o Predmieri do roku 1193; roku 1312 je doložen zdejší rychtář a v listině z roku 1525 je Predmier označen jako městečko. Maxmilián II. mu roku 1573 udělil jarmareční právo. Velký požár roku 1842 zničil archiv i značnou část zástavby.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historic_city",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=306",
+        "https://upload.dobraobec.sk/podstranky/aa7c3_Predmier%20monografia_n%C3%A1h%C4%BEad_web.pdf",
+        "https://poi.oma.sk/w164837330",
+        "https://www.enviroportal.sk/eia/dokument/231190"
+      ],
+      "location": {
+        "name": "Predmier – historické jádro u kostela sv. Gála",
+        "lat": 49.1967237,
+        "lon": 18.5290402,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w164837330"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Kaštieľ Predmier – panská stavba a kasárna",
+      "text": "V Predmieri stojí klasicistní kaštieľ z poloviny 19. století, v památkovém registru vedený jako kaštieľ (kasárna). Patří k historické zástavbě někdejšího městečka a připomíná proměny místní správy i vojenského využití.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "architecture",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://www.enviroportal.sk/eia/dokument/231190",
+        "https://poi.oma.sk/w164837340"
+      ],
+      "location": {
+        "name": "Kaštieľ Predmier",
+        "lat": 49.1987374,
+        "lon": 18.5319237,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w164837340"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Predmierčanka – 120 let dechové tradice",
+      "text": "Dechová hudba Predmierčanka vznikla roku 1906 v prostředí místní nábytkářské továrny J. Hetzela. V roce 2026 si připomíná 120 let; patří k dlouholetým regionálním hudebním tradicím a její historie přežila i obě světové války.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "map_category": "local_culture",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=307",
+        "https://predmiercanka.sk/o-nas/",
+        "https://www.stvr.sk/radio/archiv/1610/2864243",
+        "https://mapcarta.com/18461740"
+      ],
+      "location": {
+        "name": "Predmier – orientační bod v obci pro místní dechovou tradici",
+        "lat": 49.1981,
+        "lon": 18.53188,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18461740"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Ovocnářská tradice – Jozef Dúbravka a Dúbravkova alej",
+      "text": "Místní učitel Jozef Dúbravka (1906–1990) byl také včelař, ovocnář, kronikář, organizátor loutkového divadla a výrobce loutek. Současnou ovocnářskou tradici připomíná komunitní Dúbravkova alej, vysazená na jaře 2024 více než 60 starými odrůdami ovocných stromů; má altán i studánku.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "map_category": "park_garden",
+      "sources": [
+        "https://predmier.sk/podstranka?stranka=308",
+        "https://www.zilina.sp21.sk/a/hrnlpvkzvzd9dgyvivqcal0u/najprv-boj-o-vodu-potom-niciva-burka-predmiercania-svoju-alej-neopustili",
+        "https://mapcarta.com/18461740"
+      ],
+      "location": {
+        "name": "Predmier – orientační bod pro Dúbravkovu alej; přesná poloha sadu není v mapových zdrojích potvrzena",
+        "lat": 49.1981,
+        "lon": 18.53188,
+        "type": "garden",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18461740"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Maršová-Rašov – tři historická sídla",
+      "text": "Dnešní obec vznikla sloučením tří historických sídel: Urbanov je písemně doložen roku 1269, Maršová roku 1400 a Rašov roku 1439. Ke sloučení došlo roku 1898; současný název Maršová-Rašov byl úředně zaveden v roce 1998.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.marsovarasov.sk/obec-2/o-obci/historia-obce/",
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+        "https://mapcarta.com/36460896"
+      ],
+      "location": {
+        "name": "Maršová-Rašov – reprezentativní bod historicky sloučených částí obce",
+        "lat": 49.1809,
+        "lon": 18.5135,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/36460896"
+      }
+    },
+    {
+      "id": "fact_011",
+      "title": "Jozef Urbanovský a ovocný park v Urbanově",
+      "text": "V bývalém Urbanově se roku 1793 narodil kněz a národní buditel Jozef Urbanovský (1793–1865), člen Tatrína a propagátor moderního hospodaření, včelařství a ovocnářství. Obec zde v roce 2021 založila ovocný park na parcele C-KN 1351/1; přesný bod parcely není v dostupných mapách potvrzen.",
+      "category": "people",
+      "priority": "B",
+      "map_category": "personality",
+      "sources": [
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=197b0a36%7C950&inline=1",
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+        "https://www.marsovarasov.sk/samosprava/projekty-a-europrojekty/projekty/",
+        "https://mapcarta.com/18461458"
+      ],
+      "location": {
+        "name": "Urbanov – orientační poloha Parku Jozefa Urbanovského; přesný bod parcely 1351/1 není potvrzen",
+        "lat": 49.18127,
+        "lon": 18.51205,
+        "type": "park",
+        "accuracy": "historical_approximate",
+        "source": "https://mapcarta.com/18461458"
+      }
+    },
+    {
+      "id": "fact_012",
+      "title": "Hradište – pozdně laténské opevnění",
+      "text": "Vrch Hradište (přibližně 602 m) je od roku 1967 evidován jako kulturní památka. Opevnění na jeho temeni je podle archeologického výzkumu datováno do pozdní doby laténské; samotný název svádí ke spojení s Velkou Moravou, ale doložené datování je starší.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.marsovarasov.sk/obec-2/o-obci/vrch-hradiste/",
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://poi.oma.sk/n2462146275"
+      ],
+      "location": {
+        "name": "Vrch Hradište – orientační bod na temeni kopce",
+        "lat": 49.1764232,
+        "lon": 18.53249,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n2462146275"
+      }
+    },
+    {
+      "id": "fact_013",
+      "title": "Archeologická krajina Maršové-Rašova",
+      "text": "V katastru jsou doloženy další archeologické polohy, mimo jiné Náskladie, Kopánka, Hrábie a Sedlište. Nálezy ukazují osídlení púchovské kultury na přelomu letopočtu i slovanské osídlení z 8. století; Hradište je jen jednou částí širší archeologické krajiny.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://www.slovensko.sk/sk/lokality/_e1f43da4-ecab-4dea-bce6-ca48d122a4cd",
+        "https://mapcarta.com/36460896"
+      ],
+      "location": {
+        "name": "Maršová-Rašov – reprezentativní bod pro archeologické polohy v katastru",
+        "lat": 49.1809,
+        "lon": 18.5135,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/36460896"
+      }
+    },
+    {
+      "id": "fact_014",
+      "title": "Kaštieľ Maršovských a historická lipová alej",
+      "text": "Novogotický kaštieľ Maršovských vznikl v poslední třetině 19. století. Roku 1909 jej koupilo 12 rodin z Oščadnice; později přešel k rodině skladatele Jána Móryho. Starší obecní inventář zaznamenal v zámecké aleji 24 lip malolistých odhadovaných na 100–200 let; tento počet je historický, nikoli potvrzení dnešního stavu.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://www.uzemneplany.sk/files/ground_planes/marsova-rasov/parts/uzemny-plan-obce/navrh/documents/sprievodna-sprava.pdf?f=9d00481da0a82ebd43fef76a0959f148",
+        "https://www.pamiatkynaslovensku.sk/kastiel-marsova",
+        "https://poi.oma.sk/w164789792"
+      ],
+      "location": {
+        "name": "Kaštieľ Maršovských",
+        "lat": 49.1848257,
+        "lon": 18.5252851,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w164789792"
+      }
+    },
+    {
+      "id": "fact_015",
+      "title": "Pohřební kaple Povýšení sv. Kříže v Maršové",
+      "text": "Na maršovském hřbitově za kaštieľem stojí klasicistní pohřební kaple s kryptou. Prameny se rozcházejí v dataci: obecní stránka uvádí rok 1848, zatímco obecní výroční zpráva rok 1845; bezpečné je proto datovat ji do poloviny 19. století.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.marsovarasov.sk/obec-2/o-obci/pamiatky/kaplnky-196sk.html",
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+        "https://poi.oma.sk/w164790095"
+      ],
+      "location": {
+        "name": "Maršová – hřbitov, orientační bod ke kapli Povýšení sv. Kříže",
+        "lat": 49.1847609,
+        "lon": 18.5271986,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w164790095"
+      }
+    },
+    {
+      "id": "fact_016",
+      "title": "Rašov – kaple, zvonice a kostel",
+      "text": "Rašov si zachoval drobné sakrální stavby: cestní kapli z konce 18. století a zvonici z 19. století, která stojí v centru u potoka. Novější kostel Panny Marie Pomocnice křesťanů byl dokončen v roce 1995; soubor připomíná proměny místní náboženské krajiny.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.marsovarasov.sk/obec-2/o-obci/pamiatky/kaplnky-196sk.html",
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=197b0a36%7C950&inline=1",
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://poi.oma.sk/w164789968",
+        "https://poi.oma.sk/w164789237"
+      ],
+      "location": {
+        "name": "Rašov – sakrální centrum u kostela Panny Marie Pomocnice křesťanů",
+        "lat": 49.1809244,
+        "lon": 18.5145594,
+        "type": "architectural_ensemble",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w164789968"
+      }
+    },
+    {
+      "id": "fact_017",
+      "title": "Přírodní bohatství Maršové-Rašova",
+      "text": "Území leží na styku Bytčianské kotliny, Manínských vrchů a Podjavornické vrchoviny. Obecní přírodopisný přehled popisuje zbytky lužních lesů, vápnomilnou květenu a chráněné druhy, například vstavač vojenský a lilii zlatohlavou; jde o obecní inventář, nikoli aktuální monitoring.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "map_category": "nature",
+      "sources": [
+        "https://www.marsovarasov.sk/obec-2/o-obci/prirodne-bohatstva/",
+        "https://www.slovensko.sk/sk/lokality/_e1f43da4-ecab-4dea-bce6-ca48d122a4cd",
+        "https://poi.oma.sk/n2462146275"
+      ],
+      "location": {
+        "name": "Svahy Hradišťa – reprezentativní bod pro přírodní bohatství katastru",
+        "lat": 49.1764232,
+        "lon": 18.53249,
+        "type": "landscape",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2462146275"
+      }
+    },
+    {
+      "id": "fact_018",
+      "title": "Rašovská dolina – vojenská a průmyslová minulost",
+      "text": "Rašovská dolina měla vodní mlýn doložený od poloviny 19. století, v oblasti Uhliska se těžilo uhlí a v lomu u Kočací pracovali v letech 1925–1937 italští kameníci; kámen se používal při zpevňování břehů Váhu. Roku 1952 ministerstvo obrany vykoupilo pozemky pro vojenský útvar a v roce 1953 začala výstavba; 26. srpna 1968 dorazila do obce sovětská tanková jednotka. Přesné polohy zaniklých provozů a vojenského areálu nejsou v mapových zdrojích potvrzeny.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+        "https://www.slovensko.sk/sk/lokality/_e1f43da4-ecab-4dea-bce6-ca48d122a4cd",
+        "https://mapcarta.com/18461458",
+        "https://poi.oma.sk/n2462146275"
+      ],
+      "location": {
+        "name": "Rašovská dolina – orientační bod pro zaniklé provozy a vojenský areál",
+        "lat": 49.18127,
+        "lon": 18.51205,
+        "type": "historic_industrial_site",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18461458"
+      }
+    },
+    {
+      "id": "fact_019",
+      "title": "Socha sv. Huberta v dolině Rašova",
+      "text": "Na návrší Kočacie v Rašovské dolině byla roku 1997 postavena a vysvěcena socha sv. Huberta, iniciovaná místním mysliveckým sdružením. Jde o drobný lesní orientační bod a připomínku místní myslivecké tradice; přesný mapový bod sochy není v dostupných zdrojích potvrzen.",
+      "category": "hidden_gem",
+      "priority": "D",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+        "https://mapcarta.com/18461458"
+      ],
+      "location": {
+        "name": "Rašovská dolina – orientační bod pro sochu sv. Huberta na Kočacím",
+        "lat": 49.18127,
+        "lon": 18.51205,
+        "type": "sculpture",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18461458"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – pobočka Predmier",
+      "url": "https://otvaraciehodiny.posta.sk/?n=predmier",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo vnitra SR – registr obcí Žilinského kraje",
+      "url": "https://p104.svspn.sk/prirucka/obce.php?x_kraj=ZA",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Predmier a poštovní oblast",
+      "url": "https://predmier.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Maršová-Rašov a poštovní oblast",
+      "url": "https://marsova-rasov.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Obec Predmier – Historie",
+      "url": "https://predmier.sk/podstranka?stranka=306",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predmier – Kulturní památky",
+      "url": "https://predmier.sk/podstranka?stranka=307",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predmier – Osobnosti obce",
+      "url": "https://predmier.sk/podstranka?stranka=308",
+      "type": "official"
+    },
+    {
+      "title": "Predmier – monografie obce",
+      "url": "https://upload.dobraobec.sk/podstranky/aa7c3_Predmier%20monografia_n%C3%A1h%C4%BEad_web.pdf",
+      "type": "official"
+    },
+    {
+      "title": "MOT – Živý latinský lyrik: Ján Chryzostom Hanulík",
+      "url": "https://mot.sk/media/2023/09/09-10-web-2023_internet.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Predmierčanka – historie dechové hudby",
+      "url": "https://predmiercanka.sk/o-nas/",
+      "type": "official"
+    },
+    {
+      "title": "STVR – 120 let Predmierčanky",
+      "url": "https://www.stvr.sk/radio/archiv/1610/2864243",
+      "type": "news"
+    },
+    {
+      "title": "SP21 – Dúbravkova alej v Predmieri",
+      "url": "https://www.zilina.sp21.sk/a/hrnlpvkzvzd9dgyvivqcal0u/najprv-boj-o-vodu-potom-niciva-burka-predmiercania-svoju-alej-neopustili",
+      "type": "news"
+    },
+    {
+      "title": "OMA – památník Jozefa Ignáce Bajzy",
+      "url": "https://poi.oma.sk/n10147503541",
+      "type": "other"
+    },
+    {
+      "title": "OMA – pomník M. R. Štefánika",
+      "url": "https://poi.oma.sk/n2109224658",
+      "type": "other"
+    },
+    {
+      "title": "OMA – kostel sv. Gála v Predmieri",
+      "url": "https://poi.oma.sk/w164837330",
+      "type": "other"
+    },
+    {
+      "title": "OMA – kaštieľ Predmier",
+      "url": "https://poi.oma.sk/w164837340",
+      "type": "other"
+    },
+    {
+      "title": "OMA – adresa Predmier 53",
+      "url": "https://predmier.oma.sk/c/53",
+      "type": "other"
+    },
+    {
+      "title": "Mapcarta – Predmier",
+      "url": "https://mapcarta.com/18461740",
+      "type": "other"
+    },
+    {
+      "title": "Enviroportál – posouzení kulturně-historických hodnot Predmiera",
+      "url": "https://www.enviroportal.sk/eia/dokument/231190",
+      "type": "official"
+    },
+    {
+      "title": "Záhorské múzeum – František Madva",
+      "url": "https://www.zahorskemuzeum.sk/madva-frantisek-14-9-1786-skalica-20-8-1852-nitrianske-sucany/",
+      "type": "museum"
+    },
+    {
+      "title": "Slovenská akademie věd – František Madva",
+      "url": "https://botanici.sav.sk/people/madva-frantisek.html",
+      "type": "university"
+    },
+    {
+      "title": "Obec Maršová-Rašov – Historie obce",
+      "url": "https://www.marsovarasov.sk/obec-2/o-obci/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – Vrch Hradište",
+      "url": "https://www.marsovarasov.sk/obec-2/o-obci/vrch-hradiste/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – Přírodní bohatství",
+      "url": "https://www.marsovarasov.sk/obec-2/o-obci/prirodne-bohatstva/",
+      "type": "official"
+    },
+    {
+      "title": "Maršová-Rašov – obecní monografie",
+      "url": "https://www.marsovarasov.sk/e_download.php?file=data%2Feditor%2F39sk_1.pdf&original=marsova+-+kniha.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – projekty, včetně Parku Jozefa Urbanovského",
+      "url": "https://www.marsovarasov.sk/samosprava/projekty-a-europrojekty/projekty/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – výroční zpráva",
+      "url": "https://www.marsovarasov.sk/modules/file_storage/download.php?file=197b0a36%7C950&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – individuální výroční zpráva",
+      "url": "https://www.marsovarasov.sk/modules/file_storage/download.php?file=bdd12859%7C949&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Maršová-Rašov – Kapličky",
+      "url": "https://www.marsovarasov.sk/obec-2/o-obci/pamiatky/kaplnky-196sk.html",
+      "type": "official"
+    },
+    {
+      "title": "OMA – kaštieľ Maršovských",
+      "url": "https://poi.oma.sk/w164789792",
+      "type": "other"
+    },
+    {
+      "title": "OMA – hřbitov v Maršové",
+      "url": "https://poi.oma.sk/w164790095",
+      "type": "other"
+    },
+    {
+      "title": "OMA – kostel Panny Marie Pomocnice křesťanů",
+      "url": "https://poi.oma.sk/w164789968",
+      "type": "other"
+    },
+    {
+      "title": "OMA – kaplička v Rašově",
+      "url": "https://poi.oma.sk/w164789237",
+      "type": "other"
+    },
+    {
+      "title": "OMA – vrch Hradište",
+      "url": "https://poi.oma.sk/n2462146275",
+      "type": "other"
+    },
+    {
+      "title": "Mapcarta – Maršová-Rašov",
+      "url": "https://mapcarta.com/36460896",
+      "type": "other"
+    },
+    {
+      "title": "Mapcarta – Rašov",
+      "url": "https://mapcarta.com/18461458",
+      "type": "other"
+    },
+    {
+      "title": "Územní plán Maršová-Rašov – historická lipová alej",
+      "url": "https://www.uzemneplany.sk/files/ground_planes/marsova-rasov/parts/uzemny-plan-obce/navrh/documents/sprievodna-sprava.pdf?f=9d00481da0a82ebd43fef76a0959f148",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – obec Maršová-Rašov",
+      "url": "https://www.slovensko.sk/sk/lokality/_e1f43da4-ecab-4dea-bce6-ca48d122a4cd",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Maršová",
+      "url": "https://www.pamiatkynaslovensku.sk/kastiel-marsova",
+      "type": "specialist"
+    }
+  ],
+  "photo": null,
+  "translations": {
+    "cs": {
+      "representative_place": "Predmier – historické jádro u kostela sv. Gála",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza a první slovenský román",
+          "text": "V Predmieri se 5. března 1755 narodil kněz a spisovatel Jozef Ignác Bajza, autor díla René mládenca príhody a skúsenosti, považovaného za první román napsaný ve slovenštině. Připomíná ho pamětní busta; jeho rodný dům je národní kulturní památkou."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – básník evropské Arkádie",
+          "text": "Predmier je rodištěm Daniela Hanulíka (1745–1816), piaristy a latinského básníka, jehož řeholní jméno bylo Ján Chryzostom. Byl přijat do římské Arkádie; roku 1803 jej Petrohradská učená společnost označila za nejlepšího žijícího básníka píšícího latinsky a zvolila jej za jejich „knížete“."
+        },
+        {
+          "id": "fact_003",
+          "title": "Štefánikův pomník a první mohyla",
+          "text": "V Predmieri vznikla roku 1919 jedna z prvních, podle obecních zdrojů vůbec první mohyla věnovaná M. R. Štefánikovi. Současný pomník byl odhalen v roce 1930 a zachoval se na původním místě; po poškození bouří v roce 1998 byl obnoven."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Gála a kaplan František Madva",
+          "text": "Dnešní kostel sv. Gála byl vysvěcen roku 1799 na starším sakrálním místě; renesanční věž pochází přibližně z roku 1600 a ve zdi jsou náhrobní kameny ze 16. a 17. století. V letech 1813–1815 zde působil kaplan František Madva (1786–1852), později známý lidový léčitel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Renesanční budova bývalé pošty",
+          "text": "Predmier si zachoval dvoupodlažní renesanční poštu ze 17. století. Později sloužila jako poštovní expozitura a přepřahací stanice pro výměnu poštovních povozů; upravována byla v 18. století a po roce 1960. Je národní kulturní památkou."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – někdejší tržní městečko",
+          "text": "Obecní historie klade první písemnou zmínku o Predmieri do roku 1193; roku 1312 je doložen rychtář a listina z roku 1525 jej označuje jako městečko. Maxmilián II. udělil roku 1573 jarmareční právo. Požár roku 1842 zničil archiv i značnou část obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – panská stavba a kasárna",
+          "text": "V Predmieri stojí klasicistní kaštieľ z poloviny 19. století, v památkovém registru vedený jako kaštieľ (kasárna). Patří k historické zástavbě někdejšího městečka a připomíná proměny místní správy i vojenského využití."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 let dechové tradice",
+          "text": "Dechová hudba Predmierčanka vznikla roku 1906 v prostředí místní nábytkářské továrny J. Hetzela. V roce 2026 si připomíná 120 let a patří k dlouholetým regionálním hudebním tradicím."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ovocnářská tradice – Jozef Dúbravka a Dúbravkova alej",
+          "text": "Učitel Jozef Dúbravka (1906–1990) byl také včelař, ovocnář, kronikář, organizátor loutkového divadla a výrobce loutek. Dnešní komunitní Dúbravkova alej byla vysazena na jaře 2024 více než 60 starými odrůdami ovocných stromů; má altán i studánku."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – tři historická sídla",
+          "text": "Dnešní obec vznikla sloučením tří sídel: Urbanov je písemně doložen roku 1269, Maršová roku 1400 a Rašov roku 1439. Sloučení proběhlo roku 1898; úřední název Maršová-Rašov byl zaveden v roce 1998."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský a ovocný park v Urbanově",
+          "text": "V bývalém Urbanově se roku 1793 narodil kněz a národní buditel Jozef Urbanovský (1793–1865), člen Tatrína a propagátor moderního hospodaření, včelařství a ovocnářství. Obec zde v roce 2021 založila ovocný park; přesná poloha parcely není v mapách potvrzena."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – pozdně laténské opevnění",
+          "text": "Vrch Hradište (asi 602 m) je od roku 1967 kulturní památkou. Opevnění na jeho temeni je podle archeologického výzkumu pozdně laténské; navzdory názvu tedy nejde o doložené velkomoravské hradiště."
+        },
+        {
+          "id": "fact_013",
+          "title": "Archeologická krajina Maršové-Rašova",
+          "text": "V katastru jsou doloženy polohy Náskladie, Kopánka, Hrábie a Sedlište. Nálezy ukazují osídlení púchovské kultury na přelomu letopočtu i slovanské osídlení z 8. století; Hradište je jen jednou částí širší archeologické krajiny."
+        },
+        {
+          "id": "fact_014",
+          "title": "Kaštieľ Maršovských a historická lipová alej",
+          "text": "Novogotický kaštieľ vznikl v poslední třetině 19. století. Roku 1909 jej koupilo 12 rodin z Oščadnice; později patřil rodině skladatele Jána Móryho. Starší inventář uváděl v aleji 24 lip starých asi 100–200 let; jde o historický údaj."
+        },
+        {
+          "id": "fact_015",
+          "title": "Pohřební kaple Povýšení sv. Kříže v Maršové",
+          "text": "Na maršovském hřbitově za kaštieľem stojí klasicistní pohřební kaple s kryptou. Prameny se rozcházejí v dataci: obecní stránka uvádí 1848, výroční zpráva 1845; bezpečné je datovat ji do poloviny 19. století."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – kaple, zvonice a kostel",
+          "text": "Rašov si zachoval cestní kapli z konce 18. století a zvonici z 19. století v centru u potoka. Novější kostel Panny Marie Pomocnice křesťanů byl dokončen roku 1995; soubor zachycuje proměny místní náboženské krajiny."
+        },
+        {
+          "id": "fact_017",
+          "title": "Přírodní bohatství Maršové-Rašova",
+          "text": "Území leží na styku Bytčianské kotliny, Manínských vrchů a Podjavornické vrchoviny. Obecní přehled popisuje zbytky lužních lesů, vápnomilnou květenu a chráněné druhy, například vstavač vojenský a lilii zlatohlavou; jde o inventář, nikoli aktuální monitoring."
+        },
+        {
+          "id": "fact_018",
+          "title": "Rašovská dolina – vojenská a průmyslová minulost",
+          "text": "Rašov měl vodní mlýn doložený od poloviny 19. století, v Uhlisku se těžilo uhlí a v lomu u Kočací pracovali v letech 1925–1937 italští kameníci. Roku 1952 zde ministerstvo obrany získalo pozemky pro vojenský útvar; 26. srpna 1968 dorazila sovětská tanková jednotka. Přesné body zaniklých provozů nejsou potvrzeny."
+        },
+        {
+          "id": "fact_019",
+          "title": "Socha sv. Huberta v dolině Rašova",
+          "text": "Na návrší Kočacie v Rašovské dolině byla roku 1997 postavena a vysvěcena socha sv. Huberta, iniciovaná místním mysliveckým sdružením. Je to drobný lesní orientační bod a připomínka místní myslivecké tradice; přesný bod sochy není potvrzen."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Predmier – historischer Ortskern an der St.-Gallus-Kirche",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza und der erste slowakische Roman",
+          "text": "Am 5. März 1755 wurde in Predmier der Priester und Schriftsteller Jozef Ignác Bajza geboren. Sein Werk René mládenca príhody a skúsenosti gilt als erster auf Slowakisch verfasster Roman. Eine Büste erinnert an ihn; sein Geburtshaus ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – Dichter der europäischen Arkadien",
+          "text": "Predmier ist der Geburtsort von Daniel Hanulík (1745–1816), Piarist und lateinischer Dichter mit dem Ordensnamen Ján Chryzostom. Er wurde in die römische Arkadische Akademie aufgenommen; 1803 wählte ihn die Gelehrte Gesellschaft von Sankt Petersburg zum Fürsten der lebenden lateinischen Dichter."
+        },
+        {
+          "id": "fact_003",
+          "title": "Štefánik-Denkmal und frühe Gedenkstätte",
+          "text": "1919 entstand in Predmier eine der ersten, laut Gemeinde sogar die erste Gedenkstätte für M. R. Štefánik. Das heutige Denkmal wurde 1930 enthüllt und blieb an seinem ursprünglichen Standort; nach Sturmschäden 1998 wurde es restauriert."
+        },
+        {
+          "id": "fact_004",
+          "title": "St.-Gallus-Kirche und Kaplan František Madva",
+          "text": "Die heutige St.-Gallus-Kirche wurde 1799 an einem älteren Sakralort geweiht; der Renaissanceturm stammt etwa von 1600, in der Mauer sind Grabsteine aus dem 16. und 17. Jahrhundert eingelassen. 1813–1815 wirkte hier der spätere Volksheiler František Madva als Kaplan."
+        },
+        {
+          "id": "fact_005",
+          "title": "Renaissancegebäude des ehemaligen Postamts",
+          "text": "Predmier bewahrt ein zweigeschossiges Renaissance-Postgebäude aus dem 17. Jahrhundert. Später diente es als Poststelle und Pferdewechselstation für Postkutschen. Umbauten erfolgten im 18. Jahrhundert und nach 1960; das Gebäude ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – ehemaliger Marktort",
+          "text": "Die Gemeindegeschichte datiert die erste schriftliche Erwähnung auf 1193; 1312 ist ein Richter belegt, und eine Urkunde von 1525 bezeichnet Predmier als Marktflecken. Maximilian II. verlieh 1573 das Jahrmarktrecht. Ein Großbrand zerstörte 1842 das Archiv und einen großen Teil des Ortes."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – Herrenhaus und Kaserne",
+          "text": "In Predmier steht ein klassizistisches Herrenhaus aus der Mitte des 19. Jahrhunderts, im Denkmalregister als Herrenhaus beziehungsweise Kaserne geführt. Es gehört zum historischen Ortsbild des ehemaligen Marktfleckens."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 Jahre Blasmusiktradition",
+          "text": "Die Blaskapelle Predmierčanka entstand 1906 im Umfeld der örtlichen Möbelfabrik von J. Hetzel. 2026 feiert sie ihr 120-jähriges Bestehen und gehört zu den langlebigen Musiktraditionen der Region."
+        },
+        {
+          "id": "fact_009",
+          "title": "Obstbautradition – Jozef Dúbravka und die Dúbravka-Allee",
+          "text": "Lehrer Jozef Dúbravka (1906–1990) war auch Imker, Obstbauer, Chronist, Puppentheaterorganisator und Puppenmacher. Die heutige Gemeinschaftsallee wurde im Frühjahr 2024 mit mehr als 60 alten Obstsorten bepflanzt und besitzt einen Pavillon und eine Quelle."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – drei historische Siedlungen",
+          "text": "Die heutige Gemeinde entstand aus drei Siedlungen: Urbanov ist 1269, Maršová 1400 und Rašov 1439 schriftlich belegt. Sie wurden 1898 vereinigt; der amtliche Name Maršová-Rašov wurde 1998 eingeführt."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský und der Obstpark in Urbanov",
+          "text": "Im ehemaligen Urbanov wurde 1793 der Priester und slowakische Nationalerwecker Jozef Urbanovský (1793–1865) geboren. Er förderte moderne Landwirtschaft, Imkerei und Obstbau. Die Gemeinde legte hier 2021 einen Obstpark an; der genaue Parzellenpunkt ist kartografisch nicht bestätigt."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – spätlatènezeitliche Befestigung",
+          "text": "Der etwa 602 m hohe Berg Hradište ist seit 1967 als Kulturdenkmal erfasst. Die Befestigung auf seinem Gipfel wird archäologisch in die späte Latènezeit datiert; trotz des Namens ist keine großmährische Datierung belegt."
+        },
+        {
+          "id": "fact_013",
+          "title": "Archäologische Landschaft von Maršová-Rašov",
+          "text": "Im Gemeindegebiet sind Fundstellen wie Náskladie, Kopánka, Hrábie und Sedlište bekannt. Funde belegen Siedlungen der Púchov-Kultur um die Zeitenwende sowie slawische Besiedlung im 8. Jahrhundert; Hradište ist nur ein Teil dieser Landschaft."
+        },
+        {
+          "id": "fact_014",
+          "title": "Kaštieľ Maršovských und die historische Lindenallee",
+          "text": "Das neugotische Herrenhaus entstand im letzten Drittel des 19. Jahrhunderts. 1909 kauften es zwölf Familien aus Oščadnica; später gehörte es der Familie des Komponisten Ján Móry. Ein älteres Inventar verzeichnete 24 Linden im Alter von etwa 100–200 Jahren."
+        },
+        {
+          "id": "fact_015",
+          "title": "Begräbniskapelle der Kreuzerhöhung in Maršová",
+          "text": "Auf dem Friedhof von Maršová hinter dem Herrenhaus steht eine klassizistische Begräbniskapelle mit Krypta. Die Quellen nennen unterschiedliche Daten – 1848 auf der Gemeindeseite und 1845 im Jahresbericht –, daher ist die Mitte des 19. Jahrhunderts die sichere Datierung."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – Kapelle, Glockenturm und Kirche",
+          "text": "Rašov bewahrt eine Wegkapelle vom Ende des 18. Jahrhunderts und einen Glockenturm aus dem 19. Jahrhundert im Ortszentrum am Bach. Die jüngere Kirche Maria, Hilfe der Christen, wurde 1995 fertiggestellt."
+        },
+        {
+          "id": "fact_017",
+          "title": "Naturreichtum von Maršová-Rašov",
+          "text": "Das Gebiet liegt am Übergang von Bytčianska kotlina, Manínske vrchy und Podjavornícka vrchovina. Die kommunale Naturübersicht nennt Reste von Auwäldern, kalkliebende Pflanzen sowie geschützte Arten wie Helm-Knabenkraut und Türkenbund-Lilie; die Liste ist kein aktuelles Monitoring."
+        },
+        {
+          "id": "fact_018",
+          "title": "Rašov-Tal – militärische und industrielle Vergangenheit",
+          "text": "Rašov hatte seit der Mitte des 19. Jahrhunderts eine Wassermühle; bei Uhlisko wurde Kohle abgebaut und im Steinbruch Kočacie arbeiteten 1925–1937 italienische Steinmetze. 1952 erwarb das Verteidigungsministerium Gelände für eine Militäreinheit; am 26. August 1968 traf eine sowjetische Panzereinheit ein."
+        },
+        {
+          "id": "fact_019",
+          "title": "Statue des heiligen Hubertus im Rašov-Tal",
+          "text": "Auf der Anhöhe Kočacie im Rašov-Tal wurde 1997 eine Statue des heiligen Hubertus errichtet und geweiht, angeregt vom örtlichen Jagdverein. Sie erinnert an die lokale Jagdtradition; der genaue Kartenpunkt ist nicht bestätigt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Predmier – historic centre by St Gallus Church",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza and the first Slovak novel",
+          "text": "Priest and writer Jozef Ignác Bajza was born in Predmier on 5 March 1755. His René mládenca príhody a skúsenosti is regarded as the first novel written in Slovak. A bust commemorates him, and his birthplace is a national cultural monument."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – poet of the Arcadian world",
+          "text": "Predmier is the birthplace of Daniel Hanulík (1745–1816), a Piarist and Latin poet whose religious name was Ján Chryzostom. He joined Rome’s Arcadian Academy; in 1803 the St Petersburg Learned Society acclaimed him the leading living poet writing in Latin and chose him as their “prince”."
+        },
+        {
+          "id": "fact_003",
+          "title": "Štefánik monument and an early memorial mound",
+          "text": "In 1919 Predmier created one of the first memorial mounds for M. R. Štefánik, described by the municipality as the first. The present monument was unveiled in 1930 and remained at its original site; it was restored after storm damage in 1998."
+        },
+        {
+          "id": "fact_004",
+          "title": "St Gallus Church and chaplain František Madva",
+          "text": "The present St Gallus Church was consecrated in 1799 on an older sacred site. Its Renaissance tower dates to around 1600, and 16th- and 17th-century tombstones are set into the wall. František Madva, later known as a folk healer, served here as chaplain in 1813–1815."
+        },
+        {
+          "id": "fact_005",
+          "title": "Renaissance former post office",
+          "text": "Predmier preserves a two-storey Renaissance post building from the 17th century. It later served as a postal branch and a horse-changing station for mail coaches. It was altered in the 18th century and after 1960, and is a national cultural monument."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – a former market town",
+          "text": "The municipal history dates Predmier’s first written mention to 1193; a local magistrate is recorded in 1312, and a 1525 charter calls it a market town. Maximilian II granted fair rights in 1573. A major fire destroyed the archive and much of the settlement in 1842."
+        },
+        {
+          "id": "fact_007",
+          "title": "Predmier Manor – noble residence and barracks",
+          "text": "Predmier has a Neoclassical manor house from the mid-19th century, listed in the heritage register as a manor and barracks. It forms part of the historic settlement and recalls changing administrative and military uses."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 years of brass-band tradition",
+          "text": "The Predmierčanka brass band was founded in 1906 among workers at J. Hetzel’s local furniture factory. In 2026 it marks 120 years and remains one of the region’s long-running musical traditions."
+        },
+        {
+          "id": "fact_009",
+          "title": "Fruit-growing heritage – Jozef Dúbravka and Dúbravka Alley",
+          "text": "Teacher Jozef Dúbravka (1906–1990) was also a beekeeper, fruit grower, chronicler, puppeteer and organiser of puppet theatre. The community orchard alley was planted in spring 2024 with more than 60 old fruit varieties; it has a shelter and a spring."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – three historic settlements",
+          "text": "The present municipality grew from three settlements: Urbanov is recorded in 1269, Maršová in 1400 and Rašov in 1439. They merged in 1898; the official name Maršová-Rašov was adopted in 1998."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský and the fruit park in Urbanov",
+          "text": "The former village of Urbanov was the birthplace of priest and Slovak national revivalist Jozef Urbanovský (1793–1865), a member of Tatrín and promoter of modern farming, beekeeping and fruit growing. The municipality planted a fruit park here in 2021; its exact parcel point is not mapped."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – Late La Tène hillfort",
+          "text": "The approximately 602-metre Hradište hill has been a protected cultural monument since 1967. Archaeological research dates the summit fortification to the Late La Tène period; despite its name, a Great Moravian date is not established."
+        },
+        {
+          "id": "fact_013",
+          "title": "The archaeological landscape of Maršová-Rašov",
+          "text": "The cadastral area contains sites including Náskladie, Kopánka, Hrábie and Sedlište. Finds indicate Púchov-culture settlement around the turn of the era and Slavic settlement in the 8th century; Hradište is only one part of this wider landscape."
+        },
+        {
+          "id": "fact_014",
+          "title": "The Maršovský Manor and its historic lime avenue",
+          "text": "The Neo-Gothic manor was built in the last third of the 19th century. In 1909 it was bought by twelve families from Oščadnica and later passed to composer Ján Móry’s family. An older inventory recorded 24 small-leaved lime trees, then estimated at 100–200 years old."
+        },
+        {
+          "id": "fact_015",
+          "title": "Chapel of the Exaltation of the Holy Cross in Maršová",
+          "text": "A Neoclassical funerary chapel with a crypt stands in Maršová cemetery behind the manor. Sources disagree on its date: the municipal page gives 1848, while the annual report gives 1845, so the mid-19th century is the safest dating."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – chapel, bell tower and church",
+          "text": "Rašov preserves a roadside chapel from the late 18th century and a 19th-century bell tower in the centre by the stream. The newer Church of Mary Help of Christians was completed in 1995."
+        },
+        {
+          "id": "fact_017",
+          "title": "Natural heritage of Maršová-Rašov",
+          "text": "The area lies where the Bytča Basin, Manín Hills and Podjavorník Highlands meet. The municipal nature inventory describes remnants of floodplain woodland, limestone-loving flora and protected species such as military orchid and martagon lily; it is an inventory, not current monitoring."
+        },
+        {
+          "id": "fact_018",
+          "title": "Rašov Valley – military and industrial past",
+          "text": "Rašov had a watermill from the mid-19th century; coal was mined at Uhlisko and Italian stonemasons worked at the Kočacie quarry from 1925 to 1937. In 1952 the Defence Ministry acquired land for a military unit; a Soviet tank unit arrived on 26 August 1968."
+        },
+        {
+          "id": "fact_019",
+          "title": "Statue of St Hubert in the Rašov Valley",
+          "text": "A statue of St Hubert was erected and consecrated on Kočacie hill in the Rašov Valley in 1997, at the initiative of the local hunting association. It is a small woodland landmark recalling the area’s hunting tradition; its exact map point is unconfirmed."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Predmier – centro histórico junto a la iglesia de San Galo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza y la primera novela eslovaca",
+          "text": "El sacerdote y escritor Jozef Ignác Bajza nació en Predmier el 5 de marzo de 1755. Su obra René mládenca príhody a skúsenosti se considera la primera novela escrita en eslovaco. Un busto lo recuerda y su casa natal es monumento cultural nacional."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – poeta de la Arcadia europea",
+          "text": "Predmier es el lugar de nacimiento de Daniel Hanulík (1745–1816), escolapio y poeta en latín cuyo nombre religioso era Ján Chryzostom. Ingresó en la Academia de la Arcadia de Roma; en 1803 la Sociedad Científica de San Petersburgo lo eligió príncipe de los poetas vivos en latín."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumento a Štefánik y primera colina conmemorativa",
+          "text": "En 1919 se construyó en Predmier uno de los primeros túmulos dedicados a M. R. Štefánik; el municipio lo considera el primero. El monumento actual se inauguró en 1930 y fue restaurado tras los daños de una tormenta en 1998."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de San Galo y el capellán František Madva",
+          "text": "La iglesia actual de San Galo fue consagrada en 1799 sobre un lugar sagrado anterior. Su torre renacentista data aproximadamente de 1600 y el muro conserva lápidas de los siglos XVI y XVII. František Madva, luego conocido como sanador popular, fue capellán aquí entre 1813 y 1815."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antigua oficina de correos renacentista",
+          "text": "Predmier conserva un edificio postal renacentista de dos plantas del siglo XVII. Más tarde funcionó como sucursal y estación para cambiar los caballos de las diligencias postales. Fue reformado en el siglo XVIII y después de 1960; es monumento cultural nacional."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – antiguo mercado",
+          "text": "La historia municipal sitúa la primera mención escrita de Predmier en 1193; en 1312 aparece documentado un juez local y un acta de 1525 lo llama pequeña ciudad. Maximiliano II concedió derechos de feria en 1573. Un gran incendio destruyó el archivo y gran parte del pueblo en 1842."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – residencia señorial y cuartel",
+          "text": "Predmier conserva una mansión neoclásica de mediados del siglo XIX, inscrita en el registro patrimonial como mansión y cuartel. Forma parte del conjunto histórico del antiguo mercado."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 años de tradición de banda",
+          "text": "La banda de viento Predmierčanka nació en 1906 en el entorno de la fábrica de muebles local de J. Hetzel. En 2026 celebra 120 años y forma parte de las tradiciones musicales duraderas de la región."
+        },
+        {
+          "id": "fact_009",
+          "title": "Tradición frutícola – Jozef Dúbravka y la alameda Dúbravka",
+          "text": "El maestro Jozef Dúbravka (1906–1990) también fue apicultor, fruticultor, cronista, titiritero y organizador de teatro de marionetas. La alameda comunitaria se plantó en primavera de 2024 con más de 60 variedades antiguas de frutales; cuenta con un pabellón y una fuente."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – tres asentamientos históricos",
+          "text": "El municipio actual surgió de tres asentamientos: Urbanov aparece en documentos en 1269, Maršová en 1400 y Rašov en 1439. Se unieron en 1898; el nombre oficial Maršová-Rašov se adoptó en 1998."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský y el parque frutal de Urbanov",
+          "text": "El antiguo pueblo de Urbanov fue el lugar de nacimiento del sacerdote y promotor del renacimiento nacional eslovaco Jozef Urbanovský (1793–1865), defensor de la agricultura moderna, la apicultura y la fruticultura. En 2021 el municipio plantó aquí un parque frutal."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – fortificación de La Tène tardía",
+          "text": "La colina Hradište, de unos 602 metros, está protegida como monumento cultural desde 1967. La investigación arqueológica fecha la fortificación de la cima en La Tène tardío; no está demostrada una datación de la Gran Moravia."
+        },
+        {
+          "id": "fact_013",
+          "title": "El paisaje arqueológico de Maršová-Rašov",
+          "text": "En el término municipal se conocen yacimientos en Náskladie, Kopánka, Hrábie y Sedlište. Los hallazgos indican asentamientos de la cultura de Púchov en torno al cambio de era y presencia eslava en el siglo VIII."
+        },
+        {
+          "id": "fact_014",
+          "title": "El palacio de los Maršovský y su antigua alameda de tilos",
+          "text": "La mansión neogótica se construyó en el último tercio del siglo XIX. En 1909 la compraron doce familias de Oščadnica y después pasó a la familia del compositor Ján Móry. Un inventario antiguo registró 24 tilos de unos 100–200 años."
+        },
+        {
+          "id": "fact_015",
+          "title": "Capilla funeraria de la Exaltación de la Santa Cruz en Maršová",
+          "text": "En el cementerio de Maršová, detrás de la mansión, se encuentra una capilla funeraria neoclásica con cripta. Las fuentes discrepan: la web municipal indica 1848 y el informe anual 1845; lo prudente es situarla a mediados del siglo XIX."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – capilla, campanario e iglesia",
+          "text": "Rašov conserva una capilla junto al camino de finales del siglo XVIII y un campanario del siglo XIX en el centro, junto al arroyo. La iglesia más reciente de María Auxiliadora se terminó en 1995."
+        },
+        {
+          "id": "fact_017",
+          "title": "Riqueza natural de Maršová-Rašov",
+          "text": "El territorio se encuentra entre la cuenca de Bytča, las colinas de Manín y las tierras altas de Podjavorník. El inventario municipal menciona restos de bosques aluviales, flora calcícola y especies protegidas como la orquídea militar y el lirio martagón."
+        },
+        {
+          "id": "fact_018",
+          "title": "Valle de Rašov – pasado militar e industrial",
+          "text": "Rašov tuvo un molino de agua desde mediados del siglo XIX; se extrajo carbón en Uhlisko y canteros italianos trabajaron en la cantera de Kočacie entre 1925 y 1937. En 1952 Defensa adquirió terrenos para una unidad militar; el 26 de agosto de 1968 llegó una unidad de tanques soviética."
+        },
+        {
+          "id": "fact_019",
+          "title": "Estatua de San Huberto en el valle de Rašov",
+          "text": "En 1997 se erigió y bendijo una estatua de San Huberto en la colina Kočacie, en el valle de Rašov, por iniciativa de la asociación local de cazadores. Es un pequeño hito forestal que recuerda la tradición cinegética local."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Predmier – centre historique près de l’église Saint-Gall",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza et le premier roman slovaque",
+          "text": "Le prêtre et écrivain Jozef Ignác Bajza est né à Predmier le 5 mars 1755. Son œuvre René mládenca príhody a skúsenosti est considérée comme le premier roman écrit en slovaque. Un buste lui rend hommage et sa maison natale est classée monument culturel national."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – poète de l’Arcadie européenne",
+          "text": "Predmier est le lieu de naissance de Daniel Hanulík (1745–1816), piariste et poète latin connu sous le nom religieux de Ján Chryzostom. Membre de l’Académie romaine d’Arcadie, il fut choisi en 1803 par la Société savante de Saint-Pétersbourg comme prince des poètes latins vivants."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monument à Štefánik et première butte commémorative",
+          "text": "En 1919, Predmier a érigé l’un des premiers tumulus dédiés à M. R. Štefánik, que la commune présente comme le premier. Le monument actuel fut inauguré en 1930 et restauré après les dégâts d’une tempête en 1998."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église Saint-Gall et le chapelain František Madva",
+          "text": "L’église actuelle Saint-Gall fut consacrée en 1799 sur un ancien lieu sacré. Sa tour Renaissance date d’environ 1600 et des pierres tombales des XVIe et XVIIe siècles sont intégrées au mur. František Madva, futur guérisseur populaire, y fut chapelain de 1813 à 1815."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ancien bureau de poste Renaissance",
+          "text": "Predmier conserve un ancien bureau de poste Renaissance à deux étages du XVIIe siècle. Il servit ensuite de relais postal et de station de changement des chevaux des diligences. Remanié au XVIIIe siècle puis après 1960, il est classé monument culturel national."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – ancien bourg marchand",
+          "text": "L’histoire communale situe la première mention écrite de Predmier en 1193; un juge local est attesté en 1312 et un acte de 1525 qualifie le lieu de bourg. Maximilien II accorda le droit de foire en 1573. Un grand incendie détruisit les archives et une grande partie du village en 1842."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – demeure seigneuriale et caserne",
+          "text": "Predmier possède un manoir néoclassique du milieu du XIXe siècle, inscrit au registre patrimonial comme manoir et caserne. Il appartient au tissu historique de l’ancien bourg."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 ans de tradition musicale",
+          "text": "La fanfare Predmierčanka fut fondée en 1906 dans l’environnement de la fabrique de meubles locale de J. Hetzel. En 2026, elle célèbre 120 ans et demeure une tradition musicale durable de la région."
+        },
+        {
+          "id": "fact_009",
+          "title": "Tradition fruitière – Jozef Dúbravka et l’allée Dúbravka",
+          "text": "L’instituteur Jozef Dúbravka (1906–1990) était aussi apiculteur, arboriculteur, chroniqueur, marionnettiste et organisateur de théâtre de marionnettes. L’allée fruitière communautaire a été plantée au printemps 2024 avec plus de 60 anciennes variétés d’arbres fruitiers."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – trois villages historiques",
+          "text": "La commune actuelle résulte de la réunion de trois localités : Urbanov est attesté en 1269, Maršová en 1400 et Rašov en 1439. Leur fusion date de 1898 ; le nom officiel Maršová-Rašov fut adopté en 1998."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský et le verger d’Urbanov",
+          "text": "L’ancien village d’Urbanov vit naître en 1793 le prêtre et acteur du renouveau national slovaque Jozef Urbanovský (1793–1865), promoteur de l’agriculture moderne, de l’apiculture et de l’arboriculture. La commune y a créé un verger en 2021."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – fortification de La Tène finale",
+          "text": "La colline Hradište, haute d’environ 602 mètres, est protégée comme monument culturel depuis 1967. Les recherches datent la fortification sommitale de la fin de La Tène ; aucune datation grande-morave n’est établie."
+        },
+        {
+          "id": "fact_013",
+          "title": "Le paysage archéologique de Maršová-Rašov",
+          "text": "Le territoire communal comprend des sites à Náskladie, Kopánka, Hrábie et Sedlište. Les découvertes attestent une occupation de la culture de Púchov autour du changement d’ère et une présence slave au VIIIe siècle."
+        },
+        {
+          "id": "fact_014",
+          "title": "Le manoir des Maršovský et son ancienne allée de tilleuls",
+          "text": "Le manoir néogothique fut construit dans le dernier tiers du XIXe siècle. En 1909, douze familles d’Oščadnica l’achetèrent ; il passa ensuite à la famille du compositeur Ján Móry. Un ancien inventaire mentionnait 24 tilleuls âgés d’environ 100 à 200 ans."
+        },
+        {
+          "id": "fact_015",
+          "title": "Chapelle funéraire de l’Exaltation de la Sainte-Croix à Maršová",
+          "text": "Une chapelle funéraire néoclassique avec crypte se trouve dans le cimetière de Maršová, derrière le manoir. Les sources divergent sur la date – 1848 sur le site communal, 1845 dans le rapport annuel – ; le milieu du XIXe siècle est donc la datation la plus sûre."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – chapelle, clocher et église",
+          "text": "Rašov conserve une chapelle de chemin de la fin du XVIIIe siècle et un clocher du XIXe siècle au centre, près du ruisseau. La nouvelle église Notre-Dame Auxiliatrice fut achevée en 1995."
+        },
+        {
+          "id": "fact_017",
+          "title": "Richesse naturelle de Maršová-Rašov",
+          "text": "Le territoire se situe entre le bassin de Bytča, les collines de Manín et les hauteurs de Podjavorník. L’inventaire communal mentionne des vestiges de forêts alluviales, une flore calcicole et des espèces protégées comme l’orchis militaire et le lis martagon."
+        },
+        {
+          "id": "fact_018",
+          "title": "Vallée de Rašov – passé militaire et industriel",
+          "text": "Rašov possédait un moulin à eau dès le milieu du XIXe siècle ; du charbon était extrait à Uhlisko et des carriers italiens travaillaient à la carrière de Kočacie de 1925 à 1937. En 1952, le ministère de la Défense acquit des terrains pour une unité militaire ; des chars soviétiques arrivèrent le 26 août 1968."
+        },
+        {
+          "id": "fact_019",
+          "title": "Statue de saint Hubert dans la vallée de Rašov",
+          "text": "Une statue de saint Hubert fut érigée et bénie en 1997 sur la colline Kočacie, dans la vallée de Rašov, à l’initiative de l’association locale de chasse. Elle rappelle la tradition cynégétique du lieu ; son point exact n’est pas confirmé."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Predmier – centro storico presso la chiesa di San Gallo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza e il primo romanzo slovacco",
+          "text": "Il sacerdote e scrittore Jozef Ignác Bajza nacque a Predmier il 5 marzo 1755. La sua opera René mládenca príhody a skúsenosti è considerata il primo romanzo scritto in slovacco. Un busto lo ricorda e la sua casa natale è monumento culturale nazionale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – poeta dell’Arcadia europea",
+          "text": "Predmier è il luogo di nascita di Daniel Hanulík (1745–1816), piarista e poeta latino con il nome religioso di Ján Chryzostom. Fu ammesso all’Accademia dell’Arcadia di Roma; nel 1803 la Società erudita di San Pietroburgo lo scelse come principe dei poeti viventi in latino."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumento a Štefánik e primo tumulo commemorativo",
+          "text": "Nel 1919 a Predmier fu realizzato uno dei primi tumuli dedicati a M. R. Štefánik, indicato dal comune come il primo. Il monumento attuale fu inaugurato nel 1930 e restaurato dopo i danni causati da una tempesta nel 1998."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa di San Gallo e il cappellano František Madva",
+          "text": "L’attuale chiesa di San Gallo fu consacrata nel 1799 su un precedente luogo sacro. La torre rinascimentale risale circa al 1600 e nel muro sono inserite lapidi dei secoli XVI e XVII. František Madva, poi noto come guaritore popolare, vi fu cappellano dal 1813 al 1815."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antico ufficio postale rinascimentale",
+          "text": "Predmier conserva un edificio postale rinascimentale a due piani del XVII secolo. In seguito fu filiale postale e stazione per il cambio dei cavalli delle diligenze. Fu modificato nel XVIII secolo e dopo il 1960; è monumento culturale nazionale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – antico borgo di mercato",
+          "text": "La storia comunale fa risalire la prima menzione scritta di Predmier al 1193; un giudice locale è attestato nel 1312 e un documento del 1525 lo definisce borgo. Massimiliano II concesse il diritto di fiera nel 1573. Un grande incendio distrusse l’archivio e gran parte dell’abitato nel 1842."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – residenza signorile e caserma",
+          "text": "Predmier conserva un maniero neoclassico della metà del XIX secolo, registrato come residenza signorile e caserma. Fa parte del tessuto storico dell’antico borgo."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 anni di tradizione bandistica",
+          "text": "La banda Predmierčanka nacque nel 1906 nell’ambiente della fabbrica di mobili locale di J. Hetzel. Nel 2026 celebra 120 anni ed è una delle tradizioni musicali di lunga durata della regione."
+        },
+        {
+          "id": "fact_009",
+          "title": "Tradizione frutticola – Jozef Dúbravka e il viale Dúbravka",
+          "text": "L’insegnante Jozef Dúbravka (1906–1990) fu anche apicoltore, frutticoltore, cronista, burattinaio e organizzatore di teatro di marionette. Il viale-frutteto comunitario è stato piantato nella primavera 2024 con oltre 60 antiche varietà di alberi da frutto."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – tre insediamenti storici",
+          "text": "L’attuale comune nacque dall’unione di tre insediamenti: Urbanov è documentato nel 1269, Maršová nel 1400 e Rašov nel 1439. Si unirono nel 1898; il nome ufficiale Maršová-Rašov fu adottato nel 1998."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský e il parco frutteto di Urbanov",
+          "text": "L’antico villaggio di Urbanov diede i natali nel 1793 al sacerdote e promotore della rinascita nazionale slovacca Jozef Urbanovský (1793–1865), sostenitore dell’agricoltura moderna, dell’apicoltura e della frutticoltura. Nel 2021 il comune vi ha piantato un parco frutteto."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – fortificazione della tarda cultura di La Tène",
+          "text": "La collina Hradište, alta circa 602 metri, è monumento culturale dal 1967. Le ricerche archeologiche datano la fortificazione sommitale alla tarda età di La Tène; non è dimostrata un’origine della Grande Moravia."
+        },
+        {
+          "id": "fact_013",
+          "title": "Il paesaggio archeologico di Maršová-Rašov",
+          "text": "Nel territorio comunale sono note località archeologiche a Náskladie, Kopánka, Hrábie e Sedlište. I reperti attestano insediamenti della cultura di Púchov intorno al cambio dell’era e una presenza slava nell’VIII secolo."
+        },
+        {
+          "id": "fact_014",
+          "title": "Il maniero dei Maršovský e il viale storico di tigli",
+          "text": "Il maniero neogotico fu costruito nell’ultimo terzo del XIX secolo. Nel 1909 fu acquistato da dodici famiglie di Oščadnica e in seguito passò alla famiglia del compositore Ján Móry. Un vecchio inventario registrava 24 tigli di circa 100–200 anni."
+        },
+        {
+          "id": "fact_015",
+          "title": "Cappella funeraria dell’Esaltazione della Santa Croce a Maršová",
+          "text": "Nel cimitero di Maršová, dietro il maniero, sorge una cappella funeraria neoclassica con cripta. Le fonti divergono sulla data: 1848 sul sito comunale e 1845 nella relazione annuale; è più prudente collocarla a metà Ottocento."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – cappella, campanile e chiesa",
+          "text": "Rašov conserva una cappella votiva della fine del XVIII secolo e un campanile ottocentesco nel centro, vicino al torrente. La nuova chiesa di Maria Ausiliatrice fu completata nel 1995."
+        },
+        {
+          "id": "fact_017",
+          "title": "Patrimonio naturale di Maršová-Rašov",
+          "text": "Il territorio si trova tra la conca di Bytča, i colli di Manín e gli altopiani di Podjavorník. L’inventario comunale descrive resti di boschi ripariali, flora calcicola e specie protette come l’orchidea militare e il giglio martagone."
+        },
+        {
+          "id": "fact_018",
+          "title": "Valle di Rašov – passato militare e industriale",
+          "text": "Rašov aveva un mulino ad acqua dalla metà del XIX secolo; a Uhlisko si estraeva carbone e nella cava di Kočacie lavorarono scalpellini italiani dal 1925 al 1937. Nel 1952 il Ministero della Difesa acquistò terreni per un reparto militare; il 26 agosto 1968 arrivò un’unità di carri armati sovietica."
+        },
+        {
+          "id": "fact_019",
+          "title": "Statua di sant’Uberto nella valle di Rašov",
+          "text": "Nel 1997 fu eretta e consacrata una statua di sant’Uberto sulla collina Kočacie, nella valle di Rašov, su iniziativa dell’associazione venatoria locale. È un piccolo punto di riferimento nel bosco che ricorda la tradizione venatoria locale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Predmier – historisch centrum bij de Sint-Galluskerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jozef Ignác Bajza en de eerste Slowaakse roman",
+          "text": "Priester en schrijver Jozef Ignác Bajza werd op 5 maart 1755 in Predmier geboren. Zijn werk René mládenca príhody a skúsenosti geldt als de eerste roman in het Slowaaks. Een buste herdenkt hem; zijn geboortehuis is nationaal cultureel monument."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ján Chryzostom Hanulík – dichter van het Europese Arcadië",
+          "text": "Predmier is de geboorteplaats van Daniel Hanulík (1745–1816), piarist en Latijns dichter met de kloosternaam Ján Chryzostom. Hij werd lid van de Romeinse Arcadia-academie; in 1803 koos het geleerde genootschap van Sint-Petersburg hem tot prins van de levende Latijnse dichters."
+        },
+        {
+          "id": "fact_003",
+          "title": "Štefánik-monument en vroege herdenkingsheuvel",
+          "text": "In 1919 werd in Predmier een van de eerste, volgens de gemeente zelfs de eerste, herdenkingsheuvel voor M. R. Štefánik opgericht. Het huidige monument werd in 1930 onthuld en na stormschade in 1998 hersteld."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sint-Galluskerk en kapelaan František Madva",
+          "text": "De huidige Sint-Galluskerk werd in 1799 ingewijd op een oudere heilige plek. De renaissancetoren dateert van rond 1600 en in de muur zijn grafstenen uit de 16e en 17e eeuw verwerkt. František Madva, later bekend als volksgenezer, was hier kapelaan van 1813 tot 1815."
+        },
+        {
+          "id": "fact_005",
+          "title": "Voormalig renaissancepostkantoor",
+          "text": "Predmier heeft een tweelaags renaissancepostgebouw uit de 17e eeuw behouden. Later was het een postfiliaal en wisselstation voor postkoetsen. Het werd aangepast in de 18e eeuw en na 1960 en is een nationaal cultureel monument."
+        },
+        {
+          "id": "fact_006",
+          "title": "Predmier – voormalige marktstad",
+          "text": "Volgens de gemeentegeschiedenis wordt Predmier voor het eerst schriftelijk vermeld in 1193; in 1312 is een lokale rechter bekend en een oorkonde uit 1525 noemt het een marktstad. Maximiliaan II verleende in 1573 marktrechten. Een grote brand verwoestte in 1842 het archief en een groot deel van het dorp."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaštieľ Predmier – landhuis en kazerne",
+          "text": "Predmier heeft een neoclassicistisch landhuis uit het midden van de 19e eeuw, in het erfgoedregister opgenomen als landhuis en kazerne. Het maakt deel uit van het historische dorpsbeeld."
+        },
+        {
+          "id": "fact_008",
+          "title": "Predmierčanka – 120 jaar blaasmuziektraditie",
+          "text": "De blaasband Predmierčanka ontstond in 1906 rond de plaatselijke meubelfabriek van J. Hetzel. In 2026 viert de band haar 120-jarig bestaan en blijft ze een langdurige muziektraditie in de regio."
+        },
+        {
+          "id": "fact_009",
+          "title": "Fruitteelttraditie – Jozef Dúbravka en de Dúbravka-laan",
+          "text": "Leraar Jozef Dúbravka (1906–1990) was ook imker, fruitteler, kroniekschrijver, poppenmaker en organisator van poppentheater. De gemeenschappelijke boomgaardlaan werd in het voorjaar van 2024 aangeplant met meer dan 60 oude fruitrassen."
+        },
+        {
+          "id": "fact_010",
+          "title": "Maršová-Rašov – drie historische nederzettingen",
+          "text": "De huidige gemeente ontstond uit drie nederzettingen: Urbanov wordt vermeld in 1269, Maršová in 1400 en Rašov in 1439. Ze werden in 1898 samengevoegd; de officiële naam Maršová-Rašov werd in 1998 ingevoerd."
+        },
+        {
+          "id": "fact_011",
+          "title": "Jozef Urbanovský en het fruitpark in Urbanov",
+          "text": "In het voormalige dorp Urbanov werd priester en Slowaaks nationaal heroplevingsfiguur Jozef Urbanovský (1793–1865) geboren. Hij stimuleerde moderne landbouw, bijenteelt en fruitteelt. De gemeente plantte hier in 2021 een fruitpark; het exacte perceel is niet op de kaart bevestigd."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradište – versterking uit de late La Tène-periode",
+          "text": "De ongeveer 602 meter hoge heuvel Hradište is sinds 1967 een beschermd cultuurmonument. Archeologisch onderzoek dateert de versterking op de top in de late La Tène-periode; een Groot-Moravische datering is niet aangetoond."
+        },
+        {
+          "id": "fact_013",
+          "title": "Het archeologische landschap van Maršová-Rašov",
+          "text": "In het gemeentelijke gebied liggen vindplaatsen bij Náskladie, Kopánka, Hrábie en Sedlište. Vondsten tonen bewoning door de Púchov-cultuur rond de jaartelling en Slavische bewoning in de 8e eeuw."
+        },
+        {
+          "id": "fact_014",
+          "title": "Het landhuis van de familie Maršovský en de historische lindelaan",
+          "text": "Het neogotische landhuis werd gebouwd in het laatste derde deel van de 19e eeuw. In 1909 kochten twaalf families uit Oščadnica het; later kwam het bij de familie van componist Ján Móry. Een oudere inventaris vermeldde 24 lindebomen van ongeveer 100–200 jaar oud."
+        },
+        {
+          "id": "fact_015",
+          "title": "Begraafkapel van de Kruisverheffing in Maršová",
+          "text": "Op de begraafplaats van Maršová, achter het landhuis, staat een neoclassicistische grafkapel met crypte. Bronnen verschillen over het jaartal: 1848 op de gemeentelijke website en 1845 in het jaarverslag; midden 19e eeuw is daarom de veiligste datering."
+        },
+        {
+          "id": "fact_016",
+          "title": "Rašov – kapel, klokkentoren en kerk",
+          "text": "Rašov heeft een wegkapel uit het einde van de 18e eeuw en een 19e-eeuwse klokkentoren in het centrum bij de beek behouden. De nieuwere kerk van Maria Hulp der Christenen werd in 1995 voltooid."
+        },
+        {
+          "id": "fact_017",
+          "title": "Natuurlijk erfgoed van Maršová-Rašov",
+          "text": "Het gebied ligt op de overgang van het bekken van Bytča, de Manín-heuvels en de hooglanden van Podjavorník. De gemeentelijke natuurinventaris vermeldt restanten van ooibos, kalkminnende flora en beschermde soorten zoals soldaatje en Turkse lelie."
+        },
+        {
+          "id": "fact_018",
+          "title": "Rašov-dal – militair en industrieel verleden",
+          "text": "Rašov had vanaf het midden van de 19e eeuw een watermolen; bij Uhlisko werd steenkool gewonnen en bij de groeve van Kočacie werkten Italiaanse steenhouwers van 1925 tot 1937. In 1952 kocht het ministerie van Defensie grond voor een militaire eenheid; op 26 augustus 1968 arriveerde een Sovjet-tankeenheid."
+        },
+        {
+          "id": "fact_019",
+          "title": "Beeld van Sint-Hubertus in de Rašov-vallei",
+          "text": "Op de heuvel Kočacie in de Rašov-vallei werd in 1997 op initiatief van de plaatselijke jachtvereniging een beeld van Sint-Hubertus opgericht en ingewijd. Het is een klein bospunt dat de lokale jachttraditie herinnert; de exacte kaartlocatie is niet bevestigd."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
