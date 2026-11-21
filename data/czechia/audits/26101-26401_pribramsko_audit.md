@@ -9,7 +9,7 @@
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
-- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 241 faktů.
+- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 246 faktů.
 - Stav záznamů: 35 `validated`, 1 `placeholder` (26232 Pečice), 0 `published`; všechny záznamy jsou `data_version=1`.
 - Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
 
@@ -89,3 +89,23 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
 **Další krok:** pokračovat pouze u zbývajících 12 `null` poloh; nepřidávat náhradní souřadnice bez doloženého objektu nebo výslovně označeného reprezentativního bodu.
+
+
+## Pokračování — rozšířená turistická rešerše (2026-11-21)
+
+Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou hodnotnou zajímavost, stavbu, technickou památku, přírodní lokalitu, archeologické místo či místní příběh, nikoli pouze hlavní dominanty. Rešerše proto pokračuje napříč celým rozsahem 26101–26401; turistická blízkost sama o sobě nestačí, přiřazení se opírá o RÚIAN a skutečnou polohu.
+
+### Nově doplněné fakty do Supabase
+
+- 26221/fact_006 — Skelná huť: novověká sklářská enkláva založená Tobiášem Matějem Adlerem po větrné smršti roku 1749; provoz do roku 1783. Doplněny souvislosti s vodním náhonem, rybníky a stoupami. Poloha 49.6701831, 13.8792514; historic_industrial_site; approximate. Zdroje NPÚ SAS 34907/34908 a Brdy a Podbrdsko. Přiřazení Obecnice v Brdech / 26221.
+- 26221/fact_007 — Cílová plocha Jordán: vojenská dopadová plocha používaná od května 1930, zkušební srub CE/Benešák, německá pozorovatelna Houpák, letecké pomníčky a periglaciální geologické jevy. Text uvádí bezpečnostní omezení: vstup pouze po značených a zabezpečených cestách. Poloha 49.7230828, 13.8517367; fortification; approximate. Zdroje Brdy a Podbrdsko a Ministerstvo obrany. Přiřazení oblast Obecnice / 26221.
+- 26272/fact_011 — Hradiště Šance u Počapel (Bozeň): raně středověké hradiště 10.–11. století, akropole a předhradí, valy až šest metrů, archeologicky doložená výroba a obchod. Možná vazba na správní centrum Bozeňska je výslovně popsána jako odborná hypotéza. Poloha 49.5461167, 13.9867694; archaeological_site; approximate. Zdroje Archeologický atlas ČR, Hornické muzeum Příbram, NPÚ a odborná studie Lutovský–Stolz. RÚIAN CSV potvrzuje Počaply v PSČ 26272.
+- 26401/fact_012 — Kozí hřbet (Hrádek): samostatná zřícenina hradu nad meandrem Mastníku u Radíče, odlišená od zámku Radíč. Poloha 49.7247589, 14.4295819; ruin; approximate. Zdroje NPÚ SAS, Atlas české architektury a Soupis památek.
+- 26401/fact_013 — Ostromeč: samostatná hradní lokalita u Hrazan, výslovně odlišena od keltského oppida Hrazany. Text uvádí pramenné rozdíly v chronologii husitských událostí. Poloha 49.74467, 14.40611; ruin; approximate. Zdroje NPÚ SAS, Památkový katalog, Archeologický atlas Čech a katalog hrady-zriceniny.cz.
+- Všech pět faktů je doplněno do českého masteru a překladů cs/de/en/es/fr/it/nl. Read-back: 26221 má 7 faktů, 26272 má 11, 26401 má 13.
+- Read-back celého bloku: 36 PSČ, 246 faktů, 234 faktů s polohou, 12 null poloh. Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
+
+### Další tematické kroky
+- Pokračovat širokým průzkumem celého rozsahu, zejména technického a vojenského dědictví Brd, menších hradů a tvrzí, sakrálních staveb, archeologických lokalit, přírodních památek, místních řemesel a významných osobností.
+- Prověřovat další hodnotné objekty v Počaplech, Obecnici, Radíči a ostatních obcích rozsahu; nekopírovat objekty již zpracované v sousedním PSČ.
+- Dvanáct původních null poloh zůstává beze změny, dokud nebude doložen konkrétní objektový nebo obhajitelný reprezentativní bod.
