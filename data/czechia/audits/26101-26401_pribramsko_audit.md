@@ -5,21 +5,21 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; otevřená zůstává sémantická kontrola překladů, geografický RÚIAN cross-check, audit kategorií a normalizace starších zdrojových referencí.
+- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; otevřená zůstává sémantická kontrola překladů, audit kategorií/správních údajů a normalizace starších zdrojových referencí.
 
 
 
 ## Aktuální stav auditu — poslední read-back (2026-11-21)
 
-- **36 PSČ, 269 faktů, 269 faktů s polohou, 0 null, 0 neplatných location objektů.**
+- **36 PSČ, 271 faktů, 271 faktů s polohou, 0 null, 0 neplatných location objektů.**
 - **28 nových Explorer faktů** má kompletní překlady cs/de/en/es/fr/it/nl, nejméně 3 zdroje a texty delší než 350 znaků; všech 28 má nyní mapový bod.
 - Vyřešeno všech **27 původních null poloh** a také 2 později přidané null polohy u usedlostí Obořiště čp. 4 a Lhotka čp. 2. Aktuálně nezůstává žádná null poloha.
-- Read-back překladů: 269/269 faktů v každém ze 7 jazyků; duplicitní ID 0.
+- Read-back překladů: 271/271 faktů v každém ze 7 jazyků; duplicitní ID 0.
 - Audit zůstává **REVIEW REQUIRED** kvůli dalším otevřeným oblastem (sémantika překladů, geografický RÚIAN cross-check, kategorie a normalizace starších zdrojových referencí). Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
 
 ## Uzavření všech null poloh — poslední kolo (2026-11-21)
 
-Aktuální Supabase read-back po posledních opravách: **36 PSČ, 269 faktů, 269/269 s polohou, 0 null, 0 neplatných location objektů**. Všech 27 původních null poloh je vyřešeno; navíc byly vyřešeny i dvě později přidané usedlosti. Níže je evidováno posledních 10 doplnění:
+Aktuální Supabase read-back po posledních opravách: **36 PSČ, 271 faktů, 271/271 s polohou, 0 null, 0 neplatných location objektů**. Všech 27 původních null poloh je vyřešeno; navíc byly vyřešeny i dvě později přidané usedlosti. Níže je evidováno posledních 10 doplnění:
 
 - **26212/fact_007 — Usedlost čp. 4 v Obořišti:** 49.74448217, 14.15099315; `building`, `exact`. Bod byl dopočten triangulací čtyř nezávislých vzdáleností z referenčních objektů a parcel (81,47 m; 61,29 m; 55,79 m; 48,36 m); reziduum výpočtu je přibližně 0,04 m. Adresa Obořiště 4, 262 12.
 - **26214/fact_005 — Kostel sv. Anny v Hřiměždicích:** 49.68685, 14.27491; `church`, `approximate`. Orientační bod na návsi, kde Mapcarta eviduje kostel sv. Anny v bezprostředním okolí; nejde o tvrzení o přesném půdorysu stavby.
@@ -44,7 +44,7 @@ Všech deset položek má vyplněné povinné atributy `location`; přesnost je 
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
-- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 269 faktů.
+- Supabase read-only inventář po doplněních: 36/36 řádků, nyní 271 faktů.
 - Stav záznamů: 35 `validated`, 1 `placeholder` (26232 Pečice), 0 `published`; všechny záznamy jsou `data_version=1`.
 - Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
 
@@ -75,7 +75,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 
 ## F. Základní technické a datové kontroly
 - 36/36 záznamů existuje v Supabase a odpovídá vybranému rozsahu sequence.
-- 269/269 faktů má zdroj, platnou `category`, `priority` a `map_category`.
+- 271/271 faktů má zdroj, platnou `category`, `priority` a `map_category`.
 - 0 duplicitních ID v rámci záznamů; 0 duplicitních názvů faktů v auditovaném bloku.
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
@@ -112,19 +112,18 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
   - \`26301/fact_005\` Drhovský poklad — známý je pouze obecný popis pole u zástavby, nikoli jednoznačná parcela/nálezový bod.
   - \`26301/fact_011\` kaple v Budínku — NPÚ přesně popisuje polohu na východním okraji Budínku, ale nebyly získány ověřené souřadnice vlastní kaple; nepoužívá se střed vesnice.
 - Neprázdné polohy existující před tímto krokem nebyly plošně přeměřovány ani měněny.
-- RÚIAN JSON `data/czechia/reference/ruian_postcodes.json` se načetl jako prázdný obsah; CSV fallback je dostupný. Ověřena přesná přítomnost všech 36 kódů v CSV (36/36), shoda všech 36 kódů mezi `sequence` a `groups` bez duplicit či rozdílů (36/36) a přítomnost 36/36 v Supabase. Zbývá věcný geografický cross-check místních částí a přiřazení faktů vůči RÚIAN inventáři. Doplnění bodu Na horách u Křešína bylo provedeno na základě AOPK/ISOP a oficiálního Natura 2000 souřadnicového podkladu.
+- RÚIAN JSON data/czechia/reference/ruian_postcodes.json zůstává prázdný/nepoužitelný; byl proto použit dokumentovaný CSV fallback ruian_postcodes.csv. Aktuální manifest uvádí 3 023 585 adresních míst a 2 677 PSČ (zdrojový stav 2026-10-31, stažení 2026-11-13). V auditovaném bloku je 36/36 kódů v CSV, sequence.json, groups i Supabase; bez duplicit a rozdílů. Proveden cross-check 271 faktů proti seznamu obcí/částí a kontrola 159 faktů s vyplněnou adresou: 0 nalezených rozporů v PSČ zapsaném v adrese. CSV je agregovaný inventář adresních míst podle PSČ, nikoli polygonová hranice PSČ; u lokalit v jedné části obce rozdělené mezi více PSČ proto nelze z tohoto souboru samotného potvrdit poštovní oblast neadresního objektu. Otevřené jsou pouze tři případy uvedené v samostatném oddílu RÚIAN cross-check.
 - Předběžný reklamní/propagační scan textů ve všech 7 jazycích: automatický filtr vytipoval 10 jazykových položek; všech 10 bylo ručně otevřeno. Nálezy jsou pouze neutrální popis návštěvnického provozu, naučných stezek nebo veřejných služeb; nebyla zjištěna reklama, prodejní výzva ani propagace firmy. Tím je uzavřena kontrola těchto kandidátů, nikoli celková sémantická kontrola všech překladů.\n- Neproveden AJV ani samostatný validační běh, v souladu s promptem.
 
 ## Otevřené kroky
-1. Doplnit a přeložit zásadní chybějící příběhy v 26101 (Svatá Hora, Drtikol; rozhodnout a doložit Jan Drda).
-2. Doplnit čtyři české master texty pod 350 znaků a synchronizovat de/en/es/fr/it/nl.
-3. **Null polohy: 0 otevřených.** Zachovat rozlišení `exact` / `approximate` / `area_representative` / `historical_approximate` a při dalších opravách neumisťovat přesný objekt na pouhý střed obce.
-4. Dokončit tematický/geografický cross-check RÚIAN CSV, skupin a případných překryvů/duplicit.
-5. Dokončit sémantickou kontrolu šesti cizojazyčných překladů a reklamního/propagačního obsahu.
-6. Uzavřít kontrolu správních údajů, kategorií a věcných vad napříč celým blokem; následně stanovit PASS/FIX REQUIRED/REVIEW REQUIRED.
 
-**Další krok:** dokončit sémantickou kontrolu překladů, geografický cross-check přiřazení vůči RÚIAN a samostatnou normalizaci starších zdrojových referencí. Null polohy jsou uzavřené.
+1. **RÚIAN / primární přiřazení:** dořešit pouze tři nejednoznačné případy: 26211/fact_004 Čtyřmezí; 26215/fact_002 Psí hory; 26215/fact_004 židovský hřbitov v Čelině. Do doložení přesného poštovního přiřazení zachovat stávající jediná primární přiřazení, nepřesouvat a neduplikovat.
+2. **Překlady:** dokončit sémantickou kontrolu de/en/es/fr/it/nl napříč všemi 271 fakty; opravit pouze významové a prokazatelné vady.
+3. **Správní údaje a kategorie:** po opravě 26101/district=Příbram I ověřit zbývající správní údaje a věcnou správnost map_category.
+4. **Zdrojové reference:** prověřit a normalizovat starší interní aliasy a JSON serializované řetězce ve 28 faktech; zachovat dohledatelnost přes content.sources.
+5. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
 
+**Další krok:** pokračovat sémantickou kontrolou překladů a současně ponechat tři geografické případy v REVIEW REQUIRED. Null polohy jsou uzavřené; inventář 36 PSČ / 271 faktů je aktuální.
 
 ## Pokračování — rozšířená turistická rešerše (2026-11-21)
 
@@ -339,3 +338,50 @@ Při předchozím zápisu dvou nových faktů zůstaly jejich polohy `null`. Už
 - **Aktuálně žádné z těchto dvou nových faktů nemá `location=null`.** Počet faktů a překladů se nemění: celý rozsah zůstává na 36 PSČ, 271 faktech a 1 897 jazykových položkách. Žádné existující neprázdné souřadnice nebyly měněny.
 
 Tato sekce nahrazuje předchozí poznámku, že obě nová fakta zůstala bez polohy. Postup odpovídá pravidlům `prompt_rework.md`: konkrétní objekt → bod v lokalitě → přibližný či reprezentativní bod podle skutečné povahy místa; `null` až tehdy, když nelze odpovědně určit ani takový bod. Auditní omezení na existující neprázdné polohy zůstává zachováno.
+
+
+## RÚIAN cross-check místních částí a přiřazení faktů — 2026-11-21
+
+### Použitý podklad a rozsah
+
+- Primární soubor data/czechia/reference/ruian_postcodes.json je při načtení prázdný/nepoužitelný; použit byl připravený CSV fallback ruian_postcodes.csv.
+- Importní manifest uvádí zdrojový stav k 2026-10-31, stažení 2026-11-13, celkem 3 023 585 adresních míst a 2 677 PSČ. CSV je agregovaný přehled PSČ → obec / část obce; neposkytuje polygonové hranice poštovních oblastí ani souřadnice každého adresního místa.
+- Ověřeno 36/36 očekávaných PSČ v CSV, sequence.json, groups a Supabase; bez duplicit a rozdílů.
+- Všech 36 záznamů má county=Příbram a state=Středočeský kraj. city se posuzuje podle sídla obsluhující pošty, nikoli podle všech obcí obsažených v poštovní oblasti.
+- Proveden průchod 271 faktů proti seznamům obcí a částí obcí. U 159 faktů s vyplněným location.address nebyl nalezen rozpor mezi PSČ uvedeným v adrese a PSČ nadřazeného záznamu. Tato kontrola je kontrolou konzistence adresních údajů; sama o sobě nenahrazuje bodové ověření v RÚIAN.
+- U faktů bez adresy byla porovnávána skutečná obec/katastrální lokalita a případné překryvy poštovních oblastí. Pokud jedna část obce obsahuje více PSČ, agregovaný CSV soubor nedokáže určit PSČ konkrétního neadresního objektu bez přesnějšího mapového/parcelního podkladu.
+
+### Potvrzené a opravené správní údaje
+
+- 26101 — Příbram: pošta Příbram 1 sídlí v části obce Příbram I (Gen. R. Tesaříka 179). V Supabase bylo bezpečně doplněno district="Příbram I" a district_type="municipal_part". Read-back potvrdil obě hodnoty. Zdroj pro polohu pošty: oficiální městský bezbariérový plán a RÚIAN seznam částí Příbrami.
+- 26293 — Nalžovice: stávající district="Chlum" / district_type="municipal_part" odpovídá sídlu pošty v Chlumu; beze změny.
+- U ostatních 34 záznamů nebyla v tomto průchodu zjištěna konkrétní chyba city, district, county ani state; jejich plošné přepisování nebylo provedeno.
+
+### Potvrzená geografická přiřazení a překryvy
+
+- 26231/fact_010 — Kojetín u Milína: oficiální obecní zdroj potvrzuje lom na Kojetíně v Milíně a přesné souřadnice 49.6292900, 14.0556300; přiřazení k poštovní oblasti Milín / 26231 je konzistentní.
+- 26221/fact_006 — Skelná huť: NPÚ potvrzuje obec Obecnice a katastrální území Obecnice v Brdech; přiřazení k 26221 je konzistentní.
+- 26221/fact_007 — Jordán: cílová plocha zasahuje do katastrálních území Obecnice v Brdech, Malá Víska v Brdech a Zaječov v Brdech. Jde o rozlehlý liniově/plošně chápaný areál; zachováno jedno primární přiřazení 26221 přes vazbu na Obecnice a přístupovou/návštěvnickou oblast. Nevytvářet duplicity v sousedních PSČ.
+- 26223/fact_012 — Hradiště Plešivec: lokalita leží u Rejkovic v obci Jince; přiřazení k 26223 je konzistentní.
+- 26225/fact_005 — Přírodní rezervace Kuchyňka: oficiální regionální podklad umisťuje rezervaci do katastrálního území Pičín; přiřazení k 26225 je konzistentní.
+- 26242/fact_014 — Čtyřúhelníkové valy Třebsko 1: NPÚ a Archeologický atlas potvrzují obec i katastrální území Třebsko; přiřazení k 26242 je konzistentní.
+- 26243/fact_003 — Věšín čp. 49: adresa je výslovně vedena jako 262 43. Část obce Věšín má rozdělení 13 adres pod 26242 a 300 pod 26243; bod v centru obce u pošty Partner Věšín odpovídá primární oblasti 26243.
+- 26401/fact_011 — Zvěřinec: NPÚ uvádí obec Jesenice a katastrální území Jesenice u Sedlčan; přiřazení k 26401 je konzistentní.
+- 26215/fact_003 — Zámek Čelina a 26215/fact_005 — Cholín ev. č. 129: adresy výslovně uvádějí PSČ 262 15; přiřazení potvrzeno.
+- 26203/fact_007 — Štola Josef: oficiální pracoviště ČVUT má adresu Smilovice 93, 262 03 Nový Knín; přiřazení k 26203 je potvrzeno.
+
+### Otevřené případy — REVIEW REQUIRED, bez změny dat
+
+1. 26211/fact_004 — Čtyřmezí: orientační bod leží na styku čtyř katastrálních území Rosovice, Dobříš, Buková u Příbramě a Hostomice pod Brdy. Jde o hraniční bod bez adresního místa; RÚIAN adresní CSV proto neurčuje jediné PSČ. Stávající 26211 zůstává jediným primárním přiřazením, ale jeho výlučnost nelze z agregovaného CSV potvrdit. Nepřesouvat ani neduplikovat bez silnějšího parcelního/mapového důkazu.
+2. 26215/fact_002 — Psí hory u Čeliny: lokalita je v katastrálním území Čelina, jehož adresní místa jsou rozdělena mezi 26203, 26215 a 26301. Fakt používá neadresní bod ložiska (49.74000, 14.33300); agregovaný RÚIAN CSV neobsahuje hranici rozdělení uvnitř části obce. Stávající 26215 ponechat, ale označit k ručnímu ověření konkrétního poštovního přiřazení.
+3. 26215/fact_004 — Židovský hřbitov v Čelině: stejná část obce Čelina je rozdělena mezi více PSČ. Hřbitov má vlastní neadresní bod (49.72877, 14.3195428), nikoli adresní místo s PSČ. Stávající 26215 ponechat, ale označit k ručnímu ověření podle přesné polohy vůči poštovnímu rozdělení.
+
+### Výsledek dílčí kontroly
+
+- Inventář a seznamy obcí/částí: PASS.
+- Zjištěná a opravená správní nesrovnalost: 1 (26101/Příbram I).
+- Potvrzené chybné přiřazení faktu: 0.
+- Nejednoznačná přiřazení vyžadující přesnější mapový/parcelní důkaz: 3.
+- Záznamy 26211/fact_004, 26215/fact_002 a 26215/fact_004 nebyly přesouvány ani duplikovány.
+- Celkový audit zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy, read-only zamčení, změny sequence.json nebo zásahu do Neonu.
+
