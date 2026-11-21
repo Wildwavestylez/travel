@@ -122,3 +122,13 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 
 - 26272/fact_014 — Kaple sv. Maří Magdalény: osmiboká raně barokní stavba z roku 1642, založená nad silným pramenem Přibíkem Jeníškem z Újezda a připisovaná Carlu Luragovi. Pramen byl využíván v malých lázních, známých zejména v 19. století; v blízkosti stojí také socha sv. Františka z roku 1798. Poloha 49.5560927835, 14.0002888475; chapel; exact. Zdroje Památkový katalog, město Březnice, Atlas české architektury a záznam o kapli.
 - Fakt má překlady cs/de/en/es/fr/it/nl. Read-back celého bloku: 36 PSČ, 249 faktů, 236 faktů s polohou a 13 null poloh. Nově doplněné fakty nemění žádnou z původních neprázdných poloh.
+
+
+## Další čtyři architektonické a sakrální objevy v PSČ 26272 (2026-11-21)
+
+- 26272/fact_015 — Kostel sv. Barbory v Pročevilech: poutní osmiboká stavba vzniklá z kaple z poloviny 17. století, rozšířená o ambity a zvonici kolem roku 1730; spojena s jezuity z Březnice a plánem připisovaným Carlu Luragovi. Poloha 49.5570642, 13.8881611; chapel; approximate. Zdroje Brdy a Podbrdsko, NPÚ SAS a obec Volenice.
+- 26272/fact_016 — Kostel sv. Václava v Bubovicích: gotický kostel s freskami z první poloviny 14. století, obnovený v 17. století a regotizovaný roku 1907; obnovené fresky požehnány v lednu 2026. Poloha 49.5511667, 13.9278167; church; approximate. Zdroje Církev.cz/Biskupství českobudějovické, NPÚ SAS, obec Volenice a odborný popis.
+- 26272/fact_017 — Drahenice: zámek na místě tvrze ze 14. století, renesanční a barokní přestavby, bývalá zámecká kaple, oranžerie a chráněný soubor lidové architektury v Drahenicích a Račanech. Poloha 49.52033, 13.95956; castle; approximate. Zdroje obec Drahenice, město Březnice a odborný katalog hradů.
+- 26272/fact_018 — Starosedlský Hrádek: středověká tvrz, renesanční přestavba a jezuitské letní sídlo; text zaznamenává dobytí tvrze roku 1472 a omezený přístup k soukromému objektu. Poloha 49.57847, 14.00422; castle; approximate. Zdroje obec Starosedlský Hrádek, odborný katalog hradů a obecní územní plán.
+- Všechny čtyři nové fakty mají překlady cs/de/en/es/fr/it/nl. Read-back: v PSČ 26272 jsou všechny čtyři master záznamy i překlady přítomné.
+- Read-back celého rozsahu: 36 PSČ, 253 faktů, 240 faktů s polohou a 13 null poloh. Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
