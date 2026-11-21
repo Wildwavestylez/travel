@@ -9,7 +9,7 @@
 
 ## Inventář a stav
 - Sekvence obsahuje přesně 36 kódů: 26101; 26202–26206; 26211–26215; 26221–26223; 26225; 26231–26232; 26241–26244; 26251–26252; 26255–26256; 26261–26263; 26272; 26281; 26284–26285; 26291; 26293; 26301; 26401.
-- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 267 faktů.
+- Supabase read-only inventář před zahájením oprav: 36/36 řádků, nyní 269 faktů.
 - Stav záznamů: 35 `validated`, 1 `placeholder` (26232 Pečice), 0 `published`; všechny záznamy jsou `data_version=1`.
 - Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
 
@@ -40,7 +40,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 
 ## F. Základní technické a datové kontroly
 - 36/36 záznamů existuje v Supabase a odpovídá vybranému rozsahu sequence.
-- 267/267 faktů má zdroj, platnou `category`, `priority` a `map_category`.
+- 269/269 faktů má zdroj, platnou `category`, `priority` a `map_category`.
 - 0 duplicitních ID v rámci záznamů; 0 duplicitních názvů faktů v auditovaném bloku.
 - Všech 7 jazykových kořenů existuje; počty faktů a ID sekvence překladů odpovídají master faktům; 0 prázdných překladových položek.
 - Zjištěny 4 rozdíly `facts[]` vs `translations.cs.facts`: 26223/fact_003, 26231/fact_009, 26284/fact_002, 26301/fact_001. **Opraveno bezpečným zrcadlením českých master title/text do translations.cs; následný read-back potvrdil 0 rozdílů.**
@@ -156,7 +156,7 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 - Drahenice zůstávají pouze ve správném PSČ 26285; v 26272 se neopakují.
 
 ### Aktuální read-back celého rozsahu
-- 36 PSČ, **267 faktů**, **259 faktů s polohou**, **8 null poloh**, **0 neplatných location objektů**.
+- 36 PSČ, **269 faktů**, **259 faktů s polohou**, **10 null poloh**, **0 neplatných location objektů**.
 - Z původních 27 null poloh je nyní doloženo 18; 9 zůstává otevřených, protože pro ně nebyl nalezen dostatečně přesný a obhajitelný bod.
 - Všech 24 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
 - Stav zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy či read-only zamčení.
@@ -166,7 +166,7 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 
 Uživatel potvrdil, že cílem je zachytit každou zajímavost nebo stavbu, která může mít hodnotu pro Europe Explorer — nejen hlavní turistické cíle. Rešerše proto zahrnula i menší archeologické lokality, historické technické objekty, drobné sakrální stavby, památkově chráněné domy a místní příběhy. Přiřazení nových objektů bylo kontrolováno proti RÚIAN a existujícímu obsahu, aby se nevytvářely duplicity ani chybná PSČ.
 
-### Nově doplněné fakty — celkem 26
+### Nově doplněné fakty — celkem 28
 
 **26221 — Obecnice / Brdy**
 - `fact_006` Skelná huť — sklářská enkláva Tobiáše Matěje Adlera, 1749–1783, s vodním náhonem, rybníky a stoupami.
@@ -202,7 +202,7 @@ Uživatel potvrdil, že cílem je zachytit každou zajímavost nebo stavbu, kter
 - `fact_020` Panský dům — bývalá panská hospoda, dnešní budova z roku 1938 se sgrafitem Jaroslava Lva od Jana Šebka; text výslovně rozlišuje původní a současnou stavbu.
 - `fact_021` Hofmeisterův dům — památkově chráněný dům spojený s pozdějším životem a tvorbou Rudolfa Richarda Hofmeistera; záznam výslovně odlišuje tento dům od jeho skutečného rodného domu, který zanikl při požáru roku 1871.
 
-Všech 26 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/de/en/es/fr/it/nl. Read-back potvrdil 26/26 položek v každém jazyce. Nejkratší nový český text má 736 znaků; každý nový fakt má nejméně tři zdroje a doloženou polohu. Žádný z těchto 24 nových faktů nebyl přidán bez mapového bodu.
+Všech 28 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/de/en/es/fr/it/nl. Read-back potvrdil 28/28 položek v každém jazyce. Nejkratší nový český text má 736 znaků; každý nový fakt má nejméně tři zdroje a doloženou polohu. Žádný z těchto 24 nových faktů nebyl přidán bez mapového bodu.
 
 ### Další opravy poloh a duplicity
 - `26252/fact_004` — socha sv. Jana Nepomuckého ve Vysokém Chlumci: doplněno GPS 49.61755, 14.3886930556 podle regionálního inventáře MAS Sedlčansko; identita sochy ověřena v NPÚ.
@@ -214,7 +214,7 @@ Všech 26 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/
 ### Aktuální technický read-back
 - 36 PSČ, **265 faktů**, **256 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
 - 24/26 nových faktů má text delší než 350 znaků, nejméně 3 zdroje, platný mapový bod a kompletní překlady v 7 jazycích.
-- Počty překladů nových faktů: cs 26, de 26, en 26, es 26, fr 26, it 26, nl 26.
+- Počty překladů nových faktů: cs 28, de 28, en 28, es 28, fr 28, it 28, nl 28.
 - Žádné existující neprázdné polohy nebyly plošně přeměřovány; doplněny byly pouze tři původní null polohy uvedené výše.
 - Stav zůstává **REVIEW REQUIRED**. Bez publikace, změny data_version, zálohy nebo read-only zamčení.
 
@@ -228,3 +228,11 @@ Všech 26 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/
 - Aktuální read-back po doplnění: **36 PSČ, 267 faktů, 259 faktů s polohou, 8 null poloh, 0 neplatných location objektů**.
 - Z původních 27 null poloh je nyní vyřešeno 19; 8 zůstává otevřených. Všech 26 nových Explorer faktů má text alespoň 736 znaků, nejméně tři zdroje a úplné překlady v sedmi jazycích.
 - Stav zůstává REVIEW REQUIRED; bez publikace, změny data_version, zálohy či read-only zamčení.
+
+
+## Další drobné venkovské památky v Obořišti a Lhotce (2026-11-21)
+
+- **26212/fact_007 — Usedlost čp. 4 v Obořišti:** obecní dokumentace ji uvádí jako památkově zajímavou obytnou stavbu z přelomu 19. a 20. století s bohatě členěnou fasádou. Přidáno do masteru a všech sedmi jazyků. Poloha zůstává null: dostupné podklady potvrzují číslo popisné, ale neumožňují bezpečně určit konkrétní adresní bod/parcela.
+- **26301/fact_015 — Usedlost čp. 2 v Lhotce:** tradiční venkovský statek z přelomu 19. a 20. století; Lhotka je podle RÚIAN samostatnou částí Obořiště v PSČ 26301. Přidáno do masteru a všech sedmi jazyků. Poloha zůstává null, protože nebyl ověřen přesný geodetický bod usedlosti; nepoužívá se střed osady.
+- Obě položky jsou označeny prioritou C jako lokální venkovské dědictví, nikoli jako velké turistické dominanty. Neobsahují propagaci provozovatelů ani komerční sdělení.
+- Po těchto dvou položkách: **269 faktů**, **259 s polohou**, **10 null celkem** (8 původních otevřených poloh + 2 nové usedlosti bez ověřeného bodu), 0 neplatných location objektů. Všech 28 nových Explorer faktů má 7/7 překladů; 26 má mapový bod a 2 zůstávají záměrně bez bodu.
