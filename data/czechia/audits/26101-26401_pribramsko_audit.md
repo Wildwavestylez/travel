@@ -5,7 +5,7 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — úvodní průzkum turistické úplnosti a základní databázové kontroly hotové; opravy a zbývající auditní oblasti jsou otevřené.
+- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; otevřená zůstává sémantická kontrola překladů, geografický RÚIAN cross-check, audit kategorií a normalizace starších zdrojových referencí.
 
 
 
@@ -38,7 +38,7 @@ Všech deset položek má vyplněné povinné atributy `location`; přesnost je 
 
 - Sémantická kontrola sedmi jazykových verzí napříč celým blokem není uzavřena.
 - Geografický RÚIAN cross-check všech místních částí a jednotlivých faktů zůstává samostatnou kontrolou.
-- Ve starších faktech zůstává 28 zdrojových položek ve formě interních aliasů nebo JSON serializovaných řetězců; jde o samostatný úkol normalizace zdrojů, nikoli o chybějící polohy.
+- Ve 28 starších faktech zůstává alespoň jedna zdrojová položka ve formě interního aliasu nebo JSON serializovaného řetězce; jde o samostatný úkol normalizace zdrojů, nikoli o chybějící polohy.
 - Stav celého auditu zůstává **REVIEW REQUIRED**. Bez publikace, změny `data_version`, zálohy nebo read-only zamčení.
 
 
