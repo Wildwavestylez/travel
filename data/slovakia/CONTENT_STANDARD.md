@@ -45,24 +45,24 @@ A PSČ is a postal identifier. It is not automatically:
 
 A geographic PSČ may cover multiple municipalities, settlements or parts of municipalities, or only part of a larger municipality. Establish the actual postal and geographic scope using appropriate evidence. Do not infer the full coverage from the best-known town name or from an address displayed by an unrelated institution.
 
-### 3.2 Meaning of the administrative fields — mandatory post-office rule
+### 3.2 Meaning of the administrative fields — geographic representative municipality
 
 The top-level fields have the following exact meanings:
 
-- `city`: the one municipality (obec) or town in which the serving post office for the geographic PSČ is physically located. Identify the actual post office serving the code and use the municipality where that post-office building is located. Do not use the first municipality in a list of localities served, the largest or most populous municipality in the delivery area, or an arbitrary “principal” locality. For example, if the serving post office is physically in Snina, `city` is `Snina`, even if its delivery area also includes Dolná nad Hornou.
-- `district`: an officially documented relevant part within that same municipality where the serving post office is physically located, if applicable. Use an appropriate official local or urban part; otherwise use `null`. Never put another municipality served by the post office in this field.
-- `county`: the official okres containing the municipality in which the serving post office is physically located.
+- `city`: the principal municipality (obec) or town that geographically characterises the PSČ area and serves as its representative locality. Select it using verified geographic/address evidence and the actual territorial relationship of the PSČ. Do not derive it from a post office, a postal directory's display name, a correspondence address or an arbitrary best-known town. If the PSČ covers several municipalities, choose the best-supported representative municipality and keep the full geographic scope in the research.
+- `district`: an officially documented relevant part within that same representative municipality, if applicable. Use an appropriate official local or urban part; otherwise use `null`. Never put a neighbouring municipality or every settlement served by the PSČ in this field.
+- `county`: the official okres containing the selected representative municipality.
 - `state`: the official samosprávny kraj containing that same municipality.
 
-The wider geographic delivery area remains relevant to fact research. It may include other municipalities and localities, but that does not change the post-office-based meaning of `city`, `county` or `state`.
+The administrative fields describe the selected representative municipality. They do not reduce the fact-research scope to that municipality when the geographic PSČ demonstrably covers a wider area.
 
-Do not guess which post office serves a PSČ. Confirm the postal assignment from Slovenská pošta or another authoritative postal source. Where several postal facilities, delivery arrangements or conflicting listings make the serving office unclear, document the uncertainty and mark the record for review rather than selecting a convenient municipality.
+Do not guess the geographic assignment. Establish the representative municipality from appropriate geographic/address evidence and official territorial sources. Postal office opening status, closure history or current operation is not part of the record's required content and must never block research, validation or completion.
 
 ### 3.3 Source hierarchy by claim
 
 Use each source only for claims it is competent to establish:
 
-1. **Slovenská pošta** — primary authority for PSČ existence, geographic use, postal assignment, serving post-office identification and distinction between geographic and special-purpose codes.
+1. **Slovenská pošta** — primary authority for confirming PSČ existence and distinguishing geographic from special-purpose codes. It is not necessary to identify a currently operating serving post office or investigate closure history.
 2. **Register adries SR (RAGEO), Ministry of Interior of the Slovak Republic** — official address and address-point evidence. Use it to corroborate real addresses, buildings and address geography. Do not assume it alone defines complete PSČ delivery boundaries or that every PSČ can be directly queried there.
 3. **Štatistický úrad Slovenskej republiky (ŠÚ SR)** and official registers of territorial units — official names, codes and administrative relationships for kraje, okresy and obce.
 4. **Úrad geodézie, kartografie a katastra SR (ÚGKK SR), ZBGIS and official national mapping resources** — geographic identification, map position and coordinate corroboration.
@@ -82,7 +82,7 @@ Do not confuse:
 - okres and obec;
 - municipality and municipal part;
 - a postal delivery locality and an administrative municipality;
-- the municipality containing the post office and another municipality served by it.
+- the representative municipality and another municipality within the verified geographic PSČ scope.
 
 Use official Slovak names and diacritics. If an administrative reform or official naming change affects a record, verify the current official status and use the form appropriate to the project's data policy. Do not silently modernize historical names inside a historical fact where the former name is part of the story.
 
@@ -92,7 +92,7 @@ Research must precede writing. Do not begin by polishing the old fact list and t
 
 First establish the geographic PSČ scope and its relevant localities. Then discover and assess the stories, places and features connected to that area. Search by:
 - the PSČ in spaced and unspaced forms;
-- the municipality containing the serving post office;
+- the representative municipality for the geographic PSČ;
 - every verified municipality, settlement and municipal part in the delivery area;
 - official local and historical place names;
 - relevant landscape units, rivers, valleys, mountains and protected areas;
@@ -139,9 +139,9 @@ Avoid:
 
 ### 6.1 Scope of a record
 
-Research the full defensible geographic PSČ area, not merely the municipality containing the serving post office. Include relevant localities and features in other municipalities where their geographic relationship to the PSČ is established.
+Research the full defensible geographic PSČ area, not merely the selected representative municipality. Include relevant localities and features in other municipalities where their geographic relationship to the PSČ is established.
 
-The administrative fields do not define the full content boundary. The `city` field remains the municipality where the serving post office is physically located, while the fact-research scope follows the verified geographic PSČ area.
+The administrative fields do not define the full content boundary. The `city` field identifies the representative municipality, while the fact-research scope follows the verified geographic PSČ area.
 
 Do not claim that an entire municipality belongs to a PSČ merely because one address in it uses that code. Likewise, do not exclude a locality simply because it is not the municipality named in `city`.
 
@@ -166,7 +166,7 @@ For an address-based subject:
 4. Determine whether the PSČ shown by the institution refers to its physical location or only to correspondence.
 5. If the evidence conflicts, do not move the fact or alter the record based on the institution's displayed postal address alone.
 
-A post office's physical location identifies the municipality for the record's `city` field under section 3.2. It does not define the postcode boundary and does not automatically identify the correct postcode for every nearby attraction.
+A post office's physical location, if mentioned as optional context, does not determine the record's `city` field, define the postcode boundary or automatically identify the correct postcode for a nearby attraction.
 
 ## 7. Representative place and representative point
 
@@ -175,7 +175,7 @@ Every record must have one `representative_place` and one `representative_point`
 Choose one human-readable place or feature that genuinely characterises the geographic PSČ area. Depending on the area, this may be a settlement centre, meaningful urban locality, historic place, landscape feature or another defensible representative feature.
 
 The representative point must be a WGS84 coordinate for that same representative place. It is not automatically:
-- the serving post office;
+- a post office or postal facility;
 - the geometric centre of a presumed postcode polygon;
 - the most famous attraction;
 - the location of every fact;
@@ -582,7 +582,7 @@ The checklist is deliberately broad. It is a research aid, not a quota. Include 
 
 ### 27.4 Mandatory two-pass research
 
-**Pass 1 — broad discovery:** establish the PSČ scope; search official tourism, municipal, regional, heritage, museum, natural-science, archival and specialist sources; search using the PSČ, post-office municipality, all verified served localities, local and historic names, landscape names and known heritage subjects. Discover candidates without being limited by the old record or first generic results. Record candidate identity, likely location, possible primary postcode and sources in working notes.
+**Pass 1 — broad discovery:** establish the geographic PSČ scope; search official tourism, municipal, regional, heritage, museum, natural-science, archival and specialist sources; search using the PSČ, representative municipality, all verified localities, local and historic names, landscape names and known heritage subjects. Discover candidates without being limited by the old record or first generic results. Record candidate identity, likely location, possible primary postcode and sources in working notes.
 
 **Pass 2 — thematic gap audit:** examine every relevant checklist group individually. Search deliberately for likely omissions such as specialist museums, viewpoints, gardens, caves, technical heritage, memorial sites, local legends, historical events, wooden architecture and unusual local subjects. Compare results with the old record and Pass 1. Identify missing candidates, duplicates, weak candidates and facts that belong to another PSČ.
 
@@ -605,12 +605,11 @@ Before a record is declared complete, verify all areas below.
 
 ### 28.1 Postal and administrative correctness
 - Is the PSČ a real geographic code?
-- Is the serving post office identified from a suitable postal source?
-- Does `city` name the municipality where that serving post office is physically located?
-- Has the first, largest or most populous locality in the delivery area been incorrectly substituted?
-- Does `district` refer only to a relevant part within that same municipality?
+- Is the geographic PSČ verified as a genuine geographic code rather than a special-purpose code?
+- Does `city` identify a defensible representative municipality for the geographic area?
+- Is `district` limited to a documented part within that representative municipality?
 - Do `county` and `state` match that municipality?
-- Is the wider delivery-area scope researched without confusing it with the post-office municipality?
+- Is the wider geographic PSČ scope researched without confusing it with the representative municipality?
 
 ### 28.2 Geographic completeness and assignment
 - Is the geographic PSČ scope defensible?
@@ -692,7 +691,7 @@ If any answer is no, the fact or translation needs revision.
 
 ## 30. Final production rule
 
-A Slovak-geography TRAVEL postcode record is complete only when its postal identity and post-office municipality are correctly established, its geographic scope and administrative fields are defensible, its content reflects a thorough two-pass discovery process, every fact is significant and assigned to one primary PSČ, sources support the claims, map locations are meaningful and honestly described, the Czech original and all seven required language versions preserve the same meaning, and the full JSON validates against the current Slovak schema.
+A Slovak-geography TRAVEL postcode record is complete only when its geographic PSČ identity and representative municipality are defensibly established, its geographic scope and administrative fields are accurate, its content reflects a thorough two-pass discovery process, every fact is significant and assigned to one primary PSČ, sources support the claims, map locations are meaningful and honestly described, the Czech original and all seven required language versions preserve the same meaning, and the full JSON validates against the current Slovak schema.
 
 Never trade accuracy for speed, completeness for a fact quota, geographic truth for convenience, or editorial independence for promotion.
 
