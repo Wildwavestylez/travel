@@ -22,7 +22,7 @@ Závazně platí:
 - `facts[].sources` obsahuje přesné URL zdrojů, které musí odpovídat hodnotám `sources[].url`; nevytvářej samostatné source ID ani další vlastnosti zdrojů;
 - `access_point` je nullable a smí být `null`, pokud neexistuje spolehlivě ověřený praktický navigační bod;
 - `verification` používá přesně klíče definované českým schématem, včetně `plz_source`; italský význam tohoto pole je ověření CAP pomocí příslušné italské autority;
-- záznam neobsahuje vlastní root pole `status` ani `data_version`; provozní stav zůstává oddělený v databázovém sloupci `workflow_status`.
+- záznam obsahuje root pole `status` a `data_version`; `status` musí odpovídat databázovému `workflow_status`. Po reworku je stav `validated` / verze `1`; po finálním auditu a výslovné publikaci `published` / verze `5`.
 
 Při každé změně italského schématu porovnej jeho kompletní strukturální tvar s českým schématem. Jakákoli odchylka v klíčích, povinnosti, typech, nullability, vnořené struktuře nebo řízených hodnotách je nepřípustná, pokud nebyla současně schválena jako společná změna kanonického TRAVEL formátu.
 
