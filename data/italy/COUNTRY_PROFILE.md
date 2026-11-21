@@ -147,7 +147,6 @@ The point must identify the selected representative place and provide a useful m
 
 The representative point is not automatically:
 - the geometric centre of a CAP polygon;
-- the location of the serving post office;
 - the most famous attraction;
 - the location of every fact;
 - an access/navigation point.
@@ -182,7 +181,6 @@ A fact must have a genuine and defensible geographic relationship to the CAP rec
 
 It is not:
 - the CAP representative point;
-- the serving post office by definition;
 - the location of a fact;
 - a CAP polygon or postal boundary.
 
@@ -202,9 +200,9 @@ Use the Italian authority appropriate to the specific claim. No single instituti
 - the official CAP system and five-digit structure;
 - current CAP assignments and published changes;
 - the postal interpretation of CAP patterns and urban zones;
-- postal-service and serving-office information where provided.
 
-Use the official CAP page and its dated update publications. A third-party CAP directory may help discover candidates but must not override Poste Italiane or be treated as the canonical national inventory without verification.
+
+Use the official CAP page and its dated update publications. Research into branch operators, opening/closure status, opening hours, service catalogues and delivery arrangements is out of scope; these are not EuropeExplorer content. A third-party CAP directory may help discover candidates but must not override Poste Italiane or be treated as the canonical national inventory without verification.
 
 ### Administrative units and boundaries
 
