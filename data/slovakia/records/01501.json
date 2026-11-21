@@ -1,4 +1,589 @@
 {
   "postcode": "01501",
-  "status": "placeholder"
+  "city": "Rajec",
+  "district": null,
+  "county": "Žilina",
+  "state": "Žilinský kraj",
+  "representative_place": "Rajec – historické centrum pri renesančnej radnici a Mestskom múzeu",
+  "representative_point": {
+    "lat": 49.088512,
+    "lon": 18.635246
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Rajec: stredoveké mestečko, ktoré ovládalo remeselný a trhový život Rajeckej doliny",
+      "text": "Rajec sa v listine uvádza už v roku 1193, hoci samotný dokument nie je originálom z daného roku a historici ho kladú pravdepodobne do obdobia vlády Ondreja II. V roku 1397 sa Rajec výslovne spomína ako mestečko – oppidum – pod Lietavským panstvom. V roku 1604 získal rozšírené jarmočné privilégium a v roku 1609 mýtnu imunitu. Bol hospodárskym centrom Rajeckej doliny, kde sa rozvíjali cechy súkenníkov, obuvníkov a garbiarov. Úpadok cechovej výroby v 19. storočí a presun hospodárskeho ťažiska k železnici spôsobili stagnáciu; v roku 1872 sa Rajec zmenil na veľkú obec. Štatút mesta získal znovu v roku 1968.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.minv.sk/swift_data/source/verejna_statna_sprava/sa_v_ziline/archiv_zilina/inventare_pracovisko_zilina_framborska/1914.pdf",
+        "https://www.rajec.sk/blocks/files/018c86f7-59a7-7fe6-a533-2d5f2c0c1ea0.pdf",
+        "https://www.rymarov.cz/o-meste-rymarov/partnerska-mesta/910-rajec"
+      ],
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Renesančná radnica a štvorcové námestie Rajca: trhovisko pod arkádami",
+      "text": "Historické jadro Rajca tvorí pravidelné takmer štvorcové námestie, ktorého pôdorys so sieťou ulíc vybiehajúcich z nároží vznikal v 15. a 16. storočí. V jeho strede stojí renesančná radnica, postavená v 16. storočí, hoci časť literatúry pripúšťa prvú polovicu 17. storočia. Prízemie malo pôvodne otvorené arkády, ktoré slúžili ako trhovisko; na poschodí zasadala mestská rada a sídlila mestská administratíva. Pri barokovej úprave v 18. storočí boli arkády zamurované. Rekonštrukcia v roku 1992 ich zasklila a radnica dnes slúži ako obradná, koncertná a výstavná sieň. Nad vstupom je pamätná tabuľa básnika Juraja Slotu Rajeckého.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/rajec-radnica",
+        "https://www.rajec.sk/blocks/files/018c86f7-59a7-7fe6-a533-2d5f2c0c1ea0.pdf",
+        "https://www.rajeckepoklady.sk/"
+      ],
+      "location": {
+        "name": "Renesančná radnica Rajec",
+        "address": "Námestie SNP, 015 01 Rajec, Slovensko",
+        "lat": 49.088512,
+        "lon": 18.635246,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/rajec-radnica"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostol sv. Ladislava: gotické jadro, slnečné hodiny z roku 1770 a organ rodiny Pažických",
+      "text": "Farský kostol sv. Ladislava patrí k najstarším pamiatkam Rajca. Pôvodná gotická jednoloďová stavba vznikla v druhej štvrtine 14. storočia a prvýkrát sa písomne spomína v roku 1368; farnosť však mohla existovať už v 11. storočí. V roku 1610 bol kostol prestavaný na trojloďový, v roku 1647 pribudla veža a južná predsieň a v 18. storočí získal barokový charakter. Na južnej stene sú obnovené slnečné hodiny z roku 1770 s latinským nápisom „Non numero horas nisi serenas“. V roku 1771 daroval kostolu organár Ondrej Pažický organ v hodnote 3 000 zlatých, za ktorý si nechal vyplatiť iba 200.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://farnostrajec.sk/article/default/1800",
+        "https://www.rajeckadolina.sk/kultura-a-historia/kostoly-betlehemy-a-kaplnky/kostol-sv-ladislava/",
+        "https://www.pamiatkynaslovensku.sk/rajec-kostol-sv-ladislava"
+      ],
+      "location": {
+        "name": "Kostol sv. Ladislava, Rajec",
+        "address": "Námestie Andreja Škrábika 39/1, 015 01 Rajec, Slovensko",
+        "lat": 49.087265,
+        "lon": 18.632563,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/rajec-kostol-sv-ladislava"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Mestské múzeum Rajec a rajčovina: koža, z ktorej sa šili slávnostné kordovánky",
+      "text": "Mestské múzeum sídli v južnej časti námestia v meštianskom dome zo 17. storočia, ktorý v 19. storočí slúžil ako mestský pivovar a neskôr krčma. Verejnosti sa otvorilo v roku 1993 a dnes má národopisnú a prírodovednú expozíciu. Národopisná časť približuje remeselnú minulosť mesta, ktoré malo v 18. storočí desať cechov. Najznámejší bol obuvnícky a garbiarsky okruh: Rajec sa preslávil výrobou jemnej žltej alebo červenej kože zvanej rajčovina či uhorská koža. Používala sa na výstelku a ozdobu sviatočných čižiem – kordovánok – a výrobky sa vyvážali aj za hranice regiónu. Na múzeu sú pamätné tabule prírodovedca Jána Frivaldského a kňaza a publicistu Juraja Slotu Rajeckého.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "museum",
+      "sources": [
+        "https://www.rajec.sk/pages/mestske-muzeum-2",
+        "https://www.pamiatkynaslovensku.sk/rajec-mestske-muzeum",
+        "https://www.rajec.sk/blocks/files/018c86f7-59a7-7fe6-a533-2d5f2c0c1ea0.pdf"
+      ],
+      "location": {
+        "name": "Mestské múzeum Rajec",
+        "address": "Námestie SNP 2/2, 015 01 Rajec, Slovensko",
+        "lat": 49.088073,
+        "lon": 18.635443,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/rajec-mestske-muzeum"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Praveká Rajecká dolina: od medenej sekerky po keltské mince",
+      "text": "Územie poštovej oblasti 015 01 má viacero archeologických vrstiev. V Ďurčinej sa našlo sídlisko lužickej kultúry z mladšej doby bronzovej a medená sekerka, ktorá dokladá osídlenie už v eneolite. V Šuji sa podľa obecného historického zdroja našli mince keltského kmeňa Eraviskov a v chotári sa uvádza výšinné sídlisko na Vraninách. Malá Čierna má nálezy púchovskej kultúry a staršie sídliskové nálezy z doby rímskej; vo Veľkej Čiernej je doložené sídlisko púchovskej kultúry zo zlomu letopočtu. Ide o viacero odlišných lokalít, nie o jedno spoločné nálezisko.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.obecdurcina.sk/obec-2/historia/",
+        "https://www.obecsuja.sk/index.php/sk/obec/historia",
+        "https://www.malacierna.sk/pages/dejiny-obce-mala-cierna",
+        "https://obecvelkacierna.info/article/default/1910",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d31057a3-dbd7-4181-8c49-28826f3c44a3"
+      ],
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Ďurčiná: kaplnka sv. Michala, baroková kúria a približne 400-ročná lipa",
+      "text": "Ďurčiná sa v písomných prameňoch objavuje v roku 1393 pod názvom Georklehataya a pravdepodobne vznikla v 14. storočí na zákupnom práve. V obci sa zachovala klasicistická kaplnka sv. Michala archanjela z konca 18. storočia, upravovaná v 19. storočí a opravovaná v roku 1959. Ďalšou pamiatkou je pôvodne baroková kúria z 18. storočia, prestavaná v druhej polovici 19. storočia. V chotári rastie chránená veľkolistá lipa na Očkech grunte, ktorej vek obec odhaduje na približne 400 rokov; obvod kmeňa je 623 cm. Tieto objekty a strom pripomínajú dlhé osídlenie aj kultúrnu krajinu obce.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.obecdurcina.sk/obec-2/historia/",
+        "https://www.pamiatkynaslovensku.sk/durcina-kaplnka-sv-michala-archanjela"
+      ],
+      "location": {
+        "name": "Kaplnka sv. Michala archanjela, Ďurčiná",
+        "address": "Ďurčiná, 015 01 Rajec, Slovensko",
+        "lat": 49.062528,
+        "lon": 18.654028,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/durcina-kaplnka-sv-michala-archanjela"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Šuja: keltské mince, výšinné sídlisko Vraniny a mlyn na Rajčianke",
+      "text": "Šuja leží na nive Rajčianky medzi Rajcom a Rajeckou Lesnou. Obecné historické zdroje spájajú jej osídlenie s púchovskou kultúrou a uvádzajú keltské mince kmeňa Eraviskov nájdené na jej území. Na neďalekých Vraninách sa podľa historických prameňov nachádzalo výšinné sídlisko. Prvá písomná zmienka o obci pochádza z roku 1393, keď sa uvádza pod názvom Chya a patrila Lietavskému panstvu. Fotografie v obecnom archíve zachytávajú aj Reislerov mlyn na Rajčianke a jeho okolie pri rozvodnení rieky. Príbeh obce tak spája staršie osídlenie, riečnu krajinu a tradičné hospodárstvo.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.obecsuja.sk/index.php/sk/obec/historia",
+        "https://www.obecsuja.sk/index.php/sk/obec/o-obci"
+      ],
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Malá a Veľká Čierna: staré sídla na západnom vstupe do Rajeckej doliny",
+      "text": "Veľká Čierna je písomne doložená už v roku 1361 pod názvom Nagh Cherna; v jej chotári sa nachádzalo sídlisko púchovskej kultúry zo zlomu letopočtu. V roku 1598 mala 24 domov a dlhodobo patrila rodu Čerňanských. Malá Čierna sa prvýkrát spomína v darovacej listine z 6. marca 1471 ako Kys. Charna. Archeologické nálezy v jej okolí dokladajú púchovskú kultúru a sídliskové pamiatky zo staršej doby rímskej; časť nálezov zničila ťažba kameňa v lome na rozhraní chotárov. Vo Veľkej Čiernej bola v roku 1974 vysvätená Cyrilo-metodská kaplnka, postavená pri príležitosti jubilea smrti sv. Cyrila.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "local_culture",
+      "sources": [
+        "https://obecvelkacierna.info/article/default/1910",
+        "https://www.malacierna.sk/pages/dejiny-obce-mala-cierna",
+        "https://www.malacierna.sk/pages/novodoba-historia-obce"
+      ],
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "PSČ 015 01 je doložené na oficiálnom webe mesta Rajec, v oficiálnej adrese Mestského múzea a v kontaktných údajoch obce Šuja. Verejné adresné a PSČ registre uvádzajú pre rovnaký kód Rajec, Ďurčinú, Malú Čiernu, Šuju a Veľkú Čiernu. Slovenská pošta je autoritou pre potvrdenie geografického PSČ; jej dynamický vyhľadávač je dostupný, no statický výstup konkrétneho vyhľadania sa nepodarilo zachytiť.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Mesto Rajec – oficiálny web a mestské múzeum; Obec Šuja – oficiálna adresa; obecné profily Ďurčiná, Malá Čierna a Veľká Čierna; verejné adresné a PSČ registre; Slovenská pošta – vyhľadávanie PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiálne weby mesta Rajec a obcí Ďurčiná, Šuja, Malá Čierna a Veľká Čierna; Ústredný portál verejnej správy pre geografické a administratívne zaradenie; Pamiatkový úrad SR a odborné pamiatkové zdroje pre historické objekty; archeologické a obecné historické zdroje pre praveké lokality."
+  },
+  "sources": [
+    {
+      "title": "Štátny archív v Žiline – Inventár mestečka Rajec 1476–1871 (1883)",
+      "url": "https://www.minv.sk/swift_data/source/verejna_statna_sprava/sa_v_ziline/archiv_zilina/inventare_pracovisko_zilina_framborska/1914.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "Mesto Rajec – Urbanisticko-historický vývoj pamiatkovej zóny",
+      "url": "https://www.rajec.sk/blocks/files/018c86f7-59a7-7fe6-a533-2d5f2c0c1ea0.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Radnica Rajec",
+      "url": "https://www.pamiatkynaslovensku.sk/rajec-radnica",
+      "type": "specialist"
+    },
+    {
+      "title": "Farnosť Rajec – História farnosti a kostola sv. Ladislava",
+      "url": "https://farnostrajec.sk/article/default/1800",
+      "type": "official"
+    },
+    {
+      "title": "OOCR Rajecká dolina – Kostol sv. Ladislava",
+      "url": "https://www.rajeckadolina.sk/kultura-a-historia/kostoly-betlehemy-a-kaplnky/kostol-sv-ladislava/",
+      "type": "regional"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Ladislava v Rajci",
+      "url": "https://www.pamiatkynaslovensku.sk/rajec-kostol-sv-ladislava",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Rajec – Mestské múzeum",
+      "url": "https://www.rajec.sk/pages/mestske-muzeum-2",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Mestské múzeum Rajec",
+      "url": "https://www.pamiatkynaslovensku.sk/rajec-mestske-muzeum",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Ďurčiná – História obce, archeológia a chránená lipa",
+      "url": "https://www.obecdurcina.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Michala archanjela v Ďurčinej",
+      "url": "https://www.pamiatkynaslovensku.sk/durcina-kaplnka-sv-michala-archanjela",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Šuja – História obce, archeologické nálezy a Reislerov mlyn",
+      "url": "https://www.obecsuja.sk/index.php/sk/obec/historia",
+      "type": "official"
+    },
+    {
+      "title": "Obec Šuja – Informácie o obci",
+      "url": "https://www.obecsuja.sk/index.php/sk/obec/o-obci",
+      "type": "official"
+    },
+    {
+      "title": "Obec Malá Čierna – Dejiny obce",
+      "url": "https://www.malacierna.sk/pages/dejiny-obce-mala-cierna",
+      "type": "official"
+    },
+    {
+      "title": "Obec Malá Čierna – Novodobá história obce",
+      "url": "https://www.malacierna.sk/pages/novodoba-historia-obce",
+      "type": "official"
+    },
+    {
+      "title": "Obec Veľká Čierna – História obce",
+      "url": "https://obecvelkacierna.info/article/default/1910",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Veľká Čierna",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d31057a3-dbd7-4181-8c49-28826f3c44a3",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Ďurčiná",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d31057a3-dbd7-4181-8c49-28826f3c44a3",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Michala archanjela v Ďurčinej, poloha",
+      "url": "https://www.pamiatkynaslovensku.sk/durcina-kaplnka-sv-michala-archanjela",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Rajec – historické centrum pri renesančnej radnici a Mestskom múzeu",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: stredoveké mestečko, ktoré ovládalo remeselný a trhový život Rajeckej doliny",
+          "text": "Rajec sa v listine uvádza už v roku 1193, hoci samotný dokument nie je originálom z daného roku a historici ho kladú pravdepodobne do obdobia vlády Ondreja II. V roku 1397 sa Rajec výslovne spomína ako mestečko – oppidum – pod Lietavským panstvom. V roku 1604 získal rozšírené jarmočné privilégium a v roku 1609 mýtnu imunitu. Bol hospodárskym centrom Rajeckej doliny, kde sa rozvíjali cechy súkenníkov, obuvníkov a garbiarov. Úpadok cechovej výroby v 19. storočí a presun hospodárskeho ťažiska k železnici spôsobili stagnáciu; v roku 1872 sa Rajec zmenil na veľkú obec. Štatút mesta získal znovu v roku 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "Renesančná radnica a štvorcové námestie Rajca: trhovisko pod arkádami",
+          "text": "Historické jadro Rajca tvorí pravidelné takmer štvorcové námestie, ktorého pôdorys so sieťou ulíc vybiehajúcich z nároží vznikal v 15. a 16. storočí. V jeho strede stojí renesančná radnica, postavená v 16. storočí, hoci časť literatúry pripúšťa prvú polovicu 17. storočia. Prízemie malo pôvodne otvorené arkády, ktoré slúžili ako trhovisko; na poschodí zasadala mestská rada a sídlila mestská administratíva. Pri barokovej úprave v 18. storočí boli arkády zamurované. Rekonštrukcia v roku 1992 ich zasklila a radnica dnes slúži ako obradná, koncertná a výstavná sieň. Nad vstupom je pamätná tabuľa básnika Juraja Slotu Rajeckého."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostol sv. Ladislava: gotické jadro, slnečné hodiny z roku 1770 a organ rodiny Pažických",
+          "text": "Farský kostol sv. Ladislava patrí k najstarším pamiatkam Rajca. Pôvodná gotická jednoloďová stavba vznikla v druhej štvrtine 14. storočia a prvýkrát sa písomne spomína v roku 1368; farnosť však mohla existovať už v 11. storočí. V roku 1610 bol kostol prestavaný na trojloďový, v roku 1647 pribudla veža a južná predsieň a v 18. storočí získal barokový charakter. Na južnej stene sú obnovené slnečné hodiny z roku 1770 s latinským nápisom „Non numero horas nisi serenas“. V roku 1771 daroval kostolu organár Ondrej Pažický organ v hodnote 3 000 zlatých, za ktorý si nechal vyplatiť iba 200."
+        },
+        {
+          "id": "fact_004",
+          "title": "Mestské múzeum Rajec a rajčovina: koža, z ktorej sa šili slávnostné kordovánky",
+          "text": "Mestské múzeum sídli v južnej časti námestia v meštianskom dome zo 17. storočia, ktorý v 19. storočí slúžil ako mestský pivovar a neskôr krčma. Verejnosti sa otvorilo v roku 1993 a dnes má národopisnú a prírodovednú expozíciu. Národopisná časť približuje remeselnú minulosť mesta, ktoré malo v 18. storočí desať cechov. Najznámejší bol obuvnícky a garbiarsky okruh: Rajec sa preslávil výrobou jemnej žltej alebo červenej kože zvanej rajčovina či uhorská koža. Používala sa na výstelku a ozdobu sviatočných čižiem – kordovánok – a výrobky sa vyvážali aj za hranice regiónu. Na múzeu sú pamätné tabule prírodovedca Jána Frivaldského a kňaza a publicistu Juraja Slotu Rajeckého."
+        },
+        {
+          "id": "fact_005",
+          "title": "Praveká Rajecká dolina: od medenej sekerky po keltské mince",
+          "text": "Územie poštovej oblasti 015 01 má viacero archeologických vrstiev. V Ďurčinej sa našlo sídlisko lužickej kultúry z mladšej doby bronzovej a medená sekerka, ktorá dokladá osídlenie už v eneolite. V Šuji sa podľa obecného historického zdroja našli mince keltského kmeňa Eraviskov a v chotári sa uvádza výšinné sídlisko na Vraninách. Malá Čierna má nálezy púchovskej kultúry a staršie sídliskové nálezy z doby rímskej; vo Veľkej Čiernej je doložené sídlisko púchovskej kultúry zo zlomu letopočtu. Ide o viacero odlišných lokalít, nie o jedno spoločné nálezisko."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: kaplnka sv. Michala, baroková kúria a približne 400-ročná lipa",
+          "text": "Ďurčiná sa v písomných prameňoch objavuje v roku 1393 pod názvom Georklehataya a pravdepodobne vznikla v 14. storočí na zákupnom práve. V obci sa zachovala klasicistická kaplnka sv. Michala archanjela z konca 18. storočia, upravovaná v 19. storočí a opravovaná v roku 1959. Ďalšou pamiatkou je pôvodne baroková kúria z 18. storočia, prestavaná v druhej polovici 19. storočia. V chotári rastie chránená veľkolistá lipa na Očkech grunte, ktorej vek obec odhaduje na približne 400 rokov; obvod kmeňa je 623 cm. Tieto objekty a strom pripomínajú dlhé osídlenie aj kultúrnu krajinu obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: keltské mince, výšinné sídlisko Vraniny a mlyn na Rajčianke",
+          "text": "Šuja leží na nive Rajčianky medzi Rajcom a Rajeckou Lesnou. Obecné historické zdroje spájajú jej osídlenie s púchovskou kultúrou a uvádzajú keltské mince kmeňa Eraviskov nájdené na jej území. Na neďalekých Vraninách sa podľa historických prameňov nachádzalo výšinné sídlisko. Prvá písomná zmienka o obci pochádza z roku 1393, keď sa uvádza pod názvom Chya a patrila Lietavskému panstvu. Fotografie v obecnom archíve zachytávajú aj Reislerov mlyn na Rajčianke a jeho okolie pri rozvodnení rieky. Príbeh obce tak spája staršie osídlenie, riečnu krajinu a tradičné hospodárstvo."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá a Veľká Čierna: staré sídla na západnom vstupe do Rajeckej doliny",
+          "text": "Veľká Čierna je písomne doložená už v roku 1361 pod názvom Nagh Cherna; v jej chotári sa nachádzalo sídlisko púchovskej kultúry zo zlomu letopočtu. V roku 1598 mala 24 domov a dlhodobo patrila rodu Čerňanských. Malá Čierna sa prvýkrát spomína v darovacej listine z 6. marca 1471 ako Kys. Charna. Archeologické nálezy v jej okolí dokladajú púchovskú kultúru a sídliskové pamiatky zo staršej doby rímskej; časť nálezov zničila ťažba kameňa v lome na rozhraní chotárov. Vo Veľkej Čiernej bola v roku 1974 vysvätená Cyrilo-metodská kaplnka, postavená pri príležitosti jubilea smrti sv. Cyrila."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Rajec – historischer Ortskern beim Renaissance-Rathaus und Stadtmuseum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: ein mittelalterliches Städtchen als Handwerks- und Marktzentrum des Rajecká-Tals",
+          "text": "Rajec wird bereits 1193 in einer Urkunde erwähnt, wobei das Dokument keine Originalurkunde aus diesem Jahr ist und wahrscheinlich in die Regierungszeit Andreas’ II. gehört. 1397 erscheint Rajec ausdrücklich als Marktflecken (oppidum) unter der Herrschaft von Lietava. 1604 erhielt es erweiterte Jahrmarktprivilegien, 1609 Zollfreiheit. Es war das wirtschaftliche Zentrum des Rajecká-Tals mit Zünften der Tuchmacher, Schuhmacher und Gerber. Im 19. Jahrhundert führte der Niedergang der Zünfte und die Verlagerung des Handels zur Eisenbahn zur Stagnation; 1872 verlor Rajec den Status eines Marktfleckens. 1968 erhielt es wieder Stadtrecht."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Renaissance-Rathaus und der quadratische Marktplatz von Rajec",
+          "text": "Das historische Zentrum bildet ein regelmäßiger, fast quadratischer Platz, dessen Grundriss und Straßennetz im 15. und 16. Jahrhundert entstanden. In seiner Mitte steht das Renaissance-Rathaus aus dem 16. Jahrhundert, wobei einige Quellen eine Entstehung in der ersten Hälfte des 17. Jahrhunderts zulassen. Die offenen Arkaden im Erdgeschoss dienten ursprünglich als Markt; im Obergeschoss tagte der Stadtrat. Bei der Barockisierung im 18. Jahrhundert wurden die Arkaden zugemauert. Die Restaurierung von 1992 verglaste sie; heute dient das Rathaus als Trauungs-, Konzert- und Ausstellungssaal."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Ladislaus-Kirche: gotischer Kern, Sonnenuhr von 1770 und Orgel der Familie Pažický",
+          "text": "Die Pfarrkirche des heiligen Ladislaus gehört zu den ältesten Denkmälern von Rajec. Der ursprüngliche gotische einschiffige Bau entstand im zweiten Viertel des 14. Jahrhunderts und wird 1368 erstmals schriftlich erwähnt; die Pfarrei könnte jedoch schon im 11. Jahrhundert bestanden haben. 1610 wurde die Kirche zu einer dreischiffigen Anlage umgebaut, 1647 kamen Turm und südliche Vorhalle hinzu, im 18. Jahrhundert erhielt sie einen barocken Charakter. An der Südwand befindet sich eine restaurierte Sonnenuhr von 1770 mit lateinischer Inschrift. 1771 schenkte der Orgelbauer Ondrej Pažický der Kirche eine Orgel im Wert von 3.000 Gulden und nahm dafür nur 200 entgegen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Das Stadtmuseum Rajec und die Rajčovina: Leder für festliche Kordovan-Stiefel",
+          "text": "Das Stadtmuseum befindet sich in einem Bürgerhaus des 17. Jahrhunderts am südlichen Platzrand, das im 19. Jahrhundert als städtische Brauerei und später als Wirtshaus diente. Es wurde 1993 eröffnet und zeigt volkskundliche und naturkundliche Ausstellungen. Die volkskundliche Abteilung dokumentiert die Handwerkstradition der Stadt, die im 18. Jahrhundert zehn Zünfte hatte. Besonders bekannt waren Schuhmacher und Gerber: Rajec exportierte feines gelbes oder rotes Leder, Rajčovina oder ungarisches Leder genannt. Es wurde für Futter und Verzierung festlicher Stiefel – Kordovánky – verwendet. Am Museum erinnern Tafeln an den Naturforscher Ján Frivaldský und den Priester und Publizisten Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "Das vorgeschichtliche Rajecká-Tal: von der Kupferaxt bis zu keltischen Münzen",
+          "text": "Das Gebiet der Postleitzahl 015 01 weist mehrere archäologische Schichten auf. In Ďurčiná wurden eine Siedlung der Lausitzer Kultur aus der jüngeren Bronzezeit und eine Kupferaxt gefunden, die eine Besiedlung bereits im Äneolithikum belegt. In Šuja wurden laut örtlicher Geschichtsdarstellung Münzen des keltischen Stammes der Eravisker gefunden; auf Vraniny wird eine Höhensiedlung vermutet. Malá Čierna besitzt Funde der Púchov-Kultur und ältere Siedlungsspuren aus der Römerzeit; in Veľká Čierna ist eine Siedlung der Púchov-Kultur um die Zeitenwende belegt. Es handelt sich um mehrere getrennte Fundstellen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: die Michaelskapelle, ein Barock-Kurie und eine etwa 400 Jahre alte Linde",
+          "text": "Ďurčiná erscheint 1393 unter dem Namen Georklehataya und entstand wahrscheinlich im 14. Jahrhundert nach Erbrecht. Erhalten ist die klassizistische Kapelle des Erzengels Michael aus dem späten 18. Jahrhundert, die im 19. Jahrhundert umgebaut und 1959 renoviert wurde. Ein weiteres Denkmal ist eine ursprünglich barocke Kurie aus dem 18. Jahrhundert, die in der zweiten Hälfte des 19. Jahrhunderts umgebaut wurde. Auf dem Gemeindegebiet wächst die geschützte großblättrige Linde von Očkech grunt, deren Alter auf etwa 400 Jahre und deren Stammumfang auf 623 cm geschätzt wird."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: keltische Münzen, Höhensiedlung Vraniny und die Mühle an der Rajčianka",
+          "text": "Šuja liegt auf der Aue des Flusses Rajčianka zwischen Rajec und Rajecká Lesná. Die örtlichen historischen Quellen verbinden die Besiedlung mit der Púchov-Kultur und erwähnen Münzen des keltischen Stammes der Eravisker, die im Gemeindegebiet gefunden wurden. Auf dem nahe gelegenen Vraniny befand sich laut historischen Quellen eine Höhensiedlung. Die erste schriftliche Erwähnung stammt aus dem Jahr 1393, als der Ort Chya hieß und zur Herrschaft Lietava gehörte. Alte Gemeindefotos zeigen auch die Reisler-Mühle an der Rajčianka und ihre Umgebung bei Hochwasser."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá und Veľká Čierna: alte Siedlungen am westlichen Eingang ins Rajecká-Tal",
+          "text": "Veľká Čierna ist seit 1361 als Nagh Cherna schriftlich belegt; im Gemeindegebiet lag eine Siedlung der Púchov-Kultur um die Zeitenwende. 1598 hatte der Ort 24 Häuser und gehörte lange der Familie Čerňanský. Malá Čierna erscheint erstmals in einer Schenkungsurkunde vom 6. März 1471 als Kys. Charna. Archäologische Funde belegen dort die Púchov-Kultur und Siedlungsspuren aus der älteren Römerzeit; ein Teil der Funde wurde durch Steinabbau zerstört. In Veľká Čierna wurde 1974 eine Kyrill-und-Method-Kapelle geweiht."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Rajec – historic centre near the Renaissance town hall and Town Museum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: a medieval market town and craft centre of the Rajecká Valley",
+          "text": "Rajec appears in a charter in 1193, although the document is not an original from that year and is probably associated with the reign of Andrew II. In 1397 it is explicitly described as a market town (oppidum) under Lietava estate. It received expanded fair privileges in 1604 and toll immunity in 1609. It was the economic centre of the Rajecká Valley, with guilds of cloth-makers, shoemakers and tanners. The decline of guild production and the shift of trade towards the railway led to stagnation; in 1872 Rajec lost its market-town status. It regained town status in 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "Rajec’s Renaissance town hall and square market",
+          "text": "The historic centre is a regular, almost square market square whose layout and street network developed in the 15th and 16th centuries. The Renaissance town hall in its centre dates from the 16th century, although some sources place its origin in the first half of the 17th century. Open ground-floor arcades originally served as market stalls, while the town council met upstairs. The arcades were bricked up during an 18th-century Baroque remodelling. The 1992 restoration glazed them; today the town hall is used for ceremonies, concerts and exhibitions."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of St Ladislaus: Gothic core, 1770 sundial and the Pažický family organ",
+          "text": "The parish church of St Ladislaus is among Rajec’s oldest monuments. The original Gothic single-nave building dates from the second quarter of the 14th century and is first documented in 1368; the parish may have existed as early as the 11th century. It was rebuilt as a three-nave church in 1610, with a tower and southern porch added in 1647, and received a Baroque interior in the 18th century. A restored 1770 sundial with a Latin inscription is on the south wall. In 1771, organ-builder Ondrej Pažický donated an organ worth 3,000 gold coins, accepting only 200 in payment."
+        },
+        {
+          "id": "fact_004",
+          "title": "Rajec Town Museum and rajčovina: leather for festive cordovan boots",
+          "text": "The town museum occupies a 17th-century burgher house on the southern side of the square, formerly a municipal brewery and later an inn. Opened in 1993, it has ethnographic and natural-history exhibitions. The ethnographic section documents the town’s craft tradition; Rajec had ten guilds in the 18th century. Shoemakers and tanners were especially important: Rajec became known for fine yellow or red leather called rajčovina or Hungarian leather, used to line and decorate festive boots known as kordovánky. Memorial plaques on the museum honour naturalist Ján Frivaldský and priest and writer Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "Prehistoric Rajecká Valley: from a copper axe to Celtic coins",
+          "text": "The 015 01 postcode area contains several archaeological layers. In Ďurčiná, a Lusatian-culture settlement from the Late Bronze Age and a copper axe document activity as early as the Eneolithic. Local history sources report coins of the Celtic Eravisci tribe found in Šuja and a hilltop settlement at Vraniny. Malá Čierna has Púchov-culture finds and earlier Roman-period settlement traces; a Púchov-culture settlement around the turn of the era is documented in Veľká Čierna. These are separate archaeological localities."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: St Michael’s Chapel, a Baroque manor and a lime tree about 400 years old",
+          "text": "Ďurčiná appears in written sources in 1393 as Georklehataya and probably originated in the 14th century under an emphyteutic settlement system. Its Neoclassical Chapel of St Michael the Archangel dates from the late 18th century, was altered in the 19th century and repaired in 1959. Another landmark is an originally Baroque manor house from the 18th century, remodelled in the second half of the 19th century. The protected large-leaved lime at Očkech grunt is estimated to be about 400 years old, with a trunk circumference of 623 cm."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: Celtic coins, the Vraniny hilltop settlement and the mill on the Rajčianka",
+          "text": "Šuja lies on the floodplain of the Rajčianka River between Rajec and Rajecká Lesná. Local historical sources link its settlement to the Púchov culture and report coins of the Celtic Eravisci tribe found in the municipality. Historical sources also mention a hilltop settlement on nearby Vraniny. The first written reference dates to 1393, when the village was called Chya and belonged to the Lietava estate. Old municipal photographs also show the Reisler mill on the Rajčianka and its surroundings during floods."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá and Veľká Čierna: old settlements at the western entrance to the Rajecká Valley",
+          "text": "Veľká Čierna is documented from 1361 as Nagh Cherna; a Púchov-culture settlement from around the turn of the era was found in its territory. In 1598 it had 24 houses and was long owned by the Čerňanský family. Malá Čierna first appears in a royal donation charter dated 6 March 1471 as Kys. Charna. Archaeological finds there document the Púchov culture and older Roman-period settlement remains; some were destroyed by quarrying. A chapel dedicated to Saints Cyril and Methodius was consecrated in Veľká Čierna in 1974."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Rajec – centro histórico junto al ayuntamiento renacentista y el Museo Municipal",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: villa medieval y centro artesanal y comercial del valle de Rajecká",
+          "text": "Rajec aparece en un documento de 1193, aunque no es un original de ese año y probablemente corresponde al reinado de Andrés II. En 1397 se menciona expresamente como villa de mercado (oppidum) bajo el señorío de Lietava. Recibió privilegios ampliados de feria en 1604 e inmunidad de peaje en 1609. Fue el centro económico del valle de Rajecká, con gremios de pañeros, zapateros y curtidores. La decadencia de los gremios y el desplazamiento del comercio hacia el ferrocarril provocaron estancamiento; en 1872 perdió el estatus de villa de mercado y lo recuperó como ciudad en 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "El ayuntamiento renacentista y la plaza cuadrada de Rajec",
+          "text": "El centro histórico está formado por una plaza regular casi cuadrada, cuyo trazado y red de calles se desarrollaron en los siglos XV y XVI. En el centro se encuentra el ayuntamiento renacentista del siglo XVI, aunque algunas fuentes sitúan su origen en la primera mitad del XVII. Las arcadas abiertas de la planta baja servían como mercado y arriba se reunía el consejo municipal. Fueron tapiadas durante una reforma barroca del siglo XVIII y acristaladas en la restauración de 1992. Hoy el edificio sirve para ceremonias, conciertos y exposiciones."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de San Ladislao: núcleo gótico, reloj solar de 1770 y órgano de los Pažický",
+          "text": "La iglesia parroquial de San Ladislao es uno de los monumentos más antiguos de Rajec. El edificio gótico original de una nave data del segundo cuarto del siglo XIV y aparece documentado en 1368; la parroquia podría existir desde el siglo XI. Fue transformado en iglesia de tres naves en 1610, recibió torre y pórtico sur en 1647 y un interior barroco en el siglo XVIII. En el muro sur hay un reloj solar restaurado de 1770 con inscripción latina. En 1771, el organero Ondrej Pažický donó un órgano valorado en 3.000 florines y solo aceptó 200."
+        },
+        {
+          "id": "fact_004",
+          "title": "El Museo Municipal de Rajec y la rajčovina: cuero para botas festivas",
+          "text": "El museo ocupa una casa burguesa del siglo XVII en el lado sur de la plaza, utilizada en el siglo XIX como cervecería municipal y después como posada. Abrió en 1993 y alberga exposiciones etnográficas y de historia natural. La sección etnográfica documenta los oficios locales: Rajec tenía diez gremios en el siglo XVIII. Destacaban zapateros y curtidores; la ciudad se hizo famosa por un cuero fino amarillo o rojo llamado rajčovina o cuero húngaro, usado para forrar y decorar botas festivas llamadas kordovánky. Las placas del museo recuerdan al naturalista Ján Frivaldský y al sacerdote y publicista Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "El valle prehistórico de Rajecká: de un hacha de cobre a monedas celtas",
+          "text": "El área del código postal 015 01 conserva varias capas arqueológicas. En Ďurčiná se hallaron un asentamiento de la cultura lusaciana de la Edad del Bronce tardía y un hacha de cobre que prueba actividad ya en el Eneolítico. Las fuentes locales mencionan monedas de la tribu celta de los eraviscos halladas en Šuja y un asentamiento en altura en Vraniny. Malá Čierna conserva hallazgos de la cultura de Púchov y restos de asentamiento de época romana; en Veľká Čierna está documentado un asentamiento de la cultura de Púchov de alrededor del cambio de era. Son yacimientos distintos."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: capilla de San Miguel, casa señorial barroca y un tilo de unos 400 años",
+          "text": "Ďurčiná aparece en documentos en 1393 como Georklehataya y probablemente nació en el siglo XIV. Su capilla neoclásica de San Miguel Arcángel data de finales del siglo XVIII, fue reformada en el XIX y reparada en 1959. Otro monumento es una casa señorial originalmente barroca del siglo XVIII, reconstruida en la segunda mitad del XIX. En Očkech grunt crece un tilo de hoja grande protegido, cuya edad se estima en unos 400 años y cuya circunferencia alcanza 623 cm."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: monedas celtas, el asentamiento de Vraniny y el molino del río Rajčianka",
+          "text": "Šuja se encuentra en la llanura aluvial del río Rajčianka, entre Rajec y Rajecká Lesná. Las fuentes históricas locales relacionan su poblamiento con la cultura de Púchov y mencionan monedas de la tribu celta de los eraviscos halladas en el municipio. También se cita un asentamiento en altura en las cercanas Vraniny. La primera mención escrita data de 1393, cuando el lugar se llamaba Chya y pertenecía al señorío de Lietava. Fotografías antiguas del municipio muestran además el molino Reisler junto al río Rajčianka durante las crecidas."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá y Veľká Čierna: antiguos asentamientos en la entrada occidental del valle de Rajecká",
+          "text": "Veľká Čierna está documentada desde 1361 como Nagh Cherna; en su término se halló un asentamiento de la cultura de Púchov de alrededor del cambio de era. En 1598 tenía 24 casas y perteneció durante mucho tiempo a la familia Čerňanský. Malá Čierna aparece por primera vez en una carta de donación real del 6 de marzo de 1471 como Kys. Charna. Los hallazgos arqueológicos documentan allí la cultura de Púchov y restos de asentamiento de época romana; parte fue destruida por la extracción de piedra. En Veľká Čierna se consagró en 1974 una capilla dedicada a Cirilo y Metodio."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Rajec – centre historique près de l’hôtel de ville Renaissance et du musée municipal",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec : bourg médiéval et centre artisanal et commercial de la vallée de Rajecká",
+          "text": "Rajec apparaît dans un acte de 1193, bien que le document ne soit pas un original de cette année et date probablement du règne d’André II. En 1397, il est explicitement mentionné comme bourg de marché (oppidum) sous la seigneurie de Lietava. Il reçut des privilèges de foire élargis en 1604 et une immunité de péage en 1609. Il était le centre économique de la vallée de Rajecká, avec des corporations de drapiers, cordonniers et tanneurs. Le déclin des corporations et le déplacement du commerce vers le chemin de fer entraînèrent une stagnation ; en 1872, Rajec perdit son statut de bourg et le retrouva comme ville en 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’hôtel de ville Renaissance et la place carrée de Rajec",
+          "text": "Le centre historique est une place régulière presque carrée, dont le plan et le réseau de rues se sont développés aux XVe et XVIe siècles. En son centre se trouve l’hôtel de ville Renaissance du XVIe siècle, même si certaines sources situent son origine dans la première moitié du XVIIe siècle. Les arcades ouvertes du rez-de-chaussée servaient de marché ; le conseil municipal siégeait à l’étage. Elles furent murées lors d’un remaniement baroque au XVIIIe siècle, puis vitrées lors de la restauration de 1992. L’édifice sert aujourd’hui de salle de cérémonies, de concerts et d’expositions."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Ladislas : noyau gothique, cadran solaire de 1770 et orgue des Pažický",
+          "text": "L’église paroissiale Saint-Ladislas est l’un des plus anciens monuments de Rajec. L’édifice gothique originel à nef unique date du deuxième quart du XIVe siècle et est mentionné en 1368 ; la paroisse pourrait toutefois remonter au XIe siècle. L’église fut transformée en édifice à trois nefs en 1610, puis reçut une tour et un porche sud en 1647 ; son intérieur fut baroquisé au XVIIIe siècle. Un cadran solaire restauré de 1770 avec inscription latine se trouve sur le mur sud. En 1771, le facteur d’orgues Ondrej Pažický offrit un orgue d’une valeur de 3 000 florins et n’en accepta que 200."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le musée municipal de Rajec et la rajčovina : le cuir des bottes de fête",
+          "text": "Le musée occupe une maison bourgeoise du XVIIe siècle au sud de la place, utilisée au XIXe siècle comme brasserie municipale puis comme auberge. Ouvert en 1993, il présente des expositions ethnographiques et d’histoire naturelle. La section ethnographique retrace les métiers de la ville, qui comptait dix corporations au XVIIIe siècle. Les cordonniers et tanneurs étaient particulièrement réputés : Rajec produisait un cuir fin jaune ou rouge appelé rajčovina ou cuir hongrois, utilisé pour doubler et décorer les bottes de fête, les kordovánky. Des plaques rappellent le naturaliste Ján Frivaldský et le prêtre et publiciste Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "La vallée préhistorique de Rajecká : de la hache de cuivre aux monnaies celtiques",
+          "text": "Le territoire du code postal 015 01 possède plusieurs couches archéologiques. À Ďurčiná, on a découvert un habitat de la culture lusacienne de l’âge du Bronze récent et une hache de cuivre témoignant d’une présence dès l’Énéolithique. Les sources locales signalent des monnaies de la tribu celte des Éravisques à Šuja et un habitat de hauteur à Vraniny. Malá Čierna possède des découvertes de la culture de Púchov et des traces d’habitat de l’époque romaine ; à Veľká Čierna, un habitat de la culture de Púchov autour du changement d’ère est attesté. Il s’agit de sites distincts."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná : chapelle Saint-Michel, manoir baroque et tilleul d’environ 400 ans",
+          "text": "Ďurčiná apparaît dans les sources en 1393 sous le nom de Georklehataya et fut probablement fondée au XIVe siècle. Sa chapelle néoclassique Saint-Michel-Archange date de la fin du XVIIIe siècle ; elle fut remaniée au XIXe siècle et réparée en 1959. Un autre monument est un manoir d’origine baroque du XVIIIe siècle, remanié dans la seconde moitié du XIXe siècle. À Očkech grunt pousse un tilleul à grandes feuilles protégé, âgé d’environ 400 ans selon la commune, avec une circonférence de tronc de 623 cm."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja : monnaies celtiques, habitat de hauteur de Vraniny et moulin sur la Rajčianka",
+          "text": "Šuja se trouve dans la plaine alluviale de la Rajčianka, entre Rajec et Rajecká Lesná. Les sources historiques locales associent son peuplement à la culture de Púchov et signalent des monnaies de la tribu celte des Éravisques trouvées sur le territoire communal. Un habitat de hauteur se trouvait également sur les Vraniny voisins. La première mention écrite date de 1393, lorsque le lieu s’appelait Chya et appartenait à la seigneurie de Lietava. D’anciennes photos communales montrent aussi le moulin Reisler sur la Rajčianka et ses abords lors des crues."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá et Veľká Čierna : anciens établissements à l’entrée ouest de la vallée de Rajecká",
+          "text": "Veľká Čierna est attestée depuis 1361 sous le nom de Nagh Cherna ; un habitat de la culture de Púchov datant du tournant de notre ère se trouvait sur son territoire. En 1598, le village comptait 24 maisons et appartint longtemps à la famille Čerňanský. Malá Čierna apparaît pour la première fois dans un acte de donation royale du 6 mars 1471 sous le nom de Kys. Charna. Les découvertes archéologiques y attestent la culture de Púchov et des traces d’habitat de l’époque romaine ; une partie fut détruite par l’extraction de pierre. Une chapelle dédiée à Cyrille et Méthode fut consacrée à Veľká Čierna en 1974."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Rajec – centro storico presso il municipio rinascimentale e il Museo civico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: borgo medievale e centro artigianale e commerciale della valle di Rajecká",
+          "text": "Rajec compare in un documento del 1193, anche se non si tratta dell’originale di quell’anno e probabilmente risale al regno di Andrea II. Nel 1397 è citata esplicitamente come borgo di mercato (oppidum) sotto la signoria di Lietava. Nel 1604 ottenne privilegi fieristici ampliati e nel 1609 l’immunità dai pedaggi. Fu il centro economico della valle di Rajecká, con corporazioni di tessitori, calzolai e conciatori. Il declino delle corporazioni e lo spostamento dei commerci verso la ferrovia portarono alla stagnazione; nel 1872 Rajec perse lo status di borgo e lo riottenne come città nel 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il municipio rinascimentale e la piazza quadrata di Rajec",
+          "text": "Il centro storico è formato da una piazza regolare quasi quadrata, il cui impianto e la rete stradale si svilupparono nei secoli XV e XVI. Al centro si trova il municipio rinascimentale del XVI secolo, anche se alcune fonti ne collocano l’origine nella prima metà del XVII. Le arcate aperte al piano terra servivano da mercato, mentre al piano superiore si riuniva il consiglio cittadino. Furono murate durante una ristrutturazione barocca nel XVIII secolo e vetrate nel restauro del 1992. Oggi il municipio è una sala per cerimonie, concerti e mostre."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Ladislao: nucleo gotico, meridiana del 1770 e organo dei Pažický",
+          "text": "La chiesa parrocchiale di San Ladislao è uno dei monumenti più antichi di Rajec. L’edificio gotico originario a navata unica risale al secondo quarto del XIV secolo ed è documentato nel 1368; la parrocchia potrebbe esistere già dall’XI secolo. Nel 1610 fu trasformato in chiesa a tre navate, nel 1647 furono aggiunti torre e portico meridionale e nel XVIII secolo l’interno fu barocchizzato. Sulla parete sud si trova una meridiana restaurata del 1770 con iscrizione latina. Nel 1771 l’organaro Ondrej Pažický donò alla chiesa un organo del valore di 3.000 fiorini, accettandone soltanto 200."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il Museo civico di Rajec e la rajčovina: il cuoio degli stivali da festa",
+          "text": "Il museo occupa una casa borghese del XVII secolo sul lato meridionale della piazza, usata nell’Ottocento come birrificio comunale e poi come locanda. Aperto nel 1993, ospita esposizioni etnografiche e di storia naturale. La sezione etnografica documenta la tradizione artigiana della città, che nel XVIII secolo contava dieci corporazioni. Erano famosi soprattutto calzolai e conciatori: Rajec produceva un cuoio fine giallo o rosso chiamato rajčovina o cuoio ungherese, usato per foderare e decorare gli stivali da festa kordovánky. Le targhe ricordano il naturalista Ján Frivaldský e il sacerdote e pubblicista Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "La valle preistorica di Rajecká: dall’ascia di rame alle monete celtiche",
+          "text": "Il territorio del codice postale 015 01 conserva diverse fasi archeologiche. A Ďurčiná sono stati trovati un insediamento della cultura lusaziana della tarda età del Bronzo e un’ascia di rame che testimonia una presenza già nell’Eneolitico. Le fonti locali segnalano monete della tribù celtica degli Eravisci a Šuja e un insediamento d’altura a Vraniny. Malá Čierna presenta reperti della cultura di Púchov e tracce d’insediamento di epoca romana; a Veľká Čierna è documentato un insediamento della cultura di Púchov attorno al cambio dell’era. Si tratta di località distinte."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: cappella di San Michele, maniero barocco e tiglio di circa 400 anni",
+          "text": "Ďurčiná compare nelle fonti nel 1393 come Georklehataya e probabilmente nacque nel XIV secolo. La sua cappella neoclassica di San Michele Arcangelo risale alla fine del XVIII secolo, fu modificata nel XIX secolo e restaurata nel 1959. Un altro monumento è un maniero originariamente barocco del XVIII secolo, ristrutturato nella seconda metà del XIX. A Očkech grunt cresce un tiglio a grandi foglie protetto, stimato dal comune a circa 400 anni, con una circonferenza del tronco di 623 cm."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: monete celtiche, insediamento d’altura di Vraniny e mulino sulla Rajčianka",
+          "text": "Šuja si trova nella pianura alluvionale del fiume Rajčianka tra Rajec e Rajecká Lesná. Le fonti storiche locali collegano il suo insediamento alla cultura di Púchov e segnalano monete della tribù celtica degli Eravisci rinvenute nel territorio comunale. Sulle vicine Vraniny si trovava anche un insediamento d’altura. La prima menzione scritta risale al 1393, quando il luogo era chiamato Chya e apparteneva alla signoria di Lietava. Vecchie fotografie comunali mostrano anche il mulino Reisler sulla Rajčianka durante le piene."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá e Veľká Čierna: antichi insediamenti all’ingresso occidentale della valle di Rajecká",
+          "text": "Veľká Čierna è documentata dal 1361 con il nome Nagh Cherna; nel suo territorio si trovava un insediamento della cultura di Púchov attorno al cambio dell’era. Nel 1598 aveva 24 case e appartenne a lungo alla famiglia Čerňanský. Malá Čierna compare per la prima volta in un atto di donazione reale del 6 marzo 1471 come Kys. Charna. I reperti archeologici documentano la cultura di Púchov e tracce di insediamento di epoca romana; parte fu distrutta dall’estrazione della pietra. Nel 1974 a Veľká Čierna fu consacrata una cappella dedicata a Cirillo e Metodio."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Rajec – historisch centrum bij het renaissancistische stadhuis en Stadsmuseum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rajec: een middeleeuws marktstadje en ambachtscentrum van de Rajecká-vallei",
+          "text": "Rajec wordt vermeld in een oorkonde uit 1193, hoewel dit geen origineel uit dat jaar is en waarschijnlijk uit de regeerperiode van Andreas II dateert. In 1397 wordt het uitdrukkelijk genoemd als marktstadje (oppidum) onder het landgoed Lietava. In 1604 kreeg het uitgebreide jaarmarktprivileges en in 1609 vrijstelling van tol. Het was het economische centrum van de Rajecká-vallei, met gilden van lakenmakers, schoenmakers en leerlooiers. De neergang van de gilden en de verschuiving van handel naar de spoorweg leidden tot stagnatie; in 1872 verloor Rajec zijn status als marktstadje en kreeg die als stad terug in 1968."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het renaissancistische stadhuis en het vierkante marktplein van Rajec",
+          "text": "Het historische centrum bestaat uit een regelmatig, bijna vierkant plein waarvan het stratenplan zich in de 15e en 16e eeuw ontwikkelde. In het midden staat het renaissancistische stadhuis uit de 16e eeuw, hoewel sommige bronnen de bouw in de eerste helft van de 17e eeuw plaatsen. De open arcades op de begane grond dienden als markt; boven vergaderde de gemeenteraad. Bij een barokke verbouwing in de 18e eeuw werden de arcades dichtgemetseld. Tijdens de restauratie van 1992 werden ze beglaasd; tegenwoordig dient het stadhuis als ceremonie-, concert- en tentoonstellingszaal."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Ladislauskerk: gotische kern, zonnewijzer uit 1770 en orgel van de familie Pažický",
+          "text": "De parochiekerk van Sint-Ladislaus is een van de oudste monumenten van Rajec. Het oorspronkelijke gotische gebouw met één schip dateert uit het tweede kwart van de 14e eeuw en wordt in 1368 voor het eerst vermeld; de parochie kan al in de 11e eeuw hebben bestaan. In 1610 werd de kerk tot drie schepen verbouwd, in 1647 kwamen de toren en zuidelijke voorhal erbij en in de 18e eeuw kreeg het interieur een barok karakter. Aan de zuidmuur bevindt zich een gerestaureerde zonnewijzer uit 1770 met Latijnse inscriptie. In 1771 schonk orgelbouwer Ondrej Pažický een orgel ter waarde van 3.000 gulden en nam slechts 200 aan."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het Stadsmuseum van Rajec en rajčovina: leer voor feestlaarzen",
+          "text": "Het museum is gevestigd in een burgerhuis uit de 17e eeuw aan de zuidkant van het plein, dat in de 19e eeuw als gemeentelijke brouwerij en later als herberg diende. Het opende in 1993 en heeft etnografische en natuurhistorische tentoonstellingen. De etnografische afdeling belicht de ambachtstraditie; Rajec had in de 18e eeuw tien gilden. Vooral schoenmakers en leerlooiers waren bekend: Rajec produceerde fijn geel of rood leer, rajčovina of Hongaars leer genoemd, voor de voering en versiering van feestlaarzen, de kordovánky. Gedenkplaten eren natuuronderzoeker Ján Frivaldský en priester en publicist Juraj Slota Rajecký."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het prehistorische Rajecká-dal: van een koperen bijl tot Keltische munten",
+          "text": "Het gebied van postcode 015 01 kent verschillende archeologische lagen. In Ďurčiná zijn een nederzetting van de Lausitzcultuur uit de late bronstijd en een koperen bijl gevonden, die activiteit in het eneolithicum aantonen. Lokale bronnen melden munten van de Keltische stam Eravisci in Šuja en een hoogtenederzetting bij Vraniny. Malá Čierna heeft vondsten van de Púchovcultuur en oudere nederzettingssporen uit de Romeinse tijd; in Veľká Čierna is een nederzetting van de Púchovcultuur rond het begin van onze jaartelling gedocumenteerd. Het gaat om verschillende vindplaatsen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ďurčiná: de Sint-Michaëlskapel, een barok landhuis en een linde van ongeveer 400 jaar",
+          "text": "Ďurčiná wordt in 1393 vermeld als Georklehataya en ontstond waarschijnlijk in de 14e eeuw. De neoclassicistische kapel van Sint-Michaël de Aartsengel dateert uit het einde van de 18e eeuw, werd in de 19e eeuw aangepast en in 1959 hersteld. Een ander monument is een oorspronkelijk barok landhuis uit de 18e eeuw, verbouwd in de tweede helft van de 19e eeuw. Bij Očkech grunt groeit een beschermde grootbladige linde die volgens de gemeente ongeveer 400 jaar oud is; de stamomtrek bedraagt 623 cm."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šuja: Keltische munten, de hoogtenederzetting Vraniny en de molen aan de Rajčianka",
+          "text": "Šuja ligt op de uiterwaard van de rivier Rajčianka tussen Rajec en Rajecká Lesná. Lokale historische bronnen verbinden de bewoning met de Púchovcultuur en melden munten van de Keltische stam Eravisci die in de gemeente zijn gevonden. Op het nabijgelegen Vraniny lag volgens historische bronnen een hoogtenederzetting. De eerste schriftelijke vermelding dateert uit 1393, toen de plaats Chya heette en bij het landgoed Lietava hoorde. Oude gemeentefoto’s tonen ook de Reisler-molen aan de Rajčianka en de omgeving tijdens overstromingen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Malá en Veľká Čierna: oude nederzettingen aan de westelijke toegang tot de Rajecká-vallei",
+          "text": "Veľká Čierna wordt sinds 1361 vermeld als Nagh Cherna; in het gebied lag een nederzetting van de Púchovcultuur rond het begin van onze jaartelling. In 1598 telde het dorp 24 huizen en lange tijd was het eigendom van de familie Čerňanský. Malá Čierna verschijnt voor het eerst in een koninklijke schenkingsakte van 6 maart 1471 als Kys. Charna. Archeologische vondsten tonen de Púchovcultuur en oudere Romeinse nederzettingssporen; een deel ging verloren door steengroeven. In 1974 werd in Veľká Čierna een kapel ter ere van Cyrillus en Methodius ingewijd."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
