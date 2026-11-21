@@ -17,7 +17,9 @@
     "photo",
     "verification",
     "sources",
-    "translations"
+    "translations",
+    "status",
+    "data_version"
   ],
   "properties": {
     "postcode": {
@@ -242,6 +244,20 @@
         null
       ],
       "description": "Optional clarification of the type of district/locality within the CAP area: municipal_part = official municipal subdivision; municipal_district = municipal district; city_quarter = city quarter or neighborhood; settlement = settlement within a Comune; locality = another local area. This field does not replace the complete Comune list in city."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "placeholder",
+        "validated",
+        "published"
+      ],
+      "description": "Technical publication lifecycle. Must match the Neon workflow_status column exactly."
+    },
+    "data_version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Content version: 1 after rework; 5 after successful final audit and explicit publication."
     }
   },
   "$defs": {
