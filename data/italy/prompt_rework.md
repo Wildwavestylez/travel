@@ -25,8 +25,8 @@ This is the mandatory project-wide rule for Italian records.
 - **One CAP always remains one production record.** Never split a shared CAP into one record per Comune and never create multiple records with the same CAP.
 - The CAP is our project content/indexing unit. It may cover one Comune, several Comuni or an urban postal zone. Its content is the complete defensible geographic area associated with that CAP.
 - Set `city` to the official names of **all Comuni associated with the CAP**, using current ISTAT names. If there is more than one, list the names in one string separated by commas. Do not select one Comune as a supposed representative or organizational anchor.
-- Determine the Comune list from the best available authoritative evidence for the CAP assignment and the physical municipal locations covered by it. Poste Italiane is the primary postal authority; ISTAT is the authority for current Comune names and administrative identity. A post-office branch address may help identify a locality, but its existence alone does not prove that it is the only office serving the CAP or define the full CAP area.
-- Do not require identification of one exclusive serving post office. Do not hold up a record merely because Poste Italiane does not publish a single CAP-to-serving-office relationship.
+- Determine the Comune list from the best available authoritative evidence for the CAP assignment and the physical municipal locations covered by it. Poste Italiane is the primary authority for CAP assignment; ISTAT is the authority for current Comune names and administrative identity. A branch address may be used only as incidental locality evidence when better geographic evidence is unavailable; it does not define the full CAP area.
+- Do not require identification of one exclusive serving post office. **Research into who serves the CAP, branch operators, branch opening/closure status, opening hours, postal services, delivery routes or delivery arrangements is out of scope.** Do not add such details as facts or retain branch inventories in the record. Verify only the CAP assignment and its geographic relationship.
 - If a CAP is associated with more than one intermediate territorial unit or Regione, represent all applicable official names in the corresponding string field, separated by commas. Never silently choose one. If the scope cannot be established reliably, document the precise uncertainty and do not guess.
 - `district` is not a list of settlements or Comuni. Use it only for a genuinely relevant, documented sub-municipal locality when the record itself requires one; otherwise use null.
 - `representative_place` and `representative_point` describe one useful map anchor for the CAP's overall area. They do not designate a representative Comune, postal office or boundary centroid.
@@ -61,7 +61,7 @@ Distinguish Comune from frazione, località, borgata, quartiere, rione and other
 
 The Italian CAP is a five-digit string. Always preserve leading zeroes.
 
-Use Poste Italiane as the primary authority for the current CAP system, published CAP assignments, urban CAP zones and postal-service information within its remit.
+Use Poste Italiane as the primary authority for the current CAP system, published CAP assignments and urban CAP zones. Do not research or record post-office operations or delivery-service details.
 
 - Verify that the CAP exists and that its current postal assignment is supported by an authoritative, current source.
 - Use the actual published assignment; never derive a Comune, Provincia, Regione, postal territory or exact polygon from the CAP digits alone.
@@ -75,7 +75,7 @@ Third-party CAP directories may help discover a candidate or cross-check a resul
 
 ### 3.2 Comune coverage for a CAP
 
-The purpose of this check is to establish the complete set of Comuni associated with the CAP, not to select one serving post office.
+The purpose of this check is to establish the complete set of Comuni associated with the CAP, not to select or investigate a serving post office. Branch operations and delivery arrangements are explicitly out of scope.
 
 1. Verify the current CAP assignment and its geographic scope using Poste Italiane's published CAP information and other competent postal evidence.
 2. Identify the Comuni physically covered by that CAP using current ISTAT identities and reliable address/locality evidence.
@@ -220,7 +220,7 @@ Use the authority competent for the specific claim. No single institution is aut
 
 ### 7.1 Postal and administrative sources
 
-- **Poste Italiane:** current CAP system, published CAP assignments, urban CAP zones, postal service and serving-office information where available.
+- **Poste Italiane:** current CAP system, published CAP assignments and urban CAP zones only.
 - **ISTAT:** official Comune names/codes, current Regione and intermediate territorial classifications, statistical/administrative relationships, current territorial reference data and SITUAS resources.
 - **ANNCSU:** street names, civic numbers and address records; geographic positioning where supplied. Coverage and coordinate completeness depend on municipal submissions and updates. Missing data is not proof that a place does not exist. ANNCSU does not itself define CAP boundaries.
 - **Official Regions and Comuni:** locally recognised frazioni/località, municipal subdivisions, place names, local geographic information and administrative documentation.
@@ -273,7 +273,7 @@ Do not invent source titles, URLs, release dates or evidence. Do not introduce s
 
 Follow this workflow for every CAP:
 
-**READ → IDENTIFY POST OFFICE → VERIFY ADMINISTRATION → MAP THE FULL CAP AREA → DISCOVER → THEMATIC GAP AUDIT → GEOGRAPHIC CHECK → EDITORIAL REVIEW → ASSIGN FACTS → LOCATE MAP POINTS → TRANSLATE → VALIDATE → SAVE ONLY THROUGH AN APPROVED ITALIAN WORKFLOW → NEXT**
+**READ → VERIFY CAP ASSIGNMENT → VERIFY ADMINISTRATION → MAP THE FULL CAP AREA → DISCOVER → THEMATIC GAP AUDIT → GEOGRAPHIC CHECK → EDITORIAL REVIEW → ASSIGN FACTS → LOCATE MAP POINTS → TRANSLATE → VALIDATE → SAVE ONLY THROUGH AN APPROVED ITALIAN WORKFLOW → NEXT**
 
 ### 8.1 Load common documents once
 
@@ -617,7 +617,7 @@ A CAP is complete only when all applicable checks below pass.
 - [ ] The complete defensible set of Comuni associated with the CAP has been identified from appropriate evidence.
 - [ ] `city` lists all those Comuni using current ISTAT names, separated by commas; no arbitrary single Comune has been selected.
 - [ ] `county` and `state` reflect all applicable current intermediate territorial units and Regioni.
-- [ ] No exclusive serving post office has been invented or made a prerequisite when the postal authority does not designate one.
+- [ ] No post-office operator, branch status, opening hours, service catalogue or delivery arrangement has been researched or included; only the CAP assignment itself is verified.
 - [ ] `district` is used only for a genuinely relevant sub-municipal locality, or is null.
 
 ### Full geographic coverage
