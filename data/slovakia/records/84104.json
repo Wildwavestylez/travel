@@ -1,4 +1,383 @@
 {
   "postcode": "84104",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Karlova Ves",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Karlova Ves – historické jadro a Karloveská zátoka",
+  "representative_point": {
+    "lat": 48.15783,
+    "lon": 17.05407
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Botanická zahrada UK – první univerzitní botanická zahrada na Slovensku",
+      "text": "Botanická zahrada Univerzity Komenského v Karlově Vsi vznikla v roce 1942 a stala se první botanickou zahradou na Slovensku vybudovanou při univerzitě. Její založení inicioval botanik František Nábělek; základem se stal starší park u vily Lanfranconi, kterou si nechal postavit italský odborník na vodní stavby Grazioso Enea Lanfranconi. Zahrada se naplno začala rozvíjet až po druhé světové válce. Dnes na ploše přibližně 7,5 hektaru uchovává více než 5 000 druhů rostlin z různých částí světa, včetně tropických a subtropických druhů ve sklenících. Vedle vědecké a pedagogické práce slouží také veřejnosti jako zelená oáza u Dunaje.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://slovakia.travel/botanicka-zahrada-bratislava",
+        "https://www.karlovaves.sk/karlova-ves/zaujimave-miesta/",
+        "https://www.karlovaves.sk/karlova-ves/historia/"
+      ],
+      "map_category": "park_garden",
+      "location": {
+        "name": "Botanická záhrada Univerzity Komenského",
+        "address": "Botanická 3, 841 04 Bratislava, Slovensko",
+        "lat": 48.147222,
+        "lon": 17.073611,
+        "type": "garden",
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/botanicka-zahrada-bratislava"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Karlova Ves – někdejší vinařská vesnice, kterou pohltila moderní výstavba",
+      "text": "Karlova Ves byla po staletí samostatnou venkovskou obcí na území někdejšího devínského panství. Nejstarší písemná zmínka se objevuje v donační listině uherského krále Ladislava IV. z roku 1288; starší název území zněl Suchá Vydrica. Obyvatelé se živili především vinařstvím, ovocnářstvím, rybolovem v dunajských ramenech a prací v lesích. Po připojení k Bratislavě ve 40. letech 20. století se původní vesnice začala rychle měnit. Od roku 1964 vyrůstala na jejím území rozsáhlá panelová výstavba a poslední obyvatelé staré zástavby se do nových domů stěhovali v roce 1969. Původní vesnický obraz s vinohrady a sady tak z velké části zmizel, jeho dějiny však dodnes připomínají místní pamětihodnosti a názvy ulic.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_bd0e07de-c6c6-4d53-b0a3-5d647374fffd",
+        "https://www.karlovaves.sk/karlova-ves/historia/",
+        "https://www.karlovaves.sk/karlova-ves/pamatihodnosti/"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické území Karlovej Vsi – okolí kostela sv. Michala",
+        "address": "Karloveská ulica, 841 04 Bratislava, Slovensko",
+        "lat": 48.151052,
+        "lon": 17.061821,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.karlovaves.sk/karlova-ves/historia/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel svatého Michala vyrostl z kaple z konce 18. století",
+      "text": "Staré jádro Karlovy Vsi připomíná kostel svatého Michala archanděla, který stojí na místě pozdně barokní kaple svatého Jana Nepomuckého z konce 18. století. Místní obyvatelé kapli v roce 1935 rozšířili a modernizovali a nově upravený kostel zasvětili svatému Michalovi. Jeho věž uchovává dva pozoruhodné zvony: menší odlil v roce 1796 Johann Christelli z významné bratislavské zvonařské rodiny, větší pochází z roku 1860 a kostelu jej věnovali Karlovešťané Mathias Lučanič a František Müller. Kostel tak spojuje sakrální dějiny původní vinařské obce s její proměnou v městskou část Bratislavy.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.karlovaves.sk/karlova-ves/historia/",
+        "https://www.karlovaves.sk/karlova-ves/pamatihodnosti/",
+        "https://www.spiritualheritage.eu/body-zaujmu/farsky-kostol-sv-michala.html",
+        "https://zastupitelstvo.bratislava.sk/data/att/51841.pdf"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostol svätého Michala archanjela, Karloveská",
+        "address": "Karloveská 3C, 841 04 Bratislava, Slovensko",
+        "lat": 48.151052,
+        "lon": 17.061821,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.spiritualheritage.eu/body-zaujmu/farsky-kostol-sv-michala.html"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Karloveská zátoka – vodácká tradice a chráněná historická loděnice",
+      "text": "Karloveská zátoka a rameno Dunaje patří k nejvýraznějším místům bratislavské vodácké tradice. První písemná zmínka o Kajak Klubu Bratislava pochází z roku 1932 a jeho loděnice se začala stavět v roce 1933. V zátoce později působily další kluby včetně Vodáckého klubu Tatran Karlova Ves, jehož dřevěná loděnice na Botanické ulici byla v roce 2007 prohlášena za národní kulturní památku. Budova slouží jako zázemí vodáckého klubu a připomíná dobu, kdy se v této části Dunaje rozvíjela organizovaná kanoistika a vodní turistika. Vedle historické loděnice vznikla v roce 2019 také nová Karloveská loděnice, která byla nominována do užšího výběru architektonické ceny CE ZA AR 2020. Samotné Karloveské rameno je součástí evropsky významného území Dunajské luhy a zůstává živým přírodním i sportovním prostorem.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.karlovaves.sk/karlova-ves/zaujimave-miesta/",
+        "https://www.karlovaves.sk/wp-content/uploads/2026/01/01_A1_UP_Z_Navrh_Textova_cast_Smerna_cast.pdf",
+        "https://www.karlovaves.sk/wp-content/uploads/2026/01/02_A2_UP_Z_Navrh_Textova_cast_Zavazna_cast.pdf",
+        "https://old.canoe.sk/index.php?go=oddiely",
+        "https://www.karlovaves.sk/sport/sportove-kluby/",
+        "https://zastupitelstvo.bratislava.sk/data/att/51847.pdf"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Historická loděnice VK Tatran – Karloveská zátoka",
+        "address": "Botanická 11, 841 04 Bratislava, Slovensko",
+        "lat": 48.146249,
+        "lon": 17.066285,
+        "type": "architectural_ensemble",
+        "accuracy": "approximate",
+        "source": "https://zastupitelstvo.bratislava.sk/data/att/51847.pdf"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální technické parametry Slovenské pošty uvádějí rozsah PSČ 841 04–841 05 pod vybranou poštou Bratislava 4. Fyzická adresa pobočky Bratislava 4 je Karloveská 34 v městské části Karlova Ves; adresu potvrzuje seznam prodejních míst POFIS a další poštovní přehledy. Pobočka používá vlastní provozní PSČ 840 00, což se nesmí zaměnit s doručovacími PSČ 841 04–841 05.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok; doplňkově veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO",
+    "postcode_source_release": "Kontrola 21. 11. 2026; RAGEO-odvozený dataset připnutý na commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 841 04 je v oficiálních technických parametrech Slovenské pošty přiřazeno k vybrané poště Bratislava 4. Pobočka Bratislava 4 sídlí na Karloveské 34 v městské části Karlova Ves, avšak její vlastní provozní PSČ je 840 00. Proto je city Bratislava a district Karlova Ves; PSČ pobočky se nepřebírá jako PSČ doručovací oblasti.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO uvádí pro PSČ 84104 celkem 1489 adresních bodů ve třech městských částech: Karlova Ves 1425, Devín 60 a Lamač 4. Souhrnný bod je 48.15783, 17.05407; obalový rozsah 48.14503–48.17571 N a 17.02570–17.07644 E není hranicí doručovací oblasti. Všechny tři části leží v Bratislavě IV a Bratislavském kraji. Jednotlivé kulturní a přírodní lokality byly geolokačně ověřeny samostatnými zdroji."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, příloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "title": "POFIS – prodejní místa na poštách, adresa pobočky Bratislava 4",
+      "url": "https://www.pofis.sk/informacie/kontakty",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – informace o městské části Bratislava-Karlova Ves",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_bd0e07de-c6c6-4d53-b0a3-5d647374fffd",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Karlova Ves – História",
+      "url": "https://www.karlovaves.sk/karlova-ves/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Karlova Ves – Pamätihodnosti",
+      "url": "https://www.karlovaves.sk/karlova-ves/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia.travel – Botanická záhrada Bratislava, historie, GPS a návštěvnické informace",
+      "url": "https://slovakia.travel/botanicka-zahrada-bratislava",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Karlova Ves – Zaujímavé miesta: Botanická záhrada, zoologická záhrada a Karloveské rameno",
+      "url": "https://www.karlovaves.sk/karlova-ves/zaujimave-miesta/",
+      "type": "official"
+    },
+    {
+      "title": "Spiritual Heritage – Farský kostol sv. Michala, historie a GPS",
+      "url": "https://www.spiritualheritage.eu/body-zaujmu/farsky-kostol-sv-michala.html",
+      "type": "specialist"
+    },
+    {
+      "title": "Hlavné mesto Bratislava – evidenčný list pamätihodnosti KaV-1A-1, kostol sv. Michala",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/51841.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Hlavné mesto Bratislava – evidenčný list pamätihodnosti KaV-1A-9, loděnice v Karloveské zátoce",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/51847.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Karlova Ves – Územný plán zóny Karloveská zátoka, návrhová část",
+      "url": "https://www.karlovaves.sk/wp-content/uploads/2026/01/01_A1_UP_Z_Navrh_Textova_cast_Smerna_cast.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská kanoistika – Vodácky klub Tatran Karlova Ves",
+      "url": "https://www.canoe.sk/sk/hladka-voda/hladka-voda-sekcia-hv/hladka-voda-sekcia-hv--kluby/hladka-voda-sekcia-hv--kluby-05-vin--krk-vinohrady-bratislava/hladka-voda-sekcia-hv--kluby-kul--kultsot-oz/hladka-voda-sekcia-hv--kluby-02-tat-vodacky-klub-tatran-karlova-ves-bratislava",
+      "type": "official"
+    },
+    {
+      "title": "Register neziskových organizácií MV SR – sídlo Vodáckého klubu Tatran Karlova Ves",
+      "url": "https://ives.minv.sk/rmno/data/kn/13542111367434696702",
+      "type": "official"
+    },
+    {
+      "title": "Bratislava – Prehľad zariadení a kapacít športu a rekreácie, loděnice v Karlovej Vsi",
+      "url": "https://cdn-api.bratislava.sk/strapi-homepage/upload/UGSR_03_Zariadenia_Prehlad_07_2008_d066f42204.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovak postal codes – veřejný CC0 dataset odvozený z RAGEO, adresní body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "title": "Slovak postal codes – souhrn PSČ, reprezentativní bod a obalový rozsah",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Karlova Ves – historické jadro a Karloveská zátoka",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Botanická zahrada UK – první univerzitní botanická zahrada na Slovensku",
+          "text": "Botanická zahrada Univerzity Komenského v Karlově Vsi vznikla v roce 1942 a stala se první botanickou zahradou na Slovensku vybudovanou při univerzitě. Její založení inicioval botanik František Nábělek; základem se stal starší park u vily Lanfranconi, kterou si nechal postavit italský odborník na vodní stavby Grazioso Enea Lanfranconi. Zahrada se naplno začala rozvíjet až po druhé světové válce. Dnes na ploše přibližně 7,5 hektaru uchovává více než 5 000 druhů rostlin z různých částí světa, včetně tropických a subtropických druhů ve sklenících. Vedle vědecké a pedagogické práce slouží také veřejnosti jako zelená oáza u Dunaje."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves – někdejší vinařská vesnice, kterou pohltila moderní výstavba",
+          "text": "Karlova Ves byla po staletí samostatnou venkovskou obcí na území někdejšího devínského panství. Nejstarší písemná zmínka se objevuje v donační listině uherského krále Ladislava IV. z roku 1288; starší název území zněl Suchá Vydrica. Obyvatelé se živili především vinařstvím, ovocnářstvím, rybolovem v dunajských ramenech a prací v lesích. Po připojení k Bratislavě ve 40. letech 20. století se původní vesnice začala rychle měnit. Od roku 1964 vyrůstala na jejím území rozsáhlá panelová výstavba a poslední obyvatelé staré zástavby se do nových domů stěhovali v roce 1969. Původní vesnický obraz s vinohrady a sady tak z velké části zmizel, jeho dějiny však dodnes připomínají místní pamětihodnosti a názvy ulic."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel svatého Michala vyrostl z kaple z konce 18. století",
+          "text": "Staré jádro Karlovy Vsi připomíná kostel svatého Michala archanděla, který stojí na místě pozdně barokní kaple svatého Jana Nepomuckého z konce 18. století. Místní obyvatelé kapli v roce 1935 rozšířili a modernizovali a nově upravený kostel zasvětili svatému Michalovi. Jeho věž uchovává dva pozoruhodné zvony: menší odlil v roce 1796 Johann Christelli z významné bratislavské zvonařské rodiny, větší pochází z roku 1860 a kostelu jej věnovali Karlovešťané Mathias Lučanič a František Müller. Kostel tak spojuje sakrální dějiny původní vinařské obce s její proměnou v městskou část Bratislavy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Karloveská zátoka – vodácká tradice a chráněná historická loděnice",
+          "text": "Karloveská zátoka a rameno Dunaje patří k nejvýraznějším místům bratislavské vodácké tradice. První písemná zmínka o Kajak Klubu Bratislava pochází z roku 1932 a jeho loděnice se začala stavět v roce 1933. V zátoce později působily další kluby včetně Vodáckého klubu Tatran Karlova Ves, jehož dřevěná loděnice na Botanické ulici byla v roce 2007 prohlášena za národní kulturní památku. Budova slouží jako zázemí vodáckého klubu a připomíná dobu, kdy se v této části Dunaje rozvíjela organizovaná kanoistika a vodní turistika. Vedle historické loděnice vznikla v roce 2019 také nová Karloveská loděnice, která byla nominována do užšího výběru architektonické ceny CE ZA AR 2020. Samotné Karloveské rameno je součástí evropsky významného území Dunajské luhy a zůstává živým přírodním i sportovním prostorem."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Karlova Ves – historischer Ortskern und Karloveská-Bucht",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Der Botanische Garten der Comenius-Universität – der erste Universitätsbotanische Garten der Slowakei",
+          "text": "Der Botanische Garten der Comenius-Universität in Karlova Ves wurde 1942 gegründet und war der erste botanische Garten der Slowakei, der an einer Universität entstand. Die Gründung ging auf den Botaniker František Nábělek zurück. Als Grundlage diente ein älterer Park bei der Villa Lanfranconi, die der italienische Wasserbauingenieur Grazioso Enea Lanfranconi errichten ließ. Seine eigentliche Entwicklung begann erst nach dem Zweiten Weltkrieg. Heute bewahrt der Garten auf rund 7,5 Hektar mehr als 5.000 Pflanzenarten aus verschiedenen Weltregionen, darunter tropische und subtropische Arten in Gewächshäusern. Neben Forschung und Lehre ist er auch eine grüne Oase am Donauufer für die Öffentlichkeit."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves – ein ehemaliges Weinbaudorf, das von der modernen Stadtentwicklung überformt wurde",
+          "text": "Karlova Ves war jahrhundertelang eine eigenständige ländliche Gemeinde auf dem Gebiet der ehemaligen Herrschaft Devín. Die älteste schriftliche Erwähnung findet sich in einer Schenkungsurkunde König Ladislaus’ IV. von Ungarn aus dem Jahr 1288; eine ältere Bezeichnung des Gebiets war Suchá Vydrica. Die Einwohner lebten vor allem vom Weinbau, Obstbau, Fischfang in den Donauarmen und von der Waldarbeit. Nach der Eingemeindung nach Bratislava in den 1940er-Jahren veränderte sich das Dorf rasch. Ab 1964 entstanden großflächige Plattenbausiedlungen, und 1969 zogen die letzten Bewohner aus der alten Bebauung in neue Wohnhäuser um. Das frühere Dorf mit seinen Weinbergen und Obstgärten verschwand weitgehend; örtliche Denkmäler und Straßennamen bewahren jedoch seine Geschichte."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Michaelskirche entstand aus einer Kapelle des späten 18. Jahrhunderts",
+          "text": "An den alten Ortskern von Karlova Ves erinnert die Erzengel-Michaelskirche, die an der Stelle einer spätbarocken Kapelle des heiligen Johannes Nepomuk aus dem späten 18. Jahrhundert steht. Die Einwohner erweiterten und modernisierten die Kapelle 1935 und weihten die umgestaltete Kirche dem heiligen Michael. Ihr Turm beherbergt zwei bemerkenswerte Glocken: Die kleinere wurde 1796 von Johann Christelli aus einer bedeutenden Pressburger Glockengießerfamilie gegossen; die größere stammt aus dem Jahr 1860 und wurde der Kirche von den Einwohnern Mathias Lučanič und František Müller gestiftet. Die Kirche verbindet damit die sakrale Geschichte des früheren Weinbaudorfes mit seiner Entwicklung zum Stadtteil von Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Karloveská-Bucht – Wassersporttradition und eine geschützte historische Bootshalle",
+          "text": "Die Karloveská-Bucht und der Donauarm gehören zu den wichtigsten Orten der Bratislavaer Wassersporttradition. Die erste schriftliche Erwähnung des Kajak-Klubs Bratislava stammt aus dem Jahr 1932; mit dem Bau seines Bootshauses wurde 1933 begonnen. Später waren in der Bucht weitere Vereine aktiv, darunter der Wassersportverein Tatran Karlova Ves. Dessen hölzernes Bootshaus in der Botanická-Straße wurde 2007 zum nationalen Kulturdenkmal erklärt. Das Gebäude dient dem Verein als Basis und erinnert an die Entwicklung des organisierten Kanu- und Wasserwandersports an diesem Donauabschnitt. Neben dem historischen Bootshaus entstand 2019 auch ein neues Karloveská-Bootshaus, das 2020 in die engere Auswahl des Architekturpreises CE ZA AR aufgenommen wurde. Der Donauarm selbst gehört zum europäischen Schutzgebiet Dunajské luhy und ist bis heute ein lebendiger Natur- und Sportraum."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Karlova Ves – historic centre and Karloveská Bay",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Comenius University Botanical Garden – Slovakia’s first university botanical garden",
+          "text": "The Botanical Garden of Comenius University in Karlova Ves was founded in 1942 and became the first botanical garden in Slovakia established at a university. Its creation was initiated by botanist František Nábělek. The garden grew from an older park around Villa Lanfranconi, built by Italian water-engineering specialist Grazioso Enea Lanfranconi. Its development gained momentum only after the Second World War. Today, the approximately 7.5-hectare garden maintains more than 5,000 plant species from around the world, including tropical and subtropical collections in greenhouses. Alongside research and teaching, it is a green retreat by the Danube open to the public."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves – a former wine-growing village transformed by modern urban development",
+          "text": "For centuries, Karlova Ves was an independent rural settlement within the former Devín estate. Its earliest written mention appears in a donation charter of King Ladislaus IV of Hungary from 1288; the area was once known as Suchá Vydrica. Residents traditionally made their living from vineyards, fruit growing, fishing in the Danube’s side channels and forestry. After Karlova Ves was incorporated into Bratislava in the 1940s, the old village began to change rapidly. Large prefabricated housing estates were built from 1964, and the last residents of the old village moved into new apartment blocks in 1969. Much of the former village landscape of vineyards and orchards disappeared, but local heritage sites and street names still preserve its story."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of St Michael grew out of a late-18th-century chapel",
+          "text": "The old centre of Karlova Ves is marked by the Church of St Michael the Archangel, built on the site of a late-Baroque chapel dedicated to St John of Nepomuk from the late 18th century. Local residents enlarged and modernised the chapel in 1935 and rededicated the church to St Michael. Its tower holds two notable bells: the smaller was cast in 1796 by Johann Christelli, a member of a prominent Bratislava bell-founding family; the larger dates from 1860 and was donated by local residents Mathias Lučanič and František Müller. The church links the religious history of the former wine-growing village with its transformation into a district of Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "Karloveská Bay – a water-sports tradition and a protected historic boathouse",
+          "text": "Karloveská Bay and its Danube channel are among the key places in Bratislava’s water-sports tradition. The first written reference to the Bratislava Kayak Club dates from 1932, and construction of its boathouse began in 1933. Other clubs later became active in the bay, including the Tatran Karlova Ves Water Sports Club. Its wooden boathouse on Botanická Street was declared a national cultural monument in 2007. The building serves as the club’s base and recalls the development of organised canoeing and water touring on this stretch of the Danube. A new Karloveská boathouse was also built in 2019 and was shortlisted for the CE ZA AR architecture award in 2020. The Danube channel itself forms part of the Dunajské luhy European site of community importance and remains a lively natural and sporting area."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Karlova Ves – centro histórico y bahía de Karloveská",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "El Jardín Botánico de la Universidad Comenius, el primero de carácter universitario en Eslovaquia",
+          "text": "El Jardín Botánico de la Universidad Comenius, en Karlova Ves, se fundó en 1942 y se convirtió en el primer jardín botánico de Eslovaquia creado junto a una universidad. Su creación fue impulsada por el botánico František Nábělek. El punto de partida fue un antiguo parque alrededor de la villa Lanfranconi, construida por el especialista italiano en obras hidráulicas Grazioso Enea Lanfranconi. El jardín empezó a desarrollarse plenamente después de la Segunda Guerra Mundial. Hoy conserva más de 5.000 especies vegetales de distintas partes del mundo en una superficie aproximada de 7,5 hectáreas, incluidas colecciones tropicales y subtropicales en invernaderos. Además de su labor científica y educativa, es un espacio verde abierto al público junto al Danubio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves, un antiguo pueblo vitícola transformado por la expansión urbana",
+          "text": "Durante siglos, Karlova Ves fue una comunidad rural independiente dentro del antiguo señorío de Devín. Su primera mención escrita conocida aparece en una carta de donación del rey húngaro Ladislao IV de 1288; el territorio también se conocía como Suchá Vydrica. Sus habitantes vivían principalmente de la viticultura, la fruticultura, la pesca en los brazos del Danubio y el trabajo forestal. Tras su incorporación a Bratislava en la década de 1940, el antiguo pueblo comenzó a transformarse rápidamente. Desde 1964 se construyeron grandes conjuntos de bloques de viviendas y los últimos vecinos de la antigua aldea se trasladaron a los nuevos edificios en 1969. Gran parte del paisaje de viñedos y huertos desapareció, aunque los monumentos y nombres de calles locales conservan su memoria."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de San Miguel nació de una capilla de finales del siglo XVIII",
+          "text": "El antiguo núcleo de Karlova Ves está marcado por la iglesia del arcángel San Miguel, construida en el lugar de una capilla barroca tardía dedicada a San Juan Nepomuceno, levantada a finales del siglo XVIII. En 1935 los vecinos ampliaron y modernizaron la capilla y dedicaron la iglesia renovada a San Miguel. Su torre conserva dos campanas destacadas: la menor fue fundida en 1796 por Johann Christelli, miembro de una conocida familia de fundidores de campanas de Bratislava; la mayor data de 1860 y fue donada por los vecinos Mathias Lučanič y František Müller. La iglesia une la historia religiosa del antiguo pueblo vitícola con su transformación en distrito de Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "La bahía de Karloveská, tradición náutica y un cobertizo histórico protegido",
+          "text": "La bahía de Karloveská y su brazo del Danubio son lugares destacados de la tradición de deportes acuáticos de Bratislava. La primera referencia escrita al Club de Kayak de Bratislava data de 1932 y la construcción de su cobertizo para embarcaciones comenzó en 1933. Más tarde se instalaron en la bahía otros clubes, entre ellos el Club Náutico Tatran Karlova Ves. Su cobertizo de madera en la calle Botanická fue declarado monumento cultural nacional en 2007. El edificio sirve de base al club y recuerda el desarrollo del piragüismo organizado y del turismo náutico en este tramo del Danubio. Junto al edificio histórico se construyó en 2019 una nueva instalación náutica de Karloveská, seleccionada en 2020 para la lista corta del premio de arquitectura CE ZA AR. El brazo del Danubio forma parte del espacio europeo protegido Dunajské luhy y sigue siendo un entorno natural y deportivo activo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Karlova Ves – centre historique et baie de Karloveská",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le jardin botanique de l’Université Comenius, premier jardin botanique universitaire de Slovaquie",
+          "text": "Le jardin botanique de l’Université Comenius, à Karlova Ves, a été fondé en 1942 et est devenu le premier jardin botanique de Slovaquie créé auprès d’une université. Sa création fut lancée par le botaniste František Nábělek. Il s’est développé à partir d’un ancien parc entourant la villa Lanfranconi, construite par le spécialiste italien des ouvrages hydrauliques Grazioso Enea Lanfranconi. Son développement réel n’a pris son essor qu’après la Seconde Guerre mondiale. Aujourd’hui, sur environ 7,5 hectares, le jardin conserve plus de 5 000 espèces végétales du monde entier, dont des collections tropicales et subtropicales sous serre. En plus de ses activités scientifiques et pédagogiques, il constitue une oasis de verdure ouverte au public près du Danube."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves, ancien village viticole transformé par l’urbanisation moderne",
+          "text": "Pendant des siècles, Karlova Ves fut une commune rurale indépendante sur le territoire de l’ancien domaine de Devín. Sa plus ancienne mention écrite connue figure dans un acte de donation du roi hongrois Ladislas IV datant de 1288 ; le territoire portait autrefois le nom de Suchá Vydrica. Les habitants vivaient principalement de la viticulture, de l’arboriculture, de la pêche dans les bras du Danube et du travail forestier. Après son rattachement à Bratislava dans les années 1940, l’ancien village a rapidement changé. De grands ensembles d’immeubles préfabriqués ont été construits à partir de 1964 et les derniers habitants de l’ancien bâti ont emménagé dans les nouveaux logements en 1969. Une grande partie du paysage de vignobles et de vergers a disparu, mais les monuments et les noms de rues en conservent la mémoire."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Michel est née d’une chapelle de la fin du XVIIIe siècle",
+          "text": "Le vieux centre de Karlova Ves est marqué par l’église de l’archange Saint-Michel, construite à l’emplacement d’une chapelle baroque tardive dédiée à saint Jean Népomucène et datant de la fin du XVIIIe siècle. En 1935, les habitants agrandirent et modernisèrent la chapelle, puis dédièrent l’église transformée à saint Michel. Son clocher abrite deux cloches remarquables : la plus petite fut fondue en 1796 par Johann Christelli, membre d’une importante famille de fondeurs de cloches de Bratislava ; la plus grande date de 1860 et fut offerte par les habitants Mathias Lučanič et František Müller. L’église relie ainsi l’histoire religieuse de l’ancien village viticole à sa transformation en quartier de Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "La baie de Karloveská, tradition nautique et hangar historique protégé",
+          "text": "La baie de Karloveská et son bras du Danube comptent parmi les lieux majeurs de la tradition des sports nautiques de Bratislava. La première mention écrite du club de kayak de Bratislava date de 1932 et la construction de son hangar à bateaux a commencé en 1933. D’autres clubs se sont ensuite installés dans la baie, notamment le club nautique Tatran Karlova Ves. Son hangar en bois, rue Botanická, a été déclaré monument culturel national en 2007. Le bâtiment sert de base au club et rappelle le développement du canoë organisé et du tourisme nautique sur cette partie du Danube. Un nouveau hangar nautique de Karloveská a également été construit en 2019 et présélectionné pour le prix d’architecture CE ZA AR 2020. Le bras du Danube fait lui-même partie du site européen d’importance communautaire Dunajské luhy et reste un espace naturel et sportif vivant."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Karlova Ves – centro storico e baia di Karloveská",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’Orto botanico dell’Università Comenio, il primo orto botanico universitario della Slovacchia",
+          "text": "L’Orto botanico dell’Università Comenio, a Karlova Ves, fu fondato nel 1942 e divenne il primo orto botanico della Slovacchia istituito presso un’università. La sua creazione fu promossa dal botanico František Nábělek. Il nucleo iniziale era un vecchio parco attorno a Villa Lanfranconi, fatta costruire dallo specialista italiano di opere idrauliche Grazioso Enea Lanfranconi. Lo sviluppo vero e proprio prese slancio soltanto dopo la Seconda guerra mondiale. Oggi, su circa 7,5 ettari, il giardino conserva oltre 5.000 specie vegetali provenienti da diverse parti del mondo, comprese collezioni tropicali e subtropicali nelle serre. Oltre alle attività scientifiche e didattiche, è un’oasi verde aperta al pubblico sulle rive del Danubio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves, antico villaggio viticolo trasformato dall’espansione urbana",
+          "text": "Per secoli Karlova Ves fu un comune rurale indipendente nel territorio dell’antica signoria di Devín. La prima menzione scritta conosciuta compare in un atto di donazione del re ungherese Ladislao IV del 1288; il territorio era un tempo noto anche come Suchá Vydrica. Gli abitanti vivevano soprattutto di viticoltura, frutticoltura, pesca nei rami del Danubio e lavoro nei boschi. Dopo l’annessione a Bratislava negli anni Quaranta del Novecento, il vecchio villaggio cambiò rapidamente. Dal 1964 furono costruiti grandi complessi di edifici prefabbricati e nel 1969 gli ultimi residenti del nucleo antico si trasferirono nei nuovi appartamenti. Gran parte del paesaggio di vigneti e frutteti scomparve, ma i monumenti e i nomi delle strade locali ne conservano ancora la memoria."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Michele nacque da una cappella della fine del XVIII secolo",
+          "text": "Il centro storico di Karlova Ves è caratterizzato dalla chiesa dell’arcangelo San Michele, costruita sul luogo di una cappella tardobarocca dedicata a San Giovanni Nepomuceno e risalente alla fine del XVIII secolo. Nel 1935 gli abitanti ampliarono e modernizzarono la cappella e dedicarono la chiesa rinnovata a San Michele. La torre conserva due campane notevoli: la più piccola fu fusa nel 1796 da Johann Christelli, membro di una rinomata famiglia di fonditori di campane di Bratislava; la più grande risale al 1860 e fu donata dagli abitanti Mathias Lučanič e František Müller. La chiesa collega così la storia religiosa dell’antico villaggio viticolo alla sua trasformazione in quartiere di Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "La baia di Karloveská, tradizione nautica e un rimessaggio storico tutelato",
+          "text": "La baia di Karloveská e il suo ramo del Danubio sono tra i luoghi più importanti della tradizione degli sport acquatici di Bratislava. La prima menzione scritta del Kajak Klub Bratislava risale al 1932 e la costruzione del suo rimessaggio per imbarcazioni iniziò nel 1933. In seguito nella baia operarono altri club, tra cui il Vodácky klub Tatran Karlova Ves. Il suo edificio ligneo in via Botanická è stato dichiarato monumento culturale nazionale nel 2007. La struttura funge da base del club e ricorda lo sviluppo della canoa organizzata e del turismo fluviale su questo tratto del Danubio. Accanto al rimessaggio storico, nel 2019 è stato costruito anche un nuovo edificio nautico di Karloveská, inserito nel 2020 nella rosa dei finalisti del premio di architettura CE ZA AR. Il ramo del Danubio fa parte dell’area europea di importanza comunitaria Dunajské luhy e rimane uno spazio naturale e sportivo vitale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Karlova Ves – historisch centrum en de baai van Karloveská",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Botanische Tuin van de Comeniusuniversiteit – de eerste universitaire botanische tuin van Slowakije",
+          "text": "De Botanische Tuin van de Comeniusuniversiteit in Karlova Ves werd in 1942 opgericht en was de eerste botanische tuin in Slowakije die bij een universiteit werd aangelegd. De oprichting werd geïnitieerd door botanicus František Nábělek. De basis was een ouder park rond Villa Lanfranconi, gebouwd in opdracht van de Italiaanse waterbouwkundige Grazioso Enea Lanfranconi. De eigenlijke ontwikkeling kwam pas na de Tweede Wereldoorlog op gang. Tegenwoordig herbergt de tuin op ongeveer 7,5 hectare meer dan 5.000 plantensoorten uit verschillende delen van de wereld, waaronder tropische en subtropische collecties in kassen. Naast onderzoek en onderwijs is het een groene plek aan de Donau die toegankelijk is voor het publiek."
+        },
+        {
+          "id": "fact_002",
+          "title": "Karlova Ves – een voormalig wijndorp dat door moderne stadsuitbreiding veranderde",
+          "text": "Karlova Ves was eeuwenlang een zelfstandige plattelandsgemeente op het grondgebied van het voormalige landgoed Devín. De oudste bekende schriftelijke vermelding staat in een schenkingsakte van de Hongaarse koning Ladislaus IV uit 1288; het gebied werd vroeger ook Suchá Vydrica genoemd. De inwoners leefden vooral van wijnbouw, fruitteelt, visserij in de Donauarmen en bosarbeid. Na de aansluiting bij Bratislava in de jaren veertig veranderde het oude dorp snel. Vanaf 1964 verrezen er grote woonwijken met prefabflats en in 1969 verhuisden de laatste bewoners van de oude bebouwing naar nieuwe appartementen. Een groot deel van het vroegere landschap met wijngaarden en boomgaarden verdween, maar plaatselijke monumenten en straatnamen bewaren de herinnering."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Michaëlskerk ontstond uit een kapel uit het einde van de achttiende eeuw",
+          "text": "Het oude centrum van Karlova Ves wordt gekenmerkt door de kerk van de aartsengel Sint-Michaël, gebouwd op de plek van een laatbarokke kapel gewijd aan Sint-Jan van Nepomuk uit het einde van de achttiende eeuw. De inwoners vergrootten en moderniseerden de kapel in 1935 en wijdden de vernieuwde kerk aan Sint-Michaël. De toren bevat twee bijzondere klokken: de kleinere werd in 1796 gegoten door Johann Christelli, lid van een bekende klokkengietersfamilie uit Bratislava; de grotere dateert uit 1860 en werd geschonken door de inwoners Mathias Lučanič en František Müller. De kerk verbindt zo de religieuze geschiedenis van het voormalige wijndorp met zijn ontwikkeling tot stadsdeel van Bratislava."
+        },
+        {
+          "id": "fact_004",
+          "title": "De baai van Karloveská – watersporttraditie en een beschermd historisch botenhuis",
+          "text": "De baai van Karloveská en de Donauarm behoren tot de belangrijkste plekken van de watersporttraditie in Bratislava. De eerste schriftelijke vermelding van de Kajak Klub Bratislava dateert uit 1932 en de bouw van het botenhuis begon in 1933. Later waren er meer clubs actief in de baai, waaronder de watersportvereniging Tatran Karlova Ves. Het houten botenhuis aan de Botanická-straat werd in 2007 uitgeroepen tot nationaal cultureel monument. Het gebouw dient als uitvalsbasis van de club en herinnert aan de ontwikkeling van het georganiseerde kanoën en de watertoeristiek op dit deel van de Donau. Naast het historische botenhuis werd in 2019 ook een nieuw Karloveská-botenhuis gebouwd, dat in 2020 op de shortlist van de architectuurprijs CE ZA AR terechtkwam. De Donauarm maakt deel uit van het Europese beschermde gebied Dunajské luhy en blijft een levendige natuurlijke en sportieve ruimte."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
