@@ -584,6 +584,23 @@ GitHub stores versioned schemas, standards, prompts, sequence and supporting doc
 - After every write, perform a fresh read-back from Neon. Verify the exact postcode, full saved JSON record and database `workflow_status`. Do not expect or add root-level JSON `status` or `data_version`; these are not part of the shared Czechia/Italy record schema.
 - Use only the established, authorised Neon connection. Never expose credentials or add write access to the Explorer client.
 
+### Automatic correction authority within an explicitly requested scope
+
+When the user explicitly asks to rework or audit an existing CAP or CAP range, that request authorises the agent to save confirmed, safe corrections to the existing production rows within that exact scope. **Do not ask for separate approval for each ordinary correction, fact or language.**
+
+This includes:
+- correcting demonstrably wrong, copied, missing, empty, truncated, corrupted or mistranslated `translations[lang].facts[].title/text` values;
+- creating a correct independent translation from the Italian master when one or more language fields contain another language's text;
+- ensuring `translations.it` exactly mirrors the Italian master `facts[].title/text`;
+- correcting clear spelling, grammar, agreement, punctuation and transliteration errors in translations;
+- correcting other objectively verifiable, low-risk record errors when the applicable prompt explicitly permits that class of correction.
+
+For translations, match exclusively by stable fact ID, preserve the exact fact meaning, names, dates, nuance and uncertainty, and retain a correct existing translation (including Dutch) rather than rewriting it unnecessarily. Change only the affected `title` and `text` fields. Preserve IDs, order, master facts, sources, locations, categories, priorities, verification data and all unrelated JSONB content.
+
+If the Italian master itself is factually uncertain, source evidence conflicts, a correction would require guessing, or the change would alter editorial meaning, CAP assignment, schema, database structure, sequence, publication state or another protected area, do not make that change automatically. Record the precise issue as `REVIEW REQUIRED` and ask only for the decision that is genuinely needed.
+
+After every write, read the row back from Neon and verify the changed fields, all seven language versions, fact IDs and order, and preservation of unrelated data. Keep `workflow_status` unchanged during ordinary rework and audit corrections. This authority never permits publication, backup, read-only locking, schema changes or edits outside the explicitly requested scope.
+
 ### Mandatory content lifecycle
 
 The database-level `workflow_status` is separate from the JSON record and is not a JSON field. Use the established lifecycle values `placeholder`, `validated` and `published`: `placeholder` means the CAP awaits rework; `validated` means the rework is complete and awaits the separate final audit; `published` means the final audit passed and publication was explicitly authorised. A completed rework is saved as `workflow_status = 'validated'`. A record may be set to `published` only after the complete final audit passes and the user explicitly instructs publication. Do not add `status` or `data_version` to the JSONB record; neither exists in the shared canonical record schema. Do not promote a record automatically or apply an unrequested lock.
