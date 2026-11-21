@@ -1,4 +1,173 @@
 {
   "postcode": "85103",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Park obětí Hraničiarov (Námestie Hraničiarov)",
+  "representative_point": {
+    "lat": 48.12136,
+    "lon": 17.11819
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Námestie Hraničiarov: od základního kamene Petržalky k památníku obětí železné opony",
+      "text": "Námestie Hraničiarov patří k nejvýznamnějším místům, která vyprávějí příběh vzniku nové Petržalky. Dne 3. dubna 1973 zde na tehdy nezastavěné ploše slavnostně položili základní kámen výstavby „městského sektoru Petržalka“. První velké náměstí nového sídliště vznikalo od roku 1977 a obyvatelům bylo předáno 11. července 1981. Jeho název odkazoval na Pohraniční stráž a na komunistický režim, který přísně střežil nedalekou hranici s Rakouskem a trestal pokusy o její překročení. Železná opona v okolí Petržalky připravila o život lidi, kteří se pokoušeli dostat na Západ. V roce 2024 získala parková část náměstí oficiální název Park obětí Hraničiarov a připomínku obětí doplnila pamětní tabule s částí ostnatého drátu ze železné opony. Místo tak dnes spojuje paměť na budování panelového sídliště s připomínkou lidských tragédií, které se odehrávaly na hranici svobody.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "src_postal",
+        "src_postal_streets",
+        "src_square_history",
+        "src_square_naming",
+        "src_memorial",
+        "src_bkis_location",
+        "src_square_map"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Park obětí Hraničiarov, Námestie Hraničiarov",
+        "address": "Námestie Hraničiarov, 851 03 Bratislava, Slovensko",
+        "lat": 48.12136,
+        "lon": 17.11819,
+        "type": "memorial_site",
+        "accuracy": "approximate",
+        "source": "https://www.bkis.sk/pekne-miesta/namestie-hraniciarov/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, príloha 3a: PSČ 851 01–09 sú smerované na vybranú dodávaciu poštu Bratislava 5; zoznam ulíc pre 851 03 uvádza Námestie Hraničiarov a ďalšie petržalské ulice.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": "Účinnosť od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 851 03 je v aktuálnych technických parametroch Slovenskej pošty zaradené do smerovania pre vybranú dodávaciu poštu Bratislava 5. Pošta Bratislava 5 sa nachádza na Vlasteneckom námestí v Petržalke; poloha pošty nie je použitá ako reprezentatívny bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Mestská časť Bratislava-Petržalka a Hlavné mesto SR Bratislava pre lokálnu identitu a verejné priestranstvo; BKIS pre súradnice; dostupný ulicový register PSČ a mapové adresné údaje ako geografická korelácia. Oficiálny export RAGEO nebol v tomto kroku priamo overený."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "NájdiPSČ – PSČ 85103, zoznam ulíc a priradenie k pošte Bratislava 5",
+      "url": "https://najdipsc.zones.sk/PS%C4%8C_85103/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_square_history",
+      "title": "Mestská časť Bratislava-Petržalka – V Petržalke pribudne nová pamätná tabuľa venovaná obetiam hraničiarov",
+      "url": "https://www.petrzalka.sk/2024-11-12-v-petrzalke-pribudne-nova-pamatna-tabula-venovana-obetiam-hraniciarov/",
+      "type": "official"
+    },
+    {
+      "id": "src_square_naming",
+      "title": "Hlavné mesto SR Bratislava – Dôvodová správa k pomenovaniu Parku obetí Hraničiarov",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/72409.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_memorial",
+      "title": "Mestská časť Bratislava-Petržalka – Pamätihodnosti a pamiatky",
+      "url": "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "id": "src_bkis_location",
+      "title": "Bratislavské kultúrne a informačné stredisko – Námestie Hraničiarov, poloha a súradnice",
+      "url": "https://www.bkis.sk/pekne-miesta/namestie-hraniciarov/",
+      "type": "official"
+    },
+    {
+      "id": "src_square_map",
+      "title": "OMA – Park obetí Hraničiarov, adresa a geografická poloha",
+      "url": "https://poi.oma.sk/w25036116",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Park obětí Hraničiarov (Námestie Hraničiarov)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Námestie Hraničiarov: od základního kamene Petržalky k památníku obětí železné opony",
+          "text": "Námestie Hraničiarov patří k nejvýznamnějším místům, která vyprávějí příběh vzniku nové Petržalky. Dne 3. dubna 1973 zde na tehdy nezastavěné ploše slavnostně položili základní kámen výstavby „městského sektoru Petržalka“. První velké náměstí nového sídliště vznikalo od roku 1977 a obyvatelům bylo předáno 11. července 1981. Jeho název odkazoval na Pohraniční stráž a na komunistický režim, který přísně střežil nedalekou hranici s Rakouskem a trestal pokusy o její překročení. Železná opona v okolí Petržalky připravila o život lidi, kteří se pokoušeli dostat na Západ. V roce 2024 získala parková část náměstí oficiální název Park obětí Hraničiarov a připomínku obětí doplnila pamětní tabule s částí ostnatého drátu ze železné opony. Místo tak dnes spojuje paměť na budování panelového sídliště s připomínkou lidských tragédií, které se odehrávaly na hranici svobody."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Park der Opfer der Grenzwächter (Platz der Grenzwächter)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Platz der Grenzwächter: vom Grundstein Petržalkas zur Gedenkstätte für die Opfer des Eisernen Vorhangs",
+          "text": "Der Platz der Grenzwächter gehört zu den wichtigsten Orten, an denen die Entstehung des neuen Stadtteils Petržalka nachvollziehbar wird. Am 3. April 1973 wurde hier auf damals unbebautem Gelände feierlich der Grundstein für den „Stadtsektor Petržalka“ gelegt. Der erste große Platz der neuen Plattenbausiedlung entstand ab 1977 und wurde am 11. Juli 1981 den Einwohnern übergeben. Sein Name verwies auf den Grenzschutz und das kommunistische Regime, das die nahe österreichische Grenze streng bewachte und Fluchtversuche bestrafte. Der Eiserne Vorhang in der Umgebung von Petržalka kostete Menschen das Leben, die in den Westen gelangen wollten. 2024 erhielt der Parkbereich des Platzes offiziell den Namen Park der Opfer der Grenzwächter; eine Gedenktafel mit einem Stück Stacheldraht des Eisernen Vorhangs erinnert nun an die Opfer. Der Ort verbindet damit die Erinnerung an den Bau der Plattenbausiedlung mit dem Gedenken an die menschlichen Tragödien an der Grenze zur Freiheit."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Park of the Victims of the Border Guards (Border Guards' Square)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Border Guards' Square: from Petržalka's foundation stone to a memorial to the victims of the Iron Curtain",
+          "text": "Border Guards' Square is one of the key places for understanding the creation of the new Petržalka district. On 3 April 1973, the foundation stone of the “Petržalka urban sector” was ceremonially laid here, on land that was then still undeveloped. The first major square of the new housing estate took shape from 1977 and was handed over to residents on 11 July 1981. Its name referred to the Border Guard, the communist regime's armed force that tightly controlled the nearby Austrian border and punished attempts to cross it. The Iron Curtain around Petržalka cost the lives of people trying to reach the West. In 2024, the park section of the square was officially named the Park of the Victims of the Border Guards, and a memorial plaque incorporating a piece of Iron Curtain barbed wire was installed to commemorate those victims. The site now connects the story of the construction of the vast housing estate with the human tragedies that took place at the border to freedom."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Parque de las Víctimas de los Guardias Fronterizos (Plaza de los Guardias Fronterizos)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La Plaza de los Guardias Fronterizos: de la primera piedra de Petržalka al memorial a las víctimas del Telón de Acero",
+          "text": "La Plaza de los Guardias Fronterizos es uno de los lugares clave para comprender el nacimiento del nuevo barrio de Petržalka. El 3 de abril de 1973 se colocó solemnemente aquí, en un terreno todavía sin urbanizar, la primera piedra del «sector urbano de Petržalka». La primera gran plaza del nuevo conjunto residencial comenzó a tomar forma en 1977 y fue entregada a los vecinos el 11 de julio de 1981. Su nombre aludía a la Guardia Fronteriza, la fuerza armada del régimen comunista que vigilaba estrictamente la cercana frontera con Austria y castigaba los intentos de cruzarla. El Telón de Acero en los alrededores de Petržalka costó la vida a personas que intentaban llegar a Occidente. En 2024, la zona ajardinada de la plaza recibió oficialmente el nombre de Parque de las Víctimas de los Guardias Fronterizos y se instaló una placa conmemorativa que incorpora un fragmento de alambre de espino del Telón de Acero. El lugar une hoy la memoria de la construcción del gran barrio de bloques con el recuerdo de las tragedias humanas ocurridas en la frontera hacia la libertad."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Parc des victimes des gardes-frontières (place des Gardes-frontières)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La place des Gardes-frontières : de la première pierre de Petržalka au mémorial des victimes du rideau de fer",
+          "text": "La place des Gardes-frontières est l’un des lieux essentiels pour comprendre la naissance du nouveau quartier de Petržalka. Le 3 avril 1973, la première pierre du « secteur urbain de Petržalka » y fut solennellement posée, sur un terrain alors encore vierge de constructions. La première grande place du nouvel ensemble de logements collectifs prit forme à partir de 1977 et fut remise aux habitants le 11 juillet 1981. Son nom faisait référence aux gardes-frontières, force armée du régime communiste qui surveillait étroitement la frontière autrichienne toute proche et réprimait les tentatives de la franchir. Le rideau de fer autour de Petržalka coûta la vie à des personnes qui tentaient de rejoindre l’Ouest. En 2024, la partie paysagée de la place reçut officiellement le nom de parc des victimes des gardes-frontières ; une plaque commémorative intégrant un morceau de fil barbelé du rideau de fer fut installée en leur mémoire. Le lieu associe ainsi l’histoire de la construction du grand ensemble à celle des tragédies humaines survenues à la frontière de la liberté."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Parco delle vittime delle guardie di frontiera (Piazza delle guardie di frontiera)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Piazza delle guardie di frontiera: dalla prima pietra di Petržalka al memoriale delle vittime della Cortina di ferro",
+          "text": "Piazza delle guardie di frontiera è uno dei luoghi fondamentali per comprendere la nascita del nuovo quartiere di Petržalka. Il 3 aprile 1973, su un terreno allora ancora privo di edifici, fu posata solennemente la prima pietra del «settore urbano di Petržalka». La prima grande piazza del nuovo quartiere residenziale iniziò a prendere forma dal 1977 e fu consegnata agli abitanti l’11 luglio 1981. Il suo nome richiamava la Guardia di frontiera, la forza armata del regime comunista che sorvegliava rigidamente il vicino confine austriaco e puniva i tentativi di attraversarlo. La Cortina di ferro nei dintorni di Petržalka costò la vita a persone che cercavano di raggiungere l’Occidente. Nel 2024 la parte a parco della piazza ha ricevuto ufficialmente il nome di Parco delle vittime delle guardie di frontiera; in loro memoria è stata installata una targa con un frammento di filo spinato della Cortina di ferro. Il luogo unisce così la memoria della costruzione del grande quartiere di edilizia popolare al ricordo delle tragedie umane avvenute al confine della libertà."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Park van de slachtoffers van de grenswachten (Grenswachtersplein)",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Grenswachtersplein: van de eerste steen van Petržalka tot een monument voor de slachtoffers van het IJzeren Gordijn",
+          "text": "Het Grenswachtersplein is een van de belangrijkste plekken om het ontstaan van de nieuwe wijk Petržalka te begrijpen. Op 3 april 1973 werd hier, op een terrein dat toen nog onbebouwd was, plechtig de eerste steen gelegd voor de ‘stedelijke sector Petržalka’. Het eerste grote plein van de nieuwe woonwijk kreeg vanaf 1977 vorm en werd op 11 juli 1981 aan de bewoners overgedragen. De naam verwees naar de Grenswacht, de gewapende macht van het communistische regime die de nabijgelegen Oostenrijkse grens streng bewaakte en pogingen om die over te steken bestrafte. Het IJzeren Gordijn rond Petržalka kostte mensenlevens van mensen die naar het Westen probeerden te vluchten. In 2024 kreeg het parkdeel van het plein officieel de naam Park van de slachtoffers van de grenswachten. Ter nagedachtenis aan de slachtoffers werd er een gedenkplaat geplaatst met een stuk prikkeldraad van het IJzeren Gordijn. De plek verbindt zo de geschiedenis van de bouw van de grote flatwijk met de menselijke tragedies aan de grens naar de vrijheid."
+        }
+      ]
+    }
+  }
 }
