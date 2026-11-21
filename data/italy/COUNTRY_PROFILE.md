@@ -18,13 +18,13 @@ The production table is `public.italy_cap_records` in the Neon project `Europe E
 - `record`: the complete Italian CAP JSON record stored as JSONB;
 - `created_at` and `updated_at`: database timestamps.
 
-The database `workflow_status` column is the operational lifecycle field and is separate from the JSONB record. Its established values are `placeholder`, `validated` and `published`, with `placeholder` as the default. Do not add `status` or `data_version` to the JSONB record: neither is part of the shared canonical Czechia/Italy JSON structure.
+The database `workflow_status` column and JSONB root `status` are paired lifecycle fields and must always match. The JSONB root `data_version` carries the content version. Allowed states are `placeholder`, `validated` and `published`; newly reworked records use `validated` with `data_version: 1`, while audited and explicitly published records use `published` with `data_version: 5`.
 
 The JSONB `record` must conform to `data/italy/schema.json`, whose complete technical structure is kept 1:1 with `data/czechia/schema.json`. Country-specific Italian meaning belongs in values and descriptions, not additional JSON fields or enums.
 
 Neon is authoritative for all Italian production reads and writes. GitHub contains the versioned schema, standards, prompts and supporting project files; it is not a second production database. Do not write Italian production records to Supabase, local JSON files, GitHub data files or another database as an alternative source of truth.
 
-EuropeExplorer reads Italian production content from Neon using read-only access. Do not introduce write operations into the Explorer read path or expose database credentials in client code. The publication gate uses the database-level `workflow_status = 'published'`; it must not depend on non-schema root JSON fields.
+EuropeExplorer reads Italian production content from Neon using read-only access. Do not introduce write operations into the Explorer read path or expose database credentials in client code. The publication gate requires all three values to agree: `workflow_status = 'published'`, `record.status = 'published'` and `record.data_version = 5`.
 
 
 Preserve the established TRAVEL / EuropeExplorer architecture used for Czechia and Germany wherever the underlying concept is shared. Adapt country-specific postal, geographic, administrative and source details to Italy. Do not mechanically copy Czech or German administrative semantics.
@@ -270,10 +270,10 @@ This profile establishes the geographic requirements. The exact database tables,
 
 The Italian record lifecycle must preserve the separation between content validation, audit approval and publication.
 
-- A newly reworked record is saved with database `workflow_status = 'validated'` after the complete JSON record passes the shared schema and content validation.
+- A newly reworked record is saved with `workflow_status = 'validated'`, JSONB `status = 'validated'` and `data_version = 1` after the complete JSON record passes the shared schema and content validation.
 - An audit result of `PASS` confirms audit acceptance only. It does not itself publish the record.
 - Publication is permitted only after a successful final audit and the user's explicit publication instruction for the defined CAP scope.
-- Publication changes the database-level `workflow_status` to `published`; it does not add or modify root-level JSON `status` or `data_version` fields.
+- Publication changes the database-level `workflow_status` and JSONB `status` to `published` and sets JSONB `data_version = 5` after the complete final audit and the user's explicit publication instruction.
 - After a publication write, read the exact records back from Neon and verify the requested CAP scope, row count, full JSON records and database workflow state. A successful write response alone is not proof of successful publication.
 - Do not mark a record published merely because its content looks complete, because an audit passed, or because a neighbouring record was published.
 - Read-only locking is a separate operation and must never be inferred from publication.
