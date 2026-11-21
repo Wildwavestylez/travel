@@ -122,7 +122,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 3. **Zdrojové reference:** prověřit a normalizovat starší interní aliasy a JSON serializované řetězce ve 28 faktech; zachovat dohledatelnost přes content.sources.
 4. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
 
-**Další krok:** pokračovat sémantickou kontrolou překladů a současně ponechat tři geografické případy v REVIEW REQUIRED. Null polohy jsou uzavřené; inventář 36 PSČ / 271 faktů je aktuální.
+**Další krok:** dokončit kontrolu kategorií a správních údajů a normalizaci starších zdrojových referencí; tři geografické případy ponechat v REVIEW REQUIRED do doložení přesnějšího přiřazení. Null polohy i sémantická kontrola překladů jsou uzavřené; inventář 36 PSČ / 271 faktů je aktuální.
 
 ## Pokračování — rozšířená turistická rešerše (2026-11-21)
 
