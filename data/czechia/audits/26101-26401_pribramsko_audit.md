@@ -573,3 +573,10 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - Tři geografická přiřazení: stále **REVIEW REQUIRED**, ale s novými konkrétními důkazy.
 - Starší aliasy: **REVIEW REQUIRED**, beze změny faktových zdrojů.
 - Celkový audit zůstává **REVIEW REQUIRED**. Bez publikace, V5, zálohy, read-only locku a migrace do Neonu.
+
+### Přesné referenční odkazy pro geografické případy
+
+- Čtyřmezí: obec Rosovice, oficiální turistický plakát s polohou hraničního kamene: `https://www.rosovice-obec.cz/modules/file_storage/download.php?file=c5a05a7d%7C483&inline=1`; Česká pošta 26211: `https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/26211`.
+- Psí hory / Čelina: Mindat, lokalita a WGS84 49.74000, 14.33300: `https://zh.mindat.org/loc-256454.html`; ČVUT, historie štoly Josef a revíru Psí hory: `https://ceg.fsv.cvut.cz/ceg-int/o-nas/stola-josef/historie-stoly/historie-stoly`; přehled adresních PSČ části obce Čelina (26203/71 a 26215/96): `https://regiony.kurzy.cz/psc/borotice-okres-pribram/celina-cast/`.
+- Židovský hřbitov Čelina: NPÚ / ISAD SAS 8887, přesné vymezení archeologického území a poloha jihozápadně od Čeliny: `https://isad.npu.cz/zidovsky-hrbitov-celina-8887`; databáze Židovských památek s GPS: `https://pamatky.kehilaprag.cz/pamatka/celina`.
+- Ověření limitu společného inventáře: `ruian_postcodes.json` obsahuje pouze agregované počty a seznamy obcí/částí obcí (26203 = 4 159 adresních míst; 26215 = 194), nikoli souřadnice jednotlivých adresních míst. Proto z něj nelze odvodit přesnou nejbližší adresní vazbu ani vyřešit PSČ u neadresních lokalit. Pro rozhodnutí by bylo nutné cíleně získat konkrétní adresní místa z oficiálního RÚIAN feedu; žádný odhad z agregovaného seznamu se nepoužije.
