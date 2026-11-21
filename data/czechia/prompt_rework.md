@@ -56,6 +56,24 @@ Tato pravidla platí pro celý rework a mají přednost před opakováním již 
 
 **Provozní pravidlo:** načti jednou → hledej cíleně → ukládej důkazy → validuj lokálně → zapisuj jednou → ověř jedním read-backem → pokračuj.
 
+## Ochrana Supabase I/O a databázové zátěže — POVINNÉ
+
+Tato pravidla platí pro každou práci s produkční databází, nejen pro audit. Cílem je omezit fyzické čtení/zápis, zbytečné PostgREST požadavky a opakované načítání, nikoli omezit kvalitu obsahu nebo povinné ověřování.
+
+1. **Přesný rozsah každého dotazu:** při práci s českým PSČ vždy filtruj současně `country_code = 'CZ'` a přesný seznam požadovaných `postal_code`. Nikdy nenačítej všechny země, všechna PSČ ani celý status/data_version jen proto, abys následně filtroval výsledek v paměti.
+2. **Žádné plošné čtení:** nepoužívej full-table scan, globální `COUNT(*)`, seskupování celé tabulky, neomezené stránkování ani `SELECT *` bez přesného omezení rozsahu. Nečti sloupce, které daný krok nepotřebuje. JSONB `content` načítej pouze pro konkrétní vybrané záznamy, které se skutečně zpracovávají.
+3. **Mapové body až podle vybraných ID:** záznamy `explorer_map_points` načítej pouze pro `postal_id` cílových záznamů. Nikdy nenačítej celou tabulku mapových bodů a nefiltruj ji až v aplikaci. Respektuj složený primární klíč `(postal_id, fact_id)`; stránkování nesmí předpokládat, že samotné `postal_id` jednoznačně určuje řádek.
+4. **Jedno načtení, lokální práce:** jednou načtený záznam nebo dávku používej pro všechny nezávislé kontroly daného běhu. JSON, schéma, překlady, ID, počty a vnitřní konzistenci kontroluj lokálně. Neopakuj stejný SELECT kvůli další kontrolní oblasti, pokud se data mezitím nezměnila.
+5. **Čtení po zápisu jen v nezbytném rozsahu:** po zápisu načti zpět pouze změněný cílový řádek nebo změněné mapové body. Neprováděj následnou inventuru celé tabulky. Před opakováním zápisu po timeoutu nejprve ověř stav konkrétní položky; nikdy neopakuj UPDATE naslepo.
+6. **Omez zbytečné požadavky:** nespoléhej na opakované refreshování stejného datasetu, opakované přesné počty, zbytečné `HEAD`/count požadavky, paralelní dotazy ani polling bez skutečné potřeby. Použij dávkové načtení, pokud je bezpečné a podporované. Výsledky sdílených referencí a již načtených dat znovu používej v rámci pracovní relace.
+7. **Edge Functions a exporty:** funkce musí mít předem omezený rozsah a stránkovat pouze vybrané řádky. Žádný export celé tabulky, všech mapových bodů ani všech zemí při práci s jedním blokem. Preview nesmí skrytě provádět širší čtení než vlastní cílená operace. Zálohu nebo export nespouštěj během běžného reworku/auditu; pouze na výslovný pokyn a s přesným rozsahem.
+8. **SQL pouze podle ověřeného schématu:** nevymýšlej názvy tabulek, sloupců, indexů, operátorů ani vztahů. Před dotazem ověř potřebné schéma z již dostupné dokumentace nebo cíleného popisu. Pokud bezpečný filtr nelze sestavit, dotaz nespouštěj a oznam překážku.
+9. **Indexy a RLS neměň naslepo:** nepřidávej ani nemaž indexy a neupravuj RLS/politiky jen na základě obecného doporučení nebo jednoho upozornění. Nejprve ověř skutečný plán a vzorec používání dotazů, dopad na bezpečnost a přínos změny; změnu schématu, indexů či oprávnění prováděj pouze v samostatně schváleném optimalizačním kroku.
+10. **Žádné automatické databázové porovnávání:** Supabase a Neon ani jiné databáze mezi sebou automaticky neporovnávej. Takové porovnání proveď pouze tehdy, když si je uživatel výslovně vyžádá.
+11. **Sekvenčně a bez retry bouří:** databázové zápisy prováděj sekvenčně. Při timeoutu, 429 nebo 5xx zastav opakované požadavky, respektuj `Retry-After` a nejprve ověř, zda předchozí operace již neproběhla. Nespouštěj paralelní opakování stejného dotazu.
+
+**Zásada:** přesně vybrat → jednou načíst → zpracovat lokálně → zapsat pouze změnu → ověřit pouze změněnou položku. Pokud nástroj neumí dodržet přesný rozsah, zastav se; nikdy nenahrazuj bezpečný dotaz plošným čtením.
+
 ## Workflow
 **READ → RESEARCH → LOCAL SIGNIFICANCE CHECK → DEFINE STORIES → GEOGRAPHIC CHECK → AUDIT → REMOVE/KEEP/ADD → TRANSLATE → VALIDATE → SAVE → NEXT**
 
