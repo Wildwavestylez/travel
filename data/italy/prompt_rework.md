@@ -329,7 +329,7 @@ On resumption, continue at the first unfinished step. Do not repeat completed re
 
 Perform structural and consistency checks locally whenever possible. Do not call an external service for a check that can be reliably performed against already loaded data.
 
-After editing a fact, check the affected fact and its language versions. Perform full-record validation once before any approved save, not after every small edit.
+After editing a fact, check the affected fact and its language versions. Perform full-record validation once before saving through the established Neon workflow, not after every small edit.
 
 ## 9. Two-phase research — mandatory
 
@@ -573,7 +573,7 @@ The table contract is:
 - `record`: complete Italian CAP record stored as JSONB;
 - `created_at` and `updated_at`: database timestamps.
 
-GitHub stores versioned schemas, standards, prompts, sequence and supporting documentation. It is not a second production record store. Do not save Italian production CAP records to GitHub data files, local JSON files, Czech Supabase, the German dataset or another database as an alternative source of truth. EuropeExplorer uses read-only access to Neon.
+GitHub stores versioned schemas, standards, prompts, sequence and supporting documentation. It is not a second production record store. Do not save Italian production CAP records to GitHub data files, local JSON files, Czech Supabase, the German dataset or another database as an alternative source of truth. The EuropeExplorer application/client has read-only access to Neon; the authorised agent workflow may write through the established Neon connection under the scope and safeguards defined in this section.
 
 ### Rework write procedure
 
