@@ -589,3 +589,36 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - Kořenový registr nyní obsahuje **794 zdrojových položek** (původních 792 + dvě nově doplněné oficiální reference pro 26206 a 26252).
 - Pořadí, ID, počet faktů, překlady, kategorie, priority, mapové kategorie a souřadnice nebyly tímto pokračováním měněny.
 - Celkový stav zůstává **REVIEW REQUIRED** kvůli třem geografickým případům a nevyřešenému mapování zdrojových aliasů.
+
+## Další pokračování — forenzní kontrola aliasů a prostorové ověření Čeliny (2026-11-22)
+
+### Legacy source aliases — dohledání původního mapování
+
+- Provedena další kontrola aktuálního stromu repozitáře, GitHub code search pro `src_ecology`, `src_cenia`, `src_marian`, `src_003` a `src_npu`, a vyhledávání commitů podle aliasových klíčů. Výsledky ukazují pouze tento auditní tahák; žádný původní source-map soubor, export, SQL seed ani commit obsahující převodní tabulku alias → URL nalezen nebyl.
+- Kořenové `content.sources[]` pro 26251, 26256 a 26261 obsahují tematicky související zdrojové záznamy, ale jejich objekty mají pouze `title`, `url` a `type`; žádné `id`, `key` ani stabilní vazbu na alias. Stejný zdroj může být navíc tematicky relevantní pro více faktů.
+- U řady klíčů lze sestavit silného kandidáta podle názvu (např. `src_cenia`, `src_npu_stnicholas`, `src_archmap_korec`, `src_klucenice_parish`, `src_mikuvod`, `src_destinov_history`), ale kandidátní tematická shoda není původní mapování a neprokazuje, že alias odkazoval právě na tuto URL. U `src_marian`, `src_mas`, `src_milada` / `src_milada_coords`, `src_ecology` a číselných `src_003`–`src_006` je nejednoznačnost ještě výraznější.
+- **Žádný alias nebyl nahrazen.** Zachováno 40 odkazů / 36 klíčů / 14 faktů. Pro bezpečnou normalizaci je stále potřeba původní mapovací tabulka, export nebo jednoznačný historický záznam vazby.
+
+### Čelina — přesnější porovnání okolních adresních míst
+
+- Oficiální NPÚ popisuje židovský hřbitov jako lokalitu jihozápadně od Čeliny a přesně vymezené archeologické území; databáze Židovských památek uvádí bod 49.7287700, 14.3195428.
+- Veřejně dostupné adresní záznamy, které přebírají údaje katastru/RÚIAN, ukazují, že obě PSČ se skutečně vyskytují v těsné části sídla Čelina: 26203 např. Čelina 5 (49.7331539, 14.3233928), Čelina 6 (49.7325151, 14.3254717) a Čelina 31 (49.7321426, 14.3253180); 26215 např. Borotice 33 / část Čelina (49.7330322, 14.3224025) a Čelina ev. č. 151 (49.7294576, 14.3372513).
+- Orientační přímé vzdálenosti od bodu hřbitova: k adrese 26215/Borotice 33 přibližně 0,52 km, k 26203/Čelina 5 přibližně 0,56 km. Rozdíl je malý a tyto veřejné adresní přehledy nejsou autoritativním důkazem hranice ani úplným seznamem adresních míst; **nelze podle nich potvrdit ani změnit PSČ hřbitova**.
+- Orientační přímé vzdálenosti od bodu ložiska Psí hory (49.74000, 14.33300): k 26203/Borotice 59 přibližně 0,89 km, k 26203/Čelina 6 přibližně 0,99 km a k 26215/Borotice 33 přibližně 1,09 km. Ani toto není důkaz poštovní hranice; jde pouze o indicii, že dosavadní přiřazení 26215 vyžaduje zvlášť pečlivé ověření.
+- Nově identifikovaná oficiální prostorová služba ČÚZK: `https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/1` (vrstva `AdresniMisto`, bodová geometrie; atributy zahrnují `psc`, `adresa` a kód adresního místa). Služba je vhodná pro cílený prostorový výběr úplných adresních míst kolem obou neadresních lokalit. Samotný popis vrstvy byl ověřen; prostorový dotaz na konkrétní okruh se v tomto běhu nepodařilo načíst, proto se výsledek zatím nepovažuje za ověření.
+- **26215/fact_002 (Psí hory) a 26215/fact_004 (hřbitov) zůstávají beze změny a REVIEW REQUIRED.** Pro další krok je nutné získat úplný výběr adresních míst RÚIAN v okolí bodů, nikoli jen agregovaný inventář PSČ nebo několik vybraných adres.
+
+### Zdroje k novému prostorovému porovnání
+
+- NPÚ – Židovský hřbitov Čelina, SAS 8887: `https://isad.npu.cz/zidovsky-hrbitov-celina-8887`.
+- Židovské památky – Čelina, GPS: `https://pamatky.kehilaprag.cz/pamatka/celina`.
+- ČÚZK ArcGIS REST – vrstva AdresniMisto: `https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/1`.
+- ČSÚ – detail budovy Čelina 60, PSČ 26203: `https://apl2.czso.cz/irso4/buddet.jsp?b=21&budid=2786843&hkodcis=43&idob=1030769991&kod=539970&kodcis=43&kodpol=nnnnnn`.
+- Adresní/katastrální přehledy použité pouze pro orientační srovnání souřadnic: `https://regiony.kurzy.cz/katastr/o12810797/`, `https://firmy.euro.cz/misto-borotice-5-0-12899721`, `https://regiony.kurzy.cz/katastr/o12811025/`, `https://regiony.kurzy.cz/katastr/o12812153/`, `https://firmy.euro.cz/misto-borotice-33-0-30699908`.
+
+### Stav po tomto kroku
+
+- Forenzní hledání původního alias mapování: **bez nálezu**, beze změny databáze.
+- Prostorové indicie pro Čelinu: zpřesněny, ale bez autoritativního výběru všech adresních míst zůstávají oba případy **REVIEW REQUIRED**.
+- Čtyřmezí: beze změny, stále **REVIEW REQUIRED**.
+- Celkový audit zůstává **REVIEW REQUIRED**. Žádné změny v datech faktů, žádné přesuny, žádné publikování, V5, backup, read-only lock ani migrace do Neonu.
