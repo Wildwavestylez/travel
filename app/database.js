@@ -114,10 +114,12 @@ async function loadNeonList(requestId, requestedCountry){
     const sql=await getItalySql();
     const q=$('#search').value.trim();
     const table=config.table;
-    const where="WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3)";
+    const where=isItaly
+      ? "WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(record->>'city', '') ILIKE $3)"
+      : "WHERE ($1 = '' OR postcode LIKE $2 OR COALESCE(COALESCE(record->'content',record)->>'city', '') ILIKE $3)";
     const pageQuery=isItaly
       ? "SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'city','') AS city, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5"
-      : "SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(record->>'city','') AS city, content_version, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5";
+      : "SELECT postcode, workflow_status, (record IS NOT NULL) AS has_record, COALESCE(record->>'status','') AS record_status, COALESCE(COALESCE(record->'content',record)->>'city','') AS city, content_version, updated_at FROM "+table+" "+where+" ORDER BY postcode ASC LIMIT $4 OFFSET $5";
     const [countRows,pageRows]=await Promise.all([
       sql.query('SELECT count(*)::int AS total FROM '+table+' '+where,[q,q+'%','%'+q+'%']),
       sql.query(pageQuery,[q,q+'%','%'+q+'%',PAGE_SIZE,offset])
