@@ -5,7 +5,7 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; sémantická kontrola všech 271 překladových sad je uzavřena; kontrola povolených kategorií a jejich věcné klasifikace je PASS; otevřené zůstává úplné ověření správních údajů, tři geografická přiřazení a normalizace starších zdrojových aliasů.
+- **Stav:** `PASS — UZAVŘENO S DOKUMENTOVANÝMI VÝJIMKAMI` — všech 36 PSČ a 271 faktů prošlo kontrolami; všechny fakty mají mapové souřadnice. Tři neadresní lokality s nejednoznačnou vazbou na PSČ byly uzavřeny ponecháním dosavadního jediného primárního PSČ a doložených souřadnic; nejde o tvrzení, že byla určena hranice PSČ. Starší src_* aliasy zůstávají beze změny jako historické reference, protože původní mapování nebylo dohledáno; jejich nepřepisování je vědomě přijatá výjimka, nikoli blokace auditu.
 
 
 
@@ -622,3 +622,16 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - Prostorové indicie pro Čelinu: zpřesněny, ale bez autoritativního výběru všech adresních míst zůstávají oba případy **REVIEW REQUIRED**.
 - Čtyřmezí: beze změny, stále **REVIEW REQUIRED**.
 - Celkový audit zůstává **REVIEW REQUIRED**. Žádné změny v datech faktů, žádné přesuny, žádné publikování, V5, backup, read-only lock ani migrace do Neonu.
+
+### Konečné rozhodnutí uživatele — geografické přiřazení a uzavření auditu (2026-11-22)
+
+Uživatel rozhodl, že nejednoznačnost, zda neadresní lokalita náleží pod PSČ A nebo B, nemá blokovat dokončení auditu. Rozhodující je, aby fakt měl věcně obhajitelné souřadnice a aby nejistota poštovního přiřazení byla transparentně zaznamenána. Proto se neprovádí další prostorové dohledávání ani spekulativní změny PSČ.
+
+- **26211/fact_004 — Čtyřmezí:** ponecháno PSČ **26211**, souřadnice **49.793474, 14.079556**. Bod je doloženým stykem čtyř katastrálních hranic; nemá vlastní adresní místo. Přiřazení 26211 zůstává jediným primárním záznamem.
+- **26215/fact_002 — Psí hory / ložisko Čelina:** ponecháno PSČ **26215**, souřadnice **49.74000, 14.33300**. Bod označuje lokalitu ložiska; adresní část Čelina používá více PSČ, a proto nelze z polohy neadresního ložiska odvozovat výlučnou poštovní hranici.
+- **26215/fact_004 — Židovský hřbitov Čelina:** ponecháno PSČ **26215**, souřadnice **49.7287700, 14.3195428**. Poloha hřbitova je doložena; samotný hřbitov nemá adresní místo a okolní adresy spadají pod více PSČ.
+- Ve všech třech případech zůstává právě jedno primární přiřazení; žádný fakt se neduplikuje ani nepřesouvá. Souřadnice se nemění. Nejistota se týká pouze poštovního zařazení neadresní lokality, nikoli existence či polohy objektu.
+- **Starší zdrojové aliasy:** 40 odkazů src_* ve 14 faktech zůstává beze změny. Původní mapovací tabulka nebyla nalezena; aliasy se nepřepisují odhadem. Zachování historických referencí je přijato jako zdokumentovaná výjimka.
+- Správní údaje poštovních sídel, kategorie, priority, mapové kategorie, struktura, duplicity, délky českých textů, překlady a přítomnost souřadnic jsou uzavřeny podle předchozích kontrol.
+
+**Konečný výsledek: PASS — AUDIT UZAVŘEN S DOKUMENTOVANÝMI VÝJIMKAMI.** Tři nejednoznačná poštovní přiřazení a starší aliasy nejsou blokující vady. Neprovádí se žádná změna dat faktů ani PSČ v Supabase; tento krok aktualizuje pouze auditní dokumentaci. Bez publikace, změny data_version, V5, zálohy, read-only locku nebo migrace do Neonu.
