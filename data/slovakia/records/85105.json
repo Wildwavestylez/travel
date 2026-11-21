@@ -1,4 +1,237 @@
 {
   "postcode": "85105",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Veľký Draždiak",
+  "representative_point": {
+    "lat": 48.10417794943028,
+    "lon": 17.114307883889065
+  },
+  "access_point": null,
+  "district_type": "urban_district",
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Horáreň pri Malém Draždiaku: lesnická památka s letopočtem 1779",
+      "text": "Na Starhradské ulici u Malého Draždiaku stojí historická horáreň, kterou městské památkové podklady evidují jako hmotnou nehnutelnou pamětihodnost Petržalky. Na fasádě budovy je letopočet 1779 a objekt je zachycen už na plánu Bratislavy a okolí z roku 1883. Jde o dvoupodlažní stavbu s dřevěným horním podlažím, pavlačí a charakteristickými vyřezávanými okenními rámy. Hájovna připomíná dobu, kdy dnešní jižní Petržalka tvořily lužní lesy a lesní revíry. Místní historická tradice spojuje jméno Draždiak s lesníkem Gejzou Dražďákem, který v této oblasti působil; jeho jméno se později přeneslo na Malý i Velký Draždiak. Přesný rok výstavby nelze z pouhého letopočtu na fasádě bezpečně určit, proto je vhodné chápat rok 1779 jako dataci dochovanou na objektu, nikoli jako bezvýhradně prokázané datum jeho dokončení.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "src_postal",
+        "src_postal_streets",
+        "src_petrzalka_heritage",
+        "src_city_heritage_record",
+        "src_petrzalka_book",
+        "src_drazdiak_history"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Veľký Draždiak: štrkovisko, které se proměnilo v petržalské přírodní koupaliště",
+      "text": "Veľký Draždiak vznikl v jižní Petržalce jako následek těžby štěrku při budování sídliště. Po vytěžení se vodní plocha postupně proměnila v oblíbené místo rekreace a od roku 1982 slouží jako přírodní koupaliště. Starší obyvatelé mu říkali také Šutrovka. Jezero se stalo jedním z nejznámějších veřejných rekreačních míst Petržalky: využívá se ke koupání, rybolovu i odpočinku a jeho okolí je součástí každodenního života jižního sídliště. Jeho dnešní podoba tak připomíná praktickou proměnu stavební krajiny – prostor, odkud se získával materiál pro rozvoj města, se po ukončení těžby stal městskou vodní a rekreační lokalitou.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "src_postal",
+        "src_postal_streets",
+        "src_drazdiak_address",
+        "src_petrzalka_newspaper",
+        "src_fishing_org",
+        "src_city_plan"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Veľký Draždiak – pláž, orientační bod na břehu jezera",
+        "address": "Antolská, 851 05 Bratislava-Petržalka, Slovensko",
+        "lat": 48.10417794943028,
+        "lon": 17.114307883889065,
+        "type": "natural_feature",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/w122101451?s=poi"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre účinné od 01.01.2026, príloha 3a, uvádí rozsah 851 01–09 směrovaný na vybranou poštu Bratislava 5. Seznam ulic pro 851 05 uvádí Brančskou, Budatínskou, Holíčskou, Šintavskou, Smolenickou, Starhradskou, Strečnianskou, Tematínskou a Topoľčianskou; mapový/addressový přehled 851 05 potvrzuje také polohu lokality Veľký Draždiak na adrese Antolská, 851 05 Bratislava.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a; SITA – zoznam ulíc PSČ 85105",
+    "postcode_source_release": "Účinnosť od 01.01.2026",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 851 05 spadá do rozsahu 851 01–09 směrovaného podle technických parametrů Slovenské pošty na vybranou poštu Bratislava 5. Tento provozní údaj není použit jako geografický reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "SITA – seznam ulic pro 85105 a mapový adresní přehled OMA/OpenStreetMap pro lokalitu Veľký Draždiak, doplněné oficiálními památkovými podklady Bratislavy a Petržalky. Přímý export RAGEO nebyl v tomto kroku načten; geografický testovací dataset proto není označen jako ověřený."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "SITA – PSČ 85105 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85105/",
+      "type": "news"
+    },
+    {
+      "id": "src_petrzalka_heritage",
+      "title": "Mestská časť Bratislava-Petržalka – Pamätihodnosti a pamiatky, položka Horáreň pri Malom Draždiaku",
+      "url": "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "id": "src_city_heritage_record",
+      "title": "Hlavné mesto SR Bratislava – Evidenčný list pamätihodnosti mesta Pet-IA-7: Horáreň pri Malom Draždiaku",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/51693.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_petrzalka_book",
+      "title": "Ľuboš Kačírek a Pavol Tišliar – Petržalka do roku 1918, publikace Miestnej knižnice Petržalka a Katedry etnológie a muzeológie FiF UK",
+      "url": "https://www.kniznicapetrzalka.sk/wp-content/uploads/2015/09/publikacia.pdf",
+      "type": "university"
+    },
+    {
+      "id": "src_drazdiak_history",
+      "title": "Mestská organizácia Slovenského rybárskeho zväzu Bratislava V – Veľký Draždiak: história a príroda očami rybára",
+      "url": "https://srzbav.sk/velky-drazdiak-historia-a-priroda-ocami-rybara/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_drazdiak_address",
+      "title": "OMA – Veľký Draždiak, pláž, adresa Antolská, 851 05 Bratislava a súradnice",
+      "url": "https://www.oma.sk/w122101451?s=poi",
+      "type": "specialist"
+    },
+    {
+      "id": "src_petrzalka_newspaper",
+      "title": "Petržalské noviny – Leto na Šutrovke: Veľký Draždiak vznikol v roku 1982 po ťažbe štrku",
+      "url": "https://www.petrzalka.sk/wp-content/uploads/2019/07/Jul_August.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_city_plan",
+      "title": "Mestská časť Bratislava-Petržalka – Program hospodárskeho rozvoja a sociálneho rozvoja 2023–2029",
+      "url": "https://plan.petrzalka.sk/dokumenty/Dokument_plan_obnovy_Petrzalka_2029.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horáreň pri Malém Draždiaku: lesnická památka s letopočtem 1779",
+          "text": "Na Starhradské ulici u Malého Draždiaku stojí historická horáreň, kterou městské památkové podklady evidují jako hmotnou nehnutelnou pamětihodnost Petržalky. Na fasádě budovy je letopočet 1779 a objekt je zachycen už na plánu Bratislavy a okolí z roku 1883. Jde o dvoupodlažní stavbu s dřevěným horním podlažím, pavlačí a charakteristickými vyřezávanými okenními rámy. Hájovna připomíná dobu, kdy dnešní jižní Petržalka tvořily lužní lesy a lesní revíry. Místní historická tradice spojuje jméno Draždiak s lesníkem Gejzou Dražďákem, který v této oblasti působil; jeho jméno se později přeneslo na Malý i Velký Draždiak. Přesný rok výstavby nelze z pouhého letopočtu na fasádě bezpečně určit, proto je vhodné chápat rok 1779 jako dataci dochovanou na objektu, nikoli jako bezvýhradně prokázané datum jeho dokončení."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: štrkovisko, které se proměnilo v petržalské přírodní koupaliště",
+          "text": "Veľký Draždiak vznikl v jižní Petržalce jako následek těžby štěrku při budování sídliště. Po vytěžení se vodní plocha postupně proměnila v oblíbené místo rekreace a od roku 1982 slouží jako přírodní koupaliště. Starší obyvatelé mu říkali také Šutrovka. Jezero se stalo jedním z nejznámějších veřejných rekreačních míst Petržalky: využívá se ke koupání, rybolovu i odpočinku a jeho okolí je součástí každodenního života jižního sídliště. Jeho dnešní podoba tak připomíná praktickou proměnu stavební krajiny – prostor, odkud se získával materiál pro rozvoj města, se po ukončení těžby stal městskou vodní a rekreační lokalitou."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Försterei am Malý Draždiak: ein historisches Gebäude mit der Jahreszahl 1779",
+          "text": "An der Starhradská-Straße beim Malý Draždiak steht eine historische Försterei, die in den städtischen Denkmalunterlagen als unbewegliches Denkmal von Petržalka geführt wird. An der Fassade ist die Jahreszahl 1779 angebracht; das Gebäude ist bereits auf einem Plan von Bratislava und Umgebung aus dem Jahr 1883 verzeichnet. Es handelt sich um einen zweigeschossigen Bau mit hölzernem Obergeschoss, Laubengang und charakteristischen geschnitzten Fensterrahmen. Das Forsthaus erinnert an die Zeit, als das heutige südliche Petržalka von Auwäldern und Forstrevieren geprägt war. Einer lokalen historischen Überlieferung zufolge geht der Name Draždiak auf den Förster Gejza Dražďák zurück, der in dieser Gegend tätig war; sein Name wurde später auf den Malý und den Veľký Draždiak übertragen. Aus der Jahreszahl an der Fassade allein lässt sich das genaue Baujahr nicht sicher ableiten; 1779 ist daher als überlieferte Datierung am Gebäude zu verstehen, nicht als zweifelsfrei belegtes Fertigstellungsdatum."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: Aus einer Kiesgrube wurde ein beliebtes Naturbad von Petržalka",
+          "text": "Der Veľký Draždiak entstand im Süden von Petržalka durch den Kiesabbau während des Baus der Großwohnsiedlung. Nach dem Ende des Abbaus entwickelte sich die Wasserfläche nach und nach zu einem beliebten Erholungsort; seit 1982 wird sie als Naturbad genutzt. Ältere Einwohner nannten den See auch Šutrovka. Heute gehört er zu den bekanntesten öffentlichen Freizeitorten von Petržalka: Er wird zum Schwimmen, Angeln und Erholen genutzt, und sein Ufer ist Teil des Alltags im südlichen Wohngebiet. Seine heutige Gestalt erzählt damit von der Umwandlung einer Baustellenlandschaft: Aus einem Ort, an dem Material für die Stadtentwicklung gewonnen wurde, entstand ein städtisches Gewässer und Erholungsgebiet."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The forestry lodge by Malý Draždiak: a historic building bearing the date 1779",
+          "text": "A historic forestry lodge stands on Starhradská Street beside Malý Draždiak. Bratislava’s heritage records list it as a tangible immovable heritage site in Petržalka. The date 1779 appears on its façade, and the building is already shown on a map of Bratislava and its surroundings from 1883. It is a two-storey structure with a timber upper floor, an external gallery and distinctive carved window frames. The lodge recalls the period when southern Petržalka was characterised by floodplain woodland and forest estates. Local historical tradition links the name Draždiak to the forester Gejza Dražďák, who worked in this area; his name was later applied to both Malý and Veľký Draždiak. The date on the façade alone does not establish the exact year of construction, so 1779 should be understood as a date preserved on the building, not as an indisputably proven completion date."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: a gravel pit transformed into Petržalka’s natural swimming lake",
+          "text": "Veľký Draždiak took shape in southern Petržalka as a result of gravel extraction during the construction of the housing estate. After extraction ended, the water-filled site gradually became a popular recreation area; it has served as a natural swimming lake since 1982. Older residents also called it Šutrovka. Today it is one of Petržalka’s best-known public leisure places, used for swimming, fishing and relaxation, with its shores forming part of everyday life in the southern neighbourhood. Its present form illustrates how a construction landscape was transformed: a place where material was extracted for the city’s expansion became an urban lake and recreation area."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La casa forestal junto a Malý Draždiak: un edificio histórico con la fecha 1779",
+          "text": "En la calle Starhradská, junto a Malý Draždiak, se conserva una casa forestal histórica que los registros patrimoniales municipales incluyen entre los bienes inmuebles de interés de Petržalka. En su fachada figura la fecha 1779 y el edificio ya aparece en un plano de Bratislava y sus alrededores de 1883. Es una construcción de dos plantas, con piso superior de madera, galería exterior y marcos de ventanas tallados. La casa recuerda la época en que el sur de la actual Petržalka estaba formado por bosques de ribera y terrenos forestales. La tradición histórica local relaciona el nombre Draždiak con el guardabosques Gejza Dražďák, que trabajó en esta zona; posteriormente, su apellido dio nombre tanto a Malý Draždiak como a Veľký Draždiak. La fecha de la fachada no permite determinar por sí sola el año exacto de construcción; por ello, 1779 debe entenderse como una datación conservada en el edificio, no como una fecha de finalización demostrada sin lugar a dudas."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: de gravera a popular lago de baño de Petržalka",
+          "text": "Veľký Draždiak surgió en el sur de Petržalka como consecuencia de la extracción de grava durante la construcción del barrio residencial. Tras finalizar la extracción, la zona inundada se convirtió poco a poco en un popular espacio recreativo; desde 1982 funciona como zona natural de baño. Los vecinos de más edad también lo llamaban Šutrovka. Hoy es uno de los espacios públicos de ocio más conocidos de Petržalka: se utiliza para nadar, pescar y descansar, y sus orillas forman parte de la vida cotidiana del barrio meridional. Su aspecto actual ilustra la transformación de un paisaje de obras: el lugar del que se extraían materiales para ampliar la ciudad se convirtió en un lago urbano y un espacio recreativo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La maison forestière près de Malý Draždiak : un bâtiment historique portant la date de 1779",
+          "text": "Une ancienne maison forestière se trouve rue Starhradská, près du Malý Draždiak. Les documents patrimoniaux de Bratislava la répertorient parmi les biens immobiliers remarquables de Petržalka. La date 1779 figure sur sa façade et le bâtiment apparaît déjà sur un plan de Bratislava et de ses environs datant de 1883. Il s’agit d’un édifice à deux niveaux, avec un étage supérieur en bois, une galerie extérieure et des encadrements de fenêtres sculptés. Cette maison rappelle l’époque où le sud de l’actuelle Petržalka était couvert de forêts alluviales et organisé en domaines forestiers. La tradition historique locale associe le nom Draždiak au garde forestier Gejza Dražďák, qui travaillait dans cette région ; son nom a ensuite été donné aux deux lacs, Malý Draždiak et Veľký Draždiak. La date inscrite sur la façade ne suffit pas à établir avec certitude l’année exacte de construction : 1779 doit donc être comprise comme une date conservée sur le bâtiment, et non comme une date d’achèvement incontestable."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak : une gravière devenue un lieu de baignade apprécié à Petržalka",
+          "text": "Veľký Draždiak s’est formé dans le sud de Petržalka à la suite de l’extraction de gravier menée lors de la construction du grand ensemble résidentiel. Après la fin de l’exploitation, le plan d’eau s’est progressivement transformé en un lieu de loisirs apprécié ; il sert de baignade naturelle depuis 1982. Les habitants plus âgés l’appelaient aussi Šutrovka. Il compte aujourd’hui parmi les espaces publics de détente les plus connus de Petržalka : on y vient pour nager, pêcher ou se reposer, et ses rives font partie de la vie quotidienne du quartier sud. Son aspect actuel témoigne ainsi de la transformation d’un paysage de chantier : un site où l’on extrayait les matériaux nécessaires à l’expansion de la ville est devenu un lac urbain et un espace de loisirs."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La casa forestale presso Malý Draždiak: un edificio storico con la data 1779",
+          "text": "In via Starhradská, accanto al Malý Draždiak, sorge una storica casa forestale che i registri dei beni culturali di Bratislava classificano tra i monumenti immobili di Petržalka. Sulla facciata compare la data 1779 e l’edificio è già raffigurato in una pianta di Bratislava e dintorni del 1883. È una costruzione a due piani, con piano superiore in legno, ballatoio esterno e caratteristiche cornici delle finestre intagliate. La casa ricorda il periodo in cui la parte meridionale dell’attuale Petržalka era caratterizzata da boschi ripariali e riserve forestali. La tradizione storica locale collega il nome Draždiak al guardaboschi Gejza Dražďák, attivo in questa zona; il suo nome fu poi attribuito sia al Malý Draždiak sia al Veľký Draždiak. La sola data sulla facciata non consente di stabilire con certezza l’anno esatto di costruzione: il 1779 va quindi inteso come data conservata sull’edificio, non come data di completamento dimostrata senza dubbi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: da cava di ghiaia a lago balneabile di Petržalka",
+          "text": "Il Veľký Draždiak si è formato nella parte meridionale di Petržalka in seguito all’estrazione di ghiaia durante la costruzione del quartiere residenziale. Terminata l’attività estrattiva, lo specchio d’acqua si è gradualmente trasformato in un’apprezzata area ricreativa; dal 1982 è utilizzato come luogo naturale per la balneazione. Gli abitanti più anziani lo chiamavano anche Šutrovka. Oggi è uno dei luoghi pubblici di svago più conosciuti di Petržalka: vi si praticano nuoto e pesca e si viene per rilassarsi; le sue rive fanno parte della vita quotidiana del quartiere meridionale. La sua forma attuale racconta la trasformazione di un paesaggio di cantiere: il luogo da cui si estraevano materiali per l’espansione della città è diventato un lago urbano e un’area ricreativa."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Veľký Draždiak",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het boswachtershuis bij Malý Draždiak: een historisch gebouw met het jaartal 1779",
+          "text": "Aan de Starhradská-straat, bij Malý Draždiak, staat een historisch boswachtershuis dat in de monumentenregisters van Bratislava is opgenomen als onroerend erfgoed in Petržalka. Op de gevel staat het jaartal 1779 en het gebouw is al afgebeeld op een kaart van Bratislava en omgeving uit 1883. Het is een gebouw met twee verdiepingen, een houten bovenverdieping, een buitengalerij en karakteristieke gesneden raamomlijstingen. Het herinnert aan de tijd waarin het zuiden van het huidige Petržalka bestond uit ooibossen en bosgebieden. Volgens de lokale historische overlevering hangt de naam Draždiak samen met boswachter Gejza Dražďák, die in deze omgeving werkte; zijn naam werd later gebruikt voor zowel Malý Draždiak als Veľký Draždiak. Alleen op basis van het jaartal op de gevel kan het precieze bouwjaar niet met zekerheid worden vastgesteld. 1779 moet daarom worden gezien als een datering die op het gebouw bewaard is gebleven, niet als een onomstotelijk bewezen opleveringsjaar."
+        },
+        {
+          "id": "fact_002",
+          "title": "Veľký Draždiak: van grindgroeve tot geliefde zwemplas van Petržalka",
+          "text": "Veľký Draždiak ontstond in het zuiden van Petržalka door grindwinning tijdens de bouw van de woonwijk. Nadat de winning was beëindigd, veranderde de met water gevulde groeve geleidelijk in een geliefde recreatieplek; sinds 1982 wordt het meer gebruikt als natuurlijke zwemplas. Oudere bewoners noemden het ook Šutrovka. Tegenwoordig is het een van de bekendste openbare recreatiegebieden van Petržalka, waar mensen komen zwemmen, vissen en ontspannen. De oevers maken deel uit van het dagelijks leven in de zuidelijke woonwijk. De huidige vorm laat zien hoe een bouwlandschap veranderde: de plek waar materiaal voor de stadsuitbreiding werd gewonnen, werd een stedelijk meer en recreatiegebied."
+        }
+      ]
+    }
+  }
 }
