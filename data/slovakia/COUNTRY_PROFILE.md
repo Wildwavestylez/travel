@@ -18,14 +18,14 @@ The production unit is a Slovak geographic postal code (PSČ).
 - Do not create a postcode record merely because a code appears in a list or belongs to an organization. Its geographic character and actual area must be established.
 - The record's content scope is the full defensible geographic area associated with the PSČ, including relevant municipalities, parts of municipalities, settlements, landscape and localities.
 
-A PSČ is a postal identifier, not an administrative boundary and not automatically identical to one municipality, one settlement or the location of the post office. A postal area may cover multiple localities or only part of a larger municipality. Do not infer its full coverage from the postcode's best-known town name.
+A PSČ is a postal identifier, not an administrative boundary and not automatically identical to one municipality or settlement. A postal area may cover multiple localities or only part of a larger municipality. Do not infer its full coverage from the postcode's best-known town name.
 
 ## Canonical record fields and administrative meaning
 
 Use the canonical flat top-level record fields defined by `data/slovakia/schema.json`. Their Slovak meaning is:
 
 - `postcode`: five-digit geographic Slovak PSČ, stored as a string without a space.
-- `city`: the one municipality (obec) or town in which the serving post office for the geographic PSČ is physically located. Identify the actual post office serving the PSČ and use the municipality where that post-office building is located. Do not select the first municipality in a list of localities served by the post office, the largest or most populous municipality in the delivery area, or an arbitrary “principal” locality. For example, if the serving post office is physically in Snina, `city` is `Snina`, even if its delivery area also includes Dolná nad Hornou. The full geographic PSČ area may cover other municipalities; that wider coverage belongs in the fact-research scope and must not change `city`.
+- `city`: the principal municipality (obec) or town that geographically characterises the PSČ area and is used as the record's representative locality. Choose it from verified geographic/address evidence and the actual territorial relationship of the PSČ; do not derive it from a post office, postal directory display name, correspondence address or an arbitrary best-known town. If the geographic PSČ covers several municipalities, select the best-supported representative municipality and keep the wider research scope in view.
 - `district`: an officially documented mestská časť, miestna časť, urban district or other relevant locality within the municipality, where applicable; otherwise `null`. Do not put neighbouring municipalities or every settlement in the postal area into this field.
 - `county`: the okres.
 - `state`: the samosprávny kraj (kraj).
@@ -34,7 +34,7 @@ Use the canonical flat top-level record fields defined by `data/slovakia/schema.
 
 Slovakia has eight kraje and 79 okresy. The administrative relationship is generally kraj → okres → obec, with official mestské časti or miestne časti below the municipality where relevant. Preserve the actual administrative hierarchy and official Slovak names. Do not confuse a kraj with an okres, or an okres with a municipality.
 
-The administrative fields describe the municipality in which the serving post office is physically located: `district` may identify only a relevant part within that same municipality; `county` is the okres containing that municipality; and `state` is its samosprávny kraj. They do not reduce the fact-research scope to that municipality if the geographic PSČ demonstrably covers a wider area. Where the postal delivery area crosses municipal or administrative boundaries, document the wider coverage in the manner permitted by the schema and Content Standard, but do not change the post-office-based meaning of `city`, `county` or `state`.
+The administrative fields describe the selected representative municipality: `district` may identify a relevant part within that same municipality; `county` is the okres containing that municipality; and `state` is its samosprávny kraj. They do not reduce the fact-research scope to that municipality if the geographic PSČ demonstrably covers a wider area. Where the geographic PSČ spans municipal or administrative boundaries, document the wider scope in the manner permitted by the schema and Content Standard.
 
 ## Postal-code verification and source authority
 
@@ -42,7 +42,7 @@ Use Slovak sources for Slovak postal and geographic questions. Do not import Cze
 
 Apply this source hierarchy according to what is being verified:
 
-1. **Slovenská pošta** — primary postal authority for the existence, geographic use and postal assignment of a Slovak PSČ, and for identifying geographic versus special-purpose codes. Use the current official postal lookup or other official Slovenská pošta information where available.
+1. **Slovenská pošta** — primary postal authority for confirming the existence and geographic versus special-purpose classification of a Slovak PSČ. Current opening status, closure history or operational status of an individual post office is outside the content scope and is not a record blocker.
 2. **Register adries SR (RAGEO), Ministry of Interior of the Slovak Republic** — official address and address-point evidence; use it to corroborate the existence and geographic placement of addresses, buildings and localities. Do not assume that RAGEO alone is a complete authoritative register of postal-code coverage or that every PSČ can be queried directly through it.
 3. **Official register of territorial/spatial units and the Slovak Statistical Office (ŠÚ SR)** — administrative names, codes and relationships for kraje, okresy and obce.
 4. **ÚGKK SR / official ZBGIS and other official national mapping resources** — geographic identification and coordinate corroboration where appropriate.
@@ -58,7 +58,7 @@ Every record has one `representative_place` and one `representative_point`. The 
 
 The representative point is not automatically:
 - the geometric centre of the postal area;
-- the location of the serving post office;
+- the location of a post office;
 - the most famous attraction in the area;
 - the location of every fact;
 - an access/navigation point.
