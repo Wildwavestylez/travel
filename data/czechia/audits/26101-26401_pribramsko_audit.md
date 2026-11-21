@@ -109,3 +109,10 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 - Pokračovat širokým průzkumem celého rozsahu, zejména technického a vojenského dědictví Brd, menších hradů a tvrzí, sakrálních staveb, archeologických lokalit, přírodních památek, místních řemesel a významných osobností.
 - Prověřovat další hodnotné objekty v Počaplech, Obecnici, Radíči a ostatních obcích rozsahu; nekopírovat objekty již zpracované v sousedním PSČ.
 - Dvanáct původních null poloh zůstává beze změny, dokud nebude doložen konkrétní objektový nebo obhajitelný reprezentativní bod.
+
+
+## Další objevy v poštovní oblasti 26272 (2026-11-21)
+
+- 26272/fact_012 — Hrochův hrádek u Dobré Vody: mimořádný soubor raně středověkého hradiště a gotické tvrze. NPÚ popisuje zříceninu věžové stavby i valové opevnění; Hornické muzeum Příbram potvrzuje pravěké a raně středověké osídlení. Poloha 49.55531, 14.00525; ruin; approximate. Zdroje NPÚ, Hornické muzeum Příbram a odborný článek Památky středních Čech 2025.
+- 26272/fact_013 — Kostel sv. Jana Křtitele v Počaplech: samostatný objekt odlišný od kostela ve Stražišti; jádro z poloviny 13. století, renesanční ohradní zeď, brána, bašta a kostnice, věž upravená roku 1708 v souvislosti s Marcantoniem Canevallem. Přidáno bez polohy, protože dosud nebyl nalezen obhajitelný objektový bod; poloha zůstává null záměrně.
+- Oba nové fakty mají překlady cs/de/en/es/fr/it/nl. Read-back celého bloku po zápisu: 36 PSČ, 248 faktů, 235 faktů s polohou a 13 null poloh (12 původních otevřených null + 1 nový fakt bez doloženého bodu). Žádné stávající neprázdné polohy nebyly měněny.
