@@ -42,7 +42,7 @@ Use the source hierarchy in the Slovak Content Standard and Country Profile. Eac
 4. **ÚGKK SR / official ZBGIS and national mapping resources** — geographic identification and coordinate corroboration.
 5. **Official municipalities, regional authorities, national-park administrations, heritage institutions, museums, archives, universities and specialist institutions** — evidence for individual facts and their physical locations.
 
-Never use one source to prove a claim outside its remit. A postal lookup does not by itself prove a tourist site's coordinates. An address point does not by itself establish the complete postal delivery area. A municipal website does not automatically prove which post office serves a PSČ.
+Never use one source to prove a claim outside its remit. A postal lookup does not by itself prove a tourist site's coordinates. An address point does not by itself establish the complete postal delivery area. A municipal website does not automatically prove the geographic coverage of a PSČ.
 
 ### 2.1 Mandatory meaning of `city` — physical location of the serving post office
 
@@ -144,7 +144,7 @@ These rules reduce repeated work and rate-limit failures without reducing eviden
 - Verify that `count` equals the actual number of entries in `sequence`, every entry is a five-digit string, and there are no duplicates.
 - Verify that each sequence entry has exactly one corresponding file at `data/slovakia/records/{postcode}.json`. A missing file, unexpected extra record, duplicate, malformed code or count mismatch is a queue-integrity issue: report it and do not silently repair the sequence or create/delete records as part of ordinary rework.
 - Slovakia's current sequence format has a single `sequence` array; it does not use the Czech `groups` structure. Do not add or expect `groups` unless the Slovak sequence format is explicitly changed at project level.
-- The sequence defines project membership and processing order; it does not by itself prove a code's current postal validity, serving post office, delivery area or geographic boundaries. Verify those independently for each postcode under the Slovak Content Standard.
+- The sequence defines project membership and processing order; it does not by itself prove a code's current postal validity or geographic coverage. Verify those independently for each postcode under the Slovak Content Standard.
 - A code discovered outside the sequence is only a lead for a separate review. Do not add it to the sequence, create a record for it, or reassign facts to it during ordinary rework.
 - Changing `sequence.json` is a separate project-level operation requiring documented official evidence and the user's explicit approval. Ordinary rework must never change it.
 
@@ -183,7 +183,7 @@ The classification does not change the quality standard. Existing facts are rese
 
 ### 6.2 Establish the PSČ identity and geographic scope
 
-Verify the code and its actual postal use with Slovenská pošta or another source competent for the postal claim. Identify the serving post office and its physical municipality. Establish the defensible geographic delivery area using appropriate postal, address and geographic evidence.
+Verify that the code is a genuine geographic PSČ (not a special-purpose or organisation-only code) with Slovenská pošta or another source competent for that postal claim. Establish the defensible geographic area and representative municipality using appropriate address, administrative and geographic evidence. Do not investigate whether a post office is open, closed, relocated or operational; that information is outside this project's scope.
 
 Consider all verified municipalities, municipal parts, settlements and localities served by the PSČ. Do not assume that the code equals the post-office municipality or that a postcode directory gives a complete geographic boundary.
 
@@ -195,7 +195,7 @@ Use the old facts as leads, not as a stopping point. Conduct both passes in the 
 
 **Pass 1 — broad discovery**
 
-Search the PSČ, the post-office municipality, every verified served municipality/locality, local and historical place names, landscape names and known heritage subjects. Use relevant official tourism portals, municipal and regional sources, heritage registers, museums, nature authorities, national-park administrations, specialist institutions, archives, universities and reliable local-history sources.
+Search the PSČ, the representative municipality, every verified municipality/locality in its geographic scope, local and historical place names, landscape names and known heritage subjects. Use relevant official tourism portals, municipal and regional sources, heritage registers, museums, nature authorities, national-park administrations, specialist institutions, archives, universities and reliable local-history sources.
 
 Discover candidates across the whole geographic PSČ area. Do not limit discovery to the municipality named in `city`, the old record or the first general search results.
 
@@ -295,7 +295,7 @@ Follow the full Slovak Content Standard and schema. The three coordinate roles m
 
 ### 7.1 Representative place and point
 
-Choose one human-readable place/feature that genuinely characterises the geographic PSČ area. It need not be the serving post office, geometric centre or most famous attraction. The coordinates must identify that same representative place and be geographically defensible. Do not copy the post-office coordinates into this field merely because the post office determines `city`.
+Choose one human-readable place/feature that genuinely characterises the geographic PSČ area. It need not be a post office, geometric centre or most famous attraction. The coordinates must identify that same representative place and be geographically defensible.
 
 ### 7.2 Access point
 
@@ -405,8 +405,8 @@ Perform one final basic validation pass after the editorial, geographic and tran
 
 - the postcode is a verified geographic Slovak PSČ;
 - the completed content record is saved with `status = 'validated'` (or remains `published` only if it was not substantively changed);
-- the serving post office is identified and its physical municipality is correctly used for `city`;
-- `district`, `county` and `state` correspond to that same post-office municipality;
+- `city` identifies a defensible representative municipality for the geographic PSČ;
+- `district`, `county` and `state` correspond to that same representative municipality;
 - the full defensible PSČ area, not just the post-office municipality, was researched;
 - facts are accurate, significant, locally connected and adequately sourced;
 - both discovery passes and all relevant thematic checks were completed;
@@ -457,8 +457,8 @@ Do not run this section-wide audit during ordinary per-postcode rework, repeat i
 
 ## 13. Operating principle
 
-**Rework each eligible Slovak geographic PSČ once: establish the serving post office and its physical municipality, research the full geographic area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, save the JSON as `validated` in `data/slovakia/records/{postcode}.json`, preserve `data_version`, verify it by reading it back from GitHub and move forward. Keep the section-wide audit separate.**
+**Rework each eligible Slovak geographic PSČ once: establish that it is a genuine geographic code and select its representative municipality from defensible geographic evidence, research the full geographic area in one efficient two-pass phase, write and compare all seven languages together, complete the Slovak geographic layer, validate once, save the JSON as `validated` in `data/slovakia/records/{postcode}.json`, preserve `data_version`, verify it by reading it back from GitHub and move forward. Keep the section-wide audit separate.**
 
-The administrative fields describe the municipality containing the serving post office. The research scope remains the full geographic PSČ area. Never confuse those two things.
+The administrative fields describe the representative municipality. The research scope remains the full defensible geographic PSČ area. Never confuse those two things.
 
 Never trade accuracy for speed, geographic truth for convenience, content quality for a quota, or editorial independence for promotion.
