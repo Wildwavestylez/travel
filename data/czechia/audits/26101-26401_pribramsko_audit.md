@@ -132,3 +132,9 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 - 26272/fact_018 — Starosedlský Hrádek: středověká tvrz, renesanční přestavba a jezuitské letní sídlo; text zaznamenává dobytí tvrze roku 1472 a omezený přístup k soukromému objektu. Poloha 49.57847, 14.00422; castle; approximate. Zdroje obec Starosedlský Hrádek, odborný katalog hradů a obecní územní plán.
 - Všechny čtyři nové fakty mají překlady cs/de/en/es/fr/it/nl. Read-back: v PSČ 26272 jsou všechny čtyři master záznamy i překlady přítomné.
 - Read-back celého rozsahu: 36 PSČ, 253 faktů, 240 faktů s polohou a 13 null poloh. Žádná publikace, V5, záloha ani read-only zamčení nebyly provedeny.
+
+
+## Korekce přiřazení podle RÚIAN (2026-11-21)
+
+- Při kontrole sousedních PSČ bylo zjištěno, že Drahenice patří do poštovní oblasti 26285, nikoli 26272. Nový záznam 26272/fact_017 o zámku Drahenice byl proto odstraněn včetně všech sedmi jazykových položek; tematika Drahenického zámku a památkové zóny je již pokryta ve správném záznamu 26285. ID ostatních faktů nebyla měněna.
+- Aktualizovaný read-back celého rozsahu: 36 PSČ, 252 faktů, 239 faktů s polohou, 13 null poloh. Tato korekce předchází duplicitě a chybnému přiřazení mezi PSČ.
