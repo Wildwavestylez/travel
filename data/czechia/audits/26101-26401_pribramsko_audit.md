@@ -116,3 +116,9 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 - 26272/fact_012 — Hrochův hrádek u Dobré Vody: mimořádný soubor raně středověkého hradiště a gotické tvrze. NPÚ popisuje zříceninu věžové stavby i valové opevnění; Hornické muzeum Příbram potvrzuje pravěké a raně středověké osídlení. Poloha 49.55531, 14.00525; ruin; approximate. Zdroje NPÚ, Hornické muzeum Příbram a odborný článek Památky středních Čech 2025.
 - 26272/fact_013 — Kostel sv. Jana Křtitele v Počaplech: samostatný objekt odlišný od kostela ve Stražišti; jádro z poloviny 13. století, renesanční ohradní zeď, brána, bašta a kostnice, věž upravená roku 1708 v souvislosti s Marcantoniem Canevallem. Přidáno bez polohy, protože dosud nebyl nalezen obhajitelný objektový bod; poloha zůstává null záměrně.
 - Oba nové fakty mají překlady cs/de/en/es/fr/it/nl. Read-back celého bloku po zápisu: 36 PSČ, 248 faktů, 235 faktů s polohou a 13 null poloh (12 původních otevřených null + 1 nový fakt bez doloženého bodu). Žádné stávající neprázdné polohy nebyly měněny.
+
+
+## Další objev — Dobrá Voda u Březnice (2026-11-21)
+
+- 26272/fact_014 — Kaple sv. Maří Magdalény: osmiboká raně barokní stavba z roku 1642, založená nad silným pramenem Přibíkem Jeníškem z Újezda a připisovaná Carlu Luragovi. Pramen byl využíván v malých lázních, známých zejména v 19. století; v blízkosti stojí také socha sv. Františka z roku 1798. Poloha 49.5560927835, 14.0002888475; chapel; exact. Zdroje Památkový katalog, město Březnice, Atlas české architektury a záznam o kapli.
+- Fakt má překlady cs/de/en/es/fr/it/nl. Read-back celého bloku: 36 PSČ, 249 faktů, 236 faktů s polohou a 13 null poloh. Nově doplněné fakty nemění žádnou z původních neprázdných poloh.
