@@ -156,7 +156,64 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 - Drahenice zůstávají pouze ve správném PSČ 26285; v 26272 se neopakují.
 
 ### Aktuální read-back celého rozsahu
-- 36 PSČ, **252 faktů**, **243 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
+- 36 PSČ, **265 faktů**, **256 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
 - Z původních 27 null poloh je nyní doloženo 18; 9 zůstává otevřených, protože pro ně nebyl nalezen dostatečně přesný a obhajitelný bod.
-- Všech 11 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
+- Všech 24 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
 - Stav zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy či read-only zamčení.
+
+
+## Pokračování — širší průzkum Rožmitálska, Třemšínska a Sedlčanska (2026-11-21)
+
+Uživatel potvrdil, že cílem je zachytit každou zajímavost nebo stavbu, která může mít hodnotu pro Europe Explorer — nejen hlavní turistické cíle. Rešerše proto zahrnula i menší archeologické lokality, historické technické objekty, drobné sakrální stavby, památkově chráněné domy a místní příběhy. Přiřazení nových objektů bylo kontrolováno proti RÚIAN a existujícímu obsahu, aby se nevytvářely duplicity ani chybná PSČ.
+
+### Nově doplněné fakty — celkem 24
+
+**26221 — Obecnice / Brdy**
+- `fact_006` Skelná huť — sklářská enkláva Tobiáše Matěje Adlera, 1749–1783, s vodním náhonem, rybníky a stoupami.
+- `fact_007` Cílová plocha Jordán — vojenský areál používaný od roku 1930, zkušební srub CE/Benešák, pozorovatelna Houpák a další vojenské i přírodní pozůstatky. Záznam výslovně upozorňuje na bezpečný a povolený přístup.
+
+**26272 — Březnicko**
+- `fact_011` Hradiště Šance u Počapel — raně středověké hradiště s valy až šest metrů vysokými.
+- `fact_012` Hrochův hrádek — pravěké a raně středověké hradiště s gotickou tvrzí.
+- `fact_014` Kaple sv. Maří Magdalény v Dobré Vodě — osmiboká stavba z roku 1642 nad pramenem s někdejší lázeňskou tradicí.
+- `fact_015` Kostel sv. Barbory v Pročevilech — poutní osmiboká stavba spojená s jezuity z Březnice a Carlo Luragem.
+- `fact_016` Kostel sv. Václava v Bubovicích — gotické fresky z první poloviny 14. století; obnovené malby byly požehnány v lednu 2026.
+- `fact_018` Starosedlský Hrádek — středověká tvrz přestavěná na renesanční zámek a jezuitské letní sídlo.
+
+**26401 — Radíčsko**
+- `fact_012` Kozí hřbet — samostatná hradní zřícenina nad meandrem Mastníku.
+- `fact_013` Ostromeč — samostatná hradní lokalita u Hrazan, odlišená od keltského oppida.
+
+**26251 — Dublovicko**
+- `fact_005` Zrůbek — rožmberská tvrz chránící přívoz přes Vltavu, s archeologicky doloženou obytnou věží a hlubokým příkopem; její zbytky leží dnes téměř u hladiny Slapské přehrady.
+
+**26242 — Rožmitálsko a Třemšínsko**
+- `fact_009` Třemšín — pravěké hradiště a středověký hrad na vrcholu 827 m.
+- `fact_010` Hengst / Henkšt na Kobylí hlavě — nedokončený hrádek s centrální věžovou stavbou, oválným příkopem a valem.
+- `fact_011` Gangloffův kříž — unikátní litinová pocta lesnímu vynálezci Karlu Danielu Gangloffovi.
+- `fact_012` Třemšínská bouda — bývalá lesní kaple a přístřeší z poloviny 19. století.
+- `fact_013` Pňovická kaple se zvonicí — šestiboká kaple na návsi, pravděpodobně před polovinou 19. století.
+- `fact_014` Keltské čtyřúhelníkové valy u Třebska — dvě archeologické lokality typu Viereckschanze z doby laténské; funkce je popsána jako odborně diskutovaná, nikoli jistá.
+- `fact_015` Třebský mlýn — historický vodní mlýn na místě zaniklé tvrze, dnes soukromý objekt bez veřejného přístupu.
+- `fact_016` Kostel sv. Jana Nepomuckého v Rožmitále — barokní kostel přestavěný Josefem Fantou v letech 1904–1905, s odkazem na Jakuba Jana Rybu.
+- `fact_017` Kaplička sv. Anny u zámku — pozdně barokní památka u starého hradního příkopu.
+- `fact_018` Forsthaus U Lipků — pozdně barokní panský dům a bývalý lesní úřad s hospodářským areálem.
+- `fact_019` Kamenný most v Palackého ulici — jednoobloukový most přes bývalý městský příkop se sochami sv. Václava a sv. Jana Nepomuckého.
+- `fact_020` Panský dům — bývalá panská hospoda, dnešní budova z roku 1938 se sgrafitem Jaroslava Lva od Jana Šebka; text výslovně rozlišuje původní a současnou stavbu.
+- `fact_021` Hofmeisterův dům — památkově chráněný dům spojený s pozdějším životem a tvorbou Rudolfa Richarda Hofmeistera; záznam výslovně odlišuje tento dům od jeho skutečného rodného domu, který zanikl při požáru roku 1871.
+
+Všech 24 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/de/en/es/fr/it/nl. Read-back potvrdil 24/24 položek v každém jazyce. Nejkratší nový český text má 736 znaků; každý nový fakt má nejméně tři zdroje a doloženou polohu. Žádný z těchto 24 nových faktů nebyl přidán bez mapového bodu.
+
+### Další opravy poloh a duplicity
+- `26252/fact_004` — socha sv. Jana Nepomuckého ve Vysokém Chlumci: doplněno GPS 49.61755, 14.3886930556 podle regionálního inventáře MAS Sedlčansko; identita sochy ověřena v NPÚ.
+- `26244/fact_002` — kostel sv. Prokopa a Navštívení Panny Marie ve Hvožďanech: doplněno 49.5271861, 13.8051944 podle geotagu zobrazeného objektu ve Wikimedia Commons a ověřeno proti oficiálnímu popisu obce a Atlasu české architektury.
+- `26301/fact_011` — kaple Nanebevzetí Panny Marie v Budínku: doplněno 49.75568, 14.19153 podle Mapcarta/OSM; NPÚ potvrzuje umístění kaple na východním okraji Budínku.
+- Celkem je nyní doloženo 18 z původních 27 null poloh; 9 zůstává otevřených.
+- V 26272 byl duplicitní `fact_013` o kostele sv. Jana Křtitele sloučen do existujícího `fact_010` o kostele ve Stražišti; podrobnější architektonické informace a sedm překladů byly zachovány pod původním ID. Drahenice zůstávají pouze v PSČ 26285.
+
+### Aktuální technický read-back
+- 36 PSČ, **265 faktů**, **256 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
+- 24/24 nových faktů má text delší než 350 znaků, nejméně 3 zdroje, platný mapový bod a kompletní překlady v 7 jazycích.
+- Počty překladů nových faktů: cs 24, de 24, en 24, es 24, fr 24, it 24, nl 24.
+- Žádné existující neprázdné polohy nebyly plošně přeměřovány; doplněny byly pouze tři původní null polohy uvedené výše.
+- Stav zůstává **REVIEW REQUIRED**. Bez publikace, změny data_version, zálohy nebo read-only zamčení.
