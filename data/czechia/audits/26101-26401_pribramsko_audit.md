@@ -373,8 +373,8 @@ Tato sekce nahrazuje předchozí poznámku, že obě nová fakta zůstala bez po
 ### Otevřené případy — REVIEW REQUIRED, bez změny dat
 
 1. 26211/fact_004 — Čtyřmezí: orientační bod leží na styku čtyř katastrálních území Rosovice, Dobříš, Buková u Příbramě a Hostomice pod Brdy. Jde o hraniční bod bez adresního místa; RÚIAN adresní CSV proto neurčuje jediné PSČ. Stávající 26211 zůstává jediným primárním přiřazením, ale jeho výlučnost nelze z agregovaného CSV potvrdit. Nepřesouvat ani neduplikovat bez silnějšího parcelního/mapového důkazu.
-2. 26215/fact_002 — Psí hory u Čeliny: lokalita je v katastrálním území Čelina, jehož adresní místa jsou rozdělena mezi 26203, 26215 a 26301. Fakt používá neadresní bod ložiska (49.74000, 14.33300); agregovaný RÚIAN CSV neobsahuje hranici rozdělení uvnitř části obce. Stávající 26215 ponechat, ale označit k ručnímu ověření konkrétního poštovního přiřazení.
-3. 26215/fact_004 — Židovský hřbitov v Čelině: stejná část obce Čelina je rozdělena mezi více PSČ. Hřbitov má vlastní neadresní bod (49.72877, 14.3195428), nikoli adresní místo s PSČ. Stávající 26215 ponechat, ale označit k ručnímu ověření podle přesné polohy vůči poštovnímu rozdělení.
+2. 26215/fact_002 — Psí hory u Čeliny: lokalita je v katastrálním území Čelina, jehož adresní místa aktuální RÚIAN CSV uvádí pod 26203 a 26215; 26301 v tomto CSV pro část Čelina uvedeno není. Fakt používá neadresní bod ložiska (49.74000, 14.33300); agregovaný RÚIAN CSV neobsahuje hranici rozdělení uvnitř části obce. Stávající 26215 ponechat, ale označit k ručnímu ověření konkrétního poštovního přiřazení.
+3. 26215/fact_004 — Židovský hřbitov v Čelině: stejná část obce Čelina má v aktuálním RÚIAN CSV adresní místa pod 26203 i 26215; 26301 v tomto CSV pro část Čelina uvedeno není. Hřbitov má vlastní neadresní bod (49.72877, 14.3195428), nikoli adresní místo s PSČ. Stávající 26215 ponechat, ale označit k ručnímu ověření podle přesné polohy vůči poštovnímu rozdělení.
 
 ### Výsledek dílčí kontroly
 
