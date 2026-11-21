@@ -31,7 +31,7 @@
         "lon": 16.97504,
         "type": "historic_district",
         "accuracy": "area_representative",
-        "source": "https://mojafarnost.sk/kostoly/kostol-bratislava-devinska-nova-ves-ducha-sveteho",
+        "source": "https://mojafarnost.sk/kostoly/kostol-bratislava-devinska-nova-ves-ducha-svateho",
         "address": null
       }
     },
@@ -199,7 +199,7 @@
     "postcode_source_release": "Kontrola 21. 11. 2026; geografický testovací dataset slovak-postal-codes připnutý na commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
     "postcode_source_checked_at": "2026-11-21",
     "postcode_conflict": true,
-    "postcode_conflict_note": "RAGEO-odvozený veřejný dataset z registru adres Ministerstva vnitra uvádí u PSČ 84107 vedle adresních bodů v Bratislava-Devínska Nová Ves také body v dalších městských částech Bratislavy (mj. Dúbravka, Karlova Ves, Devín, Lamač, Záhorská Bystrica a Staré Mesto) a izolovaný bod v Pezinku. To je v rozporu s ulicovým seznamem PSČ 84107, který jako relevantní oblast uvádí Devínskou Novou Ves a Devínske Jazero. RAGEO-derived points are therefore treated as address-geography test data, not as an authoritative postal boundary; no facts from the outlying districts or Pezinok have been imported. The unresolved mismatch remains explicitly recorded.",
+    "postcode_conflict_note": "Veřejný dataset slovak-postal-codes odvozený z registru adres Ministerstva vnitra SR uvádí u PSČ 84107 vedle adresních bodů v Bratislavě-Devínskej Novej Vsi také body v dalších městských částech Bratislavy (mimo jiné v Dúbravce, Karlově Vsi, Devíně, Lamači, Záhorské Bystrici a Starém Městě) a izolovaný bod v Pezinku. To je v rozporu s ulicovým seznamem PSČ 84107, který jako relevantní oblast uvádí Devínskou Novou Ves a Devínske Jazero. Body z tohoto datasetu proto slouží pouze jako testovací geografická evidence, nikoli jako autoritativní hranice doručovací oblasti; fakta z odlehlých městských částí ani z Pezinku nebyla převzata. Nesoulad zůstává výslovně zaznamenán k dalšímu ověření.",
     "delivery_office_note": "Slovenská pošta přiřazuje 84107–84110 poště Bratislava 49. Oficiální seznam poboček uvádí její fyzickou adresu Pavla Horova 16, Bratislava, v městské části Devínska Nová Ves; provozní PSČ pobočky je 84009. Top-level city je proto Bratislava a district Devínska Nová Ves. Provozní adresa pobočky není reprezentativním bodem PSČ 84107.",
     "postcode_override_reason": null,
     "geographic_authority": "Administrativní hierarchie: Bratislava – Devínska Nová Ves, okres Bratislava IV, Bratislavský kraj. Adresní test: veřejný CC0 dataset slovak-postal-codes odvozený z registru adres Ministerstva vnitra SR, commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0. Jeho záznamy pro 84107 vykazují rozptýlené adresní body mimo Devínskou Novou Ves; tento rozptyl není považován za hranici doručovací oblasti. Ulice a jednotlivá místa v Devínskej Novej Vsi jsou nezávisle doloženy poštovním seznamem a adresami institucí. Reprezentativní bod je ověřen samostatně u kostela Ducha Svatého v historickém jádru."
