@@ -271,3 +271,40 @@ Všech 28 nových faktů je v masteru i ve všech sedmi jazykových verzích cs/
 - **26301/fact_015 — Usedlost čp. 2 v Lhotce:** tradiční venkovský statek z přelomu 19. a 20. století; Lhotka je podle RÚIAN samostatnou částí Obořiště v PSČ 26301. Přidáno do masteru a všech sedmi jazyků. Poloha zůstává null, protože nebyl ověřen přesný geodetický bod usedlosti; nepoužívá se střed osady.
 - Obě položky jsou označeny prioritou C jako lokální venkovské dědictví, nikoli jako velké turistické dominanty. Neobsahují propagaci provozovatelů ani komerční sdělení.
 - Po těchto dvou položkách: **269 faktů**, **259 s polohou**, **10 null celkem** (8 původních otevřených poloh + 2 nové usedlosti bez ověřeného bodu), 0 neplatných location objektů. Všech 28 nových Explorer faktů má 7/7 překladů; 26 má mapový bod a 2 zůstávají záměrně bez bodu.
+
+## Aktualizace auditu — read-back 2026-11-21, pokračování
+
+Tato sekce je nejnovější stav a nahrazuje starší průběžné součty a otevřené kroky výše, pokud jsou s ní v rozporu.
+
+### Aktuální inventář a technická konzistence
+- Supabase: **36 PSČ, 269 faktů**, všechny řádky country_code='CZ', všechny data_version=1.
+- Statusy: **35 validated, 1 placeholder (26232 Pečice), 0 published**. Statusy ani verze nebyly měněny; 26232 zůstává placeholder, přestože obsahuje dva úplné fakty a sedm jazyků. Jeho lifecycle status se nemění bez jasného pokynu.
+- Všech 36 kódů je v RÚIAN CSV, v sequence.json i právě v jedné skupině. 26242 je správně vedeno ve zvláštní skupině pro územní přesah Středočeského a Jihočeského kraje.
+- 36/36 JSON postcode odpovídá databázovému postal_code; po opravách také 36/36 databázové city odpovídá JSON city.
+- Sedm jazyků cs/de/en/es/fr/it/nl existuje u všech 36 záznamů; celkem 1 883 překladových položek. Počty i pořadí ID odpovídají master faktům, 0 osiřelých ID, 0 chybějících jazyků, 0 prázdných titulů/textů, 0 rozdílů českého masteru a translations.cs.
+- 0 českých master textů pod 350 znaků; 0 null poloh; 0 neplatných mapových kategorií, kategorií nebo priorit; 0 duplicitních názvů, textů či ID.
+- Reklamní/propagační scan všech sedmi jazyků neodhalil reklamu, prodejní výzvy ani propagaci firem.
+- Existující neprázdné souřadnice nebyly plošně ověřovány, přeměřovány ani měněny.
+
+### Opravy provedené a ověřené read-backem
+- **26101 / fact_005:** opraven německý název kostela sv. Vojtěcha; správně označuje novorenesanční, nikoli novogotickou stavbu.
+- **26101:** 11 zdrojových objektů uvnitř facts[].sources bylo bezpečně převedeno na jejich přímé URL řetězce podle aktuálního schématu. Po read-backu zůstává 0 objektových položek.
+- **26202 a 26256:** opraveny databázové sloupce city podle skutečného sídla obsluhující pošty a JSON:
+  - 26202 → Stará Huť (oficiální detail České pošty: https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/26202)
+  - 26256 → Krásná Hora nad Vltavou (oficiální detail České pošty: https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/26256)
+- **26231 / fact_004:** opraven chybný německý letopočet 1824 na 1876 a doplněn úplný význam nákupu kontribuční sýpky.
+- **26242 / fact_009:** ve francouzském překladu nahrazeno nepřesné archeologické označení oppidum přesnějším enceinte fortifiée préhistorique.
+- **26255 / fact_002:** v šesti cizojazyčných názvech zachována nejistota Krčínova hrobu — názvy nyní výslovně uvádějí záhadu/mystérium, nikoli existenci potvrzeného hrobu.
+- **26256 / fact_006:** ve španělském, francouzském a italském názvu opraveno zavádějící označení oppidum.
+- **26281 / fact_001:** ve všech šesti cizojazyčných verzích opraven překlad architektonického stylu Empire a doplněna odpovídající věta do textů.
+- **26281 / fact_005:** opraven francouzský název; auteur byl chybný význam pro pěvce/tenora, nyní správně uvádí tenoristu, který vystoupil ve více než 2 000 představeních.
+- Všechny uvedené překladové opravy byly načteny zpět a ověřeny.
+
+### Otevřené nálezy — neprovádět automatické zásahy
+1. **Zdrojové aliasy:** v pěti záznamech (26251, 26252, 26255, 26256, 26261) zůstává celkem 81 položek src_* v facts[].sources. Horní registr content.sources obsahuje objekty title/url/type, ale nemá odpovídající ID aliasů; bezpečné mapování všech aliasů proto nelze odvodit bez rizika chybného přiřazení. Neprovádět hromadnou náhradu naslepo. Jde o otevřenou trasovatelnost zdrojů.
+2. **26232 Pečice:** obsah má 2 fakty, sedm jazyků, zdroje a polohy, ale status zůstává placeholder. Bez změny statusu do validated či publikace, dokud nebude lifecycle rozhodnutí potvrzeno.
+3. **Teslínské/Baštinské benediktinské proboštství:** kandidát byl prověřen, ale nebyl přidán. Obecní zdroj jej popisuje jako lokalitu 2 km severně od Teslín, zatímco odborný archeologický atlas pracuje s názvem Baština/Kolvín a historicky nejednoznačným osídlením. Bez bezpečného potvrzení příslušnosti k PSČ 26243 jej nepřiřazovat jen podle blízkosti. Předchozí neúspěšný pokus o zápis nic nezměnil; read-back potvrzuje, že nový fakt v 26243 není.
+4. Sémantická kontrola překladů: dokončena strukturální kontrola všech 1 883 položek a cílená kontrola názvů i konkrétních významových/číselných anomálií; výše uvedené chyby opraveny. Zbývá plná ruční kontrola všech cizojazyčných odstavců, proto tuto oblast nelze označit za definitivně PASS.
+
+### Výsledek
+**REVIEW REQUIRED.** Základní inventář, struktura, délky českých textů, polohy, kategorie, duplicity, synchronizace city a reklamní scan jsou uzavřeny. Otevřené zůstávají trasovatelnost 81 zdrojových aliasů, lifecycle status 26232 a úplná sémantická kontrola všech cizojazyčných textů. Žádná publikace V5, záloha ani read-only zamčení nebyly spuštěny.
