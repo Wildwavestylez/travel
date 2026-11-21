@@ -1,4 +1,238 @@
 {
   "postcode": "84105",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Karlova Ves",
+  "county": "Bratislava IV",
+  "state": "Bratislavský kraj",
+  "district_type": "urban_district",
+  "representative_place": "Dlhé diely – Námestie Dlhé diely a přilehlé obytné sídliště",
+  "representative_point": {
+    "lat": 48.15287,
+    "lon": 17.0493
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Dlhé diely – nové sídliště na severním svahu Karlovy Vsi",
+      "text": "Dlhé diely patří k nejmladším velkým obytným souborům Bratislavy. Jejich výstavbě předcházela v 80. letech 20. století projekční příprava a postupně zde vyrostlo rozsáhlé sídliště na severním svahu Karlovy Vsi. Na přelomu 80. a 90. let se obytná výstavba završila a z původně okrajové části se stala hustě obydlená městská čtvrť. Urbanistický charakter místa dodnes určují převážně bytové domy, výškově členěný terén a síť pěších propojení mezi jednotlivými úrovněmi svahu. Dlhé diely tak představují odlišnou kapitolu dějin Karlovy Vsi než její někdejší vinařská vesnice a starší zástavba při Dunaji.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "src_03",
+        "src_04",
+        "src_05"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Dlhé diely – obytný soubor, reprezentativní poloha",
+        "address": null,
+        "lat": 48.15287,
+        "lon": 17.0493,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Náměstí Dlhé diely – terasový veřejný prostor s fontánou",
+      "text": "Náměstí Dlhé diely mezi ulicemi Pribišova a Ľudovíta Fullu je přibližně dvě stě metrů dlouhý terasovitý veřejný prostor vložený mezi obytné domy sídliště. Jeho čtyři výškové úrovně propojují dětské hřiště, centrální část s kruhovou fontánou, odpočinkovou zónu s kruhovou lavičkou a prostor pro trhy. Přes lávku nad Majerníkovou ulicí navazuje na další vnitrobloky. Fontána s tryskami směřujícími vzhůru slouží v zimě také jako podstavec adventní výzdoby. Náměstí je příkladem toho, jak sídlištní veřejný prostor kombinuje pěší pohyb, každodenní setkávání, dětské vyžití i drobné komunitní akce.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "src_01",
+        "src_02",
+        "src_06"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Námestie Dlhé diely – centrální terasa s fontánou",
+        "address": "Pribišova / Ľudovíta Fullu, 841 05 Bratislava, Slovensko",
+        "lat": 48.15375,
+        "lon": 17.04962,
+        "type": "square",
+        "accuracy": "exact",
+        "source": "https://www.bkis.sk/pekne-miesta/namestie-dlhe-diely/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální technické parametry Slovenské pošty, účinné od 1. 1. 2026, uvádějí v příloze 3a rozsah 841 04–841 05 pod vybranou poštou Bratislava 4. Fyzická pobočka Bratislava 4 je na Karloveské ulici v městské části Karlova Ves; její vlastní provozní PSČ se nesmí zaměňovat s doručovacím PSČ 841 05.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok; doplňkově veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO",
+    "postcode_source_release": "Kontrola 21. 11. 2026; RAGEO-odvozený dataset připnutý na commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Slovenská pošta v technických parametrech přiřazuje PSČ 841 05 k vybrané poště Bratislava 4 společně s 841 04. Pobočka Bratislava 4 je fyzicky v Karlově Vsi. Pro pole city a district se proto používá Bratislava a Karlova Ves, nikoli případná odlišná provozní poštovní adresa pobočky.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO obsahuje pro PSČ 84105 celkem 530 adresních bodů ve dvou administrativních lokalitách: Bratislava-Karlova Ves 511 a Bratislava-Devín 19. Souhrnný bod je 48.15287, 17.04930; obalový rozsah 48.14778–48.15829 N a 17.03899–17.05984 E není hranicí doručovací oblasti. Převažující část evidovaných bodů leží v Karlově Vsi; existence 19 bodů v Devíně je zaznamenána a nezamlčena. Reprezentativní bod byl zvolen v jádru oblasti Dlhé diely. Jednotlivé faktové lokality byly ověřeny samostatně."
+  },
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Bratislavské kultúrne a informačné stredisko – Námestie Dlhé diely",
+      "url": "https://www.bkis.sk/pekne-miesta/namestie-dlhe-diely/",
+      "type": "official"
+    },
+    {
+      "id": "src_02",
+      "title": "Mestská časť Bratislava-Karlova Ves – Pokračuje oživovanie verejných priestorov na Dlhých dieloch",
+      "url": "https://www.karlovaves.sk/wp-content/uploads/2024/06/KN_07-08_2024.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_03",
+      "title": "Mestská časť Bratislava-Karlova Ves – História",
+      "url": "https://www.karlovaves.sk/karlova-ves/historia/",
+      "type": "official"
+    },
+    {
+      "id": "src_04",
+      "title": "Slovensko.sk – Informácie o mestskej časti Bratislava-Karlova Ves",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_bd0e07de-c6c6-4d53-b0a3-5d647374fffd",
+      "type": "official"
+    },
+    {
+      "id": "src_05",
+      "title": "Hlavné mesto Bratislava – uznesenie 752/1994 k obytnému súboru Dlhé diely",
+      "url": "https://zastupitelstvo.bratislava.sk/mestske-zastupitelstvo-hlavneho-mesta-sr-bratislavy-zasadnutie-23091994/bod-13/",
+      "type": "official"
+    },
+    {
+      "id": "src_06",
+      "title": "Mestská časť Bratislava-Karlova Ves – archív projektov a revitalizácia vnútrobloku Pribišova – Ľudovíta Fullu",
+      "url": "https://www.karlovaves.sk/zivotne-prostredie-a-projekty/projekty/archiv-projektov/",
+      "type": "official"
+    },
+    {
+      "id": "src_07",
+      "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, príloha 3a",
+      "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_08",
+      "title": "Slovak postal codes – verejný CC0 dataset odvodený z RAGEO, adresné body",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "id": "src_09",
+      "title": "Slovak postal codes – súhrn PSČ, reprezentatívny bod a obalový rozsah",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Dlhé diely – Námestie Dlhé diely a přilehlé obytné sídliště",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – nové sídliště na severním svahu Karlovy Vsi",
+          "text": "Dlhé diely patří k nejmladším velkým obytným souborům Bratislavy. Jejich výstavbě předcházela v 80. letech 20. století projekční příprava a postupně zde vyrostlo rozsáhlé sídliště na severním svahu Karlovy Vsi. Na přelomu 80. a 90. let se obytná výstavba završila a z původně okrajové části se stala hustě obydlená městská čtvrť. Urbanistický charakter místa dodnes určují převážně bytové domy, výškově členěný terén a síť pěších propojení mezi jednotlivými úrovněmi svahu. Dlhé diely tak představují odlišnou kapitolu dějin Karlovy Vsi než její někdejší vinařská vesnice a starší zástavba při Dunaji."
+        },
+        {
+          "id": "fact_002",
+          "title": "Náměstí Dlhé diely – terasový veřejný prostor s fontánou",
+          "text": "Náměstí Dlhé diely mezi ulicemi Pribišova a Ľudovíta Fullu je přibližně dvě stě metrů dlouhý terasovitý veřejný prostor vložený mezi obytné domy sídliště. Jeho čtyři výškové úrovně propojují dětské hřiště, centrální část s kruhovou fontánou, odpočinkovou zónu s kruhovou lavičkou a prostor pro trhy. Přes lávku nad Majerníkovou ulicí navazuje na další vnitrobloky. Fontána s tryskami směřujícími vzhůru slouží v zimě také jako podstavec adventní výzdoby. Náměstí je příkladem toho, jak sídlištní veřejný prostor kombinuje pěší pohyb, každodenní setkávání, dětské vyžití i drobné komunitní akce."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Dlhé diely – Platz Dlhé diely und angrenzendes Wohngebiet",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – eine neue Wohnsiedlung am Nordhang von Karlova Ves",
+          "text": "Dlhé diely gehört zu den jüngsten großen Wohngebieten Bratislavas. Der Bebauung gingen in den 1980er-Jahren Planungsarbeiten voraus; anschließend entstand hier am Nordhang von Karlova Ves eine ausgedehnte Wohnsiedlung. Um die Wende von den 1980er- zu den 1990er-Jahren wurde der Wohnungsbau abgeschlossen, und aus einem früheren Randgebiet entwickelte sich ein dicht besiedelter Stadtteil. Bis heute prägen überwiegend Mehrfamilienhäuser, das gestufte Gelände und Fußwege zwischen den verschiedenen Hanglagen das Stadtbild. Dlhé diely bildet damit ein anderes Kapitel der Geschichte von Karlova Ves als das ehemalige Winzerdorf und die ältere Bebauung an der Donau."
+        },
+        {
+          "id": "fact_002",
+          "title": "Platz Dlhé diely – ein terrassierter öffentlicher Raum mit Springbrunnen",
+          "text": "Der Platz Dlhé diely zwischen den Straßen Pribišova und Ľudovíta Fullu ist ein etwa 200 Meter langer, terrassenförmig angelegter öffentlicher Raum zwischen den Wohnhäusern der Siedlung. Seine vier Ebenen verbinden einen Spielplatz, den zentralen Bereich mit einem Rundbrunnen, eine Ruhezone mit kreisförmiger Bank und eine Fläche für Märkte. Eine Fußgängerbrücke über die Majerníkova-Straße verbindet ihn mit weiteren Innenhöfen. Der Brunnen mit senkrecht aufsteigenden Wasserstrahlen dient im Winter auch als Sockel für die Adventsdekoration. Der Platz zeigt, wie ein öffentlicher Raum einer Großwohnsiedlung Fußwege, alltägliche Begegnungen, Spielmöglichkeiten und kleinere Gemeinschaftsveranstaltungen verbindet."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Dlhé diely – Dlhé diely Square and the surrounding residential neighbourhood",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – a new housing estate on Karlova Ves’s northern slope",
+          "text": "Dlhé diely is one of Bratislava’s newest large residential districts. Planning for its development took place in the 1980s, followed by the construction of an extensive housing estate on the northern slope of Karlova Ves. Residential construction was completed around the turn of the 1990s, transforming what had been an outlying area into a densely populated urban neighbourhood. Its character is still defined by apartment blocks, steeply tiered terrain and pedestrian links between different levels of the hillside. Dlhé diely therefore represents a different chapter in Karlova Ves’s history from the former wine-growing village and the older settlement near the Danube."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dlhé diely Square – a terraced public space with a fountain",
+          "text": "Dlhé diely Square, between Pribišova and Ľudovíta Fullu streets, is an approximately 200-metre-long terraced public space set among the neighbourhood’s residential buildings. Its four levels connect a playground, a central area with a circular fountain, a resting area with a round bench and a market space. A footbridge over Majerníkova Street links it to other residential courtyards. The fountain, with jets directed vertically upwards, is also used in winter as a base for Advent decorations. The square shows how a housing-estate public space can combine pedestrian routes, everyday meeting places, children’s activities and small community events."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Dlhé diely – plaza Dlhé diely y el barrio residencial circundante",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – un nuevo barrio residencial en la ladera norte de Karlova Ves",
+          "text": "Dlhé diely es uno de los grandes barrios residenciales más recientes de Bratislava. Su construcción estuvo precedida por trabajos de planificación durante la década de 1980; después se levantó aquí un amplio conjunto de viviendas en la ladera norte de Karlova Ves. La construcción residencial concluyó en torno al cambio de década de 1980 a 1990 y convirtió una zona hasta entonces periférica en un barrio urbano densamente poblado. Su carácter sigue definido por los bloques de viviendas, el terreno escalonado y una red de recorridos peatonales que conectan los distintos niveles de la ladera. Dlhé diely representa así un capítulo distinto de la historia de Karlova Ves respecto al antiguo pueblo vitícola y al asentamiento más antiguo junto al Danubio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plaza Dlhé diely – un espacio público aterrazado con fuente",
+          "text": "La plaza Dlhé diely, situada entre las calles Pribišova y Ľudovíta Fullu, es un espacio público aterrazado de unos 200 metros de longitud, integrado entre los edificios residenciales del barrio. Sus cuatro niveles conectan un parque infantil, una zona central con una fuente circular, un área de descanso con un banco redondo y un espacio para mercados. Una pasarela peatonal sobre la calle Majerníkova la enlaza con otros patios interiores. La fuente, con chorros de agua dirigidos verticalmente hacia arriba, también sirve en invierno como base para la decoración de Adviento. La plaza muestra cómo un espacio público de un barrio residencial combina recorridos peatonales, encuentros cotidianos, actividades infantiles y pequeños actos comunitarios."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Dlhé diely – place Dlhé diely et quartier résidentiel voisin",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – un nouveau quartier résidentiel sur le versant nord de Karlova Ves",
+          "text": "Dlhé diely fait partie des grands quartiers résidentiels les plus récents de Bratislava. Sa construction a été précédée de travaux de planification dans les années 1980, puis un vaste ensemble d’immeubles a été édifié sur le versant nord de Karlova Ves. La construction résidentielle s’est achevée autour du passage aux années 1990, transformant une zone autrefois périphérique en quartier urbain densément peuplé. Son caractère reste marqué par les immeubles collectifs, le relief en gradins et les liaisons piétonnes entre les différents niveaux de la pente. Dlhé diely représente ainsi un chapitre différent de l’histoire de Karlova Ves de celui de l’ancien village viticole et du noyau plus ancien près du Danube."
+        },
+        {
+          "id": "fact_002",
+          "title": "Place Dlhé diely – un espace public en terrasses avec une fontaine",
+          "text": "La place Dlhé diely, entre les rues Pribišova et Ľudovíta Fullu, est un espace public en terrasses d’environ 200 mètres de long, inséré entre les immeubles résidentiels du quartier. Ses quatre niveaux relient une aire de jeux, une partie centrale avec une fontaine circulaire, un espace de repos doté d’un banc rond et une zone destinée aux marchés. Une passerelle au-dessus de la rue Majerníkova la relie à d’autres cours intérieures. En hiver, la fontaine, dont les jets d’eau montent verticalement, sert également de support aux décorations de l’Avent. La place illustre la manière dont l’espace public d’un grand ensemble résidentiel associe cheminements piétonniers, rencontres quotidiennes, loisirs pour enfants et petits événements communautaires."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Dlhé diely – piazza Dlhé diely e quartiere residenziale circostante",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – un nuovo quartiere residenziale sul versante settentrionale di Karlova Ves",
+          "text": "Dlhé diely è uno dei grandi quartieri residenziali più recenti di Bratislava. La sua costruzione fu preceduta da lavori di progettazione negli anni Ottanta, seguiti dalla realizzazione di un vasto complesso abitativo sul versante settentrionale di Karlova Ves. L’edificazione residenziale si concluse intorno al passaggio tra gli anni Ottanta e Novanta, trasformando un’area un tempo periferica in un quartiere urbano densamente popolato. Il suo carattere è tuttora definito dai condomini, dal terreno disposto su livelli e dai collegamenti pedonali tra le diverse quote del pendio. Dlhé diely rappresenta quindi un capitolo diverso della storia di Karlova Ves rispetto all’antico villaggio viticolo e al nucleo più antico vicino al Danubio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Piazza Dlhé diely – uno spazio pubblico terrazzato con fontana",
+          "text": "La piazza Dlhé diely, tra le vie Pribišova e Ľudovíta Fullu, è uno spazio pubblico terrazzato lungo circa 200 metri, inserito tra gli edifici residenziali del quartiere. I suoi quattro livelli collegano un parco giochi, una zona centrale con una fontana circolare, un’area di sosta con una panchina rotonda e uno spazio per i mercati. Una passerella pedonale sopra via Majerníkova la collega ad altri cortili interni. In inverno la fontana, con getti d’acqua diretti verticalmente verso l’alto, viene utilizzata anche come base per le decorazioni dell’Avvento. La piazza mostra come lo spazio pubblico di un quartiere residenziale possa unire percorsi pedonali, incontri quotidiani, attività per bambini e piccoli eventi comunitari."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dlhé diely – het plein Dlhé diely en de omliggende woonwijk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dlhé diely – een nieuwe woonwijk op de noordelijke helling van Karlova Ves",
+          "text": "Dlhé diely is een van de nieuwste grote woonwijken van Bratislava. Aan de bouw gingen in de jaren tachtig planologische voorbereidingen vooraf; vervolgens verrees hier op de noordelijke helling van Karlova Ves een omvangrijke woonwijk. Rond de overgang van de jaren tachtig naar de jaren negentig werd de woningbouw voltooid en veranderde een voorheen perifere zone in een dichtbevolkte stadswijk. Het karakter wordt nog altijd bepaald door flatgebouwen, het trapsgewijs oplopende terrein en voetgangersverbindingen tussen de verschillende niveaus van de helling. Dlhé diely vormt daarmee een ander hoofdstuk in de geschiedenis van Karlova Ves dan het vroegere wijndorp en de oudere bebouwing aan de Donau."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plein Dlhé diely – een terrasvormige openbare ruimte met fontein",
+          "text": "Het plein Dlhé diely, tussen de straten Pribišova en Ľudovíta Fullu, is een ongeveer 200 meter lange, terrasvormige openbare ruimte tussen de woongebouwen van de wijk. De vier niveaus verbinden een speelplaats, een centraal gedeelte met een ronde fontein, een rustplek met een cirkelvormige bank en een ruimte voor markten. Een voetgangersbrug over de Majerníkova-straat verbindt het plein met andere binnenterreinen. De fontein met waterstralen die recht omhoog spuiten, dient in de winter ook als sokkel voor adventsversiering. Het plein laat zien hoe de openbare ruimte van een woonwijk wandelroutes, dagelijkse ontmoetingen, speelgelegenheid en kleinschalige buurtactiviteiten combineert."
+        }
+      ]
+    }
+  }
 }
