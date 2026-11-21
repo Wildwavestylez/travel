@@ -1,12 +1,12 @@
 # 59100 Prato — samostatný rework a audit
 
-**Stav: IN PROGRESS — NEVALIDOVÁNO, NEPUBLIKOVÁNO**
+**Stav: REVIEW REQUIRED — auditní práce proběhla, formální uzavření blokují B, F a lifecycle `placeholder`; nepublikováno**
 
 - Kanonický rozsah: CAP `59100` — Comune di Prato, Toscana.
 - Databázový zdroj pravdy: Neon `public.italy_cap_records`.
 - Aktuální `workflow_status`: `placeholder` (záměrně beze změny).
 - Původní inventář: 46 master faktů a 46 × 7 = 322 překladových položek.
-- Stav po průběžném reworku: **59 master faktů a 59 × 7 = 413 překladových položek**.
+- Aktuální stav po reworku: **61 master faktů a 61 × 7 = 427 překladových položek**.
 - Tento tahák je oddělený od uzavřeného auditu osmi validovaných CAP 59011, 59013, 59015, 59016, 59021, 59024, 59025 a 59026.
 
 ## 1. Provedené obsahové změny
@@ -59,7 +59,7 @@ Databázový read-back po provedených změnách potvrdil:
 - `fact_047` je bod reprezentující archeologickou oblast, nikoli geodeticky přesný bod jedné stavby.
 - `fact_059` je reprezentativní bod oblasti Macrolotto Zero, nikoli přesná hranice čtvrti.
 - `fact_060` a `fact_061` mají přibližnou polohu (`approximate`), nikoli deklarovanou geodetickou přesnost.
-- Strukturální přítomnost souřadnic a zdroje sama o sobě neznamená nové nezávislé geodetické ověření každého ze všech 59 bodů.
+- Strukturální přítomnost souřadnic a zdroje sama o sobě neznamená nové nezávislé geodetické ověření každého ze všech 61 bodů.
 
 ## 3. Reklama, zdroje a CAP metadata
 
@@ -67,7 +67,7 @@ Databázový read-back po provedených změnách potvrdil:
 - Nebyl nalezen potvrzený affiliate obsah, sponzoring, sleva, prodejní CTA ani SEO výplň.
 - Z top-level inventáře byly odstraněny dvě staré položky o seznamech poštovních poboček. Uživatel výslovně určil, že informace o tom, kdo poštu obsluhuje nebo zda je pobočka zavřená, nejsou obsahem Europe Exploreru.
 - CAP metadata nyní odkazují na oficiální stránku Poste Italiane a seznam CAP/provincií, verze 8 z 20. dubna 2026. Tento seznam uvádí 59100 jako CAP města Prato.
-- **Otevřený bod:** Poste Italiane na oficiální stránce oznámila třetí aktualizaci CAP 2026 s účinností od 16. listopadu 2026. Její ZIP se během kontroly nepodařilo stáhnout. Před finálním PASS je nutné ověřit, zda tato aktualizace zasáhla 59100. Do té doby se nesmí tvrdit, že byl prověřen i poslední listopadový update.
+- **Otevřený bod:** oficiální stránka Poste Italiane uvádí třetí publikaci změn CAP 2026 ze dne 23. července s plánovaným začátkem od 16. listopadu 2026, ale výslovně připouští připomínky operátorů a následné samostatné oznámení skutečného data implementace. K 21. listopadu stránka stále neposkytuje potvrzení implementace ani přehled skutečně provedených změn; změnový ZIP se nepodařilo stáhnout. Není proto doloženo, zda se tato publikace dotkla 59100.
 
 ## 4. Stav kontrol A–I
 
