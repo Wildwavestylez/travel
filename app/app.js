@@ -42,7 +42,7 @@ const LANG_STORE='travel-language';
 const LANGS=['cs','de','en','es','fr','it'];
 const COUNTRIES=[
   {code:'DE',flag:'🇩🇪',name:'Germany',start:'01067',enabled:true},
-  {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:'33901',enabled:true},
+  {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:null,enabled:true},
   {code:'AT',flag:'🇦🇹',name:'Austria',start:null,enabled:false},
   {code:'PL',flag:'🇵🇱',name:'Poland',start:null,enabled:false},
   {code:'NL',flag:'🇳🇱',name:'Netherlands',start:null,enabled:false},
@@ -247,10 +247,9 @@ async function loadPostalData(){
     }];
   }));
   const allSequence=[...dataMap.keys()];
-  const startPostcode=countryConfig().start;
-  const startIndex=startPostcode?allSequence.indexOf(startPostcode):0;
-  if(startPostcode&&startIndex<0)throw Error('Startovní PSČ '+startPostcode+' pro '+countryLabel()+' není mezi publikovanými záznamy.');
-  sequence=startIndex>=0?allSequence.slice(startIndex):allSequence;
+  // The postcode dataset is the complete published country coverage.
+  // Never slice Czechia (or any country) from an arbitrary seed postcode.
+  sequence=allSequence;
 
   // A previously saved journey must never be allowed to point outside
   // the currently published sequence.
@@ -577,8 +576,8 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
     // Obnovení všech dosud objevených PSČ po refreshi.
     // Piny nejsou jen dočasná součást aktuálního běhu.
     if(countryCode==='CZ'){
-      // Show every prepared and published Czech postcode immediately;
-      // the journey sequence remains ordered and starts at 33901.
+      // Show every published Czech postcode immediately; the complete
+      // sequence is ordered by postcode and has no artificial start cutoff.
       const allCzechData=await Promise.all(sequence.map(loadData));
       allCzechData.forEach(addStopMarker);
       const bounds=stopMarkers.getBounds?.();
