@@ -537,3 +537,39 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - České master texty pod hranicí 350 znaků: **0**.
 - Kořenový registr obsahuje **792 zdrojových položek**; všechny mají neprázdný title, URL a type, všechna type jsou v povoleném enumu a všechny URL mají formát HTTP(S).
 - V polích facts[].sources zůstává 40 starších src_* aliasových odkazů; jejich počet a rozsah jsou uvedeny výše. Tato technická kontrola potvrzuje úplnost kořenového registru, nikoli mapování jednotlivých aliasů na URL.
+
+## Pokračování — ověření poštovních sídel a nové geografické důkazy (2026-11-21)
+
+### City / okres / kraj — ověření dokončeno
+
+- Pro všech **36/36 PSČ** byl porovnán `city` s obcí, v níž fyzicky sídlí příslušná pošta nebo Pošta Partner; `county` a `state` odpovídají správnímu zařazení této obce.
+- U 34 záznamů je v kořenovém zdrojovém registru přímo evidován oficiální detail pobočky České pošty. Zbývající dva případy byly doloženy samostatnými oficiálními podklady:
+  - **26206 Korkyně:** RISY – oficiální záznam obce uvádí „Pošta: Korkyně“ a adresu Korkyně 24, 26206. Odkaz byl doplněn do `content.sources` a ověřen read-backem.
+  - **26252 Vysoký Chlumec:** oficiální detail České pošty potvrzuje Poštu Partner 26252 na adrese Vysoký Chlumec čp. 14. Odkaz byl doplněn do `content.sources` a ověřen read-backem.
+- Dvě názvové nuance byly ověřeny podle fyzické adresy:
+  - **26255:** pobočka se jmenuje Petrovice u Sedlčan, ale její adresa je Petrovice čp. 64; obecní název v `city` proto správně zůstává **Petrovice**.
+  - **26261:** pobočka se jmenuje Višňová u Příbramě, ale její adresa je v obci **Višňová**; `city` je správně.
+- Všech 36 záznamů má `county=Příbram` a `state=Středočeský kraj`. `district` je vyplněn pouze tam, kde je doložená relevantní část obce/města (26101 Příbram I, 26293 Chlum); ostatní zůstávají null.
+- Žádné pole `city`, `county`, `state` ani `district` nebylo v této dávce měněno. Byly doplněny pouze dva chybějící oficiální zdrojové odkazy do kořenového registru.
+
+### Geografické případy — zpřesněné důkazy, bez nepodloženého přesunu
+
+1. **26211/fact_004 — Čtyřmezí:** oficiální plakát obce Rosovice potvrzuje přesné souřadnice 49.793474 N, 14.079556 E a uvádí, že jde o styk hranic čtyř obcí/katastrů. Oficiální Česká pošta potvrzuje pobočku 26211 v Rosovicích. Proto zůstává jediné primární přiřazení 26211; bod je však hraniční a nemá vlastní adresní místo s PSČ. Bez adresního či parcelního dokladu nelze výlučnost PSČ potvrdit. **REVIEW REQUIRED, beze změny.**
+2. **26215/fact_002 — Psí hory / ložisko Čelina:** aktuální inventář RÚIAN uvádí adresní místa části obce Čelina pod **26203 i 26215**, nikoli 26301. Mindat lokalizuje konkrétní ložisko Čelina na 49.74000, 14.33300 a řadí je pod Čelinu, Borotice; odborné materiály ČVUT a Hornického muzea potvrzují historický a geologický kontext revíru. Dostupný adresní přehled uvádí pro Čelinu poštovní adresu 71 pod 26203 (Nový Knín) a 96 pod 26215 (Borotice), ale neukazuje jejich polohu vůči neadresnímu bodu ložiska. **26215 se proto ponechává jako jediné primární přiřazení, ale zůstává REVIEW REQUIRED do parcelního/mapového ověření.**
+3. **26215/fact_004 — Židovský hřbitov Čelina:** NPÚ SAS 8887 potvrzuje typ hřbitov, obec Borotice, katastrální území Čelina a přesné vymezení archeologické lokality; databáze Židovských památek potvrzuje souřadnice 49.7287700, 14.3195428 a polohu přibližně 500 m jihozápadně od obce. RÚIAN však u části obce Čelina eviduje adresní místa pod 26203 i 26215; hřbitov sám adresní místo nemá. **26215 se ponechává jako jediné primární přiřazení, ale zůstává REVIEW REQUIRED do parcelního/mapového ověření.**
+
+### Starší aliasy — doplněná diagnostika, bez automatické náhrady
+
+- Znovu ověřeno: **40 aliasových odkazů / 36 různých klíčů / 14 faktů / 3 PSČ** (26251, 26256, 26261).
+- U 26256 jsou názvy většiny aliasů sémanticky podobné názvům zdrojů v kořenovém registru (např. `src_cenia`, `src_cityplan`, `src_npu_*`, `src_archmap_*`, `src_mining_*`). To však samo o sobě není důkaz stabilního mapování alias → konkrétní URL; některé klíče jsou sdílené více fakty a `src_marian` má více možných tematických vazeb.
+- U 26261 jsou `src_003` až `src_005` připojeny k faktu o seriálu Chalupáři a `src_006` k Homolkovskému mlýnu. Kořenový registr obsahuje odpovídající tematické zdroje, ale neobsahuje ID, která by potvrzovala přesné přiřazení jednotlivých číselných aliasů.
+- U 26251/fact_003 zůstává `src_ecology` bez jednoznačného identifikátoru.
+- **Žádný alias nebyl nahrazen odhadem a žádný fact.sources[] nebyl měněn.** Normalizace zůstává REVIEW REQUIRED do získání původní převodní tabulky nebo jiného přímého důkazu.
+
+### Dílčí výsledek tohoto pokračování
+
+- Správní sídla pošt (`city`, `county`, `state`) a relevantní `district`: **PASS 36/36**.
+- Dvě chybějící oficiální reference pro 26206 a 26252 doplněny do kořenového registru a ověřeny read-backem.
+- Tři geografická přiřazení: stále **REVIEW REQUIRED**, ale s novými konkrétními důkazy.
+- Starší aliasy: **REVIEW REQUIRED**, beze změny faktových zdrojů.
+- Celkový audit zůstává **REVIEW REQUIRED**. Bez publikace, V5, zálohy, read-only locku a migrace do Neonu.
