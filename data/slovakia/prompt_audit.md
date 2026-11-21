@@ -64,7 +64,7 @@ A record is not eligible for publication merely because it contains facts. Confi
 
 Resume from the canonical ledger. Treat completed checks as complete. Do not repeat them because a new chat, model or session started. Reopen a completed check only for concrete new evidence, a material data change or a change to a binding standard.
 
-**Slovak authority rule:** Slovenská pošta is the primary postal authority; RAGEO/Ministry of Interior supports address-point evidence; ŠÚ SR and official territorial registers support administrative relationships; ÚGKK SR/ZBGIS supports geographic identification and coordinates. Never import Czech RÚIAN/ČSÚ procedures or German postal rules.
+**Slovak authority rule:** Slovenská pošta is the primary authority for confirming genuine geographic PSČ versus special-purpose codes; RAGEO/Ministry of Interior supports address-point evidence; ŠÚ SR and official territorial registers support administrative relationships; ÚGKK SR/ZBGIS supports geographic identification and coordinates. Current post-office opening, closure or operating status is outside the audit scope. Never import Czech RÚIAN/ČSÚ procedures or German postal rules.
 
 ## 3. Required audit controls
 
@@ -85,15 +85,14 @@ Do not build an exhaustive catalogue of every listed building or minor attractio
 
 Verify:
 - the postcode is a genuine geographic Slovak PSČ tied to a real territory/address geography, not an organisation-only, PO-box-only or other non-geographic special-purpose code;
-- the serving post office is correctly identified;
-- top-level `city` is exactly the municipality in which the serving post office is physically located;
-- `district` is a documented relevant part within that same municipality, or null;
-- `county` and `state` correspond to the same post-office municipality;
+- top-level `city` is a defensible representative municipality for the geographic PSČ area, selected using geographic/address evidence;
+- `district` is a documented relevant part within that representative municipality, or null;
+- `county` and `state` correspond to the same representative municipality;
 - official Slovak names and diacritics are correct.
 
-The postcode may serve one municipality, several municipalities or a municipal part. That distinction does not change the project's content-selection principle. The record's research scope follows the defensible geographic area; administrative fields follow the Slovak Country Profile's physical-serving-post-office rule.
+The postcode may cover one municipality, several municipalities or only part of a municipality. The record's research scope follows the full defensible geographic area; administrative fields follow the representative municipality selected under the Slovak Country Profile.
 
-Do not treat an organisation's correspondence address, registered office, invoice address or PO Box as proof of geographic postcode assignment. Use Slovenská pošta for postal claims, RAGEO for address geography, official territorial sources for administration and ZBGIS for geographic corroboration. If a material conflict remains unresolved, record it and keep the affected record `validated`.
+Do not treat an organisation's correspondence address, registered office, invoice address or PO Box as proof of geographic postcode assignment. Use Slovenská pošta to confirm that the code is geographic rather than special-purpose, RAGEO for address geography, official territorial sources for administration and ZBGIS for geographic corroboration. Do not block an audit because of uncertainty about whether a post office is open, closed or operational. If a material geographic conflict remains unresolved, record it and keep the affected record `validated`.
 
 ### C. Cross-postcode duplicates and primary assignment
 
