@@ -39,7 +39,7 @@
   setTimeout(refreshMapSize,1200);
 
 const LANG_STORE='travel-language';
-const LANGS=['cs','de','en','es','fr','it'];
+const LANGS=['cs','de','en','es','fr','it','nl'];
 const COUNTRIES=[
   {code:'DE',flag:'🇩🇪',name:'Germany',start:'01067',enabled:true},
   {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:null,enabled:true},
@@ -47,7 +47,7 @@ const COUNTRIES=[
   {code:'PL',flag:'🇵🇱',name:'Poland',start:null,enabled:false},
   {code:'NL',flag:'🇳🇱',name:'Netherlands',start:null,enabled:false},
   {code:'FR',flag:'🇫🇷',name:'France',start:null,enabled:false},
-  {code:'IT',flag:'🇮🇹',name:'Italy',start:null,enabled:false}
+  {code:'IT',flag:'🇮🇹',name:'Italy',start:'59011',enabled:true}
 ];
 const COUNTRY_STORE='travel-country';
 let countryCode=localStorage.getItem(COUNTRY_STORE)||'DE';
@@ -58,6 +58,7 @@ const UI={
   cs:{ready:'Připraven',currentStop:'AKTUÁLNÍ ZASTÁVKA',speed:'Rychlost',totalKm:'Celkem km',order:'Pořadí',start:'🚗 Odstartovat cestu',traveling:'🚗 Cesta probíhá…',continue:'🚗 Auto pokračuje…',preparing:'Připravuji trasu…',onRoad:'Na cestě — 80 km/h',arrived:'Zastávka objevena — pokračujeme',done:'Aktuální sekvence dokončena',reset:'↩️ Resetovat cestu',error:'Chyba',startTitle:'Startovní bod',welcome:'👋 Vítej v TRAVEL',welcomeText:'Začínáme v historickém centru Drážďan, v PSČ',help:'Objevená PSČ zůstávají na mapě jako malé piny. Při odzoomování se automaticky slučují do clusterů.',district:'Městská část',county:'Okres',state:'Bundesland',photoLater:'📷 Fotografie bude doplněna později.',photo:'📷 Foto',arrivedAt:'📍 Dorazili jsme do',place:'Místo',carContinues:'🚗 Auto mezitím pokračuje na další PSČ…',routeError:'Chyba',dataError:'Chyba načtení dat',allDone:'🏁 Hotovo',sequenceDone:'Všechna aktuálně připravená PSČ byla dokončena.'},
   de:{ready:'Bereit',currentStop:'AKTUELLER HALT',speed:'Geschwindigkeit',totalKm:'Gesamt km',order:'Reihenfolge',start:'🚗 Fahrt starten',traveling:'🚗 Fahrt läuft…',continue:'🚗 Auto fährt weiter…',preparing:'Route wird vorbereitet…',onRoad:'Unterwegs — 80 km/h',arrived:'Halt entdeckt — wir fahren weiter',done:'Aktuelle Sequenz abgeschlossen',reset:'↩️ Reise zurücksetzen',error:'Fehler',startTitle:'Startpunkt',welcome:'👋 Willkommen bei TRAVEL',welcomeText:'Wir starten im historischen Zentrum von Dresden, PLZ',help:'Entdeckte PLZ bleiben als kleine Pins auf der Karte. Beim Herauszoomen werden sie automatisch gruppiert.',district:'Stadtteil',county:'Landkreis',state:'Bundesland',photoLater:'📷 Foto wird später ergänzt.',photo:'📷 Foto',arrivedAt:'📍 Wir sind angekommen bei',place:'Ort',carContinues:'🚗 Das Auto fährt inzwischen zur nächsten PLZ…',routeError:'Fehler',dataError:'Fehler beim Laden der Daten',allDone:'🏁 Fertig',sequenceDone:'Alle aktuell vorbereiteten PLZ wurden abgeschlossen.'},
   en:{ready:'Ready',currentStop:'CURRENT STOP',speed:'Speed',totalKm:'Total km',order:'Order',start:'🚗 Start journey',traveling:'🚗 Journey in progress…',continue:'🚗 Car continues…',preparing:'Preparing route…',onRoad:'On the road — 80 km/h',arrived:'Stop discovered — continuing',done:'Current sequence completed',reset:'↩️ Reset journey',error:'Error',startTitle:'Starting point',welcome:'👋 Welcome to TRAVEL',welcomeText:'We start in the historic centre of Dresden, postcode',help:'Discovered postcodes remain on the map as small pins. When zooming out, they are automatically grouped into clusters.',district:'District',county:'County',state:'State',photoLater:'📷 Photo will be added later.',photo:'📷 Photo',arrivedAt:'📍 We arrived at',place:'Place',carContinues:'🚗 The car is already continuing to the next postcode…',routeError:'Error',dataError:'Data loading error',allDone:'🏁 Done',sequenceDone:'All currently prepared postcodes have been completed.'},
+  nl:{ready:'Gereed',currentStop:'HUIDIGE STOP',speed:'Snelheid',totalKm:'Totaal km',order:'Volgorde',start:'🚗 Reis starten',traveling:'🚗 Reis bezig…',continue:'🚗 Auto rijdt verder…',preparing:'Route voorbereiden…',onRoad:'Onderweg — 80 km/u',arrived:'Stop ontdekt — we gaan verder',done:'Huidige reeks voltooid',reset:'↩️ Reis resetten',error:'Fout',startTitle:'Startpunt',welcome:'👋 Welkom bij TRAVEL',welcomeText:'We beginnen in het historische centrum van Dresden, postcode',help:'Ontdekte postcodes blijven als kleine markeringen op de kaart staan en worden bij uitzoomen gegroepeerd.',district:'Wijk',county:'District',state:'Regio',photoLater:'📷 Foto wordt later toegevoegd.',photo:'📷 Foto',arrivedAt:'📍 Aangekomen bij',place:'Plaats',carContinues:'🚗 De auto rijdt verder naar de volgende postcode…',routeError:'Fout',dataError:'Fout bij het laden van gegevens',allDone:'🏁 Klaar',sequenceDone:'Alle momenteel beschikbare postcodes zijn bezocht.'},
   es:{ready:'Listo',currentStop:'PARADA ACTUAL',speed:'Velocidad',totalKm:'Km totales',order:'Orden',start:'🚗 Iniciar viaje',traveling:'🚗 Viaje en curso…',continue:'🚗 El coche continúa…',preparing:'Preparando ruta…',onRoad:'En camino — 80 km/h',arrived:'Parada descubierta — continuamos',done:'Secuencia actual completada',reset:'↩️ Reiniciar viaje',error:'Error',startTitle:'Punto de partida',welcome:'👋 Bienvenido a TRAVEL',welcomeText:'Comenzamos en el centro histórico de Dresde, código postal',help:'Los códigos postales descubiertos permanecen en el mapa como pequeños marcadores. Al alejar el zoom se agrupan automáticamente.',district:'Distrito',county:'Distrito administrativo',state:'Estado federado',photoLater:'📷 La foto se añadirá más tarde.',photo:'📷 Foto',arrivedAt:'📍 Hemos llegado a',place:'Lugar',carContinues:'🚗 El coche continúa hacia el siguiente código postal…',routeError:'Error',dataError:'Error al cargar los datos',allDone:'🏁 Listo',sequenceDone:'Se han completado todos los códigos postales preparados actualmente.'},
   fr:{ready:'Prêt',currentStop:'ÉTAPE ACTUELLE',speed:'Vitesse',totalKm:'Km total',order:'Ordre',start:'🚗 Démarrer le voyage',traveling:'🚗 Voyage en cours…',continue:'🚗 La voiture continue…',preparing:'Préparation de l’itinéraire…',onRoad:'En route — 80 km/h',arrived:'Étape découverte — nous continuons',done:'Séquence actuelle terminée',reset:'↩️ Réinitialiser le voyage',error:'Erreur',startTitle:'Point de départ',welcome:'👋 Bienvenue sur TRAVEL',welcomeText:'Nous commençons dans le centre historique de Dresde, code postal',help:'Les codes postaux découverts restent sur la carte sous forme de petits repères. En dézoomant, ils sont automatiquement regroupés.',district:'Quartier',county:'Arrondissement',state:'Land',photoLater:'📷 Photo à ajouter ultérieurement.',photo:'📷 Photo',arrivedAt:'📍 Nous sommes arrivés à',place:'Lieu',carContinues:'🚗 La voiture continue déjà vers le prochain code postal…',routeError:'Erreur',dataError:'Erreur de chargement des données',allDone:'🏁 Terminé',sequenceDone:'Tous les codes postaux actuellement préparés ont été parcourus.'},
   it:{ready:'Pronto',currentStop:'TAPPA ATTUALE',speed:'Velocità',totalKm:'Km totali',order:'Ordine',start:'🚗 Inizia il viaggio',traveling:'🚗 Viaggio in corso…',continue:'🚗 L’auto continua…',preparing:'Preparazione del percorso…',onRoad:'In viaggio — 80 km/h',arrived:'Tappa scoperta — continuiamo',done:'Sequenza attuale completata',reset:'↩️ Reimposta il viaggio',error:'Errore',startTitle:'Punto di partenza',welcome:'👋 Benvenuto in TRAVEL',welcomeText:'Partiamo dal centro storico di Dresda, CAP',help:'I CAP scoperti rimangono sulla mappa come piccoli segnaposto. Riducendo lo zoom, vengono raggruppati automaticamente.',district:'Quartiere',county:'Distretto',state:'Stato federale',photoLater:'📷 Foto da aggiungere in seguito.',photo:'📷 Foto',arrivedAt:'📍 Siamo arrivati a',place:'Luogo',carContinues:'🚗 L’auto sta già proseguendo verso il prossimo CAP…',routeError:'Errore',dataError:'Errore nel caricamento dei dati',allDone:'🏁 Fine',sequenceDone:'Tutti i CAP attualmente preparati sono stati completati.'}
@@ -177,12 +178,19 @@ const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
 // Czech production records are read from Neon JSONB. Keep this in sync with
 // the read-only connection used by app/database.js until a server API exists.
 const CZECH_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
-let czechSqlPromise=null;
+const ITALY_DATABASE_URL=CZECH_DATABASE_URL;
+let czechSqlPromise=null, italySqlPromise=null;
 async function getCzechSql(){
   if(!czechSqlPromise)czechSqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
     .then(({neon})=>neon(CZECH_DATABASE_URL,{disableWarningInBrowsers:true}))
     .catch(error=>{czechSqlPromise=null;throw error;});
   return czechSqlPromise;
+}
+async function getItalySql(){
+  if(!italySqlPromise)italySqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
+    .then(({neon})=>neon(ITALY_DATABASE_URL,{disableWarningInBrowsers:true}))
+    .catch(error=>{italySqlPromise=null;throw error;});
+  return italySqlPromise;
 }
 let dataMap=new Map();
 
@@ -200,6 +208,14 @@ async function fetchPostalRows(){
       return {...content,postal_code:row.postcode,postcode:row.postcode};
     });
   }
+  if(countryCode==='IT'){
+    const sql=await getItalySql();
+    const rows=await sql.query(
+      "SELECT postcode, record FROM public.italy_cap_records WHERE workflow_status = $1 AND record->>'status' = $1 AND record->>'data_version' = $2 AND record IS NOT NULL ORDER BY postcode ASC",
+      ['published','5']
+    );
+    return rows.map(row=>({...row.record,postal_code:row.postcode,postcode:row.postcode}));
+  }
   const url=SUPABASE_URL+'/rest/v1/postal_codes?select=postal_code,city,district,region,representative_name,latitude,longitude,content&country_code=eq.DE&status=in.(published,validated)&order=postal_code.asc';
   const r=await fetch(url,{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});
   if(!r.ok){
@@ -214,9 +230,11 @@ async function loadPostalData(){
   const data=await fetchPostalRows();
   if(!data?.length)throw Error(countryCode==='CZ'
     ? 'Neon neobsahuje žádná publikovaná česká PSČ.'
-    : 'Supabase neobsahuje žádná publikovaná německá PSČ.');
+    : countryCode==='IT'
+      ? 'Neon neobsahuje žádná publikovaná italská CAP ve verzi V5.'
+      : 'Supabase neobsahuje žádná publikovaná německá PSČ.');
   dataMap=new Map(data.map(row=>{
-    if(countryCode==='CZ'){
+    if(countryCode==='CZ'||countryCode==='IT'){
       const record=row.record||row;
       return [row.postal_code,{
         ...record,
@@ -575,10 +593,10 @@ document.getElementById('resetBtn').addEventListener('click',resetJourney);
     // Obnovení všech dosud objevených PSČ po refreshi.
     // Piny nejsou jen dočasná součást aktuálního běhu.
     if(countryCode==='CZ'){
-      // Show every published Czech postcode immediately; the complete
-      // sequence is ordered by postcode and has no artificial start cutoff.
-      const allCzechData=await Promise.all(sequence.map(loadData));
-      allCzechData.forEach(addStopMarker);
+      // Show every published Czech postcode and Italian CAP immediately;
+      // each country is loaded from its own Neon production table.
+      const allPublishedData=await Promise.all(sequence.map(loadData));
+      allPublishedData.forEach(addStopMarker);
       const bounds=stopMarkers.getBounds?.();
       if(bounds?.isValid())map.fitBounds(bounds,{padding:[36,36],maxZoom:12});
       else map.setView([displayPoint.lat,displayPoint.lon],13);
