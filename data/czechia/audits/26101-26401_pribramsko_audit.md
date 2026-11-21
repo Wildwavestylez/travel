@@ -5,7 +5,7 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; otevřená zůstává sémantická kontrola překladů, úplná kontrola kategorií/správních údajů a normalizace starších zdrojových referencí.
+- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; sémantická kontrola všech 271 překladových sad je uzavřena; otevřená zůstává úplná kontrola kategorií/správních údajů a normalizace starších zdrojových referencí.
 
 
 
@@ -15,7 +15,7 @@
 - **28 nových Explorer faktů** má kompletní překlady cs/de/en/es/fr/it/nl, nejméně 3 zdroje a texty delší než 350 znaků; všech 28 má nyní mapový bod.
 - Vyřešeno všech **27 původních null poloh** a také 2 později přidané null polohy u usedlostí Obořiště čp. 4 a Lhotka čp. 2. Aktuálně nezůstává žádná null poloha.
 - Read-back překladů: 271/271 faktů v každém ze 7 jazyků; duplicitní ID 0.
-- Audit zůstává **REVIEW REQUIRED** kvůli třem nejednoznačným geografickým přiřazením, neuzavřené sémantické kontrole překladů, kategoriím/správním údajům a normalizaci starších zdrojových referencí. Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
+- Audit zůstává **REVIEW REQUIRED** kvůli třem nejednoznačným geografickým přiřazením, zbývající kontrole kategorií/správních údajů a normalizaci starších zdrojových referencí; sémantická kontrola překladů je uzavřena. Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
 
 ## Uzavření všech null poloh — poslední kolo (2026-11-21)
 
@@ -118,10 +118,9 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 ## Otevřené kroky
 
 1. **RÚIAN / primární přiřazení:** dořešit pouze tři nejednoznačné případy: 26211/fact_004 Čtyřmezí; 26215/fact_002 Psí hory; 26215/fact_004 židovský hřbitov v Čelině. Do doložení přesného poštovního přiřazení zachovat stávající jediná primární přiřazení, nepřesouvat a neduplikovat.
-2. **Překlady:** dokončit sémantickou kontrolu de/en/es/fr/it/nl napříč všemi 271 fakty; opravit pouze významové a prokazatelné vady.
-3. **Správní údaje a kategorie:** po opravě 26101/district=Příbram I ověřit zbývající správní údaje a věcnou správnost map_category.
-4. **Zdrojové reference:** prověřit a normalizovat starší interní aliasy a JSON serializované řetězce ve 28 faktech; zachovat dohledatelnost přes content.sources.
-5. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
+2. **Správní údaje a kategorie:** dokončit kontrolu správních údajů a věcné správnosti map_category v celém bloku.
+3. **Zdrojové reference:** prověřit a normalizovat starší interní aliasy a JSON serializované řetězce ve 28 faktech; zachovat dohledatelnost přes content.sources.
+4. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
 
 **Další krok:** pokračovat sémantickou kontrolou překladů a současně ponechat tři geografické případy v REVIEW REQUIRED. Null polohy jsou uzavřené; inventář 36 PSČ / 271 faktů je aktuální.
 
@@ -444,4 +443,47 @@ Read-back potvrdil zachování počtu faktů a všech sedmi jazykových polí u 
 - **26212/fact_007 — Usedlost čp. 4 v Obořišti:** český master i všech šest překladů obsahovaly zastaralou větu, že poloha dosud není vyřešena, ačkoli souřadnice byly již dříve doplněny. Věta byla odstraněna; texty nyní popisují usedlost bez neaktuálního tvrzení o chybějící poloze. Samotné souřadnice ani ostatní geografická pole se neměnily.
 - V rámci kontroly byly ověřeny celé jazykové sady u dalších záznamů v Příbramsku, Novoknínsku, Jinecku, Pičínsku, Milínsku a Rožmitálsku. V této dávce nebyla nalezena další potvrzená významová chyba vyžadující opravu.
 - Po všech jazykových opravách zůstává strukturální stav 271/271 položek v každém jazyce; žádné ID ani pořadí se nezměnilo.
+
+
+
+## Sedmijazyčný sémantický audit — dokončeno (2026-11-21)
+
+### Rozsah a výsledek
+
+- Ručně porovnáno **271/271 faktů** v češtině proti všem šesti překladům: de, en, es, fr, it, nl.
+- Provedena kontrola významu, vlastních jmen, letopočtů, číselných a technických údajů, geografických reálií, zdrojové opatrnosti, legend a historických nejistot.
+- Zkrácení překladu nebylo samo o sobě považováno za chybu; opravovaly se vynechané důležité informace, nepodložené doplňky, významové posuny a zastaralé formulace.
+- Strukturální read-back po všech změnách: každý z šesti jazyků má **271/271** položek, **0 prázdných textů**, **0 neshod ID** a zachované pořadí. Celkem 1 626 cizojazyčných položek.
+- Celkový inventář zůstává 36 PSČ / 271 faktů; žádná změna počtu záznamů.
+
+### Opravené faktové záznamy
+
+Ve všech šesti jazycích byly opraveny nebo doplněny překlady u těchto faktů:
+
+- **26101:** fact_001 Ernestinum (hypotetická dřevěná tvrz); fact_006 kostel sv. Prokopa (odstraněna smyšlená hornická bratrská společnost, doplněn skutečný iniciátor a dárci).
+- **26212:** fact_007 usedlost Obořiště čp. 4 (odstraněno zastaralé tvrzení o nevyřešené poloze).
+- **26214:** fact_006 hřiměždický zámeček (doplněna atribuce poválečného tvrzení obecním historickým materiálům).
+- **26251:** fact_001 Petrovice (doplněn předchozí kostel, dvě jezuitské rezidence a zánik jezuitského vlastnictví).
+- **26255:** fact_001 Petrovice a jezuitské rezidence; fact_003 Černý lev 777; fact_004 Týnčanský kras; fact_005 kostel a křížová cesta v Počepicích.
+- **26256:** fact_001 Krásná Hora (doplněna těžba antimonu, rozsah revíru a počet horníků).
+- **26284:** fact_002 kostel v Zalužanech (kontext žádosti z roku 1869); fact_004 synagoga a geniza (doplněno soukromé vlastnictví a nepřístupnost); fact_005 Abraham Kohn (přesné datum narození a působení v Hohenems); fact_006 Kozárovice (železnice, rozvoj lomu a konkrétní použití žuly).
+- **26285:** fact_004 panská vinopalna; fact_005 drahenický pivovar; fact_006 drahenický mlýn (doplněny technické, časové a provozní souvislosti).
+- **26301:** fact_003 kostel Nejsvětější Trojice (odstraněny nepodložené GPS údaje); fact_011 kaple v Budínku; fact_014 županovická plavební komora; fact_015 usedlost Lhotka čp. 2 (opraveny zastaralé věty o chybějícím mapovém bodu a přesnosti polohy).
+- **26203:** fact_005 Starý Knín (v němčině odstraněno nepřesné doplnění „německé právo“ vedle emphyteutického práva).
+
+Celkem bylo opraveno **22 faktových záznamů**; u všech zůstala zachována identita a ID. U 21 záznamů byly upraveny všechny šest cizojazyčné verze; u 26203/fact_005 byla opravena pouze německá verze, kde se vyskytovalo konkrétní nepřesné doplnění.
+
+### Ověření mapových formulací
+
+U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla porovnána formulace o poloze s aktuálním polem location. Texty nyní správně rozlišují přibližný orientační bod od přesně zaměřené polohy; žádný z těchto bodů nebyl změněn.
+
+### Read-back a ochrana dat
+
+- Supabase read-back potvrdil 271 faktů a 271 neprázdných poloh.
+- Ve všech šesti překladových polích zůstalo 271 položek a 0 neshod ID.
+- České master texty byly změněny pouze u 26212/fact_007 a 26301/fact_011, fact_014 a fact_015, protože obsahovaly zastaralou informaci o neexistujícím mapovém bodu. Ostatní české master texty zůstaly beze změny.
+- ID, pořadí faktů, zdroje, kategorie, priority, souřadnice a data_version nebyly jazykovými opravami měněny.
+- Bez publikace, V5, zálohy, read-only zamčení a migrace do Neonu.
+
+**Výsledek jazykové kontroly: PASS.** Celkový audit zůstává REVIEW REQUIRED kvůli otevřeným geografickým případům a dalším kontrolám uvedeným v oddílu Otevřené kroky.
 
