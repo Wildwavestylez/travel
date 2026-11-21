@@ -1,4 +1,255 @@
 {
   "postcode": "85102",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bratislava",
+  "district": "Petržalka",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Dom kultúry Zrkadlový háj",
+  "representative_point": {
+    "lat": 48.1168706,
+    "lon": 17.1107833
+  },
+  "access_point": {
+    "lat": 48.1168706,
+    "lon": 17.1107833
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Romanova ulice a první panelový dům nové Petržalky",
+      "text": "Romanova ulice vznikala od roku 1976 jako součást první etapy výstavby nového petržalského sídliště. Původně nesla jméno Togliattiho ulice podle italského komunistického politika Palmira Togliattiho. Od 1. dubna 1991 připomíná Štefana Boleslava Romana, slovenského rodáka, kanadského průmyslníka a prvního předsedu Světového kongresu Slováků. Na adrese Romanova 33–35 byl 3. srpna 1977 zkolaudován první panelový bytový dům nově budované Petržalky. Jeho dokončení se tak stalo jedním z konkrétních počátků proměny někdejší okrajové krajiny v rozsáhlé moderní sídliště.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "src_romanova_city",
+        "src_roman_library",
+        "src_roman_street_story",
+        "src_roman_address"
+      ],
+      "location": {
+        "name": "První panelový dům Petržalky, Romanova 33–35",
+        "address": "Romanova 33–35, 851 02 Bratislava, Slovensko",
+        "lat": 48.11324495368408,
+        "lon": 17.11279171213037,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://bratislava.oma.sk/u/romanova/33"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_002",
+      "title": "Zrkadlový háj: postmoderní kulturní dům pro nové sídliště",
+      "text": "Dům kultury Zrkadlový háj vznikl jako výrazná kulturní stavba pro obyvatele nového sídliště Petržalka. Architekti Peter Jančo a Pavol Mrázek představili jeho ideu v roce 1982; hotovou budovu otevřeli v listopadu 1993. Architektonické řešení pracuje s postmoderními odkazy: barevnými horizontálními pásy fasády a hlavním vstupem v podobě portiku, jehož lehká konstrukce z ocelových trubek spočívá na mohutných válcových sloupech. Interiér propojuje víceúčelovou halu, klubovny, knihovnu a kino-divadelní sál. Dům se stal jedním z důležitých kulturních center Petržalky a dodnes hostí divadelní, hudební i komunitní program.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "sources": [
+        "src_dk_city",
+        "src_dk_architecture",
+        "src_dk_address",
+        "src_dk_program"
+      ],
+      "location": {
+        "name": "Dom kultúry Zrkadlový háj",
+        "address": "Rovniankova 3, 851 02 Bratislava, Slovensko",
+        "lat": 48.1168706,
+        "lon": 17.1107833,
+        "type": "cultural_center",
+        "accuracy": "exact",
+        "source": "https://mapy.com/en/?id=1002609465&source=osm"
+      },
+      "map_category": "cultural_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technical parameters, Annex 3a: range 851 01–09 assigned to Bratislava 5 (https://www.posta.sk/files/68664f4f1174ab4e9b603048/technical-parameters-for-sorting-and-bundling-of-items.pdf).",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok, príloha 3a",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 851 02 patrí do rozsahu 851 01–09 smerovaného na vybranú poštu Bratislava 5. Fyzická pobočka Bratislava 5 je na Vlasteneckom námestí v mestskej časti Petržalka; poloha pobočky sa nepoužíva ako reprezentatívny bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "RAGEO-derived address-point dataset (pinned release) for address distribution; official Petržalka municipal sources and Slovak administrative register references for municipality, urban district, okres and kraj."
+  },
+  "sources": [
+    {
+      "id": "src_postal",
+      "title": "Slovenská pošta – Technical parameters for sorting and bundling of items",
+      "url": "https://www.posta.sk/files/68664f4f1174ab4e9b603048/technical-parameters-for-sorting-and-bundling-of-items.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_rageo",
+      "title": "Slovak postal-code address dataset – pinned postal_codes.csv release",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
+      "type": "other"
+    },
+    {
+      "id": "src_romanova_city",
+      "title": "Mestská časť Bratislava-Petržalka – Petržalka kedysi a dnes: Ako vyzerala Romanova ulica a po kom nesie svoj názov?",
+      "url": "https://www.petrzalka.sk/2024-07-14-petrzalka-kedysi-a-dnes-ako-vyzerala-romanova-ulica-a-po-kom-nesie-svoj-nazov/",
+      "type": "official"
+    },
+    {
+      "id": "src_roman_library",
+      "title": "Knižnica Petržalka – Osobnosti, po ktorých sú pomenované petržalské ulice",
+      "url": "https://www.kniznicapetrzalka.sk/projekty-a-sutaze/osobnosti-po-ktorych-su-pomenovane-petrzalske-ulice/",
+      "type": "official"
+    },
+    {
+      "id": "src_roman_street_story",
+      "title": "Mestská časť Bratislava-Petržalka – Príbehy ulíc: Romanova, Rovniankova a Bradáčova",
+      "url": "https://www.petrzalka.sk/wp-content/uploads/2021/08/2021-07-08-r.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_roman_address",
+      "title": "OpenStreetMap address record – Romanova 33, Bratislava",
+      "url": "https://bratislava.oma.sk/u/romanova/33",
+      "type": "other"
+    },
+    {
+      "id": "src_dk_city",
+      "title": "Mestská časť Bratislava-Petržalka – Kulturák, do ktorého sa nebojíte vojsť",
+      "url": "https://www.petrzalka.sk/2024-01-04-kulturak-do-ktoreho-sa-nebojite-vojst/",
+      "type": "official"
+    },
+    {
+      "id": "src_dk_architecture",
+      "title": "Register modernej architektúry – Dom kultúry Zrkadlový háj",
+      "url": "https://register-architektury.sk/sk/objekt/3852-dom-kultury-zrkadlovy-haj",
+      "type": "specialist"
+    },
+    {
+      "id": "src_dk_address",
+      "title": "Kultúrne zariadenia Petržalky – program and contact details for Dom kultúry Zrkadlový háj",
+      "url": "https://www.kzp.sk/uploads/2026_02/KZP2602web.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_dk_program",
+      "title": "Kultúra v Petržalke – Dom kultúry Zrkadlový háj",
+      "url": "https://www.kulturavpetrzalke.sk/zariadenie/78",
+      "type": "official"
+    },
+    {
+      "id": "src_dk_location",
+      "title": "Mapy.com – Dom kultúry Zrkadlový háj, Rovniankova 3690/3",
+      "url": "https://mapy.com/en/?id=1002609465&source=osm",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Dom kultúry Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Romanova ulice a první panelový dům nové Petržalky",
+          "text": "Romanova ulice vznikala od roku 1976 jako součást první etapy výstavby nového petržalského sídliště. Původně nesla jméno Togliattiho ulice podle italského komunistického politika Palmira Togliattiho. Od 1. dubna 1991 připomíná Štefana Boleslava Romana, slovenského rodáka, kanadského průmyslníka a prvního předsedu Světového kongresu Slováků. Na adrese Romanova 33–35 byl 3. srpna 1977 zkolaudován první panelový bytový dům nově budované Petržalky. Jeho dokončení se tak stalo jedním z konkrétních počátků proměny někdejší okrajové krajiny v rozsáhlé moderní sídliště."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: postmoderní kulturní dům pro nové sídliště",
+          "text": "Dům kultury Zrkadlový háj vznikl jako výrazná kulturní stavba pro obyvatele nového sídliště Petržalka. Architekti Peter Jančo a Pavol Mrázek představili jeho ideu v roce 1982; hotovou budovu otevřeli v listopadu 1993. Architektonické řešení pracuje s postmoderními odkazy: barevnými horizontálními pásy fasády a hlavním vstupem v podobě portiku, jehož lehká konstrukce z ocelových trubek spočívá na mohutných válcových sloupech. Interiér propojuje víceúčelovou halu, klubovny, knihovnu a kino-divadelní sál. Dům se stal jedním z důležitých kulturních center Petržalky a dodnes hostí divadelní, hudební i komunitní program."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Kulturhaus Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Romanova-Straße und das erste Plattenhaus des neuen Petržalka",
+          "text": "Die Romanova-Straße entstand ab 1976 als Teil der ersten Bauphase der neuen Großwohnsiedlung Petržalka. Ursprünglich hieß sie Togliattiho-Straße, nach dem italienischen kommunistischen Politiker Palmiro Togliatti. Seit dem 1. April 1991 erinnert ihr Name an Štefan Boleslav Roman, einen in der Slowakei geborenen kanadischen Industriellen und ersten Vorsitzenden des Weltkongresses der Slowaken. In der Romanova 33–35 wurde am 3. August 1977 das erste Plattenwohnhaus des neu errichteten Petržalka offiziell abgenommen. Seine Fertigstellung markierte einen konkreten frühen Schritt bei der Umwandlung der damaligen Randlandschaft in eine große moderne Wohnsiedlung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: ein postmodernes Kulturhaus für die neue Wohnsiedlung",
+          "text": "Das Kulturhaus Zrkadlový háj entstand als markantes Kulturgebäude für die Bewohner der neuen Großwohnsiedlung Petržalka. Die Architekten Peter Jančo und Pavol Mrázek stellten ihre Idee 1982 vor; das fertige Gebäude wurde im November 1993 eröffnet. Die Architektur greift postmoderne Motive auf: farbige horizontale Fassadenbänder und einen Haupteingang in Form eines Portikus, dessen leichte Konstruktion aus Stahlrohren auf massiven zylindrischen Säulen ruht. Im Inneren verbinden sich eine Mehrzweckhalle, Klubräume, eine Bibliothek und ein Kino-Theatersaal. Das Haus wurde zu einem wichtigen Kulturzentrum von Petržalka und bietet bis heute Theater-, Musik- und Gemeinschaftsveranstaltungen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Zrkadlový háj House of Culture",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Romanova Street and the first prefabricated block in the new Petržalka",
+          "text": "Romanova Street began to take shape in 1976 as part of the first phase of construction of the new Petržalka housing estate. It was originally called Togliattiho Street, after Italian communist politician Palmiro Togliatti. Since 1 April 1991, its name has commemorated Štefan Boleslav Roman, a Slovak-born Canadian industrialist and the first chairman of the World Congress of Slovaks. The first prefabricated apartment block in the newly built Petržalka was officially approved at Romanova 33–35 on 3 August 1977. Its completion marked one of the concrete early steps in transforming the former outskirts into a vast modern housing estate."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: a postmodern cultural centre for the new housing estate",
+          "text": "The Zrkadlový háj House of Culture was conceived as a distinctive cultural building for residents of the new Petržalka housing estate. Architects Peter Jančo and Pavol Mrázek presented their idea in 1982; the completed building opened in November 1993. Its design uses postmodern references, including coloured horizontal façade bands and a main entrance shaped as a portico, with a light steel-tube structure resting on massive cylindrical columns. Inside, a multipurpose hall connects with club rooms, a library and a cinema-theatre auditorium. The building became one of Petržalka’s important cultural centres and continues to host theatre, music and community events."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Casa de Cultura Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La calle Romanova y el primer bloque prefabricado de la nueva Petržalka",
+          "text": "La calle Romanova comenzó a tomar forma en 1976 como parte de la primera fase de construcción del nuevo barrio residencial de Petržalka. Al principio se llamaba calle Togliattiho, en honor al político comunista italiano Palmiro Togliatti. Desde el 1 de abril de 1991 lleva el nombre de Štefan Boleslav Roman, industrial canadiense nacido en Eslovaquia y primer presidente del Congreso Mundial de los Eslovacos. El primer bloque de viviendas prefabricado de la nueva Petržalka obtuvo la aprobación oficial el 3 de agosto de 1977 en Romanova 33–35. Su finalización fue uno de los primeros pasos concretos en la transformación de una antigua zona periférica en un enorme barrio residencial moderno."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: un centro cultural posmoderno para el nuevo barrio",
+          "text": "La Casa de Cultura Zrkadlový háj se concibió como un edificio cultural destacado para los habitantes del nuevo barrio residencial de Petržalka. Los arquitectos Peter Jančo y Pavol Mrázek presentaron su idea en 1982; el edificio terminado se inauguró en noviembre de 1993. Su diseño incorpora referencias posmodernas: bandas horizontales de color en la fachada y una entrada principal en forma de pórtico, cuya ligera estructura de tubos de acero descansa sobre grandes columnas cilíndricas. En el interior, una sala polivalente se conecta con salas de clubes, una biblioteca y un auditorio de cine y teatro. El edificio se convirtió en uno de los centros culturales importantes de Petržalka y sigue acogiendo teatro, música y actividades comunitarias."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Maison de la culture Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La rue Romanova et le premier immeuble préfabriqué du nouveau Petržalka",
+          "text": "La rue Romanova a commencé à prendre forme en 1976 dans le cadre de la première phase de construction du nouveau grand ensemble de Petržalka. Elle s’appelait à l’origine rue Togliattiho, en référence au responsable communiste italien Palmiro Togliatti. Depuis le 1er avril 1991, son nom rend hommage à Štefan Boleslav Roman, industriel canadien né en Slovaquie et premier président du Congrès mondial des Slovaques. Le premier immeuble d’habitation préfabriqué du nouveau Petržalka a été officiellement réceptionné le 3 août 1977 aux numéros 33–35 de la rue Romanova. Son achèvement a constitué l’une des premières étapes concrètes de la transformation d’un ancien espace périphérique en un vaste quartier résidentiel moderne."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj : un centre culturel postmoderne pour le nouveau quartier",
+          "text": "La maison de la culture Zrkadlový háj a été conçue comme un bâtiment culturel marquant pour les habitants du nouveau quartier résidentiel de Petržalka. Les architectes Peter Jančo et Pavol Mrázek ont présenté leur idée en 1982 ; le bâtiment achevé a été inauguré en novembre 1993. Son architecture reprend des références postmodernes : des bandes horizontales colorées sur la façade et une entrée principale en forme de portique, dont la structure légère en tubes d’acier repose sur de massives colonnes cylindriques. À l’intérieur, une salle polyvalente communique avec des salles de clubs, une bibliothèque et une salle de cinéma-théâtre. Le bâtiment est devenu l’un des centres culturels importants de Petržalka et accueille toujours du théâtre, de la musique et des activités communautaires."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Casa della cultura Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Via Romanova e il primo edificio prefabbricato della nuova Petržalka",
+          "text": "Via Romanova iniziò a prendere forma nel 1976 come parte della prima fase di costruzione del nuovo quartiere residenziale di Petržalka. In origine si chiamava via Togliattiho, in riferimento al politico comunista italiano Palmiro Togliatti. Dal 1º aprile 1991 il suo nome ricorda Štefan Boleslav Roman, industriale canadese nato in Slovacchia e primo presidente del Congresso mondiale degli Slovacchi. Il primo edificio residenziale prefabbricato della nuova Petržalka fu ufficialmente collaudato il 3 agosto 1977 ai numeri 33–35 di via Romanova. Il suo completamento segnò uno dei primi passi concreti nella trasformazione di un’area allora periferica in un vasto quartiere residenziale moderno."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: un centro culturale postmoderno per il nuovo quartiere",
+          "text": "La Casa della cultura Zrkadlový háj fu concepita come un edificio culturale distintivo per gli abitanti del nuovo quartiere residenziale di Petržalka. Gli architetti Peter Jančo e Pavol Mrázek presentarono la loro idea nel 1982; l’edificio completato fu inaugurato nel novembre 1993. Il progetto utilizza riferimenti postmoderni: fasce orizzontali colorate sulla facciata e un ingresso principale a forma di portico, la cui struttura leggera in tubi d’acciaio poggia su massicce colonne cilindriche. All’interno, una sala polifunzionale è collegata a sale per club, una biblioteca e una sala cinema-teatro. L’edificio è diventato uno degli importanti centri culturali di Petržalka e continua a ospitare teatro, musica e attività comunitarie."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Cultuurhuis Zrkadlový háj",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Romanova-straat en het eerste prefab woonblok van het nieuwe Petržalka",
+          "text": "Romanova-straat begon in 1976 vorm te krijgen als onderdeel van de eerste bouwfase van de nieuwe woonwijk Petržalka. De straat heette oorspronkelijk Togliattiho-straat, naar de Italiaanse communistische politicus Palmiro Togliatti. Sinds 1 april 1991 verwijst de naam naar Štefan Boleslav Roman, een in Slowakije geboren Canadese industrieel en de eerste voorzitter van het Wereldcongres van Slowaken. Het eerste prefab flatgebouw van het nieuwe Petržalka werd op 3 augustus 1977 officieel opgeleverd op Romanova 33–35. De voltooiing ervan was een van de eerste concrete stappen in de verandering van een voormalig buitengebied in een uitgestrekte moderne woonwijk."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zrkadlový háj: een postmodern cultuurhuis voor de nieuwe woonwijk",
+          "text": "Het cultuurhuis Zrkadlový háj werd ontworpen als een opvallend cultureel gebouw voor de bewoners van de nieuwe woonwijk Petržalka. Architecten Peter Jančo en Pavol Mrázek presenteerden hun idee in 1982; het voltooide gebouw werd in november 1993 geopend. Het ontwerp bevat postmoderne verwijzingen, zoals gekleurde horizontale gevelbanden en een hoofdingang in de vorm van een portiek, waarvan de lichte constructie van stalen buizen op zware cilindervormige zuilen rust. Binnen sluiten een multifunctionele hal, clubruimten, een bibliotheek en een bioscoop-theaterzaal op elkaar aan. Het gebouw groeide uit tot een belangrijk cultureel centrum van Petržalka en biedt nog steeds theater, muziek en gemeenschapsactiviteiten."
+        }
+      ]
+    }
+  }
 }
