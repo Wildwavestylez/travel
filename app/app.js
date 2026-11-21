@@ -175,8 +175,8 @@ const hav=(a,b)=>{
 };
 const SUPABASE_URL='https://ipnkjcpewtdaikiyzktv.supabase.co';
 const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
-// Czech production records are read from Neon JSONB. Keep this in sync with
-// the read-only connection used by app/database.js until a server API exists.
+// Czech and Italian production records are read from their Neon JSONB tables.
+// The browser uses the existing read-only role; no writes are performed here.
 const CZECH_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
 const ITALY_DATABASE_URL=CZECH_DATABASE_URL;
 let czechSqlPromise=null, italySqlPromise=null;
@@ -194,8 +194,7 @@ async function getItalySql(){
 }
 let dataMap=new Map();
 
-// Germany retains its existing Supabase source. Czechia reads published
-// JSONB records directly from public.czechia_cap_records in Neon.
+// Germany retains its existing Supabase source. Czechia and Italy use Neon.
 async function fetchPostalRows(){
   if(countryCode==='CZ'){
     const sql=await getCzechSql();
