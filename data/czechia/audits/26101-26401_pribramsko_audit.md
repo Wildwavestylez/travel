@@ -119,7 +119,7 @@ Zdroje pro průzkum: https://www.pribram.eu/mesto-pribram/o-meste/kulturni-pamat
 
 1. **RÚIAN / primární přiřazení:** dořešit pouze tři nejednoznačné případy: 26211/fact_004 Čtyřmezí; 26215/fact_002 Psí hory; 26215/fact_004 židovský hřbitov v Čelině. Do doložení přesného poštovního přiřazení zachovat stávající jediná primární přiřazení, nepřesouvat a neduplikovat.
 2. **Správní údaje a kategorie:** dokončit kontrolu správních údajů a věcné správnosti map_category v celém bloku.
-3. **Zdrojové reference:** prověřit a normalizovat starší interní aliasy a JSON serializované řetězce ve 28 faktech; zachovat dohledatelnost přes content.sources.
+3. **Zdrojové reference:** vyřešit 40 starších aliasových odkazů ve 14 faktech napříč 26251, 26256 a 26261. V databázi je 36 různých klíčů src_*; explicitní mapování alias → URL se v dostupném obsahu ani repozitáři nepodařilo dohledat. Bez důkazu je nepřepisovat naslepo.
 4. **Duplicity a věcné vady:** uzavřít rychlý cross-check napříč PSČ a zjevné věcné rozpory; poté stanovit finální stav auditu.
 
 **Další krok:** dokončit kontrolu kategorií a správních údajů a normalizaci starších zdrojových referencí; tři geografické případy ponechat v REVIEW REQUIRED do doložení přesnějšího přiřazení. Null polohy i sémantická kontrola překladů jsou uzavřené; inventář 36 PSČ / 271 faktů je aktuální.
@@ -486,4 +486,47 @@ U faktů 26212/fact_007, 26301/fact_011, 26301/fact_014 a 26301/fact_015 byla po
 - Bez publikace, V5, zálohy, read-only zamčení a migrace do Neonu.
 
 **Výsledek jazykové kontroly: PASS.** Celkový audit zůstává REVIEW REQUIRED kvůli otevřeným geografickým případům a dalším kontrolám uvedeným v oddílu Otevřené kroky.
+
+
+
+## Kontrola kategorií, strukturální konzistence a zdrojových aliasů — 2026-11-21
+
+### Kategorie a priority
+
+- Ověřeno všech **271 faktů** proti povoleným enumům v schema.json.
+- Neplatná nebo chybějící hodnota category: **0**.
+- Neplatná nebo chybějící hodnota priority: **0**; používají se všechny čtyři úrovně A–D.
+- Neplatná nebo chybějící hodnota map_category: **0**; použito 15 z 17 povolených mapových kategorií.
+- Každý fakt má neprázdné sources[]: **271/271**.
+- Při obsahovém průchodu nebyl zjištěn zjevný rozpor mezi hlavní identitou faktu a jeho mapovou kategorií. Kategorie a priority nebyly měněny.
+
+### Správní a strukturální údaje
+
+- Všech 36 záznamů má neprázdné city, county, state, representative_place a validní representative_point.
+- district_type má pouze povolené hodnoty; žádná neplatná hodnota.
+- Všech 36 záznamů má neprázdný kořenový content.sources[].
+- Oprava 26101/district=Příbram I byla ověřena read-backem; 26293/district=Chlum zůstává beze změny.
+- Tato strukturální kontrola nepotvrzuje polygonové hranice PSČ ani nenahrazuje tři otevřené geografické případy.
+
+### Duplicity
+
+- Celkem 271 faktů; duplicitní ID uvnitř PSČ: **0**.
+- Přesné duplicitní názvy napříč 36 PSČ: **0**.
+- Zatím nebyl nalezen důkaz, který by odůvodňoval přesun nebo vytvoření duplicitního faktu. Tři otevřené případy z RÚIAN cross-checku zůstávají odděleně označené.
+
+### Starší zdrojové aliasy — nevyřešeno
+
+- Aktuální Supabase read-back ukazuje **14 faktů**, **40 odkazů** ve formátu src_* a **36 různých aliasových klíčů** ve třech PSČ: 26251, 26256 a 26261.
+- Rozložení: 26251/fact_003 = 1 alias; 26256/fact_001–fact_011 = 35 aliasů; 26261/fact_002–fact_003 = 4 aliasy.
+- Kořenové content.sources[] obsahuje související URL objekty, ale neobsahuje stabilní identifikátor, který by jednotlivé src_* klíče jednoznačně mapoval na konkrétní URL. Vyhledávání aliasových klíčů v repozitáři rovněž neposkytlo mapovací tabulku.
+- Zejména 26251/fact_003 obsahuje src_ecology, pro který nebylo možné v kořenovém seznamu bezpečně určit odpovídající zdroj.
+- **Žádný alias nebyl nahrazen odhadem.** Před normalizací je nutné získat původní mapování nebo jiný jednoznačný důkaz pro každý klíč. Do té doby zachovat původní zdrojové řetězce a stav REVIEW REQUIRED.
+
+### Dílčí výsledek
+
+- Kontrola povolených kategorií, priorit a povinných polí: **PASS**.
+- Strukturální kontrola administrativních polí a inventáře: **PASS**.
+- Rychlá kontrola duplicit ID a přesných názvů: **PASS**.
+- Normalizace starších aliasů: **REVIEW REQUIRED** — bez mapování se nesmí provést automatická náhrada.
+- Celkový audit zůstává **REVIEW REQUIRED** kvůli třem nejednoznačným geografickým přiřazením a nevyřešeným zdrojovým aliasům.
 
