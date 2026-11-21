@@ -1,4 +1,436 @@
 {
   "postcode": "01354",
-  "status": "placeholder"
+  "city": "Kolárovice",
+  "district": null,
+  "county": "Bytča",
+  "state": "Žilinský kraj",
+  "representative_place": "Kolárovice – kostel svatého Mikuláše a historické jádro",
+  "representative_point": {
+    "lat": 49.273026,
+    "lon": 18.532969
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kolárovičtí dráteníci: řemeslo, které vyšlo z Javorníků do Evropy",
+      "text": "Kolárovice patřily spolu s Velkým Rovným a Dlouhým Polem k nejvýraznějším centrům slovenského drotárství. Podle obecního historického přehledu se zde drátování hliněných nádob rozvíjelo už od konce 17. století; v 18. a 19. století odcházeli místní řemeslníci za prací do Čech, Rakouska i dalších zemí. Jejich práce začínala opravou prasklého nádobí a domácích předmětů, postupně se rozšířila na výrobu pastí, košíků a ozdobných drátovaných výrobků. Kolárovického původu byl také Jan Gallik, jehož náhrobek v jihočeské Březnici dokládá život vandrovního dráteníka; zemřel tam roku 1834.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.kolarovice.eu/obec-2/historia/kolarovicki-drotari/pociatky-a-rozvoj/",
+        "https://www.kolarovice.eu/obec-2/historia/kolarovicki-drotari/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_47db7e4a-d3df-4917-a74b-317ad9c77222"
+      ],
+      "location": {
+        "name": "Kolárovice – historické jádro, reprezentativní bod místní drátenické tradice",
+        "lat": 49.2804452,
+        "lon": 18.533878,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2600536504",
+        "address": null
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel svatého Mikuláše: stavba dokončená po smrti svého iniciátora",
+      "text": "Pozdně klasicistní jednolodní kostel svatého Mikuláše se začal stavět 8. dubna 1870 z iniciativy faráře Ondreje Tvrdého. Ten však v prosinci 1872 zemřel dříve, než byla stavba dokončena. Jeho nástupce Štefan Treskoň dovedl práce do konce a kostel byl požehnán 6. prosince 1873. Hlavní oltář zdobí obraz svatého Mikuláše od malíře Jozefa Božetecha Klemense z roku 1872; Klemens vytvořil také obrazy pro boční oltáře. Kostel tak spojuje místní církevní historii s významným dílem slovenského malířství 19. století.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.kolarovice.eu/farnost-1/historia/",
+        "https://www.kolarovice.eu/modules/file_storage/download.php?file=3fcf7af8%7C149&inline=",
+        "https://www.pamiatkynaslovensku.sk/kolarovice-kostol-sv-mikulasa"
+      ],
+      "location": {
+        "name": "Kostel svatého Mikuláše v Kolárovicích",
+        "lat": 49.273026,
+        "lon": 18.532969,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kolarovice-kostol-sv-mikulasa",
+        "address": "Kolárovice 434, 013 54 Kolárovice, Slovensko"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Jozef Gregor Tajovský učil v Kolárovicích a podporoval slovenštinu",
+      "text": "Slovenský spisovatel a dramatik Jozef Gregor Tajovský působil jako učitel také v Kolárovicích. Obecní historický přehled upřesňuje, že zde na podzim roku 1894 učil přibližně jeden měsíc. Podle místních vzpomínek učil děti slovenské písně a básně, jednal s nimi lidsky a netrestal je rákoskou. Obecní vyprávění spojuje jeho odchod s tím, že podporoval slovenské národní vědomí v době, kdy školství podléhalo silnému maďarizačnímu tlaku. Slovenské literární centrum potvrzuje Kolárovice mezi místy jeho učitelského působení v letech 1893–1898.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.kolarovice.eu/farnost-1/historia/dejatelia/",
+        "https://www.litcentrum.sk/node/90811/zivotopis-autora",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_47db7e4a-d3df-4917-a74b-317ad9c77222"
+      ],
+      "location": {
+        "name": "Kolárovice – orientační bod v centru obce pro historické působiště J. G. Tajovského",
+        "lat": 49.273026,
+        "lon": 18.532969,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/w71807936",
+        "address": null
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kopaničiarská architektura: roubené domy a drátenické fasády",
+      "text": "Kolárovice si zachovaly rozptýlený kopaničiarský charakter: osídlení se rozkládá v údolí i po svazích Javorníků a zahrnuje místní části Babiše, Bršlici, Čiakov, Korytné, Slopkov a Škoruby. V obci se dochovaly starší trojprostorové roubené domy s neobvyklou bodovou výmalbou kolem oken a dveří. Vedle nich vznikaly v první polovině 20. století zděné domy dráteníků a dělníků, jejichž fasády nesou secesní prvky. Tato kombinace tradičních horských usedlostí a domů navrátilých řemeslníků je výrazným dokladem toho, jak práce v zahraničí ovlivnila podobu místní vesnické zástavby.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_47db7e4a-d3df-4917-a74b-317ad9c77222",
+        "https://www.kolarovice.eu/obec-2/historia/",
+        "https://www.kolarovice.eu/modules/file_storage/download.php?file=3fcf7af8%7C149&inline="
+      ],
+      "location": {
+        "name": "Kolárovice – reprezentativní bod tradiční kopaničiarské zástavby",
+        "lat": 49.2804452,
+        "lon": 18.533878,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2600536504",
+        "address": null
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Hřebenová cesta přes Čerenku a Čemerku do Javorníků",
+      "text": "Kolárovice jsou východiskem do horského pásma Javorníků. Obecní a státní přehledy uvádějí trasu od orientačního bodu U Melocíka přes Čerenku ve výšce přibližně 948 metrů a Čemerku ve výšce 1 052 metrů, dále přes sedla Čierna voda a Butorky směrem k Veľkému Javorníku. Hřebenová oblast propojuje rozptýlené horské osady s turistickými trasami a nabízí pohled na krajinu česko-slovenského pohraničí. Čerenka byla v minulosti také lyžařským areálem; obecní rozvojový dokument však upozorňuje, že tamní zařízení bylo kvůli technickému stavu uzavřeno.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_47db7e4a-d3df-4917-a74b-317ad9c77222",
+        "https://www.kolarovice.eu/obec-2/historia/",
+        "https://www.kolarovice.eu/modules/file_storage/download.php?file=3fcf7af8%7C149&inline="
+      ],
+      "location": {
+        "name": "U Melocíka – značený turistický orientační bod a nástup do Javorníků",
+        "lat": 49.3436242,
+        "lon": 18.5075869,
+        "type": "trailhead",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n26498995",
+        "address": "Kolárovice 877, 013 54 Kolárovice, Slovensko"
+      },
+      "map_category": "viewpoint_landscape"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ jako referenční autorita; obecní oficiální stránka uvádí pobočku Pošta Kolárovice na adrese Kolárovice 416, 013 54 Kolárovice. Poštovní seznam potvrzuje PSČ 013 54 pro Kolárovice a místní části Babiše, Bršlica, Čiakov, Korytné, Slopkov a Škoruby; dynamický výpis Slovenské pošty nebyl ve strojově dostupném zobrazení zachycen.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Vyhľadávanie PSČ; oficiální stránka obce Kolárovice – Pošta; seznam PSČ a místních částí",
+    "postcode_source_release": "Obecní oficiální stránka pošty aktualizovaná 2026-08-26; online poštovní a geografické zdroje ověřené 2026-11-21",
+    "postcode_source_checked_at": "2026-11-21",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávací pošta Kolárovice, Kolárovice 416, 013 54 Kolárovice. Oficiální obecní stránka uvádí poštu Slovenské pošty na této adrese. PSČ pokrývá Kolárovice a místní části Babiše, Bršlica, Čiakov, Korytné, Slopkov a Škoruby.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy a oficiální dokumentace obce pro administrativní členění a místní části; ÚGKK SR pro geografické názvosloví; OMA/OpenStreetMap pouze jako doplňkový mapový podklad pro polohy bodů."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kolárovice – Pošta Kolárovice",
+      "url": "https://www.kolarovice.eu/organizacie/co-u-nas-najdete/posta/",
+      "type": "official"
+    },
+    {
+      "title": "PSČ Kolárovice 013 54 – poštovní obvod a obce",
+      "url": "https://www.pscpsc.eu/sk/postove-smerovacie-cislo/kolarovice%2C013-54",
+      "type": "other"
+    },
+    {
+      "title": "PSČ 013 54 – mapové údaje",
+      "url": "https://01354.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Informácie o obci Kolárovice",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_47db7e4a-d3df-4917-a74b-317ad9c77222",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kolárovice – História obce",
+      "url": "https://www.kolarovice.eu/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kolárovice – Počiatky a rozvoj drotárstva",
+      "url": "https://www.kolarovice.eu/obec-2/historia/kolarovicki-drotari/pociatky-a-rozvoj/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kolárovice – Kolárovičtí drotári",
+      "url": "https://www.kolarovice.eu/obec-2/historia/kolarovicki-drotari/",
+      "type": "official"
+    },
+    {
+      "title": "Program hospodárskeho a sociálneho rozvoja obce Kolárovice",
+      "url": "https://www.kolarovice.eu/modules/file_storage/download.php?file=3fcf7af8%7C149&inline=",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kolárovice – História farnosti",
+      "url": "https://www.kolarovice.eu/farnost-1/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Mikuláša v Kolároviciach",
+      "url": "https://www.pamiatkynaslovensku.sk/kolarovice-kostol-sv-mikulasa",
+      "type": "specialist"
+    },
+    {
+      "title": "Kostol sv. Mikuláša – mapový bod a súradnice",
+      "url": "https://poi.oma.sk/w71807936",
+      "type": "other"
+    },
+    {
+      "title": "Obec Kolárovice – Dejatelia: Jozef Gregor Tajovský",
+      "url": "https://www.kolarovice.eu/farnost-1/historia/dejatelia/",
+      "type": "official"
+    },
+    {
+      "title": "Slovenské literárne centrum – Jozef Gregor-Tajovský: životopis",
+      "url": "https://www.litcentrum.sk/node/90811/zivotopis-autora",
+      "type": "official"
+    },
+    {
+      "title": "Kolárovice – mapový orientačný bod v historickom jadre",
+      "url": "https://poi.oma.sk/n2600536504",
+      "type": "other"
+    },
+    {
+      "title": "U Melocíka – turistický orientačný bod",
+      "url": "https://poi.oma.sk/n26498995",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kolárovice – kostel svatého Mikuláše a historické jádro",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kolárovičtí dráteníci: řemeslo, které vyšlo z Javorníků do Evropy",
+          "text": "Kolárovice patřily spolu s Velkým Rovným a Dlouhým Polem k nejvýraznějším centrům slovenského drotárství. Podle obecního historického přehledu se zde drátování hliněných nádob rozvíjelo už od konce 17. století; v 18. a 19. století odcházeli místní řemeslníci za prací do Čech, Rakouska i dalších zemí. Jejich práce začínala opravou prasklého nádobí a domácích předmětů, postupně se rozšířila na výrobu pastí, košíků a ozdobných drátovaných výrobků. Kolárovického původu byl také Jan Gallik, jehož náhrobek v jihočeské Březnici dokládá život vandrovního dráteníka; zemřel tam roku 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel svatého Mikuláše: stavba dokončená po smrti svého iniciátora",
+          "text": "Pozdně klasicistní jednolodní kostel svatého Mikuláše se začal stavět 8. dubna 1870 z iniciativy faráře Ondreje Tvrdého. Ten však v prosinci 1872 zemřel dříve, než byla stavba dokončena. Jeho nástupce Štefan Treskoň dovedl práce do konce a kostel byl požehnán 6. prosince 1873. Hlavní oltář zdobí obraz svatého Mikuláše od malíře Jozefa Božetecha Klemense z roku 1872; Klemens vytvořil také obrazy pro boční oltáře. Kostel tak spojuje místní církevní historii s významným dílem slovenského malířství 19. století."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský učil v Kolárovicích a podporoval slovenštinu",
+          "text": "Slovenský spisovatel a dramatik Jozef Gregor Tajovský působil jako učitel také v Kolárovicích. Obecní historický přehled upřesňuje, že zde na podzim roku 1894 učil přibližně jeden měsíc. Podle místních vzpomínek učil děti slovenské písně a básně, jednal s nimi lidsky a netrestal je rákoskou. Obecní vyprávění spojuje jeho odchod s tím, že podporoval slovenské národní vědomí v době, kdy školství podléhalo silnému maďarizačnímu tlaku. Slovenské literární centrum potvrzuje Kolárovice mezi místy jeho učitelského působení v letech 1893–1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kopaničiarská architektura: roubené domy a drátenické fasády",
+          "text": "Kolárovice si zachovaly rozptýlený kopaničiarský charakter: osídlení se rozkládá v údolí i po svazích Javorníků a zahrnuje místní části Babiše, Bršlici, Čiakov, Korytné, Slopkov a Škoruby. V obci se dochovaly starší trojprostorové roubené domy s neobvyklou bodovou výmalbou kolem oken a dveří. Vedle nich vznikaly v první polovině 20. století zděné domy dráteníků a dělníků, jejichž fasády nesou secesní prvky. Tato kombinace tradičních horských usedlostí a domů navrátilých řemeslníků je výrazným dokladem toho, jak práce v zahraničí ovlivnila podobu místní vesnické zástavby."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hřebenová cesta přes Čerenku a Čemerku do Javorníků",
+          "text": "Kolárovice jsou východiskem do horského pásma Javorníků. Obecní a státní přehledy uvádějí trasu od orientačního bodu U Melocíka přes Čerenku ve výšce přibližně 948 metrů a Čemerku ve výšce 1 052 metrů, dále přes sedla Čierna voda a Butorky směrem k Veľkému Javorníku. Hřebenová oblast propojuje rozptýlené horské osady s turistickými trasami a nabízí pohled na krajinu česko-slovenského pohraničí. Čerenka byla v minulosti také lyžařským areálem; obecní rozvojový dokument však upozorňuje, že tamní zařízení bylo kvůli technickému stavu uzavřeno."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Kolárovice – St.-Nikolaus-Kirche und historischer Ortskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Drahtbinder von Kolárovice: ein Handwerk aus den Javorníky, das Europa erreichte",
+          "text": "Kolárovice gehörte zusammen mit Veľké Rovné und Dlhé Pole zu den bedeutendsten Zentren des slowakischen Drahtbinderhandwerks. Laut der historischen Darstellung der Gemeinde entwickelte sich hier das Umwickeln von Tongefäßen mit Draht bereits ab dem späten 17. Jahrhundert. Im 18. und 19. Jahrhundert zogen Handwerker aus der Gegend zur Arbeit nach Böhmen, Österreich und in weitere Länder. Anfangs reparierten sie zerbrochenes Geschirr und Haushaltsgegenstände; später fertigten sie auch Fallen, Körbe und kunstvolle Drahtarbeiten. Aus Kolárovice stammte Jan Gallik, dessen Grabstein im südböhmischen Březnice das Leben eines wandernden Drahtbinders belegt; er starb dort 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die St.-Nikolaus-Kirche: ein Bau, der nach dem Tod seines Initiators vollendet wurde",
+          "text": "Mit dem Bau der spätklassizistischen einschiffigen St.-Nikolaus-Kirche wurde am 8. April 1870 auf Initiative des Pfarrers Ondrej Tvrdý begonnen. Er starb jedoch im Dezember 1872, bevor das Bauwerk fertiggestellt war. Sein Nachfolger Štefan Treskoň führte die Arbeiten zu Ende; am 6. Dezember 1873 wurde die Kirche gesegnet. Den Hauptaltar schmückt ein Gemälde des heiligen Nikolaus von Jozef Božetech Klemens aus dem Jahr 1872; Klemens schuf auch Bilder für die Seitenaltäre. Die Kirche verbindet damit die lokale Kirchengeschichte mit einem bedeutenden Werk der slowakischen Malerei des 19. Jahrhunderts."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský unterrichtete in Kolárovice und förderte die slowakische Sprache",
+          "text": "Der slowakische Schriftsteller und Dramatiker Jozef Gregor Tajovský arbeitete auch in Kolárovice als Lehrer. Die historische Darstellung der Gemeinde präzisiert, dass er dort im Herbst 1894 ungefähr einen Monat unterrichtete. Nach örtlichen Erinnerungen brachte er den Kindern slowakische Lieder und Gedichte bei, behandelte sie menschlich und bestrafte sie nicht mit dem Rohrstock. Die lokale Überlieferung verbindet seinen Weggang damit, dass er das slowakische Nationalbewusstsein in einer Zeit starken Magyarisierungsdrucks im Schulwesen förderte. Das Slowakische Literaturzentrum bestätigt Kolárovice als einen seiner Unterrichtsorte zwischen 1893 und 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kopanice-Architektur: Blockhäuser und Fassaden der Drahtbinder",
+          "text": "Kolárovice hat seinen verstreuten Kopanice-Charakter bewahrt: Die Siedlungen liegen im Tal und an den Hängen der Javorníky und umfassen die Ortsteile Babiše, Bršlica, Čiakov, Korytné, Slopkov und Škoruby. Im Ort sind ältere dreiräumige Blockhäuser mit ungewöhnlichen punktförmigen Malereien um Fenster und Türen erhalten. Daneben entstanden in der ersten Hälfte des 20. Jahrhunderts gemauerte Häuser von Drahtbindern und Arbeitern, deren Fassaden Jugendstilelemente tragen. Diese Verbindung traditioneller Berghöfe mit den Häusern zurückgekehrter Handwerker zeigt, wie die Arbeit im Ausland das Erscheinungsbild des Dorfes beeinflusste."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Höhenweg über Čerenka und Čemerka in die Javorníky",
+          "text": "Kolárovice ist ein Ausgangspunkt für Wanderungen in den Javorníky. Gemeinde- und staatliche Übersichten nennen eine Route vom Wegweiser U Melocíka über Čerenka auf etwa 948 Metern und Čemerka auf 1.052 Metern, weiter über die Sättel Čierna voda und Butorky in Richtung Veľký Javorník. Der Höhenweg verbindet verstreute Bergsiedlungen mit den Wanderwegen und bietet Ausblicke auf die Landschaft des slowakisch-tschechischen Grenzgebiets. Čerenka war früher auch ein Skigebiet; ein kommunales Entwicklungsdokument weist jedoch darauf hin, dass die Anlagen wegen ihres technischen Zustands geschlossen wurden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Kolárovice – St Nicholas Church and the historic village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The wireworkers of Kolárovice: a craft from the Javorníky that travelled across Europe",
+          "text": "Together with Veľké Rovné and Dlhé Pole, Kolárovice was one of the leading centres of Slovak wireworking. According to the municipality’s historical account, the craft of binding clay vessels with wire developed here from the late 17th century. During the 18th and 19th centuries, local craftsmen travelled to Bohemia, Austria and other countries for work. They first repaired cracked pottery and household objects, then expanded into making traps, baskets and decorative wirework. Jan Gallik was born in Kolárovice; his gravestone in Březnice in South Bohemia documents the life of a travelling wireworker. He died there in 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Nicholas Church: a building completed after the death of its founder",
+          "text": "Construction of the late Neoclassical, single-nave Church of St Nicholas began on 8 April 1870 at the initiative of the parish priest Ondrej Tvrdý. He died in December 1872 before the building was completed. His successor Štefan Treskoň brought the work to completion, and the church was blessed on 6 December 1873. The main altar features a painting of St Nicholas by Jozef Božetech Klemens from 1872; Klemens also painted works for the side altars. The church therefore links local religious history with an important work of nineteenth-century Slovak painting."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský taught in Kolárovice and promoted the Slovak language",
+          "text": "The Slovak writer and playwright Jozef Gregor Tajovský also worked as a teacher in Kolárovice. The municipality’s historical account specifies that he taught there for about one month in the autumn of 1894. According to local recollections, he taught children Slovak songs and poems, treated them humanely and did not punish them with a cane. Local accounts connect his departure with his support for Slovak national awareness at a time of strong Magyarisation pressure in schools. The Slovak Literary Centre also lists Kolárovice among the places where he taught between 1893 and 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kopanice architecture: timber houses and the façades of wireworkers",
+          "text": "Kolárovice has retained its dispersed Kopanice settlement pattern, with houses in the valley and on the slopes of the Javorníky. Its local parts include Babiše, Bršlica, Čiakov, Korytné, Slopkov and Škoruby. Older three-room timber houses survive, some with unusual dotted decoration around their windows and doors. Alongside them, wireworkers’ and labourers’ masonry houses were built in the first half of the twentieth century, with Art Nouveau features on their façades. This combination of traditional mountain homesteads and houses built by returning craftsmen shows how work abroad influenced the appearance of the local village."
+        },
+        {
+          "id": "fact_005",
+          "title": "The ridge route over Čerenka and Čemerka into the Javorníky",
+          "text": "Kolárovice is a starting point for walks in the Javorníky mountains. Municipal and government sources describe a route from the U Melocíka trail marker via Čerenka at about 948 metres and Čemerka at 1,052 metres, continuing through the Čierna voda and Butorky passes towards Veľký Javorník. The ridge route links scattered mountain settlements with hiking trails and offers views of the Slovak-Czech border landscape. Čerenka was also a ski area in the past; however, a municipal development document notes that its facilities were closed because of their technical condition."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Kolárovice – iglesia de San Nicolás y núcleo histórico del pueblo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Los alambradores de Kolárovice: un oficio de los Javorníky que llegó a Europa",
+          "text": "Junto con Veľké Rovné y Dlhé Pole, Kolárovice fue uno de los principales centros del oficio eslovaco de alambrar objetos. Según la historia municipal, aquí se desarrolló desde finales del siglo XVII la técnica de reforzar con alambre las vasijas de barro. Durante los siglos XVIII y XIX, los artesanos locales viajaban a Bohemia, Austria y otros países para trabajar. Al principio reparaban cerámica agrietada y objetos domésticos; después fabricaron también trampas, cestas y piezas decorativas de alambre. Jan Gallik nació en Kolárovice; su lápida en Březnice, en Bohemia del Sur, documenta la vida de un alambrador itinerante. Murió allí en 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de San Nicolás: una construcción terminada tras la muerte de su impulsor",
+          "text": "La construcción de la iglesia neoclásica tardía de una sola nave de San Nicolás comenzó el 8 de abril de 1870 por iniciativa del párroco Ondrej Tvrdý. Este murió en diciembre de 1872 antes de que el edificio estuviera terminado. Su sucesor, Štefan Treskoň, concluyó las obras y la iglesia fue bendecida el 6 de diciembre de 1873. El altar mayor está decorado con una pintura de San Nicolás realizada por Jozef Božetech Klemens en 1872; Klemens también pintó obras para los altares laterales. La iglesia une así la historia religiosa local con una obra importante de la pintura eslovaca del siglo XIX."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský enseñó en Kolárovice y promovió la lengua eslovaca",
+          "text": "El escritor y dramaturgo eslovaco Jozef Gregor Tajovský también trabajó como maestro en Kolárovice. La historia municipal precisa que enseñó allí durante aproximadamente un mes en el otoño de 1894. Según los recuerdos locales, enseñaba a los niños canciones y poemas eslovacos, los trataba con humanidad y no los castigaba con una vara. La memoria local relaciona su marcha con su apoyo a la conciencia nacional eslovaca en una época de fuerte presión de magiarización en las escuelas. El Centro Literario Eslovaco también incluye Kolárovice entre los lugares donde ejerció como maestro entre 1893 y 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Arquitectura de Kopanice: casas de madera y fachadas de alambradores",
+          "text": "Kolárovice ha conservado su carácter de asentamiento disperso de Kopanice, con viviendas en el valle y en las laderas de los Javorníky. Sus partes locales incluyen Babiše, Bršlica, Čiakov, Korytné, Slopkov y Škoruby. Se conservan antiguas casas de madera de tres estancias, algunas con una singular decoración de puntos alrededor de puertas y ventanas. Junto a ellas se construyeron, en la primera mitad del siglo XX, casas de mampostería de alambradores y obreros con elementos modernistas en las fachadas. Esta combinación de granjas tradicionales de montaña y viviendas de artesanos retornados muestra cómo el trabajo en el extranjero influyó en la arquitectura del pueblo."
+        },
+        {
+          "id": "fact_005",
+          "title": "La ruta de cresta por Čerenka y Čemerka hacia los Javorníky",
+          "text": "Kolárovice es un punto de partida para recorrer los montes Javorníky. Las fuentes municipales y estatales describen una ruta desde el punto de orientación U Melocíka, pasando por Čerenka, a unos 948 metros, y Čemerka, a 1.052 metros, y continuando por los collados de Čierna voda y Butorky hacia Veľký Javorník. El recorrido de cresta conecta los asentamientos dispersos de montaña con las rutas de senderismo y ofrece vistas del paisaje fronterizo entre Eslovaquia y Chequia. Čerenka también fue una zona de esquí; sin embargo, un documento municipal de desarrollo indica que sus instalaciones se cerraron por su estado técnico."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Kolárovice – église Saint-Nicolas et centre historique du village",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Les rétameurs de Kolárovice : un artisanat des Javorníky qui a voyagé en Europe",
+          "text": "Avec Veľké Rovné et Dlhé Pole, Kolárovice fut l’un des principaux centres de la tradition slovaque du travail du fil de fer. Selon l’histoire publiée par la commune, le renforcement des récipients en terre cuite avec du fil s’y développa dès la fin du XVIIe siècle. Aux XVIIIe et XIXe siècles, les artisans locaux partirent travailler en Bohême, en Autriche et dans d’autres pays. Ils réparèrent d’abord la poterie fissurée et les objets ménagers, puis fabriquèrent aussi des pièges, des paniers et des objets décoratifs en fil de fer. Jan Gallik, né à Kolárovice, est documenté par sa pierre tombale à Březnice, en Bohême du Sud ; il y mourut en 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Nicolas : un édifice achevé après la mort de son initiateur",
+          "text": "La construction de l’église Saint-Nicolas, de style néoclassique tardif et à nef unique, commença le 8 avril 1870 à l’initiative du curé Ondrej Tvrdý. Celui-ci mourut en décembre 1872 avant l’achèvement du bâtiment. Son successeur Štefan Treskoň termina les travaux et l’église fut bénie le 6 décembre 1873. Le maître-autel est orné d’un tableau de saint Nicolas peint par Jozef Božetech Klemens en 1872 ; Klemens réalisa également des œuvres pour les autels latéraux. L’église associe ainsi l’histoire religieuse locale à une œuvre importante de la peinture slovaque du XIXe siècle."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský enseigna à Kolárovice et défendit la langue slovaque",
+          "text": "L’écrivain et dramaturge slovaque Jozef Gregor Tajovský travailla également comme instituteur à Kolárovice. L’histoire communale précise qu’il y enseigna environ un mois à l’automne 1894. Selon les souvenirs locaux, il apprenait aux enfants des chansons et des poèmes slovaques, les traitait avec humanité et ne les punissait pas avec une baguette. La mémoire locale associe son départ à son soutien à la conscience nationale slovaque à une époque de forte pression de magyarisation dans les écoles. Le Centre littéraire slovaque confirme également que Kolárovice faisait partie de ses lieux d’enseignement entre 1893 et 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Architecture des kopanice : maisons en bois et façades des rétameurs",
+          "text": "Kolárovice a conservé son habitat dispersé de type kopanice, avec des maisons dans la vallée et sur les pentes des Javorníky. Ses localités comprennent Babiše, Bršlica, Čiakov, Korytné, Slopkov et Škoruby. On y trouve encore d’anciennes maisons en bois à trois pièces, dont certaines présentent un décor pointillé inhabituel autour des fenêtres et des portes. À côté de celles-ci, des maisons maçonnées de rétameurs et d’ouvriers ont été construites dans la première moitié du XXe siècle, avec des éléments Art nouveau sur leurs façades. Cette combinaison de fermes montagnardes traditionnelles et de maisons d’artisans revenus au pays montre comment le travail à l’étranger a influencé le paysage bâti du village."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’itinéraire de crête par Čerenka et Čemerka dans les Javorníky",
+          "text": "Kolárovice est un point de départ pour les randonnées dans les montagnes des Javorníky. Les sources communales et nationales décrivent un itinéraire depuis le repère U Melocíka, passant par Čerenka à environ 948 mètres et Čemerka à 1 052 mètres, puis par les cols de Čierna voda et Butorky en direction de Veľký Javorník. Le parcours de crête relie les hameaux de montagne dispersés aux sentiers de randonnée et offre des vues sur le paysage frontalier slovaquo-tchèque. Čerenka fut également une station de ski ; toutefois, un document communal de développement indique que ses installations ont été fermées en raison de leur état technique."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Kolárovice – chiesa di San Nicola e centro storico del paese",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "I ramai di Kolárovice: un mestiere dei Javorníky che viaggiò in Europa",
+          "text": "Insieme a Veľké Rovné e Dlhé Pole, Kolárovice fu uno dei principali centri slovacchi della lavorazione del filo di ferro. Secondo la storia pubblicata dal comune, qui la tecnica di rinforzare i recipienti di terracotta con il filo si sviluppò già dalla fine del XVII secolo. Nei secoli XVIII e XIX gli artigiani locali partirono per lavorare in Boemia, Austria e in altri paesi. All’inizio riparavano ceramiche crepate e oggetti domestici; in seguito realizzarono anche trappole, cesti e manufatti decorativi in filo. Jan Gallik nacque a Kolárovice; la sua lapide a Březnice, nella Boemia meridionale, documenta la vita di un ramaio itinerante. Morì lì nel 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Nicola: un edificio completato dopo la morte del suo promotore",
+          "text": "La costruzione della chiesa di San Nicola, a navata unica e in stile neoclassico tardo, iniziò l’8 aprile 1870 su iniziativa del parroco Ondrej Tvrdý. Egli morì nel dicembre 1872 prima che l’edificio fosse terminato. Il suo successore Štefan Treskoň completò i lavori e la chiesa fu benedetta il 6 dicembre 1873. L’altare maggiore è ornato da un dipinto di San Nicola realizzato da Jozef Božetech Klemens nel 1872; Klemens dipinse anche opere per gli altari laterali. La chiesa collega così la storia religiosa locale a un’importante opera della pittura slovacca del XIX secolo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský insegnò a Kolárovice e promosse la lingua slovacca",
+          "text": "Lo scrittore e drammaturgo slovacco Jozef Gregor Tajovský lavorò anche come insegnante a Kolárovice. La ricostruzione storica del comune precisa che vi insegnò per circa un mese nell’autunno del 1894. Secondo i ricordi locali, insegnava ai bambini canzoni e poesie slovacche, li trattava con umanità e non li puniva con la verga. La memoria locale collega la sua partenza al sostegno dato alla coscienza nazionale slovacca in un periodo di forte pressione di magiarizzazione nelle scuole. Anche il Centro letterario slovacco conferma Kolárovice tra i luoghi in cui insegnò tra il 1893 e il 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Architettura delle kopanice: case in legno e facciate dei ramai",
+          "text": "Kolárovice ha conservato il suo carattere di insediamento sparso di tipo kopanice, con case nella valle e sui pendii dei Javorníky. Le sue località comprendono Babiše, Bršlica, Čiakov, Korytné, Slopkov e Škoruby. Si sono conservate antiche case in legno a tre ambienti, alcune con una particolare decorazione a punti intorno a finestre e porte. Accanto a esse, nella prima metà del XX secolo furono costruite case in muratura di ramai e lavoratori, con elementi Art Nouveau sulle facciate. Questa combinazione di fattorie montane tradizionali e abitazioni di artigiani rientrati mostra come il lavoro all’estero abbia influenzato l’aspetto del paese."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il percorso di cresta attraverso Čerenka e Čemerka nei Javorníky",
+          "text": "Kolárovice è un punto di partenza per le escursioni nei monti Javorníky. Le fonti comunali e statali descrivono un itinerario dal punto di riferimento U Melocíka attraverso Čerenka, a circa 948 metri, e Čemerka, a 1.052 metri, proseguendo per i passi di Čierna voda e Butorky verso Veľký Javorník. Il percorso di cresta collega gli insediamenti montani sparsi ai sentieri escursionistici e offre vedute del paesaggio di confine tra Slovacchia e Repubblica Ceca. Čerenka era anche una stazione sciistica; tuttavia, un documento comunale di sviluppo segnala che gli impianti sono stati chiusi a causa delle loro condizioni tecniche."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Kolárovice – Sint-Nicolaaskerk en de historische dorpskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De draadwerkers van Kolárovice: een ambacht uit de Javorníky dat Europa bereikte",
+          "text": "Samen met Veľké Rovné en Dlhé Pole was Kolárovice een van de belangrijkste centra van het Slowaakse draadwerkersambacht. Volgens de historische beschrijving van de gemeente ontwikkelde het omwikkelen van aardewerken vaten met draad zich hier al vanaf het einde van de zeventiende eeuw. In de achttiende en negentiende eeuw trokken plaatselijke ambachtslieden naar Bohemen, Oostenrijk en andere landen om werk te vinden. Eerst repareerden zij gebarsten aardewerk en huishoudelijke voorwerpen; later maakten zij ook vallen, manden en decoratief draadwerk. Jan Gallik werd in Kolárovice geboren; zijn grafsteen in Březnice in Zuid-Bohemen documenteert het leven van een rondtrekkende draadwerker. Hij stierf daar in 1834."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Nicolaaskerk: een gebouw dat na de dood van de initiatiefnemer werd voltooid",
+          "text": "De bouw van de laatclassicistische eenbeukige Sint-Nicolaaskerk begon op 8 april 1870 op initiatief van pastoor Ondrej Tvrdý. Hij overleed in december 1872 voordat het gebouw voltooid was. Zijn opvolger Štefan Treskoň maakte het werk af; de kerk werd op 6 december 1873 ingezegend. Het hoofdaltaar is versierd met een schilderij van Sint-Nicolaas uit 1872 van Jozef Božetech Klemens; Klemens maakte ook schilderijen voor de zijaltaren. De kerk verbindt zo de plaatselijke kerkgeschiedenis met een belangrijk werk uit de Slowaakse schilderkunst van de negentiende eeuw."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jozef Gregor Tajovský gaf les in Kolárovice en bevorderde de Slowaakse taal",
+          "text": "De Slowaakse schrijver en toneelschrijver Jozef Gregor Tajovský werkte ook als onderwijzer in Kolárovice. Volgens de historische beschrijving van de gemeente gaf hij daar in de herfst van 1894 ongeveer een maand les. Plaatselijke herinneringen vertellen dat hij de kinderen Slowaakse liederen en gedichten leerde, hen menselijk behandelde en hen niet met een stok strafte. Volgens de lokale overlevering moest hij vertrekken omdat hij het Slowaakse nationale bewustzijn bevorderde in een periode van sterke magyarisering in het onderwijs. Het Slowaaks Literair Centrum bevestigt eveneens dat Kolárovice een van zijn lesplaatsen was tussen 1893 en 1898."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kopanice-architectuur: houten huizen en gevels van draadwerkers",
+          "text": "Kolárovice heeft zijn verspreide Kopanice-bebouwing behouden, met huizen in het dal en op de hellingen van de Javorníky. De lokale delen omvatten Babiše, Bršlica, Čiakov, Korytné, Slopkov en Škoruby. Er zijn oudere houten huizen met drie vertrekken bewaard gebleven, sommige met een bijzonder stippelmotief rond ramen en deuren. Daarnaast werden in de eerste helft van de twintigste eeuw gemetselde huizen van draadwerkers en arbeiders gebouwd, met art-nouveau-elementen op de gevels. Deze combinatie van traditionele bergboerderijen en huizen van teruggekeerde ambachtslieden laat zien hoe werk in het buitenland het uiterlijk van het dorp heeft beïnvloed."
+        },
+        {
+          "id": "fact_005",
+          "title": "De bergkamroute via Čerenka en Čemerka door de Javorníky",
+          "text": "Kolárovice is een vertrekpunt voor wandelingen in het Javorníky-gebergte. Gemeentelijke en overheidsbronnen beschrijven een route vanaf het wegwijspunt U Melocíka via Čerenka op ongeveer 948 meter en Čemerka op 1.052 meter, verder over de passen Čierna voda en Butorky in de richting van Veľký Javorník. De bergkamroute verbindt verspreide bergnederzettingen met wandelpaden en biedt uitzicht op het grenslandschap van Slowakije en Tsjechië. Čerenka was vroeger ook een skigebied; een gemeentelijk ontwikkelingsdocument meldt echter dat de installaties vanwege hun technische staat zijn gesloten."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
