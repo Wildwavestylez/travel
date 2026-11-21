@@ -5,7 +5,7 @@
 - **Datum zahájení:** 2026-11-21
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
-- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; otevřená zůstává sémantická kontrola překladů, audit kategorií/správních údajů a normalizace starších zdrojových referencí.
+- **Stav:** `REVIEW REQUIRED` — všechny null polohy jsou vyřešeny; RÚIAN cross-check je dokončen s třemi konkrétními nejednoznačnými přiřazeními k ručnímu rozhodnutí; otevřená zůstává sémantická kontrola překladů, úplná kontrola kategorií/správních údajů a normalizace starších zdrojových referencí.
 
 
 
@@ -15,7 +15,7 @@
 - **28 nových Explorer faktů** má kompletní překlady cs/de/en/es/fr/it/nl, nejméně 3 zdroje a texty delší než 350 znaků; všech 28 má nyní mapový bod.
 - Vyřešeno všech **27 původních null poloh** a také 2 později přidané null polohy u usedlostí Obořiště čp. 4 a Lhotka čp. 2. Aktuálně nezůstává žádná null poloha.
 - Read-back překladů: 271/271 faktů v každém ze 7 jazyků; duplicitní ID 0.
-- Audit zůstává **REVIEW REQUIRED** kvůli dalším otevřeným oblastem (sémantika překladů, geografický RÚIAN cross-check, kategorie a normalizace starších zdrojových referencí). Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
+- Audit zůstává **REVIEW REQUIRED** kvůli třem nejednoznačným geografickým přiřazením, neuzavřené sémantické kontrole překladů, kategoriím/správním údajům a normalizaci starších zdrojových referencí. Žádná publikace, změna `data_version`, záloha ani read-only zamčení.
 
 ## Uzavření všech null poloh — poslední kolo (2026-11-21)
 
@@ -355,7 +355,7 @@ Tato sekce nahrazuje předchozí poznámku, že obě nová fakta zůstala bez po
 
 - 26101 — Příbram: pošta Příbram 1 sídlí v části obce Příbram I (Gen. R. Tesaříka 179). V Supabase bylo bezpečně doplněno district="Příbram I" a district_type="municipal_part". Read-back potvrdil obě hodnoty. Zdroj pro polohu pošty: oficiální městský bezbariérový plán a RÚIAN seznam částí Příbrami.
 - 26293 — Nalžovice: stávající district="Chlum" / district_type="municipal_part" odpovídá sídlu pošty v Chlumu; beze změny.
-- U ostatních 34 záznamů nebyla v tomto průchodu zjištěna konkrétní chyba city, district, county ani state; jejich plošné přepisování nebylo provedeno.
+- U ostatních záznamů nebyla v tomto dílčím průchodu nalezena další doložená oprava district. Úplná kontrola sídel pošt a všech správních údajů zůstává součástí navazujícího auditního kroku; žádné další pole nebylo plošně přepisováno.
 
 ### Potvrzená geografická přiřazení a překryvy
 
