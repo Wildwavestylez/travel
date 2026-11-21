@@ -138,3 +138,25 @@ Uživatel výslovně potvrdil, že pro Europe Explorer je třeba hledat každou 
 
 - Při kontrole sousedních PSČ bylo zjištěno, že Drahenice patří do poštovní oblasti 26285, nikoli 26272. Nový záznam 26272/fact_017 o zámku Drahenice byl proto odstraněn včetně všech sedmi jazykových položek; tematika Drahenického zámku a památkové zóny je již pokryta ve správném záznamu 26285. ID ostatních faktů nebyla měněna.
 - Aktualizovaný read-back celého rozsahu: 36 PSČ, 252 faktů, 239 faktů s polohou, 13 null poloh. Tato korekce předchází duplicitě a chybnému přiřazení mezi PSČ.
+
+
+## Pokračování — další opravy poloh a rozšíření obsahu (2026-11-21)
+
+### Nové Explorer faktum
+- **26242/fact_009 — Třemšín: pravěké hradiště a středověký hrad na brdském vrcholu.** Třemšín (827 m) uchovává dvě fáze opevnění: pravěké hradiště s kamennými valy, patrně z pozdní doby bronzové či halštatské, a středověký hrad, poprvé písemně doložený roku 1349. Záznam rozlišuje archeologické nálezy a tradici o počátcích hradu; uvádí jeho vazbu na Beneše z Třemšína, darování Janu Zajíci roku 1403, neuskutečněnou opravu povolenou roku 1528 a romantické úpravy kolem roku 1800. Poloha 49.5660803, 13.7776403; archaeological_site; approximate. Zdroje NPÚ ISAD, Památkový katalog, Brdy a Podbrdsko a Atlas české architektury. RÚIAN inventář potvrzuje Voltuš v PSČ 26242. Fakt má překlady cs/de/en/es/fr/it/nl.
+
+### Nově doplněné souřadnice původních null poloh
+- **26252/fact_004 — socha sv. Jana Nepomuckého ve Vysokém Chlumci:** 49.61755, 14.3886930556; sculpture; exact. Regionální inventář MAS Sedlčansko uvádí přímo GPS plastiky u čp. 1; identitu objektu potvrzuje NPÚ Památkový katalog. Původní placeholder zdroje `src_statue` byl nahrazen dvěma přímými URL.
+- **26244/fact_002 — kostel sv. Prokopa a Navštívení Panny Marie ve Hvožďanech:** 49.5271861, 13.8051944; church; exact. Souřadnice jsou uvedeny jako „coordinates of depicted place“ v kategorii Wikimedia Commons a souhlasí s lokalizací kostela v oficiálním popisu obce a Atlasu české architektury.
+- **26301/fact_011 — kaple Nanebevzetí Panny Marie v Budínku:** 49.75568, 14.19153; chapel; approximate. Mapcarta/OSM poskytuje bod kaple; NPÚ potvrzuje, že fyzicky stojí na východním okraji Budínku, a vysvětluje její historickou vazbu na Budínek, přestože leží na okraji katastru Rybníků.
+- Read-back potvrdil tři polohy, 0 neplatných location objektů a zachování všech ostatních neprázdných souřadnic.
+
+### Korekce duplicity v 26272
+- Nově přidaný `26272/fact_013` o kostele sv. Jana Křtitele v Počaplech popisoval tentýž objekt jako již existující `26272/fact_010` — kostel ve Stražišti. NPÚ popisuje shodný soubor: kostel, pozdně renesanční ohradní zeď s bránou, půlválcovou baštu, kostnici a relikty valů/příkopů. Proto byl duplicitní `fact_013` odstraněn a jeho nové podrobnosti byly sloučeny do stávajícího `fact_010`, jehož ID zůstalo zachováno. Titul, český text a všech sedm překladů byly aktualizovány; doplněny přímé zdroje NPÚ a Atlasu české architektury. Poloha stávajícího faktu zůstala beze změny.
+- Drahenice zůstávají pouze ve správném PSČ 26285; v 26272 se neopakují.
+
+### Aktuální read-back celého rozsahu
+- 36 PSČ, **252 faktů**, **243 faktů s polohou**, **9 null poloh**, **0 neplatných location objektů**.
+- Z původních 27 null poloh je nyní doloženo 18; 9 zůstává otevřených, protože pro ně nebyl nalezen dostatečně přesný a obhajitelný bod.
+- Všech 11 nových Explorer faktů má překlady cs/de/en/es/fr/it/nl; žádný nový fakt nebyl přiřazen do nesprávného PSČ podle RÚIAN.
+- Stav zůstává REVIEW REQUIRED. Bez publikace, změny data_version, zálohy či read-only zamčení.
