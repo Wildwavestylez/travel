@@ -1,4 +1,314 @@
 {
   "postcode": "85110",
-  "status": "placeholder"
+  "city": "Bratislava",
+  "district": "Rusovce",
+  "county": "Bratislava V",
+  "state": "Bratislavský kraj",
+  "representative_place": "Antická Gerulata, Rusovce",
+  "representative_point": {
+    "lat": 48.0558833,
+    "lon": 17.1495778
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Gerulata: římský vojenský tábor na hranici říše",
+      "text": "V Rusovcích se nachází římský kastel Gerulata, vojenský tábor na dunajské hranici Římské říše. Archeologické pozůstatky dokládají několik stavebních etap od 1. do 4. století; v areálu muzea jsou viditelné základy starších staveb i pozdně antické pevnosti ze 4. století. Gerulata byla prvním kast elem v linii vojenských táborů mezi Carnuntem a Brigetiem a její nálezy přibližují nejen život vojáků, ale také civilní osídlení v okolí. V roce 2021 se stala součástí sériové památky UNESCO Hranice Římské říše – Dunajský Limes (západní část). Jde o mimořádný doklad přítomnosti římské armády a římského způsobu života na území dnešního Slovenska.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "src_gerulata_mmb",
+        "src_gerulata_unesco",
+        "src_gerulata_pamiatky"
+      ],
+      "location": {
+        "name": "Antická Gerulata – římský kastel",
+        "address": "Gerulatská 7, 851 10 Bratislava-Rusovce, Slovensko",
+        "lat": 48.0558833,
+        "lon": 17.1495778,
+        "type": "archaeological_site",
+        "accuracy": "exact",
+        "source": "https://www.muzeumbratislava.sk/anticka-gerulata"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Danubiana: galerie současného umění na poloostrově Dunaje",
+      "text": "Danubiana Meulensteen Art Museum stojí na uměle utvářeném poloostrově vodního díla Čunovo, kde se Dunajská krajina stává součástí zážitku z umění. Myšlenka muzea vznikla v rozhovorech zakladatelů Gerarda Meulensteena a Vincenta Polakoviče v letech 1995–1999; stavba začala v roce 1999 a muzeum bylo slavnostně otevřeno 9. září 2000. Architekt Peter Žalman navrhl původní budovu ve tvaru lodi či římské galéry. Rozšíření pro stálou sbírku navrhl Ján Kukuľa; stavělo se od jara 2013 do září 2014. Danubiana tak propojuje výstavní prostor pro slovenské i zahraniční moderní umění s výraznou architekturou a polohou přímo nad Dunajem.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "src_danubiana_history",
+        "src_danubiana_architecture",
+        "src_danubiana_address"
+      ],
+      "location": {
+        "name": "Danubiana Meulensteen Art Museum",
+        "address": "Vodné dielo Čunovo, 851 10 Bratislava-Čunovo, Slovensko",
+        "lat": 48.034237,
+        "lon": 17.232605,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://danubiana.sk/kontakt/kontakt"
+      },
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Mikuláše v Jarovcích: pozdně barokní památka",
+      "text": "Římskokatolický kostel sv. Mikuláše v Jarovcích vznikl v letech 1763–1765 jako pozdně barokní jednolodní stavba. Původně byl postaven bez věže; ta byla doplněna až v roce 1884. Dne 3. dubna 1945 ustupující německá vojska věž vyhodila do povětří a kostel prošel rozsáhlejší obnovou, která začala v roce 1970. V interiéru se dochovaly také starší umělecké prvky, například gotická dřevěná socha Madony z konce 15. století a barokní plastika Ecce homo z konce 17. století. Kostel je významným svědkem dějin Jaroviec, jejichž kulturní identitu formovalo také chorvatské osídlení.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "src_jarovce_church_specialist",
+        "src_jarovce_church_news",
+        "src_jarovce_postcode"
+      ],
+      "location": {
+        "name": "Kostel sv. Mikuláše",
+        "address": "Mandľová 81, 851 10 Bratislava-Jarovce, Slovensko",
+        "lat": 48.065623,
+        "lon": 17.111529,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/jarovce-bratislava-kostol-sv-mikulasa"
+      },
+      "map_category": "religious_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Technické parametre, príloha 3a: PSČ 851 10 je směrováno na dodávací poštu Bratislava 59. Geografické použití je doloženo konkrétními fyzickými adresami v Rusovcích (Gerulatská 7), Jarovcích (Mandľová 81) a Čunově (Vodné dielo), nikoli adresou P. O. Box.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "PSČ 851 10 pokrývá více městských částí Bratislavy: Rusovce, Jarovce a Čunovo. Nejde o rozpor; jde o společnou geografickou doručovací oblast.",
+    "delivery_office_note": "Slovenská pošta uvádí 851 10 pod dodávací poštou Bratislava 59. Adresa P. O. Box 51, kterou Danubiana uvádí v kontaktech, nebyla použita jako důkaz geografického PSČ; muzeum má samostatně doloženou fyzickou adresu Vodné dielo, 851 10 Bratislava-Čunovo.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register pamiatok Pamiatkového úradu SR a oficiální adresní údaje institucí; městské části Rusovce, Jarovce a Čunovo jsou součástí Bratislavy, okres Bratislava V, Bratislavský kraj."
+  },
+  "sources": [
+    {
+      "id": "src_gerulata_mmb",
+      "title": "Antická Gerulata – Múzeum mesta Bratislavy",
+      "url": "https://www.muzeumbratislava.sk/anticka-gerulata",
+      "type": "official"
+    },
+    {
+      "id": "src_gerulata_unesco",
+      "title": "Frontiers of the Roman Empire – The Danube Limes (Western Segment), UNESCO",
+      "url": "https://whc.unesco.org/en/list/1608/maps",
+      "type": "official"
+    },
+    {
+      "id": "src_gerulata_pamiatky",
+      "title": "Pamiatkový úrad SR – Výpis z Ústredného zoznamu pamiatkového fondu, Rímsky kastel Gerulata",
+      "url": "https://www.pamiatky.sk/fileadmin/documents/news/PZ_ZASADY/Rusovce/0101-BA-RU-text.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_danubiana_history",
+      "title": "Danubiana – História múzea",
+      "url": "https://danubiana.sk/danubiana/historia",
+      "type": "primary"
+    },
+    {
+      "id": "src_danubiana_architecture",
+      "title": "Danubiana – Architektúra múzea",
+      "url": "https://danubiana.sk/danubiana/architektura",
+      "type": "primary"
+    },
+    {
+      "id": "src_danubiana_address",
+      "title": "Danubiana – Kontakty a fyzická adresa Vodné dielo Čunovo",
+      "url": "https://new.danubiana.sk/en/danubiana/general-information",
+      "type": "official"
+    },
+    {
+      "id": "src_jarovce_church_specialist",
+      "title": "Kostol sv. Mikuláša v Jarovciach – stavebný vývoj a GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/jarovce-bratislava-kostol-sv-mikulasa",
+      "type": "specialist"
+    },
+    {
+      "id": "src_jarovce_church_news",
+      "title": "Kostol svätého Mikuláša – adresa Mandľová 81, Bratislavské noviny",
+      "url": "https://www.bratislavskenoviny.sk/neprehliadnite/bohosluzby/rimskokatolicka-cirkev/19092-kostol-svateho-mikulasa",
+      "type": "regional"
+    },
+    {
+      "id": "src_jarovce_postcode",
+      "title": "SITA – PSČ 85110, zoznam ulíc",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85110/",
+      "type": "regional"
+    },
+    {
+      "id": "src_postal_technical",
+      "title": "Slovenská pošta – Technické parametre, príloha 3a: zoznam smerov triedenia pre dodávacie pošty v Bratislave",
+      "url": "https://www.posta.sk/files/68664f4f1174ab4e9b603048/technical-parameters-for-sorting-and-bundling-of-items.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_cunovo_history",
+      "title": "Čunovo – História, oficiálna stránka mestskej časti",
+      "url": "https://www.cunovo.eu/zivot-v-obci/historia",
+      "type": "official"
+    },
+    {
+      "id": "src_jarovce_history",
+      "title": "Územný plán zóny Jarovce-Sever – historický vývoj Jaroviec",
+      "url": "https://www.jarovce.sk/dokumenty/upn/cistopis/00_UPN%20Z_Jarovce_Sever_Smerna_C.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Antická Gerulata, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: římský vojenský tábor na hranici říše",
+          "text": "V Rusovcích se nachází římský kastel Gerulata, vojenský tábor na dunajské hranici Římské říše. Archeologické pozůstatky dokládají několik stavebních etap od 1. do 4. století; v areálu muzea jsou viditelné základy starších staveb i pozdně antické pevnosti ze 4. století. Gerulata byla prvním kast elem v linii vojenských táborů mezi Carnuntem a Brigetiem a její nálezy přibližují nejen život vojáků, ale také civilní osídlení v okolí. V roce 2021 se stala součástí sériové památky UNESCO Hranice Římské říše – Dunajský Limes (západní část). Jde o mimořádný doklad přítomnosti římské armády a římského způsobu života na území dnešního Slovenska."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: galerie současného umění na poloostrově Dunaje",
+          "text": "Danubiana Meulensteen Art Museum stojí na uměle utvářeném poloostrově vodního díla Čunovo, kde se Dunajská krajina stává součástí zážitku z umění. Myšlenka muzea vznikla v rozhovorech zakladatelů Gerarda Meulensteena a Vincenta Polakoviče v letech 1995–1999; stavba začala v roce 1999 a muzeum bylo slavnostně otevřeno 9. září 2000. Architekt Peter Žalman navrhl původní budovu ve tvaru lodi či římské galéry. Rozšíření pro stálou sbírku navrhl Ján Kukuľa; stavělo se od jara 2013 do září 2014. Danubiana tak propojuje výstavní prostor pro slovenské i zahraniční moderní umění s výraznou architekturou a polohou přímo nad Dunajem."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel sv. Mikuláše v Jarovcích: pozdně barokní památka",
+          "text": "Římskokatolický kostel sv. Mikuláše v Jarovcích vznikl v letech 1763–1765 jako pozdně barokní jednolodní stavba. Původně byl postaven bez věže; ta byla doplněna až v roce 1884. Dne 3. dubna 1945 ustupující německá vojska věž vyhodila do povětří a kostel prošel rozsáhlejší obnovou, která začala v roce 1970. V interiéru se dochovaly také starší umělecké prvky, například gotická dřevěná socha Madony z konce 15. století a barokní plastika Ecce homo z konce 17. století. Kostel je významným svědkem dějin Jaroviec, jejichž kulturní identitu formovalo také chorvatské osídlení."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Antikes Gerulata, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: ein römisches Militärlager an der Reichsgrenze",
+          "text": "In Rusovce befindet sich das römische Kastell Gerulata, ein Militärlager an der Donaugrenze des Römischen Reiches. Archäologische Überreste belegen mehrere Bauphasen vom 1. bis zum 4. Jahrhundert; auf dem Museumsgelände sind Fundamente älterer Gebäude sowie die spätantike Festung aus dem 4. Jahrhundert zu sehen. Gerulata war das erste Kastell in der Reihe der Militärlager zwischen Carnuntum und Brigetio. Die Funde veranschaulichen nicht nur das Leben der Soldaten, sondern auch die zivile Besiedlung der Umgebung. 2021 wurde die Stätte Teil des seriellen UNESCO-Welterbes „Grenzen des Römischen Reiches – Donaulimes (westlicher Abschnitt)“. Sie ist ein außergewöhnliches Zeugnis der römischen Armee und Lebensweise auf dem Gebiet der heutigen Slowakei."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: Museum für moderne Kunst auf einer Donauhalbinsel",
+          "text": "Das Danubiana Meulensteen Art Museum liegt auf einer Halbinsel des Wasserkraftwerks Čunovo, wo die Donaulandschaft Teil des Kunsterlebnisses wird. Die Idee entstand in Gesprächen der Gründer Gerard Meulensteen und Vincent Polakovič zwischen 1995 und 1999. Der Bau begann 1999, und am 9. September 2000 wurde das Museum feierlich eröffnet. Der Architekt Peter Žalman entwarf das ursprüngliche Gebäude in Form eines Schiffs beziehungsweise einer römischen Galeere. Die Erweiterung für die Dauersammlung entwarf Ján Kukuľa; sie wurde von Frühjahr 2013 bis September 2014 gebaut. So verbindet die Danubiana Ausstellungsräume für slowakische und internationale moderne Kunst mit markanter Architektur und einer Lage unmittelbar an der Donau."
+        },
+        {
+          "id": "fact_003",
+          "title": "St.-Nikolaus-Kirche in Jarovce: ein spätbarockes Denkmal",
+          "text": "Die römisch-katholische St.-Nikolaus-Kirche in Jarovce entstand 1763–1765 als spätbarocker einschiffiger Bau. Ursprünglich wurde sie ohne Turm errichtet; dieser kam erst 1884 hinzu. Am 3. April 1945 sprengten sich zurückziehende deutsche Truppen den Turm. Eine umfassendere Restaurierung der Kirche begann 1970. Im Inneren sind ältere Kunstwerke erhalten, darunter eine gotische Holzmadonna vom Ende des 15. Jahrhunderts und eine barocke Ecce-homo-Figur aus dem späten 17. Jahrhundert. Die Kirche ist ein bedeutendes Zeugnis der Geschichte von Jarovce, deren kulturelle Identität auch durch die kroatische Besiedlung geprägt wurde."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Ancient Gerulata, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: a Roman military camp on the imperial frontier",
+          "text": "The Roman fort of Gerulata stands in Rusovce, at the Danube frontier of the Roman Empire. Archaeological remains reveal several building phases from the 1st to the 4th century; the museum grounds display foundations of earlier structures and a Late Roman fortress dating from the 4th century. Gerulata was the first fort in the line of military camps between Carnuntum and Brigetio. Its finds illuminate not only soldiers’ lives but also the civilian settlement in the surrounding area. In 2021, the site became part of the UNESCO World Heritage serial property Frontiers of the Roman Empire – The Danube Limes (Western Segment). It is an exceptional record of the Roman army and Roman life in what is now Slovakia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: a contemporary art museum on a Danube peninsula",
+          "text": "The Danubiana Meulensteen Art Museum stands on a peninsula of the Čunovo waterworks, where the Danube landscape becomes part of the artistic experience. The idea emerged from discussions between founders Gerard Meulensteen and Vincent Polakovič from 1995 to 1999. Construction began in 1999, and the museum officially opened on 9 September 2000. Architect Peter Žalman designed the original building in the shape of a ship or Roman galley. The extension for the permanent collection was designed by Ján Kukuľa and built from spring 2013 to September 2014. Danubiana thus combines exhibition space for Slovak and international modern art with distinctive architecture and a setting directly beside the Danube."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Nicholas Church in Jarovce: a late Baroque landmark",
+          "text": "The Roman Catholic Church of St Nicholas in Jarovce was built between 1763 and 1765 as a late Baroque, single-nave church. It was originally constructed without a tower; the tower was added only in 1884. On 3 April 1945, retreating German troops blew up the tower, and a major restoration of the church began in 1970. The interior preserves older works of art, including a late-15th-century Gothic wooden Madonna and a Baroque Ecce Homo sculpture from the late 17th century. The church is an important witness to Jarovce’s history, whose cultural identity was also shaped by Croatian settlement."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Gerulata antigua, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: un campamento militar romano en la frontera del Imperio",
+          "text": "En Rusovce se encuentra el castro romano de Gerulata, un campamento militar situado en la frontera danubiana del Imperio romano. Los restos arqueológicos documentan varias fases constructivas entre los siglos I y IV; en el recinto del museo pueden verse los cimientos de edificios anteriores y una fortaleza tardorromana del siglo IV. Gerulata fue el primer castro de la línea de campamentos militares entre Carnuntum y Brigetio. Sus hallazgos muestran tanto la vida de los soldados como el asentamiento civil de los alrededores. En 2021 pasó a formar parte del bien seriado del Patrimonio Mundial de la UNESCO Fronteras del Imperio romano – Limes del Danubio (sector occidental). Es un testimonio excepcional de la presencia militar y cultural romana en el territorio de la actual Eslovaquia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: museo de arte contemporáneo en una península del Danubio",
+          "text": "El Museo de Arte Danubiana Meulensteen se encuentra en una península del complejo hidráulico de Čunovo, donde el paisaje del Danubio forma parte de la experiencia artística. La idea surgió de las conversaciones entre sus fundadores, Gerard Meulensteen y Vincent Polakovič, entre 1995 y 1999. La construcción comenzó en 1999 y el museo se inauguró oficialmente el 9 de septiembre de 2000. El arquitecto Peter Žalman diseñó el edificio original con forma de barco o galera romana. La ampliación destinada a la colección permanente fue diseñada por Ján Kukuľa y se construyó desde la primavera de 2013 hasta septiembre de 2014. Danubiana combina así espacios expositivos para el arte moderno eslovaco e internacional con una arquitectura singular y una ubicación junto al Danubio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Nicolás en Jarovce: un monumento barroco tardío",
+          "text": "La iglesia católica romana de San Nicolás en Jarovce se construyó entre 1763 y 1765 como un templo de una sola nave de estilo barroco tardío. Originalmente se levantó sin torre, que no se añadió hasta 1884. El 3 de abril de 1945, las tropas alemanas en retirada volaron la torre. La restauración general de la iglesia comenzó en 1970. En su interior se conservan obras de arte más antiguas, como una Madonna gótica de madera de finales del siglo XV y una escultura barroca del Ecce Homo de finales del XVII. La iglesia es un testimonio importante de la historia de Jarovce, cuya identidad cultural también estuvo marcada por el asentamiento croata."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Gerulata antique, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata : un camp militaire romain sur la frontière de l’Empire",
+          "text": "À Rusovce se trouve le castellum romain de Gerulata, un camp militaire situé sur la frontière danubienne de l’Empire romain. Les vestiges archéologiques témoignent de plusieurs phases de construction du Ier au IVe siècle ; dans l’enceinte du musée, on peut voir les fondations de bâtiments plus anciens ainsi qu’une forteresse de l’Antiquité tardive datant du IVe siècle. Gerulata était le premier castellum de la ligne de camps militaires entre Carnuntum et Brigetio. Les découvertes éclairent aussi bien la vie des soldats que celle de la population civile alentour. En 2021, le site a été intégré au bien en série du patrimoine mondial de l’UNESCO « Frontières de l’Empire romain – limes du Danube (partie occidentale) ». Il constitue un témoignage exceptionnel de la présence romaine sur le territoire de la Slovaquie actuelle."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana : un musée d’art contemporain sur une presqu’île du Danube",
+          "text": "Le musée d’art Danubiana Meulensteen se trouve sur une presqu’île du barrage de Čunovo, où le paysage du Danube fait partie intégrante de l’expérience artistique. L’idée est née des échanges entre les fondateurs Gerard Meulensteen et Vincent Polakovič entre 1995 et 1999. La construction a commencé en 1999 et le musée a été inauguré le 9 septembre 2000. L’architecte Peter Žalman a conçu le bâtiment d’origine en forme de navire ou de galère romaine. L’extension destinée à la collection permanente a été conçue par Ján Kukuľa et construite du printemps 2013 à septembre 2014. Danubiana associe ainsi des espaces d’exposition consacrés à l’art moderne slovaque et international à une architecture remarquable et à un emplacement au bord du Danube."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église Saint-Nicolas de Jarovce : un monument baroque tardif",
+          "text": "L’église catholique romaine Saint-Nicolas de Jarovce a été construite entre 1763 et 1765 dans le style baroque tardif, avec une nef unique. Elle fut d’abord édifiée sans clocher, ajouté seulement en 1884. Le 3 avril 1945, les troupes allemandes en retraite firent sauter le clocher. Une restauration importante de l’église commença en 1970. L’intérieur conserve des œuvres plus anciennes, notamment une Vierge à l’Enfant en bois de style gothique de la fin du XVe siècle et une sculpture baroque de l’Ecce Homo de la fin du XVIIe siècle. L’église témoigne de l’histoire de Jarovce, dont l’identité culturelle a également été façonnée par la colonisation croate."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Gerulata antica, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: un campo militare romano al confine dell’Impero",
+          "text": "A Rusovce si trova il castellum romano di Gerulata, un campo militare sul confine danubiano dell’Impero romano. I resti archeologici documentano diverse fasi edilizie dal I al IV secolo; nell’area del museo sono visibili le fondamenta di edifici più antichi e una fortezza tardoantica del IV secolo. Gerulata fu il primo castellum della linea di accampamenti militari tra Carnuntum e Brigetio. I reperti illustrano non solo la vita dei soldati, ma anche l’insediamento civile nei dintorni. Nel 2021 il sito è entrato a far parte del bene seriale UNESCO Frontiere dell’Impero romano – Limes danubiano (settore occidentale). È una testimonianza eccezionale della presenza dell’esercito e della cultura romana nell’attuale territorio slovacco."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: museo d’arte contemporanea su una penisola del Danubio",
+          "text": "Il Danubiana Meulensteen Art Museum sorge su una penisola del complesso idroelettrico di Čunovo, dove il paesaggio del Danubio diventa parte dell’esperienza artistica. L’idea nacque dai colloqui tra i fondatori Gerard Meulensteen e Vincent Polakovič tra il 1995 e il 1999. I lavori iniziarono nel 1999 e il museo fu inaugurato il 9 settembre 2000. L’architetto Peter Žalman progettò l’edificio originario a forma di nave o di galera romana. L’ampliamento destinato alla collezione permanente fu progettato da Ján Kukuľa e realizzato dalla primavera del 2013 al settembre 2014. Danubiana unisce così spazi espositivi per l’arte moderna slovacca e internazionale a un’architettura distintiva e a una posizione direttamente sul Danubio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa di San Nicola a Jarovce: un monumento tardo-barocco",
+          "text": "La chiesa cattolica romana di San Nicola a Jarovce fu costruita tra il 1763 e il 1765 come edificio a navata unica in stile tardo-barocco. In origine fu realizzata senza torre, aggiunta soltanto nel 1884. Il 3 aprile 1945 le truppe tedesche in ritirata fecero saltare la torre. Un importante restauro della chiesa iniziò nel 1970. All’interno si conservano opere d’arte più antiche, tra cui una Madonna lignea gotica della fine del XV secolo e una scultura barocca dell’Ecce Homo della fine del XVII secolo. La chiesa è una testimonianza importante della storia di Jarovce, la cui identità culturale è stata plasmata anche dall’insediamento croato."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Oud-Gerulata, Rusovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gerulata: een Romeins legerkamp aan de grens van het rijk",
+          "text": "In Rusovce ligt het Romeinse castellum Gerulata, een legerkamp aan de Donaugrens van het Romeinse Rijk. Archeologische resten tonen verschillende bouwfasen uit de 1e tot en met de 4e eeuw. Op het museumterrein zijn de fundamenten van oudere gebouwen en een laat-Romeinse vesting uit de 4e eeuw te zien. Gerulata was het eerste castellum in de reeks militaire kampen tussen Carnuntum en Brigetio. De vondsten vertellen niet alleen over het leven van de soldaten, maar ook over de burgerlijke nederzetting in de omgeving. In 2021 werd de vindplaats opgenomen in het UNESCO-werelderfgoed Frontiers of the Roman Empire – The Danube Limes (Western Segment). Het is een uitzonderlijk bewijs van de Romeinse militaire aanwezigheid en cultuur in het huidige Slowakije."
+        },
+        {
+          "id": "fact_002",
+          "title": "Danubiana: museum voor hedendaagse kunst op een schiereiland in de Donau",
+          "text": "Het Danubiana Meulensteen Art Museum staat op een schiereiland bij het waterwerk van Čunovo. Het landschap van de Donau vormt er een wezenlijk onderdeel van de kunstbeleving. Het idee ontstond uit gesprekken tussen de oprichters Gerard Meulensteen en Vincent Polakovič in de periode 1995–1999. De bouw begon in 1999 en het museum werd op 9 september 2000 feestelijk geopend. Architect Peter Žalman ontwierp het oorspronkelijke gebouw in de vorm van een schip of Romeinse galei. De uitbreiding voor de vaste collectie werd ontworpen door Ján Kukuľa en gebouwd van het voorjaar van 2013 tot september 2014. Danubiana combineert zo tentoonstellingsruimten voor Slowaakse en internationale moderne kunst met opvallende architectuur en een ligging direct aan de Donau."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sint-Nicolaaskerk in Jarovce: een laatbarok monument",
+          "text": "De rooms-katholieke Sint-Nicolaaskerk in Jarovce werd tussen 1763 en 1765 gebouwd als eenbeukige kerk in laatbarokke stijl. Oorspronkelijk had het gebouw geen toren; die werd pas in 1884 toegevoegd. Op 3 april 1945 bliezen terugtrekkende Duitse troepen de toren op. Een grootschalige restauratie van de kerk begon in 1970. Binnen zijn oudere kunstwerken bewaard gebleven, waaronder een gotisch houten Mariabeeld uit het einde van de 15e eeuw en een barok Ecce Homo-beeld uit het einde van de 17e eeuw. De kerk is een belangrijke getuige van de geschiedenis van Jarovce, waarvan de culturele identiteit mede door Kroatische vestiging is gevormd."
+        }
+      ]
+    }
+  },
+  "status": "validated",
+  "district_type": "urban_district"
 }
