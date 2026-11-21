@@ -1,4 +1,5 @@
 name: Deploy travel
+# Fresh deployment trigger: use a clean workflow run with a single Pages artifact.
 
 on:
   push:
