@@ -115,7 +115,7 @@ A record is complete only after research, geographic audit, content audit, trans
 
 
 ## Official-source fallback (mandatory)
-A missing, empty, inaccessible or incomplete local reference file must not repeatedly block Czech rework. First try the local `ruian_postcodes.csv` and `ruian_import_manifest.json`. The CSV is the designated working inventory. If the needed field is still unavailable, verify it directly online using the official authority responsible for that field: If the needed field is still unavailable, verify it directly online using the official authority responsible for that field:
+A missing, empty, inaccessible or incomplete local reference file must not repeatedly block Czech rework. First try the local `ruian_postcodes.csv` and `ruian_import_manifest.json`. The CSV is the designated working inventory. If the needed field is still unavailable, verify it directly online using the official authority responsible for that field:
 - ČSÚ for statistical postcode registers, code lists and classifications;
 - RÚIAN/ČÚZK for territorial, address-point and administrative geography;
 - Česká pošta official sources for postal-service information within its remit.
