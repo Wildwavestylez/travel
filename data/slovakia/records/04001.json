@@ -1,4 +1,567 @@
 {
   "postcode": "04001",
-  "status": "placeholder"
+  "city": "Košice",
+  "district": "Košice - Staré Mesto",
+  "county": "Košice I",
+  "state": "Košický kraj",
+  "representative_place": "Hlavná ulica – historické jadro Košíc",
+  "representative_point": {
+    "lat": 48.722562,
+    "lon": 21.25625
+  },
+  "access_point": {
+    "lat": 48.722562,
+    "lon": 21.25625
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Košice: středověké obchodní centrum s výjimečnými privilegii",
+      "text": "Košice vyrostly v důležité středověké centrum díky poloze na obchodních cestách u řeky Hornád. První písemná zmínka o jižním předměstí pochází z roku 1230. Město získalo významná privilegia v letech 1342 a 1347 a po Budínu patřilo až do počátku 18. století k nejvýznamnějším městům Uherského království. Z roku 1307 se dochovaly cechovní artikuly košických kožešníků. Dne 7. května 1369 udělil král Ludvík I. Košicím městský erb; podle městského archivu šlo o první panovnickou erbovní listinu pro evropské město. Od počátku 15. století byly Košice součástí Pentapolitany, svazku pěti východoslovenských měst.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historic_city",
+      "sources": [
+        "https://egov.kosice.sk/mesto/historia-mesta",
+        "https://egov.kosice.sk/obcan/najvzacnejsie-dokumenty",
+        "https://www.pamiatky.sk/fileadmin/documents/news/ZASADY/Kosice/Zasady-PR-Kosice-publikacia.pdf"
+      ],
+      "location": {
+        "name": "Hlavná ulica – historické jádro u domu č. 68",
+        "lat": 48.722562,
+        "lon": 21.25625,
+        "type": "historic_street",
+        "accuracy": "area_representative",
+        "source": "https://kosice.oma.sk/u/hlavna/68",
+        "address": "Hlavná 68, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Dóm svaté Alžběty: gotická katedrála budovaná více než století",
+      "text": "Dóm svaté Alžběty je nejvýraznější památkou historického centra a největším kostelem na Slovensku. Stojí na místě staršího farního kostela, který vyhořel přibližně kolem roku 1370. Stavba dnešního chrámu začala kolem roku 1378 a probíhala v několika etapách. Původní plán pětilodní baziliky byl změněn na působivý halový prostor s příčnou lodí. Dóm těžce poškodilo obléhání roku 1491; za dokončení hlavních stavebních prací se obvykle považuje rok 1508. Rozsáhlá obnova v letech 1877–1896 pod vedením Imricha Steindla výrazně změnila interiér i exteriér. K cenným gotickým prvkům patří severní portál s výjevem Posledního soudu.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.kosice.sk/mesto/dom-sv-alzbety",
+        "https://slovakia.travel/dom-sv-alzbety-kosice"
+      ],
+      "location": {
+        "name": "Dóm svaté Alžběty",
+        "lat": 48.720319,
+        "lon": 21.257742,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://slovakia.travel/dom-sv-alzbety-kosice",
+        "address": "Hlavná ulica, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Košický zlatý poklad: 2 920 mincí nalezených v měšťanském domě",
+      "text": "Dne 24. srpna 1935 byl při stavebních pracích v domě na Hlavní ulici č. 68 objeven Košický zlatý poklad. Měděná schránka obsahovala 2 920 zlatých mincí z různých evropských zemí, tři zlaté medaile a renesanční zlatý řetěz. Poklad byl pravděpodobně ukryt v neklidném období protihabsburských povstání; město připomíná souvislost s obsazením Košic Imrichem Thökölym roku 1682, přesné datum ukrytí však není jisté. Nález patří k významným evropským numismatickým objevům a dnes je součástí sbírek Východoslovenského muzea, založeného roku 1872 jako Hornouhorské muzeum.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "museum",
+      "sources": [
+        "https://www.kosice.sk/mesto/z-historie-mesta-kosice-20-storocie-1900-1937",
+        "https://www.kosice.sk/clanok/kosicky-zlaty-poklad-vystavuju-v-polskom-krakowe",
+        "https://www.kosice.sk/mesto/vychodoslovenske-muzeum",
+        "https://www.pamiatkynaslovensku.sk/kosice-vychodoslovenske-muzeum"
+      ],
+      "location": {
+        "name": "Východoslovenské múzeum – Námestie Maratónu mieru 2",
+        "lat": 48.727321,
+        "lon": 21.253551,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kosice-vychodoslovenske-muzeum",
+        "address": "Námestie Maratónu mieru 2, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Dolní brána: podzemní pozůstatky středověkého opevnění",
+      "text": "Košice chránil rozsáhlý systém hradeb, bran a bašt, který se rozvíjel od druhé poloviny 13. století. Jeho etapy souvisely mimo jiné s arpádovskou, lucemburskou a korvínskou dynastií; poslední bastionové úpravy vznikaly v letech 1706–1710. Od roku 1783 se opevnění postupně bouralo. Nejrozsáhlejším zachovaným fragmentem je areál Dolní brány, jedné z pěti někdejších městských bran na jižním konci Hlavní ulice. Pozůstatky odkryli archeologové při rekonstrukci ulice v roce 1996 a podzemní archeologické muzeum bylo zpřístupněno v roce 1998. Návštěvník zde může vidět části brány, hradeb a dalších fortifikačních prvků.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.kosice.sk/mesto/dolna-brana",
+        "https://www.ssn.sk/miesta/dolna-brana/"
+      ],
+      "location": {
+        "name": "Archeologický areál Dolní brány",
+        "lat": 48.718674,
+        "lon": 21.259071,
+        "type": "archaeological_site",
+        "accuracy": "exact",
+        "source": "https://www.ssn.sk/miesta/dolna-brana/",
+        "address": "Hlavná 10, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Miklušova věznice a byt městského kata",
+      "text": "Miklušova věznice vznikla propojením dvou gotických měšťanských domů ze 13. a 14. století. Od počátku 17. století až do roku 1911 sloužily jako městská věznice. Součástí areálu je také byt městského kata, vybudovaný pravděpodobně ve druhé polovině 17. století nad starou uličkou podél městských hradeb. S věznicí jej spojovala krytá pavlač. Dnes zde Východoslovenské muzeum představuje dějiny vězeňství a soudnictví. Místo tak přibližuje nejen historické trestání, ale také městskou správu a každodenní život středověkých a raně novověkých Košic.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "museum",
+      "sources": [
+        "https://www.vsmuzeum.sk/budovy/"
+      ],
+      "location": {
+        "name": "Miklušova väznica a Katov byt",
+        "lat": 48.722811,
+        "lon": 21.259634,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n432605429",
+        "address": "Pri Miklušovej väznici 10, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Urbanova věž: zvonice s renesanční podobou a pohnutými dějinami",
+      "text": "Urbanova věž stojí vedle dómu a původně sloužila jako městská věž a zvonice chrámu svaté Alžběty. Její jméno odkazuje na svatého Urbana, patrona vinařů. V roce 1628 získala renesanční podobu podle návrhu Martina Lindnera. Po požáru roku 1775 byla obnovena v pozdně barokním stylu. Další velký požár v prosinci 1966 poškodil věž a zničil historický zvon Urban z roku 1557; jeho fragmenty byly restaurovány a vystaveny u věže. Komplexní obnova exteriéru zahájená v roce 2019 byla po několika etapách dokončena v roce 2025.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://tc2.kosice.sk/clanok/urbanova-veza-sa-po-siestich-rokoch-obnovy-predstavila-opat-v-plnej-krase",
+        "https://poi.oma.sk/w25720529"
+      ],
+      "location": {
+        "name": "Urbanova veža",
+        "lat": 48.720664,
+        "lon": 21.258143,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w25720529",
+        "address": "Hlavné námestie 1, 040 01 Košice, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Immaculata: barokní morový sloup na místě někdejšího popraviště",
+      "text": "Mariánské sousoší Immaculata vzniklo v letech 1722–1723 na místě někdejšího městského popraviště. Podnět dal poštovní správce Viktorín Flachenfeld, architektonickou část navrhl košický stavitel Tomáš Tornyosi a sochařskou výzdobu vytvořil Šimon Grimming. Přibližně čtrnáct metrů vysoký sloup připomíná morovou epidemii z let 1710–1711. Na vrcholu stojí Panna Maria, na podstavci jsou sochy svatých Josefa, Šebestiána a Ladislava a na pilířích oplocení další světci. Sousoší bylo několikrát restaurováno, mimo jiné po druhé světové válce a v letech 1996–1998. Patří k významným barokním sochařským památkám Košic.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.kosice.sk/mesto/susosie-immaculata-morovy-stlp"
+      ],
+      "location": {
+        "name": "Súsošie Immaculata – Morový stĺp",
+        "lat": 48.722807,
+        "lon": 21.256827,
+        "type": "monument",
+        "accuracy": "exact",
+        "source": "https://www.vypadni.sk/sk/immaculata-v-kosiciach",
+        "address": "Hlavná ulica, 040 01 Košice, Slovensko"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom – Pošta Košice 1, PSČ 040 01",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Oficiálny katalóg ulíc mesta Košice priraďuje PSČ 04001 konkrétnym uliciam a úsekom vo viacerých mestských častiach vrátane Starého Mesta, Severu, Juhu, Džungle a Vyšného Opátskeho. Záznam preto nepovažuje 04001 za synonymum celého Starého Mesta ani za polygonálne vymedzenú oblasť. Reprezentatívnou lokalitou je historické jadro; úplné hranice doručovacieho obvodu nie sú z použitých zdrojov doložené.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Mesto Košice – oficiálny katalóg ulíc a PSČ; Slovenská pošta – zoznam pôšt; Pamiatkový úrad SR – zásady ochrany MPR Košice."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – zoznam pôšt, položka Košice 1 / 040 01",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – oficiálny katalóg ulíc a PSČ",
+      "url": "https://www.kosice.sk/mesto/katalog-ulic",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – História mesta",
+      "url": "https://egov.kosice.sk/mesto/historia-mesta",
+      "type": "official"
+    },
+    {
+      "title": "Mestský archív Košice – Najvzácnejšie dokumenty",
+      "url": "https://egov.kosice.sk/obcan/najvzacnejsie-dokumenty",
+      "type": "archive"
+    },
+    {
+      "title": "Mesto Košice – Dóm sv. Alžbety",
+      "url": "https://www.kosice.sk/mesto/dom-sv-alzbety",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia.travel – Dóm sv. Alžbety, GPS a opis",
+      "url": "https://slovakia.travel/dom-sv-alzbety-kosice",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – Urbanova veža po obnove",
+      "url": "https://tc2.kosice.sk/clanok/urbanova-veza-sa-po-siestich-rokoch-obnovy-predstavila-opat-v-plnej-krase",
+      "type": "official"
+    },
+    {
+      "title": "Urbanova veža – poloha a adresa",
+      "url": "https://poi.oma.sk/w25720529",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Košice – Súsošie Immaculata",
+      "url": "https://www.kosice.sk/mesto/susosie-immaculata-morovy-stlp",
+      "type": "official"
+    },
+    {
+      "title": "Immaculata – geografická poloha",
+      "url": "https://www.vypadni.sk/sk/immaculata-v-kosiciach",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Košice – Dolná brána",
+      "url": "https://www.kosice.sk/mesto/dolna-brana",
+      "type": "official"
+    },
+    {
+      "title": "Slovenský syndikát novinárov – Dolná brána, poloha",
+      "url": "https://www.ssn.sk/miesta/dolna-brana/",
+      "type": "regional"
+    },
+    {
+      "title": "Východoslovenské múzeum – Miklušova väznica a Katov byt",
+      "url": "https://www.vsmuzeum.sk/budovy/",
+      "type": "museum"
+    },
+    {
+      "title": "Miklušova väznica – poloha",
+      "url": "https://poi.oma.sk/n432605429",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Košice – Východoslovenské múzeum",
+      "url": "https://www.kosice.sk/mesto/vychodoslovenske-muzeum",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Východoslovenské múzeum, poloha",
+      "url": "https://www.pamiatkynaslovensku.sk/kosice-vychodoslovenske-muzeum",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Košice – nález Košického zlatého pokladu",
+      "url": "https://www.kosice.sk/mesto/z-historie-mesta-kosice-20-storocie-1900-1937",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – Košický zlatý poklad",
+      "url": "https://www.kosice.sk/clanok/kosicky-zlaty-poklad-vystavuju-v-polskom-krakowe",
+      "type": "official"
+    },
+    {
+      "title": "Hlavná 68 – adresa a poloha",
+      "url": "https://kosice.oma.sk/u/hlavna/68",
+      "type": "regional"
+    },
+    {
+      "title": "Pamiatkový úrad SR – zásady ochrany MPR Košice",
+      "url": "https://www.pamiatky.sk/fileadmin/documents/news/ZASADY/Kosice/Zasady-PR-Kosice-publikacia.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Hlavní ulice – historické jádro Košic",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: středověké obchodní centrum s výjimečnými privilegii",
+          "text": "Košice vyrostly v důležité středověké centrum díky poloze na obchodních cestách u řeky Hornád. První písemná zmínka o jižním předměstí pochází z roku 1230. Město získalo významná privilegia v letech 1342 a 1347 a po Budínu patřilo až do počátku 18. století k nejvýznamnějším městům Uherského království. Z roku 1307 se dochovaly cechovní artikuly košických kožešníků. Dne 7. května 1369 udělil král Ludvík I. Košicím městský erb; podle městského archivu šlo o první panovnickou erbovní listinu pro evropské město. Od počátku 15. století byly Košice součástí Pentapolitany, svazku pěti východoslovenských měst."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dóm svaté Alžběty: gotická katedrála budovaná více než století",
+          "text": "Dóm svaté Alžběty je nejvýraznější památkou historického centra a největším kostelem na Slovensku. Stojí na místě staršího farního kostela, který vyhořel přibližně kolem roku 1370. Stavba dnešního chrámu začala kolem roku 1378 a probíhala v několika etapách. Původní plán pětilodní baziliky byl změněn na působivý halový prostor s příčnou lodí. Dóm těžce poškodilo obléhání roku 1491; za dokončení hlavních stavebních prací se obvykle považuje rok 1508. Rozsáhlá obnova v letech 1877–1896 pod vedením Imricha Steindla výrazně změnila interiér i exteriér. K cenným gotickým prvkům patří severní portál s výjevem Posledního soudu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Košický zlatý poklad: 2 920 mincí nalezených v měšťanském domě",
+          "text": "Dne 24. srpna 1935 byl při stavebních pracích v domě na Hlavní ulici č. 68 objeven Košický zlatý poklad. Měděná schránka obsahovala 2 920 zlatých mincí z různých evropských zemí, tři zlaté medaile a renesanční zlatý řetěz. Poklad byl pravděpodobně ukryt v neklidném období protihabsburských povstání; město připomíná souvislost s obsazením Košic Imrichem Thökölym roku 1682, přesné datum ukrytí však není jisté. Nález patří k významným evropským numismatickým objevům a dnes je součástí sbírek Východoslovenského muzea, založeného roku 1872 jako Hornouhorské muzeum."
+        },
+        {
+          "id": "fact_004",
+          "title": "Dolní brána: podzemní pozůstatky středověkého opevnění",
+          "text": "Košice chránil rozsáhlý systém hradeb, bran a bašt, který se rozvíjel od druhé poloviny 13. století. Jeho etapy souvisely mimo jiné s arpádovskou, lucemburskou a korvínskou dynastií; poslední bastionové úpravy vznikaly v letech 1706–1710. Od roku 1783 se opevnění postupně bouralo. Nejrozsáhlejším zachovaným fragmentem je areál Dolní brány, jedné z pěti někdejších městských bran na jižním konci Hlavní ulice. Pozůstatky odkryli archeologové při rekonstrukci ulice v roce 1996 a podzemní archeologické muzeum bylo zpřístupněno v roce 1998. Návštěvník zde může vidět části brány, hradeb a dalších fortifikačních prvků."
+        },
+        {
+          "id": "fact_005",
+          "title": "Miklušova věznice a byt městského kata",
+          "text": "Miklušova věznice vznikla propojením dvou gotických měšťanských domů ze 13. a 14. století. Od počátku 17. století až do roku 1911 sloužily jako městská věznice. Součástí areálu je také byt městského kata, vybudovaný pravděpodobně ve druhé polovině 17. století nad starou uličkou podél městských hradeb. S věznicí jej spojovala krytá pavlač. Dnes zde Východoslovenské muzeum představuje dějiny vězeňství a soudnictví. Místo tak přibližuje nejen historické trestání, ale také městskou správu a každodenní život středověkých a raně novověkých Košic."
+        },
+        {
+          "id": "fact_006",
+          "title": "Urbanova věž: zvonice s renesanční podobou a pohnutými dějinami",
+          "text": "Urbanova věž stojí vedle dómu a původně sloužila jako městská věž a zvonice chrámu svaté Alžběty. Její jméno odkazuje na svatého Urbana, patrona vinařů. V roce 1628 získala renesanční podobu podle návrhu Martina Lindnera. Po požáru roku 1775 byla obnovena v pozdně barokním stylu. Další velký požár v prosinci 1966 poškodil věž a zničil historický zvon Urban z roku 1557; jeho fragmenty byly restaurovány a vystaveny u věže. Komplexní obnova exteriéru zahájená v roce 2019 byla po několika etapách dokončena v roce 2025."
+        },
+        {
+          "id": "fact_007",
+          "title": "Immaculata: barokní morový sloup na místě někdejšího popraviště",
+          "text": "Mariánské sousoší Immaculata vzniklo v letech 1722–1723 na místě někdejšího městského popraviště. Podnět dal poštovní správce Viktorín Flachenfeld, architektonickou část navrhl košický stavitel Tomáš Tornyosi a sochařskou výzdobu vytvořil Šimon Grimming. Přibližně čtrnáct metrů vysoký sloup připomíná morovou epidemii z let 1710–1711. Na vrcholu stojí Panna Maria, na podstavci jsou sochy svatých Josefa, Šebestiána a Ladislava a na pilířích oplocení další světci. Sousoší bylo několikrát restaurováno, mimo jiné po druhé světové válce a v letech 1996–1998. Patří k významným barokním sochařským památkám Košic."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Hauptstraße im historischen Zentrum von Košice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: mittelalterliches Handelszentrum mit besonderen Privilegien",
+          "text": "Košice wurde dank seiner Lage an Handelswegen am Hornád zu einer bedeutenden mittelalterlichen Stadt. Die erste schriftliche Erwähnung des südlichen Vorortes stammt aus dem Jahr 1230. Privilegien von 1342 und 1347 stärkten seine Stellung; bis zum frühen 18. Jahrhundert gehörte die Stadt nach Buda zu den wichtigsten Orten des Königreichs Ungarn. Zunftartikel der Kürschner sind aus dem Jahr 1307 erhalten. Am 7. Mai 1369 verlieh König Ludwig I. Košice ein Stadtwappen – laut Stadtarchiv die erste königliche Wappenurkunde für eine europäische Stadt. Seit dem frühen 15. Jahrhundert gehörte Košice zur Pentapolitana, einem Bund von fünf ostslowakischen Städten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Elisabethdom: eine gotische Kathedrale aus mehr als einem Jahrhundert Bauzeit",
+          "text": "Der Elisabethdom ist das markanteste Denkmal der Altstadt und die größte Kirche der Slowakei. Er steht an der Stelle einer um 1370 abgebrannten Pfarrkirche. Der Bau begann um 1378 und erfolgte in mehreren Etappen. Aus dem ursprünglichen Plan einer fünfschiffigen Basilika wurde eine Hallenkirche mit Querschiff. Bei der Belagerung 1491 wurde der Dom schwer beschädigt; 1508 gilt gewöhnlich als Abschluss der Hauptarbeiten. Die Restaurierung unter Imrich Steindl 1877–1896 veränderte Innen- und Außenraum. Zu den wertvollen gotischen Elementen gehört das Nordportal mit dem Jüngsten Gericht."
+        },
+        {
+          "id": "fact_003",
+          "title": "Der Goldschatz von Košice: 2.920 Münzen aus einem Bürgerhaus",
+          "text": "Am 24. August 1935 wurde bei Bauarbeiten in Hlavná 68 der Goldschatz von Košice entdeckt. Ein Kupferbehälter enthielt 2.920 Goldmünzen aus verschiedenen europäischen Ländern, drei Goldmedaillen und eine goldene Renaissancekette. Der Schatz wurde vermutlich während der antihabsburgischen Aufstände verborgen; die Stadt stellt einen Zusammenhang mit Imre Thökölys Besetzung von 1682 her, doch das genaue Verbergungsdatum ist unbekannt. Der Fund gehört zu den bedeutenden europäischen numismatischen Entdeckungen und wird heute in den Sammlungen des 1872 gegründeten Ostslowakischen Museums bewahrt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Das Untere Tor: unterirdische Reste der mittelalterlichen Befestigung",
+          "text": "Košice besaß ein umfangreiches System aus Mauern, Toren und Bastionen, das sich seit der zweiten Hälfte des 13. Jahrhunderts entwickelte. Die letzten Bastionsarbeiten erfolgten 1706–1710. Ab 1783 wurde die Befestigung schrittweise abgetragen. Der größte erhaltene Abschnitt ist das Untere Tor, eines der fünf ehemaligen Stadttore am südlichen Ende der Hlavná-Straße. Archäologen legten die Reste 1996 bei Straßenarbeiten frei; das unterirdische archäologische Museum wurde 1998 eröffnet."
+        },
+        {
+          "id": "fact_005",
+          "title": "Das Mikluš-Gefängnis und die Wohnung des Stadtscharfrichters",
+          "text": "Das Mikluš-Gefängnis entstand durch die Verbindung zweier gotischer Bürgerhäuser aus dem 13. und 14. Jahrhundert. Vom frühen 17. Jahrhundert bis 1911 dienten sie als Stadtgefängnis. Zum Komplex gehört auch die Wohnung des Scharfrichters, wahrscheinlich aus der zweiten Hälfte des 17. Jahrhunderts, die über einer alten Gasse an der Stadtmauer lag und durch einen überdachten Gang mit dem Gefängnis verbunden war. Heute zeigt das Ostslowakische Museum hier die Geschichte von Gefängnis und Gerichtsbarkeit."
+        },
+        {
+          "id": "fact_006",
+          "title": "Der Urban-Turm: Glockenturm mit Renaissancegestalt",
+          "text": "Der Urban-Turm neben dem Dom diente ursprünglich als Stadtturm und Glockenturm der Elisabethkirche. Sein Name verweist auf den heiligen Urban, den Schutzpatron der Winzer. 1628 erhielt er nach einem Entwurf von Martin Lindner seine Renaissancegestalt. Nach einem Brand 1775 wurde er spätbarock erneuert. Ein Feuer im Dezember 1966 beschädigte den Turm und zerstörte die Glocke Urban von 1557; restaurierte Fragmente sind heute neben dem Turm zu sehen. Die 2019 begonnene Außensanierung wurde 2025 abgeschlossen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Immaculata: barocke Pestsäule am ehemaligen Richtplatz",
+          "text": "Das Marienmonument Immaculata wurde 1722–1723 am ehemaligen städtischen Richtplatz errichtet. Die Initiative ging vom Postverwalter Viktorín Flachenfeld aus; der Entwurf stammt vom Baumeister Tomáš Tornyosi, die Skulpturen von Šimon Grimming. Die rund 14 Meter hohe Säule erinnert an die Pest von 1710–1711. Das Monument wurde mehrfach restauriert, auch nach dem Zweiten Weltkrieg und 1996–1998. Es zählt zu den bedeutenden barocken Bildhauerwerken von Košice."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Hlavná Street in Košice’s historic centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: a medieval trading town with exceptional privileges",
+          "text": "Košice grew into an important medieval town because of its position on trade routes along the Hornád. The first written reference to its southern suburb dates from 1230. Privileges granted in 1342 and 1347 strengthened its status; until the early 18th century it ranked among the Kingdom of Hungary’s leading towns after Buda. Guild articles of the local furriers survive from 1307. On 7 May 1369 King Louis I granted Košice a coat of arms, described by the city archive as the first royal armorial charter for a European town. From the early 15th century Košice belonged to the Pentapolitana, a league of five towns in eastern Slovakia."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Elizabeth’s Cathedral: a Gothic church built over more than a century",
+          "text": "St Elizabeth’s Cathedral is the landmark of the historic centre and the largest church in Slovakia. It stands on the site of a parish church that burned around 1370. Construction began around 1378 and proceeded in stages. The original five-aisled basilica plan was changed to a hall church with a transept. The cathedral was badly damaged during the 1491 siege; 1508 is usually treated as the completion date for the main works. Imrich Steindl led a major restoration in 1877–1896. Among its notable Gothic features is the north portal depicting the Last Judgment."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Košice Gold Treasure: 2,920 coins found in a burgher’s house",
+          "text": "The Košice Gold Treasure was discovered on 24 August 1935 during building work at 68 Hlavná Street. A copper container held 2,920 gold coins from various European countries, three gold medals and a Renaissance gold chain. It was probably hidden during the anti-Habsburg uprisings; the city links it to Imre Thököly’s occupation in 1682, although the exact date is unknown. The find is a major European numismatic discovery and is now held by the East Slovak Museum, founded in 1872."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Lower Gate: underground remains of the medieval fortifications",
+          "text": "Košice was protected by walls, gates and bastions developed from the second half of the 13th century. The final bastion works date from 1706–1710. From 1783 the fortifications were gradually dismantled. The largest surviving section is the Lower Gate, one of five former town gates at the southern end of Hlavná Street. Archaeologists uncovered its remains during street works in 1996, and the underground archaeological museum opened in 1998."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mikluš Prison and the town executioner’s apartment",
+          "text": "Mikluš Prison was formed by joining two Gothic burgher houses dating from the 13th and 14th centuries. They served as the town prison from the early 17th century until 1911. The complex also includes the executioner’s apartment, probably built in the second half of the 17th century above an old lane beside the town walls. A covered gallery linked it to the prison. Today the East Slovak Museum presents the history of prisons and justice here."
+        },
+        {
+          "id": "fact_006",
+          "title": "Urban’s Tower: a bell tower with a Renaissance appearance",
+          "text": "Urban’s Tower beside the cathedral originally served as the town tower and bell tower of St Elizabeth’s Church. Its name refers to Saint Urban, patron saint of winegrowers. It acquired its Renaissance appearance in 1628 to a design by Martin Lindner. A fire in 1775 led to a Late Baroque restoration. Another fire in December 1966 damaged the tower and destroyed the 1557 Urban bell; restored fragments are now displayed beside it. Exterior restoration begun in 2019 was completed in 2025."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Immaculata: a Baroque plague column on the former execution ground",
+          "text": "The Marian monument called the Immaculata was erected in 1722–1723 on the former town execution ground. The initiative came from postmaster Viktorín Flachenfeld; the design was by builder Tomáš Tornyosi and sculptor Šimon Grimming. The roughly 14-metre column commemorates the plague of 1710–1711. It has been restored several times, including after the Second World War and in 1996–1998. It is one of Košice’s notable Baroque sculptural monuments."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Calle Hlavná en el centro histórico de Košice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: ciudad comercial medieval con privilegios excepcionales",
+          "text": "Košice se convirtió en una importante ciudad medieval gracias a su posición en las rutas comerciales junto al río Hornád. La primera mención escrita de su suburbio meridional data de 1230. Los privilegios de 1342 y 1347 reforzaron su posición; hasta comienzos del siglo XVIII fue, después de Buda, una de las ciudades principales del Reino de Hungría. Se conservan estatutos del gremio local de peleteros de 1307. El 7 de mayo de 1369, el rey Luis I concedió a Košice un escudo municipal, considerado por el archivo de la ciudad la primera carta heráldica real para una ciudad europea. Desde comienzos del siglo XV perteneció a la Pentapolitana, liga de cinco ciudades del este de Eslovaquia."
+        },
+        {
+          "id": "fact_002",
+          "title": "La catedral de Santa Isabel: templo gótico construido durante más de un siglo",
+          "text": "La catedral de Santa Isabel es el monumento principal del centro histórico y la iglesia más grande de Eslovaquia. Se levanta donde hubo una iglesia parroquial incendiada hacia 1370. Las obras comenzaron alrededor de 1378 y avanzaron por etapas. El proyecto inicial de basílica de cinco naves se transformó en una iglesia-salón con transepto. La catedral sufrió graves daños durante el asedio de 1491; 1508 suele considerarse el año de finalización de las obras principales. Imrich Steindl dirigió una gran restauración entre 1877 y 1896. Entre sus elementos góticos destaca el portal norte con el Juicio Final."
+        },
+        {
+          "id": "fact_003",
+          "title": "El tesoro de oro de Košice: 2.920 monedas halladas en una casa burguesa",
+          "text": "El tesoro de oro de Košice se descubrió el 24 de agosto de 1935 durante unas obras en Hlavná 68. Un recipiente de cobre contenía 2.920 monedas de oro de distintos países europeos, tres medallas de oro y una cadena renacentista. Probablemente fue ocultado durante las sublevaciones contra los Habsburgo; la ciudad lo relaciona con la ocupación de Imre Thököly en 1682, aunque se desconoce la fecha exacta. Es un hallazgo numismático europeo de gran importancia y hoy se conserva en el Museo de Eslovaquia Oriental, fundado en 1872."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Puerta Inferior: restos subterráneos de las fortificaciones medievales",
+          "text": "Košice estuvo protegida por murallas, puertas y bastiones desarrollados desde la segunda mitad del siglo XIII. Las últimas obras de bastiones datan de 1706–1710. Desde 1783 las fortificaciones fueron derribadas gradualmente. El mayor fragmento conservado es la Puerta Inferior, una de las cinco antiguas puertas de la ciudad, en el extremo sur de Hlavná. Los arqueólogos descubrieron sus restos durante unas obras en 1996 y el museo arqueológico subterráneo abrió en 1998."
+        },
+        {
+          "id": "fact_005",
+          "title": "La prisión de Mikluš y la vivienda del verdugo municipal",
+          "text": "La prisión de Mikluš se formó al unir dos casas burguesas góticas de los siglos XIII y XIV. Funcionaron como prisión municipal desde comienzos del siglo XVII hasta 1911. El conjunto incluye la vivienda del verdugo, probablemente construida en la segunda mitad del siglo XVII sobre un antiguo callejón junto a las murallas. Una galería cubierta la comunicaba con la prisión. Hoy el Museo de Eslovaquia Oriental presenta aquí la historia de las cárceles y la justicia."
+        },
+        {
+          "id": "fact_006",
+          "title": "La torre de San Urbano: campanario de aspecto renacentista",
+          "text": "La torre de San Urbano, junto a la catedral, sirvió originalmente como torre municipal y campanario de la iglesia de Santa Isabel. Su nombre recuerda a san Urbano, patrón de los viticultores. En 1628 adquirió su aspecto renacentista según un proyecto de Martin Lindner. Tras un incendio en 1775 fue restaurada en estilo barroco tardío. Otro incendio, en diciembre de 1966, dañó la torre y destruyó la campana Urban de 1557; sus fragmentos restaurados se exponen junto a ella. La restauración exterior iniciada en 2019 concluyó en 2025."
+        },
+        {
+          "id": "fact_007",
+          "title": "La Inmaculada: columna barroca contra la peste en el antiguo patíbulo",
+          "text": "El monumento mariano llamado Inmaculada se erigió en 1722–1723 en el antiguo lugar de ejecuciones municipal. La iniciativa fue del administrador postal Viktorín Flachenfeld; el diseño correspondió al constructor Tomáš Tornyosi y la escultura a Šimon Grimming. La columna, de unos 14 metros, recuerda la peste de 1710–1711. Ha sido restaurada varias veces, también después de la Segunda Guerra Mundial y entre 1996 y 1998. Es uno de los monumentos escultóricos barrocos destacados de Košice."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Rue Hlavná dans le centre historique de Košice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice : une ville marchande médiévale aux privilèges exceptionnels",
+          "text": "Košice devint une importante ville médiévale grâce à sa position sur les routes commerciales longeant le Hornád. La première mention écrite de son faubourg méridional date de 1230. Les privilèges de 1342 et 1347 renforcèrent son statut ; jusqu’au début du XVIIIe siècle, elle fut, après Buda, l’une des principales villes du royaume de Hongrie. Des statuts de la corporation locale des pelletiers datant de 1307 sont conservés. Le 7 mai 1369, le roi Louis Ier accorda des armoiries à Košice ; les archives municipales présentent cette charte comme la première charte héraldique royale pour une ville européenne. Dès le début du XVe siècle, Košice appartint à la Pentapolitana, ligue de cinq villes de l’est de la Slovaquie."
+        },
+        {
+          "id": "fact_002",
+          "title": "La cathédrale Sainte-Élisabeth : un édifice gothique construit en plus d’un siècle",
+          "text": "La cathédrale Sainte-Élisabeth est le principal monument du centre historique et la plus grande église de Slovaquie. Elle se trouve à l’emplacement d’une église paroissiale incendiée vers 1370. Les travaux commencèrent vers 1378 et se déroulèrent en plusieurs étapes. Le projet initial de basilique à cinq nefs fut transformé en église-halle avec transept. La cathédrale fut gravement endommagée pendant le siège de 1491 ; 1508 est généralement retenu comme date d’achèvement des travaux principaux. Imrich Steindl dirigea une vaste restauration de 1877 à 1896. Le portail nord représentant le Jugement dernier compte parmi ses éléments gothiques remarquables."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le trésor d’or de Košice : 2 920 pièces découvertes dans une maison bourgeoise",
+          "text": "Le trésor d’or de Košice fut découvert le 24 août 1935 lors de travaux dans la maison située au 68 de la rue Hlavná. Un récipient en cuivre contenait 2 920 pièces d’or de différents pays européens, trois médailles d’or et une chaîne en or de la Renaissance. Le trésor fut probablement caché pendant les soulèvements anti-Habsbourg ; la ville le relie à l’occupation de Košice par Imre Thököly en 1682, sans que la date exacte soit connue. Cette découverte numismatique majeure est aujourd’hui conservée au Musée de la Slovaquie orientale, fondé en 1872."
+        },
+        {
+          "id": "fact_004",
+          "title": "La porte Basse : vestiges souterrains des fortifications médiévales",
+          "text": "Košice était protégée par des remparts, des portes et des bastions développés à partir de la seconde moitié du XIIIe siècle. Les derniers travaux de bastionnement datent de 1706–1710. À partir de 1783, les fortifications furent progressivement démolies. Le plus grand fragment conservé est la porte Basse, l’une des cinq anciennes portes de la ville, à l’extrémité sud de la rue Hlavná. Les archéologues en découvrirent les vestiges lors de travaux en 1996 ; le musée archéologique souterrain ouvrit en 1998."
+        },
+        {
+          "id": "fact_005",
+          "title": "La prison Mikluš et le logement du bourreau municipal",
+          "text": "La prison Mikluš fut créée en réunissant deux maisons bourgeoises gothiques des XIIIe et XIVe siècles. Elles servirent de prison municipale du début du XVIIe siècle jusqu’en 1911. L’ensemble comprend aussi le logement du bourreau, probablement construit dans la seconde moitié du XVIIe siècle au-dessus d’une ruelle longeant les remparts. Une galerie couverte le reliait à la prison. Le Musée de la Slovaquie orientale y présente aujourd’hui l’histoire des prisons et de la justice."
+        },
+        {
+          "id": "fact_006",
+          "title": "La tour Saint-Urbain : un clocher d’aspect Renaissance",
+          "text": "La tour Saint-Urbain, près de la cathédrale, servait à l’origine de tour municipale et de clocher à l’église Sainte-Élisabeth. Son nom rappelle saint Urbain, patron des vignerons. Elle prit son aspect Renaissance en 1628 d’après un projet de Martin Lindner. Après un incendie en 1775, elle fut restaurée dans le style baroque tardif. Un autre incendie, en décembre 1966, endommagea la tour et détruisit la cloche Urban de 1557 ; ses fragments restaurés sont exposés à proximité. La restauration extérieure commencée en 2019 fut achevée en 2025."
+        },
+        {
+          "id": "fact_007",
+          "title": "L’Immaculata : colonne baroque contre la peste sur l’ancien lieu d’exécution",
+          "text": "Le monument marial appelé Immaculata fut érigé en 1722–1723 sur l’ancien lieu d’exécution municipal. L’initiative revint au maître de poste Viktorín Flachenfeld ; le projet fut réalisé par le constructeur Tomáš Tornyosi et le sculpteur Šimon Grimming. La colonne, haute d’environ 14 mètres, commémore la peste de 1710–1711. Elle fut restaurée à plusieurs reprises, notamment après la Seconde Guerre mondiale et entre 1996 et 1998. Elle compte parmi les monuments sculptés baroques importants de Košice."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Via Hlavná nel centro storico di Košice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: centro commerciale medievale con privilegi eccezionali",
+          "text": "Košice divenne un’importante città medievale grazie alla sua posizione sulle rotte commerciali lungo il fiume Hornád. La prima menzione scritta del sobborgo meridionale risale al 1230. I privilegi del 1342 e del 1347 ne rafforzarono il ruolo; fino all’inizio del XVIII secolo fu, dopo Buda, una delle città principali del Regno d’Ungheria. Si conservano gli statuti della corporazione locale dei pellicciai del 1307. Il 7 maggio 1369 il re Luigi I concesse alla città uno stemma: secondo l’archivio comunale fu la prima carta araldica reale per una città europea. Dall’inizio del XV secolo Košice fece parte della Pentapolitana, lega di cinque città della Slovacchia orientale."
+        },
+        {
+          "id": "fact_002",
+          "title": "La cattedrale di Sant’Elisabetta: chiesa gotica costruita in oltre un secolo",
+          "text": "La cattedrale di Sant’Elisabetta è il principale monumento del centro storico e la chiesa più grande della Slovacchia. Sorge sul luogo di una chiesa parrocchiale incendiata intorno al 1370. I lavori iniziarono verso il 1378 e proseguirono in diverse fasi. Il progetto di basilica a cinque navate fu trasformato in una chiesa a sala con transetto. La cattedrale subì gravi danni durante l’assedio del 1491; il 1508 è generalmente considerato l’anno di completamento dei lavori principali. Imrich Steindl guidò un importante restauro tra il 1877 e il 1896. Tra gli elementi gotici spicca il portale nord con il Giudizio universale."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il tesoro d’oro di Košice: 2.920 monete trovate in una casa borghese",
+          "text": "Il tesoro d’oro di Košice fu scoperto il 24 agosto 1935 durante lavori edilizi nella casa al numero 68 di via Hlavná. Un contenitore di rame custodiva 2.920 monete d’oro di vari paesi europei, tre medaglie d’oro e una catena rinascimentale d’oro. Fu probabilmente nascosto durante le rivolte anti-asburgiche; la città collega il tesoro all’occupazione di Košice da parte di Imre Thököly nel 1682, ma la data esatta non è nota. Oggi il reperto è conservato nel Museo della Slovacchia orientale, fondato nel 1872."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Porta Inferiore: resti sotterranei delle fortificazioni medievali",
+          "text": "Košice era protetta da mura, porte e bastioni sviluppati dalla seconda metà del XIII secolo. Gli ultimi lavori ai bastioni risalgono al 1706–1710. Dal 1783 le fortificazioni furono demolite gradualmente. Il più grande frammento conservato è la Porta Inferiore, una delle cinque antiche porte cittadine all’estremità sud di via Hlavná. Gli archeologi ne scoprirono i resti durante i lavori stradali del 1996; il museo archeologico sotterraneo aprì nel 1998."
+        },
+        {
+          "id": "fact_005",
+          "title": "La prigione Mikluš e l’abitazione del boia cittadino",
+          "text": "La prigione Mikluš nacque unendo due case borghesi gotiche del XIII e XIV secolo. Dall’inizio del XVII secolo al 1911 furono utilizzate come prigione cittadina. Il complesso comprende anche l’abitazione del boia, probabilmente costruita nella seconda metà del XVII secolo sopra un antico vicolo lungo le mura. Una galleria coperta la collegava alla prigione. Oggi il Museo della Slovacchia orientale vi presenta la storia delle carceri e della giustizia."
+        },
+        {
+          "id": "fact_006",
+          "title": "La torre di Sant’Urbano: campanile dall’aspetto rinascimentale",
+          "text": "La torre di Sant’Urbano, accanto alla cattedrale, serviva in origine da torre civica e campanile della chiesa di Sant’Elisabetta. Il nome richiama sant’Urbano, patrono dei viticoltori. Nel 1628 assunse l’aspetto rinascimentale su progetto di Martin Lindner. Dopo l’incendio del 1775 fu restaurata in stile tardobarocco. Un altro incendio, nel dicembre 1966, danneggiò la torre e distrusse la campana Urban del 1557; i frammenti restaurati sono esposti nelle vicinanze. Il restauro esterno iniziato nel 2019 fu completato nel 2025."
+        },
+        {
+          "id": "fact_007",
+          "title": "L’Immacolata: colonna barocca contro la peste nell’antico luogo delle esecuzioni",
+          "text": "Il monumento mariano Immacolata fu eretto nel 1722–1723 sull’antico luogo delle esecuzioni cittadine. L’iniziativa fu del direttore delle poste Viktorín Flachenfeld; il progetto fu realizzato dal costruttore Tomáš Tornyosi e dallo scultore Šimon Grimming. La colonna, alta circa 14 metri, ricorda la peste del 1710–1711. Fu restaurata più volte, anche dopo la Seconda guerra mondiale e nel 1996–1998. È uno dei monumenti scultorei barocchi più significativi di Košice."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Hlavná-straat in het historische centrum van Košice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košice: middeleeuwse handelsstad met bijzondere privileges",
+          "text": "Dankzij de ligging aan handelsroutes langs de Hornád groeide Košice uit tot een belangrijke middeleeuwse stad. De eerste schriftelijke vermelding van de zuidelijke voorstad dateert uit 1230. Privileges uit 1342 en 1347 versterkten haar positie; tot het begin van de achttiende eeuw was Košice, na Boeda, een van de belangrijkste steden van het Koninkrijk Hongarije. Gildeartikelen van de plaatselijke bontwerkers uit 1307 zijn bewaard gebleven. Op 7 mei 1369 verleende koning Lodewijk I de stad een wapen. Volgens het stadsarchief was dit de eerste koninklijke wapenoorkonde voor een Europese stad. Vanaf het begin van de vijftiende eeuw maakte Košice deel uit van de Pentapolitana, een verbond van vijf steden in Oost-Slowakije."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Elisabethkathedraal: een gotische kerk waaraan meer dan een eeuw werd gebouwd",
+          "text": "De Sint-Elisabethkathedraal is het belangrijkste monument van het historische centrum en de grootste kerk van Slowakije. Ze staat op de plaats van een parochiekerk die rond 1370 door brand werd verwoest. De bouw begon omstreeks 1378 en verliep in verschillende fasen. Het oorspronkelijke plan voor een basiliek met vijf beuken werd veranderd in een hallenkerk met transept. Tijdens het beleg van 1491 raakte de kathedraal zwaar beschadigd; 1508 geldt doorgaans als het jaar waarin de belangrijkste werken werden voltooid. Imrich Steindl leidde een grote restauratie in 1877–1896. Het noordportaal met het Laatste Oordeel is een van de opvallende gotische onderdelen."
+        },
+        {
+          "id": "fact_003",
+          "title": "De gouden schat van Košice: 2.920 munten gevonden in een burgerhuis",
+          "text": "De gouden schat van Košice werd op 24 augustus 1935 ontdekt tijdens bouwwerkzaamheden aan Hlavná 68. Een koperen kist bevatte 2.920 gouden munten uit verschillende Europese landen, drie gouden medailles en een gouden renaissanceketting. De schat werd vermoedelijk verborgen tijdens de opstanden tegen de Habsburgers; de stad brengt hem in verband met de bezetting door Imre Thököly in 1682, maar de exacte datum is onbekend. De vondst behoort tot de belangrijke Europese numismatische ontdekkingen en wordt tegenwoordig bewaard in het Oost-Slowaaks Museum, dat in 1872 werd opgericht."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Lage Poort: ondergrondse resten van de middeleeuwse stadsverdediging",
+          "text": "Košice werd beschermd door muren, poorten en bastions die vanaf de tweede helft van de dertiende eeuw werden uitgebouwd. De laatste bastionwerken dateren uit 1706–1710. Vanaf 1783 werden de verdedigingswerken geleidelijk afgebroken. Het grootste bewaarde deel is de Lage Poort, een van de vijf voormalige stadspoorten aan het zuidelijke uiteinde van de Hlavná-straat. Archeologen ontdekten de resten tijdens straatwerkzaamheden in 1996; het ondergrondse archeologische museum opende in 1998."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Mikluš-gevangenis en de woning van de stadsbeul",
+          "text": "De Mikluš-gevangenis ontstond door twee gotische burgerhuizen uit de dertiende en veertiende eeuw samen te voegen. Vanaf het begin van de zeventiende eeuw tot 1911 dienden ze als stadsgevangenis. Bij het complex hoort ook de woning van de beul, waarschijnlijk gebouwd in de tweede helft van de zeventiende eeuw boven een oud steegje langs de stadsmuren. Een overdekte galerij verbond de woning met de gevangenis. Het Oost-Slowaaks Museum toont hier tegenwoordig de geschiedenis van gevangenissen en rechtspraak."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Urbanustoren: klokkentoren met renaissance-uiterlijk",
+          "text": "De Urbanustoren naast de kathedraal diende oorspronkelijk als stadstoren en klokkentoren van de Sint-Elisabethkerk. De naam verwijst naar Sint-Urbanus, patroonheilige van de wijnbouwers. In 1628 kreeg de toren zijn renaissance-uiterlijk naar een ontwerp van Martin Lindner. Na een brand in 1775 werd hij in laatbarokke stijl hersteld. Een brand in december 1966 beschadigde de toren en verwoestte de Urbanusklok uit 1557; gerestaureerde fragmenten zijn nu naast de toren te zien. De restauratie van de buitenkant, gestart in 2019, werd in 2025 voltooid."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Immaculata: barokke pestzuil op de voormalige executieplaats",
+          "text": "Het Mariamonument Immaculata werd in 1722–1723 opgericht op de voormalige stedelijke executieplaats. Het initiatief kwam van postmeester Viktorín Flachenfeld; het ontwerp was van bouwmeester Tomáš Tornyosi en beeldhouwer Šimon Grimming. De ongeveer veertien meter hoge zuil herdenkt de pestepidemie van 1710–1711. Het monument werd meermaals gerestaureerd, ook na de Tweede Wereldoorlog en in 1996–1998. Het behoort tot de belangrijke barokke beeldhouwwerken van Košice."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
