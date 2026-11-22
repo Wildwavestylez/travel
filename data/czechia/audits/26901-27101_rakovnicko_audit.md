@@ -11,8 +11,8 @@ Očekávaný a nalezený rozsah: **29/29 PSČ**:
 
 `26901, 27001, 27002, 27004, 27006, 27007, 27008, 27009, 27021, 27023, 27024, 27031, 27032, 27033, 27034, 27035, 27036, 27041, 27042, 27051, 27052, 27053, 27054, 27055, 27061, 27062, 27064, 27065, 27101`
 
-- Před doplněním chybějící osobnosti: 319 faktů.
-- Po doplnění Zikmunda Wintra: **320 faktů**.
+- Původní inventář před opravami: **321 faktů**.
+- Po doplnění Zikmunda Wintra a odstranění tří duplicitních faktů: **319 faktů / 2 233 jazykových položek**.
 - Všechny záznamy mají `data_version=1`.
 - 17 záznamů má `status=validated`, 12 má `status=placeholder`.
 - Publikace V5, změna statusů, záloha ani read-only lock nebyly provedeny.
@@ -63,7 +63,7 @@ Read-back změněných položek potvrdil:
 - Po opravách je počet rozdílů `facts[].text` vs `translations.cs` **0**.
 - Existující neprázdné souřadnice nebyly znovu kontrolovány ani měněny.
 - Mapové body `explorer_map_points` nebyly načítány ani měněny; jejich případná návaznost na nově přidaný fakt není v tomto běhu potvrzena.
-- Plná sémantická revize všech 2 254 textových položek (322 × 7) zatím není dokončena.
+- Plná sémantická revize všech 2 233 textových položek (319 × 7) zatím není dokončena.
 
 ## 5. Otevřené nálezy — REVIEW REQUIRED
 
@@ -88,32 +88,28 @@ Každý konkrétní fakt musí být odpovědně rozšířen ověřitelnými info
 
 ### 5.2 Chybějící polohy
 
-Zjištěno **33** faktů s `location=null`. Existující polohy nebyly znovu kontrolovány.
+Po geografických opravách zůstávají **4** fakty s `location=null`. Všech 28 ostatních původně chybějících poloh bylo doplněno s odpovídající přesností; existující neprázdné polohy nebyly znovu kontrolovány.
 
-- **27004:** fact_006, fact_007, fact_011, fact_019, fact_021, fact_022, fact_025, fact_026, fact_027, fact_028, fact_029, fact_030
-- **27009:** fact_004
-- **27033:** fact_002, fact_003, fact_005, fact_006, fact_007
-- **27034:** fact_001, fact_002, fact_004, fact_005, fact_006
-- **27062:** fact_009, fact_010
-- **27064:** fact_009, fact_012, fact_013
-- **27065:** fact_003, fact_004, fact_005, fact_008
+- **27009 / fact_004 — Důl Cyril:** doložena je pouze poloha na severním okraji Krupé při silnici na Mutějovice; přesná poloha dolových měr a šachty není určena.
+- **27033 / fact_003 — Trpasličí díra:** ověřena je oblast lesa nad Klečetnou, nikoli přesná poloha štoly; bez bezpečného bodu ponecháno null.
+- **27062 / fact_009 — monstrance:** přesné místo nálezu v bývalém areálu Prefa není známo; null je záměrné a správné.
+- **27065 / fact_008 — pomník Jindřicha Coufala:** prameny uvádějí silnici mezi Srbečí a Bdínem a posun pomníčku, ale přesný bod nebyl spolehlivě ověřen.
 
-Při pokračování hledat přibližný, ale geograficky smysluplný bod podle Content Standardu a prompt_rework. Pokud nelze obhájit ani přibližnou polohu, ponechat null a zdůvodnit.
+Tyto čtyři případy zůstávají výslovně zdokumentované výjimky; nepřidávat vymyšlené souřadnice.
 
 ### 5.3 Duplicitní nebo sporná primární přiřazení mezi PSČ
 
 1. **Hlavačov — UZAVŘENO:** 26901/fact_005 ponechán; 27051/fact_003 odstraněn po potvrzení adresního přiřazení ulice Hlavačov k PSČ 26901.
 2. **Kostel sv. Kateřiny — UZAVŘENO:** ponechán pouze 27021/fact_001; duplicitní 26901/fact_009 odstraněn. Centrální jádro Pavlíkova je přiřazeno k 27021; jediné adresní místo 26901 v části Pavlíkov leží výrazně mimo jádro.
-3. **Svatý Hubert — UZAVŘENO:** ponechán pouze 27034/fact_007; duplicitní 27033/fact_005 odstraněn. Oficiální evidence přiřazuje část obce Svatý Hubert k Drahouši a PSČ 27033; původní předběžné přiřazení do 27034 bylo chybné a bylo vráceno.
+3. **Svatý Hubert — UZAVŘENO:** ponechán pouze 27033/fact_005; duplicitní kopie 27034/fact_007 odstraněna. Část obce Svatý Hubert náleží k Drahouši a PSČ 27033. Předchozí přiřazení do 27034 bylo chybné a bylo opraveno.
 4. **Kolešovka — NENÍ potvrzena duplicita:** 27001/fact_005 (stanice Kněževes), 27002/fact_007 (koncová stanice Kolešovice) a 27009/fact_003 (stanice Krupá) popisují tři odlišná fyzická místa na jedné trati. Zachovat všechny tři; při pozdější redakční úpravě jasně oddělit místní příběhy, aby se neopakovala obecná historie celé trati.
 
 ## 6. Další krok
 
-1. Vyřešit čtyři skupiny duplicit a určit jedno primární PSČ pro každý objekt/trasu.
-2. Projít 54 krátkých českých master textů a odpovědně je rozšířit; následně aktualizovat šest překladů.
-3. Doplnit 33 chybějících poloh tam, kde to lze doložit; ostatní ponechat s odůvodněním.
-4. Dokončit sémantickou kontrolu všech sedmi jazyků a kontrolu administrativních údajů podle sídel obsluhujících pošt.
-5. Ověřit návaznost nového faktu 26901/fact_010 na mapové body pouze tehdy, pokud je to podle aktuálního schématu/provozu nutné.
-6. Provedení pouze cílených read-back kontrol změněných položek.
+1. Projít 54 krátkých českých master textů a odpovědně je rozšířit; následně aktualizovat šest překladů.
+2. Dokončit sémantickou kontrolu všech sedmi jazyků a kontrolu administrativních údajů podle sídel obsluhujících pošt.
+3. Zachovat čtyři doložené výjimky s null polohou, dokud nebude dostupný důkaz pro bezpečné umístění.
+4. Ověřit návaznost nového faktu 26901/fact_010 na mapové body pouze tehdy, pokud je to podle aktuálního schématu/provozu nutné.
+5. Provést pouze cílené read-back kontroly změněných položek.
 
 **Zatímní výsledek: REVIEW REQUIRED.** Neprovádět publikaci V5, zálohu, read-only lock, změny sequence.json ani změny schématu.
