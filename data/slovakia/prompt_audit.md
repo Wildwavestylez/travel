@@ -142,7 +142,7 @@ Check:
 - every content record eligible for audit has `status = 'validated'` before audit;
 - `status` is changed to `published` only after that record has passed all applicable audit checks;
 - `data_version` is preserved exactly and is not changed during audit;
-- fact IDs are unique and stable; source IDs resolve to top-level sources;
+- fact IDs are unique and stable; every `facts[].sources[]` URL matches a top-level `sources[].url`;
 - facts, translations, sources and locations remain aligned;
 - no accidental duplicate files, duplicate postcode records or corrupted JSON exist.
 
@@ -181,7 +181,7 @@ Process the entire requested block in one continuous run. Batch mechanical check
 For each genuine defect: **find → verify → safely correct → read back from GitHub → validate the correction → record briefly**.
 
 - Automatically fix only confirmed, safe defects.
-- Preserve fact IDs, source IDs, unrelated content and established primary-postcode assignments.
+- Preserve fact IDs, source URLs, unrelated content and established primary-postcode assignments.
 - Do not perform a second full rework or restart broad research for every fact.
 - Mark an unclear individual item `REVIEW REQUIRED` and continue with independent records.
 - Keep unresolved material issues in `validated`; do not publish an affected record.
