@@ -2,7 +2,7 @@
 
 - Datum: 2026-11-22
 - Rozsah: všechny bratislavské kódy řady 8xxxx obsažené v naplněném `data/slovakia/sequence.json`.
-- Celkový výsledek: **BLOCKED** – obsahová kontrola dokončena, publikaci blokují dvě nevyřešené projektové podmínky.
+- Celkový výsledek: **CONTENT AUDIT READY FOR FINAL RECHECK** – rozpor zdrojových referencí byl odstraněn podle českého technického formátu; před uzavřením auditu je nutný závěrečný read-back a validační průchod.
 - Nebyla změněna žádná hodnota `data_version`, schéma ani pořadí sekvence.
 
 ## Inventář rozsahu
@@ -45,14 +45,11 @@ Tyto záznamy prošly provedenými obsahovými, jazykovými, geografickými a st
 
 84101, 84102, 84103, 84104
 
-### BLOCKED – 14 záznamů
+### Opravený zdrojový formát – 14 záznamů v rozsahu Bratislava a 1 další slovenský záznam
 
-V těchto záznamech jsou zdrojové objekty opatřeny vlastností id a pole facts[].sources na ně odkazuje. Odkazy na zdroje se podařilo spárovat s položkami v hlavním poli sources, ale aktuální schema.json v definici $defs.source povoluje pouze title, url a type a má additionalProperties=false. Vlastnost id tedy schéma zakazuje, zatímco CONTENT_STANDARD.md a auditní pravidla s identifikátory zdrojů počítají.
+Ve všech 14 dotčených bratislavských záznamech a v záznamu 90001 byly zdrojové reference převedeny na formát používaný českými originály: sources[] obsahuje pouze title, url, type a facts[].sources[] obsahuje přímo URL, které se přesně shodují s sources[].url. Všechny původní reference byly před převodem jednoznačně namapovány; žádný zdroj nebyl ztracen. Opakované URL v 84110 a 90001 byly sloučeny na jedinou položku; reference ve faktech byly zachovány jako přímé URL.
 
-Dotčené záznamy:
-82104, 84105, 84106, 84107, 84108, 84110, 85101, 85102, 85103, 85104, 85105, 85106, 85107, 85110
-
-Jde o dokumentový rozpor mezi schématem a obsahovým standardem. Nebylo provedeno obcházení problému převodem ID na URL, mazáním identifikátorů ani změnou schématu. Všech 14 záznamů zůstává validated a nesmí být publikováno, dokud nebude rozpor vyřešen na úrovni projektových dokumentů.
+Slovenský schema.json již používá stejnou technickou definici source a facts[].sources jako české schéma, proto nebylo nutné měnit samotné schéma. Opraveny byly dokumenty, které chybně vyžadovaly src_* identifikátory. Všech 14 bratislavských záznamů zůstává validated; tato technická oprava sama o sobě nemění výsledek ostatních auditních kontrol a není pokynem k publikaci.
 
 ## Provedené obsahové a datové opravy
 
@@ -74,13 +71,13 @@ Jde o dokumentový rozpor mezi schématem a obsahovým standardem. Nebylo proved
 - Identifikátory faktů jsou jedinečné.
 - V žádném z 49 obsahových záznamů již nezůstala prázdná location; souřadnice jsou v platném rozsahu.
 - Kategorie, map_category, priority, typy a přesnosti lokací odpovídají povoleným hodnotám schématu.
-- Všechny běžné URL odkazy na zdroje se párují s hlavním seznamem. U 14 záznamů s ID odkazy jsou ID dohledatelná, ale narážejí na výše uvedený rozpor schématu.
+- Po migraci musí být při závěrečném read-backu potvrzeno, že každý faktový zdroj je přímá URL a přesně odpovídá položce sources[].url; žádný zdrojový objekt nesmí obsahovat id.
 - Kontrola explorer_index.json: status=published, data_version=5, count=0, map_point_count=0, bez mapových dlaždic. To odpovídá stavu, kdy žádný záznam z tohoto rozsahu není publikován jako V5. Manifest nebyl ručně upravován.
 - Nebylo použito AJV ani jiný plný validační běh; kontrola byla provedena podle aktuálních definic schématu a povolených hodnot.
 - Nebyla provedena záloha na Dropbox; uživatel o ni v tomto požadavku nežádal.
 
 ## Otevřené kroky
 
-1. Rozhodnout a sjednotit dokumentový kontrakt pro zdroje: buď povolit sources[].id ve schématu, nebo upravit obsahový standard a auditní pravidla na formát, který současné schéma skutečně dovoluje. Do té doby zůstává 14 uvedených záznamů blokovaných.
-2. Po vyřešení rozporu znovu ověřit těchto 14 záznamů a dokončit audit celé sady.
-3. Teprve po úspěšném dokončení celého rozsahu může uživatel výslovně zadat převod na V5 a publikaci. Bez takového pokynu nebyl data_version měněn a žádný záznam nebyl publikován.
+1. Dokončit závěrečný read-back a kontrolu přímých URL u 14 migrovaných bratislavských záznamů a znovu ověřit všech 49 obsahových záznamů proti schématu.
+2. Zachovat všech 49 záznamů ve stavu validated, dokud nebude celý audit úspěšně uzavřen a uživatel výslovně nepožádá o převod na V5 a publikaci.
+3. Samostatně zohlednit migraci záznamu 90001, který leží mimo tento auditní rozsah, ale používal stejný starý zdrojový formát.
