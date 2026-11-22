@@ -74,7 +74,7 @@ Zkontroluj přiměřeně dostupným oficiálním nebo důvěryhodným zdrojem:
 - zda `county` a `state` odpovídají správným aktuálním administrativním jednotkám;
 - zda `district`, pokud je vyplněn, není zjevně mimo uvedenou oblast.
 
-Používej ISTAT pro názvy a správní klasifikaci Comune, Regione a mezilehlých jednotek; pro skutečnou polohu míst používej oficiální obecní, adresní a geografické zdroje. Nepožaduj projektový CAP inventář update, CAP Professional, poštovní katalog, seznam poboček ani dokazování úplného poštovního území. Žádná poštovní změna nesmí sama o sobě zablokovat obsahový audit.
+Používej ISTAT pro názvy a správní klasifikaci Comune, Regione a mezilehlých jednotek; pro skutečnou polohu míst používej oficiální obecní, adresní a geografické zdroje. Nepožaduj aktualizaci Poste Italiane, CAP Professional, poštovní katalog, seznam poboček ani dokazování úplného poštovního území. Žádná poštovní změna nesmí sama o sobě zablokovat obsahový audit.
 
 Oprav pouze zjevnou, doloženou a významnou geografickou nebo správní chybu. `REVIEW REQUIRED` použij jen při konkrétním důkazu, že obsahové geografické přiřazení je zásadně chybné nebo jej nelze odpovědně určit.
 
