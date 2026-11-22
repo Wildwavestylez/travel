@@ -124,18 +124,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Oficiální technické parametry Slovenské pošty uvádějí PSČ 841 06 pod vybranou poštou Bratislava 48. Městská část Záhorská Bystrica potvrzuje, že pošta 48 sídlí na Gbelské 25 přímo v Záhorské Bystrici. Proto je city Bratislava a district Záhorská Bystrica; provozní adresa pošty je v doručovací oblasti a nepřebírá se jako samostatné město.",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok; doplňkově veřejný CC0 dataset slovak-postal-codes odvozený z RAGEO",
-    "postcode_source_release": "Kontrola 21. 11. 2026; RAGEO-odvozený dataset připnutý na commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
-    "postcode_source_checked_at": "2026-11-21",
-    "postcode_conflict": true,
-    "postcode_conflict_note": "RAGEO-odvozený veřejný dataset uvádí vedle 2440 adresních bodů v Bratislavě-Záhorské Bystrici také jediný bod SK0107508179 v Pezinku s PSČ 84106. Jde o izolovanou odchylku mimo hlavní souvislou oblast; bez nezávislého potvrzení Slovenskou poštou není tento bod zahrnut do geografického rozsahu ani použit k rozšíření faktického pokrytí. Konflikt je transparentně ponechán k dalšímu ověření.",
-    "delivery_office_note": "Slovenská pošta v technických parametrech přiřazuje PSČ 841 06 poště Bratislava 48. Oficiální web městské části uvádí její fyzickou adresu Pošta 48, Gbelská 25, Záhorská Bystrica. Top-level city je proto Bratislava a district Záhorská Bystrica.",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 2 443 adresních bodů v Záhorské Bystrici a 1 okrajovou adresu v Pezinku. README datasetu výslovně uvádí, že páry s 1–8 adresami jsou skutečné okrajové adresy obsluhované sousední poštou a nejsou filtrovány. Dominantní cluster Záhorská Bystrica zůstává reprezentativní pro obec Bratislava; jediná okrajová adresa v Pezinku nemění top-level city, district ani reprezentativní místo.",
+    "delivery_office_note": "Technické parametry Slovenské pošty účinné od 1. 1. 2026 uvádějí PSČ 841 06 pro vybranou poštu Bratislava 48. Jde o poštovní směrování; reprezentativní obec a část se určují podle adresních bodů.",
     "postcode_override_reason": null,
-    "geographic_authority": "RAGEO-odvozený CC0 dataset připnutý na commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0 obsahuje 2440 adresních bodů v Bratislava-Záhorská Bystrica a jeden izolovaný bod v Pezinku. Souhrnný bod datasetu je 48.23670,17.04299 a obalový rozsah 48.22287–48.24561 N, 17.02438–17.05803 E; tento rozsah není hranicí doručovací oblasti. Reprezentativní místo záznamu bylo zvoleno samostatně v historickém centru u farního kostela, jehož poloha je podložena nezávislým geografickým zdrojem. Ojedinělý bod v Pezinku je zaznamenán jako datový konflikt."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 2 443 adresních bodů v Bratislava-Záhorská Bystrica a 1 adresní bod v obci Pezinok. README datasetu uvádí, že malé páry s 1–8 adresami jsou reálné okrajové adresy a nejsou filtrovány. Dominantní cluster v Záhorské Bystrici podporuje reprezentativní obec Bratislava, district Záhorská Bystrica a stávající reprezentativní místo. Slovenská pošta uvádí 841 06 ve směru Bratislava 48. Jediná okrajová adresa v Pezinku nemění reprezentativní přiřazení; polygonální hranice se netvrdí. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -202,6 +202,16 @@
       "title": "Slovak postal codes – súhrn PSČ, reprezentatívny bod a obalový rozsah",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
       "type": "other"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
+      "type": "specialist"
     }
   ],
   "translations": {
