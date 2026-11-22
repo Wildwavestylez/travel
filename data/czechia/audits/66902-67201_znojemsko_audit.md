@@ -1,7 +1,7 @@
 # Znojemsko — audit PSČ 66902–67201
 
 **Kanonické ID:** `CZ-ZNOJEMSKO-66902-67201`  
-**Stav:** **PASS — závěrečný read-back dokončen**  
+**Stav:** **PASS / PUBLISHED V5 / BACKUP VERIFIED — READ-ONLY LOCK NOT ACTIVATED**  
 **Auditní pravidla:** `data/czechia/prompt_audit.md`, V2.1 (odlehčený audit)  
 **Datum:** 2026-11-22  
 **Zdroj pravdy:** cíleně načtené řádky `public.postal_codes` v Supabase; bez porovnávání s Neonem.
@@ -15,7 +15,7 @@ Rozsah uživatele: 669xx až 673xx. Aktuální `sequence.json` však v tomto int
 - 47/47 PSČ nalezeno v `sequence.json`, `groups`, RÚIAN CSV a cíleném databázovém výběru.
 - V tomto rozsahu nejsou v aktuální sequence žádná PSČ 670xx ani 673xx; nebyla vytvářena ani přidávána.
 - Původně 374 faktů; po doplnění čtyř zásadních témat **378 faktů / 2 646 jazykových položek** (378 × 7).
-- Všech 47 záznamů zůstává `data_version=1`, `status=validated`. Žádná publikace ani změna verze neproběhla.
+- Všech 47 záznamů bylo převedeno na `data_version=5`, `status=published`; cílený závěrečný read-back potvrdil 47/47 bez výjimky.
 - `sequence.json`, `groups` ani centrální referenční soubory nebyly změněny.
 
 ## 2. Průzkum tematických mezer
@@ -127,9 +127,12 @@ U konkrétních objektů jsou použity ověřené body; u rozlehlých lokalit re
 - Všech 7 jazyků obsahuje všech 378 faktů; žádné prázdné překladové texty.
 - 0 duplicitních ID faktů; 0 rozdílů mezi českým masterem a `translations.cs`.
 - 37/37 dříve chybějících poloh doplněno a ověřeno; 0 null poloh a 0 strukturálních/geografických chyb v cílené kontrole.
-- Záznamy zůstávají `data_version=1`, `status=validated`; žádný V5 rework ani publikace neproběhly.
-- Nebyla vytvořena záloha do Dropboxu, aktivován read-only zámek ani provedena změna Neon databáze.
-- Auditní práce je dokončena. Další provozní kroky se provedou pouze na výslovný pokyn uživatele.
+- Záznamy jsou `data_version=5`, `status=published`; cílený read-back: 47/47 V5 + published, 0 výjimek.
+- **Dropbox backup VERIFIED:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_ZNOJEMSKO_66902-67201_2026-11-22T14-17-52-239Z/`.
+- Záloha obsahuje `CZ_AUDIT_ZNOJEMSKO_66902-67201_backup.json` (3 383 767 B), `CZ_AUDIT_ZNOJEMSKO_66902-67201_restore.sql` (3 043 318 B) a `manifest.json` (3 047 B). Všechny 3 soubory byly z Dropboxu znovu načteny a SHA-256 se shoduje 3/3; manifest `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=47`.
+- Supabase `backup_work_waves`: `CZ-AUDIT-ZNOJEMSKO-66902-67201-001` → `COMPLETE`; `backup_snapshots` → `VERIFIED`.
+- Read-only zámek nebyl aktivován. Neon databáze nebyla změněna.
+- Audit, V5 publikace a záloha jsou dokončeny. Další provozní kroky se provedou pouze na výslovný pokyn uživatele.
 
 ## 7. Použité hlavní zdroje
 
