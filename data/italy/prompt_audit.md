@@ -64,26 +64,19 @@ Nehledej vyčerpávající katalog všech chráněných objektů, kostelů, kapl
 
 Jakmile jsou hlavní dominanty a zásadní příběhy auditovaného území pokryté, tuto kontrolu uzavři. **Toto výběrové omezení platí pouze pro audit, nikdy pro rework.** Rework nadále musí provádět úplnou tematickou rešerši podle Content Standardu.
 
-### B. Orientační kontrola CAP a správního zařazení
+### B. Orientační kontrola geografického a správního kontextu
 
-Cílem této kontroly je zachytit **hrubé geografické a administrativní chyby**, nikoli provádět poštovní katalogizaci každé malé obce, frazione, ulice nebo pobočky. Ověř, že záznam dává jako celek smysl a že se do něj nedostalo zjevně cizí území — například Comune z okolí Milána v záznamu pro Řím.
+Cílem je zachytit **zjevné geografické a administrativní chyby**, nikoli ověřovat poštovní přiřazení. CAP je identifikátor záznamu převzatý z projektového inventáře; audit neověřuje nové poštovní aktualizace, datum účinnosti, provoz pošt ani kompletní poštovní hranice.
 
 Zkontroluj přiměřeně dostupným oficiálním nebo důvěryhodným zdrojem:
-- zda pětimístný CAP existuje a odpovídá přibližně uvedené oblasti;
-- zda `city` obsahuje obec nebo obce, které do dané oblasti zjevně patří, a neobsahuje zjevně vzdálené či cizí Comune;
-- zda `county` odpovídá správné provincii nebo jiné mezilehlé územní jednotce;
-- zda `state` odpovídá správné Regione;
-- zda `district`, pokud je vyplněn, není zjevně mimo dané Comune nebo oblast.
+- zda je CAP správně zapsán jako pětimístný řetězec a odpovídá položce v auditovaném projektovém rozsahu;
+- zda `city` uvádí geograficky smysluplné Comune/Comuni pro obsahovou oblast a neobsahuje zjevně cizí území;
+- zda `county` a `state` odpovídají správným aktuálním administrativním jednotkám;
+- zda `district`, pokud je vyplněn, není zjevně mimo uvedenou oblast.
 
-**Neprováděj úplný audit poštovního přiřazení všech jednotlivých Comuni.** Není nutné dohledávat každou malou obec, frazione, poštovní pobočku, doručovací oblast ani přesnou hranici CAP. Neověřuj každou ulici nebo adresu. Nepožaduj kompletní seznam všech obcí z externího katalogu, pokud pro zachycení zjevné chyby stačí rozumná kontrola celkové geografické plausibility.
+Používej ISTAT pro názvy a správní klasifikaci Comune, Regione a mezilehlých jednotek; pro skutečnou polohu míst používej oficiální obecní, adresní a geografické zdroje. Nepožaduj projektový CAP inventář update, CAP Professional, poštovní katalog, seznam poboček ani dokazování úplného poštovního území. Žádná poštovní změna nesmí sama o sobě zablokovat obsahový audit.
 
-Pole `city` se nadále řídí `COUNTRY_PROFILE.md` a `CONTENT_STANDARD.md`: má vyjadřovat Comune/Comuni přiřazené k CAP, nikoli Comune, ve kterém náhodou stojí pošta. Audit však kontroluje především to, zda uvedené názvy odpovídají správné oblasti a neobsahují zjevný nesmysl; nevyžaduje dokazovat úplnost každé položky seznamu.
-
-Poste Italiane používej pouze k ověření samotného CAP a jeho geografického přiřazení. **Závazné jsou nejnovější aktuálně účinné oficiální podklady Poste Italiane. Pokud novější oficiální dokument nebo dataset nahrazuje starší údaj, starší podklad ignoruj a neřeš jeho rozpor s aktuálním stavem.** Vždy respektuj datum zveřejnění, datum účinnosti a případné přechodné období uvedené Poste Italiane. Historické dokumenty ani třetí strany nesmějí převážit nad aktuálním oficiálním stavem. Pouze pokud si odporují dva současně účinné oficiální podklady a není zřejmé, který má přednost, označ konkrétní CAP jako `REVIEW REQUIRED`. Nezjišťuj, kdo CAP obsluhuje, stav nebo otevírací dobu poboček, nabízené poštovní služby ani doručovací trasy či režimy; tyto informace nejsou obsahem Europe Exploreru a jsou mimo rozsah auditu. Změny CAP prověřuj cíleně podle aktuálních oficiálních oznámení, která se vztahují k auditovanému CAP.
-
-Oprav pouze zjevnou, doloženou a významnou chybu, například nesprávnou Regione, úplně jinou provincii nebo cizí Comune. U drobné nejistoty, která nemění správné celkové geografické zařazení, ponech záznam beze změny. Označení `REVIEW REQUIRED` použij jen tehdy, když nelze rozhodnout ani základní geografickou správnost nebo existuje konkrétní důkaz závažného nesouladu.
-
-Rozlišuj právní typ mezilehlé jednotky: Provincia, Città metropolitana, Provincia autonoma, Libero consorzio comunale nebo jiná aktuální oficiální forma. Nepřepisuj všechny typy na Provincia. Použij správný aktuální název a typ; nevyžaduj však vyčerpávající administrativní rozbor každé obce v rámci CAP.
+Oprav pouze zjevnou, doloženou a významnou geografickou nebo správní chybu. `REVIEW REQUIRED` použij jen při konkrétním důkazu, že obsahové geografické přiřazení je zásadně chybné nebo jej nelze odpovědně určit.
 
 ### B1. Zkrácené uživatelské zobrazení seznamu Comuni
 
