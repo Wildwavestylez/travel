@@ -2,7 +2,7 @@
 
 - Datum: 2026-11-22
 - Rozsah: všechny bratislavské kódy řady 8xxxx obsažené v naplněném `data/slovakia/sequence.json`.
-- Celkový výsledek: **CONTENT AUDIT READY FOR FINAL RECHECK** – rozpor zdrojových referencí byl odstraněn podle českého technického formátu; před uzavřením auditu je nutný závěrečný read-back a validační průchod.
+- Celkový výsledek: **SOURCE FORMAT MIGRATION VERIFIED / FINAL AUDIT RECHECK REMAINS** – rozpor zdrojových referencí byl odstraněn podle českého technického formátu a read-back všech migrovaných záznamů potvrdil přímé URL reference.
 - Nebyla změněna žádná hodnota `data_version`, schéma ani pořadí sekvence.
 
 ## Inventář rozsahu
@@ -71,13 +71,13 @@ Slovenský schema.json již používá stejnou technickou definici source a fact
 - Identifikátory faktů jsou jedinečné.
 - V žádném z 49 obsahových záznamů již nezůstala prázdná location; souřadnice jsou v platném rozsahu.
 - Kategorie, map_category, priority, typy a přesnosti lokací odpovídají povoleným hodnotám schématu.
-- Po migraci musí být při závěrečném read-backu potvrzeno, že každý faktový zdroj je přímá URL a přesně odpovídá položce sources[].url; žádný zdrojový objekt nesmí obsahovat id.
+- Read-back všech 14 migrovaných bratislavských záznamů a záznamu 90001 potvrdil, že každý faktový zdroj je přímá URL přesně odpovídající položce sources[].url; žádný zdrojový objekt neobsahuje id.
 - Kontrola explorer_index.json: status=published, data_version=5, count=0, map_point_count=0, bez mapových dlaždic. To odpovídá stavu, kdy žádný záznam z tohoto rozsahu není publikován jako V5. Manifest nebyl ručně upravován.
 - Nebylo použito AJV ani jiný plný validační běh; kontrola byla provedena podle aktuálních definic schématu a povolených hodnot.
 - Nebyla provedena záloha na Dropbox; uživatel o ni v tomto požadavku nežádal.
 
 ## Otevřené kroky
 
-1. Dokončit závěrečný read-back a kontrolu přímých URL u 14 migrovaných bratislavských záznamů a znovu ověřit všech 49 obsahových záznamů proti schématu.
+1. Dokončit závěrečný kontrolní průchod celých 49 bratislavských obsahových záznamů proti schématu a uzavřít audit.
 2. Zachovat všech 49 záznamů ve stavu validated, dokud nebude celý audit úspěšně uzavřen a uživatel výslovně nepožádá o převod na V5 a publikaci.
 3. Samostatně zohlednit migraci záznamu 90001, který leží mimo tento auditní rozsah, ale používal stejný starý zdrojový formát.
