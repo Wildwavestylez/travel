@@ -1,4 +1,545 @@
 {
   "postcode": "01864",
-  "status": "placeholder"
+  "city": "Košeca",
+  "district": null,
+  "county": "Ilava",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Košeca – historické jádro obce",
+  "representative_point": {
+    "lat": 49.009722,
+    "lon": 18.261667
+  },
+  "access_point": {
+    "lat": 49.009722,
+    "lon": 18.261667
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pravěké Košeci a nálezy z doby bronzové i Velké Moravy",
+      "text": "Území Košece bylo osídlené už v neolitu. Archeologické výzkumy doložily žárové pohřebiště lužické kultury z mladší doby bronzové, sídliště púchovské kultury i slovanské osídlení z velkomoravského období. Z pohřebiště pocházejí keramické nádoby a bronzové ozdoby, zejména jehlice. Další hroby byly odkryty v letech 1929 a 1931 při úpravách příkopu u cesty směrem na Zliechov. Jde o rozptýlené nálezové polohy v katastru obce, nikoli o jediný zpřístupněný areál.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Nozdrovice: pravěké Hradiště a raně středověké osídlení",
+      "text": "Místní část Nozdrovice má vlastní archeologickou historii. V poloze Hradiště byly nalezeny keramické střepy púchovské kultury včetně grafitové keramiky, dále přesleny a závaží z tkalcovského stavu. Na jihozápadním a západním svahu pod Hradištěm se rozkládalo také rozsáhlé slovanské sídliště velkomoravského období. Nálezy ukazují, že okolí dnešních Nozdrovic bylo významnou sídelní oblastí v údolí Váhu.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+        "https://www.koseca.sk/o-obci/geograficke-udaje.html",
+        "https://mapcarta.com/18462546"
+      ],
+      "location": {
+        "name": "Nozdrovice – orientační bod místní části v okolí Hradiště",
+        "lat": 49.01577,
+        "lon": 18.27735,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18462546"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Středověké tržní městečko a sídlo košeckého panství",
+      "text": "Košeca je písemně doložena roku 1272. Roku 1397 se uvádí jako villa Kazza a v roce 1467 již jako městečko (oppidum), které sloužilo jako řemeslné, tržní a obchodní centrum panství. Postupně získalo právo pořádat čtyři výroční trhy a vykonávat menší soudní pravomoc. Po zániku hradu Košeca v letech 1670–1671 se správní centrum panství přesunulo do městečka. Samotný hrad však leží mimo toto PSČ, v sousedním Košeckém Podhradí.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+        "https://www.koseca.sk/o-obci/zaujimavosti-a-pamiatky.html",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_a1732f0f-c344-4d1d-a93d-1d13a745d71b"
+      ],
+      "location": {
+        "name": "Košeca – historické jádro obce, orientační bod",
+        "lat": 49.009722,
+        "lon": 18.261667,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.koseca.sk/o-obci/zakladna-charakteristika.html"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel, renesanční hřbitovní brána a kaple staré Košece",
+      "text": "Historické jádro Košece uchovává soubor sakrálních památek. Kostel Nanebevzetí Panny Marie byl dokončen roku 1833 v barokně-klasicistním slohu; farní historická studie klade položení základního kamene do roku 1779, zatímco obecní stránka uvádí 1799, takže počátek stavby zůstává sporný. Výjimečná je pozdně renesanční brána starého hřbitova, datovaná přibližně kolem roku 1600, která sloužila také jako zvonice a zachovala sluneční hodiny s nápisem o východu živých a západu mrtvých. V obci stojí také barokní fara, kaple sv. Anny z roku 1750 a kaple sv. Barbory z roku 1883.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.koseca.sk/o-obci/zaujimavosti-a-pamiatky.html",
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+        "https://www.pamiatkynaslovensku.sk/koseca-zvonica-brana-na-stary-cintorin",
+        "https://www.pamiatkynaslovensku.sk/koseca-kostol-nanebovzatia-panny-marie"
+      ],
+      "location": {
+        "name": "Kostel Nanebevzetí Panny Marie, Košeca",
+        "lat": 49.008425,
+        "lon": 18.259436,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/koseca-kostol-nanebovzatia-panny-marie"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Nozdrovice: šlechtický hřbitov a kaple Panny Marie Pomocnice",
+      "text": "Nozdrovice, historická zemanská vesnice a dnešní místní část Košece, si uchovaly stopy někdejšího šlechtického prostředí. Zdejší zemani byli původně pohřbíváni v kryptě košeckého kostela, později na vlastním šlechtickém hřbitově; z něj se dochovaly dva náhrobní kameny. Nad vesnicí stojí kaple Panny Marie Pomocnice, postavená u kříže na místě staršího hřbitova. Tyto památky připomínají samostatnou historickou identitu Nozdrovic, které jsou dnes součástí obce Košeca.",
+      "category": "heritage_and_monuments",
+      "priority": "D",
+      "sources": [
+        "https://www.koseca.sk/o-obci/zaujimavosti-a-pamiatky.html",
+        "https://www.koseca.sk/o-obci/geograficke-udaje.html",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_a1732f0f-c344-4d1d-a93d-1d13a745d71b",
+        "https://mapcarta.com/18462546"
+      ],
+      "location": {
+        "name": "Nozdrovice – orientační bod místní části",
+        "lat": 49.01577,
+        "lon": 18.27735,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18462546"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Od dřevní destilace k výrobě barev: průmyslová tradice Košece",
+      "text": "Košecký průmyslový závod založil baron Adolf Schenk roku 1863 jako továrnu na suchou destilaci dřeva. Po změně vlastníků se provoz přeorientoval na výrobu zinkové běloby: průmyslové povolení získal roku 1909 a výroba se rozběhla kolem roku 1910. V roce 1939 zaměstnával závod přibližně 49 lidí. Po znárodnění a začlenění do národního podniku Barvy a laky Praha se v Košeci rozvinula výroba nátěrových hmot; od roku 2009 v tradici pokračuje společnost SLOVLAK Košeca. Jde o významnou vrstvu místní hospodářské historie, nikoli pouze o současnou firemní prezentaci.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "https://puchovodedicstvo.sk/wp-content/uploads/Verbum_Historiae_1-2014.pdf",
+        "https://www.koseca.sk/files/koseca.pdf",
+        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_povazska_bystrica/sluzby/archivne_pomocky/Dejiny%20priemyslu%20na%20Slovensku%2C%20supis%20archivnych%20dokumentov.pdf",
+        "https://www.slovlak.sk/kontakt"
+      ],
+      "location": {
+        "name": "Areál SLOVLAK Košeca, Továrenská ulice",
+        "lat": 49.00951,
+        "lon": 18.25185,
+        "type": "historic_industrial_site",
+        "accuracy": "approximate",
+        "source": "https://www.citiumtech.com/resources/eprtr/facilities/slovlak-koseca-a-s-vyroba-naterovych-latok-903e1fd3"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_007",
+      "title": "Košeca jako působiště slovenských literátů a duchovních",
+      "text": "Košeca byla po staletí významným farním a kulturním centrem Pováží. Ján Baltazár Magin zde působil jako farář v letech 1712–1717; později se proslavil latinsky psanou obranou trenčínské stolice a Slováků, vydanou v Púchově roku 1728. V letech 1846–1890 zde působil kněz a básník Jozef Emmanuel, zakládající člen Matice slovenskej a podporovatel slovenského písemnictví; zemřel v Košeci a je pohřben před zdejším kostelem. Starší tradici představuje také evangelický farář a dramatik Zachariáš Kalinka, který v Košeci zemřel roku 1656.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+        "https://matica.sk/dejiny/osobnosti-slovenskych-dejin/2943-jozef-emmanuel",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_a1732f0f-c344-4d1d-a93d-1d13a745d71b"
+      ],
+      "location": {
+        "name": "Kostel Nanebevzetí Panny Marie a historický hřbitov, Košeca",
+        "lat": 49.008425,
+        "lon": 18.259436,
+        "type": "historic_monument",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/koseca-kostol-nanebovzatia-panny-marie"
+      },
+      "map_category": "personality"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ (https://www.posta.sk/psc); oficiální obecní profil potvrzuje PSČ 018 64. Geografický rozsah doplněn kontrolou mapových dat PSČ 018 64, která vedle Košece uvádějí také Nozdrovice.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty a obecní údaj PSČ Košeca",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní geografické údaje Košece; Ústredný portál verejnej správy; obecní mapový portál mOBEC a mapové zdroje pro Nozdrovice."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Košeca – základní charakteristika a PSČ 018 64",
+      "url": "https://www.koseca.sk/o-obci/zakladna-charakteristika.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Košeca – geografické údaje a Nozdrovice",
+      "url": "https://www.koseca.sk/o-obci/geograficke-udaje.html",
+      "type": "official"
+    },
+    {
+      "title": "Ústřední portál veřejné správy – informace o obci Košeca",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_a1732f0f-c344-4d1d-a93d-1d13a745d71b",
+      "type": "official"
+    },
+    {
+      "title": "018 64 – geografický přehled PSČ Košeca a Nozdrovice",
+      "url": "https://allslovakia.info/en/psc/01864",
+      "type": "other"
+    },
+    {
+      "title": "Obec Košeca – zajímavosti a památky",
+      "url": "https://www.koseca.sk/o-obci/zaujimavosti-a-pamiatky.html",
+      "type": "official"
+    },
+    {
+      "title": "Farnost Košeca – dějiny farnosti do roku 1890",
+      "url": "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+      "type": "primary"
+    },
+    {
+      "title": "Pamiatky na Slovensku – zvonice a brána starého hřbitova, ÚZPF 740/0",
+      "url": "https://www.pamiatkynaslovensku.sk/koseca-zvonica-brana-na-stary-cintorin",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – kostel Nanebevzetí Panny Marie, ÚZPF 739/1",
+      "url": "https://www.pamiatkynaslovensku.sk/koseca-kostol-nanebovzatia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "Matica slovenská – Jozef Emmanuel",
+      "url": "https://matica.sk/dejiny/osobnosti-slovenskych-dejin/2943-jozef-emmanuel",
+      "type": "specialist"
+    },
+    {
+      "title": "Verbum historiae – studie o chemickém závodu v Košeci",
+      "url": "https://puchovodedicstvo.sk/wp-content/uploads/Verbum_Historiae_1-2014.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Obec Košeca – investiční noviny a historie závodu",
+      "url": "https://www.koseca.sk/files/koseca.pdf",
+      "type": "official"
+    },
+    {
+      "title": "SLOVLAK Košeca – adresa závodu",
+      "url": "https://www.slovlak.sk/kontakt",
+      "type": "official"
+    },
+    {
+      "title": "E-PRTR – poloha závodu SLOVLAK Košeca",
+      "url": "https://www.citiumtech.com/resources/eprtr/facilities/slovlak-koseca-a-s-vyroba-naterovych-latok-903e1fd3",
+      "type": "other"
+    },
+    {
+      "title": "Nozdrovice – geografická poloha místní části",
+      "url": "https://mapcarta.com/18462546",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Ilava – bitva na Rudém poli mezi Ilavou a Košecou",
+      "url": "https://www.ilava.sk/seniori/mesto/aktuality/590-vyrocie-bitky-na-rudom-poli-1022sk.html",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo vnútra SR – archivní soupis dokumentů k dějinám průmyslu",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_povazska_bystrica/sluzby/archivne_pomocky/Dejiny%20priemyslu%20na%20Slovensku%2C%20supis%20archivnych%20dokumentov.pdf",
+      "type": "archive"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Košeca – historické jádro obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pravěké Košeci a nálezy z doby bronzové i Velké Moravy",
+          "text": "Území Košece bylo osídlené už v neolitu. Archeologické výzkumy doložily žárové pohřebiště lužické kultury z mladší doby bronzové, sídliště púchovské kultury i slovanské osídlení z velkomoravského období. Z pohřebiště pocházejí keramické nádoby a bronzové ozdoby, zejména jehlice. Další hroby byly odkryty v letech 1929 a 1931 při úpravách příkopu u cesty směrem na Zliechov. Jde o rozptýlené nálezové polohy v katastru obce, nikoli o jediný zpřístupněný areál."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: pravěké Hradiště a raně středověké osídlení",
+          "text": "Místní část Nozdrovice má vlastní archeologickou historii. V poloze Hradiště byly nalezeny keramické střepy púchovské kultury včetně grafitové keramiky, dále přesleny a závaží z tkalcovského stavu. Na jihozápadním a západním svahu pod Hradištěm se rozkládalo také rozsáhlé slovanské sídliště velkomoravského období. Nálezy ukazují, že okolí dnešních Nozdrovic bylo významnou sídelní oblastí v údolí Váhu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Středověké tržní městečko a sídlo košeckého panství",
+          "text": "Košeca je písemně doložena roku 1272. Roku 1397 se uvádí jako villa Kazza a v roce 1467 již jako městečko (oppidum), které sloužilo jako řemeslné, tržní a obchodní centrum panství. Postupně získalo právo pořádat čtyři výroční trhy a vykonávat menší soudní pravomoc. Po zániku hradu Košeca v letech 1670–1671 se správní centrum panství přesunulo do městečka. Samotný hrad však leží mimo toto PSČ, v sousedním Košeckém Podhradí."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel, renesanční hřbitovní brána a kaple staré Košece",
+          "text": "Historické jádro Košece uchovává soubor sakrálních památek. Kostel Nanebevzetí Panny Marie byl dokončen roku 1833 v barokně-klasicistním slohu; farní historická studie klade položení základního kamene do roku 1779, zatímco obecní stránka uvádí 1799, takže počátek stavby zůstává sporný. Výjimečná je pozdně renesanční brána starého hřbitova, datovaná přibližně kolem roku 1600, která sloužila také jako zvonice a zachovala sluneční hodiny s nápisem o východu živých a západu mrtvých. V obci stojí také barokní fara, kaple sv. Anny z roku 1750 a kaple sv. Barbory z roku 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: šlechtický hřbitov a kaple Panny Marie Pomocnice",
+          "text": "Nozdrovice, historická zemanská vesnice a dnešní místní část Košece, si uchovaly stopy někdejšího šlechtického prostředí. Zdejší zemani byli původně pohřbíváni v kryptě košeckého kostela, později na vlastním šlechtickém hřbitově; z něj se dochovaly dva náhrobní kameny. Nad vesnicí stojí kaple Panny Marie Pomocnice, postavená u kříže na místě staršího hřbitova. Tyto památky připomínají samostatnou historickou identitu Nozdrovic, které jsou dnes součástí obce Košeca."
+        },
+        {
+          "id": "fact_006",
+          "title": "Od dřevní destilace k výrobě barev: průmyslová tradice Košece",
+          "text": "Košecký průmyslový závod založil baron Adolf Schenk roku 1863 jako továrnu na suchou destilaci dřeva. Po změně vlastníků se provoz přeorientoval na výrobu zinkové běloby: průmyslové povolení získal roku 1909 a výroba se rozběhla kolem roku 1910. V roce 1939 zaměstnával závod přibližně 49 lidí. Po znárodnění a začlenění do národního podniku Barvy a laky Praha se v Košeci rozvinula výroba nátěrových hmot; od roku 2009 v tradici pokračuje společnost SLOVLAK Košeca. Jde o významnou vrstvu místní hospodářské historie, nikoli pouze o současnou firemní prezentaci."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca jako působiště slovenských literátů a duchovních",
+          "text": "Košeca byla po staletí významným farním a kulturním centrem Pováží. Ján Baltazár Magin zde působil jako farář v letech 1712–1717; později se proslavil latinsky psanou obranou trenčínské stolice a Slováků, vydanou v Púchově roku 1728. V letech 1846–1890 zde působil kněz a básník Jozef Emmanuel, zakládající člen Matice slovenskej a podporovatel slovenského písemnictví; zemřel v Košeci a je pohřben před zdejším kostelem. Starší tradici představuje také evangelický farář a dramatik Zachariáš Kalinka, který v Košeci zemřel roku 1656."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Košeca – historischer Ortskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prähistorisches Košeca: Bronzezeit und Großmähren",
+          "text": "Košeca war bereits in der Jungsteinzeit besiedelt. Funde belegen ein Brandgräberfeld der Lausitzer Kultur aus der jüngeren Bronzezeit, eine Siedlung der Púchov-Kultur und slawische Besiedlung aus großmährischer Zeit. Gefunden wurden Keramik und Bronzeschmuck, besonders Gewandnadeln. Weitere Gräber kamen 1929 und 1931 bei Arbeiten an der Straße nach Zliechov ans Licht. Es handelt sich um verstreute Fundstellen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: vorgeschichtliches Hradište und frühmittelalterliche Besiedlung",
+          "text": "Nozdrovice besitzt eine eigene archäologische Geschichte. Im Bereich Hradište fand man Keramik der Púchov-Kultur, darunter Graphitkeramik, sowie Spinnwirtel und Webstuhlgewichte. An den südwestlichen und westlichen Hängen lag eine ausgedehnte slawische Siedlung aus großmährischer Zeit. Die Funde zeigen die Bedeutung dieses Siedlungsraums im Waagtal."
+        },
+        {
+          "id": "fact_003",
+          "title": "Mittelalterlicher Marktort und Sitz der Herrschaft Košeca",
+          "text": "Košeca ist 1272 erstmals schriftlich belegt. 1397 erscheint der Ort als villa Kazza und 1467 bereits als Marktflecken (oppidum), Handwerks- und Handelszentrum der Herrschaft. Später erhielt er das Recht auf vier Jahrmärkte und eine begrenzte Gerichtsbarkeit. Nach der Zerstörung der Burg Košeca 1670–1671 verlagerte sich das Verwaltungszentrum in den Marktflecken. Die Burg selbst liegt außerhalb dieses Postleitzahlengebiets im benachbarten Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kirche, Renaissance-Friedhofstor und Kapellen des alten Košeca",
+          "text": "Die Kirche Mariä Himmelfahrt wurde 1833 im Barock-Klassizismus fertiggestellt. Eine Pfarrstudie datiert den Grundstein auf 1779, die Gemeinde nennt 1799; der Baubeginn bleibt umstritten. Das spät­renaissancezeitliche Tor des alten Friedhofs um 1600 diente auch als Glockenturm. Seine Sonnenuhren tragen eine Inschrift über den Aufgang der Lebenden und den Untergang der Toten. Hinzu kommen ein barockes Pfarrhaus, die Anna-Kapelle von 1750 und die Barbara-Kapelle von 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: Adelsfriedhof und Kapelle Maria, Hilfe der Christen",
+          "text": "Nozdrovice, heute ein Ortsteil von Košeca, bewahrt Spuren seiner früheren Adelsgesellschaft. Die Grundherren wurden zunächst in der Gruft der Kirche von Košeca und später auf einem eigenen Adelsfriedhof bestattet; zwei Grabsteine sind erhalten. Oberhalb des Dorfes steht die Kapelle Maria, Hilfe der Christen, neben einem Kreuz an der Stelle eines früheren Friedhofs."
+        },
+        {
+          "id": "fact_006",
+          "title": "Von der Holzdestillation zur Farbenproduktion: Košecas Industriegeschichte",
+          "text": "Das Werk in Košeca wurde 1863 von Baron Adolf Schenk als Fabrik zur trockenen Holzdestillation gegründet. Später wechselte es zur Herstellung von Zinkweiß: Die industrielle Genehmigung wurde 1909 erteilt, die Produktion begann um 1910. 1939 beschäftigte der Betrieb etwa 49 Menschen. Nach der Verstaatlichung entwickelte sich die Herstellung von Anstrichstoffen; seit 2009 setzt SLOVLAK Košeca diese Tradition fort."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca als Wirkungsstätte slowakischer Literaten und Geistlicher",
+          "text": "Ján Baltazár Magin wirkte von 1712 bis 1717 als Pfarrer in Košeca; später wurde er durch seine 1728 in Púchov veröffentlichte lateinische Verteidigung der Trenčíner Gespanschaft und der Slowaken bekannt. Von 1846 bis 1890 wirkte hier der Priester und Dichter Jozef Emmanuel, Gründungsmitglied der Matica slovenská. Er starb in Košeca und ist vor der Kirche begraben. Der evangelische Pfarrer und Dramatiker Zachariáš Kalinka starb 1656 ebenfalls hier."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Košeca – historic village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistoric Košeca: the Bronze Age and Great Moravia",
+          "text": "Košeca was inhabited as early as the Neolithic period. Finds document a Lusatian cremation cemetery from the Late Bronze Age, a Púchov-culture settlement and Slavic settlement from the Great Moravian period. Finds include pottery and bronze ornaments, especially dress pins. Further graves were uncovered in 1929 and 1931 beside the road to Zliechov. These are scattered archaeological findspots."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: prehistoric Hradište and early medieval settlement",
+          "text": "Nozdrovice has its own archaeological history. Finds from Hradište include Púchov-culture pottery, including graphite pottery, spindle whorls and loom weights. An extensive Slavic settlement from the Great Moravian period spread across the slopes below Hradište. The finds show that this was an important settlement zone in the Váh valley."
+        },
+        {
+          "id": "fact_003",
+          "title": "A medieval market town and seat of the Košeca estate",
+          "text": "Košeca is first documented in 1272. In 1397 it appears as villa Kazza and by 1467 it was a market town (oppidum), serving as the estate’s craft and trading centre. It later gained the right to hold four annual fairs and limited judicial authority. After Košeca Castle was demolished in 1670–1671, the estate’s administrative centre moved to the town. The castle itself lies outside this postcode area in neighbouring Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church, Renaissance cemetery gate and chapels of old Košeca",
+          "text": "The Church of the Assumption of the Virgin Mary was completed in 1833 in the Baroque-Classical style. A parish study dates its foundation stone to 1779, while the municipality gives 1799, so the start date is disputed. The late-Renaissance gate of the former cemetery, dating to around 1600, also served as a bell tower. Its sundials bear an inscription about sunrise for the living and sunset for the dead. Other monuments include a Baroque rectory, St Anne’s Chapel from 1750 and St Barbara’s Chapel from 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: the noble cemetery and Chapel of Mary Help of Christians",
+          "text": "Nozdrovice, now part of Košeca, preserves traces of its former noble society. Local landowners were first buried in the crypt of Košeca church and later in their own cemetery; two gravestones survive. Above the village stands the Chapel of Mary Help of Christians, beside a cross on the site of an earlier cemetery."
+        },
+        {
+          "id": "fact_006",
+          "title": "From wood distillation to paint production: Košeca’s industrial heritage",
+          "text": "The works in Košeca were founded in 1863 by Baron Adolf Schenk as a dry wood-distillation factory. It later switched to zinc white: the industrial licence was granted in 1909 and production began around 1910. In 1939 it employed about 49 people. After nationalisation, paint and coating production developed here; since 2009 SLOVLAK Košeca has continued the tradition."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca as a home of Slovak writers and clergy",
+          "text": "Ján Baltazár Magin served as a priest in Košeca from 1712 to 1717; he later became known for his Latin defence of the Trenčín County and the Slovaks, published in Púchov in 1728. From 1846 to 1890, priest and poet Jozef Emmanuel worked here. He was a founding member of Matica slovenská, died in Košeca and is buried in front of the church. Protestant pastor and playwright Zachariáš Kalinka also died here, in 1656."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Košeca – centro histórico del pueblo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La Košeca prehistórica: Edad del Bronce y Gran Moravia",
+          "text": "Košeca estuvo habitada ya en el Neolítico. Los hallazgos documentan una necrópolis de incineración de la cultura lusaciana de la Edad del Bronce reciente, un asentamiento de la cultura de Púchov y ocupación eslava de época de la Gran Moravia. Aparecieron cerámicas y adornos de bronce, especialmente agujas para la ropa. En 1929 y 1931 se descubrieron otras tumbas junto al camino hacia Zliechov. Son hallazgos arqueológicos dispersos."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: el Hradište prehistórico y el asentamiento altomedieval",
+          "text": "Nozdrovice posee su propia historia arqueológica. En Hradište se encontraron cerámicas de la cultura de Púchov, incluida cerámica de grafito, además de fusayolas y pesas de telar. Bajo Hradište se extendía un amplio asentamiento eslavo de época de la Gran Moravia. Los hallazgos muestran la importancia de esta zona en el valle del Váh."
+        },
+        {
+          "id": "fact_003",
+          "title": "Villa mercantil medieval y sede del señorío de Košeca",
+          "text": "Košeca aparece por primera vez en documentos en 1272. En 1397 figura como villa Kazza y en 1467 ya era una villa de mercado (oppidum), centro artesanal y comercial del señorío. Más tarde obtuvo el derecho a celebrar cuatro ferias anuales y una jurisdicción limitada. Tras la demolición del castillo en 1670–1671, el centro administrativo se trasladó a la villa. El castillo está fuera de esta zona postal, en Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia, puerta renacentista del cementerio y capillas de Košeca",
+          "text": "La iglesia de la Asunción de la Virgen María se terminó en 1833 en estilo barroco-clasicista. Un estudio parroquial fecha la primera piedra en 1779, mientras que la web municipal indica 1799; el inicio es discutido. La puerta tardorrenacentista del antiguo cementerio, hacia 1600, también sirvió como campanario. Conserva relojes de sol con una inscripción sobre el amanecer de los vivos y el ocaso de los muertos. También destacan la rectoría barroca, la capilla de Santa Ana de 1750 y la de Santa Bárbara de 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: cementerio nobiliario y capilla de María Auxiliadora",
+          "text": "Nozdrovice, hoy parte de Košeca, conserva huellas de su antigua sociedad nobiliaria. Los propietarios fueron enterrados primero en la cripta de la iglesia y después en su propio cementerio, del que sobreviven dos lápidas. Sobre el pueblo se encuentra la capilla de María Auxiliadora, junto a una cruz en el lugar de un antiguo cementerio."
+        },
+        {
+          "id": "fact_006",
+          "title": "De la destilación de madera a la fabricación de pinturas: industria de Košeca",
+          "text": "La fábrica fue fundada en 1863 por el barón Adolf Schenk para la destilación seca de madera. Más tarde pasó a producir blanco de zinc: obtuvo licencia industrial en 1909 y la producción comenzó hacia 1910. En 1939 empleaba a unas 49 personas. Tras la nacionalización se desarrolló la fabricación de pinturas; desde 2009 SLOVLAK Košeca continúa esta tradición."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca, lugar de actividad de escritores y religiosos eslovacos",
+          "text": "Ján Baltazár Magin fue sacerdote en Košeca entre 1712 y 1717; más tarde destacó por su defensa en latín del condado de Trenčín y de los eslovacos, publicada en Púchov en 1728. Entre 1846 y 1890 trabajó aquí el sacerdote y poeta Jozef Emmanuel, miembro fundador de Matica slovenská. Murió en Košeca y está enterrado delante de la iglesia. El pastor protestante y dramaturgo Zachariáš Kalinka también murió aquí, en 1656."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Košeca – centre historique du village",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košeca préhistorique : âge du bronze et Grande-Moravie",
+          "text": "Košeca était habitée dès le Néolithique. Les découvertes attestent une nécropole à incinération de la culture lusacienne de l’âge du bronze récent, un habitat de la culture de Púchov et une occupation slave de l’époque de la Grande-Moravie. On a trouvé des céramiques et des parures en bronze, notamment des épingles. D’autres tombes furent découvertes en 1929 et 1931 près de la route de Zliechov. Il s’agit de découvertes dispersées."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice : le Hradište préhistorique et l’habitat du haut Moyen Âge",
+          "text": "Nozdrovice possède sa propre histoire archéologique. Dans le secteur de Hradište, on a découvert des céramiques de la culture de Púchov, notamment graphitées, ainsi que des fusaïoles et des poids de métier à tisser. Un vaste habitat slave de l’époque de la Grande-Moravie s’étendait sous Hradište. Ces découvertes montrent l’importance de cette zone dans la vallée du Váh."
+        },
+        {
+          "id": "fact_003",
+          "title": "Bourg marchand médiéval et siège de la seigneurie de Košeca",
+          "text": "Košeca est attestée pour la première fois en 1272. En 1397, elle apparaît comme villa Kazza et, en 1467, comme bourg (oppidum), centre artisanal et commercial de la seigneurie. Elle obtint ensuite le droit d’organiser quatre foires annuelles et une juridiction limitée. Après la démolition du château en 1670–1671, le centre administratif fut transféré dans le bourg. Le château se trouve hors de cette zone postale, à Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église, porte Renaissance de l’ancien cimetière et chapelles de Košeca",
+          "text": "L’église de l’Assomption fut achevée en 1833 dans le style baroque-classique. Une étude paroissiale date la première pierre de 1779, tandis que la commune indique 1799 ; la date de début reste discutée. La porte Renaissance tardive de l’ancien cimetière, vers 1600, servait aussi de clocher. Ses cadrans solaires portent une inscription sur le lever du soleil pour les vivants et son coucher pour les morts. On trouve aussi un presbytère baroque, la chapelle Sainte-Anne de 1750 et celle de Sainte-Barbe de 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice : cimetière nobiliaire et chapelle Marie Auxiliatrice",
+          "text": "Nozdrovice, aujourd’hui quartier de Košeca, conserve des traces de son ancienne noblesse. Les propriétaires furent d’abord enterrés dans la crypte de l’église de Košeca, puis dans leur propre cimetière, dont deux pierres tombales subsistent. Au-dessus du village se trouve la chapelle Marie Auxiliatrice, près d’une croix à l’emplacement d’un ancien cimetière."
+        },
+        {
+          "id": "fact_006",
+          "title": "De la distillation du bois à la fabrication de peintures : l’industrie de Košeca",
+          "text": "L’usine fut fondée en 1863 par le baron Adolf Schenk pour la distillation sèche du bois. Elle se réorienta ensuite vers le blanc de zinc : l’autorisation fut accordée en 1909 et la production commença vers 1910. En 1939, elle employait environ 49 personnes. Après la nationalisation, la fabrication de peintures se développa ; depuis 2009, SLOVLAK Košeca poursuit cette tradition."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca, lieu d’activité de lettrés et de religieux slovaques",
+          "text": "Ján Baltazár Magin exerça comme prêtre à Košeca de 1712 à 1717 ; il devint ensuite connu pour sa défense latine du comitat de Trenčín et des Slovaques, publiée à Púchov en 1728. De 1846 à 1890, le prêtre et poète Jozef Emmanuel y exerça. Membre fondateur de Matica slovenská, il mourut à Košeca et est enterré devant l’église. Le pasteur protestant Zachariáš Kalinka mourut également à Košeca en 1656."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Košeca – centro storico del paese",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Košeca preistorica: età del bronzo e Grande Moravia",
+          "text": "Košeca era abitata già nel Neolitico. I reperti documentano una necropoli a cremazione della cultura lusaziana della tarda età del bronzo, un insediamento della cultura di Púchov e una presenza slava dell’epoca della Grande Moravia. Sono state trovate ceramiche e decorazioni in bronzo, soprattutto spilloni. Altre tombe furono scoperte nel 1929 e nel 1931 vicino alla strada verso Zliechov. Si tratta di ritrovamenti sparsi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: il Hradište preistorico e l’insediamento altomedievale",
+          "text": "Nozdrovice possiede una propria storia archeologica. Nell’area di Hradište sono stati rinvenuti frammenti della cultura di Púchov, compresa ceramica grafitata, oltre a fusaiole e pesi da telaio. Sotto Hradište si estendeva anche un vasto insediamento slavo dell’epoca della Grande Moravia. I reperti mostrano l’importanza di questa zona nella valle del Váh."
+        },
+        {
+          "id": "fact_003",
+          "title": "Borgo mercantile medievale e sede della signoria di Košeca",
+          "text": "Košeca è documentata per la prima volta nel 1272. Nel 1397 compare come villa Kazza e nel 1467 è già un borgo (oppidum), centro artigianale e commerciale della signoria. In seguito ottenne il diritto di organizzare quattro fiere annuali e una giurisdizione limitata. Dopo la demolizione del castello nel 1670–1671, il centro amministrativo fu trasferito nel borgo. Il castello si trova fuori da questa zona postale, nella vicina Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa, porta rinascimentale del vecchio cimitero e cappelle di Košeca",
+          "text": "La chiesa dell’Assunzione fu completata nel 1833 in stile barocco-classicista. Uno studio parrocchiale data la prima pietra al 1779, mentre il sito comunale indica il 1799: la data d’inizio è controversa. La porta tardorinascimentale del vecchio cimitero, intorno al 1600, fungeva anche da campanile. Conserva meridiane con un’iscrizione sull’alba dei vivi e il tramonto dei morti. Vi sono inoltre una canonica barocca, la cappella di Sant’Anna del 1750 e quella di Santa Barbara del 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: cimitero nobiliare e cappella di Maria Ausiliatrice",
+          "text": "Nozdrovice, oggi parte di Košeca, conserva tracce della sua antica nobiltà. I proprietari furono sepolti prima nella cripta della chiesa e poi in un proprio cimitero, del quale restano due lapidi. Sopra il villaggio sorge la cappella di Maria Ausiliatrice, accanto a una croce sul luogo di un antico cimitero."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dalla distillazione del legno alla produzione di vernici: l’industria di Košeca",
+          "text": "Lo stabilimento fu fondato nel 1863 dal barone Adolf Schenk per la distillazione secca del legno. In seguito passò alla produzione di bianco di zinco: l’autorizzazione fu concessa nel 1909 e la produzione iniziò intorno al 1910. Nel 1939 occupava circa 49 persone. Dopo la nazionalizzazione si sviluppò la produzione di vernici; dal 2009 SLOVLAK Košeca continua questa tradizione."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca, luogo di attività di letterati e religiosi slovacchi",
+          "text": "Ján Baltazár Magin fu parroco a Košeca dal 1712 al 1717; in seguito divenne noto per la sua difesa in latino della contea di Trenčín e degli slovacchi, pubblicata a Púchov nel 1728. Dal 1846 al 1890 vi operò il sacerdote e poeta Jozef Emmanuel, membro fondatore della Matica slovenská. Morì a Košeca ed è sepolto davanti alla chiesa. Anche il pastore protestante Zachariáš Kalinka morì a Košeca nel 1656."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Košeca – historisch dorpscentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistorisch Košeca: bronstijd en Groot-Moravië",
+          "text": "Košeca was al in het neolithicum bewoond. Vondsten tonen een crematiebegraafplaats van de Lausitzcultuur uit de late bronstijd, een nederzetting van de Púchovcultuur en Slavische bewoning uit de tijd van Groot-Moravië. Er zijn aardewerk en bronzen sieraden gevonden, vooral kledingnaalden. In 1929 en 1931 kwamen meer graven aan het licht langs de weg naar Zliechov. Het gaat om verspreide vindplaatsen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Nozdrovice: het prehistorische Hradište en de vroegmiddeleeuwse nederzetting",
+          "text": "Nozdrovice heeft een eigen archeologische geschiedenis. In Hradište zijn scherven van de Púchovcultuur gevonden, waaronder grafietkeramiek, evenals spinklosjes en weefgewichten. Onder Hradište lag ook een grote Slavische nederzetting uit de tijd van Groot-Moravië. De vondsten tonen het belang van dit gebied in het Váh-dal."
+        },
+        {
+          "id": "fact_003",
+          "title": "Een middeleeuws marktstadje en zetel van het domein Košeca",
+          "text": "Košeca wordt voor het eerst vermeld in 1272. In 1397 verschijnt de plaats als villa Kazza en in 1467 al als marktstadje (oppidum), een ambachts- en handelscentrum van het domein. Later kreeg het het recht om vier jaarmarkten te houden en beperkte rechtspraak uit te oefenen. Na de afbraak van het kasteel in 1670–1671 verhuisde het bestuurlijke centrum naar het stadje. Het kasteel ligt buiten dit postcodegebied, in Košecké Podhradie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kerk, renaissancistische begraafplaatspoort en kapellen van oud Košeca",
+          "text": "De Kerk van Maria-Tenhemelopneming werd in 1833 voltooid in barok-classicistische stijl. Een parochiestudie dateert de eerste steen op 1779, terwijl de gemeente 1799 noemt; de startdatum is omstreden. De laatrenaissancistische poort van de oude begraafplaats, rond 1600, diende ook als klokkentoren. De zonnewijzers dragen een inscriptie over zonsopgang voor de levenden en zonsondergang voor de doden. Andere monumenten zijn een barokke pastorie, de Sint-Annkapel uit 1750 en de Sint-Barbarakapel uit 1883."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nozdrovice: adellijke begraafplaats en kapel van Maria Hulp der Christenen",
+          "text": "Nozdrovice, tegenwoordig deel van Košeca, bewaart sporen van zijn vroegere adel. De grondbezitters werden eerst begraven in de crypte van de kerk en later op hun eigen begraafplaats; twee grafstenen zijn bewaard. Boven het dorp staat de kapel van Maria Hulp der Christenen, naast een kruis op de plek van een vroegere begraafplaats."
+        },
+        {
+          "id": "fact_006",
+          "title": "Van houtdestillatie tot verfproductie: de industriegeschiedenis van Košeca",
+          "text": "De fabriek werd in 1863 gesticht door baron Adolf Schenk voor droge houtdestillatie. Later schakelde zij over op zinkwit: de vergunning werd in 1909 verleend en de productie begon rond 1910. In 1939 werkten er ongeveer 49 mensen. Na de nationalisatie ontwikkelde zich de productie van verf en coatings; sinds 2009 zet SLOVLAK Košeca deze traditie voort."
+        },
+        {
+          "id": "fact_007",
+          "title": "Košeca als werkplek van Slowaakse schrijvers en geestelijken",
+          "text": "Ján Baltazár Magin was van 1712 tot 1717 priester in Košeca; later werd hij bekend door zijn Latijnse verdediging van het district Trenčín en de Slowaken, gepubliceerd in Púchov in 1728. Van 1846 tot 1890 werkte hier priester en dichter Jozef Emmanuel, medeoprichter van Matica slovenská. Hij stierf in Košeca en ligt begraven voor de kerk. Ook de protestantse predikant Zachariáš Kalinka overleed hier in 1656."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
