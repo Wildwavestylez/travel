@@ -367,6 +367,50 @@
         "source": "https://zilina.oma.sk/u/j-m-hurbana/34"
       },
       "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_017",
+      "title": "Peter Sagan – žilinský rodák, který třikrát ovládl světovou silniční cyklistiku",
+      "text": "Peter Sagan se narodil 26. ledna 1990 v Žilině a vyrůstal v městské části Bôrik. K cyklistice se dostal v dětství; jedny z prvních závodů absolvoval v žilinském lesoparku, kde spolu s bratrem Jurajem vyhrál svou věkovou kategorii. Později se stal jednou z nejvýraznějších osobností světové silniční cyklistiky: v letech 2015, 2016 a 2017 získal tři tituly mistra světa v řadě a sedmkrát vyhrál bodovací soutěž Tour de France. Jeho úspěchy propojily Žilinu s mezinárodní cyklistikou a navázaly na místní začátky v Cyklistickém spolku Žilina.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.olympic.sk/sportovec/peter-sagan",
+        "https://www.krajskakniznicazilina.sk/menu/sluz/region/prezentacie/REGosobnosti.pdf",
+        "https://www.petersagan.com/peter-sagan/"
+      ],
+      "location": {
+        "name": "Lesopark Chrasť – orientační bod u Preles, místo raných závodů",
+        "address": "Lesopark Chrasť, Žilina, Slovensko",
+        "lat": 49.1986,
+        "lon": 18.7575,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/n354648378"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_018",
+      "title": "Peter Tvrdý – žilinský filolog a autor Slovenského frazeologického slovníku",
+      "text": "Peter Tvrdý (1855–1935), rodák ze Žiliny, patřil k významným slovenským filologům, lexikografům, překladatelům a pedagogům. Věnoval se gramatice, pravopisu, frazeologii i praktickým cizojazyčným slovníkům; vrcholem jeho lexikografické práce se stal Slovenský frazeologický slovník. Jeho dílo přispělo k systematickému poznávání a rozvoji spisovné slovenštiny. V roce 2020 mu byla na Lombardiniho domě na ulici Horný val 9 odhalena pamětní deska, která připomíná jeho přínos slovenské jazykovědě.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://zilina.sk/zilina-si-pripomina-vyznamneho-zilincana-petra-tvrdeho/",
+        "https://www.culture.gov.sk/sk/aktualita/90-vyrocie-umrtia-petra-tvrdeho-vyznamneho-jazykovedca",
+        "https://granty.zilina.sk/wp-content/uploads/2021/03/Peter-Tvrd%C3%BD-jazykovedec-knihovn%C3%ADk-prekladate%C4%BE-lexikograf-pedag%C3%B3g.pdf"
+      ],
+      "location": {
+        "name": "Lombardiniho dom – pamětní deska Petra Tvrdého",
+        "address": "Horný val 9, Žilina, Slovensko",
+        "lat": 49.2235768,
+        "lon": 18.7412561,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.oma.sk/n10902186777"
+      },
+      "map_category": "personality"
     }
   ],
   "photo": null,
@@ -684,6 +728,36 @@
       "title": "Vojenský historický ústav – Žilinská dohoda 6. októbra 1938",
       "url": "https://www.vhu.sk/8535-sk/pisceka-barbara-zilinska-dohoda-6-oktobra-1938/",
       "type": "specialist"
+    },
+    {
+      "title": "Slovenský olympijský a športový výbor – Peter Sagan",
+      "url": "https://www.olympic.sk/sportovec/peter-sagan",
+      "type": "official"
+    },
+    {
+      "title": "Krajská knižnica v Žiline – regionálne osobnosti, Peter Sagan",
+      "url": "https://www.krajskakniznicazilina.sk/menu/sluz/region/prezentacie/REGosobnosti.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Peter Sagan – oficiálna biografia",
+      "url": "https://www.petersagan.com/peter-sagan/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Žilina – Žilina si pripomína významného Žilinčana Petra Tvrdého",
+      "url": "https://zilina.sk/zilina-si-pripomina-vyznamneho-zilincana-petra-tvrdeho/",
+      "type": "official"
+    },
+    {
+      "title": "Ministerstvo kultúry SR – 90. výročie úmrtia Petra Tvrdého",
+      "url": "https://www.culture.gov.sk/sk/aktualita/90-vyrocie-umrtia-petra-tvrdeho-vyznamneho-jazykovedca",
+      "type": "official"
+    },
+    {
+      "title": "Krajská knižnica v Žiline – Peter Tvrdý, jazykovedec, knihovník, prekladateľ a lexikograf",
+      "url": "https://granty.zilina.sk/wp-content/uploads/2021/03/Peter-Tvrd%C3%BD-jazykovedec-knihovn%C3%ADk-prekladate%C4%BE-lexikograf-pedag%C3%B3g.pdf",
+      "type": "regional"
     }
   ],
   "translations": {
@@ -769,6 +843,16 @@
           "id": "fact_016",
           "title": "Žilinská dohoda z 6. října 1938 – vyhlášení autonomie Slovenska",
           "text": "Dne 6. října 1938 se v Katolickém domě v Žilině sešli představitelé Hlinkovy slovenské ľudové strany a dalších slovenských politických stran a přijali Žilinskou dohodu, která požadovala autonomní postavení Slovenska v rámci Československé republiky. Jozef Tiso poté vyhlásil autonomii z balkonu této budovy. Nešlo ještě o vyhlášení samostatného státu: autonomii následně upravil ústavní zákon přijatý v listopadu 1938. Událost patří k zásadním mezníkům slovenských politických dějin, zároveň však musí být chápána v kontextu mnichovské krize, tehdejšího autoritářského nacionalismu a následného omezování politické plurality."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – žilinský rodák, který třikrát ovládl světovou silniční cyklistiku",
+          "text": "Peter Sagan se narodil 26. ledna 1990 v Žilině a vyrůstal v městské části Bôrik. K cyklistice se dostal v dětství; jedny z prvních závodů absolvoval v žilinském lesoparku, kde spolu s bratrem Jurajem vyhrál svou věkovou kategorii. Později se stal jednou z nejvýraznějších osobností světové silniční cyklistiky: v letech 2015, 2016 a 2017 získal tři tituly mistra světa v řadě a sedmkrát vyhrál bodovací soutěž Tour de France. Jeho úspěchy propojily Žilinu s mezinárodní cyklistikou a navázaly na místní začátky v Cyklistickém spolku Žilina."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – žilinský filolog a autor Slovenského frazeologického slovníku",
+          "text": "Peter Tvrdý (1855–1935), rodák ze Žiliny, patřil k významným slovenským filologům, lexikografům, překladatelům a pedagogům. Věnoval se gramatice, pravopisu, frazeologii i praktickým cizojazyčným slovníkům; vrcholem jeho lexikografické práce se stal Slovenský frazeologický slovník. Jeho dílo přispělo k systematickému poznávání a rozvoji spisovné slovenštiny. V roce 2020 mu byla na Lombardiniho domě na ulici Horný val 9 odhalena pamětní deska, která připomíná jeho přínos slovenské jazykovědě."
         }
       ]
     },
@@ -854,6 +938,16 @@
           "id": "fact_016",
           "title": "Das Žilinaer Abkommen vom 6. Oktober 1938 – die Autonomieerklärung der Slowakei",
           "text": "Am 6. Oktober 1938 kamen im Katholischen Haus in Žilina Vertreter der Hlinka-Slowakischen Volkspartei und weiterer slowakischer Parteien zusammen. Sie verabschiedeten das Žilinaer Abkommen, das einen autonomen Status der Slowakei innerhalb der Tschechoslowakischen Republik forderte. Anschließend verkündete Jozef Tiso die Autonomie vom Balkon des Gebäudes. Es handelte sich noch nicht um die Ausrufung eines unabhängigen Staates: Die Autonomie wurde später durch ein im November 1938 verabschiedetes Verfassungsgesetz geregelt. Das Ereignis ist ein wichtiger Wendepunkt der slowakischen Politikgeschichte und muss zugleich im Kontext der Münchner Krise, des damaligen autoritären Nationalismus und der anschließenden Einschränkung des politischen Pluralismus verstanden werden."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – der aus Žilina stammende Radprofi, der dreimal Straßenweltmeister wurde",
+          "text": "Peter Sagan wurde am 26. Januar 1990 in Žilina geboren und wuchs im Stadtteil Bôrik auf. Zum Radsport fand er bereits als Kind; einige seiner ersten Rennen bestritt er im Stadtwaldpark von Žilina, wo er gemeinsam mit seinem Bruder Juraj seine Altersklasse gewann. Später wurde er zu einer der herausragenden Persönlichkeiten des internationalen Straßenradsports: 2015, 2016 und 2017 gewann er dreimal in Folge die Straßenweltmeisterschaft und siebenmal die Punktewertung der Tour de France. Seine Erfolge verbanden Žilina mit dem internationalen Radsport und knüpften an seine Anfänge beim Radsportverein Cyklistický spolok Žilina an."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – Philologe aus Žilina und Verfasser des Slowakischen phraseologischen Wörterbuchs",
+          "text": "Peter Tvrdý (1855–1935), geboren in Žilina, war ein bedeutender slowakischer Philologe, Lexikograf, Übersetzer und Pädagoge. Er beschäftigte sich mit Grammatik, Rechtschreibung, Phraseologie und praktischen Fremdwörterbüchern; als Höhepunkt seiner lexikografischen Arbeit gilt das Slowakische phraseologische Wörterbuch. Seine Werke trugen zur systematischen Erforschung und Entwicklung der slowakischen Schriftsprache bei. 2020 wurde an der Fassade des Lombardini-Hauses in der Horný-val-Straße 9 eine Gedenktafel zu seinen Ehren enthüllt, die an seinen Beitrag zur slowakischen Sprachwissenschaft erinnert."
         }
       ]
     },
@@ -939,6 +1033,16 @@
           "id": "fact_016",
           "title": "The Žilina Agreement of 6 October 1938 – the declaration of Slovak autonomy",
           "text": "On 6 October 1938, representatives of the Hlinka's Slovak People's Party and other Slovak political parties met at the Catholic House in Žilina. They adopted the Žilina Agreement, which called for Slovakia to have autonomous status within the Czechoslovak Republic. Jozef Tiso then proclaimed autonomy from the building's balcony. This was not yet a declaration of an independent state: autonomy was subsequently regulated by a constitutional act adopted in November 1938. The event was a major turning point in Slovak political history, but it must also be understood in the context of the Munich crisis, the authoritarian nationalism of the period and the subsequent restriction of political pluralism."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – the Žilina-born cyclist who won the road world title three times",
+          "text": "Peter Sagan was born in Žilina on 26 January 1990 and grew up in the city's Bôrik district. He took up cycling as a child; some of his first races were held in Žilina's forest park, where he won his age category alongside his brother Juraj. He later became one of the leading figures in international road cycling: he won three consecutive road world titles in 2015, 2016 and 2017, and the Tour de France points classification seven times. His achievements connected Žilina with international cycling and grew out of his early involvement with the local Cyklistický spolok Žilina cycling club."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – Žilina-born philologist and author of the Slovak Phraseological Dictionary",
+          "text": "Peter Tvrdý (1855–1935), born in Žilina, was an important Slovak philologist, lexicographer, translator and educator. His work covered grammar, spelling, phraseology and practical foreign-language dictionaries; the culmination of his lexicographic work was the Slovak Phraseological Dictionary. His scholarship contributed to the systematic study and development of written Slovak. In 2020, a commemorative plaque honouring him was unveiled on the Lombardini House at 9 Horný val, recalling his contribution to Slovak linguistics."
         }
       ]
     },
@@ -1024,6 +1128,16 @@
           "id": "fact_016",
           "title": "El Acuerdo de Žilina del 6 de octubre de 1938: la declaración de autonomía de Eslovaquia",
           "text": "El 6 de octubre de 1938, representantes del Partido Popular Eslovaco de Hlinka y de otros partidos políticos eslovacos se reunieron en la Casa Católica de Žilina. Allí aprobaron el Acuerdo de Žilina, que reclamaba un estatuto autónomo para Eslovaquia dentro de la República Checoslovaca. Después, Jozef Tiso proclamó la autonomía desde el balcón del edificio. No se trató todavía de la proclamación de un Estado independiente: la autonomía fue regulada posteriormente mediante una ley constitucional aprobada en noviembre de 1938. El acontecimiento fue un hito importante de la historia política eslovaca, pero también debe entenderse en el contexto de la crisis de Múnich, del nacionalismo autoritario de la época y de la posterior restricción del pluralismo político."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan: el ciclista nacido en Žilina que fue tres veces campeón mundial en ruta",
+          "text": "Peter Sagan nació en Žilina el 26 de enero de 1990 y creció en el barrio de Bôrik. Comenzó a practicar ciclismo durante la infancia; algunas de sus primeras carreras tuvieron lugar en el parque forestal de Žilina, donde ganó su categoría de edad junto con su hermano Juraj. Más tarde se convirtió en una de las grandes figuras del ciclismo internacional en ruta: ganó tres campeonatos mundiales consecutivos en 2015, 2016 y 2017, y conquistó siete veces la clasificación por puntos del Tour de Francia. Sus éxitos vincularon Žilina con el ciclismo internacional y tuvieron su origen en sus primeros pasos en el club local Cyklistický spolok Žilina."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý: filólogo nacido en Žilina y autor del Diccionario fraseológico eslovaco",
+          "text": "Peter Tvrdý (1855–1935), nacido en Žilina, fue un destacado filólogo, lexicógrafo, traductor y pedagogo eslovaco. Se dedicó a la gramática, la ortografía, la fraseología y los diccionarios prácticos de lenguas extranjeras; la culminación de su labor lexicográfica fue el Diccionario fraseológico eslovaco. Su trabajo contribuyó al estudio sistemático y al desarrollo de la lengua eslovaca escrita. En 2020 se inauguró una placa conmemorativa en la Casa Lombardini, en Horný val 9, para recordar su aportación a la lingüística eslovaca."
         }
       ]
     },
@@ -1109,6 +1223,16 @@
           "id": "fact_016",
           "title": "L’accord de Žilina du 6 octobre 1938 – la déclaration de l’autonomie slovaque",
           "text": "Le 6 octobre 1938, des représentants du Parti populaire slovaque de Hlinka et d’autres partis politiques slovaques se réunirent à la Maison catholique de Žilina. Ils adoptèrent l’accord de Žilina, qui réclamait un statut autonome pour la Slovaquie au sein de la République tchécoslovaque. Jozef Tiso proclama ensuite l’autonomie depuis le balcon du bâtiment. Il ne s’agissait pas encore de la proclamation d’un État indépendant : l’autonomie fut ensuite encadrée par une loi constitutionnelle adoptée en novembre 1938. Cet événement constitue un tournant majeur de l’histoire politique slovaque, mais doit aussi être replacé dans le contexte de la crise de Munich, du nationalisme autoritaire de l’époque et de la restriction ultérieure du pluralisme politique."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – le cycliste né à Žilina, trois fois champion du monde sur route",
+          "text": "Peter Sagan est né à Žilina le 26 janvier 1990 et a grandi dans le quartier de Bôrik. Il a découvert le cyclisme pendant son enfance ; certaines de ses premières courses ont eu lieu dans le parc forestier de Žilina, où il a remporté sa catégorie d’âge avec son frère Juraj. Il est ensuite devenu l’une des grandes figures du cyclisme international sur route : il a remporté trois titres mondiaux consécutifs en 2015, 2016 et 2017, ainsi que le classement par points du Tour de France à sept reprises. Ses succès ont associé Žilina au cyclisme international et prolongé ses débuts au sein du club local Cyklistický spolok Žilina."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – philologue né à Žilina et auteur du Dictionnaire phraséologique slovaque",
+          "text": "Peter Tvrdý (1855–1935), né à Žilina, fut un philologue, lexicographe, traducteur et pédagogue slovaque de premier plan. Ses travaux portaient sur la grammaire, l’orthographe, la phraséologie et les dictionnaires pratiques de langues étrangères ; le Dictionnaire phraséologique slovaque constitue l’aboutissement de son travail lexicographique. Ses recherches ont contribué à l’étude systématique et au développement de la langue slovaque écrite. En 2020, une plaque commémorative lui a été dédiée sur la maison Lombardini, au 9 Horný val, en hommage à sa contribution à la linguistique slovaque."
         }
       ]
     },
@@ -1194,6 +1318,16 @@
           "id": "fact_016",
           "title": "L’Accordo di Žilina del 6 ottobre 1938 – la dichiarazione dell’autonomia slovacca",
           "text": "Il 6 ottobre 1938, rappresentanti del Partito Popolare Slovacco di Hlinka e di altri partiti politici slovacchi si riunirono nella Casa Cattolica di Žilina. Adottarono l’Accordo di Žilina, che chiedeva uno status autonomo per la Slovacchia all’interno della Repubblica cecoslovacca. In seguito Jozef Tiso proclamò l’autonomia dal balcone dell’edificio. Non si trattò ancora della proclamazione di uno Stato indipendente: l’autonomia fu disciplinata successivamente da una legge costituzionale approvata nel novembre 1938. L’evento fu una svolta importante nella storia politica slovacca, ma va compreso anche nel contesto della crisi di Monaco, del nazionalismo autoritario dell’epoca e della successiva limitazione del pluralismo politico."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – il ciclista nato a Žilina, tre volte campione del mondo su strada",
+          "text": "Peter Sagan nacque a Žilina il 26 gennaio 1990 e crebbe nel quartiere cittadino di Bôrik. Si avvicinò al ciclismo da bambino; alcune delle sue prime gare si svolsero nel parco forestale di Žilina, dove vinse la propria categoria insieme al fratello Juraj. In seguito diventò una delle figure di spicco del ciclismo internazionale su strada: conquistò tre titoli mondiali consecutivi nel 2015, 2016 e 2017 e vinse sette volte la classifica a punti del Tour de France. I suoi successi hanno legato Žilina al ciclismo internazionale e sono nati dalle sue prime esperienze nel club locale Cyklistický spolok Žilina."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – filologo nato a Žilina e autore del Dizionario fraseologico slovacco",
+          "text": "Peter Tvrdý (1855–1935), nato a Žilina, fu un importante filologo, lessicografo, traduttore e pedagogo slovacco. Si occupò di grammatica, ortografia, fraseologia e dizionari pratici di lingue straniere; il Dizionario fraseologico slovacco rappresenta il culmine del suo lavoro lessicografico. I suoi studi contribuirono alla conoscenza sistematica e allo sviluppo della lingua slovacca scritta. Nel 2020 una targa commemorativa in suo onore è stata inaugurata sulla Casa Lombardini, al numero 9 di Horný val, per ricordare il suo contributo alla linguistica slovacca."
         }
       ]
     },
@@ -1279,6 +1413,16 @@
           "id": "fact_016",
           "title": "Het Akkoord van Žilina van 6 oktober 1938 – de verklaring van de Slowaakse autonomie",
           "text": "Op 6 oktober 1938 kwamen vertegenwoordigers van de Slowaakse Volkspartij van Hlinka en andere Slowaakse politieke partijen bijeen in het Katholieke Huis in Žilina. Zij namen het Akkoord van Žilina aan, waarin werd aangedrongen op een autonome status voor Slowakije binnen de Tsjechoslowaakse Republiek. Vervolgens riep Jozef Tiso de autonomie uit vanaf het balkon van het gebouw. Dit was nog geen uitroeping van een onafhankelijke staat: de autonomie werd later geregeld in een grondwettelijke wet die in november 1938 werd aangenomen. De gebeurtenis was een belangrijk keerpunt in de Slowaakse politieke geschiedenis, maar moet ook worden begrepen tegen de achtergrond van de crisis van München, het autoritaire nationalisme van die tijd en de daaropvolgende beperking van het politieke pluralisme."
+        },
+        {
+          "id": "fact_017",
+          "title": "Peter Sagan – de in Žilina geboren wielrenner die drie keer wereldkampioen op de weg werd",
+          "text": "Peter Sagan werd op 26 januari 1990 geboren in Žilina en groeide op in de wijk Bôrik. Als kind begon hij met wielrennen; enkele van zijn eerste wedstrijden vonden plaats in het stadsbos van Žilina, waar hij samen met zijn broer Juraj zijn leeftijdscategorie won. Later groeide hij uit tot een van de toonaangevende figuren in het internationale wegwielrennen: hij werd in 2015, 2016 en 2017 drie keer op rij wereldkampioen op de weg en won zeven keer het puntenklassement van de Tour de France. Zijn successen verbonden Žilina met het internationale wielrennen en kwamen voort uit zijn eerste stappen bij de plaatselijke wielerclub Cyklistický spolok Žilina."
+        },
+        {
+          "id": "fact_018",
+          "title": "Peter Tvrdý – in Žilina geboren taalkundige en auteur van het Slowaakse fraseologische woordenboek",
+          "text": "Peter Tvrdý (1855–1935), geboren in Žilina, was een vooraanstaand Slowaaks taalkundige, lexicograaf, vertaler en docent. Hij hield zich bezig met grammatica, spelling, fraseologie en praktische woordenboeken voor vreemde talen; zijn lexicografische hoofdwerk was het Slowaakse fraseologische woordenboek. Zijn werk droeg bij aan de systematische bestudering en ontwikkeling van het geschreven Slowaaks. In 2020 werd ter nagedachtenis aan hem een gedenkplaat onthuld op het Lombardinihuis aan Horný val 9, als herinnering aan zijn bijdrage aan de Slowaakse taalkunde."
         }
       ]
     }
