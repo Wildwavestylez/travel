@@ -3,7 +3,7 @@
 - **Kanonické ID:** `CZ-26101-26401`
 - **Rozsah:** přesně 36 geografických PSČ podle `data/czechia/sequence.json`
 - **Datum zahájení:** 2026-11-21
-- **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.0
+- **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.1
 - **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`
 - **Stav:** `PASS — UZAVŘENO S DOKUMENTOVANÝMI VÝJIMKAMI` — všech 36 PSČ a 271 faktů prošlo kontrolami; všechny fakty mají mapové souřadnice. Tři neadresní lokality s nejednoznačnou vazbou na PSČ byly uzavřeny ponecháním dosavadního jediného primárního PSČ a doložených souřadnic; nejde o tvrzení, že byla určena hranice PSČ. Starší src_* aliasy zůstávají beze změny jako historické reference, protože původní mapování nebylo dohledáno; jejich nepřepisování je vědomě přijatá výjimka, nikoli blokace auditu.
 
@@ -635,3 +635,41 @@ Uživatel rozhodl, že nejednoznačnost, zda neadresní lokalita náleží pod P
 - Správní údaje poštovních sídel, kategorie, priority, mapové kategorie, struktura, duplicity, délky českých textů, překlady a přítomnost souřadnic jsou uzavřeny podle předchozích kontrol.
 
 **Konečný výsledek: PASS — AUDIT UZAVŘEN S DOKUMENTOVANÝMI VÝJIMKAMI.** Tři nejednoznačná poštovní přiřazení a starší aliasy nejsou blokující vady. Neprovádí se žádná změna dat faktů ani PSČ v Supabase; tento krok aktualizuje pouze auditní dokumentaci. Bez publikace, změny data_version, V5, zálohy, read-only locku nebo migrace do Neonu.
+
+
+## Publikace V5 a ověřená pracovní záloha — 2026-11-22
+
+### Publikace Supabase
+
+- Přesný auditovaný rozsah **36/36 PSČ** byl nastaven na `data_version=5` a `status='published'`.
+- Následný cílený read-back potvrdil všech 36 očekávaných kódů i jejich stabilní ID **8719–8754**; 36/36 má V5 + published, žádná výjimka.
+- Obsah faktů, překlady, pořadí, ID a mapové polohy se publikací neměnily.
+- Původní placeholder 26232 byl publikován v souladu s výslovným požadavkem na celý auditovaný úsek.
+
+### Zálohovací infrastruktura a pracovní vlna
+
+- V Supabase byly vytvořeny dvě nové provozní tabulky: `public.backup_work_waves` a `public.backup_snapshots`. Obě mají RLS zapnuté, přístup pouze pro `service_role`; veřejná a authenticated oprávnění byla odebrána. Přidán pouze jeden index pro historii snapshotů podle pracovní vlny.
+- Migrace je verzována v `data/backup/migrations/20261122_create_backup_work_wave_registry.sql`.
+- Pracovní vlna: `CZ-AUDIT-PRIBRAMSKO-26101-26401-001`; přesně 36 ID a 36 PSČ, stav registru `COMPLETE`.
+- Pro cílený export byla doplněna chybějící položka českého validačního schématu `CZ_V2` do `public.explorer_validation_schemas`, přesně podle kanonického `data/czechia/schema.json`.
+- Dedikovaná Supabase Edge Function: `travel-backup-cz-26101-26401-pribramsko` (aktivní, verze 3); její zdrojový template je v `supabase/functions/travel-backup-cz-26101-26401-pribramsko/index.ts`. Živý run key není uložen v GitHubu.
+- Preview provedlo pouze cílené čtení: 36 řádků PSČ, 271 faktů, 271 navázaných mapových bodů a 1 české validační schéma. Všechny dvojice fact/map point souhlasí; žádné plošné čtení tabulek.
+
+### Pracovní záloha — VERIFIED
+
+- **Backup ID:** `CZ-AUDIT-PRIBRAMSKO-26101-26401-2026-11-22T00-23-46-115Z`
+- **Dropbox:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_PRIBRAMSKO_26101-26401_2026-11-22T00-23-46-115Z/`
+- Obsahuje přesně tři soubory: JSON (2 589 600 B), restore SQL (2 337 321 B) a `manifest.json` (2 710 B).
+- Všechny tři soubory byly nahrány add-only a následně staženy zpět; SHA-256 odpovídá:
+  - JSON: `5ab22da8bd9ad12482bbb3d319e8ee55512f6a98c1242222351096a818513132`
+  - Restore SQL: `0c748411d940dd65ca8c4cd85a4634b7a08ce64c8cf3c98ecd184844019e1bc4`
+  - Manifest: `9cf4a692c001e9408a23976ace942f02db63fdb779657c35a7214774ea6eac13`
+- Manifest: `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=36`.
+- Kanonický SHA-256 rozsahu: `8c7f1566a80b5031f560058be4861563816154ca6a3e5548f76abefae8364afe`; SHA-256 exportního JSON objektu je uveden v manifestu.
+- Supabase registry read-back potvrzuje `backup_snapshots.status=VERIFIED`, 36 záznamů, stejné hashe a přesnou Dropbox cestu; pracovní vlna má stav `COMPLETE`.
+
+### Konečný stav
+
+**PASS / PUBLISHED V5 / BACKUP VERIFIED.** Audit zůstává uzavřen s přijatými a zdokumentovanými výjimkami: tři neadresní lokality s nejednoznačnou vazbou na PSČ a 40 historických `src_*` aliasů, které nebyly nahrazeny odhadem. Nejsou to blokující vady podle konečného rozhodnutí uživatele.
+
+**READ-ONLY LOCK nebyl aktivován.** Publikace a záloha k němu nedávají implicitní souhlas. Žádná změna Neonu ani jiných zemí.
