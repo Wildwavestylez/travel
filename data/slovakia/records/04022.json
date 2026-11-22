@@ -1,4 +1,541 @@
 {
   "postcode": "04022",
-  "status": "placeholder"
+  "city": "Košice",
+  "district": "Dargovských hrdinov",
+  "county": "Košice III",
+  "state": "Košický kraj",
+  "representative_place": "Místní úřad městské části Košice-Dargovských hrdinov",
+  "representative_point": {
+    "lat": 48.7293119,
+    "lon": 21.2892278
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Furča: sídliště na strmém svahu",
+      "text": "Furča, oficiálně sídliště Dargovských hrdinov, se začala stavět 29. června 1976 položením základního kamene s pamětní listinou do bloku 606 na dnešní Buzulucké ulici. První byty na Buzulucké a Krosnianské ulici byly předány na konci roku 1977. Obytná čtvrť vyrostla na strmém svahu, kde dříve bývaly vinice; její urbanistický návrh se připravoval už od roku 1971.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.kosice-dh.sk/furca-oslavila-49-rokov-sidlisko-s-jedinecnym-pribehom-na-kopci-nad-kosicami-a22-934",
+        "https://www.kosiceonline.sk/ako-sa-rodila-furca-sest-rokov-planov-pripravnych-prac-a-velkych-ocakavani"
+      ],
+      "location": {
+        "name": "Furča – orientační bod u místního úřadu",
+        "lat": 48.7293119,
+        "lon": 21.2892278,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://kosice.oma.sk/u/povstania-ceskeho-ludu/1"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_002",
+      "title": "Chrám Boží Moudrosti",
+      "text": "Řeckokatolický chrám Boží Moudrosti byl na Furči vysvěcen 4. května 2003. Jeho původní podobu navrhl architekt Ladislav Bobčák. Půdorys tvoří rovnoramenný řecký kříž a nad kuželovitým tělem stavby se zvedá jedna hlavní a čtyři menší cibulovité kupole. Celková výška chrámu včetně kříže dosahuje 19,5 metru.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.furca.sk/cerkev/",
+        "https://kostolyslovenska.sk/detail/4873864521283078"
+      ],
+      "location": {
+        "name": "Chrám Boží Moudrosti",
+        "lat": 48.738645,
+        "lon": 21.283078,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.openstreetmap.org/way/50218213"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Tři stodoly na střeše paneláku",
+      "text": "V roce 2013 vytvořil výtvarník Tomáš Džadoň na střeše třináctipodlažního panelového domu na Lidickém náměstí Památník lidové architektury. Tvořily jej tři skutečné roubené stodoly přenesené z Liptovské Tepličky a oravské Párnice. Instalace stavěla tradiční venkovskou architekturu do kontrastu s panelovým sídlištěm. V Košicích šlo o dočasné dílo: po přibližně dvou letech bylo odstraněno a stodoly později našly nové umístění u Poltáru.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.ssn.sk/podujatia/pamatnik-ludovej-architektury/",
+        "https://www.novinky.cz/clanek/koktejl-na-strese-kosickeho-panelaku-vyrostly-tri-drevenice-204608",
+        "https://www.artmap.cz/vystavy/tomas-dzadon-z-furce-na-poltar-pamatnik-ludovej-architektury"
+      ],
+      "location": {
+        "name": "Lidické náměstí 1 – původní místo Památníku lidové architektury",
+        "lat": 48.7393365,
+        "lon": 21.2778264,
+        "type": "artwork",
+        "accuracy": "historical_approximate",
+        "source": "https://www.ssn.sk/podujatia/pamatnik-ludovej-architektury/"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Pamětní kámen k 50 letům Furče",
+      "text": "Padesáté výročí výstavby Furče připomněl v září 2026 pamětní kámen odhalený v Parku na DH 8. V jeho blízkosti, u řeckokatolického chrámu, vznikla také stálá venkovní výstava s dobovými fotografiemi a informacemi o proměně sídliště. Připomíná začátek výstavby 29. června 1976 i příběh místa, které se z někdejších vinic změnilo v rozsáhlou obytnou čtvrť.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.kosice-dh.sk/mestska-cast/aktuality/pamatny-kamen-50-rokov-nasho-jedinecneho-sidliska-a22-2241",
+        "https://www.kosice-dh.sk/furca-oslavila-49-rokov-sidlisko-s-jedinecnym-pribehom-na-kopci-nad-kosicami-a22-934"
+      ],
+      "location": {
+        "name": "Park na DH 8 – orientační bod u Chrámu Boží Moudrosti",
+        "lat": 48.738645,
+        "lon": 21.283078,
+        "type": "park",
+        "accuracy": "approximate",
+        "source": "https://www.openstreetmap.org/way/50218213"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_005",
+      "title": "PSČ 040 22 spojuje Furču a Panorámu Heringeš",
+      "text": "PSČ 040 22 nepokrývá pouze sídliště Dargovských hrdinov. Oficiální katalog města Košice pod něj řadí také sedm ulic v městské části Vyšné Opátske: Bazovou, Borievkovou, Cezmínovou, Hrabovou, Hlohovou, Jarabinovou a Jelšovou. Tyto ulice tvoří rezidenční zónu Zelená stráň a Panoráma Heringeš. Jde tedy o geograficky rozdělené poštovní území, které zasahuje do dvou městských částí a dvou okresů; neznamená to však, že celé Vyšné Opátske používá PSČ 040 22.",
+      "category": "geography_and_context",
+      "priority": "A",
+      "sources": [
+        "https://www.kosice.sk/mesto/katalog-ulic",
+        "https://static.kosice.sk/vzn/doc/A6KuOuxE45hYJuq3WWp/Eu9eUXEDkrn3Ryu/priloha_ulice7_vys_optaske.pdf",
+        "https://www.ke-arcidieceza.sk/files/acac-2022-_408203eec85d048.pdf"
+      ],
+      "location": {
+        "name": "Panoráma Heringeš – Borievková 2",
+        "lat": 48.7220341,
+        "lon": 21.2956772,
+        "type": "residential_ensemble",
+        "accuracy": "approximate",
+        "source": "https://kosice.oma.sk/u/borievkova/2"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Ulice připomínají druhou světovou válku",
+      "text": "Podle oficiálního popisu městské části se názvy většiny ulic na Furči vztahují k bojům na východní frontě, událostem druhé světové války a představitelům odboje. Připomínají je například názvy Kurská, Charkovská, Jaltská, Buzulucká nebo Lidické náměstí. Jména ulic tak vytvářejí výraznou historickou vrstvu moderního sídliště, které vzniklo až v druhé polovině 20. století.",
+      "category": "local_story",
+      "priority": "C",
+      "sources": [
+        "https://www.kosice-dh.sk/mestska-cast/zakladne-informacie",
+        "https://www.kosice.sk/mesto/katalog-ulic"
+      ],
+      "location": {
+        "name": "Furča – orientační bod u místního úřadu",
+        "lat": 48.7293119,
+        "lon": 21.2892278,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://kosice.oma.sk/u/povstania-ceskeho-ludu/1"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Erb jako obraz prudkých svahů",
+      "text": "Znak městské části tvoří ve zlatém štítě tři černé klíny. Nejde o náhodný geometrický motiv: podle oficiálního vysvětlení symbolizují úvratě, které se zařezávají do kopcovitého terénu Furče. Místní zastupitelstvo erb schválilo 17. prosince 2007 a v Heraldickém registru Slovenské republiky je veden pod signaturou D-173/2008.",
+      "category": "local_story",
+      "priority": "C",
+      "sources": [
+        "https://www.kosice-dh.sk/mestska-cast/zakladne-informacie"
+      ],
+      "location": {
+        "name": "Furča – orientační bod u místního úřadu",
+        "lat": 48.7293119,
+        "lon": 21.2892278,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://kosice.oma.sk/u/povstania-ceskeho-ludu/1"
+      },
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – seznam pošt s rozšířeným prodejem uvádí poštu Košice 22 a PSČ 040 22; geografické přiřazení ulic je křížově ověřeno v oficiálním katalogu ulic města Košice.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom; vyhľadávanie PSČ Slovenskej pošty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Košice 22 je uvedena na třídě arm. gen. Svobody 12; její adresa nebyla použita jako reprezentativní bod. PSČ 040 22 podle oficiálního katalogu zasahuje také na sedm ulic v městské části Vyšné Opátske.",
+    "geographic_authority": "Oficiální katalog ulic města Košice, úřední dokumentace městských částí Dargovských hrdinov a Vyšné Opátske a situační mapa ulic podle VZN č. 153/2014. Hlavní reprezentativní část leží v okrese Košice III; sedm přiřazených ulic v části Vyšné Opátske leží v okrese Košice IV."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – oficiálny katalóg ulíc",
+      "url": "https://www.kosice.sk/mesto/katalog-ulic",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Dargovských hrdinov – základné informácie a poloha",
+      "url": "https://www.kosice-dh.sk/mestska-cast/zakladne-informacie",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Dargovských hrdinov – Furča oslávila 49 rokov",
+      "url": "https://www.kosice-dh.sk/furca-oslavila-49-rokov-sidlisko-s-jedinecnym-pribehom-na-kopci-nad-kosicami-a22-934",
+      "type": "official"
+    },
+    {
+      "title": "Košice Online – Ako sa rodila Furča",
+      "url": "https://www.kosiceonline.sk/ako-sa-rodila-furca-sest-rokov-planov-pripravnych-prac-a-velkych-ocakavani",
+      "type": "regional"
+    },
+    {
+      "title": "Gréckokatolícka farnosť Košice-Furča – Chrám Božej Múdrosti",
+      "url": "https://www.furca.sk/cerkev/",
+      "type": "official"
+    },
+    {
+      "title": "Kostoly Slovenska – Gréckokatolícky chrám Božej Múdrosti",
+      "url": "https://kostolyslovenska.sk/detail/4873864521283078",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenský syndikát novinárov – Pamätník ľudovej architektúry",
+      "url": "https://www.ssn.sk/podujatia/pamatnik-ludovej-architektury/",
+      "type": "news"
+    },
+    {
+      "title": "Novinky.cz – Na střeše košického paneláku vyrostly tři dřevěnice",
+      "url": "https://www.novinky.cz/clanek/koktejl-na-strese-kosickeho-panelaku-vyrostly-tri-drevenice-204608",
+      "type": "news"
+    },
+    {
+      "title": "Artmap – Tomáš Džadoň: Z Furče na Poltár",
+      "url": "https://www.artmap.cz/vystavy/tomas-dzadon-z-furce-na-poltar-pamatnik-ludovej-architektury",
+      "type": "specialist"
+    },
+    {
+      "title": "Mestská časť Košice-Dargovských hrdinov – Pamätný kameň: 50 rokov sídliska",
+      "url": "https://www.kosice-dh.sk/mestska-cast/aktuality/pamatny-kamen-50-rokov-nasho-jedinecneho-sidliska-a22-2241",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – situačná mapa ulíc podľa VZN č. 153/2014",
+      "url": "https://static.kosice.sk/vzn/doc/A6KuOuxE45hYJuq3WWp/Eu9eUXEDkrn3Ryu/priloha_ulice7_vys_optaske.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Košická arcidiecéza – Acta Curiae 1/2022",
+      "url": "https://www.ke-arcidieceza.sk/files/acac-2022-_408203eec85d048.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap / OMA – adresa miestneho úradu, Povstania českého ľudu 1",
+      "url": "https://kosice.oma.sk/u/povstania-ceskeho-ludu/1",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap – poloha Chrámu Božej Múdrosti",
+      "url": "https://www.openstreetmap.org/way/50218213",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Borievková 2, Panoráma",
+      "url": "https://kosice.oma.sk/u/borievkova/2",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Místní úřad městské části Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: sídliště na strmém svahu",
+          "text": "Furča, oficiálně sídliště Dargovských hrdinov, se začala stavět 29. června 1976 položením základního kamene s pamětní listinou do bloku 606 na dnešní Buzulucké ulici. První byty na Buzulucké a Krosnianské ulici byly předány na konci roku 1977. Obytná čtvrť vyrostla na strmém svahu, kde dříve bývaly vinice; její urbanistický návrh se připravoval už od roku 1971."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chrám Boží Moudrosti",
+          "text": "Řeckokatolický chrám Boží Moudrosti byl na Furči vysvěcen 4. května 2003. Jeho původní podobu navrhl architekt Ladislav Bobčák. Půdorys tvoří rovnoramenný řecký kříž a nad kuželovitým tělem stavby se zvedá jedna hlavní a čtyři menší cibulovité kupole. Celková výška chrámu včetně kříže dosahuje 19,5 metru."
+        },
+        {
+          "id": "fact_003",
+          "title": "Tři stodoly na střeše paneláku",
+          "text": "V roce 2013 vytvořil výtvarník Tomáš Džadoň na střeše třináctipodlažního panelového domu na Lidickém náměstí Památník lidové architektury. Tvořily jej tři skutečné roubené stodoly přenesené z Liptovské Tepličky a oravské Párnice. Instalace stavěla tradiční venkovskou architekturu do kontrastu s panelovým sídlištěm. V Košicích šlo o dočasné dílo: po přibližně dvou letech bylo odstraněno a stodoly později našly nové umístění u Poltáru."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pamětní kámen k 50 letům Furče",
+          "text": "Padesáté výročí výstavby Furče připomněl v září 2026 pamětní kámen odhalený v Parku na DH 8. V jeho blízkosti, u řeckokatolického chrámu, vznikla také stálá venkovní výstava s dobovými fotografiemi a informacemi o proměně sídliště. Připomíná začátek výstavby 29. června 1976 i příběh místa, které se z někdejších vinic změnilo v rozsáhlou obytnou čtvrť."
+        },
+        {
+          "id": "fact_005",
+          "title": "PSČ 040 22 spojuje Furču a Panorámu Heringeš",
+          "text": "PSČ 040 22 nepokrývá pouze sídliště Dargovských hrdinov. Oficiální katalog města Košice pod něj řadí také sedm ulic v městské části Vyšné Opátske: Bazovou, Borievkovou, Cezmínovou, Hrabovou, Hlohovou, Jarabinovou a Jelšovou. Tyto ulice tvoří rezidenční zónu Zelená stráň a Panoráma Heringeš. Jde tedy o geograficky rozdělené poštovní území, které zasahuje do dvou městských částí a dvou okresů; neznamená to však, že celé Vyšné Opátske používá PSČ 040 22."
+        },
+        {
+          "id": "fact_006",
+          "title": "Ulice připomínají druhou světovou válku",
+          "text": "Podle oficiálního popisu městské části se názvy většiny ulic na Furči vztahují k bojům na východní frontě, událostem druhé světové války a představitelům odboje. Připomínají je například názvy Kurská, Charkovská, Jaltská, Buzulucká nebo Lidické náměstí. Jména ulic tak vytvářejí výraznou historickou vrstvu moderního sídliště, které vzniklo až v druhé polovině 20. století."
+        },
+        {
+          "id": "fact_007",
+          "title": "Erb jako obraz prudkých svahů",
+          "text": "Znak městské části tvoří ve zlatém štítě tři černé klíny. Nejde o náhodný geometrický motiv: podle oficiálního vysvětlení symbolizují úvratě, které se zařezávají do kopcovitého terénu Furče. Místní zastupitelstvo erb schválilo 17. prosince 2007 a v Heraldickém registru Slovenské republiky je veden pod signaturou D-173/2008."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Amt der Stadtgemeinde Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: eine Siedlung am steilen Hang",
+          "text": "Furča, offiziell die Wohnsiedlung Dargovských hrdinov, wurde ab dem 29. Juni 1976 gebaut. An diesem Tag wurde eine Gedenkurkunde im Grundstein des Wohnblocks 606 in der heutigen Buzulucká-Straße niedergelegt. Die ersten Wohnungen in der Buzulucká- und Krosnianska-Straße wurden Ende 1977 übergeben. Das Viertel entstand an einem steilen Hang, an dem zuvor Weinberge lagen; der städtebauliche Entwurf wurde bereits ab 1971 vorbereitet."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kirche der Göttlichen Weisheit",
+          "text": "Die griechisch-katholische Kirche der Göttlichen Weisheit auf Furča wurde am 4. Mai 2003 geweiht. Die ursprüngliche Gestalt entwarf der Architekt Ladislav Bobčák. Ihr Grundriss bildet ein gleicharmiges griechisches Kreuz. Über dem kegelförmigen Baukörper erheben sich eine Hauptkuppel und vier kleinere zwiebelförmige Kuppeln. Einschließlich des Kreuzes erreicht die Kirche eine Höhe von 19,5 Metern."
+        },
+        {
+          "id": "fact_003",
+          "title": "Drei Scheunen auf dem Dach eines Plattenbaus",
+          "text": "2013 schuf der Künstler Tomáš Džadoň auf dem Dach eines dreizehngeschossigen Wohnblocks am Lidické náměstí das Denkmal der Volksarchitektur. Es bestand aus drei echten Blockbohlenscheunen, die aus Liptovská Teplička und dem nordslowakischen Párnica hierhergebracht wurden. Die Installation stellte traditionelle ländliche Architektur der Plattenbausiedlung gegenüber. Das Werk war in Košice nur vorübergehend zu sehen: Nach etwa zwei Jahren wurde es abgebaut; die Scheunen fanden später einen neuen Standort bei Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenkstein zum 50-jährigen Bestehen von Furča",
+          "text": "Zum 50. Jahrestag des Baubeginns von Furča wurde im September 2026 im Park DH 8 ein Gedenkstein enthüllt. In der Nähe, bei der griechisch-katholischen Kirche, entstand außerdem eine dauerhafte Freiluftausstellung mit historischen Fotografien und Informationen zur Entwicklung der Siedlung. Sie erinnert an den Baubeginn am 29. Juni 1976 und an die Verwandlung ehemaliger Weinberge in ein großes Wohnviertel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Postleitzahl 040 22 verbindet Furča und Panoráma Heringeš",
+          "text": "Die Postleitzahl 040 22 umfasst nicht nur die Siedlung Dargovských hrdinov. Im offiziellen Straßenverzeichnis der Stadt Košice sind ihr auch sieben Straßen im Stadtteil Vyšné Opátske zugeordnet: Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová und Jelšová. Diese Straßen gehören zu den Wohngebieten Zelená stráň und Panoráma Heringeš. Das Postgebiet erstreckt sich somit über zwei Stadtteile und zwei Bezirke; daraus folgt jedoch nicht, dass ganz Vyšné Opátske die Postleitzahl 040 22 verwendet."
+        },
+        {
+          "id": "fact_006",
+          "title": "Straßennamen erinnern an den Zweiten Weltkrieg",
+          "text": "Laut der offiziellen Beschreibung des Stadtteils beziehen sich die Namen der meisten Straßen auf Kämpfe an der Ostfront, Ereignisse des Zweiten Weltkriegs und Persönlichkeiten des Widerstands. Daran erinnern etwa die Namen Kurská, Charkovská, Jaltská, Buzulucká und Lidické námestie. So bildet das Straßennetz eine markante historische Ebene in einer modernen Wohnsiedlung, die erst in der zweiten Hälfte des 20. Jahrhunderts entstand."
+        },
+        {
+          "id": "fact_007",
+          "title": "Das Wappen als Bild der steilen Hänge",
+          "text": "Das Wappen des Stadtteils zeigt drei schwarze Keile auf goldenem Schild. Dieses geometrische Motiv ist nicht zufällig: Laut der offiziellen Erklärung symbolisieren die Keile die steilen Kehren, die sich in den hügeligen Hang von Furča einschneiden. Die Stadtteilvertretung genehmigte das Wappen am 17. Dezember 2007; im Wappenregister der Slowakischen Republik ist es unter der Kennung D-173/2008 eingetragen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Local Office of the Košice-Dargovských hrdinov City District",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: a housing estate on a steep hillside",
+          "text": "Furča, officially the Dargovských hrdinov housing estate, began construction on 29 June 1976. A commemorative document was placed in the foundation stone of block 606 on today's Buzulucká Street. The first apartments on Buzulucká and Krosnianska streets were handed over at the end of 1977. The neighbourhood was built on a steep slope once covered by vineyards; its urban plan had been under preparation since 1971."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of Divine Wisdom",
+          "text": "The Greek Catholic Church of Divine Wisdom on Furča was consecrated on 4 May 2003. Its original design was created by architect Ladislav Bobčák. The floor plan forms an equal-armed Greek cross. One main dome and four smaller onion-shaped domes rise above the conical body of the building. Including the cross, the church reaches a height of 19.5 metres."
+        },
+        {
+          "id": "fact_003",
+          "title": "Three barns on the roof of a tower block",
+          "text": "In 2013, artist Tomáš Džadoň created the Folk Architecture Memorial on the roof of a thirteen-storey apartment block at Lidické námestie. It consisted of three authentic timber barns brought from Liptovská Teplička and Párnica in the Orava region. The installation set traditional rural architecture against the backdrop of a prefabricated housing estate. It was temporary in Košice: after about two years it was dismantled, and the barns later found a new home near Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "Memorial stone marking Furča's 50th anniversary",
+          "text": "In September 2026, a memorial stone was unveiled in Park DH 8 to mark 50 years since construction of Furča began. A permanent outdoor exhibition with historical photographs and information about the estate's development was also installed nearby, beside the Greek Catholic church. It recalls the start of construction on 29 June 1976 and the transformation of former vineyards into a large residential district."
+        },
+        {
+          "id": "fact_005",
+          "title": "Postcode 040 22 links Furča with Panoráma Heringeš",
+          "text": "Postcode 040 22 does not cover only the Dargovských hrdinov estate. Košice's official street catalogue also assigns it to seven streets in the Vyšné Opátske district: Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová and Jelšová. These streets form the Zelená stráň and Panoráma Heringeš residential area. The postal area therefore extends across two city districts and two administrative districts; this does not mean that all of Vyšné Opátske uses postcode 040 22."
+        },
+        {
+          "id": "fact_006",
+          "title": "Street names recall the Second World War",
+          "text": "According to the district's official description, most street names refer to battles on the Eastern Front, events of the Second World War and figures of the resistance. Examples include Kurská, Charkovská, Jaltská, Buzulucká and Lidické námestie. The names give a distinctive historical layer to a modern housing estate built only in the second half of the twentieth century."
+        },
+        {
+          "id": "fact_007",
+          "title": "The coat of arms reflects the steep slopes",
+          "text": "The district's coat of arms shows three black wedges on a gold shield. According to the official explanation, the wedges symbolise the steep bends cut into Furča's hilly terrain. The district council approved the coat of arms on 17 December 2007, and it is registered in the Slovak Heraldic Register under reference D-173/2008."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Oficina local del distrito municipal de Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: un barrio residencial en una ladera empinada",
+          "text": "Furča, oficialmente el conjunto residencial Dargovských hrdinov, comenzó a construirse el 29 de junio de 1976. Ese día se depositó un documento conmemorativo en la primera piedra del bloque 606, en la actual calle Buzulucká. Los primeros apartamentos de las calles Buzulucká y Krosnianska se entregaron a finales de 1977. El barrio se levantó en una ladera pronunciada donde antes había viñedos; su planificación urbanística se preparaba desde 1971."
+        },
+        {
+          "id": "fact_002",
+          "title": "El templo de la Divina Sabiduría",
+          "text": "El templo greco-católico de la Divina Sabiduría, en Furča, fue consagrado el 4 de mayo de 2003. Su diseño original fue obra del arquitecto Ladislav Bobčák. La planta tiene forma de cruz griega de brazos iguales. Sobre el cuerpo cónico del edificio se elevan una cúpula principal y otras cuatro cúpulas menores en forma de cebolla. Incluida la cruz, el templo alcanza 19,5 metros de altura."
+        },
+        {
+          "id": "fact_003",
+          "title": "Tres graneros sobre la azotea de un bloque de pisos",
+          "text": "En 2013, el artista Tomáš Džadoň creó el Monumento a la Arquitectura Popular sobre la azotea de un bloque de trece plantas en Lidické námestie. La obra estaba formada por tres graneros originales de madera, trasladados desde Liptovská Teplička y Párnica, en la región de Orava. La instalación enfrentaba la arquitectura rural tradicional con el paisaje de un barrio de bloques prefabricados. En Košice fue una obra temporal: se desmontó después de unos dos años y los graneros encontraron más tarde una nueva ubicación cerca de Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "Piedra conmemorativa del 50.º aniversario de Furča",
+          "text": "En septiembre de 2026 se inauguró una piedra conmemorativa en el parque DH 8 para recordar los 50 años del inicio de la construcción de Furča. Cerca de allí, junto al templo greco-católico, también se instaló una exposición permanente al aire libre con fotografías históricas e información sobre la evolución del barrio. La exposición recuerda el comienzo de las obras el 29 de junio de 1976 y la transformación de antiguos viñedos en una gran zona residencial."
+        },
+        {
+          "id": "fact_005",
+          "title": "El código postal 040 22 une Furča y Panoráma Heringeš",
+          "text": "El código postal 040 22 no corresponde únicamente al conjunto residencial Dargovských hrdinov. El catálogo oficial de calles de Košice también lo asigna a siete calles del distrito municipal de Vyšné Opátske: Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová y Jelšová. Estas calles forman la zona residencial Zelená stráň y Panoráma Heringeš. Por tanto, el área postal se extiende por dos distritos municipales y dos distritos administrativos; esto no significa que todo Vyšné Opátske utilice el código 040 22."
+        },
+        {
+          "id": "fact_006",
+          "title": "Las calles recuerdan la Segunda Guerra Mundial",
+          "text": "Según la descripción oficial del distrito, la mayoría de los nombres de las calles hacen referencia a batallas del frente oriental, acontecimientos de la Segunda Guerra Mundial y figuras de la resistencia. Así lo recuerdan nombres como Kurská, Charkovská, Jaltská, Buzulucká y Lidické námestie. Estos nombres aportan una marcada capa histórica a un barrio moderno construido en la segunda mitad del siglo XX."
+        },
+        {
+          "id": "fact_007",
+          "title": "El escudo representa las laderas empinadas",
+          "text": "El escudo del distrito muestra tres cuñas negras sobre un campo dorado. Según la explicación oficial, representan las curvas pronunciadas que se abren paso en el terreno montañoso de Furča. El consejo del distrito aprobó el escudo el 17 de diciembre de 2007 y está inscrito en el Registro Heráldico de Eslovaquia con la referencia D-173/2008."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Bureau local de l'arrondissement municipal de Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča : un quartier résidentiel sur un versant escarpé",
+          "text": "Furča, officiellement l'ensemble résidentiel Dargovských hrdinov, a commencé à être construit le 29 juin 1976. Un document commémoratif a été déposé dans la première pierre du bloc 606, dans l'actuelle rue Buzulucká. Les premiers appartements des rues Buzulucká et Krosnianska ont été remis à la fin de 1977. Le quartier s'est développé sur un versant escarpé autrefois couvert de vignes ; son plan d'urbanisme était préparé depuis 1971."
+        },
+        {
+          "id": "fact_002",
+          "title": "L'église de la Sagesse divine",
+          "text": "L'église grecque-catholique de la Sagesse divine, à Furča, a été consacrée le 4 mai 2003. Son projet initial est dû à l'architecte Ladislav Bobčák. Son plan dessine une croix grecque à branches égales. Une coupole principale et quatre petites coupoles en bulbe s'élèvent au-dessus du corps conique de l'édifice. Avec la croix, l'église atteint 19,5 mètres de hauteur."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trois granges sur le toit d'un immeuble",
+          "text": "En 2013, l'artiste Tomáš Džadoň a créé le Monument à l'architecture populaire sur le toit d'un immeuble de treize étages, place Lidické námestie. L'installation réunissait trois véritables granges en bois transférées de Liptovská Teplička et de Párnica, dans la région d'Orava. Elle mettait en contraste l'architecture rurale traditionnelle et un grand ensemble de logements préfabriqués. L'œuvre n'était que temporaire à Košice : démontées après environ deux ans, les granges ont ensuite trouvé un nouvel emplacement près de Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "La pierre commémorative du 50e anniversaire de Furča",
+          "text": "En septembre 2026, une pierre commémorative a été dévoilée dans le parc DH 8 pour marquer les 50 ans du début de la construction de Furča. Une exposition permanente en plein air, présentant des photographies d'époque et l'évolution du quartier, a également été installée à proximité, près de l'église grecque-catholique. Elle rappelle le lancement des travaux le 29 juin 1976 et la transformation d'anciens vignobles en un vaste quartier résidentiel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le code postal 040 22 relie Furča à Panoráma Heringeš",
+          "text": "Le code postal 040 22 ne couvre pas uniquement l'ensemble résidentiel de Dargovských hrdinov. Le catalogue officiel des rues de Košice l'attribue également à sept rues de l'arrondissement de Vyšné Opátske : Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová et Jelšová. Ces rues appartiennent aux zones résidentielles Zelená stráň et Panoráma Heringeš. Le territoire postal s'étend donc sur deux arrondissements municipaux et deux districts administratifs ; cela ne signifie pas que tout Vyšné Opátske utilise le code 040 22."
+        },
+        {
+          "id": "fact_006",
+          "title": "Des rues qui évoquent la Seconde Guerre mondiale",
+          "text": "Selon la description officielle de l'arrondissement, la plupart des noms de rues font référence aux combats du front de l'Est, aux événements de la Seconde Guerre mondiale et aux figures de la résistance. Les noms Kurská, Charkovská, Jaltská, Buzulucká et Lidické námestie en sont des exemples. Ils donnent une dimension historique particulière à un quartier moderne construit seulement dans la seconde moitié du XXe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Les armoiries évoquent les pentes abruptes",
+          "text": "Les armoiries de l'arrondissement représentent trois coins noirs sur un écu doré. Selon l'explication officielle, ils symbolisent les virages en épingle qui entaillent le relief vallonné de Furča. Le conseil local a adopté ces armoiries le 17 décembre 2007 ; elles sont inscrites au registre héraldique slovaque sous la référence D-173/2008."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Ufficio locale del quartiere municipale di Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: un quartiere residenziale su un ripido pendio",
+          "text": "Furča, ufficialmente complesso residenziale Dargovských hrdinov, iniziò a essere costruita il 29 giugno 1976. Quel giorno un documento commemorativo fu deposto nella prima pietra del blocco 606, nell'attuale via Buzulucká. I primi appartamenti nelle vie Buzulucká e Krosnianska furono consegnati alla fine del 1977. Il quartiere sorse su un pendio ripido, dove un tempo si trovavano vigneti; il suo progetto urbanistico era in preparazione già dal 1971."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il tempio della Divina Sapienza",
+          "text": "Il tempio greco-cattolico della Divina Sapienza a Furča fu consacrato il 4 maggio 2003. Il progetto originario fu realizzato dall'architetto Ladislav Bobčák. La pianta ha la forma di una croce greca a bracci uguali. Sopra il corpo conico dell'edificio si innalzano una cupola principale e quattro cupole minori a cipolla. Compresa la croce, il tempio raggiunge un'altezza di 19,5 metri."
+        },
+        {
+          "id": "fact_003",
+          "title": "Tre fienili sul tetto di un condominio",
+          "text": "Nel 2013 l'artista Tomáš Džadoň realizzò il Memoriale dell'architettura popolare sul tetto di un condominio di tredici piani in piazza Lidické námestie. L'opera era composta da tre autentici fienili in legno trasferiti da Liptovská Teplička e da Párnica, nella regione di Orava. L'installazione metteva a confronto l'architettura rurale tradizionale con il paesaggio di un quartiere di edifici prefabbricati. A Košice fu un'opera temporanea: dopo circa due anni venne smontata e i fienili trovarono in seguito una nuova collocazione nei pressi di Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "La pietra commemorativa per i 50 anni di Furča",
+          "text": "Nel settembre 2026 è stata inaugurata una pietra commemorativa nel parco DH 8 per celebrare i 50 anni dall'inizio della costruzione di Furča. Nelle vicinanze, accanto al tempio greco-cattolico, è stata allestita anche una mostra permanente all'aperto con fotografie storiche e informazioni sull'evoluzione del quartiere. La mostra ricorda l'avvio dei lavori il 29 giugno 1976 e la trasformazione degli antichi vigneti in una vasta zona residenziale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il codice postale 040 22 collega Furča e Panoráma Heringeš",
+          "text": "Il codice postale 040 22 non copre soltanto il complesso residenziale Dargovských hrdinov. Il catalogo ufficiale delle strade di Košice lo assegna anche a sette vie del quartiere municipale di Vyšné Opátske: Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová e Jelšová. Queste strade fanno parte delle zone residenziali Zelená stráň e Panoráma Heringeš. L'area postale si estende quindi su due quartieri municipali e due distretti amministrativi; ciò non significa che tutto Vyšné Opátske utilizzi il codice 040 22."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le strade ricordano la Seconda guerra mondiale",
+          "text": "Secondo la descrizione ufficiale del quartiere, la maggior parte dei nomi delle strade richiama le battaglie del fronte orientale, gli eventi della Seconda guerra mondiale e le figure della resistenza. Ne sono esempi i nomi Kurská, Charkovská, Jaltská, Buzulucká e Lidické námestie. Questi nomi aggiungono una marcata dimensione storica a un quartiere moderno costruito soltanto nella seconda metà del XX secolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "Lo stemma come immagine dei ripidi pendii",
+          "text": "Lo stemma del quartiere mostra tre cunei neri su uno scudo dorato. Secondo la spiegazione ufficiale, i cunei simboleggiano i tornanti che incidono il terreno collinare di Furča. Il consiglio municipale approvò lo stemma il 17 dicembre 2007; esso è registrato nel Registro araldico slovacco con il riferimento D-173/2008."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Lokaal bestuur van het stadsdeel Košice-Dargovských hrdinov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Furča: een woonwijk op een steile helling",
+          "text": "Furča, officieel de woonwijk Dargovských hrdinov, werd vanaf 29 juni 1976 gebouwd. Op die dag werd een herdenkingsdocument in de funderingssteen van blok 606 aan de huidige Buzulucká-straat geplaatst. De eerste woningen aan de Buzulucká- en Krosnianska-straat werden eind 1977 opgeleverd. De wijk verrees op een steile helling waar vroeger wijngaarden lagen; het stedenbouwkundige ontwerp was al sinds 1971 in voorbereiding."
+        },
+        {
+          "id": "fact_002",
+          "title": "De kerk van de Goddelijke Wijsheid",
+          "text": "De Grieks-katholieke kerk van de Goddelijke Wijsheid op Furča werd op 4 mei 2003 ingewijd. Het oorspronkelijke ontwerp is van architect Ladislav Bobčák. De plattegrond heeft de vorm van een gelijkarmig Grieks kruis. Boven het kegelvormige gebouw staan één grote en vier kleinere uivormige koepels. Inclusief het kruis is de kerk 19,5 meter hoog."
+        },
+        {
+          "id": "fact_003",
+          "title": "Drie schuren op het dak van een flatgebouw",
+          "text": "In 2013 maakte kunstenaar Tomáš Džadoň het Monument voor de Volksarchitectuur op het dak van een flatgebouw van dertien verdiepingen aan het Lidické námestie. Het bestond uit drie authentieke houten schuren die waren overgebracht uit Liptovská Teplička en Párnica in de regio Orava. De installatie plaatste traditionele plattelandsarchitectuur tegenover de prefab woonwijk. Het kunstwerk was in Košice tijdelijk: na ongeveer twee jaar werd het afgebroken en kregen de schuren later een nieuwe plek bij Poltár."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenksteen voor 50 jaar Furča",
+          "text": "In september 2026 werd in Park DH 8 een gedenksteen onthuld ter gelegenheid van vijftig jaar bouwgeschiedenis van Furča. Vlakbij, bij de Grieks-katholieke kerk, kwam ook een permanente openluchttentoonstelling met historische foto's en informatie over de ontwikkeling van de wijk. De tentoonstelling herinnert aan de start van de bouw op 29 juni 1976 en aan de verandering van voormalige wijngaarden in een grote woonwijk."
+        },
+        {
+          "id": "fact_005",
+          "title": "Postcode 040 22 verbindt Furča met Panoráma Heringeš",
+          "text": "Postcode 040 22 omvat niet alleen de woonwijk Dargovských hrdinov. In de officiële stratenlijst van Košice zijn ook zeven straten in het stadsdeel Vyšné Opátske aan deze postcode gekoppeld: Bazová, Borievková, Cezmínová, Hrabová, Hlohová, Jarabinová en Jelšová. Deze straten vormen de woongebieden Zelená stráň en Panoráma Heringeš. Het postgebied strekt zich dus uit over twee stadsdelen en twee administratieve districten; dat betekent niet dat heel Vyšné Opátske postcode 040 22 gebruikt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Straatnamen herinneren aan de Tweede Wereldoorlog",
+          "text": "Volgens de officiële beschrijving van het stadsdeel verwijzen de namen van de meeste straten naar gevechten aan het oostfront, gebeurtenissen uit de Tweede Wereldoorlog en verzetsleiders. Voorbeelden zijn Kurská, Charkovská, Jaltská, Buzulucká en Lidické námestie. Zo vormen de straatnamen een duidelijke historische laag in een moderne woonwijk die pas in de tweede helft van de twintigste eeuw is gebouwd."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het stadswapen verbeeldt de steile hellingen",
+          "text": "Het stadsdeelwapen toont drie zwarte wiggen op een gouden schild. Volgens de officiële toelichting staan de wiggen voor de scherpe haarspeldbochten in het heuvelachtige terrein van Furča. De deelraad keurde het wapen op 17 december 2007 goed; het staat in het Slowaakse Wapenregister onder nummer D-173/2008."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
