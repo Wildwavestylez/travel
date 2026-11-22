@@ -20,7 +20,8 @@
       "sources": [
         "src_majolica_indprop",
         "src_majolica_visitmodra",
-        "src_majolica_stvr"
+        "src_majolica_stvr",
+        "src_majolica_location"
       ],
       "location": {
         "name": "Slovenská ľudová majolika",
@@ -42,7 +43,8 @@
       "sources": [
         "src_stur_snm_history",
         "src_stur_snm_exposition",
-        "src_stur_modra"
+        "src_stur_modra",
+        "src_stur_location"
       ],
       "location": {
         "name": "Emreszovský dům – Múzeum Ľudovíta Štúra",
@@ -64,7 +66,8 @@
       "sources": [
         "src_zoch_history",
         "src_zoch_contact",
-        "src_modra_recreation"
+        "src_modra_recreation",
+        "src_postal_area_sita"
       ],
       "location": {
         "name": "Zochova chata",
@@ -164,6 +167,30 @@
       "id": "src_postal_streets",
       "title": "Slovenská pošta – Vyhľadávanie PSČ",
       "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "src_majolica_location",
+      "title": "Identita.sk – Slovenská ľudová majolika, Dolná 138, 900 01 Modra, GPS",
+      "url": "https://projektidentita.sk/database-record/66",
+      "type": "specialist"
+    },
+    {
+      "id": "src_stur_location",
+      "title": "Pamiatky na Slovensku – Múzeum Ľudovíta Štúra, poloha a GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/modra-muzeum-ludovita-stura",
+      "type": "specialist"
+    },
+    {
+      "id": "src_postal_area_sita",
+      "title": "SITA – PSČ 90001, Modra, Harmónia a Piesok",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90001/",
+      "type": "regional"
+    },
+    {
+      "id": "src_admin_modra",
+      "title": "Štatistický úrad SR – územná klasifikácia mesta Modra, okres Pezinok, Bratislavský kraj",
+      "url": "https://slovak.statistics.sk/",
       "type": "official"
     }
   ],
