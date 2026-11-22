@@ -20,8 +20,8 @@
       "category": "history",
       "priority": "A",
       "sources": [
-        "src_01",
-        "src_02"
+        "https://zahorskabystrica.sk/sport-a-kultura/historia/",
+        "https://farabystrica.sk/FarnostHistoria"
       ],
       "map_category": "historic_city",
       "location": {
@@ -41,8 +41,8 @@
       "category": "culture_and_industry",
       "priority": "B",
       "sources": [
-        "src_01",
-        "src_03"
+        "https://zahorskabystrica.sk/sport-a-kultura/historia/",
+        "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/"
       ],
       "map_category": "local_culture",
       "location": {
@@ -62,10 +62,10 @@
       "category": "heritage_and_monuments",
       "priority": "A",
       "sources": [
-        "src_01",
-        "src_02",
-        "src_04",
-        "src_05"
+        "https://zahorskabystrica.sk/sport-a-kultura/historia/",
+        "https://farabystrica.sk/FarnostHistoria",
+        "https://www.pamiatkynaslovensku.sk/zahorska-bystrica-bratislava-kostol-sv-petra-a-pavla",
+        "https://kostolyslovenska.sk/detail/4824143217039522"
       ],
       "map_category": "religious_site",
       "location": {
@@ -85,9 +85,9 @@
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_01",
-        "src_06",
-        "src_07"
+        "https://zahorskabystrica.sk/sport-a-kultura/historia/",
+        "https://zahorskabystrica.sk/ludovy-dom/",
+        "https://www.bkis.sk/pekne-miesta/ludovy-dom-s-remeselnym-dvorom/"
       ],
       "map_category": "cultural_site",
       "location": {
@@ -107,8 +107,8 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "src_08",
-        "src_09"
+        "https://www.muop.eu/kaplnka-sv-vendelina",
+        "https://zastupitelstvo.bratislava.sk/data/att/51671.pdf"
       ],
       "map_category": "religious_site",
       "location": {
@@ -139,79 +139,66 @@
   },
   "sources": [
     {
-      "id": "src_01",
       "title": "Mestská časť Bratislava-Záhorská Bystrica – História",
       "url": "https://zahorskabystrica.sk/sport-a-kultura/historia/",
       "type": "official"
     },
     {
-      "id": "src_02",
       "title": "Farnosť sv. Petra a Pavla – História farnosti",
       "url": "https://farabystrica.sk/FarnostHistoria",
       "type": "official"
     },
     {
-      "id": "src_03",
       "title": "Mestská časť Bratislava-Záhorská Bystrica – informácie o mestskej časti",
       "url": "https://zahorskabystrica.sk/samosprava/informacie-o-mestskej-casti/vitajte-v-zahorskej-bystrici/",
       "type": "official"
     },
     {
-      "id": "src_04",
       "title": "Pamiatky na Slovensku – Kostol sv. Petra a Pavla, GPS a identifikácia",
       "url": "https://www.pamiatkynaslovensku.sk/zahorska-bystrica-bratislava-kostol-sv-petra-a-pavla",
       "type": "specialist"
     },
     {
-      "id": "src_05",
       "title": "Kostoly Slovenska – Kostol sv. Petra a Pavla, stavebné a konsekračné údaje",
       "url": "https://kostolyslovenska.sk/detail/4824143217039522",
       "type": "specialist"
     },
     {
-      "id": "src_06",
       "title": "Mestská časť Bratislava-Záhorská Bystrica – Ľudový dom",
       "url": "https://zahorskabystrica.sk/ludovy-dom/",
       "type": "official"
     },
     {
-      "id": "src_07",
       "title": "Bratislavské kultúrne a informačné stredisko – Ľudový dom s remeselným dvorom, adresa a súradnice",
       "url": "https://www.bkis.sk/pekne-miesta/ludovy-dom-s-remeselnym-dvorom/",
       "type": "official"
     },
     {
-      "id": "src_08",
       "title": "Mestský ústav ochrany pamiatok – Kaplnka sv. Vendelína",
       "url": "https://www.muop.eu/kaplnka-sv-vendelina",
       "type": "official"
     },
     {
-      "id": "src_09",
       "title": "Hlavné mesto Bratislava – evidenčný list pamätihodnosti ZaB-1A-18, Kaplnka sv. Vendelína",
       "url": "https://zastupitelstvo.bratislava.sk/data/att/51671.pdf",
       "type": "official"
     },
     {
-      "id": "src_10",
       "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, príloha 3a",
       "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
       "type": "official"
     },
     {
-      "id": "src_11",
       "title": "Mestská časť Bratislava-Záhorská Bystrica – Pošta 48, Gbelská 25",
       "url": "https://zahorskabystrica.sk/sluzby/",
       "type": "official"
     },
     {
-      "id": "src_12",
       "title": "Slovak postal codes – verejný CC0 dataset odvodený z RAGEO, adresné body",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
       "type": "other"
     },
     {
-      "id": "src_13",
       "title": "Slovak postal codes – súhrn PSČ, reprezentatívny bod a obalový rozsah",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv",
       "type": "other"
