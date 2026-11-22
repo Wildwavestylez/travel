@@ -1,8 +1,8 @@
 {
   "postcode": "82108",
   "city": "Bratislava",
-  "district": "Staré Mesto",
-  "county": "Bratislava I",
+  "district": "Ružinov",
+  "county": "Bratislava II",
   "state": "Bratislavský kraj",
   "representative_place": "Nivy – oblast Miletičovy a Záhradnické ulice",
   "representative_point": {
@@ -314,9 +314,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": "Staršia verzia technických parametrov z roku 2024 uvádzala pre PSČ 82108–82109 poštu Bratislava 2. Aktuálna verzia Slovenskej pošty účinná od 1. 1. 2026 v časti 2.3.2.1 a prílohe 3a už uvádza dodávaciu poštu Bratislava 1. Použitá je aktuálna verzia; nejde o nevyriešený súčasný rozpor.",
-    "delivery_office_note": "Aktuálny oficiálny dokument Slovenskej pošty účinný od 1. 1. 2026 priraďuje PSČ 82108 k dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt uvádza prevádzku Bratislava 1 na Námestí SNP 35 v Bratislave-Starom Meste a dokument Slovenskej pošty z roku 2026 potvrdzuje tú istú adresu. Preto administratívne polia city, district, county a state vychádzajú z fyzickej polohy obslužnej pošty, nie z väčšiny adresných bodov PSČ. Verejný dataset odvodený z RAGEO eviduje pri PSČ 82108 spolu 754 adresných bodov: 746 v Bratislave-Ružinove a 8 v Bratislave-Starom Meste. Presná polygonálna hranica PSČ sa netvrdí.",
+    "delivery_office_note": "Slovenská pošta assigns PSČ 82108–82109 to the delivery office Bratislava 1. This routing relationship does not determine the representative municipal part or okres.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. RAGEO nebolo samostatne exportované; ako doplnková systematická kontrola bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Pre PSČ 82108 uvádza 754 adresných bodov v dvoch mestských častiach (746 Ružinov, 8 Staré Mesto) a reprezentatívny bod 48.15394, 17.13315. Jednotlivé pamätihodnosti boli kontrolované cez oficiálne mestské a miestne evidencie a ich konkrétne adresy a súradnice doplnené mapovými adresnými bodmi OMA/OpenStreetMap. Tieto sekundárne mapové údaje slúžia na kontrolu konkrétnych miest, nie ako dôkaz presného polygonu doručovacieho obvodu."
+    "geographic_authority": "RAGEO-derived address-point evidence identifies the majority of addresses in the PSČ area in Ružinov (746 points) and a small fringe in Staré Mesto (8 points). The representative point and the main Nivy/Miletičova–Záhradnícka area are in Bratislava-Ružinov, okres Bratislava II. Administrative fields therefore follow Ružinov, not the Bratislava 1 sorting office or the small fringe of addresses in Staré Mesto. Official ZBGIS documentation independently places the Nivy locality in Bratislava-Ružinov."
   },
   "sources": [
     {
@@ -527,6 +527,16 @@
     {
       "title": "Mestská časť Bratislava-Ružinov – oficiálny register pamätihodností",
       "url": "https://www.ruzinov.sk/sk/content/view/pamatihodnosti",
+      "type": "official"
+    },
+    {
+      "title": "ZBGIS – lokalizácia stavby v katastrálnom území Nivy, Bratislava-Ružinov",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/71474.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – oficiálna evidencia pamätihodností a lokalít",
+      "url": "https://ruzinov.egov.sk/sk/content/view/pamatihodnosti",
       "type": "official"
     }
   ],
