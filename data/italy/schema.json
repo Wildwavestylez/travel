@@ -29,7 +29,7 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "All official Comuni whose territory is included in this CAP area, written in one string and separated by commas. Do not select a single Comune based on the location of a post office. Determine the complete CAP geography from authoritative postal and geographic sources; facts are researched across the whole CAP area."
+      "description": "All official Comuni whose territory is included in this CAP area, written in one string and separated by commas. Do not select a single Comune based on the location of a post office. Use the project's approved CAP inventory as the content-indexing reference; facts are researched across the project's assigned content area, using physical and administrative geographic evidence."
     },
     "district": {
       "type": [
@@ -125,7 +125,7 @@
         "plz_source": {
           "type": "string",
           "minLength": 1,
-          "description": "The concrete source used to verify the CAP. Poste Italiane is the primary authority for current CAP assignments and serving-office information; ISTAT is authoritative for Comune and administrative classifications. Geographic assignment of specific addresses and places must be checked with competent official geographic/address sources. Do not treat third-party directories as the canonical postal authority."
+          "description": "The concrete project inventory and geographic context used for this record. Do not require live postal-update verification; ISTAT is authoritative for Comune and administrative classifications, while competent municipal/address/geographic sources support physical place locations."
         },
         "geographic_test_data": {
           "type": "boolean"
@@ -135,21 +135,21 @@
         },
         "postcode_authority": {
           "type": "string",
-          "description": "Authority for official CAP registration and classification: Poste Italiane. ISTAT is used for official Comune and administrative classifications; geographic assignment of addresses and fact locations must be checked against competent official geographic/address sources. This text field preserves compatibility with the shared TRAVEL record structure."
+          "description": "Project CAP inventory is the record-index reference. ISTAT is used for official Comune and administrative classifications; competent geographic/address sources support physical locations. This text field preserves compatibility with the shared TRAVEL record structure."
         },
         "postcode_source_dataset": {
           "type": [
             "string",
             "null"
           ],
-          "description": "Name/version of the postal or geographic reference dataset actually used, if available."
+          "description": "Name/version of the project CAP inventory or geographic reference actually used, if available."
         },
         "postcode_source_release": {
           "type": [
             "string",
             "null"
           ],
-          "description": "Release or snapshot identifier of the reference dataset actually used, if available."
+          "description": "Release or snapshot identifier of the project inventory or geographic reference actually used, if available."
         },
         "postcode_source_checked_at": {
           "type": [
@@ -183,7 +183,7 @@
         },
         "geographic_authority": {
           "type": "string",
-          "description": "Authority used for the relevant territorial information. Use ISTAT for current Comune and administrative classifications, Poste Italiane for CAP assignment, and competent official regional/municipal geographic or address datasets for specific geographic positions. This text field preserves compatibility with the shared TRAVEL record structure."
+          "description": "Authority used for the relevant territorial information. Use ISTAT for current Comune and administrative classifications and competent official regional/municipal geographic or address datasets for specific geographic positions. The project inventory identifies the CAP record; this text field preserves compatibility with the shared TRAVEL record structure."
         }
       }
     },
