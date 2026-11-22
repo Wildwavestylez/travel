@@ -123,7 +123,9 @@ Dokud tyto dvě skupiny nálezů nebudou vyřešeny nebo řádně odůvodněny j
 ## 7. Použité hlavní zdroje
 
 - https://znojmoregion.cz/cs/loucky-klaster
+- https://www.npu.cz/cs/pamatkova-pece/sluzby-pro-verejnost/opravujete-pamatku/inspirujte-se/81051-centrum-obnovy-spolecneho-kulturniho-dedictvi-ve-znojme
 - https://znojmoregion.cz/cs/znojemske-podzemi-znojmo
+- https://www.znojemskabeseda.cz/images/ZB_2025_VYROCNI_ZPRAVA_2024_OK_jednostrankova.pdf
 - https://www.regionem.cz/clanek/do-tmy-vody-a-uzkych-chodeb-znojemske-podzemi-nabizi-adrenalin-z-jine-doby/
 - https://dspace.jcu.cz/bitstream/handle/20.500.14390/27455/Diplomova_prace_-_Jiri_Padalik.pdf?sequence=1
 - https://www.znojmocity.cz/assets/File.ashx?id_dokumenty=1577&id_org=19341
