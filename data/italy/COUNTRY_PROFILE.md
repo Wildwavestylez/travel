@@ -48,9 +48,9 @@ Keep the CAP record, the map location of each fact, the representative place/poi
 
 ## Italian postal system — CAP
 
-The CAP is a five-digit numeric code administered and published by Poste Italiane. Preserve it as a string, including any leading zero.
+The CAP is a five-digit numeric project identifier. Preserve it as a string, including any leading zero.
 
-Poste Italiane describes the digits as follows:
+The historic/structural digit pattern may be useful as background, but it is not used to infer content geography:
 
 - first digit: postal region (`Regione Postale`);
 - second digit: province-level postal grouping;
@@ -59,7 +59,7 @@ Poste Italiane describes the digits as follows:
 
 This digit structure is useful for understanding and checking CAP values, but it is not a substitute for an authoritative CAP-to-place lookup. Never derive a Comune, Provincia, Regione or exact polygon from the digits alone.
 
-Poste Italiane distinguishes ordinary locality CAPs and urban CAP zones. Larger provincial capitals may have multiple CAP zones. Smaller provincial capitals may use a single CAP ending in `00`. There are also patterns in which a final zero represents a group of municipalities rather than one individual Comune. Treat the actual published assignment as authoritative.
+CAP patterns can differ between ordinary localities, urban zones and groups of municipalities. Do not infer a Comune, Regione or exact content boundary from the digits. Use the approved project inventory for record identity and physical geographic evidence for facts.
 
 Use the project's approved CAP inventory/sequence to identify the records in scope. Ordinary content production does not monitor, reconcile or apply subsequent postal updates. The project is a geographic-content and discovery database, not a live postal directory.
 
@@ -198,8 +198,8 @@ Use the Italian authority appropriate to the specific claim. No single instituti
 
 **Poste Italiane** is the primary source for:
 - the official CAP system and five-digit structure;
-- current CAP assignments and published changes;
-- the postal interpretation of CAP patterns and urban zones;
+- the project's approved CAP inventory as record identifiers;
+- physical geographic and administrative evidence for content placement;
 
 
 Use the official CAP page and its dated update publications. **The latest currently effective official Poste Italiane publications and datasets are binding and authoritative for all CAP assignment decisions. If a current official Poste Italiane publication supersedes an older Poste Italiane document, use the newer publication and disregard the older information; do not spend time reconciling, defending or researching obsolete assignments from superseded material.** Apply the latest published changes according to their stated effective dates and transition rules. If two currently effective official Poste Italiane sources genuinely conflict and neither clearly supersedes the other, record that precise conflict and pause the affected CAP decision rather than relying on older documents or third-party directories. Third-party CAP directories and historical documents may not override the current official Poste Italiane position. Research into branch operators, opening/closure status, opening hours, service catalogues and delivery arrangements is out of scope; these are not EuropeExplorer content.
