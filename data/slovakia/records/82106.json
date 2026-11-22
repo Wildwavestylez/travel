@@ -170,18 +170,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, príloha 3a: PSČ 821 06 – 821 07 a 821 10 sú priradené k vybranej pošte Bratislava 214. Nástupnícka prevádzka pošty Bratislava 214 je na Uzbeckej 5227/4 v Podunajských Biskupiciach.",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Technické parametre – Triedenie a zväzkovanie zásielok; denný CC0 dataset odvodený z Registra adries SR",
-    "postcode_source_release": "Technické parametre účinné od 1. 1. 2026; adresný dataset kontrolovaný 20. 11. 2026",
-    "postcode_source_checked_at": "2026-11-20",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
     "postcode_conflict": false,
-    "postcode_conflict_note": "Odvodený adresný dataset obsahuje adresné body PSČ 82106 vo viacerých mestských častiach Bratislavy. Administratívne polia city, district, county a state sú určené podľa fyzickej polohy vybranej pošty Bratislava 214, nie podľa všetkých okrajových adresných bodov doručovacej oblasti. Presná polygonálna hranica PSČ sa netvrdí.",
-    "delivery_office_note": "Slovenská pošta zaraďuje PSČ 82106 k vybranej pošte Bratislava 214. Nástupnícka prevádzka je na adrese Uzbecká 5227/4 v Bratislave-Podunajských Biskupiciach. Poloha pošty určuje administratívne polia, nie reprezentatívny bod PSČ.",
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 3 971 adresních bodů v Podunajských Biskupicích, 18 ve Vrakuni a po 1 v Ružinově, Devínskej Novej Vsi a Záhorské Bystrici (celkem 3 992). Všechny tyto části patří do obce Bratislava. Dominantní cluster je Podunajské Biskupice; proto zůstává city Bratislava, district Podunajské Biskupice a reprezentativní místo Trojičné námestie. Menší okrajové skupiny nejsou konfliktem obce ani důvodem k tvrzení přesné hranice doručovací oblasti.",
+    "delivery_office_note": "Technické parametry Slovenské pošty účinné od 1. 1. 2026 řadí PSČ 821 06 k vybrané poště Bratislava 214. Tato vazba je poštovním směrováním, nikoli vymezením územní hranice PSČ.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. Na systematickú kontrolu bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie údajov z Registra adries SR a registra obcí. Dataset pre PSČ 82106 uvádza 3 990 adresných bodov a päť jednotiek obcí/mestských častí; eviduje adresy v Podunajských Biskupiciach a menšie okrajové adresné skupiny v Ružinove a Vrakuni. Administratívna príslušnosť vybranej pošty Bratislava 214 je určená jej fyzickou adresou Uzbecká 4 v Podunajských Biskupiciach. RAGEO nebol samostatne exportovaný cez portál; hranica doručovacej oblasti sa neinterpretuje ako presný polygon."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 3 971 adresních bodů v Bratislava-Podunajské Biskupice, 18 v Bratislava-Vrakuňa a po 1 v Bratislava-Ružinov, Bratislava-Devínska Nová Ves a Bratislava-Záhorská Bystrica. Všech pět územních jednotek jsou městské části obce Bratislava. Dominantní cluster je Podunajské Biskupice, což podporuje city Bratislava, district Podunajské Biskupice a reprezentativní místo Trojičné námestie. Slovenská pošta uvádí 821 06 v třídicím směru Bratislava 214. Přesná polygonální hranice se netvrdí. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -302,6 +302,16 @@
     {
       "title": "Supporting source for Pamětní sloup vysídlených maďarských rodin",
       "url": "https://pam.epocha.sk/pamatniky-bratislava/ruzinov-vrakuna-pod-biskupice/vystahovanie-madarov-z-podunajskych-biskupic-1947-park-pri-trojicnom-nam",
+      "type": "specialist"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
       "type": "specialist"
     }
   ],
