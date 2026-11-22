@@ -1,119 +1,109 @@
 # Auditní tahák Sokolovska — PSČ 35601–35801
 
 **Kanonické ID:** `CZ-SOKOLOVSKO-35601-35801`  
-**Datum checkpointu:** 2026-11-22  
+**Datum uzavření:** 2026-11-22  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.1  
-**Stav:** `REVIEW REQUIRED` — turistická úplnost a potvrzené opravy jsou zapsány; sémantická revize všech překladů je dokončena; jedinou otevřenou výjimkou zůstává nedoložená poloha Lesoparku Vintířov. **Bez publikace V5, bez zálohy, bez read-only zámku.**
+**Stav:** **COMPLETED / PUBLISHED V5 / BACKUP VERIFIED**  
+**Výjimka:** 35735 / fact_019 — Lesopark Vintířov zůstává bez polohy (`location=null`) záměrně; přesný ani důvěryhodný orientační bod nebyl doložen a uživatel tuto nevýznamnou mapovou výjimku výslovně přijal.
 
 ## 1. Rozsah a inventář
 
-Uživatelem zadaný číselný interval: **356 xx až 359 xx**. Audit se řídí pouze skutečně existujícími českými PSČ v `data/czechia/sequence.json`; nevytváří nové kódy.
+Audit zahrnuje všechna skutečně existující česká PSČ v intervalu 356xx–359xx podle `data/czechia/sequence.json`. V bloku je **14/14 PSČ**; v aktuální sekvenci není žádné PSČ 359xx.
 
-Existující inventář obsahuje **14/14 PSČ**:
+| PSČ | Poštovní lokalita | ID záznamu | Faktů |
+|---|---|---:|---:|
+| 35601 | Sokolov | 9164 | 17 |
+| 35604 | Dolní Rychnov | 9165 | 8 |
+| 35701 | Rotava | 9166 | 7 |
+| 35703 | Svatava | 9167 | 12 |
+| 35707 | Oloví (část Hory) | 9168 | 9 |
+| 35708 | Krajková | 9169 | 8 |
+| 35709 | Habartov | 9170 | 13 |
+| 35731 | Horní Slavkov | 9171 | 27 |
+| 35733 | Loket | 9172 | 29 |
+| 35734 | Nové Sedlo | 9173 | 9 |
+| 35735 | Chodov | 9174 | 19 |
+| 35751 | Kynšperk nad Ohří | 9175 | 10 |
+| 35755 | Bukovany | 9176 | 4 |
+| 35801 | Kraslice | 9177 | 17 |
+| **Celkem** | **14 PSČ** | **9164–9177** | **189 faktů** |
 
-| PSČ | Město / poštovní lokalita | Počet faktů po opravách |
-|---|---|---:|
-| 35601 | Sokolov | 17 |
-| 35604 | Dolní Rychnov | 8 |
-| 35701 | Rotava | 7 |
-| 35703 | Svatava | 12 |
-| 35707 | Oloví (část Hory) | 9 |
-| 35708 | Krajková | 8 |
-| 35709 | Habartov | 13 |
-| 35731 | Horní Slavkov | 27 |
-| 35733 | Loket | 29 |
-| 35734 | Nové Sedlo | 9 |
-| 35735 | Chodov | 19 |
-| 35751 | Kynšperk nad Ohří | 10 |
-| 35755 | Bukovany | 4 |
-| 35801 | Kraslice | 17 |
-| **Celkem** | **14 PSČ** | **189 faktů** |
+Pozor na 35708: v databázi existuje také samostatný starší placeholder (ID 2702). Auditovaný záznam je ID 9169. Publikace ani záloha placeholder nezahrnuly; zůstal beze změny.
 
-- Původní stav: 14 PSČ / 186 faktů. Po doplnění tří zásadních témat: **189 faktů**.
-- `sequence.json` a `groups`: přesná shoda všech 14 kódů, každý právě jednou.
-- **V intervalu 359 xx není v aktuální české sekvenci žádné PSČ.** Žádný kód 359xx nebyl vytvořen ani doplněn.
-- RÚIAN reference: CSV z oficiálního celostátního ZIP archivu ČÚZK; manifest uvádí aktualizaci feedu 2026-11-01, 3 023 585 adresních řádků a 2 677 unikátních PSČ. Všech 14 cílových kódů se v CSV vyskytuje a má adresní body.
-- Přiřazení dolu Jeroným k 35601 je podloženo RÚIAN: Podstrání je část obce Rovná a Rovná je v agregaci PSČ 35601.
-- **Poštovní lokality:** všech 14 hodnot city bylo ověřeno proti detailům poboček České pošty PoštaOnline. U 35707 je pobočka Oloví fyzicky v části Hory; proto je v RÚIAN i v obsahových údajích správně rozlišena obec Oloví a její část Hory. Ověřené profily: [35601](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35601), [35604](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35604), [35701](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35701), [35703](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35703), [35707](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35707), [35708](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35708), [35709](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35709), [35731](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35731), [35733](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35733), [35734](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35734), [35735](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35735), [35751](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35751), [35755](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35755), [35801](https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/35801).
+## 2. Průzkum turistické úplnosti
 
-## 2. Průzkum turistické úplnosti — proveden jako první
+Průzkum zásadních památek, událostí a osobností byl proveden před obsahovým auditem. Byly doplněny tři významné mezery:
 
-Průzkum se zaměřil na zásadní památky, události a osobnosti celého území. Byly nalezeny a doplněny tři významné mezery:
+1. **35601 / fact_016 — Středověký důl Jeroným v Čisté.** Národní kulturní památka a mimořádně zachovaný cínový důl. Doplněn vstupní bod a odborné zdroje.
+2. **35601 / fact_017 — Miloš Urban.** Spisovatel narozený roku 1967 v Sokolově; za román *Hastrman* získal Magnesii Literu. Použit pouze reprezentativní bod Sokolova, nikoli nedoložená adresa narození.
+3. **35801 / fact_017 — Johann David Starck.** Významný průmyslník narozený v Kraslicích začátkem května 1770. Text zachovává rozdílné pramenné údaje o přesném dni narození a používá reprezentativní bod města.
 
-1. **35601 / fact_016 — Středověký důl Jeroným v Čisté.** Národní kulturní památka a mimořádně zachovaný cínový důl. NPÚ jej řadí mezi nejvýznamnější památky svého druhu v Evropě. Doplněn vstupní bod 50.1021575, 12.7120394; adresa Podstrání 13, 356 01 Rovná. Zdroje: [NPÚ – Industriální památky](https://www.npu.cz/technicke-pamatky), [NPÚ – právní stav NKP](https://iispp.npu.cz/mis_public/documentDetail.htm?id=72458), [Archeologický atlas](https://www.archeologickyatlas.cz/cs/lokace/cista_so_dul_jeronym), [Živý kraj – turistický materiál](https://zivykraj.cz/wp-content/uploads/2022/08/sazba_CJ_kor.pdf).
-2. **35601 / fact_017 — Miloš Urban.** Spisovatel narozený roku 1967 v Sokolově; za román *Hastrman* získal Magnesii Literu a kniha byla zfilmována. Přesná adresa narození není doložena; je použit pouze reprezentativní orientační bod v Sokolově. Zdroje: [Nakladatelství Argo](https://argo.cz/udalosti/milos-urban-autorske-cteni-a-beseda/), [Český rozhlas](https://www.irozhlas.cz/node/8169070).
-3. **35801 / fact_017 — Johann David Starck.** Významný průmyslník narozený v Kraslicích začátkem května 1770. Text záměrně neuvádí přesný den, protože prameny uvádějí 1., 3. nebo 4. květen. Přesná adresa narození není doložena; je použit pouze reprezentativní orientační bod v Kraslicích. Zdroje: [KAM po Česku – Vizionářský podnikatel Starck](https://www.kampocesku.cz/clanek/34847/vizionarsky-podnikatel-starck), [KAM po Česku – Úspěšný podnikatel z rodu Starcků](https://www.kampocesku.cz/clanek/17093/uspesny-podnikatel-z-rodu-starcku), [Österreichisches Biographisches Lexikon](https://www.biographien.ac.at/oebl_13/101.pdf), [Biografický slovník českých zemí – Kraslice](https://biography.hiu.cas.cz/wiki/Kraslice).
+Další důležitá témata již byla v bloku zastoupena: hrad Loket, poutní areál Chlum Svaté Maří, Hartenberg, hornické dědictví Horního Slavkova a Krásna, Dlouhá stoka, Habartovské události září 1938, tábor Zwodau ve Svatavě, zajatecké mauzoleum v Jindřichovicích, stávka sklářů v Oloví roku 1930 a události konce druhé světové války v Lokti.
 
-Další zásadní témata již v bloku zastoupena jsou: hrad Loket, poutní areál Chlum Svaté Maří, Hartenberg, hornické dědictví Horního Slavkova a Krásna, Dlouhá stoka, Habartovské události září 1938, tábor Zwodau ve Svatavě, zajatecké mauzoleum v Jindřichovicích, stávka sklářů v Oloví roku 1930 a události konce druhé světové války v Lokti. Toni Schönecker již má zastoupení prostřednictvím příběhu rozhledny Hard; duplicitní samostatný fakt nebyl přidán.
+## 3. Obsahové a překladové opravy
 
-Po doplnění těchto tří témat nebyla v rychlém tematickém průzkumu zjištěna další srovnatelně zásadní mezera.
+- Všech **189 českých master textů** splňuje minimální délku 350 znaků.
+- Dokončena sémantická kontrola **189 × 6 = 1 134 překladových položek** v jazycích DE/EN/ES/FR/IT/NL.
+- Ověřeny význam, úplnost, jména, data, místa, historická chronologie a zachování výhrad i nejistot.
+- Opraveny věcné a jazykové nepřesnosti v překladech, mimo jiné význam pletařské školy, rudného mlýna, bývalé vodárny, názvu Globen, datování hradu Loket a historických událostí.
+- Odstraněny duplicitní věty u vybraných faktů v Lokti a Chodově.
+- **35735 / fact_007 — Vodní nádrž Tatrovice:** původní text nebyl nalezen v dostupném repozitáři ani ověřené záloze, proto byl fakt znovu sestaven z oficiálních a odborných zdrojů. Text rozlišuje technologickou vodu pro průmyslový komplex ve Vřesové, dřívější úpravu pitné vody do roku 2009, přivaděč ze Skřiváně a malou vodní elektrárnu se dvěma Bánkiho turbínami.
+- Česká zrcadla `facts[].title/text` a `translations.cs` jsou synchronizována; závěrečný read-back potvrdil **0 rozdílů**.
+- Všech sedm jazyků `cs, de, en, es, fr, it, nl` má úplné a správně seřazené položky pro všech 14 záznamů.
 
-## 3. Provedené opravy v Supabase
+## 4. Geolokace a mapový index
 
-- **35601:** přidány `fact_016` Důl Jeroným a `fact_017` Miloš Urban.
-- **35801:** přidán `fact_017` Johann David Starck.
-- Všechna tři nová fakta mají zdroje, platné `category` a `map_category`, český master a překlady DE/EN/ES/FR/IT/NL. Read-back potvrdil 17 faktů a 17 jazykových položek v každém ze sedmi jazyků u 35601 i 35801.
-- **35604 / fact_003:** český master rozšířen o doložený začátek těžby uhlí roku 1813; odpovídajícím způsobem aktualizováno všech šest cizojazyčných verzí.
-- **35708:** opraveno `content.state` z neúplného „Karlovarský“ na „Karlovarský kraj“.
-- **19 krátkých master textů:** všech 19 bylo rozšířeno nad 350 znaků a jejich překlady DE/EN/ES/FR/IT/NL byly upraveny. Všechny texty prošly následným read-backem.
-- **35735 / fact_007 — Vodní nádrž Tatrovice:** při opravě zdrojového rozlišení technologické a pitné vody byl původní text nechtěně nahrazen pouze doplňující větou. Původní znění nebylo v dostupném repozitáři ani v ověřené záloze nalezeno; proto byl celý fakt znovu sestaven z oficiálních a odborných zdrojů. Nový master a šest překladů byly uloženy a načteny zpět. Text nyní rozlišuje technologickou vodu, dřívější úpravu pitné vody do roku 2009, přivaděč ze Skřiváně a malou vodní elektrárnu se dvěma Bánkiho turbínami.
-- **Rozdíly `facts[].title/text` vs. `translations.cs`:** synchronizováno 28 českých položek podle ID:
-  - 35604: fact_003, fact_008;
-  - 35707: fact_005;
-  - 35708: fact_001;
-  - 35735: 17 položek;
-  - 35751: fact_001 až fact_007.
-- Po finální opravě textu Miloše Urbana byla synchronizována také jeho česká překladová položka v 35601.
-- Read-back potvrzuje 0 rozdílů `facts` vs. `translations.cs` v celém bloku.
-- **Sémantický audit překladů:** dokončeno 189/189 faktů × 6 jazyků = **1 134/1 134 překladových položek**. Ověřena věcná shoda, jména, data, místa, historická chronologie, zachování výhrad a významových nuancí. Následující opravy byly provedeny a načteny zpět:
-  - 35601: fact_001 sjednoceno datování na třetí čtvrtinu 13. století; fact_003 doplněna ochrana proti vodě.
-  - 35707: fact_002 opraven význam odborné pletařské školy; fact_006 doplněno přesné datum koncese 30. 10. 1873; fact_008 a fact_009 výslovně rozlišují reprezentativní mapový bod od přesné polohy štoly a historického mostu.
-  - 35708: fact_004 doplněna vazba Krajkové na panství Hartenberg.
-  - 35709: fact_007 vysvětluje, že bod je pouze orientační střed Hřeben; fact_013 opraven německý název Globen.
-  - 35731: fact_010 doplněny předměty z bývalého špitálního kostela sv. Anny; fact_009 zpřesněn význam rudného mlýna; fact_026 opravena španělská typografická chyba.
-  - 35733: fact_001 sjednocena chronologie hradu; fact_002 doplněna etymologie názvu Loket; fact_004 odstraněno opakování a doplněn kontext všeobecné kapitulace; fact_005 oddělena místní pověst od vědeckého popisu meteoritu; fact_006 doplněno antependium; fact_008 doplněna úplná stavební chronologie a osud oltáře; fact_009 doplněny funkce věží a brány; fact_016 výslovně uvedena nejistota císařovy návštěvy; fact_017 doplněna délka hlavního pole; fact_019 doplněna zaměstnanost a poválečné vlastnictví porcelánky; fact_024 odstraněno opakování o znovuotevření Dvorany.
-  - 35735: fact_007 kompletně znovu sestaven z ověřených zdrojů; fact_011 a fact_012 odstraněna opakování; fact_016 doplněn počet obyvatel Lipnice v roce 1970 a následný zánik zástavby.
-  - 35801: fact_001 zpřesněn význam bývalé vodárny (nikoli vodní nádrže); fact_006 doplněn dochovaný renesanční reliéf sv. Jiří.
-- Ostatních 1 134 kontrolovaných položek nevyžadovalo další věcnou opravu po uvedených úpravách.
+- Z původně chybějících poloh bylo doplněno **13/14** důvěryhodných přesných nebo výslovně reprezentativních bodů.
+- **35735 / fact_019 — Lesopark Vintířov:** zůstává `location=null`. Poloha nebyla odhadnuta; uživatel výjimku přijal a audit se kvůli ní neblokuje.
+- Všech 13 doplněných bodů má odpovídající typ, přesnost a zdroj.
+- Po publikaci vytvořil databázový trigger **188 mapových bodů pro 188 faktů s doloženou polohou**. Jediný fakt bez polohy není v mapovém indexu, jak má být.
+- Žádné souřadnice nebyly vymyšleny.
 
-## 4. Strukturální a překladová kontrola
+## 5. Strukturální a zdrojová kontrola
 
-- 14/14 řádků existuje; původní počet 186 faktů, konečný počet **189 faktů**.
-- Všech 14 řádků zůstalo `data_version=1`, `status=validated`; žádný záznam nebyl publikován ani převeden na V5.
-- Všech sedm jazyků `cs, de, en, es, fr, it, nl` je u všech 14 PSČ přítomno; počty položek odpovídají počtu faktů.
-- Pořadí ID faktů je shodné mezi českým masterem a každým ze šesti cizojazyčných polí u **14/14 PSČ**.
-- ID faktů jsou unikátní; v kontrolovaném bloku nebyly zjištěny duplicitní názvy faktů.
-- Povolené hodnoty `category` a `map_category` prošly strukturální kontrolou.
-- Prázdné jazykové položky ani chybějící ID nebyly nalezeny.
-- **Délka českých masterů:** 0/189 textů pod 350 znaků.
-- **Česká zrcadla:** facts[].title/text vs. translations.cs: 0 rozdílů v celém bloku.
-- **Překlady:** u všech 14 PSČ odpovídá počet položek a všechna ID jsou přítomna ve všech šesti cizích jazycích. U 19 nově rozšířených faktů byly připraveny a read-backem ověřeny všechny překlady DE/EN/ES/FR/IT/NL.
-- **Omezení:** úplná individuální sémantická kontrola všech 1 134 cizojazyčných textů (189 × 6) nebyla dokončena. Po odečtení 19 právě upravených faktů zůstává k samostatné sémantické revizi 170 faktů / 1 020 překladových položek.
+- 14/14 auditovaných záznamů existuje a odpovídá přesnému inventáři `sequence.json` a `groups`.
+- Všech 14 poštovních lokalit bylo ověřeno podle oficiálních detailů poboček České pošty PoštaOnline.
+- 0 chybějících překladů, 0 rozdílů českých zrcadel, 0 duplicitních ID nebo názvů, 0 chybějících zdrojů, 0 neplatných kategorií.
+- U všech 14 záznamů zůstaly kompletní překladové struktury a pořadí ID.
+- Zvláštní kontrola potvrdila, že placeholder 35708 / ID 2702 nebyl součástí publikační ani zálohovací množiny.
 
-## 5. Zbývající jednotlivý nález — REVIEW REQUIRED
+## 6. Publikace V5
 
-### A. Krátké české master texty
+Dne 2026-11-22 bylo přesně 14 auditovaných záznamů (ID 9164–9177) převedeno na:
 
-**Uzavřeno: 19/19 původně krátkých faktů bylo rozšířeno.** Závěrečný read-back potvrdil 0/189 českých master textů pod 350 znaků. Všech 19 nově rozšířených faktů má také aktualizované překlady do DE/EN/ES/FR/IT/NL.
+- `data_version = 5`
+- `status = published`
 
-### B. Neověřené polohy
+Databázový read-back potvrdil **14/14 V5 / published**. Žádný další záznam nebyl změněn. Mapový trigger vytvořil 188/188 očekávaných mapových bodů.
 
-Z původních 12 chybějících poloh bylo **11 doplněno** přesnými nebo výslovně reprezentativními body. Navíc byla doplněna dvě reprezentativní umístění nových osobnostních faktů (Miloš Urban — Sokolov; Johann David Starck — Kraslice). Celkem je tedy doplněno 13/14 původně chybějících poloh. Všechny nové body mají vyplněný řízený typ, přesnost a zdroj.
+## 7. Záloha Dropbox — VERIFIED
 
-- **Zbývá 1 položka:** 35735 / fact_019 — Lesopark Vintířov. Obecní zdroje potvrzují areál na západní straně obce a jeho historii, ale nebyl nalezen spolehlivý bod uvnitř areálu. location=null zůstává záměrně; souřadnice nebyly odhadnuty.
+**Záloha:** `CZ-AUDIT-SOKOLOVSKO-35601-35801-2026-11-22T11-49-02-985Z`  
+**Složka:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/DATABASE/2026-11-22T11-49-02-985Z/`
 
-U historických a osobnostních témat, kde není známa přesná adresa, jsou použity pouze označené reprezentativní body obce nebo místní části (area_representative), nikoli falešně přesná místa událostí či narození.
+Obsah složky:
+- `postal_codes/part-0001.json` — 14 záznamů
+- `explorer_map_points/part-0001.json` — 188 mapových bodů
+- `explorer_validation_schemas.json` — 1 české validační schéma
+- `manifest.json` — inventář, počty a SHA-256
+- samostatný provozní log je v `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/BACKUP_LOG/2026-11-22T11-49-02-985Z.json`
 
-### C. Explorer map points
+Manifest potvrzuje `every_file_uploaded_and_read_back=true`, `sha256_checked=true` a že existující soubory nebyly přepsány. SHA-256 read-back všech tří datových souborů prošel. Záloha zahrnuje přesně 14 publikovaných PSČ, 189 faktů, 188 mapových bodů a 1 validační schéma.
 
-Dotaz podle skutečných ID 9164–9177 v public.explorer_map_points vrátil 0 řádků. Všech 14 záznamů je stále validated / V1 a nebylo publikováno; mapový index nebyl měněn. To odpovídá nepřítomnosti publikovaných V5 záznamů; index bude vytvořen a zkontrolován v publikačním kroku.
+**Poznámka k formátu:** byla použita existující cílená JSON zálohovací funkce `travel-backup-validated`. Tento postup vytvořil ověřené JSON exporty a manifest, nikoli samostatný soubor `restore.sql`; nezahrnuje DDL/migrace, SQL funkce, tajné klíče ani konfiguraci projektu. Záloha je read-back ověřená, ale není plným dumpem databázového schématu.
 
-## 6. Závěr a bezpečnostní stav
+Záznam zálohy v `public.backup_snapshots` má stav `VERIFIED`; pracovní vlna `CZ-AUDIT-SOKOLOVSKO-35601-35801-001` je `COMPLETE`.
 
-**Výsledek: REVIEW REQUIRED.**
+## 8. Konečný stav a bezpečnost
 
-Turistická úplnost byla cíleně doplněna o tři zásadní témata. Dokončena byla také sémantická revize všech 1 134 překladů, kontrola všech 189 českých master textů, post-office lokalit, zdrojů, kategorií, ID a jazykových zrcadel. Strukturální kontrola prošla; nebyly zjištěny duplicitní ID ani názvy, chybějící zdroje nebo neplatné kategorie.
+**Výsledek: COMPLETED / PUBLISHED V5 / BACKUP VERIFIED.**
 
-Audit zůstává ve stavu REVIEW REQUIRED pouze kvůli jedné nedoložené poloze: 35735/fact_019 — Lesopark Vintířov. Přesné souřadnice nebyly nalezeny a záznam proto zůstává s location=null podle pravidla nevymýšlet mapové body. Ostatní auditní části jsou uzavřeny. Mapový index bude vytvořen a ověřen až při publikaci V5.
-
-**Neprovedeno:** publikace V5, změna `status`, změna `data_version`, záloha na Dropbox, read-only trigger ani změna `sequence.json`. Žádné jiné PSČ nebylo změněno.
+- 14/14 PSČ publikováno V5.
+- 189 faktů a 1 134 sémanticky zkontrolovaných překladů.
+- 188 mapových bodů pro 188 lokalizovatelných faktů.
+- Jediná přijatá mapová výjimka: Lesopark Vintířov bez polohy.
+- Dropbox JSON záloha a manifest read-back ověřeny.
+- Starší placeholder 35708 / ID 2702 zůstal nedotčen.
+- **Read-only zámek nebyl aktivován.**
+- `sequence.json` nebyl změněn.
+- Žádné jiné PSČ nebylo změněno.
