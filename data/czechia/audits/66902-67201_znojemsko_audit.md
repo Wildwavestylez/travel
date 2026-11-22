@@ -87,7 +87,7 @@ Původně bylo zjištěno 29 faktů pod hranicí 350 znaků. **Všech 29/29 krá
 **Druhá dávka — 16 faktů:** 67173/fact_003–fact_015 (13 faktů; 396–477 znaků) a 67178/fact_001–fact_003 (3 fakta; 451–466 znaků). U obou PSČ read-back potvrdil synchronizaci `translations.cs`, všech 13/13 a 3/3 ID ve všech sedmi jazycích a neprázdné překlady de/en/es/fr/it/nl. Délka cizojazyčných textů nebyla hodnocena, v souladu s promptem V2.1. Původní ID, názvy, zdroje a existující polohy zůstaly zachovány.
 
 ### 5.2 Fakta bez `location`
-Původní inventář obsahoval **37 faktů s `location=null` nebo chybějícím polem**. V této fázi bylo doplněno a read-backem ověřeno **13 geografických poloh**; **24 případů zůstává otevřených**. Přesné body byly použity jen pro konkrétně identifikované objekty, u širších příběhů byly zvoleny doložené reprezentativní body sídel nebo území. Žádné souřadnice nebyly převzaty automaticky z poštovního reprezentativního bodu.
+Původní inventář obsahoval **37 faktů s `location=null` nebo chybějícím polem**. V této fázi bylo doplněno a read-backem ověřeno **20 geografických poloh**; **17 případů zůstává otevřených**. Přesné body byly použity jen pro konkrétně identifikované objekty, u širších příběhů byly zvoleny doložené reprezentativní body sídel nebo území. Historické polohy bez přesné identifikace mají výslovně označený orientační charakter. Žádné souřadnice nebyly převzaty automaticky z poštovního reprezentativního bodu.
 
 **Doplněno a ověřeno:**
 - 67125: fact_003 — dům č. p. 19 v Hodonicích, doložená historická adresa
@@ -99,17 +99,17 @@ Původní inventář obsahoval **37 faktů s `location=null` nebo chybějícím 
 - 67139: fact_005 — reprezentativní bod Běhařovic
 - 67162: fact_005 — přírodní památka Oleksovické vřesoviště (střed odvozený z oficiálního vymezení polygonu)
 - 67163: fact_004 — rodová hrobka Kübecků; fact_006 — reprezentativní bod Lechovic
+- 67164: fact_002 — areál Maria Hilf; fact_003 — historická adresa domu v Kolonii u Dvora; fact_007 — socha sv. Jana Nepomuckého v Českých Křídlovicích
+- 67167: fact_008 — orientační bod v centru Hrušovan nad Jevišovkou pro lokalitu U přejezdu (historicky přibližný)
+- 67175: fact_006 — reprezentativní bod sídla Jezeřany-Maršovice pro příběh dvou křížů
+- 67177: fact_005 — reprezentativní bod osady Vinohrádky; fact_007 — orientační centrum Branišovic pro polní boží muka (historicky přibližný)
 
-**Zbývajících 24 případů:**
+**Zbývajících 17 případů:**
 - 67127: fact_005
 - 67133: fact_005
 - 67139: fact_002, fact_003
 - 67161: fact_002, fact_010
 - 67162: fact_006, fact_007
-- 67164: fact_002, fact_003, fact_007
-- 67167: fact_008
-- 67175: fact_006
-- 67177: fact_005, fact_007
 - 67178: fact_001, fact_003, fact_006, fact_007, fact_008, fact_009, fact_010, fact_011, fact_012
 
 Dokud zbývající geografické případy nebudou vyřešeny nebo řádně odůvodněny jako negeolokalizovatelné, audit nelze označit jako PASS.
@@ -121,7 +121,7 @@ Dokud zbývající geografické případy nebudou vyřešeny nebo řádně odův
 - Nebyla vytvořena záloha do Dropboxu.
 - Nebyl aktivován read-only zámek.
 - Nebyla provedena změna Neon databáze.
-- Další krok: posoudit zbývajících 24 faktů bez `location`, případně doložit jednotlivé výjimky; poté provést závěrečný cílený read-back a uzavřít audit.
+- Další krok: posoudit zbývajících 17 faktů bez `location`, případně doložit jednotlivé výjimky; poté provést závěrečný cílený read-back a uzavřít audit.
 
 ## 7. Použité hlavní zdroje
 
