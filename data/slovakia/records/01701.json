@@ -20,9 +20,18 @@
       "map_category": "historic_city",
       "sources": [
         "https://historickapb.sk/casova-os/",
-        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_27887c82-cb93-454a-9883-71b0a4758668"
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_27887c82-cb93-454a-9883-71b0a4758668",
+        "https://www.povazska-bystrica.sk/wifi-v-meste-povazska-bystrica-oznam/mid/557091/.html"
       ],
-      "location": null
+      "location": {
+        "name": "Centrálna mestská zóna – orientačný bod historického jadra Považskej Bystrice",
+        "address": "Námestie Andreja Hlinku, 017 01 Považská Bystrica, Slovensko",
+        "lat": 49.116672663036,
+        "lon": 18.4501031041145,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://www.povazska-bystrica.sk/wifi-v-meste-povazska-bystrica-oznam/mid/557091/.html"
+      }
     },
     {
       "id": "fact_002",
@@ -380,6 +389,11 @@
     {
       "title": "Považská Bystrica – informácie o obci, Ústredný portál verejnej správy",
       "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_27887c82-cb93-454a-9883-71b0a4758668",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Považská Bystrica – oficiálne body verejnej Wi‑Fi v centrálnej mestskej zóne",
+      "url": "https://www.povazska-bystrica.sk/wifi-v-meste-povazska-bystrica-oznam/mid/557091/.html",
       "type": "official"
     }
   ],
