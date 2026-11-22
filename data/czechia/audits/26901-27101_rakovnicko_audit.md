@@ -1,6 +1,6 @@
 # CZ-Rakovnicko / Novostrašecko — finální audit PSČ 26901–27101
 
-**Stav: PASS WITH DOCUMENTED EXCEPTIONS**  
+**Stav: PASS**  
 **Auditní prompt:** `data/czechia/prompt_audit.md`, verze 2.1  
 **Datum dokončení:** 2026-11-22  
 **Zdroj pravdy:** cíleně načtené české řádky `public.postal_codes`; bez porovnávání s Neonem.
@@ -64,6 +64,7 @@ Read-back potvrdil **0 krátkých českých master textů**.
 - **27023 / fact_006:** český překlad synchronizován s masterem.
 - **27055 / fact_006:** český master opraven z nizozemského textu na správný český text.
 - **27054 / fact_002:** opraven výklad Louštína — jde o pravěké hradiště, nikoli doložený středověký hrad Kozí hrádek. Upraven název, lokalizační popis a zdroj; `map_category` změněna z `viewpoint_landscape` na `archaeological_site`. Existující souřadnice nebyly změněny.
+- **Mapové kategorie:** opraveno 22 chybně zařazených `map_category` u 22 faktů v 18 PSČ; následný read-back potvrdil všech 22 hodnot a kontrola podle aktuálního `schema.json` neodhalila žádnou nepovolenou kategorii.
 - **27023 / fact_031:** zpřesněn popis rezervace U Eremita — místo vápnitých skal uvedena doložená vegetace silikátových skal a drolin; opraven oficiální zdroj polohy a doplněn zdroj AOPK. Souřadnice nebyly změněny.
 - **Metadata všech 29 PSČ:** doplněn `region=Středočeský kraj`. Pole `city` je vyplněno u všech 29 záznamů a ověřeno podle sídla obsluhující pošty. Dvě chybné hodnoty `district=Rakovník` u 27023 a 27024 byly odstraněny; podle Content Standardu patří do `district` pouze relevantní část obce/města, nikoli okres. V tomto bloku zůstává `district=null`.
 
@@ -93,24 +94,27 @@ Cílený read-back a kontrola 29 vybraných řádků potvrdily:
 - 0 duplicitních ID faktů nebo překladů; 0 překladových ID bez master faktu.
 - 0 přesně totožných textů napříč různými jazykovými verzemi.
 - Všechny existující neprázdné souřadnice zůstaly beze změny; nebyla provedena plošná kontrola ani přeměřování.
-- Mapové body nebyly plošně načítány ani měněny.
+- Mapové body v samostatné tabulce nebyly plošně načítány ani měněny; čtyři chybějící polohy ve `facts[].location` byly doplněny cíleně podle geografické hierarchie a ověřeny read-backem.
+- Po doplnění má všech 319/319 faktů vyplněnou polohu; 0 `location=null`, 0 neplatných hodnot `accuracy` a 0 neúplných lokalizačních objektů.
 
-## 6. Dokumentované výjimky — čtyři polohy zůstávají null
+## 6. Doplnění čtyř původně chybějících poloh podle geografické hierarchie
 
-Po pokusu o doplnění zůstaly čtyři případy, u nichž nelze z dostupných důkazů odpovědně určit bod samotného objektu. Nebyl použit náhradní bod muzea, obce ani pošty.
+Podle závazného dodatku v `prompt_rework.md` a pravidla G v `prompt_audit.md` byly čtyři původní hodnoty `location=null` vyřešeny. Tam, kde přesná poloha historického objektu nebo události nebyla doložena, nebyl pin vydáván za skutečné místo události; byl zvolen veřejný orientační bod podle hierarchie. Všechny čtyři zápisy byly načteny zpět ze Supabase.
 
-| PSČ / fakt | Důvod ponechání null |
-|---|---|
-| 27009 / fact_004 | Historické doly Johann Baptist a Cyril jsou popsány jako pole u silnice do Mutějovic, několik desítek metrů za již obtížně identifikovatelnou stodolou. Přesný bod šachty není doložen. |
-| 27033 / fact_003 | Trpasličí díra je v lese nad Klečetnou; zdroje popisují přístupovou cestu, ale neposkytují souřadnice samotné štoly. Souřadnice sochy Panny Marie na návsi nejsou polohou štoly. |
-| 27062 / fact_009 | Monstrance byla nalezena v areálu Prefa v Rynholci, avšak přesné místo nálezu uvnitř rozsáhlého areálu není doloženo. Současné muzeum v Novém Strašecí není místem nálezu. |
-| 27065 / fact_008 | Pamětní deska Jindřicha Coufala je popsána u silnice mezi Srbčí a Bdínem, ale přesný bod desky není ve zdrojích souřadnicově doložen. |
+| PSČ / fakt | Uložený orientační bod | Souřadnice (lat, lon) | Přesnost |
+|---|---|---|---|
+| 27009 / fact_004 | Obecní úřad Krupá – orientační bod pro historickou důlní oblast | 50.1753167, 13.7321500 | historical_approximate |
+| 27033 / fact_003 | Socha Panny Marie Immaculaty na návsi v Klečetném – orientační bod | 50.0882167, 13.5624167 | historical_approximate |
+| 27062 / fact_009 | Náměstí 1. máje – obecní úřad Rynholec, orientační bod | 50.1379083, 13.9224350 | historical_approximate |
+| 27065 / fact_008 | Obecní úřad Srbeč – orientační bod pro událost na silnici Srbeč–Bdín | 50.2242608, 13.8837219 | historical_approximate |
 
-Tyto čtyři hodnoty `location=null` jsou ponechány záměrně; jejich doplnění bez důkazu by bylo v rozporu s geografickými pravidly.
+**Důležité interpretační omezení:** tyto body slouží k orientaci na mapě. Neříkají, že důl Cyril, Trpasličí díra, nález monstrance nebo místo útoku stály přesně u příslušného úřadu či sochy. Přesná poloha zůstává historicky neurčená; mapa nyní ukazuje poctivě označený orientační bod místo prázdného pinu.
+
+Závěrečný read-back celého auditovaného rozsahu potvrdil: **319 faktů, 319 vyplněných poloh, 0 `location=null`, 0 neplatných hodnot `accuracy`, 0 neúplných lokalizačních objektů.**
 
 ## 7. Závěr a provozní stav
 
-**Audit obsahu a integrity je dokončen — PASS WITH DOCUMENTED EXCEPTIONS.** Všechny významné opravy byly zapsány a cíleně ověřeny read-backem. Čtyři výše uvedené polohy zůstávají zdokumentovanými výjimkami.
+**Audit obsahu a integrity je dokončen — PASS.** Všechny významné opravy včetně čtyř dříve chybějících poloh byly zapsány a ověřeny read-backem. U čtyř historických témat jsou použity výslovně označené orientační body, nikoli předstírané přesné polohy.
 
 - Žádná změna schématu, triggerů, RLS ani databázové architektury.
 - Žádné porovnávání se Supabase/Neon.
