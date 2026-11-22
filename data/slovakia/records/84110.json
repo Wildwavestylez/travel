@@ -1,7 +1,7 @@
 {
   "postcode": "84110",
   "city": "Bratislava",
-  "district": "Devínska Nová Ves",
+  "district": "Devín",
   "county": "Bratislava IV",
   "state": "Bratislavský kraj",
   "representative_place": "Náměstí svatých Cyrila a Metoděje – historické centrum Devína",
@@ -158,7 +158,7 @@
     "postcode_conflict_note": "Adresní dataset přiřazuje k PSČ 84110 celkem 902 bodů: 898 v městské části Bratislava-Devín, 2 v Bratislava-Karlova Ves, 1 v Bratislava-Devínska Nová Ves a 1 v Pezinku. Čtyři odlehlé body nejsou důkazem skutečné poštovní oblasti a nejsou zahrnuty do jejího výkladu. Rozsah adresního datasetu se proto nepovažuje za poštovní hranici.",
     "delivery_office_note": "PSČ 84110 je v adresních seznamech přiřazeno poště Bratislava 49, která sídlí na Pavla Horova 16 v městské části Devínska Nová Ves (vlastní provozní PSČ pobočky 84009). Pošta Bratislava 46 na Kremeľské 39 leží přímo v Devíně, ale její vlastní provozní PSČ je 84006; nejde o dodací poštu pro PSČ 84110.",
     "postcode_override_reason": null,
-    "geographic_authority": "RAGEO-derived address-point evidence for geographic corroboration; Slovenská pošta and official Slovak territorial hierarchy for postal and administrative interpretation."
+    "geographic_authority": "Oficiální samospráva identifikuje lokalitu jako městskou část Bratislava-Devín; oficiální evidenční záznam hlavního města uvádí adresu místního úřadu Kremeľská 39, 841 10 Bratislava. Reprezentativní místo záznamu, historické centrum Devína a hrad Devín, leží v městské části Devín, okres Bratislava IV. Devín není totožný s městskou částí Devínska Nová Ves."
   },
   "sources": [
     {
@@ -297,6 +297,16 @@
       "id": "s23",
       "title": "Slovak Post – selected post offices and their operating postcodes",
       "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Devín – oficiálna stránka samosprávy",
+      "url": "https://www.devin.sk/",
+      "type": "official"
+    },
+    {
+      "title": "Hlavné mesto Bratislava – evidencia mestskej časti Bratislava-Devín a adresa Kremeľská 39, 841 10",
+      "url": "https://zverejnovanie.bratislava.sk/bratislava/subjekty/00603422/",
       "type": "official"
     }
   ],
