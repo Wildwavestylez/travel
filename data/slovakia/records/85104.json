@@ -19,13 +19,13 @@
       "category": "history",
       "priority": "A",
       "sources": [
-        "src_postal",
-        "src_postal_streets",
-        "src_postal_branch",
-        "src_petrzalka_memorials",
-        "src_bulik_mauthausen",
-        "src_bulik_matica",
-        "src_bulik_location"
+        "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/85104/",
+        "https://registermestskychuradov.sk/sluzby/postal_services/sk/",
+        "https://www.petrzalka.sk/wp-content/uploads/2023/12/31-Aktualizacia-zoznamu-pamatihodnosti-1.pdf",
+        "https://raumdernamen.mauthausen-memorial.org/?L=0&id=4&p=4343",
+        "https://matica.sk/pietna-spomienka-na-prveho-predsedu-ms-v-juhoslavii/",
+        "https://www.vets.cz/vpm/mista/obec/376-bratislava/Bul%C3%ADkova/"
       ],
       "map_category": "historical_monument",
       "location": {
@@ -56,43 +56,36 @@
   },
   "sources": [
     {
-      "id": "src_postal",
       "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
       "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
       "type": "official"
     },
     {
-      "id": "src_postal_streets",
       "title": "SITA – PSČ 85104 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85104/",
       "type": "news"
     },
     {
-      "id": "src_postal_branch",
       "title": "Register mestských úradov – Slovenská pošta Bratislava 5, Einsteinova 18",
       "url": "https://registermestskychuradov.sk/sluzby/postal_services/sk/",
       "type": "specialist"
     },
     {
-      "id": "src_petrzalka_memorials",
       "title": "Mestská časť Bratislava-Petržalka – Aktualizácia zoznamu pamätihodností, položka Pamätná tabuľa Bulíkova 17",
       "url": "https://www.petrzalka.sk/wp-content/uploads/2023/12/31-Aktualizacia-zoznamu-pamatihodnosti-1.pdf",
       "type": "official"
     },
     {
-      "id": "src_bulik_mauthausen",
       "title": "Mauthausen Memorial – Ján Bulík (1897–1942), biografie a odbojová činnost",
       "url": "https://raumdernamen.mauthausen-memorial.org/?L=0&id=4&p=4343",
       "type": "official"
     },
     {
-      "id": "src_bulik_matica",
       "title": "Matica slovenská – Pietna spomienka na prvého predsedu MS v Juhoslávii",
       "url": "https://matica.sk/pietna-spomienka-na-prveho-predsedu-ms-v-juhoslavii/",
       "type": "official"
     },
     {
-      "id": "src_bulik_location",
       "title": "Spolek pro vojenská pietní místa – Pamětní deska Ján Bulík, Bulíkova 17, souřadnice",
       "url": "https://www.vets.cz/vpm/mista/obec/376-bratislava/Bul%C3%ADkova/",
       "type": "specialist"
