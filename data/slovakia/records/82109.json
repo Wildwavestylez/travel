@@ -101,18 +101,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, verzia účinná od 1. 1. 2026, príloha 3a: PSČ 82108–82109 sú priradené k vybranej/dodávacej pošte Bratislava 1. Oficiálny zoznam pôšt uvádza prevádzku Bratislava 1 na Námestí SNP 35.",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Slovenská pošta – Technické parametre účinné od 1. 1. 2026; doplnkovo verejný CC0 dataset slovak-postal-codes odvodený z Registra adries SR (RAGEO)",
-    "postcode_source_release": "Technické parametre Slovenskej pošty účinné od 1. 1. 2026; adresný dataset kontrolovaný 20. 11. 2026",
-    "postcode_source_checked_at": "2026-11-20",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
     "postcode_conflict": false,
-    "postcode_conflict_note": "Verejný odvodený dataset obsahuje jeden odľahlý adresný záznam priradený k Pezinku; bez potvrdenia v primárnom RAGEO alebo u Slovenskej pošty sa nepovažuje za dôkaz, že PSČ 82109 pokrýva Pezinok. Dataset sa používa len ako doplnková kontrola a presná polygonálna hranica sa netvrdí.",
-    "delivery_office_note": "Slovenská pošta assigns PSČ 82108–82109 to the delivery office Bratislava 1. This postal routing relationship does not determine the representative municipal part or okres.",
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 674 adresních bodů v Bratislavě-Ružinově, 4 v Bratislavě-Starém Městě a 1 okrajovou adresu v městské části Myslenice (Pezinok). README datasetu výslovně označuje páry s 1–8 adresami za skutečné okrajové adresy obsluhované sousední poštou, nikoli automaticky za chybu. Dominantní cluster v Ružinově proto nadále odůvodňuje city Bratislava a district Ružinov. Jedna okrajová adresa v Pezinku nerozšiřuje reprezentativní obec ani nevyžaduje vytvářet fakt o běžné městské části Pezinka.",
+    "delivery_office_note": "Technické parametry Slovenské pošty účinné od 1. 1. 2026 uvádějí směrování PSČ 821 08–821 09 na vybranou poštu Bratislava 1. Jde o poštovní třídicí přiřazení; reprezentativní městská část se určuje podle adresních bodů.",
     "postcode_override_reason": null,
-    "geographic_authority": "RAGEO-derived address-point evidence identifies the main address cluster for PSČ 82109 in Ružinov (674 points) and a small fringe in Staré Mesto (8 points); an isolated unconfirmed row outside Bratislava was not used to expand the area. The representative place, Nivy–Klingerka, is in Bratislava-Ružinov, okres Bratislava II. Administrative fields therefore follow Ružinov rather than the Bratislava 1 sorting office. Official ZBGIS documentation independently places the Nivy locality in Bratislava-Ružinov."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 674 adresních bodů v Bratislava-Ružinov, 4 v Bratislava-Staré Mesto a 1 adresní bod v městské části Myslenice v obci Pezinok. Dataset README výslovně uvádí, že páry 1–8 adres jsou reálné okrajové adresy a nejsou filtrovány. Dominantní cluster v Ružinově podporuje reprezentativní obec Bratislava a district Ružinov; jediná okrajová adresa v Pezinku se eviduje jako součást širšího geografického rozsahu PSČ, nikoli jako reprezentativní obec. Slovenská pošta uvádí 821 08–821 09 v směru Bratislava 1. Směrování samo neurčuje polygonální hranici. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -234,6 +234,16 @@
       "title": "Mestská časť Bratislava-Ružinov – oficiálna evidencia pamätihodností a lokalít",
       "url": "https://ruzinov.egov.sk/sk/content/view/pamatihodnosti",
       "type": "official"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
+      "type": "specialist"
     }
   ],
   "translations": {
