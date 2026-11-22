@@ -113,7 +113,14 @@
         "https://obecvelkacierna.info/article/default/1910",
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d31057a3-dbd7-4181-8c49-28826f3c44a3"
       ],
-      "location": null
+      "location": {
+        "name": "Renesanční radnice Rajec – veřejný orientační bod pro archeologické lokality PSČ 015 01",
+        "lat": 49.088512,
+        "lon": 18.635246,
+        "type": "town_hall",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/rajec-radnica"
+      }
     },
     {
       "id": "fact_006",
@@ -145,9 +152,17 @@
       "map_category": "archaeological_site",
       "sources": [
         "https://www.obecsuja.sk/index.php/sk/obec/historia",
-        "https://www.obecsuja.sk/index.php/sk/obec/o-obci"
+        "https://www.obecsuja.sk/index.php/sk/obec/o-obci",
+        "https://poi.oma.sk/n14011262272"
       ],
-      "location": null
+      "location": {
+        "name": "Obecný úrad Šuja – verejný orientačný bod v obci",
+        "lat": 49.0697687,
+        "lon": 18.6290923,
+        "type": "town_hall",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n14011262272"
+      }
     },
     {
       "id": "fact_008",
@@ -159,9 +174,17 @@
       "sources": [
         "https://obecvelkacierna.info/article/default/1910",
         "https://www.malacierna.sk/pages/dejiny-obce-mala-cierna",
-        "https://www.malacierna.sk/pages/novodoba-historia-obce"
+        "https://www.malacierna.sk/pages/novodoba-historia-obce",
+        "https://poi.oma.sk/n14015617024"
       ],
-      "location": null
+      "location": {
+        "name": "Obecný úrad Malá Čierna – verejný orientačný bod pre historické sídla Malá a Veľká Čierna",
+        "lat": 49.1032316,
+        "lon": 18.5983481,
+        "type": "town_hall",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/n14015617024"
+      }
     }
   ],
   "photo": null,
@@ -284,6 +307,16 @@
       "title": "Rajecké poklady – regionálna história a archeologické nálezy",
       "url": "https://www.rajeckepoklady.sk/",
       "type": "specialist"
+    },
+    {
+      "title": "Obecný úrad Šuja – poloha verejného orientačného bodu",
+      "url": "https://poi.oma.sk/n14011262272",
+      "type": "other"
+    },
+    {
+      "title": "Obecný úrad Malá Čierna – poloha verejného orientačného bodu",
+      "url": "https://poi.oma.sk/n14015617024",
+      "type": "other"
     }
   ],
   "translations": {
@@ -313,7 +346,7 @@
         {
           "id": "fact_005",
           "title": "Pravěká Rajecká dolina: od měděné sekerky po keltské mince",
-          "text": "Území poštovní oblasti 015 01 má několik archeologických vrstev. V Ďurčině bylo nalezeno sídliště lužické kultury z mladší doby bronzové a měděná sekerka, která dokládá osídlení už v eneolitu. V Šuji se podle obecního historického zdroje našly mince keltského kmene Eravisků a v katastru se uvádí výšinné sídliště na Vraninách. Malá Čierna má nálezy púchovské kultury a starší sídlištní nálezy z doby římské; ve Veľké Čierné je doloženo sídliště púchovské kultury z přelomu letopočtu. Jde o několik odlišných lokalit, nikoli o jediné společné naleziště."
+          "text": "Území poštovní oblasti 015 01 má několik archeologických vrstev. V Ďurčině bylo nalezeno sídliště lužické kultury z mladší doby bronzové a měděná sekerka, která dokládá osídlení už v eneolitu. V Šuji se podle obecního historického zdroje našly mince keltského kmene Eravisků a v katastru se uvádí výšinné sídliště na Vraninách. Malá Čierna má nálezy púchovské kultury a starší sídlištní nálezy z doby římské; ve Veľké Čierné je doloženo sídliště púchovské kultury z přelomu letopočtu. Jde o několik odlišných lokalit, nikoli o jediné společné naleziště. Mapový bod označuje radnici v Rajci jako veřejné orientační místo pro oblast PSČ 015 01; jednotlivé archeologické nálezy leží v několika odlišných obcích a nejsou tímto bodem přesně lokalizovány."
         },
         {
           "id": "fact_006",
@@ -323,12 +356,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: keltské mince, výšinné sídliště Vraniny a mlýn na Rajčiance",
-          "text": "Šuja leží na nivě Rajčianky mezi Rajcem a Rajeckou Lesnou. Obecní historické zdroje spojují její osídlení s púchovskou kulturou a uvádějí keltské mince kmene Eravisků nalezené na jejím území. Na nedalekých Vraninách se podle historických pramenů nacházelo výšinné sídliště. První písemná zmínka o obci pochází z roku 1393, kdy se uvádí pod názvem Chya a patřila Lietavskému panství. Fotografie v obecním archivu zachycují také Reislerův mlýn na Rajčiance a jeho okolí při rozvodnění řeky. Příběh obce tak spojuje starší osídlení, říční krajinu a tradiční hospodářství."
+          "text": "Šuja leží na nivě Rajčianky mezi Rajcem a Rajeckou Lesnou. Obecní historické zdroje spojují její osídlení s púchovskou kulturou a uvádějí keltské mince kmene Eravisků nalezené na jejím území. Na nedalekých Vraninách se podle historických pramenů nacházelo výšinné sídliště. První písemná zmínka o obci pochází z roku 1393, kdy se uvádí pod názvem Chya a patřila Lietavskému panství. Fotografie v obecním archivu zachycují také Reislerův mlýn na Rajčiance a jeho okolí při rozvodnění řeky. Příběh obce tak spojuje starší osídlení, říční krajinu a tradiční hospodářství. Mapový bod označuje obecní úřad jako veřejné orientační místo v Šuji; přesná poloha keltských nálezů, sídliště na Vraninách ani Reislerova mlýna tím není určena."
         },
         {
           "id": "fact_008",
           "title": "Malá a Veľká Čierna: stará sídla na západním vstupu do Rajecké doliny",
-          "text": "Veľká Čierna je písemně doložena už v roce 1361 pod názvem Nagh Cherna; v jejím katastru se nacházelo sídliště púchovské kultury z přelomu letopočtu. V roce 1598 měla 24 domů a dlouhodobě patřila rodu Čerňanských. Malá Čierna se poprvé připomíná v darovací listině z 6. března 1471 jako Kys. Charna. Archeologické nálezy v jejím okolí dokládají púchovskou kulturu a sídlištní památky ze starší doby římské; část nálezů zničila těžba kamene v lomu na rozhraní katastrů. Ve Veľké Čierné byla v roce 1974 vysvěcena cyrilometodějská kaple postavená u příležitosti jubilea úmrtí sv. Cyrila."
+          "text": "Veľká Čierna je písemně doložena už v roce 1361 pod názvem Nagh Cherna; v jejím katastru se nacházelo sídliště púchovské kultury z přelomu letopočtu. V roce 1598 měla 24 domů a dlouhodobě patřila rodu Čerňanských. Malá Čierna se poprvé připomíná v darovací listině z 6. března 1471 jako Kys. Charna. Archeologické nálezy v jejím okolí dokládají púchovskou kulturu a sídlištní památky ze starší doby římské; část nálezů zničila těžba kamene v lomu na rozhraní katastrů. Ve Veľké Čierné byla v roce 1974 vysvěcena cyrilometodějská kaple postavená u příležitosti jubilea úmrtí sv. Cyrila. Mapový bod označuje obecní úřad v Malé Čierné jako veřejné orientační místo pro příběh obou sídel; nejde o přesnou polohu historických jader Malé ani Velké Čierné."
         }
       ]
     },
@@ -358,7 +391,7 @@
         {
           "id": "fact_005",
           "title": "Das vorgeschichtliche Rajecká-Tal: von der Kupferaxt bis zu keltischen Münzen",
-          "text": "Das Gebiet der Postleitzahl 015 01 weist mehrere archäologische Schichten auf. In Ďurčiná wurden eine Siedlung der Lausitzer Kultur aus der jüngeren Bronzezeit und eine Kupferaxt gefunden, die eine Besiedlung bereits im Äneolithikum belegt. In Šuja wurden laut örtlicher Geschichtsdarstellung Münzen des keltischen Stammes der Eravisker gefunden; auf Vraniny wird eine Höhensiedlung vermutet. Malá Čierna besitzt Funde der Púchov-Kultur und ältere Siedlungsspuren aus der Römerzeit; in Veľká Čierna ist eine Siedlung der Púchov-Kultur um die Zeitenwende belegt. Es handelt sich um mehrere getrennte Fundstellen."
+          "text": "Das Gebiet der Postleitzahl 015 01 weist mehrere archäologische Schichten auf. In Ďurčiná wurden eine Siedlung der Lausitzer Kultur aus der jüngeren Bronzezeit und eine Kupferaxt gefunden, die eine Besiedlung bereits im Äneolithikum belegt. In Šuja wurden laut örtlicher Geschichtsdarstellung Münzen des keltischen Stammes der Eravisker gefunden; auf Vraniny wird eine Höhensiedlung vermutet. Malá Čierna besitzt Funde der Púchov-Kultur und ältere Siedlungsspuren aus der Römerzeit; in Veľká Čierna ist eine Siedlung der Púchov-Kultur um die Zeitenwende belegt. Es handelt sich um mehrere getrennte Fundstellen. Der Kartenpunkt kennzeichnet das Rathaus von Rajec als öffentlichen Orientierungspunkt für das Postleitzahlengebiet 015 01; die einzelnen archäologischen Funde liegen in mehreren verschiedenen Gemeinden und werden dadurch nicht genau lokalisiert."
         },
         {
           "id": "fact_006",
@@ -368,12 +401,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: keltische Münzen, Höhensiedlung Vraniny und die Mühle an der Rajčianka",
-          "text": "Šuja liegt auf der Aue des Flusses Rajčianka zwischen Rajec und Rajecká Lesná. Die örtlichen historischen Quellen verbinden die Besiedlung mit der Púchov-Kultur und erwähnen Münzen des keltischen Stammes der Eravisker, die im Gemeindegebiet gefunden wurden. Auf dem nahe gelegenen Vraniny befand sich laut historischen Quellen eine Höhensiedlung. Die erste schriftliche Erwähnung stammt aus dem Jahr 1393, als der Ort Chya hieß und zur Herrschaft Lietava gehörte. Alte Gemeindefotos zeigen auch die Reisler-Mühle an der Rajčianka und ihre Umgebung bei Hochwasser."
+          "text": "Šuja liegt auf der Aue des Flusses Rajčianka zwischen Rajec und Rajecká Lesná. Die örtlichen historischen Quellen verbinden die Besiedlung mit der Púchov-Kultur und erwähnen Münzen des keltischen Stammes der Eravisker, die im Gemeindegebiet gefunden wurden. Auf dem nahe gelegenen Vraniny befand sich laut historischen Quellen eine Höhensiedlung. Die erste schriftliche Erwähnung stammt aus dem Jahr 1393, als der Ort Chya hieß und zur Herrschaft Lietava gehörte. Alte Gemeindefotos zeigen auch die Reisler-Mühle an der Rajčianka und ihre Umgebung bei Hochwasser. Der Kartenpunkt kennzeichnet das Gemeindeamt als öffentlichen Orientierungspunkt in Šuja; die genaue Lage der keltischen Funde, der Siedlung auf Vraniny und der Reisler-Mühle wird dadurch nicht festgelegt."
         },
         {
           "id": "fact_008",
           "title": "Malá und Veľká Čierna: alte Siedlungen am westlichen Eingang ins Rajecká-Tal",
-          "text": "Veľká Čierna ist seit 1361 als Nagh Cherna schriftlich belegt; im Gemeindegebiet lag eine Siedlung der Púchov-Kultur um die Zeitenwende. 1598 hatte der Ort 24 Häuser und gehörte lange der Familie Čerňanský. Malá Čierna erscheint erstmals in einer Schenkungsurkunde vom 6. März 1471 als Kys. Charna. Archäologische Funde belegen dort die Púchov-Kultur und Siedlungsspuren aus der älteren Römerzeit; ein Teil der Funde wurde durch Steinabbau zerstört. In Veľká Čierna wurde 1974 eine Kyrill-und-Method-Kapelle geweiht."
+          "text": "Veľká Čierna ist seit 1361 als Nagh Cherna schriftlich belegt; im Gemeindegebiet lag eine Siedlung der Púchov-Kultur um die Zeitenwende. 1598 hatte der Ort 24 Häuser und gehörte lange der Familie Čerňanský. Malá Čierna erscheint erstmals in einer Schenkungsurkunde vom 6. März 1471 als Kys. Charna. Archäologische Funde belegen dort die Púchov-Kultur und Siedlungsspuren aus der älteren Römerzeit; ein Teil der Funde wurde durch Steinabbau zerstört. In Veľká Čierna wurde 1974 eine Kyrill-und-Method-Kapelle geweiht. Der Kartenpunkt kennzeichnet das Gemeindeamt in Malá Čierna als öffentlichen Orientierungspunkt für die Geschichte beider Siedlungen; er markiert nicht die genaue Lage der historischen Ortskerne von Malá oder Veľká Čierna."
         }
       ]
     },
@@ -403,7 +436,7 @@
         {
           "id": "fact_005",
           "title": "Prehistoric Rajecká Valley: from a copper axe to Celtic coins",
-          "text": "The 015 01 postcode area contains several archaeological layers. In Ďurčiná, a Lusatian-culture settlement from the Late Bronze Age and a copper axe document activity as early as the Eneolithic. Local history sources report coins of the Celtic Eravisci tribe found in Šuja and a hilltop settlement at Vraniny. Malá Čierna has Púchov-culture finds and earlier Roman-period settlement traces; a Púchov-culture settlement around the turn of the era is documented in Veľká Čierna. These are separate archaeological localities."
+          "text": "The 015 01 postcode area contains several archaeological layers. In Ďurčiná, a Lusatian-culture settlement from the Late Bronze Age and a copper axe document activity as early as the Eneolithic. Local history sources report coins of the Celtic Eravisci tribe found in Šuja and a hilltop settlement at Vraniny. Malá Čierna has Púchov-culture finds and earlier Roman-period settlement traces; a Púchov-culture settlement around the turn of the era is documented in Veľká Čierna. These are separate archaeological localities. The map point marks Rajec Town Hall as a public orientation point for postcode area 015 01; the individual archaeological finds lie in several different municipalities and are not precisely located by this marker."
         },
         {
           "id": "fact_006",
@@ -413,12 +446,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: Celtic coins, the Vraniny hilltop settlement and the mill on the Rajčianka",
-          "text": "Šuja lies on the floodplain of the Rajčianka River between Rajec and Rajecká Lesná. Local historical sources link its settlement to the Púchov culture and report coins of the Celtic Eravisci tribe found in the municipality. Historical sources also mention a hilltop settlement on nearby Vraniny. The first written reference dates to 1393, when the village was called Chya and belonged to the Lietava estate. Old municipal photographs also show the Reisler mill on the Rajčianka and its surroundings during floods."
+          "text": "Šuja lies on the floodplain of the Rajčianka River between Rajec and Rajecká Lesná. Local historical sources link its settlement to the Púchov culture and report coins of the Celtic Eravisci tribe found in the municipality. Historical sources also mention a hilltop settlement on nearby Vraniny. The first written reference dates to 1393, when the village was called Chya and belonged to the Lietava estate. Old municipal photographs also show the Reisler mill on the Rajčianka and its surroundings during floods. The map point marks the municipal office as a public orientation point in Šuja; it does not identify the exact locations of the Celtic finds, the Vraniny hillfort or the Reisler mill."
         },
         {
           "id": "fact_008",
           "title": "Malá and Veľká Čierna: old settlements at the western entrance to the Rajecká Valley",
-          "text": "Veľká Čierna is documented from 1361 as Nagh Cherna; a Púchov-culture settlement from around the turn of the era was found in its territory. In 1598 it had 24 houses and was long owned by the Čerňanský family. Malá Čierna first appears in a royal donation charter dated 6 March 1471 as Kys. Charna. Archaeological finds there document the Púchov culture and older Roman-period settlement remains; some were destroyed by quarrying. A chapel dedicated to Saints Cyril and Methodius was consecrated in Veľká Čierna in 1974."
+          "text": "Veľká Čierna is documented from 1361 as Nagh Cherna; a Púchov-culture settlement from around the turn of the era was found in its territory. In 1598 it had 24 houses and was long owned by the Čerňanský family. Malá Čierna first appears in a royal donation charter dated 6 March 1471 as Kys. Charna. Archaeological finds there document the Púchov culture and older Roman-period settlement remains; some were destroyed by quarrying. A chapel dedicated to Saints Cyril and Methodius was consecrated in Veľká Čierna in 1974. The map point marks the municipal office in Malá Čierna as a public orientation point for the story of both settlements; it is not the exact location of either historic village core."
         }
       ]
     },
@@ -448,7 +481,7 @@
         {
           "id": "fact_005",
           "title": "El valle prehistórico de Rajecká: de un hacha de cobre a monedas celtas",
-          "text": "El área del código postal 015 01 conserva varias capas arqueológicas. En Ďurčiná se hallaron un asentamiento de la cultura lusaciana de la Edad del Bronce tardía y un hacha de cobre que prueba actividad ya en el Eneolítico. Las fuentes locales mencionan monedas de la tribu celta de los eraviscos halladas en Šuja y un asentamiento en altura en Vraniny. Malá Čierna conserva hallazgos de la cultura de Púchov y restos de asentamiento de época romana; en Veľká Čierna está documentado un asentamiento de la cultura de Púchov de alrededor del cambio de era. Son yacimientos distintos."
+          "text": "El área del código postal 015 01 conserva varias capas arqueológicas. En Ďurčiná se hallaron un asentamiento de la cultura lusaciana de la Edad del Bronce tardía y un hacha de cobre que prueba actividad ya en el Eneolítico. Las fuentes locales mencionan monedas de la tribu celta de los eraviscos halladas en Šuja y un asentamiento en altura en Vraniny. Malá Čierna conserva hallazgos de la cultura de Púchov y restos de asentamiento de época romana; en Veľká Čierna está documentado un asentamiento de la cultura de Púchov de alrededor del cambio de era. Son yacimientos distintos. El punto del mapa señala el ayuntamiento de Rajec como referencia pública para el área postal 015 01; los hallazgos arqueológicos individuales se encuentran en varios municipios y no quedan localizados con precisión por este marcador."
         },
         {
           "id": "fact_006",
@@ -458,12 +491,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: monedas celtas, el asentamiento de Vraniny y el molino del río Rajčianka",
-          "text": "Šuja se encuentra en la llanura aluvial del río Rajčianka, entre Rajec y Rajecká Lesná. Las fuentes históricas locales relacionan su poblamiento con la cultura de Púchov y mencionan monedas de la tribu celta de los eraviscos halladas en el municipio. También se cita un asentamiento en altura en las cercanas Vraniny. La primera mención escrita data de 1393, cuando el lugar se llamaba Chya y pertenecía al señorío de Lietava. Fotografías antiguas del municipio muestran además el molino Reisler junto al río Rajčianka durante las crecidas."
+          "text": "Šuja se encuentra en la llanura aluvial del río Rajčianka, entre Rajec y Rajecká Lesná. Las fuentes históricas locales relacionan su poblamiento con la cultura de Púchov y mencionan monedas de la tribu celta de los eraviscos halladas en el municipio. También se cita un asentamiento en altura en las cercanas Vraniny. La primera mención escrita data de 1393, cuando el lugar se llamaba Chya y pertenecía al señorío de Lietava. Fotografías antiguas del municipio muestran además el molino Reisler junto al río Rajčianka durante las crecidas. El punto del mapa señala el ayuntamiento como referencia pública en Šuja; no determina la ubicación exacta de los hallazgos celtas, del asentamiento de Vraniny ni del molino Reisler."
         },
         {
           "id": "fact_008",
           "title": "Malá y Veľká Čierna: antiguos asentamientos en la entrada occidental del valle de Rajecká",
-          "text": "Veľká Čierna está documentada desde 1361 como Nagh Cherna; en su término se halló un asentamiento de la cultura de Púchov de alrededor del cambio de era. En 1598 tenía 24 casas y perteneció durante mucho tiempo a la familia Čerňanský. Malá Čierna aparece por primera vez en una carta de donación real del 6 de marzo de 1471 como Kys. Charna. Los hallazgos arqueológicos documentan allí la cultura de Púchov y restos de asentamiento de época romana; parte fue destruida por la extracción de piedra. En Veľká Čierna se consagró en 1974 una capilla dedicada a Cirilo y Metodio."
+          "text": "Veľká Čierna está documentada desde 1361 como Nagh Cherna; en su término se halló un asentamiento de la cultura de Púchov de alrededor del cambio de era. En 1598 tenía 24 casas y perteneció durante mucho tiempo a la familia Čerňanský. Malá Čierna aparece por primera vez en una carta de donación real del 6 de marzo de 1471 como Kys. Charna. Los hallazgos arqueológicos documentan allí la cultura de Púchov y restos de asentamiento de época romana; parte fue destruida por la extracción de piedra. En Veľká Čierna se consagró en 1974 una capilla dedicada a Cirilo y Metodio. El punto del mapa señala el ayuntamiento de Malá Čierna como referencia pública para la historia de ambos asentamientos; no indica la ubicación exacta de ninguno de sus núcleos históricos."
         }
       ]
     },
@@ -493,7 +526,7 @@
         {
           "id": "fact_005",
           "title": "La vallée préhistorique de Rajecká : de la hache de cuivre aux monnaies celtiques",
-          "text": "Le territoire du code postal 015 01 possède plusieurs couches archéologiques. À Ďurčiná, on a découvert un habitat de la culture lusacienne de l’âge du Bronze récent et une hache de cuivre témoignant d’une présence dès l’Énéolithique. Les sources locales signalent des monnaies de la tribu celte des Éravisques à Šuja et un habitat de hauteur à Vraniny. Malá Čierna possède des découvertes de la culture de Púchov et des traces d’habitat de l’époque romaine ; à Veľká Čierna, un habitat de la culture de Púchov autour du changement d’ère est attesté. Il s’agit de sites distincts."
+          "text": "Le territoire du code postal 015 01 possède plusieurs couches archéologiques. À Ďurčiná, on a découvert un habitat de la culture lusacienne de l’âge du Bronze récent et une hache de cuivre témoignant d’une présence dès l’Énéolithique. Les sources locales signalent des monnaies de la tribu celte des Éravisques à Šuja et un habitat de hauteur à Vraniny. Malá Čierna possède des découvertes de la culture de Púchov et des traces d’habitat de l’époque romaine ; à Veľká Čierna, un habitat de la culture de Púchov autour du changement d’ère est attesté. Il s’agit de sites distincts. Le point cartographique désigne la mairie de Rajec comme repère public pour la zone postale 015 01 ; les découvertes archéologiques se trouvent dans plusieurs communes distinctes et ne sont pas précisément localisées par ce repère."
         },
         {
           "id": "fact_006",
@@ -503,12 +536,12 @@
         {
           "id": "fact_007",
           "title": "Šuja : monnaies celtiques, habitat de hauteur de Vraniny et moulin sur la Rajčianka",
-          "text": "Šuja se trouve dans la plaine alluviale de la Rajčianka, entre Rajec et Rajecká Lesná. Les sources historiques locales associent son peuplement à la culture de Púchov et signalent des monnaies de la tribu celte des Éravisques trouvées sur le territoire communal. Un habitat de hauteur se trouvait également sur les Vraniny voisins. La première mention écrite date de 1393, lorsque le lieu s’appelait Chya et appartenait à la seigneurie de Lietava. D’anciennes photos communales montrent aussi le moulin Reisler sur la Rajčianka et ses abords lors des crues."
+          "text": "Šuja se trouve dans la plaine alluviale de la Rajčianka, entre Rajec et Rajecká Lesná. Les sources historiques locales associent son peuplement à la culture de Púchov et signalent des monnaies de la tribu celte des Éravisques trouvées sur le territoire communal. Un habitat de hauteur se trouvait également sur les Vraniny voisins. La première mention écrite date de 1393, lorsque le lieu s’appelait Chya et appartenait à la seigneurie de Lietava. D’anciennes photos communales montrent aussi le moulin Reisler sur la Rajčianka et ses abords lors des crues. Le point cartographique désigne la mairie comme repère public à Šuja ; il ne précise pas l’emplacement exact des découvertes celtiques, de l’habitat fortifié de Vraniny ni du moulin Reisler."
         },
         {
           "id": "fact_008",
           "title": "Malá et Veľká Čierna : anciens établissements à l’entrée ouest de la vallée de Rajecká",
-          "text": "Veľká Čierna est attestée depuis 1361 sous le nom de Nagh Cherna ; un habitat de la culture de Púchov datant du tournant de notre ère se trouvait sur son territoire. En 1598, le village comptait 24 maisons et appartint longtemps à la famille Čerňanský. Malá Čierna apparaît pour la première fois dans un acte de donation royale du 6 mars 1471 sous le nom de Kys. Charna. Les découvertes archéologiques y attestent la culture de Púchov et des traces d’habitat de l’époque romaine ; une partie fut détruite par l’extraction de pierre. Une chapelle dédiée à Cyrille et Méthode fut consacrée à Veľká Čierna en 1974."
+          "text": "Veľká Čierna est attestée depuis 1361 sous le nom de Nagh Cherna ; un habitat de la culture de Púchov datant du tournant de notre ère se trouvait sur son territoire. En 1598, le village comptait 24 maisons et appartint longtemps à la famille Čerňanský. Malá Čierna apparaît pour la première fois dans un acte de donation royale du 6 mars 1471 sous le nom de Kys. Charna. Les découvertes archéologiques y attestent la culture de Púchov et des traces d’habitat de l’époque romaine ; une partie fut détruite par l’extraction de pierre. Une chapelle dédiée à Cyrille et Méthode fut consacrée à Veľká Čierna en 1974. Le point cartographique désigne la mairie de Malá Čierna comme repère public pour l’histoire des deux localités ; il ne localise précisément aucun des deux noyaux historiques."
         }
       ]
     },
@@ -538,7 +571,7 @@
         {
           "id": "fact_005",
           "title": "La valle preistorica di Rajecká: dall’ascia di rame alle monete celtiche",
-          "text": "Il territorio del codice postale 015 01 conserva diverse fasi archeologiche. A Ďurčiná sono stati trovati un insediamento della cultura lusaziana della tarda età del Bronzo e un’ascia di rame che testimonia una presenza già nell’Eneolitico. Le fonti locali segnalano monete della tribù celtica degli Eravisci a Šuja e un insediamento d’altura a Vraniny. Malá Čierna presenta reperti della cultura di Púchov e tracce d’insediamento di epoca romana; a Veľká Čierna è documentato un insediamento della cultura di Púchov attorno al cambio dell’era. Si tratta di località distinte."
+          "text": "Il territorio del codice postale 015 01 conserva diverse fasi archeologiche. A Ďurčiná sono stati trovati un insediamento della cultura lusaziana della tarda età del Bronzo e un’ascia di rame che testimonia una presenza già nell’Eneolitico. Le fonti locali segnalano monete della tribù celtica degli Eravisci a Šuja e un insediamento d’altura a Vraniny. Malá Čierna presenta reperti della cultura di Púchov e tracce d’insediamento di epoca romana; a Veľká Čierna è documentato un insediamento della cultura di Púchov attorno al cambio dell’era. Si tratta di località distinte. Il punto sulla mappa indica il municipio di Rajec come riferimento pubblico per l'area postale 015 01; i singoli reperti archeologici si trovano in diversi comuni e non sono localizzati con precisione da questo indicatore."
         },
         {
           "id": "fact_006",
@@ -548,12 +581,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: monete celtiche, insediamento d’altura di Vraniny e mulino sulla Rajčianka",
-          "text": "Šuja si trova nella pianura alluvionale del fiume Rajčianka tra Rajec e Rajecká Lesná. Le fonti storiche locali collegano il suo insediamento alla cultura di Púchov e segnalano monete della tribù celtica degli Eravisci rinvenute nel territorio comunale. Sulle vicine Vraniny si trovava anche un insediamento d’altura. La prima menzione scritta risale al 1393, quando il luogo era chiamato Chya e apparteneva alla signoria di Lietava. Vecchie fotografie comunali mostrano anche il mulino Reisler sulla Rajčianka durante le piene."
+          "text": "Šuja si trova nella pianura alluvionale del fiume Rajčianka tra Rajec e Rajecká Lesná. Le fonti storiche locali collegano il suo insediamento alla cultura di Púchov e segnalano monete della tribù celtica degli Eravisci rinvenute nel territorio comunale. Sulle vicine Vraniny si trovava anche un insediamento d’altura. La prima menzione scritta risale al 1393, quando il luogo era chiamato Chya e apparteneva alla signoria di Lietava. Vecchie fotografie comunali mostrano anche il mulino Reisler sulla Rajčianka durante le piene. Il punto sulla mappa indica il municipio come riferimento pubblico a Šuja; non individua la posizione esatta dei reperti celtici, dell'insediamento di Vraniny o del mulino Reisler."
         },
         {
           "id": "fact_008",
           "title": "Malá e Veľká Čierna: antichi insediamenti all’ingresso occidentale della valle di Rajecká",
-          "text": "Veľká Čierna è documentata dal 1361 con il nome Nagh Cherna; nel suo territorio si trovava un insediamento della cultura di Púchov attorno al cambio dell’era. Nel 1598 aveva 24 case e appartenne a lungo alla famiglia Čerňanský. Malá Čierna compare per la prima volta in un atto di donazione reale del 6 marzo 1471 come Kys. Charna. I reperti archeologici documentano la cultura di Púchov e tracce di insediamento di epoca romana; parte fu distrutta dall’estrazione della pietra. Nel 1974 a Veľká Čierna fu consacrata una cappella dedicata a Cirillo e Metodio."
+          "text": "Veľká Čierna è documentata dal 1361 con il nome Nagh Cherna; nel suo territorio si trovava un insediamento della cultura di Púchov attorno al cambio dell’era. Nel 1598 aveva 24 case e appartenne a lungo alla famiglia Čerňanský. Malá Čierna compare per la prima volta in un atto di donazione reale del 6 marzo 1471 come Kys. Charna. I reperti archeologici documentano la cultura di Púchov e tracce di insediamento di epoca romana; parte fu distrutta dall’estrazione della pietra. Nel 1974 a Veľká Čierna fu consacrata una cappella dedicata a Cirillo e Metodio. Il punto sulla mappa indica il municipio di Malá Čierna come riferimento pubblico per la storia di entrambi gli insediamenti; non rappresenta la posizione esatta dei rispettivi nuclei storici."
         }
       ]
     },
@@ -583,7 +616,7 @@
         {
           "id": "fact_005",
           "title": "Het prehistorische Rajecká-dal: van een koperen bijl tot Keltische munten",
-          "text": "Het gebied van postcode 015 01 kent verschillende archeologische lagen. In Ďurčiná zijn een nederzetting van de Lausitzcultuur uit de late bronstijd en een koperen bijl gevonden, die activiteit in het eneolithicum aantonen. Lokale bronnen melden munten van de Keltische stam Eravisci in Šuja en een hoogtenederzetting bij Vraniny. Malá Čierna heeft vondsten van de Púchovcultuur en oudere nederzettingssporen uit de Romeinse tijd; in Veľká Čierna is een nederzetting van de Púchovcultuur rond het begin van onze jaartelling gedocumenteerd. Het gaat om verschillende vindplaatsen."
+          "text": "Het gebied van postcode 015 01 kent verschillende archeologische lagen. In Ďurčiná zijn een nederzetting van de Lausitzcultuur uit de late bronstijd en een koperen bijl gevonden, die activiteit in het eneolithicum aantonen. Lokale bronnen melden munten van de Keltische stam Eravisci in Šuja en een hoogtenederzetting bij Vraniny. Malá Čierna heeft vondsten van de Púchovcultuur en oudere nederzettingssporen uit de Romeinse tijd; in Veľká Čierna is een nederzetting van de Púchovcultuur rond het begin van onze jaartelling gedocumenteerd. Het gaat om verschillende vindplaatsen. Het kaartpunt markeert het stadhuis van Rajec als openbaar oriëntatiepunt voor postcodegebied 015 01; de afzonderlijke archeologische vondsten liggen in verschillende gemeenten en worden met deze markering niet exact gelokaliseerd."
         },
         {
           "id": "fact_006",
@@ -593,12 +626,12 @@
         {
           "id": "fact_007",
           "title": "Šuja: Keltische munten, de hoogtenederzetting Vraniny en de molen aan de Rajčianka",
-          "text": "Šuja ligt op de uiterwaard van de rivier Rajčianka tussen Rajec en Rajecká Lesná. Lokale historische bronnen verbinden de bewoning met de Púchovcultuur en melden munten van de Keltische stam Eravisci die in de gemeente zijn gevonden. Op het nabijgelegen Vraniny lag volgens historische bronnen een hoogtenederzetting. De eerste schriftelijke vermelding dateert uit 1393, toen de plaats Chya heette en bij het landgoed Lietava hoorde. Oude gemeentefoto’s tonen ook de Reisler-molen aan de Rajčianka en de omgeving tijdens overstromingen."
+          "text": "Šuja ligt op de uiterwaard van de rivier Rajčianka tussen Rajec en Rajecká Lesná. Lokale historische bronnen verbinden de bewoning met de Púchovcultuur en melden munten van de Keltische stam Eravisci die in de gemeente zijn gevonden. Op het nabijgelegen Vraniny lag volgens historische bronnen een hoogtenederzetting. De eerste schriftelijke vermelding dateert uit 1393, toen de plaats Chya heette en bij het landgoed Lietava hoorde. Oude gemeentefoto’s tonen ook de Reisler-molen aan de Rajčianka en de omgeving tijdens overstromingen. Het kaartpunt markeert het gemeentehuis als openbaar oriëntatiepunt in Šuja; het geeft niet de exacte locaties van de Keltische vondsten, de nederzetting op Vraniny of de molen van Reisler aan."
         },
         {
           "id": "fact_008",
           "title": "Malá en Veľká Čierna: oude nederzettingen aan de westelijke toegang tot de Rajecká-vallei",
-          "text": "Veľká Čierna wordt sinds 1361 vermeld als Nagh Cherna; in het gebied lag een nederzetting van de Púchovcultuur rond het begin van onze jaartelling. In 1598 telde het dorp 24 huizen en lange tijd was het eigendom van de familie Čerňanský. Malá Čierna verschijnt voor het eerst in een koninklijke schenkingsakte van 6 maart 1471 als Kys. Charna. Archeologische vondsten tonen de Púchovcultuur en oudere Romeinse nederzettingssporen; een deel ging verloren door steengroeven. In 1974 werd in Veľká Čierna een kapel ter ere van Cyrillus en Methodius ingewijd."
+          "text": "Veľká Čierna wordt sinds 1361 vermeld als Nagh Cherna; in het gebied lag een nederzetting van de Púchovcultuur rond het begin van onze jaartelling. In 1598 telde het dorp 24 huizen en lange tijd was het eigendom van de familie Čerňanský. Malá Čierna verschijnt voor het eerst in een koninklijke schenkingsakte van 6 maart 1471 als Kys. Charna. Archeologische vondsten tonen de Púchovcultuur en oudere Romeinse nederzettingssporen; een deel ging verloren door steengroeven. In 1974 werd in Veľká Čierna een kapel ter ere van Cyrillus en Methodius ingewijd. Het kaartpunt markeert het gemeentehuis van Malá Čierna als openbaar oriëntatiepunt voor de geschiedenis van beide nederzettingen; het is niet de exacte locatie van een van beide historische dorpskernen."
         }
       ]
     }
