@@ -137,3 +137,19 @@ Before enabling the daily schedule:
 - configure failure alerts and a visible last-successful-backup status.
 
 **Important:** The successful three-record Prague backup/restore test proves that narrow export, Dropbox read-back and controlled restoration can work. It does not yet prove that full-database scheduled backup, registry automation, retention or alerting are deployed.
+
+
+## 11. Operational registry implementation
+
+The initial Supabase operational registry uses two narrowly scoped tables:
+
+- `public.backup_work_waves` — one row per explicitly opened work wave; stores country, operation, human-readable scope, exact stable record IDs, exact postcodes, schema/content version and lifecycle status.
+- `public.backup_snapshots` — immutable history of generated snapshots; stores the work-wave reference, exact record count, canonical scope SHA-256, object SHA-256, Dropbox paths, predecessor reference and verification evidence.
+
+Both tables have Row Level Security enabled. Direct privileges are revoked from `anon` and `authenticated`; the backup Edge Functions use the existing server-side `service_role` secret. The only secondary index is the work-wave/history lookup on `backup_snapshots(wave_id, created_at DESC)`. Do not add broad indexes, public policies or client-side access without a separately reviewed requirement.
+
+The first deployed implementation migration is `data/backup/migrations/20261122_create_backup_work_wave_registry.sql`. A work-wave row is created with exact membership before export. A snapshot row is inserted only after the JSON object, restore SQL and manifest have each been uploaded add-only and downloaded again for SHA-256 verification. The work wave is marked `COMPLETE` only after the verified snapshot has been recorded.
+
+The dedicated Příbramsko implementation is `supabase/functions/travel-backup-cz-26101-26401-pribramsko/index.ts`. Its live invocation key is deliberately not committed. The function has a fixed 36-record allowlist, performs a read-only preview before export, reads only those postal rows and their linked map points plus the CZ schema, and refuses to export unless every record is V5 + published. It is a scoped work-wave exporter, not a full-database backup or restore executor.
+
+This implementation does not activate the daily full-backup schedule, retention/deletion, automatic restore, alerts, or read-only database locking. Those remain separate deployment and approval tasks.
