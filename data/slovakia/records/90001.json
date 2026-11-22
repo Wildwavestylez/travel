@@ -1,4 +1,313 @@
 {
   "postcode": "90001",
-  "status": "placeholder"
+  "city": "Modra",
+  "district": null,
+  "county": "Pezinok",
+  "state": "Bratislavský kraj",
+  "representative_place": "Slovenská ľudová majolika, Dolná 138",
+  "representative_point": {
+    "lat": 48.326711,
+    "lon": 17.316547
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Modranská majolika: řemeslo s tradicí od hrnčířského cechu",
+      "text": "Modra je po staletí spojená s hrnčířstvím a malovanou keramikou, která se proslavila jako modranská majolika. První hrnčířský cech zde vznikl roku 1636; významným mezníkem novodobé výroby bylo založení keramické dílny a školy v roce 1883. Na tuto tradici navázala Slovenská ľudová majolika, jejíž ručně malované výrobky si zachovaly charakteristické místní ornamenty a barevnost. Označení původu „Modranská majolika“ bylo na Slovensku zapsáno v roce 1975. Výroba je spojena s místními přírodními podmínkami, dostupností hlíny, vody a písku i s řemeslným předáváním vzorů a postupů. Areál na Dolné ulici dodnes představuje živé místo této tradice.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "src_majolica_indprop",
+        "src_majolica_visitmodra",
+        "src_majolica_stvr"
+      ],
+      "location": {
+        "name": "Slovenská ľudová majolika",
+        "address": "Dolná 138, 900 01 Modra, Slovensko",
+        "lat": 48.326711,
+        "lon": 17.316547,
+        "type": "factory",
+        "accuracy": "exact",
+        "source": "https://projektidentita.sk/database-record/66"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_002",
+      "title": "Emreszovský dům: místo posledních dnů Ľudovíta Štúra",
+      "text": "Mešťanský dům rodiny Emreszových v Modre je spojen s poslední kapitolou života Ľudovíta Štúra. Po smrti svého bratra Karola v roce 1851 se Ľudovít přestěhoval do Modry, aby pomáhal s výchovou a vzděláváním sedmi osiřelých synovců. Dne 22. prosince 1855 se při nehodě na lovu vážně zranil. Do Emreszovského domu ho následně přenesli, aby o něj mohla pečovat rodina jeho švagrové Rosiny. Zranění podlehl 12. ledna 1856. Dům se stal místem paměti: v roce 1956 zde vznikla jeho pamětní místnost a budova dnes hostí expozice Múzea Ľudovíta Štúra Slovenského národního muzea. Připomíná nejen Štúrovu veřejnou roli v slovenském národním obrození, ale i jeho osobní vazbu k rodině a městu.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "src_stur_snm_history",
+        "src_stur_snm_exposition",
+        "src_stur_modra"
+      ],
+      "location": {
+        "name": "Emreszovský dům – Múzeum Ľudovíta Štúra",
+        "address": "Štúrova 84, 900 01 Modra, Slovensko",
+        "lat": 48.336831,
+        "lon": 17.310649,
+        "type": "historic_address",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/modra-muzeum-ludovita-stura"
+      },
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_003",
+      "title": "Zochova chata: horská útulna otevřená v roce 1933",
+      "text": "V rekreační oblasti Piesok v Malých Karpatech stojí Zochova chata, která patří k tradičním výletním místům v okolí Modry. První hosty přivítala 30. dubna 1933 a dostala jméno po evangelickém faráři, politikovi a prvním bratislavském županovi Samuelu Zochovi. Chata navázala na dlouhodobou oblibu modranských lesů jako místa odpočinku a pobytu v přírodě. V letech 2007–2011 prošla rozsáhlou rekonstrukcí a rozšířením, při nichž se architekti a provozovatelé snažili zachovat její původní charakter a vztah k okolní krajině. Dnešní hotelová podoba tak pokračuje v téměř stoletém příběhu horského rekreačního místa.",
+      "category": "tourism_and_surroundings",
+      "priority": "B",
+      "sources": [
+        "src_zoch_history",
+        "src_zoch_contact",
+        "src_modra_recreation"
+      ],
+      "location": {
+        "name": "Zochova chata",
+        "address": "Piesok 4015/B7, 900 01 Modra, Slovensko",
+        "lat": 48.381667,
+        "lon": 17.277222,
+        "type": "hotel",
+        "accuracy": "exact",
+        "source": "https://www.hotelzochovachata.sk/kontakt/"
+      },
+      "map_category": "visitor_attraction"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – seznam vybraných dodávacích pošt uvádí Modru 1 s PSČ 900 01; adresní důkazy potvrzují 900 01 v samotné Modře (Dolná 138, Štúrova 84) i v lokalitě Piesok (Zochova chata). SITA pro PSČ 90001 uvádí obce/lokality Modra, Harmónia a Piesok. Nejde o Malacky; ty používají 901 01.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "PSČ 900 01 obsluhuje Modru a její rekreační lokality Harmónia a Piesok. Záměna s okresem Malacky vzniká kvůli číselné řadě 900 xx; samotné město Malacky používá PSČ 901 01.",
+    "delivery_office_note": "Dodávací pošta Modra 1 používá PSČ 900 01. Adresa pošty ani její provozní status nejsou použity jako geografický reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta pro PSČ; oficiální adresy Slovenského národního múzea, Slovenskej ľudovej majoliky a Zochovej chaty pro fyzické umístění; ŠÚ SR a oficiální městské zdroje pro administrativní zařazení Modry do okresu Pezinok a Bratislavského kraje."
+  },
+  "sources": [
+    {
+      "id": "src_majolica_indprop",
+      "title": "Úrad priemyselného vlastníctva SR – Špecifikácia označenia pôvodu Modranská majolika",
+      "url": "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_majolica_visitmodra",
+      "title": "Visit Modra – Slovenská ľudová majolika Modra",
+      "url": "https://www.visitmodra.sk/slovenska-ludova-majolika-modra/",
+      "type": "official"
+    },
+    {
+      "id": "src_majolica_stvr",
+      "title": "STVR – Modranská keramika rozpráva svoj príbeh už storočia",
+      "url": "https://spravy.stvr.sk/2025/12/modranska-keramika-rozprava-svoj-pribeh-uz-storocia-od-hliny-az-po-majoliku-ktora-zije-dodnes/",
+      "type": "news"
+    },
+    {
+      "id": "src_stur_snm_history",
+      "title": "Slovenské národné múzeum – Sídlo a ďalšie objekty Múzea Ľudovíta Štúra",
+      "url": "https://www.snm.sk/muzea-snm/muzeum-ludovita-stura/muzeum-ludovita-stura/o-muzeu/muzeum-ludovita-stura-sidlo-a-dalsie-objekty-muzea",
+      "type": "official"
+    },
+    {
+      "id": "src_stur_snm_exposition",
+      "title": "Slovenské národné múzeum – Ľudovít Štúr Memorial Room",
+      "url": "https://www.snm.sk/en/museums/ludovit-stur-museum/ludovit-stur-museum/visit/expositions?clanok=ludovit-stur-memorial-room",
+      "type": "official"
+    },
+    {
+      "id": "src_stur_modra",
+      "title": "Mesto Modra – Pred 167 rokmi zomrel Ľudovít Štúr",
+      "url": "https://www.modra.sk/pred-167-rokmi-zomrel-ludovit-stur/",
+      "type": "official"
+    },
+    {
+      "id": "src_zoch_history",
+      "title": "Hotel Zochova chata – History",
+      "url": "https://www.hotelzochovachata.sk/history/?lang=en",
+      "type": "primary"
+    },
+    {
+      "id": "src_zoch_contact",
+      "title": "Hotel Zochova chata – Kontakt, adresa a GPS",
+      "url": "https://www.hotelzochovachata.sk/kontakt/",
+      "type": "primary"
+    },
+    {
+      "id": "src_modra_recreation",
+      "title": "Úrad priemyselného vlastníctva SR – územné vymedzenie Modry, Harmónie a Piesku",
+      "url": "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_modra",
+      "title": "Slovenská pošta – Zoznam vybraných pôšt na predaj eKolkov, Modra 1, PSČ 90001",
+      "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_postal_coverage",
+      "title": "SITA – PSČ 90001, obce Modra, Harmónia a Piesok",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90001/",
+      "type": "regional"
+    },
+    {
+      "id": "src_postal_streets",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Slovenská ľudová majolika, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Modranská majolika: řemeslo s tradicí od hrnčířského cechu",
+          "text": "Modra je po staletí spojená s hrnčířstvím a malovanou keramikou, která se proslavila jako modranská majolika. První hrnčířský cech zde vznikl roku 1636; významným mezníkem novodobé výroby bylo založení keramické dílny a školy v roce 1883. Na tuto tradici navázala Slovenská ľudová majolika, jejíž ručně malované výrobky si zachovaly charakteristické místní ornamenty a barevnost. Označení původu „Modranská majolika“ bylo na Slovensku zapsáno v roce 1975. Výroba je spojena s místními přírodními podmínkami, dostupností hlíny, vody a písku i s řemeslným předáváním vzorů a postupů. Areál na Dolné ulici dodnes představuje živé místo této tradice."
+        },
+        {
+          "id": "fact_002",
+          "title": "Emreszovský dům: místo posledních dnů Ľudovíta Štúra",
+          "text": "Mešťanský dům rodiny Emreszových v Modre je spojen s poslední kapitolou života Ľudovíta Štúra. Po smrti svého bratra Karola v roce 1851 se Ľudovít přestěhoval do Modry, aby pomáhal s výchovou a vzděláváním sedmi osiřelých synovců. Dne 22. prosince 1855 se při nehodě na lovu vážně zranil. Do Emreszovského domu ho následně přenesli, aby o něj mohla pečovat rodina jeho švagrové Rosiny. Zranění podlehl 12. ledna 1856. Dům se stal místem paměti: v roce 1956 zde vznikla jeho pamětní místnost a budova dnes hostí expozice Múzea Ľudovíta Štúra Slovenského národního muzea. Připomíná nejen Štúrovu veřejnou roli v slovenském národním obrození, ale i jeho osobní vazbu k rodině a městu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata: horská útulna otevřená v roce 1933",
+          "text": "V rekreační oblasti Piesok v Malých Karpatech stojí Zochova chata, která patří k tradičním výletním místům v okolí Modry. První hosty přivítala 30. dubna 1933 a dostala jméno po evangelickém faráři, politikovi a prvním bratislavském županovi Samuelu Zochovi. Chata navázala na dlouhodobou oblibu modranských lesů jako místa odpočinku a pobytu v přírodě. V letech 2007–2011 prošla rozsáhlou rekonstrukcí a rozšířením, při nichž se architekti a provozovatelé snažili zachovat její původní charakter a vztah k okolní krajině. Dnešní hotelová podoba tak pokračuje v téměř stoletém příběhu horského rekreačního místa."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Slowakische Volksmajolika, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Modraner Majolika: ein Handwerk mit Wurzeln in der Töpferzunft",
+          "text": "Modra ist seit Jahrhunderten mit der Töpferei und bemalter Keramik verbunden, die als Modraner Majolika bekannt wurde. Die erste Töpferzunft entstand hier 1636; ein wichtiger Schritt für die moderne Herstellung war die Gründung einer Keramikwerkstatt und -schule im Jahr 1883. An diese Tradition knüpfte die Slowakische Volksmajolika an. Ihre handbemalten Erzeugnisse bewahren charakteristische lokale Ornamente und Farben. Die Herkunftsbezeichnung „Modranská majolika“ wurde 1975 in der Slowakei registriert. Die Herstellung hängt mit den örtlichen Naturbedingungen, dem Vorkommen von Ton, Wasser und Sand sowie der handwerklichen Weitergabe von Mustern und Techniken zusammen. Das Werk in der Dolná-Straße ist bis heute ein lebendiger Ort dieser Tradition."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Emresz-Haus: der Ort von Ľudovít Štúrs letzten Lebenstagen",
+          "text": "Das Bürgerhaus der Familie Emresz in Modra ist mit dem letzten Kapitel im Leben von Ľudovít Štúr verbunden. Nach dem Tod seines Bruders Karol im Jahr 1851 zog Ľudovít nach Modra, um bei der Erziehung und Ausbildung seiner sieben verwaisten Neffen zu helfen. Am 22. Dezember 1855 verletzte er sich bei einem Jagdunfall schwer. Anschließend brachte man ihn in das Emresz-Haus, wo die Familie seiner Schwägerin Rosina ihn pflegen konnte. Am 12. Januar 1856 erlag er seinen Verletzungen. Das Haus wurde zu einem Erinnerungsort: 1956 entstand dort sein Gedenkzimmer, und heute beherbergt das Gebäude Ausstellungen des Ľudovít-Štúr-Museums des Slowakischen Nationalmuseums. Es erinnert sowohl an Štúrs öffentliche Rolle in der slowakischen Nationalbewegung als auch an seine persönliche Bindung an Familie und Stadt."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Zoch-Hütte: ein Berggasthaus, das 1933 eröffnet wurde",
+          "text": "Im Erholungsgebiet Piesok in den Kleinen Karpaten liegt die Zoch-Hütte, ein traditionelles Ausflugsziel in der Umgebung von Modra. Die ersten Gäste wurden am 30. April 1933 empfangen. Benannt wurde die Hütte nach Samuel Zoch, einem evangelischen Pfarrer, Politiker und ersten Gespan des Bezirks Bratislava. Sie knüpfte an die lange Beliebtheit der Wälder von Modra als Ort der Erholung und des Aufenthalts in der Natur an. Zwischen 2007 und 2011 wurde sie umfassend umgebaut und erweitert; dabei sollte ihr ursprünglicher Charakter und die Verbindung zur umgebenden Landschaft erhalten bleiben. Das heutige Hotel führt somit die fast hundertjährige Geschichte dieses Erholungsortes in den Bergen fort."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Slovak Folk Majolica, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Modra majolica: a craft rooted in the potters’ guild",
+          "text": "For centuries, Modra has been associated with pottery and painted ceramics known as Modra majolica. The town’s first potters’ guild was established in 1636; a major milestone in modern production came with the founding of a ceramic workshop and school in 1883. The Slovak Folk Majolica continued this tradition, preserving characteristic local ornaments and colours in its hand-painted products. The designation of origin “Modranská majolika” was registered in Slovakia in 1975. Production is closely connected with local natural conditions, including the availability of clay, water and sand, as well as the craft tradition through which patterns and techniques have been passed down. The workshop complex on Dolná Street remains a living centre of this tradition."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Emresz House: the place of Ľudovít Štúr’s final days",
+          "text": "The Emresz family townhouse in Modra is associated with the final chapter of Ľudovít Štúr’s life. After his brother Karol died in 1851, Ľudovít moved to Modra to help raise and educate his seven orphaned nephews. On 22 December 1855, he was seriously injured in a hunting accident. He was then taken to the Emresz House, where his sister-in-law Rosina’s family could care for him. He died from his injuries on 12 January 1856. The house became a place of remembrance: a memorial room was established there in 1956, and the building now hosts exhibitions of the Slovak National Museum’s Ľudovít Štúr Museum. It recalls both Štúr’s public role in the Slovak national revival and his personal ties to family and town."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata: a mountain lodge opened in 1933",
+          "text": "Zochova chata stands in the Piesok recreation area of the Little Carpathians and has long been a traditional destination near Modra. It welcomed its first guests on 30 April 1933 and was named after Samuel Zoch, a Protestant pastor, politician and the first Bratislava district governor. The lodge continued the long tradition of people visiting the forests around Modra for rest and recreation in nature. It underwent extensive reconstruction and enlargement between 2007 and 2011, with the aim of preserving its original character and relationship with the surrounding landscape. Its present hotel form therefore continues the nearly century-long story of this mountain retreat."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Majolica Popular Eslovaca, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La mayólica de Modra: un oficio nacido de la cofradía de alfareros",
+          "text": "Modra está vinculada desde hace siglos a la alfarería y a la cerámica pintada conocida como mayólica de Modra. La primera cofradía de alfareros se fundó aquí en 1636; un hito para la producción moderna fue la creación de un taller y una escuela de cerámica en 1883. La Majolica Popular Eslovaca continuó esta tradición y conservó en sus piezas pintadas a mano los motivos y colores característicos de la zona. La denominación de origen «Modranská majolika» se registró en Eslovaquia en 1975. La producción está ligada a las condiciones naturales locales, a la disponibilidad de arcilla, agua y arena y a la transmisión artesanal de motivos y técnicas. El complejo de la calle Dolná sigue siendo un centro vivo de esta tradición."
+        },
+        {
+          "id": "fact_002",
+          "title": "La casa Emresz: el lugar de los últimos días de Ľudovít Štúr",
+          "text": "La casa burguesa de la familia Emresz en Modra está vinculada al último capítulo de la vida de Ľudovít Štúr. Tras la muerte de su hermano Karol en 1851, Ľudovít se trasladó a Modra para ayudar en la educación de sus siete sobrinos huérfanos. El 22 de diciembre de 1855 sufrió heridas graves en un accidente de caza. Después fue llevado a la casa Emresz, donde la familia de su cuñada Rosina podía cuidarlo. Murió a causa de las heridas el 12 de enero de 1856. La casa se convirtió en un lugar de memoria: en 1956 se creó allí una sala conmemorativa y hoy el edificio alberga exposiciones del Museo Ľudovít Štúr del Museo Nacional Eslovaco. Recuerda tanto el papel público de Štúr en el renacimiento nacional eslovaco como sus vínculos personales con su familia y la ciudad."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata: un refugio de montaña inaugurado en 1933",
+          "text": "Zochova chata se encuentra en la zona recreativa de Piesok, en los Pequeños Cárpatos, y es desde hace tiempo un destino tradicional de excursión cerca de Modra. Recibió a sus primeros huéspedes el 30 de abril de 1933 y fue bautizada en honor de Samuel Zoch, pastor protestante, político y primer gobernador del distrito de Bratislava. El refugio continuó la larga tradición de visitar los bosques de Modra para descansar y disfrutar de la naturaleza. Entre 2007 y 2011 fue objeto de una amplia reconstrucción y ampliación, con el propósito de conservar su carácter original y su relación con el paisaje circundante. Su actual forma de hotel continúa así la historia, casi centenaria, de este lugar de descanso en la montaña."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Majolique populaire slovaque, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La majolique de Modra : un artisanat issu de la corporation des potiers",
+          "text": "Depuis des siècles, Modra est associée à la poterie et à la céramique peinte connue sous le nom de majolique de Modra. La première corporation de potiers y fut fondée en 1636 ; la création d’un atelier et d’une école de céramique en 1883 marqua une étape importante de la production moderne. La Majolique populaire slovaque a poursuivi cette tradition en préservant les ornements et les couleurs locales caractéristiques de ses pièces peintes à la main. L’appellation d’origine « Modranská majolika » a été enregistrée en Slovaquie en 1975. La production est liée aux conditions naturelles locales, à la disponibilité de l’argile, de l’eau et du sable, ainsi qu’à la transmission artisanale des motifs et des techniques. Le site de la rue Dolná demeure un lieu vivant de cette tradition."
+        },
+        {
+          "id": "fact_002",
+          "title": "La maison Emresz : le lieu des derniers jours de Ľudovít Štúr",
+          "text": "La maison bourgeoise de la famille Emresz à Modra est liée au dernier chapitre de la vie de Ľudovít Štúr. Après la mort de son frère Karol en 1851, Ľudovít s’installa à Modra pour aider à élever et instruire ses sept neveux orphelins. Le 22 décembre 1855, il fut grièvement blessé lors d’un accident de chasse. Il fut ensuite transporté dans la maison Emresz, où la famille de sa belle-sœur Rosina pouvait prendre soin de lui. Il succomba à ses blessures le 12 janvier 1856. La maison devint un lieu de mémoire : une salle commémorative y fut créée en 1956 et le bâtiment accueille aujourd’hui des expositions du musée Ľudovít Štúr du Musée national slovaque. Elle rappelle à la fois le rôle public de Štúr dans le renouveau national slovaque et ses liens personnels avec sa famille et la ville."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata : un refuge de montagne ouvert en 1933",
+          "text": "Zochova chata se trouve dans la zone de loisirs de Piesok, dans les Petites Carpates, et constitue depuis longtemps une destination d’excursion traditionnelle près de Modra. Le refuge a accueilli ses premiers visiteurs le 30 avril 1933. Il porte le nom de Samuel Zoch, pasteur protestant, homme politique et premier préfet du district de Bratislava. Il s’inscrivait dans la longue tradition des séjours de repos et de loisirs dans les forêts de Modra. Entre 2007 et 2011, il a fait l’objet d’une vaste reconstruction et d’un agrandissement visant à préserver son caractère d’origine et son lien avec le paysage environnant. Sa forme actuelle d’hôtel prolonge ainsi l’histoire presque centenaire de ce lieu de villégiature en montagne."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Maiolica popolare slovacca, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La maiolica di Modra: un artigianato nato dalla corporazione dei vasai",
+          "text": "Da secoli Modra è legata alla lavorazione della ceramica e alla produzione di manufatti dipinti conosciuti come maiolica di Modra. La prima corporazione dei vasai fu fondata qui nel 1636; una tappa importante per la produzione moderna fu la creazione di un laboratorio e di una scuola di ceramica nel 1883. La Maiolica popolare slovacca ha proseguito questa tradizione, conservando nei manufatti dipinti a mano gli ornamenti e i colori tipici del luogo. La denominazione di origine «Modranská majolika» è stata registrata in Slovacchia nel 1975. La produzione è legata alle condizioni naturali locali, alla disponibilità di argilla, acqua e sabbia e alla trasmissione artigianale di motivi e tecniche. Il complesso di via Dolná rimane un centro vivo di questa tradizione."
+        },
+        {
+          "id": "fact_002",
+          "title": "La casa Emresz: il luogo degli ultimi giorni di Ľudovít Štúr",
+          "text": "La casa borghese della famiglia Emresz a Modra è legata all’ultimo capitolo della vita di Ľudovít Štúr. Dopo la morte del fratello Karol nel 1851, Ľudovít si trasferì a Modra per aiutare a crescere e istruire i suoi sette nipoti rimasti orfani. Il 22 dicembre 1855 rimase gravemente ferito in un incidente di caccia. Fu quindi portato nella casa Emresz, dove la famiglia della cognata Rosina poteva assisterlo. Morì in seguito alle ferite il 12 gennaio 1856. La casa divenne un luogo della memoria: nel 1956 vi fu allestita una sala commemorativa e oggi l’edificio ospita le esposizioni del Museo Ľudovít Štúr del Museo nazionale slovacco. Ricorda sia il ruolo pubblico di Štúr nel risveglio nazionale slovacco sia il suo legame personale con la famiglia e la città."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata: un rifugio di montagna inaugurato nel 1933",
+          "text": "Zochova chata si trova nell’area ricreativa di Piesok, nei Piccoli Carpazi, ed è da tempo una meta tradizionale per le escursioni nei dintorni di Modra. I primi ospiti furono accolti il 30 aprile 1933. Il rifugio prese il nome da Samuel Zoch, pastore evangelico, politico e primo governatore del distretto di Bratislava. La struttura proseguì la lunga tradizione di frequentazione dei boschi di Modra per il riposo e il soggiorno nella natura. Tra il 2007 e il 2011 fu sottoposta a un’ampia ricostruzione e ampliamento, con l’obiettivo di conservarne il carattere originario e il rapporto con il paesaggio circostante. L’attuale forma alberghiera continua così la storia, quasi centenaria, di questo luogo di villeggiatura in montagna."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Slowaakse Volksmajolica, Dolná 138",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Modra-majolica: een ambacht met wortels in het pottenbakkersgilde",
+          "text": "Modra is al eeuwenlang verbonden met pottenbakken en beschilderd aardewerk dat bekendstaat als Modra-majolica. Het eerste pottenbakkersgilde werd hier in 1636 opgericht; een belangrijke stap voor de moderne productie was de oprichting van een keramiekwerkplaats en -school in 1883. De Slowaakse Volksmajolica zette deze traditie voort en behield de kenmerkende plaatselijke motieven en kleuren in haar handbeschilderde producten. De oorsprongsbenaming ‘Modranská majolika’ werd in 1975 in Slowakije geregistreerd. De productie hangt samen met de natuurlijke omstandigheden ter plaatse, de beschikbaarheid van klei, water en zand en de ambachtelijke overdracht van patronen en technieken. Het complex aan de Dolná-straat is nog altijd een levendige plek van deze traditie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Emresz-huis: de plaats van Ľudovít Štúrs laatste levensdagen",
+          "text": "Het burgerhuis van de familie Emresz in Modra is verbonden met het laatste hoofdstuk van Ľudovít Štúrs leven. Na de dood van zijn broer Karol in 1851 verhuisde Ľudovít naar Modra om te helpen bij de opvoeding en scholing van zijn zeven wees geworden neven. Op 22 december 1855 raakte hij ernstig gewond bij een jachtongeval. Daarna werd hij naar het Emresz-huis gebracht, waar de familie van zijn schoonzus Rosina hem kon verzorgen. Op 12 januari 1856 overleed hij aan zijn verwondingen. Het huis werd een herinneringsplek: in 1956 werd er een herdenkingskamer ingericht en tegenwoordig zijn er tentoonstellingen van het Ľudovít Štúr Museum van het Slowaaks Nationaal Museum gevestigd. Het herinnert zowel aan Štúrs publieke rol in de Slowaakse nationale heropleving als aan zijn persoonlijke band met zijn familie en de stad."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zochova chata: een berghut die in 1933 haar deuren opende",
+          "text": "Zochova chata ligt in het recreatiegebied Piesok in de Kleine Karpaten en is al lange tijd een geliefde uitstapbestemming bij Modra. De eerste gasten werden er op 30 april 1933 ontvangen. De hut werd vernoemd naar Samuel Zoch, een protestantse predikant, politicus en de eerste districtsbestuurder van Bratislava. Ze bouwde voort op de lange traditie om in de bossen rond Modra uit te rusten en van de natuur te genieten. Tussen 2007 en 2011 werd de hut grondig verbouwd en uitgebreid, met aandacht voor het oorspronkelijke karakter en de relatie met het omringende landschap. De huidige hotelvorm zet zo de bijna honderdjarige geschiedenis van deze bergachtige recreatieplek voort."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
