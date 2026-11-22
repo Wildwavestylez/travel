@@ -8,7 +8,7 @@
   "representative_place": "Plánky – zahrádkářská a chatová lokalita v Záhorské Bystrici",
   "representative_point": {
     "lat": 48.20037,
-    "lon": 17.05290
+    "lon": 17.0529
   },
   "access_point": null,
   "facts": [
@@ -28,7 +28,7 @@
         "name": "Plánky – zahrádkářská a chatová lokalita (reprezentativní bod)",
         "address": null,
         "lat": 48.20037,
-        "lon": 17.05290,
+        "lon": 17.0529,
         "type": "garden",
         "accuracy": "area_representative",
         "source": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_code_areas.csv"
@@ -37,18 +37,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta je autoritou pro přidělení PSČ. Oficiální seznam pošt spojuje kód 840 02 s poštou Bratislava 42; geografické přiřazení adresních bodů bylo doplněno veřejným CC0 datasetem odvozeným z Registru adries SR (RAGEO).",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Slovenská pošta – oficiální seznam pôšt; doplňkově CC0 dataset slovak-postal-codes odvozený z RAGEO",
-    "postcode_source_release": "Kontrola zdrojů 20. 11. 2026; dataset pin commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
-    "postcode_source_checked_at": "2026-11-20",
-    "postcode_conflict": true,
-    "postcode_conflict_note": "Adresní dataset uvádí 128 adresních bodů v Bratislavě-Záhorské Bystrici a 2 body v Lamači. Souhrnný reprezentativní bod PSČ 84002 leží v Plánkách v Záhorské Bystrici, proto je tento bod použit pro mapovou reprezentaci záznamu. Dva lamačské body nebyly individuálně identifikovány a rozpory sekundárních adresních evidencí pro některé adresy v okolí nebyly definitivně vyřešeny. Záznam proto nepředstírá přesnou polygonální hranici ani úplné vyřešení každého adresního bodu.",
-    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí poštu Bratislava 42 pod PSČ 840 02. Její fyzická adresa Saratovská 9 leží v Dúbravce a má vlastní adresní PSČ; poloha poštovní pobočky proto nebyla použita jako reprezentativní bod PSČ 84002.",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 128 adresních bodů v Bratislavě-Záhorské Bystrici a 2 v Bratislavě-Lamači. README datasetu výslovně uvádí, že malé páry PSČ × obec s 1–8 adresami jsou skutečné okrajové ulice nebo domy obsluhované sousední poštou a nejsou filtrovány. Obě lokality jsou součástí Bratislavy; nejde o konflikt s reprezentativním městem Bratislava ani o důvod měnit reprezentativní místo Plánky v Záhorské Bystrici. Bodový souhrn datasetu není polygonem doručovací oblasti.",
+    "delivery_office_note": "Aktuální technické parametry Slovenské pošty účinné od 1. 1. 2026 uvádějí PSČ 840 02 pro vybranou poštu Bratislava 47. Jde o třídicí/doručovací přiřazení, nikoli o přesnou hranici PSČ; adresa pošty nebyla použita jako reprezentativní bod.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR; pro tento záznam byl použit veřejný CC0 dataset odvozený z RAGEO, nikoli přímý export registru. Administrativní zařazení ověřeno vůči oficiálním informacím městské části Bratislava-Záhorská Bystrica. Souřadnice 48.20037, 17.05290 jsou reprezentativním bodem souhrnného datasetu pro PSČ 84002, nikoli hranicí doručovací oblasti."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 128 adresních bodů v Bratislava-Záhorská Bystrica a 2 v Bratislava-Lamač. Dataset README uvádí, že malé páry 1–8 adres jsou reálné okrajové adresy a nejsou odfiltrovány. Obě městské části jsou v obci Bratislava. Slovenská pošta v technických parametrech účinných od 1. 1. 2026 uvádí směrování 840 02 na vybranou poštu Bratislava 47. Směrování potvrzuje použití geografického PSČ v poštovním provozu, nikoli polygonální hranici. Reprezentativní místo Plánky a bod 48.20037, 17.05290 zůstávají vhodné. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -70,6 +70,16 @@
       "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom: Bratislava 42, PSČ 840 02",
       "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
       "type": "official"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
+      "type": "specialist"
     }
   ],
   "translations": {
