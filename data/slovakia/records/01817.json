@@ -22,9 +22,9 @@
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
-        "s_mansion",
-        "s_region_mansion",
-        "s_mansion_map"
+        "https://www.jasenica.sk/obec/sport-a-kultura/narodne-kulturne-pamiatky/",
+        "https://www.trencinregion.sk/93889/kastiel-jasenica",
+        "https://poi.oma.sk/w58950208"
       ],
       "map_category": "architecture",
       "location": {
@@ -34,7 +34,7 @@
         "lon": 18.4468924,
         "type": "building",
         "accuracy": "exact",
-        "source": "s_mansion_map"
+        "source": "https://poi.oma.sk/w58950208"
       }
     },
     {
@@ -44,10 +44,10 @@
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
-        "s_mansion",
-        "s_diocese",
-        "s_church_map",
-        "s_history"
+        "https://www.jasenica.sk/obec/sport-a-kultura/narodne-kulturne-pamiatky/",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/jasenica",
+        "https://poi.oma.sk/w58950437",
+        "https://www.jasenica.sk/obec/historia-obce/"
       ],
       "map_category": "religious_site",
       "location": {
@@ -57,7 +57,7 @@
         "lon": 18.4518908,
         "type": "church",
         "accuracy": "exact",
-        "source": "s_church_map"
+        "source": "https://poi.oma.sk/w58950437"
       }
     },
     {
@@ -67,10 +67,10 @@
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
-        "s_predhistory",
-        "s_sav_hradok",
-        "s_hradok_gps",
-        "s_nkp_registry"
+        "https://www.jasenica.sk/obec/historia-obce/predhistoricke-osidlenie-uzemia-jasenice-/",
+        "https://cevnad.sav.sk/aktivita_1_1/AVANS_v_roku_1979.pdf",
+        "https://www.krizom-krazom.online/hradok-predna-horka/",
+        "https://verejneudaje.com/kulturne-pamiatky/obec/jasenica"
       ],
       "map_category": "archaeological_site",
       "location": {
@@ -80,7 +80,7 @@
         "lon": 18.4303561,
         "type": "fortification",
         "accuracy": "approximate",
-        "source": "s_hradok_gps"
+        "source": "https://www.krizom-krazom.online/hradok-predna-horka/"
       }
     },
     {
@@ -90,8 +90,8 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "s_predhistory",
-        "s_sav_burial"
+        "https://www.jasenica.sk/obec/historia-obce/predhistoricke-osidlenie-uzemia-jasenice-/",
+        "https://cevnad.sav.sk/aktivita_1_1/SZ_48.pdf"
       ],
       "map_category": "archaeological_site",
       "location": null
@@ -103,8 +103,8 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "s_history",
-        "s_upvs"
+        "https://www.jasenica.sk/obec/historia-obce/",
+        "https://www.slovensko.sk/sk/lokality/_16d3a014-73cb-4b42-8fc2-f78ed2bbd5b4"
       ],
       "map_category": "historical_monument",
       "location": null
@@ -116,7 +116,7 @@
       "category": "local_story",
       "priority": "D",
       "sources": [
-        "s_history_flood"
+        "https://www.jasenica.sk/obec/historia-obce/"
       ],
       "map_category": "historical_monument",
       "location": null
@@ -138,91 +138,76 @@
   },
   "sources": [
     {
-      "id": "s_postal",
       "title": "Slovenská pošta – List of non-automated post offices",
       "url": "https://tandt.posta.sk/en/files/1305/list-of-non-automated-post-offices.pdf",
       "type": "official"
     },
     {
-      "id": "s_municipality",
       "title": "Obec Jasenica – Kontakty a adresa obecného úradu",
       "url": "https://www.jasenica.sk/kontakty/",
       "type": "official"
     },
     {
-      "id": "s_upvs",
       "title": "Ústredný portál verejnej správy – Jasenica",
       "url": "https://www.slovensko.sk/sk/lokality/_16d3a014-73cb-4b42-8fc2-f78ed2bbd5b4",
       "type": "official"
     },
     {
-      "id": "s_mansion",
       "title": "Obec Jasenica – Národné kultúrne pamiatky",
       "url": "https://www.jasenica.sk/obec/sport-a-kultura/narodne-kulturne-pamiatky/",
       "type": "official"
     },
     {
-      "id": "s_region_mansion",
       "title": "Trenčín región – Kaštieľ Jasenica",
       "url": "https://www.trencinregion.sk/93889/kastiel-jasenica",
       "type": "official"
     },
     {
-      "id": "s_mansion_map",
       "title": "OpenStreetMap / OMA – Kaštieľ Jasenica, adresa a súradnice",
       "url": "https://poi.oma.sk/w58950208",
       "type": "other"
     },
     {
-      "id": "s_diocese",
       "title": "Žilinská diecéza – Farnosť Jasenica",
       "url": "https://www.dcza.sk/sk/schematizmus/farnosti/jasenica",
       "type": "official"
     },
     {
-      "id": "s_church_map",
       "title": "OpenStreetMap / OMA – Kostol sv. Michala archanjela",
       "url": "https://poi.oma.sk/w58950437",
       "type": "other"
     },
     {
-      "id": "s_predhistory",
       "title": "Obec Jasenica – Predhistorické osídlenie územia Jasenice",
       "url": "https://www.jasenica.sk/obec/historia-obce/predhistoricke-osidlenie-uzemia-jasenice-/",
       "type": "official"
     },
     {
-      "id": "s_sav_burial",
       "title": "Archeologický ústav SAV – Študijné zvesti 48 (2010), archeologické nálezy v Jasenici",
       "url": "https://cevnad.sav.sk/aktivita_1_1/SZ_48.pdf",
       "type": "university"
     },
     {
-      "id": "s_sav_hradok",
       "title": "Archeologický ústav SAV – Archeologický výskum a nálezy na Slovensku v roku 1979, Hrádok Predná Hôrka",
       "url": "https://cevnad.sav.sk/aktivita_1_1/AVANS_v_roku_1979.pdf",
       "type": "university"
     },
     {
-      "id": "s_hradok_gps",
       "title": "Krížom-krážom Slovenskom – Hrádok Predná Hôrka v Jasenici (GPS poloha)",
       "url": "https://www.krizom-krazom.online/hradok-predna-horka/",
       "type": "specialist"
     },
     {
-      "id": "s_nkp_registry",
       "title": "VerejneUdaje – otvorené dáta Pamiatkového úradu SR, NKP Jasenica",
       "url": "https://verejneudaje.com/kulturne-pamiatky/obec/jasenica",
       "type": "specialist"
     },
     {
-      "id": "s_history",
       "title": "Obec Jasenica – História obce",
       "url": "https://www.jasenica.sk/obec/historia-obce/",
       "type": "official"
     },
     {
-      "id": "s_history_flood",
       "title": "Obec Jasenica – História obce, záznam obecnej kroniky o povodni v roku 1939",
       "url": "https://www.jasenica.sk/obec/historia-obce/",
       "type": "official"
