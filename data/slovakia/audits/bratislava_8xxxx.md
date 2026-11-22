@@ -144,3 +144,8 @@ Všech šest kanonických JSON souborů bylo znovu načteno z GitHubu. U každé
 ## Následná změna verze a publikace – 2026-11-22
 
 Na výslovný pokyn uživatele bylo všech 49 auditovaných obsahových záznamů bratislavského rozsahu 8xxxx převedeno na `data_version: 5` a `status: published`. Obsah, faktová ID, překlady, zdroje, lokace a pořadí faktů zůstaly beze změny. Dva záměrné placeholdery `85000` a `85009` zůstaly nedotčené. `database_index.json` byl synchronizován: 49 záznamů `published`, 2 placeholdery. Následuje automatické sestavení `explorer_index.json` workflow GitHub Actions; manifest se neupravuje ručně. Tato operace navazuje na dokončený audit 49/49 PASS a nemění jeho obsahové závěry.
+
+
+### Ověření Europe Explorer V5 – 2026-11-22
+
+GitHub Actions workflow `Build Slovakia Europe Explorer index` doběhlo úspěšně (run `45027734809`). Výstup: 49 publikovaných V5 záznamů, 232 faktových mapových bodů a 5 obsazených dlaždic (zoom 4–8). `explorer_index.json` byl zpětně načten: `count=49`, `map_point_count=232`; všech 49 položek odpovídá kanonickým záznamům včetně `status`, `data_version` a `representative_point`. Všech pět vygenerovaných dlaždic bylo načteno; každá obsahuje 232 bodů. Všechny faktové body ve všech 49 kanonických záznamech byly porovnány s dlaždicemi podle postcode, fact ID, title, category, map_category a přesných WGS84 souřadnic; celkem 232/232 shod. Předchozí neúspěšný push generovaného manifestu byl způsoben souběžnou změnou větve `main`; následný běh na aktuálním `main` doběhl úspěšně. Záloha Dropbox je poslední zbývající operace.
