@@ -20,12 +20,12 @@
       "category": "heritage_and_monuments",
       "priority": "A",
       "sources": [
-        "src_postal",
-        "src_postal_streets",
-        "src_petrzalka_heritage",
-        "src_city_heritage_record",
-        "src_petrzalka_book",
-        "src_drazdiak_history"
+        "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/85105/",
+        "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
+        "https://zastupitelstvo.bratislava.sk/data/att/51693.pdf",
+        "https://www.kniznicapetrzalka.sk/wp-content/uploads/2015/09/publikacia.pdf",
+        "https://srzbav.sk/velky-drazdiak-historia-a-priroda-ocami-rybara/"
       ],
       "map_category": "architecture",
       "location": {
@@ -45,12 +45,12 @@
       "category": "nature_and_landscape",
       "priority": "A",
       "sources": [
-        "src_postal",
-        "src_postal_streets",
-        "src_drazdiak_address",
-        "src_petrzalka_newspaper",
-        "src_drazdiak_history",
-        "src_city_plan"
+        "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/85105/",
+        "https://www.oma.sk/w122101451?s=poi",
+        "https://www.petrzalka.sk/wp-content/uploads/2019/07/Jul_August.pdf",
+        "https://srzbav.sk/velky-drazdiak-historia-a-priroda-ocami-rybara/",
+        "https://plan.petrzalka.sk/dokumenty/Dokument_plan_obnovy_Petrzalka_2029.pdf"
       ],
       "map_category": "nature",
       "location": {
@@ -81,55 +81,46 @@
   },
   "sources": [
     {
-      "id": "src_postal",
       "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
       "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
       "type": "official"
     },
     {
-      "id": "src_postal_streets",
       "title": "SITA – PSČ 85105 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85105/",
       "type": "news"
     },
     {
-      "id": "src_petrzalka_heritage",
       "title": "Mestská časť Bratislava-Petržalka – Pamätihodnosti a pamiatky, položka Horáreň pri Malom Draždiaku",
       "url": "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
       "type": "official"
     },
     {
-      "id": "src_city_heritage_record",
       "title": "Hlavné mesto SR Bratislava – Evidenčný list pamätihodnosti mesta Pet-IA-7: Horáreň pri Malom Draždiaku",
       "url": "https://zastupitelstvo.bratislava.sk/data/att/51693.pdf",
       "type": "official"
     },
     {
-      "id": "src_petrzalka_book",
       "title": "Ľuboš Kačírek a Pavol Tišliar – Petržalka do roku 1918, publikace Miestnej knižnice Petržalka a Katedry etnológie a muzeológie FiF UK",
       "url": "https://www.kniznicapetrzalka.sk/wp-content/uploads/2015/09/publikacia.pdf",
       "type": "university"
     },
     {
-      "id": "src_drazdiak_history",
       "title": "Mestská organizácia Slovenského rybárskeho zväzu Bratislava V – Veľký Draždiak: história a príroda očami rybára",
       "url": "https://srzbav.sk/velky-drazdiak-historia-a-priroda-ocami-rybara/",
       "type": "specialist"
     },
     {
-      "id": "src_drazdiak_address",
       "title": "OMA – Veľký Draždiak, pláž, adresa Antolská, 851 05 Bratislava a súradnice",
       "url": "https://www.oma.sk/w122101451?s=poi",
       "type": "specialist"
     },
     {
-      "id": "src_petrzalka_newspaper",
       "title": "Petržalské noviny – Leto na Šutrovke: Veľký Draždiak vznikol v roku 1982 po ťažbe štrku",
       "url": "https://www.petrzalka.sk/wp-content/uploads/2019/07/Jul_August.pdf",
       "type": "official"
     },
     {
-      "id": "src_city_plan",
       "title": "Mestská časť Bratislava-Petržalka – Program hospodárskeho rozvoja a sociálneho rozvoja 2023–2029",
       "url": "https://plan.petrzalka.sk/dokumenty/Dokument_plan_obnovy_Petrzalka_2029.pdf",
       "type": "official"
