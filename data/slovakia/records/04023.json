@@ -1,4 +1,531 @@
 {
   "postcode": "04023",
-  "status": "placeholder"
+  "city": "Košice",
+  "district": "Sídlisko KVP",
+  "county": "Košice II",
+  "state": "Košický kraj",
+  "representative_place": "Místní úřad městské části Košice-Sídlisko KVP",
+  "representative_point": {
+    "lat": 48.7162532,
+    "lon": 21.2137151
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Od prvního domu na Dénešově k velkému sídlišti",
+      "text": "Výstavba Sídliska KVP začala na přelomu let 1979 a 1980. První obyvatelé se nastěhovali do domu na Dénešově ulici a první trvalý pobyt je zde evidován od 5. ledna 1983. Hlavní výstavba bytových domů pokračovala do roku 1989. Začátky sídliště tak připomínají nejen rychlou výstavbu, ale i postupné formování nové městské komunity.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.mckvp.sk/mestska-cast/predstavenieKVP/historia",
+        "https://archiv.mckvp.sk/public/media/0069/KVaPka_noviny_jun_2023_special_print.pdf"
+      ],
+      "location": {
+        "name": "Dénešova 1 – místo prvního evidovaného osídlení sídliště",
+        "lat": 48.709103,
+        "lon": 21.2175321,
+        "type": "historic_address",
+        "accuracy": "approximate",
+        "source": "https://kosice.oma.sk/u/denesova/1"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_002",
+      "title": "Dvě plavárny, které zůstaly nedokončené",
+      "text": "Šéfprojektant sídliště, architekt Milan Motýľ, vzpomínal, že KVP bylo navrženo jako rozsáhlý obytný celek přibližně pro 25 tisíc lidí a šest tisíc bytů. V době sametové revoluce zde byly rozestavěné také dvě plavárny; podle architekta jim chyběly především technologie a dokončení. Změna politických a ekonomických poměrů však stavbu zastavila a plánované plavecké zázemí se nestalo součástí sídliště.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.kosiceonline.sk/kosicke-sidliska-nesplnili-ocakavania-architektov",
+        "https://archiv.mckvp.sk/public/media/0069/KVaPka_noviny_jun_2023_special_print.pdf"
+      ],
+      "location": {
+        "name": "Sídlisko KVP – orientační bod u Dénešovy ulice",
+        "lat": 48.709103,
+        "lon": 21.2175321,
+        "type": "neighborhood",
+        "accuracy": "area_representative",
+        "source": "https://kosice.oma.sk/u/denesova/1"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel Božího milosrdenství a farnost, která vyrostla v bytě",
+      "text": "Římskokatolická farnost Božího milosrdenství vznikla v roce 1994 a její první sídlo bylo v třípokojovém bytě na Bauerově ulici. Bohoslužby se zpočátku konaly ve škole a v krytu civilní ochrany. Základní kámen kostela byl položen 2. července 1995 za účasti papeže Jana Pavla II.; stavba podle farního svědectví trvala dvanáct let a kostel byl požehnán 1. září 2012. Projekt připravoval tým architektů vedený Martinem Drahovským a Petrem Pásztorem.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://kostolyslovenska.sk/detail/4871573621215481",
+        "https://www.katolickenoviny.sk/reportaz/category/reportaz/article/rozhodli-sa-pre-bozie-milosrdenstvo.xhtml"
+      ],
+      "location": {
+        "name": "Římskokatolický kostel Božího milosrdenství",
+        "lat": 48.715736,
+        "lon": 21.215481,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://kostolyslovenska.sk/detail/4871573621215481"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Drocárov park nese jméno poválečného košického představitele",
+      "text": "Drocárov park je pojmenován po Pavlu Drocárovi, který v letech 1954–1958 vedl Městský národní výbor v Košicích, tedy vykonával funkci odpovídající dnešnímu primátorovi. Jeho působení spadá do období rozsáhlého rozvoje města a výstavby nových bytů. Dnes park slouží jako důležité komunitní místo KVP; po revitalizaci nabízí dětské herní prvky, multifunkční hřiště i obnovenou basketbalovou plochu.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.mckvp.sk/drocarov-park",
+        "https://poi.oma.sk/w75791834"
+      ],
+      "location": {
+        "name": "Drocárov park",
+        "lat": 48.7094863,
+        "lon": 21.2145185,
+        "type": "park",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w75791834"
+      },
+      "map_category": "park_garden"
+    },
+    {
+      "id": "fact_005",
+      "title": "Časová kapsle pro další generace a zlatý habrový trojlist",
+      "text": "Při oslavách 40. výročí sídliště v květnu 2023 zasadila městská část před místním úřadem sloupovitý habr obecný a uložila časovou kapsli. Ta obsahuje historické i současné dokumenty, fotografie z počátků výstavby, vydání místního zpravodaje, svazek klíčů a dopis obyvatel budoucím generacím. Výběr stromu odkazuje na znak městské části: jeho zlatý habrový trojlist symbolizuje komunitu lidí, kteří tvoří společný domov.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "https://archiv.mckvp.sk/public/media/0069/KVaPka_noviny_jun_2023_special_print.pdf",
+        "https://kosicednes.sk/next-media/spravy/zakopavanie-casovej-kapsuly-odstartovalo-oslavy-na-sidlisku-kvp"
+      ],
+      "location": {
+        "name": "Místní úřad Košice-Sídlisko KVP",
+        "lat": 48.7162532,
+        "lon": 21.2137151,
+        "type": "town_hall",
+        "accuracy": "exact",
+        "source": "https://www.oma.sk/n883517126?s=poi"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Sídliště na okraji lesů s výhledem na Kojšovskou hoľu",
+      "text": "Sídlisko KVP leží přibližně šest kilometrů západně od centra Košic. Jeho severní a severozápadní okraj navazují na lesy a otevřenou krajinu; z některých míst sídliště se otevírá výhled na Kojšovskou hoľu ve Volovských vrších. Oficiální profil městské části uvádí rozlohu 1,77 km² a přibližně osm tisíc bytových jednotek. Kontrast husté panelové zástavby a zeleného okraje patří k charakteristickým rysům této části města.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_56af2c1c-9317-43db-ad94-13879866348f",
+        "https://static.kosice.sk/vzn/doc/3SXxqzyAS9ab0O7eM/vzn241_upl_znenie_od_2024-12-16.pdf"
+      ],
+      "location": {
+        "name": "Sídlisko KVP – reprezentativní bod obytné oblasti",
+        "lat": 48.7162532,
+        "lon": 21.2137151,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/n883517126?s=poi"
+      },
+      "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_007",
+      "title": "PSČ 040 23 zasahuje i do městské části Západ",
+      "text": "PSČ 040 23 není totožné s hranicí městské části Sídlisko KVP. Oficiální katalog ulic města Košice přiřazuje k tomuto kódu také lokalitu Čičky-majer v městské části Západ a uvádí Moskovskou třídu jak v části Sídlisko KVP, tak v části Západ. Při geografickém čtení PSČ je proto třeba respektovat konkrétní přiřazení ulic a lokalit, nikoli automaticky převzít hranici jedné městské části.",
+      "category": "geography_and_context",
+      "priority": "A",
+      "sources": [
+        "https://www.kosice.sk/mesto/katalog-ulic",
+        "https://kosice.oma.sk/u/cicky-majer",
+        "https://static.kosice.sk/vzn/doc/3SXxqzyAS9ab0O7eM/vzn241_upl_znenie_od_2024-12-16.pdf"
+      ],
+      "location": {
+        "name": "Čičky-majer – lokalita v městské části Košice-Západ",
+        "lat": 48.7230793,
+        "lon": 21.2176156,
+        "type": "neighborhood",
+        "accuracy": "approximate",
+        "source": "https://kosice.oma.sk/u/cicky-majer"
+      },
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální seznam pošt s rozšířeným prodejem uvádí Poštu Košice 23, Cottbuská 36, Košice, PSČ 040 23; oficiální katalog ulic města Košice potvrzuje přiřazení PSČ 04023 k ulicím a lokalitám Sídliska KVP a části městské části Západ.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Košice 23 je uvedena na adrese Cottbuská 36. Její umístění nebylo použito jako reprezentativní bod PSČ.",
+    "geographic_authority": "Oficiální katalog ulic města Košice, oficiální mapové dokumenty města a administrativní profil městské části Košice-Sídlisko KVP. Reprezentativní správní jednotka leží v okrese Košice II; katalog uvádí také lokalitu Čičky-majer a část Moskovské třídy v městské části Západ, která náleží do téhož okresu."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – oficiálny katalóg ulíc",
+      "url": "https://www.kosice.sk/mesto/katalog-ulic",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – informácie o mestskej časti Košice-Sídlisko KVP",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_56af2c1c-9317-43db-ad94-13879866348f",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Sídlisko KVP – história sídliska",
+      "url": "https://www.mckvp.sk/mestska-cast/predstavenieKVP/historia",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Sídlisko KVP – KVaPka, mimoriadne vydanie k 40. výročiu",
+      "url": "https://archiv.mckvp.sk/public/media/0069/KVaPka_noviny_jun_2023_special_print.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Košice Online – Košické sídliská nesplnili očakávania architektov",
+      "url": "https://www.kosiceonline.sk/kosicke-sidliska-nesplnili-ocakavania-architektov",
+      "type": "regional"
+    },
+    {
+      "title": "Kostoly Slovenska – Rímskokatolícky kostol Božieho milosrdenstva",
+      "url": "https://kostolyslovenska.sk/detail/4871573621215481",
+      "type": "specialist"
+    },
+    {
+      "title": "Katolícke noviny – Rozhodli sa pre Božie milosrdenstvo",
+      "url": "https://www.katolickenoviny.sk/reportaz/category/reportaz/article/rozhodli-sa-pre-bozie-milosrdenstvo.xhtml",
+      "type": "news"
+    },
+    {
+      "title": "Mestská časť Košice-Sídlisko KVP – Drocárov park",
+      "url": "https://www.mckvp.sk/drocarov-park",
+      "type": "official"
+    },
+    {
+      "title": "Košice:Dnes – Zakopávanie časovej kapsuly odštartovalo oslavy na Sídlisku KVP",
+      "url": "https://kosicednes.sk/next-media/spravy/zakopavanie-casovej-kapsuly-odstartovalo-oslavy-na-sidlisku-kvp",
+      "type": "news"
+    },
+    {
+      "title": "Mesto Košice – VZN č. 241, mapový výrez Sídliska KVP",
+      "url": "https://static.kosice.sk/vzn/doc/3SXxqzyAS9ab0O7eM/vzn241_upl_znenie_od_2024-12-16.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap / OMA – poloha miestneho úradu Sídliska KVP",
+      "url": "https://www.oma.sk/n883517126?s=poi",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – adresa Dénešova 1",
+      "url": "https://kosice.oma.sk/u/denesova/1",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – poloha Drocárovho parku",
+      "url": "https://poi.oma.sk/w75791834",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – lokalita Čičky-majer",
+      "url": "https://kosice.oma.sk/u/cicky-majer",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Místní úřad městské části Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Od prvního domu na Dénešově k velkému sídlišti",
+          "text": "Výstavba Sídliska KVP začala na přelomu let 1979 a 1980. První obyvatelé se nastěhovali do domu na Dénešově ulici a první trvalý pobyt je zde evidován od 5. ledna 1983. Hlavní výstavba bytových domů pokračovala do roku 1989. Začátky sídliště tak připomínají nejen rychlou výstavbu, ale i postupné formování nové městské komunity."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dvě plavárny, které zůstaly nedokončené",
+          "text": "Šéfprojektant sídliště, architekt Milan Motýľ, vzpomínal, že KVP bylo navrženo jako rozsáhlý obytný celek přibližně pro 25 tisíc lidí a šest tisíc bytů. V době sametové revoluce zde byly rozestavěné také dvě plavárny; podle architekta jim chyběly především technologie a dokončení. Změna politických a ekonomických poměrů však stavbu zastavila a plánované plavecké zázemí se nestalo součástí sídliště."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel Božího milosrdenství a farnost, která vyrostla v bytě",
+          "text": "Římskokatolická farnost Božího milosrdenství vznikla v roce 1994 a její první sídlo bylo v třípokojovém bytě na Bauerově ulici. Bohoslužby se zpočátku konaly ve škole a v krytu civilní ochrany. Základní kámen kostela byl položen 2. července 1995 za účasti papeže Jana Pavla II.; stavba podle farního svědectví trvala dvanáct let a kostel byl požehnán 1. září 2012. Projekt připravoval tým architektů vedený Martinem Drahovským a Petrem Pásztorem."
+        },
+        {
+          "id": "fact_004",
+          "title": "Drocárov park nese jméno poválečného košického představitele",
+          "text": "Drocárov park je pojmenován po Pavlu Drocárovi, který v letech 1954–1958 vedl Městský národní výbor v Košicích, tedy vykonával funkci odpovídající dnešnímu primátorovi. Jeho působení spadá do období rozsáhlého rozvoje města a výstavby nových bytů. Dnes park slouží jako důležité komunitní místo KVP; po revitalizaci nabízí dětské herní prvky, multifunkční hřiště i obnovenou basketbalovou plochu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Časová kapsle pro další generace a zlatý habrový trojlist",
+          "text": "Při oslavách 40. výročí sídliště v květnu 2023 zasadila městská část před místním úřadem sloupovitý habr obecný a uložila časovou kapsli. Ta obsahuje historické i současné dokumenty, fotografie z počátků výstavby, vydání místního zpravodaje, svazek klíčů a dopis obyvatel budoucím generacím. Výběr stromu odkazuje na znak městské části: jeho zlatý habrový trojlist symbolizuje komunitu lidí, kteří tvoří společný domov."
+        },
+        {
+          "id": "fact_006",
+          "title": "Sídliště na okraji lesů s výhledem na Kojšovskou hoľu",
+          "text": "Sídlisko KVP leží přibližně šest kilometrů západně od centra Košic. Jeho severní a severozápadní okraj navazují na lesy a otevřenou krajinu; z některých míst sídliště se otevírá výhled na Kojšovskou hoľu ve Volovských vrších. Oficiální profil městské části uvádí rozlohu 1,77 km² a přibližně osm tisíc bytových jednotek. Kontrast husté panelové zástavby a zeleného okraje patří k charakteristickým rysům této části města."
+        },
+        {
+          "id": "fact_007",
+          "title": "PSČ 040 23 zasahuje i do městské části Západ",
+          "text": "PSČ 040 23 není totožné s hranicí městské části Sídlisko KVP. Oficiální katalog ulic města Košice přiřazuje k tomuto kódu také lokalitu Čičky-majer v městské části Západ a uvádí Moskovskou třídu jak v části Sídlisko KVP, tak v části Západ. Při geografickém čtení PSČ je proto třeba respektovat konkrétní přiřazení ulic a lokalit, nikoli automaticky převzít hranici jedné městské části."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Amt des Stadtteils Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von der ersten Wohnung in der Dénešova-Straße zur großen Wohnsiedlung",
+          "text": "Der Bau der Wohnsiedlung KVP begann um die Jahreswende 1979/1980. Die ersten Bewohner zogen in ein Haus in der Dénešova-Straße ein; der erste dort registrierte ständige Wohnsitz datiert vom 5. Januar 1983. Der Hauptteil des Wohnungsbaus dauerte bis 1989. Die Anfänge erzählen sowohl von raschem Wachstum als auch von der Entstehung einer neuen Stadtgemeinschaft."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zwei Schwimmbäder, die nie fertiggestellt wurden",
+          "text": "Der leitende Projektarchitekt Milan Motýľ erinnerte daran, dass KVP als Wohnkomplex für etwa 25.000 Menschen und 6.000 Wohnungen geplant war. Zur Zeit der Samtenen Revolution befanden sich auch zwei Schwimmbäder im Bau. Laut dem Architekten fehlten vor allem die technische Ausstattung und die Fertigstellung. Der politische und wirtschaftliche Umbruch stoppte das Vorhaben."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Kirche der Göttlichen Barmherzigkeit und eine Pfarrei aus einer Wohnung",
+          "text": "Die römisch-katholische Pfarrei der Göttlichen Barmherzigkeit wurde 1994 gegründet; ihr erster Sitz befand sich in einer Dreizimmerwohnung in der Bauerova-Straße. Gottesdienste fanden zunächst in einer Schule und in einem Zivilschutzraum statt. Der Grundstein der Kirche wurde am 2. Juli 1995 in Anwesenheit von Papst Johannes Paul II. gelegt. Nach Angaben der Pfarrei dauerte der Bau zwölf Jahre; die Kirche wurde am 1. September 2012 gesegnet."
+        },
+        {
+          "id": "fact_004",
+          "title": "Der Drocár-Park erinnert an einen Košicer Kommunalpolitiker der Nachkriegszeit",
+          "text": "Der Drocár-Park ist nach Pavol Drocár benannt, der von 1954 bis 1958 dem Stadtnationalausschuss von Košice vorstand. Seine Amtszeit fiel in eine Phase starken Stadtwachstums und umfangreichen Wohnungsbaus. Heute ist der Park ein wichtiger Treffpunkt im Stadtteil KVP. Nach seiner Erneuerung bietet er Spielgeräte, einen Mehrzweckplatz und eine sanierte Basketballfläche."
+        },
+        {
+          "id": "fact_005",
+          "title": "Eine Zeitkapsel für kommende Generationen und das goldene Hainbuchen-Dreiblatt",
+          "text": "Zum 40-jährigen Bestehen der Siedlung pflanzte der Stadtteil im Mai 2023 vor dem örtlichen Amt eine Säulen-Hainbuche und vergrub eine Zeitkapsel. Sie enthält Dokumente, Fotos aus der Bauzeit, Ausgaben der Stadtteilzeitung, einen Schlüsselbund und einen Brief der Bewohner an künftige Generationen. Das goldene Hainbuchen-Dreiblatt im Wappen symbolisiert die Menschen, die gemeinsam eine Heimat bilden."
+        },
+        {
+          "id": "fact_006",
+          "title": "Eine Wohnsiedlung am Waldrand mit Blick auf die Kojšovská hoľa",
+          "text": "KVP liegt etwa sechs Kilometer westlich des Zentrums von Košice. Im Norden und Nordwesten grenzen Wälder und offene Landschaft an; von einigen Stellen reicht der Blick bis zur Kojšovská hoľa im Volovské-Gebirge. Das offizielle Stadtteilprofil nennt 1,77 km² und rund 8.000 Wohnungen. Der Gegensatz zwischen dichter Plattenbauarchitektur und grünem Landschaftsrand prägt den Stadtteil."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Postleitzahl 040 23 reicht auch in den Stadtteil Západ hinein",
+          "text": "Die Postleitzahl 040 23 entspricht nicht genau der Grenze von Sídlisko KVP. Das offizielle Straßenverzeichnis ordnet auch die Siedlung Čičky-majer im Stadtteil Západ dieser Postleitzahl zu. Außerdem führt es die Moskovská trieda sowohl für KVP als auch für Západ auf. Maßgeblich sind daher die konkreten Straßen- und Ortszuordnungen, nicht die Grenze eines einzigen Stadtteils."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Local Office of the Košice-Sídlisko KVP City District",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From the first home on Dénešova Street to a large housing estate",
+          "text": "Construction of KVP began around the turn of 1979–1980. The first residents moved into a building on Dénešova Street; the earliest recorded permanent residence dates to 5 January 1983. Most apartment construction continued until 1989. The estate's beginnings tell a story of rapid building and a new urban community taking shape."
+        },
+        {
+          "id": "fact_002",
+          "title": "Two swimming pools that were never completed",
+          "text": "Chief design architect Milan Motýľ recalled that KVP was planned for about 25,000 people and 6,000 flats. Two swimming pools were also under construction at the time of the Velvet Revolution. According to the architect, they mainly needed technical equipment and completion. Political and economic changes halted the work."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of Divine Mercy and a parish that began in a flat",
+          "text": "The Roman Catholic Parish of Divine Mercy was established in 1994, initially based in a three-room flat on Bauerova Street. Services were first held in a school and a civil-defence shelter. The church's foundation stone was laid on 2 July 1995 in the presence of Pope John Paul II. According to the parish, construction took twelve years, and the church was blessed on 1 September 2012."
+        },
+        {
+          "id": "fact_004",
+          "title": "Drocár Park commemorates a post-war Košice civic leader",
+          "text": "Drocár Park is named after Pavol Drocár, who chaired the Municipal National Committee in Košice from 1954 to 1958. His tenure coincided with major urban growth and housing development. Today the park is an important community hub for KVP, with children's play equipment, a multi-purpose sports court and a renewed basketball area."
+        },
+        {
+          "id": "fact_005",
+          "title": "A time capsule for future generations and the golden hornbeam trefoil",
+          "text": "To mark the estate's 40th anniversary in May 2023, the district planted a columnar hornbeam outside its local office and buried a time capsule. It contains documents, early construction photographs, local newsletter issues, a set of keys and a letter from residents to future generations. The golden hornbeam trefoil in the district's coat of arms symbolises the community that makes a shared home."
+        },
+        {
+          "id": "fact_006",
+          "title": "A housing estate on the edge of woodland, with views of Kojšovská hoľa",
+          "text": "KVP lies about six kilometres west of central Košice. Forests and open countryside border its northern and north-western edges, and some parts offer views towards Kojšovská hoľa in the Volovské Mountains. The official district profile gives its area as 1.77 km² and lists around 8,000 housing units. The contrast between dense prefabricated housing and the green landscape edge is characteristic."
+        },
+        {
+          "id": "fact_007",
+          "title": "Postcode 040 23 also extends into the Západ district",
+          "text": "Postcode 040 23 does not correspond exactly to the boundary of Sídlisko KVP. Košice's official street catalogue also assigns the Čičky-majer locality in Západ to this postcode. It lists Moskovská trieda under both KVP and Západ. The postcode's geography must therefore be understood through specific street and locality assignments, not a single district boundary."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Oficina local del distrito municipal Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De la primera vivienda en Dénešova a un gran barrio residencial",
+          "text": "La construcción de KVP comenzó entre finales de 1979 y principios de 1980. Los primeros residentes se instalaron en un edificio de la calle Dénešova; el primer registro de residencia permanente data del 5 de enero de 1983. La mayor parte de las viviendas se construyó hasta 1989. Los comienzos reflejan tanto la rápida expansión como la formación de una nueva comunidad urbana."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dos piscinas que nunca llegaron a terminarse",
+          "text": "El arquitecto jefe Milan Motýľ recordó que KVP se diseñó para unas 25.000 personas y 6.000 viviendas. En la época de la Revolución de Terciopelo también estaban en construcción dos piscinas. Según el arquitecto, faltaban sobre todo las instalaciones técnicas y terminar las obras. Los cambios políticos y económicos detuvieron el proyecto."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de la Divina Misericordia y una parroquia que nació en un piso",
+          "text": "La parroquia católica romana de la Divina Misericordia se fundó en 1994 y tuvo inicialmente su sede en un piso de tres habitaciones de la calle Bauerova. Las misas se celebraban primero en una escuela y en un refugio de protección civil. La primera piedra se colocó el 2 de julio de 1995 en presencia del papa Juan Pablo II. Según la parroquia, la construcción duró doce años y el templo fue bendecido el 1 de septiembre de 2012."
+        },
+        {
+          "id": "fact_004",
+          "title": "El parque Drocár recuerda a un dirigente municipal de la posguerra",
+          "text": "El parque Drocár lleva el nombre de Pavol Drocár, presidente del Comité Nacional Municipal de Košice entre 1954 y 1958. Su mandato coincidió con una etapa de gran crecimiento urbano y construcción de viviendas. Hoy es un punto de encuentro comunitario de KVP, con juegos infantiles, una pista polivalente y una zona de baloncesto renovada."
+        },
+        {
+          "id": "fact_005",
+          "title": "Una cápsula del tiempo para el futuro y el trébol dorado de carpe",
+          "text": "Para celebrar el 40.º aniversario del barrio en mayo de 2023, el distrito plantó un carpe columnar frente a su oficina y enterró una cápsula del tiempo. Contiene documentos, fotografías de los primeros años, números del boletín local, un manojo de llaves y una carta de los vecinos a las generaciones futuras. El trébol dorado de carpe del escudo simboliza la comunidad que construye un hogar compartido."
+        },
+        {
+          "id": "fact_006",
+          "title": "Un barrio residencial junto al bosque con vistas a Kojšovská hoľa",
+          "text": "KVP se encuentra a unos seis kilómetros al oeste del centro de Košice. Los bosques y el paisaje abierto bordean sus sectores norte y noroeste; desde algunos puntos se ve Kojšovská hoľa, en los montes Volovské. El perfil oficial indica una superficie de 1,77 km² y unas 8.000 viviendas. El contraste entre los bloques y el borde verde del paisaje caracteriza esta zona."
+        },
+        {
+          "id": "fact_007",
+          "title": "El código postal 040 23 también se extiende al distrito de Západ",
+          "text": "El código postal 040 23 no coincide exactamente con los límites de Sídlisko KVP. El catálogo oficial de calles de Košice también asigna a este código la localidad de Čičky-majer, en Západ. Además, registra Moskovská trieda tanto en KVP como en Západ. Por ello, la geografía postal debe entenderse a partir de las asignaciones concretas de calles y localidades, no de un único límite municipal."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Bureau local de l'arrondissement municipal Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De la première maison de la rue Dénešova à un grand ensemble résidentiel",
+          "text": "La construction de KVP a commencé au tournant de 1979 et 1980. Les premiers habitants ont emménagé dans un immeuble de la rue Dénešova ; la première résidence permanente enregistrée date du 5 janvier 1983. L'essentiel des logements a été construit jusqu'en 1989. Les débuts du quartier racontent à la fois une croissance rapide et la naissance d'une nouvelle communauté urbaine."
+        },
+        {
+          "id": "fact_002",
+          "title": "Deux piscines qui ne furent jamais achevées",
+          "text": "L'architecte en chef Milan Motýľ rappelait que KVP avait été conçu pour environ 25 000 personnes et 6 000 logements. Deux piscines étaient également en construction au moment de la Révolution de velours. Selon lui, il ne restait principalement qu'à installer les équipements techniques et à achever les travaux. Les changements politiques et économiques ont arrêté le chantier."
+        },
+        {
+          "id": "fact_003",
+          "title": "L'église de la Divine Miséricorde et une paroisse née dans un appartement",
+          "text": "La paroisse catholique romaine de la Divine Miséricorde a été fondée en 1994 ; son premier siège se trouvait dans un appartement de trois pièces de la rue Bauerova. Les offices étaient d'abord célébrés dans une école et un abri de protection civile. La première pierre a été posée le 2 juillet 1995 en présence du pape Jean-Paul II. Selon la paroisse, la construction a duré douze ans et l'église a été bénie le 1er septembre 2012."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le parc Drocár porte le nom d'un responsable municipal de l'après-guerre",
+          "text": "Le parc Drocár porte le nom de Pavol Drocár, président du Comité national municipal de Košice de 1954 à 1958. Son mandat correspond à une période de forte croissance urbaine et de construction de logements. Aujourd'hui, le parc est un lieu de rencontre important pour KVP, avec des jeux pour enfants, un terrain multisports et un espace de basket rénové."
+        },
+        {
+          "id": "fact_005",
+          "title": "Une capsule temporelle pour l'avenir et le trèfle doré de charme",
+          "text": "Pour célébrer le 40e anniversaire du quartier en mai 2023, l'arrondissement a planté un charme fastigié devant son bureau local et enterré une capsule temporelle. Elle contient des documents, des photographies des débuts de la construction, des numéros du bulletin local, un trousseau de clés et une lettre des habitants destinée aux générations futures. Le trèfle doré de charme des armoiries symbolise la communauté qui construit un lieu de vie commun."
+        },
+        {
+          "id": "fact_006",
+          "title": "Un quartier résidentiel en lisière de forêt avec vue sur Kojšovská hoľa",
+          "text": "KVP se trouve à environ six kilomètres à l'ouest du centre de Košice. Des forêts et des paysages ouverts bordent ses secteurs nord et nord-ouest ; depuis certains endroits, on aperçoit Kojšovská hoľa, dans les monts Volovské. Le profil officiel indique une superficie de 1,77 km² et environ 8 000 logements. Le contraste entre les immeubles préfabriqués et la lisière verte caractérise le quartier."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le code postal 040 23 s'étend aussi dans l'arrondissement de Západ",
+          "text": "Le code postal 040 23 ne correspond pas exactement à la limite de Sídlisko KVP. Le catalogue officiel attribue également à ce code la localité de Čičky-majer, dans l'arrondissement de Západ. Il répertorie aussi Moskovská trieda pour KVP et pour Západ. La géographie postale doit donc être comprise à partir des affectations précises des rues et localités, et non d'une seule limite municipale."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Ufficio locale del quartiere municipale Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dalla prima casa in via Dénešova a un grande quartiere residenziale",
+          "text": "La costruzione di KVP iniziò tra la fine del 1979 e l'inizio del 1980. I primi abitanti si trasferirono in un edificio di via Dénešova; la prima residenza permanente registrata risale al 5 gennaio 1983. La maggior parte degli alloggi fu costruita fino al 1989. Gli inizi raccontano sia una rapida espansione edilizia sia la formazione di una nuova comunità urbana."
+        },
+        {
+          "id": "fact_002",
+          "title": "Due piscine che non furono mai completate",
+          "text": "L'architetto capo Milan Motýľ ricordava che KVP era stato progettato per circa 25.000 persone e 6.000 appartamenti. Al tempo della Rivoluzione di velluto erano in costruzione anche due piscine. Secondo lui mancavano soprattutto gli impianti tecnici e il completamento dei lavori. I cambiamenti politici ed economici fermarono il cantiere."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa della Divina Misericordia e una parrocchia nata in un appartamento",
+          "text": "La parrocchia cattolica romana della Divina Misericordia fu istituita nel 1994 e inizialmente ebbe sede in un appartamento di tre stanze in via Bauerova. Le celebrazioni si svolgevano dapprima in una scuola e in un rifugio della protezione civile. La prima pietra fu posata il 2 luglio 1995 alla presenza di papa Giovanni Paolo II. Secondo la parrocchia, la costruzione durò dodici anni e la chiesa fu benedetta il 1º settembre 2012."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il parco Drocár ricorda un amministratore comunale del dopoguerra",
+          "text": "Il parco Drocár prende il nome da Pavol Drocár, presidente del Comitato nazionale municipale di Košice dal 1954 al 1958. Il suo mandato coincise con un periodo di forte crescita urbana e costruzione di abitazioni. Oggi il parco è un importante luogo di incontro per la comunità KVP, con giochi per bambini, un campo polivalente e un'area da basket rinnovata."
+        },
+        {
+          "id": "fact_005",
+          "title": "Una capsula del tempo per il futuro e il trifoglio dorato di carpino",
+          "text": "Per celebrare il 40º anniversario del quartiere nel maggio 2023, la municipalità piantò un carpino colonnare davanti al proprio ufficio e interrò una capsula del tempo. Contiene documenti, fotografie dei primi anni, numeri del bollettino locale, un mazzo di chiavi e una lettera degli abitanti alle generazioni future. Il trifoglio dorato di carpino nello stemma simboleggia la comunità che forma una casa condivisa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Un quartiere residenziale ai margini del bosco con vista su Kojšovská hoľa",
+          "text": "KVP si trova a circa sei chilometri a ovest del centro di Košice. Boschi e paesaggi aperti costeggiano i margini settentrionali e nord-occidentali; da alcuni punti si vede Kojšovská hoľa, nei monti Volovské. Il profilo ufficiale indica una superficie di 1,77 km² e circa 8.000 unità abitative. Il contrasto tra gli edifici prefabbricati e il margine verde del paesaggio caratterizza la zona."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il codice postale 040 23 si estende anche nel quartiere di Západ",
+          "text": "Il codice postale 040 23 non coincide esattamente con il confine di Sídlisko KVP. Il catalogo ufficiale assegna a questo codice anche la località di Čičky-majer, nel quartiere di Západ. Inoltre, elenca Moskovská trieda sia per KVP sia per Západ. La geografia postale va quindi letta attraverso le assegnazioni specifiche di strade e località, non attraverso il confine di un solo quartiere."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Lokaal bestuur van het stadsdeel Košice-Sídlisko KVP",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van de eerste woning aan de Dénešova-straat tot een grote woonwijk",
+          "text": "De bouw van KVP begon rond de jaarwisseling van 1979 en 1980. De eerste bewoners trokken in een woning aan de Dénešova-straat; de eerste geregistreerde permanente bewoning dateert van 5 januari 1983. Het grootste deel van de woningbouw liep door tot 1989. De beginjaren vertellen zowel het verhaal van snelle groei als dat van een nieuwe stedelijke gemeenschap."
+        },
+        {
+          "id": "fact_002",
+          "title": "Twee zwembaden die nooit werden voltooid",
+          "text": "Hoofdarchitect Milan Motýľ vertelde dat KVP was ontworpen voor ongeveer 25.000 inwoners en 6.000 woningen. Ten tijde van de Fluwelen Revolutie waren ook twee zwembaden in aanbouw. Volgens hem moesten vooral de technische installaties nog worden geplaatst en de gebouwen worden afgemaakt. Door de politieke en economische veranderingen kwam het werk stil te liggen."
+        },
+        {
+          "id": "fact_003",
+          "title": "De kerk van de Goddelijke Barmhartigheid en een parochie die in een flat begon",
+          "text": "De rooms-katholieke parochie van de Goddelijke Barmhartigheid werd in 1994 opgericht en was aanvankelijk gevestigd in een driekamerflat aan de Bauerova-straat. De diensten vonden eerst plaats in een school en in een schuilkelder. De eerste steen werd op 2 juli 1995 gelegd in aanwezigheid van paus Johannes Paulus II. Volgens de parochie duurde de bouw twaalf jaar; de kerk werd op 1 september 2012 ingezegend."
+        },
+        {
+          "id": "fact_004",
+          "title": "Drocárpark is vernoemd naar een naoorlogse bestuurder van Košice",
+          "text": "Drocárpark is genoemd naar Pavol Drocár, die van 1954 tot 1958 voorzitter was van het gemeentelijk nationaal comité van Košice. Zijn ambtsperiode viel samen met sterke stedelijke groei en woningbouw. Tegenwoordig is het park een belangrijke ontmoetingsplek voor KVP, met speeltoestellen, een multifunctioneel sportveld en een vernieuwd basketbalveld."
+        },
+        {
+          "id": "fact_005",
+          "title": "Een tijdcapsule voor toekomstige generaties en het gouden haagbeukendrieblad",
+          "text": "Ter gelegenheid van het 40-jarig bestaan van de wijk plantte het stadsdeel in mei 2023 een zuilvormige haagbeuk voor het lokale bestuur en begroef het een tijdcapsule. Die bevat documenten, foto's uit de beginjaren, nummers van de lokale nieuwsbrief, een sleutelbos en een brief van bewoners aan toekomstige generaties. Het gouden haagbeukendrieblad in het stadsdeelwapen staat symbool voor de gemeenschap die samen een thuis vormt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Een woonwijk aan de bosrand met uitzicht op Kojšovská hoľa",
+          "text": "KVP ligt ongeveer zes kilometer ten westen van het centrum van Košice. Aan de noordelijke en noordwestelijke rand sluiten bossen en open landschap op de bebouwing aan; vanaf sommige plekken is Kojšovská hoľa in het Volovské-gebergte te zien. Het officiële profiel vermeldt een oppervlakte van 1,77 km² en ongeveer 8.000 woningen. Het contrast tussen de flats en de groene landschapsrand is kenmerkend."
+        },
+        {
+          "id": "fact_007",
+          "title": "Postcode 040 23 loopt ook door in het stadsdeel Západ",
+          "text": "Postcode 040 23 valt niet precies samen met de grens van Sídlisko KVP. De officiële stratenlijst koppelt ook de plaats Čičky-majer in Západ aan deze postcode. Daarnaast staat Moskovská trieda zowel bij KVP als bij Západ vermeld. De geografische reikwijdte moet daarom worden bepaald aan de hand van concrete straat- en plaatskoppelingen, niet aan de hand van één stadsdeelgrens."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
