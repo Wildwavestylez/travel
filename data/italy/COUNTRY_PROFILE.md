@@ -202,7 +202,7 @@ Use the Italian authority appropriate to the specific claim. No single instituti
 - the postal interpretation of CAP patterns and urban zones;
 
 
-Use the official CAP page and its dated update publications. Research into branch operators, opening/closure status, opening hours, service catalogues and delivery arrangements is out of scope; these are not EuropeExplorer content. A third-party CAP directory may help discover candidates but must not override Poste Italiane or be treated as the canonical national inventory without verification.
+Use the official CAP page and its dated update publications. **The latest currently effective official Poste Italiane publications and datasets are binding and authoritative for all CAP assignment decisions. If a current official Poste Italiane publication supersedes an older Poste Italiane document, use the newer publication and disregard the older information; do not spend time reconciling, defending or researching obsolete assignments from superseded material.** Apply the latest published changes according to their stated effective dates and transition rules. If two currently effective official Poste Italiane sources genuinely conflict and neither clearly supersedes the other, record that precise conflict and pause the affected CAP decision rather than relying on older documents or third-party directories. Third-party CAP directories and historical documents may not override the current official Poste Italiane position. Research into branch operators, opening/closure status, opening hours, service catalogues and delivery arrangements is out of scope; these are not EuropeExplorer content.
 
 ### Administrative units and boundaries
 
