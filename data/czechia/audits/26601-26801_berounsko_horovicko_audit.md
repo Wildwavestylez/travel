@@ -72,17 +72,31 @@ Všech 29 původně prázdných poloh je nyní vyplněno. Pět bodů je záměrn
 
 U těchto bodů jsou v location.accuracy použity hodnoty area_representative nebo historical_approximate. Ostatní polohy mají přesnost odpovídající konkrétnímu objektu, adrese či doloženému orientačnímu místu.
 
-## 6. Stav Supabase a mapové vrstvy
+## 6. Publikace V5 a stav mapové vrstvy
 
-- 27 záznamů status = validated.
-- 4 záznamy status = placeholder: 26712, 26716, 26717, 26718.
-- 31/31 záznamů má data_version = 1; 0 záznamů je published.
-- Stavové a geografické ověřovací příznaky nebyly hromadně měněny.
-- explorer_map_points má pro tento rozsah 0 řádků. Je to očekávané: trigger postal_codes_sync_explorer_map_points vytváří mapové body pouze pro status = published. Žádné body nebyly do této tabulky vkládány ručně.
-- Žádná publikace, přechod na V5, záloha ani read-only zámek nebyly provedeny.
+- Před publikací: 27 záznamů validated a 4 placeholder (26712, 26716, 26717, 26718); všech 31 mělo data_version = 1.
+- Po výslovném pokynu uživatele bylo všech 31 přesných záznamů převedeno na data_version = 5 a status = published.
+- Nezávislý Supabase read-back potvrdil 31/31 očekávaných PSČ, 31/31 V5 + published a 0 výjimek.
+- Trigger postal_codes_sync_explorer_map_points po publikaci vytvořil 242 mapových bodů; přesná vazba 242/242 faktů na mapové body byla potvrzena zálohovací funkcí.
+- Žádné jiné PSČ ani země nebyly změněny.
 
-## 7. Závěr a další krok
+## 7. Záloha a provozní registr
 
-Audit V2.0 pro rozsah 26601–26801 je dokončen. Nezůstává žádná blokující obsahová ani strukturální vada. Reprezentativní a historicky přibližné polohy jsou výslovně označeny v datech a popsány výše.
+- Work wave: CZ-AUDIT-BEROUNSKO-HOROVICKO-26601-26801-001 — status COMPLETE, 31/31 členů, CZ_V2, content_version 5.
+- Dedikovaná Edge Function: travel-backup-cz-26601-26801-berounsko-horovicko-audited.
+- Backup ID: CZ-AUDIT-BEROUNSKO_HOROVICKO-26601-26801-2026-11-22T09-02-13-450Z.
+- Dropbox: /Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_BEROUNSKO_HOROVICKO_26601-26801_2026-11-22T09-02-13-450Z/
+- Vytvořeny tři soubory: CZ_AUDIT_BEROUNSKO_HOROVICKO_26601-26801_backup.json, CZ_AUDIT_BEROUNSKO_HOROVICKO_26601-26801_restore.sql a manifest.json.
+- Všechny tři soubory byly nahrány add-only, znovu staženy z Dropboxu a jejich SHA-256 read-back souhlasil s očekávaným hashem.
+- Manifest načten z Dropboxu: validation.status = VERIFIED, validation.readback_verified = true, verified_record_count = 31, verified_scope_hash = 3d7ebc3054e7393ee56f2459736eaa5aafb3544005e809d8f68fe5ae4c4b68a1.
+- JSON object SHA-256: 7e60860bcfb28855e96e114bbc48b3158f532d3efa3196c0d4f339446fc5b810.
+- Restore SQL SHA-256: 6d8c13142ae53379dd969ebc28098aa71e47b6e9f8ab1fbd265313a53edf4d5c.
+- Manifest SHA-256: 3d4e4e862ff7b4da80be2c26c158a5315e8b866035653e2a47a92343d0806086.
+- Supabase backup_snapshots status VERIFIED; backup_work_waves status COMPLETE.
+- Read-only zámek nebyl aktivován.
 
-Další krok: vyčkat na výslovný pokyn k publikaci V5, záloze a případnému read-only zámku. Neon nebyl v tomto auditu použit; jeho řešení a přesun dat zůstávají odloženy.
+## 8. Závěr a další krok
+
+Audit V2.0, publikace V5 a ověřená záloha pro rozsah 26601–26801 jsou dokončeny. Nezůstává žádná blokující obsahová ani strukturální vada. Reprezentativní a historicky přibližné polohy jsou výslovně označeny v datech a popsány výše.
+
+Neon nebyl v tomto běhu použit. Jeho řešení a přesun dat zůstávají odloženy na pozdější společný krok. Read-only zamykání zůstává neaktivní a vyžaduje samostatný výslovný pokyn.
