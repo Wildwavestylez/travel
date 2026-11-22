@@ -74,7 +74,9 @@ The Italian CAP is a five-digit string. Always preserve leading zeroes.
 
 Use Poste Italiane as the primary authority for the current CAP system, published CAP assignments and urban CAP zones. Do not research or record post-office operations or delivery-service details.
 
-- Verify that the CAP exists and that its current postal assignment is supported by an authoritative, current source.
+**Binding source-precedence rule:** The latest currently effective official Poste Italiane CAP publications, datasets and update notices are decisive. When a current official Poste Italiane source supersedes an older Poste Italiane document, follow the current source and ignore the older assignment completely. Do not spend time comparing, reconciling or preserving obsolete CAP information from superseded documents. Apply publication dates, effective dates and any stated transition periods exactly as Poste Italiane defines them. Historical Poste documents and third-party CAP directories cannot override the latest effective official position. Only if two current official Poste Italiane sources genuinely conflict and neither supersedes the other may the affected CAP be paused for clarification.
+
+- Verify that the CAP exists and that its current postal assignment is supported by the latest effective official Poste Italiane source.
 - Use the actual published assignment; never derive a Comune, Provincia, Regione, postal territory or exact polygon from the CAP digits alone.
 - Distinguish ordinary locality CAPs, urban CAP zones and patterns that serve groups of municipalities.
 - Do not assume one CAP equals one Comune or that every Comune has only one CAP.
