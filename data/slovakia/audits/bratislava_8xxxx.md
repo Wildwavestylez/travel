@@ -2,7 +2,7 @@
 
 - Datum: 2026-11-22
 - Rozsah: všechny bratislavské kódy řady 8xxxx obsažené v naplněném `data/slovakia/sequence.json`.
-- Celkový výsledek: **SOURCE FORMAT MIGRATION VERIFIED / FINAL AUDIT RECHECK REMAINS** – rozpor zdrojových referencí byl odstraněn podle českého technického formátu a read-back všech migrovaných záznamů potvrdil přímé URL reference.
+- Celkový výsledek: **FINAL AUDIT RECHECK COMPLETE — 43 PASS / 6 REVIEW REQUIRED; PUBLICATION HELD**. Zdrojové reference odpovídají českému technickému formátu. Závěrečný průchod potvrdil strukturální a jazykové zarovnání všech 49 obsahových záznamů; šest geografických konfliktů s odlehlými adresními body zůstává otevřeno.
 - Nebyla změněna žádná hodnota `data_version`, schéma ani pořadí sekvence.
 
 ## Inventář rozsahu
@@ -76,8 +76,53 @@ Slovenský schema.json již používá stejnou technickou definici source a fact
 - Nebylo použito AJV ani jiný plný validační běh; kontrola byla provedena podle aktuálních definic schématu a povolených hodnot.
 - Nebyla provedena záloha na Dropbox; uživatel o ni v tomto požadavku nežádal.
 
-## Otevřené kroky
+## Stav před závěrečným kontrolním průchodem
 
-1. Dokončit závěrečný kontrolní průchod celých 49 bratislavských obsahových záznamů proti schématu a uzavřít audit.
-2. Zachovat všech 49 záznamů ve stavu validated, dokud nebude celý audit úspěšně uzavřen a uživatel výslovně nepožádá o převod na V5 a publikaci.
-3. Samostatně zohlednit migraci záznamu 90001, který leží mimo tento auditní rozsah, ale používal stejný starý zdrojový formát.
+1. Závěrečný kontrolní průchod všech 49 obsahových záznamů byl proveden a zdokumentován níže.
+2. Všech 49 obsahových záznamů zůstává validated; V5 ani publikace nebyly požadovány.
+3. Migrace záznamu 90001 leží mimo tento auditní rozsah a zůstává samostatně evidována.
+
+
+## Dodatečná povinná rešerše významných témat – 2026-11-22
+
+Rešerše byla provedena před závěrečným kontrolním průchodem za celé území 8xxxx. Porovnáním oficiálních městských, památkových, univerzitních a historických zdrojů s obsahem všech 49 záznamů byly potvrzeny tři významné mezery:
+
+1. **81101 / fact_015 – Universitas Istropolitana (Academia Istropolitana):** doplněna první univerzita na území dnešního Slovenska, založená z iniciativy Matyáše Korvína v roce 1465 a otevřená v roce 1467. Původní název Universitas Istropolitana je odlišen od pozdějšího označení Academia Istropolitana. Doplněny zdroje, fyzická adresa Ventúrska 3 a souřadnice.
+2. **81103 / fact_012 – Matej Bel:** doplněn významný polyhistor a pedagog, rektor bratislavského evangelického lycea od roku 1714 a farář německé evangelické obce od roku 1719. Doplněny zdroje SAV a evangelického sboru a mapový bod historického lycea na Konventná 15.
+3. **81103 / fact_006 – Župní dům a 14. březen 1939:** existující fakt rozšířen o skutečnost, že zde zasedal Slovenský sněm a vyhlásil samostatný Slovenský stát. Text výslovně uvádí autoritářský charakter režimu a jeho podřízenost nacistickému Německu. Zachován příběh budovy i událost roku 1992.
+
+Všechny tři změny byly zapsány do kanonických JSON souborů a ověřeny zpětným načtením z GitHubu. U 81101 a 81103 odpovídají ID a pořadí faktů ve všech sedmi jazykových větvích; česká větev přesně odpovídá českému originálu; všechny faktové URL odpovídají položkám v hlavním seznamu zdrojů.
+
+## Finální kontrolní průchod
+
+- Všech 49 obsahových JSON záznamů bylo znovu načteno z GitHubu.
+- U všech 49: shoda názvu souboru a hodnoty postcode, status validated, jedinečná ID faktů, sedm jazykových větví, shodná ID a pořadí faktů, český originál shodný s translations.cs, všechny faktové zdrojové URL dohledatelné v top-level sources a všechny existující lokace s platnými rozsahy WGS84.
+- Nové položky v 81101 a 81103 byly navíc samostatně zkontrolovány proti povoleným kategoriím, map_category, typům polohy a přesnosti.
+- Oba placeholdery 85000 a 85009 byly ověřeny jako čisté placeholder záznamy; nebyly upraveny.
+- database_index.json obsahuje všech 51 položek rozsahu; city a status odpovídají kanonickým JSONům. Nebyla potřebná žádná změna indexu.
+- sequence.json obsahuje 1 413 položek; žádná změna pořadí ani obsahu nebyla provedena.
+- Nebyl spuštěn AJV ani jiný plný externí validační běh, v souladu s auditním promptem. Provedena byla strukturální kontrola načtených JSON podle schématu.
+- data_version nebyl u žádného záznamu doplněn ani změněn. Všech 49 obsahových záznamů zůstává validated; žádný záznam nebyl publikován.
+
+## Geografické položky ponechané jako REVIEW REQUIRED
+
+Následující konflikty jsou výslovně popsány v kanonických verification.postcode_conflict_note a bez primárního potvrzení Slovenskou poštou/RAGEO je nelze bezpečně uzavřít:
+
+- **84002** – dva odlehlé adresní body v Lamači vedle hlavního souboru v Záhorské Bystrici.
+- **82106** – adresní body ve více městských částech; nelze z nich odvozovat přesnou hranici doručovací oblasti.
+- **82109** – jeden odlehlý odvozený adresní bod přiřazený k Pezinku.
+- **83107** – dva odlehlé odvozené adresní body přiřazené k Pezinku.
+- **84106** – jeden izolovaný odvozený adresní bod v Pezinku.
+- **84110** – čtyři odlehlé adresní body mimo hlavní souvislou oblast Devína.
+
+Uvedené záznamy zůstávají validated. Jejich faktický obsah ani reprezentativní body nebyly kvůli neověřeným odlehlým adresám automaticky rozšiřovány. Ostatní již doložené konflikty s vysvětleným řešením (např. aktuální PSČ kostela 82103, adresa Kalvínského kostela 81106 a synagogy 81108) nebyly znovu otevírány.
+
+## Konečný stav a další krok
+
+- **43 záznamů:** PASS v provedených auditních kontrolách.
+- **6 záznamů:** REVIEW REQUIRED kvůli výše uvedeným neuzavřeným geografickým konfliktům.
+- **2 záznamy:** placeholder, mimo obsahový audit.
+- **Publikace/V5:** neprovedena; data_version zůstává beze změny a uživatel o publikaci ani změnu verze v tomto požadavku nežádal.
+- **Dropbox záloha:** neprovedena; nebyla požadována.
+
+Další nutný krok: ověřit šest konkrétních odlehlých adresních bodů proti primárnímu RAGEO a/nebo Slovenské poště. Do té doby nelze celý blok označit jako bezvýhradně PASS ani přistoupit k publikaci.
