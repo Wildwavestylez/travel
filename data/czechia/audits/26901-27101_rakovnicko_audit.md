@@ -11,7 +11,7 @@ Očekávaný a nalezený rozsah: **29/29 PSČ**:
 
 `26901, 27001, 27002, 27004, 27006, 27007, 27008, 27009, 27021, 27023, 27024, 27031, 27032, 27033, 27034, 27035, 27036, 27041, 27042, 27051, 27052, 27053, 27054, 27055, 27061, 27062, 27064, 27065, 27101`
 
-- Před doplněním chybějící osobnosti: 321 faktů.
+- Před doplněním chybějící osobnosti: 319 faktů.
 - Po doplnění Zikmunda Wintra: **320 faktů**.
 - Všechny záznamy mají `data_version=1`.
 - 17 záznamů má `status=validated`, 12 má `status=placeholder`.
@@ -42,7 +42,7 @@ První tematická rešerše je provedena. Po doplnění Wintra nebyla potvrzena 
 3. **27023 / fact_006** — český překlad synchronizován s master textem.
 4. **27055 / fact_006** — český master opraven z nizozemského textu na odpovídající český text; cizojazyčné překlady ponechány.
 5. **27051 / fact_003 — Hlavačov** — duplicitní fakt odstraněn ze všech sedmi jazyků; jeho věcně užitečné informace byly sloučeny do 26901/fact_005. Přiřazení 26901 potvrzeno adresním rozpisem pro ulici Hlavačov.
-6. **27033 / fact_005 — Svatý Hubert** — duplicitní fakt odstraněn ze všech sedmi jazyků; ponechán v 27034/fact_007, který dostal GPS polohu z oficiálního regionálního zdroje.
+6. **Svatý Hubert — opravené konečné přiřazení:** po ověření části obce Svatý Hubert v Drahouši byl fakt obnoven jako `27033/fact_005` ze všech sedmi jazykových verzí; nesprávná kopie `27034/fact_007` byla odstraněna. GPS 50.070850, 13.512100 byla zachována u správného záznamu.
 7. **26901 / fact_009 — kostel sv. Kateřiny** — duplicitní fakt odstraněn ze všech sedmi jazyků; ponechán v 27021/fact_001. Adresní evidence ukazuje, že PSČ 26901 v části obce Pavlíkov pokrývá pouze izolované adresní místo č.p. 146 (50.0871358, 13.7607839), zatímco centrální sídlo má převážně PSČ 27021. Kostel leží v jádru obce.
 
 Read-back změněných položek potvrdil:
@@ -69,11 +69,11 @@ Read-back změněných položek potvrdil:
 
 ### 5.1 Krátké české master texty (<350 znaků)
 
-Zjištěno **55** krátkých textů. Počty podle PSČ:
+Zjištěno **54** krátkých textů. Počty podle PSČ:
 
 | PSČ | Počet |
 |---|---:|
-| 26901 | 6 |
+| 26901 | 5 |
 | 27001 | 15 |
 | 27002 | 13 |
 | 27004 | 2 |
@@ -82,7 +82,7 @@ Zjištěno **55** krátkých textů. Počty podle PSČ:
 | 27035 | 1 |
 | 27054 | 1 |
 | 27055 | 4 |
-| **Celkem** | **55** |
+| **Celkem** | **54** |
 
 Každý konkrétní fakt musí být odpovědně rozšířen ověřitelnými informacemi alespoň na 350 znaků, nebo ponechán jako `REVIEW REQUIRED` s konkrétním důvodem. Po rozšíření je nutné upravit odpovídající překlady de/en/es/fr/it/nl. Cizojazyčné délky se nekontrolují.
 
@@ -104,13 +104,13 @@ Při pokračování hledat přibližný, ale geograficky smysluplný bod podle C
 
 1. **Hlavačov — UZAVŘENO:** 26901/fact_005 ponechán; 27051/fact_003 odstraněn po potvrzení adresního přiřazení ulice Hlavačov k PSČ 26901.
 2. **Kostel sv. Kateřiny — UZAVŘENO:** ponechán pouze 27021/fact_001; duplicitní 26901/fact_009 odstraněn. Centrální jádro Pavlíkova je přiřazeno k 27021; jediné adresní místo 26901 v části Pavlíkov leží výrazně mimo jádro.
-3. **Svatý Hubert — UZAVŘENO:** ponechán pouze 27034/fact_007; duplicitní 27033/fact_005 odstraněn. Oficiální obecní zdroj přiřazuje Velkou Chmelištnou k 27034.
+3. **Svatý Hubert — UZAVŘENO:** ponechán pouze 27034/fact_007; duplicitní 27033/fact_005 odstraněn. Oficiální evidence přiřazuje část obce Svatý Hubert k Drahouši a PSČ 27033; původní předběžné přiřazení do 27034 bylo chybné a bylo vráceno.
 4. **Kolešovka — NENÍ potvrzena duplicita:** 27001/fact_005 (stanice Kněževes), 27002/fact_007 (koncová stanice Kolešovice) a 27009/fact_003 (stanice Krupá) popisují tři odlišná fyzická místa na jedné trati. Zachovat všechny tři; při pozdější redakční úpravě jasně oddělit místní příběhy, aby se neopakovala obecná historie celé trati.
 
 ## 6. Další krok
 
 1. Vyřešit čtyři skupiny duplicit a určit jedno primární PSČ pro každý objekt/trasu.
-2. Projít 55 krátkých českých master textů a odpovědně je rozšířit; následně aktualizovat šest překladů.
+2. Projít 54 krátkých českých master textů a odpovědně je rozšířit; následně aktualizovat šest překladů.
 3. Doplnit 33 chybějících poloh tam, kde to lze doložit; ostatní ponechat s odůvodněním.
 4. Dokončit sémantickou kontrolu všech sedmi jazyků a kontrolu administrativních údajů podle sídel obsluhujících pošt.
 5. Ověřit návaznost nového faktu 26901/fact_010 na mapové body pouze tehdy, pokud je to podle aktuálního schématu/provozu nutné.
