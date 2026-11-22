@@ -18,10 +18,10 @@
       "category": "heritage_and_monuments",
       "priority": "A",
       "sources": [
-        "src_gerulata_mmb",
-        "src_gerulata_unesco",
-        "src_gerulata_pamiatky",
-        "src_gerulata_coordinates"
+        "https://www.muzeumbratislava.sk/anticka-gerulata",
+        "https://whc.unesco.org/en/list/1608/maps",
+        "https://www.pamiatky.sk/fileadmin/documents/news/PZ_ZASADY/Rusovce/0101-BA-RU-text.pdf",
+        "https://muzeumbratislava.sk/en/contact"
       ],
       "location": {
         "name": "Antická Gerulata – římský kastel",
@@ -41,10 +41,10 @@
       "category": "culture_and_industry",
       "priority": "A",
       "sources": [
-        "src_danubiana_history",
-        "src_danubiana_architecture",
-        "src_danubiana_address",
-        "src_danubiana_coordinates"
+        "https://danubiana.sk/danubiana/historia",
+        "https://danubiana.sk/danubiana/architektura",
+        "https://new.danubiana.sk/en/danubiana/general-information",
+        "https://danubiana.sk/kontakt/kontakt"
       ],
       "location": {
         "name": "Danubiana Meulensteen Art Museum",
@@ -64,10 +64,10 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "src_jarovce_church_specialist",
-        "src_jarovce_church_news",
-        "src_jarovce_postcode",
-        "src_jarovce_history"
+        "https://www.pamiatkynaslovensku.sk/jarovce-bratislava-kostol-sv-mikulasa",
+        "https://www.bratislavskenoviny.sk/neprehliadnite/bohosluzby/rimskokatolicka-cirkev/19092-kostol-svateho-mikulasa",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/85110/",
+        "https://www.jarovce.sk/dokumenty/upn/cistopis/00_UPN%20Z_Jarovce_Sever_Smerna_C.pdf"
       ],
       "location": {
         "name": "Kostel sv. Mikuláše",
@@ -98,85 +98,71 @@
   },
   "sources": [
     {
-      "id": "src_gerulata_mmb",
       "title": "Antická Gerulata – Múzeum mesta Bratislavy",
       "url": "https://www.muzeumbratislava.sk/anticka-gerulata",
       "type": "official"
     },
     {
-      "id": "src_gerulata_unesco",
       "title": "Frontiers of the Roman Empire – The Danube Limes (Western Segment), UNESCO",
       "url": "https://whc.unesco.org/en/list/1608/maps",
       "type": "official"
     },
     {
-      "id": "src_gerulata_pamiatky",
       "title": "Pamiatkový úrad SR – Výpis z Ústredného zoznamu pamiatkového fondu, Rímsky kastel Gerulata",
       "url": "https://www.pamiatky.sk/fileadmin/documents/news/PZ_ZASADY/Rusovce/0101-BA-RU-text.pdf",
       "type": "official"
     },
     {
-      "id": "src_danubiana_history",
       "title": "Danubiana – História múzea",
       "url": "https://danubiana.sk/danubiana/historia",
       "type": "primary"
     },
     {
-      "id": "src_danubiana_architecture",
       "title": "Danubiana – Architektúra múzea",
       "url": "https://danubiana.sk/danubiana/architektura",
       "type": "primary"
     },
     {
-      "id": "src_danubiana_address",
       "title": "Danubiana – Kontakty a fyzická adresa Vodné dielo Čunovo",
       "url": "https://new.danubiana.sk/en/danubiana/general-information",
       "type": "official"
     },
     {
-      "id": "src_jarovce_church_specialist",
       "title": "Kostol sv. Mikuláša v Jarovciach – stavebný vývoj a GPS",
       "url": "https://www.pamiatkynaslovensku.sk/jarovce-bratislava-kostol-sv-mikulasa",
       "type": "specialist"
     },
     {
-      "id": "src_jarovce_church_news",
       "title": "Kostol svätého Mikuláša – adresa Mandľová 81, Bratislavské noviny",
       "url": "https://www.bratislavskenoviny.sk/neprehliadnite/bohosluzby/rimskokatolicka-cirkev/19092-kostol-svateho-mikulasa",
       "type": "regional"
     },
     {
-      "id": "src_jarovce_postcode",
       "title": "SITA – PSČ 85110, zoznam ulíc",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85110/",
       "type": "regional"
     },
     {
-      "id": "src_postal_technical",
       "title": "Slovenská pošta – Technické parametre, príloha 3a: zoznam smerov triedenia pre dodávacie pošty v Bratislave",
       "url": "https://www.posta.sk/files/68664f4f1174ab4e9b603048/technical-parameters-for-sorting-and-bundling-of-items.pdf",
       "type": "official"
     },
     {
-      "id": "src_cunovo_history",
       "title": "Čunovo – História, oficiálna stránka mestskej časti",
       "url": "https://www.cunovo.eu/zivot-v-obci/historia",
       "type": "official"
     },
     {
-      "id": "src_jarovce_history",
       "title": "Územný plán zóny Jarovce-Sever – historický vývoj Jaroviec",
       "url": "https://www.jarovce.sk/dokumenty/upn/cistopis/00_UPN%20Z_Jarovce_Sever_Smerna_C.pdf",
       "type": "official"
     },
     {
-      "id": "src_gerulata_coordinates",
       "title": "Múzeum mesta Bratislavy – GPS poloha Antickej Gerulaty",
       "url": "https://muzeumbratislava.sk/en/contact",
       "type": "official"
     },
     {
-      "id": "src_danubiana_coordinates",
       "title": "Danubiana – GPS poloha múzea",
       "url": "https://danubiana.sk/kontakt/kontakt",
       "type": "official"
