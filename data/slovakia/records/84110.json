@@ -147,18 +147,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "https://www.posta.sk/psc",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "RAGEO-derived Slovak postal-code dataset, repository jozefgrencik/slovak-postal-codes, commit 9c22c551eff4b0b2ec4add0999cb85ad62ab23f0",
-    "postcode_source_release": null,
-    "postcode_source_checked_at": "2026-11-21",
-    "postcode_conflict": true,
-    "postcode_conflict_note": "Adresní dataset přiřazuje k PSČ 84110 celkem 902 bodů: 898 v městské části Bratislava-Devín, 2 v Bratislava-Karlova Ves, 1 v Bratislava-Devínska Nová Ves a 1 v Pezinku. Čtyři odlehlé body nejsou důkazem skutečné poštovní oblasti a nejsou zahrnuty do jejího výkladu. Rozsah adresního datasetu se proto nepovažuje za poštovní hranici.",
-    "delivery_office_note": "PSČ 84110 je v adresních seznamech přiřazeno poště Bratislava 49, která sídlí na Pavla Horova 16 v městské části Devínska Nová Ves (vlastní provozní PSČ pobočky 84009). Pošta Bratislava 46 na Kremeľské 39 leží přímo v Devíně, ale její vlastní provozní PSČ je 84006; nejde o dodací poštu pro PSČ 84110.",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 898 adresních bodů v Devíně, 2 v Karlově Vsi, 1 v Devínskej Novej Vsi a 1 v Pezinku. README datasetu výslovně uvádí, že páry s 1–8 adresami jsou skutečné okrajové adresy obsluhované sousední poštou a nejsou filtrovány. Dominantní cluster Devín zůstává reprezentativní pro obec Bratislava a district Devín. Tři okrajové adresy mimo Devín jsou zachyceny jako součást širšího geografického rozsahu, nikoli jako důvod měnit reprezentativní místo na Náměstí sv. Cyrila a Metoděje.",
+    "delivery_office_note": "Technické parametry Slovenské pošty účinné od 1. 1. 2026 uvádějí PSČ 841 07–841 10 ve směru Bratislava 49. Tato vazba je poštovním směrováním, nikoli přesným vymezením doručovací oblasti.",
     "postcode_override_reason": null,
-    "geographic_authority": "Oficiální samospráva identifikuje lokalitu jako městskou část Bratislava-Devín; oficiální evidenční záznam hlavního města uvádí adresu místního úřadu Kremeľská 39, 841 10 Bratislava. Reprezentativní místo záznamu, historické centrum Devína a hrad Devín, leží v městské části Devín, okres Bratislava IV. Devín není totožný s městskou částí Devínska Nová Ves."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 898 adresních bodů v Bratislava-Devín, 2 v Bratislava-Karlova Ves, 1 v Bratislava-Devínska Nová Ves a 1 v obci Pezinok. README datasetu uvádí, že páry 1–8 adres jsou reálné okrajové adresy a nejsou filtrovány. Dominantní cluster v Devíně podporuje reprezentativní obec Bratislava, district Devín a stávající reprezentativní místo. Slovenská pošta uvádí 841 07–841 10 ve směru Bratislava 49. Okrajové adresy se nezaměňují s polygonální hranicí ani se samostatnými reprezentativními obcemi. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -280,6 +280,16 @@
       "title": "Hlavné mesto Bratislava – evidencia mestskej časti Bratislava-Devín a adresa Kremeľská 39, 841 10",
       "url": "https://zverejnovanie.bratislava.sk/bratislava/subjekty/00603422/",
       "type": "official"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
+      "type": "specialist"
     }
   ],
   "translations": {
