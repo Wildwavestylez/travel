@@ -137,3 +137,15 @@ Závěrečný read-back celého auditovaného rozsahu potvrdil: **319 faktů, 31
   - Manifest: `44f14a4d94c1f4c3fcdb55d7c568eba29bb3b73a2dbe83bbd207a72d02d7143b`
 - Backup registry: `public.backup_snapshots.status=VERIFIED`; work-wave registry `COMPLETE`.
 - **Read-only lock nebyl aktivován.** 
+
+
+## 9. Obnova do Neon
+
+- Zdroj: ověřený Dropbox JSON snapshot `CZ-AUDIT-RAKOVNICKO-26901-27101-2026-11-22T10-46-32-814Z`; Dropbox zůstal beze změny.
+- Cíl: Neon projekt `Europe Explorer`, production/default branch `br-wispy-glade-bgorspmq`, databáze `neondb`, tabulka `public.czechia_cap_records`.
+- Před importem: 0 kolizí PSČ, 0 kolizí `source_record_id`; 750 existujících záznamů v cílové tabulce.
+- Import: 29/29 záznamů vloženo v pěti malých dávkách (6+6+6+6+5), výhradně INSERT s `ON CONFLICT DO NOTHING`; žádný existující řádek nebyl přepsán.
+- Zachováno: původní `source_record_id`, JSONB obsah, 7 jazyků, fakta, zdroje a polohy; `workflow_status=published`, `content_version=5`.
+- Read-back: 29/29 záznamů, 319 faktů, 319/319 faktů s polohou, 0 null poloh; každý jazyk cs/de/en/es/fr/it/nl obsahuje 319 položek; 29/29 published, 29/29 V5, 29/29 source IDs.
+- Mapové body jsou v Neon cílové tabulce zachovány uvnitř `record.facts[].location`; žádná nová samostatná mapová tabulka nebyla vytvořena.
+- Supabase ani Dropbox záloha nebyly měněny ani mazány.
