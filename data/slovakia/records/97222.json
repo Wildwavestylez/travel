@@ -1,4 +1,568 @@
 {
   "postcode": "97222",
-  "status": "placeholder"
+  "city": "Nitrica",
+  "district": null,
+  "county": "Prievidza",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Nitrica – historické jádro obce u obecního úřadu",
+  "representative_point": {
+    "lat": 48.7049,
+    "lon": 18.448
+  },
+  "access_point": null,
+  "status": "validated",
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Nitrica vznikla spojením dvoch stredovekých obcí",
+      "text": "Dnešná Nitrica vznikla v roku 1960 zlúčením Dvorníkov nad Nitricou a Račíc. Račice sú doložené už v Zoborskej listine z roku 1113 pod názvom Radscis; Dvorníky sa v listine z roku 1249 uvádzajú ako Vduornunk. Obe sídla patrili pôvodne k majetkom Nitrianskeho hradu, ktoré sa dostali do vlastníctva zoborského kláštora. Neskôr ich spravovali panstvá Skačany a Nitrianska kapitula. Obyvatelia pestovali ovocie a šafran, s ktorým sa obchodovalo aj mimo regiónu. Dvorníky v roku 1832 zničila povodeň. Historické jadro dnešnej obce tak v sebe spája dve samostatné sídelné tradície s odlišne doloženými počiatkami.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_81a3ec93-d7a4-4f19-8fa6-6217602a4023",
+        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Dvorniky_nad_Nitricou.pdf",
+        "https://www.obecnitrica.sk/download_file_f.php?id=863393"
+      ],
+      "location": {
+        "name": "Nitrica – orientačný bod obce",
+        "lat": 48.7049,
+        "lon": 18.448,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/36460560"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Račické hradisko nad obcou",
+      "text": "V katastri bývalej obce Račice, dnes miestnej časti Nitricy, sa nachádza významná archeologická lokalita označovaná ako Hradisko Račice. Územný plán obce ju opisuje ako výšinné opevnené sídlo na dolomitickom ostrohu východne od zástavby, približne v nadmorskej výške 383 metrov. Ostroh má vyvýšenú akropolu a prístup do hradiskového priestoru chránil dvojitý val. Dokumentácia pamiatkového úradu uvádza sídliskové súvislosti s púchovskou kultúrou a zároveň eviduje halštatské opevnené hradisko. Ide o doklad dlhšieho pravekého osídľovania strategickej vyvýšeniny nad Vestenickou bránou; jednotlivé archeologické horizonty však netreba zamieňať za jednu súvislú stavbu.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.obecnitrica.sk/download_file_f.php?id=863393",
+        "https://www.obecnitrica.sk/download_file_f.php?id=833737"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Jaskyňa Brloh – prírodná pamiatka a úkryt počas SNP",
+      "text": "V katastri Dvorníkov nad Nitricou leží jaskyňa Brloh, približne 16 metrov dlhá dutina v dolomitových brekciách na svahu Drieňového vrchu. Tvorí ju menšia sieň a prudko stúpajúca bočná chodba; nemá kvapľovú výzdobu a pri vchode sa nachádzajú škrapy. Územie bolo vyhlásené za prírodnú pamiatku a vyhláška z roku 2009 potvrdzuje jej režim verejnosti voľne prístupnej jaskyne s pohybom po vyznačenej trase. Podľa regionálneho odborného opisu slúžila jaskyňa počas Slovenského národného povstania ako úkryt a dnes je zimoviskom netopierov. Je jednou zo zastávok turisticko-náučného chodníka Nitrica.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.minzp.sk/files/vestniky/vestnik-2010-1a.pdf",
+        "https://naucnechodniky.eu/turisticko-naucny-chodnik-nitrica/",
+        "https://www.obecnitrica.sk/download_file_f.php?id=833737"
+      ],
+      "location": {
+        "name": "Jaskyňa Brloh, lokalita Močelník",
+        "lat": 48.696403,
+        "lon": 18.457028,
+        "type": "cave",
+        "accuracy": "approximate",
+        "source": "https://naucnechodniky.eu/turisticko-naucny-chodnik-nitrica/"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_004",
+      "title": "Hôrka v Horných Vesteniciach: stará sakrálna stavba s nejasným pôvodom",
+      "text": "Na vyvýšenine Hôrka v Horných Vesteniciach sa nachádzajú zvyšky kamennej sakrálnej stavby, ktoré v júli 1942 odkryl archeológ Vojtech Budinský-Krička. Archeologické záznamy potvrdzujú slovanskú sídliskovú vrstvu z 9. až 10. storočia. V murive malej stavby sa zachovali časti nadzemných stien a zvyšky pôvodnej maľby. Budinský-Krička ju vykladal ako renesančnú kaplnku zo 16. storočia postavenú na staršom gotickom kostolíku; odborná literatúra však pripúšťa viac možností a presný pôvod stavby zostáva neistý. Lokalita bola z iniciatívy obce obnovená a v roku 2002 sprístupnená verejnosti. Príbeh Hôrky preto spája ranostredoveké osídlenie s neskorším sakrálnym využitím kopca.",
+      "category": "archaeology",
+      "priority": "B",
+      "sources": [
+        "https://login.apsida.sk/c/4658/horne-vestenice",
+        "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2013_1.pdf",
+        "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
+        "https://www.trencinregion.sk/90214/zvysky-renesancnej-kaplnky-zo-16-storocia"
+      ],
+      "location": {
+        "name": "Hôrka – zvyšky starej kaplnky",
+        "lat": 48.711523252,
+        "lon": 18.436552584,
+        "type": "ruin",
+        "accuracy": "exact",
+        "source": "https://login.apsida.sk/c/4658/horne-vestenice"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostol sv. Petra a Pavla – farské centrum Vestenickej doliny",
+      "text": "Dominantou Horných Vesteníc je kostol sv. Petra a Pavla, postavený približne okolo roku 1500 na vyvýšenom mieste na východnom okraji obce. V roku 1564 bol upravený, v druhej polovici 17. storočia prestavaný a roku 1778 rozšírený o kaplnku a barokovo upravený. Jeho význam presahoval samotnú obec: v minulosti slúžil ako farský kostol Horným Vesteniciam, Nitrianskym Sučanom, Račiciam, Dvorníkom nad Nitricou aj Dolným Vesteniciam. Dnes je farským kostolom troch obcí – Horných Vesteníc, Nitricy a Dolných Vesteníc. Za kultúrnu pamiatku bol vyhlásený v roku 1963.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
+        "https://hornevestenice.sk/obec/kronika/"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Šafraníci a chorvátsky kupecký kríž z roku 1798",
+      "text": "Horné Vestenice preslávil v 17. storočí kvalitný šafran a obchodníci, ktorí s ním cestovali až do Talianska a Chorvátska. Miestni obyvatelia obchodovali aj v Poľsku a v ďalších krajinách; významnú úlohu malo tiež ovocinárstvo a sušenie ovocia v tradičných sušiarňach. Jednou z hmotných pripomienok diaľkového obchodu je kamenný kríž z červeného pieskovca pri hlavnej ceste, ktorý podľa obecnej kroniky dali v roku 1798 postaviť chorvátski kupci ako poďakovanie. Kríž bol poškodený bleskom a eróziou, v roku 2002 ho obec nechala kompletne obnoviť. Nie je to iba sakrálna drobnosť pri ceste, ale stopa obchodných väzieb, ktoré spájali hornonitrianske dediny s juhovýchodnou a južnou Európou.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "https://hornevestenice.sk/obec/kronika/",
+        "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
+        "https://www.trencinregion.sk/90214/zvysky-renesancnej-kaplnky-zo-16-storocia"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_007",
+      "title": "Kaplnky a barokové pamiatky v Dvorníkoch nad Nitricou",
+      "text": "Historická časť Dvorníky nad Nitricou si zachovala viacero drobných sakrálnych pamiatok. Na cintoríne stojí neogotická kaplnka sv. Jozefa z konca 19. storočia; pri ceste sa nachádza baroková socha sv. Jána Nepomuckého z roku 1793 a kamenný kríž z roku 1799, ktorý dali postaviť dolnozemskí kupci. V obci je aj kaplnka Sedembolestnej Panny Márie z polovice 19. storočia, tradičný hlinený ľudový objekt s polkruhovým oltárnym uzáverom a predstavaným portikom. V jeho štíte bývala ľudová plastika Piety. Kaplnka je zapísaná v Ústrednom zozname pamiatkového fondu SR. Tieto stavby dokumentujú podobu ľudovej zbožnosti aj historické obchodné kontakty obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.obecnitrica.sk/download_file_f.php?id=863393",
+        "https://www.pamiatkynaslovensku.sk/nitrica-kaplnka-sedembolestnej-panny-marie",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_81a3ec93-d7a4-4f19-8fa6-6217602a4023"
+      ],
+      "location": {
+        "name": "Kaplnka Sedembolestnej Panny Márie, Dvorníky nad Nitricou",
+        "lat": 48.704268,
+        "lon": 18.447932,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/nitrica-kaplnka-sedembolestnej-panny-marie"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_008",
+      "title": "Račická kaplnka postavená na pamiatku synov padlých vo vojne",
+      "text": "V Račiciach, historickej časti Nitricy, stojí neogotická kaplnka zasvätená Božskému Srdcu Ježišovmu. Podľa územnoplánovacej dokumentácie ju v roku 1919 dal postaviť Michal Šramka s manželkou Karolínou na pamiatku ich dvoch synov, ktorí padli na ruskom bojisku počas prvej svetovej vojny. Kaplnka má obdĺžnikový pôdorys, vstavanú vežu a neogotické vnútorné zariadenie z 20. storočia. Jej príbeh je osobnou rodinnou spomienkou pretavenou do verejného sakrálneho priestoru a zároveň pripomína, ako hlboko zasiahla prvá svetová vojna aj malé obce hornej Nitry.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obecnitrica.sk/download_file_f.php?id=863393",
+        "https://www.obecnitrica.sk/download_file_f.php?id=833737"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhľadávanie PSČ https://www.posta.sk/psc; geografické priradenie 972 22 je nezávisle doložené adresou obecného úradu Nitrica 489, 972 22 Nitrica a oficiálnym strategickým dokumentom Horných Vesteníc s PSČ 972 22. Zoznam Parcelforce uvádza pod 972 22 aj Dvorníky nad Nitricou, Horné Vestenice, Nitrica a Račice.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR – oficiálne údaje obce Horné Vestenice; oficiálne obecné dokumenty Nitrica; ÚGKK SR a OpenStreetMap/Mapcarta pre orientačné geografické umiestnenie."
+  },
+  "sources": [
+    {
+      "title": "Informácie o obci Nitrica – vznik, dejiny Dvorníkov a Račíc, šafran a pamiatky",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_81a3ec93-d7a4-4f19-8fa6-6217602a4023",
+      "type": "official"
+    },
+    {
+      "title": "Štátny archív v Trenčíne – archívny fond obce Dvorníky nad Nitricou (1840–1895)",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Dvorniky_nad_Nitricou.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "Územný plán obce Nitrica – archeologické lokality, kaplnky a historické pamiatky",
+      "url": "https://www.obecnitrica.sk/download_file_f.php?id=863393",
+      "type": "official"
+    },
+    {
+      "title": "Územný plán obce Nitrica – ochrana jaskyne Brloh a prírodné hodnoty",
+      "url": "https://www.obecnitrica.sk/download_file_f.php?id=833737",
+      "type": "official"
+    },
+    {
+      "title": "Oficiálna kronika obce Horné Vestenice – dejiny, obchod a SNP",
+      "url": "https://hornevestenice.sk/obec/kronika/",
+      "type": "official"
+    },
+    {
+      "title": "Oficiálne pamätihodnosti obce Horné Vestenice – Hôrka, kostol a kupecký kríž",
+      "url": "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – archeologický a stavebno-historický výskum Hôrky v Horných Vesteniciach",
+      "url": "https://login.apsida.sk/c/4658/horne-vestenice",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská archeológia – archeologické lokality hornej Nitry a Hôrka",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2013_1.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Vyhláška MŽP SR č. 5/2009 – verejnosti voľne prístupná jaskyňa Brloh",
+      "url": "https://www.minzp.sk/files/vestniky/vestnik-2010-1a.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Turisticko-náučný chodník Nitrica – trasa, zastávky a prírodné lokality",
+      "url": "https://naucnechodniky.eu/turisticko-naucny-chodnik-nitrica/",
+      "type": "specialist"
+    },
+    {
+      "title": "Trenčín región – zvyšky renesančnej kaplnky v Horných Vesteniciach",
+      "url": "https://www.trencinregion.sk/90214/zvysky-renesancnej-kaplnky-zo-16-storocia",
+      "type": "regional"
+    },
+    {
+      "title": "Kaplnka Sedembolestnej Panny Márie v Dvorníkoch nad Nitricou – pamiatkový opis a poloha",
+      "url": "https://www.pamiatkynaslovensku.sk/nitrica-kaplnka-sedembolestnej-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Nitrica – oficiálne kontaktné údaje a adresa 972 22",
+      "url": "https://www.obecnitrica.sk/urad/kontakty/",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia postcode list – nezávislá kontrola lokalít priradených k 972 22",
+      "url": "https://www.parcelforce.com/sites/default/files/SK%20Postcodes%20Apr20%20v1%20200420.pdf",
+      "type": "other"
+    },
+    {
+      "title": "Mapcarta / OpenStreetMap – poloha obce Nitrica",
+      "url": "https://mapcarta.com/36460560",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Nitrica – historické jádro obce u obecního úřadu",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica vznikla spojením dvoch stredovekých obcí",
+          "text": "Dnešná Nitrica vznikla v roku 1960 zlúčením Dvorníkov nad Nitricou a Račíc. Račice sú doložené už v Zoborskej listine z roku 1113 pod názvom Radscis; Dvorníky sa v listine z roku 1249 uvádzajú ako Vduornunk. Obe sídla patrili pôvodne k majetkom Nitrianskeho hradu, ktoré sa dostali do vlastníctva zoborského kláštora. Neskôr ich spravovali panstvá Skačany a Nitrianska kapitula. Obyvatelia pestovali ovocie a šafran, s ktorým sa obchodovalo aj mimo regiónu. Dvorníky v roku 1832 zničila povodeň. Historické jadro dnešnej obce tak v sebe spája dve samostatné sídelné tradície s odlišne doloženými počiatkami."
+        },
+        {
+          "id": "fact_002",
+          "title": "Račické hradisko nad obcou",
+          "text": "V katastri bývalej obce Račice, dnes miestnej časti Nitricy, sa nachádza významná archeologická lokalita označovaná ako Hradisko Račice. Územný plán obce ju opisuje ako výšinné opevnené sídlo na dolomitickom ostrohu východne od zástavby, približne v nadmorskej výške 383 metrov. Ostroh má vyvýšenú akropolu a prístup do hradiskového priestoru chránil dvojitý val. Dokumentácia pamiatkového úradu uvádza sídliskové súvislosti s púchovskou kultúrou a zároveň eviduje halštatské opevnené hradisko. Ide o doklad dlhšieho pravekého osídľovania strategickej vyvýšeniny nad Vestenickou bránou; jednotlivé archeologické horizonty však netreba zamieňať za jednu súvislú stavbu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jaskyňa Brloh – prírodná pamiatka a úkryt počas SNP",
+          "text": "V katastri Dvorníkov nad Nitricou leží jaskyňa Brloh, približne 16 metrov dlhá dutina v dolomitových brekciách na svahu Drieňového vrchu. Tvorí ju menšia sieň a prudko stúpajúca bočná chodba; nemá kvapľovú výzdobu a pri vchode sa nachádzajú škrapy. Územie bolo vyhlásené za prírodnú pamiatku a vyhláška z roku 2009 potvrdzuje jej režim verejnosti voľne prístupnej jaskyne s pohybom po vyznačenej trase. Podľa regionálneho odborného opisu slúžila jaskyňa počas Slovenského národného povstania ako úkryt a dnes je zimoviskom netopierov. Je jednou zo zastávok turisticko-náučného chodníka Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka v Horných Vesteniciach: stará sakrálna stavba s nejasným pôvodom",
+          "text": "Na vyvýšenine Hôrka v Horných Vesteniciach sa nachádzajú zvyšky kamennej sakrálnej stavby, ktoré v júli 1942 odkryl archeológ Vojtech Budinský-Krička. Archeologické záznamy potvrdzujú slovanskú sídliskovú vrstvu z 9. až 10. storočia. V murive malej stavby sa zachovali časti nadzemných stien a zvyšky pôvodnej maľby. Budinský-Krička ju vykladal ako renesančnú kaplnku zo 16. storočia postavenú na staršom gotickom kostolíku; odborná literatúra však pripúšťa viac možností a presný pôvod stavby zostáva neistý. Lokalita bola z iniciatívy obce obnovená a v roku 2002 sprístupnená verejnosti. Príbeh Hôrky preto spája ranostredoveké osídlenie s neskorším sakrálnym využitím kopca."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostol sv. Petra a Pavla – farské centrum Vestenickej doliny",
+          "text": "Dominantou Horných Vesteníc je kostol sv. Petra a Pavla, postavený približne okolo roku 1500 na vyvýšenom mieste na východnom okraji obce. V roku 1564 bol upravený, v druhej polovici 17. storočia prestavaný a roku 1778 rozšírený o kaplnku a barokovo upravený. Jeho význam presahoval samotnú obec: v minulosti slúžil ako farský kostol Horným Vesteniciam, Nitrianskym Sučanom, Račiciam, Dvorníkom nad Nitricou aj Dolným Vesteniciam. Dnes je farským kostolom troch obcí – Horných Vesteníc, Nitricy a Dolných Vesteníc. Za kultúrnu pamiatku bol vyhlásený v roku 1963."
+        },
+        {
+          "id": "fact_006",
+          "title": "Šafraníci a chorvátsky kupecký kríž z roku 1798",
+          "text": "Horné Vestenice preslávil v 17. storočí kvalitný šafran a obchodníci, ktorí s ním cestovali až do Talianska a Chorvátska. Miestni obyvatelia obchodovali aj v Poľsku a v ďalších krajinách; významnú úlohu malo tiež ovocinárstvo a sušenie ovocia v tradičných sušiarňach. Jednou z hmotných pripomienok diaľkového obchodu je kamenný kríž z červeného pieskovca pri hlavnej ceste, ktorý podľa obecnej kroniky dali v roku 1798 postaviť chorvátski kupci ako poďakovanie. Kríž bol poškodený bleskom a eróziou, v roku 2002 ho obec nechala kompletne obnoviť. Nie je to iba sakrálna drobnosť pri ceste, ale stopa obchodných väzieb, ktoré spájali hornonitrianske dediny s juhovýchodnou a južnou Európou."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaplnky a barokové pamiatky v Dvorníkoch nad Nitricou",
+          "text": "Historická časť Dvorníky nad Nitricou si zachovala viacero drobných sakrálnych pamiatok. Na cintoríne stojí neogotická kaplnka sv. Jozefa z konca 19. storočia; pri ceste sa nachádza baroková socha sv. Jána Nepomuckého z roku 1793 a kamenný kríž z roku 1799, ktorý dali postaviť dolnozemskí kupci. V obci je aj kaplnka Sedembolestnej Panny Márie z polovice 19. storočia, tradičný hlinený ľudový objekt s polkruhovým oltárnym uzáverom a predstavaným portikom. V jeho štíte bývala ľudová plastika Piety. Kaplnka je zapísaná v Ústrednom zozname pamiatkového fondu SR. Tieto stavby dokumentujú podobu ľudovej zbožnosti aj historické obchodné kontakty obce."
+        },
+        {
+          "id": "fact_008",
+          "title": "Račická kaplnka postavená na pamiatku synov padlých vo vojne",
+          "text": "V Račiciach, historickej časti Nitricy, stojí neogotická kaplnka zasvätená Božskému Srdcu Ježišovmu. Podľa územnoplánovacej dokumentácie ju v roku 1919 dal postaviť Michal Šramka s manželkou Karolínou na pamiatku ich dvoch synov, ktorí padli na ruskom bojisku počas prvej svetovej vojny. Kaplnka má obdĺžnikový pôdorys, vstavanú vežu a neogotické vnútorné zariadenie z 20. storočia. Jej príbeh je osobnou rodinnou spomienkou pretavenou do verejného sakrálneho priestoru a zároveň pripomína, ako hlboko zasiahla prvá svetová vojna aj malé obce hornej Nitry."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Nitrica – historischer Ortskern beim Gemeindeamt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica entstand aus zwei mittelalterlichen Dörfern",
+          "text": "Das heutige Nitrica entstand 1960 durch den Zusammenschluss von Dvorníky nad Nitricou und Račice. Račice sind bereits 1113 in der Zoborer Urkunde als Radscis belegt; Dvorníky erscheinen 1249 als Vduornunk. Beide Siedlungen gehörten ursprünglich zum Besitz der Burg Nitra, der später an das Kloster Zobor überging. Später wurden sie von der Herrschaft Skačany und dem Domkapitel Nitra verwaltet. Die Bewohner bauten Obst und Safran an, der auch überregional gehandelt wurde. Dvorníky wurde 1832 von einer Überschwemmung verwüstet. Das heutige Gemeindegebiet vereint somit zwei Siedlungsgeschichten mit unterschiedlich frühen schriftlichen Belegen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das befestigte Höhensiedlungsareal von Račice",
+          "text": "Im Kataster des ehemaligen Dorfes Račice, heute ein Ortsteil von Nitrica, liegt die bedeutende archäologische Fundstätte Hradisko Račice. Der Flächennutzungsplan beschreibt sie als befestigte Höhensiedlung auf einem Dolomitsporn östlich der Bebauung, etwa 383 Meter über dem Meeresspiegel. Der Sporn besitzt eine erhöhte Akropolis; ein doppelter Wall schützte den Zugang zum Siedlungsbereich. Die Denkmaldokumentation nennt Siedlungszusammenhänge mit der Púchov-Kultur und verzeichnet zugleich ein hallstattzeitliches befestigtes Höhensiedlungsareal. Dies belegt eine längere vorgeschichtliche Nutzung der strategischen Anhöhe über dem Vestenická-Tor; die einzelnen archäologischen Horizonte dürfen jedoch nicht als ein einziger Bau verstanden werden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Höhle Brloh – Naturdenkmal und Zuflucht während des Slowakischen Nationalaufstands",
+          "text": "Im Kataster von Dvorníky nad Nitricou liegt die etwa 16 Meter lange Höhle Brloh in Dolomitbrekzien am Hang des Drieňový vrch. Sie besteht aus einer kleinen Halle und einem steil ansteigenden Seitengang; Tropfsteinschmuck fehlt, am Eingang sind Karren zu sehen. Das Gebiet wurde zum Naturdenkmal erklärt; eine Verordnung von 2009 bestätigt, dass die Höhle für die Öffentlichkeit frei zugänglich ist und nur auf der markierten Route betreten werden darf. Nach einer regionalen Fachbeschreibung diente sie während des Slowakischen Nationalaufstands als Zuflucht und ist heute ein Überwinterungsquartier für Fledermäuse. Sie ist eine Station des Natur- und Lehrpfads Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Horné Vestenice: ein Sakralbau mit ungeklärtem Ursprung",
+          "text": "Auf der Anhöhe Hôrka in Horné Vestenice befinden sich die Reste eines steinernen Sakralbaus, die der Archäologe Vojtech Budinský-Krička im Juli 1942 freilegte. Archäologische Aufzeichnungen bestätigen eine slawische Siedlungsschicht aus dem 9. bis 10. Jahrhundert. Im Mauerwerk des kleinen Gebäudes sind Teile der aufgehenden Wände und Reste der ursprünglichen Bemalung erhalten. Budinský-Krička deutete es als Renaissancekapelle des 16. Jahrhunderts, die auf einer älteren gotischen Kirche errichtet worden sei; die Fachliteratur lässt jedoch mehrere Möglichkeiten offen, und der genaue Ursprung bleibt ungeklärt. Die Gemeinde ließ die Stätte wiederherstellen und 2002 für Besucher öffnen. Hôrka verbindet damit frühmittelalterliche Besiedlung mit einer späteren sakralen Nutzung des Hügels."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Kirche St. Peter und Paul – Pfarrzentrum des Vestenická-Tals",
+          "text": "Das Wahrzeichen von Horné Vestenice ist die Kirche St. Peter und Paul, die um 1500 auf einer Anhöhe am östlichen Ortsrand errichtet wurde. 1564 wurde sie verändert, in der zweiten Hälfte des 17. Jahrhunderts umgebaut und 1778 durch eine Kapelle erweitert sowie barockisiert. Ihre Bedeutung reichte über das Dorf hinaus: Früher war sie Pfarrkirche für Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou und Dolné Vestenice. Heute dient sie als Pfarrkirche für drei Gemeinden – Horné Vestenice, Nitrica und Dolné Vestenice. 1963 wurde sie zum Kulturdenkmal erklärt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Safranhändler und das Kreuz der kroatischen Kaufleute von 1798",
+          "text": "Horné Vestenice wurde im 17. Jahrhundert durch hochwertigen Safran bekannt; Händler reisten damit bis nach Italien und Kroatien. Die Einwohner handelten auch in Polen und anderen Ländern; Obstbau und das Trocknen von Obst in traditionellen Dörrhäusern waren ebenfalls wichtig. Ein materielles Zeugnis des Fernhandels ist ein Kreuz aus rotem Sandstein an der Hauptstraße, das laut Gemeindeschronik 1798 von kroatischen Kaufleuten aus Dankbarkeit errichtet wurde. Das Kreuz wurde durch Blitzschlag und Erosion beschädigt und 2002 von der Gemeinde umfassend restauriert. Es ist nicht nur ein kleines religiöses Denkmal am Straßenrand, sondern eine Spur der Handelsbeziehungen, die die Dörfer der oberen Nitra mit Südost- und Südeuropa verbanden."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapellen und barocke Denkmäler in Dvorníky nad Nitricou",
+          "text": "Der historische Ortsteil Dvorníky nad Nitricou besitzt mehrere kleinere sakrale Denkmäler. Auf dem Friedhof steht eine neugotische Kapelle des heiligen Josef aus dem späten 19. Jahrhundert; an der Straße befindet sich eine barocke Statue des heiligen Johannes Nepomuk von 1793 sowie ein steinernes Kreuz von 1799, das von Kaufleuten aus dem südlichen Tiefland errichtet wurde. Im Ort steht außerdem eine Kapelle der Schmerzhaften Muttergottes aus der Mitte des 19. Jahrhunderts, ein traditioneller Lehmvolksbau mit halbrundem Altarabschluss und vorgelagerter Vorhalle. Im Giebelfeld befand sich eine volkstümliche Pietà. Die Kapelle ist im Zentralverzeichnis des slowakischen Denkmalfonds eingetragen. Die Bauwerke dokumentieren Volksfrömmigkeit und historische Handelskontakte."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Kapelle von Račice zum Gedenken an im Krieg gefallene Söhne",
+          "text": "In Račice, einem historischen Ortsteil von Nitrica, steht eine neugotische Kapelle, die dem Heiligsten Herzen Jesu geweiht ist. Laut Flächennutzungsdokumentation ließ sie Michal Šramka 1919 gemeinsam mit seiner Frau Karolína zum Gedenken an ihre beiden Söhne errichten, die an der russischen Front im Ersten Weltkrieg gefallen waren. Die Kapelle hat einen rechteckigen Grundriss, einen eingebauten Turm und eine neugotische Innenausstattung aus dem 20. Jahrhundert. Ihre Geschichte ist eine persönliche Familienerinnerung, die in einen öffentlichen sakralen Ort übertragen wurde, und erinnert daran, wie tief der Erste Weltkrieg auch kleine Gemeinden im oberen Nitra-Gebiet traf."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Nitrica – historic village centre near the municipal office",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica was formed by joining two medieval villages",
+          "text": "Present-day Nitrica was formed in 1960 by merging Dvorníky nad Nitricou and Račice. Račice is documented as early as 1113 in the Zobor charter under the name Radscis; Dvorníky appears in a 1249 charter as Vduornunk. Both settlements originally belonged to the estates of Nitra Castle, which later passed to Zobor Abbey. They were subsequently administered by the Skačany estate and the Nitra chapter. Residents grew fruit and saffron, which was traded beyond the region. Dvorníky was devastated by a flood in 1832. The present municipality therefore brings together two settlement histories with different earliest written records."
+        },
+        {
+          "id": "fact_002",
+          "title": "The fortified hilltop settlement above Račice",
+          "text": "In the cadastral territory of the former village of Račice, now part of Nitrica, lies the important archaeological site known as Hradisko Račice. The municipal land-use plan describes it as a fortified hilltop settlement on a dolomite spur east of the built-up area, at about 383 metres above sea level. The spur has a raised acropolis, while a double rampart protected access to the settlement area. Heritage documentation refers to settlement connections with the Púchov culture and also records a Hallstatt fortified hillfort. This points to a long prehistoric use of the strategic height above the Vestenická Gate; the individual archaeological phases should not, however, be mistaken for one continuous structure."
+        },
+        {
+          "id": "fact_003",
+          "title": "Brloh Cave – a natural monument and refuge during the Slovak National Uprising",
+          "text": "In the cadastral territory of Dvorníky nad Nitricou lies Brloh Cave, an approximately 16-metre-long cavity in dolomite breccia on the slope of Drieňový Hill. It consists of a small chamber and a steeply rising side passage; it has no stalactite decoration, and solution features occur near the entrance. The area was declared a natural monument, and a 2009 decree confirms the cave's status as freely accessible to the public, with movement restricted to the marked route. A regional specialist account says the cave served as a refuge during the Slovak National Uprising and is now a winter roost for bats. It is one of the stops on the Nitrica nature and educational trail."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Horné Vestenice: an old sacred building of uncertain origin",
+          "text": "On the Hôrka rise in Horné Vestenice are the remains of a stone sacred building uncovered by archaeologist Vojtech Budinský-Krička in July 1942. Archaeological records confirm a Slavic settlement layer dating from the 9th to 10th centuries. Parts of the small building's standing walls and traces of its original painting have survived. Budinský-Krička interpreted it as a 16th-century Renaissance chapel built on an older Gothic church; specialist literature nevertheless allows several possibilities, and the building's exact origin remains uncertain. The municipality restored the site and opened it to the public in 2002. Hôrka thus links early medieval settlement with the later religious use of the hill."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Church of St Peter and St Paul – parish centre of the Vestenická Valley",
+          "text": "The landmark of Horné Vestenice is the Church of St Peter and St Paul, built around 1500 on a rise at the eastern edge of the village. It was altered in 1564, rebuilt in the second half of the 17th century, and enlarged with a chapel and given a Baroque makeover in 1778. Its importance extended beyond the village: it once served as the parish church for Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou and Dolné Vestenice. Today it serves three municipalities – Horné Vestenice, Nitrica and Dolné Vestenice. It was declared a cultural monument in 1963."
+        },
+        {
+          "id": "fact_006",
+          "title": "Saffron traders and the Croatian merchants' cross of 1798",
+          "text": "Horné Vestenice became known in the 17th century for its high-quality saffron; traders travelled with it as far as Italy and Croatia. Residents also traded in Poland and other countries, while fruit growing and drying fruit in traditional drying houses were important activities. A tangible reminder of this long-distance trade is a red-sandstone roadside cross beside the main road, which according to the municipal chronicle was erected by Croatian merchants in 1798 as an expression of thanks. The cross was damaged by lightning and erosion, then comprehensively restored by the municipality in 2002. It is more than a small roadside religious monument: it records commercial links connecting Upper Nitra villages with south-eastern and southern Europe."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chapels and Baroque monuments in Dvorníky nad Nitricou",
+          "text": "The historic part of Dvorníky nad Nitricou retains several small religious monuments. A neo-Gothic Chapel of St Joseph from the late 19th century stands in the cemetery; by the road is a Baroque statue of St John of Nepomuk dating from 1793 and a stone cross from 1799 erected by merchants from the southern lowlands. The village also has a Chapel of Our Lady of Sorrows from the mid-19th century, a traditional earthen folk building with a semicircular altar end and a projecting porch. A folk Pietà sculpture once stood in its gable niche. The chapel is listed in Slovakia's Central Register of Monuments. Together, these buildings document popular religious practice and historic trading connections."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Račice chapel built in memory of sons killed in the war",
+          "text": "In Račice, a historic part of Nitrica, stands a neo-Gothic chapel dedicated to the Sacred Heart of Jesus. According to the municipal land-use documentation, Michal Šramka and his wife Karolína had it built in 1919 in memory of their two sons, who were killed on the Russian front during the First World War. The chapel has a rectangular plan, an incorporated tower and a neo-Gothic interior dating from the 20th century. Its story is a personal family memorial transformed into a public sacred place, and it recalls how deeply the First World War affected even small communities in the Upper Nitra region."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Nitrica: centro histórico junto al ayuntamiento",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica nació de la unión de dos pueblos medievales",
+          "text": "La actual Nitrica se formó en 1960 mediante la unión de Dvorníky nad Nitricou y Račice. Račice aparece documentada ya en 1113 en la carta de Zobor con el nombre Radscis; Dvorníky figura en un documento de 1249 como Vduornunk. Ambos asentamientos pertenecieron originalmente a los dominios del castillo de Nitra, que más tarde pasaron al monasterio de Zobor. Posteriormente fueron administrados por el señorío de Skačany y el cabildo de Nitra. Sus habitantes cultivaban fruta y azafrán, que se comercializaba fuera de la región. Una inundación devastó Dvorníky en 1832. El municipio actual reúne así dos historias de poblamiento con testimonios escritos de distinta antigüedad."
+        },
+        {
+          "id": "fact_002",
+          "title": "El asentamiento fortificado en la altura sobre Račice",
+          "text": "En el territorio catastral de la antigua aldea de Račice, hoy parte de Nitrica, se encuentra el importante yacimiento arqueológico conocido como Hradisko Račice. El plan urbanístico municipal lo describe como un asentamiento fortificado en altura sobre un espolón dolomítico al este de la zona habitada, a unos 383 metros sobre el nivel del mar. El espolón tiene una acrópolis elevada y un doble terraplén protegía el acceso al recinto. La documentación patrimonial menciona vínculos de asentamiento con la cultura de Púchov y registra también un recinto fortificado de la Edad del Hierro, de época hallstáttica. Esto demuestra un uso prehistórico prolongado de la elevación estratégica sobre la Puerta de Vestenice; las distintas fases arqueológicas no deben confundirse con una sola construcción continua."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cueva Brloh: monumento natural y refugio durante el Levantamiento Nacional Eslovaco",
+          "text": "En el territorio catastral de Dvorníky nad Nitricou se encuentra la cueva Brloh, una cavidad de unos 16 metros en brechas dolomíticas, en la ladera de la colina Drieňový. Consta de una pequeña sala y un pasaje lateral en fuerte pendiente; no tiene decoración de estalactitas y cerca de la entrada hay formas de disolución. El lugar fue declarado monumento natural y un decreto de 2009 confirma que la cueva está abierta libremente al público, con circulación limitada al recorrido señalizado. Según una descripción especializada regional, sirvió de refugio durante el Levantamiento Nacional Eslovaco y hoy es un lugar de invernada para murciélagos. Es una de las paradas del sendero natural y educativo de Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka, en Horné Vestenice: un antiguo edificio religioso de origen incierto",
+          "text": "En la elevación de Hôrka, en Horné Vestenice, se conservan restos de un edificio religioso de piedra descubiertos por el arqueólogo Vojtech Budinský-Krička en julio de 1942. Los registros arqueológicos confirman una capa de asentamiento eslavo de los siglos IX y X. Se conservan partes de los muros de la pequeña construcción y restos de la pintura original. Budinský-Krička la interpretó como una capilla renacentista del siglo XVI levantada sobre una iglesia gótica anterior; sin embargo, la bibliografía especializada contempla varias posibilidades y el origen exacto sigue sin resolverse. El municipio restauró el lugar y lo abrió al público en 2002. Hôrka une así el poblamiento altomedieval con el uso religioso posterior de la colina."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia de San Pedro y San Pablo, centro parroquial del valle de Vestenice",
+          "text": "El principal monumento de Horné Vestenice es la iglesia de San Pedro y San Pablo, construida hacia 1500 en una elevación del extremo oriental del pueblo. Fue modificada en 1564, reconstruida en la segunda mitad del siglo XVII y ampliada con una capilla y transformada al estilo barroco en 1778. Su importancia superaba los límites del pueblo: antiguamente fue la iglesia parroquial de Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou y Dolné Vestenice. Hoy es la iglesia parroquial de tres municipios: Horné Vestenice, Nitrica y Dolné Vestenice. Fue declarada monumento cultural en 1963."
+        },
+        {
+          "id": "fact_006",
+          "title": "Los comerciantes de azafrán y la cruz de los mercaderes croatas de 1798",
+          "text": "Horné Vestenice se hizo famosa en el siglo XVII por su azafrán de gran calidad; los comerciantes viajaban con él hasta Italia y Croacia. Los habitantes también comerciaban en Polonia y otros países, mientras que el cultivo de fruta y su secado en secaderos tradicionales eran actividades importantes. Un testimonio material de ese comercio a larga distancia es una cruz de arenisca roja junto a la carretera principal que, según la crónica municipal, fue erigida en 1798 por mercaderes croatas como agradecimiento. La cruz sufrió daños por un rayo y la erosión, y el municipio la restauró por completo en 2002. No es solo un pequeño monumento religioso al borde del camino, sino una huella de los vínculos comerciales entre la Alta Nitra y el sureste y sur de Europa."
+        },
+        {
+          "id": "fact_007",
+          "title": "Capillas y monumentos barrocos en Dvorníky nad Nitricou",
+          "text": "La parte histórica de Dvorníky nad Nitricou conserva varios pequeños monumentos religiosos. En el cementerio se encuentra una capilla neogótica de San José de finales del siglo XIX; junto al camino hay una estatua barroca de San Juan Nepomuceno de 1793 y una cruz de piedra de 1799 levantada por comerciantes de las tierras bajas del sur. El pueblo también cuenta con una capilla de Nuestra Señora de los Dolores de mediados del siglo XIX, un edificio popular tradicional de barro con cabecera de altar semicircular y un pórtico adelantado. En el nicho del frontón había una escultura popular de la Piedad. La capilla figura en el Registro Central del Patrimonio Monumental de Eslovaquia. En conjunto, estos edificios documentan la religiosidad popular y los contactos comerciales históricos."
+        },
+        {
+          "id": "fact_008",
+          "title": "La capilla de Račice en memoria de los hijos caídos en la guerra",
+          "text": "En Račice, parte histórica de Nitrica, se alza una capilla neogótica dedicada al Sagrado Corazón de Jesús. Según la documentación urbanística municipal, Michal Šramka y su esposa Karolína la hicieron construir en 1919 en memoria de sus dos hijos, muertos en el frente ruso durante la Primera Guerra Mundial. La capilla tiene planta rectangular, una torre integrada y un interior neogótico del siglo XX. Su historia es un recuerdo familiar convertido en espacio religioso público y recuerda hasta qué punto la Primera Guerra Mundial afectó incluso a las pequeñas comunidades de la región de la Alta Nitra."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Nitrica – centre historique près de la mairie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica est née de la réunion de deux villages médiévaux",
+          "text": "La Nitrica actuelle a été créée en 1960 par la fusion de Dvorníky nad Nitricou et de Račice. Račice est attesté dès 1113 dans la charte de Zobor sous le nom de Radscis ; Dvorníky apparaît dans un acte de 1249 sous la forme Vduornunk. Les deux localités appartenaient à l'origine aux domaines du château de Nitra, ensuite transférés à l'abbaye de Zobor. Elles furent plus tard administrées par la seigneurie de Skačany et le chapitre de Nitra. Les habitants cultivaient des fruits et du safran, commercialisé au-delà de la région. Une inondation dévasta Dvorníky en 1832. La commune actuelle réunit ainsi deux histoires de peuplement dont les premières attestations écrites sont d'époques différentes."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le site fortifié sur les hauteurs de Račice",
+          "text": "Dans le territoire cadastral de l'ancien village de Račice, aujourd'hui rattaché à Nitrica, se trouve le site archéologique important appelé Hradisko Račice. Le plan d'urbanisme communal le décrit comme un habitat fortifié de hauteur sur un éperon dolomitique à l'est de la zone bâtie, à environ 383 mètres d'altitude. L'éperon possède une acropole surélevée et un double rempart protégeait l'accès à l'espace fortifié. La documentation patrimoniale mentionne des liens d'habitat avec la culture de Púchov et signale également un oppidum fortifié de l'époque de Hallstatt. Ces éléments témoignent d'une longue occupation préhistorique de cette hauteur stratégique au-dessus de la porte de Vestenice ; les différentes phases archéologiques ne doivent toutefois pas être confondues avec une construction unique et continue."
+        },
+        {
+          "id": "fact_003",
+          "title": "La grotte Brloh, monument naturel et refuge pendant le soulèvement national slovaque",
+          "text": "Dans le territoire cadastral de Dvorníky nad Nitricou se trouve la grotte Brloh, une cavité d'environ 16 mètres dans des brèches dolomitiques, sur le versant de la colline Drieňový. Elle comprend une petite salle et une galerie latérale très inclinée ; elle ne possède pas de concrétions et des formes de dissolution sont visibles près de l'entrée. Le site a été déclaré monument naturel et un décret de 2009 confirme que la grotte est librement accessible au public, uniquement par l'itinéraire balisé. Selon une description spécialisée régionale, elle servit de refuge pendant le soulèvement national slovaque et constitue aujourd'hui un lieu d'hivernage pour les chauves-souris. Elle fait partie des étapes du sentier nature et pédagogique de Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka à Horné Vestenice : un ancien édifice religieux à l'origine incertaine",
+          "text": "Sur la hauteur de Hôrka, à Horné Vestenice, se trouvent les vestiges d'un édifice religieux en pierre découverts par l'archéologue Vojtech Budinský-Krička en juillet 1942. Les données archéologiques confirment une couche d'habitat slave des IXe et Xe siècles. Des parties des murs en élévation et des traces de la peinture d'origine ont été conservées. Budinský-Krička l'interprétait comme une chapelle Renaissance du XVIe siècle construite sur une église gothique plus ancienne ; la littérature spécialisée envisage toutefois plusieurs hypothèses et l'origine exacte demeure incertaine. La commune a restauré le site et l'a ouvert au public en 2002. Hôrka relie ainsi l'occupation du haut Moyen Âge à l'utilisation religieuse ultérieure de la colline."
+        },
+        {
+          "id": "fact_005",
+          "title": "L'église Saint-Pierre-et-Saint-Paul, centre paroissial de la vallée de Vestenice",
+          "text": "Le monument emblématique de Horné Vestenice est l'église Saint-Pierre-et-Saint-Paul, construite vers 1500 sur une hauteur à l'extrémité est du village. Elle fut remaniée en 1564, reconstruite dans la seconde moitié du XVIIe siècle, puis agrandie d'une chapelle et baroquisée en 1778. Son importance dépassait le village : elle était autrefois l'église paroissiale de Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou et Dolné Vestenice. Aujourd'hui, elle est l'église paroissiale de trois communes : Horné Vestenice, Nitrica et Dolné Vestenice. Elle a été classée monument culturel en 1963."
+        },
+        {
+          "id": "fact_006",
+          "title": "Les marchands de safran et la croix des commerçants croates de 1798",
+          "text": "Au XVIIe siècle, Horné Vestenice s'est fait connaître pour la grande qualité de son safran ; les marchands l'emportaient jusqu'en Italie et en Croatie. Les habitants commerçaient également en Pologne et dans d'autres pays, tandis que l'arboriculture et le séchage des fruits dans des séchoirs traditionnels jouaient un rôle important. Un témoignage matériel de ce commerce à longue distance est une croix en grès rouge près de la route principale, érigée en 1798 par des commerçants croates en signe de reconnaissance, selon la chronique communale. Endommagée par la foudre et l'érosion, elle a été entièrement restaurée par la commune en 2002. Ce n'est pas seulement un petit monument religieux au bord de la route, mais une trace des relations commerciales reliant la Haute Nitra au sud-est et au sud de l'Europe."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chapelles et monuments baroques à Dvorníky nad Nitricou",
+          "text": "La partie historique de Dvorníky nad Nitricou conserve plusieurs petits monuments religieux. Dans le cimetière se trouve une chapelle néogothique Saint-Joseph de la fin du XIXe siècle ; au bord de la route se dressent une statue baroque de saint Jean Népomucène datant de 1793 et une croix de pierre de 1799 érigée par des marchands des plaines du sud. Le village possède aussi une chapelle Notre-Dame-des-Sept-Douleurs du milieu du XIXe siècle, édifice populaire traditionnel en terre crue avec un chevet d'autel semi-circulaire et un portique avancé. Une Pietà de facture populaire se trouvait autrefois dans la niche du pignon. La chapelle figure au registre central du patrimoine monumental slovaque. Ces édifices témoignent de la piété populaire et des contacts commerciaux historiques."
+        },
+        {
+          "id": "fact_008",
+          "title": "La chapelle de Račice en mémoire des fils morts à la guerre",
+          "text": "À Račice, quartier historique de Nitrica, se trouve une chapelle néogothique dédiée au Sacré-Cœur de Jésus. Selon la documentation d'urbanisme de la commune, Michal Šramka et son épouse Karolína la firent construire en 1919 en mémoire de leurs deux fils, morts sur le front russe pendant la Première Guerre mondiale. La chapelle possède un plan rectangulaire, une tour intégrée et un mobilier intérieur néogothique du XXe siècle. Son histoire est celle d'un souvenir familial devenu un lieu sacré public ; elle rappelle combien la Première Guerre mondiale a également frappé les petites communautés de la région de la Haute Nitra."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Nitrica – centro storico vicino al municipio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica nacque dall'unione di due villaggi medievali",
+          "text": "L'attuale Nitrica fu creata nel 1960 dall'unione di Dvorníky nad Nitricou e Račice. Račice è documentata già nel 1113 nella carta di Zobor con il nome Radscis; Dvorníky compare in un documento del 1249 come Vduornunk. Entrambi gli insediamenti appartenevano originariamente ai possedimenti del castello di Nitra, poi trasferiti all'abbazia di Zobor. In seguito furono amministrati dalla signoria di Skačany e dal capitolo di Nitra. Gli abitanti coltivavano frutta e zafferano, commerciato anche fuori regione. Nel 1832 un'alluvione devastò Dvorníky. Il comune attuale riunisce quindi due storie insediative con testimonianze scritte iniziali di epoche diverse."
+        },
+        {
+          "id": "fact_002",
+          "title": "L'insediamento fortificato sulle alture di Račice",
+          "text": "Nel territorio catastale dell'antico villaggio di Račice, oggi parte di Nitrica, si trova il sito archeologico noto come Hradisko Račice. Il piano regolatore comunale lo descrive come un insediamento fortificato d'altura su uno sperone dolomitico a est dell'abitato, a circa 383 metri sul livello del mare. Lo sperone presenta un'acropoli sopraelevata e un doppio terrapieno proteggeva l'accesso all'area insediativa. La documentazione sui beni culturali menziona collegamenti insediativi con la cultura di Púchov e registra anche un insediamento fortificato dell'età del Ferro, di epoca hallstattiana. Ciò testimonia un uso preistorico prolungato di questa altura strategica sopra la Porta di Vestenice; le diverse fasi archeologiche non devono tuttavia essere confuse con un'unica struttura continua."
+        },
+        {
+          "id": "fact_003",
+          "title": "La grotta Brloh: monumento naturale e rifugio durante l'insurrezione nazionale slovacca",
+          "text": "Nel territorio catastale di Dvorníky nad Nitricou si trova la grotta Brloh, una cavità lunga circa 16 metri nelle brecce dolomitiche sul versante del colle Drieňový. È composta da una piccola sala e da un passaggio laterale in forte salita; non presenta concrezioni e vicino all'ingresso si osservano forme di dissoluzione. L'area è stata dichiarata monumento naturale e un decreto del 2009 conferma che la grotta è liberamente accessibile al pubblico, con passaggio consentito solo lungo il percorso segnalato. Secondo una descrizione specialistica regionale, fu usata come rifugio durante l'insurrezione nazionale slovacca e oggi ospita i pipistrelli in inverno. È una delle tappe del sentiero naturalistico e didattico di Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka a Horné Vestenice: un antico edificio sacro dalle origini incerte",
+          "text": "Sull'altura di Hôrka, a Horné Vestenice, si trovano i resti di un edificio sacro in pietra scoperti dall'archeologo Vojtech Budinský-Krička nel luglio 1942. I dati archeologici confermano uno strato insediativo slavo del IX-X secolo. Della piccola costruzione restano parti delle pareti in elevazione e tracce della pittura originale. Budinský-Krička la interpretò come una cappella rinascimentale del XVI secolo costruita sulle fondamenta di una chiesa gotica più antica; la letteratura specialistica ammette tuttavia diverse ipotesi e l'origine esatta resta incerta. Il comune restaurò il sito e lo aprì al pubblico nel 2002. Hôrka collega così l'insediamento altomedievale al successivo uso religioso della collina."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa dei Santi Pietro e Paolo, centro parrocchiale della valle di Vestenice",
+          "text": "Il principale monumento di Horné Vestenice è la chiesa dei Santi Pietro e Paolo, costruita intorno al 1500 su un'altura all'estremità orientale del paese. Fu modificata nel 1564, ricostruita nella seconda metà del XVII secolo e ampliata con una cappella e trasformata in stile barocco nel 1778. La sua importanza superava i confini del villaggio: in passato fu la chiesa parrocchiale di Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou e Dolné Vestenice. Oggi è la chiesa parrocchiale di tre comuni: Horné Vestenice, Nitrica e Dolné Vestenice. Fu dichiarata monumento culturale nel 1963."
+        },
+        {
+          "id": "fact_006",
+          "title": "I commercianti di zafferano e la croce dei mercanti croati del 1798",
+          "text": "Nel XVII secolo Horné Vestenice divenne nota per lo zafferano di alta qualità; i commercianti lo portavano fino in Italia e in Croazia. Gli abitanti commerciavano anche in Polonia e in altri paesi, mentre la frutticoltura e l'essiccazione della frutta nei tradizionali essiccatoi erano attività importanti. Una testimonianza materiale di questo commercio a lunga distanza è una croce in arenaria rossa presso la strada principale, che secondo la cronaca comunale fu eretta nel 1798 da mercanti croati come ringraziamento. La croce fu danneggiata da un fulmine e dall'erosione, poi restaurata integralmente dal comune nel 2002. Non è soltanto un piccolo monumento religioso a bordo strada, ma una traccia dei legami commerciali che univano l'Alta Nitra all'Europa sud-orientale e meridionale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cappelle e monumenti barocchi a Dvorníky nad Nitricou",
+          "text": "La parte storica di Dvorníky nad Nitricou conserva diversi piccoli monumenti religiosi. Nel cimitero si trova una cappella neogotica di San Giuseppe della fine del XIX secolo; lungo la strada si trovano una statua barocca di San Giovanni Nepomuceno del 1793 e una croce in pietra del 1799 eretta da mercanti provenienti dalle pianure meridionali. Nel villaggio si trova anche una cappella della Madonna Addolorata della metà del XIX secolo, un tradizionale edificio popolare in terra cruda con abside semicircolare e portico sporgente. Nella nicchia del frontone si trovava una scultura popolare della Pietà. La cappella è iscritta nel Registro centrale dei monumenti della Slovacchia. Questi edifici documentano la religiosità popolare e gli storici contatti commerciali."
+        },
+        {
+          "id": "fact_008",
+          "title": "La cappella di Račice in memoria dei figli caduti in guerra",
+          "text": "A Račice, parte storica di Nitrica, sorge una cappella neogotica dedicata al Sacro Cuore di Gesù. Secondo la documentazione urbanistica comunale, Michal Šramka e sua moglie Karolína la fecero costruire nel 1919 in memoria dei loro due figli, caduti sul fronte russo durante la Prima guerra mondiale. La cappella ha pianta rettangolare, una torre incorporata e un arredo interno neogotico del XX secolo. La sua storia è un ricordo familiare trasformato in luogo sacro pubblico e ricorda quanto profondamente la Prima guerra mondiale abbia colpito anche le piccole comunità dell'Alta Nitra."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Nitrica – historisch dorpscentrum bij het gemeentehuis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrica ontstond uit de samenvoeging van twee middeleeuwse dorpen",
+          "text": "Het huidige Nitrica ontstond in 1960 door de samenvoeging van Dvorníky nad Nitricou en Račice. Račice wordt al in 1113 genoemd in de oorkonde van Zobor onder de naam Radscis; Dvorníky verschijnt in een oorkonde uit 1249 als Vduornunk. Beide nederzettingen behoorden oorspronkelijk tot de bezittingen van de burcht van Nitra, die later overgingen naar de abdij van Zobor. Daarna werden ze bestuurd door het landgoed Skačany en het kapittel van Nitra. De inwoners verbouwden fruit en saffraan, dat ook buiten de regio werd verhandeld. Dvorníky werd in 1832 door een overstroming verwoest. De huidige gemeente verenigt zo twee nederzettingsgeschiedenissen met verschillende vroegste schriftelijke vermeldingen."
+        },
+        {
+          "id": "fact_002",
+          "title": "De versterkte nederzetting op de hoogte boven Račice",
+          "text": "In het kadastrale gebied van het voormalige dorp Račice, tegenwoordig een deel van Nitrica, ligt de belangrijke archeologische vindplaats Hradisko Račice. Het gemeentelijke ruimtelijke plan beschrijft deze als een versterkte hoogtenederzetting op een dolomietuitloper ten oosten van de bebouwing, op ongeveer 383 meter boven zeeniveau. De uitloper heeft een verhoogde acropolis en een dubbele wal beschermde de toegang tot het nederzettingsterrein. De erfgoeddocumentatie vermeldt nederzettingsverbanden met de Púchovcultuur en registreert daarnaast een versterkte Hallstatt-nederzetting uit de ijzertijd. Dit wijst op langdurig prehistorisch gebruik van de strategische hoogte boven de Vestenická-poort; de verschillende archeologische fasen mogen echter niet als één doorlopend bouwwerk worden opgevat."
+        },
+        {
+          "id": "fact_003",
+          "title": "De grot Brloh – natuurmonument en schuilplaats tijdens de Slowaakse Nationale Opstand",
+          "text": "In het kadastrale gebied van Dvorníky nad Nitricou ligt de ongeveer 16 meter lange grot Brloh in dolomietbreccie op de helling van de Drieňový-heuvel. De grot bestaat uit een kleine zaal en een steil oplopende zijgang; druipsteenversiering ontbreekt en bij de ingang zijn oplossingsvormen zichtbaar. Het gebied werd tot natuurmonument uitgeroepen; een besluit uit 2009 bevestigt dat de grot vrij toegankelijk is voor het publiek, waarbij bezoekers alleen de gemarkeerde route mogen volgen. Volgens een regionale specialistische beschrijving diende de grot tijdens de Slowaakse Nationale Opstand als schuilplaats en is zij tegenwoordig een overwinteringsplaats voor vleermuizen. Ze is een halte op het natuur- en educatieve pad van Nitrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôrka in Horné Vestenice: een oud religieus gebouw met onzekere oorsprong",
+          "text": "Op de heuvel Hôrka in Horné Vestenice liggen de resten van een stenen religieus gebouw die archeoloog Vojtech Budinský-Krička in juli 1942 blootlegde. Archeologische gegevens bevestigen een Slavische bewoningslaag uit de 9e tot 10e eeuw. Delen van de opgaande muren en sporen van de oorspronkelijke beschildering zijn bewaard gebleven. Budinský-Krička interpreteerde het gebouw als een renaissancekapel uit de 16e eeuw, gebouwd op de plaats van een oudere gotische kerk; de vakliteratuur laat echter meerdere mogelijkheden open en de precieze oorsprong blijft onzeker. De gemeente herstelde de locatie en stelde haar in 2002 open voor bezoekers. Hôrka verbindt zo vroegmiddeleeuwse bewoning met het latere religieuze gebruik van de heuvel."
+        },
+        {
+          "id": "fact_005",
+          "title": "De kerk van Sint-Pieter en Sint-Paulus – parochiecentrum van de Vestenická-vallei",
+          "text": "Het herkenningspunt van Horné Vestenice is de kerk van Sint-Pieter en Sint-Paulus, rond 1500 gebouwd op een verhoging aan de oostrand van het dorp. De kerk werd in 1564 aangepast, in de tweede helft van de 17e eeuw verbouwd en in 1778 uitgebreid met een kapel en in barokstijl gewijzigd. Haar betekenis reikte verder dan het dorp: vroeger was zij de parochiekerk van Horné Vestenice, Nitrianske Sučany, Račice, Dvorníky nad Nitricou en Dolné Vestenice. Tegenwoordig is zij de parochiekerk van drie gemeenten: Horné Vestenice, Nitrica en Dolné Vestenice. In 1963 werd de kerk tot cultureel monument verklaard."
+        },
+        {
+          "id": "fact_006",
+          "title": "Saffraanhandelaren en het kruis van Kroatische kooplieden uit 1798",
+          "text": "Horné Vestenice werd in de 17e eeuw bekend om zijn hoogwaardige saffraan; handelaren reisden ermee tot in Italië en Kroatië. De inwoners dreven ook handel in Polen en andere landen, terwijl fruitteelt en het drogen van fruit in traditionele drooghuizen belangrijke activiteiten waren. Een tastbare herinnering aan deze langeafstandshandel is een kruis van rode zandsteen langs de hoofdweg, dat volgens de gemeentekroniek in 1798 door Kroatische kooplieden uit dankbaarheid werd opgericht. Het kruis raakte beschadigd door blikseminslag en erosie en werd in 2002 grondig gerestaureerd door de gemeente. Het is meer dan een klein religieus monument langs de weg: het getuigt van handelsrelaties die dorpen in de Boven-Nitra met Zuidoost- en Zuid-Europa verbonden."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapellen en barokke monumenten in Dvorníky nad Nitricou",
+          "text": "Het historische deel van Dvorníky nad Nitricou heeft verschillende kleine religieuze monumenten behouden. Op de begraafplaats staat een neogotische Sint-Jozefkapel uit het einde van de 19e eeuw; langs de weg staat een barok beeld van Sint-Jan Nepomucenus uit 1793 en een stenen kruis uit 1799 dat door kooplieden uit de zuidelijke laagvlakte werd opgericht. Het dorp heeft ook een kapel van Onze-Lieve-Vrouw van Smarten uit het midden van de 19e eeuw, een traditioneel volksgebouw van leem met een halfronde altaarafsluiting en een vooruitstekende portiek. In de gevelnis stond vroeger een volksbeeld van de Piëta. De kapel is opgenomen in het Centrale Register van het Slowaakse monumentenbestand. Samen documenteren deze gebouwen de volksdevotie en historische handelscontacten."
+        },
+        {
+          "id": "fact_008",
+          "title": "De kapel van Račice ter nagedachtenis aan zonen die in de oorlog sneuvelden",
+          "text": "In Račice, het historische deel van Nitrica, staat een neogotische kapel gewijd aan het Heilig Hart van Jezus. Volgens de gemeentelijke ruimtelijke documentatie lieten Michal Šramka en zijn vrouw Karolína de kapel in 1919 bouwen ter nagedachtenis aan hun twee zonen, die aan het Russische front tijdens de Eerste Wereldoorlog waren gesneuveld. De kapel heeft een rechthoekige plattegrond, een ingebouwde toren en een neogotisch interieur uit de 20e eeuw. Het verhaal is een persoonlijke familieherinnering die een openbare religieuze plek werd en laat zien hoe diep de Eerste Wereldoorlog ook kleine gemeenschappen in de Boven-Nitra trof."
+        }
+      ]
+    }
+  }
 }
