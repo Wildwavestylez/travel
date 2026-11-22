@@ -217,7 +217,7 @@ CAP je poštovní identifikátor a interní geografická obsahová vrstva projek
 - Každý objekt nebo souvislý příběh má standardně jeden primární záznam. Neduplikuj stejné faktum a mapový pin v sousedních CAP. Samostatná fakta jsou přípustná pro skutečně odlišné, nezávisle významné objekty nebo příběhy.
 - Širší okolí lze zkoumat pro kontext a příběh. Externí místo, které patří do jiného CAP, však nevydávej za součást právě zpracovávaného CAP a nepřebírej jeho souřadnice.
 - Jakmile je geografické přiřazení rozumně podloženo a uzavřeno, považuj je za stabilní. Změna je přípustná pouze při konkrétním novém důkazu, že původní přiřazení bylo fakticky chybné nebo obsahuje zásadní rozpor.
-- Nevyžaduj CAP polygon ani polygonovou kontrolu jako předpoklad běžné tvorby. Používej aktuální poštovní přiřazení, adresní a geografické důkazy, oficiální popisy lokalit a obhajitelné mapové body.
+- Nevyžaduj CAP polygon ani polygonovou kontrolu jako předpoklad běžné tvorby. Používej schválený projektový obsahový rozsah, adresní a geografické důkazy, oficiální popisy lokalit a obhajitelné mapové body.
 
 ### 6.1 Italská administrativní a poštovní realita
 
