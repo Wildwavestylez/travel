@@ -110,9 +110,18 @@
       "map_category": "local_culture",
       "sources": [
         "https://www.povazske-podhradie.sk/historia-obce/",
-        "https://www.povazske-podhradie.sk/obec-a-hrad/"
+        "https://www.povazske-podhradie.sk/obec-a-hrad/",
+        "https://poi.oma.sk/n2375821198"
       ],
-      "location": null
+      "location": {
+        "name": "Považské Podhradie – orientačný bod historickej časti pri turistických informáciách",
+        "address": "Považské Podhradie 109, 017 04 Považská Bystrica, Slovensko",
+        "lat": 49.1433333333,
+        "lon": 18.4608333333,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2375821198"
+      }
     },
     {
       "id": "fact_006",
@@ -325,6 +334,11 @@
       "title": "Slovenská pošta – vyhledávání PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "official"
+    },
+    {
+      "title": "OMA/OpenStreetMap – orientačný bod Považské Podhradie",
+      "url": "https://poi.oma.sk/n2375821198",
+      "type": "other"
     }
   ],
   "translations": {
