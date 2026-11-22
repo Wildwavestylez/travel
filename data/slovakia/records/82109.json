@@ -1,8 +1,8 @@
 {
   "postcode": "82109",
   "city": "Bratislava",
-  "district": "Staré Mesto",
-  "county": "Bratislava I",
+  "district": "Ružinov",
+  "county": "Bratislava II",
   "state": "Bratislavský kraj",
   "representative_place": "Nivy – Klingerova kolonie a průmyslová čtvrť",
   "representative_point": {
@@ -110,9 +110,9 @@
     "postcode_source_checked_at": "2026-11-20",
     "postcode_conflict": false,
     "postcode_conflict_note": "Verejný odvodený dataset obsahuje jeden odľahlý adresný záznam priradený k Pezinku; bez potvrdenia v primárnom RAGEO alebo u Slovenskej pošty sa nepovažuje za dôkaz, že PSČ 82109 pokrýva Pezinok. Dataset sa používa len ako doplnková kontrola a presná polygonálna hranica sa netvrdí.",
-    "delivery_office_note": "PSČ 82109 je podľa aktuálnych technických parametrov Slovenskej pošty priradené k pošte Bratislava 1. Oficiálny zoznam pôšt uvádza jej prevádzku na Námestí SNP 35 v mestskej časti Staré Mesto. Preto administratívne polia city, district, county a state vychádzajú z fyzickej polohy obslužnej pošty, nie z väčšiny adresných bodov PSČ. Verejný odvodený adresný dataset eviduje 674 adresných bodov v Bratislave-Ružinove a 8 v Bratislave-Starom Meste; jeden odľahlý záznam v Pezinku vyžaduje samostatné potvrdenie v primárnom registri.",
+    "delivery_office_note": "Slovenská pošta assigns PSČ 82108–82109 to the delivery office Bratislava 1. This postal routing relationship does not determine the representative municipal part or okres.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO), Ministerstvo vnútra SR, je primárnym zdrojom adresných bodov. RAGEO nebolo samostatne exportované; ako doplnková systematická kontrola bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Dataset pre 82109 uvádza hlavný zhluk 674 adresných bodov v Ružinove a 8 v Starom Meste; jeden odľahlý riadok v Pezinku sa bez potvrdenia v primárnom registri nepoužil na rozšírenie geografického rozsahu. Reprezentatívny bod 48.14787, 17.13889 pochádza z datasetu oblastí. Jednotlivé miesta boli lokalizované pomocou adresných bodov OMA/OpenStreetMap a overené voči oficiálnym mestským, regionálnym a odborným historickým zdrojom. Tieto sekundárne mapové údaje neslúžia ako dôkaz presného polygonu doručovacieho obvodu."
+    "geographic_authority": "RAGEO-derived address-point evidence identifies the main address cluster for PSČ 82109 in Ružinov (674 points) and a small fringe in Staré Mesto (8 points); an isolated unconfirmed row outside Bratislava was not used to expand the area. The representative place, Nivy–Klingerka, is in Bratislava-Ružinov, okres Bratislava II. Administrative fields therefore follow Ružinov rather than the Bratislava 1 sorting office. Official ZBGIS documentation independently places the Nivy locality in Bratislava-Ružinov."
   },
   "sources": [
     {
@@ -224,6 +224,16 @@
       "title": "OMA / OpenStreetMap – Prístavná 9, Bratislava, PSČ 82109",
       "url": "https://bratislava.oma.sk/u/pristavna/9",
       "type": "other"
+    },
+    {
+      "title": "ZBGIS – lokalizácia stavby v katastrálnom území Nivy, Bratislava-Ružinov",
+      "url": "https://zastupitelstvo.bratislava.sk/data/att/71474.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Bratislava-Ružinov – oficiálna evidencia pamätihodností a lokalít",
+      "url": "https://ruzinov.egov.sk/sk/content/view/pamatihodnosti",
+      "type": "official"
     }
   ],
   "translations": {
