@@ -20,12 +20,12 @@
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_postal",
-        "src_postal_streets",
-        "src_city_heritage",
-        "src_petrzalka_heritage",
-        "src_school_address",
-        "src_location"
+        "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/85106/",
+        "https://zastupitelstvo.bratislava.sk/data/att/75360.pdf",
+        "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
+        "https://narnia.sk/cesta-ako-sa-k-nam-dostat/",
+        "https://bratislava.oma.sk/u/benadicka/38"
       ],
       "map_category": "architecture",
       "location": {
@@ -56,37 +56,31 @@
   },
   "sources": [
     {
-      "id": "src_postal",
       "title": "Slovenská pošta – Technické parametre: Triedenie a zväzkovanie zásielok, príloha 3a",
       "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
       "type": "official"
     },
     {
-      "id": "src_postal_streets",
       "title": "SITA – PSČ 85106 Bratislava, zoznam ulíc a priradenie k pošte Bratislava 5",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/85106/",
       "type": "news"
     },
     {
-      "id": "src_city_heritage",
       "title": "Hlavné mesto SR Bratislava – Evidenčný list pamätihodnosti mesta: Zrod, Beňadická 38",
       "url": "https://zastupitelstvo.bratislava.sk/data/att/75360.pdf",
       "type": "official"
     },
     {
-      "id": "src_petrzalka_heritage",
       "title": "Mestská časť Bratislava-Petržalka – Pamätihodnosti a pamiatky, plastika Kvitnúci strom na Beňadickej",
       "url": "https://www.petrzalka.sk/samosprava/pamatihodnosti/",
       "type": "official"
     },
     {
-      "id": "src_school_address",
       "title": "Cirkevná základná škola Narnia – adresa a prístup do školy, Beňadická 38, 851 06 Bratislava",
       "url": "https://narnia.sk/cesta-ako-sa-k-nam-dostat/",
       "type": "official"
     },
     {
-      "id": "src_location",
       "title": "OMA – Beňadická 38, 851 06 Bratislava-Petržalka, adresní bod a souřadnice",
       "url": "https://bratislava.oma.sk/u/benadicka/38",
       "type": "specialist"
