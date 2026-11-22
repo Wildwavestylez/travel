@@ -4,7 +4,7 @@
 **Rozsah:** 26601–26801, přesně 31 PSČ  
 **Auditní pravidla:** data/czechia/prompt_audit.md V2.0  
 **Datum:** 2026-11-22  
-**Stav:** PASS / AUDIT V2.0 COMPLETE / NOT PUBLISHED
+**Stav:** PASS / AUDIT V2.0 COMPLETE / PUBLISHED V5 / BACKUP VERIFIED / NOT READ-ONLY LOCKED
 
 ## 1. Inventář a návaznost
 
