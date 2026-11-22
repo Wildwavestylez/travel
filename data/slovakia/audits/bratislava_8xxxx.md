@@ -2,7 +2,7 @@
 
 - Datum: 2026-11-22
 - Rozsah: všechny bratislavské kódy řady 8xxxx obsažené v naplněném `data/slovakia/sequence.json`.
-- Celkový výsledek: **FINAL AUDIT COMPLETE — 49 PASS / 0 REVIEW REQUIRED; PUBLICATION VERSION HELD**. Zdrojové reference odpovídají českému technickému formátu. Závěrečný průchod potvrdil strukturální a jazykové zarovnání všech 49 obsahových záznamů. Šest dříve otevřených geografických položek bylo uzavřeno na základě aktuálního RAGEO-derived snapshotu a pravidel zdrojového datasetu pro malé okrajové adresní skupiny.
+- Celkový výsledek: **FINAL AUDIT COMPLETE — 49 PASS / 0 REVIEW REQUIRED; V5 PUBLISHED**. Zdrojové reference odpovídají českému technickému formátu. Závěrečný průchod potvrdil strukturální a jazykové zarovnání všech 49 obsahových záznamů. Šest dříve otevřených geografických položek bylo uzavřeno na základě aktuálního RAGEO-derived snapshotu a pravidel zdrojového datasetu pro malé okrajové adresní skupiny.
 - Nebyla změněna žádná hodnota `data_version`, schéma ani pořadí sekvence.
 
 ## Inventář rozsahu
@@ -139,3 +139,8 @@ Všech šest kanonických JSON souborů bylo znovu načteno z GitHubu. U každé
 ### Konečný geografický výsledek
 
 **6/6 geografických položek uzavřeno. Celý obsahový rozsah 49/49 PASS. Žádné otevřené geografické REVIEW REQUIRED.** Záznamy zůstávají `validated`, protože `data_version` nebyl explicitně změněn na V5 a automatický Explorer build vyžaduje kombinaci `status=published` a `data_version=5`. V tomto kroku nebyla provedena publikace ani změna verze.
+
+
+## Následná změna verze a publikace – 2026-11-22
+
+Na výslovný pokyn uživatele bylo všech 49 auditovaných obsahových záznamů bratislavského rozsahu 8xxxx převedeno na `data_version: 5` a `status: published`. Obsah, faktová ID, překlady, zdroje, lokace a pořadí faktů zůstaly beze změny. Dva záměrné placeholdery `85000` a `85009` zůstaly nedotčené. `database_index.json` byl synchronizován: 49 záznamů `published`, 2 placeholdery. Následuje automatické sestavení `explorer_index.json` workflow GitHub Actions; manifest se neupravuje ručně. Tato operace navazuje na dokončený audit 49/49 PASS a nemění jeho obsahové závěry.
