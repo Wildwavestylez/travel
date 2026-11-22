@@ -2,7 +2,7 @@
 
 - Datum: 2026-11-22
 - Rozsah: všechny bratislavské kódy řady 8xxxx obsažené v naplněném `data/slovakia/sequence.json`.
-- Celkový výsledek: **FINAL AUDIT RECHECK COMPLETE — 43 PASS / 6 REVIEW REQUIRED; PUBLICATION HELD**. Zdrojové reference odpovídají českému technickému formátu. Závěrečný průchod potvrdil strukturální a jazykové zarovnání všech 49 obsahových záznamů; šest geografických konfliktů s odlehlými adresními body zůstává otevřeno.
+- Celkový výsledek: **FINAL AUDIT COMPLETE — 49 PASS / 0 REVIEW REQUIRED; PUBLICATION VERSION HELD**. Zdrojové reference odpovídají českému technickému formátu. Závěrečný průchod potvrdil strukturální a jazykové zarovnání všech 49 obsahových záznamů. Šest dříve otevřených geografických položek bylo uzavřeno na základě aktuálního RAGEO-derived snapshotu a pravidel zdrojového datasetu pro malé okrajové adresní skupiny.
 - Nebyla změněna žádná hodnota `data_version`, schéma ani pořadí sekvence.
 
 ## Inventář rozsahu
@@ -119,10 +119,32 @@ Uvedené záznamy zůstávají validated. Jejich faktický obsah ani reprezentat
 
 ## Konečný stav a další krok
 
-- **43 záznamů:** PASS v provedených auditních kontrolách.
-- **6 záznamů:** REVIEW REQUIRED kvůli výše uvedeným neuzavřeným geografickým konfliktům.
+- **49 záznamů:** PASS ve všech provedených auditních kontrolách.
+- **0 záznamů:** REVIEW REQUIRED; všech šest dříve otevřených geografických položek bylo uzavřeno.
 - **2 záznamy:** placeholder, mimo obsahový audit.
 - **Publikace/V5:** neprovedena; data_version zůstává beze změny a uživatel o publikaci ani změnu verze v tomto požadavku nežádal.
 - **Dropbox záloha:** neprovedena; nebyla požadována.
 
-Další nutný krok: ověřit šest konkrétních odlehlých adresních bodů proti primárnímu RAGEO a/nebo Slovenské poště. Do té doby nelze celý blok označit jako bezvýhradně PASS ani přistoupit k publikaci.
+Auditní kontrolní práce je dokončena. Samostatnou budoucí operací zůstává případná explicitně vyžádaná změna data_version a publikace pro Europe Explorer V5; bez ní zůstávají záznamy ve stavu validated.
+
+
+## Uzavření šesti geografických položek – 2026-11-22
+
+Použit byl aktuální RAGEO-derived CC0 snapshot projektu slovak-postal-codes z 2026-11-21 (commit `3efc5ff66e1a8b15fa155f5d347836266ded2d74`). Jeho README výslovně uvádí, že malé páry PSČ × obec s 1–8 adresními body představují reálné okrajové ulice nebo domy obsluhované sousední poštou; nejsou filtrovány jako chyby. Tím se vysvětlují všechny dříve sporné odlehlé body. Slovenská pošta – Technické parametre účinné od 1. 1. 2026, příloha 3a – potvrzuje příslušné třídicí směry pro všech šest kódů. Tato tabulka je používána pouze jako důkaz poštovního směrování, nikoli jako polygonální hranice PSČ. RAGEO-derived dataset je použit jako adresní evidence; přesná hranice doručovací oblasti se netvrdí.
+
+- **84002 – PASS:** 128 adresních bodů v Bratislavě-Záhorské Bystrici + 2 v Bratislavě-Lamači. Obě městské části jsou Bratislava; reprezentativní místo Plánky a district Záhorská Bystrica zůstávají správné.
+- **82106 – PASS:** 3 971 bodů v Podunajských Biskupicích, 18 ve Vrakuni a po 1 v Ružinově, Devínskej Novej Vsi a Záhorské Bystrici. Všechny body jsou v rámci obce Bratislava; dominantní reprezentativní lokalita Podunajské Biskupice zůstává správná.
+- **82109 – PASS:** 674 bodů v Ružinově, 4 ve Starém Městě a 1 okrajový bod v Pezinku-Myslenicích. README datasetu potvrzuje, že jednoprvkové páry jsou reálné okrajové adresy; reprezentativní obec Bratislava a district Ružinov zůstávají správné.
+- **83107 – PASS:** 1 775 bodů ve Vajnorech + 2 okrajové body v Pezinku. Reprezentativní obec Bratislava a district Vajnory zůstávají správné.
+- **84106 – PASS:** 2 443 bodů v Záhorské Bystrici + 1 okrajový bod v Pezinku. Reprezentativní obec Bratislava a district Záhorská Bystrica zůstávají správné.
+- **84110 – PASS:** 898 bodů v Devíně, 2 v Karlově Vsi, 1 v Devínskej Novej Vsi a 1 v Pezinku. Reprezentativní obec Bratislava a district Devín zůstávají správné.
+
+U všech šesti záznamů bylo nastaveno `verification.postcode_conflict=false`, aktualizovány kontrolní poznámky a zdrojové údaje na snapshot 2026-11-21; do `sources[]` byly přidány přímé odkazy na CSV a metodiku datasetu. Faktový obsah, fact IDs, lokace, reprezentativní body, administrativní pole, status a data_version nebyly změněny.
+
+### Read-back po geografických opravách
+
+Všech šest kanonických JSON souborů bylo znovu načteno z GitHubu. U každého bylo ověřeno: `postcode_conflict=false`, správné zdroje a poznámka, zachovaný status `validated`, nezměněné `data_version` (null) a shoda `city` i `status` s odpovídající položkou v `database_index.json`. Index nebylo nutné měnit, protože jeho hodnoty již odpovídaly kanonickým záznamům.
+
+### Konečný geografický výsledek
+
+**6/6 geografických položek uzavřeno. Celý obsahový rozsah 49/49 PASS. Žádné otevřené geografické REVIEW REQUIRED.** Záznamy zůstávají `validated`, protože `data_version` nebyl explicitně změněn na V5 a automatický Explorer build vyžaduje kombinaci `status=published` a `data_version=5`. V tomto kroku nebyla provedena publikace ani změna verze.
