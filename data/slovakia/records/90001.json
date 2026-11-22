@@ -18,10 +18,10 @@
       "category": "culture_and_industry",
       "priority": "A",
       "sources": [
-        "src_majolica_indprop",
-        "src_majolica_visitmodra",
-        "src_majolica_stvr",
-        "src_majolica_location"
+        "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
+        "https://www.visitmodra.sk/slovenska-ludova-majolika-modra/",
+        "https://spravy.stvr.sk/2025/12/modranska-keramika-rozprava-svoj-pribeh-uz-storocia-od-hliny-az-po-majoliku-ktora-zije-dodnes/",
+        "https://projektidentita.sk/database-record/66"
       ],
       "location": {
         "name": "Slovenská ľudová majolika",
@@ -41,10 +41,10 @@
       "category": "history",
       "priority": "A",
       "sources": [
-        "src_stur_snm_history",
-        "src_stur_snm_exposition",
-        "src_stur_modra",
-        "src_stur_location"
+        "https://www.snm.sk/muzea-snm/muzeum-ludovita-stura/muzeum-ludovita-stura/o-muzeu/muzeum-ludovita-stura-sidlo-a-dalsie-objekty-muzea",
+        "https://www.snm.sk/en/museums/ludovit-stur-museum/ludovit-stur-museum/visit/expositions?clanok=ludovit-stur-memorial-room",
+        "https://www.modra.sk/pred-167-rokmi-zomrel-ludovit-stur/",
+        "https://www.pamiatkynaslovensku.sk/modra-muzeum-ludovita-stura"
       ],
       "location": {
         "name": "Emreszovský dům – Múzeum Ľudovíta Štúra",
@@ -64,10 +64,10 @@
       "category": "tourism_and_surroundings",
       "priority": "B",
       "sources": [
-        "src_zoch_history",
-        "src_zoch_contact",
-        "src_modra_recreation",
-        "src_postal_area_sita"
+        "https://www.hotelzochovachata.sk/history/?lang=en",
+        "https://www.hotelzochovachata.sk/kontakt/",
+        "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
+        "https://sita.sk/hladat-psc-postove-smerove-cislo/90001/"
       ],
       "location": {
         "name": "Zochova chata",
@@ -98,97 +98,71 @@
   },
   "sources": [
     {
-      "id": "src_majolica_indprop",
       "title": "Úrad priemyselného vlastníctva SR – Špecifikácia označenia pôvodu Modranská majolika",
       "url": "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
       "type": "official"
     },
     {
-      "id": "src_majolica_visitmodra",
       "title": "Visit Modra – Slovenská ľudová majolika Modra",
       "url": "https://www.visitmodra.sk/slovenska-ludova-majolika-modra/",
       "type": "official"
     },
     {
-      "id": "src_majolica_stvr",
       "title": "STVR – Modranská keramika rozpráva svoj príbeh už storočia",
       "url": "https://spravy.stvr.sk/2025/12/modranska-keramika-rozprava-svoj-pribeh-uz-storocia-od-hliny-az-po-majoliku-ktora-zije-dodnes/",
       "type": "news"
     },
     {
-      "id": "src_stur_snm_history",
       "title": "Slovenské národné múzeum – Sídlo a ďalšie objekty Múzea Ľudovíta Štúra",
       "url": "https://www.snm.sk/muzea-snm/muzeum-ludovita-stura/muzeum-ludovita-stura/o-muzeu/muzeum-ludovita-stura-sidlo-a-dalsie-objekty-muzea",
       "type": "official"
     },
     {
-      "id": "src_stur_snm_exposition",
       "title": "Slovenské národné múzeum – Ľudovít Štúr Memorial Room",
       "url": "https://www.snm.sk/en/museums/ludovit-stur-museum/ludovit-stur-museum/visit/expositions?clanok=ludovit-stur-memorial-room",
       "type": "official"
     },
     {
-      "id": "src_stur_modra",
       "title": "Mesto Modra – Pred 167 rokmi zomrel Ľudovít Štúr",
       "url": "https://www.modra.sk/pred-167-rokmi-zomrel-ludovit-stur/",
       "type": "official"
     },
     {
-      "id": "src_zoch_history",
       "title": "Hotel Zochova chata – History",
       "url": "https://www.hotelzochovachata.sk/history/?lang=en",
       "type": "primary"
     },
     {
-      "id": "src_zoch_contact",
       "title": "Hotel Zochova chata – Kontakt, adresa a GPS",
       "url": "https://www.hotelzochovachata.sk/kontakt/",
       "type": "primary"
     },
     {
-      "id": "src_modra_recreation",
-      "title": "Úrad priemyselného vlastníctva SR – územné vymedzenie Modry, Harmónie a Piesku",
-      "url": "https://www.indprop.gov.sk/swift_data/source/pdf/specifikacie_op_oz/vytahy_vestnikov/Modranska%20majolika%20-%20Strany%20z%20200604_oz_op.pdf",
-      "type": "official"
-    },
-    {
-      "id": "src_postal_modra",
       "title": "Slovenská pošta – Zoznam vybraných pôšt na predaj eKolkov, Modra 1, PSČ 90001",
       "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
       "type": "official"
     },
     {
-      "id": "src_postal_coverage",
       "title": "SITA – PSČ 90001, obce Modra, Harmónia a Piesok",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90001/",
       "type": "regional"
     },
     {
-      "id": "src_postal_streets",
       "title": "Slovenská pošta – Vyhľadávanie PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "official"
     },
     {
-      "id": "src_majolica_location",
       "title": "Identita.sk – Slovenská ľudová majolika, Dolná 138, 900 01 Modra, GPS",
       "url": "https://projektidentita.sk/database-record/66",
       "type": "specialist"
     },
     {
-      "id": "src_stur_location",
       "title": "Pamiatky na Slovensku – Múzeum Ľudovíta Štúra, poloha a GPS",
       "url": "https://www.pamiatkynaslovensku.sk/modra-muzeum-ludovita-stura",
       "type": "specialist"
     },
     {
-      "id": "src_postal_area_sita",
-      "title": "SITA – PSČ 90001, Modra, Harmónia a Piesok",
-      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90001/",
-      "type": "regional"
-    },
-    {
-      "id": "src_admin_modra",
       "title": "Štatistický úrad SR – územná klasifikácia mesta Modra, okres Pezinok, Bratislavský kraj",
       "url": "https://slovak.statistics.sk/",
       "type": "official"
