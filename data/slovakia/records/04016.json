@@ -1,4 +1,369 @@
 {
   "postcode": "04016",
-  "status": "placeholder"
+  "city": "Košice",
+  "district": "Myslava",
+  "county": "Košice II",
+  "state": "Košický kraj",
+  "representative_place": "Historické jádro Myslavy – kostel sv. Bartoloměje",
+  "representative_point": {
+    "lat": 48.707452,
+    "lon": 21.206848
+  },
+  "access_point": {
+    "lat": 48.707452,
+    "lon": 21.206848
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Myslava: starobylá obec v údolí vlastního potoka",
+      "text": "Myslava se vyvíjela jako samostatná obec západně od Košic a její historickou osu dodnes určuje Myslavský potok. Jeho název je v písemných pramenech doložen už roku 1297, zatímco první písemná zmínka o obci pochází z roku 1382. K hospodářskému životu patřily dva mlýny – vyšný a nižný – o nichž se dochovaly záznamy z roku 1395. Myslava si navzdory pozdějšímu začlenění do města zachovala čitelný vesnický charakter.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_16fb0167-9727-4db0-9537-ff8a37241380",
+        "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
+      ],
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Bartoloměje a středověké kořeny farnosti",
+      "text": "Dnešní klasicistní kostel sv. Bartoloměje byl v Myslavě postaven v letech 1778–1792 a po požáru roku 1808 znovu obnoven. Navazuje na mnohem starší sakrální tradici: středověká farnost je doložena v soupisu papežských desátků z let 1332–1337 a první kaple Povýšení svatého Kříže stála v obci už roku 1382. Kostel uchovává také cenné vybavení, například kamennou křtitelnici datovanou rokem 1735 a barokní obraz sv. Bartoloměje z doby kolem roku 1760. Stavba je zapsána v Ústředním seznamu památkového fondu SR.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.myslava.eu/historia-farnosti-0.html",
+        "https://www.myslava.eu/kostol-svateho-bartolomeja.html",
+        "https://www.pamiatky.sk/evidencie-a-registre/register-nnkp/detail-nnkp?cHash=92278d72a28f6142970ffcb38706445e&tx_tempestregister_detail%5Baction%5D=pdf&tx_tempestregister_detail%5Bcode%5D=RNNKP&tx_tempestregister_detail%5Bcontroller%5D=Register&tx_tempestregister_detail%5BdetailId%5D=ec0a67bf-f889-42ec-ac0a-6eaeb43ee955"
+      ],
+      "location": {
+        "name": "Kostel sv. Bartoloměje, Myslava",
+        "address": "Pod horou, 040 16 Košice, Slovensko",
+        "lat": 48.707452,
+        "lon": 21.206848,
+        "type": "historic_church",
+        "accuracy": "exact",
+        "source": "https://www.myslava.eu/kostol-svateho-bartolomeja.html"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Železárna Maša: zapomenutá kapitola košického průmyslu",
+      "text": "V roce 1848 navrhl Július Juhos založení železářské huti v údolí Myslavského potoka a začala příprava akciové společnosti. Vysoká pec a vlastní železárna byly dokončeny přibližně v letech 1850–1851; provoz zahrnoval tavicí pec, hamr poháněný vodním kolem a další kovozpracující dílny. Maša zaměstnávala místní obyvatele téměř dvě desetiletí. V roce 1870 výrobu postupně zastavila konkurence modernějších podniků využívajících parní pohon a železniční dopravu. Název Maša se v místní krajině dochoval dodnes.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.myslava.eu/historia-farnosti-0.html",
+        "https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Jesenak/2017/13_cast_jesenak.pdf"
+      ],
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_004",
+      "title": "Pivovar a cihelna zásobovaly také Košice",
+      "text": "Myslava bývala významným hospodářským zázemím Košic. Písemný záznam dokládá místní pivovar už roku 1703 a podle veřejné správy byl ve své době až třikrát větší než košický pivovar. V roce 1707 je doložena také cihelna, která pálila cihly pro město a pracovala až do roku 1861. Spolu s mlýny a pozdější železárnou Maša připomínají tyto provozy dobu, kdy měla Myslava vlastní průmyslovou a řemeslnou základnu, nikoli pouze zemědělské hospodářství.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_16fb0167-9727-4db0-9537-ff8a37241380",
+        "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
+      ],
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Folklorní soubor Hrabina uchovává místní tradice",
+      "text": "Folklorní soubor Hrabina vznikl v roce 1955 z iniciativy místní učitelky Agnesy Vargové, která založila taneční skupinu při základní škole. Soubor brzy získal úspěchy na soutěžích lidové umělecké tvořivosti a v letech 1956 a 1957 byl hodnocen lépe než známá košická Čarnica. Po období útlumu se jeho činnost znovu výrazněji rozběhla v roce 1983. Hrabina navazuje na místní písně, tance, obřady a kroje, jejichž zachování je důležitou součástí identity Myslavy.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.myslava.eu/tradicie-a-folklor-.html",
+        "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
+      ],
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální katalog ulic města Košice přiřazuje PSČ 04016 městské části Košice-Myslava (např. Myslavská, Na Kope, Pod Gruntom); existence a geografická povaha PSČ je kontrolována také vůči vyhledávání PSČ Slovenské pošty.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhledávání PSČ Slovenské pošty a oficiální katalog ulic města Košice",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Mesto Košice – oficiálny katalóg ulíc; ŠÚ SR a oficiálne územné registre pre okres a kraj; Pamiatkový úrad SR a oficiálne stránky mestskej časti pre polohu a identifikáciu miest."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Košice – oficiálny katalóg ulíc",
+      "url": "https://www.kosice.sk/mesto/katalog-ulic",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Myslava – základné informácie",
+      "url": "https://www.myslava.eu/zakladne-informacie-o-myslave.html",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Myslava – história",
+      "url": "https://www.myslava.eu/historia.html",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Myslava – história farnosti",
+      "url": "https://www.myslava.eu/historia-farnosti-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Myslava – Kostol svätého Bartolomeja",
+      "url": "https://www.myslava.eu/kostol-svateho-bartolomeja.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatkový úrad SR – register národných kultúrnych pamiatok: Kostol sv. Bartolomeja",
+      "url": "https://www.pamiatky.sk/evidencie-a-registre/register-nnkp/detail-nnkp?cHash=92278d72a28f6142970ffcb38706445e&tx_tempestregister_detail%5Baction%5D=pdf&tx_tempestregister_detail%5Bcode%5D=RNNKP&tx_tempestregister_detail%5Bcontroller%5D=Register&tx_tempestregister_detail%5BdetailId%5D=ec0a67bf-f889-42ec-ac0a-6eaeb43ee955",
+      "type": "official"
+    },
+    {
+      "title": "Mestská časť Košice-Myslava – tradície a folklór",
+      "url": "https://www.myslava.eu/tradicie-a-folklor-.html",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – informácie o obci Košice-Myslava",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_16fb0167-9727-4db0-9537-ff8a37241380",
+      "type": "official"
+    },
+    {
+      "title": "Univerzita Komenského – historická železiareň Maša v Myslave",
+      "url": "https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Jesenak/2017/13_cast_jesenak.pdf",
+      "type": "university"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro Myslavy – kostel sv. Bartoloměje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: starobylá obec v údolí vlastního potoka",
+          "text": "Myslava se vyvíjela jako samostatná obec západně od Košic a její historickou osu dodnes určuje Myslavský potok. Jeho název je v písemných pramenech doložen už roku 1297, zatímco první písemná zmínka o obci pochází z roku 1382. K hospodářskému životu patřily dva mlýny – vyšný a nižný – o nichž se dochovaly záznamy z roku 1395. Myslava si navzdory pozdějšímu začlenění do města zachovala čitelný vesnický charakter."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Bartoloměje a středověké kořeny farnosti",
+          "text": "Dnešní klasicistní kostel sv. Bartoloměje byl v Myslavě postaven v letech 1778–1792 a po požáru roku 1808 znovu obnoven. Navazuje na mnohem starší sakrální tradici: středověká farnost je doložena v soupisu papežských desátků z let 1332–1337 a první kaple Povýšení svatého Kříže stála v obci už roku 1382. Kostel uchovává také cenné vybavení, například kamennou křtitelnici datovanou rokem 1735 a barokní obraz sv. Bartoloměje z doby kolem roku 1760. Stavba je zapsána v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_003",
+          "title": "Železárna Maša: zapomenutá kapitola košického průmyslu",
+          "text": "V roce 1848 navrhl Július Juhos založení železářské huti v údolí Myslavského potoka a začala příprava akciové společnosti. Vysoká pec a vlastní železárna byly dokončeny přibližně v letech 1850–1851; provoz zahrnoval tavicí pec, hamr poháněný vodním kolem a další kovozpracující dílny. Maša zaměstnávala místní obyvatele téměř dvě desetiletí. V roce 1870 výrobu postupně zastavila konkurence modernějších podniků využívajících parní pohon a železniční dopravu. Název Maša se v místní krajině dochoval dodnes."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pivovar a cihelna zásobovaly také Košice",
+          "text": "Myslava bývala významným hospodářským zázemím Košic. Písemný záznam dokládá místní pivovar už roku 1703 a podle veřejné správy byl ve své době až třikrát větší než košický pivovar. V roce 1707 je doložena také cihelna, která pálila cihly pro město a pracovala až do roku 1861. Spolu s mlýny a pozdější železárnou Maša připomínají tyto provozy dobu, kdy měla Myslava vlastní průmyslovou a řemeslnou základnu, nikoli pouze zemědělské hospodářství."
+        },
+        {
+          "id": "fact_005",
+          "title": "Folklorní soubor Hrabina uchovává místní tradice",
+          "text": "Folklorní soubor Hrabina vznikl v roce 1955 z iniciativy místní učitelky Agnesy Vargové, která založila taneční skupinu při základní škole. Soubor brzy získal úspěchy na soutěžích lidové umělecké tvořivosti a v letech 1956 a 1957 byl hodnocen lépe než známá košická Čarnica. Po období útlumu se jeho činnost znovu výrazněji rozběhla v roce 1983. Hrabina navazuje na místní písně, tance, obřady a kroje, jejichž zachování je důležitou součástí identity Myslavy."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Myslava – Kirche des hl. Bartholomäus",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: ein altes Dorf im Tal des eigenen Baches",
+          "text": "Myslava entwickelte sich als eigenständige Gemeinde westlich von Košice; das Tal des Myslava-Baches prägt den Ort bis heute. Der Bachname ist bereits 1297 schriftlich belegt, die erste schriftliche Erwähnung der Gemeinde stammt aus dem Jahr 1382. Zum wirtschaftlichen Leben gehörten zwei Mühlen, die obere und die untere, die in Quellen von 1395 erwähnt werden. Trotz der späteren Eingemeindung hat Myslava ihren erkennbaren dörflichen Charakter bewahrt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Kirche des hl. Bartholomäus und die mittelalterlichen Wurzeln der Pfarrei",
+          "text": "Die heutige klassizistische Kirche des hl. Bartholomäus wurde in Myslava zwischen 1778 und 1792 errichtet und nach einem Brand 1808 wiederhergestellt. Sie steht in einer viel älteren sakralen Tradition: Eine mittelalterliche Pfarrei ist in den päpstlichen Zehntregistern von 1332–1337 belegt; eine erste Kapelle zum Heiligen Kreuz stand hier bereits 1382. Zur Ausstattung gehören ein steinernes Taufbecken von 1735 und ein barockes Gemälde des hl. Bartholomäus um 1760. Die Kirche ist im slowakischen Denkmalregister eingetragen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Eisenwerk Maša: ein vergessenes Kapitel der Industriegeschichte von Košice",
+          "text": "1848 schlug Július Juhos vor, im Tal des Myslava-Baches ein Eisenwerk zu errichten; die Vorbereitungen für eine Aktiengesellschaft begannen. Hochofen und Eisenwerk wurden etwa 1850–1851 fertiggestellt. Zum Betrieb gehörten ein Schmelzofen, ein von einem Wasserrad angetriebener Hammer und weitere Metallwerkstätten. Maša beschäftigte fast zwei Jahrzehnte lang Einwohner der Gemeinde. 1870 wurde die Produktion angesichts der Konkurrenz moderner Betriebe mit Dampfkraft und Eisenbahntransport eingestellt. Der Name Maša ist in der örtlichen Landschaft bis heute erhalten."
+        },
+        {
+          "id": "fact_004",
+          "title": "Brauerei und Ziegelei versorgten auch Košice",
+          "text": "Myslava war einst ein bedeutendes wirtschaftliches Hinterland von Košice. Eine schriftliche Quelle belegt eine örtliche Brauerei bereits 1703; laut dem staatlichen Informationsportal war sie damals bis zu dreimal größer als die Brauerei von Košice. Für 1707 ist außerdem eine Ziegelei belegt, die Ziegel für die Stadt brannte und bis 1861 in Betrieb blieb. Zusammen mit den Mühlen und dem späteren Eisenwerk Maša erinnern diese Betriebe an eine Zeit, in der Myslava über eine eigene handwerkliche und industrielle Basis verfügte."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Folkloregruppe Hrabina bewahrt lokale Traditionen",
+          "text": "Die Folkloregruppe Hrabina entstand 1955 auf Initiative der örtlichen Lehrerin Agnesa Vargová, die an der Grundschule eine Tanzgruppe gründete. Die Gruppe erzielte bald Erfolge bei Wettbewerben des volkstümlichen Kunstschaffens und wurde 1956 und 1957 besser bewertet als die bekannte Košicer Gruppe Čarnica. Nach einer ruhigeren Phase wurde ihre Tätigkeit 1983 wiederbelebt. Hrabina pflegt lokale Lieder, Tänze, Bräuche und Trachten, die einen wichtigen Teil der Identität von Myslava bilden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Myslava – Church of St Bartholomew",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: an old village in the valley of its own stream",
+          "text": "Myslava developed as an independent village west of Košice, and the valley of the Myslava Stream still defines its setting. The stream is mentioned in written sources as early as 1297, while the first written reference to the village dates to 1382. Its economic life included two mills, the upper and lower mills, documented in records from 1395. Despite its later incorporation into Košice, Myslava has retained a recognisable village character."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of St Bartholomew and the parish’s medieval roots",
+          "text": "The present Neoclassical Church of St Bartholomew was built in Myslava between 1778 and 1792 and rebuilt after a fire in 1808. It continues a much older religious tradition: a medieval parish is indicated in papal tithe records from 1332–1337, and a first chapel dedicated to the Exaltation of the Holy Cross stood here in 1382. Notable furnishings include a stone baptismal font dated 1735 and a Baroque painting of St Bartholomew from around 1760. The church is listed in Slovakia’s central heritage register."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Maša ironworks: a forgotten chapter of Košice’s industrial history",
+          "text": "In 1848, Július Juhos proposed establishing an ironworks in the valley of the Myslava Stream, and preparations for a joint-stock company began. The blast furnace and ironworks were completed around 1850–1851. The operation included a smelting furnace, a hammer powered by a waterwheel and other metalworking workshops. Maša provided employment for local residents for almost two decades. In 1870 production was gradually halted as more modern businesses using steam power and railway transport outcompeted it. The name Maša survives in the local landscape."
+        },
+        {
+          "id": "fact_004",
+          "title": "The brewery and brickyard that also supplied Košice",
+          "text": "Myslava was once an important economic hinterland for Košice. A written record documents a local brewery as early as 1703; according to the public administration portal, it was once as much as three times larger than the Košice brewery. A brickyard is documented from 1707; it produced bricks for the city and operated until 1861. Together with the mills and the later Maša ironworks, these enterprises recall a time when Myslava had its own craft and industrial base rather than relying solely on agriculture."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Hrabina folk ensemble preserves local traditions",
+          "text": "The Hrabina folk ensemble was founded in 1955 by local teacher Agnesa Vargová, who established a dance group at the primary school. It soon achieved success in folk-art competitions and was rated higher than the well-known Košice ensemble Čarnica in 1956 and 1957. After a period of reduced activity, the group was revived in 1983. Hrabina continues local songs, dances, ceremonies and traditional costumes, an important part of Myslava’s identity."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Myslava – iglesia de San Bartolomé",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: un antiguo pueblo en el valle de su propio arroyo",
+          "text": "Myslava se desarrolló como pueblo independiente al oeste de Košice y el valle del arroyo Myslava sigue definiendo su paisaje. El arroyo aparece en documentos escritos ya en 1297, mientras que la primera mención escrita del pueblo data de 1382. Su economía incluía dos molinos, el superior y el inferior, documentados en fuentes de 1395. A pesar de su posterior incorporación a Košice, Myslava ha conservado un carácter rural reconocible."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de San Bartolomé y las raíces medievales de la parroquia",
+          "text": "La actual iglesia neoclásica de San Bartolomé se construyó en Myslava entre 1778 y 1792 y fue reconstruida tras un incendio en 1808. Continúa una tradición religiosa mucho más antigua: los registros de diezmos papales de 1332–1337 indican la existencia de una parroquia medieval, y en 1382 ya había una primera capilla dedicada a la Exaltación de la Santa Cruz. Entre sus bienes destacan una pila bautismal de piedra de 1735 y una pintura barroca de San Bartolomé de alrededor de 1760. La iglesia figura en el registro central de patrimonio de Eslovaquia."
+        },
+        {
+          "id": "fact_003",
+          "title": "La ferrería Maša: un capítulo olvidado de la industria de Košice",
+          "text": "En 1848, Július Juhos propuso establecer una ferrería en el valle del arroyo Myslava y comenzaron los preparativos para crear una sociedad por acciones. El alto horno y la ferrería se terminaron hacia 1850–1851. La instalación incluía un horno de fundición, un martinete accionado por una rueda hidráulica y otros talleres metalúrgicos. Maša dio trabajo a los habitantes durante casi dos décadas. En 1870 la producción se detuvo gradualmente ante la competencia de empresas más modernas que utilizaban energía de vapor y transporte ferroviario. El nombre Maša aún permanece en el paisaje local."
+        },
+        {
+          "id": "fact_004",
+          "title": "La cervecería y la fábrica de ladrillos que también abastecían a Košice",
+          "text": "Myslava fue en otro tiempo una importante zona económica de apoyo para Košice. Un documento escrito acredita la existencia de una cervecería local ya en 1703; según el portal público de administración, llegó a ser hasta tres veces mayor que la cervecería de Košice. También se documenta una fábrica de ladrillos desde 1707, que producía para la ciudad y funcionó hasta 1861. Junto con los molinos y la posterior ferrería Maša, estas instalaciones recuerdan una época en la que Myslava contaba con una base artesanal e industrial propia."
+        },
+        {
+          "id": "fact_005",
+          "title": "El conjunto folclórico Hrabina conserva las tradiciones locales",
+          "text": "El conjunto folclórico Hrabina nació en 1955 por iniciativa de la maestra local Agnesa Vargová, que fundó un grupo de danza en la escuela primaria. Pronto obtuvo éxitos en concursos de arte popular y en 1956 y 1957 recibió mejores valoraciones que el conocido conjunto Čarnica de Košice. Tras un periodo de menor actividad, el grupo se reactivó en 1983. Hrabina mantiene vivas las canciones, danzas, ceremonias y vestimentas tradicionales locales, una parte importante de la identidad de Myslava."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Myslava – église Saint-Barthélemy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava : un ancien village dans la vallée de son ruisseau",
+          "text": "Myslava s’est développée comme village indépendant à l’ouest de Košice, et la vallée du ruisseau Myslava définit encore son paysage. Le ruisseau est mentionné dans des documents dès 1297, tandis que la première mention écrite du village date de 1382. Son économie comptait deux moulins, l’un supérieur et l’autre inférieur, attestés dans des sources de 1395. Malgré son intégration ultérieure à Košice, Myslava a conservé un caractère villageois bien identifiable."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Barthélemy et les origines médiévales de la paroisse",
+          "text": "L’actuelle église néoclassique Saint-Barthélemy fut construite à Myslava entre 1778 et 1792, puis reconstruite après un incendie en 1808. Elle s’inscrit dans une tradition religieuse bien plus ancienne : les registres de la dîme pontificale de 1332–1337 indiquent l’existence d’une paroisse médiévale et une première chapelle dédiée à l’Exaltation de la Sainte-Croix se trouvait ici en 1382. Le mobilier comprend notamment des fonts baptismaux en pierre datés de 1735 et un tableau baroque de saint Barthélemy vers 1760. L’église figure au registre central du patrimoine slovaque."
+        },
+        {
+          "id": "fact_003",
+          "title": "La forge de Maša : un chapitre oublié de l’industrie de Košice",
+          "text": "En 1848, Július Juhos proposa de créer une forge dans la vallée du ruisseau Myslava et les préparatifs d’une société par actions commencèrent. Le haut-fourneau et l’usine furent achevés vers 1850–1851. L’installation comprenait un four de fusion, un marteau actionné par une roue hydraulique et d’autres ateliers de métallurgie. Maša fournit du travail aux habitants pendant près de deux décennies. En 1870, la production fut progressivement arrêtée face à la concurrence d’entreprises plus modernes utilisant la vapeur et le transport ferroviaire. Le nom Maša demeure dans le paysage local."
+        },
+        {
+          "id": "fact_004",
+          "title": "La brasserie et la briqueterie qui approvisionnaient aussi Košice",
+          "text": "Myslava fut autrefois un important centre économique pour l’approvisionnement de Košice. Un document écrit atteste l’existence d’une brasserie locale dès 1703 ; selon le portail public de l’administration, elle était à son époque jusqu’à trois fois plus grande que celle de Košice. Une briqueterie est également attestée dès 1707 : elle fabriquait des briques pour la ville et fonctionna jusqu’en 1861. Avec les moulins et la forge de Maša, ces activités rappellent une époque où Myslava possédait sa propre base artisanale et industrielle."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’ensemble folklorique Hrabina préserve les traditions locales",
+          "text": "L’ensemble folklorique Hrabina fut fondé en 1955 à l’initiative de l’institutrice locale Agnesa Vargová, qui créa un groupe de danse à l’école primaire. Il obtint rapidement de bons résultats dans les concours d’art populaire et fut mieux noté que le célèbre ensemble Čarnica de Košice en 1956 et 1957. Après une période de moindre activité, le groupe reprit son élan en 1983. Hrabina perpétue les chants, danses, cérémonies et costumes traditionnels locaux, qui constituent une part importante de l’identité de Myslava."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Myslava – chiesa di San Bartolomeo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: un antico villaggio nella valle del suo torrente",
+          "text": "Myslava si sviluppò come villaggio indipendente a ovest di Košice e la valle del torrente Myslava ne caratterizza ancora il paesaggio. Il torrente è citato in documenti scritti già nel 1297, mentre la prima menzione scritta del villaggio risale al 1382. L’economia locale comprendeva due mulini, uno superiore e uno inferiore, documentati in fonti del 1395. Nonostante la successiva annessione a Košice, Myslava ha conservato un riconoscibile carattere rurale."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Bartolomeo e le radici medievali della parrocchia",
+          "text": "L’attuale chiesa neoclassica di San Bartolomeo fu costruita a Myslava tra il 1778 e il 1792 e ricostruita dopo un incendio nel 1808. Fa parte di una tradizione religiosa molto più antica: i registri delle decime pontificie del 1332–1337 attestano una parrocchia medievale e nel 1382 esisteva già una prima cappella dedicata all’Esaltazione della Santa Croce. Tra gli arredi si distinguono un fonte battesimale in pietra del 1735 e un dipinto barocco di San Bartolomeo intorno al 1760. La chiesa è iscritta nel registro centrale dei monumenti slovacchi."
+        },
+        {
+          "id": "fact_003",
+          "title": "La ferriera Maša: un capitolo dimenticato dell’industria di Košice",
+          "text": "Nel 1848 Július Juhos propose di fondare una ferriera nella valle del torrente Myslava e iniziarono i preparativi per una società per azioni. L’altoforno e lo stabilimento furono completati intorno al 1850–1851. L’impianto comprendeva un forno fusorio, un maglio azionato da una ruota idraulica e altre officine metallurgiche. Maša diede lavoro agli abitanti per quasi due decenni. Nel 1870 la produzione fu gradualmente fermata a causa della concorrenza di aziende più moderne, dotate di energia a vapore e trasporto ferroviario. Il nome Maša è ancora presente nel paesaggio locale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La birreria e la fornace che rifornivano anche Košice",
+          "text": "In passato Myslava era un importante centro economico di supporto per Košice. Un documento scritto attesta una birreria locale già nel 1703; secondo il portale pubblico dell’amministrazione, ai suoi tempi era fino a tre volte più grande della birreria di Košice. È documentata dal 1707 anche una fornace che produceva mattoni per la città e rimase attiva fino al 1861. Insieme ai mulini e alla successiva ferriera Maša, queste attività ricordano un’epoca in cui Myslava disponeva di una propria base artigianale e industriale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il gruppo folkloristico Hrabina conserva le tradizioni locali",
+          "text": "Il gruppo folkloristico Hrabina nacque nel 1955 su iniziativa dell’insegnante locale Agnesa Vargová, che fondò un gruppo di danza presso la scuola primaria. Ottenne presto successi nelle competizioni di arte popolare e nel 1956 e 1957 fu valutato meglio del noto gruppo Čarnica di Košice. Dopo un periodo di minore attività, il gruppo riprese slancio nel 1983. Hrabina mantiene vive le canzoni, le danze, le cerimonie e i costumi tradizionali locali, elementi importanti dell’identità di Myslava."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historische kern van Myslava – Sint-Bartholomeüskerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Myslava: een oud dorp in het dal van zijn eigen beek",
+          "text": "Myslava ontwikkelde zich als zelfstandig dorp ten westen van Košice; het dal van de Myslava-beek bepaalt nog steeds het landschap. De beek wordt al in 1297 in schriftelijke bronnen genoemd, terwijl de eerste schriftelijke vermelding van het dorp uit 1382 dateert. Het economische leven omvatte twee molens, de bovenste en de onderste, die in bronnen uit 1395 worden vermeld. Ondanks de latere inlijving bij Košice heeft Myslava een herkenbaar dorpskarakter behouden."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Bartholomeüskerk en de middeleeuwse wortels van de parochie",
+          "text": "De huidige neoclassicistische Sint-Bartholomeüskerk werd in Myslava tussen 1778 en 1792 gebouwd en na een brand in 1808 herbouwd. De kerk bouwt voort op een veel oudere religieuze traditie: pauselijke tiendenregisters uit 1332–1337 wijzen op een middeleeuwse parochie en in 1382 stond hier al een eerste kapel gewijd aan de Verheffing van het Heilig Kruis. Tot de bijzondere inrichting behoren een stenen doopvont uit 1735 en een barok schilderij van Sint-Bartholomeüs uit circa 1760. De kerk staat in het centrale Slowaakse erfgoedregister."
+        },
+        {
+          "id": "fact_003",
+          "title": "IJzerwerk Maša: een vergeten hoofdstuk uit de industriële geschiedenis van Košice",
+          "text": "In 1848 stelde Július Juhos voor om in het dal van de Myslava-beek een ijzerwerk op te richten; de voorbereidingen voor een naamloze vennootschap begonnen. De hoogoven en het ijzerwerk werden rond 1850–1851 voltooid. Het complex omvatte een smeltoven, een door een waterrad aangedreven hamer en andere metaalwerkplaatsen. Maša bood bijna twee decennia werk aan plaatselijke inwoners. In 1870 werd de productie geleidelijk stilgelegd door concurrentie van modernere bedrijven met stoomkracht en spoorwegvervoer. De naam Maša leeft voort in het lokale landschap."
+        },
+        {
+          "id": "fact_004",
+          "title": "De brouwerij en steenbakkerij leverden ook aan Košice",
+          "text": "Myslava was ooit een belangrijk economisch achterland van Košice. Een schriftelijke bron vermeldt al in 1703 een plaatselijke brouwerij; volgens het overheidsportaal was deze in haar tijd tot drie keer zo groot als de brouwerij van Košice. Ook een steenbakkerij is vanaf 1707 gedocumenteerd. Zij bakte stenen voor de stad en bleef tot 1861 actief. Samen met de molens en het latere ijzerwerk Maša herinneren deze bedrijven aan een tijd waarin Myslava een eigen ambachtelijke en industriële basis had."
+        },
+        {
+          "id": "fact_005",
+          "title": "Volksdansgroep Hrabina bewaart de plaatselijke tradities",
+          "text": "De volksdansgroep Hrabina werd in 1955 opgericht op initiatief van de plaatselijke onderwijzeres Agnesa Vargová, die een dansgroep aan de basisschool vormde. De groep boekte al snel successen bij wedstrijden voor volkskunst en werd in 1956 en 1957 hoger beoordeeld dan het bekende Košice-ensemble Čarnica. Na een periode van minder activiteit kwam de groep in 1983 opnieuw tot bloei. Hrabina houdt plaatselijke liederen, dansen, gebruiken en klederdracht levend, een belangrijk onderdeel van de identiteit van Myslava."
+        }
+      ]
+    }
+  },
+  "district_type": "urban_district",
+  "status": "validated"
 }
