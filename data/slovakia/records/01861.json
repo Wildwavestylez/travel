@@ -1,4 +1,541 @@
 {
   "postcode": "01861",
-  "status": "placeholder"
+  "city": "Beluša",
+  "district": null,
+  "county": "Púchov",
+  "state": "Trenčiansky kraj",
+  "district_type": null,
+  "representative_place": "Beluša – historické centrum",
+  "representative_point": {
+    "lat": 49.065267,
+    "lon": 18.3272988
+  },
+  "access_point": {
+    "lat": 49.065267,
+    "lon": 18.3272988
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pravěká pohřebiště a velkomoravské mohyly",
+      "text": "Území poštovní oblasti 018 61 patří k archeologicky mimořádně vrstevnatým částem středního Pováží. V Hloži byly roku 1935 odkryty hroby ze starší doby bronzové se skrčenými kostrami a bronzovými i zlatými šperky; v Podhorí se našla urna lužické kultury a na lokalitě Pechová bylo roku 1964 prozkoumáno 26 žárových hrobů s keramikou a bronzovými předměty. Na belušském Hradišti jsou doloženy nálezy od mladší doby kamenné až po raný středověk, včetně více než sedmdesáti mohyl a stop opevnění. Také ve Visolajích byly objeveny pozůstatky sídliště z mladší doby bronzové a slovanské mohyly z 9.–10. století. Jde o několik samostatných lokalit, které společně ukazují dlouhodobé osídlení zdejší krajiny.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.belusa.sk/obec/historia/zaciatok-dejin/",
+        "https://www.belusa.sk/obcan-turista/turista/tipy-na-turistiku/lokalita-hradiste/",
+        "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf",
+        "https://www.visolaje.sk/historia-obce.html",
+        "https://www.visolaje.sk/download_file_f.php?id=2107418"
+      ],
+      "map_category": "archaeological_site",
+      "location": {
+        "name": "Archeologická lokalita Hradiště, Beluša",
+        "lat": 49.0208,
+        "lon": 18.356,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://www.belusa.sk/obcan-turista/turista/tipy-na-turistiku/lokalita-hradiste/"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Beluša jako historické tržní městečko",
+      "text": "Beluša je písemně doložena roku 1330 jako „terra Belos“, tedy již osídlená země. Ve středověku a raném novověku vystupovala v pramenech jako oppidum – městečko s vlastní samosprávou a tržními právy. Roku 1659 jí panovník Leopold I. udělil tržní privilegium, které potvrzovalo čtyři výroční jarmarky i týdenní trhy. Rozvinutá byla také řemesla: ševcovský cech vznikl roku 1568, hrnčíři měli stanovy z roku 1631 a roku 1673 se uvádí 25 ševcovských, 13 bednářských a 9 hrnčířských dílen. Beluša tak nebyla jen zemědělskou vsí, ale významným lokálním centrem obchodu a řemesel.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.belusa.sk/obec/historia/prehlad-historie/",
+        "https://www.belusa.sk/obec/historia/zaciatok-dejin/",
+        "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické centrum Beluše",
+        "lat": 49.0648,
+        "lon": 18.32755,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://www.belusa.sk/kontakty-oznamy/kontakty/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Středověké a barokní sakrální památky Beluše, Hlože a Visolají",
+      "text": "V historickém jádru Beluše stojí pozdně románsko-raně gotická kaple sv. Fabiána a Šebestiána, dlouho známá pod lidovým označením kostel sv. Anny; památkový dokument ji datuje do druhé poloviny 13. století. Nedaleko stojí renesanční farní kostel sv. Alžběty Uherské, budovaný v 16. století a později upravovaný. V místní části Hloža připomíná barokní kaple sv. Jana Nepomuckého z roku 1766 patronát baronky Judity Tolvayové; v roce 1990 zde papež Jan Pavel II. při návštěvě Slovenska požehnal základní kámen nového kostela Sedmibolestné Panny Marie. Do stejné poštovní oblasti náleží také Visolaje, kde je doložen farní kostel sv. Havla již roku 1332; původně středověká stavba byla roku 1786 barokně upravena.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.belusa.sk/obec/historia/sakralne-pamiatky/",
+        "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf",
+        "https://www.visolaje.sk/historia-obce.html",
+        "https://www.visolaje.sk/download_file_f.php?id=2107418",
+        "https://apsida.sk/c/8053/visolaje"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaple sv. Fabiána a Šebestiána, Beluša",
+        "lat": 49.06479856,
+        "lon": 18.327552974,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://m.apsida.sk/c/1501/belusa"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Státní košíkářská škola a řemeslný úspěch Beluše",
+      "text": "Beluša měla dlouhou tradici košíkářství, které se původně rozvíjelo jako domácí řemeslo díky dostatku vrbového proutí v okolí Váhu. Roku 1893 zde Ľudovít Balogh založil státní košíkářskou školu podle vídeňského vzoru. Výuka spojovala teorii s praktickou výrobou: studenti pletli koše, tašky, kufry, květinové stojany, dětské kočárky i nábytek z proutí a bambusu. Škola se v roce 1900 představila na Světové výstavě v Paříži, kde její výrobky získaly mezinárodní pozornost a putovaly také na zahraniční trhy. Škola ukončila činnost po roce 1918, ale přidružená dílna pokračovala ještě do 30. let 20. století.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.belusa.sk/seniori/obec/historia/kosikarska-skola/",
+        "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf",
+        "https://www.belusa.sk/obec/"
+      ],
+      "map_category": "cultural_site",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Minerální prameny a lázeňská minulost Belušských Slatín",
+      "text": "Belušské Slatiny, místní část Beluše, jsou známé minerálními prameny a někdejšími lázněmi. Odborný hydrogeologický výzkum publikovaný v časopise Mineralia Slovaca popsal několik typů vod v údolí: mimo jiné sirnou minerální vodu o teplotě přibližně 21,5 °C a uhličitou minerální vodu vhodnou jako stolní pitnou voda. Prameny se využívaly ke koupelím i pitným kúrám; lázeňská tradice sahá nejméně do raného novověku a v 19. století se Slatinské Teplice řadily mezi známější lázeňská místa tehdejšího Uherska. Dnes někdejší lázeňský areál připomíná historii místa a navazující Cesta básnikov vede Slatinskou dolinou a okolními lesy.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.geology.sk/wp-content/uploads/documents/foto/MS/MS_1979-4/Nov%C3%BD%20typ%20miner%C3%A1lnych%20v%C3%B4d%20v%20oblasti%20Belu%C5%A1sk%C3%BDch%20Slat%C3%ADn.pdf",
+        "https://www.belusa.sk/obec/",
+        "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf",
+        "https://www.belusa.sk/obcan-turista/turista/tipy-na-turistiku/cesta-basnikov/"
+      ],
+      "map_category": "visitor_attraction",
+      "location": {
+        "name": "Belušské Slatiny – lázeňská oblast",
+        "lat": 49.03609,
+        "lon": 18.34207,
+        "type": "spa",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/N663397389"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Visolaje: Csákyovský zámeček a zaniklá řemesla",
+      "text": "Samostatná obec Visolaje, jejíž adresa je spojena s PSČ 018 61, má vlastní historickou vrstvu. V 18. století zde hrabě Csáky vybudoval zámeček s ovocnou zahradou obehnanou kamennou zdí; původně renesanční stavba z druhé poloviny 16. století byla později barokně upravena a roku 1981 zbourána kvůli havarijnímu stavu. Záznamy obce uvádějí, že roku 1796 ve Visolajích fungoval pivovar, pálenice a papírna. V roce 1947 zde vznikla továrna na zušlechťování a barvení kožešin, která byla následujícího roku znárodněna. Tyto údaje připomínají proměny místního hospodářství od vrchnostenského dvora a drobných provozů až k poválečnému průmyslu.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "https://www.visolaje.sk/historia-obce.html",
+        "https://www.visolaje.sk/download_file_f.php?id=2107418"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Pět prstů – památník pěti pohrom Beluše",
+      "text": "U belušského hřbitova stojí keramický památník známý jako Monument pěti prstů, vytvořený roku 1976 keramikem Ľubomírem Jakubčíkem. Jednotlivé stély připomínají pět pohrom, které v minulosti zasáhly obec: ničivou povodeň roku 1823, požár roku 1827, hladomor po neúrodě v roce 1847, epidemii cholery a válečné ztráty v první a druhé světové válce. Historické záznamy obce uvádějí, že povodeň zaplavila téměř celé městečko a požár zničil přibližně 130 domů. Památník převádí místní kolektivní paměť do neobvyklé keramické podoby a připomíná, jak opakované katastrofy ovlivňovaly život obyvatel.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "https://www.belusa.sk/obec/historia/prehlad-historie/",
+        "https://www.vets.cz/vpm/mista/obec/8772-belusa/",
+        "https://www.belusa.sk/community/from-history/native-of-belusa/"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Monument pěti prstů u obecního hřbitova, Beluša",
+        "lat": 49.065556,
+        "lon": 18.330389,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/8772-belusa/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální seznam pošt a PSČ uvádí poštu Beluša s PSČ 018 61; oficiální obecní kontakt Beluša používá adresu 018 61 Beluša. Úřední seznam společných obecních úřadů uvádí adresu Obecního úřadu Visolaje jako 018 61 Beluša; další místní adresa kostela ve Visolajích je vedena s PSČ 01861.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam pošt Slovenské pošty a obecní adresní údaje",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní údaje Beluše a Visolají, Úrad pre územné plánovanie a výstavbu SR – seznam obecních úřadů a adres; oficiální obecní GPS Beluše."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom (pošta Beluša, 018 61)",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Úrad pre územné plánovanie a výstavbu SR – Zoznam spoločných obecných úradov a obcí",
+      "url": "https://www.uupv.sk/vystavba/zoznam-spolocnych-obecnych-uradov-a-obci",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Obec a základné údaje",
+      "url": "https://www.belusa.sk/obec/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Kontakty a oficiální GPS obecního úřadu",
+      "url": "https://www.belusa.sk/kontakty-oznamy/kontakty/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Prehľad histórie",
+      "url": "https://www.belusa.sk/obec/historia/prehlad-historie/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Začiatok dejín a archeologické nálezy",
+      "url": "https://www.belusa.sk/obec/historia/zaciatok-dejin/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Lokalita Hradište",
+      "url": "https://www.belusa.sk/obcan-turista/turista/tipy-na-turistiku/lokalita-hradiste/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Štátna košikárska škola",
+      "url": "https://www.belusa.sk/seniori/obec/historia/kosikarska-skola/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Sakrálne pamiatky",
+      "url": "https://www.belusa.sk/obec/historia/sakralne-pamiatky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Beluša – Územný plán, čistopis",
+      "url": "https://www.belusa.sk/e_download.php?file=data%2Furedni_deska%2Fobsah5_1.pdf&original=upn.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Rebro, Augustín – Nový typ minerálnych vôd v oblasti Belušských Slatín, Mineralia Slovaca 11 (1979)",
+      "url": "https://www.geology.sk/wp-content/uploads/documents/foto/MS/MS_1979-4/Nov%C3%BD%20typ%20miner%C3%A1lnych%20v%C3%B4d%20v%20oblasti%20Belu%C5%A1sk%C3%BDch%20Slat%C3%ADn.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Beluša – História obce Visolaje",
+      "url": "https://www.visolaje.sk/historia-obce.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Visolaje – Program hospodárskeho a sociálneho rozvoja 2015–2025",
+      "url": "https://www.visolaje.sk/download_file_f.php?id=2107418",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – Visolaje, stredoveký kostol sv. Gála",
+      "url": "https://apsida.sk/c/8053/visolaje",
+      "type": "specialist"
+    },
+    {
+      "title": "Vojenské pietne miesta – Beluša, Monument piatich prstov",
+      "url": "https://www.vets.cz/vpm/mista/obec/8772-belusa/",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Beluša – Native of Beluša, historical disasters and memorial",
+      "url": "https://www.belusa.sk/community/from-history/native-of-belusa/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Beluša – historické centrum a přilehlé části Hloža, Podhorie, Belušské Slatiny a Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pravěká pohřebiště a velkomoravské mohyly",
+          "text": "Území poštovní oblasti 018 61 patří k archeologicky mimořádně vrstevnatým částem středního Pováží. V Hloži byly roku 1935 odkryty hroby ze starší doby bronzové se skrčenými kostrami a bronzovými i zlatými šperky; v Podhorí se našla urna lužické kultury a na lokalitě Pechová bylo roku 1964 prozkoumáno 26 žárových hrobů s keramikou a bronzovými předměty. Na belušském Hradišti jsou doloženy nálezy od mladší doby kamenné až po raný středověk, včetně více než sedmdesáti mohyl a stop opevnění. Také ve Visolajích byly objeveny pozůstatky sídliště z mladší doby bronzové a slovanské mohyly z 9.–10. století. Jde o několik samostatných lokalit, které společně ukazují dlouhodobé osídlení zdejší krajiny."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša jako historické tržní městečko",
+          "text": "Beluša je písemně doložena roku 1330 jako „terra Belos“, tedy již osídlená země. Ve středověku a raném novověku vystupovala v pramenech jako oppidum – městečko s vlastní samosprávou a tržními právy. Roku 1659 jí panovník Leopold I. udělil tržní privilegium, které potvrzovalo čtyři výroční jarmarky i týdenní trhy. Rozvinutá byla také řemesla: ševcovský cech vznikl roku 1568, hrnčíři měli stanovy z roku 1631 a roku 1673 se uvádí 25 ševcovských, 13 bednářských a 9 hrnčířských dílen. Beluša tak nebyla jen zemědělskou vsí, ale významným lokálním centrem obchodu a řemesel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Středověké a barokní sakrální památky Beluše, Hlože a Visolají",
+          "text": "V historickém jádru Beluše stojí pozdně románsko-raně gotická kaple sv. Fabiána a Šebestiána, dlouho známá pod lidovým označením kostel sv. Anny; památkový dokument ji datuje do druhé poloviny 13. století. Nedaleko stojí renesanční farní kostel sv. Alžběty Uherské, budovaný v 16. století a později upravovaný. V místní části Hloža připomíná barokní kaple sv. Jana Nepomuckého z roku 1766 patronát baronky Judity Tolvayové; v roce 1990 zde papež Jan Pavel II. při návštěvě Slovenska požehnal základní kámen nového kostela Sedmibolestné Panny Marie. Do stejné poštovní oblasti náleží také Visolaje, kde je doložen farní kostel sv. Havla již roku 1332; původně středověká stavba byla roku 1786 barokně upravena."
+        },
+        {
+          "id": "fact_004",
+          "title": "Státní košíkářská škola a řemeslný úspěch Beluše",
+          "text": "Beluša měla dlouhou tradici košíkářství, které se původně rozvíjelo jako domácí řemeslo díky dostatku vrbového proutí v okolí Váhu. Roku 1893 zde Ľudovít Balogh založil státní košíkářskou školu podle vídeňského vzoru. Výuka spojovala teorii s praktickou výrobou: studenti pletli koše, tašky, kufry, květinové stojany, dětské kočárky i nábytek z proutí a bambusu. Škola se v roce 1900 představila na Světové výstavě v Paříži, kde její výrobky získaly mezinárodní pozornost a putovaly také na zahraniční trhy. Škola ukončila činnost po roce 1918, ale přidružená dílna pokračovala ještě do 30. let 20. století."
+        },
+        {
+          "id": "fact_005",
+          "title": "Minerální prameny a lázeňská minulost Belušských Slatín",
+          "text": "Belušské Slatiny, místní část Beluše, jsou známé minerálními prameny a někdejšími lázněmi. Odborný hydrogeologický výzkum publikovaný v časopise Mineralia Slovaca popsal několik typů vod v údolí: mimo jiné sirnou minerální vodu o teplotě přibližně 21,5 °C a uhličitou minerální vodu vhodnou jako stolní pitnou voda. Prameny se využívaly ke koupelím i pitným kúrám; lázeňská tradice sahá nejméně do raného novověku a v 19. století se Slatinské Teplice řadily mezi známější lázeňská místa tehdejšího Uherska. Dnes někdejší lázeňský areál připomíná historii místa a navazující Cesta básnikov vede Slatinskou dolinou a okolními lesy."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: Csákyovský zámeček a zaniklá řemesla",
+          "text": "Samostatná obec Visolaje, jejíž adresa je spojena s PSČ 018 61, má vlastní historickou vrstvu. V 18. století zde hrabě Csáky vybudoval zámeček s ovocnou zahradou obehnanou kamennou zdí; původně renesanční stavba z druhé poloviny 16. století byla později barokně upravena a roku 1981 zbourána kvůli havarijnímu stavu. Záznamy obce uvádějí, že roku 1796 ve Visolajích fungoval pivovar, pálenice a papírna. V roce 1947 zde vznikla továrna na zušlechťování a barvení kožešin, která byla následujícího roku znárodněna. Tyto údaje připomínají proměny místního hospodářství od vrchnostenského dvora a drobných provozů až k poválečnému průmyslu."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pět prstů – památník pěti pohrom Beluše",
+          "text": "U belušského hřbitova stojí keramický památník známý jako Monument pěti prstů, vytvořený roku 1976 keramikem Ľubomírem Jakubčíkem. Jednotlivé stély připomínají pět pohrom, které v minulosti zasáhly obec: ničivou povodeň roku 1823, požár roku 1827, hladomor po neúrodě v roce 1847, epidemii cholery a válečné ztráty v první a druhé světové válce. Historické záznamy obce uvádějí, že povodeň zaplavila téměř celé městečko a požár zničil přibližně 130 domů. Památník převádí místní kolektivní paměť do neobvyklé keramické podoby a připomíná, jak opakované katastrofy ovlivňovaly život obyvatel."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Beluša – historischer Ortskern mit Hloža, Podhorie, Belušské Slatiny und Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prähistorische Gräberfelder und großmährische Hügelgräber",
+          "text": "Das Gebiet des Postleitzahlenraums 018 61 gehört zu den archäologisch vielschichtigen Landschaften des mittleren Waagtals. In Hloža wurden 1935 Gräber aus der älteren Bronzezeit mit Hockerskeletten sowie Bronze- und Goldschmuck entdeckt. In Podhorie fand man eine Urne der Lausitzer Kultur, und bei Pechová wurden 1964 insgesamt 26 Brandgräber mit Keramik und Bronzegegenständen untersucht. Auf dem Hradiště bei Beluša sind Funde von der Jungsteinzeit bis ins Frühmittelalter belegt, darunter mehr als siebzig Grabhügel und Spuren einer Befestigung. Auch in Visolaje wurden Reste einer Siedlung aus der jüngeren Bronzezeit sowie slawische Hügelgräber des 9. und 10. Jahrhunderts entdeckt. Die verschiedenen Fundorte belegen gemeinsam die lange Besiedlung dieser Landschaft."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša als historischer Marktort",
+          "text": "Beluša ist 1330 als „terra Belos“, also als bereits besiedeltes Land, schriftlich belegt. Im Mittelalter und in der frühen Neuzeit erscheint der Ort in Quellen als „oppidum“ – als Marktflecken mit eigener Selbstverwaltung und Marktrechten. 1659 verlieh Kaiser Leopold I. Beluša ein Marktprivileg, das vier Jahrmärkte und Wochenmärkte bestätigte. Auch das Handwerk war stark entwickelt: Die Schuhmacherzunft entstand 1568, die Töpfer hatten 1631 eigene Statuten, und 1673 werden 25 Schuhmacher-, 13 Fassbinder- und 9 Töpferwerkstätten genannt. Beluša war somit nicht nur ein Bauerndorf, sondern ein bedeutendes örtliches Handels- und Handwerkszentrum."
+        },
+        {
+          "id": "fact_003",
+          "title": "Mittelalterliche und barocke Sakralbauten in Beluša, Hloža und Visolaje",
+          "text": "Im historischen Zentrum von Beluša steht die spätromanisch-frühgotische Kapelle der Heiligen Fabian und Sebastian, die lange unter der volkstümlichen Bezeichnung Anna-Kirche bekannt war; ein Denkmaldokument datiert sie in die zweite Hälfte des 13. Jahrhunderts. In der Nähe befindet sich die Renaissance-Pfarrkirche der heiligen Elisabeth von Ungarn aus dem 16. Jahrhundert, die später umgebaut wurde. Im Ortsteil Hloža erinnert die 1766 errichtete Barockkapelle des heiligen Johannes Nepomuk an die Patronage der Baronin Judita Tolvayová. 1990 segnete Papst Johannes Paul II. während seines Slowakei-Besuchs den Grundstein für die neue Kirche der Sieben Schmerzen Mariens in Hloža. Zum selben Postleitzahlengebiet gehört Visolaje, wo die Pfarrkirche des heiligen Ägidius bereits 1332 belegt ist; der mittelalterliche Bau wurde 1786 barockisiert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die staatliche Korbflechterschule und der handwerkliche Erfolg von Beluša",
+          "text": "Beluša besaß eine lange Korbflechtertradition, die sich zunächst als Heimgewerbe dank der Weidenbestände entlang der Waag entwickelte. 1893 gründete Ľudovít Balogh hier eine staatliche Korbflechterschule nach Wiener Vorbild. Der Unterricht verband Theorie mit praktischer Herstellung: Die Schüler fertigten Körbe, Taschen, Koffer, Blumenständer, Kinderwagen und Möbel aus Weidenruten und Bambus. 1900 präsentierte sich die Schule auf der Weltausstellung in Paris; ihre Erzeugnisse fanden internationale Beachtung und gelangten auch auf ausländische Märkte. Nach 1918 wurde die Schule geschlossen, die angeschlossene Werkstatt arbeitete jedoch noch bis in die 1930er Jahre weiter."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mineralquellen und die Kurgeschichte von Belušské Slatiny",
+          "text": "Belušské Slatiny, ein Ortsteil von Beluša, ist für seine Mineralquellen und seine frühere Kuranlage bekannt. Eine hydrogeologische Fachstudie in der Zeitschrift Mineralia Slovaca beschrieb mehrere Wassertypen im Tal, darunter schwefelhaltiges Mineralwasser mit etwa 21,5 °C sowie kohlensäurehaltiges Mineralwasser, das als Tafelwasser geeignet ist. Die Quellen wurden für Bäder und Trinkkuren genutzt; die Kurtradition reicht mindestens in die frühe Neuzeit zurück, und im 19. Jahrhundert gehörten die Slatinské Teplice zu den bekannteren Kurorten des damaligen Königreichs Ungarn. Heute erinnern die ehemaligen Kuranlagen an diese Geschichte; der anschließende Dichterweg führt durch das Tal und die umliegenden Wälder."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: das Csáky-Schlösschen und verschwundene Gewerbe",
+          "text": "Die eigenständige Gemeinde Visolaje, deren Adresse mit der Postleitzahl 018 61 verbunden ist, besitzt eine eigene historische Schicht. Im 18. Jahrhundert ließ Graf Csáky hier ein Schlösschen mit Obstgarten und steinerner Umfassungsmauer errichten. Der ursprünglich in der zweiten Hälfte des 16. Jahrhunderts erbaute Renaissancebau wurde später barock umgestaltet und 1981 wegen seines schlechten Zustands abgetragen. Nach Angaben der Gemeinde gab es 1796 in Visolaje eine Brauerei, eine Brennerei und eine Papiermühle. 1947 entstand hier eine Fabrik zur Veredelung und Färbung von Pelzen, die bereits im folgenden Jahr verstaatlicht wurde. Diese Angaben zeigen den Wandel der örtlichen Wirtschaft vom herrschaftlichen Gut und kleinen Gewerben bis zur Nachkriegsindustrie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die „Fünf Finger“ – Denkmal für fünf Katastrophen von Beluša",
+          "text": "Am Friedhof von Beluša steht ein Keramikdenkmal, das als Monument der fünf Finger bekannt ist und 1976 vom Keramiker Ľubomír Jakubčík geschaffen wurde. Die einzelnen Stelen erinnern an fünf Katastrophen, die den Ort geprägt haben: das verheerende Hochwasser von 1823, den Brand von 1827, die Hungersnot nach der Missernte von 1847, eine Choleraepidemie sowie die Kriegsverluste im Ersten und Zweiten Weltkrieg. Die Ortschronik berichtet, dass das Hochwasser fast den gesamten Marktflecken überschwemmte und der Brand etwa 130 Häuser zerstörte. Das Denkmal überführt das kollektive Ortsgedächtnis in eine ungewöhnliche keramische Form und erinnert daran, wie wiederholte Katastrophen das Leben der Einwohner beeinflussten."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Beluša – historic centre and the localities of Hloža, Podhorie, Belušské Slatiny and Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistoric burial grounds and Great Moravian burial mounds",
+          "text": "The territory of postcode area 018 61 is an archaeologically layered part of the middle Váh region. In Hloža, graves from the Early Bronze Age containing crouched skeletons and bronze and gold jewellery were discovered in 1935. An urn of the Lusatian culture was found in Podhorie, while 26 cremation graves containing pottery and bronze objects were excavated at Pechová in 1964. At Hradište near Beluša, finds range from the Neolithic to the Early Middle Ages, including more than seventy burial mounds and traces of fortifications. In Visolaje, archaeologists have also identified remains of a Late Bronze Age settlement and Slavic burial mounds from the ninth and tenth centuries. Together, these separate sites demonstrate the long history of settlement in this landscape."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša as a historic market town",
+          "text": "Beluša is documented in writing in 1330 as “terra Belos”, meaning an already inhabited tract of land. In the Middle Ages and early modern period, sources often described it as an “oppidum” – a market town with its own local government and trading rights. In 1659, Emperor Leopold I granted Beluša a market charter confirming four annual fairs as well as weekly markets. Crafts were also well developed: the shoemakers’ guild dates from 1568, the potters had statutes in 1631, and a 1673 inventory lists 25 shoemakers’ workshops, 13 coopers’ workshops and 9 potteries. Beluša was therefore more than an agricultural village; it was an important local centre of trade and crafts."
+        },
+        {
+          "id": "fact_003",
+          "title": "Medieval and Baroque religious monuments in Beluša, Hloža and Visolaje",
+          "text": "In the historic centre of Beluša stands the late Romanesque–early Gothic Chapel of Saints Fabian and Sebastian, long popularly known as St Anne’s Church; a heritage document dates it to the second half of the thirteenth century. Nearby is the Renaissance parish Church of St Elizabeth of Hungary, built in the sixteenth century and later altered. In the locality of Hloža, the Baroque Chapel of St John of Nepomuk, built in 1766, recalls the patronage of Baroness Judita Tolvayová. In 1990, during his visit to Slovakia, Pope John Paul II blessed the foundation stone of the new Church of Our Lady of Seven Sorrows in Hloža. The same postal area also includes Visolaje, where the parish Church of St Giles is documented as early as 1332; the medieval building was remodelled in the Baroque style in 1786."
+        },
+        {
+          "id": "fact_004",
+          "title": "The state basketry school and Beluša’s craft achievement",
+          "text": "Beluša had a long basket-making tradition, initially practised as a home craft thanks to the abundance of willow along the Váh. In 1893, Ľudovít Balogh founded a state basketry school here, modelled on the school in Vienna. Its curriculum combined theory with practical production: students made baskets, bags, cases, flower stands, prams and furniture from willow and bamboo. In 1900 the school exhibited at the Paris Exposition Universelle, where its products attracted international attention and reached foreign markets. The school ceased operating after 1918, but its associated workshop continued until the 1930s."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mineral springs and the spa history of Belušské Slatiny",
+          "text": "Belušské Slatiny, a locality of Beluša, is known for its mineral springs and former spa. A hydrogeological study published in the journal Mineralia Slovaca described several types of water in the valley, including sulphurous mineral water at about 21.5°C and carbonated mineral water suitable as drinking water. The springs were used for baths and drinking treatments; the spa tradition dates back at least to the early modern period, and in the nineteenth century Slatinské Teplice ranked among the better-known spa places in the Kingdom of Hungary. Today, the former spa grounds recall this history, while the nearby Poets’ Trail runs through the valley and surrounding woods."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: the Csáky manor house and vanished industries",
+          "text": "The separate municipality of Visolaje, whose address is associated with postcode 018 61, has its own historical story. In the eighteenth century, Count Csáky built a manor house here with an orchard enclosed by a stone wall. The building was originally a Renaissance structure from the second half of the sixteenth century, later remodelled in the Baroque style and demolished in 1981 because of its poor condition. Municipal records state that Visolaje had a brewery, distillery and paper mill in 1796. A factory for the finishing and dyeing of furs was established in 1947 and nationalised the following year. These details illustrate the changing local economy, from the estate and small workshops to post-war industry."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Five Fingers – a memorial to five disasters in Beluša",
+          "text": "Near the cemetery in Beluša stands a ceramic memorial known as the Monument of the Five Fingers, created in 1976 by ceramic artist Ľubomír Jakubčík. Its individual stelae commemorate five disasters that affected the community: the devastating flood of 1823, the fire of 1827, the famine following a poor harvest in 1847, a cholera epidemic, and losses in the First and Second World Wars. Local historical records say the flood submerged almost the entire market town and the fire destroyed about 130 houses. The monument turns the community’s collective memory into an unusual ceramic work and recalls how repeated disasters shaped residents’ lives."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Beluša: centro histórico y las localidades de Hloža, Podhorie, Belušské Slatiny y Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Necrópolis prehistóricas y túmulos de la Gran Moravia",
+          "text": "El territorio del área postal 018 61 es una zona del valle medio del Váh con una rica estratigrafía arqueológica. En Hloža se descubrieron en 1935 tumbas de la Edad del Bronce Antiguo con esqueletos encogidos y joyas de bronce y oro. En Podhorie apareció una urna de la cultura lusaciana y en Pechová se excavaron en 1964 veintiséis tumbas de incineración con cerámica y objetos de bronce. En Hradište, cerca de Beluša, hay hallazgos desde el Neolítico hasta la Alta Edad Media, incluidos más de setenta túmulos y restos de fortificaciones. En Visolaje también se identificaron restos de un asentamiento de la Edad del Bronce tardía y túmulos eslavos de los siglos IX y X. En conjunto, estos yacimientos muestran la larga ocupación humana del paisaje."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša como antigua villa de mercado",
+          "text": "Beluša aparece documentada por escrito en 1330 como «terra Belos», es decir, un territorio ya habitado. Durante la Edad Media y la Edad Moderna temprana, las fuentes la describen a menudo como «oppidum»: una villa de mercado con autogobierno y derechos comerciales propios. En 1659, el emperador Leopoldo I concedió a Beluša un privilegio de mercado que confirmaba cuatro ferias anuales y mercados semanales. Los oficios también estaban muy desarrollados: el gremio de zapateros data de 1568, los alfareros tenían estatutos en 1631 y un inventario de 1673 registra 25 talleres de zapateros, 13 de toneleros y 9 de alfareros. Beluša fue, por tanto, algo más que una aldea agrícola: era un centro local importante de comercio y artesanía."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumentos religiosos medievales y barrocos de Beluša, Hloža y Visolaje",
+          "text": "En el centro histórico de Beluša se encuentra la capilla tardorrománica y protogótica de los santos Fabián y Sebastián, conocida popularmente durante mucho tiempo como iglesia de Santa Ana; un documento patrimonial la fecha en la segunda mitad del siglo XIII. Cerca está la iglesia parroquial renacentista de Santa Isabel de Hungría, construida en el siglo XVI y reformada posteriormente. En la localidad de Hloža, la capilla barroca de San Juan Nepomuceno, construida en 1766, recuerda el patrocinio de la baronesa Judita Tolvayová. En 1990, durante su visita a Eslovaquia, el papa Juan Pablo II bendijo la primera piedra de la nueva iglesia de Nuestra Señora de los Siete Dolores en Hloža. La misma área postal incluye Visolaje, donde la iglesia parroquial de San Gil está documentada ya en 1332; el edificio medieval fue reformado en estilo barroco en 1786."
+        },
+        {
+          "id": "fact_004",
+          "title": "La escuela estatal de cestería y el éxito artesanal de Beluša",
+          "text": "Beluša contaba con una larga tradición de cestería, practicada inicialmente como artesanía doméstica gracias a la abundancia de sauces junto al Váh. En 1893, Ľudovít Balogh fundó aquí una escuela estatal de cestería siguiendo el modelo de Viena. El programa combinaba teoría y práctica: los alumnos fabricaban cestas, bolsos, maletas, soportes para flores, cochecitos infantiles y muebles de mimbre y bambú. En 1900 la escuela participó en la Exposición Universal de París, donde sus productos despertaron interés internacional y llegaron a mercados extranjeros. La escuela dejó de funcionar después de 1918, aunque el taller asociado continuó hasta la década de 1930."
+        },
+        {
+          "id": "fact_005",
+          "title": "Manantiales minerales y pasado termal de Belušské Slatiny",
+          "text": "Belušské Slatiny, una localidad de Beluša, es conocida por sus manantiales minerales y sus antiguos baños termales. Un estudio hidrogeológico publicado en la revista Mineralia Slovaca describió varios tipos de agua en el valle, entre ellos agua mineral sulfurosa a unos 21,5 °C y agua mineral carbónica apta como agua de mesa. Los manantiales se utilizaban para baños y tratamientos de bebida; la tradición termal se remonta al menos a la Edad Moderna temprana y, en el siglo XIX, Slatinské Teplice figuraba entre los balnearios conocidos del Reino de Hungría. Hoy, el antiguo recinto termal recuerda esa historia y el cercano Camino de los Poetas recorre el valle y los bosques circundantes."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: la casa señorial de los Csáky y los antiguos oficios",
+          "text": "El municipio independiente de Visolaje, cuya dirección está vinculada al código postal 018 61, tiene su propia historia. En el siglo XVIII, el conde Csáky construyó aquí una casa señorial con un huerto rodeado por un muro de piedra. El edificio, originalmente renacentista de la segunda mitad del siglo XVI, fue reformado en estilo barroco y demolido en 1981 debido a su mal estado. Según los registros municipales, en 1796 había en Visolaje una cervecería, una destilería y una fábrica de papel. En 1947 se creó una fábrica para el acabado y teñido de pieles, nacionalizada al año siguiente. Estos datos muestran la transformación de la economía local, desde la finca señorial y los pequeños talleres hasta la industria de posguerra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Los Cinco Dedos: monumento a cinco catástrofes de Beluša",
+          "text": "Junto al cementerio de Beluša se encuentra un monumento cerámico conocido como Monumento de los Cinco Dedos, creado en 1976 por el ceramista Ľubomír Jakubčík. Sus estelas recuerdan cinco catástrofes que afectaron a la comunidad: la devastadora inundación de 1823, el incendio de 1827, la hambruna tras una mala cosecha en 1847, una epidemia de cólera y las pérdidas de las dos guerras mundiales. Los registros históricos locales señalan que la inundación anegó casi toda la villa y que el incendio destruyó unas 130 casas. El monumento convierte la memoria colectiva del lugar en una obra cerámica singular y recuerda cómo las catástrofes repetidas marcaron la vida de sus habitantes."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Beluša – centre historique et localités de Hloža, Podhorie, Belušské Slatiny et Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nécropoles préhistoriques et tumulus de la Grande-Moravie",
+          "text": "Le territoire de la zone postale 018 61 constitue un paysage archéologique stratifié de la moyenne vallée du Váh. À Hloža, des tombes de l’âge du bronze ancien contenant des squelettes repliés ainsi que des bijoux en bronze et en or ont été découvertes en 1935. À Podhorie, on a trouvé une urne de la culture lusacienne et, à Pechová, 26 tombes à incinération avec céramiques et objets en bronze ont été fouillées en 1964. À Hradište, près de Beluša, les découvertes vont du Néolithique au haut Moyen Âge et comprennent plus de soixante-dix tumulus ainsi que des traces de fortifications. À Visolaje, des vestiges d’un habitat de l’âge du bronze récent et des tumulus slaves des IXe et Xe siècles ont également été découverts. Ces sites distincts témoignent ensemble de l’ancienneté du peuplement de ce paysage."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša, ancienne bourgade marchande",
+          "text": "Beluša est attestée par écrit en 1330 sous la forme « terra Belos », c’est-à-dire une terre déjà habitée. Au Moyen Âge et au début de l’époque moderne, les sources la qualifient souvent d’« oppidum », une bourgade dotée d’une administration locale et de droits de marché. En 1659, l’empereur Léopold Ier accorda à Beluša un privilège confirmant quatre foires annuelles ainsi que des marchés hebdomadaires. Les métiers artisanaux étaient également développés : la corporation des cordonniers date de 1568, les potiers avaient leurs statuts en 1631 et un inventaire de 1673 mentionne 25 ateliers de cordonniers, 13 de tonneliers et 9 de potiers. Beluša était donc davantage qu’un village agricole : c’était un centre local important de commerce et d’artisanat."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monuments religieux médiévaux et baroques de Beluša, Hloža et Visolaje",
+          "text": "Dans le centre historique de Beluša se trouve la chapelle romano-gothique tardive des saints Fabien et Sébastien, longtemps connue sous le nom populaire d’église Sainte-Anne ; un document patrimonial la date de la seconde moitié du XIIIe siècle. À proximité se dresse l’église paroissiale Renaissance de sainte Élisabeth de Hongrie, construite au XVIe siècle puis remaniée. Dans le quartier de Hloža, la chapelle baroque de saint Jean Népomucène, édifiée en 1766, rappelle le mécénat de la baronne Judita Tolvayová. En 1990, lors de sa visite en Slovaquie, le pape Jean-Paul II bénit la première pierre de la nouvelle église Notre-Dame-des-Sept-Douleurs à Hloža. La même zone postale comprend Visolaje, où l’église paroissiale de saint Gilles est attestée dès 1332 ; l’édifice médiéval fut remanié dans le style baroque en 1786."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’école nationale de vannerie et le succès artisanal de Beluša",
+          "text": "Beluša possédait une longue tradition de vannerie, d’abord pratiquée comme artisanat domestique grâce à l’abondance des saules le long du Váh. En 1893, Ľudovít Balogh y fonda une école nationale de vannerie inspirée du modèle viennois. L’enseignement associait théorie et pratique : les élèves fabriquaient des paniers, sacs, valises, supports à fleurs, poussettes et meubles en osier et en bambou. En 1900, l’école participa à l’Exposition universelle de Paris, où ses produits attirèrent l’attention internationale et furent également vendus à l’étranger. L’école cessa ses activités après 1918, mais l’atelier qui lui était associé continua jusque dans les années 1930."
+        },
+        {
+          "id": "fact_005",
+          "title": "Sources minérales et passé thermal de Belušské Slatiny",
+          "text": "Belušské Slatiny, quartier de Beluša, est connu pour ses sources minérales et son ancien établissement thermal. Une étude hydrogéologique publiée dans la revue Mineralia Slovaca a décrit plusieurs types d’eau dans la vallée, notamment une eau minérale sulfureuse d’environ 21,5 °C et une eau minérale carbonatée adaptée à la consommation comme eau de table. Les sources étaient utilisées pour les bains et les cures de boisson ; la tradition thermale remonte au moins au début de l’époque moderne et, au XIXe siècle, Slatinské Teplice comptait parmi les stations thermales connues du royaume de Hongrie. Aujourd’hui, l’ancien domaine thermal rappelle cette histoire et le Sentier des poètes voisin traverse la vallée et les forêts environnantes."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje : le manoir des Csáky et les anciens métiers",
+          "text": "La commune indépendante de Visolaje, dont l’adresse est associée au code postal 018 61, possède sa propre histoire. Au XVIIIe siècle, le comte Csáky y fit construire un manoir avec un verger entouré d’un mur de pierre. Le bâtiment, à l’origine Renaissance de la seconde moitié du XVIe siècle, fut ensuite remanié dans le style baroque puis démoli en 1981 en raison de son mauvais état. Selon les archives communales, Visolaje possédait en 1796 une brasserie, une distillerie et une papeterie. Une usine de traitement et de teinture des fourrures fut créée en 1947 puis nationalisée l’année suivante. Ces données illustrent l’évolution de l’économie locale, du domaine seigneurial et des petits ateliers jusqu’à l’industrie d’après-guerre."
+        },
+        {
+          "id": "fact_007",
+          "title": "Les Cinq Doigts : monument aux cinq catastrophes de Beluša",
+          "text": "Près du cimetière de Beluša se trouve un monument en céramique connu sous le nom de Monument des Cinq Doigts, créé en 1976 par le céramiste Ľubomír Jakubčík. Ses stèles rappellent cinq catastrophes qui ont marqué la commune : la crue dévastatrice de 1823, l’incendie de 1827, la famine après une mauvaise récolte en 1847, une épidémie de choléra et les pertes des deux guerres mondiales. Les archives historiques locales indiquent que la crue submergea presque toute la bourgade et que l’incendie détruisit environ 130 maisons. Le monument transforme la mémoire collective locale en une œuvre de céramique singulière et rappelle l’impact des catastrophes répétées sur la vie des habitants."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Beluša – centro storico e località di Hloža, Podhorie, Belušské Slatiny e Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Necropoli preistoriche e tumuli della Grande Moravia",
+          "text": "Il territorio dell’area postale 018 61 è una zona archeologica stratificata della media valle del Váh. A Hloža, nel 1935 furono scoperte tombe della prima età del Bronzo con scheletri rannicchiati e gioielli in bronzo e oro. A Podhorie fu rinvenuta un’urna della cultura lusaziana, mentre a Pechová nel 1964 furono scavate 26 tombe a cremazione con ceramiche e oggetti in bronzo. A Hradište, vicino a Beluša, i reperti vanno dal Neolitico all’Alto Medioevo e comprendono oltre settanta tumuli e tracce di fortificazioni. Anche a Visolaje sono stati individuati resti di un insediamento della tarda età del Bronzo e tumuli slavi del IX e X secolo. Nel loro insieme, questi siti distinti testimoniano il lungo popolamento del paesaggio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša, antica cittadina di mercato",
+          "text": "Beluša è documentata per iscritto nel 1330 come «terra Belos», cioè un territorio già abitato. Nel Medioevo e nella prima età moderna le fonti la definiscono spesso «oppidum», una cittadina di mercato con autogoverno e diritti commerciali. Nel 1659 l’imperatore Leopoldo I concesse a Beluša un privilegio di mercato che confermava quattro fiere annuali e mercati settimanali. Anche l’artigianato era molto sviluppato: la corporazione dei calzolai risale al 1568, i ceramisti avevano statuti nel 1631 e un inventario del 1673 registra 25 botteghe di calzolai, 13 di bottai e 9 di vasai. Beluša era quindi più di un villaggio agricolo: era un importante centro locale di commercio e mestieri."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumenti religiosi medievali e barocchi a Beluša, Hloža e Visolaje",
+          "text": "Nel centro storico di Beluša sorge la cappella tardoromanica e protogotica dei santi Fabiano e Sebastiano, a lungo conosciuta popolarmente come chiesa di Sant’Anna; un documento patrimoniale la data alla seconda metà del XIII secolo. Nelle vicinanze si trova la chiesa parrocchiale rinascimentale di Santa Elisabetta d’Ungheria, costruita nel XVI secolo e successivamente modificata. Nella località di Hloža, la cappella barocca di San Giovanni Nepomuceno, costruita nel 1766, ricorda il patrocinio della baronessa Judita Tolvayová. Nel 1990, durante la sua visita in Slovacchia, papa Giovanni Paolo II benedisse la prima pietra della nuova chiesa della Madonna Addolorata a Hloža. La stessa area postale comprende Visolaje, dove la chiesa parrocchiale di San Gallo è documentata già nel 1332; l’edificio medievale fu rimaneggiato in stile barocco nel 1786."
+        },
+        {
+          "id": "fact_004",
+          "title": "La scuola statale di cesteria e il successo artigianale di Beluša",
+          "text": "Beluša aveva una lunga tradizione di cesteria, inizialmente praticata come attività domestica grazie all’abbondanza di salici lungo il Váh. Nel 1893 Ľudovít Balogh fondò qui una scuola statale di cesteria sul modello viennese. Il programma univa teoria e pratica: gli allievi realizzavano cesti, borse, valigie, portafiori, carrozzine e mobili in vimini e bambù. Nel 1900 la scuola partecipò all’Esposizione universale di Parigi, dove i suoi prodotti attirarono l’attenzione internazionale e raggiunsero anche mercati esteri. La scuola cessò l’attività dopo il 1918, ma il laboratorio collegato continuò fino agli anni Trenta del Novecento."
+        },
+        {
+          "id": "fact_005",
+          "title": "Sorgenti minerali e passato termale di Belušské Slatiny",
+          "text": "Belušské Slatiny, località di Beluša, è nota per le sorgenti minerali e per il suo antico stabilimento termale. Uno studio idrogeologico pubblicato sulla rivista Mineralia Slovaca descrisse diversi tipi di acqua nella valle, tra cui acqua minerale sulfurea a circa 21,5 °C e acqua minerale carbonatica adatta come acqua da tavola. Le sorgenti venivano utilizzate per bagni e cure idropiniche; la tradizione termale risale almeno alla prima età moderna e nel XIX secolo Slatinské Teplice era tra le località termali conosciute del Regno d’Ungheria. Oggi l’ex complesso termale ricorda questa storia e il vicino Sentiero dei poeti attraversa la valle e i boschi circostanti."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: il maniero dei Csáky e gli antichi mestieri",
+          "text": "Il comune indipendente di Visolaje, il cui indirizzo è associato al codice postale 018 61, ha una propria storia. Nel XVIII secolo il conte Csáky fece costruire qui un maniero con frutteto circondato da un muro di pietra. L’edificio, originariamente rinascimentale della seconda metà del XVI secolo, fu successivamente rimaneggiato in stile barocco e demolito nel 1981 a causa delle cattive condizioni. Secondo i registri comunali, nel 1796 a Visolaje erano attivi un birrificio, una distilleria e una cartiera. Nel 1947 fu fondata una fabbrica per la rifinizione e la tintura delle pellicce, nazionalizzata l’anno seguente. Questi dati mostrano i cambiamenti dell’economia locale, dalla tenuta signorile e dai piccoli laboratori all’industria del dopoguerra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le Cinque Dita: monumento alle cinque calamità di Beluša",
+          "text": "Vicino al cimitero di Beluša si trova un monumento in ceramica noto come Monumento delle Cinque Dita, realizzato nel 1976 dal ceramista Ľubomír Jakubčík. Le singole stele ricordano cinque calamità che colpirono la comunità: la devastante alluvione del 1823, l’incendio del 1827, la carestia dopo il cattivo raccolto del 1847, un’epidemia di colera e le perdite della Prima e della Seconda guerra mondiale. Le cronache locali riferiscono che l’alluvione sommerse quasi tutta la cittadina e che l’incendio distrusse circa 130 case. Il monumento trasforma la memoria collettiva del luogo in un’insolita opera ceramica e ricorda come le catastrofi ripetute abbiano segnato la vita degli abitanti."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Beluša – historisch centrum en de deelgebieden Hloža, Podhorie, Belušské Slatiny en Visolaje",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistorische grafvelden en Groot-Moravische grafheuvels",
+          "text": "Het gebied van postcode 018 61 is een archeologisch gelaagd landschap in het middelste Váhgebied. In Hloža werden in 1935 graven uit de vroege bronstijd ontdekt met gehurkte skeletten en sieraden van brons en goud. In Podhorie werd een urn van de Lausitzcultuur gevonden en in Pechová werden in 1964 zesentwintig crematiegraven met aardewerk en bronzen voorwerpen opgegraven. Bij Hradište nabij Beluša lopen de vondsten van het neolithicum tot de vroege middeleeuwen; ze omvatten meer dan zeventig grafheuvels en sporen van versterkingen. Ook in Visolaje zijn resten van een nederzetting uit de late bronstijd en Slavische grafheuvels uit de negende en tiende eeuw gevonden. Samen tonen deze afzonderlijke vindplaatsen de lange bewoningsgeschiedenis van het landschap."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beluša als historische marktplaats",
+          "text": "Beluša wordt in 1330 schriftelijk vermeld als „terra Belos”, wat betekent dat het gebied toen al bewoond was. In de middeleeuwen en de vroegmoderne tijd werd de plaats in bronnen vaak een „oppidum” genoemd: een marktplaats met eigen lokaal bestuur en handelsrechten. In 1659 verleende keizer Leopold I Beluša een marktprivilege dat vier jaarmarkten en wekelijkse markten bevestigde. Ook de ambachten waren sterk ontwikkeld: het schoenmakersgilde dateert uit 1568, de pottenbakkers hadden statuten in 1631 en een inventaris uit 1673 vermeldt 25 schoenmakerswerkplaatsen, 13 kuiperijen en 9 pottenbakkerijen. Beluša was dus meer dan een landbouwdorp: het was een belangrijk lokaal centrum van handel en ambacht."
+        },
+        {
+          "id": "fact_003",
+          "title": "Middeleeuwse en barokke religieuze monumenten in Beluša, Hloža en Visolaje",
+          "text": "In het historische centrum van Beluša staat de laatromaanse, vroeggotische kapel van de heiligen Fabianus en Sebastianus, die lange tijd in de volksmond de Sint-Annakerk werd genoemd; een erfgoeddocument dateert haar in de tweede helft van de dertiende eeuw. Vlakbij staat de renaissancistische parochiekerk van Sint-Elisabeth van Hongarije, gebouwd in de zestiende eeuw en later verbouwd. In het deelgebied Hloža herinnert de barokke kapel van Sint-Jan Nepomuk uit 1766 aan de bescherming door barones Judita Tolvayová. In 1990 zegende paus Johannes Paulus II tijdens zijn bezoek aan Slowakije de eerste steen van de nieuwe kerk van Onze-Lieve-Vrouw van Zeven Smarten in Hloža. Ook Visolaje behoort tot hetzelfde postcodegebied; de parochiekerk van Sint-Gillis wordt daar al in 1332 vermeld en het middeleeuwse gebouw werd in 1786 in barokstijl aangepast."
+        },
+        {
+          "id": "fact_004",
+          "title": "De staatsmandenvlechtschool en het ambachtelijke succes van Beluša",
+          "text": "Beluša kende een lange traditie van mandenvlechten, aanvankelijk als huisnijverheid dankzij de vele wilgen langs de Váh. In 1893 richtte Ľudovít Balogh hier een staatsmandenvlechtschool op naar Weens voorbeeld. Het onderwijs combineerde theorie met praktijk: leerlingen maakten manden, tassen, koffers, bloemenstandaards, kinderwagens en meubels van wilgentenen en bamboe. In 1900 presenteerde de school haar werk op de Wereldtentoonstelling in Parijs, waar de producten internationale aandacht kregen en ook buitenlandse markten bereikten. De school stopte na 1918, maar de bijbehorende werkplaats bleef tot in de jaren dertig actief."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mineraalbronnen en het kuurverleden van Belušské Slatiny",
+          "text": "Belušské Slatiny, een deelgebied van Beluša, staat bekend om zijn mineraalbronnen en voormalige kuuroord. Een hydrogeologische studie in het tijdschrift Mineralia Slovaca beschreef verschillende watertypen in het dal, waaronder zwavelhoudend mineraalwater van ongeveer 21,5 °C en koolzuurhoudend mineraalwater dat geschikt is als drinkwater. De bronnen werden gebruikt voor baden en drinkkuren; de kuurtraditie gaat minstens terug tot de vroegmoderne tijd en in de negentiende eeuw behoorde Slatinské Teplice tot de bekendere kuuroorden van het Koninkrijk Hongarije. Tegenwoordig herinneren de voormalige kuurgebouwen aan deze geschiedenis en loopt het nabijgelegen Dichterspad door het dal en de omliggende bossen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Visolaje: het landhuis van de familie Csáky en verdwenen ambachten",
+          "text": "De zelfstandige gemeente Visolaje, waarvan het adres met postcode 018 61 wordt geassocieerd, heeft een eigen geschiedenis. In de achttiende eeuw liet graaf Csáky hier een landhuis met een door een stenen muur omringde boomgaard bouwen. Het gebouw was oorspronkelijk een renaissanceconstructie uit de tweede helft van de zestiende eeuw, werd later in barokstijl aangepast en in 1981 wegens de slechte staat afgebroken. Volgens gemeentelijke gegevens waren er in 1796 in Visolaje een brouwerij, een stokerij en een papiermolen. In 1947 werd hier een fabriek voor het veredelen en verven van bont opgericht; het bedrijf werd het jaar daarop genationaliseerd. Deze gegevens laten de veranderingen zien van het lokale domein en kleine werkplaatsen naar de naoorlogse industrie."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Vijf Vingers – monument voor vijf rampen in Beluša",
+          "text": "Bij de begraafplaats van Beluša staat een keramisch monument dat bekendstaat als het Monument van de Vijf Vingers en in 1976 werd gemaakt door keramist Ľubomír Jakubčík. De afzonderlijke stèles herinneren aan vijf rampen die de gemeenschap troffen: de verwoestende overstroming van 1823, de brand van 1827, de hongersnood na een mislukte oogst in 1847, een cholera-epidemie en de verliezen in de Eerste en Tweede Wereldoorlog. Lokale historische gegevens vermelden dat de overstroming bijna de hele marktplaats onder water zette en dat de brand ongeveer 130 huizen verwoestte. Het monument geeft de collectieve herinnering van de plaats een bijzondere keramische vorm en herinnert aan de invloed van herhaalde rampen op het leven van de inwoners."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
