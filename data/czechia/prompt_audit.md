@@ -17,7 +17,9 @@ Před prací načti aktuální:
 - `data/czechia/CONTENT_STANDARD.md`
 - `data/czechia/prompt_rework.md`
 - `data/czechia/sequence.json`
-- příslušné RÚIAN reference a manifest
+- `data/czechia/reference/README.md`
+- `data/czechia/reference/ruian_postcodes.csv` (používej přímo jako výchozí a jediný sdílený RÚIAN inventář)
+- `data/czechia/reference/ruian_import_manifest.json`
 - registr a kanonický auditní tahák pro přesný rozsah v `data/czechia/audits/`
 
 Audituj celý zadaný blok, ne vzorek. Přesný seznam PSČ urči z auditního zadání, registru/taháku a `sequence.json`; databázi používej pouze k ověření těchto konkrétních PSČ. **Nevytvářej celodatabázový inventář kvůli auditu jednoho okresu.** Pracuj pouze s existujícími českými řádky. Nevytvářej PSČ, neměň rozsah, pořadí ani `sequence.json`. Německých a jiných nečeských dat se nedotýkej.
