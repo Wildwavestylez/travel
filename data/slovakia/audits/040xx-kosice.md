@@ -100,6 +100,16 @@ Pro všech 11 JSON záznamů byla provedena read-back kontrola:
 
 Výsledek: **0 strukturálních chyb**. Kontrola překladů zde potvrzuje zejména úplnost a zarovnání jazykových větví; není vydávána za samostatnou profesionální jazykovou korekturu každé věty.
 
+### Jazykové úpravy českého rootu
+
+Při kontrole českých textů byly opraveny zjevné slovakismy a smíšené názvy, zejména:
+- `Kaplnka` → `Kaple`, `železnica` → `železnice` (04001);
+- `stĺp` a `Božia muka` → české `sloup` a `Boží muka` (04013);
+- `kaštieľ` → `kaštel`, `Slávikov mlyn` → `Slávikův mlýn`, `Hutnícky kombinát` → `Hutní kombinát` a úprava názvu kaple v Poľově (04015);
+- `kaštieľ` → `kaštel` a české skloňování rodových jmen (04017, 04018).
+
+Oficiální místní název `Nad Begányiho mlynom` v Barci byl ponechán v původním znění jako vlastní název archeologické polohy. České `translations.cs` byly po každé jazykové úpravě znovu synchronizovány s root fakty.
+
 ## 5. Zdroje použitých doplnění
 
 ### Košice 04001
