@@ -1,7 +1,7 @@
 # Znojemsko — audit PSČ 66902–67201
 
 **Kanonické ID:** `CZ-ZNOJEMSKO-66902-67201`  
-**Stav:** **REVIEW REQUIRED**  
+**Stav:** **PASS — závěrečný read-back dokončen**  
 **Auditní pravidla:** `data/czechia/prompt_audit.md`, V2.1 (odlehčený audit)  
 **Datum:** 2026-11-22  
 **Zdroj pravdy:** cíleně načtené řádky `public.postal_codes` v Supabase; bez porovnávání s Neonem.
@@ -77,7 +77,7 @@ Po doplnění čtyř faktů:
 - Všechna čtyři nová fakta v 66902 mají neprázdné zdroje, vyplněnou polohu a 7 jazykových verzí.
 - Existující neprázdné souřadnice nebyly znovu přeměřovány ani hromadně měněny.
 
-## 5. Otevřené nálezy — důvod stavu REVIEW REQUIRED
+## 5. Vyřešené nálezy — závěrečný read-back
 
 ### 5.1 Krátké české master texty
 Původně bylo zjištěno 29 faktů pod hranicí 350 znaků. **Všech 29/29 krátkých českých master textů je nyní opraveno a ověřeno read-backem; nezbývá žádný délkový nález.** Rozšíření vycházela z konkrétních informací již obsažených v podkladových faktech a jejich zdrojích; nebyla přidávána výplň ani nové neověřené letopočty.
@@ -86,42 +86,50 @@ Původně bylo zjištěno 29 faktů pod hranicí 350 znaků. **Všech 29/29 krá
 
 **Druhá dávka — 16 faktů:** 67173/fact_003–fact_015 (13 faktů; 396–477 znaků) a 67178/fact_001–fact_003 (3 fakta; 451–466 znaků). U obou PSČ read-back potvrdil synchronizaci `translations.cs`, všech 13/13 a 3/3 ID ve všech sedmi jazycích a neprázdné překlady de/en/es/fr/it/nl. Délka cizojazyčných textů nebyla hodnocena, v souladu s promptem V2.1. Původní ID, názvy, zdroje a existující polohy zůstaly zachovány.
 
-### 5.2 Fakta bez `location`
-Původní inventář obsahoval **37 faktů s `location=null` nebo chybějícím polem**. V této fázi bylo doplněno a read-backem ověřeno **20 geografických poloh**; **17 případů zůstává otevřených**. Přesné body byly použity jen pro konkrétně identifikované objekty, u širších příběhů byly zvoleny doložené reprezentativní body sídel nebo území. Historické polohy bez přesné identifikace mají výslovně označený orientační charakter. Žádné souřadnice nebyly převzaty automaticky z poštovního reprezentativního bodu.
+### 5.2 Geografické polohy faktů
 
-**Doplněno a ověřeno:**
-- 67125: fact_003 — dům č. p. 19 v Hodonicích, doložená historická adresa
-- 67128: fact_006 — Křídlůvky; fact_007 — Velký Karlov; fact_008 — Derflice (reprezentativní body sídel)
-- 67129: fact_002 — historické centrum Strachotic
-- 67132: fact_001 — hradiště Šance u Plavče (přibližný bod archeologické lokality)
-- 67133: fact_006 — samota Koráb v Mikulovickém lese (přibližný bod lokality)
-- 67134: fact_001 — zámek–sýpka Horní Dunajovice; fact_004 — přírodní památka Výrovické kopce
-- 67139: fact_005 — reprezentativní bod Běhařovic
-- 67162: fact_005 — přírodní památka Oleksovické vřesoviště (střed odvozený z oficiálního vymezení polygonu)
-- 67163: fact_004 — rodová hrobka Kübecků; fact_006 — reprezentativní bod Lechovic
-- 67164: fact_002 — areál Maria Hilf; fact_003 — historická adresa domu v Kolonii u Dvora; fact_007 — socha sv. Jana Nepomuckého v Českých Křídlovicích
-- 67167: fact_008 — orientační bod v centru Hrušovan nad Jevišovkou pro lokalitu U přejezdu (historicky přibližný)
-- 67175: fact_006 — reprezentativní bod sídla Jezeřany-Maršovice pro příběh dvou křížů
-- 67177: fact_005 — reprezentativní bod osady Vinohrádky; fact_007 — orientační centrum Branišovic pro polní boží muka (historicky přibližný)
+Původní inventář obsahoval **37 faktů s `location=null` nebo chybějícím polem**. Nyní je vyřešeno a kontrolním načtením ze Supabase ověřeno **37/37 poloh**. Každá má číselné souřadnice v platném rozsahu, typ z řízeného slovníku, platnou hodnotu přesnosti a zdroj polohy.
 
-**Zbývajících 17 případů:**
+**Závěrečný read-back geografických položek:**
+- cílových položek: 37
+- nalezených položek: 37
+- chybějící / null polohy: 0
+- chybějící souřadnice: 0
+- neplatné souřadnice: 0
+- nepovolené typy polohy: 0
+- neplatné hodnoty přesnosti: 0
+- chybějící zdroje polohy: 0
+
+**Ověřené položky podle PSČ:**
+- 67125: fact_003
 - 67127: fact_005
-- 67133: fact_005
-- 67139: fact_002, fact_003
+- 67128: fact_006, fact_007, fact_008
+- 67129: fact_002
+- 67132: fact_001
+- 67133: fact_005, fact_006
+- 67134: fact_001, fact_004
+- 67139: fact_002, fact_003, fact_005
 - 67161: fact_002, fact_010
-- 67162: fact_006, fact_007
+- 67162: fact_005, fact_006, fact_007
+- 67163: fact_004, fact_006
+- 67164: fact_002, fact_003, fact_007
+- 67167: fact_008
+- 67175: fact_006
+- 67177: fact_005, fact_007
 - 67178: fact_001, fact_003, fact_006, fact_007, fact_008, fact_009, fact_010, fact_011, fact_012
 
-Dokud zbývající geografické případy nebudou vyřešeny nebo řádně odůvodněny jako negeolokalizovatelné, audit nelze označit jako PASS.
+U konkrétních objektů jsou použity ověřené body; u rozlehlých lokalit reprezentativní body uvnitř území; u historických poloh bez přesné identifikace jsou použity výslovně označené orientační body. Ty nepředstírají přesné umístění historického objektu či události. Všech 37 záznamů má vyplněný zdroj polohy.
 
 ## 6. Provozní stav
 
-- **Auditní stav: REVIEW REQUIRED.**
-- Žádné záznamy nebyly převedeny na V5 ani na `published`.
-- Nebyla vytvořena záloha do Dropboxu.
-- Nebyl aktivován read-only zámek.
-- Nebyla provedena změna Neon databáze.
-- Další krok: posoudit zbývajících 17 faktů bez `location`, případně doložit jednotlivé výjimky; poté provést závěrečný cílený read-back a uzavřít audit.
+- **Auditní stav: PASS — všechny evidované nálezy jsou vyřešeny a závěrečný read-back prošel.**
+- 29/29 krátkých českých master textů je nad 350 znaků; `translations.cs` přesně odpovídá masteru.
+- Všech 7 jazyků obsahuje všech 378 faktů; žádné prázdné překladové texty.
+- 0 duplicitních ID faktů; 0 rozdílů mezi českým masterem a `translations.cs`.
+- 37/37 dříve chybějících poloh doplněno a ověřeno; 0 null poloh a 0 strukturálních/geografických chyb v cílené kontrole.
+- Záznamy zůstávají `data_version=1`, `status=validated`; žádný V5 rework ani publikace neproběhly.
+- Nebyla vytvořena záloha do Dropboxu, aktivován read-only zámek ani provedena změna Neon databáze.
+- Auditní práce je dokončena. Další provozní kroky se provedou pouze na výslovný pokyn uživatele.
 
 ## 7. Použité hlavní zdroje
 
