@@ -234,15 +234,14 @@ Používej aktuální oficiální klasifikaci a názvy. Nepřeváděj automatick
 
 Zohledni zvláštní regionální uspořádání, zejména autonomní provincie Bolzano/Bozen a Trento, zvláštní statut regionů, sicilské Liberi consorzi comunali a další změny v aktuální klasifikaci. Nezaváděj však zbytečnou historickou správní evidenci. Pro běžnou produkci potřebujeme správnou současnou klasifikaci a užitečné vyhledávání, nikoli úplnou historii správních změn.
 
-### 6.2 Ověření CAP a adres
+### 6.2 CAP jako projektový identifikátor a geografické přiřazení obsahu
 
-- CAP ukládej jako pětimístný řetězec, včetně počátečních nul.
-- Používej nejnovější aktuálně účinný oficiální seznam, dataset nebo ověřovací nástroj Poste Italiane pro CAP a jeho přiřazení. **Tyto aktuální oficiální podklady jsou závazné. Pokud novější oficiální podklad nahrazuje starší údaj, starší dokument ignoruj; neřeš historický rozpor ani se nepokoušej obnovovat již překonané přiřazení.** Respektuj datum účinnosti a případné přechodné období uvedené Poste Italiane. Historické dokumenty a třetí strany nesmějí převážit nad aktuálním oficiálním stavem. Pouze skutečný rozpor mezi dvěma současně účinnými oficiálními podklady vyžaduje pozastavení rozhodnutí a označení k revizi. Neodvozuj Comune, provincii ani přesné území pouze z číslic CAP.
-- Rozlišuj běžné geografické CAP, městské zóny CAP a poštovní/organizační adresy. Použití CAP organizací nebo casella postale samo o sobě nedokazuje zvláštní území ani nezneplatňuje geografické CAP.
-- U adresního objektu ověř skutečnou fyzickou adresu, nikoli pouze korespondenční nebo fakturační adresu.
-- Pokud zdroje uvádějí odlišná CAP, zjisti účel každé adresy a ověř fyzické umístění. Neprováděj automatický přesun ani změnu sequence.
-- Poste Italiane je primární autorita pro poštovní CAP přiřazení; ISTAT je hlavní autorita pro oficiální názvy a kódy Comune a statistické/administrativní členění. Tyto role se doplňují, nikoli nahrazují.
-- Pokud přesné CAP přiřazení nelze doložit, zachovej faktum v pracovním seznamu kandidátů, ale nevydávej geografické přiřazení za potvrzené. Nehádej a neměň sequence.
+- CAP ukládej jako pětimístný řetězec, včetně počátečních nul. Používej schválený projektový inventář/sekvenci jako seznam záznamů, které zpracováváme.
+- **Neprováděj průběžné ověřování ani aktualizace poštovních přiřazení podle Poste Italiane.** Nesleduj nové CAP publikace, účinnosti změn, CAP Professional, poštovní katalogy ani změny doručovacích oblastí. Tyto aktualizace nejsou cílem EuropeExploreru a nesmějí blokovat rework, audit ani validaci zajímavostí.
+- Neodvozuj geografii z číslic CAP. Skutečnou polohu faktů, názvy sídel a administrativní zařazení ověřuj pomocí ISTAT, oficiálních obecních zdrojů, adresních evidencí, mapových a dalších kompetentních geografických zdrojů.
+- U každé zajímavosti ověř fyzické místo, nikoli pouze korespondenční nebo fakturační adresu instituce. Rozlišuj skutečný objekt, sídlo instituce a veřejně přístupné místo.
+- Pokud projektový rozsah neumožňuje bezpečně určit, zda konkrétní místo patří do obsahové oblasti záznamu, označ pouze tuto konkrétní geografickou nejistotu k posouzení. Nezahajuj kvůli ní sledování poštovních aktualizací a neblokuj ostatní doložený obsah.
+- Poštovní pobočky, provozní status, otevírací doba, služby a doručovací režimy jsou zcela mimo obsahový standard.
 
 ## 7. Reprezentativní místo a mapové body
 
@@ -280,7 +279,7 @@ Zdroje vybírej podle toho, jaký typ tvrzení ověřují. Žádná jediná inst
 ### 8.1 Preferované italské autority a instituce
 
 Podle tématu prověř zejména:
-- **Poste Italiane** — aktuální CAP, poštovní přiřazení a poštovní adresní informace.
+- **Projektový CAP inventář/sekvence** — identifikace záznamů a jejich pracovní obsahový rozsah; nejde o živý zdroj poštovních aktualizací.
 - **ISTAT** — oficiální názvy a kódy Comune, Regione a aktuální statistické/administrativní členění.
 - **Ministero della Cultura (MiC)** a jeho příslušné orgány — kulturní dědictví, státní muzea, památková ochrana, archeologie a kulturní instituce.
 - **ICCD — Istituto Centrale per il Catalogo e la Documentazione** — katalogizace kulturního dědictví a související dokumentace.
