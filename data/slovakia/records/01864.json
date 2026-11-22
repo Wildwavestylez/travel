@@ -21,9 +21,17 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/"
+        "https://koseca.fara.sk/2020/01/09/dejiny-farnosti/",
+        "https://poi.oma.sk/w52011216"
       ],
-      "location": null,
+      "location": {
+        "name": "Kostol Nanebovzatia Panny Márie v Košeci – verejný orientačný bod pre archeologické nálezy",
+        "lat": 49.008570834373785,
+        "lon": 18.259027932863745,
+        "type": "church",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w52011216"
+      },
       "map_category": "archaeological_site"
     },
     {
@@ -256,6 +264,11 @@
       "title": "Ministerstvo vnútra SR – archivní soupis dokumentů k dějinám průmyslu",
       "url": "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_povazska_bystrica/sluzby/archivne_pomocky/Dejiny%20priemyslu%20na%20Slovensku%2C%20supis%20archivnych%20dokumentov.pdf",
       "type": "archive"
+    },
+    {
+      "title": "Kostol Nanebovzatia Panny Márie v Košeci – poloha verejného orientačného bodu",
+      "url": "https://poi.oma.sk/w52011216",
+      "type": "other"
     }
   ],
   "translations": {
@@ -265,7 +278,7 @@
         {
           "id": "fact_001",
           "title": "Pravěké Košeci a nálezy z doby bronzové i Velké Moravy",
-          "text": "Území Košece bylo osídlené už v neolitu. Archeologické výzkumy doložily žárové pohřebiště lužické kultury z mladší doby bronzové, sídliště púchovské kultury i slovanské osídlení z velkomoravského období. Z pohřebiště pocházejí keramické nádoby a bronzové ozdoby, zejména jehlice. Další hroby byly odkryty v letech 1929 a 1931 při úpravách příkopu u cesty směrem na Zliechov. Jde o rozptýlené nálezové polohy v katastru obce, nikoli o jediný zpřístupněný areál."
+          "text": "Území Košece bylo osídlené už v neolitu. Archeologické výzkumy doložily žárové pohřebiště lužické kultury z mladší doby bronzové, sídliště púchovské kultury i slovanské osídlení z velkomoravského období. Z pohřebiště pocházejí keramické nádoby a bronzové ozdoby, zejména jehlice. Další hroby byly odkryty v letech 1929 a 1931 při úpravách příkopu u cesty směrem na Zliechov. Jde o rozptýlené nálezové polohy v katastru obce, nikoli o jediný zpřístupněný areál. Mapový bod označuje kostel Nanebevzetí Panny Marie jako veřejné orientační místo v Košeci; jednotlivé archeologické nálezy jsou rozptýlené v katastru a nejsou tímto bodem přesně lokalizovány."
         },
         {
           "id": "fact_002",
@@ -305,7 +318,7 @@
         {
           "id": "fact_001",
           "title": "Prähistorisches Košeca: Bronzezeit und Großmähren",
-          "text": "Košeca war bereits in der Jungsteinzeit besiedelt. Funde belegen ein Brandgräberfeld der Lausitzer Kultur aus der jüngeren Bronzezeit, eine Siedlung der Púchov-Kultur und slawische Besiedlung aus großmährischer Zeit. Gefunden wurden Keramik und Bronzeschmuck, besonders Gewandnadeln. Weitere Gräber kamen 1929 und 1931 bei Arbeiten an der Straße nach Zliechov ans Licht. Es handelt sich um verstreute Fundstellen."
+          "text": "Košeca war bereits in der Jungsteinzeit besiedelt. Funde belegen ein Brandgräberfeld der Lausitzer Kultur aus der jüngeren Bronzezeit, eine Siedlung der Púchov-Kultur und slawische Besiedlung aus großmährischer Zeit. Gefunden wurden Keramik und Bronzeschmuck, besonders Gewandnadeln. Weitere Gräber kamen 1929 und 1931 bei Arbeiten an der Straße nach Zliechov ans Licht. Es handelt sich um verstreute Fundstellen. Der Kartenpunkt kennzeichnet die Mariä-Himmelfahrt-Kirche als öffentlichen Orientierungspunkt in Košeca; die einzelnen archäologischen Funde sind über das Gemeindegebiet verstreut und werden durch diesen Punkt nicht genau lokalisiert."
         },
         {
           "id": "fact_002",
@@ -345,7 +358,7 @@
         {
           "id": "fact_001",
           "title": "Prehistoric Košeca: the Bronze Age and Great Moravia",
-          "text": "Košeca was inhabited as early as the Neolithic period. Finds document a Lusatian cremation cemetery from the Late Bronze Age, a Púchov-culture settlement and Slavic settlement from the Great Moravian period. Finds include pottery and bronze ornaments, especially dress pins. Further graves were uncovered in 1929 and 1931 beside the road to Zliechov. These are scattered archaeological findspots."
+          "text": "Košeca was inhabited as early as the Neolithic period. Finds document a Lusatian cremation cemetery from the Late Bronze Age, a Púchov-culture settlement and Slavic settlement from the Great Moravian period. Finds include pottery and bronze ornaments, especially dress pins. Further graves were uncovered in 1929 and 1931 beside the road to Zliechov. These are scattered archaeological findspots. The map point marks the Church of the Assumption of the Virgin Mary as a public orientation point in Košeca; the individual archaeological finds are dispersed across the municipality and are not precisely located by this marker."
         },
         {
           "id": "fact_002",
@@ -385,7 +398,7 @@
         {
           "id": "fact_001",
           "title": "La Košeca prehistórica: Edad del Bronce y Gran Moravia",
-          "text": "Košeca estuvo habitada ya en el Neolítico. Los hallazgos documentan una necrópolis de incineración de la cultura lusaciana de la Edad del Bronce reciente, un asentamiento de la cultura de Púchov y ocupación eslava de época de la Gran Moravia. Aparecieron cerámicas y adornos de bronce, especialmente agujas para la ropa. En 1929 y 1931 se descubrieron otras tumbas junto al camino hacia Zliechov. Son hallazgos arqueológicos dispersos."
+          "text": "Košeca estuvo habitada ya en el Neolítico. Los hallazgos documentan una necrópolis de incineración de la cultura lusaciana de la Edad del Bronce reciente, un asentamiento de la cultura de Púchov y ocupación eslava de época de la Gran Moravia. Aparecieron cerámicas y adornos de bronce, especialmente agujas para la ropa. En 1929 y 1931 se descubrieron otras tumbas junto al camino hacia Zliechov. Son hallazgos arqueológicos dispersos. El punto del mapa señala la iglesia de la Asunción de la Virgen María como referencia pública en Košeca; los hallazgos arqueológicos están dispersos por el término municipal y no quedan localizados con precisión por este marcador."
         },
         {
           "id": "fact_002",
@@ -425,7 +438,7 @@
         {
           "id": "fact_001",
           "title": "Košeca préhistorique : âge du bronze et Grande-Moravie",
-          "text": "Košeca était habitée dès le Néolithique. Les découvertes attestent une nécropole à incinération de la culture lusacienne de l’âge du bronze récent, un habitat de la culture de Púchov et une occupation slave de l’époque de la Grande-Moravie. On a trouvé des céramiques et des parures en bronze, notamment des épingles. D’autres tombes furent découvertes en 1929 et 1931 près de la route de Zliechov. Il s’agit de découvertes dispersées."
+          "text": "Košeca était habitée dès le Néolithique. Les découvertes attestent une nécropole à incinération de la culture lusacienne de l’âge du bronze récent, un habitat de la culture de Púchov et une occupation slave de l’époque de la Grande-Moravie. On a trouvé des céramiques et des parures en bronze, notamment des épingles. D’autres tombes furent découvertes en 1929 et 1931 près de la route de Zliechov. Il s’agit de découvertes dispersées. Le point cartographique désigne l’église de l’Assomption de la Vierge Marie comme repère public à Košeca ; les découvertes archéologiques sont dispersées sur le territoire communal et ne sont pas précisément localisées par ce repère."
         },
         {
           "id": "fact_002",
@@ -465,7 +478,7 @@
         {
           "id": "fact_001",
           "title": "Košeca preistorica: età del bronzo e Grande Moravia",
-          "text": "Košeca era abitata già nel Neolitico. I reperti documentano una necropoli a cremazione della cultura lusaziana della tarda età del bronzo, un insediamento della cultura di Púchov e una presenza slava dell’epoca della Grande Moravia. Sono state trovate ceramiche e decorazioni in bronzo, soprattutto spilloni. Altre tombe furono scoperte nel 1929 e nel 1931 vicino alla strada verso Zliechov. Si tratta di ritrovamenti sparsi."
+          "text": "Košeca era abitata già nel Neolitico. I reperti documentano una necropoli a cremazione della cultura lusaziana della tarda età del bronzo, un insediamento della cultura di Púchov e una presenza slava dell’epoca della Grande Moravia. Sono state trovate ceramiche e decorazioni in bronzo, soprattutto spilloni. Altre tombe furono scoperte nel 1929 e nel 1931 vicino alla strada verso Zliechov. Si tratta di ritrovamenti sparsi. Il punto sulla mappa indica la chiesa dell'Assunzione della Vergine Maria come riferimento pubblico a Košeca; i reperti archeologici sono dispersi nel territorio comunale e non sono localizzati con precisione da questo indicatore."
         },
         {
           "id": "fact_002",
@@ -505,7 +518,7 @@
         {
           "id": "fact_001",
           "title": "Prehistorisch Košeca: bronstijd en Groot-Moravië",
-          "text": "Košeca was al in het neolithicum bewoond. Vondsten tonen een crematiebegraafplaats van de Lausitzcultuur uit de late bronstijd, een nederzetting van de Púchovcultuur en Slavische bewoning uit de tijd van Groot-Moravië. Er zijn aardewerk en bronzen sieraden gevonden, vooral kledingnaalden. In 1929 en 1931 kwamen meer graven aan het licht langs de weg naar Zliechov. Het gaat om verspreide vindplaatsen."
+          "text": "Košeca was al in het neolithicum bewoond. Vondsten tonen een crematiebegraafplaats van de Lausitzcultuur uit de late bronstijd, een nederzetting van de Púchovcultuur en Slavische bewoning uit de tijd van Groot-Moravië. Er zijn aardewerk en bronzen sieraden gevonden, vooral kledingnaalden. In 1929 en 1931 kwamen meer graven aan het licht langs de weg naar Zliechov. Het gaat om verspreide vindplaatsen. Het kaartpunt markeert de Maria-Hemelvaartkerk als openbaar oriëntatiepunt in Košeca; de afzonderlijke archeologische vondsten liggen verspreid over het gemeentelijke grondgebied en worden hiermee niet exact gelokaliseerd."
         },
         {
           "id": "fact_002",
