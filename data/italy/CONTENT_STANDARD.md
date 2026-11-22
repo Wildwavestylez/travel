@@ -237,7 +237,7 @@ Zohledni zvláštní regionální uspořádání, zejména autonomní provincie 
 ### 6.2 Ověření CAP a adres
 
 - CAP ukládej jako pětimístný řetězec, včetně počátečních nul.
-- Používej aktuální, důvěryhodný seznam nebo ověřovací nástroj Poste Italiane pro CAP a jeho přiřazení. Neodvozuj Comune, provincii ani přesné území pouze z číslic CAP.
+- Používej nejnovější aktuálně účinný oficiální seznam, dataset nebo ověřovací nástroj Poste Italiane pro CAP a jeho přiřazení. **Tyto aktuální oficiální podklady jsou závazné. Pokud novější oficiální podklad nahrazuje starší údaj, starší dokument ignoruj; neřeš historický rozpor ani se nepokoušej obnovovat již překonané přiřazení.** Respektuj datum účinnosti a případné přechodné období uvedené Poste Italiane. Historické dokumenty a třetí strany nesmějí převážit nad aktuálním oficiálním stavem. Pouze skutečný rozpor mezi dvěma současně účinnými oficiálními podklady vyžaduje pozastavení rozhodnutí a označení k revizi. Neodvozuj Comune, provincii ani přesné území pouze z číslic CAP.
 - Rozlišuj běžné geografické CAP, městské zóny CAP a poštovní/organizační adresy. Použití CAP organizací nebo casella postale samo o sobě nedokazuje zvláštní území ani nezneplatňuje geografické CAP.
 - U adresního objektu ověř skutečnou fyzickou adresu, nikoli pouze korespondenční nebo fakturační adresu.
 - Pokud zdroje uvádějí odlišná CAP, zjisti účel každé adresy a ověř fyzické umístění. Neprováděj automatický přesun ani změnu sequence.
