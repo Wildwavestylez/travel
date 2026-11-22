@@ -1,4 +1,527 @@
 {
   "postcode": "97221",
-  "status": "placeholder"
+  "city": "Nitrianske Sučany",
+  "district": null,
+  "county": "Prievidza",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Historické centrum Nitrianskych Sučian pri kostole sv. Filipa a Jakuba",
+  "representative_point": {
+    "lat": 48.73265,
+    "lon": 18.46892
+  },
+  "access_point": null,
+  "status": "validated",
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Sučany na hornej Nitre: od Zuchanu po poštovú cestu",
+      "text": "Nitrianske Sučany sa v historických prameňoch objavujú už v roku 1249, keď sa v dnes nezachovanej listine kráľa Bela IV. uvádzajú pod menom Zucsan a prechádzajú z majetku Nitrianskeho hradu do vlastníctva zoborského kláštora. V listinách z rokov 1270–1271 sa objavujú ďalšie podoby Zuchan, Zuchcham, Zuchchen a Suchan. Od 18. storočia sa v obci rozvíjalo pestovanie šafranu a obchod s ním i s konope; miestni obchodníci a furmani vyvážali tovar do vzdialenejších miest. Význam obce dokladá aj jedna zo staníc poštovej cesty z Bratislavy do Rumunska, zriadenej roku 1550. Zachovaný obecný archívny fond z rokov 1780–1887 obsahuje urbárske zmluvy, obecné účty, daňové záznamy aj zoznamy živnostníkov. Miestny súpis z roku 1715 zachytáva 32 roľníkov, troch želiarov a jedného slobodného roľníka; nejde však o sčítanie celej populácie, ale o daňový súpis hospodárov.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.nitrianskesucany.sk/historia.html",
+        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Nitrianske_Sucany.pdf",
+        "https://www.nitrianskesucany.sk/o-nas-0/mid/434090/md0/8/md1/2026/.html"
+      ],
+      "location": {
+        "name": "Nitrianske Sučany – orientačný bod obce",
+        "lat": 48.73265,
+        "lon": 18.46892,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18462722"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Rímska minca Marka Aurélia objavená v záhrade",
+      "text": "Dňa 18. mája 1960 sa pri výkopových prácach v záhrade domu č. 268 našli ľudské kostrové pozostatky a rímske mince. Zachovala sa jedna väčšia bronzová minca, zatiaľ čo ďalších päť až šesť menších mincí a pravdepodobne aj časť kostí sa stratili skôr, než sa archeológovia dostali k nálezu. Zachovaná minca bola vyrazená v roku 166 za vlády cisára Marka Aurélia (161–180) a dnes je uložená v zbierkach Slovenského národného múzea v Bratislave. Nie je dokázané, či mince a ľudské pozostatky pochádzali z jedného hrobu ani kto bol posledným majiteľom mince. Mohol ním byť Riman alebo príslušník germánskeho kmeňa Kvádov; prítomnosť rímskych vojakov v obci však z nálezu vyvodiť nemožno.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.nitrianskesucany.sk/historia.html"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Poklad 678 baníckych mincí a príbeh šafranového obchodníka",
+      "text": "V roku 1973 sa pri výkopových prácach na garáži v záhrade domu č. 72 našiel súbor mincí, pravdepodobne pôvodne uložený v hlinenej nádobe. Depot tvorilo 678 medených núdzových baníckych platidiel z Banskej Štiavnice, Smolníka a Košíc, razených v rokoch 1686–1703. Mince sa používali v baníckych skladoch na nákup potravín a potrieb a neskôr sa z nich stalo bežné platidlo. Nález sa dostal do múzea v Bojniciach a dnes je uložený v Hornonitrianskom múzeu v Prievidzi. Obecný historický výskum spája poklad s miestnou tradíciou pestovania a obchodu so šafranom, doloženou urbárom z roku 1694 a daňovým súpisom z roku 1753. Predstava, že mince ukryl zámožný obchodník so šafranom obchodujúci s banskými mestami, je však historickou hypotézou, nie známou identitou majiteľa.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "https://www.nitrianskesucany.sk/historia.html",
+        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Nitrianske_Sucany.pdf",
+        "https://www.nitrianskesucany.sk/o-nas-0/mid/434090/md0/8/md1/2026/.html"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Barokový kostol s renesančným opevnením a mramorovou krstiteľnicou",
+      "text": "Dominantou obce je rímskokatolícky kostol sv. Filipa a Jakuba, postavený v roku 1737 na mieste staršej drevenej modlitebne. Jednoloďová baroková stavba má polygonálne ukončené presbytérium, predstavanú vežu a bohato členenú fasádu; opravy prebehli v rokoch 1793–1794. Okolo kostola sa zachoval starší renesančný opevňovací múr s kľúčovými strieľňami, ktorý dáva areálu nezvyčajný obranný charakter. V interiéri sa nachádza klasicistická krstiteľnica zo začiatku 19. storočia a staršie barokové sochy a krucifixy. Krstiteľnica je vytesaná z miestneho mramoru. Obecná história uvádza, že mramor z tunajšieho chotára sa využil aj na stĺpy piaristického kostola v Prievidzi a na stavbu cisárskeho paláca vo Viedni; túto širšiu súvislosť uvádzame ako miestnu historickú tradíciu.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/nitrianske-sucany-kostol-sv-filipa-a-jakuba-mladsieho",
+        "https://mojafarnost.sk/kostoly/kostol-nitrianske-sucany-sv-filipa-a-jakuba",
+        "https://www.nitrianskesucany.sk/historia.html",
+        "https://hornevestenice.sk/wp-content/uploads/dokumenty/verejne-vyhlasky-a-oznamy/Dokument-2021-09-20T125334.208.pdf"
+      ],
+      "location": {
+        "name": "Kostol sv. Filipa a Jakuba",
+        "lat": 48.730733,
+        "lon": 18.470173,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/nitrianske-sucany-kostol-sv-filipa-a-jakuba-mladsieho"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "František Madva – botanik a vyhľadávaný ľudový liečiteľ",
+      "text": "Kňaz František (Fraňo) Madva (1786–1852) strávil väčšinu svojho aktívneho života ako farár v Nitrianskom Rudne, kde sa preslávil botanikou, bylinkárstvom a ľudovým liečiteľstvom. Pacienti za ním prichádzali nielen z rôznych častí Uhorska, ale aj zo zahraničia; medzi osobnosti, ktoré ho navštívili, patrili Božena Němcová, Ľudovít Štúr a Lajos Kossuth. Po revolučných udalostiach roku 1848 a odchode z fary sa v roku 1850 uchýlil do Nitrianskych Sučian, kde 20. augusta 1852 zomrel. Je pochovaný na miestnom cintoríne a na dome, v ktorom býval a zomrel, bola umiestnená pamätná tabuľa. Slovenská akadémia vied potvrdzuje jeho botanickú činnosť, vlastné rastlinné prípravky a liečiteľskú prax; jeho meno dnes nesie aj náučný chodník spájajúci Nitrianske Rudno s Nitrianskymi Sučanmi.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.nitrianskesucany.sk/knaz-a-ludovy-liecitel-frantisek-madva-clanok/mid/429721/.html",
+        "https://botanici.sav.sk/people/madva-frantisek.html",
+        "https://www.zahorskemuzeum.sk/en/madva-frantisek-14-9-1786-skalica-20-8-1852-nitrianske-sucany/",
+        "https://www.nitrianskesucany.sk/historia.html"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_006",
+      "title": "Vilma Baková zachránila desiatky sučianskych piesní",
+      "text": "Vilma Baková (1905–1984) zbierala ľudové piesne a porekadlá, vďaka čomu sa zachovala dôležitá časť ústnej tradície Nitrianskych Sučian. Z 280 piesní v Zborníku ľudových piesní hornej Nitry s názvom Široko ďaleko je 65 zaznamenaných práve od nej. Akademická štúdia Stely Obertovej z roku 2024 rozoberá jej zbierku, ktorú Baková zanechala vnukovi Mariánovi Mikulovi, a dokumentuje, ako sa jej piesne dostali do repertoáru miestnych hudobných a folklórnych skupín. Folklórna skupina Boršina, založená v roku 1983, používa piesne a miestne zvyky pri vystúpeniach a obecných slávnostiach. Nejde teda len o spomienku na jednu speváčku, ale o konkrétny prameň, z ktorého obec dodnes obnovuje vlastnú hudobnú pamäť.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.nitrianskesucany.sk/zberatelka-ludovych-piesni-vilma-bakova-0-clanok/mid/429721/.html",
+        "https://www.muzeologia.sk/index_htm_files/SMS8_2024.pdf"
+      ],
+      "location": {
+        "name": "Nitrianske Sučany – orientačný bod obce a miestnej hudobnej tradície",
+        "lat": 48.73265,
+        "lon": 18.46892,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18462722"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Dušan Hanes a umenie výroby fujár",
+      "text": "Nitrianske Sučany mali vlastného výrobcu tradičných slovenských hudobných nástrojov Dušana Hanesa (1943–2018). Vyrábal fujary a píšťaly rôznych druhov, zdobil ich aj kovoryteckou výzdobou a svoje nástroje predstavoval na jarmokoch, folklórnych podujatiach a výstavách. Prvú výstavu mal v roku 1999 v Hornonitrianskom múzeu v Prievidzi a v roku 2010 získal v Detve certifikát Instrumentum Excellent. V miestnej obecnej tlači sa zachoval osobný spomienkový text, podľa ktorého sa jeho nástroje dostali do mnohých miest na Slovensku aj do zahraničia a pri vystúpeniach na ne sám hrával. Hanesov príbeh ukazuje, že miestna kultúrna tradícia nebola iba uchovávaním starých piesní, ale aj živým remeslom a tvorbou nových nástrojov.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "https://archiv.nitrianskesucany.sk/images/noviny/2018/noviny_18_2.pdf",
+        "https://www.nitrianskesucany.sk/o-nas-0/mid/434090/md0/8/md1/2026/.html"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhľadávanie PSČ https://www.posta.sk/psc; obecná adresa Nitrianske Sučany 242, 972 21 Nitrianske Sučany potvrzená oficiálními kontakty obce a dokumenty veřejných institucí.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR a oficiální obecní a státní zdroje pro správní zařazení; mapové podklady OpenStreetMap/Mapcarta a specializované památkové zdroje pro souřadnice."
+  },
+  "sources": [
+    {
+      "title": "História obce, rímska minca, súpis z roku 1715 a poklad obchodníka so šafránom",
+      "url": "https://www.nitrianskesucany.sk/historia.html",
+      "type": "official"
+    },
+    {
+      "title": "O nás – poloha, prírodné pomery a dejiny obce",
+      "url": "https://www.nitrianskesucany.sk/o-nas-0/mid/434090/md0/8/md1/2026/.html",
+      "type": "official"
+    },
+    {
+      "title": "Kontakty obce – adresa 972 21 Nitrianske Sučany 242",
+      "url": "https://www.nitrianskesucany.sk/kontakty.html",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Informácie o obci Nitrianske Sučany – Ústredný portál verejnej správy",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d745d433-e497-4e2b-be09-ec408173f0f7",
+      "type": "official"
+    },
+    {
+      "title": "Obec Nitrianske Sučany 1780–1887 – Štátny archív v Trenčíne, pracovisko Bojnice",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Nitrianske_Sucany.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Kostol sv. Filipa a Jakuba mladšieho – Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/nitrianske-sucany-kostol-sv-filipa-a-jakuba-mladsieho",
+      "type": "specialist"
+    },
+    {
+      "title": "Kostol sv. Filipa a Jakuba – poloha a farské údaje",
+      "url": "https://mojafarnost.sk/kostoly/kostol-nitrianske-sucany-sv-filipa-a-jakuba",
+      "type": "specialist"
+    },
+    {
+      "title": "František Madva – životopis obce Nitrianske Sučany",
+      "url": "https://www.nitrianskesucany.sk/knaz-a-ludovy-liecitel-frantisek-madva-clanok/mid/429721/.html",
+      "type": "official"
+    },
+    {
+      "title": "František Madva – Osobnosti botaniky na Slovensku, SAV",
+      "url": "https://botanici.sav.sk/people/madva-frantisek.html",
+      "type": "official"
+    },
+    {
+      "title": "František Madva – Záhorské múzeum Skalica",
+      "url": "https://www.zahorskemuzeum.sk/en/madva-frantisek-14-9-1786-skalica-20-8-1852-nitrianske-sucany/",
+      "type": "museum"
+    },
+    {
+      "title": "Vilma Baková – zberateľka ľudových piesní",
+      "url": "https://www.nitrianskesucany.sk/zberatelka-ludovych-piesni-vilma-bakova-0-clanok/mid/429721/.html",
+      "type": "official"
+    },
+    {
+      "title": "Zbierka ľudovej slovesnosti z Nitrianskych Sučian – Studia Museologica Slovaca 8/2024",
+      "url": "https://www.muzeologia.sk/index_htm_files/SMS8_2024.pdf",
+      "type": "academic"
+    },
+    {
+      "title": "Dušan Hanes – odišiel, ale jeho umenie zostalo",
+      "url": "https://archiv.nitrianskesucany.sk/images/noviny/2018/noviny_18_2.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Nitrianske Sučany – geografická poloha obce",
+      "url": "https://mapcarta.com/18462722",
+      "type": "mapping"
+    },
+    {
+      "title": "Nitrianske Sučany – cintorín a orientačné body v okolí",
+      "url": "https://poi.oma.sk/n2335183198",
+      "type": "mapping"
+    },
+    {
+      "title": "Kaplnka Svätého kríža – poloha",
+      "url": "https://mojafarnost.sk/kostoly/kaplnka-nitrianske-sucany-svateho-kriza",
+      "type": "specialist"
+    },
+    {
+      "title": "Územný plán Nitrianskych Sučian – stanovisko KPÚ Trenčín a evidencia NKP",
+      "url": "https://hornevestenice.sk/wp-content/uploads/dokumenty/verejne-vyhlasky-a-oznamy/Dokument-2021-09-20T125334.208.pdf",
+      "type": "official"
+    },
+    {
+      "title": "PSČ 972 21 – Nitrianske Sučany, nezávislá geografická kontrola",
+      "url": "https://allslovakia.info/psc/97221",
+      "type": "mapping"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Nitrianskych Sučian pri kostole sv. Filipa a Jakuba",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany na hornej Nitre: od Zuchanu po poštovú cestu",
+          "text": "Nitrianske Sučany sa v historických prameňoch objavujú už v roku 1249, keď sa v dnes nezachovanej listine kráľa Bela IV. uvádzajú pod menom Zucsan a prechádzajú z majetku Nitrianskeho hradu do vlastníctva zoborského kláštora. V listinách z rokov 1270–1271 sa objavujú ďalšie podoby Zuchan, Zuchcham, Zuchchen a Suchan. Od 18. storočia sa v obci rozvíjalo pestovanie šafranu a obchod s ním i s konope; miestni obchodníci a furmani vyvážali tovar do vzdialenejších miest. Význam obce dokladá aj jedna zo staníc poštovej cesty z Bratislavy do Rumunska, zriadenej roku 1550. Zachovaný obecný archívny fond z rokov 1780–1887 obsahuje urbárske zmluvy, obecné účty, daňové záznamy aj zoznamy živnostníkov. Miestny súpis z roku 1715 zachytáva 32 roľníkov, troch želiarov a jedného slobodného roľníka; nejde však o sčítanie celej populácie, ale o daňový súpis hospodárov."
+        },
+        {
+          "id": "fact_002",
+          "title": "Rímska minca Marka Aurélia objavená v záhrade",
+          "text": "Dňa 18. mája 1960 sa pri výkopových prácach v záhrade domu č. 268 našli ľudské kostrové pozostatky a rímske mince. Zachovala sa jedna väčšia bronzová minca, zatiaľ čo ďalších päť až šesť menších mincí a pravdepodobne aj časť kostí sa stratili skôr, než sa archeológovia dostali k nálezu. Zachovaná minca bola vyrazená v roku 166 za vlády cisára Marka Aurélia (161–180) a dnes je uložená v zbierkach Slovenského národného múzea v Bratislave. Nie je dokázané, či mince a ľudské pozostatky pochádzali z jedného hrobu ani kto bol posledným majiteľom mince. Mohol ním byť Riman alebo príslušník germánskeho kmeňa Kvádov; prítomnosť rímskych vojakov v obci však z nálezu vyvodiť nemožno."
+        },
+        {
+          "id": "fact_003",
+          "title": "Poklad 678 baníckych mincí a príbeh šafranového obchodníka",
+          "text": "V roku 1973 sa pri výkopových prácach na garáži v záhrade domu č. 72 našiel súbor mincí, pravdepodobne pôvodne uložený v hlinenej nádobe. Depot tvorilo 678 medených núdzových baníckych platidiel z Banskej Štiavnice, Smolníka a Košíc, razených v rokoch 1686–1703. Mince sa používali v baníckych skladoch na nákup potravín a potrieb a neskôr sa z nich stalo bežné platidlo. Nález sa dostal do múzea v Bojniciach a dnes je uložený v Hornonitrianskom múzeu v Prievidzi. Obecný historický výskum spája poklad s miestnou tradíciou pestovania a obchodu so šafranom, doloženou urbárom z roku 1694 a daňovým súpisom z roku 1753. Predstava, že mince ukryl zámožný obchodník so šafranom obchodujúci s banskými mestami, je však historickou hypotézou, nie známou identitou majiteľa."
+        },
+        {
+          "id": "fact_004",
+          "title": "Barokový kostol s renesančným opevnením a mramorovou krstiteľnicou",
+          "text": "Dominantou obce je rímskokatolícky kostol sv. Filipa a Jakuba, postavený v roku 1737 na mieste staršej drevenej modlitebne. Jednoloďová baroková stavba má polygonálne ukončené presbytérium, predstavanú vežu a bohato členenú fasádu; opravy prebehli v rokoch 1793–1794. Okolo kostola sa zachoval starší renesančný opevňovací múr s kľúčovými strieľňami, ktorý dáva areálu nezvyčajný obranný charakter. V interiéri sa nachádza klasicistická krstiteľnica zo začiatku 19. storočia a staršie barokové sochy a krucifixy. Krstiteľnica je vytesaná z miestneho mramoru. Obecná história uvádza, že mramor z tunajšieho chotára sa využil aj na stĺpy piaristického kostola v Prievidzi a na stavbu cisárskeho paláca vo Viedni; túto širšiu súvislosť uvádzame ako miestnu historickú tradíciu."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva – botanik a vyhľadávaný ľudový liečiteľ",
+          "text": "Kňaz František (Fraňo) Madva (1786–1852) strávil väčšinu svojho aktívneho života ako farár v Nitrianskom Rudne, kde sa preslávil botanikou, bylinkárstvom a ľudovým liečiteľstvom. Pacienti za ním prichádzali nielen z rôznych častí Uhorska, ale aj zo zahraničia; medzi osobnosti, ktoré ho navštívili, patrili Božena Němcová, Ľudovít Štúr a Lajos Kossuth. Po revolučných udalostiach roku 1848 a odchode z fary sa v roku 1850 uchýlil do Nitrianskych Sučian, kde 20. augusta 1852 zomrel. Je pochovaný na miestnom cintoríne a na dome, v ktorom býval a zomrel, bola umiestnená pamätná tabuľa. Slovenská akadémia vied potvrdzuje jeho botanickú činnosť, vlastné rastlinné prípravky a liečiteľskú prax; jeho meno dnes nesie aj náučný chodník spájajúci Nitrianske Rudno s Nitrianskymi Sučanmi."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková zachránila desiatky sučianskych piesní",
+          "text": "Vilma Baková (1905–1984) zbierala ľudové piesne a porekadlá, vďaka čomu sa zachovala dôležitá časť ústnej tradície Nitrianskych Sučian. Z 280 piesní v Zborníku ľudových piesní hornej Nitry s názvom Široko ďaleko je 65 zaznamenaných práve od nej. Akademická štúdia Stely Obertovej z roku 2024 rozoberá jej zbierku, ktorú Baková zanechala vnukovi Mariánovi Mikulovi, a dokumentuje, ako sa jej piesne dostali do repertoáru miestnych hudobných a folklórnych skupín. Folklórna skupina Boršina, založená v roku 1983, používa piesne a miestne zvyky pri vystúpeniach a obecných slávnostiach. Nejde teda len o spomienku na jednu speváčku, ale o konkrétny prameň, z ktorého obec dodnes obnovuje vlastnú hudobnú pamäť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes a umenie výroby fujár",
+          "text": "Nitrianske Sučany mali vlastného výrobcu tradičných slovenských hudobných nástrojov Dušana Hanesa (1943–2018). Vyrábal fujary a píšťaly rôznych druhov, zdobil ich aj kovoryteckou výzdobou a svoje nástroje predstavoval na jarmokoch, folklórnych podujatiach a výstavách. Prvú výstavu mal v roku 1999 v Hornonitrianskom múzeu v Prievidzi a v roku 2010 získal v Detve certifikát Instrumentum Excellent. V miestnej obecnej tlači sa zachoval osobný spomienkový text, podľa ktorého sa jeho nástroje dostali do mnohých miest na Slovensku aj do zahraničia a pri vystúpeniach na ne sám hrával. Hanesov príbeh ukazuje, že miestna kultúrna tradícia nebola iba uchovávaním starých piesní, ale aj živým remeslom a tvorbou nových nástrojov."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany an der oberen Nitra: von Zuchan zur Poststraße",
+          "text": "Nitrianske Sučany erscheinen bereits 1249 in einer heute verlorenen Königsurkunde als Zucsan; der Ort ging damals vom Besitz der Burg Nitra an das Kloster Zobor über. Urkunden von 1270–1271 nennen weitere Formen wie Zuchan, Zuchcham, Zuchchen und Suchan. Seit dem 18. Jahrhundert waren Safrananbau und -handel sowie Hanfhandel bedeutend; Händler und Fuhrleute brachten Waren in weiter entfernte Städte. Eine Station der 1550 eingerichteten Poststraße von Bratislava nach Rumänien lag ebenfalls hier. Der Gemeindearchivbestand von 1780–1887 enthält Urbarialverträge, Gemeinderechnungen, Steuerunterlagen und Gewerbelisten. Ein Steuerverzeichnis von 1715 nennt 32 Bauern, drei Kleinlandwirte und einen steuerfreien Bauern; es war keine vollständige Volkszählung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Eine römische Münze des Marcus Aurelius aus einem Gartenfund",
+          "text": "Am 18. Mai 1960 wurden bei Erdarbeiten im Garten des Hauses Nr. 268 menschliche Knochenreste und römische Münzen gefunden. Erhalten blieb eine größere Bronzemünze; fünf bis sechs kleinere Münzen und wahrscheinlich auch ein Teil der Knochen gingen verloren, bevor Archäologen den Fund untersuchen konnten. Die erhaltene Münze wurde 166 unter Kaiser Marcus Aurelius (161–180) geprägt und befindet sich heute in den Sammlungen des Slowakischen Nationalmuseums in Bratislava. Es ist nicht bewiesen, dass Münzen und Knochen aus demselben Grab stammten oder wer der letzte Besitzer war. Es könnte ein Römer oder ein Angehöriger des germanischen Stammes der Quaden gewesen sein; eine Anwesenheit römischer Soldaten im Dorf lässt sich daraus nicht ableiten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ein Schatz aus 678 Bergbaumünzen und die Geschichte eines Safranhändlers",
+          "text": "1973 wurde bei Bauarbeiten für eine Garage im Garten des Hauses Nr. 72 ein Münzfund entdeckt, der vermutlich ursprünglich in einem Tongefäß lag. Der Hort umfasste 678 kupferne Notgeldmünzen aus den Bergbaustädten Banská Štiavnica, Smolník und Košice, geprägt zwischen 1686 und 1703. Bergleute verwendeten solche Münzen zunächst in Versorgungslagern; später wurden sie zu regulärem Zahlungsmittel. Der Fund kam zunächst ins Museum in Bojnice und befindet sich heute im Obernitra-Museum in Prievidza. Die Gemeindegeschichte verbindet ihn mit dem örtlichen Safrananbau und -handel, der 1694 und 1753 belegt ist. Dass ein wohlhabender Safranhändler die Münzen versteckte, ist jedoch eine historische Hypothese und keine gesicherte Identität des Besitzers."
+        },
+        {
+          "id": "fact_004",
+          "title": "Barockkirche mit Renaissancebefestigung und Marmor-Taufbecken",
+          "text": "Die römisch-katholische Kirche St. Philipp und Jakob, 1737 anstelle einer älteren hölzernen Gebetskapelle errichtet, prägt den Ort. Der einschiffige Barockbau besitzt einen polygonalen Chor, einen vorgestellten Turm und eine reich gegliederte Fassade; Renovierungen fanden 1793–1794 statt. Um die Kirche steht eine ältere Renaissance-Befestigungsmauer mit Schlüsselscharten, die dem Ensemble einen ungewöhnlich wehrhaften Charakter verleiht. Im Inneren befinden sich ein klassizistisches Taufbecken vom Anfang des 19. Jahrhunderts sowie ältere barocke Statuen und Kruzifixe. Das Taufbecken wurde aus lokalem Marmor gefertigt. Laut Gemeindegeschichte wurde Marmor aus dem Gemeindegebiet auch für Säulen der Piaristenkirche in Prievidza und für den Kaiserpalast in Wien verwendet; diese weiterreichende Verbindung wird als örtliche historische Überlieferung wiedergegeben."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva – Botaniker und weithin bekannter Volksheiler",
+          "text": "Der Priester František (Fraňo) Madva (1786–1852) wirkte den größten Teil seines Berufslebens als Pfarrer in Nitrianske Rudno und wurde durch Botanik, Kräuterkunde und Volksheilkunde bekannt. Patienten kamen aus verschiedenen Teilen Ungarns und auch aus dem Ausland; zu seinen Besuchern gehörten Božena Němcová, Ľudovít Štúr und Lajos Kossuth. Nach den Revolutionsereignissen von 1848 und seinem Weggang aus der Pfarrei zog er sich 1850 nach Nitrianske Sučany zurück, wo er am 20. August 1852 starb. Er liegt auf dem örtlichen Friedhof; am Haus, in dem er lebte und starb, wurde eine Gedenktafel angebracht. Die Slowakische Akademie der Wissenschaften bestätigt seine botanische Arbeit, selbst hergestellte Pflanzenpräparate und seine Heiltätigkeit."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková bewahrte Dutzende Lieder aus Sučany",
+          "text": "Vilma Baková (1905–1984) sammelte Volkslieder und Sprichwörter und bewahrte damit einen wichtigen Teil der mündlichen Tradition von Nitrianske Sučany. Von den 280 Liedern in der Sammlung Široko ďaleko stammen 65 von ihr. Eine wissenschaftliche Studie von Stela Obertová aus dem Jahr 2024 untersucht ihre Sammlung, die Baková ihrem Enkel Marián Mikula hinterließ, und dokumentiert, wie ihre Lieder in das Repertoire örtlicher Musik- und Folkloregruppen gelangten. Die 1983 gegründete Folkloregruppe Boršina verwendet lokale Lieder und Bräuche bei Auftritten und Gemeindefeiern. Bakovás Werk ist damit nicht nur die Erinnerung an eine Sängerin, sondern eine konkrete Quelle, aus der der Ort seine musikalische Erinnerung bis heute erneuert."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes und die Kunst des Fujara-Baus",
+          "text": "Nitrianske Sučany hatte mit Dušan Hanes (1943–2018) einen eigenen Hersteller traditioneller slowakischer Musikinstrumente. Er fertigte Fujaren und verschiedene Flöten und verzierte sie auch mit Metallgravuren. Seine Instrumente zeigte er auf Märkten, Folkloreveranstaltungen und Ausstellungen. Seine erste Ausstellung fand 1999 im Obernitra-Museum in Prievidza statt; 2010 erhielt er in Detva das Zertifikat Instrumentum Excellent. Ein Erinnerungsbericht in der örtlichen Gemeindepresse schildert, dass seine Instrumente in viele Orte der Slowakei und ins Ausland gelangten und er bei Auftritten selbst darauf spielte. Hanes zeigt, dass die örtliche Tradition nicht nur alte Lieder bewahrte, sondern auch lebendiges Handwerk und neue Instrumente hervorbrachte."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany in the Upper Nitra: from Zuchan to a postal road",
+          "text": "Nitrianske Sučany appears as early as 1249 in a now-lost royal charter under the name Zucsan, when it passed from the property of Nitra Castle to Zobor Abbey. Charters from 1270–1271 record forms including Zuchan, Zuchcham, Zuchchen and Suchan. From the eighteenth century, saffron growing and trade, as well as hemp trading, were important; merchants and carters carried goods to distant towns. One station on the postal road from Bratislava to Romania, established in 1550, was also located here. The municipal archive collection from 1780–1887 contains land-tenure contracts, accounts, tax records and lists of tradespeople. A 1715 tax register lists 32 farmers, three smallholders and one tax-exempt farmer; it was not a full population census."
+        },
+        {
+          "id": "fact_002",
+          "title": "A Roman coin of Marcus Aurelius found in a garden",
+          "text": "On 18 May 1960, digging in the garden of house no. 268 uncovered human skeletal remains and Roman coins. One larger bronze coin survived; five or six smaller coins and probably some of the bones were lost before archaeologists could examine the find. The surviving coin was minted in 166 during the reign of Emperor Marcus Aurelius (161–180) and is now held in the collections of the Slovak National Museum in Bratislava. It has not been proven that the coins and human remains came from the same grave, nor is the last owner known. The owner may have been Roman or a member of the Germanic Quadi; the find does not prove that Roman soldiers were present in the village."
+        },
+        {
+          "id": "fact_003",
+          "title": "A hoard of 678 mining tokens and the story of a saffron trader",
+          "text": "In 1973, building work for a garage in the garden of house no. 72 uncovered a coin hoard, probably once stored in a clay vessel. It contained 678 copper emergency mining tokens minted in Banská Štiavnica, Smolník and Košice between 1686 and 1703. Miners first used such tokens in mining supply stores; later they became ordinary currency. The find was taken to the museum in Bojnice and is now kept at the Upper Nitra Museum in Prievidza. The municipal history connects it with local saffron cultivation and trade, documented in 1694 and 1753. The idea that a wealthy saffron merchant hid the coins is a historical hypothesis, not an established identity of the owner."
+        },
+        {
+          "id": "fact_004",
+          "title": "A Baroque church with Renaissance defences and a marble font",
+          "text": "The Roman Catholic Church of St Philip and St James, built in 1737 on the site of an earlier wooden prayer chapel, dominates the village. The single-nave Baroque building has a polygonal sanctuary, a projecting tower and an elaborately articulated façade; it was repaired in 1793–1794. An older Renaissance defensive wall with keyhole-shaped loopholes surrounds the church, giving the complex an unusual fortified character. The interior contains an early nineteenth-century Neoclassical baptismal font and older Baroque statues and crucifixes. The font is carved from local marble. The municipal history also says marble from the village territory was used for columns in the Piarist church in Prievidza and the Imperial Palace in Vienna; this wider connection is presented as local historical tradition."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva: botanist and celebrated folk healer",
+          "text": "The priest František (Fraňo) Madva (1786–1852) spent most of his active career as a parish priest in Nitrianske Rudno, where he became known for botany, herbal knowledge and folk healing. Patients came from across the Kingdom of Hungary and from abroad; visitors included Božena Němcová, Ľudovít Štúr and Lajos Kossuth. After the revolutionary events of 1848 and his departure from the parish, he moved to Nitrianske Sučany in 1850 and died there on 20 August 1852. He is buried in the local cemetery, and a memorial plaque was placed on the house where he lived and died. The Slovak Academy of Sciences confirms his botanical work, plant-based preparations and healing practice."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková preserved dozens of songs from Sučany",
+          "text": "Vilma Baková (1905–1984) collected folk songs and sayings, preserving an important part of Nitrianske Sučany’s oral tradition. Of the 280 songs in the Upper Nitra collection Široko ďaleko, 65 were recorded from her. A 2024 academic study by Stela Obertová examines the collection Baková left to her grandson Marián Mikula and documents how her songs entered the repertoires of local music and folklore groups. The Boršina folklore group, founded in 1983, uses local songs and customs in performances and community celebrations. Baková’s work is therefore more than the memory of one singer: it is a source through which the village continues to renew its musical memory."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes and the craft of making the fujara",
+          "text": "Nitrianske Sučany had its own maker of traditional Slovak musical instruments, Dušan Hanes (1943–2018). He made Fujara instruments and various kinds of shepherd’s pipes, decorating them with metal engraving. He presented his work at fairs, folklore events and exhibitions. His first exhibition was held in 1999 at the Upper Nitra Museum in Prievidza; in 2010 he received the Instrumentum Excellent certificate in Detva. A memorial article in the municipal newspaper recalls that his instruments reached many places in Slovakia and abroad and that he played them himself at performances. Hanes’s story shows that local tradition involved not only preserving old songs but also living craftsmanship and the creation of new instruments."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany en la Alta Nitra: de Zuchan a la ruta postal",
+          "text": "Nitrianske Sučany aparece ya en 1249 en un documento real hoy perdido con el nombre Zucsan, cuando pasó de los bienes del castillo de Nitra al monasterio de Zobor. Los documentos de 1270–1271 registran formas como Zuchan, Zuchcham, Zuchchen y Suchan. Desde el siglo XVIII fueron importantes el cultivo y comercio del azafrán, así como el cáñamo; comerciantes y carreteros llevaban mercancías a ciudades lejanas. Aquí también había una estación de la ruta postal de Bratislava a Rumanía, establecida en 1550. El fondo del archivo municipal de 1780–1887 conserva contratos agrarios, cuentas, registros fiscales y listas de artesanos. Un registro fiscal de 1715 enumera 32 campesinos, tres pequeños arrendatarios y un campesino exento de impuestos; no era un censo completo de población."
+        },
+        {
+          "id": "fact_002",
+          "title": "Una moneda romana de Marco Aurelio hallada en un jardín",
+          "text": "El 18 de mayo de 1960, unas excavaciones en el jardín de la casa n.º 268 descubrieron restos óseos humanos y monedas romanas. Se conservó una moneda de bronce de mayor tamaño; otras cinco o seis monedas pequeñas y probablemente parte de los huesos se perdieron antes de que los arqueólogos pudieran examinar el hallazgo. La moneda conservada se acuñó en el año 166, durante el reinado de Marco Aurelio (161–180), y hoy se encuentra en las colecciones del Museo Nacional Eslovaco de Bratislava. No se ha demostrado que las monedas y los restos humanos procedieran de una misma tumba ni se conoce al último propietario. Pudo ser romano o miembro de la tribu germánica de los cuados; el hallazgo no demuestra que hubiera soldados romanos en el pueblo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Un tesoro de 678 monedas mineras y la historia de un comerciante de azafrán",
+          "text": "En 1973, unas obras para construir un garaje en el jardín de la casa n.º 72 sacaron a la luz un conjunto de monedas, probablemente guardadas originalmente en una vasija de barro. El tesoro contenía 678 monedas de cobre de emergencia para mineros, acuñadas en Banská Štiavnica, Smolník y Košice entre 1686 y 1703. Los mineros las utilizaban primero en los almacenes mineros y después se convirtieron en moneda corriente. El hallazgo pasó al museo de Bojnice y hoy se conserva en el Museo de la Alta Nitra de Prievidza. La historia municipal lo relaciona con el cultivo y comercio local del azafrán, documentado en 1694 y 1753. Que las monedas fueran escondidas por un rico comerciante de azafrán es una hipótesis histórica, no una identidad demostrada."
+        },
+        {
+          "id": "fact_004",
+          "title": "Una iglesia barroca con defensas renacentistas y pila bautismal de mármol",
+          "text": "La iglesia católica romana de San Felipe y Santiago, construida en 1737 sobre el lugar de una antigua capilla de madera, domina el pueblo. El edificio barroco de una nave tiene un presbiterio poligonal, una torre adelantada y una fachada ricamente articulada; fue reparado en 1793–1794. Rodea la iglesia un antiguo muro defensivo renacentista con aspilleras en forma de ojo de cerradura, que da al conjunto un carácter fortificado poco común. En el interior hay una pila bautismal neoclásica de principios del siglo XIX y esculturas y crucifijos barrocos más antiguos. La pila está tallada en mármol local. La historia municipal señala que el mármol de la zona también se utilizó en columnas de la iglesia escolapia de Prievidza y en el Palacio Imperial de Viena; esta relación más amplia se presenta como tradición histórica local."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva: botánico y célebre curandero popular",
+          "text": "El sacerdote František (Fraňo) Madva (1786–1852) pasó la mayor parte de su vida activa como párroco en Nitrianske Rudno, donde se hizo conocido por la botánica, las hierbas y la medicina popular. Acudían pacientes de distintas partes del Reino de Hungría y del extranjero; entre sus visitantes estuvieron Božena Němcová, Ľudovít Štúr y Lajos Kossuth. Tras los acontecimientos revolucionarios de 1848 y su salida de la parroquia, se trasladó a Nitrianske Sučany en 1850 y murió allí el 20 de agosto de 1852. Está enterrado en el cementerio local y se colocó una placa conmemorativa en la casa donde vivió y murió. La Academia Eslovaca de Ciencias confirma su trabajo botánico, sus preparados vegetales y su práctica curativa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková conservó decenas de canciones de Sučany",
+          "text": "Vilma Baková (1905–1984) recopiló canciones populares y dichos, preservando una parte importante de la tradición oral de Nitrianske Sučany. De las 280 canciones de la colección de la Alta Nitra Široko ďaleko, 65 fueron recogidas por ella. Un estudio académico de Stela Obertová publicado en 2024 analiza la colección que Baková dejó a su nieto Marián Mikula y documenta cómo sus canciones entraron en el repertorio de grupos musicales y folclóricos locales. El grupo folclórico Boršina, fundado en 1983, utiliza canciones y costumbres locales en actuaciones y celebraciones comunitarias. Su trabajo no es solo el recuerdo de una cantante: es una fuente con la que el pueblo sigue renovando su memoria musical."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes y el arte de fabricar la fujara",
+          "text": "Nitrianske Sučany tuvo su propio fabricante de instrumentos musicales tradicionales eslovacos, Dušan Hanes (1943–2018). Fabricaba fujaras y distintos tipos de flautas pastoriles y las decoraba con grabados metálicos. Presentaba sus instrumentos en ferias, actos folclóricos y exposiciones. Su primera exposición tuvo lugar en 1999 en el Museo de la Alta Nitra de Prievidza; en 2010 recibió en Detva el certificado Instrumentum Excellent. Un recuerdo publicado en el periódico municipal cuenta que sus instrumentos llegaron a numerosos lugares de Eslovaquia y del extranjero y que él mismo los tocaba en sus actuaciones. Su historia muestra que la tradición local no solo conservaba canciones antiguas, sino que también mantenía vivo el oficio artesanal y la creación de instrumentos."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany en Haute Nitra : de Zuchan à la route postale",
+          "text": "Nitrianske Sučany apparaît dès 1249 dans une charte royale aujourd’hui perdue sous le nom de Zucsan, lorsque le village passa des possessions du château de Nitra à l’abbaye de Zobor. Les chartes de 1270–1271 mentionnent d’autres formes, notamment Zuchan, Zuchcham, Zuchchen et Suchan. À partir du XVIIIe siècle, la culture et le commerce du safran ainsi que le commerce du chanvre jouèrent un rôle important ; les marchands et voituriers transportaient leurs marchandises vers des villes éloignées. Une station de la route postale reliant Bratislava à la Roumanie, créée en 1550, se trouvait également ici. Le fonds des archives communales de 1780–1887 conserve des contrats fonciers, des comptes, des documents fiscaux et des listes de métiers. Un registre fiscal de 1715 recense 32 paysans, trois petits tenanciers et un paysan exempté d’impôt ; il ne s’agissait pas d’un recensement complet de la population."
+        },
+        {
+          "id": "fact_002",
+          "title": "Une monnaie romaine de Marc Aurèle découverte dans un jardin",
+          "text": "Le 18 mai 1960, des travaux de terrassement dans le jardin de la maison no 268 ont révélé des restes humains et des monnaies romaines. Une grande monnaie de bronze a été conservée ; cinq ou six petites pièces et probablement une partie des ossements ont disparu avant l’arrivée des archéologues. La monnaie conservée a été frappée en 166 sous le règne de Marc Aurèle (161–180) et se trouve aujourd’hui dans les collections du Musée national slovaque à Bratislava. Rien ne prouve que les pièces et les restes humains provenaient de la même tombe, ni qui fut le dernier propriétaire. Il pouvait s’agir d’un Romain ou d’un membre de la tribu germanique des Quades ; cette découverte ne prouve pas la présence de soldats romains dans le village."
+        },
+        {
+          "id": "fact_003",
+          "title": "Un trésor de 678 monnaies minières et l’histoire d’un marchand de safran",
+          "text": "En 1973, des travaux pour construire un garage dans le jardin de la maison no 72 ont mis au jour un dépôt de monnaies, probablement conservées à l’origine dans un récipient en terre cuite. Il comprenait 678 monnaies de cuivre de nécessité destinées aux mineurs, frappées à Banská Štiavnica, Smolník et Košice entre 1686 et 1703. Les mineurs les utilisaient d’abord dans les magasins des mines, puis elles devinrent une monnaie courante. Le dépôt fut transféré au musée de Bojnice et se trouve aujourd’hui au Musée de la Haute Nitra à Prievidza. L’histoire communale le relie à la culture et au commerce local du safran, attestés en 1694 et 1753. L’idée qu’un riche marchand de safran ait caché les pièces reste une hypothèse historique, et non une identité établie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Une église baroque aux défenses Renaissance et aux fonts baptismaux en marbre",
+          "text": "L’église catholique romaine Saint-Philippe-et-Saint-Jacques, construite en 1737 à l’emplacement d’une ancienne chapelle de bois, domine le village. L’édifice baroque à nef unique possède un chœur polygonal, une tour en avant-corps et une façade richement structurée ; il fut réparé en 1793–1794. Un ancien mur défensif Renaissance percé de meurtrières en trou de serrure entoure l’église et donne à l’ensemble un caractère fortifié inhabituel. À l’intérieur se trouvent des fonts baptismaux néoclassiques du début du XIXe siècle ainsi que des statues et crucifix baroques plus anciens. Les fonts sont taillés dans le marbre local. Selon l’histoire communale, le marbre extrait dans le territoire du village aurait aussi servi aux colonnes de l’église piariste de Prievidza et au palais impérial de Vienne ; ce lien plus large est présenté comme une tradition historique locale."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva : botaniste et célèbre guérisseur populaire",
+          "text": "Le prêtre František (Fraňo) Madva (1786–1852) passa la majeure partie de sa vie active comme curé à Nitrianske Rudno, où il se fit connaître par la botanique, les plantes médicinales et la médecine populaire. Des patients venaient de différentes régions du royaume de Hongrie et de l’étranger ; Božena Němcová, Ľudovít Štúr et Lajos Kossuth figurent parmi ses visiteurs. Après les événements révolutionnaires de 1848 et son départ de la paroisse, il se retira à Nitrianske Sučany en 1850 et y mourut le 20 août 1852. Il est enterré au cimetière local et une plaque commémorative a été posée sur la maison où il vécut et mourut. L’Académie slovaque des sciences confirme ses travaux botaniques, ses préparations à base de plantes et son activité de guérisseur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková a préservé des dizaines de chansons de Sučany",
+          "text": "Vilma Baková (1905–1984) recueillait des chansons populaires et des dictons, préservant ainsi une part importante de la tradition orale de Nitrianske Sučany. Sur les 280 chansons du recueil de Haute Nitra Široko ďaleko, 65 ont été collectées par elle. Une étude universitaire de Stela Obertová publiée en 2024 analyse la collection laissée par Baková à son petit-fils Marián Mikula et montre comment ses chansons ont intégré le répertoire des groupes musicaux et folkloriques locaux. Le groupe folklorique Boršina, fondé en 1983, utilise des chansons et des coutumes locales lors de spectacles et de fêtes communales. Son travail n’est donc pas seulement le souvenir d’une chanteuse : il constitue une source grâce à laquelle le village renouvelle encore sa mémoire musicale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes et l’art de fabriquer la fujara",
+          "text": "Nitrianske Sučany comptait son propre fabricant d’instruments traditionnels slovaques, Dušan Hanes (1943–2018). Il fabriquait des fujaras et différents types de flûtes pastorales, qu’il décorait aussi de gravures sur métal. Il présentait ses instruments dans des foires, des manifestations folkloriques et des expositions. Sa première exposition eut lieu en 1999 au Musée de la Haute Nitra à Prievidza ; en 2010, il reçut à Detva le certificat Instrumentum Excellent. Un hommage publié dans le journal communal raconte que ses instruments furent diffusés dans de nombreuses régions de Slovaquie et à l’étranger et qu’il en jouait lui-même lors de représentations. Son histoire montre que la tradition locale ne se limitait pas à conserver les chants anciens : elle faisait aussi vivre un artisanat et la création de nouveaux instruments."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany nell’Alta Nitra: da Zuchan alla strada postale",
+          "text": "Nitrianske Sučany compare già nel 1249 in un atto reale oggi perduto con il nome Zucsan, quando passò dai possedimenti del castello di Nitra al monastero di Zobor. Gli atti del 1270–1271 riportano altre forme, tra cui Zuchan, Zuchcham, Zuchchen e Suchan. Dal XVIII secolo furono importanti la coltivazione e il commercio dello zafferano, insieme al commercio della canapa; mercanti e carrettieri trasportavano merci verso città lontane. Qui si trovava anche una stazione della strada postale da Bratislava alla Romania, istituita nel 1550. Il fondo dell’archivio comunale del 1780–1887 conserva contratti fondiari, conti, documenti fiscali ed elenchi di mestieri. Un registro fiscale del 1715 elenca 32 contadini, tre piccoli affittuari e un contadino esente da imposte; non era un censimento completo della popolazione."
+        },
+        {
+          "id": "fact_002",
+          "title": "Una moneta romana di Marco Aurelio trovata in un giardino",
+          "text": "Il 18 maggio 1960, durante lavori di scavo nel giardino della casa n. 268, furono trovati resti scheletrici umani e monete romane. Si è conservata una moneta di bronzo più grande; altre cinque o sei monete minori e probabilmente parte delle ossa andarono perdute prima che gli archeologi potessero esaminare il ritrovamento. La moneta conservata fu coniata nel 166 durante il regno dell’imperatore Marco Aurelio (161–180) e oggi è custodita nelle collezioni del Museo Nazionale Slovacco a Bratislava. Non è stato dimostrato che monete e resti umani provenissero dalla stessa tomba, né si conosce l’ultimo proprietario. Potrebbe essere stato un romano o un membro della tribù germanica dei Quadi; il ritrovamento non prova la presenza di soldati romani nel villaggio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Un tesoro di 678 monete minerarie e la storia di un mercante di zafferano",
+          "text": "Nel 1973, durante i lavori per costruire un garage nel giardino della casa n. 72, venne scoperto un deposito di monete, probabilmente conservato in origine in un recipiente di terracotta. Il tesoro comprendeva 678 monete di rame di emergenza per i minatori, coniate a Banská Štiavnica, Smolník e Košice tra il 1686 e il 1703. I minatori le usavano inizialmente nei magazzini minerari; in seguito divennero moneta corrente. Il ritrovamento fu trasferito al museo di Bojnice e oggi si trova al Museo dell’Alta Nitra di Prievidza. La storia comunale lo collega alla coltivazione e al commercio locale dello zafferano, documentati nel 1694 e nel 1753. L’ipotesi che le monete siano state nascoste da un ricco mercante di zafferano non identifica però con certezza il proprietario."
+        },
+        {
+          "id": "fact_004",
+          "title": "Una chiesa barocca con fortificazioni rinascimentali e fonte battesimale in marmo",
+          "text": "La chiesa cattolica romana dei Santi Filippo e Giacomo, costruita nel 1737 sul luogo di una precedente cappella di legno, domina il villaggio. L’edificio barocco a navata unica ha un presbiterio poligonale, una torre avanzata e una facciata riccamente articolata; fu restaurato nel 1793–1794. Attorno alla chiesa si conserva un antico muro difensivo rinascimentale con feritoie a toppa di serratura, che conferisce al complesso un carattere fortificato insolito. All’interno si trovano un fonte battesimale neoclassico dell’inizio del XIX secolo e statue e crocifissi barocchi più antichi. Il fonte è scolpito nel marmo locale. La storia comunale riferisce che il marmo del territorio fu usato anche per le colonne della chiesa dei piaristi a Prievidza e per il Palazzo Imperiale di Vienna; questo collegamento più ampio è presentato come tradizione storica locale."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva: botanico e celebre guaritore popolare",
+          "text": "Il sacerdote František (Fraňo) Madva (1786–1852) trascorse gran parte della sua vita attiva come parroco a Nitrianske Rudno, dove divenne noto per la botanica, le erbe medicinali e la medicina popolare. I pazienti arrivavano da diverse parti del Regno d’Ungheria e dall’estero; tra i suoi visitatori figuravano Božena Němcová, Ľudovít Štúr e Lajos Kossuth. Dopo gli eventi rivoluzionari del 1848 e aver lasciato la parrocchia, nel 1850 si ritirò a Nitrianske Sučany, dove morì il 20 agosto 1852. È sepolto nel cimitero locale e sulla casa in cui visse e morì fu collocata una targa commemorativa. L’Accademia Slovacca delle Scienze conferma la sua attività botanica, i preparati vegetali e la pratica di guaritore."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková salvò decine di canti di Sučany",
+          "text": "Vilma Baková (1905–1984) raccolse canti popolari e proverbi, preservando una parte importante della tradizione orale di Nitrianske Sučany. Dei 280 canti della raccolta dell’Alta Nitra Široko ďaleko, 65 furono registrati da lei. Uno studio accademico di Stela Obertová del 2024 analizza la raccolta che Baková lasciò al nipote Marián Mikula e documenta come i suoi canti siano entrati nel repertorio dei gruppi musicali e folkloristici locali. Il gruppo folkloristico Boršina, fondato nel 1983, utilizza canti e usanze locali durante spettacoli e feste comunali. Il suo lavoro non è soltanto il ricordo di una cantante: è una fonte con cui il villaggio continua a rinnovare la propria memoria musicale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes e l’arte di costruire la fujara",
+          "text": "Nitrianske Sučany aveva un proprio costruttore di strumenti musicali tradizionali slovacchi, Dušan Hanes (1943–2018). Realizzava fujare e diversi tipi di flauti pastorali, decorandoli anche con incisioni metalliche. Presentava i suoi strumenti a fiere, eventi folkloristici e mostre. La sua prima mostra si tenne nel 1999 al Museo dell’Alta Nitra di Prievidza; nel 2010 ricevette a Detva il certificato Instrumentum Excellent. Un ricordo pubblicato sul giornale comunale racconta che i suoi strumenti raggiunsero molte località in Slovacchia e all’estero e che lui stesso li suonava durante le esibizioni. La sua storia dimostra che la tradizione locale non consisteva soltanto nel conservare vecchi canti, ma anche nel mantenere vivo l’artigianato e la creazione di nuovi strumenti."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Nitrianske Sučany",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sučany in de Boven-Nitra: van Zuchan tot de postroute",
+          "text": "Nitrianske Sučany wordt al in 1249 genoemd in een inmiddels verloren koninklijke oorkonde onder de naam Zucsan, toen het dorp overging van het bezit van de burcht Nitra naar de abdij van Zobor. Oorkonden uit 1270–1271 vermelden vormen als Zuchan, Zuchcham, Zuchchen en Suchan. Vanaf de achttiende eeuw waren de teelt en handel in saffraan en de hennephandel belangrijk; kooplieden en voerlieden vervoerden goederen naar verre steden. Ook lag hier een halte aan de postroute van Bratislava naar Roemenië, die in 1550 werd ingesteld. Het gemeentearchief uit 1780–1887 bevat pachtcontracten, gemeenterekeningen, belastingstukken en lijsten van ambachtslieden. Een belastingregister uit 1715 noemt 32 boeren, drie kleine pachters en één vrijgestelde boer; het was geen volledige volkstelling."
+        },
+        {
+          "id": "fact_002",
+          "title": "Een Romeinse munt van Marcus Aurelius gevonden in een tuin",
+          "text": "Op 18 mei 1960 werden bij graafwerk in de tuin van huis nr. 268 menselijke skeletresten en Romeinse munten gevonden. Eén grotere bronzen munt bleef bewaard; vijf of zes kleinere munten en waarschijnlijk een deel van de botresten gingen verloren voordat archeologen de vondst konden onderzoeken. De bewaarde munt werd in 166 geslagen tijdens de regering van keizer Marcus Aurelius (161–180) en bevindt zich nu in de collectie van het Slowaaks Nationaal Museum in Bratislava. Het is niet bewezen dat de munten en menselijke resten uit hetzelfde graf kwamen, en de laatste eigenaar is onbekend. Dat kan een Romein of een lid van de Germaanse stam van de Quaden zijn geweest; de vondst bewijst niet dat Romeinse soldaten in het dorp aanwezig waren."
+        },
+        {
+          "id": "fact_003",
+          "title": "Een schat van 678 mijnmunten en het verhaal van een saffraankoopman",
+          "text": "In 1973 werd bij bouwwerkzaamheden voor een garage in de tuin van huis nr. 72 een muntschat gevonden, waarschijnlijk oorspronkelijk opgeborgen in een aardewerken pot. De schat bestond uit 678 koperen noodmunten voor mijnwerkers, geslagen in Banská Štiavnica, Smolník en Košice tussen 1686 en 1703. Mijnwerkers gebruikten zulke munten eerst in mijnwinkels; later werden ze gewoon betaalmiddel. De vondst ging naar het museum in Bojnice en wordt nu bewaard in het Boven-Nitra Museum in Prievidza. De gemeentegeschiedenis verbindt haar met de plaatselijke saffraanteelt en -handel, die in 1694 en 1753 zijn gedocumenteerd. Dat een rijke saffraankoopman de munten verborg, blijft echter een historische hypothese en geen bewezen identiteit van de eigenaar."
+        },
+        {
+          "id": "fact_004",
+          "title": "Een barokke kerk met renaissanceverdediging en een marmeren doopvont",
+          "text": "De rooms-katholieke kerk van Sint-Filippus en Sint-Jakobus, gebouwd in 1737 op de plaats van een oudere houten gebedskapel, domineert het dorp. Het eenbeukige barokgebouw heeft een veelhoekig koor, een vooruitspringende toren en een rijk gelede gevel; restauraties vonden plaats in 1793–1794. Rond de kerk staat een oudere renaissanceverdedigingsmuur met sleutelgatvormige schietgaten, die het complex een ongewoon verdedigbaar karakter geeft. Binnen staan een neoclassicistische doopvont uit het begin van de negentiende eeuw en oudere barokke beelden en kruisbeelden. De doopvont is uit plaatselijk marmer gehouwen. Volgens de gemeentegeschiedenis werd marmer uit het dorpsgebied ook gebruikt voor zuilen van de piaristenkerk in Prievidza en het keizerlijk paleis in Wenen; deze bredere verbinding wordt als plaatselijke historische overlevering vermeld."
+        },
+        {
+          "id": "fact_005",
+          "title": "František Madva: botanicus en beroemde volksgenezer",
+          "text": "Priester František (Fraňo) Madva (1786–1852) bracht het grootste deel van zijn actieve leven door als pastoor in Nitrianske Rudno, waar hij bekend werd om zijn plantkunde, kruidenkennis en volksgeneeskunde. Patiënten kwamen uit verschillende delen van het Koninkrijk Hongarije en uit het buitenland; onder zijn bezoekers waren Božena Němcová, Ľudovít Štúr en Lajos Kossuth. Na de revolutionaire gebeurtenissen van 1848 en zijn vertrek uit de parochie trok hij zich in 1850 terug in Nitrianske Sučany, waar hij op 20 augustus 1852 overleed. Hij ligt begraven op de plaatselijke begraafplaats en op het huis waar hij woonde en stierf werd een gedenkplaat aangebracht. De Slowaakse Academie van Wetenschappen bevestigt zijn botanische werk, plantaardige bereidingen en geneeskundige praktijk."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vilma Baková bewaarde tientallen liederen uit Sučany",
+          "text": "Vilma Baková (1905–1984) verzamelde volksliederen en gezegden en bewaarde zo een belangrijk deel van de mondelinge traditie van Nitrianske Sučany. Van de 280 liederen in de Boven-Nitra-verzameling Široko ďaleko zijn er 65 door haar vastgelegd. Een academische studie van Stela Obertová uit 2024 onderzoekt de verzameling die Baková naliet aan haar kleinzoon Marián Mikula en beschrijft hoe haar liederen terechtkwamen in het repertoire van plaatselijke muziek- en folkl groepen. De in 1983 opgerichte folkloristische groep Boršina gebruikt plaatselijke liederen en gebruiken bij optredens en dorpsfeesten. Haar werk is dus meer dan de herinnering aan één zangeres: het is een bron waarmee het dorp zijn muzikale geheugen levend houdt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dušan Hanes en de kunst van het maken van de fujara",
+          "text": "Nitrianske Sučany had met Dušan Hanes (1943–2018) een eigen maker van traditionele Slowaakse muziekinstrumenten. Hij maakte fujara’s en verschillende soorten herdersfluiten en versierde ze ook met metaalgravures. Hij presenteerde zijn instrumenten op markten, folkloristische evenementen en tentoonstellingen. Zijn eerste tentoonstelling vond plaats in 1999 in het Boven-Nitra Museum in Prievidza; in 2010 kreeg hij in Detva het certificaat Instrumentum Excellent. Een herinneringsartikel in de gemeentekrant vertelt dat zijn instrumenten op veel plaatsen in Slowakije en daarbuiten terechtkwamen en dat hij er tijdens optredens zelf op speelde. Zijn verhaal laat zien dat de plaatselijke traditie niet alleen oude liederen bewaarde, maar ook levend vakmanschap en het maken van nieuwe instrumenten omvatte."
+        }
+      ]
+    }
+  }
 }
