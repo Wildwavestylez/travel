@@ -1,4 +1,642 @@
 {
   "postcode": "01841",
-  "status": "placeholder"
+  "city": "Dubnica nad Váhom",
+  "district": null,
+  "district_type": null,
+  "county": "Ilava",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Dubnický kaštieľ a historické centrum Dubnice nad Váhom",
+  "representative_point": {
+    "lat": 48.962836,
+    "lon": 18.168733
+  },
+  "access_point": {
+    "lat": 48.962836,
+    "lon": 18.168733
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Dubnica od roku 1193: stará osada s kostelem doloženým už roku 1276",
+      "text": "Dubnica nad Váhom patří k nejstarším písemně doloženým sídlům středního Pováží. Listina hlásící se k roku 1193 uvádí Dubnici jako dědičný majetek bratrů Vratislava a Piskina. Další významný doklad pochází z 28. června 1276: při prodeji majetku je výslovně zmíněn kostel zasvěcený svatému Jakubovi apoštolovi. Takto časné písemné doložení konkrétního kostelního patrocínia je poměrně vzácné a ukazuje, že Dubnica už ve 13. století plnila úlohu místního střediska. Od roku 1439 patřila k trenčínskému hradnímu panství a později se rozvíjela jako tržní a řemeslné městečko.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.dubnica.eu/mesto/historia/",
+        "https://www.dubnica.eu/mesto/historia/dubnica-do-zaciatku-16-storocia/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_8834426d-24bf-4311-8efe-0fd4a39ef6b6"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické centrum Dubnice – náměstí sv. Jakuba",
+        "lat": 48.963,
+        "lon": 18.1695,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-renesancno-barokovy-kastiel"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Prejta: samostatná obec s dějinami od roku 1379, dnes městská část Dubnice",
+      "text": "Prejta má vlastní historickou identitu, přestože je dnes městskou částí Dubnice nad Váhom. První písemná zmínka pochází z roku 1379 pod jménem Peryche; později se objevují podoby Proytha (1409), Prerita (1439) a Przetica (1447). V roce 1447 přešla do panství Pongráců ze Svatého Mikuláše a následně byla součástí ilavského hradního panství. Po zániku sousedního Lieskovce se část jeho obyvatel přestěhovala do Prejty a Dubnice. K Dubnici byla Prejta připojena v letech 1972–1973; zachovala si vlastní katastrální území a oddělenou polohu několik kilometrů od městského centra. Je třeba ji vnímat jako samostatně se vyvíjející historickou lokalitu, nikoli jen jako městskou ulici.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.dubnica.eu/mesto/mestska-cast-prejta/",
+        "https://www.dubnica.eu/e_download.php?file=data%2Fmultipage%2Feditor%2Feditor-12-85-sk_1.pdf&original=%C5%A0tat%C3%BAt+mesta_Dubnica_nad_V%C3%A1hom_%C3%9Apln%C3%A9+znenie_2020.pdf",
+        "https://prejta.oma.sk/"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Prejta – historické jádro městské části",
+        "lat": 48.959723,
+        "lon": 18.225772,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://prejta.oma.sk/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Stopy pravěku a raných Slovanů od Kvášovce po Prejtu",
+      "text": "Území dnešní Dubnice a její městské části Prejta uchovává archeologické doklady osídlení z různých období. V poloze Kvášovec bylo objeveno sídliště a pohřebiště lužické kultury, ve Veľkém Kolačíne vícefázové sídliště a žárové pohřebiště. V lokalitě Pred Kvášovec je doloženo slovanské obydlí z mladšího, poveľkomoravského období a v Malém Kolačíně nálezy ze slovanského sídliště z 10.–11. století. Také v Prejtě byly při úpravě koryta potoka porušeny vrstvy pravěkého sídliště a středověkého osídlení; keramika zdobená nehtovými vrypy je datována do 12.–13. století. Nejde o jedinou archeologickou lokalitu, ale o soubor nálezů dokládající dlouhodobé osídlení údolí Váhu a jeho přítoků.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.dubnica.eu/mesto/historia/predhistoricke-a-ranohistoricke-osidlenie/",
+        "https://www.dubnica.eu/udalosti-v-meste/aktuality/dubnicke-muzeum-spristupnilo-vynovenu-archeologicku-expoziciu-obohatena-je-o-nove-predmety-aj-interaktivne-prvky-2516sk.html"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Dubnický kaštieľ a park: šlechtické sídlo s technicky výjimečnou oranžérií",
+      "text": "Renesančně-barokní Dubnický kaštieľ vybudoval rod Illésházyů v 17. století a v dalších generacích jej rozšiřoval. Jeho zahrada se za Jozefa Illésházyho proměnila ve francouzský park, v němž nechyběla alej, jezírko, zvěřinec, umělá jeskyně grotta a vyhlídková věž. Roku 1733 zde vznikla produkční oranžérie, která patřila k nejstarším známým zařízením tohoto typu ve střední Evropě. Měla kanálové vytápění, kachlová kamna a pohyblivou střechu; v létě bylo možné prosklenou čelní stěnu rozebrat a střechu odsunout. Pěstovaly se zde citrusy a fíky, které se podle dochovaných účtů dodávaly i na šlechtické a císařské dvory. Kaštieľ dnes hostí Dubnické muzeum a park nese jméno historika a kněze Jána Baltazára Magina.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.kastiel.dubnica.eu/page/18344/historia-muzea",
+        "https://www.kastiel.dubnica.eu/page/18863/830-rokov-historicke-udalosti",
+        "https://slovakia.travel/historicky-park-jb-magina",
+        "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-renesancno-barokovy-kastiel"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Dubnický kaštieľ – historické sídlo a muzeum",
+        "lat": 48.962836,
+        "lon": 18.168733,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-renesancno-barokovy-kastiel"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostel svatého Jakuba: středověké kořeny a barokní podoba z 18. století",
+      "text": "Římskokatolický kostel svatého Jakuba Staršího stojí na místě sakrální stavby doložené už listinou z roku 1276. Dnešní kostel získal barokní podobu v roce 1754 a jeho vybavení uchovává cenné liturgické předměty ze 17. a 18. století. Patří k nim barokní monstrance z roku 1681, ciborium z roku 1716 a rokokové relikviáře. Kostel byl obnoven v letech 1959–1961 a je zapsán v Ústředním seznamu památkového fondu SR. Jeho dějiny propojují raně středověké kořeny města s pozdější barokní přestavbou a uměleckým mecenášstvím šlechtických majitelů Dubnice.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.dubnica.eu/mesto/historia/dubnica-do-zaciatku-16-storocia/",
+        "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-kostol-sv-jakuba",
+        "https://www.dubnica.eu/mesto/zakladne-informacie/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Římskokatolický kostel sv. Jakuba Staršího",
+        "lat": 48.964493,
+        "lon": 18.170028,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-kostol-sv-jakuba"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Dubnické štrkovisko: zatopená těžební krajina, která se stala ptačím útočištěm",
+      "text": "Dubnické štrkovisko vzniklo po povrchové těžbě štěrkopísku; po ukončení těžby zůstala vodní plocha s ostrůvky, které se postupně staly významným hnízdištěm vodních ptáků. Chráněné ptačí území bylo vyhlášeno v roce 2009 na ploše 40,77 hektaru a je součástí evropské soustavy Natura 2000. Hlavním předmětem ochrany je rybák obecný (Sterna hirundo), který hnízdí na štěrkových ostrovech. Program péče označuje lokalitu za jedno z nejvýznamnějších hnízdišť tohoto druhu na Slovensku a upozorňuje, že rušení kolonií může vést ke ztrátám mláďat. Proto právní ochrana omezuje v citlivé jarní a časně letní době vstup na ostrovy i některé rekreační a rybářské aktivity.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.dubnica.eu/mesto/zakladne-informacie/",
+        "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2009/435/",
+        "https://cms.minzp.sk/oblasti/ochrana-prirody-krajiny/spravne-konania/kraj-trencin/ou-trencin/program-starostlivosti-chvu-dubnicke-strkovisko.html",
+        "https://natura2000.sopsr.sk/dubnicke-strkovisko/"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Chráněné vtáčie územie Dubnické štrkovisko – střed území",
+        "lat": 48.971191,
+        "lon": 18.148568,
+        "type": "protected_area",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/6"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Od Škodovky k ZŤS: průmyslový závod, který změnil Dubnici",
+      "text": "Výstavba strojírenského závodu v Dubnici nad Váhom začala roku 1930 a výroba se rozběhla v roce 1937 jako součást koncernu Škoda Plzeň. Závod byl navržen jako strategická zbrojní výroba ve vnitrozemí Československa a zahrnoval oddělené provozy pro výrobu děl a munice. Za druhé světové války přešel pod německou okupační správu a vyráběl zbraně, munici i další vojenské součástky pro německou armádu. V dubnu 1945 byla výroba zastavena a závod byl po bombardování a demolici téměř zničen. Poválečná obnova přinesla také civilní výrobu – například mostní konstrukce, jeřáby, bagry a obráběcí stroje. Podnik se později stal jedním z největších průmyslových zaměstnavatelů Pováží a zásadně proměnil velikost i sociální strukturu města.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://ztsspecial.sk/sk/node/164",
+        "https://www.vhu.sk/9318-sk/skodove-zavody-v-dubnici-nad-vahom-v-rokoch-1938-1945/",
+        "https://www.spsdub.sk/o-skole/historia-skoly",
+        "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Historický areál strojírenského závodu Škoda / ZŤS",
+        "lat": 48.9658,
+        "lon": 18.185,
+        "type": "industrial_site",
+        "accuracy": "approximate",
+        "source": "https://ztsspecial.sk/sk/node/164"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Ján Baltazár Magin: kněz z Dubnice a autor rané obrany Slováků v Uhrách",
+      "text": "Ján Baltazár Magin (1681/1682–1735) působil od roku 1719 až do smrti jako kněz a děkan v Dubnici nad Váhom. Jeho spis Apologia vznikl v polemické debatě o postavení Slováků v Uherském království a patří k nejstarším politickým a kulturním obranám slovenského společenství v tehdejších Uhrách. Magin reagoval na znevažující výklady slovenského jazyka a postavení obyvatel Trenčínské stolice. Jeho působení připomíná park pojmenovaný po něm a Dubnické muzeum, které uchovává příběh města i jeho významných osobností. U data narození se zdroje rozcházejí mezi roky 1681 a 1682, proto jsou uvedeny obě varianty.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_8834426d-24bf-4311-8efe-0fd4a39ef6b6",
+        "https://www.biolex.ios-regensburg.de/BioLexViewview.php?ID=1277&export=print",
+        "https://slovakia.travel/historicky-park-jb-magina"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Park Jána Baltazára Magina – Dubnica nad Váhom",
+        "lat": 48.962226,
+        "lon": 18.168632,
+        "type": "park",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-park-jana-baltazara-magina"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica nad Váhom – oficiálna adresa 018 41",
+      "url": "https://www.dubnica.eu/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Štatút mesta, katastrálne územia Dubnica a Prejta",
+      "url": "https://www.dubnica.eu/e_download.php?file=data%2Fmultipage%2Feditor%2Feditor-12-85-sk_1.pdf&original=%C5%A0tat%C3%BAt+mesta_Dubnica_nad_V%C3%A1hom_%C3%9Apln%C3%A9+znenie_2020.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Mestská časť Prejta, história a pričlenenie",
+      "url": "https://www.dubnica.eu/mesto/mestska-cast-prejta/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – História mesta",
+      "url": "https://www.dubnica.eu/mesto/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Predhistorické a ranohistorické osídlenie",
+      "url": "https://www.dubnica.eu/mesto/historia/predhistoricke-a-ranohistoricke-osidlenie/",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Dubnica do začiatku 16. storočia",
+      "url": "https://www.dubnica.eu/mesto/historia/dubnica-do-zaciatku-16-storocia/",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Informácie o Dubnici",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_8834426d-24bf-4311-8efe-0fd4a39ef6b6",
+      "type": "official"
+    },
+    {
+      "title": "Dubnický kaštieľ – História múzea a oranžérie",
+      "url": "https://www.kastiel.dubnica.eu/page/18344/historia-muzea",
+      "type": "museum"
+    },
+    {
+      "title": "Dubnický kaštieľ – Historické udalosti a oranžéria",
+      "url": "https://www.kastiel.dubnica.eu/page/18863/830-rokov-historicke-udalosti",
+      "type": "museum"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Dubnický kaštieľ, poloha",
+      "url": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-renesancno-barokovy-kastiel",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovakia.travel – Historický Park J. B. Magina",
+      "url": "https://slovakia.travel/historicky-park-jb-magina",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Prevádzkový poriadok parku J. B. Magina",
+      "url": "https://www.dubnica.eu/mesto/zakladne-informacie/prevadzkovy-poriadok-parku-jana-baltazara-magina-v-dubnici-nad-vahom/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Jakuba",
+      "url": "https://www.pamiatkynaslovensku.sk/dubnica-nad-vahom-kostol-sv-jakuba",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Dubnica – Základné informácie a Dubnické štrkovisko",
+      "url": "https://www.dubnica.eu/mesto/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "title": "Slov-Lex – Vyhláška č. 435/2009 Z. z.",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2009/435/",
+      "type": "primary"
+    },
+    {
+      "title": "MŽP SR – Program starostlivosti o CHVÚ Dubnické štrkovisko",
+      "url": "https://cms.minzp.sk/oblasti/ochrana-prirody-krajiny/spravne-konania/kraj-trencin/ou-trencin/program-starostlivosti-chvu-dubnicke-strkovisko.html",
+      "type": "official"
+    },
+    {
+      "title": "ŠOP SR – Natura 2000: Dubnické štrkovisko",
+      "url": "https://natura2000.sopsr.sk/dubnicke-strkovisko/",
+      "type": "official"
+    },
+    {
+      "title": "ZTS – ŠPECIÁL – História závodu v Dubnici",
+      "url": "https://ztsspecial.sk/sk/node/164",
+      "type": "official"
+    },
+    {
+      "title": "Vojenský historický ústav – Škodove závody 1938–1945",
+      "url": "https://www.vhu.sk/9318-sk/skodove-zavody-v-dubnici-nad-vahom-v-rokoch-1938-1945/",
+      "type": "museum"
+    },
+    {
+      "title": "Stredná priemyselná škola Dubnica – História školy a priemyselného závodu",
+      "url": "https://www.spsdub.sk/o-skole/historia-skoly",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Dubnica – Škoda Dubnica kedysi a dnes",
+      "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/skoda-dubnica-kedysi-a-dnes-276sk.html",
+      "type": "official"
+    },
+    {
+      "title": "BioLex – Ján Baltazár Magin, biografické heslo",
+      "url": "https://www.biolex.ios-regensburg.de/BioLexViewview.php?ID=1277&export=print",
+      "type": "university"
+    },
+    {
+      "title": "OpenStreetMap/Freemap – Prejta, poloha sídla",
+      "url": "https://prejta.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Dubnické múzeum – Archeologická expozícia a nálezy",
+      "url": "https://www.dubnica.eu/udalosti-v-meste/aktuality/dubnicke-muzeum-spristupnilo-vynovenu-archeologicku-expoziciu-obohatena-je-o-nove-predmety-aj-interaktivne-prvky-2516sk.html",
+      "type": "museum"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ bylo ověřeno jako primární nástroj. Konkrétní kód 018 41 je doložen oficiální adresou městského úřadu Dubnica nad Váhom, Bratislavská 434/9, 018 41, a nezávislými adresními doklady pro Prejtu: oficiální městské adresy Prejta 018 41 a městské dokumenty s adresami v katastru Prejta. Tyto doklady potvrzují PSČ pro Dubnicu nad Váhom i Prejtu. Přesná polygonální hranice doručovací oblasti není tvrzena.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; oficiální adresa městského úřadu; oficiální městské adresní doklady Prejty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-22",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 018 41 je doloženo pro Dubnicu nad Váhom i její městskou část Prejta. Město má dvě katastrální území – Dubnica nad Váhom a Prejta; Prejta byla připojena v roce 1973 a zachovala si vlastní katastr. Nezaměňovat s Novou Dubnicou, která má samostatné PSČ 018 51. Přesná polygonální hranice doručovací oblasti není tvrzena.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Město Dubnica nad Váhom a oficiální statut města pro katastrální území a městskou část; Ústřední portál veřejné správy pro okres a kraj; Slov-Lex a ŠOP SR pro chráněné území; specializované památkové a mapové zdroje pro polohu objektů."
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Dubnický kaštieľ a historické centrum Dubnice nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica od roku 1193: stará osada s kostelem doloženým už roku 1276",
+          "text": "Dubnica nad Váhom patří k nejstarším písemně doloženým sídlům středního Pováží. Listina hlásící se k roku 1193 uvádí Dubnici jako dědičný majetek bratrů Vratislava a Piskina. Další významný doklad pochází z 28. června 1276: při prodeji majetku je výslovně zmíněn kostel zasvěcený svatému Jakubovi apoštolovi. Takto časné písemné doložení konkrétního kostelního patrocínia je poměrně vzácné a ukazuje, že Dubnica už ve 13. století plnila úlohu místního střediska. Od roku 1439 patřila k trenčínskému hradnímu panství a později se rozvíjela jako tržní a řemeslné městečko."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: samostatná obec s dějinami od roku 1379, dnes městská část Dubnice",
+          "text": "Prejta má vlastní historickou identitu, přestože je dnes městskou částí Dubnice nad Váhom. První písemná zmínka pochází z roku 1379 pod jménem Peryche; později se objevují podoby Proytha (1409), Prerita (1439) a Przetica (1447). V roce 1447 přešla do panství Pongráců ze Svatého Mikuláše a následně byla součástí ilavského hradního panství. Po zániku sousedního Lieskovce se část jeho obyvatel přestěhovala do Prejty a Dubnice. K Dubnici byla Prejta připojena v letech 1972–1973; zachovala si vlastní katastrální území a oddělenou polohu několik kilometrů od městského centra. Je třeba ji vnímat jako samostatně se vyvíjející historickou lokalitu, nikoli jen jako městskou ulici."
+        },
+        {
+          "id": "fact_003",
+          "title": "Stopy pravěku a raných Slovanů od Kvášovce po Prejtu",
+          "text": "Území dnešní Dubnice a její městské části Prejta uchovává archeologické doklady osídlení z různých období. V poloze Kvášovec bylo objeveno sídliště a pohřebiště lužické kultury, ve Veľkém Kolačíne vícefázové sídliště a žárové pohřebiště. V lokalitě Pred Kvášovec je doloženo slovanské obydlí z mladšího, poveľkomoravského období a v Malém Kolačíně nálezy ze slovanského sídliště z 10.–11. století. Také v Prejtě byly při úpravě koryta potoka porušeny vrstvy pravěkého sídliště a středověkého osídlení; keramika zdobená nehtovými vrypy je datována do 12.–13. století. Nejde o jedinou archeologickou lokalitu, ale o soubor nálezů dokládající dlouhodobé osídlení údolí Váhu a jeho přítoků."
+        },
+        {
+          "id": "fact_004",
+          "title": "Dubnický kaštieľ a park: šlechtické sídlo s technicky výjimečnou oranžérií",
+          "text": "Renesančně-barokní Dubnický kaštieľ vybudoval rod Illésházyů v 17. století a v dalších generacích jej rozšiřoval. Jeho zahrada se za Jozefa Illésházyho proměnila ve francouzský park, v němž nechyběla alej, jezírko, zvěřinec, umělá jeskyně grotta a vyhlídková věž. Roku 1733 zde vznikla produkční oranžérie, která patřila k nejstarším známým zařízením tohoto typu ve střední Evropě. Měla kanálové vytápění, kachlová kamna a pohyblivou střechu; v létě bylo možné prosklenou čelní stěnu rozebrat a střechu odsunout. Pěstovaly se zde citrusy a fíky, které se podle dochovaných účtů dodávaly i na šlechtické a císařské dvory. Kaštieľ dnes hostí Dubnické muzeum a park nese jméno historika a kněze Jána Baltazára Magina."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostel svatého Jakuba: středověké kořeny a barokní podoba z 18. století",
+          "text": "Římskokatolický kostel svatého Jakuba Staršího stojí na místě sakrální stavby doložené už listinou z roku 1276. Dnešní kostel získal barokní podobu v roce 1754 a jeho vybavení uchovává cenné liturgické předměty ze 17. a 18. století. Patří k nim barokní monstrance z roku 1681, ciborium z roku 1716 a rokokové relikviáře. Kostel byl obnoven v letech 1959–1961 a je zapsán v Ústředním seznamu památkového fondu SR. Jeho dějiny propojují raně středověké kořeny města s pozdější barokní přestavbou a uměleckým mecenášstvím šlechtických majitelů Dubnice."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: zatopená těžební krajina, která se stala ptačím útočištěm",
+          "text": "Dubnické štrkovisko vzniklo po povrchové těžbě štěrkopísku; po ukončení těžby zůstala vodní plocha s ostrůvky, které se postupně staly významným hnízdištěm vodních ptáků. Chráněné ptačí území bylo vyhlášeno v roce 2009 na ploše 40,77 hektaru a je součástí evropské soustavy Natura 2000. Hlavním předmětem ochrany je rybák obecný (Sterna hirundo), který hnízdí na štěrkových ostrovech. Program péče označuje lokalitu za jedno z nejvýznamnějších hnízdišť tohoto druhu na Slovensku a upozorňuje, že rušení kolonií může vést ke ztrátám mláďat. Proto právní ochrana omezuje v citlivé jarní a časně letní době vstup na ostrovy i některé rekreační a rybářské aktivity."
+        },
+        {
+          "id": "fact_007",
+          "title": "Od Škodovky k ZŤS: průmyslový závod, který změnil Dubnici",
+          "text": "Výstavba strojírenského závodu v Dubnici nad Váhom začala roku 1930 a výroba se rozběhla v roce 1937 jako součást koncernu Škoda Plzeň. Závod byl navržen jako strategická zbrojní výroba ve vnitrozemí Československa a zahrnoval oddělené provozy pro výrobu děl a munice. Za druhé světové války přešel pod německou okupační správu a vyráběl zbraně, munici i další vojenské součástky pro německou armádu. V dubnu 1945 byla výroba zastavena a závod byl po bombardování a demolici téměř zničen. Poválečná obnova přinesla také civilní výrobu – například mostní konstrukce, jeřáby, bagry a obráběcí stroje. Podnik se později stal jedním z největších průmyslových zaměstnavatelů Pováží a zásadně proměnil velikost i sociální strukturu města."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: kněz z Dubnice a autor rané obrany Slováků v Uhrách",
+          "text": "Ján Baltazár Magin (1681/1682–1735) působil od roku 1719 až do smrti jako kněz a děkan v Dubnici nad Váhom. Jeho spis Apologia vznikl v polemické debatě o postavení Slováků v Uherském království a patří k nejstarším politickým a kulturním obranám slovenského společenství v tehdejších Uhrách. Magin reagoval na znevažující výklady slovenského jazyka a postavení obyvatel Trenčínské stolice. Jeho působení připomíná park pojmenovaný po něm a Dubnické muzeum, které uchovává příběh města i jeho významných osobností. U data narození se zdroje rozcházejí mezi roky 1681 a 1682, proto jsou uvedeny obě varianty."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Schloss Dubnica und das historische Zentrum von Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica seit 1193: eine alte Siedlung mit einer bereits 1276 belegten Kirche",
+          "text": "Dubnica nad Váhom gehört zu den frühesten schriftlich belegten Siedlungen des mittleren Waagtals. Eine Urkunde von 1193 nennt den Ort als Erbbesitz der Brüder Vratislav und Piskin. Ein Dokument vom 28. Juni 1276 erwähnt ausdrücklich eine dem Apostel Jakobus geweihte Kirche. Eine so frühe Nennung des Kirchenpatroziniums ist selten und zeigt, dass Dubnica schon im 13. Jahrhundert ein lokales Zentrum war. Ab 1439 gehörte der Ort zur Herrschaft der Burg Trenčín und entwickelte sich später zu einem Markt- und Handwerkerstädtchen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: eine eigenständige Gemeinde seit 1379, heute ein Stadtteil von Dubnica",
+          "text": "Prejta besitzt eine eigene historische Identität. Die erste schriftliche Erwähnung stammt von 1379 als Peryche; später erscheinen Proytha (1409), Prerita (1439) und Przetica (1447). 1447 kam der Ort zur Herrschaft der Familie Pongrác und später zur Herrschaft der Burg Ilava. Nach dem Ende der Nachbargemeinde Lieskovec zogen Einwohner nach Prejta und Dubnica. 1972–1973 wurde Prejta Dubnica angegliedert, behielt aber ein eigenes Katastergebiet und liegt mehrere Kilometer vom Stadtzentrum entfernt."
+        },
+        {
+          "id": "fact_003",
+          "title": "Spuren der Vorgeschichte und der frühen Slawen von Kvášovec bis Prejta",
+          "text": "Das Gebiet von Dubnica und Prejta bewahrt archäologische Zeugnisse verschiedener Epochen. In Kvášovec wurden eine Siedlung und ein Gräberfeld der Lausitzer Kultur entdeckt, in Veľký Kolačín eine mehrphasige Siedlung und ein Brandgräberfeld. Bei Pred Kvášovec ist ein slawisches Wohnhaus aus nachgroßmährischer Zeit belegt; Malý Kolačín lieferte Funde aus dem 10. und 11. Jahrhundert. In Prejta wurden ebenfalls vorgeschichtliche und mittelalterliche Schichten angeschnitten; Keramik mit Fingernageleindrücken wird ins 12.–13. Jahrhundert datiert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Schloss Dubnica und Park: ein Adelssitz mit außergewöhnlicher Orangerie",
+          "text": "Das Renaissance-Barock-Schloss wurde im 17. Jahrhundert von der Familie Illésházy errichtet. Unter Jozef Illésházy entstand ein französischer Park mit Alleen, Teich, Tiergarten, künstlicher Grotte und Aussichtsturm. 1733 wurde eine Produktionsorangerie angelegt, eine der ältesten bekannten Anlagen dieser Art in Mitteleuropa. Sie hatte Kanalheizung, Kachelöfen und ein bewegliches Dach. Hier wurden Zitrusfrüchte und Feigen angebaut, die auch an Adels- und Kaiserhöfe geliefert wurden. Heute beherbergt das Schloss das Stadtmuseum; der Park trägt den Namen Ján Baltazár Magins."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die St.-Jakobus-Kirche: mittelalterliche Wurzeln und barocke Gestalt",
+          "text": "Die römisch-katholische Kirche des heiligen Jakobus steht an der Stelle eines bereits 1276 erwähnten Sakralbaus. Die heutige Kirche erhielt 1754 ihre barocke Gestalt. Ihre Ausstattung umfasst eine Monstranz von 1681, ein Ziborium von 1716 und Rokoko-Reliquiare. Nach einer Restaurierung 1959–1961 wurde sie in die zentrale Denkmalliste der Slowakei eingetragen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: eine Kiesgrube, die zum Vogelschutzgebiet wurde",
+          "text": "Dubnické štrkovisko entstand durch Kies- und Sandabbau. Nach dem Ende der Förderung blieb ein Gewässer mit Inseln zurück, das zu einem wichtigen Brutgebiet für Wasservögel wurde. Das 40,77 Hektar große Vogelschutzgebiet wurde 2009 ausgewiesen und gehört zu Natura 2000. Hauptschutzgegenstand ist die Flussseeschwalbe (Sterna hirundo). Der Schutzplan warnt vor Störungen der Brutkolonien; deshalb ist der Zugang zu den Inseln und manche Freizeit- und Fischereiaktivitäten im Frühjahr und Frühsommer eingeschränkt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Von Škoda zu ZŤS: ein Industriebetrieb, der Dubnica veränderte",
+          "text": "Der Bau des Maschinenbauwerks begann 1930; die Produktion startete 1937 als Teil des Škoda-Konzerns aus Pilsen. Das Werk war ein strategischer Rüstungsbetrieb mit getrennten Anlagen für Geschütze und Munition. Im Zweiten Weltkrieg stand es unter deutscher Besatzungsverwaltung und produzierte Waffen und militärische Komponenten. Im April 1945 wurde die Produktion eingestellt; nach Bombardierung und Zerstörung war das Werk nahezu vernichtet. Beim Wiederaufbau begann auch zivile Fertigung von Brücken, Kränen, Baggern und Werkzeugmaschinen. Später wurde das Werk zu einem großen Arbeitgeber der Region."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: Geistlicher in Dubnica und früher Verteidiger der Slowaken in Ungarn",
+          "text": "Ján Baltazár Magin (1681/1682–1735) wirkte ab 1719 bis zu seinem Tod als Priester und Dekan in Dubnica. Seine Schrift Apologia entstand in einer Kontroverse über die Stellung der Slowaken im Königreich Ungarn und gehört zu den frühen politischen und kulturellen Verteidigungsschriften der slowakischen Gemeinschaft. Magin widersprach abwertenden Darstellungen der slowakischen Sprache und der Bevölkerung des Komitats Trenčín. Der nach ihm benannte Park und das Stadtmuseum bewahren seine Erinnerung. Die Quellen nennen als Geburtsjahr 1681 oder 1682."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Dubnica Castle and the historic centre of Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica since 1193: an old settlement with a church documented in 1276",
+          "text": "Dubnica nad Váhom is among the earliest settlements in the middle Váh valley to appear in written records. A charter dating to 1193 names it as hereditary property of the brothers Vratislav and Piskin. A document of 28 June 1276 explicitly mentions a church dedicated to St James. Such an early record of a church dedication is unusual and shows that Dubnica was already a local centre in the thirteenth century. From 1439 it belonged to the estate of Trenčín Castle and later developed as a market and craft town."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: an independent village since 1379, now part of Dubnica",
+          "text": "Prejta retains a distinct historical identity. Its first written mention dates to 1379 as Peryche; later forms include Proytha (1409), Prerita (1439) and Przetica (1447). In 1447 it passed to the Pongrác estate and later belonged to Ilava Castle. After neighbouring Lieskovec disappeared, some residents moved to Prejta and Dubnica. Prejta was incorporated into Dubnica in 1972–1973 but retained its own cadastral territory and lies several kilometres from the city centre."
+        },
+        {
+          "id": "fact_003",
+          "title": "Traces of prehistoric settlement and early Slavs from Kvášovec to Prejta",
+          "text": "Dubnica and Prejta preserve archaeological evidence from several periods. Kvášovec yielded a settlement and burial ground of the Lusatian culture; Veľký Kolačín a multi-phase settlement and cremation cemetery. A post-Great Moravian Slavic dwelling is documented at Pred Kvášovec, while Malý Kolačín yielded tenth- and eleventh-century finds. In Prejta, prehistoric and medieval layers were also exposed; pottery decorated with fingernail impressions dates to the twelfth and thirteenth centuries."
+        },
+        {
+          "id": "fact_004",
+          "title": "Dubnica Castle and park: an aristocratic residence with a remarkable orangery",
+          "text": "The Renaissance-Baroque castle was built by the Illésházy family in the seventeenth century. Jozef Illésházy transformed its garden into a French-style park with avenues, a pond, menagerie, artificial grotto and lookout tower. In 1733 a productive orangery was established, among the oldest known in Central Europe. It had channel heating, tiled stoves and a movable roof. Citrus fruit and figs grown there were supplied to aristocratic and imperial courts. The castle now houses the town museum; the park is named after Ján Baltazár Magin."
+        },
+        {
+          "id": "fact_005",
+          "title": "St James’s Church: medieval origins and a Baroque appearance",
+          "text": "The Roman Catholic Church of St James stands on the site of a religious building mentioned in 1276. The present church acquired its Baroque appearance in 1754. Its furnishings include a monstrance from 1681, a ciborium from 1716 and Rococo reliquaries. Restored in 1959–1961, it is listed in Slovakia’s Central Register of Monuments."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: a gravel pit transformed into a bird sanctuary",
+          "text": "Dubnické štrkovisko was created by gravel and sand extraction. After mining stopped, a body of water with islands remained and became an important nesting site for waterbirds. The 40.77-hectare bird protection area was designated in 2009 and is part of Natura 2000. Its main protected species is the common tern (Sterna hirundo). The management plan warns that disturbing nesting colonies can cause chick losses, so access to islands and some recreational and fishing activities are restricted in spring and early summer."
+        },
+        {
+          "id": "fact_007",
+          "title": "From Škoda to ZŤS: the industrial plant that transformed Dubnica",
+          "text": "Construction of the engineering works began in 1930 and production started in 1937 as part of the Škoda concern in Plzeň. It was a strategic arms plant with separate artillery and ammunition operations. During the Second World War it came under German occupation administration and produced weapons and military components. Production stopped in April 1945; bombing and demolition almost completely destroyed the works. Post-war reconstruction also brought civilian products such as bridges, cranes, excavators and machine tools. The enterprise later became a major regional employer."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: a priest in Dubnica and an early defender of Slovaks in Hungary",
+          "text": "Ján Baltazár Magin (1681/1682–1735) served as priest and dean in Dubnica from 1719 until his death. His work Apologia emerged from a controversy over the position of Slovaks in the Kingdom of Hungary and is among the early political and cultural defences of the Slovak community. Magin answered disparaging accounts of the Slovak language and people of Trenčín County. The park named after him and the town museum preserve his memory. Sources differ on his birth year, giving 1681 or 1682."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Castillo de Dubnica y centro histórico de Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica desde 1193: un antiguo asentamiento con iglesia documentada en 1276",
+          "text": "Dubnica nad Váhom figura entre los asentamientos del valle medio del Váh mencionados tempranamente por escrito. Un documento de 1193 la cita como propiedad hereditaria de los hermanos Vratislav y Piskin. Otro, del 28 de junio de 1276, menciona una iglesia dedicada al apóstol Santiago. Esta referencia temprana es poco común y muestra que Dubnica ya era un centro local en el siglo XIII. Desde 1439 perteneció al señorío del castillo de Trenčín y después se desarrolló como pequeña ciudad de mercado y artesanía."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: localidad independiente desde 1379, hoy parte de Dubnica",
+          "text": "Prejta conserva una identidad histórica propia. Su primera mención escrita data de 1379 como Peryche; después aparecen Proytha (1409), Prerita (1439) y Przetica (1447). En 1447 pasó al señorío de los Pongrác y más tarde al dominio del castillo de Ilava. Tras desaparecer la vecina Lieskovec, algunos habitantes se trasladaron a Prejta y Dubnica. Prejta se incorporó a Dubnica en 1972–1973, pero conservó su propio territorio catastral y se encuentra a varios kilómetros del centro."
+        },
+        {
+          "id": "fact_003",
+          "title": "Huellas prehistóricas y de los primeros eslavos entre Kvášovec y Prejta",
+          "text": "Dubnica y Prejta conservan testimonios arqueológicos de varias épocas. En Kvášovec se descubrieron un asentamiento y una necrópolis de la cultura lusaciana; en Veľký Kolačín, un asentamiento de varias fases y un cementerio de incineración. En Pred Kvášovec se documentó una vivienda eslava posterior a la Gran Moravia y Malý Kolačín aportó hallazgos de los siglos X–XI. En Prejta también aparecieron capas prehistóricas y medievales; la cerámica con impresiones de uñas se fecha en los siglos XII–XIII."
+        },
+        {
+          "id": "fact_004",
+          "title": "El castillo de Dubnica y su parque: residencia aristocrática con una orangery excepcional",
+          "text": "El castillo renacentista-barroco fue construido por los Illésházy en el siglo XVII. Jozef Illésházy transformó el jardín en un parque francés con avenidas, estanque, pequeño zoológico, gruta y torre mirador. En 1733 se creó una orangery productiva, una de las más antiguas conocidas en Europa Central. Tenía calefacción por canales, estufas y techo móvil. Allí se cultivaban cítricos e higos que se enviaban a cortes aristocráticas e imperiales. Hoy alberga el museo municipal y el parque lleva el nombre de Ján Baltazár Magin."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia de Santiago: raíces medievales y aspecto barroco",
+          "text": "La iglesia católica de Santiago se levanta donde ya se documentaba un edificio religioso en 1276. El templo actual adquirió su aspecto barroco en 1754. Conserva una custodia de 1681, un copón de 1716 y relicarios rococó. Fue restaurado entre 1959 y 1961 y está inscrito en el registro central de monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: una gravera convertida en refugio de aves",
+          "text": "Dubnické štrkovisko surgió de la extracción de grava y arena. Al cesar la explotación quedó una laguna con islotes que se convirtió en lugar de nidificación de aves acuáticas. El espacio protegido, de 40,77 hectáreas, fue declarado en 2009 y forma parte de Natura 2000. Protege especialmente al charrán común (Sterna hirundo). Para evitar molestias a las colonias y pérdidas de polluelos, se restringen el acceso a los islotes y algunas actividades recreativas y pesqueras durante la primavera y el comienzo del verano."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Škoda a ZŤS: la fábrica que transformó Dubnica",
+          "text": "La construcción de la fábrica comenzó en 1930 y la producción en 1937 como parte del grupo Škoda de Plzeň. Era una instalación estratégica de armamento con líneas para artillería y munición. Durante la Segunda Guerra Mundial pasó a la administración alemana y produjo armas y componentes militares. La producción se detuvo en abril de 1945 y los bombardeos y demoliciones destruyeron casi toda la fábrica. La reconstrucción incorporó productos civiles como puentes, grúas, excavadoras y máquinas herramienta. Más tarde se convirtió en un gran empleador regional."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: sacerdote de Dubnica y defensor temprano de los eslovacos en Hungría",
+          "text": "Ján Baltazár Magin (1681/1682–1735) fue sacerdote y decano en Dubnica desde 1719 hasta su muerte. Su obra Apologia nació de una controversia sobre la posición de los eslovacos en el Reino de Hungría y figura entre las primeras defensas políticas y culturales de la comunidad eslovaca. Magin respondió a las descripciones despectivas de la lengua eslovaca y de los habitantes del condado de Trenčín. El parque que lleva su nombre y el museo municipal conservan su memoria. Las fuentes discrepan sobre su año de nacimiento: 1681 o 1682."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Château de Dubnica et centre historique de Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica depuis 1193 : un ancien établissement dont l’église est attestée en 1276",
+          "text": "Dubnica nad Váhom figure parmi les localités de la moyenne vallée du Váh mentionnées très tôt par écrit. Un acte daté de 1193 la cite comme propriété héréditaire des frères Vratislav et Piskin. Un document du 28 juin 1276 mentionne explicitement une église dédiée à saint Jacques. Une telle mention ancienne est rare et montre que Dubnica était déjà un centre local au XIIIe siècle. À partir de 1439, la localité dépendit du domaine du château de Trenčín et se développa ensuite comme petite ville de marché et d’artisanat."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta : une commune indépendante depuis 1379, aujourd’hui quartier de Dubnica",
+          "text": "Prejta conserve une identité historique propre. Sa première mention écrite date de 1379 sous le nom Peryche ; on trouve ensuite Proytha (1409), Prerita (1439) et Przetica (1447). En 1447, le village passa au domaine des Pongrác, puis à celui du château d’Ilava. Après la disparition de Lieskovec, des habitants s’installèrent à Prejta et Dubnica. Prejta fut rattachée à Dubnica en 1972–1973, mais conserva son territoire cadastral et se trouve à plusieurs kilomètres du centre-ville."
+        },
+        {
+          "id": "fact_003",
+          "title": "Traces de la préhistoire et des premiers Slaves de Kvášovec à Prejta",
+          "text": "Dubnica et Prejta conservent des témoignages archéologiques de plusieurs périodes. À Kvášovec furent découverts un habitat et une nécropole de la culture lusacienne ; à Veľký Kolačín, un habitat à plusieurs phases et une nécropole à incinération. À Pred Kvášovec est attesté un habitat slave postérieur à la Grande-Moravie ; Malý Kolačín a livré des vestiges des Xe–XIe siècles. À Prejta, des couches préhistoriques et médiévales ont également été mises au jour ; les céramiques à empreintes d’ongles datent des XIIe–XIIIe siècles."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le château de Dubnica et son parc : une résidence aristocratique avec une orangerie remarquable",
+          "text": "Le château Renaissance-baroque fut construit par la famille Illésházy au XVIIe siècle. Jozef Illésházy transforma le jardin en parc à la française avec allées, bassin, ménagerie, grotte et tour-belvédère. En 1733 fut aménagée une orangerie de production, parmi les plus anciennes connues en Europe centrale. Elle possédait chauffage par conduits, poêles en faïence et toit mobile. On y cultivait agrumes et figues destinés aussi aux cours aristocratiques et impériales. Le château abrite aujourd’hui le musée municipal et le parc porte le nom de Ján Baltazár Magin."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église Saint-Jacques : des origines médiévales et une silhouette baroque",
+          "text": "L’église catholique Saint-Jacques se dresse à l’emplacement d’un édifice religieux attesté en 1276. L’église actuelle a reçu son aspect baroque en 1754. Elle conserve un ostensoir de 1681, un ciboire de 1716 et des reliquaires rococo. Restaurée entre 1959 et 1961, elle figure au registre central des monuments de Slovaquie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko : une gravière devenue refuge pour les oiseaux",
+          "text": "Dubnické štrkovisko est né de l’extraction de graviers et de sable. Après l’arrêt de l’exploitation, un plan d’eau avec des îlots est devenu un site de nidification pour les oiseaux aquatiques. La zone protégée de 40,77 hectares a été créée en 2009 et fait partie de Natura 2000. Elle protège notamment la sterne pierregarin (Sterna hirundo). Pour éviter de déranger les colonies et de perdre des poussins, l’accès aux îlots et certaines activités de loisirs et de pêche sont limités au printemps et au début de l’été."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Škoda à ZŤS : l’usine qui a transformé Dubnica",
+          "text": "La construction de l’usine mécanique commença en 1930 et la production en 1937 au sein du groupe Škoda de Plzeň. L’établissement était destiné à la production stratégique d’armement, avec des ateliers pour l’artillerie et les munitions. Pendant la Seconde Guerre mondiale, il passa sous administration allemande et fabriqua des armes et composants militaires. La production s’arrêta en avril 1945 ; les bombardements et les démolitions détruisirent presque entièrement l’usine. La reconstruction d’après-guerre développa aussi des produits civils comme ponts, grues, excavatrices et machines-outils. L’entreprise devint ensuite un grand employeur régional."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin : prêtre à Dubnica et défenseur précoce des Slovaques en Hongrie",
+          "text": "Ján Baltazár Magin (1681/1682–1735) fut prêtre et doyen à Dubnica de 1719 jusqu’à sa mort. Son ouvrage Apologia naquit d’une controverse sur la place des Slovaques dans le royaume de Hongrie et compte parmi les premières défenses politiques et culturelles de la communauté slovaque. Magin répondait aux présentations dépréciatives de la langue slovaque et des habitants du comitat de Trenčín. Le parc qui porte son nom et le musée municipal entretiennent sa mémoire. Les sources divergent sur son année de naissance : 1681 ou 1682."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Castello di Dubnica e centro storico di Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica dal 1193: antico insediamento con una chiesa attestata nel 1276",
+          "text": "Dubnica nad Váhom è tra gli insediamenti della valle centrale del Váh documentati per iscritto fin da epoca antica. Un atto del 1193 cita il luogo come proprietà ereditaria dei fratelli Vratislav e Piskin. Un documento del 28 giugno 1276 menziona una chiesa dedicata a san Giacomo. Una testimonianza così antica è rara e mostra che Dubnica era già un centro locale nel XIII secolo. Dal 1439 appartenne alla signoria del castello di Trenčín e in seguito si sviluppò come cittadina di mercato e artigianato."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: comune autonomo dal 1379, oggi quartiere di Dubnica",
+          "text": "Prejta conserva una propria identità storica. La prima menzione scritta risale al 1379 come Peryche; in seguito compaiono Proytha (1409), Prerita (1439) e Przetica (1447). Nel 1447 passò alla signoria dei Pongrác e poi al dominio del castello di Ilava. Dopo la scomparsa del vicino comune di Lieskovec, alcuni abitanti si trasferirono a Prejta e Dubnica. Prejta fu incorporata a Dubnica nel 1972–1973, ma mantenne il proprio territorio catastale e una posizione separata a diversi chilometri dal centro."
+        },
+        {
+          "id": "fact_003",
+          "title": "Tracce della preistoria e dei primi Slavi da Kvášovec a Prejta",
+          "text": "Dubnica e Prejta conservano testimonianze archeologiche di varie epoche. A Kvášovec sono stati scoperti un insediamento e una necropoli della cultura lusaziana; a Veľký Kolačín un insediamento plurifase e una necropoli a cremazione. A Pred Kvášovec è documentata un’abitazione slava posteriore alla Grande Moravia; Malý Kolačín ha restituito reperti dei secoli X–XI. A Prejta sono emersi anche strati preistorici e medievali; le ceramiche con impronte di unghie risalgono ai secoli XII–XIII."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il castello di Dubnica e il parco: residenza aristocratica con un’orangerie eccezionale",
+          "text": "Il castello rinascimentale-barocco fu costruito dagli Illésházy nel XVII secolo. Jozef Illésházy trasformò il giardino in un parco alla francese con viali, laghetto, serraglio, grotta artificiale e torre panoramica. Nel 1733 fu realizzata un’orangerie produttiva, tra le più antiche note nell’Europa centrale. Aveva riscaldamento a canali, stufe in maiolica e tetto mobile. Vi si coltivavano agrumi e fichi destinati anche alle corti aristocratiche e imperiali. Oggi il castello ospita il museo civico e il parco porta il nome di Ján Baltazár Magin."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa di San Giacomo: origini medievali e aspetto barocco",
+          "text": "La chiesa cattolica di San Giacomo sorge sul luogo di un edificio religioso attestato nel 1276. L’edificio attuale assunse l’aspetto barocco nel 1754. Conserva un ostensorio del 1681, un ciborio del 1716 e reliquiari rococò. Restaurata tra il 1959 e il 1961, è iscritta nel registro centrale dei monumenti slovacchi."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: una cava di ghiaia divenuta rifugio per gli uccelli",
+          "text": "Dubnické štrkovisko nacque dall’estrazione di ghiaia e sabbia. Dopo la fine dei lavori rimase uno specchio d’acqua con isolotti, divenuto un importante sito di nidificazione degli uccelli acquatici. L’area protetta di 40,77 ettari fu istituita nel 2009 e fa parte di Natura 2000. Protegge soprattutto la sterna comune (Sterna hirundo). Per evitare disturbi alle colonie e la perdita dei pulcini, l’accesso agli isolotti e alcune attività ricreative e di pesca sono limitati in primavera e all’inizio dell’estate."
+        },
+        {
+          "id": "fact_007",
+          "title": "Da Škoda a ZŤS: lo stabilimento che trasformò Dubnica",
+          "text": "La costruzione dello stabilimento meccanico iniziò nel 1930 e la produzione nel 1937 come parte del gruppo Škoda di Plzeň. Era un impianto strategico per armamenti, con reparti per artiglieria e munizioni. Durante la Seconda guerra mondiale passò sotto l’amministrazione tedesca e produsse armi e componenti militari. La produzione si fermò nell’aprile 1945 e bombardamenti e demolizioni distrussero quasi tutto lo stabilimento. La ricostruzione introdusse anche prodotti civili, tra cui ponti, gru, escavatori e macchine utensili. In seguito l’impresa divenne un grande datore di lavoro regionale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: sacerdote a Dubnica e precoce difensore degli Slovacchi in Ungheria",
+          "text": "Ján Baltazár Magin (1681/1682–1735) fu sacerdote e decano a Dubnica dal 1719 fino alla morte. La sua opera Apologia nacque da una controversia sulla posizione degli Slovacchi nel Regno d’Ungheria e figura tra le prime difese politiche e culturali della comunità slovacca. Magin rispose alle descrizioni denigratorie della lingua slovacca e degli abitanti della contea di Trenčín. Il parco a lui dedicato e il museo civico ne conservano la memoria. Le fonti indicano due possibili anni di nascita: 1681 o 1682."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Kasteel van Dubnica en het historische centrum van Dubnica nad Váhom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dubnica sinds 1193: een oude nederzetting met een kerk vermeld in 1276",
+          "text": "Dubnica nad Váhom behoort tot de vroegst schriftelijk vermelde nederzettingen in het middelste Váh-dal. Een oorkonde uit 1193 noemt Dubnica als erfelijk bezit van de broers Vratislav en Piskin. Een document van 28 juni 1276 vermeldt uitdrukkelijk een aan de apostel Jakobus gewijde kerk. Zo’n vroege vermelding is bijzonder en toont dat Dubnica in de dertiende eeuw al een plaatselijk centrum was. Vanaf 1439 hoorde de plaats bij het domein van kasteel Trenčín en later groeide zij uit tot een markt- en ambachtsstadje."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prejta: een zelfstandige gemeente sinds 1379, nu een stadsdeel van Dubnica",
+          "text": "Prejta heeft een eigen historische identiteit. De eerste schriftelijke vermelding dateert uit 1379 als Peryche; later komen Proytha (1409), Prerita (1439) en Przetica (1447) voor. In 1447 kwam de plaats bij het domein van de familie Pongrác en later bij kasteel Ilava. Na het verdwijnen van het naburige Lieskovec verhuisden inwoners naar Prejta en Dubnica. Prejta werd in 1972–1973 bij Dubnica gevoegd, maar behield een eigen kadastraal gebied en ligt enkele kilometers van het stadscentrum."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sporen van de prehistorie en vroege Slaven van Kvášovec tot Prejta",
+          "text": "Dubnica en Prejta bewaren archeologische sporen uit verschillende perioden. In Kvášovec zijn een nederzetting en begraafplaats van de Lausitzcultuur ontdekt; in Veľký Kolačín een nederzetting met meerdere fasen en een crematiebegraafplaats. Bij Pred Kvášovec is een Slavische woning uit de periode na Groot-Moravië aangetoond; Malý Kolačín leverde vondsten uit de tiende en elfde eeuw. In Prejta kwamen ook prehistorische en middeleeuwse lagen aan het licht; aardewerk met nagelindrukken dateert uit de twaalfde en dertiende eeuw."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kasteel Dubnica en het park: een adellijke residentie met een bijzondere oranjerie",
+          "text": "Het renaissance-barokke kasteel werd in de zeventiende eeuw gebouwd door de familie Illésházy. Jozef Illésházy maakte van de tuin een Frans park met lanen, vijver, dierenverblijf, kunstmatige grot en uitkijktoren. In 1733 kwam er een productieve oranjerie, een van de oudste bekende in Midden-Europa. Ze had kanaalverwarming, tegelkachels en een beweegbaar dak. Er werden citrusvruchten en vijgen geteeld voor adellijke en keizerlijke hoven. Het kasteel huisvest nu het stadsmuseum; het park is genoemd naar Ján Baltazár Magin."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Sint-Jakobskerk: middeleeuwse wortels en een barok uiterlijk",
+          "text": "De rooms-katholieke Sint-Jakobskerk staat op de plek van een kerkgebouw dat al in 1276 wordt genoemd. De huidige kerk kreeg in 1754 haar barokke vorm. Ze bewaart een monstrans uit 1681, een ciborie uit 1716 en rococo-reliekhouders. Na restauratie in 1959–1961 werd ze opgenomen in het centrale monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dubnické štrkovisko: een grindgroeve die een vogelreservaat werd",
+          "text": "Dubnické štrkovisko ontstond door de winning van grind en zand. Na het einde van de winning bleef een waterplas met eilandjes achter die een belangrijke broedplaats voor watervogels werd. Het beschermde gebied van 40,77 hectare werd in 2009 aangewezen en maakt deel uit van Natura 2000. De belangrijkste beschermde soort is de visdief (Sterna hirundo). Om verstoring van kolonies en verlies van kuikens te voorkomen, zijn toegang tot de eilandjes en sommige recreatie- en visserijactiviteiten in het voorjaar en de vroege zomer beperkt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Van Škoda naar ZŤS: de fabriek die Dubnica veranderde",
+          "text": "De bouw van de machinefabriek begon in 1930 en de productie startte in 1937 als onderdeel van het Škoda-concern uit Plzeň. Het was een strategische wapenfabriek met aparte afdelingen voor artillerie en munitie. Tijdens de Tweede Wereldoorlog kwam zij onder Duits bezettingsbestuur en produceerde zij wapens en militaire onderdelen. In april 1945 stopte de productie; bombardementen en vernielingen verwoestten de fabriek bijna volledig. Bij de wederopbouw kwamen ook civiele producten zoals bruggen, kranen, graafmachines en werktuigmachines. Later werd het bedrijf een grote regionale werkgever."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ján Baltazár Magin: priester in Dubnica en vroege verdediger van de Slowaken in Hongarije",
+          "text": "Ján Baltazár Magin (1681/1682–1735) werkte vanaf 1719 tot zijn dood als priester en deken in Dubnica. Zijn werk Apologia ontstond uit een polemiek over de positie van de Slowaken in het Koninkrijk Hongarije en behoort tot de vroegste politieke en culturele verdedigingen van de Slowaakse gemeenschap. Magin reageerde op kleinerende beschrijvingen van de Slowaakse taal en de inwoners van het comitaat Trenčín. Het park dat naar hem is genoemd en het stadsmuseum bewaren zijn herinnering. Bronnen noemen twee mogelijke geboortejaren: 1681 en 1682."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
