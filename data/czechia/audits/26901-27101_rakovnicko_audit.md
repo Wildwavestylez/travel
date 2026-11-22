@@ -14,8 +14,7 @@ Auditovaný seznam podle zadání, registru, `sequence.json` a RÚIAN:
 - **29/29 PSČ** nalezeno v cíleném databázovém dotazu a odpovídá projektovému rozsahu.
 - **319 faktů / 2 233 jazykových položek** (319 × 7 jazyků).
 - Před doplněním Zikmunda Wintra: 318 faktů; nyní 319.
-- 17 záznamů má `status=validated`, 12 `status=placeholder`.
-- Všech 29 záznamů zůstalo na `data_version=1`; statusy nebyly měněny.
+- Po dokončení auditu bylo všech 29 záznamů převedeno na `data_version=5` a `status=published`; cílený read-back potvrdil 29/29.
 - `sequence.json` nebyl upravován.
 
 ## 2. Tematická úplnost
@@ -118,6 +117,23 @@ Závěrečný read-back celého auditovaného rozsahu potvrdil: **319 faktů, 31
 
 - Žádná změna schématu, triggerů, RLS ani databázové architektury.
 - Žádné porovnávání se Supabase/Neon.
-- Žádné publikování V5, žádná změna statusů a žádná záloha.
-- Žádný read-only lock.
-- K případnému publikování a záloze vyčkat na výslovný pokyn uživatele.
+- **Publikace:** 29/29 záznamů `data_version=5`, `status=published`; read-back PASS.
+- **Záloha:** dokončena a ověřena v Dropboxu; podrobnosti v následující sekci.
+- **Read-only lock:** zatím neaktivován; čeká na samostatný krok.
+
+
+## 8. Publikace V5 a ověřená záloha
+
+- 29/29 záznamů: `data_version=5`, `status=published`; read-back potvrdil 29/29 bez nesouladu.
+- Work wave: `CZ-AUDIT-RAKOVNICKO-26901-27101-001`, stav `COMPLETE`.
+- Backup ID: `CZ-AUDIT-RAKOVNICKO-26901-27101-2026-11-22T10-46-32-814Z`.
+- Dropbox: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_RAKOVNICKO_26901-27101_2026-11-22T10-46-32-814Z/`.
+- Obsah: JSON snapshot (2 442 286 B), restore SQL (2 174 767 B), `manifest.json` (2 519 B).
+- Rozsah zálohy: 29 PSČ, 319 faktů, 319 mapových bodů, 1 CZ validation schema.
+- Manifest: `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=29`, `structural_validation=true`.
+- SHA-256 read-back všech tří souborů PASS:
+  - JSON: `7e311e9623d6e9a6664aea4ad05e6d5ddb31187d4a9f516a1e2af9fea21bd870`
+  - Restore SQL: `57cc4ffed843ba4d7bbf483a5e8f669ce4c930f9f8e4e91b1f6bf8692986e2d0`
+  - Manifest: `44f14a4d94c1f4c3fcdb55d7c568eba29bb3b73a2dbe83bbd207a72d02d7143b`
+- Backup registry: `public.backup_snapshots.status=VERIFIED`; work-wave registry `COMPLETE`.
+- **Read-only lock nebyl aktivován.** 
