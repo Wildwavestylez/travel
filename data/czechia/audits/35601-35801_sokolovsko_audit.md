@@ -72,7 +72,7 @@ Po doplnění těchto tří témat nebyla v rychlém tematickém průzkumu zjiš
 - ID faktů jsou unikátní; v kontrolovaném bloku nebyly zjištěny duplicitní názvy faktů.
 - Povolené hodnoty `category` a `map_category` prošly strukturální kontrolou.
 - Prázdné jazykové položky ani chybějící ID nebyly nalezeny.
-- **Omezení:** úplná individuální sémantická kontrola všech 1 134 cizojazyčných textů (189 × 6) nebyla v tomto odlehčeném průchodu dokončena. Nová fakta a upravené překlady byly zkontrolovány; strukturální integrita všech jazyků je PASS. Celková sémantická revize zůstává otevřená.
+- **Omezení:** úplná individuální sémantická kontrola všech 1 134 cizojazyčných textů (189 × 6) nebyla v tomto odlehčeném průchodu dokončena. Nová fakta a upravené překlady byly připraveny a jejich uložení ověřeno read-backem; strukturální integrita všech jazyků je PASS. Celková sémantická revize zůstává otevřená.
 
 ## 5. Otevřené nálezy — REVIEW REQUIRED
 
