@@ -109,6 +109,41 @@
       "title": "Železnice Slovenskej republiky – stanice, železniční stanice Ladce a referenční bod",
       "url": "https://www.zsr.sk/sluzby-verejnosti/pre-cestujucich/zoznam-stanic?id=170456",
       "type": "official"
+    },
+    {
+      "title": "Obec Ladce – komunitný plán sociálnych služieb, historický vývoj a archeologické osídlení",
+      "url": "https://www.ladce.sk/_public/files/KPSS_-_Ladce_2023.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Ladecké zvesti 6/1999 – chronologie obce Ladce a Tunežice",
+      "url": "https://www.ladce.sk/_public/files/1999_cislo06.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Ladecké zvesti 1/2012 – historie zámečku a kostela v Ladcích",
+      "url": "https://www.ladce.sk/_public/files/2012_cislo01.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Obec Ladce – online kronika 1989–2013, dějiny cementárny a lomu Butkov",
+      "url": "https://www.ladce.sk/online-kronika-1989-2013/",
+      "type": "official"
+    },
+    {
+      "title": "Ladecké zvesti 5/2014 – poválečná obnova cementárny a doprava z lomu Butkov",
+      "url": "https://www.ladce.sk/_public/files/2014_cislo05.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Kronika obce Ladce 2009–2013 – vodní elektrárna a lom Tunežice",
+      "url": "https://www.ladce.sk/_public/files/page/103/kronika-2009-2013.pdf",
+      "type": "primary"
+    },
+    {
+      "title": "Slovenské elektrárne – veřejný záznam vodní elektrárny Ladce a její adresní zařazení",
+      "url": "https://seas.eranet.sk/webresources/publicListRecord/397314/blob/13404",
+      "type": "official"
     }
   ],
   "facts": [
@@ -123,7 +158,8 @@
         "https://www.ladce.sk/kniha-o-ladcoch/",
         "https://www.ladce.sk/_public/files/KPSS_-_Ladce_2023.pdf"
       ],
-      "location": null
+      "location": null,
+      "map_category": "archaeological_site"
     },
     {
       "id": "fact_002",
@@ -137,7 +173,8 @@
         "https://www.ladce.sk/_public/files/ladeck%C3%A9_zvesti/2017/jun%202017.pdf",
         "https://www.ladce.sk/_public/files/1999_cislo06.pdf"
       ],
-      "location": null
+      "location": null,
+      "map_category": "local_culture"
     },
     {
       "id": "fact_003",
@@ -158,7 +195,8 @@
         "type": "architectural_ensemble",
         "accuracy": "exact",
         "source": "https://www.pamiatkynaslovensku.sk/ladce"
-      }
+      },
+      "map_category": "architecture"
     },
     {
       "id": "fact_004",
@@ -180,7 +218,8 @@
         "type": "historic_industrial_site",
         "accuracy": "approximate",
         "source": "https://www.gem.wiki/Povazska_Cementaren_AS_Ladce_Cement_Plant"
-      }
+      },
+      "map_category": "technical_heritage"
     },
     {
       "id": "fact_005",
@@ -199,7 +238,8 @@
         "type": "chapel",
         "accuracy": "approximate",
         "source": "https://www.turistika.cz/mista/ladce-tunezice-kaplnka-narodenia-panny-marie/detail"
-      }
+      },
+      "map_category": "religious_site"
     },
     {
       "id": "fact_006",
@@ -213,7 +253,8 @@
         "https://www.ladce.sk/_public/files/page/103/kronika-2009-2013.pdf",
         "https://www.seas.eranet.sk/webresources/publicListRecord/397314/blob/13404"
       ],
-      "location": null
+      "location": null,
+      "map_category": "technical_heritage"
     },
     {
       "id": "fact_007",
@@ -232,7 +273,8 @@
         "type": "railway_station",
         "accuracy": "exact",
         "source": "https://www.zsr.sk/sluzby-verejnosti/pre-cestujucich/zoznam-stanic?id=170456"
-      }
+      },
+      "map_category": "technical_heritage"
     }
   ],
   "translations": {
