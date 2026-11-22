@@ -33,7 +33,7 @@
         "accuracy": "approximate",
         "source": "https://www.kamnavylet.sk/sk/atrakcia/cervenokamenske-bradlo"
       },
-      "map_category": "viewpoint_landscape"
+      "map_category": "nature"
     },
     {
       "id": "fact_002",
@@ -106,7 +106,8 @@
       "priority": "C",
       "sources": [
         "https://www.cervenykamen.sk/obec/historia-obce/pamiatky/",
-        "https://www.pamiatkynaslovensku.sk/cerveny-kamen-kostol-panny-marie"
+        "https://www.pamiatkynaslovensku.sk/cerveny-kamen-kostol-panny-marie",
+        "https://www.dcza.sk/sk/schematizmus/farnosti/cerveny-kamen"
       ],
       "location": {
         "name": "Kostel Neposkvrněného početí Panny Marie, Červený Kameň",
@@ -158,7 +159,7 @@
         "accuracy": "area_representative",
         "source": "https://www.cervenykamen.sk/kontakt/"
       },
-      "map_category": "historic_city"
+      "map_category": "historical_monument"
     },
     {
       "id": "fact_008",
@@ -191,12 +192,12 @@
         "https://www.cervenykamen.sk/obec/kultura/tradicna-kultura-a-zvykoslovie/kultura-a-zvykoslovie-101sk.html"
       ],
       "location": {
-        "name": "Červený Kameň – Červená skala, místo místních tradic",
-        "lat": 49.0918,
-        "lon": 18.18075,
-        "type": "cultural_center",
-        "accuracy": "approximate",
-        "source": "https://www.kamnavylet.sk/sk/atrakcia/cervenokamenske-bradlo"
+        "name": "Červený Kameň – orientačný bod miestnych tradícií",
+        "lat": 49.086518,
+        "lon": 18.182803,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://www.cervenykamen.sk/kontakt/"
       },
       "map_category": "local_culture"
     }
@@ -326,6 +327,11 @@
       "title": "E-OBCE – Červený Kameň, historický prehľad",
       "url": "https://www.e-obce.sk/obec/cervenykamen/2-historia.html",
       "type": "regional"
+    },
+    {
+      "title": "Žilinská diecéza – Farnosť Červený Kameň a filiálne kostoly",
+      "url": "https://www.dcza.sk/sk/schematizmus/farnosti/cerveny-kamen",
+      "type": "official"
     }
   ],
   "photo": null,
