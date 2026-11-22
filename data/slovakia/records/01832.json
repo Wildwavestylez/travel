@@ -86,17 +86,25 @@
     {
       "id": "fact_005",
       "title": "Zliechovský kroj: výrazná výšivka zachycená Karolem Plickou",
-      "text": "Zliechovský lidový oděv patří k výrazným tradicím středního Pováží. Ženský i mužský kroj navazuje na čičmiansko-beliansky typ, ale odlišuje se bohatší a barevnější výšivkou; převažuje bílá, doplněná žlutou, oranžovou a později také červenou. Materiály pocházely z místních zdrojů, zejména z ovčí vlny, konopí, lnu a kůže. Kroj zachytil fotograf Karol Plicka a objevil se také ve filmu Zem spieva. Obec uchovává tradici ve stálé expozici Muzea zliechovského kroje – Marušov dvor na návsi, kterou lze navštívit po předchozí dohodě s obecním úřadem.",
+      "text": "Zliechovský lidový oděv patří k výrazným tradicím středního Pováží. Ženský i mužský kroj navazuje na čičmiansko-beliansky typ, ale odlišuje se bohatší a barevnější výšivkou; převažuje bílá, doplněná žlutou, oranžovou a později také červenou. Materiály pocházely z místních zdrojů, zejména z ovčí vlny, konopí, lnu a kůže. Kroj zachytil fotograf Karol Plicka a objevil se také ve filmu Zem spieva. Obec uchovává tradici ve stálé expozici Muzea zliechovského kroje – Marušov dvor na návsi, kterou lze navštívit po předchozí dohodě s obecním úřadem. Mapový bod označuje pouze orientační polohu na návsi, nikoli přesné umístění budovy muzea.",
       "category": "culture_and_industry",
       "priority": "A",
       "sources": [
         "https://zliechov.sk/obec/prirodne-a-kulturne-pamiatky/",
         "https://zliechov.sk/obec/miestne-muzeum/",
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_9cc72ddb-29bc-438b-8ef2-76d66581c83a",
-        "https://www.krizom-krazom.online/ludova-architektura-v-zliechove/"
+        "https://www.krizom-krazom.online/ludova-architektura-v-zliechove/",
+        "https://poi.oma.sk/n2580908345"
       ],
       "map_category": "museum",
-      "location": null
+      "location": {
+        "name": "Námestie v Zliechove – orientačný bod pri expozícii Marušov dvor",
+        "lat": 48.9499824,
+        "lon": 18.4311024,
+        "type": "square",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2580908345"
+      }
     },
     {
       "id": "fact_006",
@@ -115,15 +123,23 @@
     {
       "id": "fact_007",
       "title": "Válečné zničení Zliechova a poválečné stěhování do Mostu pri Bratislave",
-      "text": "Zliechov byl těžce poškozen během bojů první i druhé světové války. Obecní historické materiály uvádějí, že po druhé světové válce následky bojů završil rozsáhlý požár a mnoho obyvatel se poté odstěhovalo do obce Most pri Bratislave. V Zliechově připomínají padlé a účastníky bojů památníky obou světových válek. Vazba na Most pri Bratislave přetrvala i po poválečném přesídlení a obě obce udržují přátelské vztahy a účastní se společných akcí. Jde o výraznou kapitolu místní paměti, která vysvětluje proměnu obce ve 20. století.",
+      "text": "Zliechov byl těžce poškozen během bojů první i druhé světové války. Obecní historické materiály uvádějí, že po druhé světové válce následky bojů završil rozsáhlý požár a mnoho obyvatel se poté odstěhovalo do obce Most pri Bratislave. V Zliechově připomínají padlé a účastníky bojů památníky obou světových válek. Vazba na Most pri Bratislave přetrvala i po poválečném přesídlení a obě obce udržují přátelské vztahy a účastní se společných akcí. Jde o výraznou kapitolu místní paměti, která vysvětluje proměnu obce ve 20. století. Mapový bod je přibližnou orientační polohou památníku u obecního úřadu; neoznačuje místa jednotlivých bojů, požáru ani poválečného stěhování.",
       "category": "history",
       "priority": "B",
       "sources": [
         "https://zliechov.sk/obec/historia/",
-        "https://zliechov.sk/obec/prirodne-a-kulturne-pamiatky/"
+        "https://zliechov.sk/obec/prirodne-a-kulturne-pamiatky/",
+        "https://www.vets.cz/vpm/21680-pomnik-obetiam-2-svetovej-vojny-a-snp/"
       ],
       "map_category": "historical_monument",
-      "location": null
+      "location": {
+        "name": "Památník obětem druhé světové války a SNP u obecního úřadu ve Zliechově",
+        "lat": 48.9502306,
+        "lon": 18.4312,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/21680-pomnik-obetiam-2-svetovej-vojny-a-snp/"
+      }
     }
   ],
   "sources": [
@@ -201,6 +217,16 @@
       "title": "Obec Valaská Belá – Z histórie: sklárska osada Gápel",
       "url": "https://valaskabela.sk/z-historie/AX_PRINT",
       "type": "official"
+    },
+    {
+      "title": "Zliechov, námestie – mapový orientačný bod pri Marušovom dvore",
+      "url": "https://poi.oma.sk/n2580908345",
+      "type": "other"
+    },
+    {
+      "title": "Památník obětem druhé světové války a SNP ve Zliechově – poloha a souřadnice",
+      "url": "https://www.vets.cz/vpm/21680-pomnik-obetiam-2-svetovej-vojny-a-snp/",
+      "type": "specialist"
     }
   ],
   "photo": null,
@@ -245,7 +271,7 @@
         {
           "id": "fact_005",
           "title": "Zliechovský kroj: výrazná výšivka zachycená Karolem Plickou",
-          "text": "Zliechovský lidový oděv patří k výrazným tradicím středního Pováží. Ženský i mužský kroj navazuje na čičmiansko-beliansky typ, ale odlišuje se bohatší a barevnější výšivkou; převažuje bílá, doplněná žlutou, oranžovou a později také červenou. Materiály pocházely z místních zdrojů, zejména z ovčí vlny, konopí, lnu a kůže. Kroj zachytil fotograf Karol Plicka a objevil se také ve filmu Zem spieva. Obec uchovává tradici ve stálé expozici Muzea zliechovského kroje – Marušov dvor na návsi, kterou lze navštívit po předchozí dohodě s obecním úřadem."
+          "text": "Zliechovský lidový oděv patří k výrazným tradicím středního Pováží. Ženský i mužský kroj navazuje na čičmiansko-beliansky typ, ale odlišuje se bohatší a barevnější výšivkou; převažuje bílá, doplněná žlutou, oranžovou a později také červenou. Materiály pocházely z místních zdrojů, zejména z ovčí vlny, konopí, lnu a kůže. Kroj zachytil fotograf Karol Plicka a objevil se také ve filmu Zem spieva. Obec uchovává tradici ve stálé expozici Muzea zliechovského kroje – Marušov dvor na návsi, kterou lze navštívit po předchozí dohodě s obecním úřadem. Mapový bod označuje pouze orientační polohu na návsi, nikoli přesné umístění budovy muzea."
         },
         {
           "id": "fact_006",
@@ -255,7 +281,7 @@
         {
           "id": "fact_007",
           "title": "Válečné zničení Zliechova a poválečné stěhování do Mostu pri Bratislave",
-          "text": "Zliechov byl těžce poškozen během bojů první i druhé světové války. Obecní historické materiály uvádějí, že po druhé světové válce následky bojů završil rozsáhlý požár a mnoho obyvatel se poté odstěhovalo do obce Most pri Bratislave. V Zliechově připomínají padlé a účastníky bojů památníky obou světových válek. Vazba na Most pri Bratislave přetrvala i po poválečném přesídlení a obě obce udržují přátelské vztahy a účastní se společných akcí. Jde o výraznou kapitolu místní paměti, která vysvětluje proměnu obce ve 20. století."
+          "text": "Zliechov byl těžce poškozen během bojů první i druhé světové války. Obecní historické materiály uvádějí, že po druhé světové válce následky bojů završil rozsáhlý požár a mnoho obyvatel se poté odstěhovalo do obce Most pri Bratislave. V Zliechově připomínají padlé a účastníky bojů památníky obou světových válek. Vazba na Most pri Bratislave přetrvala i po poválečném přesídlení a obě obce udržují přátelské vztahy a účastní se společných akcí. Jde o výraznou kapitolu místní paměti, která vysvětluje proměnu obce ve 20. století. Mapový bod je přibližnou orientační polohou památníku u obecního úřadu; neoznačuje místa jednotlivých bojů, požáru ani poválečného stěhování."
         }
       ]
     },
@@ -285,7 +311,7 @@
         {
           "id": "fact_005",
           "title": "Die Tracht von Zliechov: reiche Stickerei, festgehalten von Karol Plicka",
-          "text": "Die Volkstracht von Zliechov gehört zu den markanten Traditionen des mittleren Waagtals. Die Frauen- und Männertracht knüpft an den Typ Čičmany–Belá an, unterscheidet sich jedoch durch reichere und farbenfrohere Stickereien; Weiß dominiert, ergänzt durch Gelb, Orange und später auch Rot. Die Materialien stammten aus der Region, vor allem Schafwolle, Hanf, Flachs und Leder. Der Fotograf Karol Plicka dokumentierte die Tracht; sie erschien auch im Film Zem spieva. Die Gemeinde bewahrt die Tradition in der Dauerausstellung des Trachtenmuseums Marušov dvor am Dorfplatz, die nach vorheriger Vereinbarung besucht werden kann."
+          "text": "Die Volkstracht von Zliechov gehört zu den markanten Traditionen des mittleren Waagtals. Die Frauen- und Männertracht knüpft an den Typ Čičmany–Belá an, unterscheidet sich jedoch durch reichere und farbenfrohere Stickereien; Weiß dominiert, ergänzt durch Gelb, Orange und später auch Rot. Die Materialien stammten aus der Region, vor allem Schafwolle, Hanf, Flachs und Leder. Der Fotograf Karol Plicka dokumentierte die Tracht; sie erschien auch im Film Zem spieva. Die Gemeinde bewahrt die Tradition in der Dauerausstellung des Trachtenmuseums Marušov dvor am Dorfplatz, die nach vorheriger Vereinbarung besucht werden kann. Der Kartenpunkt dient nur als Orientierung auf dem Dorfplatz und bezeichnet nicht den exakten Standort des Museumsgebäudes."
         },
         {
           "id": "fact_006",
@@ -295,7 +321,7 @@
         {
           "id": "fact_007",
           "title": "Kriegszerstörung von Zliechov und die Nachkriegsumsiedlung nach Most pri Bratislave",
-          "text": "Zliechov wurde während der Kämpfe des Ersten und Zweiten Weltkriegs schwer beschädigt. Nach Angaben der Gemeindegeschichte verschlimmerte ein großer Brand nach dem Zweiten Weltkrieg die Folgen der Kämpfe; viele Einwohner zogen anschließend nach Most pri Bratislave. In Zliechov erinnern Denkmäler an die Gefallenen und Kriegsteilnehmer beider Weltkriege. Die Verbindung zu Most pri Bratislave blieb auch nach der Umsiedlung bestehen; beide Gemeinden pflegen freundschaftliche Beziehungen und nehmen an gemeinsamen Veranstaltungen teil. Dies ist ein prägendes Kapitel der Ortsgeschichte, das den Wandel der Gemeinde im 20. Jahrhundert erklärt."
+          "text": "Zliechov wurde während der Kämpfe des Ersten und Zweiten Weltkriegs schwer beschädigt. Nach Angaben der Gemeindegeschichte verschlimmerte ein großer Brand nach dem Zweiten Weltkrieg die Folgen der Kämpfe; viele Einwohner zogen anschließend nach Most pri Bratislave. In Zliechov erinnern Denkmäler an die Gefallenen und Kriegsteilnehmer beider Weltkriege. Die Verbindung zu Most pri Bratislave blieb auch nach der Umsiedlung bestehen; beide Gemeinden pflegen freundschaftliche Beziehungen und nehmen an gemeinsamen Veranstaltungen teil. Dies ist ein prägendes Kapitel der Ortsgeschichte, das den Wandel der Gemeinde im 20. Jahrhundert erklärt. Der Kartenpunkt kennzeichnet näherungsweise das Denkmal beim Gemeindeamt; er markiert weder einzelne Kampf- oder Brandorte noch die Orte der Nachkriegsumsiedlung."
         }
       ]
     },
@@ -325,7 +351,7 @@
         {
           "id": "fact_005",
           "title": "The Zliechov folk costume: distinctive embroidery captured by Karol Plicka",
-          "text": "The folk costume of Zliechov is one of the distinctive traditions of the middle Váh region. Both women's and men's dress follow the Čičmany–Belá type but stand out for richer and more colourful embroidery. White predominates, complemented by yellow, orange and later red. Materials came from local sources, especially sheep's wool, hemp, flax and leather. Photographer Karol Plicka documented the costume, which also appeared in the film Zem spieva. The municipality preserves the tradition in the permanent exhibition of the Marušov dvor Costume Museum on the village square; visits can be arranged in advance with the municipal office."
+          "text": "The folk costume of Zliechov is one of the distinctive traditions of the middle Váh region. Both women's and men's dress follow the Čičmany–Belá type but stand out for richer and more colourful embroidery. White predominates, complemented by yellow, orange and later red. Materials came from local sources, especially sheep's wool, hemp, flax and leather. Photographer Karol Plicka documented the costume, which also appeared in the film Zem spieva. The municipality preserves the tradition in the permanent exhibition of the Marušov dvor Costume Museum on the village square; visits can be arranged in advance with the municipal office. The map point is only an orientation marker on the village square, not the exact location of the museum building."
         },
         {
           "id": "fact_006",
@@ -335,7 +361,7 @@
         {
           "id": "fact_007",
           "title": "Wartime destruction of Zliechov and post-war migration to Most pri Bratislave",
-          "text": "Zliechov was badly damaged during fighting in both World Wars. According to the municipal history, a major fire after the Second World War compounded the damage, and many residents subsequently moved to Most pri Bratislave. Memorials in Zliechov commemorate those killed and those who took part in the fighting in both wars. The connection with Most pri Bratislave continued after the post-war migration, and the two municipalities maintain friendly relations and take part in joint events. This is a defining chapter of local memory that helps explain the community's transformation in the 20th century."
+          "text": "Zliechov was badly damaged during fighting in both World Wars. According to the municipal history, a major fire after the Second World War compounded the damage, and many residents subsequently moved to Most pri Bratislave. Memorials in Zliechov commemorate those killed and those who took part in the fighting in both wars. The connection with Most pri Bratislave continued after the post-war migration, and the two municipalities maintain friendly relations and take part in joint events. This is a defining chapter of local memory that helps explain the community's transformation in the 20th century. The map point is an approximate orientation location for the memorial beside the municipal office; it does not mark individual battle or fire sites or the places of post-war migration."
         }
       ]
     },
@@ -365,7 +391,7 @@
         {
           "id": "fact_005",
           "title": "El traje tradicional de Zliechov: bordados distintivos fotografiados por Karol Plicka",
-          "text": "El traje popular de Zliechov es una de las tradiciones distintivas de la región media del Váh. La indumentaria femenina y masculina sigue el tipo de Čičmany–Belá, pero se distingue por bordados más ricos y coloridos. Predomina el blanco, acompañado de amarillo, naranja y, más tarde, rojo. Los materiales procedían de recursos locales, especialmente lana de oveja, cáñamo, lino y cuero. El fotógrafo Karol Plicka documentó el traje, que también apareció en la película Zem spieva. El municipio conserva esta tradición en la exposición permanente del Museo del Traje de Zliechov, Marušov dvor, en la plaza del pueblo; las visitas se conciertan previamente con el ayuntamiento."
+          "text": "El traje popular de Zliechov es una de las tradiciones distintivas de la región media del Váh. La indumentaria femenina y masculina sigue el tipo de Čičmany–Belá, pero se distingue por bordados más ricos y coloridos. Predomina el blanco, acompañado de amarillo, naranja y, más tarde, rojo. Los materiales procedían de recursos locales, especialmente lana de oveja, cáñamo, lino y cuero. El fotógrafo Karol Plicka documentó el traje, que también apareció en la película Zem spieva. El municipio conserva esta tradición en la exposición permanente del Museo del Traje de Zliechov, Marušov dvor, en la plaza del pueblo; las visitas se conciertan previamente con el ayuntamiento. El punto del mapa es solo una referencia orientativa en la plaza del pueblo, no la ubicación exacta del edificio del museo."
         },
         {
           "id": "fact_006",
@@ -375,7 +401,7 @@
         {
           "id": "fact_007",
           "title": "La destrucción bélica de Zliechov y la migración de posguerra a Most pri Bratislave",
-          "text": "Zliechov sufrió graves daños durante los combates de las dos guerras mundiales. Según la historia municipal, un gran incendio después de la Segunda Guerra Mundial agravó los daños y muchos habitantes se trasladaron posteriormente a Most pri Bratislave. En Zliechov hay monumentos conmemorativos dedicados a los caídos y a quienes participaron en los combates de ambas guerras. El vínculo con Most pri Bratislave continuó después de la migración de posguerra y ambos municipios mantienen relaciones amistosas y participan en actos conjuntos. Es un capítulo fundamental de la memoria local que ayuda a explicar la transformación de la comunidad durante el siglo XX."
+          "text": "Zliechov sufrió graves daños durante los combates de las dos guerras mundiales. Según la historia municipal, un gran incendio después de la Segunda Guerra Mundial agravó los daños y muchos habitantes se trasladaron posteriormente a Most pri Bratislave. En Zliechov hay monumentos conmemorativos dedicados a los caídos y a quienes participaron en los combates de ambas guerras. El vínculo con Most pri Bratislave continuó después de la migración de posguerra y ambos municipios mantienen relaciones amistosas y participan en actos conjuntos. Es un capítulo fundamental de la memoria local que ayuda a explicar la transformación de la comunidad durante el siglo XX. El punto del mapa indica de forma aproximada el monumento junto al ayuntamiento; no señala los lugares concretos de los combates, del incendio ni de la migración de posguerra."
         }
       ]
     },
@@ -405,7 +431,7 @@
         {
           "id": "fact_005",
           "title": "Le costume traditionnel de Zliechov : broderies remarquables photographiées par Karol Plicka",
-          "text": "Le costume populaire de Zliechov est l’une des traditions distinctives de la moyenne vallée du Váh. Les costumes féminins et masculins relèvent du type Čičmany–Belá, mais se distinguent par une broderie plus riche et plus colorée. Le blanc domine, avec du jaune, de l’orange et plus tard du rouge. Les matières premières provenaient des ressources locales, notamment la laine de mouton, le chanvre, le lin et le cuir. Le photographe Karol Plicka a documenté ce costume, également présenté dans le film Zem spieva. La commune préserve cette tradition dans l’exposition permanente du musée du costume de Zliechov, Marušov dvor, sur la place du village ; les visites se font sur rendez-vous avec la mairie."
+          "text": "Le costume populaire de Zliechov est l’une des traditions distinctives de la moyenne vallée du Váh. Les costumes féminins et masculins relèvent du type Čičmany–Belá, mais se distinguent par une broderie plus riche et plus colorée. Le blanc domine, avec du jaune, de l’orange et plus tard du rouge. Les matières premières provenaient des ressources locales, notamment la laine de mouton, le chanvre, le lin et le cuir. Le photographe Karol Plicka a documenté ce costume, également présenté dans le film Zem spieva. La commune préserve cette tradition dans l’exposition permanente du musée du costume de Zliechov, Marušov dvor, sur la place du village ; les visites se font sur rendez-vous avec la mairie. Le point cartographique est uniquement un repère sur la place du village, et non l’emplacement exact du bâtiment du musée."
         },
         {
           "id": "fact_006",
@@ -415,7 +441,7 @@
         {
           "id": "fact_007",
           "title": "La destruction de Zliechov pendant les guerres et les départs d’après-guerre vers Most pri Bratislave",
-          "text": "Zliechov fut lourdement endommagé lors des combats des deux guerres mondiales. Selon l’histoire communale, un grand incendie après la Seconde Guerre mondiale aggrava les dégâts et de nombreux habitants partirent ensuite s’installer à Most pri Bratislave. Des monuments à Zliechov commémorent les morts et les participants aux combats des deux guerres. Le lien avec Most pri Bratislave s’est maintenu après ces départs ; les deux communes entretiennent des relations amicales et participent à des événements communs. Ce chapitre important de la mémoire locale explique les transformations de la communauté au XXe siècle."
+          "text": "Zliechov fut lourdement endommagé lors des combats des deux guerres mondiales. Selon l’histoire communale, un grand incendie après la Seconde Guerre mondiale aggrava les dégâts et de nombreux habitants partirent ensuite s’installer à Most pri Bratislave. Des monuments à Zliechov commémorent les morts et les participants aux combats des deux guerres. Le lien avec Most pri Bratislave s’est maintenu après ces départs ; les deux communes entretiennent des relations amicales et participent à des événements communs. Ce chapitre important de la mémoire locale explique les transformations de la communauté au XXe siècle. Le point cartographique indique approximativement le monument situé près de la mairie ; il ne localise ni les combats, ni l’incendie, ni les lieux du départ d’après-guerre."
         }
       ]
     },
@@ -445,7 +471,7 @@
         {
           "id": "fact_005",
           "title": "Il costume tradizionale di Zliechov: ricami distintivi fotografati da Karol Plicka",
-          "text": "Il costume popolare di Zliechov è una delle tradizioni distintive della media valle del Váh. Gli abiti femminili e maschili seguono il tipo Čičmany–Belá, ma si distinguono per ricami più ricchi e colorati. Predomina il bianco, accompagnato da giallo, arancione e in seguito rosso. I materiali provenivano da risorse locali, soprattutto lana di pecora, canapa, lino e pelle. Il fotografo Karol Plicka documentò il costume, apparso anche nel film Zem spieva. Il comune conserva la tradizione nell’esposizione permanente del Museo del costume di Zliechov, Marušov dvor, nella piazza del paese; le visite vanno concordate in anticipo con il municipio."
+          "text": "Il costume popolare di Zliechov è una delle tradizioni distintive della media valle del Váh. Gli abiti femminili e maschili seguono il tipo Čičmany–Belá, ma si distinguono per ricami più ricchi e colorati. Predomina il bianco, accompagnato da giallo, arancione e in seguito rosso. I materiali provenivano da risorse locali, soprattutto lana di pecora, canapa, lino e pelle. Il fotografo Karol Plicka documentò il costume, apparso anche nel film Zem spieva. Il comune conserva la tradizione nell’esposizione permanente del Museo del costume di Zliechov, Marušov dvor, nella piazza del paese; le visite vanno concordate in anticipo con il municipio. Il punto sulla mappa è soltanto un riferimento orientativo nella piazza del paese, non la posizione esatta dell’edificio del museo."
         },
         {
           "id": "fact_006",
@@ -455,7 +481,7 @@
         {
           "id": "fact_007",
           "title": "La distruzione bellica di Zliechov e la migrazione del dopoguerra a Most pri Bratislave",
-          "text": "Zliechov subì gravi danni durante i combattimenti della Prima e della Seconda guerra mondiale. Secondo la storia comunale, un grande incendio dopo la Seconda guerra mondiale aggravò i danni e molti abitanti si trasferirono successivamente a Most pri Bratislave. A Zliechov monumenti commemorano i caduti e i partecipanti ai combattimenti di entrambe le guerre. Il legame con Most pri Bratislave è proseguito dopo il trasferimento del dopoguerra e i due comuni mantengono rapporti amichevoli e partecipano a eventi comuni. È un capitolo importante della memoria locale che aiuta a spiegare la trasformazione della comunità nel XX secolo."
+          "text": "Zliechov subì gravi danni durante i combattimenti della Prima e della Seconda guerra mondiale. Secondo la storia comunale, un grande incendio dopo la Seconda guerra mondiale aggravò i danni e molti abitanti si trasferirono successivamente a Most pri Bratislave. A Zliechov monumenti commemorano i caduti e i partecipanti ai combattimenti di entrambe le guerre. Il legame con Most pri Bratislave è proseguito dopo il trasferimento del dopoguerra e i due comuni mantengono rapporti amichevoli e partecipano a eventi comuni. È un capitolo importante della memoria locale che aiuta a spiegare la trasformazione della comunità nel XX secolo. Il punto sulla mappa indica in modo approssimativo il monumento accanto al municipio; non individua i luoghi dei singoli combattimenti, dell’incendio o della migrazione del dopoguerra."
         }
       ]
     },
@@ -485,7 +511,7 @@
         {
           "id": "fact_005",
           "title": "De Zliechovse klederdracht: bijzondere borduurkunst vastgelegd door Karol Plicka",
-          "text": "De volksklederdracht van Zliechov is een van de kenmerkende tradities van de middelste Váh-regio. De kleding voor vrouwen en mannen sluit aan bij het type Čičmany–Belá, maar onderscheidt zich door rijkere en kleurrijkere borduursels. Wit overheerst, aangevuld met geel, oranje en later rood. De materialen kwamen uit de streek zelf, vooral schapenwol, hennep, vlas en leer. Fotograaf Karol Plicka legde de klederdracht vast; ze was ook te zien in de film Zem spieva. De gemeente bewaart deze traditie in de permanente tentoonstelling van het Kostuummuseum van Zliechov, Marušov dvor, aan het dorpsplein; bezoek is mogelijk na voorafgaande afspraak met het gemeentebestuur."
+          "text": "De volksklederdracht van Zliechov is een van de kenmerkende tradities van de middelste Váh-regio. De kleding voor vrouwen en mannen sluit aan bij het type Čičmany–Belá, maar onderscheidt zich door rijkere en kleurrijkere borduursels. Wit overheerst, aangevuld met geel, oranje en later rood. De materialen kwamen uit de streek zelf, vooral schapenwol, hennep, vlas en leer. Fotograaf Karol Plicka legde de klederdracht vast; ze was ook te zien in de film Zem spieva. De gemeente bewaart deze traditie in de permanente tentoonstelling van het Kostuummuseum van Zliechov, Marušov dvor, aan het dorpsplein; bezoek is mogelijk na voorafgaande afspraak met het gemeentebestuur. Het kaartpunt is alleen een oriëntatiepunt op het dorpsplein en geeft niet de exacte locatie van het museumgebouw aan."
         },
         {
           "id": "fact_006",
@@ -495,7 +521,7 @@
         {
           "id": "fact_007",
           "title": "Oorlogsschade in Zliechov en naoorlogse verhuizing naar Most pri Bratislave",
-          "text": "Zliechov liep zware schade op tijdens de gevechten in zowel de Eerste als de Tweede Wereldoorlog. Volgens de gemeentegeschiedenis verergerde een grote brand na de Tweede Wereldoorlog de schade en verhuisden veel inwoners daarna naar Most pri Bratislave. In Zliechov herinneren monumenten aan de gevallenen en deelnemers aan de gevechten in beide wereldoorlogen. De band met Most pri Bratislave bleef na de naoorlogse verhuizing bestaan; beide gemeenten onderhouden vriendschappelijke betrekkingen en nemen deel aan gezamenlijke evenementen. Dit is een bepalend hoofdstuk in de lokale herinnering en helpt de veranderingen in de gemeenschap in de 20e eeuw te verklaren."
+          "text": "Zliechov liep zware schade op tijdens de gevechten in zowel de Eerste als de Tweede Wereldoorlog. Volgens de gemeentegeschiedenis verergerde een grote brand na de Tweede Wereldoorlog de schade en verhuisden veel inwoners daarna naar Most pri Bratislave. In Zliechov herinneren monumenten aan de gevallenen en deelnemers aan de gevechten in beide wereldoorlogen. De band met Most pri Bratislave bleef na de naoorlogse verhuizing bestaan; beide gemeenten onderhouden vriendschappelijke betrekkingen en nemen deel aan gezamenlijke evenementen. Dit is een bepalend hoofdstuk in de lokale herinnering en helpt de veranderingen in de gemeenschap in de 20e eeuw te verklaren. Het kaartpunt geeft bij benadering het monument naast het gemeentehuis aan; het markeert niet de afzonderlijke gevechts- of brandlocaties en evenmin de plaatsen van de naoorlogse verhuizing."
         }
       ]
     }
