@@ -20,9 +20,9 @@
       "category": "nature_and_landscape",
       "priority": "B",
       "sources": [
-        "src_11",
-        "src_12",
-        "src_13"
+        "https://citeseerx.ist.psu.edu/document?doi=8a14c747c61aa4633195578c6d52745cec34ec53&repid=rep1&type=pdf",
+        "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/12129/devex_1998-opt.pdf",
+        "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/10049/upn-z-cmz-dnv-zavazna-cast.pdf"
       ],
       "map_category": "nature",
       "location": {
@@ -42,8 +42,8 @@
       "category": "architecture_and_urbanism",
       "priority": "C",
       "sources": [
-        "src_05",
-        "src_14"
+        "https://www.fad.stuba.sk/buxus/docs/casopisy/ILFA_maj_9_2012-13_WEB.pdf",
+        "https://ww.humannageografia.sk/clanky/Halas_Dzupinova_Urbanismus%20a%20uzemni%20rozvoj.pdf"
       ],
       "map_category": "architecture",
       "location": {
@@ -63,9 +63,9 @@
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "src_07",
-        "src_08",
-        "src_09"
+        "https://www.devinskanovaves.sk/novinka/93004/podporte-nas-projekt-v-cene-verejnosti-ce-za-ar-2024",
+        "https://www.asb.sk/architektura/zakladna-skola-v-devinskej-novej-vsi-vyriesila-nedostatok-miesta-lahkou-drevenou-nadstavbou",
+        "https://bratislava.oma.sk/u/ivana-bukovcana/3"
       ],
       "map_category": "architecture",
       "location": {
@@ -85,8 +85,8 @@
       "category": "tourism_and_surroundings",
       "priority": "C",
       "sources": [
-        "src_10",
-        "src_09"
+        "https://bratislavskykraj.sk/moderne-sportove-ihrisko-pre-devinskonovovesku-mladez-je-hotove/",
+        "https://bratislava.oma.sk/u/ivana-bukovcana/3"
       ],
       "map_category": "sports_venue",
       "location": {
@@ -106,9 +106,9 @@
       "category": "architecture_and_urbanism",
       "priority": "C",
       "sources": [
-        "src_06",
-        "src_13",
-        "src_15"
+        "https://kronika.dnv.michalgasparik.sk/kniha-2/strana-93/",
+        "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/10049/upn-z-cmz-dnv-zavazna-cast.pdf",
+        "https://bratislava.oma.sk/u/namestie-jana-kostru"
       ],
       "map_category": "historic_city",
       "location": {
@@ -139,91 +139,76 @@
   },
   "sources": [
     {
-      "id": "src_01",
       "title": "Slovenská pošta – Technické parametre pre triedenie a zväzkovanie zásielok, příloha 3a",
       "url": "https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf",
       "type": "official"
     },
     {
-      "id": "src_02",
       "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom, adresa Pošty Bratislava 49",
       "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
       "type": "official"
     },
     {
-      "id": "src_03",
       "title": "SITA – Ulice a adresy s PSČ 84108, Bratislava",
       "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/84108/",
       "type": "regional"
     },
     {
-      "id": "src_04",
       "title": "Slovak postal codes – veřejný CC0 dataset adresních bodů, postal_codes.csv",
       "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/9c22c551eff4b0b2ec4add0999cb85ad62ab23f0/data/postal_codes.csv",
       "type": "other"
     },
     {
-      "id": "src_05",
       "title": "Fakulta architektúry STU – Obytné súbory v Devínskej Novej Vsi a Dlhé diely, odborná studie",
       "url": "https://www.fad.stuba.sk/buxus/docs/casopisy/ILFA_maj_9_2012-13_WEB.pdf",
       "type": "specialist"
     },
     {
-      "id": "src_06",
       "title": "Digitálna kronika Devínskej Novej Vsi – Pamätná kniha, soutěž na Námestie Jána Kostru (1994)",
       "url": "https://kronika.dnv.michalgasparik.sk/kniha-2/strana-93/",
       "type": "other"
     },
     {
-      "id": "src_07",
       "title": "Mestská časť Bratislava-Devínska Nová Ves – Přístavba a nadstavba ZŠ Ivana Bukovčana, CE ZA AR 2024",
       "url": "https://www.devinskanovaves.sk/novinka/93004/podporte-nas-projekt-v-cene-verejnosti-ce-za-ar-2024",
       "type": "official"
     },
     {
-      "id": "src_08",
       "title": "ASB – Základná škola v Devínskej Novej Vsi vyriešila nedostatok miesta ľahkou drevenou nadstavbou",
       "url": "https://www.asb.sk/architektura/zakladna-skola-v-devinskej-novej-vsi-vyriesila-nedostatok-miesta-lahkou-drevenou-nadstavbou",
       "type": "specialist"
     },
     {
-      "id": "src_09",
       "title": "OMA / OpenStreetMap – Ivana Bukovčana 3, adresa PSČ 84108 a GPS",
       "url": "https://bratislava.oma.sk/u/ivana-bukovcana/3",
       "type": "specialist"
     },
     {
-      "id": "src_10",
       "title": "Bratislavský samosprávny kraj – Moderné športové ihrisko pre devínskonovoveskú mládež",
       "url": "https://bratislavskykraj.sk/moderne-sportove-ihrisko-pre-devinskonovovesku-mladez-je-hotove/",
       "type": "official"
     },
     {
-      "id": "src_11",
       "title": "Acta Geologica Slovaca – Temporal and spatial distribution of Miocene mammals in the Western Carpathians, Glavica GPS a geologická lokalita",
       "url": "https://citeseerx.ist.psu.edu/document?doi=8a14c747c61aa4633195578c6d52745cec34ec53&repid=rep1&type=pdf",
       "type": "specialist"
     },
     {
-      "id": "src_12",
       "title": "Mestský spravodaj Devex 1/1998 – Glavica, geologický pôvod a história ťažby",
       "url": "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/12129/devex_1998-opt.pdf",
       "type": "official"
     },
     {
-      "id": "src_13",
       "title": "Mestská časť Bratislava-Devínska Nová Ves – Územný plán zóny centrálnej mestskej zóny, záväzná časť",
       "url": "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/10049/upn-z-cmz-dnv-zavazna-cast.pdf",
       "type": "official"
     },
     {
-      "id": "src_14",
       "title": "Humánna geografia – Urbanizmus a územný rozvoj Bratislavy, obytné súbory Kostolné a Podhorské",
       "url": "https://ww.humannageografia.sk/clanky/Halas_Dzupinova_Urbanismus%20a%20uzemni%20rozvoj.pdf",
       "type": "specialist"
     },
     {
-      "id": "src_15",
       "title": "OMA / OpenStreetMap – Námestie Jána Kostru, PSČ 84108 a souřadnice",
       "url": "https://bratislava.oma.sk/u/namestie-jana-kostru",
       "type": "specialist"
