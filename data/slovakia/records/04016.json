@@ -36,6 +36,28 @@
       }
     },
     {
+      "id": "fact_006",
+      "title": "Baška: středověká vesnice, kterou Košice získaly do svého hospodářského zázemí",
+      "text": "První písemná zmínka o Bašce pochází z roku 1247, kdy je uvedena jako Bosk a majetek Pouši z rodu Abovců. V roce 1427 měla deset hospodářských dvorů a roku 1447 ji Košice odkoupily do svého feudálního vlastnictví. Podle obecní kroniky se v 16. století stala součástí dřevařského a báňského zázemí města. Samostatná vesnice si zachovala vlastní historické jádro; připomíná je mimo jiné kostel sv. Štěpána Uherského.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.baska-obec.sk/historia.html",
+        "https://www.baska-obec.sk/kontakty-0.html",
+        "https://www.pamiatkynaslovensku.sk/baska-kostol-sv-stefana-uhorskeho"
+      ],
+      "location": {
+        "name": "Historické jádro obce Baška – orientační bod u kostela sv. Štěpána Uherského",
+        "lat": 48.70643,
+        "lon": 21.185095,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/baska-kostol-sv-stefana-uhorskeho",
+        "address": "Baška 1, 040 16 Baška, Slovensko"
+      }
+    },
+    {
       "id": "fact_002",
       "title": "Kostel sv. Bartoloměje a středověké kořeny farnosti",
       "text": "Dnešní klasicistní kostel sv. Bartoloměje byl v Myslavě postaven v letech 1778–1792 a po požáru roku 1808 znovu obnoven. Navazuje na mnohem starší sakrální tradici: středověká farnost je doložena v soupisu papežských desátků z let 1332–1337 a první kaple Povýšení svatého Kříže stála v obci už roku 1382. Kostel uchovává také cenné vybavení, například kamennou křtitelnici datovanou rokem 1735 a barokní obraz sv. Bartoloměje z doby kolem roku 1760. Stavba je zapsána v Ústředním seznamu památkového fondu SR.",
@@ -103,28 +125,6 @@
       ],
       "map_category": "local_culture",
       "location": null
-    },
-    {
-      "id": "fact_006",
-      "title": "Baška: středověká vesnice, kterou Košice získaly do svého hospodářského zázemí",
-      "text": "První písemná zmínka o Bašce pochází z roku 1247, kdy je uvedena jako Bosk a majetek Pouši z rodu Abovců. V roce 1427 měla deset hospodářských dvorů a roku 1447 ji Košice odkoupily do svého feudálního vlastnictví. Podle obecní kroniky se v 16. století stala součástí dřevařského a báňského zázemí města. Samostatná vesnice si zachovala vlastní historické jádro; připomíná je mimo jiné kostel sv. Štěpána Uherského.",
-      "category": "history",
-      "priority": "C",
-      "map_category": "historic_city",
-      "sources": [
-        "https://www.baska-obec.sk/historia.html",
-        "https://www.baska-obec.sk/kontakty-0.html",
-        "https://www.pamiatkynaslovensku.sk/baska-kostol-sv-stefana-uhorskeho"
-      ],
-      "location": {
-        "name": "Historické jádro obce Baška – orientační bod u kostela sv. Štěpána Uherského",
-        "lat": 48.70643,
-        "lon": 21.185095,
-        "type": "historic_village",
-        "accuracy": "area_representative",
-        "source": "https://www.pamiatkynaslovensku.sk/baska-kostol-sv-stefana-uhorskeho",
-        "address": "Baška 1, 040 16 Baška, Slovensko"
-      }
     }
   ],
   "photo": null,
@@ -224,6 +224,11 @@
           "text": "Myslava se vyvíjela jako samostatná obec západně od Košic a její historickou osu dodnes určuje Myslavský potok. Jeho název je v písemných pramenech doložen už roku 1297, zatímco první písemná zmínka o obci pochází z roku 1382. K hospodářskému životu patřily dva mlýny – vyšný a nižný – o nichž se dochovaly záznamy z roku 1395. Myslava si navzdory pozdějšímu začlenění do města zachovala čitelný vesnický charakter."
         },
         {
+          "id": "fact_006",
+          "title": "Baška: středověká vesnice, kterou Košice získaly do svého hospodářského zázemí",
+          "text": "První písemná zmínka o Bašce pochází z roku 1247, kdy je uvedena jako Bosk a majetek Pouši z rodu Abovců. V roce 1427 měla deset hospodářských dvorů a roku 1447 ji Košice odkoupily do svého feudálního vlastnictví. Podle obecní kroniky se v 16. století stala součástí dřevařského a báňského zázemí města. Samostatná vesnice si zachovala vlastní historické jádro; připomíná je mimo jiné kostel sv. Štěpána Uherského."
+        },
+        {
           "id": "fact_002",
           "title": "Kostel sv. Bartoloměje a středověké kořeny farnosti",
           "text": "Dnešní klasicistní kostel sv. Bartoloměje byl v Myslavě postaven v letech 1778–1792 a po požáru roku 1808 znovu obnoven. Navazuje na mnohem starší sakrální tradici: středověká farnost je doložena v soupisu papežských desátků z let 1332–1337 a první kaple Povýšení svatého Kříže stála v obci už roku 1382. Kostel uchovává také cenné vybavení, například kamennou křtitelnici datovanou rokem 1735 a barokní obraz sv. Bartoloměje z doby kolem roku 1760. Stavba je zapsána v Ústředním seznamu památkového fondu SR."
@@ -242,11 +247,6 @@
           "id": "fact_005",
           "title": "Folklorní soubor Hrabina uchovává místní tradice",
           "text": "Folklorní soubor Hrabina vznikl v roce 1955 z iniciativy místní učitelky Agnesy Vargové, která založila taneční skupinu při základní škole. Soubor brzy získal úspěchy na soutěžích lidové umělecké tvořivosti a v letech 1956 a 1957 byl hodnocen lépe než známá košická Čarnica. Po období útlumu se jeho činnost znovu výrazněji rozběhla v roce 1983. Hrabina navazuje na místní písně, tance, obřady a kroje, jejichž zachování je důležitou součástí identity Myslavy."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: středověká vesnice, kterou Košice získaly do svého hospodářského zázemí",
-          "text": "První písemná zmínka o Bašce pochází z roku 1247, kdy je uvedena jako Bosk a majetek Pouši z rodu Abovců. V roce 1427 měla deset hospodářských dvorů a roku 1447 ji Košice odkoupily do svého feudálního vlastnictví. Podle obecní kroniky se v 16. století stala součástí dřevařského a báňského zázemí města. Samostatná vesnice si zachovala vlastní historické jádro; připomíná je mimo jiné kostel sv. Štěpána Uherského."
         }
       ]
     },
@@ -257,6 +257,11 @@
           "id": "fact_001",
           "title": "Myslava: ein altes Dorf im Tal des eigenen Baches",
           "text": "Myslava entwickelte sich als eigenständige Gemeinde westlich von Košice; das Tal des Myslava-Baches prägt den Ort bis heute. Der Bachname ist bereits 1297 schriftlich belegt, die erste schriftliche Erwähnung der Gemeinde stammt aus dem Jahr 1382. Zum wirtschaftlichen Leben gehörten zwei Mühlen, die obere und die untere, die in Quellen von 1395 erwähnt werden. Trotz der späteren Eingemeindung hat Myslava ihren erkennbaren dörflichen Charakter bewahrt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška: ein mittelalterliches Dorf, das zum Wirtschaftsraum von Košice gehörte",
+          "text": "Die erste schriftliche Erwähnung von Baška stammt aus dem Jahr 1247, als der Ort als Bosk und Besitz von Pouš aus dem Geschlecht der Aba erwähnt wird. 1427 zählte das Dorf zehn bäuerliche Höfe; 1447 kaufte die Stadt Košice Baška als feudalen Besitz. Laut der Gemeindegeschichte gehörte der Ort im 16. Jahrhundert zum Holz- und Bergbauhinterland der Stadt. Das eigenständige Dorf hat seinen historischen Kern bewahrt, an den unter anderem die Kirche des heiligen Stephan von Ungarn erinnert."
         },
         {
           "id": "fact_002",
@@ -277,11 +282,6 @@
           "id": "fact_005",
           "title": "Die Folkloregruppe Hrabina bewahrt lokale Traditionen",
           "text": "Die Folkloregruppe Hrabina entstand 1955 auf Initiative der örtlichen Lehrerin Agnesa Vargová, die an der Grundschule eine Tanzgruppe gründete. Die Gruppe erzielte bald Erfolge bei Wettbewerben des volkstümlichen Kunstschaffens und wurde 1956 und 1957 besser bewertet als die bekannte Košicer Gruppe Čarnica. Nach einer ruhigeren Phase wurde ihre Tätigkeit 1983 wiederbelebt. Hrabina pflegt lokale Lieder, Tänze, Bräuche und Trachten, die einen wichtigen Teil der Identität von Myslava bilden."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: ein mittelalterliches Dorf, das zum Wirtschaftsraum von Košice gehörte",
-          "text": "Die erste schriftliche Erwähnung von Baška stammt aus dem Jahr 1247, als der Ort als Bosk und Besitz von Pouš aus dem Geschlecht der Aba erwähnt wird. 1427 zählte das Dorf zehn bäuerliche Höfe; 1447 kaufte die Stadt Košice Baška als feudalen Besitz. Laut der Gemeindegeschichte gehörte der Ort im 16. Jahrhundert zum Holz- und Bergbauhinterland der Stadt. Das eigenständige Dorf hat seinen historischen Kern bewahrt, an den unter anderem die Kirche des heiligen Stephan von Ungarn erinnert."
         }
       ]
     },
@@ -292,6 +292,11 @@
           "id": "fact_001",
           "title": "Myslava: an old village in the valley of its own stream",
           "text": "Myslava developed as an independent village west of Košice, and the valley of the Myslava Stream still defines its setting. The stream is mentioned in written sources as early as 1297, while the first written reference to the village dates to 1382. Its economic life included two mills, the upper and lower mills, documented in records from 1395. Despite its later incorporation into Košice, Myslava has retained a recognisable village character."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška: a medieval village that became part of Košice’s economic hinterland",
+          "text": "Baška is first mentioned in writing in 1247, when it appears as Bosk and as property of Pouš from the Aba family. In 1427 the village had ten farmsteads, and in 1447 the city of Košice acquired it as a feudal possession. According to the municipality’s history, Baška became part of Košice’s timber and mining hinterland in the 16th century. The village has retained its own historic core, marked in part by the Church of St Stephen of Hungary."
         },
         {
           "id": "fact_002",
@@ -312,11 +317,6 @@
           "id": "fact_005",
           "title": "The Hrabina folk ensemble preserves local traditions",
           "text": "The Hrabina folk ensemble was founded in 1955 by local teacher Agnesa Vargová, who established a dance group at the primary school. It soon achieved success in folk-art competitions and was rated higher than the well-known Košice ensemble Čarnica in 1956 and 1957. After a period of reduced activity, the group was revived in 1983. Hrabina continues local songs, dances, ceremonies and traditional costumes, an important part of Myslava’s identity."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: a medieval village that became part of Košice’s economic hinterland",
-          "text": "Baška is first mentioned in writing in 1247, when it appears as Bosk and as property of Pouš from the Aba family. In 1427 the village had ten farmsteads, and in 1447 the city of Košice acquired it as a feudal possession. According to the municipality’s history, Baška became part of Košice’s timber and mining hinterland in the 16th century. The village has retained its own historic core, marked in part by the Church of St Stephen of Hungary."
         }
       ]
     },
@@ -327,6 +327,11 @@
           "id": "fact_001",
           "title": "Myslava: un antiguo pueblo en el valle de su propio arroyo",
           "text": "Myslava se desarrolló como pueblo independiente al oeste de Košice y el valle del arroyo Myslava sigue definiendo su paisaje. El arroyo aparece en documentos escritos ya en 1297, mientras que la primera mención escrita del pueblo data de 1382. Su economía incluía dos molinos, el superior y el inferior, documentados en fuentes de 1395. A pesar de su posterior incorporación a Košice, Myslava ha conservado un carácter rural reconocible."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška: una aldea medieval incorporada al hinterland económico de Košice",
+          "text": "La primera mención escrita de Baška data de 1247, cuando aparece como Bosk y propiedad de Pouš, de la familia Aba. En 1427 la aldea contaba con diez explotaciones agrícolas y, en 1447, la ciudad de Košice la adquirió como posesión feudal. Según la historia municipal, en el siglo XVI Baška pasó a formar parte del entorno maderero y minero de Košice. La localidad ha conservado su propio núcleo histórico, cuyo perfil recuerda, entre otros edificios, la iglesia de San Esteban de Hungría."
         },
         {
           "id": "fact_002",
@@ -347,11 +352,6 @@
           "id": "fact_005",
           "title": "El conjunto folclórico Hrabina conserva las tradiciones locales",
           "text": "El conjunto folclórico Hrabina nació en 1955 por iniciativa de la maestra local Agnesa Vargová, que fundó un grupo de danza en la escuela primaria. Pronto obtuvo éxitos en concursos de arte popular y en 1956 y 1957 recibió mejores valoraciones que el conocido conjunto Čarnica de Košice. Tras un periodo de menor actividad, el grupo se reactivó en 1983. Hrabina mantiene vivas las canciones, danzas, ceremonias y vestimentas tradicionales locales, una parte importante de la identidad de Myslava."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: una aldea medieval incorporada al hinterland económico de Košice",
-          "text": "La primera mención escrita de Baška data de 1247, cuando aparece como Bosk y propiedad de Pouš, de la familia Aba. En 1427 la aldea contaba con diez explotaciones agrícolas y, en 1447, la ciudad de Košice la adquirió como posesión feudal. Según la historia municipal, en el siglo XVI Baška pasó a formar parte del entorno maderero y minero de Košice. La localidad ha conservado su propio núcleo histórico, cuyo perfil recuerda, entre otros edificios, la iglesia de San Esteban de Hungría."
         }
       ]
     },
@@ -362,6 +362,11 @@
           "id": "fact_001",
           "title": "Myslava : un ancien village dans la vallée de son ruisseau",
           "text": "Myslava s’est développée comme village indépendant à l’ouest de Košice, et la vallée du ruisseau Myslava définit encore son paysage. Le ruisseau est mentionné dans des documents dès 1297, tandis que la première mention écrite du village date de 1382. Son économie comptait deux moulins, l’un supérieur et l’autre inférieur, attestés dans des sources de 1395. Malgré son intégration ultérieure à Košice, Myslava a conservé un caractère villageois bien identifiable."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška : un village médiéval intégré à l’arrière-pays économique de Košice",
+          "text": "La première mention écrite de Baška date de 1247, lorsque le lieu apparaît sous le nom de Bosk comme possession de Pouš, de la famille Aba. En 1427, le village comptait dix exploitations agricoles et, en 1447, la ville de Košice l’acquit comme possession féodale. Selon l’histoire communale, Baška fit partie au XVIe siècle de l’arrière-pays forestier et minier de Košice. Le village a conservé son propre noyau historique, marqué notamment par l’église Saint-Étienne de Hongrie."
         },
         {
           "id": "fact_002",
@@ -382,11 +387,6 @@
           "id": "fact_005",
           "title": "L’ensemble folklorique Hrabina préserve les traditions locales",
           "text": "L’ensemble folklorique Hrabina fut fondé en 1955 à l’initiative de l’institutrice locale Agnesa Vargová, qui créa un groupe de danse à l’école primaire. Il obtint rapidement de bons résultats dans les concours d’art populaire et fut mieux noté que le célèbre ensemble Čarnica de Košice en 1956 et 1957. Après une période de moindre activité, le groupe reprit son élan en 1983. Hrabina perpétue les chants, danses, cérémonies et costumes traditionnels locaux, qui constituent une part importante de l’identité de Myslava."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška : un village médiéval intégré à l’arrière-pays économique de Košice",
-          "text": "La première mention écrite de Baška date de 1247, lorsque le lieu apparaît sous le nom de Bosk comme possession de Pouš, de la famille Aba. En 1427, le village comptait dix exploitations agricoles et, en 1447, la ville de Košice l’acquit comme possession féodale. Selon l’histoire communale, Baška fit partie au XVIe siècle de l’arrière-pays forestier et minier de Košice. Le village a conservé son propre noyau historique, marqué notamment par l’église Saint-Étienne de Hongrie."
         }
       ]
     },
@@ -397,6 +397,11 @@
           "id": "fact_001",
           "title": "Myslava: un antico villaggio nella valle del suo torrente",
           "text": "Myslava si sviluppò come villaggio indipendente a ovest di Košice e la valle del torrente Myslava ne caratterizza ancora il paesaggio. Il torrente è citato in documenti scritti già nel 1297, mentre la prima menzione scritta del villaggio risale al 1382. L’economia locale comprendeva due mulini, uno superiore e uno inferiore, documentati in fonti del 1395. Nonostante la successiva annessione a Košice, Myslava ha conservato un riconoscibile carattere rurale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška: un villaggio medievale entrato nell’entroterra economico di Košice",
+          "text": "La prima menzione scritta di Baška risale al 1247, quando compare con il nome di Bosk come proprietà di Pouš della famiglia Aba. Nel 1427 il villaggio contava dieci aziende agricole e nel 1447 la città di Košice lo acquistò come possedimento feudale. Secondo la storia comunale, nel XVI secolo Baška entrò a far parte dell’entroterra forestale e minerario di Košice. Il villaggio ha conservato il proprio nucleo storico, ricordato tra l’altro dalla chiesa di Santo Stefano d’Ungheria."
         },
         {
           "id": "fact_002",
@@ -417,11 +422,6 @@
           "id": "fact_005",
           "title": "Il gruppo folkloristico Hrabina conserva le tradizioni locali",
           "text": "Il gruppo folkloristico Hrabina nacque nel 1955 su iniziativa dell’insegnante locale Agnesa Vargová, che fondò un gruppo di danza presso la scuola primaria. Ottenne presto successi nelle competizioni di arte popolare e nel 1956 e 1957 fu valutato meglio del noto gruppo Čarnica di Košice. Dopo un periodo di minore attività, il gruppo riprese slancio nel 1983. Hrabina mantiene vive le canzoni, le danze, le cerimonie e i costumi tradizionali locali, elementi importanti dell’identità di Myslava."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: un villaggio medievale entrato nell’entroterra economico di Košice",
-          "text": "La prima menzione scritta di Baška risale al 1247, quando compare con il nome di Bosk come proprietà di Pouš della famiglia Aba. Nel 1427 il villaggio contava dieci aziende agricole e nel 1447 la città di Košice lo acquistò come possedimento feudale. Secondo la storia comunale, nel XVI secolo Baška entrò a far parte dell’entroterra forestale e minerario di Košice. Il villaggio ha conservato il proprio nucleo storico, ricordato tra l’altro dalla chiesa di Santo Stefano d’Ungheria."
         }
       ]
     },
@@ -432,6 +432,11 @@
           "id": "fact_001",
           "title": "Myslava: een oud dorp in het dal van zijn eigen beek",
           "text": "Myslava ontwikkelde zich als zelfstandig dorp ten westen van Košice; het dal van de Myslava-beek bepaalt nog steeds het landschap. De beek wordt al in 1297 in schriftelijke bronnen genoemd, terwijl de eerste schriftelijke vermelding van het dorp uit 1382 dateert. Het economische leven omvatte twee molens, de bovenste en de onderste, die in bronnen uit 1395 worden vermeld. Ondanks de latere inlijving bij Košice heeft Myslava een herkenbaar dorpskarakter behouden."
+        },
+        {
+          "id": "fact_006",
+          "title": "Baška: een middeleeuws dorp dat deel werd van het economische achterland van Košice",
+          "text": "Baška wordt voor het eerst schriftelijk vermeld in 1247, toen de plaats als Bosk en als bezit van Pouš uit de familie Aba werd genoemd. In 1427 telde het dorp tien boerderijen en in 1447 verwierf de stad Košice het als feodaal bezit. Volgens de gemeentelijke geschiedenis maakte Baška in de 16e eeuw deel uit van het hout- en mijnbouwachterland van Košice. Het dorp heeft zijn eigen historische kern behouden, waaraan onder meer de Sint-Stefanuskerk herinnert."
         },
         {
           "id": "fact_002",
@@ -452,11 +457,6 @@
           "id": "fact_005",
           "title": "Volksdansgroep Hrabina bewaart de plaatselijke tradities",
           "text": "De volksdansgroep Hrabina werd in 1955 opgericht op initiatief van de plaatselijke onderwijzeres Agnesa Vargová, die een dansgroep aan de basisschool vormde. De groep boekte al snel successen bij wedstrijden voor volkskunst en werd in 1956 en 1957 hoger beoordeeld dan het bekende Košice-ensemble Čarnica. Na een periode van minder activiteit kwam de groep in 1983 opnieuw tot bloei. Hrabina houdt plaatselijke liederen, dansen, gebruiken en klederdracht levend, een belangrijk onderdeel van de identiteit van Myslava."
-        },
-        {
-          "id": "fact_006",
-          "title": "Baška: een middeleeuws dorp dat deel werd van het economische achterland van Košice",
-          "text": "Baška wordt voor het eerst schriftelijk vermeld in 1247, toen de plaats als Bosk en als bezit van Pouš uit de familie Aba werd genoemd. In 1427 telde het dorp tien boerderijen en in 1447 verwierf de stad Košice het als feodaal bezit. Volgens de gemeentelijke geschiedenis maakte Baška in de 16e eeuw deel uit van het hout- en mijnbouwachterland van Košice. Het dorp heeft zijn eigen historische kern behouden, waaraan onder meer de Sint-Stefanuskerk herinnert."
         }
       ]
     }
