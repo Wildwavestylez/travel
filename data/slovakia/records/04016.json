@@ -24,7 +24,16 @@
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_16fb0167-9727-4db0-9537-ff8a37241380",
         "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
       ],
-      "map_category": "historic_city"
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické jadro Myslavy – orientačný bod pri kostole sv. Bartolomeja",
+        "lat": 48.707452,
+        "lon": 21.206848,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.myslava.eu/kostol-svateho-bartolomeja.html",
+        "address": "Pod horou, 040 16 Košice, Slovensko"
+      }
     },
     {
       "id": "fact_002",
@@ -58,7 +67,16 @@
         "https://www.myslava.eu/historia-farnosti-0.html",
         "https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Jesenak/2017/13_cast_jesenak.pdf"
       ],
-      "map_category": "technical_heritage"
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Maša – orientačný bod pri zastávke v mieste niekdajšej železiarne",
+        "lat": 48.7169444444,
+        "lon": 21.1888888889,
+        "type": "historic_industrial_site",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/n664692610",
+        "address": "Myslavská 296A, 040 16 Košice, Slovensko"
+      }
     },
     {
       "id": "fact_004",
@@ -70,7 +88,8 @@
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_16fb0167-9727-4db0-9537-ff8a37241380",
         "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
       ],
-      "map_category": "local_culture"
+      "map_category": "local_culture",
+      "location": null
     },
     {
       "id": "fact_005",
@@ -82,7 +101,8 @@
         "https://www.myslava.eu/tradicie-a-folklor-.html",
         "https://www.myslava.eu/zakladne-informacie-o-myslave.html"
       ],
-      "map_category": "local_culture"
+      "map_category": "local_culture",
+      "location": null
     }
   ],
   "photo": null,
@@ -150,6 +170,11 @@
       "title": "Univerzita Komenského – historická železiareň Maša v Myslave",
       "url": "https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Jesenak/2017/13_cast_jesenak.pdf",
       "type": "university"
+    },
+    {
+      "title": "OMA / OpenStreetMap – zastávka Maša, Myslava, orientačná poloha historickej lokality",
+      "url": "https://poi.oma.sk/n664692610",
+      "type": "regional"
     }
   ],
   "translations": {
