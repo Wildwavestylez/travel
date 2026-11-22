@@ -150,3 +150,19 @@ Oficiální místní název `Nad Begányiho mlynom` v Barci byl ponechán v pův
 - Neon/Supabase nebyl změněn.
 
 **Audit result: PASS — 11/11 Košice 040xx records checked; 69 facts; 66 mapped facts; 3 deliberately unmapped facts; seven language branches aligned; no structural errors; publication not authorized or performed.**
+
+## 7. Publikace Europe Explorer V5 — dokončeno
+
+Na základě výslovného schválení byla dne 2026-11-22 provedena publikace všech 11 auditovaných PSČ:
+
+`04001, 04011, 04012, 04013, 04014, 04015, 04016, 04017, 04018, 04022, 04023`
+
+- Všech 11 canonical JSON záznamů má po read-back ověření `status: "published"` a `data_version: 5`.
+- Všech 11 odpovídajících položek v `database_index.json` má `status: "published"`.
+- `explorer_index.json` byl úspěšně přegenerován: `count: 130`, `map_point_count: 767`, `status: "published"`, `data_version: 5`.
+- Všech 66 mapovaných faktů z Košic bylo porovnáno s mapovými dlaždicemi v `7/71/44` a `8/143/88`: 66/66 shod v každé úrovni, 0 nesouladů.
+- Build workflow `Build Slovakia Europe Explorer index`: run [45076908424](https://github.com/Wildwavestylez/travel/actions/runs/45076908424) — completed / success.
+- GitHub Pages deployment `Deploy travel`: run [45076908434](https://github.com/Wildwavestylez/travel/actions/runs/45076908434) — completed / success.
+- Neon / Supabase nebyl změněn.
+
+**Publication result: PASS — 11/11 Košice records published as Europe Explorer V5; database index, generated explorer index and map tiles verified; GitHub Pages deployment succeeded; Neon untouched.**
