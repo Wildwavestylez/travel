@@ -156,15 +156,23 @@
     {
       "id": "fact_008",
       "title": "Ďurďové: slovanské pohřebiště z období Velké Moravy",
-      "text": "Na území obce Ďurďové bylo objeveno slovanské pohřebiště datované do 9. století, tedy do období Velké Moravy. Nález dokládá raně středověké osídlení této části Pováží. Obecní historický přehled uvádí první písemnou zmínku o Ďurďovém z roku 1338, kdy se lokalita připomíná v souvislosti s majetkem benediktinského opatství na Skalce u Trenčína. Přesná poloha pohřebiště není v dostupných podkladech určena, proto není zobrazena jako konkrétní archeologický bod.",
+      "text": "Na území obce Ďurďové bylo objeveno slovanské pohřebiště datované do 9. století, tedy do období Velké Moravy. Nález dokládá raně středověké osídlení této části Pováží. Obecní historický přehled uvádí první písemnou zmínku o Ďurďovém z roku 1338, kdy se lokalita připomíná v souvislosti s majetkem benediktinského opatství na Skalce u Trenčína. Přesná poloha pohřebiště není v dostupných podkladech určena; mapový bod proto označuje pouze orientační polohu ve středu obce, nikoli místo samotného pohřebiště.",
       "category": "history",
       "priority": "C",
       "sources": [
         "https://durdove.eu/o-obci/",
-        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_990c5d6d-ca40-4880-a585-d7c7d1ffaee7"
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_990c5d6d-ca40-4880-a585-d7c7d1ffaee7",
+        "https://www.enviroportal.sk/eia/dokument/266694"
       ],
       "map_category": "archaeological_site",
-      "location": null
+      "location": {
+        "name": "Ďurďové – orientačný bod v strede obce, nie presná poloha pohrebiska",
+        "lat": 49.0342139,
+        "lon": 18.4956889,
+        "type": "historic_village",
+        "accuracy": "historical_approximate",
+        "source": "https://www.enviroportal.sk/eia/dokument/266694"
+      }
     },
     {
       "id": "fact_009",
@@ -409,6 +417,11 @@
       "title": "Obecný úrad Pružina – poloha (OSM)",
       "url": "https://poi.oma.sk/w73466464",
       "type": "other"
+    },
+    {
+      "title": "Enviroportal – EIA documentation with the geographic centre of Ďurďové",
+      "url": "https://www.enviroportal.sk/eia/dokument/266694",
+      "type": "official"
     }
   ],
   "translations": {
@@ -453,7 +466,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: slovanské pohřebiště z období Velké Moravy",
-          "text": "Na území obce Ďurďové bylo objeveno slovanské pohřebiště datované do 9. století, tedy do období Velké Moravy. Nález dokládá raně středověké osídlení této části Pováží. Obecní historický přehled uvádí první písemnou zmínku o Ďurďovém z roku 1338, kdy se lokalita připomíná v souvislosti s majetkem benediktinského opatství na Skalce u Trenčína. Přesná poloha pohřebiště není v dostupných podkladech určena, proto není zobrazena jako konkrétní archeologický bod."
+          "text": "Na území obce Ďurďové bylo objeveno slovanské pohřebiště datované do 9. století, tedy do období Velké Moravy. Nález dokládá raně středověké osídlení této části Pováží. Obecní historický přehled uvádí první písemnou zmínku o Ďurďovém z roku 1338, kdy se lokalita připomíná v souvislosti s majetkem benediktinského opatství na Skalce u Trenčína. Přesná poloha pohřebiště není v dostupných podkladech určena; mapový bod proto označuje pouze orientační polohu ve středu obce, nikoli místo samotného pohřebiště."
         },
         {
           "id": "fact_009",
@@ -513,7 +526,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: slawisches Gräberfeld aus großmährischer Zeit",
-          "text": "In Ďurďové wurde ein slawisches Gräberfeld aus dem 9. Jahrhundert entdeckt. Der Fund belegt frühmittelalterliche Besiedlung in diesem Teil des Waagtals. Die Gemeindegeschichte nennt 1338 als erste schriftliche Erwähnung; damals wurde der Ort im Zusammenhang mit Besitz des Benediktinerklosters Skalka bei Trenčín erwähnt. Die genaue Lage des Gräberfeldes ist nicht bekannt und wird deshalb nicht als konkreter Kartenpunkt dargestellt."
+          "text": "In Ďurďové wurde ein slawisches Gräberfeld aus dem 9. Jahrhundert entdeckt. Der Fund belegt frühmittelalterliche Besiedlung in diesem Teil des Waagtals. Die Gemeindegeschichte nennt 1338 als erste schriftliche Erwähnung; damals wurde der Ort im Zusammenhang mit Besitz des Benediktinerklosters Skalka bei Trenčín erwähnt. Die genaue Lage des Gräberfeldes ist in den verfügbaren Unterlagen nicht bestimmt; der Kartenpunkt kennzeichnet daher nur einen Orientierungspunkt im Ortszentrum und nicht das Gräberfeld selbst."
         },
         {
           "id": "fact_009",
@@ -573,7 +586,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: a Slavic burial ground from the Great Moravian period",
-          "text": "A Slavic burial ground dating to the 9th century has been discovered in Ďurďové. It documents early medieval settlement in this part of the Váh region. The municipal history gives 1338 as the first written reference, when the place was mentioned in connection with the Benedictine monastery at Skalka near Trenčín. The precise location of the burial ground is unknown, so it is not shown as a specific map point."
+          "text": "A Slavic burial ground dating to the 9th century has been discovered in Ďurďové. It documents early medieval settlement in this part of the Váh region. The municipal history gives 1338 as the first written reference, when the place was mentioned in connection with the Benedictine monastery at Skalka near Trenčín. The available sources do not establish the exact location of the burial ground; the map marker therefore identifies only an orientation point in the village centre, not the burial site itself."
         },
         {
           "id": "fact_009",
@@ -633,7 +646,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: necrópolis eslava del periodo de la Gran Moravia",
-          "text": "En Ďurďové se descubrió una necrópolis eslava del siglo IX, que documenta el poblamiento altomedieval de esta parte de la región del Váh. La historia municipal sitúa en 1338 la primera mención escrita, cuando el lugar aparece relacionado con las propiedades del monasterio benedictino de Skalka, cerca de Trenčín. No se conoce la ubicación exacta de la necrópolis, por lo que no se representa como punto concreto en el mapa."
+          "text": "En Ďurďové se descubrió una necrópolis eslava del siglo IX, que documenta el poblamiento altomedieval de esta parte de la región del Váh. La historia municipal sitúa en 1338 la primera mención escrita, cuando el lugar aparece relacionado con las propiedades del monasterio benedictino de Skalka, cerca de Trenčín. Las fuentes disponibles no determinan la ubicación exacta de la necrópolis; por ello, el punto del mapa señala únicamente un lugar de referencia en el centro del pueblo, no el propio cementerio."
         },
         {
           "id": "fact_009",
@@ -693,7 +706,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové : nécropole slave de l’époque de la Grande-Moravie",
-          "text": "Une nécropole slave du IXe siècle a été découverte à Ďurďové ; elle atteste l’occupation du haut Moyen Âge dans cette partie de la région du Váh. L’histoire communale donne 1338 comme première mention écrite, en lien avec les biens du monastère bénédictin de Skalka, près de Trenčín. L’emplacement exact de la nécropole n’est pas connu ; elle n’est donc pas représentée comme un point précis sur la carte."
+          "text": "Une nécropole slave du IXe siècle a été découverte à Ďurďové ; elle atteste l’occupation du haut Moyen Âge dans cette partie de la région du Váh. L’histoire communale donne 1338 comme première mention écrite, en lien avec les biens du monastère bénédictin de Skalka, près de Trenčín. Les sources disponibles ne permettent pas d'établir l'emplacement exact de la nécropole ; le point cartographique indique donc uniquement un repère au centre du village, et non le site funéraire lui-même."
         },
         {
           "id": "fact_009",
@@ -753,7 +766,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: necropoli slava dell'epoca della Grande Moravia",
-          "text": "A Ďurďové è stata scoperta una necropoli slava del IX secolo, che documenta l'insediamento altomedievale in questa parte della regione del Váh. La storia comunale indica il 1338 come prima menzione scritta, collegata ai possedimenti del monastero benedettino di Skalka, vicino a Trenčín. La posizione precisa della necropoli non è nota, quindi non viene indicata sulla mappa come punto specifico."
+          "text": "A Ďurďové è stata scoperta una necropoli slava del IX secolo, che documenta l'insediamento altomedievale in questa parte della regione del Váh. La storia comunale indica il 1338 come prima menzione scritta, collegata ai possedimenti del monastero benedettino di Skalka, vicino a Trenčín. Le fonti disponibili non determinano l'ubicazione esatta della necropoli; il punto sulla mappa indica quindi soltanto un riferimento nel centro del paese, non il sito funerario stesso."
         },
         {
           "id": "fact_009",
@@ -813,7 +826,7 @@
         {
           "id": "fact_008",
           "title": "Ďurďové: Slavische begraafplaats uit de Groot-Moravische periode",
-          "text": "In Ďurďové is een Slavische begraafplaats uit de 9e eeuw ontdekt. De vondst documenteert vroegmiddeleeuwse bewoning in dit deel van de Váh-regio. De gemeentelijke geschiedenis noemt 1338 als eerste schriftelijke vermelding, toen de plaats in verband werd gebracht met bezittingen van het benedictijnenklooster Skalka bij Trenčín. De exacte ligging van de begraafplaats is onbekend; daarom staat zij niet als concreet punt op de kaart."
+          "text": "In Ďurďové is een Slavische begraafplaats uit de 9e eeuw ontdekt. De vondst documenteert vroegmiddeleeuwse bewoning in dit deel van de Váh-regio. De gemeentelijke geschiedenis noemt 1338 als eerste schriftelijke vermelding, toen de plaats in verband werd gebracht met bezittingen van het benedictijnenklooster Skalka bij Trenčín. De beschikbare bronnen bepalen de exacte ligging van de begraafplaats niet; de kaartmarkering geeft daarom alleen een oriëntatiepunt in het dorpscentrum aan, niet de begraafplaats zelf."
         },
         {
           "id": "fact_009",
