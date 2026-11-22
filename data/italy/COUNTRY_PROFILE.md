@@ -61,7 +61,7 @@ This digit structure is useful for understanding and checking CAP values, but it
 
 Poste Italiane distinguishes ordinary locality CAPs and urban CAP zones. Larger provincial capitals may have multiple CAP zones. Smaller provincial capitals may use a single CAP ending in `00`. There are also patterns in which a final zero represents a group of municipalities rather than one individual Comune. Treat the actual published assignment as authoritative.
 
-Use a current, reliable CAP inventory when preparing the national sequence. Check the source version during initial inventory preparation and refresh the list if a relevant official update is encountered. The project does not need a separate historical CAP change-management system for ordinary content production.
+Use the project's approved CAP inventory/sequence to identify the records in scope. Ordinary content production does not monitor, reconcile or apply subsequent postal updates. The project is a geographic-content and discovery database, not a live postal directory.
 
 A PO-box or organisation using an ordinary geographic CAP does not make that CAP non-geographic. Do not exclude a CAP merely because it may also be used in a postal address for an organisation or a casella postale. A postal box is an addressee/delivery arrangement, not by itself proof of a separate postcode territory. Conversely, do not assume that every numeric pattern is a valid geographic CAP: verify the actual postal assignment.
 
