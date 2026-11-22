@@ -22,7 +22,7 @@ Rework existing Slovak geographic PSČ records into the current Slovak productio
 - Work only on the intended Slovak JSON record in `Wildwavestylez/travel`.
 - The canonical identity is the exact five-digit `postcode` and its file path `data/slovakia/records/{postcode}.json`; do not add a `country_code` field.
 - Update the existing JSON file for its exact postcode; do not create duplicate files or new postcode records during ordinary rework.
-- Preserve the existing file identity, fact IDs, source IDs and unrelated content.
+- Preserve the existing file identity, fact IDs, source URLs and unrelated content.
 - Do not modify Czech or German records, schemas, prompts, standards, sequence files or country data.
 - Do not change the Slovak schema during ordinary rework, or modify application code or shared architecture.
 - Do not create ad hoc fields, categories, enums, lifecycle states or language variants. Use only the schema-defined `status` and optional `data_version` fields for the agreed lifecycle.
@@ -373,12 +373,12 @@ Before saving, compare the seven versions side by side for factual equivalence, 
 
 Prefer primary and official sources, the institution responsible for the subject, the relevant municipality or region, national-park administration, Slovak heritage authority, museums, archives, universities and specialist institutions. Use reputable specialist and regional sources for corroboration and detail.
 
-- Every fact's source IDs must resolve to the record's top-level `sources` array.
+- Every fact's source URLs must exactly match URLs in the record's top-level `sources` array.
 - Every source must support the specific claim for which it is cited.
 - A source mentioning only the wider town/region does not prove a specific site's location or a fact's claims.
 - The `location.source` URL must directly support the chosen map point.
 - Use direct, valid and traceable URLs.
-- Never invent facts, citations, source IDs, URLs, authors or publication details.
+- Never invent facts, citations, source URLs, authors or publication details.
 - Do not collect sources merely to increase their number.
 - Record unresolved material evidence gaps honestly.
 
@@ -390,7 +390,7 @@ Use a photo only if it genuinely represents the record or an important fact and 
 
 Follow the exact Slovak schema for every field, required property, type, enum and nullability. Do not add research notes, candidate lists, coverage ledgers, editorial comments or unsupported metadata to production JSON unless the schema explicitly permits them. Keep working notes outside the production record.
 
-Every source ID must resolve. Every non-null fact location must have the exact required structure and controlled values. Every translation must preserve the corresponding fact identity and order. Do not alter the shared record architecture.
+Every cited source URL must resolve to a matching top-level `sources[].url`. Every non-null fact location must have the exact required structure and controlled values. Every translation must preserve the corresponding fact identity and order. Do not alter the shared record architecture.
 
 ## 10. Basic validation, save and completion
 
@@ -410,7 +410,7 @@ Perform one final basic validation pass after the editorial, geographic and tran
 - every fact has an explicit `location` property and exactly one valid `map_category`;
 - every non-null location has valid WGS84 coordinates, name, type, accuracy and supporting location source;
 - `null` is retained only after applying the full fallback hierarchy;
-- all source IDs resolve to top-level sources;
+- all fact source URLs match top-level `sources[].url` values;
 - the Czech original and all seven language versions are complete, aligned by fact ID/order and independently understandable;
 - IDs are unique and conform to the schema;
 - photo metadata is valid or `null`;
