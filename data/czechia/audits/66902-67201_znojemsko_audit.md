@@ -131,7 +131,9 @@ U konkrétních objektů jsou použity ověřené body; u rozlehlých lokalit re
 - **Dropbox backup VERIFIED:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_ZNOJEMSKO_66902-67201_2026-11-22T14-17-52-239Z/`.
 - Záloha obsahuje `CZ_AUDIT_ZNOJEMSKO_66902-67201_backup.json` (3 383 767 B), `CZ_AUDIT_ZNOJEMSKO_66902-67201_restore.sql` (3 043 318 B) a `manifest.json` (3 047 B). Všechny 3 soubory byly z Dropboxu znovu načteny a SHA-256 se shoduje 3/3; manifest `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=47`.
 - Supabase `backup_work_waves`: `CZ-AUDIT-ZNOJEMSKO-66902-67201-001` → `COMPLETE`; `backup_snapshots` → `VERIFIED`.
-- Read-only zámek nebyl aktivován. Neon databáze nebyla změněna.
+- **Neon Europe Explorer / Production / `public.czechia_cap_records`: RESTORED** — 47/47 přesných PSČ vloženo insert-only v 5 dávkách; před importem 0 kolizí PSČ a 0 kolizí `source_record_id`; žádný existující řádek nebyl přepsán. Read-back: 47/47 `published` + `content_version=5`, 378/378 faktů, 378/378 poloh, všech 7 jazyků kompletních, `record.postcode` shoduje v 47/47. Celkový počet českých záznamů 793 → 840.
+- Předimportní Neon snapshot větev: `pre-znojemsko-import-20261122` (`br-fancy-credit-bgn9ps8o`), ověřeno 793 řádků a 0 znojemských PSČ; větev zůstává zachována.
+- Dropbox záloha zůstala beze změny. Read-only zámek nebyl aktivován.
 - Audit, V5 publikace a záloha jsou dokončeny. Další provozní kroky se provedou pouze na výslovný pokyn uživatele.
 
 ## 7. Použité hlavní zdroje
