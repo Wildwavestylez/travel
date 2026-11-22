@@ -373,7 +373,7 @@ A commercial entity may be included only when the fact is about an independently
 
 ## 21. Source and evidence standard
 
-Every fact must cite one or more source IDs in `facts[].sources`. Each ID must resolve to an item in the record's top-level `sources` array. Each source item must comply with the schema.
+Every fact must cite one or more source URLs in `facts[].sources`. Each URL must exactly match the `url` of an item in the record's top-level `sources` array. Store source objects using only the schema-defined `title`, `url` and `type` fields; do not add source IDs.
 
 Prefer primary and official sources:
 - the responsible municipality or regional authority;
@@ -391,7 +391,7 @@ The source must support the actual claim. A source that merely mentions a place 
 
 Use direct, stable URLs to the page or document supporting the claim. Avoid search-result URLs, tracking links, session-dependent URLs and unnecessary URL shorteners. Preserve valid URL encoding. Check that the URL is syntactically valid and points to the intended source.
 
-Do not invent source titles, URLs, publication dates, authors or institutional affiliations. If a source is inaccessible, do not claim to have checked its contents. A source ID must be unique within the record and consistently referenced.
+Do not invent source titles, URLs, publication dates, authors or institutional affiliations. If a source is inaccessible, do not claim to have checked its contents. A source URL must appear only once in the record's top-level `sources` array and must be referenced directly in `facts[].sources`.
 
 ### 21.2 Evidence strength
 
@@ -520,7 +520,7 @@ Follow the exact schema for every field, required property, type, enum and nulla
 
 Fact IDs must follow the pattern required by the schema and be unique within the record. Keep IDs stable when preserving an existing fact. Do not renumber facts casually or create duplicate IDs.
 
-Every fact's source IDs must resolve to the record's top-level `sources`. Every non-null location must use the exact location object structure and controlled values. Every translation must preserve the corresponding fact identity and order.
+Every fact's source URLs must exactly match URLs in the record's top-level `sources` array. Every non-null location must use the exact location object structure and controlled values. Every translation must preserve the corresponding fact identity and order.
 
 Do not add research notes, candidate lists, audit ledgers, editorial comments or unsupported metadata to production JSON unless the schema explicitly permits them. Keep working notes outside the production record.
 
@@ -642,8 +642,8 @@ Before a record is declared complete, verify all areas below.
 - Has `null` been retained only after applying the fallback hierarchy?
 
 ### 28.6 Evidence
-- Does every fact have valid source IDs?
-- Does every ID resolve to a top-level source?
+- Does every fact cite valid source URLs that match the top-level `sources[].url` values?
+- Does every cited URL resolve to a top-level `sources[].url` value?
 - Do sources support the claims they are cited for?
 - Are primary and official sources used where available?
 - Are important claims corroborated appropriately?
@@ -662,7 +662,7 @@ Before a record is declared complete, verify all areas below.
 - Are all required fields present?
 - Are all types, enums, patterns and null values valid?
 - Are there no undocumented properties?
-- Are IDs unique and source references resolvable?
+- Are source URLs unique in the top-level list and are all fact references resolvable?
 - Are the translations structurally complete?
 
 A record with a material unresolved postal, geographic, factual, source or translation issue is not complete. Do not mark verification as successful unless the relevant check was actually performed.
