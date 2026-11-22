@@ -194,15 +194,9 @@ Do not spend disproportionate research effort inventing an access point solely f
 
 Use the Italian authority appropriate to the specific claim. No single institution is authoritative for every layer.
 
-### Postal codes and postal geography
+### CAP identifiers and content geography
 
-**Poste Italiane** is the primary source for:
-- the official CAP system and five-digit structure;
-- the project's approved CAP inventory as record identifiers;
-- physical geographic and administrative evidence for content placement;
-
-
-Use the official CAP page and its dated update publications. **The latest currently effective official Poste Italiane publications and datasets are binding and authoritative for all CAP assignment decisions. If a current official Poste Italiane publication supersedes an older Poste Italiane document, use the newer publication and disregard the older information; do not spend time reconciling, defending or researching obsolete assignments from superseded material.** Apply the latest published changes according to their stated effective dates and transition rules. If two currently effective official Poste Italiane sources genuinely conflict and neither clearly supersedes the other, record that precise conflict and pause the affected CAP decision rather than relying on older documents or third-party directories. Third-party CAP directories and historical documents may not override the current official Poste Italiane position. Research into branch operators, opening/closure status, opening hours, service catalogues and delivery arrangements is out of scope; these are not EuropeExplorer content.
+The approved project CAP inventory/sequence identifies the records processed by EuropeExplorer. The project is a geographic-content and discovery database, not a live postal directory. Do not monitor or apply postal update notices, effective dates, branch changes, delivery arrangements or commercial postal datasets during ordinary content production. Use ISTAT for official Comune names and administrative classifications, and competent municipal, address and geographic sources for physical locations. If a fact's relationship to the assigned content area is unclear, flag that specific fact for review; do not block unrelated content or demand a postal update.
 
 ### Administrative units and boundaries
 
