@@ -4,8 +4,8 @@
   "status": "published",
   "source_of_truth": "data/slovakia/records/{postcode}.json",
   "generated_from": "Canonical Slovak record JSON files; include only records with data_version 5 and status published",
-  "count": 119,
-  "map_point_count": 701,
+  "count": 120,
+  "map_point_count": 713,
   "records": [
     {
       "postcode": "01001",
@@ -918,6 +918,19 @@
       "data_version": 5
     },
     {
+      "postcode": "04001",
+      "city": "Košice",
+      "district": "Košice - Staré Mesto",
+      "county": "Košice I",
+      "state": "Košický kraj",
+      "representative_point": {
+        "lat": 48.722562,
+        "lon": 21.25625
+      },
+      "status": "published",
+      "data_version": 5
+    },
+    {
       "postcode": "81101",
       "city": "Bratislava",
       "district": "Staré Mesto",
@@ -1570,9 +1583,11 @@
     "6/35/22",
     "7/70/43",
     "7/70/44",
+    "7/71/44",
     "8/140/87",
     "8/140/88",
-    "8/141/87"
+    "8/141/87",
+    "8/143/88"
   ],
   "random_tiles": [
     {
@@ -1582,6 +1597,10 @@
     {
       "key": "8/140/87",
       "count": 84
+    },
+    {
+      "key": "8/143/88",
+      "count": 12
     },
     {
       "key": "8/140/88",
