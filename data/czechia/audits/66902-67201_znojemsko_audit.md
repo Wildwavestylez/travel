@@ -80,12 +80,11 @@ Po doplnění čtyř faktů:
 ## 5. Otevřené nálezy — důvod stavu REVIEW REQUIRED
 
 ### 5.1 Krátké české master texty
-Původně bylo zjištěno 29 faktů pod hranicí 350 znaků. V tomto pokračovacím běhu bylo opraveno 13 faktů; **zbývá 16 faktů pod hranicí 350 znaků**. Podle auditního promptu je nutné rozšířit je pouze o ověřitelné, věcně relevantní informace a aktualizovat odpovídající překlady de/en/es/fr/it/nl.
+Původně bylo zjištěno 29 faktů pod hranicí 350 znaků. **Všech 29/29 krátkých českých master textů je nyní opraveno a ověřeno read-backem; nezbývá žádný délkový nález.** Rozšíření vycházela z konkrétních informací již obsažených v podkladových faktech a jejich zdrojích; nebyla přidávána výplň ani nové neověřené letopočty.
 
-- 67173: fact_003–fact_015
-- 67178: fact_001–fact_003
+**První dávka — 13 faktů:** 66904/fact_004 (463 znaků), 67164/fact_001 a fact_006 (466 a 495 znaků), 67168/fact_001 a fact_002 (523 a 474 znaků), 67172/fact_001, fact_002, fact_004, fact_005, fact_006, fact_007, fact_008 a fact_010 (všechny nad 350 znaků).
 
-**Opraveno a ověřeno read-backem:** 66904/fact_004 (463 znaků), 67164/fact_001 a fact_006 (466 a 495 znaků), 67168/fact_001 a fact_002 (523 a 474 znaků), 67172/fact_001, fact_002, fact_004, fact_005, fact_006, fact_007, fact_008 a fact_010 (všechny nad 350 znaků). Všech 13 českých master textů je synchronizováno s `translations.cs`; odpovídající de/en/es/fr/it/nl položky byly rozšířeny a read-back potvrdil přítomnost všech 13 položek v každém ze sedmi jazyků. Původní ID, názvy, zdroje a polohy zůstaly zachovány.
+**Druhá dávka — 16 faktů:** 67173/fact_003–fact_015 (13 faktů; 396–477 znaků) a 67178/fact_001–fact_003 (3 fakta; 451–466 znaků). U obou PSČ read-back potvrdil synchronizaci `translations.cs`, všech 13/13 a 3/3 ID ve všech sedmi jazycích a neprázdné překlady de/en/es/fr/it/nl. Délka cizojazyčných textů nebyla hodnocena, v souladu s promptem V2.1. Původní ID, názvy, zdroje a existující polohy zůstaly zachovány.
 
 ### 5.2 Fakta bez `location`
 Zůstává **37 faktů s `location=null` nebo chybějícím polem**. Je třeba posoudit každé jednotlivě podle geografické hierarchie; souřadnice se nesmějí odhadovat ani přebírat z `representative_point` bez věcné souvislosti.
@@ -116,7 +115,7 @@ Dokud tyto dvě skupiny nálezů nebudou vyřešeny nebo řádně odůvodněny j
 - Nebyla vytvořena záloha do Dropboxu.
 - Nebyl aktivován read-only zámek.
 - Nebyla provedena změna Neon databáze.
-- Další krok: vyřešit zbývajících 16 krátkých master textů (67173/fact_003–fact_015 a 67178/fact_001–fact_003) a 37 chybějících poloh, poté provést cílený read-back a uzavřít audit.
+- Další krok: posoudit zbývajících 37 faktů bez `location`, případně doložit jednotlivé výjimky; poté provést závěrečný cílený read-back a uzavřít audit.
 
 ## 7. Použité hlavní zdroje
 
