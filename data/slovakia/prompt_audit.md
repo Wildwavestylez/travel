@@ -117,6 +117,14 @@ Check that every fact uses exactly one permitted `map_category` from the current
 Check the Czech original content in the root `facts[]` array and all seven required language versions: `cs, de, en, es, fr, it, nl`. There is no Slovak-language content layer. The `translations.cs` version must match the Czech original; the six other versions are translated from Czech.
 
 - Every language is in the correct field and is actually written in that language.
+
+**Explicit Czech–Slovak language contamination check — mandatory:** Because the Czech original is used as the translation source while the audited records concern Slovakia, actively check for Slovak-language wording accidentally left in Czech translations and for Czech wording accidentally left in the other language versions. In particular:
+  - `translations.cs` must be natural, correct Czech throughout; it must not contain Slovak sentences, Slovak grammatical forms or ordinary Slovak vocabulary accidentally carried over from a Slovak source. Slovak proper names, official place names, personal names, titles and quotations that are intentionally retained are not errors.
+  - Check every non-Czech translation for accidental Czech sentences, phrases or untranslated Czech wording. Also identify any Slovak-language passages accidentally present in German, English, Spanish, French, Italian or Dutch translations.
+  - Check the language of the actual prose, not merely the language key, metadata or a superficial language label. A text that is mostly in the expected language but contains a meaningful sentence or passage in another language is still a language-consistency defect.
+  - When contamination is found, verify the intended meaning against the Czech original and correct only the affected passage into the language required by that translation field. Preserve factual meaning, proper names, diacritics, dates, qualifications, cultural context, fact IDs and array order.
+  - Do not “correct” Slovak proper nouns, official Slovak names, quoted titles or source quotations solely because they are Slovak. Distinguish intentional names/quotations from accidentally Slovak prose.
+  - Record and count confirmed language-contamination defects in the audit report. A record with an unresolved meaningful language mix-up must not pass the language check or be changed to `published`.
 - Each translated fact belongs to the correct Czech-original fact and preserves its meaning, names, dates, qualifications and cultural context.
 - Fact IDs and order match across all language arrays.
 - No language is missing, empty, truncated, corrupted, swapped or copied from another fact. No Slovak (`sk`) language layer is added.
