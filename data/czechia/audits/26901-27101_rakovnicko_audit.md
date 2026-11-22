@@ -60,7 +60,7 @@ Read-back změněných položek potvrdil:
 - Po opravách je počet rozdílů `facts[].text` vs `translations.cs` **0**.
 - Existující neprázdné souřadnice nebyly znovu kontrolovány ani měněny.
 - Mapové body `explorer_map_points` nebyly načítány ani měněny; jejich případná návaznost na nově přidaný fakt není v tomto běhu potvrzena.
-- Plná sémantická revize všech 1 932 textových položek (322 × 7) zatím není dokončena.
+- Plná sémantická revize všech 2 254 textových položek (322 × 7) zatím není dokončena.
 
 ## 5. Otevřené nálezy — REVIEW REQUIRED
 
