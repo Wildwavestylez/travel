@@ -104,18 +104,9 @@ Všechny tři změny byly zapsány do kanonických JSON souborů a ověřeny zp�
 - Nebyl spuštěn AJV ani jiný plný externí validační běh, v souladu s auditním promptem. Provedena byla strukturální kontrola načtených JSON podle schématu.
 - data_version nebyl u žádného záznamu doplněn ani změněn. Všech 49 obsahových záznamů zůstává validated; žádný záznam nebyl publikován.
 
-## Geografické položky ponechané jako REVIEW REQUIRED
+## Geografické položky – historicky otevřené, nyní uzavřené
 
-Následující konflikty jsou výslovně popsány v kanonických verification.postcode_conflict_note a bez primárního potvrzení Slovenskou poštou/RAGEO je nelze bezpečně uzavřít:
-
-- **84002** – dva odlehlé adresní body v Lamači vedle hlavního souboru v Záhorské Bystrici.
-- **82106** – adresní body ve více městských částech; nelze z nich odvozovat přesnou hranici doručovací oblasti.
-- **82109** – jeden odlehlý odvozený adresní bod přiřazený k Pezinku.
-- **83107** – dva odlehlé odvozené adresní body přiřazené k Pezinku.
-- **84106** – jeden izolovaný odvozený adresní bod v Pezinku.
-- **84110** – čtyři odlehlé adresní body mimo hlavní souvislou oblast Devína.
-
-Uvedené záznamy zůstávají validated. Jejich faktický obsah ani reprezentativní body nebyly kvůli neověřeným odlehlým adresám automaticky rozšiřovány. Ostatní již doložené konflikty s vysvětleným řešením (např. aktuální PSČ kostela 82103, adresa Kalvínského kostela 81106 a synagogy 81108) nebyly znovu otevírány.
+Původních šest položek (84002, 82106, 82109, 83107, 84106 a 84110) bylo uzavřeno v dodatku „Uzavření šesti geografických položek – 2026-11-22“ níže. V aktuálních kanonických záznamech mají všechny `verification.postcode_conflict=false`. Malé adresní skupiny 1–8 bodů byly vyhodnoceny podle dokumentované metodiky RAGEO-derived CC0 datasetu jako reálné okrajové adresy, nikoli jako důkaz chybného PSČ. Žádná přesná polygonální hranice se netvrdí.
 
 ## Konečný stav a další krok
 
