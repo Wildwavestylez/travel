@@ -185,18 +185,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – Technické parametre účinné od 1. 1. 2026, príloha 3a: PSČ 831 07 je priradené k vybranej pošte Bratislava 36. Oficiálny zoznam pôšt uvádza poštu Bratislava 36 na adrese Pod lipami 2, Bratislava; budova sa nachádza v mestskej časti Vajnory.",
+    "plz_source": "Slovenská pošta – Technické parametre, účinné od 1. 1. 2026, příloha 3a; https://www.posta.sk/files/68492d9685877009ff408a56/technicke-parametre-pre-triedenie-a-zvazkovanie-zasielok.pdf. Adresní evidence: RAGEO-derived CC0 dataset https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv; metodika a pravidla pro malé páry 1–8 adres: https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Slovenská pošta – Technické parametre účinné od 1. 1. 2026; doplnkovo verejný CC0 dataset slovak-postal-codes odvodený z Registra adries SR (RAGEO)",
-    "postcode_source_release": "Technické parametre Slovenskej pošty účinné od 1. 1. 2026; adresný dataset kontrolovaný 20. 11. 2026",
-    "postcode_source_checked_at": "2026-11-20",
+    "postcode_source_dataset": "RAGEO-derived CC0 dataset slovak-postal-codes, snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_release": "3efc5ff66e1a8b15fa155f5d347836266ded2d74",
+    "postcode_source_checked_at": "2026-11-22",
     "postcode_conflict": false,
-    "postcode_conflict_note": "Odvodený CC0 dataset uvádza 1 775 adresných bodov v Bratislave-Vajnoroch a dva ďalšie body priradené k Pezinku. Tieto dva odľahlé záznamy nie sú bez potvrdenia v primárnom RAGEO alebo u Slovenskej pošty použité ako dôkaz rozšírenia PSČ do Pezinka. Neuvádza sa presná polygonálna hranica doručovacej oblasti.",
-    "delivery_office_note": "PSČ 831 07 je podľa technických parametrov Slovenskej pošty priradené k pošte Bratislava 36. Oficiálny zoznam pôšt uvádza jej fyzickú adresu Pod lipami 2, Bratislava, s vlastným adresným PSČ 830 06. Budova je vo Vajnoroch; preto je city Bratislava a district Vajnory. Vlastné PSČ poštovej prevádzky 830 06 sa nesmie zamieňať s obsluhovaným PSČ 831 07.",
+    "postcode_conflict_note": "Uzavřeno: aktuální RAGEO-derived CC0 snapshot 2026-11-21 eviduje 1 775 adresních bodů ve Vajnorech a 2 okrajové adresní body v Pezinku. README datasetu výslovně uvádí, že páry s 1–8 adresami jsou skutečné okrajové adresy obsluhované sousední poštou a nejsou filtrovány. Dominantní cluster Vajnory proto zůstává reprezentativní pro Bratislavu a district Vajnory. Dvě okrajové adresy v Pezinku se berou v potaz v širším geografickém rozsahu, ale nemění reprezentativní obec ani místo.",
+    "delivery_office_note": "Technické parametry Slovenské pošty účinné od 1. 1. 2026 uvádějí PSČ 831 07 pro vybranou poštu Bratislava 36. Jde o poštovní směrování; reprezentativní místo zůstává historické centrum Vajnor.",
     "postcode_override_reason": null,
-    "geographic_authority": "Register adries SR (RAGEO) Ministerstva vnútra SR je primárnym zdrojom adresných bodov. Samostatný export RAGEO nebol získaný; na systematickú kontrolu bol použitý verejný CC0 dataset slovak-postal-codes, ktorého README uvádza denné obnovovanie z Registra adries SR. Dataset postal_codes.csv uvádza pre 83107 1 775 adresných bodov v Bratislave-Vajnoroch a 2 v Pezinku; odľahlé body v Pezinku sa bez primárneho potvrdenia nepoužili na rozšírenie geografického rozsahu. Dataset postal_code_areas.csv uvádza reprezentatívne súradnice 48.20250, 17.20711 a obalový rozsah; nejde o dôkaz presnej hranice doručovacej oblasti. Reprezentatívnym miestom záznamu je historické centrum Vajnor na Námestí Titusa Zemana, pričom súradnice orientačného bodu sú doložené samostatným mapovým zdrojom. Konkrétne fakty boli lokalizované pomocou adresných bodov OMA/OpenStreetMap a odborných či oficiálnych zdrojov. Administratívne polia vychádzajú z fyzickej polohy obslužnej pošty Bratislava 36 v mestskej časti Vajnory, okres Bratislava III, Bratislavský kraj."
+    "geographic_authority": "RAGEO-derived CC0 dataset (snapshot 2026-11-21, commit 3efc5ff66e1a8b15fa155f5d347836266ded2d74) eviduje 1 775 adresních bodů v Bratislava-Vajnory a 2 adresní body v obci Pezinok. README datasetu uvádí, že malé páry s 1–8 adresami jsou reálné okrajové adresy a nejsou filtrovány. Dominantní cluster ve Vajnorech podporuje reprezentativní obec Bratislava, district Vajnory a stávající reprezentativní místo. Slovenská pošta uvádí 831 07 ve směru Bratislava 36. Okrajové body v Pezinku nejsou důvodem měnit reprezentativní místo ani tvrdit přesnou polygonální hranici. Oficiální aplikace Register adries (Ministerstvo vnútra SR) popisuje vyhledávání a ověřování adresních bodů: https://rageo.minv.sk/ra/assets/help."
   },
   "sources": [
     {
@@ -333,6 +333,16 @@
       "title": "OMA / OpenStreetMap – pamätník Titusa Zemana, poloha",
       "url": "https://poi.oma.sk/n9051684972",
       "type": "other"
+    },
+    {
+      "title": "RAGEO-derived Slovak postal-code address dataset – snapshot 2026-11-21",
+      "url": "https://raw.githubusercontent.com/jozefgrencik/slovak-postal-codes/3efc5ff66e1a8b15fa155f5d347836266ded2d74/data/postal_codes.csv",
+      "type": "specialist"
+    },
+    {
+      "title": "slovak-postal-codes – dataset methodology and data-quality notes (CC0)",
+      "url": "https://github.com/jozefgrencik/slovak-postal-codes/blob/3efc5ff66e1a8b15fa155f5d347836266ded2d74/README.md",
+      "type": "specialist"
     }
   ],
   "translations": {
