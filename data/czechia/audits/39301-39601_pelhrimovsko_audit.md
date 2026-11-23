@@ -79,30 +79,37 @@ Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh zůs
 
 ## 5. Otevřené položky — REVIEW REQUIRED
 
-### 5.1 Krátké české master texty
+### 5.1 Krátké české master texty — PASS
 
-Zůstává 16 faktů pod hranicí 350 znaků. Nebyly uměle natahovány opakováním ani výplňovým textem. Podle promptu V2.1 musí být doplněny pouze ověřitelnými, relevantními informacemi; do té doby jsou REVIEW REQUIRED.
+Všech 16 původně krátkých českých master textů bylo doplněno ověřitelnými a relevantními informacemi. U každého z nich byly aktualizovány odpovídající texty v šesti cizojazyčných verzích (de, en, es, fr, it, nl) a česká jazyková kopie byla synchronizována s master textem.
 
-| PSČ / fakt | Znaků |
+Po zápisu byl cíleně načten zpět pouze změněný blok sedmi PSČ. Výsledek:
+- 16/16 opravených českých textů má nejméně 350 znaků.
+- 16/16 českých položek v translations.cs přesně odpovídá facts[].text.
+- 96/96 cizojazyčných překladů existuje a obsahuje text i titulek.
+- 0 duplicitních ID; počet faktů v jednotlivých záznamech zůstal beze změny.
+- Nebyla provedena žádná změna location ani ID faktů.
+
+| PSČ / fakt | Nová délka |
 |---|---:|
-| 39401 / fact_001 | 336 |
-| 39401 / fact_004 | 307 |
-| 39404 / fact_001 | 324 |
-| 39404 / fact_002 | 280 |
-| 39404 / fact_003 | 341 |
-| 39404 / fact_004 | 287 |
-| 39404 / fact_006 | 275 |
-| 39404 / fact_007 | 344 |
-| 39411 / fact_003 | 277 |
-| 39411 / fact_006 | 344 |
-| 39412 / fact_004 | 348 |
-| 39428 / fact_004 | 312 |
-| 39446 / fact_003 | 303 |
-| 39446 / fact_004 | 313 |
-| 39463 / fact_003 | 333 |
-| 39463 / fact_005 | 330 |
+| 39401 / fact_001 | 491 |
+| 39401 / fact_004 | 461 |
+| 39404 / fact_001 | 385 |
+| 39404 / fact_002 | 392 |
+| 39404 / fact_003 | 459 |
+| 39404 / fact_004 | 452 |
+| 39404 / fact_006 | 410 |
+| 39404 / fact_007 | 459 |
+| 39411 / fact_003 | 405 |
+| 39411 / fact_006 | 503 |
+| 39412 / fact_004 | 447 |
+| 39428 / fact_004 | 464 |
+| 39446 / fact_003 | 434 |
+| 39446 / fact_004 | 446 |
+| 39463 / fact_003 | 412 |
+| 39463 / fact_005 | 502 |
 
-Po případném rozšíření musí být upraveno všech šest cizojazyčných překladů příslušného faktu.
+Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Rynárec, Nový Rychnov, Cetoraz, Obrataň a Častrov, dále Národní památkový ústav a Atlas české architektury. Významové doplnění zahrnuje například historický silniční most a památkový soubor Rynárce, další požár Nového Rychnova a osudy rodin Ančerlových a Stettnerových, původ Jiřího Němce v klubu Slavoj Pacov, Deymovu hrobku v Cetorazi, pamětní souvislosti Obrataně, podobu sochy ve Velké Chyšce, archeologický kontext Červené Řečice a druhý památník v Častrově.
 
 ### 5.2 Zbývající location=null
 
