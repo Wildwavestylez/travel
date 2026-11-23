@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "TRAVEL Austria postcode stop",
-  "description": "Canonical TRAVEL Austria postcode record. The technical JSON structure follows the shared Czechia TRAVEL schema; Austrian postal, geographic and administrative meanings are defined in data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md.",
+  "description": "Canonical TRAVEL Austria postcode record. The technical JSON structure, field names, data types, required fields, controlled values and seven-language layout match the shared Czechia TRAVEL schema. Only the Austrian four-digit postcode constraint and country-specific meanings/source descriptions differ. See data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -134,7 +134,7 @@
         },
         "postcode_authority": {
           "type": "string",
-          "description": "Autorita pro oficiální evidenci a klasifikaci kódu PSČ: ČSÚ (identifikátor CSU). Geografické přiřazení adresních míst ověřuj v RÚIAN/ČÚZK. Textové pole zachovává kompatibilitu se staršími záznamy; neměň jeho strukturu ani existující hodnoty bez samostatné migrace."
+          "description": "Autorita pro oficiální rakouskou poštovní evidenci a klasifikaci PLZ: Österreichische Post; zveřejněné seznamy RTR slouží jako oficiální kontrolní inventář. Geografické přiřazení adresních míst ověřuj podle dostupných údajů BEV a administrativní klasifikaci u Statistik Austria. Textové pole zachovává kompatibilitu se sdílenou strukturou TRAVEL; neměň jeho strukturu ani existující hodnoty bez samostatné migrace."
         },
         "postcode_source_dataset": {
           "type": [
@@ -178,7 +178,7 @@
         },
         "geographic_authority": {
           "type": "string",
-          "description": "Autorita použitá pro územní údaj. Pro geografické přiřazení adresního místa a PSČ používej RÚIAN/ČÚZK; pro statistické a administrativní klasifikace použij odpovídající oficiální data ČSÚ nebo RÚIAN podle povahy údaje. Textové pole zachovává kompatibilitu se staršími záznamy."
+          "description": "Autorita použitá pro geografický údaj. Pro adresní a geografické ověření používej BEV (Adressregister a dostupné geodata); pro obce, politické okresy, spolkové země a identifikátory používej Statistik Austria. Österreichische Post dokládá poštovní přiřazení, nikoli automaticky přesné polygonové hranice. Textové pole zachovává kompatibilitu se sdílenou strukturou TRAVEL."
         }
       }
     },
@@ -237,7 +237,7 @@
         "locality",
         null
       ],
-      "description": "Nepovinné upřesnění druhu district v obci sídla pošty: municipal_part = oficiální část obce; municipal_district = městská část/obvod; city_quarter = městská čtvrť či lokalita; settlement = sídlo/osada uvnitř obce sídla pošty; locality = jiná místní lokalita."
+      "description": "Nepovinné upřesnění druhu district v rakouském administrativním a sídelním kontextu: municipal_part = oficiální část obce; municipal_district = městský obvod/Gemeindebezirk; city_quarter = městská čtvrť nebo Stadtteil; settlement = sídlo či Ortsteil uvnitř obce; locality = jiná doložená místní lokalita. U Vídně nezaměňuj Gemeindebezirk s politickým Bezirk."
     }
   },
   "$defs": {
@@ -319,7 +319,7 @@
           }
         },
         "location": {
-          "description": "Samostatná geografická poloha objektu nebo místa, kterého se konkrétní fakt týká. Nekopíruj sem representative_point ani access_point. Pole zůstává volitelné; pokud nelze obhajitelnou polohu doložit, použij null. Nevyřazuj kvůli tomu zajímavost a nepřidávej nový stav ani příznak; geografické přiřazení se může prověřit při finálním auditu.",
+          "description": "Samostatná geografická poloha objektu nebo místa, kterého se konkrétní fakt týká. Nekopíruj sem representative_point ani access_point. Pole zůstává volitelné podle sdíleného schématu; při tvorbě a reworku se však řiď mapovací hierarchií v rakouském CONTENT_STANDARD.md a použij smysluplný doložitelný bod, pokud jej lze určit. Nepřidávej nový stav ani příznak.",
           "oneOf": [
             {
               "$ref": "#/$defs/fact_location"
@@ -599,7 +599,7 @@
             "historic_fortress",
             "postal_area"
           ],
-          "description": "Řízený český slovník typů polohy faktu v jednotném čísle. postal_area označuje faktum vztahující se k oblasti PSČ bez jediného konkrétního fyzického místa."
+          "description": "Řízený slovník typů fyzického místa v jednotném čísle, sdílený technicky se schématem TRAVEL. postal_area označuje faktum vztahující se k oblasti PSČ bez jediného konkrétního fyzického místa."
         },
         "accuracy": {
           "type": "string",
@@ -609,7 +609,7 @@
             "area_representative",
             "historical_approximate"
           ],
-          "description": "exact = ověřený bod objektu; approximate = známá lokalita s nepřesným bodem; area_representative = reprezentativní bod rozlehlého území; historical_approximate = doložená historická poloha s nejistým přesným umístěním."
+          "description": "exact = ověřený bod objektu; approximate = přibližný bod známé lokality; area_representative = reprezentativní bod rozlehlého území; historical_approximate = doložená historická poloha s nejistým přesným umístěním."
         },
         "source": {
           "type": "string",
@@ -617,8 +617,8 @@
           "description": "Přímá URL dokládající identifikaci místa nebo jeho geografickou polohu."
         }
       },
-      "description": "Geografická poloha konkrétního faktu podle pravidel českého Content Standardu. Uveď location, pokud lze doložit přesnou nebo obhajitelnou přibližnou polohu; jinak použij null. Zajímavost kvůli chybějící přesné adrese nevyřazuj. Nezaváděj nový stav ani příznak a nikdy automaticky nekopíruj representative_point ani access_point."
+      "description": "Geografická poloha konkrétního faktu podle rakouského CONTENT_STANDARD.md a sdílených pravidel TRAVEL. Uveď location, pokud lze určit přesnou, přibližnou, reprezentativní nebo orientační polohu; null ponech pouze tehdy, když nelze odpovědně určit žádný smysluplný bod. Nikdy automaticky nekopíruj representative_point ani access_point."
     }
   },
-  "$comment": "CZECHIA CONTENT STANDARD: Czechia uses Czech administrative terminology and an independent location-type dictionary. Fact-location behavior follows German TRAVEL rules. Shared editorial fact categories stay aligned with Germany for EuropeExplorer compatibility. Do not modify German schema or records."
+  "$comment": "AUSTRIA CONTENT STANDARD: Austria uses the shared TRAVEL technical record structure, field names, data types, controlled values, fact/map categories, location-type identifiers and seven-language structure. Only the Austrian four-digit PLZ pattern and country-specific postal, geographic, administrative and source meanings differ. Do not change the shared structure ad hoc. Austrian geographic-only inventory and online-first source rules are defined in data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md."
 }
