@@ -1,4 +1,549 @@
 {
   "postcode": "97662",
-  "status": "placeholder"
+  "city": "Brusno",
+  "district": null,
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Brusno – lázeňské a historické jádro obce",
+  "representative_point": {
+    "lat": 48.79237,
+    "lon": 19.38219
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Brusno a Svätý Ondrej – dvě středověká sídla pod hradem Ľupča",
+      "text": "Brusno a sousední Svätý Ondrej nad Hronom mají společný písemný počátek v roce 1424. V soupisu majetku Ľupčianského hradního panství se obě sídla objevují pod latinským označením „villa utraque Zenthandras“, tedy jako obě svatoondrejské obce. Jejich vývoj však nebyl totožný: ve středověku byl významnějším sídlem Svätý Ondrej, kde stál kostel nejpozději v 15. století. Obě obce spojovala zemědělská práce, lesnictví, později také podomní obchod a zaměstnání v železářských podnicích Horehroní. Roku 1960 byly sloučeny do nové obce Hronov; název Brusno se vrátil v roce 1974. Dnešní obec tak v sobě spojuje historickou paměť dvou starých sídel.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.brusno.sk/historia.html",
+        "https://www.slovensko.sk/sk/lokality/_ef531485-edd2-482e-b1b9-e8969975705a"
+      ],
+      "location": {
+        "name": "Brusno – orientační bod sídelního území",
+        "lat": 48.79237,
+        "lon": 19.38219,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://brusno.oma.sk/",
+        "address": null
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Čipkáři z Brusna – obchodníci, kteří procestovali Evropu",
+      "text": "Od 18. století patřil k typickým způsobům obživy obyvatel Brusna a Svätého Ondreje podomní obchod. Obchodníci se nazývali čipkáři podle paličkovaných krajek, s nimiž vyráželi na dlouhé cesty a prodávali je daleko za hranicemi regionu. Postupně nabízeli také dřevěné nádobí, tkaniny, železné výrobky a další drobné zboží. V 19. století se čipkářství výrazně rozšířilo a ovlivnilo každodenní život obou obcí. Obchodníci cestovali na povozech a při přesunech si vařili jídlo ve zvláštní kovové nádobě zvané mašina. Z tohoto praktického způsobu vaření vzniklo místní jídlo čipkárskô: maso, kořenová zelenina, brambory a těstovinové trhance. Tradici dnes připomíná soutěž ve vaření a samotné jídlo je zapsáno v seznamu nehmotného kulturního dědictví Slovenska.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.brusno.sk/historia.html",
+        "https://www.ludovakultura.sk/zoznam-nkd/cipkarsko/"
+      ],
+      "location": {
+        "name": "Brusno – orientační bod místní kulturní tradice",
+        "lat": 48.79237,
+        "lon": 19.38219,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://brusno.oma.sk/",
+        "address": null
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kúpele Brusno – lázně, jejichž příběh začal u pramenů",
+      "text": "Minerální prameny v údolí Brusnianky jsou písemně doloženy už roku 1818 ve farní kronice v Medzibrodu. Stavba prvního lázeňského domu začala roku 1834 a dokončena byla v roce 1837; první lázeňská sezona se otevřela na jaře 1838. Provoz přerušil požár roku 1859, po němž byl dům obnoven. Zásadní proměnu přinesl rok 1884, kdy se majitelem stal banskobystrický stavitel Ľudovít Rosenauer. Během následujícího desetiletí opravil lázeňské kabiny a vybudoval objekty, jejichž podoba se zčásti zachovala dodnes. Zasloužil se také o příchod prvního stálého lázeňského lékaře, doktora Jozefa Lukácsyho, který nastoupil roku 1892. Ve 20. letech 20. století měly lázně několik hotelů a přibližně 150 pokojů; po válce je poškodil další požár v roce 1947.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.brusno.sk/kupelnictvo.html"
+      ],
+      "location": {
+        "name": "Kúpele Brusno – lázeňský areál",
+        "lat": 48.786487,
+        "lon": 19.3958265,
+        "type": "spa",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n3156191558",
+        "address": null
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Sedm minerálních pramenů v lázeňském parku",
+      "text": "Lázeňský park v Brusně ukrývá soustavu minerálních vývěrů, které daly místu jeho léčebný význam. Současný provozovatel uvádí sedm pramenů a vrtů: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor a vrt ŠHB–2. Pro pitné kúry se využívají čtyři zdroje – Ondrej, Ludvig, Paula a Ďumbier; pramen Ondrej se používá také k přípravě minerálních uhličitých koupelí a jeho voda se stáčí jako Brusnianka. Vody jsou popisovány jako studené, slabě kyselé a mineralizované, s převahou hydrogenuhličitanů a síranů a se zvýšeným obsahem vápníku, hořčíku a fluoridů. Jejich chemické složení a využití stojí v samotném základu lázeňské tradice Brusna.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.kupelebrusno.sk/prirodne-liecive-pramene"
+      ],
+      "location": {
+        "name": "Lázeňský park Brusno – orientační bod pramenů",
+        "lat": 48.786487,
+        "lon": 19.3958265,
+        "type": "spa",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n3156191558",
+        "address": null
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostel sv. Ondřeje – gotické jádro s barokní přestavbou",
+      "text": "Na návrší ve Svätém Ondreji nad Hronom, dnes součásti Brusna, stojí kostel sv. Ondřeje s gotickým původem. Stavba vznikla v 15. století a nejstarší zprávy potvrzují, že kostel na tomto místě existoval nejpozději na počátku 16. století. V letech 1744 a 1766 prošel výraznou barokní přestavbou: presbytář byl rozšířen, loď nově zaklenuta a v západní části vznikla zděná varhanní tribuna. Z původní gotické podoby se zachovaly především jižní portál lodi a portál do sakristie s pozdně gotickými sedlovými nadpražími. Věž byla zvýšena roku 1936. Interiér doplňuje hlavní oltář, kazatelna a křtitelnice od tyrolských řezbářů, dovezené roku 1903, a varhany firmy Rieger z roku 1904. Kostel připomíná dobu, kdy byl Svätý Ondrej významnějším sídlem než sousední Brusno.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/brusno-kostol-sv-ondreja",
+        "https://www.brusno.sk/historia.html"
+      ],
+      "location": {
+        "name": "Kostel sv. Ondřeje, Brusno",
+        "lat": 48.795198,
+        "lon": 19.381438,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/brusno-kostol-sv-ondreja",
+        "address": null
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Pohronský Bukovec – hornická osada v údolí Nízkých Tater",
+      "text": "Pohronský Bukovec leží v úzkém údolí potoka Bukovec na jižních svazích Nízkých Tater. První písemná zpráva o osadě pochází z roku 1563; její počátky souvisejí s hornictvím, zpracováním železné a stříbrno-měděné rudy a s prací v lesích. V 16. a 17. století zde měli banskobystričtí podnikatelé důlní díla a od 17. století fungoval také mlýn. Obyvatelé se později živili hlavně dřevorubectvím a pálením dřevěného uhlí. Obecní katastr je protáhlý od Hronu až k horským svahům Ráztocké hole a dosahuje výšky přibližně 1 592 metrů. Lesy pokrývají většinu území; přímo v obci je uváděn také minerální pramen – kyselka. Tato kombinace hornické minulosti, lesní práce a horské krajiny odlišuje Bukovec od lázeňského Brusna v témže poštovním území.",
+      "category": "geography_and_context",
+      "priority": "B",
+      "sources": [
+        "https://www.pohronskybukovec.sk/historia.html",
+        "https://www.pohronskybukovec.sk/zakladne-informacie-o-obci.html",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_99fb2491-3af7-4f59-9053-34777912c2f0"
+      ],
+      "location": {
+        "name": "Pohronský Bukovec – orientační bod obce",
+        "lat": 48.850587735225815,
+        "lon": 19.37945762291807,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://pohronsky-bukovec.oma.sk/",
+        "address": null
+      },
+      "map_category": "historic_village"
+    },
+    {
+      "id": "fact_007",
+      "title": "Matúšová – partyzánská základna a tragédie Pohronského Bukovce",
+      "text": "V srpnu 1944 vznikla v lesnaté dolině Matúšová nad Pohronským Bukovcem základna partyzánské brigády J. V. Stalina, které velel Alexej Semjonovič Jegorov. Původně ji tvořilo přibližně dvacet bunkrů a stanovišť: velitelský a štábní bunkr, úkryty mužstva, vysílačka i sklady potravin. Po ústupu povstaleckých jednotek do hor na podzim 1944 se místo stalo jedním z center partyzánského boje; obyvatelé okolních obcí pomáhali s budováním úkrytů, zásobováním a ošetřováním raněných. Dne 3. listopadu 1944 byli v domě Jozefíny Rybárové v Pohronském Bukovci zajati generálové Ján Golian a Rudolf Viest. Nacistické represálie vyvrcholily 21. února 1945, kdy byla osada vyrabována a vypálena. Před válkou zde stálo 35 dřevěných domů; obnova začala roku 1946 a do roku 1948 vzniklo 32 zděných domů. Základna Matúšová byla obnovena v roce 2007 a vede k ní žlutě značená turistická trasa. Přesné místo domu, kde byli generálové zadrženi, není bezpečně lokalizováno; mapa proto ukazuje jen orientační bod obce.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.lesy.sk/lesy/pre-verejnost/kam-do-prirody/vyznamne-lesnicke-miesta/zoznam/partizanska-zakladna-matusova.html",
+        "https://www.pohronskybukovec.sk/zakladne-informacie-o-obci.html",
+        "https://www.pohronskybukovec.sk/historia.html",
+        "https://www.brusno.sk/historia.html"
+      ],
+      "location": {
+        "name": "Partyzánská základna Matúšová – bunkry",
+        "lat": 48.861694,
+        "lon": 19.39325,
+        "type": "bunker",
+        "accuracy": "exact",
+        "source": "https://www.lesy.sk/lesy/pre-verejnost/kam-do-prirody/vyznamne-lesnicke-miesta/zoznam/partizanska-zakladna-matusova.html",
+        "address": null
+      },
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální seznam Slovenské pošty obsahuje poštu Brusno na adrese Športová 2 s PSČ 976 62. Oficiální kontaktní stránky Brusna uvádějí obecní adresu 976 62 Brusno a oficiální kontaktní stránka Pohronského Bukovce uvádí adresu obecního úřadu Pohronský Bukovec 40, 976 62 Brusno. Nezávislý přehled PSČ uvádí pod 97662 také Brusno, Brusno-kúpele, Ondrej nad Hronom a Pohronský Bukovec. Veřejné vyhledávání Slovenské pošty bylo zkontrolováno; přímý strojově ověřitelný výpis úplného rozsahu doručovací oblasti nebyl získán.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam pôšt s rozšíreným predajom Slovenské pošty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Oficiální adresy Brusna a Pohronského Bukovce potvrzují používání PSČ 976 62 v obou obcích. Nezávislý přehled pod tímto kódem uvádí také lázeňskou část a Ondrej nad Hronom; portál Slovensko.sk potvrzuje, že jde o místní části Brusna. Úplné doručovací hranice nebyly z veřejného formuláře Slovenské pošty strojově ověřeny, proto se netvrdí přesná hranice polygonu.",
+    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí Poštu Brusno, Športová 2, PSČ 976 62. Poloha pošty není použita jako reprezentativní bod PSČ; samostatné souřadnice přístupového bodu nebyly ověřeny.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální kontaktní a územní údaje obcí Brusno a Pohronský Bukovec; administrativní zařazení ověřeno přes oficiální portál Slovensko.sk; poloha obcí a jednotlivých míst koroborována s obecními, státními a mapovými zdroji."
+  },
+  "sources": [
+    {
+      "title": "Obec Brusno – História",
+      "url": "https://www.brusno.sk/historia.html",
+      "type": "official"
+    },
+    {
+      "title": "Centrum pre tradičnú ľudovú kultúru – Čipkárskô",
+      "url": "https://www.ludovakultura.sk/zoznam-nkd/cipkarsko/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Brusno – Kúpeľníctvo",
+      "url": "https://www.brusno.sk/kupelnictvo.html",
+      "type": "official"
+    },
+    {
+      "title": "Kúpele Brusno – Prírodné liečivé pramene",
+      "url": "https://www.kupelebrusno.sk/prirodne-liecive-pramene",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Ondreja",
+      "url": "https://www.pamiatkynaslovensku.sk/brusno-kostol-sv-ondreja",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Pohronský Bukovec – História",
+      "url": "https://www.pohronskybukovec.sk/historia.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohronský Bukovec – Základné informácie a náučný chodník",
+      "url": "https://www.pohronskybukovec.sk/zakladne-informacie-o-obci.html",
+      "type": "official"
+    },
+    {
+      "title": "LESY SR – Partizánska základňa Matúšová",
+      "url": "https://www.lesy.sk/lesy/pre-verejnost/kam-do-prirody/vyznamne-lesnicke-miesta/zoznam/partizanska-zakladna-matusova.html",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – Brusno",
+      "url": "https://www.slovensko.sk/sk/lokality/_ef531485-edd2-482e-b1b9-e8969975705a",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – Pohronský Bukovec",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_99fb2491-3af7-4f59-9053-34777912c2f0",
+      "type": "official"
+    },
+    {
+      "title": "Obec Brusno – Kontakty",
+      "url": "https://www.brusno.sk/-zakladne-kontakty-.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohronský Bukovec – Kontakt",
+      "url": "https://www.pohronskybukovec.sk/kontakt-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "SITA – PSČ 97662",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/97662/",
+      "type": "regional"
+    },
+    {
+      "title": "Brusno – obecný bod (OMA)",
+      "url": "https://brusno.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Brusno – kúpeľný areál (OMA)",
+      "url": "https://poi.oma.sk/n3156191558",
+      "type": "other"
+    },
+    {
+      "title": "Pohronský Bukovec – mapa obce (OMA)",
+      "url": "https://pohronsky-bukovec.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Brusno – lázeňské a historické jádro obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno a Svätý Ondrej – dvě středověká sídla pod hradem Ľupča",
+          "text": "Brusno a sousední Svätý Ondrej nad Hronom mají společný písemný počátek v roce 1424. V soupisu majetku Ľupčianského hradního panství se obě sídla objevují pod latinským označením „villa utraque Zenthandras“, tedy jako obě svatoondrejské obce. Jejich vývoj však nebyl totožný: ve středověku byl významnějším sídlem Svätý Ondrej, kde stál kostel nejpozději v 15. století. Obě obce spojovala zemědělská práce, lesnictví, později také podomní obchod a zaměstnání v železářských podnicích Horehroní. Roku 1960 byly sloučeny do nové obce Hronov; název Brusno se vrátil v roce 1974. Dnešní obec tak v sobě spojuje historickou paměť dvou starých sídel."
+        },
+        {
+          "id": "fact_002",
+          "title": "Čipkáři z Brusna – obchodníci, kteří procestovali Evropu",
+          "text": "Od 18. století patřil k typickým způsobům obživy obyvatel Brusna a Svätého Ondreje podomní obchod. Obchodníci se nazývali čipkáři podle paličkovaných krajek, s nimiž vyráželi na dlouhé cesty a prodávali je daleko za hranicemi regionu. Postupně nabízeli také dřevěné nádobí, tkaniny, železné výrobky a další drobné zboží. V 19. století se čipkářství výrazně rozšířilo a ovlivnilo každodenní život obou obcí. Obchodníci cestovali na povozech a při přesunech si vařili jídlo ve zvláštní kovové nádobě zvané mašina. Z tohoto praktického způsobu vaření vzniklo místní jídlo čipkárskô: maso, kořenová zelenina, brambory a těstovinové trhance. Tradici dnes připomíná soutěž ve vaření a samotné jídlo je zapsáno v seznamu nehmotného kulturního dědictví Slovenska."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kúpele Brusno – lázně, jejichž příběh začal u pramenů",
+          "text": "Minerální prameny v údolí Brusnianky jsou písemně doloženy už roku 1818 ve farní kronice v Medzibrodu. Stavba prvního lázeňského domu začala roku 1834 a dokončena byla v roce 1837; první lázeňská sezona se otevřela na jaře 1838. Provoz přerušil požár roku 1859, po němž byl dům obnoven. Zásadní proměnu přinesl rok 1884, kdy se majitelem stal banskobystrický stavitel Ľudovít Rosenauer. Během následujícího desetiletí opravil lázeňské kabiny a vybudoval objekty, jejichž podoba se zčásti zachovala dodnes. Zasloužil se také o příchod prvního stálého lázeňského lékaře, doktora Jozefa Lukácsyho, který nastoupil roku 1892. Ve 20. letech 20. století měly lázně několik hotelů a přibližně 150 pokojů; po válce je poškodil další požár v roce 1947."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sedm minerálních pramenů v lázeňském parku",
+          "text": "Lázeňský park v Brusně ukrývá soustavu minerálních vývěrů, které daly místu jeho léčebný význam. Současný provozovatel uvádí sedm pramenů a vrtů: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor a vrt ŠHB–2. Pro pitné kúry se využívají čtyři zdroje – Ondrej, Ludvig, Paula a Ďumbier; pramen Ondrej se používá také k přípravě minerálních uhličitých koupelí a jeho voda se stáčí jako Brusnianka. Vody jsou popisovány jako studené, slabě kyselé a mineralizované, s převahou hydrogenuhličitanů a síranů a se zvýšeným obsahem vápníku, hořčíku a fluoridů. Jejich chemické složení a využití stojí v samotném základu lázeňské tradice Brusna."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostel sv. Ondřeje – gotické jádro s barokní přestavbou",
+          "text": "Na návrší ve Svätém Ondreji nad Hronom, dnes součásti Brusna, stojí kostel sv. Ondřeje s gotickým původem. Stavba vznikla v 15. století a nejstarší zprávy potvrzují, že kostel na tomto místě existoval nejpozději na počátku 16. století. V letech 1744 a 1766 prošel výraznou barokní přestavbou: presbytář byl rozšířen, loď nově zaklenuta a v západní části vznikla zděná varhanní tribuna. Z původní gotické podoby se zachovaly především jižní portál lodi a portál do sakristie s pozdně gotickými sedlovými nadpražími. Věž byla zvýšena roku 1936. Interiér doplňuje hlavní oltář, kazatelna a křtitelnice od tyrolských řezbářů, dovezené roku 1903, a varhany firmy Rieger z roku 1904. Kostel připomíná dobu, kdy byl Svätý Ondrej významnějším sídlem než sousední Brusno."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – hornická osada v údolí Nízkých Tater",
+          "text": "Pohronský Bukovec leží v úzkém údolí potoka Bukovec na jižních svazích Nízkých Tater. První písemná zpráva o osadě pochází z roku 1563; její počátky souvisejí s hornictvím, zpracováním železné a stříbrno-měděné rudy a s prací v lesích. V 16. a 17. století zde měli banskobystričtí podnikatelé důlní díla a od 17. století fungoval také mlýn. Obyvatelé se později živili hlavně dřevorubectvím a pálením dřevěného uhlí. Obecní katastr je protáhlý od Hronu až k horským svahům Ráztocké hole a dosahuje výšky přibližně 1 592 metrů. Lesy pokrývají většinu území; přímo v obci je uváděn také minerální pramen – kyselka. Tato kombinace hornické minulosti, lesní práce a horské krajiny odlišuje Bukovec od lázeňského Brusna v témže poštovním území."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – partyzánská základna a tragédie Pohronského Bukovce",
+          "text": "V srpnu 1944 vznikla v lesnaté dolině Matúšová nad Pohronským Bukovcem základna partyzánské brigády J. V. Stalina, které velel Alexej Semjonovič Jegorov. Původně ji tvořilo přibližně dvacet bunkrů a stanovišť: velitelský a štábní bunkr, úkryty mužstva, vysílačka i sklady potravin. Po ústupu povstaleckých jednotek do hor na podzim 1944 se místo stalo jedním z center partyzánského boje; obyvatelé okolních obcí pomáhali s budováním úkrytů, zásobováním a ošetřováním raněných. Dne 3. listopadu 1944 byli v domě Jozefíny Rybárové v Pohronském Bukovci zajati generálové Ján Golian a Rudolf Viest. Nacistické represálie vyvrcholily 21. února 1945, kdy byla osada vyrabována a vypálena. Před válkou zde stálo 35 dřevěných domů; obnova začala roku 1946 a do roku 1948 vzniklo 32 zděných domů. Základna Matúšová byla obnovena v roce 2007 a vede k ní žlutě značená turistická trasa. Přesné místo domu, kde byli generálové zadrženi, není bezpečně lokalizováno; mapa proto ukazuje jen orientační bod obce."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Brusno – historischer Ortskern und Kurgebiet",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno und Svätý Ondrej – zwei mittelalterliche Siedlungen unter der Burg Ľupča",
+          "text": "Brusno und das benachbarte Svätý Ondrej nad Hronom sind erstmals gemeinsam im Jahr 1424 schriftlich belegt. Im Güterverzeichnis der Herrschaft Ľupča erscheinen beide Orte unter der lateinischen Bezeichnung „villa utraque Zenthandras“, also als die beiden Siedlungen von St. Andreas. Im Mittelalter war Svätý Ondrej bedeutender; dort stand spätestens im 15. Jahrhundert eine Kirche. Beide Gemeinden verbanden Landwirtschaft, Forstwirtschaft und später Hausierhandel sowie Arbeit in den Eisenwerken von Horehronie. 1960 wurden sie zur Gemeinde Hronov zusammengeschlossen; 1974 erhielt sie wieder den Namen Brusno. Der heutige Ort vereint somit die Erinnerung an zwei alte Siedlungen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Klöppler-Händler von Brusno – unterwegs in ganz Europa",
+          "text": "Seit dem 18. Jahrhundert war der Hausierhandel ein typischer Erwerbszweig in Brusno und Svätý Ondrej. Die Händler wurden „čipkári“ genannt, nach den geklöppelten Spitzen, die sie auf langen Reisen weit über die Region hinaus verkauften. Später boten sie auch Holzgeschirr, Textilien, Eisenwaren und andere Kleinigkeiten an. Im 19. Jahrhundert nahm dieser Handel stark zu. Die Händler reisten mit Pferdewagen und kochten unterwegs in einem Metallgefäß namens „mašina“. Daraus entstand das Gericht „čipkárskô“ aus Fleisch, Wurzelgemüse, Kartoffeln und Teigstücken. Heute erinnern ein Kochwettbewerb und die Aufnahme des Gerichts in die Liste des immateriellen Kulturerbes der Slowakei an diese Tradition."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Heilbad Brusno – eine Geschichte, die an Quellen begann",
+          "text": "Die Mineralquellen im Tal der Brusnianka sind bereits 1818 in der Pfarrchronik von Medzibrod schriftlich erwähnt. Der Bau des ersten Badehauses begann 1834 und wurde 1837 abgeschlossen; die erste Kurasaison startete im Frühjahr 1838. Ein Brand beendete den Betrieb 1859, danach wurde das Haus wiederaufgebaut. Eine Wende kam 1884, als der Baumeister Ľudovít Rosenauer aus Banská Bystrica Eigentümer wurde. Im folgenden Jahrzehnt erneuerte er die Badeanlagen und errichtete Gebäude, deren Erscheinungsbild teilweise erhalten ist. Er gewann auch den ersten ständigen Badearzt, Jozef Lukácsy, der 1892 kam. In den 1920er-Jahren verfügte das Bad über mehrere Hotels und rund 150 Zimmer; ein Brand 1947 verschlimmerte den baulichen Zustand."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sieben Mineralquellen im Kurpark",
+          "text": "Der Kurpark von Brusno beherbergt Mineralquellen, die dem Ort seine Bedeutung als Heilbad verliehen. Der Betreiber nennt sieben Quellen und Bohrungen: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor und ŠHB–2. Für Trinkkuren werden vier Quellen genutzt – Ondrej, Ludvig, Paula und Ďumbier. Die Quelle Ondrej dient außerdem zur Bereitung kohlensäurehaltiger Mineralbäder; ihr Wasser wird als Brusnianka abgefüllt. Die Wässer sind kalt, schwach sauer und mineralisiert, mit vielen Hydrogencarbonaten und Sulfaten sowie erhöhten Calcium-, Magnesium- und Fluoridwerten. Ihre Zusammensetzung und Nutzung bilden die Grundlage der Kurtradition von Brusno."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Andreaskirche – gotischer Kern und barocker Umbau",
+          "text": "Auf einer Anhöhe in Svätý Ondrej nad Hronom, heute ein Teil von Brusno, steht die ursprünglich gotische Andreaskirche. Sie wurde im 15. Jahrhundert errichtet; spätestens zu Beginn des 16. Jahrhunderts stand hier bereits eine Kirche. 1744 und 1766 wurde sie barock umgestaltet: Der Chorraum wurde erweitert, das Schiff neu eingewölbt und im Westen eine gemauerte Orgelempore errichtet. Von der Gotik blieben vor allem das Südportal des Kirchenschiffs und das Sakristeiportal mit spätgotischen Sattellinteln erhalten. Der Turm wurde 1936 erhöht. Altar, Kanzel und Taufbecken stammen von Tiroler Bildhauern und wurden 1903 geliefert; die Rieger-Orgel stammt von 1904. Die Kirche erinnert an die frühere Bedeutung von Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – eine Bergbausiedlung in der Niederen Tatra",
+          "text": "Pohronský Bukovec liegt in einem engen Tal des Baches Bukovec an den Südhängen der Niederen Tatra. Die erste schriftliche Nachricht stammt aus dem Jahr 1563; die Anfänge hängen mit Bergbau, Eisen- und Silber-Kupfererz sowie Waldarbeit zusammen. Im 16. und 17. Jahrhundert betrieben Unternehmer aus Banská Bystrica hier Gruben; seit dem 17. Jahrhundert gab es auch eine Mühle. Später lebten die Einwohner vor allem von Waldarbeit und Köhlerei. Das Gemeindegebiet zieht sich vom Hron bis zu den Berghängen der Ráztocká hoľa und erreicht etwa 1.592 Meter. Wälder bedecken den größten Teil; im Ort ist auch eine Mineralquelle bekannt. Diese Mischung unterscheidet Bukovec vom Kurort Brusno im selben Postgebiet."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – ein Bergstützpunkt der Partisanenbrigade Jegorov",
+          "text": "Im August 1944 entstand im bewaldeten Tal Matúšová oberhalb von Pohronský Bukovec ein Stützpunkt der Partisanenbrigade J. V. Stalin unter Alexej Semjonowitsch Jegorow. Ursprünglich bestand er aus etwa zwanzig Bunkern und Stationen: Kommandanten- und Stabsbunker, Mannschaftsunterstände, Funkposten und Lebensmittellager. Nach dem Rückzug der Aufständischen in die Berge wurde der Ort zu einem Zentrum des Partisanenkampfes. Die Bewohner halfen beim Bau der Unterstände, bei der Versorgung und Pflege Verwundeter. Am 3. November 1944 wurden die Generäle Ján Golian und Rudolf Viest im Haus von Jozefína Rybárová gefangen genommen. Am 21. Februar 1945 wurde die Siedlung geplündert und niedergebrannt. Von 35 Holzhäusern wurden bis 1948 insgesamt 32 gemauerte Häuser wiederaufgebaut. Die Basis Matúšová wurde 2007 restauriert. Der genaue Ort des Hauses der Gefangennahme ist nicht sicher bekannt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Brusno – historic village centre and spa district",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno and Svätý Ondrej – two medieval settlements beneath Ľupča Castle",
+          "text": "Brusno and neighbouring Svätý Ondrej nad Hronom are first documented together in 1424. In the estate register of Ľupča Castle, both appear under the Latin name “villa utraque Zenthandras”, meaning the two settlements of St Andrew. In the Middle Ages, Svätý Ondrej was more important, with a church standing there by the 15th century at the latest. Both communities shared farming, forestry and later itinerant trade and employment in Horehronie ironworks. In 1960 they were merged into a municipality called Hronov; the name Brusno was restored in 1974. Today's municipality brings together the history of two old settlements."
+        },
+        {
+          "id": "fact_002",
+          "title": "The lace traders of Brusno – travelling merchants across Europe",
+          "text": "From the 18th century, itinerant trade was a typical livelihood in Brusno and Svätý Ondrej. Traders were known as “čipkári”, after the bobbin lace they carried on long journeys and sold far beyond the region. Later they also offered wooden household goods, textiles, iron products and other small wares. This trade expanded in the 19th century. The merchants travelled by horse-drawn wagons and cooked on the road in a metal vessel called a “mašina”. This gave rise to “čipkárskô”, a local dish made with meat, root vegetables, potatoes and pieces of dough. A cooking competition and the dish's inclusion on Slovakia's intangible cultural heritage list keep the tradition alive."
+        },
+        {
+          "id": "fact_003",
+          "title": "Brusno Spa – a history that began with mineral springs",
+          "text": "The mineral springs in the Brusnianka valley are documented as early as 1818 in the parish chronicle of Medzibrod. Construction of the first spa house began in 1834 and was completed in 1837; the first season opened in spring 1838. A fire ended operations in 1859, after which the building was restored. A major change came in 1884, when Banská Bystrica builder Ľudovít Rosenauer became the owner. Over the next decade he repaired the bathing facilities and built structures partly preserved today. He also brought the spa its first permanent physician, Jozef Lukácsy, who arrived in 1892. In the 1920s the spa had several hotels and around 150 rooms; a fire in 1947 worsened its condition."
+        },
+        {
+          "id": "fact_004",
+          "title": "Seven mineral springs in the spa park",
+          "text": "The spa park in Brusno contains mineral springs that gave the place its therapeutic importance. The operator lists seven springs and boreholes: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor and ŠHB–2. Four sources are used for drinking treatments – Ondrej, Ludvig, Paula and Ďumbier. The Ondrej spring is also used for carbonated mineral baths, and its water is bottled as Brusnianka. The waters are cold, mildly acidic and mineral-rich, with bicarbonates and sulphates predominating and elevated calcium, magnesium and fluoride. Their composition and use form the foundation of Brusno's spa tradition."
+        },
+        {
+          "id": "fact_005",
+          "title": "St Andrew's Church – a Gothic core reshaped in the Baroque period",
+          "text": "On a hill in Svätý Ondrej nad Hronom, now part of Brusno, stands St Andrew's Church, originally Gothic. It dates from the 15th century; by the beginning of the 16th century at the latest, a church stood on this site. Major Baroque alterations took place in 1744 and 1766: the sanctuary was enlarged, the nave received new vaulting and a masonry organ gallery was added. The main surviving Gothic features are the south doorway and the sacristy doorway, both with late-Gothic lintels. The tower was raised in 1936. The altar, pulpit and baptismal font were made by Tyrolean woodcarvers and brought here in 1903; the Rieger organ dates from 1904. The church recalls the former importance of Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – a mining settlement in the Low Tatras",
+          "text": "Pohronský Bukovec lies in the narrow valley of the Bukovec stream on the southern slopes of the Low Tatras. The first written record dates to 1563; its beginnings were linked to mining, iron and silver-copper ore processing, and forest work. In the 16th and 17th centuries, entrepreneurs from Banská Bystrica operated mines here, and a mill was in use from the 17th century. Later, residents mainly worked in logging and charcoal burning. The municipal territory stretches from the Hron to the slopes of Ráztocká hoľa, reaching about 1,592 metres. Forests cover most of the area, and a mineral spring is recorded in the village. This distinguishes Bukovec from the spa settlement of Brusno in the same postal area."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – a mountain base of the Jegorov partisan brigade",
+          "text": "In August 1944, a base of the J. V. Stalin partisan brigade under Alexei Semyonovich Jegorov was established in the wooded Matúšová valley above Pohronský Bukovec. It originally had about twenty bunkers and positions: command and staff bunkers, fighter shelters, a radio post and food stores. After insurgent forces retreated into the mountains, it became a centre of partisan resistance. Residents helped build shelters, supply food and care for the wounded. On 3 November 1944, Generals Ján Golian and Rudolf Viest were captured at Jozefína Rybárová's house. On 21 February 1945 the settlement was looted and burned. Of the 35 wooden houses that stood before the war, 32 masonry houses had been rebuilt by 1948. The Matúšová base was restored in 2007. The exact house where the generals were captured has not been securely located."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Brusno – núcleo histórico y zona termal",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno y Svätý Ondrej: dos asentamientos medievales bajo el castillo de Ľupča",
+          "text": "Brusno y el vecino Svätý Ondrej nad Hronom aparecen documentados juntos por primera vez en 1424. En el inventario del señorío del castillo de Ľupča figuran bajo el nombre latino «villa utraque Zenthandras», los dos asentamientos de San Andrés. En la Edad Media Svätý Ondrej era más importante y ya tenía una iglesia en el siglo XV. Ambos lugares compartían agricultura, actividad forestal y, más tarde, comercio ambulante y trabajo en las ferrerías de Horehronie. En 1960 se unieron en un municipio llamado Hronov; el nombre Brusno se recuperó en 1974. El municipio actual reúne así la memoria de dos antiguos asentamientos."
+        },
+        {
+          "id": "fact_002",
+          "title": "Los comerciantes de encajes de Brusno: vendedores viajeros por Europa",
+          "text": "Desde el siglo XVIII, el comercio ambulante fue una forma de vida habitual en Brusno y Svätý Ondrej. A los comerciantes se les llamaba «čipkári», por los encajes de bolillos que llevaban en largos viajes y vendían mucho más allá de la región. También ofrecían utensilios de madera, tejidos, productos de hierro y otros artículos. Esta actividad creció en el siglo XIX. Viajaban en carros y cocinaban durante el trayecto en un recipiente metálico llamado «mašina». De esta cocina itinerante nació el plato «čipkárskô», preparado con carne, verduras de raíz, patatas y trozos de masa. Un concurso culinario y la inclusión del plato en la lista del patrimonio cultural inmaterial de Eslovaquia mantienen viva la tradición."
+        },
+        {
+          "id": "fact_003",
+          "title": "Balneario de Brusno: una historia que comenzó junto a los manantiales",
+          "text": "Los manantiales minerales del valle de Brusnianka aparecen documentados ya en 1818 en la crónica parroquial de Medzibrod. La construcción del primer edificio termal comenzó en 1834 y terminó en 1837; la primera temporada abrió en la primavera de 1838. Un incendio puso fin a la actividad en 1859 y el edificio fue reconstruido. En 1884, Ľudovít Rosenauer, constructor de Banská Bystrica, se convirtió en propietario. Durante la década siguiente reparó las instalaciones y levantó edificios cuya imagen se conserva parcialmente. El primer médico permanente, Jozef Lukácsy, llegó en 1892. En los años veinte había varios hoteles y unas 150 habitaciones; otro incendio en 1947 agravó el estado de las instalaciones."
+        },
+        {
+          "id": "fact_004",
+          "title": "Siete manantiales minerales en el parque termal",
+          "text": "El parque termal de Brusno alberga manantiales minerales que dieron al lugar su importancia terapéutica. El operador enumera siete fuentes y sondeos: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor y el sondeo ŠHB–2. Para las curas de bebida se utilizan cuatro fuentes: Ondrej, Ludvig, Paula y Ďumbier. La fuente Ondrej también sirve para preparar baños minerales con gas carbónico y su agua se embotella como Brusnianka. Las aguas son frías, ligeramente ácidas y mineralizadas, con predominio de bicarbonatos y sulfatos y un contenido elevado de calcio, magnesio y fluoruro. Su composición y uso constituyen la base de la tradición termal de Brusno."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia de San Andrés: núcleo gótico transformado en época barroca",
+          "text": "En una colina de Svätý Ondrej nad Hronom, hoy parte de Brusno, se encuentra la iglesia de San Andrés, de origen gótico. Fue construida en el siglo XV y ya había un templo en este lugar a comienzos del siglo XVI como muy tarde. En 1744 y 1766 sufrió reformas barrocas: se amplió el presbiterio, se volvió a cubrir la nave con bóvedas y se construyó una tribuna de órgano. Se conservan el portal sur de la nave y el portal de la sacristía, ambos con dinteles tardogóticos. La torre se elevó en 1936. El altar, el púlpito y la pila bautismal son obra de tallistas tiroleses y llegaron en 1903; el órgano de Rieger data de 1904. La iglesia recuerda la antigua importancia de Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec: asentamiento minero en los Bajos Tatras",
+          "text": "Pohronský Bukovec se encuentra en el estrecho valle del arroyo Bukovec, en las laderas meridionales de los Bajos Tatras. La primera noticia escrita data de 1563; sus orígenes están relacionados con la minería, el procesamiento de mineral de hierro y de plata y cobre, y el trabajo forestal. En los siglos XVI y XVII empresarios de Banská Bystrica explotaban minas y desde el siglo XVII funcionaba un molino. Más tarde, los habitantes se dedicaron a la tala y a la producción de carbón vegetal. El término municipal se extiende desde el río Hron hasta las laderas de Ráztocká hoľa y alcanza unos 1.592 metros. Los bosques cubren la mayor parte del territorio y también se registra un manantial mineral. Esta combinación distingue Bukovec del balneario de Brusno."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová: base de montaña de la brigada partisana de Jegorov",
+          "text": "En agosto de 1944 se estableció en el valle boscoso de Matúšová, sobre Pohronský Bukovec, una base de la brigada partisana J. V. Stalin, dirigida por Alexéi Semiónovich Jegorov. Estaba formada por unos veinte búnkeres y puestos: refugios de mando y del estado mayor, puestos para combatientes, radio y almacenes. Tras la retirada de los insurgentes a las montañas, el lugar se convirtió en un centro de resistencia partisana. Los habitantes ayudaron a construir refugios, llevar suministros y atender a los heridos. El 3 de noviembre de 1944 fueron capturados los generales Ján Golian y Rudolf Viest en la casa de Jozefína Rybárová. El 21 de febrero de 1945 el asentamiento fue saqueado e incendiado. De las 35 casas de madera anteriores a la guerra, 32 casas de obra se reconstruyeron hasta 1948. La base fue restaurada en 2007. La casa exacta de la captura no está localizada con seguridad."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Brusno – centre historique et quartier thermal",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno et Svätý Ondrej – deux villages médiévaux sous le château de Ľupča",
+          "text": "Brusno et le village voisin de Svätý Ondrej nad Hronom sont attestés ensemble pour la première fois en 1424. Dans l’inventaire du domaine du château de Ľupča, les deux localités apparaissent sous le nom latin « villa utraque Zenthandras », les deux villages de Saint-André. Au Moyen Âge, Svätý Ondrej était le centre le plus important et possédait déjà une église au XVe siècle. Les communautés partageaient l’agriculture, la sylviculture puis le commerce ambulant et le travail dans les forges de Horehronie. En 1960, elles furent réunies dans la commune de Hronov ; le nom Brusno fut rétabli en 1974. La commune actuelle rassemble ainsi la mémoire de deux anciens villages."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les marchands de dentelle de Brusno – des voyageurs à travers l’Europe",
+          "text": "À partir du XVIIIe siècle, le commerce ambulant devint une activité typique à Brusno et Svätý Ondrej. Les marchands étaient appelés « čipkári », d’après les dentelles aux fuseaux qu’ils vendaient bien au-delà de la région. Ils proposaient aussi des ustensiles en bois, des textiles, des objets en fer et d’autres petits produits. Cette activité prit de l’ampleur au XIXe siècle. Les marchands voyageaient en charrettes et préparaient leurs repas dans un récipient métallique appelé « mašina ». Cette cuisine donna naissance au plat « čipkárskô », composé de viande, de légumes-racines, de pommes de terre et de morceaux de pâte. Un concours culinaire et l’inscription du plat au patrimoine culturel immatériel slovaque perpétuent la tradition."
+        },
+        {
+          "id": "fact_003",
+          "title": "Les thermes de Brusno – une histoire née autour des sources minérales",
+          "text": "Les sources minérales de la vallée de la Brusnianka sont mentionnées dès 1818 dans la chronique paroissiale de Medzibrod. La construction du premier établissement thermal commença en 1834 et s’acheva en 1837 ; la première saison ouvrit au printemps 1838. Un incendie interrompit l’activité en 1859, puis le bâtiment fut reconstruit. En 1884, le constructeur Ľudovít Rosenauer devint propriétaire. Au cours de la décennie suivante, il rénova les installations et fit construire des bâtiments en partie conservés. Le premier médecin thermal permanent, Jozef Lukácsy, arriva en 1892. Dans les années 1920, les thermes comptaient plusieurs hôtels et environ 150 chambres ; un nouvel incendie en 1947 aggrava leur état."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sept sources minérales dans le parc thermal",
+          "text": "Le parc thermal de Brusno abrite des sources minérales qui ont donné au lieu son importance thérapeutique. L’exploitant recense sept sources et forages : Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor et le forage ŠHB–2. Quatre sources sont utilisées pour les cures de boisson : Ondrej, Ludvig, Paula et Ďumbier. La source Ondrej sert aussi à préparer des bains minéraux gazeux et son eau est embouteillée sous le nom de Brusnianka. Les eaux sont froides, faiblement acides et minéralisées, riches en bicarbonates et sulfates ainsi qu’en calcium, magnésium et fluorure. Leur composition et leur usage constituent le fondement de la tradition thermale de Brusno."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église Saint-André – un noyau gothique remanié à l’époque baroque",
+          "text": "Sur une colline de Svätý Ondrej nad Hronom, aujourd’hui intégré à Brusno, se trouve l’église Saint-André, d’origine gothique. Elle fut construite au XVe siècle ; une église se dressait déjà ici au début du XVIe siècle au plus tard. En 1744 et 1766, elle subit des remaniements baroques : le chœur fut agrandi, la nef reçut de nouvelles voûtes et une tribune d’orgue fut ajoutée à l’ouest. Les éléments gothiques conservés sont les portails sud de la nef et de la sacristie, avec leurs linteaux tardogothiques. La tour fut surélevée en 1936. L’autel, la chaire et les fonts baptismaux, réalisés par des sculpteurs tyroliens, furent apportés en 1903 ; l’orgue Rieger date de 1904. L’église rappelle l’importance passée de Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – un village minier dans les Basses Tatras",
+          "text": "Pohronský Bukovec se trouve dans l’étroite vallée du ruisseau Bukovec, sur les versants sud des Basses Tatras. La première mention écrite date de 1563 ; ses origines sont liées aux mines, au traitement du minerai de fer et d’argent-cuivre ainsi qu’au travail forestier. Aux XVIe et XVIIe siècles, des entrepreneurs de Banská Bystrica exploitaient des mines ; un moulin fonctionnait depuis le XVIIe siècle. Plus tard, les habitants vivaient surtout de l’exploitation forestière et du charbon de bois. Le territoire s’étend du Hron jusqu’aux pentes de Ráztocká hoľa et atteint environ 1 592 mètres. Les forêts couvrent la majeure partie de la superficie et une source minérale est signalée dans le village. Cette association distingue Bukovec de la station thermale de Brusno."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – une base montagnarde de la brigade de partisans de Jegorov",
+          "text": "En août 1944, une base de la brigade de partisans J. V. Stalin, commandée par Alexeï Semionovitch Jegorov, fut installée dans la vallée boisée de Matúšová, au-dessus de Pohronský Bukovec. Elle comptait environ vingt bunkers et postes : abris de commandement et d’état-major, refuges pour combattants, poste radio et dépôts de nourriture. Après le repli des insurgés dans les montagnes, le site devint un centre de la résistance partisane. Les habitants aidèrent à construire les abris, apporter des provisions et soigner les blessés. Le 3 novembre 1944, les généraux Ján Golian et Rudolf Viest furent capturés dans la maison de Jozefína Rybárová. Le 21 février 1945, le village fut pillé et incendié. Sur les 35 maisons en bois d’avant-guerre, 32 maisons en dur furent reconstruites avant 1948. La base Matúšová fut restaurée en 2007. La maison exacte de l’arrestation n’est pas localisée avec certitude."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Brusno – centro storico e quartiere termale",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno e Svätý Ondrej – due insediamenti medievali sotto il castello di Ľupča",
+          "text": "Brusno e il vicino Svätý Ondrej nad Hronom sono documentati insieme per la prima volta nel 1424. Nell’inventario dei beni della signoria del castello di Ľupča compaiono con il nome latino «villa utraque Zenthandras», i due insediamenti di Sant’Andrea. Nel Medioevo Svätý Ondrej era il centro più importante e possedeva una chiesa già nel XV secolo. Le comunità condividevano agricoltura, attività forestali e in seguito commercio ambulante e lavoro nelle ferriere di Horehronie. Nel 1960 furono unite nel comune di Hronov; il nome Brusno fu ripristinato nel 1974. Il comune attuale riunisce quindi la memoria di due antichi insediamenti."
+        },
+        {
+          "id": "fact_002",
+          "title": "I commercianti di merletti di Brusno – viaggiatori in tutta Europa",
+          "text": "Dal XVIII secolo il commercio ambulante fu una tipica fonte di sostentamento a Brusno e Svätý Ondrej. I commercianti erano chiamati «čipkári», dal merletto a tombolo che vendevano ben oltre la regione. In seguito offrirono anche utensili di legno, tessuti, prodotti in ferro e altri articoli. Nel XIX secolo questa attività si ampliò notevolmente. I mercanti viaggiavano su carri e cucinavano in un recipiente metallico chiamato «mašina». Da questa cucina nacque il piatto «čipkárskô», preparato con carne, verdure da radice, patate e pezzi di pasta. Una gara culinaria e l’inserimento del piatto nel patrimonio culturale immateriale slovacco mantengono viva la tradizione."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le terme di Brusno – una storia iniziata presso le sorgenti",
+          "text": "Le sorgenti minerali nella valle della Brusnianka sono documentate già nel 1818 nella cronaca parrocchiale di Medzibrod. La costruzione del primo edificio termale iniziò nel 1834 e terminò nel 1837; la prima stagione si aprì nella primavera del 1838. Un incendio interruppe l’attività nel 1859, dopodiché l’edificio fu ricostruito. Nel 1884 il costruttore Ľudovít Rosenauer divenne proprietario. Nel decennio successivo riparò le strutture e costruì edifici in parte conservati. Il primo medico residente, Jozef Lukácsy, arrivò nel 1892. Negli anni Venti il complesso disponeva di diversi alberghi e circa 150 camere; un incendio nel 1947 peggiorò le condizioni."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sette sorgenti minerali nel parco termale",
+          "text": "Il parco termale di Brusno ospita sorgenti minerali che hanno dato al luogo la sua importanza terapeutica. Il gestore elenca sette sorgenti e perforazioni: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor e il pozzo ŠHB–2. Quattro fonti sono utilizzate per le cure idropiniche: Ondrej, Ludvig, Paula e Ďumbier. La sorgente Ondrej serve anche per bagni minerali gassati e la sua acqua viene imbottigliata come Brusnianka. Le acque sono fredde, debolmente acide e mineralizzate, con prevalenza di bicarbonati e solfati e contenuto elevato di calcio, magnesio e fluoruro. La loro composizione e il loro utilizzo costituiscono la base della tradizione termale di Brusno."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa di Sant’Andrea – nucleo gotico trasformato in epoca barocca",
+          "text": "Su una collina di Svätý Ondrej nad Hronom, oggi parte di Brusno, sorge la chiesa di Sant’Andrea, originariamente gotica. Fu costruita nel XV secolo e una chiesa si trovava qui al più tardi all’inizio del XVI secolo. Nel 1744 e nel 1766 subì trasformazioni barocche: il presbiterio fu ampliato, la navata ricevette nuove volte e a ovest fu aggiunta una tribuna per l’organo. Si conservano il portale meridionale della navata e quello della sacrestia, entrambi con architravi tardogotici. La torre fu innalzata nel 1936. L’altare, il pulpito e il fonte battesimale, opera di intagliatori tirolesi, furono portati qui nel 1903; l’organo Rieger risale al 1904. La chiesa ricorda l’antica importanza di Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – insediamento minerario nei Bassi Tatra",
+          "text": "Pohronský Bukovec si trova nella stretta valle del torrente Bukovec, sui versanti meridionali dei Bassi Tatra. La prima testimonianza scritta risale al 1563; le origini sono legate all’attività mineraria, alla lavorazione del ferro e dei minerali argentiferi e cupriferi e al lavoro nei boschi. Nei secoli XVI e XVII imprenditori di Banská Bystrica gestivano miniere; dal XVII secolo era in funzione anche un mulino. In seguito gli abitanti si dedicarono soprattutto al taglio del legname e al carbone vegetale. Il territorio si estende dall’Hron ai pendii della Ráztocká hoľa e raggiunge circa 1.592 metri. I boschi coprono gran parte dell’area e nel villaggio è segnalata una sorgente minerale. Questa combinazione distingue Bukovec dalla località termale di Brusno."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – base montana della brigata partigiana di Jegorov",
+          "text": "Nell’agosto 1944, nella valle boscosa di Matúšová sopra Pohronský Bukovec, fu istituita una base della brigata partigiana J. V. Stalin comandata da Alexej Semionovič Jegorov. In origine comprendeva circa venti bunker e postazioni: rifugi di comando e del quartier generale, ripari per i combattenti, una postazione radio e depositi di viveri. Dopo la ritirata degli insorti sulle montagne, il luogo divenne un centro della resistenza partigiana. Gli abitanti aiutarono a costruire i rifugi, trasportare rifornimenti e curare i feriti. Il 3 novembre 1944 i generali Ján Golian e Rudolf Viest furono catturati nella casa di Jozefína Rybárová. Il 21 febbraio 1945 il villaggio fu saccheggiato e incendiato. Delle 35 case di legno prebelliche, 32 case in muratura furono ricostruite entro il 1948. La base fu restaurata nel 2007; la casa esatta dell’arresto non è localizzata con certezza."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Brusno – historisch dorpscentrum en kuurgebied",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Brusno en Svätý Ondrej – twee middeleeuwse nederzettingen onder kasteel Ľupča",
+          "text": "Brusno en het naburige Svätý Ondrej nad Hronom worden voor het eerst samen vermeld in 1424. In het goederenregister van het domein van kasteel Ľupča staan beide plaatsen onder de Latijnse naam ‘villa utraque Zenthandras’, de twee nederzettingen van Sint-Andreas. In de middeleeuwen was Svätý Ondrej belangrijker en stond er uiterlijk in de vijftiende eeuw al een kerk. Beide gemeenschappen leefden van landbouw en bosbouw en later ook van huis-aan-huis handel en werk in de ijzerbedrijven van Horehronie. In 1960 werden ze samengevoegd tot Hronov; in 1974 keerde de naam Brusno terug. De huidige gemeente verenigt zo de geschiedenis van twee oude nederzettingen."
+        },
+        {
+          "id": "fact_002",
+          "title": "De kantkloshandelaren van Brusno – reizende kooplieden door Europa",
+          "text": "Vanaf de achttiende eeuw was huis-aan-huis handel een gebruikelijke bron van inkomsten in Brusno en Svätý Ondrej. De handelaren werden ‘čipkári’ genoemd, naar het kloskant dat zij op lange reizen meenamen en ver buiten de regio verkochten. Later boden zij ook houten huishoudelijke artikelen, textiel, ijzerwaren en andere kleine goederen aan. In de negentiende eeuw groeide deze handel sterk. De kooplieden reisden met paard en wagen en kookten onderweg in een metalen vat dat ‘mašina’ werd genoemd. Daaruit ontstond het gerecht ‘čipkárskô’, bereid met vlees, wortelgroenten, aardappelen en stukjes deeg. Een kookwedstrijd en de opname van het gerecht op de Slowaakse lijst van immaterieel cultureel erfgoed houden de traditie levend."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kuuroord Brusno – een geschiedenis die bij de bronnen begon",
+          "text": "De mineraalbronnen in het dal van de Brusnianka worden al in 1818 genoemd in de parochiekroniek van Medzibrod. De bouw van het eerste badhuis begon in 1834 en was in 1837 voltooid; het eerste kuurseizoen opende in het voorjaar van 1838. Een brand maakte in 1859 een einde aan de exploitatie, waarna het gebouw werd herbouwd. In 1884 werd bouwmeester Ľudovít Rosenauer eigenaar. In het daaropvolgende decennium herstelde hij de badvoorzieningen en liet hij gebouwen oprichten waarvan het uiterlijk deels bewaard is gebleven. De eerste vaste kuurarts, Jozef Lukácsy, arriveerde in 1892. In de jaren twintig beschikte het kuuroord over hotels met ongeveer 150 kamers; een brand in 1947 verslechterde de toestand."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zeven mineraalbronnen in het kuurpark",
+          "text": "Het kuurpark van Brusno bevat mineraalbronnen waaraan de plaats haar therapeutische betekenis dankt. De exploitant noemt zeven bronnen en boringen: Ludvig, Paula, Hedviga, Ondrej, Ďumbier, Vepor en boring ŠHB–2. Vier bronnen worden gebruikt voor drinkkuren: Ondrej, Ludvig, Paula en Ďumbier. De bron Ondrej dient ook voor koolzuurhoudende mineraalbaden; het water wordt gebotteld als Brusnianka. De waters zijn koud, licht zuur en mineraalrijk, met vooral bicarbonaten en sulfaten en een verhoogd gehalte aan calcium, magnesium en fluoride. Hun samenstelling en gebruik vormen de basis van de kuurtraditie van Brusno."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Sint-Andreaskerk – een gotische kern met barokke verbouwingen",
+          "text": "Op een heuvel in Svätý Ondrej nad Hronom, tegenwoordig onderdeel van Brusno, staat de oorspronkelijk gotische Sint-Andreaskerk. De kerk werd in de vijftiende eeuw gebouwd; uiterlijk aan het begin van de zestiende eeuw stond hier al een kerk. In 1744 en 1766 volgden barokke verbouwingen: het koor werd vergroot, het schip kreeg nieuwe gewelven en aan de westzijde kwam een gemetselde orgelgalerij. Van de gotische bouw zijn vooral het zuidelijke portaal van het schip en het portaal naar de sacristie bewaard, beide met laatgotische lateien. De toren werd in 1936 verhoogd. Het altaar, de preekstoel en het doopvont zijn gemaakt door Tiroolse beeldsnijders en werden in 1903 aangevoerd; het Rieger-orgel dateert uit 1904. De kerk herinnert aan het vroegere belang van Svätý Ondrej."
+        },
+        {
+          "id": "fact_006",
+          "title": "Pohronský Bukovec – een mijnbouwnederzetting in de Lage Tatra",
+          "text": "Pohronský Bukovec ligt in het smalle dal van de beek Bukovec op de zuidelijke hellingen van de Lage Tatra. De eerste schriftelijke vermelding dateert uit 1563; de oorsprong hangt samen met mijnbouw, de verwerking van ijzer- en zilver-kopererts en bosarbeid. In de zestiende en zeventiende eeuw exploiteerden ondernemers uit Banská Bystrica hier mijnen; vanaf de zeventiende eeuw was er ook een molen. Later leefden de inwoners vooral van houtkap en houtskoolbranden. Het gemeentelijke grondgebied strekt zich uit van de Hron tot de hellingen van Ráztocká hoľa en bereikt ongeveer 1.592 meter. Bossen bedekken het grootste deel van het gebied en in het dorp wordt ook een mineraalbron vermeld. Deze combinatie onderscheidt Bukovec van het kuuroord Brusno."
+        },
+        {
+          "id": "fact_007",
+          "title": "Matúšová – een bergbasis van de partizanenbrigade van Jegorov",
+          "text": "In augustus 1944 werd in het beboste dal Matúšová boven Pohronský Bukovec een basis opgericht van de partizanenbrigade J. V. Stalin onder leiding van Alexej Semjonovitsj Jegorov. De basis bestond uit ongeveer twintig bunkers en posten: commandobunkers, schuilplaatsen voor strijders, een radiopost en voedselopslagplaatsen. Na de terugtocht van de opstandelingen naar de bergen werd de plek een centrum van de partizanenstrijd. Inwoners hielpen met het bouwen van schuilplaatsen, het aanvoeren van voorraden en de verzorging van gewonden. Op 3 november 1944 werden de generaals Ján Golian en Rudolf Viest gevangengenomen in het huis van Jozefína Rybárová. Op 21 februari 1945 werd de nederzetting geplunderd en in brand gestoken. Van de 35 houten huizen van voor de oorlog waren er in 1948 32 stenen huizen herbouwd. De basis werd in 2007 hersteld; het exacte huis van de arrestatie is niet met zekerheid gelokaliseerd."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
