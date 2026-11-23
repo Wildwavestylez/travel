@@ -33,7 +33,7 @@
 
 ## Location corrections completed in this continuation
 
-The following 19 fact locations were filled with explicit source-backed exact, approximate, area-representative or historical-approximate points. Each changed record was fetched before writing, updated at its canonical path, fetched again and checked for unchanged `validated` status and unchanged version metadata. Its `database_index.json` city/status entry was then synchronized and read back.
+The following 23 fact locations were filled with explicit source-backed exact, approximate, area-representative or historical-approximate points. Each changed record was fetched before writing, updated at its canonical path, fetched again and checked for unchanged `validated` status and unchanged version metadata. Its `database_index.json` city/status entry was then synchronized and read back.
 
 - 97211: fact_005 — Lazany historic-settlement orientation point; exact location of former poorhouse house no. 145 remains unknown.
 - 97212: fact_004 — Via Magna route orientation point; fact_006 — municipal office orientation point for the two historic settlements; fact_007 — present-day Marian chapel location in Brezany.
@@ -44,11 +44,11 @@ The following 19 fact locations were filled with explicit source-backed exact, a
 - 97223: fact_003, fact_006, fact_007 — Dolné Vestenice settlement orientation points with honest accuracy; fact_008 — VEGUM industrial site at Gumárenská 337.
 - 97224: fact_001 — Diviacka Nová Ves settlement orientation point; fact_006 — Vrbany local-settlement orientation point.
 - 97227: fact_002 — Dobročná locality orientation point; the exact medieval mine position remains unknown.
+- 97228: fact_005 — Valaská Belá settlement orientation point for embroidery tradition; fact_007 — Podskalie locality orientation point near the Belanka stream, not the exact gorge; fact_008 — Škrípov (Studienka) locality orientation point near the documented execution site and memorial.
+- 97229: fact_001 — Čavoj settlement orientation point; exact historic mine locations remain unknown.
 
 No fact IDs, fact prose, source lists, primary postcode assignments, record status or version metadata were changed by these location repairs. All records remain `validated`.
 
-- 97228: fact_005 — Valaská Belá settlement orientation point for embroidery tradition; fact_007 — Podskalie locality orientation point near the Belanka stream, not the exact gorge; fact_008 — Škrípov (Studienka) locality orientation point near the documented execution site and memorial.
-- 97229: fact_001 — Čavoj settlement orientation point; exact historic mine locations remain unknown.
 
 ## Open items — REVIEW REQUIRED
 
