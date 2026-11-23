@@ -168,11 +168,11 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Oficiální adresa Obecního úřadu Donovaly 976 39 Donovaly 3 na webu obce; kontrolní nástroj Slovenské pošty pro PSČ. Samotná adresa potvrzuje použití kódu pro obec, nikoli hranici doručovací oblasti.",
+    "plz_source": "Slovenská pošta – oficiální seznam neautomatizovaných pošt, v němž je uvedeno Donovaly – 976 39; obecní web současně uvádí adresu obecního úřadu 976 39 Donovaly 3. Tyto zdroje potvrzují použití PSČ pro Donovaly, nikoli úplný polygon doručovací oblasti.",
     "geographic_test_data": false,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Vyhľadávanie PSČ – Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – List of non-automated post offices (oficiální PDF seznam)",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-23",
     "postcode_conflict": false,
@@ -241,6 +241,11 @@
       "title": "OpenStreetMap / OMA – Mistríky",
       "url": "https://poi.oma.sk/n2663462829",
       "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – List of non-automated post offices",
+      "url": "https://tandt.posta.sk/en/files/1305/list-of-non-automated-post-offices.pdf",
+      "type": "official"
     }
   ],
   "translations": {
