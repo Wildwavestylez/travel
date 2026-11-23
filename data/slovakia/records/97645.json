@@ -1,4 +1,661 @@
 {
   "postcode": "97645",
-  "status": "placeholder"
+  "city": "Hronec",
+  "district": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Hronec a Osrblie – železářská historie Horehroní a horské příběhy",
+  "representative_point": {
+    "lat": 48.7954508,
+    "lon": 19.5825196
+  },
+  "access_point": {
+    "lat": 48.7954508,
+    "lon": 19.5825196
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Hronecká slévárna a litinový most z roku 1810",
+      "text": "Hronec se od 18. století proměnil v jedno z významných středisek železářství na horním Hronu. Roku 1795 zde byla postavena vysoká pec a roku 1804 druhá; postupně vznikl rozsáhlý Hrončianský železářský komplex s hamry, slévárnami a válcovnami v několika obcích Horehroní. Hronecká slévárna se proslavila také výrobou litinových mostů: první byl odlit roku 1810 a další následovaly v letech 1813 a 1815. Část mostu z roku 1810 je dodnes vystavena před areálem místní slévárny. Jde o výjimečnou technickou památku připomínající dobu, kdy se horská obec stala důležitým průmyslovým centrem Uherska.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.hronecobec.sk/obec/o-obci/historia/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_276c66c3-50c7-45d7-ae59-99fe9a9a6cf3",
+        "https://reginastred.stvr.sk/clanky/historia/101509/vo-zvonicke-v-hronci"
+      ],
+      "location": {
+        "name": "Litinový most před hroneckou slévárnou",
+        "lat": 48.7986021,
+        "lon": 19.5789534,
+        "type": "bridge",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n2833069611"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_002",
+      "title": "Zvonice s litinovými náhrobními kříži",
+      "text": "Nad náměstím v Hronci stojí patrová zvonice z roku 1835. Uchovává soubor čtyř historických zvonů a v přízemí také malou muzejní expozici litinových náhrobních křížů, které vyráběli místní slévači. Kříže jsou osobitým dokladem toho, že zdejší železářská výroba neprodukovala jen průmyslové součásti, ale zasahovala také do každodenního a pietního života regionu. Zvonice tak spojuje sakrální, řemeslnou a průmyslovou historii obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.hronecobec.sk/obec/o-obci/historia/",
+        "https://www.pamiatkynaslovensku.sk/hronec-zvonica",
+        "https://reginastred.stvr.sk/clanky/historia/101509/vo-zvonicke-v-hronci"
+      ],
+      "location": {
+        "name": "Hrončianská zvonica",
+        "lat": 48.7949690352171,
+        "lon": 19.581383520975653,
+        "type": "building",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w71384622"
+      },
+      "map_category": "cultural_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Prajský dom – bydlení pruských slévačů",
+      "text": "Prajský dom patří k výrazným pozůstatkům někdejšího železářského Hronce. Obecní historický přehled uvádí, že byl postaven kolem roku 1800 pro pruské slévače, kteří přicházeli do místních hutí jako kvalifikovaní odborníci. Dům měl uzavřený hospodářský dvůr a patřil k souboru rozměrných komorských budov spojených se správou železáren. Přítomnost zahraničních pracovníků přispěla k vícejazyčnému a kulturně pestřejšímu prostředí obce. Prajský dom připomíná, že průmyslový rozvoj Hronce přitahoval nejen suroviny a kapitál, ale také lidi a technické znalosti z jiných částí Evropy.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.hronecobec.sk/obec/o-obci/historia/"
+      ],
+      "location": {
+        "name": "Prajský dom – orientační bod u historického domu",
+        "lat": 48.8023154,
+        "lon": 19.5753586,
+        "type": "historic_address",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n2014766557"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Alojz Sokol – hronecký olympionik z Athén 1896",
+      "text": "Hronec je rodištěm atleta Alojze Sokola (1871–1932), který se zúčastnil prvních novodobých olympijských her v Athénách roku 1896. Startoval za Uhersko v atletických disciplínách a v běhu na 100 metrů obsadil třetí místo. Obecní historický přehled jeho výsledek označuje jako „bronzové“ umístění. Sokolův příběh připomíná, že z průmyslové obce na Horehroní vzešla osobnost, která se zapsala do samých počátků moderní olympijské historie.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "https://www.hronecobec.sk/obec/o-obci/historia/"
+      ],
+      "location": {
+        "name": "Hronec – orientační bod v rodišti Alojze Sokola",
+        "lat": 48.7954508,
+        "lon": 19.5825196,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n3409080295"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_005",
+      "title": "Vysoká pec Tri Vody – železo z horské doliny",
+      "text": "V lokalitě Tri Vody nedaleko Osrblí byla roku 1795 vybudována vysoká pec, která zpracovávala železnou rudu z okolních ložisek. Palivem bylo dřevěné uhlí vyráběné z místních lesů a dmychadlo poháněla voda horských potoků z dolin Hámorná a Prostredná. Pec dodávala surové železo, jehož část putovala do sléváren v Hronci; přímo na místě se odlévaly také roury, kamna, železné nádobí a dělové koule. Provoz skončil roku 1872. Zachoval se 8,5 metru vysoký plášť pece, který byl v roce 1974 rekonstruován a zakonzervován. Je to mimořádně názorná připomínka propojení hornictví, lesnictví, vodní energie a hutnictví v horské krajině.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.osrblie.sk/historia-obce.html",
+        "https://www.lesy.sk/showdoc.do?docid=14490&forceBrowserDetector=pc",
+        "https://slovakia.travel/vysoka-pec-tri-vody-pri-osrbli"
+      ],
+      "location": {
+        "name": "Vysoká pec Tri Vody",
+        "lat": 48.7260667,
+        "lon": 19.5036333,
+        "type": "industrial_heritage_site",
+        "accuracy": "exact",
+        "source": "https://www.lesy.sk/showdoc.do?docid=14490&forceBrowserDetector=pc"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_006",
+      "title": "Od plavení dřeva k lesní úzkokolejce",
+      "text": "Horská železářská výroba potřebovala obrovské množství dřeva a dřevěného uhlí. Na potoce Osrblianka proto v roce 1867 vznikla vodní nádrž – tajch, která pomáhala při plavení dřeva. Tato doprava fungovala přibližně do roku 1917, kdy ji nahradila lesní úzkokolejná železnice vedoucí z Hronce přes Osrblie až do lokality Tri Vody. Železnice propojila lesní hospodářství s hutnickými provozy a stala se součástí technické infrastruktury zdejších hor. Příběh ukazuje, jak se v jednom údolí postupně měnily způsoby dopravy surovin – od vody k železnici.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.osrblie.sk/historia-obce.html",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_276c66c3-50c7-45d7-ae59-99fe9a9a6cf3"
+      ],
+      "location": {
+        "name": "Osrblie – orientační bod historické trasy lesní železnice",
+        "lat": 48.7557671,
+        "lon": 19.526026,
+        "type": "railway_heritage_site",
+        "accuracy": "historical_approximate",
+        "source": "https://osrblie.oma.sk/u/stredna/34"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_007",
+      "title": "Dřevěná Madona v kostele Osrblí",
+      "text": "Římskokatolický kostel Navštívení Panny Marie v Osrblí byl přestavěn roku 1935 ze starší sakrální stavby. Jeho nejcennějším prvkem je dřevěná plastika Panny Marie s Ježíškem, datovaná do druhé poloviny 15. století. Podle obecního popisu pochází z původního dřevěného kostelíka, který stál na tomto místě před dnešní stavbou. Socha tak uchovává paměť mnohem starší vrstvy osrblianského duchovního života, než by napovídala současná podoba kostela.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.osrblie.sk/oznamy/kostol-navstivenia-panny-marie.html",
+        "https://www.osrblie.sk/historia-obce.html"
+      ],
+      "location": {
+        "name": "Kostel Navštívení Panny Marie – orientační bod u kostela",
+        "lat": 48.7557671,
+        "lon": 19.526026,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://osrblie.oma.sk/u/stredna/34"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_008",
+      "title": "Národní biatlonové centrum a mistrovství světa 1997",
+      "text": "Osrblie je známé také díky Národnímu biatlonovému centru, které slouží slovenským sportovcům k letnímu i zimnímu tréninku a hostí významné mezinárodní závody. Největší událostí v historii areálu bylo mistrovství světa v biatlonu v roce 1997. Biatlon se stal součástí novodobé identity obce a centrum je důležitým sportovním bodem Horehroní. Areál spravuje Slovenský zväz biatlonu.",
+      "category": "tourism_and_surroundings",
+      "priority": "C",
+      "sources": [
+        "https://www.osrblie.sk/historia-obce.html",
+        "https://biathlon.sk/nbc-osrblie",
+        "https://poi.oma.sk/w19795976"
+      ],
+      "location": {
+        "name": "Národné biatlonové centrum Osrblie",
+        "lat": 48.7552237,
+        "lon": 19.5164819,
+        "type": "sports_facility",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w19795976"
+      },
+      "map_category": "sports_venue"
+    },
+    {
+      "id": "fact_009",
+      "title": "Červená jama – tajná muniční výroba během SNP",
+      "text": "V horské lokalitě Červená jama u Troch Vod se během Slovenského národního povstání ukrývala polní muniční výroba, která se sem na podzim 1944 přesunula z Harmance. Vyráběly se zde náložky a miny, fungovaly také sklady zdravotnického materiálu a místní odbojová skupina vydávala časopis a letáky. Výroba byla součástí partyzánské brigády majora Jegorova a pokračovala až do února 1945, kdy byla po německém útoku zničena. Obec Osrblie lokalitu eviduje mezi svými pamětihodnostmi; vlastní katastrální území patří Ľubietové, ale místo je spojeno s historií a péčí Osrblí. Je to silný a konkrétní příběh horského zázemí povstání.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.vets.cz/vpm/mista/obec/6557-lubietova/",
+        "https://www.osrblie.sk/download_file_f.php?id=1867960"
+      ],
+      "location": {
+        "name": "Červená jama – pamětní místo SNP, přibližná poloha",
+        "lat": 48.7460611,
+        "lon": 19.36325,
+        "type": "memorial_site",
+        "accuracy": "historical_approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/6557-lubietova/"
+      },
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální stránky obcí Hronec a Osrblie uvádějí adresy s PSČ 976 45; Slovenská pošta je příslušná poštovní autorita.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; doplněno oficiálními adresami obcí Hronec a Osrblie.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální stránky obcí Hronec a Osrblie a údaje Ústředního portálu veřejné správy; mapové body OpenStreetMap/OMA a státní podnik LESY SR."
+  },
+  "sources": [
+    {
+      "title": "Hronec – História obce",
+      "url": "https://www.hronecobec.sk/obec/o-obci/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Hronec – informácie o obci, Ústredný portál verejnej správy",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_276c66c3-50c7-45d7-ae59-99fe9a9a6cf3",
+      "type": "official"
+    },
+    {
+      "title": "Vo zvoničke v Hronci – Rádio Regina Stred, STVR",
+      "url": "https://reginastred.stvr.sk/clanky/historia/101509/vo-zvonicke-v-hronci",
+      "type": "news"
+    },
+    {
+      "title": "Hronec – zvonica, Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/hronec-zvonica",
+      "type": "specialist"
+    },
+    {
+      "title": "Hrončianska zvonica – mapový bod OpenStreetMap/OMA",
+      "url": "https://poi.oma.sk/w71384622",
+      "type": "other"
+    },
+    {
+      "title": "Liatinový most v Hronci – mapový bod OpenStreetMap/OMA",
+      "url": "https://poi.oma.sk/n2833069611",
+      "type": "other"
+    },
+    {
+      "title": "Hronec, Prajský dom – mapový bod OpenStreetMap/OMA",
+      "url": "https://poi.oma.sk/n2014766557",
+      "type": "other"
+    },
+    {
+      "title": "Kostol sv. Klimenta v Hronci – odborný pamiatkový záznam",
+      "url": "https://www.pamiatkynaslovensku.sk/hronec-kostol-sv-klementa",
+      "type": "specialist"
+    },
+    {
+      "title": "História obce Osrblie",
+      "url": "https://www.osrblie.sk/historia-obce.html",
+      "type": "official"
+    },
+    {
+      "title": "Vysoká pec na Troch Vodách – LESY Slovenskej republiky",
+      "url": "https://www.lesy.sk/showdoc.do?docid=14490&forceBrowserDetector=pc",
+      "type": "official"
+    },
+    {
+      "title": "Vysoká pec Tri Vody pri Osrblí – Slovakia.travel",
+      "url": "https://slovakia.travel/vysoka-pec-tri-vody-pri-osrbli",
+      "type": "official"
+    },
+    {
+      "title": "Kostol Navštívenia Panny Márie – obec Osrblie",
+      "url": "https://www.osrblie.sk/oznamy/kostol-navstivenia-panny-marie.html",
+      "type": "official"
+    },
+    {
+      "title": "Národné biatlonové centrum Osrblie – Slovenský zväz biatlonu",
+      "url": "https://biathlon.sk/nbc-osrblie",
+      "type": "official"
+    },
+    {
+      "title": "Národné biatlonové centrum Osrblie – mapový bod OpenStreetMap/OMA",
+      "url": "https://poi.oma.sk/w19795976",
+      "type": "other"
+    },
+    {
+      "title": "Osrblie – Stredná 34, orientační mapový bod v centru obce",
+      "url": "https://osrblie.oma.sk/u/stredna/34",
+      "type": "other"
+    },
+    {
+      "title": "Červená jama – pamätné miesto SNP, Vojenské pietne miesta",
+      "url": "https://www.vets.cz/vpm/mista/obec/6557-lubietova/",
+      "type": "specialist"
+    },
+    {
+      "title": "Evidované pamätihodnosti obce Osrblie",
+      "url": "https://www.osrblie.sk/download_file_f.php?id=1867960",
+      "type": "official"
+    },
+    {
+      "title": "Hronec – Hrončianske námestie, mapový bod OpenStreetMap/OMA",
+      "url": "https://poi.oma.sk/n3409080295",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Hronec a Osrblie – železářská historie Horehroní a horské příběhy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Hronecká slévárna a litinový most z roku 1810",
+          "text": "Hronec se od 18. století proměnil v jedno z významných středisek železářství na horním Hronu. Roku 1795 zde byla postavena vysoká pec a roku 1804 druhá; postupně vznikl rozsáhlý Hrončianský železářský komplex s hamry, slévárnami a válcovnami v několika obcích Horehroní. Hronecká slévárna se proslavila také výrobou litinových mostů: první byl odlit roku 1810 a další následovaly v letech 1813 a 1815. Část mostu z roku 1810 je dodnes vystavena před areálem místní slévárny. Jde o výjimečnou technickou památku připomínající dobu, kdy se horská obec stala důležitým průmyslovým centrem Uherska."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zvonice s litinovými náhrobními kříži",
+          "text": "Nad náměstím v Hronci stojí patrová zvonice z roku 1835. Uchovává soubor čtyř historických zvonů a v přízemí také malou muzejní expozici litinových náhrobních křížů, které vyráběli místní slévači. Kříže jsou osobitým dokladem toho, že zdejší železářská výroba neprodukovala jen průmyslové součásti, ale zasahovala také do každodenního a pietního života regionu. Zvonice tak spojuje sakrální, řemeslnou a průmyslovou historii obce."
+        },
+        {
+          "id": "fact_003",
+          "title": "Prajský dom – bydlení pruských slévačů",
+          "text": "Prajský dom patří k výrazným pozůstatkům někdejšího železářského Hronce. Obecní historický přehled uvádí, že byl postaven kolem roku 1800 pro pruské slévače, kteří přicházeli do místních hutí jako kvalifikovaní odborníci. Dům měl uzavřený hospodářský dvůr a patřil k souboru rozměrných komorských budov spojených se správou železáren. Přítomnost zahraničních pracovníků přispěla k vícejazyčnému a kulturně pestřejšímu prostředí obce. Prajský dom připomíná, že průmyslový rozvoj Hronce přitahoval nejen suroviny a kapitál, ale také lidi a technické znalosti z jiných částí Evropy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol – hronecký olympionik z Athén 1896",
+          "text": "Hronec je rodištěm atleta Alojze Sokola (1871–1932), který se zúčastnil prvních novodobých olympijských her v Athénách roku 1896. Startoval za Uhersko v atletických disciplínách a v běhu na 100 metrů obsadil třetí místo. Obecní historický přehled jeho výsledek označuje jako „bronzové“ umístění. Sokolův příběh připomíná, že z průmyslové obce na Horehroní vzešla osobnost, která se zapsala do samých počátků moderní olympijské historie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Vysoká pec Tri Vody – železo z horské doliny",
+          "text": "V lokalitě Tri Vody nedaleko Osrblí byla roku 1795 vybudována vysoká pec, která zpracovávala železnou rudu z okolních ložisek. Palivem bylo dřevěné uhlí vyráběné z místních lesů a dmychadlo poháněla voda horských potoků z dolin Hámorná a Prostredná. Pec dodávala surové železo, jehož část putovala do sléváren v Hronci; přímo na místě se odlévaly také roury, kamna, železné nádobí a dělové koule. Provoz skončil roku 1872. Zachoval se 8,5 metru vysoký plášť pece, který byl v roce 1974 rekonstruován a zakonzervován. Je to mimořádně názorná připomínka propojení hornictví, lesnictví, vodní energie a hutnictví v horské krajině."
+        },
+        {
+          "id": "fact_006",
+          "title": "Od plavení dřeva k lesní úzkokolejce",
+          "text": "Horská železářská výroba potřebovala obrovské množství dřeva a dřevěného uhlí. Na potoce Osrblianka proto v roce 1867 vznikla vodní nádrž – tajch, která pomáhala při plavení dřeva. Tato doprava fungovala přibližně do roku 1917, kdy ji nahradila lesní úzkokolejná železnice vedoucí z Hronce přes Osrblie až do lokality Tri Vody. Železnice propojila lesní hospodářství s hutnickými provozy a stala se součástí technické infrastruktury zdejších hor. Příběh ukazuje, jak se v jednom údolí postupně měnily způsoby dopravy surovin – od vody k železnici."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dřevěná Madona v kostele Osrblí",
+          "text": "Římskokatolický kostel Navštívení Panny Marie v Osrblí byl přestavěn roku 1935 ze starší sakrální stavby. Jeho nejcennějším prvkem je dřevěná plastika Panny Marie s Ježíškem, datovaná do druhé poloviny 15. století. Podle obecního popisu pochází z původního dřevěného kostelíka, který stál na tomto místě před dnešní stavbou. Socha tak uchovává paměť mnohem starší vrstvy osrblianského duchovního života, než by napovídala současná podoba kostela."
+        },
+        {
+          "id": "fact_008",
+          "title": "Národní biatlonové centrum a mistrovství světa 1997",
+          "text": "Osrblie je známé také díky Národnímu biatlonovému centru, které slouží slovenským sportovcům k letnímu i zimnímu tréninku a hostí významné mezinárodní závody. Největší událostí v historii areálu bylo mistrovství světa v biatlonu v roce 1997. Biatlon se stal součástí novodobé identity obce a centrum je důležitým sportovním bodem Horehroní. Areál spravuje Slovenský zväz biatlonu."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama – tajná muniční výroba během SNP",
+          "text": "V horské lokalitě Červená jama u Troch Vod se během Slovenského národního povstání ukrývala polní muniční výroba, která se sem na podzim 1944 přesunula z Harmance. Vyráběly se zde náložky a miny, fungovaly také sklady zdravotnického materiálu a místní odbojová skupina vydávala časopis a letáky. Výroba byla součástí partyzánské brigády majora Jegorova a pokračovala až do února 1945, kdy byla po německém útoku zničena. Obec Osrblie lokalitu eviduje mezi svými pamětihodnostmi; vlastní katastrální území patří Ľubietové, ale místo je spojeno s historií a péčí Osrblí. Je to silný a konkrétní příběh horského zázemí povstání."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Hronec und Osrblie – Eisenindustriegeschichte und Berggeschichten der Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Gießerei von Hronec und die gusseiserne Brücke von 1810",
+          "text": "Seit dem 18. Jahrhundert entwickelte sich Hronec zu einem bedeutenden Zentrum der Eisenverarbeitung am oberen Hron. 1795 entstand hier ein Hochofen, 1804 ein zweiter; daraus entwickelte sich der ausgedehnte Hrončiansky Eisenwerkskomplex mit Hammerwerken, Gießereien und Walzwerken in mehreren Gemeinden der Horehronie. Die Gießerei von Hronec wurde auch durch ihre gusseisernen Brücken bekannt: Die erste wurde 1810 gegossen, zwei weitere folgten 1813 und 1815. Ein Teil der Brücke von 1810 ist bis heute vor dem örtlichen Gießereigelände ausgestellt. Das technische Denkmal erinnert an die Zeit, als das Bergdorf zu einem wichtigen Industriestandort im Königreich Ungarn wurde."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Glockenturm mit gusseisernen Grabkreuzen",
+          "text": "Über dem Platz von Hronec steht ein zweigeschossiger Glockenturm aus dem Jahr 1835. Er bewahrt vier historische Glocken und im Erdgeschoss eine kleine Ausstellung gusseiserner Grabkreuze, die von örtlichen Gießern hergestellt wurden. Die Kreuze zeigen, dass die Eisenindustrie nicht nur Bauteile und Werkzeuge hervorbrachte, sondern auch das Alltagsleben und die Erinnerungskultur der Region prägte. Der Turm verbindet religiöse, handwerkliche und industrielle Geschichte."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Prajský-Haus – Unterkunft für preußische Gießer",
+          "text": "Das Prajský-Haus ist ein markantes Zeugnis des früheren Eisenwerksortes Hronec. Laut der Gemeindegeschichte wurde es um 1800 für preußische Gießer errichtet, die als qualifizierte Fachkräfte in die örtlichen Hütten kamen. Das Gebäude besaß einen abgeschlossenen Wirtschaftshof und gehörte zu den großen Kammergebäuden der Eisenwerksverwaltung. Die ausländischen Facharbeiter trugen zu einem mehrsprachigen und kulturell vielfältigen Dorfleben bei. Das Haus erinnert daran, dass die Industrialisierung nicht nur Rohstoffe und Kapital, sondern auch Menschen und technisches Wissen aus anderen Teilen Europas nach Hronec brachte."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol – Olympiateilnehmer aus Hronec, Athen 1896",
+          "text": "Hronec ist der Geburtsort des Leichtathleten Alojz Sokol (1871–1932), der an den ersten Olympischen Spielen der Neuzeit in Athen 1896 teilnahm. Er startete für Ungarn in den Leichtathletikwettbewerben und belegte über 100 Meter den dritten Platz. Die Gemeindegeschichte bezeichnet das Ergebnis als Bronzeplatzierung. Sokols Geschichte zeigt, dass aus dem Industriedorf in der Horehronie ein Sportler hervorging, der zu den frühen Kapiteln der modernen olympischen Geschichte gehört."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Hochofen Tri Vody – Eisen aus einem Bergtal",
+          "text": "Im Gebiet Tri Vody nahe Osrblie wurde 1795 ein Hochofen zur Verarbeitung der örtlichen Eisenerze errichtet. Als Brennstoff diente Holzkohle aus den umliegenden Wäldern; die Gebläseanlage wurde durch Wasser aus den Gebirgsbächen der Täler Hámorná und Prostredná angetrieben. Der Ofen erzeugte Roheisen, das teilweise zu den Gießereien in Hronec transportiert wurde. Vor Ort goss man auch Rohre, Öfen, Haushaltswaren aus Eisen und Kanonenkugeln. Der Betrieb endete 1872. Erhalten blieb der 8,5 Meter hohe Ofenkörper, der 1974 rekonstruiert und konserviert wurde. Das Denkmal veranschaulicht das Zusammenspiel von Bergbau, Forstwirtschaft, Wasserkraft und Eisenverarbeitung im Gebirge."
+        },
+        {
+          "id": "fact_006",
+          "title": "Von der Holztrift zur schmalspurigen Waldbahn",
+          "text": "Die Eisenindustrie im Gebirge benötigte große Mengen Holz und Holzkohle. Am Bach Osrblianka wurde deshalb 1867 ein Stauteich angelegt, der beim Holzflößen half. Diese Transportform wurde ungefähr bis 1917 genutzt; danach ersetzte sie eine schmalspurige Waldbahn von Hronec über Osrblie bis zum Gebiet Tri Vody. Die Bahn verband die Forstwirtschaft mit den Hüttenbetrieben und wurde Teil der technischen Infrastruktur der Bergtäler. Die Geschichte zeigt den Wandel des Rohstofftransports vom Wasserweg zur Eisenbahn."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die spätmittelalterliche Madonna in der Kirche von Osrblie",
+          "text": "Die römisch-katholische Kirche Mariä Heimsuchung in Osrblie wurde 1935 aus einem älteren Sakralbau umgebaut. Ihr wertvollstes Ausstattungsstück ist eine Holzplastik der Madonna mit dem Jesuskind aus der zweiten Hälfte des 15. Jahrhunderts. Nach Angaben der Gemeinde stammt sie aus der ursprünglichen Holzkirche, die vor dem heutigen Bau an dieser Stelle stand. Die Skulptur bewahrt damit eine viel ältere Schicht des religiösen Lebens in Osrblie, als die heutige Kirche vermuten lässt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Das Nationale Biathlonzentrum und die Weltmeisterschaft 1997",
+          "text": "Osrblie ist auch durch sein Nationales Biathlonzentrum bekannt. Es dient slowakischen Sportlern als Trainingsstätte im Sommer und Winter und ist Austragungsort bedeutender internationaler Wettbewerbe. Das größte Ereignis in der Geschichte der Anlage war die Biathlon-Weltmeisterschaft 1997. Biathlon ist zu einem Teil der modernen Identität der Gemeinde geworden; das Zentrum wird vom Slowakischen Biathlonverband betrieben."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama – geheime Munitionsproduktion während des Slowakischen Nationalaufstands",
+          "text": "Im Gebirgsgebiet Červená jama bei Tri Vody wurde während des Slowakischen Nationalaufstands eine Feldmunitionswerkstatt eingerichtet, die im Herbst 1944 aus Harmanec hierher verlegt worden war. Dort stellte man Sprengladungen und Minen her; außerdem gab es Lager für medizinisches Material und eine Widerstandsgruppe gab eine Zeitschrift sowie Flugblätter heraus. Die Produktion gehörte zur Partisanenbrigade von Major Jegorov und dauerte bis Februar 1945, als sie nach einem deutschen Angriff zerstört wurde. Die Gemeinde Osrblie führt den Ort in ihrem Verzeichnis lokaler Erinnerungsstätten; das Katastergebiet gehört zwar zu Ľubietová, der Ort ist jedoch eng mit der Geschichte und Betreuung durch Osrblie verbunden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Hronec and Osrblie – ironworking heritage and mountain stories of Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Hronec’s foundry and the cast-iron bridge of 1810",
+          "text": "From the 18th century, Hronec developed into an important ironworking centre on the upper Hron. A blast furnace was built here in 1795 and a second in 1804, forming part of the extensive Hrončiansky ironworks complex, which included forges, foundries and rolling mills in several Horehronie villages. The Hronec foundry also became known for cast-iron bridges: the first was cast in 1810, followed by two more in 1813 and 1815. A section of the 1810 bridge is still displayed in front of the local foundry. This remarkable industrial monument recalls the time when a mountain village became an important manufacturing centre in the Kingdom of Hungary."
+        },
+        {
+          "id": "fact_002",
+          "title": "The bell tower and its cast-iron grave crosses",
+          "text": "A two-storey bell tower dating from 1835 stands above Hronec’s square. It houses four historic bells and a small ground-floor display of cast-iron grave crosses made by local foundry workers. The crosses show that the village’s iron industry produced more than machinery and tools: it also shaped everyday life and memorial traditions across the region. The tower brings together the religious, craft and industrial history of Hronec."
+        },
+        {
+          "id": "fact_003",
+          "title": "Prajský House – home for Prussian foundry workers",
+          "text": "Prajský House is a distinctive reminder of Hronec’s former ironworking community. According to the municipal history, it was built around 1800 for Prussian foundry workers who came to the local works as skilled specialists. The building had an enclosed service courtyard and belonged to a group of substantial administrative houses associated with the ironworks. The arrival of foreign specialists helped create a multilingual and culturally diverse village. The house recalls how industrial development brought not only raw materials and investment, but also people and technical knowledge from other parts of Europe."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol – an Olympic athlete from Hronec, Athens 1896",
+          "text": "Hronec is the birthplace of athlete Alojz Sokol (1871–1932), who competed at the first modern Olympic Games in Athens in 1896. Representing Hungary, he took part in athletics and finished third in the 100-metre race. The municipal history describes his result as a bronze placing. Sokol’s story shows that this industrial village in the Horehronie region produced an athlete who became part of the earliest history of the modern Olympic movement."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Tri Vody blast furnace – iron from a mountain valley",
+          "text": "A blast furnace was built in 1795 at Tri Vody near Osrblie to process iron ore from local deposits. It was fuelled by charcoal made from surrounding forests, while water from mountain streams in the Hámorná and Prostredná valleys powered its blowing equipment. The furnace produced pig iron, some of which was sent to the foundries in Hronec. Pipes, stoves, household ironware and cannonballs were also cast on site. Production ended in 1872. The surviving 8.5-metre furnace shell was reconstructed and conserved in 1974. The monument vividly illustrates how mining, forestry, water power and ironmaking were linked in the mountain landscape."
+        },
+        {
+          "id": "fact_006",
+          "title": "From timber floating to a narrow-gauge forest railway",
+          "text": "Ironmaking in the mountains required vast quantities of timber and charcoal. In 1867, a reservoir was built on the Osrblianka stream to help float timber downstream. This method continued until about 1917, when a narrow-gauge forest railway was built from Hronec through Osrblie to the Tri Vody area. The railway connected forestry with the ironworks and became part of the region’s industrial infrastructure. The story traces the change in raw-material transport from waterways to rail."
+        },
+        {
+          "id": "fact_007",
+          "title": "A late-medieval Madonna in the church of Osrblie",
+          "text": "The Roman Catholic Church of the Visitation of the Virgin Mary in Osrblie was rebuilt in 1935 from an older sacred building. Its most valuable feature is a wooden sculpture of the Virgin Mary with the Christ Child dating from the second half of the 15th century. According to the municipality, it comes from the original wooden church that stood here before the present building. The sculpture preserves a much older layer of Osrblie’s religious history than the current church might suggest."
+        },
+        {
+          "id": "fact_008",
+          "title": "The National Biathlon Centre and the 1997 World Championships",
+          "text": "Osrblie is also known for its National Biathlon Centre, which provides Slovak athletes with year-round training facilities and hosts major international competitions. The most important event in the venue’s history was the 1997 Biathlon World Championships. Biathlon has become part of the village’s modern identity, and the centre is an important sporting venue in the Horehronie region. It is operated by the Slovak Biathlon Union."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama – secret ammunition production during the Slovak National Uprising",
+          "text": "During the Slovak National Uprising, a field ammunition workshop was established in the mountain locality of Červená jama near Tri Vody. It had been moved here from Harmanec in autumn 1944. The site produced explosive charges and mines, housed medical supplies and supported a resistance group that published a newsletter and leaflets. The workshop became part of Major Jegorov’s partisan brigade and continued operating until February 1945, when it was destroyed after a German attack. Osrblie includes the site in its local heritage register; although it lies in the cadastral territory of Ľubietová, it is closely connected with Osrblie’s history and care."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Hronec y Osrblie – patrimonio siderúrgico e historias de montaña de Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La fundición de Hronec y el puente de hierro fundido de 1810",
+          "text": "Desde el siglo XVIII, Hronec se convirtió en un importante centro siderúrgico del curso alto del Hron. Allí se construyó un alto horno en 1795 y otro en 1804, dentro del amplio complejo metalúrgico de Hrončiansky, que incluía fraguas, fundiciones y laminadores en varias localidades de Horehronie. La fundición de Hronec también destacó por sus puentes de hierro fundido: el primero se fundió en 1810 y otros dos se fabricaron en 1813 y 1815. Un fragmento del puente de 1810 sigue expuesto delante de la fundición local. Este notable monumento industrial recuerda la época en que una aldea de montaña se convirtió en un importante centro manufacturero del Reino de Hungría."
+        },
+        {
+          "id": "fact_002",
+          "title": "El campanario y sus cruces funerarias de hierro fundido",
+          "text": "Sobre la plaza de Hronec se alza un campanario de dos plantas construido en 1835. Conserva cuatro campanas históricas y, en la planta baja, una pequeña exposición de cruces funerarias de hierro fundido fabricadas por los fundidores locales. Estas cruces muestran que la industria del hierro no producía solo piezas industriales y herramientas, sino que también influía en la vida cotidiana y en las tradiciones conmemorativas de la región. El campanario reúne la historia religiosa, artesanal e industrial de Hronec."
+        },
+        {
+          "id": "fact_003",
+          "title": "La casa Prajský: alojamiento para fundidores prusianos",
+          "text": "La casa Prajský es un testimonio destacado del pasado siderúrgico de Hronec. Según la historia municipal, fue construida hacia 1800 para los fundidores prusianos que llegaron a las instalaciones locales como especialistas cualificados. El edificio tenía un patio de servicio cerrado y formaba parte de un conjunto de grandes edificios administrativos relacionados con la gestión de las ferrerías. La presencia de trabajadores extranjeros contribuyó a crear un ambiente multilingüe y culturalmente diverso. La casa recuerda que el desarrollo industrial atrajo no solo materias primas y capital, sino también personas y conocimientos técnicos de otras partes de Europa."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol: atleta olímpico de Hronec en Atenas 1896",
+          "text": "Hronec es el lugar de nacimiento del atleta Alojz Sokol (1871–1932), que participó en los primeros Juegos Olímpicos modernos celebrados en Atenas en 1896. Compitió por Hungría en atletismo y terminó tercero en la carrera de 100 metros. La historia municipal describe su resultado como una posición de bronce. Su trayectoria demuestra que esta localidad industrial de Horehronie dio al deporte una figura presente en los primeros capítulos de la historia olímpica moderna."
+        },
+        {
+          "id": "fact_005",
+          "title": "El alto horno de Tri Vody: hierro en un valle de montaña",
+          "text": "En la localidad de Tri Vody, cerca de Osrblie, se construyó en 1795 un alto horno para procesar el mineral de hierro de los yacimientos cercanos. Utilizaba carbón vegetal producido con madera de los bosques circundantes y el agua de los arroyos de montaña de los valles de Hámorná y Prostredná movía el sistema de soplado. El horno producía hierro en bruto, parte del cual se enviaba a las fundiciones de Hronec. En el propio lugar también se fundían tuberías, estufas, utensilios de hierro y balas de cañón. La producción terminó en 1872. Se conserva el cuerpo del horno, de 8,5 metros de altura, reconstruido y consolidado en 1974. El monumento muestra la relación entre minería, silvicultura, energía hidráulica y siderurgia en el paisaje montañoso."
+        },
+        {
+          "id": "fact_006",
+          "title": "Del transporte de madera por agua al ferrocarril forestal",
+          "text": "La siderurgia de montaña necesitaba enormes cantidades de madera y carbón vegetal. Por ello, en 1867 se construyó un embalse en el arroyo Osrblianka para facilitar el transporte de troncos por el agua. Este sistema funcionó aproximadamente hasta 1917, cuando fue sustituido por un ferrocarril forestal de vía estrecha que iba desde Hronec, atravesaba Osrblie y llegaba hasta Tri Vody. La línea conectó la explotación forestal con las instalaciones siderúrgicas y pasó a formar parte de la infraestructura industrial de la zona. La historia refleja el cambio del transporte de materias primas: del agua al ferrocarril."
+        },
+        {
+          "id": "fact_007",
+          "title": "Una Virgen medieval en la iglesia de Osrblie",
+          "text": "La iglesia católica romana de la Visitación de la Virgen María de Osrblie fue reconstruida en 1935 a partir de un edificio religioso anterior. Su elemento más valioso es una escultura de madera de la Virgen María con el Niño Jesús, fechada en la segunda mitad del siglo XV. Según el municipio, procede de la antigua iglesia de madera que se encontraba aquí antes del edificio actual. La escultura conserva una etapa mucho más antigua de la vida religiosa de Osrblie de lo que sugiere la iglesia actual."
+        },
+        {
+          "id": "fact_008",
+          "title": "El Centro Nacional de Biatlón y el Mundial de 1997",
+          "text": "Osrblie también es conocido por su Centro Nacional de Biatlón, que ofrece instalaciones de entrenamiento durante todo el año a los deportistas eslovacos y acoge importantes competiciones internacionales. El acontecimiento más destacado de la historia del recinto fue el Campeonato Mundial de Biatlón de 1997. El biatlón se ha convertido en parte de la identidad moderna del municipio y el centro es una instalación deportiva importante de Horehronie. Lo gestiona la Unión Eslovaca de Biatlón."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama: producción secreta de munición durante el Levantamiento Nacional Eslovaco",
+          "text": "Durante el Levantamiento Nacional Eslovaco se instaló un taller de munición de campaña en la zona montañosa de Červená jama, cerca de Tri Vody. Había sido trasladado desde Harmanec en otoño de 1944. Allí se fabricaban cargas explosivas y minas, había depósitos de material sanitario y un grupo de resistencia publicaba un boletín y octavillas. El taller pasó a formar parte de la brigada partisana del mayor Jegorov y siguió funcionando hasta febrero de 1945, cuando fue destruido tras un ataque alemán. Osrblie incluye el lugar en su registro de bienes patrimoniales locales; aunque se encuentra en el término catastral de Ľubietová, está estrechamente vinculado a la historia y al cuidado de Osrblie."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Hronec et Osrblie – patrimoine sidérurgique et récits de montagne de Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La fonderie de Hronec et le pont en fonte de 1810",
+          "text": "À partir du XVIIIe siècle, Hronec est devenu un centre important de la sidérurgie dans la haute vallée du Hron. Un haut-fourneau y fut construit en 1795, puis un second en 1804. Ils s’inscrivaient dans le vaste complexe sidérurgique de Hrončiansky, qui comprenait des forges, des fonderies et des laminoirs dans plusieurs villages de la région de Horehronie. La fonderie de Hronec s’est également illustrée par ses ponts en fonte : le premier fut coulé en 1810, puis deux autres en 1813 et 1815. Un fragment du pont de 1810 est encore exposé devant la fonderie locale. Ce remarquable témoin industriel rappelle l’époque où un village de montagne devint un centre manufacturier important du royaume de Hongrie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le beffroi et ses croix funéraires en fonte",
+          "text": "Au-dessus de la place de Hronec se dresse un beffroi à deux niveaux datant de 1835. Il abrite quatre cloches historiques et, au rez-de-chaussée, une petite exposition de croix funéraires en fonte fabriquées par les fondeurs locaux. Ces croix montrent que l’industrie du fer ne produisait pas seulement des pièces industrielles et des outils : elle influençait aussi la vie quotidienne et les traditions commémoratives de la région. Le beffroi réunit ainsi l’histoire religieuse, artisanale et industrielle de Hronec."
+        },
+        {
+          "id": "fact_003",
+          "title": "La maison Prajský, logement des fondeurs prussiens",
+          "text": "La maison Prajský est un témoignage marquant du passé sidérurgique de Hronec. Selon l’histoire communale, elle fut construite vers 1800 pour des fondeurs prussiens venus travailler dans les usines locales en tant que spécialistes qualifiés. Le bâtiment possédait une cour de service fermée et faisait partie d’un ensemble de grands édifices administratifs liés à la gestion des forges. La présence de travailleurs étrangers contribua à créer un environnement multilingue et culturellement diversifié. La maison rappelle que le développement industriel attirait non seulement des matières premières et des capitaux, mais aussi des personnes et des savoir-faire venus d’autres régions d’Europe."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol, athlète olympique de Hronec à Athènes en 1896",
+          "text": "Hronec est le lieu de naissance de l’athlète Alojz Sokol (1871–1932), qui participa aux premiers Jeux olympiques modernes à Athènes en 1896. Il concourut pour la Hongrie en athlétisme et termina troisième du 100 mètres. L’histoire communale qualifie son résultat de place de bronze. Son parcours montre qu’un village industriel de Horehronie a donné naissance à un sportif présent dès les premiers chapitres de l’histoire olympique moderne."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le haut-fourneau de Tri Vody, le fer au cœur d’une vallée de montagne",
+          "text": "Un haut-fourneau destiné au traitement du minerai de fer local fut construit en 1795 dans le secteur de Tri Vody, près d’Osrblie. Il fonctionnait au charbon de bois produit dans les forêts voisines, tandis que l’eau des torrents de montagne des vallées de Hámorná et Prostredná actionnait le soufflet. Le four produisait de la fonte, dont une partie était envoyée aux fonderies de Hronec. On y coulait également des tuyaux, des poêles, des ustensiles en fer et des boulets de canon. La production cessa en 1872. Le manteau du four, haut de 8,5 mètres, a été conservé et restauré en 1974. Le site illustre de façon concrète les liens entre mines, forêts, énergie hydraulique et métallurgie en montagne."
+        },
+        {
+          "id": "fact_006",
+          "title": "Du flottage du bois au chemin de fer forestier à voie étroite",
+          "text": "La métallurgie de montagne nécessitait de grandes quantités de bois et de charbon de bois. En 1867, un réservoir fut donc aménagé sur le ruisseau Osrblianka pour faciliter le flottage du bois. Ce mode de transport fut utilisé jusqu’aux environs de 1917, lorsqu’un chemin de fer forestier à voie étroite fut construit depuis Hronec, en passant par Osrblie, jusqu’au secteur de Tri Vody. La ligne reliait l’exploitation forestière aux installations sidérurgiques et devint un élément de l’infrastructure industrielle des vallées. Cette histoire retrace le passage du transport des matières premières par l’eau au transport ferroviaire."
+        },
+        {
+          "id": "fact_007",
+          "title": "Une Vierge médiévale dans l’église d’Osrblie",
+          "text": "L’église catholique romaine de la Visitation de la Vierge Marie à Osrblie fut reconstruite en 1935 à partir d’un édifice religieux plus ancien. Son élément le plus précieux est une sculpture en bois de la Vierge à l’Enfant datant de la seconde moitié du XVe siècle. Selon la commune, elle provient de l’ancienne église en bois qui se trouvait ici avant le bâtiment actuel. La sculpture conserve ainsi la mémoire d’une période beaucoup plus ancienne de la vie religieuse d’Osrblie que ne le laisse supposer l’église actuelle."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le Centre national de biathlon et les Championnats du monde de 1997",
+          "text": "Osrblie est également connu pour son Centre national de biathlon, qui accueille l’entraînement des sportifs slovaques en été comme en hiver et reçoit d’importantes compétitions internationales. L’événement majeur de l’histoire du site fut le Championnat du monde de biathlon de 1997. Le biathlon fait désormais partie de l’identité moderne de la commune et le centre constitue un équipement sportif important de la région de Horehronie. Il est géré par l’Union slovaque de biathlon."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama, une production clandestine de munitions pendant le soulèvement national slovaque",
+          "text": "Pendant le soulèvement national slovaque, un atelier de munitions de campagne fut installé dans la zone montagneuse de Červená jama, près de Tri Vody. Il avait été transféré de Harmanec à l’automne 1944. On y fabriquait des charges explosives et des mines ; le site abritait aussi des réserves de matériel médical et un groupe de résistance publiait un bulletin et des tracts. L’atelier fut intégré à la brigade de partisans du major Jegorov et fonctionna jusqu’en février 1945, lorsqu’il fut détruit après une attaque allemande. Osrblie inscrit le lieu dans son registre du patrimoine local ; bien qu’il se trouve dans le territoire cadastral de Ľubietová, il est étroitement lié à l’histoire et à la gestion d’Osrblie."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Hronec e Osrblie – patrimonio siderurgico e storie di montagna di Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La fonderia di Hronec e il ponte in ghisa del 1810",
+          "text": "Dal XVIII secolo Hronec si sviluppò come importante centro siderurgico nell’alto corso dell’Hron. Qui fu costruito un altoforno nel 1795 e un secondo nel 1804; nacque così il vasto complesso siderurgico di Hrončiansky, con fucine, fonderie e laminatoi in diversi villaggi della regione di Horehronie. La fonderia di Hronec divenne famosa anche per i ponti in ghisa: il primo fu colato nel 1810, seguito da altri due nel 1813 e nel 1815. Una parte del ponte del 1810 è ancora esposta davanti alla fonderia locale. Questo notevole monumento industriale ricorda il periodo in cui un villaggio montano divenne un importante centro produttivo del Regno d’Ungheria."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il campanile e le croci funerarie in ghisa",
+          "text": "Sopra la piazza di Hronec si trova un campanile a due piani del 1835. Conserva quattro campane storiche e, al piano terra, una piccola esposizione di croci funerarie in ghisa realizzate dai fonditori locali. Le croci dimostrano che l’industria del ferro non produceva soltanto componenti industriali e utensili, ma influenzava anche la vita quotidiana e le tradizioni commemorative della regione. Il campanile unisce così la storia religiosa, artigianale e industriale del paese."
+        },
+        {
+          "id": "fact_003",
+          "title": "La casa Prajský, alloggio per i fonditori prussiani",
+          "text": "La casa Prajský è una testimonianza significativa del passato siderurgico di Hronec. Secondo la storia comunale, fu costruita intorno al 1800 per i fonditori prussiani che arrivavano negli impianti locali come specialisti qualificati. L’edificio aveva un cortile di servizio chiuso e faceva parte di un gruppo di grandi edifici amministrativi legati alla gestione delle ferriere. La presenza di lavoratori stranieri contribuì a creare un ambiente multilingue e culturalmente vario. La casa ricorda che lo sviluppo industriale attirava non solo materie prime e capitali, ma anche persone e conoscenze tecniche da altre parti d’Europa."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol, atleta olimpico di Hronec ad Atene 1896",
+          "text": "Hronec è il luogo di nascita dell’atleta Alojz Sokol (1871–1932), che partecipò ai primi Giochi olimpici moderni ad Atene nel 1896. Gareggiò per l’Ungheria nelle competizioni di atletica e arrivò terzo nella corsa dei 100 metri. La storia comunale definisce il risultato un piazzamento di bronzo. La sua vicenda dimostra che questo villaggio industriale di Horehronie diede i natali a uno sportivo presente nei primi capitoli della storia olimpica moderna."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’altoforno di Tri Vody, il ferro in una valle di montagna",
+          "text": "Nel territorio di Tri Vody, vicino a Osrblie, nel 1795 fu costruito un altoforno per lavorare il minerale di ferro dei giacimenti locali. Il combustibile era carbone di legna prodotto nei boschi circostanti, mentre l’acqua dei torrenti montani delle valli Hámorná e Prostredná azionava il sistema di soffiaggio. L’altoforno produceva ghisa grezza, in parte trasportata alle fonderie di Hronec. Sul posto si fondevano anche tubi, stufe, utensili in ferro e palle di cannone. La produzione terminò nel 1872. È rimasto il mantello del forno, alto 8,5 metri, ricostruito e conservato nel 1974. Il monumento mostra chiaramente il legame tra miniere, foreste, energia idraulica e siderurgia nel paesaggio montano."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dal trasporto del legname per acqua alla ferrovia forestale a scartamento ridotto",
+          "text": "La siderurgia di montagna richiedeva grandi quantità di legname e carbone vegetale. Nel 1867 fu quindi costruito un bacino sul torrente Osrblianka per facilitare il trasporto del legname via acqua. Questo sistema rimase in uso fino a circa il 1917, quando fu sostituito da una ferrovia forestale a scartamento ridotto che partiva da Hronec, attraversava Osrblie e arrivava a Tri Vody. La linea collegava la gestione forestale agli impianti siderurgici e divenne parte dell’infrastruttura industriale delle valli. La storia racconta il passaggio del trasporto delle materie prime dall’acqua alla ferrovia."
+        },
+        {
+          "id": "fact_007",
+          "title": "Una Madonna tardomedievale nella chiesa di Osrblie",
+          "text": "La chiesa cattolica romana della Visitazione della Vergine Maria a Osrblie fu ricostruita nel 1935 a partire da un edificio sacro più antico. Il suo elemento più prezioso è una scultura lignea della Madonna con il Bambino, datata alla seconda metà del XV secolo. Secondo il comune, proviene dalla precedente chiesa di legno che sorgeva qui prima dell’edificio attuale. La scultura conserva una fase molto più antica della vita religiosa di Osrblie di quanto lasci immaginare la chiesa odierna."
+        },
+        {
+          "id": "fact_008",
+          "title": "Il Centro nazionale di biathlon e i Mondiali del 1997",
+          "text": "Osrblie è conosciuta anche per il suo Centro nazionale di biathlon, che offre agli atleti slovacchi strutture per allenarsi in estate e in inverno e ospita importanti competizioni internazionali. L’evento più importante nella storia dell’impianto fu il Campionato mondiale di biathlon del 1997. Il biathlon è diventato parte dell’identità moderna del comune e il centro è un importante impianto sportivo della regione di Horehronie. È gestito dall’Unione slovacca di biathlon."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama, produzione clandestina di munizioni durante l’Insurrezione nazionale slovacca",
+          "text": "Durante l’Insurrezione nazionale slovacca, nella località montana di Červená jama, vicino a Tri Vody, fu installata un’officina campale per la produzione di munizioni, trasferita qui da Harmanec nell’autunno del 1944. Vi si fabbricavano cariche esplosive e mine; erano presenti anche depositi di materiale sanitario e un gruppo della resistenza pubblicava un bollettino e volantini. L’officina entrò a far parte della brigata partigiana del maggiore Jegorov e rimase attiva fino al febbraio 1945, quando fu distrutta dopo un attacco tedesco. Osrblie include il luogo nel proprio registro del patrimonio locale; pur trovandosi nel territorio catastale di Ľubietová, è strettamente legato alla storia e alla cura di Osrblie."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Hronec en Osrblie – industrieel erfgoed en bergverhalen van Horehronie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De gieterij van Hronec en de gietijzeren brug uit 1810",
+          "text": "Vanaf de achttiende eeuw groeide Hronec uit tot een belangrijk centrum van ijzerbewerking aan de bovenloop van de Hron. In 1795 werd hier een hoogoven gebouwd en in 1804 een tweede. Zo ontstond het uitgestrekte Hrončiansky-ijzerwerkcomplex, met smederijen, gieterijen en walserijen in verschillende dorpen van Horehronie. De gieterij van Hronec werd ook bekend door haar gietijzeren bruggen: de eerste werd in 1810 gegoten, gevolgd door twee bruggen in 1813 en 1815. Een deel van de brug uit 1810 staat nog altijd tentoongesteld voor de plaatselijke gieterij. Dit bijzondere industriële monument herinnert aan de tijd waarin een bergdorp een belangrijk productiecentrum in het Koninkrijk Hongarije werd."
+        },
+        {
+          "id": "fact_002",
+          "title": "De klokkentoren en de gietijzeren grafkruisen",
+          "text": "Boven het plein van Hronec staat een klokkentoren van twee verdiepingen uit 1835. Er hangen vier historische klokken en op de begane grond is een kleine tentoonstelling van gietijzeren grafkruisen die door plaatselijke gieterijarbeiders zijn gemaakt. De kruisen laten zien dat de ijzerindustrie niet alleen industriële onderdelen en gereedschap produceerde, maar ook het dagelijks leven en de herdenkingstradities in de regio beïnvloedde. De toren brengt de religieuze, ambachtelijke en industriële geschiedenis van Hronec samen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Prajský-huis – onderkomen voor Pruisische gieters",
+          "text": "Het Prajský-huis is een opvallende herinnering aan het vroegere ijzerwerkersdorp Hronec. Volgens de gemeentelijke geschiedenis werd het rond 1800 gebouwd voor Pruisische gieters die als geschoolde specialisten naar de plaatselijke fabrieken kwamen. Het gebouw had een afgesloten diensthof en hoorde bij een groep grote bestuursgebouwen van de ijzerfabrieken. De aanwezigheid van buitenlandse vakmensen droeg bij aan een meertalige en cultureel veelzijdige dorpsgemeenschap. Het huis herinnert eraan dat de industriële ontwikkeling niet alleen grondstoffen en kapitaal aantrok, maar ook mensen en technische kennis uit andere delen van Europa."
+        },
+        {
+          "id": "fact_004",
+          "title": "Alojz Sokol – olympisch atleet uit Hronec, Athene 1896",
+          "text": "Hronec is de geboorteplaats van atleet Alojz Sokol (1871–1932), die deelnam aan de eerste moderne Olympische Spelen in Athene in 1896. Hij kwam voor Hongarije uit in de atletiek en eindigde als derde op de 100 meter. De gemeentelijke geschiedenis noemt dit een bronzen klassering. Zijn verhaal laat zien dat dit industriële dorp in Horehronie een sporter voortbracht die deel uitmaakt van de vroegste geschiedenis van de moderne Olympische beweging."
+        },
+        {
+          "id": "fact_005",
+          "title": "De hoogoven van Tri Vody – ijzer uit een bergdal",
+          "text": "In het gebied Tri Vody bij Osrblie werd in 1795 een hoogoven gebouwd om ijzererts uit plaatselijke vindplaatsen te verwerken. Als brandstof gebruikte men houtskool uit de omliggende bossen; water uit bergbeken in de dalen Hámorná en Prostredná dreef de blaasinstallatie aan. De oven produceerde ruwijzer, waarvan een deel naar de gieterijen in Hronec werd vervoerd. Ter plaatse werden ook buizen, kachels, ijzeren gebruiksvoorwerpen en kanonskogels gegoten. De productie stopte in 1872. De 8,5 meter hoge ovenmantel bleef bewaard en werd in 1974 gerestaureerd en geconserveerd. Het monument toont hoe mijnbouw, bosbouw, waterkracht en ijzerproductie in het berglandschap met elkaar verbonden waren."
+        },
+        {
+          "id": "fact_006",
+          "title": "Van houtvlotten naar een smalspoorbosspoorlijn",
+          "text": "De ijzerindustrie in de bergen had enorme hoeveelheden hout en houtskool nodig. Daarom werd in 1867 op de beek Osrblianka een stuwmeer aangelegd om hout stroomafwaarts te kunnen vlotten. Deze vervoerswijze bleef tot ongeveer 1917 in gebruik. Daarna kwam er een smalspoorbosspoorlijn van Hronec via Osrblie naar het gebied Tri Vody. De spoorlijn verbond de bosbouw met de ijzerfabrieken en werd onderdeel van de industriële infrastructuur van de bergdalen. Het verhaal laat zien hoe het vervoer van grondstoffen veranderde: van waterwegen naar spoorwegen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Een laatmiddeleeuwse Madonna in de kerk van Osrblie",
+          "text": "De rooms-katholieke kerk van Maria Visitatie in Osrblie werd in 1935 herbouwd vanuit een ouder kerkgebouw. Het waardevolste onderdeel is een houten beeld van Maria met het kindje Jezus uit de tweede helft van de vijftiende eeuw. Volgens de gemeente is het afkomstig uit de oorspronkelijke houten kerk die hier vóór het huidige gebouw stond. Het beeld bewaart een veel oudere laag van het religieuze leven in Osrblie dan de huidige kerk op het eerste gezicht doet vermoeden."
+        },
+        {
+          "id": "fact_008",
+          "title": "Het Nationaal Biathloncentrum en de wereldkampioenschappen van 1997",
+          "text": "Osrblie staat ook bekend om het Nationaal Biathloncentrum, waar Slowaakse sporters zowel in de zomer als in de winter kunnen trainen en waar belangrijke internationale wedstrijden worden gehouden. Het grootste evenement in de geschiedenis van het complex was het wereldkampioenschap biatlon van 1997. Biatlon is een onderdeel geworden van de moderne identiteit van de gemeente en het centrum is een belangrijke sportlocatie in Horehronie. Het wordt beheerd door de Slowaakse Biathlonbond."
+        },
+        {
+          "id": "fact_009",
+          "title": "Červená jama – geheime munitieproductie tijdens de Slowaakse Nationale Opstand",
+          "text": "Tijdens de Slowaakse Nationale Opstand werd in het berggebied Červená jama bij Tri Vody een mobiele munitiewerkplaats ingericht. Deze was in de herfst van 1944 vanuit Harmanec hierheen verplaatst. Er werden explosieve ladingen en mijnen gemaakt; er waren ook opslagplaatsen voor medisch materiaal en een verzetsgroep gaf een nieuwsbrief en pamfletten uit. De werkplaats maakte deel uit van de partizanenbrigade van majoor Jegorov en bleef tot februari 1945 actief, toen zij na een Duitse aanval werd vernietigd. Osrblie heeft de plek opgenomen in zijn lokale erfgoedregister; hoewel zij in het kadastrale gebied van Ľubietová ligt, is zij nauw verbonden met de geschiedenis en het beheer van Osrblie."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
