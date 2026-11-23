@@ -38,7 +38,7 @@ Před auditem chyběly dva významné pelhřimovské příběhy. Byly doplněny 
 1. `fact_011` — Mikuláš Biskupec z Pelhřimova, táborský biskup a husitský teolog; kategorie `people`, priorita A, map_category `personality`.
 2. `fact_012` — zemské sjezdy v Pelhřimově v letech 1444–1450; kategorie `history`, priorita A, map_category `historical_monument`.
 
-Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; `location=null` je záměrné. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
+Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; jejich `location` proto označuje pouze reprezentativní bod historického jádra Pelhřimova (`area_representative`), nikoli přesné místo narození či jednání. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
 
 Zdroje k doplnění:
 - https://www.muzeumpe.cz/historiemesta/
@@ -64,7 +64,7 @@ Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (p
 - 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
 - 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
 
-Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 13 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
+Tento mezisouhrn zachycuje stav po prvním geografickém průchodu; navazující závěrečný průchod je popsán v sekci 5.2. Konečný read-back potvrdil 229/229 faktů s polohou.
 
 ## 4. Mechanické kontroly
 
@@ -181,12 +181,18 @@ Technický nález je uzavřen. Žádné změny schématu ani migrace databázov�
 
 ## 6. Životní cyklus a uzavření auditu
 
-- Supabase: 39/39 záznamů zůstává `data_version=1`, `status=validated`.
 - Auditní výsledek: **PASS**.
-- V5 / published: NEPROVEDENO — vyžaduje samostatný výslovný pokyn uživatele.
-- Dropbox záloha: NEPROVEDENA.
+- Supabase: 39/39 záznamů `data_version=5`, `status=published`; read-back potvrdil přesně 39/39.
+- Obsah: 229 faktů / 1 603 jazykových položek; všech 229 faktů má platnou polohu.
+- Mapová tabulka: 229/229 bodů pro všech 39 PSČ; synchronizaci po publikaci provedl trigger `postal_codes_sync_explorer_map_points`.
+- Dropbox záloha: **VERIFIED** — přesný rozsah 39 PSČ, JSON + restore SQL + manifest; všechny tři soubory byly po uploadu znovu staženy a SHA-256 ověřeny.
+- Dropbox složka: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_PELHRIMOVSKO_39301-39601_2026-11-23T21-24-35-902Z/`.
+- `CZ_AUDIT_39301-39601_backup.json`: 1 895 551 B; SHA-256 `50ed5ee685d399b40a268f49c4cab020319f0aaa40811aea02e2262b2d62369e`.
+- `CZ_AUDIT_39301-39601_restore.sql`: 1 628 443 B; SHA-256 `41dcb373c730ffe448d4ee0dd985fe33507175efc6d7b4d9fb6f941dac4b783c`.
+- `manifest.json`: 2 762 B; SHA-256 `2e8a3ae2870c5097d9c0861c8ec82feb4c9f197a3a0c19d481876a4b2ff80ea7`; `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=39`.
+- Metadata note: v textových polích `backup_id` a `wave_id` manifestu je drobná mezera navíc v označení `PELH RIMOVSKO`; přesný rozsah, seznam 39 záznamů, data, soubory i jejich kontrolní SHA-256 jsou správné. Nejde o chybu obsahu ani obnovovacího SQL.
 - Neon: NEČTEN, NEZAPISOVÁN.
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
-**Audit bloku 39301–39601 je dokončen.** Geografická kontrola, sémantická kontrola překladů i technická oprava identifikátorů jsou uzavřeny.
+**Audit bloku 39301–39601 je dokončen a publikován.** Geografická kontrola, sémantická kontrola překladů, technická oprava identifikátorů, publikace V5 i Dropbox záloha jsou uzavřeny.
