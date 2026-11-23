@@ -278,3 +278,38 @@ Dříve zaznamenané opravy v 36005, 36006 a 36263 zůstávají v platnosti. Po 
 **Výsledek kontrolní oblasti E — PASS.** Kompletní sémantická revize všech původních cizojazyčných překladů je uzavřena; žádný jazykový nález nezůstává otevřený.
 
 **Výsledek celého auditu zůstává REVIEW REQUIRED do samostatného potvrzení ostatních kontrolních oblastí podle `prompt_audit.md` V2.1.** Tato jazyková etapa sama o sobě nemění status záznamů, `data_version`, schéma, inventář, `sequence.json`, skupiny, mapové polohy ani zdroje. Záměrně prázdná poloha 36273/`fact_004` (pískovna u Vojkovic) zůstává podle pravidel auditu bez odhadu. Nic nebylo publikováno, zálohováno, importováno do Neon ani zamčeno.
+
+
+### Konečné uzavření auditu podle prompt_audit.md V2.1 — 23. 11. 2026
+
+Po dokončení jazykové oblasti E byly samostatně uzavřeny zbývající kontrolní oblasti. Kontrola proběhla nad přesným inventářem 27 PSČ a nad 299 existujícími fakty; rozsah ani pořadí PSČ se neměnily.
+
+**A — Zásadní turistická úplnost: PASS.** Dříve uzavřený průzkum hlavních regionálních dominant a příběhů zůstává platný. Doplnění Goethova příběhu do 36001/fact_032 uzavřelo poslední zjištěnou významnou mezeru. Nebyla zjištěna další zásadní chybějící památka, událost ani osobnost.
+
+**B — PSČ a správní údaje: PASS.** 27/27 záznamů odpovídá přesnému inventáři; 26 záznamů náleží do okresu Karlovy Vary a 36461 do okresu Cheb, všech 27 do Karlovarského kraje. Sídla obsluhujících pošt a správní údaje byly převzaty z již dokončeného ověření. RÚIAN CSV obsahuje všech 27 kódů a jejich geografické obvody; sequence.json je obsahuje právě jednou.
+
+**C — Duplicity a přiřazení faktů: PASS.** Cílená kontrola celého bloku nenašla duplicitní názvy ani totožné texty. ID faktů jsou v rámci každého záznamu jedinečná. Již dříve opravené chybné přiřazení Otročína v 36464 zůstává vyřešeno; nebyla zjištěna nová zjevná duplicita ani neoprávněné opakování jednoho příběhu.
+
+**D — Kategorie mapy: PASS.** Všech 299 faktů používá povolenou hodnotu map_category. Byla opravena jediná nepovolená obsahová kategorie: 36236/fact_008 změněna z historické hodnoty local_culture na standardní culture_and_industry, která odpovídá místní lyžařské tradici. Read-back potvrdil opravu; map_category=sports_venue zůstalo beze změny.
+
+**E — Překlady: PASS.** Kompletní sémantická kontrola 299/299 českých master faktů proti DE/EN/ES/FR/IT/NL je uzavřena. Všech sedm jazyků má odpovídající ID, žádné chybějící překladové ID; celkem 2 093 jazykových položek.
+
+**F — JSON, databáze a technická konzistence: PASS.** Cílený read-back potvrdil přesně 27/27 řádků v Supabase, ID 9178–9204, country_code=CZ, data_version=1 a status=validated. Všech 27 JSON objektů obsahuje povinná top-level pole a odpovídající PSČ, město, okres a kraj. Všech 299 faktů má platné a jedinečné ID, povinná pole, neprázdný titul a text, neprázdné zdroje a platnou obsahovou i mapovou kategorii. Žádný český master text není kratší než 350 znaků. Sedm jazykových sad má úplná odpovídající ID. Rozdíly mezi content.sources a samostatným databázovým sloupcem sources byly bezpečně synchronizovány z kanonického JSON obsahu u 13 záznamů: 36004, 36222, 36233, 36234, 36236, 36251, 36263, 36272, 36301, 36401, 36452, 36453 a 36464. Závěrečný read-back potvrdil 0 rozdílů. Inventář, sequence a skupina v sequence.json zůstaly beze změny.
+
+**Mapové body — oprava potvrzeného nesouladu.** Cílené čtení explorer_map_points podle ID 27 auditovaných záznamů odhalilo, že ze sedmi dříve doložených bodů zůstal uložen pouze Goethův bod. Šest chybějících bodů bylo obnoveno přímo z ověřených facts[].location a map_category a následně načteno zpět: 36001/fact_030, 36001/fact_031, 36272/fact_006, 36272/fact_008, 36301/fact_013 a 36301/fact_014. Read-back nyní potvrzuje všech 7/7 doložených bodů včetně 36001/fact_032. Nebyly vytvářeny odhadované souřadnice ani měněny jiné mapové polohy.
+
+**G — Souřadnice: PASS s dokumentovanou výjimkou.** Jediná hodnota location: null zůstává 36273/fact_004 — Pískovna u Vojkovic. Přesnou polohu parcely nelze spolehlivě doložit; podle pravidel se proto souřadnice neodhadují. Výjimka je zdokumentovaná, nemá vliv na uzavření auditu a záznam zůstává zachován.
+
+**H — Zjevné věcné vady: PASS.** V rámci cíleného auditu nebyla zjištěna žádná další zjevná nepravda, nesprávné přiřazení, propagace ani jiná podstatná věcná vada vyžadující zásah. Nebyla opakována kompletní faktografická rešerše všech jednotlivých faktů.
+
+## Konečný výsledek
+
+**PASS — Audit Karlovarska 36001–36471 je dokončen podle prompt_audit.md V2.1.**
+
+- 27/27 PSČ, 299 faktů, 2 093 jazykových položek.
+- Kontrolní oblasti A–H uzavřeny; G obsahuje jednu zdokumentovanou a přijatelnou negeolokalizovatelnou výjimku.
+- Opraveno: 1 nepovolená obsahová kategorie, 13 synchronizací zdrojového sloupce, 6 obnovených mapových bodů.
+- Závěrečný read-back: 0 neplatných kategorií, 0 chybějících zdrojů, 0 rozdílů zdrojového sloupce, 0 duplicitních názvů/textů, 0 českých master textů pod 350 znaků, 0 chybějících překladových ID.
+- Záznamy zůstávají data_version=1, status=validated.
+
+**Publikace V5, změna statusu, záloha, Neon import a read-only lock nebyly provedeny.** Podle promptu se provádějí pouze na samostatné výslovné vyzvání uživatele.
