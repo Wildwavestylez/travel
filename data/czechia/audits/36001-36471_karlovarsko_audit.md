@@ -333,3 +333,18 @@ Obsah složky:
 Manifest read-back potvrzuje přesně 27/27 očekávaných PSČ, region Karlovarský kraj, `content_version=5`, `validation.status=VERIFIED`, `validation.readback_verified=true`, `verified_record_count=27` a shodný kanonický SHA-256 rozsahu `bbe8d1a5efb43784a4c58a9467820ad15e1253d6bc39df7710fb55bc3ce73b63`. SHA-256 exportního JSON je `61f40150acc31d3721ba5f50c9340b82b44807009db90a5c6e3fd0d37972a45d`. Funkce před potvrzením úspěchu stáhla zpět každý ze tří nahraných souborů a ověřila jeho SHA-256; všechny tři kontroly prošly. Dropbox read-back následně potvrdil existenci všech tří souborů.
 
 **Konečný stav rozsahu: PASS / PUBLISHED V5 / BACKUP VERIFIED.** Read-only zámek nebyl aktivován; žádný jiný rozsah nebyl změněn.
+
+
+### Import do Neon — 23. 11. 2026
+
+**NEON IMPORT — PASS.** Ověřená Dropbox záloha Karlovarska byla vložena do existující české databáze v projektu **Europe Explorer**, prostředí Production, databáze `neondb`, tabulka `public.czechia_cap_records`.
+
+- Importováno přesně **27/27 PSČ** z manifestu; původní `source_record_id` 9178–9204 zachována.
+- Vložení proběhlo v pěti menších dávkách pomocí `INSERT ... ON CONFLICT DO NOTHING`. Nebyl proveden žádný UPDATE ani DELETE; před importem nebyla nalezena kolize PSČ ani `source_record_id`.
+- Všech 27 záznamů má `workflow_status=published` a `content_version=5`.
+- Read-back: **299 faktů**, **298 faktů s polohou**, 7 jazykových sad u každého záznamu (189/189) a shodné počty faktů v každém jazyce.
+- Celkový počet záznamů v Neon vzrostl z **882 na 909**; počet publikovaných z 879 na 906.
+- Před importem byl vytvořen rollback branch `pre-karlovarsko-36001-36471-import-20261123`. Jeho read-back potvrzuje původní stav 882 záznamů a 0 karlovarských PSČ. Neon plán již dosáhl limitu počtu chráněných branches, proto se nepodařilo nastavit ochranný příznak; větev zůstává zachována jako návratový bod.
+- Původní Dropbox záloha zůstala beze změny; JSON, restore SQL ani manifest nebyly upraveny ani odstraněny.
+
+**Konečný stav: PASS / PUBLISHED V5 / BACKUP VERIFIED / NEON IMPORTED.**
