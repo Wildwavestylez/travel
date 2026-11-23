@@ -87,15 +87,15 @@ V rámci následného reworku bylo zkontrolováno 136 faktů v PSČ 36001, 36005
 
 ### Aktuální globální kontrola prázdných poloh
 
-Nový SQL read-back celé skupiny 27 PSČ původně odhalil 20 faktů s `location: null`. Šest poloh bylo následně doplněno a ověřeno v PSČ 36301 a 36401. Aktuálně zbývá celkem 14 prázdných poloh; kromě výše uvedené pískovny jde o následující dosud neuzavřené položky:
+Nový SQL read-back celé skupiny 27 PSČ původně odhalil 20 faktů s `location: null`. Osm poloh bylo následně doplněno a ověřeno v PSČ 36301, 36401 a 36464. Aktuálně zbývá celkem 12 prázdných poloh; kromě výše uvedené pískovny jde o následující dosud neuzavřené položky:
 
 | PSČ | Fakta |
 |---|---|
 | 36018 | fact_002 |
 | 36263 | fact_006, fact_007, fact_008 |
-| 36301 | fact_007, fact_008, fact_012 |
+| 36301 | fact_007, fact_012 |
 | 36401 | fact_003, fact_006, fact_007, fact_010, fact_012 |
-| 36464 | fact_006 |
+| 36464 | — |
 
 Nově doplněné polohy (6):
 - 36301 / `fact_002`: Ostrovský zámek — přesná poloha areálu.
@@ -104,6 +104,8 @@ Nově doplněné polohy (6):
 - 36301 / `fact_011`: Čedičová žíla Boč — přesná poloha přírodní památky.
 - 36401 / `fact_005`: Mariánský sloup v Toužimi — přesné souřadnice památky.
 - 36401 / `fact_008`: Krásné Údolí — přibližný reprezentativní bod historického centra.
+- 36301 / `fact_008`: bývalá porcelánka PULS v Mořičovské ulici — přesná poloha areálu.
+- 36464 / `fact_006`: kaple sv. Anny v Chodově u Bečova — přesná poloha podle brožury Noci kostelů / NPÚ.
 
 Ostatní položky zůstávají otevřenou kontrolou mapovatelnosti; `location: null` neznamená automatické povolení vložit nepodložený bod. Pískovna u Vojkovic zůstává záměrně nedotčená.
 
@@ -144,7 +146,7 @@ Původní seznam 51 krátkých českých textů je vyřešen: všech 51 položek
 - Český text kratší než 350 znaků: 0/299.
 - Devět reworkovaných PSČ: 136 faktů, 952 překladových položek, kompletní jazykové sady, 0 prázdných textů, 0 českých nesouladů, 0 chybějících zdrojů.
 - Polohy v devíti reworkovaných PSČ: 135/136 vyplněno; jedinou výjimkou je záměrně negeolokalizovaná pískovna 36273/fact_004.
-- Prázdné polohy v celé skupině 27 PSČ: 14 položek k další kontrole (13 mimo záměrně vynechanou pískovnu), vypsané v oddílu 4.
+- Prázdné polohy v celé skupině 27 PSČ: 12 položek k další kontrole (11 mimo záměrně vynechanou pískovnu), vypsané v oddílu 4.
 - Kompletní sémantická kontrola všech původních cizojazyčných překladů: OPEN.
 
-**Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a kontrola 13 dalších prázdných poloh mimo pískovnu. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
+**Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a kontrola 11 dalších prázdných poloh mimo pískovnu. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
