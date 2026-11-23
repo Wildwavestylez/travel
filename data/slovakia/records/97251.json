@@ -36,10 +36,19 @@
       "priority": "A",
       "sources": [
         "https://www.handlova.sk/9379/bansky-naucny-chodnik",
-        "https://archiv.handlova.sk/handlova.phtml?id3=13883"
+        "https://archiv.handlova.sk/handlova.phtml?id3=13883",
+        "https://poi.oma.sk/n439185089"
       ],
       "map_category": "technical_heritage",
-      "location": null
+      "location": {
+        "name": "Areál Bane Handlová – orientační bod k historickému dolu Barbora",
+        "address": "Štrajková 1, 972 51 Handlová, Slovensko",
+        "lat": 48.7253335,
+        "lon": 18.7493793,
+        "type": "mine",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n439185089"
+      }
     },
     {
       "id": "fact_003",
@@ -69,10 +78,19 @@
       "priority": "B",
       "sources": [
         "https://www.handlova.sk/9214/banicka-kolonia",
-        "https://www.handlova.sk/9382/stanovistia-chodnika"
+        "https://www.handlova.sk/9382/stanovistia-chodnika",
+        "https://poi.oma.sk/n2390824400"
       ],
       "map_category": "architecture",
-      "location": null
+      "location": {
+        "name": "Hornická kolonie – orientační bod u Ligetské 56",
+        "address": "Ligetská 56, 972 51 Handlová, Slovensko",
+        "lat": 48.7269113,
+        "lon": 18.7430537,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n2390824400"
+      }
     },
     {
       "id": "fact_005",
@@ -127,10 +145,19 @@
       "priority": "B",
       "sources": [
         "https://www.handlova.sk/9382/stanovistia-chodnika",
-        "https://www.handlova.sk/9379/bansky-naucny-chodnik"
+        "https://www.handlova.sk/9379/bansky-naucny-chodnik",
+        "https://poi.oma.sk/n12648231464"
       ],
       "map_category": "historical_monument",
-      "location": null
+      "location": {
+        "name": "Pomník hornických protestů – orientační bod v centru Handlové",
+        "address": "Námestie baníkov 7, 972 51 Handlová, Slovensko",
+        "lat": 48.7277402,
+        "lon": 18.7594006,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n12648231464"
+      }
     },
     {
       "id": "fact_008",
@@ -140,10 +167,19 @@
       "priority": "A",
       "sources": [
         "https://www.handlova.sk/28750/banska-tragedia",
-        "https://www.handlova.sk/9382/stanovistia-chodnika"
+        "https://www.handlova.sk/9382/stanovistia-chodnika",
+        "https://zivotpouhli.sk/media/attachments/2022/10/31/d2---sc2020-105-un-revitalisation_report-on-inventory-of-land-and-assets_final_sk.pdf"
       ],
       "map_category": "historical_monument",
-      "location": null
+      "location": {
+        "name": "Východní šachta dolu Handlová – místo tragédie z roku 2009",
+        "address": "Východná šachta, 972 51 Handlová, Slovensko",
+        "lat": 48.688396,
+        "lon": 18.722384,
+        "type": "mine",
+        "accuracy": "exact",
+        "source": "https://zivotpouhli.sk/media/attachments/2022/10/31/d2---sc2020-105-un-revitalisation_report-on-inventory-of-land-and-assets_final_sk.pdf"
+      }
     },
     {
       "id": "fact_009",
@@ -210,9 +246,18 @@
       "priority": "A",
       "sources": [
         "https://www.handlova.sk/28739/prva-svetova-vojna",
-        "https://www.handlova.sk/data/page/handlova.sk/24294/hh_2024_11_01_merged.pdf"
+        "https://www.handlova.sk/data/page/handlova.sk/24294/hh_2024_11_01_merged.pdf",
+        "https://poi.oma.sk/n439185089"
       ],
-      "location": null,
+      "location": {
+        "name": "Památník hladového štrajku u areálu Bane Handlová – orientační bod",
+        "address": "Štrajková 1, 972 51 Handlová, Slovensko",
+        "lat": 48.7253335,
+        "lon": 18.7493793,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n439185089"
+      },
       "map_category": "historical_monument"
     },
     {
@@ -445,6 +490,26 @@
     {
       "title": "Franzov kamenný dom – poloha a adresa",
       "url": "https://handlova.oma.sk/u/prievidzska/48",
+      "type": "specialist"
+    },
+    {
+      "title": "Handlová, baňa – orientační bod u hlavního důlního areálu",
+      "url": "https://poi.oma.sk/n439185089",
+      "type": "specialist"
+    },
+    {
+      "title": "Banícka kolónia – lokalizace historické hornické kolonie",
+      "url": "https://poi.oma.sk/n2390824400",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamätník baníkov – orientační bod v centru Handlové",
+      "url": "https://poi.oma.sk/n12648231464",
+      "type": "specialist"
+    },
+    {
+      "title": "Inventarizácia pozemkov a majetku – Východná šachta Handlová",
+      "url": "https://zivotpouhli.sk/media/attachments/2022/10/31/d2---sc2020-105-un-revitalisation_report-on-inventory-of-land-and-assets_final_sk.pdf",
       "type": "specialist"
     }
   ],
