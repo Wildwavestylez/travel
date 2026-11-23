@@ -31,24 +31,34 @@
 - Read-back confirmed corrected title, unchanged `validated` status and unchanged version metadata.
 - No other confirmed Czech/Slovak language contamination in the scanned fact prose and non-Czech translations was identified. Slovak official names and proper nouns were retained.
 
+## Location corrections completed in this continuation
+
+The following 19 fact locations were filled with explicit source-backed exact, approximate, area-representative or historical-approximate points. Each changed record was fetched before writing, updated at its canonical path, fetched again and checked for unchanged `validated` status and unchanged version metadata. Its `database_index.json` city/status entry was then synchronized and read back.
+
+- 97211: fact_005 — Lazany historic-settlement orientation point; exact location of former poorhouse house no. 145 remains unknown.
+- 97212: fact_004 — Via Magna route orientation point; fact_006 — municipal office orientation point for the two historic settlements; fact_007 — present-day Marian chapel location in Brezany.
+- 97213: fact_006 — Vyšehradné settlement orientation point for the Mendel and Richter houses.
+- 97214: fact_001, fact_002, fact_003 — Tužina official settlement-centre coordinate; the old mill/brewery position remains explicitly approximate.
+- 97216: fact_005 — former Baťa/Tatra furniture industrial complex at Pravenec 419.
+- 97221: fact_002, fact_003 — historic-approximate village orientation points for finds recorded only by house numbers; fact_007 — settlement orientation point for local fujara-making tradition.
+- 97223: fact_003, fact_006, fact_007 — Dolné Vestenice settlement orientation points with honest accuracy; fact_008 — VEGUM industrial site at Gumárenská 337.
+- 97224: fact_001 — Diviacka Nová Ves settlement orientation point; fact_006 — Vrbany local-settlement orientation point.
+- 97227: fact_002 — Dobročná locality orientation point; the exact medieval mine position remains unknown.
+
+No fact IDs, fact prose, source lists, primary postcode assignments, record status or version metadata were changed by these location repairs. All records remain `validated`.
+
 ## Open items — REVIEW REQUIRED
 
 ### Missing fact locations
 
-There are 60 facts with `location: null` in 23 records. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+There are now 41 facts with `location: null` in 17 records. Nineteen fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
 
 | Postcode | Facts with null location |
 |---|---|
-| 97211 | fact_005 |
-| 97212 | fact_004, fact_006, fact_007 |
-| 97213 | fact_006 |
-| 97214 | fact_001, fact_002, fact_003 |
-| 97216 | fact_005, fact_007, fact_008, fact_009 |
-| 97221 | fact_002, fact_003, fact_007 |
+| 97216 | fact_007, fact_008, fact_009 |
 | 97222 | fact_002, fact_006 |
-| 97223 | fact_003, fact_004, fact_006, fact_007, fact_008 |
-| 97224 | fact_001, fact_006 |
-| 97227 | fact_002, fact_005 |
+| 97223 | fact_004 |
+| 97227 | fact_005 |
 | 97228 | fact_005, fact_006, fact_007, fact_008 |
 | 97229 | fact_001 |
 | 97231 | fact_001, fact_004 |
@@ -91,4 +101,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-Resolve the 60 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+Resolve the remaining 41 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
