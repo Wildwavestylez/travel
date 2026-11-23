@@ -165,3 +165,18 @@ Původní seznam 51 krátkých českých textů je vyřešen: všech 51 položek
 - Kompletní sémantická kontrola všech původních cizojazyčných překladů: OPEN.
 
 **Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a pískovna u Vojkovic zůstává záměrně bez souřadnic. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
+
+
+### Sémantická revize překladů — doplňující opravy 23. 11. 2026
+
+Při cílené kontrole původních překladů byly ověřeny jazykové varianty a jejich návaznost na české master texty. Strukturální read-back všech 27 záznamů potvrdil u všech sedmi jazyků shodné počty faktů, správná ID a žádné prázdné tituly ani texty.
+
+Byly doplněny chybějící významné údaje v těchto překladech (vždy ve všech šesti cizích jazycích `de, en, es, fr, it, nl`):
+- 36221 / `fact_002`: doplněn životní rámec Ignáce Sichelbartha (1708–1780), jeho odjezd do Číny roku 1745 a spojení s Nejdkem.
+- 36236 / `fact_008`: doplněno ocenění Rudolfa Höhna ve Falunu roku 1974 a poslední skoky v roce 1982.
+- 36461 / `fact_012`: doplněna obnova kaple v Zahrádce roku 2002 a konkrétní rozsah pomoci nuceně nasazenému.
+- 36464 / `fact_004`: doplněna veřejná hudební škola z roku 1887 a požár místní synagogy roku 1904.
+
+Read-back po zápisu potvrdil všech 24 upravených překladových položek a přítomnost klíčových letopočtů. Tyto opravy neměnily české master texty, zdroje, ID faktů, polohy, stav ani verzi záznamů.
+
+**Stav úplné sémantické revize všech původních překladů v celém bloku: stále otevřený.** Výše uvedené opravy jsou dokončené dílčí nálezy, nikoli potvrzení úplné kontroly všech 299 faktů.
