@@ -10,10 +10,10 @@ This directory is the country-specific workspace for Austrian postcode content i
 
 - `schema.json` — shared TRAVEL record structure, identical to the Czech technical schema apart from the Austrian four-digit PLZ pattern and Austrian descriptions.
 - `location_types.json` — country-local copy of the shared 130-entry controlled fact-location type dictionary; IDs must match the schema enum exactly.
-- `COUNTRY_PROFILE.md` — Austrian postal, geographic and administrative interpretation; currently a working baseline.
-- `CONTENT_STANDARD.md` — initial production principles and research requirements; to be completed and approved.
-- `prompt_rework.md` — operational starting instructions for Austrian records; not a substitute for the final standard.
-- `prompt_audit.md` — separate final-audit starting instructions.
+- `COUNTRY_PROFILE.md` — Austrian postal, geographic and administrative interpretation, including the claim-specific authority/source catalogue (Austrian Post, RTR, BEV, Statistik Austria, basemap.at, BDA, UNESCO, Umweltbundesamt, GeoSphere Austria, archives and official tourism/site operators). The country-specific inventory and some geographic assignment decisions remain open.
+- `CONTENT_STANDARD.md` — shared TRAVEL editorial/research standard adapted to Austria, with PLZ as the content layer and administrative districts used only as search metadata.
+- `prompt_rework.md` — operational research/rework instructions with mandatory Austrian authority routing; not a substitute for the final standard.
+- `prompt_audit.md` — separate final-audit instructions with the same Austrian source hierarchy.
 - `sequence.json` — intentionally empty until the Austrian PLZ inventory and selection policy are researched and approved.
 
 ## Production unit and inclusion rule
