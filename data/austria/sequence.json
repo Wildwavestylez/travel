@@ -9,7 +9,10 @@
   "notes": [
     "This is an intentionally empty preparation file, not an approved production inventory.",
     "Do not infer Austrian PLZ coverage or generate a complete sequence from examples or postcode patterns.",
-    "Research and approve the national geographic PLZ inventory, special-purpose exclusions and initial coverage order before populating this file.",
+    "Include geographic PLZ only when official evidence establishes a real geographic delivery territory that can be researched as a place.",
+    "Exclude PO-box/Postfach-only, company/institution-only without territory, branch, sorting/distribution-centre and other purely operational/non-geographic codes.",
+    "Use online-first verification through official Austrian postal, geographic and administrative sources; do not require bulk downloads unless online evidence is insufficient or a reproducible comparison is necessary.",
+    "Research and approve the national geographic-only PLZ inventory, documented exclusions and initial coverage order before populating this file.",
     "The first content-production priority is major Austrian cities and nationally significant destinations, as agreed at project level."
   ]
 }
