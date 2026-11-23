@@ -121,10 +121,19 @@
       "priority": "C",
       "sources": [
         "https://www.poruba.sk/obec/historia-obce/?rss=200",
-        "https://www.poruba.sk/obec/zakladne-informacie/"
+        "https://www.poruba.sk/obec/zakladne-informacie/",
+        "https://w.apsida.sk/c/5999/poruba"
       ],
       "map_category": "historic_city",
-      "location": null
+      "location": {
+        "name": "Kostel sv. Mikuláše – orientační bod historického jádra Poruby",
+        "address": "Poruba, 972 11 Poruba, Slovensko",
+        "lat": 48.83216397,
+        "lon": 18.590036631,
+        "type": "historic_settlement",
+        "accuracy": "representative_point",
+        "source": "https://w.apsida.sk/c/5999/poruba"
+      }
     },
     {
       "id": "fact_007",
@@ -133,7 +142,7 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "https://vvvw.apsida.sk/c/5999/poruba",
+        "https://w.apsida.sk/c/5999/poruba",
         "https://www.poruba.sk/modules/file_storage/download.php?file=a3ccfe55%7C243&inline=1"
       ],
       "map_category": "religious_site",
@@ -143,7 +152,7 @@
         "lon": 18.590036631,
         "type": "church",
         "accuracy": "exact",
-        "source": "https://vvvw.apsida.sk/c/5999/poruba"
+        "source": "https://w.apsida.sk/c/5999/poruba"
       }
     }
   ],
@@ -224,14 +233,14 @@
       "type": "official"
     },
     {
-      "title": "Apsida – ranogotický kostol sv. Mikuláša v Porube",
-      "url": "https://vvvw.apsida.sk/c/5999/poruba",
-      "type": "specialist"
-    },
-    {
       "title": "Územný plán obce Poruba – kultúrno-historické hodnoty",
       "url": "https://www.poruba.sk/modules/file_storage/download.php?file=a3ccfe55%7C243&inline=1",
       "type": "official"
+    },
+    {
+      "title": "Apsida – Kostel sv. Mikuláša v Porube, GPS a historie",
+      "url": "https://w.apsida.sk/c/5999/poruba",
+      "type": "specialist"
     }
   ],
   "translations": {
