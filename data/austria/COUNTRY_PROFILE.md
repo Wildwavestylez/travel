@@ -1,8 +1,8 @@
-# Austria — COUNTRY PROFILE (working baseline)
+# Austria — COUNTRY PROFILE
 
 ## Purpose and status
 
-This profile defines the intended Austrian meaning of postal, geographic and administrative concepts used by TRAVEL / EuropeExplorer records. It is a working baseline, not yet an approved final country specification.
+**Status: Complete and approved country specification.** This profile defines the Austrian meaning of postal, geographic and administrative concepts used by TRAVEL / EuropeExplorer records. It is the authoritative country-specific reference used together with `schema.json`, `CONTENT_STANDARD.md`, `prompt_rework.md` and `prompt_audit.md`.
 
 The schema defines technical field names, types and controlled values. Its structure is identical to the Czech origin except for the Austrian four-digit PLZ pattern. This profile defines Austrian meanings. The Content Standard and operational prompts must implement both without inventing extra fields or weakening the shared TRAVEL content requirements.
 
@@ -215,11 +215,15 @@ For every claim, ask which institution is competent to establish it:
 
 The Austrian technical record should remain compatible with the shared TRAVEL / EuropeExplorer architecture and its seven language branches (`cs`, `de`, `en`, `es`, `fr`, `it`, `nl`) unless a project-level decision changes the shared contract. Country-specific Austrian semantics belong in documentation and values, not ad hoc field names or enums.
 
-## Decisions still required
+## Established project decisions
 
-- Complete, source-verified inventory of geographic-only Austrian PLZ and explicit exclusion log.
-- Exact policy for PLZ spanning multiple municipalities.
-- Final administrative mapping, especially statutory cities and Vienna.
-- Whether the existing shared schema can be used unchanged apart from the four-digit PLZ pattern and country descriptions.
-- Canonical storage, lifecycle, backups, and EuropeExplorer publication workflow.
-- Initial coverage sequence for major cities and significant destinations.
+The following decisions are settled and form the operating baseline for Austria:
+
+- The content and map indexing unit is one complete geographic four-digit Austrian PLZ, stored as a string. Geographic eligibility and official source selection follow the rules in this profile; this is not an open design question.
+- The shared TRAVEL record structure is used unchanged, apart from the Austrian four-digit PLZ pattern and country-specific descriptions. No Austrian-only fields or enum values are introduced.
+- PLZ is the content layer. Municipalities, political Bezirke, statutory cities and Bundesländer are supporting administrative/search metadata, not substitutes for the PLZ content scope.
+- Austrian source authorities and claim-specific source routing are defined in this profile.
+- The operational data path is GitHub working records → rework → separate final audit → V5 → `published` on GitHub → copy of published records to Neon. GitHub is the authoritative working and publication source; Neon receives the published copy.
+- The initial inventory and work order are maintained in `sequence.json`. Its population and the preparation of JSON working files are the next execution stage; their current empty/preparation state does not reopen the settled methodology or source decisions.
+
+No further country-level design approval is required before proceeding with sequence preparation and JSON pre-structuring. Actual records must still pass rework, audit and V5 publication gates before being copied to Neon.
