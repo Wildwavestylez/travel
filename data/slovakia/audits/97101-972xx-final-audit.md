@@ -59,7 +59,7 @@ There are now 31 facts with `location: null` in 13 records. Twenty-nine fact loc
 
 | Postcode | Facts with null location |
 |---|---|
-| 97222 | fact_002, fact_006 |
+| 97222 | fact_002 |
 | 97223 | fact_004 |
 
 | 97231 | fact_001, fact_004 |
