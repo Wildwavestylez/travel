@@ -1,9 +1,7 @@
 {
   "country": "Austria",
-  "country_code": "AT",
-  "postal_code_format": "NNNN",
   "mode": "preparation",
-  "status": "inventory_prepared_pending_review",
+  "start": "1010",
   "count": 2234,
   "sequence": [
     "1010",
@@ -2240,13 +2238,5 @@
     "9990",
     "9991",
     "9992"
-  ],
-  "notes": [
-    "Sequence transcribed automatically from the official EDM current list of Austrian postcodes.",
-    "The EDM list is based on Statistik Austria regional classification and corresponds to addressing postcodes in the Austrian Post postcode directory; Postfach-only postcode types are excluded by the source.",
-    "All entries are four-character strings, unique, and sorted strictly ascending by numeric value.",
-    "This is a prepared source inventory for the next project step, not a completed content rework or audit.",
-    "Source: https://www.edm.gv.at/edm_portal/redaList.do?seqCode=598c5vaxpkprtj&trigger=true&ubastyle_lang=de",
-    "Export retrieved on the workflow run date; source reported 2234 entries."
   ]
 }
