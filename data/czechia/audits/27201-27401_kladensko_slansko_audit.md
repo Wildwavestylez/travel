@@ -128,8 +128,9 @@ Po cíleném dohledávání zůstává **12 faktů s `location=null`**. Nejde o 
 
 ### Vyřešená duplicita lesního památníku
 
-- `27203/fact_007` a `27309/fact_008` popisovaly stejný památník 38 dělníkům zabitým při náletu 12. 9. 1944.
+- `27203/fact_007` a `27309/fact_008` popisovaly stejný lesní památník civilním obětem náletu 12. 9. 1944.
 - Přímý zdroj památníku uvádí souřadnice **50.1563778, 14.1450417** a polohu v lese u Dubí.
+- Počet obětí se v pramenech rozchází: zpráva Vlády ČR uvádí 35 (22 usmrcených na místě a 13 zemřelých po převozu), Katolické noviny 36 a farnost 38. Proto byl titul i text faktu upraven tak, aby žádné jediné číslo nepředstíral jako jisté; všechny tři varianty jsou výslovně uvedeny.
 - Porovnání s adresními místy v Dubí podporuje primární přiřazení **27203**: nejbližší doložené adresní body na ulici Lesní mají PSČ 27203, zatímco adresy 27309 na Na Cikánce leží dále.
 - V `27203/fact_007` zůstal hlavní záznam; doplněna informace o poškození kostela sv. Jana Křtitele při témže náletu a přístupové cestě.
 - Duplicitní `27309/fact_008` byl odstraněn z `facts` i ze všech sedmi jazykových polí. Ostatní ID a položky byly zachovány.
@@ -139,6 +140,9 @@ Zdroje:
 - https://www.vets.cz/vpm/mista/obec/4214-/
 - https://regiony.kurzy.cz/psc/kladno-okres-kladno/dubi-cast/
 - https://regiony.kurzy.cz/psc/kladno-okres-kladno/lesni/
+- https://vlada.gov.cz/cz/clenove-vlady/pri-uradu-vlady/jiri-dienstbier/aktualne/ministr-dienstbier-uctil-na-kladne-pamatku-obeti-tragedie-z-2--svetove-valky-122504/
+- https://www.velvary.cz/mesto/aktuality/mestske-muzeum-patra-po-obeti-tragicke-udalosti-z-2-svetove-valky-3000cs.html
+- https://katolickenoviny.cz/nalet-z-roku-1944-aktualni-i-po-80-letech/
 
 ## 6. Provozní uzavření
 
