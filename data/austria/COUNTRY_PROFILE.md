@@ -224,6 +224,8 @@ The following decisions are settled and form the operating baseline for Austria:
 - PLZ is the content layer. Municipalities, political Bezirke, statutory cities and Bundesländer are supporting administrative/search metadata, not substitutes for the PLZ content scope.
 - Austrian source authorities and claim-specific source routing are defined in this profile.
 - The operational data path is GitHub working records → rework → separate final audit → V5 → `published` on GitHub → copy of published records to Neon. GitHub is the authoritative working and publication source; Neon receives the published copy.
-- The initial inventory and work order are maintained in `sequence.json`. Its population and the preparation of JSON working files are the next execution stage; their current empty/preparation state does not reopen the settled methodology or source decisions.
+- `sequence.json` is the canonical, complete inventory of approved geographic Austrian PLZ and the authoritative work order. It is a production input, not a future preparation task.
+- Each production record is researched and reworked to the complete standard on GitHub, then separately audited, prepared as V5, approved and marked `published`. Only published GitHub records are copied to Neon.
+- Project specifications, source hierarchy, schema, content requirements and workflow rules are complete and apply immediately. They must not describe a provisional system, defer required content or use future placeholders. If a document is incomplete or contradictory, align it to the complete shared standard before the affected work continues.
 
-No further country-level design approval is required before proceeding with sequence preparation and JSON pre-structuring. Actual records must still pass rework, audit and V5 publication gates before being copied to Neon.
+GitHub is the authoritative working and publication source; Neon contains the published copy. Rework, audit and publication are distinct record lifecycle stages and do not imply that any project specification or schema is unfinished.
