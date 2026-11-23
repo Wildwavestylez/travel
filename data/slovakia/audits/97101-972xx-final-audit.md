@@ -102,22 +102,33 @@ All fallback names explicitly identify the mapped public point rather than claim
 
 All eight affected records remain `validated`, with no `data_version` changes. Their Database Viewer index rows were checked and already matched the canonical `city` and `status` values. No fact text, fact ID, primary postcode assignment or translation was changed.
 
-### Postal-geography evidence
+### Postal-geography evidence — completed 2026-11-24
 
-Four records explicitly retain `verification.geographic_test_data = false`; the postal/geographic verification is therefore not complete enough to pass:
+The four previously open records have now been checked against official municipal/statistical evidence, physical geographic context and an independent comprehensive Slovak postcode list. All four now have `verification.geographic_test_data = true`; the evidence and checked date (2026-11-24) were saved in the canonical JSON records and verified by GitHub read-back.
 
-- 97211 — Lazany
-- 97212 — Nedožery-Brezany
-- 97215 — Kľačno
-- 97216 — Pravenec
+| PSČ | Geographic evidence checked | Result |
+|---|---|---|
+| 97211 — Lazany | Official Lazany development programme identifies PSČ 972 11; official Poruba basic information independently identifies PSČ 972 11; the Parcelforce Complete Postcode List for Slovakia (Apr 2020) lists both Lazany and Poruba under 972 11. The record's representative municipality Lazany is defensible; research scope includes Poruba. | Geographic code and locality assignment corroborated; no delivery polygon claimed. |
+| 97212 — Nedožery-Brezany | Official Community Plan 2023–2027, citing ŠÚ SR, explicitly gives PSČ 972 12 and administrative hierarchy; official municipal address uses 972 12; the Parcelforce list groups Brezany, Nedožery and Nedožery-Brezany under 972 12. | Geographic code and representative municipality corroborated; no delivery polygon claimed. |
+| 97215 — Kľačno | Official municipal contact page identifies the physical municipal address as Kľačno 326, 972 15; official geographic profile identifies the settlement centre and surrounding geography; the Parcelforce list identifies Kľačno under 972 15. | Geographic code and representative municipality corroborated; no delivery polygon claimed. |
+| 97216 — Pravenec | Official Pravenec Community Plan 2025–2029, citing ŠÚ SR, explicitly gives PSČ 972 16 and administrative hierarchy. The official Poluvsie development plan also gives 972 16 and explicitly states that postal services for Poluvsie are provided by Slovenská pošta from Pravenec; official municipal addresses and the Parcelforce list corroborate Pravenec and Poluvsie under this code. | Geographic code and representative municipality Pravenec corroborated; no delivery polygon claimed. |
 
-The records describe address evidence, but the geographic test flag is false and must not be changed to true without performing and documenting the required check. Keep these records `validated`.
+The official Slovenská pošta postcode-finder page was consulted, but its interactive per-query result was not available in an extractable form in this audit. This limitation is recorded in each record's `verification.plz_source`; it is not represented as a direct machine-readable Slovenská pošta result. The classification is supported by the combined official municipal/ŠÚ SR evidence and the independent postcode list. No exact postal-delivery boundary or postcode polygon is asserted; the audit prompt does not require one. No material conflict was found.
+
+Record updates:
+- 97211 commit `872aba74cf84945200cc22b3e979c362e0161197`; blob `04fcca653544da2ffe977269c4a0a48f408251c4`.
+- 97212 commit `9a790992d042a6d1d0fb9bd0642503949f869f90`; blob `383864d947cc7fa35337121f5af40f33522841a6`.
+- 97215 commit `30810aead23643e5930a39410d53b109f59901f3`; blob `d182ae4dbd128a714ebf14c755de3ea43d3e3ff4`.
+- 97216 commit `8a3c43ad0faa7a4c53cbca8bebd76e3038b34124`; blob `bbc45f8a19d33314332cee11ab65ff09b06a9136`.
+
+Read-back confirmed all four records remain `validated`, retain unchanged version metadata, have `geographic_test_data = true`, and have no null fact locations. Their Database Viewer `city` and `status` entries already matched the canonical records; no index update was needed. `access_point_verified` remains false because no separate access-point verification was part of this audit.
 
 ### Record-level results
 
-- `PASS` on the structural, language-alignment, source-reference and map-category checks: all 32 records.
-- `REVIEW REQUIRED` for postal-geography evidence: 97211, 97212, 97215, 97216.
-- Overall block result: `REVIEW REQUIRED`; do not publish until all material open items are resolved and cross-postcode checks remain complete.
+- `PASS` on structural/schema, language alignment, source-reference and map-category checks: all 32 records.
+- `PASS` on geographic postal assignment and representative municipality checks: all 32 records.
+- No unresolved material audit blocker remains.
+- Overall block result: `PASS`. Records remain `validated`; no publication or downstream synchronization was authorized.
 
 ## Version, publication and downstream systems
 
@@ -129,4 +140,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-All fact locations in the 32-record scope now have a non-null, evidence-backed point or a justified public orientation point. Complete the geographic verification for 97211, 97212, 97215 and 97216, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+The 32-record final audit is complete and passes. All fact locations have a non-null evidence-backed point or a justified public orientation point, and all postal-geography checks are documented. Records remain `validated` pending an explicit publication instruction. Preserve all fact IDs, source URLs, primary assignments and version metadata; do not publish V5, sync Neon or create a Dropbox backup without authorization.
