@@ -594,30 +594,36 @@ Obecné tvrzení typu „v obci stojí starý kostel“ nestačí bez dalšího 
 
 ## 31. Zdroje a důkazní standard
 
-Každé faktum musí být pravdivé, konkrétní, lokálně relevantní a doložitelné.
+Každé faktum musí být pravdivé, konkrétní, lokálně relevantní a doložitelné. Rakouské autority nejsou zaměnitelné: zdroj vybírej podle konkrétního tvrzení, které potřebuješ ověřit.
 
-Preferované pořadí zdrojů:
-1. odpovědné oficiální instituce a primární zdroje;
-2. obce, města, regionální a státní instituce a jejich oficiální organizace;
-3. státní a regionální archivy, muzea, galerie a památkové instituce;
-4. univerzity, vědecké instituce a odborné organizace;
-5. správci památek, provozovatelé a vlastníci lokalit;
-6. odborné publikace a specializované zdroje;
-7. kvalitní žurnalistika;
-8. důvěryhodné regionální a místní zdroje.
+**Závazný rakouský katalog autorit, jejich kompetencí a přímých oficiálních odkazů je v `data/austria/COUNTRY_PROFILE.md`, kapitola „Official authorities and source hierarchy“.** Před rešerší každého PSČ jej používej jako pracovní referenci. Neomezuj se na jeden univerzální zdroj ani na výsledky běžného vyhledávání.
 
-Pravidla:
-- Preferuj primární zdroj, pokud existuje.
-- Jeden kvalitní primární zdroj je lepší než několik slabých kopií stejného tvrzení.
+### Základní rozdělení kompetencí
+- **Existence, aktuálnost, historické znění a poštovní účel PLZ:** Österreichische Post / Postlexikon; RTR je zákonně zveřejňovaný inventární kontrolní zdroj.
+- **Adresa, její oficiální zápis, obecní vazba a geokódování:** BEV Adressregister. Jednotlivý adresní bod nedokazuje polygon ani kompletní rozsah PSČ.
+- **Obce, oficiální identifikátory, politické Bezirke, statutární města a Bundesländer:** Statistik Austria. Tyto údaje slouží jako vyhledávací metadata, nikoli jako obsahová hierarchie.
+- **Mapový a topografický kontext:** basemap.at, BEV a příslušné zemské GIS.
+- **Památková evidence a ochrana:** Bundesdenkmalamt; právní status ověř podle příslušného právního aktu, protože zveřejněná Denkmalliste sama výslovně není právně závazná.
+- **UNESCO:** Österreichische UNESCO-Kommission a UNESCO World Heritage Centre.
+- **Příroda a chráněná území:** Umweltbundesamt jako národní přehled; přesné vymezení a právní status potvrď u kompetentní zemské autority nebo správy chráněného území.
+- **Geologie a vědy o Zemi:** GeoSphere Austria a příslušné vědecké instituce.
+- **Historie a místní příběhy:** Österreichisches Staatsarchiv, zemské/městské/obecní archivy, Österreichische Nationalbibliothek (zejména ANNO), muzea a odborná literatura.
+- **Současná návštěvnická fakta:** oficiální provozovatel místa, muzeum, kulturní instituce nebo oficiální turistická organizace. Turistický portál je dobrý pro objevování, ale nenahrazuje odborný zdroj pro historický, vědecký, právní nebo geografický nárok.
+
+### Pravidla důkazů
+- Preferuj primární zdroj, pokud existuje. Jeden kvalitní primární zdroj je lepší než několik slabých kopií stejného tvrzení.
 - Zdroj musí podporovat konkrétní tvrzení, ne pouze obecně zmiňovat oblast nebo název objektu.
-- U historických a odborných tvrzení ověř kontext, datum a význam.
-- U současných informací ověř aktuálnost.
-- Nepřebírej automaticky texty z turistických katalogů, agregátorů nebo jiných databází.
+- U historických a odborných tvrzení ověř kontext, datum a význam; u současných informací ověř aktuálnost.
 - Nikdy nevymýšlej fakta, citace, názvy institucí ani URL.
-- Pokud zdroje uvádějí rozdílné údaje, rozdíl prověř a případně jej transparentně popiš.
-- U souřadnic a geografického přiřazení používej zdroje, které skutečně podporují polohu; zdroj obsahu nemusí automaticky dokazovat geografickou příslušnost k PSČ.
+- Pokud zdroje uvádějí rozdílné údaje, rozdíl prověř a případně jej transparentně popiš. Nekombinuj různá referenční data, jako by šlo o jeden současný stav.
+- U souřadnic a geografického přiřazení používej zdroje, které skutečně podporují polohu. Zdroj obsahu nemusí automaticky dokazovat geografickou příslušnost k PSČ.
 - Rozlišuj doloženou historii, zaznamenanou tradici a folklor. Pověst nikdy nepodávej jako prokázanou historickou událost.
-- Konkrétní rakouskou hierarchii autorit a zdrojů stanoví `COUNTRY_PROFILE.md`.
+- OCR texty v historických novinách (např. ANNO) používej jako pomůcku k nalezení pramene; důležitá tvrzení ověř proti obrazu původní stránky.
+- U každého zdroje zaznamenej přesný název a URL. Datum kontroly a referenční/release datum uchovávej v polích určených schématem a v pracovních poznámkách; nevymýšlej metadata, která zdroj neposkytuje.
+- Zdroje faktu a zdroj polohy jsou dvě různé důkazní role. `facts[].sources` musí podporovat obsah tvrzení; `facts[].location.source` musí podporovat identifikaci nebo polohu mapového bodu. Jedna URL může plnit obě role pouze tehdy, pokud skutečně dokládá obě.
+- Dodržuj online-first přístup. Oficiální download použij jen tehdy, když online rozhraní neposkytuje potřebný údaj nebo je nutná reprodukovatelná kontrola.
+
+Rozlišuj doloženou historii, zaznamenanou tradici a folklor. Pověst nikdy nepodávej jako prokázanou historickou událost.
 
 ## 32. Psaní faktů
 
