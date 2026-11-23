@@ -164,4 +164,13 @@ Zdroje:
 - **Poznámka k metadatům:** textové pole `scope.selection_description` v manifestu zdědilo z šablony chybný údaj „29“; rozhodující explicitní seznam obsahuje správně všech 43 PSČ, `record_count=43` a `verified_record_count=43`. Rozsah samotné zálohy tím není dotčen.
 - **Read-only lock nebyl aktivován**, protože nebyl součástí uživatelského pokynu.
 
-**Konečný stav celého rozsahu 27101–27401: PASS / PUBLISHED V5 / BACKUP VERIFIED.**
+**Konečný stav celého rozsahu 27101–27401: PASS / PUBLISHED V5 / BACKUP VERIFIED / NEON IMPORT VERIFIED.****
+
+
+### Neon — import ověřen
+
+- Cíl: **Europe Explorer → Production → `neondb.public.czechia_cap_records`**.
+- Ochranná větev vytvořená před importem: `pre-kladensko-27101-27401-import-20261123` (`br-sweet-cell-bgulyqxl`), rodičovská větev `production`.
+- Z Dropbox snapshotu importováno 42 chybějících řádků v pěti dávkách přes `INSERT ... ON CONFLICT DO NOTHING`; existující 27101 (ID 8814) zůstal beze změny.
+- Finální cílený read-back v Neonu: **43 PSČ, 43/43 published V5, 370 faktů, 358 faktů s polohou, 12 null poloh, 370 překladů v každém ze 7 jazyků**; zdrojová ID 8814–8856 jsou unikátní a kompletní.
+- Import byl insert-only; žádné existující řádky nebyly přepsány ani odstraněny.
