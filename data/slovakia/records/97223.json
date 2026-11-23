@@ -21,15 +21,17 @@
         "https://www.dolnevestenice.sk/historia.html",
         "https://www.dolnevestenice.sk/download_file_f.php?id=1647530",
         "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Dolne_Vestenice.pdf",
-        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_2c206e06-f5cf-4aa5-ae5d-f815ea4207c6"
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_2c206e06-f5cf-4aa5-ae5d-f815ea4207c6",
+        "https://mapcarta.com/18466538"
       ],
       "location": {
-        "name": "Dolné Vestenice – poloha sídla",
-        "lat": 48.70344,
-        "lon": 18.39708,
-        "type": "historic_village",
-        "accuracy": "area_representative",
-        "source": "https://www.geonames.org/3060430/doln-vestenice.html"
+        "lat": 48.70265,
+        "lon": 18.39955,
+        "address": "Dolné Vestenice, 972 23 Dolné Vestenice, Slovensko",
+        "name": "Historické jádro Dolných Vestenic",
+        "type": "historic_settlement",
+        "accuracy": "representative_point",
+        "source": "https://mapcarta.com/18466538"
       },
       "map_category": "historical_monument"
     },
@@ -42,9 +44,18 @@
       "sources": [
         "https://www.dolnevestenice.sk/download_file_f.php?id=1647530",
         "https://www.dolnevestenice.sk/historia.html",
-        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Dolne_Vestenice.pdf"
+        "https://www.minv.sk/swift_data/source/verejna_sprava/statny_archiv_v_trencine_prac_archiv_bojnice/o_nas/opisy_af_az/OF_Obec_%20Dolne_Vestenice.pdf",
+        "https://mapcarta.com/18466538"
       ],
-      "location": null,
+      "location": {
+        "lat": 48.70265,
+        "lon": 18.39955,
+        "address": "Dolné Vestenice, 972 23 Dolné Vestenice, Slovensko",
+        "name": "Centrum Dolných Vestenic – orientační bod pro historickou poštovní stanici",
+        "type": "historic_transport_site",
+        "accuracy": "historical_approximate",
+        "source": "https://www.dolnevestenice.sk/historia.html"
+      },
       "map_category": "historical_monument"
     },
     {
@@ -84,9 +95,18 @@
         "https://www.dolnevestenice.sk/download_file_f.php?id=1647530",
         "https://www.dolnevestenice.sk/download_file_f.php?id=1647527",
         "https://www.dolnevestenice.sk/zaujimavosti.html",
-        "https://www.dolnevestenice.sk/symboly-obce.html"
+        "https://www.dolnevestenice.sk/symboly-obce.html",
+        "https://mapcarta.com/18466538"
       ],
-      "location": null,
+      "location": {
+        "lat": 48.70265,
+        "lon": 18.39955,
+        "address": "Dolné Vestenice, 972 23 Dolné Vestenice, Slovensko",
+        "name": "Kaple Neposkvrněného početí Panny Marie – orientační bod v centru obce",
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://www.dolnevestenice.sk/zaujimavosti.html"
+      },
       "map_category": "religious_site"
     },
     {
@@ -222,6 +242,11 @@
       "title": "GeoNames – geografická poloha sídla Dolné Vestenice",
       "url": "https://www.geonames.org/3060430/doln-vestenice.html",
       "type": "other"
+    },
+    {
+      "title": "Mapcarta – poloha obce Dolné Vestenice",
+      "url": "https://mapcarta.com/18466538",
+      "type": "specialist"
     }
   ],
   "translations": {
