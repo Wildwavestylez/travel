@@ -8,7 +8,8 @@ This directory is the country-specific workspace for Austrian postcode content i
 
 ## Core files
 
-- `schema.json` — initial shared TRAVEL record structure adapted to four-character Austrian PLZ strings.
+- `schema.json` — shared TRAVEL record structure, identical to the Czech technical schema apart from the Austrian four-digit PLZ pattern and Austrian descriptions.
+- `location_types.json` — country-local copy of the shared 130-entry controlled fact-location type dictionary; IDs must match the schema enum exactly.
 - `COUNTRY_PROFILE.md` — Austrian postal, geographic and administrative interpretation; currently a working baseline.
 - `CONTENT_STANDARD.md` — initial production principles and research requirements; to be completed and approved.
 - `prompt_rework.md` — operational starting instructions for Austrian records; not a substitute for the final standard.
