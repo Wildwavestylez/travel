@@ -1,4 +1,683 @@
 {
   "postcode": "97251",
-  "status": "placeholder"
+  "city": "Handlová",
+  "district": null,
+  "district_type": null,
+  "county": "Prievidza",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Expozice Cesta uhlia ve Slovenském báňském muzeu v Handlové",
+  "representative_point": {
+    "lat": 48.7279093,
+    "lon": 18.7562794
+  },
+  "access_point": {
+    "lat": 48.7279093,
+    "lon": 18.7562794
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Handlová a karpatští Němci – od založení Krickerem po poválečný odsun",
+      "text": "Handlová (německy Krickerhau) vznikla na základě listiny krále Ludvíka I. z 8. března 1376, která dovolila Henrichu Krickerovi založit osadu v lokalitě Krásny Les. S ním přišlo z Kremnice asi dvě stě německých rodin. Město získalo městská a tržní práva roku 1839. Za druhé světové války a po ní odešlo během evakuace a vysídlení přibližně 6 250 německých obyvatel. Dějiny Handlové jsou proto neoddělitelné od dějin karpatských Němců.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://archiv.handlova.sk/handlova.phtml?id3=13883",
+        "https://www.handlova.sk/28742/odsun-nemcov"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Hnědouhelné doly – více než století průmyslové těžby",
+      "text": "Průmyslová těžba hnědého uhlí v Handlové začala 1. července 1909 v dole Barbora. Místní důl se stal nejstarším hnědouhelným dolem na Slovensku a na více než sto let zásadně změnil zaměstnanost, podobu města i jeho dopravní napojení. Těžba skončila roku 2021. Handlová dnes prochází proměnou někdejšího uhelného regionu; průmyslová minulost zůstává klíčem k pochopení její identity.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/9379/bansky-naucny-chodnik",
+        "https://archiv.handlova.sk/handlova.phtml?id3=13883"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Slovenské báňské muzeum – Cesta uhlí v někdejším hornickém hotelu",
+      "text": "Expozice Slovenského báňského muzea v Handlové sídlí v budově z roku 1913, původně hornickém hotelu. Vznikala v letech 2009–2014 a veřejnosti se otevřela roku 2015. Na třech podlažích představuje vznik uhlí, ruční i mechanizovanou těžbu, důlní stroje, bezpečnost práce, větrání, čerpání důlních vod a báňské záchranářství. Propojuje technickou historii s každodenním životem horníků.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/9623/slovenske-banske-muzeum-handlova"
+      ],
+      "map_category": "museum",
+      "location": {
+        "name": "Slovenské banské múzeum – expozice Cesta uhlia",
+        "address": "SNP 25, Handlová, Slovensko",
+        "lat": 48.7279093,
+        "lon": 18.7562794,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://www.handlova.sk/9623/slovenske-banske-muzeum-handlova"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Hornická kolonie – nové sídliště pro příchozí pracovníky",
+      "text": "S rozvojem těžby od roku 1909 vznikala v Handlové samostatná obytná kolonie pro pracovníky z různých částí tehdejší monarchie. Hlavní výstavba pokračovala do roku 1928 a zahrnovala 149 dělnických domů, domy pro technický personál a čtrnáct nocleháren zvaných liptácke baraky. Kolonie měla vlastní školu, hotel, četnickou stanici a obchody. Její oddělení od původní zemědělské obce odráželo rychlou sociální proměnu města.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/9214/banicka-kolonia",
+        "https://www.handlova.sk/9382/stanovistia-chodnika"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostel sv. Kateřiny Alexandrijské – gotické jádro a šindelová věž",
+      "text": "Kostel sv. Kateřiny Alexandrijské je nejstarší dochovanou historickou stavbou Handlové a pochází z poloviny 14. století. Jeho věž vysoká asi 45 metrů má arkádový ochoz a výraznou šindelovou báň. Roku 1945 letecký nálet zničil loď, gotické presbyterium a věž však přežily. Současná loď vznikla při obnově v letech 1957–1961; stavba tak spojuje středověké části s poválečnou rekonstrukcí.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/9224/kostol-sv-katariny",
+        "https://www.pamiatkynaslovensku.sk/handlova-kostol-sv-katariny-alexandrijskej"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Kateřiny Alexandrijské",
+        "address": "Námestie baníkov, Handlová, Slovensko",
+        "lat": 48.728862,
+        "lon": 18.760455,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/handlova-kostol-sv-katariny-alexandrijskej"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Franzův kamenný dům – vzácná vícegenerační architektura",
+      "text": "V dolní části Handlové, historicky zvané Unterort, vznikl ve druhé polovině 19. století soubor kamenných vícegeneračních hospodářských domů. Jejich dispozice navazuje na takzvaný kremnický hornický dům a připomíná stavby v Bavorsku a Rakousku. Franzův dům na Prievidzské ulici postavili roku 1883 bratři Michael a Paul Franzovi. Po více než desetileté obnově byl zachráněn jeho historický charakter i část interiéru. Roku 2024 získal status národní kulturní památky.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/15239/franzov-kamenny-dom",
+        "https://www.handlova.sk/novinka/90604"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Hornické protesty 1917–1918 – zápas o osmihodinovou pracovní dobu",
+      "text": "Dne 15. října 1917 se v Handlové uskutečnila první masová stávka horníků na horní Nitře. Pracující si vynutili zkrácení směny na osm hodin a požadovali lepší zásobování potravinami. Sociální napětí vyústilo v další protesty v letech 1917–1918. Pomník připomínající stávku stál původně na Hladovém náměstí a později byl přemístěn na ulici 29. augusta. Místní paměť připomíná také tvrdé pracovní a životní podmínky hornických rodin.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/9382/stanovistia-chodnika",
+        "https://www.handlova.sk/9379/bansky-naucny-chodnik"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Báňská tragédie 10. srpna 2009 – památka dvaceti obětí",
+      "text": "Dne 10. srpna 2009 došlo ve východní šachtě dolu Handlová při zásahu proti požáru k explozi důlních plynů. Zahynulo dvacet mužů: jedenáct báňských záchranářů a devět horníků; dalších devět pracovníků bylo zraněno. Tragédie patří k nejzávažnějším neštěstím novodobého slovenského hornictví. Desátý srpen se stal Dnem obětí báňských neštěstí a Handlová každoročně pořádá pietní vzpomínku Den bílých růží u památníku na ulici 29. augusta.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/28750/banska-tragedia",
+        "https://www.handlova.sk/9382/stanovistia-chodnika"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_009",
+      "title": "Nová Lehota – kostel sv. Mikuláše a vzácné stromy u fary",
+      "text": "Nová Lehota, dnes městská část Handlové, vznikla jako německá kolonizační osada; první písemná zmínka se uvádí k roku 1487. Barokně-klasicistní kostel sv. Mikuláše byl postaven v 80. letech 18. století a vysvěcen roku 1791. U sousední fary vysadil roku 1843 farář a pomolog Pavol Ambrózy cizokrajné dřeviny. Dodnes zde roste chráněný sekvojovec obrovský a tis s dvojitým kmenem.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/9135/mestska-cast-nova-lehota",
+        "https://www.handlova.sk/9367/mikroregion-handlovskej-doliny-a-jeho-zaujimavosti",
+        "https://www.pamiatkynaslovensku.sk/nova-lehota-handlova-kostol-sv-mikulasa-biskupa"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostol sv. Mikuláša biskupa v Novej Lehote",
+        "address": "Nová Lehota, Handlová, Slovensko",
+        "lat": 48.674171,
+        "lon": 18.73239,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/nova-lehota-handlova-kostol-sv-mikulasa-biskupa"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Bralský tunel – mimořádná železniční stavba pod horským hřbetem",
+      "text": "Trať z Handlové do Horné Štubně, budovaná v letech 1927–1931, překonala náročný horský terén soustavou mostů, viaduktů a pěti tunelů. Nejvýznamnější je Bralský tunel dlouhý přibližně 3 012 metrů, tehdy nejdelší železniční tunel na Slovensku. Prorážka se uskutečnila 13. července 1930 a celá trať byla slavnostně otevřena 20. prosince 1931. Tunel původně nesl jméno T. G. Masaryka a později získal název podle masivu Bralo.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/9215/bralsky-tunel",
+        "https://www.zsr.sk/o-nas/historia-zeleznic/1918-1939"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ; geografické použití kódu 972 51 dále křížově potvrzují přehledy PSČ a adresní doklady pro Handlovou, Novou Lehotu a lokalitu Remata. SITA uvádí Handlovou, Novou Lehotu a Rematu; oficiální městské zdroje potvrzují Handlovou a Novou Lehotu. Konkrétní adresa Remata 57, Ráztočno-Remata je doložena s PSČ 972 51. Netvrdí se přesná polygonální hranice poštovního obvodu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Vyhľadávanie PSČ; křížová kontrola SITA, NájdiPSČ a adresních dokladů",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální městské zdroje potvrzují Handlovou a její městskou část Nová Lehota v okrese Prievidza a Trenčianském kraji. Přehledy PSČ uvádějí pro 972 51 také Rematu; konkrétní adresa Remata 57, Ráztočno-Remata je doložena s tímto kódem, přestože širší správní popisy lokality Remata se v pramenech liší. Remata je proto uvedena jen jako poštovní lokalita a není jí přiřazen samostatný fakt. Reprezentativní bod muzejní expozice je převzat z oficiální stránky města; nejde o tvrzení o hranici PSČ."
+  },
+  "sources": [
+    {
+      "title": "Mesto Handlová – Základní charakteristika a historie",
+      "url": "https://archiv.handlova.sk/handlova.phtml?id3=13883",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Odsun německého obyvatelstva",
+      "url": "https://www.handlova.sk/28742/odsun-nemcov",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Banský náučný chodník",
+      "url": "https://www.handlova.sk/9379/bansky-naucny-chodnik",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Slovenské banské múzeum",
+      "url": "https://www.handlova.sk/9623/slovenske-banske-muzeum-handlova",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Banícka kolónia",
+      "url": "https://www.handlova.sk/9214/banicka-kolonia",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Kostol sv. Kataríny",
+      "url": "https://www.handlova.sk/9224/kostol-sv-katariny",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Kataríny Alexandrijskej",
+      "url": "https://www.pamiatkynaslovensku.sk/handlova-kostol-sv-katariny-alexandrijskej",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Handlová – Franzov kamenný dom",
+      "url": "https://www.handlova.sk/15239/franzov-kamenny-dom",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Franzov dom, národní kulturní památka",
+      "url": "https://www.handlova.sk/novinka/90604",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Stanovištia banského chodníka",
+      "url": "https://www.handlova.sk/9382/stanovistia-chodnika",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Banská tragédia",
+      "url": "https://www.handlova.sk/28750/banska-tragedia",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Mestská časť Nová Lehota",
+      "url": "https://www.handlova.sk/9135/mestska-cast-nova-lehota",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Mikroregión Handlovskej doliny",
+      "url": "https://www.handlova.sk/9367/mikroregion-handlovskej-doliny-a-jeho-zaujimavosti",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Mikuláša v Novej Lehote",
+      "url": "https://www.pamiatkynaslovensku.sk/nova-lehota-handlova-kostol-sv-mikulasa-biskupa",
+      "type": "specialist"
+    },
+    {
+      "title": "Mesto Handlová – Bralský tunel",
+      "url": "https://www.handlova.sk/9215/bralsky-tunel",
+      "type": "official"
+    },
+    {
+      "title": "Železnice Slovenskej republiky – História 1918–1939",
+      "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1918-1939",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "SITA – PSČ 97251",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/97251/",
+      "type": "other"
+    },
+    {
+      "title": "NájdiPSČ – PSČ 97251",
+      "url": "https://najdipsc.zones.sk/PS%C4%8C_97251/",
+      "type": "other"
+    },
+    {
+      "title": "Ústredný portál verejnej správy SR – Ráztočno a Remata",
+      "url": "https://www.slovensko.sk/sk/lokality/_dbf2c051-f09a-4499-9a24-c6e2609d8be0",
+      "type": "official"
+    },
+    {
+      "title": "Chata Poniklec – adresa Remata 57, PSČ 97251",
+      "url": "https://chataponiklec.sk/kontakt/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Expozice Cesta uhlia ve Slovenském báňském muzeu v Handlové",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová a karpatští Němci – od založení Krickerem po poválečný odsun",
+          "text": "Handlová (německy Krickerhau) vznikla na základě listiny krále Ludvíka I. z 8. března 1376, která dovolila Henrichu Krickerovi založit osadu v lokalitě Krásny Les. S ním přišlo z Kremnice asi dvě stě německých rodin. Město získalo městská a tržní práva roku 1839. Za druhé světové války a po ní odešlo během evakuace a vysídlení přibližně 6 250 německých obyvatel. Dějiny Handlové jsou proto neoddělitelné od dějin karpatských Němců."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hnědouhelné doly – více než století průmyslové těžby",
+          "text": "Průmyslová těžba hnědého uhlí v Handlové začala 1. července 1909 v dole Barbora. Místní důl se stal nejstarším hnědouhelným dolem na Slovensku a na více než sto let zásadně změnil zaměstnanost, podobu města i jeho dopravní napojení. Těžba skončila roku 2021. Handlová dnes prochází proměnou někdejšího uhelného regionu; průmyslová minulost zůstává klíčem k pochopení její identity."
+        },
+        {
+          "id": "fact_003",
+          "title": "Slovenské báňské muzeum – Cesta uhlí v někdejším hornickém hotelu",
+          "text": "Expozice Slovenského báňského muzea v Handlové sídlí v budově z roku 1913, původně hornickém hotelu. Vznikala v letech 2009–2014 a veřejnosti se otevřela roku 2015. Na třech podlažích představuje vznik uhlí, ruční i mechanizovanou těžbu, důlní stroje, bezpečnost práce, větrání, čerpání důlních vod a báňské záchranářství. Propojuje technickou historii s každodenním životem horníků."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hornická kolonie – nové sídliště pro příchozí pracovníky",
+          "text": "S rozvojem těžby od roku 1909 vznikala v Handlové samostatná obytná kolonie pro pracovníky z různých částí tehdejší monarchie. Hlavní výstavba pokračovala do roku 1928 a zahrnovala 149 dělnických domů, domy pro technický personál a čtrnáct nocleháren zvaných liptácke baraky. Kolonie měla vlastní školu, hotel, četnickou stanici a obchody. Její oddělení od původní zemědělské obce odráželo rychlou sociální proměnu města."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostel sv. Kateřiny Alexandrijské – gotické jádro a šindelová věž",
+          "text": "Kostel sv. Kateřiny Alexandrijské je nejstarší dochovanou historickou stavbou Handlové a pochází z poloviny 14. století. Jeho věž vysoká asi 45 metrů má arkádový ochoz a výraznou šindelovou báň. Roku 1945 letecký nálet zničil loď, gotické presbyterium a věž však přežily. Současná loď vznikla při obnově v letech 1957–1961; stavba tak spojuje středověké části s poválečnou rekonstrukcí."
+        },
+        {
+          "id": "fact_006",
+          "title": "Franzův kamenný dům – vzácná vícegenerační architektura",
+          "text": "V dolní části Handlové, historicky zvané Unterort, vznikl ve druhé polovině 19. století soubor kamenných vícegeneračních hospodářských domů. Jejich dispozice navazuje na takzvaný kremnický hornický dům a připomíná stavby v Bavorsku a Rakousku. Franzův dům na Prievidzské ulici postavili roku 1883 bratři Michael a Paul Franzovi. Po více než desetileté obnově byl zachráněn jeho historický charakter i část interiéru. Roku 2024 získal status národní kulturní památky."
+        },
+        {
+          "id": "fact_007",
+          "title": "Hornické protesty 1917–1918 – zápas o osmihodinovou pracovní dobu",
+          "text": "Dne 15. října 1917 se v Handlové uskutečnila první masová stávka horníků na horní Nitře. Pracující si vynutili zkrácení směny na osm hodin a požadovali lepší zásobování potravinami. Sociální napětí vyústilo v další protesty v letech 1917–1918. Pomník připomínající stávku stál původně na Hladovém náměstí a později byl přemístěn na ulici 29. augusta. Místní paměť připomíná také tvrdé pracovní a životní podmínky hornických rodin."
+        },
+        {
+          "id": "fact_008",
+          "title": "Báňská tragédie 10. srpna 2009 – památka dvaceti obětí",
+          "text": "Dne 10. srpna 2009 došlo ve východní šachtě dolu Handlová při zásahu proti požáru k explozi důlních plynů. Zahynulo dvacet mužů: jedenáct báňských záchranářů a devět horníků; dalších devět pracovníků bylo zraněno. Tragédie patří k nejzávažnějším neštěstím novodobého slovenského hornictví. Desátý srpen se stal Dnem obětí báňských neštěstí a Handlová každoročně pořádá pietní vzpomínku Den bílých růží u památníku na ulici 29. augusta."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota – kostel sv. Mikuláše a vzácné stromy u fary",
+          "text": "Nová Lehota, dnes městská část Handlové, vznikla jako německá kolonizační osada; první písemná zmínka se uvádí k roku 1487. Barokně-klasicistní kostel sv. Mikuláše byl postaven v 80. letech 18. století a vysvěcen roku 1791. U sousední fary vysadil roku 1843 farář a pomolog Pavol Ambrózy cizokrajné dřeviny. Dodnes zde roste chráněný sekvojovec obrovský a tis s dvojitým kmenem."
+        },
+        {
+          "id": "fact_010",
+          "title": "Bralský tunel – mimořádná železniční stavba pod horským hřbetem",
+          "text": "Trať z Handlové do Horné Štubně, budovaná v letech 1927–1931, překonala náročný horský terén soustavou mostů, viaduktů a pěti tunelů. Nejvýznamnější je Bralský tunel dlouhý přibližně 3 012 metrů, tehdy nejdelší železniční tunel na Slovensku. Prorážka se uskutečnila 13. července 1930 a celá trať byla slavnostně otevřena 20. prosince 1931. Tunel původně nesl jméno T. G. Masaryka a později získal název podle masivu Bralo."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Die Ausstellung Cesta uhlia im Slowakischen Bergbaumuseum in Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová und die Karpatendeutschen",
+          "text": "Handlová (Krickerhau) wurde 1376 durch Henrich Kricker mit etwa zweihundert deutschen Familien aus Kremnica gegründet. Stadt- und Marktrechte erhielt der Ort 1839. Im Zweiten Weltkrieg und danach verließen etwa 6.250 Deutsche die Stadt. Ihre Geschichte ist eng mit den Karpatendeutschen verbunden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Braunkohlebergbau",
+          "text": "Der industrielle Braunkohleabbau begann am 1. Juli 1909 in der Grube Barbora. Das älteste Braunkohlebergwerk der Slowakei prägte Handlovás Arbeit, Stadtbild und Verkehr über mehr als ein Jahrhundert. 2021 wurde der Abbau eingestellt; die Region befindet sich seither im Wandel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Slowakisches Bergbaumuseum – Cesta uhlia",
+          "text": "Die Ausstellung befindet sich in einem 1913 erbauten ehemaligen Bergmannshotel. Sie wurde 2015 eröffnet und zeigt auf drei Etagen Kohleentstehung, Bergbautechnik, Sicherheit, Bewetterung, Grubenwasserpumpen und Grubenrettung."
+        },
+        {
+          "id": "fact_004",
+          "title": "Bergmannskolonie",
+          "text": "Ab 1909 entstand für zugewanderte Bergleute eine eigene Wohnkolonie. Bis 1928 wurden 149 Arbeiterhäuser und vierzehn Schlafbaracken gebaut; hinzu kamen Schule, Hotel, Gendarmerie und Geschäfte. Die getrennte Siedlung spiegelte Handlovás sozialen Wandel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Katharinenkirche",
+          "text": "Die Kirche stammt aus der Mitte des 14. Jahrhunderts. Ihr 45 Meter hoher Turm besitzt einen Arkadengang und eine Schindelhaube. Ein Luftangriff zerstörte 1945 das Kirchenschiff, Chor und Turm blieben erhalten; 1957–1961 wurde das Schiff wiederaufgebaut."
+        },
+        {
+          "id": "fact_006",
+          "title": "Franz-Steinhaus",
+          "text": "Das 1883 von Michael und Paul Franz errichtete Haus gehört zu einem seltenen Ensemble mehrgenerationeller Steinhäuser in Unterort. Seine Bauform erinnert an Kremnitzer Bergmannshäuser sowie an Bauten in Bayern und Österreich. 2024 wurde es nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bergarbeiterstreik 1917",
+          "text": "Am 15. Oktober 1917 erreichten Handlovás Bergleute im ersten Massenstreik der oberen Nitra-Region den Achtstundentag und bessere Lebensmittelversorgung. Das Denkmal für den Streik wurde vom Hladové námestie in die Straße 29. augusta versetzt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Grubenunglück 2009",
+          "text": "Am 10. August 2009 starben bei einer Gasexplosion im Ostschacht zwanzig Männer – elf Grubenretter und neun Bergleute. Der 10. August ist heute Gedenktag für Opfer von Grubenunglücken; Handlová begeht den Tag der weißen Rosen."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "Die einstige deutsche Siedlung wurde 1487 erstmals erwähnt. Ihre barock-klassizistische Nikolauskirche wurde 1791 geweiht. Beim Pfarrhaus pflanzte Pfarrer und Pomologe Pavol Ambrózy 1843 exotische Bäume; dort wachsen noch ein geschützter Riesenmammutbaum und eine Eibe."
+        },
+        {
+          "id": "fact_010",
+          "title": "Bralský-Tunnel",
+          "text": "Der 3.012 Meter lange Bralský-Tunnel entstand an der Bahnstrecke nach Horná Štubňa, die 1931 eröffnet wurde. Der Durchstich erfolgte 1930. Ursprünglich nach T. G. Masaryk benannt, trägt er heute den Namen des Bergmassivs Bralo."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "The Cesta uhlia exhibition at the Slovak Mining Museum in Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová and the Carpathian Germans",
+          "text": "Handlová (Krickerhau) was founded in 1376 by Henrich Kricker with about two hundred German families from Kremnica. It gained town and market rights in 1839. During and after the Second World War, about 6,250 German residents left. Its history is closely tied to the Carpathian Germans."
+        },
+        {
+          "id": "fact_002",
+          "title": "Lignite mining",
+          "text": "Industrial lignite mining began at the Barbora mine on 1 July 1909. Slovakia’s oldest lignite mine shaped Handlová’s jobs, townscape and transport for more than a century. Extraction ended in 2021, and the former coal region is now undergoing transformation."
+        },
+        {
+          "id": "fact_003",
+          "title": "Slovak Mining Museum – Cesta uhlia",
+          "text": "The exhibition occupies a former miners’ hotel built in 1913 and opened in 2015. Three floors explain coal formation, mining technology, workplace safety, ventilation, mine-water pumping and mine rescue."
+        },
+        {
+          "id": "fact_004",
+          "title": "Miners’ colony",
+          "text": "From 1909, a separate residential colony was built for incoming miners. By 1928 it included 149 workers’ houses and fourteen dormitory barracks, alongside a school, hotel, gendarmerie station and shops. Its separation reflected Handlová’s social transformation."
+        },
+        {
+          "id": "fact_005",
+          "title": "Church of St Catherine",
+          "text": "The church dates from the mid-14th century. Its 45-metre tower has an arcaded passage and a shingled cupola. An air raid destroyed the nave in 1945, while the chancel and tower survived; the nave was rebuilt in 1957–1961."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Franz stone house",
+          "text": "Built in 1883 by Michael and Paul Franz, the house belongs to a rare group of multi-generational stone homes in Unterort. Its design recalls Kremnica miners’ houses and buildings in Bavaria and Austria. It became a national cultural monument in 2024."
+        },
+        {
+          "id": "fact_007",
+          "title": "The 1917 miners’ strike",
+          "text": "On 15 October 1917, Handlová’s miners won an eight-hour shift and better food supplies in the first mass miners’ strike in the Upper Nitra region. The memorial was moved from Hladové námestie to 29. augusta Street."
+        },
+        {
+          "id": "fact_008",
+          "title": "The 2009 mining disaster",
+          "text": "On 10 August 2009, a gas explosion in the eastern shaft killed twenty men: eleven mine rescuers and nine miners. The date is now a memorial day for mining-disaster victims, marked in Handlová by the Day of White Roses."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "The former German settlement was first recorded in 1487. Its Baroque-Classical Church of St Nicholas was consecrated in 1791. Priest and pomologist Pavol Ambrózy planted exotic trees by the rectory in 1843; a protected giant sequoia and yew remain."
+        },
+        {
+          "id": "fact_010",
+          "title": "The Bralský Tunnel",
+          "text": "The 3,012-metre Bralský Tunnel was built for the railway to Horná Štubňa, opened in 1931. It was pierced in 1930 and first named after T. G. Masaryk; today it takes its name from the Bralo massif."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "La exposición Cesta uhlia del Museo Minero Eslovaco en Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová y los alemanes de los Cárpatos",
+          "text": "Handlová (Krickerhau) fue fundada en 1376 por Henrich Kricker junto con unas doscientas familias alemanas de Kremnica. Obtuvo derechos de ciudad y mercado en 1839. Durante y después de la Segunda Guerra Mundial se marcharon unos 6.250 habitantes alemanes. Su historia está ligada a los alemanes de los Cárpatos."
+        },
+        {
+          "id": "fact_002",
+          "title": "Minería de lignito",
+          "text": "La extracción industrial comenzó en la mina Barbora el 1 de julio de 1909. La mina de lignito más antigua de Eslovaquia transformó el empleo, el paisaje urbano y el transporte durante más de un siglo. La explotación terminó en 2021 y la antigua región minera está en transformación."
+        },
+        {
+          "id": "fact_003",
+          "title": "Museo Minero Eslovaco – Cesta uhlia",
+          "text": "La exposición ocupa un antiguo hotel de mineros construido en 1913 y abrió en 2015. Sus tres plantas explican la formación del carbón, la tecnología minera, la seguridad, la ventilación, el bombeo de aguas y el rescate minero."
+        },
+        {
+          "id": "fact_004",
+          "title": "Colonia minera",
+          "text": "Desde 1909 se construyó un barrio separado para los mineros llegados de fuera. En 1928 contaba con 149 casas obreras y catorce barracones, además de escuela, hotel, puesto de gendarmería y tiendas. Su separación reflejó el cambio social de Handlová."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia de Santa Catalina",
+          "text": "La iglesia data de mediados del siglo XIV. Su torre de 45 metros tiene un paso porticado y cubierta de ripias. Un bombardeo destruyó la nave en 1945, pero sobrevivieron el presbiterio y la torre; la nave se reconstruyó entre 1957 y 1961."
+        },
+        {
+          "id": "fact_006",
+          "title": "Casa de piedra Franz",
+          "text": "Construida en 1883 por Michael y Paul Franz, forma parte de un raro conjunto de casas de piedra para varias generaciones en Unterort. Su diseño recuerda a las casas mineras de Kremnica y a edificios de Baviera y Austria. Fue declarada monumento nacional en 2024."
+        },
+        {
+          "id": "fact_007",
+          "title": "Huelga minera de 1917",
+          "text": "El 15 de octubre de 1917, los mineros consiguieron una jornada de ocho horas y mejores suministros en la primera huelga masiva de la Alta Nitra. El monumento fue trasladado de Hladové námestie a la calle 29. augusta."
+        },
+        {
+          "id": "fact_008",
+          "title": "Tragedia minera de 2009",
+          "text": "El 10 de agosto de 2009, una explosión de gas en el pozo oriental causó veinte muertes: once rescatistas y nueve mineros. La fecha es jornada de recuerdo de las víctimas de accidentes mineros y Handlová celebra el Día de las Rosas Blancas."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "El antiguo asentamiento alemán aparece documentado por primera vez en 1487. La iglesia barroco-clasicista de San Nicolás fue consagrada en 1791. El sacerdote y pomólogo Pavol Ambrózy plantó árboles exóticos junto a la rectoría en 1843; aún crecen una secuoya gigante protegida y un tejo."
+        },
+        {
+          "id": "fact_010",
+          "title": "Túnel de Bralský",
+          "text": "El túnel de Bralský, de 3.012 metros, se construyó para la línea ferroviaria a Horná Štubňa, inaugurada en 1931. Fue perforado en 1930 y primero llevó el nombre de T. G. Masaryk; hoy toma el del macizo de Bralo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "L’exposition Cesta uhlia du Musée minier slovaque à Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová et les Allemands des Carpates",
+          "text": "Handlová (Krickerhau) fut fondée en 1376 par Henrich Kricker avec environ deux cents familles allemandes de Kremnica. Elle obtint des droits de ville et de marché en 1839. Pendant et après la Seconde Guerre mondiale, environ 6 250 habitants allemands partirent. Son histoire est liée à celle des Allemands des Carpates."
+        },
+        {
+          "id": "fact_002",
+          "title": "Extraction du lignite",
+          "text": "L’exploitation industrielle commença à la mine Barbora le 1er juillet 1909. La plus ancienne mine de lignite de Slovaquie transforma l’emploi, le paysage urbain et les transports pendant plus d’un siècle. L’extraction prit fin en 2021 et l’ancienne région charbonnière se transforme."
+        },
+        {
+          "id": "fact_003",
+          "title": "Musée minier slovaque – Cesta uhlia",
+          "text": "L’exposition occupe un ancien hôtel de mineurs construit en 1913 et a ouvert en 2015. Ses trois niveaux présentent la formation du charbon, les techniques minières, la sécurité, l’aération, le pompage des eaux et le sauvetage minier."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cité minière",
+          "text": "À partir de 1909, un quartier distinct fut construit pour les mineurs venus d’ailleurs. En 1928, il comptait 149 maisons ouvrières et quatorze baraquements, ainsi qu’une école, un hôtel, un poste de gendarmerie et des commerces. Cette séparation reflète la transformation sociale de Handlová."
+        },
+        {
+          "id": "fact_005",
+          "title": "Église Sainte-Catherine",
+          "text": "L’église date du milieu du XIVe siècle. Sa tour de 45 mètres possède un passage à arcades et une toiture de bardeaux. Un bombardement détruisit la nef en 1945, mais le chœur et la tour survécurent ; la nef fut reconstruite entre 1957 et 1961."
+        },
+        {
+          "id": "fact_006",
+          "title": "Maison de pierre Franz",
+          "text": "Construite en 1883 par Michael et Paul Franz, elle appartient à un rare ensemble de maisons de pierre familiales à Unterort. Son plan rappelle les maisons minières de Kremnica et des constructions de Bavière et d’Autriche. Elle fut classée monument culturel national en 2024."
+        },
+        {
+          "id": "fact_007",
+          "title": "Grève des mineurs de 1917",
+          "text": "Le 15 octobre 1917, les mineurs obtinrent la journée de huit heures et un meilleur ravitaillement lors de la première grève massive de la Haute Nitra. Le mémorial fut déplacé de la place Hladové námestie vers la rue 29. augusta."
+        },
+        {
+          "id": "fact_008",
+          "title": "Catastrophe minière de 2009",
+          "text": "Le 10 août 2009, une explosion de gaz dans le puits Est fit vingt morts : onze sauveteurs miniers et neuf mineurs. Cette date commémore désormais les victimes des accidents miniers ; Handlová organise le Jour des roses blanches."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "L’ancien village allemand est mentionné pour la première fois en 1487. L’église baroque-classique Saint-Nicolas fut consacrée en 1791. Le prêtre et pomologue Pavol Ambrózy planta des arbres exotiques près du presbytère en 1843 ; un séquoia géant protégé et un if y subsistent."
+        },
+        {
+          "id": "fact_010",
+          "title": "Tunnel de Bralský",
+          "text": "Le tunnel de Bralský, long de 3 012 mètres, fut construit pour la ligne ferroviaire vers Horná Štubňa, inaugurée en 1931. Percé en 1930, il porta d’abord le nom de T. G. Masaryk avant de prendre celui du massif de Bralo."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "L’esposizione Cesta uhlia del Museo minerario slovacco a Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová e i tedeschi dei Carpazi",
+          "text": "Handlová (Krickerhau) fu fondata nel 1376 da Henrich Kricker con circa duecento famiglie tedesche provenienti da Kremnica. Ottenne i diritti cittadini e di mercato nel 1839. Durante e dopo la Seconda guerra mondiale partirono circa 6.250 abitanti tedeschi. La sua storia è legata a quella dei tedeschi dei Carpazi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Estrazione della lignite",
+          "text": "L’estrazione industriale iniziò nella miniera Barbora il 1º luglio 1909. La più antica miniera di lignite slovacca trasformò lavoro, città e trasporti per oltre un secolo. L’attività terminò nel 2021 e l’ex regione carbonifera è oggi in trasformazione."
+        },
+        {
+          "id": "fact_003",
+          "title": "Museo minerario slovacco – Cesta uhlia",
+          "text": "L’esposizione occupa un ex albergo per minatori costruito nel 1913 e fu aperta nel 2015. I tre piani illustrano la formazione del carbone, le tecniche minerarie, la sicurezza, la ventilazione, il pompaggio delle acque e il soccorso in miniera."
+        },
+        {
+          "id": "fact_004",
+          "title": "Colonia mineraria",
+          "text": "Dal 1909 fu costruito un quartiere separato per i minatori immigrati. Nel 1928 comprendeva 149 case operaie e quattordici dormitori, oltre a scuola, albergo, gendarmeria e negozi. La separazione dal villaggio originario rifletteva la trasformazione sociale di Handlová."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chiesa di Santa Caterina",
+          "text": "La chiesa risale alla metà del XIV secolo. La torre di 45 metri ha un passaggio ad arcate e una copertura a scandole. Un bombardamento distrusse la navata nel 1945, ma presbiterio e torre sopravvissero; la navata fu ricostruita tra il 1957 e il 1961."
+        },
+        {
+          "id": "fact_006",
+          "title": "Casa in pietra Franz",
+          "text": "Costruita nel 1883 da Michael e Paul Franz, fa parte di un raro gruppo di case in pietra per più generazioni a Unterort. La struttura ricorda le case minerarie di Kremnica e gli edifici di Baviera e Austria. Nel 2024 è diventata monumento culturale nazionale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sciopero dei minatori del 1917",
+          "text": "Il 15 ottobre 1917 i minatori ottennero il turno di otto ore e migliori rifornimenti nel primo sciopero di massa dell’Alta Nitra. Il monumento fu trasferito da Hladové námestie a via 29. augusta."
+        },
+        {
+          "id": "fact_008",
+          "title": "Tragedia mineraria del 2009",
+          "text": "Il 10 agosto 2009 un’esplosione di gas nel pozzo orientale causò venti morti: undici soccorritori minerari e nove minatori. La data commemora oggi le vittime degli incidenti minerari; Handlová celebra il Giorno delle rose bianche."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "L’antico insediamento tedesco è documentato per la prima volta nel 1487. La chiesa barocco-classica di San Nicola fu consacrata nel 1791. Nel 1843 il sacerdote e pomologo Pavol Ambrózy piantò alberi esotici presso la canonica; vi crescono ancora una sequoia gigante protetta e un tasso."
+        },
+        {
+          "id": "fact_010",
+          "title": "Tunnel di Bralský",
+          "text": "Il tunnel di Bralský, lungo 3.012 metri, fu costruito per la ferrovia verso Horná Štubňa, inaugurata nel 1931. Fu perforato nel 1930 e inizialmente intitolato a T. G. Masaryk; oggi prende il nome dal massiccio di Bralo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "De Cesta uhlia-expositie in het Slowaaks Mijnmuseum in Handlová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Handlová en de Karpatische Duitsers",
+          "text": "Handlová (Krickerhau) werd in 1376 gesticht door Henrich Kricker met ongeveer tweehonderd Duitse families uit Kremnica. De plaats kreeg stads- en marktrechten in 1839. Tijdens en na de Tweede Wereldoorlog vertrokken ongeveer 6.250 Duitse inwoners. De geschiedenis is nauw verbonden met die van de Karpatische Duitsers."
+        },
+        {
+          "id": "fact_002",
+          "title": "Bruinkoolwinning",
+          "text": "De industriële winning begon op 1 juli 1909 in de mijn Barbora. De oudste bruinkoolmijn van Slowakije veranderde meer dan een eeuw lang werkgelegenheid, stadsbeeld en vervoer. De winning eindigde in 2021; de voormalige kolenregio ondergaat nu een transformatie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Slowaaks Mijnmuseum – Cesta uhlia",
+          "text": "De tentoonstelling is gevestigd in een voormalig mijnwerkershotel uit 1913 en opende in 2015. Op drie verdiepingen worden het ontstaan van steenkool, mijnbouwtechniek, veiligheid, ventilatie, het oppompen van mijnwater en mijnredding uitgelegd."
+        },
+        {
+          "id": "fact_004",
+          "title": "Mijnwerkerskolonie",
+          "text": "Vanaf 1909 werd een aparte woonwijk gebouwd voor mijnwerkers van buitenaf. In 1928 telde zij 149 arbeiderswoningen en veertien slaapbarakken, naast een school, hotel, gendarmeriepost en winkels. De afzondering van het oorspronkelijke dorp weerspiegelde de sociale verandering."
+        },
+        {
+          "id": "fact_005",
+          "title": "Sint-Catharinakerk",
+          "text": "De kerk dateert uit het midden van de 14e eeuw. De 45 meter hoge toren heeft een arcadegang en houten schindelkap. Een luchtaanval verwoestte het schip in 1945, maar koor en toren bleven behouden; het schip werd in 1957–1961 herbouwd."
+        },
+        {
+          "id": "fact_006",
+          "title": "Het stenen Franz-huis",
+          "text": "Het huis werd in 1883 gebouwd door Michael en Paul Franz en behoort tot een zeldzaam ensemble stenen huizen voor meerdere generaties in Unterort. De bouwvorm doet denken aan mijnwerkershuizen uit Kremnica en gebouwen in Beieren en Oostenrijk. In 2024 werd het nationaal cultureel monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "Mijnwerkersstaking van 1917",
+          "text": "Op 15 oktober 1917 bereikten mijnwerkers een achturige dienst en betere voedselvoorziening tijdens de eerste massale mijnwerkersstaking in Opper-Nitra. Het monument verhuisde van het Hladové námestie naar de straat 29. augusta."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mijnramp van 2009",
+          "text": "Op 10 augustus 2009 kwamen twintig mannen om bij een gasexplosie in de oostelijke schacht: elf mijnredders en negen mijnwerkers. De datum herdenkt nu slachtoffers van mijnongevallen; Handlová houdt de Dag van de Witte Rozen."
+        },
+        {
+          "id": "fact_009",
+          "title": "Nová Lehota",
+          "text": "De voormalige Duitse nederzetting werd voor het eerst vermeld in 1487. De barok-classicistische Sint-Nicolaaskerk werd in 1791 ingewijd. Priester en pomoloog Pavol Ambrózy plantte in 1843 exotische bomen bij de pastorie; een beschermde mammoetboom en een taxus groeien er nog."
+        },
+        {
+          "id": "fact_010",
+          "title": "Bralský-tunnel",
+          "text": "De 3.012 meter lange Bralský-tunnel werd gebouwd voor de spoorlijn naar Horná Štubňa, die in 1931 openging. De doorbraak vond plaats in 1930. Eerst genoemd naar T. G. Masaryk, draagt hij nu de naam van het Bralo-massief."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
