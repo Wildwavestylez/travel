@@ -1,4 +1,281 @@
 {
   "postcode": "97404",
-  "status": "placeholder"
+  "city": "Banská Bystrica",
+  "district": "Fončorda",
+  "district_type": "urban_district",
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Stará Fončorda – urbanistický celek",
+  "representative_point": {
+    "lat": 48.730194,
+    "lon": 19.124167
+  },
+  "access_point": {
+    "lat": 48.730194,
+    "lon": 19.124167
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Fončorda a její jméno z dávné hutě",
+      "text": "Neobvyklé jméno Fončorda nepochází ze staré vesnice ani z původního názvu zdejší krajiny. Město je odvozuje od maďarského výrazu „Foncsorozó-Ház“, označení amalgamační huti, kde se v 16. století zpracovávaly rudy drahých kovů pomocí rtuti. Huta stávala na tehdejším okraji města přibližně v prostoru dnešního kruhového objezdu pod Okresním úřadem. Její název se později přenesl na nové sídliště, které se zde začalo budovat po druhé světové válce.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "src_foncorda_history",
+        "src_foncorda_city"
+      ],
+      "location": {
+        "name": "Stará Fončorda – orientační bod historického urbanistického celku",
+        "lat": 48.730194,
+        "lon": 19.124167,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://www.pamatihodnosti.sk/pamatihodnost/stara-foncorda"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_002",
+      "title": "Poválečná Stará Fončorda a Nové Kalište",
+      "text": "Výstavba Fončordy začala v letech 1948–1949 na dosud převážně nezastavěném prostoru mezi Štiavničkami a Radvaňou. První zděné rodinné domy vznikly pro obyvatele obce Kalište, kterou nacisté vypálili; nová ulice proto dostala jméno Nové Kalište. Následovaly další obytné domy a postupně celé sídliště. Město zařadilo Starou Fončordu mezi své pamětihodnosti jako urbanistický celek. Její vývoj tak zachycuje poválečnou proměnu Banské Bystrice i snahu zajistit nové bydlení lidem, kteří přišli o domov.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "src_foncorda_history",
+        "src_kaliste",
+        "src_foncorda_city"
+      ],
+      "location": {
+        "name": "Nové Kalište – Stará Fončorda",
+        "lat": 48.730194,
+        "lon": 19.124167,
+        "type": "residential_ensemble",
+        "accuracy": "approximate",
+        "source": "https://www.pamatihodnosti.sk/pamatihodnost/stara-foncorda"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel svatého Michala jako moderní dominanta Fončordy",
+      "text": "Římskokatolický kostel svatého Michala archanděla vznikl jako duchovní a společenské centrum sídliště, které dlouho vlastní kostel nemělo. Základní kámen požehnal papež Jan Pavel II. v roce 1995, samotná stavba podle návrhu architektů Igora a Evy Teplanových probíhala v letech 2000–2002 a kostel byl slavnostně konsekrován 22. září 2002. Jeho půdorys má tvar osmihroté hvězdy a v interiéru je přiznaná celooceľová nosná konstrukce. Moderní podobu chrámu doplňuje plastika svatého Michala od Mariána Gabrišky a křížová cesta Františka Chudoby.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "src_parish",
+        "src_church_location"
+      ],
+      "location": {
+        "name": "Kostel svatého Michala archanděla, Internátní 10A",
+        "address": "Internátní 10A, 974 04 Banská Bystrica, Slovensko",
+        "lat": 48.72716038144451,
+        "lon": 19.122078735379027,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w71284303"
+      },
+      "map_category": "religious_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta uvádí poštu Banská Bystrica 4 na adrese Kyjevské námestie 6; spojení PSČ 974 04 s konkrétními ulicemi potvrzuje adresní přehled SITA. Jde o ověření adresní úrovně, nikoli o oficiální polygon doručovací oblasti.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt poskytujúcich služby integrovaných obslužných miest; doplněno adresním seznamem PSČ 974 04",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Banská Bystrica 4 je uvedena na Kyjevském náměstí 6. Poloha pošty nebyla použita jako reprezentativní bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Mesto Banská Bystrica – oficiální seznam městských částí a ulic Fončordy; mapová poloha urbanistického celku Stará Fončorda a adresní body OSM s uvedeným PSČ. Přesný doručovací polygon nebyl ověřen."
+  },
+  "sources": [
+    {
+      "title": "Pamiatky mesta Banská Bystrica – Stará Fončorda",
+      "url": "https://cdn.banskabystrica.sk/2022/09/Publikacia-Pamatihodnosti-mesta-Banska-Bystrica-1.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Banská Bystrica – mestské časti a ulice Fončordy",
+      "url": "https://www.banskabystrica.sk/zivot-v-meste/o-meste/mestske-casti/",
+      "type": "official"
+    },
+    {
+      "title": "Múzeum SNP – Národná kultúrna pamiatka Kalište",
+      "url": "https://muzeumsnp.sk/expozicia/narodna-kulturna-pamiatka-kaliste/",
+      "type": "museum"
+    },
+    {
+      "title": "Farnosť svätého Michala archanjela – O farnosti",
+      "url": "https://foncorda.fara.sk/o-farnosti",
+      "type": "primary"
+    },
+    {
+      "title": "Kostol svätého Michala archanjela – adresa a mapová poloha",
+      "url": "https://poi.oma.sk/w71284303",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská pošta – zoznam pôšt poskytujúcich služby integrovaných obslužných miest",
+      "url": "https://www.posta.sk/subory/37152/zoznam-post-poskytujucich-sluzby-integrovanych-obsluznych-miest.pdf",
+      "type": "official"
+    },
+    {
+      "title": "SITA – adresný zoznam ulíc s PSČ 974 04",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/97404/",
+      "type": "regional"
+    },
+    {
+      "title": "Pamiatky mesta – Stará Fončorda, poloha urbanistického celku",
+      "url": "https://www.pamatihodnosti.sk/pamatihodnost/stara-foncorda",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Stará Fončorda – urbanistický celek",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda a její jméno z dávné hutě",
+          "text": "Neobvyklé jméno Fončorda nepochází ze staré vesnice ani z původního názvu zdejší krajiny. Město je odvozuje od maďarského výrazu „Foncsorozó-Ház“, označení amalgamační huti, kde se v 16. století zpracovávaly rudy drahých kovů pomocí rtuti. Huta stávala na tehdejším okraji města přibližně v prostoru dnešního kruhového objezdu pod Okresním úřadem. Její název se později přenesl na nové sídliště, které se zde začalo budovat po druhé světové válce."
+        },
+        {
+          "id": "fact_002",
+          "title": "Poválečná Stará Fončorda a Nové Kalište",
+          "text": "Výstavba Fončordy začala v letech 1948–1949 na dosud převážně nezastavěném prostoru mezi Štiavničkami a Radvaňou. První zděné rodinné domy vznikly pro obyvatele obce Kalište, kterou nacisté vypálili; nová ulice proto dostala jméno Nové Kalište. Následovaly další obytné domy a postupně celé sídliště. Město zařadilo Starou Fončordu mezi své pamětihodnosti jako urbanistický celek. Její vývoj tak zachycuje poválečnou proměnu Banské Bystrice i snahu zajistit nové bydlení lidem, kteří přišli o domov."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel svatého Michala jako moderní dominanta Fončordy",
+          "text": "Římskokatolický kostel svatého Michala archanděla vznikl jako duchovní a společenské centrum sídliště, které dlouho vlastní kostel nemělo. Základní kámen požehnal papež Jan Pavel II. v roce 1995, samotná stavba podle návrhu architektů Igora a Evy Teplanových probíhala v letech 2000–2002 a kostel byl slavnostně konsekrován 22. září 2002. Jeho půdorys má tvar osmihroté hvězdy a v interiéru je přiznaná celooceľová nosná konstrukce. Moderní podobu chrámu doplňuje plastika svatého Michala od Mariána Gabrišky a křížová cesta Františka Chudoby."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Stará Fončorda – städtebauliches Ensemble",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda und der Name einer alten Metallhütte",
+          "text": "Der ungewöhnliche Name Fončorda stammt weder von einem alten Dorf noch von einer ursprünglichen Landschaftsbezeichnung. Die Stadt leitet ihn vom ungarischen Ausdruck „Foncsorozó-Ház“ ab, der eine Amalgamierhütte bezeichnete, in der im 16. Jahrhundert Edelmetallerze mithilfe von Quecksilber verarbeitet wurden. Die Hütte lag damals am Stadtrand, ungefähr im Bereich des heutigen Kreisverkehrs unterhalb des Bezirksamts. Ihr Name ging später auf die neue Wohnsiedlung über, die hier nach dem Zweiten Weltkrieg entstand."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Nachkriegssiedlung Stará Fončorda und Nové Kalište",
+          "text": "Der Bau von Fončorda begann 1948–1949 auf einem damals noch weitgehend unbebauten Gelände zwischen Štiavničky und Radvaň. Die ersten gemauerten Einfamilienhäuser entstanden für die Bewohner des von den Nationalsozialisten niedergebrannten Dorfes Kalište; die neue Straße erhielt deshalb den Namen Nové Kalište. Danach kamen weitere Wohnhäuser und schrittweise die gesamte Siedlung hinzu. Die Stadt führt Stará Fončorda als städtebauliches Ensemble in ihrem Verzeichnis kommunaler Denkmäler. Ihre Entwicklung zeigt den Wandel Banská Bystricas nach dem Krieg und den Versuch, Menschen nach dem Verlust ihrer Heimat neuen Wohnraum zu geben."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Michaelskirche als moderne Dominante von Fončorda",
+          "text": "Die römisch-katholische Kirche des Erzengels Michael entstand als geistliches und gesellschaftliches Zentrum einer Wohnsiedlung, die lange keine eigene Kirche hatte. Den Grundstein segnete Papst Johannes Paul II. 1995; der Bau nach einem Entwurf der Architekten Igor und Eva Teplan erfolgte 2000–2002. Am 22. September 2002 wurde die Kirche feierlich konsekriert. Ihr Grundriss hat die Form eines achtzackigen Sterns, und im Innenraum bleibt die Stahltragkonstruktion sichtbar. Zur modernen Gestaltung gehören außerdem eine Michaelsskulptur von Marián Gabriška und ein Kreuzweg von František Chudoba."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Stará Fončorda – historic urban ensemble",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda and the name of an old metalworking plant",
+          "text": "The unusual name Fončorda does not come from an old village or an original local landscape name. The city traces it to the Hungarian expression “Foncsorozó-Ház”, referring to an amalgamation plant where precious-metal ores were processed with mercury in the 16th century. The plant stood on the then outskirts of the town, roughly near the present-day roundabout below the District Office. Its name was later transferred to the new housing estate built here after the Second World War."
+        },
+        {
+          "id": "fact_002",
+          "title": "Post-war Stará Fončorda and Nové Kalište",
+          "text": "Construction in Fončorda began in 1948–1949 on land that had previously been largely undeveloped, between Štiavničky and Radvaň. The first brick houses were built for residents of Kalište, a village burned down by the Nazis; the new street was therefore named Nové Kalište. More homes followed, gradually forming the wider housing estate. The city lists Stará Fončorda as a protected urban ensemble among its local heritage sites. Its development reflects Banská Bystrica’s post-war transformation and the effort to provide homes for people who had lost theirs."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of St Michael, a modern landmark of Fončorda",
+          "text": "The Roman Catholic Church of St Michael the Archangel was built as a spiritual and community centre for a housing estate that had long lacked its own church. Pope John Paul II blessed the foundation stone in 1995; construction to a design by architects Igor and Eva Teplan took place in 2000–2002, and the church was solemnly consecrated on 22 September 2002. Its floor plan is shaped like an eight-pointed star, while the steel load-bearing frame is left visible inside. The modern interior is complemented by a sculpture of St Michael by Marián Gabriška and a Stations of the Cross by František Chudoba."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Stará Fončorda – conjunto urbanístico histórico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda y el nombre de una antigua instalación metalúrgica",
+          "text": "El nombre poco común de Fončorda no procede de un antiguo pueblo ni de una denominación tradicional del paisaje. La ciudad lo relaciona con la expresión húngara «Foncsorozó-Ház», que designaba una planta de amalgamación donde en el siglo XVI se procesaban minerales de metales preciosos con mercurio. La instalación se encontraba entonces en las afueras de la ciudad, aproximadamente en la zona de la rotonda actual situada bajo la oficina del distrito. Más tarde, su nombre pasó al nuevo barrio residencial construido allí después de la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Fončorda de posguerra y Nové Kalište",
+          "text": "La construcción de Fončorda comenzó en 1948–1949, en un terreno que hasta entonces estaba en gran parte sin edificar, entre Štiavničky y Radvaň. Las primeras casas de ladrillo se levantaron para los habitantes de Kalište, un pueblo incendiado por los nazis; por eso la nueva calle recibió el nombre de Nové Kalište. Después llegaron más viviendas, hasta formar gradualmente el barrio. La ciudad incluye Stará Fončorda en su inventario de patrimonio local como conjunto urbanístico. Su evolución refleja la transformación de Banská Bystrica tras la guerra y el esfuerzo por ofrecer vivienda a quienes habían perdido su hogar."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de San Miguel, un hito moderno de Fončorda",
+          "text": "La iglesia católica romana de San Miguel Arcángel se creó como centro espiritual y comunitario de un barrio residencial que durante mucho tiempo no tuvo templo propio. El papa Juan Pablo II bendijo la primera piedra en 1995; la construcción, según el proyecto de los arquitectos Igor y Eva Teplan, se desarrolló entre 2000 y 2002. La iglesia fue consagrada solemnemente el 22 de septiembre de 2002. Su planta tiene forma de estrella de ocho puntas y deja visible en el interior la estructura portante de acero. La decoración moderna incluye una escultura de san Miguel de Marián Gabriška y un vía crucis de František Chudoba."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Stará Fončorda – ensemble urbain historique",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda et le nom d’une ancienne installation métallurgique",
+          "text": "Le nom inhabituel de Fončorda ne vient ni d’un ancien village ni d’une appellation traditionnelle du paysage. La ville le rattache à l’expression hongroise « Foncsorozó-Ház », qui désignait une usine d’amalgamation où l’on traitait des minerais de métaux précieux au mercure au XVIe siècle. L’installation se trouvait alors à la périphérie de la ville, approximativement près du rond-point actuel situé sous l’administration du district. Son nom a ensuite été donné au nouveau quartier résidentiel construit ici après la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Fončorda d’après-guerre et Nové Kalište",
+          "text": "La construction de Fončorda a commencé en 1948–1949 sur un terrain jusque-là largement non bâti, entre Štiavničky et Radvaň. Les premières maisons en maçonnerie ont été construites pour les habitants de Kalište, un village incendié par les nazis ; la nouvelle rue a donc reçu le nom de Nové Kalište. D’autres logements ont suivi, formant progressivement l’ensemble du quartier. La ville inscrit Stará Fončorda dans son inventaire du patrimoine local en tant qu’ensemble urbain. Son développement témoigne de la transformation de Banská Bystrica après la guerre et des efforts pour reloger les personnes qui avaient perdu leur foyer."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Michel, repère moderne de Fončorda",
+          "text": "L’église catholique romaine Saint-Michel-Archange a été construite comme centre spirituel et communautaire d’un quartier résidentiel qui a longtemps été dépourvu de son propre lieu de culte. Le pape Jean-Paul II a béni la première pierre en 1995 ; les travaux, selon le projet des architectes Igor et Eva Teplan, se sont déroulés de 2000 à 2002. L’église a été consacrée solennellement le 22 septembre 2002. Son plan forme une étoile à huit branches et sa structure porteuse en acier reste apparente à l’intérieur. L’aménagement moderne est complété par une sculpture de saint Michel de Marián Gabriška et un chemin de croix de František Chudoba."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Stará Fončorda – complesso urbanistico storico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda e il nome di un’antica officina metallurgica",
+          "text": "Il nome insolito di Fončorda non deriva da un antico villaggio né da una denominazione tradizionale del paesaggio. La città lo fa risalire all’espressione ungherese «Foncsorozó-Ház», che indicava un impianto di amalgamazione dove nel XVI secolo si lavoravano minerali di metalli preziosi usando il mercurio. L’impianto sorgeva allora ai margini della città, all’incirca nell’area dell’attuale rotatoria sotto l’ufficio distrettuale. In seguito il suo nome fu trasferito al nuovo quartiere residenziale costruito qui dopo la Seconda guerra mondiale."
+        },
+        {
+          "id": "fact_002",
+          "title": "La Fončorda del dopoguerra e Nové Kalište",
+          "text": "La costruzione di Fončorda iniziò nel 1948–1949 su un terreno allora in gran parte non edificato, tra Štiavničky e Radvaň. Le prime case in muratura furono costruite per gli abitanti di Kalište, un villaggio incendiato dai nazisti; la nuova strada fu quindi chiamata Nové Kalište. Seguirono altre abitazioni, fino alla graduale formazione dell’intero quartiere. La città include Stará Fončorda nel proprio elenco del patrimonio locale come complesso urbanistico. Il suo sviluppo racconta la trasformazione di Banská Bystrica nel dopoguerra e il tentativo di offrire una nuova casa a chi aveva perso la propria."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Michele, un punto di riferimento moderno di Fončorda",
+          "text": "La chiesa cattolica romana di San Michele Arcangelo nacque come centro spirituale e comunitario di un quartiere residenziale che per molto tempo non ebbe una propria chiesa. Papa Giovanni Paolo II benedisse la prima pietra nel 1995; la costruzione, su progetto degli architetti Igor ed Eva Teplan, si svolse tra il 2000 e il 2002. La chiesa fu consacrata solennemente il 22 settembre 2002. La pianta ha la forma di una stella a otto punte e all’interno lascia a vista la struttura portante in acciaio. L’architettura moderna è completata da una scultura di san Michele di Marián Gabriška e da una Via Crucis di František Chudoba."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Stará Fončorda – historisch stedenbouwkundig ensemble",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Fončorda en de naam van een oude metaalbewerkingsplaats",
+          "text": "De bijzondere naam Fončorda komt niet van een oud dorp of een oorspronkelijke landschapsnaam. Volgens de stad is hij afgeleid van de Hongaarse uitdrukking ‘Foncsorozó-Ház’, de benaming voor een amalgamatiebedrijf waar in de 16e eeuw ertsen van edelmetalen met behulp van kwik werden verwerkt. Het bedrijf lag destijds aan de rand van de stad, ongeveer bij de huidige rotonde onder het districtsbestuur. De naam werd later overgenomen door de nieuwe woonwijk die hier na de Tweede Wereldoorlog werd gebouwd."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het naoorlogse Stará Fončorda en Nové Kalište",
+          "text": "De bouw van Fončorda begon in 1948–1949 op een terrein dat toen grotendeels onbebouwd was, tussen Štiavničky en Radvaň. De eerste gemetselde huizen waren bestemd voor inwoners van Kalište, een dorp dat door de nazi’s in brand was gestoken. Daarom kreeg de nieuwe straat de naam Nové Kalište. Daarna volgden meer woningen en groeide de wijk geleidelijk verder. De stad heeft Stará Fončorda als stedenbouwkundig ensemble opgenomen in haar erfgoedregister. De ontwikkeling laat zien hoe Banská Bystrica na de oorlog veranderde en hoe men nieuwe woningen probeerde te bieden aan mensen die hun thuis hadden verloren."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Michaëlskerk, een modern herkenningspunt van Fončorda",
+          "text": "De rooms-katholieke kerk van de aartsengel Michaël werd gebouwd als spiritueel en gemeenschappelijk centrum voor een woonwijk die lange tijd geen eigen kerk had. Paus Johannes Paulus II zegende de eerste steen in 1995. De bouw volgens het ontwerp van de architecten Igor en Eva Teplan vond plaats van 2000 tot 2002; op 22 september 2002 werd de kerk plechtig ingewijd. De plattegrond heeft de vorm van een achtpuntige ster en binnen is de stalen draagconstructie zichtbaar gelaten. Het moderne interieur wordt aangevuld met een beeld van de heilige Michaël van Marián Gabriška en een kruisweg van František Chudoba."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
