@@ -199,3 +199,22 @@ Při ověření po odstranění chybně přiřazeného faktu klesl celkový poč
 **Zbývající práce:** úplná sémantická revize překladů u dosud neprošlých a částečně prošlých PSČ v celé skupině. Stav bloku proto zůstává **REVIEW REQUIRED**.
 
 Ověření přiřazení Otročína k PSČ: https://regiony.kurzy.cz/psc/otrocin/ulice/ ; přehled PSČ 36401: https://www.posty-psc.cz/36401/ ; přehled PSČ 36464: https://www.posty-psc.cz/36464/ .
+
+
+### Závěrečné doplnění – Johann Wolfgang Goethe (23. 11. 2026)
+
+Na základě závěrečného průzkumu turistické úplnosti byl identifikován jeden významný chybějící příběh v Karlových Varech: Johann Wolfgang Goethe. Město Karlovy Vary uvádí jeho první návštěvu dne 5. 7. 1785 a celkem třináct návštěv v letech 1785–1823. Jeho vztah k městu dokládá také Goethova stezka a busta od Adolfa von Donndorfa z roku 1883.
+
+- Do PSČ **36001** byl přidán `fact_032` „Johann Wolfgang Goethe – třináct návštěv Karlových Varů“.
+- Český master text má 647 znaků; doplněny překlady `cs, de, en, es, fr, it, nl`.
+- Přidány tři oficiální zdroje města Karlovy Vary.
+- Poloha Goethovy busty: 50.2179747, 12.8829636; `accuracy=exact`, `map_category=personality`.
+- Mapový bod `explorer_map_points` byl vložen a read-backem ověřen.
+- Cílený read-back Supabase potvrdil 32 faktů v PSČ 36001, právě jeden `fact_032`, všech sedm jazykových položek a jeden mapový bod.
+- Aktuální počet bloku: **27 PSČ / 299 faktů**. Stav záznamů se neměnil: `data_version=1`, `status=validated`.
+
+Zdroje: https://www.karlovyvary.cz/cs/historie-karlovych-varu ; https://www.karlovyvary.cz/cs/node/17523 ; https://www.karlovyvary.cz/en/node/1550 .
+
+**Turistická úplnost: uzavřena po doplnění Goetha.** Nezjištěna další zásadní chybějící památka, událost nebo osobnost v rozsahu tohoto auditu.
+
+**Stav celého auditu zůstává REVIEW REQUIRED**, nikoli kvůli turistické úplnosti: dosud není dokončena úplná sémantická kontrola všech původních cizojazyčných překladů ve všech 27 PSČ. Záměrně prázdná poloha 36273/fact_004 (pískovna u Vojkovic) není chybou a zůstává beze změny. Publikace, V5, záloha, Neon import ani read-only lock nebyly provedeny.
