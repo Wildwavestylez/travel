@@ -801,14 +801,17 @@ Rozhodovací otázka zní: **Je to skutečně zajímavé, významné a doložite
 
 ## 38. Rakouský produkční lifecycle a úložiště
 
-Technické schéma Rakouska sdílí strukturu TRAVEL, avšak autoritativní produkční úložiště, zálohování, lifecycle stavů a publikační workflow musí být výslovně schváleny a zdokumentovány.
+**Status: Schválený provozní workflow.** Rakousko používá společnou technickou strukturu TRAVEL a následující závazný postup práce s daty:
 
-Dokud toto rozhodnutí není dokončeno:
-- nevytvářej ani neukládej rakouské produkční PSČ záznamy;
-- nezapisuj rakouské produkční záznamy do Supabase, Neon, GitHub JSON souborů ani jiné databáze;
-- nevytvářej produkční sequence ani neoznačuj záznamy jako placeholder, validated nebo published;
-- používej GitHub pouze pro dokumentaci rakouského pracovního prostoru a schválené plánování inventáře.
+1. **Příprava na GitHubu:** připraví se a udržuje rakouská geografická sekvence v `sequence.json` a předpřipravené JSON soubory podle schématu.
+2. **Rework na GitHubu:** každý záznam se kompletně přepracuje podle tohoto standardu, Country Profile a `prompt_rework.md`.
+3. **Audit na GitHubu:** dokončený rework se samostatně zkontroluje podle `prompt_audit.md`. Nevyhovující záznam se vrací do reworku a následně znovu audituje.
+4. **V5:** pouze úspěšně auditované záznamy postupují do přípravy finální verze V5.
+5. **Published na GitHubu:** po dokončení V5 a schválení se příslušné záznamy označí jako `published` v rámci existujícího datového kontraktu.
+6. **Neon:** do Neonu se následně přenáší kopie publikovaných záznamů z GitHubu. Neon není alternativní zdroj pro průběžné úpravy rakouských pracovních JSONů.
 
-Před zahájením produkce musí být určeno a zdokumentováno autoritativní úložiště, přístupová a zápisová oprávnění, lifecycle stavů, auditní brána, zálohy, oddělení čtení a zápisu a způsob publikace do Europe Exploreru.
+GitHub je autoritativní pracovní a publikační zdroj rakouských JSON souborů. Neon obsahuje kopii publikovaných dat. Pořadí kroků se nesmí obcházet: neauditované ani nepřipravené V5 záznamy se nesmějí označit jako `published` ani kopírovat do Neonu.
 
-Společná pravidla TRAVEL pro kvalitu obsahu a datovou strukturu tím nejsou dotčena. Rozhodnutí o rakouském úložišti je samostatná provozní otázka a nesmí se odvozovat z českého nebo jiného národního workflow.
+Sekvence a předpřipravené JSON soubory se připravují jako následující pracovní etapa. Jejich dosud prázdný nebo přípravný stav neznamená, že metodika, schéma, autority nebo publikační workflow zůstávají nerozhodnuté.
+
+Společná pravidla TRAVEL pro kvalitu obsahu, geografickou odpovědnost, zdroje, překlady a datovou strukturu zůstávají plně závazná.
