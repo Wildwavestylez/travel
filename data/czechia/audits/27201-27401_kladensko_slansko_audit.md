@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KLADENSKO-SLANSKO-27201-27401`  
 **Auditní prompt:** `data/czechia/prompt_audit.md` v2.1  
 **Výsledek:** `PASS`  
-**Stav běhu:** dokončený auditní průchod; otevřené položky jsou přesně vypsány níže.
+**Stav běhu:** PUBLISHED V5 / BACKUP VERIFIED; read-only lock nebyl aktivován.
 
 > Uživatelem zadaný rozsah byl 27101–27401. PSČ 27101 je již součástí kanonického taháku [26901–27101](26901-27101_rakovnicko_audit.md), kde je uzavřeno jako PASS / PUBLISHED V5. Je proto převzato jako hotové a nebylo znovu auditováno. Tento tahák pokrývá zbývajících 42 PSČ 27201–27401. Nevzniká duplicitní audit pro 27101.
 
@@ -13,10 +13,10 @@
 - 27101 je převzato z předchozího uzavřeného taháku 26901–27101: PASS / PUBLISHED V5 / BACKUP VERIFIED / READ-ONLY LOCKED.
 - Tento tahák zahrnuje zbývajících **42 PSČ: 27201–27401**.
 - 42/42 nových PSČ odpovídá `sequence.json`, `groups`, RÚIAN CSV a Supabase.
-- Po odstranění duplicitního faktu: **349 faktů / 2 443 jazykových položek**.
+- Po odstranění duplicitního faktu: **349 faktů / 2 443 jazykových položek** v 42 nových PSČ; včetně převzatého 27101: **370 faktů / 2 590 jazykových položek**.
 - Každý jazyk (`cs,de,en,es,fr,it,nl`) obsahuje 349 položek.
-- Statusy nového rozsahu: **40 validated, 2 placeholder, 0 published**; všech 42 záznamů má `data_version=1`.
-- 27101 zůstává published/v5 v předchozím bloku.
+- Po publikaci: všech **43/43 PSČ** v celém rozsahu má `data_version=5` a `status=published`; 370 faktů / 2 590 jazykových položek.
+- 27101 bylo převzato z předchozího published/V5 bloku a zahrnuto do nové společné 43řádkové zálohy.
 
 ## 2. Zásadní turistická a historická úplnost — kontrola za celek
 
@@ -144,16 +144,24 @@ Zdroje:
 - https://www.velvary.cz/mesto/aktuality/mestske-muzeum-patra-po-obeti-tragicke-udalosti-z-2-svetove-valky-3000cs.html
 - https://katolickenoviny.cz/nalet-z-roku-1944-aktualni-i-po-80-letech/
 
-## 6. Provozní uzavření
+## 6. Provozní uzavření po publikaci a záloze
 
 - Nebyla změněna `sequence.json`, RÚIAN CSV, schéma ani aplikační kód.
-- Statusy zůstaly beze změny: 40 validated, 2 placeholder.
-- Nebyla provedena publikace V5 ani změna `data_version`.
-- Nebyla spuštěna záloha ani Edge Function.
-- Nebyl aktivován read-only zámek.
-- Nebyla provedena žádná změna v Neonu.
-- 27101 zůstává převzatý z předchozího uzavřeného auditu.
+- Na výslovný pokyn uživatele bylo publikováno **celých 43 PSČ 27101–27401**: 43/43 `data_version=5`, 43/43 `status=published`.
+- Cílený read-back potvrdil přesný seznam 43 PSČ, 370 faktů a 358 mapových bodů. Všech 358 faktů s neprázdnou polohou má právě jeden odpovídající mapový bod; 0 chybějících a 0 nadbytečných mapových bodů.
+- Všech 7 jazykových sad pro celý rozsah obsahuje 370 položek (celkem 2 590 jazykových položek).
+- Záloha byla provedena přes dedikovanou, přesně vymezenou Supabase Edge Function a ověřena zpětným načtením z Dropboxu.
 
-**Auditní výsledek: PASS.** Všechny relevantní kontroly jsou dokončeny. Dvanáct prázdných poloh je ponecháno záměrně a má konkrétní zdůvodnění. Obsahový audit je dokončen, ale záznamy 27201–27401 zůstávají ve stávajících stavech a nejsou publikované.
+### Dropbox backup — VERIFIED
 
-Publikaci, zálohu a read-only zamčení provést pouze na výslovný pokyn uživatele.
+- **Složka:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_KLADENSKO_SLANSKO_27101-27401_2026-11-23T00-09-07-600Z/`
+- **JSON snapshot:** `CZ_AUDIT_KLADENSKO_SLANSKO_27101-27401_backup.json` — 3 101 218 B; SHA-256 `fc0eaf61b1ffa834e3e791ef2f949af4c26b9bb2cf87ffaf7a522a7c0781bcbe`.
+- **Restore SQL:** `CZ_AUDIT_KLADENSKO_SLANSKO_27101-27401_restore.sql` — 2 773 665 B; SHA-256 `7a66006f9163c8ba07b9dbca637c30f15a515c9297d853cded15bd3fd334b189`.
+- **Manifest:** `manifest.json` — 2 926 B; SHA-256 `d29a6728ce2fe7e4349db572b941a25b0899e9dc87f3affc00bd18dc9c176cfb`.
+- Dropbox obsahuje všechny tři soubory; každý byl znovu načten a SHA-256 odpovídá původnímu souboru.
+- Manifest: `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=43`, `verified_scope_hash=8facfd812bc7c4b1138e4758f038ee5ed79434fad5b5c59264fdfa0ceef45562`.
+- Supabase `public.backup_snapshots.status=VERIFIED`; pracovní vlna `CZ-AUDIT-KLADENSKO-SLANSKO-27101-27401-001` má `status=COMPLETE`.
+- **Poznámka k metadatům:** textové pole `scope.selection_description` v manifestu zdědilo z šablony chybný údaj „29“; rozhodující explicitní seznam obsahuje správně všech 43 PSČ, `record_count=43` a `verified_record_count=43`. Rozsah samotné zálohy tím není dotčen.
+- **Read-only lock nebyl aktivován**, protože nebyl součástí uživatelského pokynu.
+
+**Konečný stav celého rozsahu 27101–27401: PASS / PUBLISHED V5 / BACKUP VERIFIED.**
