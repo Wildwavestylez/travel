@@ -30,7 +30,7 @@
         "lon": 19.0699212,
         "type": "historic_industrial_site",
         "accuracy": "area_representative",
-        "source": "https://tajov.oma.sk/c/86"
+        "source": "https://poi.oma.sk/n5191771965"
       },
       "map_category": "technical_heritage"
     },
@@ -70,7 +70,7 @@
       ],
       "location": {
         "name": "Kostel sv. Jana Křtitele, Tajov",
-        "address": "Tajov 136, 976 34 Tajov, Slovensko",
+        "address": null,
         "lat": 48.74694,
         "lon": 19.07094,
         "type": "church",
@@ -91,7 +91,7 @@
       ],
       "location": {
         "name": "Centrum Kordík – orientační bod u obecního úřadu a kaple",
-        "address": "Kordíky 59, 976 34 Kordíky, Slovensko",
+        "address": null,
         "lat": 48.772,
         "lon": 19.0229,
         "type": "historic_settlement",
@@ -144,11 +144,11 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Oficiální vyhledávač PSČ Slovenské pošty potvrzuje PSČ 976 34 pro Tajov; oficiální obecní zdroje uvádějí adresy s tímto PSČ v Tajově, Kordíkách a Králikách. Jabriková je doložena jako místní část Tajova a obecní adresy v této části používají 976 34. Seznam PSČ ParcelForce uvádí také konkrétní ulici Nevoľné v Riečke. Tyto podklady potvrzují geografické užití kódu, nikoli úplný oficiální polygon doručovací oblasti.",
+    "plz_source": "Oficiální stránka obce Tajov uvádí pobočku Slovenské pošty Tajov s PSČ 976 34; obecní adresní a institucionální záznamy dokládají geografické užití kódu v Tajově, Kordíkách a Králikách. Jabriková je doložena jako místní část Tajova. Seznam PSČ ParcelForce uvádí také konkrétní ulici Nevoľné v Riečke. Oficiální vyhledávač Slovenské pošty je dostupný, ale jeho dynamický výsledek pro jednotlivé adresy nelze citovat jako stabilní statickou stránku. Podklady potvrzují geografické užití kódu, nikoli úplný oficiální polygon doručovací oblasti.",
     "geographic_test_data": false,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Oficiální vyhledávač PSČ Slovenské pošty; obecní adresní evidence Tajova, Kordík a Králik; seznam PSČ ParcelForce 2019",
+    "postcode_source_dataset": "Oficiální obecní evidence pošty Tajov a adres Tajova, Kordík a Králik; seznam PSČ ParcelForce 2019; dynamický vyhledávač PSČ Slovenské pošty",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-23",
     "postcode_conflict": false,
@@ -256,6 +256,16 @@
     {
       "title": "Obec Kordíky – oficiální web a kontaktní adresa",
       "url": "https://www.obeckordiky.sk/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Tajov, orientační bod a souřadnice centra",
+      "url": "https://poi.oma.sk/n5191771965",
+      "type": "other"
+    },
+    {
+      "title": "Ústřední portál veřejné správy – obecní úřad Králiky, adresa a PSČ",
+      "url": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_fdeb4c6f-01ca-49e2-8cff-2f0885729e4c",
       "type": "official"
     }
   ],
