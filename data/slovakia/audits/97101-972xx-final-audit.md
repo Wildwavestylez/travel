@@ -55,7 +55,7 @@ No fact IDs, fact prose, source lists, primary postcode assignments, record stat
 
 ### Missing fact locations
 
-There are now 17 facts with `location: null` in 9 records. Forty-three fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were checked and are synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+There are now 9 facts with `location: null` in 8 records. Fifty-one fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were checked and are synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
 
 | Postcode | Facts with null location |
 |---|---|
@@ -64,10 +64,8 @@ There are now 17 facts with `location: null` in 9 records. Forty-three fact loca
 | 97241 | fact_001, fact_004 |
 | 97242 | fact_002 |
 | 97243 | fact_006 |
-| 97246 | fact_004 |
-| 97247 | fact_001, fact_002, fact_003, fact_005 |
-| 97248 | fact_002, fact_004, fact_005, fact_006 |
-| 97251 | fact_001, fact_013 |
+| 97248 | fact_005 |
+| 97251 | fact_013 |
 
 ### Additional location corrections — batch 97231–97245
 
@@ -83,6 +81,16 @@ Fourteen fact locations were added across seven records and verified by GitHub r
 
 The added points use explicit orientation-point names and honest `area_representative`, `approximate` or `historical_approximate` accuracy. No fact text, fact ID, fact-level source list, primary postcode assignment, status or version metadata was changed. All seven records remain `validated`; their existing Database Viewer `city` and `status` entries were checked and already matched.
 
+### Additional location corrections — batch 97246–97251
+
+Eight fact locations were added across three records and verified by GitHub read-back:
+
+- 97247: fact_001 — exact mapped location of the Church of St. Stephen in Oslany; fact_002 and fact_003 — Oslany historic-core orientation points for the town's guild history and the 1683 Ottoman attack; fact_005 — Ľubianka locality orientation point, not falsely presented as the exact church or Lourdes grotto.
+- 97248: fact_002 — Horná Ves village-centre orientation point near the former manor complex for the St. Vincent Ferrer chapel; fact_004 — Horná Ves settlement orientation point for local craft history; fact_006 — official Radobica municipal-office point as an orientation point for the settlement and its local parts. fact_005 (Dubový diel partisan bunkers) remains null because no defensible point was established.
+- 97251: fact_001 — Handlová settlement orientation point for the founding story; the exact original Krásny Les site remains unlocated. fact_013 (Pstruháre archaeological locality) remains null because the reviewed municipal and archaeological sources identify the locality but do not provide defensible coordinates.
+
+The added points use explicit orientation-point names and honest accuracy labels. No fact text, fact ID, fact-level source list, primary postcode assignment, status or version metadata was changed. All three records remain validated; their existing Database Viewer city and status entries were checked and already matched.
+
 ### Postal-geography evidence
 
 Four records explicitly retain `verification.geographic_test_data = false`; the postal/geographic verification is therefore not complete enough to pass:
@@ -97,7 +105,7 @@ The records describe address evidence, but the geographic test flag is false and
 ### Record-level results
 
 - `PASS` on the structural, language-alignment, source-reference and map-category checks: all 32 records.
-- `REVIEW REQUIRED` for null fact locations: the 9 records listed above.
+- `REVIEW REQUIRED` for null fact locations: the 8 records listed above.
 - `REVIEW REQUIRED` for postal-geography evidence: 97211, 97212, 97215, 97216.
 - Overall block result: `REVIEW REQUIRED`; do not publish until all material open items are resolved and cross-postcode checks remain complete.
 
@@ -111,4 +119,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-Resolve the remaining 17 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+Resolve the remaining 9 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
