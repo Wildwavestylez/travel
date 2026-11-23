@@ -58,3 +58,42 @@ Research the full defensible area associated with the selected PLZ. If the code 
 - Do not copy the representative point into fact locations.
 - Do not create production data or change lifecycle states while the storage/publication decision is unresolved.
 - If a material source or geographic conflict cannot be resolved, report it rather than guessing.
+
+## Shared technical record contract — mandatory
+
+The Austrian record uses the exact shared TRAVEL technical structure in `data/austria/schema.json`. Its object shape, field names, required fields, data types, controlled values, nested fact/source/location structures and seven-language translation structure must remain identical to the Czech origin. The only currently approved schema-level country difference is the Austrian four-digit PLZ pattern. Do not add, remove, rename or repurpose fields ad hoc.
+
+### Stable fact IDs and translations
+
+- Use stable IDs in the exact format permitted by the schema (currently `fact_001`, `fact_002`, etc.).
+- Each fact ID must be unique within the record and must appear exactly once in every language branch.
+- All seven languages (`cs`, `de`, `en`, `es`, `fr`, `it`, `nl`) must contain the same fact IDs in the same order.
+- Translation must preserve meaning, names, dates, geographic relationships, factual nuance and priority. Do not add or omit claims in translation.
+- Dutch must use standard Netherlands Dutch (`nl-NL`), natural and clear to readers in both the Netherlands and Flanders.
+
+### Editorial and map categories
+
+- Every fact must have exactly one `category` and exactly one `map_category`, using only values permitted by the Austrian schema.
+- The shared 17 `map_category` identifiers and their assignment rules are defined in the shared technical section of `data/austria/CONTENT_STANDARD.md`. Do not invent new values or substitute `category` for `map_category`.
+- `map_category` is language-neutral and is not copied into translations.
+- The fact's editorial category, map category and physical `location.type` are three distinct classifications. Never infer one automatically from another.
+
+### Fact locations and map pins
+
+- Keep `representative_point`, `access_point` and each `facts[].location` independent.
+- Use the map-location hierarchy in `data/austria/CONTENT_STANDARD.md`: exact object point where known; a defensible representative point inside a large site; a clearly labelled approximate public orientation point for a historical/local story when exact coordinates are unavailable; and `null` only when no responsible useful point can be established.
+- Use only permitted `accuracy` and `location.type` values. The canonical location-type IDs are maintained in `data/austria/location_types.json` and must match the schema enum exactly.
+- The location's `name` describes the actual point used, not a false claim of exact historical location. Its `source` must support the point's existence/location; sources for the story itself remain separate.
+- Do not copy the PLZ representative or access point into a fact location unless it genuinely matches the fact-location rule.
+
+### Sequence integrity
+
+- `data/austria/sequence.json` is the canonical project inventory and work order for geographic-only Austrian PLZ.
+- Every sequence item must be unique and must use the exact four-character string format.
+- Only approved geographic PLZ may appear. Excluded PO-box-only, company/institution-only without territory, branch, sorting/distribution-centre and other non-geographic codes must not enter the sequence.
+- Do not infer missing codes from numeric ranges or add codes during ordinary rework. Inventory changes require source verification and an explicit sequence update.
+- Austria's current sequence format has no `groups` property. Do not invent or require `groups` unless the shared project architecture formally adopts it for Austria.
+
+### Technical validation before save
+
+Validate the complete JSON against `data/austria/schema.json`. Check all required fields, exact data types, allowed enums, no undeclared properties, four-digit string preservation (including leading zero), stable unique fact IDs, exact seven-language parity, source references, coordinate ranges and all fact-location values. Do not claim validation passed if any check was skipped or a tool could not perform it.
