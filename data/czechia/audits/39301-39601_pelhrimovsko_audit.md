@@ -113,8 +113,10 @@ Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Ryná
 
 ### 5.2 Zbývající location=null
 
-Při pokračujícím geografickém průchodu bylo doplněno 17 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
+Při pokračujícím geografickém průchodu bylo doplněno 20 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
 
+- 39301/fact_011 — Mikuláš Biskupec z Pelhřimova; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné rodiště nebylo doloženo.
+- 39301/fact_012 — zemské sjezdy v Pelhřimově 1444–1450; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné místo jednání nebylo doloženo.
 - 39403/fact_001 — historický vývoj Horní Cerekve; kostel Zvěstování Páně jako orientační bod historického jádra, 49.318952, 15.329738; `area_representative`.
 - 39404/fact_004 — kolomazný kámen u úřadu městyse Nový Rychnov; orientační poloha na adrese úřadu, 49.3833219, 15.3663073; `approximate`.
 - 39404/fact_005 — Vilém Pospíšil; radnice Nový Rychnov u pamětní desky, 49.3833111, 15.3662361; `approximate`. Vila u silnice na Čejkov je doložena, ale její přesný bod nebyl ověřen.
@@ -131,6 +133,7 @@ Při pokračujícím geografickém průchodu bylo doplněno 17 obhajitelných po
 - 39452/fact_001 — historický vývoj Kejžlice; obecní úřad jako orientační bod historického sídla, 49.5896573, 15.3918274; `area_representative`.
 - 39459/fact_001 — historický vývoj Koberovic; pošta a obecní budova č.p. 42 jako orientační bod vsi, 49.5863247, 15.2638392; `area_representative`.
 - 39459/fact_003 — bývalá škola Koberovice 42, dnes využívaná hasičským klubem; 49.5863247, 15.2638392; `approximate`.
+- 39462/fact_004 — soubor tří raně barokních božích muk na cestách z Libkovy Vody; pošta č.p. 61 jako orientační bod vsi, 49.3759696, 15.1892659; `area_representative`.
 - 39462/fact_001 — historický vývoj Libkovy Vody; pošta č.p. 61 jako orientační bod historické vsi, 49.3759696, 15.1892659; `area_representative`.
 
 Zůstávají pouze dva případy:
