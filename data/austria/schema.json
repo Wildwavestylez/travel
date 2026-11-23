@@ -17,7 +17,7 @@
     "city": {
       "type": "string",
       "minLength": 1,
-      "description": "The municipality or city geographically associated with the Austrian PLZ content area, established from reliable postal and geographic evidence. Do not assume the postcode is identical to a municipality boundary or derive the municipality solely from a post-office address."
+      "description": "The official political municipality (Gemeinde) in which the specific post office / postal service location assigned to this geographic Austrian PLZ is physically situated (relevant Leitort / Postamt). Verify the postal assignment and physical facility address from official Austrian Post sources; verify the municipality from BEV / Statistik Austria. Bestimmungsort is not automatically a municipality. This header field does not limit the full PLZ area researched for facts."
     },
     "district": {
       "type": [
