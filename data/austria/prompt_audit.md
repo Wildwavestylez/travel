@@ -28,14 +28,15 @@ For every requested PLZ:
 1. Confirm the exact four-digit string and approved geographic-only inventory membership.
 2. Re-check that official postal evidence supports geographic eligibility and that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or another operational/non-geographic code.
 3. Verify the geographic extent only to the level supported by official evidence; do not assume or invent a polygon.
-4. Check the defensible geographic scope and associated municipality/locality relationships.
-5. Verify Bundesland and political Bezirk/statutory-city context using official administrative sources.
-6. Check representative place and coordinates.
-7. Review fact locations for physical accuracy and connection to the PLZ content area.
-8. Check source support for material factual claims.
-9. Check all seven translations for completeness, factual fidelity and natural language.
-10. Check duplicate or misplaced facts across the requested audit scope.
-11. Confirm the record is not a minimal `placeholder`; placeholders are inventory entries and must be skipped, not counted as audited. For a `validated` record, validate the complete JSON against the approved schema.
+4. Verify the specific post office / postal facility assigned to the PLZ using Austrian Post evidence, and verify its physical address using the official Filialfinder or another official Austrian Post source.
+5. Check that `city` names exactly the political Gemeinde in which that assigned facility is physically located; do not accept Bestimmungsort or the largest associated municipality as a substitute. Check `district`, `county` and `state` against that municipality.
+6. Separately check the full geographic PLZ scope and associated settlements/municipalities used for fact research; it must not be reduced to the municipality in `city`.
+7. Check representative place and coordinates independently of the post-office location.
+8. Review fact locations for physical accuracy and connection to the full PLZ content area.
+9. Check source support for material factual claims.
+10. Check all seven translations for completeness, factual fidelity and natural language.
+11. Check duplicate or misplaced facts across the requested audit scope.
+12. Confirm the record is not a minimal `placeholder`; placeholders are inventory entries and must be skipped, not counted as audited. For a `validated` record, validate the complete JSON against the approved schema.
 
 For the entire requested area, check whether major nationally, regionally or internationally significant attractions, heritage, historical events, people or natural features are missing. This is a targeted audit check, not a reason to reduce the full research required during rework.
 
@@ -43,7 +44,8 @@ For the entire requested area, check whether major nationally, regionally or int
 
 Use the source catalogue in `data/austria/COUNTRY_PROFILE.md`, section "Official authorities and source hierarchy". During audit, verify each claim with the institution competent for that claim:
 - PLZ existence/purpose: Austrian Post Postlexikon and legend; RTR current Open Data as statutory inventory cross-check.
-- Address/coordinate and address-to-PLZ relationship: BEV Adressregister; no inferred PLZ polygon.
+- Assigned post office / Leitort and physical facility address: Austrian Post PLZ information and official Filialfinder or another official Austrian Post facility record.
+- Address/coordinate, municipality and address-to-PLZ relationship: BEV Adressregister, with Statistik Austria for official municipality names; no inferred PLZ polygon.
 - Administrative metadata: Statistik Austria current regional divisions and Gemeindeverzeichnis; metadata only, never content boundaries.
 - Local map context: basemap.at, BEV and official provincial/municipal GIS.
 - Monument protection: Bundesdenkmalamt and applicable legal instrument; the published Denkmalliste alone is not legally binding.
@@ -53,7 +55,7 @@ Use the source catalogue in `data/austria/COUNTRY_PROFILE.md`, section "Official
 - Historical claims: Österreichisches Staatsarchiv, Landes-/Stadt-/Gemeindearchive, ÖNB ANNO, museums and specialist literature.
 - Current visitor access/operation: official operator or institution.
 
-Check source competence, exact URL, publication/reference date and checked date. Treat conflicting sources as an audit issue until reconciled. A postal destination is not a municipality; a directory listing is not proof of geographic eligibility; a BEV address point is not proof of a PLZ boundary.
+Check source competence, exact URL, publication/reference date and checked date. Treat conflicting sources as an audit issue until reconciled. A postal Bestimmungsort is not automatically a municipality or the physical location of the assigned post office. Verify `city` from the actual assigned facility address. Audit the full geographic PLZ area for facts independently of the single header municipality. A directory listing is not proof of geographic eligibility; a BEV address point is not proof of a PLZ boundary.
 
 ## Source access policy
 
@@ -70,6 +72,7 @@ The audit must not treat a `placeholder` as a failed content record: it is simpl
 For every audited Austrian record, check the complete record against `data/austria/schema.json` and the shared TRAVEL technical contract in `data/austria/CONTENT_STANDARD.md`.
 
 1. Confirm the postcode is a four-character string, including any leading zero, and belongs to the approved geographic-only sequence. Confirm `status` is `validated` for an audit candidate; skip `placeholder` records and never treat them as content-complete.
+2. Confirm `city` is the one municipality containing the physically located post office assigned to the PLZ, and that its official postal and geographic evidence is recorded. Confirm the full fact scope includes all relevant associated settlements, not only that municipality.
 2. Confirm the record contains exactly the approved schema properties; no missing required properties, undeclared properties, wrong data types or invalid enum values.
 3. Confirm each fact has one valid editorial `category` and exactly one valid `map_category`. The map category must be one of the shared 17 identifiers and must not be inferred from `location.type`.
 4. Confirm fact IDs are unique and stable, and that all seven language branches contain exactly the same IDs in exactly the same order.
