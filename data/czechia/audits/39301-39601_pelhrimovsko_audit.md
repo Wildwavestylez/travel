@@ -111,9 +111,9 @@ Po zápisu byl cíleně načten zpět pouze změněný blok sedmi PSČ. Výslede
 
 Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Rynárec, Nový Rychnov, Cetoraz, Obrataň a Častrov, dále Národní památkový ústav a Atlas české architektury. Významové doplnění zahrnuje například historický silniční most a památkový soubor Rynárce, další požár Nového Rychnova a osudy rodin Ančerlových a Stettnerových, původ Jiřího Němce v klubu Slavoj Pacov, Deymovu hrobku v Cetorazi, pamětní souvislosti Obrataně, podobu sochy ve Velké Chyšce, archeologický kontext Červené Řečice a druhý památník v Častrově.
 
-### 5.2 Zbývající location=null
+### 5.2 Geografické opravy a finální kontrola poloh
 
-Při pokračujícím geografickém průchodu bylo doplněno 20 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
+Při pokračujícím geografickém průchodu bylo doplněno 22 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. Dvě poslední dříve prázdné polohy byly na návrh uživatele umístěny na obecní úřady příslušných sídel jako reprezentativní body, nikoli jako místa samotných historických událostí. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
 
 - 39301/fact_011 — Mikuláš Biskupec z Pelhřimova; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné rodiště nebylo doloženo.
 - 39301/fact_012 — zemské sjezdy v Pelhřimově 1444–1450; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné místo jednání nebylo doloženo.
@@ -137,8 +137,8 @@ Při pokračujícím geografickém průchodu bylo doplněno 20 obhajitelných po
 - 39462/fact_001 — historický vývoj Libkovy Vody; pošta č.p. 61 jako orientační bod historické vsi, 49.3759696, 15.1892659; `area_representative`.
 
 Zůstávají pouze dva případy:
-- 39404/fact_007 — osud rodin Ančerlových a Stettnerových; konkrétní místo jejich zatčení, deportace či úmrtí není doloženo a nebyl nalezen bezpečný lokální pamětní bod.
-- 39451/fact_003 — zaniklé panské sídlo a lihovar v Kalištích; znám je areál někdejšího vrchnostenského dvora, ale přesná poloha zaniklých staveb nebyla bezpečně ověřena.
+- 39404/fact_007 — osud rodin Ančerlových a Stettnerových; Úřad městyse Nový Rychnov č.p. 87 jako reprezentativní bod obce, 49.3833219, 15.3663073; `area_representative`. Nejde o doložené místo zatčení či deportace.
+- 39451/fact_003 — zaniklé panské sídlo a lihovar v Kalištích; Obecní úřad Kaliště č.p. 92 jako reprezentativní bod vsi, 49.5926961, 15.3019819; `area_representative`. Nejde o přesné umístění zaniklých budov.
 
 ### 5.3 Sémantická kontrola překladů
 
