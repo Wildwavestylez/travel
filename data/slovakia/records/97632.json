@@ -1,4 +1,510 @@
 {
   "postcode": "97632",
-  "status": "placeholder"
+  "city": "Badín",
+  "district": null,
+  "district_type": null,
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Historické jádro obce Badín",
+  "representative_point": {
+    "lat": 48.663056,
+    "lon": 19.125278
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Badínsky prales – chráněný zbytek původního karpatského lesa",
+      "text": "Badínsky prales na východních svazích Kremnických vrchů patří k nejcennějším zbytkům původních bukových a jedlobukových lesů na Slovensku. Ochrana lokality byla vyhlášena již roku 1913; dnešní národní přírodní rezervace má podle Správy CHKO Poľana rozlohu 30,03 hektaru a leží v katastru Badína. Chrání pralesovité lesní společenstvo s přirozeným vývojem, v němž se střídají fáze dorůstání, optima a rozpadu. Území je důležité pro druhy vázané na staré lesy, například rysa ostrovida, mloka karpatského a tesaříka alpského. Kvůli ochraně není prales volně přístupný; vstup je možný pouze v rámci odborných exkurzí s oprávněným průvodcem.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://chkopolana.sopsr.sk/priroda/maloplosne-chranene-uzemia-mimo-chko/",
+        "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/77",
+        "https://www.obecbadin.sk/o-obci-0.html"
+      ],
+      "location": {
+        "name": "NPR Badínsky prales – reprezentativní bod rezervace",
+        "address": null,
+        "lat": 48.68555556,
+        "lon": 19.05194444,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/77"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Kateřiny Alexandrijské – středověký chrám za opevněnou zdí",
+      "text": "Římskokatolický kostel sv. Kateřiny Alexandrijské stojí na vyvýšeném místě v historickém jádru Badína. Archeologický výzkum zachytil základy staršího jednolodního kostela, pravděpodobně románského, který mohl vzniknout již ve 13. století; datování před rok 1250 zůstává hypotézou založenou na omezeném výzkumu. Na jeho základech byla koncem 14. století postavena pozdější stavba, která prošla pozdně gotickými a barokními úpravami. Obec uvádí kostel z roku 1397, přestavbu lodi roku 1765 a rozšíření bočních lodí v letech 1893–1894. V 17. století byl areál chráněn opevňovací zdí se střílnami, datovanou do roku 1636. Kostel s opevněním je zapsán v Ústředním seznamu památkového fondu SR.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://login.apsida.sk/c/1702/badin",
+        "https://vvvw.apsida.sk/c/1900/badin-starsi-kostol",
+        "https://www.obecbadin.sk/o-obci-0.html",
+        "https://www.obecbadin.sk/download_file_f.php?id=1612635"
+      ],
+      "location": {
+        "name": "Kostel sv. Kateřiny Alexandrijské, Banská ulice, Badín",
+        "address": "Banská 30, 976 32 Badín, Slovensko",
+        "lat": 48.668297176,
+        "lon": 19.12199378,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://vvvw.apsida.sk/c/1900/badin-starsi-kostol"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Badínská uhelná pánev – raná průmyslová těžba hnědého uhlí",
+      "text": "Badín má významnou, dnes téměř zapomenutou historii těžby hnědého uhlí. Zpráva o ložisku se objevila již roku 1766, ale systematičtější průzkum začal roku 1833 vrty a rozbory uhlí, které prováděl profesor Alojz Wehrle z báňské akademie v Banské Štiavnici. Roku 1835 lokalitu zkoumal mineralog Friedrich Mohs a v roce 1837 vznikla přibližně 120 metrů dlouhá štola, po níž následovaly první pokusy o těžbu. Výraznější průmyslový rozvoj přišel po roce 1872, kdy se o ložisko začala zajímat zvolenská společnost Union a v roce 1873 zahájila systematickou těžbu. Uhlí odebíraly mimo jiné průmyslové provozy v Banské Bystrici a Harmanci. Obecní historické podklady uvádějí zánik dolů na počátku 20. let 20. století.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/UB_Badin_UNION.pdf",
+        "https://www.fpv.umb.sk/app/cmsSiteBoxAttachment.php?ID=3101",
+        "https://www.obecbadin.sk/o-obci-0.html"
+      ],
+      "location": {
+        "name": "Historická oblast uhelného dolu Badín – lokalita Baňa",
+        "address": null,
+        "lat": 48.6745272,
+        "lon": 19.0973803,
+        "type": "historic_mine",
+        "accuracy": "area_representative",
+        "source": "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/UB_Badin_UNION.pdf"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_004",
+      "title": "August Horislav Krčméry – evangelický farář, národní buditel a sběratel písní",
+      "text": "August Horislav Krčméry (1822–1891) patřil k osobnostem slovenského národního obrození, církevního života a hudební kultury. Narodil se v Horné Mičiné, po studiích teologie působil jako farář v několika slovenských obcích a v letech 1874–1891 sloužil v Badíně, kde také 9. března 1891 zemřel a byl pohřben. Publikoval osvětové, náboženské a národopisné texty, sbíral lidové písně a redigoval hudební přílohu Hlahol časopisu Sokol. Podílel se na vydávání Slovenského spoločenského spevníka a do sbírky Slovenské spevy přispěl desítkami písní. Známá je jeho píseň Hojže Bože na slova Andreje Sládkoviče. V Badíně jej připomíná pamětní deska na evangelické faře a jeho hrob na místním hřbitově.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.obecbadin.sk/o-obci-0.html",
+        "https://matica.sk/august-horislav-krcmery/",
+        "https://www.pamiatkynaslovensku.sk/badin-evanjelicky-kostol",
+        "https://www.biographien.ac.at/oebl/oebl_K/Krcmery_August-Horislav_1822_1891.xml"
+      ],
+      "location": {
+        "name": "Evangelický kostel a fara – místo Krčméryho působení",
+        "address": "Sládkovičova 6, 976 32 Badín, Slovensko",
+        "lat": 48.664317,
+        "lon": 19.121728,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/badin-evanjelicky-kostol"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kněžský seminář sv. Františka Xaverského – obnova diecézní formace po roce 1990",
+      "text": "Kněžský seminář sv. Františka Xaverského v Badíně navázal na starší tradici kněžské přípravy pro Banskobystrickou diecézi, jejíž původní seminář byl komunistickým režimem zrušen roku 1950. Po obnově diecézního semináře v roce 1990 se rozhodlo o výstavbě nové budovy v Badíně na pozemku bývalé farní zahrady. Základní kámen byl požehnán 1. května 1991 a nová budova byla slavnostně posvěcena 4. října 1993 pro přibližně 80 bohoslovců. Významnou událostí byla návštěva papeže Jana Pavla II. dne 12. září 2003, kdy se setkal se seminaristy, jáhny a pedagogy a požehnal oltářní mozaice. Seminář se stal důležitým centrem teologického vzdělávání a duchovní formace ve středním Slovensku.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://xaver.xaver.sk/badin-1993-2019",
+        "https://bbdieceza.sk/kontakt/",
+        "https://bbdieceza.sk/wp-content/uploads/2012/09/sprievodca_kz_09_2012.pdf"
+      ],
+      "location": {
+        "name": "Kňazský seminár sv. Františka Xaverského, Banská 28",
+        "address": "Banská 28, 976 32 Badín, Slovensko",
+        "lat": 48.668795,
+        "lon": 19.122412,
+        "type": "religious_site",
+        "accuracy": "approximate",
+        "source": "https://bbdieceza.sk/kontakt/"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Badínské archeologické stopy a středověký vývoj sídla",
+      "text": "Badín je písemně doložen od roku 1232 pod podobou Badun; pozdější listiny zachycují názvy Badyn a Bagyon. Ve 13. století zde podle historických pramenů sídlili královští lesní hájníci, kteří střežili část Zvolenského lesa. Archeologické lokality v katastru dokládají další vrstvy osídlení: Pod Hrádkom zachycuje osídlení z mladší doby bronzové a sídliště z 9.–10. století, samotný Hrádok sídliště z 12.–13. století a Čierne blato slovanské osídlení. Centrum obce je podle územního plánu doloženo nejpozději od roku 1282. V raném novověku Badín patřil ke Zvolenskému hradnímu panství a v letech 1580–1657 odváděl poplatek Turkům; roku 1599 jej přepadly tatarské oddíly.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.obecbadin.sk/o-obci-0.html",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_9304fbd8-f00b-4da0-a956-0082a03d65dd",
+        "https://www.obecbadin.sk/download_file_f.php?id=1612635"
+      ],
+      "location": {
+        "name": "Hrádok – vrch a archeologická lokalita nad Badínem",
+        "address": null,
+        "lat": 48.6745272,
+        "lon": 19.0973803,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n5657428521"
+      },
+      "map_category": "archaeological_site"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální web obce uvádí sídlo obecního úřadu na adrese Sládkovičova 4, 976 32 Badín; stejnou adresu a PSČ uvádí oficiální kontaktní stránka. Program hospodářského a sociálního rozvoje obce pro období 2026–2035 uvádí PSČ 976 32 a geografické souřadnice obce. Slovenská pošta zůstává primární autoritou pro klasifikaci PSČ; její dynamické vyhledávání konkrétního kódu nebylo při této kontrole samostatně strojově čitelné. Adresy potvrzují geografické použití kódu v Badíně, nikoli přesný polygon doručovací oblasti.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta (primární autorita pro PSČ; konkrétní záznam nebyl při kontrole dostupný ve strojově čitelném výstupu)",
+    "postcode_source_dataset": "Oficiální adresa Obecního úřadu Badín, oficiální kontaktní stránka obce a Program hospodářského a sociálního rozvoje obce Badín 2026–2035",
+    "postcode_source_release": "Program hospodářského a sociálního rozvoje obce Badín 2026–2035",
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Poloha pošty nebyla použita k výběru reprezentativního bodu; reprezentativní bod odpovídá geografické poloze obce uvedené v obecním rozvojovém dokumentu.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní web a rozvojový dokument potvrzují Badín v okrese Banská Bystrica a Banskobystrickém kraji a uvádějí geografickou polohu obce. Správa CHKO Poľana a Štátny zoznam chránených území potvrzují polohu Badínskeho pralesa v katastru Badína a jeho středové souřadnice. Památkové a odborné zdroje podporují polohy kostelů a semináře; přesný polygon doručovací oblasti PSČ nebyl ověřen."
+  },
+  "sources": [
+    {
+      "title": "Obec Badín – historie, památky a osobnosti",
+      "url": "https://www.obecbadin.sk/o-obci-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Badín – oficiální kontakt a adresa PSČ 976 32",
+      "url": "https://www.obecbadin.sk/kontakt-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Ústřední portál veřejné správy – Badín, historické údaje",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_9304fbd8-f00b-4da0-a956-0082a03d65dd",
+      "type": "official"
+    },
+    {
+      "title": "Správa CHKO Poľana – NPR Badínsky prales",
+      "url": "https://chkopolana.sopsr.sk/priroda/maloplosne-chranene-uzemia-mimo-chko/",
+      "type": "official"
+    },
+    {
+      "title": "Štátny zoznam chránených území – Badínsky prales, souřadnice",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/77",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – Kostel sv. Kateřiny Alexandrijské v Badíně",
+      "url": "https://login.apsida.sk/c/1702/badin",
+      "type": "specialist"
+    },
+    {
+      "title": "Apsida – starší kostel v Badíně, archeologie a GPS",
+      "url": "https://vvvw.apsida.sk/c/1900/badin-starsi-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "Územní plán obce Badín, změny a doplňky č. 4 – památky a archeologická naleziště",
+      "url": "https://www.obecbadin.sk/download_file_f.php?id=1612635",
+      "type": "official"
+    },
+    {
+      "title": "Matica slovenská – August Horislav Krčméry, život a dílo",
+      "url": "https://matica.sk/august-horislav-krcmery/",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – evangelický kostel a pamětní deska Krčméryho",
+      "url": "https://www.pamiatkynaslovensku.sk/badin-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "Österreichisches Biographisches Lexikon – August Horislav Krčméry",
+      "url": "https://www.biographien.ac.at/oebl/oebl_K/Krcmery_August-Horislav_1822_1891.xml",
+      "type": "specialist"
+    },
+    {
+      "title": "Ministerstvo vnútra SR / Slovenský archív v Banskej Štiavnici – uhelná pánev Badín",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/UB_Badin_UNION.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "Univerzita Mateja Bela – historická studie o těžbě uhlí v Badíně",
+      "url": "https://www.fpv.umb.sk/app/cmsSiteBoxAttachment.php?ID=3101",
+      "type": "university"
+    },
+    {
+      "title": "Duchovné centrum sv. Františka Xaverského – historie semináře v Badíně",
+      "url": "https://xaver.xaver.sk/badin-1993-2019",
+      "type": "official"
+    },
+    {
+      "title": "Banskobystrická diecéza – adresa Kňazského semináře v Badíně",
+      "url": "https://bbdieceza.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Banskobystrická diecéza – historie diecézního semináře",
+      "url": "https://bbdieceza.sk/wp-content/uploads/2012/09/sprievodca_kz_09_2012.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská mariánská cesta – GPS poloha semináře v Badíně",
+      "url": "https://slovenska-marianska-cesta.webnode.sk/etapy-pute/juzna-cesta/a4-etapa/",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Hrádok, Badín, souřadnice vrchu",
+      "url": "https://poi.oma.sk/n5657428521",
+      "type": "other"
+    },
+    {
+      "title": "OMA – orientační poloha Badína a PSČ 976 32",
+      "url": "https://badin.oma.sk/u/druzstevna",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro obce Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – chráněný zbytek původního karpatského lesa",
+          "text": "Badínsky prales na východních svazích Kremnických vrchů patří k nejcennějším zbytkům původních bukových a jedlobukových lesů na Slovensku. Ochrana lokality byla vyhlášena již roku 1913; dnešní národní přírodní rezervace má podle Správy CHKO Poľana rozlohu 30,03 hektaru a leží v katastru Badína. Chrání pralesovité lesní společenstvo s přirozeným vývojem, v němž se střídají fáze dorůstání, optima a rozpadu. Území je důležité pro druhy vázané na staré lesy, například rysa ostrovida, mloka karpatského a tesaříka alpského. Kvůli ochraně není prales volně přístupný; vstup je možný pouze v rámci odborných exkurzí s oprávněným průvodcem."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Kateřiny Alexandrijské – středověký chrám za opevněnou zdí",
+          "text": "Římskokatolický kostel sv. Kateřiny Alexandrijské stojí na vyvýšeném místě v historickém jádru Badína. Archeologický výzkum zachytil základy staršího jednolodního kostela, pravděpodobně románského, který mohl vzniknout již ve 13. století; datování před rok 1250 zůstává hypotézou založenou na omezeném výzkumu. Na jeho základech byla koncem 14. století postavena pozdější stavba, která prošla pozdně gotickými a barokními úpravami. Obec uvádí kostel z roku 1397, přestavbu lodi roku 1765 a rozšíření bočních lodí v letech 1893–1894. V 17. století byl areál chráněn opevňovací zdí se střílnami, datovanou do roku 1636. Kostel s opevněním je zapsán v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_003",
+          "title": "Badínská uhelná pánev – raná průmyslová těžba hnědého uhlí",
+          "text": "Badín má významnou, dnes téměř zapomenutou historii těžby hnědého uhlí. Zpráva o ložisku se objevila již roku 1766, ale systematičtější průzkum začal roku 1833 vrty a rozbory uhlí, které prováděl profesor Alojz Wehrle z báňské akademie v Banské Štiavnici. Roku 1835 lokalitu zkoumal mineralog Friedrich Mohs a v roce 1837 vznikla přibližně 120 metrů dlouhá štola, po níž následovaly první pokusy o těžbu. Výraznější průmyslový rozvoj přišel po roce 1872, kdy se o ložisko začala zajímat zvolenská společnost Union a v roce 1873 zahájila systematickou těžbu. Uhlí odebíraly mimo jiné průmyslové provozy v Banské Bystrici a Harmanci. Obecní historické podklady uvádějí zánik dolů na počátku 20. let 20. století."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – evangelický farář, národní buditel a sběratel písní",
+          "text": "August Horislav Krčméry (1822–1891) patřil k osobnostem slovenského národního obrození, církevního života a hudební kultury. Narodil se v Horné Mičiné, po studiích teologie působil jako farář v několika slovenských obcích a v letech 1874–1891 sloužil v Badíně, kde také 9. března 1891 zemřel a byl pohřben. Publikoval osvětové, náboženské a národopisné texty, sbíral lidové písně a redigoval hudební přílohu Hlahol časopisu Sokol. Podílel se na vydávání Slovenského spoločenského spevníka a do sbírky Slovenské spevy přispěl desítkami písní. Známá je jeho píseň Hojže Bože na slova Andreje Sládkoviče. V Badíně jej připomíná pamětní deska na evangelické faře a jeho hrob na místním hřbitově."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kněžský seminář sv. Františka Xaverského – obnova diecézní formace po roce 1990",
+          "text": "Kněžský seminář sv. Františka Xaverského v Badíně navázal na starší tradici kněžské přípravy pro Banskobystrickou diecézi, jejíž původní seminář byl komunistickým režimem zrušen roku 1950. Po obnově diecézního semináře v roce 1990 se rozhodlo o výstavbě nové budovy v Badíně na pozemku bývalé farní zahrady. Základní kámen byl požehnán 1. května 1991 a nová budova byla slavnostně posvěcena 4. října 1993 pro přibližně 80 bohoslovců. Významnou událostí byla návštěva papeže Jana Pavla II. dne 12. září 2003, kdy se setkal se seminaristy, jáhny a pedagogy a požehnal oltářní mozaice. Seminář se stal důležitým centrem teologického vzdělávání a duchovní formace ve středním Slovensku."
+        },
+        {
+          "id": "fact_006",
+          "title": "Badínské archeologické stopy a středověký vývoj sídla",
+          "text": "Badín je písemně doložen od roku 1232 pod podobou Badun; pozdější listiny zachycují názvy Badyn a Bagyon. Ve 13. století zde podle historických pramenů sídlili královští lesní hájníci, kteří střežili část Zvolenského lesa. Archeologické lokality v katastru dokládají další vrstvy osídlení: Pod Hrádkom zachycuje osídlení z mladší doby bronzové a sídliště z 9.–10. století, samotný Hrádok sídliště z 12.–13. století a Čierne blato slovanské osídlení. Centrum obce je podle územního plánu doloženo nejpozději od roku 1282. V raném novověku Badín patřil ke Zvolenskému hradnímu panství a v letech 1580–1657 odváděl poplatek Turkům; roku 1599 jej přepadly tatarské oddíly."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – geschützter Rest des ursprünglichen Karpatenwaldes",
+          "text": "Der Badínsky prales an den Osthängen des Kremnitzer Gebirges gehört zu den wertvollsten Resten ursprünglicher Buchen- und Tannen-Buchenwälder der Slowakei. Das Schutzgebiet wurde 1913 ausgewiesen; das heutige nationale Naturreservat umfasst 30,03 Hektar im Kataster von Badín. Es schützt einen urwaldartigen Lebensraum mit natürlicher Entwicklung und bietet Arten alter Wälder Lebensraum, darunter Luchs, Karpatenmolch und Alpenbock. Zum Schutz der natürlichen Prozesse ist das Gebiet nicht frei zugänglich; Besuche sind nur im Rahmen fachkundiger Exkursionen mit autorisierten Begleitern möglich."
+        },
+        {
+          "id": "fact_002",
+          "title": "St.-Katharina-Kirche – mittelalterlicher Bau hinter einer Wehrmauer",
+          "text": "Die römisch-katholische Kirche der heiligen Katharina von Alexandrien steht erhöht im historischen Ortskern. Archäologische Untersuchungen fanden Fundamente einer älteren, vermutlich romanischen Kirche, die bereits im 13. Jahrhundert entstanden sein könnte; eine Datierung vor 1250 bleibt eine Hypothese. Der spätere Bau entstand gegen Ende des 14. Jahrhunderts. Die Gemeinde nennt 1397, einen Umbau des Langhauses 1765 und Seitenschiffe von 1893–1894. Im 17. Jahrhundert schützte eine 1636 datierte Wehrmauer mit Schießscharten die Anlage. Kirche und Befestigung sind im zentralen Denkmalverzeichnis der Slowakei eingetragen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Badíner Kohlebecken – früher industrieller Braunkohleabbau",
+          "text": "Ein Hinweis auf das Kohlevorkommen stammt aus 1766; systematische Erkundungen begannen 1833 durch Professor Alojz Wehrle. Der Mineraloge Friedrich Mohs untersuchte das Gebiet 1835; 1837 wurde ein etwa 120 Meter langer Stollen angelegt und erste Abbauversuche begannen. Nach 1872 interessierte sich die Zvolener Gesellschaft Union für das Vorkommen und nahm 1873 die systematische Förderung auf. Kohle bezogen unter anderem Betriebe in Banská Bystrica und Harmanec. Laut den historischen Gemeindeunterlagen endete der Abbau zu Beginn der 1920er-Jahre."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – evangelischer Pfarrer, Nationalerwecker und Liedersammler",
+          "text": "August Horislav Krčméry (1822–1891) war eine bedeutende Persönlichkeit der slowakischen Nationalbewegung und Musikkultur. Er wurde in Horná Mičiná geboren und wirkte von 1874 bis 1891 als Pfarrer in Badín, wo er am 9. März 1891 starb und begraben wurde. Er veröffentlichte volksbildnerische, religiöse und volkskundliche Texte, sammelte Volkslieder und redigierte Hlahol, die Musikbeilage der Zeitschrift Sokol. Er wirkte am Slovenský spoločenský spevník mit und steuerte zahlreiche Lieder zu Slovenské spevy bei. Bekannt ist Hojže Bože nach einem Text von Andrej Sládkovič. Eine Gedenktafel am evangelischen Pfarrhaus und sein Grab erinnern in Badín an ihn."
+        },
+        {
+          "id": "fact_005",
+          "title": "Priesterseminar des heiligen Franz Xaver – Wiederaufbau der Diözesanausbildung",
+          "text": "Das Seminar in Badín knüpft an die Priesterausbildung der Diözese Banská Bystrica an; das ursprüngliche Seminar wurde 1950 vom kommunistischen Regime geschlossen. Nach der Wiedererrichtung 1990 fiel die Entscheidung für einen Neubau auf dem ehemaligen Pfarrgarten. Der Grundstein wurde am 1. Mai 1991 gesegnet, das Gebäude am 4. Oktober 1993 für etwa 80 Seminaristen geweiht. Papst Johannes Paul II. besuchte das Seminar am 12. September 2003, traf Seminaristen, Diakone und Lehrkräfte und segnete das Altar-Mosaik. Das Seminar wurde zu einem wichtigen Zentrum theologischer Ausbildung in der Mittelslowakei."
+        },
+        {
+          "id": "fact_006",
+          "title": "Archäologische Spuren von Badín und die mittelalterliche Entwicklung des Ortes",
+          "text": "Badín ist seit 1232 schriftlich belegt, damals als Badun; später erscheinen Badyn und Bagyon. Im 13. Jahrhundert lebten hier königliche Forsthüter, die einen Teil des Zvolener Waldes bewachten. Archäologische Fundstellen belegen mehrere Siedlungsschichten: Pod Hrádkom eine Besiedlung der jüngeren Bronzezeit und des 9.–10. Jahrhunderts, Hrádok eine Siedlung des 12.–13. Jahrhunderts und Čierne blato eine slawische Siedlung. Das Ortszentrum ist spätestens seit 1282 belegt. In der frühen Neuzeit gehörte Badín zur Herrschaft der Burg Zvolen und entrichtete von 1580 bis 1657 Abgaben an die Osmanen; 1599 wurde der Ort von tatarischen Hilfstruppen überfallen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – a protected remnant of original Carpathian forest",
+          "text": "Badínsky prales, on the eastern slopes of the Kremnica Mountains, is one of Slovakia’s most valuable remnants of original beech and fir-beech forest. Protection was established in 1913; the present national nature reserve covers 30.03 hectares in Badín. It protects an old-growth ecosystem with natural cycles of regeneration, maturity and decay, and provides habitat for species such as lynx, Carpathian newt and Rosalia longicorn. To protect its natural processes, the reserve is not freely accessible; entry is allowed only on specialist excursions accompanied by authorised guides."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of St Catherine – a medieval church behind a defensive wall",
+          "text": "The Roman Catholic Church of St Catherine of Alexandria stands on elevated ground in Badín’s historic centre. Archaeological research uncovered foundations of an earlier, probably Romanesque church that may have originated in the 13th century; a date before 1250 remains a hypothesis. The later church was built towards the end of the 14th century. The municipality dates it to 1397 and records rebuilding in 1765 and side aisles in 1893–1894. In the 17th century a defensive wall with loopholes, dated to 1636, protected the complex. The church and fortification are listed in Slovakia’s Central Register of Monuments."
+        },
+        {
+          "id": "fact_003",
+          "title": "Badín coal basin – early industrial brown-coal mining",
+          "text": "A report of the coal deposit dates to 1766; systematic exploration began in 1833 under Professor Alojz Wehrle. Friedrich Mohs examined the site in 1835; in 1837 a roughly 120-metre adit was driven and the first mining attempts began. After 1872 the Zvolen-based Union company became interested and began systematic extraction in 1873. Coal supplied industrial users including works in Banská Bystrica and Harmanec. Municipal historical records state that the mines closed in the early 1920s."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – Evangelical pastor, national revivalist and folk-song collector",
+          "text": "August Horislav Krčméry (1822–1891) was an important figure in the Slovak national revival and musical culture. Born in Horná Mičiná, he served as a pastor in Badín from 1874 to 1891, where he died on 9 March 1891 and was buried. He published educational, religious and ethnographic writing, collected folk songs and edited Hlahol, the musical supplement to Sokol. He helped publish the Slovenský spoločenský spevník and contributed songs to Slovenské spevy. His well-known song Hojže Bože uses words by Andrej Sládkovič. A memorial plaque at the Evangelical parsonage and his grave commemorate him in Badín."
+        },
+        {
+          "id": "fact_005",
+          "title": "St Francis Xavier Seminary – the revival of diocesan priestly education",
+          "text": "The seminary in Badín continues the tradition of priestly formation for the Diocese of Banská Bystrica; the original seminary was closed by the communist regime in 1950. After its re-establishment in 1990, a new complex was planned on the former parish garden. The foundation stone was blessed on 1 May 1991, and the building was consecrated on 4 October 1993 for about 80 seminarians. Pope John Paul II visited on 12 September 2003, meeting seminarians, deacons and teachers and blessing the altar mosaic. The seminary became an important centre of theological education in central Slovakia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Archaeological traces of Badín and the medieval development of the settlement",
+          "text": "Badín is documented from 1232, initially as Badun; later records use Badyn and Bagyon. In the 13th century royal forest guards lived here and watched over part of the Zvolen royal forest. Archaeological sites reveal several settlement layers: Pod Hrádkom has evidence of Late Bronze Age occupation and a settlement from the 9th–10th centuries; Hrádok was settled in the 12th–13th centuries; and Čierne blato was a Slavic settlement. The village centre is documented by at least 1282. In the early modern period Badín belonged to Zvolen Castle estate and paid tribute to the Ottomans from 1580 to 1657; Tatar auxiliary troops raided it in 1599."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – resto protegido del bosque original de los Cárpatos",
+          "text": "Badínsky prales, en las laderas orientales de los montes Kremnica, es uno de los restos más valiosos de los bosques originales de haya y abeto-haya de Eslovaquia. La protección se estableció en 1913 y la actual reserva natural nacional ocupa 30,03 hectáreas en Badín. Protege un ecosistema forestal primario con ciclos naturales y alberga especies de bosques antiguos como el lince, el tritón de los Cárpatos y el longicornio alpino. Para protegerlo, no está abierto libremente al público; solo se permite entrar en excursiones especializadas con guías autorizados."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de Santa Catalina – templo medieval tras una muralla defensiva",
+          "text": "La iglesia de Santa Catalina de Alejandría se encuentra en una posición elevada del centro histórico. La investigación arqueológica descubrió los cimientos de una iglesia anterior, probablemente románica, que pudo surgir en el siglo XIII; la datación anterior a 1250 sigue siendo una hipótesis. El templo posterior se construyó a finales del siglo XIV. El municipio lo fecha en 1397 y señala reformas en 1765 y 1893–1894. En el siglo XVII el recinto fue protegido por una muralla con aspilleras, fechada en 1636. La iglesia y su fortificación figuran en el registro central de monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_003",
+          "title": "Cuenca carbonífera de Badín – primeras explotaciones industriales de lignito",
+          "text": "La existencia del yacimiento se mencionó en 1766; la exploración sistemática comenzó en 1833 bajo la dirección del profesor Alojz Wehrle. Friedrich Mohs examinó el lugar en 1835; en 1837 se abrió una galería de unos 120 metros y comenzaron los primeros intentos de extracción. Después de 1872, la empresa Union de Zvolen se interesó por el yacimiento e inició la explotación sistemática en 1873. El carbón abastecía a establecimientos industriales de Banská Bystrica y Harmanec. Los documentos municipales sitúan el cierre de las minas a comienzos de la década de 1920."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – pastor evangélico, impulsor nacional y recopilador de canciones",
+          "text": "August Horislav Krčméry (1822–1891) fue una figura importante del renacimiento nacional eslovaco y de la cultura musical. Nació en Horná Mičiná y ejerció como pastor en Badín entre 1874 y 1891, donde murió el 9 de marzo de 1891 y fue enterrado. Publicó textos educativos, religiosos y etnográficos, recopiló canciones populares y dirigió Hlahol, suplemento musical de Sokol. Colaboró en el Slovenský spoločenský spevník y en la colección Slovenské spevy. Entre sus composiciones destaca Hojže Bože, basada en un texto de Andrej Sládkovič. Una placa en la casa parroquial evangélica y su tumba lo recuerdan en Badín."
+        },
+        {
+          "id": "fact_005",
+          "title": "Seminario de San Francisco Javier – recuperación de la formación sacerdotal diocesana",
+          "text": "El seminario de Badín continúa la tradición de formación sacerdotal de la diócesis de Banská Bystrica; el seminario original fue cerrado por el régimen comunista en 1950. Tras su restablecimiento en 1990, se decidió construir un nuevo complejo en el antiguo jardín parroquial. La primera piedra fue bendecida el 1 de mayo de 1991 y el edificio se consagró el 4 de octubre de 1993 para unos 80 seminaristas. El papa Juan Pablo II visitó el seminario el 12 de septiembre de 2003, se reunió con seminaristas, diáconos y profesores y bendijo el mosaico del altar. El centro se convirtió en un importante lugar de formación teológica en Eslovaquia central."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vestigios arqueológicos de Badín y desarrollo medieval del asentamiento",
+          "text": "Badín aparece en fuentes escritas desde 1232 como Badun; después aparecen Badyn y Bagyon. En el siglo XIII vivían aquí guardabosques reales que vigilaban parte del bosque real de Zvolen. Los yacimientos arqueológicos muestran varias etapas: Pod Hrádkom conserva indicios de la Edad del Bronce tardía y de un asentamiento de los siglos IX–X; Hrádok fue un asentamiento de los siglos XII–XIII; y Čierne blato fue un asentamiento eslavo. El centro del pueblo está documentado al menos desde 1282. En la Edad Moderna Badín perteneció al dominio del castillo de Zvolen y pagó tributos a los otomanos entre 1580 y 1657; en 1599 fue atacado por tropas auxiliares tártaras."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – vestige protégé de la forêt originelle des Carpates",
+          "text": "Badínsky prales, sur les versants orientaux des monts Kremnica, est l’un des vestiges les plus précieux des hêtraies et hêtraies-sapinières originelles de Slovaquie. La protection a été instaurée en 1913 et la réserve nationale actuelle couvre 30,03 hectares dans le cadastre de Badín. Elle protège un écosystème forestier ancien et abrite des espèces liées aux vieux bois, notamment le lynx, le triton des Carpates et le longicorne alpin. Pour préserver son évolution naturelle, la réserve n’est pas librement accessible ; l’entrée est réservée aux excursions spécialisées avec des guides autorisés."
+        },
+        {
+          "id": "fact_002",
+          "title": "Église Sainte-Catherine – sanctuaire médiéval derrière un mur défensif",
+          "text": "L’église Sainte-Catherine d’Alexandrie se trouve sur une hauteur du centre historique. Des recherches archéologiques ont révélé les fondations d’une église antérieure, probablement romane, qui pourrait remonter au XIIIe siècle ; une datation avant 1250 reste une hypothèse. L’édifice ultérieur fut construit vers la fin du XIVe siècle. La commune le date de 1397 et mentionne des transformations en 1765 et en 1893–1894. Au XVIIe siècle, l’ensemble fut protégé par un mur défensif percé de meurtrières, daté de 1636. L’église et sa fortification figurent au registre central des monuments slovaques."
+        },
+        {
+          "id": "fact_003",
+          "title": "Bassin houiller de Badín – premiers travaux industriels d’extraction du lignite",
+          "text": "Le gisement est mentionné dès 1766 ; les recherches systématiques commencent en 1833 sous la direction du professeur Alojz Wehrle. Friedrich Mohs examine le site en 1835 ; en 1837, une galerie d’environ 120 mètres est creusée et les premiers essais d’extraction commencent. Après 1872, la société Union de Zvolen s’intéresse au gisement et lance une exploitation systématique en 1873. Le charbon approvisionne notamment des établissements industriels de Banská Bystrica et de Harmanec. Les documents communaux situent la fermeture des mines au début des années 1920."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – pasteur évangélique, acteur du réveil national et collecteur de chants",
+          "text": "August Horislav Krčméry (1822–1891) fut une personnalité importante du réveil national slovaque et de la culture musicale. Né à Horná Mičiná, il servit comme pasteur à Badín de 1874 à 1891, où il mourut le 9 mars 1891 et fut enterré. Il publia des textes éducatifs, religieux et ethnographiques, recueillit des chants populaires et dirigea Hlahol, supplément musical de la revue Sokol. Il participa au Slovenský spoločenský spevník et au recueil Slovenské spevy. Il est notamment connu pour Hojže Bože, sur un texte d’Andrej Sládkovič. Une plaque sur le presbytère évangélique et sa tombe rappellent sa mémoire à Badín."
+        },
+        {
+          "id": "fact_005",
+          "title": "Séminaire Saint-François-Xavier – renaissance de la formation diocésaine des prêtres",
+          "text": "Le séminaire de Badín prolonge la tradition de formation des prêtres du diocèse de Banská Bystrica ; le séminaire d’origine fut fermé par le régime communiste en 1950. Après son rétablissement en 1990, un nouveau complexe fut construit dans l’ancien jardin paroissial. La première pierre fut bénie le 1er mai 1991 et le bâtiment consacré le 4 octobre 1993 pour environ 80 séminaristes. Le pape Jean-Paul II visita le séminaire le 12 septembre 2003, rencontra les séminaristes, les diacres et les enseignants et bénit la mosaïque de l’autel. Le séminaire est devenu un centre important de formation théologique en Slovaquie centrale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Traces archéologiques de Badín et développement médiéval du village",
+          "text": "Badín est attesté depuis 1232 sous la forme Badun ; des documents ultérieurs utilisent Badyn et Bagyon. Au XIIIe siècle, des gardes forestiers royaux vivaient ici et surveillaient une partie de la forêt royale de Zvolen. Les sites archéologiques révèlent plusieurs occupations : Pod Hrádkom conserve des traces de l’âge du bronze récent et d’un habitat des IXe–Xe siècles ; Hrádok était un habitat des XIIe–XIIIe siècles ; et Čierne blato était un établissement slave. Le centre du village est attesté au plus tard en 1282. À l’époque moderne, Badín appartenait au domaine du château de Zvolen et payait un tribut aux Ottomans entre 1580 et 1657 ; des troupes tatares l’attaquèrent en 1599."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – residuo protetto della foresta originaria dei Carpazi",
+          "text": "Badínsky prales, sui versanti orientali dei monti Kremnica, è uno dei più preziosi resti delle originarie faggete e faggete-abetaie della Slovacchia. La protezione fu istituita nel 1913 e l’attuale riserva naturale nazionale copre 30,03 ettari nel territorio di Badín. Protegge un ecosistema forestale primordiale e ospita specie legate ai boschi antichi, tra cui la lince, il tritone dei Carpazi e il cerambice delle Alpi. Per tutelarne i processi naturali, la riserva non è liberamente accessibile: l’ingresso è consentito solo durante escursioni specialistiche con guide autorizzate."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chiesa di Santa Caterina – edificio medievale dietro una cinta difensiva",
+          "text": "La chiesa di Santa Caterina d’Alessandria sorge in posizione elevata nel centro storico. Le ricerche archeologiche hanno individuato le fondamenta di una chiesa precedente, probabilmente romanica, forse del XIII secolo; la datazione anteriore al 1250 resta un’ipotesi. L’edificio successivo fu costruito alla fine del XIV secolo. Il comune lo data al 1397 e indica modifiche nel 1765 e nel 1893–1894. Nel XVII secolo il complesso fu protetto da un muro difensivo con feritoie, datato al 1636. Chiesa e fortificazione sono iscritte nel registro centrale dei monumenti slovacchi."
+        },
+        {
+          "id": "fact_003",
+          "title": "Bacino carbonifero di Badín – prime attività industriali di estrazione della lignite",
+          "text": "Il giacimento fu segnalato già nel 1766; le ricerche sistematiche iniziarono nel 1833 con il professor Alojz Wehrle. Friedrich Mohs esaminò il sito nel 1835; nel 1837 fu scavata una galleria di circa 120 metri e iniziarono i primi tentativi di estrazione. Dopo il 1872 la società Union di Zvolen si interessò al giacimento e avviò l’estrazione sistematica nel 1873. Il carbone riforniva impianti industriali di Banská Bystrica e Harmanec. I documenti comunali collocano la chiusura delle miniere all’inizio degli anni Venti del Novecento."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – pastore evangelico, protagonista del risveglio nazionale e raccoglitore di canti",
+          "text": "August Horislav Krčméry (1822–1891) fu una figura importante del risveglio nazionale slovacco e della cultura musicale. Nato a Horná Mičiná, fu pastore a Badín dal 1874 al 1891, dove morì il 9 marzo 1891 e fu sepolto. Pubblicò testi educativi, religiosi ed etnografici, raccolse canti popolari e diresse Hlahol, supplemento musicale della rivista Sokol. Collaborò allo Slovenský spoločenský spevník e alla raccolta Slovenské spevy. È nota la sua canzone Hojže Bože su testo di Andrej Sládkovič. A Badín lo ricordano una targa sulla canonica evangelica e la sua tomba."
+        },
+        {
+          "id": "fact_005",
+          "title": "Seminario di San Francesco Saverio – rinascita della formazione sacerdotale diocesana",
+          "text": "Il seminario di Badín prosegue la tradizione della formazione sacerdotale per la diocesi di Banská Bystrica; il seminario originario fu chiuso dal regime comunista nel 1950. Dopo il ripristino nel 1990, si decise di costruire un nuovo complesso nell’antico giardino parrocchiale. La prima pietra fu benedetta il 1º maggio 1991 e l’edificio consacrato il 4 ottobre 1993 per circa 80 seminaristi. Papa Giovanni Paolo II visitò il seminario il 12 settembre 2003, incontrò seminaristi, diaconi e insegnanti e benedisse il mosaico dell’altare. Il seminario divenne un importante centro di formazione teologica nella Slovacchia centrale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Tracce archeologiche di Badín e sviluppo medievale dell’insediamento",
+          "text": "Badín è documentata dal 1232 con la forma Badun; in seguito compaiono Badyn e Bagyon. Nel XIII secolo vi abitavano guardaboschi reali che sorvegliavano una parte della foresta reale di Zvolen. I siti archeologici mostrano diverse fasi: Pod Hrádkom conserva tracce dell’età del bronzo recente e di un abitato dei secoli IX–X; Hrádok fu un insediamento dei secoli XII–XIII; Čierne blato era un insediamento slavo. Il centro del villaggio è documentato almeno dal 1282. In età moderna Badín apparteneva al dominio del castello di Zvolen e pagava tributi agli ottomani dal 1580 al 1657; nel 1599 fu attaccata da truppe ausiliarie tatare."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Badín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Badínsky prales – beschermd overblijfsel van het oorspronkelijke Karpatenbos",
+          "text": "Badínsky prales, op de oostelijke hellingen van het Kremnica-gebergte, is een van de waardevolste resten van oorspronkelijke beuken- en beuken-dennenbossen in Slowakije. De bescherming werd in 1913 ingesteld en het huidige nationale natuurreservaat beslaat 30,03 hectare in Badín. Het beschermt een oerbos-ecosysteem en biedt leefgebied aan soorten van oude bossen, waaronder de lynx, de Karpatische watersalamander en de Alpenboktor. Om de natuurlijke processen te beschermen is het gebied niet vrij toegankelijk; bezoek is alleen mogelijk tijdens gespecialiseerde excursies met bevoegde gidsen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Sint-Catharinakerk – middeleeuwse kerk achter een verdedigingsmuur",
+          "text": "De rooms-katholieke kerk van de heilige Catharina van Alexandrië staat op een verhoging in het historische centrum. Archeologisch onderzoek vond fundamenten van een oudere, waarschijnlijk romaanse kerk die mogelijk uit de 13e eeuw stamt; een datering vóór 1250 blijft een hypothese. De latere kerk werd aan het einde van de 14e eeuw gebouwd. De gemeente dateert haar op 1397 en vermeldt verbouwingen in 1765 en 1893–1894. In de 17e eeuw werd het complex beschermd door een verdedigingsmuur met schietgaten, gedateerd op 1636. Kerk en vestingmuur staan in het centrale monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_003",
+          "title": "Steenkoolbekken van Badín – vroege industriële bruinkoolwinning",
+          "text": "De aanwezigheid van de afzetting werd al in 1766 gemeld; systematisch onderzoek begon in 1833 onder professor Alojz Wehrle. Friedrich Mohs onderzocht het gebied in 1835; in 1837 werd een ongeveer 120 meter lange mijngang aangelegd en begonnen de eerste winningspogingen. Na 1872 kreeg de Zvolense onderneming Union belangstelling en begon in 1873 met systematische winning. De steenkool leverde onder meer fabrieken in Banská Bystrica en Harmanec. Volgens de gemeentelijke historische gegevens sloten de mijnen aan het begin van de jaren twintig van de 20e eeuw."
+        },
+        {
+          "id": "fact_004",
+          "title": "August Horislav Krčméry – evangelisch predikant, nationale emancipator en verzamelaar van volksliederen",
+          "text": "August Horislav Krčméry (1822–1891) was een belangrijke figuur in de Slowaakse nationale heropleving en muziekcultuur. Hij werd geboren in Horná Mičiná en was van 1874 tot 1891 predikant in Badín, waar hij op 9 maart 1891 overleed en werd begraven. Hij publiceerde educatieve, religieuze en etnografische teksten, verzamelde volksliederen en redigeerde Hlahol, de muzikale bijlage van Sokol. Hij werkte mee aan de Slovenský spoločenský spevník en de bundel Slovenské spevy. Bekend is zijn lied Hojže Bože op tekst van Andrej Sládkovič. Een gedenkplaat op de evangelische pastorie en zijn graf herinneren in Badín aan hem."
+        },
+        {
+          "id": "fact_005",
+          "title": "Seminarie van Sint-Franciscus Xaverius – herstel van de diocesane priesteropleiding",
+          "text": "Het seminarie in Badín zet de traditie van priesteropleiding voor het bisdom Banská Bystrica voort; het oorspronkelijke seminarie werd in 1950 door het communistische regime gesloten. Na het herstel in 1990 werd een nieuw complex gepland op de voormalige pastorietuin. De eerste steen werd op 1 mei 1991 gezegend en het gebouw werd op 4 oktober 1993 ingewijd voor ongeveer 80 seminaristen. Paus Johannes Paulus II bezocht het seminarie op 12 september 2003, ontmoette seminaristen, diakens en docenten en zegende het altaarmozaïek. Het werd een belangrijk centrum voor theologische opleiding in Midden-Slowakije."
+        },
+        {
+          "id": "fact_006",
+          "title": "Archeologische sporen van Badín en de middeleeuwse ontwikkeling van de nederzetting",
+          "text": "Badín wordt sinds 1232 schriftelijk vermeld als Badun; latere documenten gebruiken Badyn en Bagyon. In de 13e eeuw woonden hier koninklijke boswachters die een deel van het koninklijke woud van Zvolen bewaakten. Archeologische vindplaatsen tonen verschillende bewoningslagen: Pod Hrádkom bevat sporen uit de late bronstijd en een nederzetting uit de 9e–10e eeuw; Hrádok was een nederzetting in de 12e–13e eeuw; en Čierne blato was een Slavische nederzetting. Het dorpscentrum is uiterlijk sinds 1282 gedocumenteerd. In de vroegmoderne tijd behoorde Badín tot het domein van kasteel Zvolen en betaalde het van 1580 tot 1657 tribuut aan de Ottomanen; in 1599 werd het aangevallen door Tataarse hulptroepen."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
