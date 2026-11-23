@@ -191,7 +191,10 @@ Technický nález je uzavřen. Žádné změny schématu ani migrace databázov�
 - `CZ_AUDIT_39301-39601_restore.sql`: 1 628 443 B; SHA-256 `41dcb373c730ffe448d4ee0dd985fe33507175efc6d7b4d9fb6f941dac4b783c`.
 - `manifest.json`: 2 762 B; SHA-256 `2e8a3ae2870c5097d9c0861c8ec82feb4c9f197a3a0c19d481876a4b2ff80ea7`; `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=39`.
 - Metadata note: v textových polích `backup_id` a `wave_id` manifestu je drobná mezera navíc v označení `PELH RIMOVSKO`; přesný rozsah, seznam 39 záznamů, data, soubory i jejich kontrolní SHA-256 jsou správné. Nejde o chybu obsahu ani obnovovacího SQL.
-- Neon: NEČTEN, NEZAPISOVÁN.
+- Neon Europe Explorer / Production / `neondb.public.czechia_cap_records`: **RESTORE VERIFIED** — 39/39 řádků vloženo v pěti malých dávkách, výhradně `INSERT ... ON CONFLICT DO NOTHING`; 0 přepisů a 0 mazání. Zdrojová ID 9393–9431 zachována; před importem nebyly nalezeny žádné kolize PSČ ani zdrojových ID.
+- Neon read-back: 39/39 PSČ, 39/39 `published` + `content_version=5`, 229/229 faktů a 229/229 překladů v každém ze sedmi jazyků; 39/39 `record.postcode` odpovídá klíči. Hluboké porovnání všech 39 JSONB záznamů proti Dropbox JSON: 0 rozdílů.
+- Návratová větev Neonu: `pre-pelhrimovsko-39301-39601-import-20261123` (vytvořena před importem a ponechána zachována).
+- Dropbox: původní záloha zůstala beze změny a je nadále VERIFIED.
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
