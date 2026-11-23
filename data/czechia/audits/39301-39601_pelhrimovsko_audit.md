@@ -149,4 +149,4 @@ Strukturální kontrola všech sedmi jazyků PASS. Úplná individuální séman
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
-**Další krok:** dokončit geografické posouzení zbývajících 15 poloh a individuální sémantickou kontrolu původních překladů. Teprve poté lze výsledek změnit na PASS.
+**Další krok:** dokončit geografické posouzení zbývajících 13 poloh a individuální sémantickou kontrolu původních překladů. Teprve poté lze výsledek změnit na PASS.
