@@ -234,3 +234,20 @@ Zdroje: https://www.karlovyvary.cz/cs/historie-karlovych-varu ; https://www.karl
 Předchozí úplné průchody z dřívějších etap zůstávají v platnosti: 36272, 36273, 36301, 36401, 36453 a 36464. Již dříve provedené dílčí opravy v dalších PSČ se nepovažují za úplný průchod.
 
 **Aktuální souhrn úplných jazykových průchodů:** 14 z 27 PSČ (8 nově dokončených + 6 dříve dokončených). Zbývá 13 PSČ k úplné sémantické kontrole; 36221 je rozpracované a nesmí se započítat jako hotové. Celkový stav bloku zůstává **REVIEW REQUIRED**. Žádné změny `data_version`, `status`, schématu, zdrojů, ID faktů ani mapových poloh nebyly v této etapě provedeny.
+
+
+### Jazyková revize — checkpoint 23. 11. 2026, pokračování
+
+Dokončeny další úplné sémantické průchody českého masteru proti DE/EN/ES/FR/IT/NL:
+- **36221** — celý záznam, včetně faktu o Ignáci Sichelbarthovi a jeho působení v Číně.
+- **36222** — 1 fakt.
+- **36225** — 15 faktů.
+- **36233** — 5 faktů.
+- **36234** — 7 faktů.
+- **36235** — 21 faktů (ověřen skutečný seznam ID; číselné mezery v ID jsou historické a nebyly chybně považovány za chybějící překlady).
+
+V těchto pěti nově uzavřených průchodech nebyla nalezena významová chyba vyžadující zásah; překlady zachovávají hlavní historické, geografické a osobnostní informace. U 36235 byly zvlášť porovnány i dlouhé pasáže o uranovém hornictví, důlní krajině, UNESCO a poválečných událostech. Bez potvrzeného problému nebyl text měněn.
+
+**Aktuální souhrn úplných jazykových průchodů: 20 z 27 PSČ.** Kompletně uzavřené: 36001, 36004, 36005, 36006, 36007, 36010, 36017, 36018, 36221, 36222, 36225, 36233, 36234, 36235, 36272, 36273, 36301, 36401, 36453, 36464. Zbývá sedm úplných průchodů: **36236, 36251, 36262, 36263, 36452, 36461 a 36471**.
+
+Celkový audit zůstává **REVIEW REQUIRED**, dokud nebude dokončena sémantická kontrola těchto sedmi PSČ. Změny se týkaly pouze překladových textů uvedených v předchozím checkpointu; nedošlo ke změně master faktů, ID, souřadnic, zdrojů, verze dat ani statusů.
