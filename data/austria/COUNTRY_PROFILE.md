@@ -31,16 +31,19 @@ Do not assume every geographic PLZ has an official polygon. Where sources establ
 
 Austrian Post is the primary postal authority for PLZ existence and postal assignment. Its data must be used within the scope it actually supports; do not claim that a directory entry proves an exact polygon unless the source provides that evidence.
 
-## Administrative field meanings
+## Administrative field meanings — search metadata only
 
-Use the shared flat TRAVEL fields, subject to the final approved schema:
+The schema's administrative fields are secondary indexing metadata. They support search, filtering, grouping and orientation; they do not define the content area, determine fact eligibility or replace PLZ-based geographic assignment.
 
-- `city`: municipality or city geographically associated with the PLZ content area. If multiple municipalities are genuinely included, the final standard must define whether they are listed together or one representative municipality is selected; do not guess.
-- `district`: a relevant documented sub-municipal locality such as a Stadtteil, Ortsteil or Bezirksteil within the selected municipality; otherwise null. It is not a place to list neighbouring municipalities.
-- `county`: the applicable political Bezirk, or the relevant statutory-city administrative situation. Do not confuse political Bezirke with Vienna's municipal districts.
-- `state`: the Bundesland.
+Use the shared flat TRAVEL fields:
+- `city`: one representative municipality associated with the PLZ content area. If a PLZ spans multiple municipalities, choose the most representative municipality for this single field using documented geographic evidence. Do not imply that this one value lists the full PLZ coverage. Other municipalities and localities remain part of the PLZ research scope and must not be discarded from content research.
+- `district`: a relevant documented sub-municipal locality such as Stadtteil, Ortsteil or Bezirksteil within the representative municipality; otherwise null. This is a search refinement, not a content boundary.
+- `county`: the applicable political Bezirk or statutory-city administrative situation for the representative municipality. It is search metadata only. Do not confuse political Bezirke with municipal districts.
+- `state`: the Bundesland containing the representative municipality. It is search metadata only.
 
-Austria's administrative hierarchy and terminology must be verified from Statistik Austria and competent official sources. Vienna requires particular care: its 23 Gemeindebezirke are municipal districts within the statutory city of Vienna, not ordinary political Bezirke. Do not force Vienna's structure into an inaccurate generic hierarchy.
+Do not create facts by district, do not omit a fact because it lies outside the representative municipality when it is geographically assigned to the PLZ, and do not split a PLZ record along municipal, district or state boundaries.
+
+Statistik Austria is the authority for municipality identifiers, official municipality names, political districts, statutory cities, Bundesländer and administrative classifications. Vienna requires particular care: its 23 Gemeindebezirke are municipal districts within the statutory city of Vienna, not ordinary political Bezirke. Use the field meanings permitted by the schema; never force Vienna into an inaccurate generic hierarchy.
 
 Use official German names and diacritics. Where a field's meaning is not applicable, follow the schema's nullability; do not invent a value merely to fill it.
 
@@ -53,20 +56,160 @@ Use official German names and diacritics. Where a field's meaning is not applica
 - Use WGS84 coordinates and the accuracy/type values permitted by the schema.
 - Keep the legacy `access_point` concept separate from both representative and fact locations; follow the approved shared schema and application requirements.
 
-## Source hierarchy — working baseline
+## Official authorities and source hierarchy
 
-Use each authority only for claims it is competent to establish. Research is **online-first**: consult official public registers, search interfaces and published pages directly. Do not build a bulk-download workflow or maintain local national datasets by default. Download an official dataset only if a required relationship cannot be reliably verified online or a reproducible comparison materially requires it. Record the exact source and verification date.
+This section defines which Austrian institution is competent for which kind of evidence. **No single source proves every aspect of a PLZ or a fact.** Use the source that is authoritative for the claim being made, and keep postal, geographic, administrative and editorial evidence separate.
 
-1. **RTR (Rundfunk und Telekom Regulierungs-GmbH)** — official postcode register/listing and its published data, used as an inventory cross-check; do not assume every listed code is geographic.
-2. **Österreichische Post / Austrian Post** — primary postal authority for PLZ existence, postal assignment, delivery-place naming and special postal-code purposes. Use its online Postlexikon and official published information to distinguish geographic from non-geographic codes.
-3. **BEV (Bundesamt für Eich- und Vermessungswesen)** — official address/geospatial reference, address points and geographic relationships where available; do not claim polygon boundaries unless the source actually supplies them.
-4. **Statistik Austria** — official municipalities, political districts, states, municipality identifiers and statistical/administrative classifications.
-4. **Official federal, state, district and municipal sources** — administrative status, local geography, institutions, visitor information and local history.
-5. **Bundesdenkmalamt (BDA)** and competent heritage institutions — monument status and heritage evidence.
-6. **National parks, protected-area administrations, museums, archives, universities and specialist institutions** — subject-specific evidence.
-7. **Reputable academic, regional and established media sources** — discovery and corroboration appropriate to the claim.
+Research is **online-first**. Consult official public registers, search interfaces, official datasets and institutional pages directly. Do not build a bulk-download workflow or maintain local national datasets by default. Download an official dataset only if a required relationship cannot be reliably verified online or a reproducible comparison materially requires it. Record the exact source, release/reference date when supplied, and date checked.
 
-The final standard must specify exact datasets, source hierarchy, conflict handling and coordinate verification. Do not treat a general postcode directory as proof of heritage facts or exact geographic boundaries.
+### A. Postal-code existence, purpose and destination locality
+
+**1. Österreichische Post — primary operational postal source**
+- Postlexikon: https://www.post.at/g/c/postlexikon
+- Use the current PLZ directory, its legend and the PLZ–Bestimmungsort directory linked from the Postlexikon.
+- This is the primary source for current and historical PLZ, postal destination-place naming, correct postal assignment and the postal meaning of a code.
+- Read the legend and any code-purpose/type indicators. Do not classify a code as geographic or non-geographic from its digits, a search snippet, or its presence in a directory alone.
+- A Bestimmungsort (postal destination/delivery place) is not automatically a municipality, settlement boundary or complete geographic PLZ polygon.
+- A post office, branch, company, institution or Postfach address does not prove the full geographic scope of a PLZ.
+
+**2. RTR — statutory published postcode inventory and independent cross-check**
+- Postleitzahlen: https://www.rtr.at/TKP/aktuelles/veroeffentlichungen/veroeffentlichungen/Postleitzahlen.de.html
+- RTR Open Data: https://data.rtr.at/
+- Under § 36 Postmarktgesetz, RTR publishes the postcodes used by the universal service provider. The RTR page says the downloadable Open Data formats include XLSX, CSV, XML and JSON and that the data are updated monthly.
+- Use the current published dataset and its legend as an inventory cross-check, not as proof that every listed code has a geographic territory suitable for TRAVEL.
+- If RTR and Austrian Post differ, record the exact code, fields, release dates and both sources; investigate the difference. Do not silently choose one value or infer geographic eligibility from the RTR list alone.
+
+**Postal eligibility rule:** include only a code for which the official postal evidence and geographic/address evidence together establish a defensible geographic content area. Exclude Postfach-only, company/institution-specific without an independently evidenced territory, branch, sorting/distribution and other operational codes. If purpose or geography remains unclear, leave the code out of the approved inventory and report the unresolved case.
+
+### B. Addresses, coordinates and physical geography
+
+**3. BEV — Bundesamt für Eich- und Vermessungswesen**
+- Address Register: https://www.bev.gv.at/Themen/Adressregister.html
+- Official address search: https://www.adressregister.gv.at/
+- BEV address search information: https://www.bev.gv.at/en/Services/Geoinformation-Services/Adress-search.html
+- The Adressregister is Austria's official address data collection, maintained continuously by municipalities and cities and provided by BEV. It includes official address spelling, stable address codes, building/address relationships and geocoding.
+- Use it to verify real addresses, municipality assignment, PLZ-Gebiet shown for an address, official spelling and coordinate location.
+- Understand the coordinate types: an address coordinate is located on the associated property near its boundary/access area; a Zugangskoordinate represents the actual access; a Gebäudekoordinate is located at the centre of the building. Do not treat these as interchangeable.
+- A BEV address point proves the postal/geographic attributes of that address, not the complete boundary of a PLZ. A collection of addresses can support a geographic analysis but must not be presented as an official polygon unless a competent source actually provides one.
+
+**4. basemap.at and official provincial GIS**
+- basemap.at: https://basemap.at/
+- basemap.at is an official Austrian administrative basemap produced through cooperation between the nine provinces, BEV and other public partners. It is updated regularly and is useful for orientation, place names, roads, buildings and contextual map verification.
+- Use the relevant Bundesland's official GIS/Geodata portal for detailed local layers, where available.
+- A basemap is a cartographic reference and discovery aid, not by itself proof of a PLZ polygon or the legal status of a monument, protected area or administrative unit.
+
+**5. BEV cadastral/topographic products and competent municipal sources**
+- Use BEV cadastral and topographic information when a fact needs parcel, building, terrain or official geographic context.
+- Use the municipality's official GIS, address register or planning/heritage map for local details when it is the competent publisher.
+- Use the official source's stated coordinate reference system and transform coordinates to WGS84 only with a reliable method. The TRAVEL schema stores latitude/longitude; do not copy projected coordinates into those fields.
+
+### C. Administrative metadata — not content boundaries
+
+**6. Statistik Austria**
+- Regional divisions: https://www.statistik.at/services/tools/regionale-internationale-daten/regionale-daten-und-gliederungen/regionale-gliederungen
+- STATatlas: https://www.statistik.at/atlas/
+- Gemeindeverzeichnis, political-district lists and open regional-geography datasets are linked from the regional-divisions page.
+- Use Statistik Austria for official municipality names and identifiers, political Bezirke, statutory cities, Bundesländer, Ortschaften and other published administrative/statistical classifications.
+- Use the current reference date/version. Administrative names and boundaries can change; do not mix releases without recording the reference date.
+- These values populate search/filter metadata only. They do not define the PLZ content layer or the geographic eligibility of facts.
+
+**7. Official municipalities, cities and Bundesländer**
+- Use official municipal and provincial portals for local place names, official local histories, public facilities, local heritage inventories, planning maps and information within their competence.
+- For a PLZ spanning multiple municipalities, consult all relevant municipalities; do not stop after finding the representative municipality stored in `city`.
+- For Vienna, use the City of Vienna and its district-level sources for the 23 Gemeindebezirke. Treat them as sub-municipal search metadata within the statutory city, not as political Bezirke.
+
+### D. Heritage, culture and archaeology
+
+**8. Bundesdenkmalamt (BDA)**
+- Denkmalverzeichnisse: https://www.bda.gv.at/service/unterschutzstellung/denkmalverzeichnis/
+- Denkmalliste: https://www.bda.gv.at/service/unterschutzstellung/denkmalverzeichnis/denkmalliste-gemaess-3-dmsg.html
+- Use the annual lists, available as PDF and CSV by Bundesland, for discovery and verification of listed immovable monuments; use the § 2a protection ordinances and other official BDA records for the relevant legal instrument.
+- Important limitation: BDA explicitly states that the published Denkmalliste is not legally binding. Treat it as an official published inventory, but verify legal protection/status from the relevant ordinance or competent record when the legal status itself matters.
+- The BDA is a strong source for monument protection, conservation, archaeological heritage and specialist heritage information; it is not a complete inventory of every culturally important place.
+
+**9. Österreichische UNESCO-Kommission and UNESCO World Heritage Centre**
+- Austrian UNESCO Commission, World Heritage: https://www.unesco.at/kultur/welterbe
+- Austrian World Heritage list: https://www.unesco.at/kultur/welterbe/die-welterbe-liste
+- UNESCO World Heritage Centre: https://whc.unesco.org/
+- Use these for confirmed World Heritage status, official site names, descriptions, boundaries and statements of Outstanding Universal Value. Distinguish World Heritage from national monument protection and from UNESCO intangible cultural heritage.
+
+**10. Museums, archives, libraries and specialist heritage institutions**
+- Use the official website/catalogue of the museum, archive, library, memorial or collection responsible for the object or subject.
+- Use state, city and municipal archives for local historical records and archival evidence.
+- Use the Österreichisches Staatsarchiv Archivinformationssystem (AIS): https://www.oesta.gv.at/benutzung/Recherche-zu-Hause/recherche/bestande-ais.html
+- Use the Austrian National Library's ANNO historical newspaper collection: https://anno.onb.ac.at/
+- ANNO is a primary-source discovery and research resource, but OCR search results can contain recognition errors and contemporary newspaper reporting may be biased or incomplete. Verify important claims against the scanned page and, where possible, independent archival or scholarly evidence.
+- For local history, identify the competent Landesarchiv, Stadtarchiv or Gemeindearchiv through the Austrian State Archives' archive register: https://www.oesta.gv.at/services/archivregister.html
+
+### E. Nature, landscape and geology
+
+**11. Umweltbundesamt Österreich**
+- Protected areas: https://www.umweltbundesamt.at/umweltthemen/naturschutz/schutzgebiete
+- National parks: https://www.umweltbundesamt.at/umweltthemen/naturschutz/schutzgebiete/nationalparks
+- Use its national overview and linked official GIS/INSPIRE data for protected-area categories, national parks and environmental context.
+- The overview aggregates data from provincial authorities. For exact legal status, designation date, boundaries and management rules, verify with the competent Bundesland authority or protected-area administration.
+
+**12. Provincial nature-conservation authorities and protected-area administrations**
+- Use the responsible Landesregierung, Naturschutzabteilung, Nationalparkverwaltung, Naturparkverwaltung or other competent management body for exact boundaries, conservation objectives, features, visitor access and current management information.
+- A tourism page can help discover a site, but legal designation and protection status should be verified through the competent public authority.
+
+**13. GeoSphere Austria and specialist scientific sources**
+- GeoSphere Austria: https://www.geosphere.at/
+- Use GeoSphere Austria for geology, geomorphology, geohazards, caves/karst where covered, earth-science maps, climate and related scientific evidence.
+- For hydrology, use the competent federal/provincial hydrographic services and official water-management sources.
+- For biodiversity, use the relevant provincial nature-conservation authorities, scientific institutions and protected-area administrations.
+- Do not turn a regional landscape label into a precise natural feature without a source that supports the specific claim.
+
+### F. Tourism, local discoveries, industry and contemporary visitor information
+
+**14. Official tourism organisations**
+- Use Österreich Werbung and the official tourism organisations of the Bundesländer, regions and municipalities for discovery of visitor attractions, routes, events, local narratives and visitor context.
+- Österreich Werbung: https://www.austria.info/
+- Regional tourism portals are discovery and visitor-information sources. Verify historical, scientific, heritage-protection and geographic claims with the competent primary institution wherever possible.
+- Check whether information is current and distinguish permanent places from temporary events or seasonal operations.
+
+**15. Official operators, museums, cultural institutions and site managers**
+- Use the official website of a museum, attraction, transport operator, industrial heritage site, theatre, cultural institution or site manager for its own history, collection, opening status, visitor access and services.
+- An operator is a primary source for its own current operation and visitor information, but not automatically an independent authority for contested historical, scientific or legal claims.
+
+**16. Industry, technology, transport and company history**
+- Prefer company archives, official industrial museums, municipal/state archives, technical museums, universities, specialist associations and contemporary primary documents.
+- Company history pages may establish the company's own account and dates but should be corroborated for major historical claims, social impact, technical priority or disputed events.
+- For railway and transport infrastructure, use the responsible infrastructure operator, public transport authority, transport museum, municipal/provincial authority and archival sources according to the claim.
+
+**17. Academic, regional and established media sources**
+- Use universities, peer-reviewed publications, scholarly books, specialist journals, regional museums, reputable historical societies and established journalism to add context, discover lesser-known stories and corroborate claims.
+- These sources are valuable, but do not replace an available primary authority for official postal, cadastral, administrative or legal-protection status.
+- Community platforms, user-generated maps and social media may generate leads only; they are not sufficient evidence for important facts or precise location claims.
+
+### G. Source selection by claim
+
+For every claim, ask which institution is competent to establish it:
+- PLZ exists/current/historical postal purpose → Austrian Post; RTR as statutory published cross-check.
+- PLZ attached to a real address and its postal area attribute → BEV Adressregister, checked against Austrian Post postal data.
+- Municipality, political Bezirk, statutory city, Bundesland and official identifiers → Statistik Austria; competent municipality/province for local details.
+- Exact address, access and building coordinates → BEV Adressregister and competent official geodata.
+- Map orientation, roads, buildings and general topography → basemap.at, BEV and official provincial GIS.
+- Monument inventory and protection → BDA; legal protection instrument checked against the relevant ordinance/record.
+- UNESCO World Heritage status → UNESCO World Heritage Centre and Austrian UNESCO Commission.
+- Protected area status and boundaries → competent provincial authority/protected-area administration, supported by Umweltbundesamt/INSPIRE overviews.
+- Geology and earth science → GeoSphere Austria and relevant research institutions.
+- Historical event, person or local narrative → archives, original documents, museum collections, specialist scholarship and ANNO as a discovery/source repository.
+- Current visitor access, opening and operation → official site manager/operator or official tourism authority.
+- Industry and technology history → company/archive primary records, technical museums, universities and specialist sources.
+
+### H. Conflicts, evidence and citation practice
+
+1. Do not rank sources globally. Rank them by competence for the exact claim.
+2. Record both conflicting values and their source dates when Austrian Post, RTR, BEV, Statistik Austria or local authorities disagree.
+3. Do not use a postal destination place as a substitute for a municipality name, and do not use a municipality's postal address as proof of a PLZ boundary.
+4. A single BEV address point is evidence for that address, not for every address or the full extent of the PLZ.
+5. Do not infer a PLZ polygon from address points, a municipal polygon, a postcode centroid, a postal-office location or a third-party map.
+6. If the source does not establish an exact boundary, describe the supported relationship (address, locality, municipality association or representative point) and mark unresolved scope for review.
+7. For each production record, preserve the exact official source URL and source title in the fields permitted by the schema. Fact sources must support the fact; the fact-location source must support the selected point. Do not cite one source for a claim it does not establish.
+8. Record the date checked and the source's release/reference date where available in the relevant verification fields and working audit notes. Never invent a release identifier or date.
+9. When no official source resolves an issue, use credible specialist evidence as a secondary source and explicitly preserve uncertainty. Do not silently convert a secondary interpretation into an official fact.
+10. Keep source material in the language in which it was published where practical; translate the fact for TRAVEL only after the evidence and meaning are established.
 
 ## Shared TRAVEL compatibility
 
