@@ -1,10 +1,12 @@
 # TRAVEL — AUSTRIA PLZ RESEARCH / REWORK PROMPT
 
-## Status and authority
+## Authority, completeness and operating contract
 
-**Status: Complete and approved operational instruction.** This prompt is part of the established Austrian TRAVEL workflow and is used together with `schema.json`, `COUNTRY_PROFILE.md` and `CONTENT_STANDARD.md`. The shared TRAVEL record structure and Austrian four-digit PLZ format are settled. The geographic-only PLZ inventory and work order are maintained in `sequence.json`.
+This is the complete, approved Austrian research and rework instruction. It defines the final production requirements and is used together with `schema.json`, `COUNTRY_PROFILE.md` and `CONTENT_STANDARD.md`. The shared TRAVEL record structure, Austrian four-digit PLZ format, geographic eligibility rules, source hierarchy, research depth, editorial requirements, translations and location rules are settled and apply immediately.
 
-**Established data workflow:** prepare the inventory and JSON working files on GitHub; perform the full rework and then the separate final audit against the GitHub working records; after successful audit prepare the V5 version and mark the approved records `published` on GitHub; only then copy the published GitHub records to Neon. GitHub is the authoritative working and publication source for this process; Neon receives the published copy and is not an alternative editing source.
+**Final-state rule:** every project specification must describe the finished system and the complete standard that applies now. Do not introduce preparation-only standards, provisional requirements, future additions, placeholders or wording that postpones a defined requirement. If a required project document or production structure is incomplete or conflicts with this contract, correct that source document first and then continue the actual work against the complete standard. Do not stop content work merely because an unrelated preparatory artifact is missing when the required facts can be responsibly verified from authoritative sources.
+
+**Data lifecycle:** the canonical geographic inventory and work order are defined by `sequence.json`. Each record is fully researched and reworked on GitHub, then receives a separate final audit. Records that pass audit are prepared as V5, approved and marked `published` on GitHub. Only published GitHub records are copied to Neon. GitHub is the authoritative working and publication source; Neon is the published copy, not an alternative editing source. These lifecycle gates govern record status; they do not make the specification, schema or standard provisional.
 
 ## Required inputs
 
@@ -12,7 +14,7 @@ Before processing any Austrian PLZ:
 1. Read `data/austria/schema.json`.
 2. Read `data/austria/COUNTRY_PROFILE.md`.
 3. Read `data/austria/CONTENT_STANDARD.md`.
-4. Read the approved Austrian inventory/sequence and any existing record or progress ledger.
+4. Read the canonical Austrian inventory/sequence and the existing record for the requested PLZ, if present. Treat the sequence as the complete production scope, not as a preparation task.
 5. Confirm the exact PLZ scope assigned by the user.
 
 ## Geographic unit and eligibility gate
@@ -41,8 +43,8 @@ Research the full defensible area associated with the selected PLZ. If the code 
 11. Write concise but substantive Czech source-language facts and complete all seven required translations.
 12. Build the complete JSON using only approved schema fields and controlled values.
 13. Validate the entire JSON against the approved schema and all Content Standard requirements.
-14. Save the prepared/reworked JSON working record to the appropriate GitHub working location, preserving the agreed file naming, sequence and version conventions. Do not copy it to Neon during rework.
-15. The rework stage does not itself mark a record `published`. Publication follows only after the separate final audit and V5 preparation.
+14. Save the complete reworked JSON record to its canonical GitHub working location, preserving the established file naming, sequence and version conventions. Do not create placeholder records or save a partial record as if it were complete.
+15. Rework completion and publication are distinct lifecycle states. Do not mark a record `published` during rework; publication follows only after the separate final audit, V5 preparation and approval.
 
 ## Austrian authority routing — mandatory
 
