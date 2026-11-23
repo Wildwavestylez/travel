@@ -793,3 +793,16 @@ Soukromé vlastnictví, uzavřený areál ani nepřístupnost veřejnosti nejsou
 
 Rozhodovací otázka zní: **Je to skutečně zajímavé, významné a doložitelné místo nebo příběh, který chceme mít na mapě?** Nikoli: „Je tam otevřeno a pustí nás dovnitř?“
 
+## 38. Rakouský produkční lifecycle a úložiště
+
+Technické schéma Rakouska sdílí strukturu TRAVEL, avšak autoritativní produkční úložiště, zálohování, lifecycle stavů a publikační workflow musí být výslovně schváleny a zdokumentovány.
+
+Dokud toto rozhodnutí není dokončeno:
+- nevytvářej ani neukládej rakouské produkční PSČ záznamy;
+- nezapisuj rakouské produkční záznamy do Supabase, Neon, GitHub JSON souborů ani jiné databáze;
+- nevytvářej produkční sequence ani neoznačuj záznamy jako placeholder, validated nebo published;
+- používej GitHub pouze pro dokumentaci rakouského pracovního prostoru a schválené plánování inventáře.
+
+Před zahájením produkce musí být určeno a zdokumentováno autoritativní úložiště, přístupová a zápisová oprávnění, lifecycle stavů, auditní brána, zálohy, oddělení čtení a zápisu a způsob publikace do Europe Exploreru.
+
+Společná pravidla TRAVEL pro kvalitu obsahu a datovou strukturu tím nejsou dotčena. Rozhodnutí o rakouském úložišti je samostatná provozní otázka a nesmí se odvozovat z českého nebo jiného národního workflow.
