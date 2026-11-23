@@ -17,7 +17,9 @@ The Austrian production/indexing unit is one complete four-digit Postleitzahl (P
 - One PLZ may relate to one locality, several localities, or part of a larger city. Establish the actual geographic relationship using competent postal and geographic evidence.
 - Do not assume that every address or every building has a distinct project record. The project deliberately works at the four-digit PLZ level.
 
-The inventory must distinguish ordinary geographic PLZ from special-purpose or non-geographic codes where the evidence and project scope require it. Do not silently infer the status of a code from its shape alone.
+**Project scope is geographic PLZ only.** Include a PLZ only when reliable evidence establishes its own geographic delivery territory or geographic area that can be researched as a place. Exclude PO-box/Postfach-only codes, company- or institution-specific codes without their own territory, post-office/branch codes, sorting or distribution-centre codes, and other purely operational/non-geographic codes. Do not treat an ordinary geographic PLZ as a company code merely because businesses use it. Never classify a code from its numeric pattern alone.
+
+Do not assume every geographic PLZ has an official polygon. Where sources establish only address points, localities or municipality relationships, record exactly that level of evidence. Do not fabricate borders or expand a PLZ to an entire municipality without proof.
 
 ## Postal representation
 
@@ -53,11 +55,12 @@ Use official German names and diacritics. Where a field's meaning is not applica
 
 ## Source hierarchy — working baseline
 
-Use each authority only for claims it is competent to establish:
+Use each authority only for claims it is competent to establish. Research is **online-first**: consult official public registers, search interfaces and published pages directly. Do not build a bulk-download workflow or maintain local national datasets by default. Download an official dataset only if a required relationship cannot be reliably verified online or a reproducible comparison materially requires it. Record the exact source and verification date.
 
-1. **Österreichische Post / Austrian Post** — PLZ existence, postal assignment and postal product definitions.
-2. **Statistik Austria** — official municipalities, political districts, states, municipality identifiers and statistical/administrative classifications.
-3. **BEV (Bundesamt für Eich- und Vermessungswesen)** — official geospatial reference, address/geographic information and mapping where available.
+1. **RTR (Rundfunk und Telekom Regulierungs-GmbH)** — official postcode register/listing and its published data, used as an inventory cross-check; do not assume every listed code is geographic.
+2. **Österreichische Post / Austrian Post** — primary postal authority for PLZ existence, postal assignment, delivery-place naming and special postal-code purposes. Use its online Postlexikon and official published information to distinguish geographic from non-geographic codes.
+3. **BEV (Bundesamt für Eich- und Vermessungswesen)** — official address/geospatial reference, address points and geographic relationships where available; do not claim polygon boundaries unless the source actually supplies them.
+4. **Statistik Austria** — official municipalities, political districts, states, municipality identifiers and statistical/administrative classifications.
 4. **Official federal, state, district and municipal sources** — administrative status, local geography, institutions, visitor information and local history.
 5. **Bundesdenkmalamt (BDA)** and competent heritage institutions — monument status and heritage evidence.
 6. **National parks, protected-area administrations, museums, archives, universities and specialist institutions** — subject-specific evidence.
@@ -71,7 +74,7 @@ The Austrian technical record should remain compatible with the shared TRAVEL / 
 
 ## Decisions still required
 
-- Approved Austrian PLZ inventory and exclusions.
+- Complete, source-verified inventory of geographic-only Austrian PLZ and explicit exclusion log.
 - Exact policy for PLZ spanning multiple municipalities.
 - Final administrative mapping, especially statutory cities and Vienna.
 - Whether the existing shared schema can be used unchanged apart from the four-digit PLZ pattern and country descriptions.
