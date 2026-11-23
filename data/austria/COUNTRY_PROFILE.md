@@ -31,21 +31,23 @@ Do not assume every geographic PLZ has an official polygon. Where sources establ
 
 Austrian Post is the primary postal authority for PLZ existence and postal assignment. Its data must be used within the scope it actually supports; do not claim that a directory entry proves an exact polygon unless the source provides that evidence.
 
-## Administrative field meanings — search metadata only
+## Administrative field meanings — postal-office municipality in the header
 
-The schema's administrative fields are secondary indexing metadata. They support search, filtering, grouping and orientation; they do not define the content area, determine fact eligibility or replace PLZ-based geographic assignment.
+The administrative fields are secondary indexing metadata. They support search, filtering, grouping and orientation; they do not define the full geographic content area or limit fact eligibility.
+
+**For each geographic PLZ, `city` identifies exactly one municipality: the political Gemeinde in which the specific post office / postal service location assigned to that PLZ is physically situated (the relevant historical Leitort / Postamt).** Do not choose the largest municipality, the most representative settlement or a municipality merely because its name appears as the Bestimmungsort.
 
 Use the shared flat TRAVEL fields:
-- `city`: one representative municipality associated with the PLZ content area. If a PLZ spans multiple municipalities, choose the most representative municipality for this single field using documented geographic evidence. Do not imply that this one value lists the full PLZ coverage. Other municipalities and localities remain part of the PLZ research scope and must not be discarded from content research.
-- `district`: a relevant documented sub-municipal locality such as Stadtteil, Ortsteil or Bezirksteil within the representative municipality; otherwise null. This is a search refinement, not a content boundary.
-- `county`: the applicable political Bezirk or statutory-city administrative situation for the representative municipality. It is search metadata only. Do not confuse political Bezirke with municipal districts.
-- `state`: the Bundesland containing the representative municipality. It is search metadata only.
+- `city`: official name of the one political municipality containing the physically located postal facility assigned to the PLZ. Verify the assignment from Austrian Post postal-code information and the facility's physical address from the official Filialfinder or another official Austrian Post source. Verify the municipality from BEV Adressregister / Statistik Austria.
+- `district`: a documented Stadtteil, Ortsteil or Bezirksteil within that same municipality where the assigned postal facility is physically located; otherwise null.
+- `county`: the political Bezirk or applicable statutory-city status of the municipality containing that postal facility.
+- `state`: the Bundesland containing that municipality.
 
-Do not create facts by district, do not omit a fact because it lies outside the representative municipality when it is geographically assigned to the PLZ, and do not split a PLZ record along municipal, district or state boundaries.
+**Bestimmungsort is a postal addressing designation, not automatically a political municipality and not proof of the physical location of the assigned post office.** Never copy it mechanically into `city`. Do not confuse a Postfiliale/Postpartner address with a Postfach-only code, sorting centre, distribution centre or Zustellbasis; verify which physical postal facility is actually associated with the geographic PLZ. If the responsible facility cannot be uniquely established from reliable official evidence, do not guess a municipality; flag the header field for resolution.
 
-Statistik Austria is the authority for municipality identifiers, official municipality names, political districts, statutory cities, Bundesländer and administrative classifications. Vienna requires particular care: its 23 Gemeindebezirke are municipal districts within the statutory city of Vienna, not ordinary political Bezirke. Use the field meanings permitted by the schema; never force Vienna into an inaccurate generic hierarchy.
+The one-municipality header rule does not narrow the content scope. Research the complete defensible geographic area associated with the PLZ and include relevant stories and map locations from all associated settlements and municipalities. Do not omit a place because it lies outside the municipality named in `city`; do not list all those municipalities in the header. The representative place and representative point remain separate orientation anchors for the whole PLZ and are not automatically the post office.
 
-Use official German names and diacritics. Where a field's meaning is not applicable, follow the schema's nullability; do not invent a value merely to fill it.
+Statistik Austria is the authority for municipality identifiers, official municipality names, political districts, statutory cities, Bundesländer and administrative classifications. Vienna requires particular care: its 23 Gemeindebezirke are municipal districts within the statutory city of Vienna, not ordinary political Bezirke. Use official German names and diacritics. Where a field's meaning is not applicable, follow the schema's nullability; do not invent a value merely to fill it.
 
 ## Representative geography and fact locations
 
