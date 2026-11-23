@@ -41,11 +41,30 @@ Research the full defensible area associated with the selected PLZ. If the code 
 13. Validate the entire JSON against the approved schema and all Content Standard requirements.
 14. Save only through the approved canonical storage workflow once that workflow is documented.
 
+## Austrian authority routing — mandatory
+
+Before researching a PLZ, use the complete source catalogue in `data/austria/COUNTRY_PROFILE.md`, section "Official authorities and source hierarchy". Select sources by the claim being verified; do not treat a general search result or a single authority as proof of every field.
+
+Minimum source routing:
+- PLZ existence, postal destination and postal purpose: Österreichische Post Postlexikon, its current PLZ directory and legend; cross-check the inventory with RTR's current monthly Open Data publication.
+- Geographic address/PLZ relationship and coordinates: BEV Adressregister / official address search. Do not infer a polygon from address points.
+- Municipality, political Bezirk, statutory city, Bundesland and identifiers: Statistik Austria current regional divisions and Gemeindeverzeichnis. These are search metadata only and do not determine the content boundary.
+- Local geographic context: basemap.at, BEV and the relevant official provincial/municipal GIS.
+- Monuments: Bundesdenkmalamt lists and applicable legal instruments; remember that the published Denkmalliste itself is not legally binding.
+- UNESCO: Österreichische UNESCO-Kommission and UNESCO World Heritage Centre.
+- Protected nature: Umweltbundesamt overview plus the competent provincial authority or protected-area administration for exact boundaries/status.
+- Geology: GeoSphere Austria.
+- History: Österreichisches Staatsarchiv, relevant Landes-/Stadt-/Gemeindearchiv, Österreichische Nationalbibliothek ANNO, museums and specialist literature.
+- Visitor operation/access: official site operator or responsible institution; tourism portals are discovery aids, not substitutes for legal, historical or scientific evidence.
+
+If the official sources disagree, record both values and their reference dates and resolve the exact issue. Never silently choose a convenient value. A postal Bestimmungsort is not automatically a municipality; a postal code listing does not prove geographic eligibility; a BEV address point does not prove a PLZ polygon.
+
 ## Source access policy
 
 - Work online-first using official public registers, search interfaces and institutional sources.
 - Do not build a bulk-download workflow or maintain local copies of national datasets by default.
-- Use an official downloadable dataset only when a necessary fact or relationship cannot be reliably verified online, or a reproducible comparison genuinely requires it; document the publisher, dataset/version and access date.
+- Use an official downloadable dataset only when a necessary fact or relationship cannot be reliably verified online, or a reproducible comparison genuinely requires it; document the publisher, dataset/version or reference date and access date.
+- Keep evidence for factual claims separate from evidence for map coordinates. Use the source fields defined by the schema for each role.
 
 ## Non-negotiable rules
 
