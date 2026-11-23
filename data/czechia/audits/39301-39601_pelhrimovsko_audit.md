@@ -60,11 +60,11 @@ Zdroje k doplnění:
 - Nové dva fakty v 39301 mají 7/7 jazykových verzí a read-back PASS.
 
 ### Geografické polohy
-Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností:
+Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (při počátečním průchodu):
 - 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
 - 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
 
-Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh zůstává 19; níže jsou ponechány pouze tam, kde nebyl bezpečně doložen jediný konkrétní bod, nebo se fakt vztahuje k více místům či širšímu území.
+Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 15 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
 
 ## 4. Mechanické kontroly
 
@@ -113,25 +113,27 @@ Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Ryná
 
 ### 5.2 Zbývající location=null
 
-Zůstává 19 případů:
+Při geografickém pokračování byly doplněny čtyři obhajitelné orientační polohy a všechny byly načteny zpět:
+- 39411/fact_003 — pomník obětem obou světových válek v jižní ohradní zdi hřbitova v Cetorazi; poloha areálu hřbitova, 49.455397, 14.956683; `area_representative`.
+- 39412/fact_003 — pomník obětem první světové války u obecního hřbitova v Obratani; orientační poloha hřbitova, 49.4262306, 14.9372444; `approximate`.
+- 39428/fact_002 — kaple sv. Jana Křtitele na Stražišti; 49.53393, 15.00044; `approximate`.
+- 39428/fact_004 — parčík pod kostelem sv. Jana Křtitele ve Velké Chyšce, kde stojí socha sv. Jana Nepomuckého; orientační bod, 49.5116583, 15.0375139; `approximate`.
+
+Zůstává 15 případů:
 - 39403/fact_001 — historický vývoj města bez jediného objektu.
-- 39404/fact_004 — kolomazný kámen; přesný bod nebyl v dostupných zdrojích spolehlivě určen.
-- 39404/fact_005 — osobnost Viléma Pospíšila bez bezpečně doloženého konkrétního místního bodu.
+- 39404/fact_004 — kolomazný kámen; konkrétní poloha u úřadu městyse je popsána, ale nebyly ověřeny souřadnice úřadu/kamene.
+- 39404/fact_005 — osobnost Viléma Pospíšila; rodný dům/vila existují v příběhu, ale bezpečný konkrétní bod zatím nebyl ověřen.
 - 39404/fact_006 — polní opevnění V Šancích; doložena širší lokalita, nikoli bezpečný bod.
 - 39404/fact_007 — osud rodin Ančerlových a Stettnerových; konkrétní místo události není doloženo.
-- 39411/fact_003 — pomník na hřbitově; přesný bod nebyl bezpečně doložen.
-- 39412/fact_003 — pomník u hřbitova; bez ověřeného bodu.
 - 39412/fact_004 — více paměťových míst kolem kostela, nikoli jeden objekt.
 - 39412/fact_005 — dvě usedlosti lidové architektury, tedy více míst.
-- 39426/fact_005 — archeologická lokalita zaniklých Brankovic/dehtářů bez bezpečného bodu.
-- 39428/fact_002 — poutní lokalita Stražiště; přesný bod nebyl ověřen.
-- 39428/fact_004 — socha na návsi; přesný bod nebyl ověřen.
+- 39426/fact_005 — archeologická lokalita zaniklých Brankovic/dehtářů; lokalizace v nivě Lukaveckého potoka východně od Dřevozpracujícího družstva je známa, ale přesný bod výzkumu nebyl ověřen.
 - 39428/fact_006 — historie dobrovolných hasičů, nikoli jedno konkrétní místo.
 - 39428/fact_007 — více drobných sakrálních objektů.
 - 39451/fact_003 — zaniklé panské sídlo a lihovar bez bezpečně určené polohy.
 - 39452/fact_001 — historický vývoj obce bez jediného objektu.
 - 39459/fact_001 — historický vývoj obce bez jediného objektu.
-- 39459/fact_003 — škola; přesný bod nebyl v dostupných podkladech ověřen.
+- 39459/fact_003 — škola v Koberovicích; přesný bod budovy zatím nebyl ověřen.
 - 39462/fact_001 — historický vývoj obce bez jediného objektu.
 
 ### 5.3 Sémantická kontrola překladů
@@ -147,4 +149,4 @@ Strukturální kontrola všech sedmi jazyků PASS. Úplná individuální séman
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
-**Další krok:** rozšířit 16 krátkých českých master textů pouze ověřenými informacemi, doplnit odpovídající překlady, dokončit sémantickou kontrolu existujících překladů a případně znovu posoudit 19 prázdných poloh. Teprve poté lze výsledek změnit na PASS.
+**Další krok:** dokončit geografické posouzení zbývajících 15 poloh a individuální sémantickou kontrolu původních překladů. Teprve poté lze výsledek změnit na PASS.
