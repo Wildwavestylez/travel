@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-MELNICKO-27601-27801`  
 **Datum auditu:** 2026-11-23  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **PASS — audit dokončen; záznamy zůstávají ve stavu `validated`. Bez publikace V5.**
+**Výsledek:** **PASS — audit dokončen; 33/33 PSČ publikováno jako `data_version=5`, `status=published`; Dropbox backup čeká na dedikovanou funkci.**
 
 ## 1. Rozsah a inventář
 
@@ -81,9 +81,10 @@ Existující řádky v `explorer_map_points` jsou v tomto rozsahu pouze u PSČ 2
 
 ## 6. Publikace a životní cyklus
 
-- Žádný záznam nebyl převeden na `data_version=5` ani `status=published`.
+- Na výslovný pokyn uživatele bylo publikováno všech **33/33 PSČ**: `data_version=5`, `status=published`. Read-back potvrdil přesný seznam všech 33 PSČ, 291 faktů a 0 výjimek.
+- Trigger `postal_codes_sync_explorer_map_points` automaticky synchronizoval mapový index: **290/290 faktů s polohou má odpovídající mapový bod**, 0 chybějících a 0 nadbytečných; 1 záměrný null zůstal bez bodu.
+- Dropbox backup zatím nebyl spuštěn. V Supabase Edge Functions není existující dedikovaná funkce pro rozsah 27601–27801 ani odpovídající pracovní vlna v `backup_work_waves`. Funkce `travel-backup-validated` umí cílený JSON export a manifest, ale negeneruje restore SQL; podle závazného postupu ji proto nelze vydávat za kompletní tří-souborovou zálohu.
 - Nebyl proveden import do Neon.
-- Nebyl vytvořen backup snapshot; auditní pravidla tento krok v rámci samotného auditu nepředepisují.
 - Nebyl aktivován read-only lock.
 - `sequence.json` zůstává beze změny.
 - Samostatná validace pomocí AJV nebo `pg_jsonschema` nebyla deklarována. Provedeny byly cílené strukturální a enum kontroly proti `schema.json` a `CONTENT_STANDARD.md`.
