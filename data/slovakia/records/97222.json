@@ -77,15 +77,17 @@
         "https://login.apsida.sk/c/4658/horne-vestenice",
         "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2013_1.pdf",
         "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
-        "https://www.trencinregion.sk/90214/zvysky-renesancnej-kaplnky-zo-16-storocia"
+        "https://www.trencinregion.sk/90214/zvysky-renesancnej-kaplnky-zo-16-storocia",
+        "https://w.apsida.sk/c/4658/horne-vestenice"
       ],
       "location": {
-        "name": "Hôrka – zvyšky starej kaplnky",
+        "name": "Zbytky středověkého kostelíka na Hôrce",
+        "address": "Hôrka, Horné Vestenice, Nitrica, Slovensko",
         "lat": 48.711523252,
         "lon": 18.436552584,
-        "type": "ruin",
+        "type": "archaeological_site",
         "accuracy": "exact",
-        "source": "https://login.apsida.sk/c/4658/horne-vestenice"
+        "source": "https://w.apsida.sk/c/4658/horne-vestenice"
       },
       "map_category": "archaeological_site"
     },
@@ -97,9 +99,18 @@
       "priority": "C",
       "sources": [
         "https://hornevestenice.sk/obec/sucasnost/pamatihodnosti/",
-        "https://hornevestenice.sk/obec/kronika/"
+        "https://hornevestenice.sk/obec/kronika/",
+        "https://www.pamiatkynaslovensku.sk/horne-vestenice-kostol-sv-petra-a-pavla"
       ],
-      "location": null,
+      "location": {
+        "name": "Kostel sv. Petra a Pavla, Horné Vestenice",
+        "address": "Horné Vestenice, Nitrica, Slovensko",
+        "lat": 48.713032,
+        "lon": 18.438396,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/horne-vestenice-kostol-sv-petra-a-pavla"
+      },
       "map_category": "religious_site"
     },
     {
@@ -246,6 +257,16 @@
       "title": "Mapcarta / OpenStreetMap – poloha obce Nitrica",
       "url": "https://mapcarta.com/36460560",
       "type": "other"
+    },
+    {
+      "title": "Apsida – stredoveká sakrálna stavba na Hôrke",
+      "url": "https://w.apsida.sk/c/4658/horne-vestenice",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Petra a Pavla v Horných Vesteniciach",
+      "url": "https://www.pamiatkynaslovensku.sk/horne-vestenice-kostol-sv-petra-a-pavla",
+      "type": "specialist"
     }
   ],
   "translations": {
