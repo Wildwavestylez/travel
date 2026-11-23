@@ -25,7 +25,15 @@
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4d29b64a-5c19-4fa9-95b0-51396f2cfe79",
         "https://www.chrenovec.sk/sucasnost.html"
       ],
-      "location": null,
+      "location": {
+        "name": "Chrenovec – orientační bod obce pro příběh dvou historických sídel Chrenovce a Brusna",
+        "address": null,
+        "lat": 48.77869,
+        "lon": 18.72674,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.geonames.org/3060702/chrenovec-brusno.html"
+      },
       "map_category": "historic_city"
     },
     {
@@ -83,7 +91,15 @@
         "https://www.chrenovec-brusno.sk/download_file_f.php?id=327418",
         "https://www.handlova.sk/data/page/handlova.sk/9358/k13-koncepcia-rozvoja-cestovneho-ruchu-analyza-potencialu.pdf"
       ],
-      "location": null,
+      "location": {
+        "name": "Brusno – orientační bod místní části; sloup Immaculata byl po obnově přemístěn přibližně o 30 metrů",
+        "address": null,
+        "lat": 48.77214,
+        "lon": 18.72464,
+        "type": "historic_monument",
+        "accuracy": "approximate",
+        "source": "https://www.geonames.org/3060918/brusno.html"
+      },
       "map_category": "historical_monument"
     },
     {
@@ -95,7 +111,15 @@
       "sources": [
         "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4d29b64a-5c19-4fa9-95b0-51396f2cfe79"
       ],
-      "location": null,
+      "location": {
+        "name": "Chrenovec – orientační bod historického sídla; přesná budova nedělní školy a knihovny není známa",
+        "address": null,
+        "lat": 48.77869,
+        "lon": 18.72674,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.geonames.org/3060702/chrenovec-brusno.html"
+      },
       "map_category": "local_culture"
     }
   ],
@@ -174,6 +198,16 @@
       "title": "Koncepcia rozvoja cestovného ruchu mesta Handlová",
       "url": "https://www.handlova.sk/data/page/handlova.sk/9358/k13-koncepcia-rozvoja-cestovneho-ruchu-analyza-potencialu.pdf",
       "type": "official"
+    },
+    {
+      "title": "GeoNames – Chrenovec-Brusno",
+      "url": "https://www.geonames.org/3060702/chrenovec-brusno.html",
+      "type": "other"
+    },
+    {
+      "title": "GeoNames – Brusno",
+      "url": "https://www.geonames.org/3060918/brusno.html",
+      "type": "other"
     }
   ],
   "translations": {
