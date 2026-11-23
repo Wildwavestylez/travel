@@ -173,7 +173,7 @@ Používej pouze hodnoty povolené v aktuálním `schema.json`. Význam kategori
 
 Kategorie `hidden_gem` není odměna za malou nebo málo známou atrakci. Musí jít o skutečně neobvyklou informační hodnotu.
 
-Kategorie jsou společné s německým schématem a Europe Explorerem. V Česku používej pouze ty, které se pro konkrétní fakt hodí; není nutné využít všechny kategorie.
+Kategorie jsou sdílené v rámci TRAVEL a Europe Exploreru. V Rakousku používej pouze ty, které se pro konkrétní fakt hodí; není nutné využít všechny kategorie.
 
 ---
 
@@ -324,7 +324,7 @@ Pokud je název, instituce, tradice, historická událost nebo kulturní odkaz p
 Vysvětlení má čtenáři sdělit, co daná věc je, jak funguje nebo proč je důležitá. Pouhý doslovný překlad názvu nestačí.
 
 Příklady:
-- U pojmu `městská památková rezervace` vysvětli, že jde o zákonem chráněné historické území s významným souborem památek.
+- U pojmů jako `Altstadt`, `historisches Zentrum`, `Ensemble` nebo `UNESCO-Welterbe` vysvětli, zda jde o historické městské jádro, chráněný soubor staveb nebo lokalitu světového dědictví; nepředpokládej, že samotný německý název zahraničnímu čtenáři vysvětlí jeho status.
 - U rakouské tradice nebo svátku popiš stručně její podstatu, pokud ji zahraniční čtenář nemusí znát.
 - U místního výrobku nebo průmyslového označení vysvětli, o jaký produkt či odvětví jde, pokud samotný název význam neprozrazuje.
 - U historické instituce zachovej její oficiální název, ale přidej stručné vysvětlení její funkce.
@@ -438,7 +438,7 @@ Kombinace:
 
 **`schema.json` + `CONTENT_STANDARD.md`**
 
-je závazným základem všech českých TRAVEL záznamů.
+je závazným základem všech rakouských TRAVEL záznamů.
 
 Standard se mění pouze vědomou a verzovanou revizí. Nové požadavky se nesmějí do produkce zavádět neformálně ani pouze v jednotlivém promptu.
 
@@ -459,7 +459,7 @@ Základní produkční postup:
 
 ## 26. Řízený slovník typů míst u faktů
 
-Česká část TRAVEL používá vlastní normalizovaný slovník typu místa. Je oddělený od historického německého seznamu hodnot v `data/germany/schema.json`.
+Rakouská část TRAVEL používá normalizovaný slovník typů míst se stejnými stabilními identifikátory jako odpovídající rakouské schéma. Slovník je veden samostatně v `data/austria/location_types.json`.
 
 Závazná pravidla:
 
@@ -468,7 +468,7 @@ Závazná pravidla:
 - Typ popisuje druh místa, nikoli počet objektů. Použij například `historic_villa` pro jednu i více historických vil, `hill` pro jeden i více kopců a `pond` pro jeden i více rybníků.
 - Množné varianty jako `historic_villas`, `hills` nebo `ponds` se nikdy nepoužívají.
 - Významově odlišné typy neslučuj jen kvůli podobnému názvu. Nový typ přidej pouze tehdy, pokud existující hodnoty nedokážou přesně popsat místo.
-- Do záznamů se ukládá stabilní ID, nikoli český volný text. České názvy jsou v samostatném slovníku.
+- Do záznamů se ukládá stabilní ID, nikoli volný text. Česká označení typů jsou uvedena v samostatném slovníku, protože čeština je zdrojovým jazykem obsahu TRAVEL.
 - Tento slovník popisuje `location.type`; nenahrazuje redakční `facts[].category`. Jde o dvě různé informace.
 - Změna rakouského slovníku nesmí automaticky měnit německé schéma, německé záznamy ani jejich historické hodnoty.
 
