@@ -41,10 +41,28 @@ Závazná pravidla:
 - Zjisti, jaké obce, sídla, části sídel nebo adresní oblasti jsou s PSČ doložitelně spojeny. Nepředstírej přesnou hranici, pokud ji zdroje neposkytují.
 - **PSČ je obsahová vrstva, nikoli administrativní hierarchie.** Obec, politický okres (Bezirk), statutární město, městský obvod nebo spolková země mohou sloužit jako pomocná metadata pro vyhledávání, filtrování a orientaci. Nejsou nadřazenou obsahovou jednotkou a neurčují, jaký příběh nebo fakt smí být do PSČ zařazen.
 - Okresy a další správní celky eviduj a používej pouze v rozsahu odpovídajícím schématu a jejich účelu pro vyhledávání. Nevytvářej obsah po okresech, nepřesouvej fakta podle okresních hranic a nepovažuj okres za náhradu geografického ověření PSČ.
-- Pokud PSČ pokrývá více sídel nebo obcí, zpracuj je v rámci jednoho PSČ záznamu. Nenech jedno sídlo převážit jen proto, že je správním centrem nebo sídlem pošty.
+- Pokud PSČ pokrývá více sídel nebo obcí, zpracuj je v rámci jednoho PSČ záznamu. Při výběru zajímavostí nedávej automatickou přednost sídlu pošty ani správnímu centru; hlavičkové pole `city` se však řídí samostatným pravidlem v oddílu 3.1.
 - Nezaměňuj adresu pošty, sídla instituce ani korespondenční adresu za geografický rozsah PSČ.
 - Širší okolí lze zkoumat pro pochopení kontextu, ale samostatný fakt musí mít obhajitelnou primární geografickou vazbu k právě jednomu PSČ.
 - Pokud oficiální zdroje dokládají pouze adresní body, lokality nebo vazby na obce, popisuj pouze tyto vztahy. Nevytvářej ani neodhaduj přesné polygonální hranice.
+
+
+### 3.1 Obec sídla příslušné pošty — administrativní hlavička
+
+**Pro hlavičku každého geografického rakouského PSČ se používá právě jedna obec: obec, ve které fyzicky sídlí příslušná poštovní provozovna přiřazená k danému PSČ (historický Leitort / příslušné Postamt).** Toto pravidlo určuje pouze administrativní hlavičku záznamu. Neurčuje ani neomezuje geografický rozsah rešerše a zajímavostí.
+
+- `city` = oficiální název jediné politické obce (`Gemeinde`), ve které fyzicky sídlí příslušná pošta / poštovní provozovna přiřazená k danému PSČ. Rozhoduje skutečná poloha provozovny, nikoli samotný název PSČ, Bestimmungsort, největší sídlo v oblasti ani reprezentativní turistické místo.
+- `district` = doložená městská nebo místní část uvnitř obce, ve které tato pošta sídlí, pokud je pro její polohu relevantní; jinak `null`.
+- `county` = politický Bezirk, případně odpovídající status statutárního města, do kterého spadá obec sídla pošty.
+- `state` = Bundesland, do kterého spadá obec sídla pošty.
+
+**Bestimmungsort není automaticky obec ani sídlo pošty.** Je to poštovní označení místa používané pro správné adresování. Nepřebírej jej bez ověření do `city`. Stejně tak nezaměňuj poštovní pobočku, Postpartner, Postfach-adresu, třídicí centrum nebo Zustellbasis za příslušnou geografickou poštu. U každého PSČ ověř konkrétní přiřazení v aktuálním poštovním adresáři / PLZ-Verzeichnis a fyzickou adresu relevantní poštovní provozovny v oficiálním Filialfinderu nebo jiném oficiálním podkladu Österreichische Post. Skutečnou obec a její územní příslušnost ověř přes BEV Adressregister a Statistik Austria.
+
+Pokud se pošta přestěhovala, byla přejmenována nebo nahrazena jinou provozovnou, použij aktuálně doložené fyzické umístění provozovny přiřazené k PSČ a zaznamenej zdroj. Pokud nelze jednoznačně doložit, která provozovna je k PSČ přiřazena, nevymýšlej `city` podle Bestimmungsort ani podle největší obce; případ označ jako nevyřešený a vyžádej si další ověření.
+
+**Rozsah zajímavostí zůstává celý geografický rozsah PSČ.** Pro každé PSČ prozkoumej všechna doložitelně přidružená sídla, obce, vesnice, části sídel a adresní oblasti. Zahrň relevantní příběhy, památky, přírodu, historii, kulturu, průmysl a další zajímavosti z celého tohoto rozsahu. Ostatní obce se nesmějí vynechat jen proto, že nejsou obcí sídla pošty; zároveň je nevypisuj do hlavičkového pole `city`. Každý fakt a jeho mapová poloha musí mít samostatně obhajitelnou geografickou vazbu k danému PSČ.
+
+Obec sídla pošty je tedy jediným orientačním administrativním údajem hlavičky, nikoli hranicí ani centrem obsahového výzkumu. Pole `representative_place` a `representative_point` nadále vybírej jako samostatný orientační bod pro celé PSČ podle jejich vlastních pravidel; nemusí označovat poštu.
 
 ## 4. Povinná rešerše před psaním
 
