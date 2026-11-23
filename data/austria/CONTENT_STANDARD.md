@@ -543,10 +543,6 @@ Použij následující hierarchii:
 
 
 
-## 11. Obsahové kategorie a mapová klasifikace
-
-Obsahové kategorie, mapové kategorie, priority faktů, identifikátory a technické hodnoty se řídí společnými kapitolami níže a aktuálním `schema.json`. Kategorie jsou redakční a mapové klasifikace jednotlivých faktů; nenahrazují geografické přiřazení k PSČ.
-
 ## 27. Příroda a krajina
 
 Příroda je plnohodnotné téma TRAVEL, nikoli výplň.
