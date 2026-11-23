@@ -26,17 +26,21 @@ Every fact must pass four tests:
 
 Quality takes precedence over a target number of facts. Do not invent facts, inflate ordinary objects, repeat the same story under multiple PLZ records or add filler.
 
-## 3. Production unit and geographic scope
+## 3. Production unit, geographic-only eligibility and scope
 
 One complete four-digit Austrian PLZ is one project content/indexing unit.
 
 - Preserve the full code as a four-character string.
 - Never split one four-digit PLZ into separate records for streets, buildings, house numbers or tiny address fragments.
-- Research the full defensible geographic scope associated with the code.
-- Where one PLZ relates to several settlements or municipalities, research the relevant area as one content unit and document its geographic coverage accurately.
+- **Include only geographic PLZ with a demonstrable geographic delivery territory.** The code must identify an area that can be researched as a place, not merely a postal recipient or operational destination.
+- Exclude PO-box/Postfach-only codes, company- or institution-specific codes without their own territory, post-office/branch codes, sorting or distribution-centre codes, and all other purely operational/non-geographic codes.
+- Do not classify a code by its number pattern, by a search snippet alone, or by the fact that a business uses it.
+- Establish the full defensible geographic scope associated with each included code.
+- Where one PLZ relates to several settlements or municipalities, research the relevant area as one content unit and document the supported relationships accurately.
 - Do not automatically expand the scope to an entire municipality, district or tourist region without evidence.
 - Do not narrow the scope to a post office, postal counter, one street or the best-known place name.
 - Wider surroundings may provide context, but a fact must have a defensible primary physical location and genuine relationship to the assigned PLZ area.
+- A four-digit PLZ is not automatically a polygon. If sources prove only address points, localities or municipality associations, state only those relationships; never invent exact boundaries.
 
 The project uses the four-digit PLZ as a practical content scale. Detailed address-level postal subdivisions are not separate production records.
 
@@ -78,6 +82,14 @@ This is a discovery checklist, not a quota. Do not force every theme into every 
 ## 6. Sources and evidence
 
 Use the Austrian source hierarchy defined in `COUNTRY_PROFILE.md`. Match each source to the claim it supports.
+
+### 6.1 Online-first verification
+
+Use official public online registers, search interfaces and institutional pages directly as the default. Do not download or maintain bulk national datasets merely as a routine step. An official downloadable dataset may be used when an essential relationship cannot be reliably established online or when a reproducible comparison is genuinely necessary. If used, identify its publisher, dataset/version or publication date, and access date. Do not treat a convenient online directory as proof of geographic territory unless it supports that exact claim.
+
+### 6.2 Geographic-only inventory gate
+
+Before research or content creation, verify that the selected PLZ qualifies under the geographic-only rule in section 3. Check official postal sources for special-purpose status and geographic sources for actual territorial/address-point relationships. PO-box-only, company/institution-only without territory, branch, sorting-centre and other operational codes are excluded from the production sequence. Record exclusions and unresolved cases separately; do not create content for them.
 
 Prefer primary official sources for administrative, postal, heritage and institutional facts. Use academic and specialist sources for deeper historical and scientific claims. Established tourism sources can help discover visitor-relevant places but should not be the sole evidence for contested historical claims.
 
