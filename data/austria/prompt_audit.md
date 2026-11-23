@@ -19,8 +19,9 @@ Before an audit, load:
 ## Audit controls
 
 For every requested PLZ:
-1. Confirm the exact four-digit string and approved inventory membership.
-2. Check that the code is a genuine geographic PLZ under the approved Austrian postal-source policy, not an excluded special-purpose code.
+1. Confirm the exact four-digit string and approved geographic-only inventory membership.
+2. Re-check that official postal evidence supports geographic eligibility and that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or another operational/non-geographic code.
+3. Verify the geographic extent only to the level supported by official evidence; do not assume or invent a polygon.
 3. Check the defensible geographic scope and associated municipality/locality relationships.
 4. Verify Bundesland and political Bezirk/statutory-city context using official administrative sources.
 5. Check representative place and coordinates.
@@ -31,6 +32,10 @@ For every requested PLZ:
 10. Validate the complete JSON against the approved schema.
 
 For the entire requested area, check whether major nationally, regionally or internationally significant attractions, heritage, historical events, people or natural features are missing. This is a targeted audit check, not a reason to reduce the full research required during rework.
+
+## Source access policy
+
+Use official public online registers, search interfaces and institutional pages as the default. Do not require bulk downloads or local copies. If an official downloadable dataset is essential to resolve a discrepancy, record its publisher, version/publication date and access date.
 
 ## Audit outcomes
 
