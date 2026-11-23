@@ -218,3 +218,19 @@ Zdroje: https://www.karlovyvary.cz/cs/historie-karlovych-varu ; https://www.karl
 **Turistická úplnost: uzavřena po doplnění Goetha.** Nezjištěna další zásadní chybějící památka, událost nebo osobnost v rozsahu tohoto auditu.
 
 **Stav celého auditu zůstává REVIEW REQUIRED**, nikoli kvůli turistické úplnosti: dosud není dokončena úplná sémantická kontrola všech původních cizojazyčných překladů ve všech 27 PSČ. Záměrně prázdná poloha 36273/fact_004 (pískovna u Vojkovic) není chybou a zůstává beze změny. Publikace, V5, záloha, Neon import ani read-only lock nebyly provedeny.
+
+
+### Pokračování úplné sémantické revize — checkpoint 23. 11. 2026
+
+**Nově dokončené úplné jazykové průchody (český master proti DE/EN/ES/FR/IT/NL):** 36001 (32 faktů), 36004 (5), 36005 (7), 36006 (6), 36007 (9), 36010 (5), 36017 (6) a 36018 (4). Celkem 8 dalších PSČ a 74 faktů. U těchto záznamů byly porovnány významy, názvy, osoby, chronologie, zásadní číselné údaje a geografické souvislosti. Bez významové vady byly ponechány beze změny.
+
+**Potvrzené opravy v této etapě:**
+- 36005 / `fact_002`: ve všech šesti cizojazyčných verzích doplněna informace, že po desetiletích chátrání začala obnova kostela sv. Urbana. V němčině a angličtině byla zachována již existující informace o pamětních funkcích; nedošlo k jejímu duplicitnímu opakování.
+- 36006 / `fact_002`: ve všech šesti cizojazyčných verzích doplněno, že sklárna ve Dvorech zahájila provoz v 90. letech 19. století.
+- 36006 / `fact_005`: ve všech šesti cizojazyčných verzích doplněno upřesnění, že poválečný odsun nebyl dobrovolným stěhováním ani jedinou formou poválečného přesunu obyvatel, a informace o městem oznámeném umístění pamětní desky v listopadu 2026.
+
+**Částečně zkontrolováno, zatím bez uzavření:** 36221. Byly porovnány a zkontrolovány viditelné položky, včetně úplného faktu o Ignáci Sichelbarthovi; celý záznam zatím není označen jako dokončený.
+
+Předchozí úplné průchody z dřívějších etap zůstávají v platnosti: 36272, 36273, 36301, 36401, 36453 a 36464. Již dříve provedené dílčí opravy v dalších PSČ se nepovažují za úplný průchod.
+
+**Aktuální souhrn úplných jazykových průchodů:** 14 z 27 PSČ (8 nově dokončených + 6 dříve dokončených). Zbývá 13 PSČ k úplné sémantické kontrole; 36221 je rozpracované a nesmí se započítat jako hotové. Celkový stav bloku zůstává **REVIEW REQUIRED**. Žádné změny `data_version`, `status`, schématu, zdrojů, ID faktů ani mapových poloh nebyly v této etapě provedeny.
