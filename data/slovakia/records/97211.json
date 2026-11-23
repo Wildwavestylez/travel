@@ -169,18 +169,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Obec Lazany uvádí PSČ 972 11 u oficiální adresy obecního úřadu a farnosti; obecní oznámení rovněž používá 972 11 Lazany. Portál Slovenské pošty pro vyhledávání PSČ byl konzultován, individuální výsledek dotazu však nebyl v dostupném výstupu čitelný; přesná doručovací hranice proto není tvrzena.",
-    "geographic_test_data": false,
+    "plz_source": "Slovenská pošta – oficiální vyhledávač PSČ byl konzultován; jeho interaktivní výsledek nebylo možné v tomto auditu exportovat. Geografické přiřazení je nezávisle doloženo oficiálním programem rozvoje obce Lazany (PSČ 972 11), oficiálními základními údaji obce Poruba (PSČ 972 11) a obecními adresami obou sídel. Rozsah Lazany + Poruba potvrzuje také úplný seznam PSČ Slovenska od Parcelforce (duben 2020). Přesný doručovací polygon se netvrdí. Zdroje: https://www.posta.sk/psc ; https://www.lazany.sk/download_file_f.php?id=679368 ; https://www.poruba.sk/obec/zakladne-informacie/ ; https://www.parcelforce.com/sites/default/files/SK%20Postcodes%20Apr20%20v1%20200420.pdf",
+    "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
     "postcode_source_dataset": null,
     "postcode_source_release": null,
-    "postcode_source_checked_at": "2026-11-22",
+    "postcode_source_checked_at": "2026-11-24",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "Oficiální obecní a vládní geografické údaje; GeoNames pro orientační bod sídla. Oficiální adresní bod RAGEO nebyl v této kontrole získán."
+    "geographic_authority": "Správní a geografické údaje obcí Lazany a Poruba; oficiální program rozvoje Lazian a obecní základní údaje Poruby; poštovní přiřazení obou sídel k 972 11 nezávisle potvrzeno seznamem Parcelforce. Reprezentativní obec Lazany, okres Prievidza, Trenčiansky kraj. Přesný polygon doručovací oblasti nebyl ověřován."
   },
   "sources": [
     {
