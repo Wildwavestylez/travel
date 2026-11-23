@@ -1,4 +1,641 @@
 {
   "postcode": "97655",
-  "status": "placeholder"
+  "city": "Ľubietová",
+  "district": null,
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Náměstí Vojtecha Dunajského – historické centrum Ľubietové",
+  "representative_point": {
+    "lat": 48.74595112,
+    "lon": 19.36212659
+  },
+  "access_point": {
+    "lat": 48.74595112,
+    "lon": 19.36212659
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Ľubietová – svobodné královské báňské město od roku 1379",
+      "text": "Ľubietová vznikla jako hornická osada a roku 1379 jí uherský král Ludvík I. Veliký udělil městská privilegia. Stala se jedním ze svobodných středoslovenských báňských měst a později členem svazu sedmi hornických měst. Její postavení vyrostlo z těžby zlata a především mědi v okolních revírech. Privilegia se postupně rozšiřovala, mimo jiné o právo volit městského rychtáře. Husitský útok roku 1433 město těžce poškodil a hornictví na několik desetiletí ochromil; těžba a zpracování rud se však později obnovily. Historie Ľubietové tak dobře ukazuje, jak bohatství rud formovalo správu, hospodářství i podobu středoslovenských hornických měst.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.lubietova.sk/obec-1/historia/",
+        "https://www.lubietova.sk/obec-1/navstevnik-obce/historia-banictva/"
+      ],
+      "location": {
+        "name": "Náměstí Vojtecha Dunajského – historické centrum Ľubietové",
+        "lat": 48.74595112,
+        "lon": 19.36212659,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://www.lubietova.sk/samosprava/obecny-urad/"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Podlipa – světová typová lokalita minerálu libethenitu",
+      "text": "Ložisko měděných rud Podlipa u Ľubietové patří k nejvýznamnějším slovenským mineralogickým lokalitám. Právě odtud byl roku 1823 pro vědu poprvé popsán libethenit, zelený fosforečnan mědi pojmenovaný podle německého názvu obce Libethen. Podlipa je také typovou lokalitou mrázekitu, popsaného roku 1992. V oxidační zóně starých měděných dolů se vyskytují i malachit, pseudomalachit a další sekundární minerály. Historické haldy, štoly a důlní pole dnes připomíná naučná stezka; sběr minerálů v lokalitě je omezen a je nutné respektovat místní zákazové tabule.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.lubietova.sk/obec-1/navstevnik-obce/prirodne-zaujimavosti/mineraly-122sk.html",
+        "https://publikace.nm.cz/file/80a213c955762aee1d5ae40ec567222c/19345/001_StevkoSejkoraMalikova_Corkit_Lubietova.pdf",
+        "https://www.visitbanskabystrica.sk/leisure_poi/naucny-bansky-chodnik-lubietova/"
+      ],
+      "location": {
+        "name": "Banská pole Podlipy – orientační bod naučné stezky",
+        "lat": 48.7465078,
+        "lon": 19.381816,
+        "type": "historic_mine",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n4882162209"
+      },
+      "map_category": "science_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Vysoká pec Tri Vody – pozůstatek železářského komplexu",
+      "text": "Vysoká pec v lokalitě Tri Vody v katastru Ľubietové se začala stavět roku 1795 a na počátku 19. století se v ní vyrábělo surové železo. V železárenském areálu se odlévaly také roury, kamna, železné nádobí a dělové koule. V letech 1867–1868 byl komplex modernizován a rozšířen, ale po ničivém požáru roku 1882 výroba skončila. Část pece se zachovala; její zbytky byly roku 1974 odborně rekonstruovány a zakonzervovány. Dnes jde o technickou kulturní památku v zalesněné dolině pod masivem Ľubietovského Vepra. Lokalita leží v katastru Ľubietové, přestože některé turistické zdroje ji volně spojují se sousedním Osrblím.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.lubietova.sk/obec-1/navstevnik-obce/zaujimave-stavby-v-obci-a-okoli/vysoka-pec-na-troch-vodach-134sk.html",
+        "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf"
+      ],
+      "location": {
+        "name": "Vysoká pec Tri Vody",
+        "lat": 48.72609,
+        "lon": 19.50372,
+        "type": "historic_industrial_site",
+        "accuracy": "exact",
+        "source": "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel svaté Máří Magdalény nad Ľubietovou",
+      "text": "Římskokatolický kostel svaté Máří Magdalény stojí na severním svahu nad Ľubietovou a patří k nejstarším památkám obce. Původní stavba se připomíná již ve 14. století; roku 1520 byl kostel konsekrován spolu s kaplí svaté Anny přistavěnou k severní straně. Dochovaný gotický portál a další stavební stopy ukazují na starší gotické jádro, které bylo později výrazně přestavěno v barokním slohu. Hlavní oltář svaté Máří Magdalény pochází z roku 1782 a kazatelna je rokoková. Areál obklopuje kamenná zeď a někdejší hřbitov připomíná původní sakrální centrum nad městečkem.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.lubietova.sk/obec-1/pamiatky/kostol-sv-marie-magdaleny/",
+        "https://www.pamiatkynaslovensku.sk/lubietova-kostol-sv-marie-magdaleny"
+      ],
+      "location": {
+        "name": "Kostel svaté Máří Magdalény",
+        "lat": 48.746787,
+        "lon": 19.364679,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/lubietova-kostol-sv-marie-magdaleny"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Povrazník – vesnice, která zásobovala doly pletenými provazy",
+      "text": "Povrazník je historicky spojený s hornictvím v Ľubietové a okolních revírech. Místní řemeslníci z konopí pletli lana a provazy, které se používaly v dolech v Ľubietové, Španej Doline a Starých Horách. Neobvyklou památkou této práce jsou tři velké kameny v centru obce s vytesanými otvory: do nich se upevňovala dřevěná zařízení, na kterých se provazy napínaly a splétaly. Obecní rozvojový dokument uvádí také zvonici z roku 1928 se dvěma zvony, z nichž větší pochází z roku 1792 a menší z roku 1742. Povrazník tak uchovává hmotnou stopu řemesla, které dalo obci jméno.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.povraznik.sk/sk/obec/historia/",
+        "https://www.povraznik.sk/sk/obec/",
+        "https://www.povraznik.sk/wp-content/uploads/2025/03/schvalene-phsr-2025-2034.pdf",
+        "https://www.povraznik.sk/sk/kontakt/"
+      ],
+      "location": {
+        "name": "Zvonice a kamenné bloky pro pletení provazů v centru Povrazníku",
+        "lat": 48.716234391,
+        "lon": 19.364481568,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://www.povraznik.sk/sk/kontakt/"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Povrazník – první písemná zmínka a někdejší poddanské sídlo",
+      "text": "Povrazník se pravděpodobně utvářel ve 14. století, první písemná zmínka však pochází až z 22. května 1424. V listině uherského krále Zikmunda Lucemburského se objevuje pod názvem Powraznik při darování panství Ľupča jeho manželce Barboře Celjské. Od roku 1465 do roku 1848 byl Povrazník poddanskou obcí svobodného královského hornického města Ľubietová. Obyvatelé tak po staletí žili v hospodářském a správním zázemí významného báňského centra. Pozdější názvy obce zahrnovaly Zaillerdorff, Powraznyk a Powrasník.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.povraznik.sk/sk/obec/historia/"
+      ],
+      "location": {
+        "name": "Povrazník – centrum obce, orientační bod u obecního úřadu",
+        "lat": 48.716234391,
+        "lon": 19.364481568,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.povraznik.sk/sk/kontakt/"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_007",
+      "title": "Strelníky – někdejší Šajba pod svahy Poľany",
+      "text": "Strelníky se v historických pramenech objevují roku 1465 pod názvem Šajba jako poddanská obec hornického města Ľubietová. V 16. a 17. století oblast ohrožovaly osmanské nájezdy; roku 1577 byla obec napadena. Obyvatelé se později živili zejména chovem ovcí a dobytka, uhlířstvím, výrobou dřevěného nářadí a povoznictvím. Název Strelníky nahradil jméno Šajba v roce 1948, ale původní označení se v místní identitě používá dodnes. Obec leží na severních svazích Poľany a její katastr zasahuje do ochranného pásma chráněné krajinné oblasti Poľana.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.strelniky.sk/obec/poloha-obce/?lang=sk&zmena-vzhladu=1",
+        "https://www.strelniky.sk/e_download.php?file=data%2Feditor%2F93sk_4.pdf&original=PHSR-Streln%C3%ADky-2014-2020.pdf",
+        "https://www.slovensko.sk/sk/lokality/_d30fdcd2-adb6-447c-823d-d212704a9de4"
+      ],
+      "location": {
+        "name": "Strelníky – památník obětem druhé světové války a SNP, orientační bod centra",
+        "lat": 48.7217611,
+        "lon": 19.3938111,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/21492-pamatna-tabula-obetiam-2-svetovej-vojny-a-snp/"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_008",
+      "title": "Šajbania – folklorní skupina oživující písně a zvyky Šajby",
+      "text": "Folklorní skupina Šajbania ze Strelník sbírá a znovu uvádí do života místní lidové písně, kroje a obyčeje. V minulosti obnovovala například fašankové obchůzky s maskami, přástky a draní peří – zimní sousedská setkání, při nichž se společně pracovalo, zpívalo a vyprávěly příběhy. Skupina připravila také tematická pásma o létě a Vánocích na vsi a vydala album se zapomenutými i znovuobjevenými písněmi ze Strelník. Její činnost pomáhá uchovávat kulturní paměť obce, která si dodnes nese historické jméno Šajba.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.strelniky.sk/obec/organizacie/fsk-sajbania/cd-album/",
+        "https://www.strelniky.sk/modules/file_storage/download.php?file=f901cd9b%7C23",
+        "https://www.strelniky.sk/e_download.php?file=data%2Feditor%2F93sk_4.pdf&original=PHSR-Streln%C3%ADky-2014-2020.pdf"
+      ],
+      "location": {
+        "name": "Strelníky – centrum obce, orientační bod kulturního života",
+        "lat": 48.7217611,
+        "lon": 19.3938111,
+        "type": "cultural_center",
+        "accuracy": "area_representative",
+        "source": "https://www.strelniky.sk/"
+      },
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Geografické PSČ 976 55 je doloženo oficiálním seznamem PSČ podle regionů zveřejněným SHMÚ (položka Ľubietová – 97655), adresami obecních úřadů Ľubietová, Povrazník a Strelníky se stejným kódem a mapovým záznamem OMA/OSM, který pro 97655 uvádí Ľubietovou, Povrazník a Strelníky. Vyhledávací rozhraní Slovenské pošty bylo zkontrolováno jako primární autorita, ale konkrétní výsledek pro PSČ 97655 se nepodařilo načíst; proto není tvrzen přímý výpis Slovenské pošty.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "SHMÚ – Zoznam PSČ spadajúcich do jednotlivých regiónov; oficiální adresy obcí; OMA/OSM postal_code mapping",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Veřejné podklady uvádějí poštu Ľubietová; její provozní stav nebyl předmětem reworku.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní adresy Ľubietová, Povrazník a Strelníky; ÚPVS; obecní a regionální dokumenty; OMA/OSM pro mapovou orientaci a polohu jednotlivých lokalit."
+  },
+  "sources": [
+    {
+      "title": "Obec Ľubietová – História",
+      "url": "https://www.lubietova.sk/obec-1/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ľubietová – História baníctva",
+      "url": "https://www.lubietova.sk/obec-1/navstevnik-obce/historia-banictva/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ľubietová – Minerály",
+      "url": "https://www.lubietova.sk/obec-1/navstevnik-obce/prirodne-zaujimavosti/mineraly-122sk.html",
+      "type": "official"
+    },
+    {
+      "title": "Visit Banská Bystrica – Náučný banský chodník Ľubietová",
+      "url": "https://www.visitbanskabystrica.sk/leisure_poi/naucny-bansky-chodnik-lubietova/",
+      "type": "regional"
+    },
+    {
+      "title": "Národní muzeum Praha – Nové údaje o supergénnych mineráloch z banského poľa Rainer",
+      "url": "https://publikace.nm.cz/file/80a213c955762aee1d5ae40ec567222c/19345/001_StevkoSejkoraMalikova_Corkit_Lubietova.pdf",
+      "type": "museum"
+    },
+    {
+      "title": "Obec Ľubietová – Kostol sv. Márie Magdalény",
+      "url": "https://www.lubietova.sk/obec-1/pamiatky/kostol-sv-marie-magdaleny/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Ľubietová, kostol sv. Márie Magdalény",
+      "url": "https://www.pamiatkynaslovensku.sk/lubietova-kostol-sv-marie-magdaleny",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Ľubietová – Vysoká pec na Troch vodách",
+      "url": "https://www.lubietova.sk/obec-1/navstevnik-obce/zaujimave-stavby-v-obci-a-okoli/vysoka-pec-na-troch-vodach-134sk.html",
+      "type": "official"
+    },
+    {
+      "title": "Geopark – Register geologických a kultúrno-historických lokalít",
+      "url": "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Povrazník – História",
+      "url": "https://www.povraznik.sk/sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Povrazník – Obec a pamätihodnosti",
+      "url": "https://www.povraznik.sk/sk/obec/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Povrazník – Program rozvoja obce 2025–2034",
+      "url": "https://www.povraznik.sk/wp-content/uploads/2025/03/schvalene-phsr-2025-2034.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Povrazník – Kontakt a súradnice obecného úradu",
+      "url": "https://www.povraznik.sk/sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Strelníky – Poloha obce",
+      "url": "https://www.strelniky.sk/obec/poloha-obce/?lang=sk&zmena-vzhladu=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Strelníky – Program hospodárskeho a sociálneho rozvoja",
+      "url": "https://www.strelniky.sk/e_download.php?file=data%2Feditor%2F93sk_4.pdf&original=PHSR-Streln%C3%ADky-2014-2020.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Strelníky – Folklórna skupina Šajbania, CD album",
+      "url": "https://www.strelniky.sk/obec/organizacie/fsk-sajbania/cd-album/",
+      "type": "official"
+    },
+    {
+      "title": "Obecné zvesti Strelníky – Fašiangové zvyky a činnosť Šajbanie",
+      "url": "https://www.strelniky.sk/modules/file_storage/download.php?file=f901cd9b%7C23",
+      "type": "official"
+    },
+    {
+      "title": "SHMÚ – Zoznam PSČ spadajúcich do jednotlivých regiónov",
+      "url": "https://www.shmu.sk/File/virgo/Zoznam_PSC.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "OMA/OSM – PSČ 976 55 a uvedené obce",
+      "url": "https://www.oma.sk/?s=97655",
+      "type": "other"
+    },
+    {
+      "title": "OMA/OSM – Banské polia Podlipy",
+      "url": "https://poi.oma.sk/n4882162209",
+      "type": "other"
+    },
+    {
+      "title": "Vets.cz – Pamätná tabuľa obetiam druhej svetovej vojny a SNP v Strelníkoch",
+      "url": "https://www.vets.cz/vpm/21492-pamatna-tabula-obetiam-2-svetovej-vojny-a-snp/",
+      "type": "specialist"
+    },
+    {
+      "title": "ÚPVS – Informácie o obci Strelníky",
+      "url": "https://www.slovensko.sk/sk/lokality/_d30fdcd2-adb6-447c-823d-d212704a9de4",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ľubietová – Obecný úrad a adresa",
+      "url": "https://www.lubietova.sk/samosprava/obecny-urad/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Strelníky – oficiálny kontakt a adresa",
+      "url": "https://www.strelniky.sk/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Náměstí Vojtecha Dunajského – historické centrum Ľubietové",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – svobodné královské báňské město od roku 1379",
+          "text": "Ľubietová vznikla jako hornická osada a roku 1379 jí uherský král Ludvík I. Veliký udělil městská privilegia. Stala se jedním ze svobodných středoslovenských báňských měst a později členem svazu sedmi hornických měst. Její postavení vyrostlo z těžby zlata a především mědi v okolních revírech. Privilegia se postupně rozšiřovala, mimo jiné o právo volit městského rychtáře. Husitský útok roku 1433 město těžce poškodil a hornictví na několik desetiletí ochromil; těžba a zpracování rud se však později obnovily. Historie Ľubietové tak dobře ukazuje, jak bohatství rud formovalo správu, hospodářství i podobu středoslovenských hornických měst."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – světová typová lokalita minerálu libethenitu",
+          "text": "Ložisko měděných rud Podlipa u Ľubietové patří k nejvýznamnějším slovenským mineralogickým lokalitám. Právě odtud byl roku 1823 pro vědu poprvé popsán libethenit, zelený fosforečnan mědi pojmenovaný podle německého názvu obce Libethen. Podlipa je také typovou lokalitou mrázekitu, popsaného roku 1992. V oxidační zóně starých měděných dolů se vyskytují i malachit, pseudomalachit a další sekundární minerály. Historické haldy, štoly a důlní pole dnes připomíná naučná stezka; sběr minerálů v lokalitě je omezen a je nutné respektovat místní zákazové tabule."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vysoká pec Tri Vody – pozůstatek železářského komplexu",
+          "text": "Vysoká pec v lokalitě Tri Vody v katastru Ľubietové se začala stavět roku 1795 a na počátku 19. století se v ní vyrábělo surové železo. V železárenském areálu se odlévaly také roury, kamna, železné nádobí a dělové koule. V letech 1867–1868 byl komplex modernizován a rozšířen, ale po ničivém požáru roku 1882 výroba skončila. Část pece se zachovala; její zbytky byly roku 1974 odborně rekonstruovány a zakonzervovány. Dnes jde o technickou kulturní památku v zalesněné dolině pod masivem Ľubietovského Vepra. Lokalita leží v katastru Ľubietové, přestože některé turistické zdroje ji volně spojují se sousedním Osrblím."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel svaté Máří Magdalény nad Ľubietovou",
+          "text": "Římskokatolický kostel svaté Máří Magdalény stojí na severním svahu nad Ľubietovou a patří k nejstarším památkám obce. Původní stavba se připomíná již ve 14. století; roku 1520 byl kostel konsekrován spolu s kaplí svaté Anny přistavěnou k severní straně. Dochovaný gotický portál a další stavební stopy ukazují na starší gotické jádro, které bylo později výrazně přestavěno v barokním slohu. Hlavní oltář svaté Máří Magdalény pochází z roku 1782 a kazatelna je rokoková. Areál obklopuje kamenná zeď a někdejší hřbitov připomíná původní sakrální centrum nad městečkem."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – vesnice, která zásobovala doly pletenými provazy",
+          "text": "Povrazník je historicky spojený s hornictvím v Ľubietové a okolních revírech. Místní řemeslníci z konopí pletli lana a provazy, které se používaly v dolech v Ľubietové, Španej Doline a Starých Horách. Neobvyklou památkou této práce jsou tři velké kameny v centru obce s vytesanými otvory: do nich se upevňovala dřevěná zařízení, na kterých se provazy napínaly a splétaly. Obecní rozvojový dokument uvádí také zvonici z roku 1928 se dvěma zvony, z nichž větší pochází z roku 1792 a menší z roku 1742. Povrazník tak uchovává hmotnou stopu řemesla, které dalo obci jméno."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – první písemná zmínka a někdejší poddanské sídlo",
+          "text": "Povrazník se pravděpodobně utvářel ve 14. století, první písemná zmínka však pochází až z 22. května 1424. V listině uherského krále Zikmunda Lucemburského se objevuje pod názvem Powraznik při darování panství Ľupča jeho manželce Barboře Celjské. Od roku 1465 do roku 1848 byl Povrazník poddanskou obcí svobodného královského hornického města Ľubietová. Obyvatelé tak po staletí žili v hospodářském a správním zázemí významného báňského centra. Pozdější názvy obce zahrnovaly Zaillerdorff, Powraznyk a Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – někdejší Šajba pod svahy Poľany",
+          "text": "Strelníky se v historických pramenech objevují roku 1465 pod názvem Šajba jako poddanská obec hornického města Ľubietová. V 16. a 17. století oblast ohrožovaly osmanské nájezdy; roku 1577 byla obec napadena. Obyvatelé se později živili zejména chovem ovcí a dobytka, uhlířstvím, výrobou dřevěného nářadí a povoznictvím. Název Strelníky nahradil jméno Šajba v roce 1948, ale původní označení se v místní identitě používá dodnes. Obec leží na severních svazích Poľany a její katastr zasahuje do ochranného pásma chráněné krajinné oblasti Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – folklorní skupina oživující písně a zvyky Šajby",
+          "text": "Folklorní skupina Šajbania ze Strelník sbírá a znovu uvádí do života místní lidové písně, kroje a obyčeje. V minulosti obnovovala například fašankové obchůzky s maskami, přástky a draní peří – zimní sousedská setkání, při nichž se společně pracovalo, zpívalo a vyprávěly příběhy. Skupina připravila také tematická pásma o létě a Vánocích na vsi a vydala album se zapomenutými i znovuobjevenými písněmi ze Strelník. Její činnost pomáhá uchovávat kulturní paměť obce, která si dodnes nese historické jméno Šajba."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Vojtech-Dunajský-Platz – historisches Zentrum von Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – freie königliche Bergstadt seit 1379",
+          "text": "Ľubietová entstand als Bergbausiedlung und erhielt 1379 von König Ludwig I. dem Großen die Stadtrechte. Sie wurde eine der freien mittel­slowakischen Bergstädte und später Mitglied des Bundes der sieben Bergstädte. Ihre Bedeutung beruhte auf dem Abbau von Gold und vor allem Kupfer. Die Privilegien wurden schrittweise erweitert, unter anderem um das Recht zur freien Wahl des Stadtrichters. Der Hussitenangriff von 1433 beschädigte die Stadt schwer und brachte den Bergbau für Jahrzehnte nahezu zum Erliegen; später wurden Förderung und Verarbeitung der Erze wieder aufgenommen. Die Geschichte Ľubietovás zeigt, wie Erzreichtum Verwaltung, Wirtschaft und Stadtbild der mittel­slowakischen Bergstädte prägte."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – weltweiter Typort des Minerals Libethenit",
+          "text": "Das Kupfererzvorkommen Podlipa bei Ľubietová gehört zu den bedeutendsten Mineralfundstellen der Slowakei. Hier wurde 1823 erstmals das Mineral Libethenit wissenschaftlich beschrieben, ein grünes Kupferphosphat, dessen Name sich vom deutschen Ortsnamen Libethen ableitet. Podlipa ist auch die Typlokalität des 1992 beschriebenen Mrázekits. In der Oxidationszone der alten Kupfergruben kommen außerdem Malachit, Pseudomalachit und weitere Sekundärminerale vor. Halden, Stollen und Grubenfelder erinnern heute an den Bergbau; das Sammeln von Mineralien ist eingeschränkt und örtliche Verbotsschilder sind zu beachten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hochofen Tri Vody – Überrest eines Eisenwerks",
+          "text": "Der Hochofen im Gebiet Tri Vody im Gemeindegebiet von Ľubietová wurde 1795 errichtet und diente ab dem frühen 19. Jahrhundert der Roheisenerzeugung. Im Eisenwerk wurden auch Rohre, Öfen, Haushaltsgeräte aus Eisen und Kanonenkugeln gegossen. 1867–1868 wurde der Komplex modernisiert und erweitert, doch nach einem verheerenden Brand 1882 endete die Produktion. Ein Teil des Ofens blieb erhalten; seine Reste wurden 1974 fachgerecht restauriert und konserviert. Heute ist er ein technisches Kulturdenkmal in einem bewaldeten Tal unterhalb des Ľubietovský Vepor. Der Standort liegt im Katastergebiet von Ľubietová, auch wenn manche touristischen Quellen ihn allgemein mit dem benachbarten Osrblie verbinden."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kirche der heiligen Maria Magdalena oberhalb von Ľubietová",
+          "text": "Die römisch-katholische Kirche der heiligen Maria Magdalena steht am Nordhang oberhalb von Ľubietová und zählt zu den ältesten Denkmälern der Gemeinde. Das ursprüngliche Gebäude wird bereits im 14. Jahrhundert erwähnt; 1520 wurde die Kirche zusammen mit der nördlich angebauten Anna-Kapelle geweiht. Das erhaltene gotische Portal und weitere Bauspuren weisen auf einen älteren gotischen Kern hin, der später stark barock umgestaltet wurde. Der Hauptaltar der heiligen Maria Magdalena stammt aus dem Jahr 1782, die Kanzel ist Rokoko. Eine Steinmauer umgibt das Gelände; der frühere Friedhof erinnert an das einstige sakrale Zentrum oberhalb des Ortes."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – ein Dorf, das die Bergwerke mit geflochtenen Seilen versorgte",
+          "text": "Povrazník ist historisch eng mit dem Bergbau in Ľubietová und den umliegenden Revieren verbunden. Handwerker flochten aus Hanf Seile und Taue für die Bergwerke in Ľubietová, Špania Dolina und Staré Hory. Ungewöhnliche Zeugnisse dieses Handwerks sind drei große Steine im Ortszentrum mit eingemeißelten Öffnungen. Darin wurden hölzerne Vorrichtungen befestigt, auf denen die Seile gespannt und geflochten wurden. Das Gemeindeentwicklungsprogramm nennt außerdem einen Glockenturm von 1928 mit zwei Glocken: Die größere stammt von 1792, die kleinere von 1742. Povrazník bewahrt damit eine materielle Spur des Handwerks, das dem Dorf seinen Namen gab."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – erste schriftliche Erwähnung und einstiges Untertanendorf",
+          "text": "Povrazník entstand vermutlich im 14. Jahrhundert, seine erste schriftliche Erwähnung stammt jedoch erst vom 22. Mai 1424. In einer Urkunde des ungarischen Königs Sigismund von Luxemburg erscheint der Ort als Powraznik, als die Herrschaft Ľupča seiner Ehefrau Barbara von Cilli übertragen wurde. Von 1465 bis 1848 war Povrazník ein Untertanendorf der freien königlichen Bergstadt Ľubietová. Über Jahrhunderte lebten seine Bewohner somit im wirtschaftlichen und administrativen Umfeld eines bedeutenden Bergbauzentrums. Spätere Ortsnamen waren unter anderem Zaillerdorff, Powraznyk und Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – das frühere Šajba an den Hängen der Poľana",
+          "text": "Strelníky wird 1465 in historischen Quellen unter dem Namen Šajba als Untertanendorf der Bergstadt Ľubietová erwähnt. Im 16. und 17. Jahrhundert war die Gegend von osmanischen Überfällen bedroht; 1577 wurde das Dorf angegriffen. Später lebten die Einwohner vor allem von Schaf- und Viehzucht, Köhlerei, der Herstellung von Holzgeräten und Fuhrdiensten. Der Name Strelníky ersetzte 1948 die Bezeichnung Šajba, doch der alte Name ist bis heute Teil der lokalen Identität. Das Dorf liegt an den Nordhängen der Poľana; sein Katastergebiet reicht in die Schutzzone des Landschaftsschutzgebiets Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – eine Folkloregruppe belebt Lieder und Bräuche von Šajba wieder",
+          "text": "Die Folkloregruppe Šajbania aus Strelníky sammelt und belebt lokale Volkslieder, Trachten und Bräuche wieder. Sie ließ beispielsweise Faschingsumzüge mit Masken, Spinnstuben und das gemeinsame Federnschleißen wiederaufleben – winterliche Nachbarschaftstreffen, bei denen gearbeitet, gesungen und erzählt wurde. Die Gruppe gestaltete Programme über den Sommer und Weihnachten im Dorf und veröffentlichte ein Album mit vergessenen und wiederentdeckten Liedern aus Strelníky. Ihre Arbeit trägt dazu bei, das kulturelle Gedächtnis einer Gemeinde zu bewahren, die weiterhin den historischen Namen Šajba in sich trägt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Vojtech Dunajský Square – the historic centre of Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – a free royal mining town since 1379",
+          "text": "Ľubietová began as a mining settlement and received town privileges from King Louis I of Hungary in 1379. It became one of the free mining towns of central Slovakia and later joined the union of seven mining towns. Its prosperity came from gold and, above all, copper mining in the surrounding district. Its privileges were gradually expanded, including the right to elect its own town judge. The Hussite attack of 1433 badly damaged the town and brought mining almost to a standstill for several decades, although ore extraction and processing later resumed. Its history shows how mineral wealth shaped the government, economy and urban character of central Slovakia’s mining towns."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – the world type locality of the mineral libethenite",
+          "text": "The Podlipa copper deposit near Ľubietová is one of Slovakia’s most important mineralogical sites. In 1823, the green copper phosphate libethenite was first scientifically described from this locality; its name comes from the German name for the town, Libethen. Podlipa is also the type locality of mrázekite, described in 1992. The oxidation zone of the old copper workings contains malachite, pseudomalachite and other secondary minerals. Mining heaps, adits and workings are now recalled by an educational trail. Mineral collecting is restricted, and visitors should obey local prohibition signs."
+        },
+        {
+          "id": "fact_003",
+          "title": "Tri Vody blast furnace – a surviving part of an ironworks",
+          "text": "The blast furnace at Tri Vody, within the cadastral area of Ľubietová, was begun in 1795 and was producing pig iron by the early nineteenth century. The ironworks also cast pipes, stoves, household ironware and cannonballs. The complex was modernised and expanded in 1867–1868, but production ended after a devastating fire in 1882. Part of the furnace survived; its remains were professionally restored and conserved in 1974. Today it is a technical heritage monument in a wooded valley below Ľubietovský Vepor. The site lies within Ľubietová’s cadastral territory, although some tourism sources loosely associate it with neighbouring Osrblie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church of St Mary Magdalene above Ľubietová",
+          "text": "The Roman Catholic Church of St Mary Magdalene stands on the northern slope above Ľubietová and is among the municipality’s oldest monuments. The original church is mentioned as early as the fourteenth century; in 1520 it was consecrated together with the Chapel of St Anne attached to its northern side. The surviving Gothic portal and other building traces point to an older Gothic core, later substantially remodelled in the Baroque style. The main altar dedicated to St Mary Magdalene dates from 1782, while the pulpit is Rococo. A stone wall encloses the grounds, and the former cemetery recalls the site’s role as the historic religious centre above the town."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – a village that supplied mines with hand-braided ropes",
+          "text": "Povrazník has long been linked to mining in Ľubietová and nearby districts. Local craftspeople twisted hemp into ropes and cables used in the mines of Ľubietová, Špania Dolina and Staré Hory. Three large stones in the village centre are unusual physical evidence of this craft: holes were carved into them to hold wooden devices used to tension and braid the ropes. The municipality’s development plan also records a bell tower built in 1928 with two bells, the larger dating from 1792 and the smaller from 1742. Povrazník thus preserves a tangible trace of the rope-making craft that gave the village its name."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – first written record and former subject village",
+          "text": "Povrazník probably took shape in the fourteenth century, but its first written mention dates to 22 May 1424. A charter of King Sigismund of Luxembourg records the settlement as Powraznik when the lordship of Ľupča was granted to his wife Barbara of Cilli. From 1465 until 1848, Povrazník was a subject village of the free royal mining town of Ľubietová. For centuries its inhabitants therefore lived within the economic and administrative sphere of an important mining centre. Later recorded names included Zaillerdorff, Powraznyk and Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – the former Šajba beneath the Poľana hills",
+          "text": "Historical sources mention Strelníky in 1465 under the name Šajba, as a subject village of the mining town of Ľubietová. The area was threatened by Ottoman raids in the sixteenth and seventeenth centuries, and the village was attacked in 1577. Later, residents made their living mainly from sheep and cattle raising, charcoal burning, making wooden tools and carting. The name Strelníky replaced Šajba in 1948, but the old name remains part of local identity. The village lies on the northern slopes of the Poľana mountains, and its cadastral area reaches into the protected zone of the Poľana Protected Landscape Area."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – a folk group reviving the songs and customs of Šajba",
+          "text": "The Šajbania folk group from Strelníky collects and revives local folk songs, traditional dress and customs. Its work has included bringing back masked Shrovetide processions, spinning gatherings and feather-plucking evenings – winter neighbourhood events where people worked together, sang and shared stories. The group has created programmes about summer and Christmas in village life and released an album of forgotten and rediscovered songs from Strelníky. Its work helps preserve the cultural memory of a community that still carries its historic name, Šajba."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Plaza Vojtech Dunajský – centro histórico de Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – ciudad minera real libre desde 1379",
+          "text": "Ľubietová nació como asentamiento minero y recibió privilegios urbanos del rey Luis I de Hungría en 1379. Se convirtió en una de las ciudades mineras libres de Eslovaquia central y más tarde ingresó en la unión de siete ciudades mineras. Su prosperidad se basó en la extracción de oro y, sobre todo, de cobre. Sus privilegios se ampliaron gradualmente, incluido el derecho a elegir al juez municipal. El ataque husita de 1433 dañó gravemente la ciudad y paralizó la minería durante varias décadas, aunque después se reanudó la extracción y el procesamiento de minerales. Su historia muestra cómo la riqueza del subsuelo moldeó el gobierno, la economía y el carácter urbano de las ciudades mineras de Eslovaquia central."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – localidad tipo mundial del mineral libethenita",
+          "text": "El yacimiento de cobre de Podlipa, cerca de Ľubietová, es uno de los lugares mineralógicos más importantes de Eslovaquia. En 1823 se describió científicamente por primera vez allí la libethenita, un fosfato de cobre verde cuyo nombre deriva del nombre alemán de la localidad, Libethen. Podlipa es también la localidad tipo de la mrázekita, descrita en 1992. En la zona de oxidación de las antiguas minas aparecen malaquita, pseudomalaquita y otros minerales secundarios. Las escombreras, galerías y labores mineras se recuerdan hoy mediante un sendero educativo. La recogida de minerales está restringida y deben respetarse las señales locales de prohibición."
+        },
+        {
+          "id": "fact_003",
+          "title": "Alto horno de Tri Vody – vestigio de un complejo siderúrgico",
+          "text": "El alto horno de Tri Vody, dentro del término catastral de Ľubietová, comenzó a construirse en 1795 y producía hierro bruto a principios del siglo XIX. En la ferrería también se fundían tuberías, estufas, utensilios de hierro y balas de cañón. El complejo se modernizó y amplió en 1867–1868, pero la producción terminó tras un incendio devastador en 1882. Se conservó una parte del horno; sus restos fueron restaurados y consolidados en 1974. Hoy es un monumento técnico en un valle boscoso bajo el macizo de Ľubietovský Vepor. El lugar pertenece al término municipal de Ľubietová, aunque algunas fuentes turísticas lo relacionan de forma imprecisa con la vecina Osrblie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de Santa María Magdalena sobre Ľubietová",
+          "text": "La iglesia católica romana de Santa María Magdalena se alza en la ladera norte sobre Ľubietová y es uno de los monumentos más antiguos del municipio. El templo original se menciona ya en el siglo XIV; en 1520 fue consagrado junto con la capilla de Santa Ana adosada al lado norte. El portal gótico conservado y otros indicios arquitectónicos apuntan a un núcleo gótico más antiguo, transformado después profundamente en estilo barroco. El altar mayor de Santa María Magdalena data de 1782 y el púlpito es rococó. Un muro de piedra rodea el recinto, y el antiguo cementerio recuerda su función como centro religioso histórico sobre la localidad."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – un pueblo que abastecía las minas con cuerdas trenzadas",
+          "text": "Povrazník está históricamente ligado a la minería de Ľubietová y de los distritos cercanos. Los artesanos locales trenzaban cáñamo para fabricar cuerdas y cabos utilizados en las minas de Ľubietová, Špania Dolina y Staré Hory. Tres grandes piedras en el centro del pueblo son un testimonio singular de este oficio: tienen orificios tallados donde se fijaban dispositivos de madera para tensar y trenzar las cuerdas. El plan municipal de desarrollo también registra un campanario construido en 1928 con dos campanas, la mayor de 1792 y la menor de 1742. Así, Povrazník conserva una huella material del oficio que dio nombre al pueblo."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – primera mención escrita y antigua aldea dependiente",
+          "text": "Povrazník probablemente se formó en el siglo XIV, pero su primera mención escrita data del 22 de mayo de 1424. Un documento del rey húngaro Segismundo de Luxemburgo registra el asentamiento como Powraznik al conceder el señorío de Ľupča a su esposa Bárbara de Celje. Desde 1465 hasta 1848, Povrazník fue una aldea dependiente de la ciudad minera real libre de Ľubietová. Durante siglos, sus habitantes vivieron así dentro del ámbito económico y administrativo de un importante centro minero. Entre los nombres históricos posteriores figuran Zaillerdorff, Powraznyk y Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – la antigua Šajba bajo las laderas de Poľana",
+          "text": "Las fuentes históricas mencionan Strelníky en 1465 con el nombre de Šajba, como aldea dependiente de la ciudad minera de Ľubietová. La zona estuvo amenazada por incursiones otomanas en los siglos XVI y XVII, y el pueblo fue atacado en 1577. Más tarde, sus habitantes se dedicaron sobre todo a la cría de ovejas y ganado, la producción de carbón vegetal, la fabricación de utensilios de madera y el transporte con carros. El nombre Strelníky sustituyó a Šajba en 1948, aunque el antiguo nombre sigue formando parte de la identidad local. El pueblo se encuentra en las laderas septentrionales de Poľana y su término municipal alcanza la zona de protección del Área de Paisaje Protegido de Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – grupo folclórico que recupera canciones y costumbres de Šajba",
+          "text": "El grupo folclórico Šajbania, de Strelníky, recopila y recupera canciones populares, trajes tradicionales y costumbres locales. Entre sus actividades está la recuperación de desfiles de carnaval con máscaras, reuniones de hilanderas y veladas para desplumar plumas, encuentros vecinales de invierno en los que se trabajaba, cantaba y contaban historias. El grupo ha preparado programas sobre el verano y la Navidad en el pueblo y ha publicado un álbum con canciones olvidadas y redescubiertas de Strelníky. Su labor ayuda a conservar la memoria cultural de una comunidad que todavía mantiene vivo su nombre histórico, Šajba."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Place Vojtech-Dunajský – centre historique de Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – ville minière royale libre depuis 1379",
+          "text": "Ľubietová est née comme établissement minier et reçut ses privilèges urbains du roi Louis Ier de Hongrie en 1379. Elle devint l’une des villes minières libres du centre de la Slovaquie, puis membre de l’union des sept villes minières. Sa prospérité reposait sur l’extraction de l’or et surtout du cuivre. Ses privilèges furent progressivement élargis, notamment avec le droit d’élire son propre juge municipal. L’attaque des hussites en 1433 endommagea gravement la ville et interrompit presque l’activité minière pendant plusieurs décennies ; l’extraction et le traitement des minerais reprirent ensuite. Son histoire montre comment la richesse du sous-sol a façonné l’administration, l’économie et le caractère urbain des villes minières du centre slovaque."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – localité type mondiale du minéral libéthénite",
+          "text": "Le gisement de cuivre de Podlipa, près de Ľubietová, compte parmi les sites minéralogiques les plus importants de Slovaquie. C’est là qu’a été décrit scientifiquement pour la première fois, en 1823, le libéthénite, un phosphate de cuivre vert dont le nom vient de l’appellation allemande de la commune, Libethen. Podlipa est également la localité type de la mrázekite, décrite en 1992. La zone d’oxydation des anciennes mines de cuivre renferme aussi de la malachite, de la pseudomalachite et d’autres minéraux secondaires. Les terrils, galeries et anciens travaux miniers sont aujourd’hui évoqués par un sentier pédagogique. La collecte de minéraux est réglementée et les panneaux d’interdiction locaux doivent être respectés."
+        },
+        {
+          "id": "fact_003",
+          "title": "Haut-fourneau de Tri Vody – vestige d’un complexe sidérurgique",
+          "text": "Le haut-fourneau de Tri Vody, situé dans le territoire cadastral de Ľubietová, fut commencé en 1795 et produisait de la fonte au début du XIXe siècle. Le complexe sidérurgique fabriquait également des tuyaux, des poêles, des ustensiles en fer et des boulets de canon. Modernisé et agrandi en 1867–1868, il cessa sa production après un incendie dévastateur en 1882. Une partie du four subsista ; ses vestiges furent restaurés et consolidés en 1974. Il constitue aujourd’hui un monument technique dans une vallée boisée au pied du Ľubietovský Vepor. Le site se trouve bien dans le cadastre de Ľubietová, même si certaines sources touristiques l’associent de manière imprécise à la commune voisine d’Osrblie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église Sainte-Marie-Madeleine au-dessus de Ľubietová",
+          "text": "L’église catholique romaine Sainte-Marie-Madeleine se dresse sur le versant nord au-dessus de Ľubietová et compte parmi les plus anciens monuments de la commune. L’église d’origine est mentionnée dès le XIVe siècle ; en 1520, elle fut consacrée avec la chapelle Sainte-Anne accolée au côté nord. Le portail gothique conservé et d’autres traces architecturales témoignent d’un noyau gothique plus ancien, profondément remanié par la suite dans le style baroque. Le maître-autel dédié à sainte Marie-Madeleine date de 1782 et la chaire est de style rococo. Une enceinte de pierre entoure le site, tandis que l’ancien cimetière rappelle son rôle de centre religieux historique au-dessus du bourg."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – un village qui fournissait les mines en cordes tressées",
+          "text": "Povrazník est historiquement lié à l’activité minière de Ľubietová et des districts voisins. Les artisans locaux tressaient le chanvre pour fabriquer des cordes et des câbles utilisés dans les mines de Ľubietová, Špania Dolina et Staré Hory. Trois gros blocs de pierre au centre du village témoignent de façon singulière de ce métier : des trous y étaient taillés pour fixer des dispositifs en bois servant à tendre et tresser les cordes. Le plan de développement communal mentionne également un clocher construit en 1928 avec deux cloches, la plus grande datant de 1792 et la plus petite de 1742. Povrazník conserve ainsi une trace matérielle du métier qui a donné son nom au village."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – première mention écrite et ancien village dépendant",
+          "text": "Povrazník s’est probablement formé au XIVe siècle, mais sa première mention écrite date du 22 mai 1424. Un acte du roi de Hongrie Sigismond de Luxembourg mentionne le lieu sous le nom de Powraznik lors de la donation du domaine de Ľupča à son épouse Barbara de Cilley. De 1465 à 1848, Povrazník fut un village dépendant de la ville minière royale libre de Ľubietová. Pendant des siècles, ses habitants vécurent ainsi dans la sphère économique et administrative d’un important centre minier. Parmi les noms historiques ultérieurs figurent Zaillerdorff, Powraznyk et Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – l’ancienne Šajba sous les pentes de Poľana",
+          "text": "Les sources historiques mentionnent Strelníky en 1465 sous le nom de Šajba, comme village dépendant de la ville minière de Ľubietová. La région fut menacée par les incursions ottomanes aux XVIe et XVIIe siècles ; le village fut attaqué en 1577. Plus tard, les habitants vécurent surtout de l’élevage des moutons et du bétail, de la fabrication de charbon de bois, de la production d’outils en bois et du transport par charrette. Le nom Strelníky remplaça celui de Šajba en 1948, mais l’ancien nom reste un élément de l’identité locale. Le village se trouve sur les versants nord de Poľana et son territoire cadastral atteint la zone de protection du paysage protégé de Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – un groupe folklorique qui fait revivre les chants et coutumes de Šajba",
+          "text": "Le groupe folklorique Šajbania de Strelníky recueille et fait revivre les chants populaires, les costumes traditionnels et les coutumes locales. Il a notamment remis à l’honneur les cortèges masqués de carnaval, les veillées de filage et les soirées d’épluchage des plumes, rencontres hivernales entre voisins où l’on travaillait, chantait et racontait des histoires. Le groupe a créé des programmes consacrés à l’été et à Noël au village et publié un album de chants oubliés ou redécouverts de Strelníky. Son travail contribue à préserver la mémoire culturelle d’une communauté qui conserve encore son ancien nom, Šajba."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Piazza Vojtech Dunajský – centro storico di Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – città mineraria regia libera dal 1379",
+          "text": "Ľubietová nacque come insediamento minerario e nel 1379 ricevette i privilegi urbani dal re Luigi I d’Ungheria. Divenne una delle città minerarie libere della Slovacchia centrale e in seguito entrò nell’unione delle sette città minerarie. La sua prosperità derivava dall’estrazione dell’oro e soprattutto del rame. I privilegi furono progressivamente ampliati, compreso il diritto di eleggere il giudice cittadino. L’attacco degli hussiti del 1433 danneggiò gravemente la città e bloccò quasi del tutto l’attività mineraria per alcuni decenni; in seguito l’estrazione e la lavorazione dei minerali ripresero. La sua storia mostra come la ricchezza mineraria abbia plasmato amministrazione, economia e carattere urbano delle città minerarie della Slovacchia centrale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – località tipo mondiale del minerale libethenite",
+          "text": "Il giacimento di rame di Podlipa, vicino a Ľubietová, è uno dei siti mineralogici più importanti della Slovacchia. Qui nel 1823 fu descritto scientificamente per la prima volta il libethenite, un fosfato di rame verde il cui nome deriva dalla denominazione tedesca del paese, Libethen. Podlipa è anche la località tipo della mrázekite, descritta nel 1992. Nella zona di ossidazione delle antiche miniere di rame si trovano anche malachite, pseudomalachite e altri minerali secondari. I cumuli di scorie, le gallerie e le aree minerarie sono oggi ricordati da un sentiero didattico. La raccolta dei minerali è soggetta a restrizioni e occorre rispettare i divieti locali."
+        },
+        {
+          "id": "fact_003",
+          "title": "Altoforno di Tri Vody – testimonianza di un complesso siderurgico",
+          "text": "L’altoforno di Tri Vody, nel territorio catastale di Ľubietová, fu iniziato nel 1795 e produceva ghisa all’inizio del XIX secolo. Nel complesso siderurgico si fondevano anche tubi, stufe, utensili in ferro e palle di cannone. L’impianto fu modernizzato e ampliato nel 1867–1868, ma la produzione cessò dopo un devastante incendio nel 1882. Una parte del forno è sopravvissuta; i resti furono restaurati e consolidati nel 1974. Oggi è un monumento tecnico in una valle boscosa sotto il massiccio del Ľubietovský Vepor. Il sito si trova nel territorio catastale di Ľubietová, anche se alcune fonti turistiche lo associano genericamente alla vicina Osrblie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa di Santa Maria Maddalena sopra Ľubietová",
+          "text": "La chiesa cattolica romana di Santa Maria Maddalena sorge sul versante settentrionale sopra Ľubietová ed è uno dei monumenti più antichi del comune. La chiesa originaria è menzionata già nel XIV secolo; nel 1520 fu consacrata insieme alla cappella di Sant’Anna addossata al lato nord. Il portale gotico conservato e altre tracce architettoniche indicano un nucleo gotico più antico, successivamente rimaneggiato in modo significativo in stile barocco. L’altare maggiore dedicato a Santa Maria Maddalena risale al 1782, mentre il pulpito è rococò. Il complesso è circondato da un muro in pietra e l’antico cimitero ricorda il suo ruolo di centro religioso storico sopra il paese."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – il villaggio che riforniva le miniere di corde intrecciate",
+          "text": "Povrazník è storicamente legato all’attività mineraria di Ľubietová e dei distretti vicini. Gli artigiani locali intrecciavano la canapa per produrre corde e funi utilizzate nelle miniere di Ľubietová, Špania Dolina e Staré Hory. Tre grandi massi nel centro del villaggio sono una testimonianza insolita di questo mestiere: vi furono scavati fori per fissare dispositivi di legno con cui tendere e intrecciare le corde. Il piano di sviluppo comunale menziona anche un campanile costruito nel 1928 con due campane, la maggiore del 1792 e la minore del 1742. Povrazník conserva così una traccia materiale dell’artigianato che ha dato il nome al villaggio."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – prima menzione scritta e antico villaggio dipendente",
+          "text": "Povrazník si formò probabilmente nel XIV secolo, ma la prima menzione scritta risale soltanto al 22 maggio 1424. Un documento del re ungherese Sigismondo di Lussemburgo cita l’insediamento come Powraznik quando la signoria di Ľupča fu concessa alla moglie Barbara di Cilli. Dal 1465 al 1848 Povrazník fu un villaggio dipendente dalla libera città mineraria regia di Ľubietová. Per secoli i suoi abitanti vissero quindi nell’ambito economico e amministrativo di un importante centro minerario. Tra i nomi storici successivi figurano Zaillerdorff, Powraznyk e Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – l’antica Šajba ai piedi dei pendii della Poľana",
+          "text": "Le fonti storiche citano Strelníky nel 1465 con il nome di Šajba, come villaggio dipendente dalla città mineraria di Ľubietová. La zona fu minacciata dalle incursioni ottomane nei secoli XVI e XVII e il villaggio venne attaccato nel 1577. In seguito gli abitanti si dedicarono soprattutto all’allevamento di pecore e bovini, alla produzione di carbone di legna, alla fabbricazione di utensili in legno e al trasporto con carri. Il nome Strelníky sostituì Šajba nel 1948, ma il nome antico fa ancora parte dell’identità locale. Il paese si trova sui versanti settentrionali della Poľana e il suo territorio catastale raggiunge la zona di protezione dell’Area paesaggistica protetta della Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – il gruppo folkloristico che fa rivivere canti e usanze di Šajba",
+          "text": "Il gruppo folkloristico Šajbania di Strelníky raccoglie e fa rivivere canti popolari, costumi tradizionali e usanze locali. Tra le sue attività vi è il recupero delle sfilate carnevalesche in maschera, delle veglie di filatura e delle serate di spiumatura delle piume: incontri invernali tra vicini durante i quali si lavorava, cantava e raccontavano storie. Il gruppo ha creato programmi dedicati all’estate e al Natale nel villaggio e ha pubblicato un album con canti dimenticati e riscoperti di Strelníky. Il suo lavoro contribuisce a conservare la memoria culturale di una comunità che mantiene vivo il nome storico di Šajba."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Vojtech Dunajskýplein – het historische centrum van Ľubietová",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ľubietová – vrije koninklijke mijnstad sinds 1379",
+          "text": "Ľubietová ontstond als mijnnederzetting en kreeg in 1379 stadsrechten van koning Lodewijk I van Hongarije. Het werd een van de vrije mijnsteden van Centraal-Slowakije en trad later toe tot het verbond van zeven mijnsteden. De welvaart kwam voort uit de winning van goud en vooral koper in de omliggende mijngebieden. De privileges werden geleidelijk uitgebreid, onder meer met het recht om een eigen stadsrechter te kiezen. De Hussitische aanval van 1433 beschadigde de stad zwaar en legde de mijnbouw tientallen jaren vrijwel stil; later werden de winning en verwerking van ertsen hervat. De geschiedenis laat zien hoe minerale rijkdom het bestuur, de economie en het stadsbeeld van de mijnsteden in Centraal-Slowakije vormde."
+        },
+        {
+          "id": "fact_002",
+          "title": "Podlipa – de wereldwijde typelocatie van het mineraal libetheniet",
+          "text": "De kopermijn van Podlipa bij Ľubietová is een van de belangrijkste mineralogische vindplaatsen van Slowakije. In 1823 werd hier voor het eerst het groene koperfosfaat libetheniet wetenschappelijk beschreven; de naam is afgeleid van de Duitse plaatsnaam Libethen. Podlipa is ook de typelocatie van mrázekiet, dat in 1992 werd beschreven. In de oxidatiezone van de oude kopermijnen komen ook malachiet, pseudomalachiet en andere secundaire mineralen voor. Mijnsteenbergen, mijngangen en oude ontginningen worden tegenwoordig herinnerd door een educatief wandelpad. Het verzamelen van mineralen is beperkt; bezoekers moeten de plaatselijke verbodsborden respecteren."
+        },
+        {
+          "id": "fact_003",
+          "title": "Hoogoven van Tri Vody – overblijfsel van een ijzercomplex",
+          "text": "De hoogoven bij Tri Vody, binnen het kadastrale gebied van Ľubietová, werd in 1795 gebouwd en produceerde aan het begin van de negentiende eeuw ruwijzer. In het ijzercomplex werden ook buizen, kachels, ijzeren gebruiksvoorwerpen en kanonskogels gegoten. Het complex werd in 1867–1868 gemoderniseerd en uitgebreid, maar na een verwoestende brand in 1882 kwam de productie ten einde. Een deel van de oven bleef behouden; de resten werden in 1974 deskundig gerestaureerd en geconserveerd. Tegenwoordig is het een technisch erfgoedmonument in een bebost dal onder het Ľubietovský Vepor-massief. De locatie ligt binnen het grondgebied van Ľubietová, hoewel sommige toeristische bronnen haar losjes met het naburige Osrblie verbinden."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kerk van de heilige Maria Magdalena boven Ľubietová",
+          "text": "De rooms-katholieke kerk van de heilige Maria Magdalena staat op de noordelijke helling boven Ľubietová en behoort tot de oudste monumenten van de gemeente. De oorspronkelijke kerk wordt al in de veertiende eeuw vermeld; in 1520 werd zij ingewijd samen met de aan de noordzijde aangebouwde kapel van Sint-Anna. Het bewaard gebleven gotische portaal en andere bouwsporen wijzen op een oudere gotische kern, die later ingrijpend in barokstijl werd verbouwd. Het hoofdaltaar van de heilige Maria Magdalena dateert uit 1782 en de preekstoel is rococo. Een stenen muur omringt het terrein; de voormalige begraafplaats herinnert aan de vroegere religieuze kern boven het dorp."
+        },
+        {
+          "id": "fact_005",
+          "title": "Povrazník – het dorp dat mijnen van gevlochten touwen voorzag",
+          "text": "Povrazník is historisch verbonden met de mijnbouw in Ľubietová en de omliggende gebieden. Lokale ambachtslieden vlochten hennep tot touwen en kabels voor de mijnen van Ľubietová, Špania Dolina en Staré Hory. Drie grote stenen in het dorpscentrum vormen een bijzonder tastbaar bewijs van dit ambacht: in de stenen zijn gaten uitgehouwen waarin houten werktuigen werden bevestigd om de touwen strak te trekken en te vlechten. Het gemeentelijke ontwikkelingsplan vermeldt ook een klokkentoren uit 1928 met twee klokken; de grootste dateert uit 1792 en de kleinere uit 1742. Zo bewaart Povrazník een materieel spoor van het touwmakersambacht waaraan het dorp zijn naam dankt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Povrazník – eerste schriftelijke vermelding en voormalig horig dorp",
+          "text": "Povrazník ontstond vermoedelijk in de veertiende eeuw, maar de eerste schriftelijke vermelding dateert pas van 22 mei 1424. Een oorkonde van de Hongaarse koning Sigismund van Luxemburg noemt de nederzetting Powraznik bij de schenking van het domein Ľupča aan zijn vrouw Barbara van Cilli. Van 1465 tot 1848 was Povrazník een horig dorp van de vrije koninklijke mijnstad Ľubietová. Eeuwenlang leefden de inwoners daardoor binnen de economische en bestuurlijke invloedssfeer van een belangrijk mijnbouwcentrum. Latere historische namen waren onder meer Zaillerdorff, Powraznyk en Powrasník."
+        },
+        {
+          "id": "fact_007",
+          "title": "Strelníky – het vroegere Šajba onder de hellingen van Poľana",
+          "text": "Historische bronnen vermelden Strelníky in 1465 onder de naam Šajba als horig dorp van de mijnstad Ľubietová. Het gebied werd in de zestiende en zeventiende eeuw bedreigd door Ottomaanse invallen; in 1577 werd het dorp aangevallen. Later leefden de inwoners vooral van schapen- en veeteelt, houtskoolbranden, het maken van houten gereedschap en vervoer met karren. De naam Strelníky verving Šajba in 1948, maar de oude naam maakt nog altijd deel uit van de lokale identiteit. Het dorp ligt op de noordelijke hellingen van Poľana en het kadastrale gebied reikt tot de beschermingszone van het beschermde landschapsgebied Poľana."
+        },
+        {
+          "id": "fact_008",
+          "title": "Šajbania – folkloristische groep die liederen en gebruiken van Šajba nieuw leven inblaast",
+          "text": "De folkloristische groep Šajbania uit Strelníky verzamelt en brengt plaatselijke volksliederen, klederdracht en gebruiken opnieuw tot leven. De groep blies onder meer gemaskerde carnavalsoptochten, spinbijeenkomsten en avonden waarop veren werden geplukt nieuw leven in: winterse bijeenkomsten van buren waar samen werd gewerkt, gezongen en verteld. De groep maakte programma’s over de zomer en Kerstmis in het dorpsleven en bracht een album uit met vergeten en herontdekte liederen uit Strelníky. Zo helpt zij het culturele geheugen te bewaren van een gemeenschap die haar historische naam Šajba nog steeds met zich meedraagt."
+        }
+      ]
+    }
+  }
 }
