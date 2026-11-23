@@ -4,7 +4,7 @@
 
 This profile defines the intended Austrian meaning of postal, geographic and administrative concepts used by TRAVEL / EuropeExplorer records. It is a working baseline, not yet an approved final country specification.
 
-The schema defines technical field names, types and controlled values. This profile defines Austrian meanings. The Content Standard and operational prompts must implement both without inventing extra fields or weakening the shared TRAVEL content requirements.
+The schema defines technical field names, types and controlled values. Its structure is identical to the Czech origin except for the Austrian four-digit PLZ pattern. This profile defines Austrian meanings. The Content Standard and operational prompts must implement both without inventing extra fields or weakening the shared TRAVEL content requirements.
 
 ## Geographic production unit
 
