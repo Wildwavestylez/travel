@@ -31,20 +31,21 @@ Research the full defensible area associated with the selected PLZ. If the code 
 
 1. Confirm the exact four-digit code and its inclusion in the approved geographic-only inventory.
 2. Apply the eligibility gate: confirm from official online postal sources that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or other operational/non-geographic code.
-3. Establish the actual geographic scope using official geographic/address and administrative sources. Do not assume a polygon exists.
-4. Identify the associated municipality/municipalities and relevant localities using authoritative evidence.
-5. Establish the Bundesland and applicable political Bezirk/statutory-city context.
-5. Select a defensible representative place and coordinates for the entire PLZ content unit.
-6. Conduct broad German-language discovery across the full geographic scope, using the thematic checklist in the Content Standard.
-7. Identify major and less obvious locally significant places, stories, people, heritage, nature, science, industry and visitor experiences.
-8. Verify each candidate fact with sources competent for its claims.
-9. Establish the actual physical location of each fact and its defensible relationship to the selected PLZ area.
-10. Check for duplicate or competing primary assignments in neighbouring records.
-11. Write concise but substantive Czech source-language facts and complete all seven required translations.
-12. Build the complete JSON using only approved schema fields and controlled values.
-13. Validate the entire JSON against the approved schema and all Content Standard requirements.
-14. Save the complete reworked JSON to `data/austria/records/{postcode}.json`, replacing the minimal placeholder. Set `status` to `validated` only after the complete record passes schema and content validation. Never save a partial content record as `validated`.
-15. Rework completion and publication are distinct lifecycle states. A completed rework is `validated`, not `published`. Do not mark a record `published` during rework; publication follows only after the separate final audit, V5 preparation and approval.
+3. Establish the actual geographic scope using official geographic/address and postal sources. Do not assume a polygon exists.
+4. Identify the specific post office / postal service location assigned to the PLZ (relevant Leitort / Postamt). Verify its assignment from Austrian Post PLZ information and its current physical address from the official Filialfinder or another official Austrian Post source. Do not substitute Bestimmungsort, Postfach, sorting centre, distribution centre or Zustellbasis.
+5. Set `city` to the one political Gemeinde in which that assigned postal facility is physically located. Verify its official municipality name and address-to-municipality relationship using BEV Adressregister / Statistik Austria. Set `district`, `county` and `state` from that municipality according to the Content Standard. If the assigned facility cannot be uniquely established, flag the header for resolution instead of guessing.
+6. Separately identify all settlements, municipalities and localities associated with the full geographic PLZ area. This is the research scope for facts; it is not limited to the municipality in `city`.
+7. Select a defensible representative place and coordinates for the entire PLZ content unit. This is independent of the post office and need not be in the `city` municipality if the full-area evidence supports another anchor.
+8. Conduct broad German-language discovery across the full geographic scope, using the thematic checklist in the Content Standard.
+9. Identify major and less obvious locally significant places, stories, people, heritage, nature, science, industry and visitor experiences across all associated localities.
+10. Verify each candidate fact with sources competent for its claims.
+11. Establish the actual physical location of each fact and its defensible relationship to the selected PLZ area.
+12. Check for duplicate or competing primary assignments in neighbouring records.
+13. Write concise but substantive Czech source-language facts and complete all seven required translations.
+14. Build the complete JSON using only approved schema fields and controlled values.
+15. Validate the entire JSON against the approved schema and all Content Standard requirements.
+16. Save the complete reworked JSON to `data/austria/records/{postcode}.json`, replacing the minimal placeholder. Set `status` to `validated` only after the complete record passes schema and content validation. Never save a partial content record as `validated`.
+17. Rework completion and publication are distinct lifecycle states. A completed rework is `validated`, not `published`. Do not mark a record `published` during rework; publication follows only after the separate final audit, V5 preparation and approval.
 
 ## Austrian authority routing — mandatory
 
@@ -52,7 +53,8 @@ Before researching a PLZ, use the complete source catalogue in `data/austria/COU
 
 Minimum source routing:
 - PLZ existence, postal destination and postal purpose: Österreichische Post Postlexikon, its current PLZ directory and legend; cross-check the inventory with RTR's current monthly Open Data publication.
-- Geographic address/PLZ relationship and coordinates: BEV Adressregister / official address search. Do not infer a polygon from address points.
+- Assigned post office / Leitort and its physical facility address: Austrian Post's PLZ information plus the official Filialfinder or another official Austrian Post facility record. The postal Bestimmungsort alone does not identify the physical municipality of the post office.
+- Geographic address/PLZ relationship, facility address and municipality: BEV Adressregister / official address search, with Statistik Austria for official municipality names and administrative metadata. Do not infer a polygon from address points.
 - Municipality, political Bezirk, statutory city, Bundesland and identifiers: Statistik Austria current regional divisions and Gemeindeverzeichnis. These are search metadata only and do not determine the content boundary.
 - Local geographic context: basemap.at, BEV and the relevant official provincial/municipal GIS.
 - Monuments: Bundesdenkmalamt lists and applicable legal instruments; remember that the published Denkmalliste itself is not legally binding.
@@ -62,7 +64,7 @@ Minimum source routing:
 - History: Österreichisches Staatsarchiv, relevant Landes-/Stadt-/Gemeindearchiv, Österreichische Nationalbibliothek ANNO, museums and specialist literature.
 - Visitor operation/access: official site operator or responsible institution; tourism portals are discovery aids, not substitutes for legal, historical or scientific evidence.
 
-If the official sources disagree, record both values and their reference dates and resolve the exact issue. Never silently choose a convenient value. A postal Bestimmungsort is not automatically a municipality; a postal code listing does not prove geographic eligibility; a BEV address point does not prove a PLZ polygon.
+If the official sources disagree, record both values and their reference dates and resolve the exact issue. Never silently choose a convenient value. A postal Bestimmungsort is not automatically a municipality or the physical location of the assigned post office. Verify the single header municipality from the actual assigned postal facility address. Research facts across the full geographic PLZ area, including all associated municipalities. A postal code listing does not prove geographic eligibility; a BEV address point does not prove a PLZ polygon.
 
 ## Source access policy
 
@@ -77,6 +79,7 @@ If the official sources disagree, record both values and their reference dates a
 - If geographic eligibility or territorial scope cannot be established, stop and report the uncertainty instead of guessing.
 - Do not invent facts, source URLs, administrative relationships, postcode boundaries or coordinates.
 - Do not split four-digit PLZ into address-level production records.
+- Set header `city` to the one political municipality where the post office / postal facility assigned to the geographic PLZ is physically located; do not use Bestimmungsort as a substitute. Keep the full geographic PLZ area and all its associated settlements in the fact-research scope.
 - Do not treat an address/contact postcode as proof of a site's physical PLZ.
 - Do not use one fact's location as another fact's location.
 - Do not copy the representative point into fact locations.
