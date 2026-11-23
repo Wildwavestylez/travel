@@ -64,7 +64,7 @@ Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (p
 - 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
 - 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
 
-Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 15 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
+Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 13 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
 
 ## 4. Mechanické kontroly
 
@@ -113,16 +113,16 @@ Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Ryná
 
 ### 5.2 Zbývající location=null
 
-Při geografickém pokračování byly doplněny čtyři obhajitelné orientační polohy a všechny byly načteny zpět:
+Při geografickém pokračování bylo doplněno šest obhajitelných orientačních poloh a všechny byly načteny zpět:
+- 39404/fact_004 — kolomazný kámen u úřadu městyse Nový Rychnov; orientační poloha na adrese úřadu 49.3833219, 15.3663073; `approximate`.
+- 39404/fact_005 — osobnost Viléma Pospíšila; mapový bod na radnici u pamětní desky, 49.3833111, 15.3662361; `approximate`. Vila u silnice na Čejkov je doložena, ale její přesný bod zatím nebyl ověřen.
 - 39411/fact_003 — pomník obětem obou světových válek v jižní ohradní zdi hřbitova v Cetorazi; poloha areálu hřbitova, 49.455397, 14.956683; `area_representative`.
 - 39412/fact_003 — pomník obětem první světové války u obecního hřbitova v Obratani; orientační poloha hřbitova, 49.4262306, 14.9372444; `approximate`.
 - 39428/fact_002 — kaple sv. Jana Křtitele na Stražišti; 49.53393, 15.00044; `approximate`.
 - 39428/fact_004 — parčík pod kostelem sv. Jana Křtitele ve Velké Chyšce, kde stojí socha sv. Jana Nepomuckého; orientační bod, 49.5116583, 15.0375139; `approximate`.
 
-Zůstává 15 případů:
+Zůstává 13 případů:
 - 39403/fact_001 — historický vývoj města bez jediného objektu.
-- 39404/fact_004 — kolomazný kámen; konkrétní poloha u úřadu městyse je popsána, ale nebyly ověřeny souřadnice úřadu/kamene.
-- 39404/fact_005 — osobnost Viléma Pospíšila; rodný dům/vila existují v příběhu, ale bezpečný konkrétní bod zatím nebyl ověřen.
 - 39404/fact_006 — polní opevnění V Šancích; doložena širší lokalita, nikoli bezpečný bod.
 - 39404/fact_007 — osud rodin Ančerlových a Stettnerových; konkrétní místo události není doloženo.
 - 39412/fact_004 — více paměťových míst kolem kostela, nikoli jeden objekt.
