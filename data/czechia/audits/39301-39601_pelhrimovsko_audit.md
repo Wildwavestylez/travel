@@ -113,28 +113,29 @@ Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Ryná
 
 ### 5.2 Zbývající location=null
 
-Při geografickém pokračování bylo doplněno šest obhajitelných orientačních poloh a všechny byly načteny zpět:
-- 39404/fact_004 — kolomazný kámen u úřadu městyse Nový Rychnov; orientační poloha na adrese úřadu 49.3833219, 15.3663073; `approximate`.
-- 39404/fact_005 — osobnost Viléma Pospíšila; mapový bod na radnici u pamětní desky, 49.3833111, 15.3662361; `approximate`. Vila u silnice na Čejkov je doložena, ale její přesný bod zatím nebyl ověřen.
+Při pokračujícím geografickém průchodu bylo doplněno 17 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
+
+- 39403/fact_001 — historický vývoj Horní Cerekve; kostel Zvěstování Páně jako orientační bod historického jádra, 49.318952, 15.329738; `area_representative`.
+- 39404/fact_004 — kolomazný kámen u úřadu městyse Nový Rychnov; orientační poloha na adrese úřadu, 49.3833219, 15.3663073; `approximate`.
+- 39404/fact_005 — Vilém Pospíšil; radnice Nový Rychnov u pamětní desky, 49.3833111, 15.3662361; `approximate`. Vila u silnice na Čejkov je doložena, ale její přesný bod nebyl ověřen.
+- 39404/fact_006 — polní opevnění V Šancích; orientační bod bastionové reduty u Rohozné, 49.3642173, 15.3824856; `approximate`. Přiřazení k místnímu označení V Šancích je geograficky odvozeno z popisu polohy za Novým Rychnovem směrem k Rohozné, nikoli doloženo totožným názvem v odborném článku.
 - 39411/fact_003 — pomník obětem obou světových válek v jižní ohradní zdi hřbitova v Cetorazi; poloha areálu hřbitova, 49.455397, 14.956683; `area_representative`.
 - 39412/fact_003 — pomník obětem první světové války u obecního hřbitova v Obratani; orientační poloha hřbitova, 49.4262306, 14.9372444; `approximate`.
-- 39428/fact_002 — kaple sv. Jana Křtitele na Stražišti; 49.53393, 15.00044; `approximate`.
+- 39412/fact_004 — více paměťových míst v okolí kostela v Obratani; kostel sv. Petra a Pavla jako veřejný orientační bod, 49.425, 14.944; `approximate`.
+- 39412/fact_005 — dvě usedlosti lidové architektury; historické jádro Obrataně jako orientační bod, 49.425057, 14.943486; `area_representative`.
+- 39426/fact_005 — archeologická lokalita středověkého výrobního areálu v nivě Lukaveckého potoka; Dřevozpracující družstvo jako orientační bod přibližně 100 m od lokality, 49.5623744, 14.9825476; `area_representative`.
+- 39428/fact_002 — kaple sv. Jana Křtitele na Stražišti, 49.53393, 15.00044; `approximate`.
 - 39428/fact_004 — parčík pod kostelem sv. Jana Křtitele ve Velké Chyšce, kde stojí socha sv. Jana Nepomuckého; orientační bod, 49.5116583, 15.0375139; `approximate`.
+- 39428/fact_006 — historie SDH Velká Chyška; sídlo sboru / hasičská zbrojnice č.p. 138, 49.5092732, 15.0364334; `approximate`.
+- 39428/fact_007 — soubor drobných sakrálních památek; historické jádro Velké Chyšky jako orientační bod, 49.5117564, 15.0372645; `area_representative`.
+- 39452/fact_001 — historický vývoj Kejžlice; obecní úřad jako orientační bod historického sídla, 49.5896573, 15.3918274; `area_representative`.
+- 39459/fact_001 — historický vývoj Koberovic; pošta a obecní budova č.p. 42 jako orientační bod vsi, 49.5863247, 15.2638392; `area_representative`.
+- 39459/fact_003 — bývalá škola Koberovice 42, dnes využívaná hasičským klubem; 49.5863247, 15.2638392; `approximate`.
+- 39462/fact_001 — historický vývoj Libkovy Vody; pošta č.p. 61 jako orientační bod historické vsi, 49.3759696, 15.1892659; `area_representative`.
 
-Zůstává 13 případů:
-- 39403/fact_001 — historický vývoj města bez jediného objektu.
-- 39404/fact_006 — polní opevnění V Šancích; doložena širší lokalita, nikoli bezpečný bod.
-- 39404/fact_007 — osud rodin Ančerlových a Stettnerových; konkrétní místo události není doloženo.
-- 39412/fact_004 — více paměťových míst kolem kostela, nikoli jeden objekt.
-- 39412/fact_005 — dvě usedlosti lidové architektury, tedy více míst.
-- 39426/fact_005 — archeologická lokalita zaniklých Brankovic/dehtářů; lokalizace v nivě Lukaveckého potoka východně od Dřevozpracujícího družstva je známa, ale přesný bod výzkumu nebyl ověřen.
-- 39428/fact_006 — historie dobrovolných hasičů, nikoli jedno konkrétní místo.
-- 39428/fact_007 — více drobných sakrálních objektů.
-- 39451/fact_003 — zaniklé panské sídlo a lihovar bez bezpečně určené polohy.
-- 39452/fact_001 — historický vývoj obce bez jediného objektu.
-- 39459/fact_001 — historický vývoj obce bez jediného objektu.
-- 39459/fact_003 — škola v Koberovicích; přesný bod budovy zatím nebyl ověřen.
-- 39462/fact_001 — historický vývoj obce bez jediného objektu.
+Zůstávají pouze dva případy:
+- 39404/fact_007 — osud rodin Ančerlových a Stettnerových; konkrétní místo jejich zatčení, deportace či úmrtí není doloženo a nebyl nalezen bezpečný lokální pamětní bod.
+- 39451/fact_003 — zaniklé panské sídlo a lihovar v Kalištích; znám je areál někdejšího vrchnostenského dvora, ale přesná poloha zaniklých staveb nebyla bezpečně ověřena.
 
 ### 5.3 Sémantická kontrola překladů
 
@@ -149,4 +150,4 @@ Strukturální kontrola všech sedmi jazyků PASS. Úplná individuální séman
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
-**Další krok:** dokončit geografické posouzení zbývajících 13 poloh a individuální sémantickou kontrolu původních překladů. Teprve poté lze výsledek změnit na PASS.
+**Další krok:** dokončit posouzení dvou zbývajících poloh a individuální sémantickou kontrolu původních překladů. Teprve poté lze výsledek změnit na PASS.
