@@ -212,7 +212,7 @@ Při pokračujícím geografickém průchodu bylo doplněno 22 obhajitelných po
 - 39462/fact_004 — soubor tří raně barokních božích muk na cestách z Libkovy Vody; pošta č.p. 61 jako orientační bod vsi, 49.3759696, 15.1892659; `area_representative`.
 - 39462/fact_001 — historický vývoj Libkovy Vody; pošta č.p. 61 jako orientační bod historické vsi, 49.3759696, 15.1892659; `area_representative`.
 
-Poslední dvě dříve prázdné polohy byly doplněny jako reprezentativní body obcí:
+Poslední dvě dříve prázdné polohy byly doplněny jako reprezentativní body obcí; nejde o přesná místa historických událostí či zaniklých budov:
 - 39404/fact_007 — osud rodin Ančerlových a Stettnerových; Úřad městyse Nový Rychnov č.p. 87 jako reprezentativní bod obce, 49.3833219, 15.3663073; `area_representative`. Nejde o doložené místo zatčení či deportace.
 - 39451/fact_003 — zaniklé panské sídlo a lihovar v Kalištích; Obecní úřad Kaliště č.p. 92 jako reprezentativní bod vsi, 49.5926961, 15.3019819; `area_representative`. Nejde o přesné umístění zaniklých budov.
 
