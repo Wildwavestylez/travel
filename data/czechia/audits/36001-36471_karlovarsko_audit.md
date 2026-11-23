@@ -87,15 +87,14 @@ V rámci následného reworku bylo zkontrolováno 136 faktů v PSČ 36001, 36005
 
 ### Aktuální globální kontrola prázdných poloh
 
-Nový SQL read-back celé skupiny 27 PSČ původně odhalil 20 faktů s `location: null`. Sedmnáct poloh bylo následně doplněno a ověřeno. Aktuálně zbývají pouze 3 prázdné polohy:
+Nový cílený SQL read-back přesného seznamu 27 PSČ původně odhalil 20 faktů s `location: null`. Osmnáct poloh bylo následně doplněno a ověřeno. Aktuálně zbývají pouze 2 prázdné polohy:
 
 | PSČ | Fakta | Stav |
 |---|---|---|
 | 36273 | fact_004 | Pískovna u Vojkovic — záměrně ponecháno bez souřadnic podle výslovného pokynu |
-| 36301 | fact_012 | Stráž nad Ohří — historický příběh pokrývá celé sídlo a více částí obce; bez jednoho spolehlivého bodu |
 | 36401 | fact_012 | Kosmová a Kojšovice — dvě samostatné vesnické památkové zóny, nelze je korektně zastoupit jediným bodem |
 
-Nově doplněné polohy (17 od zahájení této dodatečné kontroly):
+Nově doplněné polohy (18 od zahájení této dodatečné kontroly):
 - 36301 / `fact_002`: Ostrovský zámek — přesná poloha areálu.
 - 36301 / `fact_009`: Dům kultury Ostrov — přesná poloha podle podkladů města.
 - 36301 / `fact_010`: Borecké rybníky — reprezentativní bod chráněného území.
@@ -113,8 +112,9 @@ Nově doplněné polohy (17 od zahájení této dodatečné kontroly):
 - 36401 / `fact_003`: historické centrum Toužimi — reprezentativní bod městského půdorysu a opevnění.
 - 36401 / `fact_006`: kostel sv. Víta v Útvině — přesná poloha památky, která je hlavním dochovaným bodem příběhu zaniklého středověkého města.
 - 36401 / `fact_010`: kostelní návrší v Otročíně — přibližný bod starého slovanského sídliště.
+- 36301 / `fact_012`: Stráž nad Ohří — přibližný reprezentativní bod centra sídla podle zveřejněné GPS polohy obce.
 
-Zbývající dvě tematicky vícemístné položky (36301/fact_012 a 36401/fact_012) zůstávají bez bodu, protože jediná souřadnice by zavádějícím způsobem zastupovala celé území nebo dvě oddělené vesnice. Pískovna u Vojkovic zůstává záměrně nedotčená.
+Jedinou tematicky vícemístnou položkou bez bodu zůstává 36401/fact_012: fakt spojuje dvě samostatné vesnické památkové zóny (Kosmovou a Kojšovice), které nelze korektně zastoupit jedinou souřadnicí. Pískovna u Vojkovic zůstává záměrně nedotčená.
 ## 5. Překlady a nově upravené texty
 
 V původním auditu byly nové a upravené fakty synchronizovány v jazycích `cs, de, en, es, fr, it, nl`.
@@ -161,7 +161,7 @@ Původní seznam 51 krátkých českých textů je vyřešen: všech 51 položek
 - Český text kratší než 350 znaků: 0/299.
 - Devět reworkovaných PSČ: 136 faktů, 952 překladových položek, kompletní jazykové sady, 0 prázdných textů, 0 českých nesouladů, 0 chybějících zdrojů.
 - Polohy v devíti reworkovaných PSČ: 135/136 vyplněno; jedinou výjimkou je záměrně negeolokalizovaná pískovna 36273/fact_004.
-- Prázdné polohy v celé skupině 27 PSČ: 3 položky; jedna je záměrně vynechaná pískovna a dvě jsou vícemístné příběhy bez vhodného jediného bodu.
+- Prázdné polohy v celé skupině 27 PSČ: 2 položky; jedna je záměrně vynechaná pískovna a jedna je vícemístný příběh dvou oddělených vesnic bez vhodného jediného bodu.
 - Kompletní sémantická kontrola všech původních cizojazyčných překladů: OPEN.
 
-**Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a kontrola dvou vícemístných příběhů bez vhodného jediného bodu; pískovna zůstává záměrně bez souřadnic. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
+**Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a kontrola jednoho vícemístného příběhu dvou oddělených vesnic bez vhodného jediného bodu; pískovna zůstává záměrně bez souřadnic. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
