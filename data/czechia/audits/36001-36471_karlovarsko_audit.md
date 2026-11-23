@@ -66,51 +66,64 @@ V rámci průzkumu nebyla zjištěna další chybějící památka srovnatelnéh
 
 ## 4. Polohy a mapové body
 
-Původně byly zjištěny dvě hodnoty `location: null`, obě v PSČ 36272. Obě byly vyřešeny:
-
+Původní audit doplnil dvě chybějící polohy v PSČ 36272:
 - 36272 / `fact_006`: kostel sv. Václava v Radošově — doplněna konkrétní poloha.
 - 36272 / `fact_008`: archeologické lokality poštovního obvodu — doplněna reprezentativní poloha typu `postal_area`.
 
 U `fact_008` v 36272 byl zároveň opraven geografický rozsah textu: odstraněn Velichov, který do tohoto poštovního obvodu nepatří; příběh nyní zůstává u lokalit v okolí Kyselky, Dubiny, Radošova a Nové Kyselky.
 
-Nové či doplněné mapové body byly vloženy a ověřeny pro:
+Nové či doplněné mapové body z původního auditu:
 - 36001 / `fact_030`, `fact_031`
 - 36272 / `fact_006`, `fact_008`
 - 36301 / `fact_013`, `fact_014`
 
-Celkem **6/6 mapových bodů**. Ostatní již existující nenulové souřadnice nebyly plošně přepočítávány.
+Celkem **6/6 nových bodů** bylo zapsáno.
+
+### Dodatečná kontrola devíti reworkovaných PSČ
+
+V rámci následného reworku bylo zkontrolováno 136 faktů v PSČ 36001, 36005, 36221, 36225, 36235, 36262, 36273, 36461 a 36471. U 135 faktů je poloha vyplněna. Jedinou hodnotou `location: null` je:
+
+- 36273 / `fact_004` — Pískovna u Vojkovic. Poloha zůstává záměrně prázdná; samotná parcela nebyla spolehlivě geolokalizována a souřadnice se neodhadují.
+
+### Aktuální globální kontrola prázdných poloh
+
+Nový SQL read-back celé skupiny 27 PSČ odhalil celkem 20 faktů s `location: null`. Kromě výše uvedené pískovny jde o následující dosud neuzavřené položky:
+
+| PSČ | Fakta |
+|---|---|
+| 36018 | fact_002 |
+| 36263 | fact_006, fact_007, fact_008 |
+| 36301 | fact_002, fact_007, fact_008, fact_009, fact_010, fact_011, fact_012 |
+| 36401 | fact_003, fact_005, fact_006, fact_007, fact_008, fact_010, fact_012 |
+| 36464 | fact_006 |
+
+Tyto položky nebyly v aktuálním devítikódovém reworku upravovány. `location: null` zde znamená otevřenou kontrolu mapovatelnosti; neznamená automatické povolení vložit nepodložený bod.
 
 ## 5. Překlady a nově upravené texty
 
-U nových faktů `36001/fact_030`, `36001/fact_031`, `36301/fact_013`, `36301/fact_014` a upravených faktů `36251/fact_008`, `36272/fact_008` byly doplněny nebo synchronizovány texty v jazycích:
+V původním auditu byly nové a upravené fakty synchronizovány v jazycích `cs, de, en, es, fr, it, nl`.
 
-`cs, de, en, es, fr, it, nl`.
+Následný rework devíti PSČ rozšířil obsah a překlady. Souhrnný read-back Supabase potvrdil:
 
-Read-back potvrdil:
-- existenci položky ve všech sedmi jazycích u všech šesti změněných faktů;
-- shodu české překladové položky `translations.cs` s českým master textem;
-- neprázdné cizojazyčné texty u všech změněných faktů;
-- délku všech nových/upravených českých textů nad 350 znaků.
+- **136 faktů** v devíti reworkovaných záznamech;
+- **952 překladových položek** (136 faktů × 7 jazyků);
+- všech sedm jazykových sad má přesně odpovídající ID faktů;
+- žádný prázdný titul ani text;
+- nulový rozdíl mezi českým master textem a `translations.cs`;
+- nulový nesoulad mezi `content.sources` a sloupcem `sources`;
+- všech 136 faktů má neprázdné pole zdrojů.
 
-Tento výsledek **neznamená**, že byla provedena kompletní sémantická kontrola všech původních 295 faktů ve všech šesti cizích jazycích. Taková plošná kontrola zůstává otevřená.
+V tomto průchodu bylo plně aktualizováno 18 rozšířených faktů ve všech sedmi jazycích (126 položek). Další dva rozšířené fakty v 36005 dostaly nové texty ve všech šesti cizích jazycích. Následná kontrola navíc odhalila čtyři zastaralé české překladové položky v `translations.cs` (36005/fact_004, 36005/fact_005, 36235/fact_005 a 36235/fact_014); všechny čtyři byly synchronizovány přímo z českého master textu a read-back potvrdil nulový rozdíl.
 
-## 6. REVIEW REQUIRED — krátké české master texty
+Tato kontrola ověřuje strukturu, úplnost a českou synchronizaci. **Neznamená** kompletní sémantickou revizi všech původních cizojazyčných překladů ve všech 27 PSČ; ta zůstává otevřená.
 
-Při kontrole délky bylo nalezeno **51 původních faktů s českým textem kratším než 350 znaků**. V tomto průchodu nebyly doplňovány výplňovými větami bez ověřeného podkladu. Každý z níže uvedených faktů proto zůstává v auditním taháku označen jako `REVIEW REQUIRED`, dokud nebude možné bezpečně doplnit konkrétní ověřené informace a synchronizovat překlady.
+## 6. Délka českých master textů
 
-| PSČ | Fakta k dalšímu ověření |
-|---|---|
-| 36001 | fact_004, fact_005, fact_006, fact_007, fact_008, fact_010, fact_011, fact_012, fact_013, fact_014, fact_016, fact_018, fact_019, fact_020, fact_021, fact_022, fact_023, fact_024, fact_025, fact_026, fact_027, fact_028, fact_029 |
-| 36005 | fact_001, fact_002, fact_003 |
-| 36221 | fact_003, fact_004, fact_005, fact_006, fact_007, fact_008 |
-| 36225 | fact_007, fact_010, fact_011 |
-| 36235 | fact_003 |
-| 36262 | fact_001, fact_002 |
-| 36273 | fact_004 |
-| 36461 | fact_009 |
-| 36471 | fact_002, fact_003, fact_004, fact_005, fact_006, fact_007, fact_008, fact_009, fact_010, fact_011, fact_012 |
+Po dokončení reworku byla znovu zkontrolována délka všech **299 českých master textů** v celé skupině 27 PSČ.
 
-**Součet: 51 faktů.** Tyto položky jsou hlavním důvodem výsledného stavu REVIEW REQUIRED.
+**PASS — 0 faktů pod 350 znaků.**
+
+Původní seznam 51 krátkých českých textů je vyřešen: všech 51 položek bylo rozšířeno na základě konkrétních informací a jejich české překladové položky byly synchronizovány. Nebyly přidávány obecné výplňové věty bez zdrojové opory.
 
 ## 7. Závěr a další postup
 
@@ -119,10 +132,11 @@ Při kontrole délky bylo nalezeno **51 původních faktů s českým textem kra
 - Supabase 27/27: PASS.
 - Administrativní okres/kraj a shoda city: PASS.
 - Doplnění významných turistických a historických mezer: provedeno.
-- Dvě původní chybějící polohy: 2/2 vyřešeny.
-- Nové/doplněné mapové body: 6/6 ověřeno.
-- Nové/upravené texty a jejich sedmijazyčné položky: PASS.
-- Krátké české master texty: 51 REVIEW REQUIRED.
-- Kompletní sémantická kontrola všech původních překladů: OPEN.
+- Původně doplněné mapové body: 6/6 ověřeno.
+- Český text kratší než 350 znaků: 0/299.
+- Devět reworkovaných PSČ: 136 faktů, 952 překladových položek, kompletní jazykové sady, 0 prázdných textů, 0 českých nesouladů, 0 chybějících zdrojů.
+- Polohy v devíti reworkovaných PSČ: 135/136 vyplněno; jedinou výjimkou je záměrně negeolokalizovaná pískovna 36273/fact_004.
+- Prázdné polohy v celé skupině 27 PSČ: 20 položek k další kontrole, vypsané v oddílu 4.
+- Kompletní sémantická kontrola všech původních cizojazyčných překladů: OPEN.
 
-**Konečný stav: REVIEW REQUIRED.** Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock. Po vyřešení 51 krátkých textů a dokončení sémantické kontroly původních překladů lze provést závěrečný uzavírací průchod.
+**Konečný stav: REVIEW REQUIRED.** Důvodem již nejsou krátké české texty. Otevřené zůstávají sémantická revize původních cizojazyčných překladů v celé skupině a kontrola 19 dalších prázdných poloh mimo pískovnu. Záznamy nebyly publikovány, nepřevedly se na V5, nebyla vytvořena záloha a nebyl aktivován read-only lock.
