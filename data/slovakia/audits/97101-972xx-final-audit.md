@@ -39,7 +39,7 @@ The following 23 fact locations were filled with explicit source-backed exact, a
 - 97212: fact_004 — Via Magna route orientation point; fact_006 — municipal office orientation point for the two historic settlements; fact_007 — present-day Marian chapel location in Brezany.
 - 97213: fact_006 — Vyšehradné settlement orientation point for the Mendel and Richter houses.
 - 97214: fact_001, fact_002, fact_003 — Tužina official settlement-centre coordinate; the old mill/brewery position remains explicitly approximate.
-- 97216: fact_005 — former Baťa/Tatra furniture industrial complex at Pravenec 419.
+- 97216: fact_005 — former Baťa/Tatra furniture industrial complex at Pravenec 419; fact_007, fact_008 and fact_009 — Poluvsie historic-settlement orientation points (not falsely presented as the exact church or Števke house locations).
 - 97221: fact_002, fact_003 — historic-approximate village orientation points for finds recorded only by house numbers; fact_007 — settlement orientation point for local fujara-making tradition.
 - 97223: fact_003, fact_006, fact_007 — Dolné Vestenice settlement orientation points with honest accuracy; fact_008 — VEGUM industrial site at Gumárenská 337.
 - 97224: fact_001 — Diviacka Nová Ves settlement orientation point; fact_006 — Vrbany local-settlement orientation point.
@@ -54,11 +54,10 @@ No fact IDs, fact prose, source lists, primary postcode assignments, record stat
 
 ### Missing fact locations
 
-There are now 37 facts with `location: null` in 16 records. Twenty-three fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+There are now 34 facts with `location: null` in 15 records. Twenty-six fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
 
 | Postcode | Facts with null location |
 |---|---|
-| 97216 | fact_007, fact_008, fact_009 |
 | 97222 | fact_002, fact_006 |
 | 97223 | fact_004 |
 | 97227 | fact_005 |
