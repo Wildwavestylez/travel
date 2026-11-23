@@ -1,153 +1,446 @@
-# TRAVEL — AUSTRIA CONTENT STANDARD (working baseline)
+# TRAVEL — AUSTRIA CONTENT STANDARD
 
-## 1. Purpose and authority
+## 1. Účel a závaznost standardu
 
-This is the initial working content standard for Austrian PLZ records. It is not yet a final approved production specification.
+Tento dokument stanovuje obsahová, geografická, výzkumná, redakční a jazyková pravidla pro rakouské záznamy TRAVEL / Europe Explorer.
 
-The final binding contract will consist of:
-1. `schema.json` — record structure, required fields, data types and controlled values.
-2. `COUNTRY_PROFILE.md` — Austrian postal, geographic and administrative meanings.
-3. `CONTENT_STANDARD.md` — research, evidence, editorial, source and translation rules.
-4. `prompt_rework.md` and `prompt_audit.md` — operational instructions implementing the approved standard.
+Závazný kontrakt tvoří společně:
+1. `schema.json` — struktura záznamu, povinná pole, datové typy a řízené hodnoty.
+2. `COUNTRY_PROFILE.md` — rakouské poštovní, geografické, správní a zdrojové reálie.
+3. `CONTENT_STANDARD.md` — společná metodika obsahu, rešerše, důkazů, geografie, redakce a překladů.
+4. `prompt_rework.md` a `prompt_audit.md` — provozní pokyny pro aplikaci standardu.
 
-If these documents conflict, stop and resolve the documentation conflict. Do not silently add fields, enums, languages, lifecycle states or alternative record structures.
+Při rozporu mezi dokumenty práci v dotčené oblasti zastav a rozpor vyřeš. Nepřidávej svévolně nová pole, enum hodnoty, jazyky, stavy ani alternativní struktury záznamu.
 
-## 2. Core editorial philosophy
+Společná pravidla TRAVEL jsou pro všechny země stejná, pokud tento standard výslovně nestanoví místní odlišnost. Rakouské zvláštnosti se řeší v samostatných kapitolách a v `COUNTRY_PROFILE.md`; nesmějí měnit společný datový ani redakční kontrakt.
 
-TRAVEL / EuropeExplorer is a curated geographic discovery project, not a postal directory and not a quota-driven attraction catalogue.
+## 2. Základní filozofie TRAVEL
 
-The objective is to discover and explain genuinely distinctive places, landscapes, heritage, history, culture, architecture, industry, science, people and local stories connected to the selected PLZ area.
+TRAVEL / Europe Explorer je kurátorský geografický průvodce místy a příběhy, nikoli poštovní adresář, správní registr ani katalog sestavený podle kvót.
 
-Every fact must pass four tests:
-- **Truth:** material claims are supported by credible sources.
-- **Geographic relevance:** the subject has a defensible physical connection to the selected PLZ content area.
-- **Significance:** it adds meaningful local, regional, national, cultural, historical, natural, scientific or visitor value.
-- **Clarity:** a reader unfamiliar with Austria can understand what the subject is and why it matters.
+Cílem je objevit a srozumitelně vysvětlit skutečně zajímavá místa, krajinu, přírodu, dědictví, historii, kulturu, architekturu, průmysl, vědu, osobnosti a místní příběhy.
 
-Quality takes precedence over a target number of facts. Do not invent facts, inflate ordinary objects, repeat the same story under multiple PLZ records or add filler.
+Každý fakt musí splnit čtyři podmínky:
+- **Pravdivost:** podstatná tvrzení jsou podložena důvěryhodnými zdroji.
+- **Geografická relevance:** existuje obhajitelná fyzická nebo místopisná vazba k primárnímu PSČ záznamu.
+- **Význam:** fakt přináší skutečnou místní, regionální, národní, kulturní, historickou, přírodní, vědeckou nebo návštěvnickou hodnotu.
+- **Srozumitelnost:** čtenář, který Rakousko ani dané místo nezná, pochopí, o čem fakt je a proč je důležitý.
 
-## 3. Production unit, geographic-only eligibility and scope
+Kvalita má přednost před počtem faktů. Nevymýšlej obsah, nezveličuj běžné objekty, neopakuj stejný příběh v několika záznamech a nepřidávej výplň.
 
-One complete four-digit Austrian PLZ is one project content/indexing unit.
+## 3. PSČ jako základní obsahová a geografická vrstva
 
-- Preserve the full code as a four-character string.
-- Never split one four-digit PLZ into separate records for streets, buildings, house numbers or tiny address fragments.
-- **Include only geographic PLZ with a demonstrable geographic delivery territory.** The code must identify an area that can be researched as a place, not merely a postal recipient or operational destination.
-- Exclude PO-box/Postfach-only codes, company- or institution-specific codes without their own territory, post-office/branch codes, sorting or distribution-centre codes, and all other purely operational/non-geographic codes.
-- Do not classify a code by its number pattern, by a search snippet alone, or by the fact that a business uses it.
-- Establish the full defensible geographic scope associated with each included code.
-- Where one PLZ relates to several settlements or municipalities, research the relevant area as one content unit and document the supported relationships accurately.
-- Do not automatically expand the scope to an entire municipality, district or tourist region without evidence.
-- Do not narrow the scope to a post office, postal counter, one street or the best-known place name.
-- Wider surroundings may provide context, but a fact must have a defensible primary physical location and genuine relationship to the assigned PLZ area.
-- A four-digit PLZ is not automatically a polygon. If sources prove only address points, localities or municipality associations, state only those relationships; never invent exact boundaries.
+**Jednotkou tvorby, ukládání, mapového zobrazení a redakčního třídění obsahu je jedno geograficky použitelné rakouské PSČ.** PSČ je projektová obsahová vrstva, do které přiřazujeme fakta. Není to správní jednotka a nesmí být zaměňováno za obec, okres, spolkovou zemi ani automaticky za přesný polygon.
 
-The project uses the four-digit PLZ as a practical content scale. Detailed address-level postal subdivisions are not separate production records.
+Závazná pravidla:
 
-## 4. Mandatory discovery before writing
+- Každé produkční PSČ představuje jeden obsahový záznam. Kód uchovávej jako čtyřznakový řetězec.
+- Jedno PSČ nerozděluj na samostatné záznamy podle ulic, budov, čísel domů nebo drobných adresních fragmentů.
+- Do produkčního rozsahu patří pouze geografická PSČ s doložitelnou geografickou vazbou. Čistě poštovní, organizační, firemní, institucionální, P.O. BOX, pobočkové, třídicí a distribuční kódy bez vlastního geografického obsahu se nezařazují.
+- Oprávněnost PSČ ověřuj podle odpovídajících oficiálních zdrojů; neodvozuj ji pouze z číselného vzoru, výsledku vyhledávání ani z toho, že kód používá určitá instituce.
+- Zjisti, jaké obce, sídla, části sídel nebo adresní oblasti jsou s PSČ doložitelně spojeny. Nepředstírej přesnou hranici, pokud ji zdroje neposkytují.
+- **PSČ je obsahová vrstva, nikoli administrativní hierarchie.** Obec, politický okres (Bezirk), statutární město, městský obvod nebo spolková země mohou sloužit jako pomocná metadata pro vyhledávání, filtrování a orientaci. Nejsou nadřazenou obsahovou jednotkou a neurčují, jaký příběh nebo fakt smí být do PSČ zařazen.
+- Okresy a další správní celky eviduj a používej pouze v rozsahu odpovídajícím schématu a jejich účelu pro vyhledávání. Nevytvářej obsah po okresech, nepřesouvej fakta podle okresních hranic a nepovažuj okres za náhradu geografického ověření PSČ.
+- Pokud PSČ pokrývá více sídel nebo obcí, zpracuj je v rámci jednoho PSČ záznamu. Nenech jedno sídlo převážit jen proto, že je správním centrem nebo sídlem pošty.
+- Nezaměňuj adresu pošty, sídla instituce ani korespondenční adresu za geografický rozsah PSČ.
+- Širší okolí lze zkoumat pro pochopení kontextu, ale samostatný fakt musí mít obhajitelnou primární geografickou vazbu k právě jednomu PSČ.
+- Pokud oficiální zdroje dokládají pouze adresní body, lokality nebo vazby na obce, popisuj pouze tyto vztahy. Nevytvářej ani neodhaduj přesné polygonální hranice.
 
-Research must precede writing. Establish the PLZ's geographic context first, then discover relevant subjects across the full area. Search using:
-- the exact PLZ, with and without formatting variants where applicable;
-- the associated municipality/municipalities and localities;
-- official names and historical names of relevant places;
-- landscape features, rivers, valleys, mountains and protected areas;
-- heritage sites, museums, institutions, industrial sites and transport infrastructure;
-- significant historical events, people, traditions and cultural practices.
+## 4. Povinná rešerše před psaním
 
-Use German-language sources as the primary local discovery route. Search in Czech, English and other languages where useful for independent corroboration or international context.
+Před tvorbou nebo reworkem faktů musí proběhnout strukturovaná rešerše konkrétního PSČ. Nezačínej náhodným sbíráním zajímavostí. Nejprve zjisti, co daná oblast skutečně představuje, čím je charakteristická a které příběhy vysvětlují její identitu.
 
-## 5. Research themes
+### 4.1 Povinné oblasti prověření
 
-Assess relevance according to the character of each PLZ area. Consider, where applicable:
-- archaeology and prehistory;
-- Roman and other ancient heritage;
-- medieval and early-modern history;
-- Habsburg and imperial history;
-- Austrian state formation and modern history;
-- architecture, urbanism and historic townscapes;
-- castles, palaces, churches, monasteries and other heritage;
-- museums, collections, archives and cultural institutions;
-- music, literature, visual arts, theatre and major cultural figures;
-- science, universities, technology and engineering;
-- industry, mining, energy, crafts and economic history;
-- transport history, railways, bridges and infrastructure;
-- Alpine landscapes, glaciers, lakes, rivers, caves and geological features;
-- national parks, protected landscapes and biodiversity;
-- traditions, festivals, food culture and local identity;
-- significant people and locally grounded stories;
-- visitor experiences and distinctive viewpoints.
+Podle charakteru oblasti aktivně prověř:
+- významné historické události a období;
+- historická sídla, obce a zaniklá sídla;
+- hrady, zámky, tvrze, pevnosti a opevnění;
+- sakrální stavby, poutní místa a církevní historii;
+- památky UNESCO a další významné formy ochrany dědictví;
+- osobnosti a jejich konkrétní vazbu na místo;
+- kulturní, umělecké a společenské dějiny;
+- průmysl, výrobu, řemesla, značky a známé produkty;
+- železnici, dopravu, techniku a významnou infrastrukturu;
+- hornictví, energetiku a využívání přírodních zdrojů;
+- vědu, výzkum, školství a významné instituce;
+- vojenskou historii a vojenské objekty;
+- přírodu, krajinu, geologii a přírodní unikáty;
+- archeologii a neobvyklé historické nálezy;
+- muzea, sbírky, galerie a návštěvnická místa;
+- tradice, slavnosti, gastronomii a místní identitu;
+- zaniklé provozy, kulturní paměť a příběhy známé určité generaci;
+- překvapivé, doložené místní příběhy a skryté zajímavosti;
+- další skutečnosti, jejichž význam přesahuje běžnou místní kuriozitu.
 
-This is a discovery checklist, not a quota. Do not force every theme into every record.
+Prověř hlavní dominanty i méně známá místa, pokud jsou pro identitu oblasti důležitá. Nevynechávej významnou kapli, technickou památku, pomník, muzeum, historický objekt nebo archeologickou lokalitu jen proto, že se hůře objevuje v běžném vyhledávání.
 
-## 6. Sources and evidence
+### 4.2 Definující příběhy
 
-Use the Austrian source hierarchy defined in `COUNTRY_PROFILE.md`. Match each source to the claim it supports.
+Po rešerši nejprve sestav přehled hlavních příběhů oblasti. Urči, které z nich skutečně vysvětlují její identitu.
 
-### 6.1 Online-first verification
+Orientační rozsah 3–5 příběhů není kvóta. Oblast může mít méně nebo více zásadních příběhů. Žádný důležitý příběh nesmí být vynechán kvůli číslu.
 
-Use official public online registers, search interfaces and institutional pages directly as the default. Do not download or maintain bulk national datasets merely as a routine step. An official downloadable dataset may be used when an essential relationship cannot be reliably established online or when a reproducible comparison is genuinely necessary. If used, identify its publisher, dataset/version or publication date, and access date. Do not treat a convenient online directory as proof of geographic territory unless it supports that exact claim.
+Významný příběh musí být zvážen k zařazení, i když:
+- nejde o klasickou turistickou atrakci;
+- souvisí s průmyslem, produktem nebo firmou;
+- výroba či instituce už zanikla;
+- je známý hlavně místním obyvatelům nebo určité generaci;
+- je překvapivý, nikoli všeobecně slavný;
+- záznam už obsahuje mnoho jiných faktů.
 
-### 6.2 Geographic-only inventory gate
+Významná průmyslová, technická nebo kulturní historie není výplň.
 
-Before research or content creation, verify that the selected PLZ qualifies under the geographic-only rule in section 3. Check official postal sources for special-purpose status and geographic sources for actual territorial/address-point relationships. PO-box-only, company/institution-only without territory, branch, sorting-centre and other operational codes are excluded from the production sequence. Record exclusions and unresolved cases separately; do not create content for them.
+## 5. Výběr faktů a jejich pořadí
 
-Prefer primary official sources for administrative, postal, heritage and institutional facts. Use academic and specialist sources for deeper historical and scientific claims. Established tourism sources can help discover visitor-relevant places but should not be the sole evidence for contested historical claims.
+Neexistuje univerzální pořadí tematických kategorií platné pro všechna PSČ. O pořadí rozhoduje skutečná identita konkrétní oblasti, její význam a přínos pro čtenáře.
 
-Every source URL stored in a record must be specific enough to support the relevant fact. Fact-level source references must correspond to the record's source list exactly as required by the schema. Do not fabricate URLs, titles, publication dates or source contents.
+Před dokončením záznamu si odpověz:
+- Čím je tato oblast skutečně známá?
+- Co nejvíce formovalo její identitu?
+- Proč sem lidé přijíždějí nebo proč si ji pamatují?
+- Které příběhy nejlépe vysvětlují její význam?
+- Které další skutečnosti přinášejí novou informační hodnotu?
 
-When sources disagree:
-1. identify the exact disputed claim;
-2. consult a competent primary authority;
-3. seek independent corroboration appropriate to the subject;
-4. preserve uncertainty where it cannot be resolved;
-5. do not silently choose a convenient answer.
+Fakta řaď podle skutečného významu a relevance, nikoli podle pořadí rešerše, snadnosti nalezení zdroje nebo automatické preference přírody, historie, průmyslu, techniky, turismu či známých osobností.
 
-## 7. Geographic accuracy
+Zařaď všechna fakta, která jsou relevantní, odlišná, dostatečně doložená a užitečná. Neodstraňuj kvalitní fakta jen kvůli preferované délce záznamu. Nepřidávej slabá fakta, aby záznam vypadal úplněji.
 
-- Establish the actual physical location of every fact.
-- Distinguish visitor addresses from postal/contact addresses.
-- Do not use a post office or municipal office as a substitute location for an attraction.
-- Use the schema's fact-location structure and controlled values.
-- Record only defensible coordinates; use the permitted null/accuracy fallback where the evidence is insufficient.
-- Keep fact locations separate from the PLZ representative point and legacy access point.
-- Avoid duplicate assignment of one continuous attraction or story across multiple PLZ records; choose one defensible primary record under the final geographic assignment rules.
+Nejdůležitější definující příběh nebo příběhy mají být zpravidla na začátku. Další fakta následují v sestupném pořadí významu. Skrytá zajímavost nesmí předběhnout zásadní příběh pouze proto, že je překvapivá.
 
-## 8. Languages and writing
+Pořadí musí zůstat významově stejné ve všech jazykových verzích.
 
-Use the shared TRAVEL seven-language structure: Czech (`cs`), German (`de`), English (`en`), Spanish (`es`), French (`fr`), Italian (`it`) and Dutch (`nl`), subject to final confirmation against the shared schema.
+## 6. Geografický rozsah a primární přiřazení faktů k PSČ
 
-Write the source-language fact text in Czech, then provide complete and natural translations in all other required languages. Preserve names, historical terminology, dates, factual nuance and geographic meaning. Do not translate proper names mechanically.
+PSČ je organizační a obsahová vrstva TRAVEL, nikoli nepřekročitelná hranice turistického příběhu. Každé faktum se ukládá právě do jednoho primárního PSČ záznamu, ale skutečná lokalita, příběh ani rozsah objektu nemusí přesně kopírovat hranici PSČ.
 
-Each fact should tell a coherent, useful story rather than present disconnected trivia. Avoid promotional exaggeration, generic filler, unsupported superlatives and repetitive openings.
+Závazná pravidla:
 
-## 9. Record lifecycle and storage
+- Každé faktum musí mít jedno hlavní reálné místo nebo lokalizovatelný předmět a právě jedno primární PSČ přiřazení.
+- PSČ neomezují, o jakém významném místě lze vyprávět. Rozsáhlý areál, park, most, stezka, liniová stavba, krajinný celek nebo jiný objekt může zasahovat do více PSČ.
+- U takového objektu vyber jedno nejlépe obhajitelné primární PSČ podle polohy hlavní nebo reprezentativní části, hlavního vstupu, adresy či jiného nejsilnějšího geografického spojení. Zohledni skutečnou povahu objektu a dostupné oficiální podklady.
+- Není nutné dokazovat, že celý objekt leží uvnitř jediného PSČ. Je však nutné transparentně a konzistentně určit jeho primární přiřazení.
+- U objektů bez jednoznačné adresy použij oficiální vymezení, důvěryhodné mapové/geografické zdroje a obhajitelný reprezentativní bod. Nepředstírej přesnost, kterou zdroje neposkytují.
+- Jakmile je fakt přiřazen k jednomu PSČ a toto přiřazení je doloženě nebo rozumně obhajitelné, považuje se za stabilní. Při dalších reworkech se znovu neotevírá jen proto, že objekt zasahuje také do jiného PSČ.
+- Uzamčené přiřazení lze znovu otevřít při konkrétním novém důkazu, že původní volba byla chybná, nebo při zásadním doloženém rozporu. Samotný přesah, blízkost hranice či alternativní možné přiřazení nestačí.
+- Každá fyzická atrakce nebo souvislý příběh má standardně jeden primární záznam. Neduplikuj stejný fakt v sousedních PSČ. Samostatné záznamy jsou přípustné pro skutečně odlišné, nezávisle významné příběhy.
+- Širší okolí lze uvádět jako kontext. Samostatným faktem však může být pouze místo s primární vazbou k aktuálnímu PSČ.
+- Pokud geografické přiřazení není dostatečně doložené, označ jej k ověření. PSČ nevymýšlej a nepřesouvej souřadnice na pohodlné místo.
 
-The technical schema currently mirrors the shared TRAVEL record structure. However, Austria's canonical production storage, backup, lifecycle and publication workflow have not yet been approved.
+Správní okresy, obce a spolkové země mohou pomoci při vyhledávání a kontrole kontextu. Jejich hranice však neurčují primární přiřazení faktu k PSČ.
 
-Until that decision is documented:
-- create no production PLZ records;
-- do not write Austrian records to Supabase, Neon, GitHub JSON record files or any other database;
-- do not create a production sequence or mark records as placeholder, validated or published;
-- use GitHub only for this country workspace's documentation and approved inventory planning.
+## 7. Jedno reprezentativní místo pro každé PSČ
 
-The final standard must define the authoritative store, status transitions, audit gate, backups, read/write separation and EuropeExplorer publication behaviour before production begins.
+Každé PSČ musí mít právě jedno konkrétní reprezentativní místo v poli `representative_place`. Souřadnice v `representative_point` musí označovat stejné místo.
 
-## 10. Quality gate
+- Vyber jedno jasně identifikovatelné skutečné místo, které nejlépe reprezentuje dané PSČ.
+- Neuváděj více alternativ, seznam atrakcí ani vágní obecnou oblast.
+- Upřednostni konkrétní pojmenované místo, například náměstí, budovu, památník, muzeum, nádraží, parkový objekt nebo jiný přesně určitelný bod.
+- Reprezentativní bod musí ukazovat přímo na vybrané místo, nikoli na jinou atrakci, centrum města nebo náhodný bod.
+- Název a souřadnice musí tvořit konzistentní pár.
+- Výběr založ na významu pro dané PSČ, místní relevanci, geografické správnosti a možnosti místo jednoznačně lokalizovat.
+- Nevybírej známé místo v jiné části oblasti jen proto, že je slavnější.
+- Pokud PSČ nemá známou atrakci, vyber jiný ověřitelný a přesně lokalizovatelný bod, který území skutečně reprezentuje. Nevymýšlej památku ani nepoužívej vágní název.
+- Reprezentativní místo nemusí být turistickou atrakcí ani geometrickým středem.
+- Pravidlo jednoho reprezentativního místa nijak neomezuje počet samostatných faktů. Každé faktum se posuzuje podle vlastních geografických pravidel.
 
-A record is not complete until:
-- the PLZ is confirmed within the approved inventory and its geographic/special-purpose status is resolved;
-- its full geographic scope is defensible;
-- administrative values are accurate;
-- major relevant discoveries have been researched rather than merely copied from an old list;
-- every fact is significant, geographically assigned, sourced and correctly located;
-- translations are complete and faithful;
-- the complete JSON validates against the approved schema;
-- no duplicate or misplaced facts remain;
-- the record passes the approved audit and publication process.
+## 8. Reprezentativní místo, přístupový bod a poloha faktu
 
-This section is a working baseline. Final numeric priorities, detailed source rules, fact selection, map taxonomy, image licensing, lifecycle and database-safety controls must be completed during the Austrian documentation design.
+Jde o tři rozdílné geografické role a nesmějí se zaměňovat.
 
----
+### 8.1 Reprezentativní bod
+Jeden orientační bod pro celé PSČ. Reprezentuje obsahovou oblast a pomáhá ji najít na mapě. Nemusí být turistickou atrakcí ani geometrickým středem. Není automatickou polohou konkrétního faktu.
+
+### 8.2 Přístupový bod
+Pomocný údaj pro příjezd nebo příchod. Pokud existuje jasný a ověřitelný praktický bod, uveď jej. Pokud nemá smysl nebo není spolehlivě ověřen, použij hodnotu povolenou schématem, typicky `null`. Nevymýšlej přístupový bod za každou cenu.
+
+### 8.3 Poloha konkrétního faktu
+- Poloha označuje skutečný objekt, místo, přírodní útvar nebo doloženou historickou lokalitu, o které fakt pojednává.
+- Nepřebírej automaticky reprezentativní ani přístupový bod.
+- U konkrétního objektu preferuj jeho vlastní ověřené souřadnice.
+- U rozlehlého území zvol smysluplný reprezentativní bod uvnitř lokality.
+- U faktu o oblasti PSČ jako celku lze použít reprezentativní bod PSČ pouze tehdy, pokud to odpovídá schématu a skutečnému významu faktu.
+- U historické události s neznámou přesnou polohou použij doloženou přibližnou polohu nebo vhodný orientační bod a přesnost označ podle schématu. Nepředstírej, že se událost odehrála přesně na orientačním bodě.
+- Strukturu polohy, přesnost, zdroj a povolené typy určuje `schema.json` a příslušný řízený slovník.
+
+## 9. Sestavení příběhu před tvorbou seznamu faktů
+
+Po rešerši nejprve uspořádej nejsilnější příběhy a teprve potom vytvářej jednotlivá fakta.
+
+Pokud to charakter oblasti umožňuje, vytvoř souvislou místní narativní linku. Možná posloupnost:
+
+**počátky → historický vývoj → významné osobnosti → průmysl a technika → kulturní význam → současné dědictví → příroda a skryté zajímavosti**
+
+U průmyslové oblasti může být vhodná posloupnost: vznik podniku či značky → průmyslový rozvoj → výroba a technický přínos → lidé a společenský dopad → muzeum nebo současné dědictví.
+
+Propojená fakta mohou mít větší hodnotu než několik nesouvisejících tipů. Nevytvářej však umělý příběh tam, kde žádný přirozený celek neexistuje.
+
+## 10. Co má čtenář záznamu pochopit
+
+Čtenář, který se virtuálně dostane do daného PSČ, by měl pochopit:
+- jaký typ oblasti to je;
+- čím je zajímavá nebo významná;
+- co je zde historicky, kulturně, technicky nebo přírodně důležité;
+- které konkrétní místní příběhy vysvětlují její identitu;
+- co překvapivého nebo méně známého lze objevit;
+- proč má smysl se o této oblasti dozvědět více.
+
+Záznam má být užitečný nejen turistovi, ale podle tématu také pracovníkovi cestovního ruchu, regionálního rozvoje, památkové péče nebo místnímu badateli.
+
+## 11. Obsahové kategorie a mapová klasifikace
+
+Obsahové kategorie, mapové kategorie, priority faktů, identifikátory a technické hodnoty se řídí společnými kapitolami níže a aktuálním `schema.json`. Kategorie jsou redakční a mapové klasifikace jednotlivých faktů; nenahrazují geografické přiřazení k PSČ.
+
+## 12. Příroda a krajina
+
+Příroda je plnohodnotné téma TRAVEL, nikoli výplň.
+
+U každého PSČ aktivně prověř, zda se v jeho území nachází nebo s ním přímo souvisí:
+- národní park, chráněná krajina nebo přírodní rezervace;
+- významný les, mokřad nebo biotop;
+- řeka, jezero, vodopád, pramen nebo jiný vodní prvek;
+- hora, údolí, skalní útvar, jeskyně nebo geologická lokalita;
+- výjimečný strom, přírodní památka či jiný pozoruhodný prvek.
+
+Nestačí pouze vyjmenovat chráněné území. Vysvětli, čím je významné a co jej odlišuje. Pokud v daném PSČ není přírodní prvek se skutečnou informační hodnotou, nevymýšlej jej ani nepřidávej obecný popis krajiny.
+
+## 13. Historie, průmysl, technika a kulturní paměť
+
+Neomezuj obsah na hrady, zámky a sakrální stavby. Podle charakteru oblasti prověř také:
+- průmyslové podniky, továrny a výrobní tradice;
+- řemesla, sklářství, textilnictví, keramiku a další místní výrobu;
+- potravinářství, známé produkty a značky;
+- strojírenství, automobilový, chemický a další průmysl;
+- železniční, silniční, leteckou a vodní dopravu;
+- hornictví, energetiku a těžbu;
+- vědu, technické vynálezy a výzkum;
+- významné školy a instituce;
+- vojenskou historii;
+- zaniklé provozy, areály a kulturní paměť;
+- místní tradice a příběhy spojené s konkrétní generací.
+
+Zaniklá výroba nebo instituce může být významným faktem, pokud je její historická role dobře doložena a skutečně souvisí s místem. Rozlišuj historický fakt od současného stavu. Zaniklý provoz nepopisuj jako aktivní a plánovanou událost nepředstavuj jako uskutečněnou.
+
+## 14. Skryté zajímavosti
+
+Aktivně hledej fakta, která vyvolávají reakci: „To jsem vůbec nevěděl — a jsem rád, že to teď vím.“
+
+Skrytá zajímavost musí být konkrétní, ověřitelná, dostatečně neobvyklá nebo užitečná, skutečně spojená s daným PSČ a odlišná od ostatních faktů.
+
+Obecné tvrzení typu „v obci stojí starý kostel“ nestačí bez dalšího významu, zvláštnosti nebo kontextu. Nevyráběj skryté zajímavosti z nepodstatných detailů. Pokud žádná kvalitní skrytá zajímavost neexistuje, nezařazuj ji.
+
+## 15. Širší okolí a kontext
+
+Širší okolí lze zkoumat, abychom pochopili historii, geografii a souvislosti daného PSČ. Výzkumný rozsah může být širší než výsledný geografický rozsah záznamu.
+
+- Atrakce v sousedním PSČ nesmí být samostatným faktem ani mapovým bodem aktuálního PSČ.
+- Okolní obec, okres, spolkovou zemi nebo lokalitu lze zmínit v textu jako kontext, pokud je to důležité pro pochopení příběhu.
+- Kontext nesmí vzbudit dojem, že externí místo patří do aktuálního PSČ.
+- Nepřebírej souřadnice externího místa jako polohu faktu v aktuálním PSČ.
+- Jednu atrakci nebo souvislý příběh neduplikuj ve více PSČ.
+- Správní celek může být užitečný pro vyhledávání a filtrování, nikoli jako náhrada geografického přiřazení faktu.
+
+## 16. Zdroje a důkazní standard
+
+Každé faktum musí být pravdivé, konkrétní, lokálně relevantní a doložitelné.
+
+Preferované pořadí zdrojů:
+1. odpovědné oficiální instituce a primární zdroje;
+2. obce, města, regionální a státní instituce a jejich oficiální organizace;
+3. státní a regionální archivy, muzea, galerie a památkové instituce;
+4. univerzity, vědecké instituce a odborné organizace;
+5. správci památek, provozovatelé a vlastníci lokalit;
+6. odborné publikace a specializované zdroje;
+7. kvalitní žurnalistika;
+8. důvěryhodné regionální a místní zdroje.
+
+Pravidla:
+- Preferuj primární zdroj, pokud existuje.
+- Jeden kvalitní primární zdroj je lepší než několik slabých kopií stejného tvrzení.
+- Zdroj musí podporovat konkrétní tvrzení, ne pouze obecně zmiňovat oblast nebo název objektu.
+- U historických a odborných tvrzení ověř kontext, datum a význam.
+- U současných informací ověř aktuálnost.
+- Nepřebírej automaticky texty z turistických katalogů, agregátorů nebo jiných databází.
+- Nikdy nevymýšlej fakta, citace, názvy institucí ani URL.
+- Pokud zdroje uvádějí rozdílné údaje, rozdíl prověř a případně jej transparentně popiš.
+- U souřadnic a geografického přiřazení používej zdroje, které skutečně podporují polohu; zdroj obsahu nemusí automaticky dokazovat geografickou příslušnost k PSČ.
+- Rozlišuj doloženou historii, zaznamenanou tradici a folklor. Pověst nikdy nepodávej jako prokázanou historickou událost.
+- Konkrétní rakouskou hierarchii autorit a zdrojů stanoví `COUNTRY_PROFILE.md`.
+
+## 17. Psaní faktů
+
+Každé faktum musí přinášet jednu jasnou, smysluplnou informaci nebo souvislý příběh.
+
+Dobré faktum:
+- má konkrétní předmět;
+- vysvětluje, co se stalo, co zde je nebo proč je místo důležité;
+- obsahuje potřebný historický či kulturní kontext;
+- uvádí důležité osoby, data a názvy, pokud jsou relevantní;
+- vysvětluje význam, nikoli pouze existenci objektu;
+- je srozumitelné i čtenáři, který místo nezná.
+
+Vyhýbej se obecným turistickým frázím, prázdným superlativům, opakování stejné informace, dlouhým odbočkám bez vztahu k tématu, neověřeným legendám vydávaným za historii, spekulacím a reklamnímu tónu.
+
+Pokud je příběh založen na legendě, pověsti nebo tradovaném vyprávění, jasně jej tak označ. Nezaměňuj pověst za prokázanou událost.
+
+## 18. Povinný závěrečný audit
+
+Každý nový nebo přepracovaný záznam musí projít kontrolou všech následujících oblastí.
+
+### 18.1 PSČ a geografická správnost
+- Je PSČ potvrzeno v projektovém inventáři a odpovídajících oficiálních zdrojích?
+- Je doloženo, že jde o geograficky použitelné PSČ, nikoli pouze o organizační nebo zvláštní poštovní kód?
+- Je geografická vazba každého faktu k primárnímu PSČ obhajitelná?
+- Nezaměňuje se PSČ za okres, obec, spolkovou zemi, sídlo pošty nebo korespondenční adresu?
+- Jsou správní údaje používány pouze jako pomocná metadata pro vyhledávání a filtrování?
+- Jsou rozpory a nejistoty zaznamenány a vyřešeny nebo označeny k ověření?
+
+### 18.2 Reprezentativní a přístupové údaje
+- Je vybráno právě jedno reprezentativní místo?
+- Odpovídají jeho souřadnice přesně tomuto místu?
+- Je místo skutečně spojeno s daným PSČ?
+- Je přístupový bod ověřený a prakticky použitelný?
+- Nejsou reprezentativní bod, přístupový bod a poloha faktu zaměněny?
+
+### 18.3 Obsah a rešerše
+- Proběhla strukturovaná rešerše všech relevantních tematických oblastí?
+- Byly určeny hlavní příběhy místa?
+- Nechybí významná památka, instituce, průmyslový nebo kulturní příběh?
+- Byla prověřena příroda a krajina?
+- Jsou skryté zajímavosti skutečně neobvyklé a doložené?
+- Odpovídá pořadí faktů skutečné důležitosti místa?
+- Neobsahuje záznam výplň nebo uměle vytvořené kvóty?
+
+### 18.4 Geografická správnost faktů
+- Má každé faktum jedno primární PSČ přiřazení?
+- Je jeho hlavní poloha konkrétní a ověřená nebo odpovídajícím způsobem označená jako přibližná?
+- Nejsou samostatná fakta převzata ze sousedních PSČ?
+- Nejsou atrakce nebo příběhy duplicitní v jiných záznamech?
+- Je širší okolí používáno pouze jako kontext, pokud leží mimo dané PSČ?
+
+### 18.5 Zdroje
+- Podporují zdroje skutečně uvedená tvrzení?
+- Jsou důležité údaje ověřeny z kvalitních, přednostně primárních zdrojů?
+- Fungují URL a vedou na relevantní obsah?
+- Jsou rozpory a nejistoty vyřešeny nebo zaznamenány?
+- Jsou geografické polohy doloženy samostatně, pokud to vyžaduje schéma?
+
+### 18.6 Jazyky
+- Obsahuje všech sedm jazyků stejná ID faktů?
+- Je pořadí faktů ve všech jazycích stejné?
+- Zachovávají překlady všechna fakta, data, jména a souvislosti?
+- Zní každý jazyk přirozeně?
+- Jsou místní reálie a neznámé pojmy vysvětleny zahraničním čtenářům?
+- Neobsahuje žádná jazyková verze nové nebo nepodložené informace?
+
+### 18.7 Technická validace
+- Odpovídá JSON aktuálnímu `schema.json`?
+- Neobsahuje nepovolená pole nebo hodnoty?
+- Jsou ID jedinečná a správně navazující podle aktuálních pravidel?
+- Jsou povinné údaje vyplněny?
+- Jsou všechny jazykové verze strukturálně úplné?
+- Jsou geografické a zdrojové údaje ve správných polích?
+
+Záznam není hotový, pokud některá zásadní oblast zůstává neověřená. Nevyřešené problémy musí být jasně uvedeny; nesmějí se skrýt za označení „dokončeno“.
+
+## 19. Postup při nedostupných referenčních datech
+
+Nedostupný, prázdný nebo neúplný lokální referenční soubor není důvodem zastavit rework ani opakovat bezúčelně stejný technický problém.
+
+1. Nejprve zkus příslušný lokální referenční soubor a dostupné alternativní formáty, například JSON, CSV nebo manifest.
+2. Pokud údaj stále chybí, ověř jej přímo na oficiálním webu instituce, která za daný údaj odpovídá. Konkrétní rakouské autority a jejich kompetence stanoví `COUNTRY_PROFILE.md`.
+3. Rozlišuj účel jednotlivých zdrojů. Poštovní seznam, evidence adresních bodů, správní registr a geografická data nejsou zaměnitelné.
+4. U každého ověřovaného údaje zaznamenej konkrétní oficiální zdroj/URL a datum ověření. Pokud zdroj uvádí platnost nebo referenční datum, zaznamenej je odděleně od data kontroly.
+5. Náhradní soubor používej pouze pro pole, která skutečně obsahuje. Chybějící hodnoty neodhaduj ani nepřebírej z jiného PSČ.
+6. Pokud údaj nelze potvrdit, označ jej v pracovních poznámkách jako neověřený, uveď co přesně chybí a pokračuj v ostatní bezpečné práci. Neoznačuj celý záznam za chybný kvůli jednomu pomocnému údaji.
+7. Stejný zdrojový problém a jeho vyřešení nebo stav nevyřešení přenes do navazujícího pracovního okna. Neopakuj bezúčelně stejné pokusy.
+
+## 20. Povinná turistická, památková a místní objevitelská rešerše
+
+Tato kapitola rozšiřuje základní rešerši. Nenahrazuje pravidla významu, kvality, geografického přiřazení ani technické validace.
+
+### 20.1 Cíl
+U každého PSČ zjisti, co by návštěvník v dané konkrétní oblasti mohl chtít vidět, navštívit, zažít, poznat nebo objevit. Pokryj známé cíle i méně nápadné místní příběhy, památky, přírodu a neobvyklé doložené zajímavosti. Nevytvářej z každého PSČ turistickou destinaci a nevynucuj minimální počet faktů.
+
+### 20.2 Povinný tematický kontrolní seznam
+Výslovně prověř každou relevantní skupinu:
+1. Hrady, zámky, historická sídla, pevnosti, zříceniny a opevnění.
+2. Sakrální dědictví: kostely, kaple, kláštery, poutní místa, synagogy, mešity a sakrální umění.
+3. Pomníky a veřejné umění: sochy, kašny, památníky, obelisky, historické mezníky a významné instalace.
+4. Historická sídla a architektura: historická centra, náměstí, brány, radnice, ulice, mosty, hradby, významné budovy a architektonické soubory včetně moderní architektury.
+5. Muzea, galerie a sbírky: historická, archeologická, umělecká, technická, průmyslová, dopravní, železniční, letecká, vojenská a přírodovědná muzea; skanzeny, pamětní a dokumentační centra.
+6. Archeologie a pravěk: naleziště, mohyly, hradiště, římské pozůstatky, archeologické krajiny a podzemní dědictví.
+7. Chráněná příroda: národní parky, rezervace, přírodní památky, biosférické rezervace, mokřady, rašeliniště a pralesy.
+8. Geologie a krajinné útvary: skalní oblasti, jeskyně, kras, soutěsky, kaňony, sopečné a ledovcové útvary, zkameněliny.
+9. Hory, vyhlídky a trasy: vrcholy, rozhledny, panoramata, horské chaty, naučné stezky, významné pěší/cyklistické trasy a lanovky.
+10. Voda a vodní dědictví: vodopády, jezera, řeky, soutoky, prameny, přehrady, historické rybníky, kanály, mlýny a významná vodohospodářská díla.
+11. Parky, zahrady a živé sbírky: botanické zahrady, arboreta, historické zahrady, parky, zoologické zahrady, safari/obory, akvária a motýlí domy.
+12. Technické, průmyslové a dopravní dědictví: doly, lomy, továrny, hutě, elektrárny, mlýny, historické železnice, nádraží, mosty, tunely, viadukty a technická díla.
+13. Paměťová místa a historické události: bojiště, revoluce a povstání, bývalé věznice, památníky totalitních režimů a místa zásadních událostí.
+14. Turistické atrakce a zážitky: zpřístupněné jeskyně a podzemí, historické lázně, termální areály, vyhlídkové železnice, lanovky, lodní výlety, zábavní a tematické parky, aquaparky a významné stadiony.
+15. UNESCO a mimořádné dědictví: kulturní a přírodní památky, kulturní krajiny, přeshraniční dědictví, historická města a obdobná formální ocenění.
+16. Místní příběhy a neobvyklé zajímavosti: doložené pověsti, neobvyklé události, kuriózní zvyky, rekordy, neobvyklé objekty a příběhy vysvětlující identitu oblasti.
+17. Osobnosti, film, literatura, hudba a kultura: domy a působiště osobností, filmové lokace, literární místa, hudební historie, divadla, operní domy, koncertní sály a kulturní instituce.
+18. Tradice, řemesla a gastronomické dědictví: regionální zvyky, tradiční řemesla, historické trhy, slavnosti, tradiční výroba, pivovarnictví a vinařství s doloženou historickou nebo návštěvnickou hodnotou.
+19. Trasy a návštěvnický kontext: poutní, kulturní, průmyslové, dopravní, cyklistické a turistické trasy a další prvky, jejichž relevantní část má doložitelnou vazbu k danému PSČ.
+
+Seznam je záměrně široký. Zařazuj pouze konkrétní, významné a geograficky správně přiřaditelné objekty či příběhy. Dočasné akce, běžná zařízení, obecná regionální témata a podniky se automaticky nestávají trvalými fakty PSČ.
+
+### 20.3 Vyloučení
+- Běžné hřbitovy, jednotlivé hroby a obvyklá pohřebiště nezařazuj jako turistická fakta. Výjimkou je mimořádný doložený památkový či návštěvnický areál. Samotný hrob známé osobnosti nestačí.
+- Současné firmy, obchody, restaurace, hotely a běžné provozovny nezařazuj jen proto, že zde působí. Podnikové téma lze zahrnout jako doložené historické, technické, kulturní či průmyslové dědictví, veřejné muzeum/návštěvnické centrum nebo samostatně hodnotný místní příběh.
+- Běžný program akcí není trvalou atrakcí. Opakovaná tradice nebo historicky významná událost může být zahrnuta, je-li doložena její místní důležitost.
+- Trasu nezařazuj jako bodové faktum, pokud její poloha nemůže být smysluplně reprezentována podle stávajícího schématu.
+- Stručná kontextová zmínka zůstává možná, pokud je důležitá pro jiné doložené faktum.
+
+### 20.4 Povinná dvoufázová rešerše
+**Fáze 1 — široké objevování:** urči oblast PSČ podle stávajících pravidel; hledej v oficiálních turistických, památkových, muzejních, přírodovědných, obecních, regionálních a odborných zdrojích; používej PSČ, sídla, místní a historické názvy, krajinné celky a názvy památek; objevuj hlavní atrakce a příběhy bez omezení starým záznamem či prvními obecnými výsledky; eviduj kandidáty, polohu a zdroje.
+
+**Fáze 2 — audit tematických mezer:** projdi každou relevantní skupinu v 20.2 jednotlivě; cíleně hledej zejména muzea a specializované sbírky, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické dědictví, paměťová místa, místní pověsti, historické události a neobvyklé zajímavosti; porovnej výsledky se starým záznamem a první fází; identifikuj opomenutí, duplicity, slabé kandidáty a fakta patřící jinam. Obecné vyhledávání samo o sobě neznamená, že byla kategorie prověřena.
+
+Obě fáze jsou povinné před dokončením běžného obsahového reworku.
+
+### 20.5 Strategie zdrojů
+Přednost mají odpovědné primární zdroje: oficiální turistické organizace, památkové registry a orgány památkové péče, oficiální weby muzeí, galerií, parků, zoo, akvárií a atrakcí, správy chráněných území, instituce ochrany přírody a geologie, archivy, muzea, univerzity a odborné instituce. Turistické portály a komunitní zdroje mohou objevit kandidáta, ale důležitá fakta, přesnou polohu a historii ověřuj kvalitnějšími zdroji, jsou-li dostupné. Existence atrakce sama o sobě nedokazuje její příslušnost k PSČ.
+
+### 20.6 Ověření a přiřazení k PSČ
+U každého kandidáta ověř identitu, význam, faktické podrobnosti a přesnou primární polohu. Dolož příslušnost k danému PSČ podle pravidel v kapitolách 3 a 6; kontroluj duplicity a rozlišuj fyzické místo od plošného příběhu, trasy či události. Širší rešerše nerozšiřuje geografický rozsah faktů. Místo patřící primárně do jiného PSČ sem nezařazuj; nejasné přiřazení označ k ověření, nikdy nehádej.
+
+### 20.7 Stav pokrytí a podmínka dokončení
+V pracovních poznámkách, nikoli v produkčním JSON, eviduj u každé skupiny jeden stav: **nalezeno a ověřeno**, **prověřeno — bez relevantního výsledku**, nebo **nevyřešeno**. PSČ je rešeršně dokončeno pouze tehdy, když jsou prověřeny všechny relevantní skupiny a nezůstává podstatná nevyřešená otázka. „Bez relevantního výsledku“ je platný výsledek; vymýšlení faktů a plnění kvót je zakázáno. Tyto stavy nepřidávej do JSON bez schválené změny schématu.
+
+## 21. Mezinárodní srozumitelnost a kulturní kontext
+
+Každý fakt musí být srozumitelný zahraničnímu čtenáři, který nemusel nikdy navštívit Rakousko a nemusí znát jeho historii, kulturu, instituce, tradice ani místní pojmy. Správný překlad nestačí; text musí předat také význam a kontext potřebný k pochopení.
+
+- Při prvním smysluplném výskytu vysvětli neznámé kulturní, historické, institucionální, politické, náboženské, společenské a správní pojmy.
+- Zachovávej správné vlastní názvy, ale podle potřeby uveď, co označují a proč jsou důležité.
+- Vysvětluj rakouské instituce, historické události, tradice a specifické pojmy, pokud by jejich význam nebyl zahraničnímu čtenáři zřejmý.
+- U historických událostí doplň stručný kontext toho, co se stalo, kdy nebo proč je událost důležitá.
+- Nenechávej bez vysvětlení podstatné zkratky, místní správní označení, nářeční výrazy ani kulturně specifické odkazy.
+- Požadavek uplatni samostatně v cs, de, en, es, fr, it a nl. Žádná jazyková verze nesmí spoléhat na vysvětlení obsažené pouze v jiném jazyce.
+- Vysvětlení začleň přirozeně a přiměřeně. Nevytvářej z každého faktu encyklopedické heslo a nepřidávej nepodstatné pozadí.
+- Nevymýšlej kontext, interpretace ani význam. Vysvětlující tvrzení musí být podložena důvěryhodnými zdroji.
+
+U každého faktu a v každém jazyce ověř:
+1. Pozná čtenář bez předchozích znalostí, o jaký objekt či téma jde?
+2. Jsou neznámé místní pojmy a vlastní názvy podle potřeby vysvětleny?
+3. Obsahuje text historický, kulturní či institucionální kontext nutný k pochopení?
+4. Pochopí čtenář, proč je fakt místně nebo historicky významný?
+5. Je každé vysvětlení přesné, stručné a podložené?
+
+## 22. Kulturní a historická hodnota nezávisí na přístupnosti ani vlastnictví
+
+Soukromé vlastnictví, uzavřený areál ani nepřístupnost veřejnosti nejsou důvodem k vynechání významného objektu nebo příběhu.
+
+- Nezaměňuj turistickou použitelnost s kulturní, historickou, architektonickou, technickou nebo místopisnou hodnotou. TRAVEL je mapa zajímavých míst a příběhů, nikoli pouze katalog právě otevřených atrakcí.
+- U kandidáta posuzuj především identitu, význam, historii, jedinečnost, zdroje a polohu. Vlastnický režim, možnost vstupu, návštěvní hodiny ani aktuální provoz nesmějí fungovat jako automatický filtr pro zařazení.
+- Informaci o přístupnosti nebo soukromém vlastnictví uváděj pouze tehdy, pokud je důležitá pro pochopení příběhu nebo praktickou bezpečnost návštěvníka.
+- Nikdy nevyřazuj objekt jen proto, že je soukromý, veřejnosti nepřístupný, uzavřený nebo není možné si jej prohlédnout zevnitř. Jeho exteriér, architektura, areál, krajinný kontext a doložené dějiny mohou být plnohodnotným mapovým obsahem.
+- Nadále platí zákaz vstupu na cizí pozemek bez oprávnění a povinnost nevyzývat k neoprávněnému vstupu.
+
+Rozhodovací otázka zní: **Je to skutečně zajímavé, významné a doložitelné místo nebo příběh, který chceme mít na mapě?** Nikoli: „Je tam otevřeno a pustí nás dovnitř?“
+
 
 ## Sdílený technický a redakční kontrakt TRAVEL — povinné části převzaté z českého originálu
 
