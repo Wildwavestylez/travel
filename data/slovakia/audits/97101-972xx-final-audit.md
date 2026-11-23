@@ -33,7 +33,7 @@
 
 ## Location corrections completed in this continuation
 
-The following 23 fact locations were filled with explicit source-backed exact, approximate, area-representative or historical-approximate points. Each changed record was fetched before writing, updated at its canonical path, fetched again and checked for unchanged `validated` status and unchanged version metadata. Its `database_index.json` city/status entry was then synchronized and read back.
+The following 26 fact locations were filled with explicit source-backed exact, approximate, area-representative or historical-approximate points. Each changed record was fetched before writing, updated at its canonical path, fetched again and checked for unchanged `validated` status and unchanged version metadata. Its `database_index.json` city/status entry was then synchronized and read back.
 
 - 97211: fact_005 — Lazany historic-settlement orientation point; exact location of former poorhouse house no. 145 remains unknown.
 - 97212: fact_004 — Via Magna route orientation point; fact_006 — municipal office orientation point for the two historic settlements; fact_007 — present-day Marian chapel location in Brezany.
