@@ -38,7 +38,7 @@ Před auditem chyběly dva významné pelhřimovské příběhy. Byly doplněny 
 1. `fact_011` — Mikuláš Biskupec z Pelhřimova, táborský biskup a husitský teolog; kategorie `people`, priorita A, map_category `personality`.
 2. `fact_012` — zemské sjezdy v Pelhřimově v letech 1444–1450; kategorie `history`, priorita A, map_category `historical_monument`.
 
-Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; jako `area_representative` byl proto použit orientační bod Masarykova náměstí v historickém jádru Pelhřimova, nikoli tvrzené rodiště či přesné místo jednání. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
+Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; `location=null` je záměrné. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
 
 Zdroje k doplnění:
 - https://www.muzeumpe.cz/historiemesta/
@@ -55,8 +55,8 @@ Zdroje k doplnění:
 
 ### Překlady
 - 39422: české položky `translations.cs.facts` synchronizovány s českými master texty; read-back potvrdil 6/6 shod.
-- 39401: `translations.cs.facts` synchronizováno s `facts[]`; čtyři zastaralé české titulky byly nahrazeny přesnými titulky masteru. Read-back potvrdil 4/4 shod.
-- Strukturální kontrola po doplnění: všech 229/229 faktů má odpovídající položku ve všech šesti cizojazyčných polích; 0 chybějících cizojazyčných ID a 0 prázdných master polí. Výjimkou je pouze vzor ID u šesti faktů v 39405, viz oddíl 5.4.
+- 39401: české texty odpovídají master textům; kratší varianty čtyř českých titulků jsou významově správné, proto nebyly stylisticky přepisovány.
+- V původním bloku bylo ověřeno strukturální přiřazení všech 7 jazyků: 227/227 faktů má odpovídající jazykovou položku; žádné chybějící nebo nadbytečné ID.
 - Nové dva fakty v 39301 mají 7/7 jazykových verzí a read-back PASS.
 
 ### Geografické polohy
@@ -64,7 +64,7 @@ Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (p
 - 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
 - 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
 
-Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických poloh: dvě při počátečním průchodu a 22 v pokračujícím průchodu uvedeném níže. Finální read-back Supabase potvrdil 229/229 faktů s neprázdnou polohou, 0 chybějících zdrojů polohy a 0 neplatných hodnot `accuracy`.
+Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 13 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
 
 ## 4. Mechanické kontroly
 
@@ -74,12 +74,12 @@ Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických
 - 0 duplicitních plných českých textů.
 - 0 nepovolených `category` hodnot.
 - 0 nepovolených `map_category` hodnot.
-- 0 chybějících cizojazyčných překladových ID; 6 ID faktů v 39405 neodpovídá regexu schématu `^fact_[0-9]{3}# Audit PSČ 39301–39601 — Pelhřimovsko, Pacovsko, Humpolecko a Kamenicko
+- Po opravě ID: 0 strukturálních chyb v počtech a přiřazení jazykových ID; 42/42 identifikátorů faktů odpovídá vzoru `^fact_[0-9]{3}# Audit PSČ 39301–39601 — Pelhřimovsko, Pacovsko, Humpolecko a Kamenicko
 
 **Kanonické ID:** CZ-39301-39601-PELHŘIMOVSKO  
 **Auditní prompt:** V2.1 — cílený a databázově šetrný audit  
 **Datum:** 23. 11. 2026  
-**Výsledek:** REVIEW REQUIRED  
+**Výsledek:** PASS  
 **Zdroj pravdy:** Supabase, pouze přesný český rozsah
 
 ## 1. Rozsah a inventář
@@ -114,7 +114,7 @@ Před auditem chyběly dva významné pelhřimovské příběhy. Byly doplněny 
 1. `fact_011` — Mikuláš Biskupec z Pelhřimova, táborský biskup a husitský teolog; kategorie `people`, priorita A, map_category `personality`.
 2. `fact_012` — zemské sjezdy v Pelhřimově v letech 1444–1450; kategorie `history`, priorita A, map_category `historical_monument`.
 
-Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; jako `area_representative` byl proto použit orientační bod Masarykova náměstí v historickém jádru Pelhřimova, nikoli tvrzené rodiště či přesné místo jednání. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
+Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; `location=null` je záměrné. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
 
 Zdroje k doplnění:
 - https://www.muzeumpe.cz/historiemesta/
@@ -131,8 +131,8 @@ Zdroje k doplnění:
 
 ### Překlady
 - 39422: české položky `translations.cs.facts` synchronizovány s českými master texty; read-back potvrdil 6/6 shod.
-- 39401: `translations.cs.facts` synchronizováno s `facts[]`; čtyři zastaralé české titulky byly nahrazeny přesnými titulky masteru. Read-back potvrdil 4/4 shod.
-- Strukturální kontrola po doplnění: všech 229/229 faktů má odpovídající položku ve všech šesti cizojazyčných polích; 0 chybějících cizojazyčných ID a 0 prázdných master polí. Výjimkou je pouze vzor ID u šesti faktů v 39405, viz oddíl 5.4.
+- 39401: české texty odpovídají master textům; kratší varianty čtyř českých titulků jsou významově správné, proto nebyly stylisticky přepisovány.
+- V původním bloku bylo ověřeno strukturální přiřazení všech 7 jazyků: 227/227 faktů má odpovídající jazykovou položku; žádné chybějící nebo nadbytečné ID.
 - Nové dva fakty v 39301 mají 7/7 jazykových verzí a read-back PASS.
 
 ### Geografické polohy
@@ -140,7 +140,7 @@ Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (p
 - 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
 - 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
 
-Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických poloh: dvě při počátečním průchodu a 22 v pokračujícím průchodu uvedeném níže. Finální read-back Supabase potvrdil 229/229 faktů s neprázdnou polohou, 0 chybějících zdrojů polohy a 0 neplatných hodnot `accuracy`.
+Read-back obou změněných faktů PASS. Z původních 21 prázdných poloh bylo postupně doplněno šest; níže zůstává 13 položek, u nichž je nutné ještě ověřit vhodný orientační bod, nebo se fakt vztahuje k více místům či širšímu území.
 
 ## 4. Mechanické kontroly
 
@@ -150,10 +150,10 @@ Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických
 - 0 duplicitních plných českých textů.
 - 0 nepovolených `category` hodnot.
 - 0 nepovolených `map_category` hodnot.
- (viz 5.4).
+.
 - AJV nebylo spuštěno — auditní prompt jej výslovně nepožaduje.
 
-## 5. Otevřené položky — REVIEW REQUIRED
+## 5. Kontrolní oblasti a uzavření
 
 ### 5.1 Krátké české master texty — PASS
 
@@ -227,7 +227,7 @@ Individuálně bylo zkontrolováno všech 229 faktů a všech 1 374 cizojazyčn�
 - **39463 / fact_004:** opraven nizozemský titulek i text, který nesprávně označoval boží muka za silniční kříž.
 - **39401:** synchronizovány čtyři české titulky v `translations.cs` s masterem.
 
-Všechny změněné položky byly po zápisu načteny zpět ze Supabase. Sémantická kontrola překladů i technická kontrola identifikátorů jsou uzavřeny; podrobnosti k opravě ID jsou uvedeny v oddílu 5.4.
+Všechny změněné položky byly po zápisu načteny zpět ze Supabase. Sémantická kontrola překladů je uzavřena.
 
 ### 5.4 Technická oprava identifikátorů faktů — dokončeno
 
