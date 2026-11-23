@@ -754,7 +754,7 @@ Seznam je záměrně široký. Zařazuj pouze konkrétní, významné a geografi
 ### 35.4 Povinná dvoufázová rešerše
 **Fáze 1 — široké objevování:** urči oblast PSČ podle stávajících pravidel; hledej v oficiálních turistických, památkových, muzejních, přírodovědných, obecních, regionálních a odborných zdrojích; používej PSČ, sídla, místní a historické názvy, krajinné celky a názvy památek; objevuj hlavní atrakce a příběhy bez omezení starým záznamem či prvními obecnými výsledky; eviduj kandidáty, polohu a zdroje.
 
-**Fáze 2 — audit tematických mezer:** projdi každou relevantní skupinu v 20.2 jednotlivě; cíleně hledej zejména muzea a specializované sbírky, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické dědictví, paměťová místa, místní pověsti, historické události a neobvyklé zajímavosti; porovnej výsledky se starým záznamem a první fází; identifikuj opomenutí, duplicity, slabé kandidáty a fakta patřící jinam. Obecné vyhledávání samo o sobě neznamená, že byla kategorie prověřena.
+**Fáze 2 — audit tematických mezer:** projdi každou relevantní skupinu v 35.2 jednotlivě; cíleně hledej zejména muzea a specializované sbírky, vyhlídky, zahrady, zoo/akvária, jeskyně a podzemí, technické dědictví, paměťová místa, místní pověsti, historické události a neobvyklé zajímavosti; porovnej výsledky se starým záznamem a první fází; identifikuj opomenutí, duplicity, slabé kandidáty a fakta patřící jinam. Obecné vyhledávání samo o sobě neznamená, že byla kategorie prověřena.
 
 Obě fáze jsou povinné před dokončením běžného obsahového reworku.
 
