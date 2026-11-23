@@ -4,7 +4,7 @@
 - **Rozsah:** 36001–36471; pouze existující PSČ uvedená níže
 - **Datum auditu:** 2026-11-23
 - **Použitá pravidla:** `data/czechia/prompt_audit.md` V2.1
-- **Výsledek:** **REVIEW REQUIRED**
+- **Aktuální výsledek:** **PASS — AUDIT V2.1 COMPLETE**
 - **Publikace:** neprovedena
 - **Změna verze:** neprovedena; záznamy zůstávají `data_version=1`, `status=validated`
 - **Záloha / Neon import / read-only lock:** neprovedeny
