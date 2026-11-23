@@ -799,19 +799,21 @@ Soukromé vlastnictví, uzavřený areál ani nepřístupnost veřejnosti nejsou
 
 Rozhodovací otázka zní: **Je to skutečně zajímavé, významné a doložitelné místo nebo příběh, který chceme mít na mapě?** Nikoli: „Je tam otevřeno a pustí nás dovnitř?“
 
-## 38. Rakouský produkční lifecycle a úložiště
+## 38. Rakouský produkční standard, lifecycle a úložiště
 
-**Status: Schválený provozní workflow.** Rakousko používá společnou technickou strukturu TRAVEL a následující závazný postup práce s daty:
+Rakousko používá kompletní společnou technickou strukturu TRAVEL. Tento Content Standard, `COUNTRY_PROFILE.md`, `schema.json`, `prompt_rework.md` a `prompt_audit.md` tvoří závazný a navzájem sladěný produkční celek. Všechny zde definované požadavky platí při každé tvorbě a reworku; žádná část se neodkládá do budoucí etapy.
 
-1. **Příprava na GitHubu:** připraví se a udržuje rakouská geografická sekvence v `sequence.json` a předpřipravené JSON soubory podle schématu.
-2. **Rework na GitHubu:** každý záznam se kompletně přepracuje podle tohoto standardu, Country Profile a `prompt_rework.md`.
-3. **Audit na GitHubu:** dokončený rework se samostatně zkontroluje podle `prompt_audit.md`. Nevyhovující záznam se vrací do reworku a následně znovu audituje.
-4. **V5:** pouze úspěšně auditované záznamy postupují do přípravy finální verze V5.
-5. **Published na GitHubu:** po dokončení V5 a schválení se příslušné záznamy označí jako `published` v rámci existujícího datového kontraktu.
-6. **Neon:** do Neonu se následně přenáší kopie publikovaných záznamů z GitHubu. Neon není alternativní zdroj pro průběžné úpravy rakouských pracovních JSONů.
+**Pravidlo konečného stavu:** projektové dokumenty vždy popisují cílový, úplný a již platný systém. Nesmějí zavádět přípravné standardy, provizorní požadavky, nedokončené placeholdery ani formulace typu „doplní se později“. Pokud dokument, schéma nebo provozní pokyn obsahuje rozpor či neúplnou specifikaci, nejprve se opraví na úplný společný standard a teprve poté se pokračuje v dotčené práci. Chybějící administrativní pomůcka nesmí bez věcného důvodu blokovat rešerši nebo rework.
 
-GitHub je autoritativní pracovní a publikační zdroj rakouských JSON souborů. Neon obsahuje kopii publikovaných dat. Pořadí kroků se nesmí obcházet: neauditované ani nepřipravené V5 záznamy se nesmějí označit jako `published` ani kopírovat do Neonu.
+**Závazný lifecycle produkčních záznamů:**
 
-Sekvence a předpřipravené JSON soubory se připravují jako následující pracovní etapa. Jejich dosud prázdný nebo přípravný stav neznamená, že metodika, schéma, autority nebo publikační workflow zůstávají nerozhodnuté.
+1. **Kanonický rozsah:** `sequence.json` obsahuje úplný schválený inventář geografických rakouských PLZ a pořadí práce. Není to budoucí přípravný úkol.
+2. **Rework:** každý záznam se kompletně zpracuje na GitHubu podle tohoto standardu, Country Profile, schématu a `prompt_rework.md`.
+3. **Samostatný audit:** dokončený rework se ověří podle `prompt_audit.md`. Nevyhovující záznam se opraví v reworku a znovu audituje.
+4. **V5 a schválení:** pouze úspěšně auditované záznamy mohou být připraveny jako V5 a schváleny.
+5. **Published na GitHubu:** po dokončení V5 a schválení se záznam označí jako `published` podle existujícího datového kontraktu.
+6. **Neon:** do Neonu se kopírují pouze publikované záznamy z GitHubu. Neon není alternativní zdroj pro průběžné úpravy.
 
-Společná pravidla TRAVEL pro kvalitu obsahu, geografickou odpovědnost, zdroje, překlady a datovou strukturu zůstávají plně závazná.
+GitHub je autoritativní pracovní a publikační zdroj rakouských JSON souborů; Neon obsahuje jejich publikovanou kopii. Pořadí lifecycle kroků je závazné. Rozlišení reworku, auditu a publikace se týká stavu jednotlivých datových záznamů, nikoli úplnosti či závaznosti projektových dokumentů.
+
+Společná pravidla TRAVEL pro kvalitu obsahu, geografickou odpovědnost, zdroje, překlady a datovou strukturu platí v plném rozsahu od začátku práce.
