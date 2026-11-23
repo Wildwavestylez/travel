@@ -133,6 +133,15 @@ V tomto průchodu bylo plně aktualizováno 18 rozšířených faktů ve všech 
 
 Tato kontrola ověřuje strukturu, úplnost a českou synchronizaci. **Neznamená** kompletní sémantickou revizi všech původních cizojazyčných překladů ve všech 27 PSČ; ta zůstává otevřená.
 
+### Průběžná sémantická revize překladů — PSČ 36263
+
+Při zahájení cílené jazykové kontroly Dalovic byly nalezeny a opraveny tyto konkrétní významové nedostatky:
+- 36263 / `fact_001`, němčina: opraven chybný rod názvu instituce „Das Nationale Denkmalinstitut“ a doplněna informace o pravěkých sídlištních místech u Všeborovic, která v překladu chyběla.
+- 36263 / `fact_002`, němčina: zpřesněno, že roku 1503 byla tvrz poškozena v bojích mezi loketskými měšťany a Šliky; původní formulace mohla mylně vyznít jako konflikt města Loket se Šliky.
+- 36263 / `fact_006`, všech šest cizích jazyků: sjednocena časová osa s českým master textem — po znárodnění pokračovala výroba pod státní správou, provoz se přerušil v 90. letech, na počátku 21. století byl obnoven a později znovu ukončen. Odstraněna nepodložená zmínka o „měnících se vlastnících“.
+
+Read-back potvrdil všech 7 jazyků, v každém 9/9 faktů se správnými ID a bez prázdných titulů či textů. Tato cílená kontrola se týká uvedených oprav; **neuzavírá** ještě úplnou sémantickou kontrolu všech devíti faktů PSČ 36263 ani celého bloku 27 PSČ.
+
 ## 6. Délka českých master textů
 
 Po dokončení reworku byla znovu zkontrolována délka všech **299 českých master textů** v celé skupině 27 PSČ.
