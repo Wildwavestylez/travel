@@ -55,24 +55,33 @@ No fact IDs, fact prose, source lists, primary postcode assignments, record stat
 
 ### Missing fact locations
 
-There are now 31 facts with `location: null` in 13 records. Twenty-nine fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+There are now 17 facts with `location: null` in 9 records. Forty-three fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were checked and are synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
 
 | Postcode | Facts with null location |
 |---|---|
 | 97222 | fact_002 |
 | 97223 | fact_004 |
-
-| 97231 | fact_001, fact_004 |
-| 97232 | fact_001, fact_004, fact_005 |
-| 97241 | fact_001, fact_003, fact_004 |
-| 97242 | fact_001, fact_002, fact_003, fact_005 |
-| 97243 | fact_006, fact_007 |
-| 97244 | fact_004, fact_006, fact_007 |
-| 97245 | fact_005 |
+| 97241 | fact_001, fact_004 |
+| 97242 | fact_002 |
+| 97243 | fact_006 |
 | 97246 | fact_004 |
 | 97247 | fact_001, fact_002, fact_003, fact_005 |
 | 97248 | fact_002, fact_004, fact_005, fact_006 |
 | 97251 | fact_001, fact_013 |
+
+### Additional location corrections — batch 97231–97245
+
+Fourteen fact locations were added across seven records and verified by GitHub read-back:
+
+- 97231: fact_001 — Ráztočno historic-settlement orientation point for the medieval trade route and toll station; exact archaeological/toll-station position is not established. fact_004 — Jalovec settlement orientation point for the Huňov glassworks and Jozef Lenhart; exact glassworks position is not established.
+- 97232: fact_001 — Chrenovec settlement orientation point for the two historical settlements; fact_004 — Brusno orientation point for the relocated Immaculata column (not a claimed exact monument coordinate); fact_005 — Chrenovec orientation point for the 1864 Sunday-school library, whose building is unknown.
+- 97241: fact_003 — Koš settlement orientation point for the mining-driven destruction and transformation of the village. fact_001 (Katký kopec archaeology) and fact_004 (Peter Tvrdý's rectory residence) remain null because the available sources do not establish a defensible point.
+- 97242: fact_001 — municipal-office orientation point for the union of Malá and Veľká Lehota; fact_003 — Chata Smrečina orientation point near the bunker and field hospital (the hospital is approximately 250 m away); fact_005 — Chata Smrečina orientation point for the Sekaniny recreation area. fact_002 (former Hôrka open-pit mine) remains null pending a defensible location.
+- 97243: fact_007 — Zemianske Kostoľany settlement orientation point for Tobiáš Masník's birthplace; the exact birth house is not identified. fact_006 (1965 ash-pond failure site) remains null because the source material reviewed did not establish a sufficiently precise map point.
+- 97244: fact_004 — Dolný Kamenec orientation point for the former paper mill at Pod Brehy; fact_006 — Dolný Kamenec orientation point for the St. Vendelín statue, not its exact position; fact_007 — Dolný Kamenec orientation point for the shared historical seal of both Kamence.
+- 97245: fact_005 — Bystričany settlement orientation point for the first mill on the Bystrá stream; exact mill position is not documented.
+
+The added points use explicit orientation-point names and honest `area_representative`, `approximate` or `historical_approximate` accuracy. No fact text, fact ID, fact-level source list, primary postcode assignment, status or version metadata was changed. All seven records remain `validated`; their existing Database Viewer `city` and `status` entries were checked and already matched.
 
 ### Postal-geography evidence
 
@@ -88,7 +97,7 @@ The records describe address evidence, but the geographic test flag is false and
 ### Record-level results
 
 - `PASS` on the structural, language-alignment, source-reference and map-category checks: all 32 records.
-- `REVIEW REQUIRED` for null fact locations: the 23 records listed above.
+- `REVIEW REQUIRED` for null fact locations: the 9 records listed above.
 - `REVIEW REQUIRED` for postal-geography evidence: 97211, 97212, 97215, 97216.
 - Overall block result: `REVIEW REQUIRED`; do not publish until all material open items are resolved and cross-postcode checks remain complete.
 
@@ -102,4 +111,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-Resolve the remaining 37 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+Resolve the remaining 17 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
