@@ -1,8 +1,10 @@
-# TRAVEL — AUSTRIA PLZ FINAL AUDIT PROMPT (working baseline)
+# TRAVEL — AUSTRIA PLZ FINAL AUDIT PROMPT
 
 ## Status and separation
 
-Working draft only. It becomes operational only after the Austrian schema, Country Profile, Content Standard and storage/publication workflow are approved.
+**Status: Complete and approved operational instruction.** This prompt defines the separate final audit stage in the established Austrian TRAVEL workflow. It is used together with `schema.json`, `COUNTRY_PROFILE.md`, `CONTENT_STANDARD.md` and `prompt_rework.md`.
+
+**Established data workflow:** prepare inventory and JSON working files on GitHub; complete rework on GitHub; perform this separate final audit on the GitHub working records; after a successful audit prepare V5 and mark the approved records `published` on GitHub; only then copy the published GitHub records to Neon. GitHub remains the authoritative working and publication source; Neon receives the published copy.
 
 This prompt defines a separate final audit. Its scope and any audit simplifications must never be transferred to full research, creation or rework requirements in `CONTENT_STANDARD.md` and `prompt_rework.md`.
 
@@ -55,9 +57,9 @@ Use official public online registers, search interfaces and institutional pages 
 
 ## Audit outcomes
 
-Do not invent or change lifecycle states until the approved Austrian storage and publication workflow defines them. Record each material issue, supporting evidence, exact affected field/fact and required correction. A record passes only when all applicable checks are supported and the complete record validates.
+Record each material issue, supporting evidence, exact affected field/fact and required correction. A record passes only when all applicable checks are supported and the complete record validates.
 
-Never mark a record published, change a data version or modify production storage under this working draft.
+The audit itself does not silently rewrite the record or mark it `published`. Failed records return to rework on GitHub and must be audited again. Passed records become eligible for V5 preparation. Only after V5 preparation and final approval may the corresponding GitHub records be marked `published`. Neon is updated only by copying the published GitHub records; never publish unaudited or pre-V5 working files to Neon.
 
 ## Shared technical audit — mandatory
 
@@ -72,7 +74,7 @@ For every audited Austrian record, check the complete record against `data/austr
 7. For each non-null fact location, verify its `name`, coordinates, `type`, `accuracy` and `source` follow the map-location rules. If `location` is null, check whether a defensible approximate or representative point can be established before accepting null.
 8. Confirm all location-type identifiers match both `data/austria/location_types.json` and the schema enum exactly.
 9. Check fact source references resolve to entries in the record's `sources` array as required by the schema and project rules.
-10. Confirm no changes were made to schema, production storage, lifecycle states, publication or backups as part of an ordinary audit.
+10. Confirm the audit did not modify the shared schema, sequence or unrelated records. Record any authorized correction to an audited JSON separately; do not mark it `published` as part of the audit.
 
 The audit is a targeted check of completed records; it must not be used to weaken the full research and content-creation requirements in `CONTENT_STANDARD.md` or `prompt_rework.md`.
 
@@ -82,4 +84,4 @@ Use official public online sources by default. Do not require bulk downloads or 
 
 ## Technical audit result
 
-Report the exact number of records checked, schema/structure findings, invalid or missing map categories, translation ID mismatches, fact-location issues, source-reference problems and unresolved cases. Do not claim a full schema validation if only a visual spot-check was performed. Do not invent lifecycle values or storage operations while the Austrian storage workflow remains undecided.
+Report the exact number of records checked, schema/structure findings, invalid or missing map categories, translation ID mismatches, fact-location issues, source-reference problems and unresolved cases. Do not claim a full schema validation if only a visual spot-check was performed. Use only the established GitHub workflow and the existing schema/lifecycle conventions; do not invent lifecycle values or bypass the V5 and publication gates.
