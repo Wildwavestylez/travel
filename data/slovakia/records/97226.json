@@ -1,4 +1,667 @@
 {
   "postcode": "97226",
-  "status": "placeholder"
+  "city": "Nitrianske Rudno",
+  "district": null,
+  "county": "Prievidza",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+  "representative_point": {
+    "lat": 48.81066,
+    "lon": 18.48284
+  },
+  "access_point": {
+    "lat": 48.81066,
+    "lon": 18.48284
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Vodní nádrž Nitrianske Rudno – technické dílo, které se proměnilo v rekreační krajinu",
+      "text": "Vodní nádrž Nitrianske Rudno vznikla na řece Nitrica v letech 1951–1958 jako technické dílo pro zásobování vodou tepelné elektrárny v Novákách a chemických závodů. Slovenský výbor ICOLD uvádí rok 1954 jako dokončení stavby, zatímco obecní a regionální materiály popisují širší období výstavby 1951–1958; údaje se mohou vztahovat k různým etapám projektu. Vodní plocha má přibližně 0,9–0,96 km² a postupně se stala jedním z hlavních rekreačních míst horní Nitry. V létě slouží ke koupání, vodním sportům a rybolovu a nabízí výhledy na Strážovské vrchy a masiv Rokoše.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "https://www.visitprievidza.sk/okolie/vodn%C3%A1-n%C3%A1dr%C5%BE-nitrianske-rudno",
+        "https://t3.skcold.sk/uploads/media/Tabulka_VD_ICOLD_SK.pdf"
+      ],
+      "location": {
+        "name": "Vodná nádrž Nitrianske Rudno – střed vodní plochy",
+        "address": null,
+        "lat": 48.81066,
+        "lon": 18.48284,
+        "type": "dam",
+        "accuracy": "approximate",
+        "source": "https://rybarstvo.sk/reviry/povodie-vah/vn-nitrianske-rudno/vn-nitrianske-rudno-3-5470-1-1"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_002",
+      "title": "Fraňo Madva – botanik a lidový léčitel, za kterým přijížděli pacienti zdaleka",
+      "text": "Katolický kněz František (Fraňo) Madva (1786–1852) působil v Nitrianském Rudně jako farář v letech 1825–1850. Věnoval se botanice, sběru a výzkumu léčivých rostlin i lidovému léčitelství. Jeho pověst překročila hranice regionu: zdroje uvádějí pacienty z různých částí Evropy a mezi osobnostmi, které jej navštívily, připomínají Ľudovíta Štúra a Imreho Madácha. Na jeho památku byl roku 1925 v areálu kostela postaven pomník. Jeho působení dnes připomíná také naučná stezka spojující Nitrianske Rudno s Nitrianskými Sučany.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "https://www.nitrianskerudno.sk/informacie-o-obci/historia-obce/",
+        "https://slovakia.travel/turisticka-destinacia-region-horna-nitra-bojnice-pripomina-ludoveho-liecitela-frana-madvu",
+        "https://botanici.sav.sk/people/madva-frantisek.html"
+      ],
+      "location": {
+        "name": "Pamätník Fraňa Madvu, areál kostela v Nitrianském Rudně",
+        "address": null,
+        "lat": 48.796389,
+        "lon": 18.478333,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://slovakia.travel/turisticka-destinacia-region-horna-nitra-bojnice-pripomina-ludoveho-liecitela-frana-madvu"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_003",
+      "title": "Klasicistní kostel sv. Andreje-Svorada a Benedikta",
+      "text": "Dominantou Nitrianského Rudna je římskokatolický kostel postavený v letech 1804–1816 na místě staršího dřevěného chrámu zničeného požárem. Původně byl zasvěcen svatému Štěpánovi, uherskému králi; nové zasvěcení svatým Andreji-Svoradovi a Benediktovi získal roku 1991. Jde o klasicistní jednolodní stavbu s věží začleněnou do průčelí a rovným závěrem presbytáře. Kostel je evidován v Ústředním seznamu památkového fondu SR pod číslem 847/1. V jeho areálu stojí také pomník místního kněze a léčitele Fraňa Madvy.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.nitrianskerudno.sk/wp-content/uploads/2023/09/PHRSR-obce-Nitrianske-Rudno-na-roky-2024-2030-003.pdf",
+        "https://www.pamiatkynaslovensku.sk/nitrianske-rudno-kostol-sv-andreja-svorada-a-benedikta",
+        "https://www.nitrianskerudno.sk/informacie-o-obci/historia-obce/"
+      ],
+      "location": {
+        "name": "Kostol sv. Andreja Svorada a Benedikta, Nitrianske Rudno",
+        "address": null,
+        "lat": 48.795503,
+        "lon": 18.476885,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/nitrianske-rudno-kostol-sv-andreja-svorada-a-benedikta"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostolná Ves – gotický kostel a středověké jádro kruhové vsi",
+      "text": "Kostolná Ves patří k historickým sídlům nitrické doliny; první písemná zmínka o obci pochází z roku 1332. Nejstarší jádro vsi se soustředilo kolem kostela a domy byly původně uspořádány do kruhu, což vytvořilo charakteristickou kompaktní sídelní strukturu. Nejvýznamnější památkou je původně gotický kostel Narodenia Panny Márie ze 14. století. Upravován byl v letech 1515, 1742 a 1773; při opravě roku 1933 byly pod omítkou objeveny zbytky středověké nástěnné malby.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://kostolnaves.sk/historia-obce/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_1c38761d-8c6f-4f96-9779-dccc4112541f",
+        "https://www.pamiatkynaslovensku.sk/kostolna-ves-kostol-narodenia-panny-marie"
+      ],
+      "location": {
+        "name": "Kostol Narodenia Panny Márie, Kostolná Ves",
+        "address": null,
+        "lat": 48.806819,
+        "lon": 18.490488,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kostolna-ves-kostol-narodenia-panny-marie"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Hrádok Dlžín – středověké opevnění nad obcí",
+      "text": "Na skalním návrší severovýchodně od Dlžína se zachovaly pozůstatky středověkého hrádku. Podle Pamiatkového úradu SR bylo návrší osídleno už v 9. století; samotný hrádek vznikl pravděpodobně ve 12.–13. století a archeologické nálezy dokládají jeho využívání ve 14.–15. století. Vrcholovou plošinu chránil val s příkopem, zatímco v jihozápadní a západní části jsou dodnes patrné zbytky kamenného zdiva, patrně obytné stavby nebo věže. Hrádek stál nad starou cestou spojující Rudnianskou a Hornonitrianskou kotlinu a poskytoval široký rozhled do okolní krajiny. Lokalita je národní kulturní památkou.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatky.sk/aktuality/detail/pusr-pripravil-nove-digitalne-modely-hradov-hradkov-hradiska",
+        "https://search.webdepozit.sk/webarchiv/public/20210811003517/https%3A/www.hrady-zamky.sk/dlzin/"
+      ],
+      "location": {
+        "name": "Hrádok Dlžín – vrcholové opevněné návrší",
+        "address": null,
+        "lat": 48.813475,
+        "lon": 18.523928,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://search.webdepozit.sk/webarchiv/public/20210811003517/https%3A/www.hrady-zamky.sk/dlzin/"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Seč – pastýřská osada a původ místního jména",
+      "text": "Obec Seč je písemně doložena od roku 1275, kdy se uvádí pod historickou podobou názvu Zcech. Vlastnili ji nejprve Diviackovci, později Motešičtí a Bossányiovci. Obecní historická stránka popisuje její vývoj jako malé pastýřské osady: pastýři pásli stáda na salaších a postupně káceli a vysekávali lesní porost, aby získali půdu pro pole a dřevěné chalupy. Právě od vysekávání a čištění zarostlé půdy odvozuje místní tradice název Seč. Toto vysvětlení je místní etymologickou tradicí, nikoli definitivně prokázaným jazykovědným výkladem.",
+      "category": "history",
+      "priority": "D",
+      "sources": [
+        "https://www.obecsec.sk/obec/o-obci/",
+        "https://www.obecsec.sk/kontakty/"
+      ],
+      "location": {
+        "name": "Obecný úřad Seč – orientační bod historického sídla",
+        "address": "Seč 133, 972 26 Seč, Slovensko",
+        "lat": 48.833222,
+        "lon": 18.512557,
+        "type": "town_hall",
+        "accuracy": "approximate",
+        "source": "https://sec.oma.sk/"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_007",
+      "title": "Rudnianska Lehota – osada doložená listinou z roku 1463",
+      "text": "Rudnianska Lehota vznikla v údolí potoka Bystrička v prostoru, který původně tvořil společný majetkový celek s Rudnem. Oficiální obecní historický přehled uvádí, že osada Lehota je poprvé písemně doložena listinou Nitrianskej kapituly z 3. května 1463. V dokumentech z let 1470 a 1477 se objevuje také podoba „Lehotkha alio nomine Bystryczka“, odkazující na místní potok. Obecní zdroj připomíná i ničivý požár roku 1918, při němž ves vyhořela a následně byla obnovena.",
+      "category": "history",
+      "priority": "D",
+      "sources": [
+        "https://www.rudnianskalehota.sk/zivot-v-obci/historia",
+        "https://www.rudnianskalehota.sk/samosprava/nasa-obec",
+        "https://www.rudnianskalehota.sk/samosprava/obecny-urad"
+      ],
+      "location": {
+        "name": "Obecný úřad Rudnianska Lehota – orientační bod sídla",
+        "address": "Rudnianska Lehota 225, 972 26 Nitrianske Rudno, Slovensko",
+        "lat": 48.804217,
+        "lon": 18.4576,
+        "type": "town_hall",
+        "accuracy": "approximate",
+        "source": "https://www.rudnianskalehota.sk/samosprava/nasa-obec"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_008",
+      "title": "Nitrianske Rudno – od hornické osady k přirozenému centru kotliny",
+      "text": "Nitrianske Rudno se vyvinulo z hornické osady a v písemných pramenech se objevuje roku 1275 jako Ruda, roku 1348 jako Rudno a od roku 1924 používá dnešní název. Roku 1924 k němu byla připojena také někdejší samostatná Kršťanova Ves, doložená už roku 1343. Současný územní a rozvojový plán obce charakterizuje Nitrianske Rudno jako přirozené těžiště nitrického výběžku Hornonitrianské kotliny. Tato poloha pomáhá vysvětlit, proč se obec stala hlavním sídelním a službovým centrem širšího okolí.",
+      "category": "geography_and_context",
+      "priority": "D",
+      "sources": [
+        "https://www.slovensko.sk/sk/lokality/_2d3af200-7f60-4a80-91d1-5cf9e4b89159",
+        "https://www.nitrianskerudno.sk/wp-content/uploads/2023/09/PHRSR-obce-Nitrianske-Rudno-na-roky-2024-2030-003.pdf",
+        "https://www.nitrianskerudno.sk/obecny-urad/"
+      ],
+      "location": {
+        "name": "Nitrianske Rudno – veřejný orientační bod v centru obce",
+        "address": null,
+        "lat": 48.795742,
+        "lon": 18.477628,
+        "type": "historic_settlement",
+        "accuracy": "approximate",
+        "source": "https://nitrianske-rudno.oma.sk/"
+      },
+      "map_category": "historic_city"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální portál vyhledávání PSČ; geografické použití 972 26 je dále doloženo oficiálními adresami obcí Nitrianske Rudno, Rudnianska Lehota, Kostolná Ves, Seč a Dlžín a nezávislým seznamem slovenských PSČ z roku 2019. Statická stránka Slovenské pošty nezobrazuje výsledek konkrétního dotazu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – PSČ lookup; oficiální adresní údaje pěti obcí; Complete Postcode List for Slovakia (July 2019)",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiální obecní adresy pěti sídel používají PSČ 972 26; provozní stav pošty nebyl posuzován.",
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR a ÚPVS – administrativní identita obcí; oficiální obecní zdroje – fyzické adresy a sídelní vztahy; Pamiatkový úrad SR a odborné mapové zdroje – poloha památek a souřadnice."
+  },
+  "sources": [
+    {
+      "title": "PSČ – Slovenská pošta",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Complete Postcode List for Slovakia (July 2019)",
+      "url": "https://www.parcelforce.com/sites/default/files/SK%20Postcodes%20Jul19%20v1%20260719.pdf",
+      "type": "other"
+    },
+    {
+      "title": "PHRSR obce Nitrianske Rudno 2024–2030",
+      "url": "https://www.nitrianskerudno.sk/wp-content/uploads/2023/09/PHRSR-obce-Nitrianske-Rudno-na-roky-2024-2030-003.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obecný úrad Nitrianske Rudno",
+      "url": "https://www.nitrianskerudno.sk/obecny-urad/",
+      "type": "official"
+    },
+    {
+      "title": "História obce Nitrianske Rudno",
+      "url": "https://www.nitrianskerudno.sk/informacie-o-obci/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Nitrianske Rudno – ÚPVS",
+      "url": "https://www.slovensko.sk/sk/lokality/_2d3af200-7f60-4a80-91d1-5cf9e4b89159",
+      "type": "official"
+    },
+    {
+      "title": "Vodná nádrž Nitrianske Rudno – Visit Prievidza",
+      "url": "https://www.visitprievidza.sk/okolie/vodn%C3%A1-n%C3%A1dr%C5%BE-nitrianske-rudno",
+      "type": "regional"
+    },
+    {
+      "title": "Základné údaje slovenských priehrad – ICOLD",
+      "url": "https://t3.skcold.sk/uploads/media/Tabulka_VD_ICOLD_SK.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Kostol sv. Andreja Svorada a Benedikta – Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/nitrianske-rudno-kostol-sv-andreja-svorada-a-benedikta",
+      "type": "specialist"
+    },
+    {
+      "title": "Fraňo Madva – Slovakia.travel",
+      "url": "https://slovakia.travel/turisticka-destinacia-region-horna-nitra-bojnice-pripomina-ludoveho-liecitela-frana-madvu",
+      "type": "official"
+    },
+    {
+      "title": "František Madva – SAV",
+      "url": "https://botanici.sav.sk/people/madva-frantisek.html",
+      "type": "university"
+    },
+    {
+      "title": "História obce Kostolná Ves",
+      "url": "https://kostolnaves.sk/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Kostolná Ves – ÚPVS",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_1c38761d-8c6f-4f96-9779-dccc4112541f",
+      "type": "official"
+    },
+    {
+      "title": "Kostol Narodenia Panny Márie – Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/kostolna-ves-kostol-narodenia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "O obci Seč",
+      "url": "https://www.obecsec.sk/obec/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Kontakty obce Seč",
+      "url": "https://www.obecsec.sk/kontakty/",
+      "type": "official"
+    },
+    {
+      "title": "História Rudnianska Lehota",
+      "url": "https://www.rudnianskalehota.sk/zivot-v-obci/historia",
+      "type": "official"
+    },
+    {
+      "title": "Naša obec – Rudnianska Lehota",
+      "url": "https://www.rudnianskalehota.sk/samosprava/nasa-obec",
+      "type": "official"
+    },
+    {
+      "title": "Obecný úrad Rudnianska Lehota",
+      "url": "https://www.rudnianskalehota.sk/samosprava/obecny-urad",
+      "type": "official"
+    },
+    {
+      "title": "Kontakt – Obec Dlžín",
+      "url": "https://dlzin.esmao.sk/kontakt",
+      "type": "official"
+    },
+    {
+      "title": "Hrádok Dlžín – Pamiatkový úrad SR",
+      "url": "https://www.pamiatky.sk/aktuality/detail/pusr-pripravil-nove-digitalne-modely-hradov-hradkov-hradiska",
+      "type": "official"
+    },
+    {
+      "title": "Hrádok Dlžín – poloha a prístup",
+      "url": "https://search.webdepozit.sk/webarchiv/public/20210811003517/https%3A/www.hrady-zamky.sk/dlzin/",
+      "type": "specialist"
+    },
+    {
+      "title": "Nitrianske Rudno – orientačný bod",
+      "url": "https://nitrianske-rudno.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Madvova ulica – Nitrianske Rudno",
+      "url": "https://nitrianske-rudno.oma.sk/u/madvova",
+      "type": "other"
+    },
+    {
+      "title": "Vodná nádrž Nitrianske Rudno – súradnice",
+      "url": "https://rybarstvo.sk/reviry/povodie-vah/vn-nitrianske-rudno/vn-nitrianske-rudno-3-5470-1-1",
+      "type": "other"
+    },
+    {
+      "title": "Kostolná Ves – orientačný bod",
+      "url": "https://poi.oma.sk/n4754608185",
+      "type": "other"
+    },
+    {
+      "title": "Dlžín – orientačný bod",
+      "url": "https://dlzin.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Seč – orientačný bod",
+      "url": "https://sec.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vodní nádrž Nitrianske Rudno – technické dílo, které se proměnilo v rekreační krajinu",
+          "text": "Vodní nádrž Nitrianske Rudno vznikla na řece Nitrica v letech 1951–1958 jako technické dílo pro zásobování vodou tepelné elektrárny v Novákách a chemických závodů. Slovenský výbor ICOLD uvádí rok 1954 jako dokončení stavby, zatímco obecní a regionální materiály popisují širší období výstavby 1951–1958; údaje se mohou vztahovat k různým etapám projektu. Vodní plocha má přibližně 0,9–0,96 km² a postupně se stala jedním z hlavních rekreačních míst horní Nitry. V létě slouží ke koupání, vodním sportům a rybolovu a nabízí výhledy na Strážovské vrchy a masiv Rokoše."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – botanik a lidový léčitel, za kterým přijížděli pacienti zdaleka",
+          "text": "Katolický kněz František (Fraňo) Madva (1786–1852) působil v Nitrianském Rudně jako farář v letech 1825–1850. Věnoval se botanice, sběru a výzkumu léčivých rostlin i lidovému léčitelství. Jeho pověst překročila hranice regionu: zdroje uvádějí pacienty z různých částí Evropy a mezi osobnostmi, které jej navštívily, připomínají Ľudovíta Štúra a Imreho Madácha. Na jeho památku byl roku 1925 v areálu kostela postaven pomník. Jeho působení dnes připomíná také naučná stezka spojující Nitrianske Rudno s Nitrianskými Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "Klasicistní kostel sv. Andreje-Svorada a Benedikta",
+          "text": "Dominantou Nitrianského Rudna je římskokatolický kostel postavený v letech 1804–1816 na místě staršího dřevěného chrámu zničeného požárem. Původně byl zasvěcen svatému Štěpánovi, uherskému králi; nové zasvěcení svatým Andreji-Svoradovi a Benediktovi získal roku 1991. Jde o klasicistní jednolodní stavbu s věží začleněnou do průčelí a rovným závěrem presbytáře. Kostel je evidován v Ústředním seznamu památkového fondu SR pod číslem 847/1. V jeho areálu stojí také pomník místního kněze a léčitele Fraňa Madvy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – gotický kostel a středověké jádro kruhové vsi",
+          "text": "Kostolná Ves patří k historickým sídlům nitrické doliny; první písemná zmínka o obci pochází z roku 1332. Nejstarší jádro vsi se soustředilo kolem kostela a domy byly původně uspořádány do kruhu, což vytvořilo charakteristickou kompaktní sídelní strukturu. Nejvýznamnější památkou je původně gotický kostel Narodenia Panny Márie ze 14. století. Upravován byl v letech 1515, 1742 a 1773; při opravě roku 1933 byly pod omítkou objeveny zbytky středověké nástěnné malby."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – středověké opevnění nad obcí",
+          "text": "Na skalním návrší severovýchodně od Dlžína se zachovaly pozůstatky středověkého hrádku. Podle Pamiatkového úradu SR bylo návrší osídleno už v 9. století; samotný hrádek vznikl pravděpodobně ve 12.–13. století a archeologické nálezy dokládají jeho využívání ve 14.–15. století. Vrcholovou plošinu chránil val s příkopem, zatímco v jihozápadní a západní části jsou dodnes patrné zbytky kamenného zdiva, patrně obytné stavby nebo věže. Hrádek stál nad starou cestou spojující Rudnianskou a Hornonitrianskou kotlinu a poskytoval široký rozhled do okolní krajiny. Lokalita je národní kulturní památkou."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – pastýřská osada a původ místního jména",
+          "text": "Obec Seč je písemně doložena od roku 1275, kdy se uvádí pod historickou podobou názvu Zcech. Vlastnili ji nejprve Diviackovci, později Motešičtí a Bossányiovci. Obecní historická stránka popisuje její vývoj jako malé pastýřské osady: pastýři pásli stáda na salaších a postupně káceli a vysekávali lesní porost, aby získali půdu pro pole a dřevěné chalupy. Právě od vysekávání a čištění zarostlé půdy odvozuje místní tradice název Seč. Toto vysvětlení je místní etymologickou tradicí, nikoli definitivně prokázaným jazykovědným výkladem."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – osada doložená listinou z roku 1463",
+          "text": "Rudnianska Lehota vznikla v údolí potoka Bystrička v prostoru, který původně tvořil společný majetkový celek s Rudnem. Oficiální obecní historický přehled uvádí, že osada Lehota je poprvé písemně doložena listinou Nitrianskej kapituly z 3. května 1463. V dokumentech z let 1470 a 1477 se objevuje také podoba „Lehotkha alio nomine Bystryczka“, odkazující na místní potok. Obecní zdroj připomíná i ničivý požár roku 1918, při němž ves vyhořela a následně byla obnovena."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – od hornické osady k přirozenému centru kotliny",
+          "text": "Nitrianske Rudno se vyvinulo z hornické osady a v písemných pramenech se objevuje roku 1275 jako Ruda, roku 1348 jako Rudno a od roku 1924 používá dnešní název. Roku 1924 k němu byla připojena také někdejší samostatná Kršťanova Ves, doložená už roku 1343. Současný územní a rozvojový plán obce charakterizuje Nitrianske Rudno jako přirozené těžiště nitrického výběžku Hornonitrianské kotliny. Tato poloha pomáhá vysvětlit, proč se obec stala hlavním sídelním a službovým centrem širšího okolí."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Wasserreservoir Nitrianske Rudno – ein technisches Bauwerk wird zur Erholungslandschaft",
+          "text": "Das Wasserreservoir Nitrianske Rudno entstand am Fluss Nitrica zwischen 1951 und 1958 als Anlage zur Wasserversorgung des Wärmekraftwerks in Nováky und der Chemiebetriebe. Das slowakische ICOLD-Komitee nennt 1954 als Jahr der Fertigstellung, während kommunale und regionale Quellen den gesamten Bauzeitraum 1951–1958 angeben. Die Daten können sich auf unterschiedliche Bauphasen beziehen. Die Wasserfläche umfasst etwa 0,9–0,96 km². Das Reservoir entwickelte sich zu einem der wichtigsten Erholungsgebiete der oberen Nitra-Region. Im Sommer wird es zum Baden, für Wassersport und zum Angeln genutzt; zugleich bietet es Ausblicke auf die Strážovské vrchy und das Rokoš-Massiv."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – Botaniker und Volksheiler mit weitreichendem Ruf",
+          "text": "Der katholische Priester František (Fraňo) Madva (1786–1852) wirkte von 1825 bis 1850 als Pfarrer in Nitrianske Rudno. Er beschäftigte sich mit Botanik, Heilpflanzen und Volksmedizin. Sein Ruf reichte weit über die Region hinaus: Quellen berichten von Patienten aus verschiedenen Teilen Europas. Zu den Persönlichkeiten, die ihn besuchten, zählen Ľudovít Štúr und Imre Madách. 1925 wurde im Kirchenareal ein Denkmal errichtet. Ein nach ihm benannter Lehrpfad verbindet heute Nitrianske Rudno mit Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die klassizistische Kirche der Heiligen Andrej-Svorad und Benedikt",
+          "text": "Die römisch-katholische Kirche von Nitrianske Rudno wurde zwischen 1804 und 1816 an der Stelle eines älteren, durch einen Brand zerstörten Holzbaus errichtet. Ursprünglich war sie dem heiligen König Stephan geweiht; 1991 erhielt sie das Patrozinium der Heiligen Andrej-Svorad und Benedikt. Der klassizistische einschiffige Bau besitzt einen in die Fassade integrierten Turm und einen geraden Chorabschluss. Die Kirche ist im Zentralen Denkmalregister der Slowakischen Republik unter Nummer 847/1 eingetragen. Im Areal steht auch das Denkmal für Fraňo Madva."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – eine gotische Kirche und der mittelalterliche Kern eines Runddorfes",
+          "text": "Kostolná Ves ist eine historische Siedlung des Nitrica-Tals; die erste schriftliche Erwähnung stammt aus dem Jahr 1332. Der älteste Dorfkern entwickelte sich um die Kirche. Die Häuser waren ursprünglich kreisförmig angeordnet und bildeten eine kompakte Siedlungsstruktur. Das wichtigste Denkmal ist die ursprünglich gotische Kirche Mariä Geburt aus dem 14. Jahrhundert. Sie wurde 1515, 1742 und 1773 umgebaut. Bei der Restaurierung von 1933 kamen unter dem Putz Reste mittelalterlicher Wandmalereien zum Vorschein."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – eine mittelalterliche Befestigung über dem Dorf",
+          "text": "Auf einem Felsrücken nordöstlich von Dlžín befinden sich die Überreste einer mittelalterlichen Burganlage. Laut dem slowakischen Denkmalamt war der Hügel bereits im 9. Jahrhundert besiedelt. Die Anlage entstand vermutlich im 12.–13. Jahrhundert; Funde belegen ihre Nutzung im 14.–15. Jahrhundert. Ein Wall mit Graben schützte das Gipfelplateau. Im Südwesten und Westen sind Reste von Steinmauerwerk sichtbar, vermutlich von einem Wohngebäude oder Turm. Der strategische Platz lag über einer alten Verbindung zwischen dem Rudnianska-Becken und dem oberen Nitra-Becken. Er ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – eine Hirten­siedlung und die Herkunft des Ortsnamens",
+          "text": "Seč ist seit 1275 schriftlich belegt, damals in der Form Zcech. Zunächst gehörte der Ort den Diviackovci, später den Familien Motešický und Bossányi. Die Gemeindeseite beschreibt die Entwicklung als kleine Hirten­siedlung: Hirten weideten ihre Herden auf Almen und rodeten Wald, um Felder und Holzhäuser anzulegen. Die örtliche Überlieferung leitet den Namen Seč vom Roden und Freischneiden des bewachsenen Bodens ab. Dies ist eine lokale Namenstradition, keine abschließend bewiesene sprachwissenschaftliche Erklärung."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – eine Siedlung, die 1463 urkundlich erwähnt wurde",
+          "text": "Rudnianska Lehota entstand im Tal des Baches Bystrička in einem Gebiet, das ursprünglich gemeinsam mit Rudno genutzt wurde. Laut der offiziellen Ortsgeschichte ist Lehota erstmals in einer Urkunde des Nitraer Kapitels vom 3. Mai 1463 belegt. Dokumente aus den Jahren 1470 und 1477 verwenden auch die Form „Lehotkha alio nomine Bystryczka“, die auf den Bach verweist. Die Gemeinde erinnert außerdem an den verheerenden Brand von 1918, bei dem das Dorf niederbrannte und anschließend wiederaufgebaut wurde."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – von der Bergbausiedlung zum natürlichen Zentrum des Beckens",
+          "text": "Nitrianske Rudno entwickelte sich aus einer Bergbausiedlung. Schriftlich erscheint der Ort 1275 als Ruda, 1348 als Rudno und seit 1924 unter dem heutigen Namen. 1924 wurde auch das ehemals selbstständige Kršťanova Ves eingemeindet, das bereits 1343 belegt ist. Der aktuelle Gemeindeentwicklungsplan beschreibt Nitrianske Rudno als natürliches Zentrum des Nitrica-Ausläufers des oberen Nitra-Beckens. Diese Lage erklärt, warum der Ort zum wichtigsten Siedlungs- und Dienstleistungszentrum seiner Umgebung wurde."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nitrianske Rudno Reservoir – an engineering project transformed into a recreation landscape",
+          "text": "The Nitrianske Rudno reservoir was built on the Nitrica River between 1951 and 1958 to supply water to the Nováky thermal power station and chemical plants. The Slovak ICOLD committee lists 1954 as the completion year, while municipal and regional sources give the wider construction period of 1951–1958; the dates may refer to different stages of the project. The reservoir covers approximately 0.9–0.96 km² and became one of the Upper Nitra region’s main recreation areas. In summer it is used for swimming, water sports and fishing, with views of the surrounding Strážovské vrchy and the Rokoš massif."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – botanist and folk healer whose reputation travelled far",
+          "text": "The Catholic priest František (Fraňo) Madva (1786–1852) served as parish priest in Nitrianske Rudno from 1825 to 1850. He pursued botany, studied medicinal plants and practised folk healing. His reputation extended beyond the region, with sources recording patients from different parts of Europe. Among the notable people who visited him were Ľudovít Štúr and Imre Madách. A memorial was erected in the church grounds in 1925, and an educational trail named after him now links Nitrianske Rudno with Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Neoclassical Church of Saints Andrew-Svorad and Benedict",
+          "text": "The Roman Catholic church in Nitrianske Rudno was built between 1804 and 1816 on the site of an older wooden church destroyed by fire. It was originally dedicated to Saint Stephen, King of Hungary; in 1991 it was rededicated to Saints Andrew-Svorad and Benedict. The Neoclassical single-nave building has a tower integrated into the façade and a flat-ended chancel. It is listed in the Central Register of Monuments of the Slovak Republic under number 847/1. The church grounds also contain the memorial to Fraňo Madva."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – a Gothic church and the medieval core of a circular village",
+          "text": "Kostolná Ves is a historic settlement in the Nitrica valley; its first written mention dates to 1332. The oldest part of the village grew around the church. Houses were originally arranged in a circle, creating a distinctive compact settlement pattern. The main monument is the originally Gothic Church of the Nativity of the Virgin Mary, dating from the 14th century. It was altered in 1515, 1742 and 1773. During repairs in 1933, remains of medieval wall paintings were discovered beneath the plaster."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – a medieval fortified site above the village",
+          "text": "The remains of a medieval fortified site survive on a rocky hill northeast of Dlžín. According to the Slovak Monuments Board, the hill was settled as early as the 9th century. The fort probably originated in the 12th–13th centuries, and archaeological finds show it was used in the 14th–15th centuries. A rampart and ditch protected the summit plateau. Stone wall remains, probably from a residential building or tower, are still visible in the south-western and western parts. The strategic site overlooked an old route linking the Rudnianska and Upper Nitra basins. It is a national cultural monument."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – a shepherding settlement and the local story behind its name",
+          "text": "Seč is documented from 1275, when it appeared in the historical form Zcech. It first belonged to the Diviackovci family and later to the Motešický and Bossányi families. The municipality describes its development as a small shepherding settlement: herders grazed flocks on traditional mountain pastures and gradually cleared woodland to create fields and wooden cottages. Local tradition derives the name Seč from cutting and clearing the overgrown land. This is a recorded local name tradition, not a conclusively proven linguistic etymology."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – a settlement documented in a charter of 1463",
+          "text": "Rudnianska Lehota developed in the valley of the Bystrička stream, in an area originally shared with Rudno. According to the municipality’s official history, Lehota is first documented in a charter of the Nitra Chapter dated 3 May 1463. Documents from 1470 and 1477 also use the form “Lehotkha alio nomine Bystryczka”, referring to the local stream. The municipality also recalls the devastating fire of 1918, when the village burned down and was subsequently rebuilt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – from a mining settlement to the natural centre of the basin",
+          "text": "Nitrianske Rudno developed from a mining settlement. It appears in records in 1275 as Ruda, in 1348 as Rudno, and has used its present name since 1924. The formerly independent settlement of Kršťanova Ves, documented in 1343, was incorporated in 1924. The current municipal development plan describes Nitrianske Rudno as the natural centre of the Nitrica extension of the Upper Nitra Basin. This position helps explain why it became the main settlement and service centre for the wider area."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "El embalse de Nitrianske Rudno: una obra hidráulica convertida en paisaje recreativo",
+          "text": "El embalse de Nitrianske Rudno se construyó en el río Nitrica entre 1951 y 1958 para abastecer de agua a la central térmica de Nováky y a las plantas químicas. El comité eslovaco de ICOLD indica 1954 como año de finalización, mientras que las fuentes municipales y regionales señalan el periodo más amplio de construcción, 1951–1958; las fechas pueden referirse a distintas fases. La superficie del embalse es de aproximadamente 0,9–0,96 km² y se convirtió en uno de los principales espacios recreativos de la Alta Nitra. En verano se utiliza para bañarse, practicar deportes acuáticos y pescar, con vistas a los montes Strážovské vrchy y al macizo de Rokoš."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva: botánico y curandero popular de fama extendida",
+          "text": "El sacerdote católico František (Fraňo) Madva (1786–1852) fue párroco en Nitrianske Rudno entre 1825 y 1850. Se dedicó a la botánica, al estudio de plantas medicinales y a la medicina popular. Su fama superó la región y las fuentes mencionan pacientes de distintas partes de Europa. Entre quienes lo visitaron figuran Ľudovít Štúr e Imre Madách. En 1925 se levantó un monumento en el recinto de la iglesia y un sendero educativo que lleva su nombre une hoy Nitrianske Rudno con Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia neoclásica de San Andrés-Svorad y San Benito",
+          "text": "La iglesia católica romana de Nitrianske Rudno se construyó entre 1804 y 1816 en el lugar de un templo de madera anterior destruido por un incendio. Originalmente estaba dedicada a san Esteban, rey de Hungría; en 1991 fue consagrada a san Andrés-Svorad y san Benito. Es un edificio neoclásico de una sola nave, con la torre integrada en la fachada y un presbiterio de cierre recto. Está inscrita en el Registro Central de Monumentos de Eslovaquia con el número 847/1. En el recinto también se encuentra el monumento a Fraňo Madva."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves: una iglesia gótica y el núcleo medieval de una aldea circular",
+          "text": "Kostolná Ves es un asentamiento histórico del valle del Nitrica; su primera mención escrita data de 1332. El núcleo más antiguo se desarrolló alrededor de la iglesia. Las casas se disponían originalmente en círculo, formando una estructura compacta característica. El monumento principal es la iglesia de la Natividad de la Virgen María, originalmente gótica y fechada en el siglo XIV. Fue modificada en 1515, 1742 y 1773. Durante las obras de 1933 se descubrieron bajo el enlucido restos de pinturas murales medievales."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín: una fortificación medieval sobre el pueblo",
+          "text": "En una colina rocosa al noreste de Dlžín se conservan restos de una fortificación medieval. Según la Oficina de Monumentos de Eslovaquia, la colina ya estaba habitada en el siglo IX. La fortificación se construyó probablemente en los siglos XII–XIII y los hallazgos arqueológicos demuestran su uso en los siglos XIV–XV. Una muralla de tierra y un foso protegían la plataforma superior. Aún se ven restos de muros de piedra, probablemente de un edificio residencial o una torre. El lugar dominaba una antigua ruta entre las cuencas de Rudnianska y Alta Nitra. Es monumento cultural nacional."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč: un asentamiento de pastores y la historia local de su nombre",
+          "text": "Seč aparece documentada desde 1275 con la forma histórica Zcech. Perteneció primero a la familia Diviackovci y más tarde a las familias Motešický y Bossányi. La historia municipal describe su desarrollo como pequeño asentamiento pastoril: los pastores llevaban sus rebaños a los pastos tradicionales y despejaban el bosque para crear campos y cabañas de madera. La tradición local relaciona el nombre Seč con la tala y limpieza de la vegetación. Esta explicación es una tradición local sobre el topónimo, no una etimología lingüística demostrada definitivamente."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota: un asentamiento documentado en un acta de 1463",
+          "text": "Rudnianska Lehota se desarrolló en el valle del arroyo Bystrička, en un territorio que originalmente compartía con Rudno. Según la historia oficial municipal, Lehota aparece por primera vez en un documento del Cabildo de Nitra fechado el 3 de mayo de 1463. Documentos de 1470 y 1477 también recogen la forma “Lehotkha alio nomine Bystryczka”, en referencia al arroyo local. El municipio recuerda asimismo el incendio de 1918, que destruyó el pueblo y tras el cual fue reconstruido."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno: de asentamiento minero a centro natural de la cuenca",
+          "text": "Nitrianske Rudno se desarrolló a partir de un asentamiento minero. Aparece en documentos en 1275 como Ruda, en 1348 como Rudno y utiliza su nombre actual desde 1924. En 1924 se incorporó el antiguo asentamiento independiente de Kršťanova Ves, documentado ya en 1343. El plan de desarrollo municipal describe Nitrianske Rudno como el centro natural del ramal del Nitrica en la cuenca de la Alta Nitra. Esta posición ayuda a explicar por qué se convirtió en el principal núcleo de población y servicios de su entorno."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le réservoir de Nitrianske Rudno : un ouvrage hydraulique devenu un paysage de loisirs",
+          "text": "Le réservoir de Nitrianske Rudno a été aménagé sur la Nitrica entre 1951 et 1958 pour approvisionner en eau la centrale thermique de Nováky et les usines chimiques. Le comité slovaque de l’ICOLD indique 1954 comme année d’achèvement, tandis que les sources communales et régionales donnent la période plus large de 1951 à 1958 ; les dates peuvent désigner différentes phases du chantier. La surface du plan d’eau est d’environ 0,9 à 0,96 km². Le réservoir est devenu l’un des principaux lieux de loisirs de la Haute Nitra. En été, on y pratique la baignade, les sports nautiques et la pêche, avec des vues sur les monts Strážovské vrchy et le massif de Rokoš."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – botaniste et guérisseur populaire à la réputation étendue",
+          "text": "Le prêtre catholique František (Fraňo) Madva (1786–1852) fut curé à Nitrianske Rudno de 1825 à 1850. Il s’intéressait à la botanique, aux plantes médicinales et à la médecine populaire. Sa réputation dépassait la région et des sources mentionnent des patients venus de différentes parties de l’Europe. Parmi ses visiteurs figurent Ľudovít Štúr et Imre Madách. Un monument fut érigé en 1925 dans l’enceinte de l’église ; un sentier pédagogique portant son nom relie aujourd’hui Nitrianske Rudno à Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église néoclassique des saints André-Svorad et Benoît",
+          "text": "L’église catholique romaine de Nitrianske Rudno fut construite entre 1804 et 1816 à l’emplacement d’un ancien édifice en bois détruit par un incendie. Elle était d’abord dédiée à saint Étienne, roi de Hongrie ; en 1991, son vocable fut changé en saints André-Svorad et Benoît. Cet édifice néoclassique à nef unique possède une tour intégrée à la façade et un chevet droit. Il figure au Registre central des monuments de la République slovaque sous le numéro 847/1. Le monument de Fraňo Madva se trouve également dans l’enceinte."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – une église gothique et le noyau médiéval d’un village circulaire",
+          "text": "Kostolná Ves est un établissement historique de la vallée de la Nitrica ; sa première mention écrite date de 1332. Le noyau ancien s’est développé autour de l’église. Les maisons étaient autrefois disposées en cercle, formant une structure compacte caractéristique. Le principal monument est l’église de la Nativité de la Vierge Marie, à l’origine gothique et datant du XIVe siècle. Elle fut remaniée en 1515, 1742 et 1773. En 1933, des vestiges de peintures murales médiévales furent découverts sous l’enduit."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – un site fortifié médiéval au-dessus du village",
+          "text": "Les vestiges d’un site fortifié médiéval subsistent sur une colline rocheuse au nord-est de Dlžín. Selon l’Office slovaque des monuments, la colline était déjà occupée au IXe siècle. La fortification aurait été construite aux XIIe–XIIIe siècles et les découvertes archéologiques attestent son utilisation aux XIVe–XVe siècles. Un rempart et un fossé protégeaient le plateau sommital. Des restes de maçonnerie, probablement ceux d’un bâtiment résidentiel ou d’une tour, sont encore visibles. Le site dominait une ancienne route reliant les bassins de Rudnianska et de la Haute Nitra. Il est classé monument culturel national."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – un village de bergers et l’histoire locale de son nom",
+          "text": "Seč est attesté dans les documents depuis 1275 sous la forme historique Zcech. Le village appartint d’abord à la famille Diviackovci, puis aux familles Motešický et Bossányi. La commune décrit son développement comme celui d’un petit établissement pastoral : les bergers menaient leurs troupeaux sur les pâturages traditionnels et défrichaient la forêt pour créer des champs et des maisons en bois. La tradition locale rattache le nom Seč au défrichement du terrain. Il s’agit d’une tradition locale sur l’origine du nom, et non d’une étymologie définitivement démontrée."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – un établissement attesté dans un acte de 1463",
+          "text": "Rudnianska Lehota s’est développée dans la vallée du ruisseau Bystrička, sur un territoire autrefois partagé avec Rudno. Selon l’histoire officielle de la commune, Lehota est mentionné pour la première fois dans un acte du chapitre de Nitra daté du 3 mai 1463. Des documents de 1470 et 1477 emploient aussi la forme « Lehotkha alio nomine Bystryczka », en référence au ruisseau. La commune rappelle le terrible incendie de 1918, après lequel le village fut détruit puis reconstruit."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – d’un village minier au centre naturel du bassin",
+          "text": "Nitrianske Rudno s’est développé à partir d’un établissement minier. Il apparaît dans les documents en 1275 sous le nom de Ruda, en 1348 sous celui de Rudno et porte son nom actuel depuis 1924. L’ancien établissement indépendant de Kršťanova Ves, attesté dès 1343, fut rattaché à la commune en 1924. Le plan communal de développement décrit Nitrianske Rudno comme le centre naturel de l’extension de la Nitrica dans le bassin de la Haute Nitra. Cette situation explique son rôle de principal centre d’habitat et de services des environs."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il bacino di Nitrianske Rudno: un’opera idraulica diventata paesaggio ricreativo",
+          "text": "Il bacino di Nitrianske Rudno fu realizzato sul fiume Nitrica tra il 1951 e il 1958 per rifornire d’acqua la centrale termoelettrica di Nováky e gli stabilimenti chimici. Il comitato slovacco dell’ICOLD indica il 1954 come anno di completamento, mentre le fonti comunali e regionali riportano il periodo più ampio 1951–1958; le date possono riferirsi a fasi diverse. La superficie è di circa 0,9–0,96 km². Il bacino è diventato una delle principali aree ricreative dell’Alta Nitra. In estate è utilizzato per nuotare, praticare sport acquatici e pescare, con vedute sui monti Strážovské vrchy e sul massiccio del Rokoš."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – botanico e guaritore popolare dalla fama estesa",
+          "text": "Il sacerdote cattolico František (Fraňo) Madva (1786–1852) fu parroco a Nitrianske Rudno dal 1825 al 1850. Si dedicò alla botanica, allo studio delle piante medicinali e alla medicina popolare. La sua fama superò la regione e le fonti ricordano pazienti provenienti da diverse parti d’Europa. Tra i visitatori figurano Ľudovít Štúr e Imre Madách. Nel 1925 fu eretto un monumento nel recinto della chiesa; oggi un percorso didattico a lui dedicato collega Nitrianske Rudno a Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa neoclassica dei santi Andrea-Svorad e Benedetto",
+          "text": "La chiesa cattolica romana di Nitrianske Rudno fu costruita tra il 1804 e il 1816 sul luogo di un precedente edificio ligneo distrutto da un incendio. In origine era dedicata a santo Stefano, re d’Ungheria; nel 1991 fu ridedicata ai santi Andrea-Svorad e Benedetto. È un edificio neoclassico a navata unica, con torre integrata nella facciata e presbiterio a terminazione rettilinea. È iscritta nel Registro centrale dei monumenti della Repubblica Slovacca con il numero 847/1. Nel recinto si trova anche il monumento a Fraňo Madva."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – una chiesa gotica e il nucleo medievale di un villaggio circolare",
+          "text": "Kostolná Ves è un insediamento storico della valle della Nitrica; la prima menzione scritta risale al 1332. Il nucleo più antico si sviluppò intorno alla chiesa. Le case erano disposte in cerchio, formando una struttura compatta caratteristica. Il monumento principale è la chiesa della Natività della Vergine Maria, originariamente gotica e risalente al XIV secolo. Fu modificata nel 1515, 1742 e 1773. Durante i lavori del 1933 furono scoperti sotto l’intonaco resti di pitture murali medievali."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – una fortificazione medievale sopra il paese",
+          "text": "Su una collina rocciosa a nord-est di Dlžín si conservano i resti di una fortificazione medievale. Secondo l’Ufficio slovacco dei monumenti, la collina era abitata già nel IX secolo. La fortificazione fu probabilmente costruita tra il XII e il XIII secolo e i reperti ne attestano l’uso nei secoli XIV–XV. Un terrapieno e un fossato proteggevano il pianoro sommitale. Sono ancora visibili resti di murature, probabilmente di un edificio residenziale o di una torre. Il sito dominava un’antica via tra i bacini di Rudnianska e dell’Alta Nitra. È un monumento culturale nazionale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – un insediamento pastorale e la storia locale del suo nome",
+          "text": "Seč è documentata dal 1275 con la forma storica Zcech. Appartenne prima alla famiglia Diviackovci e poi alle famiglie Motešický e Bossányi. La pagina comunale descrive un piccolo insediamento pastorale: i pastori portavano le greggi sui pascoli tradizionali e disboscavano gradualmente il terreno per ricavare campi e capanne di legno. La tradizione locale collega il nome Seč al taglio e alla pulizia della vegetazione. È una tradizione locale sull’origine del toponimo, non un’etimologia linguistica definitivamente dimostrata."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – un insediamento attestato in un documento del 1463",
+          "text": "Rudnianska Lehota si sviluppò nella valle del torrente Bystrička, in un territorio originariamente condiviso con Rudno. Secondo la storia ufficiale comunale, Lehota è documentata per la prima volta in un atto del Capitolo di Nitra del 3 maggio 1463. Documenti del 1470 e del 1477 riportano anche la forma «Lehotkha alio nomine Bystryczka», in riferimento al torrente. Il comune ricorda inoltre il devastante incendio del 1918, dopo il quale il villaggio fu distrutto e ricostruito."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – da insediamento minerario a centro naturale del bacino",
+          "text": "Nitrianske Rudno nacque come insediamento minerario. Compare nei documenti nel 1275 come Ruda, nel 1348 come Rudno e utilizza il nome attuale dal 1924. Nel 1924 fu incorporato anche l’antico insediamento indipendente di Kršťanova Ves, attestato già nel 1343. L’attuale piano comunale descrive Nitrianske Rudno come il centro naturale del ramo della Nitrica nel bacino dell’Alta Nitra. Questa posizione aiuta a spiegare perché sia diventato il principale centro abitato e di servizi della zona."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Vodní nádrž Nitrianske Rudno – střední část vodní plochy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het stuwmeer Nitrianske Rudno – een waterbouwkundig werk dat een recreatielandschap werd",
+          "text": "Het stuwmeer Nitrianske Rudno werd tussen 1951 en 1958 in de rivier de Nitrica aangelegd om water te leveren aan de thermische elektriciteitscentrale in Nováky en de chemische fabrieken. Het Slowaakse ICOLD-comité noemt 1954 als voltooiingsjaar, terwijl gemeentelijke en regionale bronnen de ruimere bouwperiode 1951–1958 vermelden; de jaartallen kunnen op verschillende bouwfasen slaan. Het wateroppervlak bedraagt ongeveer 0,9–0,96 km². Het stuwmeer groeide uit tot een van de belangrijkste recreatiegebieden van de Boven-Nitra. In de zomer wordt er gezwommen, aan watersport gedaan en gevist, met uitzicht op de Strážovské vrchy en het Rokoš-massief."
+        },
+        {
+          "id": "fact_002",
+          "title": "Fraňo Madva – botanicus en volksgenezer met een verreikende reputatie",
+          "text": "De katholieke priester František (Fraňo) Madva (1786–1852) was van 1825 tot 1850 pastoor in Nitrianske Rudno. Hij hield zich bezig met plantkunde, geneeskrachtige planten en volksgeneeskunde. Zijn faam reikte verder dan de regio; bronnen vermelden patiënten uit verschillende delen van Europa. Tot zijn bezoekers behoorden Ľudovít Štúr en Imre Madách. In 1925 werd op het kerkterrein een monument opgericht. Een educatief wandelpad dat zijn naam draagt, verbindt tegenwoordig Nitrianske Rudno met Nitrianske Sučany."
+        },
+        {
+          "id": "fact_003",
+          "title": "De neoclassicistische kerk van de heiligen Andrej-Svorad en Benedikt",
+          "text": "De rooms-katholieke kerk in Nitrianske Rudno werd tussen 1804 en 1816 gebouwd op de plaats van een oudere houten kerk die door brand was verwoest. Oorspronkelijk was ze gewijd aan de heilige Stefanus, koning van Hongarije; in 1991 werd ze opnieuw toegewijd aan de heiligen Andrej-Svorad en Benedikt. Het neoclassicistische gebouw heeft één schip, een toren die in de gevel is opgenomen en een recht afgesloten koor. De kerk staat onder nummer 847/1 in het Centrale Monumentenregister van de Slowaakse Republiek. Op het terrein staat ook het monument voor Fraňo Madva."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostolná Ves – een gotische kerk en de middeleeuwse kern van een rond dorp",
+          "text": "Kostolná Ves is een historische nederzetting in het Nitrica-dal; de eerste schriftelijke vermelding dateert uit 1332. De oudste dorpskern groeide rond de kerk. De huizen stonden oorspronkelijk in een cirkel en vormden een kenmerkende compacte nederzettingsstructuur. Het belangrijkste monument is de oorspronkelijk gotische Kerk van de Geboorte van de Maagd Maria uit de 14e eeuw. De kerk werd aangepast in 1515, 1742 en 1773. Tijdens werkzaamheden in 1933 werden onder het pleisterwerk resten van middeleeuwse muurschilderingen ontdekt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hrádok Dlžín – een middeleeuwse versterkte plek boven het dorp",
+          "text": "Op een rotsachtige heuvel ten noordoosten van Dlžín zijn de resten van een middeleeuwse versterkte plek bewaard gebleven. Volgens het Slowaakse Monumentenbureau was de heuvel al in de 9e eeuw bewoond. De versterking ontstond waarschijnlijk in de 12e–13e eeuw; vondsten tonen gebruik in de 14e–15e eeuw aan. Een aarden wal en gracht beschermden het plateau op de top. Er zijn nog stenen muurresten zichtbaar, vermoedelijk van een woongebouw of toren. De plek lag strategisch boven een oude route tussen het Rudnianska-bekken en het Boven-Nitra-bekken. Het is een nationaal cultureel monument."
+        },
+        {
+          "id": "fact_006",
+          "title": "Seč – een herdersnederzetting en het lokale verhaal achter de naam",
+          "text": "Seč wordt sinds 1275 schriftelijk vermeld, toen in de historische vorm Zcech. Het dorp behoorde eerst toe aan de familie Diviackovci en later aan de families Motešický en Bossányi. De gemeentelijke geschiedenis beschrijft de ontwikkeling als een kleine herdersnederzetting: herders lieten hun kudden grazen op traditionele bergweiden en rooiden bos om akkers en houten huisjes aan te leggen. Volgens de lokale overlevering verwijst de naam Seč naar het kappen en vrijmaken van begroeide grond. Dit is een vastgelegde lokale naamtraditie, geen definitief bewezen taalkundige etymologie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rudnianska Lehota – een nederzetting vermeld in een oorkonde uit 1463",
+          "text": "Rudnianska Lehota ontwikkelde zich in het dal van de beek Bystrička, in een gebied dat oorspronkelijk samen met Rudno werd gebruikt. Volgens de officiële dorpsgeschiedenis wordt Lehota voor het eerst genoemd in een oorkonde van het kapittel van Nitra van 3 mei 1463. Documenten uit 1470 en 1477 gebruiken ook de vorm ‘Lehotkha alio nomine Bystryczka’, een verwijzing naar de beek. De gemeente herinnert bovendien aan de verwoestende brand van 1918, waarna het dorp opnieuw werd opgebouwd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Nitrianske Rudno – van mijnnederzetting tot natuurlijk centrum van het bekken",
+          "text": "Nitrianske Rudno ontwikkelde zich uit een mijnnederzetting. De plaats wordt in 1275 vermeld als Ruda, in 1348 als Rudno en gebruikt sinds 1924 de huidige naam. In 1924 werd ook de voormalige zelfstandige nederzetting Kršťanova Ves, die al in 1343 wordt vermeld, bij de gemeente gevoegd. Het huidige gemeentelijke ontwikkelingsplan beschrijft Nitrianske Rudno als het natuurlijke centrum van de Nitrica-uitloper van het Boven-Nitra-bekken. Deze ligging verklaart mede waarom het dorp het belangrijkste woon- en dienstencentrum van de omgeving werd."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
