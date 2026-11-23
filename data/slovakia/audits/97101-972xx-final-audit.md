@@ -55,18 +55,11 @@ No fact IDs, fact prose, source lists, primary postcode assignments, record stat
 
 ### Missing fact locations
 
-There are now 9 facts with `location: null` in 8 records. Fifty-one fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were checked and are synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+<escape>There are currently no facts with `location: null` in the 32-record audit scope.</escape> Sixty fact locations have been repaired or assigned a documented fallback point and read back from GitHub. All affected Database Viewer index entries were checked and their `city` and `status` values already matched the canonical records. The location hierarchy in the Slovak Content Standard has been applied: exact object/site where established, then a meaningful point within an extended site, then a clearly named public orientation point when the historic location cannot be responsibly pinned. No postcode representative point was copied automatically and no coordinates were invented.
 
 | Postcode | Facts with null location |
 |---|---|
-| 97222 | fact_002 |
-| 97223 | fact_004 |
-| 97241 | fact_001, fact_004 |
-| 97242 | fact_002 |
-| 97243 | fact_006 |
-| 97246 | fact_004 |
-| 97248 | fact_005 |
-| 97251 | fact_013 |
+| — | None |
 
 ### Additional location corrections — batch 97231–97245
 
@@ -74,9 +67,9 @@ Fourteen fact locations were added across seven records and verified by GitHub r
 
 - 97231: fact_001 — Ráztočno historic-settlement orientation point for the medieval trade route and toll station; exact archaeological/toll-station position is not established. fact_004 — Jalovec settlement orientation point for the Huňov glassworks and Jozef Lenhart; exact glassworks position is not established.
 - 97232: fact_001 — Chrenovec settlement orientation point for the two historical settlements; fact_004 — Brusno orientation point for the relocated Immaculata column (not a claimed exact monument coordinate); fact_005 — Chrenovec orientation point for the 1864 Sunday-school library, whose building is unknown.
-- 97241: fact_003 — Koš settlement orientation point for the mining-driven destruction and transformation of the village. fact_001 (Katký kopec archaeology) and fact_004 (Peter Tvrdý's rectory residence) remain null because the available sources do not establish a defensible point.
-- 97242: fact_001 — municipal-office orientation point for the union of Malá and Veľká Lehota; fact_003 — Chata Smrečina orientation point near the bunker and field hospital (the hospital is approximately 250 m away); fact_005 — Chata Smrečina orientation point for the Sekaniny recreation area. fact_002 (former Hôrka open-pit mine) remains null pending a defensible location.
-- 97243: fact_007 — Zemianske Kostoľany settlement orientation point for Tobiáš Masník's birthplace; the exact birth house is not identified. fact_006 (1965 ash-pond failure site) remains null because the source material reviewed did not establish a sufficiently precise map point.
+- 97241: fact_003 — Koš settlement orientation point for the mining-driven destruction and transformation of the village. fact_001 (Katký kopec archaeology) and fact_004 (Peter Tvrdý's rectory residence) were subsequently given clearly named public orientation points; neither pin is represented as the exact archaeological site or rectory.
+- 97242: fact_001 — municipal-office orientation point for the union of Malá and Veľká Lehota; fact_003 — Chata Smrečina orientation point near the bunker and field hospital (the hospital is approximately 250 m away); fact_005 — Chata Smrečina orientation point for the Sekaniny recreation area. fact_002 (former Hôrka open-pit mine) was subsequently given a clearly named public orientation point in Lehota pod Vtáčnikom; it is not represented as the exact mine location.
+- 97243: fact_007 — Zemianske Kostoľany settlement orientation point for Tobiáš Masník's birthplace; the exact birth house is not identified. fact_006 (1965 ash-pond failure) was subsequently pinned to the exact memorial plaque commemorating the disaster, not to the unverified original breach point.
 - 97244: fact_004 — Dolný Kamenec orientation point for the former paper mill at Pod Brehy; fact_006 — Dolný Kamenec orientation point for the St. Vendelín statue, not its exact position; fact_007 — Dolný Kamenec orientation point for the shared historical seal of both Kamence.
 - 97245: fact_005 — Bystričany settlement orientation point for the first mill on the Bystrá stream; exact mill position is not documented.
 
@@ -87,10 +80,27 @@ The added points use explicit orientation-point names and honest `area_represent
 Eight fact locations were added across three records and verified by GitHub read-back:
 
 - 97247: fact_001 — exact mapped location of the Church of St. Stephen in Oslany; fact_002 and fact_003 — Oslany historic-core orientation points for the town's guild history and the 1683 Ottoman attack; fact_005 — Ľubianka locality orientation point, not falsely presented as the exact church or Lourdes grotto.
-- 97248: fact_002 — Horná Ves village-centre orientation point near the former manor complex for the St. Vincent Ferrer chapel; fact_004 — Horná Ves settlement orientation point for local craft history; fact_006 — official Radobica municipal-office point as an orientation point for the settlement and its local parts. fact_005 (Dubový diel partisan bunkers) remains null because no defensible point was established.
-- 97251: fact_001 — Handlová settlement orientation point for the founding story; the exact original Krásny Les site remains unlocated. fact_013 (Pstruháre archaeological locality) remains null because the reviewed municipal and archaeological sources identify the locality but do not provide defensible coordinates.
+- 97248: fact_002 — Horná Ves village-centre orientation point near the former manor complex for the St. Vincent Ferrer chapel; fact_004 — Horná Ves settlement orientation point for local craft history; fact_006 — official Radobica municipal-office point as an orientation point for the settlement and its local parts. fact_005 (Dubový diel partisan bunkers) was subsequently assigned a clearly named public orientation point in Horná Ves; it is not represented as the exact bunker site.
+- 97251: fact_001 — Handlová settlement orientation point for the founding story; the exact original Krásny Les site remains unlocated. fact_013 (Pstruháre archaeological locality) was subsequently assigned a clearly named orientation point within the Pstruhárska area; it is not represented as the exact archaeological site.
 
 The added points use explicit orientation-point names and honest accuracy labels. No fact text, fact ID, fact-level source list, primary postcode assignment, status or version metadata was changed. All three records remain validated; their existing Database Viewer city and status entries were checked and already matched.
+
+### Additional location corrections — fallback hierarchy batch 97222–97251
+
+The final nine previously null fact locations were resolved using the fallback hierarchy from the Slovak audit and rework prompts:
+
+- 97222 fact_002 — Račice public orientation point for the hillfort traditionally called Zámok/Drahý; not the exact hillfort position.
+- 97223 fact_004 — Dolné Vestenice municipal-office orientation point for the Hradová hillfort. The Archaeological Institute identifies the site at Hradová, elevation point 810, but the available source did not provide a coordinate suitable for a precise pin.
+- 97241 fact_001 — Koš municipal-office orientation point for Katký kopec; the archaeological study places the hill north of the village but does not establish a defensible exact coordinate. fact_004 — parish church orientation point for Peter Tvrdý's rectory residence; the rectory itself is not separately located.
+- 97242 fact_002 — public tourist orientation point in Lehota pod Vtáčnikom for the former Hôrka open-pit mine, identified by the university study at the western edge of the village; the pin is not presented as the exact mine.
+- 97243 fact_006 — exact memorial plaque commemorating the 1965 ash-pond disaster; this is the memorial location, not a claim that the original dam breach occurred at the plaque.
+- 97246 fact_004 — Čereňany municipal-office orientation point for the prehistoric hillfort reported in the municipality's surroundings; not the exact archaeological site.
+- 97248 fact_005 — Horná Ves public tourist orientation point for the partisan base at Dubový diel; the exact bunker coordinates remain unverified.
+- 97251 fact_013 — Pstruhárska-area orientation point within the Pstruháre locality for the archaeological story; not the exact findspot.
+
+All fallback names explicitly identify the mapped public point rather than claiming it is the exact historical subject. Accuracy values are marked `historical_approximate` or `approximate` as appropriate. The exact memorial pin in 97243 uses `exact` for the memorial object only. Two pre-existing location-source URLs in 97222 and 97223 were also added to their top-level source registries after the integrity check found them missing.
+
+All eight affected records remain `validated`, with no `data_version` changes. Their Database Viewer index rows were checked and already matched the canonical `city` and `status` values. No fact text, fact ID, primary postcode assignment or translation was changed.
 
 ### Postal-geography evidence
 
@@ -106,7 +116,6 @@ The records describe address evidence, but the geographic test flag is false and
 ### Record-level results
 
 - `PASS` on the structural, language-alignment, source-reference and map-category checks: all 32 records.
-- `REVIEW REQUIRED` for null fact locations: the 8 records listed above.
 - `REVIEW REQUIRED` for postal-geography evidence: 97211, 97212, 97215, 97216.
 - Overall block result: `REVIEW REQUIRED`; do not publish until all material open items are resolved and cross-postcode checks remain complete.
 
@@ -120,4 +129,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-Resolve the remaining 9 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+All fact locations in the 32-record scope now have a non-null, evidence-backed point or a justified public orientation point. Complete the geographic verification for 97211, 97212, 97215 and 97216, then reassess the full block for publication eligibility. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
