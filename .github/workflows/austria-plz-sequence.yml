@@ -1,0 +1,35 @@
+name: Prepare Austrian PLZ sequence
+
+on:
+  push:
+    paths:
+      - ".github/workflows/austria-plz-sequence.yml"
+      - "scripts/austria_postcode_sequence.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-sequence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download and validate official EDM postcode export
+        run: python scripts/austria_postcode_sequence.py
+      - name: Commit prepared sequence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add data/austria/sequence.json
+          git diff --cached --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data(austria): prepare ascending official PLZ sequence"
+          git push
