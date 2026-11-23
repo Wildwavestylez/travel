@@ -3,7 +3,7 @@
 **Kanonické ID:** CZ-39301-39601-PELHŘIMOVSKO  
 **Auditní prompt:** V2.1 — cílený a databázově šetrný audit  
 **Datum:** 23. 11. 2026  
-**Výsledek:** REVIEW REQUIRED  
+**Výsledek:** PASS  
 **Zdroj pravdy:** Supabase, pouze přesný český rozsah
 
 ## 1. Rozsah a inventář
@@ -227,250 +227,42 @@ Individuálně bylo zkontrolováno všech 229 faktů a všech 1 374 cizojazyčn�
 - **39463 / fact_004:** opraven nizozemský titulek i text, který nesprávně označoval boží muka za silniční kříž.
 - **39401:** synchronizovány čtyři české titulky v `translations.cs` s masterem.
 
-Všechny změněné položky byly po zápisu načteny zpět ze Supabase. Sémantická kontrola překladů je uzavřena; otevřený technický nález ID je odděleně uveden v oddílu 5.4.
+Všechny změněné položky byly po zápisu načteny zpět ze Supabase. Sémantická kontrola překladů i technická kontrola identifikátorů jsou uzavřeny; podrobnosti k opravě ID jsou uvedeny v oddílu 5.4.
 
-### 5.4 Technická vada identifikátorů faktů
+### 5.4 Technická oprava identifikátorů faktů — dokončeno
 
-V PSČ **39405** mají všechna šestice faktů identifikátory `vyskytna_39405_001` až `vyskytna_39405_006`. Tyto identifikátory neodpovídají povinnému vzoru `^fact_[0-9]{3}# Audit PSČ 39301–39601 — Pelhřimovsko, Pacovsko, Humpolecko a Kamenicko
+V PSČ **39405 Vyskytná** bylo všech šest původních identifikátorů mimo povinný vzor `fact_001` až `fact_999`:
 
-**Kanonické ID:** CZ-39301-39601-PELHŘIMOVSKO  
-**Auditní prompt:** V2.1 — cílený a databázově šetrný audit  
-**Datum:** 23. 11. 2026  
-**Výsledek:** REVIEW REQUIRED  
-**Zdroj pravdy:** Supabase, pouze přesný český rozsah
+| Původní ID | Nové ID |
+|---|---|
+| `vyskytna_39405_001` | `fact_001` |
+| `vyskytna_39405_002` | `fact_002` |
+| `vyskytna_39405_003` | `fact_003` |
+| `vyskytna_39405_004` | `fact_004` |
+| `vyskytna_39405_005` | `fact_005` |
+| `vyskytna_39405_006` | `fact_006` |
 
-## 1. Rozsah a inventář
+Oprava byla provedena konzistentně v `facts[]` i ve všech sedmi jazykových polích `translations.cs`, `de`, `en`, `es`, `fr`, `it`, `nl`. Texty, titulky, pořadí faktů, zdroje, kategorie, priority, polohy ani jiné obsahové hodnoty se neměnily.
 
-Očekávaných 39 PSČ podle `sequence.json`:
+Před zápisem byl cíleně prověřen `public.explorer_map_points` pro `postal_id=9397` (PSČ 39405); nebyl nalezen žádný mapový bod, jehož `fact_id` by bylo třeba migrovat.
 
-39301, 39401, 39403, 39404, 39405, 39409, 39411, 39412, 39413, 39414, 39415, 39421, 39422, 39424, 39426, 39427, 39428, 39443, 39444, 39445, 39446, 39451, 39452, 39456, 39459, 39461, 39462, 39463, 39464, 39468, 39470, 39491, 39492, 39493, 39494, 39495, 39496, 39501, 39601
+Read-back po zápisu potvrdil:
+- `facts[]`: přesně `fact_001` až `fact_006` ve správném pořadí;
+- všech 7 jazykových polí: přesně stejných šest ID ve stejném pořadí;
+- 42/42 ID položek (6 faktů × 7 jazyků) odpovídá vzoru `^fact_[0-9]{3}$`;
+- žádné chybějící ani osiřelé překladové ID;
+- žádné mapové body k aktualizaci.
 
-- Sequence: 39 kódů.
-- RÚIAN CSV: všech 39 kódů nalezeno.
-- Supabase: 39/39 očekávaných řádků nalezeno.
-- Původní obsah: 227 faktů / 1 589 jazykových položek.
-- Po doplnění dvou faktů do 39301: 229 faktů / 1 603 jazykových položek.
-- Všechny řádky zůstaly `data_version=1`, `status=validated`.
-- `sequence.json`, RÚIAN reference ani rozsah nebyly změněny.
+Technický nález je uzavřen. Žádné změny schématu ani migrace databázové architektury nebyly potřeba.
 
-Použité reference:
-- `prompt_audit.md` V2.1
-- `schema.json`
-- `CONTENT_STANDARD.md`
-- `prompt_rework.md`
-- `sequence.json`
-- `reference/README.md`
-- `reference/ruian_postcodes.csv`
-- `reference/ruian_import_manifest.json` (feed aktualizován 2026-11-01; zpracovaný archiv 2026-10-31)
-
-## 2. Zásadní turistická úplnost — uzavřeno
-
-Hlavní regionální dominanty a příběhy jsou pokryty: Pelhřimov, Křemešník, Želivský klášter, hrad Orlík, Humpolec, Pacov, Kámen, Kamenice nad Lipou, Počátky, Červená Řečice, Kaliště/Gustav Mahler, Antonín Sova, Aleš Hrdlička, Jan Želivský, Bernard Bolzano, Otakar Březina, Vítězslav Novák, bitva u Křeče a Leskovická tragédie.
-
-Před auditem chyběly dva významné pelhřimovské příběhy. Byly doplněny do 39301:
-1. `fact_011` — Mikuláš Biskupec z Pelhřimova, táborský biskup a husitský teolog; kategorie `people`, priorita A, map_category `personality`.
-2. `fact_012` — zemské sjezdy v Pelhřimově v letech 1444–1450; kategorie `history`, priorita A, map_category `historical_monument`.
-
-Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; jako `area_representative` byl proto použit orientační bod Masarykova náměstí v historickém jádru Pelhřimova, nikoli tvrzené rodiště či přesné místo jednání. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
-
-Zdroje k doplnění:
-- https://www.muzeumpe.cz/historiemesta/
-- https://www.phil.muni.cz/fil/scf/komplet/mikbis.html
-- https://cs.wikisource.org/wiki/Ott%C5%AFv_slovn%C3%ADk_nau%C4%8Dn%C3%BD/z_Pelh%C5%99imova
-- https://dspace.jcu.cz/bitstream/handle/20.500.14390/30482/Gymnazium_v_Pelhrimove_v_letech_1871-1921.pdf?isAllowed=y&sequence=1
-
-## 3. Provedené opravy
-
-### Správní údaje
-- `content.state` sjednoceno na `Kraj Vysočina` u 39401, 39403, 39443 a 39444.
-- U 39443 zůstává `city=Humpolec`: historická pošta Mladé Bříště (39443) byla zrušena k 30. 6. 2023 a Humpolec je uváděn jako nejbližší pobočka. Geografické fakty zůstávají správně přiřazeny k Mladým Bříštím.
-- `39443` nebylo přepsáno na Mladé Bříště jako sídlo obslužné pošty.
-
-### Překlady
-- 39422: české položky `translations.cs.facts` synchronizovány s českými master texty; read-back potvrdil 6/6 shod.
-- 39401: `translations.cs.facts` synchronizováno s `facts[]`; čtyři zastaralé české titulky byly nahrazeny přesnými titulky masteru. Read-back potvrdil 4/4 shod.
-- Strukturální kontrola po doplnění: všech 229/229 faktů má odpovídající položku ve všech šesti cizojazyčných polích; 0 chybějících cizojazyčných ID a 0 prázdných master polí. Výjimkou je pouze vzor ID u šesti faktů v 39405, viz oddíl 5.4.
-- Nové dva fakty v 39301 mají 7/7 jazykových verzí a read-back PASS.
-
-### Geografické polohy
-Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (při počátečním průchodu):
-- 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
-- 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
-
-Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických poloh: dvě při počátečním průchodu a 22 v pokračujícím průchodu uvedeném níže. Finální read-back Supabase potvrdil 229/229 faktů s neprázdnou polohou, 0 chybějících zdrojů polohy a 0 neplatných hodnot `accuracy`.
-
-## 4. Mechanické kontroly
-
-- 39/39 PSČ v sequence, RÚIAN CSV a Supabase.
-- 229 faktů po doplnění.
-- 0 duplicitních názvů faktů.
-- 0 duplicitních plných českých textů.
-- 0 nepovolených `category` hodnot.
-- 0 nepovolených `map_category` hodnot.
-- 0 chybějících cizojazyčných překladových ID; 6 ID faktů v 39405 neodpovídá regexu schématu `^fact_[0-9]{3}# Audit PSČ 39301–39601 — Pelhřimovsko, Pacovsko, Humpolecko a Kamenicko
-
-**Kanonické ID:** CZ-39301-39601-PELHŘIMOVSKO  
-**Auditní prompt:** V2.1 — cílený a databázově šetrný audit  
-**Datum:** 23. 11. 2026  
-**Výsledek:** REVIEW REQUIRED  
-**Zdroj pravdy:** Supabase, pouze přesný český rozsah
-
-## 1. Rozsah a inventář
-
-Očekávaných 39 PSČ podle `sequence.json`:
-
-39301, 39401, 39403, 39404, 39405, 39409, 39411, 39412, 39413, 39414, 39415, 39421, 39422, 39424, 39426, 39427, 39428, 39443, 39444, 39445, 39446, 39451, 39452, 39456, 39459, 39461, 39462, 39463, 39464, 39468, 39470, 39491, 39492, 39493, 39494, 39495, 39496, 39501, 39601
-
-- Sequence: 39 kódů.
-- RÚIAN CSV: všech 39 kódů nalezeno.
-- Supabase: 39/39 očekávaných řádků nalezeno.
-- Původní obsah: 227 faktů / 1 589 jazykových položek.
-- Po doplnění dvou faktů do 39301: 229 faktů / 1 603 jazykových položek.
-- Všechny řádky zůstaly `data_version=1`, `status=validated`.
-- `sequence.json`, RÚIAN reference ani rozsah nebyly změněny.
-
-Použité reference:
-- `prompt_audit.md` V2.1
-- `schema.json`
-- `CONTENT_STANDARD.md`
-- `prompt_rework.md`
-- `sequence.json`
-- `reference/README.md`
-- `reference/ruian_postcodes.csv`
-- `reference/ruian_import_manifest.json` (feed aktualizován 2026-11-01; zpracovaný archiv 2026-10-31)
-
-## 2. Zásadní turistická úplnost — uzavřeno
-
-Hlavní regionální dominanty a příběhy jsou pokryty: Pelhřimov, Křemešník, Želivský klášter, hrad Orlík, Humpolec, Pacov, Kámen, Kamenice nad Lipou, Počátky, Červená Řečice, Kaliště/Gustav Mahler, Antonín Sova, Aleš Hrdlička, Jan Želivský, Bernard Bolzano, Otakar Březina, Vítězslav Novák, bitva u Křeče a Leskovická tragédie.
-
-Před auditem chyběly dva významné pelhřimovské příběhy. Byly doplněny do 39301:
-1. `fact_011` — Mikuláš Biskupec z Pelhřimova, táborský biskup a husitský teolog; kategorie `people`, priorita A, map_category `personality`.
-2. `fact_012` — zemské sjezdy v Pelhřimově v letech 1444–1450; kategorie `history`, priorita A, map_category `historical_monument`.
-
-Oba fakty mají ověřené zdroje a všech sedm jazykových verzí. Přesné místo narození Mikuláše Biskupce ani jednotné konkrétní místo konání sjezdů nebylo bezpečně doloženo; jako `area_representative` byl proto použit orientační bod Masarykova náměstí v historickém jádru Pelhřimova, nikoli tvrzené rodiště či přesné místo jednání. U sjezdů nebyl uváděn pevný počet, protože prameny se v počítání liší.
-
-Zdroje k doplnění:
-- https://www.muzeumpe.cz/historiemesta/
-- https://www.phil.muni.cz/fil/scf/komplet/mikbis.html
-- https://cs.wikisource.org/wiki/Ott%C5%AFv_slovn%C3%ADk_nau%C4%8Dn%C3%BD/z_Pelh%C5%99imova
-- https://dspace.jcu.cz/bitstream/handle/20.500.14390/30482/Gymnazium_v_Pelhrimove_v_letech_1871-1921.pdf?isAllowed=y&sequence=1
-
-## 3. Provedené opravy
-
-### Správní údaje
-- `content.state` sjednoceno na `Kraj Vysočina` u 39401, 39403, 39443 a 39444.
-- U 39443 zůstává `city=Humpolec`: historická pošta Mladé Bříště (39443) byla zrušena k 30. 6. 2023 a Humpolec je uváděn jako nejbližší pobočka. Geografické fakty zůstávají správně přiřazeny k Mladým Bříštím.
-- `39443` nebylo přepsáno na Mladé Bříště jako sídlo obslužné pošty.
-
-### Překlady
-- 39422: české položky `translations.cs.facts` synchronizovány s českými master texty; read-back potvrdil 6/6 shod.
-- 39401: `translations.cs.facts` synchronizováno s `facts[]`; čtyři zastaralé české titulky byly nahrazeny přesnými titulky masteru. Read-back potvrdil 4/4 shod.
-- Strukturální kontrola po doplnění: všech 229/229 faktů má odpovídající položku ve všech šesti cizojazyčných polích; 0 chybějících cizojazyčných ID a 0 prázdných master polí. Výjimkou je pouze vzor ID u šesti faktů v 39405, viz oddíl 5.4.
-- Nové dva fakty v 39301 mají 7/7 jazykových verzí a read-back PASS.
-
-### Geografické polohy
-Doplněny dvě dříve prázdné polohy s doloženou přibližnou přesností (při počátečním průchodu):
-- 39462 / fact_006 — pomníky ve středu Libkovy Vody; 49.3764889, 15.1910111; `approximate`.
-- 39463 / fact_005 — pomník obětí první světové války v Častrově; 49.3078, 15.1802889; `approximate`.
-
-Read-back obou změněných faktů PASS. Celkem bylo doplněno 24 geografických poloh: dvě při počátečním průchodu a 22 v pokračujícím průchodu uvedeném níže. Finální read-back Supabase potvrdil 229/229 faktů s neprázdnou polohou, 0 chybějících zdrojů polohy a 0 neplatných hodnot `accuracy`.
-
-## 4. Mechanické kontroly
-
-- 39/39 PSČ v sequence, RÚIAN CSV a Supabase.
-- 229 faktů po doplnění.
-- 0 duplicitních názvů faktů.
-- 0 duplicitních plných českých textů.
-- 0 nepovolených `category` hodnot.
-- 0 nepovolených `map_category` hodnot.
- (viz 5.4).
-- AJV nebylo spuštěno — auditní prompt jej výslovně nepožaduje.
-
-## 5. Otevřené položky — REVIEW REQUIRED
-
-### 5.1 Krátké české master texty — PASS
-
-Všech 16 původně krátkých českých master textů bylo doplněno ověřitelnými a relevantními informacemi. U každého z nich byly aktualizovány odpovídající texty v šesti cizojazyčných verzích (de, en, es, fr, it, nl) a česká jazyková kopie byla synchronizována s master textem.
-
-Po zápisu byl cíleně načten zpět pouze změněný blok sedmi PSČ. Výsledek:
-- 16/16 opravených českých textů má nejméně 350 znaků.
-- 16/16 českých položek v translations.cs přesně odpovídá facts[].text.
-- 96/96 cizojazyčných překladů existuje a obsahuje text i titulek.
-- 0 duplicitních ID; počet faktů v jednotlivých záznamech zůstal beze změny.
-- Nebyla provedena žádná změna location ani ID faktů.
-
-| PSČ / fakt | Nová délka |
-|---|---:|
-| 39401 / fact_001 | 491 |
-| 39401 / fact_004 | 461 |
-| 39404 / fact_001 | 385 |
-| 39404 / fact_002 | 392 |
-| 39404 / fact_003 | 459 |
-| 39404 / fact_004 | 452 |
-| 39404 / fact_006 | 410 |
-| 39404 / fact_007 | 459 |
-| 39411 / fact_003 | 405 |
-| 39411 / fact_006 | 503 |
-| 39412 / fact_004 | 447 |
-| 39428 / fact_004 | 464 |
-| 39446 / fact_003 | 434 |
-| 39446 / fact_004 | 446 |
-| 39463 / fact_003 | 412 |
-| 39463 / fact_005 | 502 |
-
-Použité zdroje pro doplnění zahrnují oficiální weby obcí/městysů Rynárec, Nový Rychnov, Cetoraz, Obrataň a Častrov, dále Národní památkový ústav a Atlas české architektury. Významové doplnění zahrnuje například historický silniční most a památkový soubor Rynárce, další požár Nového Rychnova a osudy rodin Ančerlových a Stettnerových, původ Jiřího Němce v klubu Slavoj Pacov, Deymovu hrobku v Cetorazi, pamětní souvislosti Obrataně, podobu sochy ve Velké Chyšce, archeologický kontext Červené Řečice a druhý památník v Častrově.
-
-### 5.2 Geografické opravy a finální kontrola poloh
-
-Při pokračujícím geografickém průchodu bylo doplněno 22 obhajitelných poloh; všechny změny byly načteny zpět ze Supabase. Dvě poslední dříve prázdné polohy byly na návrh uživatele umístěny na obecní úřady příslušných sídel jako reprezentativní body, nikoli jako místa samotných historických událostí. U bodů, které pouze reprezentují širší území nebo soubor objektů, je výslovně použita odpovídající orientační přesnost.
-
-- 39301/fact_011 — Mikuláš Biskupec z Pelhřimova; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné rodiště nebylo doloženo.
-- 39301/fact_012 — zemské sjezdy v Pelhřimově 1444–1450; Masarykovo náměstí jako orientační bod historického jádra, 49.4308, 15.2233; `area_representative`. Přesné místo jednání nebylo doloženo.
-- 39403/fact_001 — historický vývoj Horní Cerekve; kostel Zvěstování Páně jako orientační bod historického jádra, 49.318952, 15.329738; `area_representative`.
-- 39404/fact_004 — kolomazný kámen u úřadu městyse Nový Rychnov; orientační poloha na adrese úřadu, 49.3833219, 15.3663073; `approximate`.
-- 39404/fact_005 — Vilém Pospíšil; radnice Nový Rychnov u pamětní desky, 49.3833111, 15.3662361; `approximate`. Vila u silnice na Čejkov je doložena, ale její přesný bod nebyl ověřen.
-- 39404/fact_006 — polní opevnění V Šancích; orientační bod bastionové reduty u Rohozné, 49.3642173, 15.3824856; `approximate`. Přiřazení k místnímu označení V Šancích je geograficky odvozeno z popisu polohy za Novým Rychnovem směrem k Rohozné, nikoli doloženo totožným názvem v odborném článku.
-- 39411/fact_003 — pomník obětem obou světových válek v jižní ohradní zdi hřbitova v Cetorazi; poloha areálu hřbitova, 49.455397, 14.956683; `area_representative`.
-- 39412/fact_003 — pomník obětem první světové války u obecního hřbitova v Obratani; orientační poloha hřbitova, 49.4262306, 14.9372444; `approximate`.
-- 39412/fact_004 — více paměťových míst v okolí kostela v Obratani; kostel sv. Petra a Pavla jako veřejný orientační bod, 49.425, 14.944; `approximate`.
-- 39412/fact_005 — dvě usedlosti lidové architektury; historické jádro Obrataně jako orientační bod, 49.425057, 14.943486; `area_representative`.
-- 39426/fact_005 — archeologická lokalita středověkého výrobního areálu v nivě Lukaveckého potoka; Dřevozpracující družstvo jako orientační bod přibližně 100 m od lokality, 49.5623744, 14.9825476; `area_representative`.
-- 39428/fact_002 — kaple sv. Jana Křtitele na Stražišti, 49.53393, 15.00044; `approximate`.
-- 39428/fact_004 — parčík pod kostelem sv. Jana Křtitele ve Velké Chyšce, kde stojí socha sv. Jana Nepomuckého; orientační bod, 49.5116583, 15.0375139; `approximate`.
-- 39428/fact_006 — historie SDH Velká Chyška; sídlo sboru / hasičská zbrojnice č.p. 138, 49.5092732, 15.0364334; `approximate`.
-- 39428/fact_007 — soubor drobných sakrálních památek; historické jádro Velké Chyšky jako orientační bod, 49.5117564, 15.0372645; `area_representative`.
-- 39452/fact_001 — historický vývoj Kejžlice; obecní úřad jako orientační bod historického sídla, 49.5896573, 15.3918274; `area_representative`.
-- 39459/fact_001 — historický vývoj Koberovic; pošta a obecní budova č.p. 42 jako orientační bod vsi, 49.5863247, 15.2638392; `area_representative`.
-- 39459/fact_003 — bývalá škola Koberovice 42, dnes využívaná hasičským klubem; 49.5863247, 15.2638392; `approximate`.
-- 39462/fact_004 — soubor tří raně barokních božích muk na cestách z Libkovy Vody; pošta č.p. 61 jako orientační bod vsi, 49.3759696, 15.1892659; `area_representative`.
-- 39462/fact_001 — historický vývoj Libkovy Vody; pošta č.p. 61 jako orientační bod historické vsi, 49.3759696, 15.1892659; `area_representative`.
-
-Poslední dvě dříve prázdné polohy byly doplněny jako reprezentativní body obcí:
-- 39404/fact_007 — osud rodin Ančerlových a Stettnerových; Úřad městyse Nový Rychnov č.p. 87 jako reprezentativní bod obce, 49.3833219, 15.3663073; `area_representative`. Nejde o doložené místo zatčení či deportace.
-- 39451/fact_003 — zaniklé panské sídlo a lihovar v Kalištích; Obecní úřad Kaliště č.p. 92 jako reprezentativní bod vsi, 49.5926961, 15.3019819; `area_representative`. Nejde o přesné umístění zaniklých budov.
-
-### 5.3 Sémantická kontrola překladů — dokončeno
-
-Individuálně bylo zkontrolováno všech 229 faktů a všech 1 374 cizojazyčných překladů (`de, en, es, fr, it, nl`). Správné překlady nebyly stylisticky přepisovány. Byly nalezeny a opraveny tyto významové vady:
-
-- **39601 / fact_004–fact_009:** všech 36 cizojazyčných položek bylo nově srovnáno s aktuálním českým masterem. Starší verze u židovského hřbitova obsahovaly nepodložené doplňky; u Medovy vily a muzea Aleše Hrdličky uváděly zastaralé informace a vynechávaly aktuální obsah; u Hliníkária chyběl podstatný kontext fiktivní postavy; u Vojslavického dvojmostu byly chybné letopočty a konstrukční údaje; u kostela v Řečici chyběl popis opevnění a překlady obsahovaly nesouvisející informace.
-- **39462 / fact_002:** opraven španělský a italský popis trojbokého presbytáře.
-- **39462 / fact_003:** opraven německý a italský překlad výšky zámku; české `jednopatrový` znamená dvě podlaží, nikoli jednopodlažní stavbu.
-- **39462 / fact_004:** opraven španělský a nizozemský titulek, který nesprávně označoval boží muka jako kříže či kaple.
-- **39463 / fact_004:** opraven nizozemský titulek i text, který nesprávně označoval boží muka za silniční kříž.
-- **39401:** synchronizovány čtyři české titulky v `translations.cs` s masterem.
-
-Všechny změněné položky byly po zápisu načteny zpět ze Supabase. Sémantická kontrola překladů je uzavřena; otevřený technický nález ID je odděleně uveden v oddílu 5.4.
-
- v `schema.json`. Překladové položky používají odpovídající stejné ID, takže nebyla zjištěna chybějící ani osiřelá jazyková položka. ID nebyla v rámci auditu přejmenována, protože auditní prompt přikazuje zachovat existující ID. Náprava vyžaduje samostatně schválenou konzistentní migraci všech sedmi jazykových polí a souvisejících vazeb. Tento nález brání označení celého bloku jako PASS.
-
-## 6. Životní cyklus a další krok
+## 6. Životní cyklus a uzavření auditu
 
 - Supabase: 39/39 záznamů zůstává `data_version=1`, `status=validated`.
-- V5 / published: NEPROVEDENO.
+- Auditní výsledek: **PASS**.
+- V5 / published: NEPROVEDENO — vyžaduje samostatný výslovný pokyn uživatele.
 - Dropbox záloha: NEPROVEDENA.
 - Neon: NEČTEN, NEZAPISOVÁN.
 - Read-only lock: NEPROVEDEN.
 - `sequence.json` a referenční RÚIAN soubory: BEZE ZMĚNY.
 
-**Další krok:** rozhodnout o samostatné opravě šesti neplatných ID v 39405. Do té doby ponechat auditní stav REVIEW REQUIRED; sémantická kontrola překladů i geografická část jsou uzavřené.
+**Audit bloku 39301–39601 je dokončen.** Geografická kontrola, sémantická kontrola překladů i technická oprava identifikátorů jsou uzavřeny.
