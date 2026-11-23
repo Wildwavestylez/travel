@@ -1,4 +1,326 @@
 {
   "postcode": "97229",
-  "status": "placeholder"
+  "city": "Čavoj",
+  "district": null,
+  "county": "Prievidza",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Čavoj – historické sídelní jádro na horním toku Nitrice",
+  "representative_point": {
+    "lat": 48.8827082,
+    "lon": 18.4860823
+  },
+  "access_point": {
+    "lat": 48.8827082,
+    "lon": 18.4860823
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Čavoj: zlato, olovo a důlní mapa z roku 1742",
+      "text": "Dějiny Čavoje jsou spojené s dobýváním drahých kovů. V okolí potoků se rýžovalo zlato z krystalických hornin Malé Magury; později vznikaly štoly a šachty. Těžba zlata pokračovala do 17. století a od poloviny 17. století se zkoušelo také olovo. Obecní přehled uvádí písemný doklad o těžbě olova z 21. srpna 1650. Mimořádně cenná je důlní mapa z 21. srpna 1742, která zachycuje stará i nová důlní díla.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.cavoj.sk/historia"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel svaté Doroty: renesanční počátky z roku 1611",
+      "text": "Římskokatolický kostel svaté Doroty patří k nejvýraznějším historickým stavbám Čavoje. Jeho původní renesanční podoba vznikla roku 1611; ve 20. století byl chrám přestavěn a rozšířen. Během druhé světové války utrpěl značné škody. Po opravě byl 30. října 1949 znovu vysvěcen a zasvěcen svaté Dorotě.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/cavoj-kostol-sv-doroty"
+      ],
+      "location": {
+        "name": "Římskokatolický kostel svaté Doroty, Čavoj",
+        "address": null,
+        "lat": 48.881447,
+        "lon": 18.484237,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/cavoj-kostol-sv-doroty"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Temešská skala: vápencová dominanta a útočiště jasoně červenookého",
+      "text": "Na rozhraní katastrů Temeše a Čavoje se zvedá Temešská skala, výrazný dolomiticko-vápencový vrchol vysoký přibližně 910 metrů. Přírodní rezervace byla vyhlášena roku 1986 a má rozlohu 57,93 hektaru; platí zde pátý stupeň ochrany. Území chrání vápencové bučiny, skalní a suťová stanoviště i teplomilná společenstva. Podle obecního přehledu jde o jedinou lokalitu okresu Prievidza s výskytem chráněného motýla jasoně červenookého (Parnassius apollo).",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.temes.sk/sucasnost"
+      ],
+      "location": {
+        "name": "Temešská skala – vrchol",
+        "address": null,
+        "lat": 48.8691993,
+        "lon": 18.4942399,
+        "type": "rock_formation",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n2498437426"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_004",
+      "title": "Temeš: středověká kolonizační obec založená roku 1332",
+      "text": "Sousední Temeš vznikl roku 1332 na německém zákupním právu. Zámožný šoltýs sem přivedl nové osadníky; už roku 1333 se v písemnostech objevuje pojmenování „Lehota Temeš vocata“. Založení obce souviselo také se záměrem dobývat rudu, stříbro a zlato. Temeš patřil Bossányiovcům a během husitských válek byl v letech 1432–1433 vypleněn. Temeš je samostatnou obcí, ale jeho obecní úřad používá adresu s PSČ 972 29.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.temes.sk/historia",
+        "https://www.temes.sk/kontakty"
+      ],
+      "location": {
+        "name": "Temeš – orientační bod v centru obce",
+        "address": null,
+        "lat": 48.8688691,
+        "lon": 18.4776472,
+        "type": "historic_village",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/n283250506"
+      },
+      "map_category": "historic_city"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální portál vyhledávání PSČ; geografické přiřazení 972 29 k Čavoji potvrzuje oficiální obecní adresa Čavoj č. 86, 972 29 Čavoj. Stejné PSČ používá také samostatná obec Temeš: oficiální adresa obecního úřadu Temeš 140, 972 29 a záznam ÚPVS. Statická stránka Slovenské pošty nezobrazuje výsledek konkrétního dotazu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhledávání PSČ; oficiální adresy obcí Čavoj a Temeš; ÚPVS",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 972 29 je doloženo pro obec Čavoj a také pro samostatnou obec Temeš; v Čavoji zahrnuje rozptýlené lazy a osady. Provozní stav pošty nebyl posuzován.",
+    "postcode_override_reason": null,
+    "geographic_authority": "ÚPVS a oficiální obecní zdroje – správní identita, okres Prievidza, Trenčiansky kraj a adresy obcí; OMA/OpenStreetMap – poloha sídelních bodů a místních lokalit."
+  },
+  "sources": [
+    {
+      "title": "PSČ – Slovenská pošta",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Čavoj – historie obce a hornictví",
+      "url": "https://www.cavoj.sk/historia",
+      "type": "official"
+    },
+    {
+      "title": "Kostel svaté Doroty – Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/cavoj-kostol-sv-doroty",
+      "type": "specialist"
+    },
+    {
+      "title": "Temeš – historie obce",
+      "url": "https://www.temes.sk/historia",
+      "type": "official"
+    },
+    {
+      "title": "Temeš – přírodní rezervace Temešská skala",
+      "url": "https://www.temes.sk/sucasnost",
+      "type": "official"
+    },
+    {
+      "title": "Temeš – poštovní adresa 972 29",
+      "url": "https://www.temes.sk/kontakty",
+      "type": "official"
+    },
+    {
+      "title": "Temešská skala – poloha vrcholu",
+      "url": "https://poi.oma.sk/n2498437426",
+      "type": "other"
+    },
+    {
+      "title": "Temeš – orientační bod sídla",
+      "url": "https://poi.oma.sk/n283250506",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Čavoj – historické sídelní jádro na horním toku Nitrice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: zlato, olovo a důlní mapa z roku 1742",
+          "text": "Dějiny Čavoje jsou spojené s dobýváním drahých kovů. V okolí potoků se rýžovalo zlato z krystalických hornin Malé Magury; později vznikaly štoly a šachty. Těžba zlata pokračovala do 17. století a od poloviny 17. století se zkoušelo také olovo. Obecní přehled uvádí písemný doklad o těžbě olova z 21. srpna 1650. Mimořádně cenná je důlní mapa z 21. srpna 1742, která zachycuje stará i nová důlní díla."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel svaté Doroty: renesanční počátky z roku 1611",
+          "text": "Římskokatolický kostel svaté Doroty patří k nejvýraznějším historickým stavbám Čavoje. Jeho původní renesanční podoba vznikla roku 1611; ve 20. století byl chrám přestavěn a rozšířen. Během druhé světové války utrpěl značné škody. Po opravě byl 30. října 1949 znovu vysvěcen a zasvěcen svaté Dorotě."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: vápencová dominanta a útočiště jasoně červenookého",
+          "text": "Na rozhraní katastrů Temeše a Čavoje se zvedá Temešská skala, výrazný dolomiticko-vápencový vrchol vysoký přibližně 910 metrů. Přírodní rezervace byla vyhlášena roku 1986 a má rozlohu 57,93 hektaru; platí zde pátý stupeň ochrany. Území chrání vápencové bučiny, skalní a suťová stanoviště i teplomilná společenstva. Podle obecního přehledu jde o jedinou lokalitu okresu Prievidza s výskytem chráněného motýla jasoně červenookého (Parnassius apollo)."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: středověká kolonizační obec založená roku 1332",
+          "text": "Sousední Temeš vznikl roku 1332 na německém zákupním právu. Zámožný šoltýs sem přivedl nové osadníky; už roku 1333 se v písemnostech objevuje pojmenování „Lehota Temeš vocata“. Založení obce souviselo také se záměrem dobývat rudu, stříbro a zlato. Temeš patřil Bossányiovcům a během husitských válek byl v letech 1432–1433 vypleněn. Temeš je samostatnou obcí, ale jeho obecní úřad používá adresu s PSČ 972 29."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Čavoj – historischer Ortskern am Oberlauf der Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: Gold, Blei und Bergbaukarte von 1742",
+          "text": "In Čavoj wurde Gold aus den Gesteinen der Malá Magura gewaschen; später entstanden Stollen und Schächte. Ein schriftlicher Nachweis des Bleibergbaus stammt von 1650. Eine Bergbaukarte von 1742 zeigt alte und neue Gruben."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Dorotheenkirche: Renaissance-Ursprung von 1611",
+          "text": "Die römisch-katholische Kirche der heiligen Dorothea stammt in ihren Ursprüngen aus dem Jahr 1611. Im 20. Jahrhundert wurde sie umgebaut und nach Kriegsschäden 1949 erneut geweiht."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: Kalkstein-Gipfel und Apollofalter",
+          "text": "Die Temešská skala liegt zwischen Temeš und Čavoj. Das 1986 ausgewiesene Naturreservat umfasst 57,93 Hektar und schützt Kalkbuchenwälder sowie den Lebensraum des Apollofalters."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: mittelalterliche Siedlung von 1332",
+          "text": "Temeš wurde 1332 nach deutschem Erbrecht gegründet. 1333 erscheint der Name „Lehota Temeš vocata“. Das Dorf war mit dem Bergbau verbunden und wurde 1432–1433 geplündert."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Čavoj – historic settlement core on the upper Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: gold, lead and a mining map from 1742",
+          "text": "Gold was first panned from the rocks of Malá Magura around Čavoj; later, shafts and adits were developed. Written evidence of lead mining dates to 1650. A mining map from 1742 depicts old and new workings."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of Saint Dorothy: Renaissance origins in 1611",
+          "text": "The Roman Catholic Church of Saint Dorothy has origins dating to 1611. It was rebuilt in the 20th century and reconsecrated in 1949 after wartime damage."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: limestone landmark and Apollo butterfly habitat",
+          "text": "Temešská skala lies between Temeš and Čavoj. The nature reserve was established in 1986, covers 57.93 hectares and protects limestone beech woods and Apollo butterfly habitat."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: a medieval settlement founded in 1332",
+          "text": "Temeš was founded in 1332 under German settlement law. The name “Lehota Temeš vocata” appears in 1333. The village was associated with mining and was plundered in 1432–1433."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Čavoj – núcleo histórico junto al curso alto del Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: oro, plomo y un mapa minero de 1742",
+          "text": "En Čavoj se lavaba oro de las rocas de Malá Magura; después se excavaron pozos y galerías. Un documento sobre la minería del plomo data de 1650. Un mapa minero de 1742 muestra labores antiguas y nuevas."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de Santa Dorotea: origen renacentista de 1611",
+          "text": "La iglesia de Santa Dorotea tiene orígenes de 1611. Fue reconstruida en el siglo XX y consagrada de nuevo en 1949 tras los daños de guerra."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: cima caliza y hábitat de la mariposa apolo",
+          "text": "Temešská skala se encuentra entre Temeš y Čavoj. La reserva natural, declarada en 1986, ocupa 57,93 hectáreas y protege hayedos calcáreos y el hábitat de la mariposa apolo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: asentamiento medieval fundado en 1332",
+          "text": "Temeš fue fundada en 1332 conforme al derecho de colonización alemán. En 1333 aparece el nombre “Lehota Temeš vocata”. El pueblo estuvo ligado a la minería y fue saqueado en 1432–1433."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Čavoj – noyau historique sur le cours supérieur de la Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj : or, plomb et carte minière de 1742",
+          "text": "À Čavoj, on lavait l’or des roches de la Malá Magura ; des puits et galeries furent ensuite creusés. Une preuve écrite de l’extraction du plomb date de 1650. Une carte minière de 1742 montre les anciens travaux."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Sainte-Dorothée : origines Renaissance de 1611",
+          "text": "L’église Sainte-Dorothée remonte à 1611. Reconstruite au XXe siècle, elle fut consacrée à nouveau en 1949 après les dommages de guerre."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala : sommet calcaire et papillon apollon",
+          "text": "Temešská skala se trouve entre Temeš et Čavoj. La réserve naturelle, créée en 1986, couvre 57,93 hectares et protège des hêtraies calcaires et l’habitat du papillon apollon."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš : village médiéval fondé en 1332",
+          "text": "Temeš fut fondé en 1332 selon le droit de colonisation allemand. Le nom « Lehota Temeš vocata » apparaît en 1333. Le village était lié aux mines et fut pillé en 1432–1433."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Čavoj – nucleo storico sull’alto corso della Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: oro, piombo e mappa mineraria del 1742",
+          "text": "A Čavoj l’oro veniva lavato dalle rocce della Malá Magura; in seguito furono scavati pozzi e gallerie. Una prova scritta dell’estrazione del piombo risale al 1650. Una mappa mineraria del 1742 mostra lavori antichi e nuovi."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di Santa Dorotea: origini rinascimentali del 1611",
+          "text": "La chiesa di Santa Dorotea risale nelle origini al 1611. Fu ricostruita nel XX secolo e riconsacrata nel 1949 dopo i danni della guerra."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: vetta calcarea e farfalla apollo",
+          "text": "Temešská skala si trova tra Temeš e Čavoj. La riserva naturale, istituita nel 1986, copre 57,93 ettari e tutela faggete calcaree e l’habitat della farfalla apollo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: insediamento medievale fondato nel 1332",
+          "text": "Temeš fu fondato nel 1332 secondo il diritto di colonizzazione tedesco. Il nome “Lehota Temeš vocata” compare nel 1333. Il villaggio era legato alle miniere e fu saccheggiato nel 1432–1433."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Čavoj – historische dorpskern aan de bovenloop van de Nitrica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čavoj: goud, lood en een mijnkaart uit 1742",
+          "text": "In Čavoj werd goud uit het gesteente van de Malá Magura gewassen; later werden schachten en mijngangen aangelegd. Schriftelijk bewijs van loodwinning dateert uit 1650. Een mijnkaart uit 1742 toont oude en nieuwe mijnwerken."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Dorotheakerk: renaissanceoorsprong uit 1611",
+          "text": "De Sint-Dorotheakerk heeft een oorsprong die teruggaat tot 1611. In de 20e eeuw werd zij verbouwd en na oorlogsschade in 1949 opnieuw ingewijd."
+        },
+        {
+          "id": "fact_003",
+          "title": "Temešská skala: kalkstenen top en apollovlinder",
+          "text": "Temešská skala ligt tussen Temeš en Čavoj. Het natuurreservaat werd in 1986 ingesteld, beslaat 57,93 hectare en beschermt kalkbeukenbossen en leefgebied van de apollovlinder."
+        },
+        {
+          "id": "fact_004",
+          "title": "Temeš: middeleeuwse nederzetting gesticht in 1332",
+          "text": "Temeš werd in 1332 gesticht volgens het Duitse kolonisatie-recht. De naam “Lehota Temeš vocata” komt in 1333 voor. Het dorp was verbonden met mijnbouw en werd in 1432–1433 geplunderd."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
