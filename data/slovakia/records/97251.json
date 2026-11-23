@@ -168,19 +168,67 @@
       ],
       "map_category": "technical_heritage",
       "location": null
+    },
+    {
+      "id": "fact_011",
+      "title": "Heimatstube – muzeum dějin karpatských Němců v Handlové",
+      "text": "V Domě setkávání karpatských Němců na Poštové ulici sídlí pamětní místnost Heimatstube, otevřená roku 2004 ve dvou místnostech historického kamenného domu. Expozice přibližuje založení Handlové německými kolonisty, dějiny karpatských Němců, tradiční domácnost, řemesla, oděv i proměnu města od zemědělského sídla k hornickému centru. Jde o důležité místo uchování německého kulturního dědictví, které je součástí místní identity i po poválečném vysídlení většiny německého obyvatelstva.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/6405/pamatna-izba-heimatstube",
+        "https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/dom-karpatskonemeckeho-spolku-v-handlovej/o-muzeu",
+        "https://www.vypadni.sk/sk/dom-karpatskonemeckeho-spolku-v-handlovej"
+      ],
+      "location": {
+        "name": "Dom stretávania karpatských Nemcov – Heimatstube",
+        "address": "Poštová 350, Handlová, Slovensko",
+        "lat": 48.729419,
+        "lon": 18.762022,
+        "type": "museum",
+        "accuracy": "approximate",
+        "source": "https://www.vypadni.sk/sk/dom-karpatskonemeckeho-spolku-v-handlovej"
+      },
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_012",
+      "title": "Hladový štrajk roku 1918 – tragický protest hornických rodin",
+      "text": "Válečný nedostatek potravin a nedostatečné příděly vyvolaly v Handlové v létě 1918 sociální výbuch. Dne 22. července zablokovaly ženy handlovských horníků vstup do dolu, aby zabránily nástupu další směny a vynutily si lepší zásobování. Zásah žandárů skončil střelbou a smrtí čtyř lidí – dvou žen a dvou mužů; další protestující byli zraněni. Událost připomíná památník hladového štrajku u areálu dolu. Nešlo pouze o pracovní spor, ale o tragédii rodin sevřených válečnou nouzí.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.handlova.sk/28739/prva-svetova-vojna",
+        "https://www.handlova.sk/data/page/handlova.sk/24294/hh_2024_11_01_merged.pdf"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_013",
+      "title": "Pravěké osídlení Handlovské kotliny a archeologické nálezy v Pstruháre",
+      "text": "Údolí Handlovky bylo osídleno dávno před vznikem dnešního města. V okolí Handlové byly nalezeny kamenné nástroje z neolitu a měděné předměty z eneolitu, zejména v lokalitě Pstruháre. Archeologický výzkum v roce 1958 odkryl pohřebiště lužické kultury se šestnácti hroby; v Pstruháre byla doložena také bronzová mísa. Další nálezy ukazují na osídlení v době halštatské i na přítomnost Slovanů na přelomu 5. a 6. století. Jde o doklady dlouhého osídlení Handlovské kotliny, nikoli o volně přístupnou archeologickou expozici.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.handlova.sk/28734/prva-pisomna-zmienka",
+        "https://www.handlova.sk/novinka/51361/rozhodnutie-o-nutnosti-vykonat-archeologicky-vyskum"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
     }
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ; geografické použití kódu 972 51 dále křížově potvrzují přehledy PSČ a adresní doklady pro Handlovou, Novou Lehotu a lokalitu Remata. SITA uvádí Handlovou, Novou Lehotu a Rematu; oficiální městské zdroje potvrzují Handlovou a Novou Lehotu. Konkrétní adresa Remata 57, Ráztočno-Remata je doložena s PSČ 972 51. Netvrdí se přesná polygonální hranice poštovního obvodu.",
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ; geografické použití kódu 972 51 dále křížově potvrzují přehledy PSČ a adresní doklady pro Handlovou, Novou Lehotu a lokalitu Remata. SITA uvádí Handlovou, Novou Lehotu a Rematu; oficiální městské zdroje potvrzují Handlovou a Novou Lehotu. Konkrétní adresa Remata 57, Ráztočno-Remata je doložena s PSČ 972 51. Netvrdí se přesná polygonální hranice poštovního obvodu. Doplňková kontrola upozornila na nejednotné sekundární přiřazení části Morovno; viz zdroje OMA a Handlová–Morovno.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
     "postcode_source_dataset": "Slovenská pošta – Vyhľadávanie PSČ; křížová kontrola SITA, NájdiPSČ a adresních dokladů",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-23",
-    "postcode_conflict": false,
-    "postcode_conflict_note": null,
+    "postcode_conflict": true,
+    "postcode_conflict_note": "Sekundární mapové a poštovní podklady uvádějí v katastrálním území Morovno jak PSČ 972 51, tak 972 31. Bez autoritativní adresní vrstvy Slovenské pošty proto nelze celé Morovno plošně přiřadit k PSČ 972 51. Záznam Morovno neuvádí jako samostatnou lokalitu ani mu nepřiřazuje fakt. Potvrzené jádro záznamu tvoří Handlová a Nová Lehota; Remata je doložena samostatnými adresními podklady.",
     "delivery_office_note": null,
     "postcode_override_reason": null,
     "geographic_authority": "Oficiální městské zdroje potvrzují Handlovou a její městskou část Nová Lehota v okrese Prievidza a Trenčianském kraji. Přehledy PSČ uvádějí pro 972 51 také Rematu; konkrétní adresa Remata 57, Ráztočno-Remata je doložena s tímto kódem, přestože širší správní popisy lokality Remata se v pramenech liší. Remata je proto uvedena jen jako poštovní lokalita a není jí přiřazen samostatný fakt. Reprezentativní bod muzejní expozice je převzat z oficiální stránky města; nejde o tvrzení o hranici PSČ."
@@ -290,6 +338,51 @@
       "title": "Chata Poniklec – adresa Remata 57, PSČ 97251",
       "url": "https://chataponiklec.sk/kontakt/",
       "type": "other"
+    },
+    {
+      "title": "Mesto Handlová – Pamätná izba Heimatstube",
+      "url": "https://www.handlova.sk/6405/pamatna-izba-heimatstube",
+      "type": "official"
+    },
+    {
+      "title": "Slovenské národné múzeum – Dejiny a kultúra Handlovej",
+      "url": "https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/dom-karpatskonemeckeho-spolku-v-handlovej/o-muzeu",
+      "type": "museum"
+    },
+    {
+      "title": "Dom Karpatskonemeckého spolku v Handlovej – poloha",
+      "url": "https://www.vypadni.sk/sk/dom-karpatskonemeckeho-spolku-v-handlovej",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Handlová – Prvá svetová vojna a hladový štrajk",
+      "url": "https://www.handlova.sk/28739/prva-svetova-vojna",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Prvá písomná zmienka a archeologické nálezy",
+      "url": "https://www.handlova.sk/28734/prva-pisomna-zmienka",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Handlová – Archeologické lokality v katastri Handlovej",
+      "url": "https://www.handlova.sk/novinka/51361/rozhodnutie-o-nutnosti-vykonat-archeologicky-vyskum",
+      "type": "official"
+    },
+    {
+      "title": "Handlovský hlas – Hladový štrajk pri Bani Handlová",
+      "url": "https://www.handlova.sk/data/page/handlova.sk/24294/hh_2024_11_01_merged.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap – katastrálne územie Morovno a evidované PSČ",
+      "url": "https://morovno.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Sekundárny zoznam PSČ – Handlová, Morovno",
+      "url": "https://slovensko.posty-psc.cz/trenciansky/prievidza/handlova_morovno/",
+      "type": "other"
     }
   ],
   "translations": {
@@ -345,6 +438,21 @@
           "id": "fact_010",
           "title": "Bralský tunel – mimořádná železniční stavba pod horským hřbetem",
           "text": "Trať z Handlové do Horné Štubně, budovaná v letech 1927–1931, překonala náročný horský terén soustavou mostů, viaduktů a pěti tunelů. Nejvýznamnější z nich je Bralský tunel dlouhý přibližně 3 012 metrů, nejdelší z pěti tunelů na tomto traťovém úseku. Prorážka se uskutečnila 13. července 1930 a celá trať byla slavnostně otevřena 20. prosince 1931. Tunel původně nesl jméno T. G. Masaryka a později získal název podle masivu Bralo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube – muzeum dějin karpatských Němců v Handlové",
+          "text": "V Domě setkávání karpatských Němců na Poštové ulici sídlí pamětní místnost Heimatstube, otevřená roku 2004 ve dvou místnostech historického kamenného domu. Expozice přibližuje založení Handlové německými kolonisty, dějiny karpatských Němců, tradiční domácnost, řemesla, oděv i proměnu města od zemědělského sídla k hornickému centru. Jde o důležité místo uchování německého kulturního dědictví, které je součástí místní identity i po poválečném vysídlení většiny německého obyvatelstva."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hladový štrajk roku 1918 – tragický protest hornických rodin",
+          "text": "Válečný nedostatek potravin a nedostatečné příděly vyvolaly v Handlové v létě 1918 sociální výbuch. Dne 22. července zablokovaly ženy handlovských horníků vstup do dolu, aby zabránily nástupu další směny a vynutily si lepší zásobování. Zásah žandárů skončil střelbou a smrtí čtyř lidí – dvou žen a dvou mužů; další protestující byli zraněni. Událost připomíná památník hladového štrajku u areálu dolu. Nešlo pouze o pracovní spor, ale o tragédii rodin sevřených válečnou nouzí."
+        },
+        {
+          "id": "fact_013",
+          "title": "Pravěké osídlení Handlovské kotliny a archeologické nálezy v Pstruháre",
+          "text": "Údolí Handlovky bylo osídleno dávno před vznikem dnešního města. V okolí Handlové byly nalezeny kamenné nástroje z neolitu a měděné předměty z eneolitu, zejména v lokalitě Pstruháre. Archeologický výzkum v roce 1958 odkryl pohřebiště lužické kultury se šestnácti hroby; v Pstruháre byla doložena také bronzová mísa. Další nálezy ukazují na osídlení v době halštatské i na přítomnost Slovanů na přelomu 5. a 6. století. Jde o doklady dlouhého osídlení Handlovské kotliny, nikoli o volně přístupnou archeologickou expozici."
         }
       ]
     },
@@ -400,6 +508,21 @@
           "id": "fact_010",
           "title": "Bralský-Tunnel",
           "text": "Der 3.012 Meter lange Bralský-Tunnel entstand an der Bahnstrecke nach Horná Štubňa, die 1931 eröffnet wurde. Der Durchstich erfolgte 1930. Ursprünglich nach T. G. Masaryk benannt, trägt er heute den Namen des Bergmassivs Bralo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube – Ausstellung zur Geschichte der Karpatendeutschen in Handlová",
+          "text": "Im Begegnungshaus des Karpatendeutschen Vereins in der Poštová-Straße befindet sich die Gedenkstube Heimatstube. Sie wurde 2004 in zwei Räumen eines historischen Steinhauses eingerichtet. Die Ausstellung erzählt von der Gründung Handlovás durch deutsche Siedler, der Geschichte der Karpatendeutschen, dem traditionellen Haushalt, Handwerk und Kleidung sowie vom Wandel des Ortes von einer Agrarsiedlung zum Bergbauzentrum. Sie ist ein wichtiger Ort zur Bewahrung des deutschen Kulturerbes, das auch nach der Nachkriegsvertreibung eines Großteils der deutschen Bevölkerung zur lokalen Identität gehört."
+        },
+        {
+          "id": "fact_012",
+          "title": "Der Hungerstreik von 1918 – ein tragischer Protest der Bergarbeiterfamilien",
+          "text": "Die kriegsbedingte Lebensmittelknappheit und unzureichende Rationen führten im Sommer 1918 in Handlová zu einer sozialen Eskalation. Am 22. Juli blockierten Frauen der Bergarbeiter den Zugang zum Bergwerk, um den Einzug der nächsten Schicht zu verhindern und eine bessere Versorgung zu erzwingen. Der Einsatz der Gendarmerie endete mit Schüssen und dem Tod von vier Menschen – zwei Frauen und zwei Männern; weitere Protestierende wurden verletzt. Ein Denkmal beim Bergwerksgelände erinnert an den Hungerstreik. Es handelte sich nicht nur um einen Arbeitskonflikt, sondern um eine Tragödie von Familien in der Kriegsnot."
+        },
+        {
+          "id": "fact_013",
+          "title": "Frühgeschichtliche Besiedlung des Handlová-Beckens und Funde in Pstruháre",
+          "text": "Das Tal des Flusses Handlovka war lange vor der Entstehung der heutigen Stadt besiedelt. In der Umgebung von Handlová wurden Steinwerkzeuge aus der Jungsteinzeit und Kupfergegenstände aus der Kupfersteinzeit gefunden, besonders in der Fundstelle Pstruháre. Eine archäologische Untersuchung legte 1958 ein Gräberfeld der Lausitzer Kultur mit sechzehn Gräbern frei; in Pstruháre wurde außerdem eine bronzene Schale nachgewiesen. Weitere Funde belegen Besiedlung in der Hallstattzeit und die Anwesenheit von Slawen um die Wende vom 5. zum 6. Jahrhundert. Diese Funde dokumentieren die lange Besiedlung des Handlová-Beckens; sie bilden keine frei zugängliche archäologische Ausstellung."
         }
       ]
     },
@@ -455,6 +578,21 @@
           "id": "fact_010",
           "title": "The Bralský Tunnel",
           "text": "The 3,012-metre Bralský Tunnel was built for the railway to Horná Štubňa, opened in 1931. It was pierced in 1930 and first named after T. G. Masaryk; today it takes its name from the Bralo massif."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube – a museum of Carpathian German history in Handlová",
+          "text": "The meeting house of the Carpathian German Association on Poštová Street contains the Heimatstube memorial room, established in 2004 in two rooms of a historic stone house. Its exhibition presents Handlová's foundation by German settlers, the history of the Carpathian Germans, traditional household life, crafts and clothing, and the town's transformation from an agricultural settlement into a mining centre. It is an important place for preserving German cultural heritage, which remains part of local identity even after most of the German population was displaced after the Second World War."
+        },
+        {
+          "id": "fact_012",
+          "title": "The 1918 hunger strike – a tragedy for miners’ families",
+          "text": "Wartime food shortages and inadequate rationing led to a social uprising in Handlová in the summer of 1918. On 22 July, women from miners’ families blocked the entrance to the mine to stop the next shift from going underground and to demand better food supplies. The gendarmes’ intervention ended in gunfire and the deaths of four people – two women and two men; other protesters were injured. A memorial near the mine complex commemorates the hunger strike. This was not merely a labour dispute but a tragedy of families caught in wartime deprivation."
+        },
+        {
+          "id": "fact_013",
+          "title": "Prehistoric settlement of the Handlová Basin and finds at Pstruháre",
+          "text": "The valley of the Handlovka River was inhabited long before the present town emerged. Stone tools from the Neolithic and copper objects from the Copper Age have been found around Handlová, especially at the Pstruháre site. An archaeological excavation in 1958 uncovered a Lusatian-culture burial ground with sixteen graves; a bronze bowl was also documented at Pstruháre. Other finds point to settlement in the Hallstatt period and to the presence of Slavic communities around the turn of the 5th and 6th centuries. These discoveries document the long history of settlement in the Handlová Basin; they do not constitute a publicly accessible archaeological exhibition."
         }
       ]
     },
@@ -510,6 +648,21 @@
           "id": "fact_010",
           "title": "Túnel de Bralský",
           "text": "El túnel de Bralský, de 3.012 metros, se construyó para la línea ferroviaria a Horná Štubňa, inaugurada en 1931. Fue perforado en 1930 y primero llevó el nombre de T. G. Masaryk; hoy toma el del macizo de Bralo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube: museo de la historia de los alemanes de los Cárpatos en Handlová",
+          "text": "En la casa de encuentro de la Asociación de los Alemanes de los Cárpatos, en la calle Poštová, se encuentra la sala conmemorativa Heimatstube, creada en 2004 en dos estancias de una casa histórica de piedra. La exposición presenta la fundación de Handlová por colonos alemanes, la historia de los alemanes de los Cárpatos, la vida doméstica tradicional, los oficios y la indumentaria, así como la transformación de la localidad agrícola en un centro minero. Es un lugar importante para conservar el patrimonio cultural alemán, que sigue formando parte de la identidad local incluso después del desplazamiento de la mayor parte de la población alemana tras la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_012",
+          "title": "La huelga del hambre de 1918: una tragedia para las familias mineras",
+          "text": "La escasez de alimentos durante la guerra y las raciones insuficientes provocaron una protesta social en Handlová en el verano de 1918. El 22 de julio, las mujeres de las familias mineras bloquearon la entrada de la mina para impedir que entrara el siguiente turno y exigir mejores suministros. La intervención de los gendarmes terminó con disparos y la muerte de cuatro personas —dos mujeres y dos hombres—; otros manifestantes resultaron heridos. Un monumento junto al recinto minero recuerda la huelga del hambre. No fue solo un conflicto laboral, sino una tragedia de familias sometidas a las privaciones de la guerra."
+        },
+        {
+          "id": "fact_013",
+          "title": "Poblamiento prehistórico de la cuenca de Handlová y hallazgos de Pstruháre",
+          "text": "El valle del río Handlovka estuvo habitado mucho antes de la aparición de la ciudad actual. En los alrededores de Handlová se han encontrado herramientas de piedra del Neolítico y objetos de cobre del Calcolítico, especialmente en el yacimiento de Pstruháre. Una excavación arqueológica de 1958 descubrió una necrópolis de la cultura de los campos de urnas de Lusacia con dieciséis tumbas; en Pstruháre también se documentó un cuenco de bronce. Otros hallazgos indican ocupación durante el período de Hallstatt y la presencia de comunidades eslavas en torno al cambio de los siglos V y VI. Estos descubrimientos documentan la larga historia del poblamiento de la cuenca de Handlová; no constituyen una exposición arqueológica de acceso público."
         }
       ]
     },
@@ -565,6 +718,21 @@
           "id": "fact_010",
           "title": "Tunnel de Bralský",
           "text": "Le tunnel de Bralský, long de 3 012 mètres, fut construit pour la ligne ferroviaire vers Horná Štubňa, inaugurée en 1931. Percé en 1930, il porta d’abord le nom de T. G. Masaryk avant de prendre celui du massif de Bralo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube : musée de l’histoire des Allemands des Carpates à Handlová",
+          "text": "La maison de rencontre de l’Association des Allemands des Carpates, rue Poštová, abrite la salle commémorative Heimatstube, créée en 2004 dans deux pièces d’une maison historique en pierre. L’exposition présente la fondation de Handlová par des colons allemands, l’histoire des Allemands des Carpates, la vie domestique traditionnelle, les métiers et les vêtements, ainsi que la transformation du village agricole en centre minier. C’est un lieu important pour préserver le patrimoine culturel allemand, qui reste une composante de l’identité locale même après le déplacement de la majeure partie de la population allemande après la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_012",
+          "title": "La grève de la faim de 1918 : une tragédie pour les familles de mineurs",
+          "text": "Les pénuries alimentaires de guerre et le rationnement insuffisant provoquèrent une protestation sociale à Handlová durant l’été 1918. Le 22 juillet, des femmes de familles de mineurs bloquèrent l’entrée de la mine afin d’empêcher la descente de l’équipe suivante et d’exiger un meilleur approvisionnement. L’intervention des gendarmes se termina par des tirs et la mort de quatre personnes — deux femmes et deux hommes — ; d’autres manifestants furent blessés. Un monument près du site minier commémore cette grève de la faim. Il ne s’agissait pas seulement d’un conflit du travail, mais d’une tragédie de familles prises dans les privations de la guerre."
+        },
+        {
+          "id": "fact_013",
+          "title": "Peuplement préhistorique du bassin de Handlová et découvertes de Pstruháre",
+          "text": "La vallée de la rivière Handlovka était habitée bien avant la naissance de la ville actuelle. Des outils en pierre du Néolithique et des objets en cuivre du Chalcolithique ont été découverts autour de Handlová, notamment sur le site de Pstruháre. Une fouille archéologique menée en 1958 a mis au jour une nécropole de la culture lusacienne comprenant seize tombes ; une coupe en bronze a également été attestée à Pstruháre. D’autres découvertes témoignent d’une occupation à l’époque de Hallstatt et de la présence de populations slaves au tournant des Ve et VIe siècles. Ces vestiges documentent la longue histoire du peuplement du bassin de Handlová ; ils ne constituent pas une exposition archéologique librement accessible."
         }
       ]
     },
@@ -620,6 +788,21 @@
           "id": "fact_010",
           "title": "Tunnel di Bralský",
           "text": "Il tunnel di Bralský, lungo 3.012 metri, fu costruito per la ferrovia verso Horná Štubňa, inaugurata nel 1931. Fu perforato nel 1930 e inizialmente intitolato a T. G. Masaryk; oggi prende il nome dal massiccio di Bralo."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube: museo della storia dei tedeschi dei Carpazi a Handlová",
+          "text": "La casa d’incontro dell’Associazione dei tedeschi dei Carpazi, in via Poštová, ospita la sala commemorativa Heimatstube, allestita nel 2004 in due stanze di una storica casa in pietra. L’esposizione racconta la fondazione di Handlová da parte dei coloni tedeschi, la storia dei tedeschi dei Carpazi, la vita domestica tradizionale, i mestieri e gli abiti, nonché la trasformazione dell’insediamento agricolo in centro minerario. È un luogo importante per conservare il patrimonio culturale tedesco, che resta parte dell’identità locale anche dopo l’espulsione del dopoguerra della maggior parte della popolazione tedesca."
+        },
+        {
+          "id": "fact_012",
+          "title": "Lo sciopero della fame del 1918: una tragedia per le famiglie dei minatori",
+          "text": "La carenza di viveri durante la guerra e le razioni insufficienti provocarono una protesta sociale a Handlová nell’estate del 1918. Il 22 luglio le donne delle famiglie dei minatori bloccarono l’ingresso della miniera per impedire la discesa del turno successivo e chiedere un migliore approvvigionamento. L’intervento dei gendarmi si concluse con colpi d’arma da fuoco e la morte di quattro persone — due donne e due uomini —; altri manifestanti rimasero feriti. Un monumento vicino al complesso minerario ricorda lo sciopero della fame. Non fu soltanto una vertenza di lavoro, ma una tragedia di famiglie colpite dalle privazioni della guerra."
+        },
+        {
+          "id": "fact_013",
+          "title": "Insediamento preistorico del bacino di Handlová e reperti di Pstruháre",
+          "text": "La valle del fiume Handlovka era abitata molto prima della nascita della città attuale. Nei dintorni di Handlová sono stati rinvenuti strumenti in pietra del Neolitico e oggetti in rame dell’Eneolitico, soprattutto nel sito di Pstruháre. Una ricerca archeologica del 1958 portò alla luce una necropoli della cultura lusaziana con sedici tombe; a Pstruháre è stata inoltre documentata una ciotola di bronzo. Altri reperti indicano un insediamento nell’età del Ferro hallstattiana e la presenza di comunità slave tra la fine del V e l’inizio del VI secolo. Questi ritrovamenti documentano la lunga storia dell’insediamento nel bacino di Handlová; non costituiscono un’esposizione archeologica liberamente visitabile."
         }
       ]
     },
@@ -675,6 +858,21 @@
           "id": "fact_010",
           "title": "Bralský-tunnel",
           "text": "De 3.012 meter lange Bralský-tunnel werd gebouwd voor de spoorlijn naar Horná Štubňa, die in 1931 openging. De doorbraak vond plaats in 1930. Eerst genoemd naar T. G. Masaryk, draagt hij nu de naam van het Bralo-massief."
+        },
+        {
+          "id": "fact_011",
+          "title": "Heimatstube – museum over de geschiedenis van de Karpatische Duitsers in Handlová",
+          "text": "In het ontmoetingshuis van de Vereniging van Karpatische Duitsers aan de Poštovástraat bevindt zich de herdenkingsruimte Heimatstube, die in 2004 werd ingericht in twee kamers van een historisch stenen huis. De tentoonstelling vertelt over de stichting van Handlová door Duitse kolonisten, de geschiedenis van de Karpatische Duitsers, het traditionele huishouden, ambachten en kleding, en de verandering van agrarische nederzetting in mijnbouwcentrum. Het is een belangrijke plek voor het behoud van het Duitse culturele erfgoed, dat ook na de naoorlogse verdrijving van het grootste deel van de Duitse bevolking deel blijft uitmaken van de lokale identiteit."
+        },
+        {
+          "id": "fact_012",
+          "title": "De hongerstaking van 1918 – een tragedie voor mijnwerkersgezinnen",
+          "text": "Oorlogsgerelateerde voedseltekorten en ontoereikende rantsoenen leidden in de zomer van 1918 tot sociaal protest in Handlová. Op 22 juli blokkeerden vrouwen uit mijnwerkersgezinnen de ingang van de mijn om te verhinderen dat de volgende ploeg afdaalde en om betere voedselvoorziening af te dwingen. Het optreden van de gendarmes eindigde met geweervuur en de dood van vier mensen – twee vrouwen en twee mannen; andere demonstranten raakten gewond. Een monument bij het mijncomplex herdenkt de hongerstaking. Het was niet alleen een arbeidsconflict, maar een tragedie van gezinnen die door oorlogsschaarste werden getroffen."
+        },
+        {
+          "id": "fact_013",
+          "title": "Prehistorische bewoning van het Handlová-bekken en vondsten in Pstruháre",
+          "text": "Het dal van de rivier Handlovka was al bewoond lang voordat de huidige stad ontstond. Rond Handlová zijn stenen werktuigen uit het neolithicum en koperen voorwerpen uit het chalcolithicum gevonden, vooral op de vindplaats Pstruháre. Een archeologische opgraving in 1958 bracht een begraafplaats van de Lausitzcultuur met zestien graven aan het licht; in Pstruháre werd ook een bronzen schaal vastgesteld. Andere vondsten wijzen op bewoning in de Hallstattperiode en op de aanwezigheid van Slavische gemeenschappen rond de overgang van de vijfde naar de zesde eeuw. Deze vondsten documenteren de lange bewoningsgeschiedenis van het Handlová-bekken; ze vormen geen vrij toegankelijke archeologische tentoonstelling."
         }
       ]
     }
