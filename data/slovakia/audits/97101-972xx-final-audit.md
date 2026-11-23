@@ -129,4 +129,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-All fact locations in the 32-record scope now have a non-null, evidence-backed point or a justified public orientation point. Complete the geographic verification for 97211, 97212, 97215 and 97216, then reassess the full block for publication eligibility. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+All fact locations in the 32-record scope now have a non-null, evidence-backed point or a justified public orientation point. Complete the geographic verification for 97211, 97212, 97215 and 97216, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
