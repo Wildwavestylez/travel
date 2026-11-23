@@ -13,17 +13,22 @@ Before processing any Austrian PLZ:
 4. Read the approved Austrian inventory/sequence and any existing record or progress ledger.
 5. Confirm the exact PLZ scope assigned by the user.
 
-## Geographic unit
+## Geographic unit and eligibility gate
 
-One complete four-digit Austrian PLZ is one content unit. Preserve it as a string. Do not split it into smaller records for individual addresses, buildings, streets or letter-level details. Research the full defensible area associated with the selected PLZ. If the code relates to multiple settlements, include the relevant discoveries across that geographic scope without creating separate micro-records.
+One complete four-digit Austrian PLZ is one content unit. Preserve it as a string. Do not split it into smaller records for individual addresses, buildings, streets or letter-level details.
 
-Do not infer a boundary from the code digits, a postal-office address or an online directory label. Verify the postal identity and geographic context using the Austrian source hierarchy.
+**Process only geographic PLZ with a demonstrable geographic delivery territory.** Exclude PO-box/Postfach-only codes, company- or institution-specific codes without their own territory, post-office/branch codes, sorting/distribution-centre codes and other purely operational/non-geographic codes. A business using an ordinary geographic PLZ does not make that PLZ a company-specific code.
+
+Before any content research, verify the code against official Austrian postal information and establish its geographic relationship using competent official geographic/administrative sources. If the geographic status or extent is unclear, stop and report the unresolved case; do not create a record or guess. Do not infer a boundary from the code digits, a postal-office address or an online directory label. A PLZ need not have a polygon: document only supported address-point, locality or municipality relationships.
+
+Research the full defensible area associated with the selected PLZ. If the code relates to multiple settlements, include the relevant discoveries across that geographic scope without creating separate micro-records.
 
 ## Research workflow
 
-1. Confirm the exact four-digit code and its inclusion in the approved inventory.
-2. Establish the postal/geographic nature of the code and identify any special-purpose ambiguity.
-3. Identify the associated municipality/municipalities and relevant localities using authoritative evidence.
+1. Confirm the exact four-digit code and its inclusion in the approved geographic-only inventory.
+2. Apply the eligibility gate: confirm from official online postal sources that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or other operational/non-geographic code.
+3. Establish the actual geographic scope using official geographic/address and administrative sources. Do not assume a polygon exists.
+4. Identify the associated municipality/municipalities and relevant localities using authoritative evidence.
 4. Establish the Bundesland and applicable political Bezirk/statutory-city context.
 5. Select a defensible representative place and coordinates for the entire PLZ content unit.
 6. Conduct broad German-language discovery across the full geographic scope, using the thematic checklist in the Content Standard.
@@ -36,8 +41,16 @@ Do not infer a boundary from the code digits, a postal-office address or an onli
 13. Validate the entire JSON against the approved schema and all Content Standard requirements.
 14. Save only through the approved canonical storage workflow once that workflow is documented.
 
+## Source access policy
+
+- Work online-first using official public registers, search interfaces and institutional sources.
+- Do not build a bulk-download workflow or maintain local copies of national datasets by default.
+- Use an official downloadable dataset only when a necessary fact or relationship cannot be reliably verified online, or a reproducible comparison genuinely requires it; document the publisher, dataset/version and access date.
+
 ## Non-negotiable rules
 
+- Process geographic PLZ only; exclude PO-box-only, company/institution-only without territory, branch, sorting/distribution-centre and other purely operational/non-geographic codes.
+- If geographic eligibility or territorial scope cannot be established, stop and report the uncertainty instead of guessing.
 - Do not invent facts, source URLs, administrative relationships, postcode boundaries or coordinates.
 - Do not split four-digit PLZ into address-level production records.
 - Do not treat an address/contact postcode as proof of a site's physical PLZ.
