@@ -1,8 +1,10 @@
-# TRAVEL — AUSTRIA PLZ RESEARCH / REWORK PROMPT (working baseline)
+# TRAVEL — AUSTRIA PLZ RESEARCH / REWORK PROMPT
 
-## Status
+## Status and authority
 
-Working operational draft only. Do not use for production until `schema.json`, `COUNTRY_PROFILE.md` and `CONTENT_STANDARD.md` have been reviewed and approved together, and the canonical storage workflow is settled.
+**Status: Complete and approved operational instruction.** This prompt is part of the established Austrian TRAVEL workflow and is used together with `schema.json`, `COUNTRY_PROFILE.md` and `CONTENT_STANDARD.md`. The shared TRAVEL record structure and Austrian four-digit PLZ format are settled. The geographic-only PLZ inventory and work order are maintained in `sequence.json`.
+
+**Established data workflow:** prepare the inventory and JSON working files on GitHub; perform the full rework and then the separate final audit against the GitHub working records; after successful audit prepare the V5 version and mark the approved records `published` on GitHub; only then copy the published GitHub records to Neon. GitHub is the authoritative working and publication source for this process; Neon receives the published copy and is not an alternative editing source.
 
 ## Required inputs
 
@@ -29,7 +31,7 @@ Research the full defensible area associated with the selected PLZ. If the code 
 2. Apply the eligibility gate: confirm from official online postal sources that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or other operational/non-geographic code.
 3. Establish the actual geographic scope using official geographic/address and administrative sources. Do not assume a polygon exists.
 4. Identify the associated municipality/municipalities and relevant localities using authoritative evidence.
-4. Establish the Bundesland and applicable political Bezirk/statutory-city context.
+5. Establish the Bundesland and applicable political Bezirk/statutory-city context.
 5. Select a defensible representative place and coordinates for the entire PLZ content unit.
 6. Conduct broad German-language discovery across the full geographic scope, using the thematic checklist in the Content Standard.
 7. Identify major and less obvious locally significant places, stories, people, heritage, nature, science, industry and visitor experiences.
@@ -39,7 +41,8 @@ Research the full defensible area associated with the selected PLZ. If the code 
 11. Write concise but substantive Czech source-language facts and complete all seven required translations.
 12. Build the complete JSON using only approved schema fields and controlled values.
 13. Validate the entire JSON against the approved schema and all Content Standard requirements.
-14. Save only through the approved canonical storage workflow once that workflow is documented.
+14. Save the prepared/reworked JSON working record to the appropriate GitHub working location, preserving the agreed file naming, sequence and version conventions. Do not copy it to Neon during rework.
+15. The rework stage does not itself mark a record `published`. Publication follows only after the separate final audit and V5 preparation.
 
 ## Austrian authority routing — mandatory
 
@@ -75,7 +78,7 @@ If the official sources disagree, record both values and their reference dates a
 - Do not treat an address/contact postcode as proof of a site's physical PLZ.
 - Do not use one fact's location as another fact's location.
 - Do not copy the representative point into fact locations.
-- Do not create production data or change lifecycle states while the storage/publication decision is unresolved.
+- Do not copy working or unaudited records to Neon. Do not mark a record `published` during rework; the `published` state is reserved for records that have passed the final audit and V5 preparation.
 - If a material source or geographic conflict cannot be resolved, report it rather than guessing.
 
 ## Shared technical record contract — mandatory
