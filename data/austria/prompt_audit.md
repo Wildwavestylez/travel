@@ -1,10 +1,14 @@
 # TRAVEL — AUSTRIA PLZ FINAL AUDIT PROMPT
 
-## Status and separation
+## Authority, completeness and separation
 
-**Status: Complete and approved operational instruction.** This prompt defines the separate final audit stage in the established Austrian TRAVEL workflow. It is used together with `schema.json`, `COUNTRY_PROFILE.md`, `CONTENT_STANDARD.md` and `prompt_rework.md`.
+This is the complete, approved Austrian final-audit instruction. It defines the final audit requirements and is used together with `schema.json`, `COUNTRY_PROFILE.md`, `CONTENT_STANDARD.md` and `prompt_rework.md`.
 
-**Established data workflow:** prepare inventory and JSON working files on GitHub; complete rework on GitHub; perform this separate final audit on the GitHub working records; after a successful audit prepare V5 and mark the approved records `published` on GitHub; only then copy the published GitHub records to Neon. GitHub remains the authoritative working and publication source; Neon receives the published copy.
+**Final-state rule:** project specifications, schemas and content standards describe the complete production system and apply immediately. They must not contain preparation-only requirements, provisional states, future placeholders or language that postpones a defined requirement. If a specification is incomplete or contradictory, correct it against the final shared standard before continuing the affected work. Do not use a missing optional progress ledger or other administrative convenience as a reason to stop a valid audit.
+
+**Data lifecycle:** records are fully reworked on GitHub, separately audited, prepared as V5, approved and then marked `published` on GitHub. Only published GitHub records are copied to Neon. GitHub is the authoritative working and publication source; Neon receives the published copy. These record lifecycle gates do not make the project instructions or schema provisional.
+
+This prompt defines only the separate final audit. Its narrower scope and audit simplifications must never be transferred to full research, creation or rework requirements in `CONTENT_STANDARD.md` and `prompt_rework.md`.
 
 This prompt defines a separate final audit. Its scope and any audit simplifications must never be transferred to full research, creation or rework requirements in `CONTENT_STANDARD.md` and `prompt_rework.md`.
 
@@ -16,7 +20,7 @@ Before an audit, load:
 - `data/austria/CONTENT_STANDARD.md`
 - `data/austria/prompt_rework.md`
 - the approved sequence and exact requested PLZ records;
-- the canonical audit ledger, if established.
+- any existing audit evidence or issue log relevant to the requested records, if available. An optional ledger is not a prerequisite for performing the audit.
 
 ## Audit controls
 
