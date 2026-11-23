@@ -33,6 +33,22 @@ For every requested PLZ:
 
 For the entire requested area, check whether major nationally, regionally or internationally significant attractions, heritage, historical events, people or natural features are missing. This is a targeted audit check, not a reason to reduce the full research required during rework.
 
+## Austrian authority routing — mandatory
+
+Use the source catalogue in `data/austria/COUNTRY_PROFILE.md`, section "Official authorities and source hierarchy". During audit, verify each claim with the institution competent for that claim:
+- PLZ existence/purpose: Austrian Post Postlexikon and legend; RTR current Open Data as statutory inventory cross-check.
+- Address/coordinate and address-to-PLZ relationship: BEV Adressregister; no inferred PLZ polygon.
+- Administrative metadata: Statistik Austria current regional divisions and Gemeindeverzeichnis; metadata only, never content boundaries.
+- Local map context: basemap.at, BEV and official provincial/municipal GIS.
+- Monument protection: Bundesdenkmalamt and applicable legal instrument; the published Denkmalliste alone is not legally binding.
+- UNESCO: Austrian UNESCO Commission and UNESCO World Heritage Centre.
+- Nature: Umweltbundesamt overview plus competent provincial authority/area administration.
+- Geology: GeoSphere Austria.
+- Historical claims: Österreichisches Staatsarchiv, Landes-/Stadt-/Gemeindearchive, ÖNB ANNO, museums and specialist literature.
+- Current visitor access/operation: official operator or institution.
+
+Check source competence, exact URL, publication/reference date and checked date. Treat conflicting sources as an audit issue until reconciled. A postal destination is not a municipality; a directory listing is not proof of geographic eligibility; a BEV address point is not proof of a PLZ boundary.
+
 ## Source access policy
 
 Use official public online registers, search interfaces and institutional pages as the default. Do not require bulk downloads or local copies. If an official downloadable dataset is essential to resolve a discrepancy, record its publisher, version/publication date and access date.
