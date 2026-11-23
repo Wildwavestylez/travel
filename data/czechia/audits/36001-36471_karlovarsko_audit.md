@@ -251,3 +251,30 @@ V těchto pěti nově uzavřených průchodech nebyla nalezena významová chyba
 **Aktuální souhrn úplných jazykových průchodů: 20 z 27 PSČ.** Kompletně uzavřené: 36001, 36004, 36005, 36006, 36007, 36010, 36017, 36018, 36221, 36222, 36225, 36233, 36234, 36235, 36272, 36273, 36301, 36401, 36453, 36464. Zbývá sedm úplných průchodů: **36236, 36251, 36262, 36263, 36452, 36461 a 36471**.
 
 Celkový audit zůstává **REVIEW REQUIRED**, dokud nebude dokončena sémantická kontrola těchto sedmi PSČ. Změny se týkaly pouze překladových textů uvedených v předchozím checkpointu; nedošlo ke změně master faktů, ID, souřadnic, zdrojů, verze dat ani statusů.
+
+
+### Uzavření úplné sémantické revize překladů — 23. 11. 2026
+
+**Jazyková kontrola E je dokončena pro celý blok: 27/27 PSČ, 299/299 faktů.** Každý český master byl sémanticky porovnán se šesti překlady (`de, en, es, fr, it, nl`); zohledněny byly význam, osoby a místní jména, časové údaje, číselné údaje, historická omezení, přístupnost a podstatné souvislosti. Překlady nebyly přepisovány kvůli stylu, pokud byly významově správné.
+
+**Nově dokončené poslední průchody:**
+- 36236 — 10 faktů.
+- 36251 — 23 faktů.
+- 36262 — 13 faktů.
+- 36263 — 9 faktů.
+- 36452 — 19 faktů.
+- 36461 — 12 faktů.
+- 36471 — 11 faktů.
+
+**Potvrzené opravy v závěrečné etapě:**
+- 36236 / `fact_002`: sjednoceno pojmenování vodního díla jako Blatenský příkop; odstraněny volné či nepřesné překlady vlastního názvu.
+- 36251 / `fact_007`, italština: odstraněno nechtěné zdvojení výrazu „libri catenati“.
+- 36263 / `fact_002`: ve všech šesti cizojazyčných verzích doplněno, že historická budova dnes slouží jako škola.
+
+Dříve zaznamenané opravy v 36005, 36006 a 36263 zůstávají v platnosti. Po každé závěrečné opravě byl příslušný překlad načten zpět a ověřen.
+
+**Závěrečný strukturální read-back přes přesný inventář 27 PSČ:** všech 299 master faktů má odpovídající položku v každém z jazyků DE/EN/ES/FR/IT/NL. Počty položek v každém jazyce přesně souhlasí s počtem českých master faktů u každého PSČ; kontrola `missing_translation_ids` vrátila **0 pro všech 27 PSČ**. Celkem 2 093 překladových položek (299 × 7 jazyků včetně češtiny); žádný nesoulad ID ani chybějící cizojazyčná položka.
+
+**Výsledek kontrolní oblasti E — PASS.** Kompletní sémantická revize všech původních cizojazyčných překladů je uzavřena; žádný jazykový nález nezůstává otevřený.
+
+**Výsledek celého auditu zůstává REVIEW REQUIRED do samostatného potvrzení ostatních kontrolních oblastí podle `prompt_audit.md` V2.1.** Tato jazyková etapa sama o sobě nemění status záznamů, `data_version`, schéma, inventář, `sequence.json`, skupiny, mapové polohy ani zdroje. Záměrně prázdná poloha 36273/`fact_004` (pískovna u Vojkovic) zůstává podle pravidel auditu bez odhadu. Nic nebylo publikováno, zálohováno, importováno do Neon ani zamčeno.
