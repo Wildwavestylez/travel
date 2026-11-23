@@ -5,8 +5,8 @@
 - **Datum auditu:** 2026-11-23
 - **Použitá pravidla:** `data/czechia/prompt_audit.md` V2.1
 - **Aktuální výsledek:** **PASS — AUDIT V2.1 COMPLETE**
-- **Publikace:** neprovedena
-- **Změna verze:** neprovedena; záznamy zůstávají `data_version=1`, `status=validated`
+- **Publikace:** dokončena; 27/27 záznamů `data_version=5`, `status=published` potvrzeno read-backem
+- **Změna verze:** dokončena; 27/27 záznamů `data_version=5`, `status=published`
 - **Záloha / Neon import / read-only lock:** neprovedeny
 
 ## 1. Přesný inventář
@@ -313,3 +313,8 @@ Po dokončení jazykové oblasti E byly samostatně uzavřeny zbývající kontr
 - Záznamy zůstávají data_version=1, status=validated.
 
 **Publikace V5, změna statusu, záloha, Neon import a read-only lock nebyly provedeny.** Podle promptu se provádějí pouze na samostatné výslovné vyzvání uživatele.
+
+
+### Publikace V5 — 23. 11. 2026
+
+Na výslovný pokyn uživatele byly přesný auditovaný inventář 27 českých PSČ převeden na `data_version=5` a `status=published`. Supabase read-back potvrdil všech 27 očekávaných kódů, bez chybějících nebo nadbytečných řádků a bez výjimek. Záznamy mimo přesný rozsah ani jiné země nebyly dotčeny. Dropbox záloha zatím nebyla spuštěna: v projektu není existující dedikovaná zálohovací funkce pro tento rozsah; obecná `travel-backup-validated` vytváří cílené JSON exporty a manifest, ale negeneruje požadovaný restore SQL, takže by nesplnila úplný standard zálohy.
