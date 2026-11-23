@@ -317,4 +317,19 @@ Po dokončení jazykové oblasti E byly samostatně uzavřeny zbývající kontr
 
 ### Publikace V5 — 23. 11. 2026
 
-Na výslovný pokyn uživatele byly přesný auditovaný inventář 27 českých PSČ převeden na `data_version=5` a `status=published`. Supabase read-back potvrdil všech 27 očekávaných kódů, bez chybějících nebo nadbytečných řádků a bez výjimek. Záznamy mimo přesný rozsah ani jiné země nebyly dotčeny. Dropbox záloha zatím nebyla spuštěna: v projektu není existující dedikovaná zálohovací funkce pro tento rozsah; obecná `travel-backup-validated` vytváří cílené JSON exporty a manifest, ale negeneruje požadovaný restore SQL, takže by nesplnila úplný standard zálohy.
+Na výslovný pokyn uživatele byly přesný auditovaný inventář 27 českých PSČ převeden na `data_version=5` a `status=published`. Supabase read-back potvrdil všech 27 očekávaných kódů, bez chybějících nebo nadbytečných řádků a bez výjimek. Záznamy mimo přesný rozsah ani jiné země nebyly dotčeny.
+
+### Cílená záloha — 23. 11. 2026
+
+**BACKUP VERIFIED — PASS.** Byla nasazena a spuštěna dedikovaná Edge Function `travel-backup-cz-36001-36471-karlovarsko-audited` pro přesný inventář 27 PSČ (nikoli souvislý číselný interval). Záloha byla vytvořena v aplikačním Dropboxu:
+
+`/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_KARLOVARSKO_36001-36471_2026-11-23T15-57-51-115Z/`
+
+Obsah složky:
+- `CZ_AUDIT_36001-36471_backup.json`
+- `CZ_AUDIT_36001-36471_restore.sql`
+- `manifest.json`
+
+Manifest read-back potvrzuje přesně 27/27 očekávaných PSČ, region Karlovarský kraj, `content_version=5`, `validation.status=VERIFIED`, `validation.readback_verified=true`, `verified_record_count=27` a shodný kanonický SHA-256 rozsahu `bbe8d1a5efb43784a4c58a9467820ad15e1253d6bc39df7710fb55bc3ce73b63`. SHA-256 exportního JSON je `61f40150acc31d3721ba5f50c9340b82b44807009db90a5c6e3fd0d37972a45d`. Funkce před potvrzením úspěchu stáhla zpět každý ze tří nahraných souborů a ověřila jeho SHA-256; všechny tři kontroly prošly. Dropbox read-back následně potvrdil existenci všech tří souborů.
+
+**Konečný stav rozsahu: PASS / PUBLISHED V5 / BACKUP VERIFIED.** Read-only zámek nebyl aktivován; žádný jiný rozsah nebyl změněn.
