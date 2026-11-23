@@ -22,14 +22,14 @@ For every requested PLZ:
 1. Confirm the exact four-digit string and approved geographic-only inventory membership.
 2. Re-check that official postal evidence supports geographic eligibility and that the code is not PO-box-only, company/institution-only without territory, a branch, sorting/distribution-centre or another operational/non-geographic code.
 3. Verify the geographic extent only to the level supported by official evidence; do not assume or invent a polygon.
-3. Check the defensible geographic scope and associated municipality/locality relationships.
-4. Verify Bundesland and political Bezirk/statutory-city context using official administrative sources.
-5. Check representative place and coordinates.
-6. Review fact locations for physical accuracy and connection to the PLZ content area.
-7. Check source support for material factual claims.
-8. Check all seven translations for completeness, factual fidelity and natural language.
-9. Check duplicate or misplaced facts across the requested audit scope.
-10. Validate the complete JSON against the approved schema.
+4. Check the defensible geographic scope and associated municipality/locality relationships.
+5. Verify Bundesland and political Bezirk/statutory-city context using official administrative sources.
+6. Check representative place and coordinates.
+7. Review fact locations for physical accuracy and connection to the PLZ content area.
+8. Check source support for material factual claims.
+9. Check all seven translations for completeness, factual fidelity and natural language.
+10. Check duplicate or misplaced facts across the requested audit scope.
+11. Validate the complete JSON against the approved schema.
 
 For the entire requested area, check whether major nationally, regionally or internationally significant attractions, heritage, historical events, people or natural features are missing. This is a targeted audit check, not a reason to reduce the full research required during rework.
 
