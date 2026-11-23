@@ -64,6 +64,7 @@ There are now 9 facts with `location: null` in 8 records. Fifty-one fact locatio
 | 97241 | fact_001, fact_004 |
 | 97242 | fact_002 |
 | 97243 | fact_006 |
+| 97246 | fact_004 |
 | 97248 | fact_005 |
 | 97251 | fact_013 |
 
