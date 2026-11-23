@@ -173,18 +173,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ; geografické přiřazení 972 12 dále doloženo oficiální adresou obecní školy a sídla farnosti v Nedožerech-Brezanech. Statická stránka Slovenské pošty neposkytla čitelný individuální výsledek dotazu, proto se netvrdí přesná hranice doručovacího obvodu.",
-    "geographic_test_data": false,
+    "plz_source": "Slovenská pošta – oficiální vyhledávač PSČ byl konzultován; jeho interaktivní výsledek nebylo možné v tomto auditu exportovat. Oficiální Komunitný plán obce Nedožery-Brezany 2023–2027, s údajem převzatým od ŠÚ SR, výslovně uvádí PSČ 972 12 a okres Prievidza / Trenčiansky kraj. Oficiální obecní adresa používá 972 12 Nedožery-Brezany; rozsah Nedožery a Brezany pod tímto PSČ potvrzuje také seznam PSČ Slovenska od Parcelforce (duben 2020). Přesný doručovací polygon se netvrdí. Zdroje: https://www.posta.sk/psc ; https://www.stara.nedozery-brezany.sk/tlaciva/plan_komunitnych_socialnych_sluzieb_NB.pdf ; https://www.nedozery-brezany.sk/contact.html ; https://www.parcelforce.com/sites/default/files/SK%20Postcodes%20Apr20%20v1%20200420.pdf",
+    "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
     "postcode_source_dataset": null,
     "postcode_source_release": null,
-    "postcode_source_checked_at": "2026-11-22",
+    "postcode_source_checked_at": "2026-11-24",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "Ústredný portál verejnej správy pro správní zařazení a geografický popis; GeoNames pro orientační bod sídla. Oficiální adresní bod RAGEO nebyl v této kontrole získán."
+    "geographic_authority": "Oficiální Komunitný plán obce Nedožery-Brezany 2023–2027 (údaje ŠÚ SR) potvrzuje PSČ 972 12, okres Prievidza a Trenčiansky kraj; oficiální obecní geografické údaje potvrzují reprezentativní sídlo. Seznam Parcelforce dokládá přiřazení Nedožier a Brezian k 972 12. Přesný polygon doručovací oblasti nebyl ověřován."
   },
   "sources": [
     {
