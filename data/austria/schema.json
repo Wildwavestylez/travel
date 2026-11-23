@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "TRAVEL Austria postcode stop",
-  "description": "Canonical TRAVEL Austria postcode record. The technical JSON structure, field names, data types, required fields, controlled values and seven-language layout match the shared Czechia TRAVEL schema. Only the Austrian four-digit postcode constraint and country-specific meanings/source descriptions differ. See data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md.",
+  "description": "Canonical TRAVEL Austria postcode record. The technical JSON structure, field names, data types, required content fields, controlled values and seven-language layout match the shared Czechia TRAVEL schema. Austrian records additionally use the same three-state production lifecycle as Slovakia (placeholder, validated, published) and optional data_version. Only the Austrian four-digit postcode constraint and country-specific meanings/source descriptions differ. See data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -238,6 +238,23 @@
         null
       ],
       "description": "Nepovinné upřesnění druhu district v rakouském administrativním a sídelním kontextu: municipal_part = oficiální část obce; municipal_district = městský obvod/Gemeindebezirk; city_quarter = městská čtvrť nebo Stadtteil; settlement = sídlo či Ortsteil uvnitř obce; locality = jiná doložená místní lokalita. U Vídně nezaměňuj Gemeindebezirk s politickým Bezirk."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "placeholder",
+        "validated",
+        "published"
+      ],
+      "description": "Production lifecycle state. placeholder = intentionally empty geographic Austrian PLZ record containing only postcode and status (plus optional data_version); validated = complete reworked content waiting for the separate final audit; published = successfully audited, V5-prepared and approved record eligible for map display. The map and production consumers must load published records only."
+    },
+    "data_version": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "Optional manually controlled record data version. Preserve the existing value exactly during rework and audit. Change it only after the complete requested audit scope has passed and only on the user's explicit instruction. This is independent of status."
     }
   },
   "$defs": {
@@ -620,5 +637,107 @@
       "description": "Geografická poloha konkrétního faktu podle rakouského CONTENT_STANDARD.md a sdílených pravidel TRAVEL. Uveď location, pokud lze určit přesnou, přibližnou, reprezentativní nebo orientační polohu; null ponech pouze tehdy, když nelze odpovědně určit žádný smysluplný bod. Nikdy automaticky nekopíruj representative_point ani access_point."
     }
   },
-  "$comment": "AUSTRIA CONTENT STANDARD: Austria uses the shared TRAVEL technical record structure, field names, data types, controlled values, fact/map categories, location-type identifiers and seven-language structure. Only the Austrian four-digit PLZ pattern and country-specific postal, geographic, administrative and source meanings differ. Do not change the shared structure ad hoc. Austrian geographic-only inventory and online-first source rules are defined in data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md."
+  "$comment": "AUSTRIA CONTENT STANDARD: Austria uses the shared TRAVEL technical record structure, field names, data types, controlled values, fact/map categories, location-type identifiers and seven-language structure. Only the Austrian four-digit PLZ pattern and country-specific postal, geographic, administrative and source meanings differ. Do not change the shared structure ad hoc. Austrian geographic-only inventory and online-first source rules are defined in data/austria/COUNTRY_PROFILE.md and CONTENT_STANDARD.md.",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "placeholder"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "city"
+              ]
+            },
+            {
+              "required": [
+                "district"
+              ]
+            },
+            {
+              "required": [
+                "county"
+              ]
+            },
+            {
+              "required": [
+                "state"
+              ]
+            },
+            {
+              "required": [
+                "representative_place"
+              ]
+            },
+            {
+              "required": [
+                "representative_point"
+              ]
+            },
+            {
+              "required": [
+                "access_point"
+              ]
+            },
+            {
+              "required": [
+                "facts"
+              ]
+            },
+            {
+              "required": [
+                "photo"
+              ]
+            },
+            {
+              "required": [
+                "verification"
+              ]
+            },
+            {
+              "required": [
+                "sources"
+              ]
+            },
+            {
+              "required": [
+                "translations"
+              ]
+            },
+            {
+              "required": [
+                "district_type"
+              ]
+            }
+          ]
+        }
+      },
+      "else": {
+        "required": [
+          "postcode",
+          "city",
+          "district",
+          "county",
+          "state",
+          "representative_place",
+          "representative_point",
+          "access_point",
+          "facts",
+          "photo",
+          "verification",
+          "sources",
+          "translations"
+        ]
+      }
+    }
+  ]
 }
