@@ -1,4 +1,593 @@
 {
   "postcode": "97663",
-  "status": "placeholder"
+  "city": "Predajná",
+  "district": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Námestie Juraja Pejku – historické centrum Predajné",
+  "representative_point": {
+    "lat": 48.81455,
+    "lon": 19.46297
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Predajná – středověká obec a někdejší obchodní centrum Horehroní",
+      "text": "První písemná zmínka o Predajné pochází z roku 1284, kdy se v listině uherského krále Bély IV. objevuje podoba Villa Predynich. Ve 14. století obec patřila k Ľupčianskému panství. V 16. století zde vznikl panský majer a sídlo správce panství, což posílilo její postavení v okolí. Roku 1673 zřídili prievidzští piaristé v Predajné školu, která patřila k nejstarším na Horehroní a její školský obvod zahrnoval několik okolních obcí. Obec měla také pivovar, jehož pivo se vozilo do sousedních sídel. Dvakrát ročně se zde konaly jarmarky spojené s trhy na dobytek; poslední se uskutečnil roku 1947. Predajná tak nebyla jen zemědělskou vsí, ale také menším správním, vzdělávacím a obchodním centrem horního Pohroní.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.obecpredajna.sk/historia/",
+        "https://www.obecpredajna.sk/kultura-a-zpoz/",
+        "https://www.obecpredajna.sk/wp-content/uploads/2023/11/Komunitny-plan-SS-Predajna-2023-2030.pdf"
+      ],
+      "location": {
+        "name": "Námestie Juraja Pejku – orientační bod historického centra Predajné",
+        "lat": 48.81455,
+        "lon": 19.46297,
+        "type": "historic_square",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/9161-predajna/n%C3%A1mestie%20Juraja%20Pejku/",
+        "address": null
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Hrádok – archeologická paměť a poutní kalvárie",
+      "text": "Severně od Predajné se zvedá kopec Hrádok, který spojuje archeologickou minulost s poutní tradicí. Obecní historické materiály zmiňují jeskyni s pravěkým osídlením a nálezy římských mincí; odborná archeologická literatura potvrzuje, že na Hrádku byly objeveny pozdně římské mince císaře Konstantina, pravděpodobně ještě před rokem 1864. Z těchto nálezů nelze bez dalších důkazů vyvozovat přesnou podobu ani funkci případné římské stavby. Na vrchu nechal místní farář Karol Vzáry roku 1861 vybudovat kalvárii s kostelíkem a čtyřmi kaplemi, které byly vysvěceny roku 1873. Na poutě 15. srpna a 12. září sem přicházeli lidé z okolních obcí. Z původního areálu se zachovaly lipové aleje a jeskyně Panny Lurdské. Nový kalvárský kostelík a křížová cesta byly vybudovány v roce 1993.",
+      "category": "archaeological_site",
+      "priority": "A",
+      "sources": [
+        "https://www.obecpredajna.sk/historia/",
+        "https://www.obecpredajna.sk/wp-content/uploads/2023/06/PHSR_Predajna_2007_2013.pdf",
+        "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_1979_1.pdf"
+      ],
+      "location": {
+        "name": "Kalvária na kopci Hrádok – orientační bod širší archeologické lokality",
+        "lat": 48.82295205,
+        "lon": 19.4604126,
+        "type": "pilgrimage_site",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w73450401",
+        "address": null
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel Zjevení Páně – pozdně gotická stavba s renesanční křtitelnicí",
+      "text": "Dominantou historického jádra Predajné je římskokatolický kostel Zjevení Páně, označovaný také jako kostel Tří králů. Odborný přehled památek klade jeho původ do pozdní gotiky na konec 15. století; obecní materiály uvádějí stavební etapu z let 1605–1612. Tyto údaje mohou popisovat různé fáze vývoje, proto z nich nelze vyvozovat jediné přesné datum založení. Presbytář a sakristie dostaly klenby ve druhé polovině 17. století a loď byla zaklenuta roku 1754. Dochovaly se původní lomené gotické portály. Hlavní oltář s námětem Klanění Tří králů pochází z druhé poloviny 18. století a do stěny triumfálního oblouku je zasazena renesanční kamenná křtitelnice ze 16. století. Kostel uchovává několik vrstev sakrálního umění od pozdní gotiky po baroko.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/predajna-kostol-troch-kralov",
+        "https://www.obecpredajna.sk/adresar/rimsko-katolicky-kostol-zjavenia-pana-predajna/",
+        "https://www.obecpredajna.sk/historia/"
+      ],
+      "location": {
+        "name": "Kostel Zjevení Páně (Tří králů), Predajná",
+        "lat": 48.814562,
+        "lon": 19.464321,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/predajna-kostol-troch-kralov",
+        "address": null
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Vodní mlýn v Predajné – zachované zařízení národní kulturní památky",
+      "text": "V ulici Bečov stojí vodní mlýn s náhonem, který je národní kulturní památkou a významnou technickou památkou obce. Jeho stavební počátky sahají do 18. století; dnešní pozdně barokní objekt byl později doplněn přístavbou z 19. století a původně tvořil součást většího hospodářského areálu s domem mlynáře a dalšími budovami. Mlýn je cenný především dochovanou technologií. Její části zůstaly na původním místě i poté, co byl náhon zasypán a pohon upraven na elektřinu. Podle obecního popisu zachycuje katastrální mapa z roku 1860 u mlýna dvě vodní kola. Zachované zařízení pochází pravděpodobně z počátku 20. století, kdy provoz modernizoval Július Čipka. Po druhé světové válce se plánovaná přestavba neuskutečnila, a právě proto zůstala historická technologie mimořádně úplná. Dnes je možné po předchozí dohodě poznat původní prostory i strojní vybavení.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.obecpredajna.sk/adresar/vodny-mlyn/",
+        "https://horehronie.sk/mlyn-s-nahonom-narodna-kulturna-pamiatka",
+        "https://spravy.stvr.sk/2025/09/v-obci-predajna-sa-historia-spaja-s-prirodnymi-pamiatkami-najdete-tu-vodny-mlyn-vodopady-s-prekvapenim-aj-jedinecny-tunel/"
+      ],
+      "location": {
+        "name": "Národní kulturní památka – vodní mlýn s náhonem, Bečov 109",
+        "lat": 48.811505,
+        "lon": 19.458959,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://horehronie.sk/mlyn-s-nahonom-narodna-kulturna-pamiatka",
+        "address": null
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_005",
+      "title": "Predajnianske vodopády a Kelemenův tunel – přírodní úkaz s lesní technickou památkou",
+      "text": "V dolině Predajnianske Čelno na území Predajné se nachází přírodní památka Predajnianske vodopády. Obecní přehled uvádí dva stupně: vyšší vodopád měří přibližně pět metrů a nižší dva a půl metru; leží v nadmořské výšce okolo 725 metrů. Průtok potoka se mění, a proto jsou vodopády podle počasí a množství vody někdy výraznější a jindy méně nápadné. Nedaleko vede lesní cesta tunelem pojmenovaným po Vojtechu Kelemenovi, někdejším řediteli státních lesů v Banské Bystrici. Tunel byl uveden do provozu v roce 1928, původně byl vytesán do skály a v roce 1971 byl rozšířen a zvýšen. Je dlouhý přibližně 43 metrů a představuje neobvyklou technickou památku přímo v lesním prostředí. Vodopády i tunel leží v chráněném území; přístup vede značenou trasou a terén v okolí vodopádů může být náročný.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.obecpredajna.sk/prirodne-pamiatky/",
+        "https://www.obecpredajna.sk/zakladne-informacie/",
+        "https://spravy.stvr.sk/2025/09/v-obci-predajna-sa-historia-spaja-s-prirodnymi-pamiatkami-najdete-tu-vodny-mlyn-vodopady-s-prekvapenim-aj-jedinecny-tunel/",
+        "https://www.obecpredajna.sk/wp-content/uploads/2023/06/PHSR_Predajna_2007_2013.pdf",
+        "https://poi.oma.sk/n519164606",
+        "https://predajna.oma.sk/u/kelemenov-tunel"
+      ],
+      "location": {
+        "name": "Predajnianske vodopády – chráněné území v dolině Čelno",
+        "lat": 48.7773947,
+        "lon": 19.4837041,
+        "type": "waterfall",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n519164606",
+        "address": null
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_006",
+      "title": "Juraj Pejko – básník, folklorista a advokát chudých",
+      "text": "Predajná je rodištěm Juraje Pejka (1816–1893), básníka, folkloristy, osvětového pracovníka a právníka. Pocházel z mlynářské rodiny a po smrti otce se na čas vrátil k mlynářskému řemeslu. Zkušenost z tovaryšské vandrovky po okolních zemích později spojil se studiem práva a filozofie v Bratislavě. Roku 1846 vydal v Badíně básnickou sbírku Sklad rozličných spevov, napsanou ve štúrovské slovenštině. Jeho píseň Predanské hodiny se rozšířila natolik, že zlidověla a bývá spojována také s názvem Trenčianske hodiny. Po návratu do rodné obce roku 1851 působil jako „advokát chudobných“ a vedle právní práce se věnoval osvětě i hospodářským projektům: podporoval pěstování ovocných stromů, založil rybí sádky, dal vybudovat pilu a obnovil pivovar. Zemřel v Predajné roku 1893 a jeho hrob na místním hřbitově nese prostý nápis „Juraj Pejko, básnik“.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.obecpredajna.sk/historia/",
+        "https://www.obecpredajna.sk/wp-content/uploads/2024/09/2010_02_PREDAJNIANSKE_ZVESTI.pdf",
+        "https://www.biographien.ac.at/oebl/oebl_P/Pejko_Juraj_1816_1893.xml"
+      ],
+      "location": {
+        "name": "Námestie Juraja Pejku – orientační bod pro příběh místního rodáka",
+        "lat": 48.81455,
+        "lon": 19.46297,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://www.vets.cz/vpm/mista/obec/9161-predajna/n%C3%A1mestie%20Juraja%20Pejku/",
+        "address": null
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_007",
+      "title": "Beta Poničanová – herečka Slovenského národního divadla z Predajné",
+      "text": "V Predajné se 26. září 1908 narodila Alžbeta „Beta“ Poničanová, rozená Kindernayová, jedna z výrazných slovenských divadelních, filmových a rozhlasových hereček 20. století. Po studiu na Hudební a dramatické akademii v Bratislavě vstoupila roku 1933 do Slovenského národního divadla nejprve jako externí členka. Později působila v činoherním souboru a na jeho scéně strávila více než čtyři desetiletí, až do roku 1980. Její herecký projev vynikal charakteristickým hlasem a výraznými ženskými postavami; hrála mimo jiné ve filmech Vlčie diery, Rodná zem a Drevená dedina. V letech 1951–1957 vyučovala jevištní řeč na Vysoké škole múzických umění v Bratislavě. Za uměleckou práci získala Národní cenu v roce 1949, ocenění Za zásluhy o výstavbu v roce 1960 a titul zasloužilé umělkyně v roce 1967. Zemřela v Bratislavě 18. prosince 1987.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.theatre.sk/vystavy/divadelna-galeria/tvare-slovenskeho-profesionalneho-divadla-cinohra/beta-ponicanova",
+        "https://www.obecpredajna.sk/historia/",
+        "https://www.obecpredajna.sk/wp-content/uploads/2023/11/Komunitny-plan-SS-Predajna-2023-2030.pdf"
+      ],
+      "location": {
+        "name": "Námestie Juraja Pejku – přibližná poloha rodného domu U Bellov",
+        "lat": 48.81455,
+        "lon": 19.46297,
+        "type": "historic_square",
+        "accuracy": "historical_approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/9161-predajna/n%C3%A1mestie%20Juraja%20Pejku/",
+        "address": null
+      },
+      "map_category": "personality"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "PSČ 976 63 je doloženo oficiálním adresářem obce Predajná, který uvádí adresy obecního úřadu, školy, dalších místních adres i pošty v Predajné pod kódem 976 63. Nezávislé přehledy PSČ SITA a NájdiPSČ potvrzují přiřazení Predajné ke kódu 97663. Veřejný vyhledávač Slovenské pošty byl zkontrolován, ale neposkytl v této rešerši strojově čitelný výsledek úplného rozsahu doručovací oblasti; záznam proto netvrdí přesnou hranici poštovního polygonu.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhledávání PSČ; obecní adresář Predajná; nezávislé poštovní přehledy",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Zdroje se shodují na přiřazení Predajné k PSČ 976 63. Některé adresy v okrajových lokalitách katastru Predajné používají jiné PSČ; tyto okrajové adresy a lokality nebyly automaticky zahrnuty do obsahu záznamu. Záznam se soustředí na doložené adresy a místa přímo v oblasti Predajné označené kódem 976 63. Přesná hranice doručovací oblasti nebyla z veřejného formuláře Slovenské pošty strojově ověřena.",
+    "delivery_office_note": "Oficiální obecní adresář uvádí Poštu Predajná na adrese Borgondia 68, 976 63 Predajná. Pošta není použita jako reprezentativní bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Administrativní zařazení Predajné do okresu Brezno a Banskobystrického kraje ověřeno na oficiálním webu obce a v územních údajích; souřadnice reprezentativního náměstí a jednotlivých památek doloženy obecními, odbornými, regionálními a mapovými zdroji."
+  },
+  "sources": [
+    {
+      "title": "Obec Predajná – História",
+      "url": "https://www.obecpredajna.sk/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predajná – Kultúra a ZPOZ",
+      "url": "https://www.obecpredajna.sk/kultura-a-zpoz/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predajná – Komunitný plán",
+      "url": "https://www.obecpredajna.sk/wp-content/uploads/2023/11/Komunitny-plan-SS-Predajna-2023-2030.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol Troch kráľov",
+      "url": "https://www.pamiatkynaslovensku.sk/predajna-kostol-troch-kralov",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Predajná – Kostol Zjavenia Pána",
+      "url": "https://www.obecpredajna.sk/adresar/rimsko-katolicky-kostol-zjavenia-pana-predajna/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predajná – Vodný mlyn",
+      "url": "https://www.obecpredajna.sk/adresar/vodny-mlyn/",
+      "type": "official"
+    },
+    {
+      "title": "Horehronie – Vodný mlyn s náhonom",
+      "url": "https://horehronie.sk/mlyn-s-nahonom-narodna-kulturna-pamiatka",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Predajná – Prírodné pamiatky",
+      "url": "https://www.obecpredajna.sk/prirodne-pamiatky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predajná – Základné informácie",
+      "url": "https://www.obecpredajna.sk/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "title": "STVR – Predajná: mlyn, vodopády a tunel",
+      "url": "https://spravy.stvr.sk/2025/09/v-obci-predajna-sa-historia-spaja-s-prirodnymi-pamiatkami-najdete-tu-vodny-mlyn-vodopady-s-prekvapenim-aj-jedinecny-tunel/",
+      "type": "news"
+    },
+    {
+      "title": "Obec Predajná – Program rozvoja 2007–2013",
+      "url": "https://www.obecpredajna.sk/wp-content/uploads/2023/06/PHSR_Predajna_2007_2013.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Divadelný ústav – Beta Poničanová",
+      "url": "https://www.theatre.sk/vystavy/divadelna-galeria/tvare-slovenskeho-profesionalneho-divadla-cinohra/beta-ponicanova",
+      "type": "official"
+    },
+    {
+      "title": "Predajnianske zvesti – Juraj Pejko",
+      "url": "https://www.obecpredajna.sk/wp-content/uploads/2024/09/2010_02_PREDAJNIANSKE_ZVESTI.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Österreichisches Biographisches Lexikon – Juraj Pejko",
+      "url": "https://www.biographien.ac.at/oebl/oebl_P/Pejko_Juraj_1816_1893.xml",
+      "type": "university"
+    },
+    {
+      "title": "Slovenská archeológia – nálezy v Predajnej",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_1979_1.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Obec Predajná – Pošta",
+      "url": "https://www.obecpredajna.sk/adresar/posta/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Predajná – Adresár",
+      "url": "https://www.obecpredajna.sk/adresar/",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "SITA – PSČ 97663",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/97663/",
+      "type": "regional"
+    },
+    {
+      "title": "NájdiPSČ – PSČ 97663",
+      "url": "https://najdipsc.zones.sk/PS%C4%8C_97663/",
+      "type": "other"
+    },
+    {
+      "title": "Kalvária Predajná – OMA",
+      "url": "https://poi.oma.sk/w73450401",
+      "type": "other"
+    },
+    {
+      "title": "Predajnianske vodopády – OMA",
+      "url": "https://poi.oma.sk/n519164606",
+      "type": "other"
+    },
+    {
+      "title": "Kelemenov tunel – OMA",
+      "url": "https://predajna.oma.sk/u/kelemenov-tunel",
+      "type": "other"
+    },
+    {
+      "title": "Pomník na Námestí Juraja Pejku – VPM",
+      "url": "https://www.vets.cz/vpm/mista/obec/9161-predajna/n%C3%A1mestie%20Juraja%20Pejku/",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Námestie Juraja Pejku – historické centrum Predajné",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – středověká obec a někdejší obchodní centrum Horehroní",
+          "text": "První písemná zmínka o Predajné pochází z roku 1284, kdy se v listině uherského krále Bély IV. objevuje podoba Villa Predynich. Ve 14. století obec patřila k Ľupčianskému panství. V 16. století zde vznikl panský majer a sídlo správce panství, což posílilo její postavení v okolí. Roku 1673 zřídili prievidzští piaristé v Predajné školu, která patřila k nejstarším na Horehroní a její školský obvod zahrnoval několik okolních obcí. Obec měla také pivovar, jehož pivo se vozilo do sousedních sídel. Dvakrát ročně se zde konaly jarmarky spojené s trhy na dobytek; poslední se uskutečnil roku 1947. Predajná tak nebyla jen zemědělskou vsí, ale také menším správním, vzdělávacím a obchodním centrem horního Pohroní."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – archeologická paměť a poutní kalvárie",
+          "text": "Severně od Predajné se zvedá kopec Hrádok, který spojuje archeologickou minulost s poutní tradicí. Obecní historické materiály zmiňují jeskyni s pravěkým osídlením a nálezy římských mincí; odborná archeologická literatura potvrzuje, že na Hrádku byly objeveny pozdně římské mince císaře Konstantina, pravděpodobně ještě před rokem 1864. Z těchto nálezů nelze bez dalších důkazů vyvozovat přesnou podobu ani funkci případné římské stavby. Na vrchu nechal místní farář Karol Vzáry roku 1861 vybudovat kalvárii s kostelíkem a čtyřmi kaplemi, které byly vysvěceny roku 1873. Na poutě 15. srpna a 12. září sem přicházeli lidé z okolních obcí. Z původního areálu se zachovaly lipové aleje a jeskyně Panny Lurdské. Nový kalvárský kostelík a křížová cesta byly vybudovány v roce 1993."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel Zjevení Páně – pozdně gotická stavba s renesanční křtitelnicí",
+          "text": "Dominantou historického jádra Predajné je římskokatolický kostel Zjevení Páně, označovaný také jako kostel Tří králů. Odborný přehled památek klade jeho původ do pozdní gotiky na konec 15. století; obecní materiály uvádějí stavební etapu z let 1605–1612. Tyto údaje mohou popisovat různé fáze vývoje, proto z nich nelze vyvozovat jediné přesné datum založení. Presbytář a sakristie dostaly klenby ve druhé polovině 17. století a loď byla zaklenuta roku 1754. Dochovaly se původní lomené gotické portály. Hlavní oltář s námětem Klanění Tří králů pochází z druhé poloviny 18. století a do stěny triumfálního oblouku je zasazena renesanční kamenná křtitelnice ze 16. století. Kostel uchovává několik vrstev sakrálního umění od pozdní gotiky po baroko."
+        },
+        {
+          "id": "fact_004",
+          "title": "Vodní mlýn v Predajné – zachované zařízení národní kulturní památky",
+          "text": "V ulici Bečov stojí vodní mlýn s náhonem, který je národní kulturní památkou a významnou technickou památkou obce. Jeho stavební počátky sahají do 18. století; dnešní pozdně barokní objekt byl později doplněn přístavbou z 19. století a původně tvořil součást většího hospodářského areálu s domem mlynáře a dalšími budovami. Mlýn je cenný především dochovanou technologií. Její části zůstaly na původním místě i poté, co byl náhon zasypán a pohon upraven na elektřinu. Podle obecního popisu zachycuje katastrální mapa z roku 1860 u mlýna dvě vodní kola. Zachované zařízení pochází pravděpodobně z počátku 20. století, kdy provoz modernizoval Július Čipka. Po druhé světové válce se plánovaná přestavba neuskutečnila, a právě proto zůstala historická technologie mimořádně úplná. Dnes je možné po předchozí dohodě poznat původní prostory i strojní vybavení."
+        },
+        {
+          "id": "fact_005",
+          "title": "Predajnianske vodopády a Kelemenův tunel – přírodní úkaz s lesní technickou památkou",
+          "text": "V dolině Predajnianske Čelno na území Predajné se nachází přírodní památka Predajnianske vodopády. Obecní přehled uvádí dva stupně: vyšší vodopád měří přibližně pět metrů a nižší dva a půl metru; leží v nadmořské výšce okolo 725 metrů. Průtok potoka se mění, a proto jsou vodopády podle počasí a množství vody někdy výraznější a jindy méně nápadné. Nedaleko vede lesní cesta tunelem pojmenovaným po Vojtechu Kelemenovi, někdejším řediteli státních lesů v Banské Bystrici. Tunel byl uveden do provozu v roce 1928, původně byl vytesán do skály a v roce 1971 byl rozšířen a zvýšen. Je dlouhý přibližně 43 metrů a představuje neobvyklou technickou památku přímo v lesním prostředí. Vodopády i tunel leží v chráněném území; přístup vede značenou trasou a terén v okolí vodopádů může být náročný."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – básník, folklorista a advokát chudých",
+          "text": "Predajná je rodištěm Juraje Pejka (1816–1893), básníka, folkloristy, osvětového pracovníka a právníka. Pocházel z mlynářské rodiny a po smrti otce se na čas vrátil k mlynářskému řemeslu. Zkušenost z tovaryšské vandrovky po okolních zemích později spojil se studiem práva a filozofie v Bratislavě. Roku 1846 vydal v Badíně básnickou sbírku Sklad rozličných spevov, napsanou ve štúrovské slovenštině. Jeho píseň Predanské hodiny se rozšířila natolik, že zlidověla a bývá spojována také s názvem Trenčianske hodiny. Po návratu do rodné obce roku 1851 působil jako „advokát chudobných“ a vedle právní práce se věnoval osvětě i hospodářským projektům: podporoval pěstování ovocných stromů, založil rybí sádky, dal vybudovat pilu a obnovil pivovar. Zemřel v Predajné roku 1893 a jeho hrob na místním hřbitově nese prostý nápis „Juraj Pejko, básnik“."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – herečka Slovenského národního divadla z Predajné",
+          "text": "V Predajné se 26. září 1908 narodila Alžbeta „Beta“ Poničanová, rozená Kindernayová, jedna z výrazných slovenských divadelních, filmových a rozhlasových hereček 20. století. Po studiu na Hudební a dramatické akademii v Bratislavě vstoupila roku 1933 do Slovenského národního divadla nejprve jako externí členka. Později působila v činoherním souboru a na jeho scéně strávila více než čtyři desetiletí, až do roku 1980. Její herecký projev vynikal charakteristickým hlasem a výraznými ženskými postavami; hrála mimo jiné ve filmech Vlčie diery, Rodná zem a Drevená dedina. V letech 1951–1957 vyučovala jevištní řeč na Vysoké škole múzických umění v Bratislavě. Za uměleckou práci získala Národní cenu v roce 1949, ocenění Za zásluhy o výstavbu v roce 1960 a titul zasloužilé umělkyně v roce 1967. Zemřela v Bratislavě 18. prosince 1987."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Námestie Juraja Pejku – historischer Ortskern von Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – mittelalterlicher Ort, Märkte und einstiges Zentrum von Horehronie",
+          "text": "Die erste schriftliche Erwähnung von Predajná stammt aus dem Jahr 1284; in einer Urkunde Béla IV. erscheint die Form Villa Predynich. Im 14. Jahrhundert gehörte der Ort zur Herrschaft Ľupča. 1673 gründeten Piaristen aus Prievidza hier eine der ältesten Schulen von Horehronie. Predajná besaß auch eine Brauerei, deren Bier in die Nachbarorte geliefert wurde. Zweimal jährlich fanden Jahrmärkte mit Viehmärkten statt; der letzte wurde 1947 abgehalten. Predajná war damit nicht nur ein Bauerndorf, sondern auch ein kleines Verwaltungs-, Bildungs- und Handelszentrum des oberen Hron-Tals."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – archäologische Spuren und Wallfahrtsort",
+          "text": "Nördlich von Predajná erhebt sich der Hügel Hrádok. Gemeindliche Quellen erwähnen eine Höhle mit prähistorischer Besiedlung und römische Münzfunde. Fachliteratur bestätigt spätrömische Münzen des Kaisers Konstantin, wahrscheinlich vor 1864 entdeckt. Daraus lässt sich keine genaue römische Bauform ableiten. 1861 ließ Pfarrer Karol Vzáry einen Kreuzweg mit einer kleinen Kirche und vier Kapellen errichten, die 1873 geweiht wurden. Pilger kamen am 15. August und 12. September. Lindenalleen und die Lourdesgrotte blieben erhalten. 1993 wurden eine neue Kapelle und ein Kreuzweg errichtet."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Kirche der Erscheinung des Herrn – spätgotischer Bau mit Renaissance-Taufstein",
+          "text": "Die Kirche der Erscheinung des Herrn, auch Dreikönigskirche genannt, prägt das historische Zentrum von Predajná. Eine Fachquelle datiert ihren Ursprung in die Spätgotik des späten 15. Jahrhunderts; kommunale Materialien nennen eine Bauphase zwischen 1605 und 1612. Chor und Sakristei erhielten ihre Gewölbe in der zweiten Hälfte des 17. Jahrhunderts, das Schiff 1754. Erhalten blieben gotische Spitzbogenportale. Der Hauptaltar mit der Anbetung der Heiligen Drei Könige stammt aus der zweiten Hälfte des 18. Jahrhunderts. In den Triumphbogen ist ein steinerner Renaissance-Taufstein aus dem 16. Jahrhundert eingelassen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Wassermühle von Predajná – erhaltene Technik eines nationalen Kulturdenkmals",
+          "text": "In der Straße Bečov steht eine Wassermühle mit Mühlgraben, ein nationales Kulturdenkmal. Ihre Ursprünge reichen ins 18. Jahrhundert zurück; das spätbarocke Gebäude wurde im 19. Jahrhundert erweitert. Besonders wertvoll ist die erhaltene Technik. Teile blieben am ursprünglichen Standort, obwohl der Mühlgraben zugeschüttet und der Antrieb auf Elektrizität umgestellt wurde. Eine Katasterkarte von 1860 zeigt zwei Wasserräder. Die erhaltene Anlage stammt wahrscheinlich aus dem frühen 20. Jahrhundert, als Július Čipka den Betrieb modernisierte. Eine Nachkriegsrekonstruktion wurde nicht verwirklicht, wodurch die historische Technik außergewöhnlich vollständig blieb."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Wasserfälle von Predajná und der Kelemen-Tunnel – Natur und Waldtechnik",
+          "text": "Im Tal Predajnianske Čelno liegen die geschützten Wasserfälle von Predajná. Die Gemeinde beschreibt zwei Stufen von etwa fünf und zweieinhalb Metern Höhe auf rund 725 Metern Seehöhe. Ihre Sichtbarkeit hängt vom Wasserstand ab. In der Nähe verläuft ein Waldweg durch den Kelemen-Tunnel, benannt nach Vojtech Kelemen, einem früheren Direktor der Staatsforste in Banská Bystrica. Der Tunnel wurde 1928 eröffnet, zunächst in den Fels gehauen und 1971 verbreitert und erhöht. Er ist etwa 43 Meter lang. Wasserfälle und Tunnel liegen in einem geschützten Gebiet; der Zugang erfolgt über einen markierten Weg."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – Dichter, Folklorist und Anwalt der Armen",
+          "text": "Predajná ist der Geburtsort von Juraj Pejko (1816–1893), Dichter, Folklorist und Jurist. Er stammte aus einer Müllerfamilie und kehrte nach dem Tod seines Vaters zeitweise zum Müllerhandwerk zurück. 1846 veröffentlichte er den Gedichtband Sklad rozličných spevov in der Štúr-slowakischen Schriftsprache. Sein Lied Predanské hodiny wurde zum Volkslied und ist auch als Trenčianske hodiny bekannt. Nach seiner Rückkehr nach Predajná 1851 arbeitete er als „Anwalt der Armen“. Er förderte Obstbau, legte Fischteiche an, errichtete ein Sägewerk und erneuerte die Brauerei. Er starb 1893 in Predajná; auf seinem Grab steht „Juraj Pejko, Dichter“."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – Schauspielerin des Slowakischen Nationaltheaters aus Predajná",
+          "text": "Alžbeta „Beta“ Poničanová, geborene Kindernayová, wurde am 26. September 1908 in Predajná geboren. 1933 trat sie dem Slowakischen Nationaltheater zunächst als externes Mitglied bei und blieb später mehr als vier Jahrzehnte im Schauspielensemble, bis 1980. Sie spielte unter anderem in den Filmen Vlčie diery, Rodná zem und Drevená dedina. Von 1951 bis 1957 unterrichtete sie Bühnensprache an der Hochschule für darstellende Künste in Bratislava. Sie erhielt 1949 den Nationalpreis, 1960 eine staatliche Auszeichnung und 1967 den Titel Verdiente Künstlerin. Sie starb 1987 in Bratislava."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Námestie Juraja Pejku – historic centre of Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – a medieval village, market town and former Horehronie centre",
+          "text": "The first written record of Predajná dates from 1284, when a charter of King Béla IV used the form Villa Predynich. In the 14th century the village belonged to the Ľupča estate. In 1673 Piarists from Prievidza founded one of the oldest schools in Horehronie here. Predajná also had a brewery whose beer was delivered to nearby settlements. Fairs with livestock markets were held twice a year; the last took place in 1947. Predajná was therefore more than an agricultural village: it also served as a small administrative, educational and commercial centre of the upper Hron valley."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – archaeological traces and a pilgrimage site",
+          "text": "North of Predajná rises Hrádok hill. Municipal sources mention a cave with prehistoric occupation and Roman coin finds. Archaeological literature confirms late Roman coins of Emperor Constantine, probably discovered before 1864. These finds do not establish the exact form of any Roman structure. In 1861 the local priest Karol Vzáry arranged a Calvary with a small church and four chapels, consecrated in 1873. Pilgrims came on 15 August and 12 September. Linden avenues and a Lourdes grotto survived. A new chapel and Stations of the Cross were built in 1993."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of the Epiphany – a late Gothic building with a Renaissance font",
+          "text": "The Church of the Epiphany, also known as the Church of the Three Kings, dominates Predajná's historic centre. A specialist source dates its origins to the late Gothic period at the end of the 15th century, while municipal materials mention a building phase in 1605–1612. The sanctuary and sacristy were vaulted in the second half of the 17th century, and the nave in 1754. Original pointed Gothic portals survive. The main altar depicting the Adoration of the Three Kings dates from the second half of the 18th century. A Renaissance stone baptismal font from the 16th century is set into the chancel arch."
+        },
+        {
+          "id": "fact_004",
+          "title": "The watermill of Predajná – preserved machinery in a national cultural monument",
+          "text": "A watermill with a millrace stands on Bečov Street and is a national cultural monument. Its origins date to the 18th century; the late Baroque building was extended in the 19th century. Its greatest value is the surviving machinery. Parts remained in their original positions even after the millrace was filled and the drive converted to electricity. A cadastral map from 1860 shows two water wheels. The equipment probably dates from the early 20th century, when Július Čipka modernised the mill. A planned post-war reconstruction never took place, helping preserve the historic machinery unusually well."
+        },
+        {
+          "id": "fact_005",
+          "title": "Predajná waterfalls and the Kelemen Tunnel – nature and forest engineering",
+          "text": "The protected Predajnianske vodopády lie in the Predajnianske Čelno valley. The municipality describes two drops of about five and two and a half metres, at roughly 725 metres above sea level. Their visibility depends on water levels. Nearby, a forest road passes through the Kelemen Tunnel, named after former state-forests director Vojtech Kelemen. It opened in 1928, was first cut into rock and widened and raised in 1971. It is about 43 metres long. The waterfalls and tunnel lie in a protected area; access follows a marked trail."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – poet, folklorist and advocate for the poor",
+          "text": "Predajná is the birthplace of Juraj Pejko (1816–1893), a poet, folklorist and lawyer. He came from a miller's family and returned to milling for a time after his father's death. In 1846 he published the poetry collection Sklad rozličných spevov in the Štúr form of written Slovak. His song Predanské hodiny became part of folk tradition and is also known as Trenčianske hodiny. After returning to Predajná in 1851, he worked as an advocate for the poor. He encouraged fruit growing, established fish ponds, built a sawmill and restored the brewery. He died in Predajná in 1893; his grave bears the inscription “Juraj Pejko, poet”."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – Slovak National Theatre actress born in Predajná",
+          "text": "Alžbeta “Beta” Poničanová, née Kindernayová, was born in Predajná on 26 September 1908. She joined the Slovak National Theatre in 1933 and remained with its drama company for more than four decades, until 1980. Her film roles included Vlčie diery, Rodná zem and Drevená dedina. From 1951 to 1957 she taught stage speech at the Academy of Performing Arts in Bratislava. She received the National Prize in 1949, a state award in 1960 and the title Merited Artist in 1967. She died in Bratislava in 1987."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Námestie Juraja Pejku – centro histórico de Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná: pueblo medieval, mercado y antiguo centro de Horehronie",
+          "text": "La primera mención escrita de Predajná data de 1284, cuando una carta del rey Béla IV utilizó la forma Villa Predynich. En el siglo XIV el pueblo pertenecía al señorío de Ľupča. En 1673 los escolapios de Prievidza fundaron aquí una de las escuelas más antiguas de Horehronie. También había una cervecería que distribuía cerveza en los pueblos cercanos. Dos veces al año se celebraban ferias con mercados de ganado; la última tuvo lugar en 1947. Predajná fue más que una aldea agrícola: también funcionó como pequeño centro administrativo, educativo y comercial del alto valle del Hron."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok: huellas arqueológicas y lugar de peregrinación",
+          "text": "Al norte de Predajná se eleva la colina Hrádok. Las fuentes municipales mencionan una cueva con ocupación prehistórica y monedas romanas. La literatura arqueológica confirma monedas tardorromanas del emperador Constantino, probablemente descubiertas antes de 1864. Estos hallazgos no determinan la forma exacta de una construcción romana. En 1861 el sacerdote Karol Vzáry promovió un calvario con una pequeña iglesia y cuatro capillas, consagradas en 1873. Los peregrinos acudían el 15 de agosto y el 12 de septiembre. Se conservaron las avenidas de tilos y la gruta de Lourdes. En 1993 se construyeron una nueva capilla y un vía crucis."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de la Epifanía: edificio gótico tardío con pila renacentista",
+          "text": "La iglesia de la Epifanía, también llamada iglesia de los Tres Reyes, domina el centro histórico de Predajná. Una fuente especializada sitúa su origen a finales del siglo XV, mientras que los materiales municipales mencionan una fase entre 1605 y 1612. El presbiterio y la sacristía recibieron bóvedas en la segunda mitad del siglo XVII y la nave en 1754. Se conservan portales góticos apuntados. El altar de la Adoración de los Reyes Magos data de la segunda mitad del siglo XVIII. En el arco triunfal está empotrada una pila bautismal renacentista de piedra del siglo XVI."
+        },
+        {
+          "id": "fact_004",
+          "title": "El molino de agua de Predajná: maquinaria conservada en un monumento nacional",
+          "text": "En la calle Bečov se encuentra un molino de agua con canal, declarado monumento cultural nacional. Sus orígenes se remontan al siglo XVIII y el edificio tardobarroco fue ampliado en el XIX. Su principal valor es la maquinaria conservada. Algunas piezas permanecieron en su lugar original incluso después de rellenarse el canal y cambiarse el accionamiento a electricidad. Un mapa catastral de 1860 muestra dos ruedas hidráulicas. La maquinaria conservada probablemente data de comienzos del siglo XX, cuando Július Čipka modernizó la explotación. La reconstrucción de posguerra no se realizó y ayudó a conservar el equipo histórico."
+        },
+        {
+          "id": "fact_005",
+          "title": "Cascadas de Predajná y túnel Kelemen: naturaleza e ingeniería forestal",
+          "text": "Las cascadas protegidas Predajnianske vodopády se encuentran en el valle Predajnianske Čelno. El municipio describe dos saltos de unos cinco y dos metros y medio, a unos 725 metros de altitud. Su visibilidad depende del caudal. Cerca pasa un camino forestal por el túnel Kelemen, llamado así por el antiguo director de los bosques estatales Vojtech Kelemen. Se abrió en 1928, fue excavado en la roca y ampliado y elevado en 1971. Mide unos 43 metros. Las cascadas y el túnel están en un espacio protegido; el acceso sigue un sendero señalizado."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko: poeta, folclorista y abogado de los pobres",
+          "text": "Predajná es el lugar de nacimiento de Juraj Pejko (1816–1893), poeta, folclorista y jurista. Procedía de una familia de molineros y volvió temporalmente al oficio tras la muerte de su padre. En 1846 publicó el poemario Sklad rozličných spevov en la lengua literaria eslovaca de Štúr. Su canción Predanské hodiny pasó a la tradición popular y también se conoce como Trenčianske hodiny. Al regresar a Predajná en 1851 trabajó como abogado de los pobres. Fomentó el cultivo de frutales, creó estanques de peces, construyó un aserradero y renovó la cervecería. Murió en 1893 y su tumba lleva la inscripción «Juraj Pejko, poeta»."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová: actriz del Teatro Nacional Eslovaco nacida en Predajná",
+          "text": "Alžbeta «Beta» Poničanová, de soltera Kindernayová, nació en Predajná el 26 de septiembre de 1908. Ingresó en el Teatro Nacional Eslovaco en 1933 y permaneció en su compañía dramática durante más de cuatro décadas, hasta 1980. Participó en películas como Vlčie diery, Rodná zem y Drevená dedina. Entre 1951 y 1957 enseñó expresión escénica en la Academia de Artes Escénicas de Bratislava. Recibió el Premio Nacional en 1949, una distinción estatal en 1960 y el título de Artista Meritoria en 1967. Murió en Bratislava en 1987."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Námestie Juraja Pejku – centre historique de Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – village médiéval, foires et ancien centre de Horehronie",
+          "text": "La première mention écrite de Predajná date de 1284, dans une charte de Béla IV sous la forme Villa Predynich. Au XIVe siècle, le village appartenait au domaine de Ľupča. En 1673, les piaristes de Prievidza y fondèrent l’une des plus anciennes écoles de Horehronie. Le village possédait aussi une brasserie qui livrait sa bière aux localités voisines. Deux foires avec marchés au bétail se tenaient chaque année ; la dernière eut lieu en 1947. Predajná était donc plus qu’un village agricole : elle jouait aussi le rôle d’un petit centre administratif, éducatif et commercial de la haute vallée du Hron."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – traces archéologiques et lieu de pèlerinage",
+          "text": "Au nord de Predajná s’élève la colline Hrádok. Les sources communales mentionnent une grotte occupée à la préhistoire et des monnaies romaines. La littérature archéologique confirme la découverte de monnaies de l’empereur Constantin datant de la fin de l’époque romaine, probablement avant 1864. Ces trouvailles ne prouvent pas la forme exacte d’une construction romaine. En 1861, le curé Karol Vzáry fit aménager un calvaire avec une petite église et quatre chapelles consacrées en 1873. Les pèlerins venaient les 15 août et 12 septembre. Les allées de tilleuls et la grotte de Lourdes ont été conservées. Une nouvelle chapelle et un chemin de croix furent construits en 1993."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église de l’Épiphanie – édifice gothique tardif et fonts baptismaux Renaissance",
+          "text": "L’église de l’Épiphanie, également appelée église des Rois mages, domine le centre historique de Predajná. Une source spécialisée situe ses origines à la fin du XVe siècle, tandis que les documents communaux mentionnent une phase entre 1605 et 1612. Le chœur et la sacristie furent voûtés dans la seconde moitié du XVIIe siècle, puis la nef en 1754. Les portails gothiques brisés sont conservés. Le maître-autel représentant l’Adoration des Rois mages date de la seconde moitié du XVIIIe siècle. Des fonts baptismaux Renaissance en pierre du XVIe siècle sont encastrés dans l’arc triomphal."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le moulin à eau de Predajná – machines conservées dans un monument culturel national",
+          "text": "Dans la rue Bečov se trouve un moulin à eau avec son canal, classé monument culturel national. Ses origines remontent au XVIIIe siècle et le bâtiment tardobaroque fut agrandi au XIXe siècle. Sa valeur principale réside dans les machines conservées. Certaines pièces sont restées à leur emplacement d’origine après le comblement du canal et le passage à l’électricité. Un plan cadastral de 1860 montre deux roues hydrauliques. L’équipement date probablement du début du XXe siècle, lorsque Július Čipka modernisa l’exploitation. La reconstruction d’après-guerre ne fut pas réalisée, ce qui contribua à préserver les machines historiques."
+        },
+        {
+          "id": "fact_005",
+          "title": "Les cascades de Predajná et le tunnel Kelemen – nature et technique forestière",
+          "text": "Les cascades protégées Predajnianske vodopády se trouvent dans la vallée de Predajnianske Čelno. La commune décrit deux chutes d’environ cinq et deux mètres et demi, à quelque 725 mètres d’altitude. Leur visibilité dépend du débit. À proximité, une route forestière traverse le tunnel Kelemen, nommé d’après l’ancien directeur des forêts d’État Vojtech Kelemen. Ouvert en 1928, il fut d’abord creusé dans la roche, puis élargi et rehaussé en 1971. Il mesure environ 43 mètres. Les cascades et le tunnel sont dans une zone protégée ; l’accès suit un sentier balisé."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – poète, folkloriste et avocat des pauvres",
+          "text": "Predajná est le lieu de naissance de Juraj Pejko (1816–1893), poète, folkloriste et juriste. Issu d’une famille de meuniers, il reprit quelque temps le métier après la mort de son père. En 1846, il publia le recueil Sklad rozličných spevov dans la langue littéraire slovaque de Štúr. Sa chanson Predanské hodiny entra dans la tradition populaire et est aussi connue sous le titre Trenčianske hodiny. De retour à Predajná en 1851, il exerça comme avocat des pauvres. Il encouragea l’arboriculture fruitière, créa des viviers, fit construire une scierie et remit la brasserie en activité. Il mourut en 1893 et sa tombe porte l’inscription « Juraj Pejko, poète »."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – actrice du Théâtre national slovaque née à Predajná",
+          "text": "Alžbeta « Beta » Poničanová, née Kindernayová, est née à Predajná le 26 septembre 1908. Elle entra au Théâtre national slovaque en 1933 et resta dans sa troupe dramatique pendant plus de quatre décennies, jusqu’en 1980. Elle joua notamment dans les films Vlčie diery, Rodná zem et Drevená dedina. De 1951 à 1957, elle enseigna la diction scénique à l’Académie des arts du spectacle de Bratislava. Elle reçut le Prix national en 1949, une distinction d’État en 1960 et le titre d’Artiste méritante en 1967. Elle mourut à Bratislava en 1987."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Námestie Juraja Pejku – centro storico di Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – villaggio medievale, fiere ed ex centro di Horehronie",
+          "text": "La prima menzione scritta di Predajná risale al 1284, in un documento di Béla IV con la forma Villa Predynich. Nel XIV secolo il villaggio apparteneva alla signoria di Ľupča. Nel 1673 i piaristi di Prievidza fondarono qui una delle scuole più antiche di Horehronie. Il paese aveva anche un birrificio che riforniva gli insediamenti vicini. Due volte all’anno si tenevano fiere con mercati di bestiame; l’ultima si svolse nel 1947. Predajná fu quindi più di un villaggio agricolo: funzionò anche come piccolo centro amministrativo, educativo e commerciale dell’alto bacino dell’Hron."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – tracce archeologiche e luogo di pellegrinaggio",
+          "text": "A nord di Predajná si eleva la collina Hrádok. Le fonti comunali menzionano una grotta abitata in epoca preistorica e monete romane. La letteratura archeologica conferma il ritrovamento di monete del tardo periodo romano dell’imperatore Costantino, probabilmente prima del 1864. Questi reperti non dimostrano la forma esatta di una struttura romana. Nel 1861 il parroco Karol Vzáry fece costruire un calvario con una piccola chiesa e quattro cappelle, consacrate nel 1873. I pellegrini arrivavano il 15 agosto e il 12 settembre. Sono rimasti i viali di tigli e la grotta di Lourdes. Nel 1993 furono costruiti una nuova cappella e un percorso della Via Crucis."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa dell’Epifania – edificio tardogotico con fonte battesimale rinascimentale",
+          "text": "La chiesa dell’Epifania, detta anche chiesa dei Re Magi, domina il centro storico di Predajná. Una fonte specialistica ne colloca le origini alla fine del XV secolo, mentre i documenti comunali indicano una fase tra il 1605 e il 1612. Il presbiterio e la sacrestia furono voltati nella seconda metà del XVII secolo e la navata nel 1754. Si conservano i portali gotici a sesto acuto. L’altare dell’Adorazione dei Re Magi risale alla seconda metà del XVIII secolo. Nell’arco trionfale è inserito un fonte battesimale rinascimentale in pietra del XVI secolo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il mulino ad acqua di Predajná – macchinari conservati in un monumento nazionale",
+          "text": "In via Bečov si trova un mulino ad acqua con canale, dichiarato monumento culturale nazionale. Le sue origini risalgono al XVIII secolo e l’edificio tardo-barocco fu ampliato nel XIX secolo. Il suo valore principale è costituito dai macchinari conservati. Alcune parti sono rimaste nella posizione originaria anche dopo il riempimento del canale e il passaggio all’elettricità. Una mappa catastale del 1860 mostra due ruote idrauliche. L’attrezzatura risale probabilmente all’inizio del XX secolo, quando Július Čipka modernizzò il mulino. La ricostruzione del dopoguerra non fu realizzata e contribuì alla conservazione delle macchine storiche."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le cascate di Predajná e il tunnel Kelemen – natura e tecnica forestale",
+          "text": "Le cascate protette Predajnianske vodopády si trovano nella valle Predajnianske Čelno. Il comune descrive due salti di circa cinque e due metri e mezzo, a circa 725 metri di altitudine. La loro visibilità dipende dalla portata del torrente. Nelle vicinanze una strada forestale attraversa il tunnel Kelemen, intitolato all’ex direttore delle foreste statali Vojtech Kelemen. Aperto nel 1928, fu scavato nella roccia e ampliato e rialzato nel 1971. È lungo circa 43 metri. Cascate e tunnel si trovano in un’area protetta; l’accesso segue un sentiero segnalato."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – poeta, folklorista e avvocato dei poveri",
+          "text": "Predajná è il luogo di nascita di Juraj Pejko (1816–1893), poeta, folklorista e giurista. Proveniva da una famiglia di mugnai e tornò per un periodo al mestiere dopo la morte del padre. Nel 1846 pubblicò la raccolta Sklad rozličných spevov nella lingua letteraria slovacca di Štúr. La sua canzone Predanské hodiny entrò nella tradizione popolare ed è nota anche come Trenčianske hodiny. Tornato a Predajná nel 1851, lavorò come avvocato dei poveri. Promosse la frutticoltura, creò vivai di pesci, fece costruire una segheria e restaurò il birrificio. Morì nel 1893 e sulla sua tomba compare la scritta «Juraj Pejko, poeta»."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – attrice del Teatro Nazionale Slovacco nata a Predajná",
+          "text": "Alžbeta «Beta» Poničanová, nata Kindernayová, nacque a Predajná il 26 settembre 1908. Entrò nel Teatro Nazionale Slovacco nel 1933 e rimase nella compagnia per oltre quattro decenni, fino al 1980. Recitò tra l’altro nei film Vlčie diery, Rodná zem e Drevená dedina. Dal 1951 al 1957 insegnò dizione scenica all’Accademia delle arti dello spettacolo di Bratislava. Ricevette il Premio nazionale nel 1949, un’onorificenza statale nel 1960 e il titolo di Artista meritoria nel 1967. Morì a Bratislava nel 1987."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Námestie Juraja Pejku – historisch centrum van Predajná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Predajná – middeleeuws dorp, marktplaats en voormalig centrum van Horehronie",
+          "text": "De eerste schriftelijke vermelding van Predajná dateert uit 1284, in een oorkonde van Béla IV met de vorm Villa Predynich. In de veertiende eeuw behoorde het dorp tot het domein van Ľupča. In 1673 stichtten piaristen uit Prievidza hier een van de oudste scholen van Horehronie. Het dorp had ook een brouwerij die bier aan omliggende nederzettingen leverde. Tweemaal per jaar werden jaarmarkten met veemarkten gehouden; de laatste vond plaats in 1947. Predajná was dus meer dan een landbouwdorp: het fungeerde ook als een klein bestuurlijk, educatief en commercieel centrum van de bovenloop van de Hron."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrádok – archeologische sporen en een bedevaartsoord",
+          "text": "Ten noorden van Predajná ligt de heuvel Hrádok. Gemeentelijke bronnen noemen een grot met prehistorische bewoning en vondsten van Romeinse munten. Archeologische literatuur bevestigt laat-Romeinse munten van keizer Constantijn, waarschijnlijk gevonden vóór 1864. Deze vondsten bewijzen niet de precieze vorm van een Romeinse constructie. In 1861 liet priester Karol Vzáry een calvarie bouwen met een kleine kerk en vier kapellen, ingewijd in 1873. Pelgrims kwamen op 15 augustus en 12 september. De lindelanen en Lourdesgrot bleven behouden. In 1993 werden een nieuwe kapel en kruisweg gebouwd."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Kerk van de Openbaring – laatgotisch gebouw met renaissance doopvont",
+          "text": "De Kerk van de Openbaring, ook Driekoningenkerk genoemd, domineert het historische centrum van Predajná. Een erfgoedbron dateert de oorsprong aan het einde van de vijftiende eeuw, terwijl gemeentelijke bronnen een bouwfase tussen 1605 en 1612 noemen. Het koor en de sacristie kregen gewelven in de tweede helft van de zeventiende eeuw en het schip in 1754. De gotische spitsboogportalen zijn bewaard gebleven. Het hoofdaltaar met de Aanbidding der Drie Koningen dateert uit de tweede helft van de achttiende eeuw. In de triomfboog is een stenen renaissance doopvont uit de zestiende eeuw aangebracht."
+        },
+        {
+          "id": "fact_004",
+          "title": "De watermolen van Predajná – bewaarde machines in een nationaal cultuurmonument",
+          "text": "Aan de Bečovstraat staat een watermolen met molenloop, aangewezen als nationaal cultuurmonument. De oorsprong gaat terug tot de achttiende eeuw en het laatbarokke gebouw werd in de negentiende eeuw uitgebreid. De belangrijkste waarde is de bewaard gebleven techniek. Delen bleven op hun oorspronkelijke plaats, ook nadat de molenloop was gedempt en de aandrijving op elektriciteit werd omgezet. Een kadastrale kaart uit 1860 toont twee waterraderen. De installatie dateert waarschijnlijk uit het begin van de twintigste eeuw, toen Július Čipka de molen moderniseerde. De naoorlogse verbouwing ging niet door en daardoor bleven de historische machines uitzonderlijk goed bewaard."
+        },
+        {
+          "id": "fact_005",
+          "title": "De watervallen van Predajná en de Kelemen-tunnel – natuur en bosbouwtechniek",
+          "text": "De beschermde Predajnianske vodopády liggen in de vallei Predajnianske Čelno. De gemeente beschrijft twee watervallen van ongeveer vijf en tweeënhalve meter, op circa 725 meter hoogte. Hun zichtbaarheid hangt af van de waterafvoer. Vlakbij loopt een bosweg door de Kelemen-tunnel, genoemd naar voormalig directeur van de staatsbossen Vojtech Kelemen. De tunnel werd in 1928 geopend, eerst in de rots uitgehouwen en in 1971 verbreed en verhoogd. Hij is ongeveer 43 meter lang. Watervallen en tunnel liggen in een beschermd gebied; de toegang volgt een gemarkeerd pad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Pejko – dichter, folklorist en advocaat van de armen",
+          "text": "Predajná is de geboorteplaats van Juraj Pejko (1816–1893), dichter, folklorist en jurist. Hij kwam uit een molenaarsfamilie en keerde na de dood van zijn vader tijdelijk terug naar het molenaarsvak. In 1846 publiceerde hij de bundel Sklad rozličných spevov in de door Štúr gecodificeerde Slowaakse schrijftaal. Zijn lied Predanské hodiny werd onderdeel van de volkstraditie en staat ook bekend als Trenčianske hodiny. Na zijn terugkeer in 1851 werkte hij als advocaat van de armen. Hij stimuleerde fruitteelt, legde visvijvers aan, bouwde een zagerij en herstelde de brouwerij. Hij stierf in 1893; op zijn graf staat ‘Juraj Pejko, dichter’."
+        },
+        {
+          "id": "fact_007",
+          "title": "Beta Poničanová – actrice van het Slowaakse Nationale Theater, geboren in Predajná",
+          "text": "Alžbeta ‘Beta’ Poničanová, geboren Kindernayová, werd op 26 september 1908 in Predajná geboren. In 1933 trad zij toe tot het Slowaakse Nationale Theater en bleef daar meer dan vier decennia, tot 1980. Zij speelde onder meer in de films Vlčie diery, Rodná zem en Drevená dedina. Van 1951 tot 1957 doceerde zij toneelspraak aan de Academie voor Podiumkunsten in Bratislava. Zij ontving de Nationale Prijs in 1949, een staatsonderscheiding in 1960 en de titel Verdienstelijk Kunstenaar in 1967. Zij overleed in Bratislava in 1987."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
