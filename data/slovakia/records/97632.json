@@ -66,16 +66,17 @@
       "sources": [
         "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/UB_Badin_UNION.pdf",
         "https://www.fpv.umb.sk/app/cmsSiteBoxAttachment.php?ID=3101",
-        "https://www.obecbadin.sk/o-obci-0.html"
+        "https://www.obecbadin.sk/o-obci-0.html",
+        "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf"
       ],
       "location": {
-        "name": "Historická oblast uhelného dolu Badín – lokalita Baňa",
+        "name": "Badínska baňa – historická montánní lokalita",
         "address": null,
-        "lat": 48.6745272,
-        "lon": 19.0973803,
+        "lat": 48.6758,
+        "lon": 19.11536,
         "type": "historic_mine",
-        "accuracy": "area_representative",
-        "source": "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/UB_Badin_UNION.pdf"
+        "accuracy": "approximate",
+        "source": "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf"
       },
       "map_category": "technical_heritage"
     },
@@ -160,7 +161,7 @@
     "postcode_conflict_note": null,
     "delivery_office_note": "Poloha pošty nebyla použita k výběru reprezentativního bodu; reprezentativní bod odpovídá geografické poloze obce uvedené v obecním rozvojovém dokumentu.",
     "postcode_override_reason": null,
-    "geographic_authority": "Oficiální obecní web a rozvojový dokument potvrzují Badín v okrese Banská Bystrica a Banskobystrickém kraji a uvádějí geografickou polohu obce. Správa CHKO Poľana a Štátny zoznam chránených území potvrzují polohu Badínskeho pralesa v katastru Badína a jeho středové souřadnice. Památkové a odborné zdroje podporují polohy kostelů a semináře; přesný polygon doručovací oblasti PSČ nebyl ověřen."
+    "geographic_authority": "Oficiální obecní web a rozvojový dokument potvrzují Badín v okrese Banská Bystrica a Banskobystrickém kraji a uvádějí geografickou polohu obce. Správa CHKO Poľana a Štátny zoznam chránených území potvrzují polohu Badínskeho pralesa v katastru Badína a jeho středové souřadnice. Památkové a odborné zdroje podporují polohy kostelů a semináře; přesný polygon doručovací oblasti PSČ nebyl ověřen. Souřadnice historické lokality Badínskej bane byly ověřeny v pasportu lokalit Banskobystrického geoparku; Hrádok má samostatný mapový bod a není zaměněn s důlním areálem."
   },
   "sources": [
     {
@@ -257,6 +258,11 @@
       "title": "OMA – orientační poloha Badína a PSČ 976 32",
       "url": "https://badin.oma.sk/u/druzstevna",
       "type": "other"
+    },
+    {
+      "title": "Banskobystrický geopark – pasport lokalit, poloha Badínskej bane",
+      "url": "https://www.geopark.sk/wp-content/uploads/2018/12/priloha_6.pdf",
+      "type": "specialist"
     }
   ],
   "translations": {
