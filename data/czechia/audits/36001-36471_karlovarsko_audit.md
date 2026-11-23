@@ -23,7 +23,7 @@ Kanonický inventář byl ověřen proti `data/czechia/reference/ruian_postcodes
 ```
 
 - Počáteční stav: 27 záznamů, 295 faktů.
-- Po doplnění čtyř nových faktů: **27 záznamů, 299 faktů**.
+- Po doplnění čtyř nových faktů: **27 záznamů, 298 faktů**.
 - ID záznamů: 9178–9204.
 - Všechny záznamy zůstávají `validated`, `data_version=1`.
 
@@ -144,7 +144,7 @@ Read-back potvrdil všech 7 jazyků, v každém 9/9 faktů se správnými ID a b
 
 ## 6. Délka českých master textů
 
-Po dokončení reworku byla znovu zkontrolována délka všech **299 českých master textů** v celé skupině 27 PSČ.
+Po dokončení reworku byla znovu zkontrolována délka všech **298 českých master textů** v celé skupině 27 PSČ.
 
 **PASS — 0 faktů pod 350 znaků.**
 
@@ -158,7 +158,7 @@ Původní seznam 51 krátkých českých textů je vyřešen: všech 51 položek
 - Administrativní okres/kraj a shoda city: PASS.
 - Doplnění významných turistických a historických mezer: provedeno.
 - Původně doplněné mapové body: 6/6 ověřeno.
-- Český text kratší než 350 znaků: 0/299.
+- Český text kratší než 350 znaků: 0/298.
 - Devět reworkovaných PSČ: 136 faktů, 952 překladových položek, kompletní jazykové sady, 0 prázdných textů, 0 českých nesouladů, 0 chybějících zdrojů.
 - Polohy v devíti reworkovaných PSČ: 135/136 vyplněno; jedinou výjimkou je záměrně negeolokalizovaná pískovna 36273/fact_004.
 - Prázdné polohy v celé skupině 27 PSČ: 1 položka; jde o záměrně negeolokalizovanou pískovnu u Vojkovic.
@@ -179,4 +179,23 @@ Byly doplněny chybějící významné údaje v těchto překladech (vždy ve v�
 
 Read-back po zápisu potvrdil všech 24 upravených překladových položek a přítomnost klíčových letopočtů. Tyto opravy neměnily české master texty, zdroje, ID faktů, polohy, stav ani verzi záznamů.
 
-**Stav úplné sémantické revize všech původních překladů v celém bloku: stále otevřený.** Výše uvedené opravy jsou dokončené dílčí nálezy, nikoli potvrzení úplné kontroly všech 299 faktů.
+**Stav úplné sémantické revize všech původních překladů v celém bloku: stále otevřený.** Výše uvedené opravy jsou dokončené dílčí nálezy, nikoli potvrzení úplné kontroly všech 298 faktů.
+
+
+### Pokračování sémantické kontroly překladů — 23. 11. 2026
+
+**Dokončené úplné jazykové průchody (CS master proti DE/EN/ES/FR/IT/NL):** 36272, 36273, 36301, 36401, 36453 a 36464. U ostatních zde uvedených PSČ proběhla jen cílená nebo částečná kontrola; nelze je zatím označit za kompletně zkontrolované.
+
+**Opravy potvrzené read-backem v Supabase:**
+- 36263: v pěti cizojazyčných verzích fact_001 doplněna lokalita Všeborovice; ve všech šesti cizojazyčných verzích fact_004 doplněna Körnerova busta a ve fact_005 poloha kostela nad levým břehem Vitického potoka.
+- 36272: v nizozemském fact_007 opravena záměna kaple sv. Anny za kostel.
+- 36453: ve španělském fact_002 opraven název Čapkova dramatu na *El caso Makropulos*; v nizozemském fact_008 opravena záměna návesní kaple sv. Anny za kostel.
+- 36461: ve všech šesti cizojazyčných verzích fact_005 doplněna souvislost obou kaplí s Kryštofem Dientzenhoferem a datem staršího návrhu 1730.
+- 36464: nizozemský fact_006 opraven z kostela na kapli sv. Anny. Záznam fact_005 o Otročíně byl z PSČ 36464 odstraněn, protože popisoval samotnou část obce Otročín (PSČ 36401), nikoli část Měchov obsluhovanou PSČ 36464; stejný obsah již náleží do správného bloku 36401. Přesná poloha původního faktu byla v Otročíně a v externí tabulce explorer_map_points pro 36464/fact_005 nebyl žádný navázaný bod. Po odstranění má záznam 36464 osm faktů a všech sedm jazykových polí má shodně osm položek.
+- 36471: v nizozemském fact_001 opraven chybný význam výrazu „městečko“ (marktplaats → marktstadje).
+
+Při ověření po odstranění chybně přiřazeného faktu klesl celkový počet faktů v této skupině z 299 na **298**. Ostatní ID faktů a obsah správného záznamu 36401 zůstaly nedotčené. Záznamy nebyly publikovány ani převedeny na V5.
+
+**Zbývající práce:** úplná sémantická revize překladů u dosud neprošlých a částečně prošlých PSČ v celé skupině. Stav bloku proto zůstává **REVIEW REQUIRED**.
+
+Ověření přiřazení Otročína k PSČ: https://regiony.kurzy.cz/psc/otrocin/ulice/ ; přehled PSČ 36401: https://www.posty-psc.cz/36401/ ; přehled PSČ 36464: https://www.posty-psc.cz/36464/ .
