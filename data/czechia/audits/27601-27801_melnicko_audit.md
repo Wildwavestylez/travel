@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-MELNICKO-27601-27801`  
 **Datum auditu:** 2026-11-23  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **PASS — audit dokončen; 33/33 PSČ publikováno jako `data_version=5`, `status=published`; Dropbox backup čeká na dedikovanou funkci.**
+**Výsledek:** **PASS — audit dokončen; 33/33 PSČ PUBLISHED V5; Dropbox BACKUP VERIFIED; Neon IMPORT VERIFIED; Dropbox záloha ponechána beze změny.**
 
 ## 1. Rozsah a inventář
 
@@ -49,7 +49,7 @@ Mělnické vinařství a soutok Labe s Vltavou se při bližší kontrole ukáza
 - Nebyly zjištěny neplatné hodnoty kategorií, priorit ani `map_category`.
 - Nebyly zjištěny prázdné seznamy zdrojů.
 - Nebyly zjištěny duplicitní názvy faktů. Dvě opakující se obecné názvové podoby kostelů označují různé stavby v různých obcích, nejde o duplicity.
-- Všech **33/33 záznamů** má `status=validated`. Existující hodnoty `data_version` 1 a 2 byly ponechány; audit neměnil životní cyklus záznamů.
+- Po dokončení auditu bylo na výslovný pokyn publikováno všech **33/33 záznamů** jako `data_version=5`, `status=published`; stav byl ověřen zpětným načtením ze Supabase.
 
 ## 4. Geografická kontrola
 
@@ -75,19 +75,47 @@ Dvě původně neplatné hodnoty typu polohy byly opraveny podle schématu. U v�
 
 ## 5. Mapové body
 
-Mapové body byly kontrolovány pouze pro ID vybraných 33 záznamů.
+Mapové body byly kontrolovány pouze pro přesná ID vybraných 33 záznamů. Před publikací byly existující mapové body evidovány u PSČ 27736, 27741, 27742 a 27743; ruční zásah do mapového indexu nebyl proveden.
 
-Existující řádky v `explorer_map_points` jsou v tomto rozsahu pouze u PSČ 27736, 27741, 27742 a 27743. Mapové body nebyly ručně vytvářeny ani měněny. Záznamy zůstávají ve stavu `validated`; synchronizace mapového indexu patří k publikačnímu kroku, nikoli k tomuto auditu. Nové polohy jsou uloženy v obsahu faktů a budou součástí následného publikačního procesu.
+Po publikaci trigger `postal_codes_sync_explorer_map_points` automaticky synchronizoval všechny polohy faktů do `explorer_map_points`: **290/290 faktů s polohou má právě jeden odpovídající mapový bod**, 0 chybějících a 0 nadbytečných. Jediná záměrná poloha `null` (27705 / `fact_001`) zůstala bez mapového bodu.
 
-## 6. Publikace a životní cyklus
+## 6. Publikace, Dropbox backup a Neon import
 
-- Na výslovný pokyn uživatele bylo publikováno všech **33/33 PSČ**: `data_version=5`, `status=published`. Read-back potvrdil přesný seznam všech 33 PSČ, 291 faktů a 0 výjimek.
-- Trigger `postal_codes_sync_explorer_map_points` automaticky synchronizoval mapový index: **290/290 faktů s polohou má odpovídající mapový bod**, 0 chybějících a 0 nadbytečných; 1 záměrný null zůstal bez bodu.
-- Dropbox backup zatím nebyl spuštěn. V Supabase Edge Functions není existující dedikovaná funkce pro rozsah 27601–27801 ani odpovídající pracovní vlna v `backup_work_waves`. Funkce `travel-backup-validated` umí cílený JSON export a manifest, ale negeneruje restore SQL; podle závazného postupu ji proto nelze vydávat za kompletní tří-souborovou zálohu.
-- Nebyl proveden import do Neon.
-- Nebyl aktivován read-only lock.
+### Supabase — PUBLISHED V5
+
+- Na výslovný pokyn uživatele bylo publikováno všech **33/33 PSČ**: `data_version=5`, `status=published`.
+- Read-back potvrdil přesný seznam 33 PSČ, 291 faktů a 0 výjimek.
+- Trigger `postal_codes_sync_explorer_map_points` synchronizoval **290/290 mapových bodů**, 0 chybějících a 0 nadbytečných; 1 záměrný null zůstal bez bodu.
+- Samostatná validace pomocí AJV nebo `pg_jsonschema` nebyla deklarována; proběhly cílené strukturální a enum kontroly podle `schema.json` a `CONTENT_STANDARD.md`.
+
+### Dropbox — BACKUP VERIFIED
+
+- Dedikovaná Supabase Edge Function: `travel-backup-cz-27601-27801-melnicko`.
+- Work wave: `CZ-AUDIT-MELNICKO-27601-27801-001` — `COMPLETE`; `backup_snapshots` — `VERIFIED`.
+- Backup ID: `CZ-AUDIT-MELNICKO-27601-27801-2026-11-23T18-03-57-535Z`.
+- Složka: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_MELNICKO_27601-27801_2026-11-23T18-03-57-535Z/`
+- JSON: `CZ_AUDIT_MELNICKO_27601-27801_backup.json` — 2 269 056 B; SHA-256 `244cd2fcd52914d01044758f80c30a0b03890c2bbf65cb50a4ec663dd45ee767`.
+- Restore SQL: `CZ_AUDIT_MELNICKO_27601-27801_restore.sql` — 2 000 191 B; SHA-256 `bd1a8678199dc7afae1dac873fb1e827b7adbc473a85c0e9722f7cb21c04a141`.
+- Manifest: `manifest.json` — 2 620 B; SHA-256 `234e35a925057941c80277b43ccd5f305062c62cafc185abf3c22d5d1da994cd`.
+- Všechny tři soubory byly po uploadu z Dropboxu znovu načteny; **3/3 SHA-256 read-back PASS**. Manifest potvrzuje `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=33`.
+- Scope hash: `7702dee54ae0503af3a903a9c3198c144ff526068fd65cb09e3ce5c7f4060643`.
+- Dropbox záloha je vedena jako neměnná historická kopie s `delete_after=null`; **po importu do Neonu zůstává v Dropboxu beze změny**.
+
+### Neon — IMPORT VERIFIED
+
+- Cíl: **Europe Explorer → Production → `neondb.public.czechia_cap_records`**.
+- Před importem byla vytvořena ochranná větev `pre-melnicko-27601-27801-import-20261123` (`br-bitter-voice-bglrxthz`) z produkční větve. Tato větev zachovává stav před importem: 909 záznamů a 0 PSČ Mělnicka.
+- Před importem bylo v produkční tabulce ověřeno 0 kolizí PSČ a 0 kolizí `source_record_id` pro rozsah ID 8857–8889.
+- Z ověřeného JSON souboru přímo z Dropboxu bylo vloženo **33/33 záznamů** metodou `INSERT ... ON CONFLICT DO NOTHING`, v pěti dávkách. Žádný existující řádek nebyl přepsán ani odstraněn.
+- Finální read-back: **33/33 PSČ**, 33/33 `published` + `content_version=5`; **291 faktů**; všech 7 jazykových sad (CS, DE, EN, ES, FR, IT, NL) má 291/291 položek; `record.postcode` souhlasí v 33/33; 33 unikátních zdrojových ID 8857–8889.
+- Zvlášť ověřeno `27714`: city Dřísy, county Praha-východ, 9 faktů, `source_record_id=8867`.
+- Celkový počet záznamů v české Neon tabulce po importu: **942** (před importem 909).
+- Ochranná větev zůstává zachována; Dropboxová záloha nebyla po importu měněna.
+
+### Ostatní provozní stav
+
+- Nebyl aktivován read-only lock; nebyl součástí uživatelského pokynu.
 - `sequence.json` zůstává beze změny.
-- Samostatná validace pomocí AJV nebo `pg_jsonschema` nebyla deklarována. Provedeny byly cílené strukturální a enum kontroly proti `schema.json` a `CONTENT_STANDARD.md`.
 
 ## 7. Použité podklady
 
@@ -104,4 +132,4 @@ Externí podklady pro tematické a geografické ověření zahrnovaly zejména N
 
 ---
 
-**Konečný stav: PASS — 33/33 PSČ, 291 faktů.** Jediná nevyplněná poloha je zdokumentovaná jako záměrný null kvůli nedostupným bezpečným bodovým souřadnicím. Audit je dokončen; publikace V5 a následné mapové synchronizace zůstávají samostatným krokem.
+**Konečný stav: PASS / PUBLISHED V5 / BACKUP VERIFIED / NEON IMPORT VERIFIED.** 33/33 PSČ, 291 faktů, 290 mapových bodů; jediná nevyplněná poloha je zdokumentovaná jako záměrný null. Dropbox obsahuje trvalou ověřenou zálohu a zůstává beze změny.
