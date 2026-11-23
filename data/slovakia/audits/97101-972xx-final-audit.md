@@ -47,11 +47,14 @@ The following 19 fact locations were filled with explicit source-backed exact, a
 
 No fact IDs, fact prose, source lists, primary postcode assignments, record status or version metadata were changed by these location repairs. All records remain `validated`.
 
+- 97228: fact_005 — Valaská Belá settlement orientation point for embroidery tradition; fact_007 — Podskalie locality orientation point near the Belanka stream, not the exact gorge; fact_008 — Škrípov (Studienka) locality orientation point near the documented execution site and memorial.
+- 97229: fact_001 — Čavoj settlement orientation point; exact historic mine locations remain unknown.
+
 ## Open items — REVIEW REQUIRED
 
 ### Missing fact locations
 
-There are now 41 facts with `location: null` in 17 records. Nineteen fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
+There are now 37 facts with `location: null` in 16 records. Twenty-three fact locations have been repaired and read back from GitHub; all corresponding Database Viewer index entries were synchronized. These must be evaluated individually against the Slovak Content Standard location hierarchy. Do not copy the postcode representative point automatically. Where the story is genuinely area-level and has no exact site, use a justified municipal/public orientation point or `postal_area` point with honest accuracy; where a more specific site can be established, use it. Do not invent coordinates.
 
 | Postcode | Facts with null location |
 |---|---|
@@ -59,8 +62,8 @@ There are now 41 facts with `location: null` in 17 records. Nineteen fact locati
 | 97222 | fact_002, fact_006 |
 | 97223 | fact_004 |
 | 97227 | fact_005 |
-| 97228 | fact_005, fact_006, fact_007, fact_008 |
-| 97229 | fact_001 |
+| 97228 | fact_006 |
+
 | 97231 | fact_001, fact_004 |
 | 97232 | fact_001, fact_004, fact_005 |
 | 97241 | fact_001, fact_003, fact_004 |
@@ -101,4 +104,4 @@ The records describe address evidence, but the geographic test flag is false and
 
 ## Next action
 
-Resolve the remaining 41 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
+Resolve the remaining 37 missing fact locations individually and complete the geographic verification for 97211, 97212, 97215 and 97216. Re-read and validate only changed records, synchronize the corresponding `database_index.json` entries, then reassess the full block for publication eligibility. Preserve all fact IDs, source URLs, primary assignments and version metadata.
