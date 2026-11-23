@@ -6,7 +6,7 @@ This is the complete, approved Austrian research and rework instruction. It defi
 
 **Final-state rule:** every project specification must describe the finished system and the complete standard that applies now. Do not introduce preparation-only standards, provisional requirements, future additions, placeholders or wording that postpones a defined requirement. If a required project document or production structure is incomplete or conflicts with this contract, correct that source document first and then continue the actual work against the complete standard. Do not stop content work merely because an unrelated preparatory artifact is missing when the required facts can be responsibly verified from authoritative sources.
 
-**Data lifecycle:** the canonical geographic inventory and work order are defined by `sequence.json`. Each record is fully researched and reworked on GitHub, then receives a separate final audit. Records that pass audit are prepared as V5, approved and marked `published` on GitHub. Only published GitHub records are copied to Neon. GitHub is the authoritative working and publication source; Neon is the published copy, not an alternative editing source. These lifecycle gates govern record status; they do not make the specification, schema or standard provisional.
+**Data lifecycle and file layout:** `sequence.json` is the canonical inventory and work order. Every sequence item has exactly one file at `data/austria/records/{postcode}.json`, using the same flat directory structure as Slovakia. Initially each file is a valid minimal placeholder containing only `postcode` and `status: "placeholder"` (optional `data_version` may be omitted or null). Rework replaces the placeholder with the complete schema-valid record and sets `status` to `validated` only after the full record is finished and validated. A separate final audit follows; passed records are prepared as V5, approved and then marked `published` on GitHub. Only published GitHub records are copied to Neon. Placeholder records are not content-audit or publication candidates. GitHub is the authoritative working and publication source; Neon is the published copy. These lifecycle gates govern record status; they do not make the specification, schema or standard provisional.
 
 ## Required inputs
 
@@ -43,8 +43,8 @@ Research the full defensible area associated with the selected PLZ. If the code 
 11. Write concise but substantive Czech source-language facts and complete all seven required translations.
 12. Build the complete JSON using only approved schema fields and controlled values.
 13. Validate the entire JSON against the approved schema and all Content Standard requirements.
-14. Save the complete reworked JSON record to its canonical GitHub working location, preserving the established file naming, sequence and version conventions. Do not create placeholder records or save a partial record as if it were complete.
-15. Rework completion and publication are distinct lifecycle states. Do not mark a record `published` during rework; publication follows only after the separate final audit, V5 preparation and approval.
+14. Save the complete reworked JSON to `data/austria/records/{postcode}.json`, replacing the minimal placeholder. Set `status` to `validated` only after the complete record passes schema and content validation. Never save a partial content record as `validated`.
+15. Rework completion and publication are distinct lifecycle states. A completed rework is `validated`, not `published`. Do not mark a record `published` during rework; publication follows only after the separate final audit, V5 preparation and approval.
 
 ## Austrian authority routing — mandatory
 
@@ -80,7 +80,7 @@ If the official sources disagree, record both values and their reference dates a
 - Do not treat an address/contact postcode as proof of a site's physical PLZ.
 - Do not use one fact's location as another fact's location.
 - Do not copy the representative point into fact locations.
-- Do not copy working or unaudited records to Neon. Do not mark a record `published` during rework; the `published` state is reserved for records that have passed the final audit and V5 preparation.
+- Keep untouched inventory files as minimal `placeholder` records. A reworked record must be complete and schema-valid before setting `status: "validated"`. Do not audit or publish placeholders. Do not copy working or unaudited records to Neon. Do not mark a record `published` during rework; that state is reserved for records that have passed the final audit, V5 preparation and approval.
 - If a material source or geographic conflict cannot be resolved, report it rather than guessing.
 
 ## Shared technical record contract — mandatory
