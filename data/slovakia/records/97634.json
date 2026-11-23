@@ -1,4 +1,510 @@
 {
   "postcode": "97634",
-  "status": "placeholder"
+  "city": "Tajov",
+  "district": null,
+  "district_type": null,
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Historické jádro Tajova",
+  "representative_point": {
+    "lat": 48.7461166,
+    "lon": 19.0699216
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Tajovská huta – významné centrum zpracování mědi v thurzovsko-fuggerovské éře",
+      "text": "Tajov se rozvíjel jako hutnická osada spojená s velkým středoslovenským měděným podnikem. Thurzovsko-fuggerovská společnost zde na přelomu 15. a 16. století vybudovala dvě hutě: jednu pro oddělování stříbra od mědi a druhou pro rafinaci kovu. Banská komora převzala provoz v polovině 16. století a hutě pracovaly až do roku 1893. V době největšího rozkvětu v 16. století zaměstnávaly přibližně 70 až 100 lidí. Hutnictví ovlivnilo vznik a podobu sídla, místní řemesla i krajinu okolních údolí.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bff084-c44c-4c39-ab63-14312eae8694",
+        "https://www.obectajov.sk/obec-2/tipy-na-turistiku/tunel/",
+        "https://www.e-obce.sk/obec/tajov/2-historia.html"
+      ],
+      "location": {
+        "name": "Tajov – orientační bod historické hutnické osady",
+        "address": null,
+        "lat": 48.7461166,
+        "lon": 19.0699212,
+        "type": "historic_industrial_site",
+        "accuracy": "area_representative",
+        "source": "https://tajov.oma.sk/c/86"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_002",
+      "title": "Jozef Murgaš a Jozef Gregor Tajovský – dva výrazní rodáci z Tajova",
+      "text": "Tajov je rodištěm dvou osobností, jejichž práce přesáhla hranice regionu. Jozef Murgaš (1864–1929), katolický kněz, malíř a průkopník bezdrátové telegrafie, získal ve Spojených státech řadu patentů; jeho takzvaný tónový systém umožňoval přenášet zprávy pomocí tónů různé výšky. Jozef Gregor Tajovský (1874–1940) se stal významným slovenským prozaikem a dramatikem, autorem her Ženský zákon a Statky-zmätky. Jejich život a dílo připomíná pamětní dům v Tajově, umístěný v rodném domě Tajovského a věnovaný oběma rodákům.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/jozef-murgas/",
+        "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/jozef-gregor-tajovsky/",
+        "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/pamatny-dom-j-g-tajovskeho-a-jozefa-murgasa/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bff084-c44c-4c39-ab63-14312eae8694"
+      ],
+      "location": {
+        "name": "Pamětní dům J. G. Tajovského a Jozefa Murgaše, Tajov 86",
+        "address": "Tajov 86, 976 34 Tajov, Slovensko",
+        "lat": 48.7461397,
+        "lon": 19.0691812,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://tajov.oma.sk/c/86"
+      },
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Jana Křtitele v Tajově – renesanční stavba spojená s hutnickou osadou",
+      "text": "Římskokatolický kostel sv. Jana Křtitele patří k nejvýraznějším historickým stavbám Tajova. Jeho vznik souvisí s rozvojem hutnické osady v 16. století; tradiční datace uvádí roky 1595–1597, zatímco novější místní historický výzkum upozorňuje na starší počátky stavby před rokem 1546. Původně renesanční kostel byl v 18. století barokně upraven a jeho věž pochází z roku 1702. Z chrámu je známá také gotická plastika hlavy sv. Jana Křtitele z doby kolem roku 1480, dnes uchovávaná ve sbírkách Stredoslovenského muzea v Banské Bystrici.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bff084-c44c-4c39-ab63-14312eae8694",
+        "https://www.pamiatkynaslovensku.sk/tajov-kostol-sv-jana-krstitela",
+        "https://www.e-obce.sk/obec/tajov/2-historia.html"
+      ],
+      "location": {
+        "name": "Kostel sv. Jana Křtitele, Tajov",
+        "address": "Tajov 136, 976 34 Tajov, Slovensko",
+        "lat": 48.74694,
+        "lon": 19.07094,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/tajov-kostol-sv-jana-krstitela"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kordíky – uhlířská osada, která zásobovala hutě v Tajově",
+      "text": "Kordíky vznikly ve druhé polovině 16. století jako osada spojená s hospodářským zázemím banskobystrických hutí. Na zdejších uhliscích se pálilo dřevěné uhlí potřebné pro hutní provozy v Tajově. Obyvatelé se živili také prací v lesích, pastvou a výrobou dřevěného nádobí. Historické prameny k počátkům obce jsou neúplné: obecní materiály uvádějí několik rozdílných dat prvních zmínek, a proto nelze jedno z nich vydávat za jisté. Současná kaple Navštívení Panny Marie byla postavena roku 1927 na místě starší kaple z roku 1837.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obeckordiky.sk/historia-obce/",
+        "https://www.obeckordiky.sk/o-obci/"
+      ],
+      "location": {
+        "name": "Centrum Kordík – orientační bod u obecního úřadu a kaple",
+        "address": "Kordíky 59, 976 34 Kordíky, Slovensko",
+        "lat": 48.772,
+        "lon": 19.0229,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.ajdnes.sk/centrum-obce/kordiky/l6850"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Králiky – horská obec s tradicí dřevařství a těžkého života v horách",
+      "text": "Králiky leží ve východní části Kremnických vrchů přibližně v nadmořské výšce 800 metrů. Obec vznikla po roce 1696 na majetku rodu Radvanských; první písemná zmínka pochází z roku 1773, kdy se uvádí název Králiti. Obyvatelé se věnovali horskému zemědělství, práci v lesích a výrobě dřevěného nádobí. Po první světové válce se zde uskutečnily také pokusy o těžbu uhlí a fungovala družstevní pálenice. Vývoj sídla odráží hospodářství horských obcí, které musely přizpůsobit každodenní život náročným přírodním podmínkám.",
+      "category": "history",
+      "priority": "D",
+      "sources": [
+        "https://www.obeckraliky.sk/obec-2/historia/"
+      ],
+      "location": {
+        "name": "Králiky – centrum obce, orientační bod",
+        "address": null,
+        "lat": 48.7343951,
+        "lon": 19.0281144,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://kraliky.oma.sk/"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_006",
+      "title": "Králická tiesňava a vodopád – přírodní památka v Kremnických vrších",
+      "text": "Králická tiesňava je chráněná přírodní památka v Kremnických vrších, jejíž území zasahuje do katastru obce Králiky a města Banská Bystrica. Farebný potok zde na geologickém rozhraní vytvořil hlubší údolí se skalními stěnami a úzkými soutěskovými úseky vysokými až kolem 20 metrů. Nejznámějším místem je Králický vodopád, přibližně sedm metrů vysoký. Lokalita ukazuje sopečný původ pohoří i působení vody na rozhraní různých hornin. Do záznamu je zařazen samotný vodopád na straně Králik; celé chráněné území se nepřipisuje výhradně tomuto PSČ.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://cdn.banskabystrica.sk/2022/08/Bystricky-Permon-02-2022.pdf",
+        "https://poi.oma.sk/n6051519282"
+      ],
+      "location": {
+        "name": "Králický vodopád, Králická tiesňava",
+        "address": "Priehon 17, 976 34 Králiky, Slovensko",
+        "lat": 48.7326982,
+        "lon": 19.0383176,
+        "type": "nature_reserve",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n6051519282"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální vyhledávač PSČ Slovenské pošty potvrzuje PSČ 976 34 pro Tajov; oficiální obecní zdroje uvádějí adresy s tímto PSČ v Tajově, Kordíkách a Králikách. Jabriková je doložena jako místní část Tajova a obecní adresy v této části používají 976 34. Seznam PSČ ParcelForce uvádí také konkrétní ulici Nevoľné v Riečke. Tyto podklady potvrzují geografické užití kódu, nikoli úplný oficiální polygon doručovací oblasti.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávač PSČ Slovenské pošty; obecní adresní evidence Tajova, Kordík a Králik; seznam PSČ ParcelForce 2019",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-23",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Rozsah se v sekundárních seznamech liší podle úrovně členění: vedle obcí Tajov, Kordíky a Králiky je uvedena místní část Jabriková v Tajově a konkrétní ulice Nevoľné v Riečke. Nevyvozujeme z toho příslušnost celé obce Riečka ani přesný polygon PSČ.",
+    "delivery_office_note": "Oficiální obecní stránka uvádí poštu Tajov s PSČ 976 34. Poloha pošty nebyla použita jako reprezentativní bod ani jako důvod výběru města.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústřední portál veřejné správy potvrzuje okres Banská Bystrica a Banskobystrický kraj pro Tajov a uvádí místní části Jabriková a Tajov. Oficiální obecní zdroje dokládají fyzické adresy Kordík a Králik. Poloha orientačního bodu Tajova, Kordík, Králik a vodopádu byla ověřena v mapových datech OMA/OpenStreetMap; přesný polygon doručovací oblasti nebyl ověřen."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – oficiální vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Tajov – údaje o poště Tajov a PSČ 976 34",
+      "url": "https://www.obectajov.sk/institucie/slovenska-posta/",
+      "type": "official"
+    },
+    {
+      "title": "Ústřední portál veřejné správy – obec Tajov, historie a místní části",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bff084-c44c-4c39-ab63-14312eae8694",
+      "type": "official"
+    },
+    {
+      "title": "Obec Tajov – Jozef Murgaš",
+      "url": "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/jozef-murgas/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Tajov – Jozef Gregor Tajovský",
+      "url": "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/jozef-gregor-tajovsky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Tajov – Pamětní dům J. G. Tajovského a Jozefa Murgaša",
+      "url": "https://www.obectajov.sk/obec-2/o-obci/slavni-rodaci/pamatny-dom-j-g-tajovskeho-a-jozefa-murgasa/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Tajov 86, souřadnice pamětního domu",
+      "url": "https://tajov.oma.sk/c/86",
+      "type": "other"
+    },
+    {
+      "title": "Pamiatky na Slovensku – kostel sv. Jana Křtitele v Tajově, GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/tajov-kostol-sv-jana-krstitela",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Tajov – historický tunel a hutnická historie",
+      "url": "https://www.obectajov.sk/obec-2/tipy-na-turistiku/tunel/",
+      "type": "official"
+    },
+    {
+      "title": "E-Obce – Tajov, dějiny a hutě",
+      "url": "https://www.e-obce.sk/obec/tajov/2-historia.html",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Kordíky – historie obce",
+      "url": "https://www.obeckordiky.sk/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kordíky – o obci, uhlířská tradice",
+      "url": "https://www.obeckordiky.sk/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "AjDnes – centrum obce Kordíky, souřadnice",
+      "url": "https://www.ajdnes.sk/centrum-obce/kordiky/l6850",
+      "type": "other"
+    },
+    {
+      "title": "Obec Králiky – historie obce",
+      "url": "https://www.obeckraliky.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Králiky, orientační bod obce a PSČ",
+      "url": "https://kraliky.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Bystrický Permon – Králická tiesňava a vodopád",
+      "url": "https://cdn.banskabystrica.sk/2022/08/Bystricky-Permon-02-2022.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "OMA – Králický vodopád, souřadnice a adresa",
+      "url": "https://poi.oma.sk/n6051519282",
+      "type": "other"
+    },
+    {
+      "title": "ParcelForce – seznam slovenských PSČ, položka 976 34",
+      "url": "https://www.parcelforce.com/sites/default/files/SK%20Postcodes%20Jul19%20v1%20260719.pdf",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Nevoľné, Riečka, adresa s PSČ 976 34",
+      "url": "https://poi.oma.sk/n3101747887",
+      "type": "other"
+    },
+    {
+      "title": "Obec Kordíky – oficiální web a kontaktní adresa",
+      "url": "https://www.obeckordiky.sk/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro Tajova",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tajovská huta – významné centrum zpracování mědi v thurzovsko-fuggerovské éře",
+          "text": "Tajov se rozvíjel jako hutnická osada spojená s velkým středoslovenským měděným podnikem. Thurzovsko-fuggerovská společnost zde na přelomu 15. a 16. století vybudovala dvě hutě: jednu pro oddělování stříbra od mědi a druhou pro rafinaci kovu. Banská komora převzala provoz v polovině 16. století a hutě pracovaly až do roku 1893. V době největšího rozkvětu v 16. století zaměstnávaly přibližně 70 až 100 lidí. Hutnictví ovlivnilo vznik a podobu sídla, místní řemesla i krajinu okolních údolí."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš a Jozef Gregor Tajovský – dva výrazní rodáci z Tajova",
+          "text": "Tajov je rodištěm dvou osobností, jejichž práce přesáhla hranice regionu. Jozef Murgaš (1864–1929), katolický kněz, malíř a průkopník bezdrátové telegrafie, získal ve Spojených státech řadu patentů; jeho takzvaný tónový systém umožňoval přenášet zprávy pomocí tónů různé výšky. Jozef Gregor Tajovský (1874–1940) se stal významným slovenským prozaikem a dramatikem, autorem her Ženský zákon a Statky-zmätky. Jejich život a dílo připomíná pamětní dům v Tajově, umístěný v rodném domě Tajovského a věnovaný oběma rodákům."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel sv. Jana Křtitele v Tajově – renesanční stavba spojená s hutnickou osadou",
+          "text": "Římskokatolický kostel sv. Jana Křtitele patří k nejvýraznějším historickým stavbám Tajova. Jeho vznik souvisí s rozvojem hutnické osady v 16. století; tradiční datace uvádí roky 1595–1597, zatímco novější místní historický výzkum upozorňuje na starší počátky stavby před rokem 1546. Původně renesanční kostel byl v 18. století barokně upraven a jeho věž pochází z roku 1702. Z chrámu je známá také gotická plastika hlavy sv. Jana Křtitele z doby kolem roku 1480, dnes uchovávaná ve sbírkách Stredoslovenského muzea v Banské Bystrici."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – uhlířská osada, která zásobovala hutě v Tajově",
+          "text": "Kordíky vznikly ve druhé polovině 16. století jako osada spojená s hospodářským zázemím banskobystrických hutí. Na zdejších uhliscích se pálilo dřevěné uhlí potřebné pro hutní provozy v Tajově. Obyvatelé se živili také prací v lesích, pastvou a výrobou dřevěného nádobí. Historické prameny k počátkům obce jsou neúplné: obecní materiály uvádějí několik rozdílných dat prvních zmínek, a proto nelze jedno z nich vydávat za jisté. Současná kaple Navštívení Panny Marie byla postavena roku 1927 na místě starší kaple z roku 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – horská obec s tradicí dřevařství a těžkého života v horách",
+          "text": "Králiky leží ve východní části Kremnických vrchů přibližně v nadmořské výšce 800 metrů. Obec vznikla po roce 1696 na majetku rodu Radvanských; první písemná zmínka pochází z roku 1773, kdy se uvádí název Králiti. Obyvatelé se věnovali horskému zemědělství, práci v lesích a výrobě dřevěného nádobí. Po první světové válce se zde uskutečnily také pokusy o těžbu uhlí a fungovala družstevní pálenice. Vývoj sídla odráží hospodářství horských obcí, které musely přizpůsobit každodenní život náročným přírodním podmínkám."
+        },
+        {
+          "id": "fact_006",
+          "title": "Králická tiesňava a vodopád – přírodní památka v Kremnických vrších",
+          "text": "Králická tiesňava je chráněná přírodní památka v Kremnických vrších, jejíž území zasahuje do katastru obce Králiky a města Banská Bystrica. Farebný potok zde na geologickém rozhraní vytvořil hlubší údolí se skalními stěnami a úzkými soutěskovými úseky vysokými až kolem 20 metrů. Nejznámějším místem je Králický vodopád, přibližně sedm metrů vysoký. Lokalita ukazuje sopečný původ pohoří i působení vody na rozhraní různých hornin. Do záznamu je zařazen samotný vodopád na straně Králik; celé chráněné území se nepřipisuje výhradně tomuto PSČ."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tajovská huta – bedeutendes Kupferverarbeitungszentrum der Thurzo-Fugger-Zeit",
+          "text": "Tajov entwickelte sich als Hüttenort des großen mittelslowakischen Kupferunternehmens. Die Gesellschaft von Thurzo und Fugger errichtete um die Wende vom 15. zum 16. Jahrhundert zwei Hütten: eine zur Trennung von Silber und Kupfer und eine zur Raffination des Metalls. Mitte des 16. Jahrhunderts übernahm die Bergkammer den Betrieb; die Hütten arbeiteten bis 1893. Auf dem Höhepunkt im 16. Jahrhundert beschäftigten sie etwa 70 bis 100 Menschen. Die Metallurgie prägte die Entstehung und Gestalt des Ortes, das örtliche Handwerk und die umliegenden Täler."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš und Jozef Gregor Tajovský – zwei bedeutende Söhne von Tajov",
+          "text": "Tajov ist der Geburtsort zweier Persönlichkeiten, deren Wirken weit über die Region hinausreichte. Jozef Murgaš (1864–1929), katholischer Priester, Maler und Pionier der drahtlosen Telegrafie, erhielt in den USA zahlreiche Patente; sein Tonsystem übertrug Nachrichten mithilfe unterschiedlich hoher Töne. Jozef Gregor Tajovský (1874–1940) wurde ein bedeutender slowakischer Prosaautor und Dramatiker. Das Gedenkhaus im Geburtshaus Tajovskýs erinnert an Leben und Werk beider Männer."
+        },
+        {
+          "id": "fact_003",
+          "title": "Johannes-dem-Täufer-Kirche in Tajov – Renaissancebau der Hüttenortschaft",
+          "text": "Die römisch-katholische Kirche des heiligen Johannes des Täufers gehört zu den markantesten historischen Bauwerken von Tajov. Ihre Entstehung hängt mit dem Hüttenort des 16. Jahrhunderts zusammen; traditionell wird sie auf 1595–1597 datiert, während neuere lokale Forschungen ältere Anfänge vor 1546 vermuten. Die ursprünglich Renaissancekirche wurde im 18. Jahrhundert barock umgestaltet; der Turm stammt von 1702. Eine gotische Skulptur des Kopfes Johannes des Täufers um 1480 wird heute im Mittelslowakischen Museum in Banská Bystrica aufbewahrt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – Köhlersiedlung zur Versorgung der Hütten in Tajov",
+          "text": "Kordíky entstand in der zweiten Hälfte des 16. Jahrhunderts als Teil des wirtschaftlichen Hinterlands der Bergbauhütten von Banská Bystrica. In örtlichen Kohlenmeilern wurde Holzkohle für die Hütten in Tajov hergestellt. Die Einwohner arbeiteten außerdem im Wald, in der Viehhaltung und bei der Herstellung von Holzgeschirr. Die Quellen zur frühen Geschichte sind lückenhaft und nennen unterschiedliche Daten. Die heutige Kapelle Mariä Heimsuchung wurde 1927 anstelle einer älteren Kapelle von 1837 errichtet."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – Bergdorf mit Holzhandwerk und anspruchsvollen Lebensbedingungen",
+          "text": "Králiky liegt im östlichen Teil des Kremnitzer Gebirges auf etwa 800 Metern Höhe. Der Ort entstand nach 1696 auf Besitz der Familie Radvanský; die erste schriftliche Erwähnung stammt von 1773 unter dem Namen Králiti. Die Einwohner betrieben Berglandwirtschaft, arbeiteten im Wald und stellten Holzgeschirr her. Nach dem Ersten Weltkrieg gab es Versuche des Kohleabbaus und eine genossenschaftliche Brennerei. Die Geschichte zeigt, wie Berggemeinden ihren Alltag an schwierige natürliche Bedingungen anpassen mussten."
+        },
+        {
+          "id": "fact_006",
+          "title": "Králická tiesňava und Wasserfall – Naturdenkmal im Kremnitzer Gebirge",
+          "text": "Die Králická tiesňava ist ein geschütztes Naturdenkmal im Kremnitzer Gebirge und liegt teilweise im Kataster von Králiky und teilweise in Banská Bystrica. Der Bach Farebný formte hier ein tiefes Tal mit Felswänden und bis zu etwa 20 Meter hohen Schluchtabschnitten. Bekannt ist vor allem der rund sieben Meter hohe Králický-Wasserfall. Das Gebiet veranschaulicht den vulkanischen Ursprung des Gebirges und die Erosionswirkung des Wassers. Dem Postleitzahlgebiet wird hier nur der Wasserfall auf der Seite von Králiky zugeordnet."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tajov smelters – a major copper-processing centre in the Thurzo-Fugger era",
+          "text": "Tajov developed as a smelting settlement linked to the major central Slovak copper enterprise. Around the turn of the 15th and 16th centuries, the Thurzo-Fugger company built two works here: one to separate silver from copper and another to refine the metal. The Mining Chamber took over in the mid-16th century, and the smelters operated until 1893. At their 16th-century peak they employed about 70 to 100 people. Metallurgy shaped the settlement, local crafts and the surrounding valleys."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš and Jozef Gregor Tajovský – two notable sons of Tajov",
+          "text": "Tajov is the birthplace of two figures whose work reached far beyond the region. Jozef Murgaš (1864–1929), a Catholic priest, painter and wireless-telegraphy pioneer, obtained numerous patents in the United States; his tone system transmitted messages using tones of different pitches. Jozef Gregor Tajovský (1874–1940) became a major Slovak prose writer and playwright. A memorial house in Tajov, located in Tajovský’s family home, commemorates the lives and work of both men."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of St John the Baptist in Tajov – a Renaissance building linked to the smelting settlement",
+          "text": "The Roman Catholic Church of St John the Baptist is one of Tajov’s most distinctive historic buildings. Its origins are connected with the 16th-century smelting settlement; the traditional dating is 1595–1597, although recent local research points to beginnings before 1546. Originally Renaissance in style, it was remodelled in the Baroque period in the 18th century, and its tower dates from 1702. A Gothic sculpture of the head of St John the Baptist, dating to around 1480, is now held by the Central Slovak Museum in Banská Bystrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – a charcoal-burning settlement supplying the smelters of Tajov",
+          "text": "Kordíky emerged in the second half of the 16th century as part of the economic hinterland of the Banská Bystrica smelters. Charcoal was produced in local charcoal-burning sites to fuel the works in Tajov. Residents also worked in forests, kept livestock and made wooden household utensils. Sources for the village’s early history are incomplete and give differing dates, so none should be presented as a certain first written record. The present Chapel of the Visitation of the Virgin Mary was built in 1927, replacing an earlier chapel from 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – a mountain village shaped by forestry and demanding living conditions",
+          "text": "Králiky lies in the eastern Kremnica Mountains at about 800 metres above sea level. The settlement developed after 1696 on the Radvanský family’s estate; its first written record dates to 1773 under the name Králiti. Residents practised mountain farming, worked in the forests and made wooden utensils. After the First World War, experimental coal mining was attempted and a cooperative distillery operated in the village. Its history reflects how mountain communities adapted everyday life to demanding natural conditions."
+        },
+        {
+          "id": "fact_006",
+          "title": "Králická Gorge and waterfall – a natural monument in the Kremnica Mountains",
+          "text": "Králická Gorge is a protected natural monument in the Kremnica Mountains, extending into the cadastral territory of Králiky and Banská Bystrica. The Farebný stream carved a deep valley at a geological boundary, with rock walls and narrow gorge sections reaching about 20 metres. The best-known feature is the roughly seven-metre Králický Waterfall. The site illustrates the volcanic origin of the mountains and the erosive power of water. This record assigns only the waterfall on the Králiky side, not the entire protected area, to the postcode."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Las fundiciones de Tajov – un importante centro de transformación del cobre",
+          "text": "Tajov se desarrolló como asentamiento metalúrgico vinculado a la gran empresa cuprífera de Eslovaquia central. A finales del siglo XV y comienzos del XVI, la compañía Thurzo-Fugger construyó aquí dos instalaciones: una para separar la plata del cobre y otra para refinar el metal. La Cámara Minera asumió su gestión a mediados del siglo XVI y las fundiciones funcionaron hasta 1893. En su apogeo empleaban aproximadamente a 70–100 personas. La metalurgia marcó el desarrollo del pueblo y sus oficios."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš y Jozef Gregor Tajovský – dos figuras nacidas en Tajov",
+          "text": "Tajov es el lugar de nacimiento de dos personalidades cuya obra superó ampliamente el ámbito regional. Jozef Murgaš (1864–1929), sacerdote católico, pintor y pionero de la telegrafía inalámbrica, obtuvo numerosas patentes en Estados Unidos; su sistema tonal transmitía mensajes mediante tonos de distintas alturas. Jozef Gregor Tajovský (1874–1940) fue un destacado prosista y dramaturgo eslovaco. Una casa memorial instalada en la casa familiar de Tajovský recuerda la vida y obra de ambos."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Juan Bautista en Tajov – arquitectura renacentista ligada a la fundición",
+          "text": "La iglesia católica romana de San Juan Bautista es uno de los edificios históricos más destacados de Tajov. Su origen está relacionado con el asentamiento metalúrgico del siglo XVI; la datación tradicional indica 1595–1597, aunque investigaciones locales recientes apuntan a comienzos anteriores a 1546. El edificio renacentista original fue reformado en estilo barroco en el siglo XVIII y su torre data de 1702. Una escultura gótica de la cabeza de San Juan Bautista, de alrededor de 1480, se conserva hoy en el Museo de Eslovaquia Central de Banská Bystrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – asentamiento de carboneros que abastecía las fundiciones de Tajov",
+          "text": "Kordíky surgió en la segunda mitad del siglo XVI como parte del entorno económico de las fundiciones de Banská Bystrica. En los antiguos carboneros se producía carbón vegetal para alimentar las instalaciones de Tajov. Sus habitantes también trabajaban en los bosques, criaban ganado y fabricaban utensilios de madera. Las fuentes sobre los primeros tiempos del pueblo son incompletas y ofrecen fechas distintas. La actual capilla de la Visitación de la Virgen María se construyó en 1927 en lugar de otra de 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – pueblo de montaña marcado por el trabajo forestal y la vida dura",
+          "text": "Králiky se encuentra en la parte oriental de los montes de Kremnica, a unos 800 metros de altitud. El asentamiento surgió después de 1696 en tierras de la familia Radvanský; su primera mención escrita data de 1773 con el nombre Králiti. Sus habitantes practicaban la agricultura de montaña, trabajaban en los bosques y fabricaban utensilios de madera. Después de la Primera Guerra Mundial se realizaron ensayos de extracción de carbón y funcionó una destilería cooperativa. Su historia muestra cómo las comunidades de montaña se adaptaron a condiciones exigentes."
+        },
+        {
+          "id": "fact_006",
+          "title": "Garganta y cascada de Králická – monumento natural en los montes de Kremnica",
+          "text": "La garganta de Králická es un monumento natural protegido de los montes de Kremnica, situado en los términos catastrales de Králiky y Banská Bystrica. El arroyo Farebný excavó un valle profundo con paredes rocosas y estrechos tramos de hasta unos 20 metros. Su elemento más conocido es la cascada de Králický, de unos siete metros. El lugar muestra el origen volcánico de las montañas y la erosión del agua. Este registro asigna al código postal solo la cascada situada en el lado de Králiky, no toda el área protegida."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Les forges de Tajov – un important centre de traitement du cuivre",
+          "text": "Tajov s’est développé comme un village métallurgique lié à la grande entreprise cuprifère du centre de la Slovaquie. À la charnière des XVe et XVIe siècles, la société Thurzo-Fugger y construisit deux installations : l’une pour séparer l’argent du cuivre et l’autre pour raffiner le métal. La Chambre des mines en reprit la gestion au milieu du XVIe siècle et les forges fonctionnèrent jusqu’en 1893. À leur apogée, elles employaient environ 70 à 100 personnes. La métallurgie façonna le village, ses métiers et les vallées voisines."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš et Jozef Gregor Tajovský – deux grandes figures nées à Tajov",
+          "text": "Tajov est le lieu de naissance de deux personnalités dont l’œuvre a dépassé la région. Jozef Murgaš (1864–1929), prêtre catholique, peintre et pionnier de la télégraphie sans fil, obtint de nombreux brevets aux États-Unis ; son système tonal transmettait des messages au moyen de sons de hauteurs différentes. Jozef Gregor Tajovský (1874–1940) devint un important prosateur et dramaturge slovaque. Une maison mémorielle installée dans la maison familiale de Tajovský évoque la vie et l’œuvre des deux hommes."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église Saint-Jean-Baptiste de Tajov – édifice Renaissance lié au village métallurgique",
+          "text": "L’église catholique romaine Saint-Jean-Baptiste est l’un des monuments historiques les plus marquants de Tajov. Ses origines sont liées au village métallurgique du XVIe siècle ; la datation traditionnelle indique 1595–1597, tandis que des recherches locales récentes envisagent des débuts antérieurs à 1546. L’édifice Renaissance fut remanié dans le style baroque au XVIIIe siècle et sa tour date de 1702. Une sculpture gothique de la tête de saint Jean-Baptiste, vers 1480, est aujourd’hui conservée au Musée de Slovaquie centrale à Banská Bystrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – village de charbonniers au service des forges de Tajov",
+          "text": "Kordíky apparut dans la seconde moitié du XVIe siècle comme partie de l’arrière-pays économique des forges de Banská Bystrica. Le charbon de bois produit dans les charbonnières locales alimentait les installations de Tajov. Les habitants travaillaient aussi dans les forêts, élevaient du bétail et fabriquaient des ustensiles en bois. Les sources sur les débuts du village sont lacunaires et donnent des dates différentes. La chapelle actuelle de la Visitation de la Vierge Marie fut construite en 1927 à la place d’une chapelle datant de 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – village de montagne marqué par la forêt et une vie exigeante",
+          "text": "Králiky se trouve dans la partie orientale des monts de Kremnica, à environ 800 mètres d’altitude. Le village se développa après 1696 sur les terres de la famille Radvanský ; sa première mention écrite date de 1773 sous le nom de Králiti. Les habitants pratiquaient l’agriculture de montagne, travaillaient dans les forêts et fabriquaient des objets en bois. Après la Première Guerre mondiale, des essais d’extraction du charbon furent menés et une distillerie coopérative fonctionna. Son histoire montre comment les communautés montagnardes s’adaptaient à des conditions naturelles difficiles."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gorge et cascade de Králická – monument naturel des monts de Kremnica",
+          "text": "La gorge de Králická est un monument naturel protégé des monts de Kremnica, situé sur les territoires cadastraux de Králiky et de Banská Bystrica. Le ruisseau Farebný a creusé une vallée profonde avec des parois rocheuses et des passages étroits pouvant atteindre environ 20 mètres. Son site le plus connu est la cascade de Králický, haute d’environ sept mètres. Le lieu illustre l’origine volcanique des montagnes et l’érosion par l’eau. Cette fiche rattache au code postal uniquement la cascade du côté de Králiky, et non toute la zone protégée."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le fonderie di Tajov – importante centro di lavorazione del rame",
+          "text": "Tajov si sviluppò come insediamento metallurgico legato alla grande impresa del rame della Slovacchia centrale. Tra la fine del XV e l’inizio del XVI secolo, la società Thurzo-Fugger vi costruì due impianti: uno per separare l’argento dal rame e l’altro per raffinare il metallo. La Camera mineraria ne assunse la gestione a metà del XVI secolo e le fonderie rimasero attive fino al 1893. Nel periodo di massimo sviluppo impiegavano circa 70–100 persone. La metallurgia influenzò l’abitato e i mestieri locali."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš e Jozef Gregor Tajovský – due importanti nativi di Tajov",
+          "text": "Tajov è il luogo di nascita di due personalità la cui opera superò i confini regionali. Jozef Murgaš (1864–1929), sacerdote cattolico, pittore e pioniere della telegrafia senza fili, ottenne numerosi brevetti negli Stati Uniti; il suo sistema tonale trasmetteva messaggi usando toni di diversa altezza. Jozef Gregor Tajovský (1874–1940) divenne un importante prosatore e drammaturgo slovacco. Una casa commemorativa nella casa di famiglia di Tajovský ricorda la vita e l’opera di entrambi."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa di San Giovanni Battista a Tajov – edificio rinascimentale legato all’insediamento metallurgico",
+          "text": "La chiesa cattolica romana di San Giovanni Battista è uno degli edifici storici più significativi di Tajov. Le sue origini sono legate all’insediamento metallurgico del XVI secolo; la datazione tradizionale indica il 1595–1597, mentre recenti ricerche locali suggeriscono origini anteriori al 1546. L’edificio rinascimentale fu rimaneggiato in stile barocco nel XVIII secolo e la torre risale al 1702. Una scultura gotica della testa di San Giovanni Battista, intorno al 1480, è oggi conservata nel Museo della Slovacchia Centrale a Banská Bystrica."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – insediamento di carbonai al servizio delle fonderie di Tajov",
+          "text": "Kordíky nacque nella seconda metà del XVI secolo come parte del retroterra economico delle fonderie di Banská Bystrica. Nelle carbonaie locali si produceva carbone di legna per gli impianti di Tajov. Gli abitanti lavoravano anche nei boschi, allevavano bestiame e fabbricavano utensili in legno. Le fonti sulle origini del villaggio sono incomplete e riportano date diverse. L’attuale cappella della Visitazione della Vergine Maria fu costruita nel 1927 al posto di una cappella del 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – villaggio montano segnato dal lavoro nei boschi e da una vita difficile",
+          "text": "Králiky si trova nella parte orientale dei Monti di Kremnica, a circa 800 metri di altitudine. L’insediamento nacque dopo il 1696 su terre della famiglia Radvanský; la prima menzione scritta risale al 1773 con il nome Králiti. Gli abitanti praticavano l’agricoltura montana, lavoravano nei boschi e producevano utensili in legno. Dopo la Prima guerra mondiale furono effettuati tentativi di estrazione del carbone e operò una distilleria cooperativa. La sua storia mostra come le comunità montane si adattassero a condizioni naturali impegnative."
+        },
+        {
+          "id": "fact_006",
+          "title": "Gola e cascata di Králická – monumento naturale nei Monti di Kremnica",
+          "text": "La gola di Králická è un monumento naturale protetto nei Monti di Kremnica, situato nei territori catastali di Králiky e Banská Bystrica. Il torrente Farebný ha scavato una valle profonda lungo un confine geologico, con pareti rocciose e stretti tratti alti fino a circa 20 metri. Il luogo più noto è la cascata di Králický, alta circa sette metri. Il sito mostra l’origine vulcanica dei monti e l’azione erosiva dell’acqua. Questa scheda assegna al codice postale soltanto la cascata sul lato di Králiky, non l’intera area protetta."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Tajov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De smelterijen van Tajov – een belangrijk centrum voor koperverwerking",
+          "text": "Tajov ontwikkelde zich als smelternederzetting die verbonden was met het grote koperbedrijf in Midden-Slowakije. Rond de overgang van de 15e naar de 16e eeuw bouwde de onderneming Thurzo-Fugger hier twee installaties: één om zilver van koper te scheiden en één om het metaal te raffineren. De Mijnkamer nam het beheer halverwege de 16e eeuw over; de smelterijen bleven tot 1893 in bedrijf. Op hun hoogtepunt werkten er ongeveer 70 tot 100 mensen. De metallurgie bepaalde de ontwikkeling van het dorp en de plaatselijke ambachten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Jozef Murgaš en Jozef Gregor Tajovský – twee bekende zonen van Tajov",
+          "text": "Tajov is de geboorteplaats van twee persoonlijkheden wier werk veel verder reikte dan de regio. Jozef Murgaš (1864–1929), katholiek priester, schilder en pionier van de draadloze telegrafie, verkreeg talrijke octrooien in de Verenigde Staten; zijn toonsysteem verzond berichten met tonen van verschillende hoogte. Jozef Gregor Tajovský (1874–1940) werd een belangrijke Slowaakse prozaïst en toneelschrijver. Een herdenkingshuis in het familiehuis van Tajovský vertelt over het leven en werk van beiden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sint-Johannes-de-Doperkerk in Tajov – renaissancegebouw uit de smelternederzetting",
+          "text": "De rooms-katholieke Sint-Johannes-de-Doperkerk is een van de opvallendste historische gebouwen van Tajov. De oorsprong hangt samen met de smelternederzetting uit de 16e eeuw; traditioneel wordt de kerk gedateerd op 1595–1597, terwijl recent lokaal onderzoek op een begin vóór 1546 wijst. Het renaissancegebouw werd in de 18e eeuw in barokstijl aangepast; de toren dateert uit 1702. Een gotisch beeld van het hoofd van Johannes de Doper uit circa 1480 wordt nu in het Centraal-Slowaaks Museum in Banská Bystrica bewaard."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kordíky – houtskoolbrandersnederzetting voor de smelterijen van Tajov",
+          "text": "Kordíky ontstond in de tweede helft van de 16e eeuw als onderdeel van het economische achterland van de smelterijen van Banská Bystrica. Op plaatselijke houtskoolplaatsen werd houtskool gemaakt voor de installaties in Tajov. Bewoners werkten ook in de bossen, hielden vee en maakten houten gebruiksvoorwerpen. De bronnen over de vroege geschiedenis zijn onvolledig en noemen verschillende jaartallen. De huidige kapel van Maria Visitatie werd in 1927 gebouwd op de plaats van een oudere kapel uit 1837."
+        },
+        {
+          "id": "fact_005",
+          "title": "Králiky – bergdorp gevormd door bosarbeid en een zwaar bestaan",
+          "text": "Králiky ligt in het oostelijke deel van het Kremnicagebergte op ongeveer 800 meter hoogte. De nederzetting ontstond na 1696 op het landgoed van de familie Radvanský; de eerste schriftelijke vermelding dateert uit 1773 onder de naam Králiti. De inwoners hielden zich bezig met berglandbouw, bosarbeid en het maken van houten gebruiksvoorwerpen. Na de Eerste Wereldoorlog werden proeven met steenkoolwinning gedaan en was er een coöperatieve stokerij. De geschiedenis laat zien hoe berggemeenschappen zich aan zware natuurlijke omstandigheden aanpasten."
+        },
+        {
+          "id": "fact_006",
+          "title": "Králická-kloof en waterval – natuurmonument in het Kremnicagebergte",
+          "text": "De Králická-kloof is een beschermd natuurmonument in het Kremnicagebergte en ligt deels in het kadaster van Králiky en deels in Banská Bystrica. De beek Farebný sneed hier een diep dal uit, met rotswanden en smalle kloofpassages tot ongeveer 20 meter hoog. Het bekendste punt is de ongeveer zeven meter hoge Králický-waterval. De plek toont de vulkanische oorsprong van het gebergte en de erosieve werking van water. Deze registratie koppelt alleen de waterval aan de postcode, niet het volledige beschermde gebied."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
