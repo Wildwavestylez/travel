@@ -24,7 +24,7 @@
       "sources": [
         "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
         "https://www.obecmedzibrod.sk/obec-2/historia-obce/",
-        "https://www.e-obce.sk/obec/medzibrod/2-historia.html"
+        "https://matriky.genedict.net/medzibrod/"
       ],
       "map_category": "historic_village",
       "location": null
@@ -74,7 +74,9 @@
       "sources": [
         "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
         "https://ebadatelnavha.vhu.sk/en/archive_photos?f%5B0%5D=-browse.firstLetter%3A%22b%22&f%5B1%5D=-browse.firstLetter%3A%22n%22&f%5B2%5D=-browse.firstLetter%3A%22k%22&f%5B3%5D=-browse.year%3A%221942%22&f%5B4%5D=-browse.year%3A%221943%22&f%5B5%5D=browse.year%3A%221944%22&f%5B6%5D=-browse.month%3A%2211%22&f%5B7%5D=browse.firstLetter%3A%22p%22&page=3",
-        "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf"
+        "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf",
+        "https://szpb.sk/wp-content/uploads/2023/09/boj-5-2023_s1-16.pdf",
+        "https://www.bojovnik.info/wp-content/uploads/2025/04/Bojovnik_192017.pdf"
       ],
       "map_category": "historical_monument",
       "location": null
@@ -138,13 +140,13 @@
       ],
       "map_category": "local_culture",
       "location": {
-        "name": "Námestie hrdinov SNP – místo konání Haruľové show, Medzibrod",
+        "name": "Námestie hrdinov SNP – orientačný bod pri obecnom úrade, Medzibrod",
         "address": "Námestie hrdinov SNP, 976 96 Medzibrod, Slovensko",
         "lat": 48.7921786,
         "lon": 19.3521619,
         "type": "square",
         "accuracy": "area_representative",
-        "source": "https://www.obecmedzibrod.sk/obec-2/zo-zivota-obce/kulturne-a-spolocenske-podujatia/harulova-sou-na-namesti-obce/"
+        "source": "https://poi.oma.sk/w73265471"
       }
     }
   ],
@@ -159,7 +161,7 @@
     "postcode_source_checked_at": "2026-11-24",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "Oficiálna adresa obecného úradu je Námestie hrdinov SNP 1, 976 96 Medzibrod. Verejné PSČ mapové údaje odvodené z OSM uvádzajú jednu lokalitu Medzibrod; presný oficiálny polygon doručovacej oblasti nebol k dispozícii, preto sa netvrdí polygonálna hranica.",
+    "delivery_office_note": "Oficiálna adresa obecného úradu je Námestie hrdinov SNP 1, 976 96 Medzibrod. Mapa obce odvodená z OpenStreetMap uvádza pre 976 96 lokalitu Medzibrod; presný oficiálny polygon doručovacej oblasti nebol k dispozícii, preto sa netvrdí polygonálna hranica.",
     "postcode_override_reason": null,
     "geographic_authority": "Ústredný portál verejnej správy SR pre administratívne zaradenie; oficiálna obec Medzibrod a adresný bod odvodený z registra adries MV SR (MINVSKAddress 2024-11) pre fyzickú polohu."
   },
@@ -180,8 +182,8 @@
       "type": "official"
     },
     {
-      "title": "E-Obce – Medzibrod, história (Vlastivedný slovník obcí)",
-      "url": "https://www.e-obce.sk/obec/medzibrod/2-historia.html",
+      "title": "Matriky Genedict – Medzibrod, historické názvy a dejiny",
+      "url": "https://matriky.genedict.net/medzibrod/",
       "type": "regional"
     },
     {
@@ -240,8 +242,18 @@
       "type": "other"
     },
     {
-      "title": "AllSlovakia – PSČ 97696 Medzibrod (údaje odvodené z OpenStreetMap)",
-      "url": "https://allslovakia.info/psc/97696",
+      "title": "Bojovník – spomienka na partizána Ivana Seršeňa a popravu v Medzibrode",
+      "url": "https://szpb.sk/wp-content/uploads/2023/09/boj-5-2023_s1-16.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Bojovník – svedectvo o poprave štyroch ľudí v Medzibrode",
+      "url": "https://www.bojovnik.info/wp-content/uploads/2025/04/Bojovnik_192017.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "Medzibrod – mapa obce a poštové smerovacie číslo (OpenStreetMap)",
+      "url": "https://medzibrod.oma.sk/",
       "type": "other"
     }
   ],
