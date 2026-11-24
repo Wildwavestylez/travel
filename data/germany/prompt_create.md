@@ -657,24 +657,22 @@ Nikdy neukládej nekompletní JSON jen proto, aby záznam existoval.
 
 ---
 
-# 21. SEQUENCE — POVINNÝ KROK PO ÚSPĚŠNÉM ZÁPISU
+# 21. SEQUENCE — POVINNÁ KONTROLA PO ÚSPĚŠNÉM ZÁPISU
 
-Po úspěšném zápisu a ověření databázového záznamu musí být PSČ zapsáno také do:
+Po úspěšném zápisu a read-back kontrole záznamu znovu ověř, že jeho PSČ již patří do:
 
 `data/germany/sequence.json`
 
 Pravidla:
 
-1. PSČ musí být skutečné;
-2. musí být zpracované;
-3. databázový záznam musí existovat;
-4. JSON musí být validní;
-5. PSČ musí být vloženo na správné místo v pořadí;
-6. nesmí vzniknout duplicita;
-7. aktualizuj `count`;
-8. zachovej ostatní položky beze změny.
+1. PSČ musí být skutečné a ověřené;
+2. musí již být součástí kanonického pole `sequence`;
+3. databázový záznam musí existovat a být uložen ve správném stavu;
+4. obsah musí být validní podle `schema.json`;
+5. nesmí vzniknout duplicita ani změna pořadí;
+6. `count` musí zůstat shodný s počtem položek v `sequence`.
 
-**Sequence nikdy nesmí tvrdit, že bylo PSČ zpracováno, pokud jeho JSON nebyl skutečně úspěšně vytvořen a ověřen.**
+**Běžná tvorba nesmí do sequence nic přidávat, odebírat, přeuspořádávat ani měnit její count.** Pokud cílové PSČ v kanonické sequence chybí, zastav tvorbu tohoto PSČ a předlož nález k samostatnému ověření a výslovnému schválení změny sequence.
 
 ---
 
