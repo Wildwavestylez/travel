@@ -1,4 +1,517 @@
 {
   "postcode": "97668",
-  "status": "placeholder"
+  "city": "Heľpa",
+  "district": null,
+  "district_type": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Heľpa – centrum obce",
+  "representative_point": {
+    "lat": 48.8606744,
+    "lon": 19.9693394
+  },
+  "access_point": {
+    "lat": 48.8606744,
+    "lon": 19.9693394
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Heľpa: horská valašská obec doložená od roku 1549",
+      "text": "Nejstarší písemná zmínka o Heľpě pochází z roku 1549 z urbáře Muráňského panství. Záznam uvádí bratry Jakuba a Petra Heľpänské, kteří společně vlastnili 250 ovcí. Odpovídá to ranému pasteveckému charakteru osady: první obyvatelé byli valasi, tedy horští pastevci, a teprve později se více věnovali zemědělství. Heľpa tak patří k obcím horního Horehroní, jejichž historickou identitu výrazně utvářelo salašnictví.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.helpa.sk/obec/historia/"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Heľpa – historické jádro (orientační bod)",
+        "lat": 48.862277,
+        "lon": 19.967655,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/helpa-pamiatkova-zona",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Památná zóna a lidová architektura Heľpy",
+      "text": "Část Heľpy je od roku 1992 vyhlášena památkovou zónou. Dochované lidové domy připomínají tradiční stavební podobu horního Horehroní: dřevěné roubené konstrukce, kamenné nebo zděné sklepy, pavlače zvané gánok, hospodářské přístavky a šindelové střechy. Pro Heľpu jsou charakteristické také drobné kamenné či zděné sýpky označované místním názvem „lenchauzi“. Obecní plánovací dokumentace připomíná, že ničivý požár roku 1906 zasáhl většinu vesnice a následná obnova ovlivnila její dnešní půdorys; údaj o pouhých osmnácti zachovaných domech uvádí pramen s výhradou, proto jej nelze chápat jako přesný soupis.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/helpa-pamiatkova-zona",
+        "https://www.helpa.sk/obec/historia/"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Heľpa – památková zóna (reprezentativní bod)",
+        "lat": 48.862277,
+        "lon": 19.967655,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/helpa-pamiatkova-zona",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Horehronské dny zpěvu a tance – folklorní festival od roku 1966",
+      "text": "Heľpa hostí od roku 1966 festival Horehronské dni spevu a tanca, který patří k výrazným přehlídkám slovenského folkloru. Jeho smyslem je uchovávat a představovat písně, tance, kroje a obyčeje Horehroní – horského regionu v horním povodí Hronu. Festival se koná v přírodním amfiteátru na Holém vrchu; toto místo dává tradičnímu programu otevřené horské prostředí a stalo se jedním z kulturních symbolů obce.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://slovakia.travel/horehronske-dni-spevu-a-tanca",
+        "https://www.helpa.sk/obec/historia/",
+        "https://www.slovenskycestovatel.sk/item/amfiteater-helpa"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Přírodní amfiteátr Heľpa, Holý vrch",
+        "lat": 48.865902,
+        "lon": 19.972649,
+        "type": "cultural_center",
+        "accuracy": "approximate",
+        "source": "https://www.slovenskycestovatel.sk/item/amfiteater-helpa",
+        "address": "Školská 937, 976 68 Heľpa"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel Nanebevzetí Panny Marie",
+      "text": "Dominantou obce je pozdně barokní římskokatolický kostel Nanebevzetí Panny Marie. Odborný památkový přehled uvádí, že jeho stavba začala roku 1800 a dokončena byla roku 1805; rok 1806 se vztahuje k založení místní farnosti. Rozlišení těchto dat vysvětluje rozdílné údaje v některých stručných obecních přehledech. Kostel stojí v severozápadní části Heľpy a dokládá proměnu obce na přelomu 18. a 19. století.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/helpa-kostol-nanebovzatia-panny-marie",
+        "https://www.helpa.sk/obec/historia/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel Nanebevzetí Panny Marie, Heľpa",
+        "lat": 48.865098,
+        "lon": 19.967197,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/helpa-kostol-nanebovzatia-panny-marie",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Karol Plicka zachytil Heľpu ve filmech o slovenském lidu",
+      "text": "Heľpa zaujala fotografa a filmového dokumentaristu Karola Plicku, který zde podle obecní historické dokumentace natáčel už roku 1928 a znovu roku 1933. Druhá návštěva souvisela s filmem Zem spieva (Země zpívá), významným dokumentárním obrazem slovenského venkovského života, hudby a lidových zvyků. Plickova práce pomohla uchovat podobu místních her, krojů a obyčejů v době, kdy se tradiční způsob života rychle proměňoval.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.helpa.sk/obec/historia/",
+        "https://www.skcinema.sk/arl-sfu/en/detail-sfu_un_cat.0-000348-Zem-spieva-dokumentarny-film/?disprec=2&iset=1"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Heľpa – památková zóna (orientační bod historického natáčení)",
+        "lat": 48.862277,
+        "lon": 19.967655,
+        "type": "historic_district",
+        "accuracy": "historical_approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/helpa-pamiatkova-zona",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Heľpa během Slovenského národního povstání a osvobození",
+      "text": "Po vypuknutí Slovenského národního povstání se Heľpa zapojila do odboje. Obecní historické materiály uvádějí, že 28. srpna 1944 bylo povstání v obci vyhlášeno a mobilizováno 88 dobrovolníků, kteří vytvořili dvě pěší a jednu dělostřeleckou četu. Místní podporovali partyzány zásobováním a zpravodajstvím; ve škole fungovala vojenská ošetřovna s operačním sálem. Obec byla osvobozena na přelomu 30. a 31. ledna 1945 sovětskými a rumunskými jednotkami. Jde o součást širší válečné historie horního Horehroní, nikoli o jedinou událost na jednom přesně vymezeném místě.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.helpa.sk/obec/oslobodenie-obce/",
+        "https://www.helpa.sk/modules/file_storage/download.php?file=1852304a%7C20"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Heľpa – obecní centrum (orientační bod událostí)",
+        "lat": 48.8606744,
+        "lon": 19.9693394,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://www.helpa.sk/kontakt/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Archeologické stopy pravěkého osídlení v katastru Heľpy",
+      "text": "Archeologická literatura zaznamenává z Heľpy nález kamenných nástrojů, který je rámcově řazen do neolitu až eneolitu, tedy mladší a pozdní doby kamenné. Novější podklady památkové péče uvádějí také nález neolitických kamenných nástrojů na neznámé poloze v katastru obce. Protože přesné naleziště není určeno, nelze nález spojovat s konkrétním místem ani z něj vyvozovat podobu pravěkého sídliště; přesto dokládá, že okolní krajina byla využívána již v pravěku.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://digilib.phil.muni.cz/_flysystem/fedora/pdf/113730.pdf",
+        "https://www.muranskadlhaluka.sk/dokumenty/rozhodnutie_zp_-_brezno_27.10..pdf"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – zoznam vybraných pôšt s PSČ uvádza pracovisko Heľpa s PSČ 97668; obecný kontakt uvádza fyzickú adresu obecného úradu Farská 588/2, 976 68 Heľpa. Tým je doložená geografická väzba k obci, nie presný polygon doručovacieho obvodu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam vybraných pôšt na predaj eKolkov (Slovenská pošta)",
+    "postcode_source_release": "15. 04. 2023",
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny zoznam uvádza poštu Heľpa s PSČ 97668; jej adresa Partizánska 433/37 nie je použitá ako reprezentatívny bod. Presná hranica doručovacieho obvodu nebola doložená a nie je odhadovaná.",
+    "geographic_authority": "Obec Heľpa – oficiálny kontakt a súradnice sídla; odborný pamiatkový zdroj pre polohu pamiatkovej zóny a kostola. Administratívna hierarchia: okres Brezno, Banskobystrický kraj."
+  },
+  "sources": [
+    {
+      "title": "Obec Heľpa – kontaktné údaje a základné geografické údaje",
+      "url": "https://www.helpa.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Heľpa – história obce",
+      "url": "https://www.helpa.sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Heľpa – pamiatková zóna",
+      "url": "https://www.pamiatkynaslovensku.sk/helpa-pamiatkova-zona",
+      "type": "specialist"
+    },
+    {
+      "title": "Heľpa – Kostol Nanebovzatia Panny Márie",
+      "url": "https://www.pamiatkynaslovensku.sk/helpa-kostol-nanebovzatia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "Amfiteáter Heľpa – lokalizácia a opis",
+      "url": "https://www.slovenskycestovatel.sk/item/amfiteater-helpa",
+      "type": "regional"
+    },
+    {
+      "title": "Slovakia.travel – Horehronské dni spevu a tanca",
+      "url": "https://slovakia.travel/horehronske-dni-spevu-a-tanca",
+      "type": "official"
+    },
+    {
+      "title": "Slovenský filmový ústav – Zem spieva (1933)",
+      "url": "https://www.skcinema.sk/arl-sfu/en/detail-sfu_un_cat.0-000348-Zem-spieva-dokumentarny-film/?disprec=2&iset=1",
+      "type": "museum"
+    },
+    {
+      "title": "Obec Heľpa – oslobodenie obce",
+      "url": "https://www.helpa.sk/obec/oslobodenie-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Heľpa – dokumentácia SNP a udalostí v rokoch 1944–1945",
+      "url": "https://www.helpa.sk/modules/file_storage/download.php?file=1852304a%7C20",
+      "type": "primary"
+    },
+    {
+      "title": "Matej Zachar a kol. – Proveniencia kamenných surovín na strednom a hornom Pohroní",
+      "url": "https://digilib.phil.muni.cz/_flysystem/fedora/pdf/113730.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Rozhodnutie Pamiatkového úradu SR – evidované a predpokladané archeologické nálezy v katastri Heľpy",
+      "url": "https://www.muranskadlhaluka.sk/dokumenty/rozhodnutie_zp_-_brezno_27.10..pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – zoznam vybraných pôšt s PSČ",
+      "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Heľpa – centrum obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: horská valašská obec doložená od roku 1549",
+          "text": "Nejstarší písemná zmínka o Heľpě pochází z roku 1549 z urbáře Muráňského panství. Záznam uvádí bratry Jakuba a Petra Heľpänské, kteří společně vlastnili 250 ovcí. Odpovídá to ranému pasteveckému charakteru osady: první obyvatelé byli valasi, tedy horští pastevci, a teprve později se více věnovali zemědělství. Heľpa tak patří k obcím horního Horehroní, jejichž historickou identitu výrazně utvářelo salašnictví."
+        },
+        {
+          "id": "fact_002",
+          "title": "Památná zóna a lidová architektura Heľpy",
+          "text": "Část Heľpy je od roku 1992 vyhlášena památkovou zónou. Dochované lidové domy připomínají tradiční stavební podobu horního Horehroní: dřevěné roubené konstrukce, kamenné nebo zděné sklepy, pavlače zvané gánok, hospodářské přístavky a šindelové střechy. Pro Heľpu jsou charakteristické také drobné kamenné či zděné sýpky označované místním názvem „lenchauzi“. Obecní plánovací dokumentace připomíná, že ničivý požár roku 1906 zasáhl většinu vesnice a následná obnova ovlivnila její dnešní půdorys; údaj o pouhých osmnácti zachovaných domech uvádí pramen s výhradou, proto jej nelze chápat jako přesný soupis."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dny zpěvu a tance – folklorní festival od roku 1966",
+          "text": "Heľpa hostí od roku 1966 festival Horehronské dni spevu a tanca, který patří k výrazným přehlídkám slovenského folkloru. Jeho smyslem je uchovávat a představovat písně, tance, kroje a obyčeje Horehroní – horského regionu v horním povodí Hronu. Festival se koná v přírodním amfiteátru na Holém vrchu; toto místo dává tradičnímu programu otevřené horské prostředí a stalo se jedním z kulturních symbolů obce."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel Nanebevzetí Panny Marie",
+          "text": "Dominantou obce je pozdně barokní římskokatolický kostel Nanebevzetí Panny Marie. Odborný památkový přehled uvádí, že jeho stavba začala roku 1800 a dokončena byla roku 1805; rok 1806 se vztahuje k založení místní farnosti. Rozlišení těchto dat vysvětluje rozdílné údaje v některých stručných obecních přehledech. Kostel stojí v severozápadní části Heľpy a dokládá proměnu obce na přelomu 18. a 19. století."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka zachytil Heľpu ve filmech o slovenském lidu",
+          "text": "Heľpa zaujala fotografa a filmového dokumentaristu Karola Plicku, který zde podle obecní historické dokumentace natáčel už roku 1928 a znovu roku 1933. Druhá návštěva souvisela s filmem Zem spieva (Země zpívá), významným dokumentárním obrazem slovenského venkovského života, hudby a lidových zvyků. Plickova práce pomohla uchovat podobu místních her, krojů a obyčejů v době, kdy se tradiční způsob života rychle proměňoval."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa během Slovenského národního povstání a osvobození",
+          "text": "Po vypuknutí Slovenského národního povstání se Heľpa zapojila do odboje. Obecní historické materiály uvádějí, že 28. srpna 1944 bylo povstání v obci vyhlášeno a mobilizováno 88 dobrovolníků, kteří vytvořili dvě pěší a jednu dělostřeleckou četu. Místní podporovali partyzány zásobováním a zpravodajstvím; ve škole fungovala vojenská ošetřovna s operačním sálem. Obec byla osvobozena na přelomu 30. a 31. ledna 1945 sovětskými a rumunskými jednotkami. Jde o součást širší válečné historie horního Horehroní, nikoli o jedinou událost na jednom přesně vymezeném místě."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archeologické stopy pravěkého osídlení v katastru Heľpy",
+          "text": "Archeologická literatura zaznamenává z Heľpy nález kamenných nástrojů, který je rámcově řazen do neolitu až eneolitu, tedy mladší a pozdní doby kamenné. Novější podklady památkové péče uvádějí také nález neolitických kamenných nástrojů na neznámé poloze v katastru obce. Protože přesné naleziště není určeno, nelze nález spojovat s konkrétním místem ani z něj vyvozovat podobu pravěkého sídliště; přesto dokládá, že okolní krajina byla využívána již v pravěku."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Heľpa – Ortszentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: eine Bergsiedlung der Walachen seit 1549",
+          "text": "Die erste schriftliche Erwähnung von Heľpa stammt aus dem Jahr 1549 und findet sich im Urbar der Herrschaft Muráň. Der Eintrag nennt die Brüder Jakub und Peter Heľpänský, die gemeinsam 250 Schafe besaßen. Dies passt zum frühen Hirtencharakter der Siedlung: Die ersten Bewohner waren Walachen, also Gebirgs- und Schafhirten; erst später gewann die Landwirtschaft an Bedeutung. Die Geschichte von Heľpa im oberen Hron-Tal wurde somit stark von der Almwirtschaft geprägt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Denkmalzone und traditionelle Volksarchitektur",
+          "text": "Ein Teil von Heľpa steht seit 1992 unter Denkmalschutz als Denkmalzone. Erhaltene volkstümliche Häuser zeigen die traditionelle Bauweise des oberen Horehronie: hölzerne Blockkonstruktionen, steinerne oder gemauerte Keller, offene Laubengänge (slowakisch gánok), Wirtschaftsgebäude und Schindeldächer. Charakteristisch sind auch kleine steinerne oder gemauerte Speicher, die lokal „lenchauzi“ genannt werden. Planungsunterlagen der Gemeinde erinnern daran, dass ein verheerender Brand 1906 den größten Teil des Dorfes traf und der Wiederaufbau den heutigen Ortsgrundriss beeinflusste. Die Quelle nennt mit Vorbehalt nur 18 erhaltene Häuser; diese Zahl ist daher nicht als exakte Bestandsaufnahme zu verstehen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca – Folklorefestival seit 1966",
+          "text": "Seit 1966 veranstaltet Heľpa das Festival Horehronské dni spevu a tanca, eine bedeutende Präsentation slowakischer Volkskultur. Im Mittelpunkt stehen Lieder, Tänze, Trachten und Bräuche der Horehronie, einer Gebirgsregion im oberen Einzugsgebiet des Flusses Hron. Das Festival findet im natürlichen Amphitheater am Holý vrch statt. Die offene Bergkulisse prägt das Programm und machte den Ort zu einem kulturellen Symbol der Gemeinde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kirche Mariä Himmelfahrt",
+          "text": "Das Ortsbild prägt die spätbarocke römisch-katholische Kirche Mariä Himmelfahrt. Ein denkmalfachlicher Überblick datiert den Baubeginn auf 1800 und die Fertigstellung auf 1805; das Jahr 1806 bezieht sich auf die Gründung der örtlichen Pfarrei. Diese Unterscheidung erklärt abweichende Jahreszahlen in manchen kurzen Gemeindedarstellungen. Die Kirche steht im nordwestlichen Teil von Heľpa und dokumentiert den Wandel des Ortes um die Wende vom 18. zum 19. Jahrhundert."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka filmte das traditionelle Leben in Heľpa",
+          "text": "Der Fotograf und Dokumentarfilmer Karol Plicka interessierte sich für Heľpa. Nach Angaben der Gemeindegeschichte filmte er hier bereits 1928 und erneut 1933. Der zweite Besuch stand mit dem Film Zem spieva (Die Erde singt) in Verbindung, einem bedeutenden Dokumentarfilm über das ländliche Leben, die Musik und die Volksbräuche der Slowakei. Plickas Arbeit bewahrte Bilder lokaler Spiele, Trachten und Bräuche aus einer Zeit raschen gesellschaftlichen Wandels."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa während des Slowakischen Nationalaufstands und der Befreiung",
+          "text": "Nach Ausbruch des Slowakischen Nationalaufstands beteiligte sich Heľpa am Widerstand. Gemeindliche historische Unterlagen berichten, dass der Aufstand am 28. August 1944 im Ort ausgerufen und 88 Freiwillige mobilisiert wurden; sie bildeten zwei Infanterie- und einen Artilleriezug. Einwohner unterstützten Partisanen mit Lebensmitteln und Nachrichten. In der Schule befand sich ein Militärlazarett mit Operationsraum. Sowjetische und rumänische Truppen befreiten den Ort in der Nacht vom 30. auf den 31. Januar 1945. Diese Ereignisse gehören zur breiteren Kriegsgeschichte des oberen Hron-Tals und spielten sich nicht an nur einem genau abgegrenzten Ort ab."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archäologische Spuren vorgeschichtlicher Nutzung im Gemeindegebiet",
+          "text": "Die archäologische Fachliteratur verzeichnet aus Heľpa einen Fund von Steingeräten, der grob in das Neolithikum bis Äneolithikum, also in die Jung- und Kupfersteinzeit, eingeordnet wird. Neuere Unterlagen der Denkmalpflege nennen ebenfalls neolithische Steingeräte aus einer unbekannten Fundstelle im Gemeindegebiet. Da der genaue Fundort nicht bekannt ist, lässt sich der Fund keinem konkreten Platz zuordnen und erlaubt keine Aussage über die Gestalt einer vorgeschichtlichen Siedlung. Er belegt dennoch eine Nutzung der umliegenden Landschaft bereits in vorgeschichtlicher Zeit."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Heľpa – village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: a mountain shepherding village recorded in 1549",
+          "text": "The earliest written reference to Heľpa dates from 1549, in the register of the Muráň estate. It names the brothers Jakub and Peter Heľpänský, who jointly owned 250 sheep. This reflects the settlement's early pastoral character: its first inhabitants were Wallachian shepherds, people associated with mountain sheep farming, while agriculture became more important later. The history of Heľpa in the upper Hron valley was therefore strongly shaped by transhumant herding."
+        },
+        {
+          "id": "fact_002",
+          "title": "Heritage zone and traditional folk architecture",
+          "text": "Part of Heľpa has been protected as a heritage zone since 1992. Surviving vernacular houses illustrate the traditional architecture of the upper Horehronie region: timber log structures, stone or brick cellars, open galleries known locally as gánok, farm outbuildings and shingle roofs. Small stone or brick granaries called lenchauzi are another local feature. Municipal planning documents note that a major fire in 1906 destroyed most of the village and that rebuilding influenced its present layout. The source cautiously says that only 18 houses supposedly survived, so this should not be treated as an exact count."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca – folk festival since 1966",
+          "text": "Since 1966, Heľpa has hosted Horehronské dni spevu a tanca, a major showcase of Slovak folk culture. The festival presents the songs, dances, traditional costumes and customs of Horehronie, the mountainous region in the upper Hron River basin. It takes place in the natural amphitheatre on Holý vrch. Its open mountain setting is part of the festival's character and has made the venue one of the cultural symbols of the village."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church of the Assumption of the Virgin Mary",
+          "text": "The village is dominated by the late-Baroque Roman Catholic Church of the Assumption of the Virgin Mary. A specialist heritage account dates the start of construction to 1800 and its completion to 1805; 1806 refers to the establishment of the local parish. This distinction explains differing dates in some brief municipal summaries. The church stands in the north-western part of Heľpa and reflects the village's development around the turn of the nineteenth century."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka documented Heľpa's folk traditions on film",
+          "text": "Heľpa attracted the photographer and documentary filmmaker Karol Plicka. According to the municipality's historical account, he filmed here in 1928 and returned in 1933. The later visit was connected with Zem spieva (The Earth Sings), an important documentary portrait of Slovak rural life, music and folk customs. Plicka's work helped preserve images of local games, costumes and traditions at a time when traditional ways of life were changing rapidly."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa during the Slovak National Uprising and liberation",
+          "text": "After the Slovak National Uprising began, Heľpa became involved in the resistance. Municipal historical records state that the uprising was proclaimed in the village on 28 August 1944 and that 88 volunteers were mobilised, forming two infantry platoons and one artillery platoon. Local people supported partisans with supplies and information, and the school housed a military field hospital with an operating room. Soviet and Romanian troops liberated the village during the night of 30–31 January 1945. These events form part of the wider wartime history of the upper Hron valley and did not take place at one single, precisely defined site."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archaeological traces of prehistoric activity in Heľpa's cadastral area",
+          "text": "Archaeological literature records a find of stone tools from Heľpa, broadly dated to the Neolithic or Eneolithic, the later and final phases of the Stone Age. More recent heritage-protection documents also mention Neolithic stone tools from an unidentified location within the municipality's cadastral area. As the exact findspot is unknown, the artefacts cannot be assigned to a specific place and do not establish the form of a prehistoric settlement. They nevertheless show that the surrounding landscape was used in prehistoric times."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Heľpa – centro del pueblo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: pueblo de pastores de montaña documentado desde 1549",
+          "text": "La primera mención escrita de Heľpa data de 1549 y aparece en el registro de la señoría de Muráň. El documento cita a los hermanos Jakub y Peter Heľpänský, propietarios conjuntos de 250 ovejas. Esto refleja el carácter pastoril inicial del asentamiento: sus primeros habitantes eran valacos, pastores de montaña dedicados especialmente al ganado ovino; la agricultura adquirió mayor importancia más tarde. La historia de Heľpa, en el alto valle del Hron, quedó marcada por el pastoreo trashumante."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zona protegida y arquitectura popular tradicional",
+          "text": "Una parte de Heľpa está protegida como zona patrimonial desde 1992. Las casas tradicionales conservadas muestran la arquitectura del alto Horehronie: construcciones de troncos de madera, sótanos de piedra o ladrillo, galerías abiertas llamadas localmente gánok, dependencias agrícolas y tejados de tablillas. También son características las pequeñas granjas-almacén de piedra o ladrillo conocidas como lenchauzi. Los documentos urbanísticos municipales señalan que un gran incendio en 1906 destruyó la mayor parte del pueblo y que la reconstrucción influyó en su trazado actual. La fuente afirma con cautela que supuestamente solo sobrevivieron 18 casas; no debe interpretarse como un recuento exacto."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca: festival folclórico desde 1966",
+          "text": "Desde 1966, Heľpa acoge el festival Horehronské dni spevu a tanca, una importante muestra de la cultura popular eslovaca. Presenta canciones, bailes, trajes tradicionales y costumbres de Horehronie, la región montañosa de la cuenca alta del río Hron. El festival se celebra en el anfiteatro natural de Holý vrch. El entorno abierto de montaña forma parte de su identidad y ha convertido el recinto en uno de los símbolos culturales del municipio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de la Asunción de la Virgen María",
+          "text": "El perfil del pueblo está dominado por la iglesia católica romana de estilo barroco tardío dedicada a la Asunción de la Virgen María. Una fuente especializada en patrimonio fecha el comienzo de las obras en 1800 y su finalización en 1805; 1806 corresponde a la fundación de la parroquia local. Esta distinción explica las fechas diferentes que aparecen en algunos resúmenes municipales. La iglesia se encuentra en la parte noroeste de Heľpa y refleja la evolución del pueblo en torno al cambio del siglo XVIII al XIX."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka documentó en cine las tradiciones de Heľpa",
+          "text": "Heľpa llamó la atención del fotógrafo y cineasta documental Karol Plicka. Según la historia municipal, filmó aquí en 1928 y regresó en 1933. Esta segunda visita estuvo relacionada con la película Zem spieva (La tierra canta), un importante retrato documental de la vida rural, la música y las costumbres populares eslovacas. Su trabajo ayudó a conservar imágenes de los juegos, trajes y tradiciones locales en una época de rápidos cambios sociales."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa durante el Levantamiento Nacional Eslovaco y la liberación",
+          "text": "Tras el comienzo del Levantamiento Nacional Eslovaco, Heľpa participó en la resistencia. La documentación histórica municipal indica que el levantamiento fue proclamado en el pueblo el 28 de agosto de 1944 y que se movilizaron 88 voluntarios, organizados en dos secciones de infantería y una de artillería. Los habitantes ayudaron a los partisanos con suministros e información; la escuela albergó un hospital militar de campaña con quirófano. Tropas soviéticas y rumanas liberaron el pueblo durante la noche del 30 al 31 de enero de 1945. Estos hechos forman parte de la historia bélica del alto valle del Hron y no ocurrieron en un único punto delimitado."
+        },
+        {
+          "id": "fact_007",
+          "title": "Vestigios arqueológicos de actividad prehistórica en el término de Heľpa",
+          "text": "La bibliografía arqueológica registra en Heľpa un hallazgo de herramientas de piedra, fechado de manera general entre el Neolítico y el Eneolítico, las fases más recientes de la Edad de Piedra. Documentos más recientes de protección del patrimonio también mencionan herramientas neolíticas procedentes de un lugar no identificado dentro del término municipal. Como se desconoce el punto exacto del hallazgo, no es posible asignar los objetos a un lugar concreto ni afirmar que existiera allí un asentamiento determinado. Aun así, muestran que el paisaje circundante fue utilizado en la prehistoria."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Heľpa – centre du village",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa : un village pastoral de montagne attesté dès 1549",
+          "text": "La première mention écrite de Heľpa date de 1549 et figure dans le registre du domaine de Muráň. Le document cite les frères Jakub et Peter Heľpänský, qui possédaient ensemble 250 moutons. Cela correspond au caractère pastoral des débuts du village : ses premiers habitants étaient des Valaques, des bergers de montagne pratiquant notamment l’élevage ovin ; l’agriculture prit davantage d’importance par la suite. L’histoire de Heľpa, dans la haute vallée du Hron, a donc été fortement marquée par le pastoralisme."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zone patrimoniale et architecture populaire traditionnelle",
+          "text": "Une partie de Heľpa est protégée comme zone patrimoniale depuis 1992. Les maisons vernaculaires conservées illustrent l’architecture traditionnelle du haut Horehronie : constructions en rondins, caves en pierre ou en brique, galeries ouvertes appelées localement gánok, dépendances agricoles et toits en bardeaux. De petits greniers en pierre ou en brique, nommés lenchauzi, sont également caractéristiques. Les documents d’urbanisme municipaux indiquent qu’un grand incendie en 1906 détruisit la majeure partie du village et que la reconstruction influença son plan actuel. La source précise avec réserve que seules 18 maisons auraient survécu ; ce chiffre ne doit donc pas être considéré comme un décompte exact."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca : festival folklorique depuis 1966",
+          "text": "Depuis 1966, Heľpa accueille le festival Horehronské dni spevu a tanca, une importante présentation de la culture populaire slovaque. Il met à l’honneur les chants, danses, costumes traditionnels et coutumes du Horehronie, région montagneuse du haut bassin du Hron. Le festival se déroule dans l’amphithéâtre naturel de Holý vrch. Le cadre montagnard ouvert fait partie de son identité et a fait du lieu l’un des symboles culturels de la commune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église de l’Assomption de la Vierge Marie",
+          "text": "Le paysage du village est dominé par l’église catholique romaine de style baroque tardif dédiée à l’Assomption de la Vierge Marie. Une source spécialisée dans le patrimoine situe le début des travaux en 1800 et leur achèvement en 1805 ; l’année 1806 correspond à la fondation de la paroisse locale. Cette distinction explique les dates divergentes de certains résumés municipaux. L’église se trouve dans la partie nord-ouest de Heľpa et témoigne de l’évolution du village au tournant des XVIIIe et XIXe siècles."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka a filmé les traditions populaires de Heľpa",
+          "text": "Heľpa a attiré l’attention du photographe et cinéaste documentaire Karol Plicka. Selon l’histoire publiée par la commune, il y a tourné en 1928 puis de nouveau en 1933. Cette seconde visite était liée au film Zem spieva (La Terre chante), un important documentaire sur la vie rurale, la musique et les traditions populaires slovaques. Le travail de Plicka a contribué à préserver des images des jeux, costumes et coutumes locales à une époque de transformation rapide des modes de vie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa pendant le Soulèvement national slovaque et la libération",
+          "text": "Après le déclenchement du Soulèvement national slovaque, Heľpa prit part à la résistance. Les documents historiques municipaux indiquent que le soulèvement fut proclamé dans le village le 28 août 1944 et que 88 volontaires furent mobilisés, formant deux sections d’infanterie et une section d’artillerie. Les habitants aidèrent les partisans en leur fournissant des vivres et des renseignements ; l’école abrita un hôpital militaire de campagne avec salle d’opération. Des troupes soviétiques et roumaines libérèrent le village dans la nuit du 30 au 31 janvier 1945. Ces événements s’inscrivent dans l’histoire plus large de la guerre dans la haute vallée du Hron et ne se sont pas déroulés en un seul lieu précisément délimité."
+        },
+        {
+          "id": "fact_007",
+          "title": "Traces archéologiques d’une activité préhistorique dans le territoire de Heľpa",
+          "text": "La littérature archéologique signale à Heľpa la découverte d’outils en pierre, datés de manière générale du Néolithique ou de l’Énéolithique, les phases récentes de l’âge de pierre. Des documents plus récents relatifs à la protection du patrimoine mentionnent également des outils néolithiques provenant d’un emplacement inconnu dans le territoire cadastral de la commune. Le lieu exact étant indéterminé, les objets ne peuvent être associés à un site précis et ne permettent pas d’affirmer l’existence d’un établissement préhistorique particulier. Ils montrent néanmoins que le paysage environnant était fréquenté dès la préhistoire."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Heľpa – centro del villaggio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: villaggio pastorale di montagna documentato dal 1549",
+          "text": "La prima menzione scritta di Heľpa risale al 1549 e compare nel registro della signoria di Muráň. Il documento cita i fratelli Jakub e Peter Heľpänský, proprietari insieme di 250 pecore. Ciò riflette il carattere pastorale originario dell’insediamento: i primi abitanti erano valacchi, pastori di montagna dediti soprattutto all’allevamento ovino; in seguito l’agricoltura acquisì maggiore importanza. La storia di Heľpa, nell’alta valle dell’Hron, fu quindi fortemente segnata dalla pastorizia transumante."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zona monumentale e architettura popolare tradizionale",
+          "text": "Una parte di Heľpa è tutelata come zona monumentale dal 1992. Le case tradizionali conservate mostrano l’architettura tipica dell’alto Horehronie: strutture in tronchi di legno, cantine in pietra o mattoni, gallerie aperte chiamate localmente gánok, edifici agricoli e tetti in scandole. Sono caratteristiche anche piccole granaglie in pietra o mattoni note come lenchauzi. I documenti urbanistici comunali ricordano che un grande incendio nel 1906 distrusse gran parte del villaggio e che la ricostruzione ne influenzò l’attuale impianto. La fonte afferma con cautela che sarebbero sopravvissute soltanto 18 case; il dato non va considerato un conteggio esatto."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca: festival folkloristico dal 1966",
+          "text": "Dal 1966 Heľpa ospita il festival Horehronské dni spevu a tanca, un’importante rassegna della cultura popolare slovacca. Il programma presenta canti, danze, costumi tradizionali e usanze dell’Horehronie, regione montuosa nell’alto bacino del fiume Hron. Il festival si svolge nell’anfiteatro naturale di Holý vrch. Il paesaggio montano aperto è parte integrante della manifestazione e ha reso il luogo uno dei simboli culturali del comune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa dell’Assunzione della Vergine Maria",
+          "text": "Il profilo del villaggio è dominato dalla chiesa cattolica romana tardobarocca dedicata all’Assunzione della Vergine Maria. Una fonte specialistica sul patrimonio indica che i lavori iniziarono nel 1800 e terminarono nel 1805; il 1806 si riferisce invece alla fondazione della parrocchia locale. Questa distinzione spiega le date differenti riportate in alcuni brevi testi comunali. La chiesa sorge nella parte nord-occidentale di Heľpa e testimonia lo sviluppo del villaggio tra Settecento e Ottocento."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka documentò in film le tradizioni di Heľpa",
+          "text": "Heľpa attirò l’interesse del fotografo e documentarista Karol Plicka. Secondo la storia comunale, girò qui nel 1928 e tornò nel 1933. La seconda visita fu legata al film Zem spieva (La terra canta), importante documentario sulla vita rurale, la musica e le tradizioni popolari slovacche. Il lavoro di Plicka contribuì a conservare immagini dei giochi, dei costumi e delle usanze locali in un periodo di rapidi cambiamenti sociali."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa durante l’Insurrezione nazionale slovacca e la liberazione",
+          "text": "Dopo l’inizio dell’Insurrezione nazionale slovacca, Heľpa partecipò alla resistenza. I documenti storici comunali riferiscono che l’insurrezione fu proclamata nel villaggio il 28 agosto 1944 e che furono mobilitati 88 volontari, organizzati in due plotoni di fanteria e uno di artiglieria. Gli abitanti sostennero i partigiani con rifornimenti e informazioni; nella scuola fu allestito un ospedale militare da campo con sala operatoria. Le truppe sovietiche e rumene liberarono il villaggio nella notte tra il 30 e il 31 gennaio 1945. Questi eventi fanno parte della più ampia storia bellica dell’alta valle dell’Hron e non si svolsero in un unico luogo precisamente delimitato."
+        },
+        {
+          "id": "fact_007",
+          "title": "Tracce archeologiche di attività preistorica nel territorio di Heľpa",
+          "text": "La letteratura archeologica registra a Heľpa il ritrovamento di utensili in pietra, datati in modo generale al Neolitico o all’Eneolitico, le fasi più recenti dell’età della pietra. Documenti più recenti della tutela del patrimonio menzionano inoltre utensili neolitici provenienti da un luogo non identificato nel territorio catastale del comune. Poiché il punto esatto del ritrovamento è sconosciuto, gli oggetti non possono essere attribuiti a un sito preciso né dimostrano l’esistenza di un determinato insediamento preistorico. Mostrano tuttavia che il paesaggio circostante era frequentato già in epoca preistorica."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Heľpa – dorpscentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Heľpa: een bergdorp met herdersgeschiedenis sinds 1549",
+          "text": "De oudste schriftelijke vermelding van Heľpa dateert uit 1549 en staat in het register van het landgoed Muráň. Daarin worden de broers Jakub en Peter Heľpänský genoemd, die samen 250 schapen bezaten. Dit past bij het vroege pastorale karakter van de nederzetting: de eerste bewoners waren Walachen, bergbewoners die vooral schapen hoedden; landbouw werd later belangrijker. De geschiedenis van Heľpa in het bovenste deel van de Hronvallei werd sterk gevormd door de bergveeteelt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Beschermde erfgoedzone en traditionele volksarchitectuur",
+          "text": "Een deel van Heľpa is sinds 1992 beschermd als erfgoedzone. De bewaard gebleven traditionele huizen tonen de bouwstijl van het bovenste Horehronie: houten blokbouw, stenen of gemetselde kelders, open galerijen die plaatselijk gánok heten, bijgebouwen en houten dakspanen. Ook kleine stenen of gemetselde voorraadschuren, lokaal lenchauzi genoemd, zijn kenmerkend. Gemeentelijke planningsdocumenten vermelden dat een grote brand in 1906 het grootste deel van het dorp verwoestte en dat de wederopbouw het huidige stratenpatroon beïnvloedde. De bron vermeldt met enig voorbehoud dat naar verluidt slechts 18 huizen gespaard bleven; dat aantal is geen exacte telling."
+        },
+        {
+          "id": "fact_003",
+          "title": "Horehronské dni spevu a tanca – volksfestival sinds 1966",
+          "text": "Sinds 1966 organiseert Heľpa het festival Horehronské dni spevu a tanca, een belangrijke presentatie van de Slowaakse volkscultuur. Het festival brengt liederen, dansen, klederdracht en gebruiken uit Horehronie samen, het berggebied in het bovenste stroomgebied van de rivier de Hron. De optredens vinden plaats in het natuurlijke amfitheater op Holý vrch. De open bergomgeving hoort bij het karakter van het festival en maakte de locatie tot een cultureel symbool van de gemeente."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kerk van Maria-Tenhemelopneming",
+          "text": "De laatbarokke rooms-katholieke kerk van Maria-Tenhemelopneming bepaalt mede het dorpsbeeld. Een gespecialiseerde erfgoedbron dateert de start van de bouw op 1800 en de voltooiing op 1805; 1806 verwijst naar de oprichting van de plaatselijke parochie. Dit onderscheid verklaart de uiteenlopende jaartallen in sommige korte gemeentelijke overzichten. De kerk staat in het noordwestelijke deel van Heľpa en weerspiegelt de ontwikkeling van het dorp rond de overgang van de achttiende naar de negentiende eeuw."
+        },
+        {
+          "id": "fact_005",
+          "title": "Karol Plicka legde de volkscultuur van Heľpa op film vast",
+          "text": "Heľpa trok de aandacht van fotograaf en documentairemaker Karol Plicka. Volgens de gemeentelijke geschiedschrijving filmde hij hier in 1928 en opnieuw in 1933. Zijn tweede bezoek hield verband met de film Zem spieva (De aarde zingt), een belangrijke documentaire over het Slowaakse plattelandsleven, muziek en volksgebruiken. Plicka's werk hielp beelden van plaatselijke spelen, klederdracht en tradities te bewaren in een periode waarin de traditionele levenswijze snel veranderde."
+        },
+        {
+          "id": "fact_006",
+          "title": "Heľpa tijdens de Slowaakse Nationale Opstand en de bevrijding",
+          "text": "Na het uitbreken van de Slowaakse Nationale Opstand raakte Heľpa betrokken bij het verzet. Volgens gemeentelijke historische documenten werd de opstand op 28 augustus 1944 in het dorp uitgeroepen en werden 88 vrijwilligers gemobiliseerd; zij vormden twee infanteriepelotons en een artilleriepeloton. Inwoners steunden partizanen met voedsel en inlichtingen. In de school was een militair veldhospitaal met operatiekamer gevestigd. Sovjet- en Roemeense troepen bevrijdden het dorp in de nacht van 30 op 31 januari 1945. Deze gebeurtenissen maken deel uit van de bredere oorlogsgeschiedenis van de bovenste Hronvallei en vonden niet op één exact afgebakende plek plaats."
+        },
+        {
+          "id": "fact_007",
+          "title": "Archeologische sporen van prehistorisch gebruik van het grondgebied van Heľpa",
+          "text": "Archeologische literatuur vermeldt een vondst van stenen werktuigen uit Heľpa, globaal gedateerd in het neolithicum of eneolithicum, de latere fasen van de steentijd. Recentere erfgoeddocumenten noemen eveneens neolithische stenen werktuigen van een onbekende vindplaats binnen het kadastrale gebied van de gemeente. Omdat de exacte vindplaats niet bekend is, kunnen de voorwerpen niet aan één concrete plek worden gekoppeld en bewijzen ze niet hoe een prehistorische nederzetting eruitzag. Ze tonen wel aan dat het omringende landschap al in de prehistorie werd gebruikt."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
