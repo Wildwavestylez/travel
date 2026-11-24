@@ -7,8 +7,9 @@
 Use this prompt with the current:
 - `data/germany/schema.json`
 - `data/germany/CONTENT_STANDARD.md`
+- `data/germany/COUNTRY_PROFILE.md`
 
-The schema defines structure and permitted values. The German Content Standard is authoritative for content, geography, research, sources, translations and quality. This prompt defines the efficient workflow. If they conflict, follow the schema and Content Standard and record the conflict; do not silently change either.
+The schema defines structure and permitted values. The German Content Standard is authoritative for content, research, sources, translations and quality. The Country Profile defines German postal, geographic and administrative meaning. This prompt defines the efficient workflow. If they conflict, follow the schema and Content Standard and record the conflict; do not silently change either.
 
 ## Production storage and safe Supabase I/O — mandatory
 
