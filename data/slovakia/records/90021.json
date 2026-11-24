@@ -255,6 +255,51 @@
         "accuracy": "approximate",
         "source": "https://commons.wikimedia.org/wiki/Category:Church_of_Holy_Trinity,_Svätý_Jur"
       }
+    },
+    {
+      "id": "fact_012",
+      "title": "Pustý kostolík: poutní kaple a místo poustevníků",
+      "text": "Kaple Nanebevzetí Panny Marie, známá jako Pustý kostolík, stojí na návrší u historické cesty mezi Bratislavou a Svätým Jurem. Její původ sahá nejpozději do 15. století; písemný pramen z roku 1548 ji zmiňuje jako opuštěný kostelík. Piaristé ji získali roku 1697 a obnovili poutě na svátek Nanebevzetí Panny Marie. V letech 1715–1719 zde žil poustevník Henrich Kilhausen. Kaple je národní kulturní památkou; v letech 2015–2016 bylo obnoveno její okolí včetně kalvárie a roku 2017 přibyla nová křížová cesta.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.mestskemuzeumpk.sk/dokumenty-historika/9/Historika%202013%202.pdf?v=1",
+        "https://www.apsida.sk/c/1735/svaty-jur-pusty-kostolik",
+        "https://www.prikladnaobnova.sk/objekty/2017/1669/revitalizacia-okolia-pusteho-kostolika-vo-svatom-jure/",
+        "https://malekarpaty.travel/wp-content/uploads/2021/08/mapa-sv-jur-2021.pdf"
+      ],
+      "location": {
+        "name": "Kaple Nanebevzetí Panny Marie – Pustý kostolík",
+        "address": null,
+        "lat": 48.237821,
+        "lon": 17.203158,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://www.apsida.sk/c/1735/svaty-jur-pusty-kostolik"
+      }
+    },
+    {
+      "id": "fact_013",
+      "title": "Jurské jazero: horské rašeliniště v Malých Karpatech",
+      "text": "Severozápadně nad městem, v lesích Malých Karpat, leží přírodní rezervace Jurské jazero. Chráněné území bylo vyhlášeno v roce 1988 a má rozlohu 27,49 hektaru. Nachází se v nadmořské výšce přibližně 500–510 metrů v terénní depresi mezi vrchy Malý a Veľký Javorník. Předmětem ochrany jsou společenstva březových olšin a horského rašeliniště; v centrální části se vyskytuje rašeliník. Jde o regionálně významný mokřad a odlišný typ přírodního prostředí než nížinná rezervace Šúr na jihovýchodním okraji katastru.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "map_category": "nature",
+      "sources": [
+        "https://www.sopsr.sk/chus/chranene-uzemia-slovenska-96/34/",
+        "https://bratislavaregion.travel/poi/119/the-national-reserve-jurske-jazero-protected-area-of-the-small-carpathians",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445"
+      ],
+      "location": {
+        "name": "Přírodní rezervace Jurské jazero – orientační bod rašeliniště",
+        "address": null,
+        "lat": 48.259281,
+        "lon": 17.155152,
+        "type": "protected_area",
+        "accuracy": "area_representative",
+        "source": "https://jurske-jazero.oma.sk/"
+      }
     }
   ],
   "sources": [
@@ -412,6 +457,41 @@
       "title": "Wikimedia Commons – Kostol Najsvätejšej Trojice vo Svätom Jure",
       "url": "https://commons.wikimedia.org/wiki/Category:Church_of_Holy_Trinity,_Svätý_Jur",
       "type": "other"
+    },
+    {
+      "title": "Mestské múzeum Pezinok – Historika 2/2013: Svätojurská kaplnka Nanebovzatia Panny Márie",
+      "url": "https://www.mestskemuzeumpk.sk/dokumenty-historika/9/Historika%202013%202.pdf?v=1",
+      "type": "museum"
+    },
+    {
+      "title": "Apsida – Pustý kostolík vo Svätom Jure",
+      "url": "https://www.apsida.sk/c/1735/svaty-jur-pusty-kostolik",
+      "type": "specialist"
+    },
+    {
+      "title": "Príkladná obnova – Revitalizácia okolia Pustého kostolíka",
+      "url": "https://www.prikladnaobnova.sk/objekty/2017/1669/revitalizacia-okolia-pusteho-kostolika-vo-svatom-jure/",
+      "type": "specialist"
+    },
+    {
+      "title": "Malé Karpaty – Mapa Svätého Jura a kaplnka Pustý kostolík",
+      "url": "https://malekarpaty.travel/wp-content/uploads/2021/08/mapa-sv-jur-2021.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Štátna ochrana prírody SR – Prírodná rezervácia Jurské jazero",
+      "url": "https://www.sopsr.sk/chus/chranene-uzemia-slovenska-96/34/",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavský región – Prírodná rezervácia Jurské jazero",
+      "url": "https://bratislavaregion.travel/poi/119/the-national-reserve-jurske-jazero-protected-area-of-the-small-carpathians",
+      "type": "regional"
+    },
+    {
+      "title": "OpenStreetMap – Jurské jazero",
+      "url": "https://jurske-jazero.oma.sk/",
+      "type": "other"
     }
   ],
   "photo": null,
@@ -487,6 +567,16 @@
           "id": "fact_011",
           "title": "Kostel Nejsvětější Trojice a varhany mistra Výmoly",
           "text": "Kostel Nejsvětější Trojice byl postaven v letech 1651–1654 původně pro evangelickou obec; od roku 1674 patří katolické církvi. Jeho interiér získal barokní podobu na konci 17. a na začátku 18. století. Zvláštní pozornost si zaslouží barokní varhany, které v roce 1797 zhotovil moravský mistr Výmola a které se dochovaly v původní skříni. Městský památkový přehled je označuje za jediný takový nástroj na Slovensku. V kostele se zachovaly také barokní oltáře, kaple svatého Jana a empírová kazatelna."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: poutní kaple a místo poustevníků",
+          "text": "Kaple Nanebevzetí Panny Marie, známá jako Pustý kostolík, stojí na návrší u historické cesty mezi Bratislavou a Svätým Jurem. Její původ sahá nejpozději do 15. století; písemný pramen z roku 1548 ji zmiňuje jako opuštěný kostelík. Piaristé ji získali roku 1697 a obnovili poutě na svátek Nanebevzetí Panny Marie. V letech 1715–1719 zde žil poustevník Henrich Kilhausen. Kaple je národní kulturní památkou; v letech 2015–2016 bylo obnoveno její okolí včetně kalvárie a roku 2017 přibyla nová křížová cesta."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: horské rašeliniště v Malých Karpatech",
+          "text": "Severozápadně nad městem, v lesích Malých Karpat, leží přírodní rezervace Jurské jazero. Chráněné území bylo vyhlášeno v roce 1988 a má rozlohu 27,49 hektaru. Nachází se v nadmořské výšce přibližně 500–510 metrů v terénní depresi mezi vrchy Malý a Veľký Javorník. Předmětem ochrany jsou společenstva březových olšin a horského rašeliniště; v centrální části se vyskytuje rašeliník. Jde o regionálně významný mokřad a odlišný typ přírodního prostředí než nížinná rezervace Šúr na jihovýchodním okraji katastru."
         }
       ]
     },
@@ -547,6 +637,16 @@
           "id": "fact_011",
           "title": "Dreifaltigkeitskirche und die Orgel des Meisters Výmola",
           "text": "Die Dreifaltigkeitskirche wurde 1651–1654 ursprünglich für die evangelische Gemeinde errichtet; seit 1674 gehört sie der katholischen Kirche. Ihre Innenausstattung erhielt Ende des 17. und Anfang des 18. Jahrhunderts ein barockes Gepräge. Besonders bemerkenswert ist die Barockorgel, die 1797 vom mährischen Meister Výmola gebaut wurde und sich in ihrem ursprünglichen Gehäuse erhalten hat. Der städtische Denkmalführer bezeichnet sie als ein in dieser Form einzigartiges Instrument in der Slowakei. Zur Ausstattung gehören außerdem Barockaltäre, eine Johanneskapelle und eine Empire-Kanzel."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: Wallfahrtskapelle und Einsiedlerstätte",
+          "text": "Die Kapelle Mariä Himmelfahrt, bekannt als Pustý kostolík, steht an der historischen Straße zwischen Bratislava und Svätý Jur. Ihr Ursprung reicht mindestens ins 15. Jahrhundert zurück; eine Urkunde von 1548 erwähnt sie als verlassene Kirche. Die Piaristen übernahmen sie 1697 und belebten die Wallfahrt wieder. Von 1715 bis 1719 lebte hier der Einsiedler Henrich Kilhausen. Die Kapelle ist ein nationales Kulturdenkmal; 2015–2016 wurde ihr Umfeld mit dem Kalvarienberg erneuert, 2017 kam ein neuer Kreuzweg hinzu."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: ein Bergmoor in den Kleinen Karpaten",
+          "text": "Nordwestlich oberhalb der Stadt liegt das Naturreservat Jurské jazero in den Wäldern der Kleinen Karpaten. Es wurde 1988 ausgewiesen und umfasst 27,49 Hektar. Auf 500–510 Metern Höhe schützt es Birken-Erlenwald und ein Bergmoor zwischen Malý und Veľký Javorník. Im zentralen Teil wächst Torfmoos. Dieses regional bedeutende Feuchtgebiet unterscheidet sich deutlich vom Tieflandreservat Šúr am südöstlichen Rand des Gemeindegebiets."
         }
       ]
     },
@@ -607,6 +707,16 @@
           "id": "fact_011",
           "title": "The Church of the Holy Trinity and Výmola’s organ",
           "text": "The Church of the Holy Trinity was built in 1651–1654 originally for the Evangelical community; it passed to the Catholic Church in 1674. Its interior acquired a Baroque character in the late 17th and early 18th centuries. A notable feature is the Baroque organ made in 1797 by the Moravian master Výmola, preserved in its original case. The municipal heritage guide describes it as unique of its kind in Slovakia. The church also contains Baroque altars, a chapel of St John and an Empire-style pulpit."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: a pilgrimage chapel and hermitage",
+          "text": "The Chapel of the Assumption of the Virgin Mary, known as Pustý kostolík, stands beside the historic road between Bratislava and Svätý Jur. Its origins reach back at least to the 15th century; a 1548 record calls it an abandoned church. The Piarists acquired it in 1697 and revived the pilgrimage. Hermit Henrich Kilhausen lived here from 1715 to 1719. The chapel is a national cultural monument; its surroundings and Calvary were renewed in 2015–2016, followed by a new Stations of the Cross in 2017."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: a mountain peat bog in the Little Carpathians",
+          "text": "The Jurské jazero nature reserve lies in the Little Carpathian forests northwest above the town. Designated in 1988, it covers 27.49 hectares at about 500–510 metres above sea level, between Malý and Veľký Javorník. It protects birch-alder woodland and a mountain peat bog with sphagnum moss in its central section. This regionally important wetland is a different habitat from the lowland Šúr reserve on the southeastern edge of the cadastral area."
         }
       ]
     },
@@ -667,6 +777,16 @@
           "id": "fact_011",
           "title": "La iglesia de la Santísima Trinidad y el órgano de Výmola",
           "text": "La iglesia de la Santísima Trinidad se construyó entre 1651 y 1654 originalmente para la comunidad evangélica; desde 1674 pertenece a la Iglesia católica. Su interior adquirió un carácter barroco a finales del siglo XVII y comienzos del XVIII. Destaca el órgano barroco realizado en 1797 por el maestro moravo Výmola, conservado en su caja original. La guía municipal de patrimonio lo describe como único de su tipo en Eslovaquia. La iglesia conserva también altares barrocos, una capilla de san Juan y un púlpito de estilo Imperio."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: capilla de peregrinación y refugio de ermitaños",
+          "text": "La capilla de la Asunción de la Virgen María, conocida como Pustý kostolík, se encuentra junto al antiguo camino entre Bratislava y Svätý Jur. Sus orígenes se remontan al menos al siglo XV; un documento de 1548 la menciona como iglesia abandonada. Los escolapios la adquirieron en 1697 y recuperaron la peregrinación. El ermitaño Henrich Kilhausen vivió aquí entre 1715 y 1719. Es monumento cultural nacional; su entorno y el Calvario se renovaron en 2015–2016 y en 2017 se añadió un nuevo viacrucis."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: turbera de montaña en los Pequeños Cárpatos",
+          "text": "La reserva natural de Jurské jazero se encuentra en los bosques de los Pequeños Cárpatos, al noroeste de la ciudad. Fue declarada en 1988 y ocupa 27,49 hectáreas, a unos 500–510 metros de altitud entre Malý y Veľký Javorník. Protege bosques de abedules y alisos y una turbera de montaña con esfagno en su zona central. Es un humedal regional distinto de la reserva de tierras bajas de Šúr."
         }
       ]
     },
@@ -727,6 +847,16 @@
           "id": "fact_011",
           "title": "L’église de la Sainte-Trinité et l’orgue de Výmola",
           "text": "L’église de la Sainte-Trinité fut construite en 1651–1654 à l’origine pour la communauté évangélique ; elle appartient à l’Église catholique depuis 1674. Son intérieur prit un caractère baroque à la fin du XVIIe et au début du XVIIIe siècle. L’orgue baroque réalisé en 1797 par le maître morave Výmola, conservé dans son buffet d’origine, mérite une attention particulière. Le guide patrimonial municipal le décrit comme unique en son genre en Slovaquie. L’église conserve aussi des autels baroques, une chapelle Saint-Jean et une chaire de style Empire."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík : chapelle de pèlerinage et refuge d’ermites",
+          "text": "La chapelle de l’Assomption, connue sous le nom de Pustý kostolík, se trouve près de l’ancienne route entre Bratislava et Svätý Jur. Ses origines remontent au moins au XVe siècle ; un document de 1548 la mentionne comme église abandonnée. Les piaristes l’acquirent en 1697 et rétablirent le pèlerinage. L’ermite Henrich Kilhausen y vécut de 1715 à 1719. La chapelle est un monument culturel national ; ses abords et le calvaire furent restaurés en 2015–2016, puis un chemin de croix fut aménagé en 2017."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero : une tourbière de montagne dans les Petites Carpates",
+          "text": "La réserve naturelle de Jurské jazero se trouve dans les forêts des Petites Carpates, au nord-ouest de la ville. Créée en 1988, elle couvre 27,49 hectares à environ 500–510 mètres d’altitude, entre Malý et Veľký Javorník. Elle protège des peuplements de bouleaux et d’aulnes ainsi qu’une tourbière de montagne où pousse la sphaigne. Cette zone humide régionale diffère de la réserve de plaine de Šúr."
         }
       ]
     },
@@ -787,6 +917,16 @@
           "id": "fact_011",
           "title": "La chiesa della Santissima Trinità e l’organo di Výmola",
           "text": "La chiesa della Santissima Trinità fu costruita nel 1651–1654 originariamente per la comunità evangelica; dal 1674 appartiene alla Chiesa cattolica. L’interno assunse un carattere barocco tra la fine del XVII e l’inizio del XVIII secolo. Di particolare interesse è l’organo barocco realizzato nel 1797 dal maestro moravo Výmola, conservato nella cassa originale. La guida municipale dei monumenti lo definisce unico nel suo genere in Slovacchia. La chiesa conserva inoltre altari barocchi, una cappella di San Giovanni e un pulpito in stile Impero."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: cappella di pellegrinaggio e rifugio di eremiti",
+          "text": "La cappella dell’Assunzione, nota come Pustý kostolík, sorge accanto all’antica strada tra Bratislava e Svätý Jur. Le sue origini risalgono almeno al XV secolo; un documento del 1548 la cita come chiesa abbandonata. I piaristi la acquisirono nel 1697 e ripristinarono il pellegrinaggio. L’eremita Henrich Kilhausen vi abitò dal 1715 al 1719. È monumento culturale nazionale; l’area e il Calvario furono riqualificati nel 2015–2016 e nel 2017 fu aggiunta una Via Crucis."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: torbiera montana nei Piccoli Carpazi",
+          "text": "La riserva naturale di Jurské jazero si trova nei boschi dei Piccoli Carpazi, a nord-ovest della città. Istituita nel 1988, copre 27,49 ettari a circa 500–510 metri di altitudine, tra Malý e Veľký Javorník. Protegge boschi di betulle e ontani e una torbiera montana con sfagni nella parte centrale. È una zona umida regionale diversa dalla riserva di pianura di Šúr."
         }
       ]
     },
@@ -847,6 +987,16 @@
           "id": "fact_011",
           "title": "De Kerk van de Heilige Drie-eenheid en het orgel van Výmola",
           "text": "De Kerk van de Heilige Drie-eenheid werd in 1651–1654 oorspronkelijk voor de evangelische gemeenschap gebouwd; sinds 1674 behoort zij aan de katholieke kerk. Het interieur kreeg aan het einde van de 17e en het begin van de 18e eeuw een barok karakter. Bijzonder is het barokorgel dat de Moravische meester Výmola in 1797 maakte en dat in de oorspronkelijke orgelkast bewaard bleef. De gemeentelijke monumentengids noemt het uniek in zijn soort in Slowakije. De kerk bezit ook barokaltaren, een Sint-Janskapel en een preekstoel in empirestijl."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pustý kostolík: bedevaartkapel en toevluchtsoord voor kluizenaars",
+          "text": "De Kapel van Maria-Tenhemelopneming, bekend als Pustý kostolík, staat bij de historische weg tussen Bratislava en Svätý Jur. De oorsprong gaat minstens terug tot de 15e eeuw; een bron uit 1548 noemt haar een verlaten kerk. De piaristen namen de kapel in 1697 over en herstelden de bedevaart. Kluizenaar Henrich Kilhausen woonde hier van 1715 tot 1719. De kapel is een nationaal cultureel monument; de omgeving en Calvarieberg werden in 2015–2016 vernieuwd en in 2017 volgde een kruisweg."
+        },
+        {
+          "id": "fact_013",
+          "title": "Jurské jazero: een bergveen in de Kleine Karpaten",
+          "text": "Het natuurreservaat Jurské jazero ligt in de bossen van de Kleine Karpaten, ten noordwesten van de stad. Het werd in 1988 aangewezen en beslaat 27,49 hectare op ongeveer 500–510 meter hoogte, tussen Malý en Veľký Javorník. Het beschermt berken-elzenbos en een bergveen met veenmos in het centrale deel. Dit regionaal belangrijke wetland verschilt van het laaglandreservaat Šúr."
         }
       ]
     }
