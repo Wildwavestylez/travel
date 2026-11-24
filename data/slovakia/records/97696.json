@@ -1,4 +1,565 @@
 {
   "postcode": "97696",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Medzibrod",
+  "district": null,
+  "county": "Banská Bystrica",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Medzibrod – centrum obce pri obecnom úrade, Námestie hrdinov SNP 1",
+  "representative_point": {
+    "lat": 48.79217857758706,
+    "lon": 19.352161915157684
+  },
+  "access_point": {
+    "lat": 48.79217857758706,
+    "lon": 19.352161915157684
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Medzibrod: obec mezi brody Hronu a proměny jejího jména",
+      "text": "Medzibrod leží v údolní krajině Horehroní u řeky Hron. Místní obecní historie vysvětluje název polohou mezi někdejšími brody přes široké a pomalu tekoucí koryto řeky; jde o tradiční výklad podpořený polohou sídla, nikoli o jistě doložený jediný původ názvu. První písemná zmínka o obci pochází z roku 1455, kdy se uvádí jako Megywbrodye; v dalších pramenech se objevují podoby Medybrody, Mezybroth a Medzibrod. V období maďarizace se používal název Mezőköz. Po vzniku Československa se v roce 1923 úředně objevila podoba Medzibrod, později se užíval název Medzibrod nad Hronom a od roku 1946 se ustálilo dnešní jméno Medzibrod. Obec do roku 1848 patřila k Ľupčianskému panství.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
+        "https://www.obecmedzibrod.sk/obec-2/historia-obce/",
+        "https://www.e-obce.sk/obec/medzibrod/2-historia.html"
+      ],
+      "map_category": "historic_village",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Farní kostel svatého Jana Nepomuckého",
+      "text": "Dominantou místního sakrálního dědictví je římskokatolický farní kostel svatého Jana Nepomuckého. Věřící jej postavili roku 1790 z kamene za podpory Královské komory a místních obyvatel; slavnostně požehnán byl 16. května 1791. Stavba je popisována jako rokoková, s věží začleněnou do hmoty kostela a původně šindelovou dvojitou cibulovou střechou. Interiér má pruskou klenbu, čtrnáct zastavení křížové cesty a hodnotné oltářní vybavení. Požár roku 1938 zničil dřevěnou předsíň a původní šindelovou střechu; při obnově dostal kostel plechovou krytinu. V letech 2008–2009 přibylo osm vitrážových oken od umělce Ladislava Cserby. Medzibrodská samostatná farnost vznikla roku 1801.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://medzibrod.fara.sk/misto.php?id=2443",
+        "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
+        "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Farní kostel svatého Jana Nepomuckého, Hlavná, Medzibrod",
+        "address": "Hlavná, 976 96 Medzibrod, Slovensko",
+        "lat": 48.79144,
+        "lon": 19.3541781,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://medzibrod.fara.sk/misto.php?id=2443"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Stříbrné a zlaté žíly i důl Murgaš v dolině Borovského potoka",
+      "text": "Hornická minulost Medzibrodu sahá nejméně do 16. století. Odborná historickogeografická studie uvádí nejstarší známou písemnou zprávu o zdejším hornictví z roku 1581: pod vrchem Prašivá se tehdy zmiňuje stříbrný důl S. Gallen. V okolních dolinách se dobývalo také zlato a dochované prameny popisují zlaté žíly v lokalitě Borové. Nová etapa těžby strategického antimonu začala geologickým průzkumem v roce 1936; 19. srpna téhož roku byla otevřena hlavní průzkumná štola, později nazývaná Murgaš. Ložisko Močiar leží přibližně čtyři kilometry severoseverozápadně od obce v závěru doliny Borovského potoka. Těžba skončila roku 1950 a v krajině zůstaly štoly, haldy a další relikty hornické činnosti. Jde o pozůstatky opuštěného důlního areálu, nikoli o upravenou turistickou atrakci.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.fpv.umb.sk/app/cmsFile.php?ID=20830&disposition=a",
+        "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/geologia/",
+        "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/prirodne-podmienky/"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Medzibrod během Slovenského národního povstání a poprava partyzánů",
+      "text": "Během Slovenského národního povstání (SNP) v roce 1944 sloužil Medzibrod jako zázemí povstaleckého odboje: v obci byla zřízena polní nemocnice a v místní škole dočasně působila tiskárna, redakce i administrativa novin Pravda a Čas. Tragickou událostí se stala veřejná poprava partyzánů německými vojáky. Záznam Vojenského historického ústavu k archivní fotografii dokumentuje popravu čtyř mužů v Medzibrodu dne 29. prosince 1944: Rudolfa Slosiarika a Jána Dropu z Medzibrodu, Jána Záhorského z východního Slovenska a sovětského občana Ivana Seršeňa. Obecní strategický dokument uvádí odlišně datum 28. prosince a dva popravené; zde je proto upřednostněn konkrétní archivní záznam VHÚ. Pamětní tabule na fasádě kulturního domu připomíná popravené účastníky SNP.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
+        "https://ebadatelnavha.vhu.sk/en/archive_photos?f%5B0%5D=-browse.firstLetter%3A%22b%22&f%5B1%5D=-browse.firstLetter%3A%22n%22&f%5B2%5D=-browse.firstLetter%3A%22k%22&f%5B3%5D=-browse.year%3A%221942%22&f%5B4%5D=-browse.year%3A%221943%22&f%5B5%5D=browse.year%3A%221944%22&f%5B6%5D=-browse.month%3A%2211%22&f%5B7%5D=browse.firstLetter%3A%22p%22&page=3",
+        "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Přírodní rezervace Mačková a vzácná vápencová společenstva",
+      "text": "Nad Medzibrodem na jižním okraji Nízkých Tater leží přírodní rezervace Mačková, vyhlášená roku 1993 na ploše 42,23 hektaru. Chrání strmé vápencovo-dolomitické svahy, skalnaté partie, stepní a lesostepní stanoviště i zachovalé bukové a borové porosty. Rezervace se rozkládá přibližně v nadmořské výšce 425 až 675 metrů; k významným rostlinám patří poniklec slovenský (Pulsatilla subslavica). Obecní přírodovědný přehled uvádí v širším katastru Medzibrodu také více lokalit s poniklecemi a střevíčníkem pantoflíčkem. Přes samotnou rezervaci nevede značená turistická ani naučná stezka, což je důležité při plánování návštěvy a ochraně citlivých stanovišť.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.napant.sk/priroda/mchu/pr-mackova/",
+        "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/prirodne-podmienky/"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Vyvěračka Vyvieranica: potok, který se ztrácí a znovu objevuje",
+      "text": "Zajímavým přírodním jevem v katastru Medzibrodu je Vyvieranica. Podle obecního popisu jde o větev potoka Sopotnica, který pramení pod Velkou Chochuľou. V části Sopotnické doliny se voda ztrácí v prostoru Farského lesa a znovu vyvěrá v lokalitě Baništia na území Medzibrodu, kde vytváří mohutný potok stejného jména. Právě toto opětovné vystoupení vody na povrch dalo podnět k názvu toku i údolí. Vyvieranica se následně vlévá do Hronu; společně s potokem Močiar patří k místním vodním prvkům, které utvářejí krajinu obce.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/prirodne-podmienky/",
+        "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Vodojem pro doplňování vody do parních lokomotiv",
+      "text": "V Medzibrodu se dochoval technický objekt označovaný jako vodojem pro naplňování parních lokomotiv. Připomíná dobu, kdy železnice potřebovala podél tratí zařízení pro doplňování vody do parních strojů. Specializovaný přehled slovenských památek jej eviduje přímo v obci na adrese Hlavná 23 a uvádí jeho polohu 48.791844, 19.362333. Přestože dostupný památkový popis neuvádí přesný rok výstavby, samotná dochovaná funkce činí z vodojemu drobnou, ale názornou stopu někdejší železniční infrastruktury Horehroní.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/medzibrod-vodojem",
+        "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Vodojem pro naplňování parních lokomotiv, Hlavná 23, Medzibrod",
+        "address": "Hlavná 23, 976 96 Medzibrod, Slovensko",
+        "lat": 48.791844,
+        "lon": 19.362333,
+        "type": "water_tower",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/medzibrod-vodojem"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Medzibrodská haruľa a každoroční Haruľová show",
+      "text": "Medzibrod je v regionu známý také svou haruľou – vydatnou bramborovou plackou, která patří k tradičním jídlům Horehroní. Místní recepturu charakterizuje mimo jiné bylinka zvaná metka; regionální reportáž z roku 2019 uvádí, že se do zdejší varianty nepřidává mouka ani vejce. Obec a občanské sdružení Chlapci z Medzibrodu pořádají na náměstí každoroční zářijovou Haruľovou show, soutěž tříčlenných týmů o nejlepší haruľu. Vedle chuti se hodnotí také rychlost a atmosféra pečení a koná se i soutěž o nejdelší bramborovou slupku. V roce 2019 se konal 18. ročník, v letech 2020 a 2021 se akce nekonala a v roce 2026 se uskutečnil 23. ročník. Jde o živou místní tradici, která propojuje gastronomii, sousedské setkávání a kulturní program.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.obecmedzibrod.sk/obec-2/zo-zivota-obce/kulturne-a-spolocenske-podujatia/harulova-sou-na-namesti-obce/",
+        "https://www.bystricoviny.sk/bystricoviny-tv/bitka-o-najlepsiu-harulu-v-medzibrode-uz-tuto-sobotu/"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Námestie hrdinov SNP – místo konání Haruľové show, Medzibrod",
+        "address": "Námestie hrdinov SNP, 976 96 Medzibrod, Slovensko",
+        "lat": 48.7921786,
+        "lon": 19.3521619,
+        "type": "square",
+        "accuracy": "area_representative",
+        "source": "https://www.obecmedzibrod.sk/obec-2/zo-zivota-obce/kulturne-a-spolocenske-podujatia/harulova-sou-na-namesti-obce/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ (obec Medzibrod); geografické priradenie adresy obecného úradu Námestie hrdinov SNP 1, 976 96 Medzibrod potvrdené oficiálnou obcou a adresným bodom.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálna adresa obecného úradu je Námestie hrdinov SNP 1, 976 96 Medzibrod. Verejné PSČ mapové údaje odvodené z OSM uvádzajú jednu lokalitu Medzibrod; presný oficiálny polygon doručovacej oblasti nebol k dispozícii, preto sa netvrdí polygonálna hranica.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy SR pre administratívne zaradenie; oficiálna obec Medzibrod a adresný bod odvodený z registra adries MV SR (MINVSKAddress 2024-11) pre fyzickú polohu."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Medzibrod",
+      "url": "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
+      "type": "official"
+    },
+    {
+      "title": "Obec Medzibrod – História obce",
+      "url": "https://www.obecmedzibrod.sk/obec-2/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "E-Obce – Medzibrod, história (Vlastivedný slovník obcí)",
+      "url": "https://www.e-obce.sk/obec/medzibrod/2-historia.html",
+      "type": "regional"
+    },
+    {
+      "title": "Rímskokatolícka cirkev, Farnosť Medzibrod – farský kostol sv. Jána Nepomuckého",
+      "url": "https://medzibrod.fara.sk/misto.php?id=2443",
+      "type": "official"
+    },
+    {
+      "title": "Obec Medzibrod – Program hospodárskeho rozvoja a sociálneho rozvoja 2023–2032",
+      "url": "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pavel Hronček – Historickogeografická analýza zaniknutého baníctva v doline Borovského potoka, Geografická revue 16/1 (2020)",
+      "url": "https://www.fpv.umb.sk/app/cmsFile.php?ID=20830&disposition=a",
+      "type": "university"
+    },
+    {
+      "title": "Obec Medzibrod – Geológia",
+      "url": "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/geologia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Medzibrod – Prírodné podmienky",
+      "url": "https://www.obecmedzibrod.sk/obec-2/charakteristika-obce/prirodne-podmienky/",
+      "type": "official"
+    },
+    {
+      "title": "Správa Národného parku Nízke Tatry – PR Mačková",
+      "url": "https://www.napant.sk/priroda/mchu/pr-mackova/",
+      "type": "official"
+    },
+    {
+      "title": "Vojenský historický ústav – archivní fotografie popravy partizánov v Medzibrode, 29. 12. 1944",
+      "url": "https://ebadatelnavha.vhu.sk/en/archive_photos?f%5B0%5D=-browse.firstLetter%3A%22b%22&f%5B1%5D=-browse.firstLetter%3A%22n%22&f%5B2%5D=-browse.firstLetter%3A%22k%22&f%5B3%5D=-browse.year%3A%221942%22&f%5B4%5D=-browse.year%3A%221943%22&f%5B5%5D=browse.year%3A%221944%22&f%5B6%5D=-browse.month%3A%2211%22&f%5B7%5D=browse.firstLetter%3A%22p%22&page=3",
+      "type": "archive"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Medzibrod, vodojem",
+      "url": "https://www.pamiatkynaslovensku.sk/medzibrod-vodojem",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Medzibrod – Haruľová šou na námestí obce",
+      "url": "https://www.obecmedzibrod.sk/obec-2/zo-zivota-obce/kulturne-a-spolocenske-podujatia/harulova-sou-na-namesti-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Bystricoviny – Bitka o najlepšiu haruľu v Medzibrode (2019)",
+      "url": "https://www.bystricoviny.sk/bystricoviny-tv/bitka-o-najlepsiu-harulu-v-medzibrode-uz-tuto-sobotu/",
+      "type": "news"
+    },
+    {
+      "title": "Obecný úrad Medzibrod – adresa a súradnice adresného bodu",
+      "url": "https://poi.oma.sk/w73265471",
+      "type": "other"
+    },
+    {
+      "title": "AllSlovakia – PSČ 97696 Medzibrod (údaje odvodené z OpenStreetMap)",
+      "url": "https://allslovakia.info/psc/97696",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Medzibrod – centrum obce u obecního úřadu, Náměstí hrdinů SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: obec mezi brody Hronu a proměny jejího jména",
+          "text": "Medzibrod leží v údolní krajině Horehroní u řeky Hron. Místní obecní historie vysvětluje název polohou mezi někdejšími brody přes široké a pomalu tekoucí koryto řeky; jde o tradiční výklad podpořený polohou sídla, nikoli o jistě doložený jediný původ názvu. První písemná zmínka o obci pochází z roku 1455, kdy se uvádí jako Megywbrodye; v dalších pramenech se objevují podoby Medybrody, Mezybroth a Medzibrod. V období maďarizace se používal název Mezőköz. Po vzniku Československa se v roce 1923 úředně objevila podoba Medzibrod, později se užíval název Medzibrod nad Hronom a od roku 1946 se ustálilo dnešní jméno Medzibrod. Obec do roku 1848 patřila k Ľupčianskému panství."
+        },
+        {
+          "id": "fact_002",
+          "title": "Farní kostel svatého Jana Nepomuckého",
+          "text": "Dominantou místního sakrálního dědictví je římskokatolický farní kostel svatého Jana Nepomuckého. Věřící jej postavili roku 1790 z kamene za podpory Královské komory a místních obyvatel; slavnostně požehnán byl 16. května 1791. Stavba je popisována jako rokoková, s věží začleněnou do hmoty kostela a původně šindelovou dvojitou cibulovou střechou. Interiér má pruskou klenbu, čtrnáct zastavení křížové cesty a hodnotné oltářní vybavení. Požár roku 1938 zničil dřevěnou předsíň a původní šindelovou střechu; při obnově dostal kostel plechovou krytinu. V letech 2008–2009 přibylo osm vitrážových oken od umělce Ladislava Cserby. Medzibrodská samostatná farnost vznikla roku 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Stříbrné a zlaté žíly i důl Murgaš v dolině Borovského potoka",
+          "text": "Hornická minulost Medzibrodu sahá nejméně do 16. století. Odborná historickogeografická studie uvádí nejstarší známou písemnou zprávu o zdejším hornictví z roku 1581: pod vrchem Prašivá se tehdy zmiňuje stříbrný důl S. Gallen. V okolních dolinách se dobývalo také zlato a dochované prameny popisují zlaté žíly v lokalitě Borové. Nová etapa těžby strategického antimonu začala geologickým průzkumem v roce 1936; 19. srpna téhož roku byla otevřena hlavní průzkumná štola, později nazývaná Murgaš. Ložisko Močiar leží přibližně čtyři kilometry severoseverozápadně od obce v závěru doliny Borovského potoka. Těžba skončila roku 1950 a v krajině zůstaly štoly, haldy a další relikty hornické činnosti. Jde o pozůstatky opuštěného důlního areálu, nikoli o upravenou turistickou atrakci."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod během Slovenského národního povstání a poprava partyzánů",
+          "text": "Během Slovenského národního povstání (SNP) v roce 1944 sloužil Medzibrod jako zázemí povstaleckého odboje: v obci byla zřízena polní nemocnice a v místní škole dočasně působila tiskárna, redakce i administrativa novin Pravda a Čas. Tragickou událostí se stala veřejná poprava partyzánů německými vojáky. Záznam Vojenského historického ústavu k archivní fotografii dokumentuje popravu čtyř mužů v Medzibrodu dne 29. prosince 1944: Rudolfa Slosiarika a Jána Dropu z Medzibrodu, Jána Záhorského z východního Slovenska a sovětského občana Ivana Seršeňa. Obecní strategický dokument uvádí odlišně datum 28. prosince a dva popravené; zde je proto upřednostněn konkrétní archivní záznam VHÚ. Pamětní tabule na fasádě kulturního domu připomíná popravené účastníky SNP."
+        },
+        {
+          "id": "fact_005",
+          "title": "Přírodní rezervace Mačková a vzácná vápencová společenstva",
+          "text": "Nad Medzibrodem na jižním okraji Nízkých Tater leží přírodní rezervace Mačková, vyhlášená roku 1993 na ploše 42,23 hektaru. Chrání strmé vápencovo-dolomitické svahy, skalnaté partie, stepní a lesostepní stanoviště i zachovalé bukové a borové porosty. Rezervace se rozkládá přibližně v nadmořské výšce 425 až 675 metrů; k významným rostlinám patří poniklec slovenský (Pulsatilla subslavica). Obecní přírodovědný přehled uvádí v širším katastru Medzibrodu také více lokalit s poniklecemi a střevíčníkem pantoflíčkem. Přes samotnou rezervaci nevede značená turistická ani naučná stezka, což je důležité při plánování návštěvy a ochraně citlivých stanovišť."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vyvěračka Vyvieranica: potok, který se ztrácí a znovu objevuje",
+          "text": "Zajímavým přírodním jevem v katastru Medzibrodu je Vyvieranica. Podle obecního popisu jde o větev potoka Sopotnica, který pramení pod Velkou Chochuľou. V části Sopotnické doliny se voda ztrácí v prostoru Farského lesa a znovu vyvěrá v lokalitě Baništia na území Medzibrodu, kde vytváří mohutný potok stejného jména. Právě toto opětovné vystoupení vody na povrch dalo podnět k názvu toku i údolí. Vyvieranica se následně vlévá do Hronu; společně s potokem Močiar patří k místním vodním prvkům, které utvářejí krajinu obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Vodojem pro doplňování vody do parních lokomotiv",
+          "text": "V Medzibrodu se dochoval technický objekt označovaný jako vodojem pro naplňování parních lokomotiv. Připomíná dobu, kdy železnice potřebovala podél tratí zařízení pro doplňování vody do parních strojů. Specializovaný přehled slovenských památek jej eviduje přímo v obci na adrese Hlavná 23 a uvádí jeho polohu 48.791844, 19.362333. Přestože dostupný památkový popis neuvádí přesný rok výstavby, samotná dochovaná funkce činí z vodojemu drobnou, ale názornou stopu někdejší železniční infrastruktury Horehroní."
+        },
+        {
+          "id": "fact_008",
+          "title": "Medzibrodská haruľa a každoroční Haruľová show",
+          "text": "Medzibrod je v regionu známý také svou haruľou – vydatnou bramborovou plackou, která patří k tradičním jídlům Horehroní. Místní recepturu charakterizuje mimo jiné bylinka zvaná metka; regionální reportáž z roku 2019 uvádí, že se do zdejší varianty nepřidává mouka ani vejce. Obec a občanské sdružení Chlapci z Medzibrodu pořádají na náměstí každoroční zářijovou Haruľovou show, soutěž tříčlenných týmů o nejlepší haruľu. Vedle chuti se hodnotí také rychlost a atmosféra pečení a koná se i soutěž o nejdelší bramborovou slupku. V roce 2019 se konal 18. ročník, v letech 2020 a 2021 se akce nekonala a v roce 2026 se uskutečnil 23. ročník. Jde o živou místní tradici, která propojuje gastronomii, sousedské setkávání a kulturní program."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Medzibrod – Ortszentrum beim Gemeindeamt, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: das Dorf zwischen den Furten des Hron und die Wandlung seines Namens",
+          "text": "Medzibrod liegt in der Tallandschaft der Region Horehronie am Fluss Hron. Die örtliche Gemeindegeschichte erklärt den Namen mit der Lage zwischen früheren Furten durch das breite, langsam fließende Flussbett; dies ist eine traditionelle, durch die Siedlungslage gestützte Deutung, nicht der zweifelsfrei belegte einzige Ursprung des Namens. Die erste schriftliche Erwähnung stammt aus dem Jahr 1455 unter der Form Megywbrodye; spätere Quellen nennen auch Medybrody, Mezybroth und Medzibrod. Während der Magyarisierung wurde der Name Mezőköz verwendet. Nach der Entstehung der Tschechoslowakei erschien 1923 amtlich die Form Medzibrod; später wurde die Bezeichnung Medzibrod nad Hronom verwendet, und seit 1946 setzte sich der heutige Name Medzibrod durch. Bis 1848 gehörte die Gemeinde zur Herrschaft Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Pfarrkirche des heiligen Johannes Nepomuk",
+          "text": "Das bedeutendste sakrale Bauwerk des Ortes ist die römisch-katholische Pfarrkirche des heiligen Johannes Nepomuk. Die Gläubigen errichteten sie 1790 aus Stein, unterstützt von der Königlichen Kammer und den Einwohnern; am 16. Mai 1791 wurde sie feierlich geweiht. Der Bau wird dem Rokoko zugeordnet. Der Turm ist in den Baukörper integriert und trug ursprünglich ein mit Holzschindeln gedecktes Zwiebeldach mit doppelter Kuppelform. Im Inneren befinden sich ein preußisches Gewölbe, vierzehn Kreuzwegstationen und eine wertvolle Altarausstattung. Ein Brand im Jahr 1938 zerstörte die hölzerne Vorhalle und das ursprüngliche Schindeldach; bei der Wiederherstellung erhielt die Kirche eine Blechdeckung. In den Jahren 2008–2009 kamen acht Glasfenster des Künstlers Ladislav Cserba hinzu. Die eigenständige Pfarrei Medzibrod entstand 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Silber- und Goldadern sowie das Bergwerk Murgaš im Tal des Borovský-Bachs",
+          "text": "Die Bergbaugeschichte von Medzibrod reicht mindestens bis ins 16. Jahrhundert zurück. Eine historisch-geografische Fachstudie nennt als ältesten bekannten schriftlichen Beleg für den Bergbau hier das Jahr 1581: Unter dem Berg Prašivá wird damals die Silbergrube S. Gallen erwähnt. In den umliegenden Tälern wurde auch Gold gewonnen; historische Quellen beschreiben Goldadern im Gebiet Borové. Eine neue Phase des Abbaus des strategisch wichtigen Antimons begann mit geologischen Untersuchungen im Jahr 1936. Am 19. August desselben Jahres wurde der Hauptsuchstollen geöffnet, der später Murgaš genannt wurde. Das Lager Močiar liegt etwa vier Kilometer nordnordwestlich des Ortes am oberen Ende des Tals des Borovský-Bachs. Der Abbau endete 1950; im Gelände blieben Stollen, Halden und weitere Spuren des Bergbaus zurück. Es handelt sich um Reste eines stillgelegten Bergbaugebiets, nicht um eine erschlossene Touristenattraktion."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod während des Slowakischen Nationalaufstands und die Hinrichtung von Partisanen",
+          "text": "Während des Slowakischen Nationalaufstands (SNP) im Jahr 1944 diente Medzibrod als rückwärtiger Stützpunkt des Widerstands: Im Ort wurde ein Feldlazarett eingerichtet, und in der örtlichen Schule waren vorübergehend eine Druckerei sowie Redaktion und Verwaltung der Zeitungen Pravda und Čas untergebracht. Tragisch war die öffentliche Hinrichtung von Partisanen durch deutsche Soldaten. Ein Eintrag des Militärhistorischen Instituts zu einer Archivfotografie dokumentiert die Hinrichtung von vier Männern in Medzibrod am 29. Dezember 1944: Rudolf Slosiarik und Ján Dropa aus Medzibrod, Ján Záhorský aus der Ostslowakei und der sowjetische Staatsbürger Ivan Seršeň. Ein kommunales Strategiedokument nennt abweichend den 28. Dezember und zwei Opfer; hier wird deshalb dem konkreten Archivnachweis des Militärhistorischen Instituts gefolgt. Eine Gedenktafel an der Fassade des Kulturhauses erinnert an die hingerichteten Teilnehmer des SNP."
+        },
+        {
+          "id": "fact_005",
+          "title": "Naturschutzgebiet Mačková und seltene Kalksteinhabitate",
+          "text": "Oberhalb von Medzibrod am Südrand der Niederen Tatra liegt das 1993 ausgewiesene Naturschutzgebiet Mačková mit einer Fläche von 42,23 Hektar. Geschützt werden steile Kalk-Dolomit-Hänge, Felsbereiche, Steppen- und Waldsteppenstandorte sowie erhaltene Buchen- und Kiefernwälder. Das Gebiet liegt ungefähr zwischen 425 und 675 Metern Höhe; zu den bedeutenden Pflanzenarten gehört die slowakische Kuhschelle (Pulsatilla subslavica). Der naturkundliche Überblick der Gemeinde nennt im weiteren Gemeindegebiet außerdem mehrere Fundorte von Kuhschellen und Frauenschuh-Orchideen. Durch das Schutzgebiet selbst führt weder ein markierter Wanderweg noch ein Lehrpfad – ein wichtiger Hinweis für die Besuchsplanung und den Schutz der empfindlichen Lebensräume."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Quelle Vyvieranica: ein Bach, der verschwindet und wieder hervortritt",
+          "text": "Ein interessantes Naturphänomen im Gemeindegebiet von Medzibrod ist die Vyvieranica. Nach Angaben der Gemeinde handelt es sich um einen Seitenarm des Bachs Sopotnica, dessen Quelle unterhalb der Veľká Chochuľa liegt. In einem Abschnitt des Sopotnica-Tals verschwindet ein Teil des Wassers im Bereich des Farský les und tritt im Gebiet Baništia auf dem Gemeindegebiet von Medzibrod wieder an die Oberfläche; dort bildet es einen kräftigen Bach gleichen Namens. Dieses erneute Auftauchen des Wassers gab dem Bach und dem Tal ihren Namen. Die Vyvieranica mündet anschließend in den Hron; zusammen mit dem Bach Močiar gehört sie zu den Gewässern, die die Landschaft des Ortes prägen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Wasserbehälter zum Befüllen von Dampflokomotiven",
+          "text": "In Medzibrod ist ein technisches Bauwerk erhalten, das als Wasserbehälter zum Befüllen von Dampflokomotiven bezeichnet wird. Es erinnert an die Zeit, als die Eisenbahn entlang ihrer Strecken Anlagen zur Wasserversorgung der Dampfloks benötigte. Ein Fachverzeichnis slowakischer Denkmäler führt das Objekt direkt im Ort an der Adresse Hlavná 23 und nennt die Koordinaten 48.791844, 19.362333. Obwohl die verfügbare Denkmaldokumentation kein genaues Baujahr angibt, ist der erhaltene Zweck des Bauwerks ein anschauliches kleines Zeugnis der früheren Eisenbahninfrastruktur im Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Medzibroder Haruľa und die jährliche Haruľová-Show",
+          "text": "Medzibrod ist in der Region auch für seine Haruľa bekannt – einen herzhaften Kartoffelpuffer, der zu den traditionellen Speisen des Horehronie gehört. Zur örtlichen Rezeptur gehört unter anderem ein Kraut namens metka; ein Regionalbericht aus dem Jahr 2019 erwähnt, dass die Medzibroder Variante ohne Mehl und Eier zubereitet wird. Die Gemeinde und der Verein Chlapci z Medzibrodu veranstalten auf dem Dorfplatz jedes Jahr im September die Haruľová-Show, einen Wettbewerb dreiköpfiger Teams um die beste Haruľa. Bewertet werden Geschmack, Zubereitungsgeschwindigkeit und die Atmosphäre beim Backen; außerdem gibt es einen Wettbewerb um die längste Kartoffelschale. 2019 fand die 18. Ausgabe statt, 2020 und 2021 fiel die Veranstaltung aus, und 2026 wurde die 23. Ausgabe veranstaltet. Die lebendige lokale Tradition verbindet Gastronomie, Nachbarschaft und Kulturprogramm."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Medzibrod – village centre by the municipal office, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: the village between the Hron fords and the evolution of its name",
+          "text": "Medzibrod lies in the valley landscape of the Horehronie region beside the Hron River. The municipality’s local history explains the name by the settlement’s position between former fords across the river’s once broad, slow-flowing channel; this is a traditional interpretation supported by the location, not a uniquely proven etymology. The first written mention dates to 1455, when the village was recorded as Megywbrodye; later sources also give Medybrody, Mezybroth and Medzibrod. During Magyarisation the name Mezőköz was used. After the creation of Czechoslovakia, the form Medzibrod appeared officially in 1923; the name Medzibrod nad Hronom was used later, and the present name Medzibrod became established in 1946. Until 1848 the village belonged to the Ľupča estate."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Parish Church of Saint John of Nepomuk",
+          "text": "The most prominent religious heritage site in the village is the Roman Catholic parish church dedicated to Saint John of Nepomuk. Local believers built it of stone in 1790 with support from the Royal Chamber and residents; it was solemnly blessed on 16 May 1791. The building is described as Rococo, with a tower integrated into the structure and originally topped by a double onion dome covered in wooden shingles. Its interior features a Bohemian-style vault, fourteen Stations of the Cross and valuable altar furnishings. A fire in 1938 destroyed the wooden entrance porch and the original shingle roof; the restored roofs were covered with sheet metal. Eight stained-glass windows by artist Ladislav Cserba were added in 2008–2009. The independent parish of Medzibrod was established in 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Silver and gold veins and the Murgaš mine in the Borovský stream valley",
+          "text": "Medzibrod’s mining history reaches back at least to the 16th century. A historical-geographical study identifies 1581 as the earliest known written record of mining here: a silver mine called S. Gallen is mentioned below Mount Prašivá. Gold was also mined in the surrounding valleys, and historical records describe gold veins in the Borové locality. A new phase of mining strategic antimony began with geological exploration in 1936. On 19 August that year the main exploratory adit was opened; it later became known as Murgaš. The Močiar deposit lies about four kilometres north-northwest of the village at the head of the Borovský stream valley. Mining ended in 1950, leaving adits, spoil heaps and other traces of industrial activity in the landscape. These are remains of a disused mining area, not a developed visitor attraction."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod during the Slovak National Uprising and the execution of partisans",
+          "text": "During the Slovak National Uprising (SNP) of 1944, Medzibrod served as a support base for the resistance: a field hospital was established in the village, and the local school temporarily housed a printing works, editorial office and administration for the newspapers Pravda and Čas. The village was also marked by the public execution of partisans by German soldiers. A record from the Military History Institute describing an archival photograph documents the execution of four men in Medzibrod on 29 December 1944: Rudolf Slosiarik and Ján Dropa from Medzibrod, Ján Záhorský from eastern Slovakia, and Soviet citizen Ivan Seršeň. A municipal strategic document gives a different date, 28 December, and two victims; this account therefore follows the specific archival record of the Military History Institute. A memorial plaque on the cultural centre’s façade commemorates the executed participants in the SNP."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mačková Nature Reserve and its rare limestone habitats",
+          "text": "Above Medzibrod, on the southern edge of the Low Tatras, lies Mačková Nature Reserve, designated in 1993 and covering 42.23 hectares. It protects steep limestone-dolomite slopes, rocky outcrops, steppe and forest-steppe habitats, and well-preserved beech and pine woodland. The reserve lies at roughly 425–675 metres above sea level; an important plant species found here is the Slovak pasqueflower (Pulsatilla subslavica). The municipality’s natural-history overview also records several sites elsewhere in its wider territory where pasqueflowers and lady’s slipper orchids grow. No marked hiking or educational trail crosses the reserve itself, an important point when planning visits and protecting its sensitive habitats."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vyvieranica spring: a stream that disappears and re-emerges",
+          "text": "An unusual natural feature in the Medzibrod cadastral area is the Vyvieranica. According to the municipality, it is a branch of the Sopotnica stream, which rises below Veľká Chochuľa. Part of the water disappears underground in the Farský les area in the Sopotnica valley and re-emerges at Baništia within Medzibrod, where it forms a substantial stream of the same name. This reappearance at the surface gave the stream and valley their names. The Vyvieranica then flows into the Hron; together with the Močiar stream, it is one of the waterways that shape the local landscape."
+        },
+        {
+          "id": "fact_007",
+          "title": "Water tower for filling steam locomotives",
+          "text": "Medzibrod preserves a technical structure identified as a water tower for filling steam locomotives. It recalls the period when railways needed water-supply installations along their lines to replenish steam engines. A specialist register of Slovak monuments lists the structure in the village at Hlavná 23 and gives its coordinates as 48.791844, 19.362333. Although the available monument description does not specify an exact construction date, its preserved function makes it a modest but tangible reminder of the former railway infrastructure of Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Medzibrod haruľa and the annual Haruľová Show",
+          "text": "Medzibrod is also known in the region for its haruľa, a hearty potato pancake that is one of the traditional foods of Horehronie. The local recipe includes an herb called metka; a regional report from 2019 notes that the Medzibrod version is made without flour or eggs. The municipality and the Chlapci z Medzibrodu association hold the Haruľová Show on the village square every September, a contest in which three-person teams compete to make the best haruľa. Judges assess taste, preparation speed and the atmosphere around the baking; there is also a contest for the longest potato peel. The 18th edition took place in 2019, the event was not held in 2020 or 2021, and the 23rd edition was held in 2026. This living local tradition brings together food, neighbours and a cultural programme."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Medzibrod – centro de la localidad junto al ayuntamiento, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: el pueblo entre los vados del Hron y la evolución de su nombre",
+          "text": "Medzibrod se encuentra en el paisaje de valle de la región de Horehronie, junto al río Hron. La historia local explica el nombre por la posición del asentamiento entre antiguos vados que cruzaban el cauce, entonces ancho y de corriente lenta; es una interpretación tradicional apoyada por la ubicación, no una etimología única demostrada con certeza. La primera mención escrita data de 1455, cuando aparece como Megywbrodye; fuentes posteriores también recogen Medybrody, Mezybroth y Medzibrod. Durante la magiarización se utilizó el nombre Mezőköz. Tras la creación de Checoslovaquia, la forma Medzibrod apareció oficialmente en 1923; más tarde se usó Medzibrod nad Hronom y desde 1946 quedó establecido el nombre actual, Medzibrod. Hasta 1848 la localidad perteneció al señorío de Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia parroquial de San Juan Nepomuceno",
+          "text": "El principal monumento religioso de la localidad es la iglesia parroquial católica romana dedicada a San Juan Nepomuceno. Los fieles la construyeron en piedra en 1790 con el apoyo de la Cámara Real y de los habitantes; fue bendecida solemnemente el 16 de mayo de 1791. El edificio se describe como rococó, con una torre integrada en el volumen de la iglesia y originalmente rematada por una doble cúpula bulbosa cubierta de tejas de madera. El interior conserva una bóveda prusiana, catorce estaciones del vía crucis y un valioso mobiliario de altar. Un incendio en 1938 destruyó el pórtico de madera y la cubierta original de tejas; durante la restauración se sustituyó por chapa metálica. En 2008–2009 se añadieron ocho vidrieras del artista Ladislav Cserba. La parroquia independiente de Medzibrod se creó en 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vetas de plata y oro y la mina Murgaš en el valle del arroyo Borovský",
+          "text": "La historia minera de Medzibrod se remonta al menos al siglo XVI. Un estudio histórico-geográfico identifica 1581 como la primera referencia escrita conocida a la minería local: bajo el monte Prašivá se menciona entonces la mina de plata S. Gallen. También se extrajo oro en los valles cercanos y las fuentes históricas describen vetas auríferas en la zona de Borové. Una nueva etapa de extracción del antimonio, metal estratégico, comenzó con la prospección geológica de 1936. El 19 de agosto de ese año se abrió la galería principal de exploración, que más tarde recibió el nombre de Murgaš. El yacimiento de Močiar se encuentra a unos cuatro kilómetros al nor-noroeste del pueblo, al final del valle del arroyo Borovský. La explotación terminó en 1950 y dejó galerías, escombreras y otros vestigios mineros en el paisaje. Son restos de una zona minera abandonada, no una atracción turística acondicionada."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod durante el Levantamiento Nacional Eslovaco y la ejecución de partisanos",
+          "text": "Durante el Levantamiento Nacional Eslovaco (SNP) de 1944, Medzibrod sirvió de apoyo a la resistencia: se instaló un hospital de campaña y la escuela local albergó temporalmente una imprenta, la redacción y la administración de los periódicos Pravda y Čas. La localidad también quedó marcada por la ejecución pública de partisanos a manos de soldados alemanes. Un registro del Instituto de Historia Militar relativo a una fotografía de archivo documenta la ejecución de cuatro hombres en Medzibrod el 29 de diciembre de 1944: Rudolf Slosiarik y Ján Dropa, de Medzibrod; Ján Záhorský, del este de Eslovaquia; e Ivan Seršeň, ciudadano soviético. Un documento estratégico municipal indica otra fecha, el 28 de diciembre, y dos víctimas; por ello, este texto sigue el registro archivístico concreto del Instituto de Historia Militar. Una placa en la fachada del centro cultural recuerda a los participantes del SNP ejecutados."
+        },
+        {
+          "id": "fact_005",
+          "title": "Reserva natural de Mačková y sus hábitats calizos poco comunes",
+          "text": "Sobre Medzibrod, en el borde meridional de los Bajos Tatras, se encuentra la reserva natural de Mačková, declarada en 1993 y con una superficie de 42,23 hectáreas. Protege laderas escarpadas de caliza y dolomía, afloramientos rocosos, hábitats de estepa y bosque-estepa, así como bosques bien conservados de hayas y pinos. La reserva se sitúa aproximadamente entre 425 y 675 metros de altitud; una de sus plantas destacadas es la pulsatila eslovaca (Pulsatilla subslavica). El inventario natural del municipio también señala varios lugares del territorio municipal más amplio donde crecen pulsatilas y zapatitos de dama. La reserva no está atravesada por senderos señalizados ni por rutas educativas, un dato importante para planificar visitas y proteger sus hábitats sensibles."
+        },
+        {
+          "id": "fact_006",
+          "title": "El manantial Vyvieranica: un arroyo que desaparece y vuelve a surgir",
+          "text": "Un fenómeno natural singular del término municipal de Medzibrod es la Vyvieranica. Según el municipio, es un ramal del arroyo Sopotnica, cuyo nacimiento se encuentra bajo Veľká Chochuľa. Parte del agua desaparece en la zona de Farský les, en el valle de Sopotnica, y vuelve a salir a la superficie en Baništia, dentro del territorio de Medzibrod, donde forma un arroyo caudaloso del mismo nombre. Esta reaparición del agua dio nombre al curso y al valle. Después, la Vyvieranica desemboca en el Hron; junto con el arroyo Močiar, forma parte de la red de aguas que modela el paisaje local."
+        },
+        {
+          "id": "fact_007",
+          "title": "Depósito de agua para abastecer a las locomotoras de vapor",
+          "text": "En Medzibrod se conserva una estructura técnica identificada como depósito de agua para llenar locomotoras de vapor. Recuerda la época en que los ferrocarriles necesitaban instalaciones de suministro de agua a lo largo de sus líneas para reponer las reservas de las máquinas. Un inventario especializado de monumentos eslovacos registra el edificio en la localidad, en Hlavná 23, y ofrece las coordenadas 48.791844, 19.362333. Aunque la descripción patrimonial disponible no indica el año exacto de construcción, su función conservada constituye un testimonio modesto pero tangible de la antigua infraestructura ferroviaria de Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "La haruľa de Medzibrod y la feria anual Haruľová Show",
+          "text": "Medzibrod también es conocido en la región por su haruľa, una contundente tortita de patata que forma parte de la cocina tradicional de Horehronie. La receta local incluye, entre otros ingredientes, una hierba llamada metka; un reportaje regional de 2019 señala que la versión de Medzibrod se prepara sin harina ni huevos. El municipio y la asociación Chlapci z Medzibrodu organizan cada septiembre en la plaza del pueblo la Haruľová Show, un concurso en el que equipos de tres personas compiten por preparar la mejor haruľa. Se valoran el sabor, la rapidez de preparación y el ambiente durante la cocción; también hay un concurso de la peladura de patata más larga. En 2019 se celebró la 18.ª edición, el evento no tuvo lugar en 2020 ni 2021 y en 2026 se celebró la 23.ª. Esta tradición viva reúne gastronomía, convivencia vecinal y programa cultural."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Medzibrod – centre du village près de la mairie, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod : le village entre les gués du Hron et l’évolution de son nom",
+          "text": "Medzibrod se trouve dans le paysage de vallée de la région de Horehronie, au bord de la rivière Hron. L’histoire locale explique son nom par la position du village entre d’anciens gués permettant de traverser le large lit de la rivière, alors lente ; il s’agit d’une interprétation traditionnelle confortée par la géographie, et non d’une étymologie unique prouvée avec certitude. La première mention écrite date de 1455, sous la forme Megywbrodye ; des sources ultérieures donnent aussi Medybrody, Mezybroth et Medzibrod. Pendant la magyarisation, le nom Mezőköz était utilisé. Après la création de la Tchécoslovaquie, la forme Medzibrod apparaît officiellement en 1923 ; le nom Medzibrod nad Hronom fut ensuite employé, avant que Medzibrod ne s’impose à partir de 1946. Jusqu’en 1848, la commune appartenait au domaine de Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église paroissiale Saint-Jean-Népomucène",
+          "text": "Le principal monument religieux du village est l’église paroissiale catholique romaine dédiée à saint Jean Népomucène. Les fidèles l’ont construite en pierre en 1790 avec le soutien de la Chambre royale et des habitants ; elle a été bénie solennellement le 16 mai 1791. L’édifice est décrit comme rococo, avec une tour intégrée au bâtiment et autrefois coiffée d’un double bulbe couvert de bardeaux de bois. L’intérieur comprend une voûte prussienne, quatorze stations du chemin de croix et un mobilier d’autel de valeur. Un incendie en 1938 a détruit le porche en bois et la couverture originale en bardeaux ; la restauration a remplacé cette couverture par de la tôle. Huit vitraux de l’artiste Ladislav Cserba ont été ajoutés en 2008–2009. La paroisse indépendante de Medzibrod a été créée en 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Filons d’argent et d’or et mine Murgaš dans la vallée du ruisseau Borovský",
+          "text": "L’histoire minière de Medzibrod remonte au moins au XVIe siècle. Une étude historico-géographique identifie 1581 comme la plus ancienne mention écrite connue de l’activité minière locale : la mine d’argent S. Gallen est alors signalée sous le mont Prašivá. De l’or était également extrait dans les vallées voisines, et des sources historiques décrivent des filons aurifères dans le secteur de Borové. Une nouvelle phase d’exploitation de l’antimoine, métal stratégique, commence avec les recherches géologiques de 1936. Le 19 août de cette année-là, la galerie principale de prospection est ouverte ; elle sera ensuite appelée Murgaš. Le gisement de Močiar se trouve à environ quatre kilomètres au nord-nord-ouest du village, au fond de la vallée du ruisseau Borovský. L’exploitation prend fin en 1950 et laisse dans le paysage des galeries, des haldes et d’autres traces minières. Il s’agit des vestiges d’un ancien site minier, et non d’une attraction touristique aménagée."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod pendant le Soulèvement national slovaque et l’exécution de partisans",
+          "text": "Pendant le Soulèvement national slovaque (SNP) de 1944, Medzibrod a servi de base arrière à la résistance : un hôpital de campagne y a été installé et l’école locale a temporairement accueilli une imprimerie, la rédaction et l’administration des journaux Pravda et Čas. Le village a aussi été marqué par l’exécution publique de partisans par des soldats allemands. Une notice de l’Institut d’histoire militaire consacrée à une photographie d’archives documente l’exécution de quatre hommes à Medzibrod le 29 décembre 1944 : Rudolf Slosiarik et Ján Dropa, originaires de Medzibrod, Ján Záhorský, de l’est de la Slovaquie, et le citoyen soviétique Ivan Seršeň. Un document stratégique communal indique une autre date, le 28 décembre, et deux victimes ; le présent texte suit donc la notice d’archives précise de l’Institut d’histoire militaire. Une plaque sur la façade du centre culturel commémore les participants au SNP exécutés."
+        },
+        {
+          "id": "fact_005",
+          "title": "La réserve naturelle de Mačková et ses habitats calcaires rares",
+          "text": "Au-dessus de Medzibrod, sur le bord sud des Basses Tatras, se trouve la réserve naturelle de Mačková, créée en 1993 et couvrant 42,23 hectares. Elle protège des pentes raides de calcaire et de dolomie, des affleurements rocheux, des habitats de steppe et de forêt-steppe, ainsi que des hêtraies et pinèdes bien conservées. La réserve se situe approximativement entre 425 et 675 mètres d’altitude ; une plante remarquable qui y pousse est la pulsatille de Slovaquie (Pulsatilla subslavica). L’inventaire naturaliste communal signale également plusieurs stations de pulsatilles et de sabots de Vénus dans le territoire communal plus large. Aucun sentier balisé ni parcours pédagogique ne traverse la réserve elle-même, un point important pour préparer une visite et protéger ses habitats sensibles."
+        },
+        {
+          "id": "fact_006",
+          "title": "La source Vyvieranica : un ruisseau qui disparaît puis réapparaît",
+          "text": "Un phénomène naturel singulier du territoire de Medzibrod est la Vyvieranica. Selon la commune, il s’agit d’un bras du ruisseau Sopotnica, qui prend sa source sous la Veľká Chochuľa. Une partie de l’eau disparaît dans le secteur de Farský les, dans la vallée de la Sopotnica, puis ressort à Baništia, sur le territoire de Medzibrod, où elle forme un ruisseau abondant du même nom. Cette réapparition de l’eau en surface a donné son nom au cours d’eau et à la vallée. La Vyvieranica rejoint ensuite le Hron ; avec le ruisseau Močiar, elle fait partie des éléments aquatiques qui façonnent le paysage local."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le réservoir d’eau destiné au ravitaillement des locomotives à vapeur",
+          "text": "Medzibrod conserve un ouvrage technique identifié comme un réservoir d’eau destiné au remplissage des locomotives à vapeur. Il rappelle l’époque où les chemins de fer avaient besoin d’installations le long des voies pour réalimenter les machines en eau. Un répertoire spécialisé des monuments slovaques situe l’ouvrage dans le village, au Hlavná 23, et indique les coordonnées 48.791844, 19.362333. Même si la notice patrimoniale disponible ne précise pas l’année exacte de construction, sa fonction conservée constitue un témoignage modeste mais concret de l’ancienne infrastructure ferroviaire de Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "La haruľa de Medzibrod et le concours annuel Haruľová Show",
+          "text": "Medzibrod est également connu dans la région pour sa haruľa, une galette de pommes de terre consistante qui fait partie de la cuisine traditionnelle de Horehronie. La recette locale comprend notamment une herbe appelée metka ; un reportage régional de 2019 précise que la version de Medzibrod est préparée sans farine ni œufs. La commune et l’association Chlapci z Medzibrodu organisent chaque mois de septembre, sur la place du village, la Haruľová Show, un concours où des équipes de trois personnes rivalisent pour préparer la meilleure haruľa. Le goût, la rapidité de préparation et l’ambiance de cuisson sont évalués ; un concours de la plus longue épluchure de pomme de terre est également organisé. La 18e édition a eu lieu en 2019, l’événement n’a pas été organisé en 2020 ni en 2021, et la 23e édition s’est tenue en 2026. Cette tradition vivante réunit gastronomie, convivialité et programme culturel."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Medzibrod – centro del paese presso il municipio, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: il villaggio tra i guadi dell’Hron e l’evoluzione del suo nome",
+          "text": "Medzibrod si trova nel paesaggio vallivo della regione di Horehronie, presso il fiume Hron. La storia locale spiega il nome con la posizione dell’abitato tra antichi guadi che attraversavano il largo e lento alveo del fiume; si tratta di un’interpretazione tradizionale sostenuta dalla posizione geografica, non di un’etimologia unica dimostrata con certezza. La prima menzione scritta risale al 1455, quando il villaggio compare come Megywbrodye; fonti successive riportano anche Medybrody, Mezybroth e Medzibrod. Durante la magiarizzazione fu usato il nome Mezőköz. Dopo la nascita della Cecoslovacchia, la forma Medzibrod comparve ufficialmente nel 1923; in seguito fu usato il nome Medzibrod nad Hronom e dal 1946 si affermò il nome attuale Medzibrod. Fino al 1848 il villaggio appartenne alla signoria di Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa parrocchiale di San Giovanni Nepomuceno",
+          "text": "Il principale monumento religioso del paese è la chiesa parrocchiale cattolica romana dedicata a San Giovanni Nepomuceno. I fedeli la costruirono in pietra nel 1790 con il sostegno della Camera Reale e degli abitanti; fu solennemente benedetta il 16 maggio 1791. L’edificio è descritto come rococò, con una torre integrata nella struttura e originariamente coronata da una doppia cupola a cipolla rivestita di scandole di legno. L’interno presenta una volta prussiana, quattordici stazioni della Via Crucis e pregevoli arredi d’altare. Un incendio nel 1938 distrusse il portico ligneo e il tetto originale in scandole; durante il restauro la copertura fu sostituita con lamiera. Nel 2008–2009 furono aggiunte otto vetrate dell’artista Ladislav Cserba. La parrocchia indipendente di Medzibrod fu istituita nel 1801."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vene d’argento e d’oro e la miniera Murgaš nella valle del torrente Borovský",
+          "text": "La storia mineraria di Medzibrod risale almeno al XVI secolo. Uno studio storico-geografico individua nel 1581 la più antica testimonianza scritta conosciuta dell’attività mineraria locale: sotto il monte Prašivá è allora menzionata la miniera d’argento S. Gallen. Nelle valli circostanti si estraeva anche oro e le fonti storiche descrivono vene aurifere nella località Borové. Una nuova fase di estrazione dell’antimonio, metallo strategico, iniziò con le ricerche geologiche del 1936. Il 19 agosto dello stesso anno fu aperta la principale galleria esplorativa, in seguito chiamata Murgaš. Il giacimento di Močiar si trova circa quattro chilometri a nord-nord-ovest del paese, nella parte alta della valle del torrente Borovský. L’attività estrattiva terminò nel 1950 e nel paesaggio rimasero gallerie, cumuli di sterili e altre tracce minerarie. Si tratta dei resti di un’area mineraria dismessa, non di un’attrazione turistica attrezzata."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod durante l’Insurrezione nazionale slovacca e l’esecuzione dei partigiani",
+          "text": "Durante l’Insurrezione nazionale slovacca (SNP) del 1944, Medzibrod servì da base di supporto alla resistenza: nel paese fu allestito un ospedale da campo e la scuola locale ospitò temporaneamente una tipografia, la redazione e l’amministrazione dei giornali Pravda e Čas. Il paese fu segnato anche dall’esecuzione pubblica di partigiani da parte dei soldati tedeschi. Una scheda dell’Istituto di storia militare relativa a una fotografia d’archivio documenta l’esecuzione di quattro uomini a Medzibrod il 29 dicembre 1944: Rudolf Slosiarik e Ján Dropa di Medzibrod, Ján Záhorský della Slovacchia orientale e il cittadino sovietico Ivan Seršeň. Un documento strategico comunale indica una data diversa, il 28 dicembre, e due vittime; questo testo segue quindi la specifica registrazione archivistica dell’Istituto di storia militare. Una targa sulla facciata del centro culturale ricorda i partecipanti all’SNP giustiziati."
+        },
+        {
+          "id": "fact_005",
+          "title": "La riserva naturale di Mačková e i suoi rari habitat calcarei",
+          "text": "Sopra Medzibrod, sul margine meridionale dei Bassi Tatra, si trova la riserva naturale di Mačková, istituita nel 1993 e con una superficie di 42,23 ettari. Protegge ripidi pendii calcareo-dolomitici, affioramenti rocciosi, ambienti di steppa e di bosco-steppa, nonché faggete e pinete ben conservate. La riserva si estende approssimativamente tra 425 e 675 metri di altitudine; una specie vegetale importante è la pulsatilla slovacca (Pulsatilla subslavica). La descrizione naturalistica del comune segnala inoltre, nel territorio comunale più ampio, diverse stazioni di pulsatille e di scarpetta di Venere. La riserva non è attraversata da sentieri escursionistici segnalati né da percorsi didattici, un’informazione importante per pianificare le visite e proteggere gli habitat sensibili."
+        },
+        {
+          "id": "fact_006",
+          "title": "La sorgente Vyvieranica: un corso d’acqua che scompare e riemerge",
+          "text": "Un fenomeno naturale particolare del territorio comunale di Medzibrod è la Vyvieranica. Secondo il comune, è un ramo del torrente Sopotnica, che nasce sotto la Veľká Chochuľa. Una parte dell’acqua scompare nella zona di Farský les, nella valle della Sopotnica, e riemerge a Baništia, nel territorio di Medzibrod, dove forma un torrente abbondante con lo stesso nome. Questa ricomparsa in superficie ha dato il nome al corso d’acqua e alla valle. La Vyvieranica confluisce poi nell’Hron; insieme al torrente Močiar è uno degli elementi idrici che modellano il paesaggio locale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il serbatoio per il rifornimento d’acqua delle locomotive a vapore",
+          "text": "A Medzibrod si conserva una struttura tecnica identificata come serbatoio per il rifornimento d’acqua delle locomotive a vapore. Ricorda il periodo in cui le ferrovie avevano bisogno, lungo le linee, di impianti per rifornire le macchine a vapore. Un repertorio specialistico dei monumenti slovacchi registra la struttura nel paese, all’indirizzo Hlavná 23, e ne indica le coordinate 48.791844, 19.362333. Sebbene la scheda patrimoniale disponibile non riporti l’anno esatto di costruzione, la sua funzione conservata costituisce una testimonianza modesta ma concreta della precedente infrastruttura ferroviaria di Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "La haruľa di Medzibrod e la manifestazione annuale Haruľová Show",
+          "text": "Medzibrod è conosciuto nella regione anche per la sua haruľa, una sostanziosa frittella di patate che fa parte della cucina tradizionale di Horehronie. La ricetta locale comprende, tra gli altri ingredienti, un’erba chiamata metka; un servizio regionale del 2019 riferisce che la variante di Medzibrod viene preparata senza farina né uova. Il comune e l’associazione Chlapci z Medzibrodu organizzano ogni settembre nella piazza del paese la Haruľová Show, una gara in cui squadre di tre persone si sfidano per preparare la haruľa migliore. Si valutano il sapore, la velocità di preparazione e l’atmosfera della cottura; si svolge anche una gara per la buccia di patata più lunga. Nel 2019 si tenne la 18ª edizione, l’evento non ebbe luogo nel 2020 e nel 2021 e nel 2026 si svolse la 23ª edizione. Questa tradizione viva unisce gastronomia, incontro tra vicini e programma culturale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Medzibrod – dorpscentrum bij het gemeentehuis, Námestie hrdinov SNP 1",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Medzibrod: het dorp tussen de doorwaadbare plaatsen in de Hron en de ontwikkeling van zijn naam",
+          "text": "Medzibrod ligt in het dalgebied van de regio Horehronie, aan de rivier de Hron. Volgens de plaatselijke dorpsgeschiedenis verwijst de naam naar de ligging tussen vroegere doorwaadbare plaatsen in de brede, langzaam stromende rivierbedding. Dit is een traditionele verklaring die door de ligging wordt ondersteund, maar niet de enige etymologie die met zekerheid is bewezen. De eerste schriftelijke vermelding dateert uit 1455, toen de plaats Megywbrodye werd genoemd; latere bronnen vermelden ook Medybrody, Mezybroth en Medzibrod. Tijdens de magyarisering werd de naam Mezőköz gebruikt. Na de stichting van Tsjechoslowakije verscheen de vorm Medzibrod in 1923 officieel; later werd de naam Medzibrod nad Hronom gebruikt en vanaf 1946 raakte de huidige naam Medzibrod ingeburgerd. Tot 1848 behoorde het dorp tot het landgoed Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "De parochiekerk van Sint-Jan Nepomucenus",
+          "text": "Het belangrijkste religieuze monument in het dorp is de rooms-katholieke parochiekerk gewijd aan Sint-Jan Nepomucenus. De gelovigen bouwden de stenen kerk in 1790 met steun van de Koninklijke Kamer en de inwoners; op 16 mei 1791 werd zij plechtig ingezegend. Het gebouw wordt als rococo beschreven, met een toren die in het kerklichaam is opgenomen en oorspronkelijk een dubbele uivormige spits met houten dakspanen had. Binnen zijn een Pruisisch gewelf, veertien kruiswegstaties en waardevolle altaarstukken te vinden. Een brand in 1938 verwoestte de houten voorhal en het oorspronkelijke dak met dakspanen; bij het herstel werd de dakbedekking vervangen door plaatmetaal. In 2008–2009 werden acht glas-in-loodramen van kunstenaar Ladislav Cserba geplaatst. De zelfstandige parochie van Medzibrod werd in 1801 opgericht."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zilver- en goudaders en de Murgaš-mijn in het dal van de Borovský-beek",
+          "text": "De mijnbouwgeschiedenis van Medzibrod gaat minstens terug tot de 16e eeuw. Een historisch-geografische studie noemt 1581 als de oudste bekende schriftelijke vermelding van mijnbouw hier: onder de berg Prašivá wordt dan de zilvermijn S. Gallen genoemd. Ook in de omliggende dalen werd goud gewonnen; historische bronnen beschrijven goudaders in het gebied Borové. Een nieuwe fase van de winning van het strategische metaal antimoon begon met geologisch onderzoek in 1936. Op 19 augustus van dat jaar werd de belangrijkste exploratiegang geopend, die later Murgaš werd genoemd. De afzetting Močiar ligt ongeveer vier kilometer ten noordnoordwesten van het dorp, aan het einde van het dal van de Borovský-beek. De mijnbouw eindigde in 1950; in het landschap bleven gangen, steenstorten en andere sporen achter. Het gaat om resten van een verlaten mijngebied, niet om een ingerichte toeristische attractie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Medzibrod tijdens de Slowaakse Nationale Opstand en de executie van partizanen",
+          "text": "Tijdens de Slowaakse Nationale Opstand (SNP) van 1944 diende Medzibrod als steunpunt voor het verzet: in het dorp werd een veldhospitaal ingericht en in de plaatselijke school waren tijdelijk een drukkerij, redactie en administratie van de kranten Pravda en Čas gevestigd. Het dorp werd ook getroffen door de openbare executie van partizanen door Duitse soldaten. Een registratie van het Militair Historisch Instituut bij een archieffoto documenteert de executie van vier mannen in Medzibrod op 29 december 1944: Rudolf Slosiarik en Ján Dropa uit Medzibrod, Ján Záhorský uit Oost-Slowakije en de Sovjetburger Ivan Seršeň. Een gemeentelijk strategisch document noemt een andere datum, 28 december, en twee slachtoffers; daarom volgt deze tekst de concrete archiefregistratie van het Militair Historisch Instituut. Een gedenkplaat aan de gevel van het cultureel centrum herdenkt de geëxecuteerde deelnemers aan de SNP."
+        },
+        {
+          "id": "fact_005",
+          "title": "Natuurreservaat Mačková en de zeldzame kalksteenhabitats",
+          "text": "Boven Medzibrod, aan de zuidrand van de Lage Tatra, ligt het natuurreservaat Mačková. Het werd in 1993 aangewezen en beslaat 42,23 hectare. Het beschermt steile kalksteen- en dolomiethellingen, rotsachtige delen, steppe- en bossteppehabitats en goed bewaarde beuken- en dennenbossen. Het reservaat ligt op ongeveer 425 tot 675 meter hoogte; een bijzondere plantensoort is de Slowaakse wildemanskruid (Pulsatilla subslavica). Het natuurkundige overzicht van de gemeente vermeldt daarnaast op andere plekken in het ruimere gemeentelijke gebied meerdere groeiplaatsen van wildemanskruid en vrouwenschoentje. Door het reservaat zelf loopt geen gemarkeerde wandel- of educatieve route. Dat is belangrijk om bij een bezoek rekening te houden met de kwetsbare natuur."
+        },
+        {
+          "id": "fact_006",
+          "title": "De bron Vyvieranica: een beek die verdwijnt en weer tevoorschijn komt",
+          "text": "Een bijzonder natuurverschijnsel in het grondgebied van Medzibrod is de Vyvieranica. Volgens de gemeente is dit een zijtak van de beek Sopotnica, die onder de Veľká Chochuľa ontspringt. Een deel van het water verdwijnt in het gebied Farský les in het dal van de Sopotnica en komt bij Baništia, binnen het grondgebied van Medzibrod, weer aan de oppervlakte. Daar vormt het een krachtige beek met dezelfde naam. Dit opnieuw aan de oppervlakte komen gaf de beek en het dal hun naam. De Vyvieranica mondt vervolgens uit in de Hron; samen met de beek Močiar behoort zij tot de waterlopen die het plaatselijke landschap vormgeven."
+        },
+        {
+          "id": "fact_007",
+          "title": "Waterreservoir voor het vullen van stoomlocomotieven",
+          "text": "In Medzibrod is een technisch bouwwerk bewaard gebleven dat wordt aangeduid als waterreservoir voor het vullen van stoomlocomotieven. Het herinnert aan de tijd waarin spoorwegen langs hun lijnen installaties nodig hadden om stoommachines van water te voorzien. Een gespecialiseerd overzicht van Slowaakse monumenten vermeldt het bouwwerk in het dorp op Hlavná 23 en geeft de coördinaten 48.791844, 19.362333. De beschikbare monumentbeschrijving vermeldt geen exact bouwjaar, maar de bewaarde functie vormt een bescheiden en tastbare herinnering aan de vroegere spoorweginfrastructuur van Horehronie."
+        },
+        {
+          "id": "fact_008",
+          "title": "De haruľa van Medzibrod en de jaarlijkse Haruľová Show",
+          "text": "Medzibrod staat in de regio ook bekend om zijn haruľa, een stevige aardappelpannenkoek die tot de traditionele gerechten van Horehronie behoort. In het plaatselijke recept wordt onder meer een kruid gebruikt dat metka heet; een regionaal verslag uit 2019 vermeldt dat de variant uit Medzibrod zonder bloem en eieren wordt bereid. De gemeente en de vereniging Chlapci z Medzibrodu organiseren elk jaar in september op het dorpsplein de Haruľová Show, een wedstrijd waarin teams van drie personen strijden om de beste haruľa. De jury beoordeelt de smaak, de bereidingstijd en de sfeer tijdens het bakken; er is ook een wedstrijd voor de langste aardappelschil. In 2019 vond de 18e editie plaats, in 2020 en 2021 ging het evenement niet door en in 2026 werd de 23e editie gehouden. Deze levende lokale traditie brengt eten, ontmoeting en een cultureel programma samen."
+        }
+      ]
+    }
+  }
 }
