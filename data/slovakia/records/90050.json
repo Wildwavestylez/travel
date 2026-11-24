@@ -182,8 +182,8 @@
     "postcode_source_dataset": "Oficiálny vyhľadávač PSČ Slovenskej pošty",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-24",
-    "postcode_conflict": true,
-    "postcode_conflict_note": "Staršie databázy a úradné dokumenty uvádzajú pre Hrubú Boršu aj PSČ 92523; aktuálny oficiálny web obce a jej dokumenty používajú 90050 a obec uvádza dodaciu poštu v Kráľovej pri Senci. 90050 je preto spracované ako spoločná poštová oblasť Kráľovej pri Senci a Hrubej Borše. Presný rozsah doručovacieho obvodu vrátane časti Bodov treba potvrdiť priamo výsledkom vyhľadávača Slovenskej pošty.",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Staršie úradné záznamy (napr. profil obstarávateľa z roku 2022) uvádzali pre Hrubú Boršu 92523. Aktuálny oficiálny web obce a jej novšie dokumenty používajú 90050 a obec výslovne uvádza dodaciu poštu v Kráľovej pri Senci. Starší údaj je preto považovaný za neaktuálny, nie za súčasný rozpor. Pri finálnom audite treba ešte porovnať konkrétny výsledok oficiálneho vyhľadávača Slovenskej pošty a presný rozsah doručovacieho obvodu vrátane časti Bodov.",
     "delivery_office_note": "Dodacia pošta: Kráľová pri Senci, 900 50.",
     "postcode_override_reason": "Aktuálne obecné weby a dokumenty z rokov 2024–2026 uvádzajú 90050 pre Hrubú Boršu; staršie záznamy 92523 sú časovo staršie a v rozpore s aktuálnym oficiálnym stavom.",
     "geographic_authority": "Obec Kráľová pri Senci – História a geografické údaje; Obec Hrubá Borša – oficiálna stránka a UPVS; aktuálne obecné adresy a informácia o dodacej pošte."
@@ -267,6 +267,11 @@
     {
       "title": "Obec Kráľová pri Senci – Pošta",
       "url": "https://www.kralovaprisenci.sk/kontakty/urady-a-institucie/posta/",
+      "type": "official"
+    },
+    {
+      "title": "ÚVO – starší profil obstarávateľa Obec Hrubá Borša (2022), historická adresa s PSČ 92523",
+      "url": "https://www.uvo.gov.sk/vestnik-a-registre/vestnik/oznamenie/detail/583988?cHash=6c55476954c6f29a28f26ce66a145f04",
       "type": "official"
     }
   ],
