@@ -1,4 +1,625 @@
 {
   "postcode": "90052",
-  "status": "placeholder"
+  "city": "Kuchyňa",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Kuchyňa – centrum obce pri obecnom úrade",
+  "representative_point": {
+    "lat": 48.4074584,
+    "lon": 17.1600799
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kuchyňa je doložená od roku 1206 a jej mlyn poznáme už z roku 1238",
+      "text": "Najstaršia známa zmienka o Kuchyni pochádza z roku 1206, keď sa v listine kráľa Ondreja II. objavuje chotárny názov Cuhnamezei. V 13. storočí sa obec spomína aj v podobách Chuhna a Cohnha. Mimoriadne významná je listina z roku 1238: uhorský kráľ Belo IV. prostredníctvom bratislavského župana Ondreja daroval bratislavským rehoľným sestrám mlyn v Kuchyni, ktorý mal dva mlynské kamene a stál pri kostole. Ide o najstarší zachovaný písomný doklad o mlyne na Záhorí a zároveň o jednu z najstarších písomných správ o kostole v regióne. Odborný výskum však upozorňuje, že dnešnú budovu mlyna pri kostole nemožno bez archeologického a architektonického výskumu stotožniť s mlynom z roku 1238.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskemuzeum.sk/de/najstarsi-mlyn-na-zahori-mgr-pavol-vrablec-phd/",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf",
+        "https://obeckuchyna.sk/data/MediaLibrary/14/14823/komunitny-kuchyna.pdf"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické centrum Kuchyne – orientačný bod pri farskom kostole",
+        "lat": 48.40602867312665,
+        "lon": 17.155476271170755,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/w181417828",
+        "address": "Kuchyňa, 900 52, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostol sv. Mikuláša – barokový chrám na mieste stredovekého kostola",
+      "text": "Patrónom Kuchyne je svätý Mikuláš a jeho patrocínium patrí k najstaršie písomne doloženým na Záhorí. Záhorské múzeum uvádza, že kostol pri mlyne sa spomína už v listine z roku 1238 a jeho zasvätenie svätému Mikulášovi potvrdzuje donácia z roku 1291. Súčasný jednoloďový barokový chrám postavili v roku 1701 na mieste staršieho kostola, ktorý sa v písomných prameňoch objavuje aj v roku 1561. Areál bol pôvodne opevnený; do staršieho obranného múru s opornými piliermi pribudla v prvej polovici 18. storočia baroková vstupná brána. V interiéri sa zachovali baroková kazateľnica, plastiky svätého Jozefa a svätého Jakuba i neskorobarokový obraz svätého Mikuláša.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskemuzeum.sk/de/najstarsi-mlyn-na-zahori-mgr-pavol-vrablec-phd/",
+        "https://www.pamiatkynaslovensku.sk/kuchyna-kostol-sv-mikulasa-biskupa",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostol sv. Mikuláša biskupa",
+        "lat": 48.40602867312665,
+        "lon": 17.155476271170755,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w181417828",
+        "address": "Kuchyňa 447, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaplnka sv. Rócha a prameň s tradíciou liečivej vody",
+      "text": "Kaplnku svätého Rócha dal v roku 1703 postaviť pernecký farár Martin Haršáni z darov veriacich. Podľa miestnej kronikárskej tradície sa na tomto mieste nachádzal kameň s odtlačkom Kristovej šľapaje, ktorý prekážal pri stavbe mlyna pri kostole. Kameň previezli na miesto dnešnej kaplnky, kde sa pri studničke usadil; práve pri nej potom vznikla kaplnka. Voda zo studničky mala podľa ľudovej tradície pomáhať pri očných a kožných ťažkostiach a ku kaplnke prichádzali pútnici. Príbeh o kameni a liečivých účinkoch vody treba chápať ako miestnu náboženskú tradíciu, nie ako vedecky potvrdenú udalosť. Kaplnka stojí na lúkach pri ceste smerom na Pernek.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/kuchyna-kaplnka-sv-rocha",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaplnka sv. Rócha",
+        "lat": 48.393126,
+        "lon": 17.154148,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kuchyna-kaplnka-sv-rocha",
+        "address": "Cesta smerom na Pernek, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Zvyšky Kuchynského hradu ukrývajú stredoveké dvojvežové opevnenie",
+      "text": "Na lesnom výbežku Malých Karpát nad lokalitou Vývrat sa zachovali nepatrné pozostatky stredovekého fortifikačného objektu, ktorý sa dnes označuje ako Hrad Kuchyňa alebo Kuchynský hrad. V teréne možno rozoznať zvyšky dvoch protiľahlých hranolových veží, obranných múrov, valov a priekop. O hrade sa nezachovali priame písomné zmienky, preto nie je bezpečne známe jeho pôvodné meno, funkcia ani vlastníci. Archeologicko-architektonické zhodnotenia ho zaraďujú približne do 14. storočia a spájajú jeho vznik s miestnymi šľachtickými rodmi zo Svätého Jura a Pezinka; tieto závery sú odbornou interpretáciou, nie údajom z dobovej listiny. K lokalite vedie lesná cesta z Vývratu.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.hrady.sk/kuchyna",
+        "https://medievalheritage.eu/en/main-page/heritage/slovakia/kuchyna-castle/",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf"
+      ],
+      "map_category": "castle",
+      "location": {
+        "name": "Hrad Kuchyňa – zvyšky stredovekého opevnenia",
+        "lat": 48.421247,
+        "lon": 17.197185,
+        "type": "ruin",
+        "accuracy": "exact",
+        "source": "https://www.hrady.sk/kuchyna",
+        "address": "Vývrat, Malé Karpaty, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Pálffyovský poľovnícky kaštieľ Vývrat zbúrali v roku 2011",
+      "text": "V lesnej lokalite Vývrat dal knieža Anton Karol Pálffy v roku 1855 postaviť poľovnícky kaštieľ s romantickou fasádou. Pálffyovci ho využívali na oddych a poľovačky viac než polstoročie; neskôr slúžil ako rekreačné zariadenie a v druhej polovici 20. storočia v ňom pôsobilo lesnícke učilište s internátom. Objekt mal nepravidelný pôdorys, dve podlažia a zvýšenú podkrovnú časť pripomínajúcu vežu. Pred kaštieľom sa nachádzalo jazierko napájané z potoka a do Vývratu viedla aj časť pálffyovskej úzkokoľajnej železnice. Budova postupne chátrala a koncom roka 2011 ju zbúrali. Presný pôdorys bývalého objektu nie je v použitých mapových zdrojoch spoľahlivo georeferencovaný; bod v mape preto označuje orientačnú lokalitu Vývrat.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/vyvrat-kastiel",
+        "https://www.pomalevylety.sk/trips/mkarpaty_vysoka"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Vývrat – orientačná poloha bývalého poľovníckeho kaštieľa",
+        "lat": 48.4173414,
+        "lon": 17.1892972,
+        "type": "historic_estate",
+        "accuracy": "historical_approximate",
+        "source": "https://www.pomalevylety.sk/trips/mkarpaty_vysoka",
+        "address": "Vývrat, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vysoká (754 m) – druhý najvyšší vrch Malých Karpát",
+      "text": "Nad Kuchyňou sa dvíha Vysoká s nadmorskou výškou 754 metrov, druhý najvyšší vrch Malých Karpát. Výrazný vápencový hrebeň je súčasťou prírodnej rezervácie Vysoká s rozlohou 80,53 hektára, vyhlásenej na ochranu cenných lesných a skalných spoločenstiev. Na svahoch rastú hodnotné bukové, jaseňové a lipové lesy a na vápencových skalách sa vyskytujú chránené druhy rastlín. Vrchol poskytuje výhľady na Záhorskú a Podunajskú nížinu, Považský Inovec a pri dobrej viditeľnosti aj na rakúske Alpy. Z Kuchyne vedie na vrchol značená modrá turistická trasa cez Vývrat; výstup je dlhší a záverečný skalnatý úsek je strmý.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.bratislavaregion.travel/poi/130/vysoka",
+        "https://www.obeckuchyna.sk/obec/zakladne-informacie/",
+        "https://www.geonames.org/3056649/vysoka.html"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Vysoká – vrchol 754 m",
+        "lat": 48.41672,
+        "lon": 17.21699,
+        "type": "hill",
+        "accuracy": "exact",
+        "source": "https://www.bratislavaregion.travel/poi/130/vysoka",
+        "address": "Vysoká, Malé Karpaty, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Vodná nádrž Kuchyňa a náučný chodník Bobria hrádza",
+      "text": "Vodná nádrž Kuchyňa leží východne od obce na sútoku potokov Malina a Javorinka. Má rozlohu približne 12 hektárov a objem takmer 500-tisíc kubických metrov; slúži na rekreáciu a športový rybolov. V roku 2015 tu otvorili náučný chodník Bobria hrádza s dĺžkou približne 1,8 kilometra, ktorého súčasťou bola drevená lávka vedená ponad hladinu v dĺžke asi 300 metrov. Obecný rozvojový plán z rokov 2025–2031 potvrdzuje, že vodná nádrž Kuchyňa aj susedný Vývrat zostávajú významnými miestami prímestskej rekreácie a rybolovu. Údaj o lávke sa vzťahuje na podobu chodníka pri jeho otvorení; aktuálny technický stav celej lávky nie je v zdrojoch jednotne potvrdený.",
+      "category": "tourism_and_surroundings",
+      "priority": "B",
+      "sources": [
+        "https://www.bratislavaregion.travel/poi/477/vodna-nadrz-kuchyna",
+        "https://www.planetslovakia.sk/component/content/article?id=81%3Avodna-nadrz-kuchyna",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf"
+      ],
+      "map_category": "visitor_attraction",
+      "location": {
+        "name": "Vodná nádrž Kuchyňa – Bobria hrádza",
+        "lat": 48.4026,
+        "lon": 17.16622,
+        "type": "natural_feature",
+        "accuracy": "exact",
+        "source": "https://www.planetslovakia.sk/component/content/article?id=81%3Avodna-nadrz-kuchyna",
+        "address": "Vodná nádrž Kuchyňa, 900 52 Kuchyňa, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Lesnícke, poľovnícke a domácke remeslá formovali život v Kuchyni",
+      "text": "Poloha Kuchyne na úpätí Malých Karpát ovplyvnila tradičné zamestnania jej obyvateľov. Popri poľnohospodárstve sa tu uplatňovali drevorubači, uhliari a garbiari; od 18. storočia sa rozšírilo pálenie vápna, domáca výroba dreveného náradia a brezových metiel, zber liečivých rastlín a pestovanie viniča. Drevené náradie a metly sa predávali až v Bratislave. V roku 1720 sa v chotári uvádzajú štyri mlyny a 94 daňovníkov; v roku 1828 mala obec 198 domov a 1 424 obyvateľov. Tieto údaje zachytávajú hospodársku obec, ktorej obživa sa opierala o les, vodu, polia a drobné remeslá.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://obeckuchyna.sk/data/MediaLibrary/14/14823/komunitny-kuchyna.pdf",
+        "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf",
+        "https://www.obeckuchyna.sk/obec/zakladne-informacie/"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Kuchyňa – sídelné územie obce",
+        "lat": 48.4074584,
+        "lon": 17.1600799,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n3060875093",
+        "address": "Kuchyňa 220, 900 52 Kuchyňa, Slovensko"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiálna stránka Obce Kuchyňa uvádza PSČ 900 52 pri sídle obecného úradu Kuchyňa 220; rovnaké PSČ je uvedené aj v úradnom registri verejných obstarávateľov a v adresných bodoch. Mapový prehľad OMA označuje PSČ 90052 ako pokrývajúce celú obec Kuchyňa. Slovenská pošta je autoritou pre PSČ; jej verejný vyhľadávač neposkytuje samostatný polygon doručovacej oblasti.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiálna obecná adresa, úradný register verejných obstarávateľov a mapované adresné body OSM/OMA; Slovenská pošta – verejný vyhľadávač PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Kuchyňa – oficiálne administratívne údaje a Program hospodárskeho a sociálneho rozvoja 2025–2031; ŠÚ SR/administratívna hranica obce; OSM/OMA len ako geografické doplnenie."
+  },
+  "sources": [
+    {
+      "title": "Obec Kuchyňa – Základné informácie a PSČ",
+      "url": "https://www.obeckuchyna.sk/obec/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kuchyňa – Program hospodárskeho a sociálneho rozvoja 2025–2031",
+      "url": "https://obeckuchyna.sk/data/MediaLibrary/18/18238/phsr-obce-kuchyna-25-31_navrh.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kuchyňa – Komunitný plán, historický a hospodársky profil",
+      "url": "https://obeckuchyna.sk/data/MediaLibrary/14/14823/komunitny-kuchyna.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Záhorské múzeum Skalica – Najstarší mlyn na Záhorí (Pavol Vrablec, 2024)",
+      "url": "https://www.zahorskemuzeum.sk/de/najstarsi-mlyn-na-zahori-mgr-pavol-vrablec-phd/",
+      "type": "museum"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Mikuláša biskupa v Kuchyni",
+      "url": "https://www.pamiatkynaslovensku.sk/kuchyna-kostol-sv-mikulasa-biskupa",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap/OMA – Kostol sv. Mikuláša, Kuchyňa",
+      "url": "https://poi.oma.sk/w181417828",
+      "type": "other"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Rócha v Kuchyni",
+      "url": "https://www.pamiatkynaslovensku.sk/kuchyna-kaplnka-sv-rocha",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap/OMA – poloha kaplnky sv. Rócha",
+      "url": "https://www.pamiatkynaslovensku.sk/kuchyna-kaplnka-sv-rocha",
+      "type": "other"
+    },
+    {
+      "title": "Slovenské hrady – Hrad Kuchyňa, zaniknuté opevnenie",
+      "url": "https://www.hrady.sk/kuchyna",
+      "type": "specialist"
+    },
+    {
+      "title": "Medieval Heritage – Kuchyňa castle, archeologické a architektonické zhodnotenie",
+      "url": "https://medievalheritage.eu/en/main-page/heritage/slovakia/kuchyna-castle/",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Poľovnícky kaštieľ Vývrat",
+      "url": "https://www.pamiatkynaslovensku.sk/vyvrat-kastiel",
+      "type": "specialist"
+    },
+    {
+      "title": "Pomalé výlety – Vývrat, orientačná poloha bývalého kaštieľa",
+      "url": "https://www.pomalevylety.sk/trips/mkarpaty_vysoka",
+      "type": "regional"
+    },
+    {
+      "title": "Bratislava Region – Vysoká, prírodná rezervácia",
+      "url": "https://www.bratislavaregion.travel/poi/130/vysoka",
+      "type": "official"
+    },
+    {
+      "title": "GeoNames – Vysoká, poloha a nadmorská výška",
+      "url": "https://www.geonames.org/3056649/vysoka.html",
+      "type": "other"
+    },
+    {
+      "title": "Bratislava Region – Vodná nádrž Kuchyňa",
+      "url": "https://www.bratislavaregion.travel/poi/477/vodna-nadrz-kuchyna",
+      "type": "official"
+    },
+    {
+      "title": "Planet Slovakia – Vodná nádrž Kuchyňa a náučný chodník Bobria hrádza",
+      "url": "https://www.planetslovakia.sk/component/content/article?id=81%3Avodna-nadrz-kuchyna",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap/OMA – Kuchyňa, Obecný úrad, orientačný bod centra",
+      "url": "https://poi.oma.sk/n3060875093",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Úrad pre verejné obstarávanie – oficiálny záznam adresy Obce Kuchyňa, PSČ 90052",
+      "url": "https://www.uvo.gov.sk/register-verejnych-obstaravatelov?cHash=49d7f028c3fae2ef2d85802168000437&ext=0&ico=&idTypObs=0&limit=80&nazov=&page=7&sidlo=&sort=ico&sort-dir=ASC&text=",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap/OMA – poštová oblasť 900 52, Kuchyňa",
+      "url": "https://kuchyna.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kuchyňa – centrum obce pri obecnom úrade",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa je doložena od roku 1206 a její mlýn známe už z roku 1238",
+          "text": "Nejstarší známá zmínka o Kuchyni pochází z roku 1206, kdy se v listině krále Ondřeje II. objevuje pomístní název Cuhnamezei. Ve 13. století se obec uvádí také v podobách Chuhna a Cohnha. Mimořádně významná je listina z roku 1238: uherský král Béla IV. prostřednictvím bratislavského župana Ondřeje daroval bratislavským řeholnicím mlýn v Kuchyni, který měl dva mlýnské kameny a stál u kostela. Jde o nejstarší dochovaný písemný doklad o mlýně na Záhoří a zároveň o jednu z nejstarších písemných zpráv o kostele v regionu. Odborný výzkum však upozorňuje, že dnešní budovu mlýna u kostela nelze bez archeologického a architektonického výzkumu ztotožnit s mlýnem z roku 1238."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Mikuláše – barokní chrám na místě středověkého kostela",
+          "text": "Patronem Kuchyně je svatý Mikuláš a jeho patrocinum patří k nejstarším písemně doloženým na Záhoří. Záhorské muzeum uvádí, že kostel u mlýna je zmíněn již v listině z roku 1238 a zasvěcení svatému Mikuláši potvrzuje donace z roku 1291. Současný jednolodní barokní chrám byl postaven roku 1701 na místě staršího kostela, který se v písemných pramenech objevuje také roku 1561. Areál byl původně opevněný; do starší obranné zdi s opěrnými pilíři byla v první polovině 18. století vestavěna barokní vstupní brána. V interiéru se zachovala barokní kazatelna, plastiky sv. Josefa a sv. Jakuba i pozdně barokní obraz sv. Mikuláše."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaple sv. Rocha a pramen s tradicí léčivé vody",
+          "text": "Kapli svatého Rocha nechal roku 1703 postavit pernecký farář Martin Haršáni z darů věřících. Podle místní kronikářské tradice se na tomto místě nacházel kámen s otiskem Kristovy šlépěje, který překážel při stavbě mlýna u kostela. Kámen převezli na místo dnešní kaple, kde jej složili u studánky; právě tam pak vznikla kaple. Voda ze studánky měla podle lidové tradice pomáhat při očních a kožních potížích a ke kapli přicházeli poutníci. Příběh o kameni a léčivých účincích vody je třeba chápat jako místní náboženskou tradici, nikoli jako vědecky potvrzenou událost. Kaple stojí na loukách u cesty směrem na Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zbytky Kuchyňského hradu ukrývají středověké dvojvěžové opevnění",
+          "text": "Na lesním výběžku Malých Karpat nad lokalitou Vývrat se zachovaly nepatrné pozůstatky středověkého opevnění, dnes označovaného jako Hrad Kuchyňa nebo Kuchyňský hrad. V terénu lze rozeznat zbytky dvou protilehlých hranolových věží, obranných zdí, valů a příkopů. O hradu se nedochovaly přímé písemné zmínky, proto není bezpečně známo jeho původní jméno, funkce ani vlastníci. Archeologicko-architektonická hodnocení jej řadí přibližně do 14. století a spojují jeho vznik s místními šlechtickými rody ze Svatého Jura a Pezinku; jde však o odbornou interpretaci, nikoli o údaj z dobové listiny. K lokalitě vede lesní cesta z Vývratu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pálffyovský lovecký zámeček Vývrat byl zbořen roku 2011",
+          "text": "V lesní lokalitě Vývrat nechal kníže Anton Karol Pálffy roku 1855 postavit lovecký zámeček s romantickou fasádou. Pálffyovci jej využívali k odpočinku a lovu více než půl století; později sloužil jako rekreační zařízení a ve druhé polovině 20. století v něm působilo lesnické učiliště s internátem. Objekt měl nepravidelný půdorys, dvě podlaží a zvýšenou podkrovní část připomínající věž. Před zámečkem se nacházelo jezírko napájené potokem a do Vývratu vedla také část pálffyovské úzkokolejné železnice. Budova postupně chátrala a koncem roku 2011 byla zbořena. Bod v mapě označuje pouze orientační polohu lokality Vývrat, nikoli ověřený půdorys bývalého objektu."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – druhý nejvyšší vrchol Malých Karpat",
+          "text": "Nad Kuchyní se zvedá Vysoká s nadmořskou výškou 754 metrů, druhý nejvyšší vrchol Malých Karpat. Výrazný vápencový hřeben je součástí přírodní rezervace Vysoká o rozloze 80,53 hektaru, vyhlášené k ochraně cenných lesních a skalních společenstev. Na svazích rostou hodnotné bukové, jasanové a lipové lesy a na vápencových skalách se vyskytují chráněné druhy rostlin. Vrchol nabízí výhledy na Záhorskou a Podunajskou nížinu, Povážský Inovec a za dobré viditelnosti také na rakouské Alpy. Z Kuchyně vede na vrchol značená modrá turistická trasa přes Vývrat; výstup je delší a závěrečný skalnatý úsek strmý."
+        },
+        {
+          "id": "fact_007",
+          "title": "Vodní nádrž Kuchyňa a naučná stezka Bobří hráz",
+          "text": "Vodní nádrž Kuchyňa leží východně od obce na soutoku potoků Malina a Javorinka. Má rozlohu přibližně 12 hektarů a objem téměř 500 tisíc kubických metrů; slouží k rekreaci a sportovnímu rybolovu. V roce 2015 zde byla otevřena naučná stezka Bobria hrádza dlouhá přibližně 1,8 kilometru, jejíž součástí byla dřevěná lávka vedená nad hladinou v délce asi 300 metrů. Obecní rozvojový plán na roky 2025–2031 potvrzuje, že vodní nádrž Kuchyňa i sousední Vývrat zůstávají významnými místy příměstské rekreace a rybolovu. Údaj o lávce se vztahuje k podobě stezky při jejím otevření; její současný technický stav není ve zdrojích jednotně potvrzen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Lesnická, lovecká a domácí řemesla formovala život v Kuchyni",
+          "text": "Poloha Kuchyně na úpatí Malých Karpat ovlivnila tradiční zaměstnání obyvatel. Vedle zemědělství zde působili dřevorubci, uhlíři a koželuhové; od 18. století se rozšířilo pálení vápna, domácí výroba dřevěného nářadí a březových košťat, sběr léčivých rostlin a pěstování vinné révy. Dřevěné nářadí a košťata se prodávaly až v Bratislavě. Roku 1720 se v katastru uvádějí čtyři mlýny a 94 daňových poplatníků; v roce 1828 měla obec 198 domů a 1 424 obyvatel. Tyto údaje zachycují hospodářskou obec, jejíž obživa se opírala o les, vodu, pole a drobná řemesla."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Kuchyňa – Ortszentrum beim Gemeindeamt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa ist seit 1206 belegt, ihre Mühle bereits seit 1238",
+          "text": "Die älteste bekannte Erwähnung von Kuchyňa stammt aus dem Jahr 1206, als in einer Urkunde König Andreas' II. der Flurname Cuhnamezei erscheint. Im 13. Jahrhundert wurde der Ort auch als Chuhna und Cohnha bezeichnet. Besonders wichtig ist eine Urkunde aus dem Jahr 1238: König Béla IV. ließ durch den Pressburger Gespan Ondrej den Pressburger Ordensfrauen eine Mühle in Kuchyňa schenken. Sie besaß zwei Mühlsteine und stand bei der Kirche. Dies ist der älteste erhaltene schriftliche Nachweis einer Mühle in Záhorie und zugleich eine der ältesten schriftlichen Nachrichten über eine Kirche in der Region. Die heutige Mühlengebäude kann jedoch ohne archäologische und bauhistorische Untersuchung nicht sicher mit der Mühle von 1238 gleichgesetzt werden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Nikolauskirche – ein Barockbau anstelle einer mittelalterlichen Kirche",
+          "text": "Der heilige Nikolaus ist der Schutzpatron von Kuchyňa; sein Patrozinium gehört zu den ältesten schriftlich belegten in Záhorie. Das Záhorie-Museum berichtet, dass die Kirche bei der Mühle bereits in einer Urkunde von 1238 erwähnt wird; die Schenkung von 1291 bestätigt das Nikolauspatrozinium. Die heutige einschiffige Barockkirche wurde 1701 an der Stelle eines älteren Gotteshauses errichtet, das auch 1561 urkundlich erwähnt wird. Die Anlage war ursprünglich befestigt; in die ältere Wehrmauer mit Stützpfeilern wurde in der ersten Hälfte des 18. Jahrhunderts ein barockes Eingangstor eingebaut. Im Inneren blieben eine Barockkanzel, Skulpturen des heiligen Josef und des heiligen Jakobus sowie ein spätbarockes Nikolausbild erhalten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Rochuskapelle und die Überlieferung vom heilkräftigen Wasser",
+          "text": "Die Kapelle des heiligen Rochus wurde 1703 vom Pfarrer von Pernek, Martin Haršáni, aus Spenden der Gläubigen errichtet. Einer örtlichen Chroniküberlieferung zufolge befand sich an dieser Stelle ein Stein mit dem Abdruck des Fußes Christi, der beim Bau der Mühle an der Kirche störte. Der Stein wurde zur heutigen Kapelle gebracht und bei einer Quelle abgelegt; dort entstand anschließend das Gotteshaus. Dem Wasser der Quelle wurden in der Volksüberlieferung heilende Wirkungen bei Augen- und Hautleiden zugeschrieben, weshalb Pilger zur Kapelle kamen. Die Erzählung vom Stein und vom heilkräftigen Wasser ist als lokale religiöse Tradition zu verstehen, nicht als wissenschaftlich bestätigtes Ereignis. Die Kapelle steht auf einer Wiese an der Straße nach Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Reste der Burg Kuchyňa verbergen eine mittelalterliche Doppelturm-Befestigung",
+          "text": "Auf einem bewaldeten Ausläufer der Kleinen Karpaten oberhalb der Gegend Vývrat sind geringe Reste einer mittelalterlichen Befestigungsanlage erhalten, die heute als Burg Kuchyňa oder Kuchyňský hrad bezeichnet wird. Im Gelände lassen sich Überreste zweier gegenüberliegender viereckiger Türme, Wehrmauern, Wälle und Gräben erkennen. Schriftliche Quellen zur Burg sind nicht bekannt; ihr ursprünglicher Name, ihre Funktion und ihre Besitzer bleiben daher ungesichert. Archäologisch-bauhistorische Deutungen datieren sie ungefähr ins 14. Jahrhundert und bringen ihre Entstehung mit lokalen Adelsfamilien aus Sankt Georgen und Pezinok in Verbindung. Dies ist eine fachliche Interpretation, keine zeitgenössische Urkundenangabe."
+        },
+        {
+          "id": "fact_005",
+          "title": "Das Pálffy-Jagdschloss Vývrat wurde 2011 abgerissen",
+          "text": "Im Waldgebiet Vývrat ließ Fürst Anton Karol Pálffy 1855 ein Jagdschloss mit romantischer Fassade errichten. Die Pálffys nutzten es mehr als ein halbes Jahrhundert zur Erholung und Jagd; später diente es als Freizeiteinrichtung und beherbergte in der zweiten Hälfte des 20. Jahrhunderts eine Forstschule mit Internat. Das Gebäude hatte einen unregelmäßigen Grundriss, zwei Stockwerke und einen erhöhten Dachbereich, der wie ein Turm wirkte. Vor dem Schloss lag ein von einem Bach gespeister Teich; außerdem führte ein Abschnitt der Pálffy'schen Schmalspurbahn nach Vývrat. Das Gebäude verfiel und wurde Ende 2011 abgetragen. Der Kartenpunkt bezeichnet nur die ungefähre Gegend Vývrat, nicht den exakt vermessenen Grundriss des Schlosses."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – der zweithöchste Gipfel der Kleinen Karpaten",
+          "text": "Über Kuchyňa erhebt sich der 754 Meter hohe Gipfel Vysoká, der zweithöchste Berg der Kleinen Karpaten. Der markante Kalksteinkamm gehört zum 80,53 Hektar großen Naturschutzgebiet Vysoká, das wertvolle Wald- und Felslebensräume schützt. An den Hängen wachsen bedeutende Buchen-, Eschen- und Lindenwälder; auf den Kalkfelsen kommen geschützte Pflanzenarten vor. Vom Gipfel bietet sich ein Blick auf die Ebene von Záhorie und das Donautiefland, auf den Považský Inovec und bei guter Sicht bis zu den österreichischen Alpen. Von Kuchyňa führt ein markierter blauer Wanderweg über Vývrat zum Gipfel; die Tour ist länger und der felsige Schlussanstieg steil."
+        },
+        {
+          "id": "fact_007",
+          "title": "Der Stausee Kuchyňa und der Lehrpfad Bobria hrádza",
+          "text": "Der Stausee Kuchyňa liegt östlich des Dorfes am Zusammenfluss der Bäche Malina und Javorinka. Er umfasst etwa 12 Hektar und hat ein Volumen von knapp 500.000 Kubikmetern; genutzt wird er zur Erholung und zum Sportfischen. 2015 wurde hier der rund 1,8 Kilometer lange Lehrpfad Bobria hrádza eröffnet, zu dem eine etwa 300 Meter lange Holzbrücke über die Wasserfläche gehörte. Der Gemeindeentwicklungsplan 2025–2031 bestätigt, dass die Stauseen Kuchyňa und Vývrat weiterhin wichtige Ziele für Naherholung und Angeln sind. Die Angabe zur Brücke beschreibt den Zustand bei Eröffnung des Lehrpfads; ihr heutiger technischer Zustand ist in den Quellen nicht einheitlich bestätigt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Forstwirtschaft, Jagd und Heimhandwerk prägten das Leben in Kuchyňa",
+          "text": "Die Lage von Kuchyňa am Fuß der Kleinen Karpaten prägte die traditionellen Berufe der Einwohner. Neben der Landwirtschaft gab es Holzfäller, Köhler und Gerber; seit dem 18. Jahrhundert verbreiteten sich Kalkbrennen, die häusliche Herstellung von Holzgeräten und Birkenbesen, das Sammeln von Heilpflanzen und der Weinbau. Holzgeräte und Besen wurden bis nach Bratislava verkauft. Für 1720 sind im Gemeindegebiet vier Mühlen und 94 Steuerpflichtige verzeichnet; 1828 hatte der Ort 198 Häuser und 1.424 Einwohner. Diese Angaben zeigen eine Wirtschaftsgemeinde, deren Lebensunterhalt auf Wald, Wasser, Feldern und kleinen Handwerken beruhte."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Kuchyňa – village centre by the municipal office",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa is documented from 1206, and its mill from 1238",
+          "text": "The earliest known reference to Kuchyňa dates to 1206, when the place-name Cuhnamezei appears in a charter of King Andrew II. In the 13th century the village was also recorded in forms such as Chuhna and Cohnha. A particularly important charter from 1238 records King Béla IV, through the Pressburg county official Ondrej, granting a mill in Kuchyňa to religious sisters in Pressburg. The mill had two millstones and stood beside a church. This is the oldest surviving written record of a mill in the Záhorie region and one of the earliest written references to a church there. However, researchers caution that the present mill building beside the church cannot be identified with the 1238 mill without archaeological and architectural investigation."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Nicholas's Church – a Baroque church on a medieval site",
+          "text": "Saint Nicholas is the patron saint of Kuchyňa, and his dedication is among the earliest documented in writing in the Záhorie region. The Záhorie Museum reports that a church beside the mill appears in a 1238 charter; a 1291 donation confirms its dedication to Saint Nicholas. The present single-nave Baroque church was built in 1701 on the site of an older church, also mentioned in written records in 1561. The complex was originally fortified; a Baroque entrance gate was added to the older defensive wall with buttresses in the first half of the 18th century. The interior preserves a Baroque pulpit, sculptures of Saints Joseph and James, and a late-Baroque painting of Saint Nicholas."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Roch's Chapel and the tradition of healing spring water",
+          "text": "The Chapel of St Roch was built in 1703 by Martin Haršáni, the parish priest of Pernek, with donations from worshippers. According to local chronicle tradition, a stone bearing the imprint of Christ's footprint stood at this place and obstructed construction of the mill beside the church. The stone was transported to the present chapel site and left beside a spring; the chapel was then built there. Folk tradition attributed healing properties to the spring water, especially for eye and skin conditions, and pilgrims visited the chapel. The story of the stone and healing water should be understood as a local religious tradition, not a scientifically verified event. The chapel stands in a meadow beside the road towards Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "The remains of Kuchyňa Castle conceal a medieval twin-tower fortification",
+          "text": "On a wooded spur of the Little Carpathians above the Vývrat area, small remains of a medieval fortification survive, now known as Kuchyňa Castle or Kuchynský hrad. The terrain preserves traces of two opposing rectangular towers, defensive walls, ramparts and ditches. No direct written records of the castle are known, so its original name, function and owners remain uncertain. Archaeological and architectural interpretations date it approximately to the 14th century and associate its construction with local noble families from Svätý Jur and Pezinok. This is a scholarly interpretation rather than a fact recorded in a contemporary charter. A forest track leads to the site from Vývrat."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Pálffy hunting lodge at Vývrat was demolished in 2011",
+          "text": "In the forest area of Vývrat, Prince Anton Karol Pálffy had a hunting lodge with a Romantic-style façade built in 1855. The Pálffys used it for rest and hunting for more than half a century; later it served as a recreation facility and housed a forestry school and dormitory during the second half of the 20th century. The building had an irregular plan, two storeys and a raised attic section resembling a tower. A pond fed by a nearby stream lay in front of it, and a section of the Pálffy narrow-gauge railway also led to Vývrat. The building deteriorated and was demolished at the end of 2011. The map point marks the general Vývrat area, not a surveyed footprint of the former lodge."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – the second-highest peak in the Little Carpathians",
+          "text": "Above Kuchyňa rises Vysoká, at 754 metres the second-highest peak in the Little Carpathians. Its striking limestone ridge forms part of the 80.53-hectare Vysoká Nature Reserve, established to protect valuable woodland and rocky habitats. The slopes support important beech, ash and lime forests, while protected plant species grow on the limestone rocks. The summit offers views over the Záhorie and Danube lowlands, the Považský Inovec range and, in clear weather, the foothills of the Austrian Alps. A marked blue hiking trail leads from Kuchyňa over Vývrat to the summit; the route is long and the final rocky section is steep."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kuchyňa Reservoir and the Bobria hrádza nature trail",
+          "text": "Kuchyňa Reservoir lies east of the village where the Malina and Javorinka streams meet. It covers about 12 hectares and holds almost 500,000 cubic metres of water; it is used for recreation and sport fishing. In 2015, the approximately 1.8-kilometre Bobria hrádza nature trail opened here, including a wooden footbridge about 300 metres long over the water. The municipal development plan for 2025–2031 confirms that the Kuchyňa and Vývrat reservoirs remain important places for local recreation and fishing. The footbridge description refers to the trail when it opened; sources do not consistently confirm its current technical condition."
+        },
+        {
+          "id": "fact_008",
+          "title": "Forestry, hunting and home crafts shaped life in Kuchyňa",
+          "text": "Kuchyňa's position at the foot of the Little Carpathians shaped the traditional occupations of its residents. Alongside farming, people worked as woodcutters, charcoal burners and tanners; from the 18th century, lime burning, home production of wooden tools and birch brooms, medicinal-plant gathering and viticulture also developed. Wooden tools and brooms were sold as far away as Bratislava. In 1720, four mills and 94 taxpayers were recorded in the cadastral area; in 1828 the village had 198 houses and 1,424 residents. These figures portray a rural economy based on forests, water, fields and small-scale crafts."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Kuchyňa – centro del pueblo junto al ayuntamiento",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa está documentada desde 1206 y su molino desde 1238",
+          "text": "La referencia escrita más antigua conocida de Kuchyňa data de 1206, cuando el topónimo Cuhnamezei aparece en un documento del rey Andrés II. En el siglo XIII el pueblo también figura con formas como Chuhna y Cohnha. Un documento especialmente importante de 1238 registra que el rey Béla IV, por medio del representante del condado de Bratislava Ondrej, concedió a unas religiosas de Bratislava un molino en Kuchyňa. Tenía dos piedras de moler y estaba junto a una iglesia. Es el testimonio escrito conservado más antiguo de un molino en la región de Záhorie y una de las primeras referencias escritas a una iglesia de la zona. No obstante, los investigadores advierten que no se puede identificar con seguridad el edificio actual del molino con el de 1238 sin una investigación arqueológica y arquitectónica."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de San Nicolás: templo barroco en un lugar medieval",
+          "text": "San Nicolás es el patrón de Kuchyňa y su advocación está entre las más antiguas documentadas por escrito en Záhorie. El Museo de Záhorie señala que una iglesia junto al molino aparece en un documento de 1238; una donación de 1291 confirma su dedicación a San Nicolás. La actual iglesia barroca de una nave se construyó en 1701 en el lugar de un templo anterior, mencionado también en documentos de 1561. El recinto estuvo fortificado; en la primera mitad del siglo XVIII se añadió una portada barroca al antiguo muro defensivo con contrafuertes. En el interior se conservan un púlpito barroco, esculturas de san José y Santiago y una pintura tardobarroca de san Nicolás."
+        },
+        {
+          "id": "fact_003",
+          "title": "La capilla de San Roque y la tradición del agua curativa",
+          "text": "La capilla de San Roque fue construida en 1703 por Martin Haršáni, párroco de Pernek, con donaciones de los fieles. Según la tradición de las crónicas locales, en este lugar había una piedra con la huella de Cristo que estorbaba durante la construcción del molino junto a la iglesia. La piedra fue trasladada al emplazamiento de la capilla actual y depositada junto a una fuente; después se construyó allí la capilla. La tradición popular atribuía propiedades curativas al agua, especialmente para dolencias de los ojos y de la piel, y los peregrinos acudían al lugar. La historia de la piedra y del agua debe entenderse como una tradición religiosa local, no como un hecho científicamente demostrado. La capilla se encuentra en una pradera junto al camino hacia Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "Los restos del castillo de Kuchyňa esconden una fortificación medieval de dos torres",
+          "text": "En un espolón boscoso de los Pequeños Cárpatos, sobre la zona de Vývrat, se conservan pequeños restos de una fortificación medieval conocida hoy como castillo de Kuchyňa o Kuchynský hrad. En el terreno se distinguen vestigios de dos torres cuadrangulares enfrentadas, muros defensivos, terraplenes y fosos. No se conocen referencias escritas directas al castillo, por lo que su nombre original, función y propietarios siguen siendo inciertos. Las interpretaciones arqueológicas y arquitectónicas lo sitúan aproximadamente en el siglo XIV y relacionan su origen con familias nobles locales de Svätý Jur y Pezinok. Se trata de una interpretación especializada, no de un dato recogido en un documento contemporáneo."
+        },
+        {
+          "id": "fact_005",
+          "title": "El pabellón de caza de los Pálffy en Vývrat fue demolido en 2011",
+          "text": "En la zona boscosa de Vývrat, el príncipe Anton Karol Pálffy mandó construir en 1855 un pabellón de caza con fachada romántica. Los Pálffy lo utilizaron para descansar y cazar durante más de medio siglo; después sirvió como instalación recreativa y, en la segunda mitad del siglo XX, albergó una escuela forestal con internado. El edificio tenía planta irregular, dos pisos y una parte elevada bajo cubierta que parecía una torre. Delante había un estanque alimentado por un arroyo y hasta Vývrat llegaba también un tramo del ferrocarril de vía estrecha de los Pálffy. El edificio se deterioró y fue demolido a finales de 2011. El punto del mapa indica la zona general de Vývrat, no la huella exacta del antiguo edificio."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m): la segunda cima más alta de los Pequeños Cárpatos",
+          "text": "Sobre Kuchyňa se eleva Vysoká, con 754 metros, la segunda cima más alta de los Pequeños Cárpatos. Su cresta caliza forma parte de la reserva natural Vysoká, de 80,53 hectáreas, creada para proteger valiosos bosques y hábitats rocosos. En sus laderas crecen bosques de hayas, fresnos y tilos, y en las rocas calizas aparecen especies vegetales protegidas. Desde la cumbre se contemplan las llanuras de Záhorie y del Danubio, la sierra de Považský Inovec y, con buena visibilidad, las estribaciones de los Alpes austríacos. Desde Kuchyňa parte una ruta azul señalizada que pasa por Vývrat; la excursión es larga y el tramo rocoso final es empinado."
+        },
+        {
+          "id": "fact_007",
+          "title": "El embalse de Kuchyňa y el sendero natural Bobria hrádza",
+          "text": "El embalse de Kuchyňa se encuentra al este del pueblo, en la confluencia de los arroyos Malina y Javorinka. Tiene una superficie aproximada de 12 hectáreas y un volumen de casi 500.000 metros cúbicos; se utiliza para el ocio y la pesca deportiva. En 2015 se inauguró aquí el sendero natural Bobria hrádza, de unos 1,8 kilómetros, que incluía una pasarela de madera de aproximadamente 300 metros sobre el agua. El plan municipal de desarrollo 2025–2031 confirma que los embalses de Kuchyňa y Vývrat siguen siendo lugares importantes para el ocio y la pesca. La descripción de la pasarela corresponde a la apertura del sendero; las fuentes no confirman de forma uniforme su estado técnico actual."
+        },
+        {
+          "id": "fact_008",
+          "title": "La silvicultura, la caza y los oficios domésticos marcaron la vida de Kuchyňa",
+          "text": "La ubicación de Kuchyňa al pie de los Pequeños Cárpatos influyó en los oficios tradicionales de sus habitantes. Además de la agricultura, había leñadores, carboneros y curtidores; desde el siglo XVIII se extendieron la producción de cal, la fabricación doméstica de utensilios de madera y escobas de abedul, la recolección de plantas medicinales y la viticultura. Los utensilios y las escobas se vendían incluso en Bratislava. En 1720 se registraban cuatro molinos y 94 contribuyentes en el término municipal; en 1828 el pueblo tenía 198 casas y 1.424 habitantes. Estas cifras muestran una economía rural basada en el bosque, el agua, los campos y los pequeños oficios."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Kuchyňa – centre du village près de la mairie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa est attestée depuis 1206 et son moulin depuis 1238",
+          "text": "La plus ancienne mention écrite connue de Kuchyňa date de 1206, lorsque le toponyme Cuhnamezei apparaît dans un acte du roi André II. Au XIIIe siècle, le village est également mentionné sous les formes Chuhna et Cohnha. Un acte particulièrement important de 1238 rapporte que le roi Béla IV, par l’intermédiaire du comte de Bratislava Ondrej, accorda aux religieuses de Bratislava un moulin à Kuchyňa. Il possédait deux meules et se trouvait près d’une église. Il s’agit du plus ancien témoignage écrit conservé d’un moulin dans la région de Záhorie et de l’une des premières mentions écrites d’une église dans la région. Les chercheurs soulignent toutefois que le bâtiment actuel du moulin ne peut être identifié avec certitude à celui de 1238 sans étude archéologique et architecturale."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Nicolas : un édifice baroque sur un site médiéval",
+          "text": "Saint Nicolas est le patron de Kuchyňa et son vocable figure parmi les plus anciens attestés par écrit dans la région de Záhorie. Le musée de Záhorie indique qu’une église près du moulin apparaît dans un acte de 1238 ; une donation de 1291 confirme son vocable Saint-Nicolas. L’actuelle église baroque à nef unique fut construite en 1701 à l’emplacement d’un édifice plus ancien, également mentionné dans des documents de 1561. L’ensemble était à l’origine fortifié ; un portail baroque fut ajouté au vieux mur défensif à contreforts dans la première moitié du XVIIIe siècle. L’intérieur conserve une chaire baroque, des sculptures de saint Joseph et de saint Jacques ainsi qu’un tableau tardif de saint Nicolas."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chapelle Saint-Roch et la tradition de l’eau guérisseuse",
+          "text": "La chapelle Saint-Roch fut construite en 1703 par Martin Haršáni, curé de Pernek, grâce aux dons des fidèles. Selon une tradition rapportée par la chronique locale, une pierre portant l’empreinte du pied du Christ se trouvait à cet endroit et gênait la construction du moulin près de l’église. La pierre fut transportée sur le site de la chapelle actuelle et déposée près d’une source ; la chapelle fut ensuite construite à cet endroit. La tradition populaire attribuait à l’eau de la source des vertus contre les affections des yeux et de la peau, et des pèlerins venaient à la chapelle. Le récit de la pierre et de l’eau guérisseuse doit être compris comme une tradition religieuse locale, non comme un fait scientifiquement établi. La chapelle se trouve dans une prairie au bord de la route de Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "Les vestiges du château de Kuchyňa cachent une fortification médiévale à deux tours",
+          "text": "Sur un éperon boisé des Petites Carpates, au-dessus du secteur de Vývrat, subsistent quelques vestiges d’une fortification médiévale aujourd’hui appelée château de Kuchyňa ou Kuchynský hrad. Le terrain conserve les traces de deux tours quadrangulaires opposées, de murs défensifs, de levées de terre et de fossés. Aucune source écrite directe sur le château n’est connue ; son nom d’origine, sa fonction et ses propriétaires restent donc incertains. Les interprétations archéologiques et architecturales le datent approximativement du XIVe siècle et associent sa construction à des familles nobles locales de Svätý Jur et de Pezinok. Il s’agit d’une interprétation scientifique, non d’une information issue d’un acte contemporain."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le pavillon de chasse des Pálffy à Vývrat fut démoli en 2011",
+          "text": "Dans le secteur forestier de Vývrat, le prince Anton Karol Pálffy fit construire en 1855 un pavillon de chasse à façade romantique. Les Pálffy l’utilisèrent pour le repos et la chasse pendant plus d’un demi-siècle ; il servit ensuite de centre de loisirs et accueillit, dans la seconde moitié du XXe siècle, une école forestière avec internat. Le bâtiment avait un plan irrégulier, deux étages et des combles surélevés évoquant une tour. Un étang alimenté par un ruisseau se trouvait devant le pavillon et un tronçon du chemin de fer à voie étroite des Pálffy menait également à Vývrat. Le bâtiment se dégrada puis fut démoli à la fin de 2011. Le point cartographique indique seulement le secteur général de Vývrat, et non l’emprise exacte de l’ancien bâtiment."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – le deuxième plus haut sommet des Petites Carpates",
+          "text": "Au-dessus de Kuchyňa s’élève Vysoká, à 754 mètres, le deuxième plus haut sommet des Petites Carpates. Sa crête calcaire fait partie de la réserve naturelle Vysoká, d’une superficie de 80,53 hectares, créée pour protéger des milieux forestiers et rocheux précieux. Les pentes portent de belles hêtraies, frênaies et tillaies, tandis que des espèces végétales protégées poussent sur les rochers calcaires. Le sommet offre des vues sur les plaines de Záhorie et du Danube, le massif de Považský Inovec et, par temps clair, les contreforts des Alpes autrichiennes. Un sentier balisé bleu monte depuis Kuchyňa en passant par Vývrat ; la randonnée est longue et le dernier passage rocheux est raide."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le réservoir de Kuchyňa et le sentier nature Bobria hrádza",
+          "text": "Le réservoir de Kuchyňa se trouve à l’est du village, au confluent des ruisseaux Malina et Javorinka. Il couvre environ 12 hectares et contient près de 500 000 mètres cubes d’eau ; il est utilisé pour les loisirs et la pêche sportive. En 2015, le sentier nature Bobria hrádza, long d’environ 1,8 kilomètre, y fut inauguré ; il comprenait une passerelle en bois d’environ 300 mètres au-dessus de l’eau. Le plan communal de développement 2025–2031 confirme que les réservoirs de Kuchyňa et de Vývrat restent des lieux importants de loisirs de proximité et de pêche. La description de la passerelle correspond à l’ouverture du sentier ; les sources ne confirment pas toutes son état technique actuel."
+        },
+        {
+          "id": "fact_008",
+          "title": "La sylviculture, la chasse et l’artisanat domestique ont façonné la vie de Kuchyňa",
+          "text": "La situation de Kuchyňa au pied des Petites Carpates a influencé les métiers traditionnels de ses habitants. À côté de l’agriculture, on trouvait des bûcherons, des charbonniers et des tanneurs ; à partir du XVIIIe siècle se développèrent la production de chaux, la fabrication domestique d’outils en bois et de balais de bouleau, la cueillette de plantes médicinales et la viticulture. Les outils et les balais étaient vendus jusqu’à Bratislava. En 1720, quatre moulins et 94 contribuables sont recensés dans le territoire communal ; en 1828, le village comptait 198 maisons et 1 424 habitants. Ces données décrivent une économie rurale fondée sur la forêt, l’eau, les champs et les petits métiers."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Kuchyňa – centro del paese presso il municipio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa è documentata dal 1206 e il suo mulino dal 1238",
+          "text": "La più antica menzione scritta conosciuta di Kuchyňa risale al 1206, quando il toponimo Cuhnamezei compare in un documento del re Andrea II. Nel XIII secolo il villaggio è citato anche nelle forme Chuhna e Cohnha. Un documento particolarmente importante del 1238 registra che il re Béla IV, tramite il conte di Bratislava Ondrej, donò alle religiose di Bratislava un mulino a Kuchyňa. Aveva due macine e sorgeva vicino a una chiesa. È la più antica testimonianza scritta conservata di un mulino nella regione di Záhorie e una delle prime notizie scritte su una chiesa della regione. Gli studiosi avvertono tuttavia che l’attuale edificio del mulino vicino alla chiesa non può essere identificato con certezza con quello del 1238 senza indagini archeologiche e architettoniche."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Nicola: edificio barocco su un sito medievale",
+          "text": "San Nicola è il patrono di Kuchyňa e la sua dedicazione è tra le più antiche documentate per iscritto nella regione di Záhorie. Il Museo di Záhorie riferisce che una chiesa vicino al mulino compare in un documento del 1238; una donazione del 1291 conferma la dedicazione a San Nicola. L’attuale chiesa barocca a navata unica fu costruita nel 1701 sul sito di un edificio più antico, menzionato anche in documenti del 1561. Il complesso era originariamente fortificato; nella prima metà del XVIII secolo fu aggiunto un portale barocco al vecchio muro difensivo con contrafforti. All’interno si conservano un pulpito barocco, sculture di San Giuseppe e San Giacomo e un dipinto tardobarocco di San Nicola."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cappella di San Rocco e la tradizione dell’acqua curativa",
+          "text": "La cappella di San Rocco fu costruita nel 1703 da Martin Haršáni, parroco di Pernek, grazie alle offerte dei fedeli. Secondo una tradizione della cronaca locale, in questo luogo si trovava una pietra con l’impronta del piede di Cristo che ostacolava la costruzione del mulino vicino alla chiesa. La pietra fu trasportata sul sito dell’attuale cappella e deposta accanto a una sorgente; in seguito fu costruita la cappella. La tradizione popolare attribuiva all’acqua proprietà curative, soprattutto per disturbi agli occhi e alla pelle, e i pellegrini visitavano il luogo. La storia della pietra e dell’acqua va intesa come tradizione religiosa locale, non come evento scientificamente provato. La cappella sorge in un prato lungo la strada verso Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "I resti del castello di Kuchyňa nascondono una fortificazione medievale a due torri",
+          "text": "Su uno sperone boscoso dei Piccoli Carpazi, sopra la zona di Vývrat, si conservano piccoli resti di una fortificazione medievale oggi chiamata castello di Kuchyňa o Kuchynský hrad. Sul terreno si distinguono tracce di due torri quadrangolari contrapposte, mura difensive, terrapieni e fossati. Non sono note fonti scritte dirette sul castello, quindi il suo nome originario, la funzione e i proprietari restano incerti. Le interpretazioni archeologiche e architettoniche lo datano approssimativamente al XIV secolo e collegano la sua origine a famiglie nobili locali di Svätý Jur e Pezinok. Si tratta di un’interpretazione specialistica, non di un dato registrato in un documento contemporaneo."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il casino di caccia dei Pálffy a Vývrat fu demolito nel 2011",
+          "text": "Nell’area boschiva di Vývrat, il principe Anton Karol Pálffy fece costruire nel 1855 un casino di caccia con facciata romantica. I Pálffy lo utilizzarono per riposarsi e cacciare per oltre mezzo secolo; in seguito servì come struttura ricreativa e, nella seconda metà del XX secolo, ospitò una scuola forestale con convitto. L’edificio aveva una pianta irregolare, due piani e un sottotetto rialzato che ricordava una torre. Davanti si trovava un laghetto alimentato da un ruscello e a Vývrat arrivava anche un tratto della ferrovia a scartamento ridotto dei Pálffy. L’edificio cadde in rovina e fu demolito alla fine del 2011. Il punto sulla mappa indica soltanto l’area generale di Vývrat, non l’esatta impronta dell’edificio."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – la seconda cima più alta dei Piccoli Carpazi",
+          "text": "Sopra Kuchyňa si innalza Vysoká, con 754 metri la seconda cima più alta dei Piccoli Carpazi. La sua cresta calcarea fa parte della riserva naturale Vysoká, estesa su 80,53 ettari e istituita per proteggere preziosi ambienti forestali e rocciosi. Sui versanti crescono importanti boschi di faggio, frassino e tiglio, mentre sulle rocce calcaree si trovano specie vegetali protette. Dalla cima si vedono le pianure di Záhorie e del Danubio, il massiccio di Považský Inovec e, con buona visibilità, le pendici delle Alpi austriache. Da Kuchyňa parte un sentiero blu segnalato che passa per Vývrat; l’escursione è lunga e l’ultimo tratto roccioso è ripido."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il bacino di Kuchyňa e il sentiero naturalistico Bobria hrádza",
+          "text": "Il bacino di Kuchyňa si trova a est del villaggio, alla confluenza dei torrenti Malina e Javorinka. Ha una superficie di circa 12 ettari e un volume di quasi 500.000 metri cubi; viene utilizzato per il tempo libero e la pesca sportiva. Nel 2015 è stato inaugurato il sentiero naturalistico Bobria hrádza, lungo circa 1,8 chilometri, che comprendeva una passerella di legno di circa 300 metri sopra l’acqua. Il piano comunale di sviluppo 2025–2031 conferma che i bacini di Kuchyňa e Vývrat restano importanti luoghi di svago e pesca. La descrizione della passerella si riferisce al momento dell’apertura del sentiero; le fonti non confermano in modo uniforme il suo attuale stato tecnico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Silvicoltura, caccia e artigianato domestico hanno plasmato la vita a Kuchyňa",
+          "text": "La posizione di Kuchyňa ai piedi dei Piccoli Carpazi ha influenzato i mestieri tradizionali degli abitanti. Accanto all’agricoltura c’erano taglialegna, carbonai e conciatori; dal XVIII secolo si diffusero la produzione di calce, la fabbricazione domestica di utensili in legno e scope di betulla, la raccolta di piante medicinali e la viticoltura. Utensili e scope venivano venduti fino a Bratislava. Nel 1720 nel territorio comunale risultavano quattro mulini e 94 contribuenti; nel 1828 il villaggio contava 198 case e 1.424 abitanti. Questi dati descrivono un’economia rurale basata su boschi, acqua, campi e piccoli mestieri."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Kuchyňa – dorpscentrum bij het gemeentehuis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kuchyňa is gedocumenteerd vanaf 1206 en de molen vanaf 1238",
+          "text": "De oudste bekende schriftelijke vermelding van Kuchyňa dateert uit 1206, toen de plaatsnaam Cuhnamezei voorkomt in een oorkonde van koning Andreas II. In de 13e eeuw werd het dorp ook vermeld als Chuhna en Cohnha. Een bijzonder belangrijke oorkonde uit 1238 vermeldt dat koning Béla IV via de graaf van Pressburg, Ondrej, een molen in Kuchyňa schonk aan religieuze zusters in Pressburg. De molen had twee maalstenen en stond bij een kerk. Dit is het oudste bewaard gebleven schriftelijke bewijs van een molen in de regio Záhorie en een van de vroegste schriftelijke vermeldingen van een kerk in de regio. Onderzoekers waarschuwen echter dat het huidige molengebouw bij de kerk zonder archeologisch en bouwkundig onderzoek niet met zekerheid met de molen uit 1238 kan worden vereenzelvigd."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Nicolaaskerk – een barokke kerk op een middeleeuwse plek",
+          "text": "Sint-Nicolaas is de patroonheilige van Kuchyňa en zijn patroonfeest behoort tot de oudste schriftelijk gedocumenteerde in Záhorie. Het Záhorie Museum meldt dat een kerk bij de molen al in een oorkonde uit 1238 voorkomt; een schenking uit 1291 bevestigt de toewijding aan Sint-Nicolaas. De huidige eenbeukige barokkerk werd in 1701 gebouwd op de plek van een oudere kerk, die ook in documenten uit 1561 wordt vermeld. Het complex was oorspronkelijk versterkt; in de eerste helft van de 18e eeuw werd een barokke toegangspoort toegevoegd aan de oudere verdedigingsmuur met steunberen. Binnen zijn een barokke preekstoel, beelden van Sint-Jozef en Sint-Jacobus en een laatbarok schilderij van Sint-Nicolaas bewaard gebleven."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Rochuskapel en de traditie van geneeskrachtig bronwater",
+          "text": "De Sint-Rochuskapel werd in 1703 gebouwd door Martin Haršáni, pastoor van Pernek, met giften van gelovigen. Volgens een plaatselijke kroniektraditie stond hier een steen met de afdruk van Christus' voet die in de weg lag bij de bouw van de molen bij de kerk. De steen werd naar de plek van de huidige kapel vervoerd en naast een bron neergelegd; daarna werd daar de kapel gebouwd. Volgens de volkstraditie had het bronwater een genezende werking, vooral bij oog- en huidaandoeningen, en bezochten pelgrims de kapel. Het verhaal over de steen en het geneeskrachtige water moet worden beschouwd als een plaatselijke religieuze traditie, niet als een wetenschappelijk bewezen gebeurtenis. De kapel staat in een weide langs de weg naar Pernek."
+        },
+        {
+          "id": "fact_004",
+          "title": "De resten van kasteel Kuchyňa verbergen een middeleeuwse vesting met twee torens",
+          "text": "Op een beboste uitloper van de Kleine Karpaten boven het gebied Vývrat zijn kleine resten van een middeleeuwse vesting bewaard gebleven, tegenwoordig bekend als kasteel Kuchyňa of Kuchynský hrad. In het terrein zijn sporen te zien van twee tegenover elkaar gelegen rechthoekige torens, verdedigingsmuren, wallen en grachten. Er zijn geen rechtstreekse schriftelijke bronnen over het kasteel bekend; de oorspronkelijke naam, functie en eigenaren blijven daarom onzeker. Archeologische en architectuurhistorische interpretaties dateren het ongeveer in de 14e eeuw en brengen de bouw in verband met plaatselijke adellijke families uit Svätý Jur en Pezinok. Dit is een wetenschappelijke interpretatie en geen gegeven uit een eigentijdse oorkonde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het jachtlandhuis van de Pálffy's in Vývrat werd in 2011 gesloopt",
+          "text": "In het bosgebied Vývrat liet prins Anton Karol Pálffy in 1855 een jachtlandhuis met romantische gevel bouwen. De Pálffy's gebruikten het meer dan een halve eeuw om uit te rusten en te jagen; later diende het als recreatievoorziening en in de tweede helft van de 20e eeuw huisvestte het een bosbouwschool met internaat. Het gebouw had een onregelmatige plattegrond, twee verdiepingen en een verhoogde zolder die op een toren leek. Voor het landhuis lag een vijver die door een beek werd gevoed; ook liep een deel van de smalspoorlijn van de Pálffy's naar Vývrat. Het gebouw raakte in verval en werd eind 2011 gesloopt. Het kaartpunt duidt alleen de algemene omgeving Vývrat aan, niet de exact ingemeten voetafdruk van het voormalige gebouw."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vysoká (754 m) – de op één na hoogste top van de Kleine Karpaten",
+          "text": "Boven Kuchyňa rijst Vysoká op, met 754 meter de op één na hoogste top van de Kleine Karpaten. De opvallende kalkstenen kam maakt deel uit van het natuurreservaat Vysoká van 80,53 hectare, dat waardevolle bos- en rotsgebieden beschermt. Op de hellingen groeien waardevolle beuken-, essen- en lindebossen; op de kalkrotsen komen beschermde plantensoorten voor. Vanaf de top kijkt men uit over de laagvlakten van Záhorie en de Donau, het gebergte Považský Inovec en bij helder weer de uitlopers van de Oostenrijkse Alpen. Vanuit Kuchyňa loopt een gemarkeerde blauwe wandelroute via Vývrat naar de top; de tocht is lang en het laatste rotsachtige gedeelte is steil."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het stuwmeer Kuchyňa en het natuurpad Bobria hrádza",
+          "text": "Het stuwmeer Kuchyňa ligt ten oosten van het dorp bij de samenvloeiing van de beken Malina en Javorinka. Het heeft een oppervlakte van ongeveer 12 hectare en een inhoud van bijna 500.000 kubieke meter; het wordt gebruikt voor recreatie en sportvissen. In 2015 werd hier het ongeveer 1,8 kilometer lange natuurpad Bobria hrádza geopend, met een houten loopbrug van ongeveer 300 meter over het water. Het gemeentelijke ontwikkelingsplan 2025–2031 bevestigt dat de stuwmeren Kuchyňa en Vývrat belangrijke plaatsen voor recreatie en vissen blijven. De beschrijving van de loopbrug betreft de situatie bij de opening van het pad; de huidige technische staat wordt niet door alle bronnen bevestigd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Bosbouw, jacht en huisnijverheid bepaalden het leven in Kuchyňa",
+          "text": "De ligging van Kuchyňa aan de voet van de Kleine Karpaten beïnvloedde de traditionele beroepen van de inwoners. Naast landbouw waren er houthakkers, houtskoolbranders en leerlooiers; vanaf de 18e eeuw ontwikkelden zich kalkbranden, de huiselijke productie van houten gereedschap en berkenbezems, het verzamelen van geneeskrachtige planten en wijnbouw. Houten gereedschap en bezems werden tot in Bratislava verkocht. In 1720 stonden vier molens en 94 belastingplichtigen in het gemeentelijke gebied geregistreerd; in 1828 telde het dorp 198 huizen en 1.424 inwoners. Deze cijfers tonen een plattelandseconomie die steunde op bos, water, akkers en kleinschalige ambachten."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
