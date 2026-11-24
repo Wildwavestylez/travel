@@ -1,6 +1,6 @@
 # TRAVEL GERMANY — SHORT POSTCODE AUDIT PROMPT
 
-**Version 2.0 — focused quality audit**
+**Version 2.1 — focused quality audit with safe Supabase I/O**
 
 ## 1. Purpose and strict separation from rework
 
@@ -24,6 +24,18 @@ Audit the entire requested block, not a sample. Reconcile the exact scope and in
 Resume from the canonical ledger. Treat completed checks as complete. Do not repeat them because a new chat, model or session started. Reopen a completed check only for concrete new evidence, a material data change or a change to a binding standard.
 
 **Germany-specific source rule:** use appropriate German postal, official administrative, municipal, institutional and address sources. Never import Czech RÚIAN or Czech post-office rules.
+
+## 2A. Supabase I/O protection — mandatory
+
+- Query only the exact German audit scope. Every database query must filter both `country_code = 'DE'` and the explicit list of audited `postal_code` values.
+- Never scan the full `public.postal_codes` table, run an unfiltered count/grouping, enumerate all countries/statuses/versions, or paginate the full table for a block-level audit.
+- Use the exact postcode list from the audit instruction and the canonical sequence/ledger. Do not construct a database-wide inventory to rediscover the scope.
+- Work in small batches; avoid large parallel reads and never issue concurrent writes to the same row.
+- Do not compare Supabase with Neon or another database unless the user explicitly requests a specific diagnostic.
+- On HTTP 429 or equivalent rate limiting, stop requests to the affected service immediately. Respect `Retry-After`; otherwise use exponential waits of approximately 2, 4, 8, 16 and 32 seconds. Do not send parallel retries. After five failed attempts, mark the affected check as rate-limited and preserve the last confirmed state.
+- Before a correction, fetch the exact row and preserve unrelated metadata and `data_version`. Validate the corrected content against the current German schema, write once, then read back the exact row once.
+- A timeout or ambiguous write result requires a read-back before any retry. Never assume that an unsuccessful response means the write failed.
+- These I/O safeguards do not reduce the audit's required coverage or evidence standard.
 
 ## 3. Required audit controls
 
