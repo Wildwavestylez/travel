@@ -1,4 +1,4 @@
-# TRAVEL — CONTENT STANDARD V3
+# TRAVEL — CONTENT STANDARD V3.2
 
 ## 1. Single source of truth
 
