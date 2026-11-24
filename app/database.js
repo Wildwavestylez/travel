@@ -4,7 +4,7 @@ const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
 const PAGE_SIZE=60;
 const COUNTRY_CONFIG={
   DE:{name:'Německo',from:'01067',backend:'supabase'},
-  CZ:{name:'Česko',from:'10000',backend:'neon',table:'public.czechia_cap_records'},
+  CZ:{name:'Česko',from:'10000',backend:'supabase'},
   SK:{name:'Slovensko',from:'01001',backend:'github',sequencePath:'data/slovakia/sequence.json',indexPath:'data/slovakia/database_index.json',recordsPath:'data/slovakia/records/'},
   IT:{name:'Itálie',from:'00010',backend:'neon',table:'public.italy_cap_records'}
 };
