@@ -528,11 +528,11 @@ ID musí být sekvenční:
 
 `fact_001`, `fact_002`, `fact_003` ...
 
-Stejné ID musí označovat stejný fakt ve všech šesti jazycích.
+Stejné ID musí označovat stejný fakt ve všech sedmi jazycích.
 
 ---
 
-# 16. ŠEST JAZYKŮ
+# 16. SEDM JAZYKŮ
 
 Každý záznam musí obsahovat:
 
