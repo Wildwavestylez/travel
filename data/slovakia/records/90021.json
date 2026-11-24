@@ -1,4 +1,722 @@
 {
   "postcode": "90021",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Svätý Jur",
+  "district": null,
+  "county": "Pezinok",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Svätého Jura",
+  "representative_point": {
+    "lat": 48.251944,
+    "lon": 17.215556
+  },
+  "access_point": {
+    "lat": 48.251944,
+    "lon": 17.215556
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Šúr: mokřadní krajina na okraji Svätého Jura",
+      "text": "Na jihovýchodním okraji katastru Svätého Jura leží část Národní přírodní rezervace Šúr, mokřadní komplex v mělké jezerní depresi na úpatí Malých Karpat. Jeho jádro tvoří slatinná olšina přecházející do lužního lesa a mokřadních luk; jižní část zahrnuje Panónský háj s dubovo-jilmovým porostem. Rezervace chrání vzácné vlhkomilné rostliny, obojživelníky a ptáky. Šúr je chráněn od roku 1952 a od roku 1990 patří mezi mokřady mezinárodního významu podle Ramsarské úmluvy. Rezervace zasahuje také do katastru Chorvátskeho Grobu; zdejší bod označuje svätojurskou část a začátek naučné stezky.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "map_category": "nature",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445",
+        "https://www.svatyjur.sk/5699/prirodna-rezervacia-sur",
+        "https://www.posta.sk/subory/38631/ts-sp-vyda-seriu-znamok-npr-sur-pri-svatom-jure.pdf",
+        "https://www.sopsr.sk/natura/dokumenty/legislativa/uev/vyhl_kuzp_ba_1_2009.pdf"
+      ],
+      "location": {
+        "name": "Začátek naučné stezky Prírodné klenoty Šúru u Fanglovského potoka",
+        "address": null,
+        "lat": 48.232956,
+        "lon": 17.203285,
+        "type": "protected_area",
+        "accuracy": "area_representative",
+        "source": "https://bratislavaregion.travel/poi/5087/the-educational-trail-in-the-national-reserve-sur"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Zřícenina hradu Biely Kameň",
+      "text": "Na zalesněném návrší nad Svätým Jurem stojí zřícenina hradu Biely Kameň, který ve 13. století vybudovali příslušníci rodu svätojurských hrabat. Hrad se stal správním a rezidenčním centrem jejich panství a tuto úlohu plnil až do počátku 17. století, kdy se sídlo přesunulo do nového Pálffyovského kaštieľa ve městě. Po tureckých nájezdech v 17. století hrad zpustl a nebyl obnoven. Zůstaly z něj části obvodového zdiva, okenní otvory a další stavební pozůstatky, které připomínají středověké mocenské centrum Malých Karpat.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "castle",
+      "sources": [
+        "https://www.svatyjur.sk/5697/pamiatky",
+        "https://www.hradbielykamen.sk/ako-na-hrad/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445"
+      ],
+      "location": {
+        "name": "Zřícenina hradu Biely Kameň",
+        "address": null,
+        "lat": 48.26114,
+        "lon": 17.19641,
+        "type": "castle",
+        "accuracy": "approximate",
+        "source": "https://www.hradbielykamen.sk/ako-na-hrad/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Svätojurské hradisko: velkomoravská pevnost nad Neštichem",
+      "text": "Na návrší nad místní částí Neštich se nachází rozsáhlé Svätojurské hradisko, významné opevněné místo Velké Moravy. Vybudováno bylo ve druhé polovině 9. století a využíváno ještě na počátku 10. století; poskytovalo ochranu obyvatelům širšího okolí. Opevněný areál má přibližně 3,26 hektaru a dochované valy dosahují podle městských podkladů délky asi 1 693 metrů a výšky 9 až 11 metrů. Archeologické nálezy dokládají také pozdější využití lokality ve 13. a 14. století, mimo jiné vodovodní keramické roury, cisternu a vestavěnou bránu.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.svatyjur.sk/5694/historia",
+        "https://www.svatyjur.sk/5697/drevena-zvonica-pri-kostole-svateho-juraja",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445"
+      ],
+      "location": {
+        "name": "Svätojurské hradisko nad Neštichem",
+        "address": null,
+        "lat": 48.264913,
+        "lon": 17.197534,
+        "type": "archaeological_site",
+        "accuracy": "approximate",
+        "source": "https://medvedkudajlabku.sk/svatojurske-hradisko/"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Historické jádro Svätého Jura – městská památková rezervace",
+      "text": "Historické jádro Svätého Jura bylo v roce 1990 prohlášeno za městskou památkovou rezervaci. Chrání souvislý historický celek vinohradnického městečka na úpatí Malých Karpat: síť ulic, měšťanské domy a kúrie z raného novověku, sakrální stavby i zbytky městského opevnění. K výrazným objektům patří Pálffyovský kaštieľ z roku 1609 a úseky kamenných hradeb budovaných v první polovině 17. století. Hodnota místa nespočívá v jediné památce, ale v dochovaném vztahu historické zástavby, vinohradnického hospodářství a okolní krajiny.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.pamiatky.sk/ochrana-a-obnova/zasady-ochrany-pamiatkovej-rezervacie/zasady-ochrany-pr-svaety-jur",
+        "https://www.svatyjur.sk/5692/zakladne-udaje",
+        "https://www.svatyjur.sk/5697/pamiatky",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445"
+      ],
+      "location": {
+        "name": "Historické centrum Svätého Jura – orientační bod městské památkové rezervace",
+        "address": null,
+        "lat": 48.251944,
+        "lon": 17.215556,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://www.svatyjur.sk/data/page/svatyjur.sk/30031/phrsr-sv-jur-2025-2034-predlozene-na-schvalenie-19-11-2025-do-msz.pdf"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Gotický kostel svatého Juraja a Pilgramův kamenný oltář",
+      "text": "Farní kostel svatého Juraja patří k nejstarším památkám města. Gotická stavba bez věže vznikla v poslední čtvrtině 13. století a navázala na starší románskou sakrální stavbu. Jejím nejcennějším uměleckým dílem je kamenný oltář svatého Juraja z roku 1527, vytvořený v dílně Štefana Pilgrama z bílého pískovce. Reliéfy propojují figurální a rostlinné motivy a vyprávějí příběh patrona kostela. Interiér doplňují středověké fresky, gotické pastoforium a historické náhrobky svätojurských hrabat.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.svatyjur.sk/5697/pamiatky",
+        "https://www.slovakia.travel/svaety-jur"
+      ],
+      "location": {
+        "name": "Gotický kostel svatého Juraja",
+        "address": null,
+        "lat": 48.257665,
+        "lon": 17.206492,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.gob.sk/Static/Blog_att/2092/860344de225fc208dcddde06e4db84e1.pdf"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Svätý Jur a první úsek uherské koňské železnice",
+      "text": "Svätý Jur se zapsal do dějin dopravy jako konečná stanice prvního zprovozněného úseku uherské Bratislavsko-trnavské koňské železnice. Zkušební provoz mezi Bratislavou a Svätým Jurem začal 24. září 1840 a veřejná doprava 4. října téhož roku. Vozy tehdy táhly koně; trať měla původně sloužit především přepravě zemědělských produktů, brzy však vozila také cestující. Ve městě se zachovala původní přízemní výpravní budova z období koňské železnice, dnes evidovaná jako kulturní památka. Je hmotnou připomínkou raného železničního spojení v historickém Uhersku.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.zsr.sk/o-nas/historia-zeleznic/prve-zeleznice/prve-zeleznicne-podniky/bratislavsko-trnavska-zeleznicna-spolocnost/",
+        "https://www.svatyjur.sk/5697/pamiatky"
+      ],
+      "location": {
+        "name": "Původní výpravní budova koňské železnice ve Svätém Juru",
+        "address": null,
+        "lat": 48.247097,
+        "lon": 17.216322,
+        "type": "historic_railway_site",
+        "accuracy": "approximate",
+        "source": "https://commons.wikimedia.org/wiki/File:Svaty_Jur_stanica_konskej_zelezice.jpg"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Synagoga a židovská obec Svätého Jura",
+      "text": "Židovská komunita je ve Svätém Juru doložena od první poloviny 18. století. Synagoga vznikla roku 1791 v areálu někdejší Jesenákovy kúrie a dnešní podobu získala přestavbou v roce 1876. S místem je spojena také osobnost bratislavského rabína Chatama Sofera, který zde roku 1809 našel dočasné útočiště během napoleonského obléhání Bratislavy. Synagoga sloužila náboženským účelům do roku 1942; deportace a poválečný vývoj znamenaly zánik zdejší obce. Budova byla v roce 2016 prohlášena za národní kulturní památku.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "cultural_site",
+      "sources": [
+        "https://bratislavskykraj.sk/?mdocs-file=46766",
+        "https://www.svatyjur.sk/data/page/svatyjur.sk/30031/phrsr-sv-jur-2025-2034-predlozene-na-schvalenie-19-11-2025-do-msz.pdf",
+        "https://bratislavskykraj.sk/wp-content/uploads/2022/03/16-sprava-o-cinnosti-kulturnych-zariadeni-za-rok-2021.pdf"
+      ],
+      "location": {
+        "name": "Pezinská ulica – orientační bod v blízkosti synagogy",
+        "address": null,
+        "lat": 48.255467,
+        "lon": 17.214102,
+        "type": "historic_address",
+        "accuracy": "historical_approximate",
+        "source": "https://svaty-jur.oma.sk/u/pezinska"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Alexander Zahlbruckner: světově uznávaný lichenolog z města",
+      "text": "Ve Svätém Juru se 31. května 1860 narodil Alexander Zahlbruckner, botanik a jeden z významných světových odborníků na lišejníky. Studoval přírodní vědy na vídeňské univerzitě a většinu profesního života působil v Přírodovědném muzeu ve Vídni, kde se v letech 1918–1922 stal ředitelem. Jeho zásadním dílem je desetisvazkový Catalogus lichenum universalis, soupis vědecky popsaných lišejníků vydávaný v letech 1921–1940; poslední svazek vyšel po jeho smrti. Městská evidence označuje za jeho rodný dům objekt na Prostrednej ulici 31.",
+      "category": "people",
+      "priority": "C",
+      "map_category": "personality",
+      "sources": [
+        "https://botanici.sav.sk/people/zahlbruckner-alexander.html",
+        "https://www.svatyjur.sk/5697/drevena-zvonica-pri-kostole-svateho-juraja",
+        "https://www.mestskemuzeumpk.sk/dokumenty-historika/8/Historika%202013%201.pdf?v=1"
+      ],
+      "location": {
+        "name": "Zastávka Svätý Jur, Námestie – orientační bod u rodného domu na Prostrednej 31",
+        "address": null,
+        "lat": 48.254245,
+        "lon": 17.212633,
+        "type": "historic_address",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n3464227446"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Vinohradnická krajina, kamenné rúny a vinohradnický skanzen",
+      "text": "Vinohradnictví formovalo Svätý Jur po staletí: zdejší vinice jsou písemně doloženy už roku 1270. Na svazích Malých Karpat vznikla členitá krajina teras, starých vinohradnických cest a kamenných stěnek či hromad kamení zvaných rúny, které pomáhaly upravovat kamenité pozemky. Jejich podobu i tradiční prvky dnes přibližuje vinohradnický skanzen v lokalitě Panciere, vybudovaný jako muzeum v přírodě s ukázkami vinohradnické krajiny. Nejde jen o historii výroby vína: terasy, rúny a vinohradnické stavby jsou součástí kulturní krajiny, která zásadně utváří vzhled města.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "map_category": "local_culture",
+      "sources": [
+        "https://www.svatyjur.sk/5694/historia",
+        "https://www.svatyjur.sk/data/page/svatyjur.sk/30031/phrsr-sv-jur-2025-2034-predlozene-na-schvalenie-19-11-2025-do-msz.pdf",
+        "https://www.terroir.sk/sjvs/skanzen/",
+        "https://www.terroir.sk/sjvs/wp-content/uploads/2017/10/skanzen_studia_2014.pdf"
+      ],
+      "location": {
+        "name": "Svätojurský vinohradnický skanzen v lokalitě Panciere",
+        "address": "Panciere 2, Svätý Jur",
+        "lat": 48.251067,
+        "lon": 17.204636,
+        "type": "open_air_museum",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w1324661810"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – Zoznam pracovísk uskutočňujúcich prevody cenných papierov",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Šúr na poštových známkach ochrany prírody",
+      "url": "https://www.posta.sk/subory/38631/ts-sp-vyda-seriu-znamok-npr-sur-pri-svatom-jure.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Svätý Jur",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_74de5172-238b-4277-93ae-22d03f84d445",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Svätý Jur – Základné údaje",
+      "url": "https://www.svatyjur.sk/5692/zakladne-udaje",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Svätý Jur – História",
+      "url": "https://www.svatyjur.sk/5694/historia",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Svätý Jur – Pamiatky",
+      "url": "https://www.svatyjur.sk/5697/pamiatky",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Svätý Jur – Prírodná rezervácia Šúr",
+      "url": "https://www.svatyjur.sk/5699/prirodna-rezervacia-sur",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Svätý Jur – Drevená zvonica, rodný dom Zahlbrucknera a hradisko",
+      "url": "https://www.svatyjur.sk/5697/drevena-zvonica-pri-kostole-svateho-juraja",
+      "type": "official"
+    },
+    {
+      "title": "Vyhláška o prírodnej rezervácii Šúr a jej ochrannom pásme",
+      "url": "https://www.sopsr.sk/natura/dokumenty/legislativa/uev/vyhl_kuzp_ba_1_2009.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavský samosprávny kraj – Náučný chodník Prírodné klenoty Šúru",
+      "url": "https://bratislavaregion.travel/poi/5087/the-educational-trail-in-the-national-reserve-sur",
+      "type": "regional"
+    },
+    {
+      "title": "Hrad Biely Kameň – Ako na hrad",
+      "url": "https://www.hradbielykamen.sk/ako-na-hrad/",
+      "type": "specialist"
+    },
+    {
+      "title": "MedvedkuDajLabku – Svätojurské hradisko",
+      "url": "https://medvedkudajlabku.sk/svatojurske-hradisko/",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatkový úrad SR – Zásady ochrany PR Svätý Jur",
+      "url": "https://www.pamiatky.sk/ochrana-a-obnova/zasady-ochrany-pamiatkovej-rezervacie/zasady-ochrany-pr-svaety-jur",
+      "type": "official"
+    },
+    {
+      "title": "Program hospodárskeho a sociálneho rozvoja mesta Svätý Jur 2025–2034",
+      "url": "https://www.svatyjur.sk/data/page/svatyjur.sk/30031/phrsr-sv-jur-2025-2034-predlozene-na-schvalenie-19-11-2025-do-msz.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia.travel – Svätý Jur",
+      "url": "https://www.slovakia.travel/svaety-jur",
+      "type": "official"
+    },
+    {
+      "title": "GOB – Kostol sv. Juraja, turistický sprievodca",
+      "url": "https://www.gob.sk/Static/Blog_att/2092/860344de225fc208dcddde06e4db84e1.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Železnice Slovenskej republiky – Bratislavsko-trnavská železničná spoločnosť",
+      "url": "https://www.zsr.sk/o-nas/historia-zeleznic/prve-zeleznice/prve-zeleznicne-podniky/bratislavsko-trnavska-zeleznicna-spolocnost/",
+      "type": "official"
+    },
+    {
+      "title": "Wikimedia Commons – Pôvodná stanica konskej železnice v Svätom Jure",
+      "url": "https://commons.wikimedia.org/wiki/File:Svaty_Jur_stanica_konskej_zelezice.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Bratislavský samosprávny kraj – Synagóga Svätý Jur, podklady k ochrane a obnove",
+      "url": "https://bratislavskykraj.sk/?mdocs-file=46766",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavský samosprávny kraj – Správa o činnosti kultúrnych zariadení za rok 2021",
+      "url": "https://bratislavskykraj.sk/wp-content/uploads/2022/03/16-sprava-o-cinnosti-kulturnych-zariadeni-za-rok-2021.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská akadémia vied – Alexander Zahlbruckner",
+      "url": "https://botanici.sav.sk/people/zahlbruckner-alexander.html",
+      "type": "university"
+    },
+    {
+      "title": "Mestské múzeum Pezinok – Historika 2013/1: Pápež lichenológov",
+      "url": "https://www.mestskemuzeumpk.sk/dokumenty-historika/8/Historika%202013%201.pdf?v=1",
+      "type": "museum"
+    },
+    {
+      "title": "Svätojurský vinohradnícky spolok – Skanzen",
+      "url": "https://www.terroir.sk/sjvs/skanzen/",
+      "type": "specialist"
+    },
+    {
+      "title": "Svätojurský vinohradnícky spolok – Štúdia vinohradníckeho skanzenu",
+      "url": "https://www.terroir.sk/sjvs/wp-content/uploads/2017/10/skanzen_studia_2014.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap – Vinohradnícky skanzen",
+      "url": "https://poi.oma.sk/w1324661810",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap – Pezinská ulica, orientačný bod pri synagóge",
+      "url": "https://svaty-jur.oma.sk/u/pezinska",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap – zastávka Svätý Jur, Námestie",
+      "url": "https://poi.oma.sk/n3464227446",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pracovísk Slovenskej pošty uskutočňujúcich prevody cenných papierov na Fond národného majetku SR",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy SR (slovensko.sk) a oficiálne údaje mesta Svätý Jur"
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Svätého Jura",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: mokřadní krajina na okraji Svätého Jura",
+          "text": "Na jihovýchodním okraji katastru Svätého Jura leží část Národní přírodní rezervace Šúr, mokřadní komplex v mělké jezerní depresi na úpatí Malých Karpat. Jeho jádro tvoří slatinná olšina přecházející do lužního lesa a mokřadních luk; jižní část zahrnuje Panónský háj s dubovo-jilmovým porostem. Rezervace chrání vzácné vlhkomilné rostliny, obojživelníky a ptáky. Šúr je chráněn od roku 1952 a od roku 1990 patří mezi mokřady mezinárodního významu podle Ramsarské úmluvy. Rezervace zasahuje také do katastru Chorvátskeho Grobu; zdejší bod označuje svätojurskou část a začátek naučné stezky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zřícenina hradu Biely Kameň",
+          "text": "Na zalesněném návrší nad Svätým Jurem stojí zřícenina hradu Biely Kameň, který ve 13. století vybudovali příslušníci rodu svätojurských hrabat. Hrad se stal správním a rezidenčním centrem jejich panství a tuto úlohu plnil až do počátku 17. století, kdy se sídlo přesunulo do nového Pálffyovského kaštieľa ve městě. Po tureckých nájezdech v 17. století hrad zpustl a nebyl obnoven. Zůstaly z něj části obvodového zdiva, okenní otvory a další stavební pozůstatky, které připomínají středověké mocenské centrum Malých Karpat."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: velkomoravská pevnost nad Neštichem",
+          "text": "Na návrší nad místní částí Neštich se nachází rozsáhlé Svätojurské hradisko, významné opevněné místo Velké Moravy. Vybudováno bylo ve druhé polovině 9. století a využíváno ještě na počátku 10. století; poskytovalo ochranu obyvatelům širšího okolí. Opevněný areál má přibližně 3,26 hektaru a dochované valy dosahují podle městských podkladů délky asi 1 693 metrů a výšky 9 až 11 metrů. Archeologické nálezy dokládají také pozdější využití lokality ve 13. a 14. století, mimo jiné vodovodní keramické roury, cisternu a vestavěnou bránu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Historické jádro Svätého Jura – městská památková rezervace",
+          "text": "Historické jádro Svätého Jura bylo v roce 1990 prohlášeno za městskou památkovou rezervaci. Chrání souvislý historický celek vinohradnického městečka na úpatí Malých Karpat: síť ulic, měšťanské domy a kúrie z raného novověku, sakrální stavby i zbytky městského opevnění. K výrazným objektům patří Pálffyovský kaštieľ z roku 1609 a úseky kamenných hradeb budovaných v první polovině 17. století. Hodnota místa nespočívá v jediné památce, ale v dochovaném vztahu historické zástavby, vinohradnického hospodářství a okolní krajiny."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gotický kostel svatého Juraja a Pilgramův kamenný oltář",
+          "text": "Farní kostel svatého Juraja patří k nejstarším památkám města. Gotická stavba bez věže vznikla v poslední čtvrtině 13. století a navázala na starší románskou sakrální stavbu. Jejím nejcennějším uměleckým dílem je kamenný oltář svatého Juraja z roku 1527, vytvořený v dílně Štefana Pilgrama z bílého pískovce. Reliéfy propojují figurální a rostlinné motivy a vyprávějí příběh patrona kostela. Interiér doplňují středověké fresky, gotické pastoforium a historické náhrobky svätojurských hrabat."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur a první úsek uherské koňské železnice",
+          "text": "Svätý Jur se zapsal do dějin dopravy jako konečná stanice prvního zprovozněného úseku uherské Bratislavsko-trnavské koňské železnice. Zkušební provoz mezi Bratislavou a Svätým Jurem začal 24. září 1840 a veřejná doprava 4. října téhož roku. Vozy tehdy táhly koně; trať měla původně sloužit především přepravě zemědělských produktů, brzy však vozila také cestující. Ve městě se zachovala původní přízemní výpravní budova z období koňské železnice, dnes evidovaná jako kulturní památka. Je hmotnou připomínkou raného železničního spojení v historickém Uhersku."
+        },
+        {
+          "id": "fact_007",
+          "title": "Synagoga a židovská obec Svätého Jura",
+          "text": "Židovská komunita je ve Svätém Juru doložena od první poloviny 18. století. Synagoga vznikla roku 1791 v areálu někdejší Jesenákovy kúrie a dnešní podobu získala přestavbou v roce 1876. S místem je spojena také osobnost bratislavského rabína Chatama Sofera, který zde roku 1809 našel dočasné útočiště během napoleonského obléhání Bratislavy. Synagoga sloužila náboženským účelům do roku 1942; deportace a poválečný vývoj znamenaly zánik zdejší obce. Budova byla v roce 2016 prohlášena za národní kulturní památku."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: světově uznávaný lichenolog z města",
+          "text": "Ve Svätém Juru se 31. května 1860 narodil Alexander Zahlbruckner, botanik a jeden z významných světových odborníků na lišejníky. Studoval přírodní vědy na vídeňské univerzitě a většinu profesního života působil v Přírodovědném muzeu ve Vídni, kde se v letech 1918–1922 stal ředitelem. Jeho zásadním dílem je desetisvazkový Catalogus lichenum universalis, soupis vědecky popsaných lišejníků vydávaný v letech 1921–1940; poslední svazek vyšel po jeho smrti. Městská evidence označuje za jeho rodný dům objekt na Prostrednej ulici 31."
+        },
+        {
+          "id": "fact_009",
+          "title": "Vinohradnická krajina, kamenné rúny a vinohradnický skanzen",
+          "text": "Vinohradnictví formovalo Svätý Jur po staletí: zdejší vinice jsou písemně doloženy už roku 1270. Na svazích Malých Karpat vznikla členitá krajina teras, starých vinohradnických cest a kamenných stěnek či hromad kamení zvaných rúny, které pomáhaly upravovat kamenité pozemky. Jejich podobu i tradiční prvky dnes přibližuje vinohradnický skanzen v lokalitě Panciere, vybudovaný jako muzeum v přírodě s ukázkami vinohradnické krajiny. Nejde jen o historii výroby vína: terasy, rúny a vinohradnické stavby jsou součástí kulturní krajiny, která zásadně utváří vzhled města."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Stadtkern von Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: Feuchtlandschaft am Rand von Svätý Jur",
+          "text": "Am südöstlichen Rand des Gemeindegebiets von Svätý Jur liegt ein Teil des Nationalen Naturreservats Šúr, eines Feuchtgebietskomplexes in einer flachen Seemulde am Fuß der Kleinen Karpaten. Der Kern besteht aus Moor-Erlenwald, Auwald und Feuchtwiesen; im Süden liegt Panónsky háj mit Eichen und Ulmen. Das Gebiet schützt seltene Feuchtpflanzen, Amphibien und Vögel. Šúr steht seit 1952 unter Schutz und gehört seit 1990 zu den international bedeutenden Ramsar-Feuchtgebieten. Das Reservat reicht auch in das Kataster von Chorvátsky Grob; der Kartenpunkt markiert den Teil von Svätý Jur und den Beginn des Lehrpfads."
+        },
+        {
+          "id": "fact_002",
+          "title": "Burgruine Biely Kameň",
+          "text": "Auf einem bewaldeten Hügel über Svätý Jur liegen die Reste der Burg Biely Kameň, die Angehörige des Grafengeschlechts von Svätý Jur im 13. Jahrhundert errichten ließen. Sie war Verwaltungs- und Herrschaftssitz, bis das Zentrum des Besitzes Anfang des 17. Jahrhunderts in das neue Pálffy-Schloss in der Stadt verlegt wurde. Nach osmanischen Einfällen im 17. Jahrhundert verfiel die Burg und wurde nicht wieder aufgebaut. Erhalten blieben Teile der Ringmauer, Fensteröffnungen und weitere Baureste, die an ein mittelalterliches Machtzentrum der Kleinen Karpaten erinnern."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: großmährische Befestigung über Neštich",
+          "text": "Auf einem Höhenzug über dem Ortsteil Neštich liegt das ausgedehnte Svätojurské hradisko, eine bedeutende befestigte Anlage Großmährens. Es entstand in der zweiten Hälfte des 9. Jahrhunderts und wurde noch zu Beginn des 10. Jahrhunderts genutzt; es bot der Bevölkerung der weiteren Umgebung Schutz. Die Anlage umfasst rund 3,26 Hektar. Die erhaltenen Wälle sind laut städtischen Unterlagen etwa 1.693 Meter lang und 9 bis 11 Meter hoch. Funde belegen eine spätere Nutzung im 13. und 14. Jahrhundert, darunter keramische Wasserleitungen, eine Zisterne und ein eingebautes Tor."
+        },
+        {
+          "id": "fact_004",
+          "title": "Historischer Stadtkern von Svätý Jur – städtisches Denkmalschutzgebiet",
+          "text": "Der historische Stadtkern von Svätý Jur wurde 1990 zum städtischen Denkmalschutzgebiet erklärt. Geschützt wird das zusammenhängende Ensemble einer Weinbaustadt am Fuß der Kleinen Karpaten: das Straßennetz, Bürgerhäuser und Adelshöfe der frühen Neuzeit, Sakralbauten und Reste der Stadtbefestigung. Zu den markanten Bauwerken zählen das Pálffy-Schloss von 1609 und Abschnitte der steinernen Stadtmauer aus der ersten Hälfte des 17. Jahrhunderts. Der Wert des Ortes liegt im erhaltenen Zusammenspiel von historischer Bebauung, Weinbau und Landschaft."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gotische Georgskirche und der steinerne Pilgram-Altar",
+          "text": "Die Pfarrkirche des heiligen Georg gehört zu den ältesten Denkmälern der Stadt. Der turmlose gotische Bau entstand im letzten Viertel des 13. Jahrhunderts und knüpft an einen älteren romanischen Sakralbau an. Das bedeutendste Kunstwerk ist der steinerne Georgsaltar von 1527 aus der Werkstatt Štefan Pilgrams, gefertigt aus weißem Sandstein. Seine Reliefs verbinden Figuren- und Pflanzenmotive und erzählen vom Schutzpatron der Kirche. Im Inneren befinden sich außerdem mittelalterliche Fresken, ein gotisches Sakramentshäuschen und historische Grabmäler der Grafen von Svätý Jur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur und die erste ungarische Pferdebahnstrecke",
+          "text": "Svätý Jur ging in die Verkehrsgeschichte ein, weil hier der erste eröffnete Abschnitt der ungarischen Bratislava–Trnava-Pferdebahn endete. Der Probebetrieb zwischen Bratislava und Svätý Jur begann am 24. September 1840, der öffentliche Verkehr am 4. Oktober desselben Jahres. Die Wagen wurden von Pferden gezogen; zunächst sollte die Strecke vor allem landwirtschaftliche Güter befördern, bald aber auch Reisende. In der Stadt blieb das ursprüngliche Stationsgebäude aus der Pferdebahnzeit erhalten, das heute als Kulturdenkmal geführt wird."
+        },
+        {
+          "id": "fact_007",
+          "title": "Synagoge und jüdische Gemeinde von Svätý Jur",
+          "text": "Eine jüdische Gemeinde ist in Svätý Jur seit der ersten Hälfte des 18. Jahrhunderts belegt. Die Synagoge entstand 1791 im Areal des ehemaligen Jesenák-Herrenhofs und erhielt 1876 durch einen Umbau ihre heutige Gestalt. Mit dem Ort verbunden ist auch der Rabbiner Chatam Sofer aus Bratislava, der 1809 während der napoleonischen Belagerung Bratislavas hier vorübergehend Zuflucht fand. Die Synagoge diente bis 1942 religiösen Zwecken; Deportationen und die Nachkriegsentwicklung führten zum Ende der örtlichen Gemeinde. 2016 wurde das Gebäude zum nationalen Kulturdenkmal erklärt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: ein international anerkannter Lichenologe aus der Stadt",
+          "text": "Alexander Zahlbruckner, Botaniker und einer der bedeutenden internationalen Flechtenforscher, wurde am 31. Mai 1860 in Svätý Jur geboren. Er studierte Naturwissenschaften an der Universität Wien und arbeitete den größten Teil seiner Laufbahn am Naturhistorischen Museum in Wien, dessen Direktor er von 1918 bis 1922 war. Sein Hauptwerk ist der zehnbändige Catalogus lichenum universalis, ein Verzeichnis wissenschaftlich beschriebener Flechten, das zwischen 1921 und 1940 erschien; der letzte Band wurde nach seinem Tod veröffentlicht. Das Stadtarchiv bezeichnet das Haus Prostredná 31 als sein Geburtshaus."
+        },
+        {
+          "id": "fact_009",
+          "title": "Weinbaulandschaft, Steinriegel und Weinbaumuseum im Freien",
+          "text": "Der Weinbau prägte Svätý Jur über Jahrhunderte; die örtlichen Weinberge sind bereits 1270 schriftlich belegt. An den Hängen der Kleinen Karpaten entstand eine kleinteilige Landschaft aus Terrassen, alten Weinbergswegen und Steinmauern beziehungsweise Steinhaufen, die rúny genannt werden. Ihre Gestalt und traditionelle Elemente zeigt heute das Weinbaumuseum im Freien im Gebiet Panciere. Terrassen, rúny und Weinbaugebäude sind Teil einer Kulturlandschaft, die das Erscheinungsbild der Stadt entscheidend prägt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: a wetland landscape on the edge of Svätý Jur",
+          "text": "Part of the Šúr National Nature Reserve lies on the southeastern edge of Svätý Jur’s cadastral area. This wetland complex occupies a shallow former lake basin at the foot of the Little Carpathians. Its core includes fen alder woodland, floodplain forest and wet meadows; the southern section contains Panónsky háj, with oak and elm woodland. The reserve protects rare moisture-loving plants, amphibians and birds. Šúr has been protected since 1952 and has been part of the Ramsar network of internationally important wetlands since 1990. The reserve also extends into Chorvátsky Grob; the map point marks the Svätý Jur section and the start of the nature trail."
+        },
+        {
+          "id": "fact_002",
+          "title": "The ruins of Biely Kameň Castle",
+          "text": "The wooded hill above Svätý Jur is crowned by the ruins of Biely Kameň Castle, built in the 13th century by the counts of Svätý Jur. It served as the administrative and residential centre of their estate until the seat moved to the new Pálffy manor in town in the early 17th century. After Ottoman raids in the 17th century, the castle fell into ruin and was never rebuilt. Sections of its perimeter walls, window openings and other remains survive, recalling a medieval centre of power in the Little Carpathians."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: a Great Moravian stronghold above Neštich",
+          "text": "Above the Neštich district lies the extensive Svätojurské hradisko, an important fortified site of Great Moravia. It was built in the second half of the 9th century and remained in use into the early 10th century, protecting people from the surrounding area. The fortified area covers about 3.26 hectares. According to municipal records, its surviving ramparts extend for approximately 1,693 metres and reach 9–11 metres in height. Finds also show that the site was reused in the 13th and 14th centuries, including ceramic water pipes, a cistern and a built-in gate."
+        },
+        {
+          "id": "fact_004",
+          "title": "The historic centre of Svätý Jur – an urban conservation area",
+          "text": "The historic centre of Svätý Jur was designated an urban conservation area in 1990. It protects the coherent fabric of a wine-growing town at the foot of the Little Carpathians: its street pattern, early modern burgher houses and manor houses, religious buildings and surviving sections of town fortifications. Notable landmarks include the Pálffy Manor of 1609 and parts of the stone walls built in the first half of the 17th century. Its value lies in the preserved relationship between historic buildings, viticulture and the surrounding landscape."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Gothic Church of St George and Pilgram’s stone altar",
+          "text": "The parish Church of St George is one of the town’s oldest monuments. The towerless Gothic building dates from the last quarter of the 13th century and follows an earlier Romanesque church. Its most valuable artwork is the stone altar of St George, made from white sandstone in 1527 in the workshop of Štefan Pilgram. Its reliefs combine human figures and plant motifs to tell the story of the church’s patron saint. The interior also preserves medieval frescoes, a Gothic sacrament house and historic tombs of the counts of Svätý Jur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur and the first section of Hungary’s horse-drawn railway",
+          "text": "Svätý Jur entered transport history as the terminus of the first section of the Hungarian Bratislava–Trnava horse-drawn railway to open. Trial operations between Bratislava and Svätý Jur began on 24 September 1840, followed by public service on 4 October. Horses pulled the carriages; the line was initially intended mainly for agricultural freight but soon carried passengers as well. The town retains the original station building from the horse-railway era, now listed as a cultural monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "The synagogue and Jewish community of Svätý Jur",
+          "text": "A Jewish community is documented in Svätý Jur from the first half of the 18th century. The synagogue was established in 1791 within the former Jesenák manor complex and acquired its present form through rebuilding in 1876. The site is also linked to Chatam Sofer, the Bratislava rabbi who found temporary refuge here in 1809 during Napoleon’s siege of Bratislava. The synagogue served religious purposes until 1942; deportations and post-war events brought the local community to an end. The building was declared a national cultural monument in 2016."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: an internationally respected lichenologist born here",
+          "text": "Alexander Zahlbruckner, a botanist and leading international specialist in lichens, was born in Svätý Jur on 31 May 1860. He studied natural sciences at the University of Vienna and spent most of his career at Vienna’s Natural History Museum, serving as its director from 1918 to 1922. His major work was the ten-volume Catalogus lichenum universalis, a catalogue of scientifically described lichens published between 1921 and 1940; its final volume appeared after his death. The town identifies the house at 31 Prostredná Street as his birthplace."
+        },
+        {
+          "id": "fact_009",
+          "title": "Vineyard landscape, stone heaps and the open-air viticulture museum",
+          "text": "Viticulture shaped Svätý Jur for centuries: local vineyards are documented in writing as early as 1270. The slopes of the Little Carpathians developed a landscape of terraces, old vineyard tracks and stone walls or heaps known as rúny, built while clearing and cultivating stony plots. Their form and traditional features are presented at the open-air viticulture museum in Panciere. Terraces, rúny and vineyard structures form part of a cultural landscape that has profoundly shaped the town’s appearance."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: paisaje de humedales en el límite de Svätý Jur",
+          "text": "Una parte de la Reserva Natural Nacional de Šúr se encuentra en el extremo sureste del término municipal de Svätý Jur. Este complejo ocupa una antigua depresión lacustre al pie de los Pequeños Cárpatos. Su núcleo comprende alisedas turbosas, bosque de ribera y prados húmedos; en el sur se encuentra Panónsky háj, con robles y olmos. La reserva protege plantas higrófilas, anfibios y aves poco comunes. Šúr está protegido desde 1952 y forma parte de la red Ramsar desde 1990. También se extiende por Chorvátsky Grob; el punto señala la parte de Svätý Jur y el inicio del sendero interpretativo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Las ruinas del castillo de Biely Kameň",
+          "text": "En una colina boscosa sobre Svätý Jur se encuentran las ruinas del castillo de Biely Kameň, construido en el siglo XIII por los condes de Svätý Jur. Fue el centro administrativo y residencial de su señorío hasta que, a comienzos del siglo XVII, la sede se trasladó al nuevo palacio Pálffy de la ciudad. Tras las incursiones otomanas del siglo XVII, el castillo quedó abandonado y nunca fue reconstruido. Se conservan tramos de muralla, vanos de ventanas y otros restos medievales."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: fortaleza de la Gran Moravia sobre Neštich",
+          "text": "Sobre el barrio de Neštich se encuentra el extenso Svätojurské hradisko, un importante recinto fortificado de la Gran Moravia. Se construyó en la segunda mitad del siglo IX y siguió utilizándose a comienzos del X; protegía a la población de los alrededores. El recinto ocupa unas 3,26 hectáreas. Según la documentación municipal, sus murallas conservadas alcanzan unos 1.693 metros de longitud y entre 9 y 11 metros de altura. Los hallazgos demuestran también un uso posterior en los siglos XIII y XIV, con tuberías cerámicas, una cisterna y una puerta integrada."
+        },
+        {
+          "id": "fact_004",
+          "title": "El centro histórico de Svätý Jur, conjunto urbano protegido",
+          "text": "El centro histórico de Svätý Jur fue declarado reserva monumental urbana en 1990. Protege el conjunto de una localidad vitivinícola al pie de los Pequeños Cárpatos: su trazado de calles, casas burguesas y residencias señoriales de la Edad Moderna, edificios religiosos y restos de las fortificaciones. Entre sus hitos figuran el palacio Pálffy de 1609 y tramos de muralla construidos en la primera mitad del siglo XVII. Su valor reside en la relación conservada entre arquitectura histórica, viticultura y paisaje."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia gótica de San Jorge y el altar de piedra de Pilgram",
+          "text": "La iglesia parroquial de San Jorge es uno de los monumentos más antiguos de la ciudad. El edificio gótico, sin torre, data del último cuarto del siglo XIII y sucedió a un templo románico anterior. Su obra más valiosa es el altar pétreo de San Jorge, realizado en arenisca blanca en 1527 en el taller de Štefan Pilgram. Sus relieves combinan figuras humanas y motivos vegetales. El interior conserva además frescos medievales, un sagrario gótico y sepulcros históricos de los condes de Svätý Jur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur y el primer tramo del ferrocarril húngaro de tracción animal",
+          "text": "Svätý Jur pasó a la historia del transporte como terminal del primer tramo abierto del ferrocarril húngaro de tracción animal entre Bratislava y Trnava. Las pruebas comenzaron el 24 de septiembre de 1840 y el servicio público el 4 de octubre. Los vagones eran arrastrados por caballos; la línea se concibió sobre todo para transportar productos agrícolas, aunque pronto también llevó pasajeros. La ciudad conserva el edificio original de la estación de la época, hoy catalogado como monumento cultural."
+        },
+        {
+          "id": "fact_007",
+          "title": "La sinagoga y la comunidad judía de Svätý Jur",
+          "text": "La presencia de una comunidad judía en Svätý Jur está documentada desde la primera mitad del siglo XVIII. La sinagoga se fundó en 1791 en el recinto de la antigua mansión Jesenák y adquirió su aspecto actual tras una reconstrucción en 1876. El lugar está vinculado a Chatam Sofer, rabino de Bratislava que encontró aquí refugio temporal en 1809 durante el asedio napoleónico. La sinagoga se utilizó con fines religiosos hasta 1942; las deportaciones y los acontecimientos de posguerra pusieron fin a la comunidad local. El edificio fue declarado monumento cultural nacional en 2016."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: liquenólogo de prestigio internacional nacido aquí",
+          "text": "Alexander Zahlbruckner, botánico y uno de los principales especialistas internacionales en líquenes, nació en Svätý Jur el 31 de mayo de 1860. Estudió ciencias naturales en la Universidad de Viena y desarrolló la mayor parte de su carrera en el Museo de Historia Natural de Viena, que dirigió entre 1918 y 1922. Su obra principal fue el catálogo en diez volúmenes Catalogus lichenum universalis, publicado entre 1921 y 1940; el último volumen apareció después de su muerte. La ciudad identifica como su casa natal el inmueble del número 31 de la calle Prostredná."
+        },
+        {
+          "id": "fact_009",
+          "title": "Paisaje de viñedos, montones de piedra y museo vitícola al aire libre",
+          "text": "La viticultura marcó Svätý Jur durante siglos: los viñedos locales aparecen documentados por escrito ya en 1270. En las laderas de los Pequeños Cárpatos surgió un paisaje de terrazas, antiguos caminos de viñedo y muros o montones de piedra llamados rúny, formados al despejar parcelas pedregosas. Sus formas y elementos tradicionales se muestran hoy en el museo vitícola al aire libre de Panciere. Terrazas, rúny y construcciones vitícolas forman parte de un paisaje cultural que define la imagen de la ciudad."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr : un paysage humide aux portes de Svätý Jur",
+          "text": "Une partie de la réserve naturelle nationale de Šúr se trouve à l’extrémité sud-est du territoire cadastral de Svätý Jur. Ce complexe humide occupe une ancienne dépression lacustre au pied des Petites Carpates. Son cœur comprend une aulnaie marécageuse, une forêt alluviale et des prairies humides ; au sud se trouve Panónsky háj, avec ses chênes et ses ormes. La réserve protège des plantes hygrophiles rares, des amphibiens et des oiseaux. Šúr est protégé depuis 1952 et fait partie depuis 1990 des zones humides Ramsar. Elle s’étend aussi sur Chorvátsky Grob ; le point indique la partie de Svätý Jur et le départ du sentier."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les ruines du château de Biely Kameň",
+          "text": "Sur une colline boisée au-dessus de Svätý Jur se trouvent les ruines du château de Biely Kameň, construit au XIIIe siècle par les comtes de Svätý Jur. Il fut le centre administratif et résidentiel de leur domaine jusqu’au transfert du siège, au début du XVIIe siècle, vers le nouveau manoir Pálffy dans la ville. Après les incursions ottomanes du XVIIe siècle, le château tomba en ruine et ne fut pas reconstruit. Des portions de l’enceinte, des ouvertures de fenêtres et d’autres vestiges subsistent."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko : place forte de Grande-Moravie au-dessus de Neštich",
+          "text": "Au-dessus du quartier de Neštich se trouve le vaste Svätojurské hradisko, un important site fortifié de la Grande-Moravie. Il fut construit dans la seconde moitié du IXe siècle et utilisé jusqu’au début du Xe siècle ; il protégeait les habitants de la région. L’enceinte couvre environ 3,26 hectares. Selon les documents municipaux, les remparts conservés mesurent environ 1 693 mètres de long et atteignent 9 à 11 mètres de haut. Des découvertes attestent une réutilisation aux XIIIe et XIVe siècles, notamment des conduites d’eau en céramique, une citerne et une porte intégrée."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le centre historique de Svätý Jur, secteur urbain protégé",
+          "text": "Le centre historique de Svätý Jur a été classé réserve patrimoniale urbaine en 1990. La protection porte sur l’ensemble cohérent d’une petite ville viticole au pied des Petites Carpates : son réseau de rues, ses maisons bourgeoises et demeures seigneuriales de l’époque moderne, ses édifices religieux et les vestiges des fortifications. Parmi les repères figurent le manoir Pálffy de 1609 et des tronçons de remparts en pierre du XVIIe siècle. La valeur du lieu réside dans le lien préservé entre architecture historique, viticulture et paysage."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église gothique Saint-Georges et l’autel de pierre de Pilgram",
+          "text": "L’église paroissiale Saint-Georges est l’un des plus anciens monuments de la ville. L’édifice gothique sans tour date du dernier quart du XIIIe siècle et succède à un sanctuaire roman plus ancien. Son œuvre la plus précieuse est l’autel de pierre de Saint-Georges, réalisé en grès blanc en 1527 dans l’atelier de Štefan Pilgram. Ses reliefs associent figures humaines et motifs végétaux. L’intérieur conserve aussi des fresques médiévales, un sacrarium gothique et des tombeaux historiques des comtes de Svätý Jur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur et le premier tronçon du chemin de fer hippomobile hongrois",
+          "text": "Svätý Jur est entré dans l’histoire des transports comme terminus du premier tronçon mis en service du chemin de fer hippomobile hongrois entre Bratislava et Trnava. Les essais ont commencé le 24 septembre 1840, puis le service public le 4 octobre. Les voitures étaient tirées par des chevaux ; la ligne devait d’abord transporter des produits agricoles, mais elle a rapidement accueilli des voyageurs. La ville conserve le bâtiment original de plain-pied de la gare de l’époque, aujourd’hui classé monument culturel."
+        },
+        {
+          "id": "fact_007",
+          "title": "La synagogue et la communauté juive de Svätý Jur",
+          "text": "La présence d’une communauté juive à Svätý Jur est attestée depuis la première moitié du XVIIIe siècle. La synagogue fut fondée en 1791 dans l’ensemble de l’ancien manoir Jesenák et prit son aspect actuel après une reconstruction en 1876. Le lieu est lié à Chatam Sofer, rabbin de Bratislava qui y trouva refuge en 1809 pendant le siège napoléonien de la ville. La synagogue servit au culte jusqu’en 1942 ; les déportations et l’après-guerre mirent fin à la communauté locale. Le bâtiment fut classé monument culturel national en 2016."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner, lichénologue de renommée internationale né ici",
+          "text": "Alexander Zahlbruckner, botaniste et grand spécialiste international des lichens, est né à Svätý Jur le 31 mai 1860. Il étudia les sciences naturelles à l’Université de Vienne et passa l’essentiel de sa carrière au Musée d’histoire naturelle de Vienne, qu’il dirigea de 1918 à 1922. Son œuvre majeure est le Catalogus lichenum universalis en dix volumes, publié entre 1921 et 1940 ; le dernier volume parut après sa mort. La ville identifie la maison du 31, rue Prostredná comme sa maison natale."
+        },
+        {
+          "id": "fact_009",
+          "title": "Paysage viticole, amas de pierres et musée de la vigne en plein air",
+          "text": "La viticulture a façonné Svätý Jur pendant des siècles : les vignobles locaux sont attestés par écrit dès 1270. Sur les pentes des Petites Carpates s’est développé un paysage de terrasses, d’anciens chemins de vigne et de murets ou amas de pierres appelés rúny, formés lors du défrichage de parcelles pierreuses. Le musée viticole en plein air de Panciere en présente les formes et les éléments traditionnels. Terrasses, rúny et bâtiments viticoles font partie d’un paysage culturel qui définit l’image de la ville."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: un paesaggio umido ai margini di Svätý Jur",
+          "text": "Una parte della Riserva naturale nazionale di Šúr si trova all’estremità sud-orientale del territorio catastale di Svätý Jur. Il complesso umido occupa una depressione lacustre poco profonda ai piedi dei Piccoli Carpazi. Il nucleo comprende un bosco paludoso di ontani, boschi ripariali e prati umidi; a sud si trova Panónsky háj, con querce e olmi. La riserva tutela piante igrofile rare, anfibi e uccelli. Šúr è protetto dal 1952 e dal 1990 fa parte delle zone umide Ramsar. La riserva si estende anche a Chorvátsky Grob; il punto indica la sezione di Svätý Jur e l’inizio del sentiero."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le rovine del castello di Biely Kameň",
+          "text": "Su una collina boscosa sopra Svätý Jur si trovano le rovine del castello di Biely Kameň, costruito nel XIII secolo dai conti di Svätý Jur. Fu il centro amministrativo e residenziale della loro signoria fino a quando, all’inizio del XVII secolo, la sede fu trasferita nel nuovo palazzo Pálffy in città. Dopo le incursioni ottomane del XVII secolo il castello cadde in rovina e non venne ricostruito. Restano tratti delle mura perimetrali, aperture di finestre e altri resti medievali."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: fortezza della Grande Moravia sopra Neštich",
+          "text": "Sopra il quartiere di Neštich si trova l’esteso Svätojurské hradisko, un importante sito fortificato della Grande Moravia. Fu costruito nella seconda metà del IX secolo e rimase in uso all’inizio del X; offriva protezione agli abitanti della zona. L’area fortificata misura circa 3,26 ettari. Secondo i documenti comunali, i bastioni conservati si estendono per circa 1.693 metri e raggiungono un’altezza di 9–11 metri. I reperti attestano anche un riutilizzo nei secoli XIII e XIV, con condotte idriche in ceramica, una cisterna e una porta incorporata."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il centro storico di Svätý Jur, area urbana tutelata",
+          "text": "Il centro storico di Svätý Jur è stato dichiarato riserva monumentale urbana nel 1990. La tutela riguarda l’insieme di una cittadina vitivinicola ai piedi dei Piccoli Carpazi: il tracciato delle strade, le case borghesi e le dimore signorili della prima età moderna, gli edifici religiosi e i resti delle fortificazioni. Tra gli elementi più significativi figurano il palazzo Pálffy del 1609 e tratti delle mura in pietra del XVII secolo. Il valore sta nel rapporto conservato tra architettura storica, viticoltura e paesaggio."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa gotica di San Giorgio e l’altare in pietra di Pilgram",
+          "text": "La chiesa parrocchiale di San Giorgio è uno dei monumenti più antichi della città. L’edificio gotico senza torre risale all’ultimo quarto del XIII secolo e si innesta su un precedente luogo di culto romanico. La sua opera più preziosa è l’altare in pietra di San Giorgio, realizzato in arenaria bianca nel 1527 dalla bottega di Štefan Pilgram. I rilievi uniscono figure umane e motivi vegetali. L’interno conserva anche affreschi medievali, un sacrario gotico e tombe storiche dei conti di Svätý Jur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur e il primo tratto della ferrovia ungherese a cavalli",
+          "text": "Svätý Jur entrò nella storia dei trasporti come capolinea del primo tratto aperto della ferrovia ungherese a cavalli tra Bratislava e Trnava. Le prove iniziarono il 24 settembre 1840 e il servizio pubblico il 4 ottobre. Le carrozze erano trainate da cavalli; la linea doveva trasportare soprattutto prodotti agricoli, ma presto accolse anche passeggeri. In città si è conservato l’edificio originale della stazione dell’epoca, oggi registrato come monumento culturale."
+        },
+        {
+          "id": "fact_007",
+          "title": "La sinagoga e la comunità ebraica di Svätý Jur",
+          "text": "La presenza di una comunità ebraica a Svätý Jur è documentata dalla prima metà del XVIII secolo. La sinagoga fu fondata nel 1791 nel complesso dell’antica residenza Jesenák e assunse l’aspetto attuale con la ricostruzione del 1876. Il luogo è legato anche a Chatam Sofer, rabbino di Bratislava che vi trovò rifugio temporaneo nel 1809 durante l’assedio napoleonico. La sinagoga fu utilizzata per il culto fino al 1942; le deportazioni e il dopoguerra segnarono la fine della comunità locale. Nel 2016 l’edificio è stato dichiarato monumento culturale nazionale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: un lichenologo di fama internazionale nato qui",
+          "text": "Alexander Zahlbruckner, botanico e specialista internazionale dei licheni, nacque a Svätý Jur il 31 maggio 1860. Studiò scienze naturali all’Università di Vienna e trascorse gran parte della carriera al Museo di Storia Naturale di Vienna, di cui fu direttore dal 1918 al 1922. La sua opera principale è il Catalogus lichenum universalis in dieci volumi, pubblicato tra il 1921 e il 1940; l’ultimo volume uscì dopo la sua morte. La città indica come sua casa natale l’edificio al numero 31 di via Prostredná."
+        },
+        {
+          "id": "fact_009",
+          "title": "Paesaggio viticolo, cumuli di pietre e museo della viticoltura all’aperto",
+          "text": "La viticoltura ha plasmato Svätý Jur per secoli: i vigneti locali sono documentati per iscritto già nel 1270. Sui pendii dei Piccoli Carpazi si è sviluppato un paesaggio di terrazze, antiche strade tra i vigneti e muretti o cumuli di pietre chiamati rúny, formati durante la bonifica di terreni sassosi. Il museo della viticoltura all’aperto di Panciere ne presenta oggi la forma e gli elementi tradizionali. Terrazze, rúny e costruzioni viticole sono parte di un paesaggio culturale che definisce l’aspetto della città."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Svätý Jur",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Šúr: een waterrijk landschap aan de rand van Svätý Jur",
+          "text": "Een deel van het nationale natuurreservaat Šúr ligt aan de zuidoostelijke rand van het kadastrale grondgebied van Svätý Jur. Dit wetlandcomplex bevindt zich in een ondiepe voormalige merenkom aan de voet van de Kleine Karpaten. De kern bestaat uit moeraselzenbos, ooibos en natte graslanden; in het zuiden ligt Panónsky háj met eiken en iepen. Het reservaat beschermt zeldzame vochtminnende planten, amfibieën en vogels. Šúr is sinds 1952 beschermd en maakt sinds 1990 deel uit van het Ramsar-netwerk. Het reservaat strekt zich ook uit over Chorvátsky Grob; de kaartpin markeert het deel van Svätý Jur en het begin van het natuurpad."
+        },
+        {
+          "id": "fact_002",
+          "title": "De ruïnes van kasteel Biely Kameň",
+          "text": "Op een beboste heuvel boven Svätý Jur liggen de ruïnes van kasteel Biely Kameň, dat in de 13e eeuw door de graven van Svätý Jur werd gebouwd. Het was het bestuurlijke en residentiële centrum van hun landgoed totdat de zetel begin 17e eeuw werd verplaatst naar het nieuwe Pálffy-landhuis in de stad. Na Ottomaanse invallen in de 17e eeuw raakte het kasteel in verval en werd het niet herbouwd. Delen van de ringmuur, raamopeningen en andere middeleeuwse resten zijn bewaard gebleven."
+        },
+        {
+          "id": "fact_003",
+          "title": "Svätojurské hradisko: een Groot-Moravisch bolwerk boven Neštich",
+          "text": "Boven de wijk Neštich ligt het uitgestrekte Svätojurské hradisko, een belangrijke versterkte plaats uit Groot-Moravië. Het werd gebouwd in de tweede helft van de 9e eeuw en bleef tot het begin van de 10e eeuw in gebruik; het bood bescherming aan de bevolking in de omgeving. Het terrein beslaat ongeveer 3,26 hectare. Volgens gemeentelijke gegevens zijn de bewaard gebleven wallen circa 1.693 meter lang en 9 tot 11 meter hoog. Vondsten tonen later gebruik in de 13e en 14e eeuw aan, waaronder keramische waterleidingen, een waterreservoir en een ingebouwde poort."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het historische centrum van Svätý Jur: beschermd stadsgebied",
+          "text": "Het historische centrum van Svätý Jur werd in 1990 aangewezen als stedelijk beschermd erfgoedgebied. Het beschermt het samenhangende geheel van een wijnbouwstadje aan de voet van de Kleine Karpaten: het stratenpatroon, vroegmoderne burgerhuizen en herenhuizen, religieuze gebouwen en resten van de stadsverdediging. Markante gebouwen zijn onder meer het Pálffy-landhuis uit 1609 en delen van de stenen stadsmuur uit de 17e eeuw. De waarde ligt in de bewaard gebleven samenhang tussen historische bebouwing, wijnbouw en landschap."
+        },
+        {
+          "id": "fact_005",
+          "title": "De gotische Sint-Joriskerk en het stenen altaar van Pilgram",
+          "text": "De parochiekerk van Sint-Joris is een van de oudste monumenten van de stad. Het gotische gebouw zonder toren dateert uit het laatste kwart van de 13e eeuw en volgde een oudere romaanse kerk op. Het belangrijkste kunstwerk is het stenen Sint-Jorisaltaar uit 1527, gemaakt van witte zandsteen in de werkplaats van Štefan Pilgram. De reliëfs combineren menselijke figuren en plantmotieven. Binnen zijn ook middeleeuwse fresco’s, een gotisch sacramenthuisje en historische grafmonumenten van de graven van Svätý Jur bewaard."
+        },
+        {
+          "id": "fact_006",
+          "title": "Svätý Jur en het eerste deel van de Hongaarse paardenspoorweg",
+          "text": "Svätý Jur kreeg een plaats in de transportgeschiedenis als eindpunt van het eerste geopende deel van de Hongaarse paardenspoorweg tussen Bratislava en Trnava. De proefritten begonnen op 24 september 1840; de openbare dienst startte op 4 oktober. De rijtuigen werden door paarden getrokken. De lijn was aanvankelijk vooral bedoeld voor landbouwgoederen, maar vervoerde al snel ook reizigers. In de stad is het oorspronkelijke stationsgebouw uit de paardenspoorwegtijd bewaard gebleven; het staat nu geregistreerd als cultureel monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "De synagoge en de Joodse gemeenschap van Svätý Jur",
+          "text": "Een Joodse gemeenschap is in Svätý Jur vanaf de eerste helft van de 18e eeuw gedocumenteerd. De synagoge werd in 1791 gesticht op het terrein van het voormalige landhuis Jesenák en kreeg haar huidige vorm na een verbouwing in 1876. De plek is ook verbonden met Chatam Sofer, de rabbijn van Bratislava die hier in 1809 tijdelijk onderdak vond tijdens de Napoleontische belegering. De synagoge werd tot 1942 voor religieuze doeleinden gebruikt; deportaties en de naoorlogse gebeurtenissen betekenden het einde van de plaatselijke gemeenschap. Het gebouw werd in 2016 tot nationaal cultureel monument verklaard."
+        },
+        {
+          "id": "fact_008",
+          "title": "Alexander Zahlbruckner: een internationaal vermaard lichenoloog uit Svätý Jur",
+          "text": "Alexander Zahlbruckner, botanicus en internationaal specialist in korstmossen, werd op 31 mei 1860 in Svätý Jur geboren. Hij studeerde natuurwetenschappen aan de Universiteit van Wenen en werkte het grootste deel van zijn loopbaan bij het Natuurhistorisch Museum in Wenen, waarvan hij van 1918 tot 1922 directeur was. Zijn belangrijkste werk is de tiendelige Catalogus lichenum universalis, gepubliceerd tussen 1921 en 1940; het laatste deel kwam na zijn dood uit. De gemeente noemt het pand Prostredná 31 als zijn geboortehuis."
+        },
+        {
+          "id": "fact_009",
+          "title": "Wijngaardlandschap, stenen wallen en een openluchtmuseum over wijnbouw",
+          "text": "De wijnbouw heeft Svätý Jur eeuwenlang gevormd: de plaatselijke wijngaarden worden al in 1270 schriftelijk vermeld. Op de hellingen van de Kleine Karpaten ontstond een landschap van terrassen, oude wijngaardpaden en stenen muurtjes of hopen die rúny worden genoemd en ontstonden bij het ontginnen van stenige percelen. Het openluchtmuseum voor wijnbouw in Panciere laat de vorm en traditionele elementen ervan zien. Terrassen, rúny en wijnbouwgebouwen vormen een cultuurlandschap dat het aanzien van de stad sterk bepaalt."
+        }
+      ]
+    }
+  }
 }
