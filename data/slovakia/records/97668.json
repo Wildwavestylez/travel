@@ -167,15 +167,24 @@
     {
       "id": "fact_008",
       "title": "Heľpa a přírodní rezervace Veľká Stožka",
-      "text": "Katastrální území Heľpy zasahuje do horské krajiny Nízkých Tater a podle obecní historické dokumentace zahrnuje jeho jižní část také území přírodní rezervace Veľká Stožka. Správa národního parku popisuje oblast Stožek jako cenné přírodní prostředí s vápencovými skalními útvary a lesními ekosystémy. Přesný průběh hranice rezervace vůči katastru Heľpy ani jedno konkrétní místo v její části náležející k obci se z dostupných podkladů nepodařilo určit; proto zde není zakreslen bod, který by předstíral přesnou polohu.",
+      "text": "Katastrální území Heľpy zasahuje do horské krajiny Nízkých Tater a podle obecní historické dokumentace zahrnuje jeho jižní část také území přírodní rezervace Veľká Stožka. Správa národního parku popisuje oblast Stožek jako cenné přírodní prostředí s vápencovými skalními útvary a lesními ekosystémy. Mapový bod proto používá odborně publikovanou lokalitu Za Nihovo v katastru Heľpy jako orientační bod pro tuto část území; nejde o přesné vymezení hranice ani středu rezervace.",
       "category": "nature_and_landscape",
       "priority": "B",
       "sources": [
         "https://www.helpa.sk/obec/historia/",
-        "https://www.npmp.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/"
+        "https://www.npmp.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/",
+        "https://www.researchgate.net/publication/308116887_Remarkable_findings_of_mosses_from_the_Orthotrichaceae_family_in_the_Muranska_planina_National_Park_Slovakia"
       ],
       "map_category": "nature",
-      "location": null
+      "location": {
+        "name": "Za Nihovo – doložený orientační bod v katastru Heľpy pro část oblasti Veľká Stožka",
+        "lat": 48.79054,
+        "lon": 19.98392,
+        "type": "natural_area",
+        "accuracy": "area_representative",
+        "source": "https://www.researchgate.net/publication/308116887_Remarkable_findings_of_mosses_from_the_Orthotrichaceae_family_in_the_Muranska_planina_National_Park_Slovakia",
+        "address": null
+      }
     }
   ],
   "photo": null,
@@ -267,6 +276,11 @@
       "title": "Heľpa, námestie – mapový orientačný bod",
       "url": "https://poi.oma.sk/n9533209801",
       "type": "other"
+    },
+    {
+      "title": "Odborná studie – lokalita Za Nihovo v katastru Heľpy, GPS souřadnice",
+      "url": "https://www.researchgate.net/publication/308116887_Remarkable_findings_of_mosses_from_the_Orthotrichaceae_family_in_the_Muranska_planina_National_Park_Slovakia",
+      "type": "academic"
     }
   ],
   "translations": {
@@ -311,7 +325,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa a přírodní rezervace Veľká Stožka",
-          "text": "Katastrální území Heľpy zasahuje do horské krajiny Nízkých Tater a podle obecní historické dokumentace zahrnuje jeho jižní část také území přírodní rezervace Veľká Stožka. Správa národního parku popisuje oblast Stožek jako cenné přírodní prostředí s vápencovými skalními útvary a lesními ekosystémy. Přesný průběh hranice rezervace vůči katastru Heľpy ani jedno konkrétní místo v její části náležející k obci se z dostupných podkladů nepodařilo určit; proto zde není zakreslen bod, který by předstíral přesnou polohu."
+          "text": "Katastrální území Heľpy zasahuje do horské krajiny Nízkých Tater a podle obecní historické dokumentace zahrnuje jeho jižní část také území přírodní rezervace Veľká Stožka. Správa národního parku popisuje oblast Stožek jako cenné přírodní prostředí s vápencovými skalními útvary a lesními ekosystémy. Mapový bod proto používá odborně publikovanou lokalitu Za Nihovo v katastru Heľpy jako orientační bod pro tuto část území; nejde o přesné vymezení hranice ani středu rezervace."
         }
       ]
     },
@@ -356,7 +370,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa und das Naturschutzgebiet Veľká Stožka",
-          "text": "Das Gemeindegebiet von Heľpa reicht in die Berglandschaft der Niederen Tatra hinein; laut der Gemeindegeschichte gehört auch ein südlicher Teil des Katastralgebiets zum Naturschutzgebiet Veľká Stožka. Die Nationalparkverwaltung beschreibt die Stožky als wertvollen Naturraum mit Kalkfelsen und Waldökosystemen. Der genaue Verlauf der Schutzgebietsgrenze im Verhältnis zum Gemeindegebiet und ein konkreter Punkt innerhalb des zu Heľpa gehörenden Teils ließen sich anhand der verfügbaren Unterlagen nicht bestimmen. Deshalb wird kein Punkt eingezeichnet, der eine Genauigkeit vortäuschen würde."
+          "text": "Das Gemeindegebiet von Heľpa reicht in die Berglandschaft der Niederen Tatra hinein; laut der Gemeindegeschichte gehört auch ein südlicher Teil des Katastralgebiets zum Naturschutzgebiet Veľká Stožka. Die Nationalparkverwaltung beschreibt die Stožky als wertvollen Naturraum mit Kalkfelsen und Waldökosystemen. Der Kartenpunkt verwendet daher den in einer Fachstudie dokumentierten Ort Za Nihovo im Kataster Heľpa als Orientierungspunkt für diesen Gebietsteil; er kennzeichnet weder die genaue Grenze noch das Zentrum des Reservats."
         }
       ]
     },
@@ -401,7 +415,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa and the Veľká Stožka nature reserve",
-          "text": "Heľpa's cadastral territory extends into the mountain landscape of the Low Tatras, and the municipality's historical account says that its southern part includes an area of the Veľká Stožka nature reserve. The national park administration describes the Stožky area as valuable natural habitat with limestone rock formations and forest ecosystems. The available sources do not establish the exact reserve boundary in relation to Heľpa's cadastral area or a specific point within the part belonging to the municipality. No map point is therefore supplied rather than suggesting false precision."
+          "text": "Heľpa's cadastral territory extends into the mountain landscape of the Low Tatras, and the municipality's historical account says that its southern part includes an area of the Veľká Stožka nature reserve. The national park administration describes the Stožky area as valuable natural habitat with limestone rock formations and forest ecosystems. The map pin therefore uses the research-documented locality Za Nihovo in the Heľpa cadastral area as an orientation point for this part of the area; it does not define the reserve’s exact boundary or centre."
         }
       ]
     },
@@ -446,7 +460,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa y la reserva natural de Veľká Stožka",
-          "text": "El término catastral de Heľpa se extiende por el paisaje montañoso de los Bajos Tatras y, según la historia municipal, su parte meridional incluye también una zona de la reserva natural de Veľká Stožka. La administración del parque nacional describe el área de Stožky como un entorno natural valioso, con formaciones rocosas de caliza y ecosistemas forestales. Las fuentes disponibles no permiten determinar el trazado exacto del límite de la reserva respecto al término de Heľpa ni un punto concreto dentro de la parte correspondiente al municipio. Por ello no se incluye un punto cartográfico que pudiera dar una falsa impresión de precisión."
+          "text": "El término catastral de Heľpa se extiende por el paisaje montañoso de los Bajos Tatras y, según la historia municipal, su parte meridional incluye también una zona de la reserva natural de Veľká Stožka. La administración del parque nacional describe el área de Stožky como un entorno natural valioso, con formaciones rocosas de caliza y ecosistemas forestales. Por ello, el punto del mapa utiliza la localidad de Za Nihovo, documentada en un estudio especializado y situada en el término catastral de Heľpa, como referencia para esta parte del territorio; no define el límite ni el centro exactos de la reserva."
         }
       ]
     },
@@ -491,7 +505,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa et la réserve naturelle de Veľká Stožka",
-          "text": "Le territoire cadastral de Heľpa s’étend dans le paysage montagneux des Basses Tatras et, selon l’histoire publiée par la commune, sa partie méridionale comprend également une zone de la réserve naturelle de Veľká Stožka. L’administration du parc national décrit le secteur des Stožky comme un milieu naturel précieux, avec des formations rocheuses calcaires et des écosystèmes forestiers. Les sources disponibles ne permettent pas d’établir le tracé exact de la limite de la réserve par rapport au territoire cadastral de Heľpa ni un point précis dans la partie relevant de la commune. Aucun point cartographique n’est donc indiqué afin de ne pas suggérer une précision inexistante."
+          "text": "Le territoire cadastral de Heľpa s’étend dans le paysage montagneux des Basses Tatras et, selon l’histoire publiée par la commune, sa partie méridionale comprend également une zone de la réserve naturelle de Veľká Stožka. L’administration du parc national décrit le secteur des Stožky comme un milieu naturel précieux, avec des formations rocheuses calcaires et des écosystèmes forestiers. Le point cartographique utilise donc le lieu-dit Za Nihovo, documenté dans une étude spécialisée et situé dans le cadastre de Heľpa, comme repère pour cette partie du territoire ; il ne définit ni la limite ni le centre exacts de la réserve."
         }
       ]
     },
@@ -536,7 +550,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa e la riserva naturale di Veľká Stožka",
-          "text": "Il territorio catastale di Heľpa si estende nel paesaggio montano dei Bassi Tatra e, secondo la storia comunale, la sua parte meridionale comprende anche un’area della riserva naturale di Veľká Stožka. L’amministrazione del parco nazionale descrive la zona degli Stožky come un ambiente naturale di valore, con formazioni rocciose calcaree ed ecosistemi forestali. Le fonti disponibili non consentono di determinare il confine esatto della riserva rispetto al territorio catastale di Heľpa né un punto preciso nella parte appartenente al comune. Per questo non viene indicato un punto cartografico che suggerirebbe una precisione non verificata."
+          "text": "Il territorio catastale di Heľpa si estende nel paesaggio montano dei Bassi Tatra e, secondo la storia comunale, la sua parte meridionale comprende anche un’area della riserva naturale di Veľká Stožka. L’amministrazione del parco nazionale descrive la zona degli Stožky come un ambiente naturale di valore, con formazioni rocciose calcaree ed ecosistemi forestali. Il punto sulla mappa utilizza quindi la località Za Nihovo, documentata in uno studio specialistico e situata nel catasto di Heľpa, come riferimento per questa parte del territorio; non definisce il confine né il centro esatti della riserva."
         }
       ]
     },
@@ -581,7 +595,7 @@
         {
           "id": "fact_008",
           "title": "Heľpa en het natuurreservaat Veľká Stožka",
-          "text": "Het kadastrale grondgebied van Heľpa strekt zich uit tot in het berglandschap van de Lage Tatra. Volgens de gemeentelijke geschiedschrijving omvat het zuidelijke deel ook een gebied van het natuurreservaat Veľká Stožka. De nationaleparkbeheerder beschrijft het Stožky-gebied als waardevolle natuur met kalkstenen rotsformaties en bosecosystemen. De beschikbare bronnen maken niet duidelijk waar de grens van het reservaat precies loopt ten opzichte van het grondgebied van Heľpa, noch waar een exact punt ligt binnen het deel dat bij de gemeente hoort. Daarom is geen kaartpunt opgenomen dat een niet-geverifieerde nauwkeurigheid zou suggereren."
+          "text": "Het kadastrale grondgebied van Heľpa strekt zich uit tot in het berglandschap van de Lage Tatra. Volgens de gemeentelijke geschiedschrijving omvat het zuidelijke deel ook een gebied van het natuurreservaat Veľká Stožka. De nationaleparkbeheerder beschrijft het Stožky-gebied als waardevolle natuur met kalkstenen rotsformaties en bosecosystemen. De kaartpin gebruikt daarom de in een vakstudie gedocumenteerde locatie Za Nihovo in het kadastrale gebied van Heľpa als oriëntatiepunt voor dit deel van het gebied; hij geeft niet de exacte grens of het centrum van het reservaat aan."
         }
       ]
     }
