@@ -20,7 +20,7 @@
 - All seven language branches (`cs`, `de`, `en`, `es`, `fr`, `it`, `nl`) exist in each non-placeholder record. Translation fact IDs and order match the Czech source. `translations.cs` matches the root Czech `facts` title and text exactly.
 - All fact-level source URLs and all non-null `location.source` URLs are present in the record-level `sources` registry.
 - No obvious Czech-language contamination was detected in the non-Czech translations during the lexical scan. This is a screening check, not a substitute for native-speaker stylistic proofreading.
-- Existing non-null map coordinates were not blanket-rechecked or moved. Eleven previously null locations were given responsible exact, approximate or area-representative points. The seven new facts below also received map locations.
+- Existing non-null map coordinates were not blanket-rechecked or moved. Fifteen previously null locations have now been given responsible exact, approximate, historical-approximate or area-representative points. The seven new facts below also received map locations. Four further nulls were resolved in the follow-up location pass using the fallback hierarchy in `prompt_rework.md` and `prompt_audit.md`.
 - Cross-postcode review of the newly added subjects and the related records found no duplicate story requiring reassignment. In particular, the Špania Dolina village story is distinct from the Donovaly fact about the route of the Špaňodolinský water system; Samo Chalupka is distinct from Ján Chalupka; the Kalište memorial story is distinct from the Donovaly and Heľpa SNP stories.
 
 ## Major-area coverage review
@@ -63,25 +63,27 @@ All seven new facts have Czech, German, English, Spanish, French, Italian and Du
 
 - 97644, `fact_004`: added a source-backed approximate point for the blacksmith's workshop at Mýto pod Ďumbierom 358. Restored the complete `translations.cs` entries for every fact; previously those entries contained IDs only.
 - 97668, `fact_007`: added a village-centre orientation point for the archaeological finds in the Heľpa cadastral area.
+- 97668, `fact_008`: added an area-representative point at the documented locality Za Nihovo in the Heľpa cadastral area (48.79054, 19.98392). The pin is explicitly described as an orientation point, not the reserve boundary or centre.
 - 97669, `fact_002` and `fact_008`: added an approximate point for the former ironworks at Nová Maša and an area-representative point for the archaeological coin find in the Pohorelá cadastral area.
 - 97675, `fact_011`: added an approximate point for the Ráztocká hoľa reserve.
+- 97675, `fact_012`: added the mapped summit of Obrštín as an area-orientation point for the Obrštín old-growth reserve; the text explicitly says this is not the reserve boundary or centre.
 - 97696, `fact_001` and `fact_004`: added an area-representative point for Medzibrod's historic core and an approximate point for the memorial plaque at Námestie hrdinov SNP 2.
+- 97696, `fact_003`: added Chata Baňa as a historical-approximate orientation point opposite the Murgaš adit portal; the pin is not presented as the precisely surveyed adit entrance.
 - 97697, `fact_001`, `fact_002` and `fact_004`: added an area-representative point for Nemecká's historic settlement and lace-trading stories, and an approximate orientation point at the Dubová industrial site's main gate for the refinery story.
+- 97697, `fact_006`: added the municipal office in Nemecká as a public historical-approximate orientation point; the archaeological site is stated to lie about 1.5 km north, so the office pin is not misrepresented as the site itself.
 - 97703, `fact_003`: added an approximate orientation point at the Mazorníkovo, SAD stop by the roundabout below the monument. The Czech and translated texts now distinguish this orientation point from the exact monument location.
 - 97646, 97652 and 97655: added the already-used location source URLs to both the fact source lists and the record-level source registries.
 
 ### Locations intentionally left null
 
-Nine locations remain null because the available sources do not establish a responsible point within the relevant postcode area. They were not assigned guessed coordinates:
+Five facts remain null after applying the full location fallback hierarchy. These are not unresolved routine omissions: the available evidence still does not justify a meaningful point inside the correct postcode/cadastral section. The exact remaining cases are:
 
-- 97668, `fact_008`: Veľká Stožka is a multi-cadastral protected area; the exact Heľpa section is not reliably pinpointed by the available source.
-- 97673, `fact_010`: Hnilecká jelšina is an elongated reserve spanning several cadastral areas; a reliable point within the Telgárt section was not established.
-- 97675, `fact_012` and `fact_013`: the protected areas are described through parcel/boundary documentation, without a verified public map point suitable for a pin.
-- 97696, `fact_003`: the historic mine is described in the Borovský potok valley, but the entrance or precise mine point is not mapped reliably.
-- 97696, `fact_005`: the Mačková reserve is described by its area and elevation, but no reliable point for its boundary/centre was established.
-- 97696, `fact_006`: the Vyvieranica spring is associated with the Baništia locality, but the exact springhead was not verified.
-- 97697, `fact_006`: the Hradisko archaeological site is described on the southern spur of Čierny diel, but its exact position was not established; the mapped summit point is not a safe substitute for the site within this postcode.
-- 97697, `fact_008`: the Dubová hydroelectric plant has an address reference, but its exact plant footprint was not verified on a reliable map.
+- 97673, `fact_010`: Hnilecká jelšina spans Telgárt, Vernár, Stratená and Dobšiná. The public NAPANT material identifies the river floodplain and cadastral areas, but the specific Telgárt section is not georeferenced. Coordinates for the reserve's other sections were deliberately not reused.
+- 97675, `fact_013`: the legal designation of PR Pralesy Slovenska–Špíglová identifies part of cadastral parcel 1566 and includes an official boundary map, but the available public material does not provide a reliable coordinate for a point inside that polygon. No parcel-map pixel was converted into guessed coordinates.
+- 97696, `fact_005`: PR Mačková is documented around elevation point 625 m and by forest-stand boundaries, but no reliable coordinate for a point inside the reserve was established.
+- 97696, `fact_006`: the municipality identifies the Vyvieranica resurgence at Baništia and a public event venue called Strážny domček Vyvieranica, but the exact springhead/feature point is not georeferenced. The venue was not substituted for the spring without proof of spatial identity.
+- 97697, `fact_008`: the Hydrocentrála Dubová has a regulatory operating address (Janka Kráľa 575), but a reliable coordinate for the plant footprint or a clearly identified orientation point at that address was not verified. The refinery gate and the settlement centre were not substituted.
+
 
 ## Database index and lifecycle
 
@@ -104,12 +106,12 @@ The following are the latest record commits identified in repository history and
 | 97646 | `37c3fb4e73c8e4ea6c0ad6e339adf201d612fd34` | `58ab381b8d0ccb9284176490168253bdc453f32a` |
 | 97652 | `19152bdb0258d99b191d89607b1cedd8f8beee28` | `5312341ed58194e476f17a1e964509788a1688f2` |
 | 97655 | `dee1dcf570a54fb306f4b8dc5ea762aeb9b394c4` | `0572f4844cf683ca1a6559036ed4d55ec41064ec` |
-| 97668 | `d228c6a3931ac74bd2d314fa04f15c5a9bcb1946` | `3ba0f81e389e46436271456f4199a402f491bae8` |
+| 97668 | `c2fb9029189ef55cc994e468b9abd7da7f76a374` | `eead064915d4d78a17588307d6031420a7d4e252` |
 | 97669 | `11fddc93d25f606f208165d054c9e97636788033` | `0b76b364d5cc1fb9b46f66a043485c6f902e78a6` |
-| 97675 | `04ec18b9b4a791fe383a6c81a27185aa36d7f707` | `31fc37d87a4647786356a95678561730d2abfd05` |
+| 97675 | `5c525ba524b28dda6ec923c1bfb466d084a83a40` | `5ca96a869a05536daaed304499fe032c6b1001cf` |
 | 97681 | `8c58a57a27250b0185081278ec448eb2daa268f8` | `a92cf66e74affb1c6227a2d106e03bc0fedcb0ac` |
-| 97696 | `ad0a67366e22ae091c356f606bb74b5cf88c77f1` | `d99b14b0d1ea4ed5249c64d835b0f66f79611658` |
-| 97697 | `805a3505cbd3c59e905d33d04b74fa894f4b0574` | `d3978d377e30f390efc3807754cf5aa49250a47d` |
+| 97696 | `52b71106d36a1a71c054a3d0e201145bdbc32e55` | `11acba693b4b0f0bc50cd94e60f97a871ddbddca` |
+| 97697 | `d07baee1a22951468de12ee66e8f3d9d325346de` | `1cfcbd6aefb15f8533d76a53e8107654c031003f` |
 | 97703 | `8e87e28917fd88921656e7b13fb2833862045be3` | `f184cf3b8151030590d05ee87978643b33e26b4a` |
 
 ## Reference sources for scope and coverage decisions
