@@ -21,9 +21,9 @@
       "category": "heritage_and_monuments",
       "priority": "A",
       "sources": [
-        "src_002",
-        "src_003",
-        "src_004"
+        "https://pes.minv.sk/wps/wcm/connect/sk/site/top/uvod/06-register-adries",
+        "https://www.marianka.sk/zivot-v-obci/turista/pamiatky-v-obci/o-obci/",
+        "https://bazilikamarianka.sk/historia-putnickeho-miesta/"
       ],
       "location": {
         "name": "Bazilika Narodenia Panny Márie – poutní kostel",
@@ -42,9 +42,9 @@
       "category": "architecture_and_urbanism",
       "priority": "A",
       "sources": [
-        "src_004",
-        "src_005",
-        "src_006"
+        "https://bazilikamarianka.sk/historia-putnickeho-miesta/",
+        "https://bazilikamarianka.sk/bazilika/",
+        "https://slovakia.travel/en/church-of-nativity-of-the-virgin-mary-marianka"
       ],
       "location": {
         "name": "Bazilika Narodenia Panny Márie",
@@ -63,9 +63,9 @@
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
-        "src_003",
-        "src_006",
-        "src_007"
+        "https://www.marianka.sk/zivot-v-obci/turista/pamiatky-v-obci/o-obci/",
+        "https://slovakia.travel/en/church-of-nativity-of-the-virgin-mary-marianka",
+        "https://www.pamiatky.sk/fileadmin/documents/news/PZ_ZASADY/Marianka/0101-Mar-text.pdf"
       ],
       "location": {
         "name": "Kaplnka Zázračnej studne",
@@ -84,9 +84,9 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "src_003",
-        "src_004",
-        "src_008"
+        "https://www.marianka.sk/zivot-v-obci/turista/pamiatky-v-obci/o-obci/",
+        "https://bazilikamarianka.sk/historia-putnickeho-miesta/",
+        "https://www.visitbratislava.com/sk/miesta/putnicky-areal-marianka/"
       ],
       "location": {
         "name": "Bývalý paulínský klášter – Exercičný dom",
@@ -105,9 +105,9 @@
       "category": "culture_and_industry",
       "priority": "B",
       "sources": [
-        "src_009",
-        "src_010",
-        "src_011"
+        "https://www.geologickaspolocnost.sk/files/KUG-SGS-stretnutie17092025.pdf",
+        "https://www.geology.sk/wp-content/uploads/2019/10/MS_4_2012_12_Geovestnik_komplet_NA-WEB.pdf",
+        "https://www.marianka.sk/files/obcan/zivot-obci/mariatal/mariatal_2012_2.pdf"
       ],
       "location": {
         "name": "Portál Bridlicovej štôlne v Marianskom údolí",
@@ -133,101 +133,85 @@
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "Ministerstvo vnútra SR – Register adries; oficiální administrativní údaje obce Marianka a Bratislavského kraje; ÚGKK SR/ZBGIS a mapové podklady OSM použité ke kontrole polohy jednotlivých objektů."
+    "geographic_authority": "Obec Marianka – oficiální program rozvoje 2025–2034 pro administrativní zařazení; Ministerstvo vnútra SR – Register adries jako autoritativní rámec adresních bodů; mapové podklady OpenStreetMap a oficiální regionální turistický materiál pro polohu konkrétních objektů."
   },
   "sources": [
     {
-      "id": "src_001",
       "title": "Slovenská pošta – Zoznam neautomatizovaných pôšt",
       "url": "https://tandt.posta.sk/en/files/1305/list-of-non-automated-post-offices.pdf",
       "type": "official"
     },
     {
-      "id": "src_002",
       "title": "Ministerstvo vnútra SR – Register adries",
       "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/top/uvod/06-register-adries",
       "type": "official"
     },
     {
-      "id": "src_003",
       "title": "Obec Marianka – O obci",
       "url": "https://www.marianka.sk/zivot-v-obci/turista/pamiatky-v-obci/o-obci/",
       "type": "official"
     },
     {
-      "id": "src_004",
       "title": "Bazilika Marianka – História pútnického miesta",
       "url": "https://bazilikamarianka.sk/historia-putnickeho-miesta/",
       "type": "primary"
     },
     {
-      "id": "src_005",
       "title": "Bazilika Marianka – Bazilika",
       "url": "https://bazilikamarianka.sk/bazilika/",
       "type": "primary"
     },
     {
-      "id": "src_006",
       "title": "Slovakia.travel – Church of Nativity of the Virgin Mary, Marianka",
       "url": "https://slovakia.travel/en/church-of-nativity-of-the-virgin-mary-marianka",
       "type": "official"
     },
     {
-      "id": "src_007",
       "title": "Pamiatkový úrad SR – Zásady ochrany PZ Marianka",
       "url": "https://www.pamiatky.sk/fileadmin/documents/news/PZ_ZASADY/Marianka/0101-Mar-text.pdf",
       "type": "official"
     },
     {
-      "id": "src_008",
       "title": "Visit Bratislava – Pútnický areál Marianka",
       "url": "https://www.visitbratislava.com/sk/miesta/putnicky-areal-marianka/",
       "type": "regional"
     },
     {
-      "id": "src_009",
       "title": "Slovenská geologická spoločnosť – odborná prehliadka Bridlicovej štôlne (2025)",
       "url": "https://www.geologickaspolocnost.sk/files/KUG-SGS-stretnutie17092025.pdf",
       "type": "specialist"
     },
     {
-      "id": "src_010",
       "title": "Geologický ústav Dionýza Štúra – Geovestník: Bridlicová štôlňa v Mariánskom údolí",
       "url": "https://www.geology.sk/wp-content/uploads/2019/10/MS_4_2012_12_Geovestnik_komplet_NA-WEB.pdf",
       "type": "specialist"
     },
     {
-      "id": "src_011",
       "title": "Obec Marianka – Mariatál 2/2012: Výskum v bridlicovej štôlni",
       "url": "https://www.marianka.sk/files/obcan/zivot-obci/mariatal/mariatal_2012_2.pdf",
       "type": "official"
     },
     {
-      "id": "src_012",
       "title": "Mapcarta / OpenStreetMap – Basilica of the Nativity of the Virgin Mary",
       "url": "https://mapcarta.com/W62086339",
       "type": "other"
     },
     {
-      "id": "src_013",
       "title": "OpenStreetMap via OMA – Kaplnka Zázračnej studne",
       "url": "https://poi.oma.sk/n6516104133",
       "type": "other"
     },
     {
-      "id": "src_014",
       "title": "OpenStreetMap via OMA – Exercičný dom",
       "url": "https://poi.oma.sk/w62086943",
       "type": "other"
     },
     {
-      "id": "src_015",
       "title": "Slovenský zákon č. 324/2011 Z. z. o poštových službách",
       "url": "https://www.posta.sk/files/683824052117f774bfbf453b/zakon-o-postovych-sluzbach.pdf",
       "type": "official"
     },
     {
-      "id": "src_016",
       "title": "Bratislavský kraj – turistický sprievodca, Pútnický areál Marianka",
       "url": "https://www.gob.sk/Static/Blog_att/2092/860344de225fc208dcddde06e4db84e1.pdf",
       "type": "regional"
