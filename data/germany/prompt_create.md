@@ -16,6 +16,7 @@ Tento prompt platí společně s:
 
 - `data/germany/schema.json`
 - `data/germany/CONTENT_STANDARD.md`
+- `data/germany/COUNTRY_PROFILE.md`
 - `data/germany/sequence.json`
 
 **Schema určuje technickou strukturu.**
@@ -59,7 +60,8 @@ Před každou výrobou načti a respektuj:
 
 1. `data/germany/schema.json`
 2. `data/germany/CONTENT_STANDARD.md`
-3. `data/germany/sequence.json`
+3. `data/germany/COUNTRY_PROFILE.md`
+4. `data/germany/sequence.json`
 
 Pokud se obsah tohoto promptu dostane do rozporu se `schema.json` nebo `CONTENT_STANDARD.md`, mají tyto soubory přednost.
 
