@@ -134,4 +134,6 @@ The following are the latest record commits identified in repository history and
 - Neon destination: project `Europe Explorer` (`dry-rain-69965329`), database `neondb`, table `public.slovakia_cap_records`.
 - Neon synchronization: 38 idempotent upserts completed, keyed by postcode. Existing `created_at` values were preserved; `updated_at` refreshed. Each batch was read back and its full JSONB record compared structurally with the canonical GitHub JSON.
 - Final Neon scope query: exactly 38 requested postcodes returned; all have `workflow_status = published`, `record.status = published` and `record.data_version = 5`. No placeholders or out-of-scope postcodes were synchronized in this operation.
+- Generated Explorer index: GitHub Actions workflow `Build Slovakia Europe Explorer index` completed successfully on 2026-11-24 (run `45383303373`). The generated `explorer_index.json` is V5 and contains 200 published V5 records; the build reported 1,255 fact map points across 14 occupied tiles.
+- Website deployment: `Deploy travel` completed successfully on the same resulting commit (`ee46d3d6b79dc7c9b0e0f05ee8fbf75c7ab06c50`; run `45383303218`).
 - GitHub remains the canonical source of truth; Neon is the production mirror.
