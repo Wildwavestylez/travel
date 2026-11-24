@@ -257,15 +257,24 @@
     {
       "id": "fact_012",
       "title": "Přírodní rezervace Pralesy Slovenska – Obrštín",
-      "text": "Přírodní rezervace Pralesy Slovenska – Obrštín byla vyhlášena nařízením vlády SR č. 427/2021 a její výměra činí 104,9506 hektaru. Leží v katastru Jasenia v dolní části Lomnistej doliny, přibližně čtyři kilometry severně od obce, v prostoru mezi kótami Obrštín a Horné blatá. Chrání především bukové a jedlobukové lesy evropského významu a lipovo-javorové suťové lesy; lokalita je součástí chráněné krajiny Nízkých Tater.",
+      "text": "Přírodní rezervace Pralesy Slovenska – Obrštín byla vyhlášena nařízením vlády SR č. 427/2021 a její výměra činí 104,9506 hektaru. Leží v katastru Jasenia v dolní části Lomnistej doliny, přibližně čtyři kilometry severně od obce, v prostoru mezi kótami Obrštín a Horné blatá. Chrání především bukové a jedlobukové lesy evropského významu a lipovo-javorové suťové lesy; lokalita je součástí chráněné krajiny Nízkých Tater. Mapový bod označuje vrchol Obrštína jako orientační bod na okraji popisované oblasti; nevymezuje střed ani právní hranici rezervace.",
       "category": "nature_and_landscape",
       "priority": "C",
       "map_category": "nature",
       "sources": [
         "https://static.slov-lex.sk/pdf/SK/ZZ/2021/427/ZZ_2021_427.pdf",
-        "https://www.pralesy.sk/lokality/lokality-pralesov.html?id=39&task=view"
+        "https://www.pralesy.sk/lokality/lokality-pralesov.html?id=39&task=view",
+        "https://xn--meb.pisz.pl/Obr%C5%A1t%C3%ADn"
       ],
-      "location": null
+      "location": {
+        "name": "Vrchol Obrštín – orientační bod rezervace Pralesy Slovenska–Obrštín",
+        "lat": 48.8725,
+        "lon": 19.47,
+        "type": "hill",
+        "accuracy": "area_representative",
+        "source": "https://xn--meb.pisz.pl/Obr%C5%A1t%C3%ADn",
+        "address": null
+      }
     },
     {
       "id": "fact_013",
@@ -431,6 +440,11 @@
       "title": "Ráztocká hoľa – mapový bod",
       "url": "https://poi.oma.sk/n1976953416",
       "type": "other"
+    },
+    {
+      "title": "Obrštín – souřadnice a poloha vrcholu",
+      "url": "https://xn--meb.pisz.pl/Obr%C5%A1t%C3%ADn",
+      "type": "other"
     }
   ],
   "translations": {
@@ -495,7 +509,7 @@
         {
           "id": "fact_012",
           "title": "Přírodní rezervace Pralesy Slovenska – Obrštín",
-          "text": "Přírodní rezervace Pralesy Slovenska – Obrštín byla vyhlášena nařízením vlády SR č. 427/2021 a její výměra činí 104,9506 hektaru. Leží v katastru Jasenia v dolní části Lomnistej doliny, přibližně čtyři kilometry severně od obce, v prostoru mezi kótami Obrštín a Horné blatá. Chrání především bukové a jedlobukové lesy evropského významu a lipovo-javorové suťové lesy; lokalita je součástí chráněné krajiny Nízkých Tater."
+          "text": "Přírodní rezervace Pralesy Slovenska – Obrštín byla vyhlášena nařízením vlády SR č. 427/2021 a její výměra činí 104,9506 hektaru. Leží v katastru Jasenia v dolní části Lomnistej doliny, přibližně čtyři kilometry severně od obce, v prostoru mezi kótami Obrštín a Horné blatá. Chrání především bukové a jedlobukové lesy evropského významu a lipovo-javorové suťové lesy; lokalita je součástí chráněné krajiny Nízkých Tater. Mapový bod označuje vrchol Obrštína jako orientační bod na okraji popisované oblasti; nevymezuje střed ani právní hranici rezervace."
         },
         {
           "id": "fact_013",
@@ -565,7 +579,7 @@
         {
           "id": "fact_012",
           "title": "Naturreservat Urwälder der Slowakei – Obrštín",
-          "text": "Das Naturreservat wurde durch die Regierungsverordnung Nr. 427/2021 ausgewiesen und umfasst 104,9506 Hektar. Es liegt im Katastralgebiet Jasenie im unteren Teil des Tals Lomnistá, etwa vier Kilometer nördlich des Dorfes, zwischen Obrštín und Horné blatá. Geschützt werden europaweit bedeutende Buchen- und Tannen-Buchenwälder sowie Linden-Ahorn-Schuttwälder."
+          "text": "Das Naturreservat wurde durch die Regierungsverordnung Nr. 427/2021 ausgewiesen und umfasst 104,9506 Hektar. Es liegt im Katastralgebiet Jasenie im unteren Teil des Tals Lomnistá, etwa vier Kilometer nördlich des Dorfes, zwischen Obrštín und Horné blatá. Geschützt werden europaweit bedeutende Buchen- und Tannen-Buchenwälder sowie Linden-Ahorn-Schuttwälder. Der Kartenpunkt markiert den Gipfel Obrštín als Orientierungspunkt am Rand des beschriebenen Gebiets; er kennzeichnet weder das Zentrum noch die rechtliche Grenze des Reservats."
         },
         {
           "id": "fact_013",
@@ -635,7 +649,7 @@
         {
           "id": "fact_012",
           "title": "Pralesy Slovenska – Obrštín Nature Reserve",
-          "text": "The reserve was established by Slovak Government Regulation No. 427/2021 and covers 104.9506 hectares. It lies within the Jasenie cadastral area in the lower part of Lomnistá Valley, about four kilometres north of the village, between Obrštín and Horné blatá. It protects European-interest beech and fir-beech forests as well as lime-maple scree forests."
+          "text": "The reserve was established by Slovak Government Regulation No. 427/2021 and covers 104.9506 hectares. It lies within the Jasenie cadastral area in the lower part of Lomnistá Valley, about four kilometres north of the village, between Obrštín and Horné blatá. It protects European-interest beech and fir-beech forests as well as lime-maple scree forests. The map pin marks the summit of Obrštín as an orientation point at the edge of the described area; it does not define the reserve’s centre or legal boundary."
         },
         {
           "id": "fact_013",
@@ -705,7 +719,7 @@
         {
           "id": "fact_012",
           "title": "Reserva natural Pralesy Slovenska – Obrštín",
-          "text": "La reserva fue declarada mediante el Decreto del Gobierno eslovaco n.º 427/2021 y ocupa 104,9506 hectáreas. Se encuentra en el término catastral de Jasenie, en la parte baja del valle de Lomnistá, a unos cuatro kilómetros al norte del pueblo, entre Obrštín y Horné blatá. Protege hayedos y hayedo-abetales de importancia europea, así como bosques de arce y tilo sobre pedregales."
+          "text": "La reserva fue declarada mediante el Decreto del Gobierno eslovaco n.º 427/2021 y ocupa 104,9506 hectáreas. Se encuentra en el término catastral de Jasenie, en la parte baja del valle de Lomnistá, a unos cuatro kilómetros al norte del pueblo, entre Obrštín y Horné blatá. Protege hayedos y hayedo-abetales de importancia europea, así como bosques de arce y tilo sobre pedregales. El punto del mapa señala la cima de Obrštín como referencia en el borde de la zona descrita; no indica el centro ni los límites legales de la reserva."
         },
         {
           "id": "fact_013",
@@ -775,7 +789,7 @@
         {
           "id": "fact_012",
           "title": "Réserve naturelle Pralesy Slovenska – Obrštín",
-          "text": "La réserve a été créée par le décret gouvernemental slovaque no 427/2021 et couvre 104,9506 hectares. Elle se trouve dans le territoire cadastral de Jasenie, dans la partie basse de la vallée de Lomnistá, à environ quatre kilomètres au nord du village, entre Obrštín et Horné blatá. Elle protège des hêtraies et hêtraies-sapinières d’importance européenne ainsi que des forêts de pente à tilleuls et érables."
+          "text": "La réserve a été créée par le décret gouvernemental slovaque no 427/2021 et couvre 104,9506 hectares. Elle se trouve dans le territoire cadastral de Jasenie, dans la partie basse de la vallée de Lomnistá, à environ quatre kilomètres au nord du village, entre Obrštín et Horné blatá. Elle protège des hêtraies et hêtraies-sapinières d’importance européenne ainsi que des forêts de pente à tilleuls et érables. Le point cartographique indique le sommet d’Obrštín comme repère en bordure de la zone décrite ; il ne définit ni le centre ni les limites légales de la réserve."
         },
         {
           "id": "fact_013",
@@ -845,7 +859,7 @@
         {
           "id": "fact_012",
           "title": "Riserva naturale Pralesy Slovenska – Obrštín",
-          "text": "La riserva è stata istituita con il decreto governativo slovacco n. 427/2021 e copre 104,9506 ettari. Si trova nel territorio catastale di Jasenie, nella parte bassa della valle di Lomnistá, circa quattro chilometri a nord del paese, tra Obrštín e Horné blatá. Protegge faggete e faggete-abetine di interesse europeo, oltre a boschi di tiglio e acero su detriti."
+          "text": "La riserva è stata istituita con il decreto governativo slovacco n. 427/2021 e copre 104,9506 ettari. Si trova nel territorio catastale di Jasenie, nella parte bassa della valle di Lomnistá, circa quattro chilometri a nord del paese, tra Obrštín e Horné blatá. Protegge faggete e faggete-abetine di interesse europeo, oltre a boschi di tiglio e acero su detriti. Il punto sulla mappa indica la cima di Obrštín come riferimento sul margine dell’area descritta; non ne definisce il centro né i confini legali della riserva."
         },
         {
           "id": "fact_013",
@@ -915,7 +929,7 @@
         {
           "id": "fact_012",
           "title": "Natuurreservaat Pralesy Slovenska – Obrštín",
-          "text": "Het reservaat werd ingesteld bij Slowaakse regeringsverordening nr. 427/2021 en beslaat 104,9506 hectare. Het ligt binnen het kadastrale gebied van Jasenie in het onderste deel van de vallei Lomnistá, ongeveer vier kilometer ten noorden van het dorp, tussen Obrštín en Horné blatá. Het beschermt vooral beuken- en zilverspar-beukenbossen van Europees belang en linde-esdoornbossen op puinhellingen."
+          "text": "Het reservaat werd ingesteld bij Slowaakse regeringsverordening nr. 427/2021 en beslaat 104,9506 hectare. Het ligt binnen het kadastrale gebied van Jasenie in het onderste deel van de vallei Lomnistá, ongeveer vier kilometer ten noorden van het dorp, tussen Obrštín en Horné blatá. Het beschermt vooral beuken- en zilverspar-beukenbossen van Europees belang en linde-esdoornbossen op puinhellingen. De kaartpin markeert de top van Obrštín als oriëntatiepunt aan de rand van het beschreven gebied; hij geeft niet het centrum of de wettelijke grens van het reservaat aan."
         },
         {
           "id": "fact_013",
