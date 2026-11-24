@@ -211,18 +211,18 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiální vyhledávací rozhraní konzultováno; fyzické adresy s PSČ 976 98 jsou doloženy oficiálními stránkami obcí Podbrezová a Dolná Lehota. OMA/OSM orientačně uvádí oblast PSČ 976 98 jako Dolná Lehota a Lopej.",
+    "plz_source": "Slovenská pošta – oficiální vyhledávací rozhraní; číselník PSČ obcí SR a ČR v PortalVS uvádí jako zdroj Slovenskou poštu. Konkrétní fyzické adresy s PSČ 976 98 jsou doloženy oficiálními stránkami obcí Podbrezová a Dolná Lehota; OMA/OSM slouží jako sekundární prostorová kontrola.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": null,
+    "postcode_source_dataset": "PSČ obcí SR a ČR – číselník PortalVS, zdroj Slovenská pošta (metadata aktualizace 20. 9. 2017; konkrétní exportní řádek nebyl v rozhraní čitelný)",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-24",
     "postcode_conflict": false,
-    "postcode_conflict_note": null,
-    "delivery_office_note": "PSČ 976 98 je doloženo pro fyzické adresy v samostatné obci Dolná Lehota i pro lokalitu Lopej v obci Podbrezová; oficiální stránka Podbrezové uvádí poštovní provozovnu Lopej a adresy s PSČ 976 98, oficiální stránka Dolné Lehoty uvádí obecní úřad na adrese Dolná Lehota 162 s PSČ 976 98 (poštovní lokalita Lopej) a školský registr uvádí školu Dolná Lehota 161 s PSČ 976 98 Dolná Lehota. OMA/OSM zobrazuje PSČ 976 98 pro Dolnú Lehotu a Lopej a v seznamu ulic také Vajskovú. Dolná Lehota je zvolena jako reprezentativní obec, protože většina ověřených významných fyzických lokalit a přírodních/historických témat tohoto záznamu leží v jejím katastru; Lopej a Vajsková zůstávají součástí širšího výzkumného rozsahu. Veřejně dostupný oficiální polygon Slovenské pošty nebyl nalezen, proto se netvrdí přesná hranice doručovacího obvodu ani to, že celé sousední obce patří pod toto PSČ.",
+    "postcode_conflict_note": "Oficiální dokumenty obce Dolná Lehota zapisují stejnou adresu jednou jako „976 98 Lopej“ a jindy jako „976 98 Dolná Lehota“. Jde o rozdílný zápis poštovní lokality, nikoli o rozpor v samotném PSČ; doručovací oblast je v OMA/OSM vedena pro Dolnú Lehotu i Lopej.",
+    "delivery_office_note": "PSČ 976 98 je doloženo pro fyzické adresy v samostatné obci Dolná Lehota i pro lokalitu Lopej v obci Podbrezová. Oficiální stránka Dolné Lehoty uvádí obecní úřad na adrese Dolná Lehota 162, 976 98 Lopej; úřední dokumenty téže obce používají také zápis 976 98 Dolná Lehota. Oficiální stránka Podbrezové uvádí poštovní provozovnu Lopej a adresy s PSČ 976 98. OMA/OSM zobrazuje PSČ 976 98 pro Dolnú Lehotu a Lopej a v seznamu ulic také Vajskovú. Dolná Lehota je zvolena jako reprezentativní obec, protože většina ověřených významných fyzických lokalit a přírodních/historických témat tohoto záznamu leží v jejím katastru; Lopej a Vajsková zůstávají součástí širšího výzkumného rozsahu. Veřejně dostupný oficiální polygon Slovenské pošty nebyl nalezen, proto se netvrdí přesná hranice doručovacího obvodu ani to, že celé sousední obce patří pod toto PSČ.",
     "postcode_override_reason": null,
-    "geographic_authority": "Oficiální profily obcí Dolná Lehota a Podbrezová na portálu slovensko.sk, obecní adresy a mapové podklady. RAGEO – oficiální registr adres konzultován, ale v tomto průchodu nebyl dostupný přímý export konkrétních adresních bodů. OMA/OSM slouží pouze jako orientační potvrzení, že PSČ 976 98 zahrnuje Dolnú Lehotu a Lopej; přesný oficiální polygon se netvrdí."
+    "geographic_authority": "Oficiální profily obcí Dolná Lehota a Podbrezová na portálu slovensko.sk, obecní adresy, oficiální environmentální registr a odborné mapové podklady. RAGEO – oficiální registr adres konzultován, ale v tomto průchodu nebyl dostupný přímý export konkrétních adresních bodů. OMA/OSM slouží pouze jako orientační potvrzení, že PSČ 976 98 zahrnuje Dolnú Lehotu a Lopej; přesný oficiální polygon se netvrdí."
   },
   "sources": [
     {
@@ -344,6 +344,16 @@
       "title": "OMA – mapové zobrazení PSČ 976 98, Dolná Lehota a Lopej",
       "url": "https://www.oma.sk/?s=97698",
       "type": "other"
+    },
+    {
+      "title": "PortalVS – číselník PSČ obcí SR a ČR, zdroj dat Slovenská pošta",
+      "url": "https://ciselniky.portalvs.sk/classifier/show/basic/42",
+      "type": "official"
+    },
+    {
+      "title": "Obec Dolná Lehota – oficiální kontaktní adresa obecního úřadu s PSČ 976 98",
+      "url": "https://www.dolnalehota.sk/kontakt/",
+      "type": "official"
     }
   ],
   "translations": {
