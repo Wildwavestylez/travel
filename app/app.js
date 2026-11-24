@@ -43,6 +43,7 @@ const LANGS=['cs','de','en','es','fr','it','nl'];
 const COUNTRIES=[
   {code:'DE',flag:'🇩🇪',name:'Germany',start:'01067',enabled:true},
   {code:'CZ',flag:'🇨🇿',name:'Czech Republic',start:null,enabled:true},
+  {code:'SK',flag:'🇸🇰',name:'Slovakia',start:'01001',enabled:true},
   {code:'AT',flag:'🇦🇹',name:'Austria',start:null,enabled:false},
   {code:'PL',flag:'🇵🇱',name:'Poland',start:null,enabled:false},
   {code:'NL',flag:'🇳🇱',name:'Netherlands',start:null,enabled:false},
@@ -175,32 +176,26 @@ const hav=(a,b)=>{
 };
 const SUPABASE_URL='https://ipnkjcpewtdaikiyzktv.supabase.co';
 const SUPABASE_KEY='sb_publishable_BWmRql2mXQvdCwn-7w0wVA_jXncEWXB';
-// Czech and Italian production records are read from their Neon JSONB tables.
+// Czech, Slovak and Italian production records are read from Neon JSONB tables.
 // The browser uses the existing read-only role; no writes are performed here.
-const CZECH_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
-const ITALY_DATABASE_URL=CZECH_DATABASE_URL;
-let czechSqlPromise=null, italySqlPromise=null;
-async function getCzechSql(){
-  if(!czechSqlPromise)czechSqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
-    .then(({neon})=>neon(CZECH_DATABASE_URL,{disableWarningInBrowsers:true}))
-    .catch(error=>{czechSqlPromise=null;throw error;});
-  return czechSqlPromise;
-}
-async function getItalySql(){
-  if(!italySqlPromise)italySqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
-    .then(({neon})=>neon(ITALY_DATABASE_URL,{disableWarningInBrowsers:true}))
-    .catch(error=>{italySqlPromise=null;throw error;});
-  return italySqlPromise;
+const NEON_DATABASE_URL='postgresql://travel_reader:7T_swaVG-dzyx_cxj_47upFddYwdVHzu4Y3TQcsiyBibJLKa@ep-floral-grass-bgpfzbe4-pooler.c-9.eu-central-1.aws.neon.tech/neondb?channel_binding=require&sslmode=require';
+let neonSqlPromise=null;
+async function getNeonSql(){
+  if(!neonSqlPromise)neonSqlPromise=import('https://esm.sh/@neondatabase/serverless@1.2.1?bundle')
+    .then(({neon})=>neon(NEON_DATABASE_URL,{disableWarningInBrowsers:true}))
+    .catch(error=>{neonSqlPromise=null;throw error;});
+  return neonSqlPromise;
 }
 let dataMap=new Map();
 
-// Germany retains its existing Supabase source. Czechia and Italy use Neon.
+// Germany retains its existing Supabase source. Czechia, Slovakia and Italy use Neon.
 async function fetchPostalRows(){
-  if(countryCode==='CZ'){
-    const sql=await getCzechSql();
+  if(countryCode==='CZ'||countryCode==='SK'){
+    const sql=await getNeonSql();
+    const table=countryCode==='SK'?'public.slovakia_cap_records':'public.czechia_cap_records';
     const rows=await sql.query(
-      "SELECT postcode, record FROM public.czechia_cap_records WHERE workflow_status = $1 AND record IS NOT NULL ORDER BY postcode ASC",
-      ['published']
+      "SELECT postcode, record FROM "+table+" WHERE workflow_status = $1 AND record IS NOT NULL AND record->>'status' = $1"+(countryCode==='SK'?" AND record->>'data_version' = $2":"")+" ORDER BY postcode ASC",
+      countryCode==='SK'?['published','5']:['published']
     );
     return rows.map(row=>{
       const content=row.record?.content||row.record||{};
@@ -208,7 +203,7 @@ async function fetchPostalRows(){
     });
   }
   if(countryCode==='IT'){
-    const sql=await getItalySql();
+    const sql=await getNeonSql();
     const rows=await sql.query(
       "SELECT postcode, record FROM public.italy_cap_records WHERE workflow_status = $1 AND record->>'status' = $1 AND record->>'data_version' = $2 AND record IS NOT NULL ORDER BY postcode ASC",
       ['published','5']
@@ -229,11 +224,13 @@ async function loadPostalData(){
   const data=await fetchPostalRows();
   if(!data?.length)throw Error(countryCode==='CZ'
     ? 'Neon neobsahuje žádná publikovaná česká PSČ.'
-    : countryCode==='IT'
-      ? 'Neon neobsahuje žádná publikovaná italská CAP ve verzi V5.'
-      : 'Supabase neobsahuje žádná publikovaná německá PSČ.');
+    : countryCode==='SK'
+      ? 'Neon neobsahuje žádná publikovaná slovenská PSČ ve verzi V5.'
+      : countryCode==='IT'
+        ? 'Neon neobsahuje žádná publikovaná italská CAP ve verzi V5.'
+        : 'Supabase neobsahuje žádná publikovaná německá PSČ.');
   dataMap=new Map(data.map(row=>{
-    if(countryCode==='CZ'||countryCode==='IT'){
+    if(countryCode==='CZ'||countryCode==='SK'||countryCode==='IT'){
       const record=row.record||row;
       return [row.postal_code,{
         ...record,
