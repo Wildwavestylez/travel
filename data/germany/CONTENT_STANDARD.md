@@ -2,12 +2,13 @@
 
 ## 1. Single source of truth
 
-For German postal-code data, the only authoritative production rules are:
+For German postal-code data, the binding production contract consists of:
 
-1. `schema.json` — machine-readable structure and validation rules.
-2. `CONTENT_STANDARD.md` — semantic/content rules.
+1. `schema.json` — machine-readable structure, required fields, data types and controlled values.
+2. `CONTENT_STANDARD.md` — semantic, research, geographic, source, editorial and translation rules.
+3. `COUNTRY_PROFILE.md` — German postal, geographic and administrative meaning of the schema fields.
 
-Every new JSON record MUST comply with both.
+The create, rework and audit prompts define the workflow only; they may not weaken these three governing documents. Every new or reworked JSON payload MUST comply with the schema, Content Standard and Country Profile.
 
 No new JSON may be created outside these rules. Do not add fields, sections, facts, categories, source practices or content patterns ad hoc.
 
