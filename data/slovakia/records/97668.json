@@ -150,10 +150,19 @@
       "priority": "C",
       "sources": [
         "https://digilib.phil.muni.cz/_flysystem/fedora/pdf/113730.pdf",
-        "https://www.muranskadlhaluka.sk/dokumenty/rozhodnutie_zp_-_brezno_27.10..pdf"
+        "https://www.muranskadlhaluka.sk/dokumenty/rozhodnutie_zp_-_brezno_27.10..pdf",
+        "https://poi.oma.sk/n9533209801"
       ],
       "map_category": "archaeological_site",
-      "location": null
+      "location": {
+        "name": "Heľpa, námestie – orientační bod pro archeologické nálezy z katastru obce",
+        "address": "Partizánska 19, 976 68 Heľpa, Slovensko",
+        "lat": 48.8636539,
+        "lon": 19.9675192,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n9533209801"
+      }
     },
     {
       "id": "fact_008",
@@ -253,6 +262,11 @@
       "title": "Národný park Muránska planina – Náučný chodník Stožky a prírodné rezervácie Veľká a Malá Stožka",
       "url": "https://www.npmp.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/",
       "type": "official"
+    },
+    {
+      "title": "Heľpa, námestie – mapový orientačný bod",
+      "url": "https://poi.oma.sk/n9533209801",
+      "type": "other"
     }
   ],
   "translations": {
