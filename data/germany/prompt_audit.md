@@ -15,6 +15,7 @@ Authority: the schema defines structure and permitted values; the German Content
 Before starting, load the current:
 - `data/germany/schema.json`
 - `data/germany/CONTENT_STANDARD.md`
+- `data/germany/COUNTRY_PROFILE.md`
 - `data/germany/prompt_rework.md`
 - relevant sequence/inventory files
 - the register and canonical audit ledger for the exact scope in `data/germany/audits/`
