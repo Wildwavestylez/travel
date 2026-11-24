@@ -241,9 +241,18 @@
       "priority": "C",
       "map_category": "nature",
       "sources": [
-        "https://static.slov-lex.sk/pdf/SK/ZZ/2021/427/ZZ_2021_427.pdf"
+        "https://static.slov-lex.sk/pdf/SK/ZZ/2021/427/ZZ_2021_427.pdf",
+        "https://poi.oma.sk/n1976953416"
       ],
-      "location": null
+      "location": {
+        "name": "Ráztocká hoľa – orientační bod přírodní rezervace",
+        "address": "Ráztocká hoľa, 976 75 Jasenie, Slovensko",
+        "lat": 48.8829224,
+        "lon": 19.3867754,
+        "type": "nature_reserve",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n1976953416"
+      }
     },
     {
       "id": "fact_012",
@@ -417,6 +426,11 @@
       "title": "Pralesy.sk – Špíglová, pralesové zvyšky a lesné biotopy",
       "url": "https://www.pralesy.sk/lokality/lokality-pralesov.html?filt=asc&ord=ortc",
       "type": "specialist"
+    },
+    {
+      "title": "Ráztocká hoľa – mapový bod",
+      "url": "https://poi.oma.sk/n1976953416",
+      "type": "other"
     }
   ],
   "translations": {
