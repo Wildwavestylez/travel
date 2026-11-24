@@ -1,4 +1,474 @@
 {
   "postcode": "90055",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Lozorno",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Kostel sv. Kataríny v historickém centru Lozorna",
+  "representative_point": {
+    "lat": 48.3323073,
+    "lon": 17.0429066
+  },
+  "access_point": {
+    "lat": 48.3323073,
+    "lon": 17.0429066
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Lozorno na obchodní cestě: od Ezelarn k dnešnímu jménu",
+      "text": "Lozorno leží na staré trase spojující Záhoří s okolními oblastmi. Obecní historie uvádí první písemnou zmínku z roku 1438 v podobě Ezelarn; název se pravděpodobně odvozuje od německého slova Esel, tedy osel. Podle místního historického výkladu zde obchodníci měnili a připravovali oslí zápřahy pro přepravu zboží k uherské celní stanici ve Stupavě. Podoba Zorno je doložena roku 1589 a dnešní jméno Lozorno se začalo používat roku 1773. Výklad původu názvu je třeba chápat jako pravděpodobnou etymologii, nikoli jako jistotu.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/dejiny-obce/"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické centrum Lozorna – orientační bod u kostela sv. Kataríny",
+        "address": "Hlavná 10, 900 55 Lozorno, Slovensko",
+        "lat": 48.3323073,
+        "lon": 17.0429066,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://poi.oma.sk/w62319648"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel svaté Kateřiny Alexandrijské",
+      "text": "Dominantou historického centra je římskokatolický kostel zasvěcený svaté Kateřině Alexandrijské. Odborný památkový popis datuje jeho výstavbu do roku 1629; kostel byl vysvěcen 24. listopadu 1630. V letech 1826–1827 prošel přestavbou a rozšířením, při němž se změnila orientace stavby a původní loď začala sloužit jako presbytář. V interiéru se dochoval renesanční stříbrný kříž z roku 1630. Obecní pramen připomíná také ruční výrobu cihel, z nichž je dnešní podoba kostela postavena.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/lozorno-kostol-sv-katariny-alexandrijskej",
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Kataríny Alexandrijské",
+        "address": "Hlavná 10, 900 55 Lozorno, Slovensko",
+        "lat": 48.3323073,
+        "lon": 17.0429066,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w62319648"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Barokní kaple svatého Vendelína",
+      "text": "V Lozornu stojí také barokní kaple svatého Vendelína, patrona dobytka, datovaná obecním přehledem do roku 1729. Její zasvěcení připomíná někdejší úzké propojení vesnického života se zemědělstvím a chovem hospodářských zvířat. Kaple patří k drobným sakrálním památkám obce; její význam je především místní a historicko-kulturní.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaplnka sv. Vendelína – přibližný mapový bod v ulici Družstevná",
+        "address": null,
+        "lat": 48.3363916,
+        "lon": 17.0373727,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n175858155"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Pamětní místo šedesáti padlých z první světové války",
+      "text": "U kostela se nachází pomník obyvatelům Lozorna padlým v první světové válce v letech 1914–1918. Obecní historický přehled uvádí šedesát mužů z Lozorna, kteří ve válce zahynuli; mezi nejmladšími jmenuje Mateje Haramiu, Vincenta Karoviče a Jána Ragase, kterým bylo dvacet let. Pomník tak připomíná nejen válečnou událost, ale i rozsah ztrát, které zasáhly jednu konkrétní obec.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/",
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/dejiny-obce/"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pomník obetiam 1. svetovej vojny – Športové námestie",
+        "address": "Športové námestie, 900 55 Lozorno, Slovensko",
+        "lat": 48.3351804,
+        "lon": 17.040291,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.oma.sk/u/sportove-namestie?s=lozorno"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Lozornská vodní nádrž a Suchý potok",
+      "text": "Nad obcí leží vodní nádrž Lozorno, jejíž vodní plocha má přibližně 35 hektarů. Z nádrže vytéká Suchý potok, který pokračuje přes obec. Nádrž a její okolí slouží k rekreaci, procházkám a rybaření; obecní rekreační areál je také dějištěm společenských akcí a setkávání obyvatel. Poloha na rozhraní Záhorské nížiny a západních svahů Malých Karpat dává místu charakter lesnaté krajiny s vodní plochou v bezprostředním zázemí obce.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://bratislavaregion.travel/poi/6657/vodna-nadrz-v-lozorne",
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Vodná nádrž Lozorno – střední část vodní plochy",
+        "address": null,
+        "lat": 48.3236,
+        "lon": 17.0637,
+        "type": "dam",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/W4470002"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Lesní železnice Lozorno–Volhovisko",
+      "text": "V letech 1920–1926 vznikala v okolí Lozorna lesní úzkorozchodná železnice s rozchodem 760 mm a parním provozem. Sloužila k dopravě dřeva z karpatských dolin, mimo jiné ze Žlebů, Lintáv, Prepadlého, Volhoviska a Košariska, do pily v Lozornu. Hlavní trať dosáhla délky přibližně jedenácti kilometrů a měla také odbočky do jednotlivých údolí. Po útlumu těžby a hospodářských potížích dřevařské společnosti byla dráha ve 30. letech zrušena. V terénu se místy dochovaly násypy, zářezy, propustky a další nenápadné stopy někdejší trati.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.lozorno.sk/evt_file.php?file=4127&original=april_2022.pdf",
+        "https://hiking.dennikn.sk/cyklo/ar/1852/lesna_zeleznica_lozorno_volhovisko.html",
+        "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Historická trasa lesní železnice – orientační bod v údolí Suchého potoka",
+        "address": null,
+        "lat": 48.3236,
+        "lon": 17.0637,
+        "type": "historic_railway_site",
+        "accuracy": "historical_approximate",
+        "source": "https://hiking.dennikn.sk/cyklo/ar/1852/lesna_zeleznica_lozorno_volhovisko.html"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam Slovenské pošty – seznam pošt s rozšířeným predajom; doplněno oficiální adresou obecního úřadu a obecními adresními údaji s PSČ 900 55.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-25",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní údaje Lozorna; Slovenská pošta pro poštovní identifikaci; mapové body OMA/OpenStreetMap pro ověření poloh."
+  },
+  "sources": [
+    {
+      "title": "Dejiny obce Lozorno",
+      "url": "https://www.lozorno.sk/zivot-v-obci/o-obci/dejiny-obce/",
+      "type": "official"
+    },
+    {
+      "title": "O obci Lozorno – pamiatky, vodná nádrž a lesná železnica",
+      "url": "https://www.lozorno.sk/zivot-v-obci/o-obci/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Kontakty obce Lozorno – adresa obecného úradu",
+      "url": "https://www.lozorno.sk/kontakty/",
+      "type": "official"
+    },
+    {
+      "title": "Kostol sv. Kataríny Alexandrijskej v Lozorne – stavebný vývoj a GPS",
+      "url": "https://www.pamiatkynaslovensku.sk/lozorno-kostol-sv-katariny-alexandrijskej",
+      "type": "specialist"
+    },
+    {
+      "title": "Kostol sv. Kataríny – mapový bod OMA/OpenStreetMap",
+      "url": "https://poi.oma.sk/w62319648",
+      "type": "other"
+    },
+    {
+      "title": "Kaplnka sv. Vendelína – mapový bod OMA/OpenStreetMap",
+      "url": "https://poi.oma.sk/n175858155",
+      "type": "other"
+    },
+    {
+      "title": "Športové námestie – pamätník obetiam 1. svetovej vojny, mapový bod",
+      "url": "https://www.oma.sk/u/sportove-namestie?s=lozorno",
+      "type": "other"
+    },
+    {
+      "title": "Vodná nádrž v Lozorne – Bratislava Region",
+      "url": "https://bratislavaregion.travel/poi/6657/vodna-nadrz-v-lozorne",
+      "type": "regional"
+    },
+    {
+      "title": "Vodná nádrž Lozorno – poloha a geografické údaje",
+      "url": "https://mapcarta.com/W4470002",
+      "type": "other"
+    },
+    {
+      "title": "Plánovanie vlakovej stanice – história železníc v okolí Lozorna",
+      "url": "https://www.lozorno.sk/evt_file.php?file=4127&original=april_2022.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Lesná železnica Lozorno – Volhovisko",
+      "url": "https://hiking.dennikn.sk/cyklo/ar/1852/lesna_zeleznica_lozorno_volhovisko.html",
+      "type": "specialist"
+    },
+    {
+      "title": "Zoznam pôšt s rozšíreným predajom – Pošta Lozorno, 900 55",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Kataríny v historickém centru Lozorna",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno na obchodní cestě: od Ezelarn k dnešnímu jménu",
+          "text": "Lozorno leží na staré trase spojující Záhoří s okolními oblastmi. Obecní historie uvádí první písemnou zmínku z roku 1438 v podobě Ezelarn; název se pravděpodobně odvozuje od německého slova Esel, tedy osel. Podle místního historického výkladu zde obchodníci měnili a připravovali oslí zápřahy pro přepravu zboží k uherské celní stanici ve Stupavě. Podoba Zorno je doložena roku 1589 a dnešní jméno Lozorno se začalo používat roku 1773. Výklad původu názvu je třeba chápat jako pravděpodobnou etymologii, nikoli jako jistotu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel svaté Kateřiny Alexandrijské",
+          "text": "Dominantou historického centra je římskokatolický kostel zasvěcený svaté Kateřině Alexandrijské. Odborný památkový popis datuje jeho výstavbu do roku 1629; kostel byl vysvěcen 24. listopadu 1630. V letech 1826–1827 prošel přestavbou a rozšířením, při němž se změnila orientace stavby a původní loď začala sloužit jako presbytář. V interiéru se dochoval renesanční stříbrný kříž z roku 1630. Obecní pramen připomíná také ruční výrobu cihel, z nichž je dnešní podoba kostela postavena."
+        },
+        {
+          "id": "fact_003",
+          "title": "Barokní kaple svatého Vendelína",
+          "text": "V Lozornu stojí také barokní kaple svatého Vendelína, patrona dobytka, datovaná obecním přehledem do roku 1729. Její zasvěcení připomíná někdejší úzké propojení vesnického života se zemědělstvím a chovem hospodářských zvířat. Kaple patří k drobným sakrálním památkám obce; její význam je především místní a historicko-kulturní."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pamětní místo šedesáti padlých z první světové války",
+          "text": "U kostela se nachází pomník obyvatelům Lozorna padlým v první světové válce v letech 1914–1918. Obecní historický přehled uvádí šedesát mužů z Lozorna, kteří ve válce zahynuli; mezi nejmladšími jmenuje Mateje Haramiu, Vincenta Karoviče a Jána Ragase, kterým bylo dvacet let. Pomník tak připomíná nejen válečnou událost, ale i rozsah ztrát, které zasáhly jednu konkrétní obec."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lozornská vodní nádrž a Suchý potok",
+          "text": "Nad obcí leží vodní nádrž Lozorno, jejíž vodní plocha má přibližně 35 hektarů. Z nádrže vytéká Suchý potok, který pokračuje přes obec. Nádrž a její okolí slouží k rekreaci, procházkám a rybaření; obecní rekreační areál je také dějištěm společenských akcí a setkávání obyvatel. Poloha na rozhraní Záhorské nížiny a západních svahů Malých Karpat dává místu charakter lesnaté krajiny s vodní plochou v bezprostředním zázemí obce."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lesní železnice Lozorno–Volhovisko",
+          "text": "V letech 1920–1926 vznikala v okolí Lozorna lesní úzkorozchodná železnice s rozchodem 760 mm a parním provozem. Sloužila k dopravě dřeva z karpatských dolin, mimo jiné ze Žlebů, Lintáv, Prepadlého, Volhoviska a Košariska, do pily v Lozornu. Hlavní trať dosáhla délky přibližně jedenácti kilometrů a měla také odbočky do jednotlivých údolí. Po útlumu těžby a hospodářských potížích dřevařské společnosti byla dráha ve 30. letech zrušena. V terénu se místy dochovaly násypy, zářezy, propustky a další nenápadné stopy někdejší trati."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Katharinenkirche im historischen Zentrum von Lozorno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno an einer Handelsroute: von Ezelarn zum heutigen Namen",
+          "text": "Lozorno liegt an einer alten Route, die Záhorie mit den umliegenden Gebieten verband. Die Gemeindegeschichte nennt 1438 als erste schriftliche Erwähnung in der Form Ezelarn; der Name wird wahrscheinlich vom deutschen Wort Esel abgeleitet. Nach der lokalen historischen Deutung wechselten Händler hier ihre Eselgespanne und bereiteten sie für den Warentransport zur ungarischen Zollstation in Stupava vor. Die Form Zorno ist 1589 belegt, der heutige Name Lozorno wurde ab 1773 verwendet. Die Namensdeutung gilt als wahrscheinliche Etymologie, nicht als gesicherte Tatsache."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Katharinenkirche von Alexandrien",
+          "text": "Die römisch-katholische Kirche der heiligen Katharina von Alexandrien prägt das historische Zentrum. Die denkmalfachliche Beschreibung datiert den Bau auf 1629; geweiht wurde er am 24. November 1630. In den Jahren 1826–1827 wurde die Kirche umgebaut und erweitert; dabei änderte sich ihre Ausrichtung und das ursprüngliche Kirchenschiff wurde zum Chorraum. Im Inneren befindet sich ein silbernes Renaissancekreuz aus dem Jahr 1630. Die Gemeinde erinnert auch daran, dass die Ziegel für das heutige Kirchengebäude von den Einwohnern in Handarbeit hergestellt wurden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die barocke Kapelle des heiligen Wendelin",
+          "text": "In Lozorno steht auch eine barocke Kapelle des heiligen Wendelin, des Schutzpatrons der Viehzüchter. Die Gemeinde datiert sie auf 1729. Ihr Patrozinium erinnert an die enge Verbindung des früheren Dorflebens mit Landwirtschaft und Viehzucht. Die Kapelle gehört zum kleineren sakralen Kulturerbe des Ortes und besitzt vor allem lokale historische und kulturelle Bedeutung."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenkstätte für sechzig Gefallene des Ersten Weltkriegs",
+          "text": "Beim Kirchenbereich befindet sich ein Denkmal für die Einwohner von Lozorno, die im Ersten Weltkrieg 1914–1918 gefallen sind. Die Gemeindegeschichte nennt sechzig Männer aus Lozorno; zu den jüngsten gehörten Matej Haramia, Vincent Karovič und Ján Ragas, die erst zwanzig Jahre alt waren. Das Denkmal erinnert sowohl an den Krieg als auch an die Verluste, die eine einzelne Gemeinde trafen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Stausee von Lozorno und der Bach Suchý potok",
+          "text": "Oberhalb des Dorfes liegt der Stausee Lozorno mit einer Wasserfläche von etwa 35 Hektar. Aus dem Stausee fließt der Bach Suchý potok, der anschließend durch das Dorf verläuft. Das Gewässer und seine Umgebung dienen der Erholung, Spaziergängen und dem Angeln; das Freizeitareal ist außerdem Schauplatz von Gemeindeveranstaltungen und Begegnungen. Die Lage am Übergang zwischen dem Tiefland Záhorská nížina und den Westhängen der Kleinen Karpaten prägt die waldreiche Landschaft."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Waldbahn Lozorno–Volhovisko",
+          "text": "Zwischen 1920 und 1926 entstand in der Umgebung von Lozorno eine dampfbetriebene Waldbahn mit 760 mm Spurweite. Sie transportierte Holz aus den Tälern der Kleinen Karpaten, unter anderem aus Žleby, Lintávy, Prepadlé, Volhovisko und Košarisko, zum Sägewerk in Lozorno. Die Hauptstrecke war etwa elf Kilometer lang und hatte mehrere Abzweigungen in die Täler. Nach dem Rückgang der Holzgewinnung und wirtschaftlichen Schwierigkeiten des Holzunternehmens wurde die Bahn in den 1930er Jahren eingestellt. Im Gelände sind stellenweise noch Dämme, Einschnitte, Durchlässe und andere unscheinbare Spuren erkennbar."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Catherine’s Church in Lozorno’s historic centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno on a trade route: from Ezelarn to its present name",
+          "text": "Lozorno lies on an old route linking the Záhorie region with surrounding areas. The municipal history gives 1438 as the first written mention, in the form Ezelarn; the name is probably derived from the German word Esel, meaning donkey. According to the local historical interpretation, merchants changed and prepared donkey teams here for transporting goods to the Hungarian customs station in Stupava. The form Zorno is documented in 1589, while the present name Lozorno began to be used in 1773. This explanation should be understood as a probable etymology, not a certainty."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of St Catherine of Alexandria",
+          "text": "The Roman Catholic Church of St Catherine of Alexandria dominates the historic centre. A specialist heritage description dates its construction to 1629; it was consecrated on 24 November 1630. It was rebuilt and enlarged in 1826–1827, when its orientation changed and the original nave became the presbytery. The interior preserves a silver Renaissance cross from 1630. The municipality also notes that local people made the bricks used in the church’s present form by hand."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Baroque Chapel of St Wendelin",
+          "text": "Lozorno is also home to a Baroque chapel dedicated to St Wendelin, patron saint of livestock and herders. The municipality dates it to 1729. Its dedication recalls the close connection between village life, farming and animal husbandry in earlier centuries. It is one of the village’s smaller sacred heritage sites, with primarily local historical and cultural significance."
+        },
+        {
+          "id": "fact_004",
+          "title": "Memorial to the sixty men who fell in the First World War",
+          "text": "Near the church stands a memorial to Lozorno residents who died in the First World War of 1914–1918. The municipal history records sixty men from the village among the fallen; the youngest included Matej Haramia, Vincent Karovič and Ján Ragas, all aged twenty. The memorial recalls both the wider conflict and the losses suffered by one particular community."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lozorno Reservoir and the Suchý potok stream",
+          "text": "Above the village lies Lozorno Reservoir, with a water surface of approximately 35 hectares. The Suchý potok stream flows out of the reservoir and continues through the village. The water and its surroundings are used for recreation, walks and fishing; the municipal recreation area also hosts community events and gatherings. The setting between the Záhorie Lowland and the western slopes of the Little Carpathians gives the area its wooded landscape character."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Lozorno–Volhovisko forest railway",
+          "text": "Between 1920 and 1926, a 760 mm narrow-gauge, steam-operated forest railway was built around Lozorno. It carried timber from Little Carpathian valleys, including Žleby, Lintávy, Prepadlé, Volhovisko and Košarisko, to the sawmill in Lozorno. The main line reached about eleven kilometres and had branches into individual valleys. After timber extraction declined and the timber company ran into financial difficulties, the railway was closed in the 1930s. Embankments, cuttings, culverts and other subtle traces can still be found in parts of the terrain."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de Santa Catalina en el centro histórico de Lozorno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno en una ruta comercial: de Ezelarn al nombre actual",
+          "text": "Lozorno se encuentra en una antigua ruta que conectaba la región de Záhorie con los territorios vecinos. La historia municipal sitúa la primera mención escrita en 1438, bajo la forma Ezelarn; probablemente el nombre deriva de la palabra alemana Esel, «burro». Según la interpretación histórica local, los comerciantes cambiaban y preparaban aquí sus recuas de burros para transportar mercancías hasta la estación aduanera húngara de Stupava. La forma Zorno está documentada en 1589 y el nombre actual Lozorno comenzó a utilizarse en 1773. Esta explicación debe entenderse como una etimología probable, no como una certeza."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de Santa Catalina de Alejandría",
+          "text": "La iglesia católica romana dedicada a Santa Catalina de Alejandría domina el centro histórico. La descripción especializada del patrimonio fecha su construcción en 1629; fue consagrada el 24 de noviembre de 1630. Entre 1826 y 1827 fue reconstruida y ampliada, y se modificó su orientación: la nave original pasó a funcionar como presbiterio. En el interior se conserva una cruz renacentista de plata de 1630. El municipio señala también que los habitantes fabricaron a mano los ladrillos de la forma actual del templo."
+        },
+        {
+          "id": "fact_003",
+          "title": "La capilla barroca de San Wendelin",
+          "text": "Lozorno conserva también una capilla barroca dedicada a san Wendelin, patrón del ganado y de los pastores. El municipio la fecha en 1729. Su advocación recuerda la estrecha relación que existía entre la vida rural, la agricultura y la ganadería. Es uno de los pequeños monumentos religiosos de la localidad y posee principalmente un valor histórico y cultural local."
+        },
+        {
+          "id": "fact_004",
+          "title": "Monumento a los sesenta vecinos caídos en la Primera Guerra Mundial",
+          "text": "Cerca de la iglesia se encuentra un monumento dedicado a los habitantes de Lozorno que murieron en la Primera Guerra Mundial, entre 1914 y 1918. La historia municipal registra sesenta hombres del pueblo entre los caídos; entre los más jóvenes figuran Matej Haramia, Vincent Karovič y Ján Ragas, todos de veinte años. El monumento recuerda tanto el conflicto como las pérdidas sufridas por una comunidad concreta."
+        },
+        {
+          "id": "fact_005",
+          "title": "El embalse de Lozorno y el arroyo Suchý potok",
+          "text": "Por encima del pueblo se encuentra el embalse de Lozorno, cuya superficie de agua ocupa aproximadamente 35 hectáreas. De él nace el arroyo Suchý potok, que continúa su curso a través de la localidad. El embalse y sus alrededores se utilizan para el ocio, los paseos y la pesca; la zona recreativa municipal también acoge actividades y encuentros comunitarios. Su situación entre la llanura de Záhorie y las laderas occidentales de los Pequeños Cárpatos define un paisaje boscoso."
+        },
+        {
+          "id": "fact_006",
+          "title": "El ferrocarril forestal Lozorno–Volhovisko",
+          "text": "Entre 1920 y 1926 se construyó en los alrededores de Lozorno un ferrocarril forestal de vía estrecha, 760 mm de ancho y tracción a vapor. Transportaba madera desde los valles de los Pequeños Cárpatos —entre ellos Žleby, Lintávy, Prepadlé, Volhovisko y Košarisko— hasta el aserradero de Lozorno. La línea principal alcanzó unos once kilómetros y contaba con ramales hacia distintos valles. Tras disminuir la explotación forestal y atravesar dificultades económicas la empresa maderera, el ferrocarril fue clausurado en los años treinta. En el terreno aún pueden reconocerse algunos terraplenes, desmontes, alcantarillas y otros vestigios discretos."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Sainte-Catherine au cœur historique de Lozorno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno sur une route commerciale : d’Ezelarn à son nom actuel",
+          "text": "Lozorno se trouve sur un ancien itinéraire reliant la région de Záhorie aux territoires voisins. L’histoire communale indique une première mention écrite en 1438 sous la forme Ezelarn ; le nom dériverait probablement du mot allemand Esel, qui signifie « âne ». Selon l’interprétation historique locale, les marchands y échangeaient et préparaient leurs attelages d’ânes pour transporter les marchandises vers le poste douanier hongrois de Stupava. La forme Zorno est attestée en 1589 et le nom actuel Lozorno commence à être employé en 1773. Cette explication doit être considérée comme une étymologie probable, et non comme une certitude."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Sainte-Catherine d’Alexandrie",
+          "text": "L’église catholique romaine dédiée à sainte Catherine d’Alexandrie domine le centre historique. La description patrimoniale spécialisée date sa construction de 1629 ; elle fut consacrée le 24 novembre 1630. Elle a été reconstruite et agrandie en 1826–1827, avec un changement d’orientation : la nef d’origine est devenue le chœur. À l’intérieur est conservée une croix Renaissance en argent datant de 1630. La municipalité rappelle également que les habitants ont fabriqué à la main les briques de la forme actuelle de l’édifice."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chapelle baroque Saint-Wendelin",
+          "text": "Lozorno possède également une chapelle baroque dédiée à saint Wendelin, patron du bétail et des éleveurs. La municipalité la date de 1729. Cette dédicace rappelle les liens étroits qui unissaient autrefois la vie villageoise, l’agriculture et l’élevage. Il s’agit de l’un des petits monuments religieux de la commune, dont l’intérêt est principalement historique et culturel à l’échelle locale."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le mémorial des soixante habitants morts pendant la Première Guerre mondiale",
+          "text": "Près de l’église se trouve un monument dédié aux habitants de Lozorno morts pendant la Première Guerre mondiale, de 1914 à 1918. L’histoire communale recense soixante hommes du village parmi les victimes ; les plus jeunes comprenaient Matej Haramia, Vincent Karovič et Ján Ragas, tous âgés de vingt ans. Le monument rappelle à la fois le conflit et les pertes subies par une communauté précise."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le réservoir de Lozorno et le ruisseau Suchý potok",
+          "text": "Au-dessus du village se trouve le réservoir de Lozorno, dont la surface en eau couvre environ 35 hectares. Le ruisseau Suchý potok en sort et traverse ensuite la commune. Le plan d’eau et ses environs servent aux loisirs, aux promenades et à la pêche ; l’espace récréatif communal accueille aussi des événements et des rencontres. La situation entre la plaine de Záhorie et les versants occidentaux des Petites Carpates donne au lieu son caractère forestier."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le chemin de fer forestier Lozorno–Volhovisko",
+          "text": "Entre 1920 et 1926, un chemin de fer forestier à voie étroite de 760 mm, exploité à vapeur, fut construit dans les environs de Lozorno. Il transportait le bois des vallées des Petites Carpates — notamment Žleby, Lintávy, Prepadlé, Volhovisko et Košarisko — jusqu’à la scierie de Lozorno. La ligne principale atteignait environ onze kilomètres et possédait des embranchements dans plusieurs vallées. Après le recul de l’exploitation forestière et les difficultés économiques de l’entreprise du bois, la ligne fut abandonnée dans les années 1930. Des remblais, déblais, ponceaux et autres traces discrètes subsistent par endroits dans le paysage."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di Santa Caterina nel centro storico di Lozorno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno lungo una via commerciale: da Ezelarn al nome attuale",
+          "text": "Lozorno si trova lungo un antico percorso che collegava la regione di Záhorie con i territori circostanti. La storia comunale indica la prima menzione scritta nel 1438, nella forma Ezelarn; il nome deriva probabilmente dalla parola tedesca Esel, cioè asino. Secondo l’interpretazione storica locale, qui i mercanti cambiavano e preparavano le carovane di asini per il trasporto delle merci verso la stazione doganale ungherese di Stupava. La forma Zorno è attestata nel 1589, mentre il nome attuale Lozorno cominciò a essere usato nel 1773. Questa spiegazione va considerata un’etimologia probabile, non una certezza."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di Santa Caterina d’Alessandria",
+          "text": "La chiesa cattolica romana dedicata a Santa Caterina d’Alessandria domina il centro storico. La descrizione specialistica del patrimonio data la costruzione al 1629; la consacrazione avvenne il 24 novembre 1630. Tra il 1826 e il 1827 l’edificio fu ricostruito e ampliato, con un cambiamento dell’orientamento: la navata originaria divenne il presbiterio. All’interno si conserva una croce rinascimentale d’argento del 1630. Il comune ricorda inoltre che i mattoni dell’attuale edificio furono prodotti a mano dagli abitanti."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cappella barocca di San Venceslao?",
+          "text": "Lozorno conserva anche una cappella barocca dedicata a san Wendelin, patrono del bestiame e degli allevatori. Il comune la data al 1729. La dedicazione ricorda lo stretto legame che un tempo univa la vita del villaggio all’agricoltura e all’allevamento. È uno dei piccoli monumenti religiosi del paese, di valore soprattutto storico e culturale locale."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il memoriale dei sessanta caduti della Prima guerra mondiale",
+          "text": "Vicino alla chiesa si trova un monumento dedicato agli abitanti di Lozorno morti nella Prima guerra mondiale, tra il 1914 e il 1918. La storia comunale ricorda sessanta uomini del paese tra i caduti; tra i più giovani figurano Matej Haramia, Vincent Karovič e Ján Ragas, tutti ventenni. Il monumento ricorda sia il conflitto sia le perdite subite da una comunità specifica."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il bacino di Lozorno e il torrente Suchý potok",
+          "text": "Sopra il paese si trova il bacino idrico di Lozorno, con una superficie d’acqua di circa 35 ettari. Da esso nasce il torrente Suchý potok, che prosegue attraversando il paese. Il bacino e i dintorni sono utilizzati per il tempo libero, le passeggiate e la pesca; l’area ricreativa comunale ospita anche eventi e incontri della comunità. La posizione tra la pianura di Záhorie e i versanti occidentali dei Piccoli Carpazi conferisce al luogo un carattere boschivo."
+        },
+        {
+          "id": "fact_006",
+          "title": "La ferrovia forestale Lozorno–Volhovisko",
+          "text": "Tra il 1920 e il 1926 fu costruita nei dintorni di Lozorno una ferrovia forestale a scartamento ridotto di 760 mm, con trazione a vapore. Trasportava il legname dalle valli dei Piccoli Carpazi — tra cui Žleby, Lintávy, Prepadlé, Volhovisko e Košarisko — alla segheria di Lozorno. La linea principale raggiunse circa undici chilometri e disponeva di diramazioni nelle singole valli. Dopo il calo del taglio del legname e le difficoltà economiche dell’impresa, la ferrovia fu chiusa negli anni Trenta. Nel terreno restano in alcuni punti terrapieni, trincee, tombini e altre tracce poco appariscenti."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Catharinakerk in het historische centrum van Lozorno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lozorno aan een handelsroute: van Ezelarn tot de huidige naam",
+          "text": "Lozorno ligt aan een oude route die de streek Záhorie met omliggende gebieden verbond. Volgens de gemeentelijke geschiedenis wordt de plaats in 1438 voor het eerst schriftelijk vermeld als Ezelarn; de naam is waarschijnlijk afgeleid van het Duitse woord Esel, ‘ezel’. Volgens de plaatselijke historische uitleg wisselden handelaars hier hun ezelspannen en maakten ze die klaar voor het vervoer van goederen naar het Hongaarse douanestation in Stupava. De vorm Zorno is in 1589 aangetroffen en de huidige naam Lozorno raakte vanaf 1773 in gebruik. Deze verklaring geldt als een waarschijnlijke etymologie, niet als zekerheid."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Catharinakerk van Alexandrië",
+          "text": "De rooms-katholieke kerk gewijd aan de heilige Catharina van Alexandrië vormt een blikvanger in het historische centrum. Een gespecialiseerde erfgoedbeschrijving dateert de bouw op 1629; de kerk werd op 24 november 1630 ingewijd. In 1826–1827 werd ze verbouwd en uitgebreid. Daarbij veranderde de oriëntatie en werd het oorspronkelijke schip het priesterkoor. Binnen wordt een zilveren renaissancekruis uit 1630 bewaard. De gemeente vermeldt ook dat inwoners de bakstenen voor de huidige kerk met de hand maakten."
+        },
+        {
+          "id": "fact_003",
+          "title": "De barokke Sint-Wendelinkapel",
+          "text": "In Lozorno staat ook een barokke kapel gewijd aan Sint-Wendelin, patroonheilige van het vee en de veehouders. De gemeente dateert de kapel op 1729. De naam verwijst naar de vroegere nauwe band tussen het dorpsleven, de landbouw en de veeteelt. Het is een van de kleinere religieuze monumenten van het dorp, met vooral plaatselijk historisch en cultureel belang."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenkteken voor de zestig gesneuvelden uit de Eerste Wereldoorlog",
+          "text": "Bij de kerk staat een monument voor inwoners van Lozorno die tijdens de Eerste Wereldoorlog van 1914–1918 omkwamen. Volgens de gemeentelijke geschiedenis vielen zestig mannen uit het dorp; onder de jongsten waren Matej Haramia, Vincent Karovič en Ján Ragas, alle drie twintig jaar oud. Het monument herinnert zowel aan de oorlog als aan het verlies binnen één plaatselijke gemeenschap."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het stuwmeer van Lozorno en de beek Suchý potok",
+          "text": "Boven het dorp ligt het stuwmeer van Lozorno, met een wateroppervlak van ongeveer 35 hectare. De beek Suchý potok stroomt uit het meer en loopt vervolgens door het dorp. Het water en de omgeving worden gebruikt voor recreatie, wandelingen en vissen; het gemeentelijke recreatiegebied is ook een plek voor dorpsactiviteiten en ontmoetingen. De ligging tussen het laagland van Záhorie en de westelijke hellingen van de Kleine Karpaten geeft het landschap een bosrijk karakter."
+        },
+        {
+          "id": "fact_006",
+          "title": "De bosspoorlijn Lozorno–Volhovisko",
+          "text": "Tussen 1920 en 1926 werd bij Lozorno een smalspoorbosspoorlijn met een spoorwijdte van 760 mm en stoomtractie aangelegd. De lijn vervoerde hout uit de dalen van de Kleine Karpaten, onder meer uit Žleby, Lintávy, Prepadlé, Volhovisko en Košarisko, naar de houtzagerij in Lozorno. De hoofdlijn was ongeveer elf kilometer lang en had aftakkingen naar verschillende dalen. Toen de houtwinning terugliep en het houtbedrijf in financiële moeilijkheden kwam, werd de spoorlijn in de jaren dertig opgeheven. In het terrein zijn plaatselijk nog spoordijken, insnijdingen, duikers en andere subtiele sporen te herkennen."
+        }
+      ]
+    }
+  },
+  "district_type": null
 }
