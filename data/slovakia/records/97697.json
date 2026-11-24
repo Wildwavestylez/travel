@@ -26,7 +26,15 @@
         "https://login.apsida.sk/c/2052/nemecka-dubova"
       ],
       "map_category": "historic_city",
-      "location": null
+      "location": {
+        "name": "Obecný úrad Nemecká – orientační bod pro historické části Nemecká, Dubová a Zámostie",
+        "address": "Hronská 37, 976 97 Nemecká, Slovensko",
+        "lat": 48.8135722222,
+        "lon": 19.4155388889,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.nemecka.info/obec-1/o-nas/"
+      }
     },
     {
       "id": "fact_002",
@@ -39,7 +47,15 @@
         "https://www.raztoka.sk/obec/historia-obce/"
       ],
       "map_category": "local_culture",
-      "location": null
+      "location": {
+        "name": "Obecný úrad Nemecká – orientační bod pro historické části Nemecká, Dubová a Zámostie",
+        "address": "Hronská 37, 976 97 Nemecká, Slovensko",
+        "lat": 48.8135722222,
+        "lon": 19.4155388889,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.nemecka.info/obec-1/o-nas/"
+      }
     },
     {
       "id": "fact_003",
@@ -70,10 +86,19 @@
       "priority": "A",
       "sources": [
         "https://www.vhu.sk/70-vyrocie-leteckeho-naletu-na-dubovu/",
-        "https://www.nemecka.info/obec-1/o-nas/"
+        "https://www.nemecka.info/obec-1/o-nas/",
+        "https://poi.oma.sk/n3424561681"
       ],
       "map_category": "historical_monument",
-      "location": null
+      "location": {
+        "name": "Nemecká, Dubová, hlavní brána – orientační bod bývalé rafinerie",
+        "address": "Štvrť Kapitána Nálepku 2, 976 97 Nemecká, Slovensko",
+        "lat": 48.811814,
+        "lon": 19.4417083,
+        "type": "historic_industrial_site",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n3424561681"
+      }
     },
     {
       "id": "fact_005",
@@ -259,6 +284,11 @@
       "title": "Oficiálna stránka obce Ráztoka – základné údaje a GPS",
       "url": "https://www.raztoka.sk/obec/",
       "type": "official"
+    },
+    {
+      "title": "Nemecká, Dubová, hlavná brána – mapový bod",
+      "url": "https://poi.oma.sk/n3424561681",
+      "type": "other"
     }
   ],
   "translations": {
