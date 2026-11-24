@@ -33,7 +33,7 @@ The additional coverage survey identified the following important omissions in t
   - `fact_007` — the 1861 Vienna Memorandum prepared in Banská Bystrica by Štefan Moyses and Karol Kuzmány.
   - `fact_008` — Špania Dolina's copper-mining heritage, the Thurzo–Fugger enterprise, the klopačka and the historic mining water system.
 - **97405**
-  - `fact_004` — Radvanský jarmok, its 1655 market privilege, first documented fair in 1657 and continuing intangible-heritage tradition. The point is the historic pilgrimage anchor in Radvaň; the story is assigned by its historical origin, not by the present-day city-fair venue.
+  - `fact_004` — Radvanský jarmok, regular markets documented from the 14th century, the 1655 privilege from Emperor Leopold I, the first fair under the name Radvanský jarmok in 1657 and its continuing intangible-heritage tradition. The point is the historic pilgrimage anchor in Radvaň; the story is assigned by its historical origin, not by the present-day city-fair venue.
 - **97611**
   - `fact_006` — Kalište, the burned settlement, its role in the so-called Partisan Republic and the SNP Museum memorial area.
 - **97681**
