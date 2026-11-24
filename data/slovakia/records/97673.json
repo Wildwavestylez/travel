@@ -1,4 +1,718 @@
 {
   "postcode": "97673",
-  "status": "placeholder"
+  "city": "Telgárt",
+  "district": null,
+  "district_type": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Telgárt – centrum obce a miestna časť Pusté Pole",
+  "representative_point": {
+    "lat": 48.851803,
+    "lon": 20.188214
+  },
+  "access_point": {
+    "lat": 48.851803,
+    "lon": 20.188214
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Telgárt – horská obec s kořeny ve 14. století",
+      "text": "Telgárt vznikl v první polovině 14. století na staré cestě spojující Gemer a Spiš. Nejstarší písemná zmínka pochází z roku 1326 a spojuje založení osady se šoltýsem Mikulášem, synem Ladislava Kuna ze Spiše. Původní sídlo leželo přibližně pět kilometrů východně od dnešní obce, v okolí pramene Hnilce; později se obyvatelé přesunuli k soutoku Zubrovici a Hronu. Název Telgárt souvisí s německým slovem Tiergarten, tedy obora či lovecký revír. V dalších staletích se zde prolínalo pastevectví, valašská kolonizace, práce v lesích a doprava dřeva.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obectelgart.sk/obec-a-obcan/historia/",
+        "https://www.slovensko.sk/sk/lokality/_1fff3bef-a4d8-4fad-9964-af7dee6c5f89"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Telgárt – centrum obce u obecního úřadu (orientační bod)",
+        "lat": 48.851803,
+        "lon": 20.188214,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://commons.wikimedia.org/wiki/File:Telg%C3%A1rt%2C_obecn%C3%AD_%C3%BA%C5%99ad.jpg",
+        "address": "Telgárt 70, 976 73 Telgárt, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Telgártská železniční smyčka a Chmarošský viadukt",
+      "text": "Železniční trať Červená Skala–Margecany překonává náročný horský terén soustavou technicky pozoruhodných staveb. Telgártská smyčka tvoří přibližně 2,3 kilometru dlouhý oblouk, jehož spirálový tunel Kornela Stodoly měří 1 239 metrů a pomáhá překonat výškový rozdíl 31 metrů. Nedaleko stojí Chmarošský viadukt: kamenný obloukový most s devíti oblouky, délkou 113,6 metru a výškou 18 metrů nad údolím. Stavba trati začala v roce 1931 a celý úsek do Margecan byl uveden do veřejného provozu 26. července 1936. Na projektu pracovaly tisíce dělníků a železnice zásadně proměnila život odlehlého horského regionu.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.obectelgart.sk/turistika-a-priroda/zaujimavosti/telgartska-slucka-a-chmarossky-viadukt/",
+        "https://www.pamiatkynaslovensku.sk/telgart-chmarossky-viadukt"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Chmarošský viadukt, Telgárt",
+        "lat": 48.8534278,
+        "lon": 20.2047246,
+        "type": "bridge",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/telgart-chmarossky-viadukt",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Pusté Pole – lovecký areál rodu Coburgů",
+      "text": "Místní část Pusté Pole v katastru Telgártu je spojena s někdejším loveckým areálem rodu Coburgů. Podle historického materiálu Lesů SR zde dal Filip Coburg kolem roku 1880 postavit zděný lovecký zámeček; po roce 1908 využíval oblast také bulharský car Ferdinand I. Coburg a nechal zde zřídit další dřevěný lovecký objekt. Areál ležel v rozsáhlém revíru pod Kráľovou hoľou a hostil významné návštěvy. Objekty byly během druhé světové války vypáleny a původní zámeček byl v lednu 1945 zničen ustupujícími vojsky. Na místě později vznikl horský hotel; historický areál dnes připomíná někdejší šlechtické a lovecké využití této části hor.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.lesy.sk/files/lesnik/2016/lesnik-01-16-web.pdf",
+        "https://www.asb.sk/zelena-obnova/roky-chatral-teraz-dostane-dalsiu-sancu-horsky-hotel-puste-pole",
+        "https://www.lacneubytovanie.net/ubytovanie/hotel-puste-pole/"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Pusté Pole – areál bývalého loveckého zámečku",
+        "lat": 48.8841672,
+        "lon": 20.2355561,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://www.lacneubytovanie.net/ubytovanie/hotel-puste-pole/",
+        "address": "Pusté Pole 1, 976 73 Telgárt, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Řeckokatolický chrám Nejsvětější Trojice",
+      "text": "Západní část Telgártu dominuje řeckokatolický chrám Nejsvětější Trojice, barokně-klasicistní jednolodní stavba z roku 1784. V roce 1929 prošel renovací a z téhož roku pochází také dvouetážový ikonostas – zdobená stěna s ikonami, která východní křesťanské chrámy odděluje od oltářního prostoru. V interiéru se dochovala kazatelna z počátku 19. století s rokokovými prvky. Chrám je zapsán v Ústředním seznamu památkového fondu Slovenské republiky pod číslem 84/1 a připomíná řeckokatolickou tradici obce, která se rozvinula za panství rodu Koháryů.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/telgart-chram-najsvatejsej-trojice",
+        "https://www.obectelgart.sk/obec-a-obcan/historia/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Chrám Nejsvětější Trojice, Telgárt",
+        "lat": 48.851866,
+        "lon": 20.183848,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/telgart-chram-najsvatejsej-trojice",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Telgárt během Slovenského národního povstání – vypálená obec",
+      "text": "Telgárt patřil k důležitým bojištím Slovenského národního povstání v září a říjnu 1944. Německé jednotky obec obsadily na začátku září; povstalci ji 5. září znovu dobyli, ale během bojů a následného ústupu byla vesnice vypálena. Podle obecních a zpravodajských zdrojů shořelo 263 domů. Boje v širším prostoru pokračovaly až do října a obec byla osvobozena rumunskou armádou 27. ledna 1945. Telgárt se po válce obnovoval v průběhu 50. let a v letech 1948–1990 nesl název Švermovo. Na náměstí stojí památník věnovaný hrdinům SNP a obětem bojů; připomíná také mimořádně těžké ztráty civilního obyvatelstva.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.obectelgart.sk/obec-a-obcan/historia/",
+        "https://spravy.stvr.sk/2024/09/pocas-snp-sa-v-telgarte-udial-jeden-z-najvyznamnejsich-bojov-od-udalosti-ubehlo-80-rokov/",
+        "https://www.vets.cz/vpm/40754-pomnik-hrdinom-snp/"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Památník hrdinům SNP na náměstí v Telgártu",
+        "lat": 48.851561,
+        "lon": 20.1877,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/40754-pomnik-hrdinom-snp/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Telgártské písně a kalendářní obyčeje",
+      "text": "Telgárt si uchoval výraznou místní hudební a zvykovou kulturu, kterou dokumentoval také etnologický výzkum Jany Ambrózové. Zaznamenal například někdejší „bursiki“ – vánoční obchůzky mladých mužů, kteří po půlnočním jídle a zpěvu chodili po vybraných domech a budili obyvatele písněmi; tradice zanikla přibližně na začátku 70. let 20. století. Dalším zvykem byl „rachunok“, každoroční setkání majitelů ovcí a pastýřů, při němž se hodnotila sezona a vybírali bačové a valasi pro další rok. Místní folklorní skupina vznikla v roce 1957 a navazuje na starší národopisné vystupování i na záznamy písní pořízené Karlem Plickou v roce 1927. V jejím repertoáru se uchovávají písně, tance a obřadní zvyky specifické pro Telgárt.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://fondtlk.sk/sk/detail-sluk_us_auth-0901540-Folklorna-skupina-Telgart/",
+        "https://www.academia.edu/37204697/Zvukov%C3%A1_krajina_a_kalend%C3%A1rne_oby%C4%8Daje_v_priestore_obce_Telg%C3%A1rt_The_Soundscape_and_Calendar_Customs_in_the_space_of_the_Telg%C3%A1rt_Village_",
+        "https://www.obectelgart.sk/obecny-urad-a-samosprava/kontakt/"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Telgárt – centrum obce (orientační bod místní folklorní tradice)",
+        "lat": 48.851803,
+        "lon": 20.188214,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://commons.wikimedia.org/wiki/File:Telg%C3%A1rt%2C_obecn%C3%AD_%C3%BA%C5%99ad.jpg",
+        "address": "Telgárt 70, 976 73 Telgárt, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Meandre Hrona – chráněná říční krajina horního Hronu",
+      "text": "Přírodní rezervace Meandre Hrona chrání od roku 1980 přibližně 104 hektarů nivy horního toku Hronu mezi Telgártem a Šumiacem. Řeka zde vytváří soustavu přirozených meandrů, podmáčených luk a slatinných stanovišť, která jsou dnes v mnoha částech Slovenska zregulována nebo zanikla. V rezervaci rostou vzácné druhy vlhkých luk, například prvosenka pomoučená, tučnice obecná a několik druhů ostřic. Území leží v ochranném pásmu Národního parku Nízke Tatry a je chráněno čtvrtým stupněm ochrany. Správa parku uvádí, že rezervací nevede turistická stezka; při pohybu v okolí je proto nutné respektovat ochranný režim.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.napant.sk/priroda/mchu/pr-meandre-hrona/",
+        "https://www.obectelgart.sk/turistika-a-priroda/priroda/",
+        "https://meandre-hrona.oma.sk/"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Přírodní rezervace Meandre Hrona – reprezentativní bod chráněného území",
+        "lat": 48.8317306,
+        "lon": 20.171719,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://meandre-hrona.oma.sk/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Pramen Hronu pod sedlem Besník",
+      "text": "Nedaleko Telgártu, na jihovýchodním úpatí Kráľovy hole pod sedlem Besník, vyvěrá Hron – druhá nejdelší řeka Slovenska. Pramen leží přibližně v nadmořské výšce 980 metrů a od obce je vzdálen asi tři kilometry. Hron odtud pokračuje přes Horehroní a střední Slovensko až k Dunaji. V roce 2024 obec otevřela nový značený naučný chodník dlouhý 4,3 kilometru, který propojuje pramen s železničními technickými památkami; část trasy využívá původní servisní cestu železničářů z dob parních vlaků. Pramen tak představuje nejen významný geografický bod, ale i přirozené spojení místní krajiny s příběhem železnice.",
+      "category": "geography_and_context",
+      "priority": "C",
+      "sources": [
+        "https://www.obectelgart.sk/obec-a-obcan/fotogaleria/rok-2024/otvorenie-naucneho-chodnika-k-pramenu-hrona-348sk.html",
+        "https://www.minzp.sk/files/sekcia-vod/ochrana-pred-povodnami/2025/predbezne-hodnotenie-povodnoveho-rizika-sr-2024/hron/phpr_hron_2024_text.pdf",
+        "https://poi.oma.sk/n308444455"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Pramen Hrona pod sedlem Besník",
+        "lat": 48.858655,
+        "lon": 20.2154846,
+        "type": "natural_feature",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n308444455",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Voglov chodník a dřevěný kříž na vrchu Ždiar",
+      "text": "Voglov chodník navazuje na starou lesní a loveckou cestu, která spojovala Telgárt s horskými lesy a revíry pod Kráľovou hoľou. Její jméno připomíná Jana (Johanna) Vogla, správce lovecké oblasti za Slovenského státu; část trasy se v posledních letech podařilo místním obyvatelům vyčistit a znovu zpřístupnit. Z chodníku vede odbočka na vrch Ždiar, kde stojí přibližně patnáct metrů vysoký dřevěný kříž. Vrchol ve výšce asi 1 167 metrů nabízí výhled na Telgárt, Kráľovu hoľu a okolní hřebeny Nízkých Tater. Jde o spojení lesnické historie, místní paměti a současné pěší trasy.",
+      "category": "tourism_and_surroundings",
+      "priority": "C",
+      "sources": [
+        "https://www.obectelgart.sk/obec-a-obcan/sport/turistika/",
+        "https://www.obectelgart.sk/turistika-a-priroda/zaujimavosti/",
+        "https://test.vrcholovka.cz/vrchol/8565-zdiar/"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Vrch Ždiar – dřevěný kříž nad Telgártem",
+        "lat": 48.864,
+        "lon": 20.19743,
+        "type": "hill",
+        "accuracy": "approximate",
+        "source": "https://test.vrcholovka.cz/vrchol/8565-zdiar/",
+        "address": null
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta poskytuje oficiálne vyhľadávanie PSČ; oficiálna adresa Obce Telgárt je Telgárt 70, 976 73 Telgárt. Kód 97673 a dodávaciu poštu Telgárt potvrdzuje aj sekundárny adresár poštových smerovacích čísel. Pusté Pole je miestna časť Telgártu a adresa bývalého horského hotela je uvádzaná ako Pusté Pole 1, 976 73 Telgárt. Presný polygon doručovacieho obvodu nie je verejne doložený.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ; oficiálna poštová adresa obce Telgárt",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálna obecná adresa potvrdzuje PSČ 976 73 pre Telgárt. Pusté Pole je dokumentovaná miestna časť v katastri Telgártu a adresa Pusté Pole 1 je uvádzaná s rovnakým PSČ; úplný rozsah doručovacieho obvodu však nie je zverejnený.",
+    "geographic_authority": "Obec Telgárt a Ústredný portál verejnej správy pre identitu a administratívne zaradenie obce; obecné a odborné zdroje pre miestne časti a polohy objektov; Správa NAPANT a Slov-Lex pre chránené územia."
+  },
+  "sources": [
+    {
+      "title": "Obec Telgárt – oficiálna adresa a poštové údaje",
+      "url": "https://www.obectelgart.sk/obecny-urad-a-samosprava/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – história obce",
+      "url": "https://www.obectelgart.sk/obec-a-obcan/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – zaujímavosti a miestny kontext",
+      "url": "https://www.obectelgart.sk/turistika-a-priroda/zaujimavosti/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – prírodné hodnoty a chránené územia",
+      "url": "https://www.obectelgart.sk/turistika-a-priroda/priroda/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – Telgártska slučka a Chmarošský viadukt",
+      "url": "https://www.obectelgart.sk/turistika-a-priroda/zaujimavosti/telgartska-slucka-a-chmarossky-viadukt/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – Voglov chodník a vrch Ždiar",
+      "url": "https://www.obectelgart.sk/obec-a-obcan/sport/turistika/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Telgárt – náučný chodník k prameňu Hrona",
+      "url": "https://www.obectelgart.sk/obec-a-obcan/fotogaleria/rok-2024/otvorenie-naucneho-chodnika-k-pramenu-hrona-348sk.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Chrám Najsvätejšej Trojice v Telgárte",
+      "url": "https://www.pamiatkynaslovensku.sk/telgart-chram-najsvatejsej-trojice",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Chmarošský viadukt",
+      "url": "https://www.pamiatkynaslovensku.sk/telgart-chmarossky-viadukt",
+      "type": "specialist"
+    },
+    {
+      "title": "LESY SR – Horský hotel Pusté Pole a história loveckého areálu",
+      "url": "https://www.lesy.sk/files/lesnik/2016/lesnik-01-16-web.pdf",
+      "type": "official"
+    },
+    {
+      "title": "ASB – história a pripravovaná obnova Horského hotela Pusté Pole",
+      "url": "https://www.asb.sk/zelena-obnova/roky-chatral-teraz-dostane-dalsiu-sancu-horsky-hotel-puste-pole",
+      "type": "regional"
+    },
+    {
+      "title": "Folklórna skupina Telgárt – Fond tradičnej ľudovej kultúry",
+      "url": "https://fondtlk.sk/sk/detail-sluk_us_auth-0901540-Folklorna-skupina-Telgart/",
+      "type": "official"
+    },
+    {
+      "title": "Jana Ambrózová – Zvuková krajina a kalendárne obyčaje v priestore obce Telgárt, UKF Nitra 2018",
+      "url": "https://www.academia.edu/37204697/Zvukov%C3%A1_krajina_a_kalend%C3%A1rne_oby%C4%8Daje_v_priestore_obce_Telg%C3%A1rt_The_Soundscape_and_Calendar_Customs_in_the_space_of_the_Telg%C3%A1rt_Village_",
+      "type": "university"
+    },
+    {
+      "title": "Správa NAPANT – Prírodná rezervácia Meandre Hrona",
+      "url": "https://www.napant.sk/priroda/mchu/pr-meandre-hrona/",
+      "type": "official"
+    },
+    {
+      "title": "Meandre Hrona – OpenStreetMap/OMA geografické údaje",
+      "url": "https://meandre-hrona.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Prameň Hrona – OpenStreetMap/OMA geografické údaje",
+      "url": "https://poi.oma.sk/n308444455",
+      "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Telgárt – poštové smerovacie číslo 976 73 a dodávacia pošta",
+      "url": "https://www.pscpsc.eu/sk/pobocka-posty/telgart%2C976-73",
+      "type": "regional"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – lokalita Telgárt",
+      "url": "https://www.slovensko.sk/sk/lokality/_1fff3bef-a4d8-4fad-9964-af7dee6c5f89",
+      "type": "official"
+    },
+    {
+      "title": "Pomníky obetiam SNP a oslobodenia obce Telgárt – lokalizácia pamätníka",
+      "url": "https://www.vets.cz/vpm/40754-pomnik-hrdinom-snp/",
+      "type": "specialist"
+    },
+    {
+      "title": "STVR – boje o Telgárt a vypálenie obce počas SNP",
+      "url": "https://spravy.stvr.sk/2024/09/pocas-snp-sa-v-telgarte-udial-jeden-z-najvyznamnejsich-bojov-od-udalosti-ubehlo-80-rokov/",
+      "type": "news"
+    },
+    {
+      "title": "Slov-Lex – nariadenie vlády č. 189/2026 Z. z. o Národnom parku Nízke Tatry",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2026/189/20260715",
+      "type": "official"
+    },
+    {
+      "title": "Telgárt – obecný úrad, fotografia a poloha",
+      "url": "https://commons.wikimedia.org/wiki/File:Telg%C3%A1rt%2C_obecn%C3%AD_%C3%BA%C5%99ad.jpg",
+      "type": "other"
+    },
+    {
+      "title": "Chmarošský viadukt – geografická poloha",
+      "url": "https://poi.oma.sk/n4868193367",
+      "type": "other"
+    },
+    {
+      "title": "Horský hotel Pusté Pole – adresa a poloha bývalého loveckého areálu",
+      "url": "https://www.lacneubytovanie.net/ubytovanie/hotel-puste-pole/",
+      "type": "regional"
+    },
+    {
+      "title": "Ministerstvo životného prostredia SR – predbežné hodnotenie povodňového rizika v povodí Hrona",
+      "url": "https://www.minzp.sk/files/sekcia-vod/ochrana-pred-povodnami/2025/predbezne-hodnotenie-povodnoveho-rizika-sr-2024/hron/phpr_hron_2024_text.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Vrch Ždiar – geografická poloha",
+      "url": "https://test.vrcholovka.cz/vrchol/8565-zdiar/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Telgárt – centrum obce a miestna časť Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt – horská obec s kořeny ve 14. století",
+          "text": "Telgárt vznikl v první polovině 14. století na staré cestě spojující Gemer a Spiš. Nejstarší písemná zmínka pochází z roku 1326 a spojuje založení osady se šoltýsem Mikulášem, synem Ladislava Kuna ze Spiše. Původní sídlo leželo přibližně pět kilometrů východně od dnešní obce, v okolí pramene Hnilce; později se obyvatelé přesunuli k soutoku Zubrovici a Hronu. Název Telgárt souvisí s německým slovem Tiergarten, tedy obora či lovecký revír. V dalších staletích se zde prolínalo pastevectví, valašská kolonizace, práce v lesích a doprava dřeva."
+        },
+        {
+          "id": "fact_002",
+          "title": "Telgártská železniční smyčka a Chmarošský viadukt",
+          "text": "Železniční trať Červená Skala–Margecany překonává náročný horský terén soustavou technicky pozoruhodných staveb. Telgártská smyčka tvoří přibližně 2,3 kilometru dlouhý oblouk, jehož spirálový tunel Kornela Stodoly měří 1 239 metrů a pomáhá překonat výškový rozdíl 31 metrů. Nedaleko stojí Chmarošský viadukt: kamenný obloukový most s devíti oblouky, délkou 113,6 metru a výškou 18 metrů nad údolím. Stavba trati začala v roce 1931 a celý úsek do Margecan byl uveden do veřejného provozu 26. července 1936. Na projektu pracovaly tisíce dělníků a železnice zásadně proměnila život odlehlého horského regionu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – lovecký areál rodu Coburgů",
+          "text": "Místní část Pusté Pole v katastru Telgártu je spojena s někdejším loveckým areálem rodu Coburgů. Podle historického materiálu Lesů SR zde dal Filip Coburg kolem roku 1880 postavit zděný lovecký zámeček; po roce 1908 využíval oblast také bulharský car Ferdinand I. Coburg a nechal zde zřídit další dřevěný lovecký objekt. Areál ležel v rozsáhlém revíru pod Kráľovou hoľou a hostil významné návštěvy. Objekty byly během druhé světové války vypáleny a původní zámeček byl v lednu 1945 zničen ustupujícími vojsky. Na místě později vznikl horský hotel; historický areál dnes připomíná někdejší šlechtické a lovecké využití této části hor."
+        },
+        {
+          "id": "fact_004",
+          "title": "Řeckokatolický chrám Nejsvětější Trojice",
+          "text": "Západní část Telgártu dominuje řeckokatolický chrám Nejsvětější Trojice, barokně-klasicistní jednolodní stavba z roku 1784. V roce 1929 prošel renovací a z téhož roku pochází také dvouetážový ikonostas – zdobená stěna s ikonami, která východní křesťanské chrámy odděluje od oltářního prostoru. V interiéru se dochovala kazatelna z počátku 19. století s rokokovými prvky. Chrám je zapsán v Ústředním seznamu památkového fondu Slovenské republiky pod číslem 84/1 a připomíná řeckokatolickou tradici obce, která se rozvinula za panství rodu Koháryů."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt během Slovenského národního povstání – vypálená obec",
+          "text": "Telgárt patřil k důležitým bojištím Slovenského národního povstání v září a říjnu 1944. Německé jednotky obec obsadily na začátku září; povstalci ji 5. září znovu dobyli, ale během bojů a následného ústupu byla vesnice vypálena. Podle obecních a zpravodajských zdrojů shořelo 263 domů. Boje v širším prostoru pokračovaly až do října a obec byla osvobozena rumunskou armádou 27. ledna 1945. Telgárt se po válce obnovoval v průběhu 50. let a v letech 1948–1990 nesl název Švermovo. Na náměstí stojí památník věnovaný hrdinům SNP a obětem bojů; připomíná také mimořádně těžké ztráty civilního obyvatelstva."
+        },
+        {
+          "id": "fact_006",
+          "title": "Telgártské písně a kalendářní obyčeje",
+          "text": "Telgárt si uchoval výraznou místní hudební a zvykovou kulturu, kterou dokumentoval také etnologický výzkum Jany Ambrózové. Zaznamenal například někdejší „bursiki“ – vánoční obchůzky mladých mužů, kteří po půlnočním jídle a zpěvu chodili po vybraných domech a budili obyvatele písněmi; tradice zanikla přibližně na začátku 70. let 20. století. Dalším zvykem byl „rachunok“, každoroční setkání majitelů ovcí a pastýřů, při němž se hodnotila sezona a vybírali bačové a valasi pro další rok. Místní folklorní skupina vznikla v roce 1957 a navazuje na starší národopisné vystupování i na záznamy písní pořízené Karlem Plickou v roce 1927. V jejím repertoáru se uchovávají písně, tance a obřadní zvyky specifické pro Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – chráněná říční krajina horního Hronu",
+          "text": "Přírodní rezervace Meandre Hrona chrání od roku 1980 přibližně 104 hektarů nivy horního toku Hronu mezi Telgártem a Šumiacem. Řeka zde vytváří soustavu přirozených meandrů, podmáčených luk a slatinných stanovišť, která jsou dnes v mnoha částech Slovenska zregulována nebo zanikla. V rezervaci rostou vzácné druhy vlhkých luk, například prvosenka pomoučená, tučnice obecná a několik druhů ostřic. Území leží v ochranném pásmu Národního parku Nízke Tatry a je chráněno čtvrtým stupněm ochrany. Správa parku uvádí, že rezervací nevede turistická stezka; při pohybu v okolí je proto nutné respektovat ochranný režim."
+        },
+        {
+          "id": "fact_008",
+          "title": "Pramen Hronu pod sedlem Besník",
+          "text": "Nedaleko Telgártu, na jihovýchodním úpatí Kráľovy hole pod sedlem Besník, vyvěrá Hron – druhá nejdelší řeka Slovenska. Pramen leží přibližně v nadmořské výšce 980 metrů a od obce je vzdálen asi tři kilometry. Hron odtud pokračuje přes Horehroní a střední Slovensko až k Dunaji. V roce 2024 obec otevřela nový značený naučný chodník dlouhý 4,3 kilometru, který propojuje pramen s železničními technickými památkami; část trasy využívá původní servisní cestu železničářů z dob parních vlaků. Pramen tak představuje nejen významný geografický bod, ale i přirozené spojení místní krajiny s příběhem železnice."
+        },
+        {
+          "id": "fact_009",
+          "title": "Voglov chodník a dřevěný kříž na vrchu Ždiar",
+          "text": "Voglov chodník navazuje na starou lesní a loveckou cestu, která spojovala Telgárt s horskými lesy a revíry pod Kráľovou hoľou. Její jméno připomíná Jana (Johanna) Vogla, správce lovecké oblasti za Slovenského státu; část trasy se v posledních letech podařilo místním obyvatelům vyčistit a znovu zpřístupnit. Z chodníku vede odbočka na vrch Ždiar, kde stojí přibližně patnáct metrů vysoký dřevěný kříž. Vrchol ve výšce asi 1 167 metrů nabízí výhled na Telgárt, Kráľovu hoľu a okolní hřebeny Nízkých Tater. Jde o spojení lesnické historie, místní paměti a současné pěší trasy."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Telgárt – Ortszentrum und Ortsteil Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt – ein Bergdorf mit Wurzeln im 14. Jahrhundert",
+          "text": "Telgárt entstand in der ersten Hälfte des 14. Jahrhunderts an einer alten Verbindung zwischen Gemer und Spiš. Die erste schriftliche Erwähnung stammt aus dem Jahr 1326 und verbindet die Gründung der Siedlung mit dem Lokator Mikuláš, dem Sohn von Ladislav Kun aus Spiš. Der ursprüngliche Ort lag etwa fünf Kilometer östlich des heutigen Dorfes in der Nähe der Quelle des Hnilec; später zogen die Bewohner zum Zusammenfluss von Zubrovica und Hron. Der Name Telgárt hängt mit dem deutschen Wort Tiergarten zusammen, also einem Wildgehege oder Jagdrevier. In den folgenden Jahrhunderten prägten Viehzucht, walachische Kolonisation, Waldarbeit und Holztransport das Leben des Ortes."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Telgárter Schleife und das Chmarošský-Viadukt",
+          "text": "Die Eisenbahnstrecke Červená Skala–Margecany überwindet das schwierige Gebirgsgelände mit einer Reihe bemerkenswerter Ingenieurbauten. Die Telgárter Schleife bildet einen etwa 2,3 Kilometer langen Bogen; ihr spiralförmiger Kornel-Stodola-Tunnel ist 1.239 Meter lang und überwindet einen Höhenunterschied von 31 Metern. In der Nähe steht das Chmarošský-Viadukt, eine steinerne Bogenbrücke mit neun Bögen, 113,6 Metern Länge und 18 Metern Höhe über dem Tal. Der Bau der Strecke begann 1931; am 26. Juli 1936 wurde die gesamte Linie bis Margecany für den öffentlichen Verkehr freigegeben. Tausende Arbeiter waren am Projekt beteiligt, das das Leben der abgelegenen Bergregion grundlegend veränderte."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – das Jagdgut der Familie Coburg",
+          "text": "Der Ortsteil Pusté Pole im Gemeindegebiet von Telgárt ist mit dem einstigen Jagdgut der Familie Coburg verbunden. Nach einem historischen Bericht der Staatsforste ließ Philipp von Coburg um 1880 dort ein gemauertes Jagdschlösschen errichten. Nach 1908 nutzte auch der bulgarische Zar Ferdinand I. Coburg das Gebiet und ließ dort ein weiteres hölzernes Jagdgebäude anlegen. Das Gut lag in einem ausgedehnten Revier unterhalb der Kráľova hoľa und empfing bedeutende Gäste. Die Gebäude wurden während des Zweiten Weltkriegs niedergebrannt; das ursprüngliche Schlösschen wurde im Januar 1945 von den zurückweichenden Truppen zerstört. Später entstand an diesem Ort ein Berghotel. Das historische Areal erinnert an die frühere adelige und jagdliche Nutzung dieses Gebirgsraums."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die griechisch-katholische Kirche der Heiligsten Dreifaltigkeit",
+          "text": "Im westlichen Teil von Telgárt steht die griechisch-katholische Kirche der Heiligsten Dreifaltigkeit, ein einschiffiger Bau im Barock-Klassizismus aus dem Jahr 1784. 1929 wurde sie renoviert; aus demselben Jahr stammt auch die zweigeschossige Ikonostase – eine mit Ikonen geschmückte Wand, die in Kirchen des östlichen Christentums den Altarraum abtrennt. Im Inneren blieb eine Kanzel aus dem frühen 19. Jahrhundert mit Rokoko-Elementen erhalten. Die Kirche ist unter der Nummer 84/1 im Zentralverzeichnis des slowakischen Denkmalfonds eingetragen und erinnert an die griechisch-katholische Tradition des Ortes, die sich unter der Herrschaft der Familie Koháry entwickelte."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt während des Slowakischen Nationalaufstands – ein niedergebranntes Dorf",
+          "text": "Telgárt war im September und Oktober 1944 ein wichtiges Schlachtfeld des Slowakischen Nationalaufstands. Deutsche Truppen besetzten das Dorf Anfang September; am 5. September eroberten Aufständische es zurück, doch während der Kämpfe und des anschließenden Rückzugs wurde der Ort niedergebrannt. Gemeinde- und Nachrichtenquellen zufolge gingen 263 Häuser in Flammen auf. Die Kämpfe im weiteren Gebiet dauerten bis Oktober; die rumänische Armee befreite Telgárt am 27. Januar 1945. Der Wiederaufbau erfolgte in den 1950er Jahren. Von 1948 bis 1990 trug der Ort den Namen Švermovo. Auf dem Dorfplatz erinnert ein Denkmal an die Helden des Aufstands und die Opfer der Kämpfe sowie an die schweren Verluste der Zivilbevölkerung."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lieder und Jahresbräuche von Telgárt",
+          "text": "Telgárt bewahrt eine ausgeprägte lokale Musik- und Brauchtumskultur, die auch von der Ethnologin Jana Ambrózová untersucht wurde. Sie dokumentierte unter anderem die früheren „bursiki“: Weihnachtsumgänge junger Männer, die nach einem nächtlichen Beisammensein ausgewählte Häuser besuchten und die Bewohner mit Liedern weckten. Dieser Brauch verschwand ungefähr Anfang der 1970er Jahre. Ein weiterer Brauch war der „rachunok“, ein jährliches Treffen von Schafhaltern und Hirten, bei dem die Saison ausgewertet und die Hirten für das nächste Jahr ausgewählt wurden. Die örtliche Folkloregruppe entstand 1957 und knüpft an ältere ethnografische Auftritte sowie an die 1927 von Karel Plicka aufgezeichneten Lieder an. Ihr Repertoire bewahrt Lieder, Tänze und zeremonielle Bräuche, die für Telgárt typisch sind."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – geschützte Flusslandschaft am oberen Hron",
+          "text": "Das Naturschutzgebiet Meandre Hrona schützt seit 1980 rund 104 Hektar der Aue des oberen Hron zwischen Telgárt und Šumiac. Der Fluss bildet hier ein System natürlicher Mäander, feuchter Wiesen und Moorstandorte, die in vielen Teilen der Slowakei reguliert oder zerstört wurden. Im Schutzgebiet wachsen seltene Pflanzen feuchter Wiesen, darunter Mehlprimel, Gemeines Fettkraut und mehrere Seggenarten. Das Gebiet liegt in der Schutzzone des Nationalparks Niedere Tatra und unterliegt der vierten Schutzstufe. Die Parkverwaltung weist darauf hin, dass kein Wanderweg durch das Schutzgebiet führt; bei einem Besuch der Umgebung sind daher die Schutzbestimmungen einzuhalten."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Quelle des Hron unterhalb des Sattels Besník",
+          "text": "Unweit von Telgárt entspringt am Südosthang der Kráľova hoľa unterhalb des Sattels Besník der Hron, der zweitlängste Fluss der Slowakei. Die Quelle liegt auf etwa 980 Metern Höhe und rund drei Kilometer vom Dorf entfernt. Von hier fließt der Hron durch die Horehronie und die Mittelslowakei bis zur Donau. 2024 eröffnete die Gemeinde einen 4,3 Kilometer langen markierten Lehrpfad, der die Quelle mit den technischen Eisenbahnzeugnissen verbindet. Ein Teil der Route nutzt einen alten Wartungsweg der Eisenbahner aus der Zeit der Dampflokomotiven. Die Quelle ist damit nicht nur ein wichtiger geografischer Punkt, sondern verbindet die Landschaft mit der Geschichte der Eisenbahn."
+        },
+        {
+          "id": "fact_009",
+          "title": "Der Vogl-Weg und das Holzkreuz auf dem Berg Ždiar",
+          "text": "Der Vogl-Weg folgt einer alten Forst- und Jagdroute, die Telgárt mit den Bergwäldern und Jagdrevieren unterhalb der Kráľova hoľa verband. Sein Name erinnert an Jan (Johann) Vogl, den Verwalter eines Jagdgebiets während des Slowakischen Staates. Ein Teil des Weges wurde in den vergangenen Jahren von Einwohnern freigelegt und wieder zugänglich gemacht. Vom Weg führt ein Abzweig auf den Berg Ždiar, wo ein etwa 15 Meter hohes Holzkreuz steht. Der Gipfel auf rund 1.167 Metern bietet Ausblicke auf Telgárt, die Kráľova hoľa und die umliegenden Kämme der Niederen Tatra. Hier verbinden sich Forstgeschichte, lokale Erinnerung und ein heutiger Wanderweg."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Telgárt – village centre and Pusté Pole locality",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt – a mountain village with roots in the fourteenth century",
+          "text": "Telgárt developed in the first half of the fourteenth century along an old route linking Gemer and Spiš. Its earliest written reference dates from 1326 and associates the settlement's foundation with the locator Mikuláš, son of Ladislav Kun from Spiš. The original settlement stood about five kilometres east of today's village, near the source of the Hnilec; residents later moved to the confluence of the Zubrovica and Hron rivers. The name Telgárt is linked to the German word Tiergarten, meaning a game enclosure or hunting ground. In later centuries, pastoral farming, Wallachian colonisation, forestry and timber transport shaped local life."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Telgárt loop and Chmarošský Viaduct",
+          "text": "The Červená Skala–Margecany railway crosses difficult mountain terrain through a series of remarkable engineering structures. The Telgárt loop forms an approximately 2.3-kilometre curve; its spiral Kornel Stodola Tunnel is 1,239 metres long and helps overcome a 31-metre difference in elevation. Nearby stands the Chmarošský Viaduct, a stone arch bridge with nine arches, a length of 113.6 metres and a height of 18 metres above the valley. Construction of the railway began in 1931, and the entire line to Margecany opened to public traffic on 26 July 1936. Thousands of workers took part in the project, which transformed life in this remote mountain region."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – the Coburg family's hunting estate",
+          "text": "The Pusté Pole locality within Telgárt's cadastral area is associated with the former hunting estate of the Coburg family. According to a historical account by the state forests, Philipp of Saxe-Coburg and Gotha had a stone hunting lodge built here around 1880. After 1908, Ferdinand I of Bulgaria also used the area and had another wooden hunting building established there. The estate stood in an extensive hunting ground below Kráľova hoľa and received notable visitors. The buildings were burned during the Second World War, and the original lodge was destroyed by retreating troops in January 1945. A mountain hotel was later built on the site. The historic area recalls the former aristocratic and hunting use of this mountain landscape."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Greek Catholic Church of the Holy Trinity",
+          "text": "The western part of Telgárt is dominated by the Greek Catholic Church of the Holy Trinity, a single-nave Baroque-Classical building dating from 1784. It was renovated in 1929, the same year in which its two-tier iconostasis was made. An iconostasis is a screen decorated with icons that separates the sanctuary from the nave in Eastern Christian churches. The interior also retains an early nineteenth-century pulpit with Rococo features. The church is listed in Slovakia's Central Register of the Monument Fund under number 84/1 and reflects the village's Greek Catholic tradition, which developed under the rule of the Koháry family."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt during the Slovak National Uprising – a village burned down",
+          "text": "Telgárt was an important battlefield during the Slovak National Uprising in September and October 1944. German forces occupied the village in early September; on 5 September, insurgent troops recaptured it, but during the fighting and subsequent withdrawal the village was burned. Municipal and news sources report that 263 houses were destroyed. Fighting in the wider area continued into October, and the Romanian army liberated the village on 27 January 1945. Telgárt was rebuilt during the 1950s and was called Švermovo from 1948 to 1990. A memorial on the village square commemorates the uprising's fighters and victims and recalls the severe losses suffered by civilians."
+        },
+        {
+          "id": "fact_006",
+          "title": "Telgárt's songs and calendar customs",
+          "text": "Telgárt has preserved a distinctive local music and customary culture, also documented by ethnologist Jana Ambrózová. Her research describes the former “bursiki”: Christmas-season rounds in which groups of young men visited selected houses after a late-night gathering and woke residents with songs. The custom disappeared around the beginning of the 1970s. Another tradition was the “rachunok”, an annual meeting of sheep owners and shepherds where the season was reviewed and shepherds were chosen for the following year. The local folk group was founded in 1957, continuing an older tradition of ethnographic performances and drawing on songs recorded by Karel Plicka in 1927. Its repertoire preserves songs, dances and ceremonial customs specific to Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – a protected river landscape along the upper Hron",
+          "text": "The Meandre Hrona nature reserve has protected around 104 hectares of the upper Hron floodplain between Telgárt and Šumiac since 1980. Here the river forms a system of natural meanders, wet meadows and marsh habitats that have been regulated or destroyed in many other parts of Slovakia. Rare wet-meadow plants grow in the reserve, including mealy primrose, common butterwort and several sedge species. The area lies in the protective zone of the Low Tatras National Park and is subject to the fourth level of nature protection. The park administration notes that no hiking trail passes through the reserve, so visitors to the surrounding area should respect its protection rules."
+        },
+        {
+          "id": "fact_008",
+          "title": "The source of the Hron below Besník Saddle",
+          "text": "Not far from Telgárt, on the south-eastern slope of Kráľova hoľa below Besník Saddle, rises the Hron, the second-longest river in Slovakia. The spring lies at an elevation of about 980 metres and roughly three kilometres from the village. From here the Hron flows through Horehronie and central Slovakia towards the Danube. In 2024, the municipality opened a new marked educational trail, 4.3 kilometres long, linking the spring with the railway's technical heritage. Part of the route follows an old railway maintenance path from the age of steam trains. The spring is therefore both an important geographical feature and a link between the local landscape and railway history."
+        },
+        {
+          "id": "fact_009",
+          "title": "The Vogl Trail and the wooden cross on Ždiar Hill",
+          "text": "The Vogl Trail follows an old forestry and hunting route that connected Telgárt with the mountain forests and hunting grounds below Kráľova hoľa. Its name recalls Jan (Johann) Vogl, the administrator of a hunting district during the wartime Slovak State. In recent years, local residents have cleared and reopened part of the route. A side path leads to Ždiar Hill, where a wooden cross about 15 metres high stands. The summit, at approximately 1,167 metres, offers views of Telgárt, Kráľova hoľa and the surrounding ridges of the Low Tatras. The trail brings together forestry history, local memory and a present-day walking route."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Telgárt – centro del pueblo y localidad de Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt: un pueblo de montaña con raíces en el siglo XIV",
+          "text": "Telgárt se desarrolló en la primera mitad del siglo XIV junto a una antigua ruta que unía Gemer y Spiš. Su primera mención escrita data de 1326 y relaciona la fundación del asentamiento con el šoltýs Mikuláš, hijo de Ladislav Kun, procedente de Spiš. El núcleo original se encontraba unos cinco kilómetros al este del pueblo actual, cerca del nacimiento del Hnilec; más tarde, sus habitantes se trasladaron a la confluencia de los ríos Zubrovica y Hron. El nombre Telgárt está relacionado con la palabra alemana Tiergarten, que significa cercado de caza o reserva cinegética. En los siglos posteriores, la ganadería, la colonización valaca, el trabajo forestal y el transporte de madera marcaron la vida local."
+        },
+        {
+          "id": "fact_002",
+          "title": "El bucle ferroviario de Telgárt y el viaducto de Chmarošský",
+          "text": "La línea ferroviaria Červená Skala–Margecany atraviesa un terreno montañoso difícil mediante varias obras de ingeniería notables. El bucle de Telgárt forma una curva de unos 2,3 kilómetros; su túnel helicoidal Kornel Stodola mide 1.239 metros y permite superar un desnivel de 31 metros. Cerca se encuentra el viaducto de Chmarošský, un puente de piedra con nueve arcos, 113,6 metros de longitud y 18 metros de altura sobre el valle. Las obras de la línea comenzaron en 1931 y el trazado completo hasta Margecany se abrió al tráfico público el 26 de julio de 1936. Miles de trabajadores participaron en el proyecto, que transformó la vida de esta remota región montañosa."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole: el coto de caza de la familia Coburgo",
+          "text": "La localidad de Pusté Pole, dentro del término catastral de Telgárt, está vinculada al antiguo coto de caza de la familia Coburgo. Según un documento histórico de los bosques estatales, Philipp de Sajonia-Coburgo y Gotha mandó construir allí hacia 1880 una residencia de caza de piedra. Después de 1908, Fernando I de Bulgaria también utilizó la zona y estableció allí otro edificio de madera para la caza. La finca se encontraba en un extenso coto bajo Kráľova hoľa y recibió visitantes destacados. Los edificios fueron incendiados durante la Segunda Guerra Mundial y la residencia original fue destruida por las tropas en retirada en enero de 1945. Más tarde se construyó un hotel de montaña en el lugar. El conjunto histórico recuerda el antiguo uso aristocrático y cinegético de este paisaje montañoso."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia greco-católica de la Santísima Trinidad",
+          "text": "La parte occidental de Telgárt está dominada por la iglesia greco-católica de la Santísima Trinidad, un edificio de una sola nave de estilo barroco-clasicista construido en 1784. Fue renovado en 1929; ese mismo año se realizó su iconostasio de dos niveles. El iconostasio es una pared decorada con iconos que separa el santuario de la nave en las iglesias cristianas orientales. En el interior también se conserva un púlpito de principios del siglo XIX con elementos rococó. La iglesia figura en el Registro Central del Patrimonio Monumental de Eslovaquia con el número 84/1 y refleja la tradición greco-católica del pueblo, desarrollada bajo el dominio de la familia Koháry."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt durante el Levantamiento Nacional Eslovaco: un pueblo incendiado",
+          "text": "Telgárt fue un importante campo de batalla durante el Levantamiento Nacional Eslovaco de septiembre y octubre de 1944. Las fuerzas alemanas ocuparon el pueblo a principios de septiembre; el 5 de septiembre, las unidades insurgentes lo recuperaron, pero durante los combates y la posterior retirada el pueblo fue incendiado. Fuentes municipales y periodísticas indican que ardieron 263 casas. Los combates en la zona continuaron hasta octubre y el ejército rumano liberó el pueblo el 27 de enero de 1945. Telgárt fue reconstruido durante la década de 1950 y entre 1948 y 1990 se llamó Švermovo. Un monumento en la plaza recuerda a los combatientes y víctimas del levantamiento y las graves pérdidas sufridas por la población civil."
+        },
+        {
+          "id": "fact_006",
+          "title": "Canciones y costumbres del calendario festivo de Telgárt",
+          "text": "Telgárt ha conservado una cultura musical y tradicional propia, documentada también por la etnóloga Jana Ambrózová. Su investigación describe los antiguos «bursiki»: rondas navideñas en las que grupos de jóvenes visitaban casas escogidas después de reunirse por la noche y despertaban a sus habitantes con canciones. La costumbre desapareció aproximadamente a comienzos de la década de 1970. Otra tradición era el «rachunok», una reunión anual de propietarios de ovejas y pastores para evaluar la temporada y elegir a los pastores del año siguiente. El grupo folclórico local nació en 1957 y continúa una tradición anterior de actuaciones etnográficas, además de recuperar canciones grabadas por Karel Plicka en 1927. Su repertorio conserva canciones, bailes y costumbres ceremoniales propias de Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona: paisaje fluvial protegido del alto Hron",
+          "text": "La reserva natural Meandre Hrona protege desde 1980 unas 104 hectáreas de la llanura aluvial del curso alto del Hron, entre Telgárt y Šumiac. Aquí el río forma un sistema de meandros naturales, prados húmedos y hábitats pantanosos que en muchas otras zonas de Eslovaquia han sido regulados o destruidos. En la reserva crecen plantas raras de prados húmedos, como la prímula harinosa, la grasilla común y varias especies de cárices. El área se encuentra en la zona de protección del Parque Nacional de los Bajos Tatras y está sometida al cuarto grado de protección de la naturaleza. La administración del parque indica que no hay senderos que atraviesen la reserva; al visitar los alrededores es necesario respetar su régimen de protección."
+        },
+        {
+          "id": "fact_008",
+          "title": "El nacimiento del Hron bajo el collado de Besník",
+          "text": "No lejos de Telgárt, en la vertiente sudoriental de Kráľova hoľa bajo el collado de Besník, nace el Hron, el segundo río más largo de Eslovaquia. La fuente se encuentra a unos 980 metros de altitud y aproximadamente a tres kilómetros del pueblo. Desde allí, el Hron atraviesa Horehronie y el centro de Eslovaquia hasta llegar al Danubio. En 2024, el municipio inauguró un sendero educativo señalizado de 4,3 kilómetros que conecta el nacimiento del río con el patrimonio ferroviario técnico. Parte del recorrido sigue un antiguo camino de mantenimiento utilizado por los trabajadores del ferrocarril en la época de las locomotoras de vapor. Así, el nacimiento del río es tanto un punto geográfico importante como un vínculo entre el paisaje local y la historia del ferrocarril."
+        },
+        {
+          "id": "fact_009",
+          "title": "El sendero de Vogl y la cruz de madera en la colina Ždiar",
+          "text": "El sendero de Vogl sigue una antigua ruta forestal y cinegética que unía Telgárt con los bosques y cotos de montaña bajo Kráľova hoľa. Su nombre recuerda a Jan (Johann) Vogl, administrador de una zona de caza durante el Estado eslovaco en tiempos de guerra. En los últimos años, los vecinos han limpiado y vuelto a abrir una parte del recorrido. Un desvío conduce a la colina Ždiar, donde se alza una cruz de madera de unos 15 metros. La cima, a unos 1.167 metros de altitud, ofrece vistas de Telgárt, Kráľova hoľa y las crestas cercanas de los Bajos Tatras. El camino reúne historia forestal, memoria local y una ruta de senderismo actual."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Telgárt – centre du village et hameau de Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt : un village de montagne aux origines médiévales",
+          "text": "Telgárt s’est développé dans la première moitié du XIVe siècle le long d’une ancienne route reliant Gemer et Spiš. Sa première mention écrite date de 1326 et associe la fondation du village au šoltýs Mikuláš, fils de Ladislav Kun, originaire de Spiš. Le premier établissement se trouvait environ cinq kilomètres à l’est du village actuel, près de la source du Hnilec ; les habitants se déplacèrent ensuite vers le confluent de la Zubrovica et du Hron. Le nom Telgárt est lié au mot allemand Tiergarten, qui désigne un enclos à gibier ou un territoire de chasse. Au cours des siècles suivants, l’élevage, la colonisation valaque, le travail forestier et le transport du bois ont façonné la vie locale."
+        },
+        {
+          "id": "fact_002",
+          "title": "La boucle ferroviaire de Telgárt et le viaduc de Chmarošský",
+          "text": "La ligne ferroviaire Červená Skala–Margecany traverse un relief montagneux difficile grâce à plusieurs ouvrages d’ingénierie remarquables. La boucle de Telgárt forme un tracé d’environ 2,3 kilomètres ; son tunnel hélicoïdal Kornel Stodola mesure 1 239 mètres et permet de franchir un dénivelé de 31 mètres. À proximité se trouve le viaduc de Chmarošský, un pont en pierre à neuf arches, long de 113,6 mètres et haut de 18 mètres au-dessus de la vallée. Les travaux de la ligne ont commencé en 1931 et l’ensemble de la liaison jusqu’à Margecany a été ouvert au trafic public le 26 juillet 1936. Des milliers d’ouvriers ont participé au chantier, qui a profondément transformé la vie de cette région montagneuse isolée."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – le domaine de chasse de la famille Cobourg",
+          "text": "Le hameau de Pusté Pole, situé dans le territoire cadastral de Telgárt, est lié à l’ancien domaine de chasse de la famille Cobourg. Selon un document historique des forêts d’État, Philipp de Saxe-Cobourg et Gotha fit construire vers 1880 un pavillon de chasse en pierre. Après 1908, Ferdinand Ier de Bulgarie utilisa également le secteur et y fit établir un autre bâtiment de chasse en bois. Le domaine se trouvait dans un vaste territoire de chasse sous la Kráľova hoľa et accueillit des visiteurs de marque. Les bâtiments furent incendiés pendant la Seconde Guerre mondiale et le pavillon d’origine fut détruit par les troupes en retraite en janvier 1945. Un hôtel de montagne fut ensuite construit sur le site. Cet ensemble historique rappelle l’ancienne utilisation aristocratique et cynégétique de ce paysage montagnard."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église gréco-catholique de la Sainte-Trinité",
+          "text": "La partie occidentale de Telgárt est dominée par l’église gréco-catholique de la Sainte-Trinité, un édifice à nef unique de style baroque-classique construit en 1784. Elle a été rénovée en 1929 ; son iconostase à deux niveaux date également de cette année. Une iconostase est une paroi ornée d’icônes qui sépare le sanctuaire de la nef dans les églises chrétiennes orientales. L’intérieur conserve aussi une chaire du début du XIXe siècle avec des éléments rococo. L’église est inscrite au Registre central du patrimoine monumental slovaque sous le numéro 84/1 et témoigne de la tradition gréco-catholique du village, développée sous la domination de la famille Koháry."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt pendant le Soulèvement national slovaque – un village incendié",
+          "text": "Telgárt fut un important champ de bataille du Soulèvement national slovaque en septembre et octobre 1944. Les forces allemandes occupèrent le village au début de septembre ; le 5 septembre, les unités insurgées le reprirent, mais le village fut incendié pendant les combats et le retrait qui suivit. Selon les sources municipales et journalistiques, 263 maisons furent détruites. Les combats dans la région se poursuivirent jusqu’en octobre et l’armée roumaine libéra le village le 27 janvier 1945. Telgárt fut reconstruit au cours des années 1950 et porta le nom de Švermovo de 1948 à 1990. Un mémorial sur la place du village rend hommage aux combattants et aux victimes du soulèvement et rappelle les lourdes pertes subies par les civils."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chants et coutumes calendaires de Telgárt",
+          "text": "Telgárt a conservé une culture musicale et coutumière locale marquée, également étudiée par l’ethnologue Jana Ambrózová. Ses recherches décrivent notamment les anciens « bursiki » : des tournées de jeunes hommes pendant la période de Noël, qui, après une réunion nocturne, visitaient certaines maisons et réveillaient leurs habitants en chantant. Cette coutume a disparu vers le début des années 1970. Une autre tradition était le « rachunok », une réunion annuelle des propriétaires de moutons et des bergers pour faire le bilan de la saison et choisir les bergers de l’année suivante. Le groupe folklorique local a été créé en 1957 ; il prolonge une tradition plus ancienne de représentations ethnographiques et s’appuie aussi sur des chansons enregistrées par Karel Plicka en 1927. Son répertoire préserve les chants, danses et coutumes cérémonielles propres à Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – un paysage fluvial protégé du haut Hron",
+          "text": "La réserve naturelle Meandre Hrona protège depuis 1980 environ 104 hectares de la plaine alluviale du haut Hron, entre Telgárt et Šumiac. La rivière y forme un ensemble de méandres naturels, de prairies humides et de milieux marécageux qui ont été rectifiés ou détruits dans de nombreuses autres régions de Slovaquie. La réserve abrite des plantes rares des prairies humides, notamment la primevère farineuse, la grassette commune et plusieurs espèces de laîches. Le site se trouve dans la zone de protection du parc national des Basses Tatras et relève du quatrième degré de protection de la nature. L’administration du parc précise qu’aucun sentier de randonnée ne traverse la réserve ; il faut donc respecter son régime de protection lors des visites des environs."
+        },
+        {
+          "id": "fact_008",
+          "title": "La source du Hron sous le col de Besník",
+          "text": "Non loin de Telgárt, sur le versant sud-est de la Kráľova hoľa, sous le col de Besník, prend sa source le Hron, deuxième plus long fleuve de Slovaquie. La source se situe à environ 980 mètres d’altitude et à près de trois kilomètres du village. De là, le Hron traverse le Horehronie et le centre de la Slovaquie avant de rejoindre le Danube. En 2024, la commune a inauguré un sentier pédagogique balisé de 4,3 kilomètres reliant la source aux ouvrages ferroviaires historiques. Une partie du parcours suit un ancien chemin de service utilisé par les cheminots à l’époque des locomotives à vapeur. La source constitue ainsi un repère géographique important et un lien entre le paysage local et l’histoire du chemin de fer."
+        },
+        {
+          "id": "fact_009",
+          "title": "Le sentier Vogl et la croix en bois sur la colline Ždiar",
+          "text": "Le sentier Vogl suit un ancien itinéraire forestier et cynégétique qui reliait Telgárt aux forêts de montagne et aux territoires de chasse sous la Kráľova hoľa. Son nom rappelle Jan (Johann) Vogl, administrateur d’un domaine de chasse pendant l’État slovaque en temps de guerre. Ces dernières années, des habitants ont dégagé et rouvert une partie du parcours. Un embranchement conduit à la colline Ždiar, où se dresse une croix en bois d’environ 15 mètres de haut. Le sommet, à quelque 1 167 mètres d’altitude, offre des vues sur Telgárt, la Kráľova hoľa et les crêtes voisines des Basses Tatras. Le sentier associe histoire forestière, mémoire locale et randonnée contemporaine."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Telgárt – centro del villaggio e località di Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt: un villaggio montano con origini nel XIV secolo",
+          "text": "Telgárt si sviluppò nella prima metà del XIV secolo lungo un’antica via che collegava Gemer e Spiš. La prima menzione scritta risale al 1326 e associa la fondazione dell’insediamento allo šoltýs Mikuláš, figlio di Ladislav Kun di Spiš. Il nucleo originario si trovava circa cinque chilometri a est del villaggio attuale, vicino alla sorgente dell’Hnilec; in seguito gli abitanti si trasferirono alla confluenza dei fiumi Zubrovica e Hron. Il nome Telgárt è collegato alla parola tedesca Tiergarten, che significa recinto per la selvaggina o riserva di caccia. Nei secoli successivi la vita locale fu plasmata dalla pastorizia, dalla colonizzazione valacca, dal lavoro forestale e dal trasporto del legname."
+        },
+        {
+          "id": "fact_002",
+          "title": "La curva ferroviaria di Telgárt e il viadotto di Chmarošský",
+          "text": "La linea ferroviaria Červená Skala–Margecany attraversa un terreno montano difficile grazie a una serie di notevoli opere ingegneristiche. La curva di Telgárt forma un arco di circa 2,3 chilometri; il suo tunnel a spirale Kornel Stodola è lungo 1.239 metri e consente di superare un dislivello di 31 metri. Nelle vicinanze si trova il viadotto di Chmarošský, un ponte ad archi in pietra con nove arcate, lungo 113,6 metri e alto 18 metri sopra la valle. I lavori della linea iniziarono nel 1931 e l’intero collegamento fino a Margecany fu aperto al traffico pubblico il 26 luglio 1936. Migliaia di operai parteciparono al progetto, che trasformò profondamente la vita di questa remota regione montana."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – la tenuta di caccia della famiglia Coburgo",
+          "text": "La località di Pusté Pole, nel territorio catastale di Telgárt, è legata all’antica tenuta di caccia della famiglia Coburgo. Secondo un documento storico delle foreste statali, Philipp di Sassonia-Coburgo-Gotha fece costruire qui intorno al 1880 un padiglione di caccia in pietra. Dopo il 1908 anche Ferdinando I di Bulgaria utilizzò la zona e vi fece realizzare un altro edificio di caccia in legno. La tenuta si trovava in un vasto territorio venatorio sotto la Kráľova hoľa e accolse ospiti illustri. Gli edifici furono incendiati durante la Seconda guerra mondiale e il padiglione originario venne distrutto dalle truppe in ritirata nel gennaio 1945. In seguito sul posto fu costruito un albergo di montagna. Il complesso storico ricorda l’antico uso aristocratico e venatorio di questo paesaggio montano."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa greco-cattolica della Santissima Trinità",
+          "text": "La parte occidentale di Telgárt è dominata dalla chiesa greco-cattolica della Santissima Trinità, un edificio a navata unica in stile barocco-classicista costruito nel 1784. Fu rinnovato nel 1929; dello stesso anno è anche l’iconostasi a due livelli. L’iconostasi è una parete decorata con icone che separa il santuario dalla navata nelle chiese cristiane orientali. All’interno si conserva inoltre un pulpito dei primi anni del XIX secolo con elementi rococò. La chiesa è iscritta nel Registro centrale del patrimonio monumentale slovacco con il numero 84/1 e testimonia la tradizione greco-cattolica del villaggio, sviluppatasi sotto il dominio della famiglia Koháry."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt durante l’Insurrezione nazionale slovacca – il villaggio incendiato",
+          "text": "Telgárt fu un importante campo di battaglia durante l’Insurrezione nazionale slovacca del settembre e ottobre 1944. Le forze tedesche occuparono il villaggio all’inizio di settembre; il 5 settembre le unità insorte lo riconquistarono, ma durante i combattimenti e la successiva ritirata il paese fu incendiato. Secondo fonti comunali e giornalistiche andarono distrutte 263 case. I combattimenti nell’area più ampia continuarono fino a ottobre e l’esercito rumeno liberò il villaggio il 27 gennaio 1945. Telgárt fu ricostruito negli anni Cinquanta e dal 1948 al 1990 si chiamò Švermovo. Un monumento nella piazza ricorda i combattenti e le vittime dell’insurrezione e le gravi perdite subite dalla popolazione civile."
+        },
+        {
+          "id": "fact_006",
+          "title": "Canti e usanze del calendario tradizionale di Telgárt",
+          "text": "Telgárt ha conservato una cultura musicale e consuetudinaria locale ben riconoscibile, documentata anche dall’etnologa Jana Ambrózová. La sua ricerca descrive gli antichi «bursiki»: giri natalizi in cui gruppi di giovani uomini, dopo essersi riuniti di notte, visitavano alcune case e svegliavano gli abitanti cantando. L’usanza scomparve all’incirca all’inizio degli anni Settanta. Un’altra tradizione era il «rachunok», un incontro annuale di proprietari di pecore e pastori per valutare la stagione e scegliere i pastori per l’anno successivo. Il gruppo folkloristico locale nacque nel 1957 e prosegue una tradizione più antica di esibizioni etnografiche, recuperando anche canti registrati da Karel Plicka nel 1927. Il suo repertorio conserva canti, danze e usanze cerimoniali specifiche di Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – paesaggio fluviale protetto dell’alto Hron",
+          "text": "Dal 1980 la riserva naturale Meandre Hrona protegge circa 104 ettari della pianura alluvionale dell’alto Hron, tra Telgárt e Šumiac. Qui il fiume forma un sistema di meandri naturali, prati umidi e habitat paludosi che in molte altre zone della Slovacchia sono stati regolati o distrutti. Nella riserva crescono piante rare dei prati umidi, tra cui la primula farinosa, la pinguicola comune e diverse specie di carici. L’area si trova nella zona di protezione del Parco nazionale dei Bassi Tatra ed è soggetta al quarto livello di tutela naturalistica. L’amministrazione del parco segnala che nessun sentiero escursionistico attraversa la riserva; durante le visite nei dintorni è quindi necessario rispettarne il regime di protezione."
+        },
+        {
+          "id": "fact_008",
+          "title": "La sorgente dell’Hron sotto il passo di Besník",
+          "text": "Non lontano da Telgárt, sul versante sud-orientale della Kráľova hoľa sotto il passo di Besník, nasce l’Hron, il secondo fiume più lungo della Slovacchia. La sorgente si trova a circa 980 metri di altitudine e a circa tre chilometri dal villaggio. Da qui l’Hron attraversa l’Horehronie e la Slovacchia centrale prima di raggiungere il Danubio. Nel 2024 il comune ha inaugurato un nuovo sentiero didattico segnalato lungo 4,3 chilometri, che collega la sorgente ai monumenti tecnici ferroviari. Una parte del percorso segue una vecchia strada di servizio utilizzata dai ferrovieri ai tempi dei treni a vapore. La sorgente è quindi un importante punto geografico e un collegamento tra il paesaggio locale e la storia della ferrovia."
+        },
+        {
+          "id": "fact_009",
+          "title": "Il sentiero Vogl e la croce di legno sul monte Ždiar",
+          "text": "Il sentiero Vogl segue un’antica via forestale e venatoria che collegava Telgárt ai boschi montani e ai territori di caccia sotto la Kráľova hoľa. Il nome ricorda Jan (Johann) Vogl, amministratore di una zona di caccia durante lo Stato slovacco in tempo di guerra. Negli ultimi anni gli abitanti hanno ripulito e riaperto una parte del percorso. Una deviazione conduce al monte Ždiar, dove sorge una croce di legno alta circa 15 metri. La cima, a circa 1.167 metri di quota, offre vedute su Telgárt, sulla Kráľova hoľa e sulle creste circostanti dei Bassi Tatra. Il sentiero unisce storia forestale, memoria locale e un itinerario escursionistico attuale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Telgárt – dorpscentrum en buurtschap Pusté Pole",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Telgárt – een bergdorp met wortels in de veertiende eeuw",
+          "text": "Telgárt ontwikkelde zich in de eerste helft van de veertiende eeuw langs een oude route die Gemer en Spiš met elkaar verbond. De eerste schriftelijke vermelding dateert uit 1326 en verbindt de stichting van de nederzetting met de šoltýs Mikuláš, zoon van Ladislav Kun uit Spiš. De oorspronkelijke nederzetting lag ongeveer vijf kilometer ten oosten van het huidige dorp, bij de bron van de Hnilec; later verhuisden de bewoners naar de samenvloeiing van de Zubrovica en de Hron. De naam Telgárt houdt verband met het Duitse woord Tiergarten, een wildpark of jachtgebied. In de daaropvolgende eeuwen bepaalden veeteelt, Walachijse kolonisatie, bosarbeid en houttransport het plaatselijke leven."
+        },
+        {
+          "id": "fact_002",
+          "title": "De spoorwegboog van Telgárt en het Chmarošský-viaduct",
+          "text": "De spoorlijn Červená Skala–Margecany doorkruist moeilijk bergterrein met een reeks opmerkelijke technische bouwwerken. De lus van Telgárt vormt een boog van ongeveer 2,3 kilometer; de spiraalvormige Kornel Stodola-tunnel is 1.239 meter lang en overbrugt een hoogteverschil van 31 meter. Vlakbij staat het Chmarošský-viaduct, een stenen boogbrug met negen bogen, een lengte van 113,6 meter en een hoogte van 18 meter boven het dal. De aanleg van de spoorlijn begon in 1931 en de volledige verbinding tot Margecany werd op 26 juli 1936 voor het openbare verkeer geopend. Duizenden arbeiders werkten aan het project, dat het leven in deze afgelegen bergstreek ingrijpend veranderde."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pusté Pole – het jachtdomein van de familie Coburg",
+          "text": "Het gehucht Pusté Pole binnen het kadastrale gebied van Telgárt is verbonden met het voormalige jachtdomein van de familie Coburg. Volgens een historisch verslag van de staatsbossen liet Philipp van Saksen-Coburg en Gotha hier rond 1880 een stenen jachthuis bouwen. Na 1908 gebruikte ook Ferdinand I van Bulgarije het gebied en liet hij er nog een houten jachtgebouw neerzetten. Het domein lag in een uitgestrekt jachtgebied onder de Kráľova hoľa en ontving vooraanstaande gasten. De gebouwen werden tijdens de Tweede Wereldoorlog in brand gestoken; het oorspronkelijke jachthuis werd in januari 1945 door terugtrekkende troepen verwoest. Later werd op de plek een berghotel gebouwd. Het historische terrein herinnert aan het vroegere adellijke en jachtgebruik van dit berglandschap."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Grieks-katholieke kerk van de Heilige Drie-eenheid",
+          "text": "Het westelijke deel van Telgárt wordt gedomineerd door de Grieks-katholieke kerk van de Heilige Drie-eenheid, een eenbeukig gebouw in barok-classicistische stijl uit 1784. De kerk werd in 1929 gerenoveerd; uit datzelfde jaar dateert de tweelaagse iconostase. Een iconostase is een met iconen versierde wand die in oosters-christelijke kerken het heiligdom van het schip scheidt. Binnen is ook een preekstoel uit het begin van de negentiende eeuw met rococo-elementen bewaard gebleven. De kerk staat onder nummer 84/1 in het centrale monumentenregister van Slowakije en weerspiegelt de Grieks-katholieke traditie van het dorp, die zich onder het bewind van de familie Koháry ontwikkelde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Telgárt tijdens de Slowaakse Nationale Opstand – een platgebrand dorp",
+          "text": "Telgárt was in september en oktober 1944 een belangrijk slagveld van de Slowaakse Nationale Opstand. Duitse troepen bezetten het dorp begin september; op 5 september heroverden opstandelingen het, maar tijdens de gevechten en de daaropvolgende terugtocht werd het dorp platgebrand. Volgens gemeentelijke en journalistieke bronnen gingen 263 huizen in vlammen op. De gevechten in de ruimere omgeving duurden tot oktober en het Roemeense leger bevrijdde het dorp op 27 januari 1945. Telgárt werd in de jaren vijftig herbouwd en heette van 1948 tot 1990 Švermovo. Een monument op het dorpsplein herdenkt de strijders en slachtoffers van de opstand en de zware verliezen onder de burgerbevolking."
+        },
+        {
+          "id": "fact_006",
+          "title": "Liederen en kalendergebruiken van Telgárt",
+          "text": "Telgárt heeft een herkenbare plaatselijke muziek- en traditiecultuur behouden, die ook door etnologe Jana Ambrózová is onderzocht. Haar studie beschrijft onder meer de vroegere ‘bursiki’: rondgangen in de kersttijd waarbij groepen jonge mannen na een nachtelijke bijeenkomst bepaalde huizen bezochten en de bewoners met liederen wakker maakten. Dit gebruik verdween ongeveer aan het begin van de jaren zeventig. Een andere traditie was de ‘rachunok’, een jaarlijkse bijeenkomst van schapenbezitters en herders om het seizoen te evalueren en de herders voor het volgende jaar te kiezen. De plaatselijke folkloristische groep werd in 1957 opgericht en zet een oudere traditie van etnografische optredens voort; ook liederen die Karel Plicka in 1927 opnam, vormen een deel van de muzikale erfenis. Het repertoire bewaart liederen, dansen en ceremoniële gebruiken die eigen zijn aan Telgárt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Meandre Hrona – beschermd rivierlandschap aan de bovenloop van de Hron",
+          "text": "Het natuurreservaat Meandre Hrona beschermt sinds 1980 ongeveer 104 hectare van de uiterwaarden van de bovenloop van de Hron tussen Telgárt en Šumiac. De rivier vormt hier een stelsel van natuurlijke meanders, natte hooilanden en moerasgebieden die in veel andere delen van Slowakije zijn rechtgetrokken of verdwenen. In het reservaat groeien zeldzame planten van vochtige graslanden, waaronder de meelprimula, het gewoon vetblad en verschillende zeggensoorten. Het gebied ligt in de beschermingszone van het Nationaal Park Lage Tatra en valt onder de vierde beschermingsgraad. Volgens de parkbeheerder loopt er geen wandelpad door het reservaat; bezoekers van de omgeving moeten daarom de beschermingsregels respecteren."
+        },
+        {
+          "id": "fact_008",
+          "title": "De bron van de Hron onder de Besník-pas",
+          "text": "Niet ver van Telgárt ontspringt op de zuidoostelijke helling van de Kráľova hoľa, onder de Besník-pas, de Hron, de op een na langste rivier van Slowakije. De bron ligt op ongeveer 980 meter hoogte en circa drie kilometer van het dorp. Vanaf hier stroomt de Hron door Horehronie en Midden-Slowakije richting de Donau. In 2024 opende de gemeente een gemarkeerd educatief wandelpad van 4,3 kilometer dat de bron verbindt met het technische spoorwegerfgoed. Een deel van de route volgt een oude onderhoudsweg die spoorwegarbeiders in de tijd van de stoomtreinen gebruikten. De bron is daarmee niet alleen een belangrijk geografisch punt, maar verbindt ook het landschap met de spoorweggeschiedenis."
+        },
+        {
+          "id": "fact_009",
+          "title": "Het Vogl-pad en het houten kruis op de heuvel Ždiar",
+          "text": "Het Vogl-pad volgt een oude bos- en jachtroute die Telgárt verbond met de bergbossen en jachtgebieden onder de Kráľova hoľa. De naam verwijst naar Jan (Johann) Vogl, beheerder van een jachtgebied tijdens de oorlogsjaren van de Slowaakse Staat. De afgelopen jaren hebben inwoners een deel van de route vrijgemaakt en opnieuw toegankelijk gemaakt. Een zijpad leidt naar de heuvel Ždiar, waar een houten kruis van ongeveer vijftien meter hoog staat. De top, op ongeveer 1.167 meter, biedt uitzicht op Telgárt, de Kráľova hoľa en de omliggende bergkammen van de Lage Tatra. De route verbindt bosgeschiedenis, plaatselijke herinnering en een hedendaagse wandeltocht."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
