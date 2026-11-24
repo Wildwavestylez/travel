@@ -200,7 +200,7 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta je primárnou autoritou a jej oficiálne vyhľadávanie PSČ bolo skontrolované ako adresná služba. Geografické používanie kódu 97681 je doložené oficiálnou adresou Obecného úradu Podbrezová (976 81 Podbrezová), úradnými adresnými dokumentmi pre miestnu časť Valaská-Piesok (976 81) a adresnými záznamami. Verejné rozhranie Slovenskej pošty neposkytuje v prehliadateľnom výstupe polygon doručovacej oblasti; preto sa netvrdí presná hranica PSČ ani príslušnosť celých susedných obcí.",
+    "plz_source": "Slovenská pošta je primárnou autoritou a jej oficiálne vyhľadávanie PSČ bolo skontrolované ako adresná služba. Geografické používanie kódu 97681 je doložené oficiálnou adresou Obecného úradu Podbrezová (976 81 Podbrezová), úradnými adresnými dokumentmi pre miestnu časť Valaská-Piesok (976 81) a adresným záznamom v Obchodnom vestníku. Verejné rozhranie Slovenskej pošty neposkytuje v prehliadateľnom výstupe polygon doručovacej oblasti; presná hranica PSČ sa preto netvrdí.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
@@ -208,7 +208,7 @@
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-24",
     "postcode_conflict": true,
-    "postcode_conflict_note": "Sekundárne zoznamy niekedy uvádzajú pod PSČ 976 81 aj Hornú Lehotu. Oficiálne dokumenty obce Horná Lehota však uvádzajú adresu obecného úradu Horná Lehota 99, 976 51 Horná Lehota; bez oficiálneho adresného dôkazu preto nebola celá obec Horná Lehota zahrnutá do geografického rozsahu 97681. Rovnako sa nepredpokladá, že celé územie Valaskej patrí pod 97681: doložené sú konkrétne adresy v miestnej časti Piesok. Územný polygon PSČ nie je verejne doložený.",
+    "postcode_conflict_note": "Adresné zdroje sa pri Hornej Lehote rozchádzajú: oficiálne dokumenty obecného úradu uvádzajú Horná Lehota 99, 976 51, zatiaľ čo jeden záznam v Obchodnom vestníku Ministerstva spravodlivosti uvádza adresu Horná Lehota 99 s PSČ 976 81; sekundárne zoznamy takisto zaraďujú Hornú Lehotu pod 97681. To môže znamenať adresne špecifické použitie PSČ, ale nedokazuje, že celé katastrálne územie obce patrí pod 97681. Preto sa netvrdí plošná príslušnosť Hornej Lehoty a fakty sú obmedzené na Podbrezovú, Chvatimech a konkrétne adresne doloženú časť Valaská-Piesok. Územný polygon PSČ nie je verejne doložený.",
     "delivery_office_note": null,
     "postcode_override_reason": null,
     "geographic_authority": "Administratívne zaradenie Podbrezovej (okres Brezno, Banskobystrický kraj), jej oficiálnu polohu a miestne časti potvrdzujú obecný profil Podbrezová a Ústredný portál verejnej správy. Vzťah Pieska k obci Valaská potvrdzuje UPVS a oficiálne obecné dokumenty. Reprezentatívny bod je prevzatý z oficiálneho GPS profilu obce; jednotlivé objektové polohy sú doložené špecialistickým pamiatkovým zdrojom, Vets.cz a OMA/OSM adresnými bodmi. RAGEO ani ZBGIS export hranice PSČ nebol v tomto kroku k dispozícii."
@@ -328,6 +328,11 @@
       "title": "Podbrezovan – Významné výročia: vývoj výroby v železiarňach Podbrezová",
       "url": "https://archiv.podbrezovan.sk/regionnoviny/podbrezovan.nsf/page/2015_2_TOHTOROCNE_VYROCIA",
       "type": "regional"
+    },
+    {
+      "title": "Obchodný vestník Ministerstva spravodlivosti SR – adresný záznam Horná Lehota 99, 976 81",
+      "url": "https://obchodnyvestnik.justice.gov.sk/ObchodnyVestnik/Web/Stiahnut.aspx?IdOvSubor=133809",
+      "type": "official"
     }
   ],
   "translations": {
