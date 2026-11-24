@@ -24,10 +24,19 @@
       "sources": [
         "https://www.slovensko.sk/sk/lokality/_e958b24b-b2e6-4718-8e26-e8527d96dc0d",
         "https://www.obecmedzibrod.sk/obec-2/historia-obce/",
-        "https://matriky.genedict.net/medzibrod/"
+        "https://matriky.genedict.net/medzibrod/",
+        "https://poi.oma.sk/w73265471"
       ],
       "map_category": "historic_city",
-      "location": null
+      "location": {
+        "name": "Obecný úrad Medzibrod – orientační bod pro historické jádro obce",
+        "address": "Námestie hrdinov SNP 1, 976 96 Medzibrod, Slovensko",
+        "lat": 48.79217857758706,
+        "lon": 19.352161915157684,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w73265471"
+      }
     },
     {
       "id": "fact_002",
@@ -76,10 +85,19 @@
         "https://ebadatelnavha.vhu.sk/en/archive_photos?f%5B0%5D=-browse.firstLetter%3A%22b%22&f%5B1%5D=-browse.firstLetter%3A%22n%22&f%5B2%5D=-browse.firstLetter%3A%22k%22&f%5B3%5D=-browse.year%3A%221942%22&f%5B4%5D=-browse.year%3A%221943%22&f%5B5%5D=browse.year%3A%221944%22&f%5B6%5D=-browse.month%3A%2211%22&f%5B7%5D=browse.firstLetter%3A%22p%22&page=3",
         "https://www.obecmedzibrod.sk/e_download.php?file=data%2Feditor%2F135sk_1.pdf&original=PHRSR+2023-2032+Medzibrod.pdf",
         "https://szpb.sk/wp-content/uploads/2023/09/boj-5-2023_s1-16.pdf",
-        "https://www.bojovnik.info/wp-content/uploads/2025/04/Bojovnik_192017.pdf"
+        "https://www.bojovnik.info/wp-content/uploads/2025/04/Bojovnik_192017.pdf",
+        "https://poi.oma.sk/n3156191554"
       ],
       "map_category": "historical_monument",
-      "location": null
+      "location": {
+        "name": "Medzibrod – Námestie hrdinov SNP 2, orientační bod pro pamětní desku",
+        "address": "Námestie hrdinov SNP 2, 976 96 Medzibrod, Slovensko",
+        "lat": 48.7918751,
+        "lon": 19.3519443,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n3156191554"
+      }
     },
     {
       "id": "fact_005",
@@ -254,6 +272,11 @@
     {
       "title": "Medzibrod – mapa obce a poštové smerovacie číslo (OpenStreetMap)",
       "url": "https://medzibrod.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Medzibrod, Námestie hrdinov SNP 2 – orientačný bod",
+      "url": "https://poi.oma.sk/n3156191554",
       "type": "other"
     }
   ],
