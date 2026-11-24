@@ -1,29 +1,14 @@
 # TRAVEL SLOVAKIA — SHORT POSTCODE AUDIT PROMPT
 
-**Version 1.1 — GitHub canonical source + Neon production mirror**
+**Version 1.2 — Neon production database + GitHub archive**
 
 ## Database Viewer index synchronization
 
-After each audited record is saved and verified, update the matching entry in `data/slovakia/database_index.json` with the canonical record's `city` (or `null`) and final `status`. Fetch before writing, preserve all other entries and sequence order, then fetch again to verify. This file is a derived viewer/search cache only; individual record JSON files remain the sole source of truth.
+If the optional GitHub Database Viewer cache `data/slovakia/database_index.json` is still used, update only the matching entry's `city` and final `status`. It is an archive viewer cache, not a production data source; do not perform extra synchronization steps for Europe Explorer.
 
-## Europe Explorer V5 manifest synchronization
+## Production delivery
 
-The public manifest `data/slovakia/explorer_index.json` is generated automatically by the GitHub Actions workflow `.github/workflows/slovakia-explorer-index.yml` from canonical Slovak record JSON files. The generator is `scripts/build-slovakia-explorer-index.mjs`.
-
-- Never edit or construct the Explorer manifest manually during an audit.
-- After canonical record JSON changes are committed to GitHub, the workflow rebuilds the manifest from `sequence.json` and every canonical record file.
-- The generator includes only records whose canonical JSON has both `status = "published"` and `data_version = 5`. Placeholders, validated records and published records of another version are excluded.
-- Each included record contributes its canonical postcode, city, district, county, state and representative point.
-- Each fact with a valid non-null `facts[].location` contributes one map point using its canonical fact ID, title, editorial category, `map_category` and exact WGS84 coordinates. A missing fact location never falls back to `representative_point` or `access_point`.
-- Map points are published as compact geographic JSON tiles under `data/slovakia/explorer_tiles/{z}/{x}/{y}.json`, generated for zoom levels 4–8. The manifest contains occupied tile keys and random-discovery tile counts, not the full map-point collection.
-- Europe Explorer requests only occupied tiles intersecting the current map viewport. Tile files are derived artifacts: never edit them manually. The generator deletes and rebuilds the complete tile directory so unpublished or removed facts cannot remain in stale tiles.
-- Random Explorer selects a tile using its generated point count and loads only that tile before fetching the selected canonical postcode record.
-- If a published record is not V5, lacks required Explorer fields, has invalid coordinates or has incomplete required language branches, the generator fails rather than silently publishing a partial index.
-- When a record ceases to be published V5, the next generated manifest removes that record and all its fact points.
-- After the workflow completes, fetch `explorer_index.json` and verify the affected postcode, record count, status/version, map-point count and coordinates against the canonical JSON. The canonical record files remain the sole source of truth.
-- Do not change `data_version` merely to make a record appear in Explorer. Only the explicit project publication/versioning instruction can authorize that change.
-
-The manifest and tile files are GitHub-generated derived delivery artifacts for Europe Explorer. They contain no independent editorial content and must never overwrite canonical JSON. They are not a substitute for the Neon production mirror described below. Keep this existing GitHub Actions pipeline intact unless a separately approved architecture change explicitly replaces it.
+Neon is the only production data source for Europe Explorer. GitHub stores the Slovak JSON files as an editorial archive and version history. Do not generate or maintain GitHub Explorer manifests, map tiles or any parallel delivery index. The application must read published Slovak records from `public.slovakia_cap_records` in Neon.
 
 ## 1. Purpose and strict separation from rework
 
@@ -49,7 +34,7 @@ Before starting, load the current:
 - the exact Slovak JSON files in `data/slovakia/records/{postcode}.json` for the requested scope;
 - the canonical audit ledger for that scope, if one already exists.
 
-GitHub repository `Wildwavestylez/travel` is the canonical editorial source of truth for Slovak records: record creation, rework, audit corrections, versioning and publication happen in GitHub first. Neon is a synchronized production mirror used by Europe Explorer; it is not an independent editing source. Never use Supabase for Slovak records.
+GitHub repository `Wildwavestylez/travel` stores the archival JSON snapshots and editorial history. Neon is the only production database read by Europe Explorer. Audit changes are prepared in the GitHub archive and then published to Neon after explicit authorization. Never use Supabase for Slovak records.
 
 Audit the entire explicitly requested block, not a sample. Until the Slovak `sequence.json` is separately created and populated, use only the exact postcode range/list assigned by the user or an established explicit work instruction. Do not invent, infer or create a sequence during audit. Do not add or remove postcodes from the requested scope.
 
@@ -220,54 +205,53 @@ At the end, provide one concise report:
 - unresolved items and which records remain `validated`;
 - which records passed and were changed to `published`;
 - confirmation that every `data_version` remained unchanged;
-- GitHub read-back verification result.
+- GitHub archive write result and Neon production verification result.
 
-## 6. Version changes, Neon synchronization and final Dropbox backup
+## 6. Version changes, Neon publication and final Dropbox backup
 
 ### 6.1 Data version
 
-**The audit never changes `data_version`.**
+**The audit never changes `data_version` on its own.**
 
-After the complete requested audit scope has passed, the assistant may change `data_version` only when the user explicitly instructs the target version. The intended Slovak publication target for Europe Explorer is `data_version = 5` together with `status = "published"`, but neither value may be applied merely because an audit finished. Do not interpret a request to continue, audit, fix or validate as permission to change the version. A user instruction to prepare/publish the completed audited scope as V5 and published authorizes those exact changes.
+After the complete requested audit scope has passed, set the exact audited scope to `data_version = 5` and `status = "published"` only when the user explicitly authorizes that publication. Do not interpret a request to continue, audit, fix or validate as permission to publish.
 
-When the user gives an explicit version instruction:
+When the user gives the explicit V5 + published instruction:
 1. confirm that the complete requested scope has passed audit;
-2. update only the exact audited files and only the `data_version` value requested;
-3. preserve all content, IDs and statuses;
-4. fetch every changed file back from GitHub and verify the exact scope, version and blob SHA;
-5. report the version change separately from the audit result.
+2. update only the exact eligible GitHub archive JSON files to `data_version = 5` and `status = "published"`;
+3. preserve all content, IDs and unrelated records;
+4. rely on the successful GitHub write/commit result as archive confirmation; do not fetch every file back one-by-one. Perform a targeted read only if a write result is ambiguous or an error occurred;
+5. proceed to the Neon production upsert and one batch verification described below.
 
-If no version instruction is given, leave every `data_version` unchanged.
+If no version/publication instruction is given, leave every `data_version` and status unchanged.
 
-### 6.2 GitHub → Neon production mirror (after V5 publication)
+### 6.2 Neon production publication
 
-GitHub remains canonical. Neon receives a copy only after the exact audited scope has been explicitly published in GitHub as `data_version = 5` and `status = "published"`.
+**Neon is the only production database and the source read by Europe Explorer. GitHub is the archival copy.**
 
 **Target Neon destination**
 - Neon project: `Europe Explorer` (`dry-rain-69965329`), database `neondb`.
 - Table: `public.slovakia_cap_records`.
 - Columns: `postcode`, `workflow_status`, `record`, `created_at`, `updated_at`.
-- Map canonical JSON `status` to Neon `workflow_status`; store the complete canonical GitHub record JSON in `record` (`jsonb`). Preserve the postcode as the table key.
+- Set `workflow_status = 'published'`; store the complete published JSON in `record` (`jsonb`). Preserve `created_at` on existing rows.
 
 **Required sequence**
-1. Finish rework and final audit in GitHub. Do not write to Neon during rework or audit.
-2. After the user explicitly authorizes V5 publication, update the exact eligible GitHub JSON files to `data_version = 5` and `status = "published"`. Do not include placeholders, unresolved records or records outside the authorized scope.
-3. Fetch every changed GitHub file back and verify postcode, full JSON, `data_version`, `status` and blob SHA. GitHub read-back is the publication gate.
-4. Only after that gate passes, synchronize those exact final JSON records into `public.slovakia_cap_records`. Use sequential, idempotent upserts keyed by `postcode`; set `workflow_status = 'published'`, `record` to the complete JSON and `updated_at` to the current timestamp. Do not overwrite records outside the authorized scope. Preserve `created_at` on existing rows.
-5. Read back only the synchronized postcodes from Neon. Compare the complete JSON value and lifecycle fields against the final GitHub records. Verify exact scope and counts; do not use `SELECT *`, whole-table scans or broad inventory queries.
-6. Report GitHub and Neon results separately: number of records published in GitHub, number synchronized to Neon, mismatches/failures and any records intentionally excluded.
+1. Finish the requested audit in the GitHub archive. Do not write incomplete or `validated` records to the production table.
+2. After explicit user authorization, set the exact eligible GitHub archive files to `data_version = 5` and `status = "published"`.
+3. Upsert only those exact postcodes into `public.slovakia_cap_records`, keyed by `postcode`. Keep writes idempotent and do not touch records outside the authorized scope.
+4. Run **one targeted batch read** for the synchronized postcodes from Neon. Compare the exact postcode set, `workflow_status`, JSON `status`, `data_version` and stored records with the authorized publication payload. Do not use `SELECT *`, whole-table scans or one query per postcode.
+5. Report the number published in the GitHub archive, the number synchronized to Neon and any mismatches or failures.
 
 **Failure and authority rules**
-- Never treat Neon as the canonical editor or copy Neon changes back over GitHub.
-- If Neon synchronization fails or is partial, GitHub remains authoritative and published. Report the exact failed postcodes and resume synchronization from GitHub after checking current Neon state; do not repeat successful writes blindly.
-- If GitHub and Neon disagree, the final GitHub JSON wins. Repair only the affected Neon rows from GitHub, then read them back and compare again.
-- Do not synchronize `validated`, `placeholder`, non-V5 or unpublished records as published. Do not silently change a record's status/version to satisfy a database constraint.
-- The GitHub Actions manifest and tile workflow remains a separate generated GitHub-derived artifact. Do not delete, replace or manually edit it as part of Neon synchronization. Verify its workflow result when relevant, but do not mistake it for proof that the Neon mirror is synchronized.
-- Neon synchronization is a separate post-publication step and requires the user's explicit instruction. An audit-only request does not authorize Neon writes.
+- Neon is authoritative for production display and runtime reads. GitHub is the archival/editorial history copy.
+- If Neon synchronization fails or is partial, leave the GitHub archive intact, report the exact failed postcodes and resume only the missing upserts after checking the affected Neon rows.
+- If the archive and Neon disagree, do not overwrite unrelated rows. Reconcile only the explicitly affected postcodes and verify them in one batch read.
+- Never publish `validated`, `placeholder`, non-V5 or unresolved records.
+- Do not create or regenerate `explorer_index.json`, `explorer_tiles`, map tile manifests, or other GitHub delivery artifacts. Europe Explorer reads the published records directly from Neon.
+- Neon publication is a separate step and requires the user's explicit V5 + published instruction.
 
 ### 6.3 Dropbox backup — always the final operation
 
-Dropbox is the Slovak backup archive; GitHub remains the canonical editorial source and Neon remains its production mirror.
+Dropbox is the Slovak backup archive. Neon is the production database; GitHub contains the archival JSON snapshots.
 
 - Do not back up before the complete audit is finished.
 - After reporting the audit, wait for the user's explicit instruction to perform the final backup. If the user also requests a data-version change, complete that change first and read it back from GitHub.
@@ -286,7 +270,7 @@ Do not lock GitHub files, create read-only rules or change application permissio
 
 ## Operating principle
 
-**The audit checks for major missing topics and genuine geographic, administrative, translation, category, duplication, source and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck every existing coordinate. GitHub is canonical; Neon is a post-publication production mirror. Only explicitly authorized V5 + published GitHub records are synchronized to Neon. Dropbox backup comes last.**
+**The audit checks major missing topics and genuine geographic, administrative, translation, category, duplication, source and technical defects. It is not a second rework. It does not pursue marginal historical disputes, rewrite correct text or recheck every existing coordinate. GitHub stores the archival JSON; Neon is the only production data source. After explicit authorization, publish the exact audited V5 records to Neon, verify the batch once, and back up to Dropbox only when requested. No Explorer tiles or manifests.**
 
 ---
 
