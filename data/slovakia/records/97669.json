@@ -1,4 +1,601 @@
 {
   "postcode": "97669",
-  "status": "placeholder"
+  "city": "Pohorelá",
+  "district": null,
+  "district_type": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Pohorelá – centrum obce",
+  "representative_point": {
+    "lat": 48.866052,
+    "lon": 20.017213
+  },
+  "access_point": {
+    "lat": 48.866052,
+    "lon": 20.017213
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pohorelá – valašská obec doložená od roku 1612",
+      "text": "První písemná zmínka o Pohorelé pochází z roku 1612, kdy muráňský pán Tomáš Séči povolal na místo dnešní obce rodinu Janka Zatrocha ze Šumiace a další osadníky. Pohorelá vznikala v prostředí valašské kolonizace: noví obyvatelé klučili les a hledali pastviny pro ovce a kozy. Záznamy uvádějí, že od roku 1616 měli po osm let úlevu od většiny dávek a odváděli především ovčí desátek, často v podobě sýra, brynzy či jehňat. Obec se tak od počátku vyvíjela jako pastevecké sídlo horního Horehroní.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.pohorela.sk/obec/o-obci/historia-obce/",
+        "https://www.pohorela.sk/obec/o-obci/zakladne-udaje/"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Pohorelá – centrum obce (orientační bod historického sídla)",
+        "lat": 48.866052,
+        "lon": 20.017213,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.pohorela.sk/obec/o-obci/geografia-a-priroda/poloha/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Coburgovské železiarne a Ferdinandova huta v Novej Maši",
+      "text": "Pohorelská Maša a čtyři osady dnešní Vaľkovně – Vaľkovňa, Nová Maša, Švábolka a Zlatno – patřily k významným částem rozsáhlého železářského komplexu rodu Koháry a později Coburgů. Ferdinandova huta v Novej Maši vznikla v letech 1837–1839 jako vysoká pec se slévárnou a hamry; v letech 1842–1846 přibyla strojírenská dílna a další slévárenská zařízení. Ve Vaľkovni, Zlatně a Švábolce pracovaly válcovny a hamry, zatímco železná ruda se do závodů dopravovala povozy z okolních oblastí. Areál v Novej Maši byl modernizován, ale vysoká pec byla odstavena roku 1893 a zbytek provozu skončil roku 1933. Dodnes se zde zachovaly ruiny pece, dělnický pavlačový dům a další stopy průmyslového areálu; podklad Pamiatkového úradu SR popisuje dělnický dům v části Nová Maša jako samostatnou hodnotnou stavbu, nikoli však jako již potvrzenou národní kulturní památku.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.valkovna.sk/obec-2/historia/",
+        "https://www.valkovna.sk/e_download.php?file=data%2Furedni_deska%2Fobsah82_5.pdf&original=Valkovna_Nova+Masa_dom+robotnicky_podklad+pre+SK_pdf.pdf",
+        "https://www.pohorela.sk/evt_file.php?file=641&original=Pohorelske_zeleziarne__Kronika_obce_Pohorela_MgrPNavoy.pdf"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel Sedmibolestné Panny Marie – barokní dominanta Pohorelé",
+      "text": "Římskokatolický kostel v Pohorelé byl vystavěn v 18. století; odborný památkový přehled uvádí počátek stavby v roce 1762 a dokončení roku 1768 z fundace hraběte Štefana II. Koháryho. Původně byl zasvěcen svatému Štěpánovi, uherskému králi. Po ničivém požáru 5. dubna 1883, který zasáhl téměř celou obec, byl kostel obnoven. V roce 1964 bylo změněno jeho zasvěcení na Sedmibolestnou Pannu Marii. Stavba je zapsána v Ústředním seznamu památkového fondu SR pod číslem 66/1 a uchovává také výrazné vazby na rod Coburgů, mimo jiné v podobě lavice bulharského cara Ferdinanda.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/pohorela-kostol-sv-stefana-krala",
+        "https://www.pohorela.sk/obec/o-obci/historia-obce/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel Sedmibolestné Panny Marie, Pohorelá",
+        "lat": 48.864814,
+        "lon": 20.019621,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/pohorela-kostol-sv-stefana-krala",
+        "address": "Žukovova 671, Pohorelá"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel svatého Filipa v Pohorelské Maši",
+      "text": "V osadě Pohorelská Maša, která vznikla ve druhé polovině 18. století kolem železářské huti a dělnické kolonie, stojí kostel svatého Filipa apoštola z roku 1903. Postaven byl z nadace Filipa Coburga, aby dělníci nemuseli docházet do vzdálených chrámů. Historizující stavba spojuje prvky pseudorománské a pseudogotické architektury. Vznikla na místě staršího dřevěného coburgovského sídla a rodina Coburgů ji pravidelně navštěvovala. Roku 1911 se zde konala biřmovací slavnost dětí bulharského cara Ferdinanda I. – princezen Eudoxie a Naděždy a prince Cyrila.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/pohorelska-masa-kostol-sv-filipa-apostola",
+        "https://www.pohorela.sk/obec/o-obci/zakladne-udaje/",
+        "https://www.valkovna.sk/obec-2/historia/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Filipa apoštola, Pohorelská Maša",
+        "lat": 48.843478,
+        "lon": 20.035221,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/pohorelska-masa-kostol-sv-filipa-apostola",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Bunker na Rovni – úkryt obyvatel během SNP",
+      "text": "Bunker na Rovni je pamětním místem Slovenského národního povstání. Na podzim 1944, kdy se v katastru Pohorelé rozhořely boje, jej obyvatelé využívali jako úkryt před násilím okupačních jednotek. Podobné úkryty byly připraveny také v okolních dolinách, mimo jiné u Krajčova potoka, Zadního a Předního potoka, Piksové či Temné. Bunker obnovili členové místní organizace Slovenského svazu protifašistických bojovníků v letech 2013–2014 a veřejnosti byl zpřístupněn 30. srpna 2014 při připomínce 70. výročí SNP.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.pohorela.sk/obec/o-obci/pamatihodnosti/bunker-na-rovni-104sk.html"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Bunker na Rovni, Pohorelá",
+        "lat": 48.879452,
+        "lon": 20.03512,
+        "type": "bunker",
+        "accuracy": "exact",
+        "source": "https://www.pohorela.sk/obec/o-obci/pamatihodnosti/bunker-na-rovni-104sk.html",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vícehlasý zpěv Horehroní – nehmotné dědictví UNESCO",
+      "text": "Pohorelá patří k obcím, které uchovávají vícehlasý zpěv Horehroní, zapsaný roku 2017 na Reprezentativní seznam nehmotného kulturního dědictví lidstva UNESCO. Charakteristický je proměnlivý sólový přednes, na který odpovídá sbor, a následné prolínání dvou či tří hlasových linií. V Pohorelé tradici rozvíjí mimo jiné FSk Kráľova hoľa, kterou obec označuje za nejstarší folklorní skupinu Horehroní; soubor navazuje na místní písně, tance a způsob vícehlasého zpívání. Nejde jen o koncertní repertoár, ale o živou tradici předávanou mezi generacemi a spojenou s místní identitou.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://ich.unesco.org/en/RL/alpamysh-epic-tradition-01266",
+        "https://ich.unesco.org/doc/src/33748.pdf",
+        "https://www.pohorela.sk/obec/udalosti-v-obci/umenie-kultura-folklor/fsk-kralova-hola/"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Pohorelá – centrum obce (orientační bod živé pěvecké tradice)",
+        "lat": 48.866052,
+        "lon": 20.017213,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.pohorela.sk/samosprava/obecny-urad/kontakty/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Pohorelské vrchovisko – chráněné rašeliniště u Pohorelské Maši",
+      "text": "V katastrálním území Pohorelé leží přírodní rezervace Pohorelské vrchovisko, chráněné území v nivě Hronu poblíž Pohorelské Maši. Státní ochrana přírody eviduje lokalitu jako evropsky významné území SKUEV0151 a uvádí její střed na souřadnicích 48.850833, 20.023056. Předmětem ochrany jsou přechodná rašeliniště a mokřadní lesy s břízou, borovicí, smrkem, olší a vrbami. Místo je důležité také pro vzácné druhy rostlin a živočichů vázané na podmáčené biotopy. Správa Národního parku Nízke Tatry upozorňuje, že územím nevede turistická ani naučná stezka, a proto je třeba respektovat jeho ochranný režim.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/179",
+        "https://www.napant.sk/priroda/mchu/pr-pohorelske-vrchovisko/"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Pohorelské vrchovisko – střed chráněného území",
+        "lat": 48.85083333,
+        "lon": 20.02305556,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/179",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Ojedinělý nález mince z mladší doby železné",
+      "text": "Územněplánovací dokumentace obce Pohorelá zaznamenává ojedinělý archeologický nález takzvané barbarské mince z mladší doby železné. Podle dokumentu může jít o ražbu keltského kmene Kotinů, spojovaného s púchovskou kulturou. Pramen neuvádí přesné místo nálezu ani podrobnosti o uložení mince, a proto z něj nelze vyvozovat existenci konkrétního sídliště nebo mincovní činnosti přímo v obci. Nález je přesto dokladem, že zdejší krajina má archeologické stopy sahající hluboko před vznik středověké Pohorelé.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.pohorela.sk/e_download.php?file=data%2Furedni_deska%2Fobsah72_1.pdf&original=Koncept_UPN__textova_cast.pdf"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta uvádza dodávaciu poštu Pohorelá s geografickým PSČ 97669. Oficiálne stránky obcí Pohorelá aj Vaľkovňa používajú PSČ 976 69 pre svoje fyzické obecné úrady; to podporuje väzbu na obe obce, nie presný polygon doručovacieho obvodu.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam vybraných pôšt na predaj eKolkov (Slovenská pošta)",
+    "postcode_source_release": "15. 04. 2023",
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny zoznam uvádza dodávaciu poštu Pohorelá, Nová 392/4, PSČ 97669. Obec Vaľkovňa aj obec Pohorelá zverejňujú adresy svojich úradov s PSČ 97669. Poštové priradenie ďalších miestnych osád je podporené obecnými a poštovými adresami; presná hranica doručovacieho obvodu nie je publikovaná ani odhadovaná.",
+    "geographic_authority": "Oficiálne údaje obcí Pohorelá a Vaľkovňa pre adresy a sídla; Štátna ochrana prírody SR/Biomonitoring pre polohu chráneného územia; odborné pamiatkové zdroje pre súradnice kostolov."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – zoznam vybraných pôšt s PSČ k 15. 04. 2023",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – základné údaje a administratívna poloha",
+      "url": "https://www.pohorela.sk/obec/o-obci/zakladne-udaje/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – kontakty a oficiálne súradnice",
+      "url": "https://www.pohorela.sk/samosprava/obecny-urad/kontakty/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – poloha a geografické údaje",
+      "url": "https://www.pohorela.sk/obec/o-obci/geografia-a-priroda/poloha/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – história obce",
+      "url": "https://www.pohorela.sk/obec/o-obci/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – listina o vymedzení chotára z roku 1670",
+      "url": "https://www.pohorela.sk/obec/o-obci/historia-obce/8-jul-1670-vymedzenie-hranic-chotara-64sk.html",
+      "type": "primary"
+    },
+    {
+      "title": "Obec Vaľkovňa – história štyroch osád a železiarskeho priemyslu",
+      "url": "https://www.valkovna.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Vaľkovňa – oficiálny kontakt a poštová adresa 976 69",
+      "url": "https://www.valkovna.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatkový úrad SR – podklad k robotníckemu domu pri Ferdinandovej hute v Novej Maši",
+      "url": "https://www.valkovna.sk/e_download.php?file=data%2Furedni_deska%2Fobsah82_5.pdf&original=Valkovna_Nova+Masa_dom+robotnicky_podklad+pre+SK_pdf.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – kronikársky materiál o Pohorelských železiarňach",
+      "url": "https://www.pohorela.sk/evt_file.php?file=641&original=Pohorelske_zeleziarne__Kronika_obce_Pohorela_MgrPNavoy.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "Pohorelá – Kostol Sedembolestnej Panny Márie (pôvodne sv. Štefana)",
+      "url": "https://www.pamiatkynaslovensku.sk/pohorela-kostol-sv-stefana-krala",
+      "type": "specialist"
+    },
+    {
+      "title": "Pohorelská Maša – Kostol sv. Filipa apoštola",
+      "url": "https://www.pamiatkynaslovensku.sk/pohorelska-masa-kostol-sv-filipa-apostola",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Pohorelá – Bunker na Rovni, pamätné miesto SNP",
+      "url": "https://www.pohorela.sk/obec/o-obci/pamatihodnosti/bunker-na-rovni-104sk.html",
+      "type": "official"
+    },
+    {
+      "title": "UNESCO – Multipart singing of Horehronie, Representative List (2017)",
+      "url": "https://ich.unesco.org/en/RL/alpamysh-epic-tradition-01266",
+      "type": "official"
+    },
+    {
+      "title": "UNESCO – dokumentácia viac-hlasného spevu Horehronia a nositeľov tradície",
+      "url": "https://ich.unesco.org/doc/src/33748.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – FSk Kráľova hoľa",
+      "url": "https://www.pohorela.sk/obec/udalosti-v-obci/umenie-kultura-folklor/fsk-kralova-hola/",
+      "type": "official"
+    },
+    {
+      "title": "Štátna ochrana prírody SR – Pohorelské vrchovisko, chránené územie a súradnice",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/179",
+      "type": "official"
+    },
+    {
+      "title": "Správa Národného parku Nízke Tatry – Prírodná rezervácia Pohorelské vrchovisko",
+      "url": "https://www.napant.sk/priroda/mchu/pr-pohorelske-vrchovisko/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Pohorelá – územnoplánovacia dokumentácia, archeologický nález mince",
+      "url": "https://www.pohorela.sk/e_download.php?file=data%2Furedni_deska%2Fobsah72_1.pdf&original=Koncept_UPN__textova_cast.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Pohorelá – centrum obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá – valašská obec doložená od roku 1612",
+          "text": "První písemná zmínka o Pohorelé pochází z roku 1612, kdy muráňský pán Tomáš Séči povolal na místo dnešní obce rodinu Janka Zatrocha ze Šumiace a další osadníky. Pohorelá vznikala v prostředí valašské kolonizace: noví obyvatelé klučili les a hledali pastviny pro ovce a kozy. Záznamy uvádějí, že od roku 1616 měli po osm let úlevu od většiny dávek a odváděli především ovčí desátek, často v podobě sýra, brynzy či jehňat. Obec se tak od počátku vyvíjela jako pastevecké sídlo horního Horehroní."
+        },
+        {
+          "id": "fact_002",
+          "title": "Coburgovské železiarne a Ferdinandova huta v Novej Maši",
+          "text": "Pohorelská Maša a čtyři osady dnešní Vaľkovně – Vaľkovňa, Nová Maša, Švábolka a Zlatno – patřily k významným částem rozsáhlého železářského komplexu rodu Koháry a později Coburgů. Ferdinandova huta v Novej Maši vznikla v letech 1837–1839 jako vysoká pec se slévárnou a hamry; v letech 1842–1846 přibyla strojírenská dílna a další slévárenská zařízení. Ve Vaľkovni, Zlatně a Švábolce pracovaly válcovny a hamry, zatímco železná ruda se do závodů dopravovala povozy z okolních oblastí. Areál v Novej Maši byl modernizován, ale vysoká pec byla odstavena roku 1893 a zbytek provozu skončil roku 1933. Dodnes se zde zachovaly ruiny pece, dělnický pavlačový dům a další stopy průmyslového areálu; podklad Pamiatkového úradu SR popisuje dělnický dům v části Nová Maša jako samostatnou hodnotnou stavbu, nikoli však jako již potvrzenou národní kulturní památku."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel Sedmibolestné Panny Marie – barokní dominanta Pohorelé",
+          "text": "Římskokatolický kostel v Pohorelé byl vystavěn v 18. století; odborný památkový přehled uvádí počátek stavby v roce 1762 a dokončení roku 1768 z fundace hraběte Štefana II. Koháryho. Původně byl zasvěcen svatému Štěpánovi, uherskému králi. Po ničivém požáru 5. dubna 1883, který zasáhl téměř celou obec, byl kostel obnoven. V roce 1964 bylo změněno jeho zasvěcení na Sedmibolestnou Pannu Marii. Stavba je zapsána v Ústředním seznamu památkového fondu SR pod číslem 66/1 a uchovává také výrazné vazby na rod Coburgů, mimo jiné v podobě lavice bulharského cara Ferdinanda."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel svatého Filipa v Pohorelské Maši",
+          "text": "V osadě Pohorelská Maša, která vznikla ve druhé polovině 18. století kolem železářské huti a dělnické kolonie, stojí kostel svatého Filipa apoštola z roku 1903. Postaven byl z nadace Filipa Coburga, aby dělníci nemuseli docházet do vzdálených chrámů. Historizující stavba spojuje prvky pseudorománské a pseudogotické architektury. Vznikla na místě staršího dřevěného coburgovského sídla a rodina Coburgů ji pravidelně navštěvovala. Roku 1911 se zde konala biřmovací slavnost dětí bulharského cara Ferdinanda I. – princezen Eudoxie a Naděždy a prince Cyrila."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bunker na Rovni – úkryt obyvatel během SNP",
+          "text": "Bunker na Rovni je pamětním místem Slovenského národního povstání. Na podzim 1944, kdy se v katastru Pohorelé rozhořely boje, jej obyvatelé využívali jako úkryt před násilím okupačních jednotek. Podobné úkryty byly připraveny také v okolních dolinách, mimo jiné u Krajčova potoka, Zadního a Předního potoka, Piksové či Temné. Bunker obnovili členové místní organizace Slovenského svazu protifašistických bojovníků v letech 2013–2014 a veřejnosti byl zpřístupněn 30. srpna 2014 při připomínce 70. výročí SNP."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vícehlasý zpěv Horehroní – nehmotné dědictví UNESCO",
+          "text": "Pohorelá patří k obcím, které uchovávají vícehlasý zpěv Horehroní, zapsaný roku 2017 na Reprezentativní seznam nehmotného kulturního dědictví lidstva UNESCO. Charakteristický je proměnlivý sólový přednes, na který odpovídá sbor, a následné prolínání dvou či tří hlasových linií. V Pohorelé tradici rozvíjí mimo jiné FSk Kráľova hoľa, kterou obec označuje za nejstarší folklorní skupinu Horehroní; soubor navazuje na místní písně, tance a způsob vícehlasého zpívání. Nejde jen o koncertní repertoár, ale o živou tradici předávanou mezi generacemi a spojenou s místní identitou."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – chráněné rašeliniště u Pohorelské Maši",
+          "text": "V katastrálním území Pohorelé leží přírodní rezervace Pohorelské vrchovisko, chráněné území v nivě Hronu poblíž Pohorelské Maši. Státní ochrana přírody eviduje lokalitu jako evropsky významné území SKUEV0151 a uvádí její střed na souřadnicích 48.850833, 20.023056. Předmětem ochrany jsou přechodná rašeliniště a mokřadní lesy s břízou, borovicí, smrkem, olší a vrbami. Místo je důležité také pro vzácné druhy rostlin a živočichů vázané na podmáčené biotopy. Správa Národního parku Nízke Tatry upozorňuje, že územím nevede turistická ani naučná stezka, a proto je třeba respektovat jeho ochranný režim."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ojedinělý nález mince z mladší doby železné",
+          "text": "Územněplánovací dokumentace obce Pohorelá zaznamenává ojedinělý archeologický nález takzvané barbarské mince z mladší doby železné. Podle dokumentu může jít o ražbu keltského kmene Kotinů, spojovaného s púchovskou kulturou. Pramen neuvádí přesné místo nálezu ani podrobnosti o uložení mince, a proto z něj nelze vyvozovat existenci konkrétního sídliště nebo mincovní činnosti přímo v obci. Nález je přesto dokladem, že zdejší krajina má archeologické stopy sahající hluboko před vznik středověké Pohorelé."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Pohorelá – Ortszentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá – eine walachische Siedlung seit dem frühen 17. Jahrhundert",
+          "text": "Die erste schriftliche Erwähnung von Pohorelá stammt aus dem Jahr 1612. Damals rief der Herr von Muráň, Tomáš Séči, die Familie von Janko Zatroch aus Šumiac und weitere Siedler an den Ort des heutigen Dorfes. Pohorelá entstand im Umfeld der walachischen Kolonisation: Die neuen Bewohner rodeten Wälder und suchten Weideland für Schafe und Ziegen. Quellen berichten, dass sie ab 1616 acht Jahre lang von den meisten Abgaben befreit waren und vor allem einen Schafzehnt entrichteten, häufig in Form von Käse, Brimsen oder Lämmern. So entwickelte sich das Dorf von Anfang an als Hirtenort des oberen Horehronie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Coburger Eisenwerke und das Hüttenwerk Ferdinandshütte in Nová Maša",
+          "text": "Pohorelská Maša und die vier Siedlungen der heutigen Gemeinde Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka und Zlatno – gehörten zu einem bedeutenden Eisenwerkskomplex der Familien Koháry und später Coburg. Das Hüttenwerk Ferdinandshütte in Nová Maša entstand 1837–1839 mit Hochofen, Gießerei und Hammerwerken. Zwischen 1842 und 1846 kamen eine Maschinenwerkstatt und weitere Gießereianlagen hinzu. In Vaľkovňa, Zlatno und Švábolka arbeiteten Walzwerke und Hammerwerke; Eisenerz wurde mit Fuhrwerken aus umliegenden Regionen herangeschafft. Der Betrieb wurde modernisiert, der Hochofen aber 1893 stillgelegt und die übrige Produktion 1933 eingestellt. Ruinen des Hochofens, ein Arbeiterhaus mit Galerie und weitere Spuren der Industrieanlage sind erhalten. Eine Unterlage des slowakischen Denkmalamtes beschreibt das Arbeiterhaus in Nová Maša als eigenständiges wertvolles Gebäude, jedoch nicht als bereits bestätigtes nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Kirche der Schmerzhaften Jungfrau Maria – barockes Wahrzeichen von Pohorelá",
+          "text": "Die römisch-katholische Kirche in Pohorelá entstand im 18. Jahrhundert. Ein denkmalfachlicher Überblick nennt 1762 als Baubeginn und 1768 als Fertigstellung aus einer Stiftung des Grafen Štefan II. Koháry. Ursprünglich war sie dem heiligen Stephan, König von Ungarn, geweiht. Nach dem verheerenden Brand vom 5. April 1883, der fast das ganze Dorf erfasste, wurde die Kirche wiederhergestellt. 1964 erhielt sie das heutige Patrozinium der Schmerzhaften Jungfrau Maria. Das Gebäude ist unter der Nummer 66/1 im Zentralverzeichnis des slowakischen Denkmalfonds eingetragen und bewahrt auch deutliche Bezüge zur Familie Coburg, unter anderem in Form einer Bank für den bulgarischen Zaren Ferdinand."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Kirche des heiligen Philipp in Pohorelská Maša",
+          "text": "In der Siedlung Pohorelská Maša, die in der zweiten Hälfte des 18. Jahrhunderts rund um ein Eisenwerk und eine Arbeiterkolonie entstand, steht die 1903 errichtete Kirche des heiligen Apostels Philipp. Sie wurde aus einer Stiftung von Philipp von Coburg gebaut, damit die Arbeiter keine weit entfernten Kirchen besuchen mussten. Der historistische Bau verbindet pseudoromanische und neugotische Formen. Er entstand an der Stelle eines älteren hölzernen Coburg-Sitzes und wurde regelmäßig von der Familie Coburg besucht. 1911 fand hier die Firmung der Kinder des bulgarischen Zaren Ferdinand I. statt – der Prinzessinnen Eudoxia und Nadežda sowie des Prinzen Kyrill."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Bunker auf Rovni – Zuflucht während des Slowakischen Nationalaufstands",
+          "text": "Der Bunker auf Rovni ist eine Gedenkstätte des Slowakischen Nationalaufstands. Im Herbst 1944, als im Gemeindegebiet von Pohorelá Kämpfe ausbrachen, nutzten Einwohner ihn als Schutz vor der Gewalt der Besatzungstruppen. Weitere vorbereitete Verstecke befanden sich in umliegenden Tälern, unter anderem am Krajčov-Bach sowie in den Tälern Zadný potok, Predný potok, Piksová und Temná. Mitglieder der örtlichen Organisation des Slowakischen Verbandes der antifaschistischen Kämpfer restaurierten den Bunker 2013–2014. Am 30. August 2014 wurde er anlässlich des 70. Jahrestags des Aufstands öffentlich zugänglich gemacht."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mehrstimmiger Gesang aus Horehronie – immaterielles UNESCO-Kulturerbe",
+          "text": "Pohorelá gehört zu den Gemeinden, die den mehrstimmigen Gesang aus Horehronie pflegen, der 2017 in die Repräsentative Liste des immateriellen Kulturerbes der Menschheit der UNESCO aufgenommen wurde. Typisch sind ein wechselnder solistischer Vorsänger, die Antworten des Chors und das anschließende Ineinandergreifen von zwei oder drei Stimmen. In Pohorelá führt unter anderem die Folkloregruppe FSk Kráľova hoľa diese Tradition fort. Die Gemeinde bezeichnet sie als älteste Folkloregruppe der Horehronie. Sie bewahrt örtliche Lieder, Tänze und die besondere Mehrstimmigkeit. Es handelt sich nicht nur um ein Bühnenrepertoire, sondern um eine lebendige, generationenübergreifend weitergegebene Tradition und einen Teil der lokalen Identität."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – geschütztes Moor bei Pohorelská Maša",
+          "text": "Im Katastergebiet von Pohorelá liegt das Naturschutzgebiet Pohorelské vrchovisko, ein geschütztes Feuchtgebiet in der Hron-Aue nahe Pohorelská Maša. Die Staatliche Naturschutzverwaltung führt das Gebiet als Natura-2000-Gebiet SKUEV0151 und gibt seinen Mittelpunkt mit 48,850833 und 20,023056 an. Geschützt werden Übergangsmoore und Feuchtwälder mit Birken, Kiefern, Fichten, Erlen und Weiden. Das Gebiet ist auch für seltene Pflanzen- und Tierarten der nassen Lebensräume bedeutsam. Die Verwaltung des Nationalparks Niedere Tatra weist darauf hin, dass kein Wander- oder Lehrpfad durch das Gebiet führt; die Schutzbestimmungen sind daher zu beachten."
+        },
+        {
+          "id": "fact_008",
+          "title": "Einzelfund einer Münze aus der jüngeren Eisenzeit",
+          "text": "Die Flächennutzungsunterlagen der Gemeinde Pohorelá verzeichnen einen vereinzelten archäologischen Fund einer sogenannten barbarischen Münze aus der jüngeren Eisenzeit. Laut Dokument könnte es sich um eine Prägung des keltischen Stammes der Kotiner handeln, der mit der Púchov-Kultur verbunden wird. Die Quelle nennt weder den genauen Fundort noch Einzelheiten zur Aufbewahrung der Münze. Daher lässt sich daraus weder eine konkrete Siedlung noch eine Münzprägung im Dorf ableiten. Der Fund zeigt dennoch, dass die Landschaft archäologische Spuren besitzt, die weit vor die mittelalterliche Entstehung von Pohorelá zurückreichen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Pohorelá – village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá – a Wallachian settlement documented from 1612",
+          "text": "The first written reference to Pohorelá dates from 1612. At that time, Tomáš Séči, lord of Muráň, invited the family of Janko Zatroch from Šumiac and other settlers to the site of the present village. Pohorelá developed during the Wallachian colonisation of the Carpathian uplands: newcomers cleared woodland and sought pasture for sheep and goats. Records say that from 1616 they were exempt from most dues for eight years and paid mainly a sheep tithe, often in the form of cheese, bryndza or lambs. From its beginnings, the village therefore developed as a pastoral settlement in the upper Horehronie region."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Coburg ironworks and Ferdinand's Furnace at Nová Maša",
+          "text": "Pohorelská Maša and the four settlements of present-day Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka and Zlatno – formed important parts of a large ironworking complex owned first by the Koháry family and later by the Coburgs. Ferdinand's Furnace at Nová Maša was established in 1837–1839 with a blast furnace, foundry and forges. A machine workshop and additional foundry equipment were added between 1842 and 1846. Rolling mills and forges operated in Vaľkovňa, Zlatno and Švábolka, while iron ore was brought by horse-drawn carts from surrounding regions. The complex was modernised, but the blast furnace closed in 1893 and the remaining production ended in 1933. The furnace ruins, a workers' gallery house and other industrial traces survive. A Slovak heritage-office dossier describes the workers' house in Nová Maša as a valuable historic building, but not as a national cultural monument whose designation has already been confirmed."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of Our Lady of Sorrows – the Baroque landmark of Pohorelá",
+          "text": "Pohorelá's Roman Catholic church dates from the eighteenth century. A specialist heritage account gives 1762 as the start of construction and 1768 as its completion, funded by Count Štefan II Koháry. It was originally dedicated to Saint Stephen, King of Hungary. After the devastating fire of 5 April 1883, which affected almost the entire village, the church was restored. Its dedication was changed to Our Lady of Sorrows in 1964. The building is listed in the Central Register of the Slovak Monument Fund under number 66/1 and also preserves links with the Coburg family, including a special pew associated with the Bulgarian Tsar Ferdinand."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church of Saint Philip in Pohorelská Maša",
+          "text": "The settlement of Pohorelská Maša grew in the second half of the eighteenth century around an ironworks and workers' colony. Its Church of Saint Philip the Apostle was built in 1903. It was funded by Philipp of Saxe-Coburg and Gotha so that workers would not have to travel to more distant churches. The historicist building combines pseudo-Romanesque and Neo-Gothic features. It stands on the site of an earlier wooden Coburg residence and was regularly visited by the family. In 1911 it hosted the confirmation of the children of Tsar Ferdinand I of Bulgaria: Princesses Eudoxia and Nadezhda and Prince Kyril."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Rovni bunker – a refuge during the Slovak National Uprising",
+          "text": "The bunker at Rovni is a memorial site of the Slovak National Uprising. In autumn 1944, when fighting broke out in Pohorelá's cadastral area, local residents used it as shelter from the violence of the occupying forces. Other prepared hideouts were located in nearby valleys, including those by Krajčov stream and in the Zadný potok, Predný potok, Piksová and Temná valleys. Members of the local organisation of the Slovak Union of Anti-Fascist Fighters restored the bunker between 2013 and 2014. It was opened to the public on 30 August 2014, marking the 70th anniversary of the uprising."
+        },
+        {
+          "id": "fact_006",
+          "title": "Multipart singing of Horehronie – UNESCO intangible cultural heritage",
+          "text": "Pohorelá is one of the communities that maintain the multipart singing of Horehronie, inscribed in 2017 on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity. The style features a changing solo lead, responses from a choir and the interweaving of two or three vocal lines. In Pohorelá, the FSk Kráľova hoľa folk group is among the tradition's active bearers. The municipality describes it as the oldest folk group in the Horehronie region. It preserves local songs, dances and the distinctive multipart style. This is not merely a stage repertoire but a living tradition passed between generations and an important part of local identity."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – a protected peatland near Pohorelská Maša",
+          "text": "The cadastral territory of Pohorelá includes the Pohorelské vrchovisko nature reserve, a protected wetland in the Hron floodplain near Pohorelská Maša. The State Nature Conservancy lists it as the Natura 2000 site SKUEV0151 and gives its centre as 48.850833, 20.023056. The protected habitats include transition mires and wet woodland with birch, pine, spruce, alder and willow. The area is also important for rare plant and animal species associated with waterlogged habitats. The administration of the Low Tatras National Park notes that no hiking or educational trail crosses the reserve, so its protection rules should be respected."
+        },
+        {
+          "id": "fact_008",
+          "title": "An isolated coin find from the Late Iron Age",
+          "text": "Pohorelá's land-use planning documentation records an isolated archaeological find of a so-called barbarian coin from the Late Iron Age. The document suggests that it may have been minted by the Celtic Cotini tribe, associated with the Púchov culture. The source does not give the exact findspot or details about the coin's present collection. It therefore cannot be used to infer a specific settlement or coin production in the village. Nevertheless, the find shows that the local landscape has archaeological traces reaching far earlier than the medieval foundation of Pohorelá."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Pohorelá – centro del pueblo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá: un asentamiento valaco documentado desde 1612",
+          "text": "La primera mención escrita de Pohorelá data de 1612. En aquel momento, Tomáš Séči, señor de Muráň, llamó al lugar de la actual localidad a la familia de Janko Zatroch, procedente de Šumiac, y a otros colonos. Pohorelá se desarrolló durante la colonización valaca de las montañas cárpatas: los nuevos habitantes talaban el bosque y buscaban pastos para ovejas y cabras. Los documentos indican que desde 1616 estuvieron exentos de la mayoría de los tributos durante ocho años y pagaban principalmente un diezmo ovino, a menudo en forma de queso, bryndza o corderos. Desde sus orígenes, el pueblo fue un asentamiento pastoril del alto Horehronie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Las ferrerías de los Coburgo y la fábrica Ferdinandova huta en Nová Maša",
+          "text": "Pohorelská Maša y los cuatro asentamientos de la actual Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka y Zlatno – formaron partes importantes de un gran complejo siderúrgico que perteneció primero a los Koháry y después a los Coburgo. La fábrica Ferdinandova huta, en Nová Maša, se fundó entre 1837 y 1839 con alto horno, fundición y fraguas. Entre 1842 y 1846 se añadieron un taller mecánico y nuevas instalaciones de fundición. En Vaľkovňa, Zlatno y Švábolka funcionaban laminadores y fraguas; el mineral de hierro llegaba en carros desde las regiones vecinas. El complejo fue modernizado, pero el alto horno cerró en 1893 y el resto de la producción terminó en 1933. Se conservan las ruinas del horno, una casa obrera con galería y otros vestigios industriales. Un expediente del organismo eslovaco de patrimonio describe la casa obrera de Nová Maša como un edificio histórico valioso, pero no como un monumento cultural nacional cuya declaración ya esté confirmada."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de Nuestra Señora de los Dolores, emblema barroco de Pohorelá",
+          "text": "La iglesia católica romana de Pohorelá data del siglo XVIII. Una fuente especializada en patrimonio sitúa el inicio de las obras en 1762 y su finalización en 1768, financiada por el conde Štefan II Koháry. Originalmente estaba dedicada a san Esteban, rey de Hungría. Tras el devastador incendio del 5 de abril de 1883, que afectó a casi todo el pueblo, fue restaurada. En 1964 cambió su advocación a Nuestra Señora de los Dolores. El edificio figura en el Registro Central del Patrimonio Monumental de Eslovaquia con el número 66/1 y conserva también vínculos con la familia Coburgo, entre ellos un banco especial asociado al zar búlgaro Fernando."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de san Felipe en Pohorelská Maša",
+          "text": "El asentamiento de Pohorelská Maša surgió en la segunda mitad del siglo XVIII alrededor de una ferrería y una colonia obrera. Su iglesia de san Felipe apóstol se construyó en 1903. Fue financiada por Felipe de Sajonia-Coburgo y Gotha para que los trabajadores no tuvieran que desplazarse a templos lejanos. El edificio historicista combina elementos pseudorrománicos y neogóticos. Se levantó en el lugar de una antigua residencia de madera de los Coburgo y la familia acudía allí con regularidad. En 1911 acogió la confirmación de los hijos del zar Fernando I de Bulgaria: las princesas Eudoxia y Nadezhda y el príncipe Kyril."
+        },
+        {
+          "id": "fact_005",
+          "title": "El búnker de Rovni: refugio durante el Levantamiento Nacional Eslovaco",
+          "text": "El búnker de Rovni es un lugar conmemorativo del Levantamiento Nacional Eslovaco. En otoño de 1944, cuando estallaron los combates en el término de Pohorelá, los habitantes lo utilizaron como refugio frente a la violencia de las fuerzas ocupantes. También se prepararon escondites en valles cercanos, entre ellos junto al arroyo Krajčov y en los valles de Zadný potok, Predný potok, Piksová y Temná. Miembros de la organización local de la Unión Eslovaca de Combatientes Antifascistas restauraron el búnker entre 2013 y 2014. Se abrió al público el 30 de agosto de 2014, con motivo del 70.º aniversario del levantamiento."
+        },
+        {
+          "id": "fact_006",
+          "title": "Canto polifónico de Horehronie: patrimonio cultural inmaterial de la UNESCO",
+          "text": "Pohorelá es una de las comunidades que mantienen el canto polifónico de Horehronie, inscrito en 2017 en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad de la UNESCO. El estilo combina una voz solista variable, respuestas del coro y el entrelazamiento de dos o tres líneas vocales. En Pohorelá, el grupo folclórico FSk Kráľova hoľa es uno de los portadores activos de la tradición. El municipio lo considera el grupo folclórico más antiguo de Horehronie. Conserva canciones, bailes y la particular forma de canto polifónico local. No se trata solo de un repertorio escénico, sino de una tradición viva transmitida entre generaciones y parte esencial de la identidad local."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko: turbera protegida cerca de Pohorelská Maša",
+          "text": "El término catastral de Pohorelá incluye la reserva natural de Pohorelské vrchovisko, un humedal protegido en la llanura aluvial del Hron, cerca de Pohorelská Maša. La Administración Estatal de Protección de la Naturaleza la registra como zona Natura 2000 SKUEV0151 y sitúa su centro en 48,850833 y 20,023056. Entre los hábitats protegidos figuran turberas de transición y bosques húmedos de abedules, pinos, píceas, alisos y sauces. El lugar también es importante para especies vegetales y animales raras asociadas a hábitats encharcados. La administración del Parque Nacional de los Bajos Tatras señala que no hay senderos turísticos ni educativos que atraviesen la reserva, por lo que deben respetarse sus normas de protección."
+        },
+        {
+          "id": "fact_008",
+          "title": "Hallazgo aislado de una moneda de la Edad del Hierro tardía",
+          "text": "La documentación urbanística de Pohorelá registra un hallazgo arqueológico aislado de una llamada moneda bárbara de la Edad del Hierro tardía. El documento plantea que podría tratarse de una acuñación de la tribu celta de los cotinos, vinculada a la cultura de Púchov. La fuente no indica el lugar exacto del hallazgo ni detalles sobre la colección en la que se conserva la moneda. Por ello, no permite deducir la existencia de un asentamiento concreto ni de una actividad de acuñación en el pueblo. Aun así, el hallazgo demuestra que el paisaje local conserva huellas arqueológicas muy anteriores a la fundación medieval de Pohorelá."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Pohorelá – centre du village",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá : un village valaque attesté depuis 1612",
+          "text": "La première mention écrite de Pohorelá date de 1612. À cette époque, Tomáš Séči, seigneur de Muráň, fit venir sur le site du village actuel la famille de Janko Zatroch, originaire de Šumiac, ainsi que d’autres colons. Pohorelá se développa dans le contexte de la colonisation valaque des montagnes des Carpates : les nouveaux habitants défrichaient les forêts et cherchaient des pâturages pour les moutons et les chèvres. Les documents indiquent qu’à partir de 1616 ils furent exemptés de la plupart des redevances pendant huit ans et ne versaient principalement qu’une dîme ovine, souvent sous forme de fromage, de bryndza ou d’agneaux. Le village s’est donc développé dès l’origine comme une communauté pastorale du haut Horehronie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les forges des Cobourg et la forge Ferdinandova huta à Nová Maša",
+          "text": "Pohorelská Maša et les quatre hameaux de l’actuelle commune de Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka et Zlatno – formaient des parties importantes d’un vaste complexe sidérurgique appartenant d’abord aux Koháry, puis aux Cobourg. La forge Ferdinandova huta, à Nová Maša, fut fondée en 1837–1839 avec un haut-fourneau, une fonderie et des forges. Un atelier mécanique et d’autres installations de fonderie furent ajoutés entre 1842 et 1846. Des laminoirs et des forges fonctionnaient à Vaľkovňa, Zlatno et Švábolka ; le minerai de fer était acheminé par charrettes depuis les régions voisines. Le complexe fut modernisé, mais le haut-fourneau fut arrêté en 1893 et le reste de la production cessa en 1933. Les ruines du four, une maison ouvrière à galerie et d’autres traces industrielles subsistent. Un dossier de l’Office slovaque des monuments décrit la maison ouvrière de Nová Maša comme un bâtiment historique remarquable, mais pas comme un monument culturel national dont le classement serait déjà confirmé."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Notre-Dame-des-Sept-Douleurs, emblème baroque de Pohorelá",
+          "text": "L’église catholique romaine de Pohorelá date du XVIIIe siècle. Une source spécialisée dans le patrimoine situe le début des travaux en 1762 et leur achèvement en 1768, grâce à une fondation du comte Štefan II Koháry. Elle était à l’origine dédiée à saint Étienne, roi de Hongrie. Après le grand incendie du 5 avril 1883, qui toucha presque tout le village, l’église fut restaurée. Son vocable fut changé en Notre-Dame-des-Sept-Douleurs en 1964. L’édifice est inscrit au registre central du patrimoine monumental slovaque sous le numéro 66/1 et conserve également des liens avec la famille Cobourg, notamment un banc associé au tsar bulgare Ferdinand."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Saint-Philippe de Pohorelská Maša",
+          "text": "Le hameau de Pohorelská Maša s’est développé dans la seconde moitié du XVIIIe siècle autour d’une forge et d’une colonie ouvrière. Son église Saint-Philippe-apôtre fut construite en 1903. Elle fut financée par Philippe de Saxe-Cobourg et Gotha afin que les ouvriers n’aient plus à se rendre dans des églises éloignées. Cet édifice historiciste associe des éléments pseudo-romans et néogothiques. Il a été construit à l’emplacement d’une ancienne résidence en bois des Cobourg et la famille le fréquentait régulièrement. En 1911, il accueillit la confirmation des enfants du tsar Ferdinand Ier de Bulgarie : les princesses Eudoxie et Nadejda ainsi que le prince Kyril."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le bunker de Rovni – refuge pendant le Soulèvement national slovaque",
+          "text": "Le bunker de Rovni est un lieu de mémoire du Soulèvement national slovaque. À l’automne 1944, lorsque des combats éclatèrent dans le territoire cadastral de Pohorelá, les habitants l’utilisèrent comme abri contre la violence des forces d’occupation. D’autres refuges avaient été préparés dans les vallées voisines, notamment près du ruisseau Krajčov et dans les vallées de Zadný potok, Predný potok, Piksová et Temná. Des membres de l’organisation locale de l’Union slovaque des combattants antifascistes restaurèrent le bunker entre 2013 et 2014. Il fut ouvert au public le 30 août 2014, à l’occasion du 70e anniversaire du soulèvement."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le chant polyphonique de Horehronie – patrimoine culturel immatériel de l’UNESCO",
+          "text": "Pohorelá fait partie des communautés qui perpétuent le chant polyphonique de Horehronie, inscrit en 2017 sur la Liste représentative du patrimoine culturel immatériel de l’humanité de l’UNESCO. Ce style associe un chant solo variable, les réponses d’un chœur et l’entrelacement de deux ou trois lignes vocales. À Pohorelá, le groupe folklorique FSk Kráľova hoľa compte parmi les porteurs actifs de cette tradition. La commune le présente comme le plus ancien groupe folklorique du Horehronie. Il préserve les chants, les danses et la forme particulière du chant polyphonique local. Il ne s’agit pas seulement d’un répertoire de scène, mais d’une tradition vivante transmise entre générations et constitutive de l’identité locale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – tourbière protégée près de Pohorelská Maša",
+          "text": "Le territoire cadastral de Pohorelá comprend la réserve naturelle de Pohorelské vrchovisko, une zone humide protégée dans la plaine alluviale du Hron, près de Pohorelská Maša. L’Administration nationale de la protection de la nature l’enregistre comme site Natura 2000 SKUEV0151 et situe son centre aux coordonnées 48,850833 et 20,023056. Les habitats protégés comprennent des tourbières de transition et des forêts humides de bouleaux, pins, épicéas, aulnes et saules. Le site est également important pour des espèces végétales et animales rares liées aux milieux gorgés d’eau. L’administration du parc national des Basses Tatras précise qu’aucun sentier de randonnée ou sentier pédagogique ne traverse la réserve ; il convient donc de respecter ses règles de protection."
+        },
+        {
+          "id": "fact_008",
+          "title": "Découverte isolée d’une monnaie de la fin de l’âge du fer",
+          "text": "Les documents d’urbanisme de Pohorelá signalent une découverte archéologique isolée d’une monnaie dite « barbare » de la fin de l’âge du fer. Selon le document, il pourrait s’agir d’une frappe de la tribu celte des Cotini, associée à la culture de Púchov. La source ne précise ni le lieu exact de la découverte ni les détails de la collection où la monnaie est conservée. Il est donc impossible d’en déduire l’existence d’un établissement précis ou d’une activité monétaire dans le village. Cette découverte montre néanmoins que le paysage local conserve des traces archéologiques bien antérieures à la fondation médiévale de Pohorelá."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Pohorelá – centro del villaggio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá: villaggio valacco documentato dal 1612",
+          "text": "La prima menzione scritta di Pohorelá risale al 1612. In quell’anno Tomáš Séči, signore di Muráň, chiamò nel luogo dell’attuale villaggio la famiglia di Janko Zatroch, proveniente da Šumiac, insieme ad altri coloni. Pohorelá si sviluppò durante la colonizzazione valacca delle montagne carpatiche: i nuovi abitanti dissodavano i boschi e cercavano pascoli per pecore e capre. I documenti riferiscono che dal 1616 furono esentati dalla maggior parte dei tributi per otto anni e versavano soprattutto una decima ovina, spesso in forma di formaggio, bryndza o agnelli. Fin dall’inizio il villaggio si sviluppò quindi come insediamento pastorale dell’alto Horehronie."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le ferriere dei Coburgo e la Ferdinandova huta a Nová Maša",
+          "text": "Pohorelská Maša e i quattro insediamenti dell’attuale comune di Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka e Zlatno – costituivano parti importanti di un grande complesso siderurgico appartenuto prima ai Koháry e poi ai Coburgo. La Ferdinandova huta a Nová Maša fu fondata nel 1837–1839 con altoforno, fonderia e magli. Tra il 1842 e il 1846 furono aggiunti un’officina meccanica e altri impianti di fusione. A Vaľkovňa, Zlatno e Švábolka funzionavano laminatoi e magli; il minerale di ferro arrivava con carri dalle regioni circostanti. Il complesso fu modernizzato, ma l’altoforno venne spento nel 1893 e il resto della produzione cessò nel 1933. Sono ancora visibili le rovine dell’altoforno, una casa operaia con ballatoio e altre tracce industriali. Un dossier dell’Ufficio slovacco per i monumenti descrive la casa operaia di Nová Maša come un edificio storico di valore, ma non come un monumento culturale nazionale la cui designazione sia già stata confermata."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa della Madonna Addolorata, monumento barocco di Pohorelá",
+          "text": "La chiesa cattolica romana di Pohorelá risale al XVIII secolo. Una fonte specialistica sul patrimonio indica il 1762 come inizio dei lavori e il 1768 come anno di completamento, grazie a una fondazione del conte Štefan II Koháry. In origine era dedicata a santo Stefano, re d’Ungheria. Dopo il devastante incendio del 5 aprile 1883, che colpì quasi tutto il villaggio, la chiesa fu restaurata. Nel 1964 la dedicazione fu cambiata in Madonna Addolorata. L’edificio è iscritto nel Registro centrale del patrimonio monumentale slovacco con il numero 66/1 e conserva anche legami con la famiglia Coburgo, tra cui un banco speciale associato allo zar bulgaro Ferdinando."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa di San Filippo a Pohorelská Maša",
+          "text": "L’insediamento di Pohorelská Maša nacque nella seconda metà del XVIII secolo intorno a una ferriera e a una colonia operaia. La chiesa di San Filippo apostolo fu costruita nel 1903. Fu finanziata da Filippo di Sassonia-Coburgo e Gotha affinché gli operai non dovessero recarsi in chiese lontane. L’edificio storicista combina elementi pseudoromanici e neogotici. Fu costruito sul sito di una precedente residenza lignea dei Coburgo e la famiglia lo frequentava regolarmente. Nel 1911 vi si celebrò la cresima dei figli dello zar bulgaro Ferdinando I: le principesse Eudossia e Nadežda e il principe Kyril."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il bunker di Rovni – rifugio durante l’Insurrezione nazionale slovacca",
+          "text": "Il bunker di Rovni è un luogo commemorativo dell’Insurrezione nazionale slovacca. Nell’autunno del 1944, quando scoppiarono combattimenti nel territorio catastale di Pohorelá, gli abitanti lo usarono come rifugio contro la violenza delle forze occupanti. Altri nascondigli erano stati preparati nelle valli vicine, tra cui presso il torrente Krajčov e nelle valli di Zadný potok, Predný potok, Piksová e Temná. Membri dell’organizzazione locale dell’Unione slovacca dei combattenti antifascisti restaurarono il bunker tra il 2013 e il 2014. Fu aperto al pubblico il 30 agosto 2014, in occasione del 70º anniversario dell’insurrezione."
+        },
+        {
+          "id": "fact_006",
+          "title": "Il canto polifonico di Horehronie – patrimonio culturale immateriale UNESCO",
+          "text": "Pohorelá è una delle comunità che mantengono vivo il canto polifonico di Horehronie, iscritto nel 2017 nella Lista rappresentativa del patrimonio culturale immateriale dell’umanità dell’UNESCO. Lo stile combina una voce solista variabile, le risposte del coro e l’intreccio di due o tre linee vocali. A Pohorelá il gruppo folkloristico FSk Kráľova hoľa è tra i portatori attivi della tradizione. Il comune lo descrive come il più antico gruppo folkloristico dell’Horehronie. Il gruppo conserva canti, danze e la particolare forma locale del canto polifonico. Non si tratta soltanto di un repertorio da palcoscenico, ma di una tradizione viva trasmessa tra generazioni e parte dell’identità locale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – torbiera protetta vicino a Pohorelská Maša",
+          "text": "Il territorio catastale di Pohorelá comprende la riserva naturale di Pohorelské vrchovisko, una zona umida protetta nella pianura alluvionale dell’Hron, vicino a Pohorelská Maša. L’Amministrazione statale per la protezione della natura la registra come sito Natura 2000 SKUEV0151 e indica il suo centro alle coordinate 48,850833 e 20,023056. Gli habitat protetti comprendono torbiere di transizione e boschi umidi con betulle, pini, abeti, ontani e salici. L’area è importante anche per specie vegetali e animali rare legate agli ambienti saturi d’acqua. L’amministrazione del Parco nazionale dei Bassi Tatra segnala che nella riserva non passa alcun sentiero escursionistico o didattico; occorre quindi rispettarne le norme di tutela."
+        },
+        {
+          "id": "fact_008",
+          "title": "Ritrovamento isolato di una moneta della tarda età del ferro",
+          "text": "La documentazione urbanistica di Pohorelá registra un ritrovamento archeologico isolato di una cosiddetta moneta barbarica della tarda età del ferro. Secondo il documento potrebbe trattarsi di una coniazione della tribù celtica dei Cotini, associata alla cultura di Púchov. La fonte non indica il luogo esatto del ritrovamento né dettagli sulla collezione in cui la moneta è conservata. Non è quindi possibile dedurne l’esistenza di un insediamento specifico o di un’attività di coniazione nel villaggio. Il reperto dimostra comunque che il paesaggio locale conserva tracce archeologiche molto anteriori alla fondazione medievale di Pohorelá."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Pohorelá – dorpscentrum",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pohorelá – een Walachijse nederzetting die sinds 1612 is gedocumenteerd",
+          "text": "De eerste schriftelijke vermelding van Pohorelá dateert uit 1612. In dat jaar riep Tomáš Séči, heer van Muráň, de familie van Janko Zatroch uit Šumiac en andere kolonisten naar de plek van het huidige dorp. Pohorelá ontwikkelde zich tijdens de Walachijse kolonisatie van de Karpatische hooglanden: de nieuwe bewoners rooiden bos en zochten weidegrond voor schapen en geiten. Volgens de bronnen waren zij vanaf 1616 acht jaar vrijgesteld van de meeste heffingen en betaalden zij vooral een schapentiende, vaak in de vorm van kaas, bryndza of lammeren. Het dorp ontwikkelde zich dus vanaf het begin als een pastorale nederzetting in het bovenste Horehronie."
+        },
+        {
+          "id": "fact_002",
+          "title": "De ijzerwerken van de Coburgs en Ferdinandova huta in Nová Maša",
+          "text": "Pohorelská Maša en de vier nederzettingen van de huidige gemeente Vaľkovňa – Vaľkovňa, Nová Maša, Švábolka en Zlatno – vormden belangrijke onderdelen van een groot ijzerindustriecomplex dat eerst aan de familie Koháry en later aan de Coburgs toebehoorde. Ferdinandova huta in Nová Maša werd in 1837–1839 gesticht met een hoogoven, gieterij en smederijen. Tussen 1842 en 1846 kwamen er een machinewerkplaats en extra gietinstallaties bij. In Vaľkovňa, Zlatno en Švábolka waren walserijen en smederijen actief; ijzererts werd met paard-en-wagens uit omliggende gebieden aangevoerd. Het complex werd gemoderniseerd, maar de hoogoven werd in 1893 stilgelegd en de overige productie eindigde in 1933. De ruïne van de hoogoven, een arbeidershuis met galerij en andere industriële sporen zijn bewaard gebleven. Een dossier van de Slowaakse monumentendienst beschrijft het arbeidershuis in Nová Maša als een waardevol historisch gebouw, maar niet als een nationaal cultuurmonument waarvan de aanwijzing al definitief is bevestigd."
+        },
+        {
+          "id": "fact_003",
+          "title": "De kerk van Onze-Lieve-Vrouw van Smarten – barok herkenningspunt van Pohorelá",
+          "text": "De rooms-katholieke kerk van Pohorelá dateert uit de achttiende eeuw. Een gespecialiseerde erfgoedbron noemt 1762 als begin van de bouw en 1768 als voltooiingsjaar; de bouw werd gefinancierd door graaf Štefan II Koháry. Oorspronkelijk was de kerk gewijd aan Sint-Stefanus, koning van Hongarije. Na de verwoestende brand van 5 april 1883, die bijna het hele dorp trof, werd de kerk hersteld. In 1964 veranderde de naam in Onze-Lieve-Vrouw van Smarten. Het gebouw staat onder nummer 66/1 in het centrale monumentenregister van Slowakije en bewaart ook banden met de familie Coburg, onder meer via een bijzondere bank die met de Bulgaarse tsaar Ferdinand wordt verbonden."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Filippuskerk in Pohorelská Maša",
+          "text": "De nederzetting Pohorelská Maša ontstond in de tweede helft van de achttiende eeuw rond een ijzerwerk en een arbeiderskolonie. De kerk van de heilige apostel Filippus werd in 1903 gebouwd. Ze werd gefinancierd door Filips van Saksen-Coburg en Gotha, zodat arbeiders niet meer naar verder gelegen kerken hoefden te gaan. Het historiserende gebouw combineert pseudo-romaanse en neogotische elementen. Het staat op de plek van een vroegere houten residentie van de Coburgs en werd regelmatig door de familie bezocht. In 1911 vond hier de vormselviering plaats van de kinderen van tsaar Ferdinand I van Bulgarije: prinsessen Eudoxia en Nadezjda en prins Kyril."
+        },
+        {
+          "id": "fact_005",
+          "title": "De bunker op Rovni – schuilplaats tijdens de Slowaakse Nationale Opstand",
+          "text": "De bunker op Rovni is een herdenkingsplek van de Slowaakse Nationale Opstand. In de herfst van 1944, toen in het kadastrale gebied van Pohorelá gevechten uitbraken, gebruikten inwoners de bunker als schuilplaats tegen het geweld van de bezettingsmacht. Ook in nabijgelegen dalen waren schuilplaatsen voorbereid, onder meer bij de beek Krajčov en in de dalen Zadný potok, Predný potok, Piksová en Temná. Leden van de plaatselijke organisatie van de Slowaakse Unie van Antifascistische Strijders restaureerden de bunker in 2013–2014. Op 30 augustus 2014 werd hij voor het publiek geopend ter gelegenheid van de 70e verjaardag van de opstand."
+        },
+        {
+          "id": "fact_006",
+          "title": "Meerstemmige zang uit Horehronie – immaterieel erfgoed van UNESCO",
+          "text": "Pohorelá behoort tot de gemeenschappen die de meerstemmige zang uit Horehronie in stand houden. Deze traditie werd in 2017 opgenomen op UNESCO's Representatieve Lijst van het Immaterieel Cultureel Erfgoed van de Mensheid. Kenmerkend zijn een wisselende solozang, antwoorden van een koor en het verweven van twee of drie zanglijnen. In Pohorelá is onder meer de folkloristische groep FSk Kráľova hoľa een actieve drager van de traditie. De gemeente beschrijft haar als de oudste folkloristische groep van Horehronie. De groep bewaart lokale liederen, dansen en de bijzondere meerstemmige zangstijl. Het gaat niet alleen om een podiumrepertoire, maar om een levende traditie die tussen generaties wordt doorgegeven en deel uitmaakt van de lokale identiteit."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pohorelské vrchovisko – beschermd veengebied bij Pohorelská Maša",
+          "text": "Het kadastrale grondgebied van Pohorelá omvat het natuurreservaat Pohorelské vrchovisko, een beschermd wetland in de overstromingsvlakte van de Hron bij Pohorelská Maša. De Slowaakse natuurbeschermingsdienst registreert het als Natura 2000-gebied SKUEV0151 en geeft het middelpunt op als 48,850833 en 20,023056. De beschermde habitats omvatten overgangsvenen en natte bossen met berken, dennen, sparren, elzen en wilgen. Het gebied is ook belangrijk voor zeldzame planten- en diersoorten die aan natte leefgebieden gebonden zijn. De beheerder van het Nationaal Park Lage Tatra meldt dat er geen wandel- of educatief pad door het reservaat loopt; de beschermingsregels moeten daarom worden gerespecteerd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Een geïsoleerde muntvondst uit de late ijzertijd",
+          "text": "De ruimtelijke plandocumentatie van Pohorelá vermeldt een geïsoleerde archeologische vondst van een zogenoemde barbaarse munt uit de late ijzertijd. Volgens het document kan het gaan om een munt van de Keltische stam van de Cotini, die met de Púchov-cultuur wordt verbonden. De bron vermeldt niet waar de munt precies is gevonden en geeft geen details over de huidige collectie. Daarom kan uit de vondst geen specifieke nederzetting of muntproductie in het dorp worden afgeleid. Toch toont ze aan dat het plaatselijke landschap archeologische sporen bevat die veel ouder zijn dan het middeleeuwse ontstaan van Pohorelá."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
