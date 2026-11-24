@@ -1,6 +1,6 @@
 # TRAVEL — MASTER PROMPT PRO TVORBU NOVÝCH NĚMECKÝCH PSČ
 
-> **V1.1 — význam lokality je potřeba identifikovat před samotným psaním faktů.**
+> **V1.2 — sedm jazyků, chráněná sequence a bezpečný databázový provoz.**
 
 ## 1. ÚČEL
 
@@ -97,7 +97,7 @@ Nikdy nenahrazuj povinné pole jiným názvem ani vlastní alternativní struktu
 
 To platí i pro správní údaje: `district`, `county` a `state` jsou samostatná povinná pole a musí být vyplněna hodnotami odpovídajícími skutečné geografické a správní identitě místa.
 
-Stejně závazné jsou všechny povinné části `facts`, `sources` a `translations`. Překlady musí obsahovat všech šest jazyků definovaných schématem a odpovídat přesně stejné sadě faktů.
+Stejně závazné jsou všechny povinné části `facts`, `sources` a `translations`. Překlady musí obsahovat všech sedm jazyků definovaných schématem a odpovídat přesně stejné sadě faktů.
 
 Pokud si nejsi jistý strukturou některého pole, **znovu načti `schema.json` a řiď se jím. Nevymýšlej vlastní řešení.**
 
@@ -109,21 +109,15 @@ Nikdy nepředpokládej, že každá číselná hodnota v určité řadě existuj
 
 Postup:
 
-1. načti aktuální `sequence.json`;
-2. určuj další PSČ podle jeho skutečné posloupnosti;
-3. ověř, že PSČ skutečně existuje;
-4. zkontroluj databázi;
-5. pokud už existuje kompletní záznam, nevytvářej duplicitu;
-6. pokud je nové, zpracuj ho;
-7. po úspěšném vytvoření a validaci zapiš PSČ do `sequence.json` na správné místo;
-8. aktualizuj také odpovídající `count`;
-9. zachovej pořadí sequence.
+1. načti aktuální `sequence.json` a ověř jeho strukturu, deklarovaný počet, pětimístný formát a jedinečnost položek;
+2. vybírej další PSČ pouze z existujícího kanonického pole `sequence` a v jeho přesném pořadí;
+3. ověř, že PSČ skutečně existuje a je geografickým doručovacím kódem;
+4. zkontroluj přesný záznam v databázi;
+5. pokud už záznam existuje, nevytvářej duplicitu;
+6. vytvoř pouze záznam pro PSČ, které již patří do schválené sequence;
+7. po vytvoření záznamu sequence znovu načti a ověř, že se její rozsah ani pořadí nezměnily.
 
-**Nikdy nezapisuj PSČ do sequence dříve, než je jeho JSON úspěšně vytvořen a ověřen.**
-
-Pokud skutečné PSČ v sequence chybí, nevyplňuj mezeru vymyšleným číslem.
-
-Sequence musí obsahovat pouze skutečná PSČ určená pro produkci TRAVEL.
+**`sequence.json` je závazný projektový rozsah, nikoli automaticky doplňovaný pracovní seznam.** Běžná tvorba nesmí sequence rozšiřovat, zužovat, přeuspořádávat ani měnit její `count`. Chybějící nebo sporné PSČ je podnět k samostatnému ověření a výslovnému schválení změny sequence.
 
 ---
 
@@ -144,6 +138,18 @@ Nikdy nepřepisuj hotový záznam jen proto, že je jednodušší ho vytvořit z
 Pokud databáze obsahuje neúplný nebo problémový záznam, nejprve ho vyhodnoť podle aktuálního workflow. Tento prompt je určen primárně pro NOVÉ záznamy, nikoli pro rework existujících záznamů.
 
 ---
+
+## 5A. OCHRANA SUPABASE I/O A BEZPEČNÝ DATABÁZOVÝ PROVOZ — POVINNÉ
+
+- Každý databázový dotaz musí filtrovat současně `country_code = 'DE'` a přesný cílový `postal_code`. Nikdy nečti celou tabulku ani všechny země.
+- Neprováděj celotabulkové počty, inventury všech statusů/verzí ani stránkování celé tabulky kvůli jednomu PSČ nebo malé dávce.
+- Zpracovávej malé dávky, omez souběžné požadavky a databázové zápisy prováděj postupně.
+- Před zápisem načti přesný existující řádek; zachovej jeho identitu, nesouvisející metadata a existující `data_version`.
+- Kompletní obsah validuj proti `data/germany/schema.json` ještě před zápisem.
+- Po jednom cíleném zápisu proveď jeden read-back přesného řádku a ověř obsah, `status` a `data_version`. Při timeoutu nejprve ověř, zda se zápis neprovedl; nikdy jej slepě neopakuj.
+- Při HTTP 429 nebo ekvivalentním rate limitu okamžitě zastav požadavky na dotčenou službu. Respektuj `Retry-After`, jinak použij exponenciální prodlevy přibližně 2, 4, 8, 16 a 32 sekund. Neposílej paralelní opakování.
+- Supabase a Neon automaticky neporovnávej ani nesynchronizuj. Taková kontrola patří pouze do samostatně vyžádané migrace/diagnostiky.
+- Hotový záznam musí být uložen jako `validated`; stav `published` patří až po úspěšném samostatném auditu.
 
 # 6. VÝZKUM KAŽDÉHO PSČ
 
@@ -259,6 +265,10 @@ Například významná výroba, značka, technická historie nebo průmyslové d
 Nejde o to přidat co nejvíce průmyslových faktů. Jde o to **nepřehlédnout to, co je pro identitu místa skutečně důležité**.
 
 ---
+
+## 6A. EVERGREEN OBSAH — TRADICE A OPAKUJÍCÍ SE AKCE
+
+TRAVEL není kalendář aktuálních akcí. Nezařazuj aktuální programy, budoucí termíny, letošní ročníky, dočasné nabídky ani jiné časově proměnlivé údaje. Doloženou každoročně se opakující tradici nebo místní slavnost lze zařadit, pokud má skutečný místní či kulturní význam, ale popiš ji nadčasově jako každoroční/tradiční událost bez konkrétního data, roku nebo čísla ročníku. Pevná historická data a roky jsou v pořádku.
 
 # 7. HLOUBKA VÝZKUMU
 
@@ -573,7 +583,7 @@ Zkontroluj minimálně:
 - povolené priority;
 - fact ID;
 - source strukturu;
-- šest jazyků;
+- všech sedm jazyků (cs, de, en, es, fr, it, nl);
 - shodu fact ID mezi jazyky;
 - žádná nepovolená pole.
 
@@ -704,7 +714,7 @@ Ptej se:
 - Nejsou URL vymyšlené?
 
 ### Překlady
-- Existuje všech šest jazyků?
+- Existuje všech sedm jazyků?
 - Mají všechny stejné fact ID?
 - Nechybí žádný fakt?
 - Jsou překlady významově úplné a přirozené?
@@ -848,7 +858,7 @@ Záznam je HOTOVÝ pouze tehdy, když současně platí:
 8. zdroje jsou důvěryhodné;
 9. všechna tvrzení jsou ověřitelná;
 10. JSON odpovídá schema.json;
-11. existuje všech šest jazyků;
+11. existuje všech sedm jazyků;
 12. překlady odpovídají faktům;
 13. souřadnice jsou ověřené;
 14. záznam byl úspěšně uložen do databáze;
