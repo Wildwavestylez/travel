@@ -1,4 +1,601 @@
 {
   "postcode": "90054",
-  "status": "placeholder"
+  "city": "Jablonové",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Jablonové – centrum obce pri obecnom úrade",
+  "representative_point": {
+    "lat": 48.348495,
+    "lon": 17.096445
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Jablam Terra – Jablonové je písomne doložené už v roku 1206",
+      "text": "Prvá známa písomná zmienka o Jablonovom pochádza z roku 1206, keď sa obec uvádza ako Jablam Terra; v roku 1231 sa objavuje podoba Hablan villa. Názov sa tradične spája s divými jabloňami, ktorých tvrdé drevo a pichľavé konáre sa v stredoveku využívali aj na obranné zátarasy. Jablonové patrilo najprv k majetkom Bratislavského hradu, neskôr grófom zo Svätého Jura a Pezinka a napokon panstvu Plaveč – Malacky a Pálffyovcom. V roku 1708 obec dvakrát vypálili cisárski žoldnieri počas Rákócziho povstania. V septembri 1842 zničil požiar takmer celú dedinu aj kostol a o desať dní neskôr škody dokonala povodeň.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://www.e-obce.sk/obec/jablonove/2-historia.html",
+        "https://www.obecjablonove.sk/o-obci.html"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Jablonové – historické centrum pri obecnom úrade",
+        "lat": 48.348495,
+        "lon": 17.096445,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_85ac7c4b-735f-4372-bd56-a9add4e23f3c",
+        "address": "Jablonové 197, 900 54 Jablonové, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostol sv. Michala a historický organ Karola Klöcknera",
+      "text": "Kostol svätého Michala archanjela stojí v strede Jablonového. Jeho stavebný vývoj má v prameňoch viacero dátumov: obecný web uvádza kostol z roku 1679, zatiaľ čo odborný pamiatkový opis hovorí o pôvodne renesančnom chráme, písomne doloženom v rokoch 1561, 1669 a 1714, z ktorého vznikol v roku 1894 nový kostol. Bez ďalšieho archívneho výskumu nemožno tieto stavebné etapy presnejšie zosúladiť. Výnimočnou súčasťou interiéru je historický organ, ktorý zhotovil bratislavský majster Karol Klöckner v roku 1854 a do Jablonového ho nainštalovali o rok neskôr. Generálna oprava organu sa uskutočnila v rokoch 2009–2010.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.obecjablonove.sk/o-obci.html",
+        "https://www.pamiatkynaslovensku.sk/jablonove-kostol-sv-michala-archanjela",
+        "https://mojafarnost.sk/kostoly/kostol-jablonove-sv-michala"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostol sv. Michala archanjela",
+        "lat": 48.348144687384725,
+        "lon": 17.09623405001093,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w71723753",
+        "address": "Jablonové 381, 900 54 Jablonové, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Cholerový cintorín pripomína tri ničivé epidémie 19. storočia",
+      "text": "Za obcou sa nachádza cholerový cintorín, kde sa pochovávalo do masových hrobov počas troch epidémií. Prvá vlna v roku 1831 trvala 73 dní a podľa miestnej kronikárskej tradície si vyžiadala 148 obetí. Ďalšia epidémia v roku 1855 usmrtila 62 ľudí a tretia v roku 1866 ďalších 104. Na cintoríne stojí liatinový kríž na žulovom podstavci; do podstavca je vložená tabuľka s letopočtami epidémií. V susedstve sa nachádza aj židovský cintorín, ktorý pripomína malú židovskú komunitu doloženú v obci v 19. storočí.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://kriz.epocha.sk/krize/okres-malacky/jablonove-kriz-na-cholerovom-cintorine",
+        "https://kriz.epocha.sk/kaplnky/okres-malacky/jablonove-bozia-muka-pri-sklarskej-huti"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Cholerový cintorín Jablonové",
+        "lat": 48.3420666,
+        "lon": 17.0980617,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n11830007624",
+        "address": "Za obcou Jablonové, 900 54 Jablonové, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Ján Galbavý ukryl na fare Ľudovíta Štúra pred uhorskými úradmi",
+      "text": "Rímskokatolícky farár Ján Galbavý (1800–1884) pôsobil v Jablonovom v rokoch 1838–1884 a patril k významným národným pracovníkom. Bol osobným priateľom Ľudovíta Štúra, zapájal sa do činnosti štúrovcov a stal sa jedným zo zakladajúcich členov Matice slovenskej. Keď uhorské úrady vydali na Štúra zatykač, Galbavý ho na fare v Jablonovom ukrýval od 29. do 30. mája 1848; podľa obecnej histórie mu tým umožnil zúčastniť sa pripravovaného slovenského zhromaždenia v Prahe. Udalosť pripomína pamätná tabuľa na budove fary.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://www.vets.cz/vpm/mista/obec/5055-jablonove/",
+        "https://www.vets.cz/vpm/51271-pamaetna-tabula-jan-gablavy-a-ludovit-stur/"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Fara Jablonové – pamätná tabuľa Ján Galbavý a Ľudovít Štúr",
+        "lat": 48.3482306,
+        "lon": 17.0976611,
+        "type": "historic_address",
+        "accuracy": "exact",
+        "source": "https://www.vets.cz/vpm/51271-pamaetna-tabula-jan-gablavy-a-ludovit-stur/",
+        "address": "Jablonové 20, 900 54 Jablonové, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Maliar Ján Želibský – významný rodák a rektor bratislavskej VŠVU",
+      "text": "Ján Želibský sa narodil v Jablonovom v roku 1907 a stal sa jedným z významných slovenských maliarov 20. storočia. Po štúdiách v Bratislave a na Akadémii výtvarných umení v Prahe absolvoval študijný pobyt v Paríži. V rokoch 1952–1955 pôsobil ako rektor Vysokej školy výtvarných umení v Bratislave a neskôr pokračoval v pedagogickej činnosti až do roku 1979. Jeho tvorba a pôsobenie prispeli k zviditeľneniu Záhoria; obec mu v roku 1988 udelila čestné občianstvo. Presná poloha rodného domu nie je v použitých zdrojoch doložená, preto je bod na mape len orientačným bodom v obci.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://www.zmo-zahorie.sk/jablonove/"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Jablonové – orientačný bod k rodisku Jána Želibského",
+        "lat": 48.348495,
+        "lon": 17.096445,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_85ac7c4b-735f-4372-bd56-a9add4e23f3c",
+        "address": "Jablonové, 900 54, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Sklárska osada Rovina – zaniknutá dedina pri hute pod Tureckým vrchom",
+      "text": "V 17. storočí vznikla v lesoch nad Jablonovým sklárska huta a pri nej osada známa ako Rovina, Roveň, Huty či Neudörfl. Prvá písomná zmienka o sklárni pochádza z roku 1652; archívne pramene Pálffyovského panstva dokumentujú život osady medzi rokmi 1670 a 1746. Skláreň vyrábala poháre, čaše a sklenené tabule a zásobovala stavebné projekty Pálffyovcov. Osada mala vlastný drevený kostol sv. Lukáša a cintorín; v roku 1731 sa v kanonickej vizitácii uvádza ako filiálka Perneka. Archeologický prieskum v roku 2003 identifikoval zvyšky výrobných a obytných objektov. Lokalita leží dnes v priestore vojenského výcvikového priestoru Turecký vrch, preto nie je bežným verejným turistickým cieľom.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskemuzeum.sk/sklarne-v-malych-karpatoch/",
+        "https://cevnad.sav.sk/aktivita_1_1/SZ_46.pdf",
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://kriz.epocha.sk/kaplnky/okres-malacky/jablonove-bozia-muka-pri-sklarskej-huti"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Bombardovanie letiska Kuchyňa zasiahlo aj kataster Jablonového v roku 1944",
+      "text": "Dňa 20. septembra 1944 americké lietadlá bombardovali vojenské letisko pri Kuchyni. Podľa obecnej kroniky dopadlo v katastri Jablonového 31 bômb: jedenásť v blízkosti dediny a dvadsať v lese. Krátery mali priemer približne šesť až osem metrov a hĺbku tri až štyri metre; miestna história uvádza, že pri tomto nálete nebol nikto zranený ani usmrtený a niektoré krátery boli v lese viditeľné ešte v čase aktualizácie kroniky. V apríli 1945 prebiehali v okolí boje pri oslobodzovaní obce a na území katastra zahynulo 18 sovietskych vojakov. Presné polohy jednotlivých kráterov nie sú v zdrojoch georeferencované.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.obecjablonove.sk/historia-obce.html",
+        "https://www.obecjablonove.sk/o-obci.html"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Jablonové preslávila domáca drevorezba, maľované ohniská a košikárstvo",
+      "text": "Tradičný život v Jablonovom sa opieral o poľnohospodárstvo, lesnú prácu a domácu výrobu. Obyvatelia vyrábali drevený riad, piesty na pranie a valkanie, tkali a plietli košíky. Rozvinutá bola aj ľudová drevorezba – rezbári vyrezávali a maľovali nábytok i kultové plastiky. Osobitným znakom ľudovej architektúry boli maľované ohniská: biely rastlinný ornament sa nanášal prstom a štetcom na zelený podklad a hviezdicové vzory sa vytvárali zemiakovými razidlami. Tieto techniky zachytávajú miestnu podobu záhorského ľudového umenia, nie iba všeobecné remeslá regiónu.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.e-obce.sk/obec/jablonove/2-historia.html",
+        "https://www.zmo-zahorie.sk/jablonove/",
+        "https://www.obecjablonove.sk/historia-obce.html"
+      ],
+      "map_category": "local_culture",
+      "location": {
+        "name": "Jablonové – sídelné územie a obecná poštová oblasť",
+        "lat": 48.348495,
+        "lon": 17.096445,
+        "type": "postal_area",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_85ac7c4b-735f-4372-bd56-a9add4e23f3c",
+        "address": "Jablonové, 900 54, Slovensko"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiálna stránka Obce Jablonové uvádza adresu Jablonové 197, 900 54; rovnaké PSČ uvádza Ústredný portál verejnej správy pri obecnom úrade a farské údaje pri kostole. Dodávaciu poštu Jablonové pod PSČ 900 54 uvádzajú aj poštové prehľady. Slovenská pošta je autoritou pre PSČ; verejný vyhľadávač neposkytuje samostatný polygon doručovacej oblasti.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiálna adresa obce a záznam UPVS; poštový prehľad dodávacej pošty; OSM/OMA adresné body; Slovenská pošta – verejný vyhľadávač PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávacia pošta Jablonové je uvádzaná pod PSČ 900 54; otváracie hodiny treba overovať samostatne.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Jablonové – oficiálne administratívne a historické údaje; Ústredný portál verejnej správy pre adresu obecného úradu; OSM/OMA len ako geografické doplnenie.",
+    "content_discrepancies": "Pri kostole sv. Michala sa líšia dátumy: obecný web uvádza rok 1679, odborný pamiatkový opis uvádza renesančný predchodca doložený v rokoch 1561, 1669 a 1714 a nový kostol z roku 1894. Záznam túto nezhodu otvorene uvádza a nevyberá jediný dátum ako definitívny. Sklárska osada Rovina leží dnes v priestore vojenského výcvikového priestoru Turecký vrch; jej historická väzba na Jablonové je zachovaná, ale nejde o súčasnú verejne prístupnú lokalitu."
+  },
+  "sources": [
+    {
+      "title": "Obec Jablonové – O obci a základné údaje",
+      "url": "https://www.obecjablonove.sk/o-obci.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Jablonové – História obce a vojnové udalosti",
+      "url": "https://www.obecjablonove.sk/historia-obce.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Jablonové – Kontakt a adresa obecného úradu",
+      "url": "https://www.obecjablonove.sk/kontakt-0.html?usfd=1",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Michala archanjela",
+      "url": "https://www.pamiatkynaslovensku.sk/jablonove-kostol-sv-michala-archanjela",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap/OMA – Kostol sv. Michala, Jablonové",
+      "url": "https://poi.oma.sk/w71723753",
+      "type": "other"
+    },
+    {
+      "title": "Mojafarnosť – Kostol sv. Michala, GPS a farnosť",
+      "url": "https://mojafarnost.sk/kostoly/kostol-jablonove-sv-michala",
+      "type": "primary"
+    },
+    {
+      "title": "Spolek pro vojenská pietní místa – Pamätné tabule v Jablonovom",
+      "url": "https://www.vets.cz/vpm/mista/obec/5055-jablonove/",
+      "type": "specialist"
+    },
+    {
+      "title": "Spolek pro vojenská pietní místa – Pamätná tabuľa Ján Galbavý a Ľudovít Štúr",
+      "url": "https://www.vets.cz/vpm/51271-pamaetna-tabula-jan-gablavy-a-ludovit-stur/",
+      "type": "specialist"
+    },
+    {
+      "title": "Epocha – Kríž na cholerovom cintoríne v Jablonovom",
+      "url": "https://kriz.epocha.sk/krize/okres-malacky/jablonove-kriz-na-cholerovom-cintorine",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap/OMA – Cholerový cintorín Jablonové",
+      "url": "https://poi.oma.sk/n11830007624",
+      "type": "other"
+    },
+    {
+      "title": "Záhorské múzeum Skalica – Sklárne v Malých Karpatoch, Rovina pri Jablonovom",
+      "url": "https://www.zahorskemuzeum.sk/sklarne-v-malych-karpatoch/",
+      "type": "museum"
+    },
+    {
+      "title": "Archeologický ústav SAV – Prieskum sklárskej osady Rovina pri Jablonovom",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/SZ_46.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Epocha – Božia muka pri sklárskej huti",
+      "url": "https://kriz.epocha.sk/kaplnky/okres-malacky/jablonove-bozia-muka-pri-sklarskej-huti",
+      "type": "specialist"
+    },
+    {
+      "title": "ZMO Záhorie – Jablonové, remeslá a kultúrne dedičstvo",
+      "url": "https://www.zmo-zahorie.sk/jablonove/",
+      "type": "regional"
+    },
+    {
+      "title": "E-OBCE – Jablonové, historický a hospodársky profil",
+      "url": "https://www.e-obce.sk/obec/jablonove/2-historia.html",
+      "type": "specialist"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Obecný úrad Jablonové, PSČ a GPS",
+      "url": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_85ac7c4b-735f-4372-bd56-a9add4e23f3c",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap/OMA – poštová oblasť 900 54, Jablonové",
+      "url": "https://90054.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Jablonové – centrum obce pri obecnom úrade",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové je písemně doloženo již roku 1206",
+          "text": "První známá písemná zmínka o Jablonovém pochází z roku 1206, kdy se obec uvádí jako Jablam Terra; roku 1231 se objevuje podoba Hablan villa. Název se tradičně spojuje s planými jabloněmi, jejichž tvrdé dřevo a trnité větve se využívaly i k obranným zátarasům. Obec patřila nejprve k majetkům Bratislavského hradu, později šlechtickým rodům ze Sv. Jura a Pezinku a panství Plaveč–Malacky. Roku 1708 ji během Rákócziho povstání dvakrát vypálili císařští žoldnéři; požár v září 1842 zničil téměř celou ves i kostel a následná povodeň dokonala škody."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Michala a historické varhany Karla Klöcknera",
+          "text": "Kostel svatého Michala archanděla stojí uprostřed Jablonového. Jeho stavební vývoj má v pramenech několik dat: obecní web uvádí kostel z roku 1679, zatímco odborný památkový popis hovoří o původně renesančním chrámu doloženém v letech 1561, 1669 a 1714, z něhož vznikl roku 1894 nový kostel. Bez dalšího archivního výzkumu nelze tyto etapy přesně sjednotit. Výjimečnou součástí interiéru jsou varhany, které zhotovil bratislavský mistr Karol Klöckner roku 1854 a do Jablonového byly instalovány o rok později. Generální oprava varhan proběhla v letech 2009–2010."
+        },
+        {
+          "id": "fact_003",
+          "title": "Cholerový hřbitov připomíná tři ničivé epidemie 19. století",
+          "text": "Za obcí se nachází cholerový hřbitov, kde se pohřbívalo do hromadných hrobů během tří epidemií. První vlna roku 1831 trvala 73 dní a podle místní kronikářské tradice si vyžádala 148 obětí. Další epidemie roku 1855 usmrtila 62 lidí a třetí vlna roku 1866 dalších 104. Na hřbitově stojí litinový kříž na žulovém podstavci s tabulkou, na níž jsou zaznamenány letopočty epidemií. V sousedství se nachází také židovský hřbitov, připomínající malou židovskou komunitu doloženou v obci v 19. století."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý ukryl na faře Ľudovíta Štúra před uherskými úřady",
+          "text": "Římskokatolický farář Ján Galbavý (1800–1884) působil v Jablonovém v letech 1838–1884 a patřil k významným národním pracovníkům. Byl osobním přítelem Ľudovíta Štúra, zapojoval se do činnosti štúrovců a stal se jedním ze zakládajících členů Matice slovenské. Když uherské úřady vydaly na Štúra zatykač, Galbavý jej na faře v Jablonovém ukrýval od 29. do 30. května 1848; podle obecní historie mu tím umožnil účast na připravovaném slovenském shromáždění v Praze. Událost připomíná pamětní deska na faře."
+        },
+        {
+          "id": "fact_005",
+          "title": "Malíř Ján Želibský – významný rodák a rektor bratislavské VŠVU",
+          "text": "Ján Želibský se narodil v Jablonovém roku 1907 a stal se významným slovenským malířem 20. století. Po studiích v Bratislavě a na Akademii výtvarných umění v Praze absolvoval studijní pobyt v Paříži. V letech 1952–1955 působil jako rektor Vysoké školy výtvarných umění v Bratislavě a později pokračoval v pedagogické činnosti až do roku 1979. Jeho tvorba přispěla ke zviditelnění Záhoří; obec mu roku 1988 udělila čestné občanství. Přesná poloha rodného domu není v použitých zdrojích doložena, proto je bod v mapě pouze orientační."
+        },
+        {
+          "id": "fact_006",
+          "title": "Sklářská osada Rovina – zaniklá ves u hutě pod Tureckým vrchem",
+          "text": "V 17. století vznikla v lesích nad Jablonovým sklářská huť a při ní osada známá jako Rovina, Roveň, Huty či Neudörfl. První písemná zmínka o huti pochází z roku 1652; prameny Pálffyovského panství dokumentují život osady v letech 1670–1746. Sklárna vyráběla poháry, číše a skleněné tabule a zásobovala stavební projekty Pálffyů. Osada měla dřevěný kostel sv. Lukáše a hřbitov; roku 1731 se v kanonické vizitaci uvádí jako filiálka Perneku. Archeologický průzkum roku 2003 identifikoval zbytky výrobních a obytných objektů. Lokalita leží dnes v prostoru vojenského výcvikového prostoru Turecký vrch, a není proto běžně přístupným turistickým cílem."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bombardování letiště Kuchyňa zasáhlo v roce 1944 také katastr Jablonového",
+          "text": "Dne 20. září 1944 americká letadla bombardovala vojenské letiště u Kuchyně. Podle obecní kroniky dopadlo v katastru Jablonového 31 bomb: jedenáct poblíž vesnice a dvacet v lese. Krátery měly průměr přibližně šest až osm metrů a hloubku tři až čtyři metry; místní historie uvádí, že při náletu nebyl nikdo zraněn ani zabit a některé krátery byly v lese viditelné ještě v době aktualizace kroniky. V dubnu 1945 probíhaly v okolí boje při osvobozování obce a na území katastru zahynulo 18 sovětských vojáků. Přesné polohy jednotlivých kráterů nejsou v pramenech georeferencovány."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové proslavilo domácí řezbářství, malovaná ohniště a košíkářství",
+          "text": "Tradiční život v Jablonovém se opíral o zemědělství, lesní práci a domácí výrobu. Obyvatelé vyráběli dřevěné nádobí, prací a valchovací písty, tkali a pletli košíky. Rozvinuté bylo také lidové řezbářství – řezbáři vyřezávali a malovali nábytek i kultovní plastiky. Zvláštním znakem lidové architektury byla malovaná ohniště: bílý rostlinný ornament se nanášel prstem a štětcem na zelený podklad a hvězdicové vzory se vytvářely bramborovými razítky. Tyto techniky zachycují místní podobu záhorského lidového umění, nikoli pouze obecná řemesla regionu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Jablonové – Ortszentrum beim Gemeindeamt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové ist bereits 1206 schriftlich belegt",
+          "text": "Die älteste bekannte schriftliche Erwähnung von Jablonové stammt aus dem Jahr 1206 unter dem Namen Jablam Terra; 1231 erscheint die Form Hablan villa. Der Ortsname wird traditionell mit wilden Apfelbäumen verbunden, deren hartes Holz und dornige Äste auch für Verteidigungsbarrieren genutzt wurden. 1708 wurde das Dorf während des Rákóczi-Aufstands zweimal von kaiserlichen Söldnern niedergebrannt. Ein Brand im September 1842 zerstörte fast das ganze Dorf und die Kirche; zehn Tage später verschlimmerte ein Hochwasser die Schäden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Michaelskirche und die historische Orgel von Karol Klöckner",
+          "text": "Die Kirche des heiligen Erzengels Michael steht im Zentrum von Jablonové. Ihre Baugeschichte weist unterschiedliche Datierungen auf: Die Gemeinde nennt 1679, während die Denkmalbeschreibung eine ursprünglich Renaissancekirche erwähnt, die 1561, 1669 und 1714 belegt ist und 1894 durch einen Neubau ersetzt wurde. Ohne weitere Archivforschung lassen sich diese Bauphasen nicht abschließend vereinheitlichen. Die historische Orgel wurde 1854 vom Pressburger Meister Karol Klöckner gebaut und 1855 in Jablonové installiert; 2009–2010 wurde sie umfassend restauriert."
+        },
+        {
+          "id": "fact_003",
+          "title": "Der Cholera-Friedhof erinnert an drei verheerende Epidemien des 19. Jahrhunderts",
+          "text": "Am Ortsrand liegt ein Cholera-Friedhof, auf dem während drei Epidemien Massengräber angelegt wurden. Die erste Welle von 1831 dauerte 73 Tage und forderte laut örtlicher Chronik 148 Todesopfer. 1855 starben weitere 62 Menschen, 1866 nochmals 104. Auf dem Friedhof steht ein gusseisernes Kreuz auf einem Granitsockel mit einer Tafel, auf der die Epidemiejahre vermerkt sind. In unmittelbarer Nähe liegt auch ein jüdischer Friedhof, der an die kleine jüdische Gemeinde des 19. Jahrhunderts erinnert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý versteckte Ľudovít Štúr im Pfarrhaus vor den ungarischen Behörden",
+          "text": "Der katholische Pfarrer Ján Galbavý (1800–1884) wirkte von 1838 bis 1884 in Jablonové und gehörte zu den bedeutenden slowakischen Nationalaktivisten. Er war ein persönlicher Freund Ľudovít Štúrs, engagierte sich in der Bewegung der Štúrovci und gehörte zu den Gründungsmitgliedern der Matica slovenská. Als die ungarischen Behörden einen Haftbefehl gegen Štúr erließen, versteckte Galbavý ihn vom 29. bis 30. Mai 1848 im Pfarrhaus. Eine Gedenktafel am Pfarrhaus erinnert an die Rettungsaktion."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Maler Ján Želibský – ein bedeutender Sohn des Dorfes und Rektor der Kunsthochschule",
+          "text": "Ján Želibský wurde 1907 in Jablonové geboren und wurde ein bedeutender slowakischer Maler des 20. Jahrhunderts. Nach Studien in Bratislava und an der Akademie der Bildenden Künste in Prag absolvierte er einen Studienaufenthalt in Paris. Von 1952 bis 1955 war er Rektor der Hochschule für Bildende Künste in Bratislava und lehrte später bis 1979. Die Gemeinde verlieh ihm 1988 die Ehrenbürgerschaft. Der genaue Standort seines Geburtshauses ist in den verwendeten Quellen nicht belegt; der Kartenpunkt ist daher nur ein Orientierungspunkt im Ort."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Glasmachersiedlung Rovina – ein verschwundenes Dorf bei der Hütte unter dem Turecký vrch",
+          "text": "Im 17. Jahrhundert entstand in den Wäldern oberhalb von Jablonové eine Glashütte mit einer Siedlung namens Rovina, Roveň, Huty oder Neudörfl. Die erste schriftliche Erwähnung der Hütte stammt aus 1652; Pálffy-Archivquellen dokumentieren das Dorf zwischen 1670 und 1746. Die Glashütte stellte Becher, Kelche und Fensterglas her und belieferte Bauprojekte der Pálffys. Die Siedlung besaß eine hölzerne Lukaskirche und einen Friedhof. Archäologische Untersuchungen von 2003 fanden Produktions- und Wohnreste. Der Ort liegt heute im militärischen Übungsgebiet Turecký vrch und ist kein frei zugängliches Ausflugsziel."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Bombardierung des Flugplatzes Kuchyňa traf 1944 auch das Kataster Jablonové",
+          "text": "Am 20. September 1944 bombardierten amerikanische Flugzeuge den Militärflugplatz bei Kuchyňa. Laut Gemeindeschronik fielen 31 Bomben auf das Kataster Jablonové: elf in Dorfnähe und zwanzig im Wald. Die Krater waren etwa sechs bis acht Meter breit und drei bis vier Meter tief. Die örtliche Chronik berichtet, dass es bei diesem Angriff keine Verletzten oder Toten gab und einige Krater noch zum Zeitpunkt der Chronikaktualisierung sichtbar waren. Bei den Kämpfen zur Befreiung im April 1945 starben im Gemeindegebiet 18 sowjetische Soldaten. Die genauen Bombenkrater sind nicht georeferenziert."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové war für Holzschnitzerei, bemalte Herdstellen und Korbflechterei bekannt",
+          "text": "Das traditionelle Leben in Jablonové beruhte auf Landwirtschaft, Waldarbeit und Heimproduktion. Die Einwohner stellten Holzgeschirr und Waschstößel her, webten und flochten Körbe. Verbreitet war auch die Volkskunst der Holzschnitzerei, darunter bemalte Möbel und religiöse Figuren. Typisch waren bemalte Herdstellen: weiße Pflanzenornamente wurden mit Fingern und Pinseln auf grünen Grund aufgetragen, Sternmuster mit Kartoffelstempeln erzeugt. Diese Techniken zeigen eine besondere lokale Ausprägung der Volkskunst von Záhorie."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Jablonové – village centre by the municipal office",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové is documented in writing as early as 1206",
+          "text": "The earliest known written reference to Jablonové dates to 1206, when it appears as Jablam Terra; the form Hablan villa is recorded in 1231. The name is traditionally linked to wild apple trees, whose hard wood and thorny branches were also used for defensive barriers. In 1708, imperial mercenaries burned the village twice during the Rákóczi uprising. A fire in September 1842 destroyed almost the entire village and its church; a flood ten days later compounded the damage."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Michael's Church and the historic organ by Karol Klöckner",
+          "text": "The Church of St Michael the Archangel stands in the centre of Jablonové. Its building history has differing dates: the municipal website gives 1679, while the heritage description identifies an earlier Renaissance church documented in 1561, 1669 and 1714 and a new building from 1894. Further archival research is needed to reconcile these phases. The historic organ was built in 1854 by Pressburg master Karol Klöckner and installed in Jablonové the following year; it was comprehensively restored in 2009–2010."
+        },
+        {
+          "id": "fact_003",
+          "title": "The cholera cemetery recalls three devastating epidemics of the 19th century",
+          "text": "A cholera cemetery lies outside the village, where victims of three epidemics were buried in mass graves. The first outbreak in 1831 lasted 73 days and, according to local chronicle tradition, killed 148 people. Another epidemic in 1855 claimed 62 lives, and a third in 1866 killed 104. A cast-iron cross on a granite base stands in the cemetery, with a plaque recording the epidemic years. A Jewish cemetery nearby also recalls the small Jewish community documented in the village in the 19th century."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý hid Ľudovít Štúr in the rectory from the Hungarian authorities",
+          "text": "The Roman Catholic priest Ján Galbavý (1800–1884) served in Jablonové from 1838 to 1884 and was an important Slovak national activist. A personal friend of Ľudovít Štúr, he took part in the Štúr movement and became one of the founding members of Matica slovenská. When Hungarian authorities issued an arrest warrant for Štúr, Galbavý hid him in the Jablonové rectory from 29 to 30 May 1848. A memorial plaque on the rectory commemorates the event."
+        },
+        {
+          "id": "fact_005",
+          "title": "Painter Ján Želibský – a notable native and rector of Bratislava's Academy of Fine Arts",
+          "text": "Ján Želibský was born in Jablonové in 1907 and became an important Slovak painter of the 20th century. After studying in Bratislava and at the Academy of Fine Arts in Prague, he completed a study stay in Paris. He served as rector of the Academy of Fine Arts in Bratislava from 1952 to 1955 and continued teaching until 1979. The municipality made him an honorary citizen in 1988. His exact birthplace is not established in the sources used, so the map point is only an orientation point within the village."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Rovina glassmaking settlement – a vanished village by the glassworks below Turecký vrch",
+          "text": "A glassworks and settlement known as Rovina, Roveň, Huty or Neudörfl developed in the forests above Jablonové in the 17th century. The first written reference to the glassworks dates to 1652; Pálffy estate archives document the settlement between 1670 and 1746. It produced drinking glasses, goblets and window glass for Pálffy building projects. The settlement had a wooden Church of St Luke and a cemetery. Archaeological work in 2003 identified production and residential remains. The site is now within the Turecký vrch military training area and is not an ordinary public visitor destination."
+        },
+        {
+          "id": "fact_007",
+          "title": "The 1944 bombing of Kuchyňa airfield also struck the cadastral area of Jablonové",
+          "text": "On 20 September 1944, American aircraft bombed the military airfield near Kuchyňa. According to the municipal chronicle, 31 bombs fell within Jablonové's cadastral area: eleven near the village and twenty in the forest. The craters were about six to eight metres wide and three to four metres deep. The local history reports no casualties from this raid and notes that some craters remained visible in the forest when the chronicle was updated. During the liberation fighting in April 1945, 18 Soviet soldiers died within the cadastral area. The exact crater positions are not georeferenced in the available sources."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové was known for home woodcarving, painted hearths and basketry",
+          "text": "Traditional life in Jablonové relied on farming, forestry and home production. Residents made wooden household goods and washing tools, wove textiles and made baskets. Folk woodcarving was also developed, including carved and painted furniture and religious figures. A distinctive feature of local folk architecture was the painted hearth: white plant ornaments were applied by finger and brush to a green background, while star patterns were made with potato stamps. These techniques represent a distinctive local form of Záhorie folk art."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Jablonové – centro del pueblo junto al ayuntamiento",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra: Jablonové está documentado por escrito desde 1206",
+          "text": "La primera mención escrita conocida de Jablonové data de 1206, cuando aparece como Jablam Terra; en 1231 figura la forma Hablan villa. El nombre se relaciona tradicionalmente con los manzanos silvestres, cuya madera dura y ramas espinosas también se utilizaban en barreras defensivas. En 1708, mercenarios imperiales incendiaron el pueblo dos veces durante la rebelión de Rákóczi. Un incendio en septiembre de 1842 destruyó casi toda la localidad y su iglesia; una inundación diez días después agravó los daños."
+        },
+        {
+          "id": "fact_002",
+          "title": "La iglesia de San Miguel y el órgano histórico de Karol Klöckner",
+          "text": "La iglesia de San Miguel Arcángel se encuentra en el centro de Jablonové. Las fuentes ofrecen fechas diferentes: la web municipal la sitúa en 1679, mientras que la descripción patrimonial habla de un templo renacentista documentado en 1561, 1669 y 1714, sustituido por un edificio nuevo en 1894. Se necesita más investigación archivística para conciliar estas etapas. El órgano histórico fue construido en 1854 por el maestro de Bratislava Karol Klöckner e instalado en Jablonové al año siguiente; se restauró por completo en 2009–2010."
+        },
+        {
+          "id": "fact_003",
+          "title": "El cementerio del cólera recuerda tres epidemias devastadoras del siglo XIX",
+          "text": "A las afueras del pueblo se encuentra un cementerio del cólera donde se enterró a las víctimas de tres epidemias en fosas comunes. El primer brote, en 1831, duró 73 días y, según la tradición de la crónica local, causó 148 muertes. Otra epidemia en 1855 mató a 62 personas y una tercera en 1866 a 104. En el cementerio hay una cruz de hierro fundido sobre un pedestal de granito con una placa que registra los años de las epidemias. Cerca se encuentra también un cementerio judío, recuerdo de la pequeña comunidad judía documentada en el pueblo en el siglo XIX."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý escondió a Ľudovít Štúr en la rectoría para protegerlo de las autoridades húngaras",
+          "text": "El sacerdote católico Ján Galbavý (1800–1884) ejerció en Jablonové entre 1838 y 1884 y fue un importante activista nacional eslovaco. Amigo personal de Ľudovít Štúr, participó en el movimiento de Štúr y fue uno de los miembros fundadores de Matica slovenská. Cuando las autoridades húngaras emitieron una orden de arresto contra Štúr, Galbavý lo escondió en la rectoría de Jablonové del 29 al 30 de mayo de 1848. Una placa conmemorativa en la rectoría recuerda el episodio."
+        },
+        {
+          "id": "fact_005",
+          "title": "El pintor Ján Želibský, destacado natural del pueblo y rector de la Academia de Bellas Artes de Bratislava",
+          "text": "Ján Želibský nació en Jablonové en 1907 y se convirtió en un importante pintor eslovaco del siglo XX. Tras estudiar en Bratislava y en la Academia de Bellas Artes de Praga, realizó una estancia de estudios en París. Fue rector de la Academia de Bellas Artes de Bratislava entre 1952 y 1955 y continuó enseñando hasta 1979. El municipio le concedió la ciudadanía honoraria en 1988. Las fuentes consultadas no identifican la ubicación exacta de su casa natal, por lo que el punto del mapa es solo orientativo."
+        },
+        {
+          "id": "fact_006",
+          "title": "El asentamiento vidriero de Rovina: un pueblo desaparecido junto a la fábrica bajo Turecký vrch",
+          "text": "En el siglo XVII surgió en los bosques sobre Jablonové una fábrica de vidrio y un asentamiento conocido como Rovina, Roveň, Huty o Neudörfl. La primera referencia escrita a la fábrica data de 1652; los archivos de los Pálffy documentan el asentamiento entre 1670 y 1746. Allí se producían vasos, copas y vidrio para ventanas destinados a las obras de los Pálffy. El asentamiento tenía una iglesia de madera de San Lucas y un cementerio. Las prospecciones arqueológicas de 2003 identificaron restos de edificios productivos y residenciales. Hoy el lugar se encuentra dentro del campo de entrenamiento militar de Turecký vrch y no es un destino público habitual."
+        },
+        {
+          "id": "fact_007",
+          "title": "El bombardeo del aeródromo de Kuchyňa en 1944 también alcanzó el término de Jablonové",
+          "text": "El 20 de septiembre de 1944, aviones estadounidenses bombardearon el aeródromo militar cercano a Kuchyňa. Según la crónica municipal, cayeron 31 bombas en el término de Jablonové: once cerca del pueblo y veinte en el bosque. Los cráteres tenían entre seis y ocho metros de diámetro y entre tres y cuatro de profundidad. La historia local indica que no hubo víctimas en este ataque y que algunos cráteres aún eran visibles cuando se actualizó la crónica. Durante los combates de liberación de abril de 1945 murieron 18 soldados soviéticos dentro del término municipal. Las ubicaciones exactas de los cráteres no están georreferenciadas."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové destacó por la talla doméstica de madera, los hogares pintados y la cestería",
+          "text": "La vida tradicional de Jablonové se basaba en la agricultura, el trabajo forestal y la producción doméstica. Sus habitantes fabricaban utensilios de madera y herramientas para lavar, tejían y elaboraban cestas. También se desarrolló la talla popular de madera, con muebles tallados y pintados y figuras religiosas. Un rasgo distintivo de la arquitectura popular eran los hogares pintados: los motivos vegetales blancos se aplicaban con los dedos y pinceles sobre un fondo verde, y las estrellas se estampaban con patatas. Estas técnicas representan una expresión local del arte popular de Záhorie."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Jablonové – centre du village près de la mairie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové est attesté par écrit dès 1206",
+          "text": "La plus ancienne mention écrite connue de Jablonové date de 1206 sous le nom de Jablam Terra ; la forme Hablan villa apparaît en 1231. Le nom est traditionnellement associé aux pommiers sauvages, dont le bois dur et les branches épineuses servaient aussi aux barrières défensives. En 1708, des mercenaires impériaux incendièrent le village à deux reprises pendant la révolte de Rákóczi. Un incendie en septembre 1842 détruisit presque tout le village et son église ; une inondation dix jours plus tard aggrava les dégâts."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Michel et l’orgue historique de Karol Klöckner",
+          "text": "L’église Saint-Michel-Archange se trouve au centre de Jablonové. Les sources donnent des dates différentes : le site communal indique 1679, tandis que la notice patrimoniale décrit une église Renaissance attestée en 1561, 1669 et 1714, remplacée par un nouvel édifice en 1894. Des recherches d’archives supplémentaires seraient nécessaires pour concilier ces phases. L’orgue historique fut construit en 1854 par le maître de Bratislava Karol Klöckner et installé à Jablonové l’année suivante ; il fut entièrement restauré en 2009–2010."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le cimetière du choléra rappelle trois épidémies dévastatrices du XIXe siècle",
+          "text": "À la sortie du village se trouve un cimetière du choléra où les victimes de trois épidémies furent enterrées dans des fosses communes. La première vague de 1831 dura 73 jours et fit, selon la chronique locale, 148 morts. Une autre épidémie en 1855 tua 62 personnes et une troisième en 1866 en tua 104. Une croix en fonte sur socle de granit se dresse dans le cimetière, avec une plaque indiquant les années des épidémies. Un cimetière juif voisin rappelle également la petite communauté juive attestée au XIXe siècle."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý cacha Ľudovít Štúr dans le presbytère pour le protéger des autorités hongroises",
+          "text": "Le prêtre catholique Ján Galbavý (1800–1884) exerça à Jablonové de 1838 à 1884 et fut un important militant national slovaque. Ami personnel de Ľudovít Štúr, il participa au mouvement des Štúroviens et devint l’un des membres fondateurs de Matica slovenská. Lorsque les autorités hongroises lancèrent un mandat d’arrêt contre Štúr, Galbavý le cacha au presbytère du 29 au 30 mai 1848. Une plaque commémorative sur le presbytère rappelle cet épisode."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le peintre Ján Želibský – un natif remarquable et recteur de l’Académie des beaux-arts de Bratislava",
+          "text": "Ján Želibský naquit à Jablonové en 1907 et devint un peintre slovaque important du XXe siècle. Après des études à Bratislava et à l’Académie des beaux-arts de Prague, il effectua un séjour d’études à Paris. Il fut recteur de l’Académie des beaux-arts de Bratislava de 1952 à 1955 et poursuivit ensuite son enseignement jusqu’en 1979. La commune lui accorda la citoyenneté d’honneur en 1988. Les sources consultées ne précisent pas l’emplacement exact de sa maison natale ; le point cartographique est donc indicatif."
+        },
+        {
+          "id": "fact_006",
+          "title": "La verrerie de Rovina – un village disparu sous le Turecký vrch",
+          "text": "Au XVIIe siècle, une verrerie et un village appelé Rovina, Roveň, Huty ou Neudörfl se développèrent dans les forêts au-dessus de Jablonové. La première mention écrite de la verrerie date de 1652 ; les archives du domaine Pálffy documentent le village entre 1670 et 1746. On y fabriquait des verres, des coupes et du vitrage pour les chantiers des Pálffy. Le village possédait une église en bois dédiée à saint Luc et un cimetière. Des recherches archéologiques en 2003 ont identifié des vestiges de bâtiments de production et d’habitation. Le site se trouve aujourd’hui dans la zone militaire d’entraînement de Turecký vrch et n’est pas un lieu de visite publique ordinaire."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le bombardement de l’aérodrome de Kuchyňa en 1944 toucha aussi le territoire de Jablonové",
+          "text": "Le 20 septembre 1944, des avions américains bombardèrent l’aérodrome militaire près de Kuchyňa. Selon la chronique communale, 31 bombes tombèrent sur le territoire de Jablonové : onze près du village et vingt dans la forêt. Les cratères mesuraient environ six à huit mètres de diamètre et trois à quatre mètres de profondeur. L’histoire locale indique qu’il n’y eut pas de victimes lors de ce raid et que certains cratères restaient visibles au moment de la mise à jour de la chronique. Pendant les combats de libération en avril 1945, 18 soldats soviétiques moururent sur le territoire communal. Les positions exactes des cratères ne sont pas géoréférencées."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové était connu pour la sculpture sur bois, les foyers peints et la vannerie",
+          "text": "La vie traditionnelle de Jablonové reposait sur l’agriculture, le travail forestier et la production domestique. Les habitants fabriquaient des ustensiles en bois et des outils de lavage, tissaient et confectionnaient des paniers. La sculpture populaire sur bois était également développée, avec des meubles sculptés et peints ainsi que des figures religieuses. Un trait particulier de l’architecture populaire était le foyer peint : des motifs végétaux blancs étaient appliqués au doigt et au pinceau sur un fond vert, tandis que les étoiles étaient imprimées avec des tampons en pomme de terre. Ces techniques représentent une expression locale de l’art populaire de Záhorie."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Jablonové – centro del paese presso il municipio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové è documentato per iscritto già dal 1206",
+          "text": "La più antica menzione scritta conosciuta di Jablonové risale al 1206, quando compare come Jablam Terra; nel 1231 è attestata la forma Hablan villa. Il nome è tradizionalmente collegato ai meli selvatici, il cui legno duro e i rami spinosi venivano usati anche per barriere difensive. Nel 1708 mercenari imperiali incendiarono il villaggio due volte durante la rivolta di Rákóczi. Un incendio nel settembre 1842 distrusse quasi tutto il paese e la chiesa; un’alluvione dieci giorni dopo aggravò i danni."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Michele e l’organo storico di Karol Klöckner",
+          "text": "La chiesa di San Michele Arcangelo si trova al centro di Jablonové. Le fonti riportano date diverse: il sito comunale indica il 1679, mentre la scheda storico-artistica descrive una chiesa rinascimentale attestata nel 1561, 1669 e 1714, sostituita da un nuovo edificio nel 1894. Per conciliare le diverse fasi servirebbero ulteriori ricerche d’archivio. L’organo storico fu costruito nel 1854 dal maestro di Bratislava Karol Klöckner e installato a Jablonové l’anno seguente; fu restaurato integralmente nel 2009–2010."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il cimitero del colera ricorda tre epidemie devastanti del XIX secolo",
+          "text": "Fuori dal paese si trova il cimitero del colera, dove le vittime di tre epidemie furono sepolte in fosse comuni. La prima ondata del 1831 durò 73 giorni e, secondo la cronaca locale, causò 148 morti. Un’altra epidemia nel 1855 uccise 62 persone e una terza nel 1866 ne uccise 104. Nel cimitero si trova una croce in ghisa su piedistallo di granito con una targa che riporta gli anni delle epidemie. Nelle vicinanze si trova anche un cimitero ebraico, memoria della piccola comunità ebraica documentata nel XIX secolo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý nascose Ľudovít Štúr nella canonica per proteggerlo dalle autorità ungheresi",
+          "text": "Il sacerdote cattolico Ján Galbavý (1800–1884) operò a Jablonové dal 1838 al 1884 e fu un importante attivista nazionale slovacco. Amico personale di Ľudovít Štúr, partecipò al movimento degli Štúr e fu uno dei membri fondatori della Matica slovenská. Quando le autorità ungheresi emisero un mandato di arresto contro Štúr, Galbavý lo nascose nella canonica dal 29 al 30 maggio 1848. Una targa commemorativa sulla canonica ricorda l’episodio."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il pittore Ján Želibský – illustre nativo e rettore dell’Accademia di belle arti di Bratislava",
+          "text": "Ján Želibský nacque a Jablonové nel 1907 e divenne un importante pittore slovacco del XX secolo. Dopo gli studi a Bratislava e all’Accademia di belle arti di Praga, trascorse un periodo di studio a Parigi. Fu rettore dell’Accademia di belle arti di Bratislava dal 1952 al 1955 e continuò a insegnare fino al 1979. Nel 1988 il comune gli conferì la cittadinanza onoraria. Le fonti consultate non indicano l’esatta posizione della casa natale, quindi il punto sulla mappa è solo orientativo."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’insediamento vetrario di Rovina – un villaggio scomparso sotto il Turecký vrch",
+          "text": "Nel XVII secolo nei boschi sopra Jablonové sorsero una vetreria e un insediamento noto come Rovina, Roveň, Huty o Neudörfl. La prima menzione scritta della vetreria risale al 1652; gli archivi della tenuta Pálffy documentano il villaggio tra il 1670 e il 1746. Vi si producevano bicchieri, calici e vetri per le costruzioni dei Pálffy. L’insediamento aveva una chiesa lignea dedicata a San Luca e un cimitero. Le ricerche archeologiche del 2003 hanno identificato resti di edifici produttivi e abitativi. Il sito si trova oggi nell’area di addestramento militare di Turecký vrch e non è una normale meta turistica pubblica."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il bombardamento dell’aeroporto di Kuchyňa nel 1944 colpì anche il territorio di Jablonové",
+          "text": "Il 20 settembre 1944 aerei americani bombardarono l’aeroporto militare vicino a Kuchyňa. Secondo la cronaca comunale, 31 bombe caddero nel territorio di Jablonové: undici vicino al villaggio e venti nel bosco. I crateri avevano un diametro di circa sei-otto metri e una profondità di tre-quattro metri. La storia locale riferisce che nel raid non vi furono feriti o morti e che alcuni crateri erano ancora visibili al momento dell’aggiornamento della cronaca. Nei combattimenti per la liberazione dell’aprile 1945 morirono nel territorio comunale 18 soldati sovietici. Le posizioni esatte dei crateri non sono georeferenziate."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové era noto per la scultura lignea domestica, i focolari dipinti e la cesteria",
+          "text": "La vita tradizionale di Jablonové si basava su agricoltura, lavoro forestale e produzione domestica. Gli abitanti realizzavano utensili di legno e strumenti per il bucato, tessevano e intrecciavano cesti. Era sviluppata anche la scultura popolare in legno, con mobili intagliati e dipinti e figure religiose. Un tratto particolare dell’architettura popolare erano i focolari dipinti: motivi vegetali bianchi venivano applicati con dita e pennelli su fondo verde, mentre le stelle erano create con stampi di patate. Queste tecniche rappresentano una forma locale dell’arte popolare di Záhorie."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Jablonové – dorpscentrum bij het gemeentehuis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jablam Terra – Jablonové is al in 1206 schriftelijk vermeld",
+          "text": "De oudste bekende schriftelijke vermelding van Jablonové dateert uit 1206, toen het Jablam Terra werd genoemd; in 1231 komt de vorm Hablan villa voor. De naam wordt traditioneel verbonden met wilde appelbomen, waarvan het harde hout en de stekelige takken ook voor verdedigingsbarrières werden gebruikt. In 1708 staken keizerlijke huurlingen het dorp tijdens de opstand van Rákóczi tweemaal in brand. Een brand in september 1842 verwoestte bijna het hele dorp en de kerk; een overstroming tien dagen later maakte de schade nog groter."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Michaëlskerk en het historische orgel van Karol Klöckner",
+          "text": "De kerk van Sint-Michaël de Aartsengel staat in het centrum van Jablonové. De bronnen geven verschillende bouwdata: de gemeentelijke website noemt 1679, terwijl de erfgoedbeschrijving een oorspronkelijk renaissancekerk vermeldt die in 1561, 1669 en 1714 is gedocumenteerd en in 1894 door een nieuw gebouw werd vervangen. Aanvullend archiefonderzoek is nodig om deze bouwfasen te verzoenen. Het historische orgel werd in 1854 gebouwd door de Pressburgse meester Karol Klöckner en een jaar later in Jablonové geplaatst; in 2009–2010 werd het grondig gerestaureerd."
+        },
+        {
+          "id": "fact_003",
+          "title": "De cholera-begraafplaats herinnert aan drie verwoestende epidemieën in de 19e eeuw",
+          "text": "Buiten het dorp ligt een cholera-begraafplaats waar slachtoffers van drie epidemieën in massagraven werden begraven. De eerste uitbraak in 1831 duurde 73 dagen en eiste volgens de plaatselijke kroniek 148 levens. Een volgende epidemie in 1855 doodde 62 mensen en een derde in 1866 nog eens 104. Op de begraafplaats staat een gietijzeren kruis op een granieten voetstuk met een plaquette waarop de epidemiejaren zijn vermeld. Vlakbij ligt ook een Joodse begraafplaats, een herinnering aan de kleine Joodse gemeenschap die in de 19e eeuw in het dorp woonde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ján Galbavý verborg Ľudovít Štúr in de pastorie voor de Hongaarse autoriteiten",
+          "text": "De rooms-katholieke priester Ján Galbavý (1800–1884) werkte van 1838 tot 1884 in Jablonové en was een belangrijke Slowaakse nationale activist. Hij was een persoonlijke vriend van Ľudovít Štúr, nam deel aan de Štúr-beweging en was een van de oprichters van Matica slovenská. Toen de Hongaarse autoriteiten een arrestatiebevel tegen Štúr uitvaardigden, verborg Galbavý hem van 29 tot 30 mei 1848 in de pastorie. Een gedenkplaat op de pastorie herinnert aan deze gebeurtenis."
+        },
+        {
+          "id": "fact_005",
+          "title": "Schilder Ján Želibský – een belangrijke dorpsgenoot en rector van de kunstacademie in Bratislava",
+          "text": "Ján Želibský werd in 1907 in Jablonové geboren en werd een belangrijke Slowaakse schilder van de 20e eeuw. Na studies in Bratislava en aan de Academie voor Schone Kunsten in Praag volgde hij een studieperiode in Parijs. Van 1952 tot 1955 was hij rector van de Academie voor Schone Kunsten in Bratislava en hij bleef tot 1979 lesgeven. De gemeente verleende hem in 1988 het ereburgerschap. De exacte locatie van zijn geboortehuis is niet in de geraadpleegde bronnen vastgelegd; het kaartpunt is daarom slechts een oriëntatiepunt in het dorp."
+        },
+        {
+          "id": "fact_006",
+          "title": "De glasblazersnederzetting Rovina – een verdwenen dorp bij de glasoven onder Turecký vrch",
+          "text": "In de 17e eeuw ontstonden in de bossen boven Jablonové een glasoven en een nederzetting die bekendstond als Rovina, Roveň, Huty of Neudörfl. De eerste schriftelijke vermelding van de glasoven dateert uit 1652; archieven van het Pálffy-landgoed documenteren de nederzetting tussen 1670 en 1746. Er werden drinkglazen, kelken en vensterglas gemaakt voor bouwprojecten van de Pálffy's. De nederzetting had een houten Sint-Lucaskerk en een begraafplaats. Archeologisch onderzoek in 2003 vond resten van productie- en woongebouwen. De plek ligt nu in het militaire oefengebied Turecký vrch en is geen gewone openbare bezoekerslocatie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het bombardement op het vliegveld Kuchyňa trof in 1944 ook het grondgebied van Jablonové",
+          "text": "Op 20 september 1944 bombardeerden Amerikaanse vliegtuigen het militaire vliegveld bij Kuchyňa. Volgens de gemeentekroniek vielen 31 bommen binnen het grondgebied van Jablonové: elf dicht bij het dorp en twintig in het bos. De kraters waren ongeveer zes tot acht meter breed en drie tot vier meter diep. De plaatselijke geschiedenis meldt dat er bij deze aanval geen slachtoffers vielen en dat sommige kraters nog zichtbaar waren toen de kroniek werd bijgewerkt. Tijdens de bevrijdingsgevechten in april 1945 kwamen binnen het gemeentelijke grondgebied 18 Sovjetsoldaten om. De exacte locaties van de bomkraters zijn niet gegeorefereerd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Jablonové stond bekend om houtsnijwerk, beschilderde haarden en mandenmakerij",
+          "text": "Het traditionele leven in Jablonové steunde op landbouw, bosarbeid en huisnijverheid. Inwoners maakten houten huishoudgerei en wasgereedschap, weefden en vlochten manden. Ook volks-houtsnijwerk was ontwikkeld, waaronder gesneden en beschilderde meubels en religieuze beelden. Een bijzonder kenmerk van de volksarchitectuur waren beschilderde haarden: witte plantenornamenten werden met vingers en penselen op een groene achtergrond aangebracht en sterpatronen werden met aardappelstempels gemaakt. Deze technieken vormen een lokale uitdrukking van de volkskunst van Záhorie."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
