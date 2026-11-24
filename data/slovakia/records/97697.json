@@ -1,4 +1,582 @@
 {
   "postcode": "97697",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Nemecká",
+  "district": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Nemecká – centrum obce pri obecnom úrade, Hronská 37",
+  "representative_point": {
+    "lat": 48.8135722,
+    "lon": 19.4155389
+  },
+  "access_point": {
+    "lat": 48.8135722,
+    "lon": 19.4155389
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Nemecká a její tři historické sídelní části",
+      "text": "Nemecká leží v západní části Horehronského podolí na obou březích Hronu. První písemná zmínka o samotné Nemecké pochází z roku 1281; nejstarší doklad osídlení dnešního společného katastru se však vztahuje k faře v Dubové z let 1332–1337. Zámostie se objevuje v listině z roku 1424 a Nemecká jako sídlo až v listině z roku 1441. Dnešní obec tvoří tři místní části – Nemecká, Dubová a Zámostie. Nemecká a Dubová se spojily v roce 1960 a Zámostie se připojilo v roce 1975. Všechny tři původně samostatné vsi byly historicky spjaty s Ľupčianským panstvím.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.nemecka.info/obec-1/o-nas/",
+        "https://login.apsida.sk/c/2052/nemecka-dubova"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Čipkáři z Horehroní: podomní obchodníci s dlouhými cestami",
+      "text": "Nemecká, Dubová a Zámostie patřily mezi takzvané čipkárské vsi Zvolenské stolice. Od 18. do 20. století se zde mnoho mužů živilo podomním obchodem: nakupovali krajky od výrobců, zejména od žen z hornických oblastí středního Slovenska, a nabízeli je spolu s textilem, galanterií, železářským a dalším zbožím na trzích a jarmarcích. Jejich cesty nevedly jen po Slovensku, ale téměř po celém Uhersku a až na Balkán – do oblastí dnešního Chorvatska, Srbska, Rumunska a Bosny. Označení čipkári tedy neznamenalo pouze výrobce krajek, ale především svébytnou skupinu obchodníků, kteří propojovali horské vesnice se vzdálenými trhy.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.nemecka.info/obec-1/o-nas/",
+        "https://www.raztoka.sk/obec/historia-obce/"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel svatého Mikuláše v Dubové – pozdně gotické jádro",
+      "text": "V místní části Dubová stojí římskokatolický kostel svatého Mikuláše, jehož dnešní stavba má pozdně gotické jádro z počátku 16. století; některé starší soupisy kladou vznik již do 15. století. Farnost svatého Mikuláše nad Hronem je doložena už v papežských desátcích z let 1332–1337, takže na místě mohl stát starší chrám. Z původní gotické stavby se zachovalo polygonální presbyterium s původní síťovou žebrovou klenbou a opěrnými pilíři. Po propadnutí dřevěného stropu lodi byl kostel v letech 1810–1812 výrazně přestavěn, loď byla prodloužena a vznikla věž. Národní kulturní památkou je od roku 1963; rozsáhlá obnova proběhla v letech 1985–1987.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://login.apsida.sk/c/2052/nemecka-dubova",
+        "https://www.nemecka.info/obec-1/o-nas/"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel svatého Mikuláše, Dubová, Nemecká",
+        "address": "Dubová, 976 97 Nemecká, Slovensko",
+        "lat": 48.813984899,
+        "lon": 19.423230376,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://login.apsida.sk/c/2052/nemecka-dubova"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Rafinérie v Dubové a americký nálet 20. srpna 1944",
+      "text": "Státní rafinérie minerálních olejů v Dubové zahájila provoz v roce 1938 a později byla známá jako Petrochema Dubová. Před Slovenským národním povstáním se s ní počítalo jako se zdrojem pohonných hmot pro povstaleckou armádu. Dne 20. srpna 1944 na ni zaútočilo 76 amerických bombardérů B-24 Liberator z 15. letecké armády; během tří minut svrhly 177,75 tuny bomb. Podle dochovaného hlášení zahynulo osm lidí, z toho čtyři vojáci, a dalších třicet bylo zraněno. Závod byl poškozen z 50–60 procent a zničena byla mimo jiné destilace, elektrická rozvodna a pět nádrží. Nálet zůstává předmětem historické diskuse, protože československý exil žádal, aby rafinérie byla z výběru cílů vyňata – počítalo se s ní pro potřeby odboje.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.vhu.sk/70-vyrocie-leteckeho-naletu-na-dubovu/",
+        "https://www.nemecka.info/obec-1/o-nas/"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Pamätník Nemecká: místo masových vražd v lednu 1945",
+      "text": "Vápenná pec v Ráztocké dolině na rozhraní katastrů Nemecké a Ráztoky se v lednu 1945 stala místem jedné z největších nacistických masových vražd na Slovensku. Od 4. do 11. ledna zde příslušníci Einsatzkommanda 14 a Pohotovostních oddílů Hlinkovy gardy vraždili účastníky SNP, jejich blízké, pomocníky odboje i rasově pronásledované obyvatele, zejména Židy. Přesný počet obětí nelze určit, protože těla byla spalována a popel s ostatky odhazován do Hronu; odborné zdroje uvádějí odhady zhruba 450 až 900 osob. Dochovaná vápenka se stala součástí pietního areálu. Památník tvoří původní objekt pece, vysoký betonový symbol plamene a socha klečící ženy s rozpaženýma rukama. Expozici o nacistických represáliích spravuje Muzeum Slovenského národního povstání.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.museum.sk/kulturna-pamiatka-pamatnik-nemecka.html",
+        "https://www.pamiatkynaslovensku.sk/nemecka-pamatnik-a-pamatne-miesto-slovenskeho-narodneho-povstania-muzeum-a-vapenka",
+        "https://slovakia.travel/pamaetnik-snp-nemecka",
+        "https://horehronie.sk/pamatnik-snp-v-nemeckej"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamätník Nemecká – památný areál bývalé vápenky",
+        "address": "Ráztocká dolina, 976 97 Ráztoka, Slovensko",
+        "lat": 48.810178,
+        "lon": 19.40373,
+        "type": "memorial_site",
+        "accuracy": "exact",
+        "source": "https://horehronie.sk/pamatnik-snp-v-nemeckej"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Hradisko nad Nemeckou a Ráztokou: pravěké osídlení a středověké opevnění",
+      "text": "Na zalesněném výběžku Čierneho dielu v poloze Hradisko, přibližně v nadmořské výšce 785 metrů, se nachází významná archeologická lokalita. Nálezy keramiky lužické a kyjatické kultury a bronzových předmětů dokládají pravěké osídlení, zejména v době bronzové; odborná archeologická studie popisuje také soubor bronzových nálezů objevených při opakovaných návštěvách lokality v letech 1994–1996. V raném a vrcholném středověku zde stával menší dřevěný hrádek se strážní funkcí. Obec Ráztoka eviduje Hradisko jako národní kulturní památku – výšinné hradisko s osídlením z doby bronzové, mladší doby železné a středověku. Jde o archeologické místo v lesním terénu, nikoli o zachovaný hrad s běžně přístupnými zříceninami.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.nemecka.info/obec-1/o-nas/",
+        "https://www.raztoka.sk/obec/historia-obce/",
+        "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2009_1.pdf"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Ráztoka: valašská obec s kaplí a kostelem z 19. století",
+      "text": "Samostatná obec Ráztoka, která rovněž používá PSČ 976 97, se písemně připomíná od roku 1424 pod podobou Razthoka. V 15. století ji dosídlili Valaši; obyvatelé se věnovali chovu ovcí, zemědělství a později také podomnímu obchodu s krajkami a dřevěným nádobím. V roce 1828 měla ves 63 domů a 485 obyvatel. V obci stojí menší kostel Navštívení Panny Marie z roku 1840 a kaple Sedmibolestné Panny Marie z roku 1942, postavená na místě starší kaple, jejíž původ obecní historie klade do 14. století. Obecní znak vychází z pečeti z počátku 19. století a zobrazuje planě rostoucí třešeň na trojvrší, připomínku někdejší hojnosti třešní v okolí.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.raztoka.sk/obec/historia-obce/",
+        "https://www.raztoka.sk/kontakt/",
+        "https://mojafarnost.sk/kostoly/kaplnka-raztoka-navstivenia-panny-marie"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaplnka Navštívenia Panny Márie, Ráztoka",
+        "address": "Ráztoka, 976 97 Ráztoka, Slovensko",
+        "lat": 48.82003,
+        "lon": 19.40148,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://mojafarnost.sk/kostoly/kaplnka-raztoka-navstivenia-panny-marie"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Hydrocentrála Dubová – více než stoletá energetická stopa",
+      "text": "V místní části Dubová stojí malá vodní elektrárna známá jako Hydrocentrála Dubová. Obecní územní plán uvádí, že elektrárna byla uvedena do provozu v roce 1908 a je dodnes funkční; odborný podnikový přehled Železiarní Podbrezová upřesňuje, že její výstavba probíhala v letech 1902–1909. Zařízení je spojeno s energetickým zázemím průmyslového Horehroní a dnes je majetkem Železiarní Podbrezová. Územní plán potvrzuje její napojení na elektrickou síť a její polohu v katastru Nemecké; regulační dokument ÚRSO uvádí provozovnu HC Dubová na adrese Janka Kráľa 575 a instalovaný výkon 1,41 MW. Elektrárna je technickou připomínkou rané elektrifikace regionu, nikoli běžnou veřejnou turistickou expozicí.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.nemecka.info/modules/file_storage/download.php?file=63f649a4%7C266",
+        "https://www.podbrezovan.sk/tag/technika/",
+        "https://www.nemecka.info/modules/file_storage/download.php?file=63f649a4%7C266",
+        "https://data.urso.gov.sk/CISRES/Agenda.nsf/0/AF547D4664C11558C1257B63005C2BEB/%24FILE/2005E0110_03.pdf"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ; adresy obecného úradu Nemecká (Hronská 37, 976 97) a obecného úradu Ráztoka (Ráztoka 124, 976 97 Nemecká) potvrdzujú používanie PSČ v dvoch samostatných obciach. Ďalšie adresy v miestnych častiach Dubová a Zámostie s PSČ 976 97 uvádza oficiálna stránka obce Nemecká.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 976 97 je doložené pre obec Nemecká (vrátane miestnych častí Dubová a Zámostie) aj pre samostatnú obec Ráztoka. OMA zobrazuje PSČ ako oblasť obsahujúcu Nemeckú a Ráztoku; presný oficiálny polygon Slovenskej pošty nebol dostupný, preto sa netvrdí presná hranica doručovacieho obvodu. Súradnice obecného GPS bodu Nemeckej slúžia ako reprezentatívny bod, nie ako overený vstupný bod budovy úradu.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiálne údaje obcí Nemecká a Ráztoka pre názvy, adresy a administratívne zaradenie; oficiálne GPS koordináty obce Nemecká a mapové údaje OSM/OMA pre geografickú orientáciu."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Nemecká – O nás, história, miestne časti a regionálny vývoj",
+      "url": "https://www.nemecka.info/obec-1/o-nas/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Nemecká – kontaktná adresa obecného úradu",
+      "url": "https://www.nemecka.info/contact/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ráztoka – história obce",
+      "url": "https://www.raztoka.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ráztoka – oficiálna adresa obecného úradu",
+      "url": "https://www.raztoka.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Múzeum.sk – kultúrna pamiatka Pamätník Nemecká",
+      "url": "https://www.museum.sk/kulturna-pamiatka-pamatnik-nemecka.html",
+      "type": "museum"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Pamätník a pamätné miesto SNP v Nemeckej",
+      "url": "https://www.pamiatkynaslovensku.sk/nemecka-pamatnik-a-pamatne-miesto-slovenskeho-narodneho-povstania-muzeum-a-vapenka",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovakia.travel – Pamätník SNP Nemecká",
+      "url": "https://slovakia.travel/pamaetnik-snp-nemecka",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – Kostol sv. Mikuláša v Nemeckej-Dubovej",
+      "url": "https://login.apsida.sk/c/2052/nemecka-dubova",
+      "type": "specialist"
+    },
+    {
+      "title": "Vojenský historický ústav – 70. výročie leteckého náletu na Dubovú",
+      "url": "https://www.vhu.sk/70-vyrocie-leteckeho-naletu-na-dubovu/",
+      "type": "official"
+    },
+    {
+      "title": "Podbrezovan – Hydrocentrála Dubová, seriál o malých vodných elektrárňach",
+      "url": "https://www.podbrezovan.sk/tag/technika/",
+      "type": "news"
+    },
+    {
+      "title": "Územný plán obce Nemecká – návrh, technická infraštruktúra",
+      "url": "https://www.nemecka.info/modules/file_storage/download.php?file=63f649a4%7C266",
+      "type": "official"
+    },
+    {
+      "title": "Úrad pre reguláciu sieťových odvetví – technické údaje HC Dubová",
+      "url": "https://data.urso.gov.sk/CISRES/Agenda.nsf/0/AF547D4664C11558C1257B63005C2BEB/%24FILE/2005E0110_03.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská archeológia – odborná štúdia o lokalite Nemecká-Hradisko",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2009_1.pdf",
+      "type": "university"
+    },
+    {
+      "title": "MojaFarnosť – Kaplnka Navštívenia Panny Márie v Ráztoke, poloha",
+      "url": "https://mojafarnost.sk/kostoly/kaplnka-raztoka-navstivenia-panny-marie",
+      "type": "other"
+    },
+    {
+      "title": "Horehronie – Pamätník SNP v Nemeckej, poloha a expozícia",
+      "url": "https://horehronie.sk/pamatnik-snp-v-nemeckej",
+      "type": "regional"
+    },
+    {
+      "title": "OMA – mapové zobrazenie PSČ 976 97, Nemecká a Ráztoka",
+      "url": "https://www.oma.sk/?s=97697",
+      "type": "other"
+    },
+    {
+      "title": "Obec Nemecká – miestne prevádzky a adresy v Dubovej a Zámostí",
+      "url": "https://www.nemecka.info/zivot-v-obci/obchody-a-sluzby/obchody/",
+      "type": "official"
+    },
+    {
+      "title": "Oficiálna stránka obce Ráztoka – základné údaje a GPS",
+      "url": "https://www.raztoka.sk/obec/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Nemecká – centrum obce u obecního úřadu, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká a její tři historické sídelní části",
+          "text": "Nemecká leží v západní části Horehronského podolí na obou březích Hronu. První písemná zmínka o samotné Nemecké pochází z roku 1281; nejstarší doklad osídlení dnešního společného katastru se však vztahuje k faře v Dubové z let 1332–1337. Zámostie se objevuje v listině z roku 1424 a Nemecká jako sídlo až v listině z roku 1441. Dnešní obec tvoří tři místní části – Nemecká, Dubová a Zámostie. Nemecká a Dubová se spojily v roce 1960 a Zámostie se připojilo v roce 1975. Všechny tři původně samostatné vsi byly historicky spjaty s Ľupčianským panstvím."
+        },
+        {
+          "id": "fact_002",
+          "title": "Čipkáři z Horehroní: podomní obchodníci s dlouhými cestami",
+          "text": "Nemecká, Dubová a Zámostie patřily mezi takzvané čipkárské vsi Zvolenské stolice. Od 18. do 20. století se zde mnoho mužů živilo podomním obchodem: nakupovali krajky od výrobců, zejména od žen z hornických oblastí středního Slovenska, a nabízeli je spolu s textilem, galanterií, železářským a dalším zbožím na trzích a jarmarcích. Jejich cesty nevedly jen po Slovensku, ale téměř po celém Uhersku a až na Balkán – do oblastí dnešního Chorvatska, Srbska, Rumunska a Bosny. Označení čipkári tedy neznamenalo pouze výrobce krajek, ale především svébytnou skupinu obchodníků, kteří propojovali horské vesnice se vzdálenými trhy."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel svatého Mikuláše v Dubové – pozdně gotické jádro",
+          "text": "V místní části Dubová stojí římskokatolický kostel svatého Mikuláše, jehož dnešní stavba má pozdně gotické jádro z počátku 16. století; některé starší soupisy kladou vznik již do 15. století. Farnost svatého Mikuláše nad Hronem je doložena už v papežských desátcích z let 1332–1337, takže na místě mohl stát starší chrám. Z původní gotické stavby se zachovalo polygonální presbyterium s původní síťovou žebrovou klenbou a opěrnými pilíři. Po propadnutí dřevěného stropu lodi byl kostel v letech 1810–1812 výrazně přestavěn, loď byla prodloužena a vznikla věž. Národní kulturní památkou je od roku 1963; rozsáhlá obnova proběhla v letech 1985–1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "Rafinérie v Dubové a americký nálet 20. srpna 1944",
+          "text": "Státní rafinérie minerálních olejů v Dubové zahájila provoz v roce 1938 a později byla známá jako Petrochema Dubová. Před Slovenským národním povstáním se s ní počítalo jako se zdrojem pohonných hmot pro povstaleckou armádu. Dne 20. srpna 1944 na ni zaútočilo 76 amerických bombardérů B-24 Liberator z 15. letecké armády; během tří minut svrhly 177,75 tuny bomb. Podle dochovaného hlášení zahynulo osm lidí, z toho čtyři vojáci, a dalších třicet bylo zraněno. Závod byl poškozen z 50–60 procent a zničena byla mimo jiné destilace, elektrická rozvodna a pět nádrží. Nálet zůstává předmětem historické diskuse, protože československý exil žádal, aby rafinérie byla z výběru cílů vyňata – počítalo se s ní pro potřeby odboje."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pamätník Nemecká: místo masových vražd v lednu 1945",
+          "text": "Vápenná pec v Ráztocké dolině na rozhraní katastrů Nemecké a Ráztoky se v lednu 1945 stala místem jedné z největších nacistických masových vražd na Slovensku. Od 4. do 11. ledna zde příslušníci Einsatzkommanda 14 a Pohotovostních oddílů Hlinkovy gardy vraždili účastníky SNP, jejich blízké, pomocníky odboje i rasově pronásledované obyvatele, zejména Židy. Přesný počet obětí nelze určit, protože těla byla spalována a popel s ostatky odhazován do Hronu; odborné zdroje uvádějí odhady zhruba 450 až 900 osob. Dochovaná vápenka se stala součástí pietního areálu. Památník tvoří původní objekt pece, vysoký betonový symbol plamene a socha klečící ženy s rozpaženýma rukama. Expozici o nacistických represáliích spravuje Muzeum Slovenského národního povstání."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko nad Nemeckou a Ráztokou: pravěké osídlení a středověké opevnění",
+          "text": "Na zalesněném výběžku Čierneho dielu v poloze Hradisko, přibližně v nadmořské výšce 785 metrů, se nachází významná archeologická lokalita. Nálezy keramiky lužické a kyjatické kultury a bronzových předmětů dokládají pravěké osídlení, zejména v době bronzové; odborná archeologická studie popisuje také soubor bronzových nálezů objevených při opakovaných návštěvách lokality v letech 1994–1996. V raném a vrcholném středověku zde stával menší dřevěný hrádek se strážní funkcí. Obec Ráztoka eviduje Hradisko jako národní kulturní památku – výšinné hradisko s osídlením z doby bronzové, mladší doby železné a středověku. Jde o archeologické místo v lesním terénu, nikoli o zachovaný hrad s běžně přístupnými zříceninami."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: valašská obec s kaplí a kostelem z 19. století",
+          "text": "Samostatná obec Ráztoka, která rovněž používá PSČ 976 97, se písemně připomíná od roku 1424 pod podobou Razthoka. V 15. století ji dosídlili Valaši; obyvatelé se věnovali chovu ovcí, zemědělství a později také podomnímu obchodu s krajkami a dřevěným nádobím. V roce 1828 měla ves 63 domů a 485 obyvatel. V obci stojí menší kostel Navštívení Panny Marie z roku 1840 a kaple Sedmibolestné Panny Marie z roku 1942, postavená na místě starší kaple, jejíž původ obecní historie klade do 14. století. Obecní znak vychází z pečeti z počátku 19. století a zobrazuje planě rostoucí třešeň na trojvrší, připomínku někdejší hojnosti třešní v okolí."
+        },
+        {
+          "id": "fact_008",
+          "title": "Hydrocentrála Dubová – více než stoletá energetická stopa",
+          "text": "V místní části Dubová stojí malá vodní elektrárna známá jako Hydrocentrála Dubová. Obecní územní plán uvádí, že elektrárna byla uvedena do provozu v roce 1908 a je dodnes funkční; odborný podnikový přehled Železiarní Podbrezová upřesňuje, že její výstavba probíhala v letech 1902–1909. Zařízení je spojeno s energetickým zázemím průmyslového Horehroní a dnes je majetkem Železiarní Podbrezová. Územní plán potvrzuje její napojení na elektrickou síť a její polohu v katastru Nemecké; regulační dokument ÚRSO uvádí provozovnu HC Dubová na adrese Janka Kráľa 575 a instalovaný výkon 1,41 MW. Elektrárna je technickou připomínkou rané elektrifikace regionu, nikoli běžnou veřejnou turistickou expozicí."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Nemecká – Ortszentrum beim Gemeindeamt, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká und ihre drei historischen Ortsteile",
+          "text": "Nemecká liegt im westlichen Teil des Talkessels Horehronské podolie an beiden Ufern des Hron. Die erste schriftliche Erwähnung des Ortes Nemecká selbst stammt aus dem Jahr 1281; der älteste Beleg einer Siedlung im heutigen gemeinsamen Gemeindegebiet betrifft jedoch die Pfarrei in Dubová aus den Jahren 1332–1337. Zámostie wird in einer Urkunde von 1424 erwähnt, Nemecká als Siedlung erst in einer Urkunde von 1441. Die heutige Gemeinde besteht aus drei Ortsteilen: Nemecká, Dubová und Zámostie. Nemecká und Dubová wurden 1960 vereinigt, Zámostie kam 1975 hinzu. Alle drei ehemals selbstständigen Dörfer waren historisch mit der Herrschaft Ľupča verbunden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Čipkári aus Horehronie: Hausierer mit weiten Handelswegen",
+          "text": "Nemecká, Dubová und Zámostie gehörten zu den sogenannten Čipkár-Dörfern der Gespanschaft Zvolen. Vom 18. bis zum 20. Jahrhundert lebten viele Männer vom Hausierhandel: Sie kauften Spitzen von den Herstellerinnen, besonders von Frauen aus den Bergbaugebieten der Mittelslowakei, und verkauften sie zusammen mit Textilien, Kurzwaren, Eisenwaren und anderen Gütern auf Märkten und Jahrmärkten. Ihre Wege führten nicht nur durch die Slowakei, sondern fast durch das ganze Königreich Ungarn und bis auf den Balkan – in Gebiete des heutigen Kroatien, Serbien, Rumänien und Bosnien. Die Bezeichnung Čipkári meinte somit nicht nur Spitzenhersteller, sondern vor allem eine besondere Gruppe von Händlern, die Bergdörfer mit weit entfernten Märkten verbanden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Nikolauskirche in Dubová – ein spätgotischer Kern",
+          "text": "Im Ortsteil Dubová steht die römisch-katholische Nikolauskirche. Ihr heutiger Bau besitzt einen spätgotischen Kern aus dem frühen 16. Jahrhundert; einige ältere Inventare datieren den Ursprung bereits ins 15. Jahrhundert. Die Pfarrei des heiligen Nikolaus oberhalb des Hron ist schon in den päpstlichen Zehntlisten von 1332–1337 belegt, weshalb an dieser Stelle ein älterer Kirchenbau gestanden haben könnte. Vom gotischen Bau blieben das polygonale Presbyterium mit seinem ursprünglichen Netzrippengewölbe und die Strebepfeiler erhalten. Nachdem die Holzdecke des Langhauses eingestürzt war, wurde die Kirche 1810–1812 umfassend umgebaut, das Langhaus verlängert und ein Turm errichtet. Seit 1963 ist sie nationales Kulturdenkmal; eine umfassende Restaurierung erfolgte 1985–1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Raffinerie in Dubová und der US-Luftangriff vom 20. August 1944",
+          "text": "Die Staatliche Mineralölraffinerie in Dubová nahm 1938 den Betrieb auf und war später als Petrochema Dubová bekannt. Vor dem Slowakischen Nationalaufstand war sie als Treibstoffquelle für die Aufständischen vorgesehen. Am 20. August 1944 griffen 76 amerikanische B-24-Liberator-Bomber der 15. Luftflotte die Anlage an und warfen innerhalb von drei Minuten 177,75 Tonnen Bomben ab. Laut erhaltenem Bericht starben acht Menschen, darunter vier Soldaten; weitere dreißig wurden verletzt. Die Anlage wurde zu 50–60 Prozent beschädigt, unter anderem Destillationsanlagen, ein Umspannwerk und fünf Tanks wurden zerstört. Der Angriff wird historisch weiterhin diskutiert, da die tschechoslowakische Exilregierung darum gebeten hatte, die Raffinerie von der Zielliste zu nehmen – sie war für die Versorgung des Widerstands vorgesehen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gedenkstätte Nemecká: Ort der Massenmorde im Januar 1945",
+          "text": "Der Kalkofen im Ráztoka-Tal an der Grenze der Gemeindegebiete von Nemecká und Ráztoka wurde im Januar 1945 zum Schauplatz eines der größten NS-Massenverbrechen in der Slowakei. Vom 4. bis 11. Januar ermordeten Angehörige des Einsatzkommandos 14 und der Bereitschaftseinheiten der Hlinka-Garde dort Teilnehmer des SNP, ihre Angehörigen, Unterstützer des Widerstands und rassistisch verfolgte Menschen, vor allem Juden. Die genaue Opferzahl lässt sich nicht feststellen, da die Leichen verbrannt und Asche sowie Überreste in den Hron geworfen wurden; Fachquellen nennen Schätzungen von etwa 450 bis 900 Menschen. Der erhaltene Kalkofen ist Teil einer Gedenkstätte. Sie umfasst das ursprüngliche Ofengebäude, ein hohes Betonsymbol der Flamme und die Skulptur einer knienden Frau mit ausgebreiteten Armen. Die Ausstellung über NS-Repressionen wird vom Museum des Slowakischen Nationalaufstands verwaltet."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko oberhalb von Nemecká und Ráztoka: vorgeschichtliche Siedlung und mittelalterliche Befestigung",
+          "text": "Auf einem bewaldeten Ausläufer des Čierny diel in der Lage Hradisko, etwa 785 Meter über dem Meer, befindet sich eine bedeutende archäologische Fundstätte. Keramikfunde der Lausitzer und Kyjatice-Kultur sowie Bronzegegenstände belegen eine vorgeschichtliche Besiedlung, besonders in der Bronzezeit. Eine archäologische Fachstudie beschreibt außerdem eine Gruppe von Bronzefunden, die bei wiederholten Besuchen des Fundortes zwischen 1994 und 1996 entdeckt wurden. Im frühen und hohen Mittelalter stand hier eine kleine hölzerne Burg mit Wachfunktion. Die Gemeinde Ráztoka führt Hradisko als nationales Kulturdenkmal – eine Höhenburganlage mit Besiedlung in der Bronzezeit, der jüngeren Eisenzeit und im Mittelalter. Es handelt sich um eine archäologische Stätte im Wald, nicht um eine erhaltene Burg mit frei zugänglichen Ruinen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: ein walachisches Dorf mit Kirche und Kapelle aus dem 19. Jahrhundert",
+          "text": "Die selbstständige Gemeinde Ráztoka, die ebenfalls die Postleitzahl 976 97 verwendet, ist seit 1424 schriftlich belegt; damals erscheint die Form Razthoka. Im 15. Jahrhundert wurde der Ort von Walachen besiedelt. Die Einwohner betrieben Schafzucht und Landwirtschaft und später auch Hausierhandel mit Spitzen und Holzgeschirr. 1828 zählte das Dorf 63 Häuser und 485 Einwohner. Im Ort stehen eine kleine Kirche Mariä Heimsuchung aus dem Jahr 1840 und eine Kapelle der Sieben Schmerzen Mariens von 1942, die an der Stelle einer älteren Kapelle errichtet wurde, deren Ursprung die Gemeindegeschichte ins 14. Jahrhundert setzt. Das Gemeindewappen geht auf ein Siegel vom Beginn des 19. Jahrhunderts zurück und zeigt einen wild wachsenden Kirschbaum auf drei Hügeln – eine Erinnerung an die einst zahlreichen Kirschbäume in der Umgebung."
+        },
+        {
+          "id": "fact_008",
+          "title": "Das Wasserkraftwerk Dubová – ein über hundertjähriges Energiezeugnis",
+          "text": "Im Ortsteil Dubová befindet sich das kleine Wasserkraftwerk Hydrocentrála Dubová. Der Flächennutzungsplan der Gemeinde nennt 1908 als Inbetriebnahmejahr und bestätigt, dass das Kraftwerk bis heute funktioniert; ein Fachbericht des Unternehmens Železiarne Podbrezová präzisiert, dass der Bau zwischen 1902 und 1909 erfolgte. Die Anlage gehört zur Energiegeschichte des industriellen Horehronie und ist heute Eigentum der Železiarne Podbrezová. Der Flächennutzungsplan bestätigt ihren Anschluss an das Stromnetz und ihre Lage im Gemeindegebiet von Nemecká; die Regulierungsbehörde ÚRSO führt den Betrieb HC Dubová unter der Adresse Janka Kráľa 575 mit einer installierten Leistung von 1,41 MW. Das Kraftwerk ist ein technisches Zeugnis der frühen Elektrifizierung der Region, aber keine gewöhnliche öffentliche Touristenattraktion."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Nemecká – village centre by the municipal office, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká and its three historic localities",
+          "text": "Nemecká lies in the western part of the Horehronie basin, on both banks of the Hron. The first written reference to Nemecká itself dates to 1281; however, the oldest record of settlement within today’s combined municipal territory concerns the parish in Dubová in 1332–1337. Zámostie appears in a document from 1424, while Nemecká as a settlement is first mentioned in a 1441 document. Today the municipality consists of three localities: Nemecká, Dubová and Zámostie. Nemecká and Dubová merged in 1960, and Zámostie joined in 1975. All three formerly independent villages were historically connected with the Ľupča estate."
+        },
+        {
+          "id": "fact_002",
+          "title": "The lace traders of Horehronie: itinerant merchants with long routes",
+          "text": "Nemecká, Dubová and Zámostie belonged to the so-called lace-trading villages of Zvolen County. From the 18th to the 20th century, many local men made their living as itinerant merchants: they bought lace from its makers, especially women in the mining districts of central Slovakia, and sold it alongside textiles, haberdashery, iron goods and other merchandise at markets and fairs. Their routes extended beyond Slovakia across much of the Kingdom of Hungary and as far as the Balkans, including areas of present-day Croatia, Serbia, Romania and Bosnia. The term čipkári therefore described not only lace producers but, above all, a distinctive group of traders who connected mountain villages with distant markets."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of Saint Nicholas in Dubová – a late Gothic core",
+          "text": "The Roman Catholic Church of Saint Nicholas stands in the Dubová locality. Its present structure has a late Gothic core dating to the early 16th century, although some older inventories place its origins in the 15th century. The parish of Saint Nicholas above the Hron is documented in papal tithe records from 1332–1337, suggesting that an earlier church may have stood here. The polygonal sanctuary with its original net rib vault and the external buttresses survive from the Gothic building. After the wooden ceiling of the nave collapsed, the church was substantially rebuilt in 1810–1812, when the nave was extended and a tower added. It has been a national cultural monument since 1963; major restoration took place in 1985–1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Dubová refinery and the American air raid of 20 August 1944",
+          "text": "The State Mineral Oil Refinery in Dubová began operating in 1938 and later became known as Petrochema Dubová. Before the Slovak National Uprising, it was expected to supply fuel to the resistance forces. On 20 August 1944, 76 American B-24 Liberator bombers of the Fifteenth Air Force attacked the plant, dropping 177.75 tonnes of bombs in three minutes. According to a surviving report, eight people were killed, including four soldiers, and another thirty were wounded. The refinery sustained 50–60 per cent damage; among the destroyed facilities were distillation equipment, an electrical substation and five storage tanks. The raid remains a subject of historical debate because the Czechoslovak government-in-exile had asked the Allies to remove the refinery from the target list, as it was intended to support the resistance."
+        },
+        {
+          "id": "fact_005",
+          "title": "Nemecká Memorial: site of the mass killings in January 1945",
+          "text": "The lime kiln in the Ráztoka valley, on the boundary between the cadastral territories of Nemecká and Ráztoka, became the site of one of the largest Nazi mass murders in Slovakia in January 1945. From 4 to 11 January, members of Einsatzkommando 14 and the Hlinka Guard emergency units murdered participants in the Slovak National Uprising, their relatives, resistance supporters and people persecuted on racial grounds, especially Jews. The exact number of victims cannot be established because the bodies were burned and ashes and remains were thrown into the Hron; specialist sources estimate roughly 450 to 900 victims. The surviving kiln forms part of a memorial site. The complex includes the original kiln, a tall concrete flame symbol and a sculpture of a kneeling woman with outstretched arms. The exhibition on Nazi repression is administered by the Museum of the Slovak National Uprising."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko above Nemecká and Ráztoka: prehistoric settlement and medieval fortification",
+          "text": "On a wooded spur of Čierny diel, at the site known as Hradisko and about 785 metres above sea level, lies an important archaeological site. Pottery from the Lusatian and Kyjatice cultures and bronze objects demonstrate prehistoric settlement, particularly during the Bronze Age. An archaeological study also describes a group of bronze finds discovered during repeated visits to the site between 1994 and 1996. In the early and high Middle Ages, a small wooden stronghold with a watch function stood here. The municipality of Ráztoka lists Hradisko as a national cultural monument: a hillfort with settlement phases in the Bronze Age, the later Iron Age and the Middle Ages. It is an archaeological site in woodland, not a preserved castle with accessible ruins."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: a Wallachian village with a 19th-century church and chapel",
+          "text": "The independent municipality of Ráztoka, which also uses postcode 976 97, is documented from 1424, when its name appeared as Razthoka. Wallachian settlers arrived in the 15th century. Residents raised sheep and farmed, and later also traded door to door in lace and wooden household wares. In 1828 the village had 63 houses and 485 inhabitants. It has a small Church of the Visitation of the Virgin Mary, built in 1840, and a Chapel of Our Lady of Sorrows from 1942, erected on the site of an older chapel that local history dates to the 14th century. The municipal coat of arms derives from an early 19th-century seal and depicts a wild cherry tree on three hills, recalling the former abundance of cherry trees in the area."
+        },
+        {
+          "id": "fact_008",
+          "title": "Dubová hydroelectric station – more than a century of energy heritage",
+          "text": "The Dubová locality is home to a small hydroelectric plant known as Hydrocentrála Dubová. The municipal land-use plan gives 1908 as the year it entered service and states that it remains operational; a specialist company history published by Železiarne Podbrezová specifies that construction took place between 1902 and 1909. The facility is part of the industrial energy history of Horehronie and is now owned by Železiarne Podbrezová. The land-use plan confirms its connection to the electricity grid and its location in the Nemecká cadastral area; the regulatory authority ÚRSO lists HC Dubová at Janka Kráľa 575 with an installed capacity of 1.41 MW. The plant is a technical reminder of the region’s early electrification, not a regular public visitor attraction."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Nemecká – centro de la localidad junto al ayuntamiento, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká y sus tres núcleos históricos",
+          "text": "Nemecká se encuentra en la parte occidental de la depresión de Horehronie, a ambas orillas del río Hron. La primera mención escrita de Nemecká como localidad data de 1281; sin embargo, el documento más antiguo sobre un asentamiento dentro del actual territorio municipal conjunto se refiere a la parroquia de Dubová en 1332–1337. Zámostie aparece en un documento de 1424 y Nemecká como asentamiento en otro de 1441. Hoy el municipio comprende tres núcleos: Nemecká, Dubová y Zámostie. Nemecká y Dubová se unieron en 1960 y Zámostie se incorporó en 1975. Los tres pueblos, antiguamente independientes, estuvieron históricamente vinculados al señorío de Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Los comerciantes de encajes de Horehronie: vendedores ambulantes de largas rutas",
+          "text": "Nemecká, Dubová y Zámostie formaban parte de las llamadas aldeas de comerciantes de encajes del antiguo condado de Zvolen. Entre los siglos XVIII y XX, muchos hombres se ganaban la vida con el comercio ambulante: compraban encajes a sus productoras, especialmente a mujeres de las zonas mineras de Eslovaquia central, y los vendían junto con textiles, mercería, artículos de hierro y otras mercancías en mercados y ferias. Sus rutas no se limitaban a Eslovaquia, sino que recorrían gran parte del Reino de Hungría y llegaban hasta los Balcanes, en territorios de las actuales Croacia, Serbia, Rumanía y Bosnia. El término čipkári no designaba solo a los fabricantes de encajes, sino sobre todo a un grupo singular de comerciantes que conectaba los pueblos de montaña con mercados lejanos."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de San Nicolás en Dubová: un núcleo gótico tardío",
+          "text": "En el núcleo de Dubová se encuentra la iglesia católica romana de San Nicolás. Su edificio actual conserva un núcleo gótico tardío de comienzos del siglo XVI, aunque algunos inventarios antiguos sitúan su origen en el siglo XV. La parroquia de San Nicolás sobre el Hron ya aparece en los registros de diezmos papales de 1332–1337, por lo que pudo existir aquí un templo anterior. De la construcción gótica se conservan el presbiterio poligonal con su bóveda original de nervaduras en red y los contrafuertes exteriores. Tras el hundimiento del techo de madera de la nave, la iglesia fue reconstruida profundamente entre 1810 y 1812: se amplió la nave y se levantó una torre. Es monumento cultural nacional desde 1963 y fue restaurada ampliamente entre 1985 y 1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "La refinería de Dubová y el bombardeo estadounidense del 20 de agosto de 1944",
+          "text": "La Refinería Estatal de Aceites Minerales de Dubová comenzó a funcionar en 1938 y más tarde fue conocida como Petrochema Dubová. Antes del Levantamiento Nacional Eslovaco se esperaba que suministrara combustible a las fuerzas de la resistencia. El 20 de agosto de 1944, 76 bombarderos estadounidenses B-24 Liberator de la Decimoquinta Fuerza Aérea atacaron la planta y arrojaron 177,75 toneladas de bombas en tres minutos. Según un informe conservado, murieron ocho personas, cuatro de ellas soldados, y otras treinta resultaron heridas. La instalación sufrió daños del 50–60 %; quedaron destruidos, entre otros elementos, equipos de destilación, una subestación eléctrica y cinco depósitos. El ataque sigue siendo objeto de debate histórico porque el gobierno checoslovaco en el exilio había pedido a los Aliados que retiraran la refinería de la lista de objetivos, ya que se contaba con ella para abastecer a la resistencia."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monumento de Nemecká: lugar de las matanzas masivas de enero de 1945",
+          "text": "El horno de cal del valle de Ráztoka, en el límite de los términos catastrales de Nemecká y Ráztoka, fue escenario en enero de 1945 de una de las mayores matanzas nazis de Eslovaquia. Del 4 al 11 de enero, miembros del Einsatzkommando 14 y de las unidades de emergencia de la Guardia de Hlinka asesinaron allí a participantes del Levantamiento Nacional Eslovaco, sus familiares, colaboradores de la resistencia y personas perseguidas por motivos raciales, sobre todo judíos. No se puede establecer el número exacto de víctimas porque los cuerpos fueron quemados y las cenizas y restos arrojados al Hron; las fuentes especializadas estiman entre unas 450 y 900 personas. El horno conservado forma parte de un recinto conmemorativo que incluye la estructura original, un alto símbolo de hormigón en forma de llama y una escultura de una mujer arrodillada con los brazos extendidos. La exposición sobre la represión nazi está gestionada por el Museo del Levantamiento Nacional Eslovaco."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko sobre Nemecká y Ráztoka: asentamiento prehistórico y fortificación medieval",
+          "text": "En un espolón boscoso de Čierny diel, en el lugar llamado Hradisko y a unos 785 metros de altitud, se encuentra un importante yacimiento arqueológico. Los hallazgos de cerámica de las culturas lusaciana y kyjatice, junto con objetos de bronce, demuestran la ocupación prehistórica, especialmente durante la Edad del Bronce. Un estudio arqueológico describe además un conjunto de bronces descubierto durante varias visitas al lugar entre 1994 y 1996. En la Alta y Plena Edad Media hubo aquí una pequeña fortificación de madera con función de vigilancia. El municipio de Ráztoka registra Hradisko como monumento cultural nacional: un asentamiento fortificado en altura ocupado en la Edad del Bronce, la Edad del Hierro tardía y la Edad Media. Es un yacimiento arqueológico en zona boscosa, no un castillo conservado con ruinas visitables."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: pueblo valaco con iglesia y capilla del siglo XIX",
+          "text": "El municipio independiente de Ráztoka, que también utiliza el código postal 976 97, está documentado desde 1424, cuando aparece con la forma Razthoka. En el siglo XV llegaron colonos valacos. Sus habitantes criaban ovejas y cultivaban la tierra; más tarde también comerciaban de puerta en puerta con encajes y utensilios de madera. En 1828 el pueblo tenía 63 casas y 485 habitantes. Allí se encuentra una pequeña iglesia de la Visitación de la Virgen María, construida en 1840, y una capilla de Nuestra Señora de los Dolores de 1942, levantada en el lugar de una capilla anterior cuyo origen la historia local sitúa en el siglo XIV. El escudo municipal procede de un sello de comienzos del siglo XIX y representa un cerezo silvestre sobre tres colinas, recuerdo de la antigua abundancia de cerezos en los alrededores."
+        },
+        {
+          "id": "fact_008",
+          "title": "Central hidroeléctrica de Dubová: más de un siglo de historia energética",
+          "text": "En el núcleo de Dubová se encuentra una pequeña central hidroeléctrica conocida como Hydrocentrála Dubová. El plan urbanístico municipal indica que entró en funcionamiento en 1908 y que sigue operativa; una historia técnica publicada por Železiarne Podbrezová precisa que su construcción se desarrolló entre 1902 y 1909. La instalación forma parte de la historia energética del Horehronie industrial y hoy pertenece a Železiarne Podbrezová. El plan urbanístico confirma su conexión a la red eléctrica y su ubicación en el término de Nemecká; el regulador ÚRSO registra la instalación HC Dubová en Janka Kráľa 575 con una potencia instalada de 1,41 MW. Es un testimonio técnico de la electrificación temprana de la región, no una atracción turística abierta habitualmente al público."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Nemecká – centre du village près de la mairie, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká et ses trois localités historiques",
+          "text": "Nemecká se trouve dans la partie occidentale du bassin de Horehronie, sur les deux rives du Hron. La première mention écrite de Nemecká elle-même date de 1281 ; toutefois, le plus ancien document relatif à un habitat dans le territoire communal actuel concerne la paroisse de Dubová en 1332–1337. Zámostie apparaît dans un acte de 1424 et Nemecká comme village dans un acte de 1441. La commune actuelle comprend trois localités : Nemecká, Dubová et Zámostie. Nemecká et Dubová ont fusionné en 1960, puis Zámostie les a rejointes en 1975. Ces trois villages autrefois indépendants étaient historiquement liés au domaine de Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les marchands de dentelle de Horehronie : des colporteurs aux longues routes",
+          "text": "Nemecká, Dubová et Zámostie faisaient partie des villages de marchands de dentelle du comitat de Zvolen. Du XVIIIe au XXe siècle, de nombreux hommes vivaient du colportage : ils achetaient la dentelle aux productrices, notamment aux femmes des régions minières du centre de la Slovaquie, puis la vendaient avec des textiles, de la mercerie, des articles de fer et d’autres marchandises sur les marchés et les foires. Leurs itinéraires dépassaient largement la Slovaquie et traversaient presque tout le royaume de Hongrie, jusqu’aux Balkans, dans les régions des actuelles Croatie, Serbie, Roumanie et Bosnie. Le terme čipkári ne désignait donc pas seulement les fabricants de dentelle, mais surtout un groupe particulier de commerçants reliant les villages de montagne à des marchés lointains."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Nicolas de Dubová : un noyau gothique tardif",
+          "text": "Dans le quartier de Dubová se trouve l’église catholique romaine Saint-Nicolas. Son édifice actuel conserve un noyau gothique tardif du début du XVIe siècle, même si certains anciens inventaires situent ses origines au XVe siècle. La paroisse Saint-Nicolas au-dessus du Hron figure déjà dans les registres des dîmes pontificales de 1332–1337, ce qui laisse penser qu’un sanctuaire plus ancien a pu exister ici. Le presbytère polygonal avec sa voûte réticulée d’origine et les contreforts extérieurs subsistent de l’édifice gothique. Après l’effondrement du plafond en bois de la nef, l’église a été profondément remaniée en 1810–1812 : la nef a été allongée et une tour construite. Elle est monument culturel national depuis 1963 et a fait l’objet d’une restauration majeure en 1985–1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "La raffinerie de Dubová et le raid aérien américain du 20 août 1944",
+          "text": "La raffinerie d’État d’huiles minérales de Dubová a commencé à fonctionner en 1938 et a ensuite été connue sous le nom de Petrochema Dubová. Avant le Soulèvement national slovaque, elle devait fournir du carburant aux forces de la résistance. Le 20 août 1944, 76 bombardiers américains B-24 Liberator de la 15e armée aérienne ont attaqué l’usine et largué 177,75 tonnes de bombes en trois minutes. Selon un rapport conservé, huit personnes ont été tuées, dont quatre soldats, et trente autres blessées. L’usine a subi 50 à 60 % de dégâts ; les installations de distillation, un poste électrique et cinq réservoirs ont notamment été détruits. Le raid reste un sujet de débat historique, car le gouvernement tchécoslovaque en exil avait demandé aux Alliés de retirer la raffinerie de la liste des cibles, puisqu’elle devait servir au ravitaillement de la résistance."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le mémorial de Nemecká : lieu des massacres de janvier 1945",
+          "text": "Le four à chaux de la vallée de Ráztoka, à la limite des territoires cadastraux de Nemecká et de Ráztoka, a été en janvier 1945 le théâtre de l’un des plus grands massacres nazis en Slovaquie. Du 4 au 11 janvier, des membres de l’Einsatzkommando 14 et des unités d’intervention de la Garde Hlinka y ont assassiné des participants au Soulèvement national slovaque, leurs proches, des soutiens de la résistance et des personnes persécutées pour des raisons raciales, notamment des Juifs. Le nombre exact de victimes est impossible à établir, car les corps ont été brûlés et les cendres ainsi que les restes jetés dans le Hron ; les sources spécialisées estiment le nombre à environ 450–900 personnes. Le four conservé fait partie d’un ensemble mémoriel comprenant le bâtiment d’origine, un haut symbole de flamme en béton et une sculpture de femme agenouillée, les bras ouverts. L’exposition sur les répressions nazies est gérée par le Musée du Soulèvement national slovaque."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko au-dessus de Nemecká et de Ráztoka : habitat préhistorique et fortification médiévale",
+          "text": "Sur un éperon boisé du Čierny diel, au lieu-dit Hradisko et à environ 785 mètres d’altitude, se trouve un site archéologique important. Des céramiques des cultures lusacienne et kyjatice ainsi que des objets en bronze témoignent d’une occupation préhistorique, surtout à l’âge du bronze. Une étude archéologique décrit également un ensemble de bronzes découverts lors de visites répétées du site entre 1994 et 1996. Au début et au haut Moyen Âge, une petite fortification en bois à fonction de surveillance se dressait ici. La commune de Ráztoka classe Hradisko comme monument culturel national : un habitat fortifié en hauteur occupé à l’âge du bronze, au second âge du fer et au Moyen Âge. Il s’agit d’un site archéologique en forêt, et non d’un château conservé avec des ruines accessibles."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka : un village valaque avec une église et une chapelle du XIXe siècle",
+          "text": "La commune indépendante de Ráztoka, qui utilise également le code postal 976 97, est attestée depuis 1424 sous la forme Razthoka. Des colons valaques s’y sont installés au XVe siècle. Les habitants élevaient des moutons et pratiquaient l’agriculture, puis aussi le colportage de dentelles et d’ustensiles en bois. En 1828, le village comptait 63 maisons et 485 habitants. On y trouve une petite église de la Visitation de la Vierge Marie, construite en 1840, et une chapelle Notre-Dame-des-Sept-Douleurs de 1942, édifiée à l’emplacement d’une ancienne chapelle dont l’histoire locale situe l’origine au XIVe siècle. Les armoiries communales proviennent d’un sceau du début du XIXe siècle et représentent un cerisier sauvage sur trois collines, souvenir de l’abondance passée des cerisiers dans les environs."
+        },
+        {
+          "id": "fact_008",
+          "title": "La centrale hydroélectrique de Dubová : plus d’un siècle d’histoire énergétique",
+          "text": "Le quartier de Dubová abrite une petite centrale hydroélectrique appelée Hydrocentrála Dubová. Le plan d’urbanisme communal indique sa mise en service en 1908 et précise qu’elle fonctionne encore ; une histoire technique publiée par Železiarne Podbrezová indique que sa construction s’est déroulée entre 1902 et 1909. L’installation fait partie de l’histoire énergétique du Horehronie industriel et appartient aujourd’hui à Železiarne Podbrezová. Le plan d’urbanisme confirme son raccordement au réseau électrique et sa situation dans le territoire cadastral de Nemecká ; le régulateur ÚRSO répertorie l’installation HC Dubová à Janka Kráľa 575 avec une puissance installée de 1,41 MW. La centrale témoigne techniquement de l’électrification précoce de la région, mais ne constitue pas une attraction touristique habituellement ouverte au public."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Nemecká – centro del paese presso il municipio, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká e le sue tre località storiche",
+          "text": "Nemecká si trova nella parte occidentale della conca di Horehronie, su entrambe le rive del fiume Hron. La prima menzione scritta di Nemecká stessa risale al 1281; il documento più antico relativo a un insediamento nell’attuale territorio comunale unificato riguarda però la parrocchia di Dubová negli anni 1332–1337. Zámostie compare in un documento del 1424 e Nemecká come insediamento in un atto del 1441. Oggi il comune comprende tre località: Nemecká, Dubová e Zámostie. Nemecká e Dubová si unirono nel 1960 e Zámostie fu aggregata nel 1975. Tutti e tre i villaggi, un tempo indipendenti, erano storicamente legati alla signoria di Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "I commercianti di merletti di Horehronie: venditori ambulanti dalle lunghe rotte",
+          "text": "Nemecká, Dubová e Zámostie facevano parte dei cosiddetti villaggi dei commercianti di merletti della contea di Zvolen. Dal XVIII al XX secolo molti uomini vivevano del commercio ambulante: acquistavano merletti dalle produttrici, soprattutto dalle donne delle zone minerarie della Slovacchia centrale, e li vendevano insieme a tessuti, merceria, ferramenta e altre merci nei mercati e nelle fiere. I loro itinerari non si limitavano alla Slovacchia, ma attraversavano gran parte del Regno d’Ungheria e arrivavano fino ai Balcani, nelle aree delle odierne Croazia, Serbia, Romania e Bosnia. Il termine čipkári non indicava quindi soltanto i produttori di merletti, ma soprattutto un gruppo particolare di commercianti che collegava i villaggi montani a mercati lontani."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Nicola a Dubová: un nucleo tardogotico",
+          "text": "Nella località di Dubová sorge la chiesa cattolica romana di San Nicola. L’edificio attuale conserva un nucleo tardogotico dei primi del XVI secolo, anche se alcuni inventari più antichi ne collocano le origini nel XV secolo. La parrocchia di San Nicola sopra l’Hron è documentata già nei registri delle decime pontificie del 1332–1337, quindi in questo luogo potrebbe essere esistito un tempio precedente. Della costruzione gotica si sono conservati il presbiterio poligonale con l’originaria volta a rete di costoloni e i contrafforti esterni. Dopo il crollo del soffitto ligneo della navata, la chiesa fu profondamente ricostruita nel 1810–1812: la navata venne allungata e fu aggiunta una torre. È monumento culturale nazionale dal 1963; un importante restauro si svolse tra il 1985 e il 1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "La raffineria di Dubová e il bombardamento americano del 20 agosto 1944",
+          "text": "La Raffineria statale di oli minerali di Dubová entrò in funzione nel 1938 e in seguito fu conosciuta come Petrochema Dubová. Prima dell’Insurrezione nazionale slovacca era prevista come fonte di carburante per le forze della resistenza. Il 20 agosto 1944, 76 bombardieri americani B-24 Liberator della Quindicesima Air Force attaccarono l’impianto, sganciando 177,75 tonnellate di bombe in tre minuti. Secondo un rapporto conservato, morirono otto persone, quattro delle quali soldati, e altre trenta rimasero ferite. L’impianto subì danni per il 50–60 per cento; furono distrutti, tra l’altro, gli impianti di distillazione, una sottostazione elettrica e cinque serbatoi. Il raid resta oggetto di dibattito storico perché il governo cecoslovacco in esilio aveva chiesto agli Alleati di togliere la raffineria dall’elenco dei bersagli, dato che era destinata a rifornire la resistenza."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il memoriale di Nemecká: luogo dei massacri del gennaio 1945",
+          "text": "La fornace da calce nella valle di Ráztoka, al confine tra i territori catastali di Nemecká e Ráztoka, fu nel gennaio 1945 teatro di uno dei più grandi massacri nazisti in Slovacchia. Dal 4 all’11 gennaio, membri dell’Einsatzkommando 14 e delle unità di emergenza della Guardia di Hlinka vi uccisero partecipanti all’Insurrezione nazionale slovacca, i loro familiari, sostenitori della resistenza e persone perseguitate per motivi razziali, soprattutto ebrei. Il numero esatto delle vittime non può essere stabilito perché i corpi furono bruciati e le ceneri e i resti gettati nell’Hron; le fonti specialistiche stimano circa 450–900 persone. La fornace conservata fa parte di un complesso commemorativo che comprende l’edificio originale, un alto simbolo di fiamma in cemento e una scultura di donna inginocchiata con le braccia aperte. L’esposizione sulle repressioni naziste è gestita dal Museo dell’Insurrezione nazionale slovacca."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko sopra Nemecká e Ráztoka: insediamento preistorico e fortificazione medievale",
+          "text": "Su uno sperone boscoso del Čierny diel, nella località Hradisko e a circa 785 metri di quota, si trova un importante sito archeologico. Reperti ceramici delle culture lusaziana e kyjatice e oggetti in bronzo testimoniano un’occupazione preistorica, soprattutto nell’età del Bronzo. Uno studio archeologico descrive anche un insieme di bronzi scoperti durante visite ripetute al sito tra il 1994 e il 1996. Nell’alto Medioevo qui sorgeva una piccola fortificazione lignea con funzione di avvistamento. Il comune di Ráztoka registra Hradisko come monumento culturale nazionale: un insediamento fortificato in altura abitato nell’età del Bronzo, nella tarda età del Ferro e nel Medioevo. Si tratta di un sito archeologico nel bosco, non di un castello conservato con rovine accessibili."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: villaggio valacco con chiesa e cappella del XIX secolo",
+          "text": "Il comune indipendente di Ráztoka, che utilizza anch’esso il codice postale 976 97, è documentato dal 1424 con la forma Razthoka. Nel XV secolo vi si insediarono i Valacchi. Gli abitanti allevavano pecore e praticavano l’agricoltura, poi anche il commercio ambulante di merletti e utensili di legno. Nel 1828 il villaggio contava 63 case e 485 abitanti. Vi si trova una piccola chiesa della Visitazione della Vergine Maria, costruita nel 1840, e una cappella della Madonna Addolorata del 1942, eretta sul sito di una cappella più antica che la storia locale fa risalire al XIV secolo. Lo stemma comunale deriva da un sigillo dei primi dell’Ottocento e raffigura un ciliegio selvatico su tre colline, ricordo dell’antica abbondanza di ciliegi nei dintorni."
+        },
+        {
+          "id": "fact_008",
+          "title": "La centrale idroelettrica di Dubová: oltre un secolo di storia energetica",
+          "text": "Nella località di Dubová si trova una piccola centrale idroelettrica nota come Hydrocentrála Dubová. Il piano urbanistico comunale indica il 1908 come anno di entrata in funzione e conferma che l’impianto è tuttora operativo; una storia tecnica pubblicata da Železiarne Podbrezová precisa che la costruzione avvenne tra il 1902 e il 1909. L’impianto fa parte della storia energetica dell’Horehronie industriale e oggi appartiene a Železiarne Podbrezová. Il piano urbanistico ne conferma il collegamento alla rete elettrica e la posizione nel territorio catastale di Nemecká; l’autorità di regolazione ÚRSO registra l’impianto HC Dubová all’indirizzo Janka Kráľa 575 con una potenza installata di 1,41 MW. È una testimonianza tecnica della precoce elettrificazione della regione, non una normale attrazione turistica aperta al pubblico."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Nemecká – dorpscentrum bij het gemeentehuis, Hronská 37",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Nemecká en zijn drie historische kernen",
+          "text": "Nemecká ligt in het westelijke deel van het Horehronie-bekken, aan beide oevers van de Hron. De eerste schriftelijke vermelding van Nemecká zelf dateert uit 1281; het oudste document over bewoning binnen het huidige samengevoegde gemeentelijke grondgebied betreft echter de parochie in Dubová uit 1332–1337. Zámostie wordt genoemd in een document uit 1424 en Nemecká als nederzetting in een akte uit 1441. De huidige gemeente bestaat uit drie kernen: Nemecká, Dubová en Zámostie. Nemecká en Dubová werden in 1960 samengevoegd; Zámostie volgde in 1975. Alle drie de dorpen waren vroeger zelfstandig en waren historisch verbonden met het landgoed Ľupča."
+        },
+        {
+          "id": "fact_002",
+          "title": "De kantelhandelaren van Horehronie: marskramers met lange handelsroutes",
+          "text": "Nemecká, Dubová en Zámostie behoorden tot de zogenaamde kantelhandelaren-dorpen van het voormalige comitaat Zvolen. Van de 18e tot de 20e eeuw verdienden veel mannen hun brood met rondtrekkende handel: zij kochten kantwerk van de maaksters, vooral vrouwen uit de mijnbouwgebieden van Midden-Slowakije, en verkochten dit samen met textiel, fournituren, ijzerwaren en andere goederen op markten en jaarmarkten. Hun routes bleven niet beperkt tot Slowakije, maar liepen door vrijwel het hele Koninkrijk Hongarije en reikten tot de Balkan, in gebieden van het huidige Kroatië, Servië, Roemenië en Bosnië. De term čipkári verwees dus niet alleen naar kantmakers, maar vooral naar een bijzondere groep handelaren die bergdorpen met verre markten verbond."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Nicolaaskerk in Dubová – een laatgotische kern",
+          "text": "In de wijk Dubová staat de rooms-katholieke Sint-Nicolaaskerk. Het huidige gebouw heeft een laatgotische kern uit het begin van de 16e eeuw, hoewel sommige oudere inventarissen de oorsprong in de 15e eeuw plaatsen. De parochie van Sint-Nicolaas boven de Hron wordt al vermeld in pauselijke tiendenregisters uit 1332–1337, zodat hier mogelijk een oudere kerk heeft gestaan. Van het gotische gebouw zijn het veelhoekige priesterkoor met het oorspronkelijke netvormige ribgewelf en de steunberen bewaard gebleven. Nadat het houten plafond van het schip was ingestort, werd de kerk in 1810–1812 grondig verbouwd: het schip werd verlengd en er kwam een toren bij. Sinds 1963 is de kerk een nationaal cultureel monument; een grote restauratie vond plaats in 1985–1987."
+        },
+        {
+          "id": "fact_004",
+          "title": "De raffinaderij van Dubová en de Amerikaanse luchtaanval van 20 augustus 1944",
+          "text": "De Staatsraffinaderij voor minerale oliën in Dubová begon in 1938 en werd later bekend als Petrochema Dubová. Voor de Slowaakse Nationale Opstand was de raffinaderij bedoeld als brandstofbron voor de verzetsstrijders. Op 20 augustus 1944 vielen 76 Amerikaanse B-24 Liberator-bommenwerpers van de Fifteenth Air Force de fabriek aan; in drie minuten wierpen zij 177,75 ton bommen af. Volgens een bewaard gebleven rapport kwamen acht mensen om, onder wie vier militairen, en raakten dertig anderen gewond. De fabriek liep 50–60 procent schade op; onder meer distillatie-installaties, een elektriciteitsstation en vijf opslagtanks werden vernietigd. De aanval blijft onderwerp van historisch debat, omdat de Tsjechoslowaakse regering in ballingschap de geallieerden had gevraagd de raffinaderij van de doelenlijst te halen: de installatie was bestemd om het verzet te bevoorraden."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het monument van Nemecká: plaats van de massamoorden in januari 1945",
+          "text": "De kalkoven in het dal van Ráztoka, op de grens van de kadastrale gebieden Nemecká en Ráztoka, werd in januari 1945 het toneel van een van de grootste nazi-massamoorden in Slowakije. Van 4 tot 11 januari vermoordden leden van Einsatzkommando 14 en de noodtroepen van de Hlinka-garde hier deelnemers aan de Slowaakse Nationale Opstand, hun familieleden, verzetshelpers en mensen die op raciale gronden werden vervolgd, vooral Joden. Het exacte aantal slachtoffers kan niet worden vastgesteld, omdat de lichamen werden verbrand en as en resten in de Hron werden gegooid; gespecialiseerde bronnen schatten het aantal op ongeveer 450 tot 900 personen. De bewaard gebleven kalkoven maakt deel uit van een herdenkingscomplex met het oorspronkelijke gebouw, een hoog betonnen vlamsymbool en een beeld van een knielende vrouw met gespreide armen. De tentoonstelling over de nazi-repressie wordt beheerd door het Museum van de Slowaakse Nationale Opstand."
+        },
+        {
+          "id": "fact_006",
+          "title": "Hradisko boven Nemecká en Ráztoka: prehistorische bewoning en middeleeuwse versterking",
+          "text": "Op een beboste uitloper van de Čierny diel, bij de plek Hradisko en op ongeveer 785 meter hoogte, ligt een belangrijke archeologische vindplaats. Aardewerk van de Lausitz- en Kyjaticecultuur en bronzen voorwerpen tonen prehistorische bewoning aan, vooral in de bronstijd. Een archeologische studie beschrijft ook een groep bronzen vondsten die tijdens herhaalde bezoeken aan de vindplaats tussen 1994 en 1996 werd ontdekt. In de vroege en hoge middeleeuwen stond hier een kleine houten versterking met een wachttaak. De gemeente Ráztoka registreert Hradisko als nationaal cultureel monument: een hooggelegen versterkte nederzetting met bewoning in de bronstijd, de latere ijzertijd en de middeleeuwen. Het is een archeologische plek in het bos, geen bewaard kasteel met toegankelijke ruïnes."
+        },
+        {
+          "id": "fact_007",
+          "title": "Ráztoka: een Walachijs dorp met een 19e-eeuwse kerk en kapel",
+          "text": "De zelfstandige gemeente Ráztoka, die eveneens postcode 976 97 gebruikt, wordt sinds 1424 schriftelijk vermeld onder de naam Razthoka. In de 15e eeuw vestigden zich hier Walachijse kolonisten. De inwoners hielden schapen en bewerkten het land; later dreven zij ook huis-aan-huis handel in kantwerk en houten gebruiksvoorwerpen. In 1828 telde het dorp 63 huizen en 485 inwoners. Er staat een kleine kerk van Maria Visitatie uit 1840 en een kapel van Onze-Lieve-Vrouw van Smarten uit 1942, gebouwd op de plek van een oudere kapel die volgens de lokale geschiedenis uit de 14e eeuw dateerde. Het gemeentewapen is gebaseerd op een zegel uit het begin van de 19e eeuw en toont een wilde kersenboom op drie heuvels, een herinnering aan de vroegere overvloed aan kersenbomen in de omgeving."
+        },
+        {
+          "id": "fact_008",
+          "title": "Waterkrachtcentrale Dubová – meer dan een eeuw energiegeschiedenis",
+          "text": "In de wijk Dubová staat een kleine waterkrachtcentrale die bekendstaat als Hydrocentrála Dubová. Het gemeentelijke bestemmingsplan noemt 1908 als het jaar waarin de centrale in gebruik werd genomen en bevestigt dat zij nog steeds werkt; een technische geschiedenis van Železiarne Podbrezová vermeldt dat de bouw tussen 1902 en 1909 plaatsvond. De installatie maakt deel uit van de industriële energiegeschiedenis van Horehronie en is tegenwoordig eigendom van Železiarne Podbrezová. Het bestemmingsplan bevestigt de aansluiting op het elektriciteitsnet en de ligging binnen het kadastrale gebied Nemecká; de toezichthouder ÚRSO vermeldt HC Dubová op Janka Kráľa 575 met een geïnstalleerd vermogen van 1,41 MW. De centrale is een technisch overblijfsel van de vroege elektrificatie van de regio, geen gewone toeristische attractie die voor publiek is geopend."
+        }
+      ]
+    }
+  }
 }
