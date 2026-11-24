@@ -2,13 +2,28 @@
 
 ## Version and authority
 
-**REWORK PROMPT V1.7 — EFFICIENT CONTINUOUS QUEUE WORKFLOW**
+**REWORK PROMPT V1.8 — CZECH-ALIGNED SAFE I/O AND CONTINUOUS QUEUE WORKFLOW**
 
 Use this prompt with the current:
 - `data/germany/schema.json`
 - `data/germany/CONTENT_STANDARD.md`
 
 The schema defines structure and permitted values. The German Content Standard is authoritative for content, geography, research, sources, translations and quality. This prompt defines the efficient workflow. If they conflict, follow the schema and Content Standard and record the conflict; do not silently change either.
+
+## Production storage and safe Supabase I/O — mandatory
+
+The current production source of truth for German records is the prepared Supabase table `public.postal_codes`, filtered by `country_code = 'DE'`. The repository holds the German schema, Content Standard, prompts and canonical sequence. Do not switch storage or split production records across Supabase, Neon and GitHub during ordinary rework; a migration requires a separate explicit project decision.
+
+1. Query only the exact target postcode(s), always filtering both `country_code = 'DE'` and the exact `postal_code` value(s). Never read all countries or the entire table.
+2. Do not run whole-table counts, unfiltered scans, broad status/version inventories or full-table pagination for a postcode rework.
+3. Load shared documents and the canonical sequence once per work session; reuse them unless a version changes or a concrete conflict appears.
+4. Work in small batches. Avoid large parallel requests and perform database writes sequentially.
+5. Fetch the exact row before editing. Preserve its row identity, unrelated metadata and existing `data_version` exactly. Do not increment, reset or otherwise change `data_version` during ordinary rework.
+6. Validate the complete content payload against `data/germany/schema.json` locally before saving.
+7. Perform one targeted write, then one targeted read-back. If a write times out or returns an ambiguous error, check whether it persisted before retrying; never blindly repeat a write.
+8. On HTTP 429 or equivalent rate limiting, stop requests to that service immediately. Respect `Retry-After`; otherwise wait approximately 2, 4, 8, 16 and 32 seconds in exponential backoff. Do not issue parallel retries. After five failed attempts, mark the affected check as rate-limited and preserve the last confirmed state.
+9. Do not compare Supabase with Neon or another database unless the user explicitly requests a specific diagnostic.
+10. A rework is complete only after the exact saved row has been read back and the content and status have been confirmed.
 
 ## 1. Purpose, scope and protected boundaries
 
@@ -171,6 +186,10 @@ For facts about regional culture, naming a tradition or translating its name lit
 The explanation should let readers picture what they would see, hear or experience. Keep it engaging and proportionate; do not add generic folklore background unrelated to the specific fact.
 
 Before saving, compare the seven texts side by side for meaning, completeness, naturalness and cultural clarity. Correct safe translation issues in one batch and validate the seven versions together. Do not repeat the entire language review unless a later change affects meaning.
+
+### Evergreen rule for recurring traditions and events
+
+TRAVEL is an evergreen geographic reference, not a current-events calendar. Do not add current programmes, future event dates, current-year editions, temporary offers or other time-sensitive details. A documented recurring annual tradition may be included when it has genuine local significance, but describe it timelessly as an established annual/recurring tradition without a specific year, date or edition number. Fixed historical dates and years remain valid when they are relevant to the past event.
 
 ## 6. Basic validation, save and completion
 
