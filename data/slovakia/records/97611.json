@@ -13,6 +13,28 @@
   "access_point": null,
   "facts": [
     {
+      "id": "fact_006",
+      "title": "Kalište – vypálená osada a pietní místo SNP",
+      "text": "Kalište, někdejší horská osada v Nízkých Tatrách, se během Slovenského národního povstání stalo centrem takzvané Partizánské republiky. Dne 18. března 1945 byla osada vypálena a život se v ní už nikdy neobnovil; patří k výjimečným slovenským sídlům, která po válečném zničení nebyla znovu osídlena. V areálu se dochovaly základy shořelých domů a zvonička, dva obytné domy byly obnoveny a dnes v nich Múzeum SNP zpřístupňuje expozici Partizánska republika. Naučný chodník přibližuje každodenní život původních obyvatel i tragédii posledních válečných dnů. Kalište je národní kulturní památkou a pietním místem přístupným například z Balážů či Donovalů.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://muzeumsnp.sk/expozicia/narodna-kulturna-pamiatka-kaliste/",
+        "https://www.balaze.sk/obec/zakladne-informacie/",
+        "https://poi.oma.sk/n794749342"
+      ],
+      "location": {
+        "name": "Kalište – národní kulturní památka a pietní areál SNP",
+        "address": "Kalište, 976 11 Baláže, Slovensko",
+        "lat": 48.8367912,
+        "lon": 19.2177678,
+        "type": "memorial_site",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n794749342"
+      },
+      "map_category": "historical_monument"
+    },
+    {
       "id": "fact_001",
       "title": "Gotický farní kostel a proměna jeho zasvěcení",
       "text": "Farní kostel v Selcích patří k nejstarším sakrálním stavbám okolí Banské Bystrice. Odborný stavebněhistorický popis klade jeho vznik do první čtvrtiny 14. století; obecní a církevní materiály uvádějí starší tradici letopočtu 1222, kterou proto nelze považovat za bezpečně prokázané přesné datum výstavby. Kostel byl v pozdním středověku upravován a kolem roku 1470 získal pozdně gotický portál, roku 1516 byla přistavěna jižní kaple. Původně byl zasvěcen Všem svatým. Dne 31. května 1863, při cyrilometodějských oslavách, byl zasvěcen sv. Cyrilu a Metodějovi; oltářní obraz těchto světců tehdy požehnal biskup Štefan Moyses za účasti přibližně tří tisíc lidí.",
@@ -205,12 +227,32 @@
       "title": "Okresný úrad Banská Bystrica – odborný podklad k archeologickým lokalitám a územnému plánovaniu obce Selce",
       "url": "https://www.selce.sk/e_download.php?file=data%2Furedni_deska%2Fobsah645_1.pdf&original=20250305091039.pdf",
       "type": "official"
+    },
+    {
+      "title": "Národná kultúrna pamiatka Kalište – Múzeum SNP",
+      "url": "https://muzeumsnp.sk/expozicia/narodna-kulturna-pamiatka-kaliste/",
+      "type": "museum"
+    },
+    {
+      "title": "Obec Baláže – základné informácie a PSČ",
+      "url": "https://www.balaze.sk/obec/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "title": "Kalište – mapový bod",
+      "url": "https://poi.oma.sk/n794749342",
+      "type": "other"
     }
   ],
   "translations": {
     "cs": {
       "representative_place": "Historické jádro obce Selce u farního kostela sv. Cyrila a Metoděje",
       "facts": [
+        {
+          "id": "fact_006",
+          "title": "Kalište – vypálená osada a pietní místo SNP",
+          "text": "Kalište, někdejší horská osada v Nízkých Tatrách, se během Slovenského národního povstání stalo centrem takzvané Partizánské republiky. Dne 18. března 1945 byla osada vypálena a život se v ní už nikdy neobnovil; patří k výjimečným slovenským sídlům, která po válečném zničení nebyla znovu osídlena. V areálu se dochovaly základy shořelých domů a zvonička, dva obytné domy byly obnoveny a dnes v nich Múzeum SNP zpřístupňuje expozici Partizánska republika. Naučný chodník přibližuje každodenní život původních obyvatel i tragédii posledních válečných dnů. Kalište je národní kulturní památkou a pietním místem přístupným například z Balážů či Donovalů."
+        },
         {
           "id": "fact_001",
           "title": "Gotický farní kostel a proměna jeho zasvěcení",
@@ -242,6 +284,11 @@
       "representative_place": "Historischer Ortskern von Selce bei der Pfarrkirche St. Kyrill und Method",
       "facts": [
         {
+          "id": "fact_006",
+          "title": "Kalište – niedergebrannter Ort und Gedenkstätte des Aufstands",
+          "text": "Kalište, eine ehemalige Bergsiedlung in der Niederen Tatra, wurde während des Slowakischen Nationalaufstands zum Zentrum der sogenannten Partisanenrepublik. Am 18. März 1945 wurde die Siedlung niedergebrannt; das Leben kehrte nie zurück. Sie gehört zu den wenigen slowakischen Orten, die nach ihrer Zerstörung im Krieg nicht wiederbesiedelt wurden. Im Gelände sind die Fundamente verbrannter Häuser und ein kleiner Glockenturm erhalten; zwei Wohnhäuser wurden wiederhergestellt und beherbergen heute die Ausstellung Partizánska republika des Museums des Slowakischen Nationalaufstands. Ein Lehrpfad vermittelt den Alltag der früheren Bewohner und die Tragödie der letzten Kriegstage. Kalište ist ein nationales Kulturdenkmal und eine Gedenkstätte, die unter anderem von Baláže und Donovaly aus erreichbar ist."
+        },
+        {
           "id": "fact_001",
           "title": "Gotische Pfarrkirche und Wandel ihres Patroziniums",
           "text": "Die Pfarrkirche von Selce gehört zu den ältesten Sakralbauten in der Umgebung von Banská Bystrica. Die bauhistorische Fachbeschreibung datiert ihre Entstehung in das erste Viertel des 14. Jahrhunderts; kommunale und kirchliche Unterlagen nennen eine ältere Überlieferung des Jahres 1222, die daher nicht als sicher belegtes genaues Baudatum gelten kann. Im Spätmittelalter wurde die Kirche umgestaltet: Um 1470 erhielt sie ein spätgotisches Portal, 1516 wurde die südliche Kapelle angebaut. Ursprünglich war sie Allerheiligen geweiht. Am 31. Mai 1863, während der Kyrill-und-Method-Feiern, wurde sie den Heiligen Kyrill und Method geweiht; das Altarbild der beiden Heiligen segnete damals Bischof Štefan Moyses im Beisein von etwa dreitausend Menschen."
@@ -271,6 +318,11 @@
     "en": {
       "representative_place": "The historic centre of Selce near the Parish Church of Saints Cyril and Methodius",
       "facts": [
+        {
+          "id": "fact_006",
+          "title": "Kalište – a burned settlement and memorial site of the uprising",
+          "text": "Kalište, a former mountain settlement in the Low Tatras, became the centre of the so-called Partisan Republic during the Slovak National Uprising. On 18 March 1945 the settlement was burned down, and life was never re-established there. It is among the exceptional Slovak settlements that were not resettled after wartime destruction. The site preserves the foundations of burned houses and a small bell tower; two houses have been restored and now host the Slovak National Uprising Museum exhibition Partizánska republika. An educational trail explains the everyday life of the former inhabitants and the tragedy of the final days of the war. Kalište is a national cultural monument and memorial site, accessible for example from Baláže or Donovaly."
+        },
         {
           "id": "fact_001",
           "title": "The Gothic parish church and its change of dedication",
@@ -302,6 +354,11 @@
       "representative_place": "El centro histórico de Selce, junto a la iglesia parroquial de San Cirilo y San Metodio",
       "facts": [
         {
+          "id": "fact_006",
+          "title": "Kalište: asentamiento incendiado y lugar conmemorativo del levantamiento",
+          "text": "Kalište, antiguo asentamiento de montaña en los Bajos Tatras, se convirtió durante el Levantamiento Nacional Eslovaco en el centro de la llamada República Partisana. El 18 de marzo de 1945 el asentamiento fue incendiado y la vida nunca volvió a restablecerse allí. Es uno de los excepcionales núcleos eslovacos que no fueron repoblados después de su destrucción durante la guerra. En el recinto se conservan los cimientos de las casas quemadas y un pequeño campanario; dos viviendas fueron restauradas y hoy albergan la exposición Partizánska republika del Museo del Levantamiento Nacional Eslovaco. Un sendero educativo explica la vida cotidiana de los antiguos habitantes y la tragedia de los últimos días de la guerra. Kalište es monumento cultural nacional y lugar de memoria, accesible, por ejemplo, desde Baláže o Donovaly."
+        },
+        {
           "id": "fact_001",
           "title": "La iglesia parroquial gótica y el cambio de su advocación",
           "text": "La iglesia parroquial de Selce es uno de los edificios religiosos más antiguos de los alrededores de Banská Bystrica. Los estudios especializados de historia de la arquitectura sitúan su origen en el primer cuarto del siglo XIV; documentos municipales y eclesiásticos conservan también la tradición de una fecha anterior, 1222, que no debe considerarse una fecha exacta de construcción demostrada. La iglesia fue modificada a finales de la Edad Media: hacia 1470 recibió un portal gótico tardío y en 1516 se añadió una capilla meridional. Originalmente estaba dedicada a Todos los Santos. El 31 de mayo de 1863, durante las celebraciones de Cirilo y Metodio, fue dedicada a estos santos; el obispo Štefan Moyses bendijo entonces su retablo en presencia de unas tres mil personas."
@@ -331,6 +388,11 @@
     "fr": {
       "representative_place": "Le centre historique de Selce, près de l’église paroissiale Saints-Cyrille-et-Méthode",
       "facts": [
+        {
+          "id": "fact_006",
+          "title": "Kalište, village incendié et lieu de mémoire du soulèvement",
+          "text": "Kalište, ancien hameau de montagne des Basses Tatras, devint le centre de la « République des partisans » pendant le Soulèvement national slovaque. Le 18 mars 1945, le hameau fut incendié et la vie n’y reprit jamais. Il fait partie des rares localités slovaques qui ne furent pas repeuplées après leur destruction pendant la guerre. On y voit encore les fondations des maisons brûlées et un petit clocher ; deux maisons ont été restaurées et accueillent aujourd’hui l’exposition Partizánska republika du Musée du Soulèvement national slovaque. Un sentier pédagogique présente la vie quotidienne des anciens habitants et la tragédie des derniers jours de la guerre. Kalište est un monument culturel national et un lieu de mémoire accessible notamment depuis Baláže ou Donovaly."
+        },
         {
           "id": "fact_001",
           "title": "L’église paroissiale gothique et le changement de son vocable",
@@ -362,6 +424,11 @@
       "representative_place": "Il centro storico di Selce presso la chiesa parrocchiale dei Santi Cirillo e Metodio",
       "facts": [
         {
+          "id": "fact_006",
+          "title": "Kalište, villaggio incendiato e luogo della memoria dell’insurrezione",
+          "text": "Kalište, antico insediamento montano nei Bassi Tatra, divenne il centro della cosiddetta Repubblica partigiana durante l’Insurrezione nazionale slovacca. Il 18 marzo 1945 l’insediamento fu incendiato e la vita non vi fu mai più ripristinata. È uno degli eccezionali villaggi slovacchi che non furono ripopolati dopo la distruzione bellica. Nell’area si conservano le fondamenta delle case bruciate e un piccolo campanile; due abitazioni sono state restaurate e oggi ospitano l’esposizione Partizánska republika del Museo dell’Insurrezione nazionale slovacca. Un percorso didattico racconta la vita quotidiana degli abitanti e la tragedia degli ultimi giorni di guerra. Kalište è un monumento culturale nazionale e un luogo della memoria, raggiungibile ad esempio da Baláže o Donovaly."
+        },
+        {
           "id": "fact_001",
           "title": "La chiesa parrocchiale gotica e il cambiamento della sua dedicazione",
           "text": "La chiesa parrocchiale di Selce è tra gli edifici sacri più antichi dei dintorni di Banská Bystrica. Gli studi specialistici di storia dell’architettura ne collocano la costruzione nel primo quarto del XIV secolo; documenti comunali ed ecclesiastici conservano anche una tradizione più antica, riferita al 1222, che non può essere considerata una data di costruzione esatta e dimostrata. La chiesa fu modificata nel tardo Medioevo: intorno al 1470 ricevette un portale tardogotico e nel 1516 fu aggiunta la cappella meridionale. In origine era dedicata a Tutti i Santi. Il 31 maggio 1863, durante le celebrazioni dedicate a Cirillo e Metodio, fu consacrata a questi santi; il vescovo Štefan Moyses benedisse allora la pala d’altare in loro onore davanti a circa tremila persone."
@@ -391,6 +458,11 @@
     "nl": {
       "representative_place": "Het historische dorpscentrum van Selce bij de parochiekerk van de heiligen Cyrillus en Methodius",
       "facts": [
+        {
+          "id": "fact_006",
+          "title": "Kalište – een platgebrand dorp en herdenkingsplaats van de opstand",
+          "text": "Kalište, een voormalige bergnederzetting in de Lage Tatra, werd tijdens de Slowaakse Nationale Opstand het centrum van de zogenoemde Partizanenrepubliek. Op 18 maart 1945 werd de nederzetting platgebrand; het leven is er nooit teruggekeerd. Het is een van de uitzonderlijke Slowaakse nederzettingen die na de verwoesting in de oorlog niet opnieuw werden bewoond. Op het terrein zijn de fundamenten van verbrande huizen en een kleine klokkentoren bewaard gebleven; twee huizen zijn gerestaureerd en herbergen nu de tentoonstelling Partizánska republika van het Museum van de Slowaakse Nationale Opstand. Een educatief wandelpad vertelt over het dagelijks leven van de vroegere bewoners en de tragedie van de laatste oorlogsdagen. Kalište is een nationaal cultuurmonument en herdenkingsplaats, bereikbaar onder meer vanuit Baláže of Donovaly."
+        },
         {
           "id": "fact_001",
           "title": "De gotische parochiekerk en de verandering van haar patroonheiligen",
