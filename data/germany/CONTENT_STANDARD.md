@@ -19,6 +19,28 @@ The standard is the quality contract for TRAVEL.
 
 ---
 
+## 1A. Production storage and safe database operation
+
+The German production records currently live in the prepared Supabase table `public.postal_codes`, isolated by `country_code = 'DE'`. The repository contains the governing schema, standards, prompts and canonical sequence. The JSON Schema validates the German content payload; it does not mean that the complete Supabase row has the same root structure.
+
+This storage contract remains in force until a separately approved migration changes the production source of truth. Do not silently split one country between Supabase, Neon and GitHub, and do not compare or synchronize databases automatically.
+
+### Mandatory Supabase I/O safeguards
+
+1. **Exact scope only.** Every German data query must filter `country_code = 'DE'` and the exact requested `postal_code` value(s). Never scan all countries, all postcodes, or all status/version groups for an ordinary postcode task.
+2. **No full-table inventory for a local task.** Do not run unfiltered `SELECT *`, whole-table counts, broad grouping, or pagination through the entire table to answer a block-level question.
+3. **Small batches.** Work in small, explicitly bounded batches. Avoid large parallel reads and never perform concurrent writes to the same record.
+4. **Read before write.** Fetch the exact target row and inspect its current status, `data_version`, content and unrelated metadata before changing it. Preserve unrelated fields.
+5. **Validate before saving.** Validate the complete German content payload against `data/germany/schema.json` locally before the database write.
+6. **One write, one read-back.** Save only the intended row, then read that exact row once and verify the persisted postcode, content, status, version and required fields. If a write times out or returns an ambiguous error, check whether it persisted before retrying.
+7. **Respect rate limits.** On HTTP 429 or an equivalent rate-limit response, stop requests to the affected service immediately. Respect `Retry-After`; otherwise use exponential waits of approximately 2, 4, 8, 16 and 32 seconds. Do not send parallel retries. After five failed attempts, mark the affected check as rate-limited and preserve the last confirmed state.
+8. **No automatic database comparison.** Do not compare Supabase with Neon or another database unless the user explicitly requests a defined diagnostic or migration check.
+9. **No false completion.** A timeout, rate limit or missing response is not proof of success. Completion requires a confirmed read-back.
+
+These rules protect database I/O; they do not reduce research depth, source quality, geographic verification, translation requirements or schema validation.
+
+---
+
 ## 2. Core philosophy
 
 TRAVEL is not a database that tries to fill every postcode with the same amount of text.
@@ -893,6 +915,17 @@ The list is deliberately broad. Include only specific, meaningful and geographic
 - Do not treat ordinary event listings as permanent attractions. A recurring tradition or historically significant event may qualify when its local importance is documented.
 - Do not represent a route as a point fact where its location cannot be accurately represented under the existing schema.
 - Contextual mention remains possible when genuinely relevant to another supported fact.
+
+### 29.3A Evergreen wording for recurring traditions and events
+
+TRAVEL is a permanent geographic and cultural reference, not a calendar of current events.
+
+- Do not include current or time-sensitive event information, future dates, current programmes, annual schedules, temporary offers or this year's edition details.
+- A genuinely recurring annual tradition, festival, procession, market, seasonal custom or community event may be included when it has documented local or cultural significance.
+- Describe such an event as an established recurring tradition, using timeless wording such as “an annual tradition” or “a recurring local festival”.
+- Do not state a specific upcoming date, current year, edition number, current programme or temporary operating detail.
+- Historical dates and years are allowed when they describe a fixed past event or a historically meaningful milestone.
+- Do not invent annual recurrence: verify that the event is genuinely recurring and that the tradition itself is locally significant.
 
 ### 29.4 Mandatory two-pass research
 **Pass 1 — broad discovery:** establish the exact postcode area under existing geographic rules; search official tourism, heritage, museum, nature, municipal, regional and specialist sources; use postcode, municipality, locality, historic names, local districts, landscape and landmark names, and relevant German-language terms; discover defining attractions and stories without relying only on the old record or first general results; record candidate locations and evidence.
