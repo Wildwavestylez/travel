@@ -1,4 +1,571 @@
 {
   "postcode": "90045",
-  "status": "placeholder"
+  "city": "Malinovo",
+  "district": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Malinovo – historické jadro pri kaštieli a parku",
+  "representative_point": {
+    "lat": 48.15322,
+    "lon": 17.29672
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Od vodního hradu k Apponyiovskému zámku",
+      "text": "Malinovský zámek stojí na místě středověké pevnosti, která chránila přechod přes Malý Dunaj na Žitný ostrov. Pevnost se třemi věžemi a vodním příkopem byla spojena se svato-jurským panstvím. V 17. století ji arcibiskup Juraj Szelepcsényi přestavěl na zámek a v jeho východním křídle nechal roku 1677 zřídit pozdně renesanční kapli. V 19. století získal objekt při přestavbě pro rodinu Apponyiů klasicistní podobu.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.malinovo.sk/obec/historia/",
+        "https://www.pamiatkynaslovensku.sk/malinovo"
+      ],
+      "map_category": "castle",
+      "location": {
+        "name": "Kaštieľ Malinovo (Eberhard)",
+        "lat": 48.153107,
+        "lon": 17.297463,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/malinovo",
+        "address": "Bratislavská 118, 900 45 Malinovo, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Anglický park s více než 200 druhy dřevin",
+      "text": "Zámek obklopuje anglický krajinářský park, jehož založení se klade pravděpodobně na začátek 18. století. Rostou v něm platany, duby, akáty, dřezovce a další domácí i cizokrajné dřeviny. Obec uvádí, že na dnešní ploše necelých pěti hektarů se nachází více než 200 druhů dřevin. Park se měnil po válkách i po roce 1923, kdy se zámecký areál stal sídlem zahradnické školy.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.pamiatkynaslovensku.sk/malinovo-park-pri-kastieli",
+        "https://www.malinovo.sk/obec/historia/"
+      ],
+      "map_category": "park_garden",
+      "location": {
+        "name": "Park pri kaštieli v Malinove",
+        "lat": 48.153544,
+        "lon": 17.297382,
+        "type": "park",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/malinovo-park-pri-kastieli",
+        "address": "Bratislavská 118, 900 45 Malinovo, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel svatého Jiří – původně rodinná krypta Apponyiovců",
+      "text": "Neogotický kostel svatého Jiří vznikl v letech 1869 až 1872 jako pohřební kaple a krypta rodiny Apponyiů. Jsou v ní uloženy ostatky hraběte Alberta Apponyiho, jeho otce Jiřího a Jiřího bratra Karla s manželkami. Od roku 1953 slouží upravená kaple jako kostel. Hlavní oltář pochází z doby výstavby a socha svatého Jiří z červeného mramoru je starší, z 18. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.pamiatkynaslovensku.sk/malinovo-kostol-sv-juraja-mucenika"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostol svätého Juraja, Malinovo",
+        "lat": 48.159796,
+        "lon": 17.298255,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/malinovo-kostol-sv-juraja-mucenika",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Barokní sousoší svatého Jana Nepomuckého z roku 1739",
+      "text": "Sousoší svatého Jana Nepomuckého se třemi anděly pochází z roku 1739. Podle historické rytiny zámku stálo ještě v roce 1880 u padacího mostu před zámkem. Později bylo přemístěno k silnici, kde se poškodilo; po restaurování bylo umístěno v areálu místního hřbitova ve skleněné kapli. Jeho přesuny zachycují proměnu historického areálu i veřejného prostoru obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.vets.cz/vpm/mista/obec/4279-malinovo/"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Sousošie svätého Jána Nepomuckého, cintorín Malinovo",
+        "lat": 48.159833,
+        "lon": 17.298361,
+        "type": "sculpture",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/4279-malinovo/",
+        "address": "Cintorínska, 900 45 Malinovo, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Zvonice z roku 1862 a zvon roztavený za první světové války",
+      "text": "Pozdně klasicistní zvonici u malého parku v centru Malinova nechal v roce 1862 postavit János Putz. Ve výklenku je podstavec s křížem a letopočtem. Menší zvon se zachoval a zůstal funkční, větší byl v roce 1915 roztaven pro vojenskou výrobu, podobně jako mnoho dalších zvonů v monarchii. Drobná stavba připomíná místní zbožnost i materiální ztráty první světové války.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.pamiatkynaslovensku.sk/malinovo-zvonica"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Historická zvonica pri malom parku v Malinove",
+        "lat": 48.157435,
+        "lon": 17.298968,
+        "type": "landmark",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/malinovo-zvonica",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Juraj Petőcz – popravený představitel revoluce let 1848–1849",
+      "text": "Juraj Petőcz (György Balázs Petőcz) se narodil 6. ledna 1805 v Eberhardu, dnešním Malinově. Během revoluce let 1848–1849 působil jako druhý podžupan Bratislavské župy a na Žitném ostrově organizoval verbování nováčků. Císařské orgány ho zatkly a vojenský soud ho odsoudil k smrti; popraven byl v Bratislavě 24. května 1849. Jeho pomník na místním hřbitově připomíná osobnost spojenou s obcí i revolučním hnutím.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "https://www.malinovo.sk/obec/pamiatky/",
+        "https://www.vets.cz/vpm/mista/obec/4279-malinovo/"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Pamätník Juraja Petőcza na cintoríne v Malinove",
+        "lat": 48.159833,
+        "lon": 17.298361,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/4279-malinovo/",
+        "address": "Cintorínska, 900 45 Malinovo, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Apponyiovci, Albert Apponyi a návštěva Theodora Roosevelta",
+      "text": "V 19. století se Eberhard stal sídlem správy panství hraběcí rodiny Apponyiů. Jiří Apponyi zámek přestavěl v klasicistním stylu a vytvořil venkovské sídlo s parkem. Jeho syn Albert Apponyi, významný uherský politik a řečník, zde žil s rodinou do roku 1923. Dne 17. dubna 1910 byl v zámku jeho hostem bývalý americký prezident Theodore Roosevelt během své evropské cesty. Po roce 1923 se areál stal sídlem státní zemědělské a zahradnické školy.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.malinovo.sk/obec/historia/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_93fd5b4b-8027-4c44-b198-950c3025bc59"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Kaštieľ Malinovo – historické sídlo Apponyiovcov",
+        "lat": 48.153107,
+        "lon": 17.297463,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/malinovo",
+        "address": "Bratislavská 118, 900 45 Malinovo, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Eberhard, Malinovo a poválečné vysídlování obyvatelstva",
+      "text": "Obec se po staletí nazývala Eberhard a její název se v pramenech objevuje v různých podobách, například Yberhart, Eburhardi či Ebersdorf. Během druhé světové války bylo Malinovo v letech 1938 až 1945 připojeno k Maďarsku. V letech 1946 až 1948 byla velká část místního obyvatelstva násilně vysídlena do Maďarska a do uvolněných domů přicházeli slovenští přesídlenci z Maďarska; část obyvatel byla deportována také do Čech. V roce 1946 obec dostala jméno Malinovo, oficiálně na počest sovětského maršála Rodiona Malinovského, ačkoli tvrzení o jeho osobním přenocování v obci se podle obecní kroniky nepodařilo potvrdit.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.malinovo.sk/obec/historia/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_93fd5b4b-8027-4c44-b198-950c3025bc59"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Historické jadro Malinova (orientačný bod)",
+        "lat": 48.15322,
+        "lon": 17.29672,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18463330",
+        "address": null
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ (portál skontrolovaný 24. 11. 2026, individuálny výsledok 90045 sa v textovom výstupe nenačítal); oficiálne adresy Obce Malinovo a jej inštitúcií používajú 900 45 a nezávislé prehľady priraďujú 90045 Malinovu.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiálny vyhľadávač PSČ Slovenskej pošty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Individuálny výsledok oficiálneho vyhľadávača sa nepodarilo načítať. Obecné adresy a nezávislé prehľady sa zhodujú na Malinove; úplné doručovacie územie nebolo samostatne potvrdené výstupom Slovenskej pošty.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Malinovo – Geografia a demografia; Slovensko.sk – informácie o obci a zoznam obcí okresu Senec; Mapcarta/OpenStreetMap len na orientačné súradnice reprezentatívneho bodu."
+  },
+  "sources": [
+    {
+      "title": "Obec Malinovo – História",
+      "url": "https://www.malinovo.sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Malinovo – Pamiatky",
+      "url": "https://www.malinovo.sk/obec/pamiatky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Malinovo – Geografia a demografia",
+      "url": "https://www.malinovo.sk/obec/geografia-a-demografia/",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – Informácie o obci Malinovo",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_93fd5b4b-8027-4c44-b198-950c3025bc59",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Malinovo",
+      "url": "https://www.pamiatkynaslovensku.sk/malinovo",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Park pri kaštieli",
+      "url": "https://www.pamiatkynaslovensku.sk/malinovo-park-pri-kastieli",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Juraja",
+      "url": "https://www.pamiatkynaslovensku.sk/malinovo-kostol-sv-juraja-mucenika",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Zvonica Malinovo",
+      "url": "https://www.pamiatkynaslovensku.sk/malinovo-zvonica",
+      "type": "specialist"
+    },
+    {
+      "title": "Spolek pro vojenská pietní místa – Malinovo, Juraj Petőcz",
+      "url": "https://www.vets.cz/vpm/mista/obec/4279-malinovo/",
+      "type": "specialist"
+    },
+    {
+      "title": "Mapcarta / OpenStreetMap – Malinovo",
+      "url": "https://mapcarta.com/18463330",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Malinovo – historické jádro u zámku a parku",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Od vodního hradu k Apponyiovskému zámku",
+          "text": "Malinovský zámek stojí na místě středověké pevnosti, která chránila přechod přes Malý Dunaj na Žitný ostrov. Pevnost se třemi věžemi a vodním příkopem byla spojena se svato-jurským panstvím. V 17. století ji arcibiskup Juraj Szelepcsényi přestavěl na zámek a v jeho východním křídle nechal roku 1677 zřídit pozdně renesanční kapli. V 19. století získal objekt při přestavbě pro rodinu Apponyiů klasicistní podobu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Anglický park s více než 200 druhy dřevin",
+          "text": "Zámek obklopuje anglický krajinářský park, jehož založení se klade pravděpodobně na začátek 18. století. Rostou v něm platany, duby, akáty, dřezovce a další domácí i cizokrajné dřeviny. Obec uvádí, že na dnešní ploše necelých pěti hektarů se nachází více než 200 druhů dřevin. Park se měnil po válkách i po roce 1923, kdy se zámecký areál stal sídlem zahradnické školy."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel svatého Jiří – původně rodinná krypta Apponyiovců",
+          "text": "Neogotický kostel svatého Jiří vznikl v letech 1869 až 1872 jako pohřební kaple a krypta rodiny Apponyiů. Jsou v ní uloženy ostatky hraběte Alberta Apponyiho, jeho otce Jiřího a Jiřího bratra Karla s manželkami. Od roku 1953 slouží upravená kaple jako kostel. Hlavní oltář pochází z doby výstavby a socha svatého Jiří z červeného mramoru je starší, z 18. století."
+        },
+        {
+          "id": "fact_004",
+          "title": "Barokní sousoší svatého Jana Nepomuckého z roku 1739",
+          "text": "Sousoší svatého Jana Nepomuckého se třemi anděly pochází z roku 1739. Podle historické rytiny zámku stálo ještě v roce 1880 u padacího mostu před zámkem. Později bylo přemístěno k silnici, kde se poškodilo; po restaurování bylo umístěno v areálu místního hřbitova ve skleněné kapli. Jeho přesuny zachycují proměnu historického areálu i veřejného prostoru obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Zvonice z roku 1862 a zvon roztavený za první světové války",
+          "text": "Pozdně klasicistní zvonici u malého parku v centru Malinova nechal v roce 1862 postavit János Putz. Ve výklenku je podstavec s křížem a letopočtem. Menší zvon se zachoval a zůstal funkční, větší byl v roce 1915 roztaven pro vojenskou výrobu, podobně jako mnoho dalších zvonů v monarchii. Drobná stavba připomíná místní zbožnost i materiální ztráty první světové války."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz – popravený představitel revoluce let 1848–1849",
+          "text": "Juraj Petőcz (György Balázs Petőcz) se narodil 6. ledna 1805 v Eberhardu, dnešním Malinově. Během revoluce let 1848–1849 působil jako druhý podžupan Bratislavské župy a na Žitném ostrově organizoval verbování nováčků. Císařské orgány ho zatkly a vojenský soud ho odsoudil k smrti; popraven byl v Bratislavě 24. května 1849. Jeho pomník na místním hřbitově připomíná osobnost spojenou s obcí i revolučním hnutím."
+        },
+        {
+          "id": "fact_007",
+          "title": "Apponyiovci, Albert Apponyi a návštěva Theodora Roosevelta",
+          "text": "V 19. století se Eberhard stal sídlem správy panství hraběcí rodiny Apponyiů. Jiří Apponyi zámek přestavěl v klasicistním stylu a vytvořil venkovské sídlo s parkem. Jeho syn Albert Apponyi, významný uherský politik a řečník, zde žil s rodinou do roku 1923. Dne 17. dubna 1910 byl v zámku jeho hostem bývalý americký prezident Theodore Roosevelt během své evropské cesty. Po roce 1923 se areál stal sídlem státní zemědělské a zahradnické školy."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo a poválečné vysídlování obyvatelstva",
+          "text": "Obec se po staletí nazývala Eberhard a její název se v pramenech objevuje v různých podobách, například Yberhart, Eburhardi či Ebersdorf. Během druhé světové války bylo Malinovo v letech 1938 až 1945 připojeno k Maďarsku. V letech 1946 až 1948 byla velká část místního obyvatelstva násilně vysídlena do Maďarska a do uvolněných domů přicházeli slovenští přesídlenci z Maďarska; část obyvatel byla deportována také do Čech. V roce 1946 obec dostala jméno Malinovo, oficiálně na počest sovětského maršála Rodiona Malinovského, ačkoli tvrzení o jeho osobním přenocování v obci se podle obecní kroniky nepodařilo potvrdit."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Malinovo – historischer Ortskern am Schloss und Park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von der Wasserburg zum Apponyi-Schloss",
+          "text": "Das Schloss von Malinovo steht an der Stelle einer mittelalterlichen Festung, die den Übergang über die Kleine Donau zur Großen Schüttinsel schützte. Die Festung mit drei Türmen und Wassergraben gehörte zum Herrschaftsgut von Sankt Georgen. Im 17. Jahrhundert baute Erzbischof Juraj Szelepcsényi sie zum Schloss um und ließ 1677 in ihrem Ostflügel eine spätrenaissancezeitliche Kapelle einrichten. Im 19. Jahrhundert erhielt das Gebäude bei einem Umbau für die Familie Apponyi sein klassizistisches Erscheinungsbild."
+        },
+        {
+          "id": "fact_002",
+          "title": "Englischer Landschaftspark mit mehr als 200 Gehölzarten",
+          "text": "Das Schloss ist von einem englischen Landschaftspark umgeben, dessen Anlage vermutlich auf den Beginn des 18. Jahrhunderts zurückgeht. Dort wachsen Platanen, Eichen, Robinien, Gleditschien und weitere einheimische wie fremdländische Gehölze. Nach Angaben der Gemeinde gibt es auf der heutigen Fläche von knapp fünf Hektar mehr als 200 Gehölzarten. Der Park veränderte sich nach den Kriegen und nach 1923, als das Schlossareal zum Sitz einer Gartenbauschule wurde."
+        },
+        {
+          "id": "fact_003",
+          "title": "Georgskirche – ursprünglich die Familiengruft der Apponyis",
+          "text": "Die neugotische Georgskirche entstand 1869 bis 1872 als Begräbniskapelle und Gruft der Familie Apponyi. Hier ruhen die sterblichen Überreste des Grafen Albert Apponyi, seines Vaters György und seines Onkels Károly samt Ehefrauen. Seit 1953 dient die umgestaltete Kapelle als Kirche. Der Hauptaltar stammt aus der Bauzeit; die Statue des heiligen Georg aus rotem Marmor ist älter und entstand im 18. Jahrhundert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Barocke Figurengruppe des heiligen Johannes Nepomuk aus dem Jahr 1739",
+          "text": "Die Figurengruppe des heiligen Johannes Nepomuk mit drei Engeln stammt aus dem Jahr 1739. Einer historischen Schlossansicht zufolge stand sie noch 1880 an der Zugbrücke vor dem Schloss. Später wurde sie an die Straße versetzt und beschädigt; nach der Restaurierung erhielt sie einen Platz auf dem örtlichen Friedhof in einer verglasten Kapelle. Ihre Ortswechsel dokumentieren den Wandel des historischen Areals und des öffentlichen Raums."
+        },
+        {
+          "id": "fact_005",
+          "title": "Glockenturm von 1862 und eine im Ersten Weltkrieg eingeschmolzene Glocke",
+          "text": "Den spätklassizistischen Glockenturm beim kleinen Park im Zentrum von Malinovo ließ János Putz 1862 errichten. In seiner Nische befindet sich ein Sockel mit Kreuz und Jahreszahl. Die kleinere Glocke ist erhalten und weiterhin funktionsfähig; die größere wurde 1915 wie viele andere Glocken der Monarchie für die Kriegsproduktion eingeschmolzen. Das kleine Bauwerk erinnert an die örtliche Frömmigkeit und an die materiellen Verluste des Ersten Weltkriegs."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz – hingerichteter Vertreter der Revolution von 1848/49",
+          "text": "Juraj Petőcz (György Balázs Petőcz) wurde am 6. Januar 1805 in Eberhard, dem heutigen Malinovo, geboren. Während der Revolution von 1848/49 war er zweiter Vizegespan des Komitats Pressburg und organisierte auf der Großen Schüttinsel die Anwerbung von Rekruten. Die kaiserlichen Behörden nahmen ihn fest; ein Militärgericht verurteilte ihn zum Tode. Er wurde am 24. Mai 1849 in Pressburg hingerichtet. Sein Denkmal auf dem örtlichen Friedhof erinnert an seine Verbindung mit dem Ort und der Revolutionsbewegung."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Apponyis, Albert Apponyi und der Besuch Theodore Roosevelts",
+          "text": "Im 19. Jahrhundert wurde Eberhard zum Verwaltungssitz des Besitzes der Grafenfamilie Apponyi. György Apponyi ließ das Schloss klassizistisch umbauen und schuf einen von einem Park umgebenen Landsitz. Sein Sohn Albert Apponyi, ein bedeutender ungarischer Politiker und Redner, lebte hier mit seiner Familie bis 1923. Am 17. April 1910 empfing er im Schloss den ehemaligen US-Präsidenten Theodore Roosevelt während dessen Europareise. Nach 1923 wurde das Areal Sitz einer staatlichen Landwirtschafts- und Gartenbauschule."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo und die Vertreibungen der Nachkriegszeit",
+          "text": "Der Ort trug jahrhundertelang den Namen Eberhard, der in Quellen in verschiedenen Formen erscheint, etwa Yberhart, Eburhardi und Ebersdorf. Während des Zweiten Weltkriegs gehörte Malinovo von 1938 bis 1945 zu Ungarn. Zwischen 1946 und 1948 wurde ein großer Teil der örtlichen Bevölkerung zwangsweise nach Ungarn ausgesiedelt; in die frei gewordenen Häuser zogen slowakische Umsiedler aus Ungarn ein. Ein Teil der Einwohner wurde auch nach Böhmen deportiert. 1946 erhielt die Gemeinde den Namen Malinovo, offiziell zu Ehren des sowjetischen Marschalls Rodion Malinowski. Die örtliche Chronik bestätigt jedoch nicht die Erzählung, er habe persönlich im Ort übernachtet."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Malinovo – historic centre by the manor house and park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From a water castle to the Apponyi manor house",
+          "text": "Malinovo Manor House stands on the site of a medieval fortress that guarded a crossing over the Little Danube towards Žitný ostrov (Rye Island). The fortress, with three towers and a moat, was associated with the estate of the Counts of St George. In the 17th century Archbishop Juraj Szelepcsényi converted it into a manor house and added a late-Renaissance chapel to its east wing in 1677. The building acquired its present Classical appearance during a 19th-century reconstruction for the Apponyi family."
+        },
+        {
+          "id": "fact_002",
+          "title": "An English landscape park with more than 200 tree species",
+          "text": "The manor house is surrounded by an English landscape park, probably laid out in the early 18th century. Its trees include plane trees, oaks, black locusts, honey locusts and other native and introduced species. The municipality reports more than 200 tree species across the park's present area of just under five hectares. The grounds changed after wartime damage and again after 1923, when the estate became the home of a horticultural school."
+        },
+        {
+          "id": "fact_003",
+          "title": "St George's Church – originally the Apponyi family crypt",
+          "text": "The Neo-Gothic Church of St George was built between 1869 and 1872 as a funerary chapel and crypt for the Apponyi family. It holds the remains of Count Albert Apponyi, his father György and György's brother Károly, together with their wives. Since 1953, the adapted chapel has served as a church. The main altar dates from the building's construction, while the red-marble statue of St George is an older, 18th-century work."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Baroque group of St John of Nepomuk, dating from 1739",
+          "text": "The sculptural group of St John of Nepomuk with three angels dates from 1739. An 19th-century engraving of the manor house shows it still standing by the drawbridge in 1880. It was later moved beside the road, where it deteriorated; after restoration it was placed in a glazed chapel in the local cemetery. Its successive locations reflect changes to the historic estate and the village's public spaces."
+        },
+        {
+          "id": "fact_005",
+          "title": "The 1862 bell tower and a bell melted down during the First World War",
+          "text": "János Putz commissioned the late-Classical bell tower beside the small park in central Malinovo in 1862. A pedestal bearing a cross and the date stands in its niche. The smaller bell survives and remains functional, while the larger one was melted down for wartime production in 1915, as happened to many bells across the monarchy. The modest structure recalls local religious life and the material losses of the First World War."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz – an executed figure of the 1848–49 revolution",
+          "text": "Juraj Petőcz (György Balázs Petőcz) was born on 6 January 1805 in Eberhard, now Malinovo. During the revolution of 1848–49 he served as second deputy lord-lieutenant of Pressburg County and organised recruitment on Žitný ostrov. Imperial authorities arrested him and a military court sentenced him to death; he was executed in Pressburg on 24 May 1849. A memorial in the local cemetery commemorates his connection with the village and the revolutionary movement."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Apponyis, Albert Apponyi and Theodore Roosevelt's visit",
+          "text": "In the 19th century, Eberhard became the administrative seat of the Apponyi family's estate. György Apponyi remodelled the manor house in the Classical style and created a country residence surrounded by a park. His son Albert Apponyi, a prominent Hungarian politician and orator, lived here with his family until 1923. On 17 April 1910, former US president Theodore Roosevelt visited him at the manor house during his European tour. After 1923, the estate became the seat of a state agricultural and horticultural school."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo and post-war population displacement",
+          "text": "For centuries the village was known as Eberhard, with historical forms including Yberhart, Eburhardi and Ebersdorf. During the Second World War, Malinovo was annexed to Hungary from 1938 to 1945. Between 1946 and 1948, a large part of the local population was forcibly displaced to Hungary; Slovak settlers from Hungary moved into the vacated homes, while some residents were deported to the Czech lands. In 1946 the village was renamed Malinovo, officially in honour of Soviet Marshal Rodion Malinovsky. The municipal chronicle, however, does not confirm the story that he personally spent a night in the village."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Malinovo – núcleo histórico junto al palacio y el parque",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De fortaleza acuática a palacio de los Apponyi",
+          "text": "El palacio de Malinovo se levantó sobre el emplazamiento de una fortaleza medieval que protegía el paso del Pequeño Danubio hacia Žitný ostrov, la Isla del Centeno. La fortaleza, con tres torres y un foso, estaba vinculada al señorío de los condes de San Jorge. En el siglo XVII, el arzobispo Juraj Szelepcsényi la transformó en palacio e incorporó una capilla renacentista tardía en el ala oriental en 1677. En el siglo XIX, una reforma para la familia Apponyi le dio su aspecto clasicista actual."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un parque paisajístico inglés con más de 200 especies arbóreas",
+          "text": "El palacio está rodeado por un parque paisajístico inglés, probablemente creado a comienzos del siglo XVIII. Entre sus árboles hay plátanos, robles, falsas acacias, gleditsias y otras especies autóctonas y exóticas. Según el municipio, en la superficie actual de algo menos de cinco hectáreas crecen más de 200 especies arbóreas. El parque cambió tras los daños de las guerras y de nuevo después de 1923, cuando el recinto se convirtió en sede de una escuela de horticultura."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de San Jorge, antigua cripta familiar de los Apponyi",
+          "text": "La iglesia neogótica de San Jorge se construyó entre 1869 y 1872 como capilla funeraria y cripta de la familia Apponyi. Allí reposan los restos del conde Albert Apponyi, de su padre György y del hermano de este, Károly, junto con sus esposas. Desde 1953, la capilla adaptada funciona como iglesia. El altar mayor data de la construcción y la escultura de san Jorge en mármol rojo es una obra anterior del siglo XVIII."
+        },
+        {
+          "id": "fact_004",
+          "title": "El grupo barroco de san Juan Nepomuceno, de 1739",
+          "text": "El grupo escultórico de san Juan Nepomuceno con tres ángeles data de 1739. Según un grabado histórico del palacio, todavía se encontraba junto al puente levadizo en 1880. Más tarde se trasladó junto a la carretera y sufrió daños; tras su restauración se instaló en una capilla acristalada del cementerio local. Sus traslados reflejan la transformación del antiguo recinto señorial y de los espacios públicos del pueblo."
+        },
+        {
+          "id": "fact_005",
+          "title": "El campanario de 1862 y una campana fundida durante la Primera Guerra Mundial",
+          "text": "János Putz mandó construir en 1862 el campanario tardoclásico situado junto al pequeño parque del centro de Malinovo. En su hornacina hay un pedestal con una cruz y la fecha. La campana pequeña se conserva y sigue funcionando; la grande fue fundida en 1915 para la producción bélica, como ocurrió con muchas campanas de la monarquía. Esta pequeña construcción recuerda la vida religiosa local y las pérdidas materiales de la Primera Guerra Mundial."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz, ejecutado por su participación en la revolución de 1848–1849",
+          "text": "Juraj Petőcz (György Balázs Petőcz) nació el 6 de enero de 1805 en Eberhard, la actual Malinovo. Durante la revolución de 1848–1849 fue segundo viceispán del condado de Bratislava y organizó el reclutamiento en Žitný ostrov. Las autoridades imperiales lo arrestaron y un tribunal militar lo condenó a muerte; fue ejecutado en Bratislava el 24 de mayo de 1849. Un monumento en el cementerio local recuerda su vínculo con el pueblo y con el movimiento revolucionario."
+        },
+        {
+          "id": "fact_007",
+          "title": "Los Apponyi, Albert Apponyi y la visita de Theodore Roosevelt",
+          "text": "En el siglo XIX, Eberhard se convirtió en la sede administrativa de las propiedades de la familia Apponyi. György Apponyi reformó el palacio en estilo clasicista y creó una residencia rural rodeada de un parque. Su hijo Albert Apponyi, destacado político y orador húngaro, vivió allí con su familia hasta 1923. El 17 de abril de 1910 recibió en el palacio al expresidente estadounidense Theodore Roosevelt durante su viaje por Europa. Después de 1923, el recinto pasó a ser sede de una escuela estatal agrícola y de horticultura."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo y los desplazamientos de población de posguerra",
+          "text": "Durante siglos, el pueblo se llamó Eberhard y aparece en las fuentes con variantes como Yberhart, Eburhardi y Ebersdorf. Durante la Segunda Guerra Mundial, Malinovo quedó anexionada a Hungría entre 1938 y 1945. Entre 1946 y 1948, gran parte de la población local fue desplazada por la fuerza a Hungría; familias eslovacas trasladadas desde Hungría ocuparon las casas vacías, mientras que algunos habitantes fueron deportados también a las tierras checas. En 1946 el municipio recibió el nombre de Malinovo, oficialmente en honor al mariscal soviético Rodion Malinovski. La crónica municipal no confirma que hubiera pasado personalmente una noche en el pueblo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Malinovo – centre historique près du château et du parc",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Du château d'eau au manoir des Apponyi",
+          "text": "Le manoir de Malinovo a été édifié à l'emplacement d'une forteresse médiévale qui protégeait le passage du Petit Danube vers Žitný ostrov, l'île du Seigle. La forteresse, dotée de trois tours et de douves, était liée au domaine des comtes de Saint-Georges. Au XVIIe siècle, l'archevêque Juraj Szelepcsényi la transforma en manoir et fit aménager une chapelle de style Renaissance tardive dans l'aile est en 1677. Au XIXe siècle, une reconstruction pour la famille Apponyi lui donna son apparence classique actuelle."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un parc paysager anglais comptant plus de 200 espèces d'arbres",
+          "text": "Le manoir est entouré d'un parc paysager à l'anglaise, probablement aménagé au début du XVIIIe siècle. On y trouve des platanes, des chênes, des robiniers, des féviers et d'autres essences locales ou exotiques. Selon la commune, le parc actuel, qui couvre un peu moins de cinq hectares, abrite plus de 200 espèces d'arbres. Il a été transformé après les guerres puis après 1923, lorsque le domaine est devenu le siège d'une école d'horticulture."
+        },
+        {
+          "id": "fact_003",
+          "title": "L'église Saint-Georges, ancienne crypte familiale des Apponyi",
+          "text": "L'église néogothique Saint-Georges a été construite entre 1869 et 1872 comme chapelle funéraire et crypte de la famille Apponyi. Elle abrite les dépouilles du comte Albert Apponyi, de son père György et du frère de celui-ci, Károly, avec leurs épouses. Depuis 1953, la chapelle réaménagée sert d'église. Le maître-autel date de la construction et la statue de saint Georges en marbre rouge est une œuvre plus ancienne du XVIIIe siècle."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le groupe baroque de saint Jean Népomucène, daté de 1739",
+          "text": "Le groupe sculpté de saint Jean Népomucène accompagné de trois anges date de 1739. Une gravure historique du manoir le montre encore près du pont-levis en 1880. Il fut ensuite déplacé au bord de la route, où il fut endommagé ; après restauration, il a été installé dans une chapelle vitrée du cimetière communal. Ses déplacements racontent les transformations de l'ancien domaine et de l'espace public du village."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le beffroi de 1862 et une cloche fondue pendant la Première Guerre mondiale",
+          "text": "János Putz fit construire en 1862 le beffroi de style néoclassique tardif près du petit parc au centre de Malinovo. Une niche abrite un socle portant une croix et la date. La petite cloche a été conservée et fonctionne toujours ; la grande fut fondue en 1915 pour l'industrie de guerre, comme beaucoup d'autres cloches de la monarchie. Ce modeste édifice rappelle la vie religieuse locale et les pertes matérielles de la Première Guerre mondiale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz, exécuté pour son rôle dans la révolution de 1848–1849",
+          "text": "Juraj Petőcz (György Balázs Petőcz) est né le 6 janvier 1805 à Eberhard, aujourd'hui Malinovo. Pendant la révolution de 1848–1849, il fut second sous-préfet du comitat de Bratislava et organisa le recrutement sur Žitný ostrov. Les autorités impériales l'arrêtèrent et un tribunal militaire le condamna à mort ; il fut exécuté à Bratislava le 24 mai 1849. Un mémorial dans le cimetière communal rappelle son lien avec le village et le mouvement révolutionnaire."
+        },
+        {
+          "id": "fact_007",
+          "title": "Les Apponyi, Albert Apponyi et la visite de Theodore Roosevelt",
+          "text": "Au XIXe siècle, Eberhard devint le centre administratif du domaine de la famille comtale Apponyi. György Apponyi fit reconstruire le manoir dans le style classique et en fit une résidence de campagne entourée d'un parc. Son fils Albert Apponyi, homme politique et orateur hongrois de premier plan, y vécut avec sa famille jusqu'en 1923. Le 17 avril 1910, l'ancien président américain Theodore Roosevelt lui rendit visite au manoir lors de son voyage en Europe. Après 1923, le domaine accueillit une école publique d'agriculture et d'horticulture."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo et les déplacements forcés de l'après-guerre",
+          "text": "Pendant des siècles, le village porta le nom d'Eberhard, attesté sous des formes telles que Yberhart, Eburhardi ou Ebersdorf. Pendant la Seconde Guerre mondiale, Malinovo fut annexée à la Hongrie de 1938 à 1945. Entre 1946 et 1948, une grande partie de la population locale fut déplacée de force vers la Hongrie ; des familles slovaques transférées depuis la Hongrie s'installèrent dans les maisons libérées, tandis que certains habitants furent également déportés en Bohême. En 1946, la commune prit le nom de Malinovo, officiellement en hommage au maréchal soviétique Rodion Malinovski. La chronique communale ne confirme toutefois pas qu'il ait personnellement passé une nuit dans le village."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Malinovo – centro storico presso il castello e il parco",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dal castello d'acqua alla residenza degli Apponyi",
+          "text": "Il castello di Malinovo sorge sul sito di una fortezza medievale che proteggeva il passaggio sul Piccolo Danubio verso Žitný ostrov, l'Isola della Segale. La fortezza, con tre torri e un fossato, era legata alla signoria dei conti di San Giorgio. Nel XVII secolo l'arcivescovo Juraj Szelepcsényi la trasformò in residenza e fece realizzare una cappella tardo-rinascimentale nell'ala orientale nel 1677. Nel XIX secolo, una ristrutturazione per la famiglia Apponyi le conferì l'attuale aspetto classicista."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un parco paesaggistico all'inglese con oltre 200 specie arboree",
+          "text": "La residenza è circondata da un parco paesaggistico all'inglese, probabilmente creato all'inizio del XVIII secolo. Vi crescono platani, querce, robinie, gleditsie e altre specie autoctone ed esotiche. Secondo il comune, l'attuale area di poco meno di cinque ettari ospita oltre 200 specie arboree. Il parco cambiò dopo le guerre e nuovamente dopo il 1923, quando il complesso divenne sede di una scuola di orticoltura."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Giorgio, in origine cripta della famiglia Apponyi",
+          "text": "La chiesa neogotica di San Giorgio fu costruita tra il 1869 e il 1872 come cappella funeraria e cripta della famiglia Apponyi. Vi riposano i resti del conte Albert Apponyi, di suo padre György e del fratello di quest'ultimo, Károly, insieme alle rispettive mogli. Dal 1953 la cappella adattata è utilizzata come chiesa. L'altare maggiore risale alla costruzione, mentre la statua di San Giorgio in marmo rosso è un'opera più antica del XVIII secolo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il gruppo barocco di San Giovanni Nepomuceno del 1739",
+          "text": "Il gruppo scultoreo di San Giovanni Nepomuceno con tre angeli risale al 1739. Un'incisione storica della residenza mostra che nel 1880 si trovava ancora presso il ponte levatoio. In seguito fu spostato lungo la strada e danneggiato; dopo il restauro è stato collocato in una cappella vetrata nel cimitero locale. I suoi spostamenti raccontano la trasformazione dell'antica tenuta e degli spazi pubblici del paese."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il campanile del 1862 e una campana fusa durante la Prima guerra mondiale",
+          "text": "Nel 1862 János Putz fece costruire il campanile tardoclassico accanto al piccolo parco nel centro di Malinovo. Nella nicchia si trova un piedistallo con croce e data. La campana più piccola è stata conservata ed è ancora funzionante; quella più grande fu fusa nel 1915 per la produzione bellica, come accadde a molte campane della monarchia. La piccola costruzione ricorda la devozione locale e le perdite materiali della Prima guerra mondiale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz, giustiziato per il suo ruolo nella rivoluzione del 1848–1849",
+          "text": "Juraj Petőcz (György Balázs Petőcz) nacque il 6 gennaio 1805 a Eberhard, l'odierna Malinovo. Durante la rivoluzione del 1848–1849 fu secondo viceprefetto della contea di Bratislava e organizzò il reclutamento a Žitný ostrov. Le autorità imperiali lo arrestarono e un tribunale militare lo condannò a morte; fu giustiziato a Bratislava il 24 maggio 1849. Un monumento nel cimitero locale ricorda il suo legame con il paese e con il movimento rivoluzionario."
+        },
+        {
+          "id": "fact_007",
+          "title": "Gli Apponyi, Albert Apponyi e la visita di Theodore Roosevelt",
+          "text": "Nel XIX secolo Eberhard divenne il centro amministrativo della tenuta della famiglia Apponyi. György Apponyi ristrutturò la residenza in stile classicista e creò una dimora di campagna circondata da un parco. Suo figlio Albert Apponyi, importante politico e oratore ungherese, vi visse con la famiglia fino al 1923. Il 17 aprile 1910 ricevette nella residenza l'ex presidente statunitense Theodore Roosevelt durante il suo viaggio in Europa. Dopo il 1923 il complesso divenne sede di una scuola statale di agricoltura e orticoltura."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo e gli sfollamenti del dopoguerra",
+          "text": "Per secoli il villaggio fu chiamato Eberhard, nome attestato in forme diverse, tra cui Yberhart, Eburhardi ed Ebersdorf. Durante la Seconda guerra mondiale Malinovo fu annessa all'Ungheria dal 1938 al 1945. Tra il 1946 e il 1948 gran parte della popolazione locale fu trasferita con la forza in Ungheria; nelle case lasciate libere si insediarono slovacchi trasferiti dall'Ungheria, mentre alcuni abitanti furono deportati anche nelle terre ceche. Nel 1946 il comune assunse il nome Malinovo, ufficialmente in onore del maresciallo sovietico Rodion Malinovskij. La cronaca comunale, tuttavia, non conferma che egli abbia personalmente trascorso una notte nel villaggio."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Malinovo – historische dorpskern bij het landhuis en park",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van waterburcht tot het landhuis van de familie Apponyi",
+          "text": "Het landhuis van Malinovo staat op de plek van een middeleeuwse vesting die de oversteek over de Kleine Donau naar Žitný ostrov (Rogeiland) beschermde. De vesting met drie torens en een slotgracht was verbonden met het domein van de graven van Sint-Georgen. In de 17e eeuw verbouwde aartsbisschop Juraj Szelepcsényi haar tot een landhuis en liet hij in 1677 een laat-renaissancistische kapel in de oostvleugel inrichten. In de 19e eeuw kreeg het gebouw bij een verbouwing voor de familie Apponyi zijn huidige classicistische uiterlijk."
+        },
+        {
+          "id": "fact_002",
+          "title": "Een Engels landschapspark met meer dan 200 boomsoorten",
+          "text": "Het landhuis wordt omgeven door een Engels landschapspark, dat waarschijnlijk aan het begin van de 18e eeuw is aangelegd. Er groeien platanen, eiken, robinia's, gleditsia's en andere inheemse en uitheemse boomsoorten. Volgens de gemeente staan er op het huidige terrein van net geen vijf hectare meer dan 200 soorten bomen. Het park veranderde na de oorlogen en opnieuw na 1923, toen het landgoed de zetel werd van een tuinbouwschool."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Joriskerk – oorspronkelijk de familiegrafkapel van de Apponyi's",
+          "text": "De neogotische Sint-Joriskerk werd tussen 1869 en 1872 gebouwd als grafkapel en crypte van de familie Apponyi. Hier liggen de stoffelijke resten van graaf Albert Apponyi, zijn vader György en diens broer Károly, samen met hun echtgenotes. Sinds 1953 doet de aangepaste kapel dienst als kerk. Het hoofdaltaar dateert uit de bouwtijd; het beeld van Sint-Joris in rood marmer stamt uit de 18e eeuw."
+        },
+        {
+          "id": "fact_004",
+          "title": "De barokke beeldengroep van Sint-Jan Nepomuk uit 1739",
+          "text": "De beeldengroep van Sint-Jan Nepomuk met drie engelen dateert uit 1739. Op een historische prent van het landhuis is te zien dat zij in 1880 nog bij de ophaalbrug stond. Later werd ze naar de weg verplaatst en raakte ze beschadigd; na restauratie kreeg ze een plaats in een glazen kapel op de plaatselijke begraafplaats. De verplaatsingen weerspiegelen de veranderingen van het historische landgoed en de openbare ruimte van het dorp."
+        },
+        {
+          "id": "fact_005",
+          "title": "De klokkentoren uit 1862 en een klok die in de Eerste Wereldoorlog werd omgesmolten",
+          "text": "János Putz liet in 1862 de laat-classicistische klokkentoren bij het kleine park in het centrum van Malinovo bouwen. In de nis staat een sokkel met een kruis en het jaartal. De kleinere klok is bewaard gebleven en werkt nog; de grotere werd in 1915 omgesmolten voor de oorlogsindustrie, net als veel andere klokken in de monarchie. Het bouwwerk herinnert aan het plaatselijke religieuze leven en aan de materiële verliezen van de Eerste Wereldoorlog."
+        },
+        {
+          "id": "fact_006",
+          "title": "Juraj Petőcz – geëxecuteerd vanwege zijn rol in de revolutie van 1848–1849",
+          "text": "Juraj Petőcz (György Balázs Petőcz) werd op 6 januari 1805 geboren in Eberhard, het huidige Malinovo. Tijdens de revolutie van 1848–1849 was hij tweede ondergespan van het comitaat Pressburg en organiseerde hij de werving van rekruten op Žitný ostrov. De keizerlijke autoriteiten arresteerden hem en een krijgsraad veroordeelde hem ter dood; op 24 mei 1849 werd hij in Pressburg geëxecuteerd. Een gedenkteken op de plaatselijke begraafplaats herinnert aan zijn band met het dorp en de revolutionaire beweging."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Apponyi's, Albert Apponyi en het bezoek van Theodore Roosevelt",
+          "text": "In de 19e eeuw werd Eberhard het bestuurscentrum van het landgoed van de adellijke familie Apponyi. György Apponyi liet het landhuis in classicistische stijl verbouwen en maakte er een buitenverblijf met park van. Zijn zoon Albert Apponyi, een vooraanstaand Hongaars politicus en redenaar, woonde hier tot 1923 met zijn gezin. Op 17 april 1910 ontving hij in het landhuis de voormalige Amerikaanse president Theodore Roosevelt tijdens diens Europese reis. Na 1923 werd het terrein de zetel van een staatslandbouw- en tuinbouwschool."
+        },
+        {
+          "id": "fact_008",
+          "title": "Eberhard, Malinovo en de gedwongen volksverplaatsingen na de oorlog",
+          "text": "Het dorp heette eeuwenlang Eberhard; in bronnen komen verschillende vormen voor, waaronder Yberhart, Eburhardi en Ebersdorf. Tijdens de Tweede Wereldoorlog werd Malinovo van 1938 tot 1945 bij Hongarije ingelijfd. Tussen 1946 en 1948 werd een groot deel van de plaatselijke bevolking gedwongen naar Hongarije te vertrekken. In de leeggekomen huizen vestigden zich Slowaken die uit Hongarije waren overgebracht; een deel van de inwoners werd ook naar Bohemen gedeporteerd. In 1946 kreeg de gemeente de naam Malinovo, officieel ter ere van de Sovjetmaarschalk Rodion Malinovski. De gemeentekroniek bevestigt echter niet dat hij persoonlijk een nacht in het dorp zou hebben doorgebracht."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
