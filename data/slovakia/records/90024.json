@@ -1,4 +1,484 @@
 {
   "postcode": "90024",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Veľký Biel",
+  "district": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Obecní úřad Veľký Biel, Železničná 76",
+  "representative_point": {
+    "lat": 48.21306052238159,
+    "lon": 17.359696937937617
+  },
+  "access_point": {
+    "lat": 48.21306052238159,
+    "lon": 17.359696937937617
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Veľký Biel a Malý Biel: dvě středověká sídla spojená v jednu obec",
+      "text": "Veľký Biel se v písemných pramenech objevuje roku 1294 pod jménem Beel; sousední Malý Biel je doložen roku 1323 jako Minor Beel, později také Németbél. Obě sídla měla odlišný historický vývoj: Veľký Biel náležel k panství Bratislavského hradu a majetky zde držely šlechtické rody Földes, Szülő, Horváth a Molnár, zatímco Malý Biel patřil rodu Oroszů. V 16. století se v Malém Bielu usadili chorvatští kolonisté. Veľký Biel nesl do roku 1948 název Magyarbél; Malý Biel získal své dnešní jméno téhož roku. Roku 1960 byly obě obce sloučeny pod společným názvem Veľký Biel. Dodnes je v půdorysu sídla patrné, že jde o dvě původně samostatné historické části.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.velkybiel.eu/obec-2/historia/",
+        "https://www.velkybiel.eu/modules/file_storage/download.php?file=ef1eaadf%7C507&inline=1"
+      ],
+      "location": {
+        "name": "Obecní úřad Veľký Biel – orientační bod pro historický celek Veľkého a Malého Bielu",
+        "address": "Železničná 76, Veľký Biel",
+        "lat": 48.21306052238159,
+        "lon": 17.359696937937617,
+        "type": "town_hall",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/w61361118"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Csákyovský kaštieľ: monumentální barokní sídlo z let 1722–1725",
+      "text": "Na okraji Veľkého Bielu stojí rozlehlý barokní kaštieľ, jehož výstavba je datována do let 1722–1725. Obecní historické materiály uvádějí jako majitele Žigmunda Csákyho a jako správce jeho bratra Imricha, arcibiskupa. V nároží stavby bývala kaple s freskami malíře G. A. Galliardiho; malby zanikly při válečném poškození objektu během druhé světové války. Kaštieľ byl v letech 1958–1961 obnoven. Později sloužil mimo jiné jako domov důchodců a sociální ústav. Jeho hmota, nárožní věže a čestné nádvoří dodnes výrazně utvářejí siluetu obce. Stavba patří k nejvýraznějším dokladům barokní šlechtické architektury v okolí Sence.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.velkybiel.eu/obec-2/pamiatky/",
+        "https://www.velkybiel.eu/e_download.php?file=%2Fdata%2Feditor%2F63sk_11.pdf&original=1_SMERNA_A4.pdf",
+        "https://www.velkybiel.eu/modules/file_storage/download.php?file=ef1eaadf%7C507&inline=1"
+      ],
+      "location": {
+        "name": "Csákyovský kaštieľ – Kaštieľ Imricha Csákyho",
+        "address": "Obchodná 14, Veľký Biel",
+        "lat": 48.21578217655756,
+        "lon": 17.36108792882439,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w61360757"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel Povýšení svatého Kříže a pozdně gotická Madona",
+      "text": "Farní kostel Povýšení svatého Kříže ve Veľkém Bielu má barokní podobu z 18. století; obecní územní plán klade jeho výstavbu či zásadní obnovu do roku 1728. Stojí na místě starší kaple nebo menšího kostela, který je v pramenech připomínán už roku 1561. Zvláštní hodnotu interiéru dodává pozdně gotická plastika Panny Marie datovaná přibližně kolem roku 1500. Ve věži jsou tři zvony spojené s chomutovskou dílnou Richarda Herolda; obecní výroční zpráva uvádí jejich maďarské nápisy a rok 1928, u jednoho zvonu s výhradou pravděpodobného datování. Nápisy připomínají maďarskojazyčné věřící, kteří byli součástí místní farní komunity.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.velkybiel.eu/obec-2/pamiatky/",
+        "https://www.velkybiel.eu/e_download.php?file=%2Fdata%2Feditor%2F63sk_11.pdf&original=1_SMERNA_A4.pdf",
+        "https://www.velkybiel.eu/modules/file_storage/download.php?file=ef1eaadf%7C507&inline=1"
+      ],
+      "location": {
+        "name": "Kostel Povýšení svatého Kříže",
+        "address": "Kostolná 29, Veľký Biel",
+        "lat": 48.21562980019146,
+        "lon": 17.355117810500683,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w61361314"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kaple svatého Ladislava: barokní památka někdejšího Malého Bielu",
+      "text": "V historické části Malý Biel stojí kaple zasvěcená svatému Ladislavovi. Obecní územní plán uvádí, že původně barokní stavba vznikla roku 1732 a byla obnovena roku 1776. Kaple připomíná dobu, kdy Malý Biel existoval jako samostatná obec a měl vlastní sakrální centrum vedle sousedního Veľkého Bielu. Její patron, Ladislav I. z arpádovského rodu, vládl v Uherském království v letech 1077–1095 a za svatého byl prohlášen roku 1192. Kaple tak propojuje místní dějiny s náboženskou tradicí středověkého Uherska a pomáhá číst původní dvojdílnou strukturu dnešní obce.",
+      "category": "heritage_and_monuments",
+      "priority": "D",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.velkybiel.eu/e_download.php?file=%2Fdata%2Feditor%2F63sk_11.pdf&original=1_SMERNA_A4.pdf",
+        "https://www.velkybiel.eu/modules/file_storage/download.php?file=ef1eaadf%7C507&inline=1",
+        "https://velkybiel.com/mapa-miesta.php"
+      ],
+      "location": {
+        "name": "Kaple svatého Ladislava a historický hřbitov v Malém Bielu",
+        "address": null,
+        "lat": 48.22182777777778,
+        "lon": 17.36916388888889,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://velkybiel.com/mapa-miesta.php"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Bielske jazero: rekreační jezero vzniklé těžbou štěrkopísku",
+      "text": "Bielske jazero na jihozápadním okraji Veľkého Bielu není původním přírodním jezerem. Vzniklo v 70. letech 20. století při těžbě štěrkopísku z říčních náplavů Podunajské roviny; vytěžený materiál se využil při výstavbě dálničního úseku Bratislava–Trnava. Název Bielske jazero je veden také v seznamu standardizovaných geografických názvů Úřadu geodézie, kartografie a katastru SR a je přiřazen ke katastru Veľkého Bielu v okrese Senec. Bývalé štěrkovisko se proměnilo ve výraznou vodní plochu místní krajiny. Regionální zdroje popisují jeho využití k rybolovu a rekreaci; uvádějí také výskyt kapra, cejna, plotice, štiky, candáta, sumce a úhoře.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "map_category": "nature",
+      "sources": [
+        "https://www.skgeodesy.sk/files/sk/slovensky/ugkk/geodezia-kartografia/standardizacia-geografickeho-nazvoslovia/nazvy-vod/jazera_februar_2017.pdf",
+        "https://bratislavskykraj.sk/vinohradnicko-ovocinársky-naucny-chodnik-salaperska-hora/",
+        "https://naucnechodniky.eu/vinohradnicko-ovocinarsky-naucny-chodnik-salaperska-hora/"
+      ],
+      "location": {
+        "name": "Bielske jazero – orientační bod na břehu",
+        "address": null,
+        "lat": 48.20797,
+        "lon": 17.35445,
+        "type": "natural_feature",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/sk/atrakcia/bielske-jazero"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vinohradnicko-ovocnářská stezka Šalaperská hora a zdejší vinařská tradice",
+      "text": "Veľký Biel je výchozím bodem vinohradnicko-ovocnářské naučné stezky Šalaperská hora. Trasa začíná před obecním úřadem či kulturním domem a pokračuje polními cestami směrem k mírné vyvýšenině na okraji Trnavské pahorkatiny; sedm informačních panelů přibližuje historii obce, kaštieľ, vinařství i okolní krajinu. Svahy Šalaperské hory měly díky teplému klimatu a vhodným půdám dlouhou tradici pěstování révy. Místní vinice patřily mimo jiné bratislavským klášterům a Esterházyům z Bernolákova; víno se vyváželo do Vídně a českých zemí. Vinohradnictví oslabila v 19. století révokazová nákaza a později kolektivizace, tradice však v krajině přetrvala.",
+      "category": "tourism_and_surroundings",
+      "priority": "C",
+      "map_category": "visitor_attraction",
+      "sources": [
+        "https://bratislavskykraj.sk/vinohradnicko-ovocinársky-naucny-chodnik-salaperska-hora/",
+        "https://naucnechodniky.eu/vinohradnicko-ovocinarsky-naucny-chodnik-salaperska-hora/",
+        "https://www.velkybiel.eu/obec-2/historia/"
+      ],
+      "location": {
+        "name": "Začátek vinohradnicko-ovocnářské naučné stezky u obecního úřadu Veľký Biel",
+        "address": "Železničná 76, Veľký Biel",
+        "lat": 48.21306052238159,
+        "lon": 17.359696937937617,
+        "type": "town_hall",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w61361118"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenská pošta; oficiálne obecné údaje uvádzajú PSČ 900 24 pre Veľký Biel a miestnu pobočku Slovenskej pošty; adresy v historickej časti Malý Biel používajú rovnaké PSČ.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálna stránka obce uvádza Slovenskú poštu na Školskej 2 s adresou 900 24 Veľký Biel; umiestnenie pobočky sa nepoužíva ako reprezentatívny bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Veľký Biel a jej program hospodárskeho rozvoja s údajmi ŠÚ SR pre okres Senec a Bratislavský kraj; ÚGKK SR pre štandardizovaný názov Bielske jazero; adresné body s pôvodom MINV v mapových údajoch pre objekty v obci."
+  },
+  "sources": [
+    {
+      "title": "Obec Veľký Biel – História obce",
+      "url": "https://www.velkybiel.eu/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Veľký Biel – Pamiatky",
+      "url": "https://www.velkybiel.eu/obec-2/pamiatky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Veľký Biel – Územný plán, smerná časť, zmeny a doplnky 3/2025",
+      "url": "https://www.velkybiel.eu/e_download.php?file=%2Fdata%2Feditor%2F63sk_11.pdf&original=1_SMERNA_A4.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Veľký Biel – Konsolidovaná výročná správa za rok 2024",
+      "url": "https://www.velkybiel.eu/modules/file_storage/download.php?file=ef1eaadf%7C507&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Veľký Biel – Slovenská pošta",
+      "url": "https://www.velkybiel.eu/kontakty/slovenska-posta/",
+      "type": "official"
+    },
+    {
+      "title": "ÚGKK SR – Štandardizované názvy jazier, február 2017",
+      "url": "https://www.skgeodesy.sk/files/sk/slovensky/ugkk/geodezia-kartografia/standardizacia-geografickeho-nazvoslovia/nazvy-vod/jazera_februar_2017.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavský samosprávny kraj – Vinohradnícko-ovocinársky náučný chodník Šalaperská hora",
+      "url": "https://bratislavskykraj.sk/vinohradnicko-ovocinársky-naucny-chodnik-salaperska-hora/",
+      "type": "regional"
+    },
+    {
+      "title": "Náučné chodníky – Vinohradnícko-ovocinársky náučný chodník Šalaperská hora",
+      "url": "https://naucnechodniky.eu/vinohradnicko-ovocinarsky-naucny-chodnik-salaperska-hora/",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Kaštieľ Veľký Biel",
+      "url": "https://poi.oma.sk/w61360757",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Kostol Povýšenia Svätého kríža",
+      "url": "https://poi.oma.sk/w61361314",
+      "type": "other"
+    },
+    {
+      "title": "Malý a Veľký Biel – Mapa a miesta (poloha kaplnky v Malom Bieli)",
+      "url": "https://velkybiel.com/mapa-miesta.php",
+      "type": "other"
+    },
+    {
+      "title": "KamNaVylet – Bielske jazero, GPS poloha",
+      "url": "https://www.kamnavylet.sk/sk/atrakcia/bielske-jazero",
+      "type": "other"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Obecný úrad Veľký Biel",
+      "url": "https://poi.oma.sk/w61361118",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Obecní úřad Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel a Malý Biel: dvě středověká sídla spojená v jednu obec",
+          "text": "Veľký Biel se v písemných pramenech objevuje roku 1294 pod jménem Beel; sousední Malý Biel je doložen roku 1323 jako Minor Beel, později také Németbél. Obě sídla měla odlišný historický vývoj: Veľký Biel náležel k panství Bratislavského hradu a majetky zde držely šlechtické rody Földes, Szülő, Horváth a Molnár, zatímco Malý Biel patřil rodu Oroszů. V 16. století se v Malém Bielu usadili chorvatští kolonisté. Veľký Biel nesl do roku 1948 název Magyarbél; Malý Biel získal své dnešní jméno téhož roku. Roku 1960 byly obě obce sloučeny pod společným názvem Veľký Biel. Dodnes je v půdorysu sídla patrné, že jde o dvě původně samostatné historické části."
+        },
+        {
+          "id": "fact_002",
+          "title": "Csákyovský kaštieľ: monumentální barokní sídlo z let 1722–1725",
+          "text": "Na okraji Veľkého Bielu stojí rozlehlý barokní kaštieľ, jehož výstavba je datována do let 1722–1725. Obecní historické materiály uvádějí jako majitele Žigmunda Csákyho a jako správce jeho bratra Imricha, arcibiskupa. V nároží stavby bývala kaple s freskami malíře G. A. Galliardiho; malby zanikly při válečném poškození objektu během druhé světové války. Kaštieľ byl v letech 1958–1961 obnoven. Později sloužil mimo jiné jako domov důchodců a sociální ústav. Jeho hmota, nárožní věže a čestné nádvoří dodnes výrazně utvářejí siluetu obce. Stavba patří k nejvýraznějším dokladům barokní šlechtické architektury v okolí Sence."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel Povýšení svatého Kříže a pozdně gotická Madona",
+          "text": "Farní kostel Povýšení svatého Kříže ve Veľkém Bielu má barokní podobu z 18. století; obecní územní plán klade jeho výstavbu či zásadní obnovu do roku 1728. Stojí na místě starší kaple nebo menšího kostela, který je v pramenech připomínán už roku 1561. Zvláštní hodnotu interiéru dodává pozdně gotická plastika Panny Marie datovaná přibližně kolem roku 1500. Ve věži jsou tři zvony spojené s chomutovskou dílnou Richarda Herolda; obecní výroční zpráva uvádí jejich maďarské nápisy a rok 1928, u jednoho zvonu s výhradou pravděpodobného datování. Nápisy připomínají maďarskojazyčné věřící, kteří byli součástí místní farní komunity."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kaple svatého Ladislava: barokní památka někdejšího Malého Bielu",
+          "text": "V historické části Malý Biel stojí kaple zasvěcená svatému Ladislavovi. Obecní územní plán uvádí, že původně barokní stavba vznikla roku 1732 a byla obnovena roku 1776. Kaple připomíná dobu, kdy Malý Biel existoval jako samostatná obec a měl vlastní sakrální centrum vedle sousedního Veľkého Bielu. Její patron, Ladislav I. z arpádovského rodu, vládl v Uherském království v letech 1077–1095 a za svatého byl prohlášen roku 1192. Kaple tak propojuje místní dějiny s náboženskou tradicí středověkého Uherska a pomáhá číst původní dvojdílnou strukturu dnešní obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: rekreační jezero vzniklé těžbou štěrkopísku",
+          "text": "Bielske jazero na jihozápadním okraji Veľkého Bielu není původním přírodním jezerem. Vzniklo v 70. letech 20. století při těžbě štěrkopísku z říčních náplavů Podunajské roviny; vytěžený materiál se využil při výstavbě dálničního úseku Bratislava–Trnava. Název Bielske jazero je veden také v seznamu standardizovaných geografických názvů Úřadu geodézie, kartografie a katastru SR a je přiřazen ke katastru Veľkého Bielu v okrese Senec. Bývalé štěrkovisko se proměnilo ve výraznou vodní plochu místní krajiny. Regionální zdroje popisují jeho využití k rybolovu a rekreaci; uvádějí také výskyt kapra, cejna, plotice, štiky, candáta, sumce a úhoře."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohradnicko-ovocnářská stezka Šalaperská hora a zdejší vinařská tradice",
+          "text": "Veľký Biel je výchozím bodem vinohradnicko-ovocnářské naučné stezky Šalaperská hora. Trasa začíná před obecním úřadem či kulturním domem a pokračuje polními cestami směrem k mírné vyvýšenině na okraji Trnavské pahorkatiny; sedm informačních panelů přibližuje historii obce, kaštieľ, vinařství i okolní krajinu. Svahy Šalaperské hory měly díky teplému klimatu a vhodným půdám dlouhou tradici pěstování révy. Místní vinice patřily mimo jiné bratislavským klášterům a Esterházyům z Bernolákova; víno se vyváželo do Vídně a českých zemí. Vinohradnictví oslabila v 19. století révokazová nákaza a později kolektivizace, tradice však v krajině přetrvala."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Gemeindeamt Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel und Malý Biel: zwei mittelalterliche Siedlungen, die zu einer Gemeinde wurden",
+          "text": "Veľký Biel erscheint 1294 als Beel; Malý Biel ist 1323 als Minor Beel und später auch als Németbél belegt. Beide Orte entwickelten sich zunächst getrennt: Veľký Biel gehörte zur Herrschaft der Burg Pressburg und besaß Güter der Familien Földes, Szülő, Horváth und Molnár, während Malý Biel der Familie Orosz gehörte. Im 16. Jahrhundert ließen sich kroatische Kolonisten in Malý Biel nieder. Veľký Biel hieß bis 1948 Magyarbél, Malý Biel erhielt im selben Jahr seinen heutigen Namen. 1960 wurden beide Gemeinden unter dem Namen Veľký Biel vereinigt. Die ursprünglichen zwei Siedlungskerne sind im Ortsgrundriss noch erkennbar."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Csáky-Schloss: ein monumentaler Barockbau aus den Jahren 1722–1725",
+          "text": "Am Rand von Veľký Biel steht ein großes Barockschloss, dessen Bau auf 1722–1725 datiert wird. Die Gemeindegeschichte nennt Žigmund Csáky als Eigentümer und seinen Bruder Imrich, einen Erzbischof, als Verwalter. Eine Eckkapelle enthielt Fresken von G. A. Galliardi, die durch Kriegsschäden im Zweiten Weltkrieg verloren gingen. 1958–1961 wurde das Schloss wiederhergestellt. Später diente es unter anderem als Altersheim und soziale Einrichtung. Baukörper, Ecktürme und Ehrenhof prägen bis heute die Silhouette der Gemeinde."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Kirche der Kreuzerhöhung und eine spätgotische Madonna",
+          "text": "Die Pfarrkirche der Kreuzerhöhung in Veľký Biel erhielt ihre barocke Gestalt im 18. Jahrhundert; der Flächennutzungsplan datiert Bau oder grundlegende Erneuerung auf 1728. Sie steht an der Stelle einer älteren Kapelle oder kleinen Kirche, die bereits 1561 erwähnt wird. Im Innenraum befindet sich eine spätgotische Marienplastik von etwa 1500. Im Turm hängen drei Glocken aus der Werkstatt von Richard Herold in Chomutov. Der Gemeinderechenschaftsbericht dokumentiert ungarische Inschriften und das Jahr 1928, wobei die Datierung einer Glocke als wahrscheinlich angegeben wird. Die Inschriften erinnern an ungarischsprachige Gläubige der örtlichen Pfarrei."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Ladislauskapelle: ein barockes Denkmal des ehemaligen Malý Biel",
+          "text": "Im historischen Ortsteil Malý Biel steht eine dem heiligen Ladislaus geweihte Kapelle. Laut Flächennutzungsplan wurde der ursprünglich barocke Bau 1732 errichtet und 1776 restauriert. Sie erinnert an die Zeit, als Malý Biel eine selbstständige Gemeinde mit eigenem sakralem Zentrum war. Ihr Patron Ladislaus I. aus dem Geschlecht der Árpáden regierte Ungarn von 1077 bis 1095 und wurde 1192 heiliggesprochen. Die Kapelle verbindet Ortsgeschichte mit der religiösen Tradition des mittelalterlichen Ungarn."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: ein durch Kiesabbau entstandener Freizeitsee",
+          "text": "Bielske jazero am südwestlichen Rand von Veľký Biel ist kein natürlicher See. Es entstand in den 1970er Jahren durch den Abbau von Kies und Sand aus den Flussablagerungen der Donauebene; das Material wurde für den Autobahnabschnitt Bratislava–Trnava verwendet. Der Name ist im Verzeichnis standardisierter geografischer Namen der slowakischen Geodäsiebehörde eingetragen und dem Katastergebiet Veľký Biel zugeordnet. Die ehemalige Kiesgrube wurde zu einem prägenden Gewässer der Landschaft. Regionale Quellen beschreiben Angeln und Freizeitnutzung sowie Fischarten wie Karpfen, Brachsen, Hechte, Zander, Welse und Aale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Der Weinbau- und Obstlehrpfad Šalaperská hora und die örtliche Weinbautradition",
+          "text": "Veľký Biel ist der Ausgangspunkt des Lehrpfads Šalaperská hora. Er beginnt vor dem Gemeindeamt oder Kulturhaus und führt über Feldwege zu einer flachen Anhöhe am Rand des Hügellands von Trnava. Sieben Tafeln vermitteln die Geschichte des Ortes, des Schlosses, des Weinbaus und der Landschaft. Die Hänge eigneten sich dank des warmen Klimas und der Böden seit Langem für Weinberge. Diese gehörten unter anderem Klöstern in Bratislava und der Familie Esterházy aus Bernolákovo; Wein wurde nach Wien und in die böhmischen Länder exportiert. Reblaus und spätere Kollektivierung schwächten den Weinbau, doch die Tradition blieb erhalten."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Veľký Biel Municipal Office, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel and Malý Biel: two medieval settlements united as one municipality",
+          "text": "Veľký Biel appears in records in 1294 as Beel; Malý Biel is documented in 1323 as Minor Beel and later also as Németbél. The settlements first developed separately: Veľký Biel belonged to Bratislava Castle’s estate and lands were held by the Földes, Szülő, Horváth and Molnár families, while Malý Biel belonged to the Orosz family. Croatian colonists settled in Malý Biel in the 16th century. Veľký Biel was called Magyarbél until 1948; Malý Biel adopted its current name that year. In 1960 the two municipalities merged as Veľký Biel. Their original separate settlement pattern remains visible."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Csáky Manor House: a monumental Baroque residence from 1722–1725",
+          "text": "A large Baroque manor stands on the edge of Veľký Biel, with construction dated to 1722–1725. Municipal history names Žigmund Csáky as owner and his brother Imrich, an archbishop, as administrator. A corner chapel contained frescoes by G. A. Galliardi, lost when the building was damaged during the Second World War. The manor was restored in 1958–1961 and later served as a retirement home and social-care institution. Its massing, corner towers and courtyard remain a defining part of the village skyline."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Church of the Exaltation of the Holy Cross and a late-Gothic Madonna",
+          "text": "The parish Church of the Exaltation of the Holy Cross acquired its Baroque form in the 18th century; the municipal plan dates its construction or major rebuilding to 1728. It stands on the site of an earlier chapel or small church mentioned in 1561. The interior contains a late-Gothic Virgin Mary sculpture from around 1500. Three bells are associated with Richard Herold’s foundry in Chomutov. The municipal annual report records Hungarian inscriptions and the year 1928, considered probable for one bell. The inscriptions recall the Hungarian-speaking members of the local parish."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Chapel of Saint Ladislaus: a Baroque monument of former Malý Biel",
+          "text": "The historic part of Malý Biel has a chapel dedicated to Saint Ladislaus. The municipal plan records that the originally Baroque building was erected in 1732 and restored in 1776. It recalls the period when Malý Biel was a separate village with its own religious centre. Its patron, Ladislaus I of the Árpád dynasty, ruled Hungary from 1077 to 1095 and was canonised in 1192. The chapel links local history with the religious tradition of medieval Hungary."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: a recreational lake created by gravel extraction",
+          "text": "Bielske jazero, on the southwestern edge of Veľký Biel, is not a natural lake. It formed in the 1970s when gravel and sand were extracted from the Danubian Plain’s river deposits for the Bratislava–Trnava motorway. The name is listed in Slovakia’s register of standardised geographical names and assigned to the cadastral area of Veľký Biel. The former gravel pit has become a prominent water feature. Regional sources describe fishing and recreation, with fish including carp, bream, pike, zander, catfish and eel."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Šalaperská hora wine-and-fruit trail and local viticulture",
+          "text": "Veľký Biel is the starting point of the Šalaperská hora educational trail. It begins in front of the municipal office or cultural centre and follows field paths towards a low rise on the edge of the Trnava Hills. Seven panels introduce the village, manor house, viticulture and landscape. The slopes were long suitable for vineyards because of their warm climate and soils. Vineyards belonged to monasteries in Bratislava and the Esterházy family of Bernolákovo; wine was exported to Vienna and the Czech lands. Phylloxera and later collectivisation weakened viticulture, but the tradition remains part of the landscape."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Ayuntamiento de Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel y Malý Biel: dos asentamientos medievales unidos en un municipio",
+          "text": "Veľký Biel aparece en documentos de 1294 como Beel; Malý Biel está documentado en 1323 como Minor Beel y más tarde como Németbél. Al principio tuvieron historias separadas: Veľký Biel pertenecía al señorío del castillo de Bratislava y sus tierras pasaron por familias nobles Földes, Szülő, Horváth y Molnár, mientras Malý Biel pertenecía a los Orosz. En el siglo XVI llegaron colonos croatas a Malý Biel. Veľký Biel se llamó Magyarbél hasta 1948; Malý Biel adoptó su nombre actual ese año. En 1960 ambas localidades se unieron bajo el nombre de Veľký Biel. Sus dos núcleos históricos aún se reconocen en el trazado municipal."
+        },
+        {
+          "id": "fact_002",
+          "title": "El palacio Csáky: residencia barroca monumental de 1722–1725",
+          "text": "En el borde de Veľký Biel se alza un gran palacio barroco cuya construcción se fecha entre 1722 y 1725. La historia municipal señala a Žigmund Csáky como propietario y a su hermano Imrich, arzobispo, como administrador. Una capilla en una esquina tenía frescos de G. A. Galliardi, perdidos cuando el edificio sufrió daños durante la Segunda Guerra Mundial. El palacio fue restaurado entre 1958 y 1961 y después sirvió como residencia de ancianos e institución social. Su volumen, torres y patio siguen definiendo la silueta del pueblo."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia de la Exaltación de la Santa Cruz y una Virgen tardogótica",
+          "text": "La iglesia parroquial de la Exaltación de la Santa Cruz adquirió su forma barroca en el siglo XVIII; el plan municipal fecha su construcción o reforma principal en 1728. Ocupa el lugar de una capilla o iglesia pequeña mencionada ya en 1561. En su interior hay una escultura tardogótica de la Virgen María de alrededor de 1500. Tres campanas se relacionan con la fundición de Richard Herold en Chomutov. El informe municipal registra inscripciones en húngaro y el año 1928, probable para una de ellas. Las inscripciones recuerdan a los fieles húngaroparlantes de la parroquia."
+        },
+        {
+          "id": "fact_004",
+          "title": "La capilla de San Ladislao: monumento barroco del antiguo Malý Biel",
+          "text": "En la parte histórica de Malý Biel se encuentra una capilla dedicada a san Ladislao. El plan municipal indica que el edificio, originalmente barroco, se construyó en 1732 y se restauró en 1776. Recuerda la época en que Malý Biel era una localidad independiente con su propio centro religioso. Su patrón, Ladislao I de la dinastía Árpád, gobernó Hungría entre 1077 y 1095 y fue canonizado en 1192. La capilla enlaza la historia local con la tradición religiosa de la Hungría medieval."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: lago recreativo creado por la extracción de grava",
+          "text": "Bielske jazero, en el suroeste de Veľký Biel, no es un lago natural. Se formó en los años setenta al extraer grava y arena de los depósitos fluviales de la llanura danubiana para construir la autopista Bratislava–Trnava. Su nombre figura en el registro eslovaco de nombres geográficos normalizados y se asigna al término catastral de Veľký Biel. La antigua gravera se convirtió en una destacada masa de agua local. Las fuentes regionales describen la pesca y el ocio, y mencionan carpas, brema, lucios, luciopercas, siluros y anguilas."
+        },
+        {
+          "id": "fact_006",
+          "title": "La ruta didáctica de Šalaperská hora y la tradición vitícola local",
+          "text": "Veľký Biel es el punto de partida de la ruta didáctica de Šalaperská hora. Comienza frente al ayuntamiento o centro cultural y sigue caminos rurales hacia una elevación baja en el borde de las colinas de Trnava. Siete paneles presentan la historia del pueblo, el palacio, la viticultura y el paisaje. Las laderas eran adecuadas para la vid por su clima cálido y sus suelos. Los viñedos pertenecieron a monasterios de Bratislava y a los Esterházy de Bernolákovo; el vino se exportaba a Viena y a tierras checas. La filoxera y la colectivización debilitaron el cultivo, pero la tradición perduró."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Mairie de Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel et Malý Biel : deux villages médiévaux réunis en une commune",
+          "text": "Veľký Biel apparaît dans les sources en 1294 sous le nom de Beel ; Malý Biel est attesté en 1323 sous le nom de Minor Beel, puis de Németbél. Les deux villages ont d’abord suivi des histoires distinctes : Veľký Biel dépendait du domaine du château de Bratislava et des familles Földes, Szülő, Horváth et Molnár y détenaient des terres, tandis que Malý Biel appartenait aux Orosz. Des colons croates s’installèrent à Malý Biel au XVIe siècle. Veľký Biel s’appelait Magyarbél jusqu’en 1948 ; Malý Biel reçut son nom actuel la même année. Les deux communes fusionnèrent en 1960 sous le nom de Veľký Biel. Les anciens noyaux restent lisibles dans le plan du village."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le château des Csáky : résidence baroque monumentale de 1722–1725",
+          "text": "À Veľký Biel se dresse un grand château baroque construit entre 1722 et 1725. L’histoire communale désigne Žigmund Csáky comme propriétaire et son frère Imrich, archevêque, comme administrateur. Une chapelle d’angle contenait des fresques de G. A. Galliardi, perdues lorsque le bâtiment fut endommagé pendant la Seconde Guerre mondiale. Le château fut restauré entre 1958 et 1961, puis servit notamment de maison de retraite et d’établissement social. Sa masse, ses tours et sa cour restent des éléments marquants du paysage communal."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église de l’Exaltation de la Sainte-Croix et une Vierge gothique tardive",
+          "text": "L’église paroissiale de l’Exaltation de la Sainte-Croix a pris sa forme baroque au XVIIIe siècle ; le plan communal date sa construction ou sa reconstruction majeure de 1728. Elle occupe l’emplacement d’une chapelle ou petite église mentionnée dès 1561. L’intérieur conserve une sculpture gothique tardive de la Vierge Marie datant d’environ 1500. Trois cloches sont liées à la fonderie de Richard Herold à Chomutov. Le rapport communal relève des inscriptions hongroises et la date de 1928, probable pour l’une des cloches. Elles rappellent les fidèles hongrophones de la paroisse."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chapelle Saint-Ladislas : monument baroque de l’ancien Malý Biel",
+          "text": "Dans le quartier historique de Malý Biel se trouve une chapelle dédiée à saint Ladislas. Le plan communal indique que l’édifice, à l’origine baroque, fut construit en 1732 et restauré en 1776. Elle rappelle l’époque où Malý Biel était une commune indépendante dotée de son propre centre religieux. Son patron, Ladislas Ier de la dynastie des Árpád, régna sur la Hongrie de 1077 à 1095 et fut canonisé en 1192. La chapelle relie l’histoire locale à la tradition religieuse de la Hongrie médiévale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero : lac de loisirs créé par l’extraction de gravier",
+          "text": "Bielske jazero, au sud-ouest de Veľký Biel, n’est pas un lac naturel. Il s’est formé dans les années 1970 par l’extraction de gravier et de sable dans les dépôts fluviaux de la plaine danubienne pour construire l’autoroute Bratislava–Trnava. Son nom figure dans le registre slovaque des noms géographiques normalisés et est rattaché au territoire cadastral de Veľký Biel. L’ancienne gravière est devenue un plan d’eau marquant du paysage local. Les sources régionales décrivent la pêche et les loisirs, ainsi que des espèces comme la carpe, la brème, le brochet, le sandre, le silure et l’anguille."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le sentier viticole de Šalaperská hora et la tradition locale de la vigne",
+          "text": "Veľký Biel est le point de départ du sentier didactique de Šalaperská hora. Il commence devant la mairie ou le centre culturel et suit des chemins agricoles vers une faible hauteur au bord des collines de Trnava. Sept panneaux présentent l’histoire du village, du château, de la viticulture et du paysage. Les pentes convenaient à la vigne grâce à leur climat chaud et à leurs sols. Les vignobles appartenaient à des monastères de Bratislava et aux Esterházy de Bernolákovo ; le vin était exporté à Vienne et dans les pays tchèques. Le phylloxéra puis la collectivisation ont affaibli la viticulture, mais la tradition a perduré."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Municipio di Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel e Malý Biel: due insediamenti medievali riuniti in un comune",
+          "text": "Veľký Biel compare nelle fonti del 1294 come Beel; Malý Biel è attestato nel 1323 come Minor Beel e in seguito anche come Németbél. I due centri ebbero inizialmente storie distinte: Veľký Biel apparteneva al dominio del castello di Bratislava e qui possedevano terre le famiglie Földes, Szülő, Horváth e Molnár, mentre Malý Biel apparteneva agli Orosz. Nel XVI secolo a Malý Biel si stabilirono coloni croati. Veľký Biel si chiamò Magyarbél fino al 1948; Malý Biel ricevette il nome attuale nello stesso anno. Nel 1960 i due comuni furono uniti sotto il nome di Veľký Biel. I due nuclei storici sono ancora riconoscibili nell’impianto del paese."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il castello dei Csáky: monumentale residenza barocca del 1722–1725",
+          "text": "A Veľký Biel sorge un grande castello barocco costruito tra il 1722 e il 1725. La storia comunale indica Žigmund Csáky come proprietario e suo fratello Imrich, arcivescovo, come amministratore. Una cappella d’angolo conteneva affreschi di G. A. Galliardi, perduti quando l’edificio fu danneggiato durante la Seconda guerra mondiale. Il castello fu restaurato tra il 1958 e il 1961 e in seguito servì anche come casa di riposo e istituto sociale. La sua mole, le torri angolari e il cortile caratterizzano ancora il profilo del comune."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa dell’Esaltazione della Santa Croce e una Madonna tardogotica",
+          "text": "La chiesa parrocchiale dell’Esaltazione della Santa Croce assunse la forma barocca nel XVIII secolo; il piano comunale data la costruzione o una grande ricostruzione al 1728. Sorge sul sito di una cappella o piccola chiesa menzionata già nel 1561. All’interno si conserva una scultura tardogotica della Vergine Maria, databile intorno al 1500. Tre campane sono legate alla fonderia di Richard Herold a Chomutov. La relazione comunale documenta iscrizioni in ungherese e la data 1928, ritenuta probabile per una campana. Le iscrizioni ricordano i fedeli ungherofoni della parrocchia."
+        },
+        {
+          "id": "fact_004",
+          "title": "La cappella di San Ladislao: monumento barocco dell’antica Malý Biel",
+          "text": "Nella parte storica di Malý Biel si trova una cappella dedicata a san Ladislao. Il piano urbanistico comunale riferisce che l’edificio, originariamente barocco, fu costruito nel 1732 e restaurato nel 1776. Ricorda il periodo in cui Malý Biel era un comune autonomo con un proprio centro religioso. Il patrono, Ladislao I della dinastia degli Árpád, regnò in Ungheria dal 1077 al 1095 e fu canonizzato nel 1192. La cappella collega la storia locale alla tradizione religiosa dell’Ungheria medievale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: lago ricreativo nato dall’estrazione di ghiaia",
+          "text": "Bielske jazero, a sud-ovest di Veľký Biel, non è un lago naturale. Si formò negli anni Settanta con l’estrazione di ghiaia e sabbia dai depositi fluviali della pianura danubiana per la costruzione dell’autostrada Bratislava–Trnava. Il nome compare nel registro slovacco dei nomi geografici standardizzati ed è assegnato al territorio catastale di Veľký Biel. L’ex cava è diventata un elemento importante del paesaggio locale. Le fonti regionali descrivono la pesca e il tempo libero e citano specie come carpa, breme, luccio, lucioperca, pesce gatto e anguilla."
+        },
+        {
+          "id": "fact_006",
+          "title": "Il percorso didattico di Šalaperská hora e la tradizione viticola locale",
+          "text": "Veľký Biel è il punto di partenza del percorso didattico di Šalaperská hora. Inizia davanti al municipio o al centro culturale e segue strade agricole verso un rilievo basso ai margini delle colline di Trnava. Sette pannelli raccontano la storia del villaggio, del castello, della viticoltura e del paesaggio. I pendii erano adatti alla vite grazie al clima caldo e ai terreni. I vigneti appartenevano a monasteri di Bratislava e agli Esterházy di Bernolákovo; il vino veniva esportato a Vienna e nelle terre ceche. La fillossera e la collettivizzazione indebolirono la viticoltura, ma la tradizione è rimasta."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Gemeentehuis van Veľký Biel, Železničná 76",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Veľký Biel en Malý Biel: twee middeleeuwse nederzettingen samengevoegd",
+          "text": "Veľký Biel wordt in bronnen uit 1294 vermeld als Beel; Malý Biel is in 1323 bekend als Minor Beel en later ook als Németbél. De plaatsen ontwikkelden zich eerst afzonderlijk: Veľký Biel hoorde bij het domein van de burcht van Bratislava en adellijke families Földes, Szülő, Horváth en Molnár bezaten er grond, terwijl Malý Biel aan de familie Orosz toebehoorde. In de 16e eeuw vestigden Kroatische kolonisten zich in Malý Biel. Veľký Biel heette tot 1948 Magyarbél; Malý Biel kreeg dat jaar zijn huidige naam. In 1960 werden beide gemeenten samengevoegd tot Veľký Biel. De twee oorspronkelijke kernen zijn nog herkenbaar in de dorpsstructuur."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Csáky-landhuis: monumentale barokke residentie uit 1722–1725",
+          "text": "Aan de rand van Veľký Biel staat een groot barok landhuis dat tussen 1722 en 1725 werd gebouwd. Volgens de gemeentelijke geschiedenis was Žigmund Csáky de eigenaar en beheerde zijn broer Imrich, een aartsbisschop, het landgoed. Een kapel in een hoek bevatte fresco’s van G. A. Galliardi; die gingen verloren toen het gebouw tijdens de Tweede Wereldoorlog beschadigd raakte. Het landhuis werd in 1958–1961 gerestaureerd en diende later onder meer als bejaardentehuis en sociale instelling. De omvang, hoektorens en erehof bepalen nog steeds het dorpssilhouet."
+        },
+        {
+          "id": "fact_003",
+          "title": "De kerk van de Verheffing van het Heilig Kruis en een laatgotische Madonna",
+          "text": "De parochiekerk van de Verheffing van het Heilig Kruis kreeg in de 18e eeuw haar barokke vorm; het gemeentelijke plan dateert de bouw of grote verbouwing op 1728. De kerk staat op de plek van een oudere kapel of kleine kerk die al in 1561 wordt genoemd. Binnen staat een laatgotisch beeld van Maria uit ongeveer 1500. Drie klokken zijn verbonden met de werkplaats van Richard Herold in Chomutov. Het gemeentelijke verslag vermeldt Hongaarse opschriften en het jaar 1928, waarschijnlijk voor één klok. De opschriften herinneren aan Hongaarstalige parochianen."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Ladislauskapel: barok monument uit het vroegere Malý Biel",
+          "text": "In het historische deel van Malý Biel staat een kapel gewijd aan Sint-Ladislaus. Het gemeentelijke plan vermeldt dat het oorspronkelijk barokke gebouw in 1732 werd gebouwd en in 1776 werd gerestaureerd. De kapel herinnert aan de tijd waarin Malý Biel een zelfstandige gemeente met een eigen religieus centrum was. De patroonheilige, Ladislaus I uit de Árpáden-dynastie, regeerde van 1077 tot 1095 over Hongarije en werd in 1192 heilig verklaard. De kapel verbindt de lokale geschiedenis met de religieuze traditie van middeleeuws Hongarije."
+        },
+        {
+          "id": "fact_005",
+          "title": "Bielske jazero: recreatiemeer ontstaan door grindwinning",
+          "text": "Bielske jazero aan de zuidwestkant van Veľký Biel is geen natuurlijk meer. Het ontstond in de jaren zeventig door winning van grind en zand uit rivierafzettingen van de Donauvlakte voor de aanleg van de snelweg Bratislava–Trnava. De naam staat in het Slowaakse register van gestandaardiseerde geografische namen en hoort bij het kadastrale gebied Veľký Biel. De voormalige groeve is een opvallend waterelement in het landschap geworden. Regionale bronnen beschrijven vissen en recreatie en noemen soorten als karper, brasem, snoek, snoekbaars, meerval en paling."
+        },
+        {
+          "id": "fact_006",
+          "title": "Het educatieve wijn- en fruitpad Šalaperská hora en de lokale wijnbouwtraditie",
+          "text": "Veľký Biel is het startpunt van het educatieve pad Šalaperská hora. De route begint voor het gemeentehuis of cultuurcentrum en volgt veldwegen naar een lage heuvel aan de rand van de heuvels van Trnava. Zeven informatiepanelen vertellen over het dorp, het landhuis, de wijnbouw en het landschap. De hellingen waren door hun warme klimaat en bodem geschikt voor wijngaarden. Die behoorden onder meer toe aan kloosters in Bratislava en de Esterházy’s van Bernolákovo; wijn werd uitgevoerd naar Wenen en de Tsjechische landen. Druifluis en later collectivisatie verzwakten de wijnbouw, maar de traditie bleef zichtbaar."
+        }
+      ]
+    }
+  }
 }
