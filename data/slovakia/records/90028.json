@@ -1,4 +1,706 @@
 {
   "postcode": "90028",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Ivanka pri Dunaji",
+  "district": null,
+  "district_type": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Grassalkovichov kaštieľ v Ivanke pri Dunaji",
+  "representative_point": {
+    "lat": 48.190517,
+    "lon": 17.259062
+  },
+  "access_point": {
+    "lat": 48.190517,
+    "lon": 17.259062
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "priority": "C",
+      "category": "history",
+      "map_category": "historic_city",
+      "title": "Ivanka a Farná: dve historické osady s koreňmi v roku 1209",
+      "text": "Územie dnešnej Ivanky pri Dunaji bolo osídlené už v praveku. Archeológia tu doložila eneolitické kostrové pohrebisko, rímsko-barbarské žiarové pohrebisko a hroby z obdobia sťahovania národov. Písomná zmienka z roku 1209 uvádza osadu Joan; v tej istej listinnej tradícii sa objavuje aj Farná pod starším názvom Cazteilan. Farná bola majetkom bratislavskej kapituly a k Ivanke sa administratívne pripojila v roku 1923. V roku 1324 sa Ivanka spomína ako Terra Iwan, teda Zem Jánova, a prameň už dokladá kostol a faru. Neskoršie názvy Iwand, Aichen a Aicha odrážajú viacjazyčné dejiny územia.",
+      "sources": [
+        "https://www.slovensko.sk/sk/lokality/_d6433f1e-a958-44be-ad80-7a981583f597",
+        "https://www.ivankapridunaji.sk/historia-obce.html"
+      ],
+      "location": {
+        "name": "Historické jadro Ivanky pri Dunaji – orientačný bod",
+        "address": "Ivanka pri Dunaji, okres Senec, Slovakia",
+        "lat": 48.1899,
+        "lon": 17.25849,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/lokality/_d6433f1e-a958-44be-ad80-7a981583f597"
+      }
+    },
+    {
+      "id": "fact_002",
+      "priority": "C",
+      "category": "architecture_and_urbanism",
+      "map_category": "architecture",
+      "title": "Grassalkovichov kaštieľ: rokoková rezidencia s príbehom Ľudovíta Štúra",
+      "text": "Kaštieľ vznikol v druhej polovici 18. storočia pre grófa Antona Grassalkovicha ako rokokové šľachtické sídlo s rozsiahlym parkom. Na začiatku 20. storočia ho Hunyadyovci upravili v neogotickom a secesnom duchu; jeho dnešnú siluetu zvýrazňuje polygonálna veža. V roku 1842 panstvo kúpil srbský knieža Michal Obrenović, ktorý tu žil v exile. Roku 1855 ho tajne navštívil Ľudovít Štúr, vtedy pod policajným dozorom v Modre; stretnutie pripomína pamätná tabuľa. Kaštieľ neskôr slúžil aj vede: v rokoch 1953–1993 v ňom sídlilo Laboratórium ochrany rastlín, predchodca pracoviska SAV. Dnes je súčasťou areálu jezuitských inštitúcií a nie je bežne sprístupnený na prehliadky interiéru.",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji",
+        "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/dominanty/163485/kastiel-v-ivanke-pri-dunaji",
+        "https://archiv.sav.sk/inventare/inventar.php?id=156&sig=uvod",
+        "https://www.ivankapridunaji.sk/historia-obce.html"
+      ],
+      "location": {
+        "name": "Grassalkovichov kaštieľ",
+        "address": "Námestie padlých hrdinov, Ivanka pri Dunaji, Slovakia",
+        "lat": 48.190517,
+        "lon": 17.259062,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji"
+      }
+    },
+    {
+      "id": "fact_003",
+      "priority": "C",
+      "category": "heritage_and_monuments",
+      "map_category": "religious_site",
+      "title": "Kostol Narodenia svätého Jána Krstiteľa: barokovo-klasicistická dominanta",
+      "text": "Rímskokatolícky kostol Narodenia svätého Jána Krstiteľa postavili v rokoch 1770–1772 pravdepodobne na staršom sakrálnom základe. Barokovo-klasicistická stavba bola v 19. storočí prestavaná a tvorí výraznú dominantu historického jadra Ivanky. Pod kostolom sa nachádza rodinná hrobka Hunyadyovcov, ktorí vlastnili miestne panstvo v druhej polovici 19. storočia a na začiatku 20. storočia. Kostol tak spája dejiny farnosti, šľachtického patronátu a stavebného vývoja obce.",
+      "sources": [
+        "https://www.slovensko.sk/sk/lokality/_d6433f1e-a958-44be-ad80-7a981583f597",
+        "https://www.ivankapridunaji.sk/historia-obce.html",
+        "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kostol-sv-jana-krstitela"
+      ],
+      "location": {
+        "name": "Kostol Narodenia sv. Jána Krstiteľa",
+        "address": "Ivanka pri Dunaji, Slovakia",
+        "lat": 48.189902,
+        "lon": 17.25849,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kostol-sv-jana-krstitela"
+      }
+    },
+    {
+      "id": "fact_004",
+      "priority": "D",
+      "category": "heritage_and_monuments",
+      "map_category": "religious_site",
+      "title": "Kaplnka svätej Rozálie: poďakovanie za koniec morovej epidémie",
+      "text": "Klasicistickú kaplnku svätej Rozálie postavili v roku 1832 na pamiatku ukončenia morovej epidémie, ktorá obec postihla v roku 1831. Stavbu dala zriadiť obec za richtára Štefana Morávka. Centrálne riešený priestor je zaklenutý kupolou; fasádu členia pilastre a hlavné priečelie uzatvára tympanón. Oltár s obrazom svätej Rozálie pochádza z polovice 19. storočia. Kaplnka stojí v malom parku na Námestí svätej Rozálie a je zapísaná v Ústrednom zozname pamiatkového fondu SR.",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kaplnka-sv-rozalie",
+        "https://www.slovensko.sk/sk/lokality/_d6433f1e-a958-44be-ad80-7a981583f597"
+      ],
+      "location": {
+        "name": "Kaplnka sv. Rozálie",
+        "address": "Námestie sv. Rozálie, Ivanka pri Dunaji, Slovakia",
+        "lat": 48.188866,
+        "lon": 17.256053,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kaplnka-sv-rozalie"
+      }
+    },
+    {
+      "id": "fact_005",
+      "priority": "A",
+      "category": "history",
+      "map_category": "historical_monument",
+      "title": "Mohyla M. R. Štefánika: miesto leteckej tragédie z 4. mája 1919",
+      "text": "Na území Ivanky pri Dunaji sa nachádza pamätné miesto tragického pádu lietadla, pri ktorom 4. mája 1919 zahynul Milan Rastislav Štefánik spolu s tromi talianskymi členmi posádky: pilotom I. Mancinellim-Scottim, seržantom H. Merlinom a strelcom G. Aggiutinim. Pyramídový pamätník vznikol v roku 1923 podľa projektu architekta Dušana Jurkoviča. Areál tvorí lipová aleja, priekopa, násyp, centrálna pyramída a žulová stéla s nápisom. V roku 1928 ho obnovili podľa Jurkovičovho projektu a v rokoch 1988–1992 znovu renovovali. Ide o jedno z kľúčových miest slovenskej modernej pamäti, spojené so vznikom Československa a návratom Štefánika do vlasti.",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-pamatnik-milana-rastislava-stefanika-mohyla",
+        "https://www.vets.cz/vpm/20947-pomnik-m-r-stefanik/"
+      ],
+      "location": {
+        "name": "Mohyla Milana Rastislava Štefánika",
+        "address": "Extravilán Ivanky pri Dunaji, pri letisku M. R. Štefánika, Slovakia",
+        "lat": 48.171334,
+        "lon": 17.230609,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-pamatnik-milana-rastislava-stefanika-mohyla"
+      }
+    },
+    {
+      "id": "fact_006",
+      "priority": "C",
+      "category": "history",
+      "map_category": "personality",
+      "title": "Zálesie a Ignác Gessay: obec založená pre slovenských prisťahovalcov",
+      "text": "Druhou obcou, ktorej adresy patria do geografického PSČ 900 28, je Zálesie na brehu Malého Dunaja. Osada vznikla v roku 1923 na pozemkoch medzi Ivankou pri Dunaji a Malinovom, ktoré pomohla získať Slovenská liga na Slovensku vedená Ignácom Gessayom. Noví obyvatelia prichádzali najmä zo severného Slovenska a z niekoľkých obcí západného Slovenska; pôvodný názov Gešajov pripomínal Gessayovu pomoc pri zakladaní sídla. Gessay (1874–1928) bol novinár, krajanský organizátor v USA a významný účastník československého zahraničného odboja. Obec sa neskôr volala Zálesie, v roku 1976 bola pričlenená k Ivanke a v roku 1990 znovu získala samostatnosť. Jej dnešná poloha medzi Malým Dunajom a lužnými lesmi vysvetľuje názov obce.",
+      "sources": [
+        "https://www.obeczalesie.sk/obec/historia-obce/",
+        "https://www.obeczalesie.sk/e_download.php?file=data%2Feditor%2F65sk_1.pdf&original=ERB+OBCE+Z%C3%81LESIE.pdf",
+        "https://obeczalesie.sk/old/UPN/PHSRobceZalesie.pdf",
+        "https://www.obeczalesie.sk/kontakt/"
+      ],
+      "location": {
+        "name": "Zálesie – orientačný bod v sídelnom území, nie presná poloha pamätnej tabule",
+        "address": "Zálesie, okres Senec, Slovakia",
+        "lat": 48.1636301,
+        "lon": 17.260326,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.obeczalesie.sk/kontakt/mapa/"
+      }
+    },
+    {
+      "id": "fact_007",
+      "priority": "D",
+      "category": "architecture_and_urbanism",
+      "map_category": "religious_site",
+      "title": "Kaplnka svätej Trojice v Zálesí: sakrálna stavba mladej obce",
+      "text": "Kaplnku svätej Trojice v Zálesí vysvätili v roku 1932. Je to jednoloďová stavba so segmentovým uzáverom presbytéria; oltár nahrádza obraz Najsvätejšej Trojice. Fasádu členia lizény a nad vstupom je trojuholníkový murovaný štít s nikou, v ktorej stojí socha svätého Jozefa. Kaplnka vznikla v prvom desaťročí po založení osady Gešajov a dokumentuje, ako si nová poľnohospodárska komunita budovala vlastné náboženské a spoločenské zázemie. Obec ju v rokoch 2008–2010 obnovila a zverejňuje k nej samostatné historické a architektonické materiály.",
+      "sources": [
+        "https://www.obeczalesie.sk/obec/zaujimavosti-v-obci/",
+        "https://obeczalesie.sk/old/UPN/PHSRobceZalesie.pdf",
+        "https://bratislavskykraj.sk/bratislavsky-kraj-ponuka-siet-cyklotras-ktore-prepajaju-mesto-s-luznou-krajinou-vodnymi-tokmi-jazerami-a-obcami/"
+      ],
+      "location": {
+        "name": "Kaplnka sv. Trojice v Zálesí – orientačný bod pri kaplnke",
+        "address": "Zálesie, okres Senec, Slovakia",
+        "lat": 48.1689,
+        "lon": 17.276,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://www.obeczalesie.sk/obec/zaujimavosti-v-obci/"
+      }
+    },
+    {
+      "id": "fact_008",
+      "priority": "D",
+      "category": "culture_and_industry",
+      "map_category": "technical_heritage",
+      "title": "Záleský maják a Gešajovské mlyny: dobrovoľnícke dedičstvo pri Malom Dunaji",
+      "text": "Na nábreží Malého Dunaja v Zálesí vzniklo v roku 2014 dobrovoľnícke vyhliadkové miesto Záleský maják. Drevená kruhová veža slúži ako rozhľadňa a orientačný bod peších i cyklistických trás; z plošiny sa otvára výhľad na rieku a pás lužných porastov. V okolí vzniklo Korzo Zálesie s mólom a prístavom pre vodákov. V roku 2012 dobrovoľníci osadili pri lodenici tri repliky vodných mlynov, nazývané Gešajovské mlyny. Nejde o zachované historické mlyny, ale o novodobé pripomenutie vodného a hospodárskeho charakteru krajiny a o komunitný projekt, ktorý prepája rekreáciu, rieku a miestnu pamäť.",
+      "sources": [
+        "https://www.obeczalesie.sk/obec/zaujimavosti-v-obci/",
+        "https://bratislavskykraj.sk/bratislavsky-kraj-ponuka-siet-cyklotras-ktore-prepajaju-mesto-s-luznou-krajinou-vodnymi-tokmi-jazerami-a-obcami/",
+        "https://danubeislands.sk/zaujimavosti/technicke-pamiatky/zalesky-majak",
+        "https://www.krasneslovensko.eu/bratislavsky-kraj/rozhladna-zalesky-majak-zalesie"
+      ],
+      "location": {
+        "name": "Záleský maják pri Korze Zálesie",
+        "address": "Nábrežie Malého Dunaja, Zálesie, Slovakia",
+        "lat": 48.16096,
+        "lon": 17.28024,
+        "type": "viewpoint",
+        "accuracy": "exact",
+        "source": "https://www.krasneslovensko.eu/bratislavsky-kraj/rozhladna-zalesky-majak-zalesie"
+      }
+    },
+    {
+      "id": "fact_009",
+      "priority": "D",
+      "category": "nature_and_landscape",
+      "map_category": "nature",
+      "title": "Šutrovka: štrkoviskové jazero premenené na rekreačnú krajinu",
+      "text": "Prírodné jazero na južnom okraji Ivanky pri Dunaji vzniklo ľudskou činnosťou – ťažbou štrkopieskov, ktorá sa začala približne okolo roku 1960 a trvala viac než desať rokov. Po ukončení ťažby sa vodná plocha s rozlohou približne 7,5 hektára postupne využíva na rekreáciu a rybolov. Úrad verejného zdravotníctva SR eviduje pri jazere prírodnú pláž so štrkovým povrchom a pozvoľným vstupom do vody; celková plocha sledovanej lokality je približne 14,5 hektára. Miesto ukazuje, ako sa pri Bratislave premenili bývalé ťažobné priestory na súčasnú vodnú a rekreačnú krajinu.",
+      "sources": [
+        "https://www.uvzsr.sk/documents/41637/137194/Ivanka_pri_Dunaji.pdf/099b38dd-4830-9900-72d6-fb14e0661acb?t=1659555646181",
+        "https://www.vypadni.sk/sk/strkovisko-ivanka-pri-dunaji"
+      ],
+      "location": {
+        "name": "Šutrovka – prírodné jazero Ivanka pri Dunaji",
+        "address": "Južná časť Ivanky pri Dunaji, Slovakia",
+        "lat": 48.1754,
+        "lon": 17.2625,
+        "type": "pond",
+        "accuracy": "exact",
+        "source": "https://www.uvzsr.sk/documents/41637/137194/Ivanka_pri_Dunaji.pdf/099b38dd-4830-9900-72d6-fb14e0661acb?t=1659555646181"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ https://www.posta.sk/psc; geografický rozsah PSČ 90028 je krížovo potvrdený oficiálnou fyzickou adresou obecného úradu Ivanka pri Dunaji (900 28) a samostatnou oficiálnou adresou obecného úradu Zálesie (900 28). Zoznam obcí obsluhovaných PSČ 90028 potvrdzuje aj SITA.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiálny vyhľadávač PSČ Slovenskej pošty; fyzické adresy dvoch obecných úradov a sekundárne potvrdenie obcí priradených k PSČ 90028. Nebola deklarovaná polygonová hranica PSČ.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "PSČ 90028 zahŕňa minimálne geografické adresy v obciach Ivanka pri Dunaji a Zálesie. Ivanka pri Dunaji je zvolená ako reprezentatívna obec podľa polohy dodávacej pošty a hlavného sídelného jadra; Zálesie je zahrnuté do obsahového rozsahu. Presná polygonová hranica nebola odvodzovaná.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Ivanka pri Dunaji a Obec Zálesie – oficiálne fyzické adresy s PSČ 900 28; Ústredný portál verejnej správy – administratívny a historický profil Ivanky; odborné pamiatkové zdroje pre polohy objektov; ÚVZ SR pre lokalizáciu a parametre jazera."
+  },
+  "sources": [
+    {
+      "title": "Ústredný portál verejnej správy – Ivanka pri Dunaji (história, archeológia a pamiatky)",
+      "url": "https://www.slovensko.sk/sk/lokality/_d6433f1e-a958-44be-ad80-7a981583f597",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ivanka pri Dunaji – História obce",
+      "url": "https://www.ivankapridunaji.sk/historia-obce.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ivanka pri Dunaji – Kontakty (adresa a PSČ)",
+      "url": "https://www.ivankapridunaji.sk/-zakladne-kontakty-.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Ivanka pri Dunaji – Pošta (fyzická adresa pošty a PSČ)",
+      "url": "https://www.ivankapridunaji.sk/posta/ll/0/sm/0/.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Ivanka pri Dunaji",
+      "url": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská televízia a rozhlas – Kaštieľ v Ivanke pri Dunaji",
+      "url": "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/dominanty/163485/kastiel-v-ivanke-pri-dunaji",
+      "type": "national_media"
+    },
+    {
+      "title": "Ústredný archív SAV – Inventár Ústavu experimentálnej fytopatológie a entomológie",
+      "url": "https://archiv.sav.sk/inventare/inventar.php?id=156&sig=uvod",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Krstiteľa",
+      "url": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kostol-sv-jana-krstitela",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Rozálie",
+      "url": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-kaplnka-sv-rozalie",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Mohyla Milana Rastislava Štefánika",
+      "url": "https://www.pamiatkynaslovensku.sk/ivanka-pri-dunaji-pamatnik-milana-rastislava-stefanika-mohyla",
+      "type": "specialist"
+    },
+    {
+      "title": "Spolek pro vojenská pietní místa – Mohyla M. R. Štefánika",
+      "url": "https://www.vets.cz/vpm/20947-pomnik-m-r-stefanik/",
+      "type": "specialist"
+    },
+    {
+      "title": "Úrad verejného zdravotníctva SR – Prírodné jazero Ivanka pri Dunaji",
+      "url": "https://www.uvzsr.sk/documents/41637/137194/Ivanka_pri_Dunaji.pdf/099b38dd-4830-9900-72d6-fb14e0661acb?t=1659555646181",
+      "type": "official"
+    },
+    {
+      "title": "Obec Zálesie – História obce",
+      "url": "https://www.obeczalesie.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Zálesie – Zaujímavosti v obci",
+      "url": "https://www.obeczalesie.sk/obec/zaujimavosti-v-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Zálesie – Kontakty a sídlo obecného úradu",
+      "url": "https://www.obeczalesie.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Zálesie – Erb obce a príbeh založenia",
+      "url": "https://www.obeczalesie.sk/e_download.php?file=data%2Feditor%2F65sk_1.pdf&original=ERB+OBCE+Z%C3%81LESIE.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Zálesie – Program hospodárskeho a sociálneho rozvoja",
+      "url": "https://obeczalesie.sk/old/UPN/PHSRobceZalesie.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Bratislavský samosprávny kraj – Cyklotrasy pri Malom Dunaji a Korzo Zálesie",
+      "url": "https://bratislavskykraj.sk/bratislavsky-kraj-ponuka-siet-cyklotras-ktore-prepajaju-mesto-s-luznou-krajinou-vodnymi-tokmi-jazerami-a-obcami/",
+      "type": "regional"
+    },
+    {
+      "title": "Danube Islands – Záleský maják",
+      "url": "https://danubeislands.sk/zaujimavosti/technicke-pamiatky/zalesky-majak",
+      "type": "regional"
+    },
+    {
+      "title": "Krásne Slovensko – Záleský maják (GPS)",
+      "url": "https://www.krasneslovensko.eu/bratislavsky-kraj/rozhladna-zalesky-majak-zalesie",
+      "type": "regional"
+    },
+    {
+      "title": "Vypadni.sk – Štrkovisko Ivanka pri Dunaji (GPS)",
+      "url": "https://www.vypadni.sk/sk/strkovisko-ivanka-pri-dunaji",
+      "type": "regional"
+    },
+    {
+      "title": "Slovenská pošta – Oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "SITA – PSČ 90028: Ivanka pri Dunaji a Zálesie",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90028/",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Zálesie – Mapa obce (orientačné zobrazenie územia)",
+      "url": "https://www.obeczalesie.sk/kontakt/mapa/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Grassalkovichov kaštieľ v Ivanke pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka a Farná: dvě historické osady s kořeny v roce 1209",
+          "text": "Území dnešní Ivanky pri Dunaji bylo osídleno už v pravěku. Archeologie zde doložila eneolitické kostrové pohřebiště, římsko-barbarské žárové pohřebiště a hroby z období stěhování národů. Písemná zmínka z roku 1209 uvádí osadu Joan; v téže listinné tradici se objevuje také Farná pod starším názvem Cazteilan. Farná byla majetkem bratislavské kapituly a k Ivance se administrativně připojila roku 1923. V roce 1324 se Ivanka připomíná jako Terra Iwan, tedy Země Janova, a pramen už dokládá kostel a faru. Pozdější názvy Iwand, Aichen a Aicha odrážejí vícejazyčné dějiny území."
+        },
+        {
+          "id": "fact_002",
+          "title": "Grassalkovichův zámek: rokoková rezidence s příběhem Ľudovíta Štúra",
+          "text": "Zámek vznikl ve druhé polovině 18. století pro hraběte Antona Grassalkoviche jako rokokové šlechtické sídlo s rozsáhlým parkem. Na začátku 20. století jej Hunyadyové upravili v neogotickém a secesním duchu; jeho dnešní siluetu zvýrazňuje polygonální věž. Roku 1842 panství koupil srbský kníže Michal Obrenović, který zde žil v exilu. V roce 1855 jej tajně navštívil Ľudovít Štúr, tehdy pod policejním dohledem v Modře; setkání připomíná pamětní deska. Zámek později sloužil také vědě: v letech 1953–1993 v něm sídlila Laboratoř ochrany rostlin, předchůdce pracoviště SAV. Dnes je součástí areálu jezuitských institucí a interiér není běžně přístupný."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel Narození svatého Jana Křtitele: barokně-klasicistní dominanta",
+          "text": "Římskokatolický kostel Narození svatého Jana Křtitele byl postaven v letech 1770–1772, pravděpodobně na starším sakrálním základu. Barokně-klasicistní stavba byla v 19. století přestavěna a tvoří výraznou dominantu historického jádra Ivanky. Pod kostelem se nachází rodinná hrobka Hunyadyů, kteří vlastnili místní panství ve druhé polovině 19. a na začátku 20. století. Kostel tak spojuje dějiny farnosti, šlechtického patronátu a stavebního vývoje obce."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kaple svaté Rozálie: poděkování za konec morové epidemie",
+          "text": "Klasicistní kaple svaté Rozálie byla postavena roku 1832 na památku ukončení morové epidemie, která obec postihla v roce 1831. Stavbu nechala zřídit obec za rychtáře Štefana Morávka. Centrálně řešený prostor je zaklenut kupolí; fasádu člení pilastry a hlavní průčelí uzavírá tympanon. Oltář s obrazem svaté Rozálie pochází z poloviny 19. století. Kaple stojí v malém parku na Náměstí svaté Rozálie a je zapsána v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mohyla M. R. Štefánika: místo letecké tragédie ze 4. května 1919",
+          "text": "Na území Ivanky pri Dunaji se nachází pamětní místo tragického pádu letadla, při němž 4. května 1919 zahynul Milan Rastislav Štefánik spolu se třemi italskými členy posádky: pilotem I. Mancinellim-Scottim, seržantem H. Merlinem a střelcem G. Aggiutinim. Pyramidový památník vznikl roku 1923 podle projektu architekta Dušana Jurkoviče. Areál tvoří lipová alej, příkop, násyp, centrální pyramida a žulová stéla s nápisem. V roce 1928 byl obnoven podle Jurkovičova projektu a v letech 1988–1992 znovu renovován. Jde o jedno z klíčových míst slovenské moderní paměti, spojené se vznikem Československa a Štefánikovým návratem do vlasti."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie a Ignác Gessay: obec založená pro slovenské přistěhovalce",
+          "text": "Druhou obcí, jejíž adresy patří do geografického PSČ 900 28, je Zálesie na břehu Malého Dunaje. Osada vznikla roku 1923 na pozemcích mezi Ivankou pri Dunaji a Malinovem, které pomohla získat Slovenská liga na Slovensku vedená Ignácem Gessayem. Noví obyvatelé přicházeli především ze severního Slovenska a z několika obcí západního Slovenska; původní název Gešajov připomínal Gessayovu pomoc při zakládání sídla. Gessay (1874–1928) byl novinář, krajanský organizátor v USA a významný účastník československého zahraničního odboje. Obec se později nazývala Zálesie, roku 1976 byla připojena k Ivance a roku 1990 znovu získala samostatnost. Její dnešní poloha mezi Malým Dunajem a lužními lesy vysvětluje název obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kaple Nejsvětější Trojice v Zálesí: sakrální stavba mladé obce",
+          "text": "Kaple Nejsvětější Trojice v Zálesí byla vysvěcena roku 1932. Jde o jednolodní stavbu se segmentovým závěrem presbytáře; oltář nahrazuje obraz Nejsvětější Trojice. Fasádu člení lizény a nad vstupem je trojúhelníkový zděný štít s nikou, v níž stojí socha svatého Josefa. Kaple vznikla v prvním desetiletí po založení osady Gešajov a dokládá, jak si nová zemědělská komunita budovala vlastní náboženské a společenské zázemí. Obec ji v letech 2008–2010 obnovila a zveřejňuje k ní samostatné historické a architektonické materiály."
+        },
+        {
+          "id": "fact_008",
+          "title": "Záleský maják a Gešajovské mlýny: dobrovolnické dědictví u Malého Dunaje",
+          "text": "Na nábřeží Malého Dunaje v Zálesí vzniklo roku 2014 dobrovolnické vyhlídkové místo Záleský maják. Dřevěná kruhová věž slouží jako rozhledna a orientační bod pěších i cyklistických tras; z plošiny se otevírá výhled na řeku a pás lužních porostů. V okolí vzniklo Korzo Zálesie s molem a přístavem pro vodáky. V roce 2012 dobrovolníci umístili u loděnice tři repliky vodních mlýnů, zvané Gešajovské mlýny. Nejde o dochované historické mlýny, ale o novodobou připomínku vodního a hospodářského charakteru krajiny a komunitní projekt propojující rekreaci, řeku a místní paměť."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: štěrkovnové jezero proměněné v rekreační krajinu",
+          "text": "Přírodní jezero na jižním okraji Ivanky pri Dunaji vzniklo lidskou činností – těžbou štěrkopísku, která začala přibližně kolem roku 1960 a trvala více než deset let. Po ukončení těžby se vodní plocha o rozloze přibližně 7,5 hektaru postupně využívá k rekreaci a rybolovu. Úřad veřejného zdravotnictví SR u jezera eviduje přírodní pláž se štěrkovým povrchem a pozvolným vstupem do vody; celková plocha sledované lokality činí přibližně 14,5 hektaru. Místo ukazuje, jak se v okolí Bratislavy proměnily bývalé těžební prostory v současnou vodní a rekreační krajinu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Grassalkovich-Schloss in Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka und Farná: zwei historische Siedlungen mit Wurzeln im Jahr 1209",
+          "text": "Das Gebiet des heutigen Ivanka pri Dunaji war bereits in vorgeschichtlicher Zeit besiedelt. Archäologische Funde belegen ein äneolithisches Körpergräberfeld, ein römisch-barbarisches Brandgräberfeld und Gräber aus der Völkerwanderungszeit. Eine Urkunde von 1209 nennt die Siedlung Joan; in derselben Überlieferung erscheint auch Farná unter dem älteren Namen Cazteilan. Farná gehörte dem Pressburger Kapitel und wurde 1923 verwaltungsmäßig Ivanka angeschlossen. 1324 wird Ivanka als Terra Iwan, „Land des Johannes“, erwähnt; die Quelle belegt bereits eine Kirche und ein Pfarrhaus. Spätere Formen wie Iwand, Aichen und Aicha spiegeln die mehrsprachige Geschichte der Gegend wider."
+        },
+        {
+          "id": "fact_002",
+          "title": "Grassalkovich-Schloss: Rokoko-Residenz und die Geschichte von Ľudovít Štúr",
+          "text": "Das Schloss wurde in der zweiten Hälfte des 18. Jahrhunderts für Graf Anton Grassalkovich als Rokoko-Adelssitz mit einem weitläufigen Park errichtet. Anfang des 20. Jahrhunderts ließen die Hunyady das Gebäude neugotisch und im Jugendstil umgestalten; die polygonale Turmspitze prägt seine heutige Silhouette. 1842 kaufte der serbische Fürst Mihailo Obrenović das Gut und lebte hier im Exil. 1855 besuchte ihn Ľudovít Štúr heimlich, damals unter Polizeiaufsicht in Modra; eine Gedenktafel erinnert an das Treffen. Später diente das Schloss auch der Wissenschaft: Von 1953 bis 1993 war hier das Labor für Pflanzenschutz untergebracht, ein Vorläufer einer Einrichtung der Slowakischen Akademie der Wissenschaften. Heute gehört es zu einem jesuitischen Areal; Innenbesichtigungen sind nicht regulär möglich."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kirche der Geburt Johannes des Täufers: barock-klassizistisches Wahrzeichen",
+          "text": "Die römisch-katholische Kirche der Geburt Johannes des Täufers wurde 1770–1772 wahrscheinlich auf älteren sakralen Fundamenten errichtet. Der barock-klassizistische Bau wurde im 19. Jahrhundert umgestaltet und prägt das historische Zentrum von Ivanka. Unter der Kirche befindet sich die Familiengruft der Hunyady, die das örtliche Gut in der zweiten Hälfte des 19. und zu Beginn des 20. Jahrhunderts besaßen. Die Kirche verbindet somit Pfarrgeschichte, adelige Patronage und die bauliche Entwicklung der Gemeinde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Rosalienkapelle: Dank für das Ende der Pestepidemie",
+          "text": "Die klassizistische Rosalienkapelle wurde 1832 zum Gedenken an das Ende der Pestepidemie errichtet, die die Gemeinde 1831 heimgesucht hatte. Den Bau ließ die Gemeinde unter dem Richter Štefan Morávek errichten. Der zentral angelegte Innenraum ist von einer Kuppel überwölbt; Pilaster gliedern die Fassade, und ein Tympanon schließt die Hauptfront ab. Der Altar mit dem Bild der heiligen Rosalia stammt aus der Mitte des 19. Jahrhunderts. Die Kapelle steht in einem kleinen Park am Rosalienplatz und ist im zentralen Denkmalregister der Slowakei eingetragen."
+        },
+        {
+          "id": "fact_005",
+          "title": "M. R. Štefánik-Monument: Ort des Flugzeugunglücks vom 4. Mai 1919",
+          "text": "Auf dem Gebiet von Ivanka pri Dunaji befindet sich die Gedenkstätte des Flugzeugabsturzes, bei dem Milan Rastislav Štefánik am 4. Mai 1919 zusammen mit drei italienischen Besatzungsmitgliedern ums Leben kam: Pilot I. Mancinelli-Scotti, Sergeant H. Merlino und Schütze G. Agginutini. Das pyramidenförmige Denkmal entstand 1923 nach einem Entwurf des Architekten Dušan Jurkovič. Die Anlage umfasst eine Lindenallee, einen Graben, einen Erdwall, eine zentrale Pyramide und eine Granitstele mit Inschrift. 1928 wurde sie nach Jurkovičs Entwurf erneuert und 1988–1992 erneut restauriert. Sie ist ein zentraler Ort des modernen slowakischen Gedenkens und mit der Gründung der Tschechoslowakei verbunden."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie und Ignác Gessay: eine Gemeinde für slowakische Siedler",
+          "text": "Die zweite Gemeinde, deren Adressen zum geografischen Postleitzahlgebiet 900 28 gehören, ist Zálesie am Ufer der Kleinen Donau. Die Siedlung entstand 1923 auf Grundstücken zwischen Ivanka pri Dunaji und Malinovo, deren Erwerb die von Ignác Gessay geleitete Slowakische Liga in der Slowakei unterstützte. Die neuen Bewohner kamen vor allem aus Nordslowakei und einigen westslowakischen Gemeinden; der ursprüngliche Name Gešajov erinnerte an Gessays Hilfe bei der Gründung. Gessay (1874–1928) war Journalist, Organisator der slowakischen Auswanderergemeinschaft in den USA und eine wichtige Persönlichkeit des tschechoslowakischen Auslandswiderstands. Später hieß der Ort Zálesie, wurde 1976 Ivanka angeschlossen und erlangte 1990 erneut Selbstständigkeit. Die Lage zwischen der Kleinen Donau und Auwäldern erklärt den heutigen Namen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dreifaltigkeitskapelle in Zálesie: Sakralbau einer jungen Gemeinde",
+          "text": "Die Dreifaltigkeitskapelle in Zálesie wurde 1932 geweiht. Es handelt sich um einen einschiffigen Bau mit segmentförmigem Abschluss des Presbyteriums; anstelle eines Altars steht dort ein Bild der Heiligen Dreifaltigkeit. Lisenen gliedern die Fassade, über dem Eingang befindet sich ein dreieckiger Giebel mit einer Nische und einer Statue des heiligen Josef. Die Kapelle entstand im ersten Jahrzehnt nach der Gründung der Siedlung Gešajov und zeigt, wie die neue landwirtschaftliche Gemeinschaft ihre religiöse und gesellschaftliche Infrastruktur aufbaute. Die Gemeinde ließ sie 2008–2010 restaurieren und veröffentlichte eigene historische und architektonische Dokumente."
+        },
+        {
+          "id": "fact_008",
+          "title": "Záleský maják und die Gešajov-Mühlen: freiwilliges Erbe an der Kleinen Donau",
+          "text": "Am Ufer der Kleinen Donau in Zálesie entstand 2014 der von Freiwilligen geschaffene Aussichtspunkt Záleský maják. Der runde Holzturm dient als Aussichtsturm und Orientierungspunkt für Wander- und Radwege; von der Plattform blickt man auf den Fluss und die Auwälder. In der Umgebung entstanden die Uferpromenade Korzo Zálesie mit Steg und Anlegestelle für Paddler. 2012 stellten Freiwillige bei der Bootsanlegestelle drei Nachbildungen von Wassermühlen auf, die Gešajov-Mühlen genannt werden. Es handelt sich nicht um erhaltene historische Mühlen, sondern um eine moderne Erinnerung an den Wasser- und Wirtschaftscharakter der Landschaft und ein Gemeinschaftsprojekt, das Erholung, Fluss und Ortsgedächtnis verbindet."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: eine Kiesgrube, die zur Freizeitlandschaft wurde",
+          "text": "Der Natursee am Südrand von Ivanka pri Dunaji entstand durch Kies- und Sandabbau, der um 1960 begann und mehr als zehn Jahre dauerte. Nach dem Ende des Abbaus wurde die etwa 7,5 Hektar große Wasserfläche nach und nach für Erholung und Angeln genutzt. Das slowakische Amt für öffentliche Gesundheit verzeichnet am See einen Naturstrand mit Kiesufer und flachem Zugang zum Wasser; die gesamte überwachte Fläche beträgt etwa 14,5 Hektar. Der Ort zeigt, wie ehemalige Abbauflächen im Umland von Bratislava zu einer heutigen Wasser- und Erholungslandschaft wurden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Grassalkovich Chateau in Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka and Farná: two historic settlements documented in 1209",
+          "text": "The area of present-day Ivanka pri Dunaji was inhabited in prehistoric times. Archaeology has identified an Eneolithic inhumation cemetery, a Roman-Barbarian cremation cemetery and graves from the Migration Period. A document from 1209 mentions the settlement of Joan; the same documentary tradition also records Farná under the older name Cazteilan. Farná belonged to the Chapter of Pressburg and was administratively joined to Ivanka in 1923. In 1324 Ivanka appears as Terra Iwan, or “Land of John”, and the source already records a church and rectory. Later forms such as Iwand, Aichen and Aicha reflect the area's multilingual past."
+        },
+        {
+          "id": "fact_002",
+          "title": "Grassalkovich Chateau: a Rococo residence linked to Ľudovít Štúr",
+          "text": "The chateau was built in the second half of the 18th century for Count Anton Grassalkovich as a Rococo aristocratic residence with an extensive park. In the early 20th century the Hunyady family remodelled it in Neo-Gothic and Art Nouveau styles; its polygonal tower defines the present silhouette. In 1842 the estate was purchased by Serbian Prince Mihailo Obrenović, who lived here in exile. In 1855 Ľudovít Štúr secretly visited him while under police supervision in Modra; a commemorative plaque recalls the meeting. The chateau later also served science: the Plant Protection Laboratory, a predecessor of a Slovak Academy of Sciences institute, was based here from 1953 to 1993. Today it belongs to a Jesuit institutional complex and its interior is not normally open to visitors."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of the Nativity of St John the Baptist: a Baroque-Classical landmark",
+          "text": "The Roman Catholic Church of the Nativity of St John the Baptist was built in 1770–1772, probably on an earlier sacred site. The Baroque-Classical building was remodelled in the 19th century and remains a landmark of Ivanka's historic centre. The Hunyady family crypt lies beneath the church; the family owned the local estate in the second half of the 19th century and early 20th century. The church therefore links parish history, aristocratic patronage and the architectural development of the municipality."
+        },
+        {
+          "id": "fact_004",
+          "title": "St Rosalia's Chapel: thanksgiving for the end of a plague epidemic",
+          "text": "The Neoclassical Chapel of St Rosalia was built in 1832 to commemorate the end of a plague epidemic that affected the village in 1831. The municipality commissioned it under village judge Štefan Morávek. Its central interior is covered by a dome; pilasters articulate the façade and a tympanum crowns the main front. The altar with an image of St Rosalia dates from the mid-19th century. The chapel stands in a small park on St Rosalia Square and is listed in Slovakia's Central Register of Monuments."
+        },
+        {
+          "id": "fact_005",
+          "title": "M. R. Štefánik Memorial: the site of the air disaster of 4 May 1919",
+          "text": "The territory of Ivanka pri Dunaji contains the memorial site of the plane crash in which Milan Rastislav Štefánik died on 4 May 1919 together with three Italian crew members: pilot I. Mancinelli-Scotti, Sergeant H. Merlino and gunner G. Agginutini. The pyramid-shaped monument was built in 1923 to a design by architect Dušan Jurkovič. The grounds include a lime-tree avenue, a ditch, an earth embankment, a central pyramid and a granite stele bearing an inscription. It was restored in 1928 to Jurkovič's design and renovated again in 1988–1992. It is a major site of modern Slovak remembrance, connected with the creation of Czechoslovakia and Štefánik's return home."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie and Ignác Gessay: a settlement founded for Slovak migrants",
+          "text": "The second municipality whose addresses belong to geographic postcode 900 28 is Zálesie, on the bank of the Little Danube. The settlement was founded in 1923 on land between Ivanka pri Dunaji and Malinovo, acquired with the help of the Slovak League in Slovakia led by Ignác Gessay. The new residents came mainly from northern Slovakia and several western Slovak villages; the original name Gešajov commemorated Gessay's role in founding the settlement. Gessay (1874–1928) was a journalist, an organiser of Slovak emigrants in the United States and an important figure in the Czechoslovak foreign resistance. The settlement later became Zálesie, was incorporated into Ivanka in 1976 and regained independence in 1990. Its location between the Little Danube and floodplain woodland explains its present name."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chapel of the Holy Trinity in Zálesie: a sacred building of a young community",
+          "text": "The Chapel of the Holy Trinity in Zálesie was consecrated in 1932. It is a single-nave building with a segmental presbytery termination; the altar is replaced by an image of the Holy Trinity. Pilaster-like strips articulate the façade, and a triangular masonry gable above the entrance contains a niche with a statue of St Joseph. The chapel was built in the first decade after the settlement of Gešajov was founded and shows how the new farming community developed its own religious and social infrastructure. The municipality restored it in 2008–2010 and published dedicated historical and architectural material."
+        },
+        {
+          "id": "fact_008",
+          "title": "Záleský Lighthouse and the Gešajov Mills: volunteer heritage by the Little Danube",
+          "text": "In 2014 volunteers created the Záleský Lighthouse lookout on the bank of the Little Danube in Zálesie. The circular wooden tower serves as a viewpoint and a landmark on walking and cycling routes, overlooking the river and its floodplain woodland. Nearby, Korzo Zálesie was developed with a waterside boardwalk and a landing place for paddlers. In 2012 volunteers installed three replicas of watermills by the boat landing, known as the Gešajov Mills. They are not surviving historic mills, but a modern tribute to the water-based and agricultural character of the landscape and a community project connecting recreation, the river and local memory."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: a gravel pit transformed into a lakeside recreation area",
+          "text": "The natural lake on the southern edge of Ivanka pri Dunaji was created by gravel extraction, which began around 1960 and continued for more than a decade. After quarrying ended, the water body of about 7.5 hectares gradually became a place for recreation and fishing. The Slovak Public Health Authority records a natural beach with a gravel shore and gently sloping access to the water; the monitored area covers about 14.5 hectares. The site illustrates how former extraction areas around Bratislava have been transformed into today's waterside recreational landscape."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Palacio Grassalkovich de Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka y Farná: dos asentamientos históricos documentados en 1209",
+          "text": "El territorio de la actual Ivanka pri Dunaji estuvo habitado desde la prehistoria. La arqueología ha identificado una necrópolis de inhumación del Eneolítico, un cementerio de cremación romano-bárbaro y tumbas del periodo de las migraciones. Un documento de 1209 menciona el asentamiento de Joan; la misma tradición documental registra también Farná con el antiguo nombre de Cazteilan. Farná pertenecía al Cabildo de Bratislava y se incorporó administrativamente a Ivanka en 1923. En 1324 Ivanka aparece como Terra Iwan, «Tierra de Juan», y la fuente ya documenta una iglesia y una casa parroquial. Formas posteriores como Iwand, Aichen y Aicha reflejan la historia multilingüe de la zona."
+        },
+        {
+          "id": "fact_002",
+          "title": "Palacio Grassalkovich: residencia rococó vinculada a Ľudovít Štúr",
+          "text": "El palacio se construyó en la segunda mitad del siglo XVIII para el conde Anton Grassalkovich como residencia aristocrática rococó con un amplio parque. A comienzos del siglo XX, la familia Hunyady lo reformó en estilos neogótico y modernista; su torre poligonal define la silueta actual. En 1842 la propiedad fue adquirida por el príncipe serbio Mihailo Obrenović, que vivió allí en el exilio. En 1855 Ľudovít Štúr lo visitó en secreto mientras estaba bajo vigilancia policial en Modra; una placa conmemorativa recuerda el encuentro. Más tarde, el palacio también acogió actividad científica: el Laboratorio de Protección Vegetal, antecedente de un instituto de la Academia Eslovaca de Ciencias, tuvo aquí su sede entre 1953 y 1993. Hoy forma parte de un complejo jesuita y el interior no suele estar abierto al público."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de la Natividad de San Juan Bautista: emblema barroco-clasicista",
+          "text": "La iglesia católica romana de la Natividad de San Juan Bautista se construyó entre 1770 y 1772, probablemente sobre un lugar sagrado anterior. El edificio barroco-clasicista fue reformado en el siglo XIX y sigue siendo un elemento destacado del centro histórico de Ivanka. Bajo la iglesia se encuentra la cripta familiar de los Hunyady, propietarios de la finca local durante la segunda mitad del siglo XIX y comienzos del XX. La iglesia reúne así la historia parroquial, el patronazgo aristocrático y la evolución arquitectónica del municipio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Capilla de Santa Rosalía: agradecimiento por el fin de una epidemia de peste",
+          "text": "La capilla neoclásica de Santa Rosalía se construyó en 1832 para conmemorar el fin de la epidemia de peste que afectó al pueblo en 1831. El municipio encargó la obra durante el mandato del juez local Štefan Morávek. El espacio central está cubierto por una cúpula; pilastras articulan la fachada y un frontón triangular remata el frente principal. El altar con la imagen de Santa Rosalía data de mediados del siglo XIX. La capilla se encuentra en un pequeño parque de la plaza de Santa Rosalía y está inscrita en el registro central de monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monumento a M. R. Štefánik: lugar del accidente aéreo del 4 de mayo de 1919",
+          "text": "En el término de Ivanka pri Dunaji se encuentra el lugar conmemorativo del accidente aéreo en el que Milan Rastislav Štefánik murió el 4 de mayo de 1919 junto con tres tripulantes italianos: el piloto I. Mancinelli-Scotti, el sargento H. Merlino y el tirador G. Agginutini. El monumento piramidal se construyó en 1923 según el proyecto del arquitecto Dušan Jurkovič. El recinto incluye una avenida de tilos, un foso, un terraplén, una pirámide central y una estela de granito con inscripción. Fue restaurado en 1928 siguiendo el proyecto de Jurkovič y renovado de nuevo entre 1988 y 1992. Es uno de los lugares esenciales de la memoria eslovaca moderna y está vinculado a la creación de Checoslovaquia y al regreso de Štefánik a su patria."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie e Ignác Gessay: un asentamiento fundado para inmigrantes eslovacos",
+          "text": "La segunda localidad cuyos domicilios pertenecen al código postal geográfico 900 28 es Zálesie, a orillas del Pequeño Danubio. El asentamiento nació en 1923 en terrenos entre Ivanka pri Dunaji y Malinovo, cuya adquisición contó con la ayuda de la Liga Eslovaca en Eslovaquia, dirigida por Ignác Gessay. Los nuevos habitantes procedían sobre todo del norte de Eslovaquia y de varias localidades del oeste del país; el nombre original Gešajov recordaba la ayuda de Gessay en la fundación. Gessay (1874–1928) fue periodista, organizador de la comunidad eslovaca emigrada en Estados Unidos y figura destacada de la resistencia checoslovaca en el extranjero. Más tarde el lugar pasó a llamarse Zálesie, se incorporó a Ivanka en 1976 y recuperó su independencia en 1990. Su ubicación entre el Pequeño Danubio y los bosques de ribera explica el nombre actual."
+        },
+        {
+          "id": "fact_007",
+          "title": "Capilla de la Santísima Trinidad en Zálesie: edificio religioso de una comunidad joven",
+          "text": "La capilla de la Santísima Trinidad de Zálesie fue consagrada en 1932. Es un edificio de una sola nave con cierre segmentado del presbiterio; el altar está sustituido por una imagen de la Santísima Trinidad. Unas bandas verticales articulan la fachada y, sobre la entrada, un frontón triangular de obra contiene una hornacina con una estatua de san José. La capilla se construyó en la primera década después de la fundación del asentamiento de Gešajov y muestra cómo la nueva comunidad agrícola creó su propia infraestructura religiosa y social. El municipio la restauró entre 2008 y 2010 y publicó materiales históricos y arquitectónicos específicos."
+        },
+        {
+          "id": "fact_008",
+          "title": "Faro de Zálesie y molinos de Gešajov: patrimonio voluntario junto al Pequeño Danubio",
+          "text": "En 2014, voluntarios crearon el mirador Záleský maják en la ribera del Pequeño Danubio, en Zálesie. La torre circular de madera sirve como mirador y punto de referencia para rutas peatonales y ciclistas, con vistas al río y a los bosques de ribera. En las inmediaciones se desarrolló el paseo Korzo Zálesie, con pasarela sobre el agua y embarcadero para piragüistas. En 2012, voluntarios instalaron junto al embarcadero tres réplicas de molinos de agua, conocidos como molinos de Gešajov. No son molinos históricos conservados, sino un homenaje moderno al carácter fluvial y agrícola del paisaje y un proyecto comunitario que conecta ocio, río y memoria local."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: una gravera transformada en paisaje recreativo",
+          "text": "El lago natural situado en el extremo sur de Ivanka pri Dunaji se formó por la extracción de grava y arena, iniciada hacia 1960 y prolongada durante más de diez años. Tras finalizar la explotación, la lámina de agua de unas 7,5 hectáreas empezó a utilizarse para el ocio y la pesca. La Autoridad Eslovaca de Salud Pública registra una playa natural de grava y una entrada al agua de pendiente suave; el área total supervisada alcanza unas 14,5 hectáreas. El lugar muestra cómo antiguas zonas de extracción en el entorno de Bratislava se transformaron en un paisaje acuático y recreativo actual."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Château Grassalkovich d’Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka et Farná : deux habitats historiques attestés en 1209",
+          "text": "Le territoire de l’actuelle Ivanka pri Dunaji était habité dès la préhistoire. L’archéologie y a identifié une nécropole à inhumation de l’Énéolithique, une nécropole à incinération romano-barbare et des tombes de la période des migrations. Un document de 1209 mentionne le village de Joan ; la même tradition documentaire cite aussi Farná sous son ancien nom de Cazteilan. Farná appartenait au chapitre de Bratislava et fut rattachée administrativement à Ivanka en 1923. En 1324, Ivanka apparaît sous le nom de Terra Iwan, « Terre de Jean », et la source atteste déjà une église et un presbytère. Des formes ultérieures comme Iwand, Aichen et Aicha reflètent l’histoire multilingue du territoire."
+        },
+        {
+          "id": "fact_002",
+          "title": "Château Grassalkovich : résidence rococo liée à Ľudovít Štúr",
+          "text": "Le château fut construit dans la seconde moitié du XVIIIe siècle pour le comte Anton Grassalkovich comme résidence aristocratique rococo entourée d’un vaste parc. Au début du XXe siècle, les Hunyady le remanièrent dans des styles néogothique et Art nouveau ; sa tour polygonale marque aujourd’hui sa silhouette. En 1842, le domaine fut acheté par le prince serbe Mihailo Obrenović, qui y vécut en exil. En 1855, Ľudovít Štúr lui rendit une visite secrète alors qu’il était surveillé par la police à Modra ; une plaque commémorative rappelle cette rencontre. Le château eut ensuite une fonction scientifique : le Laboratoire de protection des plantes, précurseur d’un institut de l’Académie slovaque des sciences, y fut installé de 1953 à 1993. Il fait aujourd’hui partie d’un ensemble jésuite et son intérieur n’est pas normalement ouvert au public."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église de la Nativité de saint Jean-Baptiste : repère baroque-classique",
+          "text": "L’église catholique romaine de la Nativité de saint Jean-Baptiste fut construite en 1770–1772, probablement sur un site religieux plus ancien. L’édifice baroque-classique fut remanié au XIXe siècle et demeure un repère du centre historique d’Ivanka. La crypte familiale des Hunyady se trouve sous l’église ; cette famille possédait le domaine local dans la seconde moitié du XIXe et au début du XXe siècle. L’église relie ainsi l’histoire paroissiale, le patronage aristocratique et l’évolution architecturale de la commune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chapelle Sainte-Rosalie : action de grâce après une épidémie de peste",
+          "text": "La chapelle néoclassique Sainte-Rosalie fut construite en 1832 pour commémorer la fin de l’épidémie de peste qui avait touché le village en 1831. La commune fit bâtir l’édifice sous le juge local Štefan Morávek. L’espace central est couvert d’une coupole ; des pilastres rythment la façade et un tympan couronne le front principal. L’autel avec l’image de sainte Rosalie date du milieu du XIXe siècle. La chapelle se trouve dans un petit parc de la place Sainte-Rosalie et figure au registre central des monuments de Slovaquie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mémorial M. R. Štefánik : lieu de la catastrophe aérienne du 4 mai 1919",
+          "text": "Sur le territoire d’Ivanka pri Dunaji se trouve le lieu commémoratif de l’accident d’avion dans lequel Milan Rastislav Štefánik mourut le 4 mai 1919 avec trois membres italiens de l’équipage : le pilote I. Mancinelli-Scotti, le sergent H. Merlino et le tireur G. Agginutini. Le monument pyramidal fut érigé en 1923 d’après le projet de l’architecte Dušan Jurkovič. L’ensemble comprend une allée de tilleuls, un fossé, un remblai, une pyramide centrale et une stèle de granit portant une inscription. Il fut restauré en 1928 selon le projet de Jurkovič, puis de nouveau en 1988–1992. C’est un lieu majeur de la mémoire slovaque moderne, lié à la création de la Tchécoslovaquie et au retour de Štefánik dans son pays."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie et Ignác Gessay : un village fondé pour des migrants slovaques",
+          "text": "La seconde commune dont les adresses relèvent du code postal géographique 900 28 est Zálesie, sur les rives du Petit Danube. Le village fut fondé en 1923 sur des terres entre Ivanka pri Dunaji et Malinovo, acquises avec l’aide de la Ligue slovaque en Slovaquie dirigée par Ignác Gessay. Les nouveaux habitants venaient surtout du nord de la Slovaquie et de plusieurs communes de l’ouest du pays ; le nom initial de Gešajov rappelait le rôle de Gessay dans la fondation. Gessay (1874–1928) était journaliste, organisateur de la communauté slovaque émigrée aux États-Unis et figure importante de la résistance tchécoslovaque à l’étranger. Le village prit ensuite le nom de Zálesie, fut rattaché à Ivanka en 1976 puis retrouva son autonomie en 1990. Sa situation entre le Petit Danube et les forêts alluviales explique son nom actuel."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chapelle de la Sainte-Trinité à Zálesie : édifice religieux d’une jeune communauté",
+          "text": "La chapelle de la Sainte-Trinité à Zálesie fut consacrée en 1932. C’est un édifice à nef unique avec une terminaison segmentaire du chœur ; l’autel est remplacé par une image de la Sainte-Trinité. Des lésènes rythment la façade et un fronton maçonné triangulaire au-dessus de l’entrée contient une niche avec une statue de saint Joseph. La chapelle fut construite durant la première décennie suivant la fondation du village de Gešajov et montre comment la nouvelle communauté agricole développa ses propres infrastructures religieuses et sociales. La commune la restaura en 2008–2010 et publia des documents historiques et architecturaux spécifiques."
+        },
+        {
+          "id": "fact_008",
+          "title": "Phare de Zálesie et moulins de Gešajov : patrimoine bénévole au bord du Petit Danube",
+          "text": "En 2014, des bénévoles créèrent le belvédère Záleský maják sur la rive du Petit Danube à Zálesie. La tour circulaire en bois sert de point de vue et de repère sur les itinéraires pédestres et cyclables ; sa plateforme offre une vue sur la rivière et les bois alluviaux. À proximité, la promenade Korzo Zálesie fut aménagée avec un ponton et un débarcadère pour les pagayeurs. En 2012, des bénévoles installèrent près de l’embarcadère trois répliques de moulins à eau, appelées moulins de Gešajov. Il ne s’agit pas de moulins historiques conservés, mais d’un hommage moderne au caractère fluvial et agricole du paysage et d’un projet communautaire reliant loisirs, rivière et mémoire locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka : une gravière transformée en paysage de loisirs",
+          "text": "Le lac naturel situé à l’extrémité sud d’Ivanka pri Dunaji est né de l’extraction de graviers et de sable, commencée vers 1960 et poursuivie pendant plus de dix ans. Après l’arrêt de l’exploitation, le plan d’eau d’environ 7,5 hectares fut progressivement utilisé pour les loisirs et la pêche. L’Autorité slovaque de santé publique y recense une plage naturelle de galets avec un accès en pente douce ; la zone surveillée couvre environ 14,5 hectares. Le site montre comment d’anciennes zones d’extraction autour de Bratislava sont devenues un paysage aquatique et récréatif contemporain."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Castello Grassalkovich a Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka e Farná: due insediamenti storici attestati nel 1209",
+          "text": "Il territorio dell’attuale Ivanka pri Dunaji era abitato già in epoca preistorica. L’archeologia ha individuato una necropoli a inumazione dell’Eneolitico, una necropoli a cremazione romano-barbarica e tombe del periodo delle migrazioni. Un documento del 1209 cita l’insediamento di Joan; la stessa tradizione documentaria menziona anche Farná con l’antico nome di Cazteilan. Farná apparteneva al Capitolo di Bratislava e fu aggregata amministrativamente a Ivanka nel 1923. Nel 1324 Ivanka compare come Terra Iwan, «Terra di Giovanni», e la fonte attesta già una chiesa e una canonica. Forme successive come Iwand, Aichen e Aicha riflettono la storia multilingue del territorio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Castello Grassalkovich: residenza rococò legata a Ľudovít Štúr",
+          "text": "Il castello fu costruito nella seconda metà del XVIII secolo per il conte Anton Grassalkovich come residenza aristocratica rococò con un vasto parco. All’inizio del XX secolo gli Hunyady lo modificarono in stile neogotico e Art Nouveau; la torre poligonale definisce la sua silhouette attuale. Nel 1842 la proprietà fu acquistata dal principe serbo Mihailo Obrenović, che vi visse in esilio. Nel 1855 Ľudovít Štúr lo visitò segretamente mentre era sotto sorveglianza della polizia a Modra; una targa ricorda l’incontro. In seguito il castello ebbe anche una funzione scientifica: dal 1953 al 1993 ospitò il Laboratorio per la protezione delle piante, predecessore di un istituto dell’Accademia slovacca delle scienze. Oggi fa parte di un complesso gesuita e gli interni non sono normalmente aperti ai visitatori."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa della Natività di San Giovanni Battista: punto di riferimento barocco-classico",
+          "text": "La chiesa cattolica romana della Natività di San Giovanni Battista fu costruita nel 1770–1772, probabilmente su un precedente luogo sacro. L’edificio barocco-classico fu rimaneggiato nel XIX secolo e resta un punto di riferimento del centro storico di Ivanka. Sotto la chiesa si trova la cripta familiare degli Hunyady, proprietari della tenuta locale nella seconda metà del XIX e all’inizio del XX secolo. La chiesa unisce così la storia parrocchiale, il patronato aristocratico e lo sviluppo architettonico del comune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cappella di Santa Rosalia: ringraziamento per la fine dell’epidemia di peste",
+          "text": "La cappella neoclassica di Santa Rosalia fu costruita nel 1832 per commemorare la fine dell’epidemia di peste che colpì il villaggio nel 1831. Il comune ne commissionò la costruzione durante il mandato del giudice locale Štefan Morávek. Lo spazio centrale è coperto da una cupola; pilastri scandiscono la facciata e un timpano corona il prospetto principale. L’altare con l’immagine di santa Rosalia risale alla metà del XIX secolo. La cappella si trova in un piccolo parco sulla piazza di Santa Rosalia ed è iscritta nel registro centrale dei monumenti della Slovacchia."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monumento a M. R. Štefánik: luogo del disastro aereo del 4 maggio 1919",
+          "text": "Nel territorio di Ivanka pri Dunaji si trova il luogo commemorativo dell’incidente aereo in cui Milan Rastislav Štefánik morì il 4 maggio 1919 insieme a tre membri italiani dell’equipaggio: il pilota I. Mancinelli-Scotti, il sergente H. Merlino e il mitragliere G. Agginutini. Il monumento a forma di piramide fu costruito nel 1923 su progetto dell’architetto Dušan Jurkovič. L’area comprende un viale di tigli, un fossato, un terrapieno, una piramide centrale e una stele di granito con iscrizione. Fu restaurato nel 1928 secondo il progetto di Jurkovič e nuovamente rinnovato tra il 1988 e il 1992. È uno dei luoghi fondamentali della memoria slovacca moderna, legato alla nascita della Cecoslovacchia e al ritorno di Štefánik in patria."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie e Ignác Gessay: un insediamento fondato per i migranti slovacchi",
+          "text": "Il secondo comune i cui indirizzi appartengono al codice postale geografico 900 28 è Zálesie, sulle rive del Piccolo Danubio. L’insediamento nacque nel 1923 su terreni tra Ivanka pri Dunaji e Malinovo, acquisiti con l’aiuto della Lega Slovacca in Slovacchia guidata da Ignác Gessay. I nuovi abitanti provenivano soprattutto dalla Slovacchia settentrionale e da alcuni comuni della parte occidentale del paese; il nome originario Gešajov ricordava il contributo di Gessay alla fondazione. Gessay (1874–1928) fu giornalista, organizzatore della comunità slovacca emigrata negli Stati Uniti e figura importante della resistenza cecoslovacca all’estero. In seguito il villaggio prese il nome di Zálesie, fu aggregato a Ivanka nel 1976 e riottenne l’autonomia nel 1990. La posizione tra il Piccolo Danubio e i boschi ripariali spiega il nome attuale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cappella della Santissima Trinità a Zálesie: edificio sacro di una comunità giovane",
+          "text": "La cappella della Santissima Trinità a Zálesie fu consacrata nel 1932. È un edificio a navata unica con terminazione segmentata del presbiterio; l’altare è sostituito da un’immagine della Santissima Trinità. Lesene scandiscono la facciata e sopra l’ingresso un frontone triangolare in muratura contiene una nicchia con una statua di san Giuseppe. La cappella fu costruita nel primo decennio dopo la fondazione dell’insediamento di Gešajov e mostra come la nuova comunità agricola sviluppò le proprie infrastrutture religiose e sociali. Il comune la restaurò tra il 2008 e il 2010 e pubblicò materiali storici e architettonici dedicati."
+        },
+        {
+          "id": "fact_008",
+          "title": "Faro di Zálesie e mulini di Gešajov: patrimonio volontario sul Piccolo Danubio",
+          "text": "Nel 2014 i volontari crearono il punto panoramico Záleský maják sulla riva del Piccolo Danubio a Zálesie. La torre circolare in legno funge da belvedere e punto di riferimento per percorsi pedonali e ciclabili, con vista sul fiume e sui boschi ripariali. Nelle vicinanze è stato realizzato il lungofiume Korzo Zálesie, con passerella sull’acqua e approdo per i canoisti. Nel 2012 i volontari installarono presso il pontile tre repliche di mulini ad acqua, chiamate mulini di Gešajov. Non sono mulini storici conservati, ma un omaggio moderno al carattere fluviale e agricolo del paesaggio e un progetto comunitario che collega svago, fiume e memoria locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: una cava di ghiaia trasformata in paesaggio ricreativo",
+          "text": "Il lago naturale all’estremità meridionale di Ivanka pri Dunaji nacque dall’estrazione di ghiaia e sabbia, iniziata intorno al 1960 e durata più di dieci anni. Dopo la fine dei lavori, lo specchio d’acqua di circa 7,5 ettari fu progressivamente utilizzato per il tempo libero e la pesca. L’Autorità slovacca per la salute pubblica registra presso il lago una spiaggia naturale ghiaiosa con accesso dolce all’acqua; l’intera area monitorata misura circa 14,5 ettari. Il luogo mostra come le ex aree estrattive nei dintorni di Bratislava siano diventate un paesaggio acquatico e ricreativo contemporaneo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Grassalkovich-kasteel in Ivanka pri Dunaji",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ivanka en Farná: twee historische nederzettingen vermeld in 1209",
+          "text": "Het gebied van het huidige Ivanka pri Dunaji was al in de prehistorie bewoond. Archeologisch onderzoek heeft een eneolithische inhumatiebegraafplaats, een Romeins-Barbaarse crematiebegraafplaats en graven uit de Volksverhuizingstijd aangetoond. Een document uit 1209 noemt de nederzetting Joan; in dezelfde schriftelijke traditie komt ook Farná voor onder de oudere naam Cazteilan. Farná behoorde tot het kapittel van Pressburg en werd in 1923 bestuurlijk bij Ivanka gevoegd. In 1324 verschijnt Ivanka als Terra Iwan, ‘Land van Johannes’, en de bron vermeldt al een kerk en pastorie. Latere vormen zoals Iwand, Aichen en Aicha weerspiegelen de meertalige geschiedenis van het gebied."
+        },
+        {
+          "id": "fact_002",
+          "title": "Grassalkovich-kasteel: rococo-residentie verbonden met Ľudovít Štúr",
+          "text": "Het kasteel werd in de tweede helft van de 18e eeuw voor graaf Anton Grassalkovich gebouwd als rococo-adellijke residentie met een uitgestrekt park. Aan het begin van de 20e eeuw lieten de Hunyady's het verbouwen in neogotische en art-nouveaustijl; de veelhoekige toren bepaalt het huidige silhouet. In 1842 kocht de Servische prins Mihailo Obrenović het landgoed en woonde er in ballingschap. In 1855 bezocht Ľudovít Štúr hem in het geheim, terwijl hij in Modra onder politietoezicht stond; een gedenkplaat herinnert aan de ontmoeting. Later kreeg het kasteel ook een wetenschappelijke functie: het Laboratorium voor Plantenbescherming, een voorloper van een instituut van de Slowaakse Academie van Wetenschappen, was er van 1953 tot 1993 gevestigd. Tegenwoordig maakt het deel uit van een jezuïtisch complex en is het interieur doorgaans niet toegankelijk."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kerk van de Geboorte van Johannes de Doper: barok-classicistisch herkenningspunt",
+          "text": "De rooms-katholieke Kerk van de Geboorte van Johannes de Doper werd in 1770–1772 gebouwd, waarschijnlijk op een oudere religieuze locatie. Het barok-classicistische gebouw werd in de 19e eeuw verbouwd en vormt nog steeds een herkenningspunt van het historische centrum van Ivanka. Onder de kerk bevindt zich de familiegrafkelder van de Hunyady's, die het plaatselijke landgoed in de tweede helft van de 19e en het begin van de 20e eeuw bezaten. De kerk verbindt zo de parochiegeschiedenis, adellijke bescherming en de bouwkundige ontwikkeling van de gemeente."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sint-Rosaliakapel: dankbetuiging voor het einde van een pestepidemie",
+          "text": "De neoclassicistische Sint-Rosaliakapel werd in 1832 gebouwd ter herinnering aan het einde van de pestepidemie die het dorp in 1831 trof. De gemeente liet de kapel bouwen onder dorpsrechter Štefan Morávek. De centraal opgezette ruimte heeft een koepel; pilasters verdelen de gevel en een timpaan bekroont de voorgevel. Het altaar met een afbeelding van Sint-Rosalia dateert uit het midden van de 19e eeuw. De kapel staat in een klein park aan het Sint-Rosaliaplein en is opgenomen in het centrale monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_005",
+          "title": "M. R. Štefánik-monument: plaats van de vliegtuigcrash op 4 mei 1919",
+          "text": "Op het grondgebied van Ivanka pri Dunaji ligt de gedenkplaats van de vliegtuigcrash waarbij Milan Rastislav Štefánik op 4 mei 1919 omkwam, samen met drie Italiaanse bemanningsleden: piloot I. Mancinelli-Scotti, sergeant H. Merlino en schutter G. Agginutini. Het piramidevormige monument werd in 1923 ontworpen door architect Dušan Jurkovič. Het terrein omvat een lindelaan, een greppel, een aarden wal, een centrale piramide en een granieten gedenksteen met inscriptie. In 1928 werd het volgens Jurkovičs ontwerp hersteld en tussen 1988 en 1992 opnieuw gerenoveerd. Het is een belangrijke plaats van moderne Slowaakse herinnering, verbonden met de oprichting van Tsjechoslowakije en Štefániks terugkeer naar zijn vaderland."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zálesie en Ignác Gessay: een nederzetting gesticht voor Slowaakse migranten",
+          "text": "De tweede gemeente waarvan de adressen onder de geografische postcode 900 28 vallen, is Zálesie aan de Kleine Donau. De nederzetting ontstond in 1923 op grond tussen Ivanka pri Dunaji en Malinovo, die met hulp van de Slowaakse Liga in Slowakije onder leiding van Ignác Gessay werd verworven. De nieuwe bewoners kwamen vooral uit Noord-Slowakije en enkele gemeenten in het westen van het land; de oorspronkelijke naam Gešajov herinnerde aan Gessays hulp bij de stichting. Gessay (1874–1928) was journalist, organisator van de Slowaakse emigrantengemeenschap in de Verenigde Staten en een belangrijke figuur in het Tsjechoslowaakse buitenlandse verzet. Later kreeg de plaats de naam Zálesie, werd in 1976 bij Ivanka gevoegd en herwon in 1990 haar zelfstandigheid. De ligging tussen de Kleine Donau en de ooibossen verklaart de huidige naam."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kapel van de Heilige Drie-eenheid in Zálesie: religieus gebouw van een jonge gemeenschap",
+          "text": "De Kapel van de Heilige Drie-eenheid in Zálesie werd in 1932 ingewijd. Het is een gebouw met één schip en een segmentvormige afsluiting van het priesterkoor; het altaar is vervangen door een afbeelding van de Heilige Drie-eenheid. Lisenen verdelen de gevel en boven de ingang bevindt zich een driehoekige gemetselde topgevel met een nis waarin een beeld van Sint-Jozef staat. De kapel werd gebouwd in het eerste decennium na de stichting van de nederzetting Gešajov en laat zien hoe de nieuwe landbouwgemeenschap haar eigen religieuze en sociale voorzieningen ontwikkelde. De gemeente restaureerde haar in 2008–2010 en publiceerde afzonderlijke historische en architectonische documentatie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Záleský maják en de Gešajov-molens: vrijwilligerserfgoed aan de Kleine Donau",
+          "text": "In 2014 bouwden vrijwilligers het uitzichtpunt Záleský maják aan de oever van de Kleine Donau in Zálesie. De ronde houten toren dient als uitkijktoren en herkenningspunt op wandel- en fietsroutes, met uitzicht op de rivier en de ooibossen. In de buurt werd de promenade Korzo Zálesie aangelegd, met een steiger en aanlegplaats voor kanoërs. In 2012 plaatsten vrijwilligers bij de aanlegplaats drie replica's van watermolens, bekend als de Gešajov-molens. Het zijn geen bewaard gebleven historische molens, maar een moderne herinnering aan het water- en landbouwkarakter van het landschap en een gemeenschapsproject dat recreatie, rivier en lokale herinnering verbindt."
+        },
+        {
+          "id": "fact_009",
+          "title": "Šutrovka: een grindgroeve die veranderde in een recreatief merengebied",
+          "text": "Het natuurlijke meer aan de zuidrand van Ivanka pri Dunaji ontstond door de winning van grind en zand, die rond 1960 begon en meer dan tien jaar duurde. Nadat de winning stopte, werd het wateroppervlak van ongeveer 7,5 hectare geleidelijk gebruikt voor recreatie en vissen. De Slowaakse Autoriteit voor Volksgezondheid registreert bij het meer een natuurlijk kiezelstrand met een geleidelijke toegang tot het water; het totale gecontroleerde gebied beslaat ongeveer 14,5 hectare. De plek laat zien hoe voormalige winningsgebieden rond Bratislava zijn veranderd in een hedendaags water- en recreatielandschap."
+        }
+      ]
+    }
+  }
 }
