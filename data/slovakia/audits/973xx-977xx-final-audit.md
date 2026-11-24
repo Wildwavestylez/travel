@@ -98,7 +98,7 @@ The following are the latest record commits identified in repository history and
 | PSČ | Latest commit | Current blob SHA |
 |---|---|---|
 | 97401 | `4a275ea1d1e5fe3a1d62c81a45d1b6d4e59be989` | `8a9547778c756199ef970b3fa478dbe3642088cc` |
-| 97405 | `b4f4c6f58fd4cecad9d4debc78e0aed9844cd946` | `bd4dc794c2fc428f7a8721d10ca9586af9b10d4d` |
+| 97405 | `17856b7f54ee4eff2e06110cb5af6f1d4f5470fd` | `85a29f12c37444662acd19fa2525068021d67265` |
 | 97611 | `3e2abe7a646adc72e3863e1d1d16ad76c70c7957` | `de711207da55f2fed4af4d674dee5cddbfbc7700` |
 | 97644 | `0a6f0d250d82a85751ee911514f4d93a01364a7f` | `32bbef13a6bc28581c1649b3c970d31ad8be4e6b` |
 | 97646 | `37c3fb4e73c8e4ea6c0ad6e339adf201d612fd34` | `58ab381b8d0ccb9284176490168253bdc453f32a` |
