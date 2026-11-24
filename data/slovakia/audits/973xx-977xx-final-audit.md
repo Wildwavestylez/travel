@@ -6,9 +6,9 @@
 - Supporting standards: `data/slovakia/schema.json`, `data/slovakia/CONTENT_STANDARD.md`, `data/slovakia/sequence.json`, `data/slovakia/database_index.json`
 - Scope: all 40 postcode records explicitly present in `data/slovakia/sequence.json` with numeric values from 97300 through 97799. No postcode was added to or removed from the sequence.
 - Scope inventory: 97401, 97404, 97405, 97409, 97411, 97602, 97603, 97611, 97613, 97631, 97632, 97633, 97634, 97637, 97639, 97644, 97645, 97646, 97652, 97653, 97655, 97656, 97657, 97661, 97662, 97663, 97664, 97666, 97667, 97668, 97669, 97671, 97673, 97675, 97681, 97696, 97697, 97698, 97701, 97703.
-- Inventory result: 40 records; 271 facts in the 38 non-placeholder records; 38 records remain `validated`; 2 remain `placeholder` (97653 and 97671); 0 published.
+- Inventory result after publication: 40 records; 271 facts in the 38 complete records; 38 are `published` at `data_version = 5`; 2 remain `placeholder` (97653 and 97671).
 - Audit result: **PASS WITH DOCUMENTED EXCEPTIONS**.
-- Publication: not authorized and not performed. No status was changed to `published`; no `data_version` was added or changed.
+- Publication: explicitly authorized by the user after the audit. All 38 complete records were set to `status = published` and `data_version = 5`; the two placeholders were excluded.
 - Sequence: unchanged.
 - Database Viewer index: all 40 postcode entries match the canonical records' `city` and `status`. No index write was necessary because those fields did not change and the read-back comparison found no mismatch.
 
@@ -89,9 +89,9 @@ Five facts remain null after applying the full location fallback hierarchy. Thes
 
 - `database_index.json`: 40/40 entries match the corresponding record's `city` and `status`; no changes required.
 - `sequence.json`: unchanged; no inferred or new postcode was added.
-- All 38 complete records remain `validated`.
+- All 38 complete records are now `published` with `data_version = 5`.
 - Placeholders 97653 and 97671 remain `placeholder`.
-- No record was published, no `data_version` was added or changed, and no Explorer build or deployment was run.
+- All 38 complete records were published as V5; placeholders 97653 and 97671 remain unchanged. The generated Explorer manifest/tile workflow remains a separate GitHub Actions process.
 
 ## GitHub record read-back
 
@@ -123,3 +123,15 @@ The following are the latest record commits identified in repository history and
 - [Špania Dolina – conflicting tourism listing](https://slovakia.travel/en/spania-dolina)
 
 ---
+
+
+## Post-audit publication and Neon synchronization — 2026-11-24
+
+- User explicitly authorized the completed audited scope to be published as V5 and copied to the Slovak Neon production mirror.
+- GitHub canonical records: 38/38 complete records updated to `status: "published"` and `data_version: 5`; every changed file was fetched back and its postcode, status and version verified.
+- Excluded by design: placeholders `97653` and `97671`; both remain empty `placeholder` records and were not assigned a data version.
+- `database_index.json`: updated the 38 matching status entries; read-back verified 38 published and 2 placeholders in this scope. Sequence and city values were preserved.
+- Neon destination: project `Europe Explorer` (`dry-rain-69965329`), database `neondb`, table `public.slovakia_cap_records`.
+- Neon synchronization: 38 idempotent upserts completed, keyed by postcode. Existing `created_at` values were preserved; `updated_at` refreshed. Each batch was read back and its full JSONB record compared structurally with the canonical GitHub JSON.
+- Final Neon scope query: exactly 38 requested postcodes returned; all have `workflow_status = published`, `record.status = published` and `record.data_version = 5`. No placeholders or out-of-scope postcodes were synchronized in this operation.
+- GitHub remains the canonical source of truth; Neon is the production mirror.
