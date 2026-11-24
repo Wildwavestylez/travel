@@ -163,7 +163,7 @@ Do not endlessly debate small differences between ambiguous historical sources. 
 
 Process the entire requested block in one continuous run. Batch mechanical checks and perform them locally where possible.
 
-For each genuine defect: **find → verify → safely correct → read back from GitHub → validate the correction → record briefly**.
+For each genuine defect: **find → verify → safely correct in the working JSON → validate the correction → commit the archive update → record briefly**.
 
 - Automatically fix only confirmed, safe defects.
 - Preserve fact IDs, source URLs, unrelated content and established primary-postcode assignments.
@@ -254,8 +254,8 @@ If no version/publication instruction is given, leave every `data_version` and s
 Dropbox is the Slovak backup archive. Neon is the production database; GitHub contains the archival JSON snapshots.
 
 - Do not back up before the complete audit is finished.
-- After reporting the audit, wait for the user's explicit instruction to perform the final backup. If the user also requests a data-version change, complete that change first and read it back from GitHub.
-- Do not back up before any explicitly requested data-version changes have been completed and read back from GitHub.
+- After reporting the audit, wait for the user's explicit instruction to perform the final backup. If the user also requests a data-version change, complete that change first and verify the exact publication scope in Neon with one batch read.
+- Do not back up before any explicitly requested data-version changes have been committed to the GitHub archive and synchronized to Neon.
 - The backup is the final operation of the workflow. Do not perform further record edits after the backup; if later changes are required, create a new timestamped backup after they are complete.
 - Use the established TRAVEL backup location in the user's Dropbox. If the correct project folder cannot be identified, ask the user rather than guessing a path.
 - Create a new timestamped folder for the exact audited scope. Never overwrite an earlier backup.
