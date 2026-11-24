@@ -1,4 +1,551 @@
 {
   "postcode": "97667",
-  "status": "placeholder"
+  "city": "Závadka nad Hronom",
+  "district": null,
+  "county": "Brezno",
+  "state": "Banskobystrický kraj",
+  "representative_place": "Střed obce Závadka nad Hronom v údolí horního Hrona",
+  "representative_point": {
+    "lat": 48.85048,
+    "lon": 19.91152
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Závadka nad Hronom – valašská kolonizace a osada Veľký Potok",
+      "text": "Závadka nad Hronom leží východně od Polomky v údolí horního Hrona, mezi jižními svahy Nízkých Tater a severními výběžky Slovenského rudohoří. Obec vznikla v 16. století na valašském právu na území muránského panství, a to na místě starší, později zaniklé osady Veľký Potok. Nejstarší písemná zmínka pochází z roku 1611, kdy se objevuje maďarské pojmenování Nagypatak, odvozené od potoka, který dodnes protéká obcí a ústí do Hrona. Podoba názvu Závadka je doložena od roku 1617; dnešní rozšířené jméno Závadka nad Hronom se ustálilo roku 1927. První osadníci přicházeli z Polomky a Šumiace, ale také z Liptova a Oravy. Valašské osídlení spojilo horské pastevectví, chov dobytka a využívání lesů s dějinami Gemerského Horehroní a Muránského hradu.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/historia/vznik-obce/",
+        "https://www.slovensko.sk/sk/lokality/_138537cf-a5d0-4ec4-9560-f97829824555"
+      ],
+      "location": {
+        "name": "Závadka nad Hronom – historické jádro obce",
+        "lat": 48.85048,
+        "lon": 19.91152,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.geonames.org/3056573"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Železná ruda, hámry a valcovna – průmyslová minulost Horehroní",
+      "text": "Hospodářský vývoj Závadky nad Hronom výrazně ovlivnilo železářství. V okolním chotári se od druhé poloviny 18. století těžila železná ruda a roku 1826 zde pracovaly dva skujňovací a jeden perlíkový hámor, které zpracovávaly železo z okolních hutních provozů. Kolem roku 1860 přibyla valcovna plechu a dílny na další zpracování železa. Provoz potřeboval dřevěné uhlí, takže se rozšířilo pálení uhlí v lesích, povoznictví i výroba stavebního dřeva. Obecní přehled uvádí, že roku 1828 měla Závadka 1 126 obyvatel a 123 domů – na horskou obec šlo o výrazné sídlo. Železářství navazovalo na širší síť coburgovských podniků na Horehroní; část obyvatel v nich pracovala ještě ve 20. století. Uzavření železáren roku 1926 přineslo nezaměstnanost a posílilo význam lesnictví, zemědělství a místních řemesel.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/historia/osidlenie-obce/",
+        "https://www.slovensko.sk/sk/lokality/_138537cf-a5d0-4ec4-9560-f97829824555",
+        "https://www.e-obce.sk/obec/zavadkanadhronom/2-historia.html"
+      ],
+      "location": {
+        "name": "Závadka nad Hronom – orientační bod historické průmyslové zástavby",
+        "lat": 48.8508,
+        "lon": 19.914,
+        "type": "historic_industrial_site",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/lokality/_138537cf-a5d0-4ec4-9560-f97829824555"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Lesní úzkokolejka do Stožek – doprava dřeva z Muránské planiny",
+      "text": "Lesní hospodářství zanechalo v krajině Závadky nad Hronom výraznou dopravní stopu. Během první světové války byla vybudována přibližně 16 kilometrů dlouhá úzkokolejná lesní železnice, která odvážela dřevo z údolních skladů směrem ke Klátne a do oblasti Stožek na Muránské planině. Trať sloužila lesnímu hospodářství v těžko přístupném horském terénu a navazovala na starší tradici zpracování dřeva, výroby šindelů a plavení dřeva po Hrone. Podle obecních turistických materiálů vedla dolinou Hronec a její provoz skončil roku 1962. V krajině se tak potkávají dvě etapy dopravy: starší využívání vodního toku a novější průmyslová lesní železnice. Zbytky trasy dnes připomíná naučný chodník Stožky; na jeho začátku je umístěn starý železniční vůz jako připomínka lesní dopravy.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/historia/osidlenie-obce/",
+        "https://www.zavadkanadhronom.sk/obcan/turistika-a-sport/turistika/",
+        "https://www.npmuranskaplanina.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/"
+      ],
+      "location": {
+        "name": "Začátek naučného chodníku Stožky u Závadky nad Hronom",
+        "lat": 48.850278,
+        "lon": 19.911389,
+        "type": "railway_heritage_site",
+        "accuracy": "approximate",
+        "source": "https://slovakia.travel/en/instructive-path-stozky-muranska-planina"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Jana Nepomuckého – pozdně barokní dominanta obce",
+      "text": "Nejvýraznější historickou stavbou Závadky nad Hronom je římskokatolický kostel sv. Jana Nepomuckého, postavený roku 1784 a obnovený v roce 1932. Jednolodní chrám má segmentově uzavřené presbyterium a věž předsazenou před průčelí; interiér je zaklenut českými plackami s meziklenebními pásy. Hlavní pozdně barokní oltář zdobí ústřední obraz světce, který roku 1786 namaloval Andrej Zallinger, a po stranách stojí sochy andělů. Boční oltáře Immaculaty a sv. Josefa pocházejí z období 1760–1790. Pozdně barokní kazatelna z konce 18. století má bohatou akantovou řezbu. S kostelem byla vybudována také zvonice se třemi zvony. Dva z nich byly roku 1916 sejmuty a odvezeny pro válečné účely; nové zvony odlité roku 1921 zaplatili místní obyvatelé a rodáci žijící v Americe. Příběh zvonů připomíná, jak válka zasáhla i každodenní život malé horské obce.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/pamiatky-a-zaujimavosti/kostol-a-zvonica/",
+        "https://www.pamiatkynaslovensku.sk/zavadka-nad-hronom-kostol-sv-jana-nepomuckeho"
+      ],
+      "location": {
+        "name": "Kostel sv. Jana Nepomuckého",
+        "lat": 48.850515,
+        "lon": 19.913312,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/zavadka-nad-hronom-kostol-sv-jana-nepomuckeho"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Závadka během Slovenského národního povstání – památníky a Stožky",
+      "text": "Závadka nad Hronom se zapojila do Slovenského národního povstání a místní paměť připomíná jak padlé obyvatele, tak působení partyzánů v okolních horách. Před mateřskou školou stojí památník občanům obce padlým v SNP, odhalený roku 1964 k dvacátému výročí povstání. V obci je také symbolický náhrobník s mramorovou deskou věnovanou hrdinům odboje. Významným místem širšího okolí je Stožka, kde podle obecních materiálů působily od 26. října 1944 do 30. ledna 1945 partyzánské oddíly vedené podplukovníkem Šukajevem. Pomník SNP na Stožke připomíná tuto horskou epizodu odboje. Památníky propojují obecní centrum s lesní krajinou Muránské planiny a ukazují, že válečné dějiny regionu se neodehrávaly pouze na frontě, ale také v obcích, lesích a odlehlých dolinách.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/pamiatky-a-zaujimavosti/kaplnka-a-cintorin/",
+        "https://www.zavadkanadhronom.sk/obcan/turistika-a-sport/turistika/"
+      ],
+      "location": {
+        "name": "Památník padlým občanům v SNP u mateřské školy",
+        "lat": 48.8502939,
+        "lon": 19.9135646,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n14276121314"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Horehronský kroj, nářečí a obyčeje – živá kultura Závadky",
+      "text": "Závadka nad Hronom patří k horehronské etnografické oblasti a její lidová kultura má vlastní podobu kroje, nářečí i zvykosloví. Místní kroj je variantou středoslovenského typu zvaného horehronský; Závadka spolu s Polomkou vytváří užší oděvní variantu, která se od okolních obcí liší zejména ženským účesem, čepci, barvami a ornamentikou výšivek a kožíšků. Dříve se kroj nosil běžně, včetně dětí do školy, po druhé světové válce však jeho každodenní užívání postupně ustoupilo. Dnes se obléká především při svátcích, obřadech a folklorních vystoupeních. Závadské nářečí zachycuje obecní sbírka místních vyprávění. K zimním zvykům patřila „vrstva“ – společné předení a vyšívání dívek během dlouhých večerů od listopadu do masopustu. O Vánocích se hrála obchůzková betlémská hra a na jaře se vynášela Morena. Tradice dnes připomíná folklorní skupina Závačan a dětský soubor Radosť.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "map_category": "local_culture",
+      "sources": [
+        "https://www.zavadkanadhronom.sk/obec/kultura/ludovy-odev/odev/",
+        "https://www.zavadkanadhronom.sk/obec/kultura/narecie/",
+        "https://www.zavadkanadhronom.sk/obec/kultura/zvyky-a-obycaje/",
+        "https://www.zavadkanadhronom.sk/obec/kultura/kultura-dnes/"
+      ],
+      "location": {
+        "name": "Závadka nad Hronom – centrum obce, kulturní a společenská oblast",
+        "lat": 48.85048,
+        "lon": 19.91152,
+        "type": "cultural_center",
+        "accuracy": "area_representative",
+        "source": "https://www.geonames.org/3056573"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Naučný chodník Stožky – lesy, vápencové skály a staré lesnictví",
+      "text": "Závadka nad Hronom je východiskem do doliny Hronec a k přírodnímu území Stožek na severozápadním okraji Muránské planiny. Naučný chodník Stožky vede od obce přes Klátnu a horárnu Pätina k Velké a Malé Stožce, dále k bývalému rybníčku zvanému Veľký tajch, horárně Stožky a sedlu Randavica. Národní park Muránska planina uvádí délku okruhu 13,5 kilometru, převýšení přibližně 150 metrů a čas kolem čtyř a půl hodiny. Trasa přibližuje historii pastvy a lesnictví, meandrující potok Hronec, horské louky a skalní masivy. Velká a Malá Stožka jsou vápencovo-dolomitické vrchy s bralnatými svahy, jeskyněmi a zachovalými lesními společenstvy; území je významné také výskytem vzácných rostlin včetně lykovce muránského. Naučný chodník propojuje přírodní hodnoty chráněného území s připomínkami někdejšího hospodaření a lesní dopravy.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "map_category": "nature",
+      "sources": [
+        "https://www.npmuranskaplanina.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/",
+        "https://www.zavadkanadhronom.sk/obcan/turistika-a-sport/turistika/",
+        "https://slovakia.travel/en/instructive-path-stozky-muranska-planina"
+      ],
+      "location": {
+        "name": "Naučný chodník Stožky – výchozí bod u Závadky nad Hronom",
+        "lat": 48.850278,
+        "lon": 19.911389,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.npmuranskaplanina.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávač PSČ (stránka a vyhledávací formulář ověřeny 24. 11. 2026; konkrétní výsledek pro Závadku nad Hronom nebyl v tomto přístupu strojově čitelný). Geografické přiřazení PSČ 976 67 k Závadce nad Hronom potvrzuje oficiální adresa obecního úřadu Osloboditeľov 144/27, 976 67 Závadka nad Hronom a nezávislý poštovní přehled.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenská pošta; doplňková kontrola oficiální obecní adresy a nezávislého poštovního přehledu",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Geografické PSČ 976 67 je doloženo pro obec Závadka nad Hronom. Aktuální provozní stav pošty není předmětem ověření.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy a oficiální obecní zdroje pro místní a správní geografii; GeoNames a Slovakia.travel pro geografickou polohu; Národný park Muránska planina pro trasu a přírodní lokalitu."
+  },
+  "sources": [
+    {
+      "title": "Obec Závadka nad Hronom – Vznik obce",
+      "url": "https://www.zavadkanadhronom.sk/obec/historia/vznik-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Závadka nad Hronom",
+      "url": "https://www.slovensko.sk/sk/lokality/_138537cf-a5d0-4ec4-9560-f97829824555",
+      "type": "official"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Osídlenie obce",
+      "url": "https://www.zavadkanadhronom.sk/obec/historia/osidlenie-obce/",
+      "type": "official"
+    },
+    {
+      "title": "E-OBCE – Závadka nad Hronom, história",
+      "url": "https://www.e-obce.sk/obec/zavadkanadhronom/2-historia.html",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Turistika",
+      "url": "https://www.zavadkanadhronom.sk/obcan/turistika-a-sport/turistika/",
+      "type": "official"
+    },
+    {
+      "title": "Národný park Muránska planina – Náučný chodník Stožky",
+      "url": "https://www.npmuranskaplanina.sk/navstevnici/tipy-na-vylety/naucny-chodnik-stozky/",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia.travel – Instructive path Stožky",
+      "url": "https://slovakia.travel/en/instructive-path-stozky-muranska-planina",
+      "type": "official"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Kostol a zvonica",
+      "url": "https://www.zavadkanadhronom.sk/obec/pamiatky-a-zaujimavosti/kostol-a-zvonica/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Nepomuckého",
+      "url": "https://www.pamiatkynaslovensku.sk/zavadka-nad-hronom-kostol-sv-jana-nepomuckeho",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Kaplnka a cintorín",
+      "url": "https://www.zavadkanadhronom.sk/obec/pamiatky-a-zaujimavosti/kaplnka-a-cintorin/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Pamätník, Závadka nad Hronom",
+      "url": "https://poi.oma.sk/n14276121314",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Ľudový odev",
+      "url": "https://www.zavadkanadhronom.sk/obec/kultura/ludovy-odev/odev/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Nárečie",
+      "url": "https://www.zavadkanadhronom.sk/obec/kultura/narecie/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Zvyky a obyčaje",
+      "url": "https://www.zavadkanadhronom.sk/obec/kultura/zvyky-a-obycaje/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Závadka nad Hronom – Kultúra dnes",
+      "url": "https://www.zavadkanadhronom.sk/obec/kultura/kultura-dnes/",
+      "type": "official"
+    },
+    {
+      "title": "GeoNames – Závadka nad Hronom",
+      "url": "https://www.geonames.org/3056573",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "AllSlovakia – PSČ 97667 Závadka nad Hronom",
+      "url": "https://allslovakia.info/psc/97667",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Střed obce Závadka nad Hronom v údolí horního Hrona",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom – valašská kolonizace a osada Veľký Potok",
+          "text": "Závadka nad Hronom leží východně od Polomky v údolí horního Hrona, mezi jižními svahy Nízkých Tater a severními výběžky Slovenského rudohoří. Obec vznikla v 16. století na valašském právu na území muránského panství, a to na místě starší, později zaniklé osady Veľký Potok. Nejstarší písemná zmínka pochází z roku 1611, kdy se objevuje maďarské pojmenování Nagypatak, odvozené od potoka, který dodnes protéká obcí a ústí do Hrona. Podoba názvu Závadka je doložena od roku 1617; dnešní rozšířené jméno Závadka nad Hronom se ustálilo roku 1927. První osadníci přicházeli z Polomky a Šumiace, ale také z Liptova a Oravy. Valašské osídlení spojilo horské pastevectví, chov dobytka a využívání lesů s dějinami Gemerského Horehroní a Muránského hradu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Železná ruda, hámry a valcovna – průmyslová minulost Horehroní",
+          "text": "Hospodářský vývoj Závadky nad Hronom výrazně ovlivnilo železářství. V okolním chotári se od druhé poloviny 18. století těžila železná ruda a roku 1826 zde pracovaly dva skujňovací a jeden perlíkový hámor, které zpracovávaly železo z okolních hutních provozů. Kolem roku 1860 přibyla valcovna plechu a dílny na další zpracování železa. Provoz potřeboval dřevěné uhlí, takže se rozšířilo pálení uhlí v lesích, povoznictví i výroba stavebního dřeva. Obecní přehled uvádí, že roku 1828 měla Závadka 1 126 obyvatel a 123 domů – na horskou obec šlo o výrazné sídlo. Železářství navazovalo na širší síť coburgovských podniků na Horehroní; část obyvatel v nich pracovala ještě ve 20. století. Uzavření železáren roku 1926 přineslo nezaměstnanost a posílilo význam lesnictví, zemědělství a místních řemesel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Lesní úzkokolejka do Stožek – doprava dřeva z Muránské planiny",
+          "text": "Lesní hospodářství zanechalo v krajině Závadky nad Hronom výraznou dopravní stopu. Během první světové války byla vybudována přibližně 16 kilometrů dlouhá úzkokolejná lesní železnice, která odvážela dřevo z údolních skladů směrem ke Klátne a do oblasti Stožek na Muránské planině. Trať sloužila lesnímu hospodářství v těžko přístupném horském terénu a navazovala na starší tradici zpracování dřeva, výroby šindelů a plavení dřeva po Hrone. Podle obecních turistických materiálů vedla dolinou Hronec a její provoz skončil roku 1962. V krajině se tak potkávají dvě etapy dopravy: starší využívání vodního toku a novější průmyslová lesní železnice. Zbytky trasy dnes připomíná naučný chodník Stožky; na jeho začátku je umístěn starý železniční vůz jako připomínka lesní dopravy."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Jana Nepomuckého – pozdně barokní dominanta obce",
+          "text": "Nejvýraznější historickou stavbou Závadky nad Hronom je římskokatolický kostel sv. Jana Nepomuckého, postavený roku 1784 a obnovený v roce 1932. Jednolodní chrám má segmentově uzavřené presbyterium a věž předsazenou před průčelí; interiér je zaklenut českými plackami s meziklenebními pásy. Hlavní pozdně barokní oltář zdobí ústřední obraz světce, který roku 1786 namaloval Andrej Zallinger, a po stranách stojí sochy andělů. Boční oltáře Immaculaty a sv. Josefa pocházejí z období 1760–1790. Pozdně barokní kazatelna z konce 18. století má bohatou akantovou řezbu. S kostelem byla vybudována také zvonice se třemi zvony. Dva z nich byly roku 1916 sejmuty a odvezeny pro válečné účely; nové zvony odlité roku 1921 zaplatili místní obyvatelé a rodáci žijící v Americe. Příběh zvonů připomíná, jak válka zasáhla i každodenní život malé horské obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka během Slovenského národního povstání – památníky a Stožky",
+          "text": "Závadka nad Hronom se zapojila do Slovenského národního povstání a místní paměť připomíná jak padlé obyvatele, tak působení partyzánů v okolních horách. Před mateřskou školou stojí památník občanům obce padlým v SNP, odhalený roku 1964 k dvacátému výročí povstání. V obci je také symbolický náhrobník s mramorovou deskou věnovanou hrdinům odboje. Významným místem širšího okolí je Stožka, kde podle obecních materiálů působily od 26. října 1944 do 30. ledna 1945 partyzánské oddíly vedené podplukovníkem Šukajevem. Pomník SNP na Stožke připomíná tuto horskou epizodu odboje. Památníky propojují obecní centrum s lesní krajinou Muránské planiny a ukazují, že válečné dějiny regionu se neodehrávaly pouze na frontě, ale také v obcích, lesích a odlehlých dolinách."
+        },
+        {
+          "id": "fact_006",
+          "title": "Horehronský kroj, nářečí a obyčeje – živá kultura Závadky",
+          "text": "Závadka nad Hronom patří k horehronské etnografické oblasti a její lidová kultura má vlastní podobu kroje, nářečí i zvykosloví. Místní kroj je variantou středoslovenského typu zvaného horehronský; Závadka spolu s Polomkou vytváří užší oděvní variantu, která se od okolních obcí liší zejména ženským účesem, čepci, barvami a ornamentikou výšivek a kožíšků. Dříve se kroj nosil běžně, včetně dětí do školy, po druhé světové válce však jeho každodenní užívání postupně ustoupilo. Dnes se obléká především při svátcích, obřadech a folklorních vystoupeních. Závadské nářečí zachycuje obecní sbírka místních vyprávění. K zimním zvykům patřila „vrstva“ – společné předení a vyšívání dívek během dlouhých večerů od listopadu do masopustu. O Vánocích se hrála obchůzková betlémská hra a na jaře se vynášela Morena. Tradice dnes připomíná folklorní skupina Závačan a dětský soubor Radosť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Naučný chodník Stožky – lesy, vápencové skály a staré lesnictví",
+          "text": "Závadka nad Hronom je východiskem do doliny Hronec a k přírodnímu území Stožek na severozápadním okraji Muránské planiny. Naučný chodník Stožky vede od obce přes Klátnu a horárnu Pätina k Velké a Malé Stožce, dále k bývalému rybníčku zvanému Veľký tajch, horárně Stožky a sedlu Randavica. Národní park Muránska planina uvádí délku okruhu 13,5 kilometru, převýšení přibližně 150 metrů a čas kolem čtyř a půl hodiny. Trasa přibližuje historii pastvy a lesnictví, meandrující potok Hronec, horské louky a skalní masivy. Velká a Malá Stožka jsou vápencovo-dolomitické vrchy s bralnatými svahy, jeskyněmi a zachovalými lesními společenstvy; území je významné také výskytem vzácných rostlin včetně lykovce muránského. Naučný chodník propojuje přírodní hodnoty chráněného území s připomínkami někdejšího hospodaření a lesní dopravy."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Závadka nad Hronom im Tal des oberen Hron",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom – walachische Besiedlung und die Siedlung Veľký Potok",
+          "text": "Závadka nad Hronom liegt östlich von Polomka im Tal des oberen Hron, zwischen der Niederen Tatra und den nördlichen Ausläufern des Slowakischen Erzgebirges. Der Ort entstand im 16. Jahrhundert nach walachischem Recht auf dem Gebiet der Herrschaft Muráň, am Platz der älteren, später aufgegebenen Siedlung Veľký Potok. Die erste schriftliche Erwähnung stammt aus dem Jahr 1611 und nennt den ungarischen Namen Nagypatak, der vom Bach abgeleitet ist, der noch heute durch den Ort fließt und in den Hron mündet. Die heutige Namensform ist seit 1617 belegt; der Name Závadka nad Hronom setzte sich 1927 durch. Die ersten Siedler kamen aus Polomka und Šumiac sowie aus Liptau und der Arwa."
+        },
+        {
+          "id": "fact_002",
+          "title": "Eisenerz, Hammerwerke und Walzwerk – die Industriegeschichte des Horehronie",
+          "text": "Die Wirtschaft von Závadka nad Hronom wurde stark von der Eisenverarbeitung geprägt. Seit der zweiten Hälfte des 18. Jahrhunderts wurde im Gemeindegebiet Eisenerz abgebaut. Ab 1826 arbeiteten hier zwei Frischhämmer und ein Zainhammer. Um 1860 kamen ein Blechwalzwerk und Werkstätten hinzu. Die Betriebe benötigten Holzkohle; dadurch entwickelten sich Köhlerei, Fuhrwesen und Holzverarbeitung. 1828 hatte der Ort 1.126 Einwohner und 123 Häuser. Die Eisenindustrie war mit dem weiteren Netz der Coburger Betriebe im Horehronie verbunden. Die Schließung der Eisenwerke 1926 brachte Arbeitslosigkeit und verstärkte die Bedeutung von Forstwirtschaft, Landwirtschaft und Handwerk."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die schmalspurige Waldbahn nach Stožky – Holztransport aus dem Muránska-Planina-Gebiet",
+          "text": "Während des Ersten Weltkriegs wurde eine etwa 16 Kilometer lange schmalspurige Waldbahn gebaut. Sie transportierte Holz von den Lagern im Tal in Richtung Klátna und Stožky im Gebiet des Muránska-Planina-Plateaus. Die Bahn diente der Forstwirtschaft im schwer zugänglichen Gebirge und knüpfte an ältere Traditionen der Holzverarbeitung und Holzflößerei auf dem Hron an. Laut den touristischen Informationen der Gemeinde führte sie durch das Tal Hronec; der Betrieb endete 1962. Der Lehrpfad Stožky erinnert heute an diese Geschichte, am Anfang steht ein alter Eisenbahnwagen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die spätbarocke Kirche des heiligen Johannes Nepomuk",
+          "text": "Das markanteste historische Bauwerk von Závadka nad Hronom ist die römisch-katholische Kirche des heiligen Johannes Nepomuk. Sie wurde 1784 errichtet und 1932 renoviert. Der einschiffige Bau besitzt einen segmentförmigen Chorabschluss und einen vorgestellten Turm. Der spätbarocke Hauptaltar zeigt ein 1786 von Andrej Zallinger gemaltes Bild des Heiligen. Die Seitenaltäre stammen aus den Jahren 1760–1790; die Kanzel aus dem späten 18. Jahrhundert ist reich mit Akanthusornamenten geschnitzt. Zusammen mit der Kirche entstand ein Glockenturm. Zwei Glocken wurden 1916 für Kriegszwecke abgenommen; neue Glocken wurden 1921 mit Spenden der Einwohner und ausgewanderter Ortsbürger finanziert."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka im Slowakischen Nationalaufstand – Denkmäler und die Stožky-Berge",
+          "text": "Závadka nad Hronom beteiligte sich am Slowakischen Nationalaufstand. Vor dem Kindergarten steht ein Denkmal für die im Aufstand gefallenen Einwohner, das 1964 zum zwanzigsten Jahrestag enthüllt wurde. Im Ort gibt es auch einen symbolischen Grabstein mit einer Marmortafel für die Widerstandskämpfer. In der weiteren Umgebung erinnert das Denkmal auf Stožka an Partisaneneinheiten, die laut Gemeindeangaben vom 26. Oktober 1944 bis zum 30. Januar 1945 unter Oberstleutnant Šukajev tätig waren. Die Erinnerungsorte verbinden das Dorfzentrum mit den Wäldern des Muránska-Planina-Gebiets."
+        },
+        {
+          "id": "fact_006",
+          "title": "Horehronie-Tracht, Dialekt und Bräuche – die lebendige Kultur von Závadka",
+          "text": "Závadka nad Hronom gehört zur ethnografischen Region Horehronie und besitzt eigene Trachten-, Dialekt- und Brauchtraditionen. Die Tracht gehört zum mittelslowakischen Horehronie-Typ; gemeinsam mit Polomka bildet Závadka eine engere Variante, die sich durch Frisuren, Hauben, Farben und Stickmuster unterscheidet. Früher trugen sie auch Kinder im Schulalltag, heute erscheint die Tracht vor allem bei Festen und Folkloreauftritten. Zu den Winterbräuchen gehörte die „Vrstva“: Mädchen trafen sich von November bis zum Fasching zum Spinnen und Sticken. Zur Weihnachtszeit wurde ein Krippenspiel aufgeführt, im Frühjahr wurde Morena ausgetragen. Die Tradition pflegen heute die Folkloregruppe Závačan und das Kinderensemble Radosť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Lehrpfad Stožky – Wälder, Kalkfelsen und alte Forstwirtschaft",
+          "text": "Závadka nad Hronom ist ein Ausgangspunkt für das Tal Hronec und die Stožky im Nordwesten des Muránska-Planina-Gebiets. Der Lehrpfad führt über Klátna und die Försterei Pätina zu den Bergen Veľká und Malá Stožka, zum ehemaligen Teich Veľký tajch und weiter zum Sattel Randavica. Der Nationalpark nennt eine Länge von 13,5 Kilometern, etwa 150 Meter Höhenunterschied und rund viereinhalb Stunden Gehzeit. Der Weg zeigt die Geschichte von Weidewirtschaft und Forstwesen, den Bach Hronec, Bergwiesen und Felsmassive. Die Kalk-Dolomit-Gipfel besitzen Höhlen und wertvolle Waldgesellschaften; hier wächst auch der seltene Seidelbast Daphne arbuscula."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Village centre of Závadka nad Hronom in the upper Hron valley",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom – Wallachian settlement and the lost village of Veľký Potok",
+          "text": "Závadka nad Hronom lies east of Polomka in the upper Hron valley, between the Low Tatras and the northern foothills of the Slovak Ore Mountains. It developed in the 16th century under Wallachian law on the Muráň estate, on the site of an older settlement called Veľký Potok that later disappeared. Its earliest written record dates to 1611 and uses the Hungarian name Nagypatak, derived from the stream that still crosses the village and flows into the Hron. A form of the present name is documented from 1617; the full name Závadka nad Hronom became established in 1927. Early settlers came from Polomka and Šumiac, as well as Liptov and Orava."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iron ore, hammer mills and a rolling mill – Horehronie’s industrial past",
+          "text": "Ironworking strongly shaped the economy of Závadka nad Hronom. Iron ore was mined in the surrounding territory from the second half of the 18th century. From 1826, two finery hammers and a helve hammer operated here; a sheet-metal rolling mill and workshops followed around 1860. The works required charcoal, encouraging charcoal burning, carting and timber production. In 1828 the village had 1,126 inhabitants and 123 houses. Its iron industry was connected with the wider Coburg industrial network in Horehronie. The closure of the ironworks in 1926 brought unemployment and increased the importance of forestry, farming and local crafts."
+        },
+        {
+          "id": "fact_003",
+          "title": "The narrow-gauge forest railway to Stožky – moving timber from Muránska planina",
+          "text": "During the First World War, a forest railway about 16 kilometres long was built from Závadka. It carried timber from valley storage yards towards Klátna and the Stožky area of Muránska planina. The narrow-gauge line served forestry in difficult mountain terrain and followed older traditions of woodworking and floating timber down the Hron. According to the municipality’s tourism information, it ran through the Hronec valley and closed in 1962. The Stožky educational trail now recalls this history; an old railway wagon stands at its starting point."
+        },
+        {
+          "id": "fact_004",
+          "title": "The late-Baroque Church of St John of Nepomuk",
+          "text": "The most prominent historic building in Závadka nad Hronom is the Roman Catholic Church of St John of Nepomuk, built in 1784 and renovated in 1932. The single-nave church has a segmental-ended sanctuary and a tower projecting from the façade. Its late-Baroque main altar features a painting of the saint by Andrej Zallinger, dated 1786. The side altars date from 1760–1790, while the richly carved acanthus pulpit is from the late 18th century. A bell tower was built together with the church. Two bells were removed in 1916 for wartime use; replacement bells cast in 1921 were paid for by local residents and emigrants from the village."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka during the Slovak National Uprising – memorials and the Stožky hills",
+          "text": "Závadka nad Hronom took part in the Slovak National Uprising. A memorial to local residents killed in the uprising stands in front of the kindergarten; it was unveiled in 1964, on the twentieth anniversary. The village also has a symbolic tombstone with a marble plaque dedicated to resistance fighters. Nearby, the memorial on Stožka recalls partisan units that, according to municipal information, operated from 26 October 1944 to 30 January 1945 under Lieutenant Colonel Šukajev. These sites connect the village centre with the forested landscape of Muránska planina."
+        },
+        {
+          "id": "fact_006",
+          "title": "Horehronie costume, dialect and customs – Závadka’s living culture",
+          "text": "Závadka nad Hronom belongs to the Horehronie ethnographic region and has distinctive costume, dialect and folk customs. Its dress is a local version of the central Slovak Horehronie type; together with Polomka it forms a narrower variant distinguished by women’s hairstyles, caps, colours and embroidery patterns. In the past, children wore folk dress to school; today it is mainly worn for religious occasions, ceremonies and folklore performances. A winter custom called ‘vrstva’ brought girls together for spinning and embroidery from November until Shrovetide. Christmas included a house-to-house Nativity play, while Morena was carried out in spring. The traditions are kept alive by the Závačan folk group and the Radosť children’s ensemble."
+        },
+        {
+          "id": "fact_007",
+          "title": "Stožky educational trail – forests, limestone cliffs and traditional forestry",
+          "text": "Závadka nad Hronom is a starting point for the Hronec valley and the Stožky area on the north-western edge of Muránska planina. The educational trail passes Klátna and the Pätina forester’s lodge, then reaches Veľká and Malá Stožka, the former pond called Veľký tajch and the Randavica saddle. The national park lists the circuit at 13.5 kilometres, with about 150 metres of ascent and roughly four and a half hours of walking. It introduces the history of grazing and forestry, the meandering Hronec stream, mountain meadows and rocky massifs. The limestone-dolomite peaks contain caves and valuable woodland habitats, including sites for the rare Muránska daphne."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Závadka nad Hronom en el valle del alto Hron",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom: colonización valaca y el antiguo asentamiento de Veľký Potok",
+          "text": "Závadka nad Hronom se encuentra al este de Polomka, en el valle del alto Hron, entre los Bajos Tatras y las estribaciones septentrionales de los Montes Metálicos eslovacos. Surgió en el siglo XVI bajo el derecho valaco, en tierras de la señoría de Muráň y en el lugar del antiguo asentamiento de Veľký Potok. La primera mención escrita data de 1611 y utiliza el nombre húngaro Nagypatak, derivado del arroyo que aún atraviesa el pueblo y desemboca en el Hron. La forma actual del nombre aparece desde 1617 y Závadka nad Hronom se consolidó en 1927. Los primeros pobladores llegaron de Polomka y Šumiac, así como de Liptov y Orava."
+        },
+        {
+          "id": "fact_002",
+          "title": "Mineral de hierro, martinetes y laminadora: el pasado industrial de Horehronie",
+          "text": "La siderurgia marcó la economía de Závadka nad Hronom. Desde la segunda mitad del siglo XVIII se extraía mineral de hierro en su territorio. A partir de 1826 funcionaron dos martinetes de afino y uno de forja; hacia 1860 se añadieron una laminadora de chapa y talleres. La producción necesitaba carbón vegetal y favoreció la carbonería, el transporte con carros y el trabajo de la madera. En 1828 el pueblo tenía 1.126 habitantes y 123 casas. La industria local formaba parte de la red de establecimientos Coburgo de Horehronie. El cierre de las ferrerías en 1926 provocó desempleo y reforzó la importancia de la silvicultura, la agricultura y los oficios locales."
+        },
+        {
+          "id": "fact_003",
+          "title": "El ferrocarril forestal de vía estrecha hacia Stožky",
+          "text": "Durante la Primera Guerra Mundial se construyó desde Závadka un ferrocarril forestal de vía estrecha de unos 16 kilómetros. Transportaba madera desde los almacenes del valle hacia Klátna y Stožky, en la meseta de Muránska planina. La línea servía a la explotación forestal en un terreno montañoso de difícil acceso y continuaba una tradición más antigua de trabajar la madera y transportarla por el Hron. Según la información turística municipal, atravesaba el valle de Hronec y dejó de funcionar en 1962. El sendero educativo de Stožky recuerda hoy esta historia; al inicio se conserva un antiguo vagón."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia barroca tardía de San Juan Nepomuceno",
+          "text": "El edificio histórico más destacado de Závadka nad Hronom es la iglesia católica romana de San Juan Nepomuceno, construida en 1784 y renovada en 1932. Tiene una sola nave, presbiterio de cierre segmentado y una torre adelantada respecto a la fachada. El altar mayor barroco tardío contiene una pintura del santo realizada por Andrej Zallinger en 1786. Los altares laterales datan de 1760–1790 y el púlpito de finales del siglo XVIII está decorado con abundante ornamentación de acanto. Junto a la iglesia se construyó un campanario. Dos campanas fueron retiradas en 1916 para fines bélicos; las nuevas, fundidas en 1921, se pagaron con donaciones de vecinos y emigrantes."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka durante el Levantamiento Nacional Eslovaco",
+          "text": "Závadka nad Hronom participó en el Levantamiento Nacional Eslovaco. Frente al jardín de infancia se encuentra un monumento a los vecinos caídos, inaugurado en 1964, en el vigésimo aniversario del levantamiento. En el pueblo hay también una lápida simbólica con una placa de mármol dedicada a los combatientes de la resistencia. En las montañas cercanas, el monumento de Stožka recuerda a las unidades partisanas que, según la información municipal, actuaron allí entre el 26 de octubre de 1944 y el 30 de enero de 1945 bajo el mando del teniente coronel Šukajev."
+        },
+        {
+          "id": "fact_006",
+          "title": "Traje tradicional, dialecto y costumbres de Horehronie",
+          "text": "Závadka nad Hronom pertenece a la región etnográfica de Horehronie y conserva rasgos propios de indumentaria, dialecto y costumbres populares. Su traje es una variante local del tipo de Eslovaquia central; junto con Polomka forma una variante más específica, reconocible por los peinados femeninos, las cofias, los colores y los bordados. Antiguamente también los niños llevaban el traje a la escuela; hoy se reserva sobre todo para fiestas, ceremonias y actuaciones folclóricas. En invierno, la ‘vrstva’ reunía a las jóvenes para hilar y bordar desde noviembre hasta el carnaval. En Navidad se representaba una obra de Belén y en primavera se sacaba a Morena. Las tradiciones continúan gracias al grupo Závačan y al conjunto infantil Radosť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sendero educativo de Stožky: bosques, rocas calizas y silvicultura tradicional",
+          "text": "Závadka nad Hronom es punto de partida hacia el valle de Hronec y la zona de Stožky, en el extremo noroccidental de Muránska planina. El sendero pasa por Klátna y la casa forestal de Pätina, llega a Veľká y Malá Stožka, al antiguo estanque Veľký tajch y al collado de Randavica. El parque nacional indica 13,5 kilómetros, unos 150 metros de desnivel y alrededor de cuatro horas y media. El recorrido explica la historia del pastoreo y la silvicultura, el arroyo Hronec, los prados de montaña y los macizos rocosos. Los picos de caliza y dolomía albergan cuevas y bosques valiosos, además de plantas raras como el dafne de Muráň."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre de Závadka nad Hronom dans la vallée du haut Hron",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom : colonisation valaquienne et ancien hameau de Veľký Potok",
+          "text": "Závadka nad Hronom se trouve à l’est de Polomka, dans la vallée du haut Hron, entre les Basses Tatras et les contreforts septentrionaux des Monts Métallifères slovaques. Le village s’est développé au XVIe siècle selon le droit valaque, sur le domaine de Muráň et à l’emplacement de l’ancien hameau de Veľký Potok. La première mention écrite date de 1611 et emploie le nom hongrois Nagypatak, tiré du ruisseau qui traverse encore le village avant de rejoindre le Hron. Une forme du nom actuel est attestée dès 1617 ; le nom complet Závadka nad Hronom s’est imposé en 1927. Les premiers habitants venaient de Polomka et Šumiac, mais aussi de Liptov et d’Orava."
+        },
+        {
+          "id": "fact_002",
+          "title": "Minerai de fer, martinets et laminoir : le passé industriel du Horehronie",
+          "text": "La métallurgie a profondément marqué l’économie de Závadka nad Hronom. Le minerai de fer était extrait dans le territoire communal dès la seconde moitié du XVIIIe siècle. À partir de 1826, deux martinets d’affinage et un martinet de forge fonctionnaient ici ; un laminoir à tôle et des ateliers furent ajoutés vers 1860. Les installations consommaient du charbon de bois, favorisant la carbonisation, le transport par charrettes et le travail du bois. En 1828, le village comptait 1 126 habitants et 123 maisons. L’industrie s’inscrivait dans le réseau des entreprises Cobourg du Horehronie. La fermeture des forges en 1926 provoqua du chômage et renforça le rôle de la forêt, de l’agriculture et de l’artisanat."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le chemin de fer forestier à voie étroite vers Stožky",
+          "text": "Pendant la Première Guerre mondiale, un chemin de fer forestier à voie étroite d’environ 16 kilomètres fut construit depuis Závadka. Il transportait le bois des dépôts de la vallée vers Klátna et Stožky, dans le massif de Muránska planina. La ligne facilitait l’exploitation forestière dans un relief montagneux difficile et prolongeait les traditions plus anciennes du travail du bois et du flottage sur le Hron. Selon les informations touristiques de la commune, elle traversait la vallée de Hronec et cessa son activité en 1962. Le sentier pédagogique de Stožky en rappelle aujourd’hui l’histoire ; un ancien wagon est exposé à son départ."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église baroque tardive Saint-Jean-Népomucène",
+          "text": "Le principal monument historique de Závadka nad Hronom est l’église catholique romaine Saint-Jean-Népomucène, construite en 1784 et rénovée en 1932. L’édifice à nef unique possède un chœur à terminaison segmentaire et une tour en avant-corps. Le maître-autel baroque tardif présente une peinture du saint réalisée par Andrej Zallinger en 1786. Les autels latéraux datent de 1760–1790 et la chaire de la fin du XVIIIe siècle est richement sculptée de motifs d’acanthe. Un clocher fut construit en même temps que l’église. Deux cloches furent descendues en 1916 pour les besoins de la guerre ; les nouvelles cloches, fondues en 1921, furent financées par les habitants et les émigrés originaires du village."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka pendant le Soulèvement national slovaque",
+          "text": "Závadka nad Hronom participa au Soulèvement national slovaque. Devant l’école maternelle se trouve un monument aux habitants morts pendant l’insurrection, inauguré en 1964 pour son vingtième anniversaire. Le village possède aussi une tombe symbolique avec une plaque de marbre dédiée aux résistants. Dans les montagnes voisines, le monument de Stožka rappelle les unités de partisans qui, selon les informations communales, y opérèrent du 26 octobre 1944 au 30 janvier 1945 sous le commandement du lieutenant-colonel Šukajev. Ces lieux de mémoire relient le centre du village aux forêts de Muránska planina."
+        },
+        {
+          "id": "fact_006",
+          "title": "Costume du Horehronie, dialecte et traditions vivantes de Závadka",
+          "text": "Závadka nad Hronom appartient à la région ethnographique du Horehronie et possède ses propres traditions vestimentaires, dialectales et populaires. Son costume est une variante du type du centre de la Slovaquie ; avec Polomka, le village forme une variante locale reconnaissable aux coiffures féminines, aux bonnets, aux couleurs et aux motifs de broderie. Autrefois, les enfants portaient aussi le costume à l’école ; aujourd’hui, il est réservé aux fêtes, cérémonies et spectacles folkloriques. En hiver, la « vrstva » réunissait les jeunes filles pour filer et broder, de novembre jusqu’au carnaval. À Noël, on jouait une pièce de la Nativité et, au printemps, on promenait Morena. Le groupe folklorique Závačan et l’ensemble d’enfants Radosť perpétuent ces traditions."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sentier de Stožky : forêts, falaises calcaires et histoire forestière",
+          "text": "Závadka nad Hronom est un point de départ vers la vallée de Hronec et le secteur de Stožky, au nord-ouest de Muránska planina. Le sentier passe par Klátna et la maison forestière de Pätina, puis rejoint Veľká et Malá Stožka, l’ancien étang Veľký tajch et le col de Randavica. Le parc national annonce 13,5 kilomètres, environ 150 mètres de dénivelé et quatre heures et demie de marche. Le parcours présente l’histoire du pâturage et de la foresterie, le ruisseau Hronec, les prairies montagnardes et les reliefs rocheux. Les sommets calcaires et dolomitiques abritent des grottes et des forêts remarquables, ainsi que des plantes rares comme le daphné de Muránska."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Závadka nad Hronom nella valle dell’alto Hron",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom: colonizzazione valacca e l’antico insediamento di Veľký Potok",
+          "text": "Závadka nad Hronom si trova a est di Polomka, nella valle dell’alto Hron, tra i Bassi Tatra e le pendici settentrionali dei Monti Metalliferi slovacchi. Si sviluppò nel XVI secolo secondo il diritto valacco, sul territorio della signoria di Muráň e sul sito del più antico insediamento di Veľký Potok, poi scomparso. La prima menzione scritta risale al 1611 e usa il nome ungherese Nagypatak, derivato dal torrente che attraversa ancora il paese e confluisce nell’Hron. Una forma del nome attuale è attestata dal 1617; il nome completo Závadka nad Hronom si affermò nel 1927. I primi abitanti arrivarono da Polomka e Šumiac, ma anche da Liptov e Orava."
+        },
+        {
+          "id": "fact_002",
+          "title": "Minerale di ferro, magli e laminatoio: il passato industriale di Horehronie",
+          "text": "La lavorazione del ferro ha segnato profondamente l’economia di Závadka nad Hronom. Dalla seconda metà del XVIII secolo nel territorio si estraeva minerale di ferro. Dal 1826 operarono due magli di affinazione e un maglio da forgia; intorno al 1860 furono aggiunti un laminatoio per lamiere e alcune officine. Le attività richiedevano carbone di legna e favorirono la produzione di carbone, il trasporto con carri e la lavorazione del legname. Nel 1828 il paese contava 1.126 abitanti e 123 case. L’industria locale era collegata alla rete delle ferriere Coburgo di Horehronie. La chiusura degli impianti nel 1926 causò disoccupazione e accrebbe il peso della silvicoltura, dell’agricoltura e dell’artigianato."
+        },
+        {
+          "id": "fact_003",
+          "title": "La ferrovia forestale a scartamento ridotto verso Stožky",
+          "text": "Durante la Prima guerra mondiale fu costruita da Závadka una ferrovia forestale a scartamento ridotto lunga circa 16 chilometri. Trasportava il legname dai depositi della valle verso Klátna e l’area di Stožky, nella Muránska planina. La linea serviva il lavoro forestale in un territorio montuoso difficile e si collegava alle tradizioni più antiche della lavorazione del legno e del trasporto fluviale sull’Hron. Secondo le informazioni turistiche comunali attraversava la valle di Hronec e cessò il servizio nel 1962. Il sentiero didattico Stožky ne ricorda oggi la storia; all’inizio è esposto un vecchio vagone."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa tardo-barocca di San Giovanni Nepomuceno",
+          "text": "L’edificio storico più importante di Závadka nad Hronom è la chiesa cattolica romana di San Giovanni Nepomuceno, costruita nel 1784 e restaurata nel 1932. La chiesa a navata unica ha il presbiterio con chiusura segmentata e una torre avanzata rispetto alla facciata. L’altare maggiore tardo-barocco presenta un dipinto del santo realizzato da Andrej Zallinger nel 1786. Gli altari laterali risalgono al periodo 1760–1790; il pulpito della fine del XVIII secolo è riccamente scolpito con motivi d’acanto. Insieme alla chiesa fu costruito anche il campanile. Due campane furono rimosse nel 1916 per scopi bellici; quelle nuove, fuse nel 1921, furono pagate dagli abitanti e dagli emigrati originari del paese."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka durante l’Insurrezione nazionale slovacca",
+          "text": "Závadka nad Hronom partecipò all’Insurrezione nazionale slovacca. Davanti alla scuola materna si trova un monumento agli abitanti caduti durante l’insurrezione, inaugurato nel 1964 per il ventesimo anniversario. Nel paese c’è anche una tomba simbolica con una lapide di marmo dedicata ai combattenti della resistenza. Nelle montagne vicine, il monumento di Stožka ricorda le unità partigiane che, secondo le informazioni comunali, operarono dal 26 ottobre 1944 al 30 gennaio 1945 sotto il comando del tenente colonnello Šukajev. Questi luoghi della memoria collegano il centro abitato ai boschi della Muránska planina."
+        },
+        {
+          "id": "fact_006",
+          "title": "Costume tradizionale, dialetto e usanze di Horehronie",
+          "text": "Závadka nad Hronom appartiene alla regione etnografica di Horehronie e conserva caratteristiche proprie nell’abbigliamento, nel dialetto e nelle tradizioni popolari. Il costume locale è una variante del tipo della Slovacchia centrale; insieme a Polomka forma una variante più ristretta, riconoscibile per le acconciature femminili, le cuffie, i colori e i ricami. In passato anche i bambini indossavano il costume a scuola; oggi viene utilizzato soprattutto nelle feste, nelle cerimonie e negli spettacoli folkloristici. In inverno la «vrstva» riuniva le ragazze per filare e ricamare da novembre fino al carnevale. A Natale si rappresentava una scena della Natività e in primavera si portava in processione Morena. Le tradizioni sono mantenute dal gruppo Závačan e dal complesso infantile Radosť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sentiero didattico Stožky: foreste, rocce calcaree e storia forestale",
+          "text": "Závadka nad Hronom è un punto di partenza per la valle di Hronec e la zona di Stožky, all’estremità nord-occidentale della Muránska planina. Il sentiero passa per Klátna e la casa forestale di Pätina, raggiunge Veľká e Malá Stožka, il vecchio stagno Veľký tajch e il passo di Randavica. Il parco nazionale indica una lunghezza di 13,5 chilometri, circa 150 metri di dislivello e quattro ore e mezza di cammino. Il percorso racconta la storia del pascolo e della silvicoltura, il torrente Hronec, i prati montani e i massicci rocciosi. Le cime calcaree e dolomitiche ospitano grotte, boschi di grande valore e piante rare come la dafne di Muráň."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dorpscentrum van Závadka nad Hronom in het dal van de bovenloop van de Hron",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Závadka nad Hronom – Walachische kolonisatie en de verdwenen nederzetting Veľký Potok",
+          "text": "Závadka nad Hronom ligt ten oosten van Polomka in het dal van de bovenloop van de Hron, tussen de Lage Tatra en de noordelijke uitlopers van het Slowaaks Ertsgebergte. Het dorp ontstond in de 16e eeuw volgens het Walachische recht op het landgoed Muráň, op de plaats van de oudere nederzetting Veľký Potok die later verdween. De eerste schriftelijke vermelding dateert uit 1611 en gebruikt de Hongaarse naam Nagypatak, afgeleid van de beek die nog altijd door het dorp stroomt en in de Hron uitmondt. Een vorm van de huidige naam is vanaf 1617 bekend; de volledige naam Závadka nad Hronom werd in 1927 gangbaar. De eerste kolonisten kwamen uit Polomka en Šumiac, maar ook uit Liptov en Orava."
+        },
+        {
+          "id": "fact_002",
+          "title": "IJzererts, hamersmederijen en een walserij – het industriële verleden van Horehronie",
+          "text": "De ijzerbewerking heeft de economie van Závadka nad Hronom sterk beïnvloed. Vanaf de tweede helft van de 18e eeuw werd in het gebied ijzererts gewonnen. Vanaf 1826 waren er twee smeedhamers en een zware heihamer in bedrijf; rond 1860 kwamen een plaatwalserij en werkplaatsen erbij. De productie had houtskool nodig en stimuleerde houtskoolbranden, vervoer met karren en houtbewerking. In 1828 telde het dorp 1.126 inwoners en 123 huizen. De lokale industrie was verbonden met het bredere netwerk van Coburgse ijzerbedrijven in Horehronie. De sluiting van de hoogovens in 1926 leidde tot werkloosheid en vergrootte het belang van bosbouw, landbouw en ambacht."
+        },
+        {
+          "id": "fact_003",
+          "title": "De smalspoorbosspoorlijn naar Stožky – houttransport uit Muránska planina",
+          "text": "Tijdens de Eerste Wereldoorlog werd vanuit Závadka een ongeveer 16 kilometer lange smalspoorbosspoorlijn aangelegd. Deze vervoerde hout van opslagplaatsen in het dal richting Klátna en Stožky in het gebied van Muránska planina. De spoorlijn ondersteunde bosbouw in moeilijk toegankelijk berggebied en sloot aan op oudere tradities van houtbewerking en houtvlotten op de Hron. Volgens de toeristische informatie van de gemeente liep de lijn door het Hronec-dal en werd zij in 1962 gesloten. Het educatieve pad Stožky herinnert tegenwoordig aan deze geschiedenis; bij het begin staat een oude spoorwagon."
+        },
+        {
+          "id": "fact_004",
+          "title": "De laatbarokke kerk van Sint-Jan Nepomucenus",
+          "text": "Het belangrijkste historische gebouw van Závadka nad Hronom is de rooms-katholieke kerk van Sint-Jan Nepomucenus, gebouwd in 1784 en gerenoveerd in 1932. De eenbeukige kerk heeft een segmentvormig gesloten koor en een toren vóór de gevel. Het laatbarokke hoofdaltaar bevat een schilderij van de heilige door Andrej Zallinger uit 1786. De zijaltaren dateren uit 1760–1790 en de rijk met acanthus versierde preekstoel stamt uit het einde van de 18e eeuw. Tegelijk met de kerk werd een klokkentoren gebouwd. Twee klokken werden in 1916 voor oorlogsdoeleinden weggehaald; de nieuwe klokken uit 1921 werden betaald door dorpsbewoners en geëmigreerde dorpsgenoten."
+        },
+        {
+          "id": "fact_005",
+          "title": "Závadka tijdens de Slowaakse Nationale Opstand",
+          "text": "Závadka nad Hronom nam deel aan de Slowaakse Nationale Opstand. Voor de kleuterschool staat een monument voor dorpsbewoners die tijdens de opstand omkwamen; het werd in 1964 onthuld, twintig jaar na de opstand. In het dorp staat ook een symbolisch grafmonument met een marmeren plaat ter ere van verzetsstrijders. In de nabijgelegen bergen herinnert het monument op Stožka aan partizaneneenheden die volgens gemeentelijke informatie van 26 oktober 1944 tot 30 januari 1945 onder leiding van luitenant-kolonel Šukajev actief waren. De gedenkplaatsen verbinden het dorpscentrum met de bossen van Muránska planina."
+        },
+        {
+          "id": "fact_006",
+          "title": "Horehronie-kostuum, dialect en gebruiken – de levende cultuur van Závadka",
+          "text": "Závadka nad Hronom behoort tot de etnografische regio Horehronie en heeft eigen tradities op het gebied van klederdracht, dialect en volksgebruiken. De klederdracht is een lokale variant van het Midden-Slowaakse Horehronie-type; samen met Polomka vormt het dorp een nauwere variant die herkenbaar is aan dameskapsels, mutsen, kleuren en borduurmotieven. Vroeger droegen ook kinderen de klederdracht naar school; tegenwoordig verschijnt zij vooral bij feestdagen, ceremonies en folkloristische optredens. In de winter kwamen meisjes tijdens de ‘vrstva’ bijeen om te spinnen en borduren, van november tot carnaval. Met Kerstmis werd een kerstspel opgevoerd en in het voorjaar werd Morena uitgedragen. De tradities worden levend gehouden door de folkloristische groep Závačan en het kinderensemble Radosť."
+        },
+        {
+          "id": "fact_007",
+          "title": "Educatief pad Stožky – bossen, kalksteenrotsen en bosbouwgeschiedenis",
+          "text": "Závadka nad Hronom is een vertrekpunt voor het Hronec-dal en het gebied Stožky aan de noordwestelijke rand van Muránska planina. Het educatieve pad loopt via Klátna en de boswachterswoning Pätina naar Veľká en Malá Stožka, de voormalige vijver Veľký tajch en de bergpas Randavica. Het nationale park vermeldt een lengte van 13,5 kilometer, ongeveer 150 meter hoogteverschil en circa vier en een half uur wandelen. De route toont de geschiedenis van begrazing en bosbouw, de meanderende beek Hronec, bergweiden en rotsmassieven. De kalksteen-dolomiettoppen bevatten grotten en waardevolle bossen; ook groeit er de zeldzame Muránska wolfskers."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
