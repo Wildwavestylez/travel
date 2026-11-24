@@ -1,4 +1,522 @@
 {
   "postcode": "90027",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Bernolákovo",
+  "district": null,
+  "district_type": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Esterházyovský kaštieľ v Bernolákove",
+  "representative_point": {
+    "lat": 48.201504,
+    "lon": 17.287025
+  },
+  "access_point": {
+    "lat": 48.201504,
+    "lon": 17.287025
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "priority": "C",
+      "category": "history",
+      "map_category": "historic_city",
+      "title": "Od Ceki a Lužnice k Bernolákovu: sídlo s dejinami od roku 1209",
+      "text": "Územie dnešného Bernolákova bolo osídlené už v praveku: archeologické nálezy dokladajú neolit, staršiu dobu bronzovú a výrazné slovansko-avarské pohrebisko z 8. storočia na dune Šakoň, kde bolo odkrytých 84 hrobov vrátane hrobov jazdcov s koňmi. Najstaršia písomná zmienka pochádza z roku 1209, keď sa uvádza osada Ceki. V roku 1216 sa objavuje meno Cheki. Na území dnešnej obce sa pôvodne nachádzali dve osady – Čeki a Lužnica – ktoré neskôr splynuli. Názov Čeklís sa používal až do roku 1948, keď obec prijala meno Bernolákovo. Zmienky o viniciach siahajú do roku 1290.",
+      "sources": [
+        "https://www.bernolakovo.sk/19002/historia-obce",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4ce5b98e-09d3-4949-8bd1-67b007d888f9"
+      ],
+      "location": {
+        "name": "Historické jadro Bernolákova – orientačný bod v centre obce",
+        "address": "Bernolákovo, okres Senec, Slovakia",
+        "lat": 48.1993493,
+        "lon": 17.2894335,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.bernolakovo.sk/data/news_files/bernolakovo.sk/75001/orientacna-mapa-bernolakovo.pdf.pdf"
+      }
+    },
+    {
+      "id": "fact_002",
+      "priority": "C",
+      "category": "heritage_and_monuments",
+      "map_category": "castle",
+      "title": "Hrad Čeklís: stredoveké strážne sídlo nad Čiernou vodou",
+      "text": "Zrúcanina hradu Čeklís leží na vyvýšenine Várdomb na západnom okraji Bernolákova. Hrad vznikol pravdepodobne po tatárskom vpáde, približne okolo roku 1290; písomné pramene ho v roku 1324 uvádzajú ako Castrum Chekles. Jeho poloha na terase nad tokom Čiernej vody umožňovala kontrolovať južný prístup do oblasti. Z hradu sa zachovali úseky obvodového muriva a ďalšie fragmenty, zatiaľ čo väčšinu areálu prekryl neskorší terénny násyp. Vodárenská veža, postavená na vrchole v 20. storočí v historizujúcom štýle, nie je súčasťou pôvodného hradu.",
+      "sources": [
+        "https://www.bernolakovo.sk/19002/historia-obce",
+        "https://www.hrady-zamky.sk/ceklis/",
+        "https://hradceklis.webnode.page/home/newscbm_423044/340/"
+      ],
+      "location": {
+        "name": "Zrúcanina hradu Čeklís na Várdombe",
+        "address": "Várdomb, Bernolákovo, Slovakia",
+        "lat": 48.199923,
+        "lon": 17.288301,
+        "type": "ruin",
+        "accuracy": "exact",
+        "source": "https://hradceklis.webnode.page/home/newscbm_423044/340/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "priority": "C",
+      "category": "architecture_and_urbanism",
+      "map_category": "architecture",
+      "title": "Esterházyovský kaštieľ: monumentálna baroková rezidencia z rokov 1714–1722",
+      "text": "Kaštieľ dal v Bernolákove postaviť gróf Jozef Esterházy v rokoch 1714–1722 podľa projektu architekta Johanna Bernharda Fischera z Erlachu. Trojkrídlová poschodová stavba s nárožnými a centrálnou oválnou vežou patrí k výrazným barokovým šľachtickým sídlam na západnom Slovensku. Súčasťou areálu bol rozsiahly park s plastikami a kaplnkou; v 18. storočí sa jeho záhrada a zverinec rozvíjali ako reprezentatívne panské prostredie. Kaštieľ poškodil požiar v roku 1911 a vojnové udalosti v roku 1945. Historický park sa v novšom období zmenil aj na golfový areál.",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/kastiel-bernolakovo",
+        "https://www.bernolakovo.sk/19002/historia-obce",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4ce5b98e-09d3-4949-8bd1-67b007d888f9"
+      ],
+      "location": {
+        "name": "Esterházyovský kaštieľ",
+        "address": "Kaštieľ, Bernolákovo, Slovakia",
+        "lat": 48.201504,
+        "lon": 17.287025,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kastiel-bernolakovo"
+      }
+    },
+    {
+      "id": "fact_004",
+      "priority": "C",
+      "category": "heritage_and_monuments",
+      "map_category": "religious_site",
+      "title": "Kostol sv. Štefana: stredoveké jadro ukryté v opevnenom areáli",
+      "text": "Rímskokatolícky kostol sv. Štefana stojí na návrší v opevnenom areáli neďaleko kaštieľa. Staršia literatúra ho opisovala ako gotickú stavbu zo 14. storočia, no novší architektonický prieskum odkryl aj románske jadro. Pri obnove boli prezentované stredoveké časti – murivo románskej lode a gotického presbytéria – spolu s podobou po ranobarokovej prestavbe. Kostol tak zachytáva viac stavebných etáp a patrí k najdôležitejším historickým objektom obce.",
+      "sources": [
+        "https://vvvw.apsida.sk/c/2025/bernolakovo",
+        "https://data.moderneobce.sk/data/uploads/bernolakovo.sk/%C3%9AP/zemn%C3%A9_a_hospod%C3%A1rske_z%C3%A1sady_%C3%9Azemnopl%C3%A1novacej_dokument%C3%A1cie_s%C3%ADdeln%C3%A9ho_%C3%BAtvaru_Bernol%C3%A1kovo.pdf"
+      ],
+      "location": {
+        "name": "Kostol sv. Štefana kráľa",
+        "address": "Bernolákovo, Slovakia",
+        "lat": 48.199349331,
+        "lon": 17.289433479,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://vvvw.apsida.sk/c/2025/bernolakovo"
+      }
+    },
+    {
+      "id": "fact_005",
+      "priority": "D",
+      "category": "architecture_and_urbanism",
+      "map_category": "religious_site",
+      "title": "Kaplnka sv. Anny: baroková stavba v parku Esterházyovského kaštieľa",
+      "text": "Kaplnka sv. Anny stojí v severozápadnej časti parku pri Esterházyovskom kaštieli. Postavili ju v rokoch 1727–1728; jej staviteľom bol bratislavský murársky a kamenársky majster Franz Portenhauser. Má centrálny polygonálny pôdorys, kupolou zakrytú loď a obdĺžnikové presbytérium. Hlavný oltár s obrazom sv. Anny pochádza z polovice 18. storočia; oltár z roku 1731 sa pripisuje sochárovi Andreasovi Huettnerovi, ktorý pracoval aj pre Esterházyovcov. Kaplnka je súčasťou historického parkového areálu a je zapísaná v Ústrednom zozname pamiatkového fondu SR.",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/bernolakovo-kaplnka-sv-anny",
+        "https://www.pamiatkynaslovensku.sk/kastiel-bernolakovo"
+      ],
+      "location": {
+        "name": "Kaplnka sv. Anny v parku kaštieľa",
+        "address": "Park Esterházyovského kaštieľa, Bernolákovo, Slovakia",
+        "lat": 48.204334,
+        "lon": 17.279707,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/bernolakovo-kaplnka-sv-anny"
+      }
+    },
+    {
+      "id": "fact_006",
+      "priority": "C",
+      "category": "people",
+      "map_category": "personality",
+      "title": "Anton Bernolák v Čeklísi: štyri roky pôsobenia jazykovedca a kodifikátora",
+      "text": "Anton Bernolák (1762–1813), priekopník kodifikácie spisovnej slovenčiny a zakladateľ Slovenského učeného tovarišstva, pôsobil v Čeklísi ako rímskokatolícky farár a dekan v rokoch 1787–1791. Práve počas tohto obdobia sa spája jeho meno s obcou, ktorá bola neskôr premenovaná na Bernolákovo. Pred miestnou farou stojí jeho pomník s bronzovou bustou, ktorý vytvoril akademický sochár Frico Motoška a slávnostne odhalili 10. októbra 1937. Nápis na pomníku pripomína Bernolákov vzťah k slovenskej reči.",
+      "sources": [
+        "https://www.bernolakovo.sk/25546/pomnik-antona-bernolaka",
+        "https://www.e-obce.sk/obec/bernolakovo/4-kulturne_dedicstvo.html"
+      ],
+      "location": {
+        "name": "Pomník Antona Bernoláka pred rímskokatolíckou farou – orientačný bod",
+        "address": "Pri farskom úrade, Bernolákovo, Slovakia",
+        "lat": 48.19945,
+        "lon": 17.28955,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.bernolakovo.sk/25546/pomnik-antona-bernolaka"
+      }
+    },
+    {
+      "id": "fact_007",
+      "priority": "D",
+      "category": "history",
+      "map_category": "historical_monument",
+      "title": "Stĺp hanby: pranier a pripomienka panského súdnictva",
+      "text": "Pri kostole sv. Štefana sa zachoval kamenný pranier, ktorý obec datuje pravdepodobne do 17. storočia. Valcový stĺp z tvrdého pieskovca je vysoký približne 2,5 metra a má hlavicu s otvorom na reťaz. Pôvodne stál pred kaštieľom, v priestore spojenom s panským súdom Esterházyovcov. Pripútanie k pranieru patrilo medzi verejné tresty za krádež či urážku vrchnosti; miestny richtár mohol postihovať aj opilstvo, výtržnosti a rušenie nočného pokoja. Predmet preto pripomína nielen historickú podobu obce, ale aj každodenný výkon vrchnostenskej a obecnej moci.",
+      "sources": [
+        "https://www.bernolakovo.sk/25544/stlp-hanby"
+      ],
+      "location": {
+        "name": "Stĺp hanby pri kostole sv. Štefana – orientačný bod",
+        "address": "Pri kostole sv. Štefana, Bernolákovo, Slovakia",
+        "lat": 48.1993,
+        "lon": 17.2894,
+        "type": "historic_monument",
+        "accuracy": "approximate",
+        "source": "https://www.bernolakovo.sk/25544/stlp-hanby"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Obec Bernolákovo – História obce",
+      "url": "https://www.bernolakovo.sk/19002/historia-obce",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Informácie o obci Bernolákovo",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4ce5b98e-09d3-4949-8bd1-67b007d888f9",
+      "type": "official"
+    },
+    {
+      "title": "Obec Bernolákovo – Kontakty (sídlo a PSČ)",
+      "url": "https://www.bernolakovo.sk/19016/kontakty",
+      "type": "official"
+    },
+    {
+      "title": "Obec Bernolákovo – Pomník Antona Bernoláka",
+      "url": "https://www.bernolakovo.sk/25546/pomnik-antona-bernolaka",
+      "type": "official"
+    },
+    {
+      "title": "Obec Bernolákovo – Stĺp hanby",
+      "url": "https://www.bernolakovo.sk/25544/stlp-hanby",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Bernolákovo",
+      "url": "https://www.pamiatkynaslovensku.sk/kastiel-bernolakovo",
+      "type": "specialist"
+    },
+    {
+      "title": "Hrady a zámky na Slovensku – Hrad Čeklís",
+      "url": "https://www.hrady-zamky.sk/ceklis/",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Anny",
+      "url": "https://www.pamiatkynaslovensku.sk/bernolakovo-kaplnka-sv-anny",
+      "type": "specialist"
+    },
+    {
+      "title": "Apsida – Kostol sv. Štefana v Bernolákove",
+      "url": "https://vvvw.apsida.sk/c/2025/bernolakovo",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Štatistický úrad SR – Poštové smerovacie číslo (definícia)",
+      "url": "https://slovak.statistics.sk/PACVPEM/pdfReport.html?id=14247&lang=sk",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Esterházyovský kaštieľ v Bernolákove",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Od Ceki a Lužnice k Bernolákovu: sídlo s dějinami od roku 1209",
+          "text": "Území dnešního Bernolákova bylo osídleno už v pravěku: archeologické nálezy dokládají neolit, starší dobu bronzovou a výrazné slovansko-avarské pohřebiště z 8. století na duně Šakoň, kde bylo odkryto 84 hrobů včetně hrobů jezdců s koňmi. Nejstarší písemná zmínka pochází z roku 1209, kdy se uvádí osada Ceki. V roce 1216 se objevuje jméno Cheki. Na území dnešní obce původně ležely dvě osady – Čeki a Lužnica – které později splynuly. Název Čeklís se používal až do roku 1948, kdy obec přijala jméno Bernolákovo. Zmínky o vinicích sahají do roku 1290."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrad Čeklís: středověké strážní sídlo nad Čiernou vodou",
+          "text": "Zřícenina hradu Čeklís leží na vyvýšenině Várdomb na západním okraji Bernolákova. Hrad vznikl pravděpodobně po tatarském vpádu, přibližně kolem roku 1290; písemné prameny jej roku 1324 uvádějí jako Castrum Chekles. Jeho poloha na terase nad tokem Čierné vody umožňovala kontrolovat jižní přístup do oblasti. Z hradu se zachovaly úseky obvodového zdiva a další fragmenty, zatímco většinu areálu překryl pozdější terénní násyp. Vodárenská věž, postavená na vrcholu ve 20. století v historizujícím stylu, není součástí původního hradu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Esterházyovský zámek: monumentální barokní rezidence z let 1714–1722",
+          "text": "Zámek nechal v Bernolákově postavit hrabě Jozef Esterházy v letech 1714–1722 podle projektu architekta Johanna Bernharda Fischera z Erlachu. Tříkřídlá patrová stavba s nárožními a centrální oválnou věží patří k výrazným barokním šlechtickým sídlům na západním Slovensku. Součástí areálu byl rozsáhlý park se sochami a kaplí; v 18. století se jeho zahrada a obora rozvíjely jako reprezentativní panské prostředí. Zámek poškodil požár v roce 1911 a válečné události v roce 1945. Historický park se v novější době proměnil také v golfový areál."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Štěpána: středověké jádro v opevněném areálu",
+          "text": "Římskokatolický kostel sv. Štěpána stojí na návrší v opevněném areálu nedaleko zámku. Starší literatura jej popisovala jako gotickou stavbu ze 14. století, novější architektonický průzkum však odhalil také románské jádro. Při obnově byly prezentovány středověké části – zdivo románské lodi a gotického presbytáře – spolu s podobou po raně barokní přestavbě. Kostel tak zachycuje několik stavebních etap a patří k nejdůležitějším historickým objektům obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaple sv. Anny: barokní stavba v parku Esterházyovského zámku",
+          "text": "Kaple sv. Anny stojí v severozápadní části parku u Esterházyovského zámku. Byla postavena v letech 1727–1728; jejím stavitelem byl bratislavský zednický a kamenický mistr Franz Portenhauser. Má centrální polygonální půdorys, loď zakrytou kupolí a obdélné presbyterium. Hlavní oltář s obrazem sv. Anny pochází z poloviny 18. století; oltář z roku 1731 se připisuje sochaři Andreasovi Huettnerovi, který pracoval také pro Esterházyovce. Kaple je součástí historického parkového areálu a je zapsána v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák v Čeklísi: čtyři roky působení jazykovědce a kodifikátora",
+          "text": "Anton Bernolák (1762–1813), průkopník kodifikace spisovné slovenštiny a zakladatel Slovenského učeného tovarišstva, působil v Čeklísi jako římskokatolický farář a děkan v letech 1787–1791. Právě toto období spojuje jeho jméno s obcí, která byla později přejmenována na Bernolákovo. Před místní farou stojí jeho pomník s bronzovou bustou, který vytvořil akademický sochař Frico Motoška a slavnostně odhalili 10. října 1937. Nápis na pomníku připomíná Bernolákův vztah ke slovenskému jazyku."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sloup hanby: pranýř a připomínka panského soudnictví",
+          "text": "U kostela sv. Štěpána se zachoval kamenný pranýř, který obec datuje pravděpodobně do 17. století. Válcový sloup z tvrdého pískovce je vysoký přibližně 2,5 metru a má hlavici s otvorem pro řetěz. Původně stál před zámkem, v prostoru spojeném s panským soudem Esterházyovců. Připoutání k pranýři patřilo mezi veřejné tresty za krádež či urážku vrchnosti; místní rychtář mohl postihovat také opilství, výtržnosti a rušení nočního klidu. Předmět proto připomíná nejen historickou podobu obce, ale i každodenní výkon vrchnostenské a obecní moci."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Esterházy-Schloss in Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von Ceki und Lužnica zu Bernolákovo: ein Ort mit Geschichte seit 1209",
+          "text": "Das Gebiet des heutigen Bernolákovo war bereits in vorgeschichtlicher Zeit besiedelt. Archäologische Funde belegen das Neolithikum, die ältere Bronzezeit und ein bedeutendes slawisch-awarisches Gräberfeld aus dem 8. Jahrhundert auf der Düne Šakoň. Dort wurden 84 Gräber freigelegt, darunter Bestattungen von Reitern mit Pferden. Die älteste schriftliche Erwähnung stammt aus dem Jahr 1209 und nennt die Siedlung Ceki; 1216 erscheint die Form Cheki. Auf dem heutigen Gemeindegebiet lagen ursprünglich zwei Siedlungen, Čeki und Lužnica, die später zusammenwuchsen. Der Name Čeklís blieb bis 1948 in Gebrauch, als die Gemeinde in Bernolákovo umbenannt wurde. Weinberge sind bereits 1290 belegt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Burg Čeklís: mittelalterlicher Wachposten über der Čierna voda",
+          "text": "Die Ruine der Burg Čeklís liegt auf der Anhöhe Várdomb am Westrand von Bernolákovo. Die Burg entstand vermutlich nach dem Mongoleneinfall um 1290; 1324 wird sie in schriftlichen Quellen als Castrum Chekles erwähnt. Ihre Lage auf einer Terrasse über dem Fluss Čierna voda ermöglichte die Kontrolle des südlichen Zugangs zur Region. Erhalten sind Abschnitte der Ringmauer und weitere Mauerreste, während ein späterer Erdaufwurf einen großen Teil der Anlage bedeckt. Der im 20. Jahrhundert im historisierenden Stil errichtete Wasserturm auf dem Gipfel gehört nicht zur ursprünglichen Burg."
+        },
+        {
+          "id": "fact_003",
+          "title": "Esterházy-Schloss: monumentale Barockresidenz von 1714–1722",
+          "text": "Graf Jozef Esterházy ließ das Schloss in Bernolákovo zwischen 1714 und 1722 nach einem Entwurf von Johann Bernhard Fischer von Erlach errichten. Der dreiflügelige, zweigeschossige Bau mit Ecktürmen und zentralem ovalem Turm zählt zu den markanten barocken Adelssitzen der Westslowakei. Zum Anwesen gehörten ein großer Park mit Skulpturen und eine Kapelle; im 18. Jahrhundert entwickelten sich Garten und Tiergehege zu einer repräsentativen Herrschaftsanlage. Ein Brand im Jahr 1911 und die Kriegsereignisse von 1945 beschädigten das Schloss. Der historische Park wurde in jüngerer Zeit teilweise in eine Golfanlage umgewandelt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Stephanskirche: mittelalterlicher Kern in einer befestigten Anlage",
+          "text": "Die römisch-katholische Stephanskirche steht auf einer Anhöhe in einer befestigten Anlage unweit des Schlosses. Ältere Literatur beschrieb sie als gotischen Bau des 14. Jahrhunderts; eine neuere bauhistorische Untersuchung legte jedoch auch einen romanischen Kern frei. Bei der Restaurierung wurden mittelalterliche Teile sichtbar gemacht – das Mauerwerk des romanischen Langhauses und des gotischen Chors – zusammen mit der Gestalt nach dem frühbarocken Umbau. Die Kirche dokumentiert damit mehrere Bauphasen und gehört zu den wichtigsten historischen Bauwerken der Gemeinde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Annakapelle: Barockbau im Park des Esterházy-Schlosses",
+          "text": "Die Annakapelle steht im nordwestlichen Teil des Parks beim Esterházy-Schloss. Sie wurde 1727–1728 errichtet; als Baumeister wirkte Franz Portenhauser, ein Maurer- und Steinmetzmeister aus Pressburg. Der Zentralbau besitzt einen polygonalen Grundriss, ein von einer Kuppel gedecktes Schiff und einen rechteckigen Chor. Der Hauptaltar mit dem Bild der heiligen Anna stammt aus der Mitte des 18. Jahrhunderts; der Altar von 1731 wird dem Bildhauer Andreas Huettner zugeschrieben, der auch für die Esterházy arbeitete. Die Kapelle gehört zum historischen Parkensemble und ist im zentralen Denkmalregister der Slowakei eingetragen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák in Čeklís: vier Jahre des Sprachwissenschaftlers und Kodifikators",
+          "text": "Anton Bernolák (1762–1813), ein Pionier der Kodifizierung der slowakischen Schriftsprache und Gründer der Slowakischen Gelehrten Gesellschaft, wirkte von 1787 bis 1791 als römisch-katholischer Pfarrer und Dekan in Čeklís. Diese Zeit verbindet seinen Namen mit der Gemeinde, die später in Bernolákovo umbenannt wurde. Vor dem örtlichen Pfarrhaus steht ein Denkmal mit seiner Bronzebüste. Es wurde vom akademischen Bildhauer Frico Motoška geschaffen und am 10. Oktober 1937 enthüllt. Die Inschrift erinnert an Bernoláks Verbundenheit mit der slowakischen Sprache."
+        },
+        {
+          "id": "fact_007",
+          "title": "Schandpfahl: Pranger und Zeugnis der Grundherrschaft",
+          "text": "Neben der Stephanskirche ist ein steinerner Pranger erhalten, den die Gemeinde wahrscheinlich ins 17. Jahrhundert datiert. Der etwa 2,5 Meter hohe zylindrische Sandsteinpfeiler besitzt einen Aufsatz mit einer Öffnung für eine Kette. Ursprünglich stand er vor dem Schloss, in einem Bereich, der mit dem grundherrlichen Gericht der Esterházy verbunden war. Das Anketten am Pranger gehörte zu den öffentlichen Strafen für Diebstahl oder Beleidigung der Obrigkeit; der Ortsrichter konnte auch Trunkenheit, Ausschreitungen und nächtliche Ruhestörung ahnden. Das Denkmal erinnert daher sowohl an das historische Ortsbild als auch an die damalige Ausübung herrschaftlicher und kommunaler Macht."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Esterházy Chateau in Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From Ceki and Lužnica to Bernolákovo: a settlement documented since 1209",
+          "text": "The area of present-day Bernolákovo was inhabited in prehistoric times. Archaeological finds attest to the Neolithic, the Early Bronze Age and a significant 8th-century Slavic-Avar burial ground on the Šakoň dune. Eighty-four graves were uncovered there, including burials of horsemen with their horses. The earliest written reference dates to 1209 and names the settlement Ceki; the form Cheki appears in 1216. Two settlements, Čeki and Lužnica, originally occupied the area and later merged. The name Čeklís remained in use until 1948, when the municipality was renamed Bernolákovo. Vineyards are documented here as early as 1290."
+        },
+        {
+          "id": "fact_002",
+          "title": "Čeklís Castle: a medieval stronghold above the Čierna voda",
+          "text": "The ruins of Čeklís Castle stand on the Várdomb hill at the western edge of Bernolákovo. The castle was probably built after the Mongol invasion, around 1290; written sources refer to it in 1324 as Castrum Chekles. Its position on a terrace above the Čierna voda stream helped control the southern approach to the area. Sections of the perimeter wall and other fragments survive, while a later mound covers much of the site. The water tower built on the summit in the 20th century in a historicising style is not part of the original castle."
+        },
+        {
+          "id": "fact_003",
+          "title": "Esterházy Chateau: a monumental Baroque residence built in 1714–1722",
+          "text": "Count Jozef Esterházy commissioned the chateau in Bernolákovo between 1714 and 1722, following a design by architect Johann Bernhard Fischer von Erlach. The two-storey, three-wing building, with corner towers and a central oval tower, is a notable Baroque aristocratic residence in western Slovakia. The estate included an extensive park with sculptures and a chapel; in the 18th century its garden and deer park developed into a prestigious manor landscape. The chateau was damaged by a fire in 1911 and by wartime events in 1945. In more recent times, parts of the historic park have been converted into a golf resort."
+        },
+        {
+          "id": "fact_004",
+          "title": "St Stephen's Church: a medieval core within a fortified compound",
+          "text": "The Roman Catholic Church of St Stephen stands on a rise within a walled compound near the chateau. Older literature described it as a 14th-century Gothic building, but a more recent architectural survey also uncovered a Romanesque core. Restoration work revealed medieval elements, including the masonry of the Romanesque nave and the Gothic chancel, alongside the church's early Baroque form. The building therefore preserves several construction phases and is one of the municipality's most important historic monuments."
+        },
+        {
+          "id": "fact_005",
+          "title": "St Anne's Chapel: a Baroque building in the Esterházy chateau park",
+          "text": "St Anne's Chapel stands in the north-western part of the park beside the Esterházy chateau. It was built in 1727–1728 by Franz Portenhauser, a master mason and stonemason from Pressburg. The central-plan building has a polygonal layout, a domed nave and a rectangular presbytery. The main altar with an image of St Anne dates from the mid-18th century; the 1731 altar is attributed to sculptor Andreas Huettner, who also worked for the Esterházy family. The chapel forms part of the historic park ensemble and is listed in Slovakia's Central Register of Monuments."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák in Čeklís: four years in the life of a language reformer",
+          "text": "Anton Bernolák (1762–1813), a pioneer of Slovak literary-language codification and founder of the Slovak Learned Society, served as a Roman Catholic parish priest and dean in Čeklís from 1787 to 1791. This period links his name to the municipality, which was later renamed Bernolákovo. A monument with his bronze bust stands in front of the local presbytery. It was created by academic sculptor Frico Motoška and unveiled on 10 October 1937. Its inscription recalls Bernolák's commitment to the Slovak language."
+        },
+        {
+          "id": "fact_007",
+          "title": "The pillory: a reminder of manorial justice",
+          "text": "A stone pillory survives beside St Stephen's Church and is dated by the municipality probably to the 17th century. The smooth cylindrical sandstone pillar is about 2.5 metres high and has a capital with an opening for a chain. It originally stood in front of the chateau, in an area associated with the Esterházy manorial court. Being chained to the pillory was a public punishment for theft or insulting the lord; the local reeve could also punish drunkenness, disorderly conduct and disturbing the night peace. The monument recalls both the historic appearance of the settlement and the everyday exercise of manorial and municipal authority."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Palacio Esterházy de Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Ceki y Lužnica a Bernolákovo: un asentamiento documentado desde 1209",
+          "text": "El territorio de la actual Bernolákovo estuvo habitado desde la prehistoria. Los hallazgos arqueológicos documentan el Neolítico, la Edad del Bronce antigua y un importante cementerio eslavo-ávaro del siglo VIII en la duna de Šakoň. Allí se descubrieron 84 tumbas, incluidas sepulturas de jinetes con sus caballos. La primera mención escrita data de 1209 y cita el asentamiento de Ceki; en 1216 aparece la forma Cheki. En el territorio actual existían dos poblados, Čeki y Lužnica, que más tarde se unieron. El nombre Čeklís se mantuvo hasta 1948, cuando la localidad adoptó el nombre de Bernolákovo. Los viñedos están documentados desde 1290."
+        },
+        {
+          "id": "fact_002",
+          "title": "Castillo de Čeklís: fortaleza medieval sobre el arroyo Čierna voda",
+          "text": "Las ruinas del castillo de Čeklís se encuentran en la colina Várdomb, en el extremo occidental de Bernolákovo. Probablemente se construyó después de la invasión mongola, hacia 1290; en 1324 las fuentes escritas lo mencionan como Castrum Chekles. Su posición en una terraza sobre el arroyo Čierna voda permitía controlar el acceso meridional a la zona. Se conservan tramos de la muralla perimetral y otros restos, mientras que un terraplén posterior cubre gran parte del recinto. La torre de agua levantada en la cima en el siglo XX con estilo historicista no forma parte del castillo original."
+        },
+        {
+          "id": "fact_003",
+          "title": "Palacio Esterházy: residencia barroca monumental de 1714–1722",
+          "text": "El conde Jozef Esterházy mandó construir el palacio de Bernolákovo entre 1714 y 1722, según un proyecto del arquitecto Johann Bernhard Fischer von Erlach. El edificio de dos plantas y tres alas, con torres en las esquinas y una torre oval central, es una destacada residencia aristocrática barroca del oeste de Eslovaquia. La finca incluía un amplio parque con esculturas y una capilla; en el siglo XVIII, sus jardines y su reserva de ciervos formaban un paisaje señorial representativo. El palacio sufrió daños por un incendio en 1911 y por los acontecimientos bélicos de 1945. En época más reciente, parte del parque histórico se transformó en un complejo de golf."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de San Esteban: núcleo medieval dentro de un recinto amurallado",
+          "text": "La iglesia católica romana de San Esteban se alza sobre una elevación, dentro de un recinto amurallado cercano al palacio. La bibliografía antigua la describía como una construcción gótica del siglo XIV, pero un estudio arquitectónico más reciente descubrió también un núcleo románico. La restauración dejó visibles elementos medievales, como la mampostería de la nave románica y del presbiterio gótico, junto con la configuración de la reforma barroca temprana. El edificio conserva así varias fases constructivas y es uno de los monumentos históricos más importantes del municipio."
+        },
+        {
+          "id": "fact_005",
+          "title": "Capilla de Santa Ana: edificio barroco en el parque del palacio Esterházy",
+          "text": "La capilla de Santa Ana se encuentra en la parte noroccidental del parque junto al palacio Esterházy. Se construyó entre 1727 y 1728; el maestro de obras fue Franz Portenhauser, albañil y cantero de Pressburg. El edificio de planta central tiene un trazado poligonal, una nave cubierta por cúpula y un presbiterio rectangular. El altar mayor con la imagen de Santa Ana data de mediados del siglo XVIII; el altar de 1731 se atribuye al escultor Andreas Huettner, que también trabajó para los Esterházy. La capilla forma parte del conjunto histórico del parque y está inscrita en el registro central de monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák en Čeklís: cuatro años del lingüista y reformador",
+          "text": "Anton Bernolák (1762–1813), pionero de la codificación de la lengua literaria eslovaca y fundador de la Sociedad Erudita Eslovaca, ejerció como sacerdote y decano católico romano en Čeklís entre 1787 y 1791. Este periodo vincula su nombre con el municipio, que más tarde pasó a llamarse Bernolákovo. Frente a la parroquia local se encuentra un monumento con su busto de bronce, obra del escultor académico Frico Motoška, inaugurado el 10 de octubre de 1937. La inscripción recuerda el compromiso de Bernolák con la lengua eslovaca."
+        },
+        {
+          "id": "fact_007",
+          "title": "La picota: recuerdo de la justicia señorial",
+          "text": "Junto a la iglesia de San Esteban se conserva una picota de piedra que el municipio fecha probablemente en el siglo XVII. El pilar cilíndrico de arenisca, de unos 2,5 metros de altura, tiene un capitel con una abertura para una cadena. Originalmente se encontraba delante del palacio, en un espacio vinculado al tribunal señorial de los Esterházy. Ser encadenado a la picota era un castigo público por robo o por insultar al señor; el juez local también podía sancionar la embriaguez, los altercados y las molestias nocturnas. El monumento recuerda tanto el antiguo aspecto del pueblo como el ejercicio cotidiano del poder señorial y municipal."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Château Esterházy de Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Ceki et Lužnica à Bernolákovo : un habitat attesté depuis 1209",
+          "text": "Le territoire de l’actuelle Bernolákovo était habité dès la préhistoire. Les découvertes archéologiques attestent le Néolithique, le début de l’âge du Bronze et une importante nécropole slave-avar du VIIIe siècle sur la dune de Šakoň. Quatre-vingt-quatre tombes y ont été mises au jour, dont des sépultures de cavaliers avec leurs chevaux. La première mention écrite date de 1209 et cite le village de Ceki ; la forme Cheki apparaît en 1216. Deux habitats, Čeki et Lužnica, se trouvaient autrefois sur le territoire actuel et ont ensuite fusionné. Le nom Čeklís a été utilisé jusqu’en 1948, année où la commune a pris le nom de Bernolákovo. Des vignobles y sont attestés dès 1290."
+        },
+        {
+          "id": "fact_002",
+          "title": "Château de Čeklís : forteresse médiévale au-dessus de la Čierna voda",
+          "text": "Les ruines du château de Čeklís se trouvent sur la colline de Várdomb, à l’extrémité occidentale de Bernolákovo. Le château aurait été construit après l’invasion mongole, vers 1290 ; les sources écrites le mentionnent en 1324 sous le nom de Castrum Chekles. Sa position sur une terrasse au-dessus du cours d’eau Čierna voda permettait de contrôler l’accès méridional à la région. Des tronçons de l’enceinte et d’autres vestiges subsistent, tandis qu’un remblai plus récent recouvre une grande partie du site. Le château d’eau édifié au sommet au XXe siècle dans un style historicisant ne fait pas partie du château d’origine."
+        },
+        {
+          "id": "fact_003",
+          "title": "Château Esterházy : résidence baroque monumentale de 1714–1722",
+          "text": "Le comte Jozef Esterházy fit construire le château de Bernolákovo entre 1714 et 1722, d’après un projet de l’architecte Johann Bernhard Fischer von Erlach. L’édifice à trois ailes et deux niveaux, avec des tours d’angle et une tour ovale centrale, compte parmi les résidences aristocratiques baroques remarquables de l’ouest de la Slovaquie. Le domaine comprenait un vaste parc orné de sculptures et une chapelle ; au XVIIIe siècle, son jardin et son parc à gibier formaient un ensemble seigneurial prestigieux. Le château fut endommagé par un incendie en 1911 puis par les événements de 1945. Une partie du parc historique a ensuite été transformée en terrain de golf."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église Saint-Étienne : un noyau médiéval dans une enceinte fortifiée",
+          "text": "L’église catholique romaine Saint-Étienne se dresse sur une hauteur, dans une enceinte fortifiée près du château. Les ouvrages anciens la décrivaient comme un édifice gothique du XIVe siècle, mais une étude architecturale plus récente a également révélé un noyau roman. La restauration a mis en valeur des éléments médiévaux – la maçonnerie de la nef romane et du chœur gothique – ainsi que la forme issue de la transformation du premier baroque. L’édifice conserve donc plusieurs phases de construction et figure parmi les monuments historiques majeurs de la commune."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chapelle Sainte-Anne : édifice baroque dans le parc du château Esterházy",
+          "text": "La chapelle Sainte-Anne se trouve dans la partie nord-ouest du parc du château Esterházy. Elle fut construite en 1727–1728 par Franz Portenhauser, maître maçon et tailleur de pierre de Pressbourg. L’édifice à plan centré présente un plan polygonal, une nef couverte d’une coupole et un presbytère rectangulaire. Le maître-autel avec l’image de sainte Anne date du milieu du XVIIIe siècle ; l’autel de 1731 est attribué au sculpteur Andreas Huettner, qui travailla également pour les Esterházy. La chapelle fait partie de l’ensemble historique du parc et figure au registre central des monuments de Slovaquie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák à Čeklís : quatre années du linguiste et réformateur",
+          "text": "Anton Bernolák (1762–1813), pionnier de la codification de la langue littéraire slovaque et fondateur de la Société savante slovaque, fut curé catholique romain et doyen à Čeklís de 1787 à 1791. Cette période associe son nom à la commune, rebaptisée plus tard Bernolákovo. Un monument portant son buste en bronze se trouve devant le presbytère local. Il a été réalisé par le sculpteur académique Frico Motoška et inauguré le 10 octobre 1937. Son inscription rappelle l’attachement de Bernolák à la langue slovaque."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le pilori : témoignage de la justice seigneuriale",
+          "text": "Un pilori de pierre est conservé près de l’église Saint-Étienne ; la commune le date probablement du XVIIe siècle. Le pilier cylindrique en grès, haut d’environ 2,5 mètres, possède un chapiteau percé pour une chaîne. Il se trouvait à l’origine devant le château, dans un espace lié au tribunal seigneurial des Esterházy. L’exposition au pilori constituait une peine publique pour vol ou offense au seigneur ; le juge local pouvait également sanctionner l’ivresse, les troubles et les nuisances nocturnes. Le monument rappelle ainsi l’ancien paysage du village et l’exercice quotidien du pouvoir seigneurial et communal."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Castello Esterházy di Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Da Ceki e Lužnica a Bernolákovo: un insediamento documentato dal 1209",
+          "text": "Il territorio dell’attuale Bernolákovo era abitato già in epoca preistorica. I ritrovamenti archeologici attestano il Neolitico, la prima età del Bronzo e una significativa necropoli slavo-avara dell’VIII secolo sulla duna di Šakoň. Qui furono scoperte 84 tombe, comprese sepolture di cavalieri con i loro cavalli. La prima menzione scritta risale al 1209 e cita l’insediamento di Ceki; nel 1216 compare la forma Cheki. Sul territorio attuale esistevano originariamente due insediamenti, Čeki e Lužnica, che in seguito si unirono. Il nome Čeklís rimase in uso fino al 1948, quando il comune assunse il nome di Bernolákovo. I vigneti sono documentati già dal 1290."
+        },
+        {
+          "id": "fact_002",
+          "title": "Castello di Čeklís: fortezza medievale sopra il corso della Čierna voda",
+          "text": "Le rovine del castello di Čeklís si trovano sulla collina Várdomb, all’estremità occidentale di Bernolákovo. Il castello fu probabilmente costruito dopo l’invasione mongola, intorno al 1290; nel 1324 le fonti scritte lo citano come Castrum Chekles. La posizione su una terrazza sopra il torrente Čierna voda consentiva di controllare l’accesso meridionale alla zona. Restano tratti della cinta muraria e altri frammenti, mentre un terrapieno successivo copre gran parte del sito. La torre dell’acqua costruita sulla cima nel XX secolo in stile storicista non fa parte del castello originario."
+        },
+        {
+          "id": "fact_003",
+          "title": "Castello Esterházy: monumentale residenza barocca del 1714–1722",
+          "text": "Il conte Jozef Esterházy fece costruire il castello di Bernolákovo tra il 1714 e il 1722, su progetto dell’architetto Johann Bernhard Fischer von Erlach. L’edificio a tre ali e due piani, con torri angolari e una torre ovale centrale, è una notevole residenza aristocratica barocca della Slovacchia occidentale. La tenuta comprendeva un vasto parco con sculture e una cappella; nel XVIII secolo il giardino e la riserva di caccia costituivano un prestigioso complesso signorile. Il castello fu danneggiato da un incendio nel 1911 e dagli eventi bellici del 1945. In epoca più recente, parte del parco storico è stata trasformata in un campo da golf."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa di Santo Stefano: nucleo medievale entro un recinto fortificato",
+          "text": "La chiesa cattolica romana di Santo Stefano sorge su un’altura, all’interno di un recinto fortificato vicino al castello. La letteratura più antica la descriveva come edificio gotico del XIV secolo, ma un’indagine architettonica più recente ha individuato anche un nucleo romanico. Il restauro ha messo in evidenza elementi medievali, tra cui la muratura della navata romanica e del presbiterio gotico, insieme alla forma assunta dopo la trasformazione del primo barocco. L’edificio conserva quindi diverse fasi costruttive ed è uno dei monumenti storici più importanti del comune."
+        },
+        {
+          "id": "fact_005",
+          "title": "Cappella di Sant’Anna: edificio barocco nel parco del castello Esterházy",
+          "text": "La cappella di Sant’Anna si trova nella parte nord-occidentale del parco accanto al castello Esterházy. Fu costruita nel 1727–1728 da Franz Portenhauser, maestro muratore e scalpellino di Pressburg. L’edificio a pianta centrale presenta una forma poligonale, una navata coperta da cupola e un presbiterio rettangolare. L’altare maggiore con l’immagine di sant’Anna risale alla metà del XVIII secolo; quello del 1731 è attribuito allo scultore Andreas Huettner, che lavorò anche per gli Esterházy. La cappella fa parte del complesso storico del parco ed è iscritta nel registro centrale dei monumenti della Slovacchia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák a Čeklís: quattro anni del linguista e riformatore",
+          "text": "Anton Bernolák (1762–1813), pioniere della codificazione della lingua letteraria slovacca e fondatore della Società dotta slovacca, fu parroco e decano cattolico romano a Čeklís dal 1787 al 1791. Questo periodo lega il suo nome al comune, che in seguito fu ribattezzato Bernolákovo. Davanti alla canonica locale si trova un monumento con il suo busto in bronzo, opera dello scultore accademico Frico Motoška, inaugurato il 10 ottobre 1937. L’iscrizione ricorda il legame di Bernolák con la lingua slovacca."
+        },
+        {
+          "id": "fact_007",
+          "title": "La gogna: testimonianza della giustizia signorile",
+          "text": "Accanto alla chiesa di Santo Stefano si conserva una gogna in pietra, datata dal comune probabilmente al XVII secolo. Il pilastro cilindrico in arenaria, alto circa 2,5 metri, presenta un capitello con un foro per la catena. In origine si trovava davanti al castello, in uno spazio legato al tribunale signorile degli Esterházy. Essere incatenati alla gogna era una punizione pubblica per furto o offesa al signore; il giudice locale poteva sanzionare anche ubriachezza, disordini e disturbo della quiete notturna. Il monumento ricorda sia l’antico aspetto del villaggio sia l’esercizio quotidiano del potere signorile e comunale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Esterházy-kasteel in Bernolákovo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van Ceki en Lužnica naar Bernolákovo: een nederzetting gedocumenteerd sinds 1209",
+          "text": "Het gebied van het huidige Bernolákovo werd al in de prehistorie bewoond. Archeologische vondsten tonen het neolithicum, de vroege bronstijd en een belangrijke Slavisch-Avarische begraafplaats uit de 8e eeuw op de duin Šakoň. Daar zijn 84 graven blootgelegd, waaronder graven van ruiters met hun paarden. De oudste schriftelijke vermelding dateert uit 1209 en noemt de nederzetting Ceki; in 1216 verschijnt de vorm Cheki. Op het huidige grondgebied lagen oorspronkelijk twee nederzettingen, Čeki en Lužnica, die later samensmolten. De naam Čeklís bleef tot 1948 in gebruik, toen de gemeente de naam Bernolákovo kreeg. Wijngaarden worden hier al in 1290 vermeld."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kasteel Čeklís: een middeleeuwse burcht boven de Čierna voda",
+          "text": "De ruïnes van kasteel Čeklís liggen op de heuvel Várdomb aan de westelijke rand van Bernolákovo. Het kasteel werd waarschijnlijk na de Mongoolse inval, rond 1290, gebouwd; in 1324 wordt het in schriftelijke bronnen genoemd als Castrum Chekles. Door de ligging op een terras boven de beek Čierna voda kon de zuidelijke toegang tot het gebied worden bewaakt. Delen van de ommuring en andere resten zijn bewaard gebleven, terwijl een later aangelegde aarden ophoging een groot deel van het terrein bedekt. De watertoren die in de 20e eeuw in historiserende stijl op de top werd gebouwd, maakt geen deel uit van het oorspronkelijke kasteel."
+        },
+        {
+          "id": "fact_003",
+          "title": "Esterházy-kasteel: monumentale barokresidentie uit 1714–1722",
+          "text": "Graaf Jozef Esterházy liet het kasteel in Bernolákovo tussen 1714 en 1722 bouwen naar een ontwerp van architect Johann Bernhard Fischer von Erlach. Het tweelaagse gebouw met drie vleugels, hoektorens en een centrale ovale toren is een opvallende barokke adellijke residentie in West-Slowakije. Het landgoed omvatte een groot park met beeldhouwwerken en een kapel; in de 18e eeuw vormden de tuin en het wildpark een representatief adellijk domein. Het kasteel werd beschadigd door een brand in 1911 en door de oorlogsgebeurtenissen van 1945. Een deel van het historische park is later omgevormd tot een golfterrein."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sint-Stefanuskerk: een middeleeuwse kern binnen een ommuurd complex",
+          "text": "De rooms-katholieke Sint-Stefanuskerk staat op een hoogte binnen een ommuurd terrein, niet ver van het kasteel. Oudere literatuur beschreef haar als een gotisch gebouw uit de 14e eeuw, maar een recenter bouwhistorisch onderzoek bracht ook een romaanse kern aan het licht. Bij de restauratie werden middeleeuwse onderdelen zichtbaar gemaakt, waaronder het metselwerk van het romaanse schip en het gotische koor, naast de vorm na de vroegbarokke verbouwing. Het gebouw bewaart zo verschillende bouwfasen en behoort tot de belangrijkste historische monumenten van de gemeente."
+        },
+        {
+          "id": "fact_005",
+          "title": "Sint-Annakerk: barok gebouw in het park van het Esterházy-kasteel",
+          "text": "De Sint-Annakerk staat in het noordwestelijke deel van het park bij het Esterházy-kasteel. Ze werd in 1727–1728 gebouwd door Franz Portenhauser, een meester-metselaar en steenhouwer uit Pressburg. Het centraalbouwtje heeft een veelhoekige plattegrond, een koepel boven het schip en een rechthoekig koor. Het hoofdaltaar met een afbeelding van Sint-Anna dateert uit het midden van de 18e eeuw; het altaar uit 1731 wordt toegeschreven aan beeldhouwer Andreas Huettner, die ook voor de Esterházy's werkte. De kapel maakt deel uit van het historische parkensemble en staat in het centrale monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_006",
+          "title": "Anton Bernolák in Čeklís: vier jaar van de taalkundige en taalhervormer",
+          "text": "Anton Bernolák (1762–1813), pionier van de codificatie van de Slowaakse literaire taal en oprichter van de Slowaakse Geleerde Vereniging, werkte van 1787 tot 1791 als rooms-katholiek pastoor en deken in Čeklís. Deze periode verbindt zijn naam met de gemeente, die later Bernolákovo ging heten. Voor de plaatselijke pastorie staat een monument met zijn bronzen buste. Het werd gemaakt door academisch beeldhouwer Frico Motoška en onthuld op 10 oktober 1937. De inscriptie herinnert aan Bernoláks verbondenheid met de Slowaakse taal."
+        },
+        {
+          "id": "fact_007",
+          "title": "Schandpaal: herinnering aan de heerlijke rechtspraak",
+          "text": "Naast de Sint-Stefanuskerk staat een stenen schandpaal die de gemeente waarschijnlijk in de 17e eeuw dateert. De gladde cilindervormige zandstenen zuil is ongeveer 2,5 meter hoog en heeft een kapiteel met een opening voor een ketting. Oorspronkelijk stond hij voor het kasteel, op een plek die verbonden was met het heerlijke gerechtshof van de Esterházy's. Aan de paal vastketenen was een openbare straf voor diefstal of belediging van de heer; de dorpsrechter kon ook dronkenschap, ordeverstoring en nachtelijke overlast bestraffen. Het monument herinnert zowel aan het historische dorpsbeeld als aan de dagelijkse uitoefening van heerlijke en gemeentelijke macht."
+        }
+      ]
+    }
+  },
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ https://www.posta.sk/psc; geografické přiřazení doloženo oficiální adresou Obecního úřadu Bernolákovo, Hlavná 111, 900 27, a nezávislými veřejnými adresními záznamy.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávač PSČ Slovenské pošty; doplňující potvrzení geografického PSČ oficiální adresou obecního úřadu a profily veřejné správy. Nebyla deklarována polygonová hranice PSČ.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-24",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Veřejné mapové agregátory zobrazují rozporné plošné statistiky a hranice; nebyly použity jako důkaz hranice. Reprezentativní obec Bernolákovo a PSČ 90027 potvrzuje oficiální adresa obecního úřadu.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Bernolákovo – oficiální adresa a historické informace; Ústřední portál veřejné správy – administrativní a historický profil obce; odborné památkové zdroje a Apsida pro polohy a stavební vývoj jednotlivých objektů."
+  }
 }
