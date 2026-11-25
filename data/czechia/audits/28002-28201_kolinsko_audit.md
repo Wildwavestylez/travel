@@ -79,7 +79,7 @@ Read-back potvrdil 13/13 českých master textů nad limitem, 0 zbývajících k
 Ponechat `null`; nevymýšlet souřadnice. Poloha 28106 / `fact_001` byla nově doplněna pro mohylu a reprezentativní oblast bojiště.
 
 ### Překlady
-Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Zbývá plná sémantická kontrola všech 1 146 cizojazyčných textů; 78 překladů u právě opravených 13 faktů bylo nově připraveno, ale samostatný úplný sémantický průchod všech jazykových položek ještě není dokončen.
+Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Sémantická kontrola byla zahájena: detailně prošlo 15 faktů v PSČ 28002 (10) a 28101 (5), tedy 90 cizojazyčných textů. U 28002/fact_007 bylo zjištěno zásadní zkrácení všech šesti překladů oproti českému masteru; všech šest verzí bylo doplněno o chybějící údaje (37 obcí v síti do roku 1914, převzetí provozu ESSO v roce 1916, nová elektrárna na Zálabí 1930–1932 podle Jaroslava Fragnera, předchůdkyně Draslovky z roku 1906 a obnovení výroby roku 1947 po náletu v roce 1944). Zbývajících 84 textů v těchto 15 faktech nevyžadovalo věcnou opravu. Read-back šesti opravených překladů potvrdil úplnost vůči českému masteru. Zbývá sémanticky projít 1 056 cizojazyčných textů v ostatních 25 PSČ; úplný průchod proto není dokončen.
 
 ## 7. Uzavření a další krok
 
