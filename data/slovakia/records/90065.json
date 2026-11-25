@@ -32,7 +32,8 @@
         "type": "historic_village",
         "accuracy": "area_representative",
         "source": "https://www.zahorskaves.sk/data/page/zahorskaves.sk/25804/program-hospoda-rskeho-rozvoja-a-socia-lneho-rozvoja-obce-za-horska-ves-na-roky-2023-2030-2-aktualiza-cia.pdf"
-      }
+      },
+      "map_category": "historic_city"
     },
     {
       "id": "fact_002",
@@ -53,7 +54,8 @@
         "type": "church",
         "accuracy": "exact",
         "source": "https://poi.oma.sk/w331802175"
-      }
+      },
+      "map_category": "religious_site"
     },
     {
       "id": "fact_003",
@@ -75,7 +77,8 @@
         "type": "historic_industrial_site",
         "accuracy": "approximate",
         "source": "https://koda.kominari.cz/?action=karta&cislo=7255"
-      }
+      },
+      "map_category": "technical_heritage"
     },
     {
       "id": "fact_004",
@@ -97,7 +100,8 @@
         "type": "ferry_terminal",
         "accuracy": "exact",
         "source": "https://poi.oma.sk/n306074898"
-      }
+      },
+      "map_category": "visitor_attraction"
     },
     {
       "id": "fact_005",
@@ -117,7 +121,8 @@
         "type": "historic_address",
         "accuracy": "approximate",
         "source": "https://www.oma.sk/u/lucie-poppovej?s=zahorska-ves"
-      }
+      },
+      "map_category": "personality"
     },
     {
       "id": "fact_006",
@@ -137,7 +142,8 @@
         "type": "river",
         "accuracy": "area_representative",
         "source": "https://www.shmu.sk/sk/index.php?page=765&station_id=5085"
-      }
+      },
+      "map_category": "nature"
     },
     {
       "id": "fact_007",
@@ -149,7 +155,16 @@
         "https://www.zahorskaves.sk/25819/uhranske-muzeum",
         "https://www.zahorskaves.sk/25770/charakteristika-obce"
       ],
-      "location": null
+      "location": {
+        "name": "Uhranské múzeum, bývalá colnica",
+        "address": "Hlavná 159, 900 65 Záhorská Ves, Slovensko",
+        "lat": 48.3825583019,
+        "lon": 16.8360904118,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://www.oma.sk/u/hlavna/159?s=zahorska-ves"
+      },
+      "map_category": "museum"
     }
   ],
   "photo": null,
@@ -262,6 +277,11 @@
       "title": "Uhranské múzeum",
       "url": "https://www.zahorskaves.sk/25819/uhranske-muzeum",
       "type": "official"
+    },
+    {
+      "title": "Hlavná 159 – poloha Uhranského múzea",
+      "url": "https://www.oma.sk/u/hlavna/159?s=zahorska-ves",
+      "type": "other"
     }
   ],
   "translations": {
