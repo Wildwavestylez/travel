@@ -1,4 +1,551 @@
 {
   "postcode": "90065",
-  "status": "placeholder"
+  "city": "Záhorská Ves",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Střed obce Záhorská Ves",
+  "representative_point": {
+    "lat": 48.380833,
+    "lon": 16.845
+  },
+  "access_point": {
+    "lat": 48.380833,
+    "lon": 16.845
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Od pravěkého osídlení k Uherské Vsi",
+      "text": "Území dnešní Záhorské Vsi bylo osídleno už v pravěku; obecní historický přehled uvádí stopy několika pravěkých kulturních okruhů i římsko-barbarské a slovanské osídlení z období Velké Moravy. První písemný doklad o obci pochází z roku 1301, kdy se uvádí pod jménem Magyarfalu. V 16. století se zde usadili chorvatští kolonisté a fungovala tu také tricesimální stanice – uherské celní místo vybírající clo ve výši jedné třicetiny hodnoty zboží. Název Záhorská Ves obec používá od 1. ledna 1949; předtím se jmenovala Uhorská Ves.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskaves.sk/25773/historia-obce",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_0243806a-3cb5-42b8-860d-e3eb6bb0503f",
+        "https://www.zahorskaves.sk/data/page/zahorskaves.sk/25804/program-hospoda-rskeho-rozvoja-a-socia-lneho-rozvoja-obce-za-horska-ves-na-roky-2023-2030-2-aktualiza-cia.pdf"
+      ],
+      "location": {
+        "name": "Střed obce Záhorská Ves – orientační bod",
+        "lat": 48.380833,
+        "lon": 16.845,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "source": "https://www.zahorskaves.sk/data/page/zahorskaves.sk/25804/program-hospoda-rskeho-rozvoja-a-socia-lneho-rozvoja-obce-za-horska-ves-na-roky-2023-2030-2-aktualiza-cia.pdf"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Dva kostely svatého Michala a barokní kořeny farnosti",
+      "text": "První místní kostel vznikl roku 1678 jako jednolodní barokní stavba zasvěcená svatému Michalovi archandělovi a svaté Kateřině. Stál v části Zákostelí a sloužil přibližně 260 let; po zřícení chóru o Vánocích 1937 byl kvůli bezpečnosti roku 1938 zbořen. Jeho vybavení se přeneslo do nového kostela postaveného v letech 1939–1940 asi o půl kilometru dál, v centru obce. Nový kostel byl vysvěcen 15. srpna 1940 a zachoval zasvěcení svatému Michalovi i svaté Kateřině, která je spolupatronkou farnosti. S místními hody jsou spojeny svátky obou patronů.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.zahorskaves.sk/25783/farnost",
+        "https://www.zahorskaves.sk/25773/historia-obce",
+        "https://poi.oma.sk/w331802175"
+      ],
+      "location": {
+        "name": "Kostel sv. Michala archanjela",
+        "address": "Hlavná 75, 900 65 Záhorská Ves, Slovensko",
+        "lat": 48.3810923679,
+        "lon": 16.8492708315,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w331802175"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Cukrovar Maxe Löwbeera a průmyslové spojení přes Moravu",
+      "text": "Cukrovar v tehdejší Uherské Vsi založil Max Löwbeer roku 1870 na pozemcích u řeky Moravy. Už na podzim téhož roku začala první výrobní kampaň. Podnik se stal jedním z největších cukrovarů ve střední Evropě a výrazně změnil život obce: zaměstnával místní obyvatele i pracovníky z okolí a podpořil pěstování cukrové řepy. S rakouským Angernem jej spojovala elektrifikovaná úzkorozchodná železnice vedená přes dřevěný most; po ní se do továrny přivážela řepa a opačným směrem se vyvážel cukr. Výroba skončila roku 1949. Z někdejšího areálu je v mapových podkladech doložen také komín bývalého cukrovaru.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskaves.sk/26095/cukrovar-v-uhorskej-vsi",
+        "https://ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Industialne-a-technicke-pamiatky-a-arealy-v-Bratislavskej-zupe_2015small.pdf",
+        "https://www.zahorskaves.sk/25773/historia-obce",
+        "https://koda.kominari.cz/?action=karta&cislo=7255"
+      ],
+      "location": {
+        "name": "Komín bývalého cukrovaru",
+        "address": "Hlavná, 900 65 Záhorská Ves, Slovensko",
+        "lat": 48.381223,
+        "lon": 16.836381,
+        "type": "historic_industrial_site",
+        "accuracy": "approximate",
+        "source": "https://koda.kominari.cz/?action=karta&cislo=7255"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Moravský most, stará obchodní cesta a dnešní přívoz",
+      "text": "Poloha na hraniční řece Moravě spojovala Záhorskou Ves po staletí s rakouským břehem. Historické prameny připomínají starší přívoz a dřevěný most směrem k Angernu; most byl v minulosti opakovaně zničen a obnoven a za druhé světové války byl při ústupu německých vojsk vyhozen do povětří. Dnes přes řeku převáží vozidla i cestující kompa mezi Záhorskou Vsí a Angern an der March. Provoz je závislý na vodním stavu Moravy, takže při vysoké hladině může být přerušen. Jde o praktické přeshraniční spojení i výrazný symbol zdejšího života na hranici.",
+      "category": "geography_and_context",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskaves.sk/25787/kompa",
+        "https://www.zahorskemuzeum.sk/mosty-pomoravia/",
+        "https://www.zahorskaves.sk/25773/historia-obce",
+        "https://poi.oma.sk/n306074898"
+      ],
+      "location": {
+        "name": "Přístaviště kompy Záhorská Ves – Angern",
+        "address": "Hlavná, 900 65 Záhorská Ves, Slovensko",
+        "lat": 48.3822028,
+        "lon": 16.8341672,
+        "type": "ferry_terminal",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n306074898"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Lucia Poppová – světová operní pěvkyně z Uherské Vsi",
+      "text": "V Záhorské Vsi, tehdejší Uherské Vsi, se 12. listopadu 1939 narodila Lucia Poppová (1939–1993), jedna z nejvýznamnějších slovenských sopranistek 20. století. Po studiích v Bratislavě debutovala ve Vídeňské státní opeře jako Královna noci v Mozartově Kouzelné flétně a následně vystupovala na předních operních scénách v Evropě i v New Yorku. Získala mimo jiné čestné členství Vídeňské státní opery a titul Kammersängerin. Její rodný dům připomíná pamětní deska a ulice, na níž stojí, nese její jméno. Obec její odkaz připomíná také koncerty.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "https://www.zahorskaves.sk/26143/lucia-poppova",
+        "https://ttkraj.sk/v-zahorskej-vsi-odhalili-pamatnu-tabuľu-opernej-dive-lucii-popp/",
+        "https://hc.sk/o-slovenskej-hudbe/osobnost-detail/2007-lucia-poppova"
+      ],
+      "location": {
+        "name": "Ulica Lucie Poppovej – orientační bod u rodného domu",
+        "lat": 48.3797427555,
+        "lon": 16.8422833998,
+        "type": "historic_address",
+        "accuracy": "approximate",
+        "source": "https://www.oma.sk/u/lucie-poppovej?s=zahorska-ves"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Niva Moravy – mokřady, lužní lesy a vzácné ptactvo",
+      "text": "Záhorská Ves leží v nivní krajině řeky Moravy, jejíž říční ramena, mokřady, močály, vlhké louky a lužní lesy patří k ekologicky cenným částem Pomoraví. Území evropského významu Morava zasahuje i do katastru Záhorské Vsi a je součástí soustavy Natura 2000. Ochrana se zaměřuje mimo jiné na mokřadní a vodní ptáky, například bukače velkého, chřástala tečkovaného, bukáčka malého či luňáka červeného. Obecní přírodopisný přehled zmiňuje také výskyt luňáků v obecním lese a stopy bobra evropského na mrtvých ramenech a březích řeky.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://natura2000.sopsr.sk/morava/",
+        "https://www.zahorskaves.sk/25832/priroda",
+        "https://www.shmu.sk/sk/index.php?page=765&station_id=5085"
+      ],
+      "location": {
+        "name": "Morava u vodoměrné stanice Záhorská Ves",
+        "lat": 48.38267,
+        "lon": 16.84131,
+        "type": "river",
+        "accuracy": "area_representative",
+        "source": "https://www.shmu.sk/sk/index.php?page=765&station_id=5085"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Uhranské muzeum – paměť pohraniční obce",
+      "text": "Uhranské muzeum bylo otevřeno 4. října 2008 v prostorách bývalé celnice na slovensko-rakouské hranici. Vzniklo díky místnímu kulturnímu spolku Uhranská perla a rozsáhlé práci obecního kronikáře Ota Šimkoviče, který shromažďoval fotografie, dokumenty a vzpomínky obyvatel z archivů, matrik i rodinných sbírek. Expozice zachycuje dějiny obce a každodenní život jejích obyvatel; muzeum tak uchovává místní paměť někdejší Uherské Vsi a jejího přeshraničního prostředí. Návštěvu je vhodné předem ověřit nebo domluvit s provozovateli.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.zahorskaves.sk/25819/uhranske-muzeum",
+        "https://www.zahorskaves.sk/25770/charakteristika-obce"
+      ],
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – online vyhľadávanie PSČ; obecné údaje a PSČ 900 65 ověřeny také na oficiálním webu obce.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-25",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR / oficiální administrativní údaje obce; poloha a body doloženy obecním rozvojovým programem a mapovými zdroji."
+  },
+  "sources": [
+    {
+      "title": "História obce Záhorská Ves",
+      "url": "https://www.zahorskaves.sk/25773/historia-obce",
+      "type": "official"
+    },
+    {
+      "title": "Charakteristika obce Záhorská Ves",
+      "url": "https://www.zahorskaves.sk/25770/charakteristika-obce",
+      "type": "official"
+    },
+    {
+      "title": "Program hospodárskeho rozvoja a sociálneho rozvoja obce Záhorská Ves 2023–2030",
+      "url": "https://www.zahorskaves.sk/data/page/zahorskaves.sk/25804/program-hospoda-rskeho-rozvoja-a-socia-lneho-rozvoja-obce-za-horska-ves-na-roky-2023-2030-2-aktualiza-cia.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Informácie o obci Záhorská Ves – Ústredný portál verejnej správy",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_0243806a-3cb5-42b8-860d-e3eb6bb0503f",
+      "type": "official"
+    },
+    {
+      "title": "História kostolov v Záhorskej Vsi – Farnosť svätého Michala Archanjela",
+      "url": "https://www.zahorskaves.sk/25783/farnost",
+      "type": "official"
+    },
+    {
+      "title": "Kostol sv. Michala archanjela – poloha a adresa",
+      "url": "https://poi.oma.sk/w331802175",
+      "type": "other"
+    },
+    {
+      "title": "Cukrovar v Uhorskej Vsi",
+      "url": "https://www.zahorskaves.sk/26095/cukrovar-v-uhorskej-vsi",
+      "type": "official"
+    },
+    {
+      "title": "Priemyselné a technické pamiatky a areály v Bratislavskej župe",
+      "url": "https://ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Industialne-a-technicke-pamiatky-a-arealy-v-Bratislavskej-zupe_2015small.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Bývalý cukrovar – komín, poloha",
+      "url": "https://koda.kominari.cz/?action=karta&cislo=7255",
+      "type": "specialist"
+    },
+    {
+      "title": "Kompa Záhorská Ves – Angern/March",
+      "url": "https://www.zahorskaves.sk/25787/kompa",
+      "type": "official"
+    },
+    {
+      "title": "Mosty Pomoravia",
+      "url": "https://www.zahorskemuzeum.sk/mosty-pomoravia/",
+      "type": "museum"
+    },
+    {
+      "title": "Kompa Záhorská Ves – Angern an der March, poloha",
+      "url": "https://poi.oma.sk/n306074898",
+      "type": "other"
+    },
+    {
+      "title": "Lucia Poppová – Obec Záhorská Ves",
+      "url": "https://www.zahorskaves.sk/26143/lucia-poppova",
+      "type": "official"
+    },
+    {
+      "title": "V Záhorskej Vsi odhalili pamätnú tabuľu opernej dive Lucii Popp",
+      "url": "https://ttkraj.sk/v-zahorskej-vsi-odhalili-pamatnu-tabuľu-opernej-dive-lucii-popp/",
+      "type": "regional"
+    },
+    {
+      "title": "Lucia Popp – Hudobné centrum",
+      "url": "https://hc.sk/o-slovenskej-hudbe/osobnost-detail/2007-lucia-poppova",
+      "type": "official"
+    },
+    {
+      "title": "Morava – Natura 2000",
+      "url": "https://natura2000.sopsr.sk/morava/",
+      "type": "official"
+    },
+    {
+      "title": "Príroda – Obec Záhorská Ves",
+      "url": "https://www.zahorskaves.sk/25832/priroda",
+      "type": "official"
+    },
+    {
+      "title": "Vodné toky – SHMÚ, stanica Záhorská Ves",
+      "url": "https://www.shmu.sk/sk/index.php?page=765&station_id=5085",
+      "type": "official"
+    },
+    {
+      "title": "Uhranské múzeum",
+      "url": "https://www.zahorskaves.sk/25819/uhranske-muzeum",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Střed obce Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Od pravěkého osídlení k Uherské Vsi",
+          "text": "Území dnešní Záhorské Vsi bylo osídleno už v pravěku; obecní historický přehled uvádí stopy několika pravěkých kulturních okruhů i římsko-barbarské a slovanské osídlení z období Velké Moravy. První písemný doklad o obci pochází z roku 1301, kdy se uvádí pod jménem Magyarfalu. V 16. století se zde usadili chorvatští kolonisté a fungovala tu také tricesimální stanice – uherské celní místo vybírající clo ve výši jedné třicetiny hodnoty zboží. Název Záhorská Ves obec používá od 1. ledna 1949; předtím se jmenovala Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dva kostely svatého Michala a barokní kořeny farnosti",
+          "text": "První místní kostel vznikl roku 1678 jako jednolodní barokní stavba zasvěcená svatému Michalovi archandělovi a svaté Kateřině. Stál v části Zákostelí a sloužil přibližně 260 let; po zřícení chóru o Vánocích 1937 byl kvůli bezpečnosti roku 1938 zbořen. Jeho vybavení se přeneslo do nového kostela postaveného v letech 1939–1940 asi o půl kilometru dál, v centru obce. Nový kostel byl vysvěcen 15. srpna 1940 a zachoval zasvěcení svatému Michalovi i svaté Kateřině, která je spolupatronkou farnosti. S místními hody jsou spojeny svátky obou patronů."
+        },
+        {
+          "id": "fact_003",
+          "title": "Cukrovar Maxe Löwbeera a průmyslové spojení přes Moravu",
+          "text": "Cukrovar v tehdejší Uherské Vsi založil Max Löwbeer roku 1870 na pozemcích u řeky Moravy. Už na podzim téhož roku začala první výrobní kampaň. Podnik se stal jedním z největších cukrovarů ve střední Evropě a výrazně změnil život obce: zaměstnával místní obyvatele i pracovníky z okolí a podpořil pěstování cukrové řepy. S rakouským Angernem jej spojovala elektrifikovaná úzkorozchodná železnice vedená přes dřevěný most; po ní se do továrny přivážela řepa a opačným směrem se vyvážel cukr. Výroba skončila roku 1949. Z někdejšího areálu je v mapových podkladech doložen také komín bývalého cukrovaru."
+        },
+        {
+          "id": "fact_004",
+          "title": "Moravský most, stará obchodní cesta a dnešní přívoz",
+          "text": "Poloha na hraniční řece Moravě spojovala Záhorskou Ves po staletí s rakouským břehem. Historické prameny připomínají starší přívoz a dřevěný most směrem k Angernu; most byl v minulosti opakovaně zničen a obnoven a za druhé světové války byl při ústupu německých vojsk vyhozen do povětří. Dnes přes řeku převáží vozidla i cestující kompa mezi Záhorskou Vsí a Angern an der March. Provoz je závislý na vodním stavu Moravy, takže při vysoké hladině může být přerušen. Jde o praktické přeshraniční spojení i výrazný symbol zdejšího života na hranici."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Poppová – světová operní pěvkyně z Uherské Vsi",
+          "text": "V Záhorské Vsi, tehdejší Uherské Vsi, se 12. listopadu 1939 narodila Lucia Poppová (1939–1993), jedna z nejvýznamnějších slovenských sopranistek 20. století. Po studiích v Bratislavě debutovala ve Vídeňské státní opeře jako Královna noci v Mozartově Kouzelné flétně a následně vystupovala na předních operních scénách v Evropě i v New Yorku. Získala mimo jiné čestné členství Vídeňské státní opery a titul Kammersängerin. Její rodný dům připomíná pamětní deska a ulice, na níž stojí, nese její jméno. Obec její odkaz připomíná také koncerty."
+        },
+        {
+          "id": "fact_006",
+          "title": "Niva Moravy – mokřady, lužní lesy a vzácné ptactvo",
+          "text": "Záhorská Ves leží v nivní krajině řeky Moravy, jejíž říční ramena, mokřady, močály, vlhké louky a lužní lesy patří k ekologicky cenným částem Pomoraví. Území evropského významu Morava zasahuje i do katastru Záhorské Vsi a je součástí soustavy Natura 2000. Ochrana se zaměřuje mimo jiné na mokřadní a vodní ptáky, například bukače velkého, chřástala tečkovaného, bukáčka malého či luňáka červeného. Obecní přírodopisný přehled zmiňuje také výskyt luňáků v obecním lese a stopy bobra evropského na mrtvých ramenech a březích řeky."
+        },
+        {
+          "id": "fact_007",
+          "title": "Uhranské muzeum – paměť pohraniční obce",
+          "text": "Uhranské muzeum bylo otevřeno 4. října 2008 v prostorách bývalé celnice na slovensko-rakouské hranici. Vzniklo díky místnímu kulturnímu spolku Uhranská perla a rozsáhlé práci obecního kronikáře Ota Šimkoviče, který shromažďoval fotografie, dokumenty a vzpomínky obyvatel z archivů, matrik i rodinných sbírek. Expozice zachycuje dějiny obce a každodenní život jejích obyvatel; muzeum tak uchovává místní paměť někdejší Uherské Vsi a jejího přeshraničního prostředí. Návštěvu je vhodné předem ověřit nebo domluvit s provozovateli."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von der prähistorischen Besiedlung zu Uhorská Ves",
+          "text": "Das Gebiet des heutigen Záhorská Ves war bereits in vorgeschichtlicher Zeit besiedelt. Die Ortschronik nennt Spuren mehrerer prähistorischer Kulturkreise sowie eine römisch-germanische und slawische Besiedlung aus der Zeit Großmährens. Die erste schriftliche Erwähnung stammt aus dem Jahr 1301 unter dem Namen Magyarfalu. Im 16. Jahrhundert ließen sich kroatische Kolonisten nieder; außerdem bestand hier eine Tricesima-Station, eine ungarische Zollstelle, an der ein Dreißigstel des Warenwerts erhoben wurde. Seit dem 1. Januar 1949 trägt die Gemeinde den Namen Záhorská Ves; zuvor hieß sie Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Zwei Michaeliskirchen und die barocken Wurzeln der Pfarrei",
+          "text": "Die erste Kirche des Ortes wurde 1678 als einschiffiger Barockbau errichtet und dem Erzengel Michael sowie der heiligen Katharina geweiht. Sie stand im Ortsteil Zákostelí und diente etwa 260 Jahre lang. Nachdem an Weihnachten 1937 die Empore eingestürzt war, wurde sie 1938 aus Sicherheitsgründen abgetragen. Die Ausstattung kam später in die neue Kirche, die 1939–1940 rund einen halben Kilometer entfernt im Ortszentrum errichtet wurde. Sie wurde am 15. August 1940 geweiht und behielt die Patrozinien des heiligen Michael und der heiligen Katharina; Katharina ist Mitpatronin der Pfarrei. Die örtlichen Kirchweihfeste sind mit den Festtagen beider Patrone verbunden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Zuckerfabrik Max Löw-Beers und die industrielle Verbindung über die March",
+          "text": "Max Löw-Beer gründete 1870 am Ufer der March in der damaligen Gemeinde Uhorská Ves eine Zuckerfabrik. Bereits im Herbst desselben Jahres begann die erste Kampagne. Der Betrieb entwickelte sich zu einer der größten Zuckerfabriken Mitteleuropas und veränderte das Gemeindeleben: Er beschäftigte Menschen aus dem Ort und der Umgebung und förderte den Zuckerrübenanbau. Eine elektrifizierte Schmalspurbahn über eine hölzerne Brücke verband die Fabrik mit dem österreichischen Angern. Auf ihr wurden Rüben zur Fabrik und Zucker in die Gegenrichtung transportiert. Die Produktion endete 1949. Ein Schornstein der ehemaligen Zuckerfabrik ist in den Kartendaten weiterhin verzeichnet."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Marchbrücke, der alte Handelsweg und die heutige Fähre",
+          "text": "Die Lage an der Grenzfluss March verband Záhorská Ves über Jahrhunderte mit dem österreichischen Ufer. Historische Quellen erwähnen eine ältere Fährverbindung und eine Holzbrücke in Richtung Angern; die Brücke wurde mehrfach zerstört und wieder aufgebaut und im Zweiten Weltkrieg beim Rückzug deutscher Truppen gesprengt. Heute befördert eine Fähre Fahrzeuge und Reisende zwischen Záhorská Ves und Angern an der March. Ihr Betrieb hängt vom Wasserstand der March ab und kann bei Hochwasser unterbrochen werden. Sie ist sowohl eine praktische grenzüberschreitende Verbindung als auch ein prägendes Symbol des Lebens an der Grenze."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp – eine weltweit gefeierte Opernsängerin aus Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), eine der bedeutendsten slowakischen Sopranistinnen des 20. Jahrhunderts, wurde am 12. November 1939 im damaligen Uhorská Ves, dem heutigen Záhorská Ves, geboren. Nach ihrem Studium in Bratislava debütierte sie an der Wiener Staatsoper als Königin der Nacht in Mozarts Zauberflöte und trat später auf führenden Opernbühnen Europas und in New York auf. Zu ihren Auszeichnungen gehörten die Ehrenmitgliedschaft der Wiener Staatsoper und der Titel Kammersängerin. Eine Gedenktafel am Geburtshaus und die nach ihr benannte Straße erinnern an sie. Die Gemeinde ehrt ihr Vermächtnis außerdem mit Konzerten."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Marchaue – Feuchtgebiete, Auwälder und seltene Vögel",
+          "text": "Záhorská Ves liegt in der Auenlandschaft der March. Ihre Flussarme, Feuchtgebiete, Sümpfe, Feuchtwiesen und Auwälder gehören zu den ökologisch wertvollen Landschaften des Marchtals. Das Natura-2000-Gebiet von europäischer Bedeutung Morava umfasst auch das Gemeindegebiet von Záhorská Ves. Der Schutz gilt unter anderem Feuchtgebiets- und Wasservögeln wie Rohrdommel, Tüpfelsumpfhuhn, Zwergdommel und Rotmilan. Die Naturbeschreibung der Gemeinde erwähnt außerdem Rot- und Schwarzmilane im Gemeindewald sowie Spuren des Europäischen Bibers an Altarmen und Flussufern."
+        },
+        {
+          "id": "fact_007",
+          "title": "Das Uhranské Museum – das Gedächtnis einer Grenzgemeinde",
+          "text": "Das Uhranské Museum wurde am 4. Oktober 2008 in den Räumen des ehemaligen Zollamts an der slowakisch-österreichischen Grenze eröffnet. Es entstand dank des örtlichen Kulturvereins Uhranská perla und der umfangreichen Arbeit des Gemeindearchivars Oto Šimkovič, der Fotografien, Dokumente und Erinnerungen der Einwohner aus Archiven, Matriken und Familiensammlungen zusammentrug. Die Ausstellung dokumentiert die Geschichte des Ortes und den Alltag seiner Bewohner. Das Museum bewahrt damit das lokale Gedächtnis des früheren Uhorská Ves und seines grenzüberschreitenden Umfelds. Ein Besuch sollte vorab mit den Betreibern abgestimmt werden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Village centre of Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From prehistoric settlement to Uhorská Ves",
+          "text": "The area of present-day Záhorská Ves was inhabited in prehistoric times. The municipal history records traces of several prehistoric cultural groups, as well as Roman-Germanic and Slavic settlement from the Great Moravian period. The first written record dates to 1301, under the name Magyarfalu. Croatian settlers arrived in the 16th century, when the village also had a tricesima station, a Hungarian customs post collecting one-thirtieth of the value of goods. The municipality has borne the name Záhorská Ves since 1 January 1949; before that it was called Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Two churches of St Michael and the parish’s Baroque roots",
+          "text": "The first local church was built in 1678 as a single-nave Baroque building dedicated to St Michael the Archangel and St Catherine. It stood in the Zákostelí part of the village and served the faithful for about 260 years. After its choir gallery collapsed at Christmas 1937, it was demolished for safety in 1938. Its furnishings were later transferred to a new church built in 1939–1940 about half a kilometre away in the village centre. Consecrated on 15 August 1940, the new church retained the dedications to St Michael and St Catherine, who is a co-patron of the parish. Local feast days are associated with both saints."
+        },
+        {
+          "id": "fact_003",
+          "title": "Max Löw-Beer’s sugar factory and the industrial link across the Morava",
+          "text": "Max Löw-Beer founded a sugar factory on the Morava riverbank in the then village of Uhorská Ves in 1870. Its first production campaign began that autumn. It became one of the largest sugar factories in Central Europe and transformed local life, employing residents and workers from the surrounding area while encouraging sugar-beet cultivation. An electrified narrow-gauge railway crossed a wooden bridge to connect the factory with Angern in Austria. Sugar beet was brought to the factory and sugar carried in the opposite direction. Production ended in 1949. A chimney from the former sugar factory is still recorded in map data."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Morava bridge, an old trade route and today’s ferry",
+          "text": "The village’s position on the border river Morava connected Záhorská Ves with the Austrian bank for centuries. Historical sources mention an earlier ferry crossing and a wooden bridge towards Angern. The bridge was destroyed and rebuilt more than once, then blown up by retreating German forces during the Second World War. Today a ferry carries vehicles and passengers between Záhorská Ves and Angern an der March. Its operation depends on the Morava’s water level and may be suspended during high water. It is both a practical cross-border link and a defining symbol of life on the frontier."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp – an internationally celebrated opera singer from Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), one of the leading Slovak sopranos of the 20th century, was born on 12 November 1939 in Uhorská Ves, now Záhorská Ves. After studying in Bratislava, she made her debut at the Vienna State Opera as the Queen of the Night in Mozart’s The Magic Flute and went on to perform at major opera houses across Europe and in New York. Her honours included honorary membership of the Vienna State Opera and the title Kammersängerin. A plaque on her birthplace and the street named after her commemorate her; the municipality also honours her with concerts."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Morava floodplain – wetlands, floodplain forests and rare birds",
+          "text": "Záhorská Ves lies in the Morava river floodplain. Its river branches, wetlands, marshes, wet meadows and floodplain forests form one of the ecologically valuable landscapes of the Morava valley. The Morava Natura 2000 site of European importance extends into the municipality’s cadastral area. Conservation efforts protect wetland and water birds, including the Eurasian bittern, spotted crake, little bittern and red kite. The municipality’s nature overview also notes red and black kites in the municipal forest and signs of the Eurasian beaver along oxbow lakes and riverbanks."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Uhranské Museum – the memory of a border village",
+          "text": "The Uhranské Museum opened on 4 October 2008 in the former customs house on the Slovak-Austrian border. It was established through the efforts of the local cultural association Uhranská perla and the extensive work of municipal chronicler Oto Šimkovič, who collected photographs, documents and residents’ memories from archives, parish registers and family collections. The exhibition documents the village’s history and everyday life. The museum preserves the local memory of the former Uhorská Ves and its cross-border setting. Visitors should check or arrange opening times with the operators in advance."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro del pueblo de Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Del poblamiento prehistórico a Uhorská Ves",
+          "text": "El territorio de la actual Záhorská Ves estuvo habitado desde la prehistoria. La historia municipal menciona huellas de varios grupos culturales prehistóricos, así como asentamientos romano-germánicos y eslavos de la época de la Gran Moravia. La primera mención escrita data de 1301, con el nombre de Magyarfalu. En el siglo XVI llegaron colonos croatas y el pueblo contó también con una estación tricesimal, un puesto aduanero húngaro que cobraba una trigésima parte del valor de las mercancías. Desde el 1 de enero de 1949 el municipio se llama Záhorská Ves; antes se llamaba Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dos iglesias de San Miguel y las raíces barrocas de la parroquia",
+          "text": "La primera iglesia local se construyó en 1678 como templo barroco de una sola nave dedicado a san Miguel Arcángel y santa Catalina. Se encontraba en el barrio de Zákostelí y sirvió a los fieles durante unos 260 años. Tras el derrumbe del coro en la Navidad de 1937, fue demolida por seguridad en 1938. Su mobiliario se trasladó después a una nueva iglesia construida entre 1939 y 1940, a unos 500 metros, en el centro del pueblo. Consagrada el 15 de agosto de 1940, la nueva iglesia mantuvo las advocaciones de san Miguel y santa Catalina, copatrona de la parroquia. Las fiestas patronales locales están vinculadas a ambos santos."
+        },
+        {
+          "id": "fact_003",
+          "title": "La azucarera de Max Löw-Beer y el enlace industrial sobre el Morava",
+          "text": "Max Löw-Beer fundó en 1870 una azucarera junto al río Morava, en la entonces localidad de Uhorská Ves. La primera campaña de producción comenzó en otoño de ese mismo año. La fábrica llegó a ser una de las mayores de Europa central y transformó la vida local: dio empleo a vecinos y trabajadores de los alrededores e impulsó el cultivo de remolacha azucarera. Una vía férrea electrificada de vía estrecha cruzaba un puente de madera y conectaba la fábrica con Angern, en Austria. Por ella llegaba la remolacha y salía el azúcar en sentido contrario. La producción terminó en 1949. Los mapas todavía registran una chimenea de la antigua azucarera."
+        },
+        {
+          "id": "fact_004",
+          "title": "El puente del Morava, la antigua ruta comercial y el transbordador actual",
+          "text": "La ubicación junto al río fronterizo Morava conectó durante siglos Záhorská Ves con la orilla austríaca. Las fuentes históricas mencionan un antiguo servicio de barca y un puente de madera hacia Angern. El puente fue destruido y reconstruido varias veces y, durante la Segunda Guerra Mundial, las tropas alemanas en retirada lo volaron. Hoy un transbordador transporta vehículos y pasajeros entre Záhorská Ves y Angern an der March. Su funcionamiento depende del nivel del Morava y puede interrumpirse cuando el río crece. Es una conexión transfronteriza práctica y un símbolo característico de la vida en la frontera."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp, cantante de ópera de fama internacional nacida en Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), una de las sopranos eslovacas más destacadas del siglo XX, nació el 12 de noviembre de 1939 en Uhorská Ves, hoy Záhorská Ves. Tras estudiar en Bratislava, debutó en la Ópera Estatal de Viena como la Reina de la Noche en La flauta mágica de Mozart y después actuó en importantes teatros de ópera de Europa y Nueva York. Entre sus distinciones figuran la membresía honoraria de la Ópera Estatal de Viena y el título de Kammersängerin. Una placa conmemorativa en su casa natal y la calle que lleva su nombre la recuerdan; el municipio también le dedica conciertos."
+        },
+        {
+          "id": "fact_006",
+          "title": "La llanura aluvial del Morava: humedales, bosques de ribera y aves raras",
+          "text": "Záhorská Ves se encuentra en la llanura aluvial del río Morava. Sus brazos fluviales, humedales, marismas, prados húmedos y bosques de ribera forman uno de los paisajes ecológicamente valiosos del valle del Morava. El espacio Natura 2000 Morava, de importancia europea, incluye también el término municipal de Záhorská Ves. La protección se centra, entre otras especies, en aves de humedal y acuáticas como el avetoro común, el guion de codornices, el avetorillo común y el milano real. La información natural del municipio menciona además milanos reales y negros en el bosque municipal y rastros del castor europeo en los brazos muertos y las orillas."
+        },
+        {
+          "id": "fact_007",
+          "title": "El Museo Uhranské: la memoria de un pueblo fronterizo",
+          "text": "El Museo Uhranské abrió el 4 de octubre de 2008 en las dependencias de la antigua aduana de la frontera entre Eslovaquia y Austria. Se creó gracias al trabajo de la asociación cultural local Uhranská perla y a la labor del cronista municipal Oto Šimkovič, que reunió fotografías, documentos y recuerdos de los vecinos procedentes de archivos, registros parroquiales y colecciones familiares. La exposición documenta la historia del pueblo y la vida cotidiana de sus habitantes. El museo conserva así la memoria local de la antigua Uhorská Ves y de su entorno transfronterizo. Conviene consultar o acordar previamente la visita con sus responsables."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre du village de Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De l’occupation préhistorique à Uhorská Ves",
+          "text": "Le territoire de l’actuelle Záhorská Ves est habité depuis la préhistoire. L’histoire communale mentionne des traces de plusieurs cultures préhistoriques ainsi que des établissements romano-germaniques et slaves de l’époque de la Grande-Moravie. La première mention écrite date de 1301, sous le nom de Magyarfalu. Des colons croates s’y installèrent au XVIe siècle ; le village possédait aussi une station tricesimale, un poste douanier hongrois prélevant un trentième de la valeur des marchandises. Depuis le 1er janvier 1949, la commune porte le nom de Záhorská Ves ; auparavant, elle s’appelait Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Deux églises Saint-Michel et les racines baroques de la paroisse",
+          "text": "La première église locale fut construite en 1678 dans le style baroque, avec une nef unique, et dédiée à saint Michel archange et à sainte Catherine. Située dans le quartier de Zákostelí, elle servit les fidèles pendant environ 260 ans. Après l’effondrement de la tribune à Noël 1937, elle fut démolie pour des raisons de sécurité en 1938. Son mobilier fut transféré dans une nouvelle église construite en 1939–1940, à environ 500 mètres, au centre du village. Consacrée le 15 août 1940, elle conserva les dédicaces à saint Michel et à sainte Catherine, copatronne de la paroisse. Les fêtes patronales locales sont liées aux jours de fête de ces deux saints."
+        },
+        {
+          "id": "fact_003",
+          "title": "La sucrerie de Max Löw-Beer et la liaison industrielle au-dessus de la Morava",
+          "text": "Max Löw-Beer fonda en 1870 une sucrerie sur les rives de la Morava, dans l’ancienne localité d’Uhorská Ves. La première campagne de production commença dès l’automne de cette année-là. L’établissement devint l’une des plus grandes sucreries d’Europe centrale et transforma la vie locale : il employait les habitants et des ouvriers des environs et encourageait la culture de la betterave sucrière. Un chemin de fer électrique à voie étroite franchissait un pont en bois pour relier l’usine à Angern, en Autriche. Les betteraves arrivaient par cette ligne et le sucre repartait dans l’autre sens. La production prit fin en 1949. Un des cheminées de l’ancienne sucrerie figure encore dans les données cartographiques."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le pont sur la Morava, l’ancienne route commerciale et le bac actuel",
+          "text": "La situation de Záhorská Ves sur la rivière frontière Morava reliait depuis des siècles le village à la rive autrichienne. Les sources historiques mentionnent un ancien bac et un pont en bois en direction d’Angern. Le pont fut détruit et reconstruit à plusieurs reprises, puis dynamité par les troupes allemandes en retraite pendant la Seconde Guerre mondiale. Aujourd’hui, un bac transporte véhicules et passagers entre Záhorská Ves et Angern an der March. Son fonctionnement dépend du niveau de la Morava et peut être suspendu en période de hautes eaux. Il constitue à la fois une liaison transfrontalière pratique et un symbole fort de la vie à la frontière."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp, cantatrice de renommée mondiale née à Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), l’une des grandes sopranos slovaques du XXe siècle, est née le 12 novembre 1939 à Uhorská Ves, aujourd’hui Záhorská Ves. Après ses études à Bratislava, elle fit ses débuts à l’Opéra d’État de Vienne dans le rôle de la Reine de la nuit de La Flûte enchantée de Mozart, puis se produisit dans les grandes maisons d’opéra d’Europe et à New York. Elle reçut notamment le titre de membre honoraire de l’Opéra d’État de Vienne et celui de Kammersängerin. Une plaque commémorative sur sa maison natale et la rue qui porte son nom perpétuent sa mémoire ; la commune lui rend également hommage par des concerts."
+        },
+        {
+          "id": "fact_006",
+          "title": "La plaine alluviale de la Morava : zones humides, forêts riveraines et oiseaux rares",
+          "text": "Záhorská Ves se trouve dans la plaine alluviale de la Morava. Ses bras fluviaux, zones humides, marais, prairies humides et forêts alluviales forment l’un des paysages écologiquement précieux de la vallée de la Morava. Le site Natura 2000 Morava, d’importance européenne, s’étend aussi sur le territoire cadastral de la commune. La protection concerne notamment les oiseaux des milieux humides et aquatiques, tels que le butor étoilé, le râle ponctué, le blongios nain et le milan royal. La présentation de la nature par la commune signale également des milans dans la forêt communale et des traces du castor d’Europe le long des bras morts et des berges."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le musée Uhranské – la mémoire d’un village frontalier",
+          "text": "Le musée Uhranské a ouvert le 4 octobre 2008 dans les locaux de l’ancienne douane à la frontière slovaquo-autrichienne. Il a vu le jour grâce à l’association culturelle locale Uhranská perla et au travail considérable du chroniqueur communal Oto Šimkovič, qui a rassemblé photographies, documents et souvenirs des habitants provenant d’archives, de registres paroissiaux et de collections familiales. L’exposition retrace l’histoire du village et la vie quotidienne de ses habitants. Le musée préserve ainsi la mémoire locale de l’ancienne Uhorská Ves et de son environnement transfrontalier. Il est préférable de vérifier les horaires ou de convenir d’une visite à l’avance."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro del paese di Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dall’insediamento preistorico a Uhorská Ves",
+          "text": "Il territorio dell’attuale Záhorská Ves è abitato fin dalla preistoria. La storia comunale segnala tracce di diversi gruppi culturali preistorici, oltre a insediamenti romano-germanici e slavi dell’epoca della Grande Moravia. La prima attestazione scritta risale al 1301, con il nome di Magyarfalu. Nel XVI secolo vi si stabilirono coloni croati e nel villaggio funzionava anche una stazione tricesimale, un ufficio doganale ungherese che riscuoteva un trentesimo del valore delle merci. Dal 1º gennaio 1949 il comune porta il nome di Záhorská Ves; in precedenza si chiamava Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Due chiese di San Michele e le radici barocche della parrocchia",
+          "text": "La prima chiesa locale fu costruita nel 1678 in stile barocco, a navata unica, e dedicata a san Michele arcangelo e a santa Caterina. Sorgeva nella zona di Zákostelí e servì i fedeli per circa 260 anni. Dopo il crollo del coro durante il Natale del 1937, fu demolita per motivi di sicurezza nel 1938. Gli arredi furono trasferiti nella nuova chiesa costruita tra il 1939 e il 1940, circa mezzo chilometro più in là, nel centro del paese. Consacrata il 15 agosto 1940, mantenne le dedicazioni a san Michele e a santa Caterina, compatrona della parrocchia. Le feste patronali locali sono legate alle ricorrenze di entrambi i santi."
+        },
+        {
+          "id": "fact_003",
+          "title": "La zuccherificio di Max Löw-Beer e il collegamento industriale sulla Morava",
+          "text": "Nel 1870 Max Löw-Beer fondò uno zuccherificio sulle rive della Morava, nell’allora villaggio di Uhorská Ves. La prima campagna produttiva iniziò già nell’autunno dello stesso anno. Lo stabilimento divenne uno dei maggiori zuccherifici dell’Europa centrale e trasformò la vita locale: diede lavoro agli abitanti e a persone dei dintorni e favorì la coltivazione della barbabietola da zucchero. Una ferrovia elettrificata a scartamento ridotto attraversava un ponte di legno e collegava la fabbrica con Angern, in Austria. La barbabietola arrivava lungo questa linea e lo zucchero partiva nella direzione opposta. La produzione terminò nel 1949. Un camino dell’ex zuccherificio è ancora registrato nelle mappe."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il ponte sulla Morava, l’antica via commerciale e il traghetto odierno",
+          "text": "La posizione di Záhorská Ves sul fiume di confine Morava collegava da secoli il villaggio alla sponda austriaca. Le fonti storiche ricordano un antico traghetto e un ponte di legno verso Angern. Il ponte fu distrutto e ricostruito più volte e, durante la Seconda guerra mondiale, venne fatto saltare dalle truppe tedesche in ritirata. Oggi un traghetto trasporta veicoli e passeggeri tra Záhorská Ves e Angern an der March. Il servizio dipende dal livello dell’acqua della Morava e può essere sospeso in caso di piena. È un collegamento transfrontaliero pratico e un simbolo caratteristico della vita sul confine."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp, cantante lirica di fama internazionale nata a Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), una delle più importanti soprano slovacche del XX secolo, nacque il 12 novembre 1939 a Uhorská Ves, oggi Záhorská Ves. Dopo gli studi a Bratislava debuttò all’Opera di Stato di Vienna come Regina della Notte nel Flauto magico di Mozart e in seguito si esibì nei principali teatri d’opera europei e a New York. Tra i riconoscimenti ricevuti figurano l’appartenenza onoraria all’Opera di Stato di Vienna e il titolo di Kammersängerin. Una targa commemorativa sulla sua casa natale e la strada che porta il suo nome ne conservano la memoria; il comune la ricorda anche con concerti."
+        },
+        {
+          "id": "fact_006",
+          "title": "La pianura alluvionale della Morava: zone umide, boschi ripariali e uccelli rari",
+          "text": "Záhorská Ves si trova nella pianura alluvionale del fiume Morava. I suoi rami fluviali, le zone umide, le paludi, i prati umidi e i boschi ripariali costituiscono uno degli ambienti ecologicamente preziosi della valle della Morava. Il sito Natura 2000 Morava, di importanza europea, comprende anche il territorio catastale del comune. La tutela riguarda tra l’altro gli uccelli degli ambienti umidi e acquatici, come il tarabuso, il re di quaglie, il tarabusino e il nibbio reale. La pagina naturalistica comunale segnala inoltre nibbi nei boschi comunali e tracce del castoro europeo lungo i rami morti e le rive."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il Museo Uhranské – la memoria di un villaggio di confine",
+          "text": "Il Museo Uhranské è stato inaugurato il 4 ottobre 2008 nei locali dell’ex dogana al confine tra Slovacchia e Austria. È nato grazie all’associazione culturale locale Uhranská perla e all’ampio lavoro del cronista comunale Oto Šimkovič, che ha raccolto fotografie, documenti e ricordi degli abitanti da archivi, registri parrocchiali e collezioni familiari. L’esposizione racconta la storia del villaggio e la vita quotidiana dei suoi abitanti. Il museo conserva così la memoria locale dell’antica Uhorská Ves e del suo contesto transfrontaliero. È consigliabile verificare gli orari o concordare la visita in anticipo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dorpscentrum van Záhorská Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van prehistorische bewoning tot Uhorská Ves",
+          "text": "Het gebied van het huidige Záhorská Ves werd al in de prehistorie bewoond. De gemeentelijke geschiedschrijving vermeldt sporen van verschillende prehistorische culturen en van Romeins-Germaanse en Slavische bewoning uit de tijd van Groot-Moravië. De eerste schriftelijke vermelding dateert uit 1301, onder de naam Magyarfalu. In de 16e eeuw vestigden zich hier Kroatische kolonisten; het dorp had ook een tricesima-post, een Hongaarse douanepost die een dertigste van de goederenwaarde inde. Sinds 1 januari 1949 heet de gemeente Záhorská Ves; daarvoor was de naam Uhorská Ves."
+        },
+        {
+          "id": "fact_002",
+          "title": "Twee kerken van Sint-Michaël en de barokke wortels van de parochie",
+          "text": "De eerste plaatselijke kerk werd in 1678 gebouwd als eenbeukige barokkerk, gewijd aan de aartsengel Michaël en de heilige Catharina. Ze stond in het deel Zákostelí en diende de gelovigen ongeveer 260 jaar. Nadat het koor tijdens Kerstmis 1937 instortte, werd de kerk in 1938 om veiligheidsredenen afgebroken. Het interieur werd later overgebracht naar een nieuwe kerk die in 1939–1940 ongeveer een halve kilometer verderop in het dorpscentrum werd gebouwd. De nieuwe kerk werd op 15 augustus 1940 ingewijd en behield de patroonheiligen Michaël en Catharina; Catharina is medepatrones van de parochie. De plaatselijke kerkelijke feesten zijn verbonden met de feestdagen van beide heiligen."
+        },
+        {
+          "id": "fact_003",
+          "title": "De suikerfabriek van Max Löw-Beer en de industriële verbinding over de Morava",
+          "text": "Max Löw-Beer stichtte in 1870 een suikerfabriek aan de oever van de Morava, in het toenmalige dorp Uhorská Ves. De eerste productiecampagne begon al in de herfst van dat jaar. De fabriek groeide uit tot een van de grootste suikerfabrieken van Midden-Europa en veranderde het lokale leven: ze bood werk aan inwoners en mensen uit de omgeving en stimuleerde de teelt van suikerbieten. Een geëlektrificeerde smalspoorlijn liep over een houten brug naar het Oostenrijkse Angern. Via deze lijn werden bieten aangevoerd en suiker in omgekeerde richting vervoerd. De productie eindigde in 1949. Een schoorsteen van de voormalige suikerfabriek staat nog op kaarten geregistreerd."
+        },
+        {
+          "id": "fact_004",
+          "title": "De brug over de Morava, de oude handelsroute en de huidige veerpont",
+          "text": "Door de ligging aan de grensrivier Morava was Záhorská Ves eeuwenlang verbonden met de Oostenrijkse oever. Historische bronnen vermelden een oudere veerdienst en een houten brug richting Angern. De brug werd meermaals verwoest en herbouwd en tijdens de Tweede Wereldoorlog door terugtrekkende Duitse troepen opgeblazen. Tegenwoordig vervoert een veerpont voertuigen en passagiers tussen Záhorská Ves en Angern an der March. De dienst is afhankelijk van de waterstand van de Morava en kan bij hoogwater worden stilgelegd. De pont is zowel een praktische grensverbinding als een herkenbaar symbool van het leven aan de grens."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lucia Popp – internationaal gevierde operazangeres uit Uhorská Ves",
+          "text": "Lucia Popp (1939–1993), een van de belangrijkste Slowaakse sopranen van de twintigste eeuw, werd op 12 november 1939 geboren in Uhorská Ves, het huidige Záhorská Ves. Na haar studie in Bratislava debuteerde ze bij de Weense Staatsopera als de Koningin van de Nacht in Mozarts Die Zauberflöte en trad ze later op in toonaangevende operahuizen in Europa en New York. Tot haar onderscheidingen behoorden het erelidmaatschap van de Weense Staatsopera en de titel Kammersängerin. Een gedenkplaat op haar geboortehuis en de naar haar genoemde straat houden haar herinnering levend; de gemeente eert haar ook met concerten."
+        },
+        {
+          "id": "fact_006",
+          "title": "De uiterwaarden van de Morava: wetlands, ooibossen en zeldzame vogels",
+          "text": "Záhorská Ves ligt in het overstromingsgebied van de rivier de Morava. De rivierarmen, wetlands, moerassen, natte graslanden en ooibossen vormen een ecologisch waardevol landschap in het Moravadal. Het Natura 2000-gebied Morava, van Europees belang, omvat ook het kadastrale gebied van de gemeente. De bescherming richt zich onder meer op vogels van wetlands en watergebieden, zoals de roerdomp, het kleinst waterhoen, de woudaap en de rode wouw. De natuurpagina van de gemeente vermeldt daarnaast wouwen in het gemeentebos en sporen van de Europese bever langs afgesneden rivierarmen en oevers."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het Uhranské Museum – het geheugen van een grensdorp",
+          "text": "Het Uhranské Museum opende op 4 oktober 2008 in het voormalige douanekantoor aan de Slowaaks-Oostenrijkse grens. Het kwam tot stand dankzij de plaatselijke culturele vereniging Uhranská perla en het omvangrijke werk van gemeentekroniekschrijver Oto Šimkovič, die foto’s, documenten en herinneringen van inwoners verzamelde uit archieven, parochieregisters en familiecollecties. De tentoonstelling documenteert de geschiedenis van het dorp en het dagelijks leven van de bewoners. Zo bewaart het museum de lokale herinnering aan het vroegere Uhorská Ves en zijn grensoverschrijdende omgeving. Controleer de openingstijden of spreek een bezoek vooraf af."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
