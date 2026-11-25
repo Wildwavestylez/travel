@@ -1,4 +1,431 @@
 {
   "postcode": "90062",
-  "status": "placeholder"
+  "city": "Kostolište",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Kostel svatého Martina v Kostolišti",
+  "representative_point": {
+    "lat": 48.447247741,
+    "lon": 16.987175345
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kostolište – rozsáhlé germánské sídliště Malý Laz a římské importy",
+      "text": "V katastru Kostolišťa leželo na terasách podél potoka Malina rozsáhlé germánské sídliště Malý Laz, jehož osídlená plocha dosahovala přibližně 20 hektarů. Archeologický výzkum a povrchové sběry dokládají osídlení od 1. do 4. století n. l. a výrazné kontakty s římským světem: mezi nálezy jsou mince, bronzové nádoby, spony a dovážená keramika terra sigillata. Zvlášť pozoruhodný je aureus císaře Vespasiana ražený pro Tita a část držadla římského džbánu zakončená reliéfem vojenské sandály caliga. Asi 4–5 kilometrů severněji leželo další germánské sídliště Vŕšok s desítkami zahloubených domů; v jednom zkoumaném objektu se našla část železné přilby a kroužkového brnění.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.snm.sk/swift_data/source/archeologicke_muzeum/zborniky/z32/8-Elschek-Sedlmayer.pdf?6422a406b7ee6="
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Od pravěku k ranému středověku – archeologické stopy v Kostolišti",
+      "text": "Archeologické nálezy v Kostolišti zachycují několik odlišných období osídlení. Obecní historický přehled uvádí nálezy z doby bronzové a keltské osídlení, mimo jiné kruhové zásobní jámy objevené při stavbách domů. Zvlášť výrazný je nález raně středověkého pohřebiště ze 7.–9. století: při kopání sklepa byl objeven hrob bojovníka s bohatě zdobeným mečem v pochvě, popelnice a další předměty. Nálezy byly předány Slovenskému národnímu muzeu v Bratislavě. Tato svědectví doplňují obraz území, které bylo součástí dlouhodobě osídlené krajiny Záhoří.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.kostoliste.sk/obec-1/historia-obce/"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel svatého Martina – gotické jádro a barokní proměny",
+      "text": "Kostel svatého Martina stojí na vyvýšeném místě v Kostolišti a jeho počátky sahají do gotického období. Místní farnost je doložena k roku 1397 a samotný chrám se objevuje v písemných pramenech roku 1503. V 17. století prošel výraznou renesanční přestavbou, při níž byla zaklenuta loď i polygonální presbytář a na jižní straně přibyla věž. V 18. století se upravoval interiér; věž musela být roku 1775 opravena po zásahu bleskem. Z původní gotické stavby se podle odborného popisu zachovaly části obvodových zdí, okna presbytáře a opěrné pilíře. Na hlavním oltáři je obraz svatého Martina na koni od místního rodáka Martina Benky. Kostel je národní kulturní památkou a jeho podoba se dostala i do obecního erbu.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "https://login.apsida.sk/c/1760/kostoliste",
+        "https://www.pamiatkynaslovensku.sk/kostoliste-kostol-sv-martina",
+        "https://www.kostoliste.sk/obec-1/-martin-benka/"
+      ],
+      "location": {
+        "name": "Kostol sv. Martina z Tours",
+        "address": "Hlavná 316/91, 900 62 Kostolište, Slovakia",
+        "lat": 48.447247741,
+        "lon": 16.987175345,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://login.apsida.sk/c/1760/kostoliste"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Martin Benka – malíř, který se narodil jako Martin Kiripolec",
+      "text": "Martin Benka (1888–1971), jedna ze zakladatelských osobností moderního slovenského výtvarného umění, se narodil 21. září 1888 v Kiripolci, dnešním Kostolišti. V rodné obci chodil do školy a jeho umělecká dráha vedla přes Hodonín, Vídeň a krajinářskou školu Aloise Kalvody v Praze. Benka se proslavil monumentálně pojatými obrazy slovenské krajiny a lidí, věnoval se také ilustraci, grafice a návrhům užitého umění. Jeho vztah ke Kostolišti zůstal živý: v místním kostele je jeho obraz svatého Martina a v budově společenského domu vznikla za jeho života pamětní místnost. Sám navíc nakreslil figurální výzdobu na průčelí kulturního domu.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "https://www.kostoliste.sk/obec-1/-martin-benka/",
+        "https://www.kostoliste.sk/obec-1/pamatna-izba-martina-benku/",
+        "https://www.kostoliste.sk/obec-1/-spolocensky-dom/"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kiripolec, Kykrillen a Kostolište – proměny jména obce",
+      "text": "Dnešní Kostolište se v historických pramenech objevuje pod několika podobami jména. Obecní historický přehled spojuje nejstarší zprávu z roku 1206 s širším územím u potoka Malina; listina z roku 1271 pak uvádí louku „pratum Kilpiruis“, kterou místní výklad ztotožňuje s územím někdejší osady. V listinách z let 1342 a 1373 se objevuje podoba Kykrillen či Kikrillen, později varianty Kirchle, Kyrihporcz a Kiripolcz. Jméno Kiripolec se udrželo až do roku 1948, kdy byla obec přejmenována na Kostolište. V roce 1963 žádali obyvatelé i malíř Martin Benka o návrat k názvu Kiripolec, úřady to však nepovolily.",
+      "category": "local_story",
+      "priority": "C",
+      "sources": [
+        "https://www.kostoliste.sk/obec-1/historia-obce/"
+      ],
+      "location": {
+        "name": "Kostol sv. Martina – orientační bod historického jádra obce",
+        "address": "Hlavná 316/91, 900 62 Kostolište, Slovakia",
+        "lat": 48.447247741,
+        "lon": 16.987175345,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://login.apsida.sk/c/1760/kostoliste"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_006",
+      "title": "Konec války v Kostolišti – střetnutí 5. dubna 1945",
+      "text": "Při přechodu fronty se 5. dubna 1945 v Kostolišti střetly sovětské a německé jednotky. Podle obecního historického přehledu padlo při bojích osm sovětských a devět německých vojáků; žádný místní obyvatel tehdy nezahynul. Ustupující německá armáda zapálila přibližně osmdesát hospodářských stodol a dělostřelecká palba poškodila také kostel svatého Martina, zejména jeho věž a střechu. Událost připomíná, že i obce mimo hlavní frontové linie nesly na konci druhé světové války přímé následky bojů.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.kostoliste.sk/obec-1/historia-obce/"
+      ],
+      "location": {
+        "name": "Kostol sv. Martina – objekt poškozený při bojích",
+        "address": "Hlavná 316/91, 900 62 Kostolište, Slovakia",
+        "lat": 48.447247741,
+        "lon": 16.987175345,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://login.apsida.sk/c/1760/kostoliste"
+      },
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – official PSČ search portal (https://www.posta.sk/psc) consulted. The dynamic query result was not retained; the specific geographic address/code pairing is corroborated by the municipality's official address (Kostolište 900 62) and the official ÚVO profile of Obec Kostolište, which lists the same locality and postcode. No postal polygon or complete delivery-boundary claim is made.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Official Slovenská pošta PSČ search portal; municipal address and ÚVO corroboration",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-25",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Kostolište official municipal information; official municipality profile confirms Bratislavský kraj and okres Malacky. The representative point is the documented church GPS point. No authoritative postal polygon was established."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kostolište – O obci",
+      "url": "https://www.kostoliste.sk/obec-1/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kostolište – História obce",
+      "url": "https://www.kostoliste.sk/obec-1/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "K. Elschek – H. Sedlmayer, In caliga militari (Zborník SNM – Archeológia 32, 2022)",
+      "url": "https://www.snm.sk/swift_data/source/archeologicke_muzeum/zborniky/z32/8-Elschek-Sedlmayer.pdf?6422a406b7ee6=",
+      "type": "museum"
+    },
+    {
+      "title": "Apsida – Kostolište: Kostol sv. Martina",
+      "url": "https://login.apsida.sk/c/1760/kostoliste",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostolište: Kostol sv. Martina",
+      "url": "https://www.pamiatkynaslovensku.sk/kostoliste-kostol-sv-martina",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Kostolište – Martin Benka",
+      "url": "https://www.kostoliste.sk/obec-1/-martin-benka/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kostolište – Pamätná izba Martina Benku",
+      "url": "https://www.kostoliste.sk/obec-1/pamatna-izba-martina-benku/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Kostolište – Spoločenský dom",
+      "url": "https://www.kostoliste.sk/obec-1/-spolocensky-dom/",
+      "type": "official"
+    },
+    {
+      "title": "Úrad pre verejné obstarávanie – Profil obstarávateľa: Obec Kostolište",
+      "url": "https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-profilov/detail/4133",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel svatého Martina v Kostolišti",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – rozsáhlé germánské sídliště Malý Laz a římské importy",
+          "text": "V katastru Kostolišťa leželo na terasách podél potoka Malina rozsáhlé germánské sídliště Malý Laz, jehož osídlená plocha dosahovala přibližně 20 hektarů. Archeologický výzkum a povrchové sběry dokládají osídlení od 1. do 4. století n. l. a výrazné kontakty s římským světem: mezi nálezy jsou mince, bronzové nádoby, spony a dovážená keramika terra sigillata. Zvlášť pozoruhodný je aureus císaře Vespasiana ražený pro Tita a část držadla římského džbánu zakončená reliéfem vojenské sandály caliga. Asi 4–5 kilometrů severněji leželo další germánské sídliště Vŕšok s desítkami zahloubených domů; v jednom zkoumaném objektu se našla část železné přilby a kroužkového brnění."
+        },
+        {
+          "id": "fact_002",
+          "title": "Od pravěku k ranému středověku – archeologické stopy v Kostolišti",
+          "text": "Archeologické nálezy v Kostolišti zachycují několik odlišných období osídlení. Obecní historický přehled uvádí nálezy z doby bronzové a keltské osídlení, mimo jiné kruhové zásobní jámy objevené při stavbách domů. Zvlášť výrazný je nález raně středověkého pohřebiště ze 7.–9. století: při kopání sklepa byl objeven hrob bojovníka s bohatě zdobeným mečem v pochvě, popelnice a další předměty. Nálezy byly předány Slovenskému národnímu muzeu v Bratislavě. Tato svědectví doplňují obraz území, které bylo součástí dlouhodobě osídlené krajiny Záhoří."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel svatého Martina – gotické jádro a barokní proměny",
+          "text": "Kostel svatého Martina stojí na vyvýšeném místě v Kostolišti a jeho počátky sahají do gotického období. Místní farnost je doložena k roku 1397 a samotný chrám se objevuje v písemných pramenech roku 1503. V 17. století prošel výraznou renesanční přestavbou, při níž byla zaklenuta loď i polygonální presbytář a na jižní straně přibyla věž. V 18. století se upravoval interiér; věž musela být roku 1775 opravena po zásahu bleskem. Z původní gotické stavby se podle odborného popisu zachovaly části obvodových zdí, okna presbytáře a opěrné pilíře. Na hlavním oltáři je obraz svatého Martina na koni od místního rodáka Martina Benky. Kostel je národní kulturní památkou a jeho podoba se dostala i do obecního erbu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – malíř, který se narodil jako Martin Kiripolec",
+          "text": "Martin Benka (1888–1971), jedna ze zakladatelských osobností moderního slovenského výtvarného umění, se narodil 21. září 1888 v Kiripolci, dnešním Kostolišti. V rodné obci chodil do školy a jeho umělecká dráha vedla přes Hodonín, Vídeň a krajinářskou školu Aloise Kalvody v Praze. Benka se proslavil monumentálně pojatými obrazy slovenské krajiny a lidí, věnoval se také ilustraci, grafice a návrhům užitého umění. Jeho vztah ke Kostolišti zůstal živý: v místním kostele je jeho obraz svatého Martina a v budově společenského domu vznikla za jeho života pamětní místnost. Sám navíc nakreslil figurální výzdobu na průčelí kulturního domu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen a Kostolište – proměny jména obce",
+          "text": "Dnešní Kostolište se v historických pramenech objevuje pod několika podobami jména. Obecní historický přehled spojuje nejstarší zprávu z roku 1206 s širším územím u potoka Malina; listina z roku 1271 pak uvádí louku „pratum Kilpiruis“, kterou místní výklad ztotožňuje s územím někdejší osady. V listinách z let 1342 a 1373 se objevuje podoba Kykrillen či Kikrillen, později varianty Kirchle, Kyrihporcz a Kiripolcz. Jméno Kiripolec se udrželo až do roku 1948, kdy byla obec přejmenována na Kostolište. V roce 1963 žádali obyvatelé i malíř Martin Benka o návrat k názvu Kiripolec, úřady to však nepovolily."
+        },
+        {
+          "id": "fact_006",
+          "title": "Konec války v Kostolišti – střetnutí 5. dubna 1945",
+          "text": "Při přechodu fronty se 5. dubna 1945 v Kostolišti střetly sovětské a německé jednotky. Podle obecního historického přehledu padlo při bojích osm sovětských a devět německých vojáků; žádný místní obyvatel tehdy nezahynul. Ustupující německá armáda zapálila přibližně osmdesát hospodářských stodol a dělostřelecká palba poškodila také kostel svatého Martina, zejména jeho věž a střechu. Událost připomíná, že i obce mimo hlavní frontové linie nesly na konci druhé světové války přímé následky bojů."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Kirche St. Martin in Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – die große germanische Siedlung Malý Laz und römische Importe",
+          "text": "Im Gemeindegebiet von Kostolište lag auf Terrassen entlang des Baches Malina die große germanische Siedlung Malý Laz mit einer besiedelten Fläche von etwa 20 Hektar. Funde belegen eine Besiedlung vom 1. bis zum 4. Jahrhundert n. Chr. und Kontakte zur römischen Welt: Münzen, Bronzegefäße, Fibeln und importierte Terra-Sigillata-Keramik. Bemerkenswert sind ein Aureus Vespasians für Titus und ein Teil eines römischen Krughenkels mit dem Relief einer Militärsandale (caliga). Etwa vier bis fünf Kilometer nördlich lag die Siedlung Vŕšok mit Dutzenden Grubenhäusern; dort wurden Teile eines eisernen Helms und eines Kettenhemds gefunden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Von der Vorgeschichte zum Frühmittelalter – archäologische Spuren",
+          "text": "Funde in Kostolište belegen mehrere Siedlungsperioden. Die Gemeindegeschichte nennt Bronzezeitfunde und keltische Besiedlung, darunter runde Vorratsgruben, die bei Bauarbeiten entdeckt wurden. Besonders bemerkenswert ist ein frühmittelalterliches Gräberfeld aus dem 7. bis 9. Jahrhundert: Beim Ausheben eines Kellers wurde das Grab eines Kriegers mit einem verzierten Schwert in der Scheide, einer Urne und weiteren Gegenständen entdeckt. Die Funde wurden dem Slowakischen Nationalmuseum in Bratislava übergeben."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kirche des heiligen Martin – gotischer Kern und spätere Umbauten",
+          "text": "Die Kirche des heiligen Martin steht auf einer Anhöhe in Kostolište und geht auf die Gotik zurück. Die Pfarrei ist 1397 belegt, die Kirche selbst erscheint 1503 in schriftlichen Quellen. Im 17. Jahrhundert wurde sie umfassend im Stil der Renaissance umgebaut: Schiff und polygonaler Chor erhielten Gewölbe, an der Südseite kam ein Turm hinzu. Im 18. Jahrhundert wurde der Innenraum verändert; 1775 musste der Turm nach einem Blitzschlag repariert werden. Teile der gotischen Außenmauern, Chorfenster und Strebepfeiler sind erhalten. Auf dem Hauptaltar befindet sich ein Bild des heiligen Martin zu Pferd von Martin Benka. Die Kirche ist ein nationales Kulturdenkmal und erscheint im Gemeindewappen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – der Maler, der als Martin Kiripolec geboren wurde",
+          "text": "Martin Benka (1888–1971), eine prägende Persönlichkeit der modernen slowakischen Kunst, wurde am 21. September 1888 in Kiripolec, dem heutigen Kostolište, geboren. Er besuchte die Schule im Heimatort; seine Ausbildung führte ihn über Hodonín und Wien an die Landschaftsmalerschule von Alois Kalvoda in Prag. Bekannt wurde er durch monumentale Darstellungen slowakischer Landschaften und Menschen; außerdem arbeitete er als Illustrator und Grafiker. In Kostolište befinden sich sein Bild des heiligen Martin in der Kirche und ein noch zu seinen Lebzeiten eingerichteter Gedenkraum im Gemeindehaus. Auch die figürliche Fassadengestaltung des Kulturhauses stammt von ihm."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen und Kostolište – wechselnde Ortsnamen",
+          "text": "Das heutige Kostolište erscheint in historischen Quellen unter mehreren Namensformen. Die Gemeindegeschichte verbindet eine Nachricht von 1206 mit dem weiteren Gebiet am Bach Malina; eine Urkunde von 1271 nennt die Wiese „pratum Kilpiruis“, die lokal mit dem Gebiet der früheren Siedlung verbunden wird. Urkunden von 1342 und 1373 verwenden Formen wie Kykrillen oder Kikrillen, später folgen Kirchle, Kyrihporcz und Kiripolcz. Der Name Kiripolec blieb bis 1948 bestehen, als die Gemeinde in Kostolište umbenannt wurde. 1963 setzten sich Einwohner und Martin Benka für die Rückkehr zum Namen Kiripolec ein, doch die Behörden lehnten dies ab."
+        },
+        {
+          "id": "fact_006",
+          "title": "Das Kriegsende in Kostolište – Gefecht am 5. April 1945",
+          "text": "Am 5. April 1945 stießen sowjetische und deutsche Truppen in Kostolište aufeinander. Laut Gemeindegeschichte fielen acht sowjetische und neun deutsche Soldaten; kein Einwohner kam ums Leben. Die zurückweichende deutsche Armee setzte etwa achtzig Wirtschaftsgebäude in Brand, und Artilleriebeschuss beschädigte auch die Kirche des heiligen Martin, insbesondere Turm und Dach."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Church of St Martin in Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – the large Germanic settlement of Malý Laz and Roman imports",
+          "text": "Within Kostolište, the large Germanic settlement of Malý Laz occupied terraces along the Malina stream and covered about 20 hectares. Finds document occupation from the 1st to the 4th century AD and strong contacts with the Roman world: coins, bronze vessels, brooches and imported terra sigillata pottery. Notable finds include an aureus of Vespasian struck for Titus and part of a Roman jug handle decorated with a military sandal (caliga). About four to five kilometres north lay another settlement, Vŕšok, with dozens of sunken-featured buildings; parts of an iron helmet and chain mail were found there."
+        },
+        {
+          "id": "fact_002",
+          "title": "From prehistory to the early Middle Ages – archaeological traces",
+          "text": "Finds in Kostolište point to several periods of settlement. The municipal history mentions Bronze Age finds and Celtic occupation, including circular storage pits discovered during house construction. A notable discovery is an early medieval burial ground from the 7th to 9th century: a cellar excavation uncovered a warrior's grave with an ornate sword in its scabbard, an urn and other objects. The finds were handed over to the Slovak National Museum in Bratislava."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of St Martin – a Gothic core reshaped over time",
+          "text": "The Church of St Martin stands on elevated ground in Kostolište and has Gothic origins. The parish is documented in 1397, while the church appears in written records in 1503. In the 17th century it underwent a major Renaissance rebuilding: the nave and polygonal sanctuary were vaulted and a tower was added on the south side. The interior was altered in the 18th century; in 1775 the tower was repaired after a lightning strike. Parts of the Gothic outer walls, sanctuary windows and buttresses survive. The main altar bears an image of St Martin on horseback by Martin Benka. The church is a national cultural monument and appears in the municipal coat of arms."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – the painter born as Martin Kiripolec",
+          "text": "Martin Benka (1888–1971), a leading figure in modern Slovak art, was born on 21 September 1888 in Kiripolec, now Kostolište. He attended school locally; his artistic training took him through Hodonín and Vienna to Alois Kalvoda's landscape-painting school in Prague. He became known for monumental paintings of Slovak landscapes and people, and also worked as an illustrator and graphic artist. Kostolište retains his painting of St Martin in the church and a memorial room established in the community hall during his lifetime. He also designed the figurative decoration on the cultural centre's façade."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen and Kostolište – changing village names",
+          "text": "Present-day Kostolište appears in historical records under several names. The municipal history associates a notice from 1206 with the wider area around the Malina stream; a 1271 charter mentions a meadow called “pratum Kilpiruis”, locally connected with the former settlement. Documents from 1342 and 1373 use forms such as Kykrillen or Kikrillen, followed by Kirchle, Kyrihporcz and Kiripolcz. Kiripolec remained in use until 1948, when the village was renamed Kostolište. In 1963 residents and Martin Benka asked to restore the name Kiripolec, but the authorities refused."
+        },
+        {
+          "id": "fact_006",
+          "title": "The end of the war in Kostolište – fighting on 5 April 1945",
+          "text": "Soviet and German troops clashed in Kostolište on 5 April 1945. According to the municipal history, eight Soviet and nine German soldiers were killed; no local resident died. The retreating German army set about eighty farm barns on fire, and artillery damaged the Church of St Martin, particularly its tower and roof."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Martín en Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – el gran asentamiento germano de Malý Laz y las importaciones romanas",
+          "text": "En el término de Kostolište, el asentamiento germano de Malý Laz ocupaba terrazas junto al arroyo Malina y abarcaba unas 20 hectáreas. Los hallazgos documentan su ocupación entre los siglos I y IV d. C. y sus contactos con el mundo romano: monedas, recipientes de bronce, fíbulas y terra sigillata importada. Destacan un áureo de Vespasiano acuñado para Tito y parte del asa de una jarra romana decorada con una sandalia militar (caliga). A cuatro o cinco kilómetros al norte se encontraba otro asentamiento, Vŕšok, con decenas de viviendas semisubterráneas; allí aparecieron partes de un casco de hierro y una cota de malla."
+        },
+        {
+          "id": "fact_002",
+          "title": "De la prehistoria a la Alta Edad Media: huellas arqueológicas",
+          "text": "Los hallazgos de Kostolište muestran varias etapas de poblamiento. La historia municipal menciona vestigios de la Edad del Bronce y presencia celta, incluidas fosas circulares de almacenamiento descubiertas durante obras. Un hallazgo notable es una necrópolis altomedieval de los siglos VII–IX: al excavar un sótano apareció la tumba de un guerrero con una espada ornamentada en su vaina, una urna y otros objetos. Los hallazgos fueron entregados al Museo Nacional Eslovaco de Bratislava."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Martín: un núcleo gótico transformado",
+          "text": "La iglesia de San Martín se alza en un punto elevado de Kostolište y tiene orígenes góticos. La parroquia está documentada en 1397 y el templo aparece en fuentes escritas en 1503. En el siglo XVII fue reconstruida en estilo renacentista: se abovedaron la nave y el presbiterio poligonal y se añadió una torre al sur. En el siglo XVIII se modificó el interior; en 1775 la torre fue reparada tras la caída de un rayo. Se conservan partes de los muros góticos, ventanas del presbiterio y contrafuertes. El altar mayor alberga una imagen de San Martín a caballo de Martin Benka. La iglesia es monumento cultural nacional y aparece en el escudo municipal."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka, el pintor nacido como Martin Kiripolec",
+          "text": "Martin Benka (1888–1971), figura destacada del arte moderno eslovaco, nació el 21 de septiembre de 1888 en Kiripolec, hoy Kostolište. Estudió en su localidad natal y su formación artística pasó por Hodonín y Viena antes de llegar a la escuela de paisaje de Alois Kalvoda en Praga. Se hizo conocido por sus pinturas monumentales de paisajes y habitantes de Eslovaquia; también fue ilustrador y artista gráfico. En Kostolište se conservan su pintura de San Martín en la iglesia y una sala conmemorativa creada en vida del artista en el centro comunitario. También diseñó la decoración figurativa de la fachada del centro cultural."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen y Kostolište: nombres cambiantes",
+          "text": "La actual Kostolište aparece en documentos históricos con varias formas de su nombre. La historia municipal relaciona una noticia de 1206 con la zona más amplia junto al arroyo Malina; un documento de 1271 menciona un prado llamado «pratum Kilpiruis», vinculado localmente con el antiguo asentamiento. Los documentos de 1342 y 1373 emplean formas como Kykrillen o Kikrillen, seguidas de Kirchle, Kyrihporcz y Kiripolcz. Kiripolec se mantuvo hasta 1948, cuando la localidad pasó a llamarse Kostolište. En 1963, los vecinos y Martin Benka pidieron recuperar el nombre Kiripolec, pero las autoridades lo rechazaron."
+        },
+        {
+          "id": "fact_006",
+          "title": "El final de la guerra en Kostolište: combate del 5 de abril de 1945",
+          "text": "El 5 de abril de 1945 se enfrentaron en Kostolište tropas soviéticas y alemanas. Según la historia municipal, murieron ocho soldados soviéticos y nueve alemanes; ningún vecino perdió la vida. El ejército alemán en retirada incendió unas ochenta granjas y la artillería dañó también la iglesia de San Martín, sobre todo la torre y el tejado."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Martin de Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – le grand habitat germanique de Malý Laz et les importations romaines",
+          "text": "Sur le territoire de Kostolište, l’habitat germanique de Malý Laz occupait les terrasses du ruisseau Malina sur environ 20 hectares. Les découvertes attestent une occupation du Ier au IVe siècle apr. J.-C. et des contacts avec le monde romain : monnaies, récipients en bronze, fibules et céramique terra sigillata importée. Parmi les objets remarquables figurent un aureus de Vespasien frappé pour Titus et une partie de l’anse d’une cruche romaine ornée d’une sandale militaire (caliga). À quatre ou cinq kilomètres au nord se trouvait un autre habitat, Vŕšok, avec des dizaines de maisons semi-enterrées ; des fragments de casque en fer et de cotte de mailles y ont été découverts."
+        },
+        {
+          "id": "fact_002",
+          "title": "De la préhistoire au haut Moyen Âge : traces archéologiques",
+          "text": "Les découvertes de Kostolište témoignent de plusieurs périodes d’occupation. L’histoire communale mentionne des vestiges de l’âge du bronze et une présence celte, notamment des fosses circulaires de stockage découvertes lors de travaux de construction. Une découverte remarquable est une nécropole du haut Moyen Âge des VIIe–IXe siècles : le creusement d’une cave a révélé la tombe d’un guerrier avec une épée décorée dans son fourreau, une urne et d’autres objets. Les trouvailles ont été remises au Musée national slovaque à Bratislava."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église Saint-Martin – un noyau gothique transformé au fil du temps",
+          "text": "L’église Saint-Martin se dresse sur un point élevé de Kostolište et remonte à l’époque gothique. La paroisse est attestée en 1397 et l’église apparaît dans les sources écrites en 1503. Au XVIIe siècle, elle a été reconstruite dans le style Renaissance : la nef et le chœur polygonal ont été voûtés et une tour a été ajoutée au sud. L’intérieur a été remanié au XVIIIe siècle ; en 1775, la tour a été réparée après avoir été frappée par la foudre. Des parties des murs gothiques, des fenêtres du chœur et des contreforts subsistent. Le maître-autel porte une image de saint Martin à cheval peinte par Martin Benka. L’église est un monument culturel national et figure sur les armoiries communales."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – le peintre né sous le nom de Martin Kiripolec",
+          "text": "Martin Benka (1888–1971), figure majeure de l’art moderne slovaque, est né le 21 septembre 1888 à Kiripolec, aujourd’hui Kostolište. Il a fréquenté l’école du village ; sa formation l’a conduit de Hodonín et Vienne à l’école de paysage d’Alois Kalvoda à Prague. Il est devenu célèbre pour ses représentations monumentales des paysages et des habitants de Slovaquie ; il a aussi travaillé comme illustrateur et graphiste. Kostolište conserve son tableau de saint Martin dans l’église et une salle commémorative créée de son vivant dans la maison communautaire. Il a également dessiné le décor figuratif de la façade du centre culturel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen et Kostolište – les noms successifs du village",
+          "text": "L’actuelle commune de Kostolište apparaît dans les documents sous plusieurs formes de nom. L’histoire locale rattache une mention de 1206 à la région du ruisseau Malina ; un acte de 1271 mentionne un pré nommé « pratum Kilpiruis », associé localement à l’ancien village. Les documents de 1342 et 1373 utilisent des formes comme Kykrillen ou Kikrillen, puis Kirchle, Kyrihporcz et Kiripolcz. Le nom Kiripolec est resté en usage jusqu’en 1948, lorsque le village a été renommé Kostolište. En 1963, les habitants et Martin Benka ont demandé le rétablissement du nom Kiripolec, mais les autorités ont refusé."
+        },
+        {
+          "id": "fact_006",
+          "title": "La fin de la guerre à Kostolište – affrontement du 5 avril 1945",
+          "text": "Des troupes soviétiques et allemandes se sont affrontées à Kostolište le 5 avril 1945. Selon l’histoire communale, huit soldats soviétiques et neuf soldats allemands ont été tués ; aucun habitant n’a péri. L’armée allemande en retraite a incendié environ quatre-vingts granges et les tirs d’artillerie ont endommagé l’église Saint-Martin, notamment sa tour et sa toiture."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Martino a Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – il grande insediamento germanico di Malý Laz e le importazioni romane",
+          "text": "Nel territorio di Kostolište, l’insediamento germanico di Malý Laz occupava i terrazzi lungo il torrente Malina per circa 20 ettari. I reperti documentano un’occupazione dal I al IV secolo d.C. e intensi contatti con il mondo romano: monete, recipienti in bronzo, fibule e ceramica terra sigillata importata. Notevoli sono un aureo di Vespasiano coniato per Tito e parte del manico di una brocca romana decorato con una calzatura militare (caliga). Quattro o cinque chilometri più a nord si trovava un altro insediamento, Vŕšok, con decine di abitazioni seminterrate; vi sono stati rinvenuti frammenti di un elmo di ferro e di una cotta di maglia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Dalla preistoria all’alto Medioevo: tracce archeologiche",
+          "text": "I reperti di Kostolište documentano diverse fasi di insediamento. La storia comunale menziona reperti dell’età del Bronzo e una presenza celtica, comprese fosse circolari di stoccaggio scoperte durante lavori edilizi. Una scoperta significativa è una necropoli altomedievale del VII–IX secolo: durante lo scavo di una cantina fu rinvenuta la tomba di un guerriero con una spada decorata nel fodero, un’urna e altri oggetti. I reperti furono consegnati al Museo Nazionale Slovacco di Bratislava."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa di San Martino – un nucleo gotico trasformato nel tempo",
+          "text": "La chiesa di San Martino sorge in posizione elevata a Kostolište e ha origini gotiche. La parrocchia è documentata nel 1397 e la chiesa compare nelle fonti scritte nel 1503. Nel XVII secolo fu ricostruita in stile rinascimentale: furono voltate la navata e il presbiterio poligonale e venne aggiunta una torre sul lato sud. Nel XVIII secolo l’interno fu modificato; nel 1775 la torre fu riparata dopo essere stata colpita da un fulmine. Si conservano parti delle mura gotiche, finestre del presbiterio e contrafforti. L’altare maggiore ospita un’immagine di San Martino a cavallo dipinta da Martin Benka. La chiesa è monumento culturale nazionale e compare nello stemma comunale."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – il pittore nato con il nome di Martin Kiripolec",
+          "text": "Martin Benka (1888–1971), figura di spicco dell’arte moderna slovacca, nacque il 21 settembre 1888 a Kiripolec, oggi Kostolište. Frequentò la scuola nel paese natale e si formò a Hodonín, Vienna e alla scuola di paesaggio di Alois Kalvoda a Praga. Divenne noto per le rappresentazioni monumentali dei paesaggi slovacchi e dei loro abitanti; lavorò anche come illustratore e grafico. A Kostolište si conservano il suo dipinto di San Martino nella chiesa e una sala commemorativa allestita durante la sua vita nella casa comunitaria. Disegnò inoltre la decorazione figurativa della facciata del centro culturale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen e Kostolište – i nomi storici del paese",
+          "text": "L’attuale comune di Kostolište compare nei documenti storici con diverse forme del nome. La storia comunale collega una notizia del 1206 alla zona più ampia presso il torrente Malina; un documento del 1271 cita un prato chiamato «pratum Kilpiruis», collegato localmente al vecchio insediamento. I documenti del 1342 e del 1373 riportano forme come Kykrillen o Kikrillen, seguite da Kirchle, Kyrihporcz e Kiripolcz. Il nome Kiripolec rimase in uso fino al 1948, quando il paese fu rinominato Kostolište. Nel 1963 gli abitanti e Martin Benka chiesero di ripristinare il nome Kiripolec, ma le autorità respinsero la richiesta."
+        },
+        {
+          "id": "fact_006",
+          "title": "La fine della guerra a Kostolište – scontro del 5 aprile 1945",
+          "text": "Il 5 aprile 1945 a Kostolište si scontrarono truppe sovietiche e tedesche. Secondo la storia comunale morirono otto soldati sovietici e nove tedeschi; nessun abitante perse la vita. L’esercito tedesco in ritirata incendiò circa ottanta fienili e l’artiglieria danneggiò anche la chiesa di San Martino, soprattutto la torre e il tetto."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Martinuskerk in Kostolište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kostolište – de grote Germaanse nederzetting Malý Laz en Romeinse importen",
+          "text": "Binnen het grondgebied van Kostolište lag de grote Germaanse nederzetting Malý Laz op terrassen langs de beek Malina. Het bewoonde gebied besloeg ongeveer 20 hectare. Vondsten tonen bewoning van de 1e tot en met de 4e eeuw na Chr. en contacten met de Romeinse wereld: munten, bronzen vaatwerk, mantelspelden en geïmporteerd terra sigillata-aardewerk. Bijzonder zijn een aureus van Vespasianus, geslagen voor Titus, en een deel van een Romeins kruikoor met een militaire sandaal (caliga). Vier à vijf kilometer noordelijker lag de nederzetting Vŕšok met tientallen ingegraven huizen; daar zijn delen van een ijzeren helm en maliënkolder gevonden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Van de prehistorie tot de vroege middeleeuwen – archeologische sporen",
+          "text": "Vondsten in Kostolište wijzen op verschillende perioden van bewoning. De gemeentelijke geschiedschrijving vermeldt vondsten uit de bronstijd en Keltische aanwezigheid, waaronder ronde voorraadkuilen die bij bouwwerkzaamheden zijn ontdekt. Een bijzondere vondst is een vroegmiddeleeuws grafveld uit de 7e tot en met de 9e eeuw: bij het uitgraven van een kelder werd het graf van een krijger gevonden met een versierd zwaard in de schede, een urn en andere voorwerpen. De vondsten zijn overgedragen aan het Slowaaks Nationaal Museum in Bratislava."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sint-Martinuskerk – een gotische kern met latere verbouwingen",
+          "text": "De Sint-Martinuskerk staat op een hoger gelegen plek in Kostolište en vindt haar oorsprong in de gotische periode. De parochie wordt al in 1397 vermeld; de kerk zelf komt voor in schriftelijke bronnen uit 1503. In de 17e eeuw volgde een ingrijpende renaissanceverbouwing: het schip en het veelhoekige priesterkoor kregen gewelven en aan de zuidzijde kwam een toren. In de 18e eeuw werd het interieur aangepast; in 1775 werd de toren hersteld nadat de bliksem was ingeslagen. Delen van de gotische buitenmuren, koorramen en steunberen zijn bewaard gebleven. Op het hoofdaltaar staat een afbeelding van Sint-Maarten te paard van Martin Benka. De kerk is een nationaal cultureel monument en staat op het gemeentewapen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Benka – de schilder die als Martin Kiripolec werd geboren",
+          "text": "Martin Benka (1888–1971), een belangrijke figuur in de moderne Slowaakse kunst, werd op 21 september 1888 geboren in Kiripolec, het huidige Kostolište. Hij ging in zijn geboortedorp naar school en volgde zijn kunstopleiding in Hodonín, Wenen en bij de landschapsschilder Alois Kalvoda in Praag. Hij werd bekend door monumentale schilderijen van Slowaakse landschappen en mensen en werkte ook als illustrator en graficus. In Kostolište zijn zijn schilderij van Sint-Maarten in de kerk en een tijdens zijn leven ingerichte herdenkingsruimte in het gemeenschapshuis te vinden. Ook ontwierp hij de figuratieve gevelversiering van het cultureel centrum."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kiripolec, Kykrillen en Kostolište – veranderende dorpsnamen",
+          "text": "Het huidige Kostolište komt in historische bronnen onder verschillende naamvormen voor. De gemeentelijke geschiedenis verbindt een vermelding uit 1206 met het ruimere gebied rond de beek Malina; een oorkonde uit 1271 noemt een weide ‘pratum Kilpiruis’, die lokaal met de vroegere nederzetting in verband wordt gebracht. Documenten uit 1342 en 1373 gebruiken vormen als Kykrillen en Kikrillen, later gevolgd door Kirchle, Kyrihporcz en Kiripolcz. De naam Kiripolec bleef tot 1948 in gebruik, toen het dorp Kostolište werd genoemd. In 1963 vroegen inwoners en Martin Benka om de naam Kiripolec terug te krijgen, maar de autoriteiten wezen dat af."
+        },
+        {
+          "id": "fact_006",
+          "title": "Het einde van de oorlog in Kostolište – gevecht op 5 april 1945",
+          "text": "Op 5 april 1945 kwamen Sovjet- en Duitse troepen in Kostolište met elkaar in gevecht. Volgens de gemeentelijke geschiedschrijving kwamen acht Sovjetsoldaten en negen Duitse soldaten om; geen inwoner stierf. Het terugtrekkende Duitse leger stak ongeveer tachtig boerenschuren in brand. Ook de Sint-Martinuskerk raakte door artillerievuur beschadigd, vooral de toren en het dak."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
