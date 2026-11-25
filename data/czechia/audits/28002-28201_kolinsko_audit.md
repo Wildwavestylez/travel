@@ -56,6 +56,8 @@ Po těchto doplněních nebyla v cílené rešerši nalezena další zjevná mez
 2. **28121:** `translations.cs` synchronizováno s českým masterem pro `fact_003`, `fact_008` a `fact_009`. Read-back: 0 rozdílů facts vs translations.cs, 7/7 jazyků po 11 položkách.
 3. **28130:** `fact_001` rozšířen o kategorii ÚAN II a přesnost vymezení do 10 m podle NPÚ; všech sedm jazyků aktualizováno. Český text má po opravě 470 znaků. Read-back: 7/7 jazyků po 6 položkách, český master synchronní.
 4. **28106:** `fact_001` rozšířen o památnou mohylu na Lipské hoře; doplněn zdroj a poloha. Read-back: 7/7 jazyků po 5 položkách, český master synchronní.
+5. **28103:** opraveny tituly `fact_005` (zvonička v Hřibech) a `fact_006` (válečný pomník v Ohařích) v českém masteru i všech šesti jazykových metadatech; odstraněny chybné zdroje a u `fact_006` opravena `map_category` na `historical_monument`. Read-back potvrdil tituly ve všech 7 jazycích a platnou kategorii.
+6. **28106:** `fact_004` obnoven jako památná hrušeň u Hřib. Český master a všech šest překladů byly nahrazeny textem odpovídajícím titulu, poloze a ověřeným zdrojům; odstraněn chybný zdroj na Chotutice. Read-back: český text 482 znaků, všech šest překladů přítomno, titul správný ve všech 7 jazycích.
 
 Všechny změny zachovaly existující ID záznamů a status/version. Žádný záznam nebyl publikován.
 
@@ -86,4 +88,4 @@ Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. S�
 
 **Výsledek: REVIEW REQUIRED.** Hlavní turistická mezera byla doplněna a potvrzené překladové nesoulady opraveny. Blok zatím nelze označit PASS kvůli nedokončené úplné sémantické kontrole překladů. Tři zbylé null polohy mají zdokumentovaný důvod.
 
-Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: dokončit úplnou sémantickou kontrolu překladů; krátké české master texty jsou uzavřeny.
+Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: pokračovat sémantickou kontrolou faktů a všech šesti cizojazyčných verzí v další dávce PSČ 28121, 28123 a 28125; hotové kontroly neopakovat.
