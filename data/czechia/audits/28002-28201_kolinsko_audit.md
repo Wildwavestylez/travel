@@ -60,16 +60,16 @@ Všechny změny zachovaly existující ID záznamů a status/version. Žádný z
 
 ## 6. Otevřené položky — REVIEW REQUIRED
 
-### České master texty kratší než 350 znaků
-Zůstává 13 konkrétních faktů; nebyly natahovány výplňovým textem bez dostatečných ověřených informací:
+### České master texty kratší než 350 znaků — UZAVŘENO
+Původních 13 krátkých faktů bylo rozšířeno na nejméně 350 znaků a doplněno o ověřené informace. Všech 78 odpovídajících cizojazyčných textů (de/en/es/fr/it/nl) bylo aktualizováno.
 
-- 28002: `fact_001`, `fact_002`, `fact_003`, `fact_004`, `fact_005`, `fact_006`, `fact_008`, `fact_009`.
+- 28002: `fact_001`–`fact_006`, `fact_008`, `fact_009`.
 - 28103: `fact_004`.
 - 28106: `fact_004`, `fact_005`.
 - 28130: `fact_006`.
 - 28151: `fact_005`.
 
-Při pokračování doplnit pouze konkrétní ověřené informace a následně upravit de/en/es/fr/it/nl. Pokud nelze bezpečné rozšíření doložit, ponechat jednotlivý fakt jako zdokumentovanou výjimku.
+Read-back potvrdil 13/13 českých master textů nad limitem, 0 zbývajících krátkých textů v pěti dotčených záznamech, 0 rozdílů `facts.text` vs `translations.cs` a správná ID i počty všech sedmi jazyků u všech pěti záznamů. U 28106/fact_004 byla podle novějšího oficiálního údaje obce aktualizována výška hrušně na přibližně 13 m a obvod kmene na 364 cm. U 28103/fact_004 byla vypuštěna nepodložená konkrétní datace první písemné zmínky; zůstala doložená vazba na radimské panství od roku 1541 a archivní mapa z roku 1800.
 
 ### Zbývající `location: null`
 - 28103 / `fact_004` — kaplička v Chotuticích: oficiální zdroj potvrzuje obec a vznik v roce 1805, ale nebyl nalezen spolehlivý bod konkrétní kapličky.
@@ -79,10 +79,10 @@ Při pokračování doplnit pouze konkrétní ověřené informace a následně 
 Ponechat `null`; nevymýšlet souřadnice. Poloha 28106 / `fact_001` byla nově doplněna pro mohylu a reprezentativní oblast bojiště.
 
 ### Překlady
-Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Zbývá plná sémantická kontrola všech 1 146 cizojazyčných textů; neoznačovat ji za dokončenou.
+Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Zbývá plná sémantická kontrola všech 1 146 cizojazyčných textů; 78 překladů u právě opravených 13 faktů bylo nově připraveno, ale samostatný úplný sémantický průchod všech jazykových položek ještě není dokončen.
 
 ## 7. Uzavření a další krok
 
-**Výsledek: REVIEW REQUIRED.** Hlavní turistická mezera byla doplněna a potvrzené překladové nesoulady opraveny. Blok nelze označit PASS kvůli 13 krátkým českým master textům a nedokončené úplné sémantické kontrole překladů. Tři zbylé null polohy mají zdokumentovaný důvod.
+**Výsledek: REVIEW REQUIRED.** Hlavní turistická mezera byla doplněna a potvrzené překladové nesoulady opraveny. Blok zatím nelze označit PASS kvůli nedokončené úplné sémantické kontrole překladů. Tři zbylé null polohy mají zdokumentovaný důvod.
 
-Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: pokračovat pouze otevřenými 13 krátkými master texty a sémantickou kontrolou překladů.
+Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: dokončit úplnou sémantickou kontrolu překladů; krátké české master texty jsou uzavřeny.
