@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p data/czechia/reference
-          cp ruian-output/ruian_postcodes.json data/czechia/reference/ruian_postcodes.json
+          git rm -f --ignore-unmatch data/czechia/reference/ruian_postcodes.json
           cp ruian-output/ruian_postcodes.csv data/czechia/reference/ruian_postcodes.csv
           cp ruian-output/ruian_import_manifest.json data/czechia/reference/ruian_import_manifest.json
           git add data/czechia/reference/
