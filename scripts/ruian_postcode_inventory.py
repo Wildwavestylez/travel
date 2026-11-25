@@ -230,7 +230,7 @@ payload = {
     "postcodes": result,
     "method_note": "Every CSV member in the official nationwide ZIP archive is processed and aggregated. A postcode is included only if it occurs on at least one address point. This is a reference inventory, not an automatic edit of the production sequence."
 }
-(OUT / "ruian_postcodes.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+# The CSV is the sole canonical postcode inventory; do not emit a parallel JSON copy.
 with (OUT / "ruian_postcodes.csv").open("w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f)
     w.writerow(["postcode","address_points","municipalities","municipality_parts","city_districts","prague_districts"])
