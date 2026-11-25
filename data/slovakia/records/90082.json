@@ -1,4 +1,517 @@
 {
   "postcode": "90082",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Blatné",
+  "district": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické jádro Blatného kolem kostela svatého Vojtěcha",
+  "representative_point": {
+    "lat": 48.264728605,
+    "lon": 17.423087955
+  },
+  "access_point": {
+    "lat": 48.264728605,
+    "lon": 17.423087955
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "První písemná zmínka z roku 1245 a proměny názvu",
+      "text": "Blatné se poprvé připomíná roku 1245 v listině vymezující hranice obce, kde je uvedeno pod podobou Sarfeo. V dalších staletích se objevovaly varianty Sarfy, Sarfew, Saarfo či Pozsonysárfo; do roku 1948 se používal maďarizovaný název Šarfia. Současné jméno Blatné souvisí s někdejšími rozsáhlými mokřadními a bahnitými plochami východně od obce, které ztěžovaly průchod krajinou.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.blatne.sk/obec/z-historie-obce/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_c9eba71f-e885-486c-93ef-22d12df2d31c"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Archeologická krajina s osídlením od neolitu",
+      "text": "Okolí Blatného patří k archeologicky mimořádně bohatým lokalitám. Obecní historický přehled dokládá neolitická sídliště několika skupin kultury s lineární keramikou, želiezovské a bolerázské skupiny i pohřebiště únětické kultury. Nálezy z poloh Štrky, Pažiť a Pustáky doplňují doklady osídlení z mladší doby bronzové, laténského a římsko-provinciálního období. V roce 2001 bylo v Pustákách odkryto pohřebiště ze starší doby bronzové spojované s nitranskou kulturou.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.blatne.sk/obec/z-historie-obce/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_c9eba71f-e885-486c-93ef-22d12df2d31c",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1"
+      ],
+      "location": {
+        "name": "Pustáky – archeologická poloha (orientační bod)",
+        "address": null,
+        "lat": 48.2632,
+        "lon": 17.431,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://www.blatne.sk/obec/z-historie-obce/"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Chorvatští kolonisté a kulturně pestré dějiny",
+      "text": "V letech 1556–1580 usadil v Blatném palatin Illésházy chorvatské kolonisty, kteří odešli ze své vlasti před osmanským nebezpečím. Jejich příchod navázal na starší slovenské osídlení a přispěl k jazykově i kulturně pestré minulosti obce. Územní plán připomíná také vlivy maďarské a německé kolonizace; Blatné přitom zůstalo součástí slovenského sídelního prostoru.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_c9eba71f-e885-486c-93ef-22d12df2d31c",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel svatého Vojtěcha – středověké jádro v barokní stavbě",
+      "text": "Kostel svatého Vojtěcha je nejvýraznější historickou stavbou Blatného. Jeho počátky se kladou do let 1390–1397, přičemž starší prameny zmiňují kostel už roku 1310. V roce 1561 prošel renesanční úpravou a v letech 1742–1745 byl rozsáhle přestavěn v barokním slohu; část gotického zdiva zůstala zachována. Po požáru roku 1847 byl opraven a dostal novou fasádu. Areál obklopuje historická ohradní zeď s branou; kostel se stal spolu s ní národní kulturní památkou v roce 2020.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://login.apsida.sk/c/1811/blatne",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=76515fb6%7C943&inline=1"
+      ],
+      "location": {
+        "name": "Kostel sv. Vojtěcha",
+        "address": "Námestie Dr. Gašpara Radošínskeho 1, Blatné, Slovensko",
+        "lat": 48.264728605,
+        "lon": 17.423087955,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://login.apsida.sk/c/1811/blatne"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kamenné sochy světců, lurdská jeskyně a pamětní park",
+      "text": "Ve veřejném prostoru Blatného se dochoval soubor drobných sakrálních památek. Patří k nim socha svatého Jana Nepomuckého z roku 1736, svatého Floriána z roku 1811, Immaculaty z roku 1859 a svatého Urbana z roku 1870; socha svatého Vendelína je doložena už v 18. století. V letech 1998–2000 byly kamenné skulptury restaurovány. V letech 1939–1940 vznikla a byla vysvěcena lurdská jeskyně Panny Marie a v letech 1966–1968 byl zřízen park s pomníkem obětem první a druhé světové války.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.blatne.sk/obec/z-historie-obce/",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=76515fb6%7C943&inline=1",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Vinohrady doložené už v roce 1254",
+      "text": "Blatné leží na rozhraní malokarpatské vinohradnické a podunajské zemědělské oblasti. Vinohrady a ovocné sady jsou v písemných pramenech připomínány už roku 1254. Vinice na mírných jižních svazích dávaly zejména bílé stolní odrůdy a místní víno se v minulosti vyváželo až do rakouských zemí. Vinařství zůstalo důležitou součástí hospodářské i kulturní identity obce; připomínají je také místní sochy svatého Urbana, patrona vinohradníků, a obecní heraldika s motivem révy.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1",
+        "https://www.blatne.sk/obec/z-historie-obce/",
+        "https://www.blatne.sk/modules/file_storage/download.php?file=76515fb6%7C943&inline=1"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Tři vodní mlýny a vyšívačská tradice",
+      "text": "Hospodářský život staršího Blatného nebyl založen jen na zemědělství a vinohradnictví. Na místním potoce pracovaly v minulosti tři vodní mlýny. Obec byla známá také výšivkářstvím, zejména dírkovou a plnou ornamentální výšivkou, která v obdobích nedostatku práce představovala důležitý, někdy i jediný zdroj obživy. K tradičním činnostem patřil rovněž chov dobytka, pěstování obilí a ovocnářství.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1",
+        "https://www.blatne.sk/obec/z-historie-obce/"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_008",
+      "title": "Blatné na trase historické poštovní dostavníkové linky",
+      "text": "Od 18. století fungovala v Blatném stanice dostavníkové pošty na trase mezi Bratislavou a Trnavou, později popisované také jako spojení přes Bernolákovo. Cestujícím sloužil místní hostinec, který poskytoval přístřeší a občerstvení. Poštovní provoz tak připomíná dobu, kdy obec neležela jen v zemědělském zázemí, ale také na důležitém spojení mezi dvěma regionálními centry.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_c9eba71f-e885-486c-93ef-22d12df2d31c"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální kontaktní údaje obce Blatné a profil veřejného obstarávatele uvádějí adresy v Blatném s PSČ 900 82; Slovenská pošta je primární autoritou pro ověření PSČ. Přesný polygon doručovací oblasti nebyl ověřen.",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – Vyhľadávanie PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": null,
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Obecní úřad na adrese Šarfická 300/37, 900 82 Blatné a profil veřejného obstarávatele potvrzují místní použití PSČ; adresa úřadu neurčuje hranice celé doručovací oblasti.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy – Informácie o obci Blatné; oficiální obecní dokumentace a kontaktní adresa."
+  },
+  "sources": [
+    {
+      "title": "Obec Blatné – Z histórie obce",
+      "url": "https://www.blatne.sk/obec/z-historie-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Informácie o obci Blatné",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_c9eba71f-e885-486c-93ef-22d12df2d31c",
+      "type": "official"
+    },
+    {
+      "title": "Obec Blatné – Územný plán obce Blatné",
+      "url": "https://www.blatne.sk/modules/file_storage/download.php?file=f8890ad1%7C560&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Obec Blatné – Komunitný plán sociálnych služieb 2023–2027",
+      "url": "https://www.blatne.sk/modules/file_storage/download.php?file=76515fb6%7C943&inline=1",
+      "type": "official"
+    },
+    {
+      "title": "Apsida – Blatné, Kostol sv. Vojtecha",
+      "url": "https://login.apsida.sk/c/1811/blatne",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Blatné – Kontakt",
+      "url": "https://www.blatne.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Úrad pre verejné obstarávanie – Profil obstarávateľa Obec Blatné",
+      "url": "https://evo.isepvo.sk/evoportal/sk-%20sk/Public/ProfileSearch/Detail?id=4117",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro Blatného kolem kostela svatého Vojtěcha",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "První písemná zmínka z roku 1245 a proměny názvu",
+          "text": "Blatné se poprvé připomíná roku 1245 v listině vymezující hranice obce, kde je uvedeno pod podobou Sarfeo. V dalších staletích se objevovaly varianty Sarfy, Sarfew, Saarfo či Pozsonysárfo; do roku 1948 se používal maďarizovaný název Šarfia. Současné jméno Blatné souvisí s někdejšími rozsáhlými mokřadními a bahnitými plochami východně od obce, které ztěžovaly průchod krajinou."
+        },
+        {
+          "id": "fact_002",
+          "title": "Archeologická krajina s osídlením od neolitu",
+          "text": "Okolí Blatného patří k archeologicky mimořádně bohatým lokalitám. Obecní historický přehled dokládá neolitická sídliště několika skupin kultury s lineární keramikou, želiezovské a bolerázské skupiny i pohřebiště únětické kultury. Nálezy z poloh Štrky, Pažiť a Pustáky doplňují doklady osídlení z mladší doby bronzové, laténského a římsko-provinciálního období. V roce 2001 bylo v Pustákách odkryto pohřebiště ze starší doby bronzové spojované s nitranskou kulturou."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chorvatští kolonisté a kulturně pestré dějiny",
+          "text": "V letech 1556–1580 usadil v Blatném palatin Illésházy chorvatské kolonisty, kteří odešli ze své vlasti před osmanským nebezpečím. Jejich příchod navázal na starší slovenské osídlení a přispěl k jazykově i kulturně pestré minulosti obce. Územní plán připomíná také vlivy maďarské a německé kolonizace; Blatné přitom zůstalo součástí slovenského sídelního prostoru."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel svatého Vojtěcha – středověké jádro v barokní stavbě",
+          "text": "Kostel svatého Vojtěcha je nejvýraznější historickou stavbou Blatného. Jeho počátky se kladou do let 1390–1397, přičemž starší prameny zmiňují kostel už roku 1310. V roce 1561 prošel renesanční úpravou a v letech 1742–1745 byl rozsáhle přestavěn v barokním slohu; část gotického zdiva zůstala zachována. Po požáru roku 1847 byl opraven a dostal novou fasádu. Areál obklopuje historická ohradní zeď s branou; kostel se stal spolu s ní národní kulturní památkou v roce 2020."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kamenné sochy světců, lurdská jeskyně a pamětní park",
+          "text": "Ve veřejném prostoru Blatného se dochoval soubor drobných sakrálních památek. Patří k nim socha svatého Jana Nepomuckého z roku 1736, svatého Floriána z roku 1811, Immaculaty z roku 1859 a svatého Urbana z roku 1870; socha svatého Vendelína je doložena už v 18. století. V letech 1998–2000 byly kamenné skulptury restaurovány. V letech 1939–1940 vznikla a byla vysvěcena lurdská jeskyně Panny Marie a v letech 1966–1968 byl zřízen park s pomníkem obětem první a druhé světové války."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrady doložené už v roce 1254",
+          "text": "Blatné leží na rozhraní malokarpatské vinohradnické a podunajské zemědělské oblasti. Vinohrady a ovocné sady jsou v písemných pramenech připomínány už roku 1254. Vinice na mírných jižních svazích dávaly zejména bílé stolní odrůdy a místní víno se v minulosti vyváželo až do rakouských zemí. Vinařství zůstalo důležitou součástí hospodářské i kulturní identity obce; připomínají je také místní sochy svatého Urbana, patrona vinohradníků, a obecní heraldika s motivem révy."
+        },
+        {
+          "id": "fact_007",
+          "title": "Tři vodní mlýny a vyšívačská tradice",
+          "text": "Hospodářský život staršího Blatného nebyl založen jen na zemědělství a vinohradnictví. Na místním potoce pracovaly v minulosti tři vodní mlýny. Obec byla známá také výšivkářstvím, zejména dírkovou a plnou ornamentální výšivkou, která v obdobích nedostatku práce představovala důležitý, někdy i jediný zdroj obživy. K tradičním činnostem patřil rovněž chov dobytka, pěstování obilí a ovocnářství."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné na trase historické poštovní dostavníkové linky",
+          "text": "Od 18. století fungovala v Blatném stanice dostavníkové pošty na trase mezi Bratislavou a Trnavou, později popisované také jako spojení přes Bernolákovo. Cestujícím sloužil místní hostinec, který poskytoval přístřeší a občerstvení. Poštovní provoz tak připomíná dobu, kdy obec neležela jen v zemědělském zázemí, ale také na důležitém spojení mezi dvěma regionálními centry."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Blatné rund um die St.-Adalbert-Kirche",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Erste schriftliche Erwähnung 1245 und wechselnde Ortsnamen",
+          "text": "Blatné wird erstmals 1245 in einer Urkunde zur Festlegung der Gemeindegrenzen unter der Form Sarfeo erwähnt. In den folgenden Jahrhunderten begegnen Varianten wie Sarfy, Sarfew, Saarfo oder Pozsonysárfo; bis 1948 wurde der madjarisierte Name Šarfia verwendet. Der heutige Name Blatné hängt mit den einst ausgedehnten sumpfigen und schlammigen Gebieten östlich des Ortes zusammen, die das Durchqueren der Landschaft erschwerten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Eine archäologische Landschaft mit Besiedlung seit der Jungsteinzeit",
+          "text": "Die Umgebung von Blatné gehört zu den archäologisch besonders reichen Gebieten. Der historische Überblick der Gemeinde belegt neolithische Siedlungen verschiedener Gruppen der Linearbandkeramik sowie der Želiezovce- und Boleráz-Gruppe und ein Gräberfeld der Aunjetitzer Kultur. Funde aus den Fluren Štrky, Pažiť und Pustáky ergänzen Nachweise aus der jüngeren Bronzezeit, der Latènezeit und der römischen Provinzialzeit. 2001 wurde in Pustáky ein Gräberfeld der älteren Bronzezeit entdeckt, das mit der Nitra-Kultur verbunden wird."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kroatische Siedler und eine kulturell vielfältige Geschichte",
+          "text": "Zwischen 1556 und 1580 siedelte der Palatin Illésházy kroatische Kolonisten in Blatné an, die vor der osmanischen Bedrohung aus ihrer Heimat geflohen waren. Ihre Ankunft knüpfte an die ältere slowakische Besiedlung an und trug zur sprachlichen und kulturellen Vielfalt des Ortes bei. Der Flächenwidmungsplan erwähnt auch ungarische und deutsche Siedlungseinflüsse; Blatné blieb zugleich Teil des slowakischen Siedlungsraums."
+        },
+        {
+          "id": "fact_004",
+          "title": "St.-Adalbert-Kirche – mittelalterlicher Kern in einem Barockbau",
+          "text": "Die St.-Adalbert-Kirche ist das markanteste historische Bauwerk von Blatné. Ihre Anfänge werden auf 1390–1397 datiert, ältere Quellen erwähnen eine Kirche bereits 1310. 1561 wurde sie im Renaissancestil verändert und 1742–1745 umfassend barock umgebaut; Teile des gotischen Mauerwerks blieben erhalten. Nach einem Brand 1847 wurde sie repariert und erhielt eine neue Fassade. Der Komplex ist von einer historischen Umfassungsmauer mit Tor umgeben; Kirche und Mauer wurden 2020 zum nationalen Kulturdenkmal erklärt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Steinfiguren von Heiligen, Lourdesgrotte und Gedenkpark",
+          "text": "Im öffentlichen Raum von Blatné ist eine Gruppe kleiner sakraler Denkmäler erhalten. Dazu gehören Statuen des heiligen Johannes Nepomuk von 1736, des heiligen Florian von 1811, der Immaculata von 1859 und des heiligen Urban von 1870; eine Statue des heiligen Wendelin ist bereits im 18. Jahrhundert belegt. Die Steinskulpturen wurden 1998–2000 restauriert. 1939–1940 entstand eine Lourdesgrotte der Jungfrau Maria, und 1966–1968 wurde ein Park mit einem Denkmal für die Gefallenen des Ersten und Zweiten Weltkriegs angelegt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Weinberge sind bereits 1254 belegt",
+          "text": "Blatné liegt am Übergang zwischen dem Weinbaugebiet der Kleinen Karpaten und der landwirtschaftlich geprägten Donauebene. Weinberge und Obstgärten werden bereits 1254 schriftlich erwähnt. Die Weinberge an sanften Südhängen brachten vor allem weiße Tafeltraubensorten hervor; der lokale Wein wurde früher bis in die österreichischen Länder exportiert. Der Weinbau blieb ein wichtiger Teil der wirtschaftlichen und kulturellen Identität des Ortes. Daran erinnern auch die Statue des heiligen Urban, des Schutzpatrons der Winzer, und das Weinrebenmotiv im Gemeindewappen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Drei Wassermühlen und eine Stickereitradition",
+          "text": "Das frühere Wirtschaftsleben von Blatné beruhte nicht nur auf Landwirtschaft und Weinbau. Am örtlichen Bach standen einst drei Wassermühlen. Bekannt war die Gemeinde auch für Stickerei, insbesondere Durchbruch- und dichte Ornamentstickerei, die in Zeiten fehlender Arbeit eine wichtige, manchmal sogar die einzige Einkommensquelle darstellte. Zu den traditionellen Tätigkeiten gehörten außerdem Viehzucht, Getreideanbau und Obstbau."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné an einer historischen Postkutschenlinie",
+          "text": "Seit dem 18. Jahrhundert gab es in Blatné eine Station der Postkutschenlinie zwischen Bratislava und Trnava, die später auch als Verbindung über Bernolákovo beschrieben wurde. Reisenden bot ein örtliches Gasthaus Unterkunft und Verpflegung. Der Postbetrieb erinnert daran, dass die Gemeinde nicht nur im landwirtschaftlichen Hinterland lag, sondern auch an einer wichtigen Verbindung zwischen zwei regionalen Zentren."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "The historic centre of Blatné around St Adalbert’s Church",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "First written record in 1245 and changing place names",
+          "text": "Blatné is first mentioned in 1245 in a charter defining the village boundaries, under the form Sarfeo. Later centuries saw variants such as Sarfy, Sarfew, Saarfo and Pozsonysárfo; the Magyarised name Šarfia was used until 1948. The present name Blatné is connected with the extensive marshy and muddy areas east of the village, which once made travel through the landscape difficult."
+        },
+        {
+          "id": "fact_002",
+          "title": "An archaeological landscape settled since the Neolithic",
+          "text": "The surroundings of Blatné are among the region’s archaeologically rich areas. The municipality’s historical overview documents Neolithic settlements associated with several Linear Pottery groups, the Želiezovce and Boleráz groups, as well as a cemetery of the Únětice culture. Finds from Štrky, Pažiť and Pustáky add evidence from the Late Bronze Age, La Tène and Roman provincial periods. In 2001, an Early Bronze Age cemetery associated with the Nitra culture was uncovered at Pustáky."
+        },
+        {
+          "id": "fact_003",
+          "title": "Croatian settlers and a culturally diverse past",
+          "text": "Between 1556 and 1580, Palatine Illésházy settled Croatian colonists in Blatné after they fled their homeland from the Ottoman threat. Their arrival added to the older Slovak settlement and contributed to the village’s linguistic and cultural diversity. The municipal land-use plan also notes Hungarian and German settlement influences, while Slovak settlement continued."
+        },
+        {
+          "id": "fact_004",
+          "title": "St Adalbert’s Church: a medieval core within a Baroque building",
+          "text": "St Adalbert’s Church is Blatné’s most prominent historic building. Its origins are dated to 1390–1397, although earlier sources mention a church here as early as 1310. It was altered in the Renaissance style in 1561 and extensively rebuilt in the Baroque style in 1742–1745, with parts of the Gothic masonry preserved. After a fire in 1847, it was repaired and given a new façade. The complex is enclosed by a historic wall with a gate; the church and wall were declared a national cultural monument in 2020."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stone statues of saints, a Lourdes grotto and a memorial park",
+          "text": "Blatné retains a group of small religious monuments in its public spaces. They include statues of St John of Nepomuk from 1736, St Florian from 1811, the Immaculata from 1859 and St Urban from 1870; a statue of St Wendelin is documented as early as the 18th century. The stone sculptures were restored in 1998–2000. A Lourdes grotto dedicated to the Virgin Mary was built and consecrated in 1939–1940, and a park with a memorial to those killed in the First and Second World Wars was established in 1966–1968."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vineyards documented as early as 1254",
+          "text": "Blatné lies where the Small Carpathian wine-growing region meets the agricultural Danubian Lowland. Vineyards and orchards are mentioned in written sources as early as 1254. Vineyards on gentle southern slopes produced mainly white table varieties, and local wine was once exported as far as the Austrian lands. Viticulture remained an important part of the village’s economic and cultural identity. It is also recalled by the statue of St Urban, patron saint of winegrowers, and the vine motif in the municipal coat of arms."
+        },
+        {
+          "id": "fact_007",
+          "title": "Three watermills and a tradition of embroidery",
+          "text": "The historic economy of Blatné was based on more than farming and viticulture. Three watermills once operated on the local stream. The village was also known for embroidery, particularly openwork and dense ornamental styles, which provided an important—and sometimes the only—source of livelihood during periods of unemployment. Traditional activities also included livestock raising, grain cultivation and fruit growing."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné on a historic stagecoach postal route",
+          "text": "From the 18th century, Blatné had a station on the stagecoach postal route between Bratislava and Trnava, later also described as running via Bernolákovo. A local inn offered travellers shelter and refreshments. The postal service recalls a time when the village was not only part of an agricultural hinterland but also lay on an important connection between two regional centres."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "El centro histórico de Blatné alrededor de la iglesia de San Adalberto",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Primera mención escrita en 1245 y cambios de nombre",
+          "text": "Blatné aparece por primera vez en 1245 en un documento que delimitaba los términos municipales, con la forma Sarfeo. En los siglos posteriores se utilizaron variantes como Sarfy, Sarfew, Saarfo o Pozsonysárfo; hasta 1948 se empleó el nombre magiarizado Šarfia. El nombre actual, Blatné, está relacionado con las extensas zonas pantanosas y fangosas situadas al este del pueblo, que antiguamente dificultaban el tránsito por el territorio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paisaje arqueológico habitado desde el Neolítico",
+          "text": "Los alrededores de Blatné se encuentran entre las zonas arqueológicamente más ricas de la región. La reseña histórica municipal documenta asentamientos neolíticos vinculados a varios grupos de la cerámica de bandas, a los grupos de Želiezovce y Boleráz, así como una necrópolis de la cultura de Únětice. Los hallazgos de Štrky, Pažiť y Pustáky aportan pruebas de la Edad del Bronce tardía, La Tène y la época romana provincial. En 2001 se descubrió en Pustáky una necrópolis de la Edad del Bronce Antiguo asociada a la cultura de Nitra."
+        },
+        {
+          "id": "fact_003",
+          "title": "Colonos croatas y un pasado culturalmente diverso",
+          "text": "Entre 1556 y 1580, el palatino Illésházy asentó en Blatné a colonos croatas que habían huido de su patria ante la amenaza otomana. Su llegada se sumó al antiguo poblamiento eslovaco y contribuyó a la diversidad lingüística y cultural de la localidad. El plan urbanístico municipal también menciona influencias de colonización húngara y alemana, mientras que el asentamiento eslovaco continuó."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia de San Adalberto: núcleo medieval en un edificio barroco",
+          "text": "La iglesia de San Adalberto es el edificio histórico más destacado de Blatné. Sus orígenes se sitúan entre 1390 y 1397, aunque fuentes anteriores ya mencionan una iglesia aquí en 1310. Fue modificada en estilo renacentista en 1561 y reconstruida ampliamente en estilo barroco entre 1742 y 1745, conservándose partes de la mampostería gótica. Tras un incendio en 1847 fue reparada y recibió una nueva fachada. El conjunto está rodeado por un muro histórico con portal; la iglesia y el muro fueron declarados monumento cultural nacional en 2020."
+        },
+        {
+          "id": "fact_005",
+          "title": "Estatuas de santos, gruta de Lourdes y parque conmemorativo",
+          "text": "Blatné conserva en sus espacios públicos un conjunto de pequeños monumentos religiosos. Entre ellos figuran las estatuas de san Juan Nepomuceno de 1736, san Florián de 1811, la Inmaculada de 1859 y san Urbano de 1870; una estatua de san Vendelino ya aparece documentada en el siglo XVIII. Las esculturas de piedra fueron restauradas entre 1998 y 2000. En 1939–1940 se construyó y bendijo una gruta de Lourdes dedicada a la Virgen María, y entre 1966 y 1968 se creó un parque con un monumento a los caídos en las dos guerras mundiales."
+        },
+        {
+          "id": "fact_006",
+          "title": "Viñedos documentados desde 1254",
+          "text": "Blatné se encuentra en la transición entre la región vitícola de los Pequeños Cárpatos y la llanura agrícola del Danubio. Los viñedos y huertos aparecen en documentos escritos ya en 1254. Las viñas de las suaves laderas meridionales producían sobre todo variedades blancas de mesa, y antiguamente el vino local se exportaba incluso a tierras austríacas. La viticultura siguió siendo una parte importante de la identidad económica y cultural del municipio. También la recuerdan la estatua de san Urbano, patrón de los viticultores, y el motivo de la vid del escudo municipal."
+        },
+        {
+          "id": "fact_007",
+          "title": "Tres molinos de agua y una tradición de bordado",
+          "text": "La economía histórica de Blatné no se basaba únicamente en la agricultura y la viticultura. Antiguamente funcionaban tres molinos de agua en el arroyo local. El pueblo también era conocido por sus bordados, especialmente los calados y los motivos ornamentales densos, que en épocas de desempleo constituían una fuente de ingresos importante y a veces la única. Entre las actividades tradicionales también estaban la ganadería, el cultivo de cereales y la fruticultura."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné en una antigua ruta postal de diligencias",
+          "text": "Desde el siglo XVIII, Blatné contó con una estación de la ruta postal de diligencias entre Bratislava y Trnava, descrita posteriormente también como una conexión a través de Bernolákovo. Una posada local ofrecía alojamiento y refrigerio a los viajeros. El servicio postal recuerda que el pueblo no estaba solo en una zona agrícola, sino también en una importante conexión entre dos centros regionales."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Le centre historique de Blatné autour de l’église Saint-Adalbert",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Première mention écrite en 1245 et évolution du nom",
+          "text": "Blatné est mentionné pour la première fois en 1245 dans un acte délimitant les frontières de la commune, sous la forme Sarfeo. Au fil des siècles apparaissent des variantes comme Sarfy, Sarfew, Saarfo ou Pozsonysárfo ; jusqu’en 1948, le nom magyarisé Šarfia était utilisé. Le nom actuel Blatné est lié aux vastes terrains marécageux et boueux situés à l’est du village, qui rendaient autrefois les déplacements difficiles."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paysage archéologique habité depuis le Néolithique",
+          "text": "Les environs de Blatné comptent parmi les zones archéologiquement les plus riches de la région. L’histoire officielle de la commune mentionne des habitats néolithiques liés à plusieurs groupes de la céramique linéaire, aux groupes de Želiezovce et de Boleráz, ainsi qu’une nécropole de la culture d’Únětice. Les découvertes de Štrky, Pažiť et Pustáky attestent également de l’âge du Bronze récent, de La Tène et de l’époque romaine provinciale. En 2001, une nécropole de l’âge du Bronze ancien associée à la culture de Nitra a été découverte à Pustáky."
+        },
+        {
+          "id": "fact_003",
+          "title": "Des colons croates et une histoire culturellement diverse",
+          "text": "Entre 1556 et 1580, le palatin Illésházy installa à Blatné des colons croates qui avaient fui leur pays devant la menace ottomane. Leur arrivée s’ajouta au peuplement slovaque plus ancien et contribua à la diversité linguistique et culturelle du village. Le plan d’urbanisme communal mentionne également des influences de colonisation hongroise et allemande, tandis que le peuplement slovaque s’est maintenu."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Saint-Adalbert : un noyau médiéval dans un édifice baroque",
+          "text": "L’église Saint-Adalbert est le monument historique le plus marquant de Blatné. Ses origines sont datées de 1390–1397, même si des sources plus anciennes mentionnent déjà une église en 1310. Elle a été remaniée dans le style Renaissance en 1561, puis largement reconstruite dans le style baroque entre 1742 et 1745 ; une partie de la maçonnerie gothique a été conservée. Après un incendie en 1847, elle fut réparée et reçut une nouvelle façade. L’ensemble est entouré d’un mur historique avec portail ; l’église et son enceinte ont été déclarées monument culturel national en 2020."
+        },
+        {
+          "id": "fact_005",
+          "title": "Statues de saints, grotte de Lourdes et parc mémoriel",
+          "text": "Blatné conserve dans ses espaces publics un ensemble de petits monuments religieux. On y trouve notamment les statues de saint Jean Népomucène de 1736, de saint Florian de 1811, de l’Immaculée de 1859 et de saint Urbain de 1870 ; une statue de saint Vendelin est attestée dès le XVIIIe siècle. Les sculptures de pierre ont été restaurées entre 1998 et 2000. Une grotte de Lourdes dédiée à la Vierge Marie fut construite et bénie en 1939–1940 ; un parc avec un monument aux morts des deux guerres mondiales fut aménagé entre 1966 et 1968."
+        },
+        {
+          "id": "fact_006",
+          "title": "Des vignobles attestés dès 1254",
+          "text": "Blatné se situe à la transition entre la région viticole des Petites Carpates et la plaine agricole du Danube. Les vignobles et vergers sont mentionnés dans les sources écrites dès 1254. Les vignes des doux versants méridionaux produisaient surtout des cépages blancs de table, et le vin local était autrefois exporté jusque dans les pays autrichiens. La viticulture est restée un élément important de l’identité économique et culturelle de la commune. Elle est également évoquée par la statue de saint Urbain, patron des vignerons, et par le motif de la vigne dans les armoiries communales."
+        },
+        {
+          "id": "fact_007",
+          "title": "Trois moulins à eau et une tradition de broderie",
+          "text": "L’économie ancienne de Blatné ne reposait pas uniquement sur l’agriculture et la viticulture. Trois moulins à eau fonctionnaient autrefois sur le ruisseau local. Le village était également connu pour sa broderie, notamment les motifs ajourés et les ornements denses, qui constituaient en période de chômage une source de revenus importante, parfois même la seule. L’élevage, la culture des céréales et l’arboriculture faisaient aussi partie des activités traditionnelles."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné sur une ancienne ligne postale de diligences",
+          "text": "À partir du XVIIIe siècle, Blatné possédait une station sur la ligne postale de diligences entre Bratislava et Trnava, décrite plus tard également comme passant par Bernolákovo. Une auberge locale offrait aux voyageurs un abri et des rafraîchissements. Ce service postal rappelle que le village ne se trouvait pas seulement dans un arrière-pays agricole, mais aussi sur une liaison importante entre deux centres régionaux."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Il centro storico di Blatné intorno alla chiesa di Sant’Adalberto",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prima menzione scritta nel 1245 e cambiamenti del nome",
+          "text": "Blatné è menzionata per la prima volta nel 1245 in un documento che definiva i confini del comune, nella forma Sarfeo. Nei secoli successivi comparvero varianti come Sarfy, Sarfew, Saarfo o Pozsonysárfo; fino al 1948 fu usato il nome magiarizzato Šarfia. Il nome attuale Blatné è legato alle vaste aree paludose e fangose a est del villaggio, che un tempo rendevano difficile attraversare il territorio."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paesaggio archeologico abitato fin dal Neolitico",
+          "text": "I dintorni di Blatné sono tra le aree archeologicamente più ricche della regione. La storia comunale documenta insediamenti neolitici associati a diversi gruppi della ceramica lineare, ai gruppi di Želiezovce e Boleráz e una necropoli della cultura di Únětice. I reperti di Štrky, Pažiť e Pustáky aggiungono testimonianze dell’età del Bronzo recente, di La Tène e del periodo romano provinciale. Nel 2001 a Pustáky fu scoperta una necropoli dell’età del Bronzo antico collegata alla cultura di Nitra."
+        },
+        {
+          "id": "fact_003",
+          "title": "Coloni croati e un passato culturalmente variegato",
+          "text": "Tra il 1556 e il 1580 il palatino Illésházy insediò a Blatné coloni croati, fuggiti dalla loro patria per sottrarsi alla minaccia ottomana. Il loro arrivo si aggiunse al precedente insediamento slovacco e contribuì alla varietà linguistica e culturale del villaggio. Il piano regolatore comunale ricorda anche influenze di colonizzazione ungherese e tedesca, mentre l’insediamento slovacco continuò."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa di Sant’Adalberto: un nucleo medievale in un edificio barocco",
+          "text": "La chiesa di Sant’Adalberto è l’edificio storico più importante di Blatné. Le sue origini sono datate al 1390–1397, anche se fonti precedenti menzionano una chiesa già nel 1310. Fu modificata in stile rinascimentale nel 1561 e ampiamente ricostruita in stile barocco tra il 1742 e il 1745, conservando parti della muratura gotica. Dopo un incendio nel 1847 fu riparata e dotata di una nuova facciata. Il complesso è circondato da un muro storico con portale; chiesa e cinta furono dichiarate monumento culturale nazionale nel 2020."
+        },
+        {
+          "id": "fact_005",
+          "title": "Statue di santi, grotta di Lourdes e parco commemorativo",
+          "text": "Negli spazi pubblici di Blatné si conserva un gruppo di piccoli monumenti religiosi. Comprende le statue di san Giovanni Nepomuceno del 1736, san Floriano del 1811, dell’Immacolata del 1859 e san Urbano del 1870; una statua di san Venceslao è documentata già nel XVIII secolo. Le sculture in pietra furono restaurate tra il 1998 e il 2000. Nel 1939–1940 fu costruita e consacrata una grotta di Lourdes dedicata alla Vergine Maria; tra il 1966 e il 1968 fu creato un parco con un monumento ai caduti delle due guerre mondiali."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vigneti documentati già nel 1254",
+          "text": "Blatné si trova al confine tra la regione vitivinicola dei Piccoli Carpazi e la pianura agricola del Danubio. I vigneti e i frutteti sono citati nelle fonti scritte già nel 1254. Le vigne sui dolci pendii meridionali producevano soprattutto uve bianche da tavola e in passato il vino locale veniva esportato fino alle terre austriache. La viticoltura è rimasta una parte importante dell’identità economica e culturale del comune. La ricordano anche la statua di san Urbano, patrono dei viticoltori, e il motivo della vite nello stemma comunale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Tre mulini ad acqua e una tradizione di ricamo",
+          "text": "L’economia storica di Blatné non si basava soltanto sull’agricoltura e sulla viticoltura. Un tempo lungo il torrente locale funzionavano tre mulini ad acqua. Il villaggio era noto anche per il ricamo, soprattutto per i motivi traforati e ornamentali fitti, che nei periodi di disoccupazione rappresentavano una fonte di reddito importante, talvolta l’unica. Tra le attività tradizionali figuravano inoltre l’allevamento, la coltivazione dei cereali e la frutticoltura."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné lungo una storica linea postale di diligenze",
+          "text": "Dal XVIII secolo Blatné ospitava una stazione della linea postale di diligenze tra Bratislava e Trnava, descritta in seguito anche come collegamento attraverso Bernolákovo. Una locanda locale offriva ai viaggiatori riparo e ristoro. Il servizio postale ricorda che il villaggio non si trovava soltanto in un retroterra agricolo, ma anche lungo un importante collegamento tra due centri regionali."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Het historische centrum van Blatné rond de Sint-Adalbertuskerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Eerste schriftelijke vermelding in 1245 en veranderende plaatsnamen",
+          "text": "Blatné wordt voor het eerst genoemd in 1245 in een oorkonde waarin de gemeentegrenzen werden vastgelegd, onder de vorm Sarfeo. In latere eeuwen kwamen varianten voor zoals Sarfy, Sarfew, Saarfo en Pozsonysárfo; tot 1948 werd de Magyariseerde naam Šarfia gebruikt. De huidige naam Blatné houdt verband met de uitgestrekte moerassige en modderige gebieden ten oosten van het dorp, die het reizen door het landschap vroeger bemoeilijkten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Een archeologisch landschap dat al sinds het neolithicum bewoond is",
+          "text": "De omgeving van Blatné behoort tot de archeologisch rijkste gebieden van de regio. De gemeentelijke geschiedschrijving documenteert neolithische nederzettingen die verband houden met verschillende groepen van de bandkeramiek, de groepen Želiezovce en Boleráz, en een grafveld van de Úněticecultuur. Vondsten uit Štrky, Pažiť en Pustáky vullen het bewijs aan uit de late bronstijd, La Tène en de Romeinse provinciale periode. In 2001 werd in Pustáky een grafveld uit de vroege bronstijd ontdekt dat met de Nitracultuur wordt verbonden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kroatische kolonisten en een cultureel veelzijdig verleden",
+          "text": "Tussen 1556 en 1580 vestigde paltsgraaf Illésházy Kroatische kolonisten in Blatné, die hun vaderland waren ontvlucht vanwege de Ottomaanse dreiging. Hun komst sloot aan op de oudere Slowaakse bewoning en droeg bij aan de taalkundige en culturele diversiteit van het dorp. Het gemeentelijke ruimtelijke plan vermeldt ook Hongaarse en Duitse vestigingsinvloeden, terwijl de Slowaakse bewoning bleef bestaan."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Adalbertuskerk: een middeleeuwse kern in een barok gebouw",
+          "text": "De Sint-Adalbertuskerk is het opvallendste historische gebouw van Blatné. De oorsprong wordt gedateerd op 1390–1397, hoewel oudere bronnen al in 1310 een kerk op deze plek noemen. In 1561 werd het gebouw in renaissancestijl aangepast en tussen 1742 en 1745 grondig in barokstijl verbouwd; delen van het gotische metselwerk bleven behouden. Na een brand in 1847 werd de kerk hersteld en kreeg zij een nieuwe gevel. Het complex is omgeven door een historische muur met poort; kerk en ommuring werden in 2020 tot nationaal cultureel monument verklaard."
+        },
+        {
+          "id": "fact_005",
+          "title": "Heiligenbeelden, een Lourdesgrot en een herdenkingspark",
+          "text": "In de openbare ruimte van Blatné is een groep kleine religieuze monumenten bewaard gebleven. Daartoe behoren beelden van Sint-Jan van Nepomuk uit 1736, Sint-Florianus uit 1811, de Onbevlekte Ontvangenis uit 1859 en Sint-Urbanus uit 1870; een beeld van Sint-Wendelinus wordt al in de 18e eeuw vermeld. De stenen beelden werden in 1998–2000 gerestaureerd. In 1939–1940 werd een Lourdesgrot ter ere van de Maagd Maria gebouwd en ingewijd; tussen 1966 en 1968 werd een park aangelegd met een monument voor de gevallenen van de Eerste en Tweede Wereldoorlog."
+        },
+        {
+          "id": "fact_006",
+          "title": "Wijngaarden zijn al in 1254 gedocumenteerd",
+          "text": "Blatné ligt op de overgang tussen het wijnbouwgebied van de Kleine Karpaten en het agrarische Donau-laagland. Wijngaarden en boomgaarden worden al in 1254 in schriftelijke bronnen genoemd. De wijngaarden op de zachte zuidelijke hellingen leverden vooral witte tafeldruiven; vroeger werd de lokale wijn zelfs naar Oostenrijkse gebieden uitgevoerd. Wijnbouw bleef een belangrijk onderdeel van de economische en culturele identiteit van de gemeente. Dat wordt ook herinnerd door het beeld van Sint-Urbanus, patroonheilige van wijnbouwers, en het wijnrankmotief in het gemeentewapen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Drie watermolens en een borduurtraditie",
+          "text": "De vroegere economie van Blatné was niet alleen gebaseerd op landbouw en wijnbouw. Aan de plaatselijke beek stonden vroeger drie watermolens. Het dorp stond ook bekend om zijn borduurwerk, vooral opengewerkte en dichte ornamentale patronen, die in tijden van werkloosheid een belangrijke en soms zelfs de enige bron van inkomsten vormden. Traditionele activiteiten waren verder veeteelt, graanteelt en fruitteelt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Blatné aan een historische postkoetsroute",
+          "text": "Vanaf de 18e eeuw had Blatné een halte op de postkoetsroute tussen Bratislava en Trnava, die later ook werd beschreven als een verbinding via Bernolákovo. Een plaatselijke herberg bood reizigers onderdak en verfrissingen. De postdienst herinnert eraan dat het dorp niet alleen in een agrarisch achterland lag, maar ook aan een belangrijke verbinding tussen twee regionale centra."
+        }
+      ]
+    }
+  }
 }
