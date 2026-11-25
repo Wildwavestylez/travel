@@ -59,12 +59,11 @@ Pro projektovou geografickou sekvenci slouží `sequence.json` jako závazný ro
 
 Projekt udržuje jeden centrální, verzovaný inventář celostátních geografických PSČ odvozený z oficiálních dat adresních míst RÚIAN. Je uložen přímo v repozitáři a je společným výchozím zdrojem pro tvorbu i rework všech českých PSČ:
 
-- `data/czechia/reference/ruian_postcodes.json` — hlavní strojově čitelný inventář; vyhledávej přesnou pětimístnou hodnotu `postcode`.
-- `data/czechia/reference/ruian_postcodes.csv` — tabulková, člověkem čitelná kopie téhož přehledu.
+- `data/czechia/reference/ruian_postcodes.csv` — **jediný kanonický celostátní RÚIAN inventář PSČ**; pracuj přímo s CSV a vyhledej přesný pětimístný kód ve sloupci `postcode`. Žádný paralelní JSON inventář se nepoužívá.
 - `data/czechia/reference/ruian_import_manifest.json` — metadata zdrojového feedu, stažení, zpracování a počtu záznamů.
 - `data/czechia/reference/README.md` — stručný návod k použití a omezením inventáře.
 
-Před tvorbou nebo reworkem načti README a aktuální JSON z větve `main`. Pro konkrétní PSČ použij zejména `address_points`, `municipalities`, `municipality_parts`, `city_districts`, `prague_districts` a `validity_dates`. Manifest použij k posouzení stáří a původu dat. Všechna pracovní okna musí vycházet ze stejného committed inventáře; nevytvářej paralelní lokální seznamy ani znovu nestahuj celostátní archiv, pokud jsou aktuální referenční soubory dostupné.
+Před tvorbou, reworkem nebo auditem načti README a aktuální CSV z větve `main`. Pro konkrétní PSČ použij pouze pole, která CSV skutečně obsahuje: `address_points`, `municipalities`, `municipality_parts`, `city_districts` a `prague_districts`. CSV neobsahuje `validity_dates`; tuto hodnotu nikdy neodvozuj ani nevyráběj. Manifest použij k posouzení stáří a původu dat. Všechna pracovní okna musí vycházet ze stejného committed CSV inventáře; nevytvářej paralelní lokální seznamy ani znovu nestahuj celostátní archiv, pokud je aktuální CSV dostupné.
 
 Inventář je agregací výskytu PSČ na adresních místech v konkrétním zpracovaném RÚIAN feedu. Není náhradou číselníku ČSÚ 0028 pro oficiální evidenci PSČ, není důkazem PO-box-only statusu a nepotvrzuje polohu konkrétní turistické zajímavosti. Nepřítomnost PSČ v inventáři sama o sobě nedokazuje jeho neplatnost; případ musí být prověřen proti ČSÚ a případně aktuálním oficiálním datům. Geografickou vazbu každého faktu ověřuj samostatně podle oddílu 3.3.
 
@@ -841,7 +840,7 @@ Závazná hierarchie a pravidla:
 6. Pokud údaj nelze potvrdit ani v dostupných oficiálních online zdrojích, označ jej jako `unverified` / čeká na ověření, uveď co přesně chybí a pokračuj v ostatní bezpečné práci. Neoznačuj celý záznam za chybný jen kvůli nedostupnosti jednoho pomocného zdroje.
 7. Stejný zdrojový problém a jeho vyřešení nebo stav nevyřešení přenes do navazujícího pracovního okna. Neopakuj bezúčelně stejné pokusy; řiď se zaznamenaným výsledkem a aktualizuj jej pouze při nové kontrole.
 
-Příklad: pokud `ruian_postcodes.json` nelze načíst a CSV neobsahuje `validity_dates`, ověř dostupné územní údaje na oficiálním RÚIAN/ČÚZK a samostatně ověř příslušné PSČ/typ v odpovídajících číselnících ČSÚ. Nezaměňuj potvrzení PSČ v jednom číselníku za potvrzení jeho typu v jiném číselníku. Neověřené pole ponech nevyplněné nebo ve stavu určeném schématem; nikdy nevyráběj náhradní hodnotu.
+Příklad: pokud CSV neobsahuje `validity_dates`, ověř dostupné územní údaje na oficiálním RÚIAN/ČÚZK a samostatně ověř příslušné PSČ/typ v odpovídajících číselnících ČSÚ. Nezaměňuj potvrzení PSČ v jednom číselníku za potvrzení jeho typu v jiném číselníku. Neověřené pole ponech nevyplněné nebo ve stavu určeném schématem; nikdy nevyráběj náhradní hodnotu.
 ---
 ## 28. Povinná turistická, památková a místní objevitelská rešerše (doplňující vrstva)
 
