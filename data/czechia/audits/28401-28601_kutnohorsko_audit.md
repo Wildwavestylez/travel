@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti, dosud cíleně upraveny čtyři fakty v 28401. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno šest faktů v 28401 a 28403. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -145,6 +145,18 @@ Doplnění vychází z odborných a institucionálních zdrojů: studie o univer
 
 Tato kontrola je průběžná, nikoli dokončená pro celý blok. Neznamená automatické schválení ostatních 276 faktů.
 
+
+### Průběžná kontrola mezinárodní srozumitelnosti — 28403 Sedlec
+
+Při kontrole osmi faktů v PSČ 28403 byla odhalena skutečná závada v úplnosti překladů **fact_002 — Sedlecká katedrála**: německá a anglická verze byly úplné, ale španělská, francouzská, italská a nizozemská verze obsahovaly pouze závěrečné dvě věty. Všechny čtyři zkrácené překlady byly nahrazeny úplnými překlady českého masteru. Současně bylo ve všech šesti jazycích doplněno vysvětlení husitských válek jako náboženských a politických konfliktů v českých zemích spojených s reformním hnutím Jana Husa.
+
+Dále byla doplněna vysvětlení pojmů, které by zahraniční čtenář bez českého kulturního a církevního kontextu nemusel pochopit:
+- **fact_005 — kostel sv. Filipa a Jakuba:** ve všech šesti jazycích je vysvětlen význam odpustkové listiny a to, že „Boží hrob“ zde označuje zbožnou/devocionální reprezentaci Kristova hrobu.
+- **fact_008 — zámek Sedlec:** ve všech šesti jazycích je vysvětleno, že proboštství bylo sídlem probošta, církevního hodnostáře s administrativními úkoly v klášteře.
+
+Read-back potvrdil úplné verze fact_002 v šesti jazycích (délky 803–922 znaků), návrat začátku španělského textu i doplnění obou kontextových vysvětlení ve všech šesti jazycích (12/12). U fact_002 nebyl změněn český master ani translations.cs.
+
+
 ## 6. Délka českých master textů
 
 Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) byly v této fázi doplněny další čtyři krátké texty. Z pěti původně krátkých faktů tak zůstává **jeden fakt kratší než 350 znaků**.
@@ -207,7 +219,7 @@ Dokončeno:
 - inventář a porovnání 36/36 PSČ a **280 faktů**;
 - doplnění tří samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
 - sémantická kontrola všech 280 faktů v šesti cizojazyčných překladech;
-- průběžný čtenářský test mezinárodní srozumitelnosti: čtyři tematicky problematické fakty v 28401 doplněny ve všech šesti cizojazyčných verzích (24/24 read-back ověřeno);
+- průběžný čtenářský test mezinárodní srozumitelnosti: čtyři tematicky problematické fakty v 28401 doplněny ve všech šesti cizojazyčných verzích (24/24 read-back ověřeno) a v 28403 byly opraveny čtyři zkrácené překlady fact_002 i doplněna kontextová vysvětlení u fact_002, fact_005 a fact_008 (read-back ověřen);
 - 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
 - 0 explicitních location = null a 0 chybějících vlastností location v celém rozsahu;
 - 0 neplatných souřadnicových rozsahů a 0 neúplných metadat u vyplněných poloh;
@@ -215,7 +227,7 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004` a `28401/fact_003`, `fact_005`, `fact_016`, `fact_019`;
+1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004`, `28401/fact_003`, `fact_005`, `fact_016`, `fact_019` a `28403/fact_002`, `fact_005`, `fact_008`;
 2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
