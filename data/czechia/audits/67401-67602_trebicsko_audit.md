@@ -29,18 +29,19 @@ Hlavní regionální témata jsou převážně pokryta:
 - Hrotovická tragédie 8. 5. 1945 — 67555.
 - Babice 1951, Jan Bula, Otokar Březina, Vítězslav Nezval, Jakub Deml, Ludvík Svoboda a další regionální osobnosti jsou zastoupeny.
 
-### Otevřené významné historické téma
-1. **Třebíč 1468 — PSČ 67401:** obléhání 12. 5. a dobytí 14. 5. 1468 je zmíněno pouze kontextově v 67521/fact_003 (Heraltice); chybí samostatný hlavní příběh správně přiřazený Třebíči. Zvážit doplnění samostatného faktu do 67401, bez přesunu/mazání původního faktu.
+### Významná historická témata — obě zapracována a read-back ověřena
+1. **Třebíč 1468 — PSČ 67401:** doplněn samostatný hlavní fakt `67401/fact_009`, bez přesunu či mazání původních faktů. Zachycuje obležení 12. 5. a dobytí 14. 5. 1468, vypálení a zničení města i následnou obnovu, při níž vzniklo dnešní Karlovo náměstí. Český master má 635 znaků; všech 7 jazyků včetně `translations.cs` bylo doplněno a read-back ověřeno. Poloha používá přibližný orientační bod Karlova náměstí, nikoli tvrzení o přesném místě bojů.
    - Město Třebíč, historie v datech: https://www.trebic.cz/historie-mesta-v-datech/d-1385/p1%3D30143
    - Město Třebíč, historie: https://www.trebic.cz/historie-mesta/ms-30137/p1%3D30137
-2. **Jemnice 1468 — PSČ 67531:** zpustošení města uherským vojskem a konec předchozího rozmachu v hlavním faktu 67531/fact_001 chybí. Doplnit do stávajícího městského historického faktu, ne jako duplicitní samostatný příběh; doplnit doložený zdroj NPÚ.
-   - NPÚ, odborná nálezová zpráva Jemnice, část „Z historie Město Jemnice“: https://iispp.npu.cz/mis_public/documentDetail.htm?id=1261994 (text uvádí zpustošení roku 1468, strana 7/8 v textové části).
+2. **Jemnice 1468 — PSČ 67531:** doplněno do stávajícího hlavního historického faktu `67531/fact_001`, nikoli jako duplicitní samostatný příběh. Text nyní uvádí zpustošení a vypálení města uherským vojskem Matyáše Korvína a souvislost se zánikem místního hornictví. Český master a všech 6 cizojazyčných překladů byly aktualizovány; `translations.cs` přesně odpovídá masteru a read-back byl ověřen. Do zdrojů byl přidán odborný dokument NPÚ.
+   - NPÚ, odborná nálezová zpráva Jemnice, část „Z historie Město Jemnice“: https://iispp.npu.cz/mis_public/documentDetail.htm?id=1261994
+   - TIC Jemnice, historie města: https://www.tic.jemnice.cz/cs/historie-mesta
 
 ## 3. Dosavadní technické kontroly a opravy
 
 ### Inventář / struktura
 - 46/46 přesných PSČ v sequence, groups, RÚIAN CSV a Supabase.
-- 289 faktů.
+- 290 faktů (po doplnění samostatného faktu 67401/fact_009).
 - Všech 46 záznamů obsahuje všech sedm jazyků: cs, de, en, es, fr, it, nl.
 - Počty faktů v překladových polích odpovídají masterům; v cílené kontrole nebyl zjištěn rozdíl počtů.
 - 0 duplicitních názvů uvnitř jednotlivých PSČ.
@@ -154,10 +155,10 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 - Dokončit významovou kontrolu překladů de/en/es/fr/it/nl; ověřovat skutečné významové vady, nikoli stylistické preference.
 - Rychlá kontrola zjevných duplicit a chybných přiřazení napříč 46 PSČ (dosud neuzavřeno).
 - Ověřit správní údaje a sídlo obslužné pošty podle pravidel Content Standardu, pouze při konkrétním rozporu; neprovádět plošnou novou rešerši.
-- 31/31 krátkých master textů opraveno a read-back ověřeno; geografická část 59/59 původních null poloh je uzavřena; dvě historická témata výše zůstávají otevřená.
+- 31/31 krátkých master textů opraveno a read-back ověřeno; geografická část 59/59 původních null poloh je uzavřena; obě historická témata 1468 jsou zapracována a read-back ověřena.
 - Po každém zápisu načíst zpět pouze změněné PSČ/fakta. Nepoužívat opakované široké SELECT.
 - Žádné publikování V5/published, žádná záloha Dropbox, žádný Neon import, žádný read-only lock bez samostatného výslovného pokynu.
 
 ## 7. Přesný další krok
 
-31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Geografická část je uzavřena: 59/59 původních null poloh doplněno podle hierarchie prompt_rework a Content Standardu, 0 aktuálních null poloh. Další krok: zapracovat/uzavřít témata Třebíč 1468 a Jemnice 1468; poté dokončit otevřené významové kontroly překladů a rychlou kontrolu zjevných duplicit/přiřazení podle oddílu 6. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
+31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Geografická část je uzavřena: 59/59 původních null poloh doplněno podle hierarchie prompt_rework a Content Standardu, 0 aktuálních null poloh. Další krok: dokončit otevřené významové kontroly překladů a rychlou kontrolu zjevných duplicit/přiřazení podle oddílu 6. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
