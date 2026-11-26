@@ -61,7 +61,9 @@ Hlavní regionální témata jsou převážně pokryta:
   - `67554/fact_001` až `67554/fact_005`.
 - Cílený read-back změněných pěti PSČ potvrdil 0 neplatných mapových kategorií a 0 rozdílů `translations.cs`/master.
 
-## 4. Otevřené délkové nálezy — 31 faktů pod 350 znaků
+## 4. Délkové nálezy — 31/31 opraveno
+
+Všech 31 českých master textů kratších než 350 znaků bylo věcně rozšířeno a návazné překlady v de/en/es/fr/it/nl aktualizovány. Česká verze v `translations.cs` byla synchronizována s masterem.
 
 - 67505: fact_001
 - 67521: fact_001, fact_002, fact_003, fact_004, fact_006
@@ -72,7 +74,7 @@ Hlavní regionální témata jsou převážně pokryta:
 - 67534: fact_004
 - 67555: fact_001, fact_002, fact_003, fact_005, fact_006, fact_007, fact_010, fact_012
 
-Doplnit pouze české master texty konkrétními ověřitelnými informacemi na nejméně 350 znaků; následně přirozeně aktualizovat de/en/es/fr/it/nl. Délku cizojazyčných textů nehodnotit. Pokud nelze bezpečně doplnit, označit konkrétní fakt REVIEW REQUIRED.
+**Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
 ## 5. Otevřené geografické nálezy — 59 null poloh
 
@@ -104,10 +106,10 @@ U každého se pokusit dohledat obhajitelnou polohu podle prompt_rework a Conten
 - Dokončit významovou kontrolu překladů de/en/es/fr/it/nl; ověřovat skutečné významové vady, nikoli stylistické preference.
 - Rychlá kontrola zjevných duplicit a chybných přiřazení napříč 46 PSČ (dosud neuzavřeno).
 - Ověřit správní údaje a sídlo obslužné pošty podle pravidel Content Standardu, pouze při konkrétním rozporu; neprovádět plošnou novou rešerši.
-- Dovyřešit 31 krátkých master textů, 59 null poloh a dvě historická témata výše.
+- 31/31 krátkých master textů opraveno a read-back ověřeno; zbývá 59 null poloh a dvě historická témata výše.
 - Po každém zápisu načíst zpět pouze změněné PSČ/fakta. Nepoužívat opakované široké SELECT.
 - Žádné publikování V5/published, žádná záloha Dropbox, žádný Neon import, žádný read-only lock bez samostatného výslovného pokynu.
 
 ## 7. Přesný další krok
 
-Pokračovat z již načtených dat nejprve významovou kontrolou a opravou 31 krátkých českých master textů (včetně všech šesti cizojazyčných návazností), poté projít 59 null poloh podle doložitelných zdrojů. Zároveň zapracovat/uzavřít témata Třebíč 1468 a Jemnice 1468. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
+31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Další krok: projít 59 null poloh podle geografické hierarchie prompt_rework a Content Standardu; poté zapracovat/uzavřít témata Třebíč 1468 a Jemnice 1468. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
