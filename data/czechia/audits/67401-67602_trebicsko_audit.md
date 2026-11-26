@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 41/59 poloh doplněno, 18 otevřeno
+## 5. Geografické nálezy — 42/59 poloh doplněno, 17 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -121,10 +121,11 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67544/fact_007 — historické jádro Martínkova; orientační bod obce a rodiště Václava Kosmáka.
 - 67553/fact_004 — historické jádro Valče; orientační bod bývalého panství.
 - 67573/fact_006 — železniční stanice Rapotice; publikované souřadnice stanice.
+- 67578/fact_004 — Čikovská doubrava nad Oslavou; reprezentativní bod doložen botanickým floristickým záznamem pro tuto lokalitu.
 
-Všech 41 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+Všech 42 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
 
-### Zbývá prověřit — 18 faktů
+### Zbývá prověřit — 17 faktů
 - 67504: fact_003
 - 67508: fact_003
 - 67523: fact_001, fact_006
@@ -139,7 +140,6 @@ Všech 41 změn bylo po zápisu načteno zpět a hodnoty location odpovídají u
 - 67574: fact_003
 - 67576: fact_005
 - 67577: fact_006
-- 67578: fact_004
 
 U každého zbylého faktu dohledat konkrétní bod nebo vhodný veřejný orientační bod podle hierarchie prompt_rework a Content Standardu. Pokud bod nelze odpovědně doložit, ponechat null a zaznamenat důvod. Nezkoumat ani nepřeměřovat již neprázdné polohy; nekopírovat representative_point/access_point.
 ## 6. Další kontroly, které zůstávají otevřené
