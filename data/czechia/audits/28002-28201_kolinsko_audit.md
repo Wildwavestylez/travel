@@ -99,7 +99,7 @@ Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. S�
 
 **Výsledek: REVIEW REQUIRED.** Hlavní turistická mezera byla doplněna a potvrzené překladové nesoulady opraveny. Blok zatím nelze označit PASS kvůli nedokončené úplné sémantické kontrole překladů. Deset zbývajících `location: null` má zdokumentovaný důvod. V dávce 28143/28144/28146 bylo doplněno šest dříve nezaznamenaných null poloh: 28143/fact_001 a 28146/fact_001, fact_004, fact_005, fact_007 a fact_008.
 
-Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: pokračovat sémantickou kontrolou faktů a všech šesti cizojazyčných verzí v další dávce PSČ 28151, 28161 a 28162. Vyřešení překryvů `28126/fact_007–008` je zaznamenáno v bodě 9; hotové překladové kontroly neopakovat.
+Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Další krok: pokračovat sémantickou kontrolou faktů a všech šesti cizojazyčných verzí v další dávce PSČ 28163, 28166 a 28167. Vyřešení překryvů `28126/fact_007–008` je zaznamenáno v bodě 9; hotové překladové kontroly neopakovat.
 
 
 ## 8. Dávka 28143, 28144 a 28146 — dokončeno
