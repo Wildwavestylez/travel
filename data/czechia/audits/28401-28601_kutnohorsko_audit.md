@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno sedm faktů v 28401 a 28403, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; sedm cíleně prověřených faktů v 28401 a 28403 má nyní ověřená kontextová vysvětlení v šesti jazycích, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -237,3 +237,22 @@ Otevřeno:
 2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
+
+
+### Read-back a obnovení kontextových doplnění — 28401
+
+Při pokračování auditu byl proveden nový přímý read-back z Supabase. Ukázal, že čtyři kontextová vysvětlení v překladech 28401, která předchozí verze tohoto reportu již uváděla jako hotová, v aktuálně uloženém JSONB obsahu faktů chyběla. Nešlo tedy pouze o další kontrolní zjištění: report a databázový obsah nebyly v tomto bodě synchronní. Všechna čtyři doplnění byla znovu zapsána do skutečných překladových polí a následně ověřena.
+
+- **fact_003 — Kutnohorský dekret:** vysvětlení středověkých univerzitních národů jako čtyř korporativních skupin pražské univerzity, nikoli moderních národností.
+- **fact_005 — kostel sv. Jakuba:** vysvětlení utrakvistů, jejich vazby na českou reformní tradici a přijímání pod obojí způsobou.
+- **fact_016 — Josef Kajetán Tyl:** vysvětlení Fidlovačky jako jarní slavnosti pražských ševců, která dala název Tylově frašce.
+- **fact_019 — vypálení Kutné Hory:** zasazení do husitských válek a stručné objasnění role Jana Žižky a táborského proudu husitství.
+
+Doplnění byla zapsána do všech šesti cizojazyčných sad (24 překladových položek). Přidány byly také čtyři věcné zdroje do katalogu `content.sources` a k příslušným faktům: studie Cambridge University Press k univerzitním národům, odborná studie k utrakvismu v *Catholic Historical Review*, historie slavnosti Fidlovačka na webu Divadla Na Fidlovačce a historická studie *The Hussite Wars* z University of Warwick.
+
+Read-back potvrdil:
+- 4/4 faktů mají doplněný kontext ve všech šesti jazycích (24/24);
+- všechny čtyři nové zdroje jsou v katalogu `content.sources` a přiřazeny k odpovídajícím faktům;
+- počet jazykových položek zůstal zachován; české master texty ani `translations.cs` nebyly změněny.
+
+Tím je znovu potvrzena cílená kontextová kontrola sedmi faktů v 28401 a 28403. **Nejde o dokončení plošného auditu mezinárodní srozumitelnosti**; ten nadále zbývá pro ostatní fakta celého rozsahu.
