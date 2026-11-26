@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno a čtyři z pěti krátkých master textů rozšířeny; zbývá jeden krátký text a nejednoznačné zdrojové aliasy.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; zbývá jeden krátký text.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -95,7 +95,16 @@ Read-back potvrdil:
 - 0 nevyřešených referencí v těchto dvou záznamech;
 - žádné chybějící URL.
 
-Zbývá nejednoznačnost u záznamů **28522, 28523, 28525 a 28531**: fakta používají aliasy `s1`, `s2` atd., ale katalogové objekty zdrojů nemají explicitní `id`. Cílená kontrola ukázala, že prosté přiřazení podle pořadí katalogu není bezpečným důkazem: například `28522/fact_008` odkazuje na `s12`, jehož dvanáctá položka by byla historie Pertoltic, nikoli střelba v Dolní Pohledi; `28523/fact_001` používá `s3`, jehož třetí položka je cyklotrasa; a `28531/fact_006` používá `s18` a `s19`, které by podle pořadí odpovídaly číselníku PSČ a inventáři RÚIAN, nikoli historické urbanistické kompozici. Tyto příklady neprokazují původní mapování aliasů, ale vylučují bezpečné automatické odvození jen z aktuálního pořadí. Označeno `REVIEW REQUIRED`; reference nebyly svévolně přemapovány.
+### Oprava a normalizace zdrojových vazeb (28522, 28523, 28525, 28531)
+
+U čtyř záznamů byly všechny aliasové reference `sN` v `facts[].sources` nahrazeny explicitními URL. Mapování nebylo odvozeno pouhým pořadím katalogu; každá vazba byla posouzena podle názvu a obsahu příslušného faktu a zdrojové stránky. Katalog `content.sources` zůstal bez identifikátorů, jak vyžaduje schéma; do faktů se nyní ukládají přímo URL, takže jejich vazba není závislá na pořadí katalogu.
+
+- **28522:** všech osm faktů má explicitní URL zdrojů. U `fact_008` byla navíc odhalena věcná chyba: původní text uváděl šest obětí, ale dvě nezávislé místní historické stránky dokládají **sedm zastřelených mužů a pět zraněných** dne 8. května 1945. Český master i všech šest překladů byly opraveny; do katalogu byly doplněny Zručské noviny 5/2020 a oficiální historie Dolní Pohledě.
+- **28523:** u `fact_001` byla odstraněna chybná vazba na cyklotrasu a nahrazena historickým a památkovým přehledem Mikroregionu Posázavský kruh. Ostatní faktové odkazy byly převedeny na explicitní URL podle skutečného obsahu zdrojů.
+- **28525:** u `fact_001` byl odstraněn nerelevantní adresní bod Měšec, který nedokládal historické tvrzení o městečku a tvrzi. Ostatní vazby byly převedeny na explicitní URL.
+- **28531:** u `fact_006` byly odstraněny chybné vazby na číselník PSČ a inventář RÚIAN. Nahrazeny byly oficiálním obrazovým/historickým materiálem městyse, strategickým plánem a odbornou studií Martina Webera *Barokní tvář krajiny Novodvorska* (Prameny a studie 74).
+
+Kontrolní SQL read-back po zápisu potvrdil ve všech čtyřech záznamech **0 zbývajících aliasů `sN` a 0 URL, které by chyběly v katalogu `content.sources`**. Zkontrolované opravené fakty mají po sedmi jazykových verzích; u `28522/fact_008` je český překlad shodný s masterem.
 
 ## 5. Překlady a sémantická kontrola
 
@@ -191,7 +200,6 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
-2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
+1. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
