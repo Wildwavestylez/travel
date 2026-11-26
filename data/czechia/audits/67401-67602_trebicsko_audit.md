@@ -154,7 +154,7 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 
 ## 6. Další kontroly, které zůstávají otevřené
 
-- Významová kontrola překladů de/en/es/fr/it/nl probíhá: dokončeno 3/46 záznamů (67401, 67521, 67531), celkem 22 faktů a 132 cizojazyčných překladů. Strukturální kontrola těchto záznamů: 0 prázdných/chybějících cizojazyčných textů a 0 rozdílů `translations.cs` proti masteru. Opraveny 3 překladové položky v 67401: fact_006 (es – gramatický rod v názvu a textu; it – shoda přísudku), fact_009 (it – chybný význam slova `ricostruzione`, nahrazeno `resoconto`). V 67521 a 67531 nebyla zjištěna další významová vada. Zbývá 43/46 záznamů; opravovat skutečné významové vady, nikoli stylistické preference.
+- Významová kontrola překladů de/en/es/fr/it/nl probíhá: dokončeno 4/46 záznamů (67401, 67521, 67522, 67531), celkem 29 faktů a 174 cizojazyčných překladů. Strukturální kontrola těchto záznamů: 0 prázdných/chybějících cizojazyčných textů a 0 rozdílů `translations.cs` proti masteru. Opraveny 3 překladové položky v 67401: fact_006 (es – gramatický rod v názvu a textu; it – shoda přísudku), fact_009 (it – chybný význam slova `ricostruzione`, nahrazeno `resoconto`). V 67521, 67522 a 67531 nebyla zjištěna další významová vada. Zbývá 42/46 záznamů; opravovat skutečné významové vady, nikoli stylistické preference.
 - Rychlá kontrola zjevných duplicit a chybných přiřazení napříč 46 PSČ (dosud neuzavřeno).
 - Ověřit správní údaje a sídlo obslužné pošty podle pravidel Content Standardu, pouze při konkrétním rozporu; neprovádět plošnou novou rešerši.
 - 31/31 krátkých master textů opraveno a read-back ověřeno; geografická část 59/59 původních null poloh je uzavřena; obě historická témata 1468 jsou zapracována a read-back ověřena.
@@ -163,4 +163,4 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 
 ## 7. Přesný další krok
 
-31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Geografická část je uzavřena: 59/59 původních null poloh doplněno podle hierarchie prompt_rework a Content Standardu, 0 aktuálních null poloh. Další krok: pokračovat v sémantické kontrole zbývajících 43 záznamů v šesti cizojazyčných verzích; následně uzavřít rychlou kontrolu zjevných duplicit/přiřazení podle oddílu 6. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
+31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Geografická část je uzavřena: 59/59 původních null poloh doplněno podle hierarchie prompt_rework a Content Standardu, 0 aktuálních null poloh. Další krok: pokračovat v sémantické kontrole zbývajících 42 záznamů v šesti cizojazyčných verzích; následně uzavřít rychlou kontrolu zjevných duplicit/přiřazení podle oddílu 6. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
