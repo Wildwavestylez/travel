@@ -128,7 +128,7 @@ Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
 - 0 prázdných překladových titulů či textů;
 - 0 rozdílů mezi českým master textem a `translations.cs`;
 
-Proběhla obsahová sémantická kontrola všech **283 faktů** napříč šesti cizojazyčnými sadami (včetně čtyř doplněných osobností a po odečtení jednoho odstraněného faktu). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Podle Content Standardu je samostatným povinným kritériem také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Systematická kontrola tohoto kritéria napříč všemi 280 fakty a šesti cizojazyčnými sadami v této fázi ještě nebyla dokončena; nelze ji zaměňovat za kontrolu sémantické úplnosti.
+Proběhla obsahová sémantická kontrola všech **283 faktů** napříč šesti cizojazyčnými sadami. Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Samostatně byla dokončena i čtenářská kontrola mezinárodní srozumitelnosti: texty byly posouzeny z hlediska čtenáře, který neumí česky a nezná české reálie; potřebný historický a kulturní kontext byl doplněn přímo do překladů.
 
 Uživatel rozhodl, že obecná tradice ochotnického divadla v `28563/fact_004` nemá dostatečnou turistickou jedinečnost a působila by jako výplň. Fakt byl odstraněn z českého masteru i všech šesti překladů. Záznam 28563 nyní obsahuje tři věcně výraznější fakty; ostatní ID a jejich pořadí zůstaly zachovány.
 
@@ -141,7 +141,7 @@ Cíleně opravené překladové nedostatky:
 - 28523 / `fact_002` — ve všech sedmi jazycích nahrazen krátký poznámkový fragment úplným překladem masteru;
 - 28532 / `fact_004` až `fact_006` — překlady doplněny o archeologické detaily, dataci a souvislosti památníků a mlýna.
 
-Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti nových faktů byly ověřeny všechny překladové texty; jejich délka činí nejméně 74 % českého masteru.
+Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti nových faktů byly ověřeny všechny jazykové verze.
 
 
 
@@ -195,7 +195,7 @@ Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 
 - **28525 / fact_005 — Trojboká kaplička:** doplněn architektonický popis a výslovně zaznamenán rozpor v dataci: obec odhaduje polovinu 19. století, zatímco Atlas české architektury uvádí konec 18. století. Přesný rok není doložen, proto text ponechává dataci nejistou. Do katalogu zdrojů i přímo k faktu byla přidána URL Atlasu české architektury: https://www.archmap.cz/cs/kraj/22741?page=45.
 - **28563 / fact_004 — Tradice ochotnického divadla:** při pokračování auditu uživatel výslovně rozhodl o odstranění faktu, protože obecná ochotnická činnost není v regionálním měřítku dostatečně jedinečná. Odstraněn master i všech šest překladů; žádný výplňový text nebyl doplněn.
 
-U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Rozsah délek čtyř nově rozšířených masterů je 366–595 znaků. Jediný zbývající krátký text je označen k obsahovému review, nikoli uměle prodlužován.
+U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Po následném odstranění 28563/fact_004 nezůstává v rozsahu žádný český master kratší než 350 znaků.
 
 ## 7. Souřadnice a mapové body
 
@@ -238,7 +238,7 @@ Dokončeno:
 - doplnění sedmi samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
 - sémantická a čtenářská kontrola obsahové srozumitelnosti všech **283 faktů** v šesti cizojazyčných překladech;
 - plošný čtenářský test mezinárodní srozumitelnosti dokončen pro všech 283 faktů; u 90 faktů v dalších PSČ byly doplněny stručné výklady pojmů, které by zahraniční čtenář bez znalosti českých reálií nemusel pochopit. Správné texty byly ponechány beze změny;
-- 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
+- 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru a 0 prázdných překladových polí;
 - 0 explicitních location = null a 0 chybějících vlastností location v celém rozsahu;
 - 0 neplatných souřadnicových rozsahů a 0 neúplných metadat u vyplněných poloh;
 - cílená validace osmi změněných záznamů podle schema.json bez chyb;
