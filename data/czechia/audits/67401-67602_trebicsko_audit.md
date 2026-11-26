@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 20/59 poloh doplněno, 39 otevřeno
+## 5. Geografické nálezy — 24/59 poloh doplněno, 35 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -99,10 +99,14 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67545/fact_004 — historický mlýn a pila v Milaticích; GPS databáze vodních mlýnů.
 - 67553/fact_002 — kostel Povýšení sv. Kříže ve Valči; publikované GPS kostela.
 - 67573/fact_003 — kostel sv. Martina v Kralicích nad Oslavou; publikované souřadnice objektu.
+- 67573/fact_004 — dvojice středověkých hrádků nad Chvojnicí; jako reprezentativní bod zvolen horní hrádek.
+- 67573/fact_005 — historické jádro Rapotic; přibližný orientační bod obce pro příběh Rapotic a zaniklého Zašova.
+- 67577/fact_004 — historické jádro Kramolína; přibližný orientační bod obce.
+- 67578/fact_001 — historické jádro Čikova; přibližný orientační bod obce.
 
-Všech 20 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+Všech 24 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
 
-### Zbývá prověřit — 39 faktů
+### Zbývá prověřit — 35 faktů
 - 67504: fact_003
 - 67508: fact_003
 - 67521: fact_003, fact_005, fact_006
@@ -118,11 +122,11 @@ Všech 20 změn bylo po zápisu načteno zpět a hodnoty location odpovídají u
 - 67545: fact_002
 - 67553: fact_004
 - 67557: fact_007
-- 67573: fact_004–fact_006
+- 67573: fact_006
 - 67574: fact_003
 - 67576: fact_005
-- 67577: fact_004, fact_006
-- 67578: fact_001, fact_004
+- 67577: fact_006
+- 67578: fact_004
 
 U každého zbylého faktu dohledat konkrétní bod nebo vhodný veřejný orientační bod podle hierarchie prompt_rework a Content Standardu. Pokud bod nelze odpovědně doložit, ponechat null a zaznamenat důvod. Nezkoumat ani nepřeměřovat již neprázdné polohy; nekopírovat representative_point/access_point.
 ## 6. Další kontroly, které zůstávají otevřené
