@@ -140,7 +140,7 @@ Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 
 - **28525 / fact_005 — Trojboká kaplička:** doplněn architektonický popis a výslovně zaznamenán rozpor v dataci: obec odhaduje polovinu 19. století, zatímco Atlas české architektury uvádí konec 18. století. Přesný rok není doložen, proto text ponechává dataci nejistou. Do katalogu zdrojů i přímo k faktu byla přidána URL Atlasu české architektury: https://www.archmap.cz/cs/kraj/22741?page=45.
 - **28563 / fact_004 — Tradice ochotnického divadla:** další věrohodné konkrétní údaje nad rámec již uvedeného založení v roce 1867, zakladatele Horáka a ukončení činnosti v roce 1962 nebyly nalezeny. Text zůstává beze změny; bez výplňových informací.
 
-U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Rozsah délek čtyř nově rozšířených masterů je 366–595 znaků. Jediný zbývající krátký text je označen k obsahovému review, nikoli uměle prodlužován.
+U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Rozsah délek čtyř nově rozšířených masterů je 366–595 znaků. Jediný zbývající krátký text je označen k obsahovému review, nikoli uměle prodlužován.
 
 ## 7. Souřadnice a mapové body
 
