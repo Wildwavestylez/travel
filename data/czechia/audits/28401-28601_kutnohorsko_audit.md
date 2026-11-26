@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — sémantická kontrola dokončena, 38 z 44 původně chybějících poloh doplněno; zbývá 6 nejednoznačných poloh a auditní položky.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno; zbývají zdrojové aliasy, obsahové review a případná rodilá korektura.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -11,7 +11,7 @@
 Rozsah byl sestaven z `data/czechia/sequence.json`, odpovídající skupiny `Středočeský kraj – řada 28xxx` a sdíleného RÚIAN inventáře `data/czechia/reference/ruian_postcodes.csv`.
 
 - **36/36 PSČ** nalezeno v sekvenci, příslušné skupině, RÚIAN inventáři i Supabase.
-- **275 faktů** v 36 záznamech.
+- **280 faktů** v 36 záznamech.
 - Nejvyšší skutečně evidované PSČ v tomto rozsahu je `28601`; v sekvenci nejsou žádná PSČ `287xx`.
 - `sequence.json` ani pořadí PSČ nebyly změněny.
 
@@ -32,36 +32,37 @@ Byly však potvrzeny tyto významné obsahové mezery:
 
 ### HIGH — 28401 Kutná Hora: osobnosti
 
-V existujících 15 faktech chybí významné kutnohorské osobnosti:
-- **Josef Kajetán Tyl (1808–1856)** — narodil se v Kutné Hoře; zásadní dramatik českého národního obrození a autor textu české hymny.
-- **Mikuláš Dačický z Heslova (1555–1626)** — kutnohorský rodák, kronikář a autor Pamětí; významný pramen k dějinám města i širším českým dějinám.
-- **Jiří Orten (1919–1941)** — kutnohorský rodák a významný český básník.
+Do databáze byly doplněny tři samostatné příběhy:
+- **fact_016 — Josef Kajetán Tyl (1808–1856):** rodný dům v Kutné Hoře, české divadlo, Kajetánské divadlo a píseň Kde domov můj z Fidlovačky, jejíž text se stal základem české hymny.
+- **fact_017 — Mikuláš Dačický z Heslova (1555–1626):** rodák z Dačického domu, autor Pamětí a kronikář každodenního života, požárů, epidemií i politických a náboženských událostí.
+- **fact_018 — Jiří Orten (1919–1941):** kutnohorský rodák, jeho školní léta, nucený odchod z konzervatoře kvůli židovskému původu, literární pseudonymy a hlavní sbírky.
 
-Doporučené zdroje:
-- České muzeum stříbra — Josef Kajetán Tyl: https://www.cms-kh.cz/node/21
+Každý příběh má samostatný bod u příslušného rodného domu a plné překlady do jazyků de, en, es, fr, it a nl.
+
+Zdroje:
+- České muzeum stříbra — Tylův dům: https://www.cms-kh.cz/tyluv-dum-expozice
 - Národní divadlo — Josef Kajetán Tyl: https://www.narodni-divadlo.cz/cs/profil/josef-kajetan-tyl-1594657
-- České muzeum stříbra / Kutnohorsko 3/2000 — Mikuláš Dačický: https://www.cms-kh.cz/sites/default/files/books/kutnohorsko-vlastivedny_sbornik_03-00.pdf
-- UČL AV ČR — Slovník českých spisovatelů, Mikuláš Dačický: https://edicee.ucl.cas.cz/images/data/prirucky/obsah/Slovn%C3%ADk%20%C4%8Desk%C3%BDch%20spisovatel%C5%AF/%C4%8Capek%20-%20Fuks%20%28s.%2055-110%29.pdf
+- Úřad vlády — vznik písně Kde domov můj: https://vlada.gov.cz/assets/urad-vlady/vydavatelstvi/vydane-publikace/Hymna.pdf
+- Dačického dům — historie domu a rodiště Mikuláše Dačického: https://www.dacickehodum.cz/cs/historie-dacickeho-domu/
+- Biografický slovník českých zemí, HIÚ AV ČR — Mikuláš Dačický: https://biography.hiu.cas.cz/wiki/DA%C4%8CICK%C3%9D_z_Heslova_Mikul%C3%A1%C5%A1_1555%E2%80%931626
 - Klub rodáků a přátel Kutné Hory — Jiří Orten: https://www.klubrodaku-kutnahora.cz/vyznacni-rodaci/jiri-orten/
 
 ### HIGH — 28401 Kutná Hora: vypálení města roku 1424
 
-Chybí samostatné zachycení úplného vypálení Kutné Hory vojskem Jana Žižky po bitvě u Malešova 17. června 1424. Nejde o duplicitu bitvy u Malešova, která má primární přiřazení v PSČ 28541: samostatným místem události a jejím důsledkem je Kutná Hora (28401).
+Doplněn **fact_019 — Vypálení Kutné Hory roku 1424**. Příběh výslovně odděluje bitvu u Malešova (17. června 1424) od následného dobytí a úplného vypálení Kutné Hory. Zásadní je také rozlišení od předchozího požáru z ledna 1422: tehdy ustupující Zikmund nechal město zapálit na čtyřech stranách a část zástavby se podařilo zachránit; roku 1424 Žižkovo vojsko město vypálilo docela. Text dále popisuje následné přerozdělení opuštěných domů, zahrad, dolů a mlýnů mezi obyvatele, kteří zůstali.
 
-Odborná publikace Josefa Šimka navíc rozlišuje dřívější částečné vypálení města Zikmundovým vojskem v roce 1422 a úplné zničení v roce 1424. Při případném zpracování je vhodné obě události zasadit do jednoho souvislého příběhu, nikoli zaměňovat s vlastní bitvou u Malešova.
+Fakt má orientační bod v historickém centru Kutné Hory (historical_approximate) a úplné překlady do všech šesti cizích jazyků.
 
-Zdroj: Josef Šimek, *Kutná Hora v XV. a XVI. století*, s. 4–5: https://www.muzeumkh.cz/sites/default/files/books/simek-kutna-hora.pdf
+Zdroj: Josef Šimek, *Kutná Hora v XV. a XVI. století*, zejména s. 4–5: https://www.cms-kh.cz/sites/default/files/books/simek-kutna-hora.pdf
 
 ### HIGH — 28601 Čáslav: Čáslavský sněm roku 1421
 
-V sedmi existujících faktech chybí samostatný fakt o Čáslavském sněmu z 3.–7. června 1421. Jednání probíhala v kostele sv. Petra a Pavla; sněm schválil husitský program čtyř pražských artikulů, odmítl Zikmunda a ustavil dvacetičlennou zemskou vládu, do níž byl zvolen i Jan Žižka. Jde o událost celostátního významu a přímé spojení s městem.
+Doplněn **fact_008 — Čáslavský sněm roku 1421**. Text zachycuje jednání 3.–7. června 1421 v kostele sv. Petra a Pavla, přijetí čtyř pražských artikulů jako zemského zákona, odmítnutí Zikmundovy korunovace a zvolení dvacetičlenné zemské vlády, v níž byl zastoupen také Jan Žižka a královská města. Bod mapy je na skutečném místě jednání sněmu.
 
-Zdroje:
-- Město Čáslav — oficiální historie: https://www.meucaslav.cz/radnice/mesto/historie/
-- Čáslavský sněm 1421 — odborný historický přehled: https://caslav.evangnet.cz/archiv/caslavsky_snem_1421/caslavsky_snem_1421.pdf
-- AHISTO — regest usnesení z 7. června 1421: https://www.rbmonline.cz/portal/regest/2b42d26aaa
+Zdroj: https://caslav.evangnet.cz/archiv/caslavsky_snem_1421/caslavsky_snem_1421.pdf
 
-**Nové fakty zatím nebyly do databáze přidány.** Jde o auditní nálezy připravené pro následné doplnění; tím se předejde neodsouhlasenému rozšiřování obsahu a zachová se oddělení auditu od reworku.
+**Všech pět nových faktů bylo uloženo do Supabase a zpětně načteno.** České master texty jsou synchronizované s translations.cs; všechny nové fakty mají sedm jazykových verzí.
+
 
 ## 3. PSČ, správní údaje a duplicity
 
@@ -105,7 +106,7 @@ Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
 - 0 rozdílů mezi českým master textem a `translations.cs`;
 - 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru.
 
-Proběhla obsahová sémantická kontrola všech **275 faktů** napříč šesti cizojazyčnými sadami. Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Nejde o certifikovanou korekturu rodilými mluvčími.
+Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Nejde o certifikovanou korekturu rodilými mluvčími.
 
 Cíleně opravené překladové nedostatky:
 - 28501 / `fact_002` — plný překlad doplněn o 69 hrobů, ostatky 72 osob, uspořádání ve třech dlouhých domech, dobu využívání pohřebiště 75–100 let a uložení nálezů v Národním muzeu; česká položka synchronizována s masterem;
@@ -116,7 +117,7 @@ Cíleně opravené překladové nedostatky:
 - 28523 / `fact_002` — ve všech sedmi jazycích nahrazen krátký poznámkový fragment úplným překladem masteru;
 - 28532 / `fact_004` až `fact_006` — překlady doplněny o archeologické detaily, dataci a souvislosti památníků a mlýna.
 
-Read-back potvrdil opravené texty a synchronizaci českých masterů.
+Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti nových faktů byly ověřeny všechny překladové texty; jejich délka činí nejméně 74 % českého masteru.
 
 
 ## 6. Délka českých master textů
@@ -142,21 +143,34 @@ Tyto položky zůstávají doporučeným obsahovým review, nikoli automatickým
 
 ## 7. Souřadnice a mapové body
 
-- Po cíleném geokódování a doplnění reprezentativních bodů zůstává v bloku **6 faktů s `location = null`**; z původních 44 null poloh bylo 38 vyřešeno.
-- Nové a opravené polohy používají zdroj, název, typ, adresu a míru přesnosti. Přesné body jsou označeny `exact`, přibližné `approximate` a body pro širší lokalitu `area_representative`.
-- Read-back potvrdil 0 neplatných souřadnicových rozsahů a 0 vyplněných poloh bez povinných metadat.
-- Byly opraveny také zjevné záměny poloh mezi obcemi u záznamů 28502, 28532, 28547, 28574, 28575 a 28576.
-- Finální kontrola enumu potvrdila 0 neplatných `location.type`.
+- Všech 280 faktů v rozsahu má nyní přítomné pole location; **0 explicitních null a 0 chybějících vlastností location**.
+- Při této fázi bylo vyřešeno všech šest null poloh uvedených v předchozím auditu a navíc čtyři dříve přehlédnuté chybějící vlastnosti location u faktů v PSČ 28601.
+- Kontrola celého rozsahu 36 PSČ potvrdila 0 neplatných souřadnicových rozsahů a 0 vyplněných poloh bez povinných metadat.
+- Kontrola proti schema.json u osmi změněných záznamů vrátila 0 validačních chyb; 0 neplatných location.type.
+- Nové a opravené body mají doložený zdroj, název, typ a přesnost. Přesné body jsou označeny exact, přibližné approximate, reprezentativní body rozlehlých území area_representative a veřejné orientační body pro historické události nebo neurčené polohy historical_approximate.
 
-Zbývajících šest null poloh:
-- 28501 / `fact_002` — pohřebiště Miskovice 2 / Velký Patera; přesný bod samotného naleziště se nepodařilo bezpečně určit;
-- 28502 / `fact_006` — socha sv. Markéty u silnice na Miskovice; bez ověřené přesné polohy;
-- 28522 / `fact_008` — místo střelby na silnici mezi Slavošovem a Dolní Pohlédí; přesný bod není doložen;
-- 28525 / `fact_005` — trojboká kaplička na okraji Bohdanče; nalezen popis polohy, nikoli bezpečně ověřené souřadnice;
-- 28547 / `fact_004` — fakt sdružuje tři sochy na různých místech, jeden bod by byl zavádějící;
-- 28562 / `fact_002` — širší archeologické území jihozápadně od Hostovlic bez přesně vymezeného bodu.
+### Vyřešené polohy z původních šesti null
 
-`explorer_map_points` bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu nebyly nalezeny žádné mapové body. Žádná ruční synchronizace mapového indexu nebyla provedena.
+| PSČ / fakt | Uložená poloha | Přesnost |
+|---|---|---|
+| 28501 / fact_002 | Bylany – veřejný orientační bod pro archeologickou lokalitu Miskovice 2 | historical_approximate |
+| 28502 / fact_006 | Centrum Suchdola – veřejný orientační bod obce | historical_approximate |
+| 28522 / fact_008 | Náves Dolní Pohleď – veřejný orientační bod pro událost na okolní silnici | historical_approximate |
+| 28525 / fact_005 | Bohdaneč 97 – veřejný orientační bod obce | historical_approximate |
+| 28547 / fact_004 | Socha sv. Šebestiána u čp. 140 – reprezentativní bod souboru tří soch | area_representative |
+| 28562 / fact_002 | Náves Hostovlice – veřejný orientační bod pro lokalitu Na svatě | historical_approximate |
+
+U těchto šesti záznamů nebyla poloha vydávána za přesné zaměření samotného objektu. Tam, kde přesný bod nebylo možné doložit, byl zvolen veřejný orientační bod nebo reprezentativní poloha podle pravidel promptu.
+
+### Čtyři doplněné polohy u PSČ 28601
+
+Při read-backu se ukázalo, že čtyři starší fakty v Čáslavi neměly vlastnost location vůbec (nešlo o explicitní JSON null). Byly doplněny:
+- fact_001 — Čáslavský Hrádek, přesný bod hradiště (exact);
+- fact_005 — náměstí Jana Žižky z Trocnova jako veřejný orientační bod pro čáslavské rodáky (historical_approximate);
+- fact_006 — bývalé Závody Kosmos, poloha historického továrního areálu (approximate);
+- fact_007 — archeologický areál zaniklé komendy v Drobovicích (area_representative).
+
+explorer_map_points bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu nebyly nalezeny žádné mapové body. Žádná ruční synchronizace mapového indexu nebyla provedena.
 
 
 ## 8. Výsledek a další krok
@@ -164,20 +178,18 @@ Zbývajících šest null poloh:
 **Výsledek: REVIEW REQUIRED.**
 
 Dokončeno:
-- inventář a porovnání 36/36 PSČ a 275 faktů;
-- sémantická kontrola všech 275 faktů ve všech šesti cizojazyčných překladech;
-- 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů `translations.cs` proti masteru a 0 cizojazyčných textů pod 35 % délky masteru;
-- opravy významových vynechávek v 28501, 28504, 28506, 28522, 28523 a 28532;
-- oprava 2 mapových kategorií a normalizace typů poloh podle schématu;
-- doplnění či oprava 38 poloh, 6 nejednoznačných null poloh zůstává;
-- normalizace zdrojových referencí v 28563 a 28564.
+- inventář a porovnání 36/36 PSČ a **280 faktů**;
+- doplnění tří samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
+- sémantická kontrola všech 280 faktů v šesti cizojazyčných překladech;
+- 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
+- 0 explicitních location = null a 0 chybějících vlastností location v celém rozsahu;
+- 0 neplatných souřadnicových rozsahů a 0 neúplných metadat u vyplněných poloh;
+- cílená validace osmi změněných záznamů podle schema.json bez chyb;
+- oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. doplnit zásadní osobnosti Kutné Hory (Tyl, Dačický, Orten);
-2. doplnit příběh vypálení Kutné Hory v roce 1424 (samostatně od bitvy u Malešova);
-3. doplnit Čáslavský sněm 1421;
-4. podle nových zdrojů případně rozšířit 11 krátkých českých master textů;
-5. vyřešit explicitní mapování aliasů zdrojů `sN` v 28522, 28523, 28525 a 28531;
-6. případně provést rodilou jazykovou korekturu, která je nad rámec provedené sémantické kontroly.
+1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
+2. případně obsahově rozšířit 11 kratších českých master textů, pouze pokud se podaří ověřit další relevantní údaje;
+3. případně provést jazykovou korekturu rodilými mluvčími, která je nad rámec sémantické kontroly.
 
-Samostatný AJV běh nebyl spuštěn podle závazného promptu. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. `sequence.json`, statusy a verze zůstávají beze změny.
+Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
