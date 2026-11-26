@@ -30,12 +30,14 @@ Hlavní regionální témata jsou převážně pokryta:
 - Babice 1951, Jan Bula, Otokar Březina, Vítězslav Nezval, Jakub Deml, Ludvík Svoboda a další regionální osobnosti jsou zastoupeny.
 
 ### Významná historická témata — obě zapracována a read-back ověřena
-1. **Třebíč 1468 — PSČ 67401:** doplněn samostatný hlavní fakt `67401/fact_009`, bez přesunu či mazání původních faktů. Zachycuje obležení 12. 5. a dobytí 14. 5. 1468, vypálení a zničení města i následnou obnovu, při níž vzniklo dnešní Karlovo náměstí. Český master má 635 znaků; všech 7 jazyků včetně `translations.cs` bylo doplněno a read-back ověřeno. Poloha používá přibližný orientační bod Karlova náměstí, nikoli tvrzení o přesném místě bojů.
+1. **Třebíč 1468 — PSČ 67401:** doplněn samostatný hlavní fakt `67401/fact_009`, bez přesunu či mazání původních faktů. Zachycuje obležení 12. 5. a dobytí 14. 5. 1468, vypálení a zničení města i následnou obnovu, při níž vzniklo dnešní Karlovo náměstí. Český master má 635 znaků; všech 7 jazyků včetně `translations.cs` bylo doplněno, všech 6 cizojazyčných verzí významově zkontrolováno a read-back ověřeno. Poloha používá přibližný orientační bod Karlova náměstí, nikoli tvrzení o přesném místě bojů.
    - Město Třebíč, historie v datech: https://www.trebic.cz/historie-mesta-v-datech/d-1385/p1%3D30143
    - Město Třebíč, historie: https://www.trebic.cz/historie-mesta/ms-30137/p1%3D30137
-2. **Jemnice 1468 — PSČ 67531:** doplněno do stávajícího hlavního historického faktu `67531/fact_001`, nikoli jako duplicitní samostatný příběh. Text nyní uvádí zpustošení a vypálení města uherským vojskem Matyáše Korvína a souvislost se zánikem místního hornictví. Český master a všech 6 cizojazyčných překladů byly aktualizovány; `translations.cs` přesně odpovídá masteru a read-back byl ověřen. Do zdrojů byl přidán odborný dokument NPÚ.
+2. **Jemnice 1468 — PSČ 67531:** doplněno do stávajícího hlavního historického faktu `67531/fact_001`, nikoli jako duplicitní samostatný příběh. Text nyní uvádí zpustošení a vypálení města uherským vojskem Matyáše Korvína a souvislost se zánikem místního hornictví. Český master a všech 6 cizojazyčných překladů byly aktualizovány; všech 6 překladů zachovává datum, aktéra, vypálení města i souvislost se zánikem hornictví. `translations.cs` přesně odpovídá masteru a read-back byl ověřen. Do zdrojů byly přidány odborný dokument NPÚ, historický přehled MUNI a oficiální TIC/Kraj Vysočina.
    - NPÚ, odborná nálezová zpráva Jemnice, část „Z historie Město Jemnice“: https://iispp.npu.cz/mis_public/documentDetail.htm?id=1261994
    - TIC Jemnice, historie města: https://www.tic.jemnice.cz/cs/historie-mesta
+   - Kraj Vysočina, městská památková zóna: https://www.kr-vysocina.cz/mestska-pamatkova-zona-jemnice/d-1111195/p1%3D122140%26p3%3D%29
+   - MUNI, Historie v datech: https://is.muni.cz/www/105206/fotkyJemnice/Text/Historie_v_datech.pdf
 
 ## 3. Dosavadní technické kontroly a opravy
 
