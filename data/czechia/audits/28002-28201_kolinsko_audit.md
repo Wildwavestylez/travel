@@ -315,27 +315,70 @@ Důvody:
 - **Duplicita zvoničky: vyřešena, PASS.**
 
 
-## 14. Publikace V5 a následná kontrola — 2026-11-26
+## 14. Dodatečná oprava 20 mapových poloh po publikaci V5 — 2026-11-26
 
-### Publikace Supabase
-- Na výslovný pokyn uživatele bylo přesně 27 existujících českých řádků tohoto auditovaného bloku převedeno z `data_version=1`, `status=validated` na `data_version=5`, `status=published`.
-- Aktualizace byla omezena na `country_code='CZ'` a explicitní seznam 27 PSČ; žádná jiná země ani PSČ nebyly změněny.
-- Read-back potvrdil 27/27 očekávaných PSČ, 27/27 V5 + published, 0 výjimek a 190 faktů.
+### Nález a náprava
+- Po publikaci V5 cílený read-back odhalil 20 faktů s `content.facts[].location = null`, přestože oddíl 12 zaznamenával jejich dřívější doplnění. Jde o rozpor mezi předchozím auditním checkpointem a skutečným stavem databáze po publikaci; příčina tohoto rozporu nebyla prokázána a není domýšlena.
+- Všech 20 poloh bylo znovu dohledáno podle závazné hierarchie v českém `prompt_rework.md` a Content Standardu. U konkrétních objektů byl použit objektový bod; u nejednoznačných historických a místních témat veřejný orientační bod s odpovídající nejistotou.
+- Texty faktů, překlady, ID, map_category, přiřazení PSČ, sequence ani administrativní metadata nebyly měněny. Doplněno bylo výhradně `content.facts[].location`; existující neprázdné polohy včetně VUZ zůstaly beze změny.
 
-### Mapové body — nově zjištěný nesoulad
-- Kontrola `explorer_map_points` po publikaci vrátila 170 bodů pro 190 faktů; 20 faktů nemá mapový bod.
-- Cílený read-back těchto 20 položek zjistil, že jejich `content.facts[].location` je v aktuální databázi skutečně `null`. Tím vzniká rozpor s tvrzením v oddílech 12–13, že v celém bloku zůstává 0 `location: null`. Tento rozpor je nutné vyřešit před potvrzením konečného geografického PASS.
-- VUZ `28101/fact_005` byl ověřen samostatně: jeho bod existuje v `explorer_map_points` na souřadnicích 50.083611111111, 15.085833333333; poloha zkušebního centra je na mapě správně.
-- Chybějících 20 bodů nebylo automaticky vytvářeno ani obsahově měněno.
+### Přehled 20 doplněných poloh
 
-### Dropbox záloha — BLOKOVÁNO
-- V aktivních Edge Functions nebyla nalezena dedikovaná zálohovací funkce pro přesný rozsah 28002–28201.
-- Obecná funkce `travel-backup-validated` je ve verzi 2, ale její aktuální kód vytváří obecný cílený export JSON/mapových bodů/schématu do `/TRAVEL_BACKUP/DATABASE`; nevytváří požadovanou trojici JSON + restore SQL + manifest s ověřením přesného auditního rozsahu.
-- Tato obecná funkce proto nebyla spuštěna jako náhrada za dedikovanou ověřenou zálohu. V Dropboxu nebyla vytvořena nová záloha tohoto bloku.
-- Nebyl proveden read-only lock.
+| PSČ / fakt | Bod na mapě | Souřadnice (lat, lon) | accuracy | Zdroj polohy |
+|---|---|---:|---|---|
+| 28002/fact_001 | Karlovo náměstí, Kolín | 50.0280727, 15.2012479 | historical_approximate | [GPS Karlova náměstí](https://www.darkzin.cz/mista-cesko/karlovo-namesti-kolin/) |
+| 28002/fact_002 | Chrám sv. Bartoloměje | 50.0266089, 15.2016778 | exact | [Cesty a památky](https://www.cestyapamatky.cz/kolinsko/kolin/chram-sv-bartolomeje) |
+| 28002/fact_003 | Kolínská synagoga, Na Hradbách 157 | 50.0277772, 15.1986436 | exact | [Židovské památky](https://pamatky.kehilaprag.cz/pamatka/kolin-synagoga) |
+| 28002/fact_004 | Památník bitvy u Kolína, Křečhoř | 50.0294444, 15.1200000 | exact | [Obec Křečhoř](https://www.krechor.cz/nase-obec/zajimavosti/pamatnik-bitvy-u-kolina/) |
+| 28002/fact_005 | Železniční stanice Kolín | 50.0251410, 15.2134780 | exact | [Kolín railway station](https://schedules.czech-transport.com/en/5?stop=KOLIN_ST) |
+| 28002/fact_006 | Masarykův most | 50.0291342, 15.2040522 | exact | [Cesty a památky](https://www.cestyapamatky.cz/kolinsko/kolin/masarykuv-most) |
+| 28002/fact_007 | Tepelná elektrárna Kolín – Zálabí | 50.0299917, 15.2093000 | exact | [Cesty a památky](https://www.cestyapamatky.cz/kolinsko/kolin/tepelna-elektrarna) |
+| 28002/fact_008 | Památník Františka Kmocha, Kmochův ostrov | 50.0323997, 15.1950564 | exact | [Cesty a památky](https://www.cestyapamatky.cz/kolinsko/kolin/pamatnik-frantiska-kmocha) |
+| 28002/fact_009 | Hradiště Skalka, Horní Nouzov | 50.0620678, 15.1274403 | approximate | [Hradiště Velim–Skalka](https://www.stredovek.com/list_photo.php?category=hradiste&object=Velim+-+Skalka) |
+| 28106/fact_003 | Usedlost čp. 1, Hřiby | 50.0357718, 14.9185241 | approximate | [Adresní bod Hřiby 1](https://regiony.kurzy.cz/katastr/o6066879/) |
+| 28125/fact_003 | Bývalý špitál čp. 12, Konárovice | 50.0411011, 15.2853781 | exact | [Cesty a památky](https://www.cestyapamatky.cz/kolinsko/konarovice/spital) |
+| 28125/fact_004 | Obecní úřad Konárovice, Na Rynku 11 — orientační bod | 50.0408811, 15.2874085 | historical_approximate | [Adresní bod Na Rynku 11](https://regiony.kurzy.cz/konarovice/na-rynku/11/) |
+| 28125/fact_005 | Orientační bod osady Včelín, Na Včelíně 112 | 50.0469833, 15.2663978 | historical_approximate | [Adresní bod Na Včelíně 112](https://www.mesec.cz/rejstrik-firem/adresni-misto-konarovice-112-28125-30788480) |
+| 28125/fact_007 | Orientační bod u kopce Na Vinici, Konárovice | 50.0418431, 15.2821067 | approximate | [Adresní bod Na Vinici 120](https://www.mesec.cz/rejstrik-firem/adresni-misto-konarovice-120-28125-2459906) |
+| 28126/fact_001 | Hradiště Kolo u Týnce nad Labem | 50.0453617, 15.3731439 | area_representative | [Egeon – Hradiště Kolo](https://egeon.cz/cile/2369/hradiste-kolo?c=4999) |
+| 28126/fact_002 | Městský úřad Týnec nad Labem, Masarykovo náměstí 1 — orientační bod | 50.0413483, 15.3579983 | historical_approximate | [Adresní bod MÚ](https://firmy.euro.cz/misto-tynec-nad-labem-masarykovo-namesti-1-0-2497972) |
+| 28126/fact_006 | Obecní úřad Uhlířská Lhota, čp. 69 — orientační bod | 50.0798569, 15.3961103 | historical_approximate | [Adresní bod OÚ](https://www.mesec.cz/rejstrik-firem/adresni-misto-uhlirska-lhota-69-28126-6094040) |
+| 28126/fact_007 | Obecní úřad Radovesnice II, čp. 215 — orientační bod | 50.1060614, 15.3684575 | historical_approximate | [Adresní bod OÚ](https://firmy.euro.cz/misto-radovesnice-ii-215-0-42773539) |
+| 28127/fact_001 | Veřejné centrum Krakovan — orientační bod pro dvojici Krakovany a Božec | 50.0660673, 15.3688647 | historical_approximate | [Krakovany](https://www.mistopisy.cz/pruvodce/obec/5613/krakovany/) |
+| 28127/fact_004 | Náves Božec — orientační bod pro Dub Robovských | 50.0745525, 15.3636293 | historical_approximate | [OpenStreetMap](https://www.openstreetmap.org/?mlat=50.0745525&mlon=15.3636293#map=18/50.0745525/15.3636293) |
 
-### Aktuální stav
-- **PUBLISHED V5 — 27/27 potvrzeno read-backem.**
-- **BACKUP BLOCKED** — chybí kompatibilní dedikovaná funkce pro tento rozsah.
-- **REVIEW REQUIRED** — 20 faktů má aktuálně `location: null`, přestože předchozí checkpoint uvádí 0; VUZ je samostatně potvrzen jako správně zobrazený.
-- Další krok: znovu prověřit 20 chybějících poloh a poté připravit ověřenou zálohu pro přesný rozsah.
+### Technický read-back po opravě
+- 27/27 PSČ zůstává `data_version=5`, `status=published`.
+- 190/190 faktů má neprázdný objekt `location`; 0 null a 0 neplatných location objektů.
+- Přesnost: 111 `exact`, 30 `approximate`, 14 `area_representative`, 35 `historical_approximate`.
+- `explorer_map_points`: 190 bodů, 0 chybějících, 0 nadbytečných; 0 rozdílů souřadnic a 0 rozdílů titulů proti faktům.
+- VUZ `28101/fact_005` nebyl měněn; jeho existující bod zůstává správně na mapě.
+- **Geografická oprava: PASS.**
+
+## 15. Záloha Dropbox po dokončení geografické opravy — 2026-11-26
+
+### Rozsah a ověření před exportem
+- Vytvořena dedikovaná Edge Function `travel-backup-cz-28002-28201-kolinsko-audited` (aktivní verze 2).
+- Funkce před exportem kontroluje přesný seznam 27 PSČ, stav V5/published, všech 190 faktů s platnými souřadnicemi a 190 mapových bodů včetně shody ID, názvu a souřadnic.
+- Export zahrnuje všech 27 kompletních řádků `public.postal_codes` a samostatný snapshot 190 odvozených mapových bodů. Restore SQL obnovuje řádky PSČ; mapové body se znovu vytvoří synchronizačním databázovým triggerem z `content.facts[].location`.
+
+### Dropbox umístění
+`/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_KOLINSKO_28002-28201_2026-11-26T09-31-02-719Z/`
+
+| Soubor | Velikost | SHA-256 |
+|---|---:|---|
+| `CZ_AUDIT_28002-28201_backup.json` | 1 538 765 B | `6066a148059b65911a511a171dfa4016f7a3c805e72dbd1a39d2e299954bfaf3` |
+| `CZ_AUDIT_28002-28201_restore.sql` | 1 292 849 B | `b720f81dac5c2ee4f1723e69fb1966dbd0798adb6174c17ae5ff770402e09137` |
+| `manifest.json` | 2 541 B | `f985256355446cc1267b0c1e54b4a5ffd7e09ae3a447e16022f08cd12c97d592` |
+
+- Funkce všechny tři soubory po uploadu znovu stáhla z Dropboxu a ověřila jejich SHA-256; všechny tři kontroly PASS.
+- Manifest: `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=27`, fact_count 190, map_point_count 190.
+- Samostatný Dropbox listing potvrdil existenci všech tří souborů ve výše uvedené složce.
+- Žádný existující soubor nebyl přepsán.
+
+### Konečný stav bloku
+- **PASS — 27/27 PSČ publikováno V5.**
+- **PASS — 190/190 faktů a překladů zachováno.**
+- **PASS — 190/190 geografických poloh, 190/190 mapových bodů synchronizováno.**
+- **PASS — Dropbox záloha VERIFIED, všechny tři soubory SHA-256 read-back PASS.**
+- Read-only lock nebyl aktivován.
