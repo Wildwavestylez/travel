@@ -192,7 +192,6 @@ Dokončeno:
 
 Otevřeno:
 1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
-2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů;
-3. při dalších cílených opravách překladů zachovat požadavek mezinárodní srozumitelnosti podle Content Standardu; nejde o samostatnou externí korekturu.
+2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
