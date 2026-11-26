@@ -122,23 +122,17 @@ Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti n
 
 ## 6. Délka českých master textů
 
-Po rozšíření 28506 / `fact_005` zůstává **11 faktů kratších než 350 znaků**. Nejde automaticky o chyby; některé popisují drobnou památku nebo stručnou místní tradici. Nebyly doplňovány výplňové věty bez ověřených údajů.
+Po rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) zůstává **pět faktů kratších než 350 znaků**. Nejde automaticky o chyby; nebyly doplňovány výplňové věty bez ověřených údajů.
 
 | PSČ | Fakt | Znaků |
 |---|---|---:|
 | 28509 | fact_019 — Pomník obětem světových válek | 331 |
-| 28511 | fact_001 — Utrakvistická tradice | 340 |
 | 28511 | fact_003 — Obecní zvonička z roku 1887 | 316 |
 | 28511 | fact_006 — Náveský rybník | 335 |
-| 28522 | fact_004 — Rozhledna Babka | 326 |
-| 28522 | fact_006 — Kostel sv. Martina v Petrovicích II | 326 |
 | 28525 | fact_005 — Trojboká kaplička | 336 |
-| 28547 | fact_003 — Zámek Křesetice | 337 |
-| 28547 | fact_007 — Kaple sv. Jana Nepomuckého | 322 |
 | 28563 | fact_004 — Tradice ochotnického divadla | 312 |
-| 28576 | fact_003 — Kostel svatého Václava | 349 |
 
-Tyto položky zůstávají doporučeným obsahovým review, nikoli automatickým důvodem k umělému prodlužování.
+Šest rozšířených textů má nyní 462 až 711 znaků. U všech šesti byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Cizojazyčné verze byly formulovány podle nového českého znění, nikoli mechanicky prodlužovány.
 
 
 ## 7. Souřadnice a mapové body
