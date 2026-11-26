@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 24/59 poloh doplněno, 35 otevřeno
+## 5. Geografické nálezy — 41/59 poloh doplněno, 18 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -104,25 +104,38 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67577/fact_004 — historické jádro Kramolína; přibližný orientační bod obce.
 - 67578/fact_001 — historické jádro Čikova; přibližný orientační bod obce.
 
-Všech 24 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+- 67521/fact_003 — tvrziště v prostoru Panského dvora v Heralticích; přibližná poloha podle obecního historického přehledu.
+- 67521/fact_005 — tvrziště Krahulov; přesné souřadnice publikovaného odborného popisu terénních pozůstatků.
+- 67521/fact_006 — přírodní rezervace U Trojáku a U Římské studánky; reprezentativní bod přírodní rezervace.
+- 67522/fact_003 — historické jádro Čechočovic; orientační bod obce, doložený oficiálním webem.
+- 67522/fact_004 — Chlístov; orientační bod historické vsi.
+- 67522/fact_005 — historické jádro Římova; orientační bod obce.
+- 67522/fact_006 — historické jádro Mastníku; souřadnice fotografie centra obce.
+- 67522/fact_007 — historické jádro Mikulovic; orientační bod vsi.
+- 67523/fact_005 — železniční stanice Kojetice na Moravě; poloha stanice.
+- 67528/fact_001 — historické jádro Opatova; orientační bod obce.
+- 67528/fact_002 — kostel sv. Bartoloměje v Opatově; GPS evidence Noc kostelů.
+- 67528/fact_003 — historické jádro Opatova; orientační bod sídla pro souhrnný příběh průmyslové minulosti.
+- 67528/fact_004 — pravoslavný chrám sv. Jáchyma a Anny; publikované souřadnice objektu.
+- 67544/fact_001 — bývalá škola v Babicích; geotag fotografie objektu, místa babické tragédie.
+- 67544/fact_007 — historické jádro Martínkova; orientační bod obce a rodiště Václava Kosmáka.
+- 67553/fact_004 — historické jádro Valče; orientační bod bývalého panství.
+- 67573/fact_006 — železniční stanice Rapotice; publikované souřadnice stanice.
 
-### Zbývá prověřit — 35 faktů
+Všech 41 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+
+### Zbývá prověřit — 18 faktů
 - 67504: fact_003
 - 67508: fact_003
-- 67521: fact_003, fact_005, fact_006
-- 67522: fact_003–fact_007
-- 67523: fact_001, fact_005, fact_006
-- 67528: fact_001–fact_004
+- 67523: fact_001, fact_006
 - 67529: fact_005
 - 67531: fact_007
 - 67532: fact_007, fact_008
 - 67541: fact_005
 - 67542: fact_004, fact_005
-- 67544: fact_001, fact_007, fact_009
+- 67544: fact_009
 - 67545: fact_002
-- 67553: fact_004
 - 67557: fact_007
-- 67573: fact_006
 - 67574: fact_003
 - 67576: fact_005
 - 67577: fact_006
