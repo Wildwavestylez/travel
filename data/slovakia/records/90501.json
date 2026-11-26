@@ -1,4 +1,704 @@
 {
   "postcode": "90501",
-  "status": "placeholder"
+  "city": "Senica",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Historické centrum Senice – Námestie oslobodenia",
+  "representative_point": {
+    "lat": 48.679208186169184,
+    "lon": 17.367251225914945
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pravěké osídlení severního Záhoří: mamutí pozůstatky i římské importy",
+      "text": "Okolí Senice bylo osídleno dávno před vznikem středověkého města. V Čáčově byly ve štěrkovně nalezeny dvě mamutí stoličky a další kosti, které mohou souviset s táborem paleolitických lovců přibližně před 250 000 lety. Nálezy z Čáčova a Sotiny dokládají také dobu bronzovou, římské osídlení i dálkový obchod: objevily se jantarové ozdoby, římské mince a dokonce čínské hedvábí. V mladší době bronzové zde působila velatická kultura a od druhé poloviny 8. století velkomoravská kultura. Jde o nálezy z více poloh, nikoli o jedno přesně vymezené naleziště.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://senica.sk/www/clanok/historia",
+        "https://www.slovensko.sk/sk/lokality/_3cbbf17e-c5be-4188-b50f-5a39d1b537be"
+      ],
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Senica na cestě mezi Moravou a Uhrami: od středověkého městečka k okresnímu centru",
+      "text": "První písemná zmínka o Senici pochází z roku 1256; městská privilegia získala roku 1396 od Stibora ze Stibořic. V roce 1419 král Zikmund potvrdil právo pořádat výroční trhy a osvobození od mýta. Senica patřila k panství hradu Branč a roku 1614 se její měšťané vzbouřili proti vrchnosti. V roce 1960 se město stalo sídlem rozsáhlého okresu, což urychlilo jeho rozvoj. Historické jádro připomíná gotická kaple svaté Anny z počátku 15. století a kostel Navštívení Panny Marie, postavený roku 1631 původně jako evangelický.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://senica.sk/www/clanok/historia",
+        "https://slovakia.travel/senica",
+        "https://www.pamiatkynaslovensku.sk/senica-kaplnka"
+      ],
+      "location": {
+        "name": "Historické centrum Senice – Námestie oslobodenia",
+        "lat": 48.679208186169184,
+        "lon": 17.367251225914945,
+        "type": "historic_square",
+        "accuracy": "area_representative",
+        "source": "https://senica.oma.sk/u/namestie-oslobodenia",
+        "address": "Námestie oslobodenia, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaštieľ Machatka: šlechtické sídlo, které se proměnilo v regionální galerii",
+      "text": "Pozdně barokní kaštieľ na Sadové ulici nechala ve druhé polovině 18. století postavit rodina Kálmanovců. Roku 1935 jej zdědila rodina Markovických po Alžbětě Pokorné. Po památkové obnově zde v roce 1984 otevřeli Záhorskou galerii, dnes nesoucí jméno malíře Jána Mudrocha. Bývalé šlechtické sídlo tak dnes propojuje historickou architekturu s výstavami a sochařskými díly v přilehlém parku.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "architecture",
+      "sources": [
+        "https://senica.sk/www/clanok/tri-ikonicke-stavby-senice-a-ich-pribehy",
+        "https://www.litcentrum.sk/institucia/zahorska-galeria/kontakt"
+      ],
+      "location": {
+        "name": "Kaštieľ Machatka – Záhorská galéria Jána Mudrocha",
+        "lat": 48.68361429609737,
+        "lon": 17.368908596198956,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.oma.sk/w226120182?s=poi",
+        "address": "Sadová 619/3, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Židovská Senica: kruhový starý hřbitov a paměť obětí holokaustu",
+      "text": "Před druhou světovou válkou žilo v Senici více než 300 Židů; během holokaustu bylo 263 židovských obyvatel města zavražděno v koncentračních táborech. Starý židovský hřbitov je neobvyklý kruhovým půdorysem: náhrobky stojí na vyvýšeném návrší a nesou hebrejské nápisy a symboly. Vstupní smuteční budova z konce 19. století má orientální architektonické prvky. Senická synagoga byla v roce 1965 zbořena. Pamětní tabule na novém židovském hřbitově připomíná zničenou komunitu.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://senica.sk/clanok/pamiatky",
+        "https://www.pamiatkynaslovensku.sk/senica-zidovsky-cintorin",
+        "https://senica.sk/data/component_file/100/7768/f2379.pdf",
+        "https://www.phpmyadmin.pam.epocha.sk/pamatniky-zahorie/okres-senica/obetiam-holokaustu-senica"
+      ],
+      "location": {
+        "name": "Starý židovský hřbitov v Senici",
+        "lat": 48.684596,
+        "lon": 17.378121,
+        "type": "historic_cemetery",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/senica-zidovsky-cintorin",
+        "address": "Štefánikova ulice, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Kunovská přehrada: průmyslová zásobárna vody, která se změnila v rekreační krajinu",
+      "text": "Vodní nádrž Kunov vznikla jako zdroj průmyslové vody pro podnik Slovenský hodváb v Senici a do provozu byla uvedena v lednu 1965. Její objem činí přibližně tři miliony kubických metrů. Už v témže roce byla schválena také jako příměstská rekreační oblast; postupně zde vznikla pláž, sportovní zázemí a přístaviště. Při pozdější obnově nádrže vznikl z vytěžených sedimentů ostrov určený jako přirozené prostředí pro ptáky. Přehrada tak připomíná průmyslovou proměnu Senice ve 20. století a současně patří k jejímu hlavnímu rekreačnímu zázemí.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "map_category": "nature",
+      "sources": [
+        "https://senica.sk/clanok/kunovska-priehrada-sa-zacne-napustat",
+        "https://senica.sk/www/clanok/statut-rekreacnej-oblasti-kunovska-priehrada?show_css=0",
+        "https://ttkraj.sk/kunovska-priehrada/"
+      ],
+      "location": {
+        "name": "Vodní nádrž Kunov – orientační bod u hráze",
+        "lat": 48.7067098,
+        "lon": 17.4090555,
+        "type": "dam",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n431412190",
+        "address": "Kunov, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Rovensko: samostatná obec s kořeny v 15. století a klasicistní kaplí",
+      "text": "PSČ 905 01 zahrnuje také samostatnou obec Rovensko. První písemná zmínka pochází z roku 1439; obec patřila nejprve ke Korlátku a od 16. století k Branči. V 18. století zde bylo rozšířené vinohradnictví, později převládlo zemědělství. Vesnice si zachovala charakter cestní obce s potoční zástavbou. Její nejvýraznější sakrální památkou je klasicistní kaple Nanebevzetí Panny Marie z poloviny 19. století.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_799c05ac-f92f-40a5-9258-bfd0e8682b1a",
+        "https://www.rovensko.sk/o-nas-0.html",
+        "https://www.rovensko.sk/kontakt-0.html",
+        "https://www.pamiatkynaslovensku.sk/rovensko-kaplnka-nanebovzatia-panny-marie"
+      ],
+      "location": {
+        "name": "Kaple Nanebevzetí Panny Marie v Rovensku",
+        "lat": 48.713278,
+        "lon": 17.376211,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/rovensko-kaplnka-nanebovzatia-panny-marie",
+        "address": "Rovensko, 905 01 Rovensko, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Čáčov: stará obec a tragédie cholerové epidemie",
+      "text": "Čáčov je dnes místní částí Senice, ale až do roku 1971 šlo o samostatnou obec. První písemná zmínka pochází z roku 1394, kdy patřila k panství hradu Branč. Zvlášť tragicky se do místní paměti zapsala cholera roku 1831: podle regionálního historického přehledu v obci onemocnělo 221 lidí a 111 z nich během dvou měsíců zemřelo. Čáčov si uchoval vlastní sakrální památky – klasicistní kostel Nanebevzetí Panny Marie z roku 1833 a evangelický kostel z roku 1864.",
+      "category": "history",
+      "priority": "C",
+      "map_category": "historic_city",
+      "sources": [
+        "https://ttkraj.sk/historia-byvalej-obce-cacov-na-zahori/",
+        "https://www.slovensko.sk/sk/lokality/_3cbbf17e-c5be-4188-b50f-5a39d1b537be",
+        "https://www.pamiatkynaslovensku.sk/cacov-senica-kostol-nanebovzatia-panny-marie",
+        "https://www.pamiatkynaslovensku.sk/cacov-senica-evanjelicky-kostol"
+      ],
+      "location": {
+        "name": "Kostel Nanebevzetí Panny Marie v Čáčově",
+        "lat": 48.678038,
+        "lon": 17.338933,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/cacov-senica-kostol-nanebovzatia-panny-marie",
+        "address": "Čáčov, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Letohrádek Vagyónovců: od šlechtického parku přes sokolovnu k muzeu",
+      "text": "Na dnešní Štefánikově ulici stával rozsáhlý areál statkáře Štefana Vagyona s parkem, romantickou jeskyní Margitina skalka, tenisovým kurtem a pávy. Na počátku 80. let 19. století zde rodina nechala postavit letohrádek v romantickém historizujícím stylu. Roku 1925 jej koupila místní jednota Sokol; od roku 1927 sloužil jako sokolovna, kde se cvičilo, hrálo divadlo, pořádaly plesy a promítalo kino. Po chátrání jej město v roce 2017 odkoupilo a obnovilo. Dnes v něm sídlí Muzeum Senica.",
+      "category": "architecture_and_urbanism",
+      "priority": "C",
+      "map_category": "museum",
+      "sources": [
+        "https://senica.sk/www/clanok/tri-ikonicke-stavby-senice-a-ich-pribehy",
+        "https://muzeum.senica.sk/navstivte-nas",
+        "https://senica.sk/clanok/pamiatky"
+      ],
+      "location": {
+        "name": "Letohrádek Vagyónovců – Muzeum Senica",
+        "lat": 48.68075,
+        "lon": 17.373167,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://muzeum.senica.sk/navstivte-nas",
+        "address": "Štefánikova 724/20, 905 01 Senica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Senica za druhé světové války: věznění odbojáři a popravy v Surovinském lese",
+      "text": "Od konce léta 1944 působily v okolí Senice partyzánské skupiny. Dne 9. září přijel oddíl německé vojenské policie, který spolu s Hlinkovou gardou zahájil zatýkání a výslechy. Dočasné vězení pro až 200 lidí vzniklo v budově zemědělského skladištního družstva, kde byli antifašisté vězněni a mučeni. Při exhumacích v Surovinském lese bylo zjištěno přibližně 40 až 50 obětí, které zde byly popraveny nebo pohřbeny v hromadných hrobech. Senici osvobodila sovětská armáda 7. dubna 1945.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://senica.sk/clanok/pamiatky",
+        "https://senica.sk/www/clanok/historia",
+        "https://senica.sk/clanok/zoznam-vojnovych-hrobov"
+      ],
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam Slovenské pošty uvádí poštu Senica 1 s PSČ 905 01. Geografické přiřazení potvrzuje fyzická adresa Obecního úřadu Rovensko 146, 905 01 Rovensko a adresy ve městě Senica. Sekundární adresní přehledy a OMA/OSM rozlišují Senici, její místní části a Rovensko pod kódem 905 01.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Administrativní hierarchie Senica – okres Senica – Trnavský kraj je doložena oficiálními stránkami města a státními portály; město uvádí místní části Senica, Čáčov, Kunov a Sotina. Samostatná obec Rovensko má vlastní oficiální obecní úřad a adresu 905 01. OMA/OSM a specialistické mapové zdroje byly použity pro identifikaci a souřadnice fyzických lokalit. Přesný polygon PSČ není tvrzen; obsah zahrnuje doložené lokality Senica, Čáčov, Kunov, Sotina a Rovensko."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – seznam pošt s PSČ",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – Historie města",
+      "url": "https://senica.sk/www/clanok/historia",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – Památky",
+      "url": "https://senica.sk/clanok/pamiatky",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – místní části a názvy ulic",
+      "url": "https://senica.sk/clanok/vzn-ktorym-sa-urcuju-a-menia-nazvy-ulic-a-inych-verejnych-priestranstiev-a-cislovanie-budov-v-senici?show_css=0",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – tři ikonické stavby",
+      "url": "https://senica.sk/www/clanok/tri-ikonicke-stavby-senice-a-ich-pribehy",
+      "type": "official"
+    },
+    {
+      "title": "Slovakia.travel – Senica",
+      "url": "https://slovakia.travel/senica",
+      "type": "national_tourism"
+    },
+    {
+      "title": "OMA – Námestie oslobodenia",
+      "url": "https://senica.oma.sk/u/namestie-oslobodenia",
+      "type": "other"
+    },
+    {
+      "title": "Pamiatky na Slovensku – kaple svaté Anny",
+      "url": "https://www.pamiatkynaslovensku.sk/senica-kaplnka",
+      "type": "specialist"
+    },
+    {
+      "title": "Slovenské literární centrum – Záhorská galerie",
+      "url": "https://www.litcentrum.sk/institucia/zahorska-galeria/kontakt",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Kaštieľ Senica",
+      "url": "https://www.oma.sk/w226120182?s=poi",
+      "type": "other"
+    },
+    {
+      "title": "Pamiatky na Slovensku – starý židovský hřbitov",
+      "url": "https://www.pamiatkynaslovensku.sk/senica-zidovsky-cintorin",
+      "type": "specialist"
+    },
+    {
+      "title": "Město Senica – soupis pamětihodností",
+      "url": "https://senica.sk/data/component_file/100/7768/f2379.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pamätníky Záhoria – oběti holokaustu",
+      "url": "https://www.phpmyadmin.pam.epocha.sk/pamatniky-zahorie/okres-senica/obetiam-holokaustu-senica",
+      "type": "regional"
+    },
+    {
+      "title": "Město Senica – Kunovská přehrada",
+      "url": "https://senica.sk/clanok/kunovska-priehrada-sa-zacne-napustat",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – statut rekreační oblasti Kunovská přehrada",
+      "url": "https://senica.sk/www/clanok/statut-rekreacnej-oblasti-kunovska-priehrada?show_css=0",
+      "type": "official"
+    },
+    {
+      "title": "Trnavský kraj – Kunovská přehrada",
+      "url": "https://ttkraj.sk/kunovska-priehrada/",
+      "type": "regional"
+    },
+    {
+      "title": "OMA – Vodní nádrž Kunov",
+      "url": "https://poi.oma.sk/n431412190",
+      "type": "other"
+    },
+    {
+      "title": "Úřad vlády SR – Rovensko",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_799c05ac-f92f-40a5-9258-bfd0e8682b1a",
+      "type": "official"
+    },
+    {
+      "title": "Obec Rovensko – historie",
+      "url": "https://www.rovensko.sk/o-nas-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Obec Rovensko – adresa úřadu",
+      "url": "https://www.rovensko.sk/kontakt-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – kaple v Rovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/rovensko-kaplnka-nanebovzatia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "Trnavský kraj – historie Čáčova",
+      "url": "https://ttkraj.sk/historia-byvalej-obce-cacov-na-zahori/",
+      "type": "regional"
+    },
+    {
+      "title": "Úřad vlády SR – lokality Senice, Čáčov a Kunov",
+      "url": "https://www.slovensko.sk/sk/lokality/_3cbbf17e-c5be-4188-b50f-5a39d1b537be",
+      "type": "official"
+    },
+    {
+      "title": "Muzeum Senica – návštěva a poloha",
+      "url": "https://muzeum.senica.sk/navstivte-nas",
+      "type": "official"
+    },
+    {
+      "title": "Město Senica – válečné hroby",
+      "url": "https://senica.sk/clanok/zoznam-vojnovych-hrobov",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – kostel Nanebevzetí v Čáčově",
+      "url": "https://www.pamiatkynaslovensku.sk/cacov-senica-kostol-nanebovzatia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – evangelický kostel v Čáčově",
+      "url": "https://www.pamiatkynaslovensku.sk/cacov-senica-evanjelicky-kostol",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Senice – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pravěké osídlení severního Záhoří: mamutí pozůstatky i římské importy",
+          "text": "Okolí Senice bylo osídleno dávno před vznikem středověkého města. V Čáčově byly ve štěrkovně nalezeny dvě mamutí stoličky a další kosti, které mohou souviset s táborem paleolitických lovců přibližně před 250 000 lety. Nálezy z Čáčova a Sotiny dokládají také dobu bronzovou, římské osídlení i dálkový obchod: objevily se jantarové ozdoby, římské mince a dokonce čínské hedvábí. V mladší době bronzové zde působila velatická kultura a od druhé poloviny 8. století velkomoravská kultura. Jde o nálezy z více poloh, nikoli o jedno přesně vymezené naleziště."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica na cestě mezi Moravou a Uhrami: od středověkého městečka k okresnímu centru",
+          "text": "První písemná zmínka o Senici pochází z roku 1256; městská privilegia získala roku 1396 od Stibora ze Stibořic. V roce 1419 král Zikmund potvrdil právo pořádat výroční trhy a osvobození od mýta. Senica patřila k panství hradu Branč a roku 1614 se její měšťané vzbouřili proti vrchnosti. V roce 1960 se město stalo sídlem rozsáhlého okresu, což urychlilo jeho rozvoj. Historické jádro připomíná gotická kaple svaté Anny z počátku 15. století a kostel Navštívení Panny Marie, postavený roku 1631 původně jako evangelický."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaštieľ Machatka: šlechtické sídlo, které se proměnilo v regionální galerii",
+          "text": "Pozdně barokní kaštieľ na Sadové ulici nechala ve druhé polovině 18. století postavit rodina Kálmanovců. Roku 1935 jej zdědila rodina Markovických po Alžbětě Pokorné. Po památkové obnově zde v roce 1984 otevřeli Záhorskou galerii, dnes nesoucí jméno malíře Jána Mudrocha. Bývalé šlechtické sídlo tak dnes propojuje historickou architekturu s výstavami a sochařskými díly v přilehlém parku."
+        },
+        {
+          "id": "fact_004",
+          "title": "Židovská Senica: kruhový starý hřbitov a paměť obětí holokaustu",
+          "text": "Před druhou světovou válkou žilo v Senici více než 300 Židů; během holokaustu bylo 263 židovských obyvatel města zavražděno v koncentračních táborech. Starý židovský hřbitov je neobvyklý kruhovým půdorysem: náhrobky stojí na vyvýšeném návrší a nesou hebrejské nápisy a symboly. Vstupní smuteční budova z konce 19. století má orientální architektonické prvky. Senická synagoga byla v roce 1965 zbořena. Pamětní tabule na novém židovském hřbitově připomíná zničenou komunitu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kunovská přehrada: průmyslová zásobárna vody, která se změnila v rekreační krajinu",
+          "text": "Vodní nádrž Kunov vznikla jako zdroj průmyslové vody pro podnik Slovenský hodváb v Senici a do provozu byla uvedena v lednu 1965. Její objem činí přibližně tři miliony kubických metrů. Už v témže roce byla schválena také jako příměstská rekreační oblast; postupně zde vznikla pláž, sportovní zázemí a přístaviště. Při pozdější obnově nádrže vznikl z vytěžených sedimentů ostrov určený jako přirozené prostředí pro ptáky. Přehrada tak připomíná průmyslovou proměnu Senice ve 20. století a současně patří k jejímu hlavnímu rekreačnímu zázemí."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: samostatná obec s kořeny v 15. století a klasicistní kaplí",
+          "text": "PSČ 905 01 zahrnuje také samostatnou obec Rovensko. První písemná zmínka pochází z roku 1439; obec patřila nejprve ke Korlátku a od 16. století k Branči. V 18. století zde bylo rozšířené vinohradnictví, později převládlo zemědělství. Vesnice si zachovala charakter cestní obce s potoční zástavbou. Její nejvýraznější sakrální památkou je klasicistní kaple Nanebevzetí Panny Marie z poloviny 19. století."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: stará obec a tragédie cholerové epidemie",
+          "text": "Čáčov je dnes místní částí Senice, ale až do roku 1971 šlo o samostatnou obec. První písemná zmínka pochází z roku 1394, kdy patřila k panství hradu Branč. Zvlášť tragicky se do místní paměti zapsala cholera roku 1831: podle regionálního historického přehledu v obci onemocnělo 221 lidí a 111 z nich během dvou měsíců zemřelo. Čáčov si uchoval vlastní sakrální památky – klasicistní kostel Nanebevzetí Panny Marie z roku 1833 a evangelický kostel z roku 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "Letohrádek Vagyónovců: od šlechtického parku přes sokolovnu k muzeu",
+          "text": "Na dnešní Štefánikově ulici stával rozsáhlý areál statkáře Štefana Vagyona s parkem, romantickou jeskyní Margitina skalka, tenisovým kurtem a pávy. Na počátku 80. let 19. století zde rodina nechala postavit letohrádek v romantickém historizujícím stylu. Roku 1925 jej koupila místní jednota Sokol; od roku 1927 sloužil jako sokolovna, kde se cvičilo, hrálo divadlo, pořádaly plesy a promítalo kino. Po chátrání jej město v roce 2017 odkoupilo a obnovilo. Dnes v něm sídlí Muzeum Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica za druhé světové války: věznění odbojáři a popravy v Surovinském lese",
+          "text": "Od konce léta 1944 působily v okolí Senice partyzánské skupiny. Dne 9. září přijel oddíl německé vojenské policie, který spolu s Hlinkovou gardou zahájil zatýkání a výslechy. Dočasné vězení pro až 200 lidí vzniklo v budově zemědělského skladištního družstva, kde byli antifašisté vězněni a mučeni. Při exhumacích v Surovinském lese bylo zjištěno přibližně 40 až 50 obětí, které zde byly popraveny nebo pohřbeny v hromadných hrobech. Senici osvobodila sovětská armáda 7. dubna 1945."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historisches Zentrum von Senica – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vorgeschichtliche Besiedlung im Norden der Záhorie: Mammutfunde und römische Importe",
+          "text": "In Čáčov wurden zwei Mammutbackenzähne und weitere Knochen gefunden, die auf ein mögliches Lager paläolithischer Jäger vor etwa 250.000 Jahren hindeuten. Funde aus Čáčov und Sotina belegen auch Bronzezeit, Römerzeit und Fernhandel: entdeckt wurden Bernsteinschmuck, römische Münzen und chinesische Seide."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica an der Straße zwischen Mähren und Ungarn: vom mittelalterlichen Marktort zum Bezirkszentrum",
+          "text": "Senica wird 1256 erstmals erwähnt und erhielt 1396 Stadtrechte. 1419 bestätigte König Sigismund Jahrmärkte und Zollbefreiungen. 1614 erhoben sich Bürger gegen die Herren der Burg Branč. 1960 wurde Senica Bezirkszentrum. Zur historischen Mitte gehören die gotische St.-Anna-Kapelle und die 1631 zunächst evangelisch errichtete Kirche Mariä Heimsuchung."
+        },
+        {
+          "id": "fact_003",
+          "title": "Schloss Machatka: ein Adelssitz, der zur Regionalgalerie wurde",
+          "text": "Das spätbarocke Schloss wurde in der zweiten Hälfte des 18. Jahrhunderts von der Familie Kálman errichtet. 1935 erbte es die Familie Markovický. Nach der Restaurierung wurde hier 1984 die Záhorská-Galerie eröffnet, heute benannt nach dem Maler Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "Das jüdische Senica: ein kreisförmiger alter Friedhof und die Erinnerung an den Holocaust",
+          "text": "Vor dem Krieg lebten mehr als 300 Juden in Senica; 263 jüdische Einwohner wurden während des Holocaust ermordet. Der alte Friedhof ist kreisförmig angelegt und besitzt hebräische Grabinschriften sowie ein orientalisch gestaltetes Leichenhaus aus dem späten 19. Jahrhundert. Die Synagoge wurde 1965 abgerissen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Kunov-Stausee: ein industrieller Wasserspeicher, der zum Erholungsgebiet wurde",
+          "text": "Der Stausee wurde als Industriewasserspeicher für Slovenský hodváb gebaut und im Januar 1965 in Betrieb genommen. Sein Volumen beträgt etwa drei Millionen Kubikmeter. Noch im selben Jahr wurde er zum Erholungsgebiet; später entstanden Strand und Sportanlagen. Eine spätere Sanierung schuf eine Vogelinsel."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: eine selbstständige Gemeinde mit Wurzeln im 15. Jahrhundert",
+          "text": "Rovensko gehört ebenfalls zum Postleitzahlgebiet 905 01. Die Gemeinde wird 1439 erstmals erwähnt und gehörte zunächst zu Korlátko, später zur Herrschaft Branč. Im 18. Jahrhundert war Weinbau verbreitet. Das Dorf bewahrt seinen linearen Siedlungscharakter und besitzt eine klassizistische Kapelle Mariä Himmelfahrt aus der Mitte des 19. Jahrhunderts."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: ein altes Dorf und die Tragödie der Choleraepidemie",
+          "text": "Čáčov ist heute ein Ortsteil von Senica, war aber bis 1971 selbstständig. Die erste Erwähnung stammt aus dem Jahr 1394. 1831 erkrankten 221 Menschen an Cholera, 111 starben innerhalb von zwei Monaten. Die Kirche Mariä Himmelfahrt stammt von 1833, die evangelische Kirche von 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "Das Sommerhaus der Familie Vagyon: vom Adelssitz zum Museum",
+          "text": "Das Anwesen von Štefan Vagyon umfasste Park, Grotte, Tennisplatz und Pfauen. Anfang der 1880er Jahre entstand ein Sommerhaus im romantisch-historistischen Stil. 1925 kaufte der Turnverein Sokol das Gebäude; später diente es als Gymnasium, Theater- und Kinosaal. Heute beherbergt es das Museum Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica im Zweiten Weltkrieg: Widerstand, Gefangenschaft und Hinrichtungen",
+          "text": "Ab 1944 waren Partisanengruppen in der Umgebung aktiv. Die deutsche Militärpolizei und die Hlinka-Garde nahmen Menschen fest; bis zu 200 Personen wurden in einem Lagerhaus inhaftiert und gefoltert. Exhumierungen im Wald von Suroviny ergaben etwa 40 bis 50 Opfer. Senica wurde am 7. April 1945 befreit."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Senica historic centre – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistoric settlement in northern Záhorie: mammoth remains and Roman imports",
+          "text": "Two mammoth molars and other bones found in Čáčov may come from a Palaeolithic hunters’ camp about 250,000 years ago. Finds from Čáčov and Sotina also show Bronze Age and Roman settlement and long-distance trade, including amber, Roman coins and Chinese silk."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica on the route between Moravia and Hungary: from medieval market town to district centre",
+          "text": "Senica is first mentioned in 1256 and received town privileges in 1396. In 1419 King Sigismund confirmed annual markets and toll exemptions. In 1614 townspeople revolted against the lords of Branč Castle. In 1960 Senica became a district centre. Its historic core includes the Gothic Chapel of St Anne and a church built in 1631 originally for Protestants."
+        },
+        {
+          "id": "fact_003",
+          "title": "Machatka Manor House: an aristocratic residence turned into a regional art gallery",
+          "text": "The late Baroque manor was built by the Kálman family in the second half of the 18th century. The Markovický family inherited it in 1935. After restoration, the Záhorie Gallery opened here in 1984 and now bears the name of painter Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jewish Senica: a circular old cemetery and the memory of the Holocaust",
+          "text": "More than 300 Jews lived in Senica before the war; 263 Jewish residents were murdered during the Holocaust. The old cemetery has a circular layout, Hebrew inscriptions and a late-19th-century mortuary with Oriental features. The synagogue was demolished in 1965."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kunov Reservoir: an industrial water store that became a recreation landscape",
+          "text": "The reservoir was built as industrial water storage for Slovenský hodváb and opened in January 1965. Its capacity is about three million cubic metres. It became a recreation area that year; a beach and sports facilities followed. A later restoration created a bird island."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: an independent village with 15th-century roots",
+          "text": "Rovensko is also included in postcode 905 01. First mentioned in 1439, it belonged first to Korlátko and later to Branč. Viticulture was widespread in the 18th century. The village retains its linear form and has a Neoclassical Chapel of the Assumption from the mid-19th century."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: an old village and the tragedy of a cholera epidemic",
+          "text": "Čáčov is now part of Senica but remained independent until 1971. Its first written mention dates to 1394. In 1831, 221 people fell ill with cholera and 111 died within two months. The Church of the Assumption dates from 1833 and the Evangelical church from 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Vagyon summer house: from aristocratic estate to museum",
+          "text": "Štefan Vagyon’s estate included a park, grotto, tennis court and peacocks. A romantic historicist summer house was built in the early 1880s. The Sokol association bought it in 1925; it later served as a gymnasium, theatre and cinema. It now houses the Senica Museum."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica during the Second World War: resistance, imprisonment and executions",
+          "text": "Partisan groups operated nearby from 1944. German military police and the Hlinka Guard arrested people; up to 200 were imprisoned and tortured in an agricultural warehouse. Exhumations in Suroviny Forest identified about 40 to 50 victims. Senica was liberated on 7 April 1945."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Senica – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Asentamiento prehistórico en el norte de Záhorie: restos de mamut e importaciones romanas",
+          "text": "Dos molares de mamut y otros huesos hallados en Čáčov podrían proceder de un campamento paleolítico de hace unos 250.000 años. Los hallazgos de Čáčov y Sotina muestran también la Edad del Bronce, la época romana y el comercio lejano: ámbar, monedas romanas y seda china."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica en la ruta entre Moravia y Hungría: de villa medieval a centro de distrito",
+          "text": "Senica aparece por primera vez en 1256 y recibió privilegios urbanos en 1396. En 1419 Segismundo confirmó las ferias anuales y la exención de peajes. En 1614 sus habitantes se rebelaron contra los señores de Branč. En 1960 se convirtió en centro de distrito. Su núcleo histórico conserva la capilla gótica de Santa Ana y una iglesia construida en 1631 originalmente para protestantes."
+        },
+        {
+          "id": "fact_003",
+          "title": "La mansión Machatka: residencia aristocrática convertida en galería regional",
+          "text": "La mansión tardobarroca fue construida por la familia Kálman en la segunda mitad del siglo XVIII. La familia Markovický la heredó en 1935. Tras su restauración, la Galería de Záhorie abrió aquí en 1984 y hoy lleva el nombre del pintor Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Senica judía: un antiguo cementerio circular y la memoria del Holocausto",
+          "text": "Antes de la guerra vivían en Senica más de 300 judíos; 263 habitantes judíos fueron asesinados durante el Holocausto. El antiguo cementerio tiene planta circular, inscripciones hebreas y un edificio funerario de finales del siglo XIX con rasgos orientales. La sinagoga fue demolida en 1965."
+        },
+        {
+          "id": "fact_005",
+          "title": "El embalse de Kunov: reserva industrial de agua convertida en zona recreativa",
+          "text": "El embalse se construyó como reserva de agua industrial para Slovenský hodváb y entró en servicio en enero de 1965. Tiene unos tres millones de metros cúbicos. Ese año también fue declarado zona recreativa; después aparecieron playa e instalaciones deportivas. Una restauración posterior creó una isla para aves."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: municipio independiente con raíces en el siglo XV",
+          "text": "Rovensko también pertenece al código postal 905 01. Se menciona por primera vez en 1439 y perteneció primero a Korlátko y después a Branč. En el siglo XVIII predominaba la viticultura. Conserva su forma de pueblo lineal y una capilla neoclásica de la Asunción de mediados del siglo XIX."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: una antigua aldea y la tragedia del cólera",
+          "text": "Čáčov es hoy un barrio de Senica, pero fue independiente hasta 1971. Su primera mención data de 1394. En 1831 enfermaron 221 personas de cólera y 111 murieron en dos meses. La iglesia de la Asunción es de 1833 y la evangélica de 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "El pabellón de verano de los Vagyon: de residencia aristocrática a museo",
+          "text": "La finca de Štefan Vagyon incluía parque, gruta, pista de tenis y pavos reales. A comienzos de la década de 1880 se construyó un pabellón historicista romántico. Sokol lo compró en 1925 y lo usó como gimnasio, teatro y cine. Hoy alberga el Museo de Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica durante la Segunda Guerra Mundial: resistencia, encarcelamiento y ejecuciones",
+          "text": "Desde 1944 actuaban grupos partisanos en la zona. La policía militar alemana y la Guardia de Hlinka realizaron detenciones; hasta 200 personas fueron encarceladas y torturadas en un almacén agrícola. Exhumaciones en el bosque de Suroviny identificaron unas 40 o 50 víctimas. Senica fue liberada el 7 de abril de 1945."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Senica – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "L’occupation préhistorique du nord de Záhorie : restes de mammouth et importations romaines",
+          "text": "Deux molaires de mammouth et d’autres ossements trouvés à Čáčov pourraient provenir d’un camp paléolithique vieux d’environ 250 000 ans. Les découvertes de Čáčov et Sotina attestent aussi l’âge du bronze, l’époque romaine et le commerce lointain : ambre, monnaies romaines et soie chinoise."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica sur la route entre la Moravie et la Hongrie : du bourg médiéval au centre de district",
+          "text": "Senica est mentionnée en 1256 et reçut des privilèges urbains en 1396. En 1419, Sigismond confirma les foires annuelles et les exemptions de péages. En 1614, les habitants se révoltèrent contre les seigneurs de Branč. En 1960, Senica devint centre de district. Le centre historique conserve la chapelle gothique Sainte-Anne et une église construite en 1631 à l’origine pour les protestants."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le manoir Machatka : une résidence noble devenue galerie régionale",
+          "text": "Le manoir baroque tardif fut construit par la famille Kálman dans la seconde moitié du XVIIIe siècle. La famille Markovický en hérita en 1935. Après restauration, la Galerie de Záhorie y ouvrit en 1984 et porte aujourd’hui le nom du peintre Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Senica juive : un ancien cimetière circulaire et la mémoire de la Shoah",
+          "text": "Plus de 300 Juifs vivaient à Senica avant la guerre ; 263 habitants juifs furent assassinés pendant la Shoah. L’ancien cimetière est circulaire, avec des inscriptions hébraïques et un bâtiment funéraire de la fin du XIXe siècle aux éléments orientaux. La synagogue fut démolie en 1965."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le réservoir de Kunov : une réserve d’eau industrielle devenue espace de loisirs",
+          "text": "Le réservoir fut construit pour fournir de l’eau industrielle à Slovenský hodváb et mis en service en janvier 1965. Sa capacité est d’environ trois millions de mètres cubes. Il devint aussi une zone de loisirs ; une plage et des équipements sportifs furent aménagés. Une restauration ultérieure créa une île pour les oiseaux."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko : une commune indépendante aux origines médiévales",
+          "text": "Rovensko fait aussi partie du code postal 905 01. Mentionnée en 1439, la commune appartint d’abord à Korlátko puis à Branč. La viticulture était répandue au XVIIIe siècle. Le village conserve sa forme linéaire et une chapelle néoclassique de l’Assomption datant du milieu du XIXe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov : un ancien village et la tragédie du choléra",
+          "text": "Čáčov est aujourd’hui un quartier de Senica, mais resta indépendant jusqu’en 1971. Sa première mention date de 1394. En 1831, 221 personnes tombèrent malades du choléra et 111 moururent en deux mois. L’église de l’Assomption date de 1833 et l’église évangélique de 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le pavillon d’été des Vagyon : de résidence aristocratique au musée",
+          "text": "Le domaine de Štefan Vagyon comprenait parc, grotte, court de tennis et paons. Un pavillon historiciste romantique fut construit au début des années 1880. Sokol l’acheta en 1925 et l’utilisa comme gymnase, théâtre et cinéma. Il abrite aujourd’hui le musée de Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica pendant la Seconde Guerre mondiale : résistance, emprisonnement et exécutions",
+          "text": "Des partisans opéraient dans la région dès 1944. La police militaire allemande et la Garde Hlinka procédèrent à des arrestations ; jusqu’à 200 personnes furent emprisonnées et torturées dans un entrepôt agricole. Les exhumations dans la forêt de Suroviny ont identifié environ 40 à 50 victimes. Senica fut libérée le 7 avril 1945."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Senica – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Insediamento preistorico nella Záhorie settentrionale: resti di mammut e importazioni romane",
+          "text": "Due molari di mammut e altre ossa trovati a Čáčov potrebbero provenire da un accampamento paleolitico di circa 250.000 anni fa. I reperti di Čáčov e Sotina documentano anche l’età del bronzo, l’epoca romana e il commercio a lunga distanza: ambra, monete romane e seta cinese."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica sulla strada tra Moravia e Ungheria: da borgo medievale a centro distrettuale",
+          "text": "Senica è menzionata nel 1256 e ricevette privilegi urbani nel 1396. Nel 1419 Sigismondo confermò le fiere annuali e l’esenzione dai pedaggi. Nel 1614 i cittadini si ribellarono ai signori di Branč. Nel 1960 Senica divenne centro distrettuale. Il centro storico conserva la cappella gotica di Sant’Anna e una chiesa costruita nel 1631 originariamente per i protestanti."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il maniero Machatka: residenza nobiliare trasformata in galleria regionale",
+          "text": "Il maniero tardobarocco fu costruito dalla famiglia Kálman nella seconda metà del XVIII secolo. La famiglia Markovický lo ereditò nel 1935. Dopo il restauro, nel 1984 vi fu inaugurata la Galleria di Záhorie, oggi intitolata al pittore Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Senica ebraica: un antico cimitero circolare e la memoria della Shoah",
+          "text": "Prima della guerra a Senica vivevano più di 300 ebrei; 263 abitanti ebrei furono uccisi durante la Shoah. Il vecchio cimitero è circolare, con iscrizioni ebraiche e un edificio funerario di fine Ottocento con elementi orientali. La sinagoga fu demolita nel 1965."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il bacino di Kunov: riserva d’acqua industriale trasformata in area ricreativa",
+          "text": "Il bacino fu costruito per fornire acqua industriale allo stabilimento Slovenský hodváb ed entrò in funzione nel gennaio 1965. La capacità è di circa tre milioni di metri cubi. Fu anche designato area ricreativa; in seguito furono realizzati spiaggia e impianti sportivi. Un intervento successivo creò un’isola per gli uccelli."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: comune indipendente con radici nel XV secolo",
+          "text": "Rovensko appartiene anch’esso al codice postale 905 01. È menzionato dal 1439 e appartenne prima a Korlátko e poi a Branč. Nel XVIII secolo era diffusa la viticoltura. Il villaggio conserva la forma lineare e una cappella neoclassica dell’Assunzione della metà del XIX secolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: antico villaggio e tragedia del colera",
+          "text": "Oggi Čáčov è una località di Senica, ma rimase indipendente fino al 1971. La prima menzione risale al 1394. Nel 1831 il colera colpì 221 persone e ne uccise 111 in due mesi. La chiesa cattolica dell’Assunzione risale al 1833 e quella evangelica al 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "Il padiglione estivo dei Vagyon: da residenza aristocratica a museo",
+          "text": "La tenuta di Štefan Vagyon comprendeva parco, grotta, campo da tennis e pavoni. All’inizio degli anni Ottanta dell’Ottocento fu costruito un padiglione storicista romantico. Sokol lo acquistò nel 1925 e lo usò come palestra, teatro e cinema. Oggi ospita il Museo di Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica durante la Seconda guerra mondiale: resistenza, prigionia ed esecuzioni",
+          "text": "Dal 1944 operavano gruppi partigiani nella zona. La polizia militare tedesca e la Guardia di Hlinka arrestarono persone; fino a 200 furono detenute e torturate in un magazzino agricolo. Le esumazioni nella foresta di Suroviny individuarono circa 40–50 vittime. Senica fu liberata il 7 aprile 1945."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Senica – Námestie oslobodenia",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistorische bewoning in het noorden van Záhorie: mammoetresten en Romeinse importen",
+          "text": "Twee mammoetkiezen en andere botten uit Čáčov kunnen afkomstig zijn van een paleolithisch kamp van ongeveer 250.000 jaar oud. Vondsten uit Čáčov en Sotina tonen ook de bronstijd, Romeinse periode en langeafstandshandel aan: barnsteen, Romeinse munten en Chinese zijde."
+        },
+        {
+          "id": "fact_002",
+          "title": "Senica op de route tussen Moravië en Hongarije: van middeleeuws marktstadje tot districtscentrum",
+          "text": "Senica wordt in 1256 vermeld en kreeg stadsrechten in 1396. In 1419 bevestigde Sigismund jaarmarkten en vrijstelling van tol. In 1614 kwamen burgers in opstand tegen de heren van Branč. In 1960 werd Senica een districtscentrum. Het historische centrum bewaart de gotische Sint-Ann kapel en een kerk die in 1631 oorspronkelijk voor protestanten werd gebouwd."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het landhuis Machatka: een adellijke residentie die een regionale galerie werd",
+          "text": "Het laatbarokke landhuis werd in de tweede helft van de 18e eeuw gebouwd door de familie Kálman. De familie Markovický erfde het in 1935. Na restauratie opende hier in 1984 de Záhoriegalerie, tegenwoordig vernoemd naar schilder Ján Mudroch."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het Joodse Senica: een oude ronde begraafplaats en de herinnering aan de Holocaust",
+          "text": "Voor de oorlog woonden meer dan 300 Joden in Senica; 263 Joodse inwoners werden tijdens de Holocaust vermoord. De oude begraafplaats heeft een ronde vorm, Hebreeuwse inscripties en een mortuarium uit het einde van de 19e eeuw met oosterse kenmerken. De synagoge werd in 1965 afgebroken."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het stuwmeer van Kunov: een industriële watervoorraad die een recreatiegebied werd",
+          "text": "Het stuwmeer werd gebouwd als industriewatervoorraad voor Slovenský hodváb en kwam in januari 1965 in bedrijf. De inhoud is ongeveer drie miljoen kubieke meter. Het werd ook een recreatiegebied; later kwamen er een strand en sportvoorzieningen. Een renovatie creëerde een vogeleiland."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rovensko: een zelfstandige gemeente met wortels in de 15e eeuw",
+          "text": "Rovensko valt ook onder postcode 905 01. De plaats wordt voor het eerst vermeld in 1439 en hoorde eerst bij Korlátko en later bij Branč. In de 18e eeuw was wijnbouw wijdverbreid. Het dorp heeft zijn lintvorm behouden en bezit een neoklassieke kapel uit het midden van de 19e eeuw."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čáčov: een oud dorp en de tragedie van een cholera-epidemie",
+          "text": "Čáčov is nu een stadsdeel van Senica, maar bleef tot 1971 zelfstandig. De eerste vermelding dateert uit 1394. In 1831 werden 221 mensen ziek door cholera en stierven er 111 binnen twee maanden. De katholieke kerk dateert uit 1833 en de evangelische kerk uit 1864."
+        },
+        {
+          "id": "fact_008",
+          "title": "Het zomerpaviljoen van de familie Vagyon: van adellijke residentie tot museum",
+          "text": "Het landgoed van Štefan Vagyon omvatte een park, grot, tennisbaan en pauwen. Begin jaren 1880 werd een zomerpaviljoen in romantisch-historistische stijl gebouwd. De Sokol-vereniging kocht het in 1925; later bood het plaats aan gymnastiek, theater en film. Tegenwoordig is het het Museum Senica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senica tijdens de Tweede Wereldoorlog: verzet, gevangenschap en executies",
+          "text": "Vanaf 1944 waren partizanen actief rond Senica. De Duitse militaire politie en de Hlinka-garde arresteerden mensen; tot 200 personen werden opgesloten en gemarteld in een landbouwmagazijn. Opgravingen in het bos van Suroviny identificeerden ongeveer 40 tot 50 slachtoffers. Senica werd op 7 april 1945 bevrijd."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
