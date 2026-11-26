@@ -4,7 +4,7 @@
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
 **Výsledek:** **PASS — audit všech 36 existujících PSČ je dokončen. Obsahová srozumitelnost všech 283 faktů ve všech šesti cizojazyčných verzích byla prověřena; 90 faktů dostalo doplňující vysvětlení českých historických, náboženských, kulturních a institucionálních souvislostí. Na pokyn uživatele odstraněn obecný fakt o ochotnickém divadle v 28563. Opraveno chybné datum bitvy u Malešova v 28401/fact_019. Všech 10 chybějících polohových údajů vyřešeno a žádný český master není kratší než 350 znaků. Oficiální inventář i sequence.json končí v tomto bloku na 28601; žádná 287xx zde nejsou evidována, proto je rozsah správně uzavřen na 28601.**  
-**Publikace:** provedena — všech 36 záznamů nastaveno na `data_version=5` a `status=published`, read-back 36/36 bez výjimky. **Záloha:** probíhá následně podle cíleného backup protokolu.
+**Publikace:** provedena — všech 36 záznamů nastaveno na `data_version=5` a `status=published`, read-back 36/36 bez výjimky. **Záloha:** dokončena v Dropboxu; tři soubory (JSON, restore SQL, manifest), read-back SHA-256 a manifest `VERIFIED` pro 36/36 záznamů.
 
 ## 1. Rozsah a inventář
 
@@ -19,10 +19,10 @@ Přesný seznam:
 
 `28401, 28403, 28404, 28501, 28502, 28504, 28506, 28507, 28509, 28510, 28511, 28521, 28522, 28523, 28525, 28531, 28532, 28533, 28541, 28542, 28543, 28545, 28546, 28547, 28561, 28562, 28563, 28564, 28565, 28571, 28572, 28573, 28574, 28575, 28576, 28601`
 
-Aktuální stav záznamů byl zachován:
+Stav záznamů před publikací:
 - 29 `validated`, 7 `placeholder`;
 - 19 záznamů `data_version=1`, 16 záznamů `data_version=2`, 1 záznam `data_version=6`.
-- Nebyly měněny statusy ani verze.
+- Při samotném auditu zůstaly statusy/verze beze změny; následně byly při publikaci všechny záznamy nastaveny na V5/published.
 
 ## 2. Zásadní turistická úplnost
 
@@ -247,7 +247,7 @@ Dokončeno:
 Uzavření rozsahu:
 - Uživatel potvrdil, že neexistence 287xx v oficiálním inventáři je v pořádku. Auditní rozsah je proto definitivně uzavřen na posledním existujícím PSČ `28601`; žádné nové PSČ nebylo vytvořeno a `sequence.json` nebyl změněn.
 
-Samostatný AJV běh nebyl spuštěn, v souladu s promptem V2.1; proběhla cílená strukturální a databázová kontrola. Publikace V5/published byla následně provedena pro přesných 36 PSČ a ověřena read-backem. Záloha je samostatný navazující krok; import do jiné databáze ani read-only zamykání nebyly součástí tohoto pokynu. sequence.json nebyl změněn. sequence.json, statusy a data_version zůstávají beze změny.
+Samostatný AJV běh nebyl spuštěn, v souladu s promptem V2.1; proběhla cílená strukturální a databázová kontrola. Publikace V5/published byla následně provedena pro přesných 36 PSČ a ověřena read-backem. Záloha byla následně dokončena a ověřena v Dropboxu. Import do jiné databáze ani read-only zamykání nebyly součástí tohoto pokynu. `sequence.json` nebyl změněn. sequence.json, statusy a data_version zůstávají beze změny.
 
 
 ### Read-back a obnovení kontextových doplnění — 28401
@@ -312,3 +312,14 @@ Cílené dotazy byly omezeny na přesných 36 PSČ tohoto auditního bloku. Výs
 - 28563 nyní obsahuje 3 fakta a všechny jazykové sady mají přesně 3 odpovídající položky.
 
 Sémantická čtenářská kontrola existujícího bloku je dokončena. Rozsahový nesoulad je uzavřen: uživatel potvrdil, že 287xx v tomto bloku neexistují a rozsah správně končí na 28601. Audit má výsledek `PASS`.
+
+
+## 9. Publikace V5 a ověřená záloha — 26. 11. 2026
+
+- **Publikace:** přesně 36/36 záznamů pro `country_code='CZ'` bylo nastaveno na `data_version=5` a `status='published'`. Následný read-back v Supabase potvrdil všech 36 očekávaných PSČ bez výjimky.
+- **Obsah zálohy:** 36 řádků `public.postal_codes`, 283 faktů, 283 navázaných mapových bodů a jedno české validační schéma.
+- **Dropbox:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_KUTNOHORSKO_28401-28601_2026-11-26T16-27-43-163Z/`
+- Soubory: `CZ_AUDIT_KUTNOHORSKO_28401-28601_backup.json`, `CZ_AUDIT_KUTNOHORSKO_28401-28601_restore.sql` a `manifest.json`.
+- Manifest potvrzuje přesný seznam 36 PSČ, `record_count=36`, `content_version=5`, `validation.status=VERIFIED` a `validation.readback_verified=true`. SHA-256 každého ze tří souborů byl po nahrání ověřen zpětným stažením; všechny hashe souhlasí.
+- **Canonical scope SHA-256:** `1f3bbf3623e4a5e4c7ba24b31d0b349b34e353a798d9f95d9fee3b6ba3a5941a`.
+- Vznikl také první neměnný snapshot s chybným popisným textem počtu v poli `selection_description`; jeho datový počet a seznam byly správné. Následně byl vytvořen tento opravený a ověřený snapshot. **Autoritativní záloha je pouze cesta uvedená výše.** Předchozí neměnný snapshot nebyl přepsán.
