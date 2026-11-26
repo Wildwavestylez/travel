@@ -158,7 +158,7 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - **28151/fact_002** ponechat `location: null`: zahrnuje proměny několika labských ramen a slepých koryt, rybník Bačov i zaniklou koňskou železnici mezi více místy. Nelze určit jeden reprezentativní bod bez zkreslení příběhu. Tím se počet zdokumentovaných null poloh v celém bloku zvýšil z devíti na deset.
 
 ### Stav po dávce
-- Sémanticky zkontrolováno 191/191 faktů = 1 146/1 146 cizojazyčných textů.
+- Sémanticky zkontrolováno 190/190 faktů = 1 140/1 140 cizojazyčných textů.
 - Opraveno celkem 161 cizojazyčných textů.
 - Zbývá 0 cizojazyčných textů.
 - 20 původně prázdných poloh bylo doplněno; 0 `location: null`.
@@ -211,7 +211,7 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - RÚIAN CSV: 28171 = 192 adresních míst v Rostoklatech; 28201 = 5 590 adresních míst v 15 obcích. Oba kódy jsou v `sequence.json` i Supabase; žádná změna sequence ani správního zařazení.
 
 ### Konečný stav celého bloku
-- 27/27 PSČ, 191/191 faktů a 1 146/1 146 cizojazyčných textů sémanticky zkontrolováno.
+- 27/27 PSČ, 190/190 faktů a 1 140/1 140 cizojazyčných textů sémanticky zkontrolováno.
 - Celkem opraveno 161 cizojazyčných textů; 0 překladových položek zbývá.
 - 20 původně prázdných poloh bylo doplněno podle hierarchie orientačních bodů; v celém bloku zůstává 0 `location: null`.
 - 27/27 záznamů zůstává `validated`, `data_version=1`; všechny změny zachovaly existující ID.
@@ -277,7 +277,7 @@ Celkem bylo doplněno 20 poloh: deset původně zdokumentovaných a deset dalš�
 - Texty faktů, překlady, ID, `map_category`, `sequence.json`, status a verze záznamů nebyly touto geografickou opravou měněny.
 
 ### Poznámky pro případné samostatné geografické posouzení
-- 28103/fact_005 a 28106/fact_005 popisují tutéž zvoničku v Hřibech a nyní mají stejný doložený orientační bod. Tato oprava měnila pouze polohu; případnou duplicitu a poštovní přiřazení je nutné řešit samostatně, nikoli automatickým přesunem faktu.
+- **Vyřešená duplicita zvoničky v Hřibech:** `28103/fact_005` a `28106/fact_005` popisovaly totožný objekt. Ponechán byl `28106/fact_005`, protože patří do záznamu pro Vitice (PSČ 28106), má správně sladěný český titul i všech šest překladových titulů a kompletní věcný text. V `28103` měl sice český master správný text a titul, ale český překladový titul byl chybně převzat z jiné památky v Radimi; ponechání této kopie by zachovalo nekonzistenci a chybné poštovní přiřazení. `28103/fact_005` byl proto odstraněn z `content.facts` i ze všech sedmi jazykových polí `translations.*.facts`. ID `28106/fact_005` zůstalo zachováno. Read-back potvrdil 5 faktů a 5 překladových položek v každém jazyce u obou záznamů, bez duplicitního `fact_005` v 28103. Celkový inventář bloku se tím změnil na 190 faktů a 1 140 cizojazyčných textů.
 - 28101/fact_005 nyní ukazuje na skutečné zkušební centrum VUZ na adrese Za Dráhou 373 v Cerhenicích. Případné posouzení primárního přiřazení faktu k PSČ 28101 versus 28102 je samostatná otázka; v této dávce nebylo přiřazení ani sequence měněno.
 
 ### Závěrečný read-back
@@ -286,3 +286,30 @@ Celkem bylo doplněno 20 poloh: deset původně zdokumentovaných a deset dalš�
 - Read-back změněných záznamů zachoval status `validated` a `data_version=1`; počet faktů, ID a všechny ostatní části obsahu zůstaly beze změny.
 - Nebyla provedena publikace V5, záloha, read-only lock, změna schématu ani změna `sequence.json`.
 - **Geografické dořešení prázdných poloh: PASS.**
+
+
+## 13. Vyřešení duplicity zvoničky v Hřibech — 2026-11-26
+
+Porovnány byly oba záznamy `28103/fact_005` a `28106/fact_005`, včetně českého masteru, všech šesti cizojazyčných překladů, poštovního kontextu a geolokace.
+
+**Ponechán záznam `28106/fact_005` — Pískovcová zvonička v Hřibech.**
+
+Důvody:
+- Hřiby spadají do obce Vitice a příslušného poštovního obvodu 28106; záznam 28106 je proto správným místem pro tento fakt.
+- V 28106 je český master, český překladový titul i všech šest cizojazyčných titulů správně sladěno s textem o zvoničce.
+- V 28103 byl sice český master faktu věcně správný, ale titul v `translations.cs` chybně zněl „Radimské sakrální a dopravní památky: Mockerova kaple a barokní most“. To je pozůstatek jiného tématu a jasná známka poškozeného přiřazení překladové položky.
+- Oba záznamy měly totožný věcný master a stejnou polohu usedlosti čp. 8; nejde o dvě různé zvoničky.
+
+### Provedená změna
+- Z `28103/content.facts` odstraněn pouze `fact_005`.
+- Z `28103/translations.cs.facts`, `de`, `en`, `es`, `fr`, `it` a `nl` odstraněna odpovídající položka `fact_005`.
+- `28106/fact_005` ponechán beze změny včetně jeho ID, textu, překladů a geografické polohy.
+- Žádný jiný fakt, překlad, zdroj, pořadí ani PSČ nebylo touto deduplikací změněno.
+
+### Read-back po deduplikaci
+- 28103: 5 faktů; `cs/de/en/es/fr/it/nl` po 5 položkách; `fact_005` nepřítomen.
+- 28106: 5 faktů; `cs/de/en/es/fr/it/nl` po 5 položkách; `fact_005` přítomen.
+- Oba záznamy zůstaly `validated`, `data_version=1`.
+- Celý blok: 27 PSČ, **190 faktů**, **1 140 cizojazyčných překladových textů**, 27/27 záznamů validated V1.
+- Geografický read-back celého bloku nadále potvrzuje 0 `location: null`.
+- **Duplicita zvoničky: vyřešena, PASS.**
