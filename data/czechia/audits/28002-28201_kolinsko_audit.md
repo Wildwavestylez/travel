@@ -79,7 +79,7 @@ Původních 13 krátkých faktů bylo rozšířeno na nejméně 350 znaků a dop
 
 Read-back původní délkové opravy potvrdil 13/13 českých master textů nad limitem a správná ID i počty všech sedmi jazyků u pěti dotčených záznamů. Při pozdější cílené kontrole však bylo odhaleno, že 28106/fact_004 má sice správný titul, polohu a původní zdrojové odkazy k památné hrušni, ale český master i všech šest překladů obsahovaly text pseudobarokní kapličky v Chotuticích (duplicitní téma k 28103/fact_004). Tato obsahová záměna byla opravena: fakt i šest překladů nyní popisují památnou hrušeň u Hřib, vysazenou na počátku 19. století a chráněnou od roku 1987; podle oficiálního webu obce Vitice měří přibližně 13 m a obvod kmene je 364 cm. Ze seznamu zdrojů byl odstraněn chybný odkaz na Chotutice. U 28103/fact_004 zůstává doložená vazba na radimské panství od roku 1541 a archivní mapa z roku 1800.
 
-### Doložené `location: null` (přípustné dle standardu)
+### Původní seznam výjimek `location: null` — HISTORICKÝ STAV, NÁSLEDNĚ OPRAVENO V ODDÍLU 12
 - 28103 / `fact_004` — kaplička v Chotuticích: oficiální zdroj potvrzuje obec a vznik v roce 1805, ale nebyl nalezen spolehlivý bod konkrétní kapličky.
 - 28106 / `fact_005` — zvonička v Hřibech: obec Vitice potvrzuje umístění před usedlostí čp. 8, ale nebyly doloženy přesné souřadnice.
 - 28130 / `fact_001` — zaniklá tvrz / archeologické území: NPÚ vymezuje severní část vsi a polygon ÚAN II, nikoli obhajitelný samostatný bod tvrze.
@@ -91,7 +91,7 @@ Read-back původní délkové opravy potvrdil 13/13 českých master textů nad 
 - 28130 / `fact_005` — požár roku 1895: podle kroniky zasáhl devět hospodářství; jde o vícemístnou událost bez doloženého jediného bodu.
 - 28151 / `fact_002` — proměny labských ramen, starých koryt, rybníka Bačov a zaniklé koňské železnice: příběh pokrývá širší krajinu mezi Velkým Osekem, Osečkem a Volárnou, nikoli jeden samostatný bod.
 
-Všech deset uvedených poloh ponechat `null`; jejich příběhy nemají odpovědný jediný bod a důvod je zdokumentován. Nejde o otevřenou vadu. Poloha 28106 / `fact_001` byla doplněna pro mohylu a reprezentativní oblast bojiště; při závěrečné dávce byla navíc doplněna poloha 28201 / `fact_013`.
+Tento seznam zachycuje původní rozhodnutí auditu, které bylo následně přehodnoceno podle závazné hierarchie pro mapové body. Všech deset těchto poloh bylo doplněno; konečný stav a důkazy jsou uvedeny v oddílu 12. Poloha 28106 / `fact_001` byla doplněna pro mohylu a reprezentativní oblast bojiště; při závěrečné dávce byla navíc doplněna poloha 28201 / `fact_013`.
 ### Překlady
 Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Sémanticky bylo detailně zkontrolováno 174 z 191 faktů: 28002 (10), 28101 (5), 28102 (7), 28103 (6), 28104 (7), 28106 (5), 28107 (8), 28121 (11), 28123 (9), 28125 (7), 28126 (7), 28127 (5), 28128 (6), 28129 (7), 28130 (6), 28141 (6), 28143 (8), 28144 (11), 28146 (8), 28151 (9), 28161 (7), 28162 (4), 28163 (4), 28166 (4) a 28167 (7), tedy 1 044 cizojazyčných textů. U 28002/fact_007 bylo zjištěno zásadní zkrácení všech šesti překladů oproti českému masteru; všech šest verzí bylo doplněno o chybějící údaje (37 obcí v síti do roku 1914, převzetí provozu ESSO v roce 1916, nová elektrárna na Zálabí 1930–1932 podle Jaroslava Fragnera, předchůdkyně Draslovky z roku 1906 a obnovení výroby roku 1947 po náletu v roce 1944). U 28102/fact_001 chyběla ve všech šesti překladech zmínka o vladykovi Oldřichovi z Cerhenic; u fact_003 chyběla informace o Dlabačově zájmu o hudbu a dějiny umění. Všech 12 překladů bylo doplněno. U 28103/fact_005 a fact_006 byly potvrzeny chybné české tituly i jejich šest jazykových variant. Tituly byly opraveny podle skutečného obsahu: pískovcová zvonička v Hřibech a pomník obětem světových válek v Ohařích. Současně byly odstraněny dva nesouvisející zdroje, u fact_006 byla opravena `map_category` z `archaeological_site` na `historical_monument`; české texty faktů a jejich ID zůstaly zachovány. Read-back ověřil nové názvy a mapovou kategorii. U 28104 byly ve všech šesti překladech fact_002 doplněny informace o červené mramorové pamětní desce zvonice a u fact_006 informace o uložení nálezů v muzeích v Kolíně a v Národním muzeu (12 oprav). U 28106/fact_002 bylo ve všech šesti překladech doplněno časové vymezení barokních úprav do 17. a 18. století (6 oprav). U 28106/fact_004 byla opravena závažná záměna obsahu: původní český text a všech šest překladů popisovaly kapličku v Chotuticích, zatímco titul, poloha a relevantní zdroje patřily památné hrušni u Hřib. Český master i všech šest překladů byly obnoveny jako text o hrušni; titul zůstal správný a chybný chotutický zdroj byl odstraněn. Ověřeno podle oficiální stránky obce Vitice: https://www.vitice.cz/zivot-v-obci/viticke-pesiny/hriby/ a doplňkových popisů https://www.cestyapamatky.cz/kolinsko/hriby/hrusen-u-hrib a https://botany.cz/cs/hrusen-u-hrib/. Všech osm faktů 28107 a jejich 48 cizojazyčných verzí bylo zkontrolováno bez nutnosti věcné opravy. V dávkách 28121/28123/28125, 28126/28127/28128 a 28129/28130/28141 bylo kromě výše uvedených oprav ověřeno, že ostatní překlady zachovávají podstatný obsah českých masterů. U všech 64 faktů těchto tří dávek je 7/7 jazykových položek přítomno, české `translations.cs` odpovídá master textům a žádný český master není kratší než 350 znaků. V dávce 28143/28144/28146 byly opraveny tři překladové položky: španělský název druhu jilmu u 28143/fact_007 (olmo temblón chybně označovalo osiku, opraveno na olmo liso), nizozemská formulace povolání Sulislava u 28144/fact_001 (upřesněno na hofschenker) a všech šest překladů 28146/fact_005 po opravě chybného přiřazení kamene Na Krakovci do Dolních Krut; správně leží v Horních Krutech. Český master a `translations.cs` byly synchronizovány, doplněn původ kamene, jeho přemístění v roce 1988, návrat 26. září 2019 a místní tradice jasně označená jako nepodložená historická interpretace. Celkem bylo opraveno nebo obsahově nově sestaveno 150 cizojazyčných textů. Navíc byly v `28130/fact_004–005` opraveny dva české master texty, jejich názvy, zdroje a mapové kategorie; v `28126/fact_008` bylo duplicitní přiřazení nahrazeno jedinečným `28129/fact_008` se zachovaným ID. Zbývá 102 cizojazyčných textů; úplný průchod proto není dokončen.
 
@@ -161,7 +161,7 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - Sémanticky zkontrolováno 191/191 faktů = 1 146/1 146 cizojazyčných textů.
 - Opraveno celkem 161 cizojazyčných textů.
 - Zbývá 0 cizojazyčných textů.
-- 10 položek `location: null` má zdokumentovaný důvod.
+- 20 původně prázdných poloh bylo doplněno; 0 `location: null`.
 - Všechny tři záznamy zůstaly `validated`, `data_version=1`; žádná publikace V5, záloha ani read-only lock.
 - Další dávka v tomto rozsahu: žádná; auditní blok je dokončen.
 
@@ -213,7 +213,76 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 ### Konečný stav celého bloku
 - 27/27 PSČ, 191/191 faktů a 1 146/1 146 cizojazyčných textů sémanticky zkontrolováno.
 - Celkem opraveno 161 cizojazyčných textů; 0 překladových položek zbývá.
-- 10 záměrných `location: null` má zdokumentovaný důvod; žádná nevyřešená poloha nezůstává.
+- 20 původně prázdných poloh bylo doplněno podle hierarchie orientačních bodů; v celém bloku zůstává 0 `location: null`.
 - 27/27 záznamů zůstává `validated`, `data_version=1`; všechny změny zachovaly existující ID.
 - **Konečný výsledek: PASS.**
 - Bez publikace V5, bez zálohy, bez read-only locku, bez změny schématu a bez změny `sequence.json`. Publikace ani záloha nebyly součástí tohoto auditního běhu a čekají na samostatné výslovné zadání.
+
+## 12. Dodatečné geografické dořešení všech prázdných poloh — 2026-11-26
+
+### Zjištění a rozsah opravy
+Při cíleném read-backu všech faktů přes přesný seznam 27 PSČ bylo zjištěno, že databáze obsahovala **20** faktů s `location: null`, nikoli pouze deset uvedených v původním seznamu oddílu 6. Původní auditní soupis tedy nebyl úplný. Byly nalezeny další položky:
+- 28103/fact_005 — zvonička v Hřibech;
+- 28103/fact_006 — pomník obětem světových válek v Ohařích;
+- 28101/fact_001 a fact_005 — historie Velimi a zkušební centrum VUZ;
+- 28102/fact_001, fact_004 a fact_005 — historie Cerhenic, bývalý cukrovar a archeologické nálezy;
+- 28104/fact_001, fact_006 a fact_007 — historie Plaňan, archeologické nálezy a cukrovar s lokální železnicí.
+
+Celkem bylo doplněno 20 poloh: deset původně zdokumentovaných a deset dalších odhalených až při úplném cíleném průchodu databázovými fakty.
+
+### Doplněné body
+
+| PSČ / fakt | Použitý mapový bod | Přesnost |
+|---|---|---|
+| 28103/fact_004 | Obecní úřad Chotutice, Průběžná 107 — orientační bod pro kapličku s neznámou přesnou polohou | historical_approximate |
+| 28103/fact_005 | Usedlost čp. 8, Hřiby — zvonička stojí před usedlostí | approximate |
+| 28103/fact_006 | Pomník obětem 1. a 2. světové války u kostela v Ohařích | exact |
+| 28106/fact_005 | Usedlost čp. 8, Hřiby — stejná doložená poloha zvoničky | approximate |
+| 28129/fact_001 | Obecní úřad, Masarykovo náměstí 1, Žiželice | historical_approximate |
+| 28129/fact_005 | Obecní úřad, Masarykovo náměstí 1, Žiželice | historical_approximate |
+| 28129/fact_006 | Obecní úřad, Masarykovo náměstí 1, Žiželice | historical_approximate |
+| 28129/fact_008 | Obecní úřad, Masarykovo náměstí 1, Žiželice | historical_approximate |
+| 28130/fact_001 | Kostel sv. Jana Nepomuckého v Ohařích — veřejný orientační bod pro dějiny vsi a zaniklou tvrz | historical_approximate |
+| 28130/fact_004 | Kostel sv. Jana Nepomuckého v Ohařích — orientační bod pro více historických školních budov | historical_approximate |
+| 28130/fact_005 | Kostel sv. Jana Nepomuckého v Ohařích — orientační bod pro vícemístnou událost požáru | historical_approximate |
+| 28151/fact_002 | Železniční stanice Velký Osek — orientační bod k příběhu koňské železnice, Labe a rybníka Bačov | historical_approximate |
+| 28101/fact_001 | Obecní úřad Velim, náměstí Obránců míru 120 | historical_approximate |
+| 28101/fact_005 | Zkušební centrum VUZ Velim, Za Dráhou 373, Cerhenice | exact |
+| 28102/fact_001 | Náměstí Míru 14, Cerhenice — orientační bod pro dějiny sídla | historical_approximate |
+| 28102/fact_004 | Komín bývalého Rolnického cukrovaru v Cerhenicích | exact |
+| 28102/fact_005 | Náměstí Míru 14, Cerhenice — orientační bod pro archeologické nálezy bez přesného vymezení všech poloh | historical_approximate |
+| 28104/fact_001 | Úřad městyse Plaňany, Tyršova 72 | historical_approximate |
+| 28104/fact_006 | Bývalý cukrovar, Cukrovarská ulice, Plaňany | historical_approximate |
+| 28104/fact_007 | Bývalý cukrovar, Cukrovarská ulice, Plaňany | historical_approximate |
+
+### Použité geografické zdroje
+- Chotutice — oficiální adresa obecního úřadu a souřadnice adresního místa: https://www.chotutice.cz/kontakty/ ; https://rejstriky.finance.cz/adresa-chotutice-prubezna-107-0-2410371
+- Hřiby — oficiální popis zvoničky před usedlostí čp. 8 a souřadnice adresního bodu: https://www.vitice.cz/zivot-v-obci/viticke-pesiny/hriby/ ; https://www.mesec.cz/rejstrik-firem/adresni-misto-vitice-8-28106-6103014
+- Ohaře — přesné souřadnice pomníku CZE-2110-32742: https://www.vets.cz/vpm/16711-pomnik-obetem-1-a-2-svetove-valky/
+- Žiželice — souřadnice obecního úřadu na Masarykově náměstí: https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEelice,_Masarykovo_n%C3%A1m%C4%9Bst%C3%AD_1,_obecn%C3%AD_%C3%BA%C5%99ad_(03).jpg
+- Ohaře — souřadnice kostela sv. Jana Nepomuckého: https://www.cestyapamatky.cz/kolinsko/ohare/kostel-sv-jana-nepomuckeho
+- Velký Osek — souřadnice železniční stanice: https://schedules.czech-transport.com/en/5?stop=VELKY_OSEK_ST
+- Velim — oficiální souřadnice obecního úřadu: https://www.velim.cz/prakticke-info/firmy/obecni-urad-0_3.html
+- VUZ — oficiální GPS zkušebního centra: https://www.cdvuz.cz/centrala-a-pobocky/
+- Cerhenice — souřadnice adresního bodu na náměstí Míru: https://firmy.euro.cz/misto-cerhenice-namesti-miru-14-0-14448432
+- Cerhenice — souřadnice komína bývalého Rolnického cukrovaru: https://koda.kominari.cz/195~Concrete-stacks?action=karta&cislo=0614
+- Plaňany — souřadnice úřadu městyse: https://regiony.kurzy.cz/planany/tyrsova/72/
+- Plaňany — souřadnice adresního bodu v ulici Cukrovar: https://firmy.euro.cz/misto-planany-cukrovar-441-0-26256878
+
+### Přesnost a interpretace
+- Tři body mají přesnost `exact`: pomník v Ohařích, zkušební centrum VUZ a komín bývalého cukrovaru v Cerhenicích.
+- Dva body mají přesnost `approximate`: orientační adresa usedlosti čp. 8 v Hřibech.
+- Patnáct bodů má přesnost `historical_approximate`: veřejné orientační body nebo historické polohy, které nepředstírají přesné umístění příběhu.
+- Každý `location.source` obsahuje jednu přímou URL podle schématu; další obsahové a doplňkové zdroje zůstávají v původních zdrojových polích.
+- Texty faktů, překlady, ID, `map_category`, `sequence.json`, status a verze záznamů nebyly touto geografickou opravou měněny.
+
+### Poznámky pro případné samostatné geografické posouzení
+- 28103/fact_005 a 28106/fact_005 popisují tutéž zvoničku v Hřibech a nyní mají stejný doložený orientační bod. Tato oprava měnila pouze polohu; případnou duplicitu a poštovní přiřazení je nutné řešit samostatně, nikoli automatickým přesunem faktu.
+- 28101/fact_005 nyní ukazuje na skutečné zkušební centrum VUZ na adrese Za Dráhou 373 v Cerhenicích. Případné posouzení primárního přiřazení faktu k PSČ 28101 versus 28102 je samostatná otázka; v této dávce nebylo přiřazení ani sequence měněno.
+
+### Závěrečný read-back
+- Všech 20 cílových faktů má nyní neprázdný objekt `location`, platné souřadnice, povolený typ a přesnost a jednu platnou zdrojovou URL.
+- Cílený souhrnný dotaz nad všemi 27 PSČ z bloku vrátil **0 faktů s `location: null`**.
+- Read-back změněných záznamů zachoval status `validated` a `data_version=1`; počet faktů, ID a všechny ostatní části obsahu zůstaly beze změny.
+- Nebyla provedena publikace V5, záloha, read-only lock, změna schématu ani změna `sequence.json`.
+- **Geografické dořešení prázdných poloh: PASS.**
