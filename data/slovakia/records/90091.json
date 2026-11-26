@@ -1,4 +1,417 @@
 {
   "postcode": "90091",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Limbach",
+  "district": null,
+  "county": "Pezinok",
+  "state": "Bratislavský kraj",
+  "representative_place": "Centrum obce Limbach",
+  "representative_point": {
+    "lat": 48.288889,
+    "lon": 17.221944
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Limbach: obec s nemeckými koreňmi pod Malými Karpatmi",
+      "text": "Limbach leží na juhovýchodnom úpätí Malých Karpát. Prvé zachované písomné zmienky o obci pochádzajú z roku 1390, keď sa uvádza ako Limpah a existoval tu už farský kostol svätého Theobalda. Osídlenie sa spája s nemeckými kolonistami, ktorí v stredoveku priniesli do oblasti vlastné vinohradnícke, remeselné a sídelné tradície. Historická nemecká komunita zostala výraznou súčasťou identity obce až do konca druhej svetovej vojny, po ktorej bolo veľká časť jej obyvateľstva vysídlená.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.limbach.sk/historia",
+        "https://www.slovensko.sk/sk/lokality/_87e80640-6e4c-4665-8a38-c84b76348b71"
+      ],
+      "location": {
+        "name": "Historické jadro obce Limbach – orientačný bod",
+        "lat": 48.288889,
+        "lon": 17.221944,
+        "type": "historic_village",
+        "accuracy": "area_representative",
+        "address": null,
+        "source": "https://www.limbach.sk/files/dokumenty/phsr/2025-09-29-164332-PRO_Limbach_2025_-_2032_schv__len__.pdf"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Vinohradníctvo a limbašský Silván",
+      "text": "Vinohradníctvo patrí k najvýraznejším tradičným činnostiam Limbachu. Vinohradnícke hospodárstva formovali obec už v ranom novoveku a v roku 1914 tu vznikol vinohradnícky spolok i peňažné družstvo Limbacher Raiffeisengenossenschaft. Miestne víno Silván sa preslávilo aj za hranicami regiónu; tradíciu dnes pripomínajú miestni vinohradníci, vinári a podujatia otvorených pivníc.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.limbach.sk/historia",
+        "https://www.slovensko.sk/sk/lokality/_87e80640-6e4c-4665-8a38-c84b76348b71",
+        "https://www.limbach.sk/pozvanka-na-otvorene-pivnice-v-limbachu-a22-1006"
+      ],
+      "location": {
+        "name": "Vinohradnícka krajina v okolí Limbachu – orientačný bod",
+        "lat": 48.2859,
+        "lon": 17.2255,
+        "type": "agricultural_landscape",
+        "accuracy": "area_representative",
+        "address": null,
+        "source": "https://www.vinolimbach.org/limbach/"
+      },
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Gotický kostol svätého Theobalda",
+      "text": "Rímskokatolícky kostol svätého Theobalda patrí k najstarším a najvýraznejším pamiatkam Limbachu. Súčasná stavba vznikla na mieste staršieho gotického kostola v roku 1489; v 17. storočí ju prestavali a v roku 1803 doplnili sakristiu. V interiéri sa zachovali gotické architektonické prvky, neskorogotický portál a rokokový organ z polovice 18. storočia. Kostol je zapísaný v Ústrednom zozname pamiatkového fondu SR.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.limbach.sk/cirkvi-a-nabozenstva",
+        "https://www.pamiatkynaslovensku.sk/limbach-kostol-sv-theobalda"
+      ],
+      "location": {
+        "name": "Kostol svätého Theobalda",
+        "lat": 48.291211,
+        "lon": 17.21466,
+        "type": "church",
+        "accuracy": "exact",
+        "address": "Cintorínska 5, 900 91 Limbach, Slovakia",
+        "source": "https://www.pamiatkynaslovensku.sk/limbach-kostol-sv-theobalda"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Evanjelický kostol a dvojjazyčná reformačná tradícia",
+      "text": "Evanjelický kostol v Limbachu bol postavený v roku 1802 ešte bez veže, pretože to vtedajšie predpisy neumožňovali. Vežu pristavali v roku 1901 a chrám následne prešiel ďalšími opravami. Na priečelí je reformačné heslo „Ein feste Burg ist unser Gott“ uvedené dvojjazyčne – po nemecky aj slovensky ako „Hrad prepevný je Pán Boh náš“. Kostol pripomína dlhú prítomnosť evanjelickej a nemeckojazyčnej komunity v obci.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.limbach.sk/cirkvi-a-nabozenstva",
+        "https://www.pamiatkynaslovensku.sk/limbach-evanjelicky-kostol"
+      ],
+      "location": {
+        "name": "Evanjelický kostol v Limbachu",
+        "lat": 48.289624,
+        "lon": 17.220378,
+        "type": "church",
+        "accuracy": "exact",
+        "address": "Vinohradnícka 34, 900 91 Limbach, Slovakia",
+        "source": "https://www.pamiatkynaslovensku.sk/limbach-evanjelicky-kostol"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Limbašská vyvieračka: krasový prameň s premenlivým tokom",
+      "text": "Limbašská vyvieračka je prírodná pamiatka na území Malých Karpát nad obcou Limbach. Ide o výver podzemného toku, ktorý pramení pod Tureckým vrchom a súvisí s krasovým systémom Borinského krasu. Jej výdatnosť závisí od zrážok a pri nízkom stave vody môže vyvieračka dočasne vyschnúť; uvádzaná maximálna výdatnosť dosahuje približne 120 litrov za sekundu. Lokalita je zaujímavá aj z hľadiska speleológie a krasovej hydrológie.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://bratislavaregion.travel/poi/354/okolo-limbachu",
+        "https://bratislavaregion.travel/poi/108/chranena-krajinna-oblast-male-karpaty",
+        "https://www.osjm.sk/OSJM/kniznica/publikacie/0Problemy_ZH_optimized01.pdf"
+      ],
+      "location": {
+        "name": "Limbašská vyvieračka",
+        "lat": 48.294611,
+        "lon": 17.167928,
+        "type": "natural_feature",
+        "accuracy": "approximate",
+        "address": null,
+        "source": "https://poi.oma.sk/n809731279"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.limbach.sk/kontakty",
+    "geographic_test_data": false,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Limbach pre fyzickú adresu 900 91 a administratívne údaje; oficiálny portál slovensko.sk a regionálne zdroje pre geografický kontext; súradnice a fyzické polohy doložené osobitne pri reprezentatívnom bode a jednotlivých faktoch."
+  },
+  "sources": [
+    {
+      "title": "Obec Limbach – História",
+      "url": "https://www.limbach.sk/historia",
+      "type": "official"
+    },
+    {
+      "title": "Obec Limbach – O obci a kontaktná adresa",
+      "url": "https://www.limbach.sk/kontakty",
+      "type": "official"
+    },
+    {
+      "title": "Obec Limbach – Cirkvi a náboženstvá",
+      "url": "https://www.limbach.sk/cirkvi-a-nabozenstva",
+      "type": "official"
+    },
+    {
+      "title": "Obec Limbach – Program rozvoja obce 2025–2032",
+      "url": "https://www.limbach.sk/files/dokumenty/phsr/2025-09-29-164332-PRO_Limbach_2025_-_2032_schv__len__.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Slovensko.sk – Lokality: Limbach",
+      "url": "https://www.slovensko.sk/sk/lokality/_87e80640-6e4c-4665-8a38-c84b76348b71",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol svätého Theobalda",
+      "url": "https://www.pamiatkynaslovensku.sk/limbach-kostol-sv-theobalda",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Evanjelický kostol",
+      "url": "https://www.pamiatkynaslovensku.sk/limbach-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "Bratislava Region – Okolo Limbachu",
+      "url": "https://bratislavaregion.travel/poi/354/okolo-limbachu",
+      "type": "regional"
+    },
+    {
+      "title": "Bratislava Region – Chránená krajinná oblasť Malé Karpaty",
+      "url": "https://bratislavaregion.travel/poi/108/chranena-krajinna-oblast-male-karpaty",
+      "type": "regional"
+    },
+    {
+      "title": "Speleologický odborný zdroj – Problémy západného krasu",
+      "url": "https://www.osjm.sk/OSJM/kniznica/publikacie/0Problemy_ZH_optimized01.pdf",
+      "type": "specialist"
+    },
+    {
+      "title": "VinoLimbach – Limbach a vinohradnícka tradícia",
+      "url": "https://www.vinolimbach.org/limbach/",
+      "type": "regional"
+    },
+    {
+      "title": "Obec Limbach – Otvorené pivnice",
+      "url": "https://www.limbach.sk/pozvanka-na-otvorene-pivnice-v-limbachu-a22-1006",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Limbašská vyvieračka, mapový bod",
+      "url": "https://poi.oma.sk/n809731279",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Centrum obce Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: obec s německými kořeny pod Malými Karpaty",
+          "text": "Limbach leží na jihovýchodním úpatí Malých Karpat. Nejstarší dochované písemné zmínky o obci pocházejí z roku 1390, kdy se uvádí jako Limpah a již zde existoval farní kostel svatého Theobalda. Osídlení je spojováno s německými kolonisty, kteří ve středověku přinesli do oblasti vlastní vinařské, řemeslné a sídelní tradice. Historická německá komunita zůstala výraznou součástí identity obce až do konce druhé světové války, po níž byla velká část jejího obyvatelstva vysídlena."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vinařství a limbašský Silván",
+          "text": "Vinařství patří k nejvýraznějším tradičním činnostem Limbachu. Vinařské usedlosti formovaly obec již v raném novověku a v roce 1914 zde vznikl vinařský spolek i peněžní družstvo Limbacher Raiffeisengenossenschaft. Místní víno Silván se proslavilo i za hranicemi regionu; tradici dnes připomínají místní vinaři a akce otevřených sklepů."
+        },
+        {
+          "id": "fact_003",
+          "title": "Gotický kostel svatého Theobalda",
+          "text": "Římskokatolický kostel svatého Theobalda patří k nejstarším a nejvýraznějším památkám Limbachu. Současná stavba vznikla na místě staršího gotického kostela v roce 1489; v 17. století byla přestavěna a v roce 1803 byla doplněna sakristie. V interiéru se zachovaly gotické architektonické prvky, pozdně gotický portál a rokokové varhany z poloviny 18. století. Kostel je zapsán v Ústředním seznamu památkového fondu Slovenské republiky."
+        },
+        {
+          "id": "fact_004",
+          "title": "Evangelický kostel a dvojjazyčná reformační tradice",
+          "text": "Evangelický kostel v Limbachu byl postaven v roce 1802 ještě bez věže, protože to tehdejší předpisy neumožňovaly. Věž byla přistavěna v roce 1901 a chrám následně prošel dalšími opravami. Na průčelí je reformační heslo „Ein feste Burg ist unser Gott“ uvedeno dvojjazyčně – německy i slovensky jako „Hrad prepevný je Pán Boh náš“. Kostel připomíná dlouhou přítomnost evangelické a německy mluvící komunity v obci."
+        },
+        {
+          "id": "fact_005",
+          "title": "Limbašská vyvěračka: krasový pramen s proměnlivým tokem",
+          "text": "Limbašská vyvěračka je přírodní památka v oblasti Malých Karpat nad obcí Limbach. Jde o vývěr podzemního toku, který pramení pod Tureckým vrchem a souvisí s krasovým systémem Borinského krasu. Její vydatnost závisí na srážkách a při nízkém stavu vody může vyvěračka dočasně vyschnout; uváděná maximální vydatnost dosahuje přibližně 120 litrů za sekundu. Lokalita je zajímavá také z hlediska speleologie a krasové hydrologie."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: eine Gemeinde mit deutschen Wurzeln am Fuß der Kleinen Karpaten",
+          "text": "Limbach liegt am südöstlichen Fuß der Kleinen Karpaten. Die ältesten erhaltenen schriftlichen Erwähnungen der Gemeinde stammen aus dem Jahr 1390; damals erscheint sie als Limpah, und eine Pfarrkirche des heiligen Theobald bestand bereits. Die Besiedlung wird mit deutschen Kolonisten verbunden, die im Mittelalter eigene Weinbau-, Handwerks- und Siedlungstraditionen in die Region brachten. Die historische deutsche Gemeinschaft prägte die Identität des Ortes bis zum Ende des Zweiten Weltkriegs, nach dem ein großer Teil der Bevölkerung ausgesiedelt wurde."
+        },
+        {
+          "id": "fact_002",
+          "title": "Weinbau und der Limbacher Silvaner",
+          "text": "Der Weinbau gehört zu den wichtigsten traditionellen Tätigkeiten in Limbach. Weinbaubetriebe prägten den Ort bereits in der frühen Neuzeit; 1914 wurden ein Weinbauverein und die Geldgenossenschaft Limbacher Raiffeisengenossenschaft gegründet. Der lokale Silvaner wurde auch über die Region hinaus bekannt. Heute halten örtliche Winzer und Veranstaltungen in offenen Weinkellern diese Tradition lebendig."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die gotische Kirche des heiligen Theobald",
+          "text": "Die römisch-katholische Kirche des heiligen Theobald zählt zu den ältesten und markantesten Baudenkmälern Limbachs. Der heutige Bau entstand 1489 an der Stelle einer älteren gotischen Kirche; im 17. Jahrhundert wurde er umgebaut und 1803 um eine Sakristei erweitert. Im Inneren blieben gotische Bauelemente, ein spätgotisches Portal und eine Rokokoorgel aus der Mitte des 18. Jahrhunderts erhalten. Die Kirche ist im Zentralen Denkmalregister der Slowakischen Republik eingetragen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die evangelische Kirche und die zweisprachige Reformationstradition",
+          "text": "Die evangelische Kirche in Limbach wurde 1802 zunächst ohne Turm errichtet, da die damaligen Vorschriften dies nicht erlaubten. Der Turm kam 1901 hinzu; zugleich wurde die Kirche teilweise instand gesetzt. An der Fassade steht das reformatorische Motto „Ein feste Burg ist unser Gott“ zweisprachig – auf Deutsch und Slowakisch als „Hrad prepevný je Pán Boh náš“. Die Kirche erinnert an die lange Präsenz der evangelischen und deutschsprachigen Gemeinschaft im Ort."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Limbašská-Quelle: ein Karstquell mit wechselnder Schüttung",
+          "text": "Die Limbašská-Quelle ist ein Naturdenkmal in den Kleinen Karpaten oberhalb der Gemeinde Limbach. Es handelt sich um den Austritt eines unterirdischen Wasserlaufs, der unter dem Turecký vrch entspringt und mit dem Karstsystem von Borinský kras verbunden ist. Ihre Schüttung hängt von den Niederschlägen ab; bei niedrigem Wasserstand kann die Quelle zeitweise versiegen. Die angegebene maximale Schüttung beträgt etwa 120 Liter pro Sekunde. Der Ort ist auch aus speläologischer und karsthydrologischer Sicht bedeutsam."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Limbach village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: a village with German roots beneath the Little Carpathians",
+          "text": "Limbach lies on the southeastern foothills of the Little Carpathians. The oldest surviving written references to the village date from 1390, when it appears as Limpah; a parish church dedicated to Saint Theobald already existed. Its settlement history is associated with German colonists who brought their own wine-growing, craft and settlement traditions to the area in the Middle Ages. The historic German community remained an important part of the village's identity until the end of the Second World War, after which a large part of its population was displaced."
+        },
+        {
+          "id": "fact_002",
+          "title": "Wine-growing and Limbach Silvaner",
+          "text": "Wine-growing is one of Limbach's defining traditional activities. Vine-growing farms shaped the village from the early modern period, and in 1914 a wine-growers' association and the Limbacher Raiffeisengenossenschaft credit cooperative were founded here. Local Silvaner wine became known beyond the region. Local growers, winemakers and open-cellar events continue this tradition today."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Gothic Church of Saint Theobald",
+          "text": "The Roman Catholic Church of Saint Theobald is one of Limbach's oldest and most distinctive heritage buildings. The present church was built in 1489 on the site of an earlier Gothic church; it was rebuilt in the seventeenth century and a sacristy was added in 1803. Gothic architectural features, a late-Gothic portal and a Rococo organ from the mid-eighteenth century survive inside. The church is listed in Slovakia's Central Register of Monuments."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Evangelical church and a bilingual Reformation tradition",
+          "text": "Limbach's Evangelical church was built in 1802 without a tower, as required by the regulations of the time. A tower was added in 1901, when the church was also partly repaired. Its façade bears the Reformation motto “Ein feste Burg ist unser Gott” in both German and Slovak: “Hrad prepevný je Pán Boh náš”. The church recalls the long presence of the Evangelical and German-speaking community in the village."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Limbašská spring: a karst outlet with a variable flow",
+          "text": "The Limbašská spring is a natural monument in the Little Carpathians above Limbach. It is an outlet of an underground stream rising beneath Turecký vrch and connected with the Borinský karst system. Its flow depends on rainfall, and the spring may temporarily dry up during periods of low water. Its reported maximum discharge is about 120 litres per second. The site is also of interest for speleology and karst hydrology."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: un pueblo de raíces alemanas al pie de los Pequeños Cárpatos",
+          "text": "Limbach se encuentra en las estribaciones sudorientales de los Pequeños Cárpatos. Las referencias escritas conservadas más antiguas del pueblo datan de 1390, cuando aparece como Limpah; ya existía entonces una iglesia parroquial dedicada a san Teobaldo. Su poblamiento se relaciona con colonos alemanes que introdujeron en la zona tradiciones propias de viticultura, artesanía y asentamiento durante la Edad Media. La histórica comunidad alemana siguió siendo parte importante de la identidad local hasta el final de la Segunda Guerra Mundial, después de la cual gran parte de la población fue desplazada."
+        },
+        {
+          "id": "fact_002",
+          "title": "La viticultura y el Silván de Limbach",
+          "text": "La viticultura es una de las actividades tradicionales más características de Limbach. Las explotaciones vinícolas dieron forma al pueblo desde comienzos de la Edad Moderna y en 1914 se fundaron una asociación de viticultores y la cooperativa de crédito Limbacher Raiffeisengenossenschaft. El vino local Silván llegó a ser conocido más allá de la región. Los viticultores y las jornadas de bodegas abiertas mantienen viva esta tradición."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia gótica de san Teobaldo",
+          "text": "La iglesia católica romana de san Teobaldo es uno de los monumentos más antiguos y destacados de Limbach. El edificio actual se levantó en 1489 en el lugar de una iglesia gótica anterior; fue reconstruido en el siglo XVII y en 1803 se añadió la sacristía. En el interior se conservan elementos arquitectónicos góticos, un portal tardogótico y un órgano rococó de mediados del siglo XVIII. La iglesia figura en el Registro Central de Monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia evangélica y la tradición reformista bilingüe",
+          "text": "La iglesia evangélica de Limbach se construyó en 1802 sin torre, de acuerdo con las normas de la época. La torre se añadió en 1901, cuando también se realizaron reparaciones parciales. En la fachada aparece el lema de la Reforma “Ein feste Burg ist unser Gott” en alemán y eslovaco: “Hrad prepevný je Pán Boh náš”. La iglesia recuerda la larga presencia de la comunidad evangélica y germanófona en el pueblo."
+        },
+        {
+          "id": "fact_005",
+          "title": "El manantial de Limbašská: una surgencia kárstica de caudal variable",
+          "text": "El manantial de Limbašská es un monumento natural de los Pequeños Cárpatos, por encima de Limbach. Es la salida de un curso de agua subterráneo que nace bajo el monte Turecký y está relacionado con el sistema kárstico de Borinský kras. Su caudal depende de las precipitaciones y puede secarse temporalmente cuando el nivel del agua es bajo. El caudal máximo indicado es de unos 120 litros por segundo. El lugar también tiene interés para la espeleología y la hidrología kárstica."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre du village de Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach : un village aux racines allemandes au pied des Petites Carpates",
+          "text": "Limbach se trouve sur les contreforts sud-est des Petites Carpates. Les plus anciennes mentions écrites conservées du village datent de 1390, lorsqu'il apparaît sous le nom de Limpah ; une église paroissiale dédiée à saint Théobald existait déjà. Son peuplement est associé à des colons allemands qui ont apporté au Moyen Âge leurs traditions viticoles, artisanales et d'habitat. La communauté allemande historique est restée une composante importante de l'identité locale jusqu'à la fin de la Seconde Guerre mondiale, après laquelle une grande partie de la population a été déplacée."
+        },
+        {
+          "id": "fact_002",
+          "title": "La viticulture et le Silvaner de Limbach",
+          "text": "La viticulture est l'une des activités traditionnelles les plus caractéristiques de Limbach. Les exploitations viticoles ont façonné le village dès le début de l'époque moderne ; en 1914 y furent fondés une association de viticulteurs et la coopérative de crédit Limbacher Raiffeisengenossenschaft. Le vin local Silvaner s'est fait connaître au-delà de la région. Les viticulteurs et les journées de caves ouvertes perpétuent aujourd'hui cette tradition."
+        },
+        {
+          "id": "fact_003",
+          "title": "L'église gothique Saint-Théobald",
+          "text": "L'église catholique romaine Saint-Théobald compte parmi les monuments les plus anciens et les plus remarquables de Limbach. L'édifice actuel fut construit en 1489 à l'emplacement d'une église gothique antérieure ; il fut remanié au XVIIe siècle et doté d'une sacristie en 1803. L'intérieur conserve des éléments architecturaux gothiques, un portail gothique tardif et un orgue rococo du milieu du XVIIIe siècle. L'église figure au Registre central des monuments de Slovaquie."
+        },
+        {
+          "id": "fact_004",
+          "title": "L'église évangélique et la tradition réformée bilingue",
+          "text": "L'église évangélique de Limbach fut construite en 1802 sans tour, conformément aux règles de l'époque. Une tour fut ajoutée en 1901, lors de travaux de réparation partiels. La façade porte la devise de la Réforme « Ein feste Burg ist unser Gott » en allemand et en slovaque : « Hrad prepevný je Pán Boh náš ». L'église rappelle la longue présence de la communauté évangélique et germanophone dans le village."
+        },
+        {
+          "id": "fact_005",
+          "title": "La source de Limbašská : une résurgence karstique au débit variable",
+          "text": "La source de Limbašská est un monument naturel des Petites Carpates, au-dessus de Limbach. Elle constitue l'émergence d'un cours d'eau souterrain prenant sa source sous le mont Turecký et lié au système karstique de Borinský kras. Son débit dépend des précipitations et la source peut s'assécher temporairement lorsque le niveau d'eau est bas. Le débit maximal indiqué atteint environ 120 litres par seconde. Le site présente également un intérêt spéléologique et hydrologique."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro del villaggio di Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: un villaggio dalle radici tedesche ai piedi dei Piccoli Carpazi",
+          "text": "Limbach si trova sulle pendici sud-orientali dei Piccoli Carpazi. Le più antiche testimonianze scritte conservate del villaggio risalgono al 1390, quando compare come Limpah; esisteva già una chiesa parrocchiale dedicata a san Teobaldo. La storia dell'insediamento è legata a coloni tedeschi che nel Medioevo introdussero nella zona tradizioni proprie di viticoltura, artigianato e organizzazione degli abitati. La storica comunità tedesca rimase una parte importante dell'identità locale fino alla fine della Seconda guerra mondiale, dopo la quale gran parte della popolazione fu trasferita."
+        },
+        {
+          "id": "fact_002",
+          "title": "La viticoltura e il Silvaner di Limbach",
+          "text": "La viticoltura è una delle attività tradizionali più caratteristiche di Limbach. Le aziende vinicole hanno modellato il villaggio fin dalla prima età moderna; nel 1914 furono fondati un'associazione di viticoltori e la cooperativa di credito Limbacher Raiffeisengenossenschaft. Il vino locale Silvaner divenne noto anche al di fuori della regione. I viticoltori locali e le iniziative delle cantine aperte mantengono viva questa tradizione."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa gotica di San Teobaldo",
+          "text": "La chiesa cattolica romana di San Teobaldo è uno dei monumenti più antichi e caratteristici di Limbach. L'edificio attuale fu costruito nel 1489 sul sito di una precedente chiesa gotica; venne rimaneggiato nel XVII secolo e nel 1803 fu aggiunta la sacrestia. All'interno si conservano elementi architettonici gotici, un portale tardogotico e un organo rococò della metà del XVIII secolo. La chiesa è iscritta nel Registro centrale dei monumenti della Slovacchia."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa evangelica e la tradizione riformata bilingue",
+          "text": "La chiesa evangelica di Limbach fu costruita nel 1802 senza torre, come imponevano le norme dell'epoca. La torre fu aggiunta nel 1901, quando l'edificio venne anche parzialmente riparato. Sulla facciata compare il motto della Riforma « Ein feste Burg ist unser Gott » in tedesco e slovacco: « Hrad prepevný je Pán Boh náš ». La chiesa ricorda la lunga presenza della comunità evangelica e germanofona nel villaggio."
+        },
+        {
+          "id": "fact_005",
+          "title": "La sorgente di Limbašská: una risorgenza carsica dal flusso variabile",
+          "text": "La sorgente di Limbašská è un monumento naturale dei Piccoli Carpazi, sopra il comune di Limbach. È l'emergenza di un corso d'acqua sotterraneo che nasce sotto il monte Turecký ed è collegato al sistema carsico di Borinský kras. La portata dipende dalle precipitazioni e la sorgente può prosciugarsi temporaneamente quando il livello dell'acqua è basso. La portata massima indicata è di circa 120 litri al secondo. Il sito è interessante anche dal punto di vista speleologico e dell'idrologia carsica."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dorpscentrum van Limbach",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Limbach: een dorp met Duitse wortels aan de voet van de Kleine Karpaten",
+          "text": "Limbach ligt aan de zuidoostelijke uitlopers van de Kleine Karpaten. De oudste bewaard gebleven schriftelijke vermeldingen van het dorp dateren uit 1390, toen het als Limpah werd genoemd; er stond toen al een parochiekerk gewijd aan Sint-Theobald. De vestigingsgeschiedenis wordt verbonden met Duitse kolonisten die in de middeleeuwen hun eigen wijnbouw-, ambachts- en nederzettingstradities naar het gebied brachten. De historische Duitse gemeenschap bleef tot het einde van de Tweede Wereldoorlog een belangrijk onderdeel van de dorpsidentiteit; daarna werd een groot deel van de bevolking verdreven."
+        },
+        {
+          "id": "fact_002",
+          "title": "Wijnbouw en de Silvaner van Limbach",
+          "text": "Wijnbouw is een van de meest kenmerkende traditionele activiteiten van Limbach. Wijngoederen vormden het dorp al vanaf de vroegmoderne tijd; in 1914 werden hier een wijnbouwvereniging en de kredietcoöperatie Limbacher Raiffeisengenossenschaft opgericht. De lokale Silvaner-wijn werd ook buiten de regio bekend. Lokale wijnbouwers en evenementen met open wijnkelders houden deze traditie levend."
+        },
+        {
+          "id": "fact_003",
+          "title": "De gotische kerk van Sint-Theobald",
+          "text": "De rooms-katholieke kerk van Sint-Theobald behoort tot de oudste en meest markante monumenten van Limbach. Het huidige gebouw werd in 1489 op de plaats van een oudere gotische kerk opgetrokken; in de zeventiende eeuw werd het verbouwd en in 1803 werd een sacristie toegevoegd. Binnen zijn gotische bouwkenmerken, een laatgotisch portaal en een rococo-orgel uit het midden van de achttiende eeuw bewaard gebleven. De kerk staat in het Centrale Monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_004",
+          "title": "De evangelische kerk en de tweetalige reformatorische traditie",
+          "text": "De evangelische kerk in Limbach werd in 1802 zonder toren gebouwd, zoals de toenmalige voorschriften vereisten. De toren werd in 1901 toegevoegd, toen de kerk ook gedeeltelijk werd hersteld. Op de gevel staat het reformatorische motto “Ein feste Burg ist unser Gott” in het Duits en Slowaaks: “Hrad prepevný je Pán Boh náš”. De kerk herinnert aan de lange aanwezigheid van de evangelische en Duitstalige gemeenschap in het dorp."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Limbašská-bron: een karstbron met wisselende waterafvoer",
+          "text": "De Limbašská-bron is een natuurmonument in de Kleine Karpaten boven Limbach. Het is een uittredingspunt van een ondergrondse waterloop die onder de Turecký-heuvel ontspringt en verbonden is met het karstsysteem van Borinský kras. De waterafvoer hangt af van de neerslag; bij een lage waterstand kan de bron tijdelijk droogvallen. De opgegeven maximale afvoer bedraagt ongeveer 120 liter per seconde. De locatie is ook van belang voor de speleologie en de karsthydrologie."
+        }
+      ]
+    }
+  }
 }
