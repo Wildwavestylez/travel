@@ -21,8 +21,8 @@
       "category": "history",
       "priority": "B",
       "sources": [
-        "s1",
-        "s2"
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_96475304-7beb-4ba3-9931-edcfa41ceb43",
+        "https://www.bukovec.eu/o-obci/itk/32634/.html?usfd=3"
       ],
       "map_category": "historic_city"
     },
@@ -33,8 +33,8 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "s3",
-        "s4"
+        "https://www.staratura.sk/resources/File/sakralne_pamiatky_kopaniciarskeho_regionu_velka_javorina_bradlo.pdf",
+        "https://kopaniciarskyregion.sk/wp-content/uploads/Turisticky%CC%81-sprievodca.pdf"
       ],
       "location": {
         "name": "Římskokatolický kostel svaté Anny, Bukovec",
@@ -53,8 +53,8 @@
       "category": "architecture_and_urbanism",
       "priority": "B",
       "sources": [
-        "s5",
-        "s6"
+        "https://www.pamiatkynaslovensku.sk/bukovec-evanjelicky-kostol",
+        "https://www.ecav.sk/aktuality/spravodajstvo/v-bukovci-si-pripomenuli-190-vyrocie-pamiatky-posvatenia-chramu-bozieho"
       ],
       "location": {
         "name": "Evangelický kostel, Bukovec",
@@ -73,9 +73,9 @@
       "category": "people",
       "priority": "A",
       "sources": [
-        "s7",
-        "s8",
-        "s9"
+        "https://phpmyadmin.pam.epocha.sk/pamatniky-zahorie/okres-myjava/julius-bodnar-a-vladimir-roy-bukovec",
+        "https://www.litcentrum.sk/autor/vladimir-roy/zivotopis-autora",
+        "https://www.krizom-krazom.online/pamatna-tabula-juliusovi-bodnarovi-a-vladimiru-royovi-v-bukovci/"
       ],
       "location": {
         "name": "Evangelická fara s pamětní tabulí Bodnárovi a Royovi, Bukovec",
@@ -94,16 +94,16 @@
       "category": "culture_and_industry",
       "priority": "C",
       "sources": [
-        "s1",
-        "s2",
-        "s10"
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_96475304-7beb-4ba3-9931-edcfa41ceb43",
+        "https://www.bukovec.eu/o-obci/itk/32634/.html?usfd=3",
+        "https://kopanice.sk/obce/bukovec/"
       ],
       "map_category": "local_culture"
     }
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Obecní oficiální web uvádí fyzickou adresu obecního úřadu Bukovec 50, 906 14 Bukovec; PSČ 906 14 pro obec Bukovec v okrese Myjava potvrzuje také poštovní přehled. Jde o geografické PSČ obce, nikoli o Bukovec u Košic (044 20).",
+    "plz_source": "Slovenská pošta – zoznam pôšt uvádza „Bukovec pri Myjave“ s PSČ 906 14; oficiálna obecná stránka uvádza fyzickú adresu Obecný úrad, Bukovec 50, 906 14 Bukovec. PSČ potvrdzuje aj nezávislý poštový prehľad. Ide o geografické PSČ Bukovca pri Myjave, nie o Bukovec pri Košiciach (044 20).",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
@@ -114,7 +114,7 @@
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "Ministerstvo vnútra SR – Register adries (RAGEO); oficiální územní a mapové údaje SR; oficiální portál verejnej správy."
+    "geographic_authority": "Oficiálny portál verejnej správy SR a obec Bukovec pre identitu a administratívne zaradenie obce; Pamiatky na Slovensku pre polohu evangelického kostela."
   },
   "sources": [
     {
@@ -171,6 +171,11 @@
       "title": "PSČ pre obec Bukovec 906 14 – PSCPSC",
       "url": "https://www.pscpsc.eu/sk/postove-smerovacie-cislo/bukovec%2C906-14",
       "type": "other"
+    },
+    {
+      "title": "Slovenská pošta – Zoznam neautomatizovaných pôšt (Bukovec pri Myjave, 906 14)",
+      "url": "https://tandt.posta.sk/en/files/1305/list-of-non-automated-post-offices.pdf",
+      "type": "official"
     }
   ],
   "translations": {
