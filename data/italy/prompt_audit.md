@@ -139,19 +139,18 @@ Zkontroluj všech sedm jazyků: `cs, de, en, es, fr, it, nl`.
 
 Oprav chyby, které mění význam, vynechávají podstatnou informaci nebo prokazatelně poškozují překlad. Správné a srozumitelné překlady nepřepisuj kvůli stylistickým alternativám, drobným nuancím nebo osobní preferenci.
 
-#### F1. Délka českého master textu a návaznost překladů
+#### F1. Délka české jazykové verze
 
-Z hlediska délky kontroluj výhradně český zdrojový/master text faktu v `facts[].text`. Jedinou závaznou délkovou hranicí tohoto auditu je **350 znaků včetně mezer pro každý jednotlivý český fakt**.
+Kontroluj český text v `translations.cs[].text`, nikoli automaticky základní `facts[].text`. Základní pole může být v italštině nebo v jiném zavedeném zdrojovém jazyce; nepředpokládej, že čeština je master.
 
-- Český master text s délkou 350 a více znaků z hlediska délky ponech beze změny. Nezkracuj jej a nestanovuj horní hranici.
-- Český master text kratší než 350 znaků je délkový nález. Vhodně jej doplň nebo přepracuj alespoň na 350 znaků pomocí konkrétních, relevantních a ověřitelných informací. Zachovej význam a věcnou přesnost; nepřidávej výplň, opakování ani neověřené podrobnosti.
-- Po opravě českého master textu zajisti, aby `translations.cs` přesně zrcadlilo `facts[].title/text`, a uprav odpovídající překlady ve všech ostatních jazycích (`de, en, es, fr, it, nl`), aby věcně a úplně odpovídaly českému masteru. Každý překlad formuluj přirozeně a idiomaticky.
-- Délku cizojazyčných textů podle počtu znaků nekontroluj, neoznačuj jako chybu, nedoplňuj ani nezkracuj. Překlad může mít méně než 350 znaků; samo o sobě to není závada.
-- Pro žádný překlad nestanovuj horní délkovou hranici.
+- Každý český fakt v `translations.cs[].text` musí mít nejméně **350 znaků včetně mezer**.
+- Český text kratší než 350 znaků je délkový nález. Vhodně jej doplň nebo přepracuj alespoň na 350 znaků pomocí konkrétních, relevantních a ověřitelných informací, které odpovídají zdrojovému faktu. Zachovej význam, nuance a věcnou přesnost; nepřidávej výplň, opakování ani neověřené podrobnosti.
+- Český text s délkou 350 a více znaků z hlediska minima ponech beze změny. Nezkracuj jej a nestanovuj horní hranici.
+- Délku ostatních jazykových verzí podle tohoto minima nekontroluj. Italský ani jiný překlad nemusí mít 350 znaků.
 - Pokud český text kratší než 350 znaků nelze odpovědně doplnit ověřenými informacemi, označ konkrétní fakt `REVIEW REQUIRED` a pokračuj.
-- Po úpravě znovu spočítej český master text a ověř dosažení alespoň 350 znaků u každého faktu. Překlady kontroluj z hlediska významu a úplnosti, nikoli délky.
+- Po úpravě znovu spočítej český text v `translations.cs[].text` a ověř dosažení alespoň 350 znaků u každého faktu. Všechny jazykové verze kontroluj také z hlediska významu a úplnosti.
 
-Toto pravidlo je závazné pro český master text. Italský text je překlad a jeho délka se samostatně neomezuje.
+Nezávisle na tomto auditním minimu zůstává redakčním cílem reworku průměr přibližně **500–600 znaků na faktum v zavedeném zdrojovém/master jazyce**, jak stanoví rework prompt a Content Standard.
 
 ### G. JSON a technická konzistence
 
@@ -215,10 +214,10 @@ U každé skutečné vady postupuj:
 
 - Automaticky opravuj potvrzené a bezpečné chyby v existujících italských záznamech v rozsahu výslovně zadaného auditu.
 - **Výslovné oprávnění k bezpečným překladovým opravám:** pokud uživatel zadal audit/rework konkrétního rozsahu a existuje oprávněné Neon připojení, smíš bez dalšího schvalování jednotlivých oprav přímo opravit prokazatelné chyby v `translations[lang].facts[].title/text`. Zahrnuje to chybějící, prázdné, poškozené, do jiných jazyků zkopírované, významově chybné nebo jazykově vadné překlady a drobné překlepy či gramatiku. Nevytvářej další potvrzovací mezikrok a neptej se uživatele na souhlas s každým faktorem nebo jazykem.
-- Při opravě překladu páruj výhradně podle stabilního `fact.id`; vycházej z českého masteru v `facts[].title/text`, zachovej všechna významová omezení a místní kontext. `translations.cs` musí přesně zrcadlit český master. Ostatní jazyky včetně italštiny musí být samostatné, přirozené překlady. Správný existující překlad zachovej; zejména nepřepisuj správnou nizozemskou verzi jen proto, že ostatní jazyky byly poškozeny.
+- Při opravě překladu páruj výhradně podle stabilního `fact.id`; vycházej ze skutečného zdrojového/master textu v `facts[].title/text`, jehož jazyk se může lišit podle záznamu. Všechny jazykové větve musí být samostatné, přirozené a významově úplné překlady; česká větev `translations.cs` navíc musí splnit minimum 350 znaků na fakt. Správný existující překlad zachovej; zejména nepřepisuj správnou nizozemskou verzi jen proto, že ostatní jazyky byly poškozeny.
 - Opravuj pouze překladová pole `title` a `text`; neměň ID, pořadí, master text, zdroje, lokace, kategorie, priority ani jiná metadata, pokud pro ně není samostatný potvrzený nález a oprávnění v tomto promptu.
 - Po každé překladové opravě načti zpět dotčený CAP a ověř všech sedm jazyků, ID, pořadí, úplnost a zachování nesouvisejících polí.
-- Pokud je chybný samotný český master, význam zdroje je nejasný nebo by oprava vyžadovala faktografický odhad, označ `REVIEW REQUIRED` a nepřepisuj jej automaticky.
+- Pokud je chybný samotný zdrojový/master text, význam zdroje je nejasný nebo by oprava vyžadovala faktografický odhad, označ `REVIEW REQUIRED` a nepřepisuj jej automaticky.
 - Zachovávej ID a veškerý nesouvisející obsah.
 - Nejasný jednotlivý případ označ `REVIEW REQUIRED` a pokračuj; nezastavuj kvůli němu celý blok.
 - Neprováděj změny schématu, Content Standardu, rework promptu, databázové architektury, aplikačního kódu, cizích dat ani rozsahu auditu.
