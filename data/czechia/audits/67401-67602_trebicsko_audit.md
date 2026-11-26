@@ -14,7 +14,7 @@
 - Manifest RÚIAN: feed aktualizován 2026-11-01, stažen 2026-11-13; 2 677 unikátních PSČ v celém inventáři.
 - Supabase `public.postal_codes`: 46/46 přesných českých řádků nalezeno; ID 10481–10526; 46/46 `status=validated`; 12 záznamů má `data_version` vyšší než 1. Žádný řádek nebyl publikován ani změněn ve statusu/verzi.
 - V `sequence.json`, `groups` ani RÚIAN CSV není v tomto rozsahu žádné PSČ 677xx. Neexistující PSČ nevytvářet; rozsah ani sekvenci neměnit.
-- Celkem 289 faktů ve 46 záznamech.
+- Celkem 290 faktů ve 46 záznamech.
 
 ## 2. Jednorázová turistická úplnost — průzkum
 
