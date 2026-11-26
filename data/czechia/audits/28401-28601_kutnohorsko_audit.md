@@ -115,7 +115,7 @@ Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
 - 0 rozdílů mezi českým master textem a `translations.cs`;
 - 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru.
 
-Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Součástí posouzení je také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Nejde o požadavek externí certifikace ani o stylistické přepisování správných překladů.
+Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Podle Content Standardu je samostatným povinným kritériem také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Systematická kontrola tohoto kritéria napříč všemi 280 fakty a šesti cizojazyčnými sadami v této fázi ještě nebyla dokončena; nelze ji zaměňovat za kontrolu sémantické úplnosti.
 
 Při zběžném ověření všech šesti cizojazyčných verzí `28563/fact_004` se potvrdilo, že pojem amatérského divadla je vysvětlen srozumitelnými ekvivalenty (např. *amateur theatre society*, *troupe de théâtre amateur*, *compagnia teatrale amatoriale*) a místní název Na Horkách je zasazen do kontextu hostince a hospodářství/farmy. Úprava nebyla potřebná.
 
@@ -200,6 +200,7 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
+1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny pouze nově upravené překlady `28522/fact_008` a šest překladů `28563/fact_004`;
+2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
