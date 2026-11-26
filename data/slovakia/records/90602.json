@@ -124,11 +124,11 @@
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiální vyhledávač PSČ; obecní dokument PHRSR Dojč 2021–2027 uvádí PSČ 906 02 přímo u obce. Ověřeno 26. 11. 2026.",
+    "plz_source": "Slovenská pošta – stránka místní pobočky zveřejněná obcí uvádí fyzickou adresu Dojč 91, 906 02; obecní PHRSR 2021–2027 samostatně uvádí PSČ 906 02 pro obec. Jde o doložení kódu pro Dojč, nikoli o polygon doručovací oblasti.",
     "geographic_test_data": true,
     "access_point_verified": false,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Oficiální vyhledávač PSČ Slovenské pošty; PHRSR obce Dojč 2021–2027",
+    "postcode_source_dataset": "Obecní PHRSR Dojč 2021–2027; stránka místní pobočky Slovenské pošty s adresou Dojč 91, 906 02",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-26",
     "postcode_conflict": false,
@@ -226,6 +226,12 @@
       "id": "src_15",
       "title": "Pamiatky – památník padlým a Imrich Gajar",
       "url": "https://www.dojc.sk/zivot-v-obci/historia/pamiatky/",
+      "type": "official"
+    },
+    {
+      "id": "src_16",
+      "title": "Slovenská pošta, a.s. – pobočka Dojč (adresa pobočky Dojč 91, 906 02)",
+      "url": "https://www.dojc.sk/zivot-v-obci/obcianska-vybavenost/slovenska-posta-as-pobocka-dojc/",
       "type": "official"
     }
   ],
