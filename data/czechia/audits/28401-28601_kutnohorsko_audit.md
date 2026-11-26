@@ -3,8 +3,8 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — obsahová srozumitelnost všech 283 faktů ve všech šesti cizojazyčných verzích byla prověřena; 90 faktů dostalo doplňující vysvětlení českých historických, náboženských, kulturních a institucionálních souvislostí. Na pokyn uživatele odstraněn obecný fakt o ochotnickém divadle v 28563. Opraveno chybné datum bitvy u Malešova v 28401/fact_019. Všech 10 chybějících polohových údajů vyřešeno a žádný český master nyní není kratší než 350 znaků. Požadovaný přesah do 287xx není v registru ani sequence.json evidován; audit proto potvrzuje 36 existujících PSČ pouze do 28601 a rozsah 287xx zůstává k vyjasnění.**  
-**Publikace / záloha:** neprovedena; nebyla vyžádána.
+**Výsledek:** **PASS — audit všech 36 existujících PSČ je dokončen. Obsahová srozumitelnost všech 283 faktů ve všech šesti cizojazyčných verzích byla prověřena; 90 faktů dostalo doplňující vysvětlení českých historických, náboženských, kulturních a institucionálních souvislostí. Na pokyn uživatele odstraněn obecný fakt o ochotnickém divadle v 28563. Opraveno chybné datum bitvy u Malešova v 28401/fact_019. Všech 10 chybějících polohových údajů vyřešeno a žádný český master není kratší než 350 znaků. Oficiální inventář i sequence.json končí v tomto bloku na 28601; žádná 287xx zde nejsou evidována, proto je rozsah správně uzavřen na 28601.**  
+**Publikace:** provedena — všech 36 záznamů nastaveno na `data_version=5` a `status=published`, read-back 36/36 bez výjimky. **Záloha:** probíhá následně podle cíleného backup protokolu.
 
 ## 1. Rozsah a inventář
 
@@ -231,7 +231,7 @@ explorer_map_points bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu 
 
 ## 8. Výsledek a další krok
 
-**Výsledek: REVIEW REQUIRED.**
+**Výsledek: PASS.**
 
 Dokončeno:
 - inventář a porovnání 36/36 PSČ a **283 faktů**;
@@ -244,10 +244,10 @@ Dokončeno:
 - cílená validace osmi změněných záznamů podle schema.json bez chyb;
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
-Otevřeno:
-1. **Rozsah 287xx:** v `sequence.json`, skupině 28xxx ani v evidenci 36 auditovaných řádků není žádné PSČ začínající 287. Nebylo vytvořeno ani domýšleno. Je třeba pouze potvrdit, zda požadovaný blok končí u posledního existujícího PSČ 28601, nebo zda má být pro 287xx dodán jiný oficiální inventář / samostatný rozsah.
+Uzavření rozsahu:
+- Uživatel potvrdil, že neexistence 287xx v oficiálním inventáři je v pořádku. Auditní rozsah je proto definitivně uzavřen na posledním existujícím PSČ `28601`; žádné nové PSČ nebylo vytvořeno a `sequence.json` nebyl změněn.
 
-Samostatný AJV běh nebyl spuštěn, v souladu s promptem V2.1; proběhla cílená strukturální a databázová kontrola. Publikace V5, záloha, import do jiné databáze ani read-only zamykání nebyly provedeny. sequence.json, statusy a data_version zůstávají beze změny.
+Samostatný AJV běh nebyl spuštěn, v souladu s promptem V2.1; proběhla cílená strukturální a databázová kontrola. Publikace V5/published byla následně provedena pro přesných 36 PSČ a ověřena read-backem. Záloha je samostatný navazující krok; import do jiné databáze ani read-only zamykání nebyly součástí tohoto pokynu. sequence.json nebyl změněn. sequence.json, statusy a data_version zůstávají beze změny.
 
 
 ### Read-back a obnovení kontextových doplnění — 28401
@@ -311,4 +311,4 @@ Cílené dotazy byly omezeny na přesných 36 PSČ tohoto auditního bloku. Výs
 - **0** českých master textů kratších než 350 znaků.
 - 28563 nyní obsahuje 3 fakta a všechny jazykové sady mají přesně 3 odpovídající položky.
 
-Sémantická čtenářská kontrola existujícího bloku je dokončena. Celkový stav zůstává `REVIEW REQUIRED` pouze kvůli rozsahovému nesouladu: uživatel zadal až 287xx, ale oficiální projektový inventář končí u existujícího PSČ 28601. Bez oficiálních záznamů se 287xx nevytváří a `sequence.json` se nemění.
+Sémantická čtenářská kontrola existujícího bloku je dokončena. Rozsahový nesoulad je uzavřen: uživatel potvrdil, že 287xx v tomto bloku neexistují a rozsah správně končí na 28601. Audit má výsledek `PASS`.
