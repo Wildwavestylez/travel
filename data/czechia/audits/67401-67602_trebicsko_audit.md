@@ -76,14 +76,28 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Otevřené geografické nálezy — 59 null poloh
+## 5. Geografické nálezy — 9/59 poloh doplněno, 50 otevřeno
 
+### Opraveno a read-back ověřeno
+- 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
+- 67521/fact_002 — soubor kostelů sv. Anny a Narození Panny Marie v Přibyslavicích; bod doložen turistickým portálem Kraje Vysočina.
+- 67521/fact_004 — tvrziště Bransouze; přibližná historická poloha podle lokalizace památky.
+- 67522/fact_001 — kostel sv. Jakuba Staršího ve Starči; GPS z evidence Noc kostelů.
+- 67522/fact_002 — kostel sv. Petra a Pavla v Horním Újezdě; publikované souřadnice objektu.
+- 67528/fact_005 — kaple sv. Anny v Opatově; poloha ověřena mapovým záznamem OSM/Mapcarta.
+- 67528/fact_006 — přírodní rezervace Opatovské zákopy; reprezentativní bod z geografických dat AOPK.
+- 67553/fact_002 — kostel Povýšení sv. Kříže ve Valči; publikované GPS kostela.
+- 67573/fact_003 — kostel sv. Martina v Kralicích nad Oslavou; publikované souřadnice objektu.
+
+Všech 9 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+
+### Zbývá prověřit — 50 faktů
 - 67504: fact_003
 - 67508: fact_003
-- 67521: fact_001–fact_006
-- 67522: fact_001–fact_007
+- 67521: fact_003, fact_005, fact_006
+- 67522: fact_003–fact_007
 - 67523: fact_001, fact_005, fact_006
-- 67528: fact_001–fact_006
+- 67528: fact_001–fact_004
 - 67529: fact_003–fact_005
 - 67531: fact_001–fact_007
 - 67532: fact_007–fact_009
@@ -91,16 +105,15 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67542: fact_004, fact_005
 - 67544: fact_001, fact_007, fact_009
 - 67545: fact_002–fact_004
-- 67553: fact_002, fact_004
+- 67553: fact_004
 - 67557: fact_007
-- 67573: fact_003–fact_006
+- 67573: fact_004–fact_006
 - 67574: fact_003
 - 67576: fact_005
 - 67577: fact_004, fact_006
 - 67578: fact_001, fact_004
 
-U každého se pokusit dohledat obhajitelnou polohu podle prompt_rework a Content Standard. Nezkoumat ani nepřeměřovat již neprázdné polohy. Pokud není konkrétní místo doložitelné, ponechat null a zaznamenat stručný důvod. Nikdy nekopírovat representative_point/access_point.
-
+U každého zbylého faktu dohledat konkrétní bod nebo vhodný veřejný orientační bod podle hierarchie prompt_rework a Content Standardu. Pokud bod nelze odpovědně doložit, ponechat null a zaznamenat důvod. Nezkoumat ani nepřeměřovat již neprázdné polohy; nekopírovat representative_point/access_point.
 ## 6. Další kontroly, které zůstávají otevřené
 
 - Dokončit významovou kontrolu překladů de/en/es/fr/it/nl; ověřovat skutečné významové vady, nikoli stylistické preference.
