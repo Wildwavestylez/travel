@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 42/59 poloh doplněno, 17 otevřeno
+## 5. Geografické nálezy — 45/59 poloh doplněno, 14 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -122,18 +122,20 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67553/fact_004 — historické jádro Valče; orientační bod bývalého panství.
 - 67573/fact_006 — železniční stanice Rapotice; publikované souřadnice stanice.
 - 67578/fact_004 — Čikovská doubrava nad Oslavou; reprezentativní bod doložen botanickým floristickým záznamem pro tuto lokalitu.
+- 67532/fact_007 — socha sv. Jana Nepomuckého v Rácovicích; přibližný orientační bod Rácovického rybníka, proti němuž socha stojí.
+- 67541/fact_005 — Grázlův mls; přibližný bod Nových Syrovic jako místa původu místní receptury.
+- 67542/fact_004 — historická školní budova v Budkově, čp. 5; souřadnice adresního místa školy.
 
-Všech 42 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+Všech 45 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
 
-### Zbývá prověřit — 17 faktů
+### Zbývá prověřit — 14 faktů
 - 67504: fact_003
 - 67508: fact_003
 - 67523: fact_001, fact_006
 - 67529: fact_005
 - 67531: fact_007
-- 67532: fact_007, fact_008
-- 67541: fact_005
-- 67542: fact_004, fact_005
+- 67532: fact_008
+- 67542: fact_005
 - 67544: fact_009
 - 67545: fact_002
 - 67557: fact_007
