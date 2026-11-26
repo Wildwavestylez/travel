@@ -183,11 +183,11 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - V této dávce nebyla nutná žádná obsahová, překladová, kategoriální ani geografická oprava. Nebyl proveden žádný zápis do produkčních dat.
 
 ### Stav po dávce
-- Sémanticky zkontrolováno 191/191 faktů = 1 146/1 146 cizojazyčných textů.
-- Opraveno nebo obsahově nově sestaveno celkem 161 cizojazyčných textů.
-- Zbývá 0 cizojazyčných textů.
-- 10 položek location: null má zdokumentovaný důvod; poslední nevyřešená poloha 28201/fact_013 byla doplněna jako historicky přibližný bod.
-- Auditní blok je dokončen; další krok pouze na výslovné zadání uživatele.
+- Sémanticky zkontrolováno 174/191 faktů = 1 044/1 146 cizojazyčných textů.
+- Opraveno nebo obsahově nově sestaveno celkem 150 cizojazyčných textů.
+- Zbývá 102 cizojazyčných textů.
+- 10 položek location: null má zdokumentovaný důvod.
+- Další dávka: **28171 a 28201**.
 - Bez publikace V5, zálohy, read-only locku, změny schématu nebo změny sequence.
 
 
