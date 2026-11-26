@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno; zbývají zdrojové aliasy, obsahové review a případná rodilá korektura.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno a čtyři z pěti krátkých master textů rozšířeny; zbývá jeden krátký text, zdrojové aliasy a případná rodilá korektura.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -95,7 +95,7 @@ Read-back potvrdil:
 - 0 nevyřešených referencí v těchto dvou záznamech;
 - žádné chybějící URL.
 
-Zbývá nejednoznačnost u záznamů **28522, 28523, 28525 a 28531**: fakta používají aliasy `s1`, `s2` atd., ale katalogové objekty zdrojů nemají explicitní `id`. Je možné, že jde o implicitní pořadové indexy, avšak bez závazného pravidla to nelze bezpečně potvrdit. Označeno `REVIEW REQUIRED`; reference nebyly svévolně přemapovány.
+Zbývá nejednoznačnost u záznamů **28522, 28523, 28525 a 28531**: fakta používají aliasy `s1`, `s2` atd., ale katalogové objekty zdrojů nemají explicitní `id`. Cílená kontrola ukázala, že prosté přiřazení podle pořadí katalogu není bezpečným důkazem: například `28522/fact_008` odkazuje na `s12`, jehož dvanáctá položka by byla historie Pertoltic, nikoli střelba v Dolní Pohledi; `28523/fact_001` používá `s3`, jehož třetí položka je cyklotrasa; a `28531/fact_006` používá `s18` a `s19`, které by podle pořadí odpovídaly číselníku PSČ a inventáři RÚIAN, nikoli historické urbanistické kompozici. Tyto příklady neprokazují původní mapování aliasů, ale vylučují bezpečné automatické odvození jen z aktuálního pořadí. Označeno `REVIEW REQUIRED`; reference nebyly svévolně přemapovány.
 
 ## 5. Překlady a sémantická kontrola
 
@@ -122,18 +122,25 @@ Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti n
 
 ## 6. Délka českých master textů
 
-Po rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) zůstává **pět faktů kratších než 350 znaků**. Nejde automaticky o chyby; nebyly doplňovány výplňové věty bez ověřených údajů.
+Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) byly v této fázi doplněny další čtyři krátké texty. Z pěti původně krátkých faktů tak zůstává **jeden fakt kratší než 350 znaků**.
 
-| PSČ | Fakt | Znaků |
-|---|---|---:|
-| 28509 | fact_019 — Pomník obětem světových válek | 331 |
-| 28511 | fact_003 — Obecní zvonička z roku 1887 | 316 |
-| 28511 | fact_006 — Náveský rybník | 335 |
-| 28525 | fact_005 — Trojboká kaplička | 336 |
-| 28563 | fact_004 — Tradice ochotnického divadla | 312 |
+| PSČ | Fakt | Původní délka | Aktuální délka |
+|---|---|---:|---:|
+| 28509 | fact_019 — Pomník obětem světových válek | 331 | 366 |
+| 28511 | fact_003 — Obecní zvonička z roku 1887 | 316 | 466 |
+| 28511 | fact_006 — Náveský rybník | 335 | 463 |
+| 28525 | fact_005 — Trojboká kaplička | 336 | 595 |
+| 28563 | fact_004 — Tradice ochotnického divadla | 312 | 312 |
 
-Šest rozšířených textů má nyní 462 až 711 znaků. U všech šesti byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Cizojazyčné verze byly formulovány podle nového českého znění, nikoli mechanicky prodlužovány.
+### Nová rozšíření
 
+- **28509 / fact_019 — Pomník obětem světových válek:** doplněno přesné rozdělení jmen v části věnované druhé světové válce: 24 z Kácova, 13 z Račíněvsi a 2 ze Zlivi. Zdroj: Spolek pro vojenská pietní místa, včetně evidence CZE-2112-02721: https://www.vets.cz/vpm/6931-pomnik-obetem-1-a-2-svetove-valky/
+- **28511 / fact_003 — Obecní zvonička:** doplněn dobový popis z roku 1914, podle něhož šlo o kamennou stavbu na vyvýšeném místě návsi poblíž rybníka. Zachována informace o stavbě roku 1887 za 125 zlatých a nuceném odevzdání zvonu v roce 1942. Zdroj: A. J. Zavadil, *Kutnohorsko slovem i obrazem*, díl II, 1914, s. 137–138: https://www.muzeumkh.cz/sites/default/files/books/zavadil-kutnohorsko_slovem_i_obrazem_2.pdf; doplněno také podle obecní historie.
+- **28511 / fact_006 — Náveský rybník:** doplněn popis prameniště Nepoměřického potůčku na vlhkých loukách jižně nad vsí, přítoku z odvodněných polí, úpravy břehů a dna a pokračování toku směrem ke Košicům. Zdroj: A. J. Zavadil, *Kutnohorsko slovem i obrazem*, díl II, 1914, s. 137–138; obecní historie dokládá příspěvek vodního družstva 6 000 korun na opravu regulace potoka a rybníka v roce 1922.
+- **28525 / fact_005 — Trojboká kaplička:** doplněn architektonický popis a výslovně zaznamenán rozpor v dataci: obec odhaduje polovinu 19. století, zatímco Atlas české architektury uvádí konec 18. století. Přesný rok není doložen, proto text ponechává dataci nejistou. Do katalogu zdrojů i přímo k faktu byla přidána URL Atlasu české architektury: https://www.archmap.cz/cs/kraj/22741?page=45.
+- **28563 / fact_004 — Tradice ochotnického divadla:** další věrohodné konkrétní údaje nad rámec již uvedeného založení v roce 1867, zakladatele Horáka a ukončení činnosti v roce 1962 nebyly nalezeny. Text zůstává beze změny; bez výplňových informací.
+
+U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Rozsah délek čtyř nově rozšířených masterů je 366–595 znaků. Jediný zbývající krátký text je označen k obsahovému review, nikoli uměle prodlužován.
 
 ## 7. Souřadnice a mapové body
 
@@ -183,7 +190,7 @@ Dokončeno:
 
 Otevřeno:
 1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
-2. případně obsahově rozšířit zbývajících pět kratších českých master textů, pouze pokud se podaří ověřit další relevantní údaje;
+2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů;
 3. případně provést jazykovou korekturu rodilými mluvčími, která je nad rámec sémantické kontroly.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
