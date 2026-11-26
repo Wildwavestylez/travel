@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — původních pět historických faktů a další čtyři zásadní osobnostní příběhy doplněny; opraveno chybné datum bitvy u Malešova v 28401/fact_019; všech 10 chybějících polohových údajů vyřešeno; čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány. Pokračuje povinná kontrola mezinárodní srozumitelnosti celého bloku. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — obsahová srozumitelnost všech 283 faktů ve všech šesti cizojazyčných verzích byla prověřena; 90 faktů dostalo doplňující vysvětlení českých historických, náboženských, kulturních a institucionálních souvislostí. Na pokyn uživatele odstraněn obecný fakt o ochotnickém divadle v 28563. Opraveno chybné datum bitvy u Malešova v 28401/fact_019. Všech 10 chybějících polohových údajů vyřešeno a žádný český master nyní není kratší než 350 znaků. Požadovaný přesah do 287xx není v registru ani sequence.json evidován; audit proto potvrzuje 36 existujících PSČ pouze do 28601 a rozsah 287xx zůstává k vyjasnění.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -11,7 +11,7 @@
 Rozsah byl sestaven z `data/czechia/sequence.json`, odpovídající skupiny `Středočeský kraj – řada 28xxx` a sdíleného RÚIAN inventáře `data/czechia/reference/ruian_postcodes.csv`.
 
 - **36/36 PSČ** nalezeno v sekvenci, příslušné skupině, RÚIAN inventáři i Supabase.
-- **284 faktů** v 36 záznamech (280 původních + 4 nově doplněné osobnosti).
+- **283 faktů** v 36 záznamech (280 původních + 4 nově doplněné osobnosti − 1 fakt odstraněný na pokyn uživatele).
 - Nejvyšší skutečně evidované PSČ v tomto rozsahu je `28601`; v sekvenci nejsou žádná PSČ `287xx`.
 - `sequence.json` ani pořadí PSČ nebyly změněny.
 
@@ -127,11 +127,10 @@ Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
 - 0 rozdílů v počtu faktů, pořadí a ID mezi masterem a překlady;
 - 0 prázdných překladových titulů či textů;
 - 0 rozdílů mezi českým master textem a `translations.cs`;
-- 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru.
 
-Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Podle Content Standardu je samostatným povinným kritériem také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Systematická kontrola tohoto kritéria napříč všemi 280 fakty a šesti cizojazyčnými sadami v této fázi ještě nebyla dokončena; nelze ji zaměňovat za kontrolu sémantické úplnosti.
+Proběhla obsahová sémantická kontrola všech **283 faktů** napříč šesti cizojazyčnými sadami (včetně čtyř doplněných osobností a po odečtení jednoho odstraněného faktu). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Podle Content Standardu je samostatným povinným kritériem také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Systematická kontrola tohoto kritéria napříč všemi 280 fakty a šesti cizojazyčnými sadami v této fázi ještě nebyla dokončena; nelze ji zaměňovat za kontrolu sémantické úplnosti.
 
-Při zběžném ověření všech šesti cizojazyčných verzí `28563/fact_004` se potvrdilo, že pojem amatérského divadla je vysvětlen srozumitelnými ekvivalenty (např. *amateur theatre society*, *troupe de théâtre amateur*, *compagnia teatrale amatoriale*) a místní název Na Horkách je zasazen do kontextu hostince a hospodářství/farmy. Úprava nebyla potřebná.
+Uživatel rozhodl, že obecná tradice ochotnického divadla v `28563/fact_004` nemá dostatečnou turistickou jedinečnost a působila by jako výplň. Fakt byl odstraněn z českého masteru i všech šesti překladů. Záznam 28563 nyní obsahuje tři věcně výraznější fakty; ostatní ID a jejich pořadí zůstaly zachovány.
 
 Cíleně opravené překladové nedostatky:
 - 28501 / `fact_002` — plný překlad doplněn o 69 hrobů, ostatky 72 osob, uspořádání ve třech dlouhých domech, dobu využívání pohřebiště 75–100 let a uložení nálezů v Národním muzeu; česká položka synchronizována s masterem;
@@ -179,7 +178,7 @@ Všech šest faktů v 28404 bylo zběžně, ale samostatně posouzeno v němčin
 
 ## 6. Délka českých master textů
 
-Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) byly v této fázi doplněny další čtyři krátké texty. Z pěti původně krátkých faktů tak zůstává **jeden fakt kratší než 350 znaků**.
+Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 28522/fact_004 a fact_006, 28547/fact_003 a fact_007, 28576/fact_003) byly doplněny další čtyři krátké texty; následně byl na pokyn uživatele odstraněn jediný zbývající krátký fakt 28563/fact_004. Po odstranění obecného faktu `28563/fact_004` nyní v rozsahu nezůstává žádný český master kratší než 350 znaků.
 
 | PSČ | Fakt | Původní délka | Aktuální délka |
 |---|---|---:|---:|
@@ -187,7 +186,6 @@ Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 
 | 28511 | fact_003 — Obecní zvonička z roku 1887 | 316 | 466 |
 | 28511 | fact_006 — Náveský rybník | 335 | 463 |
 | 28525 | fact_005 — Trojboká kaplička | 336 | 595 |
-| 28563 | fact_004 — Tradice ochotnického divadla | 312 | 312 |
 
 ### Nová rozšíření
 
@@ -195,13 +193,13 @@ Po dřívějším rozšíření šesti českých master textů (28511/fact_001, 
 - **28511 / fact_003 — Obecní zvonička:** doplněn dobový popis z roku 1914, podle něhož šlo o kamennou stavbu na vyvýšeném místě návsi poblíž rybníka. Zachována informace o stavbě roku 1887 za 125 zlatých a nuceném odevzdání zvonu v roce 1942. Zdroj: A. J. Zavadil, *Kutnohorsko slovem i obrazem*, díl II, 1914, s. 137–138: https://www.muzeumkh.cz/sites/default/files/books/zavadil-kutnohorsko_slovem_i_obrazem_2.pdf; doplněno také podle obecní historie.
 - **28511 / fact_006 — Náveský rybník:** doplněn popis prameniště Nepoměřického potůčku na vlhkých loukách jižně nad vsí, přítoku z odvodněných polí, úpravy břehů a dna a pokračování toku směrem ke Košicům. Zdroj: A. J. Zavadil, *Kutnohorsko slovem i obrazem*, díl II, 1914, s. 137–138; obecní historie dokládá příspěvek vodního družstva 6 000 korun na opravu regulace potoka a rybníka v roce 1922.
 - **28525 / fact_005 — Trojboká kaplička:** doplněn architektonický popis a výslovně zaznamenán rozpor v dataci: obec odhaduje polovinu 19. století, zatímco Atlas české architektury uvádí konec 18. století. Přesný rok není doložen, proto text ponechává dataci nejistou. Do katalogu zdrojů i přímo k faktu byla přidána URL Atlasu české architektury: https://www.archmap.cz/cs/kraj/22741?page=45.
-- **28563 / fact_004 — Tradice ochotnického divadla:** další věrohodné konkrétní údaje nad rámec již uvedeného založení v roce 1867, zakladatele Horáka a ukončení činnosti v roce 1962 nebyly nalezeny. Text zůstává beze změny; bez výplňových informací.
+- **28563 / fact_004 — Tradice ochotnického divadla:** při pokračování auditu uživatel výslovně rozhodl o odstranění faktu, protože obecná ochotnická činnost není v regionálním měřítku dostatečně jedinečná. Odstraněn master i všech šest překladů; žádný výplňový text nebyl doplněn.
 
 U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích de, en, es, fr, it a nl; český překlad byl synchronizován s masterem. Read-back potvrdil u všech čtyř český text i všech sedm jazykových verzí. Rozsah délek čtyř nově rozšířených masterů je 366–595 znaků. Jediný zbývající krátký text je označen k obsahovému review, nikoli uměle prodlužován.
 
 ## 7. Souřadnice a mapové body
 
-- Všech 284 faktů v rozsahu má nyní přítomné pole location; **0 explicitních null a 0 chybějících vlastností location**.
+- Všech 283 faktů v rozsahu má nyní přítomné pole location; **0 explicitních null a 0 chybějících vlastností location**.
 - Při této fázi bylo vyřešeno všech šest null poloh uvedených v předchozím auditu a navíc čtyři dříve přehlédnuté chybějící vlastnosti location u faktů v PSČ 28601.
 - Kontrola celého rozsahu 36 PSČ potvrdila 0 neplatných souřadnicových rozsahů a 0 vyplněných poloh bez povinných metadat.
 - Kontrola proti schema.json u osmi změněných záznamů vrátila 0 validačních chyb; 0 neplatných location.type.
@@ -236,10 +234,10 @@ explorer_map_points bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu 
 **Výsledek: REVIEW REQUIRED.**
 
 Dokončeno:
-- inventář a porovnání 36/36 PSČ a **284 faktů**;
+- inventář a porovnání 36/36 PSČ a **283 faktů**;
 - doplnění sedmi samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
-- sémantická kontrola všech 280 faktů v šesti cizojazyčných překladech;
-- průběžný čtenářský test mezinárodní srozumitelnosti: čtyři tematicky problematické fakty v 28401 doplněny ve všech šesti cizojazyčných verzích (24/24 read-back ověřeno) a v 28403 byly opraveny čtyři zkrácené překlady fact_002 i doplněna kontextová vysvětlení u fact_002, fact_005 a fact_008 (read-back ověřen);
+- sémantická a čtenářská kontrola obsahové srozumitelnosti všech **283 faktů** v šesti cizojazyčných překladech;
+- plošný čtenářský test mezinárodní srozumitelnosti dokončen pro všech 283 faktů; u 90 faktů v dalších PSČ byly doplněny stručné výklady pojmů, které by zahraniční čtenář bez znalosti českých reálií nemusel pochopit. Správné texty byly ponechány beze změny;
 - 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
 - 0 explicitních location = null a 0 chybějících vlastností location v celém rozsahu;
 - 0 neplatných souřadnicových rozsahů a 0 neúplných metadat u vyplněných poloh;
@@ -247,10 +245,9 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 původními fakty; čtyři nově přidané osobnostní příběhy mají úplné překlady a byly zkontrolovány samostatně. Z původních faktů byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004`, `28401/fact_003`, `fact_005`, `fact_016`, `fact_019` a `28403/fact_002`, `fact_005`, `fact_008`;
-2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
+1. **Rozsah 287xx:** v `sequence.json`, skupině 28xxx ani v evidenci 36 auditovaných řádků není žádné PSČ začínající 287. Nebylo vytvořeno ani domýšleno. Je třeba pouze potvrdit, zda požadovaný blok končí u posledního existujícího PSČ 28601, nebo zda má být pro 287xx dodán jiný oficiální inventář / samostatný rozsah.
 
-Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
+Samostatný AJV běh nebyl spuštěn, v souladu s promptem V2.1; proběhla cílená strukturální a databázová kontrola. Publikace V5, záloha, import do jiné databáze ani read-only zamykání nebyly provedeny. sequence.json, statusy a data_version zůstávají beze změny.
 
 
 ### Read-back a obnovení kontextových doplnění — 28401
@@ -291,3 +288,27 @@ Read-back v Supabase potvrdil všech 18 kontextových doplnění (3 fakta × 6 j
 - **Read-back:** 28401 nyní obsahuje 23 faktů; všech sedm jazykových sad má 23 položek. Český překlad je shodný s masterem u fact_019 a fact_020–fact_023. Nové master texty mají 829, 829, 955 a 865 znaků; všechny překračují auditní minimum 350 znaků. Nové fakty mají zdroje a polohová metadata.
 - **Stav:** statusy, data_version, sequence.json ani rozsah PSČ nebyly změněny. Publikace ani záloha nebyla spuštěna.
 
+
+### Dokončení obsahové srozumitelnosti — 26. 11. 2026
+
+Na pokyn uživatele byla provedena kontrola srozumitelnosti pro zahraničního čtenáře napříč všemi existujícími 36 PSČ v tomto bloku a všemi šesti nepůvodními jazyky (de, en, es, fr, it, nl). Nešlo jen o gramatiku překladu: u každého faktu byly posouzeny české historické, církevní, politické, kulturní a institucionální pojmy, které by bez kontextu nemusely být srozumitelné.
+
+- V **90 faktech** byly doplněny stručné kontextové věty do všech šesti cizojazyčných verzí. Vysvětlení se týkají zejména husitství a jeho proudů, utrakvismu, stavovských sněmů, bitvy na Bílé hoře, třicetileté války, náboženských řádů, církevních úřadů a staveb, českého národního obrození, masopustu, trampské kultury, historických správních titulů, archeologických kultur, středověkých městských institucí, vojenských organizací a technických či architektonických pojmů.
+- Mezi konkrétně vysvětlené pojmy patří například Utraquismus, Taborité, Čtyři artikuly pražské, stavovský sněm, patronátní právo, jezuitská kolej, cisterciácký a dominikánský řád, Čtrnáct svatých pomocníků, Neposkvrněné početí, mariánský sloup, josefínské reformy, první vojenské mapování, masopust, československé legie, Obrana národa, gestapácká Malá pevnost, Bailey bridge, městys, Posázavský pacifik, Natura 2000, Tilio-Acerion, Čertova brázda, tramping, únětická a knovízská kultura, josefínský náboženský fond a historická Galicie v roce 1914.
+- Správné a již srozumitelné překlady nebyly přepisovány kvůli stylistické preferenci. České master texty se při těchto kontextových úpravách neměnily; `translations.cs` zůstává synchronizováno s masterem.
+- Speciálně u `28507/fact_007` byla odstraněna i opakovaná věta v překladech, která zbytečně dvakrát uváděla památkovou ochranu.
+- `28563/fact_004` o ochotnickém divadle byl odstraněn z masteru i šesti překladů na výslovný pokyn uživatele; obecná lokální tradice nebyla považována za dostatečně jedinečný turistický obsah.
+
+### Finální databázový read-back po obsahové kontrole
+
+Cílené dotazy byly omezeny na přesných 36 PSČ tohoto auditního bloku. Výsledek:
+- **36/36 záznamů** nalezeno; 287xx v sekvenci ani v databázovém inventáři není.
+- **283 faktů** celkem po odstranění `28563/fact_004`.
+- Všech sedm jazykových polí má u každého PSČ stejný počet faktů jako český master; pořadí a ID faktů jsou ve všech jazycích shodné.
+- `translations.cs` odpovídá českému masteru u všech 283 faktů.
+- **0** prázdných nebo chybějících překladových titulů/textů v šesti cizojazyčných verzích.
+- **0** duplicitních ID faktů.
+- **0** českých master textů kratších než 350 znaků.
+- 28563 nyní obsahuje 3 fakta a všechny jazykové sady mají přesně 3 odpovídající položky.
+
+Sémantická čtenářská kontrola existujícího bloku je dokončena. Celkový stav zůstává `REVIEW REQUIRED` pouze kvůli rozsahovému nesouladu: uživatel zadal až 287xx, ale oficiální projektový inventář končí u existujícího PSČ 28601. Bez oficiálních záznamů se 287xx nevytváří a `sequence.json` se nemění.
