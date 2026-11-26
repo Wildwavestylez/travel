@@ -332,7 +332,7 @@ Každé faktum musí být samostatně srozumitelné a mít jasný hlavní předm
 - Nevkládej do jednoho faktu několik nesouvisejících atrakcí jen proto, že leží blízko sebe.
 - Nezaměňuj přístupnost nebo otevírací dobu za trvalou historickou hodnotu. Proměnlivé provozní údaje patří do aktuálních návštěvnických zdrojů, nikoli do trvalého historického faktu.
 
-Faktum má být dostatečně bohaté, aby vysvětlilo své téma, ale ne uměle dlouhé. **Redakční cílový rozsah je průměrně přibližně 500–600 znaků na faktum** (včetně mezer) v základním jazyce. Jde o průměrný kvalitativní cíl, nikoli mechanický limit pro každý jednotlivý text: mimořádně silné téma může vyžadovat více prostoru, zatímco stručnější faktum je přijatelné jen tehdy, když jeho téma skutečně neposkytuje další ověřitelné a hodnotné souvislosti. Nikdy text neprodlužuj vatou, obecnými popisy krajiny, turistickými frázemi ani opakováním. Rozhodující je informační hustota, konkrétní příběh a doložené souvislosti.
+Faktum má být dostatečně bohaté, aby vysvětlilo své téma, ale ne uměle dlouhé. **Český master text v `facts[].text` musí mít nejméně 350 znaků včetně mezer u každého faktu.** Jde o závazné minimum pro český text, nikoli pro italský ani jiné překlady. Jako kvalitativní cíl můžeš mířit přibližně na 500–600 znaků, pokud to ověřené téma skutečně unese; nejde však o povinný průměr ani důvod k umělému prodlužování. Pokud nelze 350 znaků naplnit relevantními a ověřitelnými informacemi, označ konkrétní fakt k revizi místo přidávání vaty. Nikdy text neprodlužuj obecnými popisy krajiny, turistickými frázemi ani opakováním. Rozhodující je informační hustota, konkrétní příběh a doložené souvislosti.
 
 ## 10. Priority A–D
 
@@ -457,7 +457,7 @@ Každý záznam musí obsahovat sedm jazyků definovaných schématem: `cs`, `de
 
 ### 14.1 Stabilní ID a totožné pořadí faktů ve všech jazycích
 
-Všech sedm jazykových verzí musí obsahovat **přesně stejnou množinu ID faktů a zachovávat jejich totožné pořadí**. Toto pravidlo platí pro základní pole `facts` i pro `translations[lang].facts` ve všech jazycích `cs`, `de`, `en`, `es`, `fr`, `it` a `nl`.
+Základní pole `facts[].title/text` je český master. `translations.cs` jej musí přesně zrcadlit; ostatní jazykové větve (`de`, `en`, `es`, `fr`, `it`, `nl`) jsou samostatné překlady českého masteru. Všech sedm jazykových verzí musí obsahovat **přesně stejnou množinu ID faktů a zachovávat jejich totožné pořadí**. Toto pravidlo platí pro základní pole `facts` i pro `translations[lang].facts` ve všech jazycích `cs`, `de`, `en`, `es`, `fr`, `it` a `nl`.
 
 - Každé faktum musí mít stabilní a jedinečné ID v rámci záznamu.
 - Každý jazyk musí obsahovat právě jedno odpovídající faktum pro každé ID v základním seznamu; žádné ID nesmí chybět ani přebývat.
