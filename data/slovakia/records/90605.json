@@ -1,4 +1,756 @@
 {
   "postcode": "90605",
-  "status": "placeholder"
+  "city": "Sobotište",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "district_type": null,
+  "representative_place": "Sobotište – historické jadro obce",
+  "representative_point": {
+    "lat": 48.73534,
+    "lon": 17.40816
+  },
+  "access_point": {
+    "lat": 48.73534,
+    "lon": 17.40816
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Sobotište – středověké městečko a tržní centrum",
+      "text": "Sobotište se v písemných pramenech objevuje roku 1251 pod názvem Zobodycha. Nejprve náleželo k panství hradu Bana, od roku 1297 bylo spojeno s hradem Branč a po roce 1526 přešlo spolu s brančským panstvím do rukou uherského rodu Nyáryů. Roku 1613 získalo právo pořádat výroční jarmarky, které doplňovaly pravidelné týdenní trhy. Městečko leželo na obchodních cestách mezi Záhořím a kopaničářským zázemím Myjavské pahorkatiny. V 17. století jej postihly požáry a válečné vpády, včetně útoků v letech 1605, 1623 a 1663. Jeho historický vývoj tak odráží jak hospodářský význam někdejšího tržního městečka v Uherském království, tak zranitelnost sídla na strategickém území.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.sobotiste.sk/o-obci/",
+        "https://www.sobotiste.sk/historia-obce/historia-obce/",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_5db1c9b7-c929-46e9-ada3-bc6ea1dd07b8"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Habánský dvůr – nejstarší novokřtěnecké sídliště na Slovensku",
+      "text": "Roku 1546 se v Sobotišti usadili novokřtěnci, známí jako Habáni, náboženská komunita pocházející z anabaptistického prostředí střední Evropy. Na pozemcích hraběte Františka Nyáryho vybudovali samostatný dvůr s vlastními obytnými a hospodářskými budovami, dílnami a společenským zázemím. Komunita zde po dvě století rozvíjela společný způsob života a řemesla; její členové byli hrnčíři, výrobci fajánse, nožíři, koželuhové i mlynáři. Sobotištský dvůr je považován za nejstarší habánské sídliště na území dnešního Slovenska. V roce 1999 byl vyhlášen památkovou zónou; ochrana zahrnuje přibližně sedmdesát objektů, z nichž sedm má status národní kulturní památky. Dochované stavby tvoří mimořádně cenný celek lidové a komunitní architektury.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.muzeumhabanov.sk/domov/o-projekte/",
+        "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/dejiny-sobotista/",
+        "https://www.pamiatky.sk/ochrana-pamiatok/zasady-ochrany-pamiatkovej-zony/zasady-ochrany-pz-sobotiste"
+      ],
+      "location": {
+        "name": "Pamiatková zóna Sobotište – Habánsky dvor",
+        "lat": 48.733056,
+        "lon": 17.403956,
+        "type": "architectural_ensemble",
+        "accuracy": "area_representative",
+        "source": "https://www.pamiatkynaslovensku.sk/sobotiste-habansky-dvor"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Habánský mlýn – technická památka a muzeum novokřtěnců",
+      "text": "Dominantou habánského dvora je historický vodní mlýn, jehož existence je doložena v pramenech již v 16. století. Současná stavba nese na fasádě letopočet 1739 a na mlýnské hranici dataci 1850; její zařízení se v průběhu času modernizovalo od kamenného mlecího složení k válcovým stolicím. Po dlouhém chátrání prošel objekt v letech 2019–2022 komplexní obnovou, při níž byla restaurována pozdně renesanční podoba fasády a zachované technické prvky. K mlýnu se vrátilo také mlýnské kolo s vantrokem, tedy dřevěným žlabem přivádějícím vodu. V obnovené budově sídlí Muzeum habánů, které představuje náboženský život, architekturu, řemesla a migraci novokřtěneckých komunit. Mlýn je zapsán jako národní kulturní památka.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.vodnemlyny.sk/mlyny/estates/detail/161",
+        "https://www.muzeumhabanov.sk/domov/muzeum-habanov-v-sobotisti/",
+        "https://www.muzeumhabanov.sk/domov/o-projekte/"
+      ],
+      "location": {
+        "name": "Habánsky mlyn, Sobotište",
+        "lat": 48.733056,
+        "lon": 17.403722,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://www.vodnemlyny.sk/mlyny/estates/detail/161"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_004",
+      "title": "Sobotištská fajáns – keramické řemeslo Habánů",
+      "text": "Sobotište se stalo jedním z významných center habánské fajánse, tedy jemné keramiky s neprůsvitnou glazurou a malovanou výzdobou. Místní novokřtěnečtí hrnčíři ovládali výrobu kachlů, džbánů, nádob i stavební keramiky, například dlaždic, mozaik, vodovodních trubek a kachlových kamen. Vrchol sobotištské produkce spadá do 17. století. Typické byly lesklé glazury modré, žluté, zelené a fialové barvy; zvláštní pověst získaly žluté povrchy s opálovým leskem. Po zániku společného vlastnictví habánského dvora působilo v obci několik samostatných dílen a keramická tradice pokračovala i v dalších generacích džbánkářů. Odborný výzkum identifikoval desítky značek místních výrobců, které dnes pomáhají určovat původ dochovaných kusů.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/produkcia-novokrstencov/",
+        "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/sobotistianski-keramikari/"
+      ],
+      "location": null,
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_005",
+      "title": "Samuel Jurkovič a Gazdovský spolok z roku 1845",
+      "text": "Učitel a národní buditel Samuel Jurkovič (1796–1873) působil v Sobotišti od roku 1831. Dne 9. února 1845 zde založil Spolek gazdovský v mestečku Sobotište, první úvěrové peněžní družstvo na evropském kontinentu. Dvanáct místních občanů schválilo stanovy na setkání v domě krejčího a rolníka Michala Horňáka. Členové ukládali malé pravidelné vklady a spolek jim poskytoval půjčky s šestiprocentním úrokem; cílem bylo nabídnout rolníkům a řemeslníkům dostupnější úvěr a omezit lichvu. Družstvo fungovalo přibližně šest let, ale stalo se vzorem pro další svépomocné spolky na Slovensku. Je důležité rozlišovat tento prvenstvím výjimečný úvěrový spolek od vůbec prvního družstva na světě: anglický Rochdale založil spotřební družstvo už v roce 1844. Odkaz Jurkoviče dnes připomíná Družstevní muzeum v Nyáryovském kaštieli.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://archiv.nbs.sk/sk/page/samuel-jurkovic",
+        "https://nbs.sk/_img/documents/biatec/bia09_03/27_28.pdf",
+        "https://www.sobotiste.sk/historia-obce/samuel-jurkovic-spomienky-na-priekopnika-druzstevnej-myslienky/",
+        "https://www.sobotiste.sk/muzeum/"
+      ],
+      "location": null,
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_006",
+      "title": "Slovenské národní divadlo nitranské a Anička Jurkovičová",
+      "text": "Sobotište patří k počátkům slovenského ochotnického divadla. Roku 1841 zde Samuel Jurkovič spolu s mladými štúrovci založil Slovenské národné divadlo nitrianske, které uvedlo dvě představení. Výjimečnou roli sehrála Anna „Anička“ Jurkovičová (1824–1905), Samuelova dcera, která v srpnu 1841 vystoupila jako jediná žena v souboru a bývá označována za první slovenskou ochotnickou herečku. V době, kdy ženské postavy na jevišti obvykle hráli muži, šlo o výrazný kulturní i společenský průlom. Anička se později provdala za evangelického faráře a národního činitele Jozefa Miloslava Hurbana; jejich svatba se konala roku 1845 v sobotištském evangelickém kostele. Anička se narodila v Novém Mestě nad Váhom, se Sobotištěm je spojena svým působením a rodinným zázemím, nikoli místem narození.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.sobotiste.sk/o-obci/",
+        "https://www.sobotiste.sk/historia-obce/samuel-jurkovic-spomienky-na-priekopnika-druzstevnej-myslienky/",
+        "https://www.sobotiste.sk/data/download.php?file=0e20b6261ad8811cbf966623906766c0.pdf&label=spravodaj-80-xxx.pdf&type=spravodaj",
+        "https://www.sav.sk/journals/uploads/11221300sd-022011.pdf"
+      ],
+      "location": null,
+      "map_category": "cultural_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Nyáryovský kaštieľ – sídlo panstva a družstevního muzea",
+      "text": "V centru Sobotiště stojí Nyáryovský kaštieľ, někdejší panské sídlo rodu Nyáryů. První stavba vznikla roku 1631; po požáru v roce 1645 byl objekt částečně přestavěn a obnoven roku 1663. Jeho renesančně-barokní základ se zachoval navzdory pozdějším úpravám interiérů i stavebním zásahům ve 20. století. Kaštieľ připomíná dobu, kdy Sobotište patřilo k hospodářskému centru rozsáhlého brančského panství. Dnes v budově sídlí obecní úřad, knihovna a Družstevní muzeum Samuela Jurkoviče, jehož expozice přibližuje počátky slovenského družstevnictví, život místního učitele a také regionální dějiny. Objekt tak propojuje šlechtickou, obecní a moderní kulturní historii.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.sobotiste.sk/pamiatky/nyaryovsky-kastiel/",
+        "https://www.sobotiste.sk/muzeum/",
+        "https://www.sobotiste.sk/wp-content/uploads/2024/05/PHRSR-Sobotiste-2024-2030.pdf"
+      ],
+      "location": {
+        "name": "Nyáryovský kaštieľ, Sobotište",
+        "lat": 48.731361,
+        "lon": 17.405883,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://search.webdepozit.sk/webarchiv/public/20210810235850/https%3A/www.hrady-zamky.sk/sobotiste/"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_008",
+      "title": "Dva historické kostely – katolická a evangelická tradice",
+      "text": "Náboženskou a architektonickou historii Sobotiště dokládají dva výrazné kostely. Římskokatolický kostel Nanebevzetí Panny Marie byl postaven kolem roku 1635–1637 na základech starší gotické stavby a využil její původní věž; hlavní oltář pochází z první poloviny 18. století. Evangelický kostel augsburského vyznání vznikl v letech 1783–1784 po vydání tolerančního patentu Josefa II. z roku 1781, který v habsburské monarchii omezeně povolil nekatolická vyznání. Původně byl bez věže; samostatná dřevěná zvonice se uvádí roku 1787 a dnešní zděná věž byla dokončena roku 1909 podle návrhu architekta Milana Michala Harmince. Evangelický kostel je cenným dokladem sakrální architektury toleranční doby a náboženské plurality obce.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.sobotiste.sk/wp-content/uploads/2024/05/PHRSR-Sobotiste-2024-2030.pdf",
+        "https://www.pamiatkynaslovensku.sk/sobotiste-evanjelicky-kostol",
+        "https://mojafarnost.sk/kostoly/kostol-sobotiste-panny-marie-nanebovzatej"
+      ],
+      "location": {
+        "name": "Evanjelický kostol a. v., Sobotište",
+        "lat": 48.73289,
+        "lon": 17.40911,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/sobotiste-evanjelicky-kostol"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_009",
+      "title": "Sobotištská hvězdárna – astronomie v malé obci",
+      "text": "V areálu základní školy v Sobotišti vznikla v letech 1971–1972 malá astronomická pozorovatelna, kterou navrhl architekt Gabriel Gála z Myjavy. Podnět k výstavbě dal tehdejší ředitel školy Ladislav Košinár a na realizaci se významně podíleli rodiče, žáci i další dobrovolníci. Hvězdárna zahájila činnost 1. září 1972. Její kopule původně ukrývala první sobotištský dalekohled MDN 120; dnes má zařízení více dalekohledů a dalších přístrojů pro pozorování Měsíce, planet, meteorických rojů a zákrytů hvězd. Slouží také jako přednáškový prostor a podporuje zájem dětí a veřejnosti o astronomii. Jde o neobvyklé místní vzdělávací zařízení, jehož vznik stojí na dobrovolnické iniciativě.",
+      "category": "science_and_education",
+      "priority": "C",
+      "sources": [
+        "https://www.sobotiste.sk/zaujimavosti/sobotistska-hvezdaren/",
+        "https://www.sobotiste.sk/o-obci/"
+      ],
+      "location": {
+        "name": "Sobotištská hvezdáreň",
+        "lat": 48.732709,
+        "lon": 17.408032,
+        "type": "observatory",
+        "accuracy": "approximate",
+        "source": "https://www.vypadni.sk/sk/hvezdaren-v-sobotisti"
+      },
+      "map_category": "science_site"
+    },
+    {
+      "id": "fact_010",
+      "title": "Lipnica–Savarka – pamětní lipová alej Samuela Jurkoviče",
+      "text": "Pod návrším Savarka na jihovýchodním okraji Sobotiště založil Samuel Jurkovič spolu s členy Gazdovského spolku roku 1845 lipovou alej, označovanou jako Lipnica. Podle obecních a regionálních pramenů zde vysadili přibližně 160 lip, upravili zanedbaný pramen a odvodnili podmáčené místo. Stromy měly také symbolický význam: připomínaly slovanskou vzájemnost a jednotlivé lípy dostávaly jména spojená se štúrovským okruhem a členy spolku. Voda ze studánky byla pojmenována Anička po Jurkovičově dceři Anně. Lokalita byla v letech 1992–2012 chráněným územím; ochrana byla později zrušena, protože se nepotvrdily původně předpokládané přírodní hodnoty. Místo si však zachovává výraznou historickou a krajinářskou paměť.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "https://www.sobotiste.sk/historia-obce/samuel-jurkovic-spomienky-na-priekopnika-druzstevnej-myslienky/",
+        "https://naucnechodniky.eu/naucny-chodnik-historiou-sobotista/",
+        "https://www.sobotiste.sk/wp-content/uploads/2024/11/KVS-2023-Sobotiste-A.pdf"
+      ],
+      "location": null,
+      "map_category": "park_garden"
+    },
+    {
+      "id": "fact_011",
+      "title": "Židovská komunita Sobotiště a zaniklá synagoga",
+      "text": "Dějiny Sobotiště zahrnují také židovskou komunitu, jejíž přítomnost je doložena nejpozději v první polovině 18. století. Obecní daňový soupis z roku 1753 zaznamenal ve městečku 32 židovských rodin. Odborný výzkum židovské architektury na Slovensku uvádí, že synagoga v Sobotišti byla postavena roku 1763; po druhé světové válce byla přestavěna na obytný dům a její původní vzhled se téměř ztratil. Další dům v centru sloužil v první polovině 19. století jako rabínský dům a bejt midraš, tedy prostor pro studium a modlitbu; součástí zázemí byla také rituální lázeň a pekárna macesů. Tato místa připomínají někdejší náboženskou a kulturní rozmanitost městečka, nikoli zachovaný veřejný židovský památník.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.sobotiste.sk/historia-obce/historia-obce/",
+        "https://archiv.ub.uni-heidelberg.de/volltextserver/5839/2/Borsky_Maros_Synagogue_Architecture_in_Slovakia_text_for_www.pdf"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "AllSlovakia – geografická oblasť PSČ 90605",
+      "url": "https://allslovakia.info/en/psc/90605",
+      "type": "other"
+    },
+    {
+      "title": "SITA – zoznam sídiel a miestnych častí pre PSČ 90605",
+      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90605/",
+      "type": "news"
+    },
+    {
+      "title": "Obec Sobotište – O obci",
+      "url": "https://www.sobotiste.sk/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Sobotište – História obce",
+      "url": "https://www.sobotiste.sk/historia-obce/historia-obce/",
+      "type": "official"
+    },
+    {
+      "title": "Národná banka Slovenska – Samuel Jurkovič",
+      "url": "https://archiv.nbs.sk/sk/page/samuel-jurkovic",
+      "type": "official"
+    },
+    {
+      "title": "Národná banka Slovenska – The Gazdovský Spolok of Sobotište",
+      "url": "https://nbs.sk/_img/documents/biatec/bia09_03/27_28.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Habánske múzeum Sobotište – O projekte a pamiatkovej zóne",
+      "url": "https://www.muzeumhabanov.sk/domov/o-projekte/",
+      "type": "museum"
+    },
+    {
+      "title": "Habánske múzeum Sobotište – Dejiny Sobotišťa",
+      "url": "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/dejiny-sobotista/",
+      "type": "museum"
+    },
+    {
+      "title": "Habánske múzeum Sobotište – Múzeum habánov",
+      "url": "https://www.muzeumhabanov.sk/domov/muzeum-habanov-v-sobotisti/",
+      "type": "museum"
+    },
+    {
+      "title": "Habánske múzeum Sobotište – Keramická produkcia novokrstencov",
+      "url": "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/produkcia-novokrstencov/",
+      "type": "museum"
+    },
+    {
+      "title": "Obec Sobotište – Múzeum habánov",
+      "url": "https://www.sobotiste.sk/muzeum-habanov/",
+      "type": "official"
+    },
+    {
+      "title": "Databáza vodných mlynov na Slovensku – Habánsky mlyn",
+      "url": "https://www.vodnemlyny.sk/mlyny/estates/detail/161",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Sobotište – Nyáryovský kaštieľ",
+      "url": "https://www.sobotiste.sk/pamiatky/nyaryovsky-kastiel/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Sobotište – Samuel Jurkovič a družstevníctvo",
+      "url": "https://www.sobotiste.sk/historia-obce/samuel-jurkovic-spomienky-na-priekopnika-druzstevnej-myslienky/",
+      "type": "official"
+    },
+    {
+      "title": "Obec Sobotište – Sobotištská hvezdáreň",
+      "url": "https://www.sobotiste.sk/zaujimavosti/sobotistska-hvezdaren/",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Evanjelický kostol v Sobotišti",
+      "url": "https://www.pamiatkynaslovensku.sk/sobotiste-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Habánska kaplnka v Sobotišti",
+      "url": "https://www.pamiatkynaslovensku.sk/sobotiste-habanska-kaplnka",
+      "type": "specialist"
+    },
+    {
+      "title": "MojaFarnosť – Kostol Panny Márie Nanebovzatej v Sobotišti",
+      "url": "https://mojafarnost.sk/kostoly/kostol-sobotiste-panny-marie-nanebovzatej",
+      "type": "specialist"
+    },
+    {
+      "title": "Hochschule für Jüdische Studien Heidelberg – Synagogue Architecture in Slovakia",
+      "url": "https://archiv.ub.uni-heidelberg.de/volltextserver/5839/2/Borsky_Maros_Synagogue_Architecture_in_Slovakia_text_for_www.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Náučné chodníky na Slovensku – Náučný chodník Históriou Sobotišťa a Lipnica–Savarka",
+      "url": "https://naucnechodniky.eu/naucny-chodnik-historiou-sobotista/",
+      "type": "specialist"
+    },
+    {
+      "title": "GeoNames – Sobotište: poloha a administratívne zaradenie",
+      "url": "https://www.geonames.org/12057093/sobotiste.html",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc; https://allslovakia.info/en/psc/90605; https://sita.sk/hladat-psc-postove-smerove-cislo/90605/",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ; sídelný rozsah porovnaný s AllSlovakia a zoznamom miest a častí pre PSČ 90605",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "PSČ 90605 zahrnuje Sobotište a další sídla/části v okolí Podbranče; reprezentativní obcí je podle doložené velikosti Sobotište. Přesné poštovní hranice jednotlivých místních částí nejsou z těchto veřejných přehledů vymezeny jako katastrální polygon. Do faktů jsou proto zahrnuta jen místa fyzicky doložená v Sobotišti.",
+    "delivery_office_note": "Poštovní přehledy spojují PSČ 90605 s poštou Sobotište, ale umístění provozovny nebylo použito jako reprezentativní geografický bod.",
+    "geographic_authority": "ŠÚ SR a oficiální územní evidence pro okres a kraj; GeoNames a OpenStreetMap/Mapcarta pro sídelní polohu; poštovní rozsah porovnán s veřejnými přehledy PSČ"
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište – středověké městečko a tržní centrum",
+          "text": "Sobotište se v písemných pramenech objevuje roku 1251 pod názvem Zobodycha. Nejprve náleželo k panství hradu Bana, od roku 1297 bylo spojeno s hradem Branč a po roce 1526 přešlo spolu s brančským panstvím do rukou uherského rodu Nyáryů. Roku 1613 získalo právo pořádat výroční jarmarky, které doplňovaly pravidelné týdenní trhy. Městečko leželo na obchodních cestách mezi Záhořím a kopaničářským zázemím Myjavské pahorkatiny. V 17. století jej postihly požáry a válečné vpády, včetně útoků v letech 1605, 1623 a 1663. Jeho historický vývoj tak odráží jak hospodářský význam někdejšího tržního městečka v Uherském království, tak zranitelnost sídla na strategickém území."
+        },
+        {
+          "id": "fact_002",
+          "title": "Habánský dvůr – nejstarší novokřtěnecké sídliště na Slovensku",
+          "text": "Roku 1546 se v Sobotišti usadili novokřtěnci, známí jako Habáni, náboženská komunita pocházející z anabaptistického prostředí střední Evropy. Na pozemcích hraběte Františka Nyáryho vybudovali samostatný dvůr s vlastními obytnými a hospodářskými budovami, dílnami a společenským zázemím. Komunita zde po dvě století rozvíjela společný způsob života a řemesla; její členové byli hrnčíři, výrobci fajánse, nožíři, koželuhové i mlynáři. Sobotištský dvůr je považován za nejstarší habánské sídliště na území dnešního Slovenska. V roce 1999 byl vyhlášen památkovou zónou; ochrana zahrnuje přibližně sedmdesát objektů, z nichž sedm má status národní kulturní památky. Dochované stavby tvoří mimořádně cenný celek lidové a komunitní architektury."
+        },
+        {
+          "id": "fact_003",
+          "title": "Habánský mlýn – technická památka a muzeum novokřtěnců",
+          "text": "Dominantou habánského dvora je historický vodní mlýn, jehož existence je doložena v pramenech již v 16. století. Současná stavba nese na fasádě letopočet 1739 a na mlýnské hranici dataci 1850; její zařízení se v průběhu času modernizovalo od kamenného mlecího složení k válcovým stolicím. Po dlouhém chátrání prošel objekt v letech 2019–2022 komplexní obnovou, při níž byla restaurována pozdně renesanční podoba fasády a zachované technické prvky. K mlýnu se vrátilo také mlýnské kolo s vantrokem, tedy dřevěným žlabem přivádějícím vodu. V obnovené budově sídlí Muzeum habánů, které představuje náboženský život, architekturu, řemesla a migraci novokřtěneckých komunit. Mlýn je zapsán jako národní kulturní památka."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sobotištská fajáns – keramické řemeslo Habánů",
+          "text": "Sobotište se stalo jedním z významných center habánské fajánse, tedy jemné keramiky s neprůsvitnou glazurou a malovanou výzdobou. Místní novokřtěnečtí hrnčíři ovládali výrobu kachlů, džbánů, nádob i stavební keramiky, například dlaždic, mozaik, vodovodních trubek a kachlových kamen. Vrchol sobotištské produkce spadá do 17. století. Typické byly lesklé glazury modré, žluté, zelené a fialové barvy; zvláštní pověst získaly žluté povrchy s opálovým leskem. Po zániku společného vlastnictví habánského dvora působilo v obci několik samostatných dílen a keramická tradice pokračovala i v dalších generacích džbánkářů. Odborný výzkum identifikoval desítky značek místních výrobců, které dnes pomáhají určovat původ dochovaných kusů."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič a Gazdovský spolok z roku 1845",
+          "text": "Učitel a národní buditel Samuel Jurkovič (1796–1873) působil v Sobotišti od roku 1831. Dne 9. února 1845 zde založil Spolek gazdovský v mestečku Sobotište, první úvěrové peněžní družstvo na evropském kontinentu. Dvanáct místních občanů schválilo stanovy na setkání v domě krejčího a rolníka Michala Horňáka. Členové ukládali malé pravidelné vklady a spolek jim poskytoval půjčky s šestiprocentním úrokem; cílem bylo nabídnout rolníkům a řemeslníkům dostupnější úvěr a omezit lichvu. Družstvo fungovalo přibližně šest let, ale stalo se vzorem pro další svépomocné spolky na Slovensku. Je důležité rozlišovat tento prvenstvím výjimečný úvěrový spolek od vůbec prvního družstva na světě: anglický Rochdale založil spotřební družstvo už v roce 1844. Odkaz Jurkoviče dnes připomíná Družstevní muzeum v Nyáryovském kaštieli."
+        },
+        {
+          "id": "fact_006",
+          "title": "Slovenské národní divadlo nitranské a Anička Jurkovičová",
+          "text": "Sobotište patří k počátkům slovenského ochotnického divadla. Roku 1841 zde Samuel Jurkovič spolu s mladými štúrovci založil Slovenské národné divadlo nitrianske, které uvedlo dvě představení. Výjimečnou roli sehrála Anna „Anička“ Jurkovičová (1824–1905), Samuelova dcera, která v srpnu 1841 vystoupila jako jediná žena v souboru a bývá označována za první slovenskou ochotnickou herečku. V době, kdy ženské postavy na jevišti obvykle hráli muži, šlo o výrazný kulturní i společenský průlom. Anička se později provdala za evangelického faráře a národního činitele Jozefa Miloslava Hurbana; jejich svatba se konala roku 1845 v sobotištském evangelickém kostele. Anička se narodila v Novém Mestě nad Váhom, se Sobotištěm je spojena svým působením a rodinným zázemím, nikoli místem narození."
+        },
+        {
+          "id": "fact_007",
+          "title": "Nyáryovský kaštieľ – sídlo panstva a družstevního muzea",
+          "text": "V centru Sobotiště stojí Nyáryovský kaštieľ, někdejší panské sídlo rodu Nyáryů. První stavba vznikla roku 1631; po požáru v roce 1645 byl objekt částečně přestavěn a obnoven roku 1663. Jeho renesančně-barokní základ se zachoval navzdory pozdějším úpravám interiérů i stavebním zásahům ve 20. století. Kaštieľ připomíná dobu, kdy Sobotište patřilo k hospodářskému centru rozsáhlého brančského panství. Dnes v budově sídlí obecní úřad, knihovna a Družstevní muzeum Samuela Jurkoviče, jehož expozice přibližuje počátky slovenského družstevnictví, život místního učitele a také regionální dějiny. Objekt tak propojuje šlechtickou, obecní a moderní kulturní historii."
+        },
+        {
+          "id": "fact_008",
+          "title": "Dva historické kostely – katolická a evangelická tradice",
+          "text": "Náboženskou a architektonickou historii Sobotiště dokládají dva výrazné kostely. Římskokatolický kostel Nanebevzetí Panny Marie byl postaven kolem roku 1635–1637 na základech starší gotické stavby a využil její původní věž; hlavní oltář pochází z první poloviny 18. století. Evangelický kostel augsburského vyznání vznikl v letech 1783–1784 po vydání tolerančního patentu Josefa II. z roku 1781, který v habsburské monarchii omezeně povolil nekatolická vyznání. Původně byl bez věže; samostatná dřevěná zvonice se uvádí roku 1787 a dnešní zděná věž byla dokončena roku 1909 podle návrhu architekta Milana Michala Harmince. Evangelický kostel je cenným dokladem sakrální architektury toleranční doby a náboženské plurality obce."
+        },
+        {
+          "id": "fact_009",
+          "title": "Sobotištská hvězdárna – astronomie v malé obci",
+          "text": "V areálu základní školy v Sobotišti vznikla v letech 1971–1972 malá astronomická pozorovatelna, kterou navrhl architekt Gabriel Gála z Myjavy. Podnět k výstavbě dal tehdejší ředitel školy Ladislav Košinár a na realizaci se významně podíleli rodiče, žáci i další dobrovolníci. Hvězdárna zahájila činnost 1. září 1972. Její kopule původně ukrývala první sobotištský dalekohled MDN 120; dnes má zařízení více dalekohledů a dalších přístrojů pro pozorování Měsíce, planet, meteorických rojů a zákrytů hvězd. Slouží také jako přednáškový prostor a podporuje zájem dětí a veřejnosti o astronomii. Jde o neobvyklé místní vzdělávací zařízení, jehož vznik stojí na dobrovolnické iniciativě."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka – pamětní lipová alej Samuela Jurkoviče",
+          "text": "Pod návrším Savarka na jihovýchodním okraji Sobotiště založil Samuel Jurkovič spolu s členy Gazdovského spolku roku 1845 lipovou alej, označovanou jako Lipnica. Podle obecních a regionálních pramenů zde vysadili přibližně 160 lip, upravili zanedbaný pramen a odvodnili podmáčené místo. Stromy měly také symbolický význam: připomínaly slovanskou vzájemnost a jednotlivé lípy dostávaly jména spojená se štúrovským okruhem a členy spolku. Voda ze studánky byla pojmenována Anička po Jurkovičově dceři Anně. Lokalita byla v letech 1992–2012 chráněným územím; ochrana byla později zrušena, protože se nepotvrdily původně předpokládané přírodní hodnoty. Místo si však zachovává výraznou historickou a krajinářskou paměť."
+        },
+        {
+          "id": "fact_011",
+          "title": "Židovská komunita Sobotiště a zaniklá synagoga",
+          "text": "Dějiny Sobotiště zahrnují také židovskou komunitu, jejíž přítomnost je doložena nejpozději v první polovině 18. století. Obecní daňový soupis z roku 1753 zaznamenal ve městečku 32 židovských rodin. Odborný výzkum židovské architektury na Slovensku uvádí, že synagoga v Sobotišti byla postavena roku 1763; po druhé světové válce byla přestavěna na obytný dům a její původní vzhled se téměř ztratil. Další dům v centru sloužil v první polovině 19. století jako rabínský dům a bejt midraš, tedy prostor pro studium a modlitbu; součástí zázemí byla také rituální lázeň a pekárna macesů. Tato místa připomínají někdejší náboženskou a kulturní rozmanitost městečka, nikoli zachovaný veřejný židovský památník."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište – mittelalterlicher Marktort",
+          "text": "Sobotište wird 1251 erstmals schriftlich unter dem Namen Zobodycha erwähnt. Zunächst gehörte der Ort zur Herrschaft der Burg Bana, ab 1297 stand er in Verbindung mit der Burg Branč; nach 1526 fiel er mit der Herrschaft Branč an die ungarische Adelsfamilie Nyáry. 1613 erhielt der Ort das Recht, Jahrmärkte abzuhalten, die die regelmäßigen Wochenmärkte ergänzten. Sobotište entwickelte sich zu einem Marktort an Handelswegen zwischen Záhorie und dem Bergland von Myjava. Im 17. Jahrhundert wurde es von Bränden und Kriegszügen getroffen, darunter Angriffe in den Jahren 1605, 1623 und 1663. Seine Geschichte zeigt sowohl die wirtschaftliche Bedeutung des einstigen Marktfleckens im Königreich Ungarn als auch die Verwundbarkeit einer Siedlung in strategischer Lage."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Habanerhof – die älteste täuferische Siedlung der Slowakei",
+          "text": "1546 ließen sich in Sobotište Täufer nieder, die als Habaner bekannt sind und aus dem mitteleuropäischen Täufertum hervorgingen. Auf dem Grund des Grafen František Nyáry errichteten sie einen eigenen Hof mit Wohn- und Wirtschaftsgebäuden, Werkstätten und gemeinschaftlichen Einrichtungen. Zwei Jahrhunderte lang pflegte die Gemeinschaft hier eine besondere Lebensform und zahlreiche Handwerke: ihre Mitglieder waren Töpfer, Fayencehersteller, Messerschmiede, Gerber und Müller. Der Hof von Sobotište gilt als älteste Habanersiedlung auf dem Gebiet der heutigen Slowakei. 1999 wurde er zur Denkmalzone erklärt. Sie umfasst ungefähr siebzig Gebäude, von denen sieben den Status eines nationalen Kulturdenkmals besitzen. Die erhaltenen Bauten bilden ein außergewöhnlich wertvolles Ensemble gemeinschaftlicher und volkstümlicher Architektur."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Habanermühle – technisches Denkmal und Museum",
+          "text": "Das Wahrzeichen des Habanerhofs ist eine historische Wassermühle, deren Existenz bereits im 16. Jahrhundert belegt ist. Das heutige Gebäude trägt an der Fassade die Jahreszahl 1739 und am Mühlenbalken die Datierung 1850. Die technische Ausstattung wurde im Laufe der Zeit modernisiert – vom steinernen Mahlgang bis zu Walzenstühlen. Nach langem Verfall wurde die Mühle 2019–2022 umfassend restauriert. Dabei wurden die spätrenaissancezeitliche Fassadengestalt und erhaltene technische Elemente wiederhergestellt; auch das Mühlrad mit dem hölzernen Wasserzulauf kehrte zurück. Heute beherbergt das Gebäude das Habanermuseum mit einer Ausstellung über Religion, Architektur, Handwerk und Migration der Täufergemeinschaften. Die Mühle ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sobotišter Fayence – das Keramikhandwerk der Habaner",
+          "text": "Sobotište entwickelte sich zu einem bedeutenden Zentrum der Habaner-Fayence, einer feinen Keramik mit undurchsichtiger Glasur und bemalter Verzierung. Die örtlichen Töpfer stellten Kacheln, Krüge, Gefäße und Baukeramik her, darunter Fliesen, Mosaike, Wasserrohre und Ofenkacheln. Die Blütezeit der Produktion lag im 17. Jahrhundert. Typisch waren glänzende Glasuren in Blau, Gelb, Grün und Violett; besonders berühmt waren gelbe Oberflächen mit opalisierendem Glanz. Nach dem Ende des gemeinschaftlichen Besitzes auf dem Habanerhof entstanden mehrere selbstständige Werkstätten, und die Keramiktradition wurde von späteren Krugbäckergenerationen fortgeführt. Die Forschung hat Dutzende Herstellerzeichen identifiziert, die heute bei der Bestimmung der Herkunft erhaltener Stücke helfen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič und die Bauernvereinigung von 1845",
+          "text": "Der Lehrer und slowakische Nationalaufklärer Samuel Jurkovič (1796–1873) wirkte ab 1831 in Sobotište. Am 9. Februar 1845 gründete er dort den Spolek gazdovský v mestečku Sobotište, die erste Kreditgenossenschaft auf dem europäischen Kontinent. Zwölf Einwohner verabschiedeten die Satzung bei einer Versammlung im Haus des Schneiders und Bauern Michal Horňák. Die Mitglieder leisteten kleine regelmäßige Einlagen; die Genossenschaft vergab Darlehen zu sechs Prozent Zinsen, um Bauern und Handwerkern günstigere Kredite zu ermöglichen und Wucher einzudämmen. Sie bestand etwa sechs Jahre, wurde aber zum Vorbild für weitere Selbsthilfevereine in der Slowakei. Diese Leistung ist von der allerersten Genossenschaft der Welt zu unterscheiden: Die Konsumgenossenschaft von Rochdale in England war bereits 1844 gegründet worden. An Jurkovič erinnert heute ein Genossenschaftsmuseum im Nyáry-Schloss."
+        },
+        {
+          "id": "fact_006",
+          "title": "Das Slowakische Nationaltheater von Nitra und Anička Jurkovičová",
+          "text": "Sobotište gehört zu den frühen Zentren des slowakischen Amateurtheaters. 1841 gründete Samuel Jurkovič gemeinsam mit jungen Anhängern der Štúr-Bewegung das Slovenské národné divadlo nitrianske, das zwei Aufführungen veranstaltete. Eine besondere Rolle spielte Anna „Anička“ Jurkovičová (1824–1905), die Tochter Samuels. Im August 1841 trat sie als einzige Frau der Truppe auf und gilt als erste slowakische Amateur-Schauspielerin. Zu einer Zeit, als Frauenrollen auf der Bühne gewöhnlich von Männern gespielt wurden, war dies ein bedeutender kultureller und gesellschaftlicher Schritt. Später heiratete sie den evangelischen Pfarrer und nationalen Aktivisten Jozef Miloslav Hurban; die Hochzeit fand 1845 in der evangelischen Kirche von Sobotište statt. Anička wurde in Nové Mesto nad Váhom geboren und ist mit Sobotište durch ihre Tätigkeit und ihr familiäres Umfeld verbunden, nicht durch ihren Geburtsort."
+        },
+        {
+          "id": "fact_007",
+          "title": "Das Nyáry-Schloss – Herrensitz und Genossenschaftsmuseum",
+          "text": "Im Zentrum von Sobotište steht das Nyáry-Schloss, der ehemalige Herrensitz der Familie Nyáry. Der erste Bau entstand 1631; nach einem Brand im Jahr 1645 wurde das Gebäude teilweise umgebaut und 1663 wiederhergestellt. Sein Renaissance-Barock-Kern blieb trotz späterer Innenraumänderungen und baulicher Eingriffe im 20. Jahrhundert erhalten. Das Schloss erinnert an die Zeit, als Sobotište ein wirtschaftliches Zentrum der ausgedehnten Herrschaft Branč war. Heute beherbergt es das Gemeindeamt, eine Bibliothek und das Samuel-Jurkovič-Genossenschaftsmuseum. Dessen Ausstellung stellt die Anfänge des slowakischen Genossenschaftswesens, das Leben des örtlichen Lehrers und die Regionalgeschichte vor. So verbindet das Gebäude Adelsgeschichte, kommunale Gegenwart und Kultur."
+        },
+        {
+          "id": "fact_008",
+          "title": "Zwei historische Kirchen – katholische und evangelische Tradition",
+          "text": "Die religiöse und architektonische Geschichte von Sobotište wird durch zwei bedeutende Kirchen veranschaulicht. Die römisch-katholische Kirche Mariä Himmelfahrt wurde um 1635–1637 auf den Fundamenten eines älteren gotischen Baus errichtet und übernahm dessen ursprünglichen Turm; der Hauptaltar stammt aus der ersten Hälfte des 18. Jahrhunderts. Die evangelische Kirche Augsburger Bekenntnisses entstand 1783–1784 nach dem Toleranzpatent Kaiser Josephs II. von 1781, das nichtkatholische Konfessionen in der Habsburgermonarchie eingeschränkt zuließ. Ursprünglich hatte sie keinen Turm; 1787 wird ein separater hölzerner Glockenturm erwähnt. Der heutige gemauerte Turm wurde 1909 nach einem Entwurf des Architekten Milan Michal Harminc vollendet. Die Kirche ist ein wertvolles Zeugnis der Sakralarchitektur der Toleranzzeit und der religiösen Vielfalt des Ortes."
+        },
+        {
+          "id": "fact_009",
+          "title": "Die Sternwarte von Sobotište – Astronomie in einer kleinen Gemeinde",
+          "text": "Auf dem Gelände der Grundschule in Sobotište entstand 1971–1972 eine kleine astronomische Beobachtungsstation, entworfen vom Architekten Gabriel Gála aus Myjava. Die Initiative ging vom damaligen Schulleiter Ladislav Košinár aus; Eltern, Schüler und weitere Freiwillige halfen beim Bau. Am 1. September 1972 nahm die Sternwarte ihren Betrieb auf. In ihrer Kuppel befand sich zunächst das erste Teleskop von Sobotište, ein MDN 120. Heute verfügt die Einrichtung über mehrere Teleskope und weitere Instrumente zur Beobachtung des Mondes, der Planeten, von Meteorschauern und Sternbedeckungen. Sie dient auch als Vortragsraum und weckt bei Kindern und Erwachsenen das Interesse an der Astronomie. Die ungewöhnliche Bildungseinrichtung entstand wesentlich durch ehrenamtliches Engagement."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka – die Gedenk-Lindenallee von Samuel Jurkovič",
+          "text": "Am südöstlichen Rand von Sobotište legte Samuel Jurkovič gemeinsam mit Mitgliedern der Bauernvereinigung 1845 unterhalb der Anhöhe Savarka eine Lindenallee an, die Lipnica genannt wird. Nach Gemeinde- und Regionalquellen wurden dort ungefähr 160 Linden gepflanzt, eine vernachlässigte Quelle hergerichtet und das sumpfige Gelände entwässert. Die Bäume hatten auch symbolische Bedeutung: Sie standen für die slawische Verbundenheit, und einzelne Linden erhielten Namen aus dem Umfeld der Štúr-Bewegung und der Genossenschaftsmitglieder. Die Quelle wurde nach Jurkovičs Tochter Anna „Anička“ genannt. Das Gebiet war von 1992 bis 2012 geschützt; der Schutzstatus wurde später aufgehoben, weil die ursprünglich angenommenen Naturwerte nicht bestätigt wurden. Der Ort besitzt jedoch weiterhin einen bedeutenden historischen und landschaftlichen Erinnerungswert."
+        },
+        {
+          "id": "fact_011",
+          "title": "Die jüdische Gemeinde von Sobotište und die verschwundene Synagoge",
+          "text": "Zur Geschichte von Sobotište gehört auch eine jüdische Gemeinde, deren Anwesenheit spätestens in der ersten Hälfte des 18. Jahrhunderts belegt ist. Eine kommunale Steuerliste von 1753 verzeichnete im Marktflecken 32 jüdische Familien. Die wissenschaftliche Erforschung jüdischer Architektur in der Slowakei datiert die Synagoge von Sobotište auf 1763. Nach dem Zweiten Weltkrieg wurde sie zu einem Wohnhaus umgebaut; ihr ursprüngliches Erscheinungsbild ist weitgehend verloren. Ein weiteres Gebäude im Ortszentrum diente in der ersten Hälfte des 19. Jahrhunderts als Rabbinerhaus und Beit Midrasch, also als Ort des Studiums und Gebets; zum Komplex gehörten auch ein Ritualbad und eine Matzenbäckerei. Diese Orte erinnern an die frühere religiöse und kulturelle Vielfalt des Marktfleckens, nicht an ein erhaltenes öffentliches jüdisches Denkmal."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište – a medieval market town",
+          "text": "Sobotište first appears in written records in 1251 under the name Zobodycha. It initially belonged to the estate of Bana Castle and, from 1297, was linked to Branč Castle. After 1526, it passed with the Branč estate to the Hungarian noble Nyáry family. In 1613 the settlement received the right to hold annual fairs, supplementing its regular weekly markets. It developed as a market town on trading routes between Záhorie and the upland countryside around Myjava. In the 17th century it suffered fires and military incursions, including attacks in 1605, 1623 and 1663. Its history reflects both the economic importance of a former market town in the Kingdom of Hungary and the vulnerability of a settlement in a strategic location."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Hutterite Court – Slovakia’s oldest Anabaptist settlement",
+          "text": "In 1546, Anabaptists known as Hutterites settled in Sobotište. They came from the Central European Anabaptist tradition and built a separate communal settlement on land belonging to Count František Nyáry. The court included homes, farm buildings, workshops and shared facilities. For two centuries the community maintained a distinctive communal way of life and developed crafts such as pottery, faience-making, knife-making, tanning and milling. The Sobotište court is considered the oldest Hutterite settlement in present-day Slovakia. It was declared a monument zone in 1999. The protected area includes about seventy buildings, seven of which are national cultural monuments. The surviving structures form an exceptionally valuable ensemble of communal and vernacular architecture."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Hutterite Mill – a technical monument and museum",
+          "text": "The landmark of the Hutterite Court is a historic watermill whose existence is documented as early as the 16th century. The present building bears the date 1739 on its façade and 1850 on a mill beam. Its machinery was modernised over time, from stone milling equipment to roller mills. After a long period of decay, the building underwent comprehensive restoration in 2019–2022. The work restored its late Renaissance appearance and surviving technical features; a mill wheel and wooden water channel were also reinstated. The restored building now houses the Hutterite Museum, presenting the religious life, architecture, crafts and migration of Anabaptist communities. The mill is listed as a national cultural monument."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sobotište faience – the Hutterites’ ceramic craft",
+          "text": "Sobotište became an important centre of Hutterite faience, fine pottery decorated with painted designs beneath an opaque glaze. Local potters made stove tiles, jugs, vessels and building ceramics, including floor tiles, mosaics, water pipes and stove fittings. Production reached its peak in the 17th century. Typical finishes included glossy blue, yellow, green and purple glazes; yellow surfaces with a distinctive opalescent sheen became particularly famous. After communal ownership of the Hutterite Court broke up, several independent workshops operated in the village, and the ceramic tradition continued among later generations of potters. Researchers have identified dozens of local makers’ marks, which help establish the origin of surviving pieces."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič and the Farmers’ Association of 1845",
+          "text": "The teacher and Slovak national revival figure Samuel Jurkovič (1796–1873) worked in Sobotište from 1831. On 9 February 1845 he founded the Spolek gazdovský v mestečku Sobotište, the first credit cooperative on the European continent. Twelve local residents approved its statutes at a meeting in the home of tailor and farmer Michal Horňák. Members made small regular deposits, and the association lent money at six per cent interest to give farmers and craftsmen access to fairer credit and help curb usury. It operated for about six years but became a model for similar mutual-aid associations in Slovakia. This achievement should be distinguished from the world’s first cooperative: the consumer cooperative at Rochdale in England had been founded in 1844. Jurkovič’s legacy is presented in the cooperative museum in the Nyáry Manor House."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Slovak National Theatre of Nitra and Anička Jurkovičová",
+          "text": "Sobotište was one of the early centres of Slovak amateur theatre. In 1841, Samuel Jurkovič and young followers of the Štúr movement founded the Slovenské národné divadlo nitrianske, which staged two performances. A remarkable figure was Anna ‘Anička’ Jurkovičová (1824–1905), Samuel’s daughter. In August 1841 she appeared as the company’s only woman and is regarded as the first Slovak amateur actress. At a time when male actors usually played women’s roles, her performance was a notable cultural and social breakthrough. She later married the evangelical pastor and national activist Jozef Miloslav Hurban; their wedding took place in the evangelical church in Sobotište in 1845. Anička was born in Nové Mesto nad Váhom and is linked to Sobotište through her work and family life, not her birthplace."
+        },
+        {
+          "id": "fact_007",
+          "title": "Nyáry Manor House – an aristocratic residence and cooperative museum",
+          "text": "In the centre of Sobotište stands the Nyáry Manor House, the former residence of the Nyáry family. The first building was erected in 1631; after a fire in 1645 it was partly rebuilt and restored in 1663. Its Renaissance-Baroque core has survived later interior alterations and building work in the 20th century. The manor recalls the period when Sobotište was an economic centre of the extensive Branč estate. Today it houses the municipal office, a library and the Samuel Jurkovič Cooperative Museum. The museum presents the beginnings of Slovak cooperation, the life of the local teacher and regional history. The building thus connects aristocratic, municipal and cultural history."
+        },
+        {
+          "id": "fact_008",
+          "title": "Two historic churches – Catholic and Evangelical traditions",
+          "text": "The religious and architectural history of Sobotište is reflected in two notable churches. The Roman Catholic Church of the Assumption of the Virgin Mary was built around 1635–1637 on the foundations of an earlier Gothic building and incorporated its original tower; the main altar dates from the first half of the 18th century. The Evangelical Lutheran church was built in 1783–1784 following Emperor Joseph II’s Patent of Toleration of 1781, which granted limited legal recognition to non-Catholic denominations in the Habsburg Monarchy. It originally had no tower; a separate wooden belfry is recorded in 1787, while the present masonry tower was completed in 1909 to a design by architect Milan Michal Harminc. The church is an important example of religious architecture from the era of toleration and of the village’s religious diversity."
+        },
+        {
+          "id": "fact_009",
+          "title": "Sobotište Observatory – astronomy in a small village",
+          "text": "A small astronomical observatory was built on the grounds of the primary school in Sobotište in 1971–1972. It was designed by architect Gabriel Gála from Myjava. The project was initiated by the school’s headmaster, Ladislav Košinár, and parents, pupils and other volunteers helped construct it. The observatory began operating on 1 September 1972. Its dome originally housed Sobotište’s first telescope, the MDN 120. Today it has several telescopes and other instruments for observing the Moon, planets, meteor showers and stellar occultations. It also serves as a lecture space and encourages children and the public to take an interest in astronomy. This unusual local educational facility was made possible largely through voluntary work."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka – Samuel Jurkovič’s commemorative lime-tree avenue",
+          "text": "In 1845, Samuel Jurkovič and members of the Farmers’ Association planted a lime-tree avenue called Lipnica below Savarka Hill, on the south-eastern edge of Sobotište. Municipal and regional sources report that about 160 lime trees were planted, a neglected spring was restored and the marshy ground was drained. The trees also had symbolic meaning: they represented Slavic solidarity, and individual trees were named after people associated with the Štúr movement and the cooperative. The spring was named Anička after Jurkovič’s daughter Anna. The site was protected from 1992 to 2012; its protected status was later withdrawn because the natural values originally assumed were not confirmed. It nevertheless retains considerable historical and landscape significance."
+        },
+        {
+          "id": "fact_011",
+          "title": "Sobotište’s Jewish community and its lost synagogue",
+          "text": "The history of Sobotište also includes a Jewish community whose presence is documented by the first half of the 18th century. A municipal tax register from 1753 recorded 32 Jewish families in the market town. Research on Jewish architecture in Slovakia dates the synagogue in Sobotište to 1763. After the Second World War it was rebuilt as a residential house, and almost all of its original appearance was lost. Another building in the centre served in the first half of the 19th century as a rabbi’s house and a beit midrash, a place for study and prayer; the complex also included a ritual bath and a matzah bakery. These sites recall the town’s former religious and cultural diversity, rather than a surviving public Jewish memorial."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište, una villa mercantil medieval",
+          "text": "Sobotište aparece por primera vez en documentos escritos en 1251 con el nombre de Zobodycha. Inicialmente perteneció al señorío del castillo de Bana y, desde 1297, estuvo vinculado al castillo de Branč. Después de 1526 pasó, junto con el señorío de Branč, a manos de la familia noble húngara Nyáry. En 1613 obtuvo el derecho a celebrar ferias anuales, además de sus mercados semanales. Se desarrolló como centro comercial en las rutas entre Záhorie y las tierras altas de Myjava. En el siglo XVII sufrió incendios e incursiones militares, incluidos ataques en 1605, 1623 y 1663. Su historia refleja tanto la importancia económica de una antigua villa mercantil del Reino de Hungría como la vulnerabilidad de un asentamiento situado en una zona estratégica."
+        },
+        {
+          "id": "fact_002",
+          "title": "El patio habano, el asentamiento anabaptista más antiguo de Eslovaquia",
+          "text": "En 1546 se establecieron en Sobotište los anabaptistas conocidos como habanos, procedentes de la tradición anabaptista centroeuropea. En terrenos del conde František Nyáry construyeron un asentamiento comunitario separado, con viviendas, edificios agrícolas, talleres y espacios comunes. Durante dos siglos mantuvieron una forma de vida propia y desarrollaron oficios como la alfarería, la fabricación de loza, la cuchillería, el curtido y la molienda. El patio de Sobotište se considera el asentamiento habano más antiguo del territorio de la actual Eslovaquia. En 1999 fue declarado zona monumental. El área protegida comprende unos setenta edificios, siete de ellos monumentos culturales nacionales. Los edificios conservados forman un conjunto excepcional de arquitectura comunitaria y vernácula."
+        },
+        {
+          "id": "fact_003",
+          "title": "El molino habano, monumento técnico y museo",
+          "text": "El edificio emblemático del patio habano es un antiguo molino hidráulico cuya existencia está documentada desde el siglo XVI. El edificio actual lleva en la fachada la fecha de 1739 y en una viga del molino la de 1850. Su maquinaria se modernizó con el tiempo, pasando de las muelas de piedra a los cilindros de molienda. Tras largos años de deterioro, fue restaurado integralmente entre 2019 y 2022. Se recuperó su aspecto tardorrenacentista y se conservaron elementos técnicos; también se restituyeron la rueda del molino y el canal de madera que conducía el agua. Hoy alberga el Museo de los Habanos, dedicado a la religión, arquitectura, artesanía y migraciones de las comunidades anabaptistas. El molino es un monumento cultural nacional."
+        },
+        {
+          "id": "fact_004",
+          "title": "La loza de Sobotište, tradición cerámica de los habanos",
+          "text": "Sobotište se convirtió en uno de los centros importantes de la loza habana, una cerámica fina decorada con pintura bajo un esmalte opaco. Los alfareros locales fabricaban azulejos de estufa, jarras, recipientes y cerámica de construcción, incluidos pavimentos, mosaicos, tuberías de agua y piezas para estufas. La producción alcanzó su apogeo en el siglo XVII. Eran característicos los esmaltes brillantes azules, amarillos, verdes y violetas; destacaban especialmente las superficies amarillas con un brillo opalescente. Tras la desaparición de la propiedad comunal del patio habano, funcionaron varios talleres independientes y la tradición continuó entre generaciones posteriores de alfareros. La investigación ha identificado decenas de marcas de fabricantes locales que ayudan a determinar el origen de las piezas conservadas."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič y la asociación campesina de 1845",
+          "text": "El maestro y figura del renacimiento nacional eslovaco Samuel Jurkovič (1796–1873) trabajó en Sobotište desde 1831. El 9 de febrero de 1845 fundó allí el Spolek gazdovský v mestečku Sobotište, la primera cooperativa de crédito del continente europeo. Doce vecinos aprobaron sus estatutos en una reunión celebrada en la casa del sastre y campesino Michal Horňák. Los miembros aportaban pequeños depósitos regulares y la asociación concedía préstamos al seis por ciento para facilitar crédito justo a agricultores y artesanos y combatir la usura. Funcionó unos seis años, pero sirvió de modelo para otras asociaciones de ayuda mutua en Eslovaquia. Este logro debe distinguirse de la primera cooperativa del mundo: la cooperativa de consumo de Rochdale, en Inglaterra, se había fundado en 1844. El legado de Jurkovič se presenta hoy en el museo cooperativo del palacio Nyáry."
+        },
+        {
+          "id": "fact_006",
+          "title": "El Teatro Nacional Eslovaco de Nitra y Anička Jurkovičová",
+          "text": "Sobotište fue uno de los primeros centros del teatro aficionado eslovaco. En 1841 Samuel Jurkovič y jóvenes seguidores del movimiento de Štúr fundaron el Slovenské národné divadlo nitrianske, que ofreció dos representaciones. Una figura excepcional fue Anna «Anička» Jurkovičová (1824–1905), hija de Samuel. En agosto de 1841 actuó como la única mujer de la compañía y es considerada la primera actriz aficionada eslovaca. En una época en la que los papeles femeninos solían ser interpretados por hombres, su actuación supuso un avance cultural y social notable. Más tarde se casó con el pastor evangélico y activista nacional Jozef Miloslav Hurban; la boda tuvo lugar en 1845 en la iglesia evangélica de Sobotište. Anička nació en Nové Mesto nad Váhom y está vinculada a Sobotište por su actividad y su entorno familiar, no por su lugar de nacimiento."
+        },
+        {
+          "id": "fact_007",
+          "title": "El palacio Nyáry, residencia señorial y museo cooperativo",
+          "text": "En el centro de Sobotište se encuentra el palacio Nyáry, antigua residencia de la familia Nyáry. El primer edificio se levantó en 1631; tras un incendio en 1645 fue reconstruido parcialmente y restaurado en 1663. Su núcleo renacentista-barroco ha sobrevivido a posteriores modificaciones interiores y obras del siglo XX. El palacio recuerda la época en que Sobotište era un centro económico del extenso señorío de Branč. Hoy alberga el ayuntamiento, una biblioteca y el Museo Cooperativo Samuel Jurkovič. Su exposición presenta los comienzos del cooperativismo eslovaco, la vida del maestro local y la historia regional. El edificio enlaza así la historia aristocrática, municipal y cultural."
+        },
+        {
+          "id": "fact_008",
+          "title": "Dos iglesias históricas, tradiciones católica y evangélica",
+          "text": "La historia religiosa y arquitectónica de Sobotište está representada por dos iglesias destacadas. La iglesia católica romana de la Asunción de la Virgen María se construyó hacia 1635–1637 sobre los cimientos de un edificio gótico anterior y aprovechó su torre original; el altar mayor data de la primera mitad del siglo XVIII. La iglesia evangélica de la confesión de Augsburgo se levantó en 1783–1784 tras el Edicto de Tolerancia del emperador José II de 1781, que reconoció de forma limitada las confesiones no católicas en la monarquía de los Habsburgo. Al principio carecía de torre; en 1787 se menciona un campanario de madera separado. La torre actual de mampostería se terminó en 1909 según un proyecto del arquitecto Milan Michal Harminc. Es un valioso ejemplo de arquitectura religiosa de la época de tolerancia y de la pluralidad confesional local."
+        },
+        {
+          "id": "fact_009",
+          "title": "El observatorio de Sobotište, astronomía en una pequeña localidad",
+          "text": "En el recinto de la escuela primaria de Sobotište se construyó entre 1971 y 1972 un pequeño observatorio astronómico, diseñado por el arquitecto Gabriel Gála, de Myjava. La iniciativa partió del entonces director de la escuela, Ladislav Košinár, y en la construcción colaboraron padres, alumnos y otros voluntarios. El observatorio comenzó a funcionar el 1 de septiembre de 1972. Su cúpula albergó el primer telescopio de Sobotište, el MDN 120. Hoy dispone de varios telescopios y otros instrumentos para observar la Luna, los planetas, las lluvias de meteoros y las ocultaciones de estrellas. También sirve como espacio para conferencias y fomenta el interés por la astronomía entre niños y público general. Esta singular instalación educativa local nació en gran medida gracias al trabajo voluntario."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka, la avenida de tilos conmemorativa de Samuel Jurkovič",
+          "text": "En 1845 Samuel Jurkovič y los miembros de la asociación campesina plantaron una avenida de tilos llamada Lipnica bajo la colina Savarka, en el extremo sudoriental de Sobotište. Según fuentes municipales y regionales, se plantaron unos 160 tilos, se recuperó un manantial abandonado y se drenó el terreno pantanoso. Los árboles también tenían un sentido simbólico: representaban la solidaridad eslava y algunos recibieron nombres de personas vinculadas al círculo de Štúr y a la cooperativa. El manantial recibió el nombre de Anička, por Anna, hija de Jurkovič. El lugar estuvo protegido entre 1992 y 2012; posteriormente se retiró la protección porque no se confirmaron los valores naturales inicialmente supuestos. Aun así, conserva una importante memoria histórica y paisajística."
+        },
+        {
+          "id": "fact_011",
+          "title": "La comunidad judía de Sobotište y su sinagoga desaparecida",
+          "text": "La historia de Sobotište incluye también una comunidad judía cuya presencia está documentada, como mínimo, desde la primera mitad del siglo XVIII. Un registro fiscal municipal de 1753 contabilizó 32 familias judías en la villa. La investigación académica sobre arquitectura judía en Eslovaquia fecha la sinagoga de Sobotište en 1763. Después de la Segunda Guerra Mundial fue transformada en vivienda y casi todo su aspecto original desapareció. Otro edificio del centro sirvió durante la primera mitad del siglo XIX como casa del rabino y beit midrash, es decir, un lugar de estudio y oración; el conjunto incluía también un baño ritual y una panadería de matzá. Estos lugares recuerdan la antigua diversidad religiosa y cultural de la villa, no un monumento judío público que se conserve."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište, bourg marchand médiéval",
+          "text": "Sobotište apparaît dans les sources écrites en 1251 sous le nom de Zobodycha. Le village dépendait d’abord du domaine du château de Bana, puis fut lié au château de Branč à partir de 1297. Après 1526, il passa avec le domaine de Branč aux mains de la famille noble hongroise Nyáry. En 1613, il obtint le droit d’organiser des foires annuelles, en complément de ses marchés hebdomadaires. Il se développa comme bourg marchand sur les routes reliant Záhorie aux collines de Myjava. Au XVIIe siècle, il subit des incendies et des incursions militaires, notamment en 1605, 1623 et 1663. Son histoire illustre à la fois l’importance économique d’un ancien bourg du royaume de Hongrie et la vulnérabilité d’une localité située dans une zone stratégique."
+        },
+        {
+          "id": "fact_002",
+          "title": "La cour des Habanes, plus ancien établissement anabaptiste de Slovaquie",
+          "text": "En 1546, des anabaptistes connus sous le nom de Habanes s’installèrent à Sobotište. Issus de la tradition anabaptiste d’Europe centrale, ils construisirent sur les terres du comte František Nyáry un établissement communautaire séparé, composé de maisons, de bâtiments agricoles, d’ateliers et d’espaces communs. Pendant deux siècles, la communauté conserva un mode de vie particulier et développa divers métiers : poterie, faïence, coutellerie, tannerie et meunerie. La cour de Sobotište est considérée comme le plus ancien établissement habane du territoire de l’actuelle Slovaquie. Elle fut déclarée zone patrimoniale en 1999. Le périmètre protégé comprend environ soixante-dix bâtiments, dont sept monuments culturels nationaux. Les constructions conservées forment un ensemble exceptionnel d’architecture communautaire et vernaculaire."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le moulin des Habanes, monument technique et musée",
+          "text": "Le bâtiment emblématique de la cour habane est un ancien moulin à eau dont l’existence est attestée dès le XVIe siècle. L’édifice actuel porte la date de 1739 sur sa façade et celle de 1850 sur une poutre du moulin. Son équipement a été modernisé au fil du temps, passant des meules de pierre aux cylindres de mouture. Après une longue période d’abandon, le moulin a fait l’objet d’une restauration complète entre 2019 et 2022. Sa façade tardive Renaissance et les éléments techniques conservés ont été restaurés ; la roue et le conduit en bois qui amenait l’eau ont également été rétablis. Le bâtiment restauré accueille aujourd’hui le musée des Habanes, consacré à la religion, à l’architecture, aux métiers et aux migrations des communautés anabaptistes. Le moulin est un monument culturel national."
+        },
+        {
+          "id": "fact_004",
+          "title": "La faïence de Sobotište, savoir-faire céramique des Habanes",
+          "text": "Sobotište est devenu un centre important de la faïence habane, une céramique fine décorée de motifs peints sous une glaçure opaque. Les potiers locaux fabriquaient des carreaux de poêle, des cruches, des récipients et des éléments de céramique architecturale, notamment des dalles, mosaïques, conduites d’eau et carreaux de poêle. La production atteignit son apogée au XVIIe siècle. Les glaçures brillantes bleues, jaunes, vertes et violettes étaient caractéristiques ; les surfaces jaunes à l’éclat opalescent étaient particulièrement réputées. Après la fin de la propriété collective de la cour habane, plusieurs ateliers indépendants fonctionnèrent dans le village et la tradition se poursuivit chez les générations suivantes de potiers. Les chercheurs ont identifié des dizaines de marques de fabricants locaux qui permettent aujourd’hui de déterminer l’origine des pièces conservées."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič et l’association paysanne de 1845",
+          "text": "L’instituteur et figure du renouveau national slovaque Samuel Jurkovič (1796–1873) exerçait à Sobotište depuis 1831. Le 9 février 1845, il y fonda le Spolek gazdovský v mestečku Sobotište, première coopérative de crédit du continent européen. Douze habitants approuvèrent les statuts lors d’une réunion dans la maison du tailleur et agriculteur Michal Horňák. Les membres versaient de petites cotisations régulières et l’association accordait des prêts à six pour cent afin de faciliter l’accès au crédit des agriculteurs et artisans et de lutter contre l’usure. Elle fonctionna environ six ans, mais servit de modèle à d’autres associations d’entraide en Slovaquie. Il faut distinguer cette réalisation de la toute première coopérative au monde : la coopérative de consommation de Rochdale, en Angleterre, avait été fondée dès 1844. L’héritage de Jurkovič est aujourd’hui présenté dans le musée coopératif du manoir Nyáry."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le Théâtre national slovaque de Nitra et Anička Jurkovičová",
+          "text": "Sobotište compte parmi les premiers centres du théâtre amateur slovaque. En 1841, Samuel Jurkovič et de jeunes partisans du mouvement de Štúr fondèrent le Slovenské národné divadlo nitrianske, qui donna deux représentations. Une personnalité remarquable fut Anna « Anička » Jurkovičová (1824–1905), fille de Samuel. En août 1841, elle monta sur scène comme seule femme de la troupe et est considérée comme la première actrice amateur slovaque. À une époque où les rôles féminins étaient généralement joués par des hommes, sa participation constitua une avancée culturelle et sociale importante. Elle épousa plus tard le pasteur évangélique et militant national Jozef Miloslav Hurban ; leur mariage eut lieu en 1845 dans l’église évangélique de Sobotište. Anička naquit à Nové Mesto nad Váhom ; son lien avec Sobotište tient à son activité et à son milieu familial, et non à son lieu de naissance."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le manoir Nyáry, résidence seigneuriale et musée coopératif",
+          "text": "Au centre de Sobotište se trouve le manoir Nyáry, ancienne résidence de la famille Nyáry. Le premier bâtiment fut construit en 1631 ; après un incendie en 1645, il fut partiellement remanié et restauré en 1663. Son noyau Renaissance-baroque a survécu aux modifications intérieures et aux travaux du XXe siècle. Le manoir rappelle l’époque où Sobotište constituait un centre économique de l’immense domaine de Branč. Il abrite aujourd’hui la mairie, une bibliothèque et le musée coopératif Samuel Jurkovič. L’exposition présente les débuts du mouvement coopératif slovaque, la vie de l’instituteur local et l’histoire régionale. Le bâtiment relie ainsi histoire aristocratique, vie municipale et culture."
+        },
+        {
+          "id": "fact_008",
+          "title": "Deux églises historiques, traditions catholique et évangélique",
+          "text": "L’histoire religieuse et architecturale de Sobotište est illustrée par deux églises importantes. L’église catholique romaine de l’Assomption de la Vierge Marie fut construite vers 1635–1637 sur les fondations d’un édifice gothique antérieur, en conservant sa tour d’origine ; le maître-autel date de la première moitié du XVIIIe siècle. L’église évangélique de confession d’Augsbourg fut bâtie en 1783–1784 après le brevet de tolérance de l’empereur Joseph II de 1781, qui accordait une reconnaissance limitée aux confessions non catholiques dans la monarchie des Habsbourg. Elle était initialement dépourvue de tour ; un clocher en bois séparé est attesté en 1787. La tour maçonnée actuelle fut achevée en 1909 d’après les plans de l’architecte Milan Michal Harminc. L’édifice témoigne de l’architecture religieuse de l’époque de tolérance et de la diversité confessionnelle locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "L’observatoire de Sobotište, l’astronomie dans un petit village",
+          "text": "Un petit observatoire astronomique fut construit en 1971–1972 dans l’enceinte de l’école primaire de Sobotište. Il fut conçu par l’architecte Gabriel Gála, originaire de Myjava. Le projet fut lancé par le directeur de l’école, Ladislav Košinár, et des parents, des élèves et d’autres bénévoles participèrent à sa réalisation. L’observatoire commença à fonctionner le 1er septembre 1972. Sa coupole abritait à l’origine le premier télescope de Sobotište, le MDN 120. Il dispose aujourd’hui de plusieurs télescopes et d’autres instruments pour observer la Lune, les planètes, les essaims météoriques et les occultations d’étoiles. Il sert également de salle de conférences et encourage l’intérêt des enfants et du public pour l’astronomie. Cet équipement éducatif inhabituel a été rendu possible en grande partie par le bénévolat."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka, l’allée de tilleuls commémorative de Samuel Jurkovič",
+          "text": "En 1845, Samuel Jurkovič et les membres de l’association paysanne plantèrent une allée de tilleuls appelée Lipnica sous la colline de Savarka, à la périphérie sud-est de Sobotište. Selon les sources communales et régionales, environ 160 tilleuls furent plantés, une source abandonnée fut remise en état et le terrain marécageux fut drainé. Les arbres avaient également une valeur symbolique : ils représentaient la solidarité slave et certains reçurent des noms liés au cercle de Štúr et aux membres de la coopérative. La source fut appelée Anička, en hommage à Anna, fille de Jurkovič. Le site fut protégé de 1992 à 2012 ; le statut de protection fut ensuite supprimé, les valeurs naturelles initialement supposées n’ayant pas été confirmées. Le lieu conserve néanmoins une importante mémoire historique et paysagère."
+        },
+        {
+          "id": "fact_011",
+          "title": "La communauté juive de Sobotište et sa synagogue disparue",
+          "text": "L’histoire de Sobotište comprend également une communauté juive dont la présence est attestée au plus tard dans la première moitié du XVIIIe siècle. Un registre fiscal communal de 1753 dénombrait 32 familles juives dans le bourg. Les recherches universitaires sur l’architecture juive en Slovaquie datent la synagogue de Sobotište de 1763. Après la Seconde Guerre mondiale, elle fut transformée en maison d’habitation et presque toute son apparence d’origine disparut. Un autre bâtiment du centre servit dans la première moitié du XIXe siècle de maison du rabbin et de beit midrash, lieu d’étude et de prière ; l’ensemble comprenait aussi un bain rituel et une boulangerie de pain azyme. Ces lieux rappellent l’ancienne diversité religieuse et culturelle du bourg, et non un monument juif public encore conservé."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište, borgo mercantile medievale",
+          "text": "Sobotište compare per la prima volta nelle fonti scritte nel 1251 con il nome di Zobodycha. Inizialmente appartenne al dominio del castello di Bana e, dal 1297, fu legato al castello di Branč. Dopo il 1526 passò, insieme al dominio di Branč, alla famiglia nobiliare ungherese Nyáry. Nel 1613 ottenne il diritto di organizzare fiere annuali, che si aggiunsero ai mercati settimanali. Si sviluppò come centro commerciale sulle vie tra la regione di Záhorie e le colline di Myjava. Nel XVII secolo subì incendi e incursioni militari, tra cui gli attacchi del 1605, 1623 e 1663. La sua storia riflette sia l’importanza economica dell’antico borgo nel Regno d’Ungheria, sia la vulnerabilità di un insediamento situato in un’area strategica."
+        },
+        {
+          "id": "fact_002",
+          "title": "La corte degli Hutteriti, il più antico insediamento anabattista in Slovacchia",
+          "text": "Nel 1546 si stabilirono a Sobotište gli anabattisti noti come Hutteriti, provenienti dalla tradizione anabattista dell’Europa centrale. Sui terreni del conte František Nyáry costruirono un insediamento comunitario separato, con abitazioni, edifici agricoli, laboratori e spazi comuni. Per due secoli la comunità mantenne uno stile di vita particolare e sviluppò diversi mestieri: ceramica, maiolica, coltelleria, concia delle pelli e molitura. La corte di Sobotište è considerata il più antico insediamento hutterita nell’attuale territorio slovacco. Nel 1999 fu dichiarata zona monumentale. L’area protetta comprende circa settanta edifici, sette dei quali sono monumenti culturali nazionali. Le strutture conservate formano un insieme eccezionale di architettura comunitaria e popolare."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il mulino degli Hutteriti, monumento tecnico e museo",
+          "text": "L’edificio simbolo della corte hutterita è un antico mulino ad acqua, la cui esistenza è documentata già nel XVI secolo. L’edificio attuale reca sulla facciata la data 1739 e su una trave del mulino quella del 1850. Nel tempo i macchinari furono modernizzati, passando dalle macine in pietra ai cilindri di macinazione. Dopo un lungo periodo di abbandono, il mulino è stato restaurato integralmente tra il 2019 e il 2022. Sono stati recuperati l’aspetto tardo-rinascimentale della facciata e gli elementi tecnici conservati; sono stati inoltre ripristinati la ruota e il canale ligneo che conduceva l’acqua. L’edificio restaurato ospita oggi il Museo degli Hutteriti, dedicato alla religione, all’architettura, ai mestieri e alle migrazioni delle comunità anabattiste. Il mulino è un monumento culturale nazionale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La maiolica di Sobotište, tradizione ceramica degli Hutteriti",
+          "text": "Sobotište divenne uno dei centri importanti della maiolica hutterita, una ceramica fine decorata con motivi dipinti sotto uno smalto opaco. I ceramisti locali producevano piastrelle per stufe, brocche, recipienti e ceramica edilizia, tra cui pavimenti, mosaici, tubature e rivestimenti per stufe. La produzione raggiunse il culmine nel XVII secolo. Erano tipici gli smalti lucidi blu, gialli, verdi e viola; erano particolarmente celebri le superfici gialle con riflessi opalescenti. Dopo la fine della proprietà comune della corte hutterita, nel villaggio operarono diverse botteghe indipendenti e la tradizione proseguì nelle generazioni successive di ceramisti. Gli studiosi hanno identificato decine di marchi dei produttori locali, utili oggi per riconoscere la provenienza dei pezzi conservati."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič e l’associazione contadina del 1845",
+          "text": "L’insegnante e figura del risveglio nazionale slovacco Samuel Jurkovič (1796–1873) lavorò a Sobotište dal 1831. Il 9 febbraio 1845 fondò qui lo Spolek gazdovský v mestečku Sobotište, la prima cooperativa di credito dell’Europa continentale. Dodici abitanti approvarono lo statuto durante una riunione nella casa del sarto e contadino Michal Horňák. I soci versavano piccoli depositi regolari e l’associazione concedeva prestiti al sei per cento, per offrire credito più equo ad agricoltori e artigiani e contrastare l’usura. L’istituzione funzionò per circa sei anni, ma divenne un modello per altre associazioni di mutuo aiuto in Slovacchia. Questo primato va distinto dalla prima cooperativa al mondo: la cooperativa di consumo di Rochdale, in Inghilterra, era stata fondata nel 1844. L’eredità di Jurkovič è oggi illustrata nel museo cooperativo del castello Nyáry."
+        },
+        {
+          "id": "fact_006",
+          "title": "Il Teatro Nazionale Slovacco di Nitra e Anička Jurkovičová",
+          "text": "Sobotište fu uno dei primi centri del teatro amatoriale slovacco. Nel 1841 Samuel Jurkovič e giovani seguaci del movimento di Štúr fondarono lo Slovenské národné divadlo nitrianske, che mise in scena due spettacoli. Una figura eccezionale fu Anna “Anička” Jurkovičová (1824–1905), figlia di Samuel. Nell’agosto 1841 salì sul palcoscenico come unica donna della compagnia ed è considerata la prima attrice amatoriale slovacca. In un’epoca in cui i ruoli femminili erano di norma interpretati da uomini, la sua partecipazione rappresentò un importante passo avanti culturale e sociale. In seguito sposò il pastore evangelico e attivista nazionale Jozef Miloslav Hurban; il matrimonio si celebrò nel 1845 nella chiesa evangelica di Sobotište. Anička nacque a Nové Mesto nad Váhom e il suo legame con Sobotište deriva dall’attività e dall’ambiente familiare, non dal luogo di nascita."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il castello Nyáry, residenza signorile e museo cooperativo",
+          "text": "Nel centro di Sobotište sorge il castello Nyáry, antica residenza della famiglia Nyáry. Il primo edificio fu costruito nel 1631; dopo un incendio nel 1645 venne parzialmente ricostruito e restaurato nel 1663. Il nucleo rinascimentale-barocco è sopravvissuto a successive modifiche interne e interventi del XX secolo. Il castello ricorda il periodo in cui Sobotište era un centro economico dell’ampio dominio di Branč. Oggi ospita il municipio, una biblioteca e il Museo Cooperativo Samuel Jurkovič. L’esposizione presenta gli inizi del cooperativismo slovacco, la vita dell’insegnante locale e la storia regionale. L’edificio collega così la storia aristocratica, quella municipale e quella culturale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Due chiese storiche, tradizioni cattolica ed evangelica",
+          "text": "La storia religiosa e architettonica di Sobotište è rappresentata da due chiese importanti. La chiesa cattolica romana dell’Assunzione della Vergine Maria fu costruita intorno al 1635–1637 sulle fondamenta di un precedente edificio gotico, riutilizzandone la torre originaria; l’altare maggiore risale alla prima metà del XVIII secolo. La chiesa evangelica della confessione augustana fu edificata nel 1783–1784 dopo il brevetto di tolleranza dell’imperatore Giuseppe II del 1781, che riconobbe in modo limitato le confessioni non cattoliche nella monarchia asburgica. In origine era priva di torre; nel 1787 è attestato un campanile ligneo separato. La torre in muratura attuale fu completata nel 1909 su progetto dell’architetto Milan Michal Harminc. È un’importante testimonianza dell’architettura religiosa dell’età della tolleranza e della pluralità confessionale locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "L’osservatorio di Sobotište, astronomia in un piccolo paese",
+          "text": "Nel 1971–1972 fu costruito nel complesso della scuola primaria di Sobotište un piccolo osservatorio astronomico, progettato dall’architetto Gabriel Gála di Myjava. L’iniziativa partì dall’allora direttore scolastico Ladislav Košinár; genitori, alunni e altri volontari contribuirono ai lavori. L’osservatorio iniziò a funzionare il 1º settembre 1972. La cupola ospitava inizialmente il primo telescopio di Sobotište, il MDN 120. Oggi dispone di diversi telescopi e altri strumenti per osservare la Luna, i pianeti, gli sciami meteorici e le occultazioni stellari. Serve anche come sala per conferenze e promuove l’interesse per l’astronomia tra bambini e pubblico. Questa insolita struttura educativa locale è nata in gran parte grazie al lavoro volontario."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka, il viale commemorativo di tigli di Samuel Jurkovič",
+          "text": "Nel 1845 Samuel Jurkovič e i membri dell’associazione contadina piantarono un viale di tigli chiamato Lipnica sotto la collina Savarka, al margine sud-orientale di Sobotište. Secondo fonti comunali e regionali furono piantati circa 160 tigli, fu ripristinata una sorgente trascurata e venne drenato il terreno paludoso. Gli alberi avevano anche un significato simbolico: rappresentavano la solidarietà slava e alcuni furono intitolati a persone legate al circolo di Štúr e alla cooperativa. La sorgente fu chiamata Anička in onore di Anna, figlia di Jurkovič. Il sito fu protetto dal 1992 al 2012; in seguito lo status di protezione fu revocato perché i valori naturali inizialmente ipotizzati non furono confermati. Il luogo conserva tuttavia un importante valore storico e paesaggistico."
+        },
+        {
+          "id": "fact_011",
+          "title": "La comunità ebraica di Sobotište e la sinagoga scomparsa",
+          "text": "La storia di Sobotište comprende anche una comunità ebraica, la cui presenza è documentata almeno dalla prima metà del XVIII secolo. Un registro fiscale comunale del 1753 contava 32 famiglie ebraiche nel borgo. La ricerca accademica sull’architettura ebraica in Slovacchia data la sinagoga di Sobotište al 1763. Dopo la Seconda guerra mondiale fu trasformata in abitazione e quasi tutto l’aspetto originario andò perduto. Un altro edificio nel centro servì nella prima metà del XIX secolo come casa del rabbino e beit midrash, luogo di studio e preghiera; il complesso comprendeva anche un bagno rituale e un forno per il pane azzimo. Questi luoghi ricordano l’antica diversità religiosa e culturale del borgo, non un monumento ebraico pubblico ancora conservato."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sobotište",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Sobotište, een middeleeuws marktstadje",
+          "text": "Sobotište wordt in 1251 voor het eerst schriftelijk vermeld onder de naam Zobodycha. Aanvankelijk behoorde het tot het domein van kasteel Bana en vanaf 1297 was het verbonden met kasteel Branč. Na 1526 kwam het samen met het domein Branč in handen van de Hongaarse adellijke familie Nyáry. In 1613 kreeg de plaats het recht om jaarmarkten te houden, naast de wekelijkse markten. Het ontwikkelde zich tot een marktstadje aan handelsroutes tussen Záhorie en het heuvelgebied rond Myjava. In de 17e eeuw werd het getroffen door branden en militaire invallen, waaronder aanvallen in 1605, 1623 en 1663. De geschiedenis weerspiegelt zowel het economische belang van een voormalig marktstadje in het Koninkrijk Hongarije als de kwetsbaarheid van een nederzetting op een strategische plek."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Hutterietenhof, de oudste anabaptistische nederzetting in Slowakije",
+          "text": "In 1546 vestigden anabaptisten, bekend als Hutterieten, zich in Sobotište. Zij kwamen voort uit de Midden-Europese anabaptistische traditie en bouwden op grond van graaf František Nyáry een afzonderlijke gemeenschappelijke nederzetting met woningen, boerderijgebouwen, werkplaatsen en gedeelde voorzieningen. Twee eeuwen lang handhaafde de gemeenschap een eigen levenswijze en ontwikkelde zij ambachten zoals pottenbakken, faienceproductie, messenmakerij, leerlooien en malen. Het hof van Sobotište geldt als de oudste Hutterietennederzetting op het grondgebied van het huidige Slowakije. In 1999 werd het tot monumentenzone verklaard. Het beschermde gebied omvat ongeveer zeventig gebouwen, waarvan zeven nationale culturele monumenten zijn. De bewaard gebleven gebouwen vormen een uitzonderlijk ensemble van gemeenschaps- en volksarchitectuur."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Hutterietenmolen, technisch monument en museum",
+          "text": "Het herkenningspunt van het Hutterietenhof is een historische watermolen waarvan het bestaan al in de 16e eeuw is gedocumenteerd. Het huidige gebouw draagt het jaartal 1739 op de gevel en 1850 op een balk van de molen. De installatie werd in de loop der tijd gemoderniseerd, van stenen maalstenen tot walsen. Na een lange periode van verval werd de molen tussen 2019 en 2022 grondig gerestaureerd. De laat-renaissancistische gevel en bewaard gebleven technische onderdelen werden hersteld; ook het waterrad en de houten watertoevoer keerden terug. Het gerestaureerde gebouw huisvest nu het Hutterietenmuseum, dat de religie, architectuur, ambachten en migratie van anabaptistische gemeenschappen presenteert. De molen is een nationaal cultureel monument."
+        },
+        {
+          "id": "fact_004",
+          "title": "Faience uit Sobotište, het keramische ambacht van de Hutterieten",
+          "text": "Sobotište werd een belangrijk centrum van Hutterietenfaience, fijn aardewerk met beschilderde versiering onder een ondoorzichtige glazuurlaag. Plaatselijke pottenbakkers maakten kacheltegels, kruiken, vaten en bouwkeramiek, waaronder vloertegels, mozaïeken, waterleidingen en onderdelen voor kachels. De productie bereikte haar hoogtepunt in de 17e eeuw. Kenmerkend waren glanzende blauwe, gele, groene en paarse glazuren; vooral gele oppervlakken met een bijzondere opaalachtige glans werden beroemd. Nadat het gemeenschappelijke eigendom van het Hutterietenhof uiteenviel, waren er in het dorp verschillende zelfstandige werkplaatsen en werd de keramiektraditie door latere generaties pottenbakkers voortgezet. Onderzoekers hebben tientallen merken van plaatselijke makers geïdentificeerd, die helpen de herkomst van bewaard gebleven stukken vast te stellen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Samuel Jurkovič en de Boerenvereniging van 1845",
+          "text": "De leraar en Slowaakse nationale voorman Samuel Jurkovič (1796–1873) werkte vanaf 1831 in Sobotište. Op 9 februari 1845 richtte hij daar de Spolek gazdovský v mestečku Sobotište op, de eerste kredietcoöperatie op het Europese vasteland. Twaalf inwoners keurden de statuten goed tijdens een bijeenkomst in het huis van kleermaker en boer Michal Horňák. Leden deden kleine regelmatige stortingen en de vereniging verstrekte leningen tegen zes procent rente om boeren en ambachtslieden eerlijker krediet te bieden en woeker tegen te gaan. De vereniging bestond ongeveer zes jaar, maar werd een voorbeeld voor andere onderlinge hulpverenigingen in Slowakije. Dit moet worden onderscheiden van de eerste coöperatie ter wereld: de consumptiecoöperatie van Rochdale in Engeland was al in 1844 opgericht. De erfenis van Jurkovič wordt tegenwoordig getoond in het coöperatiemuseum in het Nyáry-landhuis."
+        },
+        {
+          "id": "fact_006",
+          "title": "Het Slowaakse Nationale Theater van Nitra en Anička Jurkovičová",
+          "text": "Sobotište was een van de vroege centra van het Slowaakse amateurtoneel. In 1841 richtten Samuel Jurkovič en jonge aanhangers van de Štúr-beweging het Slovenské národné divadlo nitrianske op, dat twee voorstellingen gaf. Een bijzondere figuur was Anna ‘Anička’ Jurkovičová (1824–1905), de dochter van Samuel. In augustus 1841 trad zij als enige vrouw van het gezelschap op en wordt zij beschouwd als de eerste Slowaakse amateuractrice. In een tijd waarin vrouwenrollen gewoonlijk door mannen werden gespeeld, was haar optreden een belangrijke culturele en maatschappelijke doorbraak. Later trouwde zij met de evangelische predikant en nationale activist Jozef Miloslav Hurban; hun huwelijk vond in 1845 plaats in de evangelische kerk van Sobotište. Anička werd geboren in Nové Mesto nad Váhom en is met Sobotište verbonden door haar werk en familiekring, niet door haar geboorteplaats."
+        },
+        {
+          "id": "fact_007",
+          "title": "Het Nyáry-landhuis, adellijke residentie en coöperatiemuseum",
+          "text": "In het centrum van Sobotište staat het Nyáry-landhuis, de voormalige residentie van de familie Nyáry. Het eerste gebouw werd in 1631 opgericht; na een brand in 1645 werd het gedeeltelijk herbouwd en in 1663 hersteld. De renaissance-barokke kern is bewaard gebleven ondanks latere veranderingen aan het interieur en bouwwerkzaamheden in de 20e eeuw. Het landhuis herinnert aan de tijd waarin Sobotište een economisch centrum van het uitgestrekte domein Branč was. Tegenwoordig zijn er het gemeentehuis, een bibliotheek en het Samuel Jurkovič Coöperatiemuseum gevestigd. De tentoonstelling behandelt het begin van de Slowaakse coöperatieve beweging, het leven van de plaatselijke leraar en de regionale geschiedenis. Zo verbindt het gebouw adellijke, gemeentelijke en culturele geschiedenis."
+        },
+        {
+          "id": "fact_008",
+          "title": "Twee historische kerken, katholieke en evangelische tradities",
+          "text": "De religieuze en architectonische geschiedenis van Sobotište komt tot uiting in twee belangrijke kerken. De rooms-katholieke kerk van Maria-Tenhemelopneming werd omstreeks 1635–1637 gebouwd op de fundamenten van een oudere gotische kerk en maakte gebruik van de oorspronkelijke toren; het hoofdaltaar dateert uit de eerste helft van de 18e eeuw. De evangelische kerk van de Augsburgse confessie werd in 1783–1784 gebouwd na het Tolerantie-edict van keizer Jozef II uit 1781, dat niet-katholieke geloofsgemeenschappen in de Habsburgse monarchie beperkte erkenning verleende. Oorspronkelijk had de kerk geen toren; in 1787 wordt een afzonderlijke houten klokkentoren vermeld. De huidige gemetselde toren werd in 1909 voltooid naar een ontwerp van architect Milan Michal Harminc. De kerk is een waardevol voorbeeld van religieuze architectuur uit de tolerantieperiode en van de confessionele verscheidenheid van het dorp."
+        },
+        {
+          "id": "fact_009",
+          "title": "Het observatorium van Sobotište, sterrenkunde in een klein dorp",
+          "text": "Op het terrein van de basisschool in Sobotište werd in 1971–1972 een klein astronomisch observatorium gebouwd, ontworpen door architect Gabriel Gála uit Myjava. Het initiatief kwam van de toenmalige schooldirecteur Ladislav Košinár; ouders, leerlingen en andere vrijwilligers hielpen bij de bouw. Het observatorium begon op 1 september 1972 met zijn werkzaamheden. In de koepel stond oorspronkelijk de eerste telescoop van Sobotište, de MDN 120. Tegenwoordig beschikt het over verschillende telescopen en andere instrumenten om de maan, planeten, meteorenregens en sterbedekkingen te observeren. Het dient ook als ruimte voor lezingen en stimuleert de belangstelling voor sterrenkunde bij kinderen en het publiek. Deze bijzondere plaatselijke onderwijsvoorziening kwam grotendeels tot stand dankzij vrijwilligerswerk."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lipnica–Savarka, de herdenkingslaan met lindebomen van Samuel Jurkovič",
+          "text": "In 1845 plantten Samuel Jurkovič en leden van de Boerenvereniging een lindelaan, Lipnica genaamd, onder de heuvel Savarka aan de zuidoostelijke rand van Sobotište. Volgens gemeentelijke en regionale bronnen werden er ongeveer 160 lindebomen geplant, werd een verwaarloosde bron hersteld en werd het drassige terrein drooggelegd. De bomen hadden ook een symbolische betekenis: zij stonden voor Slavische verbondenheid en afzonderlijke bomen kregen namen van mensen uit de kring rond Štúr en de coöperatie. De bron werd Anička genoemd, naar Anna, de dochter van Jurkovič. Het gebied was van 1992 tot 2012 beschermd; de beschermde status werd later ingetrokken omdat de oorspronkelijk veronderstelde natuurwaarden niet werden bevestigd. De plek heeft niettemin een belangrijke historische en landschappelijke betekenis."
+        },
+        {
+          "id": "fact_011",
+          "title": "De Joodse gemeenschap van Sobotište en de verdwenen synagoge",
+          "text": "De geschiedenis van Sobotište omvat ook een Joodse gemeenschap waarvan de aanwezigheid uiterlijk in de eerste helft van de 18e eeuw is gedocumenteerd. Een gemeentelijk belastingregister uit 1753 telde 32 Joodse families in het marktstadje. Academisch onderzoek naar Joodse architectuur in Slowakije dateert de synagoge van Sobotište op 1763. Na de Tweede Wereldoorlog werd zij verbouwd tot woonhuis en ging vrijwel haar oorspronkelijke uiterlijk verloren. Een ander gebouw in het centrum diende in de eerste helft van de 19e eeuw als rabbijnshuis en beit midrasj, een plaats voor studie en gebed; het complex omvatte ook een ritueel bad en een bakkerij voor matses. Deze plekken herinneren aan de vroegere religieuze en culturele diversiteit van het marktstadje, niet aan een bewaard gebleven openbaar Joods monument."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
