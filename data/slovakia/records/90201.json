@@ -1,4 +1,943 @@
 {
   "postcode": "90201",
-  "status": "placeholder"
+  "city": "Pezinok",
+  "district": null,
+  "county": "Pezinok",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Pezinka – Radničné námestie",
+  "representative_point": {
+    "lat": 48.2861923,
+    "lon": 17.2700042
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pezinok: od banskej osady k slobodnému kráľovskému mestu",
+      "text": "Územie dnešného Pezinka sa v písomných prameňoch prvýkrát objavuje roku 1208 pod názvom terra Bozin. Osada sa rozvíjala vďaka baníctvu a vinohradníctvu; po príchode ďalších nemeckých kolonistov na začiatku 16. storočia získalo vinohradníctvo rozhodujúce postavenie. Dňa 14. júna 1647 udelil kráľ Ferdinand III. Pezinku výsady slobodného kráľovského mesta. V 17. a 18. storočí patril medzi bohaté mestá Uhorska, pričom jeho prosperitu podporoval obchod s vínom. V 19. storočí sa k tradičnému hospodárstvu pridali baníctvo, priemysel a železnica.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.pezinok.sk/stranka/historia"
+      ],
+      "location": {
+        "name": "Historické centrum Pezinka – Radničné námestie",
+        "lat": 48.2861923,
+        "lon": 17.2700042,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://pezinok.oma.sk/u/radnicne-namestie",
+        "address": "Radničné námestie, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Pezinské vinohrady a Stará hora",
+      "text": "Vinohradníctvo patrí k najstarším znakom Pezinka. Prvá písomná správa o vinohradoch v pezinskom chotári pochádza z roku 1295 a trhové privilégiá z roku 1376 umožňovali obchodovať s miestnym vínom aj za hranicami regiónu. Vinohradnícky cech je doložený od roku 1494. Medzi najstaršie vinohradnícke polohy patrí Stará hora, kde sa v 17. storočí nachádzali vinice s názvami Alterperg, Mitterperg, Wimpereg a Grefty. Roku 1890 zasiahla pezinské vinice fyloxéra a spolu s ďalšími chorobami urýchlila premenu tradičného pestovania na modernejšie vinohradníctvo.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "viewpoint_landscape",
+      "sources": [
+        "https://www.pezinok.sk/stranka/vinohradnictvo-vinarstvo"
+      ],
+      "location": {
+        "name": "Stará hora – orientačný bod historickej vinohradníckej polohy",
+        "lat": 48.2991075,
+        "lon": 17.2526477,
+        "type": "agricultural_landscape",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n26814888",
+        "address": "Rozálka, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Pezinský vodný hrad a neskorší zámok",
+      "text": "Najstaršou stavebnou dominantou Pezinka je stredoveký hrad, ktorého počiatky sa kladú do 13. až začiatku 14. storočia. Pôvodne išlo o nížinný vodný hrad, ktorý chránil sídlo a majetky miestnych grófov. V 17. storočí získal renesančnú podobu a v rokoch 1718 až 1814 ho postupne prestavali na uzavretý zámocký areál, čím stratil pôvodný pevnostný charakter. V blízkosti zámku vznikol park s rybníkom a vzácnymi drevinami.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "castle",
+      "sources": [
+        "https://www.pezinok.sk/stranka/historia",
+        "https://www.tik.sk/region/okres-pezinok/pezinok/"
+      ],
+      "location": {
+        "name": "Pezinský zámok",
+        "lat": 48.2908443,
+        "lon": 17.2678792,
+        "type": "castle",
+        "accuracy": "approximate",
+        "source": "https://www.tik.sk/region/okres-pezinok/pezinok/",
+        "address": "Mladoboleslavská 5, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Renesančná radnica a mestské hradby Pezinka",
+      "text": "Historické jadro Pezinka si zachovalo pravidelnú sieť ulíc, meštianske a vinohradnícke domy aj zvyšky opevnenia. Mestské hradby vznikali v rokoch 1615 až 1643; múr s ochodzou, strieľňami a baštami vymedzoval priestor slobodného kráľovského mesta. Radnica vznikla približne okolo roku 1600 prestavbou dvoch starších gotických objektov. Jej renesančné dispozičné riešenie patrí k pozoruhodným príkladom svojho druhu na Slovensku. Po požiaroch bola opakovane prestavaná; posledná veľká prestavba sa spája s rokom 1834. Historické jadro bolo vyhlásené za pamiatkovú zónu v roku 2018.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.culture.gov.sk/wp-content/uploads/2020/02/2018-06-25_2018_Zona_Pezinok_RH.pdf",
+        "https://www.pamiatkynaslovensku.sk/pezinok-radnica"
+      ],
+      "location": {
+        "name": "Radnica a Radničné námestie v Pezinku",
+        "lat": 48.286588,
+        "lon": 17.270513,
+        "type": "historic_square",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/pezinok-radnica",
+        "address": "Radničné námestie, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Gotický farský kostol Nanebovzatia Panny Márie",
+      "text": "Pezinský farský kostol Nanebovzatia Panny Márie patrí k najstarším sakrálnym stavbám mesta. Jeho počiatky siahajú do obdobia ranej gotiky, približne od poslednej tretiny 13. do prvej tretiny 14. storočia; prvá písomná zmienka o pezinskej fare pochádza z rokov 1317 až 1320. V interiéri sa zachoval epitaf grófa Juraja z roku 1426 a renesančná kazateľnica z roku 1523. Súčasťou areálu je Kaplnka sv. Anny, postavená roku 1609 ako pohrebná kaplnka palatína Štefana Illésházyho. Pod kostolom a kaplnkou sa nachádza viacero krýpt. Počas reformácie kostol užívali evanjelici; katolíkom bol vrátený roku 1628.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://pezinok.fara.sk/kostoly/farsky-kostol/",
+        "https://trnava-vuc.sk/wp-content/uploads/2022/05/4762-1-sakralne-cykloturisticke-trasy-svk.pdf"
+      ],
+      "location": {
+        "name": "Farský kostol Nanebovzatia Panny Márie",
+        "lat": 48.2888125,
+        "lon": 17.26846,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://trnava-vuc.sk/wp-content/uploads/2022/05/4762-1-sakralne-cykloturisticke-trasy-svk.pdf",
+        "address": "Farská 1, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Židovská komunita, synagóga a cintoríny v Pezinku",
+      "text": "Židovská komunita bola súčasťou Pezinka najmenej od prvej tretiny 16. storočia a od konca 17. storočia je jej prítomnosť doložená takmer nepretržite až do polovice 20. storočia. V 19. storočí si vybudovala synagógu v maursko-byzantskom štýle na dolnom konci Šancovej ulice; slúžila približne sedem desaťročí. Po holokauste sa obec už neobnovila a mesto nechalo synagógu v roku 1958 zbúrať. Nový židovský cintorín vznikol v roku 1858 pri ceste do Viničného a používal sa do konca druhej svetovej vojny. Zachovaná časť náhrobkov s nemeckými a hebrejskými nápismi je jedným z posledných viditeľných svedectiev niekdajšej komunity.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "historical_monument",
+      "sources": [
+        "https://www.pezinok.sk/novinka/7717/9-septembra-si-na-slovensku-pripominame-obete-holokaustu-a-rasoveho-nasilia",
+        "https://www.pamiatkynaslovensku.sk/pezinok-zidovsky-cintorin"
+      ],
+      "location": {
+        "name": "Nový židovský cintorín v Pezinku",
+        "lat": 48.289182,
+        "lon": 17.276862,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/pezinok-zidovsky-cintorin",
+        "address": "Slnečná 8, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Malokarpatské múzeum a zbierka vinohradníckych lisov",
+      "text": "Malokarpatské múzeum sídli v historickom renesančnom meštianskom dome zo 17. storočia v centre Pezinka. Zameriava sa na dejiny vinohradníctva a vinárstva v Malých Karpatoch, ktoré po stáročia formovali hospodárstvo aj podobu krajiny. Stále expozície približujú príbeh vína a vývoj vinohradníctva; múzeum uchováva rozsiahlu kolekciu historických vinohradníckych lisov, ktorú odborné materiály označujú za najväčšiu v Európe. K najstarším exponátom patrí kladový lis z roku 1608. Výklad dopĺňajú historické predmety, multimediálne prezentácie a interaktívne prvky.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "museum",
+      "sources": [
+        "https://www.muzeumpezinok.sk/",
+        "https://www.muzeumpezinok.sk/zazi-s-nami/muzeum-pezinok/"
+      ],
+      "location": {
+        "name": "Malokarpatské múzeum v Pezinku",
+        "lat": 48.28704,
+        "lon": 17.270728,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://bratislavaregion.travel/Static/Blog_att/2128/4c9c885412f5c8f4b5e0c310959f2af1.pdf",
+        "address": "M. R. Štefánika 4, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Schaubmarov mlyn v Cajle",
+      "text": "Schaubmarov mlyn v pezinskej miestnej časti Cajla dal v roku 1767 postaviť rod Pálffyovcov. Od roku 1857 ho vlastnili štyri generácie mlynárskej rodiny Schaubmarovcov, ktorá pochádzala z Bavorska. Pôvodne barokový potočný mlyn si zachoval vodné koleso a technológiu valcového mlyna z roku 1913. Slovenská národná galéria objekt získala v roku 1973 a po rekonštrukcii v ňom roku 1997 otvorila Galériu insitného umenia. Spojenie historickej mlynárskej techniky s výstavami slovenského a zahraničného insitného umenia dáva miestu osobitný kultúrny význam.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.pezinok.sk/registre/625/schaubmarov-mlyn-slovenska-narodna-galeria",
+        "https://www.sng.sk/sk/schaubmarov-mlyn-pezinok"
+      ],
+      "location": {
+        "name": "Schaubmarov mlyn",
+        "lat": 48.3111959,
+        "lon": 17.2644434,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://www.pezinok.sk/registre/625/schaubmarov-mlyn-slovenska-narodna-galeria",
+        "address": "Cajlanská 255, 902 01 Pezinok-Cajla, Slovensko"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Zlato, pyrit a antimón: banícka krajina nad Pezinkom",
+      "text": "Malé Karpaty nad Pezinkom boli významnou baníckou oblasťou. Prvé správy o miestnych baniach siahajú na začiatok 14. storočia; dobývalo sa tu zlato, pyrit a najmä antimón. Ťažba prechádzala obdobiami rozmachu a útlmu, no bane na antimón a pyrit zostali súčasťou regionálneho hospodárstva aj v 20. storočí. Závod Rudné bane Pezinok na Kolárskom vrchu ukončil prevádzku v roku 1992. Banský náučný chodník dnes približuje štôlne, banské polia a stredovekú banícku osadu Zumberg, ktorá vznikla v druhej polovici 13. storočia.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://www.pezinok.sk/novinka/6824/banictvo-v-pezinku-pripomenme-si-na-sviatok-sv-barbory-tuto-vyznamnu-tradiciu",
+        "https://www.pezinok.sk/novinka/6630/vydajte-sa-s-nami-spoznat-okolie-pezinka-prostrednictvom-naucnych-chodnikov",
+        "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/RB_Pezinok.pdf"
+      ],
+      "location": {
+        "name": "Areál Antimónovej štôlne – orientačný bod banskej lokality",
+        "lat": 48.3198516,
+        "lon": 17.2267662,
+        "type": "historic_mine",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n4361675573",
+        "address": "902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Eugen Suchoň – skladateľ narodený v Pezinku",
+      "text": "Eugen Suchoň (1908–1993) sa narodil 25. septembra 1908 v Pezinku na Farskej ulici v rodine učiteľa, kostolného speváka a organistu Ladislava Suchoňa. Vyrástol v meste a stal sa jednou z najvýznamnejších osobností modernej slovenskej hudby. Je autorom opery Krútňava, považovanej za prvú slovenskú národnú operu, a opery Svätopluk. Na mieste rodného domu, ktorý už nestojí, odhalilo mesto v roku 2024 pamätnú tabuľu a lavičku.",
+      "category": "people",
+      "priority": "A",
+      "map_category": "personality",
+      "sources": [
+        "https://www.pezinok.sk/novinka/7803/pocta-eugenovi-suchonovi-na-farskej-ulici-vyznacili-miesto-kde-stal-jeho-rodny-dom-miesto-zdobi-pamatna-tabula"
+      ],
+      "location": {
+        "name": "Pamätná tabuľa na mieste rodného domu Eugena Suchoňa",
+        "lat": 48.2884,
+        "lon": 17.2687,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.pezinok.sk/novinka/7803/pocta-eugenovi-suchonovi-na-farskej-ulici-vyznacili-miesto-kde-stal-jeho-rodny-dom-miesto-zdobi-pamatna-tabula",
+        "address": "Farská ulica, 902 01 Pezinok, Slovensko"
+      }
+    },
+    {
+      "id": "fact_011",
+      "title": "Vinosady: dve historické obce a stopy Veľkej Moravy",
+      "text": "Dnešné Vinosady vznikli spojením Veľkého a Malého Tŕnia, ktorých spoločné územie sa v písomných prameňoch spomína už roku 1208 ako Tŕnie. Obe obce ležia na úpätí Malých Karpát a ich obyvatelia sa po stáročia venovali poľnohospodárstvu a vinohradníctvu. Archeologické nálezy vo Veľkom Tŕní dokladajú staršie slovanské osídlenie z obdobia Veľkej Moravy a zvyšky studne z 9. storočia. Malé Tŕnie má takisto nálezy veľkomoravského sídliska. Obce sa spojili v roku 1964; názov Vinosady odkazuje na vinohradnícky charakter krajiny.",
+      "category": "history",
+      "priority": "B",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_06437868-acac-47ab-bb01-2325969ab929",
+        "https://www.vinosady.sk/historia-obce.html"
+      ],
+      "location": {
+        "name": "Vinosady – orientačný bod historických sídel Veľkého a Malého Tŕnia",
+        "lat": 48.311,
+        "lon": 17.291,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_06437868-acac-47ab-bb01-2325969ab929",
+        "address": "Vinosady, 902 01, Slovensko"
+      }
+    },
+    {
+      "id": "fact_012",
+      "title": "Pálffyho kaštieľ v Malom Tŕní",
+      "text": "V miestnej časti Malé Tŕnie vo Vinosadoch stojí barokový Pálffyho kaštieľ, ktorý dal v roku 1776 vybudovať šľachtický rod. V roku 1884 prešiel prestavbou, ktorá zmenila jeho podobu. Dejiny sídla odrážajú meniace sa vlastnícke pomery Malého Tŕnia: majetky tu mali rody Serédyovcov a Ostrošičovcov, neskôr sa obec dostala do majetkového okruhu Pálffyovcov a ďalších vlastníkov. Kaštieľ s parkom je evidovaný ako národná kultúrna pamiatka. Objekt je v súkromnom vlastníctve, preto jeho pamiatkový význam nemožno zamieňať s verejnou prístupnosťou.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/kastiel-vinosady-male-trnie",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_06437868-acac-47ab-bb01-2325969ab929"
+      ],
+      "location": {
+        "name": "Pálffyho kaštieľ v Malom Tŕní",
+        "lat": 48.3154676,
+        "lon": 17.2948942,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kastiel-vinosady-male-trnie",
+        "address": "Modranská 97, 902 01 Vinosady – Malé Tŕnie, Slovensko"
+      }
+    },
+    {
+      "id": "fact_013",
+      "title": "Kostol svätého Martina vo Veľkom Tŕní",
+      "text": "Kostol svätého Martina je historickou dominantou Veľkého Tŕnia, jednej z dvoch obcí, z ktorých vznikli dnešné Vinosady. Miestna cirkevná tradícia siaha do stredoveku: roku 1377 tu pôsobil farár Henrich, syn Štefana z Vestfálska, ktorý vytvoril vzácny iluminovaný misál pre bratislavského kanonika. Súčasný kostol je výsledkom neskorších stavebných etáp a obnov; obecné materiály spájajú jeho podobu s prestavbami staršieho chrámu a opravami v rokoch 1935 až 1936. Zasvätenie svätému Martinovi pripomína dlhé kresťanské dejiny vinohradníckej obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.vinosady.sk/kostol-sv-martina.html",
+        "https://www.pamiatkynaslovensku.sk/vinosady-kostol-sv-martina",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_06437868-acac-47ab-bb01-2325969ab929"
+      ],
+      "location": {
+        "name": "Kostol svätého Martina vo Vinosadoch",
+        "lat": 48.309201,
+        "lon": 17.288462,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/vinosady-kostol-sv-martina",
+        "address": "Pezinská 151, 902 01 Vinosady, Slovensko"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenskej pošty; geografické použitie kódu 902 01 je podopreté adresami v Pezinku aj vo Vinosadoch a regionálnym zoznamom PSČ.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiálna adresa obecného úradu Vinosady, Pezinská 95, 902 01 Vinosady, potvrdzuje, že PSČ 902 01 zahŕňa aj samostatnú obec Vinosady; adresa Slovenskej národnej galérie v Cajle a Malokarpatského múzea potvrdzujú fyzické lokality v Pezinku. Reprezentatívnou obcou je Pezinok; výskum zahŕňa aj Vinosady, najmä Veľké a Malé Tŕnie. Netvrdí sa presný polygon PSČ ani úplné pokrytie všetkých častí oboch obcí."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "SHMÚ – zoznam PSČ, región Pezinok",
+      "url": "https://www.shmu.sk/File/virgo/Zoznam_PSC.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Vinosady – adresa obecného úradu",
+      "url": "https://www.vinosady.sk/kontakty.html?usfd=4",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Pezinok – História",
+      "url": "https://www.pezinok.sk/stranka/historia",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Radničné námestie",
+      "url": "https://pezinok.oma.sk/u/radnicne-namestie",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Pezinok – Vinohradníctvo a vinárstvo",
+      "url": "https://www.pezinok.sk/stranka/vinohradnictvo-vinarstvo",
+      "type": "official"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Stará hora",
+      "url": "https://poi.oma.sk/n26814888",
+      "type": "other"
+    },
+    {
+      "title": "Malokarpatská turistická informačná kancelária – Pezinok",
+      "url": "https://www.tik.sk/region/okres-pezinok/pezinok/",
+      "type": "regional"
+    },
+    {
+      "title": "Ministerstvo kultúry SR – Pamiatková zóna Pezinok",
+      "url": "https://www.culture.gov.sk/wp-content/uploads/2020/02/2018-06-25_2018_Zona_Pezinok_RH.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Radnica v Pezinku",
+      "url": "https://www.pamiatkynaslovensku.sk/pezinok-radnica",
+      "type": "specialist"
+    },
+    {
+      "title": "Farnosť Pezinok – Farský kostol Nanebovzatia Panny Márie",
+      "url": "https://pezinok.fara.sk/kostoly/farsky-kostol/",
+      "type": "official"
+    },
+    {
+      "title": "Trnavský samosprávny kraj – sakrálne stavby a súradnice",
+      "url": "https://trnava-vuc.sk/wp-content/uploads/2022/05/4762-1-sakralne-cykloturisticke-trasy-svk.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Pezinok – židovská komunita a synagóga",
+      "url": "https://www.pezinok.sk/novinka/7717/9-septembra-si-na-slovensku-pripominame-obete-holokaustu-a-rasoveho-nasilia",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – židovský cintorín v Pezinku",
+      "url": "https://www.pamiatkynaslovensku.sk/pezinok-zidovsky-cintorin",
+      "type": "specialist"
+    },
+    {
+      "title": "Malokarpatské múzeum – oficiálna stránka",
+      "url": "https://www.muzeumpezinok.sk/",
+      "type": "museum"
+    },
+    {
+      "title": "Malokarpatské múzeum – stála expozícia",
+      "url": "https://www.muzeumpezinok.sk/zazi-s-nami/muzeum-pezinok/",
+      "type": "museum"
+    },
+    {
+      "title": "Bratislavský kraj – turistická mapa múzea",
+      "url": "https://bratislavaregion.travel/Static/Blog_att/2128/4c9c885412f5c8f4b5e0c310959f2af1.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Pezinok – Schaubmarov mlyn",
+      "url": "https://www.pezinok.sk/registre/625/schaubmarov-mlyn-slovenska-narodna-galeria",
+      "type": "official"
+    },
+    {
+      "title": "Slovenská národná galéria – Schaubmarov mlyn",
+      "url": "https://www.sng.sk/sk/schaubmarov-mlyn-pezinok",
+      "type": "museum"
+    },
+    {
+      "title": "Mesto Pezinok – baníctvo",
+      "url": "https://www.pezinok.sk/novinka/6824/banictvo-v-pezinku-pripomenme-si-na-sviatok-sv-barbory-tuto-vyznamnu-tradiciu",
+      "type": "official"
+    },
+    {
+      "title": "Mesto Pezinok – banský náučný chodník",
+      "url": "https://www.pezinok.sk/novinka/6630/vydajte-sa-s-nami-spoznat-okolie-pezinka-prostrednictvom-naucnych-chodnikov",
+      "type": "official"
+    },
+    {
+      "title": "Štátny ústredný banský archív – Rudné bane Pezinok",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/sba/doc/RB_Pezinok.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Antimónová štôlňa",
+      "url": "https://poi.oma.sk/n4361675573",
+      "type": "other"
+    },
+    {
+      "title": "Mesto Pezinok – pamätná tabuľa Eugena Suchoňa",
+      "url": "https://www.pezinok.sk/novinka/7803/pocta-eugenovi-suchonovi-na-farskej-ulici-vyznacili-miesto-kde-stal-jeho-rodny-dom-miesto-zdobi-pamatna-tabula",
+      "type": "official"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Vinosady",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_06437868-acac-47ab-bb01-2325969ab929",
+      "type": "official"
+    },
+    {
+      "title": "Obec Vinosady – história obce",
+      "url": "https://www.vinosady.sk/historia-obce.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Pálffyho kaštieľ",
+      "url": "https://www.pamiatkynaslovensku.sk/kastiel-vinosady-male-trnie",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Vinosady – Kostol sv. Martina",
+      "url": "https://www.vinosady.sk/kostol-sv-martina.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kostol sv. Martina",
+      "url": "https://www.pamiatkynaslovensku.sk/vinosady-kostol-sv-martina",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Pezinka – Radničné námestie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pezinok: od banskej osady k slobodnému kráľovskému mestu",
+          "text": "Územie dnešného Pezinka sa v písomných prameňoch prvýkrát objavuje roku 1208 pod názvom terra Bozin. Osada sa rozvíjala vďaka baníctvu a vinohradníctvu; po príchode ďalších nemeckých kolonistov na začiatku 16. storočia získalo vinohradníctvo rozhodujúce postavenie. Dňa 14. júna 1647 udelil kráľ Ferdinand III. Pezinku výsady slobodného kráľovského mesta. V 17. a 18. storočí patril medzi bohaté mestá Uhorska, pričom jeho prosperitu podporoval obchod s vínom. V 19. storočí sa k tradičnému hospodárstvu pridali baníctvo, priemysel a železnica."
+        },
+        {
+          "id": "fact_002",
+          "title": "Pezinské vinohrady a Stará hora",
+          "text": "Vinohradníctvo patrí k najstarším znakom Pezinka. Prvá písomná správa o vinohradoch v pezinskom chotári pochádza z roku 1295 a trhové privilégiá z roku 1376 umožňovali obchodovať s miestnym vínom aj za hranicami regiónu. Vinohradnícky cech je doložený od roku 1494. Medzi najstaršie vinohradnícke polohy patrí Stará hora, kde sa v 17. storočí nachádzali vinice s názvami Alterperg, Mitterperg, Wimpereg a Grefty. Roku 1890 zasiahla pezinské vinice fyloxéra a spolu s ďalšími chorobami urýchlila premenu tradičného pestovania na modernejšie vinohradníctvo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Pezinský vodný hrad a neskorší zámok",
+          "text": "Najstaršou stavebnou dominantou Pezinka je stredoveký hrad, ktorého počiatky sa kladú do 13. až začiatku 14. storočia. Pôvodne išlo o nížinný vodný hrad, ktorý chránil sídlo a majetky miestnych grófov. V 17. storočí získal renesančnú podobu a v rokoch 1718 až 1814 ho postupne prestavali na uzavretý zámocký areál, čím stratil pôvodný pevnostný charakter. V blízkosti zámku vznikol park s rybníkom a vzácnymi drevinami."
+        },
+        {
+          "id": "fact_004",
+          "title": "Renesančná radnica a mestské hradby Pezinka",
+          "text": "Historické jadro Pezinka si zachovalo pravidelnú sieť ulíc, meštianske a vinohradnícke domy aj zvyšky opevnenia. Mestské hradby vznikali v rokoch 1615 až 1643; múr s ochodzou, strieľňami a baštami vymedzoval priestor slobodného kráľovského mesta. Radnica vznikla približne okolo roku 1600 prestavbou dvoch starších gotických objektov. Jej renesančné dispozičné riešenie patrí k pozoruhodným príkladom svojho druhu na Slovensku. Po požiaroch bola opakovane prestavaná; posledná veľká prestavba sa spája s rokom 1834. Historické jadro bolo vyhlásené za pamiatkovú zónu v roku 2018."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gotický farský kostol Nanebovzatia Panny Márie",
+          "text": "Pezinský farský kostol Nanebovzatia Panny Márie patrí k najstarším sakrálnym stavbám mesta. Jeho počiatky siahajú do obdobia ranej gotiky, približne od poslednej tretiny 13. do prvej tretiny 14. storočia; prvá písomná zmienka o pezinskej fare pochádza z rokov 1317 až 1320. V interiéri sa zachoval epitaf grófa Juraja z roku 1426 a renesančná kazateľnica z roku 1523. Súčasťou areálu je Kaplnka sv. Anny, postavená roku 1609 ako pohrebná kaplnka palatína Štefana Illésházyho. Pod kostolom a kaplnkou sa nachádza viacero krýpt. Počas reformácie kostol užívali evanjelici; katolíkom bol vrátený roku 1628."
+        },
+        {
+          "id": "fact_006",
+          "title": "Židovská komunita, synagóga a cintoríny v Pezinku",
+          "text": "Židovská komunita bola súčasťou Pezinka najmenej od prvej tretiny 16. storočia a od konca 17. storočia je jej prítomnosť doložená takmer nepretržite až do polovice 20. storočia. V 19. storočí si vybudovala synagógu v maursko-byzantskom štýle na dolnom konci Šancovej ulice; slúžila približne sedem desaťročí. Po holokauste sa obec už neobnovila a mesto nechalo synagógu v roku 1958 zbúrať. Nový židovský cintorín vznikol v roku 1858 pri ceste do Viničného a používal sa do konca druhej svetovej vojny. Zachovaná časť náhrobkov s nemeckými a hebrejskými nápismi je jedným z posledných viditeľných svedectiev niekdajšej komunity."
+        },
+        {
+          "id": "fact_007",
+          "title": "Malokarpatské múzeum a zbierka vinohradníckych lisov",
+          "text": "Malokarpatské múzeum sídli v historickom renesančnom meštianskom dome zo 17. storočia v centre Pezinka. Zameriava sa na dejiny vinohradníctva a vinárstva v Malých Karpatoch, ktoré po stáročia formovali hospodárstvo aj podobu krajiny. Stále expozície približujú príbeh vína a vývoj vinohradníctva; múzeum uchováva rozsiahlu kolekciu historických vinohradníckych lisov, ktorú odborné materiály označujú za najväčšiu v Európe. K najstarším exponátom patrí kladový lis z roku 1608. Výklad dopĺňajú historické predmety, multimediálne prezentácie a interaktívne prvky."
+        },
+        {
+          "id": "fact_008",
+          "title": "Schaubmarov mlyn v Cajle",
+          "text": "Schaubmarov mlyn v pezinskej miestnej časti Cajla dal v roku 1767 postaviť rod Pálffyovcov. Od roku 1857 ho vlastnili štyri generácie mlynárskej rodiny Schaubmarovcov, ktorá pochádzala z Bavorska. Pôvodne barokový potočný mlyn si zachoval vodné koleso a technológiu valcového mlyna z roku 1913. Slovenská národná galéria objekt získala v roku 1973 a po rekonštrukcii v ňom roku 1997 otvorila Galériu insitného umenia. Spojenie historickej mlynárskej techniky s výstavami slovenského a zahraničného insitného umenia dáva miestu osobitný kultúrny význam."
+        },
+        {
+          "id": "fact_009",
+          "title": "Zlato, pyrit a antimón: banícka krajina nad Pezinkom",
+          "text": "Malé Karpaty nad Pezinkom boli významnou baníckou oblasťou. Prvé správy o miestnych baniach siahajú na začiatok 14. storočia; dobývalo sa tu zlato, pyrit a najmä antimón. Ťažba prechádzala obdobiami rozmachu a útlmu, no bane na antimón a pyrit zostali súčasťou regionálneho hospodárstva aj v 20. storočí. Závod Rudné bane Pezinok na Kolárskom vrchu ukončil prevádzku v roku 1992. Banský náučný chodník dnes približuje štôlne, banské polia a stredovekú banícku osadu Zumberg, ktorá vznikla v druhej polovici 13. storočia."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň – skladateľ narodený v Pezinku",
+          "text": "Eugen Suchoň (1908–1993) sa narodil 25. septembra 1908 v Pezinku na Farskej ulici v rodine učiteľa, kostolného speváka a organistu Ladislava Suchoňa. Vyrástol v meste a stal sa jednou z najvýznamnejších osobností modernej slovenskej hudby. Je autorom opery Krútňava, považovanej za prvú slovenskú národnú operu, a opery Svätopluk. Na mieste rodného domu, ktorý už nestojí, odhalilo mesto v roku 2024 pamätnú tabuľu a lavičku."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady: dve historické obce a stopy Veľkej Moravy",
+          "text": "Dnešné Vinosady vznikli spojením Veľkého a Malého Tŕnia, ktorých spoločné územie sa v písomných prameňoch spomína už roku 1208 ako Tŕnie. Obe obce ležia na úpätí Malých Karpát a ich obyvatelia sa po stáročia venovali poľnohospodárstvu a vinohradníctvu. Archeologické nálezy vo Veľkom Tŕní dokladajú staršie slovanské osídlenie z obdobia Veľkej Moravy a zvyšky studne z 9. storočia. Malé Tŕnie má takisto nálezy veľkomoravského sídliska. Obce sa spojili v roku 1964; názov Vinosady odkazuje na vinohradnícky charakter krajiny."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pálffyho kaštieľ v Malom Tŕní",
+          "text": "V miestnej časti Malé Tŕnie vo Vinosadoch stojí barokový Pálffyho kaštieľ, ktorý dal v roku 1776 vybudovať šľachtický rod. V roku 1884 prešiel prestavbou, ktorá zmenila jeho podobu. Dejiny sídla odrážajú meniace sa vlastnícke pomery Malého Tŕnia: majetky tu mali rody Serédyovcov a Ostrošičovcov, neskôr sa obec dostala do majetkového okruhu Pálffyovcov a ďalších vlastníkov. Kaštieľ s parkom je evidovaný ako národná kultúrna pamiatka. Objekt je v súkromnom vlastníctve, preto jeho pamiatkový význam nemožno zamieňať s verejnou prístupnosťou."
+        },
+        {
+          "id": "fact_013",
+          "title": "Kostol svätého Martina vo Veľkom Tŕní",
+          "text": "Kostol svätého Martina je historickou dominantou Veľkého Tŕnia, jednej z dvoch obcí, z ktorých vznikli dnešné Vinosady. Miestna cirkevná tradícia siaha do stredoveku: roku 1377 tu pôsobil farár Henrich, syn Štefana z Vestfálska, ktorý vytvoril vzácny iluminovaný misál pre bratislavského kanonika. Súčasný kostol je výsledkom neskorších stavebných etáp a obnov; obecné materiály spájajú jeho podobu s prestavbami staršieho chrámu a opravami v rokoch 1935 až 1936. Zasvätenie svätému Martinovi pripomína dlhé kresťanské dejiny vinohradníckej obce."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historisches Zentrum von Pezinok – Rathausplatz",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von der Bergbausiedlung zur königlichen Freistadt",
+          "text": "1208 ist Pezinok erstmals als terra Bozin erwähnt. Bergbau und Weinbau prägten die Entwicklung; 1647 verlieh Ferdinand III. die Privilegien einer königlichen Freistadt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Weinberge und Stará hora",
+          "text": "Weinbau prägt Pezinok seit Jahrhunderten; Weinberge sind 1295, eine Winzerzunft seit 1494 belegt. Die Reblaus erreichte die Weinberge 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Wasserburg und Schloss",
+          "text": "Die mittelalterliche Burg entstand wohl im 13. oder frühen 14. Jahrhundert als Wasserburg. Zwischen 1718 und 1814 wurde sie zum Schloss umgebaut."
+        },
+        {
+          "id": "fact_004",
+          "title": "Rathaus und Stadtmauern",
+          "text": "Die Stadtmauer entstand 1615–1643; das Rathaus wurde um 1600 aus zwei gotischen Gebäuden umgestaltet. Die Altstadt ist seit 2018 Denkmalzone."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gotische Pfarrkirche",
+          "text": "Die frühgotische Kirche entstand etwa im 13./14. Jahrhundert. Sie bewahrt ein Epitaph von 1426 und eine Kanzel von 1523."
+        },
+        {
+          "id": "fact_006",
+          "title": "Jüdische Gemeinde und Friedhof",
+          "text": "Die jüdische Gemeinde ist seit dem 16. Jahrhundert belegt. Die Synagoge wurde 1958 abgerissen; der neue Friedhof entstand 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kleinkarpatenmuseum",
+          "text": "Das Museum zeigt die Weinbaugeschichte der Kleinen Karpaten. Zu den ältesten Exponaten gehört eine Weinpresse von 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Schaubmar-Mühle",
+          "text": "Die Pálffy ließen die Mühle 1767 errichten; ab 1857 gehörte sie der Familie Schaubmar. Seit 1997 befindet sich dort eine Galerie für naive Kunst."
+        },
+        {
+          "id": "fact_009",
+          "title": "Gold, Pyrit und Antimon",
+          "text": "Bei Pezinok wurden Gold, Pyrit und Antimon abgebaut. Der Bergbaubetrieb am Kolársky vrch endete 1992; der Lehrpfad führt auch nach Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň wurde 1908 in Pezinok geboren und wurde ein bedeutender slowakischer Komponist. 2024 wurde am Ort seines Geburtshauses eine Gedenktafel enthüllt."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady und Großmähren",
+          "text": "Vinosady entstand aus Veľké Tŕnie und Malé Tŕnie, die 1208 erwähnt werden. Funde belegen großmährische Besiedlung und einen Brunnen aus dem 9. Jahrhundert."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pálffy-Schloss in Malé Tŕnie",
+          "text": "Das Barockschloss wurde 1776 errichtet und 1884 umgebaut. Es ist ein nationales Kulturdenkmal in Privatbesitz."
+        },
+        {
+          "id": "fact_013",
+          "title": "Martinskirche in Veľké Tŕnie",
+          "text": "Die Kirche ist ein historisches Wahrzeichen. Ein Pfarrer ist 1377 belegt; das Gebäude wurde später verändert und 1935–1936 renoviert."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Pezinok historic centre – Town Hall Square",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From mining settlement to free royal town",
+          "text": "Pezinok is first recorded in 1208 as terra Bozin. Mining and viticulture shaped its growth; Ferdinand III granted it free royal town privileges in 1647."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vineyards and Stará hora",
+          "text": "Viticulture has shaped Pezinok for centuries; vineyards are documented from 1295 and a vintners’ guild from 1494. Phylloxera reached local vines in 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Water castle and château",
+          "text": "The medieval castle probably originated in the 13th or early 14th century as a water castle. It was converted into a château between 1718 and 1814."
+        },
+        {
+          "id": "fact_004",
+          "title": "Town hall and walls",
+          "text": "The town walls were built between 1615 and 1643; the town hall was formed around 1600 from two Gothic buildings. The old centre became a conservation zone in 2018."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gothic parish church",
+          "text": "The early Gothic church dates from around the 13th–14th centuries. It preserves a 1426 epitaph and a 1523 pulpit."
+        },
+        {
+          "id": "fact_006",
+          "title": "Jewish community and cemetery",
+          "text": "Pezinok’s Jewish community is documented from the 16th century. The synagogue was demolished in 1958; the new cemetery dates from 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Little Carpathian Museum",
+          "text": "The museum presents the wine history of the Little Carpathians. One of its oldest exhibits is a wine press dating from 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Schaubmar Mill",
+          "text": "The Pálffy family built the mill in 1767; the Schaubmar family owned it from 1857. A naive-art gallery has been based there since 1997."
+        },
+        {
+          "id": "fact_009",
+          "title": "Gold, pyrite and antimony",
+          "text": "Gold, pyrite and antimony were mined above Pezinok. The Kolársky vrch operation closed in 1992; the trail also visits Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň was born in Pezinok in 1908 and became a leading Slovak composer. A memorial was unveiled at his birthplace in 2024."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady and Great Moravia",
+          "text": "Vinosady grew from Veľké Tŕnie and Malé Tŕnie, recorded in 1208. Archaeology reveals Great Moravian settlement and a 9th-century well."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pálffy Manor in Malé Tŕnie",
+          "text": "The Baroque manor was built in 1776 and remodelled in 1884. It is a national cultural monument in private ownership."
+        },
+        {
+          "id": "fact_013",
+          "title": "St Martin’s Church in Veľké Tŕnie",
+          "text": "The church is a historic landmark. A parish priest is recorded in 1377; the building was later altered and repaired in 1935–1936."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Pezinok – Plaza del Ayuntamiento",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De aldea minera a ciudad real libre",
+          "text": "Pezinok aparece en 1208 como terra Bozin. La minería y la viticultura impulsaron su desarrollo; Fernando III le concedió privilegios de ciudad real libre en 1647."
+        },
+        {
+          "id": "fact_002",
+          "title": "Viñedos y Stará hora",
+          "text": "La viticultura define Pezinok desde hace siglos; hay viñedos documentados desde 1295 y un gremio desde 1494. La filoxera llegó en 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Castillo de agua y palacio",
+          "text": "El castillo medieval nació probablemente en los siglos XIII o XIV como fortaleza de agua. Fue transformado en palacio entre 1718 y 1814."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ayuntamiento y murallas",
+          "text": "Las murallas se construyeron entre 1615 y 1643 y el ayuntamiento se formó hacia 1600 a partir de dos edificios góticos. El centro está protegido desde 2018."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia parroquial gótica",
+          "text": "La iglesia gótica temprana data aproximadamente de los siglos XIII–XIV. Conserva un epitafio de 1426 y un púlpito de 1523."
+        },
+        {
+          "id": "fact_006",
+          "title": "Comunidad judía y cementerio",
+          "text": "La comunidad judía está documentada desde el siglo XVI. La sinagoga fue demolida en 1958; el nuevo cementerio data de 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Museo de los Pequeños Cárpatos",
+          "text": "El museo presenta la historia del vino de los Pequeños Cárpatos. Entre sus piezas antiguas hay una prensa de 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Molino Schaubmar",
+          "text": "La familia Pálffy construyó el molino en 1767; desde 1857 perteneció a los Schaubmar. Alberga una galería de arte naíf desde 1997."
+        },
+        {
+          "id": "fact_009",
+          "title": "Oro, pirita y antimonio",
+          "text": "Sobre Pezinok se extrajeron oro, pirita y antimonio. La explotación de Kolársky vrch cerró en 1992; el sendero pasa por Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň nació en Pezinok en 1908 y fue un destacado compositor eslovaco. En 2024 se inauguró un memorial en su casa natal."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady y la Gran Moravia",
+          "text": "Vinosady nació de Veľké Tŕnie y Malé Tŕnie, documentados en 1208. Hay restos de asentamientos de la Gran Moravia y un pozo del siglo IX."
+        },
+        {
+          "id": "fact_012",
+          "title": "Palacio Pálffy de Malé Tŕnie",
+          "text": "El palacio barroco se construyó en 1776 y se reformó en 1884. Es monumento nacional y propiedad privada."
+        },
+        {
+          "id": "fact_013",
+          "title": "Iglesia de San Martín",
+          "text": "La iglesia es un hito histórico. Hay constancia de un sacerdote en 1377; el edificio fue reformado después y reparado en 1935–1936."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Pezinok – place de l’Hôtel de Ville",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Du village minier à la ville royale libre",
+          "text": "Pezinok est mentionnée en 1208 sous le nom de terra Bozin. Les mines et la viticulture ont favorisé son essor ; Ferdinand III lui accorda les privilèges de ville royale libre en 1647."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vignobles et Stará hora",
+          "text": "La viticulture façonne Pezinok depuis des siècles ; les vignes sont attestées dès 1295 et une corporation depuis 1494. Le phylloxéra arriva en 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Château d’eau et château",
+          "text": "Le château médiéval remonte probablement aux XIIIe ou XIVe siècles et fut d’abord un château d’eau. Il fut transformé en château entre 1718 et 1814."
+        },
+        {
+          "id": "fact_004",
+          "title": "Hôtel de ville et remparts",
+          "text": "Les remparts furent construits entre 1615 et 1643 ; l’hôtel de ville fut aménagé vers 1600 dans deux bâtiments gothiques. Le centre est protégé depuis 2018."
+        },
+        {
+          "id": "fact_005",
+          "title": "Église paroissiale gothique",
+          "text": "L’église gothique primitive date approximativement des XIIIe–XIVe siècles. Elle conserve une épitaphe de 1426 et une chaire de 1523."
+        },
+        {
+          "id": "fact_006",
+          "title": "Communauté juive et cimetière",
+          "text": "La communauté juive est attestée depuis le XVIe siècle. La synagogue fut démolie en 1958 ; le nouveau cimetière date de 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Musée des Petites Carpates",
+          "text": "Le musée présente l’histoire du vin des Petites Carpates. Parmi ses pièces anciennes figure un pressoir de 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Moulin Schaubmar",
+          "text": "La famille Pálffy fit construire le moulin en 1767 ; les Schaubmar en furent propriétaires dès 1857. Une galerie d’art naïf y est installée depuis 1997."
+        },
+        {
+          "id": "fact_009",
+          "title": "Or, pyrite et antimoine",
+          "text": "On extrayait l’or, la pyrite et l’antimoine au-dessus de Pezinok. L’exploitation de Kolársky vrch ferma en 1992 ; le sentier passe par Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň naquit à Pezinok en 1908 et devint un compositeur slovaque majeur. Un mémorial fut inauguré sur le lieu de sa maison natale en 2024."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady et la Grande-Moravie",
+          "text": "Vinosady est née de Veľké Tŕnie et Malé Tŕnie, mentionnés en 1208. Des vestiges d’habitat grand-morave et un puits du IXe siècle ont été découverts."
+        },
+        {
+          "id": "fact_012",
+          "title": "Manoir Pálffy de Malé Tŕnie",
+          "text": "Le manoir baroque fut construit en 1776 et remanié en 1884. Il est classé monument culturel national et appartient à un propriétaire privé."
+        },
+        {
+          "id": "fact_013",
+          "title": "Église Saint-Martin",
+          "text": "L’église est un repère historique. Un prêtre y est attesté en 1377 ; l’édifice fut modifié puis réparé en 1935–1936."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Pezinok – Piazza del Municipio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Da villaggio minerario a città regia libera",
+          "text": "Pezinok è citata nel 1208 come terra Bozin. Miniere e viticoltura ne guidarono lo sviluppo; Ferdinando III concesse i privilegi di città regia libera nel 1647."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vigneti e Stará hora",
+          "text": "La viticoltura caratterizza Pezinok da secoli; i vigneti sono documentati dal 1295 e una corporazione dal 1494. La fillossera arrivò nel 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Castello d’acqua e palazzo",
+          "text": "Il castello medievale risale probabilmente al XIII o XIV secolo e nacque come castello d’acqua. Fu trasformato in palazzo tra il 1718 e il 1814."
+        },
+        {
+          "id": "fact_004",
+          "title": "Municipio e mura",
+          "text": "Le mura furono costruite tra il 1615 e il 1643; il municipio nacque intorno al 1600 da due edifici gotici. Il centro è tutelato dal 2018."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chiesa parrocchiale gotica",
+          "text": "La chiesa gotica risale approssimativamente ai secoli XIII–XIV. Conserva un epitaffio del 1426 e un pulpito del 1523."
+        },
+        {
+          "id": "fact_006",
+          "title": "Comunità ebraica e cimitero",
+          "text": "La comunità ebraica è documentata dal XVI secolo. La sinagoga fu demolita nel 1958; il nuovo cimitero risale al 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Museo dei Piccoli Carpazi",
+          "text": "Il museo racconta la storia del vino dei Piccoli Carpazi. Tra i reperti più antichi c’è un torchio del 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mulino Schaubmar",
+          "text": "La famiglia Pálffy costruì il mulino nel 1767; dal 1857 appartenne agli Schaubmar. Dal 1997 ospita una galleria d’arte naïf."
+        },
+        {
+          "id": "fact_009",
+          "title": "Oro, pirite e antimonio",
+          "text": "Sopra Pezinok si estraevano oro, pirite e antimonio. La miniera di Kolársky vrch chiuse nel 1992; il percorso passa per Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň nacque a Pezinok nel 1908 e divenne un importante compositore slovacco. Nel 2024 fu inaugurato un memoriale presso la casa natale."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady e Grande Moravia",
+          "text": "Vinosady nacque dall’unione di Veľké Tŕnie e Malé Tŕnie, citati nel 1208. Sono documentati insediamenti della Grande Moravia e un pozzo del IX secolo."
+        },
+        {
+          "id": "fact_012",
+          "title": "Palazzo Pálffy a Malé Tŕnie",
+          "text": "Il palazzo barocco fu costruito nel 1776 e ristrutturato nel 1884. È monumento culturale nazionale e proprietà privata."
+        },
+        {
+          "id": "fact_013",
+          "title": "Chiesa di San Martino",
+          "text": "La chiesa è un riferimento storico. Un sacerdote è documentato nel 1377; l’edificio fu modificato e restaurato nel 1935–1936."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Pezinok – Stadhuisplein",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van mijnnederzetting tot vrije koningsstad",
+          "text": "Pezinok wordt in 1208 vermeld als terra Bozin. Mijnbouw en wijnbouw bepaalden de ontwikkeling; Ferdinand III verleende in 1647 de privileges van een vrije koningsstad."
+        },
+        {
+          "id": "fact_002",
+          "title": "Wijngaarden en Stará hora",
+          "text": "Wijnbouw vormt Pezinok al eeuwen; wijngaarden zijn vanaf 1295 en een gilde vanaf 1494 gedocumenteerd. De druifluis bereikte de streek in 1890."
+        },
+        {
+          "id": "fact_003",
+          "title": "Waterkasteel en kasteel",
+          "text": "Het middeleeuwse kasteel ontstond waarschijnlijk in de 13e of 14e eeuw als waterkasteel. Tussen 1718 en 1814 werd het tot kasteel verbouwd."
+        },
+        {
+          "id": "fact_004",
+          "title": "Stadhuis en stadsmuren",
+          "text": "De stadsmuren werden tussen 1615 en 1643 gebouwd; het stadhuis ontstond rond 1600 uit twee gotische gebouwen. De kern is sinds 2018 beschermd."
+        },
+        {
+          "id": "fact_005",
+          "title": "Gotische parochiekerk",
+          "text": "De vroeggotische kerk dateert ongeveer uit de 13e–14e eeuw. Ze bewaart een grafschrift uit 1426 en een preekstoel uit 1523."
+        },
+        {
+          "id": "fact_006",
+          "title": "Joodse gemeenschap en begraafplaats",
+          "text": "De Joodse gemeenschap is vanaf de 16e eeuw gedocumenteerd. De synagoge werd in 1958 gesloopt; de nieuwe begraafplaats dateert uit 1858."
+        },
+        {
+          "id": "fact_007",
+          "title": "Klein-Karpatenmuseum",
+          "text": "Het museum vertelt de wijnbouwgeschiedenis van de Kleine Karpaten. Een van de oudste stukken is een wijnpers uit 1608."
+        },
+        {
+          "id": "fact_008",
+          "title": "Schaubmar-molen",
+          "text": "De Pálffy’s lieten de molen in 1767 bouwen; vanaf 1857 was hij eigendom van de Schaubmars. Sinds 1997 is er een galerie voor naïeve kunst."
+        },
+        {
+          "id": "fact_009",
+          "title": "Goud, pyriet en antimoon",
+          "text": "Boven Pezinok werden goud, pyriet en antimoon gewonnen. De mijn bij Kolársky vrch sloot in 1992; het pad voert ook langs Zumberg."
+        },
+        {
+          "id": "fact_010",
+          "title": "Eugen Suchoň",
+          "text": "Eugen Suchoň werd in 1908 in Pezinok geboren en werd een vooraanstaand Slowaaks componist. In 2024 werd een gedenkteken onthuld op de plek van zijn geboortehuis."
+        },
+        {
+          "id": "fact_011",
+          "title": "Vinosady en Groot-Moravië",
+          "text": "Vinosady ontstond uit Veľké Tŕnie en Malé Tŕnie, vermeld in 1208. Archeologie toont Groot-Moravische bewoning en een waterput uit de 9e eeuw."
+        },
+        {
+          "id": "fact_012",
+          "title": "Pálffy-landhuis in Malé Tŕnie",
+          "text": "Het barokke landhuis werd gebouwd in 1776 en verbouwd in 1884. Het is een nationaal monument in particulier bezit."
+        },
+        {
+          "id": "fact_013",
+          "title": "Sint-Martinuskerk",
+          "text": "De kerk is een historisch herkenningspunt. Een priester wordt vermeld in 1377; het gebouw werd later aangepast en in 1935–1936 hersteld."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
