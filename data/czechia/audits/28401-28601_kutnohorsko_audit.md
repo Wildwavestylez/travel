@@ -183,7 +183,7 @@ Dokončeno:
 
 Otevřeno:
 1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
-2. případně obsahově rozšířit 11 kratších českých master textů, pouze pokud se podaří ověřit další relevantní údaje;
+2. případně obsahově rozšířit zbývajících pět kratších českých master textů, pouze pokud se podaří ověřit další relevantní údaje;
 3. případně provést jazykovou korekturu rodilými mluvčími, která je nad rámec sémantické kontroly.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
