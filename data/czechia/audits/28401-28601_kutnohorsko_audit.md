@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno šest faktů v 28401 a 28403. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno šest faktů v 28401 a 28403, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -155,6 +155,12 @@ Dále byla doplněna vysvětlení pojmů, které by zahraniční čtenář bez �
 - **fact_008 — zámek Sedlec:** ve všech šesti jazycích je vysvětleno, že proboštství bylo sídlem probošta, církevního hodnostáře s administrativními úkoly v klášteře.
 
 Read-back potvrdil úplné verze fact_002 v šesti jazycích (délky 803–922 znaků), návrat začátku španělského textu i doplnění obou kontextových vysvětlení ve všech šesti jazycích (12/12). U fact_002 nebyl změněn český master ani translations.cs.
+
+
+
+### Průběžná kontrola mezinárodní srozumitelnosti — 28404 Kaňk
+
+Všech šest faktů v 28404 bylo zběžně, ale samostatně posouzeno v němčině, angličtině, španělštině, francouzštině, italštině a nizozemštině. Překlady srozumitelně vysvětlují například sanktuárium jako schránku pro eucharistii, tabernacle/tabernacolo jako schránku pro Eucharistii, hornickou obec s vlastní správou, historické pracovní a mzdové poměry i geologické a přírodovědné pojmy. U faktů o kalvárii a hornických nepokojích je zachována nejistota původní pověsti a jsou vysvětleny příčiny pozdějšího povstání. Nebyl zjištěn významový nedostatek vyžadující zásah; texty nebyly kosmeticky přepisovány.
 
 
 ## 6. Délka českých master textů
