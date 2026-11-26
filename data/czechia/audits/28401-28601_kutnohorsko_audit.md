@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; sedm cíleně prověřených faktů v 28401 a 28403 má nyní ověřená kontextová vysvětlení v šesti jazycích, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — původních pět historických faktů a další čtyři zásadní osobnostní příběhy doplněny; opraveno chybné datum bitvy u Malešova v 28401/fact_019; všech 10 chybějících polohových údajů vyřešeno; čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány. Pokračuje povinná kontrola mezinárodní srozumitelnosti celého bloku. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -11,7 +11,7 @@
 Rozsah byl sestaven z `data/czechia/sequence.json`, odpovídající skupiny `Středočeský kraj – řada 28xxx` a sdíleného RÚIAN inventáře `data/czechia/reference/ruian_postcodes.csv`.
 
 - **36/36 PSČ** nalezeno v sekvenci, příslušné skupině, RÚIAN inventáři i Supabase.
-- **280 faktů** v 36 záznamech.
+- **284 faktů** v 36 záznamech (280 původních + 4 nově doplněné osobnosti).
 - Nejvyšší skutečně evidované PSČ v tomto rozsahu je `28601`; v sekvenci nejsou žádná PSČ `287xx`.
 - `sequence.json` ani pořadí PSČ nebyly změněny.
 
@@ -47,13 +47,27 @@ Zdroje:
 - Biografický slovník českých zemí, HIÚ AV ČR — Mikuláš Dačický: https://biography.hiu.cas.cz/wiki/DA%C4%8CICK%C3%9D_z_Heslova_Mikul%C3%A1%C5%A1_1555%E2%80%931626
 - Klub rodáků a přátel Kutné Hory — Jiří Orten: https://www.klubrodaku-kutnahora.cz/vyznacni-rodaci/jiri-orten/
 
+### HIGH — 28401 Kutná Hora: další zásadní osobnosti
+
+Při doplňující rešerši byly potvrzeny čtyři další osobnosti s přímou a významnou vazbou na Kutnou Horu. Všechny čtyři chyběly v původních 19 faktech záznamu 28401 a byly doplněny jako samostatné příběhy:
+- **fact_020 — Jan Erazim Vocel (1802–1871):** kutnohorský rodák, průkopník české archeologie a dějin umění, profesor pražské univerzity a spoluzakladatel odborného časopisu *Památky archaeologické a místopisné*. Text výslovně zachovává spor o přesné místo narození; bod je proto označen jako historicky přibližný.
+- **fact_021 — Fridrich (Bedřich) Bridel (1619–1680):** významný autor české barokní literatury, autor meditativní skladby *Co Bůh? Člověk?*; v Kutné Hoře zemřel při dobrovolné péči o nemocné během morové epidemie. Připomíná jej pomník u chrámu sv. Barbory.
+- **fact_022 — Karel Havlíček Borovský (1821–1856):** v Kutné Hoře vydával časopis *Slovan* (1850–1851), jeden z posledních výrazných českých opozičních tisků před represí a cenzurou; v listopadu 1851 zde byl souzen a osvobozen.
+- **fact_023 — Petr Jan Brandl (1668–1735):** jeden z nejvýznamnějších českých barokních malířů, který zemřel v Kutné Hoře. Text rozlišuje místní tradici o jeho pohřbu v kostele Matky Boží Na Náměti od pozdějších pochybností o přesné poloze hrobu.
+
+Všechny čtyři fakty mají vlastní polohu s přiměřeným označením přesnosti, zdrojové vazby a sedm jazykových verzí. Read-back potvrdil 23 faktů v 28401 a shodný počet ve všech sedmi jazykových sadách; translations.cs přesně odpovídá českému masteru u všech čtyř nových faktů i opraveného fact_019. Všechny čtyři nové české texty přesahují 350 znaků.
+
+Zdroje: Univerzita Karlova a České muzeum stříbra k Vocelovi; Biografický slovník českých zemí a nakladatelství Host k Bridelovi; Biografický slovník českých zemí a katalog Českého muzea stříbra k Havlíčkovi; farnost Kutná Hora a odborná práce Jihočeské univerzity k Brandlovi. Odkazy jsou uloženy přímo v content.sources a u příslušných faktů.
+
 ### HIGH — 28401 Kutná Hora: vypálení města roku 1424
 
-Doplněn **fact_019 — Vypálení Kutné Hory roku 1424**. Příběh výslovně odděluje bitvu u Malešova (17. června 1424) od následného dobytí a úplného vypálení Kutné Hory. Zásadní je také rozlišení od předchozího požáru z ledna 1422: tehdy ustupující Zikmund nechal město zapálit na čtyřech stranách a část zástavby se podařilo zachránit; roku 1424 Žižkovo vojsko město vypálilo docela. Text dále popisuje následné přerozdělení opuštěných domů, zahrad, dolů a mlýnů mezi obyvatele, kteří zůstali.
+Doplněn **fact_019 — Vypálení Kutné Hory roku 1424**. Příběh výslovně odděluje bitvu u Malešova (7. června 1424) od následného dobytí a úplného vypálení Kutné Hory. Zásadní je také rozlišení od předchozího požáru z ledna 1422: tehdy ustupující Zikmund nechal město zapálit na čtyřech stranách a část zástavby se podařilo zachránit; roku 1424 Žižkovo vojsko město vypálilo docela. Text dále popisuje následné přerozdělení opuštěných domů, zahrad, dolů a mlýnů mezi obyvatele, kteří zůstali.
 
 Fakt má orientační bod v historickém centru Kutné Hory (historical_approximate) a úplné překlady do všech šesti cizích jazyků.
 
-Zdroj: Josef Šimek, *Kutná Hora v XV. a XVI. století*, zejména s. 4–5: https://www.cms-kh.cz/sites/default/files/books/simek-kutna-hora.pdf
+Datum bitvy bylo při tomto auditu opraveno ze 17. na **7. června 1424** v českém masteru a ve všech šesti cizojazyčných překladech. Bitva samotná už je samostatně zastoupena v 28541/fact_003 u Malešova; nový duplicitní fakt proto nevznikl. K faktu byly doplněny odborné zdroje k dataci bitvy.
+
+Zdroje: Josef Šimek, *Kutná Hora v XV. a XVI. století*, zejména s. 4–5: https://www.cms-kh.cz/sites/default/files/books/simek-kutna-hora.pdf; odborná studie *Historia Aperta* k bitvě u Malešova 7. června 1424: https://journals.uhk.cz/historia-aperta/cs/article/download/n51_2/pdf/1308.
 
 ### HIGH — 28601 Čáslav: Čáslavský sněm roku 1421
 
@@ -61,7 +75,7 @@ Doplněn **fact_008 — Čáslavský sněm roku 1421**. Text zachycuje jednání
 
 Zdroj: https://caslav.evangnet.cz/archiv/caslavsky_snem_1421/caslavsky_snem_1421.pdf
 
-**Všech pět nových faktů bylo uloženo do Supabase a zpětně načteno.** České master texty jsou synchronizované s translations.cs; všechny nové fakty mají sedm jazykových verzí.
+**Všech devět nových faktů (pět původních a čtyři nově doplněné osobnosti) bylo uloženo do Supabase a zpětně načteno.** České master texty jsou synchronizované s translations.cs; všechny nové fakty mají sedm jazykových verzí.
 
 
 ## 3. PSČ, správní údaje a duplicity
@@ -187,7 +201,7 @@ U všech čtyř rozšířených faktů byly aktualizovány překlady v jazycích
 
 ## 7. Souřadnice a mapové body
 
-- Všech 280 faktů v rozsahu má nyní přítomné pole location; **0 explicitních null a 0 chybějících vlastností location**.
+- Všech 284 faktů v rozsahu má nyní přítomné pole location; **0 explicitních null a 0 chybějících vlastností location**.
 - Při této fázi bylo vyřešeno všech šest null poloh uvedených v předchozím auditu a navíc čtyři dříve přehlédnuté chybějící vlastnosti location u faktů v PSČ 28601.
 - Kontrola celého rozsahu 36 PSČ potvrdila 0 neplatných souřadnicových rozsahů a 0 vyplněných poloh bez povinných metadat.
 - Kontrola proti schema.json u osmi změněných záznamů vrátila 0 validačních chyb; 0 neplatných location.type.
@@ -222,8 +236,8 @@ explorer_map_points bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu 
 **Výsledek: REVIEW REQUIRED.**
 
 Dokončeno:
-- inventář a porovnání 36/36 PSČ a **280 faktů**;
-- doplnění tří samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
+- inventář a porovnání 36/36 PSČ a **284 faktů**;
+- doplnění sedmi samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
 - sémantická kontrola všech 280 faktů v šesti cizojazyčných překladech;
 - průběžný čtenářský test mezinárodní srozumitelnosti: čtyři tematicky problematické fakty v 28401 doplněny ve všech šesti cizojazyčných verzích (24/24 read-back ověřeno) a v 28403 byly opraveny čtyři zkrácené překlady fact_002 i doplněna kontextová vysvětlení u fact_002, fact_005 a fact_008 (read-back ověřen);
 - 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
@@ -233,7 +247,7 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004`, `28401/fact_003`, `fact_005`, `fact_016`, `fact_019` a `28403/fact_002`, `fact_005`, `fact_008`;
+1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 původními fakty; čtyři nově přidané osobnostní příběhy mají úplné překlady a byly zkontrolovány samostatně. Z původních faktů byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004`, `28401/fact_003`, `fact_005`, `fact_016`, `fact_019` a `28403/fact_002`, `fact_005`, `fact_008`;
 2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
@@ -267,3 +281,13 @@ Další čtení překladů odhalilo tři pojmy, které byly přeloženy správn�
 - **fact_007 — Jezuitská kolej:** doplněno, že šlo o vzdělávací instituci jezuitského řádu, katolického řeholního společenství s významnou vzdělávací činností.
 
 Read-back v Supabase potvrdil všech 18 kontextových doplnění (3 fakta × 6 jazyků). České master texty a `translations.cs` zůstaly beze změny. Tato tři fakta nyní mají spolu s dříve obnovenými čtyřmi fakty v 28401 kontextové vysvětlení; ostatní položky bloku 28401 je třeba ještě projít.
+
+
+### Rešeršní doplnění a opravy — 26. 11. 2026
+
+- **Bitva u Malešova:** rešerše potvrdila, že samostatný příběh už existuje v 28541/fact_003 a patří k Malešovu. V 28401/fact_019 však bylo chybné datum 17. 6. 1424. Opraveno na **7. 6. 1424** v masteru i všech šesti překladech; přidány odborné zdroje. Nedošlo k duplicitě.
+- **Zásadní osobnosti:** do 28401 byly doplněny čtyři chybějící osobnosti: Jan Erazim Vocel, Fridrich (Bedřich) Bridel, Karel Havlíček Borovský a Petr Jan Brandl. Jejich vazba na Kutnou Horu je doložena odbornými, univerzitními, muzejními nebo církevními zdroji. Jan Campanus Vodňanský byl prověřen, ale samostatný fakt nebyl přidán: jeho místní vazba spočívala především v krátkém působení jako správce kutnohorských škol, což v tomto úzkém auditu nedosahuje stejné priority.
+- **Památky:** při tomto doplňujícím průzkumu nebyla potvrzena další chybějící monumentální památka srovnatelná významem s již zastoupenými dominantami.
+- **Read-back:** 28401 nyní obsahuje 23 faktů; všech sedm jazykových sad má 23 položek. Český překlad je shodný s masterem u fact_019 a fact_020–fact_023. Nové master texty mají 829, 829, 955 a 865 znaků; všechny překračují auditní minimum 350 znaků. Nové fakty mají zdroje a polohová metadata.
+- **Stav:** statusy, data_version, sequence.json ani rozsah PSČ nebyly změněny. Publikace ani záloha nebyla spuštěna.
+
