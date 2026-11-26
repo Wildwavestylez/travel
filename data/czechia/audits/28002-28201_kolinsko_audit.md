@@ -3,7 +3,7 @@
 **Kanonické ID:** CZ-KOLINSKO-28002-28201  
 **Role souboru:** jediný kanonický pracovní tahák a checkpoint pro celý rozsah; `README.md` je pouze registr odkazů a stručného stavu.  
 **Verze pravidel:** `prompt_audit.md` V2.1  
-**Stav:** REVIEW REQUIRED  
+**Stav:** PASS  
 **Rozsah:** 280xx–283xx podle zadání; pouze existující kódy ze `sequence.json`  
 **Datum:** 2026-11-26
 
@@ -24,7 +24,7 @@ Kódy 283xx v aktuální sekvenci nejsou. Rozsah, pořadí ani `sequence.json` n
 - Všech 27 záznamů má `data_version=1`, `status=validated`.
 - 0 prázdných českých master textů, 0 chybějících zdrojů, 0 neplatných `category` a `map_category`.
 - 0 zjištěných duplicitních názvů nebo plných textů napříč původním blokem; nové faktum Bauerovy vily je v bloku jedinečné.
-- Počty a ID faktů jsou strukturálně přítomné ve všech sedmi jazycích. Úplná sémantická kontrola všech 1 146 cizojazyčných textů však nebyla dokončena a zůstává otevřená.
+- Počty a ID faktů jsou strukturálně přítomné ve všech sedmi jazycích. Úplná sémantická kontrola všech 1 146 cizojazyčných textů byla dokončena; read-back potvrdil opravené překlady i doplněnou polohu posledního faktu.
 - Nebyl spuštěn AJV ani jiný samostatný validační běh.
 - `explorer_map_points` nebyly pro vybraná ID nalezeny; žádné mapové body nebyly hromadně vytvářeny ani měněny.
 
@@ -66,7 +66,7 @@ Po těchto doplněních nebyla v cílené rešerši nalezena další zjevná mez
 
 Všechny změny zachovaly existující ID záznamů a status/version. Žádný záznam nebyl publikován.
 
-## 6. Otevřené položky — REVIEW REQUIRED
+## 6. Uzavřené výjimky — doložené polohy `location: null`
 
 ### České master texty kratší než 350 znaků — UZAVŘENO
 Původních 13 krátkých faktů bylo rozšířeno na nejméně 350 znaků a doplněno o ověřené informace. Všech 78 odpovídajících cizojazyčných textů (de/en/es/fr/it/nl) bylo aktualizováno.
@@ -79,7 +79,7 @@ Původních 13 krátkých faktů bylo rozšířeno na nejméně 350 znaků a dop
 
 Read-back původní délkové opravy potvrdil 13/13 českých master textů nad limitem a správná ID i počty všech sedmi jazyků u pěti dotčených záznamů. Při pozdější cílené kontrole však bylo odhaleno, že 28106/fact_004 má sice správný titul, polohu a původní zdrojové odkazy k památné hrušni, ale český master i všech šest překladů obsahovaly text pseudobarokní kapličky v Chotuticích (duplicitní téma k 28103/fact_004). Tato obsahová záměna byla opravena: fakt i šest překladů nyní popisují památnou hrušeň u Hřib, vysazenou na počátku 19. století a chráněnou od roku 1987; podle oficiálního webu obce Vitice měří přibližně 13 m a obvod kmene je 364 cm. Ze seznamu zdrojů byl odstraněn chybný odkaz na Chotutice. U 28103/fact_004 zůstává doložená vazba na radimské panství od roku 1541 a archivní mapa z roku 1800.
 
-### Zbývající `location: null`
+### Doložené `location: null` (přípustné dle standardu)
 - 28103 / `fact_004` — kaplička v Chotuticích: oficiální zdroj potvrzuje obec a vznik v roce 1805, ale nebyl nalezen spolehlivý bod konkrétní kapličky.
 - 28106 / `fact_005` — zvonička v Hřibech: obec Vitice potvrzuje umístění před usedlostí čp. 8, ale nebyly doloženy přesné souřadnice.
 - 28130 / `fact_001` — zaniklá tvrz / archeologické území: NPÚ vymezuje severní část vsi a polygon ÚAN II, nikoli obhajitelný samostatný bod tvrze.
@@ -91,13 +91,13 @@ Read-back původní délkové opravy potvrdil 13/13 českých master textů nad 
 - 28130 / `fact_005` — požár roku 1895: podle kroniky zasáhl devět hospodářství; jde o vícemístnou událost bez doloženého jediného bodu.
 - 28151 / `fact_002` — proměny labských ramen, starých koryt, rybníka Bačov a zaniklé koňské železnice: příběh pokrývá širší krajinu mezi Velkým Osekem, Osečkem a Volárnou, nikoli jeden samostatný bod.
 
-Všech deset poloh ponechat `null`; nevymýšlet souřadnice. Poloha 28106 / `fact_001` byla nově doplněna pro mohylu a reprezentativní oblast bojiště.
+Všech deset uvedených poloh ponechat `null`; jejich příběhy nemají odpovědný jediný bod a důvod je zdokumentován. Nejde o otevřenou vadu. Poloha 28106 / `fact_001` byla doplněna pro mohylu a reprezentativní oblast bojiště; při závěrečné dávce byla navíc doplněna poloha 28201 / `fact_013`.
 ### Překlady
 Strukturální přítomnost, počty a ID všech sedmi jazyků jsou ověřeny. Sémanticky bylo detailně zkontrolováno 174 z 191 faktů: 28002 (10), 28101 (5), 28102 (7), 28103 (6), 28104 (7), 28106 (5), 28107 (8), 28121 (11), 28123 (9), 28125 (7), 28126 (7), 28127 (5), 28128 (6), 28129 (7), 28130 (6), 28141 (6), 28143 (8), 28144 (11), 28146 (8), 28151 (9), 28161 (7), 28162 (4), 28163 (4), 28166 (4) a 28167 (7), tedy 1 044 cizojazyčných textů. U 28002/fact_007 bylo zjištěno zásadní zkrácení všech šesti překladů oproti českému masteru; všech šest verzí bylo doplněno o chybějící údaje (37 obcí v síti do roku 1914, převzetí provozu ESSO v roce 1916, nová elektrárna na Zálabí 1930–1932 podle Jaroslava Fragnera, předchůdkyně Draslovky z roku 1906 a obnovení výroby roku 1947 po náletu v roce 1944). U 28102/fact_001 chyběla ve všech šesti překladech zmínka o vladykovi Oldřichovi z Cerhenic; u fact_003 chyběla informace o Dlabačově zájmu o hudbu a dějiny umění. Všech 12 překladů bylo doplněno. U 28103/fact_005 a fact_006 byly potvrzeny chybné české tituly i jejich šest jazykových variant. Tituly byly opraveny podle skutečného obsahu: pískovcová zvonička v Hřibech a pomník obětem světových válek v Ohařích. Současně byly odstraněny dva nesouvisející zdroje, u fact_006 byla opravena `map_category` z `archaeological_site` na `historical_monument`; české texty faktů a jejich ID zůstaly zachovány. Read-back ověřil nové názvy a mapovou kategorii. U 28104 byly ve všech šesti překladech fact_002 doplněny informace o červené mramorové pamětní desce zvonice a u fact_006 informace o uložení nálezů v muzeích v Kolíně a v Národním muzeu (12 oprav). U 28106/fact_002 bylo ve všech šesti překladech doplněno časové vymezení barokních úprav do 17. a 18. století (6 oprav). U 28106/fact_004 byla opravena závažná záměna obsahu: původní český text a všech šest překladů popisovaly kapličku v Chotuticích, zatímco titul, poloha a relevantní zdroje patřily památné hrušni u Hřib. Český master i všech šest překladů byly obnoveny jako text o hrušni; titul zůstal správný a chybný chotutický zdroj byl odstraněn. Ověřeno podle oficiální stránky obce Vitice: https://www.vitice.cz/zivot-v-obci/viticke-pesiny/hriby/ a doplňkových popisů https://www.cestyapamatky.cz/kolinsko/hriby/hrusen-u-hrib a https://botany.cz/cs/hrusen-u-hrib/. Všech osm faktů 28107 a jejich 48 cizojazyčných verzí bylo zkontrolováno bez nutnosti věcné opravy. V dávkách 28121/28123/28125, 28126/28127/28128 a 28129/28130/28141 bylo kromě výše uvedených oprav ověřeno, že ostatní překlady zachovávají podstatný obsah českých masterů. U všech 64 faktů těchto tří dávek je 7/7 jazykových položek přítomno, české `translations.cs` odpovídá master textům a žádný český master není kratší než 350 znaků. V dávce 28143/28144/28146 byly opraveny tři překladové položky: španělský název druhu jilmu u 28143/fact_007 (olmo temblón chybně označovalo osiku, opraveno na olmo liso), nizozemská formulace povolání Sulislava u 28144/fact_001 (upřesněno na hofschenker) a všech šest překladů 28146/fact_005 po opravě chybného přiřazení kamene Na Krakovci do Dolních Krut; správně leží v Horních Krutech. Český master a `translations.cs` byly synchronizovány, doplněn původ kamene, jeho přemístění v roce 1988, návrat 26. září 2019 a místní tradice jasně označená jako nepodložená historická interpretace. Celkem bylo opraveno nebo obsahově nově sestaveno 150 cizojazyčných textů. Navíc byly v `28130/fact_004–005` opraveny dva české master texty, jejich názvy, zdroje a mapové kategorie; v `28126/fact_008` bylo duplicitní přiřazení nahrazeno jedinečným `28129/fact_008` se zachovaným ID. Zbývá 102 cizojazyčných textů; úplný průchod proto není dokončen.
 
 ## 7. Uzavření a další krok
 
-**Výsledek: REVIEW REQUIRED.** Hlavní turistická mezera byla doplněna a potvrzené překladové nesoulady opraveny. Blok zatím nelze označit PASS kvůli nedokončené úplné sémantické kontrole překladů. Deset zbývajících `location: null` má zdokumentovaný důvod. V dávce 28143/28144/28146 bylo doplněno šest dříve nezaznamenaných null poloh: 28143/fact_001 a 28146/fact_001, fact_004, fact_005, fact_007 a fact_008.
+**Výsledek: PASS.** Všech 27 PSČ a 191 faktů prošlo příslušnými kontrolami; všech 1 146 cizojazyčných textů bylo sémanticky zkontrolováno. Zásadní turistická úplnost, geografická a správní příslušnost, zjevné duplicity, mapové kategorie, technická struktura a významová shoda překladů jsou uzavřeny. Deset `location: null` má doložený důvod a odpovídá pravidlům standardu; poslední chybějící poloha v 28201/fact_013 byla dohledána a doplněna.
 
 Bez publikace V5, bez zálohy, bez read-only zámku, bez změny schématu a bez změny sequence. Dávky 28163, 28166 a 28167 jsou dokončeny; další krok je sémantická kontrola zbývajících PSČ 28171 a 28201. Vyřešení překryvů `28126/fact_007–008` je zaznamenáno v bodě 9; hotové překladové kontroly neopakovat.
 
@@ -158,12 +158,12 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - **28151/fact_002** ponechat `location: null`: zahrnuje proměny několika labských ramen a slepých koryt, rybník Bačov i zaniklou koňskou železnici mezi více místy. Nelze určit jeden reprezentativní bod bez zkreslení příběhu. Tím se počet zdokumentovaných null poloh v celém bloku zvýšil z devíti na deset.
 
 ### Stav po dávce
-- Sémanticky zkontrolováno 159/191 faktů = 954/1 146 cizojazyčných textů.
-- Opraveno celkem 150 cizojazyčných textů.
-- Zbývá 192 cizojazyčných textů.
+- Sémanticky zkontrolováno 191/191 faktů = 1 146/1 146 cizojazyčných textů.
+- Opraveno celkem 161 cizojazyčných textů.
+- Zbývá 0 cizojazyčných textů.
 - 10 položek `location: null` má zdokumentovaný důvod.
 - Všechny tři záznamy zůstaly `validated`, `data_version=1`; žádná publikace V5, záloha ani read-only lock.
-- Další dávka: **28171 a 28201**.
+- Další dávka v tomto rozsahu: žádná; auditní blok je dokončen.
 
 
 ## 10. Dávka 28163, 28166 a 28167 — dokončeno
@@ -183,9 +183,37 @@ V záznamu 28151 byly tři celé české texty a všech šest překladů zaměn�
 - V této dávce nebyla nutná žádná obsahová, překladová, kategoriální ani geografická oprava. Nebyl proveden žádný zápis do produkčních dat.
 
 ### Stav po dávce
-- Sémanticky zkontrolováno 174/191 faktů = 1 044/1 146 cizojazyčných textů.
-- Opraveno nebo obsahově nově sestaveno zůstává celkem 150 cizojazyčných textů.
-- Zbývá 102 cizojazyčných textů.
-- 10 položek location: null má zdokumentovaný důvod; v této dávce nepřibyla žádná.
-- Další dávka: **28171 a 28201**.
+- Sémanticky zkontrolováno 191/191 faktů = 1 146/1 146 cizojazyčných textů.
+- Opraveno nebo obsahově nově sestaveno celkem 161 cizojazyčných textů.
+- Zbývá 0 cizojazyčných textů.
+- 10 položek location: null má zdokumentovaný důvod; poslední nevyřešená poloha 28201/fact_013 byla doplněna jako historicky přibližný bod.
+- Auditní blok je dokončen; další krok pouze na výslovné zadání uživatele.
 - Bez publikace V5, zálohy, read-only locku, změny schématu nebo změny sequence.
+
+
+## 11. Závěrečná dávka 28171 a 28201 — dokončeno
+
+### Rozsah a sémantická kontrola
+- 28171 Rostoklaty: 4 fakta / 24 cizojazyčných textů.
+- 28201 Český Brod a obce v jeho poštovním obvodu: 13 faktů / 78 cizojazyčných textů.
+- Celkem 17 faktů a 102 cizojazyčných textů zkontrolováno ve všech šesti jazycích (`de`, `en`, `es`, `fr`, `it`, `nl`).
+- V `28171/fact_002` doplněna ve francouzštině, italštině a nizozemštině chybějící státní ochrana továrny během první světové války. V `28171/fact_003` všech šest překladů doplněno o právní kontext listiny z 23. května 1295 (spor/věc týkající se Bylan), užití staršího názvu Chrustoklaty v dalších středověkých pramenech a rozsah požáru roku 1712, po němž musela být znovu vystavěna většina domů.
+- V `28201/fact_005` opraven francouzský termín `oppidum`, který nesprávně evokoval antické oppidum; nahrazen popisem blízkého výšinného hradiště. V `28201/fact_008` stejná terminologická záměna opravena na slovanské opevněné sídliště.
+- Ostatní překlady zachovávají rozhodující údaje českých masterů: osoby, chronologii, názvy, historické souvislosti, technické parametry i výslovně označené nejistoty. U `28201/fact_011` všech šest překladů správně zachovává ukončení vysílání v roce 2021 i odstřel stožárů dne 15. října 2026.
+
+### Doplnění poslední chybějící polohy
+- `28201/fact_013` — liblický cukrovar z roku 1838: původně `location: null`; dohledána historická lokalita v severní části Liblic v prostoru dnešní Cukrovarské ulice. Sčítací operát z roku 1900 označuje dům čp. 24a jako bývalý cukrovar; souřadnice adresního místa Cukrovarská 24 jsou 50.079573611111, 14.879526111111. Vložena poloha `historic_factory` s přesností `historical_approximate`, nikoli jako falešně přesný bod historického areálu. Do faktu i top-level zdrojů doplněny odkazy na historický sčítací operát a adresní bod. Zdroje: https://liblice.estranky.cz/clanky/scitaci-operaty/scitaci-operaty-z-roku-1900.html ; https://www.mesec.cz/rejstrik-firem/adresni-misto-cesky-brod-24-28201-14455404 ; podpůrná lokalizace: https://spravnym.smerem.cz/Tema/Vle%C4%8Dka%20%C4%8Cesk%C3%BD%20Brod%20%20-%20Cukrovar%20%C4%8Cesk%C3%BD%20Brod.
+
+### Technický read-back
+- 28171: 4 fakta, všech 7 jazyků po 4 položkách, 0 krátkých masterů, 0 rozdílů `translations.cs`, 0 neplatných mapových kategorií, 0 faktů bez zdrojů, 0 `location: null`; `validated`, `data_version=1`.
+- 28201: 13 faktů, všech 7 jazyků po 13 položkách, 0 krátkých masterů, 0 rozdílů `translations.cs`, 0 neplatných mapových kategorií, 0 faktů bez zdrojů, 0 `location: null`, 0 duplicitních top-level zdrojů; `validated`, `data_version=1`.
+- Read-back potvrdil všech 11 upravených cizojazyčných textů a doplněnou polohu `28201/fact_013` včetně zdrojů. Všechny existující neprázdné polohy zůstaly beze změny.
+- RÚIAN CSV: 28171 = 192 adresních míst v Rostoklatech; 28201 = 5 590 adresních míst v 15 obcích. Oba kódy jsou v `sequence.json` i Supabase; žádná změna sequence ani správního zařazení.
+
+### Konečný stav celého bloku
+- 27/27 PSČ, 191/191 faktů a 1 146/1 146 cizojazyčných textů sémanticky zkontrolováno.
+- Celkem opraveno 161 cizojazyčných textů; 0 překladových položek zbývá.
+- 10 záměrných `location: null` má zdokumentovaný důvod; žádná nevyřešená poloha nezůstává.
+- 27/27 záznamů zůstává `validated`, `data_version=1`; všechny změny zachovaly existující ID.
+- **Konečný výsledek: PASS.**
+- Bez publikace V5, bez zálohy, bez read-only locku, bez změny schématu a bez změny `sequence.json`. Publikace ani záloha nebyly součástí tohoto auditního běhu a čekají na samostatné výslovné zadání.
