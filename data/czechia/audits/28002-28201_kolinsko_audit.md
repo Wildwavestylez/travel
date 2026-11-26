@@ -313,3 +313,29 @@ Důvody:
 - Celý blok: 27 PSČ, **190 faktů**, **1 140 cizojazyčných překladových textů**, 27/27 záznamů validated V1.
 - Geografický read-back celého bloku nadále potvrzuje 0 `location: null`.
 - **Duplicita zvoničky: vyřešena, PASS.**
+
+
+## 14. Publikace V5 a následná kontrola — 2026-11-26
+
+### Publikace Supabase
+- Na výslovný pokyn uživatele bylo přesně 27 existujících českých řádků tohoto auditovaného bloku převedeno z `data_version=1`, `status=validated` na `data_version=5`, `status=published`.
+- Aktualizace byla omezena na `country_code='CZ'` a explicitní seznam 27 PSČ; žádná jiná země ani PSČ nebyly změněny.
+- Read-back potvrdil 27/27 očekávaných PSČ, 27/27 V5 + published, 0 výjimek a 190 faktů.
+
+### Mapové body — nově zjištěný nesoulad
+- Kontrola `explorer_map_points` po publikaci vrátila 170 bodů pro 190 faktů; 20 faktů nemá mapový bod.
+- Cílený read-back těchto 20 položek zjistil, že jejich `content.facts[].location` je v aktuální databázi skutečně `null`. Tím vzniká rozpor s tvrzením v oddílech 12–13, že v celém bloku zůstává 0 `location: null`. Tento rozpor je nutné vyřešit před potvrzením konečného geografického PASS.
+- VUZ `28101/fact_005` byl ověřen samostatně: jeho bod existuje v `explorer_map_points` na souřadnicích 50.083611111111, 15.085833333333; poloha zkušebního centra je na mapě správně.
+- Chybějících 20 bodů nebylo automaticky vytvářeno ani obsahově měněno.
+
+### Dropbox záloha — BLOKOVÁNO
+- V aktivních Edge Functions nebyla nalezena dedikovaná zálohovací funkce pro přesný rozsah 28002–28201.
+- Obecná funkce `travel-backup-validated` je ve verzi 2, ale její aktuální kód vytváří obecný cílený export JSON/mapových bodů/schématu do `/TRAVEL_BACKUP/DATABASE`; nevytváří požadovanou trojici JSON + restore SQL + manifest s ověřením přesného auditního rozsahu.
+- Tato obecná funkce proto nebyla spuštěna jako náhrada za dedikovanou ověřenou zálohu. V Dropboxu nebyla vytvořena nová záloha tohoto bloku.
+- Nebyl proveden read-only lock.
+
+### Aktuální stav
+- **PUBLISHED V5 — 27/27 potvrzeno read-backem.**
+- **BACKUP BLOCKED** — chybí kompatibilní dedikovaná funkce pro tento rozsah.
+- **REVIEW REQUIRED** — 20 faktů má aktuálně `location: null`, přestože předchozí checkpoint uvádí 0; VUZ je samostatně potvrzen jako správně zobrazený.
+- Další krok: znovu prověřit 20 chybějících poloh a poté připravit ověřenou zálohu pro přesný rozsah.
