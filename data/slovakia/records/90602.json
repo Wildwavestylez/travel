@@ -1,4 +1,480 @@
 {
   "postcode": "90602",
-  "status": "placeholder"
+  "city": "Dojč",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Historické jádro obce Dojč – okolí kostela Všech svatých",
+  "representative_point": {
+    "lat": 48.676597,
+    "lon": 17.256701
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pravěké a římsko-barbarské osídlení na severním Záhoří",
+      "text": "Dojč nebyl založen až ve středověku. Obecní rozvojový dokument uvádí osídlení zdejšího území už v neolitu, kdy se v oblasti pohybovaly komunity lengyelské a kultury s volutovou keramikou. Další sídlištní vrstvu představuje římsko-barbarské osídlení z 2.–3. století n. l. Archeologické nálezy dokládají, že území dnešního Dojče lidé využívali dávno před vznikem dnešní vesnice. Pro pochopení regionu je důležitá i poloha na staré cestě spojující Moravu přes Šaštín a Senici s Jablonicí a Trnavou. Přesné polohy jednotlivých pravěkých a římských nálezů nejsou ve veřejných podkladech vymezeny natolik přesně, aby bylo možné bezpečně umístit jediný bod na mapu.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "src_01",
+        "src_02"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Olověný křížek z Dojče – svědectví raného křesťanství",
+      "text": "V říjnu 2009 našel místní nálezce Slavomír Fordinál na zoraném poli východně od obce drobný olověný přívěsek ve tvaru rovnoramenného řeckého kříže. Na jeho přední straně je v nízkém reliéfu zobrazen ukřižovaný Kristus. Křížek měří přibližně 33 × 37 mm; s očkem na zavěšení má necelých 44 mm. Odborný rozbor Tituse Kolníka a Roberta Baču jej řadí do okruhu byzantských pektorálních křížků, jejichž analogie se datují na konec 9. až počátek 10. století. Olovo bylo levnější a snadněji zpracovatelnou náhradou stříbra. Nález je významným dokladem, že se křesťanská symbolika na Záhorí objevovala už v době Velké Moravy. Přesné místo nálezu je popsáno jen jako pole východně od vesnice, proto není vhodné vydávat orientační bod za přesnou archeologickou polohu.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "src_03",
+        "src_04"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Dojč, habáni a proměny panství",
+      "text": "Dojč se v písemných pramenech poprvé objevuje roku 1392, zatímco místní fara je doložena o pět let později. Ve středověkých zápisech se objevují podoby jména Doych a také rozlišení Nagydoych a Kysdoych – Velký a Malý Dojč. Vesnice patřila nejprve k šaštínskému panství, od roku 1452 k panství Holíč a od roku 1736 přešla do majetku Habsburků. Zvláštní kapitolou jsou novokřtěnci, známí ve střední Evropě také jako anabaptisté a na Slovensku tradičně jako habáni: obecní prameny uvádějí jejich pobyt v Dojči od roku 1574. Šlo o náboženské skupiny, které zdůrazňovaly křest dospělých a vytvářely svébytné komunity. Jejich přítomnost dokládá, že Záhorí bylo součástí širších náboženských a migračních dějin střední Evropy. Dnešní podoba názvu Dojč se ustálila roku 1927.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "src_01",
+        "src_05",
+        "src_06"
+      ],
+      "location": {
+        "name": "Historické jádro obce Dojč",
+        "lat": 48.676597,
+        "lon": 17.256701,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://www.dojc.sk/e_download.php?file=data%2Feditor%2F265sk_1.pdf&original=PHSR+DOJ%C4%8C+2021+_+2027.pdf"
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_004",
+      "title": "Gotický kostel Všech svatých a klasicistní kaple",
+      "text": "Dominantou Dojče je římskokatolický kostel Všech svatých, jehož původní stavební jádro je gotické a pravděpodobně pochází ze 14. století. Fara v Dojči je písemně doložena už roku 1397. Kostel byl v roce 1678 obnoven a v první polovině 18. století přestavěn; věž byla zvýšena roku 1883. V interiéru se dochoval barokní obraz Všech svatých z roku 1788, rokokové boční oltáře a barokní křtitelnice. Druhou výraznou sakrální stavbou je osmiboká kaple Nejsvětější Trojice v místní části Závsie. Její fundaci založil 3. června 1721 Martin Rehák s přáním, aby kaple stála na místě staršího kostela. Současná podoba je výsledkem klasicistní přestavby v první polovině 19. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "src_07",
+        "src_08",
+        "src_09"
+      ],
+      "location": {
+        "name": "Kostel Všech svatých, Dojč",
+        "lat": 48.676597,
+        "lon": 17.256701,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/dojc-kostol-vsetkych-svatych"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Theberyho mlýn a dlouhá mlynářská tradice",
+      "text": "Mlynářství patřilo k hospodářské historii Dojče po staletí: místní prameny zmiňují mlýn už roku 1544. Nejvýraznější kapitolou je Nový, později známý jako Theberyho mlýn, postavený v druhé polovině 19. století poblíž plánované železniční trati mezi Kúty a Trnavou. Původně jej pohánělo vodní kolo s vrchním náhonem. Vlastnictví přešlo přes grófku Teréziu Machatovou a rodinu Tomšových k Janu Theberymu; mlýn pak provozovali členové rodiny s odborným mlynářským vzděláním. V roce 1944 přibyla pila, v roce 1948 začala výstavba nové vícepatrové budovy a po dokončení v roce 1950 byl provoz znárodněn. Potomek mlynářské rodiny Ivan Thebery získal mlýn zpět v roce 1991 a obnovil jeho provoz.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "src_10",
+        "src_11",
+        "src_12"
+      ],
+      "location": {
+        "name": "Theberyho mlýn, Dojč",
+        "lat": 48.667097,
+        "lon": 17.260085,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://dojc.oma.sk/u/mlyn-thebery/4"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_006",
+      "title": "Dojč na konci druhé světové války",
+      "text": "Závěr druhé světové války zasáhl Dojč přímo. Podle místního historického přehledu vstoupily do obce 3. února 1945 turkestánské oddíly Vlasovovy armády. Ve dnech 3. a 4. dubna obec bombardovalo sovětské letectvo; zahynul při tom Ján Klimeš. Německá armáda 6. dubna zničila most přes řeku Myjavu a následující den ustoupila směrem na Unín a Koválov. První kozácké hlídky Rudé armády dorazily 7. dubna kolem desáté hodiny dopoledne a obec byla téhož dne osvobozena. Události připomíná pamětní deska na budově obecního úřadu. Na památníku padlých z první světové války u kostela je navíc dodatečně uvedeno jméno Imricha Gajara, který zahynul v německém koncentračním táboře.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "src_13",
+        "src_14",
+        "src_15"
+      ],
+      "location": {
+        "name": "Pamětní deska osvobození na budově obecního úřadu Dojč",
+        "lat": 48.677561,
+        "lon": 17.254547,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.dojc.sk/obcan/kontakt/"
+      },
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávač PSČ; obecní dokument PHRSR Dojč 2021–2027 uvádí PSČ 906 02 přímo u obce. Ověřeno 26. 11. 2026.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávač PSČ Slovenské pošty; PHRSR obce Dojč 2021–2027",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Dojč – PHRSR 2021–2027; oficiální geografické údaje obce; orientační geografická kontrola OpenStreetMap/OMA. PSČ je doloženo pro obec Dojč; přesný polygon doručovací oblasti není tvrzen."
+  },
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Program hospodárskeho rozvoja a sociálneho rozvoja obce Dojč 2021–2027",
+      "url": "https://www.dojc.sk/e_download.php?file=data%2Feditor%2F265sk_1.pdf&original=PHSR+DOJ%C4%8C+2021+_+2027.pdf",
+      "type": "official"
+    },
+    {
+      "id": "src_02",
+      "title": "Geografická poloha – obec Dojč",
+      "url": "https://www.dojc.sk/zivot-v-obci/geograficka-poloha/",
+      "type": "official"
+    },
+    {
+      "id": "src_03",
+      "title": "Archeologické nálezy: Unikátny krížik z Dojča – Titus Kolník a Robert Bača",
+      "url": "https://www.dojc.sk/zivot-v-obci/historia/archeologicke-nalezy/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_04",
+      "title": "Dojč – Veľkomoravské nálezisko",
+      "url": "https://www.kulturnecesty.sk/cyrilo-metodska-cesta/dojc-velkomoravske-nalezisko/",
+      "type": "specialist"
+    },
+    {
+      "id": "src_05",
+      "title": "História – obec Dojč",
+      "url": "https://www.dojc.sk/zivot-v-obci/historia/",
+      "type": "official"
+    },
+    {
+      "id": "src_06",
+      "title": "Vznik a pôvod novokrstencov – Habánske múzeum Sobotište",
+      "url": "https://www.muzeumhabanov.sk/domov/po-stopach-habanov/historia/povod-novokrstencov/",
+      "type": "museum"
+    },
+    {
+      "id": "src_07",
+      "title": "Pamiatky – obec Dojč",
+      "url": "https://www.dojc.sk/zivot-v-obci/historia/pamiatky/",
+      "type": "official"
+    },
+    {
+      "id": "src_08",
+      "title": "Dojč – Kostol Všetkých svätých",
+      "url": "https://www.pamiatkynaslovensku.sk/dojc-kostol-vsetkych-svatych",
+      "type": "specialist"
+    },
+    {
+      "id": "src_09",
+      "title": "Kaplnka Najsvätejšej Trojice – farské informácie a poloha",
+      "url": "https://mojafarnost.sk/kostoly/kaplnka-dojc-najsvatejsej-trojice",
+      "type": "other"
+    },
+    {
+      "id": "src_10",
+      "title": "Minulosť mlyna Thebery v Dojči – Dojčanské noviny 2/2013",
+      "url": "https://www.dojc.sk/modules/file_storage/download.php?file=681c29d5%7C44",
+      "type": "official"
+    },
+    {
+      "id": "src_11",
+      "title": "Mlyny v severozápadnej časti Záhoria v 16. až 20. storočí",
+      "url": "https://ezahorie.sk/index.php?Itemid=97&catid=53%3Ahistorija-zahora&id=8267%3Amlyny-v-severozapadnej-asti-zahoria-v-16-a-20-storoi&lang=sk&option=com_content&view=article",
+      "type": "specialist"
+    },
+    {
+      "id": "src_12",
+      "title": "Fotoreport: Záhorie, krajina miznúcich mlynov – Theberyho mlyn",
+      "url": "https://soda.o2.sk/pribehy/kultura-a-umenie/fotoreport-zahorie-krajina-miznucich-mlynov/",
+      "type": "news"
+    },
+    {
+      "id": "src_13",
+      "title": "Oslobodenie Červenou armádou – Dojč",
+      "url": "https://pam.epocha.sk/pamatniky-zahorie/okres-senica/oslobodenie-cervenou-armadou-dojc",
+      "type": "specialist"
+    },
+    {
+      "id": "src_14",
+      "title": "80. výročie oslobodenia obce a konca 2. svetovej vojny – Dojčanské noviny",
+      "url": "https://www.dojc.sk/modules/file_storage/download.php?file=20cb3de2%7C430",
+      "type": "official"
+    },
+    {
+      "id": "src_15",
+      "title": "Pamiatky – památník padlým a Imrich Gajar",
+      "url": "https://www.dojc.sk/zivot-v-obci/historia/pamiatky/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro obce Dojč – okolí kostela Všech svatých",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pravěké a římsko-barbarské osídlení na severním Záhoří",
+          "text": "Dojč nebyl založen až ve středověku. Obecní rozvojový dokument uvádí osídlení zdejšího území už v neolitu, kdy se v oblasti pohybovaly komunity lengyelské a kultury s volutovou keramikou. Další sídlištní vrstvu představuje římsko-barbarské osídlení z 2.–3. století n. l. Archeologické nálezy dokládají, že území dnešního Dojče lidé využívali dávno před vznikem dnešní vesnice. Pro pochopení regionu je důležitá i poloha na staré cestě spojující Moravu přes Šaštín a Senici s Jablonicí a Trnavou. Přesné polohy jednotlivých pravěkých a římských nálezů nejsou ve veřejných podkladech vymezeny natolik přesně, aby bylo možné bezpečně umístit jediný bod na mapu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Olověný křížek z Dojče – svědectví raného křesťanství",
+          "text": "V říjnu 2009 našel místní nálezce Slavomír Fordinál na zoraném poli východně od obce drobný olověný přívěsek ve tvaru rovnoramenného řeckého kříže. Na jeho přední straně je v nízkém reliéfu zobrazen ukřižovaný Kristus. Křížek měří přibližně 33 × 37 mm; s očkem na zavěšení má necelých 44 mm. Odborný rozbor Tituse Kolníka a Roberta Baču jej řadí do okruhu byzantských pektorálních křížků, jejichž analogie se datují na konec 9. až počátek 10. století. Olovo bylo levnější a snadněji zpracovatelnou náhradou stříbra. Nález je významným dokladem, že se křesťanská symbolika na Záhorí objevovala už v době Velké Moravy. Přesné místo nálezu je popsáno jen jako pole východně od vesnice, proto není vhodné vydávat orientační bod za přesnou archeologickou polohu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, habáni a proměny panství",
+          "text": "Dojč se v písemných pramenech poprvé objevuje roku 1392, zatímco místní fara je doložena o pět let později. Ve středověkých zápisech se objevují podoby jména Doych a také rozlišení Nagydoych a Kysdoych – Velký a Malý Dojč. Vesnice patřila nejprve k šaštínskému panství, od roku 1452 k panství Holíč a od roku 1736 přešla do majetku Habsburků. Zvláštní kapitolou jsou novokřtěnci, známí ve střední Evropě také jako anabaptisté a na Slovensku tradičně jako habáni: obecní prameny uvádějí jejich pobyt v Dojči od roku 1574. Šlo o náboženské skupiny, které zdůrazňovaly křest dospělých a vytvářely svébytné komunity. Jejich přítomnost dokládá, že Záhorí bylo součástí širších náboženských a migračních dějin střední Evropy. Dnešní podoba názvu Dojč se ustálila roku 1927."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gotický kostel Všech svatých a klasicistní kaple",
+          "text": "Dominantou Dojče je římskokatolický kostel Všech svatých, jehož původní stavební jádro je gotické a pravděpodobně pochází ze 14. století. Fara v Dojči je písemně doložena už roku 1397. Kostel byl v roce 1678 obnoven a v první polovině 18. století přestavěn; věž byla zvýšena roku 1883. V interiéru se dochoval barokní obraz Všech svatých z roku 1788, rokokové boční oltáře a barokní křtitelnice. Druhou výraznou sakrální stavbou je osmiboká kaple Nejsvětější Trojice v místní části Závsie. Její fundaci založil 3. června 1721 Martin Rehák s přáním, aby kaple stála na místě staršího kostela. Současná podoba je výsledkem klasicistní přestavby v první polovině 19. století."
+        },
+        {
+          "id": "fact_005",
+          "title": "Theberyho mlýn a dlouhá mlynářská tradice",
+          "text": "Mlynářství patřilo k hospodářské historii Dojče po staletí: místní prameny zmiňují mlýn už roku 1544. Nejvýraznější kapitolou je Nový, později známý jako Theberyho mlýn, postavený v druhé polovině 19. století poblíž plánované železniční trati mezi Kúty a Trnavou. Původně jej pohánělo vodní kolo s vrchním náhonem. Vlastnictví přešlo přes grófku Teréziu Machatovou a rodinu Tomšových k Janu Theberymu; mlýn pak provozovali členové rodiny s odborným mlynářským vzděláním. V roce 1944 přibyla pila, v roce 1948 začala výstavba nové vícepatrové budovy a po dokončení v roce 1950 byl provoz znárodněn. Potomek mlynářské rodiny Ivan Thebery získal mlýn zpět v roce 1991 a obnovil jeho provoz."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč na konci druhé světové války",
+          "text": "Závěr druhé světové války zasáhl Dojč přímo. Podle místního historického přehledu vstoupily do obce 3. února 1945 turkestánské oddíly Vlasovovy armády. Ve dnech 3. a 4. dubna obec bombardovalo sovětské letectvo; zahynul při tom Ján Klimeš. Německá armáda 6. dubna zničila most přes řeku Myjavu a následující den ustoupila směrem na Unín a Koválov. První kozácké hlídky Rudé armády dorazily 7. dubna kolem desáté hodiny dopoledne a obec byla téhož dne osvobozena. Události připomíná pamětní deska na budově obecního úřadu. Na památníku padlých z první světové války u kostela je navíc dodatečně uvedeno jméno Imricha Gajara, který zahynul v německém koncentračním táboře."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Dojč – Umgebung der Allerheiligenkirche",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vorgeschichtliche und römisch-barbarische Besiedlung im nördlichen Záhorie",
+          "text": "Dojč entstand nicht erst im Mittelalter. Ein kommunales Entwicklungsdokument belegt eine Besiedlung des Gebiets bereits in der Jungsteinzeit, als hier Gemeinschaften der Lengyel-Kultur und der Kultur mit Volutenkeramik lebten. Eine weitere Siedlungsschicht bildet eine römerzeitlich-barbarische Siedlung aus dem 2. und 3. Jahrhundert n. Chr. Archäologische Funde zeigen, dass die Landschaft des heutigen Dojč lange vor der Entstehung des heutigen Dorfes genutzt wurde. Die genauen Fundstellen sind in den öffentlichen Quellen nicht präzise genug beschrieben, um einen einzelnen Kartenpunkt festzulegen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Bleikreuz von Dojč – ein Zeugnis des frühen Christentums",
+          "text": "Im Oktober 2009 fand Slavomír Fordinál auf einem Feld östlich des Dorfes einen kleinen Bleianhänger in Form eines gleicharmigen griechischen Kreuzes. Auf der Vorderseite ist Christus am Kreuz im Flachrelief dargestellt. Das Kreuz misst etwa 33 × 37 mm. Die Fachanalyse von Titus Kolník und Robert Bača ordnet es byzantinischen Brustkreuzen zu, deren Vergleichsstücke vom Ende des 9. bis zum Beginn des 10. Jahrhunderts datiert werden. Blei war ein preiswerterer und leichter zu bearbeitender Ersatz für Silber. Der Fund belegt, dass christliche Symbole im Záhorie bereits zur Zeit des Großmährischen Reiches verbreitet waren. Der Fundort wird nur als Feld östlich des Dorfes beschrieben."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, die Hutterer und der Wandel der Herrschaften",
+          "text": "Dojč wird erstmals 1392 schriftlich erwähnt; die örtliche Pfarrei ist fünf Jahre später belegt. Mittelalterliche Quellen verwenden die Form Doych und unterscheiden auch zwischen Nagydoych und Kysdoych – Groß- und Kleindojč. Das Dorf gehörte zunächst zur Herrschaft Šaštín, ab 1452 zu Holíč und kam 1736 in den Besitz der Habsburger. Gemeindliche Quellen belegen Täufer, in der Slowakei traditionell Hutterer genannt, ab 1574. Diese religiösen Gruppen betonten die Erwachsenentaufe und bildeten eigenständige Gemeinschaften. Die heutige Namensform Dojč setzte sich 1927 durch."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die gotische Allerheiligenkirche und die klassizistische Kapelle",
+          "text": "Das Wahrzeichen von Dojč ist die römisch-katholische Allerheiligenkirche, deren ursprünglicher Baukern gotisch ist und wahrscheinlich aus dem 14. Jahrhundert stammt. Die Pfarrei ist bereits 1397 belegt. Die Kirche wurde 1678 erneuert und in der ersten Hälfte des 18. Jahrhunderts umgebaut; der Turm wurde 1883 erhöht. Im Inneren blieben ein barockes Allerheiligenbild von 1788, Rokoko-Seitenaltäre und ein barockes Taufbecken erhalten. Die achteckige Kapelle der Heiligen Dreifaltigkeit im Ortsteil Závsie wurde 1721 gestiftet und in der ersten Hälfte des 19. Jahrhunderts klassizistisch umgebaut."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Thebery-Mühle und die lange Müllertradition",
+          "text": "Das Müllerhandwerk gehörte über Jahrhunderte zur Wirtschaftsgeschichte von Dojč; örtliche Quellen erwähnen eine Mühle bereits 1544. Die Neue Mühle, später Thebery-Mühle genannt, entstand in der zweiten Hälfte des 19. Jahrhunderts nahe einer geplanten Eisenbahnstrecke zwischen Kúty und Trnava. Ursprünglich trieb sie ein oberschlächtiges Wasserrad an. 1944 kam ein Sägewerk hinzu, 1948 begann der Bau eines neuen mehrstöckigen Gebäudes. Nach dessen Fertigstellung 1950 wurde der Betrieb verstaatlicht. Ivan Thebery erhielt die Mühle 1991 zurück und nahm den Betrieb wieder auf."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč am Ende des Zweiten Weltkriegs",
+          "text": "Das Ende des Zweiten Weltkriegs traf Dojč unmittelbar. Laut einem örtlichen historischen Überblick rückten am 3. Februar 1945 turkestanische Einheiten der Wlassow-Armee in das Dorf ein. Am 3. und 4. April wurde Dojč von sowjetischen Flugzeugen bombardiert; dabei kam Ján Klimeš ums Leben. Die deutsche Armee zerstörte am 6. April die Brücke über die Myjava und zog sich am folgenden Tag zurück. Die Rote Armee befreite Dojč am 7. April 1945. Eine Gedenktafel am Gemeindeamt erinnert an die Befreiung und die Opfer des Krieges."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Dojč – around the All Saints’ Church",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistoric and Roman-period settlement in northern Záhorie",
+          "text": "Dojč did not originate only in the Middle Ages. A municipal development document records settlement here in the Neolithic, including communities associated with the Lengyel culture and Volute pottery. Another layer is a Roman-period and Roman-barbarian settlement dating from the 2nd–3rd centuries AD. The landscape was used long before the modern village took shape. The public sources do not locate the individual finds precisely enough for a reliable map pin."
+        },
+        {
+          "id": "fact_002",
+          "title": "The lead cross from Dojč – evidence of early Christianity",
+          "text": "In October 2009, Slavomír Fordinál discovered a small lead pendant shaped like an equal-armed Greek cross in a ploughed field east of the village. Its front bears a low-relief image of Christ crucified. The cross measures about 33 × 37 mm. The specialist study by Titus Kolník and Robert Bača places it among Byzantine-type pectoral crosses with parallels dating from the late 9th to early 10th century. Lead was a cheaper, easier-to-work alternative to silver. The find shows that Christian symbolism had reached Záhorie by the time of Great Moravia. The findspot is described only as a field east of the village."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, the Anabaptists and changing feudal estates",
+          "text": "Dojč first appears in written records in 1392; its parish is documented five years later. Medieval sources use the form Doych and distinguish Nagydoych and Kysdoych – Great and Little Dojč. The village belonged first to the Šaštín estate, from 1452 to Holíč, and in 1736 passed to the Habsburgs. Municipal sources record Anabaptists, traditionally called Hutterites in Slovakia, in Dojč from 1574. These communities emphasised adult baptism and developed distinctive communal life. The present spelling Dojč became established in 1927."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Gothic All Saints’ Church and the Neoclassical chapel",
+          "text": "The landmark of Dojč is the Roman Catholic All Saints’ Church, whose original structure is Gothic and probably dates from the 14th century. The parish is documented in 1397. The church was renovated in 1678 and rebuilt in the first half of the 18th century; its tower was raised in 1883. Its interior preserves a Baroque All Saints painting from 1788, Rococo side altars and a Baroque font. The octagonal Chapel of the Holy Trinity in Závsie was endowed in 1721 and rebuilt in the Neoclassical style in the first half of the 19th century."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Thebery Mill and a long milling tradition",
+          "text": "Milling was part of Dojč’s economy for centuries; local sources mention a mill as early as 1544. The New Mill, later known as the Thebery Mill, was built in the second half of the 19th century near a planned railway linking Kúty and Trnava. It was originally powered by an overshot waterwheel. A sawmill was added in 1944, and a new multi-storey building was begun in 1948. After completion in 1950, the business was nationalised. Ivan Thebery regained the mill in 1991 and restarted production."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč at the end of the Second World War",
+          "text": "The final phase of the Second World War directly affected Dojč. A local historical account says Turkestan units of the Vlasov Army entered the village on 3 February 1945. Soviet aircraft bombed it on 3 and 4 April, killing Ján Klimeš. The German army destroyed the bridge over the Myjava on 6 April and withdrew the next day. The Red Army liberated Dojč on 7 April 1945. A memorial plaque on the municipal office commemorates the liberation and the victims of the war."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Dojč – entorno de la iglesia de Todos los Santos",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Asentamientos prehistóricos y de época romana en el norte de Záhorie",
+          "text": "Dojč no nació únicamente en la Edad Media. Un documento municipal registra asentamientos en la zona ya en el Neolítico, vinculados a la cultura de Lengyel y a la cerámica de volutas. También hubo un asentamiento romano y romano-bárbaro de los siglos II–III d. C. El paisaje se utilizó mucho antes de formarse el pueblo actual. Las fuentes públicas no sitúan con precisión suficiente los hallazgos individuales para fijar un punto fiable en el mapa."
+        },
+        {
+          "id": "fact_002",
+          "title": "La cruz de plomo de Dojč: testimonio del cristianismo temprano",
+          "text": "En octubre de 2009, Slavomír Fordinál encontró en un campo arado al este del pueblo un pequeño colgante de plomo con forma de cruz griega. En el anverso aparece Cristo crucificado en bajo relieve. La cruz mide unos 33 × 37 mm. El estudio de Titus Kolník y Robert Bača la relaciona con cruces pectorales bizantinas de finales del siglo IX o comienzos del X. El plomo era más barato y fácil de trabajar que la plata. El hallazgo demuestra la presencia de símbolos cristianos en Záhorie en tiempos de la Gran Moravia. El lugar se describe solo como un campo al este del pueblo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, los anabaptistas y los cambios de señorío",
+          "text": "Dojč aparece por primera vez en documentos en 1392; la parroquia local está documentada cinco años después. Las fuentes medievales usan la forma Doych y distinguen Nagydoych y Kysdoych, Dojč Grande y Pequeño. El pueblo perteneció al señorío de Šaštín, desde 1452 al de Holíč y en 1736 pasó a los Habsburgo. Las fuentes municipales registran anabaptistas, tradicionalmente llamados habanos en Eslovaquia, desde 1574. Estas comunidades defendían el bautismo de adultos y una vida comunitaria propia. El nombre actual Dojč se consolidó en 1927."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia gótica de Todos los Santos y la capilla neoclásica",
+          "text": "El principal monumento de Dojč es la iglesia católica de Todos los Santos, cuyo núcleo original es gótico y probablemente data del siglo XIV. La parroquia aparece documentada en 1397. La iglesia fue restaurada en 1678 y reconstruida en la primera mitad del siglo XVIII; la torre se elevó en 1883. Conserva una pintura barroca de Todos los Santos de 1788, altares rococó y una pila bautismal barroca. La capilla octogonal de la Santísima Trinidad, en Závsie, recibió su fundación en 1721 y fue reformada en estilo neoclásico en la primera mitad del siglo XIX."
+        },
+        {
+          "id": "fact_005",
+          "title": "El molino Thebery y una larga tradición molinera",
+          "text": "La molienda formó parte de la economía de Dojč durante siglos: las fuentes locales mencionan un molino ya en 1544. El Molino Nuevo, después conocido como molino Thebery, se construyó en la segunda mitad del siglo XIX cerca de una línea ferroviaria proyectada entre Kúty y Trnava. Funcionaba originalmente con una rueda hidráulica de alimentación superior. En 1944 se añadió un aserradero y en 1948 comenzó la construcción de un nuevo edificio de varias plantas. Tras finalizarse en 1950, el molino fue nacionalizado. Ivan Thebery lo recuperó en 1991 y reanudó la actividad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč al final de la Segunda Guerra Mundial",
+          "text": "La fase final de la Segunda Guerra Mundial afectó directamente a Dojč. Según una crónica local, unidades turquestanas del Ejército de Vlasov entraron en el pueblo el 3 de febrero de 1945. La aviación soviética lo bombardeó los días 3 y 4 de abril y murió Ján Klimeš. El ejército alemán destruyó el puente sobre el río Myjava el 6 de abril y se retiró al día siguiente. El Ejército Rojo liberó Dojč el 7 de abril de 1945. Una placa en el ayuntamiento recuerda la liberación y a las víctimas de la guerra."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Dojč – autour de l’église de Tous-les-Saints",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Occupation préhistorique et romano-barbare du nord de Záhorie",
+          "text": "Dojč ne remonte pas seulement au Moyen Âge. Un document municipal signale une occupation dès le Néolithique, liée à la culture de Lengyel et à la céramique à volutes. Un habitat de l’époque romaine et romano-barbare des IIe–IIIe siècles est également attesté. Le paysage fut utilisé bien avant la formation du village actuel. Les sources publiques ne localisent pas assez précisément les découvertes individuelles pour justifier un point unique sur la carte."
+        },
+        {
+          "id": "fact_002",
+          "title": "La croix en plomb de Dojč, témoignage du christianisme ancien",
+          "text": "En octobre 2009, Slavomír Fordinál a découvert dans un champ à l’est du village un petit pendentif en plomb en forme de croix grecque. Sa face porte une représentation en bas-relief du Christ crucifié. La croix mesure environ 33 × 37 mm. L’étude de Titus Kolník et Robert Bača la rattache aux croix pectorales byzantines de la fin du IXe ou du début du Xe siècle. Le plomb était moins coûteux et plus facile à travailler que l’argent. Cette découverte témoigne de la présence de symboles chrétiens dans le Záhorie à l’époque de la Grande-Moravie. Le lieu est décrit seulement comme un champ à l’est du village."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, les anabaptistes et les changements de seigneurie",
+          "text": "Dojč apparaît dans les sources écrites en 1392 ; sa paroisse est attestée cinq ans plus tard. Les documents médiévaux emploient la forme Doych et distinguent Nagydoych et Kysdoych, Grand et Petit Dojč. Le village dépendit de la seigneurie de Šaštín, puis de celle de Holíč à partir de 1452, avant de passer aux Habsbourg en 1736. Les sources communales signalent des anabaptistes, traditionnellement appelés Habans en Slovaquie, dès 1574. Ces communautés défendaient le baptême des adultes et une vie collective spécifique. Le nom actuel Dojč s’est imposé en 1927."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église gothique de Tous-les-Saints et la chapelle néoclassique",
+          "text": "Le principal monument de Dojč est l’église catholique de Tous-les-Saints, dont le noyau d’origine est gothique et date probablement du XIVe siècle. La paroisse est attestée en 1397. L’église fut restaurée en 1678 puis remaniée dans la première moitié du XVIIIe siècle ; sa tour fut surélevée en 1883. Elle conserve un tableau baroque de 1788, des autels rococo et des fonts baptismaux baroques. La chapelle octogonale de la Sainte-Trinité, dans le quartier de Závsie, fut dotée en 1721 et reconstruite dans un style néoclassique dans la première moitié du XIXe siècle."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le moulin Thebery et une longue tradition meunière",
+          "text": "La meunerie a fait partie de l’économie de Dojč pendant des siècles : les sources locales mentionnent un moulin dès 1544. Le Nouveau Moulin, devenu le moulin Thebery, fut construit dans la seconde moitié du XIXe siècle près d’une ligne ferroviaire projetée entre Kúty et Trnava. Il était entraîné à l’origine par une roue hydraulique à alimentation supérieure. Une scierie fut ajoutée en 1944 et un nouveau bâtiment à plusieurs étages fut entrepris en 1948. Après son achèvement en 1950, l’entreprise fut nationalisée. Ivan Thebery récupéra le moulin en 1991 et relança son activité."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč à la fin de la Seconde Guerre mondiale",
+          "text": "La fin de la Seconde Guerre mondiale a directement touché Dojč. Selon un récit local, des unités turkestanaises de l’armée Vlassov entrèrent dans le village le 3 février 1945. L’aviation soviétique le bombarda les 3 et 4 avril ; Ján Klimeš y périt. L’armée allemande détruisit le pont sur la Myjava le 6 avril et se retira le lendemain. L’Armée rouge libéra Dojč le 7 avril 1945. Une plaque sur la mairie rappelle la libération et les victimes de la guerre."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Dojč – dintorni della chiesa di Ognissanti",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Insediamenti preistorici e romano-barbarici nello Záhorie settentrionale",
+          "text": "Dojč non nacque soltanto nel Medioevo. Un documento comunale attesta insediamenti già nel Neolitico, legati alla cultura di Lengyel e alla ceramica a volute. È attestato anche un insediamento romano e romano-barbarico del II–III secolo d.C. Il paesaggio fu frequentato molto prima della formazione del villaggio moderno. Le fonti pubbliche non localizzano con precisione sufficiente i singoli reperti per fissare un punto affidabile sulla mappa."
+        },
+        {
+          "id": "fact_002",
+          "title": "La croce di piombo di Dojč: testimonianza del primo cristianesimo",
+          "text": "Nell’ottobre 2009 Slavomír Fordinál trovò in un campo arato a est del villaggio un piccolo pendente di piombo a forma di croce greca. Sul lato anteriore è raffigurato a bassorilievo Cristo crocifisso. La croce misura circa 33 × 37 mm. Lo studio di Titus Kolník e Robert Bača la collega alle croci pettorali bizantine della fine del IX o dell’inizio del X secolo. Il piombo era più economico e facile da lavorare dell’argento. Il reperto dimostra la presenza di simboli cristiani nello Záhorie già all’epoca della Grande Moravia. Il luogo è descritto soltanto come un campo a est del villaggio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, gli anabattisti e i cambiamenti di signoria",
+          "text": "Dojč compare per la prima volta nelle fonti scritte nel 1392; la parrocchia è documentata cinque anni dopo. Le fonti medievali usano la forma Doych e distinguono Nagydoych e Kysdoych, Dojč Grande e Piccolo. Il villaggio appartenne alla signoria di Šaštín, dal 1452 a quella di Holíč e nel 1736 passò agli Asburgo. Le fonti comunali attestano dal 1574 la presenza degli anabattisti, tradizionalmente chiamati habáni in Slovacchia. Queste comunità sostenevano il battesimo degli adulti e forme di vita collettiva proprie. Il nome attuale Dojč si affermò nel 1927."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa gotica di Ognissanti e la cappella neoclassica",
+          "text": "Il principale monumento di Dojč è la chiesa cattolica romana di Ognissanti, il cui nucleo originario è gotico e risale probabilmente al XIV secolo. La parrocchia è documentata già nel 1397. La chiesa fu restaurata nel 1678 e ristrutturata nella prima metà del XVIII secolo; la torre venne sopraelevata nel 1883. All’interno si conservano un dipinto barocco del 1788, altari laterali rococò e un fonte battesimale barocco. La cappella ottagonale della Santissima Trinità a Závsie fu dotata nel 1721 e ricostruita in stile neoclassico nella prima metà del XIX secolo."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il mulino Thebery e una lunga tradizione molitoria",
+          "text": "La macinazione dei cereali fece parte per secoli dell’economia di Dojč: le fonti locali menzionano un mulino già nel 1544. Il Nuovo Mulino, in seguito noto come mulino Thebery, fu costruito nella seconda metà del XIX secolo vicino a una linea ferroviaria progettata tra Kúty e Trnava. In origine era azionato da una ruota idraulica ad alimentazione superiore. Nel 1944 fu aggiunta una segheria e nel 1948 iniziò la costruzione di un nuovo edificio multipiano. Dopo il completamento nel 1950, l’attività venne nazionalizzata. Ivan Thebery riottenne il mulino nel 1991 e ne riprese la produzione."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč alla fine della Seconda guerra mondiale",
+          "text": "La fase finale della Seconda guerra mondiale colpì direttamente Dojč. Secondo una ricostruzione locale, il 3 febbraio 1945 entrarono nel villaggio reparti turkestani dell’Armata di Vlasov. L’aviazione sovietica bombardò la località il 3 e 4 aprile; morì Ján Klimeš. L’esercito tedesco distrusse il ponte sul fiume Myjava il 6 aprile e si ritirò il giorno successivo. L’Armata Rossa liberò Dojč il 7 aprile 1945. Una targa sul municipio ricorda la liberazione e le vittime della guerra."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch dorpscentrum van Dojč – rond de Allerheiligenkerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistorische en Romeins-barbaarse bewoning in noordelijk Záhorie",
+          "text": "Dojč ontstond niet pas in de middeleeuwen. Een gemeentelijk document vermeldt bewoning in het neolithicum, verbonden met de Lengyelcultuur en de traditie van voluutkeramiek. Ook een Romeinse en Romeins-barbaarse nederzetting uit de 2e–3e eeuw n.Chr. is bekend. Het landschap werd al lang vóór het huidige dorp gebruikt. De openbare bronnen geven de afzonderlijke vondstlocaties niet nauwkeurig genoeg aan voor één betrouwbaar kaartpunt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het loden kruisje van Dojč – bewijs van het vroege christendom",
+          "text": "In oktober 2009 vond Slavomír Fordinál op een omgeploegd veld ten oosten van het dorp een kleine loden hanger in de vorm van een gelijkarmig Grieks kruis. Op de voorzijde staat Christus aan het kruis in laag reliëf. Het kruisje meet ongeveer 33 × 37 mm. De studie van Titus Kolník en Robert Bača rekent het tot Byzantijnse borstkruisen uit het einde van de 9e of het begin van de 10e eeuw. Lood was goedkoper en makkelijker te bewerken dan zilver. De vondst toont dat christelijke symboliek Záhorie al in de tijd van het Groot-Moravische Rijk had bereikt. De vindplaats wordt alleen omschreven als een veld ten oosten van het dorp."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dojč, de wederdopers en wisselende heerlijkheden",
+          "text": "Dojč wordt voor het eerst schriftelijk vermeld in 1392; de parochie is vijf jaar later gedocumenteerd. Middeleeuwse bronnen gebruiken de naam Doych en onderscheiden Nagydoych en Kysdoych, Groot en Klein Dojč. Het dorp behoorde eerst tot de heerlijkheid Šaštín, vanaf 1452 tot Holíč en kwam in 1736 in Habsburgs bezit. Gemeentelijke bronnen vermelden wederdopers, in Slowakije traditioneel habáni genoemd, vanaf 1574. Deze religieuze gemeenschappen benadrukten de volwassenendoop en vormden eigen gemeenschappen. De huidige schrijfwijze Dojč raakte in 1927 ingeburgerd."
+        },
+        {
+          "id": "fact_004",
+          "title": "De gotische Allerheiligenkerk en de neoklassieke kapel",
+          "text": "Het belangrijkste herkenningspunt van Dojč is de rooms-katholieke Allerheiligenkerk, waarvan de oorspronkelijke kern gotisch is en waarschijnlijk uit de 14e eeuw dateert. De parochie wordt al in 1397 vermeld. De kerk werd in 1678 gerestaureerd en in de eerste helft van de 18e eeuw verbouwd; de toren werd in 1883 verhoogd. Binnen zijn een barok schilderij uit 1788, rococo-zijaltaren en een barok doopvont bewaard gebleven. De achthoekige kapel van de Heilige Drie-eenheid in Závsie werd in 1721 gesticht en in de eerste helft van de 19e eeuw in neoklassieke stijl verbouwd."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Thebery-molen en een lange molenaarsgeschiedenis",
+          "text": "Het malen van graan maakte eeuwenlang deel uit van de economie van Dojč: lokale bronnen vermelden al in 1544 een molen. De Nieuwe Molen, later bekend als de Thebery-molen, werd in de tweede helft van de 19e eeuw gebouwd bij een geplande spoorlijn tussen Kúty en Trnava. Oorspronkelijk werd hij aangedreven door een bovenslagwaterrad. In 1944 kwam er een zagerij bij en in 1948 begon de bouw van een nieuw gebouw met meerdere verdiepingen. Na de voltooiing in 1950 werd het bedrijf genationaliseerd. Ivan Thebery kreeg de molen in 1991 terug en hervatte de productie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Dojč aan het einde van de Tweede Wereldoorlog",
+          "text": "De laatste fase van de Tweede Wereldoorlog trof Dojč rechtstreeks. Volgens een lokale historische beschrijving trokken op 3 februari 1945 Turkestaanse eenheden van het Vlasovleger het dorp binnen. De Sovjetluchtmacht bombardeerde de plaats op 3 en 4 april; Ján Klimeš kwam om het leven. Het Duitse leger vernietigde op 6 april de brug over de Myjava en trok de volgende dag terug. Het Rode Leger bevrijdde Dojč op 7 april 1945. Een gedenkplaat op het gemeentehuis herdenkt de bevrijding en de oorlogsslachtoffers."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
