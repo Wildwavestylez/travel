@@ -44,8 +44,8 @@ Hlavní regionální témata jsou převážně pokryta:
 - Všech 46 záznamů obsahuje všech sedm jazyků: cs, de, en, es, fr, it, nl.
 - Počty faktů v překladových polích odpovídají masterům; v cílené kontrole nebyl zjištěn rozdíl počtů.
 - 0 duplicitních názvů uvnitř jednotlivých PSČ.
-- 31 českých master textů je kratších než 350 znaků.
-- 59 faktů má `location=null` nebo chybějící pole location.
+- Původně 31 českých master textů bylo kratších než 350 znaků; všech 31 bylo rozšířeno a read-back ověřeno (596–724 znaků).
+- Původně 59 faktů mělo `location=null` nebo chybějící pole location; všech 59 poloh je nyní doplněno a read-back ověřeno, aktuálně 0 null poloh.
 - 4 neplatné hodnoty `map_category` byly nalezeny a opraveny.
 - 8 rozdílů `translations.cs` proti českému masteru bylo nalezeno a opraveno.
 - Před publikací nebyly nalezeny mapové body pro 230 faktů s neprázdnou polohou; odpovídá to stavu validated před publikací. Žádné mapové body nebyly ručně vytvořeny ani změněny.
@@ -160,4 +160,4 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 
 ## 7. Přesný další krok
 
-31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Další krok: projít 59 null poloh podle geografické hierarchie prompt_rework a Content Standardu; poté zapracovat/uzavřít témata Třebíč 1468 a Jemnice 1468. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
+31/31 krátkých českých master textů a jejich překladů bylo opraveno a read-back ověřeno. Geografická část je uzavřena: 59/59 původních null poloh doplněno podle hierarchie prompt_rework a Content Standardu, 0 aktuálních null poloh. Další krok: zapracovat/uzavřít témata Třebíč 1468 a Jemnice 1468; poté dokončit otevřené významové kontroly překladů a rychlou kontrolu zjevných duplicit/přiřazení podle oddílu 6. Neopakovat dokončené inventární kontroly ani již ověřené opravy.
