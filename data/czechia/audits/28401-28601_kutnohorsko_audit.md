@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; zbývá jeden krátký text a povinná kontrola mezinárodní srozumitelnosti.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti, dosud cíleně upraveny čtyři fakty v 28401. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -130,6 +130,20 @@ Cíleně opravené překladové nedostatky:
 
 Read-back potvrdil opravené texty a synchronizaci českých masterů. U pěti nových faktů byly ověřeny všechny překladové texty; jejich délka činí nejméně 74 % českého masteru.
 
+
+
+### Průběžná kontrola mezinárodní srozumitelnosti — 28401
+
+Při samostatném čtenářském testu cizojazyčných verzí byly zjištěny chybějící kontextové výklady u čtyř faktů. Nešlo o chybné překlady jednotlivých vět, ale o pojmy, jejichž význam není zahraničnímu čtenáři zřejmý bez znalosti českých dějin:
+
+- **fact_003 — Kutnohorský dekret:** výraz „český/bohémský univerzitní národ“ byl ve všech šesti jazycích doplněn vysvětlením, že šlo o jednu ze čtyř korporativních skupin pražské univerzity (vedle bavorské, saské a polské), tedy o středověkou univerzitní příslušnost, nikoli moderní státní příslušnost.
+- **fact_005 — utrakvistická správa:** ve všech šesti jazycích je nyní vysvětleno, že utrakvisté byli stoupenci české reformní tradice spojené s husitstvím a že jejich charakteristickým rysem bylo přijímání pod obojí způsobou — chléb i víno.
+- **fact_016 — Fidlovačka:** všech šest překladů nyní vysvětluje, že Fidlovačka byla tradiční jarní slavností pražských ševců a že Tyl převzal její prostředí jako námět a titul divadelní frašky.
+- **fact_019 — vypálení Kutné Hory 1424:** všech šest překladů nyní stručně zasazuje událost do husitských válek, vysvětluje postavení Jana Žižky jako významného husitského vojevůdce a Táboritů jako radikálního proudu husitského hnutí.
+
+Doplnění vychází z odborných a institucionálních zdrojů: studie o univerzitních „národech“ a dekretu (https://www.cambridge.org/core/journals/austrian-history-yearbook/article/abs/bridging-fiction-and-reality-sigismund-of-luxembourg-the-hussites-and-the-university-of-vienna/9D10EEF04D78107D2AA0D55A80F21AEC; https://www.flu.cas.cz/images/dokumenty/verejne/vyrocni_zpravy/vyrocni_zprava_FLU_2010.pdf), odborný výklad utrakvismu (https://isidore.co/misc/Res%20pro%20Deo/Journals/Catholic%20Historical%20Review%20%281995-2023%29/2006_Volume92_Number4.pdf), publikace Úřadu vlády k české hymně a Fidlovačce (https://www.vlada.cz/assets/urad-vlady/vydavatelstvi/vydane-publikace/Hymna.pdf) a odborný historický kontext husitských válek. Read-back v Supabase potvrdil doplnění všech čtyř kontextových vysvětlení ve všech šesti jazycích (24/24 jazykových položek). Český master ani translations.cs nebyly změněny.
+
+Tato kontrola je průběžná, nikoli dokončená pro celý blok. Neznamená automatické schválení ostatních 276 faktů.
 
 ## 6. Délka českých master textů
 
