@@ -386,7 +386,7 @@ Do not combine several unrelated attractions into one overloaded fact merely bec
 
 ### 10.1 Writing quality
 
-Write independent, readable, source-based popular history and cultural/geographic storytelling — not advertising, a bare catalogue or an academic paper. Target an average of approximately 500–600 characters including spaces per fact in the base language. Treat this as an editorial average, not a mechanical per-fact limit; never pad a weak subject to reach it.
+Write independent, readable, source-based popular history and cultural/geographic storytelling — not advertising, a bare catalogue or an academic paper. The canonical master text in `facts[].title/text` is Czech (`cs`). Every Czech `facts[].text` must contain at least **350 characters including spaces**. This is a hard minimum for each Czech fact, not an average and not a requirement for Italian. Aim for approximately 500–600 characters where the verified subject supports that depth, but never pad a weak subject. If 350 characters cannot be reached with relevant, verified information, mark that fact `REVIEW REQUIRED` rather than adding filler.
 
 - Start with the actual subject or an interesting supported connection.
 - Explain what the place is and why it matters.
@@ -585,14 +585,15 @@ When the user explicitly asks to rework or audit an existing CAP or CAP range, t
 
 This includes:
 - correcting demonstrably wrong, copied, missing, empty, truncated, corrupted or mistranslated `translations[lang].facts[].title/text` values;
-- creating a correct independent translation from the Italian master when one or more language fields contain another language's text;
-- ensuring `translations.it` exactly mirrors the Italian master `facts[].title/text`;
+- creating correct independent translations from the Czech master (`facts[].title/text`) when one or more language fields contain another language's text;
+- ensuring `translations.cs` exactly mirrors the Czech master `facts[].title/text`;
+- ensuring `translations.it` is a faithful Italian translation of the Czech master, not the master source;
 - correcting clear spelling, grammar, agreement, punctuation and transliteration errors in translations;
 - correcting other objectively verifiable, low-risk record errors when the applicable prompt explicitly permits that class of correction.
 
 For translations, match exclusively by stable fact ID, preserve the exact fact meaning, names, dates, nuance and uncertainty, and retain a correct existing translation (including Dutch) rather than rewriting it unnecessarily. Change only the affected `title` and `text` fields. Preserve IDs, order, master facts, sources, locations, categories, priorities, verification data and all unrelated JSONB content.
 
-If the Italian master itself is factually uncertain, source evidence conflicts, a correction would require guessing, or the change would alter editorial meaning, CAP assignment, schema, database structure, sequence, publication state or another protected area, do not make that change automatically. Record the precise issue as `REVIEW REQUIRED` and ask only for the decision that is genuinely needed.
+If the Czech master itself is factually uncertain, source evidence conflicts, a correction would require guessing, or the change would alter editorial meaning, CAP assignment, schema, database structure, sequence, publication state or another protected area, do not make that change automatically. Record the precise issue as `REVIEW REQUIRED` and ask only for the decision that is genuinely needed.
 
 After every write, read the row back from Neon and verify the changed fields, all seven language versions, fact IDs and order, and preservation of unrelated data. Keep `workflow_status` unchanged during ordinary rework and audit corrections. This authority never permits publication, backup, read-only locking, schema changes or edits outside the explicitly requested scope.
 
