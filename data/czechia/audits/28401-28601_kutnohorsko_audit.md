@@ -207,6 +207,7 @@ Dokončeno:
 - inventář a porovnání 36/36 PSČ a **280 faktů**;
 - doplnění tří samostatných osobnostních příběhů Kutné Hory, vypálení města roku 1424 a Čáslavského sněmu roku 1421;
 - sémantická kontrola všech 280 faktů v šesti cizojazyčných překladech;
+- průběžný čtenářský test mezinárodní srozumitelnosti: čtyři tematicky problematické fakty v 28401 doplněny ve všech šesti cizojazyčných verzích (24/24 read-back ověřeno);
 - 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů translations.cs proti masteru, 0 prázdných překladových polí a 0 cizojazyčných textů pod 35 % délky masteru;
 - 0 explicitních location = null a 0 chybějících vlastností location v celém rozsahu;
 - 0 neplatných souřadnicových rozsahů a 0 neúplných metadat u vyplněných poloh;
@@ -214,7 +215,7 @@ Dokončeno:
 - oprava mapových kategorií, normalizace typů poloh a normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
-1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny pouze nově upravené překlady `28522/fact_008` a šest překladů `28563/fact_004`;
+1. dokončit povinnou kontrolu mezinárodní srozumitelnosti a kulturního kontextu všech šesti cizojazyčných sad napříč 280 fakty; zatím byly v tomto ohledu cíleně prověřeny nově upravené překlady `28522/fact_008`, `28563/fact_004` a `28401/fact_003`, `fact_005`, `fact_016`, `fact_019`;
 2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
