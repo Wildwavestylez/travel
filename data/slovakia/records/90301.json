@@ -1,4 +1,718 @@
 {
   "postcode": "90301",
-  "status": "placeholder"
+  "city": "Senec",
+  "district": null,
+  "county": "Senec",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Senca – okolí Mierového náměstí a Tureckého domu",
+  "representative_point": {
+    "lat": 48.220843,
+    "lon": 17.399594
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Senec: středověké tržní městečko na cestách mezi Prešpurkem a Uhrami",
+      "text": "Senec se v písemných pramenech objevuje roku 1252 jako villa Zemch. Jeho poloha na rozhraní Podunajské pahorkatiny a Podunajské nížiny mu pomohla vyrůst v přirozené středisko okolí: týdenní trhy jsou doloženy od roku 1333 a od roku 1412 se zde vybíralo mýto na důležitých obchodních cestách. V 15. století stálo ve městě opevněné sídlo, od něhož se odvozuje německé jméno Wartberg – „strážní vrch“. Na Mierovém náměstí stojí také pranýř z roku 1552. Záznam z roku 1609 vypráví o muži obviněném z očarování úrody cibule; dokládá dobové pověry, nikoli skutečné čarodějnictví.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/historia-mesta/",
+        "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+        "https://senec.oma.sk/u/mierove-namestie"
+      ],
+      "location": {
+        "name": "Historické centrum Senca – Mierové námestie",
+        "lat": 48.220263,
+        "lon": 17.397522,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://senec.oma.sk/u/mierove-namestie",
+        "address": "Mierové námestie, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Collegium Oeconomicum: mimořádná tereziánská škola a její mapy",
+      "text": "Dne 14. září 1763 založila Marie Terezie v Senci Collegium Oeconomicum, odbornou školu hospodářského a technického zaměření podporovanou uherským dvorským kancléřem Františkem Esterházym. Vyučovali zde piaristé a studenti se vedle účetnictví, správy panství a ekonomie učili praktické geodézii, trigonometrickému měření, kartografii, mapování i technickému kreslení. V rámci výuky vytvářeli mapy okolních obcí a krajiny; odborná studie eviduje 33 dochovaných map vytvořených posluchači. Škola zanikla po ničivém požáru Senca 24. června 1776. Její hlavní sídlo, Malý Štift, stálo v místě dnešní maďarské základní školy na Náměstí Alberta Molnára; pro ubytování piaristů se využívala také část sousedního Velkého Štiftu. Nešlo tedy o jedinou budovu a pozdější literatura obě lokality někdy zaměňovala.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "science_site",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/historia-mesta/",
+        "https://www.slovakcarto.sk/docs/HM2013.pdf",
+        "https://senec.oma.sk/u/namestie-alberta-molnara/2"
+      ],
+      "location": {
+        "name": "Místo někdejšího Malého Štiftu – dnešní ZŠ A. Molnára Szencziho",
+        "lat": 48.220303,
+        "lon": 17.394696,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://senec.oma.sk/u/namestie-alberta-molnara/2",
+        "address": "Námestie Alberta Molnára 2, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Židovský Senec: synagoga, mikve a zaniklá komunita",
+      "text": "Organizovaná židovská obec v Senci se rozvíjela od první třetiny 19. století. V roce 1828 zde žilo 69 židovských obyvatel, roku 1900 už 414 a při sčítání v roce 1930 dosáhla komunita 502 lidí, tedy přibližně devíti procent obyvatel města. Nová ortodoxní synagoga na Mierovém náměstí vznikla v letech 1905–1906; její průčelí spojuje neorománské a maurské prvky, růžicové okno, podkovovitý portál a židovské symboly. Za budovou fungovaly další obecní instituce a rituální lázeň mikve, jejíž pozůstatky odkryl archeologický výzkum v roce 2012. Většina seneckých Židů zahynula během holokaustu. Po válce se část přeživších pokusila obnovit komunitní život, ten však později zničily také komunistické represe. Synagoga byla roku 1957 zabrána státem a využívána jako sklad; dnes se obnovuje jako kulturní prostor a připomínka zaniklé komunity.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.synagogasenec.sk/en/",
+        "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+        "https://www.senec.sk/wp-content/uploads/2024/08/vzn_o_pamatihodnostiach_mesta_senec.pdf"
+      ],
+      "location": {
+        "name": "Synagoga v Senci",
+        "lat": 48.220216,
+        "lon": 17.397589,
+        "type": "synagogue",
+        "accuracy": "exact",
+        "source": "https://commons.wikimedia.org/wiki/Category:Synagogue_in_Senec",
+        "address": "Mierové námestie 12, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Sluneční jezera: rekreační krajina vytvořená těžbou štěrku",
+      "text": "Sluneční jezera nejsou přírodním jezerem, ale krajinou, kterou zásadně přetvořila průmyslová těžba. Od roku 1845 se zde bagroval štěrk pro stavbu železnice mezi Bratislavou a Galantou. Postupně vzniklo pět samostatných vodních ploch, které se těžbou spojily do jednoho rozsáhlého jezera o rozloze přes 100 hektarů; těžba pokračovala až do roku 1981. Už v roce 1919 navrhla Slovenská beseda v Senci využít část vody jako přírodní koupaliště. Areál se tehdy nazýval Bager a krátce také Slovenské Tahiti. Současné jméno Slnečné jazerá vzešlo z veřejné soutěže v roce 1960.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "map_category": "nature",
+      "sources": [
+        "https://archiv.senec.sk/sk/clanok/co-o-nich-vieme",
+        "https://www.senec.sk/wp-content/uploads/2025/06/Navrh_US_Slnecne_jazera_Senec-Textova_cast.pdf",
+        "https://www.senec.sk/aktuality/2026/videa-z-archivu-stvr-senecke-leto/",
+        "https://senec.oma.sk/u/slnecne-jazera"
+      ],
+      "location": {
+        "name": "Sluneční jezera – orientační bod u severního břehu",
+        "lat": 48.22094,
+        "lon": 17.422991,
+        "type": "natural_feature",
+        "accuracy": "area_representative",
+        "source": "https://senec.oma.sk/u/slnecne-jazera/159A",
+        "address": "Slnečné jazerá, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Turecký dům: renesanční kurie, která hostila bratislavskou župu",
+      "text": "Turecký dům na náměstí 1. mája patří k nejvýraznějším renesančním stavbám Senca. Kolem let 1556–1560 jej nechal postavit bratislavský župan Krištof Batthyány. Dvoupodlažní kurie s nárožní válcovou věží, obloučkovou atikou a střílnami působí jako malá pevnost, skutečnou vojenskou pevností však nebyla. V letech 1615 až 18. století se v ní konala zasedání představitelů Bratislavské župy a později sloužila správním a kulturním účelům. Budova zažila také turecký útok na Senec v roce 1663. Po období chátrání prošla roku 1994 rozsáhlou obnovou; dnes v ní sídlí městské muzeum a turistické informační centrum.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+        "https://www.msks-senec.sk/turecky-dom/",
+        "https://www.ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Kastiele-a-kurie-Bratislavkej-zupy_2011small.pdf",
+        "https://www.pamiatkynaslovensku.sk/senec-turecky-dom"
+      ],
+      "location": {
+        "name": "Turecký dům – městské muzeum",
+        "lat": 48.220843,
+        "lon": 17.399594,
+        "type": "historic_villa",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/senec-turecky-dom",
+        "address": "Námestie 1. mája 53/4, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Kostel svatého Mikuláše: gotické kořeny a barokní proměna",
+      "text": "Kostel svatého Mikuláše stojí na návrší jihozápadní části historického centra a je nejstarší dochovanou uměleckohistorickou dominantou Senca. První písemná zmínka o zdejší faře pochází z roku 1308, kostel zasvěcený svatému Mikuláši je doložen v roce 1326. Původně raně gotická stavba byla opakovaně upravována: renesanční přestavba se datuje do roku 1633 a zásadní barokní úprava do roku 1740. V interiéru se dochovaly čtyři rokokové oltáře, hlavní zasvěcený svatému Mikuláši. Areál doplňuje ohrazený prostor s křížovou cestou, Kalvárie z roku 1934 a Lurdská jeskyně.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+        "https://www.senec.sk/zivot-v-meste/o-meste/historia-mesta/",
+        "https://mojafarnost.sk/kostoly/kostol-senec-sv-mikulasa"
+      ],
+      "location": {
+        "name": "Kostel svatého Mikuláše v Senci",
+        "lat": 48.21957,
+        "lon": 17.39441,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://mapcarta.com/W61387066",
+        "address": "Farské námestie, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Velký Štift: od esterházyovské kurie k polepšovně a vojenské škole",
+      "text": "Velký Štift je rozsáhlý historický areál na Vinohradnické ulici, původně spojený s rodem Esterházyů. V 18. století získal neobvyklé sociální a vzdělávací funkce: roku 1773 zde Marie Terezie zřídila ženskou polepšovnu, jejíž chovanky pracovaly také v textilní manufaktuře. Roku 1780 byl v části objektu založen městský sirotčinec a po přestěhování polepšovny zde roku 1782 vzniklo vojenské učiliště připravující budoucí důstojníky. Areál tvoří více staveb a jeho dějiny se prolínají s příběhem Collegia Oeconomicum, které využívalo Malý Štift a část Velkého Štiftu pro ubytování piaristů. Hlavní sídlo ekonomického kolégia však bylo v Malém Štiftu.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "map_category": "architecture",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+        "https://www.senec.sk/wp-content/uploads/2024/09/A.Navrh_UPN_Senec-Smerna_cast.pdf",
+        "https://www.slovakcarto.sk/docs/HM2013.pdf"
+      ],
+      "location": {
+        "name": "Velký Štift – areál, orientační bod u Vinohradnické 10",
+        "lat": 48.224086,
+        "lon": 17.396142,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://senec.oma.sk/u/vinohradnicka/10",
+        "address": "Vinohradnícka 10, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Albert Molnár Szenczi: rodák, který ovlivnil maďarský jazyk",
+      "text": "V Senci se 30. srpna 1574 narodil Albert Molnár Szenczi, kalvínský duchovní, humanista, básník, teolog a překladatel. Studoval mimo jiné v Győru, Debrecínu, Wittenbergu, Heidelbergu a Štrasburku a velkou část života strávil v evropských vzdělaneckých centrech. Proslavil se především latinsko-maďarským a maďarsko-latinským slovníkem, který se v upravovaných vydáních používal až do poloviny 19. století, a překlady 150 žalmů do maďarštiny z němčiny a francouzštiny. Jeho práce významně přispěla k rozvoji maďarského spisovného a odborného jazyka i reformované duchovní kultury. Senec jeho odkaz připomíná sochou s knihou na náměstí nesoucím jeho jméno.",
+      "category": "people",
+      "priority": "B",
+      "map_category": "personality",
+      "sources": [
+        "https://www.senec.sk/zivot-v-meste/o-meste/vyznamne-osobnosti/albert-molnar-szenczi/",
+        "https://www.senec.sk/aktuality/2025/albert-molnar-szenczi/",
+        "https://real-j.mtak.hu/13889/2/MagyarK%C3%B6nyvszemle2019.1.Bel%C3%ADv.pdf"
+      ],
+      "location": {
+        "name": "Socha Alberta Molnára Szencziho – orientační bod na jeho náměstí",
+        "lat": 48.220115,
+        "lon": 17.394898,
+        "type": "sculpture",
+        "accuracy": "approximate",
+        "source": "https://senec.oma.sk/u/namestie-alberta-molnara",
+        "address": "Námestie Alberta Molnára, 903 01 Senec, Slovensko"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Senecký mamut: mimořádně zachovaná kostra z cihelny",
+      "text": "Při těžbě cihlářské hlíny v senecké cihelně byla roku 1961 odkryta kostra mamuta srstnatého (Mammuthus primigenius). Paleontologové ji dokázali zachránit a dochovala se přibližně z 60 procent, což z ní činí jeden z nejvýznamnějších mamutích nálezů na Slovensku. Odborná literatura uvádí asi 230 lokalit s mamutími kostmi či zuby na území země; senecký nález je nejkompletnější. Kostra je uložena v Přírodovědném muzeu Slovenského národního muzea v Bratislavě. Městské muzeum v Senci příběh nálezu připomíná ve své přírodovědné expozici. Přesné místo původního výkopu v někdejší cihelně není ve veřejných podkladech vymezeno natolik přesně, aby bylo možné bezpečně umístit bod na mapu.",
+      "category": "other_verified_significance",
+      "priority": "B",
+      "map_category": "science_site",
+      "sources": [
+        "https://msks-senec.sk/senecky-mamut-51-rokov-od-jeho-objavu-prednaska-24-oktober-2012-19-00/",
+        "https://www.fpv.umb.sk/app/cmsFile.php?ID=19708&disposition=a",
+        "https://msks-senec.sk/expozicie/expozicia-prirody/"
+      ],
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam Slovenské pošty uvádí Poštu Senec, Bratislavská 1, 903 01 Senec; adresní body OMA/OSM potvrzují PSČ 903 01 na různých místech města včetně centra, Vinohradnické ulice a Slunečních jezer.",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Záznam reprezentuje obec Senec v okrese Senec a Bratislavském kraji. Fyzické adresy městských a kulturních objektů i areálu Slunečních jezer jsou uváděny s PSČ 903 01; mapová data OMA/OSM zobrazují kód 90301 pro Senec. Je doložena geografická vazba na více částí města, nikoli přesný polygon ani tvrzení, že každá adresa v celém katastru Senec používá stejné PSČ. Reprezentativní bod odpovídá Tureckému domu; samostatný navigační access point nebyl stanoven."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – oficiální seznam pošt a PSČ",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – Historie města",
+      "url": "https://www.senec.sk/zivot-v-meste/o-meste/historia-mesta/",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – Pamětihodnosti",
+      "url": "https://www.senec.sk/zivot-v-meste/o-meste/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Mierové námestie",
+      "url": "https://senec.oma.sk/u/mierove-namestie",
+      "type": "other"
+    },
+    {
+      "title": "Historické mapy 2013 – Collegium oeconomicum",
+      "url": "https://www.slovakcarto.sk/docs/HM2013.pdf",
+      "type": "university"
+    },
+    {
+      "title": "OMA – Námestie Alberta Molnára 2",
+      "url": "https://senec.oma.sk/u/namestie-alberta-molnara/2",
+      "type": "other"
+    },
+    {
+      "title": "Židovský Senec – synagoga a komunita",
+      "url": "https://www.synagogasenec.sk/en/",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – seznam památkově chráněných objektů",
+      "url": "https://www.senec.sk/wp-content/uploads/2024/08/vzn_o_pamatihodnostiach_mesta_senec.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – Urbanistická studie Slunečních jezer",
+      "url": "https://www.senec.sk/wp-content/uploads/2025/06/Navrh_US_Slnecne_jazera_Senec-Textova_cast.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – historie Slunečních jezer",
+      "url": "https://archiv.senec.sk/sk/clanok/co-o-nich-vieme",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – Senecké leto 2026",
+      "url": "https://www.senec.sk/aktuality/2026/videa-z-archivu-stvr-senecke-leto/",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Sluneční jezera",
+      "url": "https://senec.oma.sk/u/slnecne-jazera",
+      "type": "other"
+    },
+    {
+      "title": "OMA – Sluneční jezera 159A",
+      "url": "https://senec.oma.sk/u/slnecne-jazera/159A",
+      "type": "other"
+    },
+    {
+      "title": "Městské muzeum – Turecký dům",
+      "url": "https://www.msks-senec.sk/turecky-dom/",
+      "type": "museum"
+    },
+    {
+      "title": "AINova / Bratislavský kraj – Kaštiele a kúrie",
+      "url": "https://www.ainova.sk/wp-content/uploads/2020/06/BSK_ZBORNIK_Kastiele-a-kurie-Bratislavkej-zupy_2011small.pdf",
+      "type": "regional"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Turecký dům",
+      "url": "https://www.pamiatkynaslovensku.sk/senec-turecky-dom",
+      "type": "specialist"
+    },
+    {
+      "title": "Mapcarta / OSM – Kostel svatého Mikuláše",
+      "url": "https://mapcarta.com/W61387066",
+      "type": "other"
+    },
+    {
+      "title": "Farnost Senec – Kostel svatého Mikuláše",
+      "url": "https://mojafarnost.sk/kostoly/kostol-senec-sv-mikulasa",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – návrh územního plánu: Velký Štift",
+      "url": "https://www.senec.sk/wp-content/uploads/2024/09/A.Navrh_UPN_Senec-Smerna_cast.pdf",
+      "type": "official"
+    },
+    {
+      "title": "OMA – Vinohradnícka 10",
+      "url": "https://senec.oma.sk/u/vinohradnicka/10",
+      "type": "other"
+    },
+    {
+      "title": "Město Senec – Albert Molnár Szenczi",
+      "url": "https://www.senec.sk/zivot-v-meste/o-meste/vyznamne-osobnosti/albert-molnar-szenczi/",
+      "type": "official"
+    },
+    {
+      "title": "Město Senec – Albert Molnár Szenczi 2025",
+      "url": "https://www.senec.sk/aktuality/2025/albert-molnar-szenczi/",
+      "type": "official"
+    },
+    {
+      "title": "Hungarian Book Review – Szenci Molnár Albert",
+      "url": "https://real-j.mtak.hu/13889/2/MagyarK%C3%B6nyvszemle2019.1.Bel%C3%ADv.pdf",
+      "type": "university"
+    },
+    {
+      "title": "OMA – Námestie Alberta Molnára",
+      "url": "https://senec.oma.sk/u/namestie-alberta-molnara",
+      "type": "other"
+    },
+    {
+      "title": "Městské muzeum – Senecký mamut",
+      "url": "https://msks-senec.sk/senecky-mamut-51-rokov-od-jeho-objavu-prednaska-24-oktober-2012-19-00/",
+      "type": "museum"
+    },
+    {
+      "title": "Geografická revue UMB – mamutí nález v Senci",
+      "url": "https://www.fpv.umb.sk/app/cmsFile.php?ID=19708&disposition=a",
+      "type": "university"
+    },
+    {
+      "title": "Městské muzeum – Přírodovědná expozice",
+      "url": "https://msks-senec.sk/expozicie/expozicia-prirody/",
+      "type": "museum"
+    },
+    {
+      "title": "Wikimedia Commons – Synagoga v Senci",
+      "url": "https://commons.wikimedia.org/wiki/Category:Synagogue_in_Senec",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Senca – okolí Mierového náměstí a Tureckého domu",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: středověké tržní městečko na cestách mezi Prešpurkem a Uhrami",
+          "text": "Senec se v písemných pramenech objevuje roku 1252 jako villa Zemch. Jeho poloha na rozhraní Podunajské pahorkatiny a Podunajské nížiny mu pomohla vyrůst v přirozené středisko okolí: týdenní trhy jsou doloženy od roku 1333 a od roku 1412 se zde vybíralo mýto na důležitých obchodních cestách. V 15. století stálo ve městě opevněné sídlo, od něhož se odvozuje německé jméno Wartberg – „strážní vrch“. Na Mierovém náměstí stojí také pranýř z roku 1552. Záznam z roku 1609 vypráví o muži obviněném z očarování úrody cibule; dokládá dobové pověry, nikoli skutečné čarodějnictví."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: mimořádná tereziánská škola a její mapy",
+          "text": "Dne 14. září 1763 založila Marie Terezie v Senci Collegium Oeconomicum, odbornou školu hospodářského a technického zaměření podporovanou uherským dvorským kancléřem Františkem Esterházym. Vyučovali zde piaristé a studenti se vedle účetnictví, správy panství a ekonomie učili praktické geodézii, trigonometrickému měření, kartografii, mapování i technickému kreslení. V rámci výuky vytvářeli mapy okolních obcí a krajiny; odborná studie eviduje 33 dochovaných map vytvořených posluchači. Škola zanikla po ničivém požáru Senca 24. června 1776. Její hlavní sídlo, Malý Štift, stálo v místě dnešní maďarské základní školy na Náměstí Alberta Molnára; pro ubytování piaristů se využívala také část sousedního Velkého Štiftu. Nešlo tedy o jedinou budovu a pozdější literatura obě lokality někdy zaměňovala."
+        },
+        {
+          "id": "fact_003",
+          "title": "Židovský Senec: synagoga, mikve a zaniklá komunita",
+          "text": "Organizovaná židovská obec v Senci se rozvíjela od první třetiny 19. století. V roce 1828 zde žilo 69 židovských obyvatel, roku 1900 už 414 a při sčítání v roce 1930 dosáhla komunita 502 lidí, tedy přibližně devíti procent obyvatel města. Nová ortodoxní synagoga na Mierovém náměstí vznikla v letech 1905–1906; její průčelí spojuje neorománské a maurské prvky, růžicové okno, podkovovitý portál a židovské symboly. Za budovou fungovaly další obecní instituce a rituální lázeň mikve, jejíž pozůstatky odkryl archeologický výzkum v roce 2012. Většina seneckých Židů zahynula během holokaustu. Po válce se část přeživších pokusila obnovit komunitní život, ten však později zničily také komunistické represe. Synagoga byla roku 1957 zabrána státem a využívána jako sklad; dnes se obnovuje jako kulturní prostor a připomínka zaniklé komunity."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sluneční jezera: rekreační krajina vytvořená těžbou štěrku",
+          "text": "Sluneční jezera nejsou přírodním jezerem, ale krajinou, kterou zásadně přetvořila průmyslová těžba. Od roku 1845 se zde bagroval štěrk pro stavbu železnice mezi Bratislavou a Galantou. Postupně vzniklo pět samostatných vodních ploch, které se těžbou spojily do jednoho rozsáhlého jezera o rozloze přes 100 hektarů; těžba pokračovala až do roku 1981. Už v roce 1919 navrhla Slovenská beseda v Senci využít část vody jako přírodní koupaliště. Areál se tehdy nazýval Bager a krátce také Slovenské Tahiti. Současné jméno Slnečné jazerá vzešlo z veřejné soutěže v roce 1960."
+        },
+        {
+          "id": "fact_005",
+          "title": "Turecký dům: renesanční kurie, která hostila bratislavskou župu",
+          "text": "Turecký dům na náměstí 1. mája patří k nejvýraznějším renesančním stavbám Senca. Kolem let 1556–1560 jej nechal postavit bratislavský župan Krištof Batthyány. Dvoupodlažní kurie s nárožní válcovou věží, obloučkovou atikou a střílnami působí jako malá pevnost, skutečnou vojenskou pevností však nebyla. V letech 1615 až 18. století se v ní konala zasedání představitelů Bratislavské župy a později sloužila správním a kulturním účelům. Budova zažila také turecký útok na Senec v roce 1663. Po období chátrání prošla roku 1994 rozsáhlou obnovou; dnes v ní sídlí městské muzeum a turistické informační centrum."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kostel svatého Mikuláše: gotické kořeny a barokní proměna",
+          "text": "Kostel svatého Mikuláše stojí na návrší jihozápadní části historického centra a je nejstarší dochovanou uměleckohistorickou dominantou Senca. První písemná zmínka o zdejší faře pochází z roku 1308, kostel zasvěcený svatému Mikuláši je doložen v roce 1326. Původně raně gotická stavba byla opakovaně upravována: renesanční přestavba se datuje do roku 1633 a zásadní barokní úprava do roku 1740. V interiéru se dochovaly čtyři rokokové oltáře, hlavní zasvěcený svatému Mikuláši. Areál doplňuje ohrazený prostor s křížovou cestou, Kalvárie z roku 1934 a Lurdská jeskyně."
+        },
+        {
+          "id": "fact_007",
+          "title": "Velký Štift: od esterházyovské kurie k polepšovně a vojenské škole",
+          "text": "Velký Štift je rozsáhlý historický areál na Vinohradnické ulici, původně spojený s rodem Esterházyů. V 18. století získal neobvyklé sociální a vzdělávací funkce: roku 1773 zde Marie Terezie zřídila ženskou polepšovnu, jejíž chovanky pracovaly také v textilní manufaktuře. Roku 1780 byl v části objektu založen městský sirotčinec a po přestěhování polepšovny zde roku 1782 vzniklo vojenské učiliště připravující budoucí důstojníky. Areál tvoří více staveb a jeho dějiny se prolínají s příběhem Collegia Oeconomicum, které využívalo Malý Štift a část Velkého Štiftu pro ubytování piaristů. Hlavní sídlo ekonomického kolégia však bylo v Malém Štiftu."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: rodák, který ovlivnil maďarský jazyk",
+          "text": "V Senci se 30. srpna 1574 narodil Albert Molnár Szenczi, kalvínský duchovní, humanista, básník, teolog a překladatel. Studoval mimo jiné v Győru, Debrecínu, Wittenbergu, Heidelbergu a Štrasburku a velkou část života strávil v evropských vzdělaneckých centrech. Proslavil se především latinsko-maďarským a maďarsko-latinským slovníkem, který se v upravovaných vydáních používal až do poloviny 19. století, a překlady 150 žalmů do maďarštiny z němčiny a francouzštiny. Jeho práce významně přispěla k rozvoji maďarského spisovného a odborného jazyka i reformované duchovní kultury. Senec jeho odkaz připomíná sochou s knihou na náměstí nesoucím jeho jméno."
+        },
+        {
+          "id": "fact_009",
+          "title": "Senecký mamut: mimořádně zachovaná kostra z cihelny",
+          "text": "Při těžbě cihlářské hlíny v senecké cihelně byla roku 1961 odkryta kostra mamuta srstnatého (Mammuthus primigenius). Paleontologové ji dokázali zachránit a dochovala se přibližně z 60 procent, což z ní činí jeden z nejvýznamnějších mamutích nálezů na Slovensku. Odborná literatura uvádí asi 230 lokalit s mamutími kostmi či zuby na území země; senecký nález je nejkompletnější. Kostra je uložena v Přírodovědném muzeu Slovenského národního muzea v Bratislavě. Městské muzeum v Senci příběh nálezu připomíná ve své přírodovědné expozici. Přesné místo původního výkopu v někdejší cihelně není ve veřejných podkladech vymezeno natolik přesně, aby bylo možné bezpečně umístit bod na mapu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historisches Zentrum von Senec – rund um den Mierové-Platz und das Türkische Haus",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: mittelalterlicher Marktort zwischen Pressburg und Ungarn",
+          "text": "Senec wird 1252 als villa Zemch erwähnt. Seine Lage zwischen Donauhügelland und Donauebene machte es zum regionalen Zentrum: Märkte sind seit 1333 belegt, Zoll wurde ab 1412 erhoben. Eine befestigte Anlage aus dem 15. Jahrhundert gab dem Ort den deutschen Namen Wartberg, „Wachberg“. Auf dem Mierové-Platz steht ein Pranger von 1552. Ein Eintrag von 1609 berichtet von einem Mann, der beschuldigt wurde, die Zwiebelernte verzaubert zu haben; er belegt damalige Vorstellungen, nicht tatsächliche Hexerei."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: eine außergewöhnliche Theresianische Schule",
+          "text": "Maria Theresia gründete 1763 das Collegium Oeconomicum in Senec. Die Piaristen lehrten Geodäsie, Vermessung, Kartografie und technisches Zeichnen sowie Buchführung und Gutsverwaltung. Studenten fertigten Karten der Umgebung an; 33 Karten sind erhalten. Nach dem Stadtbrand von 1776 wurde die Schule geschlossen. Ihr Hauptsitz, der Malý Štift, lag am Ort der heutigen ungarischsprachigen Grundschule; ein Teil des Veľký Štift diente als Unterkunft. Die beiden Orte wurden später gelegentlich verwechselt."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das jüdische Senec: Synagoge, Mikwe und eine verschwundene Gemeinde",
+          "text": "Die jüdische Gemeinde entwickelte sich seit dem frühen 19. Jahrhundert. Sie zählte 69 Einwohner 1828, 414 im Jahr 1900 und 502 im Jahr 1930. Die orthodoxe Synagoge wurde 1905–1906 erbaut. Hinter ihr befanden sich Gemeindeeinrichtungen und ein Ritualbad, dessen Überreste 2012 freigelegt wurden. Die meisten Juden aus Senec wurden im Holocaust ermordet. 1957 wurde die Synagoge vom Staat beschlagnahmt und als Lager genutzt; heute wird sie als Kulturort und Erinnerungsstätte restauriert."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sonnenseen: eine durch Kiesabbau geschaffene Erholungslandschaft",
+          "text": "Die Sonnenseen sind kein natürlich entstandener See, sondern eine durch industrielle Gewinnung geprägte Landschaft. Seit 1845 wurde hier Kies für die Eisenbahn zwischen Bratislava und Galanta ausgebaggert. Fünf Wasserflächen wuchsen zu einem See von über 100 Hektar zusammen; der Abbau dauerte bis 1981. 1919 wurde vorgeschlagen, das Wasser als Naturbad zu nutzen. Der Ort hieß Bager und kurzzeitig Slovenské Tahiti. Der heutige Name Slnečné jazerá entstand 1960 durch einen öffentlichen Wettbewerb."
+        },
+        {
+          "id": "fact_005",
+          "title": "Das Türkische Haus: ein Renaissance-Kuriegebäude",
+          "text": "Das Türkische Haus wurde um 1556–1560 vom Pressburger Obergespan Krištof Batthyány errichtet. Das zweigeschossige Gebäude mit Rundturm, Bogenattika und Schießscharten wirkt wie eine Festung, war aber keine echte militärische Anlage. Von 1615 bis ins 18. Jahrhundert fanden hier Sitzungen des Pressburger Komitats statt. Das Haus erlebte 1663 den türkischen Angriff auf Senec. Nach einer Restaurierung 1994 beherbergt es heute das Stadtmuseum und die Touristeninformation."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die St.-Nikolaus-Kirche: gotische Wurzeln und barocke Umgestaltung",
+          "text": "Die Pfarrei wird 1308 erstmals erwähnt, eine dem heiligen Nikolaus geweihte Kirche ist 1326 belegt. Der ursprünglich frühgotische Bau wurde 1633 im Renaissancestil und 1740 barock umgestaltet. Vier Rokokoaltäre sind erhalten. Zum Komplex gehören ein Kreuzweg, eine Kalvariengruppe von 1934 und eine Lourdesgrotte."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift: vom Esterházy-Manor zur Besserungsanstalt und Militärschule",
+          "text": "Veľký Štift ist ein historischer Komplex, der mit der Familie Esterházy verbunden war. 1773 richtete Maria Theresia hier eine weibliche Besserungsanstalt mit Textilmanufaktur ein. 1780 entstand ein Waisenhaus, 1782 eine Militärschule. Der Komplex ist vom Collegium Oeconomicum zu unterscheiden: Dessen Hauptsitz war der Malý Štift, während ein Teil des Veľký Štift die Piaristen beherbergte."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: ein Sohn der Stadt, der die ungarische Sprache prägte",
+          "text": "Albert Molnár Szenczi wurde 1574 in Senec geboren. Der kalvinistische Geistliche, Humanist, Dichter und Übersetzer studierte unter anderem in Győr, Debrecen, Wittenberg, Heidelberg und Straßburg. Berühmt wurde er durch sein Ungarisch-Lateinisches Wörterbuch und die Übersetzung von 150 Psalmen. Seine Arbeit prägte die ungarische Schriftsprache und reformierte Kultur. Eine Statue mit Buch erinnert an ihn."
+        },
+        {
+          "id": "fact_009",
+          "title": "Das Mammut von Senec: ein außergewöhnlich gut erhaltenes Skelett",
+          "text": "1961 wurde bei der Lehmgewinnung in der Ziegelei von Senec das Skelett eines Wollhaarmammuts entdeckt. Etwa 60 Prozent sind erhalten; es gilt als der vollständigste Mammutfund der Slowakei. Das Skelett befindet sich im Naturhistorischen Museum des Slowakischen Nationalmuseums in Bratislava. Das Stadtmuseum erinnert in seiner naturkundlichen Ausstellung an den Fund. Die genaue Ausgrabungsstelle ist öffentlich nicht ausreichend abgegrenzt, um einen Kartenpunkt zu setzen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Senec historic centre – around Mierové Square and the Turkish House",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: a medieval market town between Pressburg and Hungary",
+          "text": "Senec is recorded in 1252 as villa Zemch. Its location between the Danubian Upland and Lowland made it a regional centre: markets are documented from 1333 and tolls from 1412. A fortified manor from the 15th century gave rise to the German name Wartberg, “watch hill”. A 1552 pillory still stands on Mierové Square. A 1609 record tells of a man accused of bewitching the onion crop; it documents period beliefs, not actual witchcraft."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: an exceptional Theresian school",
+          "text": "Maria Theresa founded the Collegium Oeconomicum in Senec in 1763. Piarists taught geodesy, surveying, cartography and technical drawing, alongside accounting and estate management. Students made maps of the surrounding area; 33 survive. The school closed after the 1776 town fire. Its main home, Malý Štift, stood on the site of today's Hungarian-language primary school; part of Veľký Štift housed the Piarists. Later accounts sometimes confused the two sites."
+        },
+        {
+          "id": "fact_003",
+          "title": "Jewish Senec: a synagogue, mikveh and a vanished community",
+          "text": "Senec's Jewish community developed from the early 19th century. It had 69 residents in 1828, 414 in 1900 and 502 in 1930. The Orthodox synagogue was built in 1905–1906. Communal buildings and a ritual bath stood behind it; remains of the mikveh were excavated in 2012. Most of Senec's Jews perished in the Holocaust. The state seized the synagogue in 1957 and used it as a storehouse; it is now being restored as a cultural venue and memorial."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sun Lakes: a recreational landscape created by gravel extraction",
+          "text": "The Sun Lakes are an industrially reshaped landscape, not a naturally formed lake. Gravel was dredged here from 1845 for the railway between Bratislava and Galanta. Five water bodies merged into a lake of more than 100 hectares; extraction continued until 1981. A natural swimming area was proposed in 1919. The site was known as Bager and briefly Slovenské Tahiti. The name Slnečné jazerá was chosen in a public competition in 1960."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Turkish House: a Renaissance manor",
+          "text": "The Turkish House was built around 1556–1560 by Krištof Batthyány, count of Pressburg County. Its round tower, arcaded attic and loopholes give it a fortress-like appearance, though it was not a true military fortification. County representatives met here from 1615 into the 18th century. It witnessed the Turkish attack on Senec in 1663. Restored in 1994, it now houses the town museum and tourist information centre."
+        },
+        {
+          "id": "fact_006",
+          "title": "St Nicholas Church: Gothic origins and a Baroque transformation",
+          "text": "The parish is first mentioned in 1308, and a church dedicated to St Nicholas is documented in 1326. Originally Early Gothic, it was remodelled in Renaissance style in 1633 and Baroque style in 1740. Four Rococo altars survive. The complex includes a Stations of the Cross, a Calvary group from 1934 and a Lourdes grotto."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift: from an Esterházy manor to a reformatory and military school",
+          "text": "Veľký Štift is a historic complex associated with the Esterházy family. In 1773 Maria Theresa established a women's reformatory and textile manufactory here. A municipal orphanage followed in 1780 and a military school in 1782. It should be distinguished from the Collegium Oeconomicum: the college's main seat was in Malý Štift, while part of Veľký Štift housed the Piarists."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: a native son who shaped the Hungarian language",
+          "text": "Albert Molnár Szenczi was born in Senec in 1574. The Calvinist minister, humanist, poet and translator studied in Győr, Debrecen, Wittenberg, Heidelberg and Strasbourg. He became famous for his Hungarian-Latin dictionary and translation of 150 psalms. His work shaped written Hungarian and Reformed culture. A statue with a book commemorates him."
+        },
+        {
+          "id": "fact_009",
+          "title": "The Senec mammoth: an exceptionally well-preserved skeleton",
+          "text": "In 1961, a woolly mammoth skeleton was uncovered during clay extraction at the Senec brickworks. About 60 per cent survives, making it the most complete mammoth find in Slovakia. It is held in the Natural History Museum of the Slovak National Museum in Bratislava. Senec Town Museum recalls the discovery in its natural history exhibition. Public sources do not identify the exact excavation spot precisely enough for a reliable map pin."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Senec: entorno de la plaza Mierové y la Casa Turca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: una villa mercantil medieval entre Presburgo y Hungría",
+          "text": "Senec aparece en 1252 como villa Zemch. Su posición entre las colinas y la llanura del Danubio lo convirtió en un centro regional: hay mercados documentados desde 1333 y peajes desde 1412. Una residencia fortificada del siglo XV dio origen al nombre alemán Wartberg, «colina de vigilancia». En la plaza Mierové se conserva una picota de 1552. Un registro de 1609 cuenta que un hombre fue acusado de hechizar la cosecha de cebollas; documenta las creencias de la época, no una brujería real."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: una escuela teresiana excepcional",
+          "text": "María Teresa fundó el Collegium Oeconomicum en Senec en 1763. Los escolapios enseñaban geodesia, mediciones, cartografía y dibujo técnico, además de contabilidad y administración de fincas. Los alumnos elaboraban mapas de los alrededores; se conservan 33. La escuela cerró tras el incendio de 1776. Su sede principal, el Malý Štift, estaba donde hoy se encuentra la escuela primaria húngara; parte del Veľký Štift alojaba a los escolapios. Después se confundieron a veces ambos lugares."
+        },
+        {
+          "id": "fact_003",
+          "title": "El Senec judío: sinagoga, mikve y una comunidad desaparecida",
+          "text": "La comunidad judía de Senec se desarrolló desde comienzos del siglo XIX. Tenía 69 habitantes en 1828, 414 en 1900 y 502 en 1930. La sinagoga ortodoxa se construyó en 1905–1906. Detrás había edificios comunitarios y un baño ritual; los restos de la mikve se excavaron en 2012. La mayoría de los judíos de Senec pereció en el Holocausto. El Estado confiscó la sinagoga en 1957 y la usó como almacén; hoy se restaura como espacio cultural y memorial."
+        },
+        {
+          "id": "fact_004",
+          "title": "Los Lagos Soleados: un paisaje recreativo creado por la extracción de grava",
+          "text": "Los Lagos Soleados son un paisaje industrial, no un lago natural. Desde 1845 se extrajo grava para el ferrocarril entre Bratislava y Galanta. Cinco masas de agua se unieron en un lago de más de 100 hectáreas; la extracción continuó hasta 1981. En 1919 se propuso usarlo como baño natural. Se conocía como Bager y brevemente como Slovenské Tahiti. El nombre Slnečné jazerá fue elegido en un concurso público de 1960."
+        },
+        {
+          "id": "fact_005",
+          "title": "La Casa Turca: una mansión renacentista",
+          "text": "La Casa Turca fue construida hacia 1556–1560 por Krištof Batthyány, gobernador del condado de Presburgo. Su torre, ático de arcos y aspilleras le dan aspecto de fortaleza, aunque no fue una fortificación militar. Desde 1615 hasta el siglo XVIII acogió reuniones del condado. También fue testigo del ataque turco de 1663. Restaurada en 1994, hoy alberga el museo municipal y la oficina de turismo."
+        },
+        {
+          "id": "fact_006",
+          "title": "La iglesia de San Nicolás: raíces góticas y transformación barroca",
+          "text": "La parroquia se menciona desde 1308 y una iglesia dedicada a san Nicolás está documentada en 1326. De origen gótico temprano, fue remodelada en estilo renacentista en 1633 y barroco en 1740. Conserva cuatro altares rococó. El conjunto incluye un vía crucis, un Calvario de 1934 y una gruta de Lourdes."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift: de residencia de los Esterházy a reformatorio y escuela militar",
+          "text": "Veľký Štift es un conjunto histórico vinculado a los Esterházy. En 1773 María Teresa estableció aquí un reformatorio femenino y una manufactura textil. En 1780 se creó un orfanato y en 1782 una escuela militar. Debe distinguirse del Collegium Oeconomicum: la sede principal del colegio estaba en Malý Štift, mientras parte de Veľký Štift alojaba a los escolapios."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: el hijo de la ciudad que influyó en la lengua húngara",
+          "text": "Albert Molnár Szenczi nació en Senec en 1574. Clérigo calvinista, humanista, poeta y traductor, estudió en Győr, Debrecen, Wittenberg, Heidelberg y Estrasburgo. Se hizo famoso por su diccionario húngaro-latín y por traducir 150 salmos. Su obra influyó en la lengua escrita húngara y la cultura reformada. Una estatua con un libro lo recuerda."
+        },
+        {
+          "id": "fact_009",
+          "title": "El mamut de Senec: un esqueleto excepcionalmente bien conservado",
+          "text": "En 1961 se descubrió un esqueleto de mamut lanudo en la ladrillera de Senec. Se conserva cerca del 60 por ciento y se considera el hallazgo de mamut más completo de Eslovaquia. Está en el Museo de Historia Natural del Museo Nacional Eslovaco en Bratislava. El museo municipal recuerda el hallazgo en su exposición naturalista. Las fuentes públicas no delimitan el lugar exacto de la excavación para colocar un marcador fiable."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Senec – autour de la place Mierové et de la Maison turque",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec : un bourg marchand médiéval entre Presbourg et la Hongrie",
+          "text": "Senec apparaît en 1252 sous le nom de villa Zemch. Sa position entre les collines et la plaine du Danube en fit un centre régional : des marchés sont attestés dès 1333 et des péages dès 1412. Une résidence fortifiée du XVe siècle est à l’origine du nom allemand Wartberg, « colline de guet ». La place Mierové conserve un pilori de 1552. Une note de 1609 raconte qu’un homme fut accusé d’avoir ensorcelé la récolte d’oignons ; elle témoigne des croyances de l’époque, et non d’une sorcellerie réelle."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum : une école thérésienne exceptionnelle",
+          "text": "Marie-Thérèse fonda le Collegium Oeconomicum à Senec en 1763. Les piaristes enseignaient la géodésie, les levés, la cartographie et le dessin technique, ainsi que la comptabilité et la gestion des domaines. Les étudiants réalisaient des cartes des environs ; 33 sont conservées. L’école ferma après l’incendie de 1776. Son siège, le Malý Štift, se trouvait à l’emplacement de l’actuelle école primaire hongroise ; une partie du Veľký Štift logeait les piaristes. Les deux sites furent parfois confondus par la suite."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le Senec juif : synagogue, mikvé et communauté disparue",
+          "text": "La communauté juive se développa dès le début du XIXe siècle. Elle comptait 69 habitants en 1828, 414 en 1900 et 502 en 1930. La synagogue orthodoxe fut construite en 1905–1906. Des bâtiments communautaires et un bain rituel se trouvaient derrière ; les vestiges de la mikvé furent fouillés en 2012. La majorité des Juifs de Senec périt pendant la Shoah. L’État confisqua la synagogue en 1957 et l’utilisa comme entrepôt ; elle est aujourd’hui restaurée comme lieu culturel et mémoriel."
+        },
+        {
+          "id": "fact_004",
+          "title": "Les Lacs ensoleillés : un paysage de loisirs créé par l’extraction de gravier",
+          "text": "Les Lacs ensoleillés sont un paysage industriel, et non un lac naturel. Dès 1845, on y extrayait du gravier pour la ligne ferroviaire entre Bratislava et Galanta. Cinq plans d’eau ont formé un lac de plus de 100 hectares ; l’extraction s’est poursuivie jusqu’en 1981. En 1919, on proposa d’utiliser l’eau comme baignade naturelle. Le site s’appelait Bager et, brièvement, Slovenské Tahiti. Le nom Slnečné jazerá fut choisi lors d’un concours en 1960."
+        },
+        {
+          "id": "fact_005",
+          "title": "La Maison turque : une demeure Renaissance",
+          "text": "La Maison turque fut construite vers 1556–1560 par Krištof Batthyány, comte de Presbourg. Sa tour, son attique à arcades et ses meurtrières lui donnent l’apparence d’une forteresse, sans en être une. Les représentants du comté s’y réunirent de 1615 au XVIIIe siècle. Elle fut témoin de l’attaque ottomane de 1663. Restaurée en 1994, elle abrite le musée municipal et l’office de tourisme."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’église Saint-Nicolas : des origines gothiques et une transformation baroque",
+          "text": "La paroisse est mentionnée dès 1308 et une église dédiée à saint Nicolas est attestée en 1326. D’abord gothique primitif, l’édifice fut remanié à la Renaissance en 1633 puis à l’époque baroque en 1740. Quatre autels rococo sont conservés. L’ensemble comprend un chemin de croix, un Calvaire de 1934 et une grotte de Lourdes."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift : du manoir des Esterházy au centre de correction et à l’école militaire",
+          "text": "Veľký Štift est un ensemble historique lié à la famille Esterházy. En 1773, Marie-Thérèse y établit une maison de correction pour femmes et une manufacture textile. Un orphelinat fut créé en 1780, puis une école militaire en 1782. Il faut le distinguer du Collegium Oeconomicum : le siège du collège se trouvait au Malý Štift, tandis qu’une partie du Veľký Štift logeait les piaristes."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi : un enfant du pays qui marqua la langue hongroise",
+          "text": "Albert Molnár Szenczi naquit à Senec en 1574. Pasteur calviniste, humaniste, poète et traducteur, il étudia notamment à Győr, Debrecen, Wittenberg, Heidelberg et Strasbourg. Il est connu pour son dictionnaire hongrois-latin et sa traduction de 150 psaumes. Son œuvre marqua la langue écrite hongroise et la culture réformée. Une statue tenant un livre lui rend hommage."
+        },
+        {
+          "id": "fact_009",
+          "title": "Le mammouth de Senec : un squelette exceptionnellement bien conservé",
+          "text": "En 1961, un squelette de mammouth laineux fut découvert dans la briqueterie de Senec. Environ 60 % est conservé ; il est considéré comme la découverte de mammouth la plus complète de Slovaquie. Il est conservé au Musée d’histoire naturelle du Musée national slovaque à Bratislava. Le musée municipal rappelle la découverte dans son exposition consacrée à la nature. Les sources publiques ne précisent pas assez le lieu exact de la fouille pour placer un repère fiable."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Senec – zona di piazza Mierové e della Casa turca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: borgo mercantile medievale tra Presburgo e Ungheria",
+          "text": "Senec compare nel 1252 come villa Zemch. La posizione tra colline e pianura del Danubio lo rese un centro regionale: mercati sono documentati dal 1333 e pedaggi dal 1412. Una residenza fortificata del XV secolo diede origine al nome tedesco Wartberg, «collina di guardia». In piazza Mierové si conserva una gogna del 1552. Un documento del 1609 racconta di un uomo accusato di aver stregato il raccolto di cipolle; testimonia le credenze dell’epoca, non una vera stregoneria."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: un’eccezionale scuola teresiana",
+          "text": "Maria Teresa fondò il Collegium Oeconomicum a Senec nel 1763. Gli scolopi insegnavano geodesia, rilievi, cartografia e disegno tecnico, oltre a contabilità e gestione delle tenute. Gli studenti realizzavano mappe dei dintorni; 33 sono conservate. La scuola chiuse dopo l’incendio del 1776. La sede principale, il Malý Štift, sorgeva dove oggi si trova la scuola primaria ungherese; una parte del Veľký Štift ospitava gli scolopi. In seguito i due siti furono talvolta confusi."
+        },
+        {
+          "id": "fact_003",
+          "title": "La Senec ebraica: sinagoga, mikveh e una comunità scomparsa",
+          "text": "La comunità ebraica si sviluppò dall’inizio del XIX secolo. Contava 69 residenti nel 1828, 414 nel 1900 e 502 nel 1930. La sinagoga ortodossa fu costruita nel 1905–1906. Dietro si trovavano edifici comunitari e un bagno rituale; i resti della mikveh furono scavati nel 2012. La maggior parte degli ebrei di Senec morì durante l’Olocausto. Nel 1957 lo Stato confiscò la sinagoga e la usò come magazzino; oggi viene restaurata come spazio culturale e memoriale."
+        },
+        {
+          "id": "fact_004",
+          "title": "I Laghi del Sole: un paesaggio ricreativo creato dall’estrazione della ghiaia",
+          "text": "I Laghi del Sole sono un paesaggio industriale, non un lago naturale. Dal 1845 si estraeva ghiaia per la ferrovia tra Bratislava e Galanta. Cinque specchi d’acqua si unirono in un lago di oltre 100 ettari; l’estrazione continuò fino al 1981. Nel 1919 si propose di usarlo come area balneare. Il luogo era chiamato Bager e per breve tempo Slovenské Tahiti. Il nome Slnečné jazerá fu scelto con un concorso pubblico nel 1960."
+        },
+        {
+          "id": "fact_005",
+          "title": "La Casa Turca: una residenza rinascimentale",
+          "text": "La Casa Turca fu costruita intorno al 1556–1560 da Krištof Batthyány, conte di Presburgo. La torre, l’attico ad archetti e le feritoie le danno l’aspetto di una fortezza, ma non fu una vera fortificazione. I rappresentanti della contea vi si riunirono dal 1615 al XVIII secolo. Fu testimone dell’attacco turco del 1663. Restaurata nel 1994, oggi ospita il museo cittadino e l’ufficio turistico."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chiesa di San Nicola: origini gotiche e trasformazione barocca",
+          "text": "La parrocchia è menzionata dal 1308 e una chiesa dedicata a San Nicola è documentata nel 1326. Originariamente gotica, fu ristrutturata in stile rinascimentale nel 1633 e barocco nel 1740. Si conservano quattro altari rococò. Il complesso comprende una Via Crucis, un Calvario del 1934 e una grotta di Lourdes."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift: dalla residenza degli Esterházy al riformatorio e alla scuola militare",
+          "text": "Veľký Štift è un complesso storico legato alla famiglia Esterházy. Nel 1773 Maria Teresa vi istituì un riformatorio femminile e una manifattura tessile. Nel 1780 nacque un orfanotrofio e nel 1782 una scuola militare. Va distinto dal Collegium Oeconomicum: la sede principale del collegio era nel Malý Štift, mentre una parte del Veľký Štift ospitava gli scolopi."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: il figlio della città che influenzò la lingua ungherese",
+          "text": "Albert Molnár Szenczi nacque a Senec nel 1574. Ministro calvinista, umanista, poeta e traduttore, studiò a Győr, Debrecen, Wittenberg, Heidelberg e Strasburgo. È noto per il dizionario ungherese-latino e per la traduzione di 150 salmi. Il suo lavoro influenzò la lingua scritta ungherese e la cultura riformata. Una statua con un libro lo ricorda."
+        },
+        {
+          "id": "fact_009",
+          "title": "Il mammut di Senec: uno scheletro eccezionalmente ben conservato",
+          "text": "Nel 1961 fu scoperto uno scheletro di mammut lanoso nella fornace di Senec. Ne è conservato circa il 60 per cento ed è considerato il ritrovamento più completo della Slovacchia. È custodito nel Museo di Storia Naturale del Museo Nazionale Slovacco a Bratislava. Il museo cittadino ricorda la scoperta nella sua esposizione naturalistica. Le fonti pubbliche non delimitano con precisione il punto dello scavo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Senec – rond het Mierovéplein en het Turkse Huis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Senec: een middeleeuws marktstadje tussen Pressburg en Hongarije",
+          "text": "Senec wordt in 1252 vermeld als villa Zemch. De ligging tussen het Donauheuvelland en de Donauvlakte maakte het tot een regionaal centrum: markten zijn vanaf 1333 bekend en tolheffing vanaf 1412. Een versterkte residentie uit de 15e eeuw gaf aanleiding tot de Duitse naam Wartberg, ‘wachtheuvel’. Op het Mierovéplein staat een schandpaal uit 1552. Een aantekening uit 1609 vertelt over een man die de uienoogst zou hebben betoverd; dit toont de overtuigingen van die tijd, geen echte hekserij."
+        },
+        {
+          "id": "fact_002",
+          "title": "Collegium Oeconomicum: een bijzondere Theresiaanse school",
+          "text": "Maria Theresia stichtte het Collegium Oeconomicum in Senec in 1763. Piaristen gaven les in geodesie, landmeting, cartografie en technisch tekenen, naast boekhouden en landgoedbeheer. Studenten maakten kaarten van de omgeving; 33 zijn bewaard gebleven. De school sloot na de stadsbrand van 1776. De hoofdvestiging, de Malý Štift, stond waar nu de Hongaarstalige basisschool staat; een deel van de Veľký Štift bood onderdak aan de piaristen. Later werden de locaties soms verward."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Joodse Senec: synagoge, mikwe en een verdwenen gemeenschap",
+          "text": "De Joodse gemeenschap ontwikkelde zich vanaf het begin van de 19e eeuw. Er woonden 69 Joden in 1828, 414 in 1900 en 502 in 1930. De orthodoxe synagoge werd gebouwd in 1905–1906. Achter het gebouw stonden gemeenschapsgebouwen en een ritueel bad; de resten van de mikwe werden in 2012 opgegraven. De meeste Joden uit Senec kwamen om tijdens de Holocaust. De staat nam de synagoge in 1957 in beslag en gebruikte haar als opslagruimte; tegenwoordig wordt ze gerestaureerd als culturele plek en herinneringsmonument."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Zonnemeren: een recreatielandschap ontstaan door grindwinning",
+          "text": "De Zonnemeren zijn een industrieel gevormd landschap, geen natuurlijk meer. Vanaf 1845 werd hier grind gewonnen voor de spoorlijn tussen Bratislava en Galanta. Vijf waterplassen groeiden samen tot een meer van meer dan 100 hectare; de winning ging door tot 1981. In 1919 werd voorgesteld het water als natuurbad te gebruiken. Het gebied heette Bager en korte tijd Slovenské Tahiti. De naam Slnečné jazerá werd in 1960 via een openbare wedstrijd gekozen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het Turkse Huis: een renaissancegebouw",
+          "text": "Het Turkse Huis werd rond 1556–1560 gebouwd door Krištof Batthyány, graaf van Pressburg. De toren, boogfries en schietgaten geven het een vestingachtig uiterlijk, maar het was geen echte militaire versterking. Van 1615 tot in de 18e eeuw vergaderden hier vertegenwoordigers van het comitaat. Het gebouw maakte de Turkse aanval van 1663 mee. Na restauratie in 1994 huisvest het nu het stadsmuseum en het toeristeninformatiecentrum."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Sint-Nicolaaskerk: gotische wortels en een barokke transformatie",
+          "text": "De parochie wordt vanaf 1308 vermeld en een aan Sint-Nicolaas gewijde kerk is in 1326 gedocumenteerd. Het vroeggotische gebouw werd in 1633 in renaissancestijl en in 1740 in barokstijl verbouwd. Vier rococo-altaren zijn bewaard gebleven. Het complex omvat kruiswegstaties, een Calvariegroep uit 1934 en een Lourdesgrot."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľký Štift: van Esterházy-landhuis tot vrouwentuchthuis en militaire school",
+          "text": "Veľký Štift is een historisch complex dat met de familie Esterházy verbonden was. In 1773 richtte Maria Theresia hier een vrouwentuchthuis en textielwerkplaats op. In 1780 volgde een weeshuis en in 1782 een militaire school. Het moet worden onderscheiden van het Collegium Oeconomicum: de hoofdvestiging was in de Malý Štift; een deel van de Veľký Štift bood onderdak aan de piaristen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Albert Molnár Szenczi: een stadsgenoot die de Hongaarse taal vormgaf",
+          "text": "Albert Molnár Szenczi werd in 1574 in Senec geboren. De calvinistische geestelijke, humanist, dichter en vertaler studeerde in Győr, Debrecen, Wittenberg, Heidelberg en Straatsburg. Hij werd bekend door zijn Hongaars-Latijnse woordenboek en vertaling van 150 psalmen. Zijn werk beïnvloedde de geschreven Hongaarse taal en de gereformeerde cultuur. Een standbeeld met een boek herdenkt hem."
+        },
+        {
+          "id": "fact_009",
+          "title": "De mammoet van Senec: een uitzonderlijk goed bewaard skelet",
+          "text": "In 1961 werd bij kleiwinning in de steenfabriek van Senec een wolharige mammoet ontdekt. Ongeveer 60 procent van het skelet is bewaard; het geldt als de meest complete vondst in Slowakije. Het wordt bewaard in het Natuurhistorisch Museum van het Slowaaks Nationaal Museum in Bratislava. Het stadsmuseum herinnert aan de vondst in zijn natuurhistorische tentoonstelling. Openbare bronnen geven de exacte opgravingsplek niet nauwkeurig genoeg aan voor een betrouwbare kaartpin."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
