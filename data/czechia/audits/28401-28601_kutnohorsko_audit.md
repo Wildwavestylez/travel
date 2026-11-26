@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno šest faktů v 28401 a 28403, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno, čtyři z pěti krátkých master textů rozšířeny a zdrojové vazby v problematických záznamech normalizovány; probíhá povinná kontrola mezinárodní srozumitelnosti; dosud cíleně upraveno sedm faktů v 28401 a 28403, záznam 28404 prošel kontrolou bez nutnosti zásahu. Zbývá jeden krátký master.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
