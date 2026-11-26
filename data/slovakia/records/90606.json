@@ -1,4 +1,658 @@
 {
   "postcode": "90606",
-  "status": "placeholder"
+  "city": "Vrbovce",
+  "district": null,
+  "county": "Myjava",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Centrum obce Vrbovce",
+  "representative_point": {
+    "lat": 48.799356,
+    "lon": 17.46905
+  },
+  "access_point": {
+    "lat": 48.799356,
+    "lon": 17.46905
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Vrbovce od středověké vsi k tržnímu městečku",
+      "text": "První písemná zmínka o Vrbovcích pochází z darovací listiny z 16. července 1394, v níž král Zikmund daroval hrad Branč a okolní obce Stiborovi ze Stiboríc. V listině se objevuje podoba názvu „Vrbowich“. Roku 1810 získala obec právo pořádat pondělní potravinové trhy a šest výročních jarmarků ročně; současně byla povýšena na městečko a přijala erb s vrbou. V polovině 18. století žilo 421 domácností v městečku a dalších 361 na kopanicích.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.vrbovce.sk/3740/historia",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Centrum obce Vrbovce",
+        "lat": 48.799356,
+        "lon": 17.46905,
+        "type": "historic_settlement",
+        "accuracy": "approximate",
+        "source": "https://kopanice.sk/obce/vrbovce/"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Kopaničiarská krajina s desítkami rozptýlených osad",
+      "text": "Vrbovce dnes tvoří přibližně 60 kopaničiarských osad a samot v kopcovité krajině Bílých Karpat. Kopanice vznikaly zejména od druhé poloviny 17. století klučením lesů a obděláváním půdy. Usazovali se zde místní obyvatelé i přistěhovalci z Dolní země, kteří hledali bezpečí před osmanskými nájezdy, a lidé z českých zemí prchající před válkou a náboženským pronásledováním. Noví osadníci měli podle obecního přehledu až patnáctileté daňové úlevy. Rozptýlené osídlení dodnes určuje podobu krajiny i místní identity.",
+      "category": "geography_and_context",
+      "priority": "A",
+      "sources": [
+        "https://www.vrbovce.sk/3771/kopanice",
+        "https://www.vrbovce.sk/3772/ludova-architektura",
+        "https://kopanice.sk/obce/vrbovce/"
+      ],
+      "map_category": "cultural_site",
+      "location": {
+        "name": "Vrbovčianske kopanice – reprezentativní krajinná oblast",
+        "lat": 48.825262,
+        "lon": 17.448412,
+        "type": "agricultural_landscape",
+        "accuracy": "area_representative",
+        "source": "https://www.vrbovce.sk/3771/kopanice"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Renesanční kostel svaté Alžběty",
+      "text": "Římskokatolický kostel svaté Alžběty byl postaven roku 1590 v renesančním slohu a upraven přibližně v letech 1756–1760. Jednolodní stavba má příčnou loď, polygonálně zakončený presbytář a mohutnou věž. Interiér uchovává barokní kamennou křtitelnici z poloviny 18. století. Podle místní tradice jej vybudovali potomci českých husitských přistěhovalců; roku 1672 přešel do katolické správy. Kostel je evidován v Ústředním seznamu památkového fondu SR.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/vrbovce-kostol-sv-alzbety",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel svaté Alžběty, Vrbovce",
+        "lat": 48.799114,
+        "lon": 17.469422,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/vrbovce-kostol-sv-alzbety"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Evangelický toleranční kostel",
+      "text": "První evangelický toleranční chrám byl ve Vrbovcích postaven roku 1784 po vydání tolerančního patentu císaře Josefa II. V letech 1834–1839 byl rozšířen a vyzdoben a v letech 1839–1841 získal věž. Současná klasicistní podoba vznikla přestavbami v letech 1877–1879 a 1928–1929. V interiéru se zachoval historický varhanní nástroj.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "sources": [
+        "https://www.pamiatkynaslovensku.sk/vrbovce-evanjelicky-kostol",
+        "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/dominanty/386677/evanjelicky-kostol-vo-vrbovciach",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Evangelický kostel, Vrbovce",
+        "lat": 48.797796,
+        "lon": 17.471265,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/vrbovce-evanjelicky-kostol"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Horní mlýn Beblavých z roku 1737",
+      "text": "Horní mlýn, známý také jako mlýn Beblavých, vznikl roku 1737 jako dvoupodlažní stavba z kamene a pálených cihel a využíval vodní sílu potoka Teplica. Od roku 1985 je národní kulturní památkou. Odborná databáze uvádí, že část technologie se zachovala, objekt však není běžně přístupný veřejnosti.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "https://www.vodnemlyny.sk/mlyny/estates/detail/1502",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Horní mlýn Beblavých, Vrbovce",
+        "lat": 48.799194,
+        "lon": 17.466889,
+        "type": "historic_mill",
+        "accuracy": "exact",
+        "source": "https://www.vodnemlyny.sk/mlyny/estates/detail/1502"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vrbovčianska izba – muzeum každodenního života",
+      "text": "Vrbovčianska izba je místní národopisná expozice otevřená 20. října 2001. Představuje tradiční bydlení, řemesla, pracovní i sváteční kroje a předměty každodenní potřeby, které dokumentují život obyvatel Vrboviec a okolních kopanic. Uchovává hmotné doklady kultury předávané v rodinách a rozptýlených osadách.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.vrbovce.sk/3793/vrbovcianska-izba",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "museum",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Šance a slovenské povstání roku 1848",
+      "text": "V září 1848 se u tehdejší slovensko-moravské hranice shromáždila přibližně čtyřsetčlenná skupina dobrovolníků Hurbanova vojska, která se vydala směrem k Myjavě. Událost připomíná památník v Šancích. Osada U Sabotů patřila do roku 1997 k moravskému Javorníku; po místním referendu byla připojena ke Slovensku a v roce 1998 dostala název Šance.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://shop.pam.epocha.sk/pamatniky-zahorie/okres-myjava/slovenske-povstanie-1848-vrbovce-sance",
+        "https://www.cskh.sk/wp-content/uploads/2022/11/2013.pdf",
+        "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Památník slovenského povstání 1848–1849, Šance",
+        "lat": 48.803098,
+        "lon": 17.500933,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://shop.pam.epocha.sk/pamatniky-zahorie/okres-myjava/slovenske-povstanie-1848-vrbovce-sance"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Odboj, Maruška Kudeříková a zánik židovské komunity",
+      "text": "Během druhé světové války pomáhali obyvatelé Vrboviec lidem prchajícím z okupovaných českých zemí. Maruška Kudeříková, dcera železničáře, roznášela letáky a zapojila se do protifašistické sítě; gestapo ji popravilo 26. března 1943. Obecní historický přehled uvádí, že ve Vrbovcích žilo do roku 1942 více než 70 židovských obyvatel, kteří byli deportováni do koncentračních táborů.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "https://www.vrbovce.sk/3740/historia",
+        "https://www.vrbovce.sk/data/advertisement/vrbovce.sk/44814/21051_1342687856674-vrbovcan-1-2014-print.pdf",
+        "https://www.vets.cz/vpm/mista/obec/4623-vrbovce/"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Železniční stanice Vrbovce – pamětní deska Marušky Kudeříkové",
+        "lat": 48.824416,
+        "lon": 17.516111,
+        "type": "railway_station",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/4623-vrbovce/"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Bělokarpatské louky a chráněná území",
+      "text": "Vrbovčianský katastr zahrnuje několik maloplošných chráněných území, mimo jiné přírodní památky Štefanová, Malejov, Kožíkov vrch a Bučková jama. Louky u Štefanové uchovávají zbytky bělokarpatských květnatých luk s přibližně šestnácti druhy orchidejí, zatímco Malejov chrání fragmenty suchých luk s vzácnou flórou. Tradiční hospodaření a pravidelné sečení pomáhaly udržet biologicky pestrou krajinu.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "https://www.vrbovce.sk/3770/priroda",
+        "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/"
+      ],
+      "map_category": "nature",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhľadávanie PSČ (906 06); obecná adresa Vrbovce 42 s PSČ 906 06; doplňujúce geografické zaradenie PSČ 90606 v databáze AllSlovakia.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenskej pošty",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Vrbovce; geografické súradnice sídla z Kopanice.sk; okres Myjava a Trenčiansky samosprávny kraj."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "Vrbovce – kontakty",
+      "url": "https://www.vrbovce.sk/3769/kontakty",
+      "type": "official"
+    },
+    {
+      "title": "AllSlovakia – PSČ 90606",
+      "url": "https://allslovakia.info/posta/slovenska-posta-2387903543",
+      "type": "other"
+    },
+    {
+      "title": "Vrbovce – história",
+      "url": "https://www.vrbovce.sk/3740/historia",
+      "type": "official"
+    },
+    {
+      "title": "Vrbovce – kopanice",
+      "url": "https://www.vrbovce.sk/3771/kopanice",
+      "type": "official"
+    },
+    {
+      "title": "Vrbovce – ľudová architektúra",
+      "url": "https://www.vrbovce.sk/3772/ludova-architektura",
+      "type": "official"
+    },
+    {
+      "title": "Kostol sv. Alžbety",
+      "url": "https://www.pamiatkynaslovensku.sk/vrbovce-kostol-sv-alzbety",
+      "type": "specialist"
+    },
+    {
+      "title": "Evanjelický kostol vo Vrbovciach",
+      "url": "https://www.pamiatkynaslovensku.sk/vrbovce-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "STVR – Evanjelický kostol vo Vrbovciach",
+      "url": "https://reginazapad.stvr.sk/relacie-a-rubriky/aktualne-rubriky/dominanty/386677/evanjelicky-kostol-vo-vrbovciach",
+      "type": "news"
+    },
+    {
+      "title": "Vrbovce – kultúrne zaujímavosti",
+      "url": "https://www.vrbovce.sk/12864/kulturne-a-ine-zaujimavosti",
+      "type": "official"
+    },
+    {
+      "title": "Databáza vodných mlynov – Horný mlyn",
+      "url": "https://www.vodnemlyny.sk/mlyny/estates/detail/1502",
+      "type": "specialist"
+    },
+    {
+      "title": "Vrbovčianska izba",
+      "url": "https://www.vrbovce.sk/3793/vrbovcianska-izba",
+      "type": "official"
+    },
+    {
+      "title": "Vrbovce – príroda",
+      "url": "https://www.vrbovce.sk/3770/priroda",
+      "type": "official"
+    },
+    {
+      "title": "CHKO Biele Karpaty – chránené územia",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "title": "Památníky Záhoria – povstání 1848, Šance",
+      "url": "https://shop.pam.epocha.sk/pamatniky-zahorie/okres-myjava/slovenske-povstanie-1848-vrbovce-sance",
+      "type": "specialist"
+    },
+    {
+      "title": "Czechoslovak History – nová státní hranice",
+      "url": "https://www.cskh.sk/wp-content/uploads/2022/11/2013.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Vrbovce – válečné období a odboj",
+      "url": "https://www.vrbovce.sk/3740/historia",
+      "type": "official"
+    },
+    {
+      "title": "Vrbovčan 1/2014 – židovská komunita",
+      "url": "https://www.vrbovce.sk/data/advertisement/vrbovce.sk/44814/21051_1342687856674-vrbovcan-1-2014-print.pdf",
+      "type": "archive"
+    },
+    {
+      "title": "Vets.cz – pamětní místa Vrbovce",
+      "url": "https://www.vets.cz/vpm/mista/obec/4623-vrbovce/",
+      "type": "specialist"
+    },
+    {
+      "title": "Kopanice.sk – Vrbovce",
+      "url": "https://kopanice.sk/obce/vrbovce/",
+      "type": "regional"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Centrum obce Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce od středověké vsi k tržnímu městečku",
+          "text": "První písemná zmínka o Vrbovcích pochází z darovací listiny z 16. července 1394, v níž král Zikmund daroval hrad Branč a okolní obce Stiborovi ze Stiboríc. V listině se objevuje podoba názvu „Vrbowich“. Roku 1810 získala obec právo pořádat pondělní potravinové trhy a šest výročních jarmarků ročně; současně byla povýšena na městečko a přijala erb s vrbou. V polovině 18. století žilo 421 domácností v městečku a dalších 361 na kopanicích."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kopaničiarská krajina s desítkami rozptýlených osad",
+          "text": "Vrbovce dnes tvoří přibližně 60 kopaničiarských osad a samot v kopcovité krajině Bílých Karpat. Kopanice vznikaly zejména od druhé poloviny 17. století klučením lesů a obděláváním půdy. Usazovali se zde místní obyvatelé i přistěhovalci z Dolní země, kteří hledali bezpečí před osmanskými nájezdy, a lidé z českých zemí prchající před válkou a náboženským pronásledováním. Noví osadníci měli podle obecního přehledu až patnáctileté daňové úlevy. Rozptýlené osídlení dodnes určuje podobu krajiny i místní identity."
+        },
+        {
+          "id": "fact_003",
+          "title": "Renesanční kostel svaté Alžběty",
+          "text": "Římskokatolický kostel svaté Alžběty byl postaven roku 1590 v renesančním slohu a upraven přibližně v letech 1756–1760. Jednolodní stavba má příčnou loď, polygonálně zakončený presbytář a mohutnou věž. Interiér uchovává barokní kamennou křtitelnici z poloviny 18. století. Podle místní tradice jej vybudovali potomci českých husitských přistěhovalců; roku 1672 přešel do katolické správy. Kostel je evidován v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_004",
+          "title": "Evangelický toleranční kostel",
+          "text": "První evangelický toleranční chrám byl ve Vrbovcích postaven roku 1784 po vydání tolerančního patentu císaře Josefa II. V letech 1834–1839 byl rozšířen a vyzdoben a v letech 1839–1841 získal věž. Současná klasicistní podoba vznikla přestavbami v letech 1877–1879 a 1928–1929. V interiéru se zachoval historický varhanní nástroj."
+        },
+        {
+          "id": "fact_005",
+          "title": "Horní mlýn Beblavých z roku 1737",
+          "text": "Horní mlýn, známý také jako mlýn Beblavých, vznikl roku 1737 jako dvoupodlažní stavba z kamene a pálených cihel a využíval vodní sílu potoka Teplica. Od roku 1985 je národní kulturní památkou. Odborná databáze uvádí, že část technologie se zachovala, objekt však není běžně přístupný veřejnosti."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba – muzeum každodenního života",
+          "text": "Vrbovčianska izba je místní národopisná expozice otevřená 20. října 2001. Představuje tradiční bydlení, řemesla, pracovní i sváteční kroje a předměty každodenní potřeby, které dokumentují život obyvatel Vrboviec a okolních kopanic. Uchovává hmotné doklady kultury předávané v rodinách a rozptýlených osadách."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance a slovenské povstání roku 1848",
+          "text": "V září 1848 se u tehdejší slovensko-moravské hranice shromáždila přibližně čtyřsetčlenná skupina dobrovolníků Hurbanova vojska, která se vydala směrem k Myjavě. Událost připomíná památník v Šancích. Osada U Sabotů patřila do roku 1997 k moravskému Javorníku; po místním referendu byla připojena ke Slovensku a v roce 1998 dostala název Šance."
+        },
+        {
+          "id": "fact_008",
+          "title": "Odboj, Maruška Kudeříková a zánik židovské komunity",
+          "text": "Během druhé světové války pomáhali obyvatelé Vrboviec lidem prchajícím z okupovaných českých zemí. Maruška Kudeříková, dcera železničáře, roznášela letáky a zapojila se do protifašistické sítě; gestapo ji popravilo 26. března 1943. Obecní historický přehled uvádí, že ve Vrbovcích žilo do roku 1942 více než 70 židovských obyvatel, kteří byli deportováni do koncentračních táborů."
+        },
+        {
+          "id": "fact_009",
+          "title": "Bělokarpatské louky a chráněná území",
+          "text": "Vrbovčianský katastr zahrnuje několik maloplošných chráněných území, mimo jiné přírodní památky Štefanová, Malejov, Kožíkov vrch a Bučková jama. Louky u Štefanové uchovávají zbytky bělokarpatských květnatých luk s přibližně šestnácti druhy orchidejí, zatímco Malejov chrání fragmenty suchých luk s vzácnou flórou. Tradiční hospodaření a pravidelné sečení pomáhaly udržet biologicky pestrou krajinu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce – vom mittelalterlichen Dorf zum Marktflecken",
+          "text": "Erstmals schriftlich erwähnt wird Vrbovce 1394 in einer Urkunde König Sigismunds. 1810 erhielt der Ort das Recht auf einen Montagsmarkt und sechs Jahrmärkte jährlich, wurde zum Marktflecken erhoben und nahm ein Wappen mit einer Weide an. Mitte des 18. Jahrhunderts lebten 421 Haushalte im Ortskern und 361 in den verstreuten Kopanica-Siedlungen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kopanica-Landschaft mit Streusiedlungen",
+          "text": "Zu Vrbovce gehören heute rund 60 Kopanica-Siedlungen und Einzelhöfe. Sie entstanden vor allem seit der zweiten Hälfte des 17. Jahrhunderts durch Rodung. Hier siedelten Einheimische, Menschen aus den südlichen Gebieten des Königreichs Ungarn auf der Flucht vor osmanischen Einfällen sowie Zuwanderer aus den böhmischen Ländern, die Krieg und religiöser Verfolgung entkamen. Die Streusiedlung prägt bis heute die Landschaft."
+        },
+        {
+          "id": "fact_003",
+          "title": "Renaissancekirche der heiligen Elisabeth",
+          "text": "Die römisch-katholische Kirche der heiligen Elisabeth wurde 1590 im Renaissancestil errichtet und um 1756–1760 umgebaut. Der einschiffige Bau besitzt ein Querschiff, einen polygonalen Chorabschluss und einen massiven Turm. Im Inneren befindet sich ein barockes steinernes Taufbecken. Der Überlieferung zufolge errichteten Nachkommen böhmischer Hussiten-Auswanderer die Kirche; 1672 ging sie in katholischen Besitz über."
+        },
+        {
+          "id": "fact_004",
+          "title": "Evangelische Toleranzkirche",
+          "text": "Der erste evangelische Toleranztempel wurde 1784 nach dem Toleranzpatent Josephs II. errichtet. 1834–1839 wurde er erweitert, 1839–1841 erhielt er einen Turm. Die heutige klassizistische Gestalt entstand durch Umbauten 1877–1879 und 1928–1929. Im Inneren befindet sich eine historische Orgel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Obermühle Beblavých aus dem Jahr 1737",
+          "text": "Die Obermühle, auch Mühle Beblavých genannt, entstand 1737 als zweigeschossiger Stein- und Ziegelbau und nutzte die Wasserkraft des Baches Teplica. Seit 1985 ist sie ein nationales Kulturdenkmal. Teile der Technik sind erhalten, das Gebäude ist jedoch normalerweise nicht öffentlich zugänglich."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba – volkskundliche Ausstellung",
+          "text": "Die Vrbovčianska izba wurde 2001 eröffnet. Sie zeigt traditionelles Wohnen, Handwerk, Arbeits- und Festtrachten sowie Alltagsgegenstände aus Vrbovce und den Kopanica-Siedlungen. Die Ausstellung bewahrt materielle Zeugnisse einer Kultur, die in Familien und verstreuten Höfen weitergegeben wurde."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance und der slowakische Aufstand von 1848",
+          "text": "Im September 1848 versammelten sich nahe der damaligen Grenze etwa 400 Freiwillige des Heeres von Hurban und zogen in Richtung Myjava. Ein Denkmal in Šance erinnert daran. Als U Sabotů gehörte die Siedlung bis 1997 zur mährischen Gemeinde Javorník. Nach einem Referendum wurde sie der Slowakei angeschlossen und 1998 in Šance umbenannt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Widerstand, Maruška Kudeříková und die jüdische Gemeinde",
+          "text": "Während des Zweiten Weltkriegs halfen Menschen in Vrbovce heimlich Flüchtenden aus den besetzten böhmischen Ländern. Maruška Kudeříková verteilte Flugblätter und unterstützte den Widerstand; die Gestapo ließ sie am 26. März 1943 hinrichten. Bis 1942 lebten mehr als 70 jüdische Einwohner in Vrbovce, die deportiert wurden."
+        },
+        {
+          "id": "fact_009",
+          "title": "Blumenwiesen der Weißen Karpaten",
+          "text": "Im Gebiet von Vrbovce liegen mehrere kleine Schutzgebiete, darunter Štefanová, Malejov, Kožíkov vrch und Bučková jama. Die Wiesen bei Štefanová bewahren Reste artenreicher Karpatenwiesen mit etwa 16 Orchideenarten. Malejov schützt trockene Wiesen mit seltener Flora. Traditionelle Bewirtschaftung und regelmäßige Mahd halfen, diese vielfältige Landschaft zu erhalten."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Centre of Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce: from medieval village to market town",
+          "text": "Vrbovce was first recorded in 1394 in a deed issued by King Sigismund. In 1810 it gained the right to hold a Monday market and six annual fairs, became a market town and adopted a willow coat of arms. By the mid-18th century, 421 households lived in the centre and 361 in scattered Kopanica settlements."
+        },
+        {
+          "id": "fact_002",
+          "title": "A landscape of scattered Kopanica hamlets",
+          "text": "Vrbovce includes around 60 Kopanica hamlets and isolated farms, formed mainly from the late 17th century as woodland was cleared. Settlers included local people, migrants from the southern lands of the Kingdom of Hungary fleeing Ottoman raids, and people from the Czech lands escaping war and religious persecution. This dispersed settlement still shapes the landscape."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Renaissance Church of Saint Elizabeth",
+          "text": "The Roman Catholic Church of Saint Elizabeth was built in 1590 in Renaissance style and altered around 1756–1760. The single-nave building has a transept, polygonal presbytery and massive tower. It preserves a Baroque stone baptismal font. Local tradition links its construction to descendants of Czech Hussite migrants; in 1672 it passed into Catholic ownership."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Evangelical church of tolerance",
+          "text": "The first Evangelical church of tolerance was built in 1784 after Emperor Joseph II’s Edict of Toleration. It was enlarged in 1834–1839 and received a tower in 1839–1841. Its present Classical form reflects rebuilding in 1877–1879 and 1928–1929. A historic organ survives inside."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Beblavý Upper Mill, built in 1737",
+          "text": "The Upper Mill, also called the Beblavý Mill, was built in 1737 as a two-storey stone and brick building powered by the Teplica stream. It has been a national cultural monument since 1985. Some machinery survives, but the building is not normally open to visitors."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba: a folk-life exhibition",
+          "text": "Vrbovčianska izba opened in 2001. It presents traditional homes, crafts, working and festive costumes, and everyday objects from Vrbovce and its Kopanica settlements. The exhibition preserves material evidence of a culture passed down through families and scattered farms."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance and the Slovak uprising of 1848",
+          "text": "In September 1848, about 400 volunteers of Hurban’s army assembled near the then border and set out towards Myjava. A memorial in Šance commemorates the event. Known as U Sabotů, the settlement belonged to the Moravian municipality of Javorník until 1997; after a referendum it joined Slovakia and was renamed Šance in 1998."
+        },
+        {
+          "id": "fact_008",
+          "title": "Resistance, Maruška Kudeříková and the Jewish community",
+          "text": "During World War II, people in Vrbovce secretly helped refugees from the occupied Czech lands. Maruška Kudeříková distributed leaflets and supported the resistance; the Gestapo executed her on 26 March 1943. More than 70 Jewish residents lived in Vrbovce until 1942 and were deported."
+        },
+        {
+          "id": "fact_009",
+          "title": "White Carpathian flower meadows",
+          "text": "Several small protected sites lie in Vrbovce, including Štefanová, Malejov, Kožíkov vrch and Bučková jama. The meadows near Štefanová preserve species-rich grassland with about 16 orchid species. Malejov protects dry meadows with rare flora. Traditional land management and mowing helped preserve this diverse landscape."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce: de aldea medieval a villa de mercado",
+          "text": "Vrbovce aparece por primera vez en un documento de 1394. En 1810 obtuvo el derecho a celebrar un mercado los lunes y seis ferias anuales, fue elevada a villa de mercado y adoptó un escudo con un sauce. A mediados del siglo XVIII había 421 hogares en el núcleo y 361 en las kopanice dispersas."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paisaje de kopanice dispersas",
+          "text": "Vrbovce comprende unas 60 aldeas y granjas aisladas llamadas kopanice, surgidas sobre todo desde finales del siglo XVII al talarse bosques. Llegaron habitantes locales, migrantes del sur del Reino de Hungría que huían de incursiones otomanas y personas de las tierras checas que escapaban de guerras y persecuciones religiosas. Este poblamiento disperso sigue definiendo el paisaje."
+        },
+        {
+          "id": "fact_003",
+          "title": "La iglesia renacentista de Santa Isabel",
+          "text": "La iglesia católica de Santa Isabel fue construida en 1590 en estilo renacentista y reformada hacia 1756–1760. Tiene una sola nave, transepto, presbiterio poligonal y torre maciza. Conserva una pila bautismal barroca de piedra. La tradición local la vincula a descendientes de emigrantes husitas checos; en 1672 pasó a manos católicas."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia evangélica de tolerancia",
+          "text": "El primer templo evangélico de tolerancia se construyó en 1784 tras el Edicto de Tolerancia de José II. Fue ampliado entre 1834 y 1839 y recibió una torre en 1839–1841. Su forma clasicista actual procede de reformas de 1877–1879 y 1928–1929. Conserva un órgano histórico."
+        },
+        {
+          "id": "fact_005",
+          "title": "El molino superior de los Beblavý, de 1737",
+          "text": "El molino superior, llamado también molino de los Beblavý, se construyó en 1737 con dos plantas de piedra y ladrillo y utilizaba el arroyo Teplica. Es monumento cultural nacional desde 1985. Se conserva parte de la maquinaria, pero normalmente no está abierto al público."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba: exposición de la vida popular",
+          "text": "Vrbovčianska izba abrió en 2001. Presenta viviendas tradicionales, oficios, trajes de trabajo y fiesta y objetos cotidianos de Vrbovce y sus kopanice. Conserva testimonios materiales de una cultura transmitida en familias y granjas dispersas."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance y el levantamiento eslovaco de 1848",
+          "text": "En septiembre de 1848 unos 400 voluntarios del ejército de Hurban se reunieron cerca de la antigua frontera y partieron hacia Myjava. Un monumento en Šance recuerda el hecho. Como U Sabotů, el asentamiento perteneció a Javorník, en Moravia, hasta 1997; tras un referéndum pasó a Eslovaquia y en 1998 recibió el nombre de Šance."
+        },
+        {
+          "id": "fact_008",
+          "title": "La resistencia, Maruška Kudeříková y la comunidad judía",
+          "text": "Durante la Segunda Guerra Mundial, habitantes de Vrbovce ayudaron clandestinamente a refugiados de las tierras checas ocupadas. Maruška Kudeříková distribuyó octavillas y apoyó la resistencia; la Gestapo la ejecutó el 26 de marzo de 1943. Más de 70 habitantes judíos vivían en Vrbovce hasta 1942 y fueron deportados."
+        },
+        {
+          "id": "fact_009",
+          "title": "Praderas floridas de los Cárpatos Blancos",
+          "text": "En Vrbovce hay varios espacios protegidos, entre ellos Štefanová, Malejov, Kožíkov vrch y Bučková jama. Los prados de Štefanová conservan unas 16 especies de orquídeas; Malejov protege praderas secas con flora rara. La gestión tradicional y la siega ayudaron a conservar este paisaje."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre de Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce, du village médiéval au bourg de marché",
+          "text": "Vrbovce est mentionné pour la première fois en 1394 dans un acte du roi Sigismond. En 1810, le village obtient un marché chaque lundi et six foires annuelles, devient un bourg et adopte des armoiries représentant un saule. Au milieu du XVIIIe siècle, 421 foyers vivent dans le centre et 361 dans les kopanice dispersées."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paysage de kopanice dispersés",
+          "text": "Vrbovce compte environ 60 hameaux et fermes isolées appelés kopanice, apparus surtout à partir de la fin du XVIIe siècle après le défrichement des forêts. Des habitants locaux, des migrants du sud du royaume de Hongrie fuyant les incursions ottomanes et des personnes venues des pays tchèques pour échapper aux guerres et persécutions s’y installèrent. Cet habitat dispersé façonne encore le paysage."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Renaissance Sainte-Élisabeth",
+          "text": "L’église catholique Sainte-Élisabeth est construite en 1590 dans le style Renaissance et remaniée vers 1756–1760. Elle possède une nef unique, un transept, un chœur polygonal et une tour massive. Elle conserve des fonts baptismaux baroques en pierre. La tradition locale associe sa construction aux descendants de migrants hussites tchèques ; en 1672, elle passe sous autorité catholique."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église évangélique de tolérance",
+          "text": "Le premier temple évangélique de tolérance est construit en 1784 après l’édit de Joseph II. Il est agrandi en 1834–1839 et doté d’une tour en 1839–1841. Son aspect classique actuel résulte de travaux en 1877–1879 et 1928–1929. Il conserve un orgue historique."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le moulin supérieur des Beblavý, construit en 1737",
+          "text": "Le moulin supérieur, également appelé moulin des Beblavý, est construit en 1737 sur deux niveaux en pierre et briques et utilise l’eau du ruisseau Teplica. Il est classé monument culturel national depuis 1985. Une partie de l’équipement subsiste, mais le bâtiment n’est normalement pas ouvert au public."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba, exposition de la vie populaire",
+          "text": "Vrbovčianska izba ouvre en 2001. Elle présente l’habitat traditionnel, les métiers, les costumes de travail et de fête et les objets quotidiens de Vrbovce et des kopanice. Elle conserve les témoignages matériels d’une culture transmise dans les familles et les fermes dispersées."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance et le soulèvement slovaque de 1848",
+          "text": "En septembre 1848, environ 400 volontaires de l’armée de Hurban se rassemblent près de l’ancienne frontière avant de partir vers Myjava. Un monument à Šance commémore l’événement. Sous le nom d’U Sabotů, le hameau appartenait à Javorník en Moravie jusqu’en 1997 ; après un référendum, il rejoint la Slovaquie et prend le nom de Šance en 1998."
+        },
+        {
+          "id": "fact_008",
+          "title": "La résistance, Maruška Kudeříková et la communauté juive",
+          "text": "Pendant la Seconde Guerre mondiale, des habitants aident clandestinement des réfugiés des territoires tchèques occupés. Maruška Kudeříková distribue des tracts et soutient la résistance ; la Gestapo l’exécute le 26 mars 1943. Plus de 70 habitants juifs vivaient à Vrbovce jusqu’en 1942 et furent déportés."
+        },
+        {
+          "id": "fact_009",
+          "title": "Prairies fleuries des Carpates blanches",
+          "text": "Plusieurs petits sites protégés se trouvent à Vrbovce, notamment Štefanová, Malejov, Kožíkov vrch et Bučková jama. Les prairies de Štefanová conservent environ 16 espèces d’orchidées ; Malejov protège des pelouses sèches à flore rare. Les pratiques agricoles traditionnelles et la fauche ont contribué à préserver ce paysage."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce, da villaggio medievale a borgo di mercato",
+          "text": "Vrbovce è menzionata per la prima volta nel 1394 in un atto di re Sigismondo. Nel 1810 ottenne il diritto di tenere un mercato ogni lunedì e sei fiere annuali, divenne borgo di mercato e adottò uno stemma con un salice. A metà del XVIII secolo 421 famiglie vivevano nel centro e 361 nelle kopanice sparse."
+        },
+        {
+          "id": "fact_002",
+          "title": "Un paesaggio di kopanice e fattorie sparse",
+          "text": "Vrbovce comprende circa 60 piccoli insediamenti e fattorie isolate, chiamati kopanice, nati soprattutto dalla fine del XVII secolo con il disboscamento. Vi si stabilirono abitanti locali, migranti dal sud del Regno d’Ungheria in fuga dalle incursioni ottomane e persone provenienti dalle terre ceche per sfuggire a guerre e persecuzioni religiose. Questo insediamento disperso definisce ancora il paesaggio."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa rinascimentale di Sant’Elisabetta",
+          "text": "La chiesa cattolica di Sant’Elisabetta fu costruita nel 1590 in stile rinascimentale e modificata intorno al 1756–1760. Ha una navata, transetto, presbiterio poligonale e torre massiccia. Conserva un fonte battesimale barocco in pietra. La tradizione locale collega la costruzione ai discendenti di emigrati hussiti cechi; nel 1672 passò alla proprietà cattolica."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa evangelica di tolleranza",
+          "text": "Il primo tempio evangelico di tolleranza fu costruito nel 1784 dopo l’Editto di tolleranza di Giuseppe II. Fu ampliato nel 1834–1839 e ricevette una torre nel 1839–1841. L’aspetto neoclassico attuale deriva da lavori del 1877–1879 e del 1928–1929. All’interno si conserva un organo storico."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il mulino superiore dei Beblavý, del 1737",
+          "text": "Il mulino superiore, detto anche mulino dei Beblavý, fu costruito nel 1737 su due piani in pietra e mattoni e sfruttava il torrente Teplica. È monumento culturale nazionale dal 1985. Parte dei macchinari è conservata, ma l’edificio normalmente non è aperto al pubblico."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba, esposizione della vita popolare",
+          "text": "Vrbovčianska izba è stata aperta nel 2001. Presenta abitazioni tradizionali, mestieri, costumi da lavoro e da festa e oggetti quotidiani di Vrbovce e delle kopanice. Conserva testimonianze materiali di una cultura tramandata nelle famiglie e nelle fattorie sparse."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance e la rivolta slovacca del 1848",
+          "text": "Nel settembre 1848 circa 400 volontari dell’esercito di Hurban si radunarono vicino al vecchio confine e partirono verso Myjava. Un monumento a Šance ricorda l’evento. Con il nome di U Sabotů, l’insediamento appartenne a Javorník in Moravia fino al 1997; dopo un referendum entrò in Slovacchia e nel 1998 fu ribattezzato Šance."
+        },
+        {
+          "id": "fact_008",
+          "title": "La resistenza, Maruška Kudeříková e la comunità ebraica",
+          "text": "Durante la Seconda guerra mondiale gli abitanti aiutarono clandestinamente i profughi dai territori cechi occupati. Maruška Kudeříková distribuì volantini e sostenne la resistenza; la Gestapo la giustiziò il 26 marzo 1943. Fino al 1942 a Vrbovce vivevano più di 70 residenti ebrei, deportati nei campi."
+        },
+        {
+          "id": "fact_009",
+          "title": "Prati fioriti dei Carpazi Bianchi",
+          "text": "A Vrbovce si trovano varie piccole aree protette, tra cui Štefanová, Malejov, Kožíkov vrch e Bučková jama. I prati di Štefanová conservano circa 16 specie di orchidee; Malejov protegge prati aridi con flora rara. La gestione tradizionale e lo sfalcio hanno contribuito a preservare questo paesaggio."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Centrum van Vrbovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vrbovce: van middeleeuws dorp tot marktplaats",
+          "text": "Vrbovce wordt voor het eerst vermeld in 1394 in een akte van koning Sigismund. In 1810 kreeg de plaats het recht op een maandagmarkt en zes jaarmarkten, werd zij tot marktplaats verheven en nam zij een wapenschild met een wilg aan. Halverwege de achttiende eeuw woonden 421 huishoudens in het centrum en 361 in verspreide kopanice-nederzettingen."
+        },
+        {
+          "id": "fact_002",
+          "title": "Een landschap van verspreide kopanice",
+          "text": "Vrbovce omvat ongeveer 60 gehuchten en afgelegen boerderijen, de kopanice, die vooral vanaf de late zeventiende eeuw ontstonden door bosontginning. Kolonisten waren plaatselijke bewoners, migranten uit het zuiden van het Koninkrijk Hongarije die voor Ottomaanse invallen vluchtten en mensen uit de Tsjechische landen die oorlog en religieuze vervolging ontvluchtten. Deze verspreide bewoning bepaalt nog steeds het landschap."
+        },
+        {
+          "id": "fact_003",
+          "title": "De renaissancekerk van Sint-Elisabeth",
+          "text": "De rooms-katholieke kerk van Sint-Elisabeth werd in 1590 in renaissancestijl gebouwd en rond 1756–1760 aangepast. Het gebouw heeft één schip, een dwarsschip, een veelhoekig koor en een massieve toren. Er staat een barokke stenen doopvont. Volgens de plaatselijke traditie bouwden nakomelingen van Tsjechische Hussitische migranten de kerk; in 1672 kwam zij in katholieke handen."
+        },
+        {
+          "id": "fact_004",
+          "title": "De evangelische tolerantiekerk",
+          "text": "De eerste evangelische tolerantiekerk werd in 1784 gebouwd na het Tolerantie-edict van Jozef II. Zij werd uitgebreid in 1834–1839 en kreeg een toren in 1839–1841. Het huidige classicistische uiterlijk ontstond door verbouwingen in 1877–1879 en 1928–1929. Binnen staat een historisch orgel."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Bovenmolen van de familie Beblavý uit 1737",
+          "text": "De Bovenmolen, ook de molen van Beblavých genoemd, werd in 1737 gebouwd als tweelaags stenen en bakstenen gebouw en gebruikte de beek Teplica als energiebron. Sinds 1985 is hij een nationaal cultureel monument. Een deel van de machines is bewaard, maar het gebouw is normaal niet toegankelijk."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vrbovčianska izba: tentoonstelling van volksleven",
+          "text": "Vrbovčianska izba opende in 2001. Ze toont traditionele woningen, ambachten, werk- en feestkleding en alledaagse voorwerpen uit Vrbovce en de omliggende kopanice. De tentoonstelling bewaart materiële getuigenissen van een cultuur die binnen families en verspreide boerderijen werd doorgegeven."
+        },
+        {
+          "id": "fact_007",
+          "title": "Šance en de Slowaakse opstand van 1848",
+          "text": "In september 1848 verzamelden ongeveer 400 vrijwilligers van het leger van Hurban zich bij de toenmalige grens en vertrokken richting Myjava. Een monument in Šance herdenkt de gebeurtenis. Als U Sabotů behoorde de nederzetting tot 1997 tot Javorník in Moravië; na een referendum werd zij Slowaaks en kreeg zij in 1998 de naam Šance."
+        },
+        {
+          "id": "fact_008",
+          "title": "Verzet, Maruška Kudeříková en de Joodse gemeenschap",
+          "text": "Tijdens de Tweede Wereldoorlog hielpen inwoners vluchtelingen uit de bezette Tsjechische landen. Maruška Kudeříková verspreidde pamfletten en hielp het verzet; de Gestapo executeerde haar op 26 maart 1943. Tot 1942 woonden meer dan 70 Joodse inwoners in Vrbovce; zij werden gedeporteerd."
+        },
+        {
+          "id": "fact_009",
+          "title": "Bloemrijke graslanden van de Witte Karpaten",
+          "text": "In Vrbovce liggen verschillende kleine beschermde gebieden, waaronder Štefanová, Malejov, Kožíkov vrch en Bučková jama. De graslanden bij Štefanová bewaren ongeveer 16 orchideeënsoorten; Malejov beschermt droge graslanden met zeldzame flora. Traditioneel landgebruik en maaien hielpen dit landschap behouden."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
