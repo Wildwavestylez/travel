@@ -29,7 +29,7 @@
         "type": "historic_settlement",
         "accuracy": "area_representative",
         "source": "https://mapcarta.com/18462894",
-        "address": "Grinava, 902 03 Pezinok, Slovensko"
+        "address": null
       }
     },
     {
@@ -65,7 +65,8 @@
       "sources": [
         "https://www.pamiatkynaslovensku.sk/grinava-pezinok-evanjelicky-kostol",
         "https://www.pezinok.sk/content/files/casopis_pezincan/2006/pezincan-2006-02.pdf",
-        "https://www.limbach.sk/cirkvi-a-nabozenstva"
+        "https://www.ecav.sk/zapadny-distrikt/bratislavsky-seniorat/pezinok-grinava",
+        "https://register-architektury.sk/index.php/sk/objekt/62-evanjelicky-kostol"
       ],
       "location": {
         "name": "Evanjelický kostol v Grinave",
@@ -74,7 +75,7 @@
         "type": "church",
         "accuracy": "exact",
         "source": "https://www.pamiatkynaslovensku.sk/grinava-pezinok-evanjelicky-kostol",
-        "address": "Myslenická 136, 902 03 Pezinok, Slovensko"
+        "address": "Myslenická 134, 902 03 Pezinok, Slovensko"
       }
     },
     {
@@ -130,8 +131,7 @@
       "priority": "C",
       "map_category": "technical_heritage",
       "sources": [
-        "https://www.vvdpkarpaty.sk/O-nas-a1_0.htm",
-        "https://www.pezinok.sk/content/files/casopis_pezincan/2016/pezincan-2016-03.pdf"
+        "https://www.vvdpkarpaty.sk/O-nas-a1_0.htm"
       ],
       "location": {
         "name": "Vinohradnícko-vinárske družstvo KARPATY – orientačný bod areálu",
@@ -152,16 +152,15 @@
       "map_category": "historical_monument",
       "sources": [
         "https://www.pezinok.sk/novinka/7456/download.dat?embed=true&id=1E3FA5422E1C4B66A0D2FC2C475739E9-67A24528738A9B7A62CE44C0C050579B",
-        "https://www.vets.cz/vpm/14319-pomnik-obetiam-1-a-2-svetovej-vojny/",
-        "https://grinava.oma.sk/pamiatka"
+        "https://poi.oma.sk/n10225443404"
       ],
       "location": {
-        "name": "Pamätník obetiam druhej svetovej vojny v Grinave",
-        "lat": 48.269222,
-        "lon": 17.245528,
+        "name": "Pomník padlým antifašistom – dielo P. Tótha",
+        "lat": 48.2692296,
+        "lon": 17.2454915,
         "type": "memorial",
         "accuracy": "exact",
-        "source": "https://www.vets.cz/vpm/14319-pomnik-obetiam-1-a-2-svetovej-vojny/",
+        "source": "https://poi.oma.sk/n10225443404",
         "address": "Myslenická 132, 902 03 Pezinok, Slovensko"
       }
     },
@@ -195,23 +194,13 @@
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "PSČ 902 03 je priradené uliciam v Pezinku vrátane Myslenickej (okrem č. 1), Limbašskej cesty, Štúrovej, Orešia a ďalších; cirkevné kontakty uvádzajú adresy Myslenická 128 a 136 s týmto PSČ a vinohradnícke družstvo KARPATY uvádza Limbašskú 2, 902 03. Grinava je miestna časť a samostatné katastrálne územie Pezinka. Záznam reprezentuje Pezinok – Grinavu; nevyvodzuje presný polygon PSČ ani netvrdí, že každý bod katastrálneho územia má toto PSČ."
+    "geographic_authority": "PSČ 902 03 je priradené uliciam v Pezinku vrátane Myslenickej (okrem č. 1), Limbašskej cesty, Štúrovej, Orešia a ďalších; oficiálne cirkevné zdroje uvádzajú adresy Myslenická 128 a 134 s týmto PSČ a vinohradnícke družstvo KARPATY uvádza Limbašskú 2, 902 03. Grinava je miestna časť a samostatné katastrálne územie Pezinka. Záznam reprezentuje Pezinok – Grinavu; nevyvodzuje presný polygon PSČ ani netvrdí, že každý bod katastrálneho územia má toto PSČ."
   },
   "sources": [
     {
       "title": "Slovenská pošta – vyhľadávač PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "official"
-    },
-    {
-      "title": "SHMÚ – zoznam poštových smerovacích čísel",
-      "url": "https://www.shmu.sk/File/virgo/Zoznam_PSC.pdf",
-      "type": "official"
-    },
-    {
-      "title": "SITA – ulice priradené k PSČ 902 03",
-      "url": "https://sita.sk/hladat-psc-postove-smerove-cislo/90203/",
-      "type": "other"
     },
     {
       "title": "Mestské múzeum v Pezinku – Historika 1/2015",
@@ -259,11 +248,6 @@
       "type": "museum"
     },
     {
-      "title": "Obec Limbach – cirkevné adresy v Grinave",
-      "url": "https://www.limbach.sk/cirkvi-a-nabozenstva",
-      "type": "official"
-    },
-    {
       "title": "Pamiatky na Slovensku – Hodossyovská kúria",
       "url": "https://www.pamiatkynaslovensku.sk/grinava-pezinok-hodossyovska-kuria",
       "type": "specialist"
@@ -299,11 +283,6 @@
       "type": "primary"
     },
     {
-      "title": "Pezinčan 2016 – vinohradnícka tradícia Grinavy",
-      "url": "https://www.pezinok.sk/content/files/casopis_pezincan/2016/pezincan-2016-03.pdf",
-      "type": "museum"
-    },
-    {
       "title": "SKfirm – poloha VVDP KARPATY",
       "url": "https://www.skfirm.sk/component/realestatemanager/?Itemid=244&catid=62&id=1202&task=view",
       "type": "other"
@@ -312,16 +291,6 @@
       "title": "Mesto Pezinok – obnova pamätníka obetiam druhej svetovej vojny",
       "url": "https://www.pezinok.sk/novinka/7456/download.dat?embed=true&id=1E3FA5422E1C4B66A0D2FC2C475739E9-67A24528738A9B7A62CE44C0C050579B",
       "type": "official"
-    },
-    {
-      "title": "Spolek pro vojenská pietní místa – pamätník v Grinave",
-      "url": "https://www.vets.cz/vpm/14319-pomnik-obetiam-1-a-2-svetovej-vojny/",
-      "type": "other"
-    },
-    {
-      "title": "OpenStreetMap / OMA – pamiatky v Grinave",
-      "url": "https://grinava.oma.sk/pamiatka",
-      "type": "other"
     },
     {
       "title": "Pezinčan 2005 – archeologické nálezy v Grinave",
@@ -347,6 +316,21 @@
       "title": "Mesto Pezinok – archeológia v pamiatkovej zóne",
       "url": "https://www.pezinok.sk/uploadfiles/File/vyhlasky/vv2018_04_18-Oznamenie_MKSR-Pamiatkova_zona_Pezinok.pdf",
       "type": "official"
+    },
+    {
+      "title": "Evanjelická cirkev a. v. na Slovensku – Cirkevný zbor Pezinok-Grinava",
+      "url": "https://www.ecav.sk/zapadny-distrikt/bratislavsky-seniorat/pezinok-grinava",
+      "type": "official"
+    },
+    {
+      "title": "Register modernej architektúry na Slovensku – Evanjelický kostol v Grinave",
+      "url": "https://register-architektury.sk/index.php/sk/objekt/62-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "title": "OpenStreetMap / OMA – Pomník padlým antifašistom, Myslenická 132",
+      "url": "https://poi.oma.sk/n10225443404",
+      "type": "other"
     }
   ],
   "translations": {
