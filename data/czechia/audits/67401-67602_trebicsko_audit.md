@@ -143,6 +143,15 @@ Všech 45 změn bylo po zápisu načteno zpět a hodnoty location odpovídají u
 - 67576: fact_005
 - 67577: fact_006
 
+#### Nově prověřeno v tomto pokračování — bez změny souřadnic
+
+- `67557/fact_007` — oficiální web obce odkazuje na popis tvrze Biskupice na Hrady.cz. Ten lokalizuje terénní pozůstatky na úzkém zalesněném hřebeni vybíhajícím k severozápadnímu konci obce a popisuje příkop i jádro hrádku. Popis zpřesňuje polohu v terénu, ale neposkytuje GPS bod jádra; obecní střed ani střed kopce proto nelze vydávat za přesný bod. Zatím ponecháno null. Zdroje: https://www.biskupice-pulkov.cz/o-obci/ ; https://www.hrady.cz/tvrz-biskupice-trebic
+- `67574/fact_003` — NPÚ a Památkový katalog potvrzují konkrétní stavbu Vápenice na hřebeni nad levým břehem Oslavy jižně od Březníka. Dostupné oficiální texty ale neuvádějí souřadnice ani adresní bod objektu. Obecní střed, Vlčí Kopec ani blízký gloriet nejsou náhradou polohy pavilonu. Zatím ponecháno null. Zdroje: https://www.npu.cz/cs/uop-telc/pamatky-v-nasem-kraji/nove-prohlasene-nemovite-pamatky-na-uzemi-kraje-vysocina/2024 ; https://www.pamatkovykatalog.cz/lovecky-pavilon-vapenice-26813913
+- `67576/fact_005` — oficiální stránka Hartvíkovic potvrzuje, že bývalá kaple byla přestavěna na tělocvičnu a dnes slouží převážně škole a veřejnosti. Stránka však neuvádí adresu ani přímý mapový bod kaple; odkaz „Najít na mapě“ vede na obecní profil, nikoli na objekt. Adresa školy čp. 90 proto nebyla automaticky použita jako poloha kaple. Zatím ponecháno null. Zdroj: https://www.hartvikovice.cz/kaple
+- `67577/fact_006` — při dohledávání se objevil další místopisný popis „Na Hrádku“ v Kramolíně: lokalizuje jej proti Slavětickému mlýnu nad Francouzským žlebem a popisuje příkop a kruhovou prohlubeň. To se místně nemusí shodovat s formulací aktuálního faktu („v lesích pod hrází Dalešické přehrady, poblíž silnice z Kramolína k elektrárně“). Před případným geokódováním je nutné vyřešit, zda jde o totožné místo; souřadnice nebyly doplněny. Zdroj: https://www.mestysbudisov.cz/e_download.php?file=data%2Feditor%2F66cs_97.pdf&original=200604bz.pdf
+- `67508/fact_003` — oficiální historie Koutů potvrzuje postavení Amerikánského kříže roku 1874, ale neuvádí jeho umístění. Zatím bez bezpečného bodu. Zdroj: https://www.obeckouty.cz/o-obci/historie-obce/prehled-nejdulezitejsich-udalosti-od-zalozeni-1945
+- `67532/fact_008` — web Jemnického mikroregionu potvrzuje kamenný sloup se čtyřmi kříži a čtyřmi hlavami „směrem na Budkov“, stále však bez přesnějšího bodu. Zatím ponecháno null. Zdroj: https://www.mikroregion.jemnice.cz/clenske-obce/obec-oponesice.html
+
 U každého zbylého faktu dohledat konkrétní bod nebo vhodný veřejný orientační bod podle hierarchie prompt_rework a Content Standardu. Pokud bod nelze odpovědně doložit, ponechat null a zaznamenat důvod. Nezkoumat ani nepřeměřovat již neprázdné polohy; nekopírovat representative_point/access_point.
 ## 6. Další kontroly, které zůstávají otevřené
 
