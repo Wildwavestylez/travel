@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 18/59 poloh doplněno, 41 otevřeno
+## 5. Geografické nálezy — 20/59 poloh doplněno, 39 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -95,12 +95,14 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67531/fact_005 — židovský hřbitov Jemnice; souřadnice odborného katalogu židovských památek.
 - 67531/fact_006 — kostel sv. Jakuba v Podolí; publikované souřadnice objektu.
 - 67532/fact_009 — boží muka u nádraží v Třebelovicích; souřadnice památkového katalogu.
+- 67545/fact_003 — přírodní památka Hájky; reprezentativní bod chráněného území.
+- 67545/fact_004 — historický mlýn a pila v Milaticích; GPS databáze vodních mlýnů.
 - 67553/fact_002 — kostel Povýšení sv. Kříže ve Valči; publikované GPS kostela.
 - 67573/fact_003 — kostel sv. Martina v Kralicích nad Oslavou; publikované souřadnice objektu.
 
-Všech 18 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+Všech 20 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
 
-### Zbývá prověřit — 41 faktů
+### Zbývá prověřit — 39 faktů
 - 67504: fact_003
 - 67508: fact_003
 - 67521: fact_003, fact_005, fact_006
@@ -113,7 +115,7 @@ Všech 18 změn bylo po zápisu načteno zpět a hodnoty location odpovídají u
 - 67541: fact_005
 - 67542: fact_004, fact_005
 - 67544: fact_001, fact_007, fact_009
-- 67545: fact_002–fact_004
+- 67545: fact_002
 - 67553: fact_004
 - 67557: fact_007
 - 67573: fact_004–fact_006
