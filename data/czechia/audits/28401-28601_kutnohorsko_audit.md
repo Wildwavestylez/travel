@@ -256,3 +256,14 @@ Read-back potvrdil:
 - počet jazykových položek zůstal zachován; české master texty ani `translations.cs` nebyly změněny.
 
 Tím je znovu potvrzena cílená kontextová kontrola sedmi faktů v 28401 a 28403. **Nejde o dokončení plošného auditu mezinárodní srozumitelnosti**; ten nadále zbývá pro ostatní fakta celého rozsahu.
+
+
+### Pokračování čtenářské kontroly — 28401 (fact_001, fact_004, fact_007)
+
+Další čtení překladů odhalilo tři pojmy, které byly přeloženy správně, ale bez krátkého vysvětlení nemusely být pro zahraničního čtenáře dostatečně průhledné. Kontext byl doplněn ve všech šesti jazycích:
+
+- **fact_001 — Stříbrné město:** vysvětleno, že Království české / Kingdom of Bohemia bylo historické království v zemích dnešní České republiky. Tím se předchází záměně historického státního útvaru s dnešním státem.
+- **fact_004 — Hrádek:** výraz „stříbrná elita“ byl objasněn jako bohatí důlní podnikatelé a obchodníci Kutné Hory.
+- **fact_007 — Jezuitská kolej:** doplněno, že šlo o vzdělávací instituci jezuitského řádu, katolického řeholního společenství s významnou vzdělávací činností.
+
+Read-back v Supabase potvrdil všech 18 kontextových doplnění (3 fakta × 6 jazyků). České master texty a `translations.cs` zůstaly beze změny. Tato tři fakta nyní mají spolu s dříve obnovenými čtyřmi fakty v 28401 kontextové vysvětlení; ostatní položky bloku 28401 je třeba ještě projít.
