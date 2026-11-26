@@ -1,4 +1,682 @@
 {
   "postcode": "90604",
-  "status": "placeholder"
+  "city": "Častkov",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "district_type": null,
+  "representative_place": "Častkov",
+  "representative_point": {
+    "lat": 48.75513,
+    "lon": 17.36157
+  },
+  "access_point": {
+    "lat": 48.75513,
+    "lon": 17.36157
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Gravettien a neolitické osídlení Rybiek",
+      "text": "Katastrální území Rybiek uchovává doklady osídlení od starší doby kamenné. Obecní historický přehled uvádí soubor patinovaných kamenných nástrojů gravettienské kultury, datovaný přibližně do období 25 000–15 000 př. n. l.; soubor tvoří mimo jiné křemencová kovadlina, otloukač a štípané nástroje, které mohou představovat pozůstatek pravěké dílny. V poloze Jutra u údolí potoka Vírovská byly dále nalezeny keramické střepy staršího neolitu a doklady mladší lengyelské kultury. Z lokality Bočiny pochází také eneolitický kamenný sekeromlat. Nálezy dokládají dlouhodobé využívání zdejší krajiny, nikoli však veřejně přístupné archeologické naleziště.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.obecrybky.sk/o-obci/"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Pravěké stopy v katastru Častkova",
+      "text": "Archeologické nálezy ukazují, že území Častkova bylo využíváno už v pravěku. V poloze Za bôrom jsou doloženy štípané kamenné artefakty připisované paleolitu; u osady Havran se našla eneolitická kamenná sekerka a další nálezy z mladší doby kamenné pocházejí z polohy Za potôčkom. Lokalita Padelky vydala keramiku a stopy železářského zpracování spojované s keltským osídlením v době laténské. Na místě Za potôčkom jsou doloženy také germánské nálezy z doby římské. Jde o několik různých nálezových poloh v katastru, nikoli o jediný souvislý ani turisticky zpřístupněný archeologický areál.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "https://www.castkov.sk/zivot-v-obci/historia"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Miléniový kříž na vrchu Virovská",
+      "text": "Na vrchu Virovská v lokalitě Bočiny, na okraji katastru Rybiek u styku území Rybiek, Rohova, Smrdáků a Oreského, stojí monumentální Miléniový neboli Jubilejní kříž. Obec Rybky jej nechala vybudovat při příležitosti jubilea narození Ježíše Krista; vysvěcen byl 17. září 2000. Konstrukce je vysoká 27 metrů a rozpětí ramen činí 9 metrů. V místě jejich křížení je reliéf pěti holubic symbolizujících světadíly. Ve spodní části se nachází kaple Božího milosrdenství s relikvií svaté Faustyny Kowalské. Přístupová cesta byla v roce 2009 doplněna čtrnácti zastaveními křížové cesty. Protože místo leží na rozhraní několika katastrů, je jeho bod v mapě označen jako reprezentativní poloha na okraji oblasti.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "https://www.tkkbs.sk/view.php?cisloclanku=20240408028",
+        "https://spoznajslovensko.eu/mileniovy-kriz/"
+      ],
+      "location": {
+        "name": "Miléniový kríž, vrch Virovská – okraj katastru Rybiek",
+        "lat": 48.7272194,
+        "lon": 17.3184657,
+        "type": "religious_site",
+        "accuracy": "area_representative",
+        "source": "https://spoznajslovensko.eu/mileniovy-kriz/"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Havran – nejvyšší vrch Častkova",
+      "text": "Vrch Havran dosahuje nadmořské výšky přibližně 542 metrů a je nejvyšším bodem katastru Častkova. Leží v kopcovité krajině na okraji Bílých Karpat a podle obecních rozvojových dokumentů nabízí široké výhledy do okolí. Přes Havran vede pěší turistická trasa navazující na Ovčí vrch a Lopašov. Jméno Havran označuje také místní část či osadu Častkova, takže je třeba rozlišovat samotný vrchol od sídla v jeho okolí.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "https://www.castkov.sk/files/dokumenty/ostatne-dokumenty/2025-07-21-151641-PHSR_2021-2027-final.pdf",
+        "https://www.staremapy.sk/mesto/se/castkov"
+      ],
+      "location": {
+        "name": "Vrch Havran, Častkov",
+        "lat": 48.767711,
+        "lon": 17.372337,
+        "type": "hill",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n4834594443"
+      },
+      "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kaštieľ Rohov a jeho park",
+      "text": "Dominantou Rohova je historický kaštieľ s přilehlým parkem. Na místě staršího panského sídla vznikla dnešní klasicistní dvoupodlažní budova na počátku 19. století za barona Ferdinanda Horeckého; obecní historie připomíná starší stavební fázi kolem roku 1611. Po rozsáhlém požáru v roce 1924 zůstaly z budovy ruiny a sídlo bylo znovu vystavěno ve vyšší podobě. Za druhé světové války sloužilo jako lazaret, později se proměnilo v zařízení sociálních služeb. Kaštieľ je evidován v Ústředním seznamu památkového fondu SR pod číslem 664/1 a zámecký park pod číslem 664/2. Park má přibližně čtyři hektary; současné sociální využití areálu je třeba respektovat.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "https://www.rohov.sk/o-obci-0.html",
+        "https://www.pamiatkynaslovensku.sk/kastiel-rohov",
+        "https://www.rohov.sk/download_file_f.php?id=2046745"
+      ],
+      "location": {
+        "name": "Kaštieľ Rohov",
+        "lat": 48.726931,
+        "lon": 17.345918,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kastiel-rohov"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Kostel svaté Kateřiny a stopa maďarského básníka",
+      "text": "Římskokatolický kostel svaté Kateřiny Alexandrijské v Rohově je renesanční stavba dokončená v letech 1628–1636, později upravená v barokním období a znovu přestavovaná v polovině 18. století. V interiéru je umístěna náhrobní deska maďarského básníka Józsefa Gvadányiho, zhotovená roku 1909. Památka připomíná historické vazby zdejšího panství na šlechtické rody a kulturní prostředí Uherského království; deska je doloženou pamětní stopou, nikoli důvodem tvrdit bez dalšího ověření, že básník v Rohově žil nebo se zde narodil.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "https://www.rohov.sk/download_file_f.php?id=2046745",
+        "https://mojafarnost.sk/kostoly/kostol-rohov-sv-katariny-alexandrijskej"
+      ],
+      "location": {
+        "name": "Kostol sv. Kataríny Alexandrijskej, Rohov",
+        "lat": 48.72867,
+        "lon": 17.34889,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://mojafarnost.sk/kostoly/kostol-rohov-sv-katariny-alexandrijskej"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Dezider Janda – herec a divadelní režisér",
+      "text": "V Rohově se 10. ledna 1913 narodil Dezider Janda (zemřel roku 1965 v Trnavě), slovenský činoherní herec a režisér. V letech 1959–1965 vedl Krajové divadlo v Trnavě a podle obecní výroční zprávy vytvořil první divadelní slovník na Slovensku. Jeho profesní dráha propojuje malou obec na Záhorí s poválečným rozvojem slovenského regionálního divadla.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "https://www.rohov.sk/download_file_f.php?id=2046745"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_008",
+      "title": "Evanjelický kostel v Častkově a farář Jozef Nedobrý",
+      "text": "Častkovský evangelický kostel augsburského vyznání vznikal v letech 1876–1877. Základní kámen byl položen 8. května 1876; při stavbě se zřítila nedokončená věž a poškodila střechu i část zdiva, takže dokončení převzal stavitel J. Pokorný. Výstavba souvisela s osamostatněním místního evangelického sboru v roce 1875 a s působením faráře Jozefa Nedobrého (1841–1921), který byl také učitelem a národně uvědomělým veřejným činitelem. Kostel dokládá silnou evangelickou tradici Častkova, kde podle obecních pramenů tvořili evangelíci většinu obyvatel už v 18. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "https://www.castkov.sk/zivot-v-obci/historia",
+        "https://www.castkov.sk/jozef-nedobry-1841--1921-a303-909",
+        "https://www.castkov.sk/zivot-v-obci/cirkev"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_009",
+      "title": "Pomník obětem první světové války v Rybkách",
+      "text": "V parčíku u hasičské zbrojnice v Rybkách stojí pomník obyvatelům padlým v první světové válce. Nápis uvádí šestnáct jmen mužů, kteří zahynuli na východní, italské a srbské frontě v letech 1914–1918. Památník připomíná, jak válka zasáhla i malou obec na Záhorí, a zachovává jména místních rodin, jejichž členové se z fronty nevrátili.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "https://www.obecrybky.sk/o-obci/",
+        "https://www.vets.cz/vpm/22743-pomnik-obetiam-1-svetovej-vojny/"
+      ],
+      "location": {
+        "name": "Pomník obetiam 1. svetovej vojny, Rybky",
+        "lat": 48.7089167,
+        "lon": 17.3374722,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://www.vets.cz/vpm/22743-pomnik-obetiam-1-svetovej-vojny/"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_010",
+      "title": "Výšivka a paličkovaná krajka na Záhorí",
+      "text": "Častkovské ženy byly podle obecní historie známé výšivkou a krajkářstvím. Také v sousedních Rybkách se ještě na počátku 20. století paličkovaly krajky z hrubších konopných a bavlněných nití, které se používaly například na koutní plachty, úvodnice, ručníky a ubrusy. Tyto práce patřily k domácí textilní kultuře venkovského Záhorí a ukazují, že vedle zemědělství měly místní ženy také specializované řemeslné dovednosti.",
+      "category": "culture_and_industry",
+      "priority": "D",
+      "sources": [
+        "https://www.castkov.sk/zivot-v-obci/historia",
+        "https://www.e-obce.sk/obec/rybky/4-kulturne_dedicstvo.html"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "title": "AllSlovakia – geografická oblasť PSČ 90604 a zahrnuté sídla (dáta OpenStreetMap)",
+      "url": "https://allslovakia.info/psc/90604",
+      "type": "other"
+    },
+    {
+      "title": "GeoNames – poloha obce Častkov",
+      "url": "https://www.geonames.org/12057074/castkov.html",
+      "type": "other"
+    },
+    {
+      "title": "Obec Častkov – História",
+      "url": "https://www.castkov.sk/zivot-v-obci/historia",
+      "type": "official"
+    },
+    {
+      "title": "Obec Častkov – Program hospodárskeho rozvoja a sociálneho rozvoja 2021–2027",
+      "url": "https://www.castkov.sk/files/dokumenty/ostatne-dokumenty/2025-07-21-151641-PHSR_2021-2027-final.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Obec Častkov – Cirkev",
+      "url": "https://www.castkov.sk/zivot-v-obci/cirkev",
+      "type": "official"
+    },
+    {
+      "title": "Obec Rybky – O obci a história",
+      "url": "https://www.obecrybky.sk/o-obci/",
+      "type": "official"
+    },
+    {
+      "title": "TK KBS – Miléniový kríž na vrchu Virovská",
+      "url": "https://www.tkkbs.sk/view.php?cisloclanku=20240408028",
+      "type": "news"
+    },
+    {
+      "title": "Spoznaj Slovensko – Miléniový kríž, poloha a GPS",
+      "url": "https://spoznajslovensko.eu/mileniovy-kriz/",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Rohov – O obci, história a pamiatky",
+      "url": "https://www.rohov.sk/o-obci-0.html",
+      "type": "official"
+    },
+    {
+      "title": "Pamiatky na Slovensku – Kaštieľ Rohov",
+      "url": "https://www.pamiatkynaslovensku.sk/kastiel-rohov",
+      "type": "specialist"
+    },
+    {
+      "title": "Obec Rohov – Individuálna výročná správa za rok 2023",
+      "url": "https://www.rohov.sk/download_file_f.php?id=2046745",
+      "type": "official"
+    },
+    {
+      "title": "MojaFarnosť – Kostol sv. Kataríny Alexandrijskej v Rohove, poloha",
+      "url": "https://mojafarnost.sk/kostoly/kostol-rohov-sv-katariny-alexandrijskej",
+      "type": "specialist"
+    },
+    {
+      "title": "DoKostola – Farnosť Rohov a poloha",
+      "url": "https://www.dokostola.sk/farnost/rohov",
+      "type": "specialist"
+    },
+    {
+      "title": "MojaFarnosť – Kostol sv. Cyrila a Metoda v Častkove",
+      "url": "https://mojafarnost.sk/kostoly/kostol-castkov-sv-cyrila-a-metoda",
+      "type": "specialist"
+    },
+    {
+      "title": "Spolek pro vojenská pietní místa – Pomník obetiam 1. svetovej vojny v Rybkách",
+      "url": "https://www.vets.cz/vpm/22743-pomnik-obetiam-1-svetovej-vojny/",
+      "type": "specialist"
+    },
+    {
+      "title": "ZMO Záhorie – Častkov: história, kostoly a ľudové tradície",
+      "url": "https://zmo-zahorie.sk/castkov/",
+      "type": "regional"
+    },
+    {
+      "title": "OMA – vrch Havran v katastri Častkova, súradnice",
+      "url": "https://poi.oma.sk/n4834594443",
+      "type": "other"
+    },
+    {
+      "title": "STAREMAPY – Geografické názvoslovie a vrchy v katastri Častkova",
+      "url": "https://www.staremapy.sk/mesto/se/castkov",
+      "type": "specialist"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc; https://allslovakia.info/psc/90604",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ; geografický rozsah a sídla v oblasti corroborované mapovým datasetem AllSlovakia založeným na OpenStreetMap",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Umístění poštovní provozovny nebylo použito k odvození geografického rozsahu PSČ ani reprezentativního bodu.",
+    "geographic_authority": "Štatistický úrad SR a oficiální územní evidence pro okres a kraj; OpenStreetMap/AllSlovakia a GeoNames pro kontrolu sídelní struktury a polohy"
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gravettien a neolitické osídlení Rybiek",
+          "text": "Katastrální území Rybiek uchovává doklady osídlení od starší doby kamenné. Obecní historický přehled uvádí soubor patinovaných kamenných nástrojů gravettienské kultury, datovaný přibližně do období 25 000–15 000 př. n. l.; soubor tvoří mimo jiné křemencová kovadlina, otloukač a štípané nástroje, které mohou představovat pozůstatek pravěké dílny. V poloze Jutra u údolí potoka Vírovská byly dále nalezeny keramické střepy staršího neolitu a doklady mladší lengyelské kultury. Z lokality Bočiny pochází také eneolitický kamenný sekeromlat. Nálezy dokládají dlouhodobé využívání zdejší krajiny, nikoli však veřejně přístupné archeologické naleziště."
+        },
+        {
+          "id": "fact_002",
+          "title": "Pravěké stopy v katastru Častkova",
+          "text": "Archeologické nálezy ukazují, že území Častkova bylo využíváno už v pravěku. V poloze Za bôrom jsou doloženy štípané kamenné artefakty připisované paleolitu; u osady Havran se našla eneolitická kamenná sekerka a další nálezy z mladší doby kamenné pocházejí z polohy Za potôčkom. Lokalita Padelky vydala keramiku a stopy železářského zpracování spojované s keltským osídlením v době laténské. Na místě Za potôčkom jsou doloženy také germánské nálezy z doby římské. Jde o několik různých nálezových poloh v katastru, nikoli o jediný souvislý ani turisticky zpřístupněný archeologický areál."
+        },
+        {
+          "id": "fact_003",
+          "title": "Miléniový kříž na vrchu Virovská",
+          "text": "Na vrchu Virovská v lokalitě Bočiny, na okraji katastru Rybiek u styku území Rybiek, Rohova, Smrdáků a Oreského, stojí monumentální Miléniový neboli Jubilejní kříž. Obec Rybky jej nechala vybudovat při příležitosti jubilea narození Ježíše Krista; vysvěcen byl 17. září 2000. Konstrukce je vysoká 27 metrů a rozpětí ramen činí 9 metrů. V místě jejich křížení je reliéf pěti holubic symbolizujících světadíly. Ve spodní části se nachází kaple Božího milosrdenství s relikvií svaté Faustyny Kowalské. Přístupová cesta byla v roce 2009 doplněna čtrnácti zastaveními křížové cesty. Protože místo leží na rozhraní několika katastrů, je jeho bod v mapě označen jako reprezentativní poloha na okraji oblasti."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran – nejvyšší vrch Častkova",
+          "text": "Vrch Havran dosahuje nadmořské výšky přibližně 542 metrů a je nejvyšším bodem katastru Častkova. Leží v kopcovité krajině na okraji Bílých Karpat a podle obecních rozvojových dokumentů nabízí široké výhledy do okolí. Přes Havran vede pěší turistická trasa navazující na Ovčí vrch a Lopašov. Jméno Havran označuje také místní část či osadu Častkova, takže je třeba rozlišovat samotný vrchol od sídla v jeho okolí."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaštieľ Rohov a jeho park",
+          "text": "Dominantou Rohova je historický kaštieľ s přilehlým parkem. Na místě staršího panského sídla vznikla dnešní klasicistní dvoupodlažní budova na počátku 19. století za barona Ferdinanda Horeckého; obecní historie připomíná starší stavební fázi kolem roku 1611. Po rozsáhlém požáru v roce 1924 zůstaly z budovy ruiny a sídlo bylo znovu vystavěno ve vyšší podobě. Za druhé světové války sloužilo jako lazaret, později se proměnilo v zařízení sociálních služeb. Kaštieľ je evidován v Ústředním seznamu památkového fondu SR pod číslem 664/1 a zámecký park pod číslem 664/2. Park má přibližně čtyři hektary; současné sociální využití areálu je třeba respektovat."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kostel svaté Kateřiny a stopa maďarského básníka",
+          "text": "Římskokatolický kostel svaté Kateřiny Alexandrijské v Rohově je renesanční stavba dokončená v letech 1628–1636, později upravená v barokním období a znovu přestavovaná v polovině 18. století. V interiéru je umístěna náhrobní deska maďarského básníka Józsefa Gvadányiho, zhotovená roku 1909. Památka připomíná historické vazby zdejšího panství na šlechtické rody a kulturní prostředí Uherského království; deska je doloženou pamětní stopou, nikoli důvodem tvrdit bez dalšího ověření, že básník v Rohově žil nebo se zde narodil."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda – herec a divadelní režisér",
+          "text": "V Rohově se 10. ledna 1913 narodil Dezider Janda (zemřel roku 1965 v Trnavě), slovenský činoherní herec a režisér. V letech 1959–1965 vedl Krajové divadlo v Trnavě a podle obecní výroční zprávy vytvořil první divadelní slovník na Slovensku. Jeho profesní dráha propojuje malou obec na Záhorí s poválečným rozvojem slovenského regionálního divadla."
+        },
+        {
+          "id": "fact_008",
+          "title": "Evanjelický kostel v Častkově a farář Jozef Nedobrý",
+          "text": "Častkovský evangelický kostel augsburského vyznání vznikal v letech 1876–1877. Základní kámen byl položen 8. května 1876; při stavbě se zřítila nedokončená věž a poškodila střechu i část zdiva, takže dokončení převzal stavitel J. Pokorný. Výstavba souvisela s osamostatněním místního evangelického sboru v roce 1875 a s působením faráře Jozefa Nedobrého (1841–1921), který byl také učitelem a národně uvědomělým veřejným činitelem. Kostel dokládá silnou evangelickou tradici Častkova, kde podle obecních pramenů tvořili evangelíci většinu obyvatel už v 18. století."
+        },
+        {
+          "id": "fact_009",
+          "title": "Pomník obětem první světové války v Rybkách",
+          "text": "V parčíku u hasičské zbrojnice v Rybkách stojí pomník obyvatelům padlým v první světové válce. Nápis uvádí šestnáct jmen mužů, kteří zahynuli na východní, italské a srbské frontě v letech 1914–1918. Památník připomíná, jak válka zasáhla i malou obec na Záhorí, a zachovává jména místních rodin, jejichž členové se z fronty nevrátili."
+        },
+        {
+          "id": "fact_010",
+          "title": "Výšivka a paličkovaná krajka na Záhorí",
+          "text": "Častkovské ženy byly podle obecní historie známé výšivkou a krajkářstvím. Také v sousedních Rybkách se ještě na počátku 20. století paličkovaly krajky z hrubších konopných a bavlněných nití, které se používaly například na koutní plachty, úvodnice, ručníky a ubrusy. Tyto práce patřily k domácí textilní kultuře venkovského Záhorí a ukazují, že vedle zemědělství měly místní ženy také specializované řemeslné dovednosti."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gravettien und neolithische Besiedlung von Rybky",
+          "text": "Das Gemeindegebiet von Rybky bewahrt Spuren menschlicher Besiedlung seit der Altsteinzeit. Die Ortschronik nennt eine Gruppe patinierter Steingeräte der Gravettien-Kultur, die ungefähr auf 25.000 bis 15.000 v. Chr. datiert wird. Dazu gehören ein Amboss aus Quarzit, ein Schlagstein und Abschläge; möglicherweise handelt es sich um die Reste einer steinzeitlichen Werkstatt. Am Fundplatz Jutra im Tal des Baches Vírovská wurden außerdem Keramikfragmente aus dem Frühneolithikum und Hinweise auf die jüngere Lengyel-Kultur entdeckt. Aus dem Gebiet Bočiny stammt ein steinerner Hammer aus dem Äneolithikum. Die Funde belegen eine lange Nutzung der Landschaft, jedoch keine öffentlich zugängliche archäologische Ausgrabungsstätte."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vorgeschichtliche Spuren im Gemeindegebiet von Častkov",
+          "text": "Archäologische Funde zeigen, dass das Gebiet von Častkov bereits in vorgeschichtlicher Zeit genutzt wurde. Am Fundort Za bôrom sind Abschläge aus der Altsteinzeit belegt; bei der Siedlung Havran wurde ein äneolithisches Steinbeil gefunden, weitere jungsteinzeitliche Funde stammen aus der Lage Za potôčkom. In Padelky kamen Keramik und Hinweise auf Eisenverarbeitung zutage, die mit einer keltischen Siedlung der Latènezeit verbunden werden. Am Fundort Za potôčkom sind außerdem germanische Funde aus der Römerzeit belegt. Es handelt sich um mehrere Fundstellen im Gemeindegebiet, nicht um eine zusammenhängende oder touristisch erschlossene archäologische Anlage."
+        },
+        {
+          "id": "fact_003",
+          "title": "Millenniums-Kreuz auf dem Berg Virovská",
+          "text": "Auf dem Berg Virovská in der Lage Bočiny, am Rand des Katastralgebiets von Rybky und nahe dem Zusammentreffen der Gebiete von Rybky, Rohov, Smrdáky und Oreské, steht das monumentale Millenniums- oder Jubiläumskreuz. Die Gemeinde Rybky ließ es zum Jubiläum der Geburt Jesu Christi errichten; geweiht wurde es am 17. September 2000. Das Kreuz ist 27 Meter hoch und seine Spannweite beträgt 9 Meter. Am Schnittpunkt der Arme befindet sich ein Relief mit fünf Tauben als Symbolen der Kontinente. Im verbreiterten Fuß ist eine Kapelle der Göttlichen Barmherzigkeit mit einer Reliquie der heiligen Faustyna Kowalska untergebracht. Der Zugangsweg wurde 2009 um vierzehn Stationen eines Kreuzwegs ergänzt. Da der Ort an der Grenze mehrerer Katastralgebiete liegt, zeigt die Karte eine repräsentative Randposition."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran – der höchste Gipfel von Častkov",
+          "text": "Der Berg Havran erreicht ungefähr 542 Meter über dem Meeresspiegel und ist der höchste Punkt des Gemeindegebiets von Častkov. Er liegt in einer hügeligen Landschaft am Rand der Weißen Karpaten und bietet laut den Entwicklungsunterlagen der Gemeinde weite Ausblicke auf die Umgebung. Über Havran führt ein Wanderweg, der an den Ovčí vrch und an Lopašov anschließt. Der Name Havran bezeichnet auch einen Ortsteil beziehungsweise eine Siedlung von Častkov; der Gipfel ist daher von der Siedlung in seiner Umgebung zu unterscheiden."
+        },
+        {
+          "id": "fact_005",
+          "title": "Schloss Rohov und sein Park",
+          "text": "Das historische Schloss mit dem angrenzenden Park prägt das Ortsbild von Rohov. An der Stelle eines älteren Herrensitzes entstand das heutige klassizistische zweigeschossige Gebäude zu Beginn des 19. Jahrhunderts unter Baron Ferdinand Horecký; die Ortsgeschichte erwähnt eine ältere Bauphase um 1611. Nach einem Großbrand im Jahr 1924 blieben Ruinen zurück, und das Schloss wurde in vergrößerter Form wiederaufgebaut. Während des Zweiten Weltkriegs diente es als Lazarett, später wurde es zu einer sozialen Einrichtung. Das Schloss ist im Zentralen Denkmalregister der Slowakischen Republik unter der Nummer 664/1 eingetragen, der Schlosspark unter 664/2. Der Park umfasst etwa vier Hektar; die heutige soziale Nutzung des Geländes ist zu respektieren."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kirche der heiligen Katharina und die Spur des ungarischen Dichters",
+          "text": "Die römisch-katholische Kirche der heiligen Katharina von Alexandrien in Rohov ist ein Renaissancebau, der zwischen 1628 und 1636 fertiggestellt und später barock umgestaltet wurde. In der Mitte des 18. Jahrhunderts erfolgte ein weiterer Umbau. Im Inneren befindet sich eine 1909 angefertigte Grabplatte des ungarischen Dichters József Gvadányi. Das Denkmal erinnert an die historischen Verbindungen des örtlichen Herrschaftsguts zu Adelsfamilien und zum kulturellen Umfeld des Königreichs Ungarn. Die Platte ist ein belegtes Erinnerungszeichen; sie allein belegt nicht, dass der Dichter in Rohov lebte oder geboren wurde."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda – Schauspieler und Theaterregisseur",
+          "text": "Am 10. Januar 1913 wurde in Rohov Dezider Janda geboren (gestorben 1965 in Trnava), ein slowakischer Schauspieler und Theaterregisseur. Von 1959 bis 1965 leitete er das Regionaltheater in Trnava und verfasste laut dem Jahresbericht der Gemeinde das erste Theaterwörterbuch der Slowakei. Sein beruflicher Weg verbindet das kleine Dorf in Záhorie mit der Entwicklung des slowakischen Regionaltheaters nach dem Zweiten Weltkrieg."
+        },
+        {
+          "id": "fact_008",
+          "title": "Evangelische Kirche in Častkov und Pfarrer Jozef Nedobrý",
+          "text": "Die evangelische Kirche Augsburger Bekenntnisses in Častkov entstand 1876–1877. Der Grundstein wurde am 8. Mai 1876 gelegt; während des Baus stürzte der noch unvollendete Turm ein und beschädigte das Dach sowie Teile des Mauerwerks. Der Baumeister J. Pokorný übernahm die Fertigstellung. Der Bau stand im Zusammenhang mit der Selbstständigkeit der örtlichen evangelischen Gemeinde seit 1875 und dem Wirken des Pfarrers Jozef Nedobrý (1841–1921), der auch Lehrer und national engagierter Publizist war. Die Kirche bezeugt die starke evangelische Tradition von Častkov, wo Evangelische laut den Gemeindequellen bereits im 18. Jahrhundert die Mehrheit der Bevölkerung bildeten."
+        },
+        {
+          "id": "fact_009",
+          "title": "Denkmal für die Gefallenen des Ersten Weltkriegs in Rybky",
+          "text": "Im kleinen Park neben dem Feuerwehrhaus in Rybky steht ein Denkmal für die Einwohner, die im Ersten Weltkrieg gefallen sind. Die Inschrift nennt sechzehn Männer, die zwischen 1914 und 1918 an der Ost-, Italien- und Serbienfront ums Leben kamen. Das Denkmal erinnert daran, wie der Krieg auch eine kleine Gemeinde in Záhorie traf, und bewahrt die Namen örtlicher Familien, deren Angehörige nicht von der Front zurückkehrten."
+        },
+        {
+          "id": "fact_010",
+          "title": "Stickerei und Klöppelspitze in Záhorie",
+          "text": "Die Frauen von Častkov waren laut der Ortschronik für ihre Stickerei und Spitzenarbeit bekannt. Auch im benachbarten Rybky wurden noch zu Beginn des 20. Jahrhunderts Spitzen aus gröberen Hanf- und Baumwollfäden geklöppelt. Sie dienten unter anderem als Eck- und Umhängetücher, Handtücher und Tischdecken. Diese Arbeiten gehörten zur ländlichen Textilkultur von Záhorie und zeigen, dass die Frauen neben der Landwirtschaft auch spezialisierte handwerkliche Fähigkeiten besaßen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gravettian and Neolithic settlement in Rybky",
+          "text": "The cadastral area of Rybky preserves evidence of human activity since the Palaeolithic. The municipal history describes a group of patinated stone tools attributed to the Gravettian culture and dated to approximately 25,000–15,000 BC. The assemblage includes a quartzite anvil, a hammerstone and chipped tools, possibly representing the remains of a prehistoric workshop. At the Jutra site in the Vírovská stream valley, archaeologists also found pottery from the Early Neolithic and evidence of the later Lengyel culture. A stone battle-axe from the Eneolithic period was found at Bočiny. These discoveries demonstrate long-term use of the landscape, but do not constitute a publicly accessible archaeological site."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prehistoric traces in the cadastral area of Častkov",
+          "text": "Archaeological discoveries show that the area around Častkov was used in prehistoric times. Palaeolithic chipped-stone artefacts are documented at Za bôrom; an Eneolithic stone axe was found near the Havran settlement, while further Neolithic finds come from the Za potôčkom locality. At Padelky, pottery and traces of ironworking have been linked to a Celtic settlement of the La Tène period. Germanic finds from the Roman period have also been recorded at Za potôčkom. These are several separate findspots across the cadastral area, not one continuous or visitor-ready archaeological complex."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Millennium Cross on Virovská Hill",
+          "text": "The monumental Millennium Cross, also known as the Jubilee Cross, stands at Bočiny on Virovská Hill, near the edge of Rybky's cadastral area where the territories of Rybky, Rohov, Smrdáky and Oreské meet. The municipality of Rybky commissioned it for the jubilee of the birth of Jesus Christ; it was consecrated on 17 September 2000. The cross is 27 metres high, with a 9-metre arm span. A relief of five doves, symbolising the continents, is placed where the arms meet. A Chapel of Divine Mercy containing a relic of Saint Faustina Kowalska occupies the widened base. In 2009, fourteen stations of the Cross were added along the access path. As the site lies on the boundary of several cadastral areas, its map point is marked as a representative position at the edge of the area."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran – the highest hill in Častkov",
+          "text": "Havran rises to approximately 542 metres above sea level and is the highest point in the cadastral area of Častkov. It lies in a hilly landscape on the edge of the White Carpathians and, according to the municipality's development documents, offers wide views of the surrounding countryside. A walking route crosses Havran and links it with Ovčí vrch and Lopašov. Havran is also the name of a local part or hamlet of Častkov, so the summit should be distinguished from the settlement nearby."
+        },
+        {
+          "id": "fact_005",
+          "title": "Rohov Manor House and its park",
+          "text": "A historic manor house and its adjoining park are among the defining features of Rohov. The present two-storey Neoclassical building was created in the early 19th century under Baron Ferdinand Horecký, on the site of an older manor; the municipal history refers to an earlier building phase around 1611. A major fire in 1924 left the building in ruins, after which it was rebuilt on a larger scale. During the Second World War it served as a military hospital and later became a social-care facility. The manor is listed in Slovakia's Central Register of Monuments as no. 664/1, and the manor park as no. 664/2. The park covers about four hectares; the site's present social-care use should be respected."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Church of St Catherine and a link to a Hungarian poet",
+          "text": "The Roman Catholic Church of St Catherine of Alexandria in Rohov is a Renaissance building completed between 1628 and 1636 and later modified in the Baroque period. It underwent further rebuilding in the mid-18th century. Inside is a memorial slab to the Hungarian poet József Gvadányi, made in 1909. The memorial reflects the historic links between the local estate, noble families and the cultural world of the Kingdom of Hungary. The slab is documented evidence of remembrance; by itself, it does not establish that the poet lived or was born in Rohov."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda – actor and theatre director",
+          "text": "Dezider Janda was born in Rohov on 10 January 1913 and died in Trnava in 1965. He was a Slovak stage actor and theatre director. From 1959 to 1965 he led the regional theatre in Trnava and, according to the municipality's annual report, created Slovakia's first theatre dictionary. His career links a small village in Záhorie with the development of Slovak regional theatre after the Second World War."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Evangelical church in Častkov and pastor Jozef Nedobrý",
+          "text": "The Evangelical Lutheran church in Častkov was built in 1876–1877. Its foundation stone was laid on 8 May 1876, but the unfinished tower collapsed during construction, damaging the roof and part of the walls. Builder J. Pokorný completed the church in 1877. Its construction followed the establishment of an independent local Lutheran congregation in 1875 and was connected with the work of pastor Jozef Nedobrý (1841–1921), also a teacher and nationally minded public figure. The church reflects Častkov's strong Protestant tradition; municipal sources report that Evangelicals formed most of the population there in the 18th century."
+        },
+        {
+          "id": "fact_009",
+          "title": "Rybky memorial to the fallen of the First World War",
+          "text": "A small park beside the fire station in Rybky contains a memorial to local men killed in the First World War. Its inscription lists sixteen men who died on the Eastern, Italian and Serbian fronts between 1914 and 1918. The monument recalls how the war affected even a small community in Záhorie and preserves the names of local families whose relatives never returned from the front."
+        },
+        {
+          "id": "fact_010",
+          "title": "Embroidery and bobbin lace in Záhorie",
+          "text": "According to the municipal history, women in Častkov were known for embroidery and lace-making. In neighbouring Rybky, women were still making bobbin lace from coarse hemp and cotton threads in the early 20th century. The lace was used for household textiles such as corner cloths, head coverings, towels and tablecloths. This work was part of the rural textile culture of Záhorie and shows that local women developed specialised craft skills alongside agricultural work."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ocupación gravetiense y neolítica de Rybky",
+          "text": "El término municipal de Rybky conserva pruebas de actividad humana desde el Paleolítico. La historia municipal menciona un conjunto de herramientas de piedra patinadas atribuidas a la cultura gravetiense y fechadas aproximadamente entre 25.000 y 15.000 a. C. El conjunto incluye un yunque de cuarcita, un percutor y herramientas talladas, posiblemente restos de un taller prehistórico. En el yacimiento de Jutra, en el valle del arroyo Vírovská, también se encontraron fragmentos cerámicos del Neolítico antiguo y vestigios de la cultura lengyel, posterior. En Bočiny apareció un martillo de piedra del Eneolítico. Los hallazgos muestran el uso prolongado del paisaje, pero no constituyen un yacimiento arqueológico abierto al público."
+        },
+        {
+          "id": "fact_002",
+          "title": "Huellas prehistóricas en el término de Častkov",
+          "text": "Los hallazgos arqueológicos muestran que el territorio de Častkov ya se utilizaba en la prehistoria. En el lugar llamado Za bôrom se documentan artefactos tallados del Paleolítico; cerca del asentamiento de Havran apareció un hacha de piedra eneolítica, y otros hallazgos neolíticos proceden de la zona de Za potôčkom. En Padelky se encontraron cerámicas y rastros de trabajo del hierro vinculados a un asentamiento celta del periodo de La Tène. En Za potôčkom también se han documentado hallazgos germánicos de época romana. Se trata de varios puntos arqueológicos distintos dentro del término municipal, no de un único recinto continuo ni preparado para visitas."
+        },
+        {
+          "id": "fact_003",
+          "title": "La Cruz del Milenio en el monte Virovská",
+          "text": "La monumental Cruz del Milenio, también llamada Cruz Jubilar, se alza en Bočiny, en el monte Virovská, cerca del límite del término de Rybky, donde confluyen los territorios de Rybky, Rohov, Smrdáky y Oreské. El municipio de Rybky encargó su construcción con motivo del jubileo del nacimiento de Jesucristo; fue bendecida el 17 de septiembre de 2000. Mide 27 metros de altura y sus brazos tienen una envergadura de 9 metros. En el cruce de los brazos hay un relieve de cinco palomas que simbolizan los continentes. En la base ensanchada se encuentra la Capilla de la Divina Misericordia, con una reliquia de santa Faustina Kowalska. En 2009 se añadieron catorce estaciones del vía crucis al camino de acceso. Como el lugar se encuentra en el límite de varios términos catastrales, el punto del mapa se indica como una posición representativa en el borde del área."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran, la cumbre más alta de Častkov",
+          "text": "Havran alcanza aproximadamente 542 metros sobre el nivel del mar y es el punto más elevado del término municipal de Častkov. Se encuentra en un paisaje ondulado, en el borde de los Cárpatos Blancos, y según los documentos de desarrollo municipal ofrece amplias vistas del entorno. Una ruta a pie pasa por Havran y lo conecta con Ovčí vrch y Lopašov. Havran también es el nombre de una parte local o pequeño asentamiento de Častkov, por lo que conviene distinguir la cumbre del núcleo habitado cercano."
+        },
+        {
+          "id": "fact_005",
+          "title": "El palacio señorial de Rohov y su parque",
+          "text": "El histórico palacio señorial y el parque contiguo son elementos destacados de Rohov. El edificio neoclásico actual, de dos plantas, se construyó a comienzos del siglo XIX bajo el barón Ferdinand Horecký, sobre los restos de una residencia anterior; la historia municipal menciona una fase constructiva más antigua, hacia 1611. Un gran incendio en 1924 dejó el edificio en ruinas y después fue reconstruido con una planta adicional. Durante la Segunda Guerra Mundial sirvió como hospital militar y más tarde se convirtió en un centro de servicios sociales. El palacio figura en el Registro Central de Monumentos de Eslovaquia con el número 664/1 y el parque con el 664/2. El parque ocupa unas cuatro hectáreas; debe respetarse el uso social actual del recinto."
+        },
+        {
+          "id": "fact_006",
+          "title": "La iglesia de Santa Catalina y la huella de un poeta húngaro",
+          "text": "La iglesia católica romana de Santa Catalina de Alejandría, en Rohov, es un edificio renacentista terminado entre 1628 y 1636 y reformado posteriormente en estilo barroco. A mediados del siglo XVIII fue objeto de otra reconstrucción. En su interior se conserva una lápida conmemorativa del poeta húngaro József Gvadányi, realizada en 1909. La lápida recuerda los vínculos históricos de la finca local con familias nobles y con el entorno cultural del Reino de Hungría. Es un testimonio documentado de memoria, pero por sí sola no demuestra que el poeta viviera o naciera en Rohov."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda, actor y director teatral",
+          "text": "Dezider Janda nació en Rohov el 10 de enero de 1913 y murió en Trnava en 1965. Fue actor de teatro y director escénico eslovaco. Entre 1959 y 1965 dirigió el teatro regional de Trnava y, según el informe anual municipal, creó el primer diccionario teatral de Eslovaquia. Su trayectoria conecta una pequeña localidad de Záhorie con el desarrollo del teatro regional eslovaco después de la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_008",
+          "title": "La iglesia evangélica de Častkov y el pastor Jozef Nedobrý",
+          "text": "La iglesia evangélica de la confesión de Augsburgo de Častkov se construyó entre 1876 y 1877. La primera piedra se colocó el 8 de mayo de 1876, pero la torre aún sin terminar se derrumbó durante las obras y dañó el tejado y parte de los muros. El constructor J. Pokorný terminó el edificio en 1877. La construcción estuvo vinculada a la creación de una congregación evangélica independiente en 1875 y a la labor del pastor Jozef Nedobrý (1841–1921), también maestro y figura pública de conciencia nacional. La iglesia refleja la fuerte tradición protestante de Častkov; las fuentes municipales indican que los evangélicos constituían la mayoría de la población en el siglo XVIII."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monumento a los caídos de la Primera Guerra Mundial en Rybky",
+          "text": "En un pequeño parque junto al parque de bomberos de Rybky se encuentra un monumento a los vecinos que murieron en la Primera Guerra Mundial. La inscripción recoge los nombres de dieciséis hombres fallecidos en los frentes oriental, italiano y serbio entre 1914 y 1918. El monumento recuerda cómo la guerra afectó también a una pequeña comunidad de Záhorie y conserva los nombres de las familias locales cuyos miembros no regresaron del frente."
+        },
+        {
+          "id": "fact_010",
+          "title": "Bordado y encaje de bolillos en Záhorie",
+          "text": "Según la historia municipal, las mujeres de Častkov eran conocidas por sus bordados y trabajos de encaje. En la vecina Rybky, todavía a comienzos del siglo XX se elaboraban encajes de bolillos con hilos gruesos de cáñamo y algodón. Se utilizaban para textiles domésticos como paños de rincón, cubiertas, toallas y manteles. Este trabajo formaba parte de la cultura textil rural de Záhorie y muestra que, además de las labores agrícolas, las mujeres locales dominaban oficios artesanales especializados."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Présence gravettienne et néolithique à Rybky",
+          "text": "Le territoire cadastral de Rybky conserve des traces d’activité humaine depuis le Paléolithique. L’histoire communale mentionne un ensemble d’outils de pierre patinés attribués à la culture gravettienne et datés approximativement de 25 000 à 15 000 av. J.-C. Il comprend notamment une enclume en quartzite, un percuteur et des outils taillés, qui pourraient provenir d’un atelier préhistorique. Sur le site de Jutra, dans la vallée du ruisseau Vírovská, ont également été découverts des fragments de céramique du Néolithique ancien et des traces de la culture de Lengyel, plus récente. Une hache-marteau en pierre de l’Énéolithique provient de Bočiny. Ces découvertes témoignent d’une occupation ancienne du paysage, mais ne constituent pas un site archéologique ouvert à la visite."
+        },
+        {
+          "id": "fact_002",
+          "title": "Traces préhistoriques sur le territoire de Častkov",
+          "text": "Les découvertes archéologiques montrent que le territoire de Častkov était déjà fréquenté à la préhistoire. Des artefacts taillés du Paléolithique sont attestés à Za bôrom ; une hache en pierre de l’Énéolithique a été trouvée près du hameau de Havran, tandis que d’autres vestiges néolithiques proviennent du lieu-dit Za potôčkom. À Padelky, des céramiques et des traces de travail du fer sont associées à un habitat celte de la période de La Tène. Des vestiges germaniques de l’époque romaine ont également été relevés à Za potôčkom. Il s’agit de plusieurs lieux de découverte distincts dans la commune, et non d’un seul ensemble archéologique continu ou aménagé pour les visiteurs."
+        },
+        {
+          "id": "fact_003",
+          "title": "La croix du Millénaire sur le mont Virovská",
+          "text": "La monumentale croix du Millénaire, également appelée croix jubilaire, se dresse à Bočiny, sur le mont Virovská, près de la limite cadastrale de Rybky, à la rencontre des territoires de Rybky, Rohov, Smrdáky et Oreské. La commune de Rybky l’a fait ériger à l’occasion du jubilé de la naissance de Jésus-Christ ; elle a été bénie le 17 septembre 2000. La croix mesure 27 mètres de haut et ses bras s’étendent sur 9 mètres. À leur intersection figure un relief de cinq colombes symbolisant les continents. La base élargie abrite une chapelle de la Divine Miséricorde contenant une relique de sainte Faustine Kowalska. En 2009, quatorze stations du chemin de croix ont été ajoutées au sentier d’accès. Le site étant situé à la limite de plusieurs territoires cadastraux, le point cartographique est indiqué comme une position représentative en bordure de la zone."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran, le sommet le plus élevé de Častkov",
+          "text": "Le mont Havran culmine à environ 542 mètres et constitue le point le plus élevé du territoire cadastral de Častkov. Il se trouve dans un paysage vallonné, à la lisière des Carpates blanches, et offre, selon les documents de développement communal, de larges vues sur les environs. Un itinéraire pédestre passe par Havran et le relie à Ovčí vrch et à Lopašov. Havran désigne également une partie locale ou un hameau de Častkov ; il convient donc de distinguer le sommet du lieu habité voisin."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le manoir de Rohov et son parc",
+          "text": "Le manoir historique et son parc attenant comptent parmi les éléments marquants de Rohov. Le bâtiment néoclassique actuel, à deux étages, a été construit au début du XIXe siècle sous le baron Ferdinand Horecký, sur le site d’une demeure plus ancienne ; l’histoire communale mentionne une première phase de construction vers 1611. Un important incendie en 1924 a laissé le bâtiment en ruines, avant sa reconstruction avec un étage supplémentaire. Pendant la Seconde Guerre mondiale, il a servi d’hôpital militaire, puis a été transformé en établissement de services sociaux. Le manoir figure au Registre central du patrimoine de Slovaquie sous le numéro 664/1 et le parc sous le numéro 664/2. Le parc couvre environ quatre hectares ; il convient de respecter l’usage social actuel du domaine."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’église Sainte-Catherine et la trace d’un poète hongrois",
+          "text": "L’église catholique romaine Sainte-Catherine-d’Alexandrie de Rohov est un édifice Renaissance achevé entre 1628 et 1636, puis remanié à l’époque baroque. Elle a connu une nouvelle transformation au milieu du XVIIIe siècle. À l’intérieur se trouve une plaque funéraire commémorative du poète hongrois József Gvadányi, réalisée en 1909. Cette plaque rappelle les liens historiques du domaine local avec les familles nobles et le milieu culturel du royaume de Hongrie. Elle constitue un témoignage mémoriel documenté, mais ne suffit pas à établir que le poète a vécu ou est né à Rohov."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda, acteur et metteur en scène",
+          "text": "Dezider Janda est né à Rohov le 10 janvier 1913 et mort à Trnava en 1965. Acteur de théâtre et metteur en scène slovaque, il a dirigé le théâtre régional de Trnava de 1959 à 1965. Selon le rapport annuel de la commune, il a créé le premier dictionnaire de théâtre en Slovaquie. Son parcours relie un petit village de Záhorie au développement du théâtre régional slovaque après la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_008",
+          "title": "L’église évangélique de Častkov et le pasteur Jozef Nedobrý",
+          "text": "L’église évangélique de confession d’Augsbourg de Častkov a été construite en 1876–1877. La première pierre a été posée le 8 mai 1876 ; pendant les travaux, la tour inachevée s’est effondrée, endommageant le toit et une partie des murs. Le constructeur J. Pokorný a achevé l’édifice en 1877. Sa construction est liée à la création d’une communauté évangélique autonome en 1875 et à l’activité du pasteur Jozef Nedobrý (1841–1921), également enseignant et personnalité publique engagée dans la vie nationale. L’église témoigne de la forte tradition protestante de Častkov, où les évangéliques formaient la majorité de la population au XVIIIe siècle selon les sources communales."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monument aux morts de la Première Guerre mondiale à Rybky",
+          "text": "Dans le petit parc situé près de la caserne des pompiers de Rybky se trouve un monument aux habitants morts pendant la Première Guerre mondiale. L’inscription énumère seize hommes tués sur les fronts oriental, italien et serbe entre 1914 et 1918. Le monument rappelle que la guerre a également frappé une petite communauté de Záhorie et conserve les noms des familles locales dont les proches ne sont pas revenus du front."
+        },
+        {
+          "id": "fact_010",
+          "title": "Broderie et dentelle aux fuseaux dans la région de Záhorie",
+          "text": "Selon l’histoire communale, les femmes de Častkov étaient réputées pour la broderie et la dentellerie. Dans le village voisin de Rybky, on réalisait encore au début du XXe siècle des dentelles aux fuseaux avec des fils épais de chanvre et de coton. Elles servaient notamment à confectionner des linges de coin, des pièces de linge de maison, des serviettes et des nappes. Ce travail faisait partie de la culture textile rurale de Záhorie et montre que les femmes locales maîtrisaient, en plus des travaux agricoles, des savoir-faire artisanaux spécialisés."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Presenza gravettiana e neolitica a Rybky",
+          "text": "Il territorio catastale di Rybky conserva testimonianze della presenza umana fin dal Paleolitico. La storia comunale descrive un insieme di strumenti litici patinati attribuiti alla cultura gravettiana e datati approssimativamente tra il 25.000 e il 15.000 a.C. Il complesso comprende un’incudine di quarzite, un percussore e strumenti scheggiati, forse i resti di un’officina preistorica. Nel sito di Jutra, nella valle del torrente Vírovská, sono stati rinvenuti anche frammenti ceramici del Neolitico antico e tracce della successiva cultura di Lengyel. Da Bočiny proviene inoltre un martello-ascia in pietra dell’Eneolitico. I reperti dimostrano un uso antico e continuativo del paesaggio, ma non costituiscono un sito archeologico aperto al pubblico."
+        },
+        {
+          "id": "fact_002",
+          "title": "Tracce preistoriche nel territorio di Častkov",
+          "text": "I ritrovamenti archeologici dimostrano che il territorio di Častkov era frequentato già in epoca preistorica. Nella località Za bôrom sono documentati manufatti scheggiati del Paleolitico; presso l’insediamento di Havran è stata rinvenuta un’ascia di pietra eneolitica, mentre altri reperti neolitici provengono dalla zona di Za potôčkom. A Padelky sono emersi frammenti ceramici e tracce di lavorazione del ferro collegati a un insediamento celtico del periodo di La Tène. A Za potôčkom sono attestati anche reperti germanici di età romana. Si tratta di diversi punti di ritrovamento nel territorio comunale, non di un unico complesso archeologico continuo o attrezzato per le visite."
+        },
+        {
+          "id": "fact_003",
+          "title": "La Croce del Millennio sul monte Virovská",
+          "text": "La monumentale Croce del Millennio, chiamata anche Croce Giubilare, sorge a Bočiny, sul monte Virovská, vicino al confine catastale di Rybky, nel punto d’incontro dei territori di Rybky, Rohov, Smrdáky e Oreské. Il comune di Rybky ne commissionò la costruzione per il giubileo della nascita di Gesù Cristo; fu consacrata il 17 settembre 2000. La croce è alta 27 metri e ha un’apertura delle braccia di 9 metri. All’incrocio dei bracci si trova un rilievo con cinque colombe che simboleggiano i continenti. Nella base allargata è ricavata la Cappella della Divina Misericordia, che custodisce una reliquia di santa Faustina Kowalska. Nel 2009 il percorso di accesso è stato arricchito con quattordici stazioni della Via Crucis. Poiché il luogo si trova al confine di più territori catastali, il punto sulla mappa è indicato come posizione rappresentativa sul margine dell’area."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran, la cima più alta di Častkov",
+          "text": "Havran raggiunge circa 542 metri sul livello del mare ed è il punto più elevato del territorio catastale di Častkov. Si trova in un paesaggio collinare ai margini dei Carpazi Bianchi e, secondo i documenti di sviluppo comunale, offre ampie vedute sui dintorni. Un itinerario a piedi attraversa Havran e lo collega con Ovčí vrch e Lopašov. Havran è anche il nome di una parte locale o di un piccolo insediamento di Častkov; è quindi opportuno distinguere la cima dall’abitato vicino."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il castello signorile di Rohov e il suo parco",
+          "text": "Il castello signorile storico e il parco adiacente sono tra gli elementi caratteristici di Rohov. L’attuale edificio neoclassico a due piani fu costruito all’inizio del XIX secolo sotto il barone Ferdinand Horecký, sul sito di una residenza più antica; la storia comunale ricorda una fase edilizia precedente, intorno al 1611. Un grave incendio nel 1924 lasciò l’edificio in rovina, dopodiché fu ricostruito con un piano aggiuntivo. Durante la Seconda guerra mondiale fu adibito a ospedale militare e in seguito divenne una struttura di servizi sociali. Il castello è iscritto nel Registro centrale dei monumenti della Slovacchia con il numero 664/1 e il parco con il numero 664/2. Il parco si estende per circa quattro ettari; va rispettato l’attuale uso sociale del complesso."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chiesa di Santa Caterina e la traccia di un poeta ungherese",
+          "text": "La chiesa cattolica romana di Santa Caterina d’Alessandria a Rohov è un edificio rinascimentale completato tra il 1628 e il 1636 e successivamente modificato in epoca barocca. Fu ulteriormente ristrutturata a metà del XVIII secolo. All’interno si trova una lapide commemorativa del poeta ungherese József Gvadányi, realizzata nel 1909. La lapide richiama i legami storici della tenuta locale con famiglie nobili e con l’ambiente culturale del Regno d’Ungheria. È una testimonianza documentata della memoria locale, ma da sola non dimostra che il poeta abbia vissuto o sia nato a Rohov."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda, attore e regista teatrale",
+          "text": "Dezider Janda nacque a Rohov il 10 gennaio 1913 e morì a Trnava nel 1965. Fu attore di prosa e regista teatrale slovacco. Dal 1959 al 1965 diresse il teatro regionale di Trnava e, secondo la relazione annuale del comune, realizzò il primo dizionario teatrale della Slovacchia. La sua carriera collega un piccolo centro della regione di Záhorie allo sviluppo del teatro regionale slovacco nel dopoguerra."
+        },
+        {
+          "id": "fact_008",
+          "title": "La chiesa evangelica di Častkov e il pastore Jozef Nedobrý",
+          "text": "La chiesa evangelica della confessione augustana di Častkov fu costruita nel 1876–1877. La prima pietra venne posata l’8 maggio 1876; durante i lavori la torre non ancora completata crollò, danneggiando il tetto e parte delle pareti. Il costruttore J. Pokorný completò l’edificio nel 1877. La costruzione fu legata alla nascita di una congregazione evangelica autonoma nel 1875 e all’attività del pastore Jozef Nedobrý (1841–1921), anche insegnante e figura pubblica impegnata nella vita nazionale. La chiesa testimonia la forte tradizione protestante di Častkov, dove secondo le fonti comunali gli evangelici costituivano la maggioranza della popolazione già nel XVIII secolo."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monumento ai caduti della Prima guerra mondiale a Rybky",
+          "text": "Nel piccolo parco accanto alla caserma dei vigili del fuoco di Rybky si trova un monumento agli abitanti caduti nella Prima guerra mondiale. L’iscrizione riporta i nomi di sedici uomini morti sui fronti orientale, italiano e serbo tra il 1914 e il 1918. Il monumento ricorda come la guerra colpì anche una piccola comunità di Záhorie e conserva i nomi delle famiglie locali i cui cari non tornarono dal fronte."
+        },
+        {
+          "id": "fact_010",
+          "title": "Ricamo e merletto a tombolo nella regione di Záhorie",
+          "text": "Secondo la storia comunale, le donne di Častkov erano note per il ricamo e la lavorazione del merletto. Nella vicina Rybky, ancora all’inizio del XX secolo si realizzavano merletti a tombolo con fili grossolani di canapa e cotone. Venivano usati per tessili domestici come teli da angolo, copricapi, asciugamani e tovaglie. Questo lavoro faceva parte della cultura tessile rurale di Záhorie e dimostra che, oltre all’agricoltura, le donne locali possedevano competenze artigianali specializzate."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Častkov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Gravettien- en neolithische bewoning in Rybky",
+          "text": "Het grondgebied van Rybky bevat sporen van menselijke aanwezigheid vanaf het paleolithicum. De gemeentelijke geschiedenis vermeldt een verzameling gepatineerde stenen werktuigen die aan de gravettiencultuur worden toegeschreven en ongeveer tussen 25.000 en 15.000 v.Chr. worden gedateerd. De vondst omvat onder meer een aambeeld van kwartsiet, een klopsteen en geslepen werktuigen; mogelijk gaat het om de resten van een prehistorische werkplaats. Op de vindplaats Jutra in het dal van de beek Vírovská zijn ook aardewerkfragmenten uit het vroege neolithicum en sporen van de latere Lengyelcultuur gevonden. Uit Bočiny komt bovendien een stenen hamerbijl uit het eneolithicum. De vondsten tonen aan dat het landschap lange tijd werd gebruikt, maar vormen geen voor bezoekers opengestelde archeologische vindplaats."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prehistorische sporen in het gebied van Častkov",
+          "text": "Archeologische vondsten tonen aan dat het gebied rond Častkov al in de prehistorie werd gebruikt. Bij Za bôrom zijn stenen artefacten uit het paleolithicum aangetoond; bij de nederzetting Havran werd een stenen bijl uit het eneolithicum gevonden en andere neolithische vondsten komen uit de locatie Za potôčkom. In Padelky zijn aardewerk en sporen van ijzerbewerking gevonden die worden verbonden met een Keltische nederzetting uit de La Tène-periode. Bij Za potôčkom zijn ook Germaanse vondsten uit de Romeinse tijd bekend. Het gaat om verschillende afzonderlijke vindplaatsen binnen het gemeentelijke gebied, niet om één doorlopend of voor bezoekers ingericht archeologisch terrein."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Millenniumkruis op de Virovská-heuvel",
+          "text": "Het monumentale Millenniumkruis, ook Jubileumkruis genoemd, staat bij Bočiny op de Virovská-heuvel, aan de rand van het kadastrale gebied van Rybky waar de gebieden van Rybky, Rohov, Smrdáky en Oreské samenkomen. De gemeente Rybky liet het kruis bouwen ter gelegenheid van het jubileum van de geboorte van Jezus Christus; de inzegening vond plaats op 17 september 2000. Het kruis is 27 meter hoog en heeft een spanwijdte van 9 meter. Op het kruispunt van de armen staat een reliëf met vijf duiven die de continenten symboliseren. In de verbrede voet bevindt zich de Kapel van de Goddelijke Barmhartigheid met een reliek van de heilige Faustina Kowalska. In 2009 werden langs het toegangspad veertien staties van de kruisweg aangelegd. Omdat de plek op de grens van meerdere kadastrale gebieden ligt, is het kaartpunt aangeduid als een representatieve positie aan de rand van het gebied."
+        },
+        {
+          "id": "fact_004",
+          "title": "Havran – de hoogste top van Častkov",
+          "text": "Havran reikt tot ongeveer 542 meter boven zeeniveau en is het hoogste punt van het kadastrale gebied van Častkov. De heuvel ligt in een glooiend landschap aan de rand van de Witte Karpaten en biedt volgens gemeentelijke ontwikkelingsdocumenten een weids uitzicht over de omgeving. Een wandelroute loopt over Havran en verbindt de top met Ovčí vrch en Lopašov. Havran is ook de naam van een lokaal deel of gehucht van Častkov; de top moet dus worden onderscheiden van de nabijgelegen nederzetting."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het landhuis van Rohov en het park",
+          "text": "Het historische landhuis met het aangrenzende park is een van de kenmerkende elementen van Rohov. Het huidige neoklassieke gebouw met twee verdiepingen werd aan het begin van de 19e eeuw onder baron Ferdinand Horecký gebouwd op de plaats van een oudere residentie; de gemeentelijke geschiedenis vermeldt een eerdere bouwfase rond 1611. Een grote brand in 1924 liet het gebouw in puin achter, waarna het op grotere schaal werd herbouwd. Tijdens de Tweede Wereldoorlog diende het als militair hospitaal en later werd het een voorziening voor sociale zorg. Het landhuis staat in het centrale monumentenregister van Slowakije onder nummer 664/1 en het landhuispark onder 664/2. Het park beslaat ongeveer vier hectare; het huidige sociale gebruik van het terrein moet worden gerespecteerd."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Sint-Catharinakerk en een spoor van een Hongaarse dichter",
+          "text": "De rooms-katholieke kerk van de heilige Catharina van Alexandrië in Rohov is een renaissancegebouw dat tussen 1628 en 1636 werd voltooid en later in barokstijl werd aangepast. Halverwege de 18e eeuw volgde een verdere verbouwing. Binnen bevindt zich een gedenkplaat voor de Hongaarse dichter József Gvadányi, vervaardigd in 1909. De plaat herinnert aan de historische banden van het plaatselijke landgoed met adellijke families en de culturele wereld van het Koninkrijk Hongarije. Het is een gedocumenteerd gedenkteken, maar op zichzelf bewijst het niet dat de dichter in Rohov heeft gewoond of er is geboren."
+        },
+        {
+          "id": "fact_007",
+          "title": "Dezider Janda – acteur en toneelregisseur",
+          "text": "Dezider Janda werd op 10 januari 1913 in Rohov geboren en overleed in 1965 in Trnava. Hij was een Slowaakse toneelacteur en regisseur. Van 1959 tot 1965 leidde hij het regionale theater in Trnava en volgens het gemeentelijke jaarverslag stelde hij het eerste theaterwoordenboek van Slowakije samen. Zijn loopbaan verbindt een klein dorp in Záhorie met de ontwikkeling van het Slowaakse regionale theater na de Tweede Wereldoorlog."
+        },
+        {
+          "id": "fact_008",
+          "title": "De evangelische kerk in Častkov en dominee Jozef Nedobrý",
+          "text": "De evangelische kerk van de Augsburgse confessie in Častkov werd in 1876–1877 gebouwd. De eerste steen werd gelegd op 8 mei 1876; tijdens de bouw stortte de nog onvoltooide toren in en beschadigde het dak en een deel van de muren. Bouwmeester J. Pokorný voltooide de kerk in 1877. De bouw hing samen met de zelfstandigheid van de plaatselijke evangelische gemeente vanaf 1875 en met het werk van dominee Jozef Nedobrý (1841–1921), die ook leraar en maatschappelijk betrokken nationalist was. De kerk getuigt van de sterke protestantse traditie in Častkov; volgens gemeentelijke bronnen vormden evangelischen daar in de 18e eeuw al de meerderheid van de bevolking."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monument voor de gesneuvelden van de Eerste Wereldoorlog in Rybky",
+          "text": "In het parkje naast de brandweerkazerne in Rybky staat een monument voor inwoners die in de Eerste Wereldoorlog zijn gesneuveld. De inscriptie vermeldt zestien mannen die tussen 1914 en 1918 aan het oostelijke, Italiaanse en Servische front omkwamen. Het monument herinnert eraan dat de oorlog ook een kleine gemeenschap in Záhorie trof en bewaart de namen van plaatselijke families van wie de verwanten niet van het front terugkeerden."
+        },
+        {
+          "id": "fact_010",
+          "title": "Borduurwerk en kloskant in Záhorie",
+          "text": "Volgens de gemeentelijke geschiedenis stonden de vrouwen van Častkov bekend om hun borduurwerk en kantklossen. Ook in het naburige Rybky werd aan het begin van de 20e eeuw nog kant gemaakt met grove hennep- en katoendraden. Die kant werd gebruikt voor huishoudtextiel zoals hoekdoeken, hoofddoeken, handdoeken en tafellakens. Het werk maakte deel uit van de landelijke textielcultuur van Záhorie en laat zien dat plaatselijke vrouwen naast landbouw ook gespecialiseerde ambachtelijke vaardigheden bezaten."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
