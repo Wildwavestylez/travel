@@ -76,7 +76,7 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 
 **Read-back:** 31/31 master textů má 596–724 znaků; 31/31 `translations.cs` přesně odpovídá masteru; u všech 31 faktů je přítomno 7 jazyků a žádný překladový jazyk nechybí. Délka cizojazyčných textů nebyla použita jako validační kritérium.
 
-## 5. Geografické nálezy — 9/59 poloh doplněno, 50 otevřeno
+## 5. Geografické nálezy — 18/59 poloh doplněno, 41 otevřeno
 
 ### Opraveno a read-back ověřeno
 - 67521/fact_001 — železniční stanice Okříšky; přesný bod doložen evidencí objektů Správy železnic.
@@ -86,21 +86,30 @@ Všech 31 českých master textů kratších než 350 znaků bylo věcně rozš�
 - 67522/fact_002 — kostel sv. Petra a Pavla v Horním Újezdě; publikované souřadnice objektu.
 - 67528/fact_005 — kaple sv. Anny v Opatově; poloha ověřena mapovým záznamem OSM/Mapcarta.
 - 67528/fact_006 — přírodní rezervace Opatovské zákopy; reprezentativní bod z geografických dat AOPK.
+- 67529/fact_003 — kaple sv. Jana Nepomuckého; přibližný orientační bod návsi Kněžic, samotná kaple je na návsi doložena NPÚ.
+- 67529/fact_004 — Pieta v Brodcích; přibližný bod lokality Brodce, nikoli tvrzení o přesné poloze sousoší.
+- 67531/fact_001 — historické jádro Jemnice; orientační bod náměstí Svobody.
+- 67531/fact_002 — zámek Jemnice; bod objektu.
+- 67531/fact_003 — městské opevnění Jemnice; přibližný bod Dolní brány.
+- 67531/fact_004 — slavnost Barchan; orientační bod centra Jemnice na náměstí Svobody.
+- 67531/fact_005 — židovský hřbitov Jemnice; souřadnice odborného katalogu židovských památek.
+- 67531/fact_006 — kostel sv. Jakuba v Podolí; publikované souřadnice objektu.
+- 67532/fact_009 — boží muka u nádraží v Třebelovicích; souřadnice památkového katalogu.
 - 67553/fact_002 — kostel Povýšení sv. Kříže ve Valči; publikované GPS kostela.
 - 67573/fact_003 — kostel sv. Martina v Kralicích nad Oslavou; publikované souřadnice objektu.
 
-Všech 9 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
+Všech 18 změn bylo po zápisu načteno zpět a hodnoty location odpovídají uloženým souřadnicím, typu, přesnosti a zdroji.
 
-### Zbývá prověřit — 50 faktů
+### Zbývá prověřit — 41 faktů
 - 67504: fact_003
 - 67508: fact_003
 - 67521: fact_003, fact_005, fact_006
 - 67522: fact_003–fact_007
 - 67523: fact_001, fact_005, fact_006
 - 67528: fact_001–fact_004
-- 67529: fact_003–fact_005
-- 67531: fact_001–fact_007
-- 67532: fact_007–fact_009
+- 67529: fact_005
+- 67531: fact_007
+- 67532: fact_007, fact_008
 - 67541: fact_005
 - 67542: fact_004, fact_005
 - 67544: fact_001, fact_007, fact_009
