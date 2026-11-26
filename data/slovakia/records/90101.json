@@ -195,8 +195,7 @@
       "priority": "B",
       "map_category": "personality",
       "sources": [
-        "https://malacky.sk/mesto/o-meste/osobnosti/ludovit-zubek/",
-        "https://www.litcentrum.sk/autor/ludo-zubek/zivotopis-autora"
+        "https://malacky.sk/mesto/o-meste/osobnosti/ludovit-zubek/"
       ],
       "location": {
         "name": "Malacky – orientační bod rodného města Ľuda Zúbka",
@@ -228,6 +227,26 @@
         "accuracy": "area_representative",
         "source": "https://mapcarta.com/18463472",
         "address": null
+      }
+    },
+    {
+      "id": "fact_011",
+      "title": "Krvácející srdce: pálffyovská relikvie a malacká pověst",
+      "text": "V malackých františkánských kryptách bylo uchováváno srdce palatina Pavla IV. Pálffyho, přestože jeho tělo spočinulo v Dómu sv. Martina v Bratislavě. Později zde mělo být uloženo také srdce jeho syna Jána III.; pro obě vznikly na začátku 18. století stříbrné schránky. Františkánská kronika zaznamenává, že srdce Pavla IV. v roce 1716 a už dříve údajně krvácelo. Z této zprávy vznikla místní pověst, podle níž se krvácení objevovalo před válkami či pohromami. Městský turistický zdroj zároveň uvádí, že podobný jev může souviset s balzamováním. Záznam z roku 1830 říká, že při přestavbě byla srdce odvezena do kaštieľa a zpět se vrátilo pouze jedno; osud druhého zůstává neznámý.",
+      "category": "local_story",
+      "priority": "B",
+      "map_category": "local_culture",
+      "sources": [
+        "https://tikmalacky.sk/%C4%8Do-m%C3%B4%C5%BEete-vidie%C5%A5/pamiatky"
+      ],
+      "location": {
+        "name": "Františkánske krypty – orientační bod",
+        "lat": 48.43599,
+        "lon": 17.01867,
+        "type": "monastery",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/sk/atrakcia/frantiskansky-klastor-a-kostol-malacky",
+        "address": "Kláštorné námestie 3, 901 01 Malacky, Slovakia"
       }
     }
   ],
@@ -368,11 +387,6 @@
       "type": "official"
     },
     {
-      "title": "Slovenské literárne centrum – Ľudo Zúbek, životopis autora",
-      "url": "https://www.litcentrum.sk/autor/ludo-zubek/zivotopis-autora",
-      "type": "specialist"
-    },
-    {
       "title": "Deutsche Biographie – Victor Angerer",
       "url": "https://www.deutsche-biographie.de/117661716.html",
       "type": "specialist"
@@ -441,6 +455,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: malacký rodák ve fotografickém světě Vídně",
           "text": "Viktor Angerer se narodil v Malackách 3. října 1839 a zemřel ve Vídni 10. dubna 1894. Byl portrétním a krajinářským fotografem a bratrem fotografa Ludwiga Angerera. Do roku 1873 vedl fotografický podnik v Bad Ischlu a od roku 1866 působil také ve Vídni společně s bratrem. Když Ludwig ze zdravotních důvodů roku 1873 předal společný ateliér Viktorovi, pokračoval Viktor v jeho provozu. Dobový tisk Wiener Salonblatt jej v roce 1875 označil jako „k. k. Hof-Photograf“ – fotografa císařského a královského dvora."
+        },
+        {
+          "id": "fact_011",
+          "title": "Krvácející srdce: pálffyovská relikvie a malacká pověst",
+          "text": "V malackých františkánských kryptách bylo uchováváno srdce palatina Pavla IV. Pálffyho, přestože jeho tělo spočinulo v Dómu sv. Martina v Bratislavě. Později zde mělo být uloženo také srdce jeho syna Jána III.; pro obě vznikly na začátku 18. století stříbrné schránky. Františkánská kronika zaznamenává, že srdce Pavla IV. v roce 1716 a už dříve údajně krvácelo. Z této zprávy vznikla místní pověst, podle níž se krvácení objevovalo před válkami či pohromami. Městský turistický zdroj zároveň uvádí, že podobný jev může souviset s balzamováním. Záznam z roku 1830 říká, že při přestavbě byla srdce odvezena do kaštieľa a zpět se vrátilo pouze jedno; osud druhého zůstává neznámý."
         }
       ]
     },
@@ -496,6 +515,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: ein in Malacky geborener Fotograf in Wien",
           "text": "Viktor Angerer wurde am 3. Oktober 1839 in Malacky geboren und starb am 10. April 1894 in Wien. Er war Porträt- und Landschaftsfotograf sowie Bruder des Fotografen Ludwig Angerer. Bis 1873 betrieb er ein Fotogeschäft in Bad Ischl und war ab 1866 auch gemeinsam mit seinem Bruder in Wien tätig. Als Ludwig 1873 aus gesundheitlichen Gründen das gemeinsame Atelier an Viktor übergab, führte dieser den Betrieb weiter. Das Wiener Salonblatt bezeichnete ihn 1875 in einer zeitgenössischen Veröffentlichung als „k. k. Hof-Photograf“, also als Fotografen des kaiserlich-königlichen Hofes."
+        },
+        {
+          "id": "fact_011",
+          "title": "Das blutende Herz: eine Pálffy-Reliquie und eine lokale Legende",
+          "text": "In den Franziskaner-Krypten von Malacky wurde das Herz des Palatins Pavol IV. Pálffy aufbewahrt, obwohl sein Körper im Martinsdom in Bratislava beigesetzt wurde. Später sollte dort auch das Herz seines Sohnes Ján III. liegen; für beide wurden Anfang des 18. Jahrhunderts silberne Behälter angefertigt. Eine Franziskanerchronik berichtet, dass das Herz Pavols IV. 1716 und schon früher angeblich blutete. Daraus entstand die lokale Legende, das Phänomen trete vor Kriegen oder Katastrophen auf. Die städtische Tourismusquelle weist zugleich darauf hin, dass ein ähnlicher Effekt mit der Einbalsamierung zusammenhängen kann. Ein Eintrag von 1830 besagt, dass die Herzen während eines Umbaus in das Herrenhaus gebracht wurden und nur eines zurückkehrte; das Schicksal des zweiten ist unbekannt."
         }
       ]
     },
@@ -551,6 +575,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: a Malacky-born photographer in Vienna",
           "text": "Viktor Angerer was born in Malacky on 3 October 1839 and died in Vienna on 10 April 1894. He was a portrait and landscape photographer and the brother of photographer Ludwig Angerer. Until 1873 he ran a photographic business in Bad Ischl and, from 1866, also worked in Vienna with his brother. When Ludwig transferred their joint studio to Viktor in 1873 for health reasons, Viktor continued the business. In 1875 the contemporary Wiener Salonblatt described him as a “k. k. Hof-Photograf”, or Imperial and Royal court photographer."
+        },
+        {
+          "id": "fact_011",
+          "title": "The bleeding heart: a Pálffy relic and a local legend",
+          "text": "The heart of Palatine Pavol IV Pálffy was kept in the Franciscan crypts at Malacky, although his body was buried in St Martin’s Cathedral in Bratislava. The heart of his son Ján III was later also intended to be placed there; silver containers were made for both hearts in the early 18th century. A Franciscan chronicle records that Pavol IV’s heart supposedly bled in 1716 and on earlier occasions. This gave rise to a local legend that the bleeding occurred before wars or disasters. The town’s tourism source also notes that a similar phenomenon can be explained by the embalming process. A record from 1830 says that the hearts were moved to the manor house during reconstruction and only one was returned; the fate of the other remains unknown."
         }
       ]
     },
@@ -606,6 +635,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: fotógrafo nacido en Malacky y activo en Viena",
           "text": "Viktor Angerer nació en Malacky el 3 de octubre de 1839 y murió en Viena el 10 de abril de 1894. Fue fotógrafo de retratos y paisajes y hermano del fotógrafo Ludwig Angerer. Hasta 1873 dirigió un negocio fotográfico en Bad Ischl y, desde 1866, también trabajó en Viena junto a su hermano. Cuando Ludwig le transfirió el estudio compartido en 1873 por motivos de salud, Viktor continuó con el negocio. En 1875 el periódico contemporáneo Wiener Salonblatt lo describió como «k. k. Hof-Photograf», es decir, fotógrafo de la corte imperial y real."
+        },
+        {
+          "id": "fact_011",
+          "title": "El corazón que sangraba: una reliquia de los Pálffy y una leyenda local",
+          "text": "El corazón del palatino Pavol IV Pálffy se conservó en las criptas franciscanas de Malacky, aunque su cuerpo fue enterrado en la catedral de San Martín de Bratislava. Más tarde también se quiso depositar allí el corazón de su hijo Ján III; a comienzos del siglo XVIII se fabricaron relicarios de plata para ambos. Una crónica franciscana registra que el corazón de Pavol IV supuestamente sangró en 1716 y en ocasiones anteriores. De este relato nació una leyenda local según la cual el fenómeno aparecía antes de guerras o catástrofes. La fuente turística municipal señala también que un efecto parecido puede tener una explicación relacionada con el embalsamamiento. Un registro de 1830 indica que durante una reconstrucción los corazones fueron trasladados al palacio y que solo uno regresó; se desconoce el destino del otro."
         }
       ]
     },
@@ -661,6 +695,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer : photographe né à Malacky et actif à Vienne",
           "text": "Viktor Angerer naquit à Malacky le 3 octobre 1839 et mourut à Vienne le 10 avril 1894. Photographe de portraits et de paysages, il était le frère du photographe Ludwig Angerer. Jusqu’en 1873, il dirigea une entreprise photographique à Bad Ischl et, à partir de 1866, travailla également à Vienne avec son frère. Lorsque Ludwig lui céda leur atelier commun en 1873 pour des raisons de santé, Viktor poursuivit l’activité. En 1875, le périodique contemporain Wiener Salonblatt le désigna comme « k. k. Hof-Photograf », c’est-à-dire photographe de la cour impériale et royale."
+        },
+        {
+          "id": "fact_011",
+          "title": "Le cœur qui saignait : une relique des Pálffy et une légende locale",
+          "text": "Le cœur du palatin Pavol IV Pálffy fut conservé dans les cryptes franciscaines de Malacky, bien que son corps ait été inhumé dans la cathédrale Saint-Martin de Bratislava. Le cœur de son fils Ján III devait ensuite également y être déposé ; des reliquaires en argent furent fabriqués pour les deux au début du XVIIIe siècle. Une chronique franciscaine rapporte que le cœur de Pavol IV aurait saigné en 1716 et auparavant. Ce récit donna naissance à une légende locale selon laquelle le phénomène annonçait des guerres ou des catastrophes. La source touristique municipale précise aussi qu’un phénomène similaire peut s’expliquer par le processus d’embaumement. Une note de 1830 indique que les cœurs furent transférés au manoir lors de travaux et qu’un seul fut rapporté ; le sort de l’autre demeure inconnu."
         }
       ]
     },
@@ -716,6 +755,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: fotografo nato a Malacky e attivo a Vienna",
           "text": "Viktor Angerer nacque a Malacky il 3 ottobre 1839 e morì a Vienna il 10 aprile 1894. Fu fotografo di ritratti e paesaggi e fratello del fotografo Ludwig Angerer. Fino al 1873 gestì un’attività fotografica a Bad Ischl e dal 1866 lavorò anche a Vienna insieme al fratello. Quando Ludwig gli cedette lo studio comune nel 1873 per motivi di salute, Viktor proseguì l’attività. Nel 1875 il periodico dell’epoca Wiener Salonblatt lo definì «k. k. Hof-Photograf», cioè fotografo della corte imperiale e reale."
+        },
+        {
+          "id": "fact_011",
+          "title": "Il cuore che sanguinava: una reliquia dei Pálffy e una leggenda locale",
+          "text": "Il cuore del palatino Pavol IV Pálffy fu conservato nelle cripte francescane di Malacky, sebbene il suo corpo fosse sepolto nella cattedrale di San Martino a Bratislava. In seguito si volle collocare lì anche il cuore del figlio Ján III; all’inizio del XVIII secolo furono realizzati contenitori d’argento per entrambi. Una cronaca francescana registra che il cuore di Pavol IV avrebbe sanguinato nel 1716 e anche in precedenza. Da questo racconto nacque una leggenda locale secondo cui il fenomeno si verificava prima di guerre o calamità. La fonte turistica municipale osserva anche che un fenomeno simile può essere spiegato dal processo di imbalsamazione. Una nota del 1830 riferisce che durante una ricostruzione i cuori furono trasferiti nel palazzo e che ne tornò soltanto uno; la sorte dell’altro resta sconosciuta."
         }
       ]
     },
@@ -771,6 +815,11 @@
           "id": "fact_010",
           "title": "Viktor Angerer: in Malacky geboren fotograaf in Wenen",
           "text": "Viktor Angerer werd op 3 oktober 1839 in Malacky geboren en overleed op 10 april 1894 in Wenen. Hij was portret- en landschapsfotograaf en de broer van fotograaf Ludwig Angerer. Tot 1873 had hij een fotografisch bedrijf in Bad Ischl en vanaf 1866 werkte hij ook samen met zijn broer in Wenen. Toen Ludwig in 1873 om gezondheidsredenen hun gezamenlijke studio aan Viktor overdroeg, zette Viktor het bedrijf voort. In 1875 omschreef het toenmalige Wiener Salonblatt hem als „k. k. Hof-Photograf”, oftewel fotograaf van het keizerlijk-koninklijk hof."
+        },
+        {
+          "id": "fact_011",
+          "title": "Het bloedende hart: een Pálffy-reliek en een plaatselijke legende",
+          "text": "Het hart van paltsgraaf Pavol IV Pálffy werd bewaard in de franciscaanse crypten van Malacky, hoewel zijn lichaam in de Sint-Martinuskathedraal in Bratislava werd begraven. Later zou ook het hart van zijn zoon Ján III daar worden bijgezet; voor beide harten werden aan het begin van de 18e eeuw zilveren houders gemaakt. Een franciscaanse kroniek vermeldt dat het hart van Pavol IV in 1716 en ook eerder zou hebben gebloed. Daaruit ontstond een plaatselijke legende dat dit vóór oorlogen of rampen gebeurde. De gemeentelijke toeristische bron merkt ook op dat een vergelijkbaar verschijnsel door het balsemingsproces kan worden verklaard. Een aantekening uit 1830 vermeldt dat de harten tijdens een verbouwing naar het landhuis werden overgebracht en dat er slechts één terugkeerde; het lot van het andere hart is onbekend."
         }
       ]
     }
