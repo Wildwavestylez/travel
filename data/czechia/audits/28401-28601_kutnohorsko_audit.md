@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — technické opravy provedeny; otevřené zásadní obsahové a auditní položky.**  
+**Výsledek:** **REVIEW REQUIRED — sémantická kontrola dokončena, 38 z 44 původně chybějících poloh doplněno; zbývá 6 nejednoznačných poloh a auditní položky.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -82,6 +82,7 @@ Read-back potvrdil obě nové hodnoty. Následná cílená kontrola celého blok
 - 0 neplatných `source.type`;
 - 0 neplatných `location.type`;
 - 0 neplatných vlastností objektů `content.sources` podle schématu;
+- při revalidaci byly hodnoty `location.type` mimo enum schématu převedeny na nejbližší povolené typy: `archaeological_area` → `archaeological_site`, `birthplace_area` → `historic_village`, `chateau` → `castle`, `event_area` → `historic_village`, `farmstead` → `farm`, `former_industrial_site` → `historic_industrial_site`, `historic_building` a `historic_granary` → `building`, `religious_monument` → `monument`, `mill` → `historic_mill`, `mining_area` → `historic_mine`, `memorial_area` → `memorial_site`, `military_airbase` → `airport`, `river_management_area` → `waterway`, `historic_monument` → `building`, `local_culture` → `historic_village`.
 - 0 prázdných seznamů zdrojů.
 
 ### Normalizace zdrojů
@@ -95,30 +96,35 @@ Read-back potvrdil:
 
 Zbývá nejednoznačnost u záznamů **28522, 28523, 28525 a 28531**: fakta používají aliasy `s1`, `s2` atd., ale katalogové objekty zdrojů nemají explicitní `id`. Je možné, že jde o implicitní pořadové indexy, avšak bez závazného pravidla to nelze bezpečně potvrdit. Označeno `REVIEW REQUIRED`; reference nebyly svévolně přemapovány.
 
-## 5. Překlady
+## 5. Překlady a sémantická kontrola
 
-Kontrola struktury všech sedmi jazyků `cs, de, en, es, fr, it, nl`:
-- 0 chybějících jazyků;
-- 0 rozdílů v počtu faktů;
-- 0 rozdílů v pořadí a ID faktů;
+Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
+- 36/36 záznamů má všech sedm jazyků;
+- 0 rozdílů v počtu faktů, pořadí a ID mezi masterem a překlady;
 - 0 prázdných překladových titulů či textů;
-- 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru;
-- 0 zbývajících rozdílů mezi českým master textem a `translations.cs`.
+- 0 rozdílů mezi českým master textem a `translations.cs`;
+- 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru.
 
-Opraveny tři konkrétní nesoulady:
-- 28507 / `fact_003` — český překlad synchronizován s masterem;
-- 28507 / `fact_006` — český překlad synchronizován s masterem;
-- 28523 / `fact_002` — překladový text byl ve všech sedmi jazycích nahrazen úplným překladem aktuálního českého masteru; předtím obsahoval pouze krátkou poznámku o rozdílném datování.
+Proběhla obsahová sémantická kontrola všech **275 faktů** napříč šesti cizojazyčnými sadami. Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Nejde o certifikovanou korekturu rodilými mluvčími.
 
-Read-back potvrdil shodu českých položek s masterem a úplné texty v šesti cizojazyčných sadách. Proběhla strukturální a cílená kontrola zjevných nesouladů a useknutí; nejde o úplnou stylistickou korekturu všech 1 650 cizojazyčných textů.
+Cíleně opravené překladové nedostatky:
+- 28501 / `fact_002` — plný překlad doplněn o 69 hrobů, ostatky 72 osob, uspořádání ve třech dlouhých domech, dobu využívání pohřebiště 75–100 let a uložení nálezů v Národním muzeu; česká položka synchronizována s masterem;
+- 28504 / `fact_001`, `fact_003`, `fact_007` — kompletní překlady kostela sv. Jiljí, synagogy a Vavřineckého rybníka; předtím některé jazyky obsahovaly pouze závěrečnou větu;
+- 28506 / `fact_005` — krátký master o hradišti Na Šancích rozšířen o polohu, rozsah 12 ha, členění valy, rozměry opevnění, dataci do 9. století, nález avarsko-slovanského kování a opatrně formulované hypotézy; přeloženo do všech jazyků;
+- 28507 / `fact_003` a `fact_006` — české překlady synchronizovány s masterem;
+- 28522 / `fact_007` — do všech cizojazyčných překladů doplněna informace o pozdějších úpravách kostela včetně pozdní gotiky;
+- 28523 / `fact_002` — ve všech sedmi jazycích nahrazen krátký poznámkový fragment úplným překladem masteru;
+- 28532 / `fact_004` až `fact_006` — překlady doplněny o archeologické detaily, dataci a souvislosti památníků a mlýna.
+
+Read-back potvrdil opravené texty a synchronizaci českých masterů.
+
 
 ## 6. Délka českých master textů
 
-Nalezeno **12 faktů kratších než 350 znaků**. Podle E2 jde o délkový nález; bez ověřených informací nebyly doplňovány výplňové věty.
+Po rozšíření 28506 / `fact_005` zůstává **11 faktů kratších než 350 znaků**. Nejde automaticky o chyby; některé popisují drobnou památku nebo stručnou místní tradici. Nebyly doplňovány výplňové věty bez ověřených údajů.
 
 | PSČ | Fakt | Znaků |
 |---|---|---:|
-| 28506 | fact_005 — Dojetřické hradiště Na Šancích | 98 |
 | 28509 | fact_019 — Pomník obětem světových válek | 331 |
 | 28511 | fact_001 — Utrakvistická tradice | 340 |
 | 28511 | fact_003 — Obecní zvonička z roku 1887 | 316 |
@@ -131,36 +137,47 @@ Nalezeno **12 faktů kratších než 350 znaků**. Podle E2 jde o délkový nál
 | 28563 | fact_004 — Tradice ochotnického divadla | 312 |
 | 28576 | fact_003 — Kostel svatého Václava | 349 |
 
-Tyto položky zůstávají `REVIEW REQUIRED` do ověření, zda lze text rozšířit konkrétními relevantními informacemi ze stávajících zdrojů.
+Tyto položky zůstávají doporučeným obsahovým review, nikoli automatickým důvodem k umělému prodlužování.
+
 
 ## 7. Souřadnice a mapové body
 
-- V bloku je **44 faktů s `location = null`**.
-- Nebyly doplňovány odhadnuté souřadnice a existující neprázdné souřadnice nebyly plošně přeměřovány ani přesouvány.
-- Jednotlivé null polohy nebyly v tomto běhu všechny samostatně geokódovány; zůstávají otevřenou položkou pro cílené ověření.
-- `explorer_map_points` bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu nebyly nalezeny žádné mapové body. Žádná ruční synchronizace mapového indexu nebyla provedena.
+- Po cíleném geokódování a doplnění reprezentativních bodů zůstává v bloku **6 faktů s `location = null`**; z původních 44 null poloh bylo 38 vyřešeno.
+- Nové a opravené polohy používají zdroj, název, typ, adresu a míru přesnosti. Přesné body jsou označeny `exact`, přibližné `approximate` a body pro širší lokalitu `area_representative`.
+- Read-back potvrdil 0 neplatných souřadnicových rozsahů a 0 vyplněných poloh bez povinných metadat.
+- Byly opraveny také zjevné záměny poloh mezi obcemi u záznamů 28502, 28532, 28547, 28574, 28575 a 28576.
+- Finální kontrola enumu potvrdila 0 neplatných `location.type`.
+
+Zbývajících šest null poloh:
+- 28501 / `fact_002` — pohřebiště Miskovice 2 / Velký Patera; přesný bod samotného naleziště se nepodařilo bezpečně určit;
+- 28502 / `fact_006` — socha sv. Markéty u silnice na Miskovice; bez ověřené přesné polohy;
+- 28522 / `fact_008` — místo střelby na silnici mezi Slavošovem a Dolní Pohlédí; přesný bod není doložen;
+- 28525 / `fact_005` — trojboká kaplička na okraji Bohdanče; nalezen popis polohy, nikoli bezpečně ověřené souřadnice;
+- 28547 / `fact_004` — fakt sdružuje tři sochy na různých místech, jeden bod by byl zavádějící;
+- 28562 / `fact_002` — širší archeologické území jihozápadně od Hostovlic bez přesně vymezeného bodu.
+
+`explorer_map_points` bylo načteno pouze pro ID těchto 36 PSČ; v tomto rozsahu nebyly nalezeny žádné mapové body. Žádná ruční synchronizace mapového indexu nebyla provedena.
+
 
 ## 8. Výsledek a další krok
 
 **Výsledek: REVIEW REQUIRED.**
 
 Dokončeno:
-- inventář a porovnání 36/36 PSČ;
-- kontrola správních polí a identity;
-- rychlá kontrola duplicit;
-- enum kontrola kategorií, typů zdrojů a poloh;
-- oprava 2 mapových kategorií;
-- normalizace zdrojových referencí v 28563 a 28564;
-- oprava 3 překladových nesouladů a read-back;
-- strukturální kontrola jazykových sad.
+- inventář a porovnání 36/36 PSČ a 275 faktů;
+- sémantická kontrola všech 275 faktů ve všech šesti cizojazyčných překladech;
+- 0 chybějících jazyků, 0 rozdílů v pořadí/ID, 0 rozdílů `translations.cs` proti masteru a 0 cizojazyčných textů pod 35 % délky masteru;
+- opravy významových vynechávek v 28501, 28504, 28506, 28522, 28523 a 28532;
+- oprava 2 mapových kategorií a normalizace typů poloh podle schématu;
+- doplnění či oprava 38 poloh, 6 nejednoznačných null poloh zůstává;
+- normalizace zdrojových referencí v 28563 a 28564.
 
 Otevřeno:
 1. doplnit zásadní osobnosti Kutné Hory (Tyl, Dačický, Orten);
 2. doplnit příběh vypálení Kutné Hory v roce 1424 (samostatně od bitvy u Malešova);
 3. doplnit Čáslavský sněm 1421;
-4. prověřit 12 českých master textů pod 350 znaků;
-5. cíleně prověřit 44 chybějících poloh a doplnit pouze obhajitelné body;
-6. vyřešit explicitní mapování aliasů zdrojů `sN` v 28522, 28523, 28525 a 28531;
-7. případně dokončit úplnou sémantickou korekturu cizojazyčných překladů, pokud bude požadována.
+4. podle nových zdrojů případně rozšířit 11 krátkých českých master textů;
+5. vyřešit explicitní mapování aliasů zdrojů `sN` v 28522, 28523, 28525 a 28531;
+6. případně provést rodilou jazykovou korekturu, která je nad rámec provedené sémantické kontroly.
 
 Samostatný AJV běh nebyl spuštěn podle závazného promptu. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. `sequence.json`, statusy a verze zůstávají beze změny.
