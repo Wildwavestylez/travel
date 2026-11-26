@@ -3,7 +3,7 @@
 **Kanonické ID:** `CZ-KUTNOHORSKO-28401-28601`  
 **Datum auditu:** 2026-11-26  
 **Pravidla:** `data/czechia/prompt_audit.md` V2.1  
-**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno a čtyři z pěti krátkých master textů rozšířeny; zbývá jeden krátký text, zdrojové aliasy a případná rodilá korektura.**  
+**Výsledek:** **REVIEW REQUIRED — pět nových historických faktů doplněno, všech 10 chybějících polohových údajů vyřešeno a čtyři z pěti krátkých master textů rozšířeny; zbývá jeden krátký text a nejednoznačné zdrojové aliasy.**  
 **Publikace / záloha:** neprovedena; nebyla vyžádána.
 
 ## 1. Rozsah a inventář
@@ -106,7 +106,9 @@ Kontrola všech sedmi jazyků `cs, de, en, es, fr, it, nl` po reworku:
 - 0 rozdílů mezi českým master textem a `translations.cs`;
 - 0 cizojazyčných textů kratších než 35 % odpovídajícího českého masteru.
 
-Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Nejde o certifikovanou korekturu rodilými mluvčími.
+Proběhla obsahová sémantická kontrola všech **280 faktů** napříč šesti cizojazyčnými sadami (původních 275 po reworku a pět nově doplněných historických faktů). Kontrolovaly se vynechané věty a údaje, historická chronologie, vlastní jména, vztahy mezi místy, terminologie a useknuté překlady. Součástí posouzení je také mezinárodní srozumitelnost: text musí být pochopitelný čtenáři, který neumí česky a nezná české reálie; nezbytný historický a kulturní kontext se proto vysvětluje přímo v překladu. Nejde o požadavek externí certifikace ani o stylistické přepisování správných překladů.
+
+Při zběžném ověření všech šesti cizojazyčných verzí `28563/fact_004` se potvrdilo, že pojem amatérského divadla je vysvětlen srozumitelnými ekvivalenty (např. *amateur theatre society*, *troupe de théâtre amateur*, *compagnia teatrale amatoriale*) a místní název Na Horkách je zasazen do kontextu hostince a hospodářství/farmy. Úprava nebyla potřebná.
 
 Cíleně opravené překladové nedostatky:
 - 28501 / `fact_002` — plný překlad doplněn o 69 hrobů, ostatky 72 osob, uspořádání ve třech dlouhých domech, dobu využívání pohřebiště 75–100 let a uložení nálezů v Národním muzeu; česká položka synchronizována s masterem;
@@ -191,6 +193,6 @@ Dokončeno:
 Otevřeno:
 1. vyřešit explicitní mapování aliasů zdrojů sN v 28522, 28523, 28525 a 28531; bez doloženého pravidla nebyly aliasy svévolně přemapovány;
 2. obsahově prověřit jediný zbývající krátký master `28563/fact_004` — tradice ochotnického divadla v Potěhách; rozšířit pouze při nalezení dalších doložitelných údajů;
-3. případně provést jazykovou korekturu rodilými mluvčími, která je nad rámec sémantické kontroly.
+3. při dalších cílených opravách překladů zachovat požadavek mezinárodní srozumitelnosti podle Content Standardu; nejde o samostatnou externí korekturu.
 
 Samostatný AJV běh nebyl spuštěn; proběhla cílená validace změněných záznamů proti načtenému schema.json. Nebyla provedena publikace V5, záloha, import do jiné databáze ani read-only zamykání. sequence.json, statusy a verze zůstávají beze změny.
