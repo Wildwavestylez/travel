@@ -1,4 +1,744 @@
 {
   "postcode": "90101",
-  "status": "placeholder"
+  "city": "Malacky",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Malaciek s Pálffyovským kaštieľom",
+  "representative_point": {
+    "lat": 48.4363,
+    "lon": 17.02005
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Malacky na obchodní cestě Magna via",
+      "text": "První písemná zmínka o Malackách se pojí s listinou uherského krále Ondřeje II. z roku 1206, která uvádí osadu u Malinského potoka. Její poloha na obchodní cestě Magna via podporovala rozvoj sídla; roku 1573 získaly Malacky tržní právo a postavení městečka. Po převzetí panství Pálffyovci v 17. století se město stalo správním centrem širšího panství a roku 1885 také okresním městem. Dne 4. dubna 1945 bylo osvobozeno vojsky 2. ukrajinského frontu.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "historic_city",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bd849f-cf81-4e6a-ae1b-6974379c7d4a",
+        "https://bratislavskykraj.sk/klenoty-malaciek-tajomna-palenica-maurska-synagoga-a-barokovy-kastiel/"
+      ],
+      "location": {
+        "name": "Kostol Najsvätejšej Trojice – orientační bod historického jádra Malacek",
+        "lat": 48.44052,
+        "lon": 17.012,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://mapcarta.com/W61517894",
+        "address": "Záhorácka, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Pálffyovský kaštieľ a zámecký park",
+      "text": "Pálffyovský kaštieľ se stal reprezentativním sídlem rodu Pálffyovců poté, co Pavol Pálffy získal plavecké panství roku 1622 a v roce 1634 je převzal do plného vlastnictví. Zámek vznikal v první polovině 17. století a v letech 1807–1808 prošel výraznou klasicistní přestavbou. Původní barokní zahrada se proměnila v rozsáhlý anglický park; na nádvoří stojí obnovená studna se sochou jelena, heraldického zvířete Pálffyovců. Kaštieľ sloužil později také jako františkánský internát, vojenský sklad a nemocnice.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "architecture",
+      "sources": [
+        "https://malacky.sk/docs/propagacne/malacky_kastiel.pdf",
+        "https://www.kamnavylet.sk/sk/atrakcia/malacky-kastiel-malacky",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf"
+      ],
+      "location": {
+        "name": "Pálffyovský kaštieľ",
+        "lat": 48.43987,
+        "lon": 17.03119,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/sk/atrakcia/malacky-kastiel-malacky",
+        "address": "Zámocká 18, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Čierny kláštor: františkánský komplex, Svaté schody a krypty",
+      "text": "Františkánský klášter v Malackách vznikl přestavbou staršího panského sídla, kterou zahájil Pavol Pálffy roku 1624. Chrám Neposkvrněného početí Panny Marie byl dokončen roku 1653 a Pálffyovci jej předali františkánskému řádu. Název Čierny kláštor připomíná původní tmavý vzhled kostela. V jihozápadní části chrámu se nachází kaple Svatých schodů s 27 stupni a relikviemi; pod kostelem jsou krypty, v nichž byli pohřbíváni františkáni i příslušníci rodu Pálffyovců. Komplex patří k nejvýznamnějším sakrálním památkám Záhoří.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bd849f-cf81-4e6a-ae1b-6974379c7d4a",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf",
+        "https://www.kamnavylet.sk/sk/atrakcia/frantiskansky-klastor-a-kostol-malacky",
+        "https://tikmalacky.sk/%C4%8Do-m%C3%B4%C5%BEete-vidie%C5%A5/pamiatky"
+      ],
+      "location": {
+        "name": "Františkansky kostol Nepoškvrneného počatia Panny Márie",
+        "lat": 48.43599,
+        "lon": 17.01867,
+        "type": "monastery",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/sk/atrakcia/frantiskansky-klastor-a-kostol-malacky",
+        "address": "Kláštorné námestie 3, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Maurská synagoga a zaniklá židovská obec",
+      "text": "Malacká synagoga je výraznou památkou někdejší židovské komunity. Současnou budovu v maurském stylu se dvěma věžemi a podkovovitými oblouky postavili roku 1900 podle plánů vídeňského architekta Wilhelma Stiassného na místě starší synagogy z roku 1886, poškozené požárem. Židovská náboženská obec v Malackách vznikla roku 1823 a místní rabinát spravoval náboženské záležitosti 17 okolních obcí. Roku 1880 žilo ve městě 397 Židů; před holokaustem měla komunita přibližně 300 členů a většina z nich byla roku 1942 deportována do nacistických vyhlazovacích táborů. Budova dnes slouží jako základní umělecká škola a zachovala si řadu původních architektonických prvků.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.slovak-jewish-heritage.org/sk/pamiatky-cesty/malacky-synagoga/",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf"
+      ],
+      "location": {
+        "name": "Malacká synagóga",
+        "lat": 48.437444,
+        "lon": 17.020778,
+        "type": "synagogue",
+        "accuracy": "exact",
+        "source": "https://www.slovak-jewish-heritage.org/sk/pamiatky-cesty/malacky-synagoga/",
+        "address": "Na brehu 2, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Farní kostel Nejsvětější Trojice",
+      "text": "Kostel Najsvätejšej Trojice patří k nejstarším dochovaným stavbám Malacek a jeho okolí bylo jedním z počátků historického městského jádra. Podle městského historického přehledu byl postaven roku 1600 v době, kdy panství ovládali Balašovci a v Malackách působila evangelická fara i škola. Věž byla přistavěna roku 1672. Kostel a přilehlé malé náměstí se staly jedním z ohnisek, od nichž se rozvíjela další zástavba městečka.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "map_category": "religious_site",
+      "sources": [
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bd849f-cf81-4e6a-ae1b-6974379c7d4a",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf",
+        "https://mapcarta.com/W61517894"
+      ],
+      "location": {
+        "name": "Kostol Najsvätejšej Trojice",
+        "lat": 48.44052,
+        "lon": 17.012,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://mapcarta.com/W61517894",
+        "address": "Záhorácka, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vinohrádok: studna z počátku 8. století",
+      "text": "V místní části Vinohrádok byla v roce 1998 odkryta raně středověká studna, jejíž dubová konstrukce byla dendrochronologicky datována přibližně do let 714–715. Nálezový soubor obsahoval keramiku a archeobotanické zbytky včetně hroznových semen. Odborné vyhodnocení upozorňuje, že samotná semena ještě nedokazují místní pěstování vinné révy; nález však představuje důležitý doklad zemědělského prostředí a přispívá k odborné diskusi o počátcích vinohradnictví v raném středověku na jihozápadním Slovensku.",
+      "category": "history",
+      "priority": "A",
+      "map_category": "archaeological_site",
+      "sources": [
+        "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2016_1.pdf",
+        "https://velemjaro.sk/telepulestar/vinohradok-malacka",
+        "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bd849f-cf81-4e6a-ae1b-6974379c7d4a"
+      ],
+      "location": {
+        "name": "Vinohrádok – orientační bod archeologické lokality",
+        "lat": 48.41957,
+        "lon": 16.99659,
+        "type": "archaeological_site",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18459200",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Pálffyovský liehovar ve Vinohrádku",
+      "text": "Vinohrádok na jižním okraji Malacek uchovává stopu někdejšího pálffyovského hospodářského dvora. Majer je doložen roku 1885 a liehovar, původně propojený s mlýnem u potoka Malina, vznikl přibližně roku 1917. Po roce 1930 jej převzalo rolnické družstvo, které zpracovávalo především brambory na líh; družstvo později spojilo výrobu s mlýnem a sušárnou. Památkový úřad prohlásil bývalý liehovar 31. prosince 2019 za národní kulturní památku pro jeho historickou, společenskou, urbanistickou, architektonickou a technickou hodnotu.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "map_category": "technical_heritage",
+      "sources": [
+        "https://malacky.sk/slavna-minulost-smutna-sucasnost-neista-buducnost/",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf",
+        "https://velemjaro.sk/telepulestar/vinohradok-malacka"
+      ],
+      "location": {
+        "name": "Vinohrádok – orientační bod areálu bývalého Pálffyovského liehovaru",
+        "lat": 48.41957,
+        "lon": 16.99659,
+        "type": "historic_industrial_site",
+        "accuracy": "historical_approximate",
+        "source": "https://mapcarta.com/18459200",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Múzeum Michala Tillnera a kultura Záhoří",
+      "text": "Múzeum Michala Tillnera bylo založeno roku 1975 z podnětu akademického malíře Michala Tillnera. Původně sídlilo v obnovené budově vodního mlýna; po majetkovém vypořádání a přestěhování sbírek získalo roku 2006 novou expozici v budově Mestského centra kultúry na Záhorácké ulici. Sbírky jsou převážně etnografické a přibližují dějiny Malacek, řemesla, každodenní život i lidovou kulturu jižního Záhoří. Výraznou část expozice tvoří Záhorácká izba – rekonstruovaný interiér tradičního venkovského obydlí s malovaným nábytkem, truhlami a keramikou.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "map_category": "museum",
+      "sources": [
+        "https://tikmalacky.sk/%C4%8Do-m%C3%B4%C5%BEete-vidie%C5%A5/pamiatky",
+        "https://muzeummalacky.sk/kontakty",
+        "https://www.kamnavylet.sk/sk/atrakcia/muzeum-michala-tillnera-malacky"
+      ],
+      "location": {
+        "name": "Múzeum Michala Tillnera",
+        "lat": 48.43947,
+        "lon": 17.01294,
+        "type": "museum",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/sk/atrakcia/muzeum-michala-tillnera-malacky",
+        "address": "Záhorácka 1919, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Ľudo Zúbek: spisovatel spojený s Malackami",
+      "text": "Spisovatel a publicista Ľudo Zúbek se narodil roku 1907 v Malackách. Pracoval jako novinář, redaktor a rozhlasový pracovník a proslul historickými prózami i literaturou pro mládež; k jeho známým dílům patří román Jar Adely Ostrolúckej. Jeho vztah k rodnému městu připomíná pamětní dům s pamětní deskou na Sládkovičově ulici č. 3, který je evidován mezi národními kulturními památkami.",
+      "category": "people",
+      "priority": "B",
+      "map_category": "personality",
+      "sources": [
+        "https://malacky.sk/na-nahrobku-luda-zubka-je-opat-umiestnena-busta/",
+        "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf",
+        "https://malacky.oma.sk/u/sladkovicova/3"
+      ],
+      "location": {
+        "name": "Pamätný dom Ľuda Zúbka",
+        "lat": 48.4409898,
+        "lon": 17.0228666,
+        "type": "historic_address",
+        "accuracy": "exact",
+        "source": "https://malacky.oma.sk/u/sladkovicova/3",
+        "address": "Sládkovičova 3, 901 01 Malacky, Slovakia"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Viktor Angerer: malacký rodák a císařský dvorní fotograf",
+      "text": "Viktor Angerer se narodil v Malackách 3. října 1839 v rodině pálffyovského úředníka. Roku 1862 si otevřel fotografický ateliér ve Vídni a postupně se zařadil mezi císařské dvorní fotografy. Vedle portrétní fotografie se věnoval také reprodukcím uměleckých děl a vystavoval ve Vídni i v zahraničí. Zemřel 10. dubna 1894. Jeho životní dráha připomíná, že Malacky byly rodištěm osobností, které se prosadily i v kulturním prostředí habsburské monarchie.",
+      "category": "people",
+      "priority": "B",
+      "map_category": "personality",
+      "sources": [
+        "https://malacky.sk/wp-content/uploads/2025/11/kronika-mesta-malacky-2024.pdf",
+        "https://mapcarta.com/18463472"
+      ],
+      "location": {
+        "name": "Malacky – orientační bod rodného města Viktora Angerera",
+        "lat": 48.4363,
+        "lon": 17.02005,
+        "type": "historic_settlement",
+        "accuracy": "area_representative",
+        "source": "https://mapcarta.com/18463472",
+        "address": null
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-26",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiální seznam Slovenské pošty uvádí Poštu Malacky 1 na adrese Zámocká 8 s PSČ 901 01. Tato poštovní adresa není použita jako reprezentativní bod PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Ústredný portál verejnej správy a oficiální městské dokumenty potvrzují Malacky a místní část Vinohrádok; mapový přehled PSČ 901 01 a ověřené adresy potvrzují geografické využití kódu v Malackách. Nebyla tvrzena polygonální hranice PSČ ani úplné pokrytí města."
+  },
+  "sources": [
+    {
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "title": "PSČ 901 01 – mapový prehľad ulíc a územia podľa OpenStreetMap",
+      "url": "https://90101.oma.sk/",
+      "type": "other"
+    },
+    {
+      "title": "Ústredný portál verejnej správy – Informácie o meste Malacky",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_38bd849f-cf81-4e6a-ae1b-6974379c7d4a",
+      "type": "official"
+    },
+    {
+      "title": "Kronika mesta Malacky 2024",
+      "url": "https://malacky.sk/wp-content/uploads/2025/11/kronika-mesta-malacky-2024.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Program hospodárskeho rozvoja a sociálneho rozvoja mesta Malacky 2022–2030",
+      "url": "https://malacky.sk/docs/rozvoj/program_phsr_mesto_Malacky_2022_2030.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Klenoty Malaciek: Tajomná pálenica, maurská synagóga a barokový kaštieľ",
+      "url": "https://bratislavskykraj.sk/klenoty-malaciek-tajomna-palenica-maurska-synagoga-a-barokovy-kastiel/",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Malacky – Malacký kaštieľ (historická brožúra TIK)",
+      "url": "https://malacky.sk/docs/propagacne/malacky_kastiel.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Malacký kaštieľ – poloha a turistické údaje",
+      "url": "https://www.kamnavylet.sk/sk/atrakcia/malacky-kastiel-malacky",
+      "type": "regional"
+    },
+    {
+      "title": "Františkánsky kláštor a kostol – turistický informačný opis a poloha",
+      "url": "https://www.kamnavylet.sk/sk/atrakcia/frantiskansky-klastor-a-kostol-malacky",
+      "type": "regional"
+    },
+    {
+      "title": "TIK Malacky – Pamiatky",
+      "url": "https://tikmalacky.sk/%C4%8Do-m%C3%B4%C5%BEete-vidie%C5%A5/pamiatky",
+      "type": "official"
+    },
+    {
+      "title": "Slovak Jewish Heritage – Malacky, Synagóga",
+      "url": "https://www.slovak-jewish-heritage.org/sk/pamiatky-cesty/malacky-synagoga/",
+      "type": "specialist"
+    },
+    {
+      "title": "Kostol Najsvätejšej Trojice – poloha v Malackách",
+      "url": "https://mapcarta.com/W61517894",
+      "type": "other"
+    },
+    {
+      "title": "Vinohrádok – poloha a orientačný bod",
+      "url": "https://mapcarta.com/18459200",
+      "type": "other"
+    },
+    {
+      "title": "Vinohrádok – miestna časť Malaciek",
+      "url": "https://velemjaro.sk/telepulestar/vinohradok-malacka",
+      "type": "regional"
+    },
+    {
+      "title": "Slovenská archeológia LXIV/1 (2016) – archeologické a archeobotanické vyhodnotenie nálezu studne v Malackách",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2016_1.pdf",
+      "type": "university"
+    },
+    {
+      "title": "Mesto Malacky – Slávna minulosť, smutná súčasnosť, neistá budúcnosť (Pálffyovský liehovar)",
+      "url": "https://malacky.sk/slavna-minulost-smutna-sucasnost-neista-buducnost/",
+      "type": "official"
+    },
+    {
+      "title": "Múzeum Michala Tillnera – oficiálny kontakt a adresa",
+      "url": "https://muzeummalacky.sk/kontakty",
+      "type": "museum"
+    },
+    {
+      "title": "Múzeum Michala Tillnera – poloha",
+      "url": "https://www.kamnavylet.sk/sk/atrakcia/muzeum-michala-tillnera-malacky",
+      "type": "regional"
+    },
+    {
+      "title": "Mesto Malacky – Pamätný dom a osobnosť Ľuda Zúbka",
+      "url": "https://malacky.sk/na-nahrobku-luda-zubka-je-opat-umiestnena-busta/",
+      "type": "official"
+    },
+    {
+      "title": "Sládkovičova 3, Malacky – mapová poloha pamätného domu",
+      "url": "https://malacky.oma.sk/u/sladkovicova/3",
+      "type": "other"
+    },
+    {
+      "title": "Malacky – poloha mesta",
+      "url": "https://mapcarta.com/18463472",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Malaciek s Pálffyovským kaštieľom",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky na obchodní cestě Magna via",
+          "text": "První písemná zmínka o Malackách se pojí s listinou uherského krále Ondřeje II. z roku 1206, která uvádí osadu u Malinského potoka. Její poloha na obchodní cestě Magna via podporovala rozvoj sídla; roku 1573 získaly Malacky tržní právo a postavení městečka. Po převzetí panství Pálffyovci v 17. století se město stalo správním centrem širšího panství a roku 1885 také okresním městem. Dne 4. dubna 1945 bylo osvobozeno vojsky 2. ukrajinského frontu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Pálffyovský kaštieľ a zámecký park",
+          "text": "Pálffyovský kaštieľ se stal reprezentativním sídlem rodu Pálffyovců poté, co Pavol Pálffy získal plavecké panství roku 1622 a v roce 1634 je převzal do plného vlastnictví. Zámek vznikal v první polovině 17. století a v letech 1807–1808 prošel výraznou klasicistní přestavbou. Původní barokní zahrada se proměnila v rozsáhlý anglický park; na nádvoří stojí obnovená studna se sochou jelena, heraldického zvířete Pálffyovců. Kaštieľ sloužil později také jako františkánský internát, vojenský sklad a nemocnice."
+        },
+        {
+          "id": "fact_003",
+          "title": "Čierny kláštor: františkánský komplex, Svaté schody a krypty",
+          "text": "Františkánský klášter v Malackách vznikl přestavbou staršího panského sídla, kterou zahájil Pavol Pálffy roku 1624. Chrám Neposkvrněného početí Panny Marie byl dokončen roku 1653 a Pálffyovci jej předali františkánskému řádu. Název Čierny kláštor připomíná původní tmavý vzhled kostela. V jihozápadní části chrámu se nachází kaple Svatých schodů s 27 stupni a relikviemi; pod kostelem jsou krypty, v nichž byli pohřbíváni františkáni i příslušníci rodu Pálffyovců. Komplex patří k nejvýznamnějším sakrálním památkám Záhoří."
+        },
+        {
+          "id": "fact_004",
+          "title": "Maurská synagoga a zaniklá židovská obec",
+          "text": "Malacká synagoga je výraznou památkou někdejší židovské komunity. Současnou budovu v maurském stylu se dvěma věžemi a podkovovitými oblouky postavili roku 1900 podle plánů vídeňského architekta Wilhelma Stiassného na místě starší synagogy z roku 1886, poškozené požárem. Židovská náboženská obec v Malackách vznikla roku 1823 a místní rabinát spravoval náboženské záležitosti 17 okolních obcí. Roku 1880 žilo ve městě 397 Židů; před holokaustem měla komunita přibližně 300 členů a většina z nich byla roku 1942 deportována do nacistických vyhlazovacích táborů. Budova dnes slouží jako základní umělecká škola a zachovala si řadu původních architektonických prvků."
+        },
+        {
+          "id": "fact_005",
+          "title": "Farní kostel Nejsvětější Trojice",
+          "text": "Kostel Najsvätejšej Trojice patří k nejstarším dochovaným stavbám Malacek a jeho okolí bylo jedním z počátků historického městského jádra. Podle městského historického přehledu byl postaven roku 1600 v době, kdy panství ovládali Balašovci a v Malackách působila evangelická fara i škola. Věž byla přistavěna roku 1672. Kostel a přilehlé malé náměstí se staly jedním z ohnisek, od nichž se rozvíjela další zástavba městečka."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: studna z počátku 8. století",
+          "text": "V místní části Vinohrádok byla v roce 1998 odkryta raně středověká studna, jejíž dubová konstrukce byla dendrochronologicky datována přibližně do let 714–715. Nálezový soubor obsahoval keramiku a archeobotanické zbytky včetně hroznových semen. Odborné vyhodnocení upozorňuje, že samotná semena ještě nedokazují místní pěstování vinné révy; nález však představuje důležitý doklad zemědělského prostředí a přispívá k odborné diskusi o počátcích vinohradnictví v raném středověku na jihozápadním Slovensku."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pálffyovský liehovar ve Vinohrádku",
+          "text": "Vinohrádok na jižním okraji Malacek uchovává stopu někdejšího pálffyovského hospodářského dvora. Majer je doložen roku 1885 a liehovar, původně propojený s mlýnem u potoka Malina, vznikl přibližně roku 1917. Po roce 1930 jej převzalo rolnické družstvo, které zpracovávalo především brambory na líh; družstvo později spojilo výrobu s mlýnem a sušárnou. Památkový úřad prohlásil bývalý liehovar 31. prosince 2019 za národní kulturní památku pro jeho historickou, společenskou, urbanistickou, architektonickou a technickou hodnotu."
+        },
+        {
+          "id": "fact_008",
+          "title": "Múzeum Michala Tillnera a kultura Záhoří",
+          "text": "Múzeum Michala Tillnera bylo založeno roku 1975 z podnětu akademického malíře Michala Tillnera. Původně sídlilo v obnovené budově vodního mlýna; po majetkovém vypořádání a přestěhování sbírek získalo roku 2006 novou expozici v budově Mestského centra kultúry na Záhorácké ulici. Sbírky jsou převážně etnografické a přibližují dějiny Malacek, řemesla, každodenní život i lidovou kulturu jižního Záhoří. Výraznou část expozice tvoří Záhorácká izba – rekonstruovaný interiér tradičního venkovského obydlí s malovaným nábytkem, truhlami a keramikou."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: spisovatel spojený s Malackami",
+          "text": "Spisovatel a publicista Ľudo Zúbek se narodil roku 1907 v Malackách. Pracoval jako novinář, redaktor a rozhlasový pracovník a proslul historickými prózami i literaturou pro mládež; k jeho známým dílům patří román Jar Adely Ostrolúckej. Jeho vztah k rodnému městu připomíná pamětní dům s pamětní deskou na Sládkovičově ulici č. 3, který je evidován mezi národními kulturními památkami."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: malacký rodák a císařský dvorní fotograf",
+          "text": "Viktor Angerer se narodil v Malackách 3. října 1839 v rodině pálffyovského úředníka. Roku 1862 si otevřel fotografický ateliér ve Vídni a postupně se zařadil mezi císařské dvorní fotografy. Vedle portrétní fotografie se věnoval také reprodukcím uměleckých děl a vystavoval ve Vídni i v zahraničí. Zemřel 10. dubna 1894. Jeho životní dráha připomíná, že Malacky byly rodištěm osobností, které se prosadily i v kulturním prostředí habsburské monarchie."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historisches Zentrum von Malacky mit dem Pálffy-Herrenhaus",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky an der Handelsstraße Magna via",
+          "text": "Die erste schriftliche Erwähnung von Malacky steht im Zusammenhang mit einer Urkunde des ungarischen Königs Andreas II. aus dem Jahr 1206, in der eine Siedlung am Bach Malinský potok genannt wird. Die Lage an der Handelsstraße Magna via begünstigte die Entwicklung des Ortes; 1573 erhielt Malacky das Marktrecht und den Status eines Marktfleckens. Nach der Übernahme der Herrschaft durch die Familie Pálffy im 17. Jahrhundert wurde die Stadt zum Verwaltungszentrum des größeren Herrschaftsgebiets und 1885 auch zur Bezirksstadt. Am 4. April 1945 wurde sie von Truppen der 2. Ukrainischen Front befreit."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Pálffy-Herrenhaus und der Schlosspark",
+          "text": "Das Pálffy-Herrenhaus wurde zum repräsentativen Sitz der Familie Pálffy, nachdem Pavol Pálffy 1622 die Herrschaft Plavecké erworben und 1634 endgültig übernommen hatte. Das Schloss entstand in der ersten Hälfte des 17. Jahrhunderts und wurde 1807–1808 grundlegend klassizistisch umgebaut. Aus dem ursprünglichen Barockgarten entwickelte sich ein weitläufiger englischer Landschaftspark; im Innenhof steht ein restaurierter Brunnen mit einem Hirsch, dem Wappentier der Pálffys. Später diente das Herrenhaus auch als Internat der Franziskaner, Militärlager und Krankenhaus."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Schwarze Kloster: Franziskaneranlage, Heilige Stufen und Krypten",
+          "text": "Das Franziskanerkloster von Malacky entstand durch den Umbau eines älteren Herrensitzes, den Pavol Pálffy 1624 einleitete. Die Kirche Mariä Empfängnis wurde 1653 fertiggestellt und von den Pálffys dem Franziskanerorden übergeben. Der Name Schwarzes Kloster erinnert an das ursprünglich dunkle Erscheinungsbild der Kirche. Im südwestlichen Teil befindet sich die Kapelle der Heiligen Stufen mit 27 Stufen und Reliquien; unter der Kirche liegen Krypten, in denen Franziskaner und Angehörige der Familie Pálffy bestattet wurden. Die Anlage zählt zu den bedeutendsten Sakraldenkmälern der Záhorie."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die maurische Synagoge und die verschwundene jüdische Gemeinde",
+          "text": "Die Synagoge von Malacky ist ein markantes Zeugnis der einstigen jüdischen Gemeinde. Das heutige Gebäude im maurischen Stil mit zwei Türmen und Hufeisenbögen wurde 1900 nach Plänen des Wiener Architekten Wilhelm Stiassny an der Stelle einer älteren, durch einen Brand beschädigten Synagoge von 1886 errichtet. Die jüdische Gemeinde von Malacky entstand 1823; das örtliche Rabbinat betreute die religiösen Angelegenheiten von 17 umliegenden Gemeinden. 1880 lebten 397 Juden in der Stadt. Vor dem Holocaust zählte die Gemeinde etwa 300 Mitglieder, von denen die meisten 1942 in nationalsozialistische Vernichtungslager deportiert wurden. Heute dient das Gebäude als Kunstschule und bewahrt zahlreiche originale architektonische Elemente."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Pfarrkirche der Heiligsten Dreifaltigkeit",
+          "text": "Die Kirche Najsvätejšej Trojice gehört zu den ältesten erhaltenen Bauwerken von Malacky; ihre Umgebung war einer der Ausgangspunkte des historischen Stadtkerns. Laut der städtischen Geschichtsdarstellung wurde sie 1600 errichtet, als die Familie Balassa die Herrschaft innehatte und in Malacky eine evangelische Pfarrei und Schule bestanden. Der Turm wurde 1672 angebaut. Die Kirche und der kleine Platz in ihrer Nähe wurden zu einem der Zentren, von denen aus sich der weitere Ort entwickelte."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: ein Brunnen aus dem frühen 8. Jahrhundert",
+          "text": "Im Ortsteil Vinohrádok wurde 1998 ein frühmittelalterlicher Brunnen freigelegt, dessen Eichenkonstruktion dendrochronologisch ungefähr auf die Jahre 714–715 datiert wurde. Der Fundkomplex enthielt Keramik und archäobotanische Reste, darunter Traubenkerne. Die wissenschaftliche Auswertung weist darauf hin, dass die Kerne allein noch keinen lokalen Weinbau beweisen; der Fund ist jedoch ein wichtiger Beleg für das frühmittelalterliche Agrarmilieu und trägt zur Fachdebatte über die Anfänge des Weinbaus in der Südwestslowakei bei."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Pálffy-Brennerei in Vinohrádok",
+          "text": "Vinohrádok am südlichen Rand von Malacky bewahrt Spuren eines ehemaligen Pálffy-Wirtschaftshofes. Der Hof ist 1885 belegt; die Brennerei, ursprünglich mit einer Mühle am Bach Malina verbunden, entstand um 1917. Nach 1930 übernahm sie eine landwirtschaftliche Genossenschaft, die vor allem Kartoffeln zu Alkohol verarbeitete; später verband die Genossenschaft die Produktion mit einer Mühle und einer Trocknungsanlage. Das Denkmalamt erklärte die ehemalige Brennerei am 31. Dezember 2019 wegen ihres historischen, gesellschaftlichen, städtebaulichen, architektonischen und technischen Wertes zum nationalen Kulturdenkmal."
+        },
+        {
+          "id": "fact_008",
+          "title": "Das Michal-Tillner-Museum und die Kultur der Záhorie",
+          "text": "Das Michal-Tillner-Museum wurde 1975 auf Initiative des akademischen Malers Michal Tillner gegründet. Zunächst befand es sich in einem restaurierten Wassermühlengebäude; nach einer Eigentumsregelung und der Auslagerung der Sammlungen erhielt es 2006 eine neue Ausstellung im Gebäude des städtischen Kulturzentrums in der Záhorácka-Straße. Die Sammlungen sind überwiegend ethnografisch und vermitteln die Geschichte von Malacky, das Handwerk, den Alltag und die Volkskultur der südlichen Záhorie. Ein Schwerpunkt ist die Záhorácka izba – die Rekonstruktion eines traditionellen ländlichen Wohnraums mit bemalten Möbeln, Truhen und Keramik."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: ein mit Malacky verbundener Schriftsteller",
+          "text": "Der Schriftsteller und Publizist Ľudo Zúbek wurde 1907 in Malacky geboren. Er arbeitete als Journalist, Redakteur und Rundfunkmitarbeiter und wurde durch historische Prosa und Jugendliteratur bekannt; zu seinen bekannten Werken gehört der Roman Jar Adely Ostrolúckej. Seine Verbindung zur Geburtsstadt erinnert das Gedenkhaus mit Gedenktafel in der Sládkovičova-Straße 3, das als nationales Kulturdenkmal geführt wird."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: ein Sohn von Malacky und kaiserlicher Hoffotograf",
+          "text": "Viktor Angerer wurde am 3. Oktober 1839 in Malacky als Sohn eines Pálffy-Verwaltungsbeamten geboren. 1862 eröffnete er ein Fotostudio in Wien und wurde später zu einem der kaiserlichen Hoffotografen. Neben der Porträtfotografie fertigte er Reproduktionen von Kunstwerken an und stellte in Wien sowie im Ausland aus. Er starb am 10. April 1894. Sein Lebensweg zeigt, dass Malacky Persönlichkeiten hervorbrachte, die sich auch im Kulturleben der Habsburgermonarchie einen Namen machten."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Malacky historic centre and the Pálffy Manor House",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky on the Magna via trade route",
+          "text": "The first written reference to Malacky is associated with a 1206 charter of King Andrew II of Hungary, which mentions a settlement by the Malinský potok stream. Its position on the Magna via trade route encouraged its growth; in 1573 Malacky received market rights and the status of a market town. After the Pálffy family took over the estate in the 17th century, the town became the administrative centre of a wider domain and, in 1885, a district seat. On 4 April 1945 it was liberated by troops of the 2nd Ukrainian Front."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Pálffy Manor House and its park",
+          "text": "The Pálffy Manor House became the representative seat of the Pálffy family after Pavol Pálffy acquired the Plavecké estate in 1622 and took full ownership in 1634. The manor was built in the first half of the 17th century and substantially remodelled in the Neoclassical style in 1807–1808. The original Baroque garden developed into an extensive English landscape park; the courtyard contains a restored well with a deer, the heraldic animal of the Pálffy family. The manor later also served as a Franciscan boarding school, military storehouse and hospital."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Black Monastery: Franciscan complex, Holy Stairs and crypts",
+          "text": "The Franciscan monastery in Malacky was created by converting an older manor house, a process begun by Pavol Pálffy in 1624. The Church of the Immaculate Conception was completed in 1653 and donated by the Pálffys to the Franciscan order. The name Black Monastery recalls the church’s original dark appearance. In the southwestern part of the church is the Chapel of the Holy Stairs, with 27 steps and relics; beneath the church are crypts where Franciscans and members of the Pálffy family were buried. The complex is among the most important religious heritage sites in the Záhorie region."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Moorish synagogue and the former Jewish community",
+          "text": "The Malacky synagogue is a prominent reminder of the town’s former Jewish community. The present Moorish-style building, with two towers and horseshoe arches, was built in 1900 to plans by Viennese architect Wilhelm Stiassny on the site of an earlier synagogue from 1886 that had been damaged by fire. The Jewish congregation in Malacky was established in 1823, and its rabbinate served the religious needs of 17 surrounding communities. In 1880, 397 Jews lived in the town. Before the Holocaust the community had about 300 members, most of whom were deported to Nazi extermination camps in 1942. The building now serves as an arts school and retains many original architectural features."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Parish Church of the Holy Trinity",
+          "text": "The Church of the Holy Trinity is among the oldest surviving buildings in Malacky, and its surroundings formed one of the starting points of the historic town centre. According to the town’s historical account, it was built in 1600, when the Balassa family held the estate and an Evangelical parish and school operated in Malacky. The tower was added in 1672. The church and the small square nearby became one of the focal points from which the settlement expanded."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: a well from the early 8th century",
+          "text": "An early medieval well was excavated in the Vinohrádok locality in 1998. Dendrochronological analysis dated its oak structure to approximately 714–715. The assemblage contained pottery and archaeobotanical remains, including grape seeds. The scholarly assessment cautions that the seeds alone do not prove local grape cultivation; nevertheless, the find is important evidence for the early medieval agricultural environment and contributes to the academic discussion of the beginnings of viticulture in southwestern Slovakia."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Pálffy distillery in Vinohrádok",
+          "text": "Vinohrádok, on the southern edge of Malacky, preserves traces of a former Pálffy agricultural estate. The farmstead is documented in 1885, while the distillery, originally connected to a mill on the Malina stream, was established around 1917. After 1930 it was taken over by a farmers’ cooperative that mainly processed potatoes into alcohol; the cooperative later combined production with a mill and drying facility. On 31 December 2019 the Monuments Board declared the former distillery a national cultural monument for its historical, social, urban, architectural and technical value."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Michal Tillner Museum and the culture of Záhorie",
+          "text": "The Michal Tillner Museum was founded in 1975 at the initiative of academic painter Michal Tillner. It was originally housed in a restored watermill; after a property settlement and the relocation of its collections, a new exhibition opened in 2006 in the municipal cultural centre on Záhorácka Street. The collections are mainly ethnographic and present the history of Malacky, crafts, everyday life and the folk culture of southern Záhorie. A central feature is the Záhorácka izba, a reconstruction of a traditional rural interior with painted furniture, chests and ceramics."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: a writer connected with Malacky",
+          "text": "The writer and publicist Ľudo Zúbek was born in Malacky in 1907. He worked as a journalist, editor and radio broadcaster and became known for historical prose and literature for young readers; one of his best-known works is the novel Jar Adely Ostrolúckej. His connection with his birthplace is commemorated by a memorial house and plaque at 3 Sládkovičova Street, listed as a national cultural monument."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: Malacky-born imperial court photographer",
+          "text": "Viktor Angerer was born in Malacky on 3 October 1839, the son of an official in the Pálffy household. He opened a photographic studio in Vienna in 1862 and later became one of the imperial court photographers. Alongside portrait photography, he produced reproductions of works of art and exhibited in Vienna and abroad. He died on 10 April 1894. His career shows that Malacky was the birthplace of people who made their mark in the cultural life of the Habsburg Monarchy."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Malacky y palacio señorial de los Pálffy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky en la ruta comercial Magna via",
+          "text": "La primera referencia escrita a Malacky está vinculada a un documento del rey húngaro Andrés II de 1206, que menciona un asentamiento junto al arroyo Malinský potok. Su posición en la ruta comercial Magna via favoreció su desarrollo; en 1573 Malacky obtuvo derechos de mercado y el rango de villa mercantil. Tras la llegada de la familia Pálffy al señorío en el siglo XVII, la localidad se convirtió en centro administrativo de un dominio más amplio y, en 1885, en capital de distrito. El 4 de abril de 1945 fue liberada por tropas del 2.º Frente Ucraniano."
+        },
+        {
+          "id": "fact_002",
+          "title": "El palacio señorial de los Pálffy y su parque",
+          "text": "El palacio señorial de los Pálffy se convirtió en la residencia representativa de la familia después de que Pavol Pálffy adquiriera el señorío de Plavecké en 1622 y obtuviera su plena propiedad en 1634. El edificio se construyó en la primera mitad del siglo XVII y fue remodelado profundamente en estilo neoclásico en 1807–1808. El jardín barroco original se transformó en un extenso parque paisajístico inglés; en el patio hay un pozo restaurado con un ciervo, animal heráldico de los Pálffy. Más tarde, el palacio también sirvió como internado franciscano, almacén militar y hospital."
+        },
+        {
+          "id": "fact_003",
+          "title": "El monasterio negro: conjunto franciscano, Escalera Santa y criptas",
+          "text": "El monasterio franciscano de Malacky surgió de la transformación de una antigua residencia señorial, iniciada por Pavol Pálffy en 1624. La iglesia de la Inmaculada Concepción se terminó en 1653 y los Pálffy la entregaron a la orden franciscana. El nombre de monasterio negro recuerda el aspecto oscuro original de la iglesia. En la parte suroccidental del templo se encuentra la capilla de la Escalera Santa, con 27 peldaños y reliquias; bajo la iglesia hay criptas donde fueron enterrados franciscanos y miembros de la familia Pálffy. El conjunto es uno de los principales monumentos religiosos de la región de Záhorie."
+        },
+        {
+          "id": "fact_004",
+          "title": "La sinagoga de estilo morisco y la antigua comunidad judía",
+          "text": "La sinagoga de Malacky es un destacado testimonio de la antigua comunidad judía de la localidad. El edificio actual, de estilo morisco, con dos torres y arcos de herradura, se construyó en 1900 según los planos del arquitecto vienés Wilhelm Stiassny, en el lugar de una sinagoga anterior de 1886 dañada por un incendio. La comunidad judía de Malacky se estableció en 1823 y su rabinato atendía las necesidades religiosas de 17 localidades cercanas. En 1880 vivían en la ciudad 397 judíos. Antes del Holocausto la comunidad contaba con unos 300 miembros, la mayoría de los cuales fueron deportados a campos de exterminio nazis en 1942. Hoy el edificio alberga una escuela de arte y conserva numerosos elementos arquitectónicos originales."
+        },
+        {
+          "id": "fact_005",
+          "title": "La iglesia parroquial de la Santísima Trinidad",
+          "text": "La iglesia de la Santísima Trinidad es uno de los edificios conservados más antiguos de Malacky; sus alrededores fueron uno de los puntos de partida del núcleo histórico. Según la historia municipal, se construyó en 1600, cuando el señorío pertenecía a la familia Balassa y en Malacky funcionaban una parroquia evangélica y una escuela. La torre se añadió en 1672. La iglesia y la pequeña plaza cercana se convirtieron en uno de los focos desde los que se desarrolló el resto del asentamiento."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: un pozo de comienzos del siglo VIII",
+          "text": "En la localidad de Vinohrádok se excavó en 1998 un pozo altomedieval cuya estructura de roble fue datada mediante dendrocronología aproximadamente en los años 714–715. El conjunto contenía cerámica y restos arqueobotánicos, entre ellos semillas de uva. El estudio científico advierte que las semillas por sí solas no demuestran que se cultivara vid en el lugar; aun así, el hallazgo constituye una prueba importante del entorno agrícola altomedieval y contribuye al debate académico sobre los inicios de la viticultura en el suroeste de Eslovaquia."
+        },
+        {
+          "id": "fact_007",
+          "title": "La destilería de los Pálffy en Vinohrádok",
+          "text": "Vinohrádok, en el extremo sur de Malacky, conserva la huella de una antigua explotación agrícola de los Pálffy. La finca está documentada en 1885; la destilería, conectada originalmente con un molino junto al arroyo Malina, se creó hacia 1917. Después de 1930 pasó a manos de una cooperativa de agricultores que procesaba principalmente patatas para producir alcohol; más tarde, la cooperativa combinó la actividad con un molino y una instalación de secado. El 31 de diciembre de 2019 la Oficina de Monumentos declaró la antigua destilería monumento cultural nacional por su valor histórico, social, urbanístico, arquitectónico y técnico."
+        },
+        {
+          "id": "fact_008",
+          "title": "El Museo Michal Tillner y la cultura de Záhorie",
+          "text": "El Museo Michal Tillner se fundó en 1975 por iniciativa del pintor académico Michal Tillner. Al principio estuvo instalado en un antiguo molino de agua restaurado; tras un proceso de restitución y el traslado de las colecciones, en 2006 abrió una nueva exposición en el centro cultural municipal de la calle Záhorácka. Sus colecciones son principalmente etnográficas y presentan la historia de Malacky, los oficios, la vida cotidiana y la cultura popular del sur de Záhorie. Una parte central es la Záhorácka izba, reconstrucción de un interior rural tradicional con muebles pintados, arcones y cerámica."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: escritor vinculado a Malacky",
+          "text": "El escritor y publicista Ľudo Zúbek nació en Malacky en 1907. Trabajó como periodista, editor y profesional de la radio y se dio a conocer por su prosa histórica y sus obras para jóvenes; entre sus títulos conocidos figura la novela Jar Adely Ostrolúckej. Su vínculo con la ciudad natal se recuerda en la casa conmemorativa y la placa de Sládkovičova 3, inscrita como monumento cultural nacional."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: fotógrafo de la corte imperial nacido en Malacky",
+          "text": "Viktor Angerer nació en Malacky el 3 de octubre de 1839, hijo de un funcionario de la casa Pálffy. En 1862 abrió un estudio fotográfico en Viena y más tarde llegó a ser uno de los fotógrafos de la corte imperial. Además de realizar retratos, reprodujo obras de arte y expuso en Viena y en el extranjero. Murió el 10 de abril de 1894. Su trayectoria muestra que Malacky fue cuna de personas que destacaron también en la vida cultural de la monarquía de los Habsburgo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Malacky et manoir des Pálffy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky sur la route commerciale Magna via",
+          "text": "La première mention écrite de Malacky est liée à un acte du roi de Hongrie André II datant de 1206, qui cite un établissement près du ruisseau Malinský potok. Sa position sur la route commerciale Magna via favorisa son développement ; en 1573, Malacky obtint des droits de marché et le statut de bourg. Après la prise de possession du domaine par la famille Pálffy au XVIIe siècle, la ville devint le centre administratif d’une seigneurie plus vaste puis, en 1885, le chef-lieu d’un district. Le 4 avril 1945, elle fut libérée par les troupes du 2e Front ukrainien."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le manoir des Pálffy et son parc",
+          "text": "Le manoir des Pálffy devint la résidence représentative de la famille après l’acquisition de la seigneurie de Plavecké par Pavol Pálffy en 1622, puis sa pleine prise de possession en 1634. Le bâtiment fut construit dans la première moitié du XVIIe siècle et profondément remanié dans le style néoclassique en 1807–1808. Le jardin baroque d’origine fut transformé en vaste parc paysager à l’anglaise ; la cour abrite un puits restauré surmonté d’un cerf, animal héraldique des Pálffy. Le manoir servit ensuite aussi de pensionnat franciscain, d’entrepôt militaire et d’hôpital."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le monastère noir : ensemble franciscain, Escalier saint et cryptes",
+          "text": "Le monastère franciscain de Malacky fut créé par la transformation d’une ancienne résidence seigneuriale, entreprise par Pavol Pálffy en 1624. L’église de l’Immaculée-Conception fut achevée en 1653 et offerte par les Pálffy à l’ordre franciscain. Le nom de monastère noir rappelle l’aspect sombre originel de l’église. Dans la partie sud-ouest du sanctuaire se trouve la chapelle de l’Escalier saint, avec 27 marches et des reliques ; sous l’église se trouvent des cryptes où furent inhumés des franciscains et des membres de la famille Pálffy. L’ensemble compte parmi les principaux monuments religieux de la région de Záhorie."
+        },
+        {
+          "id": "fact_004",
+          "title": "La synagogue de style mauresque et l’ancienne communauté juive",
+          "text": "La synagogue de Malacky est un témoignage remarquable de l’ancienne communauté juive de la ville. L’édifice actuel, de style mauresque, avec deux tours et des arcs outrepassés, fut construit en 1900 d’après les plans de l’architecte viennois Wilhelm Stiassny, à l’emplacement d’une synagogue antérieure de 1886 endommagée par un incendie. La communauté juive de Malacky fut constituée en 1823 et son rabbinat desservait 17 localités voisines. En 1880, 397 Juifs vivaient dans la ville. Avant la Shoah, la communauté comptait environ 300 membres, dont la plupart furent déportés en 1942 dans des camps d’extermination nazis. Le bâtiment abrite aujourd’hui une école d’art et conserve de nombreux éléments architecturaux d’origine."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église paroissiale de la Sainte-Trinité",
+          "text": "L’église de la Sainte-Trinité est l’un des plus anciens bâtiments conservés de Malacky ; ses abords furent l’un des points de départ du noyau historique. Selon l’histoire municipale, elle fut construite en 1600, à l’époque où le domaine appartenait à la famille Balassa et où Malacky possédait une paroisse évangélique et une école. La tour fut ajoutée en 1672. L’église et la petite place voisine devinrent l’un des foyers à partir desquels le bourg se développa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok : un puits du début du VIIIe siècle",
+          "text": "Un puits du haut Moyen Âge fut mis au jour en 1998 dans le quartier de Vinohrádok. La structure en chêne fut datée par dendrochronologie des environs de 714–715. L’ensemble comprenait de la céramique et des restes archéobotaniques, notamment des pépins de raisin. L’étude scientifique précise que ces pépins ne suffisent pas à prouver une viticulture locale ; la découverte constitue néanmoins un témoignage important du milieu agricole du haut Moyen Âge et contribue au débat scientifique sur les débuts de la viticulture dans le sud-ouest de la Slovaquie."
+        },
+        {
+          "id": "fact_007",
+          "title": "La distillerie des Pálffy à Vinohrádok",
+          "text": "Vinohrádok, à la limite sud de Malacky, conserve la trace d’une ancienne exploitation agricole des Pálffy. La ferme est attestée en 1885 ; la distillerie, initialement reliée à un moulin près du ruisseau Malina, fut créée vers 1917. Après 1930, elle passa à une coopérative agricole qui transformait principalement des pommes de terre en alcool ; la coopérative associa ensuite la production à un moulin et à une installation de séchage. Le 31 décembre 2019, l’Office des monuments déclara l’ancienne distillerie monument culturel national en raison de ses valeurs historique, sociale, urbanistique, architecturale et technique."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le musée Michal Tillner et la culture de Záhorie",
+          "text": "Le musée Michal Tillner fut fondé en 1975 à l’initiative du peintre académique Michal Tillner. Il se trouvait d’abord dans un ancien moulin à eau restauré ; après une procédure de restitution et le déplacement des collections, une nouvelle exposition ouvrit en 2006 dans le centre culturel municipal de la rue Záhorácka. Les collections sont principalement ethnographiques et présentent l’histoire de Malacky, les métiers, la vie quotidienne et la culture populaire du sud de Záhorie. Une place centrale est accordée à la Záhorácka izba, reconstitution d’un intérieur rural traditionnel avec meubles peints, coffres et céramiques."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek : un écrivain lié à Malacky",
+          "text": "L’écrivain et publiciste Ľudo Zúbek naquit à Malacky en 1907. Il travailla comme journaliste, rédacteur et professionnel de la radio et se fit connaître par ses récits historiques et sa littérature pour la jeunesse ; le roman Jar Adely Ostrolúckej compte parmi ses œuvres connues. Son lien avec sa ville natale est rappelé par la maison commémorative et la plaque du 3, rue Sládkovičova, inscrites comme monument culturel national."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer : photographe de la cour impériale né à Malacky",
+          "text": "Viktor Angerer naquit à Malacky le 3 octobre 1839, fils d’un fonctionnaire de la maison Pálffy. En 1862, il ouvrit un atelier photographique à Vienne et devint par la suite l’un des photographes de la cour impériale. Outre les portraits, il réalisa des reproductions d’œuvres d’art et exposa à Vienne ainsi qu’à l’étranger. Il mourut le 10 avril 1894. Son parcours montre que Malacky a vu naître des personnalités qui se sont également illustrées dans la vie culturelle de la monarchie des Habsbourg."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Malacky e palazzo dei Pálffy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky sulla via commerciale Magna via",
+          "text": "La prima menzione scritta di Malacky è collegata a un atto del re d’Ungheria Andrea II del 1206, che cita un insediamento presso il torrente Malinský potok. La posizione lungo la via commerciale Magna via favorì lo sviluppo del centro; nel 1573 Malacky ottenne i diritti di mercato e lo status di borgo. Dopo il passaggio della signoria alla famiglia Pálffy nel XVII secolo, la città divenne il centro amministrativo di un dominio più ampio e, nel 1885, anche capoluogo distrettuale. Il 4 aprile 1945 fu liberata dalle truppe del 2º Fronte ucraino."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il palazzo dei Pálffy e il parco",
+          "text": "Il palazzo dei Pálffy divenne la residenza rappresentativa della famiglia dopo che Pavol Pálffy acquisì la signoria di Plavecké nel 1622 e ne ottenne la piena proprietà nel 1634. L’edificio fu costruito nella prima metà del XVII secolo e profondamente rimaneggiato in stile neoclassico nel 1807–1808. Il giardino barocco originario si trasformò in un vasto parco paesaggistico all’inglese; nel cortile si trova un pozzo restaurato con un cervo, animale araldico dei Pálffy. In seguito il palazzo fu utilizzato anche come collegio francescano, magazzino militare e ospedale."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il monastero nero: complesso francescano, Scala Santa e cripte",
+          "text": "Il monastero francescano di Malacky nacque dalla trasformazione di un’antica residenza signorile, avviata da Pavol Pálffy nel 1624. La chiesa dell’Immacolata Concezione fu completata nel 1653 e donata dai Pálffy all’ordine francescano. Il nome di monastero nero ricorda l’aspetto originariamente scuro della chiesa. Nella parte sud-occidentale del tempio si trova la cappella della Scala Santa, con 27 gradini e reliquie; sotto la chiesa si trovano cripte in cui furono sepolti francescani e membri della famiglia Pálffy. Il complesso è uno dei principali monumenti religiosi della regione di Záhorie."
+        },
+        {
+          "id": "fact_004",
+          "title": "La sinagoga in stile moresco e l’antica comunità ebraica",
+          "text": "La sinagoga di Malacky è una testimonianza significativa dell’antica comunità ebraica della città. L’edificio attuale, in stile moresco con due torri e archi a ferro di cavallo, fu costruito nel 1900 su progetto dell’architetto viennese Wilhelm Stiassny, sul sito di una sinagoga precedente del 1886 danneggiata da un incendio. La comunità ebraica di Malacky fu costituita nel 1823 e il rabbinato locale serviva 17 comuni vicini. Nel 1880 in città vivevano 397 ebrei. Prima dell’Olocausto la comunità contava circa 300 membri, la maggior parte dei quali fu deportata nel 1942 nei campi di sterminio nazisti. Oggi l’edificio ospita una scuola d’arte e conserva numerosi elementi architettonici originali."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa parrocchiale della Santissima Trinità",
+          "text": "La chiesa della Santissima Trinità è uno degli edifici più antichi conservati a Malacky; i suoi dintorni furono uno dei punti da cui si sviluppò il nucleo storico. Secondo la storia municipale, fu costruita nel 1600, quando la signoria apparteneva alla famiglia Balassa e a Malacky operavano una parrocchia evangelica e una scuola. La torre fu aggiunta nel 1672. La chiesa e la piccola piazza vicina divennero uno dei centri da cui si sviluppò il resto dell’abitato."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: un pozzo dell’inizio dell’VIII secolo",
+          "text": "Nel quartiere di Vinohrádok fu scavato nel 1998 un pozzo altomedievale, la cui struttura in quercia è stata datata con la dendrocronologia intorno al 714–715. Il complesso dei reperti comprendeva ceramiche e resti archeobotanici, tra cui semi d’uva. Lo studio scientifico precisa che i semi da soli non dimostrano la coltivazione locale della vite; il ritrovamento costituisce tuttavia una testimonianza importante dell’ambiente agricolo altomedievale e contribuisce al dibattito scientifico sulle origini della viticoltura nella Slovacchia sud-occidentale."
+        },
+        {
+          "id": "fact_007",
+          "title": "La distilleria dei Pálffy a Vinohrádok",
+          "text": "Vinohrádok, all’estremità meridionale di Malacky, conserva le tracce di un’antica azienda agricola dei Pálffy. La tenuta è documentata nel 1885; la distilleria, originariamente collegata a un mulino presso il torrente Malina, fu costruita intorno al 1917. Dopo il 1930 passò a una cooperativa di agricoltori che lavorava soprattutto patate per produrre alcol; in seguito la cooperativa affiancò alla produzione un mulino e un impianto di essiccazione. Il 31 dicembre 2019 l’Ufficio dei monumenti dichiarò l’ex distilleria monumento culturale nazionale per il suo valore storico, sociale, urbanistico, architettonico e tecnico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Il Museo Michal Tillner e la cultura di Záhorie",
+          "text": "Il Museo Michal Tillner fu fondato nel 1975 su iniziativa del pittore accademico Michal Tillner. In origine era ospitato in un vecchio mulino ad acqua restaurato; dopo una restituzione immobiliare e il trasferimento delle collezioni, nel 2006 fu aperta una nuova esposizione nell’edificio del centro culturale municipale in via Záhorácka. Le collezioni sono soprattutto etnografiche e raccontano la storia di Malacky, i mestieri, la vita quotidiana e la cultura popolare della Záhorie meridionale. Una sezione centrale è la Záhorácka izba, ricostruzione di un interno rurale tradizionale con mobili dipinti, cassapanche e ceramiche."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: uno scrittore legato a Malacky",
+          "text": "Lo scrittore e pubblicista Ľudo Zúbek nacque a Malacky nel 1907. Lavorò come giornalista, redattore e collaboratore radiofonico e divenne noto per la prosa storica e la letteratura per ragazzi; tra le sue opere conosciute figura il romanzo Jar Adely Ostrolúckej. Il suo legame con la città natale è ricordato dalla casa commemorativa e dalla targa al numero 3 di via Sládkovičova, registrate come monumento culturale nazionale."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: fotografo di corte imperiale nato a Malacky",
+          "text": "Viktor Angerer nacque a Malacky il 3 ottobre 1839, figlio di un funzionario della famiglia Pálffy. Nel 1862 aprì uno studio fotografico a Vienna e in seguito divenne uno dei fotografi di corte imperiali. Oltre ai ritratti realizzò riproduzioni di opere d’arte ed espose a Vienna e all’estero. Morì il 10 aprile 1894. La sua carriera dimostra che Malacky diede i natali a personalità che si distinsero anche nella vita culturale della monarchia asburgica."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Malacky en het Pálffy-landhuis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Malacky aan de handelsroute Magna via",
+          "text": "De eerste schriftelijke vermelding van Malacky hangt samen met een oorkonde uit 1206 van de Hongaarse koning Andreas II, waarin een nederzetting bij de beek Malinský potok wordt genoemd. De ligging aan de handelsroute Magna via bevorderde de ontwikkeling van de plaats; in 1573 kreeg Malacky marktrechten en de status van marktplaats. Nadat de familie Pálffy in de 17e eeuw het landgoed had overgenomen, werd de stad het bestuurscentrum van een groter domein en in 1885 ook districtshoofdstad. Op 4 april 1945 werd Malacky bevrijd door troepen van het 2e Oekraïense Front."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het Pálffy-landhuis en het kasteelpark",
+          "text": "Het Pálffy-landhuis werd de representatieve residentie van de familie nadat Pavol Pálffy in 1622 het domein Plavecké had verworven en er in 1634 volledig eigenaar van werd. Het gebouw werd in de eerste helft van de 17e eeuw opgetrokken en in 1807–1808 ingrijpend in neoclassicistische stijl verbouwd. De oorspronkelijke baroktuin veranderde in een uitgestrekt Engels landschapspark; op de binnenplaats staat een gerestaureerde waterput met een hert, het heraldische dier van de familie Pálffy. Later diende het landhuis ook als internaat van de franciscanen, militair magazijn en ziekenhuis."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Zwarte Klooster: franciscanencomplex, Heilige Trappen en crypten",
+          "text": "Het franciscanenklooster in Malacky ontstond door de verbouwing van een oudere adellijke residentie, waarmee Pavol Pálffy in 1624 begon. De kerk van de Onbevlekte Ontvangenis werd in 1653 voltooid en door de Pálffy’s aan de franciscaanse orde geschonken. De naam Zwart Klooster verwijst naar het oorspronkelijk donkere uiterlijk van de kerk. In het zuidwestelijke deel bevindt zich de kapel van de Heilige Trappen met 27 treden en relieken; onder de kerk liggen crypten waar franciscanen en leden van de familie Pálffy werden begraven. Het complex behoort tot de belangrijkste religieuze monumenten van de regio Záhorie."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Moorse synagoge en de voormalige Joodse gemeenschap",
+          "text": "De synagoge van Malacky is een markant overblijfsel van de vroegere Joodse gemeenschap. Het huidige gebouw in Moorse stijl, met twee torens en hoefijzerbogen, werd in 1900 gebouwd naar ontwerp van de Weense architect Wilhelm Stiassny, op de plek van een oudere synagoge uit 1886 die door brand was beschadigd. De Joodse gemeente van Malacky werd in 1823 opgericht en het plaatselijke rabbinaat verzorgde de religieuze zaken van 17 omliggende gemeenten. In 1880 woonden er 397 Joden in de stad. Voor de Holocaust telde de gemeenschap ongeveer 300 leden; de meesten van hen werden in 1942 naar nazi-vernietigingskampen gedeporteerd. Het gebouw huisvest tegenwoordig een kunstschool en heeft veel oorspronkelijke architectonische details behouden."
+        },
+        {
+          "id": "fact_005",
+          "title": "De parochiekerk van de Heilige Drie-eenheid",
+          "text": "De kerk van de Heilige Drie-eenheid is een van de oudste bewaard gebleven gebouwen in Malacky; de omgeving vormde een van de uitgangspunten van de historische stadskern. Volgens de gemeentelijke geschiedschrijving werd de kerk in 1600 gebouwd, toen de familie Balassa het domein bezat en er in Malacky een evangelische parochie en school waren. De toren werd in 1672 toegevoegd. De kerk en het kleine plein ernaast werden een van de centra van waaruit de plaats zich verder ontwikkelde."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohrádok: een waterput uit het begin van de 8e eeuw",
+          "text": "In het stadsdeel Vinohrádok werd in 1998 een vroegmiddeleeuwse waterput opgegraven. Dendrochronologisch onderzoek dateerde de eiken constructie rond 714–715. Het vondstcomplex bevatte aardewerk en archeobotanische resten, waaronder druivenpitten. De wetenschappelijke analyse benadrukt dat de pitten op zichzelf geen lokale wijnbouw bewijzen; de vondst is niettemin belangrijk bewijs voor het vroegmiddeleeuwse agrarische milieu en draagt bij aan het wetenschappelijke debat over het ontstaan van de wijnbouw in het zuidwesten van Slowakije."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Pálffy-distilleerderij in Vinohrádok",
+          "text": "Vinohrádok, aan de zuidelijke rand van Malacky, bewaart sporen van een voormalige Pálffy-landbouwhoeve. De hoeve wordt in 1885 vermeld; de distilleerderij, oorspronkelijk verbonden met een molen bij de beek Malina, ontstond rond 1917. Na 1930 nam een landbouwcoöperatie de installatie over en verwerkte vooral aardappelen tot alcohol; later combineerde de coöperatie de productie met een molen en drooginstallatie. Op 31 december 2019 verklaarde het Monumentenbureau de voormalige distilleerderij tot nationaal cultureel monument vanwege haar historische, maatschappelijke, stedenbouwkundige, architectonische en technische waarde."
+        },
+        {
+          "id": "fact_008",
+          "title": "Het Michal Tillner Museum en de cultuur van Záhorie",
+          "text": "Het Michal Tillner Museum werd in 1975 opgericht op initiatief van de academische schilder Michal Tillner. Aanvankelijk was het gevestigd in een gerestaureerde watermolen; na een restitutieprocedure en de verplaatsing van de collecties opende in 2006 een nieuwe tentoonstelling in het gemeentelijk cultureel centrum aan de Záhorácka-straat. De collecties zijn hoofdzakelijk etnografisch en belichten de geschiedenis van Malacky, ambachten, het dagelijks leven en de volkscultuur van zuidelijk Záhorie. Een belangrijk onderdeel is de Záhorácka izba, een reconstructie van een traditioneel landelijk interieur met beschilderde meubels, kisten en keramiek."
+        },
+        {
+          "id": "fact_009",
+          "title": "Ľudo Zúbek: een schrijver met wortels in Malacky",
+          "text": "De schrijver en publicist Ľudo Zúbek werd in 1907 in Malacky geboren. Hij werkte als journalist, redacteur en radiomedewerker en werd bekend door historische proza en jeugdliteratuur; een van zijn bekende werken is de roman Jar Adely Ostrolúckej. Zijn band met zijn geboorteplaats wordt herdacht met het gedenkhuis en de gedenkplaat op Sládkovičova 3, die als nationaal cultureel monument zijn geregistreerd."
+        },
+        {
+          "id": "fact_010",
+          "title": "Viktor Angerer: in Malacky geboren keizerlijk hof fotograaf",
+          "text": "Viktor Angerer werd op 3 oktober 1839 in Malacky geboren als zoon van een functionaris van de familie Pálffy. In 1862 opende hij een fotostudio in Wenen en later werd hij een van de keizerlijke hof fotografen. Naast portretfotografie maakte hij reproducties van kunstwerken en exposeerde hij in Wenen en daarbuiten. Hij overleed op 10 april 1894. Zijn loopbaan laat zien dat Malacky mensen voortbracht die ook in het culturele leven van de Habsburgse monarchie naam maakten."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
