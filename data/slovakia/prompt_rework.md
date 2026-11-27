@@ -378,10 +378,11 @@ Before saving, compare the seven versions side by side for factual equivalence, 
 
 Prefer primary and official sources, the institution responsible for the subject, the relevant municipality or region, national-park administration, Slovak heritage authority, museums, archives, universities and specialist institutions. Use reputable specialist and regional sources for corroboration and detail.
 
-- Every fact's source URLs must exactly match URLs in the record's top-level `sources` array.
+- Every fact's `sources` array contains source IDs only (for example `s1`, `s2`), each matching exactly one `id` in the top-level `sources` registry.
 - Every source must support the specific claim for which it is cited.
 - A source mentioning only the wider town/region does not prove a specific site's location or a fact's claims.
-- The `location.source` URL must directly support the chosen map point.
+- Each top-level source registry entry contains `id`, `title`, `url` and `type`; do not duplicate registry entries.
+- The `location.source` URL remains a direct URL and must directly support the chosen map point.
 - Use direct, valid and traceable URLs.
 - Never invent facts, citations, source URLs, authors or publication details.
 - Do not collect sources merely to increase their number.
@@ -395,7 +396,7 @@ Use a photo only if it genuinely represents the record or an important fact and 
 
 Follow the exact Slovak schema for every field, required property, type, enum and nullability. Do not add research notes, candidate lists, coverage ledgers, editorial comments or unsupported metadata to production JSON unless the schema explicitly permits them. Keep working notes outside the production record.
 
-Every cited source URL must resolve to a matching top-level `sources[].url`. Every non-null fact location must have the exact required structure and controlled values. Every translation must preserve the corresponding fact identity and order. Do not alter the shared record architecture.
+Every fact-level source ID must resolve to exactly one matching top-level `sources[].id`, whose URL supports the cited claim. Every non-null fact location must have the exact required structure and controlled values. Every translation must preserve the corresponding fact identity and order. Do not alter the shared record architecture.
 
 ## 10. Basic validation, save and completion
 
