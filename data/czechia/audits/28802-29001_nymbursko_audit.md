@@ -55,7 +55,7 @@ Přemysl Otakar II. je zastoupen v souvislosti s Nymburkem a Městcem Králové.
   - 28901, 28931, 28932: redundantní hodnota totožná s `city` odstraněna.
   - 28924: top-level `district` doplněn jako `Mladá`, shodně s JSON.
   - 28941 `Pňov` a 29001 `Poděbrady III` ponechány jako relevantní místní části.
-- `city`, `municipality` a JSON `city` se v kontrolovaném inventáři shodují.
+- `city`, `municipality` a JSON `city` se v kontrolovaném inventáři shodují. Přímé ověření fyzického sídla obsluhující pošty pro všech 31 PSČ proti oficiálnímu provoznímu zdroji však zůstává otevřené; samotná shoda polí není důkazem sídla pošty.
 - Okresy v JSON: Kolín pro 28905, 28911, 28914 a 28941; Nymburk pro ostatní cílová PSČ. Kraj je Středočeský.
 - ČSÚ potvrzuje, že Pečky a Poříčany přešly z okresu Nymburk do okresu Kolín k 1. 1. 1996; Pňov-Předhradí náleží do okresu Kolín.
 
@@ -103,12 +103,16 @@ Délková hranice se vztahuje výhradně na český master text. Tyto položky n
 
 U každého zbývajícího faktu je nutné dohledat konkrétní veřejný orientační bod nebo doloženou přibližnou polohu podle Content Standardu. Pokud ji nelze bezpečně určit, ponechat `null` a uvést důvod.
 
-### C. Sémantická revize překladů
+### C. Ověření sídla obsluhující pošty
+- Pole `city` je interně konzistentní s `municipality` a JSON `city`, ale fyzické sídlo obsluhující pošty nebylo nezávisle doloženo pro všech 31 kódů. Ověřit oficiální provozní zdroj; neměnit `city` jen podle doručovací trasy nebo sídla jiné pošty.
+
+### D. Sémantická revize překladů
 - Struktura a shoda ID ve všech sedmi jazycích byla zkontrolována.
 - Zbývá individuální sémantická kontrola cizojazyčných textů `de, en, es, fr, it, nl` pro všech 253 faktů (1 518 položek); stylistické přepisování správných překladů není cílem.
 
 ## 5. Technický stav a životní cyklus
 
+- Všech 31 záznamů má `status='validated'`: 26× `data_version=1`, 4× `data_version=2`, 1× `data_version=3`; žádný záznam není publikovaný.
 - Vybrané mapové body byly načteny pouze podle ID cílových PSČ; pro tento blok nebyl nalezen žádný záznam v `explorer_map_points`. Záznamy jsou nyní ve validačním, nikoli publikovaném stavu; mapový sync je proto ponechán na publikační workflow.
 - Nebyla provedena změna `data_version` ani `status`.
 - Nebyla spuštěna záloha, publikace, Neon import ani read-only lock.
