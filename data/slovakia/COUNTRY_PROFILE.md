@@ -118,7 +118,7 @@ These are research leads, not mandatory quotas or permission to force a theme in
 
 ## Sources and verification
 
-Attach source IDs to the facts they support and define those sources in the record's top-level `sources` array, following the schema. A fact's `location.source` is separate evidence for its geographic point and must support that point.
+Attach source IDs (for example `s1`, `s2`) to the facts they support and define each source once in the record's top-level `sources` registry using `id`, `title`, `url` and `type`, following the schema. `facts[].sources` contains IDs, not URLs. A fact's `location.source` is separate evidence for its geographic point and remains a direct URL that must support that point.
 
 Use primary and official sources wherever possible. Prefer the institution responsible for the site, the relevant municipality or regional authority, the relevant national-park administration, the Slovak heritage authority, a museum, archive or university. Use reputable specialist and regional sources to add detail or corroborate information. General tourism pages may help discover a lead but should not be the sole evidence for a consequential historical or geographic claim when stronger sources exist.
 
