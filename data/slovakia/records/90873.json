@@ -4,14 +4,14 @@
   "district": null,
   "county": "Malacky",
   "state": "Bratislavský kraj",
-  "representative_place": "centrum Veľkých Levár – okolie Kostola Mena Panny Márie",
+  "representative_place": "Habánsky dvor, Veľké Leváre",
   "representative_point": {
-    "lat": 48.500831,
-    "lon": 17.0023
+    "lat": 48.501202,
+    "lon": 16.99417
   },
   "access_point": {
-    "lat": 48.500831,
-    "lon": 17.0023
+    "lat": 48.501202,
+    "lon": 16.99417
   },
   "facts": [
     {
@@ -100,22 +100,147 @@
         "source": "https://poi.oma.sk/w73748634",
         "address": "č. 841, Veľké Leváre, 908 73"
       }
+    },
+    {
+      "id": "fact_005",
+      "title": "Habánská kaple – stopa rekatolizace novokřtěnců",
+      "text": "Část velkého habánského domu byla během rekatolizace roku 1760 upravena na barokní kapli pro členy komunity, kteří přestoupili od anabaptismu ke katolictví. Kaple Navštívení Panny Marie byla požehnána 2. července 1767. Zasvěcení připomíná biblické setkání Panny Marie s Alžbětou a svátek požehnání se stal základem místních habánských hodů. Kaple měla vlastní liturgické vybavení a zvon ve věžičce; její obnova proběhla mimo jiné roku 1841 a v letech 2006–2007. Je důležitým dokladem proměny původně uzavřené náboženské komunity pod tlakem rekatolizace.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s9",
+        "s1"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Habánsky dvor – orientační poloha Habánské kaple",
+        "lat": 48.50177,
+        "lon": 16.994219,
+        "type": "chapel",
+        "accuracy": "area_representative",
+        "source": "https://farnost.velkelevare.info/historia/habanska-kaplnka/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Barokní pranýř – stĺp hanby",
+      "text": "Barokní pranýř, slovensky Stĺp hanby, pochází přibližně ze začátku 18. století. Kovová ruka s mečem na vrcholu symbolizovala takzvané právo meče – pravomoc soudit závažné zločiny a ukládat i trest smrti. Za menší přestupky byli provinilci veřejně vystavováni na pranýři, aby byli zostuzeni a jejich trest odrazoval ostatní. Proto stál na hlavní ulici před katolickým kostelem. Od roku 1963 je národní kulturní památkou; odborná obnova proběhla v roce 2023.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s10",
+        "s1"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Stĺp hanby – před kostelem Mena Panny Márie (přibližná poloha)",
+        "lat": 48.50095,
+        "lon": 17.0023,
+        "type": "historic_monument",
+        "accuracy": "approximate",
+        "source": "https://www.levare.sk/novinky/zacali-sme-obnovu-barokoveho-praniera",
+        "address": "Ulica SNP, Veľké Leváre, Slovakia"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Abrod – chráněné mokřady Záhorské nížiny",
+      "text": "Na severu katastru Veľkých Levár leží Abrod, cenná mokřadní lokalita panonského biogeografického regionu. Evropsky významné území má rozlohu přibližně 165 hektarů a chrání mokřadní louky, slatiny a nížinné vodní toky. Mezi chráněné druhy patří kuňka červenobřichá, bobr evropský, roháč obecný a vzácní motýli. Abrod představuje mimořádně cennou přírodní složku krajiny Záhoří a dokládá, že dědictví obce netvoří pouze její architektura a historie, ale také citlivé mokřadní ekosystémy.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s11",
+        "s12"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Abrod – reprezentativní bod chráněného území",
+        "lat": 48.5325,
+        "lon": 16.99611111,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/147",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Mlýny na Rudavě a zaniklá vodní technika",
+      "text": "Potok Rudava po staletí poháněl hospodářské provozy Veľkých Levár. Urbář panství z roku 1595 zmiňuje dva mlýny; později zde pracovaly další mlýny, pila a brusírna zvaná šlauférňa, kde se brousily nože, kosy a nářadí. U pily byla roku 1919 zřízena vodní elektrárna. Dopjerův mlýn na Kaniži koupil roku 1921 jeho dosavadní nájemce Ján Dopjera; mlýn měl ve 30. letech vodní kolo a roku 1977 vyhořel. Zaniklé provozy připomínají význam vody pro řemesla a místní ekonomiku.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s1",
+        "s13"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Bývalý Dopjerův vodní mlýn",
+        "lat": 48.500361,
+        "lon": 16.993028,
+        "type": "historic_mill",
+        "accuracy": "approximate",
+        "source": "https://www.vodnemlyny.sk/mlyny/estates/detail/1105",
+        "address": "Veľké Leváre 88, Slovakia"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Historický přívoz přes řeku Moravu",
+      "text": "Přechod přes Moravu u Veľkých Levár je doložen nejméně od středověku. Zpráva z roku 1378 zmiňuje činnost v prostoru pozdějšího přívozu; první přímý doklad o přepravě na kompe pochází z roku 1646. Přívoz spojoval slovenský břeh s rakouskými obcemi Drösing, Sierndorf a Jedenspeigen. Podle dokumentu z let 1887–1888 se na kompu vešlo přibližně 190 osob, 16 koní nebo čtyři povozy. Po roce 1918 provoz omezila nová státní hranice a nutnost cestovních dokladů. Přívoz definitivně zanikl roku 1948.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s1"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Morava – orientační bod prostoru historického přívozu",
+        "lat": 48.535,
+        "lon": 16.975,
+        "type": "historic_waterway",
+        "accuracy": "historical_approximate",
+        "source": "https://www.levare.sk/o-obci/informacie-o-obci/historia/historia-obce",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Anton Štefánek – rodák a zakladatel slovenské sociologie",
+      "text": "Ve Veľkých Levárech se 15. dubna 1877 narodil Anton Štefánek, významný slovenský politik, publicista a sociolog. Po studiích ve Vídni působil v novinářském a politickém prostředí Uherska a meziválečného Československa. Po roce 1918 se podílel na organizaci školství na Slovensku a roku 1929 krátce zastával funkci ministra školství a národní osvěty. Od roku 1937 přednášel aplikovanou sociologii na Univerzitě Komenského v Bratislavě a v letech 1945–1946 byl jejím rektorem. Je považován za zakladatele slovenské sociologie.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "s14",
+        "s15"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Veľké Leváre – orientační bod obce, nikoli přesné rodiště",
+        "lat": 48.500831,
+        "lon": 17.0023,
+        "type": "historic_settlement",
+        "accuracy": "historical_approximate",
+        "source": "https://www.zahorskemuzeum.sk/en/stefanek-anton-dr-15-4-1877-velke-levare-29-4-1964-ziar-nad-hronom/",
+        "address": null
+      }
     }
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ; obec Veľké Leváre uvádza adresu obecného úradu 908 73 a verejné obecné záznamy priraďujú Habánsky dvor k tejto obci.",
+    "plz_source": "Slovenská pošta – Zoznam vybraných pôšt na predaj eKolkov k 15.04.2023 uvádza Veľké Leváre s PSČ 90873; obecný úrad Veľké Leváre uvádza fyzickú adresu 908 73.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": null,
-    "postcode_source_release": null,
+    "postcode_source_dataset": "Zoznam vybraných pôšt na predaj eKolkov",
+    "postcode_source_release": "15.04.2023",
     "postcode_source_checked_at": "2026-11-27",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
     "delivery_office_note": null,
     "postcode_override_reason": null,
-    "geographic_authority": "Obec Veľké Leváre; Pamiatkový úrad SR; oficiálne administratívne údaje Bratislavského kraja a okresu Malacky."
+    "geographic_authority": "Oficiální seznam Úradu pre územné plánovanie a výstavbu SR potvrzuje okres Malacky a Bratislavský kraj; polohy jednotlivých faktů jsou doloženy obecními, památkovými a odbornými geografickými zdroji. RAGEO nebylo použito k odvozování úplného pokrytí PSČ."
   },
   "sources": [
     {
@@ -165,11 +290,53 @@
       "title": "OMA – Evanjelický a. v. kostol, Veľké Leváre",
       "url": "https://poi.oma.sk/w73748634",
       "type": "other"
+    },
+    {
+      "id": "s9",
+      "title": "Farnosť Veľké Leváre – Habánska kaplnka",
+      "url": "https://farnost.velkelevare.info/historia/habanska-kaplnka/",
+      "type": "primary"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Veľké Leváre – Začali sme obnovu barokového praniera",
+      "url": "https://www.levare.sk/novinky/zacali-sme-obnovu-barokoveho-praniera",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Štátny geoportál biomonitoring – Abrod",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/147",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Veľké Leváre – územnoplánovací dokument Natura 2000",
+      "url": "https://www.levare.sk/files/documents/strategicke-dokumenty/navrh-zad-up-c.2/oznamenie_o_sd_upn-o_velke_levare_2_2024.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Databáza vodných mlynov na Slovensku – Dopjerov vodný mlyn",
+      "url": "https://www.vodnemlyny.sk/mlyny/estates/detail/1105",
+      "type": "specialist"
+    },
+    {
+      "id": "s14",
+      "title": "Záhorské múzeum – Anton Štefánek",
+      "url": "https://www.zahorskemuzeum.sk/en/stefanek-anton-dr-15-4-1877-velke-levare-29-4-1964-ziar-nad-hronom/",
+      "type": "museum"
+    },
+    {
+      "id": "s15",
+      "title": "Sociologická encyklopedie – Anton Štefánek",
+      "url": "https://encyklopedie.soc.cas.cz/w/%C5%A0tef%C3%A1nek_Anton",
+      "type": "university"
     }
   ],
   "translations": {
     "cs": {
-      "representative_place": "centrum Veľkých Levár – okolie Kostola Mena Panny Márie",
+      "representative_place": "Habánsky dvor, Veľké Leváre",
       "facts": [
         {
           "id": "fact_001",
@@ -190,6 +357,36 @@
           "id": "fact_004",
           "title": "Evangelický kostel a svědectví náboženské plurality",
           "text": "Evangelická komunita ve Veľkých Levárech začala svůj kostel stavět roku 1787 a dokončila jej v roce 1790; slavnostní posvěcení se konalo roku 1791. Budova připomíná dlouhou přítomnost evangelíků v obci, kde vedle katolické a habánské školy působila také evangelická škola. Kostel v roce 1823 poškodil požár, po němž byl opraven. Původně stál bez věže; samostatná dřevěná zvonice byla nahrazena věží přistavěnou v roce 1938. Za druhé světové války byl kostel poškozen a následně rekonstruován."
+        },
+        {
+          "id": "fact_005",
+          "title": "Habánská kaple – stopa rekatolizace novokřtěnců",
+          "text": "Část velkého habánského domu byla během rekatolizace roku 1760 upravena na barokní kapli pro členy komunity, kteří přestoupili od anabaptismu ke katolictví. Kaple Navštívení Panny Marie byla požehnána 2. července 1767. Zasvěcení připomíná biblické setkání Panny Marie s Alžbětou a svátek požehnání se stal základem místních habánských hodů. Kaple měla vlastní liturgické vybavení a zvon ve věžičce; její obnova proběhla mimo jiné roku 1841 a v letech 2006–2007. Je důležitým dokladem proměny původně uzavřené náboženské komunity pod tlakem rekatolizace."
+        },
+        {
+          "id": "fact_006",
+          "title": "Barokní pranýř – stĺp hanby",
+          "text": "Barokní pranýř, slovensky Stĺp hanby, pochází přibližně ze začátku 18. století. Kovová ruka s mečem na vrcholu symbolizovala takzvané právo meče – pravomoc soudit závažné zločiny a ukládat i trest smrti. Za menší přestupky byli provinilci veřejně vystavováni na pranýři, aby byli zostuzeni a jejich trest odrazoval ostatní. Proto stál na hlavní ulici před katolickým kostelem. Od roku 1963 je národní kulturní památkou; odborná obnova proběhla v roce 2023."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod – chráněné mokřady Záhorské nížiny",
+          "text": "Na severu katastru Veľkých Levár leží Abrod, cenná mokřadní lokalita panonského biogeografického regionu. Evropsky významné území má rozlohu přibližně 165 hektarů a chrání mokřadní louky, slatiny a nížinné vodní toky. Mezi chráněné druhy patří kuňka červenobřichá, bobr evropský, roháč obecný a vzácní motýli. Abrod představuje mimořádně cennou přírodní složku krajiny Záhoří a dokládá, že dědictví obce netvoří pouze její architektura a historie, ale také citlivé mokřadní ekosystémy."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mlýny na Rudavě a zaniklá vodní technika",
+          "text": "Potok Rudava po staletí poháněl hospodářské provozy Veľkých Levár. Urbář panství z roku 1595 zmiňuje dva mlýny; později zde pracovaly další mlýny, pila a brusírna zvaná šlauférňa, kde se brousily nože, kosy a nářadí. U pily byla roku 1919 zřízena vodní elektrárna. Dopjerův mlýn na Kaniži koupil roku 1921 jeho dosavadní nájemce Ján Dopjera; mlýn měl ve 30. letech vodní kolo a roku 1977 vyhořel. Zaniklé provozy připomínají význam vody pro řemesla a místní ekonomiku."
+        },
+        {
+          "id": "fact_009",
+          "title": "Historický přívoz přes řeku Moravu",
+          "text": "Přechod přes Moravu u Veľkých Levár je doložen nejméně od středověku. Zpráva z roku 1378 zmiňuje činnost v prostoru pozdějšího přívozu; první přímý doklad o přepravě na kompe pochází z roku 1646. Přívoz spojoval slovenský břeh s rakouskými obcemi Drösing, Sierndorf a Jedenspeigen. Podle dokumentu z let 1887–1888 se na kompu vešlo přibližně 190 osob, 16 koní nebo čtyři povozy. Po roce 1918 provoz omezila nová státní hranice a nutnost cestovních dokladů. Přívoz definitivně zanikl roku 1948."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek – rodák a zakladatel slovenské sociologie",
+          "text": "Ve Veľkých Levárech se 15. dubna 1877 narodil Anton Štefánek, významný slovenský politik, publicista a sociolog. Po studiích ve Vídni působil v novinářském a politickém prostředí Uherska a meziválečného Československa. Po roce 1918 se podílel na organizaci školství na Slovensku a roku 1929 krátce zastával funkci ministra školství a národní osvěty. Od roku 1937 přednášel aplikovanou sociologii na Univerzitě Komenského v Bratislavě a v letech 1945–1946 byl jejím rektorem. Je považován za zakladatele slovenské sociologie."
         }
       ]
     },
@@ -215,6 +412,36 @@
           "id": "fact_004",
           "title": "Evangelische Kirche und Zeugnis religiöser Vielfalt",
           "text": "Die evangelische Gemeinde von Veľké Leváre begann 1787 mit dem Bau ihrer Kirche und vollendete ihn 1790; die feierliche Weihe fand 1791 statt. Das Gebäude erinnert an die lange Präsenz der Evangelischen im Ort, wo neben katholischen und hutterischen Schulen auch eine evangelische Schule bestand. 1823 wurde die Kirche durch einen Brand beschädigt und anschließend repariert. Ursprünglich hatte sie keinen Turm; ein freistehender hölzerner Glockenturm wurde 1938 durch einen angebauten Turm ersetzt. Während des Zweiten Weltkriegs erlitt die Kirche Schäden und wurde danach renoviert."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Habaner-Kapelle – ein Zeugnis der Rekatholisierung",
+          "text": "Ein Teil des großen Habanerhauses wurde während der Rekatholisierung um 1760 zu einer Barockkapelle für Mitglieder der Gemeinschaft umgebaut, die zum Katholizismus übergetreten waren. Die Kapelle Mariä Heimsuchung wurde am 2. Juli 1767 gesegnet. Das Datum wurde zur Grundlage des örtlichen Habaner-Kirchweihfestes. Die Kapelle besaß eine eigene liturgische Ausstattung und eine Glocke im Dachreiter; Restaurierungen erfolgten unter anderem 1841 und 2006–2007. Sie dokumentiert den Wandel der ursprünglich abgeschlossenen Glaubensgemeinschaft unter dem Druck der Rekatholisierung."
+        },
+        {
+          "id": "fact_006",
+          "title": "Der barocke Pranger – Stĺp hanby",
+          "text": "Der barocke Pranger stammt vermutlich aus dem frühen 18. Jahrhundert. Eine metallene Hand mit Schwert symbolisierte das Schwertrecht und damit die Gerichtsbarkeit über schwere Verbrechen einschließlich der Todesstrafe. Bei kleineren Vergehen wurden Schuldige öffentlich zur Schau gestellt. Deshalb stand der Pranger an der Hauptstraße vor der katholischen Kirche. Seit 1963 ist er nationales Kulturdenkmal; 2023 wurde er fachgerecht restauriert."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod – geschützte Feuchtgebiete des Záhorie-Tieflands",
+          "text": "Im Norden des Gemeindegebiets von Veľké Leváre liegt Abrod, ein wertvolles Feuchtgebiet der pannonischen biogeografischen Region. Das europäisch bedeutsame Gebiet umfasst etwa 165 Hektar und schützt Feuchtwiesen, Niedermoore und naturnahe Wasserläufe. Zu den geschützten Arten zählen Rotbauchunke, Biber, Hirschkäfer und seltene Schmetterlinge. Abrod zeigt, dass zum Erbe der Gemeinde neben Architektur und Geschichte auch empfindliche Feuchtökosysteme gehören."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mühlen an der Rudava und verschwundene Wassertechnik",
+          "text": "Der Bach Rudava trieb über Jahrhunderte die Wirtschaft von Veľké Leváre an. Im Urbar von 1595 werden zwei Mühlen erwähnt; später kamen weitere Mühlen, ein Sägewerk und eine Schleiferei hinzu, in der Messer, Sensen und Werkzeuge geschärft wurden. Beim Sägewerk entstand 1919 ein Wasserkraftwerk. Die Dopjera-Mühle an der Kaniža brannte 1977 nieder. Die verschwundenen Anlagen zeigen die Bedeutung der Wasserkraft für Handwerk und lokale Wirtschaft."
+        },
+        {
+          "id": "fact_009",
+          "title": "Die historische Fähre über die March",
+          "text": "Eine Überfahrt über die March bei Veľké Leváre ist seit dem Mittelalter belegt. Eine Quelle von 1378 erwähnt Aktivitäten am späteren Fährplatz; der erste direkte Nachweis einer Fähre stammt von 1646. Sie verband das slowakische Ufer mit Drösing, Sierndorf und Jedenspeigen in Österreich. Laut einem Dokument von 1887–1888 konnte sie etwa 190 Personen, 16 Pferde oder vier Fuhrwerke transportieren. Nach 1918 schränkte die neue Staatsgrenze den Verkehr ein; 1948 wurde die Fähre endgültig eingestellt."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek – ein bedeutender Sohn der Gemeinde",
+          "text": "Anton Štefánek, ein bedeutender slowakischer Politiker, Publizist und Soziologe, wurde am 15. April 1877 in Veľké Leváre geboren. Nach seiner Ausbildung in Wien wirkte er im politischen und journalistischen Leben Ungarns und der Zwischenkriegs-Tschechoslowakei. Nach 1918 half er beim Aufbau des slowakischen Schulwesens und war 1929 kurzzeitig Bildungsminister. Ab 1937 lehrte er angewandte Soziologie an der Comenius-Universität in Bratislava und war 1945–1946 deren Rektor. Er gilt als Begründer der slowakischen Soziologie."
         }
       ]
     },
@@ -240,6 +467,36 @@
           "id": "fact_004",
           "title": "Evangelical church – evidence of religious diversity",
           "text": "The Evangelical community in Veľké Leváre began building its church in 1787 and completed it in 1790; it was consecrated in 1791. The building recalls the long-standing presence of Evangelicals in the village, which also had Catholic and Hutterite schools as well as an Evangelical school. A fire damaged the church in 1823, but it was repaired the following year. It originally had no tower; a separate wooden belfry stood beside it until a tower was added to the church in 1938. The building was damaged during the Second World War and later reconstructed."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Hutterite chapel – a trace of re-Catholicisation",
+          "text": "Part of the large Hutterite house was converted around 1760 into a Baroque chapel for community members who had converted from Anabaptism to Catholicism during re-Catholicisation. The Chapel of the Visitation was blessed on 2 July 1767. The anniversary became the basis of the local Hutterite feast. The chapel had its own liturgical furnishings and a bell in a small roof turret; restoration work took place in 1841 and again in 2006–2007. It is an important record of the transformation of a formerly closed religious community under pressure to convert."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Baroque pillory – Stĺp hanby",
+          "text": "The Baroque pillory probably dates from the early 18th century. A metal hand holding a sword symbolised the right of the sword: jurisdiction over serious crimes, including capital punishment. People convicted of minor offences were publicly exposed to shame. The pillar therefore stood on the main street in front of the Catholic church. It has been a national cultural monument since 1963 and was professionally restored in 2023."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod – protected wetlands of the Záhorie Lowland",
+          "text": "In the north of the cadastral area of Veľké Leváre lies Abrod, a valuable wetland in the Pannonian biogeographical region. This European site covers about 165 hectares and protects wet meadows, alkaline fens and natural lowland streams. Protected species include the fire-bellied toad, Eurasian beaver, stag beetle and rare butterflies. Abrod shows that the municipality’s heritage includes sensitive wetland ecosystems as well as architecture and history."
+        },
+        {
+          "id": "fact_008",
+          "title": "Watermills on the Rudava and vanished water-powered industry",
+          "text": "For centuries the Rudava stream powered local economic activity in Veľké Leváre. The 1595 estate register mentions two mills; later there were more mills, a sawmill and a grinding workshop for knives, scythes and tools. A small hydroelectric plant was established beside the sawmill in 1919. The Dopjera mill on the Kaniža burned down in 1977. These vanished installations show the importance of water power to local crafts and the economy."
+        },
+        {
+          "id": "fact_009",
+          "title": "The historic ferry across the Morava",
+          "text": "A crossing of the Morava near Veľké Leváre is documented since the Middle Ages. A record from 1378 mentions activity at the later ferry site; the first direct evidence of a ferry dates from 1646. It connected the Slovak bank with Drösing, Sierndorf and Jedenspeigen in Austria. A document from 1887–1888 says it could carry about 190 people, 16 horses or four carts. After 1918 the new state border restricted travel, and the ferry finally ceased operating in 1948."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek – a notable son of the village",
+          "text": "Anton Štefánek, an important Slovak politician, publicist and sociologist, was born in Veľké Leváre on 15 April 1877. After studying in Vienna, he became active in the political and journalistic life of Hungary and interwar Czechoslovakia. After 1918 he helped organise education in Slovakia and briefly served as Minister of Education in 1929. From 1937 he taught applied sociology at Comenius University in Bratislava and was its rector in 1945–1946. He is regarded as a founder of Slovak sociology."
         }
       ]
     },
@@ -265,6 +522,36 @@
           "id": "fact_004",
           "title": "Iglesia evangélica: testimonio de la diversidad religiosa",
           "text": "La comunidad evangélica de Veľké Leváre comenzó a construir su iglesia en 1787 y terminó las obras en 1790; fue consagrada en 1791. El edificio recuerda la larga presencia de los evangélicos en el pueblo, donde también existían escuelas católicas y anabaptistas, además de una escuela evangélica. Un incendio dañó la iglesia en 1823, pero fue reparada. Al principio no tenía torre: junto a ella había un campanario de madera independiente, sustituido por una torre adosada en 1938. El templo sufrió daños durante la Segunda Guerra Mundial y fue restaurado posteriormente."
+        },
+        {
+          "id": "fact_005",
+          "title": "La capilla habana: huella de la recatolización",
+          "text": "Una parte de la gran casa habana se adaptó hacia 1760 como capilla barroca para los miembros de la comunidad que se convirtieron al catolicismo durante la recatolización. La capilla de la Visitación fue bendecida el 2 de julio de 1767. El aniversario dio origen a la fiesta local habana. La capilla tenía su propio mobiliario litúrgico y una campana en una pequeña torrecilla; fue restaurada, entre otros años, en 1841 y en 2006–2007. Es un testimonio importante de la transformación de una comunidad religiosa originalmente cerrada bajo la presión de la conversión."
+        },
+        {
+          "id": "fact_006",
+          "title": "La picota barroca: Stĺp hanby",
+          "text": "La picota barroca data probablemente de comienzos del siglo XVIII. Una mano metálica con espada simbolizaba el derecho de espada, es decir, la jurisdicción sobre delitos graves, incluida la pena de muerte. Quienes cometían infracciones menores eran expuestos públicamente a la vergüenza. Por eso la columna se encontraba en la calle principal, frente a la iglesia católica. Es monumento cultural nacional desde 1963 y fue restaurada profesionalmente en 2023."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod: humedales protegidos de la llanura de Záhorie",
+          "text": "Al norte del término catastral de Veľké Leváre se encuentra Abrod, un valioso humedal de la región biogeográfica panónica. Este espacio europeo protegido ocupa unas 165 hectáreas y conserva praderas húmedas, turberas alcalinas y cursos de agua de tierras bajas. Entre las especies protegidas figuran el sapillo de vientre de fuego, el castor europeo, el ciervo volante y mariposas raras. Abrod muestra que el patrimonio del municipio incluye ecosistemas húmedos sensibles, además de arquitectura e historia."
+        },
+        {
+          "id": "fact_008",
+          "title": "Molinos del Rudava y la antigua industria hidráulica",
+          "text": "Durante siglos, el arroyo Rudava proporcionó energía a la economía local de Veľké Leváre. El registro señorial de 1595 ya menciona dos molinos; más tarde hubo otros molinos, un aserradero y un taller de afilado de cuchillos, guadañas y herramientas. Junto al aserradero se instaló una pequeña central hidroeléctrica en 1919. El molino Dopjera, junto al Kaniža, se quemó en 1977. Estas instalaciones desaparecidas muestran la importancia de la energía hidráulica para la artesanía y la economía local."
+        },
+        {
+          "id": "fact_009",
+          "title": "El histórico transbordador sobre el Morava",
+          "text": "El cruce del Morava cerca de Veľké Leváre está documentado desde la Edad Media. Un documento de 1378 menciona actividad en el lugar del futuro transbordador; la primera prueba directa data de 1646. Conectaba la orilla eslovaca con Drösing, Sierndorf y Jedenspeigen, en Austria. Un documento de 1887–1888 indica que podía transportar unas 190 personas, 16 caballos o cuatro carros. Tras 1918 la nueva frontera restringió el paso y el servicio desapareció definitivamente en 1948."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek: una figura destacada nacida en el pueblo",
+          "text": "Anton Štefánek, importante político, publicista y sociólogo eslovaco, nació en Veľké Leváre el 15 de abril de 1877. Tras estudiar en Viena participó en la vida política y periodística de Hungría y de la Checoslovaquia de entreguerras. Después de 1918 contribuyó a organizar la educación en Eslovaquia y fue brevemente ministro de Educación en 1929. Desde 1937 enseñó sociología aplicada en la Universidad Comenius de Bratislava y fue su rector entre 1945 y 1946. Se le considera fundador de la sociología eslovaca."
         }
       ]
     },
@@ -290,6 +577,36 @@
           "id": "fact_004",
           "title": "Église évangélique : témoin de la diversité religieuse",
           "text": "La communauté évangélique de Veľké Leváre commença à construire son église en 1787 et acheva les travaux en 1790 ; l’édifice fut consacré en 1791. Il témoigne de la présence ancienne des évangéliques dans le village, qui possédait aussi des écoles catholique et anabaptiste ainsi qu’une école évangélique. Un incendie endommagea l’église en 1823, mais elle fut réparée. Elle n’avait pas de tour à l’origine : un clocher en bois indépendant se dressait à côté, avant qu’une tour ne soit ajoutée en 1938. L’église fut endommagée pendant la Seconde Guerre mondiale puis restaurée."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chapelle huttérite, témoin de la recatholicisation",
+          "text": "Une partie de la grande maison huttérite fut transformée vers 1760 en chapelle baroque pour les membres de la communauté convertis au catholicisme pendant la recatholicisation. La chapelle de la Visitation fut bénie le 2 juillet 1767. Cette date est à l’origine de la fête locale des Huttérites. La chapelle possédait son propre mobilier liturgique et une cloche dans un petit clocher; elle fut restaurée notamment en 1841 puis en 2006–2007. Elle témoigne de la transformation d’une communauté religieuse autrefois fermée sous la pression de la conversion."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le pilori baroque – Stĺp hanby",
+          "text": "Le pilori baroque date probablement du début du XVIIIe siècle. Une main métallique tenant une épée symbolisait le droit du glaive, c’est-à-dire la juridiction sur les crimes graves, y compris la peine capitale. Les auteurs de délits mineurs étaient exposés publiquement à la honte. Le pilori se trouvait donc dans la rue principale, devant l’église catholique. Classé monument culturel national depuis 1963, il a été restauré par des spécialistes en 2023."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod, les zones humides protégées de la plaine de Záhorie",
+          "text": "Au nord du territoire cadastral de Veľké Leváre se trouve Abrod, une zone humide précieuse de la région biogéographique pannonienne. Ce site européen protégé couvre environ 165 hectares et préserve des prairies humides, des bas-marais alcalins et des cours d’eau de plaine. Parmi les espèces protégées figurent le sonneur à ventre de feu, le castor d’Europe, le lucane cerf-volant et des papillons rares. Abrod montre que le patrimoine communal comprend aussi des écosystèmes humides fragiles, au-delà de l’architecture et de l’histoire."
+        },
+        {
+          "id": "fact_008",
+          "title": "Les moulins de la Rudava et l’ancienne industrie hydraulique",
+          "text": "Pendant des siècles, le ruisseau Rudava fournit de l’énergie à l’économie locale de Veľké Leváre. Le registre seigneurial de 1595 mentionne déjà deux moulins; d’autres moulins, une scierie et un atelier d’affûtage de couteaux, de faux et d’outils fonctionnèrent ensuite. Une petite centrale hydroélectrique fut installée près de la scierie en 1919. Le moulin Dopjera, près du Kaniža, brûla en 1977. Ces installations disparues montrent l’importance de l’énergie hydraulique pour l’artisanat et l’économie locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "L’ancien bac sur la Morava",
+          "text": "Le passage de la Morava près de Veľké Leváre est attesté depuis le Moyen Âge. Un document de 1378 mentionne une activité à l’emplacement du futur bac; la première preuve directe date de 1646. Le bac reliait la rive slovaque à Drösing, Sierndorf et Jedenspeigen, en Autriche. Un document de 1887–1888 indique qu’il pouvait transporter environ 190 personnes, 16 chevaux ou quatre charrettes. Après 1918, la nouvelle frontière limita les déplacements; le service disparut définitivement en 1948."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek, une personnalité née dans la commune",
+          "text": "Anton Štefánek, homme politique, publiciste et sociologue slovaque, est né à Veľké Leváre le 15 avril 1877. Après des études à Vienne, il participa à la vie politique et journalistique de la Hongrie puis de la Tchécoslovaquie de l’entre-deux-guerres. Après 1918, il contribua à organiser l’enseignement en Slovaquie et fut brièvement ministre de l’Éducation en 1929. À partir de 1937, il enseigna la sociologie appliquée à l’Université Comenius de Bratislava et en fut recteur de 1945 à 1946. Il est considéré comme un fondateur de la sociologie slovaque."
         }
       ]
     },
@@ -315,6 +632,36 @@
           "id": "fact_004",
           "title": "Chiesa evangelica: testimonianza della pluralità religiosa",
           "text": "La comunità evangelica di Veľké Leváre iniziò a costruire la propria chiesa nel 1787 e completò i lavori nel 1790; la consacrazione avvenne nel 1791. L’edificio ricorda la presenza storica degli evangelici nel villaggio, dove esistevano anche scuole cattoliche e anabattiste oltre a quella evangelica. Nel 1823 la chiesa fu danneggiata da un incendio, ma venne riparata. In origine non aveva una torre: accanto sorgeva un campanile ligneo indipendente, sostituito da una torre aggiunta alla chiesa nel 1938. L’edificio subì danni durante la Seconda guerra mondiale e fu successivamente restaurato."
+        },
+        {
+          "id": "fact_005",
+          "title": "La cappella degli hutteriti, testimonianza della ricattolicizzazione",
+          "text": "Una parte della grande casa hutterita fu adattata intorno al 1760 a cappella barocca per i membri della comunità convertiti al cattolicesimo durante la ricattolicizzazione. La cappella della Visitazione fu benedetta il 2 luglio 1767. L’anniversario divenne la base della festa locale degli hutteriti. La cappella aveva arredi liturgici propri e una campana in una piccola torretta; fu restaurata, tra l’altro, nel 1841 e nel 2006–2007. È una testimonianza importante della trasformazione di una comunità religiosa originariamente chiusa sotto la pressione della conversione."
+        },
+        {
+          "id": "fact_006",
+          "title": "La gogna barocca: Stĺp hanby",
+          "text": "La gogna barocca risale probabilmente all’inizio del XVIII secolo. Una mano metallica con una spada simboleggiava il diritto della spada, cioè la giurisdizione sui reati gravi, compresa la pena capitale. Chi commetteva infrazioni minori veniva esposto pubblicamente alla vergogna. Per questo la colonna si trovava sulla strada principale, davanti alla chiesa cattolica. È monumento culturale nazionale dal 1963 ed è stata restaurata professionalmente nel 2023."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod, le zone umide protette della pianura di Záhorie",
+          "text": "A nord del territorio catastale di Veľké Leváre si trova Abrod, una preziosa zona umida della regione biogeografica pannonica. L’area europea protetta copre circa 165 ettari e tutela prati umidi, torbiere alcaline e corsi d’acqua di pianura. Tra le specie protette figurano l’ululone dal ventre rosso, il castoro europeo, il cervo volante e farfalle rare. Abrod mostra che il patrimonio del comune comprende anche ecosistemi umidi fragili, oltre all’architettura e alla storia."
+        },
+        {
+          "id": "fact_008",
+          "title": "I mulini sulla Rudava e l’antica industria idraulica",
+          "text": "Per secoli il torrente Rudava ha fornito energia all’economia locale di Veľké Leváre. Il registro della signoria del 1595 menziona già due mulini; in seguito operarono altri mulini, una segheria e un’officina per affilare coltelli, falci e attrezzi. Nel 1919 presso la segheria fu installata una piccola centrale idroelettrica. Il mulino Dopjera, vicino al Kaniža, bruciò nel 1977. Questi impianti scomparsi mostrano l’importanza dell’energia idraulica per l’artigianato e l’economia locale."
+        },
+        {
+          "id": "fact_009",
+          "title": "L’antico traghetto sulla Morava",
+          "text": "Il passaggio della Morava vicino a Veľké Leváre è documentato fin dal Medioevo. Un documento del 1378 menziona attività nel luogo del futuro traghetto; la prima prova diretta risale al 1646. Il traghetto collegava la riva slovacca con Drösing, Sierndorf e Jedenspeigen, in Austria. Un documento del 1887–1888 indica una capacità di circa 190 persone, 16 cavalli o quattro carri. Dopo il 1918 la nuova frontiera limitò gli spostamenti e il servizio cessò definitivamente nel 1948."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek, illustre personalità nata nel villaggio",
+          "text": "Anton Štefánek, importante politico, pubblicista e sociologo slovacco, nacque a Veľké Leváre il 15 aprile 1877. Dopo gli studi a Vienna partecipò alla vita politica e giornalistica dell’Ungheria e della Cecoslovacchia tra le due guerre. Dopo il 1918 contribuì a organizzare l’istruzione in Slovacchia e nel 1929 fu per breve tempo ministro dell’Istruzione. Dal 1937 insegnò sociologia applicata all’Università Comenio di Bratislava e ne fu rettore nel 1945–1946. È considerato uno dei fondatori della sociologia slovacca."
         }
       ]
     },
@@ -340,6 +687,36 @@
           "id": "fact_004",
           "title": "Evangelische kerk – getuigenis van religieuze verscheidenheid",
           "text": "De evangelische gemeenschap van Veľké Leváre begon in 1787 met de bouw van haar kerk; het gebouw werd in 1790 voltooid en in 1791 ingewijd. De kerk herinnert aan de lange aanwezigheid van evangelischen in het dorp, waar naast katholieke en anabaptistische scholen ook een evangelische school bestond. In 1823 beschadigde een brand het gebouw, waarna het werd hersteld. Oorspronkelijk had de kerk geen toren; ernaast stond een vrijstaande houten klokkentoren. In 1938 werd een toren aan de kerk toegevoegd. Tijdens de Tweede Wereldoorlog liep het gebouw schade op en later werd het gerenoveerd."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Hutterietenkapel – een spoor van de herkatholisering",
+          "text": "Een deel van het grote Hutterietenhuis werd rond 1760 verbouwd tot barokke kapel voor leden van de gemeenschap die tijdens de herkatholisering tot het katholicisme waren overgegaan. De kapel van Maria Visitatie werd op 2 juli 1767 ingezegend. De herdenking van die datum vormde de basis voor het plaatselijke Hutterietenfeest. De kapel had eigen liturgische voorwerpen en een klok in een kleine dakruiter; restauraties vonden onder meer plaats in 1841 en 2006–2007. Ze documenteert de verandering van een oorspronkelijk gesloten geloofsgemeenschap onder druk van gedwongen bekering."
+        },
+        {
+          "id": "fact_006",
+          "title": "De barokke schandpaal – Stĺp hanby",
+          "text": "De barokke schandpaal dateert vermoedelijk uit het begin van de 18e eeuw. Een metalen hand met zwaard verwees naar het zwaardrecht: rechtspraak over zware misdrijven, inclusief de doodstraf. Mensen die kleinere overtredingen begingen, werden publiekelijk te schande gezet. Daarom stond de paal aan de hoofdstraat tegenover de katholieke kerk. Sinds 1963 is hij een nationaal cultuurmonument; in 2023 werd hij vakkundig gerestaureerd."
+        },
+        {
+          "id": "fact_007",
+          "title": "Abrod – beschermde moerasgebieden van de Záhorie-laagvlakte",
+          "text": "In het noorden van het kadastrale gebied van Veľké Leváre ligt Abrod, een waardevol moerasgebied in de Pannonische biogeografische regio. Het Europese beschermde gebied beslaat ongeveer 165 hectare en beschermt natte graslanden, basenrijke laagvenen en natuurlijke laaglandbeken. Beschermde soorten zijn onder meer de roodbuikvuurpad, bever, vliegend hert en zeldzame vlinders. Abrod laat zien dat het erfgoed van de gemeente ook kwetsbare moerasecosystemen omvat, naast architectuur en geschiedenis."
+        },
+        {
+          "id": "fact_008",
+          "title": "Molens aan de Rudava en verdwenen waterkrachtindustrie",
+          "text": "Eeuwenlang leverde de beek Rudava energie aan de lokale economie van Veľké Leváre. In het domeinregister van 1595 worden al twee molens genoemd; later waren er meer molens, een houtzagerij en een slijperij voor messen, zeisen en gereedschap. Bij de zagerij werd in 1919 een kleine waterkrachtcentrale ingericht. De Dopjera-molen bij Kaniža brandde in 1977 af. Deze verdwenen installaties tonen het belang van waterkracht voor het lokale ambacht en de economie."
+        },
+        {
+          "id": "fact_009",
+          "title": "De historische veerpont over de Morava",
+          "text": "Een oversteek over de Morava bij Veľké Leváre is al sinds de middeleeuwen gedocumenteerd. Een bron uit 1378 vermeldt activiteiten op de plek van de latere veerdienst; het eerste rechtstreekse bewijs dateert uit 1646. De pont verbond de Slowaakse oever met Drösing, Sierndorf en Jedenspeigen in Oostenrijk. Volgens een document uit 1887–1888 kon hij ongeveer 190 personen, 16 paarden of vier wagens vervoeren. Na 1918 beperkte de nieuwe staatsgrens het verkeer; in 1948 werd de veerdienst definitief beëindigd."
+        },
+        {
+          "id": "fact_010",
+          "title": "Anton Štefánek – een vooraanstaande inwoner van het dorp",
+          "text": "Anton Štefánek, een belangrijk Slowaaks politicus, publicist en socioloog, werd op 15 april 1877 geboren in Veľké Leváre. Na zijn studie in Wenen was hij actief in de journalistiek en politiek van Hongarije en het interbellum-Tsjechoslowakije. Na 1918 hielp hij het onderwijs in Slowakije organiseren en in 1929 was hij korte tijd minister van Onderwijs. Vanaf 1937 doceerde hij toegepaste sociologie aan de Comeniusuniversiteit in Bratislava en in 1945–1946 was hij rector. Hij geldt als een grondlegger van de Slowaakse sociologie."
         }
       ]
     }
