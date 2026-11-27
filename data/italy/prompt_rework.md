@@ -18,6 +18,10 @@ The schema defines what may be stored. The Country Profile defines the geographi
 
 Preserve the shared TRAVEL / EuropeExplorer architecture where the underlying concept is common. Apply Italian postal, geographic, administrative and source rules where they differ from Czechia or Germany.
 
+## Shared TRAVEL editorial standard — mandatory
+
+Apply `data/REWORK_QUALITY_STANDARD.md` to every record in addition to this country's schema, Country Profile and Content Standard. It standardizes story depth, research synthesis, evidence, translation quality, autonomous one-record completion and strict respect for the user's batch boundary. It does not replace or override any country-specific postal, geographic, storage, schema or lifecycle rule. In a conflict, follow the applicable national documents and schema.
+
 ## 2. Italian CAP record geography — one CAP, one record, all associated Comuni
 
 This is the mandatory project-wide rule for Italian records.
