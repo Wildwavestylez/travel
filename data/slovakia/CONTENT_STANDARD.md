@@ -373,7 +373,7 @@ A commercial entity may be included only when the fact is about an independently
 
 ## 21. Source and evidence standard
 
-Every fact must cite one or more source URLs in `facts[].sources`. Each URL must exactly match the `url` of an item in the record's top-level `sources` array. Store source objects using only the schema-defined `title`, `url` and `type` fields; do not add source IDs.
+Every fact must cite one or more source IDs in `facts[].sources` (for example `s1`, `s2`). Each ID must exactly match the `id` of one entry in the record's top-level `sources` registry. Each registry entry contains the schema-defined `id`, `title`, `url` and `type` fields. Store each source only once in the registry; do not copy its URL into the fact's source list. The separate `facts[].location.source` field remains a direct URL supporting the mapped point.
 
 Prefer primary and official sources:
 - the responsible municipality or regional authority;
@@ -391,7 +391,7 @@ The source must support the actual claim. A source that merely mentions a place 
 
 Use direct, stable URLs to the page or document supporting the claim. Avoid search-result URLs, tracking links, session-dependent URLs and unnecessary URL shorteners. Preserve valid URL encoding. Check that the URL is syntactically valid and points to the intended source.
 
-Do not invent source titles, URLs, publication dates, authors or institutional affiliations. If a source is inaccessible, do not claim to have checked its contents. A source URL must appear only once in the record's top-level `sources` array and must be referenced directly in `facts[].sources`.
+Do not invent source titles, URLs, publication dates, authors or institutional affiliations. If a source is inaccessible, do not claim to have checked its contents. A source ID must appear only once in the record's top-level `sources` registry and must be referenced by the facts it supports. The registry entry holds the direct URL; `facts[].sources` holds only its ID.
 
 ### 21.2 Evidence strength
 
@@ -520,7 +520,7 @@ Follow the exact schema for every field, required property, type, enum and nulla
 
 Fact IDs must follow the pattern required by the schema and be unique within the record. Keep IDs stable when preserving an existing fact. Do not renumber facts casually or create duplicate IDs.
 
-Every fact's source URLs must exactly match URLs in the record's top-level `sources` array. Every non-null location must use the exact location object structure and controlled values. Every translation must preserve the corresponding fact identity and order.
+Every fact's source IDs must exactly match IDs in the record's top-level `sources` registry; every registry entry must have a unique ID and a valid direct URL. Every non-null location must use the exact location object structure and controlled values. Every translation must preserve the corresponding fact identity and order.
 
 Do not add research notes, candidate lists, audit ledgers, editorial comments or unsupported metadata to production JSON unless the schema explicitly permits them. Keep working notes outside the production record.
 
@@ -642,8 +642,8 @@ Before a record is declared complete, verify all areas below.
 - Has `null` been retained only after applying the fallback hierarchy?
 
 ### 28.6 Evidence
-- Does every fact cite valid source URLs that match the top-level `sources[].url` values?
-- Does every cited URL resolve to a top-level `sources[].url` value?
+- Does every fact cite valid source IDs that match top-level `sources[].id` values, with each ID resolving to the correct registry URL?
+- Does every cited source ID resolve to exactly one top-level registry entry, and does that entry contain the intended URL?
 - Do sources support the claims they are cited for?
 - Are primary and official sources used where available?
 - Are important claims corroborated appropriately?
