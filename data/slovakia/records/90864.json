@@ -1,4 +1,457 @@
 {
   "postcode": "90864",
-  "status": "placeholder"
+  "city": "Chropov",
+  "district": null,
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Jana Nepomuckého a historické centrum Chropova",
+  "representative_point": {
+    "lat": 48.771361,
+    "lon": 17.312917
+  },
+  "access_point": {
+    "lat": 48.771361,
+    "lon": 17.312917
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Chropov – středověká obec a spor o první písemnou zmínku",
+      "text": "Nejstarší bezpečně doložená zmínka o dnešním Chropově pochází z 16. července 1394, kdy se v listině nitranské kapituly uvádí jako Kropow a patřil k panství hradu Branč. Některé obecní a regionální materiály uvádějí rok 1262 a název Rupow, současný obecní web však výslovně upozorňuje, že tehdejší Rupow ležel u řeky Myjavy mezi Osuským a Prietržou a později zanikl; nelze jej proto automaticky ztotožňovat s dnešním Chropovem. Vlastní Chropov se roku 1452 uvádí jako Hroppo a roku 1551 jako Chropo.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Jana Nepomuckého – barokně-klasicistní dominanta Chropova",
+      "text": "Římskokatolický kostel sv. Jana Nepomuckého dal v Chropově postavit gróf Jozef Nyáry roku 1768. Barokně-klasicistní jednolodní stavba má rovně uzavřené presbyterium a představenou věž; interiér uchovává pozdně barokní hlavní oltář, rokokové boční oltáře, kazatelnu a relikviáře. Kostel byl renovován roku 1940. Socha sv. Jana Nepomuckého před vstupem původně sloužila jako náhrobek učitele Jána Greše, zemřelého roku 1925; po restaurování byla přemístěna před kostel v letech 2015–2017.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "location": {
+        "name": "Kostel sv. Jána Nepomuckého, Chropov",
+        "lat": 48.771361,
+        "lon": 17.312917,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/chropov-kostol-sv-jana-nepomuckeho"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Židovský hřbitov v Chropově – poslední stopa místní komunity",
+      "text": "Chropov byl před první světovou válkou střediskem židovského obyvatelstva z okolních vesnic. Židovské rodiny zde provozovaly až sedm hostinců a měly vlastní synagogu, školu i rituální jatka. Hřbitov leží přibližně 400 metrů severovýchodně za obcí v lokalitě Barák; dochované terénní zbytky ukazují asi třicet hrobů ve dvou řadách. Náhrobky dokládají pohřby v letech 1858–1932, poslední pohřeb se konal přibližně roku 1932. Komunita z Chropova a Koválovce po druhé světové válce zanikla.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s3",
+        "s7"
+      ],
+      "location": {
+        "name": "Židovský cintorín, Chropov",
+        "lat": 48.77959,
+        "lon": 17.32635,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_004",
+      "title": "Pamětní kámen popraveným účastníkům povstání roku 1848",
+      "text": "U kostela v Chropově byl roku 1948 odhalen památník Pavlu Svatíkovi a Františku Kapitáňovi, účastníkům revolučního roku 1848. Svatík byl mlynářem z Koválovce a Kapitáň pocházel z Moravy; oba byli popraveni 18. října 1848 na popravišti u Horních Surovin poblíž Senice. Jejich ostatky byly v červnu 1849 převezeny na senický hřbitov. Památník z hrubě opracovaného lomového kamene nese symbol dvojkříže na trojvrší a pamětní desku.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s8"
+      ],
+      "location": {
+        "name": "Pamätník Svatíkovi a Kapitáňovi, Chropov",
+        "lat": 48.77145,
+        "lon": 17.31308,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_005",
+      "title": "Vinohradnictví, kamenictví a řemesla v Chropově",
+      "text": "Chropov měl silnou zemědělskou a vinohradnickou tradici; vinice jsou doloženy už v 17. století a roku 1715 zde žilo 22 poddanských a 35 želiarských domácností. Roku 1752 měla obec 107 rodin, roku 1787 110 domů a 621 obyvatel. Obyvatelé se věnovali také těžbě a opracování kamene, což připomíná maďarský název Sziklabánya („kamenný důl“). Ve 20. století vznikly pily, kovárny a cihelna a rozvíjelo se košíkářství.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Chropovská strž – chráněná geologická lokalita Bílých Karpat",
+      "text": "Chropovská strž byla vyhlášena přírodní památkou 1. ledna 1993 a má rozlohu přibližně 48 hektarů. Území chrání geologicky významný profil s výskytem zkamenělin mikrofau­ny, které umožňují studovat vývoj zdejšího území od třetihor do současnosti. Lokalita leží v Chráněné krajinné oblasti Bílé Karpaty a vztahuje se na ni čtvrtý stupeň ochrany. V katastru Chropova se nachází také přírodní památka Raková.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s9",
+        "s10",
+        "s11"
+      ],
+      "location": {
+        "name": "Chropovská strž",
+        "lat": 48.786075,
+        "lon": 17.335888,
+        "type": "natural_monument",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/r-14373631"
+      },
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální adresa Obecního úradu Chropov 132, 908 64 Chropov potvrzuje PSČ 908 64 pro obec Chropov; oficiální poštovní přehledy uvádějí Poštu Chropov.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Pošta Chropov – PSČ 908 64",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávací pošta Chropov 132; reprezentativní bod je u farního kostela sv. Jana Nepomuckého.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR pro adresní evidenci; obec Chropov a Ústredný portál veřejné správy pro správní a místní geografii; oficiální obecní, církevní, památkové a ochranářské zdroje pro památky a přírodu."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Chropov – História obce",
+      "url": "https://chropov.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Chropov – Program rozvoja obce 2014–2020",
+      "url": "https://chropov.sk/wp-content/uploads/2025/02/Program-rozvoja-obce-2014-2020.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Chropov – Obec v kocke",
+      "url": "https://chropov.sk/obec/obec-v-kocke/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Nepomuckého",
+      "url": "https://www.pamiatkynaslovensku.sk/chropov-kostol-sv-jana-nepomuckeho",
+      "type": "specialist"
+    },
+    {
+      "id": "s5",
+      "title": "Farnosť Chropov – Kostol sv. Jána Nepomuckého",
+      "url": "https://www.farnostchropov.sk/stranka/kostol-sv-jana-nepomuckeho",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "ZMO Záhorie – Chropov",
+      "url": "https://zmo-zahorie.sk/chropov/",
+      "type": "regional"
+    },
+    {
+      "id": "s7",
+      "title": "Malé památky s velkým příběhem – Židovský cintorín Chropov",
+      "url": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Malé památky s velkým příběhem – Pamätník Svatík a Kapitáň",
+      "url": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "ŠOP SR – Chropovská strž, chránené územie",
+      "url": "http://data.sopsr.sk/chranene-objekty/chranene-uzemia/detail/882",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Biomonitoring SR – Prírodné pamiatky",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/ListNationalSites?CATEGORY=4&page=3",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "OMA – Chropovská strž, súradnice a rozsah",
+      "url": "https://poi.oma.sk/r-14373631",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Jana Nepomuckého a historické centrum Chropova",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov – středověká obec a spor o první písemnou zmínku",
+          "text": "Nejstarší bezpečně doložená zmínka o dnešním Chropově pochází z 16. července 1394, kdy se v listině nitranské kapituly uvádí jako Kropow a patřil k panství hradu Branč. Některé obecní a regionální materiály uvádějí rok 1262 a název Rupow, současný obecní web však výslovně upozorňuje, že tehdejší Rupow ležel u řeky Myjavy mezi Osuským a Prietržou a později zanikl; nelze jej proto automaticky ztotožňovat s dnešním Chropovem. Vlastní Chropov se roku 1452 uvádí jako Hroppo a roku 1551 jako Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Jana Nepomuckého – barokně-klasicistní dominanta Chropova",
+          "text": "Římskokatolický kostel sv. Jana Nepomuckého dal v Chropově postavit gróf Jozef Nyáry roku 1768. Barokně-klasicistní jednolodní stavba má rovně uzavřené presbyterium a představenou věž; interiér uchovává pozdně barokní hlavní oltář, rokokové boční oltáře, kazatelnu a relikviáře. Kostel byl renovován roku 1940. Socha sv. Jana Nepomuckého před vstupem původně sloužila jako náhrobek učitele Jána Greše, zemřelého roku 1925; po restaurování byla přemístěna před kostel v letech 2015–2017."
+        },
+        {
+          "id": "fact_003",
+          "title": "Židovský hřbitov v Chropově – poslední stopa místní komunity",
+          "text": "Chropov byl před první světovou válkou střediskem židovského obyvatelstva z okolních vesnic. Židovské rodiny zde provozovaly až sedm hostinců a měly vlastní synagogu, školu i rituální jatka. Hřbitov leží přibližně 400 metrů severovýchodně za obcí v lokalitě Barák; dochované terénní zbytky ukazují asi třicet hrobů ve dvou řadách. Náhrobky dokládají pohřby v letech 1858–1932, poslední pohřeb se konal přibližně roku 1932. Komunita z Chropova a Koválovce po druhé světové válce zanikla."
+        },
+        {
+          "id": "fact_004",
+          "title": "Pamětní kámen popraveným účastníkům povstání roku 1848",
+          "text": "U kostela v Chropově byl roku 1948 odhalen památník Pavlu Svatíkovi a Františku Kapitáňovi, účastníkům revolučního roku 1848. Svatík byl mlynářem z Koválovce a Kapitáň pocházel z Moravy; oba byli popraveni 18. října 1848 na popravišti u Horních Surovin poblíž Senice. Jejich ostatky byly v červnu 1849 převezeny na senický hřbitov. Památník z hrubě opracovaného lomového kamene nese symbol dvojkříže na trojvrší a pamětní desku."
+        },
+        {
+          "id": "fact_005",
+          "title": "Vinohradnictví, kamenictví a řemesla v Chropově",
+          "text": "Chropov měl silnou zemědělskou a vinohradnickou tradici; vinice jsou doloženy už v 17. století a roku 1715 zde žilo 22 poddanských a 35 želiarských domácností. Roku 1752 měla obec 107 rodin, roku 1787 110 domů a 621 obyvatel. Obyvatelé se věnovali také těžbě a opracování kamene, což připomíná maďarský název Sziklabánya („kamenný důl“). Ve 20. století vznikly pily, kovárny a cihelna a rozvíjelo se košíkářství."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chropovská strž – chráněná geologická lokalita Bílých Karpat",
+          "text": "Chropovská strž byla vyhlášena přírodní památkou 1. ledna 1993 a má rozlohu přibližně 48 hektarů. Území chrání geologicky významný profil s výskytem zkamenělin mikrofau­ny, které umožňují studovat vývoj zdejšího území od třetihor do současnosti. Lokalita leží v Chráněné krajinné oblasti Bílé Karpaty a vztahuje se na ni čtvrtý stupeň ochrany. V katastru Chropova se nachází také přírodní památka Raková."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Nepomukskirche und historischer Ortskern von Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov – mittelalterlicher Ort und Streit um die erste Erwähnung",
+          "text": "Die früheste sicher belegte Erwähnung des heutigen Chropov stammt vom 16. Juli 1394, als der Ort als Kropow zum Herrschaftsgebiet der Burg Branč gehörte. Manche regionale Quellen nennen 1262 und Rupow; die Gemeinde weist jedoch darauf hin, dass dieses Rupow an der Myjava zwischen Osuské und Prietrž lag und später verschwand. Es darf nicht mit dem heutigen Chropov gleichgesetzt werden. 1452 hieß der Ort Hroppo, 1551 Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Nepomukskirche – barock-klassizistisches Wahrzeichen",
+          "text": "Die Kirche des heiligen Johannes Nepomuk ließ Graf Jozef Nyáry 1768 errichten. Der einschiffige Bau besitzt einen geraden Chorabschluss und einen vorgestellten Turm. Innen sind ein spätbarocker Hauptaltar, Rokoko-Seitenaltäre, Kanzel und Reliquiare erhalten. Die Kirche wurde 1940 renoviert. Die Statue vor dem Eingang war ursprünglich das Grabmal des 1925 verstorbenen Lehrers Ján Greš."
+        },
+        {
+          "id": "fact_003",
+          "title": "Der jüdische Friedhof – letzte Spur der Gemeinde",
+          "text": "Vor dem Ersten Weltkrieg war Chropov ein Zentrum der jüdischen Bevölkerung der umliegenden Dörfer. Jüdische Familien betrieben bis zu sieben Gasthäuser und besaßen Synagoge, Schule und rituellen Schlachthof. Der Friedhof liegt etwa 400 Meter nordöstlich des Ortes im Gebiet Barák. Rund 30 Gräber sind erkennbar; Grabsteine belegen Bestattungen von 1858 bis 1932. Die Gemeinde von Chropov und Koválovec verschwand nach dem Zweiten Weltkrieg."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenkstein für hingerichtete Teilnehmer des Aufstands von 1848",
+          "text": "1948 wurde neben der Kirche ein Denkmal für Pavel Svatík und František Kapitáň enthüllt. Svatík war Müller aus Koválovec, Kapitáň stammte aus Mähren; beide wurden am 18. Oktober 1848 bei Senica hingerichtet. Ihre sterblichen Überreste wurden 1849 auf den Friedhof von Senica überführt. Der Stein zeigt ein Doppelkreuz auf einem Dreihügel und eine Gedenktafel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Weinbau, Steinmetzhandwerk und Gewerbe in Chropov",
+          "text": "Chropov hatte eine starke Landwirtschafts- und Weinbautradition; Weinberge sind seit dem 17. Jahrhundert belegt. 1715 gab es 22 Bauern- und 35 Häuslerhaushalte, 1752 zählte der Ort 107 Familien. 1787 hatte er 110 Häuser und 621 Einwohner. Auch Steinabbau und Steinbearbeitung waren wichtig, woran der ungarische Name Sziklabánya („Steinbruch“) erinnert. Im 20. Jahrhundert entstanden Sägewerke, Schmieden und eine Ziegelei; auch Korbflechterei entwickelte sich."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Chropovská strž – geschütztes Geotop der Weißen Karpaten",
+          "text": "Die Chropovská strž wurde am 1. Januar 1993 zum Naturdenkmal erklärt und umfasst rund 48 Hektar. Sie schützt ein geologisches Profil mit Mikrofossilien, die die Entwicklung der Landschaft vom Tertiär bis heute dokumentieren. Das Gebiet liegt im Landschaftsschutzgebiet Weiße Karpaten und unterliegt der vierten Schutzstufe. Im Gemeindegebiet befindet sich außerdem das Naturdenkmal Raková."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St John of Nepomuk Church and historic centre of Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov – a medieval village and a disputed first written record",
+          "text": "The earliest securely documented reference to present-day Chropov dates from 16 July 1394, when it appears as Kropow within the Branč Castle estate. Some regional sources give 1262 and the name Rupow, but the municipality explains that this Rupow was by the Myjava River between Osuské and Prietrž and later disappeared. It should not be confused with modern Chropov. The village was called Hroppo in 1452 and Chropo in 1551."
+        },
+        {
+          "id": "fact_002",
+          "title": "St John of Nepomuk Church – the Baroque-Classical landmark",
+          "text": "The church was commissioned by Count Jozef Nyáry in 1768. The single-nave Baroque-Classical building has a flat-ended sanctuary and projecting tower. Its interior preserves a late-Baroque high altar, Rococo side altars, pulpit and reliquaries. It was renovated in 1940. The statue outside was originally the gravestone of teacher Ján Greš, who died in 1925."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Jewish cemetery – the last trace of the community",
+          "text": "Before World War I, Chropov was a centre for Jewish residents from surrounding villages. Jewish families operated up to seven inns and had a synagogue, school and ritual slaughterhouse. The cemetery lies about 400 metres northeast of the village in Barák. Around 30 graves can be identified; gravestones document burials from 1858 to 1932. The Jewish community of Chropov and Koválovec disappeared after World War II."
+        },
+        {
+          "id": "fact_004",
+          "title": "Memorial to executed participants in the 1848 uprising",
+          "text": "A memorial to Pavel Svatík and František Kapitáň was unveiled beside the church in 1948. Svatík was a miller from Koválovec and Kapitáň came from Moravia; both were executed near Senica on 18 October 1848. Their remains were transferred to the Senica cemetery in 1849. The roughly worked stone bears a double cross on three hills and a commemorative plaque."
+        },
+        {
+          "id": "fact_005",
+          "title": "Viticulture, stoneworking and crafts in Chropov",
+          "text": "Chropov had a strong farming and wine-growing tradition; vineyards are documented from the 17th century. In 1715 there were 22 serf and 35 cottager households; in 1752 the village had 107 families. In 1787 it counted 110 houses and 621 residents. Stone extraction and masonry were also important, reflected in the Hungarian name Sziklabánya (‘stone mine’). Sawmills, smithies, a brickworks and basket weaving developed in the 20th century."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chropov Gorge – a protected geological site in the White Carpathians",
+          "text": "Chropov Gorge was declared a natural monument on 1 January 1993 and covers about 48 hectares. It protects a geological profile containing microfauna fossils, which help researchers study the area’s development from the Tertiary to the present. The site lies within the White Carpathians Protected Landscape Area and is subject to the fourth level of protection. Raková is another natural monument in the municipality."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Juan Nepomuceno y centro histórico de Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov, pueblo medieval y controversia sobre su primera mención",
+          "text": "La referencia más antigua confirmada del Chropov actual data del 16 de julio de 1394, cuando aparece como Kropow dentro del señorío del castillo de Branč. Algunas fuentes indican 1262 y el nombre Rupow, pero la web municipal aclara que aquel Rupow estaba junto al río Myjava, entre Osuské y Prietrž, y desapareció. No debe confundirse con el Chropov actual. En 1452 se llamaba Hroppo y en 1551 Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de San Juan Nepomuceno, emblema barroco-clasicista",
+          "text": "La iglesia fue encargada por el conde Jozef Nyáry en 1768. El edificio de una nave tiene presbiterio recto y torre adelantada. Conserva un altar mayor tardobarroco, altares rococó, púlpito y relicarios. Fue renovada en 1940. La estatua exterior fue originalmente la lápida del maestro Ján Greš, fallecido en 1925."
+        },
+        {
+          "id": "fact_003",
+          "title": "Cementerio judío, último vestigio de la comunidad",
+          "text": "Antes de la Primera Guerra Mundial, Chropov era un centro para la población judía de los pueblos vecinos. Familias judías regentaban hasta siete tabernas y tenían sinagoga, escuela y matadero ritual. El cementerio está unos 400 metros al noreste, en Barák. Se identifican unos 30 sepulcros; las lápidas documentan entierros de 1858 a 1932. La comunidad de Chropov y Koválovec desapareció después de la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_004",
+          "title": "Monumento a los participantes ejecutados del levantamiento de 1848",
+          "text": "En 1948 se inauguró junto a la iglesia un monumento a Pavel Svatík y František Kapitáň. Svatík era molinero de Koválovec y Kapitáň procedía de Moravia; ambos fueron ejecutados cerca de Senica el 18 de octubre de 1848. Sus restos fueron trasladados al cementerio de Senica en 1849. La piedra muestra una doble cruz sobre tres montes y una placa conmemorativa."
+        },
+        {
+          "id": "fact_005",
+          "title": "Viticultura, cantería y oficios en Chropov",
+          "text": "Chropov tuvo una fuerte tradición agrícola y vitivinícola; hay viñedos documentados desde el siglo XVII. En 1715 había 22 hogares campesinos y 35 de jornaleros; en 1752 el pueblo contaba con 107 familias. En 1787 tenía 110 casas y 621 habitantes. También eran importantes la extracción y el trabajo de la piedra, reflejados en el nombre húngaro Sziklabánya («mina de piedra»). En el siglo XX surgieron aserraderos, herrerías, tejería y cestería."
+        },
+        {
+          "id": "fact_006",
+          "title": "La garganta de Chropov, espacio geológico protegido de los Cárpatos Blancos",
+          "text": "La garganta de Chropov fue declarada monumento natural el 1 de enero de 1993 y ocupa unas 48 hectáreas. Protege un perfil geológico con fósiles de microfauna que permiten estudiar la evolución del territorio desde el Terciario hasta hoy. Se encuentra dentro del Área de Paisaje Protegido de los Cárpatos Blancos y está sujeta al cuarto nivel de protección. Raková es otro monumento natural del municipio."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Jean-Népomucène et centre historique de Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov, village médiéval et controverse sur sa première mention",
+          "text": "La plus ancienne mention sûre du Chropov actuel date du 16 juillet 1394, lorsque le village apparaît comme Kropow dans le domaine du château de Branč. Certaines sources indiquent 1262 et Rupow, mais le site communal précise que ce Rupow se trouvait près de la rivière Myjava, entre Osuské et Prietrž, et a ensuite disparu. Il ne faut pas le confondre avec Chropov. En 1452, le village s’appelait Hroppo et en 1551 Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Jean-Népomucène, monument baroque-classique",
+          "text": "L’église fut commandée par le comte Jozef Nyáry en 1768. L’édifice à nef unique possède un chœur à chevet plat et une tour en avant-corps. Son intérieur conserve un maître-autel baroque tardif, des autels rococo, une chaire et des reliquaires. Elle fut rénovée en 1940. La statue devant l’entrée servait à l’origine de tombe au maître Ján Greš, mort en 1925."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le cimetière juif, dernier vestige de la communauté",
+          "text": "Avant la Première Guerre mondiale, Chropov était un centre pour les habitants juifs des villages voisins. Des familles juives tenaient jusqu’à sept auberges et possédaient synagogue, école et abattoir rituel. Le cimetière se trouve à environ 400 mètres au nord-est, dans le secteur de Barák. Une trentaine de tombes sont identifiables ; les pierres attestent des inhumations de 1858 à 1932. La communauté de Chropov et Koválovec disparut après la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_004",
+          "title": "Mémorial aux participants exécutés du soulèvement de 1848",
+          "text": "Un mémorial à Pavel Svatík et František Kapitáň fut inauguré près de l’église en 1948. Svatík était meunier à Koválovec et Kapitáň venait de Moravie ; tous deux furent exécutés près de Senica le 18 octobre 1848. Leurs dépouilles furent transférées au cimetière de Senica en 1849. La pierre porte une double croix sur trois collines et une plaque commémorative."
+        },
+        {
+          "id": "fact_005",
+          "title": "Viticulture, taille de pierre et artisanat à Chropov",
+          "text": "Chropov possédait une forte tradition agricole et viticole ; des vignobles sont attestés depuis le XVIIe siècle. En 1715, on comptait 22 foyers paysans et 35 foyers de journaliers ; en 1752, le village comptait 107 familles. En 1787, il avait 110 maisons et 621 habitants. L’extraction et le travail de la pierre étaient également importants, comme le rappelle le nom hongrois Sziklabánya (« carrière de pierre »). Au XXe siècle apparurent scieries, forges, briqueterie et vannerie."
+        },
+        {
+          "id": "fact_006",
+          "title": "La gorge de Chropov, site géologique protégé des Carpates blanches",
+          "text": "La gorge de Chropov fut déclarée monument naturel le 1er janvier 1993 et couvre environ 48 hectares. Elle protège un profil géologique contenant des fossiles de microfaune, qui permettent d’étudier l’évolution du territoire du Tertiaire à nos jours. Le site se trouve dans la zone paysagère protégée des Carpates blanches et bénéficie du quatrième degré de protection. Raková est un autre monument naturel de la commune."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Giovanni Nepomuceno e centro storico di Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov, villaggio medievale e controversia sulla prima menzione",
+          "text": "La più antica menzione sicura dell’attuale Chropov risale al 16 luglio 1394, quando compare come Kropow nel dominio del castello di Branč. Alcune fonti indicano il 1262 e il nome Rupow, ma il sito comunale chiarisce che quel Rupow si trovava presso il fiume Myjava, tra Osuské e Prietrž, e scomparve. Non va confuso con l’attuale Chropov. Nel 1452 il villaggio era chiamato Hroppo e nel 1551 Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Giovanni Nepomuceno, monumento barocco-classico",
+          "text": "La chiesa fu commissionata dal conte Jozef Nyáry nel 1768. L’edificio a navata unica presenta presbiterio rettilineo e torre avanzata. L’interno conserva un altare maggiore tardobarocco, altari rococò, pulpito e reliquiari. Fu restaurata nel 1940. La statua davanti all’ingresso era in origine la lapide del maestro Ján Greš, morto nel 1925."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il cimitero ebraico, ultima traccia della comunità",
+          "text": "Prima della Prima guerra mondiale Chropov era un centro per la popolazione ebraica dei villaggi vicini. Famiglie ebraiche gestivano fino a sette locande e avevano sinagoga, scuola e macello rituale. Il cimitero si trova circa 400 metri a nord-est, nella località Barák. Si riconoscono circa 30 tombe; le lapidi documentano sepolture dal 1858 al 1932. La comunità di Chropov e Koválovec scomparve dopo la Seconda guerra mondiale."
+        },
+        {
+          "id": "fact_004",
+          "title": "Memoriale ai partecipanti giustiziati della rivolta del 1848",
+          "text": "Nel 1948 fu inaugurato vicino alla chiesa un memoriale a Pavel Svatík e František Kapitáň. Svatík era mugnaio di Koválovec e Kapitáň proveniva dalla Moravia; entrambi furono giustiziati vicino a Senica il 18 ottobre 1848. I loro resti furono trasferiti al cimitero di Senica nel 1849. La pietra reca una doppia croce su tre colli e una targa commemorativa."
+        },
+        {
+          "id": "fact_005",
+          "title": "Viticoltura, lavorazione della pietra e mestieri a Chropov",
+          "text": "Chropov aveva una forte tradizione agricola e vitivinicola; i vigneti sono documentati dal XVII secolo. Nel 1715 vi erano 22 famiglie contadine e 35 di braccianti; nel 1752 il villaggio contava 107 famiglie. Nel 1787 aveva 110 case e 621 abitanti. Importanti erano anche l’estrazione e la lavorazione della pietra, ricordate dal nome ungherese Sziklabánya («miniera di pietra»). Nel XX secolo sorsero segherie, fucine, fornace e cesteria."
+        },
+        {
+          "id": "fact_006",
+          "title": "La gola di Chropov, sito geologico protetto dei Carpazi Bianchi",
+          "text": "La gola di Chropov fu dichiarata monumento naturale il 1º gennaio 1993 e copre circa 48 ettari. Protegge un profilo geologico con fossili di microfauna, utili per studiare l’evoluzione del territorio dal Terziario a oggi. Si trova nell’Area paesaggistica protetta dei Carpazi Bianchi ed è soggetta al quarto livello di protezione. Anche Raková è un monumento naturale nel territorio comunale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Johannes-Nepomukkerk en historische kern van Chropov",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Chropov – middeleeuws dorp en discussie over de eerste vermelding",
+          "text": "De oudste zekere vermelding van het huidige Chropov dateert van 16 juli 1394, toen het als Kropow bij het landgoed van kasteel Branč hoorde. Sommige bronnen noemen 1262 en Rupow, maar de gemeente verduidelijkt dat dit Rupow bij de rivier Myjava lag, tussen Osuské en Prietrž, en later verdween. Het mag niet met het huidige Chropov worden verward. In 1452 heette het dorp Hroppo en in 1551 Chropo."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Johannes-Nepomukkerk – barok-classicistisch herkenningspunt",
+          "text": "De kerk werd in 1768 gebouwd in opdracht van graaf Jozef Nyáry. Het eenbeukige gebouw heeft een rechte koorsluiting en een vooruit geplaatste toren. Binnen zijn een laatbarok hoofdaltaar, rococo-zijaltaren, preekstoel en reliekhouders bewaard. De kerk werd in 1940 gerenoveerd. Het beeld voor de ingang was oorspronkelijk de grafsteen van leraar Ján Greš, die in 1925 stierf."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Joodse begraafplaats – laatste spoor van de gemeenschap",
+          "text": "Voor de Eerste Wereldoorlog was Chropov een centrum voor Joodse inwoners uit omliggende dorpen. Joodse families runden wel zeven herbergen en hadden een eigen synagoge, school en ritueel slachthuis. De begraafplaats ligt ongeveer 400 meter ten noordoosten van het dorp in Barák. Er zijn ongeveer dertig graven herkenbaar; grafstenen documenteren begravingen van 1858 tot 1932. De gemeenschap van Chropov en Koválovec verdween na de Tweede Wereldoorlog."
+        },
+        {
+          "id": "fact_004",
+          "title": "Gedenkteken voor geëxecuteerde deelnemers aan de opstand van 1848",
+          "text": "In 1948 werd naast de kerk een monument onthuld voor Pavel Svatík en František Kapitáň. Svatík was molenaar uit Koválovec en Kapitáň kwam uit Moravië; beiden werden op 18 oktober 1848 bij Senica geëxecuteerd. Hun stoffelijke resten werden in 1849 naar de begraafplaats van Senica overgebracht. De steen toont een dubbel kruis op drie heuvels en een gedenkplaat."
+        },
+        {
+          "id": "fact_005",
+          "title": "Wijnbouw, steenbewerking en ambachten in Chropov",
+          "text": "Chropov had een sterke landbouw- en wijnbouwtraditie; wijngaarden zijn vanaf de 17e eeuw gedocumenteerd. In 1715 waren er 22 boeren- en 35 daglonersgezinnen; in 1752 telde het dorp 107 gezinnen. In 1787 had het 110 huizen en 621 inwoners. Ook steenwinning en steenbewerking waren belangrijk, zoals de Hongaarse naam Sziklabánya (‘steengroeve’) laat zien. In de 20e eeuw ontstonden zagerijen, smederijen, een steenbakkerij en mandenvlechten."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Chropovská strž – beschermd geologisch gebied in de Witte Karpaten",
+          "text": "De Chropovská strž werd op 1 januari 1993 tot natuurmonument uitgeroepen en beslaat ongeveer 48 hectare. Het gebied beschermt een geologisch profiel met microfaunafossielen, waarmee de ontwikkeling van het landschap vanaf het Tertiair kan worden onderzocht. Het ligt in het beschermde landschapsgebied Witte Karpaten en valt onder het vierde beschermingsniveau. Ook Raková is een natuurmonument binnen de gemeente."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
