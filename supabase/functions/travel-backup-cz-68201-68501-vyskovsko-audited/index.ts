@@ -9,7 +9,7 @@ const GROUP = "68201-68501";
 const EXPECTED_CODES = ["68201","68301","68303","68304","68305","68308","68321","68323","68333","68335","68341","68351","68352","68354","68401","68501"];
 const EXPECTED_IDS = [10565,10566,10567,10568,10569,10570,10571,10572,10573,10574,10575,10576,10577,10578,10579,10580];
 const EXPECTED_FACTS = 146;
-const EXPECTED_MAP_POINTS = 0;
+const EXPECTED_MAP_POINTS = 138;
 
 function reply(body: unknown, status = 200) {
   return new Response(JSON.stringify(body, null, 2), { status, headers: {
