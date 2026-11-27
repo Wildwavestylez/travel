@@ -236,3 +236,19 @@ Po doplnění této reprezentativní polohy zůstává **6 záměrně nevyplněn
 - 28941/fact_004 – fragment reliéfu s nejednoznačným původním umístěním a více možnými nálezovými souvislostmi.
 
 Tyto souřadnice nebyly domýšleny; `location=null` je v těchto případech záměrné. Celkový audit proto zůstává **REVIEW REQUIRED**, dokud nebudou tyto výjimky výslovně přijaty a uzavřeny zbývající položky auditního checklistu.
+
+
+### Další geografické doplnění — reprezentativní orientační body
+
+V návaznosti na pravidla `CONTENT_STANDARD.md` byly doplněny také:
+- 28907/fact_006 – `postal_area`, reprezentativní bod oblasti zahrnující více sídel.
+- 28914/fact_004 – `historic_village`, veřejný orientační bod v Poříčanech.
+- 28926/fact_007 – `historic_village`, veřejný orientační bod ve Staré Lysé.
+- 28935/fact_002 – `historic_village`, veřejný orientační bod v Košíku.
+- 28941/fact_004 – `historic_village`, orientační bod u kostela a hřbitova v Předhradí.
+
+Všech pět objektů má `accuracy=area_representative` a zdrojovou URI. Nejde o tvrzení, že orientační bod je přesným místem všech popisovaných historických objektů.
+
+**Aktuálně zůstává jediná nulová poloha:** 28905/fact_008 (Mírkoveček). Dostupné prameny umísťují zaniklé mohylové pohřebiště do lesní trati jihovýchodně od Choťovic, ale neumožňují bezpečně určit hranici ani reprezentativní bod. `location=null` zůstává záměrně.
+
+Read-back lokalizací: 31 záznamů, 255 faktů, 0 chybějících lokalizačních polí, 0 nepovolených typů/přesností, 0 neplatných souřadnic a 0 neplatných URL zdrojů. Celkem **1 location=null**.
