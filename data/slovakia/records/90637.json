@@ -1,4 +1,558 @@
 {
   "postcode": "90637",
-  "status": "placeholder"
+  "city": "Sološnica",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Sološnice u kostela Všech svatých",
+  "representative_point": {
+    "lat": 48.466488,
+    "lon": 17.230826
+  },
+  "access_point": {
+    "lat": 48.466488,
+    "lon": 17.230826
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Roštún a Vápenná: vápencový hřeben s pralesními zbytky",
+      "text": "Jihovýchodně od Sološnice vystupuje z krajiny Záhorské nížiny výrazný vápencový hřeben Vápenné, známý také pod starším názvem Roštún. Jeho okolí chrání národní přírodní rezervace Roštún, vyhlášená roku 1953 a později rozšířená na 333,31 ha. Rezervace chrání krasové tvary, skalní bradla a zachovalá lesní společenstva Malých Karpat. Na svazích pod vrcholem se dochoval také přibližně 25hektarový pralesní zbytek s lipovo-javorovými suťovými lesy. Hřebenem vede turistická trasa a vrchol patří k výrazným vyhlídkovým místům této části Malých Karpat.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "location": {
+        "name": "Vápenná (Roštún)",
+        "lat": 48.4601,
+        "lon": 17.2744,
+        "type": "viewpoint",
+        "accuracy": "exact",
+        "source": "https://en.pralesy.sk/lokality/pralesove-zvysky.html?id=161&task=view"
+      },
+      "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel Všech svatých: raně barokní dominanta Sološnice",
+      "text": "Současný kostel Všech svatých byl dokončen roku 1699 na místě staršího chrámu, jehož předchůdce bývá spojován se 14. stoletím a zasvěcením svatému Osvaldovi. Jednolodní stavba s věží je významným příkladem raně barokní venkovské architektury Záhoří. Kolem kostela se zachoval historický ohradní areál; jeho součástí je také místo zaniklého přístěnného hřbitova, doloženého v listinách roku 1634. Kostel je národní kulturní památkou od roku 1963 a od srpna 2023 byla ochrana rozšířena také na ohradní zeď a zaniklý hřbitov.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "location": {
+        "name": "Kostel Všech svatých",
+        "lat": 48.466488,
+        "lon": 17.230826,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/solosnica-kostol-vsetkych-svatych"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaple Božského Srdce a příběh zvaný Sološnický zázrak",
+      "text": "Kaple Božského Srdce připomíná událost z konce druhé světové války. Dne 11. března 1945, když obcí procházela fronta a obyvatelé se obávali jejího zničení, složil starosta Jozef Velšmid za přítomnosti zastupitelstva a obyvatel slib: pokud obec přechod fronty přečká bez zkázy, bude zde postavena kaple a neděle po oktávu Božího Těla se stane obecním svátkem. Sološnica podle obecního záznamu vyvázla bez zničení a ztrát na životech. Kapli 30. června 1946 vysvětil biskup Michal Buzalka. Místní tradice událost označuje jako Sološnický zázrak; od té doby se zde konají poutě a slavnostní průvod.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "location": {
+        "name": "Kaple Božského Srdce u kostela Všech svatých",
+        "lat": 48.46645,
+        "lon": 17.2309,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://www.solosnica.sk/e_download.php?file=data%2Feditor%2F165sk_3.pdf&original=popis+pam%C3%A4tihodnsot%C3%AD++-+pr%C3%ADloha+1b.pdf"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Židovský hřbitov: stopa někdejší židovské komunity",
+      "text": "Sološnice měla v 19. a na počátku 20. století početnou židovskou komunitu: obecní dokument uvádí 58 židovských obyvatel v roce 1828 a 51 v roce 1902, zatímco roku 1940 jich bylo už jen 15. Komunita měla vlastní modlitebnu i hřbitov na vyvýšeném místě nad obcí. Po opuštění hřbitov postupně zarůstal; roku 2009 jej místní dobrovolníci zpřístupnili odstraněním náletových dřevin a před rokem 2012 znovu postavili povalené náhrobky. Dochovalo se přibližně padesát hrobů a necelé tři desítky náhrobních kamenů. Místo je důležitou připomínkou náboženské a kulturní rozmanitosti Záhoří.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s8"
+      ],
+      "location": {
+        "name": "Židovský hřbitov Sološnica",
+        "lat": 48.4629714,
+        "lon": 17.2401467,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_005",
+      "title": "Hólint: zaniklá lesnická osada pod Roštúnem",
+      "text": "V katastru Sološnice, přibližně čtyři kilometry jihovýchodně od obce, ležela osada Hólint, v historických pramenech také Hollindt. Listina z roku 1478 ji popisuje jako kolonii pod vrchem Roštún; žili zde lesní dělníci německého původu. Pozdější mapy zachycují malou dřevařskou usedlost s několika budovami. Odborná studie dokládá, že lokalitu ještě na přelomu 19. a 20. století obývaly rodiny dřevorubců a že ji později využívaly také trampské skupiny. Stavební objekty byly zbořeny roku 1971 a po někdejším osídlení zůstala louka s ovocnými stromy. Hólint tak připomíná zaniklou vrstvu osídlení horského zázemí Sološnice.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s2",
+        "s9"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Panský mlýn a pila Alexandra Nottného",
+      "text": "V Sološnici stával rozsáhlý areál panského vodního mlýna a pily, který patřil k hospodářskému zázemí pálffyovského panství. Mlýn s kamenným mlecím zařízením byl přestavěn roku 1809 a znovu upravován roku 1880; vodní pila byla přeměněna na gátrovou. Areál je spojován s Alexandrem Nottným a obec jej uvádí mezi dvěma zdejšími národními kulturními památkami. Historická hodnota spočívá v dokumentaci vodního pohonu a někdejšího propojení mlynářství s dřevozpracující výrobou. Přesnou polohu jednotlivých dochovaných částí je třeba odlišit od historického rozsahu celého areálu, proto zde není uveden neověřený mapový bod.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s10"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_007",
+      "title": "Móric Spitzer a ztracené lidové muzeum",
+      "text": "Móric Spitzer (1849–1924), rodák z Malacek, žil také v Sološnici a patřil k významným amatérským archeologům Záhoří. Na vlastní náklady zde založil lidové muzeum s mimořádně rozsáhlou sbírkou: podle obecního životopisu obsahovala přibližně 14 000 mincí, tisíc keramických a majolikových předmětů a dvě stě druhů uměleckých výšivek z lidových krojů 17. a 18. století. Sbíral také historické prsteny a mince spojené s uherskými dějinami. Muzeum se nedochovalo; část předmětů se podle místních zdrojů dostala do Budapešti a Vídně. Spitzer se navíc roku 1881 podílel na založení sološnického dobrovolného hasičského spolku.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "s11",
+        "s12"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_008",
+      "title": "Štefan Hlavatý a první slovenská historická gramatika",
+      "text": "Sološnica je rodištěm jazykovědce PhDr. Štefana Hlavatého (1876–1923). Vystudoval teologii i filozofii, působil jako duchovní a později jako středoškolský pedagog v Bratislavě. Jeho nejvýznamnějším dílem je kniha Vývoj skloňovania podstatných a prídavných mien slovenských, vydaná roku 1922 a označovaná za první slovenskou historickou gramatiku. Práce se zabývala historickým vývojem slovenského jazyka a obhajobou jeho samostatnosti v době, kdy jej někteří nacionalističtí autoři zpochybňovali jako pouhé nářečí. Hlavatý zemřel v Bratislavě roku 1923; jeho rodná obec připomíná jeho původ také názvem ulice.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "s11"
+      ],
+      "location": null,
+      "map_category": "personality"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhľadávanie PSČ; potvrdenie adresy Sološnica 90637 v štátnom portáli slovensko.sk a v oficiálnych verejných záznamoch",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenská pošta",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR / Ministerstvo vnútra SR; ŠÚ SR a oficiálne územné registre; ÚGKK SR/ZBGIS a mapové podklady"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obecný úrad Sološnica – oficiálna adresa a PSČ",
+      "url": "https://www.slovensko.sk/sk/institucie/miestne-urady/institucia/_79e1902f-0433-4b71-b09c-943e6f1b9181",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Sološnica – Z histórie obce",
+      "url": "https://www.solosnica.sk/obec-2/o-obci/z-historie-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Sološnica – O obci a prírodné pomery",
+      "url": "https://www.solosnica.sk/obec-2/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Pralesy.sk – Roštún, pralesový zvyšok",
+      "url": "https://en.pralesy.sk/lokality/pralesove-zvysky.html?id=161&task=view",
+      "type": "specialist"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Sološnica – Národné kultúrne pamiatky",
+      "url": "https://www.solosnica.sk/obec-2/o-obci/pamatihodnosti-obce-a-narodne-kulturne-pamiatky/narodne-kulturne-pamiatky/",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Sološnica – Popis pamätihodností, príloha 1b",
+      "url": "https://www.solosnica.sk/e_download.php?file=data%2Feditor%2F165sk_3.pdf&original=popis+pam%C3%A4tihodnsot%C3%AD++-+pr%C3%ADloha+1b.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – Kostol Všetkých svätých v Sološnici",
+      "url": "https://www.pamiatkynaslovensku.sk/solosnica-kostol-vsetkych-svatych",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Krásy podhoranu – turistická mapa a body Sološnice (PDF)",
+      "url": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s9",
+      "title": "Krajčovič – Holzhackerland, odborná štúdia o lesníckych osadách",
+      "url": "https://www.scribd.com/document/1052312090/Krajcovic-Holzhackerland",
+      "type": "university"
+    },
+    {
+      "id": "s10",
+      "title": "eZáhorie – Mlyny na Záhorí",
+      "url": "https://ezahorie.sk/index.php?Itemid=92&catid=53%3Ahistorija-zahora&id=2836%3Amlyny-na-zahori&lang=za&option=com_content&view=article",
+      "type": "specialist"
+    },
+    {
+      "id": "s11",
+      "title": "Obec Sološnica – Významné osobnosti",
+      "url": "https://www.solosnica.sk/obec-2/o-obci/vyznamne-osobnosti/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Záhorák – Kam zmizli zlaté mince a prstene z múzea v Sološnici?",
+      "url": "https://zahorak.sk/20382/kam-zmizli-zlate-mince-a-prstene-z-muzea-v-solosnici/",
+      "type": "news"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Sološnice u kostela Všech svatých",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún a Vápenná: vápencový hřeben s pralesními zbytky",
+          "text": "Jihovýchodně od Sološnice vystupuje z krajiny Záhorské nížiny výrazný vápencový hřeben Vápenné, známý také pod starším názvem Roštún. Jeho okolí chrání národní přírodní rezervace Roštún, vyhlášená roku 1953 a později rozšířená na 333,31 ha. Rezervace chrání krasové tvary, skalní bradla a zachovalá lesní společenstva Malých Karpat. Na svazích pod vrcholem se dochoval také přibližně 25hektarový pralesní zbytek s lipovo-javorovými suťovými lesy. Hřebenem vede turistická trasa a vrchol patří k výrazným vyhlídkovým místům této části Malých Karpat."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel Všech svatých: raně barokní dominanta Sološnice",
+          "text": "Současný kostel Všech svatých byl dokončen roku 1699 na místě staršího chrámu, jehož předchůdce bývá spojován se 14. stoletím a zasvěcením svatému Osvaldovi. Jednolodní stavba s věží je významným příkladem raně barokní venkovské architektury Záhoří. Kolem kostela se zachoval historický ohradní areál; jeho součástí je také místo zaniklého přístěnného hřbitova, doloženého v listinách roku 1634. Kostel je národní kulturní památkou od roku 1963 a od srpna 2023 byla ochrana rozšířena také na ohradní zeď a zaniklý hřbitov."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaple Božského Srdce a příběh zvaný Sološnický zázrak",
+          "text": "Kaple Božského Srdce připomíná událost z konce druhé světové války. Dne 11. března 1945, když obcí procházela fronta a obyvatelé se obávali jejího zničení, složil starosta Jozef Velšmid za přítomnosti zastupitelstva a obyvatel slib: pokud obec přechod fronty přečká bez zkázy, bude zde postavena kaple a neděle po oktávu Božího Těla se stane obecním svátkem. Sološnica podle obecního záznamu vyvázla bez zničení a ztrát na životech. Kapli 30. června 1946 vysvětil biskup Michal Buzalka. Místní tradice událost označuje jako Sološnický zázrak; od té doby se zde konají poutě a slavnostní průvod."
+        },
+        {
+          "id": "fact_004",
+          "title": "Židovský hřbitov: stopa někdejší židovské komunity",
+          "text": "Sološnice měla v 19. a na počátku 20. století početnou židovskou komunitu: obecní dokument uvádí 58 židovských obyvatel v roce 1828 a 51 v roce 1902, zatímco roku 1940 jich bylo už jen 15. Komunita měla vlastní modlitebnu i hřbitov na vyvýšeném místě nad obcí. Po opuštění hřbitov postupně zarůstal; roku 2009 jej místní dobrovolníci zpřístupnili odstraněním náletových dřevin a před rokem 2012 znovu postavili povalené náhrobky. Dochovalo se přibližně padesát hrobů a necelé tři desítky náhrobních kamenů. Místo je důležitou připomínkou náboženské a kulturní rozmanitosti Záhoří."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: zaniklá lesnická osada pod Roštúnem",
+          "text": "V katastru Sološnice, přibližně čtyři kilometry jihovýchodně od obce, ležela osada Hólint, v historických pramenech také Hollindt. Listina z roku 1478 ji popisuje jako kolonii pod vrchem Roštún; žili zde lesní dělníci německého původu. Pozdější mapy zachycují malou dřevařskou usedlost s několika budovami. Odborná studie dokládá, že lokalitu ještě na přelomu 19. a 20. století obývaly rodiny dřevorubců a že ji později využívaly také trampské skupiny. Stavební objekty byly zbořeny roku 1971 a po někdejším osídlení zůstala louka s ovocnými stromy. Hólint tak připomíná zaniklou vrstvu osídlení horského zázemí Sološnice."
+        },
+        {
+          "id": "fact_006",
+          "title": "Panský mlýn a pila Alexandra Nottného",
+          "text": "V Sološnici stával rozsáhlý areál panského vodního mlýna a pily, který patřil k hospodářskému zázemí pálffyovského panství. Mlýn s kamenným mlecím zařízením byl přestavěn roku 1809 a znovu upravován roku 1880; vodní pila byla přeměněna na gátrovou. Areál je spojován s Alexandrem Nottným a obec jej uvádí mezi dvěma zdejšími národními kulturními památkami. Historická hodnota spočívá v dokumentaci vodního pohonu a někdejšího propojení mlynářství s dřevozpracující výrobou. Přesnou polohu jednotlivých dochovaných částí je třeba odlišit od historického rozsahu celého areálu, proto zde není uveden neověřený mapový bod."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer a ztracené lidové muzeum",
+          "text": "Móric Spitzer (1849–1924), rodák z Malacek, žil také v Sološnici a patřil k významným amatérským archeologům Záhoří. Na vlastní náklady zde založil lidové muzeum s mimořádně rozsáhlou sbírkou: podle obecního životopisu obsahovala přibližně 14 000 mincí, tisíc keramických a majolikových předmětů a dvě stě druhů uměleckých výšivek z lidových krojů 17. a 18. století. Sbíral také historické prsteny a mince spojené s uherskými dějinami. Muzeum se nedochovalo; část předmětů se podle místních zdrojů dostala do Budapešti a Vídně. Spitzer se navíc roku 1881 podílel na založení sološnického dobrovolného hasičského spolku."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý a první slovenská historická gramatika",
+          "text": "Sološnica je rodištěm jazykovědce PhDr. Štefana Hlavatého (1876–1923). Vystudoval teologii i filozofii, působil jako duchovní a později jako středoškolský pedagog v Bratislavě. Jeho nejvýznamnějším dílem je kniha Vývoj skloňovania podstatných a prídavných mien slovenských, vydaná roku 1922 a označovaná za první slovenskou historickou gramatiku. Práce se zabývala historickým vývojem slovenského jazyka a obhajobou jeho samostatnosti v době, kdy jej někteří nacionalističtí autoři zpochybňovali jako pouhé nářečí. Hlavatý zemřel v Bratislavě roku 1923; jeho rodná obec připomíná jeho původ také názvem ulice."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Sološnica bei der Allerheiligenkirche",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún und Vápenná: Kalksteinkamm mit Urwaldresten",
+          "text": "Südöstlich von Sološnica erhebt sich aus der Landschaft des Tieflands Záhorie der markante Kalksteinkamm Vápenná, auch unter dem älteren Namen Roštún bekannt. Seine Umgebung schützt das nationale Naturreservat Roštún, das 1953 ausgewiesen und später auf 333,31 Hektar erweitert wurde. Es bewahrt Karstformen, Felsriffe und naturnahe Waldgesellschaften der Kleinen Karpaten. An den Hängen unterhalb des Gipfels blieb außerdem ein etwa 25 Hektar großer Urwaldrest mit Linden-Ahorn-Schuttwäldern erhalten. Über den Kamm führt ein Wanderweg; der Gipfel zählt zu den markanten Aussichtspunkten dieses Teils der Kleinen Karpaten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Allerheiligenkirche: frühbarockes Wahrzeichen von Sološnica",
+          "text": "Die heutige Allerheiligenkirche wurde 1699 an der Stelle eines älteren Gotteshauses fertiggestellt, dessen Vorgänger mit dem 14. Jahrhundert und dem Patrozinium des heiligen Oswald verbunden wird. Der einschiffige Bau mit Turm ist ein bedeutendes Beispiel frühbarocker ländlicher Architektur in Záhorie. Um die Kirche liegt ein historischer ummauerter Bereich; dazu gehört auch der Ort des verschwundenen Kirchhofs, der 1634 urkundlich erwähnt wird. Die Kirche steht seit 1963 unter Denkmalschutz; im August 2023 wurde der Schutz auf die Umfassungsmauer und den ehemaligen Friedhof erweitert."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kapelle des Heiligsten Herzens und das sogenannte Wunder von Sološnica",
+          "text": "Die Kapelle des Heiligsten Herzens erinnert an ein Ereignis am Ende des Zweiten Weltkriegs. Am 11. März 1945, als die Front durch den Ort verlief und die Bewohner seine Zerstörung befürchteten, gelobte Bürgermeister Jozef Velšmid im Beisein des Gemeinderats und der Einwohner: Wenn der Ort den Frontdurchzug unversehrt überstehe, werde eine Kapelle errichtet und der Sonntag nach der Oktav von Fronleichnam zum Gemeindefeiertag erklärt. Laut Gemeindechronik blieb Sološnica ohne Zerstörung und Todesopfer. Bischof Michal Buzalka weihte die Kapelle am 30. Juni 1946. Die örtliche Überlieferung nennt das Ereignis das Wunder von Sološnica; seither finden Wallfahrten und eine Prozession statt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jüdischer Friedhof: Zeugnis der einstigen jüdischen Gemeinde",
+          "text": "Im 19. und frühen 20. Jahrhundert lebte in Sološnica eine bedeutende jüdische Gemeinde: 1828 zählte sie laut Gemeindedokument 58 jüdische Einwohner, 1902 waren es 51 und 1940 nur noch 15. Die Gemeinde hatte ein eigenes Bethaus und einen Friedhof auf einer Anhöhe oberhalb des Ortes. Nach seiner Aufgabe verwilderte der Friedhof allmählich. 2009 machten Freiwillige aus dem Ort ihn durch das Entfernen von Gehölz wieder zugänglich; vor 2012 richteten sie umgestürzte Grabsteine wieder auf. Erhalten sind ungefähr fünfzig Gräber und knapp dreißig Grabsteine. Der Ort erinnert an die religiöse und kulturelle Vielfalt von Záhorie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: eine verschwundene Waldarbeitersiedlung unter dem Roštún",
+          "text": "Im Gemeindegebiet von Sološnica, etwa vier Kilometer südöstlich des Ortes, lag die Siedlung Hólint, in historischen Quellen auch Hollindt genannt. Eine Urkunde von 1478 beschreibt sie als Kolonie unter dem Berg Roštún; hier lebten Waldarbeiter deutscher Herkunft. Spätere Karten zeigen ein kleines Holzfälleranwesen mit mehreren Gebäuden. Eine Fachstudie belegt, dass dort noch um die Wende vom 19. zum 20. Jahrhundert Holzfällerfamilien lebten und das Gebiet später auch von Trampgruppen genutzt wurde. Die Gebäude wurden 1971 abgerissen; von der Siedlung blieb eine Wiese mit Obstbäumen. Hólint erinnert an eine verschwundene Siedlungsschicht im Bergland von Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "Herrschaftsmühle und Sägewerk von Alexander Nottný",
+          "text": "In Sološnica befand sich ein größerer Komplex aus herrschaftlicher Wassermühle und Sägewerk, der zur wirtschaftlichen Infrastruktur der Pálffy-Herrschaft gehörte. Die Mühle mit steinerner Mahlanlage wurde 1809 umgebaut und 1880 erneut verändert; das wasserbetriebene Sägewerk wurde auf ein Gattersägewerk umgestellt. Der Komplex wird mit Alexander Nottný verbunden und zählt laut Gemeinde zu den zwei nationalen Kulturdenkmälern des Ortes. Sein Wert liegt in der Dokumentation der Wasserkraft und der früheren Verbindung von Müllerei und Holzverarbeitung. Da die genaue Lage der erhaltenen Teile vom historischen Gesamtareal unterschieden werden muss, wird hier kein unbestätigter Kartenpunkt angegeben."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer und das verlorene Volksmuseum",
+          "text": "Móric Spitzer (1849–1924), geboren in Malacky, lebte auch in Sološnica und gehörte zu den bedeutenden Amateurarchäologen der Region Záhorie. Auf eigene Kosten gründete er hier ein Volksmuseum mit einer außergewöhnlich großen Sammlung: Laut Gemeindebiografie umfasste sie etwa 14.000 Münzen, tausend Keramik- und Majolikagegenstände sowie zweihundert Arten kunstvoller Stickereien aus Trachten des 17. und 18. Jahrhunderts. Er sammelte auch historische Ringe und Münzen aus der ungarischen Geschichte. Das Museum blieb nicht erhalten; ein Teil der Objekte gelangte laut lokalen Quellen nach Budapest und Wien. Außerdem wirkte Spitzer 1881 an der Gründung der Freiwilligen Feuerwehr von Sološnica mit."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý und die erste historische Grammatik des Slowakischen",
+          "text": "Sološnica ist der Geburtsort des Sprachwissenschaftlers PhDr. Štefan Hlavatý (1876–1923). Er studierte Theologie und Philosophie, arbeitete als Geistlicher und später als Gymnasiallehrer in Bratislava. Sein wichtigstes Werk ist das 1922 veröffentlichte Buch Vývoj skloňovania podstatných a prídavných mien slovenských, das als erste historische Grammatik der slowakischen Sprache gilt. Es untersuchte die historische Entwicklung des Slowakischen und verteidigte seine Eigenständigkeit zu einer Zeit, als nationalistische Autoren es als bloßen Dialekt abwerteten. Hlavatý starb 1923 in Bratislava; seine Heimatgemeinde erinnert mit einem Straßennamen an ihn."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Sološnica by the Church of All Saints",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún and Vápenná: a limestone ridge with remnants of primeval forest",
+          "text": "Southeast of Sološnica, the striking limestone ridge of Vápenná, also known by the older name Roštún, rises above the Záhorie Lowland. Its surroundings are protected by the Roštún National Nature Reserve, established in 1953 and later expanded to 333.31 hectares. It safeguards karst formations, rocky cliffs and well-preserved forest communities of the Little Carpathians. An approximately 25-hectare remnant of primeval forest with lime and maple scree woods survives on the slopes below the summit. A hiking trail crosses the ridge, and the summit is one of the notable viewpoints in this part of the Little Carpathians."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of All Saints: an early Baroque landmark of Sološnica",
+          "text": "The present Church of All Saints was completed in 1699 on the site of an older church, whose predecessor is associated with the 14th century and the dedication to Saint Oswald. The single-nave building with a tower is an important example of early Baroque rural architecture in the Záhorie region. A historic walled precinct surrounds the church and includes the site of a former churchyard documented in 1634. The church has been a national cultural monument since 1963; in August 2023, protection was extended to the enclosure wall and the former cemetery."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chapel of the Sacred Heart and the so-called Miracle of Sološnica",
+          "text": "The Chapel of the Sacred Heart commemorates an event at the end of the Second World War. On 11 March 1945, as the front passed through the village and residents feared its destruction, mayor Jozef Velšmid made a vow in the presence of the council and the community: if the village survived the passage of the front unharmed, a chapel would be built and the Sunday after the octave of Corpus Christi would become a local feast day. According to the municipal record, Sološnica escaped destruction and loss of life. Bishop Michal Buzalka consecrated the chapel on 30 June 1946. Local tradition calls the event the Miracle of Sološnica; pilgrimages and a procession have taken place here ever since."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jewish cemetery: a trace of the former Jewish community",
+          "text": "Sološnica had a substantial Jewish community in the 19th and early 20th centuries: a municipal document records 58 Jewish residents in 1828, 51 in 1902 and only 15 in 1940. The community had its own prayer house and cemetery on a rise above the village. After it was abandoned, the cemetery gradually became overgrown. In 2009, local volunteers made it accessible again by clearing invasive vegetation; before 2012, they raised fallen tombstones. Around fifty graves and just under thirty headstones remain. The site is an important reminder of the religious and cultural diversity of the Záhorie region."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: a vanished forestry settlement below Roštún",
+          "text": "The Hólint settlement, also recorded historically as Hollindt, once stood in the cadastral area of Sološnica, about four kilometres southeast of the village. A document from 1478 describes it as a colony below Mount Roštún, inhabited by forest workers of German origin. Later maps show a small lumber settlement with several buildings. A specialist study documents woodcutters’ families living there around the turn of the 19th and 20th centuries, and later use of the locality by tramping groups. The buildings were demolished in 1971, leaving a meadow with fruit trees. Hólint recalls a vanished layer of settlement in the upland hinterland of Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "The estate mill and sawmill of Alexander Nottný",
+          "text": "Sološnica once had a substantial complex of an estate watermill and sawmill, part of the economic infrastructure of the Pálffy estate. The mill, equipped with stone grinding machinery, was rebuilt in 1809 and altered again in 1880; the water-powered sawmill was converted to a frame saw. The complex is associated with Alexander Nottný and is listed by the municipality among the village’s two national cultural monuments. Its significance lies in documenting water power and the former link between milling and timber processing. As the exact positions of surviving structures must be distinguished from the historic extent of the complex, no unverified map point is supplied here."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer and the lost folk museum",
+          "text": "Móric Spitzer (1849–1924), born in Malacky, also lived in Sološnica and became one of the notable amateur archaeologists of the Záhorie region. At his own expense he established a folk museum here with an exceptionally large collection: according to the municipal biography, it contained about 14,000 coins, a thousand ceramic and majolica objects, and two hundred types of artistic embroidery from 17th- and 18th-century folk costumes. He also collected historical rings and coins connected with Hungarian history. The museum did not survive; local sources say some objects went to Budapest and Vienna. In 1881, Spitzer also helped establish Sološnica’s volunteer fire brigade."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý and the first historical grammar of Slovak",
+          "text": "Sološnica is the birthplace of the linguist PhDr. Štefan Hlavatý (1876–1923). He studied theology and philosophy, served as a clergyman and later taught at secondary schools in Bratislava. His most important work was the book Vývoj skloňovania podstatných a prídavných mien slovenských, published in 1922 and described as the first historical grammar of the Slovak language. It examined the historical development of Slovak and defended its status as an independent language at a time when nationalist writers sought to dismiss it as merely a dialect. Hlavatý died in Bratislava in 1923; his birthplace commemorates him in a street name."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Sološnica junto a la iglesia de Todos los Santos",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún y Vápenná: una cresta caliza con restos de bosque primario",
+          "text": "Al sureste de Sološnica, la marcada cresta caliza de Vápenná, conocida también por el antiguo nombre de Roštún, se eleva sobre la llanura de Záhorie. Sus alrededores están protegidos por la Reserva Natural Nacional de Roštún, creada en 1953 y ampliada posteriormente hasta 333,31 hectáreas. Protege formas kársticas, riscos rocosos y comunidades forestales bien conservadas de los Pequeños Cárpatos. En las laderas bajo la cima sobrevive además un resto de bosque primario de unas 25 hectáreas, con bosques pedregosos de tilos y arces. Una ruta de senderismo atraviesa la cresta y la cima es uno de los miradores destacados de esta parte de los Pequeños Cárpatos."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de Todos los Santos: emblema barroco temprano de Sološnica",
+          "text": "La actual iglesia de Todos los Santos se terminó en 1699 en el lugar de un templo anterior, cuyo predecesor se relaciona con el siglo XIV y con la advocación de san Osvaldo. El edificio de una sola nave y torre es un ejemplo importante de arquitectura rural barroca temprana de la región de Záhorie. La iglesia está rodeada por un recinto histórico amurallado que incluye el lugar de un antiguo cementerio parroquial documentado en 1634. Es monumento cultural nacional desde 1963; en agosto de 2023 la protección se amplió al muro perimetral y al antiguo cementerio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Capilla del Sagrado Corazón y el llamado Milagro de Sološnica",
+          "text": "La capilla del Sagrado Corazón recuerda un episodio del final de la Segunda Guerra Mundial. El 11 de marzo de 1945, cuando el frente atravesaba el pueblo y sus habitantes temían su destrucción, el alcalde Jozef Velšmid hizo un voto ante el consejo y la comunidad: si el pueblo superaba el paso del frente sin daños, se construiría una capilla y el domingo posterior a la octava del Corpus Christi sería fiesta local. Según el registro municipal, Sološnica salió indemne y sin víctimas mortales. El obispo Michal Buzalka consagró la capilla el 30 de junio de 1946. La tradición local llama al episodio el Milagro de Sološnica; desde entonces se celebran peregrinaciones y una procesión."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cementerio judío: huella de la antigua comunidad judía",
+          "text": "Sološnica tuvo una comunidad judía importante en los siglos XIX y comienzos del XX: un documento municipal registra 58 habitantes judíos en 1828, 51 en 1902 y solo 15 en 1940. La comunidad tenía una casa de oración y un cementerio propio en una elevación sobre el pueblo. Tras quedar abandonado, el cementerio se fue cubriendo de vegetación. En 2009, voluntarios locales lo hicieron accesible de nuevo al retirar la vegetación invasora; antes de 2012 levantaron las lápidas caídas. Se conservan unos cincuenta enterramientos y algo menos de treinta lápidas. El lugar recuerda la diversidad religiosa y cultural de la región de Záhorie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: un asentamiento forestal desaparecido bajo Roštún",
+          "text": "El asentamiento de Hólint, también registrado históricamente como Hollindt, estuvo en el término municipal de Sološnica, a unos cuatro kilómetros al sureste del pueblo. Un documento de 1478 lo describe como una colonia bajo el monte Roštún, habitada por trabajadores forestales de origen alemán. Los mapas posteriores muestran una pequeña explotación maderera con varios edificios. Un estudio especializado documenta que allí vivían familias de leñadores alrededor del cambio entre los siglos XIX y XX y que más tarde la zona fue utilizada por grupos excursionistas. Los edificios fueron demolidos en 1971 y solo quedó una pradera con árboles frutales. Hólint recuerda una capa desaparecida del poblamiento de las montañas de Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "Molino señorial y aserradero de Alexander Nottný",
+          "text": "Sološnica tuvo un amplio conjunto de molino hidráulico señorial y aserradero, parte de la infraestructura económica del dominio de los Pálffy. El molino, con maquinaria de molienda de piedra, fue reconstruido en 1809 y modificado de nuevo en 1880; el aserradero hidráulico se transformó en un aserradero de sierra múltiple. El conjunto está vinculado a Alexander Nottný y el municipio lo incluye entre los dos monumentos culturales nacionales de la localidad. Su valor reside en documentar el uso de la energía hidráulica y la antigua relación entre la molienda y el trabajo de la madera. Como es necesario distinguir la ubicación exacta de los restos conservados del perímetro histórico del conjunto, no se indica aquí un punto cartográfico sin verificar."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer y el desaparecido museo popular",
+          "text": "Móric Spitzer (1849–1924), nacido en Malacky, también vivió en Sološnica y fue uno de los destacados arqueólogos aficionados de la región de Záhorie. Con sus propios recursos fundó aquí un museo popular con una colección excepcional: según la biografía municipal, reunía unos 14.000 monedas, mil objetos de cerámica y mayólica y doscientas clases de bordados artísticos de trajes populares de los siglos XVII y XVIII. También coleccionaba anillos históricos y monedas relacionadas con la historia húngara. El museo no se conservó; fuentes locales indican que algunos objetos llegaron a Budapest y Viena. En 1881, Spitzer también participó en la fundación del cuerpo de bomberos voluntarios de Sološnica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý y la primera gramática histórica del eslovaco",
+          "text": "Sološnica es el lugar de nacimiento del lingüista PhDr. Štefan Hlavatý (1876–1923). Estudió teología y filosofía, trabajó como clérigo y más tarde como profesor de enseñanza secundaria en Bratislava. Su obra más importante fue el libro Vývoj skloňovania podstatných a prídavných mien slovenských, publicado en 1922 y considerado la primera gramática histórica de la lengua eslovaca. La obra estudió la evolución histórica del eslovaco y defendió su autonomía en una época en que autores nacionalistas intentaban reducirlo a un simple dialecto. Hlavatý murió en Bratislava en 1923; su pueblo natal lo recuerda también con el nombre de una calle."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Sološnica près de l’église de Tous-les-Saints",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún et Vápenná : une crête calcaire avec des vestiges de forêt primaire",
+          "text": "Au sud-est de Sološnica, la crête calcaire marquante de Vápenná, également connue sous l’ancien nom de Roštún, domine la plaine de Záhorie. Ses environs sont protégés par la réserve naturelle nationale de Roštún, créée en 1953 puis étendue à 333,31 hectares. Elle préserve des formes karstiques, des falaises rocheuses et des communautés forestières bien conservées des Petites Carpates. Sur les pentes sous le sommet subsiste aussi un vestige de forêt primaire d’environ 25 hectares, composé de forêts d’éboulis à tilleuls et érables. Un sentier de randonnée traverse la crête et le sommet constitue l’un des principaux belvédères de cette partie des Petites Carpates."
+        },
+        {
+          "id": "fact_002",
+          "title": "Église de Tous-les-Saints : le repère baroque ancien de Sološnica",
+          "text": "L’église actuelle de Tous-les-Saints fut achevée en 1699 à l’emplacement d’un sanctuaire plus ancien, dont le prédécesseur est associé au XIVe siècle et au patronage de saint Oswald. L’édifice à nef unique et à tour est un exemple important d’architecture rurale du premier baroque dans la région de Záhorie. Un enclos historique entouré d’un mur comprend également l’emplacement de l’ancien cimetière paroissial, attesté dans des documents de 1634. L’église est monument culturel national depuis 1963 ; en août 2023, la protection a été étendue au mur d’enceinte et à l’ancien cimetière."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chapelle du Sacré-Cœur et le prétendu miracle de Sološnica",
+          "text": "La chapelle du Sacré-Cœur commémore un événement de la fin de la Seconde Guerre mondiale. Le 11 mars 1945, alors que le front traversait le village et que ses habitants craignaient sa destruction, le maire Jozef Velšmid fit un vœu devant le conseil municipal et la population : si le village sortait indemne du passage du front, une chapelle serait construite et le dimanche suivant l’octave de la Fête-Dieu deviendrait une fête communale. Selon le document municipal, Sološnica échappa aux destructions et aux pertes humaines. L’évêque Michal Buzalka consacra la chapelle le 30 juin 1946. La tradition locale appelle cet épisode le miracle de Sološnica ; des pèlerinages et une procession y sont organisés depuis lors."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cimetière juif : témoignage de l’ancienne communauté juive",
+          "text": "Sološnica comptait une importante communauté juive au XIXe et au début du XXe siècle : un document communal recense 58 habitants juifs en 1828, 51 en 1902 et seulement 15 en 1940. La communauté possédait une maison de prière et un cimetière sur une hauteur au-dessus du village. Après son abandon, le cimetière fut progressivement envahi par la végétation. En 2009, des bénévoles locaux l’ont rendu de nouveau accessible en débroussaillant le terrain ; avant 2012, ils ont redressé les pierres tombales tombées. Il reste environ cinquante sépultures et un peu moins de trente pierres tombales. Le lieu rappelle la diversité religieuse et culturelle de la région de Záhorie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint : un ancien hameau forestier disparu sous Roštún",
+          "text": "Le hameau de Hólint, également nommé Hollindt dans les sources historiques, se trouvait dans le territoire cadastral de Sološnica, à environ quatre kilomètres au sud-est du village. Un document de 1478 le décrit comme une colonie sous le mont Roštún, habitée par des ouvriers forestiers d’origine allemande. Des cartes plus récentes montrent une petite exploitation forestière comprenant plusieurs bâtiments. Une étude spécialisée atteste que des familles de bûcherons y vivaient encore autour du tournant des XIXe et XXe siècles, puis que le lieu fut utilisé par des groupes de randonneurs. Les bâtiments furent démolis en 1971 ; il ne resta qu’une prairie avec des arbres fruitiers. Hólint rappelle une couche d’habitat disparue dans l’arrière-pays montagneux de Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "Moulin seigneurial et scierie d’Alexander Nottný",
+          "text": "Sološnica possédait autrefois un vaste ensemble comprenant un moulin à eau seigneurial et une scierie, qui faisait partie de l’infrastructure économique du domaine des Pálffy. Le moulin, doté d’un équipement de mouture en pierre, fut reconstruit en 1809 puis remanié en 1880 ; la scierie hydraulique fut transformée en scierie à cadre. L’ensemble est associé à Alexander Nottný et figure parmi les deux monuments culturels nationaux de la commune. Son intérêt réside dans le témoignage de l’énergie hydraulique et de l’ancien lien entre meunerie et travail du bois. Comme il faut distinguer l’emplacement exact des vestiges conservés de l’étendue historique du complexe, aucun point cartographique non vérifié n’est indiqué ici."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer et le musée populaire disparu",
+          "text": "Móric Spitzer (1849–1924), né à Malacky, vécut également à Sološnica et fut l’un des archéologues amateurs marquants de la région de Záhorie. À ses frais, il y fonda un musée populaire doté d’une collection exceptionnelle : selon la biographie communale, elle comprenait environ 14 000 pièces de monnaie, un millier d’objets en céramique et majolique et deux cents types de broderies artistiques de costumes populaires des XVIIe et XVIIIe siècles. Il collectionnait aussi des bagues historiques et des monnaies liées à l’histoire hongroise. Le musée n’a pas été conservé ; selon des sources locales, certains objets sont partis à Budapest et à Vienne. En 1881, Spitzer participa également à la fondation du corps de pompiers volontaires de Sološnica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý et la première grammaire historique du slovaque",
+          "text": "Sološnica est le lieu de naissance du linguiste PhDr. Štefan Hlavatý (1876–1923). Il étudia la théologie et la philosophie, exerça comme ecclésiastique puis comme professeur dans des établissements secondaires de Bratislava. Son ouvrage majeur est le livre Vývoj skloňovania podstatných a prídavných mien slovenských, publié en 1922 et considéré comme la première grammaire historique de la langue slovaque. Il étudiait l’évolution historique du slovaque et défendait son autonomie à une époque où des auteurs nationalistes cherchaient à le réduire à un simple dialecte. Hlavatý mourut à Bratislava en 1923 ; sa commune natale lui rend hommage par le nom d’une rue."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Sološnica presso la chiesa di Ognissanti",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún e Vápenná: una cresta calcarea con resti di foresta primaria",
+          "text": "A sud-est di Sološnica, la marcata cresta calcarea di Vápenná, nota anche con il nome più antico di Roštún, si innalza sopra la pianura di Záhorie. I suoi dintorni sono protetti dalla Riserva naturale nazionale di Roštún, istituita nel 1953 e successivamente ampliata a 333,31 ettari. L’area tutela forme carsiche, pareti rocciose e comunità forestali ben conservate dei Piccoli Carpazi. Sui pendii sotto la cima sopravvive inoltre un residuo di foresta primaria di circa 25 ettari, con boschi detritici di tigli e aceri. Un sentiero escursionistico attraversa la cresta e la vetta è uno dei punti panoramici più importanti di questa parte dei Piccoli Carpazi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chiesa di Ognissanti: il riferimento del primo barocco a Sološnica",
+          "text": "L’attuale chiesa di Ognissanti fu completata nel 1699 sul sito di un edificio religioso più antico, il cui predecessore è associato al XIV secolo e alla dedicazione a sant’Osvaldo. L’edificio a navata unica con torre è un importante esempio di architettura rurale del primo barocco nella regione di Záhorie. Attorno alla chiesa si trova un recinto storico murato, che comprende anche il sito dell’antico cimitero parrocchiale documentato nel 1634. La chiesa è monumento culturale nazionale dal 1963; nell’agosto 2023 la tutela è stata estesa anche al muro di cinta e al cimitero scomparso."
+        },
+        {
+          "id": "fact_003",
+          "title": "Cappella del Sacro Cuore e il cosiddetto miracolo di Sološnica",
+          "text": "La cappella del Sacro Cuore ricorda un episodio della fine della Seconda guerra mondiale. L’11 marzo 1945, mentre il fronte attraversava il paese e gli abitanti temevano la sua distruzione, il sindaco Jozef Velšmid fece un voto davanti al consiglio comunale e alla popolazione: se il paese fosse sopravvissuto indenne al passaggio del fronte, sarebbe stata costruita una cappella e la domenica dopo l’ottava del Corpus Domini sarebbe diventata festa comunale. Secondo il documento municipale, Sološnica non subì distruzioni né vittime. Il vescovo Michal Buzalka consacrò la cappella il 30 giugno 1946. La tradizione locale chiama l’episodio miracolo di Sološnica; da allora vi si tengono pellegrinaggi e una processione."
+        },
+        {
+          "id": "fact_004",
+          "title": "Cimitero ebraico: testimonianza dell’antica comunità ebraica",
+          "text": "Nel XIX e all’inizio del XX secolo Sološnica aveva una comunità ebraica significativa: un documento comunale registra 58 residenti ebrei nel 1828, 51 nel 1902 e soltanto 15 nel 1940. La comunità disponeva di una propria casa di preghiera e di un cimitero su un’altura sopra il paese. Dopo l’abbandono, il cimitero fu progressivamente invaso dalla vegetazione. Nel 2009 alcuni volontari locali lo resero nuovamente accessibile eliminando la vegetazione spontanea; prima del 2012 rialzarono le lapidi cadute. Restano circa cinquanta tombe e poco meno di trenta lapidi. Il luogo ricorda la diversità religiosa e culturale della regione di Záhorie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: un insediamento forestale scomparso sotto Roštún",
+          "text": "L’insediamento di Hólint, indicato nelle fonti storiche anche come Hollindt, si trovava nel territorio catastale di Sološnica, circa quattro chilometri a sud-est del paese. Un documento del 1478 lo descrive come colonia sotto il monte Roštún, abitata da lavoratori forestali di origine tedesca. Le mappe successive mostrano una piccola tenuta di boscaioli con diversi edifici. Uno studio specialistico documenta che famiglie di taglialegna vi abitavano ancora tra la fine del XIX e l’inizio del XX secolo e che in seguito la località fu utilizzata anche da gruppi di escursionisti. Gli edifici furono demoliti nel 1971 e rimase soltanto un prato con alberi da frutto. Hólint ricorda uno strato insediativo scomparso nell’entroterra montano di Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mulino signorile e segheria di Alexander Nottný",
+          "text": "A Sološnica esisteva un vasto complesso di mulino ad acqua signorile e segheria, parte dell’infrastruttura economica della tenuta dei Pálffy. Il mulino, dotato di macine in pietra, fu ricostruito nel 1809 e modificato nuovamente nel 1880; la segheria ad acqua fu trasformata in una segheria a telaio. Il complesso è associato ad Alexander Nottný e il comune lo annovera tra i due monumenti culturali nazionali del paese. Il suo valore consiste nella testimonianza dell’energia idraulica e dell’antico legame tra molitura e lavorazione del legno. Poiché occorre distinguere la posizione esatta dei resti conservati dall’estensione storica dell’intero complesso, qui non viene indicato un punto cartografico non verificato."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer e il museo popolare scomparso",
+          "text": "Móric Spitzer (1849–1924), nato a Malacky, visse anche a Sološnica e fu uno dei più importanti archeologi dilettanti della regione di Záhorie. Con mezzi propri fondò qui un museo popolare con una collezione eccezionale: secondo la biografia comunale comprendeva circa 14.000 monete, mille oggetti in ceramica e maiolica e duecento tipi di ricami artistici dei costumi popolari del XVII e XVIII secolo. Collezionava anche anelli storici e monete legate alla storia ungherese. Il museo non è sopravvissuto; secondo fonti locali, alcuni oggetti finirono a Budapest e Vienna. Nel 1881 Spitzer contribuì inoltre alla fondazione del corpo volontario dei vigili del fuoco di Sološnica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý e la prima grammatica storica dello slovacco",
+          "text": "Sološnica è il luogo di nascita del linguista PhDr. Štefan Hlavatý (1876–1923). Studiò teologia e filosofia, lavorò come ecclesiastico e in seguito come insegnante nelle scuole secondarie di Bratislava. La sua opera più importante è il libro Vývoj skloňovania podstatných a prídavných mien slovenských, pubblicato nel 1922 e considerato la prima grammatica storica della lingua slovacca. Il testo studiava l’evoluzione storica dello slovacco e ne difendeva l’autonomia in un periodo in cui alcuni autori nazionalisti cercavano di ridurlo a un semplice dialetto. Hlavatý morì a Bratislava nel 1923; il suo paese natale lo ricorda anche nel nome di una strada."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Sološnica bij de Allerheiligenkerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Roštún en Vápenná: een kalksteenrug met resten oerbos",
+          "text": "Ten zuidoosten van Sološnica rijst de markante kalksteenrug Vápenná, ook bekend onder de oudere naam Roštún, boven het laagland van Záhorie uit. De omgeving wordt beschermd door het nationale natuurreservaat Roštún, dat in 1953 werd ingesteld en later werd uitgebreid tot 333,31 hectare. Het beschermt karstvormen, rotswanden en goed bewaarde bosgemeenschappen van de Kleine Karpaten. Op de hellingen onder de top bleef bovendien een oerbosrest van ongeveer 25 hectare behouden, met linde-esdoornbossen op puinhellingen. Een wandelpad loopt over de bergkam en de top is een van de opvallende uitzichtpunten in dit deel van de Kleine Karpaten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Allerheiligenkerk: vroegbarok herkenningspunt van Sološnica",
+          "text": "De huidige Allerheiligenkerk werd in 1699 voltooid op de plaats van een oudere kerk, waarvan de voorganger met de veertiende eeuw en de patroonheilige Sint-Oswald wordt verbonden. Het eenbeukige gebouw met toren is een belangrijk voorbeeld van vroegbarokke plattelandsarchitectuur in de regio Záhorie. Rond de kerk ligt een historisch ommuurd terrein, met ook de plek van het voormalige kerkhof dat in documenten uit 1634 wordt vermeld. De kerk is sinds 1963 een nationaal cultureel monument; in augustus 2023 werd de bescherming uitgebreid tot de omheiningsmuur en de verdwenen begraafplaats."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kapel van het Heilig Hart en het zogenaamde wonder van Sološnica",
+          "text": "De kapel van het Heilig Hart herdenkt een gebeurtenis aan het einde van de Tweede Wereldoorlog. Op 11 maart 1945, toen het front door het dorp trok en de inwoners voor vernietiging vreesden, legde burgemeester Jozef Velšmid in aanwezigheid van de gemeenteraad en de bevolking een gelofte af: als het dorp de doortocht van het front ongeschonden zou doorstaan, zou er een kapel worden gebouwd en zou de zondag na het octaaf van Sacramentsdag een plaatselijke feestdag worden. Volgens het gemeentelijke verslag bleef Sološnica zonder verwoesting en dodelijke slachtoffers. Bisschop Michal Buzalka wijdde de kapel op 30 juni 1946 in. De lokale traditie noemt dit het wonder van Sološnica; sindsdien vinden er bedevaarten en een processie plaats."
+        },
+        {
+          "id": "fact_004",
+          "title": "Joodse begraafplaats: herinnering aan de vroegere Joodse gemeenschap",
+          "text": "In de negentiende en vroege twintigste eeuw had Sološnica een aanzienlijke Joodse gemeenschap: een gemeentelijk document vermeldt 58 Joodse inwoners in 1828, 51 in 1902 en nog slechts 15 in 1940. De gemeenschap had een eigen gebedshuis en begraafplaats op een verhoging boven het dorp. Na de verlatenheid raakte de begraafplaats geleidelijk overwoekerd. In 2009 maakten plaatselijke vrijwilligers het terrein weer toegankelijk door opslag te verwijderen; vóór 2012 richtten zij omgevallen grafstenen opnieuw op. Er zijn ongeveer vijftig graven en net geen dertig grafstenen bewaard gebleven. De plek herinnert aan de religieuze en culturele verscheidenheid van de regio Záhorie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Hólint: een verdwenen bosarbeidersnederzetting onder Roštún",
+          "text": "De nederzetting Hólint, in historische bronnen ook Hollindt genoemd, lag in het kadastrale gebied van Sološnica, ongeveer vier kilometer ten zuidoosten van het dorp. Een document uit 1478 beschrijft haar als een kolonie onder de berg Roštún, bewoond door bosarbeiders van Duitse afkomst. Latere kaarten tonen een kleine houtvestersnederzetting met enkele gebouwen. Een vakstudie documenteert dat er rond de overgang van de negentiende naar de twintigste eeuw nog houthakkersfamilies woonden en dat de plek later ook door trekkersgroepen werd gebruikt. De gebouwen werden in 1971 afgebroken; alleen een weide met fruitbomen bleef over. Hólint herinnert aan een verdwenen nederzettingslaag in het bergachtige achterland van Sološnica."
+        },
+        {
+          "id": "fact_006",
+          "title": "De landgoedmolen en zagerij van Alexander Nottný",
+          "text": "In Sološnica stond vroeger een groot complex van een watermolen en zagerij van het landgoed, onderdeel van de economische infrastructuur van het domein van de familie Pálffy. De molen met stenen maalinstallatie werd in 1809 herbouwd en in 1880 opnieuw aangepast; de door water aangedreven zagerij werd omgebouwd tot een raamzaag. Het complex wordt verbonden met Alexander Nottný en staat bij de gemeente vermeld als een van de twee nationale culturele monumenten van het dorp. De betekenis ligt in de documentatie van waterkracht en de vroegere samenhang tussen malen en houtbewerking. Omdat de precieze ligging van de bewaarde resten moet worden onderscheiden van de historische omvang van het complex, wordt hier geen ongecontroleerd kaartpunt opgegeven."
+        },
+        {
+          "id": "fact_007",
+          "title": "Móric Spitzer en het verdwenen volksmuseum",
+          "text": "Móric Spitzer (1849–1924), geboren in Malacky, woonde ook in Sološnica en behoorde tot de opvallende amateurarcheologen van de regio Záhorie. Op eigen kosten stichtte hij hier een volksmuseum met een uitzonderlijk grote collectie: volgens de gemeentelijke biografie omvatte die ongeveer 14.000 munten, duizend keramische en majolica-objecten en tweehonderd soorten kunstborduurwerk van volkskleding uit de zeventiende en achttiende eeuw. Hij verzamelde ook historische ringen en munten die verband hielden met de Hongaarse geschiedenis. Het museum is niet bewaard gebleven; volgens lokale bronnen kwamen sommige voorwerpen in Boedapest en Wenen terecht. In 1881 hielp Spitzer bovendien bij de oprichting van de vrijwillige brandweer van Sološnica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Štefan Hlavatý en de eerste historische grammatica van het Slowaaks",
+          "text": "Sološnica is de geboorteplaats van taalkundige PhDr. Štefan Hlavatý (1876–1923). Hij studeerde theologie en filosofie, werkte als geestelijke en later als leraar aan middelbare scholen in Bratislava. Zijn belangrijkste werk was het boek Vývoj skloňovania podstatných a prídavných mien slovenských, dat in 1922 verscheen en geldt als de eerste historische grammatica van de Slowaakse taal. Het onderzocht de historische ontwikkeling van het Slowaaks en verdedigde de zelfstandige status ervan in een tijd waarin nationalistische auteurs het als niet meer dan een dialect probeerden af te schilderen. Hlavatý stierf in 1923 in Bratislava; zijn geboortedorp eert hem ook met een straatnaam."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
