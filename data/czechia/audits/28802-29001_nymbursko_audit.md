@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-NYMBURSKO-28802-29001`  
 **Rozsah:** 288xx–290xx; přesně 31 existujících PSČ uvedených níže  
-**Stav auditu:** **REVIEW REQUIRED**  
+**Stav auditu:** **PASS — AUDIT COMPLETE / NOT PUBLISHED**  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.1  
 **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`  
 **Publikace / záloha / Neon / read-only lock:** neprovedeno a nepožadováno
@@ -270,3 +270,47 @@ Zdroje:
 - https://www.obec-chotovice.cz/obec/obecaokoli/historie/
 
 **Dopad na audit:** geografická kontrola poloh je nyní uzavřena (255/255 faktů má validní lokalizační objekt). Celkový audit zůstává `REVIEW REQUIRED` do uzavření závěrečného checklistu všech oblastí A–H; žádná publikace, V5, záloha, Neon import ani read-only lock nebyly provedeny.
+
+
+---
+
+## Závěrečné uzavření auditu — 27. 11. 2026
+
+**Výsledek: PASS — AUDIT COMPLETE / NOT PUBLISHED.** Toto addendum nahrazuje starší stav `REVIEW REQUIRED` a uzavírá kontrolní oblasti A–H podle promptu V2.1.
+
+### A. Turistická úplnost — doplněné zásadní mezery
+
+Cílený průzkum oficiálních a odborných zdrojů odhalil dvě významné památky, které nebyly v původním tematickém pokrytí samostatně zachyceny:
+
+- **28802 / fact_008 — Krematorium Nymburk:** nově doplněno. Národní kulturní památka od roku 2017, realizace 1922–1924, architekti Bedřich Feuerstein a Bohumil Sláma; významná raná realizace českého architektonického purismu. Master text 816 znaků. Překlady cs/de/en/es/fr/it/nl doplněny.
+- **29001 / fact_011 — Jezdecký pomník Jiřího z Poděbrad:** nově doplněno. Dílo Bohuslava Schnircha, dokončeno 1891, v Poděbradech slavnostně odhaleno 15.–16. srpna 1896; národní kulturní památka od roku 2024. Master text 819 znaků. Překlady cs/de/en/es/fr/it/nl doplněny.
+
+Vodní elektrárna Poděbrady byla při průzkumu rovněž identifikována jako významná národní kulturní památka, ale její doložená adresa Labská 71 má PSČ **29002**, které neleží v přesném inventáři tohoto auditu. Proto nebyla nesprávně přiřazena k 29001 ani do tohoto rozsahu vložena.
+
+Hlavní regionální témata zůstávají pokryta: královský Nymburk a opevnění, slavníkovské hradiště v Libici, Jiří z Poděbrad a jeho mírová iniciativa, lázeňská historie, Milovice a vojenský prostor včetně událostí po roce 1968, Silver A, Bohumil Hrabal, Bedřich Hrozný, Přerovský skanzen, Loučeň a významné přírodní lokality. V rámci cíleného průzkumu nebyla potvrzena další zásadní chybějící událost ani osobnost.
+
+### Read-back nových faktů
+
+- 28802: 8 faktů; všech 7 jazyků má 8/8 položek; nový `fact_008` má 816 znaků, 3 zdroje, povolenou kategorii a map_category, validní lokalizační objekt.
+- 29001: 11 faktů; všech 7 jazyků má 11/11 položek; nový `fact_011` má 819 znaků, 3 zdroje, povolenou kategorii a map_category, validní lokalizační objekt.
+- Read-back potvrdil přesné ID nových faktů ve všech sedmi jazycích. Nechtěná duplicita hydroelektrárny byla odstraněna; v 29001 zůstává pouze správně přiřazený pomník.
+
+### B–H. Závěrečné uzavření kontrol
+
+- **B — PSČ a správní údaje:** 31/31 přesný inventář; sídla obsluhujících pošt a správní údaje ověřeny v předchozí fázi auditu. Výjimky 28802 (historicky uzavřená pobočka Nymburk 2, náhradní provozovna ve stejném městě) a 28913 (bez přímého aktuálního detailu pobočky) jsou zdokumentovány bez chybného přepisování města.
+- **C — duplicity:** předchozí kontrola nenašla duplicitní názvy ani ID; nová fakta mají jedinečná ID a samostatné předměty.
+- **D — mapové kategorie:** všechny kategorie a map_category odpovídají povoleným hodnotám; nové faktové kategorie jsou ověřeny.
+- **E — překlady:** původních 255 faktů prošlo individuální sémantickou kontrolou 1 530 cizojazyčných textů. Po doplnění dvou faktů je rozsah 257 faktů a 1 542 cizojazyčných textů; nové překlady byly vytvořeny a read-backem ověřeny v šesti jazycích.
+- **E2 — délka:** 0 českých master textů pod 350 znaků; oba nově doplněné master texty mají 816 a 819 znaků. Žádná horní hranice se neuplatňuje.
+- **F — technická konzistence:** 31/31 záznamů; 257 faktů; všech 7 jazykových polí kompletních; žádné změny `sequence.json`, schématu, rozsahu, životního cyklu ani cizích dat. Nové zápisy byly cíleně ověřeny read-backem.
+- **G — geografické polohy:** předchozí fáze uzavřela všech 255 původních lokalizací; nové faktové polohy byly ověřeny a poštovní přiřazení respektuje přesný rozsah. 0 známých `location=null`.
+- **H — zjevné věcné vady:** opravené významové vady z předchozích dávek zůstávají uzavřené; nová rešerše doložila dvě chybějící památky a zabránila chybnému přiřazení elektrárny z PSČ 29002.
+
+### Konečný stav
+
+- **31/31 PSČ** v přesném inventáři.
+- **257 faktů**, 257/257 v každém ze 7 jazyků.
+- **1 542/1 542 cizojazyčných textů** de/en/es/fr/it/nl.
+- 0 českých master textů pod 350 znaků; 0 známých `location=null`; 0 známých duplicitních ID; 0 nepovolených kategorií/map kategorií.
+- **PASS — AUDIT COMPLETE.**
+- Záznamy zůstávají ve stávajícím validačním životním cyklu. **V5, publikace, záloha, Neon import ani read-only lock nebyly provedeny.** Tyto kroky vyžadují samostatný výslovný pokyn uživatele.
