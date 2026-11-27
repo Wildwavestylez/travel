@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-VYSKOVSKO-SLAVKOVSKO-68201-68501`  
 **Rozsah:** 68201, 68301, 68303, 68304, 68305, 68308, 68321, 68323, 68333, 68335, 68341, 68351, 68352, 68354, 68401, 68501  
-**Stav:** AUDIT PASS A–H (prompt V2.1 neobsahuje samostatnou oblast I) — 16/16 PSČ; následně PUBLISHED V5 / Supabase read-back 16/16 PASS. Dropbox backup pending — viz provozní poznámka níže. Read-only zamčení neprovedeno.  
+**Stav:** AUDIT PASS A–H (prompt V2.1 neobsahuje samostatnou oblast I) — 16/16 PSČ; následně PUBLISHED V5 / Supabase read-back 16/16 PASS. Dropbox backup function deployed; backup execution pending — viz provozní poznámka níže. Read-only zamčení neprovedeno.  
 **Další přesné PSČ:** žádné — rozsah dokončen.
 
 ## Závazné podklady načtené
@@ -70,7 +70,7 @@ V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno 
 - Křížová kontrola: setkání panovníků ve Vyškově (28. 11. 1805) a Bohdalicích (29. 11. 1805) jsou dvě odlišné události; vysídlení Drahanské vrchoviny v 68308 a 68321 popisuje různé skupiny obcí a lokální dopady, nikoli duplicitní fakta.
 - `explorer_map_points`: pro žádné z 16 ID nebyl nalezen mapový bod; nové body nebyly vytvářeny.
 - Publikace: všech 16 existujících řádků bylo sekvenčně nastaveno na `data_version=5`, `status='published'`. Přesný read-back každého PSČ potvrdil 16/16 bez výjimky.
-- Záloha: dosud neprovedena. V projektu je pouze obecná funkce `travel-backup-validated` (cílený režim selected), která exportuje JSON části + manifest, nikoli restore SQL a ukládá do obecné složky `TRAVEL_BACKUP/DATABASE`; neexistuje dedikovaná auditní funkce pro tento rozsah. Nebyla spuštěna ani vytvořena náhradní funkce. K dokončení standardní auditní zálohy je nutná existující/ověřená funkce produkující JSON + restore SQL + manifest do `TRAVEL_BACKUP/AUDITED`.
+- Zálohovací funkce: vytvořena a nasazena dedikovaná Supabase Edge Function `travel-backup-cz-68201-68501-vyskovsko-audited` (ACTIVE, v1; `verify_jwt=false`, chráněná jedinečným run klíčem). Zdrojový template bez živého klíče je uložen v `supabase/functions/travel-backup-cz-68201-68501-vyskovsko-audited/index.ts`. Funkce má pevný allowlist 16 PSČ a ID 10565–10580, vyžaduje V5/published a 146 faktů, ověřuje 0 mapových bodů podle auditního baseline, načítá pouze přesný rozsah + CZ validační schéma, vytváří JSON + restore SQL + manifest do timestampované složky `TRAVEL_BACKUP/AUDITED`, nahrává add-only a provádí SHA-256 read-back každého souboru. Funkce byla ověřena read-backem kódu v Supabase; preview/ostrý běh zatím nebyl spuštěn, protože dostupné nástroje v tomto běhu neposkytují přímé volání Edge Function a webový přístup k endpointu skončil jako nedostupný. Dropbox záloha proto zůstává PENDING; nebyla vytvořena žádná záložní složka ani soubor.
 
 ## Výsledek
 Audit A–H: PASS. `prompt_audit.md` V2.1 neobsahuje oblast I. Oblast B byla po dokončení taháku doplněna ověřením fyzického sídla všech 16 pošt. Publikace V5 / published: 16/16 PASS. Záloha Dropbox: pending — chybí dedikovaná ověřená funkce pro tento rozsah a tří-souborový auditní formát. Read-only lock neproveden.
