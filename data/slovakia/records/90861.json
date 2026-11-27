@@ -1,4 +1,491 @@
 {
   "postcode": "90861",
-  "status": "placeholder"
+  "city": "Popudinské Močidľany",
+  "district": null,
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Štěpána v Popudinách a historické jádro obce",
+  "representative_point": {
+    "lat": 48.788647,
+    "lon": 17.218159
+  },
+  "access_point": {
+    "lat": 48.788647,
+    "lon": 17.218159
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Popudiny a Močidľany – dvě středověké obce spojené v roce 1957",
+      "text": "Popudiny a Močidľany se poprvé písemně připomínají roku 1392 pod názvy Popudym a Mochilan. Obě osady postupně patřily k panství hradu Branč, Šaštínu a Holíči; v letech 1730–1773 byly majetkem skalických jezuitů a poté Habsburků. Dnešní obec vznikla administrativním sloučením obou sídel 19. května 1957. Prameny se v dataci rozcházejí: Ústřední portál veřejné správy uvádí rok 1954, zatímco aktuální obecní kronika přesné datum 19. 5. 1957.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Habáni v Popudinách – keramická tradice a habánský dvůr",
+      "text": "V 17. století se v Popudinách usadili habáni, novokřtěnci známí řemeslnou zručností a výrobou keramiky. Jejich přítomnost navázala na širší habánskou tradici západního Slovenska a přispěla k řemeslnému charakteru obce. Popudiny byly součástí panství Holíč a v letech 1730–1773 patřily skalickým jezuitům. Stopy habánské minulosti připomíná také historická symbolika obce a místní tradice.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Štěpána Uherského v Popudinách – barokně-klasicistní chrám",
+      "text": "Kostel sv. Štěpána Uherského v místní části Popudiny byl postaven roku 1831 v barokně-klasicistním stylu. Jeho interiér ukrývá rokokovou lampu věčného světla z druhé poloviny 18. století, která je starší než samotná stavba. Před kostelem stojí kamenný kříž z roku 1904, který dali postavit manželé Ján a Anna Žúrkoví; na soklu je také pamětní deska obětem druhé světové války.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "location": {
+        "name": "Kostel sv. Štefana Uhorského, Popudiny",
+        "lat": 48.788647,
+        "lon": 17.218159,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.dokostola.sk/kostol/410188-sv-stefana"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Šimona a Judy v Močidľanech – nejstarší dochovaná sakrální památka",
+      "text": "Kostel sv. Šimona a Judy v místní části Močidľany pochází z roku 1802 a je nejstarší dochovanou sakrální památkou dnešní obce. Klasicistní stavba má podélné asymetrické dvoulodí s hlavní lodí a později přistavěnou boční lodí. Hlavní oltář zdobí obraz patronů kostela a postranní niky sošky Božského Srdce a Panny Marie. Před vstupem stojí pomník padlým v první světové válce, obnovený roku 2014.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s6"
+      ],
+      "location": {
+        "name": "Kostel sv. Šimona a Judy, Močidľany",
+        "lat": 48.7807,
+        "lon": 17.2231,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://commons.wikimedia.org/wiki/Category:Church_of_Saints_Simon_and_Jude_(Popudinsk%C3%A9_Mo%C4%8Did%C4%BEany)"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Židovská komunita v Popudinách a dochovaný hřbitov",
+      "text": "V Popudinách žila početná židovská komunita, která měla vlastní synagogu a hřbitov; židé z Močidľan patřili k popudinské obci. Už roku 1869 zde podle historických pramenů zůstával jen malý počet židovských obyvatel a poslední členové komunity odešli před zánikem monarchie. Jedinou hmotnou připomínkou jejich přítomnosti je židovský hřbitov v části Popudiny. V 50. letech 20. století se uvažovalo o jeho likvidaci, ale dochoval se dodnes.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s7",
+        "s8"
+      ],
+      "location": {
+        "name": "Židovský cintorín, Popudiny",
+        "lat": 48.791062,
+        "lon": 17.218979,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/popudiny-popudinske-mocidlany-zidovsky-cintorin"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Kaple, kříže a boží muka v Popudinách a Močidľanech",
+      "text": "Obě historické části obce si uchovaly množství drobných sakrálních památek. V Popudinách stojí kaple Panny Marie, Lurdská jeskyně, kaple sv. Urbana ve vinohradech a socha sv. Floriána. V Močidľanech se nachází kaple sv. Anny a kaple sv. Jana Nepomuckého; v okolí jsou kamenné kříže a boží muka. Tyto objekty dokládají živou poutní, vinařskou a komunitní tradici obou původních vesnic.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s9"
+      ],
+      "location": null,
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Konopí, len a původ místního jména Močidľany",
+      "text": "Obyvatelé obou vesnic se po staletí živili zemědělstvím a chovem dobytka. V roce 1715 měly Popudiny 17 domácností, zatímco Močidľany 10 poddanských a 13 želiarských domácností; roku 1828 měly dohromady přes tisíc obyvatel. Jazykovědci spojují jméno Močidľany s polohou u močidel, kde se máčelo konopí a len před dalším zpracováním. Tato tradiční výroba vysvětluje i význam domácího plátenictví v regionu.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální adresa Obecního úradu Popudinské Močidľany 56, 908 61 Popudinské Močidľany potvrzuje PSČ 908 61 pro sloučenou obec Popudinské Močidľany, zahrnující historické části Popudiny a Močidľany.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Pošta Popudinské Močidľany – PSČ 908 61",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávací pošta Popudinské Močidľany, č. 56; reprezentativní bod je u kostela sv. Štěpána v Popudinách.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR pro adresní evidenci; oficiální obecní zdroje a Ústredný portál verejnej správy pro správní a místní geografii; odborné památkové a jazykovědné zdroje pro historické objekty a místní názvy."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Popudinské Močidľany – História obce",
+      "url": "https://popudinskemocidlany.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Ústredný portál verejnej správy – Popudinské Močidľany",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_26815c0f-96e8-4089-91a6-6d5ad0be5c7f",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Popudinské Močidľany – Program odpadového hospodárstva",
+      "url": "https://popudinskemocidlany.sk/wp-content/uploads/dokumenty/smernice-poriadky/POH-Obce-Popudinske-Mocidlany.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "ZMO Záhorie – Popudinské Močidľany",
+      "url": "https://zmo-zahorie.sk/popudinske-mocidlany/",
+      "type": "regional"
+    },
+    {
+      "id": "s5",
+      "title": "DoKostola.sk – Kostol sv. Štefana Uhorského, Popudiny",
+      "url": "https://www.dokostola.sk/kostol/410188-sv-stefana",
+      "type": "other"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Popudinské Močidľany – Symboly obce a pamiatky",
+      "url": "https://popudinskemocidlany.sk/obec/symboly-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – Židovský cintorín Popudiny",
+      "url": "https://www.pamiatkynaslovensku.sk/popudiny-popudinske-mocidlany-zidovsky-cintorin",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "ESJF – Popudiny Jewish Cemetery Survey",
+      "url": "https://www.esjf-cemeteries.org/survey/popudiny-jewish-cemetery/",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Epocha – Sakrálne pamiatky Popudiny a Močidľany",
+      "url": "https://kriz.epocha.sk/zidovske-cintoriny/zidovsky-cintorin-popudiny",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Jazykovedné štúdie – Pôvod miestneho mena Močidľany",
+      "url": "https://www.juls.savba.sk/ediela/ks/2012/5/ks2012-5.pdf",
+      "type": "academic"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Štěpána v Popudinách a historické jádro obce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny a Močidľany – dvě středověké obce spojené v roce 1957",
+          "text": "Popudiny a Močidľany se poprvé písemně připomínají roku 1392 pod názvy Popudym a Mochilan. Obě osady postupně patřily k panství hradu Branč, Šaštínu a Holíči; v letech 1730–1773 byly majetkem skalických jezuitů a poté Habsburků. Dnešní obec vznikla administrativním sloučením obou sídel 19. května 1957. Prameny se v dataci rozcházejí: Ústřední portál veřejné správy uvádí rok 1954, zatímco aktuální obecní kronika přesné datum 19. 5. 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Habáni v Popudinách – keramická tradice a habánský dvůr",
+          "text": "V 17. století se v Popudinách usadili habáni, novokřtěnci známí řemeslnou zručností a výrobou keramiky. Jejich přítomnost navázala na širší habánskou tradici západního Slovenska a přispěla k řemeslnému charakteru obce. Popudiny byly součástí panství Holíč a v letech 1730–1773 patřily skalickým jezuitům. Stopy habánské minulosti připomíná také historická symbolika obce a místní tradice."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel sv. Štěpána Uherského v Popudinách – barokně-klasicistní chrám",
+          "text": "Kostel sv. Štěpána Uherského v místní části Popudiny byl postaven roku 1831 v barokně-klasicistním stylu. Jeho interiér ukrývá rokokovou lampu věčného světla z druhé poloviny 18. století, která je starší než samotná stavba. Před kostelem stojí kamenný kříž z roku 1904, který dali postavit manželé Ján a Anna Žúrkoví; na soklu je také pamětní deska obětem druhé světové války."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Šimona a Judy v Močidľanech – nejstarší dochovaná sakrální památka",
+          "text": "Kostel sv. Šimona a Judy v místní části Močidľany pochází z roku 1802 a je nejstarší dochovanou sakrální památkou dnešní obce. Klasicistní stavba má podélné asymetrické dvoulodí s hlavní lodí a později přistavěnou boční lodí. Hlavní oltář zdobí obraz patronů kostela a postranní niky sošky Božského Srdce a Panny Marie. Před vstupem stojí pomník padlým v první světové válce, obnovený roku 2014."
+        },
+        {
+          "id": "fact_005",
+          "title": "Židovská komunita v Popudinách a dochovaný hřbitov",
+          "text": "V Popudinách žila početná židovská komunita, která měla vlastní synagogu a hřbitov; židé z Močidľan patřili k popudinské obci. Už roku 1869 zde podle historických pramenů zůstával jen malý počet židovských obyvatel a poslední členové komunity odešli před zánikem monarchie. Jedinou hmotnou připomínkou jejich přítomnosti je židovský hřbitov v části Popudiny. V 50. letech 20. století se uvažovalo o jeho likvidaci, ale dochoval se dodnes."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kaple, kříže a boží muka v Popudinách a Močidľanech",
+          "text": "Obě historické části obce si uchovaly množství drobných sakrálních památek. V Popudinách stojí kaple Panny Marie, Lurdská jeskyně, kaple sv. Urbana ve vinohradech a socha sv. Floriána. V Močidľanech se nachází kaple sv. Anny a kaple sv. Jana Nepomuckého; v okolí jsou kamenné kříže a boží muka. Tyto objekty dokládají živou poutní, vinařskou a komunitní tradici obou původních vesnic."
+        },
+        {
+          "id": "fact_007",
+          "title": "Konopí, len a původ místního jména Močidľany",
+          "text": "Obyvatelé obou vesnic se po staletí živili zemědělstvím a chovem dobytka. V roce 1715 měly Popudiny 17 domácností, zatímco Močidľany 10 poddanských a 13 želiarských domácností; roku 1828 měly dohromady přes tisíc obyvatel. Jazykovědci spojují jméno Močidľany s polohou u močidel, kde se máčelo konopí a len před dalším zpracováním. Tato tradiční výroba vysvětluje i význam domácího plátenictví v regionu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Stephanskirche in Popudiny und historischer Ortskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny und Močidľany – zwei mittelalterliche Dörfer, 1957 vereinigt",
+          "text": "Popudiny und Močidľany werden 1392 erstmals als Popudym und Mochilan erwähnt. Beide gehörten zu den Herrschaften Branč, Šaštín und Holíč, 1730–1773 den Jesuiten von Skalica und danach den Habsburgern. Die heutige Gemeinde entstand am 19. Mai 1957 durch die Vereinigung beider Orte. Quellen widersprechen sich: Das staatliche Portal nennt 1954, die aktuelle Gemeindeseite den 19. Mai 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Habaner in Popudiny – Keramiktradition und Habanerhof",
+          "text": "Im 17. Jahrhundert ließen sich in Popudiny Habaner nieder, Täufer, die für ihr Handwerk und ihre Keramik bekannt waren. Sie prägten das örtliche Gewerbe und knüpften an die Habaner-Tradition der Westslowakei an. Popudiny gehörte zur Herrschaft Holíč und 1730–1773 den Jesuiten von Skalica."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Stephanskirche in Popudiny – barock-klassizistischer Bau",
+          "text": "Die Kirche des heiligen Stephan von Ungarn wurde 1831 erbaut. Im Inneren befindet sich eine Rokoko-Ewiglichtlampe aus der zweiten Hälfte des 18. Jahrhunderts. Vor der Kirche steht ein Steinkreuz von 1904; eine Tafel erinnert an die Opfer des Zweiten Weltkriegs."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Simon-und-Judas-Kirche in Močidľany – ältestes erhaltenes Sakraldenkmal",
+          "text": "Die Kirche in Močidľany stammt aus dem Jahr 1802 und ist das älteste erhaltene Sakraldenkmal der heutigen Gemeinde. Der klassizistische Bau besitzt zwei asymmetrische Längsschiffe. Vor dem Eingang steht ein 2014 restauriertes Denkmal für die Gefallenen des Ersten Weltkriegs."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die jüdische Gemeinde von Popudiny und ihr erhaltener Friedhof",
+          "text": "In Popudiny lebte eine größere jüdische Gemeinde mit eigener Synagoge und eigenem Friedhof; die Juden aus Močidľany gehörten zu ihr. Bereits 1869 gab es nur noch wenige jüdische Einwohner, die letzten verließen den Ort vor dem Ende der Monarchie. Der jüdische Friedhof ist die einzige erhaltene materielle Erinnerung an die Gemeinde."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kapellen, Kreuze und Bildstöcke in Popudiny und Močidľany",
+          "text": "Beide Ortsteile bewahren zahlreiche kleine Sakraldenkmäler. In Popudiny stehen eine Marienkapelle, eine Lourdesgrotte, die Urbanskapelle in den Weinbergen und eine Florianstatue. In Močidľany gibt es die Annakapelle und die Nepomukkapelle sowie Steinkreuze und Bildstöcke."
+        },
+        {
+          "id": "fact_007",
+          "title": "Hanf, Flachs und die Herkunft des Namens Močidľany",
+          "text": "Die Einwohner lebten jahrhundertelang von Landwirtschaft und Viehzucht. 1715 zählte Popudiny 17 Haushalte, Močidľany zehn Bauern- und 13 Häuslerhaushalte. Sprachwissenschaftler leiten den Namen Močidľany von Wasserstellen ab, an denen Hanf und Flachs vor der Verarbeitung eingeweicht wurden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Stephen’s Church in Popudiny and historic centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny and Močidľany – two medieval villages united in 1957",
+          "text": "Popudiny and Močidľany are first recorded in 1392 as Popudym and Mochilan. Both belonged to the estates of Branč, Šaštín and Holíč, to the Jesuits of Skalica from 1730 to 1773, and then to the Habsburgs. The present municipality was formed on 19 May 1957. Sources disagree: the central government portal says 1954, while the current municipal history gives 19 May 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hutterites in Popudiny – a ceramic tradition and Hutterite farmstead",
+          "text": "Hutterites, Anabaptists known for their pottery and crafts, settled in Popudiny in the 17th century. Their presence linked the village with the wider Hutterite tradition of western Slovakia and contributed to its craft culture. Popudiny belonged to the Holíč estate and to the Jesuits of Skalica from 1730 to 1773."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Stephen of Hungary Church in Popudiny – a Baroque-Classical building",
+          "text": "The Church of St Stephen of Hungary in Popudiny was built in 1831. Its interior preserves a Rococo eternal-light lamp from the second half of the 18th century. A stone cross from 1904 stands outside, with a plaque commemorating victims of World War II."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Church of Saints Simon and Jude in Močidľany – oldest surviving religious monument",
+          "text": "The church in Močidľany dates from 1802 and is the oldest surviving religious monument in the present municipality. The Neoclassical building has two asymmetrical longitudinal naves. A memorial to the fallen of World War I stands outside and was restored in 2014."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Jewish community of Popudiny and its surviving cemetery",
+          "text": "Popudiny had a sizeable Jewish community with its own synagogue and cemetery; Jews from Močidľany belonged to it. By 1869 only a small number remained, and the last members left before the end of the monarchy. The Jewish cemetery is the only surviving physical reminder of the community."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chapels, crosses and wayside shrines in Popudiny and Močidľany",
+          "text": "Both historic parts preserve many small religious monuments. Popudiny has a Marian chapel, Lourdes grotto, St Urban chapel in the vineyards and a statue of St Florian. Močidľany has a St Anne chapel and a St John of Nepomuk chapel, alongside stone crosses and wayside shrines."
+        },
+        {
+          "id": "fact_007",
+          "title": "Hemp, flax and the origin of the name Močidľany",
+          "text": "Residents of both villages lived from farming and livestock. In 1715 Popudiny had 17 households, while Močidľany had ten serf and 13 cottager households. Linguists connect the name Močidľany with soaking places where hemp and flax were immersed before processing."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Esteban en Popudiny y centro histórico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny y Močidľany, dos pueblos medievales unidos en 1957",
+          "text": "Popudiny y Močidľany aparecen en 1392 como Popudym y Mochilan. Pertenecieron a los señoríos de Branč, Šaštín y Holíč, a los jesuitas de Skalica entre 1730 y 1773 y después a los Habsburgo. El municipio actual se formó el 19 de mayo de 1957. Las fuentes discrepan: el portal estatal indica 1954, mientras que la historia municipal da 19 de mayo de 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Los habanos en Popudiny, tradición cerámica y patio comunitario",
+          "text": "En el siglo XVII se establecieron en Popudiny los habanos, anabaptistas conocidos por su artesanía y cerámica. Su presencia vinculó el pueblo con la tradición habana del oeste de Eslovaquia. Popudiny perteneció al señorío de Holíč y a los jesuitas de Skalica entre 1730 y 1773."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Esteban de Hungría en Popudiny, edificio barroco-clasicista",
+          "text": "La iglesia de San Esteban de Hungría se construyó en 1831. Conserva una lámpara rococó de luz perpetua de la segunda mitad del siglo XVIII. Delante hay una cruz de piedra de 1904 y una placa conmemorativa de las víctimas de la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de San Simón y San Judas en Močidľany, monumento religioso más antiguo",
+          "text": "La iglesia de Močidľany data de 1802 y es el monumento religioso más antiguo conservado del municipio. El edificio neoclásico tiene dos naves longitudinales asimétricas. Delante se encuentra un monumento a los caídos en la Primera Guerra Mundial, restaurado en 2014."
+        },
+        {
+          "id": "fact_005",
+          "title": "La comunidad judía de Popudiny y su cementerio conservado",
+          "text": "Popudiny tuvo una comunidad judía numerosa con sinagoga y cementerio propios; los judíos de Močidľany pertenecían a ella. En 1869 ya quedaban pocos habitantes judíos y los últimos se marcharon antes del final de la monarquía. El cementerio es el único testimonio material conservado de la comunidad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Capillas, cruces y pequeños santuarios de Popudiny y Močidľany",
+          "text": "Ambas partes históricas conservan pequeños monumentos religiosos. Popudiny tiene una capilla mariana, gruta de Lourdes, capilla de San Urbano entre viñedos y estatua de san Florián. Močidľany conserva capillas de Santa Ana y San Juan Nepomuceno, además de cruces de piedra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cáñamo, lino y origen del nombre Močidľany",
+          "text": "Durante siglos, los habitantes vivieron de la agricultura y la ganadería. En 1715 Popudiny tenía 17 hogares y Močidľany diez hogares campesinos y 13 de jornaleros. Los lingüistas relacionan el nombre Močidľany con los lugares donde se remojaban el cáñamo y el lino antes de trabajarlos."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Étienne à Popudiny et centre historique",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny et Močidľany, deux villages médiévaux réunis en 1957",
+          "text": "Popudiny et Močidľany sont mentionnés en 1392 sous les noms Popudym et Mochilan. Ils dépendirent des domaines de Branč, Šaštín et Holíč, des jésuites de Skalica de 1730 à 1773, puis des Habsbourg. La commune actuelle fut créée le 19 mai 1957. Les sources divergent : le portail public indique 1954, tandis que l’histoire communale donne le 19 mai 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les Huttérites à Popudiny, tradition de céramique et cour communautaire",
+          "text": "Au XVIIe siècle, des anabaptistes appelés Huttérites, connus pour leur artisanat et leur céramique, s’installèrent à Popudiny. Leur présence relia le village à la tradition huttérite de l’ouest de la Slovaquie. Popudiny dépendait du domaine de Holíč et des jésuites de Skalica entre 1730 et 1773."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Étienne de Hongrie à Popudiny, édifice baroque-classique",
+          "text": "L’église Saint-Étienne de Hongrie fut construite en 1831. Elle conserve une lampe de sanctuaire rococo de la seconde moitié du XVIIIe siècle. Une croix de pierre de 1904 se trouve devant l’édifice, avec une plaque commémorant les victimes de la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Saints-Simon-et-Jude à Močidľany, plus ancien monument religieux conservé",
+          "text": "L’église de Močidľany date de 1802 et constitue le plus ancien monument religieux conservé de la commune actuelle. L’édifice néoclassique possède deux nefs longitudinales asymétriques. Un monument aux morts de la Première Guerre mondiale, restauré en 2014, se trouve devant l’église."
+        },
+        {
+          "id": "fact_005",
+          "title": "La communauté juive de Popudiny et son cimetière conservé",
+          "text": "Popudiny possédait une importante communauté juive avec synagogue et cimetière ; les Juifs de Močidľany en faisaient partie. En 1869, il ne restait déjà que peu d’habitants juifs et les derniers partirent avant la fin de la monarchie. Le cimetière juif est le seul témoignage matériel conservé de cette communauté."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chapelles, croix et petits sanctuaires à Popudiny et Močidľany",
+          "text": "Les deux parties historiques conservent de nombreux petits monuments religieux. Popudiny possède une chapelle mariale, une grotte de Lourdes, une chapelle Saint-Urbain dans les vignobles et une statue de saint Florian. Močidľany conserve des chapelles Sainte-Anne et Saint-Jean-Népomucène, ainsi que des croix de pierre."
+        },
+        {
+          "id": "fact_007",
+          "title": "Chanvre, lin et origine du nom Močidľany",
+          "text": "Pendant des siècles, les habitants vivaient de l’agriculture et de l’élevage. En 1715, Popudiny comptait 17 foyers et Močidľany dix foyers paysans et 13 foyers de journaliers. Les linguistes relient le nom Močidľany aux lieux où l’on faisait tremper le chanvre et le lin avant leur transformation."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di Santo Stefano a Popudiny e centro storico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny e Močidľany, due villaggi medievali uniti nel 1957",
+          "text": "Popudiny e Močidľany compaiono nel 1392 come Popudym e Mochilan. Appartennero ai domini di Branč, Šaštín e Holíč, ai gesuiti di Skalica dal 1730 al 1773 e poi agli Asburgo. Il comune attuale nacque dall’unione dei due insediamenti il 19 maggio 1957. Le fonti divergono: il portale statale indica il 1954, mentre la storia comunale riporta il 19 maggio 1957."
+        },
+        {
+          "id": "fact_002",
+          "title": "Gli anabattisti a Popudiny, tradizione ceramica e corte comunitaria",
+          "text": "Nel XVII secolo si stabilirono a Popudiny gli anabattisti, noti per l’artigianato e la ceramica. La loro presenza collegò il villaggio alla tradizione anabattista della Slovacchia occidentale. Popudiny appartenne al dominio di Holíč e ai gesuiti di Skalica dal 1730 al 1773."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di Santo Stefano d’Ungheria a Popudiny, edificio barocco-classico",
+          "text": "La chiesa di Santo Stefano d’Ungheria fu costruita nel 1831. Conserva una lampada rococò della luce perpetua della seconda metà del XVIII secolo. Davanti si trova una croce in pietra del 1904 e una targa commemorativa delle vittime della Seconda guerra mondiale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa dei Santi Simone e Giuda a Močidľany, più antico monumento religioso",
+          "text": "La chiesa di Močidľany risale al 1802 ed è il più antico monumento religioso conservato del comune attuale. L’edificio neoclassico presenta due navate longitudinali asimmetriche. Davanti si trova un monumento ai caduti della Prima guerra mondiale, restaurato nel 2014."
+        },
+        {
+          "id": "fact_005",
+          "title": "La comunità ebraica di Popudiny e il suo cimitero conservato",
+          "text": "Popudiny ospitava una numerosa comunità ebraica con sinagoga e cimitero; gli ebrei di Močidľany ne facevano parte. Nel 1869 ne rimanevano pochi e gli ultimi partirono prima della fine della monarchia. Il cimitero ebraico è l’unica testimonianza materiale conservata della comunità."
+        },
+        {
+          "id": "fact_006",
+          "title": "Cappelle, croci e piccoli santuari a Popudiny e Močidľany",
+          "text": "Entrambe le parti storiche conservano piccoli monumenti religiosi. Popudiny ha una cappella mariana, una grotta di Lourdes, una cappella di sant’Urbano tra i vigneti e una statua di san Floriano. Močidľany conserva cappelle di sant’Anna e san Giovanni Nepomuceno, oltre a croci in pietra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Canapa, lino e origine del nome Močidľany",
+          "text": "Per secoli gli abitanti vissero di agricoltura e allevamento. Nel 1715 Popudiny contava 17 famiglie e Močidľany dieci famiglie contadine e 13 di braccianti. I linguisti collegano il nome Močidľany ai luoghi in cui si mettevano a macerare canapa e lino prima della lavorazione."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Stefanuskerk in Popudiny en historische kern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Popudiny en Močidľany – twee middeleeuwse dorpen verenigd in 1957",
+          "text": "Popudiny en Močidľany worden in 1392 vermeld als Popudym en Mochilan. Beide behoorden tot de landgoederen Branč, Šaštín en Holíč, van 1730 tot 1773 tot de jezuïeten van Skalica en daarna tot de Habsburgers. De huidige gemeente ontstond op 19 mei 1957. Bronnen verschillen: het overheidsportaal noemt 1954, terwijl de gemeentegeschiedenis 19 mei 1957 vermeldt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hutterieten in Popudiny – keramiektraditie en gemeenschappelijke boerderij",
+          "text": "In de 17e eeuw vestigden zich in Popudiny Hutterieten, wederdopers die bekendstonden om hun ambacht en aardewerk. Hun aanwezigheid verbond het dorp met de Hutteritische traditie van westelijk Slowakije. Popudiny hoorde bij het landgoed Holíč en van 1730 tot 1773 bij de jezuïeten van Skalica."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Stefanus-van-Hongarijkerk in Popudiny – barok-classicistisch gebouw",
+          "text": "De Sint-Stefanus-van-Hongarijkerk werd in 1831 gebouwd. Binnen is een rococo eeuwig-lichtlamp uit de tweede helft van de 18e eeuw bewaard gebleven. Buiten staat een stenen kruis uit 1904 met een gedenkplaat voor de slachtoffers van de Tweede Wereldoorlog."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Simon-en-Judaskerk in Močidľany – oudste religieuze monument",
+          "text": "De kerk in Močidľany dateert uit 1802 en is het oudste bewaard gebleven religieuze monument van de huidige gemeente. Het neoklassieke gebouw heeft twee asymmetrische lengteschepen. Voor de ingang staat een in 2014 gerestaureerd monument voor de gesneuvelden van de Eerste Wereldoorlog."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Joodse gemeenschap van Popudiny en haar bewaard gebleven begraafplaats",
+          "text": "Popudiny had een omvangrijke Joodse gemeenschap met eigen synagoge en begraafplaats; Joden uit Močidľany behoorden ertoe. In 1869 waren er al weinig Joodse inwoners over en de laatsten vertrokken vóór het einde van de monarchie. De Joodse begraafplaats is de enige tastbare herinnering die bewaard bleef."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kapellen, kruisen en wegkapellen in Popudiny en Močidľany",
+          "text": "Beide historische delen bewaren kleine religieuze monumenten. Popudiny heeft een Mariakapel, Lourdesgrot, Sint-Urbanuskapel tussen de wijngaarden en een beeld van Sint-Florianus. Močidľany heeft kapellen van Sint-Anna en Sint-Johannes-Nepomuk, naast stenen kruisen en wegkapellen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Hennep, vlas en de oorsprong van de naam Močidľany",
+          "text": "Eeuwenlang leefden de inwoners van landbouw en veeteelt. In 1715 telde Popudiny 17 huishoudens en Močidľany tien boeren- en 13 daglonersgezinnen. Taalkundigen verbinden de naam Močidľany met de weekplaatsen waar hennep en vlas vóór de verwerking werden geweekt."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
