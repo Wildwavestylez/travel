@@ -2,8 +2,8 @@
 
 **Kanonické ID:** `CZ-VYSKOVSKO-SLAVKOVSKO-68201-68501`  
 **Rozsah:** 68201, 68301, 68303, 68304, 68305, 68308, 68321, 68323, 68333, 68335, 68341, 68351, 68352, 68354, 68401, 68501  
-**Stav:** AUDIT IN PROGRESS — 6/16 PSČ kompletně zkontrolováno; bez publikace, zálohy a read-only zamčení.  
-**Další přesné PSČ:** 68321.
+**Stav:** AUDIT IN PROGRESS — 9/16 PSČ kompletně zkontrolováno; bez publikace, zálohy a read-only zamčení.  
+**Další přesné PSČ:** 68335.
 
 ## Závazné podklady načtené
 - `prompt_audit.md` V2.1
@@ -35,8 +35,8 @@ Zdroje k doplněným tématům:
 
 | PSČ | Fakta | Sedm jazyků | Opravy / poznámky | Výsledek |
 |---|---:|---|---|---|
-| 68201 | 11 | cs/de/en/es/fr/it/nl | Doplněn `fact_011` — porada Františka I. a Alexandra I. na zámku 28. 11. 1805. Počty překladů 11/11 ve všech jazycích; 0 krátkých CS textů, 0 prázdných masterů, 0 duplicitních ID, 0 faktů bez zdrojů, 0 neplatných enumů. Jedna null location u vícemístného faktu ponechána. | PASS — obsah/překlady/struktura |
-| 68301 | 10 | cs/de/en/es/fr/it/nl | Doplněn `fact_010` — orba Josefa II. u Slavíkovic 19. 8. 1769 a historie památníků. Počty překladů 10/10 ve všech jazycích; 0 krátkých CS textů, 0 prázdných masterů, 0 duplicitních ID, 0 faktů bez zdrojů, 0 neplatných enumů. Jedna null location u vícemístného faktu ponechána. | PASS — obsah/překlady/struktura |
+| 68201 | 11 | cs/de/en/es/fr/it/nl | Doplněn `fact_011` — porada Františka I. a Alexandra I. na zámku 28. 11. 1805. Počty překladů 11/11 ve všech jazycích; 0 krátkých CS textů, 0 prázdných masterů, 0 duplicitních ID, 0 faktů bez zdrojů, 0 neplatných enumů a 0 CS/master rozdílů. Opraveny location.type (chateau→castle, castle_ruin→ruin) a source type academic→specialist. Jedna null location u vícemístného faktu ponechána. | PASS — obsah/překlady/struktura |
+| 68301 | 10 | cs/de/en/es/fr/it/nl | Doplněn `fact_010` — orba Josefa II. u Slavíkovic 19. 8. 1769 a historie památníků. Počty překladů 10/10 ve všech jazycích; 0 krátkých CS textů, 0 prázdných masterů, 0 duplicitních ID, 0 faktů bez zdrojů, 0 neplatných enumů a 0 CS/master rozdílů. Opraveny location.type (town_square→historic_square, chateau→castle) a source type academic→university. Jedna null location u vícemístného faktu ponechána. | PASS — obsah/překlady/struktura |
 | 68303 | 6 | cs/de/en/es/fr/it/nl | Opraveny nepovolené `location.type`: zřícenina hradu `castle_ruin` → `ruin`; přírodní koupací lokalita `natural_swimming` → `natural_feature`. Počty překladů 6/6; 0 krátkých, prázdných, duplicitních, bez zdrojů i neplatných enumů. Jedna null location u plošného přírodního území ponechána. | PASS — obsah/překlady/struktura |
 | 68304 | 8 | cs/de/en/es/fr/it/nl | Opraveno datum demolice Liblice B: 12. 11. 2026 (datum článku) → 15. 10. 2026 (datum odstřelu), master + 6 překladů; doplněn oficiální zdroj CRA. Opraveny nepovolené location.type: `chateau` → `castle`, `broadcast_tower` → `technical_monument`, `village_centre` → `historic_village`. Počty překladů 8/8; 0 krátkých, prázdných, duplicitních, bez zdrojů i neplatných enumů. Jedna null location u širší krajinné oblasti ponechána. | PASS — obsah/překlady/struktura |
 | 68305 | 5 | cs/de/en/es/fr/it/nl | Opraveny nepovolené location.type: `chateau` → `castle`, `belfry` → `monument`. Opravena významová chyba v italštině fact_002: sv. Vendelín nebyl sv. Václav. Počty překladů 5/5; 0 krátkých, prázdných, duplicitních, bez zdrojů i neplatných enumů. | PASS — obsah/překlady/struktura |
@@ -44,9 +44,11 @@ Zdroje k doplněným tématům:
 
 **Společné technické zjištění:** U všech šesti dokončených řádků je `data_version=1`; prvních pět má `status=placeholder`, 68308 má `status=validated`. Status/verze nebyly změněny. Pro vybraná ID nebyly nalezeny žádné řádky v `explorer_map_points`; během běžného auditu se mapové body nevytvářejí a publikace nebyla požadována.
 
+| 68321 | 8 | cs/de/en/es/fr/it/nl | Opraveny nepovolené kategorie/map_category; historické příběhy vesnic a vystěhování mají map_category `local_culture`, Zelená hora má `archaeological_site` a vyhlídka `viewpoint_landscape`. 8/8 překladů ve všech jazycích; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68323 | 7 | cs/de/en/es/fr/it/nl | Opraveny category/map_category a location.type: historická centra měst `historic_city` → `historic_settlement` (map_category zůstává dle tématu). 7/7 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68333 | 15 | cs/de/en/es/fr/it/nl | Doplněn `fact_015` — František Král (1921–2001), pilot československých leteckých jednotek RAF a rodák z Nesovic; podklady VÚA, Slavkovské bojiště a místní knihovna. Doplněna area_representative poloha Letošova do fact_013; fact_006 a fact_014 zůstávají null (lesní kámen a neurčené místo Hrádku). Opraveny map_category fact_010 a fact_014 na `local_culture`; opraveny source types reference→regional/news. 15/15 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů ani CS/master rozdílů; 2 null locations. | PASS |
+
 ## Částečně provedené opravy — PSČ stále otevřená
-- **68321:** opraveny kategorie/map_category: fact_002 `religious_heritage` → `heritage_and_monuments`; fact_003 `archaeology` → `history` a `archaeological_site`; fact_006 map_category `landscape` → `viewpoint_landscape`; fact_008 map_category `heritage` → `historical_monument`. Kompletní jazykový audit a validace ještě neproběhly.
-- **68323:** opraveny fact_004 map_category `heritage` → `historical_monument`; fact_006 category `museums_and_culture` → `culture_and_industry`; fact_007 map_category `memorial` → `historical_monument`. Kompletní jazykový audit a validace ještě neproběhly.
 
 ## Normalizované pole city
 V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno s `content.city`: 68201, 68301, 68308, 68321, 68323, 68333, 68352, 68354, 68401, 68501. `content.city` je určeno obcí fyzického sídla obsluhující pošty; zbývá při kontrole příslušných PSČ ověřit shodu s oficiální adresou pošty. Ostatní správní pole nebyla měněna.
@@ -60,4 +62,4 @@ V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno 
 6. Na konci shrnout status/verzi; nepublikovat, nezálohovat ani nezamykat bez výslovného pokynu.
 
 ## Přesný další krok
-Pokračovat načtením jediného cílového řádku **68321**, dokončit jeho sedmijazyčný audit, ověřit změny kategorií a provést kompaktní read-back/validaci. Poté pokračovat 68323, 68333, 68335, 68341, 68351, 68352, 68354, 68401 a 68501 v tomto pořadí.
+Pokračovat načtením jediného cílového řádku **68335**, dokončit jeho sedmijazyčný audit, ověřit zdroje a location.type podle schema. Poté pokračovat 68341, 68351, 68352, 68354, 68401 a 68501 v tomto pořadí.
