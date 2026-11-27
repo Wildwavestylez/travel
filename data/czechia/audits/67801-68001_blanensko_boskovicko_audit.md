@@ -105,3 +105,16 @@ Doplněno 5 nových faktů v 7 jazycích:
 - Ověřený obsah: 38 PSČ, 268 faktů, 252 geolokovaných faktů, 252 mapových bodů, 1 validační schéma. Bez čtení nesouvisejících PSČ nebo jiných zemí.
 
 **Výsledek:** PUBLISHED V5 + BACKUP VERIFIED. Otevřená geografická výjimka 67975 zůstává zdokumentována výše; záloha zachycuje aktuální publikovaný stav beze změny.
+
+
+## 7. Import do Neon Europe Explorer — VERIFIED
+
+- Cílový projekt: Neon **Europe Explorer**, project `dry-rain-69965329`, production branch `br-wispy-glade-bgorspmq`, databáze `neondb`, tabulka `public.czechia_cap_records`.
+- Před importem vytvořena návratová větev `pre-blanensko-67801-68001-import-20261127` (`br-icy-fire-bgszi4pd`), odvozená z produkce před změnou. Pokus o aktivaci ochrany větve Neon odmítl kvůli dosaženému limitu chráněných větví na aktuálním plánu; větev zůstává zachována jako rollback snapshot, ale není označena jako protected.
+- Předimportní kontrola: 0 kolizí podle PSČ i `source_record_id` pro všech 38 záznamů.
+- Import proveden append-only / insert-only: 38 nových řádků vloženo; žádný existující záznam nebyl přepsán. Do sloupce `record` byl vložen přesný JSONB `content` ze zálohy; `workflow_status='published'`, `source_record_id` odpovídá Supabase ID, `content_version=5`.
+- Read-back: 38/38 řádků, 0 rozdílů proti JSON backupu při úplném JSONB porovnání; 38/38 published V5.
+- Obsah: 268 faktů; všech 7 jazyků cs/de/en/es/fr/it/nl obsahuje 268/268 překladových položek; 252 faktů s polohou (souřadnice lat/lon) zachováno uvnitř JSONB faktů.
+- Zdrojový Supabase, Dropbox záloha a její manifest nebyly změněny.
+
+**Výsledek:** NEON IMPORT VERIFIED — 38/38 insert-only, hluboký JSONB read-back PASS.
