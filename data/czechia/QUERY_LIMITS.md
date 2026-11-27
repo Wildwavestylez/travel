@@ -49,3 +49,15 @@ After each completed postcode, checkpoint only the essentials: postcode, fact co
 **Operating rule: one postcode → one bounded read → local review → smallest targeted write → one bounded read-back → compact validation → checkpoint → next postcode.**
 
 If a task cannot be safely completed within these limits, split it into smaller operations. Never sacrifice correctness, but never use an oversized call when a bounded sequence will do.
+
+
+## AUTONOMNÍ PRODUKČNÍ TEMPO
+
+- Uživatel očekává hotové PSČ, ne průběžné konzultování jednotlivých obcí nebo kandidátů.
+- Cíl pro běžné PSČ: přibližně 3–4 minuty. Je to provozní cíl, nikoli důvod vynechat povinné ověření.
+- Rozděl práci podle účelu a velikosti, nikoli na mnoho mikrokroků: (A) jedno cílené načtení dat, (B) lokální redakce a překlady, (C) nejmenší nutný zápis, (D) jeden read-back a kompaktní validace, (E) checkpoint.
+- Neprováděj samostatné SQL dotazy pro každou obec, fakt nebo jazyk, pokud lze bezpečně načíst jeden cílový řádek a vše zkontrolovat lokálně.
+- Pokud je cílový řádek příliš velký pro jeden výstup, rozděl pouze čtení na několik malých výběrů; nevracej kompletní payload opakovaně.
+- Nezastavuj se kvůli běžným drobným kandidátům, kosmetickým rozdílům nebo nepodstatným nejistotám. Vyber jen silné a doložitelné zajímavosti; neplň databázi vatou.
+- Po dokončení PSČ automaticky pokračuj dalším PSČ podle sequence. Uživateli zobraz jen stručný výsledek a skutečné blokátory.
+- Nikdy neobětuj správnost, bezpečnost ani požadovanou validaci kvůli rychlosti. Když je PSČ mimořádně složité, dokonči ho po bezpečných dílčích operacích a vysvětli výjimku stručně.
