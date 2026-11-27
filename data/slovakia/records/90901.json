@@ -1,4 +1,554 @@
 {
   "postcode": "90901",
-  "status": "placeholder"
+  "city": "Skalica",
+  "district": null,
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Farní kostel sv. Michala Archanjela a historické jádro Skalice",
+  "representative_point": {
+    "lat": 48.845784,
+    "lon": 17.229369
+  },
+  "access_point": {
+    "lat": 48.845784,
+    "lon": 17.229369
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Rotunda sv. Juraja – románský kostelík začleněný do městských hradeb",
+      "text": "Na návrší Hradisko nad historickým centrem stojí rotunda sv. Juraja, nejstarší dochovaná stavební památka Skalice a jedna z nejvýznamnějších románských staveb na Slovensku. Přesné datum vzniku není doloženo; odborné výklady ji kladou do 11. století nebo na přelom 12. a 13. století. Původně sloužila jako kostelík na opevněném návrší střežícím obchodní Českou cestu. Po povýšení Skalice na svobodné královské město se stala součástí městského opevnění. V interiéru se dochovaly fragmenty pozdně gotických nástěnných maleb s legendou o sv. Jiří a drakovi.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Rotunda sv. Juraja, Skalica",
+        "lat": 48.848452,
+        "lon": 17.225322,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/skalica-rotunda-sv-juraja",
+        "address": "Pod kalváriou, Skalica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Skalica – svobodné královské město s dochovaným opevněním",
+      "text": "Nejstarší písemná zmínka z roku 1217 se vztahuje k území zvanému Zakolcha, nikoli jednoznačně k samotnému sídlu. Dne 6. října 1372 udělil král Ludvík I. Skalici výsady svobodného královského města. Obyvatelé získali právo opevnit město hradbami a pořádat týdenní i výroční trhy; jejich zboží bylo osvobozeno od některých cel a mýt. Od první poloviny 15. století se Skalica rozvíjela jako významné hospodářské, kulturní a duchovní centrum regionu. Část městských hradeb se zachovala dodnes a spolu s trojúhelníkovým náměstím vymezuje historickou památkovou zónu.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s4",
+        "s5"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Farní kostel sv. Michala a karner sv. Anny",
+      "text": "Dominantou trojúhelníkového Námestia slobody je gotický farní kostel sv. Michala Archanjela. S jeho výstavbou se začalo pravděpodobně po roce 1372; v letech 1450–1470 byl původně jednolodní chrám přestavěn na trojlodní baziliku. Po požárech prošel dalšími úpravami a jeho interiér získal převážně barokní podobu. Hlavní oltář zdobí obraz archanděla Michaela od vídeňského malíře Franze Antona Maulbertsche z roku 1777 a v chrámu se nachází soubor cechovních bočních oltářů. V těsné blízkosti stojí gotický karner sv. Anny ze 14. století, který sloužil k pohřbívání a pietním obřadům.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Farní kostel sv. Michala Archanjela, Námestie slobody, Skalica",
+        "lat": 48.845784,
+        "lon": 17.229369,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.skalica.sk/registracia-podujatia/loretanske-dni-2026-maria-vzor-cnosti-2110_1469sk302.html",
+        "address": "Námestie slobody, Skalica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Slovenský dom Dušana Jurkoviče – secesní stavba s lidovými motivy",
+      "text": "Na Námestí slobody stojí Slovenský dom, dnes známý jako skalický Dom kultúry, který navrhl architekt Dušan Jurkovič a dokončen byl roku 1905. Dvoupatrová secesní budova spojuje moderní architektonické řešení s inspirací lidovým stavitelstvím a ornamentikou. Velký divadelní sál zdobí malovaná opona a figurální výzdoba; na fasádě se uplatňuje dekorace s motivy od Mikoláše Aleše. Podnět k výstavbě vzešel od skalického rodáka a národovce Pavla Blaha. V budově byly původně také národopisné sbírky, které se staly základem Záhorského muzea. Dům si zachoval původní charakter a dodnes slouží kulturnímu životu města.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s9"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Slovenský dom / Dom kultúry Dušana Jurkoviča, Skalica",
+        "lat": 48.846285,
+        "lon": 17.229527,
+        "type": "building",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/skalica-secesny-dom-slovensky-kulturny-dom",
+        "address": "Námestie slobody 11, Skalica, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Kláštery a školy – františkánská a jezuitská tradice Skalice",
+      "text": "Duchovní a vzdělanostní život Skalice po staletí utvářely řeholní řády. Františkáni zde působili od první poloviny 15. století a jejich gotický kostel Sedembolestné Panny Marie s klášterem patří k nejvýznamnějším památkám města. Klášterní areál zahrnoval knihovnu a teologickou školu a v minulosti byl důležitým vzdělávacím centrem regionu. V 17. století přišli jezuité; roku 1662 založili gymnázium a v roce 1693 položili základní kámen svého kostela, školy a kolegia. Tyto instituce přispěly k rozvoji vzdělanosti, kultury a výtvarného umění v severním Záhoří.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s10",
+        "s11"
+      ],
+      "map_category": "cultural_site",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Skalický trdelník – první slovenský potravinářský výrobek s chráněným zeměpisným označením",
+      "text": "Skalický trdelník je tradiční sladké pečivo, jehož jméno je chráněno evropským zeměpisným označením. Evropská komise zveřejnila žádost o registraci v roce 2007 a produkt se stal prvním slovenským potravinářským výrobkem s tímto typem ochrany. Vyrábí se z kynutého těsta navinutého na dřevěný válec zvaný trdlo, potírá se bílkem, posypává ořechy, mandlemi nebo meruňkovými jádry a peče se sálavým teplem nad žhavými uhlíky či na grilu. Specifikace vymezuje oblast výroby rozsáhleji než samotnou Skalici – mezi hranicí s Českem, řekami Moravou a Myjavou a tokem Teplice.",
+      "category": "local_story",
+      "priority": "A",
+      "sources": [
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Skalický rubín – chráněné víno ze skalického vinohradnického kraje",
+      "text": "Vinohradnictví patří k nejstarším hospodářským tradicím Skalice. Před více než třemi stoletími zde vinaři založili Bratrstvo sv. Urbana, jehož patronem byl ochránce vinohradníků; dodnes jej připomíná kostelík sv. Urbana i cechovní oltář ve farním kostele. K nejznámějším místním vínům patří Skalický rubín, červená směs odrůd Frankovka modrá, Svatovavřinecké a Modrý Portugal. Evropská unie mu v prosinci 2017 udělila chráněné označení původu. Hrozny musí pocházet z registrovaných vinic ve Skalici a několika sousedních obcích na úpatí Vintoperku; místní mikroklima dává vínu charakteristický projev.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s15",
+        "s16"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ a oficiální seznam poboček uvádějící Skalica 1, PSČ 909 01, Potočná 334/24. Oficiální turistická informační kancelář města zároveň uvádí adresu Námestie slobody 10, 909 01 Skalica.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam poboček Slovenské pošty a vyhledávání PSČ; oficiální adresa městské turistické informační kanceláře",
+    "postcode_source_release": "Seznam poboček k 15. 4. 2023",
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Skalica má také samostatnou poštu Skalica 3 s PSČ 909 03; tento záznam se vztahuje k PSČ 909 01 / Skalica 1.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální údaje města Skalica, Trnavského samosprávného kraje a státní územní evidence; poloha památek podle ověřených odborných a oficiálních mapových podkladů."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Mesto Skalica – História mesta",
+      "url": "https://www.skalica.sk/samosprava/o-meste/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Mesto Skalica – Rotunda sv. Juraja, história a obnova NKP",
+      "url": "https://www.skalica.sk/realizovane/rotunda-sv-juraja-uprava-arealu-nkp-32sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Pamiatky na Slovensku – Rotunda sv. Juraja v Skalici",
+      "url": "https://www.pamiatkynaslovensku.sk/skalica-rotunda-sv-juraja",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Mesto Skalica – Program rozvoja mesta 2021–2027",
+      "url": "https://www.skalica.sk/e_download.php?file=data%2Fmultipage%2Feditor%2Feditor-13-196-sk_2.pdf&original=PRMS+2021-2027_FINAL_schvaleny+MsZ.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Slovakia.travel – Skalica, history and town monuments",
+      "url": "https://slovakia.travel/en/skalica",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Turistická informačná kancelária Skalica – Parish Church of St Michael and St Anne Charnel",
+      "url": "https://www.tikskalica.sk/evt_file.php?file=1285",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Farnosť Skalica – Kostoly v Skalici",
+      "url": "https://skalica.fara.sk/kostoly-v-skalici/",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Mesto Skalica – Loretánske dni 2026, poloha farského kostola",
+      "url": "https://www.skalica.sk/registracia-podujatia/loretanske-dni-2026-maria-vzor-cnosti-2110_1469sk302.html",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Pamiatky na Slovensku – Secesný dom / Slovenský kultúrny dom v Skalici",
+      "url": "https://www.pamiatkynaslovensku.sk/skalica-secesny-dom-slovensky-kulturny-dom",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Trnavský samosprávny kraj – Rehoľné rády v dunajskom regióne",
+      "url": "https://trnava-vuc.sk/wp-content/uploads/2022/05/4762-1-sakralne-cykloturisticke-trasy-v-okoli-dunaja-svk.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Mesto Skalica – História, rehoľné rády a školstvo",
+      "url": "https://www.skalica.sk/samosprava/o-meste/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "EUR-Lex – Publication of the application for the PGI Skalický trdelník (2007)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52007XC0421%2802%29",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Správa mestského majetku Skalica – Skalický trdelník",
+      "url": "https://www.smmskalica.sk/o-nas/skalicky-trdelnik/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Mesto Skalica / TIK – Skalický trdelník, lokální tradice",
+      "url": "https://www.tikskalica.sk/atrakcie/",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "TIK Skalica – Skalický rubín",
+      "url": "https://www.tikskalica.sk/atrakcie/skalicky-rubin/",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Úrad priemyselného vlastníctva SR – Wine and spirits, Skalický rubín PDO",
+      "url": "https://indprop.gov.sk/en/designations-of-origin-and-geographical-indications-of-products/designations-of-origin-and-geographical-indications-of-products/specifications-of-the-op-zo/wine-and-spirits",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Slovenská pošta – Zoznam vybraných pôšt, Skalica 1, PSČ 90901",
+      "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "Turistická informačná kancelária mesta Skalica – adresa Námestie slobody 10, 909 01",
+      "url": "https://www.tikskalica.sk/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Farní kostel sv. Michala Archanjela a historické jádro Skalice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Rotunda sv. Juraja – románský kostelík začleněný do městských hradeb",
+          "text": "Na návrší Hradisko nad historickým centrem stojí rotunda sv. Juraja, nejstarší dochovaná stavební památka Skalice a jedna z nejvýznamnějších románských staveb na Slovensku. Přesné datum vzniku není doloženo; odborné výklady ji kladou do 11. století nebo na přelom 12. a 13. století. Původně sloužila jako kostelík na opevněném návrší střežícím obchodní Českou cestu. Po povýšení Skalice na svobodné královské město se stala součástí městského opevnění. V interiéru se dochovaly fragmenty pozdně gotických nástěnných maleb s legendou o sv. Jiří a drakovi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica – svobodné královské město s dochovaným opevněním",
+          "text": "Nejstarší písemná zmínka z roku 1217 se vztahuje k území zvanému Zakolcha, nikoli jednoznačně k samotnému sídlu. Dne 6. října 1372 udělil král Ludvík I. Skalici výsady svobodného královského města. Obyvatelé získali právo opevnit město hradbami a pořádat týdenní i výroční trhy; jejich zboží bylo osvobozeno od některých cel a mýt. Od první poloviny 15. století se Skalica rozvíjela jako významné hospodářské, kulturní a duchovní centrum regionu. Část městských hradeb se zachovala dodnes a spolu s trojúhelníkovým náměstím vymezuje historickou památkovou zónu."
+        },
+        {
+          "id": "fact_003",
+          "title": "Farní kostel sv. Michala a karner sv. Anny",
+          "text": "Dominantou trojúhelníkového Námestia slobody je gotický farní kostel sv. Michala Archanjela. S jeho výstavbou se začalo pravděpodobně po roce 1372; v letech 1450–1470 byl původně jednolodní chrám přestavěn na trojlodní baziliku. Po požárech prošel dalšími úpravami a jeho interiér získal převážně barokní podobu. Hlavní oltář zdobí obraz archanděla Michaela od vídeňského malíře Franze Antona Maulbertsche z roku 1777 a v chrámu se nachází soubor cechovních bočních oltářů. V těsné blízkosti stojí gotický karner sv. Anny ze 14. století, který sloužil k pohřbívání a pietním obřadům."
+        },
+        {
+          "id": "fact_004",
+          "title": "Slovenský dom Dušana Jurkoviče – secesní stavba s lidovými motivy",
+          "text": "Na Námestí slobody stojí Slovenský dom, dnes známý jako skalický Dom kultúry, který navrhl architekt Dušan Jurkovič a dokončen byl roku 1905. Dvoupatrová secesní budova spojuje moderní architektonické řešení s inspirací lidovým stavitelstvím a ornamentikou. Velký divadelní sál zdobí malovaná opona a figurální výzdoba; na fasádě se uplatňuje dekorace s motivy od Mikoláše Aleše. Podnět k výstavbě vzešel od skalického rodáka a národovce Pavla Blaha. V budově byly původně také národopisné sbírky, které se staly základem Záhorského muzea. Dům si zachoval původní charakter a dodnes slouží kulturnímu životu města."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kláštery a školy – františkánská a jezuitská tradice Skalice",
+          "text": "Duchovní a vzdělanostní život Skalice po staletí utvářely řeholní řády. Františkáni zde působili od první poloviny 15. století a jejich gotický kostel Sedembolestné Panny Marie s klášterem patří k nejvýznamnějším památkám města. Klášterní areál zahrnoval knihovnu a teologickou školu a v minulosti byl důležitým vzdělávacím centrem regionu. V 17. století přišli jezuité; roku 1662 založili gymnázium a v roce 1693 položili základní kámen svého kostela, školy a kolegia. Tyto instituce přispěly k rozvoji vzdělanosti, kultury a výtvarného umění v severním Záhoří."
+        },
+        {
+          "id": "fact_006",
+          "title": "Skalický trdelník – první slovenský potravinářský výrobek s chráněným zeměpisným označením",
+          "text": "Skalický trdelník je tradiční sladké pečivo, jehož jméno je chráněno evropským zeměpisným označením. Evropská komise zveřejnila žádost o registraci v roce 2007 a produkt se stal prvním slovenským potravinářským výrobkem s tímto typem ochrany. Vyrábí se z kynutého těsta navinutého na dřevěný válec zvaný trdlo, potírá se bílkem, posypává ořechy, mandlemi nebo meruňkovými jádry a peče se sálavým teplem nad žhavými uhlíky či na grilu. Specifikace vymezuje oblast výroby rozsáhleji než samotnou Skalici – mezi hranicí s Českem, řekami Moravou a Myjavou a tokem Teplice."
+        },
+        {
+          "id": "fact_007",
+          "title": "Skalický rubín – chráněné víno ze skalického vinohradnického kraje",
+          "text": "Vinohradnictví patří k nejstarším hospodářským tradicím Skalice. Před více než třemi stoletími zde vinaři založili Bratrstvo sv. Urbana, jehož patronem byl ochránce vinohradníků; dodnes jej připomíná kostelík sv. Urbana i cechovní oltář ve farním kostele. K nejznámějším místním vínům patří Skalický rubín, červená směs odrůd Frankovka modrá, Svatovavřinecké a Modrý Portugal. Evropská unie mu v prosinci 2017 udělila chráněné označení původu. Hrozny musí pocházet z registrovaných vinic ve Skalici a několika sousedních obcích na úpatí Vintoperku; místní mikroklima dává vínu charakteristický projev."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "St.-Michael-Erzengel-Kirche und historische Altstadt von Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Die Rotunde des heiligen Georg – eine romanische Kirche in der Stadtbefestigung",
+          "text": "Auf dem Hügel Hradisko oberhalb der Altstadt steht die Rotunde des heiligen Georg, das älteste erhaltene Baudenkmal Skalice und eines der bedeutendsten romanischen Bauwerke der Slowakei. Ihr genaues Entstehungsdatum ist nicht belegt; die Forschung datiert sie ins 11. Jahrhundert oder an die Wende vom 12. zum 13. Jahrhundert. Ursprünglich diente sie als Kirche auf einer befestigten Anhöhe an der Handelsstraße nach Böhmen. Nach der Erhebung Skalice zur freien königlichen Stadt wurde sie Teil der Stadtbefestigung. Im Inneren sind spätgotische Wandmalereien mit der Legende des heiligen Georg und des Drachen erhalten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica – freie königliche Stadt mit erhaltener Stadtmauer",
+          "text": "Die älteste schriftliche Erwähnung von 1217 bezieht sich auf das Gebiet Zakolcha und nicht eindeutig auf die Siedlung selbst. Am 6. Oktober 1372 verlieh König Ludwig I. Skalica die Privilegien einer freien königlichen Stadt. Die Einwohner erhielten das Recht, die Stadt mit Mauern zu befestigen und Wochen- sowie Jahrmärkte abzuhalten; ihre Waren waren von bestimmten Zöllen und Abgaben befreit. Seit der ersten Hälfte des 15. Jahrhunderts entwickelte sich Skalica zu einem bedeutenden Wirtschafts-, Kultur- und geistlichen Zentrum der Region. Teile der Stadtmauer sind bis heute erhalten und prägen zusammen mit dem dreieckigen Platz die historische Denkmalzone."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Pfarrkirche des heiligen Michael und das Beinhaus der heiligen Anna",
+          "text": "Die Dominante des dreieckigen Platzes Námestie slobody ist die gotische Pfarrkirche des Erzengels Michael. Ihr Bau begann wahrscheinlich nach 1372; zwischen 1450 und 1470 wurde die ursprünglich einschiffige Kirche zu einer dreischiffigen Basilika umgebaut. Nach mehreren Bränden erhielt das Innere überwiegend eine barocke Gestalt. Der Hauptaltar zeigt ein Bild des Erzengels Michael von Franz Anton Maulbertsch aus dem Jahr 1777; außerdem besitzt die Kirche eine Sammlung von Seitenaltären der Zünfte. Unmittelbar daneben steht das gotische Beinhaus der heiligen Anna aus dem 14. Jahrhundert, das als Begräbnis- und Andachtsstätte diente."
+        },
+        {
+          "id": "fact_004",
+          "title": "Das Slowakische Haus von Dušan Jurkovič – Jugendstil mit Volkskunstmotiven",
+          "text": "Am Platz Námestie slobody steht das Slowakische Haus, heute als Kulturhaus von Skalica bekannt, das der Architekt Dušan Jurkovič entwarf und das 1905 fertiggestellt wurde. Das zweigeschossige Jugendstilgebäude verbindet moderne Architektur mit Anregungen aus der Volksbaukunst und Ornamentik. Der große Theatersaal besitzt einen bemalten Vorhang und figürliche Dekoration; an der Fassade finden sich Motive von Mikoláš Aleš. Den Anstoß zum Bau gab der aus Skalica stammende Arzt und Nationalbewegte Pavol Blaho. Ursprünglich beherbergte das Haus auch volkskundliche Sammlungen, die zur Grundlage des Záhorie-Museums wurden. Das Gebäude bewahrt seinen ursprünglichen Charakter und dient weiterhin dem Kulturleben der Stadt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Klöster und Schulen – die franziskanische und jesuitische Tradition Skalice",
+          "text": "Das geistliche und bildungsbezogene Leben Skalice wurde über Jahrhunderte von Ordensgemeinschaften geprägt. Die Franziskaner wirkten hier seit der ersten Hälfte des 15. Jahrhunderts; ihre gotische Kirche der Sieben Schmerzen Mariens und das Kloster gehören zu den wichtigsten Denkmälern der Stadt. Zum Klosterkomplex gehörten eine Bibliothek und eine theologische Schule; er war einst ein bedeutendes Bildungszentrum der Region. Im 17. Jahrhundert kamen die Jesuiten hinzu: 1662 gründeten sie ein Gymnasium und 1693 legten sie den Grundstein für ihre Kirche, Schule und ihr Kollegium. Diese Einrichtungen förderten Bildung, Kultur und bildende Kunst im nördlichen Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Skalický trdelník – das erste slowakische Lebensmittel mit geschützter geografischer Angabe",
+          "text": "Skalický trdelník ist ein traditionelles süßes Gebäck, dessen Name durch eine europäische geografische Angabe geschützt ist. Die Europäische Kommission veröffentlichte den Registrierungsantrag 2007; das Produkt wurde zum ersten slowakischen Lebensmittel mit dieser Schutzform. Hergestellt wird es aus Hefeteig, der um eine Holzrolle namens Trdlo gewickelt, mit Eiweiß bestrichen, mit Nüssen, Mandeln oder Aprikosenkernen bestreut und über glühender Kohle oder auf einem Grill durch Strahlungswärme gebacken wird. Das geografische Herstellungsgebiet ist größer als Skalica allein und wird durch die tschechische Grenze, die Flüsse March und Myjava sowie den Bach Teplica begrenzt."
+        },
+        {
+          "id": "fact_007",
+          "title": "Skalický rubín – ein geschützter Wein aus dem Weinbaugebiet Skalica",
+          "text": "Der Weinbau gehört zu den ältesten Wirtschaftstraditionen Skalice. Vor mehr als drei Jahrhunderten gründeten die Winzer hier die Bruderschaft des heiligen Urban, des Schutzpatrons der Weinberge; an sie erinnern noch die St.-Urban-Kirche und der Zunftaltar in der Pfarrkirche. Zu den bekanntesten Weinen der Region gehört Skalický rubín, ein Rotwein aus Blaufränkisch, St. Laurent und Portugieser. Im Dezember 2017 erhielt er in der Europäischen Union eine geschützte Ursprungsbezeichnung. Die Trauben müssen aus registrierten Weinbergen in Skalica und mehreren Nachbargemeinden am Fuß des Vintoperk stammen; das lokale Mikroklima prägt den charakteristischen Geschmack."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Michael the Archangel Parish Church and the historic centre of Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The Rotunda of St George – a Romanesque church incorporated into the town walls",
+          "text": "On Hradisko hill above the historic centre stands the Rotunda of St George, the oldest surviving building in Skalica and one of Slovakia's most important Romanesque monuments. Its exact date is not documented; scholars place it in the 11th century or around the turn of the 12th and 13th centuries. It originally served as a church on a fortified hill guarding the long-distance trade route to Bohemia. After Skalica became a free royal town, the rotunda was incorporated into the town fortifications. Fragments of late Gothic wall paintings depicting the legend of St George and the dragon survive inside."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica – a free royal town with surviving fortifications",
+          "text": "The earliest written reference, from 1217, concerns the territory called Zakolcha and does not clearly identify the settlement itself. On 6 October 1372, King Louis I granted Skalica the privileges of a free royal town. Residents gained the right to fortify the town with walls and hold weekly and annual markets; their goods were exempt from certain tolls and duties. From the first half of the 15th century, Skalica developed into an important economic, cultural and religious centre for the wider region. Sections of the town walls survive and, together with the triangular square, define the historic conservation area."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Parish Church of St Michael and the Charnel House of St Anne",
+          "text": "The dominant feature of the triangular Námestie slobody square is the Gothic Parish Church of St Michael the Archangel. Construction probably began after 1372; between 1450 and 1470 the original single-nave church was rebuilt as a three-nave basilica. After several fires, its interior acquired a largely Baroque appearance. The main altar features an image of the Archangel Michael by Viennese painter Franz Anton Maulbertsch, dated 1777, and the church contains a collection of side altars belonging to local guilds. Nearby stands the 14th-century Gothic Charnel House of St Anne, once used for burials and funeral rites."
+        },
+        {
+          "id": "fact_004",
+          "title": "Dušan Jurkovič's Slovak House – an Art Nouveau building inspired by folk art",
+          "text": "On Námestie slobody stands the Slovak House, now known as the Skalica House of Culture, designed by architect Dušan Jurkovič and completed in 1905. The two-storey Art Nouveau building combines modern design with inspiration from folk architecture and ornament. Its large theatre hall has a painted curtain and figurative decoration, while the façade includes motifs by Mikoláš Aleš. The initiative for the building came from Pavol Blaho, a Skalica-born physician and supporter of Slovak national culture. The building originally also housed ethnographic collections that became the foundation of the Záhorie Museum. It retains its original character and remains part of the city's cultural life."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monasteries and schools – Skalica's Franciscan and Jesuit heritage",
+          "text": "For centuries, religious orders shaped the spiritual and educational life of Skalica. Franciscans were active here from the first half of the 15th century, and their Gothic Church of Our Lady of the Seven Sorrows and monastery are among the city's most important monuments. The monastic complex included a library and a theological school and once served as a major educational centre for the region. Jesuits arrived in the 17th century: they founded a grammar school in 1662 and laid the foundation stone for their church, school and college in 1693. These institutions helped develop education, culture and the visual arts in northern Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Skalický trdelník – the first Slovak food product with protected geographical indication",
+          "text": "Skalický trdelník is a traditional sweet pastry whose name is protected by a European geographical indication. The European Commission published the registration application in 2007, making it the first Slovak food product to receive this type of protection. It is made from risen dough wound around a wooden roller called a trdlo, brushed with egg white, sprinkled with nuts, almonds or apricot kernels and baked by radiant heat over glowing embers or on a grill. The legally defined production area is wider than Skalica itself, bounded by the Czech border, the Morava and Myjava rivers and the Teplica stream."
+        },
+        {
+          "id": "fact_007",
+          "title": "Skalický rubín – a protected wine from the Skalica wine-growing region",
+          "text": "Viticulture is one of Skalica's oldest economic traditions. More than three centuries ago, local winegrowers founded the Brotherhood of St Urban, patron saint of vineyards; the small Church of St Urban and a guild altar in the parish church still recall this heritage. One of the best-known regional wines is Skalický rubín, a red blend of Blaufränkisch, St Laurent and Portugieser. In December 2017 it received a protected designation of origin in the European Union. Its grapes must come from registered vineyards in Skalica and several neighbouring municipalities on the slopes of Vintoperk; the local microclimate gives the wine its distinctive character."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia parroquial de San Miguel Arcángel y centro histórico de Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La rotonda de San Jorge, iglesia románica integrada en las murallas",
+          "text": "En la colina de Hradisko, sobre el centro histórico, se encuentra la rotonda de San Jorge, el edificio conservado más antiguo de Skalica y uno de los monumentos románicos más importantes de Eslovaquia. Su fecha exacta de construcción no está documentada; los estudios la sitúan en el siglo XI o en el cambio de los siglos XII y XIII. Originalmente fue una pequeña iglesia en una colina fortificada que vigilaba la ruta comercial hacia Bohemia. Tras la elevación de Skalica a ciudad real libre, la rotonda se integró en las fortificaciones urbanas. En su interior se conservan fragmentos de pinturas murales góticas tardías con la leyenda de San Jorge y el dragón."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica, ciudad real libre con murallas conservadas",
+          "text": "La referencia escrita más antigua, de 1217, se refiere al territorio llamado Zakolcha y no identifica claramente el asentamiento. El 6 de octubre de 1372, el rey Luis I concedió a Skalica los privilegios de ciudad real libre. Sus habitantes obtuvieron el derecho a fortificar la ciudad con murallas y celebrar mercados semanales y anuales; sus mercancías quedaron exentas de determinados peajes e impuestos. Desde la primera mitad del siglo XV, Skalica se convirtió en un importante centro económico, cultural y religioso de la región. Se conservan tramos de las murallas que, junto con la plaza triangular, delimitan la zona histórica protegida."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia parroquial de San Miguel y osario de Santa Ana",
+          "text": "El elemento dominante de la plaza triangular Námestie slobody es la iglesia gótica parroquial de San Miguel Arcángel. Su construcción comenzó probablemente después de 1372; entre 1450 y 1470 el templo original de una nave se transformó en una basílica de tres naves. Tras varios incendios, su interior adquirió un carácter principalmente barroco. El altar mayor contiene una pintura del arcángel Miguel realizada por el pintor vienés Franz Anton Maulbertsch en 1777, y la iglesia conserva un conjunto de altares laterales de los gremios locales. Muy cerca se encuentra el osario gótico de Santa Ana, del siglo XIV, utilizado antiguamente para enterramientos y ceremonias funerarias."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Casa Eslovaca de Dušan Jurkovič, edificio modernista inspirado en el arte popular",
+          "text": "En Námestie slobody se encuentra la Casa Eslovaca, hoy conocida como Casa de Cultura de Skalica, diseñada por el arquitecto Dušan Jurkovič y terminada en 1905. El edificio modernista de dos plantas combina soluciones arquitectónicas modernas con la inspiración de la construcción y ornamentación populares. Su gran sala teatral conserva un telón pintado y decoración figurativa; la fachada incorpora motivos de Mikoláš Aleš. La iniciativa de construirla partió del médico y activista cultural Pavol Blaho, natural de Skalica. El edificio albergó también colecciones etnográficas que se convirtieron en la base del Museo de Záhorie. Conserva su carácter original y sigue formando parte de la vida cultural de la ciudad."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monasterios y escuelas: la tradición franciscana y jesuita de Skalica",
+          "text": "Durante siglos, las órdenes religiosas configuraron la vida espiritual y educativa de Skalica. Los franciscanos estuvieron presentes desde la primera mitad del siglo XV; su iglesia gótica de Nuestra Señora de los Siete Dolores y el monasterio figuran entre los monumentos más importantes de la ciudad. El complejo monástico incluía una biblioteca y una escuela teológica y fue un destacado centro educativo regional. En el siglo XVII llegaron los jesuitas: fundaron un gimnasio en 1662 y en 1693 colocaron la primera piedra de su iglesia, escuela y colegio. Estas instituciones impulsaron la educación, la cultura y las artes visuales en el norte de Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Skalický trdelník, primer producto alimentario eslovaco con indicación geográfica protegida",
+          "text": "Skalický trdelník es un dulce tradicional cuyo nombre está protegido por una indicación geográfica europea. La Comisión Europea publicó la solicitud de registro en 2007 y el producto se convirtió en el primero de Eslovaquia en recibir este tipo de protección. Se elabora con masa fermentada enrollada alrededor de un cilindro de madera llamado trdlo, se unta con clara de huevo, se espolvorea con nueces, almendras o huesos de albaricoque y se cuece mediante calor radiante sobre brasas o en una parrilla. La zona de producción legalmente definida es más amplia que Skalica e incluye el espacio delimitado por la frontera checa, los ríos Morava y Myjava y el arroyo Teplica."
+        },
+        {
+          "id": "fact_007",
+          "title": "Skalický rubín, vino protegido de la región vitícola de Skalica",
+          "text": "La viticultura es una de las tradiciones económicas más antiguas de Skalica. Hace más de tres siglos, los viticultores locales fundaron la Hermandad de San Urbano, patrón de los viñedos; la pequeña iglesia de San Urbano y un altar gremial en la iglesia parroquial aún recuerdan esta herencia. Uno de los vinos regionales más conocidos es Skalický rubín, un tinto elaborado con Frankovka modrá, San Lorenzo y Portugal azul. En diciembre de 2017 recibió una denominación de origen protegida en la Unión Europea. Sus uvas deben proceder de viñedos registrados en Skalica y varios municipios vecinos, en las laderas de Vintoperk; el microclima local aporta al vino su carácter distintivo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église paroissiale Saint-Michel-Archange et centre historique de Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La rotonde Saint-Georges, église romane intégrée aux remparts",
+          "text": "Sur la colline de Hradisko, au-dessus du centre historique, se trouve la rotonde Saint-Georges, le plus ancien édifice conservé de Skalica et l’un des monuments romans les plus importants de Slovaquie. Sa date exacte de construction n’est pas établie ; les chercheurs la situent au XIe siècle ou au tournant des XIIe et XIIIe siècles. Elle servait à l’origine de petite église sur une hauteur fortifiée qui surveillait la route commerciale vers la Bohême. Après l’élévation de Skalica au rang de ville royale libre, la rotonde fut intégrée aux fortifications. Des fragments de peintures murales gothiques tardives illustrant la légende de saint Georges et du dragon sont conservés à l’intérieur."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica, ville royale libre aux remparts préservés",
+          "text": "La plus ancienne mention écrite, datant de 1217, concerne le territoire appelé Zakolcha et ne désigne pas clairement le bourg lui-même. Le 6 octobre 1372, le roi Louis Ier accorda à Skalica les privilèges d’une ville royale libre. Les habitants obtinrent le droit de fortifier la ville et d’organiser des marchés hebdomadaires et annuels ; leurs marchandises furent exemptées de certains péages et taxes. À partir de la première moitié du XVe siècle, Skalica devint un important centre économique, culturel et religieux pour toute la région. Des portions des remparts subsistent et, avec la place triangulaire, délimitent la zone historique protégée."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église paroissiale Saint-Michel et l’ossuaire Sainte-Anne",
+          "text": "La place triangulaire Námestie slobody est dominée par l’église gothique paroissiale Saint-Michel-Archange. Sa construction a probablement commencé après 1372 ; entre 1450 et 1470, l’église initialement à nef unique fut transformée en basilique à trois nefs. Après plusieurs incendies, son intérieur prit principalement un aspect baroque. Le maître-autel comporte une peinture de l’archange Michel réalisée en 1777 par le peintre viennois Franz Anton Maulbertsch ; l’église possède également un ensemble d’autels latéraux appartenant aux corporations locales. À proximité immédiate se trouve l’ossuaire gothique Sainte-Anne du XIVe siècle, autrefois utilisé pour les sépultures et les cérémonies funéraires."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Maison slovaque de Dušan Jurkovič, édifice Art nouveau inspiré de l’art populaire",
+          "text": "Sur la place Námestie slobody se trouve la Maison slovaque, aujourd’hui connue comme la Maison de la culture de Skalica, conçue par l’architecte Dušan Jurkovič et achevée en 1905. Ce bâtiment Art nouveau de deux étages associe une architecture moderne à des inspirations issues de la construction et de l’ornementation populaires. Sa grande salle de théâtre possède un rideau peint et un décor figuratif ; la façade comporte des motifs de Mikoláš Aleš. Le projet fut lancé par Pavol Blaho, médecin et militant culturel originaire de Skalica. Le bâtiment abritait aussi des collections ethnographiques qui devinrent le noyau du musée de Záhorie. Il a conservé son caractère d’origine et participe toujours à la vie culturelle de la ville."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monastères et écoles – les traditions franciscaine et jésuite de Skalica",
+          "text": "Pendant des siècles, les ordres religieux ont façonné la vie spirituelle et éducative de Skalica. Les franciscains y étaient présents dès la première moitié du XVe siècle ; leur église gothique Notre-Dame-des-Sept-Douleurs et le monastère comptent parmi les monuments les plus importants de la ville. Le complexe comprenait une bibliothèque et une école de théologie et fut un centre éducatif régional majeur. Au XVIIe siècle, les jésuites s’installèrent à leur tour : ils fondèrent un gymnase en 1662 et posèrent en 1693 la première pierre de leur église, de leur école et de leur collège. Ces institutions contribuèrent au développement de l’éducation, de la culture et des arts dans le nord de Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le Skalický trdelník, premier produit alimentaire slovaque bénéficiant d’une indication géographique protégée",
+          "text": "Le Skalický trdelník est une pâtisserie traditionnelle sucrée dont le nom bénéficie d’une indication géographique européenne protégée. La Commission européenne publia la demande d’enregistrement en 2007 ; le produit devint le premier aliment slovaque à obtenir cette forme de protection. Il est préparé avec une pâte levée enroulée autour d’un rouleau en bois appelé trdlo, badigeonnée de blanc d’œuf, parsemée de noix, d’amandes ou de noyaux d’abricot, puis cuite par chaleur rayonnante au-dessus de braises ou sur un gril. La zone de production légalement définie dépasse Skalica et est délimitée par la frontière tchèque, les rivières Morava et Myjava et le ruisseau Teplica."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le Skalický rubín, vin protégé de la région viticole de Skalica",
+          "text": "La viticulture est l’une des plus anciennes traditions économiques de Skalica. Il y a plus de trois siècles, les vignerons locaux fondèrent la confrérie de saint Urbain, patron des vignobles ; la petite église Saint-Urbain et un autel de corporation dans l’église paroissiale en gardent le souvenir. Le Skalický rubín est l’un des vins régionaux les plus connus : un rouge assemblant le Blaufränkisch, le Saint-Laurent et le Portugais bleu. En décembre 2017, il a obtenu une appellation d’origine protégée dans l’Union européenne. Les raisins doivent provenir de vignobles enregistrés à Skalica et dans plusieurs communes voisines, sur les pentes du Vintoperk ; le microclimat local lui confère son caractère particulier."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa parrocchiale di San Michele Arcangelo e centro storico di Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La rotonda di San Giorgio, chiesa romanica integrata nelle mura cittadine",
+          "text": "Sulla collina di Hradisko, sopra il centro storico, sorge la rotonda di San Giorgio, il più antico edificio conservato di Skalica e uno dei monumenti romanici più importanti della Slovacchia. La data esatta della sua costruzione non è documentata; gli studiosi la collocano nell’XI secolo oppure tra la fine del XII e l’inizio del XIII secolo. In origine era una piccola chiesa su un’altura fortificata che sorvegliava la strada commerciale verso la Boemia. Dopo l’elevazione di Skalica a città reale libera, la rotonda fu integrata nelle fortificazioni. All’interno si conservano frammenti di affreschi tardogotici con la leggenda di San Giorgio e il drago."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica, città reale libera con mura storiche conservate",
+          "text": "La più antica menzione scritta, del 1217, riguarda il territorio chiamato Zakolcha e non identifica chiaramente l’insediamento. Il 6 ottobre 1372 il re Luigi I concesse a Skalica i privilegi di città reale libera. Gli abitanti ottennero il diritto di fortificare la città con mura e di organizzare mercati settimanali e annuali; le loro merci furono esentate da alcuni dazi e pedaggi. Dalla prima metà del XV secolo Skalica si sviluppò come importante centro economico, culturale e religioso della regione. Tratti delle mura cittadine sono ancora visibili e, insieme alla piazza triangolare, definiscono la zona storica protetta."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa parrocchiale di San Michele e l’ossario di Sant’Anna",
+          "text": "La piazza triangolare Námestie slobody è dominata dalla chiesa gotica parrocchiale di San Michele Arcangelo. La costruzione iniziò probabilmente dopo il 1372; tra il 1450 e il 1470 l’originaria chiesa a navata unica fu trasformata in una basilica a tre navate. Dopo diversi incendi, l’interno assunse un aspetto prevalentemente barocco. L’altare maggiore ospita un dipinto dell’arcangelo Michele realizzato nel 1777 dal pittore viennese Franz Anton Maulbertsch; la chiesa conserva inoltre una serie di altari laterali delle corporazioni locali. Nelle immediate vicinanze si trova l’ossario gotico di Sant’Anna del XIV secolo, un tempo utilizzato per sepolture e riti funebri."
+        },
+        {
+          "id": "fact_004",
+          "title": "La Casa Slovacca di Dušan Jurkovič, edificio Art Nouveau ispirato all’arte popolare",
+          "text": "In piazza Námestie slobody si trova la Casa Slovacca, oggi nota come Casa della Cultura di Skalica, progettata dall’architetto Dušan Jurkovič e completata nel 1905. L’edificio Art Nouveau a due piani combina soluzioni architettoniche moderne con motivi dell’edilizia e dell’ornamentazione popolare. La grande sala teatrale conserva un sipario dipinto e decorazioni figurative; la facciata presenta motivi di Mikoláš Aleš. L’iniziativa della costruzione partì da Pavol Blaho, medico e attivista culturale originario di Skalica. L’edificio ospitò anche collezioni etnografiche che divennero il nucleo del Museo di Záhorie. Conserva il suo carattere originario e continua a essere parte della vita culturale cittadina."
+        },
+        {
+          "id": "fact_005",
+          "title": "Monasteri e scuole: la tradizione francescana e gesuita di Skalica",
+          "text": "Per secoli gli ordini religiosi hanno plasmato la vita spirituale ed educativa di Skalica. I francescani erano presenti dalla prima metà del XV secolo; la loro chiesa gotica della Madonna dei Sette Dolori e il monastero sono tra i monumenti più importanti della città. Il complesso monastico comprendeva una biblioteca e una scuola teologica ed era un importante centro educativo regionale. Nel XVII secolo arrivarono i gesuiti: nel 1662 fondarono un ginnasio e nel 1693 posero la prima pietra della loro chiesa, scuola e collegio. Queste istituzioni contribuirono allo sviluppo dell’istruzione, della cultura e delle arti visive nel nord di Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Lo Skalický trdelník, primo prodotto alimentare slovacco con indicazione geografica protetta",
+          "text": "Lo Skalický trdelník è un dolce tradizionale il cui nome è protetto da un’indicazione geografica europea. La Commissione europea pubblicò la domanda di registrazione nel 2007 e il prodotto divenne il primo alimento slovacco a ottenere questo tipo di protezione. Si prepara con pasta lievitata avvolta attorno a un cilindro di legno chiamato trdlo, spennellata con albume, cosparsa di noci, mandorle o noccioli di albicocca e cotta con calore radiante sopra le braci o su una griglia. L’area di produzione definita dalla normativa è più ampia della sola Skalica ed è delimitata dal confine ceco, dai fiumi Morava e Myjava e dal torrente Teplica."
+        },
+        {
+          "id": "fact_007",
+          "title": "Lo Skalický rubín, vino protetto della regione vitivinicola di Skalica",
+          "text": "La viticoltura è una delle tradizioni economiche più antiche di Skalica. Più di tre secoli fa i viticoltori locali fondarono la Confraternita di Sant’Urbano, patrono dei vigneti; la piccola chiesa di Sant’Urbano e un altare di corporazione nella chiesa parrocchiale ne conservano la memoria. Tra i vini regionali più noti c’è lo Skalický rubín, un rosso ottenuto da Blaufränkisch, Saint Laurent e Portugais bleu. Nel dicembre 2017 ha ricevuto una denominazione di origine protetta nell’Unione europea. Le uve devono provenire da vigneti registrati a Skalica e in alcuni comuni vicini, sulle pendici del Vintoperk; il microclima locale conferisce al vino il suo carattere distintivo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Michaël- de Aartsengelkerk en het historische centrum van Skalica",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De Sint-Joriskapelrotunda – een romaanse kerk in de stadsmuur",
+          "text": "Op de heuvel Hradisko boven het historische centrum staat de rotunda van Sint-Joris, het oudste bewaard gebleven gebouw van Skalica en een van de belangrijkste romaanse monumenten van Slowakije. De exacte bouwdatum is niet bekend; onderzoekers plaatsen haar in de 11e eeuw of rond de overgang van de 12e naar de 13e eeuw. Oorspronkelijk was het een kerkje op een versterkte heuvel die de handelsroute naar Bohemen bewaakte. Nadat Skalica een vrije koninklijke stad werd, werd de rotunda onderdeel van de stadsverdediging. Binnen zijn fragmenten van laatgotische muurschilderingen met de legende van Sint-Joris en de draak bewaard."
+        },
+        {
+          "id": "fact_002",
+          "title": "Skalica – een vrije koninklijke stad met bewaarde stadsmuren",
+          "text": "De oudste schriftelijke vermelding uit 1217 betreft het gebied Zakolcha en noemt de nederzetting zelf niet ondubbelzinnig. Op 6 oktober 1372 verleende koning Lodewijk I Skalica de privileges van een vrije koninklijke stad. De inwoners kregen het recht om de stad met muren te versterken en wekelijkse en jaarlijkse markten te houden; hun goederen werden vrijgesteld van bepaalde tolgelden en belastingen. Vanaf de eerste helft van de 15e eeuw ontwikkelde Skalica zich tot een belangrijk economisch, cultureel en religieus centrum van de regio. Delen van de stadsmuren zijn bewaard gebleven en bepalen samen met het driehoekige plein de historische beschermde zone."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Michaëlparochiekerk en het knekelhuis van Sint-Anna",
+          "text": "Het driehoekige plein Námestie slobody wordt gedomineerd door de gotische parochiekerk van Sint-Michaël de Aartsengel. De bouw begon waarschijnlijk na 1372; tussen 1450 en 1470 werd de oorspronkelijke eenbeukige kerk verbouwd tot een basiliek met drie beuken. Na verschillende branden kreeg het interieur grotendeels een barok karakter. Het hoofdaltaar bevat een schilderij van de aartsengel Michaël uit 1777 van de Weense schilder Franz Anton Maulbertsch; daarnaast bezit de kerk een verzameling zijaltaren van plaatselijke gilden. Vlakbij staat het gotische knekelhuis van Sint-Anna uit de 14e eeuw, dat vroeger voor begrafenissen en rouwdiensten werd gebruikt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Het Slowaakse Huis van Dušan Jurkovič – art nouveau met volkskunstmotieven",
+          "text": "Aan Námestie slobody staat het Slowaakse Huis, tegenwoordig bekend als het Cultuurhuis van Skalica, ontworpen door architect Dušan Jurkovič en voltooid in 1905. Het tweeverdiepingen tellende art-nouveaugebouw combineert moderne architectuur met inspiratie uit volksbouwkunst en ornamentiek. De grote theaterzaal heeft een beschilderd doek en figuratieve decoratie; op de gevel zijn motieven van Mikoláš Aleš te zien. Het initiatief voor de bouw kwam van Pavol Blaho, een arts en voorvechter van de Slowaakse cultuur uit Skalica. Het gebouw huisvestte ook etnografische collecties die de basis vormden voor het Záhorie Museum. Het heeft zijn oorspronkelijke karakter behouden en blijft belangrijk voor het culturele leven van de stad."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kloosters en scholen – de franciscaanse en jezuïtische traditie van Skalica",
+          "text": "Eeuwenlang bepaalden religieuze orden het geestelijke en educatieve leven van Skalica. De franciscanen waren hier vanaf de eerste helft van de 15e eeuw actief; hun gotische kerk van Onze-Lieve-Vrouw van Zeven Smarten en het klooster behoren tot de belangrijkste monumenten van de stad. Het kloostercomplex omvatte een bibliotheek en een theologische school en was ooit een belangrijk regionaal onderwijscentrum. In de 17e eeuw kwamen de jezuïeten: zij stichtten in 1662 een gymnasium en legden in 1693 de eerste steen voor hun kerk, school en college. Deze instellingen stimuleerden onderwijs, cultuur en beeldende kunst in noordelijk Záhorie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Skalický trdelník – het eerste Slowaakse voedingsproduct met beschermde geografische aanduiding",
+          "text": "Skalický trdelník is een traditioneel zoet gebak waarvan de naam door een Europese geografische aanduiding wordt beschermd. De Europese Commissie publiceerde de registratieaanvraag in 2007; het product werd het eerste Slowaakse voedingsmiddel met deze vorm van bescherming. Het wordt gemaakt van gerezen deeg dat rond een houten rol, de trdlo, wordt gewikkeld, met eiwit wordt bestreken, met noten, amandelen of abrikozenpitten wordt bestrooid en door stralingswarmte boven gloeiende kolen of op een grill wordt gebakken. Het wettelijk afgebakende productiegebied is groter dan alleen Skalica en wordt begrensd door de Tsjechische grens, de rivieren Morava en Myjava en de beek Teplica."
+        },
+        {
+          "id": "fact_007",
+          "title": "Skalický rubín – beschermde wijn uit het wijnbouwgebied Skalica",
+          "text": "Wijnbouw behoort tot de oudste economische tradities van Skalica. Meer dan drie eeuwen geleden richtten plaatselijke wijnbouwers de Broederschap van Sint-Urbanus op, patroonheilige van de wijngaarden; het kerkje van Sint-Urbanus en een gildealtaar in de parochiekerk herinneren daar nog aan. Een van de bekendste regionale wijnen is Skalický rubín, een rode blend van Blaufränkisch, Saint Laurent en Portugieser. In december 2017 kreeg de wijn een beschermde oorsprongsbenaming in de Europese Unie. De druiven moeten afkomstig zijn van geregistreerde wijngaarden in Skalica en enkele naburige gemeenten op de hellingen van Vintoperk; het plaatselijke microklimaat geeft de wijn zijn kenmerkende karakter."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
