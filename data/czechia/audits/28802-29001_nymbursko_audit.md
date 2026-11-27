@@ -174,3 +174,50 @@ Od předchozího addenda byly dokončeny další jazykové dávky:
 - 28907: 6 faktů / 36 překladů; zkontrolováno bez nutných změn.
 
 Celkem je nyní nově vytvořeno, přepracováno nebo individuálně sémanticky zkontrolováno **73 faktů**. Zbývá **1 092 cizojazyčných textů** (182 faktů × 6 jazyků). Audit zůstává **REVIEW REQUIRED**.
+
+
+---
+
+## Závěrečné addendum — sémantická a strukturální kontrola překladů (27. 11. 2026)
+
+Toto addendum nahrazuje starší průběžný stav jazykové revize v tomto taháku.
+
+### Sémantická kontrola překladů: COMPLETE
+
+- 31/31 PSČ, **255/255 faktů**.
+- Všech 255 faktů je individuálně sémanticky zkontrolováno v šesti cizojazyčných verzích: **1 530/1 530 textů de/en/es/fr/it/nl**.
+- 24 faktů mělo překlady nově vytvořené nebo kompletně přepracované; zbývajících 231 faktů prošlo individuální kontrolou existujících překladů.
+- Všech sedm jazyků má přesně 255/255 faktů: cs/de/en/es/fr/it/nl.
+- 0 prázdných překladových polí, 0 duplicitních překladových ID, 0 rozdílů mezi českým masterem a `translations.cs`.
+- 0 českých master textů pod 350 znaků a 0 textových polí s chybným JSON wrapperem.
+- Během revize byly opraveny významové vady a nepřesnosti: chybná botanická ekvivalence, nesprávné označení historické osoby jako rytíře, nepodložený letopočet v překladu, vynechané datace a památkové souvislosti, opakované odstavce a dva závažné nesoulady českých masterů (28905/fact_001 a 28906/fact_004).
+- Při technických opravách překladových objektů 28913 a 28923 byly jazykové bloky obnoveny z bezprostředního read-backu a následně znovu ověřeny; všechny jazyky, překladové názvy a lokalizovaná `representative_place` jsou kompletní.
+
+### Strukturální kontrola podle aktuálního schema.json
+
+- 31/31 záznamů; 255 faktů; 255/255 v každém jazyce.
+- 0 chybějících povinných top-level/faktových polí.
+- 0 nepovolených kategorií, priorit, mapových kategorií, typů polohy nebo přesností.
+- 0 prázdných zdrojových polí, 0 prázdných překladových polí, 0 duplicitních ID.
+- 0 rozdílů českého masteru a `translations.cs`.
+- 0 neplatných geografických souřadnic, 0 neplatných location objektů, 0 neplatných representative/access points.
+- 0 prázdných lokalizovaných `representative_place`.
+
+### Zbývající geografické položky
+
+Stále zůstává **7 faktů s `location=null`**:
+- 28905/fact_008
+- 28907/fact_006
+- 28914/fact_004
+- 28923/fact_004
+- 28926/fact_007
+- 28935/fact_002
+- 28941/fact_004
+
+Souřadnice nebyly domýšleny. Každý případ musí být buď bezpečně lokalizován podle Content Standardu, nebo výslovně přijat jako zdůvodněná výjimka.
+
+### Aktuální konečný stav
+
+**TRANSLATION SEMANTIC REVIEW: COMPLETE. OVERALL AUDIT: REVIEW REQUIRED.**
+
+Otevřených sedm geografických případů a ostatní položky původního auditního checklistu musí být uzavřeny nebo výslovně přijaty. Záznamy zůstávají ve stávajícím validačním stavu; nebyla provedena V5, publikace, záloha, Neon import ani read-only lock.
