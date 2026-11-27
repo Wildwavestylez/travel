@@ -210,3 +210,15 @@ Audit prováděj jako souvislý samostatný pracovní běh nad celým výslovně
 7. **Žádné falešné dokončení.** Automatické pokračování neznamená přeskočit povinnou kontrolu ani tvrdit PASS bez důkazů. Označ skutečné blokátory přesně a pokračuj všude, kde je to bezpečné.
 
 **Provozní zásada:** jedno PSČ → dokončit audit → ověřit opravy → stručný checkpoint → další PSČ automaticky. Žádné čekání na potvrzení mezi PSČ v rámci již zadaného rozsahu.
+
+
+### Doplnění — závazný rytmus a limity dotazů
+
+- Po dokončení jednoho PSČ automaticky pokračuj dalším PSČ v auditovaném rozsahu. Nevyžaduj potvrzení, souhlas ani zprávu „mám pokračovat?“ mezi jednotlivými PSČ.
+- Rozsah audituj plynule po jednotlivých PSČ, ale společné podklady, inventář a již načtená data znovu nenačítej. Jedno PSČ je jednotka dokončení a checkpointu; databázové operace zůstávají malé a cílené.
+- Dodržuj závazné limity a dávkování v `data/czechia/QUERY_LIMITS.md`: jeden cílový záznam na běžnou databázovou operaci, SQL dotaz přibližně do 8 KB, výstup přibližně do 20 KB, lokální kontroly a sekvenční zápisy. Pokud je výstup větší, rozděl čtení na několik účelových částí; neopakuj celý dotaz ani nevypisuj celý JSON.
+- Pro audit je cílem plynulý postup bez zbytečných prodlev a opakování, nikoli pevný časový limit. Nikdy nevynechávej relevantní kontrolu jen kvůli rychlosti.
+- Uživateli neposílej průběžný seznam každé drobnosti. U hotového PSČ nebo přiměřené dávky uveď stručně rozsah, zásadní nálezy a opravy, výsledek validace a další PSČ. Technické detaily rozepisuj pouze při skutečném blokátoru nebo na vyžádání.
+- Pokud se běh musí přerušit kvůli limitu nástrojů či kontextu, ulož přesný checkpoint a pokračuj od prvního nedokončeného PSČ při dalším běhu. Nepředstírej nepřetržitý běh na pozadí.
+
+**Závazné pravidlo:** v rámci zadaného rozsahu nikdy nezastavuj po hotovém PSČ jen proto, abys čekal na uživatele. Dokonči → ověř → stručně zaznamenej → automaticky pokračuj.
