@@ -1,4 +1,435 @@
 {
   "postcode": "90843",
-  "status": "placeholder"
+  "city": "Čáry",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Martina z Tours a historické jádro Čár",
+  "representative_point": {
+    "lat": 48.655429,
+    "lon": 17.095625
+  },
+  "access_point": {
+    "lat": 48.655429,
+    "lon": 17.095625
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Čáry – pravěké osídlení a první písemná zmínka z roku 1392",
+      "text": "Archeologické nálezy dokládají osídlení katastru Čár už v neolitu, přibližně 5 000 let př. n. l.; lidé využívali písečné vyvýšeniny Vinohrádky a Hančák. Z pozdějších období pocházejí římské mince nalezené při orbě i doklady slovanského hradištního osídlení z doby Velké Moravy. První písemná zmínka o obci pochází z roku 1392, kdy je v listině holíčského panství uvedena pod jménem Cher.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Martina z Tours – barokní chrám ze 17. století",
+      "text": "Římskokatolický kostel sv. Martina z Tours stojí téměř uprostřed obce. Obecní kronika uvádí jeho výstavbu v letech 1640–1653 a vysvěcení 11. listopadu 1653; odborný památkový přehled datuje stavbu přibližně kolem roku 1666. Bez ohledu na drobný rozdíl v dataci jde o barokní jednolodní stavbu na starších základech, později upravovanou a rozšířenou o jižní boční loď v roce 1924.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "location": {
+        "name": "Kostel sv. Martina z Tours, Čáry",
+        "lat": 48.655429,
+        "lon": 17.095625,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/cary-kostol-sv-martina-z-tours"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Vinohrádky – stará vinařská tradice Čár",
+      "text": "Poloha Čár v údolí Myjavy a mírně vyvýšené písečné terasy vytvářely podmínky pro zemědělství a vinohradnictví. V dopise z 20. září 1550 se o místním víně psalo jako o mimořádně výhodném nákupu; kvalitní réva se pěstovala zejména na návrší Vinohrádky. V 18. století patřilo vinařství spolu s rolnictvím k důležitým zdrojům obživy místních obyvatel.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_004",
+      "title": "Martin Kollár – kněz, spisovatel a národní pracovník narozený v Čárech",
+      "text": "Martin Kollár (13. října 1853 – 26. ledna 1919) se narodil v Čárech v rolnické rodině. Stal se významným katolickým knězem, spisovatelem, redaktorem a politikem; dlouhá léta působil ve vedení Spolku sv. Vojtěcha a redigoval Katolícke noviny. Obecní výročná zpráva řadí jeho rodný dům mezi místní kulturní památky a připomíná jej jako nejvýznamnějšího rodáka obce.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_005",
+      "title": "Mária Kráľovičová – významná slovenská herečka z Čár",
+      "text": "V Čárech se 7. června 1927 narodila Mária Kráľovičová, jedna z nejvýraznějších slovenských divadelních a filmových hereček 20. století. Od roku 1948 byla členkou Slovenského národního divadla a na jeho scéně působila nepřetržitě 74 let. Získala titul národní umělkyně a řadu státních a kulturních ocenění; zemřela 5. prosince 2022.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_006",
+      "title": "Mlynářství a papírna – historická řemesla u řeky Myjavy",
+      "text": "Čáry měly v minulosti i řemeslný a výrobní význam. Roku 1729 zde vznikl mlýn, který podle obecní kroniky později proslavil obec v širokém okolí; v roce 1742 se připomíná také papírna. Tyto provozy využívaly polohu obce v údolí Myjavy a doplňovaly zemědělství a vinařství jako zdroje obživy místních obyvatel.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Obecní adresa Martina Kollára 53, 908 43 Čáry je doložena oficiální výroční zprávou obce; profil obce ve veřejném registru ÚDZS uvádí PSČ 90843. PSČ portály potvrzují přiřazení 908 43 obci Čáry.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 908 43 je uváděno pro obec Čáry; poloha pošty nebyla použita jako reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (Ministerstvo vnútra SR) pro adresní evidenci; oficiální obecní zdroje pro správní a místní geografii; odborné památkové zdroje pro polohu kostela."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Čáry – Konsolidovaná výročná správa za rok 2024",
+      "url": "https://cary.sk/wp-content/uploads/dokumenty/vyrocne-spravy/konsolidovana-vyrocna-sprava-2024-7qtp9g.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Čáry – História obce",
+      "url": "https://cary.sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Pamiatky na Slovensku – Kostol sv. Martina z Tours, Čáry",
+      "url": "https://www.pamiatkynaslovensku.sk/cary-kostol-sv-martina-z-tours",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Čáry – Obec v kocke",
+      "url": "https://cary.sk/obec/obec-v-kocke/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Spolok svätého Vojtecha – Martin Kollár",
+      "url": "https://www.ssv.sk/osobnosti.xhtml",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Farnosť Trstín – Martin Kollár",
+      "url": "https://trstin.fara.sk/historia/martin_kollar.htm",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Mesto Senica – Mária Kráľovičová",
+      "url": "https://senica.sk/clanok/maria-kralovicova",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Divadelný ústav – Mária Kráľovičová",
+      "url": "https://www.theatre.sk/vystavy/divadelna-galeria/tvare-slovenskeho-profesionalneho-divadla-cinohra/maria-kralovicova",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Slovenská televízia a rozhlas – Mária Kráľovičová",
+      "url": "https://spravy.stvr.sk/2022/12/zomrela-slovenska-herecka-legenda-maria-kralovicova/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Register%2Badries/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Úrad pre dohľad nad zdravotnou starostlivosťou – zoznam poskytovateľov a adries",
+      "url": "https://www.udzs-sk.sk/wp-content/uploads/2025/05/Tabulka-KPZS_5.5.2025.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Martina z Tours a historické jádro Čár",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry – pravěké osídlení a první písemná zmínka z roku 1392",
+          "text": "Archeologické nálezy dokládají osídlení katastru Čár už v neolitu, přibližně 5 000 let př. n. l.; lidé využívali písečné vyvýšeniny Vinohrádky a Hančák. Z pozdějších období pocházejí římské mince nalezené při orbě i doklady slovanského hradištního osídlení z doby Velké Moravy. První písemná zmínka o obci pochází z roku 1392, kdy je v listině holíčského panství uvedena pod jménem Cher."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Martina z Tours – barokní chrám ze 17. století",
+          "text": "Římskokatolický kostel sv. Martina z Tours stojí téměř uprostřed obce. Obecní kronika uvádí jeho výstavbu v letech 1640–1653 a vysvěcení 11. listopadu 1653; odborný památkový přehled datuje stavbu přibližně kolem roku 1666. Bez ohledu na drobný rozdíl v dataci jde o barokní jednolodní stavbu na starších základech, později upravovanou a rozšířenou o jižní boční loď v roce 1924."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky – stará vinařská tradice Čár",
+          "text": "Poloha Čár v údolí Myjavy a mírně vyvýšené písečné terasy vytvářely podmínky pro zemědělství a vinohradnictví. V dopise z 20. září 1550 se o místním víně psalo jako o mimořádně výhodném nákupu; kvalitní réva se pěstovala zejména na návrší Vinohrádky. V 18. století patřilo vinařství spolu s rolnictvím k důležitým zdrojům obživy místních obyvatel."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár – kněz, spisovatel a národní pracovník narozený v Čárech",
+          "text": "Martin Kollár (13. října 1853 – 26. ledna 1919) se narodil v Čárech v rolnické rodině. Stal se významným katolickým knězem, spisovatelem, redaktorem a politikem; dlouhá léta působil ve vedení Spolku sv. Vojtěcha a redigoval Katolícke noviny. Obecní výročná zpráva řadí jeho rodný dům mezi místní kulturní památky a připomíná jej jako nejvýznamnějšího rodáka obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová – významná slovenská herečka z Čár",
+          "text": "V Čárech se 7. června 1927 narodila Mária Kráľovičová, jedna z nejvýraznějších slovenských divadelních a filmových hereček 20. století. Od roku 1948 byla členkou Slovenského národního divadla a na jeho scéně působila nepřetržitě 74 let. Získala titul národní umělkyně a řadu státních a kulturních ocenění; zemřela 5. prosince 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mlynářství a papírna – historická řemesla u řeky Myjavy",
+          "text": "Čáry měly v minulosti i řemeslný a výrobní význam. Roku 1729 zde vznikl mlýn, který podle obecní kroniky později proslavil obec v širokém okolí; v roce 1742 se připomíná také papírna. Tyto provozy využívaly polohu obce v údolí Myjavy a doplňovaly zemědělství a vinařství jako zdroje obživy místních obyvatel."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Martinskirche und historischer Ortskern von Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry – vorgeschichtliche Besiedlung und erste schriftliche Erwähnung von 1392",
+          "text": "Archäologische Funde belegen eine Besiedlung des Gemeindegebiets bereits im Neolithikum, etwa 5.000 v. Chr.; genutzt wurden die Sandhügel Vinohrádky und Hančák. Aus späteren Epochen stammen römische Münzen und Nachweise einer slawischen Siedlung aus der Zeit Großmährens. Die erste schriftliche Erwähnung stammt aus dem Jahr 1392, als der Ort in einer Urkunde als Cher erscheint."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Martinskirche – eine Barockkirche aus dem 17. Jahrhundert",
+          "text": "Die römisch-katholische Martinskirche steht fast im Zentrum des Ortes. Die Gemeindegeschichte nennt die Bauzeit 1640–1653 und die Weihe am 11. November 1653; ein Fachinventar datiert den Bau ungefähr auf 1666. Es handelt sich um eine einschiffige Barockkirche auf älteren Fundamenten, die später verändert und 1924 um ein südliches Seitenschiff erweitert wurde."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky – die alte Weinbautradition von Čáry",
+          "text": "Die Lage von Čáry im Tal der Myjava und leicht erhöhte Sandterrassen begünstigten Landwirtschaft und Weinbau. In einem Brief vom 20. September 1550 wurde der örtliche Wein als besonders günstiger Kauf erwähnt; hochwertige Reben wuchsen vor allem auf der Anhöhe Vinohrádky. Im 18. Jahrhundert gehörten Weinbau und Landwirtschaft zu den wichtigsten Erwerbszweigen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár – in Čáry geborener Priester, Schriftsteller und Nationalaktivist",
+          "text": "Martin Kollár (13. Oktober 1853 – 26. Januar 1919) wurde in Čáry in einer Bauernfamilie geboren. Er wurde ein bedeutender katholischer Priester, Schriftsteller, Redakteur und Politiker; viele Jahre leitete er den Sankt-Adalbert-Verein und redigierte die Katolícke noviny. Der Jahresbericht der Gemeinde zählt sein Geburtshaus zu den örtlichen Kulturdenkmälern."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová – bedeutende slowakische Schauspielerin aus Čáry",
+          "text": "Mária Kráľovičová, eine der herausragenden slowakischen Theater- und Filmschauspielerinnen des 20. Jahrhunderts, wurde am 7. Juni 1927 in Čáry geboren. Ab 1948 gehörte sie dem Slowakischen Nationaltheater an und stand dort 74 Jahre lang auf der Bühne. Sie erhielt den Titel Nationalkünstlerin und zahlreiche staatliche und kulturelle Auszeichnungen; sie starb am 5. Dezember 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mühlen und Papiermühle – historisches Gewerbe an der Myjava",
+          "text": "Čáry hatte früher auch eine handwerkliche und gewerbliche Bedeutung. 1729 entstand hier eine Mühle, die den Ort laut Gemeindegeschichte später weithin bekannt machte; 1742 wird außerdem eine Papiermühle erwähnt. Beide Betriebe nutzten die Lage im Tal der Myjava und ergänzten Landwirtschaft und Weinbau als Erwerbsquellen."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Martin’s Church and historic centre of Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry – prehistoric settlement and first written record in 1392",
+          "text": "Archaeological finds show that the territory of Čáry was settled in the Neolithic, around 5,000 BC; people used the sandy rises of Vinohrádky and Hančák. Later evidence includes Roman coins and traces of a Slavic hillfort settlement from the Great Moravian period. The first written record dates from 1392, when the village appears in a deed concerning the Holíč estate under the name Cher."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Martin of Tours Church – a Baroque church from the 17th century",
+          "text": "The Roman Catholic Church of St Martin of Tours stands almost in the centre of the village. The municipal chronicle gives its construction as 1640–1653 and its consecration as 11 November 1653; a specialist heritage inventory dates it to around 1666. It is a single-nave Baroque building on older foundations, later modified and enlarged with a south aisle in 1924."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky – Čáry’s old wine-growing tradition",
+          "text": "Čáry’s position in the Myjava valley and its slightly raised sandy terraces favoured agriculture and viticulture. A letter dated 20 September 1550 praised the local wine as an especially good-value purchase; quality vines were grown mainly on the Vinohrádky hill. In the 18th century, wine-growing and farming were important sources of local livelihood."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár – priest, writer and national figure born in Čáry",
+          "text": "Martin Kollár (13 October 1853 – 26 January 1919) was born in Čáry to a farming family. He became an important Catholic priest, writer, editor and politician; for many years he held a leading role in the St Adalbert Association and edited Katolícke noviny. The municipal annual report lists his birthplace among the village’s cultural heritage sites."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová – distinguished Slovak actress from Čáry",
+          "text": "Mária Kráľovičová, one of the leading Slovak theatre and film actresses of the 20th century, was born in Čáry on 7 June 1927. She joined the Slovak National Theatre in 1948 and performed there continuously for 74 years. She received the title National Artist and numerous state and cultural awards; she died on 5 December 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mills and a paper mill – historic crafts beside the Myjava",
+          "text": "Čáry once had an important craft and manufacturing role. A mill was established here in 1729 and, according to the municipal chronicle, later made the village widely known; a paper mill is also recorded in 1742. These enterprises used the village’s position in the Myjava valley and complemented farming and wine-growing."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Martín y centro histórico de Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry, asentamiento prehistórico y primera mención escrita de 1392",
+          "text": "Los hallazgos arqueológicos demuestran que el territorio de Čáry estaba habitado en el Neolítico, hacia el 5000 a. C.; se utilizaban las elevaciones arenosas de Vinohrádky y Hančák. De épocas posteriores proceden monedas romanas y restos de un asentamiento eslavo del periodo de la Gran Moravia. La primera mención escrita data de 1392, cuando aparece como Cher en un documento del señorío de Holíč."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de San Martín de Tours, templo barroco del siglo XVII",
+          "text": "La iglesia católica romana de San Martín de Tours se encuentra casi en el centro del pueblo. La crónica municipal sitúa su construcción entre 1640 y 1653 y su consagración el 11 de noviembre de 1653; un inventario especializado la fecha aproximadamente en 1666. Es un templo barroco de una nave sobre cimientos anteriores, modificado posteriormente y ampliado con una nave lateral sur en 1924."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky, antigua tradición vitivinícola de Čáry",
+          "text": "La ubicación de Čáry en el valle del río Myjava y sus terrazas arenosas ligeramente elevadas favorecieron la agricultura y la viticultura. Una carta del 20 de septiembre de 1550 elogiaba el vino local como una compra especialmente ventajosa; las mejores vides crecían en la colina de Vinohrádky. En el siglo XVIII, la viticultura y la agricultura eran importantes medios de vida."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár, sacerdote, escritor y figura nacional nacido en Čáry",
+          "text": "Martin Kollár (13 de octubre de 1853 – 26 de enero de 1919) nació en Čáry en una familia campesina. Fue un destacado sacerdote católico, escritor, editor y político; durante muchos años dirigió la Asociación de San Adalberto y editó Katolícke noviny. El informe anual municipal incluye su casa natal entre los bienes culturales locales."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová, destacada actriz eslovaca nacida en Čáry",
+          "text": "Mária Kráľovičová, una de las grandes actrices eslovacas de teatro y cine del siglo XX, nació en Čáry el 7 de junio de 1927. Se incorporó al Teatro Nacional Eslovaco en 1948 y actuó allí ininterrumpidamente durante 74 años. Recibió el título de Artista Nacional y numerosos premios; falleció el 5 de diciembre de 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Molinos y fábrica de papel, antiguos oficios junto al río Myjava",
+          "text": "En el pasado, Čáry también tuvo importancia artesanal e industrial. En 1729 se construyó un molino que, según la crónica municipal, dio fama al pueblo en la región; en 1742 también se documenta una fábrica de papel. Estas actividades aprovechaban la ubicación en el valle del Myjava y complementaban la agricultura y la viticultura."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Martin et centre historique de Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry, habitat préhistorique et première mention écrite en 1392",
+          "text": "Les découvertes archéologiques montrent que le territoire de Čáry était habité au Néolithique, vers 5 000 av. J.-C. ; les habitants occupaient les hauteurs sableuses de Vinohrádky et Hančák. Des monnaies romaines et des traces d’un établissement slave de l’époque de la Grande-Moravie témoignent de périodes ultérieures. La première mention écrite date de 1392, sous le nom de Cher, dans un acte du domaine de Holíč."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Martin de Tours, édifice baroque du XVIIe siècle",
+          "text": "L’église catholique Saint-Martin de Tours se trouve presque au centre du village. La chronique communale situe sa construction entre 1640 et 1653 et sa consécration au 11 novembre 1653 ; un inventaire spécialisé la date vers 1666. Il s’agit d’une église baroque à nef unique bâtie sur des fondations plus anciennes, modifiée ensuite et agrandie d’un bas-côté sud en 1924."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky, ancienne tradition viticole de Čáry",
+          "text": "La situation de Čáry dans la vallée de la Myjava et ses terrasses sableuses légèrement surélevées favorisaient l’agriculture et la viticulture. Une lettre du 20 septembre 1550 vantait le vin local comme un achat particulièrement avantageux ; les vignes de qualité poussaient surtout sur la colline de Vinohrádky. Au XVIIIe siècle, la vigne et l’agriculture étaient des moyens de subsistance importants."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár, prêtre, écrivain et figure nationale né à Čáry",
+          "text": "Martin Kollár (13 octobre 1853 – 26 janvier 1919) est né à Čáry dans une famille paysanne. Il devint un important prêtre catholique, écrivain, rédacteur et homme politique ; il dirigea longtemps l’Association Saint-Adalbert et rédigea Katolícke noviny. Le rapport annuel communal classe sa maison natale parmi les sites patrimoniaux locaux."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová, grande actrice slovaque née à Čáry",
+          "text": "Mária Kráľovičová, l’une des grandes actrices slovaques de théâtre et de cinéma du XXe siècle, est née à Čáry le 7 juin 1927. Elle a rejoint le Théâtre national slovaque en 1948 et y a joué sans interruption pendant 74 ans. Elle a reçu le titre d’artiste nationale et de nombreuses distinctions ; elle est décédée le 5 décembre 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Moulins et papeterie, anciens métiers au bord de la Myjava",
+          "text": "Čáry avait autrefois une activité artisanale et manufacturière. Un moulin y fut construit en 1729 et, selon la chronique communale, rendit ensuite le village célèbre dans la région ; une papeterie est également mentionnée en 1742. Ces activités profitaient de la situation dans la vallée de la Myjava et complétaient l’agriculture et la viticulture."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Martino e centro storico di Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry, insediamento preistorico e prima menzione scritta del 1392",
+          "text": "I reperti archeologici dimostrano che il territorio di Čáry era abitato nel Neolitico, intorno al 5000 a.C.; gli insediamenti occupavano le alture sabbiose di Vinohrádky e Hančák. Periodi successivi sono attestati da monete romane e tracce di un insediamento slavo dell’epoca della Grande Moravia. La prima menzione scritta risale al 1392, quando il villaggio compare come Cher in un atto della signoria di Holíč."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Martino di Tours, edificio barocco del XVII secolo",
+          "text": "La chiesa cattolica romana di San Martino di Tours sorge quasi al centro del villaggio. La cronaca comunale indica la costruzione tra il 1640 e il 1653 e la consacrazione l’11 novembre 1653; un inventario specialistico la data intorno al 1666. È un edificio barocco a navata unica su fondamenta più antiche, modificato in seguito e ampliato con una navata laterale meridionale nel 1924."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky, antica tradizione vitivinicola di Čáry",
+          "text": "La posizione di Čáry nella valle del fiume Myjava e le terrazze sabbiose leggermente rialzate favorirono agricoltura e viticoltura. Una lettera del 20 settembre 1550 lodava il vino locale come un acquisto particolarmente conveniente; le viti migliori crescevano soprattutto sulla collina di Vinohrádky. Nel XVIII secolo viticoltura e agricoltura erano importanti mezzi di sostentamento."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár, sacerdote, scrittore e figura nazionale nato a Čáry",
+          "text": "Martin Kollár (13 ottobre 1853 – 26 gennaio 1919) nacque a Čáry in una famiglia contadina. Divenne un importante sacerdote cattolico, scrittore, redattore e politico; per molti anni guidò l’Associazione di Sant’Adalberto e curò Katolícke noviny. La relazione annuale del comune include la sua casa natale tra i beni culturali locali."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová, celebre attrice slovacca nata a Čáry",
+          "text": "Mária Kráľovičová, una delle più importanti attrici slovacche di teatro e cinema del XX secolo, nacque a Čáry il 7 giugno 1927. Entrò nel Teatro Nazionale Slovacco nel 1948 e vi recitò ininterrottamente per 74 anni. Ricevette il titolo di Artista nazionale e numerosi premi; morì il 5 dicembre 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mulini e cartiera, antichi mestieri lungo il fiume Myjava",
+          "text": "In passato Čáry ebbe anche un ruolo artigianale e produttivo. Nel 1729 fu costruito un mulino che, secondo la cronaca comunale, rese il villaggio noto nella regione; nel 1742 è attestata anche una cartiera. Queste attività sfruttavano la posizione nella valle della Myjava e affiancavano agricoltura e viticoltura."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Martinuskerk en historische kern van Čáry",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čáry – prehistorische bewoning en eerste schriftelijke vermelding in 1392",
+          "text": "Archeologische vondsten tonen aan dat het grondgebied van Čáry al in het neolithicum, rond 5000 v.Chr., bewoond was; mensen gebruikten de zandige hoogten van Vinohrádky en Hančák. Latere perioden zijn vertegenwoordigd door Romeinse munten en sporen van een Slavische nederzetting uit de Groot-Moravische tijd. De eerste schriftelijke vermelding dateert uit 1392, toen het dorp als Cher voorkomt in een akte van het landgoed Holíč."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Martinus-van-Tourskerk – een barokke kerk uit de 17e eeuw",
+          "text": "De rooms-katholieke Sint-Martinus-van-Tourskerk staat bijna in het centrum van het dorp. De gemeentekroniek dateert de bouw op 1640–1653 en de wijding op 11 november 1653; een gespecialiseerde erfgoedinventaris dateert het gebouw rond 1666. Het is een eenbeukige barokkerk op oudere fundamenten, later aangepast en in 1924 uitgebreid met een zuidelijke zijbeuk."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vinohrádky – de oude wijnbouwtraditie van Čáry",
+          "text": "De ligging van Čáry in de Myjava-vallei en de iets hoger gelegen zandterrassen waren gunstig voor landbouw en wijnbouw. Een brief van 20 september 1550 prees de plaatselijke wijn als een bijzonder voordelige aankoop; kwaliteitsdruiven groeiden vooral op de heuvel Vinohrádky. In de 18e eeuw waren wijnbouw en landbouw belangrijke bronnen van inkomsten."
+        },
+        {
+          "id": "fact_004",
+          "title": "Martin Kollár – priester, schrijver en nationale figuur geboren in Čáry",
+          "text": "Martin Kollár (13 oktober 1853 – 26 januari 1919) werd in Čáry geboren in een boerenfamilie. Hij werd een belangrijke katholieke priester, schrijver, redacteur en politicus; jarenlang leidde hij de Sint-Adalbertvereniging en redigeerde hij Katolícke noviny. Het gemeentelijke jaarverslag rekent zijn geboortehuis tot het plaatselijke culturele erfgoed."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mária Kráľovičová – vooraanstaande Slowaakse actrice uit Čáry",
+          "text": "Mária Kráľovičová, een van de belangrijkste Slowaakse toneel- en filmactrices van de 20e eeuw, werd op 7 juni 1927 in Čáry geboren. In 1948 trad ze toe tot het Slowaaks Nationaal Theater en ze bleef er 74 jaar onafgebroken optreden. Ze ontving de titel Nationaal Kunstenaar en talrijke onderscheidingen; ze overleed op 5 december 2022."
+        },
+        {
+          "id": "fact_006",
+          "title": "Molens en papiermolen – historische nijverheid aan de Myjava",
+          "text": "Čáry had vroeger ook een ambachtelijke en industriële betekenis. In 1729 werd er een molen gebouwd die het dorp volgens de gemeentekroniek later in de wijde omgeving bekend maakte; in 1742 wordt ook een papiermolen vermeld. Deze bedrijven maakten gebruik van de ligging in de Myjava-vallei en vulden landbouw en wijnbouw aan."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
