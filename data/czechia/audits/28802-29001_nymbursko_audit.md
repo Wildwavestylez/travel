@@ -2,10 +2,10 @@
 
 **Kanonické ID:** `CZ-NYMBURSKO-28802-29001`  
 **Rozsah:** 288xx–290xx; přesně 31 existujících PSČ uvedených níže  
-**Stav auditu:** **PASS — AUDIT COMPLETE / NOT PUBLISHED**  
+**Stav auditu:** **PASS — V5 PUBLISHED / DROPBOX BACKUP VERIFIED**  
 **Verze pravidel:** `data/czechia/prompt_audit.md` V2.1  
 **Zdroj pravdy:** Supabase `public.postal_codes`, `country_code='CZ'`  
-**Publikace / záloha / Neon / read-only lock:** neprovedeno a nepožadováno
+**Publikace:** V5 + published; **Dropbox záloha:** VERIFIED; **Neon import / read-only lock:** neprovedeno
 
 ## 1. Přesný inventář
 
@@ -15,13 +15,13 @@
 - 31/31 právě jednou v `groups`; žádný rozdíl ani duplicita.
 - 31/31 v kanonickém RÚIAN CSV.
 - 31/31 existujících záznamů v Supabase.
-- 253 faktů před opravami; počet faktů zůstal zachován.
+- 253 faktů před závěrečnými tematickými doplněními; finální stav 257 faktů.
 - `sequence.json` ani rozsah nebyly změněny.
 - RÚIAN manifest: feed aktualizován 2026-11-01; CSV staženo 2026-11-13.
 
 ## 2. Turistická úplnost — kontrola území jako celku
 
-**Bez potvrzené zásadní tematické mezery.** Stávající data pokrývají hlavní dominanty a příběhy regionu:
+**Dvě zásadní tematické mezery byly potvrzeny a doplněny:** krematorium Nymburk (28802) a jezdecký pomník Jiřího z Poděbrad (29001). Ostatní hlavní dominanty a příběhy regionu jsou pokryty:
 
 - Nymburk: královské město, středověké opevnění, kostel sv. Jiljí a Turecká věž.
 - Libice nad Cidlinou: slavníkovské hradiště a dějiny Slavníkovců.
@@ -313,4 +313,29 @@ Hlavní regionální témata zůstávají pokryta: královský Nymburk a opevně
 - **1 542/1 542 cizojazyčných textů** de/en/es/fr/it/nl.
 - 0 českých master textů pod 350 znaků; 0 známých `location=null`; 0 známých duplicitních ID; 0 nepovolených kategorií/map kategorií.
 - **PASS — AUDIT COMPLETE.**
-- Záznamy zůstávají ve stávajícím validačním životním cyklu. **V5, publikace, záloha, Neon import ani read-only lock nebyly provedeny.** Tyto kroky vyžadují samostatný výslovný pokyn uživatele.
+- Audit PASS; všech 31 záznamů je nyní V5/published a záloha na Dropboxu je VERIFIED. Neon import a read-only lock nebyly provedeny.
+
+
+---
+
+## Publikace V5 a Dropbox záloha — 27. 11. 2026
+
+**Publikace: VERIFIED.** Přesně 31/31 auditovaných českých záznamů bylo v Supabase nastaveno na `data_version=5` a `status='published'`. Následný cílený read-back potvrdil úplný seznam PSČ, původní ID 8953–8983 a nulový počet výjimek. Žádné jiné PSČ ani země nebyly změněny.
+
+**Dropbox záloha: VERIFIED.** Použita dedikovaná přesně vymezená zálohovací Edge Function. Záloha obsahuje 31 kompletních řádků `public.postal_codes`, 257 navázaných mapových bodů a české validační schéma; součástí jsou obnovovací SQL a manifest.
+
+- Backup ID: `CZ-AUDIT-NYMBURSKO-28802-29001-2026-11-27T14-59-29-569Z`
+- Work wave: `CZ-AUDIT-NYMBURSKO-28802-29001-001`, stav `COMPLETE`.
+- Snapshot registry: `public.backup_snapshots.status='VERIFIED'`, 31 záznamů.
+- Dropbox: `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_NYMBURSKO_28802-29001_2026-11-27T14-59-29-569Z`
+- Soubory: `CZ_AUDIT_NYMBURSKO_28802-29001_backup.json`, `CZ_AUDIT_NYMBURSKO_28802-29001_restore.sql`, `manifest.json`.
+- Všechny 3 soubory byly nahrány add-only (bez přepsání existujících souborů), z Dropboxu znovu staženy a jejich SHA-256 se shoduje.
+- Manifest: `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=31`, `verified_scope_hash=8e693093d790201a8d14eba1aa97a06230b4f078673fcec6b93b49bbff74faa4`.
+- JSON SHA-256: `3765affb3794abd0cd8654f4ed93cc712975f23c8623766c51771b56f9f85c6c`.
+- Restore SQL SHA-256: `d0b166e486e7bcc762f790ae80339449567f66e94db9cb7c064fca3b5286f8c6`.
+- Manifest SHA-256: `2b60b8aaacb3c94ba5c612f87460782616a395cd66cc818cb715a1357b6c3a11`.
+- Kontrola mapových bodů: 257/257 faktů má odpovídající mapový bod; 0 chybějících nebo přebytečných párů. Všech 31 řádků je CZ/V5/published.
+
+Dropbox listing potvrdil přítomnost přesně tří požadovaných souborů ve složce; manifest byl z Dropboxu načten a jeho rozsah, počty, stav i hash byly ověřeny. Work wave i snapshot registry jsou dokončeny. **Neon import a read-only lock nebyly provedeny.**
+
+**Konečný stav: AUDIT PASS / V5 PUBLISHED / DROPBOX BACKUP VERIFIED / NOT NEON-IMPORTED / NOT READ-ONLY LOCKED.**
