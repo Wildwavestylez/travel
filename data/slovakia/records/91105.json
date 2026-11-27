@@ -1,4 +1,499 @@
 {
   "postcode": "91105",
-  "status": "placeholder"
+  "city": "Trenčín",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Přírodní park při Váhu a Orechové v Trenčíně",
+  "representative_point": {
+    "lat": 48.899722,
+    "lon": 18.038056
+  },
+  "access_point": {
+    "lat": 48.899722,
+    "lon": 18.038056
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Zamarovce – pravěké osídlení a středověká obec na břehu Váhu",
+      "text": "Zamarovce leží na pravém břehu Váhu a patří k nejstarším osídleným místům středního Pováží. Archeologické nálezy dokládají osídlení už v paleolitu, včetně szeletienské industrie, a také velkomoravské pohřebiště. První písemná zmínka pochází z roku 1208, kdy se obec uvádí jako Villa Samar. V 19. století fungoval na břehu Váhu přístav pro vory, který navazoval na plavení dřeva z okolních lesů. Zamarovce byly v letech 1972–1990 místní částí Trenčína a poté se znovu osamostatnily; dnes mají vlastní obecní samosprávu.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Kaštieľ Zamarovských a rodová paměť obce",
+      "text": "Nejvýraznější historickou stavbou Zamaroviec je klasicistní kaštieľ rodiny Zamarovských z první poloviny 19. století. Dům má erb rodu, sloupový portikus a tympanon nad vstupním průčelím; v horní části obce se dochovaly také ruiny starší kúrie, kterou podle obecní kroniky zničily císařské oddíly roku 1708. Rod Zamarovských patřil k významným šlechtickým rodům Trenčianské stolice. Ke zdejší rodové historii se váže i spisovatel Vojtech Zamarovský: narodil se v Trenčíně, ale část dětství prožil v Zamarovcích a rodové kořeny jeho rodiny sahaly do této obce.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Kaštieľ Zamarovských, Zamarovce",
+        "lat": 48.90847,
+        "lon": 18.04948,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://turista.masvrsatec.sk/index.php/poi_detail/show_poi_detail/41/false",
+        "address": "Ulica Alexandra Lišku, Zamarovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Zamarovské jamy – mokřadní přírodní rezervace u Váhu",
+      "text": "Zamarovské jamy jsou přírodní rezervací o rozloze přibližně 6,5 hektaru na pravém břehu Váhu. Vznikly v prostoru bývalých štěrkových jam, které představují náhradní biotop někdejšího říčního ramene. Vodní plochy, mokřadní okraje a pobřežní vegetace poskytují útočiště vodnímu a mokřadnímu ptactvu. Lokalita je významným přírodním prvkem v bezprostředním sousedství Trenčína a Zamaroviec a je součástí širšího říčního prostředí Váhu. Městská turistická trasa ji popisuje jako místo s bohatým výskytem vodních a mokřadních druhů ptáků.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Přírodní rezervace Zamarovské jamy",
+        "lat": 48.903322,
+        "lon": 18.069727,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://zamarovske-jamy.oma.sk/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Orechové – kostel sv. Štěpána Krále a proměny obce Závažie",
+      "text": "V Orechovém stojí kostel sv. Štěpána Krále, jehož počátky sahají k protestantské modlitebně z první poloviny 17. století. Po roce 1781 byla stavba přizpůsobena katolické bohoslužbě doplněním oltářů a věže; farnost vznikla roku 1781 a kostel byl požehnán 20. srpna 1784. Interiér si zachoval raně barokní klenbu, barokní varhanní kruchtu a klasicistní zařízení. Orechové a sousední Istebník byly 1. června 1960 sloučeny do obce Závažie a od 1. ledna 1972 jsou součástí Trenčína. Kostel tak připomíná někdejší samostatný život obou obcí.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Štěpána Krále, Orechové, Trenčín",
+        "lat": 48.904034,
+        "lon": 18.037488,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/vyhladavanie-orechove-trencin-kostol-sv-stefana-krala",
+        "address": "Orechovská, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Přírodní park při Váhu – obnovená lužní krajina v Orechovém",
+      "text": "V městské části Orechové vznikl na pravém břehu Váhu, mezi řekou a Orechovským potokem, nový přírodní park. Revitalizace zachovala charakter původního lužního lesa a nivních luk, doplnila je o pěší propojení, lávku přes potok, naučné prvky a zázemí pro rekreaci i environmentální vzdělávání. Město v červnu 2026 oznámilo dokončení prací a plánovalo otevření po kolaudaci. Výsadba zahrnovala 78 nových stromů, zejména vrby, olše, jasany, duby a javory; více než sto původních dřevin bylo odborně ošetřeno. Park propojuje přírodní hodnoty nivy s veřejným prostorem města.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11",
+        "s12"
+      ],
+      "map_category": "park_garden",
+      "location": {
+        "name": "Přírodní park při Váhu, Orechové, Trenčín",
+        "lat": 48.899722,
+        "lon": 18.038056,
+        "type": "park",
+        "accuracy": "area_representative",
+        "source": "https://www.oma.sk/w1378656180?s=poi",
+        "address": "Radlinského, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Zlatovce a Hanzlíková – dvě obce spojené do jedné městské části",
+      "text": "Dnešní Zlatovce vznikly roku 1952 sloučením původních obcí Zlatovce a Hanzlíková; jejich historickou hranici tvořil Zlatovecký potok. Takto spojená obec byla k Trenčínu připojena v roce 1977. V původních Zlatovcích se přestalo pohřbívat na starém hřbitově roku 1950 a v letech 1989–1993 bylo jeho místo upraveno na pietní loučku s památníkem všem zde pochovaným. Také Hanzlíková měla starý hřbitov u evangelického kostelíka, který byl vypálen během Rákócziho povstání; na místě bývalého hřbitova byl později vztyčen pamětní kříž. Tyto drobné pamětní lokality uchovávají vzpomínku na samostatné vesnické dějiny před připojením k městu.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s13",
+        "s14"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální seznam poboček uvádí Trenčín 5, PSČ 911 05. Oficiální adresa obecního úřadu Zamarovce je rovněž 911 05; poštovní rozsah zahrnuje také městské části Trenčína Istebník, Orechové a Zlatovce.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam poboček Slovenské pošty, obecní adresa Zamarovce a adresní evidence městských částí",
+    "postcode_source_release": "Seznam poboček k 15. 4. 2023",
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 911 05 obsluhuje pošta Trenčín 5 a zahrnuje adresy v městských částech Istebník, Orechové a Zlatovce i v samostatné obci Zamarovce. Záblatie má odlišné PSČ 911 06.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální údaje města Trenčín a obce Zamarovce; geografické a památkové body ověřeny městskými, obecními a odbornými zdroji."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Zamarovce – História obce",
+      "url": "https://www.obeczamarovce.sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Ústredný portál verejnej správy – Informácie o obci Zamarovce",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_ecd75712-c7f5-4d49-b1e3-cd66683558c8",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Zamarovce – Obec a jej história",
+      "url": "https://www.obeczamarovce.sk/obec/obec/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "MAS Vršatec – Kaštieľ a kúria rodiny Zamarovských, GPS",
+      "url": "https://turista.masvrsatec.sk/index.php/poi_detail/show_poi_detail/41/false",
+      "type": "specialist"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Zamarovce – Pamiatky",
+      "url": "https://www.obeczamarovce.sk/obec/pamiatky/",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Visit Trenčín – Trasa Trenčín – Zamarovské jamy – Skalka",
+      "url": "https://visit.trencin.sk/trasa-04-trencin-zamarovske-jamy-skalka-klastor-na-skalke/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "OpenStreetMap / OMA – Zamarovské jamy, map location",
+      "url": "https://zamarovske-jamy.oma.sk/",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Pamiatky na Slovensku – Kostol sv. Štefana kráľa v Orechovom",
+      "url": "https://www.pamiatkynaslovensku.sk/vyhladavanie-orechove-trencin-kostol-sv-stefana-krala",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Farnosť Orechové – Z archívu, história Orechového a farnosti",
+      "url": "https://farnost-orechove.sk/z-archivu/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Mesto Trenčín – Prírodný park pri Váhu je dokončený, otvorí sa po kolaudácii",
+      "url": "https://trencin.sk/aktuality/prirodny-park-pri-vahu-je-dokonceny-otvori-sa-po-kolaudacii/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "OpenStreetMap / OMA – Prírodný park pri Váhu, Orechové",
+      "url": "https://www.oma.sk/w1378656180?s=poi",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "Mesto Trenčín – Projekt Zelený raj, prírodný park pri Váhu",
+      "url": "https://www.trencinsity.sk/data/media/presskit/trencianske-nabrezie-pravy-breh.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Mesto Trenčín – Kronika mesta 2009/2010, cintoríny v Zlatovciach a Hanzlíkovej",
+      "url": "https://trencin.sk/wp-content/uploads/2018/01/Kronika-mesta-Tren%C4%8Ci%CC%81n-%E2%80%93-rok-2009.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Mesto Trenčín – Manuál verejných priestorov 2024",
+      "url": "https://trencin.sk/wp-content/uploads/2025/04/Verejne%CC%81-priestory-TN.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Slovenská pošta – Zoznam vybraných pôšt, Trenčín 5, PSČ 91105",
+      "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Obec Zamarovce – oficiální adresa obecního úřadu, PSČ 911 05",
+      "url": "https://www.obeczamarovce.sk/e_download.php?file=data%2Furedni_deska%2Fobsah363_1.pdf&original=DOC150517_15052017115711.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Přírodní park při Váhu a Orechové v Trenčíně",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – pravěké osídlení a středověká obec na břehu Váhu",
+          "text": "Zamarovce leží na pravém břehu Váhu a patří k nejstarším osídleným místům středního Pováží. Archeologické nálezy dokládají osídlení už v paleolitu, včetně szeletienské industrie, a také velkomoravské pohřebiště. První písemná zmínka pochází z roku 1208, kdy se obec uvádí jako Villa Samar. V 19. století fungoval na břehu Váhu přístav pro vory, který navazoval na plavení dřeva z okolních lesů. Zamarovce byly v letech 1972–1990 místní částí Trenčína a poté se znovu osamostatnily; dnes mají vlastní obecní samosprávu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kaštieľ Zamarovských a rodová paměť obce",
+          "text": "Nejvýraznější historickou stavbou Zamaroviec je klasicistní kaštieľ rodiny Zamarovských z první poloviny 19. století. Dům má erb rodu, sloupový portikus a tympanon nad vstupním průčelím; v horní části obce se dochovaly také ruiny starší kúrie, kterou podle obecní kroniky zničily císařské oddíly roku 1708. Rod Zamarovských patřil k významným šlechtickým rodům Trenčianské stolice. Ke zdejší rodové historii se váže i spisovatel Vojtech Zamarovský: narodil se v Trenčíně, ale část dětství prožil v Zamarovcích a rodové kořeny jeho rodiny sahaly do této obce."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – mokřadní přírodní rezervace u Váhu",
+          "text": "Zamarovské jamy jsou přírodní rezervací o rozloze přibližně 6,5 hektaru na pravém břehu Váhu. Vznikly v prostoru bývalých štěrkových jam, které představují náhradní biotop někdejšího říčního ramene. Vodní plochy, mokřadní okraje a pobřežní vegetace poskytují útočiště vodnímu a mokřadnímu ptactvu. Lokalita je významným přírodním prvkem v bezprostředním sousedství Trenčína a Zamaroviec a je součástí širšího říčního prostředí Váhu. Městská turistická trasa ji popisuje jako místo s bohatým výskytem vodních a mokřadních druhů ptáků."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – kostel sv. Štěpána Krále a proměny obce Závažie",
+          "text": "V Orechovém stojí kostel sv. Štěpána Krále, jehož počátky sahají k protestantské modlitebně z první poloviny 17. století. Po roce 1781 byla stavba přizpůsobena katolické bohoslužbě doplněním oltářů a věže; farnost vznikla roku 1781 a kostel byl požehnán 20. srpna 1784. Interiér si zachoval raně barokní klenbu, barokní varhanní kruchtu a klasicistní zařízení. Orechové a sousední Istebník byly 1. června 1960 sloučeny do obce Závažie a od 1. ledna 1972 jsou součástí Trenčína. Kostel tak připomíná někdejší samostatný život obou obcí."
+        },
+        {
+          "id": "fact_005",
+          "title": "Přírodní park při Váhu – obnovená lužní krajina v Orechovém",
+          "text": "V městské části Orechové vznikl na pravém břehu Váhu, mezi řekou a Orechovským potokem, nový přírodní park. Revitalizace zachovala charakter původního lužního lesa a nivních luk, doplnila je o pěší propojení, lávku přes potok, naučné prvky a zázemí pro rekreaci i environmentální vzdělávání. Město v červnu 2026 oznámilo dokončení prací a plánovalo otevření po kolaudaci. Výsadba zahrnovala 78 nových stromů, zejména vrby, olše, jasany, duby a javory; více než sto původních dřevin bylo odborně ošetřeno. Park propojuje přírodní hodnoty nivy s veřejným prostorem města."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce a Hanzlíková – dvě obce spojené do jedné městské části",
+          "text": "Dnešní Zlatovce vznikly roku 1952 sloučením původních obcí Zlatovce a Hanzlíková; jejich historickou hranici tvořil Zlatovecký potok. Takto spojená obec byla k Trenčínu připojena v roce 1977. V původních Zlatovcích se přestalo pohřbívat na starém hřbitově roku 1950 a v letech 1989–1993 bylo jeho místo upraveno na pietní loučku s památníkem všem zde pochovaným. Také Hanzlíková měla starý hřbitov u evangelického kostelíka, který byl vypálen během Rákócziho povstání; na místě bývalého hřbitova byl později vztyčen pamětní kříž. Tyto drobné pamětní lokality uchovávají vzpomínku na samostatné vesnické dějiny před připojením k městu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Naturpark an der Waag und Orechové in Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – prähistorische Besiedlung und mittelalterliches Dorf an der Waag",
+          "text": "Zamarovce liegt am rechten Ufer der Waag und gehört zu den ältesten Siedlungsplätzen des mittleren Waagtals. Archäologische Funde belegen eine Besiedlung bereits im Paläolithikum, darunter Artefakte der Szeletien-Kultur, sowie ein großmährisches Gräberfeld. Die erste schriftliche Erwähnung stammt aus dem Jahr 1208, als der Ort Villa Samar genannt wurde. Im 19. Jahrhundert befand sich am Waagufer ein Floßhafen, der mit dem Holztransport aus den umliegenden Wäldern verbunden war. Von 1972 bis 1990 war Zamarovce ein Stadtteil von Trenčín; danach wurde es wieder selbstständig und besitzt heute eine eigene Gemeindeverwaltung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Das Schloss der Familie Zamarovský und das Familiengedächtnis des Dorfes",
+          "text": "Das bedeutendste historische Gebäude von Zamarovce ist das klassizistische Schloss der Familie Zamarovský aus der ersten Hälfte des 19. Jahrhunderts. Das Gebäude besitzt das Familienwappen, einen Säulenportikus und einen Tympanon über der Eingangsfront; im oberen Teil des Ortes sind auch die Ruinen eines älteren Herrenhauses erhalten, das laut Ortschronik 1708 von kaiserlichen Truppen zerstört wurde. Die Zamarovskýs gehörten zu den bedeutenden Adelsfamilien des Komitats Trenčín. Mit der Familiengeschichte ist auch der Schriftsteller Vojtech Zamarovský verbunden: Er wurde in Trenčín geboren, verbrachte aber einen Teil seiner Kindheit in Zamarovce und seine familiären Wurzeln reichten in diesen Ort."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – ein Feuchtgebiet-Naturschutzgebiet an der Waag",
+          "text": "Zamarovské jamy ist ein Naturschutzgebiet von etwa 6,5 Hektar am rechten Ufer der Waag. Es entstand im Bereich ehemaliger Kiesgruben, die einen Ersatzlebensraum für einen früheren Flussarm bilden. Wasserflächen, Feuchtgebietsränder und Ufervegetation bieten Wasser- und Sumpfvögeln einen Lebensraum. Das Gebiet ist ein bedeutendes Naturelement in unmittelbarer Nähe von Trenčín und Zamarovce und gehört zur breiteren Flusslandschaft der Waag. Ein städtischer Wanderweg beschreibt den Ort als Lebensraum mit zahlreichen Wasser- und Feuchtgebietsvögeln."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – die St.-Stephanus-Kirche und die Geschichte der Gemeinde Závažie",
+          "text": "In Orechové steht die Kirche des heiligen Stephan des Königs, deren Ursprung auf ein protestantisches Bethaus aus der ersten Hälfte des 17. Jahrhunderts zurückgeht. Nach 1781 wurde das Gebäude durch Altäre und einen Turm für den katholischen Gottesdienst umgestaltet; die Pfarrei entstand 1781 und die Kirche wurde am 20. August 1784 gesegnet. Im Inneren blieben ein frühbarockes Gewölbe, eine barocke Orgelempore und klassizistische Ausstattung erhalten. Orechové und das benachbarte Istebník wurden am 1. Juni 1960 zur Gemeinde Závažie vereinigt und gehören seit dem 1. Januar 1972 zu Trenčín. Die Kirche erinnert an das frühere eigenständige Leben beider Dörfer."
+        },
+        {
+          "id": "fact_005",
+          "title": "Der Naturpark an der Waag – erneuerte Auenlandschaft in Orechové",
+          "text": "Im Stadtteil Orechové entstand am rechten Ufer der Waag, zwischen dem Fluss und dem Bach Orechovský potok, ein neuer Naturpark. Die Revitalisierung bewahrte den Charakter des ursprünglichen Auwaldes und der Auenwiesen und ergänzte ihn um Fußwege, eine Brücke über den Bach, Informationselemente sowie Einrichtungen für Erholung und Umweltbildung. Die Stadt meldete im Juni 2026 den Abschluss der Arbeiten und plante die Eröffnung nach der behördlichen Abnahme. Es wurden 78 neue Bäume gepflanzt, vor allem Weiden, Erlen, Eschen, Eichen und Ahorne; mehr als hundert vorhandene Bäume wurden fachgerecht gepflegt. Der Park verbindet den Naturwert der Aue mit dem öffentlichen Stadtraum."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce und Hanzlíková – zwei Dörfer, die zu einem Stadtteil wurden",
+          "text": "Das heutige Zlatovce entstand 1952 durch die Zusammenlegung der früheren Dörfer Zlatovce und Hanzlíková; ihre historische Grenze bildete der Bach Zlatovecký potok. Die vereinigte Gemeinde wurde 1977 nach Trenčín eingemeindet. Auf dem alten Friedhof im ursprünglichen Zlatovce fanden nach 1950 keine Bestattungen mehr statt; zwischen 1989 und 1993 wurde das Gelände zu einer Gedenkwiese mit einem Denkmal für alle dort Begrabenen umgestaltet. Auch Hanzlíková besaß einen alten Friedhof bei einer evangelischen Kirche, die während des Rákóczi-Aufstands niedergebrannt wurde; später wurde am Friedhofsort ein Gedenkkreuz errichtet. Diese kleinen Erinnerungsorte bewahren das Gedächtnis an die eigenständige Dorfgeschichte vor der Eingemeindung."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "The Váh Nature Park and Orechové in Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – prehistoric settlement and a medieval village on the Váh",
+          "text": "Zamarovce lies on the right bank of the Váh and is among the oldest settled places in the middle Váh region. Archaeological finds attest to human presence as early as the Palaeolithic, including Szeletian industry, as well as a Great Moravian burial ground. The first written mention dates to 1208, when the village was called Villa Samar. In the 19th century, a raft harbour operated on the riverbank and was linked to the transport of timber from surrounding forests. From 1972 to 1990 Zamarovce was part of Trenčín; it later regained its independence and today has its own municipal administration."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Zamarovský manor house and the village's family heritage",
+          "text": "The most prominent historic building in Zamarovce is the Neoclassical manor house of the Zamarovský family, dating from the first half of the 19th century. It bears the family coat of arms and has a columned portico and a pediment above the entrance; ruins of an older manor house survive in the upper part of the village, which the local chronicle says was destroyed by imperial troops in 1708. The Zamarovskýs were an influential noble family in the Trenčín region. The writer Vojtech Zamarovský is also linked to the family heritage: he was born in Trenčín, but spent part of his childhood in Zamarovce and his family roots were connected with the village."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – a wetland nature reserve beside the Váh",
+          "text": "Zamarovské jamy is a nature reserve of approximately 6.5 hectares on the right bank of the Váh. It occupies former gravel pits that now provide a replacement habitat for an earlier river branch. Open water, wetland margins and riverside vegetation provide habitat for waterbirds and other wetland species. The reserve is an important natural feature close to both Trenčín and Zamarovce and forms part of the wider Váh river landscape. A municipal walking route describes it as a place with abundant water and wetland birds."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – the Church of St Stephen and the history of Závažie",
+          "text": "The Church of St Stephen the King stands in Orechové and originated as a Protestant prayer house from the first half of the 17th century. After 1781, altars and a tower were added to adapt the building for Catholic worship; the parish was established in 1781 and the church was blessed on 20 August 1784. The interior retains an Early Baroque vault, a Baroque organ gallery and Neoclassical furnishings. Orechové and neighbouring Istebník were merged into the municipality of Závažie on 1 June 1960 and became part of Trenčín on 1 January 1972. The church recalls the former independent life of both villages."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Váh Nature Park – a restored floodplain landscape in Orechové",
+          "text": "A new nature park has been developed in the Orechové district on the right bank of the Váh, between the river and the Orechovský stream. The revitalisation retained the character of the original floodplain forest and meadows while adding walking connections, a footbridge over the stream, educational features and facilities for recreation and environmental learning. In June 2026, the city announced that the works were complete and planned to open the park after final approval. The project planted 78 new trees, mainly willows, alders, ash, oaks and maples, and professionally treated more than one hundred existing trees. The park links the natural value of the floodplain with public urban space."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce and Hanzlíková – two villages joined into one urban district",
+          "text": "Today's Zlatovce was formed in 1952 by merging the former villages of Zlatovce and Hanzlíková, historically separated by the Zlatovecký stream. The combined municipality became part of Trenčín in 1977. Burials at the old cemetery in the original Zlatovce ceased in 1950; between 1989 and 1993 the site was converted into a memorial meadow with a monument to everyone buried there. Hanzlíková also had an old cemetery beside an Evangelical church, which was burned down during the Rákóczi uprising; a memorial cross was later erected at the cemetery site. These small memorial places preserve the memory of village histories before incorporation into the city."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Parque Natural del Váh y Orechové en Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce: asentamiento prehistórico y pueblo medieval a orillas del Váh",
+          "text": "Zamarovce se encuentra en la orilla derecha del Váh y es uno de los lugares habitados más antiguos de la región central del río. Los hallazgos arqueológicos demuestran presencia humana desde el Paleolítico, incluida industria szeletiense, así como un cementerio de la Gran Moravia. La primera mención escrita data de 1208, cuando el pueblo aparece como Villa Samar. En el siglo XIX funcionaba en la ribera un puerto de balsas relacionado con el transporte de madera de los bosques cercanos. Entre 1972 y 1990 Zamarovce formó parte de Trenčín; después recuperó su autonomía y hoy cuenta con su propia administración municipal."
+        },
+        {
+          "id": "fact_002",
+          "title": "La casa señorial de los Zamarovský y la memoria familiar del pueblo",
+          "text": "El edificio histórico más destacado de Zamarovce es la casa señorial neoclásica de la familia Zamarovský, de la primera mitad del siglo XIX. Conserva el escudo familiar, un pórtico de columnas y un frontón sobre la fachada de entrada; en la parte alta del pueblo quedan ruinas de una casa señorial anterior que, según la crónica local, fue destruida por tropas imperiales en 1708. Los Zamarovský fueron una familia noble influyente de la región de Trenčín. El escritor Vojtech Zamarovský también está vinculado a esta memoria familiar: nació en Trenčín, pero pasó parte de su infancia en Zamarovce y sus raíces familiares estaban relacionadas con el pueblo."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy, reserva natural de humedales junto al Váh",
+          "text": "Zamarovské jamy es una reserva natural de aproximadamente 6,5 hectáreas en la orilla derecha del Váh. Ocupa antiguas graveras que hoy constituyen un hábitat sustituto de un antiguo brazo del río. Las láminas de agua, los bordes húmedos y la vegetación ribereña ofrecen refugio a aves acuáticas y otras especies de humedal. La reserva es un elemento natural importante cerca de Trenčín y Zamarovce y forma parte del paisaje fluvial del Váh. Una ruta municipal la describe como un lugar con abundantes aves acuáticas y de zonas húmedas."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové: iglesia de San Esteban y la historia de Závažie",
+          "text": "En Orechové se encuentra la iglesia de San Esteban Rey, cuyo origen fue una sala de oración protestante de la primera mitad del siglo XVII. Después de 1781 se adaptó al culto católico mediante la incorporación de altares y una torre; la parroquia se estableció en 1781 y la iglesia fue bendecida el 20 de agosto de 1784. El interior conserva una bóveda barroca temprana, una tribuna de órgano barroca y mobiliario neoclásico. Orechové y la vecina Istebník se unieron al municipio de Závažie el 1 de junio de 1960 y pasaron a formar parte de Trenčín el 1 de enero de 1972. La iglesia recuerda la antigua vida independiente de ambos pueblos."
+        },
+        {
+          "id": "fact_005",
+          "title": "El Parque Natural del Váh, paisaje aluvial restaurado en Orechové",
+          "text": "En el barrio de Orechové se ha creado un nuevo parque natural en la orilla derecha del Váh, entre el río y el arroyo Orechovský. La renovación conservó el carácter del bosque aluvial y de los prados originales e incorporó conexiones peatonales, una pasarela sobre el arroyo, elementos educativos y espacios para el ocio y la educación ambiental. En junio de 2026, el ayuntamiento anunció que las obras estaban terminadas y que preveía abrir el parque tras la aprobación administrativa final. Se plantaron 78 árboles nuevos, principalmente sauces, alisos, fresnos, robles y arces, y se trataron profesionalmente más de cien árboles existentes. El parque conecta el valor natural de la llanura aluvial con el espacio público urbano."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce y Hanzlíková: dos pueblos unidos en un solo barrio urbano",
+          "text": "La actual Zlatovce nació en 1952 de la unión de los antiguos pueblos de Zlatovce y Hanzlíková, separados históricamente por el arroyo Zlatovecký. El municipio resultante se incorporó a Trenčín en 1977. En el antiguo cementerio de Zlatovce dejaron de realizarse entierros en 1950; entre 1989 y 1993 el lugar se transformó en un prado conmemorativo y un monumento dedicado a todos los allí enterrados. Hanzlíková también tenía un antiguo cementerio junto a una iglesia evangélica, que fue incendiada durante la sublevación de Rákóczi; más tarde se erigió una cruz conmemorativa en el lugar del cementerio. Estos pequeños espacios de memoria conservan el recuerdo de la historia independiente de los pueblos antes de su incorporación a la ciudad."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Parc naturel de la Váh et Orechové à Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – habitat préhistorique et village médiéval sur la Váh",
+          "text": "Zamarovce se trouve sur la rive droite de la Váh et compte parmi les sites habités les plus anciens de la région moyenne de la rivière. Les découvertes archéologiques attestent une présence humaine dès le Paléolithique, notamment avec une industrie szeletienne, ainsi qu’un cimetière de Grande-Moravie. La première mention écrite date de 1208, lorsque le village apparaît sous le nom de Villa Samar. Au XIXe siècle, un port de radeaux fonctionnait sur la rive et servait au transport du bois des forêts environnantes. De 1972 à 1990, Zamarovce fut un quartier de Trenčín ; la commune retrouva ensuite son autonomie et possède aujourd’hui sa propre administration."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le manoir des Zamarovský et la mémoire familiale du village",
+          "text": "Le bâtiment historique le plus remarquable de Zamarovce est le manoir néoclassique de la famille Zamarovský, datant de la première moitié du XIXe siècle. Il porte les armoiries familiales et possède un portique à colonnes ainsi qu’un fronton au-dessus de l’entrée ; les ruines d’un manoir plus ancien subsistent dans la partie haute du village, détruit selon la chronique locale par les troupes impériales en 1708. Les Zamarovský comptaient parmi les familles nobles influentes de la région de Trenčín. L’écrivain Vojtech Zamarovský est également lié à cette mémoire familiale : né à Trenčín, il passa une partie de son enfance à Zamarovce et ses origines familiales étaient liées au village."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – réserve naturelle humide au bord de la Váh",
+          "text": "Zamarovské jamy est une réserve naturelle d’environ 6,5 hectares sur la rive droite de la Váh. Elle occupe d’anciennes gravières qui constituent aujourd’hui un habitat de remplacement pour un ancien bras de rivière. Les plans d’eau, les marges humides et la végétation riveraine offrent un refuge aux oiseaux d’eau et à d’autres espèces des zones humides. La réserve est un élément naturel important à proximité immédiate de Trenčín et de Zamarovce et fait partie du paysage fluvial de la Váh. Un itinéraire municipal la décrit comme un lieu riche en oiseaux aquatiques et palustres."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – l’église Saint-Étienne et l’histoire de Závažie",
+          "text": "À Orechové se trouve l’église Saint-Étienne roi, dont l’origine est un lieu de prière protestant de la première moitié du XVIIe siècle. Après 1781, le bâtiment fut adapté au culte catholique par l’ajout d’autels et d’une tour ; la paroisse fut créée en 1781 et l’église bénie le 20 août 1784. L’intérieur conserve une voûte du premier baroque, une tribune d’orgue baroque et un mobilier néoclassique. Orechové et le village voisin d’Istebník furent réunis dans la commune de Závažie le 1er juin 1960, puis intégrés à Trenčín le 1er janvier 1972. L’église rappelle l’ancienne vie indépendante des deux villages."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le parc naturel de la Váh – paysage alluvial restauré à Orechové",
+          "text": "Un nouveau parc naturel a été aménagé dans le quartier d’Orechové, sur la rive droite de la Váh, entre la rivière et le ruisseau Orechovský. La revitalisation a préservé le caractère de la forêt alluviale et des prairies d’origine tout en ajoutant des liaisons piétonnes, une passerelle au-dessus du ruisseau, des éléments pédagogiques et des équipements de loisirs et d’éducation environnementale. En juin 2026, la ville a annoncé l’achèvement des travaux et prévoyait l’ouverture après la réception administrative. Le projet a planté 78 nouveaux arbres, principalement des saules, aulnes, frênes, chênes et érables, et a entretenu professionnellement plus de cent arbres existants. Le parc relie la valeur naturelle de la plaine alluviale à l’espace public urbain."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce et Hanzlíková – deux villages réunis en un seul quartier urbain",
+          "text": "L’actuel Zlatovce est né en 1952 de la fusion des anciens villages de Zlatovce et Hanzlíková, historiquement séparés par le ruisseau Zlatovecký. La commune ainsi réunie fut rattachée à Trenčín en 1977. Les inhumations dans l’ancien cimetière du Zlatovce historique cessèrent en 1950 ; entre 1989 et 1993, le site fut transformé en prairie commémorative avec un monument dédié à toutes les personnes qui y reposent. Hanzlíková possédait également un ancien cimetière près d’une église évangélique, incendiée pendant le soulèvement de Rákóczi ; une croix commémorative fut ensuite érigée à l’emplacement du cimetière. Ces petits lieux de mémoire préservent le souvenir de l’histoire autonome des villages avant leur intégration à la ville."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Parco naturale della Váh e Orechové a Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – insediamento preistorico e villaggio medievale sulla Váh",
+          "text": "Zamarovce si trova sulla riva destra della Váh ed è uno dei luoghi abitati più antichi della regione centrale del fiume. I reperti archeologici attestano una presenza umana già nel Paleolitico, compresa l’industria szeletiana, e una necropoli della Grande Moravia. La prima menzione scritta risale al 1208, quando il villaggio compare come Villa Samar. Nel XIX secolo sulla riva funzionava un porto per zattere, collegato al trasporto del legname dalle foreste circostanti. Dal 1972 al 1990 Zamarovce fu un quartiere di Trenčín; in seguito riacquistò l’autonomia e oggi dispone di una propria amministrazione comunale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il castello signorile degli Zamarovský e la memoria familiare del villaggio",
+          "text": "L’edificio storico più importante di Zamarovce è il castello signorile neoclassico della famiglia Zamarovský, risalente alla prima metà del XIX secolo. Presenta lo stemma della famiglia, un portico colonnato e un timpano sopra la facciata d’ingresso; nella parte alta del villaggio restano anche le rovine di una residenza più antica, distrutta secondo la cronaca locale dalle truppe imperiali nel 1708. Gli Zamarovský furono una delle famiglie nobili più influenti della regione di Trenčín. Anche lo scrittore Vojtech Zamarovský è legato alla memoria familiare: nacque a Trenčín, ma trascorse parte dell’infanzia a Zamarovce e le sue radici familiari erano legate al villaggio."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – riserva naturale umida lungo la Váh",
+          "text": "Zamarovské jamy è una riserva naturale di circa 6,5 ettari sulla riva destra della Váh. Occupa vecchie cave di ghiaia che oggi costituiscono un habitat sostitutivo di un antico ramo del fiume. Le superfici d’acqua, i margini umidi e la vegetazione ripariale offrono rifugio agli uccelli acquatici e ad altre specie delle zone umide. La riserva è un importante elemento naturale nelle immediate vicinanze di Trenčín e Zamarovce e fa parte del più ampio paesaggio fluviale della Váh. Un itinerario comunale la descrive come un luogo ricco di uccelli acquatici e palustri."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – la chiesa di Santo Stefano e la storia di Závažie",
+          "text": "A Orechové si trova la chiesa di Santo Stefano re, originariamente una sala di preghiera protestante della prima metà del XVII secolo. Dopo il 1781 l’edificio fu adattato al culto cattolico con l’aggiunta di altari e di una torre; la parrocchia fu istituita nel 1781 e la chiesa benedetta il 20 agosto 1784. L’interno conserva una volta del primo barocco, una cantoria barocca e arredi neoclassici. Orechové e la vicina Istebník furono unite nel comune di Závažie il 1º giugno 1960 e dal 1º gennaio 1972 fanno parte di Trenčín. La chiesa ricorda la precedente vita autonoma dei due villaggi."
+        },
+        {
+          "id": "fact_005",
+          "title": "Il Parco naturale della Váh – paesaggio alluvionale restaurato a Orechové",
+          "text": "Nel quartiere di Orechové è stato realizzato un nuovo parco naturale sulla riva destra della Váh, tra il fiume e il torrente Orechovský. La riqualificazione ha conservato il carattere del bosco ripariale e dei prati alluvionali originari, aggiungendo collegamenti pedonali, una passerella sul torrente, elementi didattici e strutture per il tempo libero e l’educazione ambientale. Nel giugno 2026 la città ha annunciato il completamento dei lavori e ha previsto l’apertura dopo il collaudo amministrativo. Sono stati piantati 78 nuovi alberi, soprattutto salici, ontani, frassini, querce e aceri, e oltre cento alberi esistenti sono stati curati professionalmente. Il parco collega il valore naturale della pianura alluvionale allo spazio pubblico urbano."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce e Hanzlíková – due villaggi riuniti in un unico quartiere urbano",
+          "text": "L’attuale Zlatovce nacque nel 1952 dall’unione degli antichi villaggi di Zlatovce e Hanzlíková, storicamente separati dal torrente Zlatovecký. Il comune così formato fu incorporato a Trenčín nel 1977. Nel vecchio cimitero dell’originaria Zlatovce le sepolture cessarono nel 1950; tra il 1989 e il 1993 l’area fu trasformata in un prato commemorativo con un monumento dedicato a tutte le persone sepolte lì. Anche Hanzlíková aveva un antico cimitero accanto a una chiesa evangelica, incendiata durante la rivolta di Rákóczi; in seguito sul luogo del cimitero fu eretta una croce commemorativa. Questi piccoli luoghi della memoria conservano il ricordo della storia autonoma dei villaggi prima della loro incorporazione nella città."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Natuurpark aan de Váh en Orechové in Trenčín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zamarovce – prehistorische bewoning en een middeleeuws dorp aan de Váh",
+          "text": "Zamarovce ligt op de rechteroever van de Váh en behoort tot de oudste bewoonde plaatsen in het middelste Váhgebied. Archeologische vondsten tonen menselijke aanwezigheid vanaf het paleolithicum, waaronder Szeletien-industrie, en ook een Groot-Moravische begraafplaats. De eerste schriftelijke vermelding dateert uit 1208, toen de plaats Villa Samar werd genoemd. In de 19e eeuw was er aan de oever een vlottenhaven die verband hield met het vervoer van hout uit de omliggende bossen. Van 1972 tot 1990 was Zamarovce een stadsdeel van Trenčín; daarna werd het weer zelfstandig en heeft het tegenwoordig een eigen gemeentebestuur."
+        },
+        {
+          "id": "fact_002",
+          "title": "Het landhuis van de familie Zamarovský en het familiegeheugen van het dorp",
+          "text": "Het belangrijkste historische gebouw van Zamarovce is het neoclassicistische landhuis van de familie Zamarovský uit de eerste helft van de 19e eeuw. Het gebouw draagt het familiewapen en heeft een zuilenportiek en een fronton boven de ingang; in het bovenste deel van het dorp zijn ook ruïnes van een ouder landhuis bewaard gebleven, dat volgens de plaatselijke kroniek in 1708 door keizerlijke troepen werd verwoest. De Zamarovskýs behoorden tot de invloedrijke adellijke families van de regio Trenčín. Ook schrijver Vojtech Zamarovský is met deze familiegeschiedenis verbonden: hij werd geboren in Trenčín, maar bracht een deel van zijn jeugd door in Zamarovce en zijn familieoorsprong lag in het dorp."
+        },
+        {
+          "id": "fact_003",
+          "title": "Zamarovské jamy – een wetland-natuurreservaat langs de Váh",
+          "text": "Zamarovské jamy is een natuurreservaat van ongeveer 6,5 hectare op de rechteroever van de Váh. Het ligt in voormalige grindgroeven die nu een vervangend leefgebied vormen voor een oude rivierarm. Open water, natte oevers en oevervegetatie bieden leefruimte aan watervogels en andere soorten van wetlands. Het reservaat is een belangrijk natuurgebied vlak bij Trenčín en Zamarovce en maakt deel uit van het bredere rivierlandschap van de Váh. Een gemeentelijke wandelroute beschrijft het als een plek met veel water- en moerasvogels."
+        },
+        {
+          "id": "fact_004",
+          "title": "Orechové – de Sint-Stefanuskerk en de geschiedenis van Závažie",
+          "text": "In Orechové staat de kerk van Sint-Stefanus de Koning, die oorspronkelijk een protestants gebedshuis uit de eerste helft van de 17e eeuw was. Na 1781 werd het gebouw met altaren en een toren aangepast voor de katholieke eredienst; de parochie werd in 1781 opgericht en de kerk werd op 20 augustus 1784 ingezegend. Het interieur heeft een vroegbarok gewelf, een barokke orgelgalerij en neoclassicistische inrichting. Orechové en het naburige Istebník werden op 1 juni 1960 samengevoegd tot de gemeente Závažie en maken sinds 1 januari 1972 deel uit van Trenčín. De kerk herinnert aan het vroegere zelfstandige leven van beide dorpen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Het Natuurpark aan de Váh – hersteld uiterwaardenlandschap in Orechové",
+          "text": "In het stadsdeel Orechové is op de rechteroever van de Váh, tussen de rivier en de beek Orechovský, een nieuw natuurpark aangelegd. Bij de herinrichting bleef het karakter van het oorspronkelijke ooibos en de uiterwaardweiden behouden; er kwamen wandelverbindingen, een voetbrug over de beek, educatieve elementen en voorzieningen voor recreatie en milieueducatie. In juni 2026 meldde de stad dat de werkzaamheden waren afgerond en dat het park na de officiële oplevering zou worden geopend. Er werden 78 nieuwe bomen geplant, vooral wilgen, elzen, essen, eiken en esdoorns; meer dan honderd bestaande bomen werden deskundig verzorgd. Het park verbindt de natuurwaarde van de uiterwaarden met de openbare ruimte van de stad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Zlatovce en Hanzlíková – twee dorpen samengevoegd tot één stadsdeel",
+          "text": "Het huidige Zlatovce ontstond in 1952 door de samenvoeging van de vroegere dorpen Zlatovce en Hanzlíková, die historisch werden gescheiden door de beek Zlatovecký. De verenigde gemeente werd in 1977 bij Trenčín gevoegd. Op de oude begraafplaats van het oorspronkelijke Zlatovce werden na 1950 geen mensen meer begraven; tussen 1989 en 1993 werd het terrein ingericht als herdenkingsweide met een monument voor iedereen die daar begraven ligt. Ook Hanzlíková had een oude begraafplaats bij een evangelische kerk, die tijdens de opstand van Rákóczi werd afgebrand; later werd op de begraafplaats een herdenkingskruis opgericht. Deze kleine herinneringsplekken bewaren de geschiedenis van de dorpen voordat zij bij de stad werden gevoegd."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
