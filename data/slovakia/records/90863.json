@@ -1,4 +1,524 @@
 {
   "postcode": "90863",
-  "status": "placeholder"
+  "city": "Radošovce",
+  "district": "Vieska",
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel Narození Panny Marie a historické centrum Radošoviec",
+  "representative_point": {
+    "lat": 48.77309,
+    "lon": 17.280127
+  },
+  "access_point": {
+    "lat": 48.77309,
+    "lon": 17.280127
+  },
+  "district_type": "local_part",
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Radošovce a Vieska – historické mestečko a pričlenená obec",
+      "text": "Radošovce sa prvýkrát písomne pripomínajú 27. januára 1297 pod názvom villas Rasolyz. Staršia obec doložená v roku 1392 bola v 15. storočí zničená husitmi; nové sídlo sa v roku 1437 uvádza ako mestečko Rassich a roku 1554 získalo od Ferdinanda I. trhové a jarmočné právo. V roku 1976 bola k Radošovciam pričlenená dovtedy samostatná Vieska, v listine z roku 1392 nazývaná Kysfalu. Obe sídla patrili k holíčskemu panstvu a neskôr skalickým jezuitom.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostol Narodenia Panny Márie – gotické základy a baroková prestavba",
+      "text": "Farský kostol Narodenia Panny Márie v Radošovciach patrí k najvýznamnejším sakrálnym pamiatkam regiónu. Prvá stavebná etapa z roku 1560 využila základy staršieho gotického kostola z 12.–13. storočia; druhá etapa v rokoch 1744–1762 pristavala priečnu loď a vytvorila pôdorys v tvare kríža. Veža bola koncom 19. storočia upravená v historizujúcom goticko-renesančnom štýle. Kostol je národnou kultúrnou pamiatkou zapísanou pod číslom 661/1.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "location": {
+        "name": "Kostol Narodenia Panny Márie, Radošovce",
+        "lat": 48.77309,
+        "lon": 17.280127,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/radosovce-kostol-narodenia-panny-marie"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaplnka sv. Stanislava – klasicistická dominanta nad obcou",
+      "text": "Kaplnka sv. Stanislava na západnom okraji Radošoviec pochádza z roku 1820 a je národnou kultúrnou pamiatkou. Ide o centrálnu klasicistickú stavbu zaklenutú veľkou kupolou, s polkruhovým presbytériom a predsieňou, ktorá zároveň tvorí vežu. Na staršom mieste severozápadne od dnešnej kaplnky stála predchodkyňa, ktorej základy sa datujú do 12.–15. storočia; spomína ju aj kanonická vizitácia z roku 1695.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "location": {
+        "name": "Kaplnka sv. Stanislava, Radošovce",
+        "lat": 48.774187,
+        "lon": 17.271874,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/radosovce-kaplnka-sv-stanislava"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Ľudmila Pajdušáková – rodáčka z Radošoviec a priekopníčka slovenskej astronómie",
+      "text": "RNDr. Ľudmila Pajdušáková sa narodila 29. júna 1916 v Radošovciach. Patrila k prvej generácii modernej slovenskej astronómie a preslávila sa najmä objavmi piatich komét a systematickým pozorovaním meteorov. Od roku 1944 pracovala na observatóriu na Skalnatom Plese; neskôr pôsobila v Astronomickom ústave SAV v Tatranskej Lomnici a v rokoch 1958–1979 ho viedla ako riaditeľka. Zomrela 6. októbra 1979.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "location": null,
+      "map_category": "personality"
+    },
+    {
+      "id": "fact_005",
+      "title": "Židovská komunita v Radošovciach – synagóga a zaniknutý náboženský život",
+      "text": "V Radošovciach žila početná židovská komunita, ktorá mala vlastnú synagógu, cintorín a mikve. Synagógu si miestne rodiny postavili v roku 1830; podľa historickej encyklopédie mala komunita okolo roku 1840 viac než 150 členov. Počet obyvateľov postupne klesal a v roku 1930 tu žilo už len 22 Židov. Po druhej svetovej vojne sa komunita neobnovila a synagóga i cintorín zostali opustené.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_006",
+      "title": "Vieska – historická osada s vlastným vinohradníckym a remeselným zázemím",
+      "text": "Vieska sa v listine z roku 1392 uvádza ako Kysfalu a až do pričlenenia v roku 1976 tvorila samostatnú obec. V roku 1787 mala 57 domov a 341 obyvateľov, v roku 1828 už 63 domov a 439 obyvateľov. Obyvatelia sa venovali poľnohospodárstvu, tkaniu a lisovaniu rastlinného oleja. Vieska si zachovala aj drobné sakrálne pamiatky: kaplnku sv. Víta z roku 1742 vo vinohradoch, kaplnku Sedembolestnej Panny Márie z roku 1964 a Lurdskú kaplnku pri cintoríne.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s14",
+        "s15"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_007",
+      "title": "Kobylany – historický majer a žrebčín v chotári Radošoviec",
+      "text": "V katastri Radošoviec sa nachádza obnovený majer a žrebčín Kobylany, ktorý sa špecializuje na chov dostihových koní. Areál pripomína hospodárske zázemie historického mestečka a jeho väzbu na rozsiahle panstvo Holíč. Súčasná prevádzka nadväzuje na dlhodobú tradíciu chovu koní v poľnohospodárskej krajine Záhoria.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s16"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Pošta Radošovce, Radošovce 188, PSČ 908 63. Oficiální obecní web uvádí stejnou dodávací poštu pro Radošovce i místní část Vieska, která byla k obci přičleněna v roce 1976.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Pošta Radošovce – PSČ 908 63",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávací pošta Radošovce 188; PSČ 908 63 zahrnuje Radošovce a místní část Vieska.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR pro adresní evidenci; obec Radošovce a Ústredný portál verejnej správy pro správní a místní geografii; odborné památkové, akademické a muzejní zdroje pro památky a osobnosti."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Radošovce – História obce",
+      "url": "https://radosovce.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Ústredný portál verejnej správy – Radošovce",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_099b5d3f-4442-4b87-8545-97c767801efa",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Radošovce – Komunitný plán sociálnych služieb 2026–2030",
+      "url": "https://radosovce.sk/wp-content/uploads/2026/04/Navrh-Komunitny-plan-soc.-sluzieb-na-roky-2026-2030.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Pamiatky na Slovensku – Kostol Narodenia Panny Márie",
+      "url": "https://www.pamiatkynaslovensku.sk/radosovce-kostol-narodenia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Radošovce – Program hospodárskeho a sociálneho rozvoja",
+      "url": "https://radosovce.sk/wp-content/uploads/2023/02/PHSR-obce-Radosovce-2015-%E2%80%93-2020-%E2%80%93-cely-dokument.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Stanislava",
+      "url": "https://www.pamiatkynaslovensku.sk/radosovce-kaplnka-sv-stanislava",
+      "type": "specialist"
+    },
+    {
+      "id": "s7",
+      "title": "Malé památky s velkým příběhem – Kaplnka sv. Stanislava",
+      "url": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Matematický ústav SAV – Ľudmila Pajdušáková",
+      "url": "https://www.mat.savba.sk/MATEMATICI/matematici.php?cislo=157",
+      "type": "academic"
+    },
+    {
+      "id": "s9",
+      "title": "CVTI SR – Ľudmila Pajdušáková, prvá slovenská astronómka",
+      "url": "https://vedanadosah.cvtisr.sk/priroda/vesmir/ludmila-pajdusakova-prva-slovenska-astronomka/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Záhorské múzeum – Lovkyňa komét zo Záhoria",
+      "url": "https://www.zahorskemuzeum.sk/de/lovkyna-komet-zo-zahoria-ludmila-pajdusakova/",
+      "type": "museum"
+    },
+    {
+      "id": "s11",
+      "title": "JewishGen / Yad Vashem – Encyclopaedia of Jewish Communities: Radošovce",
+      "url": "https://www.jewishgen.org/yizkor/pinkas_slovakia/Slo399.html",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Radošovce – RADVES 2/2012, židovská komunita",
+      "url": "https://radosovce.sk/wp-content/uploads/2023/02/RADVES-2-2012-2.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Obec Radošovce – História židovskej komunity",
+      "url": "https://radosovce.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Obec Radošovce – Program hospodárskeho a sociálneho rozvoja, drobné pamiatky Viesky",
+      "url": "https://radosovce.sk/wp-content/uploads/2023/02/PHSR-obce-Radosovce-2015-%E2%80%93-2020-%E2%80%93-cely-dokument.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Ústredný portál verejnej správy – Vieska ako miestna časť Radošoviec",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_099b5d3f-4442-4b87-8545-97c767801efa",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Ústredný portál verejnej správy – Kobylany, žrebčín",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_099b5d3f-4442-4b87-8545-97c767801efa",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel Narození Panny Marie a historické centrum Radošoviec",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce a Vieska – historické mestečko a pričlenená obec",
+          "text": "Radošovce sa prvýkrát písomne pripomínajú 27. januára 1297 pod názvom villas Rasolyz. Staršia obec doložená v roku 1392 bola v 15. storočí zničená husitmi; nové sídlo sa v roku 1437 uvádza ako mestečko Rassich a roku 1554 získalo od Ferdinanda I. trhové a jarmočné právo. V roku 1976 bola k Radošovciam pričlenená dovtedy samostatná Vieska, v listine z roku 1392 nazývaná Kysfalu. Obe sídla patrili k holíčskemu panstvu a neskôr skalickým jezuitom."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostol Narodenia Panny Márie – gotické základy a baroková prestavba",
+          "text": "Farský kostol Narodenia Panny Márie v Radošovciach patrí k najvýznamnejším sakrálnym pamiatkam regiónu. Prvá stavebná etapa z roku 1560 využila základy staršieho gotického kostola z 12.–13. storočia; druhá etapa v rokoch 1744–1762 pristavala priečnu loď a vytvorila pôdorys v tvare kríža. Veža bola koncom 19. storočia upravená v historizujúcom goticko-renesančnom štýle. Kostol je národnou kultúrnou pamiatkou zapísanou pod číslom 661/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaplnka sv. Stanislava – klasicistická dominanta nad obcou",
+          "text": "Kaplnka sv. Stanislava na západnom okraji Radošoviec pochádza z roku 1820 a je národnou kultúrnou pamiatkou. Ide o centrálnu klasicistickú stavbu zaklenutú veľkou kupolou, s polkruhovým presbytériom a predsieňou, ktorá zároveň tvorí vežu. Na staršom mieste severozápadne od dnešnej kaplnky stála predchodkyňa, ktorej základy sa datujú do 12.–15. storočia; spomína ju aj kanonická vizitácia z roku 1695."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková – rodáčka z Radošoviec a priekopníčka slovenskej astronómie",
+          "text": "RNDr. Ľudmila Pajdušáková sa narodila 29. júna 1916 v Radošovciach. Patrila k prvej generácii modernej slovenskej astronómie a preslávila sa najmä objavmi piatich komét a systematickým pozorovaním meteorov. Od roku 1944 pracovala na observatóriu na Skalnatom Plese; neskôr pôsobila v Astronomickom ústave SAV v Tatranskej Lomnici a v rokoch 1958–1979 ho viedla ako riaditeľka. Zomrela 6. októbra 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "Židovská komunita v Radošovciach – synagóga a zaniknutý náboženský život",
+          "text": "V Radošovciach žila početná židovská komunita, ktorá mala vlastnú synagógu, cintorín a mikve. Synagógu si miestne rodiny postavili v roku 1830; podľa historickej encyklopédie mala komunita okolo roku 1840 viac než 150 členov. Počet obyvateľov postupne klesal a v roku 1930 tu žilo už len 22 Židov. Po druhej svetovej vojne sa komunita neobnovila a synagóga i cintorín zostali opustené."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska – historická osada s vlastným vinohradníckym a remeselným zázemím",
+          "text": "Vieska sa v listine z roku 1392 uvádza ako Kysfalu a až do pričlenenia v roku 1976 tvorila samostatnú obec. V roku 1787 mala 57 domov a 341 obyvateľov, v roku 1828 už 63 domov a 439 obyvateľov. Obyvatelia sa venovali poľnohospodárstvu, tkaniu a lisovaniu rastlinného oleja. Vieska si zachovala aj drobné sakrálne pamiatky: kaplnku sv. Víta z roku 1742 vo vinohradoch, kaplnku Sedembolestnej Panny Márie z roku 1964 a Lurdskú kaplnku pri cintoríne."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany – historický majer a žrebčín v chotári Radošoviec",
+          "text": "V katastri Radošoviec sa nachádza obnovený majer a žrebčín Kobylany, ktorý sa špecializuje na chov dostihových koní. Areál pripomína hospodárske zázemie historického mestečka a jeho väzbu na rozsiahle panstvo Holíč. Súčasná prevádzka nadväzuje na dlhodobú tradíciu chovu koní v poľnohospodárskej krajine Záhoria."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Marienkirche und historischer Ortskern von Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce und Vieska – historischer Marktflecken und eingemeindeter Ort",
+          "text": "Radošovce ist seit dem 27. Januar 1297 als villas Rasolyz belegt. Ein älterer Ort, 1392 erwähnt, wurde im 15. Jahrhundert von den Hussiten zerstört; 1437 erscheint die neue Siedlung als Marktflecken Rassich. 1554 erhielt sie von Ferdinand I. Markt- und Jahrmarktrechte. 1976 wurde das bis dahin selbstständige Vieska eingemeindet; 1392 hieß es Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Marienkirche – gotische Fundamente und barocker Umbau",
+          "text": "Die Pfarrkirche Mariä Geburt ist eines der bedeutendsten Sakraldenkmäler der Region. Der erste Bauabschnitt von 1560 nutzte die Fundamente einer älteren gotischen Kirche aus dem 12.–13. Jahrhundert. 1744–1762 kam ein Querschiff hinzu, wodurch ein kreuzförmiger Grundriss entstand. Der Turm wurde Ende des 19. Jahrhunderts historistisch neugotisch-renaissanceartig umgestaltet. Die Kirche ist ein nationales Kulturdenkmal."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Stanislauskapelle – klassizistisches Wahrzeichen oberhalb des Ortes",
+          "text": "Die Stanislauskapelle am westlichen Ortsrand stammt aus dem Jahr 1820 und ist ein nationales Kulturdenkmal. Der klassizistische Zentralbau besitzt eine große Kuppel, einen halbrunden Chor und einen Vorbau mit Turm. An einem älteren Standort nordwestlich davon stand eine Vorgängerkapelle mit Fundamenten aus dem 12.–15. Jahrhundert, die bereits 1695 erwähnt wurde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková – Pionierin der slowakischen Astronomie aus Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková wurde am 29. Juni 1916 in Radošovce geboren. Sie gehörte zur ersten Generation der modernen slowakischen Astronomie und wurde durch die Entdeckung von fünf Kometen sowie Meteorbeobachtungen bekannt. Ab 1944 arbeitete sie am Observatorium Skalnaté Pleso und später am Astronomischen Institut der Slowakischen Akademie der Wissenschaften, das sie von 1958 bis 1979 leitete. Sie starb 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die jüdische Gemeinde von Radošovce – Synagoge und verschwundenes Gemeindeleben",
+          "text": "Radošovce hatte eine größere jüdische Gemeinde mit eigener Synagoge, Friedhof und Mikwe. Die Synagoge wurde 1830 errichtet; um 1840 zählte die Gemeinde mehr als 150 Menschen. Die Zahl sank stetig, 1930 lebten nur noch 22 Juden im Ort. Nach dem Zweiten Weltkrieg kehrte die Gemeinde nicht zurück; Synagoge und Friedhof blieben verlassen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska – historische Siedlung mit Weinbau und Handwerk",
+          "text": "Vieska wird 1392 als Kysfalu erwähnt und blieb bis zur Eingemeindung 1976 selbstständig. 1787 zählte der Ort 57 Häuser und 341 Einwohner, 1828 waren es 63 Häuser und 439 Einwohner. Die Bewohner betrieben Landwirtschaft, Weberei und Pflanzenölpressen. Erhalten sind kleine Sakraldenkmäler: die Vituskapelle von 1742 in den Weinbergen, eine Kapelle der Sieben Schmerzen Mariens von 1964 und eine Lourdeskapelle am Friedhof."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany – historischer Wirtschaftshof und Gestüt im Gemeindegebiet",
+          "text": "Im Kataster von Radošovce liegt der renovierte Wirtschaftshof und das Gestüt Kobylany, das auf die Zucht von Rennpferden spezialisiert ist. Die Anlage erinnert an die landwirtschaftliche Infrastruktur des historischen Marktfleckens und seine Verbindung mit dem großen Gut Holíč. Der heutige Betrieb knüpft an die Pferdezuchttradition der Agrarlandschaft des Záhorie an."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Church of the Nativity of the Virgin Mary and historic centre of Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce and Vieska – a historic market town and an incorporated village",
+          "text": "Radošovce is first documented on 27 January 1297 as villas Rasolyz. An older settlement mentioned in 1392 was destroyed by the Hussites in the 15th century; by 1437 a new town appears as Rassich. Ferdinand I granted it market and fair privileges in 1554. In 1976 the formerly independent village of Vieska was incorporated; it was recorded in 1392 as Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of the Nativity of the Virgin Mary – Gothic foundations and Baroque rebuilding",
+          "text": "The parish Church of the Nativity of the Virgin Mary is one of the region’s most important religious monuments. The first building phase in 1560 reused the foundations of an older 12th–13th-century Gothic church. A transept was added in 1744–1762, creating a cross-shaped plan. The tower was remodelled in a historicist Gothic-Renaissance style in the late 19th century. The church is a national cultural monument."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Stanislaus Chapel – a Neoclassical landmark above the village",
+          "text": "St Stanislaus Chapel on the western edge of Radošovce dates from 1820 and is a national cultural monument. The Neoclassical central building has a large dome, semicircular sanctuary and an entrance porch that also forms a tower. An earlier chapel stood several hundred metres northwest; its foundations date from the 12th–15th centuries and it was recorded in a 1695 church visitation."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková – a pioneer of Slovak astronomy born in Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková was born in Radošovce on 29 June 1916. A pioneer of modern Slovak astronomy, she became known for discovering five comets and for systematic meteor observations. From 1944 she worked at the Skalnaté Pleso Observatory and later at the Astronomical Institute of the Slovak Academy of Sciences, which she directed from 1958 to 1979. She died in 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Jewish community of Radošovce – a synagogue and a vanished community",
+          "text": "Radošovce had a sizeable Jewish community with its own synagogue, cemetery and mikveh. Local families built the synagogue in 1830; around 1840 the community numbered more than 150 people. The population declined, and only 22 Jews remained in 1930. The community did not return after World War II, and the synagogue and cemetery were left abandoned."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska – a historic settlement with vineyards and crafts",
+          "text": "Vieska is recorded in 1392 as Kysfalu and remained independent until its incorporation in 1976. It had 57 houses and 341 residents in 1787, and 63 houses and 439 residents in 1828. Residents farmed, wove cloth and pressed vegetable oil. Small religious monuments survive, including the 1742 St Vitus Chapel in the vineyards, a 1964 Chapel of Our Lady of the Seven Sorrows and a Lourdes chapel by the cemetery."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany – a historic estate farm and stud in the Radošovce area",
+          "text": "The renovated Kobylany estate farm and stud farm lie in the cadastral area of Radošovce and specialise in breeding racehorses. The complex recalls the agricultural infrastructure of the historic market town and its connection with the large Holíč estate. Its current operation continues the horse-breeding tradition of the Záhorie agricultural landscape."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de la Natividad de María y centro histórico de Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce y Vieska, localidad histórica de mercado y pueblo incorporado",
+          "text": "Radošovce aparece documentada el 27 de enero de 1297 como villas Rasolyz. Un asentamiento anterior, mencionado en 1392, fue destruido por los husitas en el siglo XV; en 1437 aparece una nueva localidad como Rassich. Fernando I le concedió derechos de mercado y feria en 1554. En 1976 se incorporó la antigua localidad independiente de Vieska, documentada en 1392 como Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de la Natividad de la Virgen María, cimientos góticos y reforma barroca",
+          "text": "La iglesia parroquial de la Natividad de la Virgen María es uno de los monumentos religiosos más importantes de la región. La primera fase, de 1560, reutilizó los cimientos de una iglesia gótica de los siglos XII–XIII. Entre 1744 y 1762 se añadió un transepto y se creó una planta de cruz. La torre fue reformada a finales del siglo XIX en estilo historicista neogótico-renacentista. Es monumento cultural nacional."
+        },
+        {
+          "id": "fact_003",
+          "title": "Capilla de San Estanislao, emblema neoclásico sobre el pueblo",
+          "text": "La capilla de San Estanislao, en el extremo occidental de Radošovce, data de 1820 y es monumento cultural nacional. El edificio neoclásico central tiene una gran cúpula, presbiterio semicircular y un pórtico que forma también la torre. Una capilla anterior se encontraba varios cientos de metros al noroeste; sus cimientos datan de los siglos XII–XV y ya aparece en una visita canónica de 1695."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková, pionera de la astronomía eslovaca nacida en Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková nació en Radošovce el 29 de junio de 1916. Fue pionera de la astronomía moderna eslovaca, conocida por descubrir cinco cometas y observar meteoros de forma sistemática. Desde 1944 trabajó en el observatorio de Skalnaté Pleso y más tarde en el Instituto Astronómico de la Academia Eslovaca de Ciencias, que dirigió entre 1958 y 1979. Murió en 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "La comunidad judía de Radošovce, sinagoga y vida comunitaria desaparecida",
+          "text": "Radošovce tuvo una importante comunidad judía con sinagoga, cementerio y mikve propios. Las familias locales construyeron la sinagoga en 1830; hacia 1840 la comunidad superaba las 150 personas. La población disminuyó y en 1930 solo quedaban 22 judíos. La comunidad no regresó después de la Segunda Guerra Mundial y la sinagoga y el cementerio quedaron abandonados."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska, asentamiento histórico con viñedos y oficios",
+          "text": "Vieska aparece documentada en 1392 como Kysfalu y siguió siendo independiente hasta su incorporación en 1976. En 1787 tenía 57 casas y 341 habitantes; en 1828, 63 casas y 439 habitantes. Sus habitantes se dedicaban a la agricultura, el tejido y la extracción de aceite vegetal. Se conservan pequeñas construcciones religiosas, como la capilla de San Vito de 1742 entre viñedos, la capilla de los Siete Dolores de 1964 y una gruta de Lourdes junto al cementerio."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany, antigua granja señorial y yeguada en el término de Radošovce",
+          "text": "En el término de Radošovce se encuentra la granja señorial restaurada y la yeguada Kobylany, especializada en la cría de caballos de carreras. El complejo recuerda la infraestructura agrícola de la antigua localidad de mercado y su vínculo con el extenso señorío de Holíč. La actividad actual continúa la tradición de cría de caballos del paisaje agrícola de Záhorie."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église de la Nativité de la Vierge et centre historique de Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce et Vieska, ancien bourg marchand et village rattaché",
+          "text": "Radošovce est attestée le 27 janvier 1297 sous le nom de villas Rasolyz. Un ancien village mentionné en 1392 fut détruit par les Hussites au XVe siècle ; en 1437, un nouvel établissement apparaît sous le nom de Rassich. Ferdinand Ier lui accorda des droits de marché et de foire en 1554. En 1976, l’ancien village indépendant de Vieska fut rattaché à Radošovce ; il était mentionné en 1392 sous le nom de Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église de la Nativité de la Vierge Marie, fondations gothiques et remaniement baroque",
+          "text": "L’église paroissiale de la Nativité de la Vierge Marie est l’un des principaux monuments religieux de la région. La première phase, en 1560, réutilisa les fondations d’une église gothique des XIIe–XIIIe siècles. Un transept fut ajouté entre 1744 et 1762, donnant un plan en croix. La tour fut remaniée à la fin du XIXe siècle dans un style historiciste gothique-Renaissance. L’église est un monument culturel national."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chapelle Saint-Stanislas, monument néoclassique dominant le village",
+          "text": "La chapelle Saint-Stanislas, à l’ouest de Radošovce, date de 1820 et est un monument culturel national. Cet édifice central néoclassique possède une grande coupole, un chœur semi-circulaire et un porche qui forme également la tour. Une chapelle antérieure se trouvait quelques centaines de mètres au nord-ouest ; ses fondations remontent aux XIIe–XVe siècles et elle est mentionnée dans une visite canonique de 1695."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková, pionnière de l’astronomie slovaque née à Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková est née à Radošovce le 29 juin 1916. Pionnière de l’astronomie slovaque moderne, elle est connue pour la découverte de cinq comètes et ses observations systématiques des météores. À partir de 1944, elle travailla à l’observatoire de Skalnaté Pleso, puis à l’Institut astronomique de l’Académie slovaque des sciences, qu’elle dirigea de 1958 à 1979. Elle est morte en 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "La communauté juive de Radošovce, synagogue et vie communautaire disparue",
+          "text": "Radošovce possédait une importante communauté juive avec sa propre synagogue, son cimetière et son mikvé. Les familles locales construisirent la synagogue en 1830 ; vers 1840, la communauté comptait plus de 150 personnes. Le nombre diminua et il ne restait que 22 Juifs en 1930. La communauté ne revint pas après la Seconde Guerre mondiale ; la synagogue et le cimetière furent abandonnés."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska, établissement historique de vignobles et d’artisanat",
+          "text": "Vieska est mentionnée en 1392 sous le nom de Kysfalu et resta indépendante jusqu’à son rattachement en 1976. En 1787, elle comptait 57 maisons et 341 habitants ; en 1828, 63 maisons et 439 habitants. Les habitants pratiquaient l’agriculture, le tissage et le pressage d’huile végétale. Des petits monuments religieux subsistent, dont la chapelle Saint-Guy de 1742 dans les vignobles, une chapelle des Sept-Douleurs de 1964 et une grotte de Lourdes près du cimetière."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany, ancien domaine agricole et haras dans le territoire de Radošovce",
+          "text": "Le domaine agricole rénové et le haras Kobylany se trouvent dans le territoire cadastral de Radošovce et sont spécialisés dans l’élevage de chevaux de course. Le site rappelle l’infrastructure agricole de l’ancien bourg marchand et ses liens avec le vaste domaine de Holíč. L’activité actuelle prolonge la tradition d’élevage équin du paysage agricole du Záhorie."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa della Natività di Maria e centro storico di Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce e Vieska, antico centro di mercato e villaggio incorporato",
+          "text": "Radošovce è documentata il 27 gennaio 1297 come villas Rasolyz. Un insediamento più antico citato nel 1392 fu distrutto dagli ussiti nel XV secolo; nel 1437 compare un nuovo centro come Rassich. Nel 1554 Ferdinando I concesse diritti di mercato e fiera. Nel 1976 fu incorporato il villaggio autonomo di Vieska, documentato nel 1392 come Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa della Natività della Vergine Maria, fondamenta gotiche e ricostruzione barocca",
+          "text": "La chiesa parrocchiale della Natività della Vergine Maria è uno dei principali monumenti religiosi della regione. La prima fase del 1560 riutilizzò le fondamenta di una chiesa gotica dei secoli XII–XIII. Tra il 1744 e il 1762 fu aggiunto il transetto, creando una pianta a croce. La torre fu rimaneggiata alla fine del XIX secolo in stile storicista gotico-rinascimentale. È un monumento culturale nazionale."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cappella di San Stanislao, monumento neoclassico sopra il villaggio",
+          "text": "La cappella di San Stanislao, sul margine occidentale di Radošovce, risale al 1820 ed è un monumento culturale nazionale. L’edificio centrale neoclassico presenta una grande cupola, presbiterio semicircolare e un vestibolo che forma anche la torre. Una cappella precedente sorgeva alcune centinaia di metri a nord-ovest; le sue fondamenta risalgono ai secoli XII–XV ed è citata in una visita canonica del 1695."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková, pioniera dell’astronomia slovacca nata a Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková nacque a Radošovce il 29 giugno 1916. Fu una pioniera dell’astronomia slovacca moderna, nota per la scoperta di cinque comete e per le osservazioni sistematiche delle meteore. Dal 1944 lavorò all’osservatorio di Skalnaté Pleso e poi all’Istituto Astronomico dell’Accademia Slovacca delle Scienze, che diresse dal 1958 al 1979. Morì nel 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "La comunità ebraica di Radošovce, sinagoga e vita comunitaria scomparsa",
+          "text": "Radošovce ospitava una numerosa comunità ebraica con sinagoga, cimitero e mikveh propri. Le famiglie locali costruirono la sinagoga nel 1830; intorno al 1840 la comunità superava le 150 persone. Il numero diminuì e nel 1930 restavano soltanto 22 ebrei. Dopo la Seconda guerra mondiale la comunità non tornò e sinagoga e cimitero rimasero abbandonati."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska, insediamento storico con vigneti e mestieri",
+          "text": "Vieska è citata nel 1392 come Kysfalu e rimase indipendente fino all’incorporazione del 1976. Nel 1787 contava 57 case e 341 abitanti; nel 1828 63 case e 439 abitanti. Gli abitanti si dedicavano all’agricoltura, alla tessitura e alla spremitura dell’olio vegetale. Restano piccoli monumenti religiosi, tra cui la cappella di San Vito del 1742 nei vigneti, una cappella dei Sette Dolori del 1964 e una grotta di Lourdes vicino al cimitero."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany, antica tenuta agricola e allevamento di cavalli nel territorio di Radošovce",
+          "text": "Nel territorio catastale di Radošovce si trova la tenuta agricola rinnovata e l’allevamento Kobylany, specializzato nella riproduzione di cavalli da corsa. Il complesso ricorda l’infrastruttura agricola dell’antico centro di mercato e il suo legame con il vasto dominio di Holíč. L’attività attuale continua la tradizione di allevamento equino del paesaggio agricolo dello Záhorie."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Kerk van de Geboorte van Maria en historische kern van Radošovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Radošovce en Vieska – historische marktplaats en later aangehecht dorp",
+          "text": "Radošovce wordt op 27 januari 1297 voor het eerst vermeld als villas Rasolyz. Een oudere nederzetting uit 1392 werd in de 15e eeuw door de Hussieten verwoest; in 1437 verschijnt een nieuwe plaats als Rassich. In 1554 kreeg ze van Ferdinand I markt- en jaarmarktrechten. In 1976 werd het zelfstandige dorp Vieska toegevoegd; in 1392 stond het vermeld als Kysfalu."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Kerk van de Geboorte van Maria – gotische fundamenten en barokke verbouwing",
+          "text": "De parochiekerk van de Geboorte van Maria is een van de belangrijkste religieuze monumenten van de regio. De eerste bouwfase uit 1560 gebruikte de fundamenten van een oudere gotische kerk uit de 12e–13e eeuw. Tussen 1744 en 1762 werd een dwarsbeuk toegevoegd, waardoor een kruisvormig grondplan ontstond. De toren werd aan het einde van de 19e eeuw in historiserende gotisch-renaissancestijl aangepast. De kerk is een nationaal cultureel monument."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Stanislauskapel – neoklassiek herkenningspunt boven het dorp",
+          "text": "De Sint-Stanislauskapel aan de westkant van Radošovce dateert uit 1820 en is een nationaal cultureel monument. Het centrale neoklassieke gebouw heeft een grote koepel, halfrond koor en een voorhal die ook de toren vormt. Een oudere voorganger stond enkele honderden meters noordwestelijk; de fundamenten dateren uit de 12e–15e eeuw en de kapel wordt al in een kerkvisitatie van 1695 genoemd."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľudmila Pajdušáková – pionier van de Slowaakse astronomie, geboren in Radošovce",
+          "text": "RNDr. Ľudmila Pajdušáková werd op 29 juni 1916 in Radošovce geboren. Ze was een pionier van de moderne Slowaakse astronomie en werd bekend door de ontdekking van vijf kometen en systematische meteoorwaarnemingen. Vanaf 1944 werkte ze bij de sterrenwacht Skalnaté Pleso en later bij het Astronomisch Instituut van de Slowaakse Academie van Wetenschappen, dat ze van 1958 tot 1979 leidde. Ze stierf in 1979."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Joodse gemeenschap van Radošovce – synagoge en verdwenen gemeenschapsleven",
+          "text": "Radošovce had een omvangrijke Joodse gemeenschap met een eigen synagoge, begraafplaats en mikwe. Plaatselijke families bouwden de synagoge in 1830; rond 1840 telde de gemeenschap meer dan 150 mensen. Het aantal nam af en in 1930 woonden er nog slechts 22 Joden. Na de Tweede Wereldoorlog keerde de gemeenschap niet terug; synagoge en begraafplaats bleven verlaten."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vieska – historische nederzetting met wijngaarden en ambachten",
+          "text": "Vieska wordt in 1392 vermeld als Kysfalu en bleef zelfstandig tot de samenvoeging in 1976. In 1787 telde het 57 huizen en 341 inwoners; in 1828 waren dat 63 huizen en 439 inwoners. De bewoners hielden zich bezig met landbouw, weven en het persen van plantaardige olie. Kleine religieuze monumenten zijn bewaard gebleven, waaronder de Sint-Vituskapel uit 1742 in de wijngaarden, een kapel van de Zeven Smarten uit 1964 en een Lourdeskapel bij de begraafplaats."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kobylany – historische landgoedboerderij en stoeterij in het gebied van Radošovce",
+          "text": "In het kadastrale gebied van Radošovce ligt de gerenoveerde landgoedboerderij en stoeterij Kobylany, gespecialiseerd in het fokken van renpaarden. Het complex herinnert aan de landbouwinfrastructuur van de historische marktplaats en de band met het grote landgoed Holíč. De huidige exploitatie zet de paardenfoktraditie van het agrarische landschap van Záhorie voort."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
