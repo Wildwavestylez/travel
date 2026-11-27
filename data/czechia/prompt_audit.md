@@ -195,3 +195,18 @@ Při auditu rozlišuj mezi doloženou historickou událostí, kronikářským po
 - Nevytvářej falešnou jistotu: pokud je rozpor zásadní, zaznamenej jej stručně a navrhni bezpečnější formulaci. Pokud jde pouze o rozdílné tradice, zachovej jejich správné připsání a pokračuj.
 
 **Auditní cíl:** zachovat zajímavé a kulturně významné příběhy, ověřit jejich původ a správné podání a opravovat skutečné věcné chyby — nikoli trestat legendy za to, že jsou legendami, nebo brzdit práci kvůli nepodstatným letopočtům.
+
+
+## 7. AUTONOMNÍ PLYNULÝ AUDIT — BEZ POTVRZOVÁNÍ KAŽDÉHO PSČ (POVINNÉ)
+
+Audit prováděj jako souvislý samostatný pracovní běh nad celým výslovně zadaným rozsahem. Uživatel nemá po každém PSČ potvrzovat pokračování ani sledovat jednotlivé mezikroky.
+
+1. **Dokonči jedno PSČ jako celek.** Proveď všechny relevantní auditní kontroly pro dané PSČ, oprav bezpečné potvrzené chyby, ověř změny a zaznamenej stručný výsledek.
+2. **Automaticky pokračuj.** Jakmile je PSČ dokončeno, bez otázky „mám pokračovat?“ přejdi na další PSČ v přesném zadaném rozsahu podle kanonické sequence a auditního taháku. Pokračuj, dokud není dokončen celý rozsah, nenastane skutečný blokátor, technický limit běhu nebo uživatel práci nezastaví.
+3. **Nezaměňuj pokračování auditu za publikaci.** Automatické pokračování se týká pouze auditních kontrol a povolených bezpečných oprav v zadaném rozsahu. Publikaci, změnu data_version/statusu, zálohu ani read-only zamykání stále prováděj pouze podle výslovných pravidel v oddílu 6 a na výslovný pokyn uživatele, pokud je vyžadován.
+4. **Drobné nálezy neeskaluj.** Jednotlivý nejasný nebo nízce závažný případ označ podle pravidel auditu jako `REVIEW REQUIRED`, stručně jej zaznamenej a pokračuj dalšími nezávislými kontrolami a PSČ. Nezastavuj celý blok kvůli jedné drobnosti.
+5. **Pracuj úsporně.** Použij limity a dávkování z `data/czechia/QUERY_LIMITS.md`: malé cílené dotazy, lokální kontroly, minimální výstupy a sekvenční zápisy. Nenačítej ani nevypisuj celý JSON opakovaně. Již dokončené kontroly neopakuj.
+6. **Komunikace uživateli.** Nezahlcuj uživatele průběžnými kandidáty, každou drobnou opravou ani technickými výpisy. Podávej stručné průběžné souhrny hotových PSČ nebo dávek; na konci celého rozsahu předlož závěrečný report podle oddílu 5. Pokud běh musí skončit kvůli limitu, ulož checkpoint s přesným dalším PSČ a otevřenými položkami, aby šlo plynule navázat.
+7. **Žádné falešné dokončení.** Automatické pokračování neznamená přeskočit povinnou kontrolu ani tvrdit PASS bez důkazů. Označ skutečné blokátory přesně a pokračuj všude, kde je to bezpečné.
+
+**Provozní zásada:** jedno PSČ → dokončit audit → ověřit opravy → stručný checkpoint → další PSČ automaticky. Žádné čekání na potvrzení mezi PSČ v rámci již zadaného rozsahu.
