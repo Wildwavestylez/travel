@@ -285,3 +285,28 @@ Toto pravidlo platí pro výběr, psaní, přepracování i překlady všech his
 ### 3. Kontrola při reworku
 
 U každého příběhu rozliš, zda jde o doloženou historickou událost, kronikářské podání, legendu/pověst, nebo novodobou interpretaci. Podle toho zvol formulaci a zdroje. Cílem je čtivý, konkrétní a věrohodný příběh, který poctivě označuje svůj původ — nikoli sterilní text ani smyšlená historie.
+
+
+## AUTONOMNÍ RYCHLÝ REWORK — PRODUKČNÍ RYTMUS (POVINNÝ)
+
+Cílem běžného reworku není vést s uživatelem průběžnou konzultaci každé obce a každého kandidátního místa. Cílem je samostatně dodat hotový, kvalitní a uložený záznam v plynulém produkčním rytmu.
+
+### Pracovní režim
+1. **Zpracovávej celé PSČ jako jednu redakční jednotku.** Projdi celý jeho územní rozsah, stávající fakta, významné obce a lokality. Nerozděluj jednu obec do několika uživatelských kol, pokud tomu nebrání skutečný technický nebo věcný blokátor.
+2. **Sám rozhoduj o výběru zajímavostí.** Zařazuj významné památky, přírodní lokality, historii, osobnosti, technické a kulturní dědictví a dobře doložené místní příběhy. Nezařazuj běžné křížky u cesty, generické drobnosti, nevýznamné objekty ani slabé kandidáty jen proto, aby se zvýšil počet faktů. Uživatel nemusí schvalovat každý kandidát.
+3. **Používej přiměřenou hloubku rešerše.** Nejdříve využij již známé a důvěryhodné zdroje, sdílené reference a existující důkazy. U každého faktu dohledávej pouze důkazy nutné pro jeho identitu, význam, datování a polohu. Jakmile je dostatečně doložen, rešerši ukonči. Neopakuj široké hledání a neřeš kosmetické detaily, které nemění pravdivost ani význam.
+4. **Drobné nejistoty řeš redakčně samostatně.** Použij bezpečnější formulaci, přiměřené datování nebo nullable hodnotu podle schématu. Nezastavuj kvůli nim celé PSČ a nevyžaduj uživatelské rozhodnutí. Zastav pouze při skutečném blokátoru, který by mohl způsobit zásadně chybný obsah, geografické přiřazení nebo nevratné poškození dat.
+5. **Dokonči všech sedm jazyků v rámci stejného PSČ.** Překlady mají být přirozené, úplné a srozumitelné, ale nevytvářej opakované redakční cykly pro každou drobnost. Kontrolu proveď lokálně nad připraveným JSON a oprav jen konkrétní chyby.
+6. **Ukládej po dokončení PSČ.** Připrav celý JSON, validuj jej, proveď cílený zápis do existujícího českého řádku a jeden kompaktní read-back. Neprováděj zbytečné mezizápisy po jednotlivých větách nebo obcích.
+7. **Pokračuj automaticky na další PSČ.** Po úspěšném dokončení a checkpointu přejdi na další položku v závazné sequence. Nečekej na potvrzení uživatele po každém PSČ. Pokračuj, dokud nenarazíš na skutečný blokátor, limit běhu nebo dokud uživatel práci nezastaví.
+
+### Časový a komunikační standard
+- Orientační produkční cíl je **3–4 minuty na běžné PSČ**, pokud to dovolí složitost záznamu, dostupnost zdrojů a nástrojů. Neobětuj pravdivost ani povinné kontroly kvůli stopkám.
+- Uživatel nemá dostávat průběžné seznamy všech nalezených kandidátů, každé drobné opravy ani dlouhé technické výpisy.
+- Po dokončení PSČ pošli stručný souhrn: **PSČ a lokalita; co zajímavého přibylo nebo bylo zásadně upraveno; počet faktů; stav sedmi jazyků; výsledek uložení a validace.**
+- Pokud se nic významného nepřidávalo a šlo hlavně o kontrolu, řekni to jednou větou. Nezahlcuj uživatele seznamem bezvýznamných nálezů.
+- Pokud nastane skutečný blokátor, popiš pouze konkrétní problém, jeho dopad a co lze bezpečně dokončit. Nezastavuj kvůli nepodstatné nejistotě.
+- Nikdy netvrď, že je PSČ hotové, dokud není bezpečně uloženo a ověřeno.
+
+### Praktická zásada
+**Rešerše a redakční rozhodování probíhají na pozadí; uživatel dostává hotový výsledek, nikoli jednotlivé mezikroky. Jedno PSČ → jeden kompletní JSON → jedna cílená databázová operace → stručný report → další PSČ.**
