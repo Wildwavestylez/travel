@@ -2,8 +2,8 @@
 
 **Kanonické ID:** `CZ-VYSKOVSKO-SLAVKOVSKO-68201-68501`  
 **Rozsah:** 68201, 68301, 68303, 68304, 68305, 68308, 68321, 68323, 68333, 68335, 68341, 68351, 68352, 68354, 68401, 68501  
-**Stav:** AUDIT IN PROGRESS — 9/16 PSČ kompletně zkontrolováno; bez publikace, zálohy a read-only zamčení.  
-**Další přesné PSČ:** 68335.
+**Stav:** AUDIT COMPLETE — 16/16 PSČ zkontrolováno; obsahový, jazykový, strukturální a enum audit PASS. Bez publikace, zálohy a read-only zamčení.  
+**Další přesné PSČ:** žádné — rozsah dokončen.
 
 ## Závazné podklady načtené
 - `prompt_audit.md` V2.1
@@ -48,18 +48,27 @@ Zdroje k doplněným tématům:
 | 68323 | 7 | cs/de/en/es/fr/it/nl | Opraveny category/map_category a location.type: historická centra měst `historic_city` → `historic_settlement` (map_category zůstává dle tématu). 7/7 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů ani CS/master rozdílů; 0 null locations. | PASS |
 | 68333 | 15 | cs/de/en/es/fr/it/nl | Doplněn `fact_015` — František Král (1921–2001), pilot československých leteckých jednotek RAF a rodák z Nesovic; podklady VÚA, Slavkovské bojiště a místní knihovna. Doplněna area_representative poloha Letošova do fact_013; fact_006 a fact_014 zůstávají null (lesní kámen a neurčené místo Hrádku). Opraveny map_category fact_010 a fact_014 na `local_culture`; opraveny source types reference→regional/news. 15/15 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů ani CS/master rozdílů; 2 null locations. | PASS |
 
-## Částečně provedené opravy — PSČ stále otevřená
+| 68335 | 6 | cs/de/en/es/fr/it/nl | Opraven nizozemský překlad fact_001: odstraněna nepodložená Klokbekercultuur, ponechána pouze kultura se šňůrovou keramikou. 6/6 překladů ve všech jazycích; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů, neplatných source type ani CS/master rozdílů; 0 null locations. | PASS |
+| 68341 | 10 | cs/de/en/es/fr/it/nl | Opraveno historické označení císaře: František I. jako rakouský císař a František II. jako římský císař; doplněno, že car přenocoval na zámku a císař v domě správce panství. Source ID převedeny na přímé URL podle schema, odstraněny nepovolené `id` vlastnosti. 10/10 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68351 | 6 | cs/de/en/es/fr/it/nl | Fact_006 map_category `historic_city` → `local_culture`; source ID převedeny na URL a odstraněny nepovolené `id` vlastnosti. 6/6 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68352 | 11 | cs/de/en/es/fr/it/nl | Fact_011 map_category `historic_city` → `local_culture`. Poloha pramene Šaratica v Kalužinách zpřesněna podle odborné mapy Preslia (±100 m); nahrazen nevhodný adresní zdroj. Source ID převedeny na URL, source registry sjednocen se schema. 11/11 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68354 | 10 | cs/de/en/es/fr/it/nl | Fact_007 a fact_010 map_category `historic_city` → `local_culture`. Source ID převedeny na URL; source type `media` → `news`. Opravena italština fact_009: sv. Alois přeložen jako San Luigi, nikoli neexistující podoba Sant'Aluisio. 10/10 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 1 null location u vícemístného faktu fact_010. | PASS |
+| 68401 | 12 | cs/de/en/es/fr/it/nl | Kompletní jazykový a strukturální audit; všechny kategorie, map_category, location.type, priority, accuracy a zdroje odpovídají schema. 12/12 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 0 null locations. | PASS |
+| 68501 | 15 | cs/de/en/es/fr/it/nl | Doplněny čtyři významné osobnosti: František Götz (dramaturg), Václav Sedláček (učitel a oběť nacismu), Jaroslav Vykoupil (olympijský sprinter) a František Luska (profesor pediatrie). U Lusky opraven rozpor v místním zdroji: oficiální historie České dětské nemocnice potvrzuje úmrtí v roce 1942, nikoli 1945. Doplněna poloha Bohatých Málkovic; opravena francouzština fact_009. 15/15 překladů; 0 krátkých, prázdných, duplicitních, bez zdrojů, neplatných enumů/source type, nerozřešených zdrojů ani CS/master rozdílů; 1 null location u kombinovaného příběhu Kojátky/Šardičky. | PASS |
+
+## Neuzavřené opravy
+Žádné. Všech 16 PSČ prošlo auditní kontrolou; zbylé null locations jsou zdůvodněné vícemístné nebo plošné příběhy, nikoli opomenuté body.
 
 ## Normalizované pole city
 V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno s `content.city`: 68201, 68301, 68308, 68321, 68323, 68333, 68352, 68354, 68401, 68501. `content.city` je určeno obcí fyzického sídla obsluhující pošty; zbývá při kontrole příslušných PSČ ověřit shodu s oficiální adresou pošty. Ostatní správní pole nebyla měněna.
 
-## Otevřené kontroly
-1. Dokončit jedno PSČ po druhém od 68321; nepřeskakovat rozpracované opravy.
-2. U každého zbylého PSČ zkontrolovat všech sedm jazyků, českou délku ≥350 znaků, zdroje, kategorie, map_category a všechny `location.type` podle aktuálního schema.
-3. Dokončit rychlou kontrolu zjevných duplicit a jediného primárního přiřazení napříč celým blokem.
-4. Ověřit administrativní `city/county/state/district` podle skutečné fyzické adresy obsluhující pošty a RÚIAN inventáře; neodvozovat sídlo pošty pouze z názvu PSČ.
-5. U null location postupovat podle oddílu G prompt_audit a hierarchie prompt_rework; ponechat null, pokud jde o vícemístný nebo plošný příběh bez obhajitelného bodu.
-6. Na konci shrnout status/verzi; nepublikovat, nezálohovat ani nezamykat bez výslovného pokynu.
+## Závěrečná kontrola
+- RÚIAN inventář obsahuje všech 16 přesných PSČ; dohromady 35 461 adresních míst. Počty podle kódů jsou v pořadí sequence.json: 8 371; 4 183; 1 208; 1 795; 760; 366; 1 350; 1 716; 2 205; 505; 1 045; 518; 2 135; 1 649; 3 977; 3 678.
+- Normalizované `city` bylo u 10 řádků synchronizováno s `content.city`; shoda byla ověřena pro všech 16 řádků a porovnána s oficiálním seznamem pošt a RÚIAN. Všech 16 PSČ je v referenčním CSV.
+- Všech 16 řádků má sedm překladů se shodným počtem faktů; závěrečná kontrola `translations.cs` proti master `facts` skončila u všech na 0 rozdílů (v 68304 byl nalezen a opraven jeden rozdíl v datu demolice Liblice B).
+- Pro všechna fakta platí: žádný český text pod 350 znaků, žádné prázdné povinné texty, žádná duplicitní ID, žádné prázdné zdroje, žádné neplatné priority/accuracy/category/map_category/location.type ani source type. Source ID struktury v 68341, 68351, 68352 a 68354 byly převedeny na URL strings dle schema.
+- Křížová kontrola: setkání panovníků ve Vyškově (28. 11. 1805) a Bohdalicích (29. 11. 1805) jsou dvě odlišné události; vysídlení Drahanské vrchoviny v 68308 a 68321 popisuje různé skupiny obcí a lokální dopady, nikoli duplicitní fakta.
+- `explorer_map_points`: pro žádné z 16 ID nebyl nalezen mapový bod. Během auditu nebyly vytvářeny; statusy ani `data_version` nebyly měněny. Žádná publikace, záloha ani read-only zamčení nebyly provedeny.
 
-## Přesný další krok
-Pokračovat načtením jediného cílového řádku **68335**, dokončit jeho sedmijazyčný audit, ověřit zdroje a location.type podle schema. Poté pokračovat 68341, 68351, 68352, 68354, 68401 a 68501 v tomto pořadí.
+## Výsledek
+Audit rozsahu je dokončen. Žádné další databázové změny nejsou nutné; publikaci, zálohu nebo read-only zamčení provést pouze na výslovný pokyn.
