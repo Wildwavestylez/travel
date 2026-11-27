@@ -1,4 +1,523 @@
 {
   "postcode": "90871",
-  "status": "placeholder"
+  "city": "Moravský Svätý Ján",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Jana Křtitele a historické centrum Moravského Svätého Jána",
+  "representative_point": {
+    "lat": 48.590367,
+    "lon": 17.004669
+  },
+  "access_point": {
+    "lat": 48.590367,
+    "lon": 17.004669
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Moravský Svätý Ján – habánské městečko na moravské hranici",
+      "text": "Území obce bylo osídleno už v neolitu, ale první písemná zmínka o dnešním Moravském Svätém Jánu pochází z roku 1449. Ve druhé polovině 16. století se zde usadili habáni z Moravy a založili bratrský dvůr s výrobou proslulých nožů. Od 17. století se obec rozvíjela jako zeměpanské městečko s jarmočným právem. Roku 1743 se sem přestěhovalo sídlo panství Ostrý Kameň. V 18. století zde fungovala pošta, v roce 1828 měla obec 241 domů a 1 754 obyvatel a roku 1891 byla otevřena železniční trať Bratislava–Břeclav.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Habánský dvůr Kaníža – uzavřený areál s kaplí Panny Marie",
+      "text": "Habáni se v Moravském Svätém Jánu usazovali přibližně v letech 1540–1550 a na dolním konci obce vybudovali bratrský dvůr, lidově zvaný Kaníža. Areál má téměř čtvercový půdorys se třemi vjezdy; tradiční habánské domy obklopují dvůr a vytvářejí uzavřený celek. Uprostřed stojí kaple zasvěcená Jménu Panny Marie. Její datace není ve zdrojích zcela jednotná: obecní dokumentace uvádí kapli z 18. století, zatímco nápis na věži zachycuje roky 1839 a 1994. Habánský dvůr je mimořádně cenným dokladem anabaptistického osídlení Záhoří.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "location": {
+        "name": "Habánska kaplnka, Kaníža",
+        "lat": 48.58714,
+        "lon": 16.99504,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.moravskysvatyjan.sk/wp-content/uploads/2023/06/PRO-Mor.Sv_.Jan-2021-2027.pdf"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaštieľ Moravský Svätý Ján – barokové sídlo panstva Ostrý Kameň",
+      "text": "Kaštieľ vznikol v polovici 18. storočia ako barokové sídlo panstva Ostrý Kameň, ktorého správa sa sem presťahovala roku 1743. Po roku 1900 bol objekt zásadne prestavaný a po druhej svetovej vojne nadstavaný o ďalšie podlažie; fasáda získala secesní úpravu. Dvojpodlažná až trojpodlažná obdĺžniková stavba stojí v parku, v ktorom sa zachovala aj drobná kaplnka s hrazdenými stenami. Areál je dnes využívaný ako zariadenie sociálnej starostlivosti a obec ho navrhuje na pamiatkovú ochranu.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s7",
+        "s8"
+      ],
+      "location": {
+        "name": "Kaštieľ, Moravský Svätý Ján",
+        "lat": 48.592301,
+        "lon": 17.003393,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/moravsky-svaty-jan"
+      },
+      "map_category": "castle"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Jana Křtitele a barokové sochy pri farskom areáli",
+      "text": "Klasicistický rímskokatolícky kostel sv. Jana Křtitele bol postaven v letech 1840–1851 na místě staršího barokového kostela. Je zapsán v Ústředním seznamu památkového fondu SR pod číslem 633/1. V jeho okolí se dochovaly barokní sochy sv. Jana Nepomuckého a sv. Floriána z roku 1778, morový sloup s plastikou Neposkvrněného početí Panny Marie z roku 1824 a trojdílný pomník padlým v první světové válce. Kostel je hlavní sakrální dominantou obce.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s9",
+        "s10"
+      ],
+      "location": {
+        "name": "Kostol sv. Jána Krstiteľa, Moravský Svätý Ján",
+        "lat": 48.590367,
+        "lon": 17.004669,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/moravsky-svaty-jan-kostol-sv-jana-krstitela"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Pošta, kartounka a tabák – hospodářské centrum dolního Záhoří",
+      "text": "Moravský Svätý Ján byl už od 18. století poštovním uzlem, který shromažďoval a rozděloval zásilky z rakouského Hohenau a okolních obcí. V 60. letech 18. století zde šaštínská kartounka zřídila faktórium, kde se vydávala vlna a bavlna česačům a přadlenám k dalšímu zpracování. Místní obyvatelé pěstovali tabák prodávaný na Moravě a v Rakousku; v obci byly dva majery, pálenice a sladovna. Ve 20. století přibyly lihovar a konzervárna.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Most Moravský Svätý Ján–Hohenau – obnovené spojení přes řeku Moravu",
+      "text": "Přechod přes Moravu mezi Moravským Svätým Jánem a rakouským Hohenau sloužil jako obchodní cesta už v 16. století. Původní dřevěný most byl zničen během druhé světové války a železná opona pak na desetiletí přerušila běžné kontakty mezi oběma břehy. Hraniční přechod byl obnoven na podzim 1994, v roce 1995 zde stál pontonový most a roku 2005 byla dokončena nová třípolová konstrukce dlouhá 133 metrů. Most je důležitým bodem přeshraničního propojení a cyklistických tras.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s11",
+        "s12"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_007",
+      "title": "Morava a Čeker–Čertova studňa – lužní krajina na hranici Záhoří",
+      "text": "Moravský Svätý Ján leží na terase řeky Moravy v severozápadní části Záhorské nížiny. Řeka zde vytváří mrtvá ramena, nivní louky a lužní porosty, které jsou součástí cenného mokřadního systému Pomoraví. Nedaleko obce se nachází státní přírodní rezervace Čeker–Čertova studňa, chránící přírodní společenstva mrtvého ramene Moravy a pobřežní vegetaci. Území navazuje na Chráněnou krajinnou oblast Záhorie a na mezinárodně významné mokřady Ramsarské lokality Niva Moravy.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s13",
+        "s14",
+        "s15"
+      ],
+      "location": null,
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální adresa Obecného úradu Moravský Svätý Ján, Moravský Svätý Ján 803, 908 71 Moravský Svätý Ján potvrzuje PSČ 908 71 pro obec a její místní lokality.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Pošta Moravský Svätý Ján – PSČ 908 71",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Dodávací pošta Moravský Svätý Ján 803; reprezentativní bod je u farního kostela sv. Jana Křtitele.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR pro adresní evidenci; obec Moravský Svätý Ján a Ústredný portál veřejné správy pro správní a místní geografii; památkové, regionální a ochranářské zdroje pro objekty a krajinu."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Ústredný portál verejnej správy – Moravský Svätý Ján",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_756abed9-316a-4435-a7d2-f5bc34428bbb",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Moravský Svätý Ján – Program rozvoja obce",
+      "url": "https://www.moravskysvatyjan.sk/wp-content/uploads/2023/06/PRO-Mor.Sv_.Jan-2021-2027.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "ZMO Záhorie – Moravský Svätý Ján",
+      "url": "https://zmo-zahorie.sk/moravsky-svaty-jan/",
+      "type": "regional"
+    },
+    {
+      "id": "s4",
+      "title": "Mesto Šaštín-Stráže – Habáni a Habánsky dvor v Moravskom Svätom Jáne",
+      "url": "https://www.mestosastinstraze.sk/mesto/mikroregion-sastinsko/clenovia/obec-moravsky-svaty-jan-41sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Moravský Svätý Ján – Územný plán a historické jadro",
+      "url": "https://www.moravskysvatyjan.sk/wp-content/uploads/PHSR_moravsky_svaty_jan.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "OMA – Kaplnka Panny Márie na Habánskom dvore",
+      "url": "https://moravsky-svaty-jan.oma.sk/c/881",
+      "type": "other"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – Kaštieľ Moravský Svätý Ján",
+      "url": "https://www.pamiatkynaslovensku.sk/moravsky-svaty-jan",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Moravský Svätý Ján – Program rozvoja obce, kaštieľ a park",
+      "url": "https://www.moravskysvatyjan.sk/wp-content/uploads/2023/06/PRO-Mor.Sv_.Jan-2021-2027.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Krstiteľa",
+      "url": "https://www.pamiatkynaslovensku.sk/moravsky-svaty-jan-kostol-sv-jana-krstitela",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Moravský Svätý Ján – Program rozvoja obce, pamiatky",
+      "url": "https://www.moravskysvatyjan.sk/wp-content/uploads/2023/06/PRO-Mor.Sv_.Jan-2021-2027.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Správa a údržba ciest TTSK – Hraničný priechod Moravský Svätý Ján–Hohenau",
+      "url": "https://www.spravaciest.sk/2024/05/20/hranicny-priechod-moravsky-svaty-jan-hohenau-je-bojiskom-nielen-s-prirodou/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Vláda SR – Bývalé hraničné priechody na vnútornej hranici s Rakúskom",
+      "url": "https://rokovania.gov.sk/download.dat?id=17E85D89183542A883734B36F43966CD-101CCBF368BDA53E9E2B4D131605278A",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "E-OBCE – Moravský Svätý Ján, prírodné pomery",
+      "url": "https://www.e-obce.sk/obec/moravskysvatyjan/3-priroda.html",
+      "type": "other"
+    },
+    {
+      "id": "s14",
+      "title": "Trnavský samosprávny kraj – Koncepcia mobility, Moravská cyklotrasa",
+      "url": "https://trnava-vuc.sk/wp-content/uploads/2022/02/4808_koncepcia-mobility-moravska-cyklotrasa.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Moravský Svätý Ján – Program rozvoja obce, ochrana prírody",
+      "url": "https://www.moravskysvatyjan.sk/wp-content/uploads/2023/06/PRO-Mor.Sv_.Jan-2021-2027.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Jana Křtitele a historické centrum Moravského Svätého Jána",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján – habánské městečko na moravské hranici",
+          "text": "Území obce bylo osídleno už v neolitu, ale první písemná zmínka o dnešním Moravském Svätém Jánu pochází z roku 1449. Ve druhé polovině 16. století se zde usadili habáni z Moravy a založili bratrský dvůr s výrobou proslulých nožů. Od 17. století se obec rozvíjela jako zeměpanské městečko s jarmočným právem. Roku 1743 se sem přestěhovalo sídlo panství Ostrý Kameň. V 18. století zde fungovala pošta, v roce 1828 měla obec 241 domů a 1 754 obyvatel a roku 1891 byla otevřena železniční trať Bratislava–Břeclav."
+        },
+        {
+          "id": "fact_002",
+          "title": "Habánský dvůr Kaníža – uzavřený areál s kaplí Panny Marie",
+          "text": "Habáni se v Moravském Svätém Jánu usazovali přibližně v letech 1540–1550 a na dolním konci obce vybudovali bratrský dvůr, lidově zvaný Kaníža. Areál má téměř čtvercový půdorys se třemi vjezdy; tradiční habánské domy obklopují dvůr a vytvářejí uzavřený celek. Uprostřed stojí kaple zasvěcená Jménu Panny Marie. Její datace není ve zdrojích zcela jednotná: obecní dokumentace uvádí kapli z 18. století, zatímco nápis na věži zachycuje roky 1839 a 1994. Habánský dvůr je mimořádně cenným dokladem anabaptistického osídlení Záhoří."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaštieľ Moravský Svätý Ján – barokové sídlo panstva Ostrý Kameň",
+          "text": "Kaštieľ vznikol v polovici 18. storočia ako barokové sídlo panstva Ostrý Kameň, ktorého správa sa sem presťahovala roku 1743. Po roku 1900 bol objekt zásadne prestavaný a po druhej svetovej vojne nadstavaný o ďalšie podlažie; fasáda získala secesní úpravu. Dvojpodlažná až trojpodlažná obdĺžniková stavba stojí v parku, v ktorom sa zachovala aj drobná kaplnka s hrazdenými stenami. Areál je dnes využívaný ako zariadenie sociálnej starostlivosti a obec ho navrhuje na pamiatkovú ochranu."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Jana Křtitele a barokové sochy pri farskom areáli",
+          "text": "Klasicistický rímskokatolícky kostel sv. Jana Křtitele bol postaven v letech 1840–1851 na místě staršího barokového kostela. Je zapsán v Ústředním seznamu památkového fondu SR pod číslem 633/1. V jeho okolí se dochovaly barokní sochy sv. Jana Nepomuckého a sv. Floriána z roku 1778, morový sloup s plastikou Neposkvrněného početí Panny Marie z roku 1824 a trojdílný pomník padlým v první světové válce. Kostel je hlavní sakrální dominantou obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pošta, kartounka a tabák – hospodářské centrum dolního Záhoří",
+          "text": "Moravský Svätý Ján byl už od 18. století poštovním uzlem, který shromažďoval a rozděloval zásilky z rakouského Hohenau a okolních obcí. V 60. letech 18. století zde šaštínská kartounka zřídila faktórium, kde se vydávala vlna a bavlna česačům a přadlenám k dalšímu zpracování. Místní obyvatelé pěstovali tabák prodávaný na Moravě a v Rakousku; v obci byly dva majery, pálenice a sladovna. Ve 20. století přibyly lihovar a konzervárna."
+        },
+        {
+          "id": "fact_006",
+          "title": "Most Moravský Svätý Ján–Hohenau – obnovené spojení přes řeku Moravu",
+          "text": "Přechod přes Moravu mezi Moravským Svätým Jánem a rakouským Hohenau sloužil jako obchodní cesta už v 16. století. Původní dřevěný most byl zničen během druhé světové války a železná opona pak na desetiletí přerušila běžné kontakty mezi oběma břehy. Hraniční přechod byl obnoven na podzim 1994, v roce 1995 zde stál pontonový most a roku 2005 byla dokončena nová třípolová konstrukce dlouhá 133 metrů. Most je důležitým bodem přeshraničního propojení a cyklistických tras."
+        },
+        {
+          "id": "fact_007",
+          "title": "Morava a Čeker–Čertova studňa – lužní krajina na hranici Záhoří",
+          "text": "Moravský Svätý Ján leží na terase řeky Moravy v severozápadní části Záhorské nížiny. Řeka zde vytváří mrtvá ramena, nivní louky a lužní porosty, které jsou součástí cenného mokřadního systému Pomoraví. Nedaleko obce se nachází státní přírodní rezervace Čeker–Čertova studňa, chránící přírodní společenstva mrtvého ramene Moravy a pobřežní vegetaci. Území navazuje na Chráněnou krajinnou oblast Záhorie a na mezinárodně významné mokřady Ramsarské lokality Niva Moravy."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Johanneskirche und historischer Ortskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján – Habaner-Marktflecken an der Marchgrenze",
+          "text": "Das Gebiet war bereits in der Jungsteinzeit besiedelt; die erste schriftliche Erwähnung des heutigen Ortes stammt jedoch aus dem Jahr 1449. In der zweiten Hälfte des 16. Jahrhunderts ließen sich Habaner aus Mähren nieder und gründeten einen Bruderhof mit berühmter Messerproduktion. Seit dem 17. Jahrhundert entwickelte sich der Ort zu einem herrschaftlichen Marktflecken. 1743 wurde der Sitz der Herrschaft Ostrý Kameň hierher verlegt. Im 18. Jahrhundert gab es ein Postamt; 1828 zählte der Ort 241 Häuser und 1.754 Einwohner. 1891 wurde die Bahnstrecke Bratislava–Břeclav eröffnet."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Habanerhof Kaníža – geschlossener Hof mit Marienkapelle",
+          "text": "Die Habaner ließen sich etwa 1540–1550 nieder und errichteten am unteren Ortsende einen Bruderhof, Kaníža genannt. Der nahezu quadratische Hof besitzt drei Einfahrten; traditionelle Habanerhäuser bilden einen geschlossenen Komplex. In der Mitte steht eine Kapelle zu Ehren des Namens Mariens. Die Datierung ist nicht einheitlich: Gemeindedokumente nennen das 18. Jahrhundert, die Inschrift am Turm zeigt 1839 und 1994. Der Hof ist ein bedeutendes Zeugnis der Täuferbesiedlung des Záhorie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Schloss Moravský Svätý Ján – barocker Sitz der Herrschaft Ostrý Kameň",
+          "text": "Das Schloss entstand Mitte des 18. Jahrhunderts als barocker Sitz der Herrschaft Ostrý Kameň, deren Verwaltung 1743 hierher verlegt wurde. Nach 1900 wurde das Gebäude umfassend umgebaut und nach dem Zweiten Weltkrieg um ein Geschoss erhöht; die Fassade erhielt Jugendstilelemente. Das rechteckige Gebäude steht in einem Park mit einer kleinen Fachwerkkapelle. Heute dient die Anlage als Sozialeinrichtung und die Gemeinde schlägt sie für den Denkmalschutz vor."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Johanneskirche und barocke Statuen am Pfarrgelände",
+          "text": "Die klassizistische römisch-katholische Johanneskirche wurde 1840–1851 anstelle einer älteren Barockkirche errichtet. Sie ist im slowakischen Denkmalregister unter der Nummer 633/1 eingetragen. In ihrer Umgebung blieben Barockstatuen des heiligen Johannes Nepomuk und des heiligen Florian von 1778, eine Mariensäule von 1824 und ein Denkmal für die Gefallenen des Ersten Weltkriegs erhalten."
+        },
+        {
+          "id": "fact_005",
+          "title": "Post, Kattunmanufaktur und Tabak – Wirtschaftszentrum des unteren Záhorie",
+          "text": "Seit dem 18. Jahrhundert war Moravský Svätý Ján ein Postknotenpunkt für Sendungen aus dem österreichischen Hohenau und den Nachbarorten. In den 1760er-Jahren richtete die Kattunmanufaktur von Šaštín hier eine Faktorei ein, die Wolle und Baumwolle an Kämmer und Spinner ausgab. Die Einwohner bauten Tabak für Märkte in Mähren und Österreich an. Es gab zwei Meierhöfe, eine Brennerei und eine Mälzerei; im 20. Jahrhundert kamen Spirituosen- und Konservenfabriken hinzu."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Brücke Moravský Svätý Ján–Hohenau – wiederhergestellte Verbindung über die March",
+          "text": "Der Übergang über die March nach Hohenau diente bereits im 16. Jahrhundert als Handelsweg. Die ursprüngliche Holzbrücke wurde im Zweiten Weltkrieg zerstört; der Eiserne Vorhang unterbrach danach jahrzehntelang den Kontakt zwischen den Ufern. Der Grenzübergang wurde im Herbst 1994 wieder eröffnet, 1995 gab es eine Pontonbrücke und 2005 wurde eine neue dreifeldrige, 133 Meter lange Brücke fertiggestellt. Sie ist ein wichtiger grenzüberschreitender Verkehrs- und Radwegknoten."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die March und Čeker–Čertova studňa – Auenlandschaft am Rand des Záhorie",
+          "text": "Moravský Svätý Ján liegt auf einer Terrasse der March in der nordwestlichen Záhorská-Niederung. Der Fluss bildet Altarme, Auenwiesen und Auwälder, die Teil des wertvollen Feuchtgebietssystems Pomoraví sind. In der Nähe befindet sich das staatliche Naturreservat Čeker–Čertova studňa, das Lebensräume eines Altarms und die Ufervegetation schützt. Das Gebiet ist mit dem Landschaftsschutzgebiet Záhorie und dem Ramsar-Feuchtgebiet March-Aue verbunden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St John the Baptist Church and historic village centre",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján – a Hutterite market town on the Morava border",
+          "text": "The area was settled in the Neolithic, but the first written record of the present village dates from 1449. In the second half of the 16th century, Hutterites from Moravia settled here and established a communal courtyard with renowned knife production. From the 17th century the village developed as a market town with fair privileges. In 1743 the seat of the Ostrý Kameň estate moved here. It had a post office from the 18th century, counted 241 houses and 1,754 residents in 1828, and gained the Bratislava–Břeclav railway in 1891."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Hutterite courtyard of Kaníža – a closed complex with a Marian chapel",
+          "text": "Hutterites settled here around 1540–1550 and built a communal courtyard at the lower end of the village, known as Kaníža. The almost square courtyard has three entrances and is enclosed by traditional Hutterite houses. A chapel dedicated to the Name of the Virgin Mary stands in the centre. Sources differ on its date: municipal documents place it in the 18th century, while the tower inscription records 1839 and 1994. The site is a valuable record of Anabaptist settlement in the Záhorie region."
+        },
+        {
+          "id": "fact_003",
+          "title": "Moravský Svätý Ján Manor House – the Baroque seat of the Ostrý Kameň estate",
+          "text": "The manor house originated in the mid-18th century as the Baroque seat of the Ostrý Kameň estate, whose administration moved here in 1743. It was extensively rebuilt after 1900 and gained another storey after World War II; its façade received Art Nouveau features. The rectangular building stands in a park with a small half-timbered chapel. It is now used as a social-care facility and the municipality has proposed it for heritage protection."
+        },
+        {
+          "id": "fact_004",
+          "title": "St John the Baptist Church and Baroque statues in the parish grounds",
+          "text": "The Neoclassical Roman Catholic Church of St John the Baptist was built in 1840–1851 on the site of an older Baroque church. It is listed in the Slovak Central Register of Monuments as 633/1. Nearby survive Baroque statues of St John of Nepomuk and St Florian from 1778, a Marian plague column from 1824 and a memorial to those who fell in World War I."
+        },
+        {
+          "id": "fact_005",
+          "title": "Post office, calico manufactory and tobacco – an economic centre of lower Záhorie",
+          "text": "From the 18th century, Moravský Svätý Ján served as a postal hub for mail from Hohenau in Austria and nearby villages. In the 1760s, the Šaštín calico manufactory established a depot here, distributing wool and cotton to combers and spinners. Residents grew tobacco for sale in Moravia and Austria. The village had two farms, a distillery and a malt house; the 20th century brought a spirits factory and a cannery."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Moravský Svätý Ján–Hohenau bridge – a restored link across the Morava",
+          "text": "The crossing over the Morava to Hohenau served as a trade route as early as the 16th century. The original wooden bridge was destroyed during World War II, and the Iron Curtain then cut contact between the two banks for decades. The border crossing reopened in autumn 1994, a pontoon bridge was installed in 1995, and a new three-span bridge 133 metres long was completed in 2005. It is an important cross-border link and cycling route."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Morava and Čeker–Čertova studňa – floodplain landscapes on the edge of Záhorie",
+          "text": "Moravský Svätý Ján lies on a terrace above the Morava in the north-western Záhorie Lowland. The river forms oxbow lakes, floodplain meadows and alluvial woodland, part of the valuable Pomoraví wetland system. Nearby is the Čeker–Čertova studňa state nature reserve, protecting oxbow habitats and riparian vegetation. The area connects with the Záhorie Protected Landscape Area and the Morava floodplain Ramsar wetland."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Juan Bautista y centro histórico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján, localidad habana y mercado junto a la frontera del Morava",
+          "text": "El territorio estuvo habitado desde el Neolítico, pero la primera mención escrita del pueblo actual data de 1449. En la segunda mitad del siglo XVI se establecieron aquí habanos procedentes de Moravia y fundaron un patio comunitario con producción de cuchillos. Desde el siglo XVII el pueblo se desarrolló como localidad señorial con derechos de mercado. En 1743 se trasladó aquí la sede del señorío de Ostrý Kameň. Tuvo oficina postal desde el siglo XVIII, en 1828 contaba con 241 casas y 1.754 habitantes y en 1891 llegó el ferrocarril Bratislava–Břeclav."
+        },
+        {
+          "id": "fact_002",
+          "title": "Patio habano de Kaníža, conjunto cerrado con capilla mariana",
+          "text": "Los habanos se establecieron aquí hacia 1540–1550 y construyeron un patio comunitario en el extremo bajo del pueblo, conocido como Kaníža. El recinto casi cuadrado tiene tres entradas y está rodeado por casas tradicionales habanas. En el centro se encuentra una capilla dedicada al Nombre de la Virgen María. Las fuentes discrepan sobre su fecha: la documentación municipal la sitúa en el siglo XVIII, mientras que la inscripción de la torre indica 1839 y 1994."
+        },
+        {
+          "id": "fact_003",
+          "title": "Casa señorial de Moravský Svätý Ján, sede barroca del señorío de Ostrý Kameň",
+          "text": "La casa señorial se originó a mediados del siglo XVIII como sede barroca del señorío de Ostrý Kameň, cuya administración se trasladó aquí en 1743. Fue reconstruida profundamente después de 1900 y recibió otro piso tras la Segunda Guerra Mundial; la fachada adquirió elementos modernistas. El edificio rectangular se encuentra en un parque con una pequeña capilla de entramado. Hoy alberga un centro de atención social y el municipio propone protegerlo como patrimonio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de San Juan Bautista y esculturas barrocas del recinto parroquial",
+          "text": "La iglesia neoclásica de San Juan Bautista se construyó entre 1840 y 1851 en el lugar de una iglesia barroca anterior. Está inscrita en el registro central eslovaco de monumentos con el número 633/1. Cerca se conservan esculturas barrocas de san Juan Nepomuceno y san Florián de 1778, una columna mariana de 1824 y un monumento a los caídos en la Primera Guerra Mundial."
+        },
+        {
+          "id": "fact_005",
+          "title": "Correo, manufactura de calicó y tabaco, centro económico del bajo Záhorie",
+          "text": "Desde el siglo XVIII, Moravský Svätý Ján fue un centro postal para los envíos de Hohenau, en Austria, y los pueblos vecinos. En la década de 1760, la manufactura de calicó de Šaštín estableció aquí un depósito para distribuir lana y algodón a cardadores e hilanderos. Los habitantes cultivaban tabaco para venderlo en Moravia y Austria. Había dos granjas, destilería y maltería; en el siglo XX se añadieron una fábrica de alcohol y una conservera."
+        },
+        {
+          "id": "fact_006",
+          "title": "Puente Moravský Svätý Ján–Hohenau, conexión restaurada sobre el río Morava",
+          "text": "El paso sobre el Morava hacia Hohenau servía como ruta comercial ya en el siglo XVI. El puente de madera original fue destruido durante la Segunda Guerra Mundial y el Telón de Acero interrumpió durante décadas el contacto entre ambas orillas. El paso fronterizo se reabrió en otoño de 1994, en 1995 se instaló un puente pontón y en 2005 se terminó un nuevo puente de tres tramos y 133 metros. Es un importante enlace transfronterizo y ciclista."
+        },
+        {
+          "id": "fact_007",
+          "title": "El Morava y Čeker–Čertova studňa, paisaje de llanura aluvial en Záhorie",
+          "text": "Moravský Svätý Ján se encuentra en una terraza del Morava, en el noroeste de la llanura de Záhorie. El río forma meandros abandonados, prados inundables y bosques de ribera, parte del valioso sistema de humedales de Pomoraví. Cerca se encuentra la reserva natural estatal Čeker–Čertova studňa, que protege los hábitats de un brazo muerto y la vegetación ribereña. El área se relaciona con el Área de Paisaje Protegido de Záhorie y el humedal Ramsar de la llanura del Morava."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Jean-Baptiste et centre historique",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján, bourg haban et marché à la frontière de la Morava",
+          "text": "Le territoire était habité dès le Néolithique, mais la première mention écrite du village actuel date de 1449. Dans la seconde moitié du XVIe siècle, des Huttérites venus de Moravie s’y installèrent et fondèrent une cour communautaire produisant des couteaux réputés. À partir du XVIIe siècle, le village se développa comme bourg seigneurial doté de droits de marché. En 1743, le siège du domaine d’Ostrý Kameň y fut transféré. Il possédait un bureau de poste au XVIIIe siècle, comptait 241 maisons et 1 754 habitants en 1828 et fut desservi par le chemin de fer Bratislava–Břeclav en 1891."
+        },
+        {
+          "id": "fact_002",
+          "title": "La cour huttérite de Kaníža, ensemble fermé avec chapelle mariale",
+          "text": "Les Huttérites s’installèrent ici vers 1540–1550 et construisirent une cour communautaire à l’extrémité basse du village, appelée Kaníža. La cour presque carrée possède trois entrées et est entourée de maisons huttérites traditionnelles. Une chapelle dédiée au Nom de la Vierge Marie se trouve au centre. Les sources divergent sur sa date : les documents communaux indiquent le XVIIIe siècle, tandis que l’inscription de la tour porte 1839 et 1994."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le château de Moravský Svätý Ján, siège baroque du domaine d’Ostrý Kameň",
+          "text": "Le château fut construit au milieu du XVIIIe siècle comme siège baroque du domaine d’Ostrý Kameň, dont l’administration y fut transférée en 1743. Il fut profondément remanié après 1900 puis surélevé après la Seconde Guerre mondiale ; sa façade reçut des éléments Art nouveau. Le bâtiment rectangulaire se trouve dans un parc avec une petite chapelle à colombages. Il accueille aujourd’hui un établissement de soins sociaux."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Saint-Jean-Baptiste et les statues baroques du domaine paroissial",
+          "text": "L’église néoclassique Saint-Jean-Baptiste fut construite entre 1840 et 1851 à l’emplacement d’une ancienne église baroque. Elle est inscrite au registre central slovaque des monuments sous le numéro 633/1. À proximité subsistent des statues baroques de saint Jean Népomucène et de saint Florian datant de 1778, une colonne mariale de 1824 et un monument aux morts de la Première Guerre mondiale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Poste, manufacture de calicot et tabac, centre économique du bas Záhorie",
+          "text": "Dès le XVIIIe siècle, Moravský Svätý Ján fut un centre postal pour les envois de Hohenau en Autriche et des villages voisins. Dans les années 1760, la manufacture de calicot de Šaštín y établit un dépôt distribuant laine et coton aux cardeurs et fileurs. Les habitants cultivaient du tabac vendu en Moravie et en Autriche. Le village possédait deux fermes, une distillerie et une malterie ; au XXe siècle s’ajoutèrent une fabrique d’alcool et une conserverie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le pont Moravský Svätý Ján–Hohenau, liaison rétablie sur la Morava",
+          "text": "Le passage sur la Morava vers Hohenau servait déjà de route commerciale au XVIe siècle. Le pont de bois original fut détruit pendant la Seconde Guerre mondiale et le rideau de fer interrompit ensuite les contacts pendant des décennies. Le poste-frontière fut rouvert à l’automne 1994, un pont flottant fut installé en 1995 et un nouveau pont à trois travées de 133 mètres fut achevé en 2005. Il constitue une liaison transfrontalière et cyclable importante."
+        },
+        {
+          "id": "fact_007",
+          "title": "La Morava et Čeker–Čertova studňa, paysage alluvial du Záhorie",
+          "text": "Moravský Svätý Ján se trouve sur une terrasse de la Morava, dans le nord-ouest de la plaine du Záhorie. Le fleuve forme des bras morts, des prairies inondables et des forêts alluviales, qui font partie du précieux système humide de Pomoraví. À proximité se trouve la réserve naturelle d’État Čeker–Čertova studňa, qui protège les habitats d’un bras mort et la végétation riveraine. Le site est lié à la zone paysagère protégée du Záhorie et au site Ramsar de la plaine de la Morava."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Giovanni Battista e centro storico",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján, borgo anabattista e mercato sul confine della Morava",
+          "text": "Il territorio era abitato già nel Neolitico, ma la prima menzione scritta del villaggio attuale risale al 1449. Nella seconda metà del XVI secolo si stabilirono qui gli anabattisti provenienti dalla Moravia e fondarono una corte comunitaria con produzione di celebri coltelli. Dal XVII secolo il villaggio si sviluppò come centro signorile con diritto di mercato. Nel 1743 vi fu trasferita la sede del dominio di Ostrý Kameň. Dal XVIII secolo ebbe un ufficio postale; nel 1828 contava 241 case e 1.754 abitanti e nel 1891 arrivò la ferrovia Bratislava–Břeclav."
+        },
+        {
+          "id": "fact_002",
+          "title": "La corte anabattista di Kaníža, complesso chiuso con cappella mariana",
+          "text": "Gli anabattisti si stabilirono qui intorno al 1540–1550 e costruirono una corte comunitaria all’estremità bassa del villaggio, chiamata Kaníža. La corte quasi quadrata ha tre ingressi ed è circondata da case tradizionali anabattiste. Al centro si trova una cappella dedicata al Nome della Vergine Maria. Le fonti divergono sulla data: i documenti comunali indicano il XVIII secolo, mentre l’iscrizione sulla torre riporta 1839 e 1994."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il castello di Moravský Svätý Ján, sede barocca del dominio di Ostrý Kameň",
+          "text": "Il castello nacque a metà del XVIII secolo come sede barocca del dominio di Ostrý Kameň, la cui amministrazione fu trasferita qui nel 1743. Fu ampiamente ricostruito dopo il 1900 e sopraelevato dopo la Seconda guerra mondiale; la facciata acquisì elementi liberty. L’edificio rettangolare si trova in un parco con una piccola cappella a graticcio. Oggi ospita una struttura di assistenza sociale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa di San Giovanni Battista e le statue barocche del complesso parrocchiale",
+          "text": "La chiesa neoclassica di San Giovanni Battista fu costruita tra il 1840 e il 1851 sul sito di una precedente chiesa barocca. È iscritta nel registro centrale slovacco dei monumenti con il numero 633/1. Nelle vicinanze si conservano statue barocche di san Giovanni Nepomuceno e san Floriano del 1778, una colonna mariana del 1824 e un monumento ai caduti della Prima guerra mondiale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Posta, manifattura di calicò e tabacco, centro economico del basso Záhorie",
+          "text": "Dal XVIII secolo Moravský Svätý Ján fu un nodo postale per la corrispondenza da Hohenau in Austria e dai villaggi vicini. Negli anni Sessanta del Settecento la manifattura di calicò di Šaštín aprì qui un deposito per distribuire lana e cotone a cardatori e filatori. Gli abitanti coltivavano tabacco da vendere in Moravia e Austria. Il villaggio aveva due fattorie, distilleria e malteria; nel XX secolo si aggiunsero una fabbrica di alcolici e una conserviera."
+        },
+        {
+          "id": "fact_006",
+          "title": "Il ponte Moravský Svätý Ján–Hohenau, collegamento ripristinato sul fiume Morava",
+          "text": "Il passaggio sulla Morava verso Hohenau serviva già nel XVI secolo come via commerciale. Il ponte di legno originale fu distrutto durante la Seconda guerra mondiale e la Cortina di ferro interruppe i contatti per decenni. Il valico fu riaperto nell’autunno 1994, nel 1995 fu installato un ponte di pontoni e nel 2005 fu completato un nuovo ponte a tre campate lungo 133 metri. È un importante collegamento transfrontaliero e ciclabile."
+        },
+        {
+          "id": "fact_007",
+          "title": "La Morava e Čeker–Čertova studňa, paesaggio alluvionale dello Záhorie",
+          "text": "Moravský Svätý Ján si trova su una terrazza del fiume Morava, nella parte nord-occidentale della pianura dello Záhorie. Il fiume forma lanche, prati alluvionali e boschi ripariali, parte del prezioso sistema umido di Pomoraví. Nelle vicinanze si trova la riserva naturale statale Čeker–Čertova studňa, che protegge gli habitat di un ramo morto e la vegetazione ripariale. L’area è collegata all’area protetta dello Záhorie e alla zona umida Ramsar della pianura della Morava."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Johannes-de-Doperkerk en historische dorpskern",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Moravský Svätý Ján – Hutteritische marktplaats aan de grens van de Morava",
+          "text": "Het gebied was al in het neolithicum bewoond, maar de eerste schriftelijke vermelding van het huidige dorp dateert uit 1449. In de tweede helft van de 16e eeuw vestigden zich hier Hutterieten uit Moravië en stichtten ze een gemeenschappelijke hof met beroemde messenproductie. Vanaf de 17e eeuw ontwikkelde het dorp zich als heerlijke marktplaats met jaarmarktrecht. In 1743 werd de zetel van het landgoed Ostrý Kameň hierheen verplaatst. In de 18e eeuw was er een postkantoor; in 1828 telde het dorp 241 huizen en 1.754 inwoners en in 1891 werd de spoorlijn Bratislava–Břeclav geopend."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Hutteritische hof Kaníža – gesloten complex met Mariakapel",
+          "text": "De Hutterieten vestigden zich hier rond 1540–1550 en bouwden aan de onderkant van het dorp een gemeenschappelijke hof, Kaníža genoemd. De bijna vierkante hof heeft drie ingangen en wordt omringd door traditionele Hutteritische huizen. In het midden staat een kapel gewijd aan de Naam van Maria. Bronnen verschillen over de datering: gemeentelijke documenten noemen de 18e eeuw, terwijl de toreninscriptie 1839 en 1994 vermeldt."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het landhuis Moravský Svätý Ján – barokke zetel van het landgoed Ostrý Kameň",
+          "text": "Het landhuis ontstond halverwege de 18e eeuw als barokke zetel van het landgoed Ostrý Kameň, waarvan het bestuur in 1743 hierheen verhuisde. Na 1900 werd het grondig verbouwd en na de Tweede Wereldoorlog kreeg het een extra verdieping; de gevel kreeg art-nouveau-elementen. Het rechthoekige gebouw staat in een park met een kleine vakwerkkapel. Tegenwoordig wordt het gebruikt als sociale zorginstelling."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Johannes-de-Doperkerk en barokke beelden op het parochieterrein",
+          "text": "De neoklassieke rooms-katholieke Sint-Johannes-de-Doperkerk werd in 1840–1851 gebouwd op de plaats van een oudere barokkerk. Ze staat in het Slowaakse monumentenregister onder nummer 633/1. In de omgeving zijn barokbeelden van Sint-Johannes-Nepomuk en Sint-Florianus uit 1778 bewaard, evenals een Mariakolom uit 1824 en een monument voor de gesneuvelden van de Eerste Wereldoorlog."
+        },
+        {
+          "id": "fact_005",
+          "title": "Postkantoor, calicomanufactuur en tabak – economisch centrum van zuidelijk Záhorie",
+          "text": "Vanaf de 18e eeuw was Moravský Svätý Ján een postknooppunt voor zendingen uit het Oostenrijkse Hohenau en omliggende dorpen. In de jaren 1760 richtte de calicomanufactuur van Šaštín hier een depot op waar wol en katoen aan kaarders en spinners werden uitgedeeld. Inwoners verbouwden tabak voor verkoop in Moravië en Oostenrijk. Het dorp had twee landgoederen, een distilleerderij en mouterij; in de 20e eeuw kwamen er een alcoholfabriek en conservenfabriek bij."
+        },
+        {
+          "id": "fact_006",
+          "title": "De brug Moravský Svätý Ján–Hohenau – herstelde verbinding over de Morava",
+          "text": "De oversteek over de Morava naar Hohenau diende al in de 16e eeuw als handelsroute. De oorspronkelijke houten brug werd tijdens de Tweede Wereldoorlog verwoest en het IJzeren Gordijn onderbrak het contact tussen beide oevers tientallen jaren. De grensovergang werd in de herfst van 1994 heropend, in 1995 kwam er een pontonbrug en in 2005 werd een nieuwe brug met drie overspanningen en een lengte van 133 meter voltooid. Het is een belangrijke grensoverschrijdende en fietsverbinding."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Morava en Čeker–Čertova studňa – uiterwaardenlandschap aan de rand van Záhorie",
+          "text": "Moravský Svätý Ján ligt op een terras van de Morava in het noordwesten van de Záhorie-laagvlakte. De rivier vormt oude rivierarmen, uiterwaardweiden en ooibossen, onderdeel van het waardevolle Pomoraví-wetlandssysteem. Vlakbij ligt het staatsnatuurreservaat Čeker–Čertova studňa, dat leefgebieden van een oude rivierarm en oevervegetatie beschermt. Het gebied sluit aan op het beschermde landschapsgebied Záhorie en het Ramsar-wetland van de Morava-uiterwaarden."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
