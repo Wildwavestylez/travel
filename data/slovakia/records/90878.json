@@ -17,15 +17,25 @@
     {
       "id": "fact_001",
       "title": "Kostel sv. Štěpána Uherského a historický hřbitov",
-      "text": "Dominantou Kuklova je římskokatolický kostel sv. Štěpána Uherského. Jeho starší jádro se připomíná už ve 14. století; na konci 18. století byl chrám přestavěn a získal klasicistní podobu. Jde o jednolodní stavbu s gotickým půdorysem a pozdějšími barokně-klasicistními prvky. Okolní hřbitov je mimořádně cenný souborem renesančních a barokních náhrobků, které patří k nejvýraznějším historickým památkám obce.",
+      "text": "Dominantou Kuklova je římskokatolický kostel sv. Štěpána Uherského, jehož starší jádro se připomíná už ve 14. století; na konci 18. století byl chrám přestavěn a získal klasicistní podobu. Okolní hřbitov uchovává cenné renesanční a barokní náhrobky. Sakrální krajinu doplňuje kaple Sedmibolestné Panny Marie, kalvárie z konce 19. století a socha sv. Anny s malou Marií z roku 1902. U kostela stojí také sousoší sv. Šebestiána, sv. Rozálie a sv. Rocha, které nechal Štefan Kuovič postavit roku 1831 z vděčnosti za ústup cholery.",
       "category": "heritage_and_monuments",
       "priority": "C",
       "sources": [
         "s2",
-        "s3"
+        "s3",
+        "s19",
+        "s20"
       ],
       "map_category": "religious_site",
-      "location": null
+      "location": {
+        "name": "Kostel sv. Štěpána Uherského, Kuklov – přibližný bod kostela",
+        "lat": 48.6375,
+        "lon": 17.074,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Stephen_the_King_(Kuklov)",
+        "address": null
+      }
     },
     {
       "id": "fact_002",
@@ -92,7 +102,7 @@
         "s2",
         "s3"
       ],
-      "map_category": "historic_city",
+      "map_category": "local_culture",
       "location": {
         "name": "Historické sídlo Kuklov – orientační bod",
         "lat": 48.64065933,
@@ -115,6 +125,49 @@
       ],
       "map_category": "nature",
       "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Židovský hřbitov v borovém lese",
+      "text": "Jižně od Kuklova, v prostředí borového lesa, leží židovský hřbitov obehnaný původní zděnou ohradou. Odborná dokumentace zde eviduje přibližně sedmdesát náhrobků, jejich fragmentů a dalších pozůstatků uspořádaných do pěti řad; nejstarší čitelný nápis pochází z roku 1830 a nejmladší z roku 1926. Zvláštní význam má náhrobek z roku 1847 patřící Zvi ben Yehudovi, který působil jako chazan – předzpěvák místní synagogy. Hřbitov připomíná židovskou komunitu Kuklova, která měla podle regionální dokumentace v roce 1927 21 členů.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Židovský hřbitov Kuklov",
+        "lat": 48.621975,
+        "lon": 17.073912,
+        "type": "cemetery",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/kuklov-zidovsky-cintorin",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Pomník obětem první světové války z roku 1927",
+      "text": "Před vstupem do areálu kostela sv. Štěpána stojí pomník věnovaný obyvatelům Kuklova padlým v první světové válce. Byl vybudován roku 1927 z veřejné sbírky místních obyvatel a s podporou krajanů, kteří odešli do Ameriky. Sousoší zachycuje vojáka odcházejícího na frontu, jenž se loučí s manželkou a dítětem; celek doplňuje pamětní deska a reliéf s vojenskými symboly. U jmen padlých bývaly fotografické medailony – podle dokumentace jich bylo 37, dochovalo se 16. Na pomníku je také vytesán text básně Andreje Žarnova.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "s18",
+        "s6"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pomník obětem první světové války před kostelem sv. Štěpána",
+        "lat": 48.6388,
+        "lon": 17.07361,
+        "type": "memorial",
+        "accuracy": "exact",
+        "source": "https://monumap.sk/item/pomnik-obetiam-4/",
+        "address": null
+      }
     }
   ],
   "photo": null,
@@ -216,6 +269,42 @@
       "title": "Slovenská pošta – Vyhľadávanie PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Slovak Jewish Heritage Database – Kuklov cemetery",
+      "url": "https://database.slovak-jewish-heritage.org/items/show/773",
+      "type": "specialist"
+    },
+    {
+      "id": "s16",
+      "title": "Pamiatky na Slovensku – Židovský cintorín v Kuklove",
+      "url": "https://www.pamiatkynaslovensku.sk/kuklov-zidovsky-cintorin",
+      "type": "specialist"
+    },
+    {
+      "id": "s17",
+      "title": "Epocha – Židovský cintorín, Kuklov",
+      "url": "https://kriz.epocha.sk/zidovske-cintoriny/zidovsky-cintorin-kuklov?sigplus=5310",
+      "type": "specialist"
+    },
+    {
+      "id": "s18",
+      "title": "MONUMAP – Pomník obetiam prvej svetovej vojny v Kuklove",
+      "url": "https://monumap.sk/item/pomnik-obetiam-4/",
+      "type": "specialist"
+    },
+    {
+      "id": "s19",
+      "title": "Spoznaj Záhorie – Kostol sv. Štefana kráľa a sakrálne pamiatky obce",
+      "url": "https://spoznajzahorie.sk/kategoria_miesta/kostoly/",
+      "type": "regional"
+    },
+    {
+      "id": "s20",
+      "title": "Pamiatky na Slovensku – Kaplnka Sedembolestnej Panny Márie v Kuklove",
+      "url": "https://www.pamiatkynaslovensku.sk/kuklov-kaplnka-sedembolestnej-panny-marie-v-obci",
+      "type": "specialist"
     }
   ],
   "translations": {
@@ -224,8 +313,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Kostel sv. Štěpána Uherského a historický hřbitov",
-          "text": "Dominantou Kuklova je římskokatolický kostel sv. Štěpána Uherského. Jeho starší jádro se připomíná už ve 14. století; na konci 18. století byl chrám přestavěn a získal klasicistní podobu. Jde o jednolodní stavbu s gotickým půdorysem a pozdějšími barokně-klasicistními prvky. Okolní hřbitov je mimořádně cenný souborem renesančních a barokních náhrobků, které patří k nejvýraznějším historickým památkám obce."
+          "title": "Kostel sv. Štěpána Uherského a sakrální památky",
+          "text": "Dominantou Kuklova je římskokatolický kostel sv. Štěpána Uherského, jehož starší jádro se připomíná už ve 14. století; na konci 18. století byl chrám přestavěn a získal klasicistní podobu. Okolní hřbitov uchovává cenné renesanční a barokní náhrobky. Sakrální krajinu doplňuje kaple Sedmibolestné Panny Marie, kalvárie z konce 19. století a socha sv. Anny s malou Marií z roku 1902. U kostela stojí také sousoší sv. Šebestiána, sv. Rozálie a sv. Rocha, které nechal Štefan Kuovič postavit roku 1831 z vděčnosti za ústup cholery."
         },
         {
           "id": "fact_002",
@@ -251,6 +340,16 @@
           "id": "fact_006",
           "title": "Písčité lesy Záhoří a říční krajina Myjavy",
           "text": "Kuklov leží na severu Borské nížiny v krajině utvářené navátými písky, říčními nánosy a borovými porosty. Západní část katastru přechází k nivě řeky Myjavy, zatímco jihovýchodní okraj zasahuje do Chráněné krajinné oblasti Záhorie. Místní strategický dokument popisuje dvě odlišné krajinné části: zaplavované území při Myjavě a oblast písčitých přesypů s borovicovými lesy. Myjava a drobné potoky zároveň odvádějí vodu z území do povodí dolní Moravy. Tato mozaika lužních a suchých stanovišť je typická pro severní Záhoří."
+        },
+        {
+          "id": "fact_007",
+          "title": "Židovský hřbitov v borovém lese",
+          "text": "Jižně od Kuklova, v prostředí borového lesa, leží židovský hřbitov obehnaný původní zděnou ohradou. Odborná dokumentace zde eviduje přibližně sedmdesát náhrobků, jejich fragmentů a dalších pozůstatků uspořádaných do pěti řad; nejstarší čitelný nápis pochází z roku 1830 a nejmladší z roku 1926. Zvláštní význam má náhrobek z roku 1847 patřící Zvi ben Yehudovi, který působil jako chazan – předzpěvák místní synagogy. Hřbitov připomíná židovskou komunitu Kuklova, která měla podle regionální dokumentace v roce 1927 21 členů."
+        },
+        {
+          "id": "fact_008",
+          "title": "Pomník obětem první světové války z roku 1927",
+          "text": "Před vstupem do areálu kostela sv. Štěpána stojí pomník věnovaný obyvatelům Kuklova padlým v první světové válce. Byl vybudován roku 1927 z veřejné sbírky místních obyvatel a s podporou krajanů, kteří odešli do Ameriky. Sousoší zachycuje vojáka odcházejícího na frontu, jenž se loučí s manželkou a dítětem; celek doplňuje pamětní deska a reliéf s vojenskými symboly. U jmen padlých bývaly fotografické medailony – podle dokumentace jich bylo 37, dochovalo se 16. Na pomníku je také vytesán text básně Andreje Žarnova."
         }
       ]
     },
@@ -259,8 +358,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Die St.-Stephans-Kirche und der historische Friedhof",
-          "text": "Das Wahrzeichen von Kuklov ist die römisch-katholische Kirche des heiligen Stephan von Ungarn. Ihr älterer Kern ist bereits im 14. Jahrhundert belegt; Ende des 18. Jahrhunderts wurde die Kirche umgebaut und erhielt ihr klassizistisches Erscheinungsbild. Es handelt sich um einen einschiffigen Bau mit gotischem Grundriss und späteren barock-klassizistischen Elementen. Der Friedhof rund um die Kirche besitzt eine außergewöhnlich wertvolle Sammlung von Renaissance- und Barockgrabsteinen."
+          "title": "St.-Stephans-Kirche und sakrale Denkmäler",
+          "text": "Die römisch-katholische Kirche des heiligen Stephan von Ungarn ist das Wahrzeichen von Kuklov. Ihr älterer Kern stammt aus dem 14. Jahrhundert; Ende des 18. Jahrhunderts wurde sie umgebaut und klassizistisch gestaltet. Der Friedhof bewahrt wertvolle Renaissance- und Barockgrabsteine. Zum sakralen Ortsbild gehören auch die Kapelle der Sieben Schmerzen Mariens, ein Kalvarienberg aus dem späten 19. Jahrhundert und eine Statue der heiligen Anna mit der jungen Maria von 1902. Neben der Kirche ließ Štefan Kuovič 1831 aus Dank für das Ende einer Choleraepidemie eine Figurengruppe der Heiligen Sebastian, Rosalia und Rochus errichten."
         },
         {
           "id": "fact_002",
@@ -286,6 +385,16 @@
           "id": "fact_006",
           "title": "Sandige Wälder des Záhorie und die Flusslandschaft der Myjava",
           "text": "Kuklov liegt im Norden der Borská nížina in einer Landschaft aus Flugsanden, Flussablagerungen und Kiefernwäldern. Der westliche Teil des Gemeindegebiets geht in die Aue der Myjava über, während der südöstliche Rand in das Landschaftsschutzgebiet Záhorie hineinreicht. Ein kommunales Entwicklungsdokument unterscheidet zwei Landschaftsräume: das Überschwemmungsgebiet an der Myjava und die Sanddünen mit Kiefernwäldern. Die Myjava und kleinere Bäche entwässern das Gebiet zum unteren March-Einzugsgebiet. Diese Mischung aus Auen- und Trockenlebensräumen ist typisch für das nördliche Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Jüdischer Friedhof im Kiefernwald",
+          "text": "Südlich von Kuklov liegt in einem Kiefernwald ein jüdischer Friedhof mit ursprünglicher Steinmauer. Fachleute dokumentieren rund siebzig Grabsteine und Fragmente in fünf Reihen; die älteste lesbare Inschrift stammt von 1830, die jüngste von 1926. Ein Grabstein von 1847 gehört Zvi ben Yehuda, dem Chasan der örtlichen Synagoge. Der Friedhof erinnert an die jüdische Gemeinde von Kuklov, die laut regionaler Dokumentation 1927 aus 21 Personen bestand."
+        },
+        {
+          "id": "fact_008",
+          "title": "Denkmal für die Opfer des Ersten Weltkriegs von 1927",
+          "text": "Vor dem Eingang zum Areal der St.-Stephans-Kirche steht ein Denkmal für die im Ersten Weltkrieg gefallenen Einwohner von Kuklov. Es wurde 1927 durch eine öffentliche Sammlung und mit Unterstützung ausgewanderter Landsleute in Amerika errichtet. Die Figurengruppe zeigt einen Soldaten beim Abschied von Frau und Kind; dazu kommen eine Gedenktafel und ein Relief mit militärischen Symbolen. Von 37 ursprünglichen fotografischen Medaillons sind 16 erhalten. Das Denkmal trägt auch einen eingemeißelten Text von Andrej Žarnov."
         }
       ]
     },
@@ -294,8 +403,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "St Stephen of Hungary Church and the historic cemetery",
-          "text": "Kuklov's landmark is the Roman Catholic Church of St Stephen of Hungary. Its older core is documented from the 14th century; at the end of the 18th century the church was rebuilt in a Neoclassical style. It is a single-nave building on a Gothic ground plan, with later Baroque and Neoclassical features. The cemetery surrounding the church contains an exceptionally valuable collection of Renaissance and Baroque tombstones."
+          "title": "St Stephen of Hungary Church and religious heritage",
+          "text": "Kuklov’s landmark is the Roman Catholic Church of St Stephen of Hungary. Its older core dates from the 14th century; it was remodelled in the late 18th century and given a Neoclassical appearance. The surrounding cemetery preserves valuable Renaissance and Baroque tombstones. The religious landscape also includes the Chapel of Our Lady of Seven Sorrows, a Calvary from the late 19th century and a statue of St Anne teaching the young Mary, dated 1902. Beside the church, Štefan Kuovič commissioned a group of Saints Sebastian, Rosalia and Roch in 1831 in gratitude for the end of a cholera epidemic."
         },
         {
           "id": "fact_002",
@@ -321,6 +430,16 @@
           "id": "fact_006",
           "title": "The sandy forests of Záhorie and the Myjava river landscape",
           "text": "Kuklov lies in the north of the Borská nížina lowland, in a landscape shaped by wind-blown sand, river deposits and pine forests. The western part of the cadastral area meets the Myjava floodplain, while its southeastern edge extends into the Záhorie Protected Landscape Area. A municipal planning document distinguishes two landscape zones: the floodplain along the Myjava and sandy dunes with pine woodland. The Myjava and smaller streams drain the area towards the lower Morava basin. This mosaic of wet floodplain and dry habitats is characteristic of northern Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Jewish cemetery in the pine woods",
+          "text": "South of Kuklov, in a pine wood, lies a Jewish cemetery enclosed by its original masonry wall. A specialist survey records around seventy gravestones and fragments in five rows; the oldest legible inscription dates from 1830 and the newest from 1926. A 1847 gravestone belongs to Zvi ben Yehuda, cantor of the local synagogue. The cemetery recalls Kuklov’s Jewish community, which numbered 21 people in 1927 according to regional documentation."
+        },
+        {
+          "id": "fact_008",
+          "title": "The 1927 memorial to the victims of the First World War",
+          "text": "Outside the entrance to the grounds of St Stephen’s Church stands a memorial to Kuklov residents killed in the First World War. It was erected in 1927 through a public collection and with support from compatriots who had emigrated to America. The sculpture shows a soldier saying farewell to his wife and child, alongside a commemorative plaque and a relief of military symbols. Of 37 original photographic medallions, 16 survive. The monument also bears an engraved text by Andrej Žarnov."
         }
       ]
     },
@@ -329,8 +448,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Iglesia de San Esteban de Hungría y cementerio histórico",
-          "text": "El principal monumento de Kuklov es la iglesia católica romana de San Esteban de Hungría. Su núcleo antiguo está documentado desde el siglo XIV; a finales del siglo XVIII fue reconstruida y adquirió su aspecto clasicista. Es un edificio de una sola nave sobre una planta gótica, con elementos barrocos y clasicistas posteriores. El cementerio que rodea la iglesia conserva una valiosa colección de lápidas renacentistas y barrocas."
+          "title": "Iglesia de San Esteban de Hungría y patrimonio religioso",
+          "text": "El principal monumento de Kuklov es la iglesia católica romana de San Esteban de Hungría. Su núcleo antiguo data del siglo XIV; a finales del siglo XVIII fue reconstruida y adquirió un aspecto clasicista. El cementerio conserva lápidas renacentistas y barrocas de gran valor. El patrimonio religioso incluye también la capilla de Nuestra Señora de los Siete Dolores, un Calvario de finales del siglo XIX y una estatua de santa Ana enseñando a la joven María, fechada en 1902. Junto a la iglesia, Štefan Kuovič encargó en 1831 un grupo escultórico de san Sebastián, santa Rosalía y san Roque como agradecimiento por el fin de una epidemia de cólera."
         },
         {
           "id": "fact_002",
@@ -356,6 +475,16 @@
           "id": "fact_006",
           "title": "Los bosques arenosos de Záhorie y el paisaje fluvial del Myjava",
           "text": "Kuklov se encuentra al norte de la llanura de Borská nížina, en un paisaje formado por arenas eólicas, depósitos fluviales y pinares. La parte occidental del término municipal llega hasta la llanura aluvial del río Myjava, mientras que el borde sudoriental se adentra en el Área Paisajística Protegida de Záhorie. Un documento municipal distingue dos espacios: la zona inundable del Myjava y las dunas de arena con pinares. El Myjava y pequeños arroyos drenan el territorio hacia la cuenca baja del Morava. Esta combinación de humedales y hábitats secos caracteriza el norte de Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "El cementerio judío entre pinares",
+          "text": "Al sur de Kuklov, en un pinar, se encuentra un cementerio judío rodeado por su muro original. Un inventario especializado registra unas setenta lápidas y fragmentos en cinco filas; la inscripción legible más antigua data de 1830 y la más reciente de 1926. Una lápida de 1847 pertenece a Zvi ben Yehuda, cantor de la sinagoga local. El cementerio recuerda a la comunidad judía de Kuklov, que según la documentación regional contaba con 21 personas en 1927."
+        },
+        {
+          "id": "fact_008",
+          "title": "Monumento a las víctimas de la Primera Guerra Mundial, de 1927",
+          "text": "Frente a la entrada del recinto de la iglesia de San Esteban se alza un monumento a los habitantes de Kuklov muertos en la Primera Guerra Mundial. Fue erigido en 1927 mediante una colecta pública y con el apoyo de compatriotas emigrados a América. La escultura muestra a un soldado que se despide de su esposa y su hijo, junto a una placa conmemorativa y un relieve de símbolos militares. De los 37 medallones fotográficos originales se conservan 16. El monumento también lleva grabado un texto de Andrej Žarnov."
         }
       ]
     },
@@ -364,8 +493,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Église Saint-Étienne de Hongrie et cimetière historique",
-          "text": "Le principal monument de Kuklov est l’église catholique romaine Saint-Étienne de Hongrie. Son noyau ancien est attesté dès le XIVe siècle ; à la fin du XVIIIe siècle, l’édifice fut reconstruit dans un style néoclassique. Il s’agit d’une église à nef unique sur un plan gothique, avec des éléments baroques et néoclassiques plus tardifs. Le cimetière qui l’entoure conserve une collection particulièrement précieuse de pierres tombales Renaissance et baroques."
+          "title": "Église Saint-Étienne de Hongrie et patrimoine religieux",
+          "text": "Le principal monument de Kuklov est l’église catholique romaine Saint-Étienne de Hongrie. Son noyau ancien date du XIVe siècle ; elle fut remaniée à la fin du XVIIIe siècle et prit un aspect néoclassique. Le cimetière conserve de précieuses pierres tombales Renaissance et baroques. Le patrimoine religieux comprend aussi la chapelle Notre-Dame-des-Sept-Douleurs, un calvaire de la fin du XIXe siècle et une statue de sainte Anne instruisant la jeune Marie, datée de 1902. Près de l’église, Štefan Kuovič fit ériger en 1831 un groupe de saints en remerciement de la fin d’une épidémie de choléra."
         },
         {
           "id": "fact_002",
@@ -391,6 +520,16 @@
           "id": "fact_006",
           "title": "Les forêts sableuses de Záhorie et le paysage fluvial de la Myjava",
           "text": "Kuklov se situe au nord de la plaine de Borská nížina, dans un paysage formé par des sables éoliens, des dépôts fluviaux et des pinèdes. La partie occidentale du territoire communal rejoint la plaine inondable de la Myjava, tandis que son bord sud-est pénètre dans l’aire paysagère protégée de Záhorie. Un document communal distingue deux milieux : la zone inondable de la Myjava et les dunes sableuses couvertes de pins. La Myjava et de petits ruisseaux drainent le territoire vers le bassin inférieur de la Morava. Cette mosaïque de milieux humides et secs caractérise le nord de Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le cimetière juif dans la pinède",
+          "text": "Au sud de Kuklov, dans une pinède, se trouve un cimetière juif entouré de son mur d’origine. Un inventaire spécialisé y recense environ soixante-dix pierres tombales et fragments en cinq rangées ; la plus ancienne inscription lisible date de 1830 et la plus récente de 1926. Une pierre de 1847 appartient à Zvi ben Yehuda, chantre de la synagogue locale. Le cimetière rappelle la communauté juive de Kuklov, qui comptait 21 personnes en 1927 selon la documentation régionale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mémorial aux victimes de la Première Guerre mondiale, érigé en 1927",
+          "text": "Devant l’entrée de l’enceinte de l’église Saint-Étienne se dresse un mémorial dédié aux habitants de Kuklov morts pendant la Première Guerre mondiale. Il fut érigé en 1927 grâce à une collecte publique et au soutien de compatriotes émigrés en Amérique. Le groupe sculpté représente un soldat faisant ses adieux à sa femme et à son enfant, accompagné d’une plaque commémorative et d’un relief de symboles militaires. Sur les 37 médaillons photographiques d’origine, 16 subsistent. Le monument porte également un texte gravé d’Andrej Žarnov."
         }
       ]
     },
@@ -399,8 +538,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Chiesa di Santo Stefano d’Ungheria e cimitero storico",
-          "text": "Il principale monumento di Kuklov è la chiesa cattolica romana di Santo Stefano d’Ungheria. Il suo nucleo più antico è documentato dal XIV secolo; alla fine del XVIII secolo la chiesa fu ricostruita e assunse l’aspetto neoclassico. È un edificio a navata unica su pianta gotica, con elementi barocchi e neoclassici successivi. Il cimitero circostante conserva una collezione particolarmente preziosa di lapidi rinascimentali e barocche."
+          "title": "Chiesa di Santo Stefano d’Ungheria e patrimonio religioso",
+          "text": "Il principale monumento di Kuklov è la chiesa cattolica romana di Santo Stefano d’Ungheria. Il nucleo più antico risale al XIV secolo; alla fine del XVIII secolo fu rimaneggiata e assunse un aspetto neoclassico. Il cimitero circostante conserva preziose lapidi rinascimentali e barocche. Il patrimonio religioso comprende anche la cappella della Madonna dei Sette Dolori, un Calvario della fine del XIX secolo e una statua di sant’Anna che istruisce la giovane Maria, datata 1902. Accanto alla chiesa, Štefan Kuovič fece erigere nel 1831 un gruppo scultoreo di santi in ringraziamento per la fine di un’epidemia di colera."
         },
         {
           "id": "fact_002",
@@ -426,6 +565,16 @@
           "id": "fact_006",
           "title": "Le pinete sabbiose di Záhorie e il paesaggio fluviale della Myjava",
           "text": "Kuklov si trova a nord della pianura di Borská nížina, in un paesaggio modellato da sabbie eoliche, depositi fluviali e pinete. La parte occidentale del territorio comunale raggiunge la pianura alluvionale della Myjava, mentre il margine sud-orientale entra nell’area paesaggistica protetta di Záhorie. Un documento comunale distingue due ambienti: la zona alluvionale della Myjava e le dune sabbiose con pinete. La Myjava e piccoli corsi d’acqua drenano il territorio verso il bacino inferiore della Morava. Questo mosaico di habitat umidi e secchi è tipico del nord di Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il cimitero ebraico nella pineta",
+          "text": "A sud di Kuklov, in una pineta, si trova un cimitero ebraico circondato dal muro originario. Un censimento specialistico documenta circa settanta lapidi e frammenti disposti in cinque file; la più antica iscrizione leggibile risale al 1830 e la più recente al 1926. Una lapide del 1847 appartiene a Zvi ben Yehuda, cantore della sinagoga locale. Il cimitero ricorda la comunità ebraica di Kuklov, che secondo la documentazione regionale contava 21 persone nel 1927."
+        },
+        {
+          "id": "fact_008",
+          "title": "Monumento alle vittime della Prima guerra mondiale del 1927",
+          "text": "Davanti all’ingresso dell’area della chiesa di Santo Stefano sorge un monumento dedicato agli abitanti di Kuklov morti nella Prima guerra mondiale. Fu eretto nel 1927 grazie a una raccolta pubblica e al sostegno dei compatrioti emigrati in America. Il gruppo scultoreo raffigura un soldato che saluta la moglie e il figlio, accompagnato da una targa commemorativa e da un rilievo di simboli militari. Dei 37 medaglioni fotografici originari ne restano 16. Il monumento reca anche un testo inciso di Andrej Žarnov."
         }
       ]
     },
@@ -434,8 +583,8 @@
       "facts": [
         {
           "id": "fact_001",
-          "title": "Sint-Stefanuskerk en historische begraafplaats",
-          "text": "Het belangrijkste monument van Kuklov is de rooms-katholieke Sint-Stefanuskerk. De oudere kern wordt al in de 14e eeuw vermeld; aan het einde van de 18e eeuw werd de kerk verbouwd en kreeg zij haar classicistische uiterlijk. Het is een eenbeukig gebouw op een gotische plattegrond, met latere barokke en classicistische elementen. De begraafplaats rond de kerk bezit een bijzonder waardevolle verzameling renaissance- en barokgrafstenen."
+          "title": "Sint-Stefanuskerk en religieus erfgoed",
+          "text": "Het belangrijkste monument van Kuklov is de rooms-katholieke Sint-Stefanuskerk. De oudere kern dateert uit de 14e eeuw; aan het einde van de 18e eeuw werd de kerk verbouwd en kreeg zij een classicistisch uiterlijk. Het kerkhof bewaart waardevolle renaissance- en barokgrafstenen. Het religieuze erfgoed omvat ook de kapel van Onze-Lieve-Vrouw van Zeven Smarten, een calvarieberg uit het einde van de 19e eeuw en een beeld van de heilige Anna die de jonge Maria onderricht, uit 1902. Naast de kerk liet Štefan Kuovič in 1831 een beeldengroep oprichten uit dankbaarheid voor het einde van een cholera-epidemie."
         },
         {
           "id": "fact_002",
@@ -461,6 +610,16 @@
           "id": "fact_006",
           "title": "De zandbossen van Záhorie en het rivierlandschap van de Myjava",
           "text": "Kuklov ligt in het noorden van de laagvlakte Borská nížina, in een landschap gevormd door stuifzand, rivierafzettingen en dennenbossen. Het westelijke deel van het gemeentelijke gebied grenst aan de overstromingsvlakte van de Myjava, terwijl de zuidoostelijke rand binnen het beschermde landschapsgebied Záhorie valt. Een gemeentelijk planningsdocument onderscheidt twee landschappen: het overstromingsgebied langs de Myjava en de zandduinen met dennenbossen. De Myjava en kleinere beken voeren het water af naar het benedenstroomse stroomgebied van de Morava. Deze afwisseling van natte en droge leefgebieden is kenmerkend voor noordelijk Záhorie."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Joodse begraafplaats in het dennenbos",
+          "text": "Ten zuiden van Kuklov ligt in een dennenbos een Joodse begraafplaats met de oorspronkelijke gemetselde muur. Een gespecialiseerde inventarisatie registreert ongeveer zeventig grafstenen en fragmenten in vijf rijen; de oudste leesbare inscriptie dateert uit 1830 en de jongste uit 1926. Een grafsteen uit 1847 behoort toe aan Zvi ben Yehuda, voorzanger van de plaatselijke synagoge. De begraafplaats herinnert aan de Joodse gemeenschap van Kuklov, die volgens regionale documentatie in 1927 21 personen telde."
+        },
+        {
+          "id": "fact_008",
+          "title": "Monument voor de slachtoffers van de Eerste Wereldoorlog uit 1927",
+          "text": "Voor de ingang van het terrein van de Sint-Stefanuskerk staat een monument voor de inwoners van Kuklov die in de Eerste Wereldoorlog omkwamen. Het werd in 1927 opgericht met geld uit een openbare inzameling en steun van landgenoten die naar Amerika waren geëmigreerd. De beeldengroep toont een soldaat die afscheid neemt van zijn vrouw en kind, naast een gedenkplaat en een reliëf met militaire symbolen. Van de oorspronkelijke 37 fotomedaillons zijn er 16 bewaard. Op het monument staat ook een gegraveerde tekst van Andrej Žarnov."
         }
       ]
     }
