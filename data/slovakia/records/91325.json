@@ -4,14 +4,14 @@
   "district": null,
   "county": "Trenčín",
   "state": "Trenčiansky kraj",
-  "representative_place": "Bobot – centrum obce",
+  "representative_place": "Bobot – centrum obce pri obecnom úrade",
   "representative_point": {
-    "lat": 48.8055556,
-    "lon": 18.1930556
+    "lat": 48.8054921,
+    "lon": 18.1929164
   },
   "access_point": {
-    "lat": 48.8055556,
-    "lon": 18.1930556
+    "lat": 48.8054921,
+    "lon": 18.1929164
   },
   "facts": [
     {
@@ -49,13 +49,13 @@
       ],
       "map_category": "technical_heritage",
       "location": {
-        "name": "LUDOPRINT – areál papírenské výroby, Bobot 338 (orientační bod)",
-        "lat": 48.8055556,
-        "lon": 18.1930556,
+        "name": "Bobot – centrum pri obecnom úrade (orientačný bod papierenskej výroby)",
+        "lat": 48.8054921,
+        "lon": 18.1929164,
         "type": "industrial_site",
         "accuracy": "area_representative",
-        "source": "https://www.bobot.sk/data/download/phrsr_bobot_2024-2030.pdf",
-        "address": "Bobot 338, 913 25 Bobot, Slovensko"
+        "source": "https://poi.oma.sk/n2491489609",
+        "address": "Bobot, 913 25 Bobot, Slovensko"
       }
     },
     {
@@ -66,17 +66,17 @@
       "priority": "B",
       "sources": [
         "s4",
-        "s13",
-        "s14"
+        "s12",
+        "s13"
       ],
       "map_category": "personality",
       "location": {
-        "name": "Bobot – centrum obce, orientační bod rodáka Michala Rešetky",
-        "lat": 48.8055556,
-        "lon": 18.1930556,
+        "name": "Bobot – centrum obce pri obecnom úrade, orientačný bod rodáka Michala Rešetku",
+        "lat": 48.8054921,
+        "lon": 18.1929164,
         "type": "historic_settlement",
         "accuracy": "area_representative",
-        "source": "https://www.bobot.sk/data/download/phrsr_bobot_2024-2030.pdf",
+        "source": "https://poi.oma.sk/n2491489609",
         "address": "Bobot 56, 913 25 Bobot, Slovensko"
       }
     },
@@ -87,10 +87,10 @@
       "category": "nature_and_landscape",
       "priority": "C",
       "sources": [
+        "s3",
         "s8",
         "s9",
-        "s10",
-        "s11"
+        "s10"
       ],
       "map_category": "nature",
       "location": {
@@ -110,9 +110,8 @@
       "category": "history",
       "priority": "C",
       "sources": [
-        "s3",
         "s4",
-        "s12"
+        "s11"
       ],
       "map_category": "local_culture",
       "location": {
@@ -129,8 +128,8 @@
   "sources": [
     {
       "id": "s1",
-      "title": "Slovenská pošta – zoznam poštových prevádzok, Bobot 913 25",
-      "url": "https://tandt.posta.sk/en/files/1305/list-of-non-automated-post-offices.pdf",
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
       "type": "official"
     },
     {
@@ -141,8 +140,8 @@
     },
     {
       "id": "s3",
-      "title": "Obec Bobot – Program hospodárskeho rozvoja a sociálneho rozvoja 2024–2030",
-      "url": "https://www.bobot.sk/data/download/phrsr_bobot_2024-2030.pdf",
+      "title": "Obec Bobot – Charakteristika obce, poloha, PSČ a potok Machnáč",
+      "url": "https://www.bobot.sk/obec/charakteristika/",
       "type": "official"
     },
     {
@@ -171,50 +170,50 @@
     },
     {
       "id": "s8",
-      "title": "Obec Bobot – Charakteristika obce, príroda a potok Machnáč",
-      "url": "https://www.bobot.sk/obec/charakteristika/",
-      "type": "official"
-    },
-    {
-      "id": "s9",
       "title": "Správa CHKO Biele Karpaty – PP Potok Machnáč",
       "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
       "type": "official"
     },
     {
-      "id": "s10",
+      "id": "s9",
       "title": "OpenStreetMap / OMA – vodný tok Machnáč",
       "url": "https://voda.oma.sk/machnac",
       "type": "other"
     },
     {
-      "id": "s11",
+      "id": "s10",
       "title": "OpenStreetMap / OMA – zastávka Bobot, Bobotská Lehota, orientačný bod pri toku",
       "url": "https://poi.oma.sk/n6541781370",
       "type": "other"
     },
     {
-      "id": "s12",
+      "id": "s11",
       "title": "OpenStreetMap / OMA – kamenný kríž v Bobotskej Lehote",
       "url": "https://poi.oma.sk/n6541829408",
       "type": "other"
     },
     {
-      "id": "s13",
+      "id": "s12",
       "title": "Obec Bobot – fotogaléria a odhalenie busty Michala Rešetku, september 2026",
       "url": "https://www.bobot.sk/?x_gallery=707&x_id_category=1&x_page=gallery",
       "type": "official"
     },
     {
-      "id": "s14",
+      "id": "s13",
       "title": "Verejná knižnica Michala Rešetku v Trenčíne – život a odkaz Michala Rešetku",
       "url": "https://www.vkmr.sk/hlavna-stranka-2/o-kniznici/michal-resetka.html?page_id=193",
       "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "OpenStreetMap / OMA – radnica Bobot, súradnice a poloha",
+      "url": "https://poi.oma.sk/n2491489609",
+      "type": "other"
     }
   ],
   "translations": {
     "cs": {
-      "representative_place": "Bobot – centrum obce",
+      "representative_place": "Bobot – centrum obce pri obecnom úrade",
       "facts": [
         {
           "id": "fact_001",
@@ -244,7 +243,7 @@
       ]
     },
     "de": {
-      "representative_place": "Bobot – Ortszentrum",
+      "representative_place": "Bobot – Ortszentrum am Gemeindeamt",
       "facts": [
         {
           "id": "fact_001",
@@ -274,7 +273,7 @@
       ]
     },
     "en": {
-      "representative_place": "Bobot – village centre",
+      "representative_place": "Bobot – village centre by the municipal office",
       "facts": [
         {
           "id": "fact_001",
@@ -304,7 +303,7 @@
       ]
     },
     "es": {
-      "representative_place": "Bobot – centro del pueblo",
+      "representative_place": "Bobot – centro del pueblo junto al ayuntamiento",
       "facts": [
         {
           "id": "fact_001",
@@ -334,7 +333,7 @@
       ]
     },
     "fr": {
-      "representative_place": "Bobot – centre du village",
+      "representative_place": "Bobot – centre du village près de la mairie",
       "facts": [
         {
           "id": "fact_001",
@@ -364,7 +363,7 @@
       ]
     },
     "it": {
-      "representative_place": "Bobot – centro del paese",
+      "representative_place": "Bobot – centro del paese presso il municipio",
       "facts": [
         {
           "id": "fact_001",
@@ -394,7 +393,7 @@
       ]
     },
     "nl": {
-      "representative_place": "Bobot – dorpscentrum",
+      "representative_place": "Bobot – dorpscentrum bij het gemeentehuis",
       "facts": [
         {
           "id": "fact_001",
@@ -426,18 +425,18 @@
   },
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta uvádza poštovú prevádzku Bobot s PSČ 913 25; oficiálna stránka obce používa rovnaký kód pre adresu obecného úradu a pošty. Bobotská Lehota je miestnou časťou obce Bobot a zdieľa jej geografické PSČ.",
+    "plz_source": "Slovenská pošta poskytuje oficiálne vyhľadávanie PSČ; stránka Pošty Bobot a oficiálna stránka obce uvádzajú PSČ 913 25 pre Bobot. Bobotská Lehota je miestnou časťou Bobota a zdieľa jeho poštový kód.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Slovenská pošta – zoznam poštových prevádzok; Obec Bobot – oficiálna stránka pošty a kontaktná adresa; PHRSR Bobot 2024–2030.",
+    "postcode_source_dataset": "Slovenská pošta – oficiálne vyhľadávanie PSČ; Obec Bobot – oficiálna stránka pošty a charakteristika obce.",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-27",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
     "delivery_office_note": "Pošta Bobot má adresu Bobot 283, 913 25 Bobot. Bobotská Lehota je miestnou časťou Bobota, nie samostatnou obcou s vlastným poštovým kódom.",
     "postcode_override_reason": null,
-    "geographic_authority": "Obec Bobot – oficiálne administratívne údaje a PHRSR 2024–2030; Bobotská Lehota je miestnou časťou Bobota. Okres Trenčín, Trenčiansky kraj."
+    "geographic_authority": "Obec Bobot – oficiálna charakteristika a história obce; Bobotská Lehota je miestnou časťou Bobota. Okres Trenčín, Trenčiansky kraj."
   },
   "district_type": null,
   "status": "validated"
