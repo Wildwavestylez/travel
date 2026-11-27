@@ -1,4 +1,601 @@
 {
   "postcode": "91321",
-  "status": "placeholder"
+  "city": "Trenčianska Turná",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Centrum obce Trenčianska Turná",
+  "representative_point": {
+    "lat": 48.849999,
+    "lon": 18.022238
+  },
+  "access_point": {
+    "lat": 48.849999,
+    "lon": 18.022238
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Pravěké osídlení Trenčianské Turné od neandertálců po Velkou Moravu",
+      "text": "Krajina Trenčianské Turné patří k archeologicky nejzajímavějším částem středního Pováží. Nálezy štípaných nástrojů dokládají středopaleolitické osídlení před přibližně 50 000 až 70 000 lety, tedy v době neandertálců. Výrazné je také gravettienské osídlení asi před 23 000 lety, známé hroty s vrubem a kamennými čepelemi. Východně od obce byly objeveny neolitické nálezy kultury s lineární keramikou, z římské doby pocházejí fragmenty terra sigillata a 9. století zastupují nálezy z období Velké Moravy.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Gotický původ kostela svatého Martina a socha Jana Nepomuckého",
+      "text": "Dominantou Trenčianské Turné je kostel svatého Martina, jehož počátky sahají do gotického období. Nejstarší písemné zprávy o místní kapli pocházejí z roku 1406; kostel byl v letech 1754–1756 zásadně barokně přestavěn a později dále rozšiřován. Uvnitř se nacházejí dvě krypty a ve věži je zvon z roku 1832. Na jižním konci obce stojí pískovcový podstavec se sochou svatého Jana Nepomuckého a nápisem z roku 1794. Původně jej obklopovalo devět lip, z nichž se dochovaly čtyři.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s1",
+        "s5"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel svatého Martina v Trenčianské Turné",
+        "lat": 48.850145,
+        "lon": 18.020413,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.trencianskaturna.sk/zivot-v-obci/farnost/historia-farnosti/",
+        "address": "Bánovská 27, 913 21 Trenčianska Turná, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Bitva u Hámrů roku 1708 – rozhodující střet Rákócziho povstání",
+      "text": "Dne 3. srpna 1708 se v okolí Trenčianské Turné, Hámrů, Mníchovy Lehoty a Soblahova odehrála bitva mezi povstaleckými kuruci Františka II. Rákócziho a císařským vojskem generála Siegberta Heistera. Střet patřil k největším vojenským událostem v dějinách západního Slovenska a skončil těžkou porážkou Rákócziho armády. Bojiště zabíralo přibližně 9,5 km², jeho operační zázemí bylo ještě rozsáhlejší. V Hámrech připomíná událost kamenný památník s nápisem Pro libertate; během bojů byla osada Hámre vypálena.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5",
+        "s14"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Památník bitvy u Hámrů z roku 1708",
+        "lat": 48.848,
+        "lon": 18.044,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.turistika.cz/mista/trencianska-turna-hamre-bitka-v-roku-1708/detail",
+        "address": "Hámre, Trenčianska Turná, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Samuel Timon – rodák a zakladatel moderní uherské historiografie",
+      "text": "Trenčianská Turná je rodištěm jezuitského historika, pedagoga a polyhistora Samuela Timona, který se narodil 20. července 1675 a zemřel roku 1736 v Košicích. Působil jako učitel a univerzitní profesor v několika městech Uherského království a věnoval se především dějinám, geografii a topografii. Kriticky přehodnocoval středověké kroniky a legendy a usiloval o vědecky podložený obraz uherské minulosti. Jeho práce Imago antiquae Hungariae z roku 1733 patří k důležitým dílům raně novověké historiografie. Pamětní deska z roku 1969 je umístěna na bývalé římskokatolické škole v Bánovské ulici.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "map_category": "personality",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Mníchova Lehota a její středověké kořeny pod Kostelcem",
+      "text": "První písemná zmínka o Mníchově Lehotě se obvykle spojuje s darovací listinou krále Bély IV. z roku 1269, v níž je území označeno jako zem nitranského biskupa. Roku 1439 se objevuje název Monohlehota a v dalších stoletích se podoba jména měnila. Místní tradice spojuje přívlastek „Mníchova“ s klášterem, který měl stát na návrší Kostelec nad obcí; jeho zříceniny byly podle historických záznamů viditelné ještě v 19. století. Strategickou polohu připomínají také názvy Predné a Zadné Stráže.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s8"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Obecní úřad Mníchova Lehota – orientační bod historického sídla",
+        "lat": 48.833755,
+        "lon": 18.061042,
+        "type": "town_hall",
+        "accuracy": "area_representative",
+        "source": "https://poi.oma.sk/n6411707354",
+        "address": "Mníchova Lehota 90, 913 21 Mníchova Lehota, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Kostel Nejsvětější Trojice – gotická památka ze 14. století",
+      "text": "Římskokatolický kostel Nejsvětější Trojice v Mníchově Lehotě byl postaven v polovině 14. století a představuje vyspělou podobu gotického venkovského kostela. Dochovala se gotická kamenná žebrová klenba presbytáře se dvěma svorníky, trojice oken s trojlaločnou kružbou, původní pastoforium, sedilie a kamenná kropenka. Do sakristie vede kamenný gotický portál a v její severní stěně je středověké kamenné lavabo. Kostel obklopoval kamenný obranný okruh a hřbitov s kostnicí; část starých náhrobních kamenů je dodnes zazděna v ohradní zdi. Památka byla zapsána do seznamu kulturních památek už roku 1963.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel Nejsvětější Trojice v Mníchově Lehotě",
+        "lat": 48.833393,
+        "lon": 18.062097,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://login.apsida.sk/c/13854/mnichova-lehota",
+        "address": "Mníchova Lehota, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Železité kyselky a horská krajina mezi Inovcem a Strážovskými vrchy",
+      "text": "Katastr Mníchovy Lehoty zasahuje do dvou pohoří – Strážovských vrchů a Považského Inovce. Zatímco vápencové a dolomitové Strážovské vrchy mají krasový charakter, v Považském Inovci se vyskytuje mnoho pramenů a zamokřených míst. Pro obec jsou typické studené železité kyselky, tedy minerální vody s oxidem uhličitým a rozpuštěnými minerálními látkami. Podle obecní publikace jsou veřejnosti přístupné tři prameny: v Brezinách, na Járkoch a v Krásné dolině. Lesy pokrývají přibližně 61 procent katastru a jejich hlavní dřevinou je buk.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s8"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Železnice přes Mníchovu Lehotu a vysoko položená stanice Járky",
+      "text": "Železniční spojení přes Mníchovu Lehotu bylo součástí tratě z Trenčína přes Turnou a Bánovce nad Bebravou do Chynoran a Veľkých Bošan. Provoz na celé trati byl zahájen 18. srpna 1901. Historická obecní publikace uvádí šest stanic, 21 strážních domků, 131 mostů a propustků a průměrnou rychlost vlaků 33 kilometrů za hodinu. Stanice v osadě Járky leží ve výšce přibližně 355 metrů nad mořem a byla nejvýše položeným bodem této tratě. Úsek přes Mníchovu Lehotu byl mezi cestujícími známý výhledy na okolní horské svahy a údolí.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s10"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Železniční stanice Mníchova Lehota – Járky",
+        "lat": 48.81278,
+        "lon": 18.0875,
+        "type": "railway_station",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n1560203761",
+        "address": "Járky, Mníchova Lehota, Slovensko"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Trenčianska Turná – História obce",
+      "url": "https://www.trencianskaturna.sk/historia/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Ústredný portál verejnej správy – Trenčianska Turná",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_2af456bc-437d-4183-8c40-dc9f03f3d8bf",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Trenčianska Turná – História farnosti",
+      "url": "https://www.trencianskaturna.sk/zivot-v-obci/farnost/historia-farnosti/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Trenčianska Turná – Bitka pri Hámroch",
+      "url": "https://www.trencianskaturna.sk/historia/bitka-pri-hamroch/?lang=sk&mapa-webu=1",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Trenčianska Turná – Územný plán obce",
+      "url": "https://www.trencianskaturna.sk/modules/file_storage/download.php?file=5243a39d%7C420&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Záhorské múzeum Skalica – Samuel Timon",
+      "url": "https://www.zahorskemuzeum.sk/timon-samuel-20-7-1675-trencianska-turna-7-4-1736-kosice/",
+      "type": "museum"
+    },
+    {
+      "id": "s7",
+      "title": "ZŠ s MŠ Samuela Timona – Samuel Timon",
+      "url": "https://trencturna.edupage.org/text/?eqa=dGV4dD10ZXh0L3RleHQ0JnN1YnBhZ2U9MSZza2dkeWVhcj0yMDI2",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Mníchova Lehota – Cesty Lehotami sú dobré",
+      "url": "https://www.mnichovalehota.sk/e_download.php?file=data%2Fmultipage%2Feditor%2Feditor-65-208-sk_1.pdf&original=CELELE+publik%C3%A1cia.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Apsida – Kostol Najsvätejšej Trojice v Mníchovej Lehote",
+      "url": "https://login.apsida.sk/c/13854/mnichova-lehota",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "OpenStreetMap / OMA – Železničná stanica Mníchova Lehota",
+      "url": "https://poi.oma.sk/n1560203761",
+      "type": "other"
+    },
+    {
+      "id": "s11",
+      "title": "Obec Trenčianska Turná – Kontakt, PSČ 913 21",
+      "url": "https://www.trencianskaturna.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Mníchova Lehota – Kontakt, PSČ 913 21",
+      "url": "https://www.mnichovalehota.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Turistika.cz – Pamätník bitky pri Hámroch",
+      "url": "https://www.turistika.cz/mista/trencianska-turna-hamre-bitka-v-roku-1708/detail",
+      "type": "regional"
+    },
+    {
+      "id": "s15",
+      "title": "OpenStreetMap / OMA – Obecný úrad Trenčianska Turná",
+      "url": "https://poi.oma.sk/n5215873860",
+      "type": "other"
+    },
+    {
+      "id": "s16",
+      "title": "OpenStreetMap / OMA – Obecný úrad Mníchova Lehota",
+      "url": "https://poi.oma.sk/n6411707354",
+      "type": "other"
+    },
+    {
+      "id": "s17",
+      "title": "PSČ 913 21 – zoznam obcí a častí",
+      "url": "https://www.pscpsc.eu/cz?psc=913-21",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiálne vyhľadávanie PSČ (https://www.posta.sk/psc); geografická identita 913 21 je doložená oficiálnymi adresami obcí Trenčianska Turná a Mníchova Lehota a územným plánom Trenčianskej Turnej, ktorý uvádza PSČ 913 21 aj katastrálne územie Hámre.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiálne vyhľadávanie PSČ; oficiálne obecné adresy a územný plán",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Sekundárne zoznamy uvádzajú Trenčiansku Turnú, Mníchovu Lehotu a Hámre; Hámre je katastrálnou časťou Trenčianskej Turnej. Územný plán obce potvrdzuje katastrálne územie Hámre aj PSČ 913 21. Nie je zistený dôkaz, že by PSČ zahŕňalo Trenčianske Jastrabie; to sa do záznamu nezaraďuje.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Územný plán obce Trenčianska Turná a oficiálne kontaktné údaje obcí; administratívne zaradenie do okresu Trenčín a Trenčianskeho kraja."
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Centrum obce Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Pravěké osídlení Trenčianské Turné od neandertálců po Velkou Moravu",
+          "text": "Krajina Trenčianské Turné patří k archeologicky nejzajímavějším částem středního Pováží. Nálezy štípaných nástrojů dokládají středopaleolitické osídlení před přibližně 50 000 až 70 000 lety, tedy v době neandertálců. Výrazné je také gravettienské osídlení asi před 23 000 lety, známé hroty s vrubem a kamennými čepelemi. Východně od obce byly objeveny neolitické nálezy kultury s lineární keramikou, z římské doby pocházejí fragmenty terra sigillata a 9. století zastupují nálezy z období Velké Moravy."
+        },
+        {
+          "id": "fact_002",
+          "title": "Gotický původ kostela svatého Martina a socha Jana Nepomuckého",
+          "text": "Dominantou Trenčianské Turné je kostel svatého Martina, jehož počátky sahají do gotického období. Nejstarší písemné zprávy o místní kapli pocházejí z roku 1406; kostel byl v letech 1754–1756 zásadně barokně přestavěn a později dále rozšiřován. Uvnitř se nacházejí dvě krypty a ve věži je zvon z roku 1832. Na jižním konci obce stojí pískovcový podstavec se sochou svatého Jana Nepomuckého a nápisem z roku 1794. Původně jej obklopovalo devět lip, z nichž se dochovaly čtyři."
+        },
+        {
+          "id": "fact_003",
+          "title": "Bitva u Hámrů roku 1708 – rozhodující střet Rákócziho povstání",
+          "text": "Dne 3. srpna 1708 se v okolí Trenčianské Turné, Hámrů, Mníchovy Lehoty a Soblahova odehrála bitva mezi povstaleckými kuruci Františka II. Rákócziho a císařským vojskem generála Siegberta Heistera. Střet patřil k největším vojenským událostem v dějinách západního Slovenska a skončil těžkou porážkou Rákócziho armády. Bojiště zabíralo přibližně 9,5 km², jeho operační zázemí bylo ještě rozsáhlejší. V Hámrech připomíná událost kamenný památník s nápisem Pro libertate; během bojů byla osada Hámre vypálena."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon – rodák a zakladatel moderní uherské historiografie",
+          "text": "Trenčianská Turná je rodištěm jezuitského historika, pedagoga a polyhistora Samuela Timona, který se narodil 20. července 1675 a zemřel roku 1736 v Košicích. Působil jako učitel a univerzitní profesor v několika městech Uherského království a věnoval se především dějinám, geografii a topografii. Kriticky přehodnocoval středověké kroniky a legendy a usiloval o vědecky podložený obraz uherské minulosti. Jeho práce Imago antiquae Hungariae z roku 1733 patří k důležitým dílům raně novověké historiografie. Pamětní deska z roku 1969 je umístěna na bývalé římskokatolické škole v Bánovské ulici."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota a její středověké kořeny pod Kostelcem",
+          "text": "První písemná zmínka o Mníchově Lehotě se obvykle spojuje s darovací listinou krále Bély IV. z roku 1269, v níž je území označeno jako zem nitranského biskupa. Roku 1439 se objevuje název Monohlehota a v dalších stoletích se podoba jména měnila. Místní tradice spojuje přívlastek „Mníchova“ s klášterem, který měl stát na návrší Kostelec nad obcí; jeho zříceniny byly podle historických záznamů viditelné ještě v 19. století. Strategickou polohu připomínají také názvy Predné a Zadné Stráže."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kostel Nejsvětější Trojice – gotická památka ze 14. století",
+          "text": "Římskokatolický kostel Nejsvětější Trojice v Mníchově Lehotě byl postaven v polovině 14. století a představuje vyspělou podobu gotického venkovského kostela. Dochovala se gotická kamenná žebrová klenba presbytáře se dvěma svorníky, trojice oken s trojlaločnou kružbou, původní pastoforium, sedilie a kamenná kropenka. Do sakristie vede kamenný gotický portál a v její severní stěně je středověké kamenné lavabo. Kostel obklopoval kamenný obranný okruh a hřbitov s kostnicí; část starých náhrobních kamenů je dodnes zazděna v ohradní zdi. Památka byla zapsána do seznamu kulturních památek už roku 1963."
+        },
+        {
+          "id": "fact_007",
+          "title": "Železité kyselky a horská krajina mezi Inovcem a Strážovskými vrchy",
+          "text": "Katastr Mníchovy Lehoty zasahuje do dvou pohoří – Strážovských vrchů a Považského Inovce. Zatímco vápencové a dolomitové Strážovské vrchy mají krasový charakter, v Považském Inovci se vyskytuje mnoho pramenů a zamokřených míst. Pro obec jsou typické studené železité kyselky, tedy minerální vody s oxidem uhličitým a rozpuštěnými minerálními látkami. Podle obecní publikace jsou veřejnosti přístupné tři prameny: v Brezinách, na Járkoch a v Krásné dolině. Lesy pokrývají přibližně 61 procent katastru a jejich hlavní dřevinou je buk."
+        },
+        {
+          "id": "fact_008",
+          "title": "Železnice přes Mníchovu Lehotu a vysoko položená stanice Járky",
+          "text": "Železniční spojení přes Mníchovu Lehotu bylo součástí tratě z Trenčína přes Turnou a Bánovce nad Bebravou do Chynoran a Veľkých Bošan. Provoz na celé trati byl zahájen 18. srpna 1901. Historická obecní publikace uvádí šest stanic, 21 strážních domků, 131 mostů a propustků a průměrnou rychlost vlaků 33 kilometrů za hodinu. Stanice v osadě Járky leží ve výšce přibližně 355 metrů nad mořem a byla nejvýše položeným bodem této tratě. Úsek přes Mníchovu Lehotu byl mezi cestujícími známý výhledy na okolní horské svahy a údolí."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vorgeschichtliche Besiedlung von Neandertalern bis Großmähren",
+          "text": "Das Gebiet von Trenčianska Turná gehört zu den archäologisch interessantesten Teilen des mittleren Waagtals. Steingeräte belegen eine mittelpaläolithische Besiedlung vor etwa 50.000 bis 70.000 Jahren, also zur Zeit der Neandertaler. Besonders ausgeprägt war auch die Gravettien-Besiedlung vor rund 23.000 Jahren, bekannt durch gekerbte Spitzen und Steinklingen. Östlich des Ortes wurden neolithische Funde der Linearbandkeramik entdeckt. Römische Fragmente von Terra Sigillata und Funde aus dem 9. Jahrhundert aus der großmährischen Zeit ergänzen diese lange Siedlungsgeschichte."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die gotische Martinskirche und die Statue des Johannes Nepomuk",
+          "text": "Die Martinskirche ist das Wahrzeichen von Trenčianska Turná und geht auf die Gotik zurück. Die älteste schriftliche Nachricht über eine örtliche Kapelle stammt aus dem Jahr 1406; 1754–1756 wurde die Kirche umfassend barock umgebaut und später erweitert. Im Inneren befinden sich zwei Krypten, im Turm hängt eine Glocke aus dem Jahr 1832. Am südlichen Ortsende steht eine Statue des heiligen Johannes Nepomuk auf einem Sandsteinsockel mit Inschrift von 1794. Ursprünglich war das Denkmal von neun Linden umgeben, von denen vier erhalten sind."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Schlacht bei Hámre 1708 – ein entscheidender Zusammenstoß des Rákóczi-Aufstands",
+          "text": "Am 3. August 1708 kam es im Gebiet von Trenčianska Turná, Hámre, Mníchova Lehota und Soblahov zur Schlacht zwischen den aufständischen Kuruzzen von Franz II. Rákóczi und den kaiserlichen Truppen unter General Siegbert Heister. Das Gefecht gehörte zu den größten militärischen Ereignissen in der Geschichte der Westslowakei und endete mit einer schweren Niederlage der Aufständischen. Das eigentliche Schlachtfeld umfasste etwa 9,5 km², der Operationsraum war noch größer. In Hámre erinnert ein steinernes Denkmal mit der Inschrift Pro libertate an das Ereignis. Der Weiler wurde während der Kämpfe niedergebrannt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon – ein Sohn des Ortes und Begründer moderner ungarischer Geschichtsschreibung",
+          "text": "Trenčianska Turná ist der Geburtsort des Jesuitenhistorikers und Pädagogen Samuel Timon, geboren 1675 und gestorben 1736 in Košice. Er lehrte an Schulen und Universitäten mehrerer Städte des Königreichs Ungarn und beschäftigte sich vor allem mit Geschichte, Geografie und Topografie. Mittelalterliche Chroniken und Legenden prüfte er kritisch und suchte ein wissenschaftlich fundiertes Bild der ungarischen Vergangenheit. Sein Werk Imago antiquae Hungariae von 1733 gehört zu den wichtigen Arbeiten der frühneuzeitlichen Geschichtsschreibung. Eine Gedenktafel von 1969 befindet sich an der ehemaligen römisch-katholischen Schule."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota und ihre mittelalterlichen Wurzeln unter dem Hügel Kostelec",
+          "text": "Die erste schriftliche Erwähnung von Mníchova Lehota wird gewöhnlich mit einer Schenkungsurkunde König Béla IV. aus dem Jahr 1269 verbunden, in der das Gebiet als Land des Bistums Neutra bezeichnet wird. 1439 erscheint bereits der Name Monohlehota. Die lokale Überlieferung verbindet den Zusatz „Mníchova“ mit einem Kloster, das auf der Anhöhe Kostelec oberhalb des Dorfes gestanden haben soll. Seine Ruinen waren laut historischen Aufzeichnungen noch im 19. Jahrhundert sichtbar. Die strategische Lage erinnern auch die Flurnamen Predné und Zadné Stráže."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Dreifaltigkeitskirche – ein gotisches Denkmal aus dem 14. Jahrhundert",
+          "text": "Die römisch-katholische Dreifaltigkeitskirche in Mníchova Lehota wurde in der Mitte des 14. Jahrhunderts errichtet und ist ein anspruchsvolles Beispiel einer gotischen Dorfkirche. Erhalten sind das steinerne gotische Rippengewölbe des Chors mit zwei Schlusssteinen, drei Fenster mit Dreipassmaßwerk, das ursprüngliche Sakramentshäuschen, eine Sedilie und ein steinernes Weihwasserbecken. Zur Sakristei führt ein gotisches Steinportal; in ihrer Nordwand befindet sich ein mittelalterliches steinernes Lavabo. Teile alter Grabsteine sind noch in der Umfassungsmauer eingemauert. Seit 1963 steht die Kirche unter Denkmalschutz."
+        },
+        {
+          "id": "fact_007",
+          "title": "Eisenhaltige Sauerquellen und die Berglandschaft zwischen Inovec und Strážov-Gebirge",
+          "text": "Das Katastergebiet von Mníchova Lehota reicht in zwei Gebirge hinein: das Strážov-Gebirge und den Považský Inovec. Die kalk- und dolomitreichen Strážov-Berge haben Karstformen, während es im Inovec zahlreiche Quellen und Feuchtgebiete gibt. Typisch für die Gemeinde sind kalte eisenhaltige Sauerquellen mit Kohlendioxid und gelösten Mineralstoffen. Laut einer Gemeindepublikation sind drei Quellen öffentlich zugänglich: in Breziny, bei Járky und in Krásna dolina. Wälder bedecken etwa 61 Prozent des Gemeindegebiets; die wichtigste Baumart ist die Buche."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Eisenbahn durch Mníchova Lehota und der hoch gelegene Bahnhof Járky",
+          "text": "Die Eisenbahnverbindung durch Mníchova Lehota war Teil der Strecke von Trenčín über Turná und Bánovce nad Bebravou nach Chynorany und Veľké Bošany. Der Betrieb auf der gesamten Strecke wurde am 18. August 1901 aufgenommen. Eine historische Gemeindepublikation nennt sechs Bahnhöfe, 21 Bahnwärterhäuser, 131 Brücken und Durchlässe sowie eine durchschnittliche Zuggeschwindigkeit von 33 Kilometern pro Stunde. Der Bahnhof im Weiler Járky liegt auf etwa 355 Metern über dem Meeresspiegel und war der höchstgelegene Punkt dieser Strecke."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Centre of Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistoric settlement from Neanderthals to Great Moravia",
+          "text": "The area of Trenčianska Turná is one of the most archaeologically interesting parts of the middle Váh region. Stone tools indicate Middle Palaeolithic settlement around 50,000–70,000 years ago, during the time of Neanderthals. The area was also an important Gravettian settlement about 23,000 years ago, known for notched points and stone blades. Neolithic finds of the Linear Pottery culture were discovered east of the village. Roman fragments of Terra Sigillata pottery and ninth-century finds from the Great Moravian period add further layers to its long human history."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Gothic origins of St Martin’s Church and the statue of John of Nepomuk",
+          "text": "St Martin’s Church is the landmark of Trenčianska Turná and has Gothic origins. The oldest written record of a local chapel dates from 1406; the church was extensively remodelled in the Baroque style in 1754–1756 and enlarged later. It contains two crypts, while its tower holds a bell dating from 1832. At the southern end of the village stands a statue of Saint John of Nepomuk on a sandstone pedestal bearing an inscription from 1794. The monument was originally surrounded by nine lime trees, four of which survive."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Battle of Hámre in 1708 – a decisive clash of the Rákóczi uprising",
+          "text": "On 3 August 1708, the forces of Francis II Rákóczi and the imperial army commanded by General Siegbert Heister fought in the area of Trenčianska Turná, Hámre, Mníchova Lehota and Soblahov. The battle was among the largest military events in the history of western Slovakia and ended in a severe defeat for the insurgents. The main battlefield covered about 9.5 square kilometres, while the wider operational area was larger. A stone memorial bearing the words Pro libertate in Hámre commemorates the event. The hamlet was burned during the fighting."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon – local-born founder of modern Hungarian historiography",
+          "text": "Trenčianska Turná is the birthplace of the Jesuit historian and educator Samuel Timon, born in 1675 and deceased in Košice in 1736. He taught at schools and universities in several cities of the Kingdom of Hungary and focused particularly on history, geography and topography. He critically reassessed medieval chronicles and legends and sought to establish a more evidence-based account of Hungary’s past. His 1733 work Imago antiquae Hungariae is an important contribution to early modern historiography. A memorial plaque from 1969 is mounted on the former Roman Catholic school."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota and its medieval roots below Kostelec hill",
+          "text": "The first written reference to Mníchova Lehota is usually associated with a charter of King Béla IV from 1269, which describes the land as belonging to the Diocese of Nitra. The name Monohlehota appears in 1439. Local tradition connects the adjective “Mníchova” (Monk’s) with a monastery said to have stood on Kostelec hill above the village. Historical records state that its ruins were still visible in the nineteenth century. The strategic position is also recalled by the local place names Predné Stráže and Zadné Stráže."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Church of the Holy Trinity – a Gothic monument from the fourteenth century",
+          "text": "The Roman Catholic Church of the Holy Trinity in Mníchova Lehota was built in the mid-fourteenth century and is an accomplished example of a Gothic rural church. It retains a stone Gothic rib vault in the chancel with two bosses, three windows with trefoil tracery, the original sacrament niche, a sedilia and a stone holy-water stoup. A Gothic stone doorway leads to the sacristy, whose north wall contains a medieval stone lavabo. Parts of old tombstones are still built into the enclosure wall. It has been protected as a monument since 1963."
+        },
+        {
+          "id": "fact_007",
+          "title": "Iron-rich mineral springs and the mountain landscape between Inovec and the Strážov Mountains",
+          "text": "The cadastral area of Mníchova Lehota extends into two mountain ranges: the Strážov Mountains and the Považský Inovec. The limestone and dolomite Strážov range has karst features, while the Inovec contains many springs and wet areas. The municipality is known for cold iron-rich mineral waters, locally called kyselky, containing carbon dioxide and dissolved minerals. A municipal publication lists three public springs: at Breziny, Járky and Krásna dolina. Forests cover approximately 61 percent of the cadastral area, with beech as the dominant tree species."
+        },
+        {
+          "id": "fact_008",
+          "title": "The railway through Mníchova Lehota and the high-altitude Járky station",
+          "text": "The railway through Mníchova Lehota formed part of the line from Trenčín via Turná and Bánovce nad Bebravou to Chynorany and Veľké Bošany. The entire line opened on 18 August 1901. A municipal historical publication records six stations, 21 railway watch houses, 131 bridges and culverts, and an average train speed of 33 kilometres per hour. The station in the hamlet of Járky stands at about 355 metres above sea level and was the highest point on the line. The section through Mníchova Lehota was known for its views of the surrounding mountain slopes and valleys."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Poblamiento prehistórico desde los neandertales hasta la Gran Moravia",
+          "text": "El territorio de Trenčianska Turná es una de las zonas arqueológicamente más interesantes del valle medio del Váh. Las herramientas de piedra tallada indican un poblamiento del Paleolítico medio hace unos 50.000–70.000 años, en tiempos de los neandertales. También fue importante el asentamiento gravetiense de hace unos 23.000 años, conocido por sus puntas con muesca y hojas de piedra. Al este del pueblo se hallaron restos neolíticos de la cultura de la cerámica de bandas. Fragmentos romanos de terra sigillata y hallazgos del siglo IX de la época de la Gran Moravia completan esta larga historia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Los orígenes góticos de la iglesia de San Martín y la estatua de san Juan Nepomuceno",
+          "text": "La iglesia de San Martín es el edificio emblemático de Trenčianska Turná y tiene orígenes góticos. La primera noticia escrita de una capilla local data de 1406; la iglesia fue remodelada en estilo barroco entre 1754 y 1756 y ampliada posteriormente. En su interior hay dos criptas y en la torre se conserva una campana de 1832. En el extremo sur del pueblo se alza una estatua de san Juan Nepomuceno sobre un pedestal de arenisca con una inscripción de 1794. Originalmente el monumento estaba rodeado por nueve tilos, de los que sobreviven cuatro."
+        },
+        {
+          "id": "fact_003",
+          "title": "La batalla de Hámre de 1708, choque decisivo de la rebelión de Rákóczi",
+          "text": "El 3 de agosto de 1708 se enfrentaron en el territorio de Trenčianska Turná, Hámre, Mníchova Lehota y Soblahov las tropas rebeldes de Francisco II Rákóczi y el ejército imperial del general Siegbert Heister. Fue uno de los mayores acontecimientos militares de la historia del oeste de Eslovaquia y terminó con una dura derrota de los insurgentes. El campo de batalla principal abarcó unos 9,5 km² y el espacio de operaciones fue aún mayor. Un monumento de piedra con la inscripción Pro libertate en Hámre recuerda el suceso. La aldea fue incendiada durante los combates."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon, natural de la localidad y fundador de la historiografía húngara moderna",
+          "text": "Trenčianska Turná es el lugar de nacimiento del historiador jesuita y pedagogo Samuel Timon, nacido en 1675 y fallecido en Košice en 1736. Enseñó en escuelas y universidades de varias ciudades del Reino de Hungría y se dedicó especialmente a la historia, la geografía y la topografía. Reexaminó críticamente las crónicas y leyendas medievales y buscó una visión de la historia húngara basada en pruebas. Su obra Imago antiquae Hungariae, de 1733, es una contribución importante a la historiografía moderna temprana. Una placa conmemorativa de 1969 está en la antigua escuela católica."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota y sus raíces medievales bajo la colina Kostelec",
+          "text": "La primera mención escrita de Mníchova Lehota suele relacionarse con un documento de donación del rey Bela IV de 1269, que describe el territorio como propiedad del obispado de Nitra. En 1439 aparece el nombre Monohlehota. La tradición local relaciona el adjetivo «Mníchova» con un monasterio que habría existido en la colina Kostelec, sobre el pueblo. Según registros históricos, sus ruinas aún eran visibles en el siglo XIX. Los nombres de lugar Predné Stráže y Zadné Stráže también recuerdan la posición estratégica del entorno."
+        },
+        {
+          "id": "fact_006",
+          "title": "La iglesia de la Santísima Trinidad, monumento gótico del siglo XIV",
+          "text": "La iglesia católica romana de la Santísima Trinidad en Mníchova Lehota se construyó a mediados del siglo XIV y es un notable ejemplo de iglesia rural gótica. Conserva una bóveda de crucería gótica de piedra con dos claves, tres ventanas con tracería trilobulada, el sagrario original, una sedilia y una pila de agua bendita de piedra. Una puerta gótica conduce a la sacristía, cuya pared norte conserva un lavabo medieval. Parte de las antiguas lápidas sigue empotrada en el muro. Está protegida como monumento desde 1963."
+        },
+        {
+          "id": "fact_007",
+          "title": "Manantiales minerales ferruginosos y paisaje montañoso entre Inovec y los montes Strážov",
+          "text": "El término municipal de Mníchova Lehota se encuentra en dos cordilleras: los montes Strážov y el Považský Inovec. Los montes Strážov, de caliza y dolomía, presentan formas kársticas, mientras que Inovec posee numerosos manantiales y zonas húmedas. La localidad es conocida por sus aguas minerales frías y ferruginosas, llamadas kyselky, con dióxido de carbono y minerales disueltos. Una publicación municipal enumera tres manantiales accesibles: Breziny, Járky y Krásna dolina. Los bosques cubren aproximadamente el 61 % del término municipal y predominan las hayas."
+        },
+        {
+          "id": "fact_008",
+          "title": "El ferrocarril por Mníchova Lehota y la estación elevada de Járky",
+          "text": "El ferrocarril que atraviesa Mníchova Lehota formaba parte de la línea desde Trenčín, pasando por Turná y Bánovce nad Bebravou, hasta Chynorany y Veľké Bošany. La línea se abrió al tráfico el 18 de agosto de 1901. Una publicación municipal registra seis estaciones, 21 casetas ferroviarias, 131 puentes y alcantarillas y una velocidad media de 33 kilómetros por hora. La estación de Járky se encuentra a unos 355 metros sobre el nivel del mar y era el punto más alto de la línea. El tramo era conocido por sus vistas de las laderas y valles."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre de Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Un peuplement préhistorique des Néandertaliens à la Grande-Moravie",
+          "text": "Le territoire de Trenčianska Turná est l’une des zones archéologiques les plus intéressantes de la moyenne vallée du Váh. Des outils en pierre taillée attestent une occupation du Paléolithique moyen il y a environ 50 000 à 70 000 ans, à l’époque des Néandertaliens. Le peuplement gravettien, il y a quelque 23 000 ans, est également important et se distingue par des pointes à encoche et des lames de pierre. Des vestiges néolithiques de la culture à céramique linéaire ont été découverts à l’est du village. Des fragments romains de terra sigillata et des trouvailles du IXe siècle de la Grande-Moravie complètent cette longue histoire."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les origines gothiques de l’église Saint-Martin et la statue de saint Jean Népomucène",
+          "text": "L’église Saint-Martin est le monument emblématique de Trenčianska Turná et possède des origines gothiques. La plus ancienne mention écrite d’une chapelle locale date de 1406 ; l’église a été profondément remaniée dans le style baroque en 1754–1756, puis agrandie. Elle abrite deux cryptes et sa tour conserve une cloche de 1832. À l’extrémité sud du village se dresse une statue de saint Jean Népomucène sur un socle de grès portant une inscription de 1794. Le monument était entouré à l’origine de neuf tilleuls, dont quatre subsistent."
+        },
+        {
+          "id": "fact_003",
+          "title": "La bataille de Hámre de 1708, affrontement décisif de la révolte de Rákóczi",
+          "text": "Le 3 août 1708, les troupes insurgées de François II Rákóczi et l’armée impériale du général Siegbert Heister s’affrontèrent sur le territoire de Trenčianska Turná, Hámre, Mníchova Lehota et Soblahov. Cette bataille fut l’un des grands événements militaires de l’histoire de l’ouest de la Slovaquie et se termina par une lourde défaite des insurgés. Le champ de bataille principal couvrait environ 9,5 km², tandis que la zone opérationnelle était plus vaste. À Hámre, un monument de pierre portant l’inscription Pro libertate commémore l’événement. Le hameau fut incendié pendant les combats."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon, natif du village et fondateur de l’historiographie hongroise moderne",
+          "text": "Trenčianska Turná est le lieu de naissance de l’historien jésuite et pédagogue Samuel Timon, né en 1675 et mort à Košice en 1736. Il enseigna dans des écoles et universités de plusieurs villes du royaume de Hongrie et se consacra surtout à l’histoire, à la géographie et à la topographie. Il réexamina de manière critique les chroniques et légendes médiévales afin de proposer une vision de l’histoire hongroise fondée sur les sources. Son ouvrage Imago antiquae Hungariae de 1733 est une contribution importante à l’historiographie moderne. Une plaque de 1969 se trouve sur l’ancienne école catholique."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota et ses racines médiévales au pied de la colline Kostelec",
+          "text": "La première mention écrite de Mníchova Lehota est généralement associée à un acte de donation du roi Béla IV daté de 1269, qui décrit le territoire comme une terre de l’évêché de Nitra. Le nom Monohlehota apparaît en 1439. La tradition locale relie l’adjectif « Mníchova » à un monastère qui aurait existé sur la colline Kostelec, au-dessus du village. Selon les documents historiques, ses ruines étaient encore visibles au XIXe siècle. Les noms de lieux Predné Stráže et Zadné Stráže rappellent également la position stratégique du secteur."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’église de la Sainte-Trinité, monument gothique du XIVe siècle",
+          "text": "L’église catholique romaine de la Sainte-Trinité à Mníchova Lehota a été construite au milieu du XIVe siècle et constitue un remarquable exemple d’église rurale gothique. Elle conserve une voûte gothique en pierre à nervures avec deux clés, trois fenêtres à remplage trilobé, le tabernacle d’origine, une sedilia et un bénitier de pierre. Une porte gothique mène à la sacristie, dont le mur nord abrite un lavabo médiéval. Des fragments d’anciennes pierres tombales sont encore intégrés au mur d’enceinte. L’église est protégée comme monument depuis 1963."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sources ferrugineuses et paysage montagnard entre Inovec et les monts Strážov",
+          "text": "Le territoire cadastral de Mníchova Lehota s’étend sur les monts Strážov et le Považský Inovec. Les monts Strážov, composés de calcaire et de dolomie, présentent des formes karstiques, tandis que l’Inovec compte de nombreuses sources et zones humides. La commune est connue pour ses eaux minérales froides et ferrugineuses, appelées kyselky, riches en dioxyde de carbone et en minéraux. Une publication communale mentionne trois sources accessibles au public : Breziny, Járky et Krásna dolina. Les forêts couvrent environ 61 % du territoire et le hêtre domine."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le chemin de fer à Mníchova Lehota et la gare élevée de Járky",
+          "text": "La ligne ferroviaire traversant Mníchova Lehota faisait partie de l’itinéraire reliant Trenčín à Veľké Bošany via Turná, Bánovce nad Bebravou et Chynorany. Elle a été ouverte à la circulation le 18 août 1901. Une publication communale mentionne six gares, 21 maisons de garde, 131 ponts et ponceaux et une vitesse moyenne de 33 kilomètres à l’heure. La gare du hameau de Járky se situe à environ 355 mètres d’altitude et constituait le point le plus élevé de la ligne. Le tronçon était réputé pour ses vues sur les versants et les vallées."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Insediamento preistorico dai Neanderthal alla Grande Moravia",
+          "text": "Il territorio di Trenčianska Turná è una delle aree archeologiche più interessanti della media valle del Váh. Gli strumenti in pietra scheggiata attestano un insediamento del Paleolitico medio di circa 50.000–70.000 anni fa, all’epoca dei Neanderthal. Importante fu anche l’insediamento gravettiano di circa 23.000 anni fa, noto per le punte intaccate e le lame di pietra. A est del villaggio sono stati scoperti reperti neolitici della cultura della ceramica lineare. Frammenti romani di terra sigillata e reperti del IX secolo della Grande Moravia completano questa lunga storia."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le origini gotiche della chiesa di San Martino e la statua di san Giovanni Nepomuceno",
+          "text": "La chiesa di San Martino è l’edificio simbolo di Trenčianska Turná e ha origini gotiche. La più antica menzione scritta di una cappella locale risale al 1406; la chiesa fu ampiamente rimaneggiata in stile barocco nel 1754–1756 e poi ampliata. All’interno si trovano due cripte e nella torre è conservata una campana del 1832. All’estremità meridionale del paese si trova una statua di san Giovanni Nepomuceno su un piedistallo in arenaria con iscrizione del 1794. Il monumento era originariamente circondato da nove tigli, quattro dei quali sopravvivono."
+        },
+        {
+          "id": "fact_003",
+          "title": "La battaglia di Hámre del 1708, scontro decisivo della rivolta di Rákóczi",
+          "text": "Il 3 agosto 1708, nel territorio di Trenčianska Turná, Hámre, Mníchova Lehota e Soblahov, si scontrarono i kuruc insorti di Francesco II Rákóczi e l’esercito imperiale del generale Siegbert Heister. Fu uno dei maggiori eventi militari della storia della Slovacchia occidentale e si concluse con una grave sconfitta degli insorti. Il campo di battaglia principale copriva circa 9,5 km², mentre l’area operativa era più vasta. A Hámre un monumento in pietra con la scritta Pro libertate ricorda l’evento. La frazione fu incendiata durante i combattimenti."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon, nato qui e fondatore della moderna storiografia ungherese",
+          "text": "Trenčianska Turná è il luogo di nascita dello storico gesuita e pedagogo Samuel Timon, nato nel 1675 e morto a Košice nel 1736. Insegnò in scuole e università di diverse città del Regno d’Ungheria e si dedicò soprattutto a storia, geografia e topografia. Riesaminò criticamente cronache e leggende medievali, cercando una ricostruzione del passato ungherese basata sulle fonti. La sua opera Imago antiquae Hungariae del 1733 è un importante contributo alla storiografia moderna. Una targa commemorativa del 1969 si trova sull’ex scuola cattolica."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota e le sue radici medievali sotto la collina Kostelec",
+          "text": "La prima menzione scritta di Mníchova Lehota è generalmente collegata a un atto di donazione del re Béla IV del 1269, che descrive il territorio come terra del vescovado di Nitra. Nel 1439 compare il nome Monohlehota. La tradizione locale collega l’aggettivo «Mníchova» a un monastero che sarebbe sorto sulla collina Kostelec sopra il villaggio. Secondo i documenti storici, le sue rovine erano ancora visibili nel XIX secolo. Anche i toponimi Predné Stráže e Zadné Stráže ricordano la posizione strategica del luogo."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chiesa della Santissima Trinità, monumento gotico del XIV secolo",
+          "text": "La chiesa cattolica romana della Santissima Trinità a Mníchova Lehota fu costruita a metà del XIV secolo ed è un notevole esempio di chiesa rurale gotica. Conserva una volta gotica in pietra a costoloni con due chiavi, tre finestre con trafori trilobati, il tabernacolo originale, una sedilia e un’acquasantiera in pietra. Un portale gotico conduce alla sacrestia, nella cui parete nord si trova un lavabo medievale. Parti delle vecchie lapidi sono ancora murate nel recinto. È tutelata come monumento dal 1963."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sorgenti ferruginose e paesaggio montano tra Inovec e i monti Strážov",
+          "text": "Il territorio catastale di Mníchova Lehota si estende sui monti Strážov e sul Považský Inovec. I monti Strážov, composti da calcare e dolomia, presentano fenomeni carsici, mentre l’Inovec è ricco di sorgenti e zone umide. Il comune è noto per le acque minerali fredde e ferruginose, chiamate kyselky, contenenti anidride carbonica e minerali disciolti. Una pubblicazione comunale elenca tre sorgenti accessibili: Breziny, Járky e Krásna dolina. I boschi coprono circa il 61% del territorio e il faggio è la specie dominante."
+        },
+        {
+          "id": "fact_008",
+          "title": "La ferrovia attraverso Mníchova Lehota e la stazione elevata di Járky",
+          "text": "La ferrovia che attraversa Mníchova Lehota faceva parte della linea da Trenčín a Veľké Bošany passando per Turná, Bánovce nad Bebravou e Chynorany. L’intera linea fu aperta al traffico il 18 agosto 1901. Una pubblicazione storica comunale menziona sei stazioni, 21 caselli ferroviari, 131 ponti e tombini e una velocità media dei treni di 33 chilometri orari. La stazione nella frazione di Járky si trova a circa 355 metri sul livello del mare ed era il punto più alto della linea. Il tratto era noto per i panorami sulle montagne e sulle valli circostanti."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Centrum van Trenčianska Turná",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Prehistorische bewoning van Neanderthalers tot Groot-Moravië",
+          "text": "Het gebied van Trenčianska Turná is een van de archeologisch interessantste delen van de middenloop van de Váh. Stenen werktuigen wijzen op bewoning in het Midden-Paleolithicum, ongeveer 50.000–70.000 jaar geleden, in de tijd van de Neanderthalers. Ook de Gravettien-bewoning van circa 23.000 jaar geleden was belangrijk en staat bekend om gekerfde spitsen en stenen klingen. Ten oosten van het dorp zijn neolithische vondsten van de bandkeramische cultuur ontdekt. Romeinse fragmenten van terra sigillata en vondsten uit de negende eeuw uit de Groot-Moravische periode vullen deze lange geschiedenis aan."
+        },
+        {
+          "id": "fact_002",
+          "title": "De gotische oorsprong van de Sint-Martinuskerk en het beeld van Johannes Nepomuk",
+          "text": "De Sint-Martinuskerk is het herkenningspunt van Trenčianska Turná en heeft een gotische oorsprong. De oudste schriftelijke vermelding van een plaatselijke kapel dateert uit 1406; de kerk werd in 1754–1756 ingrijpend in barokstijl verbouwd en later uitgebreid. Binnen bevinden zich twee grafkelders en in de toren hangt een klok uit 1832. Aan de zuidkant van het dorp staat een beeld van Sint-Jan Nepomuk op een zandstenen sokkel met een inscriptie uit 1794. Het monument werd oorspronkelijk omringd door negen lindebomen, waarvan er vier bewaard zijn gebleven."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Slag bij Hámre in 1708, een beslissende botsing tijdens de opstand van Rákóczi",
+          "text": "Op 3 augustus 1708 vochten de opstandige kurucen van Frans II Rákóczi en het keizerlijke leger onder generaal Siegbert Heister in het gebied van Trenčianska Turná, Hámre, Mníchova Lehota en Soblahov. De veldslag was een van de grootste militaire gebeurtenissen in de geschiedenis van West-Slowakije en eindigde in een zware nederlaag voor de opstandelingen. Het hoofdslagveld besloeg ongeveer 9,5 km²; het operatiegebied was nog groter. In Hámre herinnert een stenen monument met de woorden Pro libertate aan de gebeurtenis. Het gehucht werd tijdens de gevechten in brand gestoken."
+        },
+        {
+          "id": "fact_004",
+          "title": "Samuel Timon, geboren in het dorp en grondlegger van de moderne Hongaarse geschiedschrijving",
+          "text": "Trenčianska Turná is de geboorteplaats van de jezuïetische historicus en pedagoog Samuel Timon, geboren in 1675 en overleden in Košice in 1736. Hij doceerde aan scholen en universiteiten in verschillende steden van het Koninkrijk Hongarije en richtte zich vooral op geschiedenis, geografie en topografie. Hij onderzocht middeleeuwse kronieken en legenden kritisch en streefde naar een op bronnen gebaseerde beschrijving van het Hongaarse verleden. Zijn werk Imago antiquae Hungariae uit 1733 is een belangrijke bijdrage aan de vroegmoderne geschiedschrijving. Een gedenkplaat uit 1969 hangt aan de voormalige katholieke school."
+        },
+        {
+          "id": "fact_005",
+          "title": "Mníchova Lehota en haar middeleeuwse wortels onder de heuvel Kostelec",
+          "text": "De eerste schriftelijke vermelding van Mníchova Lehota wordt meestal verbonden met een schenkingsakte van koning Béla IV uit 1269, waarin het gebied als land van het bisdom Nitra wordt omschreven. In 1439 verschijnt de naam Monohlehota. De plaatselijke traditie verbindt het bijvoeglijk naamwoord ‘Mníchova’ met een klooster dat op de heuvel Kostelec boven het dorp zou hebben gestaan. Volgens historische gegevens waren de ruïnes in de negentiende eeuw nog zichtbaar. Ook de veldnamen Predné Stráže en Zadné Stráže herinneren aan de strategische ligging."
+        },
+        {
+          "id": "fact_006",
+          "title": "De kerk van de Heilige Drie-eenheid, een gotisch monument uit de veertiende eeuw",
+          "text": "De rooms-katholieke kerk van de Heilige Drie-eenheid in Mníchova Lehota werd in het midden van de veertiende eeuw gebouwd en is een bijzonder voorbeeld van een gotische dorpskerk. Bewaard zijn het stenen gotische ribgewelf in het koor, drie vensters met driepastracering, de oorspronkelijke sacramentnis, een sedilia en een stenen wijwaterbak. Een gotische doorgang leidt naar de sacristie, waarvan de noordmuur een middeleeuws stenen lavabo bevat. Delen van oude grafstenen zijn nog in de omheiningsmuur verwerkt. Sinds 1963 is zij beschermd als monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "IJzerrijke mineraalbronnen en het berglandschap tussen Inovec en het Strážov-gebergte",
+          "text": "Het grondgebied van Mníchova Lehota strekt zich uit over het Strážov-gebergte en de Považský Inovec. De kalk- en dolomietrijke Strážov-bergen hebben karstverschijnselen, terwijl de Inovec veel bronnen en natte gebieden kent. De gemeente staat bekend om koude, ijzerrijke mineraalbronnen, plaatselijk kyselky genoemd, met kooldioxide en opgeloste mineralen. Een gemeentelijke publicatie noemt drie openbare bronnen: in Breziny, bij Járky en in Krásna dolina. Bossen bedekken ongeveer 61 procent van het grondgebied; beuk is de belangrijkste boomsoort."
+        },
+        {
+          "id": "fact_008",
+          "title": "De spoorlijn door Mníchova Lehota en het hooggelegen station Járky",
+          "text": "De spoorlijn door Mníchova Lehota maakte deel uit van de verbinding van Trenčín via Turná en Bánovce nad Bebravou naar Chynorany en Veľké Bošany. De volledige lijn werd op 18 augustus 1901 geopend. Een historische gemeentelijke publicatie vermeldt zes stations, 21 spoorwachtershuizen, 131 bruggen en duikers en een gemiddelde treinsnelheid van 33 kilometer per uur. Het station in het gehucht Járky ligt op ongeveer 355 meter boven zeeniveau en was het hoogste punt van de lijn. Het traject stond bekend om het uitzicht op de omliggende berghellingen en valleien."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
