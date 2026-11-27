@@ -1,4 +1,604 @@
 {
   "postcode": "91308",
-  "status": "placeholder"
+  "city": "Nová Bošáca",
+  "district": null,
+  "county": "Nové Mesto nad Váhom",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Centrum obce Nová Bošáca",
+  "representative_point": {
+    "lat": 48.87847,
+    "lon": 17.79528
+  },
+  "access_point": {
+    "lat": 48.87847,
+    "lon": 17.79528
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Bošácké kopanice: krajina zrozená z rozptýlených osad",
+      "text": "Dnešní Nová Bošáca nevznikla jako stará kompaktní vesnice, ale jako rozsáhlé kopaničiarské osídlení rozptýlené po svazích Bošácké doliny. Jednotlivé osady a hospodářství se začaly výrazněji formovat od 17. století, kdy obyvatelé Bošáce hledali půdu i na vzdálenějších horských pozemcích. Historické prameny z roku 1649 už zachycují hospodaření na kopanicích. Dne 1. července 1950 se 23 osad oddělilo od Bošáce a vytvořilo samostatnou obec Nová Bošáca. Rozptýlená zástavba, louky a samoty dodnes vysvětlují její odlišný charakter i vazbu na moravsko-slovenské pohraničí.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel svatých Cyrila a Metoděje s výzdobou Vincenta Hložníka",
+      "text": "Římskokatolický kostel svatých Cyrila a Metoděje je hlavní sakrální stavbou obce. Vznikl v letech 1969–1971, tedy v době, kdy se samostatná Nová Bošáca už několik desetiletí rozvíjela jako obec tvořená rozptýlenými kopanicemi. Jeho výtvarná podoba je spojena s významným slovenským umělcem Vincentem Hložníkem. Nad vstupem vytvořil prostorové sgrafito patronů kostela a v interiéru mozaiku Ukřižovaného Krista i obrazy křížové cesty. Stavba tak není jen místním duchovním centrem, ale také příkladem moderní sakrální tvorby druhé poloviny 20. století.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Evangelická zvonice z roku 1937",
+      "text": "K evangelické historii rozptýlených kopanic patří zděná zvonice postavená roku 1937. Je připomínkou místní protestantské komunity, která byla historicky součástí nábožensky pestré krajiny Bošácké doliny. V samotné Nové Bošáci evangelický kostel nestojí; evangelíci tradičně navštěvovali bohoslužby v sousedním Zemianském Podhradí a v novější době se služby konaly také v prostorách kulturního domu či obecního úřadu. Zvonice proto představuje důležitou hmotnou stopu místní evangelické identity, aniž by se zaměňovala za samostatný kostel.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Partyzánské boje a památník v osadě Španie",
+      "text": "Kopaničářské osady se na podzim 1944 staly dějištěm bojů Slovenského národního povstání a partyzánského odporu. V osadě Španie připomíná střet památník u cesty; jeho nápis uvádí boj partyzánů II. Stalinovy brigády proti německé přesile dne 20. října 1944 a šestnáct padlých. Památník je součástí širší místní paměti, která zahrnuje také pietní místa v Grúni a na obecním hřbitově. Připomíná, že válka zasáhla i rozptýlené horské osady, nikoli pouze větší města a strategická centra.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s7",
+        "s8"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Památník SNP v osadě Španie",
+        "lat": 48.875694,
+        "lon": 17.811528,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/6165-nova-bosaca/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Pád amerického bombardéru B-17G My Baby u Predpolomy",
+      "text": "Dne 29. srpna 1944 se při letecké bitvě nad Bílými Karpaty zřítil u osady Predpoloma americký bombardér B-17G s přezdívkou My Baby, evidovaný pod číslem 42-31473. Stroj patřil k 20. bombardovací peruti 2. bombardovací skupiny a jeho trosky dopadly do lesů na slovensko-moravském pomezí. Čtyři členové posádky byli po havárii pohřbeni na hřbitově v Nové Bošáci; po válce byly jejich ostatky exhumovány a převezeny do Spojených států. Událost připomíná kenotaf na místním hřbitově a propojuje dějiny obce s leteckou válkou nad střední Evropou.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s7",
+        "s9",
+        "s10"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Kenotaf amerických letců na hřbitově v Nové Bošáci",
+        "lat": 48.876278,
+        "lon": 17.797833,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/6165-nova-bosaca/",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Veľký Lopeník a česko-slovenská rozhledna",
+      "text": "Veľký Lopeník dosahuje výšky přibližně 912 metrů a jeho vrchol leží přímo na státní hranici Slovenska a Česka. Je nejvyšším bodem katastru Nové Bošáci a výraznou dominantou Bílých Karpat. Dnešní dřevěná rozhledna s kamennou základnou měří 22 metrů; její základní kámen byl položen v roce 2002, stavba probíhala v letech 2004–2005 a slavnostně byla otevřena 16. července 2005. Vyhlídková věž navazuje na starší rozhledny, které na vrcholu stály už od poloviny 20. století. Symbolizuje přeshraniční sousedství a nabízí rozhled na obě strany pohoří.",
+      "category": "tourism_and_surroundings",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s11",
+        "s12"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Rozhledna Veľký Lopeník",
+        "lat": 48.91612,
+        "lon": 17.782028,
+        "type": "lookout_tower",
+        "accuracy": "approximate",
+        "source": "https://www.hladamchatu.sk/sk-sk/kam-na-vylet/vrchy/velky-lopenik",
+        "address": null
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Orchidejové louky a chráněná území Holubyho kopanic",
+      "text": "Katastr Nové Bošáci leží v Chráněné krajinné oblasti Bílé Karpaty a zahrnuje několik maloplošných chráněných území začleněných do evropsky významné lokality Holubyho kopanice. Přírodní památky Bestinné, Blažejová, Lopeníček a Mravcové chrání květnaté a orchidejové louky, mokřadní stanoviště i drobné živočichy. Na Bestinném se vyskytuje například kosatec trávolistý a několik druhů orchidejí; Blažejová u osady Španie je cenná výskytem hmyzovníku Holubyho a dalších orchidejí. Mravcové je známé také pěnovcovým mokřadem. Tato mozaika luk a mokřadů ukazuje přírodní hodnotu tradičně obhospodařované kopaničářské krajiny.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s13",
+        "s14"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Více než sto pramenů a minerální kyselky Bošácké doliny",
+      "text": "Geologické podloží Nové Bošáci tvoří především flyš, místy doplněný vápencovými horninami bradlového pásma. Střídání propustnějších pískovců a méně propustných jílovců přispívá k mimořádnému výskytu pramenů: na území obce jich bylo popsáno více než sto. Tři mají status oficiálních minerálních pramenů. Kyselky v částech Španie, u Ochodničiarů a na Predpolome jsou slabě mineralizované hydrogenuhličitanové vody s oxidem uhličitým a železem. Vodní osu doliny tvoří Bošáčka, která na území obce protéká v délce přibližně pěti až šesti kilometrů a pramení pod Veľkým Lopeníkem na české straně.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s2",
+        "s15",
+        "s16"
+      ],
+      "map_category": "nature",
+      "location": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Nová Bošáca – O obci",
+      "url": "https://www.novabosaca.sk/obec/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Trnavský kraj – Kopaničiarske dedičstvo: Nová Bošáca vznikla z 23 roztrúsených osád",
+      "url": "https://ttkraj.sk/nova-bosaca-kopanice-biele-karpaty-2025/",
+      "type": "regional"
+    },
+    {
+      "id": "s3",
+      "title": "Konsolidovaná výročná správa obce Nová Bošáca – história a pamiatky",
+      "url": "https://www.novabosaca.sk/modules/file_storage/download.php?file=262c4f9d%7C1275&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Trnavský kraj – kostol sv. Cyrila a Metoda, výzdoba Vincenta Hložníka",
+      "url": "https://ttkraj.sk/nova-bosaca-kopanice-biele-karpaty-2025/",
+      "type": "regional"
+    },
+    {
+      "id": "s5",
+      "title": "Kopanice.sk – Nová Bošáca",
+      "url": "https://kopanice.sk/obce/nova-bosaca/",
+      "type": "regional"
+    },
+    {
+      "id": "s6",
+      "title": "Studia Academica Slovaca 51/2022 – etnografický výskum Nová Bošáca",
+      "url": "https://odborict.upol.cz/NAETINEM/documents/articles/umb/OU_article01_Urbancova_zenske_priezvisko_271-283.pdf",
+      "type": "university"
+    },
+    {
+      "id": "s7",
+      "title": "Spolek pro vojenská pietní místa – Nová Bošáca",
+      "url": "https://www.vets.cz/vpm/mista/obec/6165-nova-bosaca/",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Nová Bošáca – konsolidovaná výročná správa, pamiatky",
+      "url": "https://www.novabosaca.sk/modules/file_storage/download.php?file=262c4f9d%7C1275&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Letecká badatelna – B-17G 42-31473 My Baby",
+      "url": "https://www.leteckabadatelna.cz/havarie-a-sestrely/detail/1019/",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "ZŠ UNESCO – spomienka na amerických letcov nad Bielymi Karpatmi",
+      "url": "https://zsunesco.cz/novinka/david-machala-z-8-b-uctil-pamatku-americkych-letcu-kteri-zahynuli-v-leteckem-souboji-u-obci-vyskovec-a-nova-bosaca",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Hľadám chatu – Veľký Lopeník",
+      "url": "https://www.hladamchatu.sk/sk-sk/kam-na-vylet/vrchy/velky-lopenik",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "Krížom-krážom Slovenskom – Rozhľadňa Veľký Lopeník",
+      "url": "https://www.krizom-krazom.online/rozhladna-velky-lopenik/",
+      "type": "specialist"
+    },
+    {
+      "id": "s13",
+      "title": "ŠOP SR – CHKO Biele Karpaty: Maloplošné chránené územia",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Natura 2000 – Holubyho kopanice",
+      "url": "https://natura2000.sopsr.sk/wp-content/uploads/2025/04/Holubyho_kopanice.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Trnavský kraj – minerálne pramene a vodné bohatstvo",
+      "url": "https://ttkraj.sk/nova-bosaca-kopanice-biele-karpaty-2025/",
+      "type": "regional"
+    },
+    {
+      "id": "s16",
+      "title": "Kopanice.sk – geológia a pramene Novej Bošáce",
+      "url": "https://kopanice.sk/obce/nova-bosaca/",
+      "type": "regional"
+    },
+    {
+      "id": "s17",
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "AllSlovakia – PSČ 91308 Nová Bošáca",
+      "url": "https://allslovakia.info/psc/91308",
+      "type": "other"
+    },
+    {
+      "id": "s19",
+      "title": "Kopanice.sk – obecná adresa a súradnice Nová Bošáca",
+      "url": "https://kopanice.sk/obce/nova-bosaca/",
+      "type": "regional"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ (https://www.posta.sk/psc); geografické přiřazení 913 08 k obci Nová Bošáca je podpůrně doloženo obecní adresou Nová Bošáca 79, 913 08 a nezávislými geografickými přehledy.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; doplňkově geografické mapové a adresní zdroje",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Obec Nová Bošáca (oficiální správní a územní údaje); ŠÚ SR / oficiální územní evidence pro okres a kraj; obecní adresa a mapové souřadnice Kopanice.sk pro orientační bod."
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Centrum obce Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Bošácké kopanice: krajina zrozená z rozptýlených osad",
+          "text": "Dnešní Nová Bošáca nevznikla jako stará kompaktní vesnice, ale jako rozsáhlé kopaničiarské osídlení rozptýlené po svazích Bošácké doliny. Jednotlivé osady a hospodářství se začaly výrazněji formovat od 17. století, kdy obyvatelé Bošáce hledali půdu i na vzdálenějších horských pozemcích. Historické prameny z roku 1649 už zachycují hospodaření na kopanicích. Dne 1. července 1950 se 23 osad oddělilo od Bošáce a vytvořilo samostatnou obec Nová Bošáca. Rozptýlená zástavba, louky a samoty dodnes vysvětlují její odlišný charakter i vazbu na moravsko-slovenské pohraničí."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel svatých Cyrila a Metoděje s výzdobou Vincenta Hložníka",
+          "text": "Římskokatolický kostel svatých Cyrila a Metoděje je hlavní sakrální stavbou obce. Vznikl v letech 1969–1971, tedy v době, kdy se samostatná Nová Bošáca už několik desetiletí rozvíjela jako obec tvořená rozptýlenými kopanicemi. Jeho výtvarná podoba je spojena s významným slovenským umělcem Vincentem Hložníkem. Nad vstupem vytvořil prostorové sgrafito patronů kostela a v interiéru mozaiku Ukřižovaného Krista i obrazy křížové cesty. Stavba tak není jen místním duchovním centrem, ale také příkladem moderní sakrální tvorby druhé poloviny 20. století."
+        },
+        {
+          "id": "fact_003",
+          "title": "Evangelická zvonice z roku 1937",
+          "text": "K evangelické historii rozptýlených kopanic patří zděná zvonice postavená roku 1937. Je připomínkou místní protestantské komunity, která byla historicky součástí nábožensky pestré krajiny Bošácké doliny. V samotné Nové Bošáci evangelický kostel nestojí; evangelíci tradičně navštěvovali bohoslužby v sousedním Zemianském Podhradí a v novější době se služby konaly také v prostorách kulturního domu či obecního úřadu. Zvonice proto představuje důležitou hmotnou stopu místní evangelické identity, aniž by se zaměňovala za samostatný kostel."
+        },
+        {
+          "id": "fact_004",
+          "title": "Partyzánské boje a památník v osadě Španie",
+          "text": "Kopaničářské osady se na podzim 1944 staly dějištěm bojů Slovenského národního povstání a partyzánského odporu. V osadě Španie připomíná střet památník u cesty; jeho nápis uvádí boj partyzánů II. Stalinovy brigády proti německé přesile dne 20. října 1944 a šestnáct padlých. Památník je součástí širší místní paměti, která zahrnuje také pietní místa v Grúni a na obecním hřbitově. Připomíná, že válka zasáhla i rozptýlené horské osady, nikoli pouze větší města a strategická centra."
+        },
+        {
+          "id": "fact_005",
+          "title": "Pád amerického bombardéru B-17G My Baby u Predpolomy",
+          "text": "Dne 29. srpna 1944 se při letecké bitvě nad Bílými Karpaty zřítil u osady Predpoloma americký bombardér B-17G s přezdívkou My Baby, evidovaný pod číslem 42-31473. Stroj patřil k 20. bombardovací peruti 2. bombardovací skupiny a jeho trosky dopadly do lesů na slovensko-moravském pomezí. Čtyři členové posádky byli po havárii pohřbeni na hřbitově v Nové Bošáci; po válce byly jejich ostatky exhumovány a převezeny do Spojených států. Událost připomíná kenotaf na místním hřbitově a propojuje dějiny obce s leteckou válkou nad střední Evropou."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník a česko-slovenská rozhledna",
+          "text": "Veľký Lopeník dosahuje výšky přibližně 912 metrů a jeho vrchol leží přímo na státní hranici Slovenska a Česka. Je nejvyšším bodem katastru Nové Bošáci a výraznou dominantou Bílých Karpat. Dnešní dřevěná rozhledna s kamennou základnou měří 22 metrů; její základní kámen byl položen v roce 2002, stavba probíhala v letech 2004–2005 a slavnostně byla otevřena 16. července 2005. Vyhlídková věž navazuje na starší rozhledny, které na vrcholu stály už od poloviny 20. století. Symbolizuje přeshraniční sousedství a nabízí rozhled na obě strany pohoří."
+        },
+        {
+          "id": "fact_007",
+          "title": "Orchidejové louky a chráněná území Holubyho kopanic",
+          "text": "Katastr Nové Bošáci leží v Chráněné krajinné oblasti Bílé Karpaty a zahrnuje několik maloplošných chráněných území začleněných do evropsky významné lokality Holubyho kopanice. Přírodní památky Bestinné, Blažejová, Lopeníček a Mravcové chrání květnaté a orchidejové louky, mokřadní stanoviště i drobné živočichy. Na Bestinném se vyskytuje například kosatec trávolistý a několik druhů orchidejí; Blažejová u osady Španie je cenná výskytem hmyzovníku Holubyho a dalších orchidejí. Mravcové je známé také pěnovcovým mokřadem. Tato mozaika luk a mokřadů ukazuje přírodní hodnotu tradičně obhospodařované kopaničářské krajiny."
+        },
+        {
+          "id": "fact_008",
+          "title": "Více než sto pramenů a minerální kyselky Bošácké doliny",
+          "text": "Geologické podloží Nové Bošáci tvoří především flyš, místy doplněný vápencovými horninami bradlového pásma. Střídání propustnějších pískovců a méně propustných jílovců přispívá k mimořádnému výskytu pramenů: na území obce jich bylo popsáno více než sto. Tři mají status oficiálních minerálních pramenů. Kyselky v částech Španie, u Ochodničiarů a na Predpolome jsou slabě mineralizované hydrogenuhličitanové vody s oxidem uhličitým a železem. Vodní osu doliny tvoří Bošáčka, která na území obce protéká v délce přibližně pěti až šesti kilometrů a pramení pod Veľkým Lopeníkem na české straně."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kopanitzensiedlungen: eine Landschaft aus verstreuten Höfen",
+          "text": "Das heutige Nová Bošáca entstand nicht als geschlossenes altes Dorf, sondern als weit verstreute Kopanitzensiedlung an den Hängen des Bošáča-Tals. Die einzelnen Weiler und Gehöfte entwickelten sich besonders seit dem 17. Jahrhundert, als Bewohner von Bošáca auch entferntere Bergflächen bewirtschafteten. Schriftliche Quellen aus dem Jahr 1649 belegen bereits die Nutzung dieser Fluren. Am 1. Juli 1950 wurden 23 Siedlungen von Bošáca abgetrennt und zur selbstständigen Gemeinde Nová Bošáca vereinigt. Die verstreute Bebauung, Wiesen und Einzelhöfe prägen bis heute den Charakter des Ortes und seine Verbindung zum slowakisch-mährischen Grenzgebiet."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kirche der Heiligen Kyrill und Method mit Werken von Vincent Hložník",
+          "text": "Die römisch-katholische Kirche der Heiligen Kyrill und Method ist das wichtigste Sakralgebäude der Gemeinde. Sie wurde 1969–1971 errichtet, als sich Nová Bošáca bereits als selbstständige Gemeinde der verstreuten Kopanitzensiedlungen entwickelte. Ihre künstlerische Gestaltung ist mit dem bedeutenden slowakischen Künstler Vincent Hložník verbunden. Über dem Eingang schuf er ein räumliches Sgraffito der Kirchenpatrone; im Inneren befinden sich ein Mosaik des gekreuzigten Christus und Bilder des Kreuzwegs. Die Kirche ist damit nicht nur ein geistliches Zentrum, sondern auch ein Beispiel moderner sakraler Kunst der zweiten Hälfte des 20. Jahrhunderts."
+        },
+        {
+          "id": "fact_003",
+          "title": "Evangelischer Glockenturm von 1937",
+          "text": "Zur evangelischen Geschichte der verstreuten Bergsiedlungen gehört ein gemauerter Glockenturm aus dem Jahr 1937. Er erinnert an die protestantische Gemeinde, die seit Langem Teil der religiös vielfältigen Landschaft des Bošáča-Tals ist. In Nová Bošáča selbst gibt es keine evangelische Kirche; die evangelischen Einwohner besuchten traditionell Gottesdienste im benachbarten Zemianske Podhradie. In jüngerer Zeit fanden Gottesdienste auch im Kulturhaus oder im Gemeindeamt statt. Der Glockenturm ist daher ein wichtiges bauliches Zeugnis der örtlichen evangelischen Identität, darf jedoch nicht mit einer eigenständigen Kirche verwechselt werden."
+        },
+        {
+          "id": "fact_004",
+          "title": "Partisanenkämpfe und Gedenkstätte im Weiler Španie",
+          "text": "Die verstreuten Bergsiedlungen wurden im Herbst 1944 zum Schauplatz von Kämpfen des Slowakischen Nationalaufstands und des Partisanenwiderstands. Im Weiler Španie erinnert ein Denkmal am Straßenrand an das Geschehen. Seine Inschrift nennt den Kampf der Partisanen der II. Stalin-Brigade gegen deutsche Übermacht am 20. Oktober 1944 und sechzehn Gefallene. Das Denkmal gehört zu einem größeren örtlichen Gedenkraum mit weiteren Erinnerungsstätten in Grúň und auf dem Gemeindefriedhof. Es zeigt, dass der Krieg auch abgelegene Bergsiedlungen traf und nicht nur größere Städte oder strategische Zentren."
+        },
+        {
+          "id": "fact_005",
+          "title": "Absturz des US-Bombers B-17G My Baby bei Predpoloma",
+          "text": "Am 29. August 1944 stürzte während eines Luftkampfs über den Weißen Karpaten nahe dem Weiler Predpoloma ein amerikanischer B-17G-Bomber mit dem Namen My Baby und der Kennung 42-31473 ab. Das Flugzeug gehörte zur 20. Bomb Squadron der 2. Bomb Group; Trümmer gingen in den Wäldern an der slowakisch-mährischen Grenze nieder. Vier Besatzungsmitglieder wurden zunächst auf dem Friedhof von Nová Bošáča beigesetzt. Nach dem Krieg exhumierte man ihre sterblichen Überreste und überführte sie in die Vereinigten Staaten. Ein Kenotaph auf dem örtlichen Friedhof erinnert an die Männer und verbindet die Gemeindegeschichte mit dem Luftkrieg über Mitteleuropa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník und der grenzüberschreitende Aussichtsturm",
+          "text": "Der Veľký Lopeník erreicht etwa 912 Meter und sein Gipfel liegt unmittelbar an der Staatsgrenze zwischen der Slowakei und Tschechien. Er ist der höchste Punkt des Gemeindegebiets von Nová Bošáča und ein markanter Gipfel der Weißen Karpaten. Der heutige hölzerne Aussichtsturm mit gemauertem Sockel ist 22 Meter hoch. Der Grundstein wurde 2002 gelegt, gebaut wurde 2004–2005; eröffnet wurde der Turm am 16. Juli 2005. Er folgt auf ältere Aussichtstürme, die seit der Mitte des 20. Jahrhunderts auf dem Gipfel standen. Der Turm symbolisiert die grenzüberschreitende Nachbarschaft und bietet Ausblicke auf beide Seiten des Gebirges."
+        },
+        {
+          "id": "fact_007",
+          "title": "Orchideenwiesen und Schutzgebiete der Holuby-Kopanitzensiedlungen",
+          "text": "Das Gemeindegebiet von Nová Bošáča liegt im Landschaftsschutzgebiet Weiße Karpaten und umfasst mehrere kleinräumige Schutzgebiete innerhalb des europäischen Schutzgebiets Holubyho kopanice. Die Naturdenkmäler Bestinné, Blažejová, Lopeníček und Mravcové bewahren artenreiche Wiesen, Orchideenstandorte, Feuchtgebiete und Lebensräume kleiner Tierarten. In Bestinné wachsen unter anderem der Gras-Schwertlilie und mehrere Orchideenarten; Blažejová beim Weiler Španie ist für die Holuby-Ragwurz und weitere Orchideen wertvoll. Mravcové besitzt zudem ein Kalksintermoor. Dieses Mosaik aus Wiesen und Feuchtflächen zeigt den Naturwert der traditionell bewirtschafteten Kopanitzlandschaft."
+        },
+        {
+          "id": "fact_008",
+          "title": "Mehr als hundert Quellen und Mineralwasser im Bošáča-Tal",
+          "text": "Der Untergrund von Nová Bošáča besteht überwiegend aus Flysch, stellenweise ergänzt durch Kalkgestein der Klippenzone. Der Wechsel durchlässiger Sandsteine und weniger durchlässiger Tonsteine begünstigt eine außergewöhnlich hohe Zahl von Quellen: Im Gemeindegebiet sind mehr als hundert bekannt. Drei davon besitzen den Status offizieller Mineralquellen. Die Sauerquellen in Španie, bei Ochodničiarovi und in Predpoloma sind schwach mineralisierte Hydrogencarbonatwässer mit Kohlendioxid und Eisen. Die Wasserachse des Tals ist der Fluss Bošáčka, der innerhalb des Gemeindegebiets etwa fünf bis sechs Kilometer zurücklegt und unterhalb des Veľký Lopeník auf tschechischer Seite entspringt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Centre of Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The kopanice: a landscape of scattered settlements",
+          "text": "Today’s Nová Bošáca did not begin as a compact historic village. It developed as a dispersed kopanice settlement spread across the slopes of the Bošáča Valley. Individual hamlets and farmsteads became more established from the 17th century, when people from Bošáca began cultivating more distant upland land. Written evidence from 1649 already records farming on these kopanice plots. On 1 July 1950, 23 settlements separated from Bošáca and formed the independent municipality of Nová Bošáca. The scattered houses, meadows and isolated farms still define the character of the municipality and its close connection with the Slovak-Moravian borderland."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of Saints Cyril and Methodius and the art of Vincent Hložník",
+          "text": "The Roman Catholic Church of Saints Cyril and Methodius is the municipality’s principal religious building. It was built between 1969 and 1971, when Nová Bošáca was developing as an independent municipality of dispersed upland settlements. Its artistic decoration is associated with the important Slovak artist Vincent Hložník. Above the entrance he created a three-dimensional sgraffito of the church’s patron saints; inside are a mosaic of the Crucified Christ and paintings of the Stations of the Cross. The church is therefore both a local spiritual centre and an example of modern Slovak sacred art from the second half of the twentieth century."
+        },
+        {
+          "id": "fact_003",
+          "title": "The 1937 Evangelical bell tower",
+          "text": "The Evangelical history of the scattered upland settlements is represented by a masonry bell tower built in 1937. It recalls the local Protestant community, long part of the religiously diverse Bošáča Valley. There is no Evangelical church in Nová Bošáča itself; local Protestants traditionally attended services in neighbouring Zemianske Podhradie. In more recent times, services have also been held in the community centre or municipal office. The bell tower is thus an important physical trace of local Evangelical identity, but it should not be mistaken for a separate church building."
+        },
+        {
+          "id": "fact_004",
+          "title": "Partisan fighting and the memorial in Španie",
+          "text": "In autumn 1944, the scattered upland settlements became a setting for fighting connected with the Slovak National Uprising and partisan resistance. A roadside memorial in the hamlet of Španie commemorates the events. Its inscription records a battle on 20 October 1944 between partisans of the II Stalin Brigade and German forces, and names sixteen fallen fighters. The monument forms part of a wider local memorial landscape that also includes sites in Grúň and the municipal cemetery. It is a reminder that the war reached remote mountain settlements as well as larger towns and strategic centres."
+        },
+        {
+          "id": "fact_005",
+          "title": "The crash of the American B-17G bomber My Baby near Predpoloma",
+          "text": "On 29 August 1944, during an air battle over the White Carpathians, an American B-17G bomber named My Baby, serial number 42-31473, crashed near the hamlet of Predpoloma. The aircraft belonged to the 20th Bomb Squadron of the 2nd Bomb Group, and its wreckage fell in forests along the Slovak-Moravian border. Four crew members were initially buried in the cemetery at Nová Bošáča. After the war, their remains were exhumed and transferred to the United States. A cenotaph in the local cemetery commemorates the airmen and links the municipality’s history to the air war over Central Europe."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník and its cross-border observation tower",
+          "text": "Veľký Lopeník rises to approximately 912 metres, with its summit directly on the border between Slovakia and Czechia. It is the highest point in the municipality of Nová Bošáča and a prominent peak of the White Carpathians. The present timber observation tower, built on a masonry base, is 22 metres high. Its foundation stone was laid in 2002, construction took place in 2004–2005, and it opened on 16 July 2005. It replaced earlier towers that had stood on the summit since the mid-twentieth century. The structure symbolises cross-border friendship and offers views across both sides of the mountain range."
+        },
+        {
+          "id": "fact_007",
+          "title": "Orchid meadows and the protected Holubyho kopanice landscape",
+          "text": "The cadastral area of Nová Bošáča lies within the White Carpathians Protected Landscape Area and includes several small protected sites within the European Natura 2000 site Holubyho kopanice. The natural monuments Bestinné, Blažejová, Lopeníček and Mravcové protect species-rich meadows, orchid habitats, wetlands and habitats for small animals. Bestinné supports, among other plants, the grass-leaved iris and several orchid species; Blažejová near Španie is notable for the Holuby bee orchid and other orchids. Mravcové also contains a calcareous fen. This mosaic of meadows and wetlands illustrates the natural value of a landscape shaped by traditional upland farming."
+        },
+        {
+          "id": "fact_008",
+          "title": "More than a hundred springs in the Bošáča Valley",
+          "text": "The geology of Nová Bošáča is dominated by flysch, with limestone rocks of the Klippen Belt appearing in places. Alternating permeable sandstones and less permeable claystones help explain the exceptional number of springs: more than one hundred have been recorded in the municipality. Three have official mineral-spring status. The mildly mineralised bicarbonate waters at Španie, near Ochodničiarovi and at Predpoloma contain carbon dioxide and iron. The main watercourse is the Bošáčka, which runs for roughly five to six kilometres within the municipality and rises below Veľký Lopeník on the Czech side of the border."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Las kopanice: un paisaje de asentamientos dispersos",
+          "text": "La actual Nová Bošáca no nació como un pueblo compacto, sino como un asentamiento disperso de kopanice en las laderas del valle de Bošáča. Las aldeas y explotaciones agrícolas se desarrollaron especialmente desde el siglo XVII, cuando los habitantes de Bošáca comenzaron a cultivar terrenos montañosos más alejados. Fuentes escritas de 1649 ya documentan el aprovechamiento de estas tierras. El 1 de julio de 1950, veintitrés asentamientos se separaron de Bošáca y formaron el municipio independiente de Nová Bošáca. Las casas dispersas, los prados y las granjas aisladas siguen definiendo su carácter y su relación con la frontera eslovaco-morava."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de San Cirilo y San Metodio y el arte de Vincent Hložník",
+          "text": "La iglesia católica romana de San Cirilo y San Metodio es el principal edificio religioso del municipio. Se construyó entre 1969 y 1971, cuando Nová Bošáca ya se desarrollaba como municipio independiente de asentamientos dispersos. Su decoración artística está vinculada al destacado artista eslovaco Vincent Hložník. Sobre la entrada creó un esgrafiado tridimensional de los santos patronos; en el interior se encuentran un mosaico de Cristo crucificado y pinturas del vía crucis. La iglesia es, por tanto, tanto un centro espiritual local como un ejemplo de arte sacro moderno eslovaco de la segunda mitad del siglo XX."
+        },
+        {
+          "id": "fact_003",
+          "title": "Campanario evangélico de 1937",
+          "text": "La historia evangélica de los asentamientos dispersos está representada por un campanario de mampostería construido en 1937. Recuerda a la comunidad protestante local, históricamente integrada en el paisaje religioso diverso del valle de Bošáča. En Nová Bošáca no hay una iglesia evangélica; tradicionalmente, los habitantes protestantes asistían a los oficios en la vecina Zemianske Podhradie. En tiempos más recientes también se celebraron servicios en el centro cultural o en la oficina municipal. El campanario es así un testimonio material importante de la identidad evangélica local, pero no debe confundirse con una iglesia independiente."
+        },
+        {
+          "id": "fact_004",
+          "title": "Combates partisanos y memorial en Španie",
+          "text": "En otoño de 1944, los asentamientos dispersos de montaña fueron escenario de combates relacionados con el Levantamiento Nacional Eslovaco y la resistencia partisana. Un monumento junto a la carretera en la aldea de Španie recuerda aquellos hechos. Su inscripción menciona el combate del 20 de octubre de 1944 entre partisanos de la II Brigada Stalin y fuerzas alemanas, así como dieciséis combatientes caídos. El monumento forma parte de un paisaje conmemorativo más amplio que incluye otros lugares en Grúň y en el cementerio municipal. Recuerda que la guerra también alcanzó aldeas montañosas remotas, no solo ciudades y centros estratégicos."
+        },
+        {
+          "id": "fact_005",
+          "title": "El accidente del bombardero estadounidense B-17G My Baby cerca de Predpoloma",
+          "text": "El 29 de agosto de 1944, durante un combate aéreo sobre los Cárpatos Blancos, se estrelló cerca de la aldea de Predpoloma un bombardero estadounidense B-17G llamado My Baby, con número 42-31473. El avión pertenecía al 20.º Escuadrón de Bombardeo del 2.º Grupo de Bombardeo y sus restos cayeron en los bosques de la frontera eslovaco-morava. Cuatro tripulantes fueron enterrados inicialmente en el cementerio de Nová Bošáca. Después de la guerra, sus restos fueron exhumados y trasladados a Estados Unidos. Un cenotafio en el cementerio local recuerda a los aviadores y vincula la historia del municipio con la guerra aérea sobre Europa central."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník y su torre panorámica transfronteriza",
+          "text": "Veľký Lopeník alcanza unos 912 metros y su cima se encuentra directamente en la frontera entre Eslovaquia y Chequia. Es el punto más alto del término municipal de Nová Bošáca y una cumbre destacada de los Cárpatos Blancos. La actual torre panorámica de madera, levantada sobre una base de mampostería, mide 22 metros. Su primera piedra se colocó en 2002, la construcción se desarrolló entre 2004 y 2005 y se inauguró el 16 de julio de 2005. Sustituyó a otras torres que habían estado en la cima desde mediados del siglo XX. Simboliza la amistad transfronteriza y ofrece vistas a ambos lados de la cordillera."
+        },
+        {
+          "id": "fact_007",
+          "title": "Praderas de orquídeas y espacios protegidos de Holubyho kopanice",
+          "text": "El término municipal de Nová Bošáca se encuentra en el Área Paisajística Protegida de los Cárpatos Blancos e incluye varios espacios protegidos pequeños dentro del lugar europeo Natura 2000 Holubyho kopanice. Los monumentos naturales Bestinné, Blažejová, Lopeníček y Mravcové conservan prados ricos en especies, hábitats de orquídeas, humedales y refugios para pequeños animales. En Bestinné crecen, entre otras plantas, el lirio de hoja de hierba y varias orquídeas; Blažejová, cerca de Španie, destaca por la orquídea abeja de Holuby y otras especies. Mravcové también alberga un humedal calcáreo. Este mosaico muestra el valor natural de un paisaje modelado por la agricultura tradicional de montaña."
+        },
+        {
+          "id": "fact_008",
+          "title": "Más de cien manantiales en el valle de Bošáča",
+          "text": "La geología de Nová Bošáca está dominada por el flysch, con afloramientos calizos de la zona de klippen en algunos lugares. La alternancia de areniscas permeables y arcillas menos permeables ayuda a explicar la extraordinaria abundancia de manantiales: se han registrado más de cien en el municipio. Tres tienen la categoría oficial de manantiales minerales. Las aguas bicarbonatadas débilmente mineralizadas de Španie, cerca de Ochodničiarovi y Predpoloma contienen dióxido de carbono y hierro. El principal curso de agua es el río Bošáčka, que recorre aproximadamente cinco o seis kilómetros dentro del municipio y nace bajo Veľký Lopeník, en el lado checo de la frontera."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre de Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Les kopanice, un paysage d’habitats dispersés",
+          "text": "Nová Bošáca n’est pas née comme un village ancien et compact, mais comme un habitat dispersé de kopanice sur les versants de la vallée de Bošáča. Les hameaux et les fermes isolées se sont développés surtout à partir du XVIIe siècle, lorsque les habitants de Bošáca ont commencé à cultiver des terres montagneuses plus éloignées. Des documents de 1649 attestent déjà l’exploitation de ces parcelles. Le 1er juillet 1950, vingt-trois hameaux se sont séparés de Bošáca pour former la commune indépendante de Nová Bošáca. Les maisons dispersées, les prairies et les fermes isolées définissent encore son caractère et son lien avec la frontière slovaquo-morave."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saints-Cyrille-et-Méthode et l’art de Vincent Hložník",
+          "text": "L’église catholique romaine Saints-Cyrille-et-Méthode est le principal édifice religieux de la commune. Elle a été construite entre 1969 et 1971, alors que Nová Bošáca se développait déjà comme commune indépendante d’habitats dispersés. Sa décoration artistique est liée au grand artiste slovaque Vincent Hložník. Au-dessus de l’entrée, il a réalisé un sgraffite en relief représentant les saints patrons ; à l’intérieur se trouvent une mosaïque du Christ crucifié et des tableaux du chemin de croix. L’église est ainsi à la fois un centre spirituel local et un exemple d’art sacré moderne slovaque de la seconde moitié du XXe siècle."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le clocher évangélique de 1937",
+          "text": "L’histoire évangélique des hameaux dispersés est représentée par un clocher maçonné construit en 1937. Il rappelle la communauté protestante locale, qui fait depuis longtemps partie du paysage religieux pluriel de la vallée de Bošáča. Il n’y a pas d’église évangélique à Nová Bošáca même ; les habitants protestants assistaient traditionnellement aux offices dans le village voisin de Zemianske Podhradie. Plus récemment, des cultes ont également été célébrés dans la maison de la culture ou les locaux de la mairie. Le clocher constitue donc un témoignage matériel important de l’identité évangélique locale, sans être une église autonome."
+        },
+        {
+          "id": "fact_004",
+          "title": "Combats de partisans et mémorial à Španie",
+          "text": "À l’automne 1944, les hameaux dispersés des montagnes sont devenus le théâtre de combats liés au Soulèvement national slovaque et à la résistance des partisans. Un monument au bord de la route dans le hameau de Španie rappelle ces événements. Son inscription mentionne un combat, le 20 octobre 1944, entre les partisans de la IIe brigade Staline et les forces allemandes, ainsi que seize combattants tombés. Le monument s’inscrit dans un paysage mémoriel plus vaste, qui comprend aussi des lieux de mémoire à Grúň et au cimetière communal. Il rappelle que la guerre a également atteint les hameaux montagnards isolés, et pas seulement les villes et centres stratégiques."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le crash du bombardier américain B-17G My Baby près de Predpoloma",
+          "text": "Le 29 août 1944, lors d’un combat aérien au-dessus des Carpates blanches, un bombardier américain B-17G nommé My Baby, numéro 42-31473, s’est écrasé près du hameau de Predpoloma. L’appareil appartenait au 20e escadron de bombardement du 2e groupe de bombardement ; ses débris sont tombés dans les forêts de la frontière slovaquo-morave. Quatre membres d’équipage ont d’abord été enterrés au cimetière de Nová Bošáca. Après la guerre, leurs dépouilles ont été exhumées et transférées aux États-Unis. Un cénotaphe dans le cimetière local commémore les aviateurs et relie l’histoire de la commune à la guerre aérienne en Europe centrale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník et sa tour panoramique transfrontalière",
+          "text": "Veľký Lopeník culmine à environ 912 mètres et son sommet se trouve directement sur la frontière entre la Slovaquie et la Tchéquie. C’est le point le plus élevé du territoire communal de Nová Bošáca et un sommet marquant des Carpates blanches. La tour panoramique actuelle, en bois sur une base maçonnée, mesure 22 mètres. Sa première pierre a été posée en 2002, les travaux ont eu lieu en 2004–2005 et l’inauguration s’est déroulée le 16 juillet 2005. Elle succède à plusieurs tours plus anciennes qui se sont dressées au sommet depuis le milieu du XXe siècle. Elle symbolise l’amitié transfrontalière et offre une vue sur les deux versants du massif."
+        },
+        {
+          "id": "fact_007",
+          "title": "Prairies à orchidées et espaces protégés de Holubyho kopanice",
+          "text": "Le territoire de Nová Bošáca se trouve dans la zone paysagère protégée des Carpates blanches et comprend plusieurs petits sites protégés intégrés au site européen Natura 2000 Holubyho kopanice. Les monuments naturels Bestinné, Blažejová, Lopeníček et Mravcové protègent des prairies riches en espèces, des habitats d’orchidées, des zones humides et des milieux pour de petits animaux. Bestinné abrite notamment l’iris à feuilles de graminée et plusieurs orchidées ; Blažejová, près de Španie, est remarquable pour l’ophrys de Holuby et d’autres orchidées. Mravcové comprend également un marais tufeux. Cette mosaïque de prairies et de zones humides illustre la valeur naturelle d’un paysage façonné par l’agriculture montagnarde traditionnelle."
+        },
+        {
+          "id": "fact_008",
+          "title": "Plus de cent sources dans la vallée de Bošáča",
+          "text": "La géologie de Nová Bošáca est dominée par le flysch, avec par endroits des calcaires de la zone des klippes. L’alternance de grès perméables et d’argilites moins perméables contribue à expliquer le nombre exceptionnel de sources : plus d’une centaine ont été recensées sur le territoire communal. Trois bénéficient du statut officiel de sources minérales. Les eaux bicarbonatées faiblement minéralisées de Španie, près d’Ochodničiarovi et à Predpoloma contiennent du dioxyde de carbone et du fer. Le principal cours d’eau est la Bošáčka, qui parcourt environ cinq à six kilomètres dans la commune et prend sa source sous Veľký Lopeník, du côté tchèque de la frontière."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le kopanice: un paesaggio di insediamenti sparsi",
+          "text": "L’odierna Nová Bošáca non nacque come villaggio compatto, ma come insediamento disperso di kopanice sui pendii della valle della Bošáča. Le piccole borgate e le fattorie isolate si svilupparono soprattutto dal XVII secolo, quando gli abitanti di Bošáca iniziarono a coltivare terreni montani più lontani. Documenti del 1649 attestano già l’uso agricolo di queste terre. Il 1º luglio 1950, ventitré insediamenti si separarono da Bošáca e formarono il comune autonomo di Nová Bošáca. Le case sparse, i prati e le fattorie isolate ne definiscono ancora il carattere e il legame con la frontiera slovacco-morava."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa dei Santi Cirillo e Metodio e l’arte di Vincent Hložník",
+          "text": "La chiesa cattolica romana dei Santi Cirillo e Metodio è il principale edificio religioso del comune. Fu costruita tra il 1969 e il 1971, quando Nová Bošáca si stava già sviluppando come comune autonomo di insediamenti sparsi. La decorazione artistica è legata al celebre artista slovacco Vincent Hložník. Sopra l’ingresso realizzò uno sgraffito tridimensionale dei santi patroni; all’interno si trovano un mosaico di Cristo crocifisso e dipinti della Via Crucis. La chiesa è quindi sia un centro spirituale locale sia un esempio di arte sacra moderna slovacca della seconda metà del Novecento."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il campanile evangelico del 1937",
+          "text": "La storia evangelica degli insediamenti sparsi è rappresentata da un campanile in muratura costruito nel 1937. Ricorda la comunità protestante locale, da lungo tempo parte del paesaggio religioso variegato della valle della Bošáča. A Nová Bošáca non esiste una chiesa evangelica; tradizionalmente i protestanti del comune partecipavano alle funzioni nella vicina Zemianske Podhradie. In tempi più recenti le celebrazioni si sono svolte anche nella casa della cultura o negli uffici comunali. Il campanile è dunque un’importante testimonianza materiale dell’identità evangelica locale, ma non va confuso con una chiesa autonoma."
+        },
+        {
+          "id": "fact_004",
+          "title": "Combattimenti partigiani e memoriale a Španie",
+          "text": "Nell’autunno del 1944 gli insediamenti montani sparsi furono teatro di combattimenti legati all’Insurrezione nazionale slovacca e alla resistenza partigiana. Un monumento lungo la strada nella frazione di Španie ricorda quegli eventi. La sua iscrizione menziona uno scontro del 20 ottobre 1944 tra i partigiani della II Brigata Stalin e le forze tedesche, con sedici combattenti caduti. Il monumento fa parte di un più ampio paesaggio della memoria, che comprende anche luoghi commemorativi a Grúň e nel cimitero comunale. Ricorda che la guerra raggiunse anche le remote borgate montane, non soltanto città e centri strategici."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lo schianto del bombardiere americano B-17G My Baby vicino a Predpoloma",
+          "text": "Il 29 agosto 1944, durante un combattimento aereo sopra i Carpazi Bianchi, un bombardiere americano B-17G chiamato My Baby, numero 42-31473, precipitò vicino alla frazione di Predpoloma. L’aereo apparteneva al 20º squadrone da bombardamento del 2º gruppo da bombardamento; i rottami caddero nei boschi lungo il confine slovacco-moravo. Quattro membri dell’equipaggio furono inizialmente sepolti nel cimitero di Nová Bošáca. Dopo la guerra i loro resti furono riesumati e trasferiti negli Stati Uniti. Un cenotafio nel cimitero locale ricorda gli aviatori e collega la storia del comune alla guerra aerea nell’Europa centrale."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník e la torre panoramica transfrontaliera",
+          "text": "Veľký Lopeník raggiunge circa 912 metri e la sua vetta si trova direttamente sul confine tra Slovacchia e Cechia. È il punto più alto del territorio comunale di Nová Bošáca e una cima importante dei Carpazi Bianchi. L’attuale torre panoramica in legno, costruita su una base in muratura, è alta 22 metri. La prima pietra fu posata nel 2002, i lavori si svolsero nel 2004–2005 e l’inaugurazione ebbe luogo il 16 luglio 2005. La torre sostituisce strutture panoramiche più antiche presenti sulla vetta dalla metà del Novecento. Simboleggia l’amicizia oltre confine e offre vedute su entrambi i versanti della catena montuosa."
+        },
+        {
+          "id": "fact_007",
+          "title": "Prati di orchidee e aree protette di Holubyho kopanice",
+          "text": "Il territorio di Nová Bošáca si trova nell’Area paesaggistica protetta dei Carpazi Bianchi e comprende diversi piccoli siti protetti inclusi nell’area europea Natura 2000 Holubyho kopanice. I monumenti naturali Bestinné, Blažejová, Lopeníček e Mravcové tutelano prati ricchi di specie, habitat di orchidee, zone umide e ambienti per piccoli animali. A Bestinné crescono, tra le altre piante, l’iris a foglie di graminacea e varie orchidee; Blažejová, presso Španie, è nota per l’ofride di Holuby e altre orchidee. Mravcové comprende anche una zona umida calcarea. Questo mosaico mostra il valore naturale di un paesaggio modellato dall’agricoltura tradizionale di montagna."
+        },
+        {
+          "id": "fact_008",
+          "title": "Oltre cento sorgenti nella valle della Bošáča",
+          "text": "La geologia di Nová Bošáca è dominata dal flysch, con affioramenti calcarei della fascia delle klippe in alcuni punti. L’alternanza di arenarie permeabili e argilliti meno permeabili contribuisce a spiegare l’eccezionale abbondanza di sorgenti: nel territorio comunale ne sono state registrate più di cento. Tre hanno lo status ufficiale di sorgenti minerali. Le acque bicarbonate debolmente mineralizzate di Španie, vicino a Ochodničiarovi e a Predpoloma contengono anidride carbonica e ferro. Il principale corso d’acqua è la Bošáčka, che attraversa il comune per circa cinque o sei chilometri e nasce sotto Veľký Lopeník, sul lato ceco del confine."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Centrum van Nová Bošáca",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "De kopanice: een landschap van verspreide nederzettingen",
+          "text": "Het huidige Nová Bošáca ontstond niet als een compact historisch dorp, maar als een verspreide kopanice-nederzetting op de hellingen van de Bošáča-vallei. De gehuchten en boerderijen ontwikkelden zich vooral vanaf de zeventiende eeuw, toen inwoners van Bošáca ook verder afgelegen berggronden gingen bewerken. Schriftelijke bronnen uit 1649 vermelden dit gebruik van de kopanicegronden al. Op 1 juli 1950 maakten 23 nederzettingen zich los van Bošáca en vormden zij de zelfstandige gemeente Nová Bošáca. De verspreide huizen, weiden en afgelegen boerderijen bepalen nog altijd het karakter van de gemeente en haar band met het Slowaaks-Moravische grensgebied."
+        },
+        {
+          "id": "fact_002",
+          "title": "De kerk van Sint-Cyrillus en Methodius en de kunst van Vincent Hložník",
+          "text": "De rooms-katholieke kerk van Sint-Cyrillus en Methodius is het belangrijkste religieuze gebouw van de gemeente. Zij werd tussen 1969 en 1971 gebouwd, toen Nová Bošáca zich al ontwikkelde als zelfstandige gemeente van verspreide bergnederzettingen. De artistieke vormgeving is verbonden met de vooraanstaande Slowaakse kunstenaar Vincent Hložník. Boven de ingang maakte hij een ruimtelijke sgraffito van de patroonheiligen; binnen bevinden zich een mozaïek van de gekruisigde Christus en schilderingen van de kruisweg. De kerk is daarmee zowel een lokaal spiritueel centrum als een voorbeeld van moderne Slowaakse religieuze kunst uit de tweede helft van de twintigste eeuw."
+        },
+        {
+          "id": "fact_003",
+          "title": "De evangelische klokkentoren uit 1937",
+          "text": "De evangelische geschiedenis van de verspreide bergnederzettingen wordt vertegenwoordigd door een gemetselde klokkentoren uit 1937. Hij herinnert aan de plaatselijke protestantse gemeenschap, die al lange tijd deel uitmaakt van het religieus veelzijdige landschap van de Bošáča-vallei. In Nová Bošáca zelf staat geen evangelische kerk; protestantse inwoners bezochten traditioneel de diensten in het naburige Zemianske Podhradie. In recentere tijden vonden diensten ook plaats in het cultureel centrum of het gemeentehuis. De klokkentoren is daarom een belangrijk tastbaar spoor van de lokale evangelische identiteit, maar mag niet worden aangezien voor een zelfstandige kerk."
+        },
+        {
+          "id": "fact_004",
+          "title": "Partizanengevechten en het monument in Španie",
+          "text": "In de herfst van 1944 werden de verspreide berggehuchten het toneel van gevechten die verband hielden met de Slowaakse Nationale Opstand en het partizanenverzet. Een monument langs de weg in het gehucht Španie herdenkt deze gebeurtenissen. De inscriptie vermeldt een gevecht op 20 oktober 1944 tussen partizanen van de II Stalinbrigade en Duitse troepen, waarbij zestien strijders sneuvelden. Het monument maakt deel uit van een breder lokaal herdenkingslandschap met gedenkplaatsen in Grúň en op de gemeentelijke begraafplaats. Het herinnert eraan dat de oorlog ook afgelegen bergnederzettingen trof, niet alleen grotere steden en strategische centra."
+        },
+        {
+          "id": "fact_005",
+          "title": "De crash van de Amerikaanse B-17G-bommenwerper My Baby bij Predpoloma",
+          "text": "Op 29 augustus 1944 stortte tijdens een luchtgevecht boven de Witte Karpaten bij het gehucht Predpoloma een Amerikaanse B-17G-bommenwerper met de naam My Baby en serienummer 42-31473 neer. Het toestel behoorde tot het 20th Bomb Squadron van de 2nd Bomb Group; de wrakstukken vielen in de bossen langs de Slowaaks-Moravische grens. Vier bemanningsleden werden aanvankelijk begraven op de begraafplaats van Nová Bošáca. Na de oorlog werden hun stoffelijke resten opgegraven en naar de Verenigde Staten overgebracht. Een cenotaaf op de plaatselijke begraafplaats herdenkt de vliegers en verbindt de gemeentegeschiedenis met de luchtoorlog boven Midden-Europa."
+        },
+        {
+          "id": "fact_006",
+          "title": "Veľký Lopeník en de grensoverschrijdende uitkijktoren",
+          "text": "Veľký Lopeník is ongeveer 912 meter hoog en de top ligt precies op de grens tussen Slowakije en Tsjechië. Het is het hoogste punt van het grondgebied van Nová Bošáca en een markante bergtop in de Witte Karpaten. De huidige houten uitkijktoren op een gemetselde basis is 22 meter hoog. De eerste steen werd gelegd in 2002, de bouw vond plaats in 2004–2005 en de toren werd op 16 juli 2005 geopend. Hij volgde op oudere uitkijktorens die sinds het midden van de twintigste eeuw op de top stonden. De toren symboliseert grensoverschrijdende vriendschap en biedt uitzicht op beide zijden van het gebergte."
+        },
+        {
+          "id": "fact_007",
+          "title": "Orchideeënweiden en beschermde gebieden van Holubyho kopanice",
+          "text": "Het grondgebied van Nová Bošáca ligt in het beschermde landschapsgebied Witte Karpaten en omvat verschillende kleine beschermde gebieden binnen het Europese Natura 2000-gebied Holubyho kopanice. De natuurmonumenten Bestinné, Blažejová, Lopeníček en Mravcové beschermen soortenrijke graslanden, orchideeënhabitats, wetlands en leefgebieden van kleine dieren. In Bestinné groeien onder meer de grasbladige iris en verschillende orchideeën; Blažejová bij Španie is bijzonder door de Holuby-bijenorchis en andere soorten. Mravcové omvat ook een kalkmoeras. Dit mozaïek van graslanden en wetlands toont de natuurwaarde van een landschap dat door traditionele berglandbouw is gevormd."
+        },
+        {
+          "id": "fact_008",
+          "title": "Meer dan honderd bronnen in de Bošáča-vallei",
+          "text": "De geologie van Nová Bošáca bestaat hoofdzakelijk uit flysch, plaatselijk aangevuld met kalksteen van de klippenzone. De afwisseling van doorlatende zandsteen en minder doorlatende kleisteen helpt de uitzonderlijke hoeveelheid bronnen te verklaren: in de gemeente zijn er meer dan honderd beschreven. Drie daarvan hebben de officiële status van mineraalbron. De licht gemineraliseerde bicarbonaatwaters bij Španie, bij Ochodničiarovi en in Predpoloma bevatten kooldioxide en ijzer. De belangrijkste waterloop is de Bošáčka, die ongeveer vijf tot zes kilometer door de gemeente stroomt en ontspringt onder Veľký Lopeník aan de Tsjechische kant van de grens."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
