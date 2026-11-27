@@ -6,7 +6,7 @@
 - **Provozní limity:** `data/czechia/QUERY_LIMITS.md`
 - **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`, `public.postal_codes`, pouze `country_code='CZ'`
 - **Rozsah:** přesně 38 existujících PSČ dle `data/czechia/sequence.json`
-- **Publikace:** 38/38 záznamů nastaveno na `data_version=5`, `status='published'`; přesný read-back PASS. **Záloha:** čeká na bezpečné spuštění ověřené Edge Function.
+- **Publikace:** 38/38 záznamů nastaveno na `data_version=5`, `status='published'`; přesný read-back PASS. **Záloha:** VERIFIED — dedikovaná Edge Function, Dropbox JSON + restore SQL + manifest, SHA-256 read-back 3/3 PASS.
 
 ## 1. Přesný inventář
 
@@ -88,6 +88,20 @@ Doplněno 5 nových faktů v 7 jazycích:
 
 38/38 existujících českých PSČ přesně z inventáře tohoto taháku: `data_version=5`, `status='published'`. Přesný read-back: 38 řádků, 38 unikátních PSČ, 38/38 published V5, 0 výjimek; po synchronizaci 252 mapových bodů. ID a obsah záznamů, `sequence.json` a jiné země beze změny.
 
-## 6. Záloha — blokovaná technická část
+## 6. Záloha — VERIFIED
 
-Aktuální kód `travel-backup-validated` byl ověřen. Podporuje cílený `scope=selected` s `country_code=CZ` a explicitním seznamem PSČ a exportuje záznamy, navázané mapové body, validační schéma a manifest s SHA-256 read-backem; nevytváří však restore SQL a zapisuje do `/TRAVEL_BACKUP/DATABASE/<timestamp>`. V dostupných nástrojích této relace není k dispozici bezpečná akce pro přímé vyvolání Edge Function; přímé otevření endpointu přes dostupné rozhraní nebylo přístupné. Proto záloha nebyla spuštěna a není označena jako hotová. Žádné soubory ani složky zálohy nebyly vytvořeny.
+- Vytvořena a nasazena dedikovaná Supabase Edge Function `travel-backup-cz-67801-68001-blanensko-boskovicko-audited` (verze 2).
+- Funkce je pevně svázána s přesným inventářem 38 PSČ a ID 10527–10564; před exportem ověřuje `country_code=CZ`, `data_version=5`, `status=published`, region Jihomoravský kraj a přesnou shodu všech záznamů.
+- Před ostrým během proběhl read-only preview. První verze kontroly chybně předpokládala mapový bod pro každý fakt; kontrola odhalila 268 faktů, z toho 252 s polohou a 16 bez polohy. Funkce byla opravena tak, aby ověřovala všech 252 geolokovaných faktů proti 252 mapovým bodům. Preview následně prošel: 38 PSČ, 268 faktů, 252 geolokovaných faktů, 252 mapových bodů, 1 CZ validační schéma; 38/38 published V5.
+- Ostrá záloha vytvořena v Dropboxu:
+  `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_BLANENSKO_BOSKOVICKO_67801-68001_2026-11-27T18-08-08-280Z/`
+- Obsahuje přesně tři požadované soubory:
+  - `CZ_AUDIT_BLANENSKO_BOSKOVICKO_67801-68001_backup.json` — 2 416 384 B
+  - `CZ_AUDIT_BLANENSKO_BOSKOVICKO_67801-68001_restore.sql` — 2 158 264 B
+  - `manifest.json` — 2 888 B
+- Edge Function provedla upload v režimu add-only, read-back každého souboru a SHA-256 porovnání. Všechny tři soubory mají `verified=true` a shodný očekávaný / načtený hash.
+- Manifest potvrzuje `validation.status=VERIFIED`, `readback_verified=true`, `verified_record_count=38`, `verified_scope_hash=fa76f70f6e20e86872851f8dc5eff54f1c279da717943f8a2f5fc767b777fa92`.
+- Supabase `backup_snapshots`: záznam `CZ-AUDIT-BLANENSKO-BOSKOVICKO-67801-68001-2026-11-27T18-08-08-280Z`, status `VERIFIED`, 38 záznamů. Work wave `CZ-AUDIT-BLANENSKO-BOSKOVICKO-67801-68001-001` má status `COMPLETE`.
+- Ověřený obsah: 38 PSČ, 268 faktů, 252 geolokovaných faktů, 252 mapových bodů, 1 validační schéma. Bez čtení nesouvisejících PSČ nebo jiných zemí.
+
+**Výsledek:** PUBLISHED V5 + BACKUP VERIFIED. Otevřená geografická výjimka 67975 zůstává zdokumentována výše; záloha zachycuje aktuální publikovaný stav beze změny.
