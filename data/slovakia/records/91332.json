@@ -1,4 +1,696 @@
 {
   "postcode": "91332",
-  "status": "placeholder"
+  "city": "Dolná Súča",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Dolná Súča – centrum obce u obecního úřadu",
+  "representative_point": {
+    "lat": 48.9567036,
+    "lon": 18.0319101
+  },
+  "access_point": {
+    "lat": 48.9567036,
+    "lon": 18.0319101
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Hrad Súča a starší archeologický areál na vrchu Krásin",
+      "text": "Na vrchu Krásin nad Dolnou Súčou stál stredoveký hrad Súča, doložený od 13. století. V 16. století jej drželi Podmaničtí; po převzetí hradu královskou komisí v roce 1549 bylo nařízeno jeho zboření a dnes zůstaly jen drobné zbytky zdiva. Archeologický výzkum na témže vrchu doložil také mnohem starší výšinné sídliště z doby stěhování národů a nálezy z pravěku i raného středověku. Krásin tak spojuje několik odlišných etap osídlení a obrany Pováží.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s10",
+        "s11"
+      ],
+      "map_category": "castle",
+      "location": {
+        "name": "Zřícenina hradu Súča na vrchu Krásin",
+        "address": "Krásin, 913 32 Dolná Súča, Slovakia",
+        "lat": 48.9604742,
+        "lon": 18.0146386,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://whitetown.sk/sk/suca/"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Prírodná rezervácia Krasín – vápencový masiv s cennou flórou",
+      "text": "Vrch Krasín je chráněn jako přírodní rezervace o rozloze přibližně 26 hektarů se čtvrtým stupněm ochrany. Vápencový bradlový masiv je významný geologickými vrstvami a zkamenělinami, ale také teplomilnými trávníky a vzácnou květenou. Péče o lokalitu zahrnuje obnovu pastvy, která brání zarůstání cenných otevřených stanovišť. Územím prochází naučná trasa pojmenovaná po místním přírodovědci Jánu Miklasovi.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s9",
+        "s6"
+      ],
+      "map_category": "natural_feature",
+      "location": {
+        "name": "Prírodná rezervácia Krasín – orientační bod v chráněném masivu",
+        "address": null,
+        "lat": 48.960508,
+        "lon": 18.0154966,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.openstreetmap.org/?mlat=48.960508&mlon=18.0154966#map=17/48.960508/18.0154966"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Prírodná pamiatka Súčanka – chráněný úsek horského potoka",
+      "text": "Přírodní památka Súčanka chrání přibližně 6,77 hektaru vodního toku a přilehlých stanovišť v údolí mezi Skalkou nad Váhom a Dolnou Súčou. Chráněný úsek zasahuje do katastrů Dolné Súče, Hrabovky a Skalky nad Váhom a má čtvrtý stupeň ochrany. Jde o liniové území, které propojuje více obcí i poštovních oblastí; proto mu nepřiřazujeme jeden zdánlivě přesný bod. V rámci PSČ 913 32 je relevantní jeho část u Dolné Súče a Hrabovky.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "s8",
+        "s6"
+      ],
+      "map_category": "natural_feature",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Alžběty Uherské a pamětní deska Podmanických",
+      "text": "Římskokatolický kostel sv. Alžběty Uherské patří k nejstarším historickým stavbám Dolné Súče. Starší dřevěný kostel je doložen v 16. století; po požáru roku 1754 byl v letech 1754–1756 přestavěn. Uvnitř se nachází mramorová deska s latinským epitafem Rafaela Podmanického. Místní historický pramen však upozorňuje, že ostatky nalezené při starším rozšiřování kostela nebyly jeho, takže deska sama nedokládá, že je zde Podmanický pohřben.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "s12",
+        "s5",
+        "s6"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Alžběty Uherské, Dolná Súča",
+        "address": "Dolná Súča, 913 32 Dolná Súča, Slovakia",
+        "lat": 48.956367,
+        "lon": 18.027871,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/dolna-suca-kostol-sv-alzbety-uhorskej"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Lurdská kaple u pramene Tři žriedla v lokalitě Kamienka",
+      "text": "V lokalitě Kamienka stojí kaple zasvěcená Lurdské Panně Marii, spojená s místním pramenem Tri žriedla. Obecní historie uvádí rok 1889, zatímco rozvojový dokument obce ji popisuje jako klasicistní kapli ze začátku 19. století. Protože se prameny v dataci rozcházejí, přesný rok výstavby nepřebíráme jako jistý. Kaple je součástí drobných sakrálních míst rozptýlených v kopaničářské krajině Dolné Súče.",
+      "category": "heritage_and_monuments",
+      "priority": "D",
+      "sources": [
+        "s5",
+        "s6"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Národná banda a více než 170 let tradice súčanské dechové hudby",
+      "text": "Dolná Súča má mimořádně dlouhou tradici dechové hudby. První soubor, známý jako Národná banda, založil roku 1851 učitel a varhaník Jozef Matulay. Už v roce 1853 měl šestnáct členů, převážně žáků místní školy, a později vystupoval na významných národních slavnostech v Martině i na Velehradě. Tradice pokračuje festivalem Hečkova Súča a několika místními dechovými kapelami; nejde tedy jen o historickou epizodu, ale o stále živou součást kulturní identity obce.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s13",
+        "s6"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Súčanské papuče – charakteristická součást místního kroje",
+      "text": "K místnímu lidovému oděvu patřily typické súčanské papuče z ovčí vlny. Rozvojový program obce popisuje pletené soukenné varianty, bílé i černobíle vzorované, které nosili muži i ženy. Jejich výroba souvisela s chovem ovcí a někdejší domácí soukenickou tradicí; v první polovině 20. století se v obci tkalo také plátno. Papuče jsou hmotným detailem tradičního odívání, nikoli tvrzením o dnešní sériové výrobě.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s6",
+        "s14"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "František Xaver Hábel – náboženský spisovatel působící v Dolné Súči",
+      "text": "V Dolné Súči působil František Xaver Hábel (1760–1846), kterého obecní rozvojový dokument uvádí mezi významnými osobnostmi obce. Hábel byl náboženský spisovatel a jeho působení představuje kulturní a duchovní spojení Dolné Súče s literárním prostředím slovenského národního obrození. Pramen jej uvádí jako osobnost spojenou s obcí, nikoli jako jejího rodáka; přesné místo jeho pobytu v obci není doloženo.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "s6"
+      ],
+      "map_category": "personality",
+      "location": null
+    },
+    {
+      "id": "fact_009",
+      "title": "Hrabovka – samostatná obec s doloženou historií od roku 1423",
+      "text": "Hrabovka je samostatná obec, která sdílí PSČ 913 32 s Dolnou Súčou. První písemná zmínka o Hrabovce pochází z roku 1423. V roce 1549 daroval Rafael Podmanický Jánovi Hrabovskému a jeho bratrům dům a kúrii v Hrabovce. Záznam dokládá vazbu lokality na šlechtické rody Pováží a vysvětluje historický původ místního názvu; nedokládá však, že se uvedená kúria dochovala jako dnešní památkový objekt.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    },
+    {
+      "id": "fact_010",
+      "title": "Repákovci a tragédie partyzánů z listopadu 1944",
+      "text": "V místní části Repákovci se 6. listopadu 1944 odehrála tragédie spojená s ukrýváním slovenských a sovětských partyzánů. Po zásahu německých bezpečnostních složek a příslušníků Hlinkovy gardy byli zabiti partyzáni, kteří se ukrývali v místním domě; jeho majitel Jozef Cverenkár a jeho čtrnáctiletá dcera Helenka byli za pomoc odboji zavražděni. Událost připomíná pamětní deska v Repákoch. Lokalita má adresy rozdělené mezi PSČ 913 32 a 913 33, proto k příběhu nepřipojujeme neověřený mapový bod.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "map_category": "memorial",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam vybraných pôšt na predaj eKolkov; oficiální adresy obcí Dolná Súča a Hrabovka",
+    "postcode_source_release": "2023-04-15",
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "PSČ 91332 potvrzuje seznam Slovenské pošty (pošta Dolná Súča 576) i oficiální adresy Dolné Súče a Hrabovky. Repákovci jsou rozděleni na úrovni adresních bodů mezi 91332 a 91333; proto se k historickému příběhu nepřipojuje přesný bod. Jedno oznámení distribuční společnosti používá pro některé adresy hlavičku 91333, ale obecní a poštovní zdroje potvrzují 91332 pro poštu Dolná Súča a obecní adresu.",
+    "delivery_office_note": "Pošta Dolná Súča, Dolná Súča 576, 913 32 Dolná Súča.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Slovenská pošta; oficiální samosprávy Dolná Súča a Hrabovka; ŠOP SR/CHKO Biele Karpaty; OpenStreetMap."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – zoznam vybraných pôšt na predaj eKolkov",
+      "url": "https://www.posta.sk/subory/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "primary"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Dolná Súča – oficiální kontaktní a obecní údaje",
+      "url": "https://www.dolnasuca.sk/obec-2/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Hrabovka – oficiální kontaktní údaje",
+      "url": "https://www.obec-hrabovka.sk/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Hrabovka – historie obce",
+      "url": "https://www.obec-hrabovka.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Dolná Súča – historie a místní pamětihodnosti",
+      "url": "https://www.dolnasuca.sk/obec-2/historia/?rss=200",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Program hospodárskeho rozvoja a sociálneho rozvoja obce Dolná Súča 2023–2027",
+      "url": "https://www.dolnasuca.sk/modules/file_storage/download.php?file=3497667e%7C218&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Slovensko.sk – oficiální profil obce Dolná Súča",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_de2ba423-e19f-4cc7-b342-3dbaaef7bde1",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "ŠOP SR / CHKO Biele Karpaty – maloplošná chráněná území",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "OpenStreetMap – orientační bod v rezervaci Krasín",
+      "url": "https://www.openstreetmap.org/?mlat=48.960508&mlon=18.0154966#map=17/48.960508/18.0154966",
+      "type": "other"
+    },
+    {
+      "id": "s10",
+      "title": "WhiteTown – hrad Súča na Krásine",
+      "url": "https://whitetown.sk/sk/suca/",
+      "type": "other"
+    },
+    {
+      "id": "s11",
+      "title": "Slovenská archeológia – výšinné sídliště v Dolné Súči",
+      "url": "https://archeol.sav.sk/files/SlA_2020_1.pdf",
+      "type": "university"
+    },
+    {
+      "id": "s12",
+      "title": "Pamiatky na Slovensku – Kostol sv. Alžbety Uhorskej",
+      "url": "https://www.pamiatkynaslovensku.sk/dolna-suca-kostol-sv-alzbety-uhorskej",
+      "type": "specialist"
+    },
+    {
+      "id": "s13",
+      "title": "Obec Dolná Súča – tradice dechové hudby",
+      "url": "https://www.dolnasuca.sk/obec-2/kultura/dychova-hudba/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Obec Dolná Súča – Súčanský kroj",
+      "url": "https://www.dolnasuca.sk/obec-2/kultura/sucansky-kroj/",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Dolná Súča – připomínka tragédie v Repákovcích",
+      "url": "https://www.dolnasuca.sk/zivot-v-obci/kalendar-akcii/turisticky-pochod-snp-147_15sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Obec Dolná Súča – místní historický zpravodaj 2014",
+      "url": "https://www.dolnasuca.sk/modules/file_storage/download.php?file=0f354405%7C10&inline=1",
+      "type": "archive"
+    },
+    {
+      "id": "s17",
+      "title": "Obec Dolná Súča – místní historický zpravodaj 2019",
+      "url": "https://www.dolnasuca.sk/modules/file_storage/download.php?file=f20309ef%7C13&inline=1",
+      "type": "archive"
+    },
+    {
+      "id": "s18",
+      "title": "Obec Dolná Súča – územní plán a soupis památkových objektů",
+      "url": "https://www.dolnasuca.sk/modules/file_storage/download.php?file=a5a76e78%7C77&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "OpenStreetMap – poloha obecního úřadu Dolná Súča",
+      "url": "https://www.openstreetmap.org/?mlat=48.9567036&mlon=18.0319101#map=18/48.9567036/18.0319101",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Dolná Súča – centrum obce u obecního úřadu",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Hrad Súča a starší archeologický areál na vrchu Krásin",
+          "text": "Na vrchu Krásin nad Dolnou Súčou stál stredoveký hrad Súča, doložený od 13. století. V 16. století jej drželi Podmaničtí; po převzetí hradu královskou komisí v roce 1549 bylo nařízeno jeho zboření a dnes zůstaly jen drobné zbytky zdiva. Archeologický výzkum na témže vrchu doložil také mnohem starší výšinné sídliště z doby stěhování národů a nálezy z pravěku i raného středověku. Krásin tak spojuje několik odlišných etap osídlení a obrany Pováží."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prírodná rezervácia Krasín – vápencový masiv s cennou flórou",
+          "text": "Vrch Krasín je chráněn jako přírodní rezervace o rozloze přibližně 26 hektarů se čtvrtým stupněm ochrany. Vápencový bradlový masiv je významný geologickými vrstvami a zkamenělinami, ale také teplomilnými trávníky a vzácnou květenou. Péče o lokalitu zahrnuje obnovu pastvy, která brání zarůstání cenných otevřených stanovišť. Územím prochází naučná trasa pojmenovaná po místním přírodovědci Jánu Miklasovi."
+        },
+        {
+          "id": "fact_003",
+          "title": "Prírodná pamiatka Súčanka – chráněný úsek horského potoka",
+          "text": "Přírodní památka Súčanka chrání přibližně 6,77 hektaru vodního toku a přilehlých stanovišť v údolí mezi Skalkou nad Váhom a Dolnou Súčou. Chráněný úsek zasahuje do katastrů Dolné Súče, Hrabovky a Skalky nad Váhom a má čtvrtý stupeň ochrany. Jde o liniové území, které propojuje více obcí i poštovních oblastí; proto mu nepřiřazujeme jeden zdánlivě přesný bod. V rámci PSČ 913 32 je relevantní jeho část u Dolné Súče a Hrabovky."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Alžběty Uherské a pamětní deska Podmanických",
+          "text": "Římskokatolický kostel sv. Alžběty Uherské patří k nejstarším historickým stavbám Dolné Súče. Starší dřevěný kostel je doložen v 16. století; po požáru roku 1754 byl v letech 1754–1756 přestavěn. Uvnitř se nachází mramorová deska s latinským epitafem Rafaela Podmanického. Místní historický pramen však upozorňuje, že ostatky nalezené při starším rozšiřování kostela nebyly jeho, takže deska sama nedokládá, že je zde Podmanický pohřben."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lurdská kaple u pramene Tři žriedla v lokalitě Kamienka",
+          "text": "V lokalitě Kamienka stojí kaple zasvěcená Lurdské Panně Marii, spojená s místním pramenem Tri žriedla. Obecní historie uvádí rok 1889, zatímco rozvojový dokument obce ji popisuje jako klasicistní kapli ze začátku 19. století. Protože se prameny v dataci rozcházejí, přesný rok výstavby nepřebíráme jako jistý. Kaple je součástí drobných sakrálních míst rozptýlených v kopaničářské krajině Dolné Súče."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda a více než 170 let tradice súčanské dechové hudby",
+          "text": "Dolná Súča má mimořádně dlouhou tradici dechové hudby. První soubor, známý jako Národná banda, založil roku 1851 učitel a varhaník Jozef Matulay. Už v roce 1853 měl šestnáct členů, převážně žáků místní školy, a později vystupoval na významných národních slavnostech v Martině i na Velehradě. Tradice pokračuje festivalem Hečkova Súča a několika místními dechovými kapelami; nejde tedy jen o historickou epizodu, ale o stále živou součást kulturní identity obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – charakteristická součást místního kroje",
+          "text": "K místnímu lidovému oděvu patřily typické súčanské papuče z ovčí vlny. Rozvojový program obce popisuje pletené soukenné varianty, bílé i černobíle vzorované, které nosili muži i ženy. Jejich výroba souvisela s chovem ovcí a někdejší domácí soukenickou tradicí; v první polovině 20. století se v obci tkalo také plátno. Papuče jsou hmotným detailem tradičního odívání, nikoli tvrzením o dnešní sériové výrobě."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – náboženský spisovatel působící v Dolné Súči",
+          "text": "V Dolné Súči působil František Xaver Hábel (1760–1846), kterého obecní rozvojový dokument uvádí mezi významnými osobnostmi obce. Hábel byl náboženský spisovatel a jeho působení představuje kulturní a duchovní spojení Dolné Súče s literárním prostředím slovenského národního obrození. Pramen jej uvádí jako osobnost spojenou s obcí, nikoli jako jejího rodáka; přesné místo jeho pobytu v obci není doloženo."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – samostatná obec s doloženou historií od roku 1423",
+          "text": "Hrabovka je samostatná obec, která sdílí PSČ 913 32 s Dolnou Súčou. První písemná zmínka o Hrabovce pochází z roku 1423. V roce 1549 daroval Rafael Podmanický Jánovi Hrabovskému a jeho bratrům dům a kúrii v Hrabovce. Záznam dokládá vazbu lokality na šlechtické rody Pováží a vysvětluje historický původ místního názvu; nedokládá však, že se uvedená kúria dochovala jako dnešní památkový objekt."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci a tragédie partyzánů z listopadu 1944",
+          "text": "V místní části Repákovci se 6. listopadu 1944 odehrála tragédie spojená s ukrýváním slovenských a sovětských partyzánů. Po zásahu německých bezpečnostních složek a příslušníků Hlinkovy gardy byli zabiti partyzáni, kteří se ukrývali v místním domě; jeho majitel Jozef Cverenkár a jeho čtrnáctiletá dcera Helenka byli za pomoc odboji zavražděni. Událost připomíná pamětní deska v Repákoch. Lokalita má adresy rozdělené mezi PSČ 913 32 a 913 33, proto k příběhu nepřipojujeme neověřený mapový bod."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Dolná Súča – Ortszentrum beim Gemeindeamt",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Burg Súča und die ältere archäologische Siedlung auf dem Krásin",
+          "text": "Auf dem Krásin oberhalb von Dolná Súča stand die mittelalterliche Burg Súča, die seit dem 13. Jahrhundert belegt ist. Im 16. Jahrhundert gehörte sie den Podmanický; nach der Übernahme durch eine königliche Kommission 1549 wurde ihre Schleifung angeordnet. Heute sind nur geringe Mauerreste erhalten. Archäologische Forschungen belegen auf demselben Berg außerdem eine viel ältere Höhensiedlung aus der Völkerwanderungszeit sowie Funde aus vorgeschichtlichen und frühmittelalterlichen Perioden."
+        },
+        {
+          "id": "fact_002",
+          "title": "Naturreservat Krasín – Kalkmassiv mit wertvoller Flora",
+          "text": "Der Berg Krasín ist als Naturreservat von etwa 26 Hektar mit der vierten Schutzstufe geschützt. Das Kalkmassiv ist wegen seiner geologischen Schichten und Fossilien, aber auch wegen wärmeliebender Trockenrasen und seltener Pflanzen wertvoll. Die Pflege umfasst die Wiederaufnahme der Beweidung, um offene Lebensräume zu erhalten. Durch das Gebiet führt ein Lehrpfad, der nach dem örtlichen Naturforscher Ján Miklas benannt ist."
+        },
+        {
+          "id": "fact_003",
+          "title": "Naturdenkmal Súčanka – geschützter Abschnitt eines Gebirgsbachs",
+          "text": "Das Naturdenkmal Súčanka schützt rund 6,77 Hektar eines Wasserlaufs und angrenzender Lebensräume im Tal zwischen Skalka nad Váhom und Dolná Súča. Das Schutzgebiet erstreckt sich über die Katastergebiete Dolná Súča, Hrabovka und Skalka nad Váhom und steht unter der vierten Schutzstufe. Da es sich um ein lineares, gemeindeübergreifendes Gebiet handelt, wird ihm kein scheinbar genauer Einzelpunkt zugewiesen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kirche der heiligen Elisabeth von Ungarn und die Gedenktafel der Podmanický",
+          "text": "Die römisch-katholische Kirche der heiligen Elisabeth von Ungarn gehört zu den ältesten historischen Bauwerken von Dolná Súča. Eine ältere Holzkirche ist im 16. Jahrhundert belegt; nach einem Brand 1754 wurde sie 1754–1756 umgebaut. Im Inneren befindet sich eine Marmortafel mit dem lateinischen Epitaph von Rafael Podmanický. Die örtliche Geschichtsdarstellung weist jedoch darauf hin, dass die bei einer früheren Erweiterung gefundenen Gebeine nicht von ihm stammten; die Tafel beweist daher nicht seine Bestattung hier."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lourdeskapelle bei der Quelle Tri žriedla in Kamienka",
+          "text": "In Kamienka steht eine der Muttergottes von Lourdes geweihte Kapelle bei der Quelle Tri žriedla. Die Gemeindechronik nennt 1889 als Baujahr, während das Entwicklungsprogramm die klassizistische Kapelle auf den Beginn des 19. Jahrhunderts datiert. Da sich die Quellen widersprechen, wird kein genaues Baujahr als gesichert angegeben. Die Kapelle gehört zu den kleinen sakralen Orten in der verstreuten Berglandschaft von Dolná Súča."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda und die über 170-jährige Blasmusiktradition",
+          "text": "Dolná Súča besitzt eine außergewöhnlich lange Blasmusiktradition. Das erste Ensemble, bekannt als Národná banda, gründete 1851 der Lehrer und Organist Jozef Matulay. Bereits 1853 hatte es sechzehn Mitglieder, vor allem Schüler der örtlichen Schule, und trat später bei bedeutenden nationalen Feiern in Martin und Velehrad auf. Die Tradition lebt mit dem Festival Hečkova Súča und mehreren örtlichen Blaskapellen weiter."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – ein charakteristischer Teil der örtlichen Tracht",
+          "text": "Zur örtlichen Volkstracht gehörten die typischen Súčanské papuče aus Schafwolle. Das Gemeindeentwicklungsprogramm beschreibt gestrickte Wollschuhe, einfarbig weiß oder schwarz-weiß gemustert, die von Männern und Frauen getragen wurden. Ihre Herstellung hing mit der Schafzucht und der früheren Tuchmacherei zusammen; in der ersten Hälfte des 20. Jahrhunderts wurde im Ort auch Leinen gewebt. Die Papuče sind ein Detail der traditionellen Kleidung, keine Behauptung über heutige Serienproduktion."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – religiöser Schriftsteller mit Bezug zu Dolná Súča",
+          "text": "In Dolná Súča wirkte František Xaver Hábel (1760–1846), den das Gemeindeentwicklungsprogramm unter den bedeutenden Persönlichkeiten des Ortes aufführt. Hábel war religiöser Schriftsteller und verbindet Dolná Súča mit dem literarischen Umfeld der slowakischen Nationalen Wiedergeburt. Die Quelle nennt ihn als mit der Gemeinde verbundene Persönlichkeit, nicht als dort geborenen Menschen; sein genauer Aufenthaltsort im Ort ist nicht belegt."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – eigenständige Gemeinde mit Geschichte seit 1423",
+          "text": "Hrabovka ist eine eigenständige Gemeinde, die mit Dolná Súča die Postleitzahl 913 32 teilt. Die erste schriftliche Erwähnung stammt aus dem Jahr 1423. 1549 schenkte Rafael Podmanický Ján Hrabovský und seinen Brüdern ein Haus und ein Herrenhaus in Hrabovka. Der Eintrag belegt die Verbindung des Ortes mit den Adelsfamilien des Waagtals, nicht jedoch, dass das damalige Herrenhaus als heutiges Denkmal erhalten ist."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci und die Tragödie der Partisanen im November 1944",
+          "text": "Am 6. November 1944 ereignete sich im Ortsteil Repákovci eine Tragödie im Zusammenhang mit der Versteckung slowakischer und sowjetischer Partisanen. Nach einem Einsatz deutscher Sicherheitskräfte und Angehöriger der Hlinka-Garde wurden Partisanen getötet, die in einem Haus Zuflucht gefunden hatten; der Hauseigentümer Jozef Cverenkár und seine vierzehnjährige Tochter Helenka wurden wegen ihrer Hilfe für den Widerstand ermordet. Eine Gedenktafel in Repáky erinnert an das Ereignis. Da die Adressen des Ortsteils auf die Postleitzahlen 913 32 und 913 33 verteilt sind, wird kein unbestätigter Kartenpunkt gesetzt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Dolná Súča – village centre by the municipal office",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Súča Castle and the earlier archaeological settlement on Krásin",
+          "text": "The medieval Súča Castle stood on Krásin above Dolná Súča and is documented from the 13th century. In the 16th century it belonged to the Podmanický family; after a royal commission took it over in 1549, its demolition was ordered. Only small wall remains survive. Archaeological research on the same hill also documented a much older Migration Period hilltop settlement and finds from prehistoric and early medieval periods."
+        },
+        {
+          "id": "fact_002",
+          "title": "Krasín Nature Reserve – a limestone ridge with valuable flora",
+          "text": "Krasín is protected as a nature reserve of about 26 hectares under the fourth level of protection. The limestone ridge is valuable for its geological layers and fossils, as well as warm-loving grasslands and rare plants. Conservation work includes restoring grazing to keep open habitats from becoming overgrown. The Ján Miklas educational trail passes through the area."
+        },
+        {
+          "id": "fact_003",
+          "title": "Súčanka Natural Monument – a protected mountain-stream section",
+          "text": "The Súčanka Natural Monument protects about 6.77 hectares of stream and adjacent habitats in the valley between Skalka nad Váhom and Dolná Súča. It extends across the cadastral areas of Dolná Súča, Hrabovka and Skalka nad Váhom and has fourth-level protection. As a linear feature crossing several municipalities and postal areas, it is not assigned a misleading single map point."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church of St Elizabeth of Hungary and the Podmanický memorial tablet",
+          "text": "The Roman Catholic Church of St Elizabeth of Hungary is among the oldest historic buildings in Dolná Súča. An earlier wooden church is documented in the 16th century; after a fire in 1754 it was rebuilt in 1754–1756. Inside is a marble tablet bearing the Latin epitaph of Rafael Podmanický. Local history cautions that remains found during an earlier enlargement did not belong to him, so the tablet does not prove that he was buried here."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lourdes Chapel by the Tri žriedla spring in Kamienka",
+          "text": "A chapel dedicated to Our Lady of Lourdes stands in Kamienka near the Tri žriedla spring. The municipal history gives 1889 as its construction date, while the development programme describes it as an early-19th-century Classicist chapel. Because the sources disagree, no exact year is treated as certain. It is one of the small sacred places in Dolná Súča’s scattered upland landscape."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda and more than 170 years of brass-band tradition",
+          "text": "Dolná Súča has an exceptionally long brass-band tradition. The first ensemble, known as Národná banda, was founded in 1851 by teacher and organist Jozef Matulay. By 1853 it had sixteen members, mostly pupils from the local school, and later performed at major national celebrations in Martin and Velehrad. The tradition continues through the Hečkova Súča festival and several local brass bands."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – a distinctive part of local folk dress",
+          "text": "The local folk costume included the characteristic Súčanské papuče made from sheep’s wool. The municipal development programme describes knitted wool slippers, plain white or patterned black and white, worn by both men and women. Their making was linked to sheep farming and the former cloth-making tradition; linen was also woven locally in the first half of the 20th century. This records a traditional garment, not present-day mass production."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – religious writer associated with Dolná Súča",
+          "text": "František Xaver Hábel (1760–1846) worked in Dolná Súča and is listed among the municipality’s notable associated figures in its development programme. He was a religious writer and connects the village with the literary milieu of the Slovak national revival. The source identifies him as a person associated with the municipality, not as a native; his exact place of residence in the village is not documented."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – an independent municipality with a history dating to 1423",
+          "text": "Hrabovka is an independent municipality that shares postcode 913 32 with Dolná Súča. Its first written mention dates to 1423. In 1549 Rafael Podmanický granted Ján Hrabovský and his brothers a house and manor in Hrabovka. The record documents the locality’s links with the noble families of the Váh region, but does not establish that the manor survives as a present-day monument."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci and the partisan tragedy of November 1944",
+          "text": "On 6 November 1944, a tragedy connected with the sheltering of Slovak and Soviet partisans took place in Repákovci. After an operation by German security forces and members of the Hlinka Guard, partisans hiding in a local house were killed; the owner, Jozef Cverenkár, and his fourteen-year-old daughter Helenka were murdered for helping the resistance. A memorial plaque in Repáky commemorates the event. Addresses in this locality are split between postcodes 913 32 and 913 33, so no unverified map point is assigned."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Dolná Súča – centro del municipio junto al ayuntamiento",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Castillo de Súča y asentamiento arqueológico anterior en Krásin",
+          "text": "En Krásin, sobre Dolná Súča, se alzaba el castillo medieval de Súča, documentado desde el siglo XIII. En el siglo XVI perteneció a la familia Podmanický; tras su toma por una comisión real en 1549 se ordenó demolerlo. Hoy solo quedan pequeños restos de muros. La investigación arqueológica también documentó en la misma montaña un asentamiento elevado mucho más antiguo del período de las migraciones y hallazgos prehistóricos y altomedievales."
+        },
+        {
+          "id": "fact_002",
+          "title": "Reserva natural de Krasín – cresta caliza con flora valiosa",
+          "text": "Krasín está protegido como reserva natural de unas 26 hectáreas y cuarto grado de protección. El macizo calizo destaca por sus estratos geológicos y fósiles, además de praderas termófilas y plantas raras. La conservación incluye recuperar el pastoreo para evitar que los hábitats abiertos se cubran de matorral. Por la zona pasa el sendero educativo Ján Miklas."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumento natural Súčanka – tramo protegido de un arroyo de montaña",
+          "text": "El monumento natural Súčanka protege unos 6,77 hectáreas de curso de agua y hábitats ribereños en el valle entre Skalka nad Váhom y Dolná Súča. Se extiende por los términos catastrales de Dolná Súča, Hrabovka y Skalka nad Váhom y tiene cuarto grado de protección. Al ser un espacio lineal que cruza varios municipios y códigos postales, no se le asigna un único punto cartográfico engañoso."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de santa Isabel de Hungría y lápida conmemorativa de los Podmanický",
+          "text": "La iglesia católica romana de santa Isabel de Hungría es uno de los edificios históricos más antiguos de Dolná Súča. Una iglesia de madera anterior está documentada en el siglo XVI; tras un incendio en 1754 fue reconstruida entre 1754 y 1756. En su interior hay una lápida de mármol con el epitafio latino de Rafael Podmanický. La historia local advierte que los restos hallados durante una ampliación anterior no eran suyos, por lo que la lápida no demuestra que esté enterrado aquí."
+        },
+        {
+          "id": "fact_005",
+          "title": "Capilla de Lourdes junto al manantial Tri žriedla en Kamienka",
+          "text": "En Kamienka hay una capilla dedicada a Nuestra Señora de Lourdes, junto al manantial Tri žriedla. La historia municipal indica 1889 como fecha de construcción, mientras que el programa de desarrollo la describe como una capilla clasicista de principios del siglo XIX. Como las fuentes discrepan, no se considera segura una fecha exacta. Es uno de los pequeños lugares religiosos del paisaje disperso de Dolná Súča."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda y más de 170 años de tradición de bandas de viento",
+          "text": "Dolná Súča tiene una tradición excepcionalmente larga de bandas de viento. El primer conjunto, conocido como Národná banda, fue fundado en 1851 por el maestro y organista Jozef Matulay. En 1853 tenía dieciséis miembros, en su mayoría alumnos de la escuela local, y después actuó en importantes celebraciones nacionales en Martin y Velehrad. La tradición continúa con el festival Hečkova Súča y varias bandas locales."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – parte característica del traje tradicional local",
+          "text": "El traje tradicional local incluía las características Súčanské papuče, hechas de lana de oveja. El programa municipal describe zapatillas de lana tejidas, blancas o con dibujos negros y blancos, usadas por hombres y mujeres. Su elaboración estaba relacionada con la cría de ovejas y la antigua producción de paños; en la primera mitad del siglo XX también se tejía lino. Se documenta una prenda tradicional, no una producción industrial actual."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – escritor religioso vinculado a Dolná Súča",
+          "text": "František Xaver Hábel (1760–1846) trabajó en Dolná Súča y figura entre las personalidades vinculadas al municipio en su programa de desarrollo. Fue escritor religioso y conecta la localidad con el ambiente literario del renacimiento nacional eslovaco. La fuente lo identifica como una persona relacionada con el municipio, no como natural de allí; no se conoce su domicilio exacto en la localidad."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – municipio independiente con historia documentada desde 1423",
+          "text": "Hrabovka es un municipio independiente que comparte el código postal 913 32 con Dolná Súča. Su primera mención escrita data de 1423. En 1549 Rafael Podmanický entregó a Ján Hrabovský y sus hermanos una casa y una mansión en Hrabovka. El documento acredita los vínculos de la localidad con las familias nobles del valle del Váh, pero no demuestra que la mansión se conserve como monumento actual."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci y la tragedia de los partisanos de noviembre de 1944",
+          "text": "El 6 de noviembre de 1944 tuvo lugar en Repákovci una tragedia relacionada con el refugio de partisanos eslovacos y soviéticos. Tras una operación de las fuerzas de seguridad alemanas y miembros de la Guardia de Hlinka, murieron partisanos escondidos en una casa local; el propietario, Jozef Cverenkár, y su hija Helenka, de catorce años, fueron asesinados por ayudar a la resistencia. Una placa conmemorativa en Repáky recuerda el hecho. Las direcciones de la localidad se reparten entre los códigos 913 32 y 913 33, por lo que no se asigna un punto cartográfico sin verificar."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Dolná Súča – centre du village près de la mairie",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Château de Súča et ancien habitat archéologique sur le Krásin",
+          "text": "Le château médiéval de Súča se dressait sur le Krásin, au-dessus de Dolná Súča, et est attesté depuis le XIIIe siècle. Au XVIe siècle, il appartenait aux Podmanický ; après sa prise par une commission royale en 1549, sa démolition fut ordonnée. Il n’en reste que quelques vestiges de murs. Les recherches archéologiques ont également révélé sur la même colline un habitat de hauteur beaucoup plus ancien, de la période des migrations, ainsi que des découvertes préhistoriques et du haut Moyen Âge."
+        },
+        {
+          "id": "fact_002",
+          "title": "Réserve naturelle de Krasín – massif calcaire à flore remarquable",
+          "text": "Krasín est protégé comme réserve naturelle d’environ 26 hectares, au quatrième degré de protection. Le massif calcaire est remarquable par ses couches géologiques et ses fossiles, mais aussi par ses pelouses thermophiles et sa flore rare. La gestion comprend le rétablissement du pâturage afin d’éviter l’embroussaillement des milieux ouverts. Le sentier pédagogique Ján Miklas traverse le secteur."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monument naturel Súčanka – tronçon protégé d’un ruisseau de montagne",
+          "text": "Le monument naturel Súčanka protège environ 6,77 hectares de cours d’eau et d’habitats riverains dans la vallée entre Skalka nad Váhom et Dolná Súča. Il s’étend sur les territoires cadastraux de Dolná Súča, Hrabovka et Skalka nad Váhom et bénéficie du quatrième degré de protection. Comme il s’agit d’un espace linéaire traversant plusieurs communes et codes postaux, aucun point cartographique unique et trompeur ne lui est attribué."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église Sainte-Élisabeth de Hongrie et plaque commémorative des Podmanický",
+          "text": "L’église catholique romaine Sainte-Élisabeth de Hongrie compte parmi les plus anciens bâtiments historiques de Dolná Súča. Une église en bois antérieure est attestée au XVIe siècle ; après un incendie en 1754, elle fut reconstruite entre 1754 et 1756. À l’intérieur se trouve une plaque de marbre portant l’épitaphe latine de Rafael Podmanický. L’histoire locale précise toutefois que les restes découverts lors d’un agrandissement ancien n’étaient pas les siens ; la plaque ne prouve donc pas qu’il soit enterré ici."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chapelle de Lourdes près de la source Tri žriedla à Kamienka",
+          "text": "À Kamienka se trouve une chapelle dédiée à Notre-Dame de Lourdes, près de la source Tri žriedla. L’histoire communale donne 1889 comme date de construction, tandis que le programme de développement la décrit comme une chapelle classique du début du XIXe siècle. Les sources étant contradictoires, aucune année précise n’est présentée comme certaine. Elle fait partie des petits lieux de dévotion du paysage dispersé de Dolná Súča."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda et plus de 170 ans de tradition des fanfares",
+          "text": "Dolná Súča possède une très longue tradition de fanfares. Le premier ensemble, connu sous le nom de Národná banda, fut fondé en 1851 par l’instituteur et organiste Jozef Matulay. En 1853, il comptait seize membres, surtout des élèves de l’école locale, puis se produisit lors de grandes fêtes nationales à Martin et Velehrad. La tradition se poursuit avec le festival Hečkova Súča et plusieurs fanfares locales."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – élément caractéristique du costume traditionnel local",
+          "text": "Le costume populaire local comprenait les Súčanské papuče, des chaussons caractéristiques en laine de mouton. Le programme communal décrit des chaussons de laine tricotés, blancs ou à motifs noirs et blancs, portés par les hommes et les femmes. Leur fabrication était liée à l’élevage ovin et à l’ancienne production de drap ; le lin était également tissé dans la première moitié du XXe siècle. Il s’agit d’un vêtement traditionnel, pas d’une production industrielle actuelle."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – écrivain religieux lié à Dolná Súča",
+          "text": "František Xaver Hábel (1760–1846) a exercé à Dolná Súča et figure parmi les personnalités liées à la commune dans son programme de développement. Écrivain religieux, il relie la localité au milieu littéraire du renouveau national slovaque. La source le présente comme une personnalité associée à la commune, et non comme un natif ; son lieu de résidence précis dans le village n’est pas documenté."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – commune indépendante dont l’histoire est attestée depuis 1423",
+          "text": "Hrabovka est une commune indépendante qui partage le code postal 913 32 avec Dolná Súča. Sa première mention écrite date de 1423. En 1549, Rafael Podmanický accorda une maison et un manoir à Ján Hrabovský et à ses frères à Hrabovka. Cette mention atteste les liens du lieu avec les familles nobles de la vallée du Váh, sans prouver que le manoir soit conservé comme monument actuel."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci et la tragédie des partisans de novembre 1944",
+          "text": "Le 6 novembre 1944, une tragédie liée à l’hébergement de partisans slovaques et soviétiques eut lieu à Repákovci. Après une opération des forces de sécurité allemandes et de membres de la Garde Hlinka, des partisans cachés dans une maison locale furent tués ; le propriétaire, Jozef Cverenkár, et sa fille Helenka, âgée de quatorze ans, furent assassinés pour leur aide à la résistance. Une plaque à Repáky commémore l’événement. Les adresses du lieu-dit relèvent des codes 913 32 et 913 33 ; aucun point non vérifié n’est donc ajouté."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Dolná Súča – centro del comune presso il municipio",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Castello di Súča e antico insediamento archeologico sul Krásin",
+          "text": "Sul Krásin, sopra Dolná Súča, sorgeva il castello medievale di Súča, documentato dal XIII secolo. Nel XVI secolo appartenne ai Podmanický; dopo la presa da parte di una commissione reale nel 1549 ne fu ordinata la demolizione. Oggi restano solo pochi ruderi. Le ricerche archeologiche hanno documentato sulla stessa altura anche un insediamento molto più antico del periodo delle migrazioni e reperti preistorici e altomedievali."
+        },
+        {
+          "id": "fact_002",
+          "title": "Riserva naturale di Krasín – massiccio calcareo con flora preziosa",
+          "text": "Krasín è protetto come riserva naturale di circa 26 ettari con il quarto livello di tutela. Il massiccio calcareo è importante per gli strati geologici e i fossili, ma anche per i prati termofili e le piante rare. La gestione prevede il ripristino del pascolo per impedire l’invasione degli arbusti. L’area è attraversata dal percorso didattico Ján Miklas."
+        },
+        {
+          "id": "fact_003",
+          "title": "Monumento naturale Súčanka – tratto protetto di un torrente montano",
+          "text": "Il monumento naturale Súčanka protegge circa 6,77 ettari di corso d’acqua e habitat ripariali nella valle tra Skalka nad Váhom e Dolná Súča. Si estende nei territori catastali di Dolná Súča, Hrabovka e Skalka nad Váhom ed è sottoposto al quarto livello di tutela. Essendo un’area lineare che attraversa più comuni e codici postali, non le viene assegnato un unico punto cartografico fuorviante."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa di Sant’Elisabetta d’Ungheria e lapide dei Podmanický",
+          "text": "La chiesa cattolica romana di Sant’Elisabetta d’Ungheria è uno degli edifici storici più antichi di Dolná Súča. Una precedente chiesa in legno è documentata nel XVI secolo; dopo un incendio nel 1754 fu ricostruita tra il 1754 e il 1756. All’interno si trova una lapide marmorea con l’epitaffio latino di Rafael Podmanický. La storia locale precisa però che i resti rinvenuti durante un ampliamento non erano suoi: la lapide non prova quindi che sia sepolto qui."
+        },
+        {
+          "id": "fact_005",
+          "title": "Cappella di Lourdes presso la sorgente Tri žriedla a Kamienka",
+          "text": "A Kamienka sorge una cappella dedicata alla Madonna di Lourdes, vicino alla sorgente Tri žriedla. La storia comunale indica il 1889 come anno di costruzione, mentre il programma di sviluppo la descrive come cappella classicista dell’inizio del XIX secolo. Poiché le fonti non concordano, non viene indicata una data certa. È uno dei piccoli luoghi di devozione nel paesaggio disperso di Dolná Súča."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda e oltre 170 anni di tradizione bandistica",
+          "text": "Dolná Súča vanta una tradizione molto lunga di bande musicali. Il primo ensemble, noto come Národná banda, fu fondato nel 1851 dall’insegnante e organista Jozef Matulay. Nel 1853 contava sedici membri, soprattutto alunni della scuola locale, e in seguito si esibì in importanti celebrazioni nazionali a Martin e Velehrad. La tradizione continua con il festival Hečkova Súča e diverse bande locali."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – elemento caratteristico del costume tradizionale",
+          "text": "Il costume popolare locale comprendeva le tipiche Súčanské papuče, pantofole di lana di pecora. Il programma comunale descrive modelli di lana lavorati a maglia, bianchi o con motivi bianchi e neri, indossati da uomini e donne. La loro produzione era legata all’allevamento ovino e all’antica lavorazione dei panni; nella prima metà del Novecento si tesseva anche il lino. Si tratta di un capo tradizionale, non di una produzione industriale attuale."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – scrittore religioso legato a Dolná Súča",
+          "text": "František Xaver Hábel (1760–1846) operò a Dolná Súča ed è citato nel programma comunale tra le personalità legate al paese. Fu uno scrittore religioso e collega la località all’ambiente letterario del risveglio nazionale slovacco. La fonte lo indica come persona legata al comune, non come suo nativo; il luogo preciso della sua residenza nel paese non è documentato."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – comune autonomo con storia documentata dal 1423",
+          "text": "Hrabovka è un comune autonomo che condivide il codice postale 913 32 con Dolná Súča. La prima menzione scritta risale al 1423. Nel 1549 Rafael Podmanický donò a Ján Hrabovský e ai suoi fratelli una casa e una residenza signorile a Hrabovka. Il documento attesta i legami del luogo con le famiglie nobili della valle del Váh, ma non prova che la residenza sia conservata come monumento attuale."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci e la tragedia dei partigiani del novembre 1944",
+          "text": "Il 6 novembre 1944 a Repákovci si verificò una tragedia legata all’ospitalità data a partigiani slovacchi e sovietici. Dopo un’operazione delle forze di sicurezza tedesche e di membri della Guardia di Hlinka, i partigiani nascosti in una casa locale furono uccisi; il proprietario Jozef Cverenkár e la figlia Helenka, di quattordici anni, furono assassinati per aver aiutato la resistenza. Una lapide a Repáky ricorda l’evento. Gli indirizzi della località sono divisi tra i codici 913 32 e 913 33, quindi non viene aggiunto un punto cartografico non verificato."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Dolná Súča – dorpscentrum bij het gemeentehuis",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kasteel Súča en de oudere archeologische nederzetting op Krásin",
+          "text": "Op de Krásin boven Dolná Súča stond het middeleeuwse kasteel Súča, dat vanaf de 13e eeuw is gedocumenteerd. In de 16e eeuw was het in handen van de familie Podmanický; nadat een koninklijke commissie het in 1549 overnam, werd de afbraak bevolen. Alleen kleine muurresten zijn overgebleven. Archeologisch onderzoek heeft op dezelfde heuvel ook een veel oudere hooggelegen nederzetting uit de Volksverhuizing en vondsten uit prehistorische en vroegmiddeleeuwse perioden aangetoond."
+        },
+        {
+          "id": "fact_002",
+          "title": "Natuurreservaat Krasín – kalkmassief met waardevolle flora",
+          "text": "Krasín is beschermd als natuurreservaat van ongeveer 26 hectare met het vierde beschermingsniveau. Het kalkmassief is waardevol vanwege zijn geologische lagen en fossielen, maar ook door warmteminnende graslanden en zeldzame planten. Het beheer omvat het herstellen van begrazing om open leefgebieden te behouden. Het educatieve pad Ján Miklas loopt door het gebied."
+        },
+        {
+          "id": "fact_003",
+          "title": "Natuurmonument Súčanka – beschermd deel van een bergbeek",
+          "text": "Het natuurmonument Súčanka beschermt ongeveer 6,77 hectare waterloop en aangrenzende oevers in het dal tussen Skalka nad Váhom en Dolná Súča. Het gebied strekt zich uit over de kadastrale gebieden Dolná Súča, Hrabovka en Skalka nad Váhom en heeft het vierde beschermingsniveau. Omdat het een langgerekt gebied is dat meerdere gemeenten en postcodes doorkruist, wordt er geen misleidend enkel kaartpunt aan gekoppeld."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kerk van Sint-Elisabeth van Hongarije en de gedenkplaat van de Podmanický-familie",
+          "text": "De rooms-katholieke kerk van Sint-Elisabeth van Hongarije behoort tot de oudste historische gebouwen van Dolná Súča. Een oudere houten kerk is in de 16e eeuw gedocumenteerd; na een brand in 1754 werd zij tussen 1754 en 1756 herbouwd. Binnen bevindt zich een marmeren plaat met het Latijnse grafschrift van Rafael Podmanický. De lokale geschiedschrijving waarschuwt echter dat de bij een eerdere uitbreiding gevonden menselijke resten niet van hem waren; de plaat bewijst dus niet dat hij hier begraven ligt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Lourdeskapel bij de bron Tri žriedla in Kamienka",
+          "text": "In Kamienka staat een kapel gewijd aan Onze-Lieve-Vrouw van Lourdes, bij de bron Tri žriedla. De gemeentelijke geschiedenis noemt 1889 als bouwjaar, terwijl het ontwikkelingsprogramma de kapel als vroeg-19e-eeuws classicistisch beschrijft. Omdat de bronnen elkaar tegenspreken, wordt geen exact bouwjaar als zeker vermeld. De kapel is een van de kleine religieuze plekken in het verspreide heuvellandschap van Dolná Súča."
+        },
+        {
+          "id": "fact_006",
+          "title": "Národná banda en meer dan 170 jaar blaasmuziektraditie",
+          "text": "Dolná Súča heeft een uitzonderlijk lange traditie van blaasmuziek. Het eerste ensemble, bekend als Národná banda, werd in 1851 opgericht door leraar en organist Jozef Matulay. In 1853 telde het zestien leden, vooral leerlingen van de plaatselijke school, en later trad het op bij belangrijke nationale vieringen in Martin en Velehrad. De traditie leeft voort met het festival Hečkova Súča en verschillende plaatselijke blaaskapellen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Súčanské papuče – een kenmerkend onderdeel van de lokale klederdracht",
+          "text": "De plaatselijke klederdracht omvatte de karakteristieke Súčanské papuče van schapenwol. Het gemeentelijke ontwikkelingsprogramma beschrijft gebreide wollen sloffen, effen wit of zwart-wit gemusterd, die door mannen en vrouwen werden gedragen. De productie hing samen met schapenhouderij en de vroegere lakenbewerking; in de eerste helft van de 20e eeuw werd er ook linnen geweven. Dit beschrijft traditionele kleding, geen huidige massaproductie."
+        },
+        {
+          "id": "fact_008",
+          "title": "František Xaver Hábel – religieus schrijver verbonden met Dolná Súča",
+          "text": "František Xaver Hábel (1760–1846) was werkzaam in Dolná Súča en staat in het gemeentelijke ontwikkelingsprogramma bij de belangrijke met de plaats verbonden personen. Hij was religieus schrijver en verbindt de plaats met het literaire milieu van de Slowaakse nationale heropleving. De bron noemt hem als persoon die met de gemeente verbonden was, niet als geboren inwoner; zijn exacte woonadres in het dorp is niet bekend."
+        },
+        {
+          "id": "fact_009",
+          "title": "Hrabovka – zelfstandige gemeente met geschiedenis vanaf 1423",
+          "text": "Hrabovka is een zelfstandige gemeente die postcode 913 32 deelt met Dolná Súča. De eerste schriftelijke vermelding dateert uit 1423. In 1549 schonk Rafael Podmanický een huis en een landhuis in Hrabovka aan Ján Hrabovský en zijn broers. De vermelding documenteert de banden van de plaats met adellijke families uit de Váh-vallei, maar bewijst niet dat het landhuis als huidig monument bewaard is gebleven."
+        },
+        {
+          "id": "fact_010",
+          "title": "Repákovci en de partizanentragedie van november 1944",
+          "text": "Op 6 november 1944 vond in Repákovci een tragedie plaats die verband hield met het onderdak bieden aan Slowaakse en Sovjetpartizanen. Na een actie van Duitse veiligheidsdiensten en leden van de Hlinka-garde werden partizanen die in een plaatselijk huis verborgen zaten gedood; de eigenaar Jozef Cverenkár en zijn veertienjarige dochter Helenka werden vermoord omdat zij het verzet hielpen. Een gedenkplaat in Repáky herdenkt de gebeurtenis. Adressen in deze plaats zijn verdeeld over de postcodes 913 32 en 913 33; daarom wordt geen onbevestigd kaartpunt toegevoegd."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
