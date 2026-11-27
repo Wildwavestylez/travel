@@ -9,6 +9,10 @@ Germany-first postcode road-trip simulator and a multi-country geographic conten
 - German postcode data lives under `data/germany/`; Czech postcode data lives under `data/czechia/`; Italian CAP documentation and sequence live under `data/italy/`.
 - Follow the country-specific prompts and standards before creating, reworking, auditing or publishing records.
 
+## Shared editorial production standard
+
+All country rework workflows must also follow [`data/REWORK_QUALITY_STANDARD.md`](data/REWORK_QUALITY_STANDARD.md). This common layer sets the project-wide expectation for substantial, story-led facts; targeted but complete research; claim-level evidence; meaningful geographic assignment; equivalent seven-language localization; autonomous completion of each record; and strict respect for user-defined batch boundaries. Country-specific schemas, Content Standards, Country Profiles, storage rules and lifecycle instructions remain authoritative for their own country and are never replaced by the shared layer.
+
 ## Canonical production data stores
 
 - **Germany:** use the German storage and publication rules documented in the Germany-specific project files.
