@@ -1,4 +1,640 @@
 {
   "postcode": "91333",
-  "status": "placeholder"
+  "city": "Horná Súča",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Horná Súča – centrum obce v okolí kostela sv. Jana Nepomuckého",
+  "representative_point": {
+    "lat": 48.9735611,
+    "lon": 17.9767556
+  },
+  "access_point": {
+    "lat": 48.9735611,
+    "lon": 17.9767556
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Od společné Súče k samostatné farnosti Horní Súče",
+      "text": "Horná a Dolná Súča tvořily původně společné historické území spojené se súčanským hradním panstvím. Nejstarší písemná zmínka o Súči pochází z roku 1208; listina tehdy popisuje hranice majetku a zmiňuje území „de Sucsa“, nikoli ještě dnešní dvě obce v jejich současné podobě. Horná Súča se postupně rozvíjela jako kopaničářské sídlo v Bílých Karpatech. Roku 1771 zde vznikl kostel a samostatná farnost, čímž se završilo důležité církevní i společenské osamostatnění od Dolní Súče.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6",
+        "s18"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Jana Nepomuckého – barokní počátky a přestavba v roce 1923",
+      "text": "Dominantou Horní Súče je římskokatolický kostel sv. Jana Nepomuckého, postavený roku 1771 z iniciativy grófa Jána Illésházyho. Původně jednolodní barokní stavba byla roku 1923 rozšířena o boční lodě a získala dnešní trojlodní podobu. Z původního vybavení se dochovaly cenné prvky, mimo jiné klasicistní boční oltář Panny Marie, barokní kamenná křtitelnice z roku 1720 a pozdně barokní věčná lampa z roku 1786. Na kůru stojí dvoumanuálové varhany z roku 1943.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s7",
+        "s18"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Jana Nepomuckého, Horná Súča",
+        "address": "Horná Súča, 913 33 Horná Súča, Slovakia",
+        "lat": 48.973278,
+        "lon": 17.97678,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/horna-suca-kostol-sv-jana-nepomuckeho"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Michal Rešetka – farář, literární historik a průkopník vzdělávání",
+      "text": "Michal Rešetka (1794–1854) přišel do Horní Súče jako farář v roce 1834 a působil zde až do smrti. Přestože se narodil v Bobotu, právě Horní Súča se stala hlavním působištěm jeho mimořádné kulturní a vzdělávací práce. Shromáždil rozsáhlou knihovnu přibližně tisíce slovenských svazků a vzácných rukopisů, kterou využívali badatelé z širšího okolí. Roku 1843 založil nedělní školu, označovanou obcí za první na Slovensku; navštěvovalo ji 70 až 80 posluchačů. Jeho sbírky se později staly majetkem Matice slovenské.",
+      "category": "people",
+      "priority": "B",
+      "sources": [
+        "s9",
+        "s10",
+        "s26"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Cintorín Horná Súča – místo posledního odpočinku Michala Rešetky",
+        "address": null,
+        "lat": 48.9717403,
+        "lon": 17.9834372,
+        "type": "cemetery",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w336950441"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Jozef Hotko a kragujevská vzpoura – pamětní tabule v Dúbravě",
+      "text": "V osadě Dúbrava připomíná pamětní tabule na kulturním domě Jozefa Hotka, místního účastníka vzpoury slovenských vojáků v srbském Kragujevaci. V červnu 1918 se vojáci 71. pěšího pluku postavili proti válečnému nasazení a šikaně; 44 slovenských mužů bylo 8. června popraveno. Hotko patřil mezi popravené. Jeho osud propojuje odlehlou karpatskou kopanici s jednou z nejtragičtějších kapitol slovenských vojenských dějin první světové války.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Kultúrny dom Dúbrava – pamětní tabule Jozefa Hotka",
+        "address": "Dúbrava 481, 913 33 Horná Súča, Slovakia",
+        "lat": 48.9578296,
+        "lon": 17.9641293,
+        "type": "cultural_center",
+        "accuracy": "approximate",
+        "source": "https://www.oma.sk/n13307661824?s=poi"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Krásny Dub – vypálená kopanice a válečná paměť",
+      "text": "Krásny Dub, nejmenší z hornosúčanských kopanic, těžce zasáhla druhá světová válka. Místní kronika a obecní vzpomínkové materiály popisují vypálení domů v osadě u Mikušov; zpravodaj obce při připomínce 71. výročí Slovenského národního povstání uvádí sedm vypálených domů a stodol. Obyvatelé podle svědectví nemohli z hořících stavení nic zachránit. Událost dnes připomíná památníček s textem a fotografiemi, u něhož se konají pietní vzpomínky.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s14",
+        "s15"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Bílé Karpaty – soustava chráněných mokřadů, lesů a orchidejových luk",
+      "text": "Celé katastrální území Horní Súče leží v Chráněné krajinné oblasti Bílé Karpaty. Nacházejí se zde čtyři maloplošná chráněná území: rezervace Debšín s lesním sesuvným prameništěm a starou bučinou, Hornozávrská mokřad s prameništními společenstvy a orchidejemi, přírodní památka Podsalašie chránící cenný starý les a houby a lokalita Včelíny s druhově bohatými suchými loukami. Na území zasahují také evropsky významné lokality Lipnický a Stehlíkovské, důležité mimo jiné pro vzácné modrásky a další motýly.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Kopanice Horní Súče – rozptýlené osídlení a zachovaná lidová architektura",
+      "text": "Identitu Horní Súče utváří pět kopanic – Dúbrava, Trnávka, Závrská, Vlčí Vrch a Krásny Dub – spolu s menšími samotami rozptýlenými po svazích Bílých Karpat. Dúbrava je nejrozlehlejší a její odlehlé lazy leží až několik kilometrů od středu osady; Závrská má naopak typickou ulicovou zástavbu podél potoka a cesty. Ve vesnickém jádru a v Horní i Dolní Závrske se dochovaly charakteristické domy 19. století, často s vysokým vstupem ze dvora a pavlačí. Tento způsob osídlení odráží horské hospodaření, práci v lesích a někdejší tkalcovství.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Festival Okolo Súče – dlouhá tradice dechové hudby a přeshraničních setkání",
+      "text": "Horná Súča patří k výrazným centrům dechové hudby v regionu. Festival „Okolo Súče“ se stal pravidelnou přehlídkou domácích kapel i hostů z Moravy, Polska a dalších zemí; obecní zpravodaje dokumentují už 12. ročník v roce 2002, 17. ročník v roce 2007 a 24. ročník v roce 2014. K místním souborům patří mimo jiné Chabovienka, Vlčovanka a Komoranka. Na folklorní tradici navazuje dětský soubor Čajka, který předává místní písně, tance a zvykosloví mladší generaci.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s23",
+        "s24",
+        "s25"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom; oficiální adresa obce Horná Súča",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": true,
+    "postcode_conflict_note": "Základní přiřazení PSČ 91333 k Hornej Súči potvrzuje seznam Slovenské pošty i oficiální adresa obecního úřadu. Některé sekundární seznamy uvádějí také Repákovce, jiné mapové a poštovní zdroje je řadí jinam; protože Repákovci nejsou doloženy jako jedna jednoznačná část PSČ 91333, nejsou zahrnuty mezi lokality tohoto záznamu. Případné adresní rozdělení musí být ověřeno podle konkrétních adresních bodů.",
+    "delivery_office_note": "Pošta Horná Súča, Horná Súča 233, 913 33 Horná Súča.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obec Horná Súča, ŠÚ SR / Slovensko.sk, Územní plán obce, Správa CHKO Biele Karpaty a OpenStreetMap pro identifikaci a souřadnice konkrétních míst."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "primary"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Horná Súča – oficiální kontaktní adresa 913 33",
+      "url": "https://www.hornasuca.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "OpenStreetMap / OMA – PSČ 913 33",
+      "url": "https://91333.oma.sk/",
+      "type": "other"
+    },
+    {
+      "id": "s4",
+      "title": "Slovensko.sk – oficiální profil obce Horná Súča",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_e03fa7ff-dae8-448d-8a8c-6dda9067a637",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Horná Súča – první písemná zmínka a historie Súče",
+      "url": "https://www.hornasuca.sk/obec/o-obci/historia/prva-pisomna-zmienka/?lang=sk&mapa-webu=1",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Horná Súča – geografické údaje a osídlení",
+      "url": "https://www.hornasuca.sk/obec/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Nepomuckého",
+      "url": "https://www.pamiatkynaslovensku.sk/horna-suca-kostol-sv-jana-nepomuckeho",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Obec Horná Súča – Michal Rešetka",
+      "url": "https://www.hornasuca.sk/obec/osobnosti-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "ZŠ Michala Rešetku – životopis a čestný název školy",
+      "url": "https://www.zssmshornasuca.sk/o-skole/cestny-nazov/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Vojenská pietní místa – pamětní tabule Jozefa Hotka v Dúbravě",
+      "url": "https://www.vets.cz/vpm/mista/obec/5814-horna-suca/",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "Vojenský historický ústav – vzpoura slovenských vojáků v Kragujevci",
+      "url": "https://www.vhu.sk/vzbura-slovenskych-vojakov-v-kragujevci-100-vyrocie/",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "OpenStreetMap / OMA – adresa kulturního domu Dúbrava 481",
+      "url": "https://www.oma.sk/n13307661824?s=poi",
+      "type": "other"
+    },
+    {
+      "id": "s14",
+      "title": "Obec Horná Súča – Krásny Dub, historie osady",
+      "url": "https://www.hornasuca.sk/obec/kopanice/krasny-dub/",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Súčanský hlásnik – připomínka vypálení Krásného Dubu v roce 1944",
+      "url": "https://www.hornasuca.sk/modules/file_storage/download.php?file=284c3ecf%7C64",
+      "type": "archive"
+    },
+    {
+      "id": "s16",
+      "title": "Obec Horná Súča – chráněná území",
+      "url": "https://www.hornasuca.sk/obec/o-obci/priroda/chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Správa CHKO Biele Karpaty – maloplošná chráněná území",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Územní plán obce Horná Súča – historie, ochrana přírody a osídlení",
+      "url": "https://www.hornasuca.sk/modules/file_storage/download.php?file=b77f19ec%7C241",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "Obec Horná Súča – kopanica Trnávka",
+      "url": "https://www.hornasuca.sk/obec/kopanice/trnavka/",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "Obec Horná Súča – kopanica Dúbrava",
+      "url": "https://www.hornasuca.sk/obec/kopanice/dubrava/",
+      "type": "official"
+    },
+    {
+      "id": "s21",
+      "title": "Obec Horná Súča – kopanica Závrská",
+      "url": "https://www.hornasuca.sk/obec/kopanice/zavrska/",
+      "type": "official"
+    },
+    {
+      "id": "s22",
+      "title": "Obec Horná Súča – kopanica Vlčí Vrch",
+      "url": "https://www.hornasuca.sk/obec/kopanice/vlci-vrch/?rss=200",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "Súčanský hlásnik – 20. ročník festivalu Okolo Súče",
+      "url": "https://www.hornasuca.sk/modules/file_storage/download.php?file=65eafe09%7C79",
+      "type": "archive"
+    },
+    {
+      "id": "s24",
+      "title": "Súčanský hlásnik – 15. ročník festivalu Okolo Súče",
+      "url": "https://www.hornasuca.sk/modules/file_storage/download.php?file=284c3ecf%7C64",
+      "type": "archive"
+    },
+    {
+      "id": "s25",
+      "title": "Obec Horná Súča – dětský folklorní soubor Čajka",
+      "url": "https://www.hornasuca.sk/obec/organizacie/dfs-cajka/",
+      "type": "official"
+    },
+    {
+      "id": "s26",
+      "title": "OpenStreetMap / OMA – hřbitov Horná Súča",
+      "url": "https://poi.oma.sk/w336950441",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Horná Súča – centrum obce v okolí kostela sv. Jana Nepomuckého",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Od společné Súče k samostatné farnosti Horní Súče",
+          "text": "Horná a Dolná Súča tvořily původně společné historické území spojené se súčanským hradním panstvím. Nejstarší písemná zmínka o Súči pochází z roku 1208; listina tehdy popisuje hranice majetku a zmiňuje území „de Sucsa“, nikoli ještě dnešní dvě obce v jejich současné podobě. Horná Súča se postupně rozvíjela jako kopaničářské sídlo v Bílých Karpatech. Roku 1771 zde vznikl kostel a samostatná farnost, čímž se završilo důležité církevní i společenské osamostatnění od Dolní Súče."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Jana Nepomuckého – barokní počátky a přestavba v roce 1923",
+          "text": "Dominantou Horní Súče je římskokatolický kostel sv. Jana Nepomuckého, postavený roku 1771 z iniciativy grófa Jána Illésházyho. Původně jednolodní barokní stavba byla roku 1923 rozšířena o boční lodě a získala dnešní trojlodní podobu. Z původního vybavení se dochovaly cenné prvky, mimo jiné klasicistní boční oltář Panny Marie, barokní kamenná křtitelnice z roku 1720 a pozdně barokní věčná lampa z roku 1786. Na kůru stojí dvoumanuálové varhany z roku 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – farář, literární historik a průkopník vzdělávání",
+          "text": "Michal Rešetka (1794–1854) přišel do Horní Súče jako farář v roce 1834 a působil zde až do smrti. Přestože se narodil v Bobotu, právě Horní Súča se stala hlavním působištěm jeho mimořádné kulturní a vzdělávací práce. Shromáždil rozsáhlou knihovnu přibližně tisíce slovenských svazků a vzácných rukopisů, kterou využívali badatelé z širšího okolí. Roku 1843 založil nedělní školu, označovanou obcí za první na Slovensku; navštěvovalo ji 70 až 80 posluchačů. Jeho sbírky se později staly majetkem Matice slovenské."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko a kragujevská vzpoura – pamětní tabule v Dúbravě",
+          "text": "V osadě Dúbrava připomíná pamětní tabule na kulturním domě Jozefa Hotka, místního účastníka vzpoury slovenských vojáků v srbském Kragujevaci. V červnu 1918 se vojáci 71. pěšího pluku postavili proti válečnému nasazení a šikaně; 44 slovenských mužů bylo 8. června popraveno. Hotko patřil mezi popravené. Jeho osud propojuje odlehlou karpatskou kopanici s jednou z nejtragičtějších kapitol slovenských vojenských dějin první světové války."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – vypálená kopanice a válečná paměť",
+          "text": "Krásny Dub, nejmenší z hornosúčanských kopanic, těžce zasáhla druhá světová válka. Místní kronika a obecní vzpomínkové materiály popisují vypálení domů v osadě u Mikušov; zpravodaj obce při připomínce 71. výročí Slovenského národního povstání uvádí sedm vypálených domů a stodol. Obyvatelé podle svědectví nemohli z hořících stavení nic zachránit. Událost dnes připomíná památníček s textem a fotografiemi, u něhož se konají pietní vzpomínky."
+        },
+        {
+          "id": "fact_006",
+          "title": "Bílé Karpaty – soustava chráněných mokřadů, lesů a orchidejových luk",
+          "text": "Celé katastrální území Horní Súče leží v Chráněné krajinné oblasti Bílé Karpaty. Nacházejí se zde čtyři maloplošná chráněná území: rezervace Debšín s lesním sesuvným prameništěm a starou bučinou, Hornozávrská mokřad s prameništními společenstvy a orchidejemi, přírodní památka Podsalašie chránící cenný starý les a houby a lokalita Včelíny s druhově bohatými suchými loukami. Na území zasahují také evropsky významné lokality Lipnický a Stehlíkovské, důležité mimo jiné pro vzácné modrásky a další motýly."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kopanice Horní Súče – rozptýlené osídlení a zachovaná lidová architektura",
+          "text": "Identitu Horní Súče utváří pět kopanic – Dúbrava, Trnávka, Závrská, Vlčí Vrch a Krásny Dub – spolu s menšími samotami rozptýlenými po svazích Bílých Karpat. Dúbrava je nejrozlehlejší a její odlehlé lazy leží až několik kilometrů od středu osady; Závrská má naopak typickou ulicovou zástavbu podél potoka a cesty. Ve vesnickém jádru a v Horní i Dolní Závrske se dochovaly charakteristické domy 19. století, často s vysokým vstupem ze dvora a pavlačí. Tento způsob osídlení odráží horské hospodaření, práci v lesích a někdejší tkalcovství."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče – dlouhá tradice dechové hudby a přeshraničních setkání",
+          "text": "Horná Súča patří k výrazným centrům dechové hudby v regionu. Festival „Okolo Súče“ se stal pravidelnou přehlídkou domácích kapel i hostů z Moravy, Polska a dalších zemí; obecní zpravodaje dokumentují už 12. ročník v roce 2002, 17. ročník v roce 2007 a 24. ročník v roce 2014. K místním souborům patří mimo jiné Chabovienka, Vlčovanka a Komoranka. Na folklorní tradici navazuje dětský soubor Čajka, který předává místní písně, tance a zvykosloví mladší generaci."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Horná Súča – Ortszentrum rund um die Kirche des heiligen Johannes von Nepomuk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Von der gemeinsamen Súča zur eigenständigen Pfarrei Horná Súča",
+          "text": "Horná und Dolná Súča bildeten ursprünglich ein gemeinsames historisches Gebiet, das mit der Herrschaft der Burg Súča verbunden war. Die älteste schriftliche Erwähnung von Súča stammt aus dem Jahr 1208; die Urkunde beschreibt Besitzgrenzen und nennt das Gebiet „de Sucsa“, noch nicht die beiden heutigen Gemeinden in ihrer heutigen Form. Horná Súča entwickelte sich als Streusiedlung mit Bergweilern in den Weißen Karpaten. 1771 wurden hier eine Kirche und eine eigenständige Pfarrei gegründet – ein wichtiger Schritt zur kirchlichen und gesellschaftlichen Selbstständigkeit gegenüber Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kirche des heiligen Johannes von Nepomuk – barocker Ursprung und Umbau von 1923",
+          "text": "Die römisch-katholische Kirche des heiligen Johannes von Nepomuk ist das Wahrzeichen von Horná Súča. Sie wurde 1771 auf Initiative des Grafen Ján Illésházy errichtet. Der ursprünglich einschiffige Barockbau wurde 1923 durch Seitenschiffe erweitert und erhielt seine heutige dreischiffige Form. Aus der älteren Ausstattung blieben wertvolle Elemente erhalten, darunter ein klassizistischer Seitenaltar der Jungfrau Maria, ein barocker steinerner Taufstein von 1720 und eine spätbarocke Ewige-Licht-Lampe von 1786. Auf der Empore befindet sich eine zweimanualige Orgel aus dem Jahr 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – Pfarrer, Literaturhistoriker und Bildungspionier",
+          "text": "Michal Rešetka (1794–1854) kam 1834 als Pfarrer nach Horná Súča und wirkte hier bis zu seinem Tod. Obwohl er in Bobot geboren wurde, wurde Horná Súča zum Mittelpunkt seiner außergewöhnlichen kulturellen und pädagogischen Arbeit. Er sammelte eine umfangreiche Bibliothek mit etwa tausend slowakischen Bänden und wertvollen Handschriften, die von Forschern aus der weiteren Umgebung genutzt wurde. 1843 gründete er eine Sonntagsschule, die von der Gemeinde als erste in der Slowakei bezeichnet wird; sie wurde von 70 bis 80 Zuhörern besucht. Seine Sammlungen gingen später in den Besitz der Matica slovenská über."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko und der Aufstand von Kragujevac – Gedenktafel in Dúbrava",
+          "text": "Im Ortsteil Dúbrava erinnert eine Gedenktafel am Kulturhaus an Jozef Hotko, einen örtlichen Teilnehmer des Aufstands slowakischer Soldaten im serbischen Kragujevac. Im Juni 1918 widersetzten sich Soldaten des 71. Infanterieregiments dem Kriegseinsatz und der Schikane; 44 slowakische Männer wurden am 8. Juni hingerichtet. Hotko gehörte zu den Hingerichteten. Sein Schicksal verbindet einen abgelegenen Karpatenweiler mit einem der tragischsten Kapitel der slowakischen Militärgeschichte des Ersten Weltkriegs."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – niedergebrannter Weiler und Erinnerung an den Krieg",
+          "text": "Krásny Dub, der kleinste der Bergweiler von Horná Súča, wurde im Zweiten Weltkrieg schwer getroffen. Die örtliche Chronik und kommunale Gedenkberichte schildern das Niederbrennen von Häusern im Weiler bei Mikušov; die Gemeindeschrift zum 71. Jahrestag des Slowakischen Nationalaufstands nennt sieben niedergebrannte Häuser und Scheunen. Laut Zeitzeugen konnten die Bewohner nichts aus den brennenden Gebäuden retten. Heute erinnert ein kleines Denkmal mit Text und Fotografien an das Ereignis; dort finden Gedenkveranstaltungen statt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Weiße Karpaten – ein Netz geschützter Feuchtgebiete, Wälder und Orchideenwiesen",
+          "text": "Das gesamte Katastergebiet von Horná Súča liegt im Landschaftsschutzgebiet Weiße Karpaten. Hier befinden sich vier kleinflächige Schutzgebiete: das Reservat Debšín mit einer Wald-Rutschungsquelle und altem Buchenwald, das Feuchtgebiet Hornozávrská mit Quellgemeinschaften und Orchideen, das Naturdenkmal Podsalašie zum Schutz eines wertvollen alten Waldes und seiner Pilze sowie das Gebiet Včelíny mit artenreichen Trockenwiesen. Außerdem reichen die europäischen Schutzgebiete Lipnický und Stehlíkovské in das Gemeindegebiet hinein; sie sind unter anderem für seltene Bläulinge und andere Schmetterlinge wichtig."
+        },
+        {
+          "id": "fact_007",
+          "title": "Bergweiler von Horná Súča – Streusiedlungen und erhaltene Volksarchitektur",
+          "text": "Die Identität von Horná Súča wird von fünf Bergweilern geprägt: Dúbrava, Trnávka, Závrská, Vlčí Vrch und Krásny Dub sowie von kleineren, über die Hänge der Weißen Karpaten verstreuten Einzelhöfen. Dúbrava ist der flächenmäßig größte Weiler; seine abgelegenen Höfe liegen mehrere Kilometer vom Siedlungskern entfernt. Závrská weist dagegen eine typische Straßensiedlung entlang eines Baches und einer Straße auf. Im Dorfkern sowie in Horná und Dolná Závrská blieben charakteristische Häuser des 19. Jahrhunderts erhalten, oft mit hohem Hofeingang und Außengalerie. Diese Siedlungsform spiegelt die Berglandwirtschaft, Waldarbeit und frühere Weberei wider."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče – lange Tradition der Blasmusik und grenzüberschreitender Begegnungen",
+          "text": "Horná Súča gehört zu den bedeutenden Zentren der Blasmusik in der Region. Das Festival „Okolo Súče“ entwickelte sich zu einer regelmäßigen Veranstaltung mit heimischen Kapellen und Gästen aus Mähren, Polen und weiteren Ländern. Gemeindeblätter dokumentieren bereits die 12. Ausgabe im Jahr 2002, die 17. im Jahr 2007 und die 24. im Jahr 2014. Zu den örtlichen Ensembles gehören unter anderem Chabovienka, Vlčovanka und Komoranka. Die Kinderfolkloregruppe Čajka führt die Tradition fort und vermittelt lokale Lieder, Tänze und Bräuche an die jüngere Generation."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Horná Súča – village centre around the Church of St John of Nepomuk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "From the shared Súča territory to the independent parish of Horná Súča",
+          "text": "Horná Súča and Dolná Súča originally formed one historical territory associated with the Súča castle estate. The earliest written reference to Súča dates from 1208; the document describes property boundaries and mentions the area as “de Sucsa”, not yet the two present-day municipalities in their modern form. Horná Súča gradually developed as a dispersed mountain settlement in the White Carpathians. In 1771 a church and an independent parish were established here, marking an important stage in its religious and social separation from Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of St John of Nepomuk – Baroque origins and the 1923 enlargement",
+          "text": "The Roman Catholic Church of St John of Nepomuk is the landmark of Horná Súča. It was built in 1771 at the initiative of Count Ján Illésházy. Originally a single-nave Baroque building, it was enlarged with side aisles in 1923 and acquired its present three-nave form. Valuable elements of the earlier furnishings survive, including a Classicist side altar of the Virgin Mary, a Baroque stone baptismal font from 1720 and a late-Baroque sanctuary lamp from 1786. The choir contains a two-manual organ built in 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – parish priest, literary historian and education pioneer",
+          "text": "Michal Rešetka (1794–1854) arrived in Horná Súča as parish priest in 1834 and remained until his death. Although he was born in Bobot, Horná Súča became the centre of his remarkable cultural and educational work. He assembled a library of around a thousand Slovak volumes and valuable manuscripts, used by researchers from the wider region. In 1843 he founded a Sunday school, described by the municipality as the first in Slovakia; it attracted 70 to 80 listeners. His collections later became the property of Matica slovenská, the Slovak cultural institution."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko and the Kragujevac mutiny – a memorial plaque in Dúbrava",
+          "text": "In the Dúbrava locality, a plaque on the community centre commemorates Jozef Hotko, a local participant in the mutiny of Slovak soldiers in Kragujevac, Serbia. In June 1918, soldiers of the 71st Infantry Regiment resisted deployment to the front and abusive treatment; 44 Slovak men were executed on 8 June. Hotko was among those executed. His story connects a remote Carpathian settlement with one of the most tragic episodes in Slovak military history during the First World War."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – a burned hamlet and the memory of wartime suffering",
+          "text": "Krásny Dub, the smallest of Horná Súča’s mountain settlements, was badly affected by the Second World War. Local historical records and municipal commemorations describe the burning of houses in the hamlet near Mikušov; a municipal newsletter marking the 71st anniversary of the Slovak National Uprising reports that seven houses and barns were burned. According to local testimony, residents could save nothing from the burning buildings. A small memorial with text and photographs now commemorates the event, and remembrance ceremonies are held there."
+        },
+        {
+          "id": "fact_006",
+          "title": "The White Carpathians – protected wetlands, forests and orchid-rich meadows",
+          "text": "The entire cadastral area of Horná Súča lies within the White Carpathians Protected Landscape Area. Four small protected sites are located here: Debšín Reserve, with a forest landslide spring and old beech woodland; Hornozávrská Wetland, with spring-fed habitats and orchids; Podsalašie Natural Monument, protecting valuable old woodland and fungi; and Včelíny, with species-rich dry grasslands. The European Sites of Community Importance Lipnický and Stehlíkovské also extend into the municipality; they are important for rare blue butterflies and other species."
+        },
+        {
+          "id": "fact_007",
+          "title": "The mountain settlements of Horná Súča – dispersed hamlets and surviving folk architecture",
+          "text": "The identity of Horná Súča is shaped by five mountain settlements – Dúbrava, Trnávka, Závrská, Vlčí Vrch and Krásny Dub – together with smaller isolated farmsteads scattered across the White Carpathian slopes. Dúbrava is the largest by area, with remote farmsteads several kilometres from its centre. Závrská, by contrast, has a characteristic linear settlement along a stream and road. Distinctive 19th-century houses survive in the village centre and in Horná and Dolná Závrská, often with a raised courtyard entrance and an external gallery. This settlement pattern reflects mountain farming, forestry and former weaving traditions."
+        },
+        {
+          "id": "fact_008",
+          "title": "Okolo Súče Festival – a long tradition of brass bands and cross-border gatherings",
+          "text": "Horná Súča is one of the region’s important centres of brass-band music. The “Okolo Súče” festival has become a regular showcase for local bands and guests from Moravia, Poland and other countries. Municipal newsletters document its 12th edition in 2002, 17th in 2007 and 24th in 2014. Local ensembles include Chabovienka, Vlčovanka and Komoranka. The children’s folklore group Čajka continues the tradition by passing local songs, dances and customs on to younger generations."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Horná Súča – centro del municipio en torno a la iglesia de san Juan Nepomuceno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Del territorio común de Súča a la parroquia independiente de Horná Súča",
+          "text": "Horná Súča y Dolná Súča formaban originalmente un único territorio histórico vinculado al señorío del castillo de Súča. La primera mención escrita de Súča data de 1208; el documento describe límites de propiedades y menciona el territorio como «de Sucsa», sin referirse todavía a los dos municipios actuales en su forma moderna. Horná Súča se desarrolló gradualmente como asentamiento disperso de montaña en los Cárpatos Blancos. En 1771 se construyeron aquí una iglesia y una parroquia independiente, un paso importante en su separación religiosa y social de Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de san Juan Nepomuceno: origen barroco y ampliación de 1923",
+          "text": "La iglesia católica romana de san Juan Nepomuceno es el edificio emblemático de Horná Súča. Se construyó en 1771 por iniciativa del conde Ján Illésházy. El edificio barroco original, de una sola nave, fue ampliado con naves laterales en 1923 y adquirió su forma actual de tres naves. Se conservan elementos valiosos del mobiliario anterior, como un altar lateral clasicista de la Virgen María, una pila bautismal barroca de piedra de 1720 y una lámpara del Santísimo de estilo barroco tardío de 1786. En el coro hay un órgano de dos teclados construido en 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka: párroco, historiador literario y pionero de la educación",
+          "text": "Michal Rešetka (1794–1854) llegó a Horná Súča como párroco en 1834 y permaneció allí hasta su muerte. Aunque nació en Bobot, Horná Súča se convirtió en el centro de su extraordinaria labor cultural y educativa. Reunió una biblioteca de unos mil volúmenes eslovacos y manuscritos valiosos, utilizada por investigadores de una amplia región. En 1843 fundó una escuela dominical, considerada por el municipio la primera de Eslovaquia; asistían entre 70 y 80 personas. Sus colecciones pasaron posteriormente a ser propiedad de Matica slovenská."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko y la rebelión de Kragujevac: placa conmemorativa en Dúbrava",
+          "text": "En la localidad de Dúbrava, una placa en el centro cultural recuerda a Jozef Hotko, vecino de la zona que participó en la rebelión de los soldados eslovacos en Kragujevac, Serbia. En junio de 1918, los soldados del 71.º Regimiento de Infantería se opusieron al envío al frente y a los abusos; 44 hombres eslovacos fueron ejecutados el 8 de junio. Hotko fue uno de ellos. Su historia une una remota aldea de los Cárpatos con uno de los episodios más trágicos de la historia militar eslovaca durante la Primera Guerra Mundial."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub: aldea incendiada y memoria de la guerra",
+          "text": "Krásny Dub, la más pequeña de las aldeas de montaña de Horná Súča, sufrió gravemente durante la Segunda Guerra Mundial. Las crónicas locales y los actos conmemorativos municipales describen el incendio de casas en la aldea cerca de Mikušov; un boletín municipal publicado con motivo del 71.º aniversario del Levantamiento Nacional Eslovaco menciona siete casas y graneros incendiados. Según los testimonios locales, los habitantes no pudieron salvar nada de los edificios en llamas. Un pequeño monumento con texto y fotografías recuerda hoy el suceso y acoge actos conmemorativos."
+        },
+        {
+          "id": "fact_006",
+          "title": "Los Cárpatos Blancos: humedales, bosques y praderas de orquídeas protegidos",
+          "text": "Todo el término catastral de Horná Súča se encuentra en el Área de Paisaje Protegido de los Cárpatos Blancos. Aquí hay cuatro espacios protegidos de pequeña extensión: la reserva Debšín, con un manantial de deslizamiento forestal y un antiguo hayedo; el humedal Hornozávrská, con hábitats de manantial y orquídeas; el monumento natural Podsalašie, que protege un bosque antiguo valioso y sus hongos; y Včelíny, con praderas secas de gran diversidad. También se extienden por el municipio los espacios europeos Lipnický y Stehlíkovské, importantes para mariposas azules raras y otras especies."
+        },
+        {
+          "id": "fact_007",
+          "title": "Las aldeas de montaña de Horná Súča: asentamientos dispersos y arquitectura popular",
+          "text": "La identidad de Horná Súča está marcada por cinco aldeas de montaña: Dúbrava, Trnávka, Závrská, Vlčí Vrch y Krásny Dub, además de pequeñas granjas aisladas dispersas por las laderas de los Cárpatos Blancos. Dúbrava es la más extensa y sus explotaciones alejadas se encuentran a varios kilómetros del núcleo. Závrská, en cambio, presenta un trazado lineal característico junto a un arroyo y un camino. En el centro del municipio y en Horná y Dolná Závrská se conservan casas características del siglo XIX, a menudo con una entrada elevada desde el patio y una galería exterior. Este patrón refleja la agricultura de montaña, el trabajo forestal y el antiguo tejido."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče: larga tradición de bandas de viento y encuentros transfronterizos",
+          "text": "Horná Súča es uno de los centros regionales importantes de música para bandas de viento. El festival «Okolo Súče» se ha convertido en una cita regular de agrupaciones locales y participantes de Moravia, Polonia y otros países. Los boletines municipales documentan la 12.ª edición en 2002, la 17.ª en 2007 y la 24.ª en 2014. Entre las agrupaciones locales figuran Chabovienka, Vlčovanka y Komoranka. El conjunto folclórico infantil Čajka mantiene viva la tradición transmitiendo canciones, bailes y costumbres locales a las generaciones jóvenes."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Horná Súča – centre du village autour de l’église Saint-Jean-Népomucène",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Du territoire commun de Súča à la paroisse indépendante de Horná Súča",
+          "text": "Horná Súča et Dolná Súča formaient à l’origine un même territoire historique lié à la seigneurie du château de Súča. La première mention écrite de Súča date de 1208 ; le document décrit des limites de propriétés et mentionne le territoire sous la forme « de Sucsa », sans encore désigner les deux communes actuelles dans leur forme moderne. Horná Súča s’est progressivement développée comme habitat dispersé de montagne dans les Carpates blanches. En 1771, une église et une paroisse indépendante y furent établies, marquant une étape importante de sa séparation religieuse et sociale de Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Église Saint-Jean-Népomucène – origines baroques et agrandissement de 1923",
+          "text": "L’église catholique romaine Saint-Jean-Népomucène est le monument emblématique de Horná Súča. Elle fut construite en 1771 à l’initiative du comte Ján Illésházy. À l’origine à nef unique et de style baroque, elle fut agrandie par l’ajout de bas-côtés en 1923 et prit sa forme actuelle à trois nefs. Plusieurs éléments précieux de l’ancien mobilier ont été conservés : un autel latéral classique de la Vierge Marie, des fonts baptismaux baroques en pierre de 1720 et une lampe de sanctuaire de style baroque tardif de 1786. La tribune abrite un orgue à deux claviers construit en 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – curé, historien de la littérature et pionnier de l’éducation",
+          "text": "Michal Rešetka (1794–1854) arriva à Horná Súča comme curé en 1834 et y resta jusqu’à sa mort. Bien qu’il soit né à Bobot, Horná Súča devint le centre de son remarquable travail culturel et éducatif. Il constitua une bibliothèque d’environ mille volumes slovaques et de précieux manuscrits, utilisée par des chercheurs de toute la région. En 1843, il fonda une école du dimanche, présentée par la commune comme la première de Slovaquie ; elle accueillait 70 à 80 auditeurs. Ses collections devinrent plus tard la propriété de Matica slovenská."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko et la mutinerie de Kragujevac – plaque commémorative à Dúbrava",
+          "text": "Dans le quartier de Dúbrava, une plaque sur la maison de la culture commémore Jozef Hotko, habitant du lieu ayant participé à la mutinerie des soldats slovaques à Kragujevac, en Serbie. En juin 1918, les soldats du 71e régiment d’infanterie s’opposèrent à leur envoi au front et aux mauvais traitements ; 44 hommes slovaques furent exécutés le 8 juin. Hotko faisait partie des victimes. Son histoire relie un hameau isolé des Carpates à l’un des épisodes les plus tragiques de l’histoire militaire slovaque pendant la Première Guerre mondiale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – hameau incendié et mémoire de la guerre",
+          "text": "Krásny Dub, le plus petit des hameaux de montagne de Horná Súča, fut durement touché pendant la Seconde Guerre mondiale. Les chroniques locales et les commémorations communales décrivent l’incendie de maisons dans le hameau près de Mikušov ; un bulletin municipal publié pour le 71e anniversaire du Soulèvement national slovaque mentionne sept maisons et granges incendiées. Selon les témoignages locaux, les habitants ne purent rien sauver des bâtiments en flammes. Un petit monument accompagné de textes et de photographies rappelle aujourd’hui l’événement et accueille des cérémonies du souvenir."
+        },
+        {
+          "id": "fact_006",
+          "title": "Carpates blanches – réseau de zones humides, forêts et prairies à orchidées protégées",
+          "text": "L’ensemble du territoire cadastral de Horná Súča se trouve dans l’aire paysagère protégée des Carpates blanches. Quatre petits sites protégés s’y trouvent : la réserve Debšín, avec une source liée à un glissement forestier et une vieille hêtraie ; la zone humide Hornozávrská, avec ses habitats de source et ses orchidées ; le monument naturel Podsalašie, qui protège une vieille forêt remarquable et ses champignons ; et Včelíny, avec des prairies sèches riches en espèces. Les sites européens Lipnický et Stehlíkovské s’étendent également sur la commune et abritent notamment des azurés rares et d’autres papillons."
+        },
+        {
+          "id": "fact_007",
+          "title": "Les hameaux de montagne de Horná Súča – habitat dispersé et architecture populaire préservée",
+          "text": "L’identité de Horná Súča est façonnée par cinq hameaux de montagne – Dúbrava, Trnávka, Závrská, Vlčí Vrch et Krásny Dub – ainsi que par de petites fermes isolées dispersées sur les pentes des Carpates blanches. Dúbrava est le plus étendu ; ses fermes éloignées se trouvent à plusieurs kilomètres du centre. Závrská présente au contraire un habitat linéaire typique le long d’un ruisseau et d’une route. Des maisons caractéristiques du XIXe siècle subsistent dans le centre du village et à Horná et Dolná Závrská, souvent avec une entrée surélevée depuis la cour et une galerie extérieure. Cette organisation reflète l’agriculture de montagne, le travail forestier et l’ancien tissage."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče – longue tradition des fanfares et rencontres transfrontalières",
+          "text": "Horná Súča est l’un des centres régionaux importants de musique de fanfare. Le festival « Okolo Súče » est devenu un rendez-vous régulier réunissant des ensembles locaux et des invités de Moravie, de Pologne et d’autres pays. Les journaux communaux documentent déjà la 12e édition en 2002, la 17e en 2007 et la 24e en 2014. Parmi les ensembles locaux figurent Chabovienka, Vlčovanka et Komoranka. Le groupe folklorique d’enfants Čajka perpétue la tradition en transmettant chansons, danses et coutumes locales aux jeunes générations."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Horná Súča – centro del paese attorno alla chiesa di San Giovanni Nepomuceno",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dal territorio comune di Súča alla parrocchia autonoma di Horná Súča",
+          "text": "Horná Súča e Dolná Súča formavano in origine un unico territorio storico legato alla signoria del castello di Súča. La prima menzione scritta di Súča risale al 1208; il documento descrive i confini delle proprietà e cita il territorio come «de Sucsa», senza riferirsi ancora ai due comuni odierni nella loro forma moderna. Horná Súča si sviluppò gradualmente come insediamento montano disperso nei Carpazi Bianchi. Nel 1771 furono costruite una chiesa e una parrocchia autonoma, segnando un importante passo nella separazione religiosa e sociale da Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chiesa di San Giovanni Nepomuceno – origini barocche e ampliamento del 1923",
+          "text": "La chiesa cattolica romana di San Giovanni Nepomuceno è l’edificio simbolo di Horná Súča. Fu costruita nel 1771 su iniziativa del conte Ján Illésházy. L’edificio barocco originario a navata unica fu ampliato con navate laterali nel 1923 e assunse l’attuale forma a tre navate. Si conservano elementi preziosi degli arredi più antichi, tra cui un altare laterale neoclassico della Vergine Maria, un fonte battesimale barocco in pietra del 1720 e una lampada votiva tardo-barocca del 1786. Nel coro si trova un organo a due tastiere costruito nel 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – parroco, storico della letteratura e pioniere dell’istruzione",
+          "text": "Michal Rešetka (1794–1854) arrivò a Horná Súča come parroco nel 1834 e vi rimase fino alla morte. Sebbene fosse nato a Bobot, Horná Súča divenne il centro della sua straordinaria attività culturale ed educativa. Raccolse una biblioteca di circa mille volumi slovacchi e manoscritti preziosi, utilizzata da studiosi di un’ampia regione. Nel 1843 fondò una scuola domenicale, considerata dal comune la prima in Slovacchia; vi partecipavano da 70 a 80 ascoltatori. Le sue raccolte passarono successivamente alla proprietà della Matica slovenská."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko e la rivolta di Kragujevac – targa commemorativa a Dúbrava",
+          "text": "Nella località di Dúbrava una targa sulla casa della cultura ricorda Jozef Hotko, abitante del luogo che partecipò alla rivolta dei soldati slovacchi a Kragujevac, in Serbia. Nel giugno 1918 i soldati del 71º reggimento di fanteria si opposero all’invio al fronte e ai maltrattamenti; il 8 giugno furono giustiziati 44 uomini slovacchi. Hotko fu tra loro. La sua vicenda collega un remoto insediamento dei Carpazi a uno degli episodi più tragici della storia militare slovacca durante la Prima guerra mondiale."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – borgata incendiata e memoria della guerra",
+          "text": "Krásny Dub, la più piccola delle borgate montane di Horná Súča, fu duramente colpita durante la Seconda guerra mondiale. Le cronache locali e le commemorazioni comunali raccontano l’incendio delle case nella borgata presso Mikušov; un bollettino comunale pubblicato per il 71º anniversario dell’Insurrezione nazionale slovacca riferisce che furono bruciate sette case e fienili. Secondo le testimonianze locali, gli abitanti non poterono salvare nulla dagli edifici in fiamme. Oggi un piccolo monumento con testi e fotografie ricorda l’evento e ospita cerimonie commemorative."
+        },
+        {
+          "id": "fact_006",
+          "title": "Carpazi Bianchi – rete protetta di zone umide, boschi e prati ricchi di orchidee",
+          "text": "L’intero territorio catastale di Horná Súča si trova nell’Area paesaggistica protetta dei Carpazi Bianchi. Qui si trovano quattro piccole aree protette: la riserva Debšín, con una sorgente legata a una frana forestale e una vecchia faggeta; la zona umida Hornozávrská, con habitat sorgivi e orchidee; il monumento naturale Podsalašie, che protegge un antico bosco prezioso e i suoi funghi; e Včelíny, con prati aridi ricchi di specie. Nel comune si estendono anche i siti europei Lipnický e Stehlíkovské, importanti tra l’altro per rare farfalle azzurre e altre specie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le borgate montane di Horná Súča – insediamenti sparsi e architettura popolare conservata",
+          "text": "L’identità di Horná Súča è caratterizzata da cinque borgate montane – Dúbrava, Trnávka, Závrská, Vlčí Vrch e Krásny Dub – e da piccole fattorie isolate sparse sui pendii dei Carpazi Bianchi. Dúbrava è la più estesa e le sue fattorie remote si trovano a diversi chilometri dal centro. Závrská presenta invece un tipico insediamento lineare lungo un ruscello e una strada. Nel centro del paese e a Horná e Dolná Závrská si conservano case caratteristiche del XIX secolo, spesso con ingresso rialzato dal cortile e galleria esterna. Questo modello riflette l’agricoltura montana, il lavoro nei boschi e l’antica tessitura."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče – lunga tradizione delle bande e incontri transfrontalieri",
+          "text": "Horná Súča è uno dei centri regionali importanti della musica per bande. Il festival «Okolo Súče» è diventato un appuntamento regolare con gruppi locali e ospiti dalla Moravia, dalla Polonia e da altri paesi. I giornali comunali documentano già la 12ª edizione nel 2002, la 17ª nel 2007 e la 24ª nel 2014. Tra i gruppi locali figurano Chabovienka, Vlčovanka e Komoranka. Il gruppo folkloristico infantile Čajka continua la tradizione trasmettendo canti, danze e usanze locali alle nuove generazioni."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Horná Súča – dorpscentrum rond de Sint-Johannes-Nepomukkerk",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Van het gezamenlijke Súča-gebied naar de zelfstandige parochie Horná Súča",
+          "text": "Horná Súča en Dolná Súča vormden oorspronkelijk één historisch gebied dat verbonden was met het domein van kasteel Súča. De oudste schriftelijke vermelding van Súča dateert uit 1208; de oorkonde beschrijft eigendomsgrenzen en noemt het gebied „de Sucsa”, nog niet de twee huidige gemeenten in hun moderne vorm. Horná Súča ontwikkelde zich geleidelijk als verspreide bergnederzetting in de Witte Karpaten. In 1771 werden hier een kerk en een zelfstandige parochie gesticht, een belangrijke stap in de religieuze en maatschappelijke afscheiding van Dolná Súča."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kerk van Sint-Jan Nepomucenus – barokke oorsprong en uitbreiding in 1923",
+          "text": "De rooms-katholieke kerk van Sint-Jan Nepomucenus is het herkenningspunt van Horná Súča. Zij werd in 1771 gebouwd op initiatief van graaf Ján Illésházy. Het oorspronkelijke eenbeukige barokke gebouw werd in 1923 uitgebreid met zijbeuken en kreeg zijn huidige driebeukige vorm. Waardevolle onderdelen van het oudere interieur zijn bewaard gebleven, waaronder een classicistisch zijaltaar van de Maagd Maria, een barokke stenen doopvont uit 1720 en een laatbarokke godslamp uit 1786. Op het koor staat een tweeklaviers orgel uit 1943."
+        },
+        {
+          "id": "fact_003",
+          "title": "Michal Rešetka – pastoor, literatuurhistoricus en onderwijspionier",
+          "text": "Michal Rešetka (1794–1854) kwam in 1834 als pastoor naar Horná Súča en bleef er tot zijn dood. Hoewel hij in Bobot werd geboren, werd Horná Súča het centrum van zijn bijzondere culturele en educatieve werk. Hij verzamelde een bibliotheek met ongeveer duizend Slowaakse boeken en waardevolle handschriften, die door onderzoekers uit de wijde omgeving werd gebruikt. In 1843 richtte hij een zondagsschool op, door de gemeente beschreven als de eerste in Slowakije; er kwamen 70 tot 80 toehoorders. Zijn verzamelingen werden later eigendom van Matica slovenská."
+        },
+        {
+          "id": "fact_004",
+          "title": "Jozef Hotko en de muiterij van Kragujevac – gedenkplaat in Dúbrava",
+          "text": "In de deelplaats Dúbrava herinnert een gedenkplaat op het gemeenschapshuis aan Jozef Hotko, een plaatselijke inwoner die deelnam aan de muiterij van Slowaakse soldaten in het Servische Kragujevac. In juni 1918 kwamen soldaten van het 71e Infanterieregiment in verzet tegen uitzending naar het front en mishandeling; op 8 juni werden 44 Slowaakse mannen geëxecuteerd. Hotko was een van hen. Zijn verhaal verbindt een afgelegen Karpatische nederzetting met een van de tragischste hoofdstukken uit de Slowaakse militaire geschiedenis van de Eerste Wereldoorlog."
+        },
+        {
+          "id": "fact_005",
+          "title": "Krásny Dub – afgebrande bergnederzetting en oorlogsherinnering",
+          "text": "Krásny Dub, de kleinste bergnederzetting van Horná Súča, werd zwaar getroffen tijdens de Tweede Wereldoorlog. Lokale kronieken en gemeentelijke herdenkingen beschrijven het in brand steken van huizen in de nederzetting bij Mikušov; een gemeentelijk blad ter gelegenheid van de 71e verjaardag van de Slowaakse Nationale Opstand vermeldt zeven afgebrande huizen en schuren. Volgens lokale getuigen konden bewoners niets uit de brandende gebouwen redden. Een klein monument met tekst en foto's herinnert tegenwoordig aan de gebeurtenis; er worden herdenkingsplechtigheden gehouden."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Witte Karpaten – beschermd netwerk van moerassen, bossen en orchideeënweiden",
+          "text": "Het hele kadastrale gebied van Horná Súča ligt in het Beschermde Landschapsgebied Witte Karpaten. Hier bevinden zich vier kleine beschermde gebieden: reservaat Debšín met een bosbron op een aardverschuivingszone en oud beukenbos; het moeras Hornozávrská met bronhabitats en orchideeën; natuurmonument Podsalašie, dat waardevol oud bos en paddenstoelen beschermt; en Včelíny met soortenrijke droge graslanden. Ook de Europese beschermingsgebieden Lipnický en Stehlíkovské liggen deels in de gemeente en zijn onder meer belangrijk voor zeldzame blauwtjes en andere vlinders."
+        },
+        {
+          "id": "fact_007",
+          "title": "De berggehuchten van Horná Súča – verspreide nederzettingen en bewaarde volksarchitectuur",
+          "text": "De identiteit van Horná Súča wordt bepaald door vijf berggehuchten – Dúbrava, Trnávka, Závrská, Vlčí Vrch en Krásny Dub – en door kleinere afgelegen boerderijen verspreid over de hellingen van de Witte Karpaten. Dúbrava is het grootste gehucht; de afgelegen erven liggen enkele kilometers van het centrum. Závrská heeft juist een kenmerkende lintbebouwing langs een beek en weg. In het dorpscentrum en in Horná en Dolná Závrská zijn karakteristieke huizen uit de 19e eeuw bewaard gebleven, vaak met een verhoogde ingang vanaf de binnenplaats en een buitengalerij. Dit weerspiegelt berglandbouw, bosarbeid en vroegere weeftradities."
+        },
+        {
+          "id": "fact_008",
+          "title": "Festival Okolo Súče – lange traditie van blaasmuziek en grensoverschrijdende ontmoetingen",
+          "text": "Horná Súča is een van de belangrijke regionale centra van blaasmuziek. Het festival „Okolo Súče” is uitgegroeid tot een regelmatig evenement met plaatselijke orkesten en gasten uit Moravië, Polen en andere landen. Gemeentelijke nieuwsbrieven documenteren al de 12e editie in 2002, de 17e in 2007 en de 24e in 2014. Tot de lokale ensembles behoren onder meer Chabovienka, Vlčovanka en Komoranka. De kindervolksdansgroep Čajka zet de traditie voort door plaatselijke liederen, dansen en gebruiken aan jongere generaties door te geven."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
