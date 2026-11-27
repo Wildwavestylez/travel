@@ -9,6 +9,10 @@ Use only:
 
 **Czechia is isolated from Germany. Never use German records as content sources or merge their data into Czech records.**
 
+## Shared TRAVEL editorial standard — mandatory
+
+Apply `data/REWORK_QUALITY_STANDARD.md` to every record in addition to this country's schema, Country Profile and Content Standard. It standardizes story depth, research synthesis, evidence, translation quality, autonomous one-record completion and strict respect for the user's batch boundary. It does not replace or override any country-specific postal, geographic, storage, schema or lifecycle rule. In a conflict, follow the applicable national documents and schema.
+
 ## Mandatory postcode authority
 For every reworked record, apply the authority hierarchy in `data/czechia/CONTENT_STANDARD.md`. ČSÚ is authoritative for official postcode registration (code list 0028); the shared RÚIAN inventory is the default nationwide reference for geographic postcode-to-address-point assignment; administrative fields must be checked against the appropriate official ČSÚ/RÚIAN data. Routine retrieval of code list 0029 is not required. If a specific conflict makes the territorial or organisational nature of a postcode material, verify that classification individually from an official source; do not let it automatically change sequence membership or existing content. Do not describe ČSÚ as the geographic address-point authority. Never change a postcode merely because a search result, map, directory or changed delivery office displays a different code. Record discrepancies separately and correct only after source-specific verification.
 
