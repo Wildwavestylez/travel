@@ -1,7 +1,7 @@
 {
   "postcode": "90863",
   "city": "Radošovce",
-  "district": "Vieska",
+  "district": null,
   "county": "Skalica",
   "state": "Trnavský kraj",
   "representative_place": "Kostel Narození Panny Marie a historické centrum Radošoviec",
@@ -13,7 +13,6 @@
     "lat": 48.77309,
     "lon": 17.280127
   },
-  "district_type": "local_part",
   "facts": [
     {
       "id": "fact_001",
@@ -123,20 +122,107 @@
       ],
       "location": null,
       "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_008",
+      "title": "Koválovec – středověká osada a vinařská obec s vlastní pečetí",
+      "text": "Koválovec se poprvé písemně připomíná 28. května 1394 jako Kiskowalow. Roku 1452 zde stálo 15 dvorů, v roce 1471 se obec uvádí jako Kowalowecz a roku 1554 jsou doloženy první vinohrady. Obecní pečeť z roku 1617 nese hrozen a vinařský nůž, motiv převzatý do dnešního erbu. Roku 1791 se obyvatelé vzbouřili proti urbární regulaci.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s17",
+        "s18"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_009",
+      "title": "Kostel sv. Martina z Tours v Koválovci – empírová stavba Jána Vietorise",
+      "text": "Kostel sv. Martina z Tours byl dokončen roku 1821 díky podpoře zemana Jána Vietorise a místních obyvatel. Téměř čtvercová empírová stavba má pruské klenby a průčelí s dochovanými erby zakladatele a jeho manželky Barbary Čechové. Hlavní oltářní obraz sv. Martina namaloval František Schön roku 1819. Kostel byl obnoven v letech 1921 a 1971.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s19",
+        "s20"
+      ],
+      "location": {
+        "name": "Kostel sv. Martina z Tours, Koválovec",
+        "lat": 48.784837,
+        "lon": 17.300532,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.dokostola.sk/kostol/410195-sv-martina"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_010",
+      "title": "Lopašov – středověká ves, neobvyklá pečeť z roku 1601 a lidový kroj",
+      "text": "Lopašov se objevuje v listině z roku 1392 mezi obcemi holíčského panství. Nejstarší známá obecní pečeť nese letopočet 1601 a zobrazuje pluh se dvěma koly – mimořádně neobvyklý heraldický motiv, který obec obnovila ve svém současném znaku; v 17. století ji používalo také sousední Oreské. Lopašov si uchovává osobitý „opašovský kroj“ a záhoráckou písňovou tradici.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s21",
+        "s22"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_011",
+      "title": "Kostel sv. Vendelína v Lopašově – od kaple z roku 1817 k farnímu chrámu",
+      "text": "Kanonická vizitace z roku 1817 zmiňuje v Lopašově nově postavenou kapli, která byla roku 1842 označována jako kostel sv. Vendelína. Dnes stojí v centru obce a je její hlavní sakrální památkou. Uchovává vzácný stříbrný a pozlacený kalich z roku 1692, původně darovaný hraběnkou Barbarou Erdödy Czobor kapli sv. Stanislava v Radošovcích. Lopašov byl dlouho filiálkou radošovské farnosti.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s23",
+        "s24"
+      ],
+      "location": {
+        "name": "Kostol sv. Vendelína, Lopašov",
+        "lat": 48.751098,
+        "lon": 17.33125,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/lopasov-kostol-sv-vendelina"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_012",
+      "title": "Oreské – neolitické osídlení a kostel sv. Medarda",
+      "text": "Oreské leží ve středu Chvojnické pahorkatiny. Archeologické nálezy dokládají osídlení již v neolitu, mimo jiné kulturu s lengyelskými prvky. První písemná zmínka pochází z roku 1392, kdy se obec uvádí jako Dyos; roku 1452 zde byly čtyři dvory. V 18. století patřila skalickým jezuitům a poté Habsburkům. Na místě starší kaple sv. Medarda z roku 1817, obnovené roku 1902, byl v letech 1915–1919 postaven novogotický kostel. Roku 2000 byl rozšířen; v roce 2017 byla obnovena socha sv. Medarda před kostelem.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s25",
+        "s26",
+        "s27"
+      ],
+      "location": {
+        "name": "Kostol sv. Medarda, Oreské",
+        "lat": 48.745158,
+        "lon": 17.305431,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/oreske-kostol-sv-medarda"
+      },
+      "map_category": "religious_site"
     }
   ],
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta – Pošta Radošovce, Radošovce 188, PSČ 908 63. Oficiální obecní web uvádí stejnou dodávací poštu pro Radošovce i místní část Vieska, která byla k obci přičleněna v roce 1976.",
+    "plz_source": "Slovenská pošta – Pošta Radošovce 328, PSČ 908 63. PSČ 908 63 obsluhuje pět obcí: Radošovce, Vieska, Koválovec, Lopašov a Oreské.",
     "geographic_test_data": false,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Pošta Radošovce – PSČ 908 63",
+    "postcode_source_dataset": "Slovenská pošta – Pošta Radošovce 908 63; adresní seznamy obcí a poštovních přiřazení",
     "postcode_source_release": null,
     "postcode_source_checked_at": "2026-11-27",
     "postcode_conflict": false,
     "postcode_conflict_note": null,
-    "delivery_office_note": "Dodávací pošta Radošovce 188; PSČ 908 63 zahrnuje Radošovce a místní část Vieska.",
+    "delivery_office_note": "Dodávací pošta Radošovce 328 obsluhuje Radošovce, Viesku, Koválovec, Lopašov a Oreské; reprezentativní bod zůstává u hlavního kostela v Radošovcích.",
     "postcode_override_reason": null,
     "geographic_authority": "Register adries SR pro adresní evidenci; obec Radošovce a Ústredný portál verejnej správy pro správní a místní geografii; odborné památkové, akademické a muzejní zdroje pro památky a osobnosti."
   },
@@ -236,6 +322,72 @@
       "title": "Ústredný portál verejnej správy – Kobylany, žrebčín",
       "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_099b5d3f-4442-4b87-8545-97c767801efa",
       "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Ústredný portál verejnej správy – Koválovec",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_d4fbbfed-6f05-4713-9b6c-4e2f16334bb1",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Obec Koválovec – Program rozvoja obce a historické údaje",
+      "url": "https://admin-storage.munipolis.com/4926/custom_pages/4e5826b2-cab3-454c-8f32-ab444bde7ba6",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "DoKostola.sk – Kostol sv. Martina z Tours, Koválovec",
+      "url": "https://www.dokostola.sk/kostol/410195-sv-martina",
+      "type": "other"
+    },
+    {
+      "id": "s20",
+      "title": "Obec Koválovec – História kostola sv. Martina",
+      "url": "https://kovalovec.estranky.sk/clanky/kostol-a-farnost.html",
+      "type": "official"
+    },
+    {
+      "id": "s21",
+      "title": "Obec Lopašov – História obce a pečať",
+      "url": "https://www.lopasov.sk/historia",
+      "type": "official"
+    },
+    {
+      "id": "s22",
+      "title": "Obec Lopašov – Lopašovský kroj",
+      "url": "https://www.lopasov.sk/",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "Obec Lopašov – Historické poznámky ku kostolu sv. Vendelína",
+      "url": "https://www.lopasov.sk/",
+      "type": "official"
+    },
+    {
+      "id": "s24",
+      "title": "Pamiatky na Slovensku – Kostol sv. Vendelína, Lopašov",
+      "url": "https://www.pamiatkynaslovensku.sk/lopasov-kostol-sv-vendelina",
+      "type": "specialist"
+    },
+    {
+      "id": "s25",
+      "title": "Obec Oreské – Kronika obce",
+      "url": "https://oreske.sk/obec/kronika/",
+      "type": "official"
+    },
+    {
+      "id": "s26",
+      "title": "Ústredný portál verejnej správy – Oreské",
+      "url": "https://www.slovensko.sk/sk/lokality/_e7ca9d13-63f4-4a71-813f-3a59bb970409",
+      "type": "official"
+    },
+    {
+      "id": "s27",
+      "title": "Pamiatky na Slovensku – Kostol sv. Medarda, Oreské",
+      "url": "https://www.pamiatkynaslovensku.sk/oreske-kostol-sv-medarda",
+      "type": "specialist"
     }
   ],
   "translations": {
@@ -316,6 +468,31 @@
           "id": "fact_007",
           "title": "Kobylany – historischer Wirtschaftshof und Gestüt im Gemeindegebiet",
           "text": "Im Kataster von Radošovce liegt der renovierte Wirtschaftshof und das Gestüt Kobylany, das auf die Zucht von Rennpferden spezialisiert ist. Die Anlage erinnert an die landwirtschaftliche Infrastruktur des historischen Marktfleckens und seine Verbindung mit dem großen Gut Holíč. Der heutige Betrieb knüpft an die Pferdezuchttradition der Agrarlandschaft des Záhorie an."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec – mittelalterlicher Ort und Weinbaugemeinde mit eigenem Siegel",
+          "text": "Koválovec wird 1394 als Kiskowalow erwähnt. 1452 gab es 15 Höfe; 1554 sind Weinberge belegt. Das Gemeindesiegel von 1617 zeigt Trauben und ein Winzermesser. 1791 erhoben sich die Einwohner gegen die Urbarialordnung."
+        },
+        {
+          "id": "fact_009",
+          "title": "Die Martinskirche in Koválovec – Empirebau von Ján Vietoris",
+          "text": "Die Martinskirche wurde 1821 mit Unterstützung von Ján Vietoris und den Einwohnern fertiggestellt. Der Empirebau bewahrt die Wappen des Stifters und seiner Frau Barbara Čechová. Das Altarbild malte František Schön 1819. Restaurierungen erfolgten 1921 und 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov – mittelalterliches Dorf, Siegel von 1601 und Volkstracht",
+          "text": "Lopašov wird 1392 erwähnt. Das Siegel von 1601 zeigt einen Pflug mit zwei Rädern, ein seltenes Motiv des heutigen Wappens; auch Oreské verwendete es im 17. Jahrhundert. Lopašov bewahrt die eigene „Opašov“-Tracht und Záhorie-Lieder."
+        },
+        {
+          "id": "fact_011",
+          "title": "Die Vendelinkirche in Lopašov – von der Kapelle zur Kirche",
+          "text": "Eine Visitation von 1817 erwähnt eine neue Kapelle; 1842 wird sie als Kirche des heiligen Wendelin bezeichnet. Sie bewahrt einen silbervergoldeten Kelch von 1692, ursprünglich ein Geschenk der Gräfin Barbara Erdödy Czobor an die Stanislauskapelle in Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské – neolithische Besiedlung und Medarduskirche",
+          "text": "Funde belegen neolithische Besiedlung mit Lengyel-Elementen. Oreské wird 1392 als Dyos erwähnt; 1452 gab es vier Höfe. 1915–1919 entstand eine neugotische Kirche anstelle einer älteren Medarduskapelle. 2000 wurde sie erweitert; 2017 wurde die Statue des heiligen Medard restauriert."
         }
       ]
     },
@@ -356,6 +533,31 @@
           "id": "fact_007",
           "title": "Kobylany – a historic estate farm and stud in the Radošovce area",
           "text": "The renovated Kobylany estate farm and stud farm lie in the cadastral area of Radošovce and specialise in breeding racehorses. The complex recalls the agricultural infrastructure of the historic market town and its connection with the large Holíč estate. Its current operation continues the horse-breeding tradition of the Záhorie agricultural landscape."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec – a medieval settlement and wine-growing village with its own seal",
+          "text": "Koválovec is first recorded in 1394 as Kiskowalow. There were 15 farmsteads in 1452; vineyards are documented in 1554. The village seal of 1617 shows grapes and a pruning knife. In 1791 residents rebelled against the urbarial regulations."
+        },
+        {
+          "id": "fact_009",
+          "title": "St Martin’s Church in Koválovec – an Empire-style building funded by Ján Vietoris",
+          "text": "St Martin’s Church was completed in 1821 with support from Ján Vietoris and local residents. It preserves the founder’s and his wife Barbara Čechová’s coats of arms. The main altarpiece was painted by František Schön in 1819. Restorations took place in 1921 and 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov – a medieval village, 1601 seal and folk costume",
+          "text": "Lopašov appears in a 1392 document. Its 1601 seal depicts a two-wheeled plough, a rare motif revived in the modern coat of arms; Oreské also used it in the 17th century. Lopašov preserves its distinctive Opašov costume and Záhorie songs."
+        },
+        {
+          "id": "fact_011",
+          "title": "St Wendelin’s Church in Lopašov – from chapel to church",
+          "text": "A church visitation in 1817 mentions a new chapel; by 1842 it was called St Wendelin’s Church. It preserves a silver-gilt chalice from 1692, originally donated by Countess Barbara Erdödy Czobor to the St Stanislaus Chapel in Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské – Neolithic settlement and the Church of St Medard",
+          "text": "Finds prove Neolithic settlement with Lengyel culture material. Oreské is first recorded in 1392 as Dyos; four farmsteads existed in 1452. A Neo-Gothic church was built in 1915–1919 on the site of an older St Medard chapel. It was enlarged in 2000 and the saint’s statue restored in 2017."
         }
       ]
     },
@@ -396,6 +598,31 @@
           "id": "fact_007",
           "title": "Kobylany, antigua granja señorial y yeguada en el término de Radošovce",
           "text": "En el término de Radošovce se encuentra la granja señorial restaurada y la yeguada Kobylany, especializada en la cría de caballos de carreras. El complejo recuerda la infraestructura agrícola de la antigua localidad de mercado y su vínculo con el extenso señorío de Holíč. La actividad actual continúa la tradición de cría de caballos del paisaje agrícola de Záhorie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec, asentamiento medieval y pueblo vitivinícola con sello propio",
+          "text": "Koválovec aparece en 1394 como Kiskowalow. En 1452 tenía 15 explotaciones y los viñedos se documentan en 1554. El sello de 1617 muestra uvas y una navaja de podar. En 1791 los habitantes se rebelaron contra la regulación señorial."
+        },
+        {
+          "id": "fact_009",
+          "title": "Iglesia de San Martín en Koválovec, edificio de estilo Imperio",
+          "text": "La iglesia se terminó en 1821 gracias a Ján Vietoris y los vecinos. Conserva los escudos del fundador y de su esposa Barbara Čechová. El retablo fue pintado por František Schön en 1819. Fue restaurada en 1921 y 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov, pueblo medieval, sello de 1601 y traje tradicional",
+          "text": "Lopašov aparece en un documento de 1392. Su sello de 1601 muestra un arado de dos ruedas, motivo recuperado en el escudo actual; Oreské también lo utilizó en el siglo XVII. Lopašov conserva el traje «opašovský» y canciones de Záhorie."
+        },
+        {
+          "id": "fact_011",
+          "title": "Iglesia de San Vendelino en Lopašov, de capilla a templo",
+          "text": "Una visita canónica de 1817 menciona una capilla nueva; en 1842 ya se la denominaba iglesia de San Vendelino. Conserva un cáliz de plata dorada de 1692, donado por la condesa Barbara Erdödy Czobor a la capilla de San Estanislao en Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské, asentamiento neolítico e iglesia de San Medardo",
+          "text": "Los hallazgos demuestran ocupación neolítica con materiales de la cultura Lengyel. Oreské aparece en 1392 como Dyos; en 1452 tenía cuatro explotaciones. Entre 1915 y 1919 se construyó una iglesia neogótica sobre una capilla antigua de San Medardo. Se amplió en 2000 y la estatua del santo fue restaurada en 2017."
         }
       ]
     },
@@ -436,6 +663,31 @@
           "id": "fact_007",
           "title": "Kobylany, ancien domaine agricole et haras dans le territoire de Radošovce",
           "text": "Le domaine agricole rénové et le haras Kobylany se trouvent dans le territoire cadastral de Radošovce et sont spécialisés dans l’élevage de chevaux de course. Le site rappelle l’infrastructure agricole de l’ancien bourg marchand et ses liens avec le vaste domaine de Holíč. L’activité actuelle prolonge la tradition d’élevage équin du paysage agricole du Záhorie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec, établissement médiéval et village viticole doté de son sceau",
+          "text": "Koválovec est attesté en 1394 sous le nom de Kiskowalow. En 1452, on comptait 15 fermes ; les vignobles sont attestés en 1554. Le sceau de 1617 représente une grappe et un couteau de vigneron. En 1791, les habitants se révoltèrent contre la réglementation seigneuriale."
+        },
+        {
+          "id": "fact_009",
+          "title": "L’église Saint-Martin de Koválovec, édifice Empire",
+          "text": "L’église Saint-Martin fut achevée en 1821 grâce à Ján Vietoris et aux habitants. Elle conserve les armoiries du fondateur et de son épouse Barbara Čechová. Le retable fut peint par František Schön en 1819. Des restaurations eurent lieu en 1921 et 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov, village médiéval, sceau de 1601 et costume traditionnel",
+          "text": "Lopašov figure dans un document de 1392. Son sceau de 1601 représente une charrue à deux roues, reprise dans les armoiries actuelles ; Oreské l’utilisait aussi au XVIIe siècle. Lopašov conserve son costume « opašovský » et les chants du Záhorie."
+        },
+        {
+          "id": "fact_011",
+          "title": "L’église Saint-Wendelin de Lopašov, de la chapelle à l’église",
+          "text": "Une visite de 1817 mentionne une nouvelle chapelle ; en 1842, elle est appelée église Saint-Wendelin. Elle conserve un calice d’argent doré de 1692, offert par la comtesse Barbara Erdödy Czobor à la chapelle Saint-Stanislas de Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské, habitat néolithique et église Saint-Médard",
+          "text": "Des découvertes attestent une occupation néolithique avec des éléments de la culture de Lengyel. Oreské est mentionné en 1392 sous le nom de Dyos ; quatre fermes existaient en 1452. Une église néogothique fut construite en 1915–1919 sur le site d’une ancienne chapelle Saint-Médard. Elle fut agrandie en 2000 et la statue du saint restaurée en 2017."
         }
       ]
     },
@@ -476,6 +728,31 @@
           "id": "fact_007",
           "title": "Kobylany, antica tenuta agricola e allevamento di cavalli nel territorio di Radošovce",
           "text": "Nel territorio catastale di Radošovce si trova la tenuta agricola rinnovata e l’allevamento Kobylany, specializzato nella riproduzione di cavalli da corsa. Il complesso ricorda l’infrastruttura agricola dell’antico centro di mercato e il suo legame con il vasto dominio di Holíč. L’attività attuale continua la tradizione di allevamento equino del paesaggio agricolo dello Záhorie."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec, insediamento medievale e villaggio vitivinicolo con sigillo proprio",
+          "text": "Koválovec è attestata nel 1394 come Kiskowalow. Nel 1452 contava 15 corti; i vigneti sono documentati dal 1554. Il sigillo del 1617 raffigura un grappolo d’uva e un coltello da potatura. Nel 1791 gli abitanti si ribellarono contro la regolamentazione signorile."
+        },
+        {
+          "id": "fact_009",
+          "title": "La chiesa di San Martino a Koválovec, edificio in stile Impero",
+          "text": "La chiesa fu completata nel 1821 grazie a Ján Vietoris e agli abitanti. Conserva gli stemmi del fondatore e della moglie Barbara Čechová. La pala maggiore fu dipinta da František Schön nel 1819. Fu restaurata nel 1921 e nel 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov, villaggio medievale, sigillo del 1601 e costume tradizionale",
+          "text": "Lopašov compare in un documento del 1392. Il sigillo del 1601 raffigura un aratro a due ruote, ripreso nello stemma attuale; anche Oreské lo usò nel XVII secolo. Lopašov conserva il costume «opašovský» e i canti dello Záhorie."
+        },
+        {
+          "id": "fact_011",
+          "title": "La chiesa di San Venceslao a Lopašov, dalla cappella alla chiesa",
+          "text": "Una visita canonica del 1817 menziona una nuova cappella; nel 1842 è chiamata chiesa di San Vendelino. Conserva un calice d’argento dorato del 1692, donato dalla contessa Barbara Erdödy Czobor alla cappella di San Stanislao a Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské, insediamento neolitico e chiesa di San Medardo",
+          "text": "Reperti attestano un insediamento neolitico con materiali della cultura di Lengyel. Oreské è citata nel 1392 come Dyos; nel 1452 aveva quattro corti. Una chiesa neogotica fu costruita nel 1915–1919 sul sito di una cappella di San Medardo. Fu ampliata nel 2000 e la statua del santo restaurata nel 2017."
         }
       ]
     },
@@ -516,6 +793,31 @@
           "id": "fact_007",
           "title": "Kobylany – historische landgoedboerderij en stoeterij in het gebied van Radošovce",
           "text": "In het kadastrale gebied van Radošovce ligt de gerenoveerde landgoedboerderij en stoeterij Kobylany, gespecialiseerd in het fokken van renpaarden. Het complex herinnert aan de landbouwinfrastructuur van de historische marktplaats en de band met het grote landgoed Holíč. De huidige exploitatie zet de paardenfoktraditie van het agrarische landschap van Záhorie voort."
+        },
+        {
+          "id": "fact_008",
+          "title": "Koválovec – middeleeuwse nederzetting en wijndorp met eigen zegel",
+          "text": "Koválovec wordt in 1394 vermeld als Kiskowalow. In 1452 waren er 15 boerderijen; wijngaarden zijn vanaf 1554 gedocumenteerd. Het zegel uit 1617 toont druiven en een snoeimes. In 1791 kwamen inwoners in opstand tegen de heerlijke regelgeving."
+        },
+        {
+          "id": "fact_009",
+          "title": "De Sint-Martinuskerk in Koválovec – Empiregebouw",
+          "text": "De Sint-Martinuskerk werd in 1821 voltooid met steun van Ján Vietoris en de inwoners. Ze bewaart de wapenschilden van de stichter en zijn vrouw Barbara Čechová. Het hoofdaltaarstuk werd in 1819 geschilderd door František Schön. Restauraties vonden plaats in 1921 en 1971."
+        },
+        {
+          "id": "fact_010",
+          "title": "Lopašov – middeleeuws dorp, zegel uit 1601 en klederdracht",
+          "text": "Lopašov wordt vermeld in een document uit 1392. Het zegel uit 1601 toont een ploeg met twee wielen, een motief dat in het huidige wapen is hersteld; ook Oreské gebruikte het in de 17e eeuw. Lopašov bewaart de ‘opašov’-klederdracht en Záhorie-liederen."
+        },
+        {
+          "id": "fact_011",
+          "title": "De Sint-Wendelinuskerk in Lopašov – van kapel tot kerk",
+          "text": "Een kerkvisitatie uit 1817 vermeldt een nieuwe kapel; in 1842 wordt ze de Sint-Wendelinuskerk genoemd. Ze bewaart een zilververgulde kelk uit 1692, geschonken door gravin Barbara Erdödy Czobor aan de Sint-Stanislauskapel in Radošovce."
+        },
+        {
+          "id": "fact_012",
+          "title": "Oreské – neolithische bewoning en de Sint-Medarduskerk",
+          "text": "Vondsten bewijzen neolithische bewoning met materiaal uit de Lengyelcultuur. Oreské wordt in 1392 vermeld als Dyos; in 1452 waren er vier boerderijen. In 1915–1919 werd een neogotische kerk gebouwd op de plaats van een oude Sint-Medarduskapel. Ze werd in 2000 uitgebreid en het beeld van de heilige werd in 2017 gerestaureerd."
         }
       ]
     }
