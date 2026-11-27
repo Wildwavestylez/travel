@@ -1,4 +1,757 @@
 {
   "postcode": "91336",
-  "status": "placeholder"
+  "city": "Selec",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Selec – centrum obce u obecního úřadu, Selec 73",
+  "representative_point": {
+    "lat": 48.7821107,
+    "lon": 17.9911312
+  },
+  "access_point": {
+    "lat": 48.7821107,
+    "lon": 17.9911312
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Selec – od středověké vsi k řemeslné obci pod Považským Inovcem",
+      "text": "Selec je písemně doložen od roku 1439, kdy náležel k panství Trenčínského hradu. V 16. a 17. století zde vedle zemědělství prosperovalo zpracování dřeva, výroba vozů a nádob, soukenické valchy a mlýny. Významným podnikem se stala papírna, kterou zde roku 1742 založil Anton Rezner. Obyvatelé využívali také lesní suroviny a vápencové zdroje; místní hospodářství tak spojovalo zemědělství, řemeslnou výrobu a lesní práci v horské kotlině.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Selecké vařečky – řemeslo, které se vyváželo po desetitisících",
+      "text": "Výroba dřevěných předmětů patřila k tradičním zdrojům obživy v Selci. Zlom nastal roku 1890, kdy se sem přistěhovalo šest rodin soustružníků z Lubiny a Staré Turé a rozšířily výrobu vařeček. Selčané si řemeslo rychle osvojili a v sezoně se ze vsi vyváželo přibližně 30 000 kusů týdně v létě a až 60 000 v zimě. Po druhé světové válce pracovalo 45 lidí ve výrobně, která postupně zavedla částečnou mechanizaci. Domácí ruční výroba zanikla na začátku 80. let 20. století.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s7",
+        "s6"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Vodní kolo a lesní železnička – technické stopy hospodářské minulosti",
+      "text": "Selec si uchoval několik připomínek technického hospodaření v horské krajině. Regionální přehled kulturního dědictví uvádí v obci historický dům s vodním kolem, který řadí mezi místní technické památky. Na začátku 20. století byla v okolních lesích vybudována také lesní železnička pro svážení dřeva. Z její trasy se podle Mikroregiónu Inovec zachovaly úseky starých „štrek“ a most, které dnes slouží jako turistické chodníky nebo lesní svážnice. Přesné umístění jednotlivých pozůstatků není dostatečně doloženo pro samostatné mapové body.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s6",
+        "s22"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Bartoloměje – gotický předchůdce a klasicistní přestavba",
+      "text": "Dominantou obce je římskokatolický kostel sv. Bartoloměje. Obecní přehled pamětihodností spojuje jeho starší pozdně gotickou podobu s rokem 1504; dnešní jednolodní stavba vznikla klasicistní přestavbou a rozšířením staršího kostela roku 1780. V interiéru se nachází jednomanuálový sedmiregistrový varhanní nástroj, který v letech 1882–1883 postavil Martin Šaško z Brezové pod Bradlom se synem Jánem. Podle obecního pramene šlo o poslední varhany tohoto významného slovenského varhanáře.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s9",
+        "s7"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Bartoloměje, Selec",
+        "address": "Selec, 913 36 Selec, Slovakia",
+        "lat": 48.785619,
+        "lon": 17.990545,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/selec-kostol-sv-bartolomeja-apostola"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Klasicistní zvonice a socha sv. Jana Nepomuckého",
+      "text": "Sakrální obraz Selce doplňuje evangelická zvonice z konce 18. století, která byla roku 2011 prohlášena za národní kulturní památku. Její zvon pochází z roku 1900 ze zvonařské dílny v Šoporni. Nedaleko kostela stojí také kamenná socha sv. Jana Nepomuckého z roku 1798. Dnešní socha je kopií původního díla, zatímco kamenný podstavec z konce 18. století zůstal zachován a byl restaurován. Obě památky dokládají soužití katolické a evangelické tradice v obci.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11",
+        "s18"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "30. listopad 1944 – deportace Selčanů a památník 43 obětí",
+      "text": "Dne 30. listopadu 1944 vtrhly do Selce nacistické jednotky a zatýkaly obyvatele podezřelé z pomoci partyzánům. Pamětní tabule na budově bývalé školy, osazená roku 1964, uvádí, že bylo odvlečeno 120 občanů a 43 z nich zahynulo v německých koncentračních táborech. Podrobnější regionální rekonstrukce popisuje shromáždění přibližně 300 mužů a následný výběr 67 osob k deportaci; 43 se nevrátilo. Památník umučeným v SNP se sochou a jmennou tabulí byl odhalen roku 1969 a je evidován jako národní kulturní památka.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s12",
+        "s13",
+        "s14",
+        "s17"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamätník umučeným v Slovenskom národnom povstaní, Selec",
+        "address": "Selec, 913 36 Selec, Slovakia",
+        "lat": 48.785639,
+        "lon": 17.990056,
+        "type": "memorial_site",
+        "accuracy": "exact",
+        "source": "https://www.vets.cz/vpm/19470-pamatna-tabula-2-svetova-vojna/"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Pomník padlým v první světové válce – 29 mužů ze Selce",
+      "text": "Nedaleko kostela sv. Bartoloměje stojí pomník věnovaný obyvatelům Selce, kteří zahynuli v první světové válce. Slavnostně byl odhalen 30. května 1937 a připomíná 29 místních mužů. Je součástí souboru pamětních míst v centru obce, která zachycují obě světové války i Slovenské národní povstání. Pomník dokládá, že válečné ztráty zasáhly i malou horskou obec, jejíž obyvatelé před válkou odcházeli za prací do okolních regionů i do zahraničí.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s15",
+        "s16",
+        "s7"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pomník obětem první světové války, Selec",
+        "address": "Selec 202, 913 36 Selec, Slovakia",
+        "lat": 48.7853618,
+        "lon": 17.9902121,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://selec.oma.sk/c/202"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Přírodní rezervace Považský Inovec – staré bukové lesy na nejvyšším vrcholu",
+      "text": "Na jihovýchodě katastru Selce leží přírodní rezervace Považský Inovec, vyhlášená roku 1988 na ploše 35,42 ha. Chrání zachovalé vrcholové bukové porosty v nadmořské výšce přibližně 670 až 1 042 metrů, včetně starých buků a smíšených suťových lesů. Území je součástí evropsky významné lokality Považský Inovec (SKUEV0569), chránící mimo jiné kyselé bučiny, květnaté bučiny a javorovo-lipové suťové lesy i vzácného tesaříka alpského. Rezervace je významná také pro mykologii a lesní bezobratlé.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s18",
+        "s19",
+        "s20"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Přírodní rezervace Považský Inovec – orientační bod v jádru rezervace",
+        "address": null,
+        "lat": 48.77305556,
+        "lon": 18.03722222,
+        "type": "nature_reserve",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/435"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Selecké kamenné moře a Selecký potok – chráněné přírodní lokality",
+      "text": "V katastru Selce se nachází přírodní památka Selecké kamenné moře, vyhlášená roku 1985 na ploše 4,83 ha. Jde o rozsáhlé blokové pole z křemenců na svazích Považského Inovce, kde mezi balvany roste řídký dubový les s vřesem a borůvčím. Extrémní stanoviště poskytuje útočiště například tesaříkovi fialovému, ještěrce zední a užovce stromové. Další chráněnou lokalitou je přírodní památka Selecký potok, vyhlášená roku 1984 na ploše 4,53 ha k ochraně zachovalého podhorského toku, přítoků a břehových porostů.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s18",
+        "s21",
+        "s20"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Selecké kamenné moře",
+        "address": null,
+        "lat": 48.7796095,
+        "lon": 18.0188656,
+        "type": "geological_site",
+        "accuracy": "approximate",
+        "source": "https://spoznajslovensko.eu/selecke-kamenne-more/"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Selčan a Selčanka – folklorní tradice předávaná třemi generacemi",
+      "text": "Folklorní skupina Selčan vznikla v roce 1964 a od té doby absolvovala stovky tanečních, hudebních a pěveckých vystoupení na Slovensku i v zahraničí. V roce 1971 na ni navázal dětský soubor Selčanka, který vychoval několik generací mladých zpěváků a tanečníků; obec uvádí, že se v něm vystřídalo více než 300 dětí. Repertoár obou souborů čerpá z místních zvyků, písní a tanců. Selčan se opakovaně účastnil celostátních přehlídek Nositelia tradícií a reprezentoval region také na festivalech v Myjavě, Detvě či Východné.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s23",
+        "s24",
+        "s6",
+        "s7"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; obecní územní plán s adresou Selec 73, 913 36 Selec",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Selec; oficiální adresa obecního úřadu Selec 73, 913 36 Selec.",
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR / Slovensko.sk, oficiální územní plán obce Selec, Správa CHKO Biele Karpaty, Štátny zoznam chránených území a OpenStreetMap pro ověřené mapové body."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "primary"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Selec – územní plán a oficiální adresa Selec 73, 913 36",
+      "url": "https://www.selec.sk/modules/file_storage/download.php?file=f8a3ff06%7C66&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Selec – základní údaje a chráněná území",
+      "url": "https://www.selec.sk/obec-2/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Ústřední portál veřejné správy – profil obce Selec",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_5561fe3d-bba2-46b9-b3b6-c2320612550a",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "E-Obce – historie obce Selec",
+      "url": "https://www.e-obce.sk/obec/selec/2-historia.html",
+      "type": "regional"
+    },
+    {
+      "id": "s6",
+      "title": "Trenčianske osvetové stredisko – Selec, řemesla, papírna a folklor",
+      "url": "https://www.tnos.sk/hlavna-stranka/metodika/jubilanti/jubilanti-v-roku-2014.html?page_id=7189",
+      "type": "regional"
+    },
+    {
+      "id": "s7",
+      "title": "Program hospodářského a sociálního rozvoje obce Selec",
+      "url": "https://www.selec.sk/modules/file_storage/download.php?file=d446c8db%7C35&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Selec – Kostel sv. Bartoloměje",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/kostol-sv-bartolomeja-23sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Pamiatky na Slovensku – Kostol sv. Bartolomeja apoštola",
+      "url": "https://www.pamiatkynaslovensku.sk/selec-kostol-sv-bartolomeja-apostola",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Selec – evangelická zvonice",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/zvonica-25sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Obec Selec – socha sv. Jana Nepomuckého",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/socha-sv-jana-nepomuckeho-24sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Selec – pamětní tabule obětem druhé světové války",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/pamatna-tabula-obetiam-druhej-svetovej-vojny-29sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Trenčín región – historická rekonstrukce deportací ze Selce",
+      "url": "https://www.trencinregion.sk/documents/pages/4/0bd18bc.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s14",
+      "title": "Vojenská pietní místa – pamětní tabule obětem druhé světové války v Selci",
+      "url": "https://www.vets.cz/vpm/19470-pamatna-tabula-2-svetova-vojna/",
+      "type": "specialist"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Selec – pomník padlým v první světové válce",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/pamatnik-prvej-svetovej-vojny-26sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "OpenStreetMap / OMA – adresa Selec 202 a poloha válečného pomníku",
+      "url": "https://selec.oma.sk/c/202",
+      "type": "other"
+    },
+    {
+      "id": "s17",
+      "title": "Obec Selec – památník umučeným v Slovenském národním povstání",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/pamatnik-umucenym-v-slovenskom-narodnom-povstani-28sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Správa CHKO Biele Karpaty – chráněná území v Selci",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "Štátny zoznam chránených území – Považský Inovec (SKUEV0569)",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/435",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "Spoznaj Slovensko – Selecké kamenné more a GPS poloha",
+      "url": "https://spoznajslovensko.eu/selecke-kamenne-more/",
+      "type": "regional"
+    },
+    {
+      "id": "s21",
+      "title": "Územní plán Selec – ochrana Seleckého potoka a přírodních lokalit",
+      "url": "https://www.selec.sk/modules/file_storage/download.php?file=ce7ec19c%7C200&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s22",
+      "title": "Mikroregión Inovec – přírodní, technické a turistické zajímavosti Selce",
+      "url": "https://www.masinovec.sk/obce/selec/",
+      "type": "regional"
+    },
+    {
+      "id": "s23",
+      "title": "Obec Selec – folklorní skupiny Selčan a Selčanka",
+      "url": "https://www.selec.sk/vybavenost/organizacie-a-institucie/folklorne-skupiny/",
+      "type": "official"
+    },
+    {
+      "id": "s24",
+      "title": "Obec Selec – seznam pamětihodností",
+      "url": "https://www.selec.sk/obec-2/historia-2/pamatihodnosti/",
+      "type": "official"
+    },
+    {
+      "id": "s25",
+      "title": "OpenStreetMap / OMA – obecní úřad Selec 73",
+      "url": "https://selec.oma.sk/c/73",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Selec – centrum obce u obecního úřadu, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – od středověké vsi k řemeslné obci pod Považským Inovcem",
+          "text": "Selec je písemně doložen od roku 1439, kdy náležel k panství Trenčínského hradu. V 16. a 17. století zde vedle zemědělství prosperovalo zpracování dřeva, výroba vozů a nádob, soukenické valchy a mlýny. Významným podnikem se stala papírna, kterou zde roku 1742 založil Anton Rezner. Obyvatelé využívali také lesní suroviny a vápencové zdroje; místní hospodářství tak spojovalo zemědělství, řemeslnou výrobu a lesní práci v horské kotlině."
+        },
+        {
+          "id": "fact_002",
+          "title": "Selecké vařečky – řemeslo, které se vyváželo po desetitisících",
+          "text": "Výroba dřevěných předmětů patřila k tradičním zdrojům obživy v Selci. Zlom nastal roku 1890, kdy se sem přistěhovalo šest rodin soustružníků z Lubiny a Staré Turé a rozšířily výrobu vařeček. Selčané si řemeslo rychle osvojili a v sezoně se ze vsi vyváželo přibližně 30 000 kusů týdně v létě a až 60 000 v zimě. Po druhé světové válce pracovalo 45 lidí ve výrobně, která postupně zavedla částečnou mechanizaci. Domácí ruční výroba zanikla na začátku 80. let 20. století."
+        },
+        {
+          "id": "fact_003",
+          "title": "Vodní kolo a lesní železnička – technické stopy hospodářské minulosti",
+          "text": "Selec si uchoval několik připomínek technického hospodaření v horské krajině. Regionální přehled kulturního dědictví uvádí v obci historický dům s vodním kolem, který řadí mezi místní technické památky. Na začátku 20. století byla v okolních lesích vybudována také lesní železnička pro svážení dřeva. Z její trasy se podle Mikroregiónu Inovec zachovaly úseky starých „štrek“ a most, které dnes slouží jako turistické chodníky nebo lesní svážnice. Přesné umístění jednotlivých pozůstatků není dostatečně doloženo pro samostatné mapové body."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Bartoloměje – gotický předchůdce a klasicistní přestavba",
+          "text": "Dominantou obce je římskokatolický kostel sv. Bartoloměje. Obecní přehled pamětihodností spojuje jeho starší pozdně gotickou podobu s rokem 1504; dnešní jednolodní stavba vznikla klasicistní přestavbou a rozšířením staršího kostela roku 1780. V interiéru se nachází jednomanuálový sedmiregistrový varhanní nástroj, který v letech 1882–1883 postavil Martin Šaško z Brezové pod Bradlom se synem Jánem. Podle obecního pramene šlo o poslední varhany tohoto významného slovenského varhanáře."
+        },
+        {
+          "id": "fact_005",
+          "title": "Klasicistní zvonice a socha sv. Jana Nepomuckého",
+          "text": "Sakrální obraz Selce doplňuje evangelická zvonice z konce 18. století, která byla roku 2011 prohlášena za národní kulturní památku. Její zvon pochází z roku 1900 ze zvonařské dílny v Šoporni. Nedaleko kostela stojí také kamenná socha sv. Jana Nepomuckého z roku 1798. Dnešní socha je kopií původního díla, zatímco kamenný podstavec z konce 18. století zůstal zachován a byl restaurován. Obě památky dokládají soužití katolické a evangelické tradice v obci."
+        },
+        {
+          "id": "fact_006",
+          "title": "30. listopad 1944 – deportace Selčanů a památník 43 obětí",
+          "text": "Dne 30. listopadu 1944 vtrhly do Selce nacistické jednotky a zatýkaly obyvatele podezřelé z pomoci partyzánům. Pamětní tabule na budově bývalé školy, osazená roku 1964, uvádí, že bylo odvlečeno 120 občanů a 43 z nich zahynulo v německých koncentračních táborech. Podrobnější regionální rekonstrukce popisuje shromáždění přibližně 300 mužů a následný výběr 67 osob k deportaci; 43 se nevrátilo. Památník umučeným v SNP se sochou a jmennou tabulí byl odhalen roku 1969 a je evidován jako národní kulturní památka."
+        },
+        {
+          "id": "fact_007",
+          "title": "Pomník padlým v první světové válce – 29 mužů ze Selce",
+          "text": "Nedaleko kostela sv. Bartoloměje stojí pomník věnovaný obyvatelům Selce, kteří zahynuli v první světové válce. Slavnostně byl odhalen 30. května 1937 a připomíná 29 místních mužů. Je součástí souboru pamětních míst v centru obce, která zachycují obě světové války i Slovenské národní povstání. Pomník dokládá, že válečné ztráty zasáhly i malou horskou obec, jejíž obyvatelé před válkou odcházeli za prací do okolních regionů i do zahraničí."
+        },
+        {
+          "id": "fact_008",
+          "title": "Přírodní rezervace Považský Inovec – staré bukové lesy na nejvyšším vrcholu",
+          "text": "Na jihovýchodě katastru Selce leží přírodní rezervace Považský Inovec, vyhlášená roku 1988 na ploše 35,42 ha. Chrání zachovalé vrcholové bukové porosty v nadmořské výšce přibližně 670 až 1 042 metrů, včetně starých buků a smíšených suťových lesů. Území je součástí evropsky významné lokality Považský Inovec (SKUEV0569), chránící mimo jiné kyselé bučiny, květnaté bučiny a javorovo-lipové suťové lesy i vzácného tesaříka alpského. Rezervace je významná také pro mykologii a lesní bezobratlé."
+        },
+        {
+          "id": "fact_009",
+          "title": "Selecké kamenné moře a Selecký potok – chráněné přírodní lokality",
+          "text": "V katastru Selce se nachází přírodní památka Selecké kamenné moře, vyhlášená roku 1985 na ploše 4,83 ha. Jde o rozsáhlé blokové pole z křemenců na svazích Považského Inovce, kde mezi balvany roste řídký dubový les s vřesem a borůvčím. Extrémní stanoviště poskytuje útočiště například tesaříkovi fialovému, ještěrce zední a užovce stromové. Další chráněnou lokalitou je přírodní památka Selecký potok, vyhlášená roku 1984 na ploše 4,53 ha k ochraně zachovalého podhorského toku, přítoků a břehových porostů."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan a Selčanka – folklorní tradice předávaná třemi generacemi",
+          "text": "Folklorní skupina Selčan vznikla v roce 1964 a od té doby absolvovala stovky tanečních, hudebních a pěveckých vystoupení na Slovensku i v zahraničí. V roce 1971 na ni navázal dětský soubor Selčanka, který vychoval několik generací mladých zpěváků a tanečníků; obec uvádí, že se v něm vystřídalo více než 300 dětí. Repertoár obou souborů čerpá z místních zvyků, písní a tanců. Selčan se opakovaně účastnil celostátních přehlídek Nositelia tradícií a reprezentoval region také na festivalech v Myjavě, Detvě či Východné."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Selec – Ortszentrum beim Gemeindeamt, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – vom mittelalterlichen Dorf zur Handwerksgemeinde am Považský Inovec",
+          "text": "Selec ist seit 1439 schriftlich belegt und gehörte damals zur Herrschaft der Burg Trenčín. Im 16. und 17. Jahrhundert waren neben der Landwirtschaft die Holzverarbeitung, Wagen- und Gefäßherstellung, Tuchwalken und Mühlen wichtig. Ein bedeutender Betrieb war die Papiermühle, die Anton Rezner 1742 hier gründete. Die Bewohner nutzten auch Waldressourcen und Kalkstein; die lokale Wirtschaft verband Landwirtschaft, Handwerk und Waldarbeit in einem Gebirgskessel."
+        },
+        {
+          "id": "fact_002",
+          "title": "Selecké Löffel – ein Handwerk, das zu Zehntausenden exportiert wurde",
+          "text": "Die Herstellung von Holzgegenständen gehörte zu den traditionellen Erwerbszweigen in Selec. Einen Wendepunkt brachte 1890 die Zuwanderung von sechs Drechslerfamilien aus Lubina und Stará Turá, die die Löffelherstellung ausbauten. Die Einwohner eigneten sich das Handwerk rasch an; in der Saison wurden wöchentlich etwa 30.000 Stück im Sommer und bis zu 60.000 im Winter exportiert. Nach dem Zweiten Weltkrieg beschäftigte die Werkstatt 45 Menschen und führte teilweise Mechanisierung ein. Die häusliche Handarbeit endete Anfang der 1980er Jahre."
+        },
+        {
+          "id": "fact_003",
+          "title": "Wasserrad und Waldbahn – technische Spuren der Wirtschaftsgeschichte",
+          "text": "Selec bewahrt mehrere Zeugnisse technischer Wirtschaft in der Berglandschaft. Ein regionaler Überblick nennt ein historisches Haus mit Wasserrad als technisches Denkmal. Anfang des 20. Jahrhunderts wurde in den umliegenden Wäldern außerdem eine Waldbahn zum Holztransport gebaut. Laut Mikroregion Inovec sind Teile alter Trassen und eine Brücke erhalten; heute dienen sie als Wanderwege oder Forstwege. Die genaue Lage der einzelnen Überreste ist nicht ausreichend belegt, um separate Kartenpunkte zu setzen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kirche des heiligen Bartholomäus – gotischer Vorgänger und klassizistischer Umbau",
+          "text": "Die römisch-katholische Kirche des heiligen Bartholomäus ist das Wahrzeichen von Selec. Die Gemeinde verbindet ihren spätgotischen Vorgänger mit dem Jahr 1504; das heutige einschiffige Gebäude entstand durch einen klassizistischen Umbau und die Erweiterung der älteren Kirche im Jahr 1780. Im Inneren befindet sich eine einmanualige Orgel mit sieben Registern, die Martin Šaško aus Brezová pod Bradlom 1882–1883 gemeinsam mit seinem Sohn Ján baute. Laut Gemeinde war dies die letzte Orgel dieses bedeutenden slowakischen Orgelbauers."
+        },
+        {
+          "id": "fact_005",
+          "title": "Klassizistischer Glockenturm und Statue des heiligen Johannes von Nepomuk",
+          "text": "Das sakrale Ortsbild von Selec wird durch einen evangelischen Glockenturm aus dem späten 18. Jahrhundert ergänzt, der 2011 zum nationalen Kulturdenkmal erklärt wurde. Seine Glocke stammt aus dem Jahr 1900 und wurde in der Glockengießerei in Šoporňa gegossen. In der Nähe der Kirche steht außerdem eine steinerne Statue des heiligen Johannes von Nepomuk aus dem Jahr 1798. Die heutige Statue ist eine Kopie; der ursprüngliche steinerne Sockel blieb erhalten und wurde restauriert. Beide Denkmäler bezeugen das Zusammenleben katholischer und evangelischer Traditionen."
+        },
+        {
+          "id": "fact_006",
+          "title": "30. November 1944 – Deportation der Einwohner und Gedenkstätte für 43 Opfer",
+          "text": "Am 30. November 1944 drangen nationalsozialistische Einheiten in Selec ein und verhafteten Einwohner, die der Unterstützung von Partisanen verdächtigt wurden. Eine 1964 am ehemaligen Schulgebäude angebrachte Gedenktafel berichtet von 120 Verschleppten und 43 Menschen, die in deutschen Konzentrationslagern starben. Eine ausführlichere regionale Rekonstruktion beschreibt die Zusammenführung von etwa 300 Männern und die anschließende Auswahl von 67 Personen zur Deportation; 43 kehrten nicht zurück. Das 1969 enthüllte Denkmal mit Skulptur und Namenstafel ist als nationales Kulturdenkmal eingetragen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Denkmal für die Gefallenen des Ersten Weltkriegs – 29 Männer aus Selec",
+          "text": "Unweit der Kirche des heiligen Bartholomäus steht ein Denkmal für die Einwohner von Selec, die im Ersten Weltkrieg starben. Es wurde am 30. Mai 1937 feierlich enthüllt und erinnert an 29 Männer aus dem Ort. Es gehört zu einer Gruppe von Gedenkstätten im Dorfzentrum, die an beide Weltkriege und den Slowakischen Nationalaufstand erinnern. Das Denkmal zeigt, dass auch das kleine Bergdorf schwere Kriegsverluste erlitt; schon vor dem Krieg waren Einwohner zur Arbeit in benachbarte Regionen und ins Ausland gezogen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Naturreservat Považský Inovec – alte Buchenwälder am höchsten Gipfel",
+          "text": "Im Südosten des Katastergebiets von Selec liegt das 1988 auf 35,42 Hektar ausgewiesene Naturreservat Považský Inovec. Es schützt gut erhaltene Buchenbestände in den Gipfellagen zwischen etwa 670 und 1.042 Metern, darunter alte Buchen und gemischte Schluchtwälder. Das Gebiet gehört zum europäischen Schutzgebiet Považský Inovec (SKUEV0569), das unter anderem saure Buchenwälder, blütenreiche Buchenwälder und Linden-Ahorn-Schuttwälder sowie den Alpenbock schützt. Das Reservat ist auch für Pilze und Waldwirbellose bedeutend."
+        },
+        {
+          "id": "fact_009",
+          "title": "Steinmeer von Selec und Bach Selecký potok – geschützte Naturgebiete",
+          "text": "Im Katastergebiet von Selec befindet sich das Naturdenkmal Selecké kamenné more, das 1985 auf 4,83 Hektar ausgewiesen wurde. Es handelt sich um ein ausgedehntes Blockmeer aus Quarzit an den Hängen des Považský Inovec; zwischen den Felsblöcken wachsen lichter Eichenwald, Heidekraut und Heidelbeeren. Der extreme Lebensraum bietet unter anderem der Holzbiene, der Mauereidechse und der Äskulapnatter geeignete Bedingungen. Ein weiteres Schutzgebiet ist das Naturdenkmal Selecký potok, das 1984 auf 4,53 Hektar zum Schutz eines erhaltenen Vorgebirgsbachs, seiner Zuflüsse und Uferbestände ausgewiesen wurde."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan und Selčanka – Volkskultur, die über Generationen weitergegeben wird",
+          "text": "Die Folkloregruppe Selčan wurde 1964 gegründet und absolvierte seitdem Hunderte Tanz-, Musik- und Gesangsauftritte in der Slowakei und im Ausland. 1971 entstand als Nachfolge der Kinderfolkloreverein Selčanka, der mehrere Generationen junger Sänger und Tänzer ausbildete; laut Gemeinde wirkten dort mehr als 300 Kinder mit. Das Repertoire beider Gruppen schöpft aus örtlichen Bräuchen, Liedern und Tänzen. Selčan nahm wiederholt an landesweiten Wettbewerben „Nositelia tradícií“ teil und vertrat die Region auch bei Festivals in Myjava, Detva und Východná."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Selec – village centre by the municipal office, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – from a medieval village to a craft community beneath Považský Inovec",
+          "text": "Selec has been documented in writing since 1439, when it belonged to the estate of Trenčín Castle. In the 16th and 17th centuries, alongside farming, the village relied on woodworking, the making of carts and vessels, fulling mills and watermills. An important enterprise was the paper mill founded here by Anton Rezner in 1742. Residents also used forest resources and local limestone; the economy combined agriculture, craft production and forestry in a mountain basin."
+        },
+        {
+          "id": "fact_002",
+          "title": "Selec wooden spoons – a craft exported by the tens of thousands",
+          "text": "Wooden goods were one of Selec's traditional livelihoods. A turning point came in 1890, when six families of wood-turners from Lubina and Stará Turá moved to the village and expanded spoon production. Local residents quickly adopted the craft, and seasonal exports reached about 30,000 pieces per week in summer and up to 60,000 in winter. After the Second World War, a workshop employing 45 people introduced partial mechanisation. Household hand production ended in the early 1980s."
+        },
+        {
+          "id": "fact_003",
+          "title": "Waterwheel and forest railway – traces of the area's technical heritage",
+          "text": "Selec preserves several reminders of technical work in a mountain landscape. A regional heritage overview identifies a historic house with a waterwheel as a local technical monument. At the beginning of the 20th century, a forest railway was also built in the surrounding woods to haul timber. According to the Inovec microregion, sections of old tracks and a bridge survive and are now used as hiking paths or forest roads. The precise locations of the remains are not sufficiently documented for separate map pins."
+        },
+        {
+          "id": "fact_004",
+          "title": "Church of St Bartholomew – a Gothic predecessor and a Neoclassical rebuilding",
+          "text": "The Roman Catholic Church of St Bartholomew is the landmark of Selec. The municipal heritage overview dates its earlier Late Gothic predecessor to 1504; the present single-nave building resulted from a Neoclassical rebuilding and enlargement of the older church in 1780. Inside is a one-manual, seven-stop organ built in 1882–1883 by Martin Šaško of Brezová pod Bradlom together with his son Ján. According to the municipality, it was the last organ made by this important Slovak organ builder."
+        },
+        {
+          "id": "fact_005",
+          "title": "Neoclassical bell tower and statue of St John of Nepomuk",
+          "text": "The sacred landscape of Selec is complemented by an Evangelical bell tower from the late 18th century, declared a national cultural monument in 2011. Its bell dates from 1900 and was cast at the foundry in Šoporňa. Near the church also stands a stone statue of St John of Nepomuk from 1798. The present statue is a replica, while the original stone pedestal has survived and been restored. Together, the monuments reflect the coexistence of Catholic and Evangelical traditions in the village."
+        },
+        {
+          "id": "fact_006",
+          "title": "30 November 1944 – deportation of residents and memorial to 43 victims",
+          "text": "On 30 November 1944, Nazi units entered Selec and arrested residents suspected of helping partisans. A memorial plaque installed on the former school building in 1964 records 120 people taken away and 43 who died in German concentration camps. A more detailed regional reconstruction describes the gathering of about 300 men and the subsequent selection of 67 for deportation; 43 never returned. The memorial to those tortured during the Slovak National Uprising, with its sculpture and name plaque, was unveiled in 1969 and is listed as a national cultural monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "First World War memorial – 29 men from Selec",
+          "text": "Near the Church of St Bartholomew stands a memorial to the residents of Selec who died in the First World War. It was ceremonially unveiled on 30 May 1937 and commemorates 29 local men. It forms part of a group of memorial sites in the village centre that preserve the memory of both world wars and the Slovak National Uprising. The monument shows that even this small mountain village suffered heavy wartime losses; before the war, residents had also travelled to nearby regions and abroad for work."
+        },
+        {
+          "id": "fact_008",
+          "title": "Považský Inovec Nature Reserve – old beech forests on the highest peak",
+          "text": "In the southeast of Selec's cadastral area lies the Považský Inovec Nature Reserve, designated in 1988 and covering 35.42 hectares. It protects well-preserved summit beech stands at elevations of about 670 to 1,042 metres, including old beech trees and mixed ravine forests. The area is part of the Považský Inovec European Site of Community Importance (SKUEV0569), which protects acidophilous beech forests, flowering beech forests and lime-maple scree forests, as well as the Rosalia longicorn beetle. The reserve is also important for fungi and forest invertebrates."
+        },
+        {
+          "id": "fact_009",
+          "title": "Selec Stone Sea and the Selecký Stream – protected natural sites",
+          "text": "The Selecké kamenné more Natural Monument lies within Selec's cadastral area and was designated in 1985 over 4.83 hectares. It is an extensive quartzite block field on the slopes of Považský Inovec, where sparse oak woodland, heather and bilberry grow among the boulders. This extreme habitat supports species such as the violet carpenter bee, wall lizard and Aesculapian snake. Another protected site is the Selecký potok Natural Monument, designated in 1984 over 4.53 hectares to protect a well-preserved foothill stream, its tributaries and bankside vegetation."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan and Selčanka – folk traditions passed down through generations",
+          "text": "The Selčan folk group was founded in 1964 and has since performed hundreds of dance, music and singing programmes in Slovakia and abroad. In 1971, the children's folklore ensemble Selčanka followed; it has nurtured several generations of young singers and dancers, with more than 300 children having taken part according to the municipality. Both groups draw their repertoire from local customs, songs and dances. Selčan has repeatedly competed in the national „Nositelia tradícií“ showcases and represented the region at festivals in Myjava, Detva and Východná."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Selec – centro del municipio junto al ayuntamiento, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec: de aldea medieval a comunidad artesanal bajo el Považský Inovec",
+          "text": "Selec está documentado por escrito desde 1439, cuando pertenecía al señorío del castillo de Trenčín. En los siglos XVI y XVII, junto con la agricultura, fueron importantes el trabajo de la madera, la fabricación de carros y recipientes, los batanes y los molinos. Una empresa destacada fue la fábrica de papel fundada aquí por Anton Rezner en 1742. Los habitantes también aprovechaban los recursos forestales y la piedra caliza local; la economía combinaba agricultura, artesanía y trabajo forestal en una cuenca montañosa."
+        },
+        {
+          "id": "fact_002",
+          "title": "Las cucharas de madera de Selec: un oficio exportado por decenas de miles",
+          "text": "La fabricación de objetos de madera fue una de las actividades tradicionales de Selec. Un punto de inflexión llegó en 1890, cuando seis familias de torneros de madera procedentes de Lubina y Stará Turá se trasladaron al pueblo y ampliaron la producción de cucharas. Los habitantes aprendieron rápidamente el oficio y las exportaciones estacionales alcanzaban unas 30.000 piezas semanales en verano y hasta 60.000 en invierno. Tras la Segunda Guerra Mundial, un taller con 45 trabajadores introdujo una mecanización parcial. La producción manual doméstica terminó a comienzos de los años ochenta."
+        },
+        {
+          "id": "fact_003",
+          "title": "La rueda hidráulica y el ferrocarril forestal: huellas técnicas del pasado",
+          "text": "Selec conserva varios testimonios del trabajo técnico en un paisaje montañoso. Un inventario regional del patrimonio identifica una casa histórica con rueda hidráulica como monumento técnico local. A comienzos del siglo XX también se construyó en los bosques cercanos un ferrocarril forestal para transportar madera. Según la asociación Microregión Inovec, se conservan tramos de antiguas vías y un puente, utilizados hoy como senderos o caminos forestales. La ubicación exacta de los restos no está suficientemente documentada para asignarles puntos cartográficos separados."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de san Bartolomé: un predecesor gótico y la reconstrucción neoclásica",
+          "text": "La iglesia católica romana de san Bartolomé es el edificio emblemático de Selec. El inventario municipal fecha en 1504 su predecesor gótico tardío; el edificio actual, de una sola nave, procede de la reconstrucción y ampliación neoclásica del templo anterior en 1780. En el interior se conserva un órgano de un teclado y siete registros, construido entre 1882 y 1883 por Martin Šaško, de Brezová pod Bradlom, junto con su hijo Ján. Según el municipio, fue el último órgano fabricado por este importante organero eslovaco."
+        },
+        {
+          "id": "fact_005",
+          "title": "Campanario neoclásico y estatua de san Juan Nepomuceno",
+          "text": "El paisaje religioso de Selec se completa con un campanario evangélico de finales del siglo XVIII, declarado monumento cultural nacional en 2011. Su campana data de 1900 y procede de la fundición de Šoporňa. Cerca de la iglesia se encuentra también una estatua de piedra de san Juan Nepomuceno de 1798. La estatua actual es una réplica, mientras que el pedestal original de piedra se ha conservado y restaurado. Ambos monumentos reflejan la convivencia de las tradiciones católica y evangélica en el municipio."
+        },
+        {
+          "id": "fact_006",
+          "title": "30 de noviembre de 1944: deportación de habitantes y monumento a 43 víctimas",
+          "text": "El 30 de noviembre de 1944, unidades nazis entraron en Selec y detuvieron a habitantes sospechosos de ayudar a los partisanos. Una placa conmemorativa instalada en 1964 en el antiguo edificio escolar registra 120 personas deportadas y 43 fallecidas en campos de concentración alemanes. Una reconstrucción regional más detallada describe la concentración de unos 300 hombres y la selección posterior de 67 para la deportación; 43 no regresaron. El monumento a los torturados durante el Levantamiento Nacional Eslovaco, con escultura y placa con nombres, se inauguró en 1969 y está inscrito como monumento cultural nacional."
+        },
+        {
+          "id": "fact_007",
+          "title": "Monumento a los caídos en la Primera Guerra Mundial: 29 hombres de Selec",
+          "text": "Cerca de la iglesia de san Bartolomé se encuentra un monumento a los habitantes de Selec que murieron en la Primera Guerra Mundial. Fue inaugurado solemnemente el 30 de mayo de 1937 y recuerda a 29 hombres del municipio. Forma parte de un conjunto de lugares conmemorativos en el centro que preservan la memoria de las dos guerras mundiales y del Levantamiento Nacional Eslovaco. El monumento muestra que incluso esta pequeña localidad de montaña sufrió grandes pérdidas; antes de la guerra, sus habitantes también emigraban temporalmente a regiones cercanas y al extranjero para trabajar."
+        },
+        {
+          "id": "fact_008",
+          "title": "Reserva natural Považský Inovec: antiguos hayedos en la cumbre más alta",
+          "text": "En el sureste del término catastral de Selec se encuentra la Reserva Natural Považský Inovec, declarada en 1988 y con una superficie de 35,42 hectáreas. Protege hayedos bien conservados en las zonas altas, entre unos 670 y 1.042 metros, incluidos hayas antiguas y bosques mixtos de barrancos. El área forma parte del Lugar de Importancia Comunitaria Považský Inovec (SKUEV0569), que protege hayedos acidófilos, hayedos floridos y bosques de derrubios de tilos y arces, así como el escarabajo Rosalia alpina. La reserva también es importante por sus hongos e invertebrados forestales."
+        },
+        {
+          "id": "fact_009",
+          "title": "Mar de piedras de Selec y arroyo Selecký: espacios naturales protegidos",
+          "text": "El Monumento Natural Selecké kamenné more se encuentra dentro del término de Selec y fue declarado en 1985 con una superficie de 4,83 hectáreas. Es un extenso campo de bloques de cuarcita en las laderas del Považský Inovec, donde entre las rocas crecen robles dispersos, brezo y arándanos. Este hábitat extremo ofrece refugio a especies como la abeja carpintera violeta, la lagartija roquera y la culebra de Esculapio. Otro espacio protegido es el Monumento Natural Selecký potok, declarado en 1984 con 4,53 hectáreas para proteger un arroyo de piedemonte bien conservado, sus afluentes y la vegetación ribereña."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan y Selčanka: tradiciones folclóricas transmitidas entre generaciones",
+          "text": "El grupo folclórico Selčan se fundó en 1964 y desde entonces ha realizado cientos de actuaciones de danza, música y canto en Eslovaquia y en el extranjero. En 1971 nació el conjunto folclórico infantil Selčanka, que ha formado a varias generaciones de jóvenes cantantes y bailarines; según el municipio, han participado más de 300 niños. Ambos grupos se inspiran en las costumbres, canciones y danzas locales. Selčan ha participado repetidamente en las muestras nacionales «Nositelia tradícií» y ha representado la región en festivales de Myjava, Detva y Východná."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Selec – centre du village près de la mairie, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – du village médiéval à la commune artisanale au pied du Považský Inovec",
+          "text": "Selec est attesté par écrit depuis 1439, lorsqu’il appartenait au domaine du château de Trenčín. Aux XVIe et XVIIe siècles, outre l’agriculture, le travail du bois, la fabrication de charrettes et de récipients, les foulons et les moulins étaient importants. Une entreprise notable fut la papeterie fondée ici par Anton Rezner en 1742. Les habitants exploitaient également les ressources forestières et le calcaire local ; l’économie associait agriculture, artisanat et travail forestier dans une cuvette montagneuse."
+        },
+        {
+          "id": "fact_002",
+          "title": "Les cuillères en bois de Selec – un artisanat exporté par dizaines de milliers",
+          "text": "La fabrication d’objets en bois faisait partie des activités traditionnelles de Selec. Un tournant eut lieu en 1890, lorsque six familles de tourneurs sur bois de Lubina et Stará Turá s’installèrent dans le village et développèrent la production de cuillères. Les habitants apprirent rapidement le métier ; les exportations saisonnières atteignaient environ 30 000 pièces par semaine en été et jusqu’à 60 000 en hiver. Après la Seconde Guerre mondiale, un atelier employant 45 personnes introduisit une mécanisation partielle. La production manuelle à domicile prit fin au début des années 1980."
+        },
+        {
+          "id": "fact_003",
+          "title": "Roue hydraulique et chemin de fer forestier – traces du patrimoine technique",
+          "text": "Selec conserve plusieurs témoignages du travail technique dans un paysage de montagne. Un inventaire régional du patrimoine signale une maison historique avec roue hydraulique comme monument technique local. Au début du XXe siècle, un chemin de fer forestier fut également construit dans les bois voisins pour transporter le bois. Selon la micro-région Inovec, des tronçons d’anciennes voies et un pont subsistent et servent aujourd’hui de sentiers ou de chemins forestiers. L’emplacement précis de chaque vestige n’est pas assez documenté pour créer des points cartographiques distincts."
+        },
+        {
+          "id": "fact_004",
+          "title": "Église Saint-Barthélemy – un prédécesseur gothique et une reconstruction néoclassique",
+          "text": "L’église catholique romaine Saint-Barthélemy est le monument emblématique de Selec. L’inventaire communal date de 1504 son prédécesseur gothique tardif ; l’édifice actuel à nef unique résulte de la reconstruction et de l’agrandissement néoclassiques de l’ancienne église en 1780. À l’intérieur se trouve un orgue à un clavier et sept jeux, construit en 1882–1883 par Martin Šaško, de Brezová pod Bradlom, avec son fils Ján. Selon la commune, il s’agissait du dernier orgue fabriqué par cet important facteur d’orgues slovaque."
+        },
+        {
+          "id": "fact_005",
+          "title": "Beffroi néoclassique et statue de saint Jean Népomucène",
+          "text": "Le paysage religieux de Selec est complété par un clocher évangélique de la fin du XVIIIe siècle, classé monument culturel national en 2011. Sa cloche date de 1900 et provient de la fonderie de Šoporňa. Près de l’église se trouve également une statue en pierre de saint Jean Népomucène datant de 1798. La statue actuelle est une réplique, tandis que le socle de pierre d’origine a été conservé et restauré. Ces monuments témoignent de la coexistence des traditions catholique et évangélique dans le village."
+        },
+        {
+          "id": "fact_006",
+          "title": "30 novembre 1944 – déportation des habitants et mémorial des 43 victimes",
+          "text": "Le 30 novembre 1944, des unités nazies entrèrent à Selec et arrêtèrent des habitants soupçonnés d’aider les partisans. Une plaque commémorative installée en 1964 sur l’ancien bâtiment scolaire indique que 120 habitants furent emmenés et que 43 moururent dans les camps de concentration allemands. Une reconstitution régionale plus détaillée décrit le rassemblement d’environ 300 hommes puis la sélection de 67 personnes pour la déportation ; 43 ne revinrent pas. Le mémorial des suppliciés du Soulèvement national slovaque, avec sa sculpture et sa plaque nominative, fut inauguré en 1969 et est classé monument culturel national."
+        },
+        {
+          "id": "fact_007",
+          "title": "Monument aux morts de la Première Guerre mondiale – 29 hommes de Selec",
+          "text": "Près de l’église Saint-Barthélemy se trouve un monument dédié aux habitants de Selec morts pendant la Première Guerre mondiale. Il fut inauguré le 30 mai 1937 et commémore 29 hommes du village. Il fait partie d’un ensemble de lieux de mémoire dans le centre, qui rappellent les deux guerres mondiales et le Soulèvement national slovaque. Le monument montre que même ce petit village de montagne subit de lourdes pertes ; avant la guerre, ses habitants partaient aussi travailler dans les régions voisines et à l’étranger."
+        },
+        {
+          "id": "fact_008",
+          "title": "Réserve naturelle de Považský Inovec – vieilles hêtraies au sommet le plus élevé",
+          "text": "Au sud-est du territoire cadastral de Selec se trouve la réserve naturelle Považský Inovec, créée en 1988 sur 35,42 hectares. Elle protège des hêtraies bien conservées dans les zones sommitales, entre environ 670 et 1 042 mètres, dont de vieux hêtres et des forêts mixtes de ravin. Le site fait partie de la zone européenne d’importance communautaire Považský Inovec (SKUEV0569), qui protège notamment les hêtraies acidophiles, les hêtraies à fleurs et les forêts d’éboulis à tilleuls et érables, ainsi que le grand capricorne alpin. La réserve est également importante pour les champignons et les invertébrés forestiers."
+        },
+        {
+          "id": "fact_009",
+          "title": "Mer de pierres de Selec et ruisseau Selecký – sites naturels protégés",
+          "text": "Le monument naturel Selecké kamenné more se trouve dans le territoire de Selec et fut classé en 1985 sur 4,83 hectares. Il s’agit d’un vaste champ de blocs de quartzite sur les pentes du Považský Inovec ; entre les rochers poussent une chênaie clairsemée, la bruyère et la myrtille. Cet habitat extrême abrite notamment l’abeille charpentière violette, le lézard des murailles et la couleuvre d’Esculape. Un autre site protégé est le monument naturel Selecký potok, classé en 1984 sur 4,53 hectares pour protéger un ruisseau de piémont préservé, ses affluents et sa végétation riveraine."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan et Selčanka – traditions folkloriques transmises entre générations",
+          "text": "Le groupe folklorique Selčan fut fondé en 1964 et a depuis présenté des centaines de spectacles de danse, de musique et de chant en Slovaquie et à l’étranger. En 1971, l’ensemble folklorique pour enfants Selčanka lui succéda ; il a formé plusieurs générations de jeunes chanteurs et danseurs, avec plus de 300 enfants participants selon la commune. Les deux groupes puisent leur répertoire dans les coutumes, chansons et danses locales. Selčan a participé à plusieurs reprises aux rencontres nationales « Nositelia tradícií » et représenté la région aux festivals de Myjava, Detva et Východná."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Selec – centro del paese presso il municipio, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – da villaggio medievale a comunità artigiana ai piedi del Považský Inovec",
+          "text": "Selec è documentata per iscritto dal 1439, quando apparteneva al dominio del castello di Trenčín. Nei secoli XVI e XVII, oltre all’agricoltura, erano importanti la lavorazione del legno, la produzione di carri e recipienti, le gualchiere e i mulini. Un’impresa significativa fu la cartiera fondata qui da Anton Rezner nel 1742. Gli abitanti utilizzavano anche le risorse forestali e il calcare locale; l’economia univa agricoltura, artigianato e lavoro nei boschi in una conca montana."
+        },
+        {
+          "id": "fact_002",
+          "title": "I cucchiai di legno di Selec – un mestiere esportato a decine di migliaia",
+          "text": "La produzione di oggetti in legno era una delle attività tradizionali di Selec. Una svolta arrivò nel 1890, quando sei famiglie di tornitori provenienti da Lubina e Stará Turá si trasferirono nel villaggio e ampliarono la produzione di cucchiai. Gli abitanti appresero rapidamente il mestiere e le esportazioni stagionali raggiunsero circa 30.000 pezzi alla settimana in estate e fino a 60.000 in inverno. Dopo la Seconda guerra mondiale, un laboratorio con 45 addetti introdusse una meccanizzazione parziale. La produzione manuale domestica terminò all’inizio degli anni Ottanta."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ruota idraulica e ferrovia forestale – tracce del patrimonio tecnico",
+          "text": "Selec conserva diverse testimonianze del lavoro tecnico in un paesaggio montano. Un repertorio regionale del patrimonio segnala una casa storica con ruota idraulica come monumento tecnico locale. All’inizio del XX secolo fu costruita nei boschi circostanti anche una ferrovia forestale per il trasporto del legname. Secondo la microregione Inovec, ne restano tratti di vecchi binari e un ponte, oggi utilizzati come sentieri o strade forestali. La posizione precisa dei singoli resti non è documentata a sufficienza per creare punti cartografici separati."
+        },
+        {
+          "id": "fact_004",
+          "title": "Chiesa di San Bartolomeo – un predecessore gotico e la ricostruzione neoclassica",
+          "text": "La chiesa cattolica romana di San Bartolomeo è l’edificio simbolo di Selec. Il repertorio comunale data al 1504 il suo predecessore tardogotico; l’edificio attuale a navata unica deriva dalla ricostruzione e dall’ampliamento neoclassici della chiesa precedente nel 1780. All’interno si trova un organo a un manuale e sette registri, costruito nel 1882–1883 da Martin Šaško di Brezová pod Bradlom insieme al figlio Ján. Secondo il comune fu l’ultimo organo realizzato da questo importante organaro slovacco."
+        },
+        {
+          "id": "fact_005",
+          "title": "Campanile neoclassico e statua di San Giovanni Nepomuceno",
+          "text": "Il paesaggio religioso di Selec è completato da un campanile evangelico della fine del XVIII secolo, dichiarato monumento culturale nazionale nel 2011. La sua campana risale al 1900 e proviene dalla fonderia di Šoporňa. Vicino alla chiesa si trova anche una statua in pietra di San Giovanni Nepomuceno del 1798. La statua attuale è una copia, mentre il piedistallo originale in pietra è stato conservato e restaurato. I due monumenti testimoniano la convivenza delle tradizioni cattolica ed evangelica nel villaggio."
+        },
+        {
+          "id": "fact_006",
+          "title": "30 novembre 1944 – deportazione degli abitanti e memoriale delle 43 vittime",
+          "text": "Il 30 novembre 1944 unità naziste entrarono a Selec e arrestarono gli abitanti sospettati di aiutare i partigiani. Una targa commemorativa collocata nel 1964 sull’edificio della vecchia scuola registra 120 persone deportate e 43 morte nei campi di concentramento tedeschi. Una ricostruzione regionale più dettagliata descrive il raduno di circa 300 uomini e la successiva selezione di 67 persone da deportare; 43 non fecero ritorno. Il memoriale ai martirizzati durante l’Insurrezione nazionale slovacca, con scultura e targa con i nomi, fu inaugurato nel 1969 ed è registrato come monumento culturale nazionale."
+        },
+        {
+          "id": "fact_007",
+          "title": "Monumento ai caduti della Prima guerra mondiale – 29 uomini di Selec",
+          "text": "Vicino alla chiesa di San Bartolomeo si trova un monumento agli abitanti di Selec morti nella Prima guerra mondiale. Fu inaugurato solennemente il 30 maggio 1937 e ricorda 29 uomini del paese. Fa parte di un insieme di luoghi commemorativi nel centro, dedicati alle due guerre mondiali e all’Insurrezione nazionale slovacca. Il monumento mostra che anche questo piccolo villaggio montano subì gravi perdite; prima della guerra i residenti partivano inoltre per lavorare nelle regioni vicine e all’estero."
+        },
+        {
+          "id": "fact_008",
+          "title": "Riserva naturale Považský Inovec – antiche faggete sulla vetta più alta",
+          "text": "Nel sud-est del territorio catastale di Selec si trova la riserva naturale Považský Inovec, istituita nel 1988 su 35,42 ettari. Protegge faggete ben conservate nelle zone sommitali, tra circa 670 e 1.042 metri, comprese vecchie faggete e foreste miste di forra. L’area fa parte del sito europeo Považský Inovec (SKUEV0569), che tutela tra l’altro faggete acidofile, faggete fiorite e boschi detritici di tigli e aceri, oltre al coleottero Rosalia alpina. La riserva è importante anche per funghi e invertebrati forestali."
+        },
+        {
+          "id": "fact_009",
+          "title": "Mare di pietre di Selec e torrente Selecký – siti naturali protetti",
+          "text": "Il monumento naturale Selecké kamenné more si trova nel territorio di Selec e fu istituito nel 1985 su 4,83 ettari. È un vasto campo di blocchi di quarzite sui pendii del Považský Inovec, dove tra i massi crescono una rada querceta, erica e mirtilli. Questo habitat estremo offre rifugio a specie come l’ape legnaiola violetta, la lucertola muraiola e il colubro di Esculapio. Un’altra area protetta è il monumento naturale Selecký potok, istituito nel 1984 su 4,53 ettari per proteggere un torrente pedemontano ben conservato, i suoi affluenti e la vegetazione ripariale."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan e Selčanka – tradizioni popolari tramandate tra generazioni",
+          "text": "Il gruppo folcloristico Selčan fu fondato nel 1964 e da allora ha realizzato centinaia di esibizioni di danza, musica e canto in Slovacchia e all’estero. Nel 1971 nacque il gruppo folcloristico infantile Selčanka, che ha formato diverse generazioni di giovani cantanti e ballerini; secondo il comune vi hanno partecipato più di 300 bambini. Entrambi i gruppi attingono a usanze, canti e danze locali. Selčan ha partecipato più volte alle rassegne nazionali «Nositelia tradícií» e ha rappresentato la regione ai festival di Myjava, Detva e Východná."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Selec – dorpscentrum bij het gemeentehuis, Selec 73",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Selec – van middeleeuws dorp tot ambachtsgemeenschap aan de voet van Považský Inovec",
+          "text": "Selec is sinds 1439 schriftelijk bekend en behoorde toen tot het domein van kasteel Trenčín. In de 16e en 17e eeuw waren naast landbouw ook houtbewerking, de vervaardiging van wagens en vaatwerk, volmolens en watermolens belangrijk. Een belangrijke onderneming was de papiermolen die Anton Rezner hier in 1742 oprichtte. De inwoners gebruikten ook bosproducten en lokale kalksteen; de economie combineerde landbouw, ambachtelijke productie en bosarbeid in een bergkom."
+        },
+        {
+          "id": "fact_002",
+          "title": "Houten lepels uit Selec – een ambacht dat met tienduizenden werd uitgevoerd",
+          "text": "De vervaardiging van houten voorwerpen was een traditionele bron van inkomsten in Selec. Een keerpunt kwam in 1890, toen zes families houtdraaiers uit Lubina en Stará Turá naar het dorp verhuisden en de lepelproductie uitbreidden. De inwoners namen het ambacht snel over; de seizoensuitvoer bereikte ongeveer 30.000 stuks per week in de zomer en tot 60.000 in de winter. Na de Tweede Wereldoorlog bood een werkplaats werk aan 45 mensen en werd gedeeltelijke mechanisatie ingevoerd. De handmatige thuisproductie eindigde begin jaren tachtig."
+        },
+        {
+          "id": "fact_003",
+          "title": "Waterrad en bosspoorlijn – technische sporen van het economische verleden",
+          "text": "Selec bewaart verschillende sporen van technisch werk in een berglandschap. Een regionaal erfgoedinventaris noemt een historisch huis met waterrad als lokaal technisch monument. Aan het begin van de 20e eeuw werd in de omliggende bossen ook een bosspoorlijn aangelegd voor houttransport. Volgens de microregio Inovec zijn delen van oude sporen en een brug bewaard gebleven; tegenwoordig dienen ze als wandelpaden of boswegen. De precieze ligging van de afzonderlijke resten is niet voldoende gedocumenteerd om aparte kaartpunten vast te leggen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sint-Bartholomeuskerk – een gotische voorganger en neoclassicistische verbouwing",
+          "text": "De rooms-katholieke Sint-Bartholomeuskerk is het herkenningspunt van Selec. Het gemeentelijke erfgoedinventaris dateert de laatgotische voorganger op 1504; het huidige eenbeukige gebouw ontstond door een neoclassicistische verbouwing en uitbreiding van de oudere kerk in 1780. Binnen staat een eenklaviers orgel met zeven registers, gebouwd in 1882–1883 door Martin Šaško uit Brezová pod Bradlom samen met zijn zoon Ján. Volgens de gemeente was dit het laatste orgel dat deze belangrijke Slowaakse orgelbouwer maakte."
+        },
+        {
+          "id": "fact_005",
+          "title": "Neoclassicistische klokkentoren en beeld van Sint-Jan van Nepomuk",
+          "text": "Het religieuze landschap van Selec wordt aangevuld door een evangelische klokkentoren uit het einde van de 18e eeuw, die in 2011 tot nationaal cultureel monument werd verklaard. De klok dateert uit 1900 en werd gegoten in de klokkengieterij van Šoporňa. Dicht bij de kerk staat ook een stenen beeld van Sint-Jan van Nepomuk uit 1798. Het huidige beeld is een replica; de oorspronkelijke stenen sokkel is bewaard gebleven en gerestaureerd. Samen getuigen de monumenten van het naast elkaar bestaan van katholieke en evangelische tradities."
+        },
+        {
+          "id": "fact_006",
+          "title": "30 november 1944 – deportatie van inwoners en monument voor 43 slachtoffers",
+          "text": "Op 30 november 1944 vielen nazi-eenheden Selec binnen en arresteerden inwoners die ervan verdacht werden partizanen te helpen. Een gedenkplaat uit 1964 op het voormalige schoolgebouw vermeldt 120 weggevoerd inwoners en 43 mensen die in Duitse concentratiekampen stierven. Een meer gedetailleerde regionale reconstructie beschrijft de samenkomst van ongeveer 300 mannen en de daaropvolgende selectie van 67 personen voor deportatie; 43 keerden niet terug. Het monument voor de gemartelden tijdens de Slowaakse Nationale Opstand, met beeld en namenplaat, werd in 1969 onthuld en staat geregistreerd als nationaal cultureel monument."
+        },
+        {
+          "id": "fact_007",
+          "title": "Monument voor de gesneuvelden van de Eerste Wereldoorlog – 29 mannen uit Selec",
+          "text": "Vlak bij de Sint-Bartholomeuskerk staat een monument voor de inwoners van Selec die in de Eerste Wereldoorlog omkwamen. Het werd op 30 mei 1937 plechtig onthuld en herdenkt 29 plaatselijke mannen. Het maakt deel uit van een groep gedenkplaatsen in het dorpscentrum die herinneren aan beide wereldoorlogen en de Slowaakse Nationale Opstand. Het monument laat zien dat ook dit kleine bergdorp zware oorlog verliezen leed; al vóór de oorlog trokken inwoners voor werk naar naburige regio's en het buitenland."
+        },
+        {
+          "id": "fact_008",
+          "title": "Natuurreservaat Považský Inovec – oude beukenbossen op de hoogste top",
+          "text": "In het zuidoosten van het kadastrale gebied van Selec ligt het natuurreservaat Považský Inovec, dat in 1988 werd ingesteld en 35,42 hectare beslaat. Het beschermt goed bewaarde beukenbossen op de bergtoppen, op ongeveer 670 tot 1.042 meter hoogte, waaronder oude beuken en gemengde ravijnbossen. Het gebied maakt deel uit van het Europese beschermde gebied Považský Inovec (SKUEV0569), dat onder meer zuurminnende beukenbossen, bloemrijke beukenbossen en linde-esdoornpuinbossen beschermt, evenals de Alpenboktor. Het reservaat is ook belangrijk voor paddenstoelen en bosongewervelden."
+        },
+        {
+          "id": "fact_009",
+          "title": "Het stenen zeegebied van Selec en de Selecký-beek – beschermde natuurgebieden",
+          "text": "Het natuurmonument Selecké kamenné more ligt binnen het grondgebied van Selec en werd in 1985 ingesteld met een oppervlakte van 4,83 hectare. Het is een uitgestrekt blokkenveld van kwartsiet op de hellingen van Považský Inovec; tussen de rotsblokken groeien open eikenbos, heide en bosbessen. Deze extreme leefomgeving biedt plaats aan soorten zoals de violette houtbij, muurhagedis en esculaapslang. Een ander beschermd gebied is het natuurmonument Selecký potok, dat in 1984 over 4,53 hectare werd ingesteld om een goed bewaarde voorbergb beek, zijn zijstromen en oevervegetatie te beschermen."
+        },
+        {
+          "id": "fact_010",
+          "title": "Selčan en Selčanka – volkscultuur die generaties lang wordt doorgegeven",
+          "text": "De volksdansgroep Selčan werd opgericht in 1964 en heeft sindsdien honderden dans-, muziek- en zangoptredens gegeven in Slowakije en daarbuiten. In 1971 volgde het kinderfolkloreensemble Selčanka, dat meerdere generaties jonge zangers en dansers heeft opgeleid; volgens de gemeente hebben meer dan 300 kinderen meegedaan. Beide groepen putten uit plaatselijke gebruiken, liederen en dansen. Selčan nam herhaaldelijk deel aan de landelijke presentaties „Nositelia tradícií” en vertegenwoordigde de regio op festivals in Myjava, Detva en Východná."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
