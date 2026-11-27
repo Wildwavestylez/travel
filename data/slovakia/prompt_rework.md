@@ -15,6 +15,10 @@ If any instruction conflicts with the current schema, Country Profile or Content
 
 **Methodological basis:** this prompt deliberately follows the proven structure and safeguards of the current Czech rework prompt. German rework guidance may be used as a secondary operational reference where it improves queue continuity or efficiency, but it does not replace the Czech methodology. Only Slovak national authorities, administrative concepts, postal realities and Slovak schema values may be used for Slovak records.
 
+## Shared TRAVEL editorial standard — mandatory
+
+Apply `data/REWORK_QUALITY_STANDARD.md` to every record in addition to this country's schema, Country Profile and Content Standard. It standardizes story depth, research synthesis, evidence, translation quality, autonomous one-record completion and strict respect for the user's batch boundary. It does not replace or override any country-specific postal, geographic, storage, schema or lifecycle rule. In a conflict, follow the applicable national documents and schema.
+
 ## 1. Purpose, scope and protected boundaries
 
 Rework existing Slovak geographic PSČ records into the current Slovak production standard. This is a complete research and editorial rework, not a mechanical conversion or a translation-only pass.
