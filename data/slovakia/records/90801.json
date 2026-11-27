@@ -1,4 +1,392 @@
 {
   "postcode": "90801",
-  "status": "placeholder"
+  "city": "Kúty",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Josefa Pestúna a historické centrum Kútů",
+  "representative_point": {
+    "lat": 48.659414,
+    "lon": 17.018924
+  },
+  "access_point": {
+    "lat": 48.659414,
+    "lon": 17.018924
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Kúty – středověká obec na soutoku Moravy a Myjavy",
+      "text": "Kúty jsou písemně doloženy od roku 1392 pod názvem Kuth; roku 1498 se objevuje podoba Kwhty. Archeologické nálezy dokládají osídlení už v době kamenné a bronzové, později také v době laténské a raně slovanské. Významné lokality Čepangát a Sigeca leží v prostoru historického soutoku Moravy a Myjavy. Obec ve středověku patřila k panství hradu Ostrý Kameň, později Czoborům a od roku 1736 Habsburkům.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Josefa Pestúna – barokní dominanta Kútů",
+      "text": "Římskokatolický kostel sv. Josefa Pestúna byl postaven v letech 1718–1726 a patří k nejvýznamnějším sakrálním památkám Kútů. Má neobvyklou oválnou centrální dispozici, barokní klenby a boční prostory po stranách presbytáře. Zvonice vznikla roku 1826 a věž kostela byla dokončena roku 1841. Kostel je zapsán v Ústředním seznamu památkového fondu pod číslem 630/1.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "location": {
+        "name": "Kostel sv. Jozefa Pestúna, Kúty",
+        "lat": 48.659414,
+        "lon": 17.018924,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kuty-kostol-sv-jozefa-pestuna"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kaple sv. Anny – stará poutní a pohřební lokalita",
+      "text": "Kaple sv. Anny má v Kútech mnohem starší kořeny než hlavní farní kostel. Nejstarší písemný doklad pochází z roku 1686; kaple tehdy sloužila také k pohřbům a křtům a její okolí fungovalo jako nouzové pohřebiště, mimo jiné během morových epidemií. Roku 1852 byla na místě starší stavby vybudována menší kaple, která se dochovala dodnes. Její interiér zdobí obrazy sv. Anny, sv. Rocha a sv. Vendelína.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5"
+      ],
+      "location": {
+        "name": "Kaple sv. Anny, Kúty",
+        "lat": 48.66234,
+        "lon": 17.012043,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/kuty-kaplnka-sv-anny"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kúty jako významný železniční uzel na hranici",
+      "text": "Železniční trať Trnava–Jablonica–Kúty byla uvedena do provozu 11. června 1898 a navázala na spojení směrem k Břeclavi. Kúty se postupně staly důležitou pohraniční stanicí a železničním uzlem, kde se sbíhají směry na Bratislavu, Trnavu, Gbely a českou stranu hranice. Historická výpravní budova stanice pochází z roku 1926; železniční provoz zde dodnes utváří dopravní význam obce.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "location": {
+        "name": "Železniční stanice Kúty",
+        "lat": 48.662081,
+        "lon": 17.047222,
+        "type": "railway_station",
+        "accuracy": "approximate",
+        "source": "https://schedules.czech-transport.com/en/5?stop=KUTY_ST"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kaniža, Hribov a Dedina – historické části Kútů",
+      "text": "Nejstarší částí Kútů je Kaniža; v její blízkosti leží Hribov a část zvaná Dedina podél dnešní Bratislavské ulice. Právě zde se dochovaly charakteristické historické stavební struktury: domy stojí kolmo k veřejné komunikaci a jejich dvory ústí přímo do ulice. Tato půdorysná a stavební podoba připomíná starší venkovské uspořádání obce, které se postupně rozrostlo z původního sídelního jádra.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s1"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – seznam pošt s rozšířeným predajom uvádí Poštu Kúty 1 s PSČ 908 01; obecní adresa Nám. Radlinského 981, 90801 Kúty je potvrzena oficiálními a veřejnými registry.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Seznam pošt s rozšířeným predajom",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 908 01 je spojeno s obcí Kúty; umístění pošty nebylo použito jako reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (Ministerstvo vnútra SR) pro adresní evidenci; oficiální obec Kúty pro administrativní a místní geografii; odborné památkové a železniční zdroje pro polohy objektů."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Kúty – História",
+      "url": "https://www.kuty.sk/obec-2/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Kúty – Obec a geografická poloha",
+      "url": "https://www.kuty.sk/obec-2/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Pamiatky na Slovensku – Kostol sv. Jozefa Pestúna",
+      "url": "https://www.pamiatkynaslovensku.sk/kuty-kostol-sv-jozefa-pestuna",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Kúty – Cirkev",
+      "url": "https://www.kuty.sk/obec-2/kultura/cirkev/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Pamiatky na Slovensku – Kaplnka sv. Anny",
+      "url": "https://www.pamiatkynaslovensku.sk/kuty-kaplnka-sv-anny",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Mesto Senica – 120. výročie trate Trnava – Kúty",
+      "url": "https://senica.sk/clanok/120-vyrocie-trate-trnava-kuty",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Železnice Slovenskej republiky – Štandardy, Kúty",
+      "url": "https://www.zsr.sk/files/zsemafor/2015/zsemafor08_2015.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Schedules Czech Transport – Kúty railway station coordinates",
+      "url": "https://schedules.czech-transport.com/en/5?stop=KUTY_ST",
+      "type": "other"
+    },
+    {
+      "id": "s9",
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Register%2Badries/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Josefa Pestúna a historické centrum Kútů",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty – středověká obec na soutoku Moravy a Myjavy",
+          "text": "Kúty jsou písemně doloženy od roku 1392 pod názvem Kuth; roku 1498 se objevuje podoba Kwhty. Archeologické nálezy dokládají osídlení už v době kamenné a bronzové, později také v době laténské a raně slovanské. Významné lokality Čepangát a Sigeca leží v prostoru historického soutoku Moravy a Myjavy. Obec ve středověku patřila k panství hradu Ostrý Kameň, později Czoborům a od roku 1736 Habsburkům."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Josefa Pestúna – barokní dominanta Kútů",
+          "text": "Římskokatolický kostel sv. Josefa Pestúna byl postaven v letech 1718–1726 a patří k nejvýznamnějším sakrálním památkám Kútů. Má neobvyklou oválnou centrální dispozici, barokní klenby a boční prostory po stranách presbytáře. Zvonice vznikla roku 1826 a věž kostela byla dokončena roku 1841. Kostel je zapsán v Ústředním seznamu památkového fondu pod číslem 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kaple sv. Anny – stará poutní a pohřební lokalita",
+          "text": "Kaple sv. Anny má v Kútech mnohem starší kořeny než hlavní farní kostel. Nejstarší písemný doklad pochází z roku 1686; kaple tehdy sloužila také k pohřbům a křtům a její okolí fungovalo jako nouzové pohřebiště, mimo jiné během morových epidemií. Roku 1852 byla na místě starší stavby vybudována menší kaple, která se dochovala dodnes. Její interiér zdobí obrazy sv. Anny, sv. Rocha a sv. Vendelína."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty jako významný železniční uzel na hranici",
+          "text": "Železniční trať Trnava–Jablonica–Kúty byla uvedena do provozu 11. června 1898 a navázala na spojení směrem k Břeclavi. Kúty se postupně staly důležitou pohraniční stanicí a železničním uzlem, kde se sbíhají směry na Bratislavu, Trnavu, Gbely a českou stranu hranice. Historická výpravní budova stanice pochází z roku 1926; železniční provoz zde dodnes utváří dopravní význam obce."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov a Dedina – historické části Kútů",
+          "text": "Nejstarší částí Kútů je Kaniža; v její blízkosti leží Hribov a část zvaná Dedina podél dnešní Bratislavské ulice. Právě zde se dochovaly charakteristické historické stavební struktury: domy stojí kolmo k veřejné komunikaci a jejich dvory ústí přímo do ulice. Tato půdorysná a stavební podoba připomíná starší venkovské uspořádání obce, které se postupně rozrostlo z původního sídelního jádra."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "St.-Josef-Kirche und historischer Ortskern von Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty – eine mittelalterliche Gemeinde am Zusammenfluss von March und Myjava",
+          "text": "Kúty ist seit 1392 unter dem Namen Kuth schriftlich belegt; 1498 erscheint die Form Kwhty. Archäologische Funde belegen Besiedlung seit der Stein- und Bronzezeit sowie später in der Latènezeit und der frühen slawischen Periode. Die Fundstellen Čepangát und Sigeca liegen am historischen Zusammenfluss von March und Myjava. Im Mittelalter gehörte der Ort zur Herrschaft der Burg Ostrý Kameň, später den Czobor und ab 1736 den Habsburgern."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die St.-Josef-Pflegevater-Kirche – barockes Wahrzeichen von Kúty",
+          "text": "Die römisch-katholische Kirche des heiligen Josef des Pflegevaters wurde 1718–1726 erbaut und zählt zu den bedeutendsten Sakraldenkmälern von Kúty. Sie besitzt einen ungewöhnlichen ovalen Zentralgrundriss, barocke Gewölbe und Seitenräume neben dem Presbyterium. Der Glockenturm entstand 1826, der Kirchturm wurde 1841 fertiggestellt. Die Kirche ist unter der Nummer 630/1 im zentralen Denkmalverzeichnis eingetragen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die St.-Anna-Kapelle – ein alter Wallfahrts- und Begräbnisort",
+          "text": "Die St.-Anna-Kapelle in Kúty hat ältere Wurzeln als die Pfarrkirche. Der älteste schriftliche Nachweis stammt aus dem Jahr 1686; die Kapelle diente auch für Beerdigungen und Taufen, und ihre Umgebung wurde als Notfriedhof genutzt, unter anderem während Pestepidemien. 1852 wurde an der Stelle des älteren Baus eine kleinere Kapelle errichtet, die bis heute erhalten ist. Im Inneren befinden sich Bilder der heiligen Anna, des heiligen Rochus und des heiligen Wendelin."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty als bedeutender Eisenbahnknoten an der Grenze",
+          "text": "Die Bahnstrecke Trnava–Jablonica–Kúty wurde am 11. Juni 1898 eröffnet und stellte eine Verbindung in Richtung Břeclav her. Kúty entwickelte sich zu einem wichtigen Grenzbahnhof und Eisenbahnknoten mit Strecken nach Bratislava, Trnava, Gbely und auf die tschechische Seite. Das historische Empfangsgebäude stammt aus dem Jahr 1926; der Bahnverkehr prägt bis heute die Verkehrsbedeutung der Gemeinde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov und Dedina – die historischen Ortsteile von Kúty",
+          "text": "Der älteste Teil von Kúty ist Kaniža; in seiner Nähe liegen Hribov und der Ortsteil Dedina entlang der heutigen Bratislavská-Straße. Hier sind charakteristische historische Bauformen erhalten: Die Häuser stehen senkrecht zur öffentlichen Straße, und ihre Höfe öffnen sich direkt zur Straße. Diese Siedlungsstruktur erinnert an die ältere ländliche Anlage des Ortes, der sich allmählich vom ursprünglichen Siedlungskern aus entwickelte."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Joseph Church and the historic centre of Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty – a medieval village at the confluence of the Morava and Myjava",
+          "text": "Kúty is documented from 1392 under the name Kuth; the form Kwhty appears in 1498. Archaeological finds show settlement from the Stone and Bronze Ages, followed by the La Tène and early Slavic periods. The important sites of Čepangát and Sigeca lie near the historic confluence of the Morava and Myjava rivers. In the Middle Ages the village belonged to the estate of Ostrý Kameň Castle, later to the Czobor family and, from 1736, to the Habsburgs."
+        },
+        {
+          "id": "fact_002",
+          "title": "St Joseph the Foster Father Church – Kúty’s Baroque landmark",
+          "text": "The Roman Catholic Church of St Joseph the Foster Father was built between 1718 and 1726 and is one of Kúty’s most important religious monuments. It has an unusual oval central plan, Baroque vaults and side spaces beside the presbytery. The bell tower was built in 1826 and the church tower was completed in 1841. The church is listed in the Central Register of Monuments under number 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Anne’s Chapel – an old pilgrimage and burial site",
+          "text": "St Anne’s Chapel in Kúty has much older roots than the main parish church. Its earliest written record dates from 1686; the chapel was also used for funerals and baptisms, while its surroundings served as an emergency burial ground, including during plague epidemics. In 1852 a smaller chapel was built on the site of the older structure and survives today. Its interior contains images of St Anne, St Roch and St Wendelin."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty as an important border railway junction",
+          "text": "The Trnava–Jablonica–Kúty railway line opened on 11 June 1898 and connected with routes towards Břeclav. Kúty gradually became an important border station and railway junction, linking routes to Bratislava, Trnava, Gbely and the Czech side of the border. The historic passenger station building dates from 1926; rail traffic continues to shape the village’s transport role."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov and Dedina – Kúty’s historic neighbourhoods",
+          "text": "Kaniža is the oldest part of Kúty; nearby are Hribov and the area known as Dedina along today’s Bratislavská Street. Characteristic historic building patterns survive here: houses stand perpendicular to the public road, with their courtyards opening directly onto the street. This layout recalls the older rural structure of the village, which gradually expanded from its original settlement core."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San José y centro histórico de Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty, una localidad medieval en la confluencia de los ríos Morava y Myjava",
+          "text": "Kúty aparece documentada desde 1392 con el nombre de Kuth; en 1498 figura la forma Kwhty. Los hallazgos arqueológicos demuestran asentamientos desde la Edad de Piedra y la Edad del Bronce, y posteriormente de los periodos de La Tène y eslavo temprano. Los yacimientos de Čepangát y Sigeca se encuentran cerca de la confluencia histórica de los ríos Morava y Myjava. En la Edad Media la localidad perteneció al señorío del castillo de Ostrý Kameň, después a los Czobor y, desde 1736, a los Habsburgo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de San José, esposo de María, emblema barroco de Kúty",
+          "text": "La iglesia católica romana de San José, esposo de María, se construyó entre 1718 y 1726 y es uno de los monumentos religiosos más importantes de Kúty. Tiene una inusual planta central ovalada, bóvedas barrocas y espacios laterales junto al presbiterio. El campanario se levantó en 1826 y la torre de la iglesia se terminó en 1841. Está inscrita en el registro central de monumentos con el número 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "Capilla de Santa Ana, antiguo lugar de peregrinación y enterramiento",
+          "text": "La capilla de Santa Ana de Kúty tiene raíces más antiguas que la iglesia parroquial principal. La primera referencia escrita conocida data de 1686; también se utilizaba para funerales y bautizos, y sus alrededores sirvieron como cementerio de emergencia, incluso durante epidemias de peste. En 1852 se construyó una capilla más pequeña en el lugar de la anterior, que se conserva hasta hoy. En su interior hay imágenes de santa Ana, san Roque y san Vendelino."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty, importante nudo ferroviario fronterizo",
+          "text": "La línea ferroviaria Trnava–Jablonica–Kúty entró en servicio el 11 de junio de 1898 y enlazó con las rutas hacia Břeclav. Kúty se convirtió gradualmente en una importante estación fronteriza y nudo ferroviario con conexiones hacia Bratislava, Trnava, Gbely y el lado checo de la frontera. El edificio histórico de viajeros data de 1926; el ferrocarril sigue definiendo la importancia del transporte en la localidad."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov y Dedina, barrios históricos de Kúty",
+          "text": "Kaniža es la parte más antigua de Kúty; cerca se encuentran Hribov y el barrio llamado Dedina, a lo largo de la actual calle Bratislavská. Aquí se conservan estructuras edificatorias históricas características: las casas se sitúan perpendicularmente a la vía pública y sus patios se abren directamente a la calle. Esta disposición recuerda la antigua estructura rural de la localidad, que fue creciendo gradualmente desde su núcleo original."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Joseph et centre historique de Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty, village médiéval au confluent de la Morava et de la Myjava",
+          "text": "Kúty est attestée par écrit depuis 1392 sous le nom de Kuth ; la forme Kwhty apparaît en 1498. Les découvertes archéologiques témoignent d’une occupation depuis l’âge de pierre et l’âge du bronze, puis aux périodes de La Tène et du haut Moyen Âge slave. Les sites de Čepangát et Sigeca se trouvent près du confluent historique de la Morava et de la Myjava. Au Moyen Âge, le village dépendait du domaine du château d’Ostrý Kameň, puis des Czobor et, à partir de 1736, des Habsbourg."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église Saint-Joseph nourricier, monument baroque de Kúty",
+          "text": "L’église catholique romaine Saint-Joseph nourricier a été construite entre 1718 et 1726 et compte parmi les principaux monuments religieux de Kúty. Elle possède un plan central ovale inhabituel, des voûtes baroques et des espaces latéraux près du presbytère. Le clocher a été construit en 1826 et la tour de l’église achevée en 1841. L’édifice est inscrit au registre central des monuments sous le numéro 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chapelle Sainte-Anne, ancien lieu de pèlerinage et de sépulture",
+          "text": "La chapelle Sainte-Anne de Kúty est plus ancienne que l’église paroissiale principale. Sa première mention écrite connue date de 1686 ; elle servait aussi aux funérailles et aux baptêmes, tandis que ses abords faisaient office de cimetière de secours, notamment lors des épidémies de peste. En 1852, une chapelle plus petite a été construite à l’emplacement de l’édifice précédent et existe toujours. Son intérieur abrite des images de sainte Anne, saint Roch et saint Wendelin."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty, important nœud ferroviaire frontalier",
+          "text": "La ligne ferroviaire Trnava–Jablonica–Kúty a été mise en service le 11 juin 1898 et a assuré une liaison vers Břeclav. Kúty est progressivement devenue une importante gare-frontière et un nœud ferroviaire reliant Bratislava, Trnava, Gbely et le côté tchèque de la frontière. Le bâtiment historique des voyageurs date de 1926 ; le chemin de fer continue de définir le rôle de transport de la commune."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov et Dedina, quartiers historiques de Kúty",
+          "text": "Kaniža est le quartier le plus ancien de Kúty ; Hribov et le secteur appelé Dedina, le long de l’actuelle rue Bratislavská, se trouvent à proximité. Des formes bâties historiques caractéristiques y sont conservées : les maisons sont disposées perpendiculairement à la voie publique et leurs cours s’ouvrent directement sur la rue. Cette organisation rappelle la structure rurale ancienne du village, qui s’est développé progressivement à partir de son noyau initial."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Giuseppe e centro storico di Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty, borgo medievale alla confluenza dei fiumi Morava e Myjava",
+          "text": "Kúty è documentata dal 1392 con il nome di Kuth; nel 1498 compare la forma Kwhty. I ritrovamenti archeologici attestano insediamenti dall’età della pietra e del bronzo, seguiti dai periodi di La Tène e slavo antico. I siti di Čepangát e Sigeca si trovano presso la confluenza storica dei fiumi Morava e Myjava. Nel Medioevo il villaggio appartenne al dominio del castello di Ostrý Kameň, poi ai Czobor e, dal 1736, agli Asburgo."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa di San Giuseppe Sposo, simbolo barocco di Kúty",
+          "text": "La chiesa cattolica romana di San Giuseppe Sposo fu costruita tra il 1718 e il 1726 ed è uno dei principali monumenti religiosi di Kúty. Ha una insolita pianta centrale ovale, volte barocche e ambienti laterali accanto al presbiterio. Il campanile fu costruito nel 1826 e la torre della chiesa fu completata nel 1841. L’edificio è iscritto nel registro centrale dei monumenti con il numero 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "La cappella di Sant’Anna, antico luogo di pellegrinaggio e sepoltura",
+          "text": "La cappella di Sant’Anna a Kúty ha origini più antiche della chiesa parrocchiale principale. La prima testimonianza scritta conosciuta risale al 1686; la cappella era usata anche per funerali e battesimi e l’area circostante fungeva da cimitero di emergenza, anche durante le epidemie di peste. Nel 1852 fu costruita una cappella più piccola sul sito della struttura precedente, conservata fino a oggi. All’interno si trovano immagini di sant’Anna, san Rocco e san Venceslao."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty, importante nodo ferroviario di frontiera",
+          "text": "La linea ferroviaria Trnava–Jablonica–Kúty entrò in servizio l’11 giugno 1898 e si collegò alle direttrici verso Břeclav. Kúty divenne gradualmente un’importante stazione di frontiera e un nodo ferroviario con collegamenti verso Bratislava, Trnava, Gbely e il lato ceco del confine. L’edificio storico della stazione passeggeri risale al 1926; la ferrovia continua a definire il ruolo di trasporto del comune."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov e Dedina, quartieri storici di Kúty",
+          "text": "Kaniža è la parte più antica di Kúty; nelle vicinanze si trovano Hribov e la zona chiamata Dedina, lungo l’attuale via Bratislavská. Qui si sono conservate strutture edilizie storiche caratteristiche: le case sono disposte perpendicolarmente alla strada pubblica e i cortili si aprono direttamente sulla via. Questa disposizione ricorda l’antica struttura rurale del villaggio, sviluppatosi gradualmente dal nucleo originario."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Jozefkerk en historische kern van Kúty",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kúty – een middeleeuws dorp aan de samenvloeiing van de Morava en Myjava",
+          "text": "Kúty wordt vanaf 1392 schriftelijk vermeld onder de naam Kuth; in 1498 verschijnt de vorm Kwhty. Archeologische vondsten tonen bewoning vanaf de steentijd en bronstijd, later ook uit de La Tène-periode en de vroege Slavische tijd. De vindplaatsen Čepangát en Sigeca liggen bij de historische samenvloeiing van de Morava en de Myjava. In de middeleeuwen hoorde het dorp bij het domein van kasteel Ostrý Kameň, later bij de familie Czobor en vanaf 1736 bij de Habsburgers."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Sint-Jozefkerk – barok herkenningspunt van Kúty",
+          "text": "De rooms-katholieke kerk van Sint-Jozef werd gebouwd tussen 1718 en 1726 en behoort tot de belangrijkste religieuze monumenten van Kúty. De kerk heeft een ongebruikelijke ovale centrale plattegrond, barokke gewelven en zijruimten naast het priesterkoor. De klokkentoren werd in 1826 gebouwd en de kerktoren werd in 1841 voltooid. De kerk staat in het centrale monumentenregister onder nummer 630/1."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Ann kapel – een oude bedevaarts- en begraafplaats",
+          "text": "De Sint-Ann kapel in Kúty is ouder dan de belangrijkste parochiekerk. De oudste bekende schriftelijke vermelding dateert uit 1686; de kapel werd ook gebruikt voor begrafenissen en doopplechtigheden, terwijl de omgeving als noodbegraafplaats diende, onder meer tijdens pestepidemieën. In 1852 werd op de plek van het oudere gebouw een kleinere kapel gebouwd, die tot vandaag bewaard is gebleven. Binnen zijn afbeeldingen te zien van Sint-Anna, Sint-Rochus en Sint-Wendelinus."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kúty als belangrijk grensoverschrijdend spoorwegknooppunt",
+          "text": "De spoorlijn Trnava–Jablonica–Kúty werd op 11 juni 1898 in gebruik genomen en sloot aan op routes richting Břeclav. Kúty groeide uit tot een belangrijk grensstation en spoorwegknooppunt met verbindingen naar Bratislava, Trnava, Gbely en de Tsjechische kant van de grens. Het historische stationsgebouw dateert uit 1926; het spoorverkeer bepaalt nog steeds de vervoersfunctie van de gemeente."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaniža, Hribov en Dedina – de historische wijken van Kúty",
+          "text": "Kaniža is het oudste deel van Kúty; vlakbij liggen Hribov en de wijk Dedina langs de huidige Bratislavská-straat. Hier zijn kenmerkende historische bouwstructuren bewaard gebleven: huizen staan haaks op de openbare weg en hun erven komen rechtstreeks op de straat uit. Deze plattegrond herinnert aan de oudere landelijke structuur van het dorp, dat zich geleidelijk vanuit de oorspronkelijke nederzettingskern uitbreidde."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
