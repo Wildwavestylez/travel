@@ -1,4 +1,649 @@
 {
   "postcode": "91311",
-  "status": "placeholder"
+  "city": "Trenčianske Stankovce",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Centrum obce Trenčianske Stankovce",
+  "representative_point": {
+    "lat": 48.844158,
+    "lon": 17.984276
+  },
+  "access_point": {
+    "lat": 48.844158,
+    "lon": 17.984276
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Čtyři historické obce, které se spojily v Trenčianske Stankovce",
+      "text": "Dnešní Trenčianske Stankovce tvoří území čtyř někdejších obcí: Malých Stankovců, Veľkých Stankovců, Rozvádz a Sedličné. Rozvadze se písemně připomínají už roku 1212, Malé a Veľké Stankovce roku 1345 a Sedličná roku 1403. Ke sloučení došlo v roce 1971 po jednáních místních výborů; nová obec převzala název navržený Malými Stankovci. Spojení čtyř sídelních celků vysvětluje dnešní strukturu obce i její vrstevnatou místní identitu.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Obecní úřad Trenčianske Stankovce – orientační bod historického území",
+        "lat": 48.844158,
+        "lon": 17.984276,
+        "type": "town_hall",
+        "accuracy": "area_representative",
+        "source": "https://www.trencianskestankovce.sk/modules/file_storage/download.php?file=8225cad8%7C865&inline=1",
+        "address": "Trenčianske Stankovce 362, 913 11 Trenčianske Stankovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Stopy mladého paleolitu v poloze Zadné kopanice",
+      "text": "Území dnešních Trenčianských Stankovců bylo osídleno dávno před vznikem středověkých vesnic. Obecní historické materiály dokládají nálezy štípaných kamenných nástrojů z mladého paleolitu, přibližně z doby před 25 000 lety. Nálezy se soustřeďovaly v poloze Zadné kopanice v katastru někdejších Veľkých Stankovců; mezi nimi vyniká hrot s vrubem z radiolaritu. Jde o důležitý doklad pravěkého života v krajině středního Pováží, dlouho před prvními písemnými zmínkami o zdejších sídlech.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Ján Lipský – kartograf, jehož mapa zachytila historické Uhry",
+      "text": "V Sedličné se 10. dubna 1766 narodil Ján Lipský, uherský vojenský důstojník a kartograf známý také jako Johann či János Lipszky. Jeho rozsáhlá mapa Uherského království a připojených zemí vyšla v letech 1805–1806 ve dvanácti mapových listech v měřítku 1 : 480 000 a patřila k nejvýznamnějším kartografickým dílům své doby. Lipský připravil také rejstřík sídel s desítkami tisíc hesel. Zemřel roku 1826 a je pohřben v rodné Sedličné; jeho hrob připomíná mezinárodní význam tohoto místního rodáka.",
+      "category": "people",
+      "priority": "A",
+      "sources": [
+        "s2",
+        "s3",
+        "s4",
+        "s14"
+      ],
+      "map_category": "personality",
+      "location": {
+        "name": "Hrob a pamětní místo Jána Lipského v Sedličné",
+        "lat": 48.844861,
+        "lon": 17.989889,
+        "type": "memorial_site",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/52993-pomnik-obetiam-1-a-2-svetovej-vojny/",
+        "address": "Sedličná, Trenčianske Stankovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Klasicistický evangelický kostel a historické zvonice Stankovců",
+      "text": "Čtyři historické části Trenčianských Stankovců si uchovaly soubor drobných sakrálních staveb. V Malých Stankovcích stojí klasicistický toleranční evangelický kostel budovaný v letech 1784–1790. Ve Veľkých Stankovcích byla roku 1859 postavena zděná zvonice, v Rozvadzech roku 1867 pozdně klasicistická zvonice s kamennou plastikou a zvonem sv. Martina a v Sedličné zvonice z druhé poloviny 18. století. Celek dokládá náboženskou a stavební tradici jednotlivých sídel před jejich sloučením.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Evangelický kostel v Malých Stankovcích",
+        "lat": 48.84129,
+        "lon": 17.9905,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/male-stankovce-trencianske-stankovce-evanjelicky-kostol",
+        "address": "Malé Stankovce, Trenčianske Stankovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Opatovce – obec svatého Hypolita a někdejších vážských mlýnů",
+      "text": "Opatovce patří k nejstarším písemně doloženým obcím Slovenska. Zoborská listina z roku 1113 uvádí lokalitu jako Villa trensciniensis sancti Ypoliti, tedy ves svatého Hypolita, v souvislosti s majetkem benediktinského opatství na Zoboru. Od 15. století přešla obec pod nitranské biskupství. Její život dlouho určoval Váh: v 18. století se připomínají rybáři a vodní mlýny, jejichž mlynáři převáželi obilí a mouku také čluny či přívozem mezi Opatovcemi a Zárečím. Opakované povodně podle místní tradice dokonce přiměly obec několikrát změnit polohu.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Barokně-klasicistická kaple Svaté rodiny v Opatovcích",
+      "text": "Výraznou historickou památkou Opatovců je kaple Svaté rodiny, původně postavená na místním hřbitově ve druhé třetině 18. století. Jednolodní stavba má pravoúhlé presbyterium, segmentovou klenbu a věž předsazenou před hlavní průčelí. Na hlavním oltáři se dochovaly tři barokní sochy Panny Marie, Ježíše a svatého Josefa, datované do poloviny 18. století. V blízkosti stojí také klasicistická zvonice z druhé poloviny 18. století, k níž byla ve 20. století přistavěna malá kaple Sedmibolestné Panny Marie.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s9",
+        "s10",
+        "s11"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kaple Svaté rodiny v Opatovcích",
+        "lat": 48.85687,
+        "lon": 17.97972,
+        "type": "chapel",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/w781367821",
+        "address": "Opatovce, 913 11 Trenčianske Stankovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Veľké Bierovce – vesnice pod Trenčínským hradem a její památky",
+      "text": "Veľké Bierovce jsou v písemných pramenech doloženy roku 1330 pod podobami Bur či Byr. Dlouho náležely k panství Trenčínského hradu a jejich obyvatelé se vedle zemědělství věnovali kovářství, soukenictví, mlynářství, košíkářství, převozům přes Váh i rybolovu. Ve vesnici stojí římskokatolický kostel svatého Vendelína, původně barokní stavba obnovená ze starších ruin roku 1776 a přestavěná v letech 1944–1945. Další významnou památkou je klasicistická zděná evangelická zvonice z počátku 19. století, prohlášená za národní kulturní památku. V části Bobrovníky připomíná padlého vojáka malá rodinná kaple.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s12",
+        "s13"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel svatého Vendelína ve Veľkých Bierovcích",
+        "lat": 48.852313,
+        "lon": 17.983256,
+        "type": "church",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/velke-bierovce-kostol-sv-vendelina",
+        "address": "Veľké Bierovce, 913 11 Trenčianske Stankovce, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Krivosúd-Bodovka – středověká cesta, zvon z roku 1777 a krajina rybníků",
+      "text": "Krivosúd a Bodovka byly původně dvě samostatné, společně spravované obce. Územím procházela už roku 1208 významná středověká cesta z Beckova do Trenčína; první písemná zmínka o Krivosúdu pochází z roku 1398, Bodovka je doložena od roku 1648. V druhé polovině 18. století zde vznikla zděná klasicistní zvonice s historickým zvonem z roku 1777. Místní hospodářství využívalo kopcovitou půdu pro obilí, len, chmel i ovocné sady; zdejší úroda třešní dala vzniknout dodnes pořádaným Čerešňovým slavnostem. K místní krajině patří také Bodovské rybníky a mokřadní okolí s vodním ptactvem.",
+      "category": "local_story",
+      "priority": "B",
+      "sources": [
+        "s15",
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Trenčianske Stankovce – História",
+      "url": "https://www.trencianskestankovce.sk/obec/o-obci/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Program rozvoja obce Trenčianske Stankovce do roku 2030",
+      "url": "https://www.trencianskestankovce.sk/modules/file_storage/download.php?file=8225cad8%7C865&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Trenčianske Stankovce – Konsolidovaná výročná správa 2018",
+      "url": "https://www.trencianskestankovce.sk/e_download.php?file=data%2Feditor%2F163sk_2.PDF&original=Konsolidovan%C3%A1+v%C3%BDro%C4%8Dn%C3%A1+spr%C3%A1va+2018.PDF",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Hrvatski biografski leksikon – Ján Lipský",
+      "url": "https://hbl.lzmk.hr/clanak/lipsky-jan",
+      "type": "university"
+    },
+    {
+      "id": "s5",
+      "title": "Pamiatky na Slovensku – Evanjelický kostol v Malých Stankovciach",
+      "url": "https://www.pamiatkynaslovensku.sk/male-stankovce-trencianske-stankovce-evanjelicky-kostol",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Trenčianske Stankovce – Architektúra",
+      "url": "https://www.trencianskestankovce.sk/obec/o-obci/architektura/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Obec Opatovce – História, symboly obce",
+      "url": "https://www.opatovce.sk/obec/historia-symboly-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Opatovce – Základné informácie",
+      "url": "https://www.opatovce.sk/obec/zakladne-informacie/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Obec Opatovce – Individuálna výročná správa 2018",
+      "url": "https://www.opatovce.sk/content/articles/00/vyrocna-sprava-za-rok-2018.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Opatovce – Územný plán obce",
+      "url": "https://www.opatovce.sk/content/articles/59/uzemny-plan-obce-opatovce.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "OpenStreetMap / OMA – Kaplnka Svätej rodiny, Opatovce",
+      "url": "https://poi.oma.sk/w781367821",
+      "type": "other"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Veľké Bierovce – Individuálna výročná správa 2023",
+      "url": "https://www.velkebierovce.sk/content/articles/01/vyrocna-sprava-obce-rok-2023.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Pamiatky na Slovensku – Kostol sv. Vendelína, Veľké Bierovce",
+      "url": "https://www.pamiatkynaslovensku.sk/velke-bierovce-kostol-sv-vendelina",
+      "type": "specialist"
+    },
+    {
+      "id": "s14",
+      "title": "Spolek pro vojenská pietní místa – hrob Jána Lipského",
+      "url": "https://www.vets.cz/vpm/52993-pomnik-obetiam-1-a-2-svetovej-vojny/",
+      "type": "specialist"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Krivosúd-Bodovka – História obce",
+      "url": "https://krivosud-bodovka.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Ústredný portál verejnej správy – Krivosúd-Bodovka",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_4e313007-fb42-4211-9cbc-3ba737150ba4",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Ministerstvo vnútra SR – Slovenská archivistika 2001: historické zvony",
+      "url": "https://www.minv.sk/swift_data/source/verejna_sprava/odbor_archivov_a_registratur/archivnictvo/slovenska_archivistika/sa_2000_2020/SA%202001-1%20z%20Wordu.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s18",
+      "title": "Obec Krivosúd-Bodovka – Súčasnosť a Bodovské rybníky",
+      "url": "https://krivosud-bodovka.sk/obec/sucasnost/",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "Obec Trenčianske Stankovce – Kontakt, PSČ 913 11",
+      "url": "https://www.trencianskestankovce.sk/kontakty/",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "Obec Opatovce – Kontakt, PSČ 913 11",
+      "url": "https://www.opatovce.sk/obecny-urad/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s21",
+      "title": "Obec Veľké Bierovce – oficiálne dokumenty s PSČ 913 11",
+      "url": "https://www.velkebierovce.sk/downloads/uradna_tabula/2018/zamer_predat_pozemky_obce_velke_bierovce_z_dovodu_hodneho_osobitneho_zretela.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s22",
+      "title": "Obec Krivosúd-Bodovka – Kontakt, PSČ 913 11",
+      "url": "https://krivosud-bodovka.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s24",
+      "title": "PSČ 913 11 – prehľad priradených obcí a častí",
+      "url": "https://www.pscpsc.eu/cz/seznam-psc",
+      "type": "other"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ (https://www.posta.sk/psc) jako primární autorita; geografické přiřazení 913 11 je doloženo oficiálními kontaktními adresami obcí Trenčianske Stankovce, Opatovce, Veľké Bierovce a Krivosúd-Bodovka s tímto PSČ a nezávislým přehledem obsluhovaných sídel.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – oficiální vyhledávání PSČ; doplňkově oficiální adresní údaje dotčených obcí",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": "Rozsah je potvrzen adresními údaji všech tří samostatných obcí a oficiálními údaji o čtyřech místních částech Trenčianských Stankovců. Některé sekundární mapové přehledy zobrazují jen část pokrytí; nejsou použity jako jediný důkaz.",
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální weby dotčených obcí a Program rozvoja obce Trenčianske Stankovce; administrativní zařazení do okresu Trenčín a Trenčianského kraje."
+  },
+  "translations": {
+    "cs": {
+      "representative_place": "Centrum obce Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čtyři historické obce, které se spojily v Trenčianske Stankovce",
+          "text": "Dnešní Trenčianske Stankovce tvoří území čtyř někdejších obcí: Malých Stankovců, Veľkých Stankovců, Rozvádz a Sedličné. Rozvadze se písemně připomínají už roku 1212, Malé a Veľké Stankovce roku 1345 a Sedličná roku 1403. Ke sloučení došlo v roce 1971 po jednáních místních výborů; nová obec převzala název navržený Malými Stankovci. Spojení čtyř sídelních celků vysvětluje dnešní strukturu obce i její vrstevnatou místní identitu."
+        },
+        {
+          "id": "fact_002",
+          "title": "Stopy mladého paleolitu v poloze Zadné kopanice",
+          "text": "Území dnešních Trenčianských Stankovců bylo osídleno dávno před vznikem středověkých vesnic. Obecní historické materiály dokládají nálezy štípaných kamenných nástrojů z mladého paleolitu, přibližně z doby před 25 000 lety. Nálezy se soustřeďovaly v poloze Zadné kopanice v katastru někdejších Veľkých Stankovců; mezi nimi vyniká hrot s vrubem z radiolaritu. Jde o důležitý doklad pravěkého života v krajině středního Pováží, dlouho před prvními písemnými zmínkami o zdejších sídlech."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský – kartograf, jehož mapa zachytila historické Uhry",
+          "text": "V Sedličné se 10. dubna 1766 narodil Ján Lipský, uherský vojenský důstojník a kartograf známý také jako Johann či János Lipszky. Jeho rozsáhlá mapa Uherského království a připojených zemí vyšla v letech 1805–1806 ve dvanácti mapových listech v měřítku 1 : 480 000 a patřila k nejvýznamnějším kartografickým dílům své doby. Lipský připravil také rejstřík sídel s desítkami tisíc hesel. Zemřel roku 1826 a je pohřben v rodné Sedličné; jeho hrob připomíná mezinárodní význam tohoto místního rodáka."
+        },
+        {
+          "id": "fact_004",
+          "title": "Klasicistický evangelický kostel a historické zvonice Stankovců",
+          "text": "Čtyři historické části Trenčianských Stankovců si uchovaly soubor drobných sakrálních staveb. V Malých Stankovcích stojí klasicistický toleranční evangelický kostel budovaný v letech 1784–1790. Ve Veľkých Stankovcích byla roku 1859 postavena zděná zvonice, v Rozvadzech roku 1867 pozdně klasicistická zvonice s kamennou plastikou a zvonem sv. Martina a v Sedličné zvonice z druhé poloviny 18. století. Celek dokládá náboženskou a stavební tradici jednotlivých sídel před jejich sloučením."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce – obec svatého Hypolita a někdejších vážských mlýnů",
+          "text": "Opatovce patří k nejstarším písemně doloženým obcím Slovenska. Zoborská listina z roku 1113 uvádí lokalitu jako Villa trensciniensis sancti Ypoliti, tedy ves svatého Hypolita, v souvislosti s majetkem benediktinského opatství na Zoboru. Od 15. století přešla obec pod nitranské biskupství. Její život dlouho určoval Váh: v 18. století se připomínají rybáři a vodní mlýny, jejichž mlynáři převáželi obilí a mouku také čluny či přívozem mezi Opatovcemi a Zárečím. Opakované povodně podle místní tradice dokonce přiměly obec několikrát změnit polohu."
+        },
+        {
+          "id": "fact_006",
+          "title": "Barokně-klasicistická kaple Svaté rodiny v Opatovcích",
+          "text": "Výraznou historickou památkou Opatovců je kaple Svaté rodiny, původně postavená na místním hřbitově ve druhé třetině 18. století. Jednolodní stavba má pravoúhlé presbyterium, segmentovou klenbu a věž předsazenou před hlavní průčelí. Na hlavním oltáři se dochovaly tři barokní sochy Panny Marie, Ježíše a svatého Josefa, datované do poloviny 18. století. V blízkosti stojí také klasicistická zvonice z druhé poloviny 18. století, k níž byla ve 20. století přistavěna malá kaple Sedmibolestné Panny Marie."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce – vesnice pod Trenčínským hradem a její památky",
+          "text": "Veľké Bierovce jsou v písemných pramenech doloženy roku 1330 pod podobami Bur či Byr. Dlouho náležely k panství Trenčínského hradu a jejich obyvatelé se vedle zemědělství věnovali kovářství, soukenictví, mlynářství, košíkářství, převozům přes Váh i rybolovu. Ve vesnici stojí římskokatolický kostel svatého Vendelína, původně barokní stavba obnovená ze starších ruin roku 1776 a přestavěná v letech 1944–1945. Další významnou památkou je klasicistická zděná evangelická zvonice z počátku 19. století, prohlášená za národní kulturní památku. V části Bobrovníky připomíná padlého vojáka malá rodinná kaple."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka – středověká cesta, zvon z roku 1777 a krajina rybníků",
+          "text": "Krivosúd a Bodovka byly původně dvě samostatné, společně spravované obce. Územím procházela už roku 1208 významná středověká cesta z Beckova do Trenčína; první písemná zmínka o Krivosúdu pochází z roku 1398, Bodovka je doložena od roku 1648. V druhé polovině 18. století zde vznikla zděná klasicistní zvonice s historickým zvonem z roku 1777. Místní hospodářství využívalo kopcovitou půdu pro obilí, len, chmel i ovocné sady; zdejší úroda třešní dala vzniknout dodnes pořádaným Čerešňovým slavnostem. K místní krajině patří také Bodovské rybníky a mokřadní okolí s vodním ptactvem."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Ortszentrum von Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vier historische Gemeinden vereinen sich zu Trenčianske Stankovce",
+          "text": "Das heutige Trenčianske Stankovce umfasst das Gebiet von vier ehemals selbstständigen Gemeinden: Malé Stankovce, Veľké Stankovce, Rozvadze und Sedličná. Rozvadze wird bereits 1212 schriftlich erwähnt, Malé und Veľké Stankovce 1345 und Sedličná 1403. Der tatsächliche Zusammenschluss erfolgte 1971 nach Beratungen der örtlichen Ausschüsse. Die neue Gemeinde erhielt den Namen, den Malé Stankovce vorgeschlagen hatte. Die Vereinigung der vier Siedlungskerne erklärt die heutige räumliche Struktur und die vielfältige lokale Identität."
+        },
+        {
+          "id": "fact_002",
+          "title": "Spuren des Jungpaläolithikums bei Zadné kopanice",
+          "text": "Das Gebiet des heutigen Trenčianske Stankovce war lange vor der Entstehung der mittelalterlichen Dörfer besiedelt. Gemeindliche historische Unterlagen belegen Funde von Steingeräten aus dem Jungpaläolithikum, etwa 25.000 Jahre alt. Die Funde konzentrierten sich im Gebiet Zadné kopanice im Kataster des ehemaligen Veľké Stankovce. Besonders bemerkenswert ist eine gekerbte Spitze aus Radiolarit. Sie ist ein wichtiger Beleg für die Anwesenheit und Tätigkeit von Menschen im mittleren Waagtal, lange bevor die örtlichen Siedlungen erstmals schriftlich erwähnt wurden."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský – der Kartograf der historischen Länder Ungarns",
+          "text": "In Sedličná wurde am 10. April 1766 Ján Lipský geboren, ein ungarischer Offizier und Kartograf, auch als Johann oder János Lipszky bekannt. Seine umfangreiche Karte des Königreichs Ungarn und der angrenzenden Gebiete erschien 1805–1806 in zwölf Kartenblättern im Maßstab 1:480.000 und gehörte zu den bedeutendsten kartografischen Werken ihrer Zeit. Lipský erstellte außerdem ein Ortsregister mit Zehntausenden Einträgen. Er starb 1826 und wurde in seiner Heimat Sedličná beigesetzt. Sein Grab erinnert an seine internationale Bedeutung."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die klassizistische evangelische Kirche und die historischen Glockentürme",
+          "text": "Die vier historischen Ortsteile von Trenčianske Stankovce bewahren eine Reihe kleiner Sakralbauten. In Malé Stankovce steht eine klassizistische evangelische Toleranzkirche, die 1784–1790 errichtet wurde. In Veľké Stankovce entstand 1859 ein gemauerter Glockenturm, in Rozvadze 1867 ein spätklassizistischer Turm mit Steinplastik und einer dem heiligen Martin geweihten Glocke. In Sedličná stammt der Glockenturm aus der zweiten Hälfte des 18. Jahrhunderts. Zusammen dokumentieren diese Bauten die religiöse und architektonische Tradition der früher getrennten Dörfer."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce – das Dorf des heiligen Hypolit und der ehemaligen Waagmühlen",
+          "text": "Opatovce gehört zu den ältesten schriftlich belegten Gemeinden der Slowakei. Die Zoborer Urkunde von 1113 nennt den Ort Villa trensciniensis sancti Ypoliti, also das Dorf des heiligen Hypolit, im Zusammenhang mit dem Besitz der Benediktinerabtei auf dem Zobor. Ab dem 15. Jahrhundert gehörte die Gemeinde dem Bistum Neutra. Das Leben vor Ort war lange mit der Waag verbunden: Im 18. Jahrhundert sind Fischer und Wassermühlen belegt. Die Müller transportierten Getreide und Mehl auch mit Booten oder einer Fähre zwischen Opatovce und Zárečie. Wiederholte Überschwemmungen sollen dazu geführt haben, dass das Dorf mehrmals seinen Standort wechselte."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die barock-klassizistische Kapelle der Heiligen Familie in Opatovce",
+          "text": "Ein bedeutendes historisches Bauwerk von Opatovce ist die Kapelle der Heiligen Familie, die ursprünglich im zweiten Drittel des 18. Jahrhunderts auf dem Friedhof errichtet wurde. Der einschiffige Bau besitzt einen rechteckigen Chor, ein Segmentgewölbe und einen vor die Hauptfassade gesetzten Turm. Auf dem Altar sind drei barocke Figuren erhalten: Maria, Jesus und der heilige Josef, datiert in die Mitte des 18. Jahrhunderts. In der Nähe steht außerdem ein klassizistischer Glockenturm aus der zweiten Hälfte des 18. Jahrhunderts, an den im 20. Jahrhundert eine kleine Kapelle der Sieben Schmerzen Mariens angebaut wurde."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce – ein Dorf unter der Burg Trenčín und seine Denkmäler",
+          "text": "Veľké Bierovce ist 1330 erstmals schriftlich unter den Namen Bur oder Byr belegt. Das Dorf gehörte lange zur Herrschaft der Burg Trenčín. Neben der Landwirtschaft arbeiteten die Einwohner als Schmiede, Tuchmacher, Müller, Korbflechter, Fährleute und Fischer an der Waag. In der Gemeinde steht die römisch-katholische Kirche des heiligen Vendelin, ursprünglich ein Barockbau, der 1776 aus älteren Ruinen wiederhergestellt und 1944–1945 umgebaut wurde. Ein weiteres wichtiges Denkmal ist der klassizistische gemauerte evangelische Glockenturm vom Beginn des 19. Jahrhunderts, der zum nationalen Kulturdenkmal erklärt wurde. In Bobrovníky erinnert eine kleine Familienkapelle an einen gefallenen Soldaten."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka – mittelalterlicher Weg, Glocke von 1777 und Teichlandschaft",
+          "text": "Krivosúd und Bodovka waren ursprünglich zwei eigenständige, gemeinsam verwaltete Dörfer. Durch das Gebiet führte bereits 1208 ein bedeutender mittelalterlicher Weg von Beckov nach Trenčín. Krivosúd wird erstmals 1398 erwähnt, Bodovka ist seit 1648 belegt. In der zweiten Hälfte des 18. Jahrhunderts entstand hier ein gemauerter klassizistischer Glockenturm mit einer historischen Glocke aus dem Jahr 1777. Die Bewohner bauten Getreide, Flachs und Hopfen an und pflegten Obstgärten. Die bekannte Kirschernte lebt in den bis heute veranstalteten Kirschfesten weiter. Zur Landschaft gehören auch die Bodovské-Teiche und Feuchtgebiete mit Wasservögeln."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Centre of Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Four historic villages that became Trenčianske Stankovce",
+          "text": "Present-day Trenčianske Stankovce covers the territory of four formerly independent villages: Malé Stankovce, Veľké Stankovce, Rozvadze and Sedličná. Rozvadze appears in written records in 1212, Malé and Veľké Stankovce in 1345, and Sedličná in 1403. The actual merger took place in 1971 after discussions among the local councils. The new municipality adopted the name proposed by Malé Stankovce. The union of four settlement centres explains the present-day layout and the area's layered local identity."
+        },
+        {
+          "id": "fact_002",
+          "title": "Early Upper Palaeolithic traces at Zadné kopanice",
+          "text": "The area of present-day Trenčianske Stankovce was inhabited long before its medieval villages emerged. Municipal historical records document chipped stone tools from the Upper Palaeolithic, approximately 25,000 years ago. The finds were concentrated at Zadné kopanice, in the cadastral area of former Veľké Stankovce. A notched point made of radiolarite is particularly notable. These discoveries provide important evidence of prehistoric human activity in the middle Váh region, many millennia before the first written references to the local settlements."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský – the cartographer of historic Hungary",
+          "text": "Ján Lipský, a Hungarian military officer and cartographer also known as Johann or János Lipszky, was born in Sedličná on 10 April 1766. His extensive map of the Kingdom of Hungary and adjoining lands was published in 1805–1806 in twelve sheets at a scale of 1:480,000 and ranked among the major cartographic works of its time. Lipský also prepared a gazetteer containing tens of thousands of place entries. He died in 1826 and was buried in his native Sedličná. His grave recalls his significance well beyond the region."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Neoclassical Evangelical church and historic bell towers",
+          "text": "The four historic parts of Trenčianske Stankovce preserve a group of small religious buildings. Malé Stankovce has a Neoclassical Evangelical toleration church built between 1784 and 1790. A masonry bell tower was built in Veľké Stankovce in 1859; Rozvadze received a Late Neoclassical tower in 1867, with a stone sculpture and a bell dedicated to Saint Martin. Sedličná has a tower dating from the second half of the eighteenth century. Together, these buildings reflect the religious and architectural traditions of the formerly separate villages."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce – the village of Saint Hippolytus and the former Váh mills",
+          "text": "Opatovce is among Slovakia’s oldest documented villages. The Zobor charter of 1113 records it as Villa trensciniensis sancti Ypoliti, or the village of Saint Hippolytus, among the possessions of the Benedictine abbey on Mount Zobor. From the fifteenth century, the village belonged to the Diocese of Nitra. Life here was closely linked to the Váh River: eighteenth-century records mention fishermen and watermills. Millers transported grain and flour by boat or ferry between Opatovce and Zárečie. Repeated floods reportedly forced the village to change its location several times."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Baroque-Neoclassical Chapel of the Holy Family in Opatovce",
+          "text": "One of Opatovce’s most significant historic buildings is the Chapel of the Holy Family, originally built in the village cemetery during the second third of the eighteenth century. The single-nave structure has a rectangular chancel, a segmental vault and a tower projecting from the main façade. Three Baroque statues survive on the main altar: the Virgin Mary, Jesus and Saint Joseph, dating from the mid-eighteenth century. Nearby stands a Neoclassical bell tower from the second half of the eighteenth century, to which a small Chapel of Our Lady of Sorrows was added in the twentieth century."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce – a village under Trenčín Castle and its heritage",
+          "text": "Veľké Bierovce is first recorded in writing in 1330 under the forms Bur or Byr. For centuries, the village belonged to the estate of Trenčín Castle. Alongside farming, residents worked as blacksmiths, cloth-makers, millers, basket-makers, ferrymen and fishermen on the nearby Váh. The village has the Roman Catholic Church of Saint Vendelin, originally a Baroque building restored from older ruins in 1776 and remodelled in 1944–1945. Another important monument is the Neoclassical masonry Evangelical bell tower from the early nineteenth century, declared a national cultural monument. In Bobrovníky, a small family chapel commemorates a soldier killed in the Second World War."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka – a medieval road, a 1777 bell and a landscape of ponds",
+          "text": "Krivosúd and Bodovka were originally two separate villages administered together. An important medieval road from Beckov to Trenčín crossed the area as early as 1208. Krivosúd is first documented in 1398, while Bodovka appears in records from 1648. A masonry Neoclassical bell tower with a historic bell dating from 1777 was built here in the second half of the eighteenth century. Residents cultivated grain, flax and hops and maintained orchards. The village’s renowned cherry harvest lives on in the annual Cherry Festival. The local landscape also includes the Bodovské ponds and wetlands, which provide habitat for waterbirds."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro de Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Cuatro pueblos históricos que formaron Trenčianske Stankovce",
+          "text": "La actual Trenčianske Stankovce comprende el territorio de cuatro pueblos antiguamente independientes: Malé Stankovce, Veľké Stankovce, Rozvadze y Sedličná. Rozvadze aparece en documentos de 1212, Malé y Veľké Stankovce en 1345 y Sedličná en 1403. La unión efectiva tuvo lugar en 1971, después de las deliberaciones de los comités locales. El nuevo municipio adoptó el nombre propuesto por Malé Stankovce. La unión de cuatro núcleos explica la estructura actual y la identidad local plural."
+        },
+        {
+          "id": "fact_002",
+          "title": "Vestigios del Paleolítico superior en Zadné kopanice",
+          "text": "El territorio de la actual Trenčianske Stankovce estuvo habitado mucho antes de la formación de sus pueblos medievales. Los documentos históricos municipales registran herramientas de piedra tallada del Paleolítico superior, de hace aproximadamente 25.000 años. Los hallazgos se concentraron en Zadné kopanice, dentro del término de la antigua Veľké Stankovce. Destaca una punta con muesca fabricada en radiolarita. Estos objetos constituyen una prueba importante de la actividad humana prehistórica en la región media del Váh, muchos milenios antes de las primeras menciones escritas."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský, cartógrafo de la Hungría histórica",
+          "text": "Ján Lipský, oficial militar húngaro y cartógrafo conocido también como Johann o János Lipszky, nació en Sedličná el 10 de abril de 1766. Su extenso mapa del Reino de Hungría y de los territorios vecinos se publicó en 1805–1806 en doce hojas, a escala 1:480.000, y fue una de las obras cartográficas más importantes de su época. Lipský preparó también un índice geográfico con decenas de miles de topónimos. Murió en 1826 y fue enterrado en su Sedličná natal. Su tumba recuerda su importancia internacional."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia evangélica neoclásica y los campanarios históricos",
+          "text": "Las cuatro partes históricas de Trenčianske Stankovce conservan un conjunto de pequeños edificios religiosos. En Malé Stankovce se encuentra una iglesia evangélica neoclásica de tolerancia, construida entre 1784 y 1790. En Veľké Stankovce se levantó un campanario de mampostería en 1859; en Rozvadze, otro de estilo neoclásico tardío en 1867, con una escultura de piedra y una campana dedicada a san Martín. En Sedličná hay un campanario de la segunda mitad del siglo XVIII. En conjunto, reflejan las tradiciones religiosas y arquitectónicas de los antiguos pueblos."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce, el pueblo de san Hipólito y los antiguos molinos del Váh",
+          "text": "Opatovce es uno de los pueblos documentados por escrito más antiguos de Eslovaquia. El acta de Zobor de 1113 lo menciona como Villa trensciniensis sancti Ypoliti, la aldea de san Hipólito, entre las propiedades de la abadía benedictina del monte Zobor. Desde el siglo XV perteneció al obispado de Nitra. La vida local estuvo vinculada al río Váh: en el siglo XVIII se documentan pescadores y molinos de agua. Los molineros transportaban cereales y harina en barcas o en una barca de paso entre Opatovce y Zárečie. Según la tradición, las inundaciones obligaron al pueblo a cambiar de emplazamiento varias veces."
+        },
+        {
+          "id": "fact_006",
+          "title": "La capilla barroco-neoclásica de la Sagrada Familia en Opatovce",
+          "text": "Uno de los edificios históricos más destacados de Opatovce es la capilla de la Sagrada Familia, construida originalmente en el cementerio local durante el segundo tercio del siglo XVIII. El edificio de una sola nave tiene presbiterio rectangular, bóveda segmentada y una torre adelantada respecto a la fachada principal. En el altar mayor se conservan tres esculturas barrocas de la Virgen María, Jesús y san José, de mediados del siglo XVIII. Cerca se encuentra un campanario neoclásico de la segunda mitad del siglo XVIII, al que en el siglo XX se añadió una pequeña capilla de Nuestra Señora de los Dolores."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce, pueblo bajo el castillo de Trenčín y su patrimonio",
+          "text": "Veľké Bierovce aparece por primera vez en documentos en 1330 con las formas Bur o Byr. Durante mucho tiempo perteneció al señorío del castillo de Trenčín. Además de la agricultura, sus habitantes trabajaban como herreros, tejedores de paño, molineros, cesteros, barqueros y pescadores del Váh. La localidad conserva la iglesia católica de san Vendelino, originalmente barroca, restaurada sobre ruinas anteriores en 1776 y remodelada en 1944–1945. Otro monumento importante es el campanario evangélico neoclásico de mampostería de principios del siglo XIX, declarado monumento cultural nacional. En Bobrovníky, una pequeña capilla familiar recuerda a un soldado muerto en la Segunda Guerra Mundial."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka: camino medieval, campana de 1777 y paisaje de estanques",
+          "text": "Krivosúd y Bodovka fueron originalmente dos pueblos distintos administrados conjuntamente. Por su territorio pasaba ya en 1208 una importante ruta medieval entre Beckov y Trenčín. Krivosúd aparece por primera vez en documentos en 1398 y Bodovka desde 1648. En la segunda mitad del siglo XVIII se construyó aquí un campanario neoclásico de mampostería con una campana histórica de 1777. Sus habitantes cultivaban cereales, lino y lúpulo y mantenían huertos. La famosa cosecha de cerezas sigue viva en las fiestas anuales. El paisaje incluye también los estanques de Bodovské y humedales donde viven aves acuáticas."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre de Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Quatre villages historiques réunis dans Trenčianske Stankovce",
+          "text": "La commune actuelle de Trenčianske Stankovce couvre le territoire de quatre anciens villages indépendants : Malé Stankovce, Veľké Stankovce, Rozvadze et Sedličná. Rozvadze apparaît dans les documents dès 1212, Malé et Veľké Stankovce en 1345 et Sedličná en 1403. La fusion effective a eu lieu en 1971, après les délibérations des comités locaux. La nouvelle commune a adopté le nom proposé par Malé Stankovce. La réunion de quatre noyaux d’habitat explique la structure actuelle et la diversité de l’identité locale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Traces du Paléolithique supérieur à Zadné kopanice",
+          "text": "Le territoire de l’actuelle Trenčianske Stankovce était habité bien avant la formation des villages médiévaux. Les documents historiques communaux attestent des outils de pierre taillée du Paléolithique supérieur, datant d’environ 25 000 ans. Les découvertes se concentraient à Zadné kopanice, dans le cadastre de l’ancienne Veľké Stankovce. Une pointe à encoche en radiolarite est particulièrement remarquable. Ces objets témoignent de l’activité humaine préhistorique dans la moyenne vallée du Váh, plusieurs millénaires avant les premières mentions écrites des villages locaux."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský, cartographe de la Hongrie historique",
+          "text": "Ján Lipský, officier militaire hongrois et cartographe également connu sous les noms de Johann ou János Lipszky, est né à Sedličná le 10 avril 1766. Sa vaste carte du royaume de Hongrie et des territoires voisins a été publiée en 1805–1806 en douze feuilles, à l’échelle de 1:480 000. Elle comptait parmi les grandes œuvres cartographiques de son époque. Lipský a également préparé un répertoire géographique comprenant des dizaines de milliers d’entrées. Il est mort en 1826 et a été enterré dans sa Sedličná natale. Sa tombe rappelle son importance internationale."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église évangélique néoclassique et les clochers historiques",
+          "text": "Les quatre quartiers historiques de Trenčianske Stankovce conservent un ensemble de petits édifices religieux. À Malé Stankovce se trouve une église évangélique néoclassique de tolérance, construite entre 1784 et 1790. Un clocher maçonné a été élevé à Veľké Stankovce en 1859 ; à Rozvadze, un clocher néoclassique tardif avec sculpture de pierre et cloche dédiée à saint Martin date de 1867. À Sedličná, le clocher remonte à la seconde moitié du XVIIIe siècle. Ensemble, ces bâtiments témoignent des traditions religieuses et architecturales des anciens villages."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce, le village de saint Hypolite et les anciens moulins du Váh",
+          "text": "Opatovce compte parmi les villages les plus anciens attestés par écrit en Slovaquie. La charte de Zobor de 1113 le mentionne sous le nom de Villa trensciniensis sancti Ypoliti, le village de saint Hypolite, parmi les possessions de l’abbaye bénédictine du mont Zobor. À partir du XVe siècle, le village appartient à l’évêché de Nitra. La vie locale était liée au Váh : au XVIIIe siècle, des pêcheurs et des moulins à eau sont attestés. Les meuniers transportaient les céréales et la farine en bateau ou par bac entre Opatovce et Zárečie. Selon la tradition, les crues auraient contraint le village à changer plusieurs fois d’emplacement."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chapelle baroque-classique de la Sainte-Famille à Opatovce",
+          "text": "L’un des monuments historiques majeurs d’Opatovce est la chapelle de la Sainte-Famille, construite à l’origine dans le cimetière local au cours du deuxième tiers du XVIIIe siècle. L’édifice à nef unique possède un chœur rectangulaire, une voûte segmentaire et une tour avancée par rapport à la façade principale. Trois statues baroques de la Vierge Marie, de Jésus et de saint Joseph, datant du milieu du XVIIIe siècle, sont conservées sur l’autel principal. À proximité se trouve un clocher néoclassique de la seconde moitié du XVIIIe siècle, auquel une petite chapelle de Notre-Dame des Sept Douleurs a été ajoutée au XXe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce, village sous le château de Trenčín et son patrimoine",
+          "text": "Veľké Bierovce est attesté pour la première fois en 1330 sous les formes Bur ou Byr. Le village a longtemps appartenu au domaine du château de Trenčín. Outre l’agriculture, ses habitants exerçaient les métiers de forgeron, drapier, meunier, vannier, passeur et pêcheur sur le Váh. L’église catholique Saint-Vendelin est à l’origine un édifice baroque restauré à partir de ruines plus anciennes en 1776, puis remanié en 1944–1945. Un autre monument important est le clocher évangélique maçonné néoclassique du début du XIXe siècle, classé monument culturel national. À Bobrovníky, une petite chapelle familiale commémore un soldat mort pendant la Seconde Guerre mondiale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka : route médiévale, cloche de 1777 et paysage d’étangs",
+          "text": "Krivosúd et Bodovka étaient à l’origine deux villages distincts administrés ensemble. Une importante route médiévale reliant Beckov à Trenčín traversait déjà le territoire en 1208. Krivosúd est attesté pour la première fois en 1398, tandis que Bodovka apparaît à partir de 1648. Dans la seconde moitié du XVIIIe siècle, un clocher maçonné néoclassique doté d’une cloche historique de 1777 y fut construit. Les habitants cultivaient céréales, lin et houblon et entretenaient des vergers. La récolte de cerises se perpétue dans les fêtes annuelles. Le paysage comprend aussi les étangs de Bodovské et des zones humides accueillant des oiseaux d’eau."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro di Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Quattro villaggi storici riuniti in Trenčianske Stankovce",
+          "text": "L’attuale comune di Trenčianske Stankovce comprende il territorio di quattro villaggi un tempo indipendenti: Malé Stankovce, Veľké Stankovce, Rozvadze e Sedličná. Rozvadze compare nei documenti già nel 1212, Malé e Veľké Stankovce nel 1345 e Sedličná nel 1403. L’unificazione effettiva avvenne nel 1971, dopo le deliberazioni dei comitati locali. Il nuovo comune adottò il nome proposto da Malé Stankovce. L’unione di quattro nuclei abitati spiega la struttura attuale e la ricca identità locale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Tracce del Paleolitico superiore a Zadné kopanice",
+          "text": "Il territorio dell’attuale Trenčianske Stankovce era abitato molto prima della nascita dei villaggi medievali. I documenti storici comunali attestano strumenti in pietra scheggiata del Paleolitico superiore, risalenti a circa 25.000 anni fa. I reperti erano concentrati nella località Zadné kopanice, nel catasto dell’antica Veľké Stankovce. Notevole è una punta con intaccatura realizzata in radiolarite. Questi oggetti testimoniano l’attività umana preistorica nella media valle del Váh, molti millenni prima delle prime menzioni scritte degli insediamenti."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský, cartografo dell’Ungheria storica",
+          "text": "Ján Lipský, ufficiale militare ungherese e cartografo noto anche come Johann o János Lipszky, nacque a Sedličná il 10 aprile 1766. La sua ampia carta del Regno d’Ungheria e dei territori limitrofi fu pubblicata nel 1805–1806 in dodici fogli, alla scala 1:480.000, ed è una delle opere cartografiche più importanti del suo tempo. Lipský preparò anche un repertorio geografico con decine di migliaia di voci. Morì nel 1826 e fu sepolto nella sua Sedličná natale. La sua tomba ricorda la sua importanza internazionale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa evangelica neoclassica e i campanili storici",
+          "text": "Le quattro parti storiche di Trenčianske Stankovce conservano piccoli edifici religiosi. A Malé Stankovce si trova una chiesa evangelica neoclassica di tolleranza, costruita tra il 1784 e il 1790. A Veľké Stankovce fu eretto un campanile in muratura nel 1859; a Rozvadze un campanile tardo-neoclassico con scultura in pietra e campana dedicata a san Martino risale al 1867. A Sedličná il campanile è della seconda metà del XVIII secolo. Nel loro insieme testimoniano le tradizioni religiose e architettoniche degli antichi villaggi."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce, il villaggio di sant’Ippolito e gli antichi mulini sul Váh",
+          "text": "Opatovce è uno dei villaggi slovacchi documentati per iscritto più antichi. L’atto di Zobor del 1113 lo cita come Villa trensciniensis sancti Ypoliti, il villaggio di sant’Ippolito, tra i possedimenti dell’abbazia benedettina sul monte Zobor. Dal XV secolo appartenne alla diocesi di Nitra. La vita locale era legata al fiume Váh: nel XVIII secolo sono attestati pescatori e mulini ad acqua. I mugnai trasportavano cereali e farina in barca o con un traghetto tra Opatovce e Zárečie. Secondo la tradizione, le inondazioni costrinsero il villaggio a spostarsi più volte."
+        },
+        {
+          "id": "fact_006",
+          "title": "La cappella barocco-neoclassica della Sacra Famiglia a Opatovce",
+          "text": "Uno dei principali monumenti storici di Opatovce è la cappella della Sacra Famiglia, originariamente costruita nel cimitero locale nel secondo terzo del XVIII secolo. L’edificio a navata unica presenta un presbiterio rettangolare, una volta segmentata e una torre sporgente rispetto alla facciata principale. Sull’altare maggiore si conservano tre statue barocche della Vergine Maria, di Gesù e di san Giuseppe, della metà del XVIII secolo. Nelle vicinanze si trova un campanile neoclassico della seconda metà del Settecento, al quale nel XX secolo fu aggiunta una piccola cappella della Madonna Addolorata."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce, villaggio sotto il castello di Trenčín e il suo patrimonio",
+          "text": "Veľké Bierovce è attestato per la prima volta nel 1330 con le forme Bur o Byr. Per lungo tempo appartenne alla signoria del castello di Trenčín. Oltre all’agricoltura, gli abitanti lavoravano come fabbri, tessitori, mugnai, cestai, traghettatori e pescatori sul Váh. La chiesa cattolica di san Vendelino, originariamente barocca, fu restaurata da rovine più antiche nel 1776 e ristrutturata nel 1944–1945. Un altro monumento importante è il campanile evangelico neoclassico in muratura dei primi dell’Ottocento, dichiarato monumento culturale nazionale. A Bobrovníky una piccola cappella familiare ricorda un soldato caduto nella Seconda guerra mondiale."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka: strada medievale, campana del 1777 e paesaggio di stagni",
+          "text": "Krivosúd e Bodovka erano in origine due villaggi distinti amministrati insieme. Il territorio era attraversato già nel 1208 da un’importante strada medievale tra Beckov e Trenčín. Krivosúd è documentato per la prima volta nel 1398, mentre Bodovka compare dal 1648. Nella seconda metà del XVIII secolo fu costruito un campanile neoclassico in muratura con una campana storica del 1777. Gli abitanti coltivavano cereali, lino e luppolo e curavano frutteti. Il raccolto di ciliegie è ancora celebrato nelle feste annuali. Il paesaggio comprende gli stagni di Bodovské e zone umide frequentate dagli uccelli acquatici."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Centrum van Trenčianske Stankovce",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vier historische dorpen werden samen Trenčianske Stankovce",
+          "text": "Het huidige Trenčianske Stankovce omvat het grondgebied van vier vroeger zelfstandige dorpen: Malé Stankovce, Veľké Stankovce, Rozvadze en Sedličná. Rozvadze wordt al in 1212 schriftelijk vermeld, Malé en Veľké Stankovce in 1345 en Sedličná in 1403. De daadwerkelijke samenvoeging vond plaats in 1971 na overleg van de plaatselijke comités. De nieuwe gemeente kreeg de naam die door Malé Stankovce was voorgesteld. De vereniging van vier nederzettingskernen verklaart de huidige ruimtelijke structuur en de gelaagde lokale identiteit."
+        },
+        {
+          "id": "fact_002",
+          "title": "Sporen uit het Laatpaleolithicum bij Zadné kopanice",
+          "text": "Het gebied van het huidige Trenčianske Stankovce was al bewoond lang voordat de middeleeuwse dorpen ontstonden. Gemeentelijke historische documenten vermelden stenen werktuigen uit het Laatpaleolithicum, ongeveer 25.000 jaar oud. De vondsten concentreerden zich bij Zadné kopanice, in het kadastrale gebied van het voormalige Veľké Stankovce. Bijzonder is een gekerfde punt van radiolariet. Deze voorwerpen vormen belangrijk bewijs voor menselijke activiteit in de middenloop van de Váh-vallei, vele duizenden jaren voordat de plaatselijke nederzettingen voor het eerst in geschreven bronnen voorkomen."
+        },
+        {
+          "id": "fact_003",
+          "title": "Ján Lipský, cartograaf van het historische Hongarije",
+          "text": "Ján Lipský, een Hongaarse legerofficier en cartograaf die ook bekendstaat als Johann of János Lipszky, werd op 10 april 1766 in Sedličná geboren. Zijn omvangrijke kaart van het Koninkrijk Hongarije en aangrenzende gebieden verscheen in 1805–1806 in twaalf kaartbladen op schaal 1:480.000 en behoorde tot de belangrijkste cartografische werken van zijn tijd. Lipský stelde ook een plaatsnamenregister samen met tienduizenden vermeldingen. Hij stierf in 1826 en werd in zijn geboorteplaats Sedličná begraven. Zijn graf herinnert aan zijn internationale betekenis."
+        },
+        {
+          "id": "fact_004",
+          "title": "De neoklassieke evangelische kerk en historische klokkentorens",
+          "text": "De vier historische delen van Trenčianske Stankovce bewaren een groep kleine religieuze gebouwen. In Malé Stankovce staat een neoklassieke evangelische tolerantiekerk, gebouwd tussen 1784 en 1790. In Veľké Stankovce werd in 1859 een gemetselde klokkentoren gebouwd; in Rozvadze dateert een laat-neoklassieke toren met stenen beeldhouwwerk en een aan Sint-Maarten gewijde klok uit 1867. De toren in Sedličná stamt uit de tweede helft van de achttiende eeuw. Samen tonen ze de religieuze en bouwkundige tradities van de vroegere dorpen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Opatovce, het dorp van Sint-Hippolytus en de vroegere molens aan de Váh",
+          "text": "Opatovce behoort tot de oudste schriftelijk gedocumenteerde dorpen van Slowakije. De oorkonde van Zobor uit 1113 noemt de plaats Villa trensciniensis sancti Ypoliti, het dorp van Sint-Hippolytus, als bezit van de benedictijnerabdij op de berg Zobor. Vanaf de vijftiende eeuw behoorde het dorp tot het bisdom Nitra. Het lokale leven was nauw verbonden met de rivier de Váh: in de achttiende eeuw worden vissers en watermolens vermeld. Molenaars vervoerden graan en meel per boot of veerpont tussen Opatovce en Zárečie. Volgens de overlevering dwongen herhaalde overstromingen het dorp meermaals tot verplaatsing."
+        },
+        {
+          "id": "fact_006",
+          "title": "De barok-neoklassieke kapel van de Heilige Familie in Opatovce",
+          "text": "Een belangrijk historisch gebouw in Opatovce is de kapel van de Heilige Familie, oorspronkelijk gebouwd op de plaatselijke begraafplaats in het tweede derde deel van de achttiende eeuw. Het gebouw met één schip heeft een rechthoekig koor, een segmentgewelf en een toren die vóór de hoofdgevel uitsteekt. Op het hoofdaltaar zijn drie barokke beelden bewaard gebleven: Maria, Jezus en Sint-Jozef, uit het midden van de achttiende eeuw. Vlakbij staat een neoklassieke klokkentoren uit de tweede helft van die eeuw, waaraan in de twintigste eeuw een kleine kapel van Onze-Lieve-Vrouw van Smarten werd toegevoegd."
+        },
+        {
+          "id": "fact_007",
+          "title": "Veľké Bierovce, een dorp onder de burcht van Trenčín en zijn erfgoed",
+          "text": "Veľké Bierovce wordt voor het eerst schriftelijk vermeld in 1330 onder de namen Bur of Byr. Het dorp behoorde lange tijd tot het domein van de burcht van Trenčín. Naast landbouw werkten de inwoners als smid, lakenwever, molenaar, mandenmaker, veerman en visser op de nabijgelegen Váh. De rooms-katholieke kerk van Sint-Vendelin was oorspronkelijk een barok gebouw, in 1776 hersteld uit oudere ruïnes en in 1944–1945 verbouwd. Een ander belangrijk monument is de neoklassieke gemetselde evangelische klokkentoren uit het begin van de negentiende eeuw, die tot nationaal cultureel monument is verklaard. In Bobrovníky herinnert een kleine familiekapel aan een gesneuvelde soldaat."
+        },
+        {
+          "id": "fact_008",
+          "title": "Krivosúd-Bodovka: middeleeuwse weg, klok uit 1777 en vijverlandschap",
+          "text": "Krivosúd en Bodovka waren oorspronkelijk twee afzonderlijke dorpen die gezamenlijk werden bestuurd. Al in 1208 liep er een belangrijke middeleeuwse weg van Beckov naar Trenčín door het gebied. Krivosúd wordt voor het eerst vermeld in 1398; Bodovka komt vanaf 1648 in documenten voor. In de tweede helft van de achttiende eeuw werd hier een gemetselde neoklassieke klokkentoren gebouwd met een historische klok uit 1777. De inwoners verbouwden graan, vlas en hop en onderhielden boomgaarden. De beroemde kersenoogst leeft voort in het jaarlijkse kersenfeest. Tot het landschap behoren ook de vijvers van Bodovské en natte gebieden met watervogels."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
