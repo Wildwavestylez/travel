@@ -221,3 +221,18 @@ Souřadnice nebyly domýšleny. Každý případ musí být buď bezpečně loka
 **TRANSLATION SEMANTIC REVIEW: COMPLETE. OVERALL AUDIT: REVIEW REQUIRED.**
 
 Otevřených sedm geografických případů a ostatní položky původního auditního checklistu musí být uzavřeny nebo výslovně přijaty. Záznamy zůstávají ve stávajícím validačním stavu; nebyla provedena V5, publikace, záloha, Neon import ani read-only lock.
+
+
+### Geografická aktualizace — 27. 11. 2026
+
+**28923/fact_004 – Vrutický rybník: poloha doplněna.** Diplomová práce ČZU uvádí lokalizaci N 50°13.55520′, E 14°51.32603′ a popisuje rybník jako rozsáhlou vodní plochu jihozápadně od Benátecké Vrutice směrem k Milovicím. Do databáze byl uložen desetinný převod 50.225920, 14.855434 s `type=pond` a `accuracy=area_representative`. Zdroj: https://theses.cz/id/rc17lv/103809_prace.pdf?lang=sk.
+
+Po doplnění této reprezentativní polohy zůstává **6 záměrně nevyplněných poloh**:
+- 28905/fact_008 – zaniklé pohřebiště Mírkoveček; známá lesní trať jihovýchodně od Choťovic, ale bez bezpečného přesného bodu.
+- 28907/fact_006 – více sídel v jednom faktu.
+- 28914/fact_004 – více historických mlýnů a vodních děl.
+- 28926/fact_007 – dvě zaniklé vodní plochy.
+- 28935/fact_002 – dva oddělené archeologické nálezové celky.
+- 28941/fact_004 – fragment reliéfu s nejednoznačným původním umístěním a více možnými nálezovými souvislostmi.
+
+Tyto souřadnice nebyly domýšleny; `location=null` je v těchto případech záměrné. Celkový audit proto zůstává **REVIEW REQUIRED**, dokud nebudou tyto výjimky výslovně přijaty a uzavřeny zbývající položky auditního checklistu.
