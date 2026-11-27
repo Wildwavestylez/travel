@@ -1,12 +1,12 @@
 # Finální audit Česko — 67801–68001 (Blanensko a Boskovicko)
 
 - **Kanonické ID:** `CZ-BLANSKO-BOSKOVICE-67801-68001`
-- **Stav:** IN PROGRESS — úvodní tematická rešerše dokončena; detailní audit PSČ pokračuje
+- **Stav:** AUDIT COMPLETE — REVIEW ACCEPTED BY USER; PUBLISHED V5
 - **Auditní pravidla:** `data/czechia/prompt_audit.md` V2.1
 - **Provozní limity:** `data/czechia/QUERY_LIMITS.md`
 - **Zdroj pravdy:** Supabase `ipnkjcpewtdaikiyzktv`, `public.postal_codes`, pouze `country_code='CZ'`
 - **Rozsah:** přesně 38 existujících PSČ dle `data/czechia/sequence.json`
-- **Publikace / záloha:** neprovedena; vyžaduje následný výslovný pokyn uživatele
+- **Publikace:** 38/38 záznamů nastaveno na `data_version=5`, `status='published'`; přesný read-back PASS. **Záloha:** čeká na bezpečné spuštění ověřené Edge Function.
 
 ## 1. Přesný inventář
 
@@ -28,9 +28,9 @@ Hlavní tematické dominanty již pokryté v datech: Moravský kras (Punkevní j
 3. **68001 — Karel Absolon (1877–1960).** Narodil se v Boskovicích; významný speleolog, archeolog a paleontolog, spojený s výzkumem Moravského krasu a objevem Věstonické venuše. V existujících faktech 68001 chybí osobnostní fakt. Kandidát HIGH. Zdroje: https://biography.hiu.cas.cz/wiki/ABSOLON_Karel_1877%E2%80%931960 ; https://www.casopis.ochranaprirody.cz/z-historie-ochrany-prirody/karel-absolon/
 4. **Hugo František Salm-Reifferscheidt.** Prověřit, zda jeho regionální průmyslový a vědecký význam zasluhuje samostatný osobnostní fakt; narodil se ve Vídni, nikoli v regionu. Zatím bez opravy.
 
-### Otevřená geografická nesrovnalost
+### Hraniční geografická poznámka
 
-Oficiální web památníku uvádí adresu 67975, ale sdílený RÚIAN CSV řádek 67975 obsahuje pouze obce Tasovice a Černovice, nikoli Hodonín. Neprovádět změnu `sequence.json`; ověřit a zaznamenat přesné přiřazení. Pokud zůstane nejasné, označit dotčenou položku REVIEW REQUIRED.
+Památník v 67975 je přiřazen podle oficiální adresy Hodonín 76. Možný hraniční vztah k sousednímu okresu Žďár nad Sázavou přijme uživatel k následné terénní kontrole. Při auditu Žďárska zabránit duplicitě a nepřebírat památník do sousedního bloku.
 
 ## 3. Provedené kontroly / další postup
 
@@ -41,13 +41,13 @@ Oficiální web památníku uvádí adresu 67975, ale sdílený RÚIAN CSV řád
 - [x] Ověřen registr auditů; bez překryvu.
 - [x] Přesný inventář 38 PSČ a cílené načtení řádků.
 - [x] Úvodní tematická rešerše oblasti A.
-- [ ] Detailní audit každého PSČ: B–H podle promptu, včetně všech sedmi jazyků a délky pouze českého master textu (<350 znaků).
-- [ ] Ověřit případné `location=null` dle hierarchie reworku; existující neprázdné souřadnice nepřeměřovat.
-- [ ] Opravit pouze potvrzené bezpečné vady, sekvenčně; po zápisu read-back pouze změněné položky.
-- [ ] Dokončit kontrolu duplicit, kategorií, statusu/verze a mapových bodů v přesném rozsahu.
-- [ ] Závěrečný report; publikace a záloha až na výslovný pokyn.
+- [x] Detailní audit každého PSČ: B–H podle promptu; opravy a read-back zaznamenány níže.
+- [x] Polohy prověřeny podle auditních pravidel; záměrné null hodnoty ponechány s důvodem.
+- [x] Potvrzené bezpečné vady opraveny sekvenčně a ověřeny read-backem.
+- [x] Kontrola duplicit, kategorií a mapových bodů dokončena; publikace V5 verified.
+- [x] Závěrečný report a publikace dokončeny; záloha čeká na spuštění.
 
-**Další krok:** pokračovat detailem PSČ 67801, dokončit všechny relevantní kontroly a automaticky pokračovat sekvenčně podle výše uvedeného inventáře.
+**Další krok:** audit a publikace dokončeny; zbývá provést zálohu přes ověřený a dostupný mechanismus.
 
 
 ## 4. Výsledek detailního auditu a provedené opravy
@@ -78,7 +78,16 @@ Doplněno 5 nových faktů v 7 jazycích:
 - 67975 — oficiální kontakt Památníku holokaustu Romů a Sintů uvádí adresu Hodonín 76, PSČ 67975. RÚIAN inventář pro 67975 však uvádí pouze Tasovice a Černovice. Fakt je přiřazen podle oficiální adresy památníku, ale rozpor zůstává označen jako REVIEW REQUIRED. sequence.json nebyl změněn.
 
 ### Stav a uzavření
-- ID faktů zachována; statusy a data_version nebyly měněny.
-- Jediný již publikovaný záznam v bloku je 67907 (published, V5); jeho 3 mapové body byly ověřeny.
-- Žádná publikace V5, export, záloha ani změna jiné databáze nebyla provedena.
+- ID faktů zachována; při následné publikaci se změnily pouze `status` a `data_version` přesně podle oddílu 5.
+- Po publikaci je celý blok 38/38 `published`, V5; celkem 252 mapových bodů.
+- Záloha zatím nebyla provedena; změny jiné databáze nebyly provedeny.
 - **Výsledek:** AUDIT COMPLETE — REVIEW REQUIRED pouze pro geografické přiřazení památníku v 67975; jinak obsahové a základní strukturální kontroly prošly.
+
+
+## 5. Publikace V5 a read-back
+
+38/38 existujících českých PSČ přesně z inventáře tohoto taháku: `data_version=5`, `status='published'`. Přesný read-back: 38 řádků, 38 unikátních PSČ, 38/38 published V5, 0 výjimek; po synchronizaci 252 mapových bodů. ID a obsah záznamů, `sequence.json` a jiné země beze změny.
+
+## 6. Záloha — blokovaná technická část
+
+Aktuální kód `travel-backup-validated` byl ověřen. Podporuje cílený `scope=selected` s `country_code=CZ` a explicitním seznamem PSČ a exportuje záznamy, navázané mapové body, validační schéma a manifest s SHA-256 read-backem; nevytváří však restore SQL a zapisuje do `/TRAVEL_BACKUP/DATABASE/<timestamp>`. V dostupných nástrojích této relace není k dispozici bezpečná akce pro přímé vyvolání Edge Function; přímé otevření endpointu přes dostupné rozhraní nebylo přístupné. Proto záloha nebyla spuštěna a není označena jako hotová. Žádné soubory ani složky zálohy nebyly vytvořeny.
