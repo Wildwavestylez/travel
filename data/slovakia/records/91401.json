@@ -1,4 +1,849 @@
 {
   "postcode": "91401",
-  "status": "placeholder"
+  "city": "Trenčianska Teplá",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Trenčianska Teplá – centrum obce u obecního úřadu M. R. Štefánika 376/30",
+  "representative_point": {
+    "lat": 48.934275260707714,
+    "lon": 18.120043454853747
+  },
+  "access_point": {
+    "lat": 48.934275260707714,
+    "lon": 18.120043454853747
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Tři historická sídla jednoho poštovního území: Teplá, Dobrá a Príles",
+      "text": "Současná Trenčianska Teplá zahrnuje tři historická sídla s odlišným vývojem. Samotná Teplá je písemně doložena roku 1355 pod názvem Topla, šlechtický Príles roku 1351 a Dobrá už roku 1113 v Zoborské listině. Príles byl k Trenčianské Teplé připojen v roce 1913, zatímco Dobrá zůstala samostatnou obcí až do roku 1971. Dobrá byla přitom starším církevním a správním centrem než samotná Teplá; její dějiny proto tvoří podstatnou část identity dnešní obce.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Pravěké a raně středověké nálezy – žárový hrob, hradiště a velkomoravská ostruha",
+      "text": "Území Trenčianské Teplé bylo osídleno už v mladším paleolitu. Roku 1936 byl při stavbě domu nalezen žárový hrob lužické kultury z pozdní doby bronzové s popelnicí, bronzovou jehlicí, břitvou, spirálovitými trubičkami a dalšími předměty; nálezy jsou uloženy v Trenčínském muzeu. V lokalitě Podhradište se našla slovanská keramika z 9.–10. století a z Čertovy skály pochází železná jezdecká ostruha z velkomoravského období. Na Podhradišti jsou patrné také valy pravěkého hradiště.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s9",
+        "s10"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Dobrá – středověké děkanství a stará zvonice s gotickým zvonem",
+      "text": "Dobrá je písemně doložena roku 1113; fara zde existovala nejpozději roku 1310 a kostel sv. Kříže je uveden v soupisu z roku 1324. Roku 1332 se trenčínský děkanát rozdělil na závažský a dobranský, přičemž Dobrá zůstala děkanským sídlem až do roku 1952. Obecní pramen ji označuje za místo jednoho z nejstarších románských kostelů na Pováží. Dnešní kostel Nalezení a Povýšení sv. Kříže byl postaven roku 1900 na místě staršího barokního chrámu; u něj stojí stará zvonice se zvonem datovaným rokem 1516.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s7",
+        "s11"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel Nalezení a Povýšení sv. Kříže, Dobrá",
+        "address": "Dobrá, 914 01 Trenčianska Teplá, Slovakia",
+        "lat": 48.9242288,
+        "lon": 18.1079851,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w155023608"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Príles – šlechtické sídlo rodu Príleských a zanikající klasicistní kúrie",
+      "text": "Príles byl od středověku kuriální obcí a sídlem šlechtických rodin; nejstarší listina o něm pochází z roku 1351. Rod Príleských zde držel majetky po generace a jeho člen Ján se stal jezuitským a později piaristickým duchovním spisovatelem. V druhé polovině 19. století užíval zdejší kúrii jako letní sídlo baron Filip Skrbenský, který se podílel i na založení dobrovolného hasičského sboru v Teplé roku 1884. Československá obec legionářská koupila kaštieľ roku 1924 a v roce 1927 zde zřídila zotavovnu. Po necitlivých poválečných zásazích zůstaly jen malé fragmenty; zachovala se zvonice se zvonem z roku 1660 a část kaple s gotickým oknem.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s12",
+        "s13"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Zbytky kaštieľa Príles",
+        "address": "Príles, 914 01 Trenčianska Teplá, Slovakia",
+        "lat": 48.951102,
+        "lon": 18.136309,
+        "type": "historic_estate",
+        "accuracy": "approximate",
+        "source": "https://www.pamiatkynaslovensku.sk/priles-trencianska-tepla-kastiel"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Barokní kostel sv. Matouše – stavba z let 1733–1752",
+      "text": "Dominantou Trenčianské Teplé je římskokatolický kostel sv. Matouše, jehož základní kámen byl položen 21. dubna 1733. Stavbu finančně podporoval hrabě Juraj Illésházy a dokončena byla roku 1752 za faráře Jána Ďuriše. Kostel byl vysvěcen roku 1789 nitranským biskupem Františkem Xaverem Fuchsem. Třetí zvon přibyl roku 1797, boční oltáře byly zhotoveny roku 1803 a věžní hodiny z roku 1794 daroval Ján Illésházy. Jednolodní barokní stavba s polygonálním presbytářem je zapsána v Ústředním seznamu památkového fondu SR.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s14",
+        "s15",
+        "s16"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Matouše, Trenčianska Teplá",
+        "address": "Trenčianska Teplá, 914 01 Trenčianska Teplá, Slovakia",
+        "lat": 48.932459,
+        "lon": 18.118458,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/trencianska-tepla-kostol-sv-matusa"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Železniční uzel a elektrická úzkokolejka do Trenčianských Teplic",
+      "text": "Železniční stanice v Trenčianské Teplé byla vybudována roku 1883 a obec se díky poloze na hlavním tahu Povážím stala důležitým železničním uzlem. V roce 1908 začala stavba elektrické úzkokolejky do lázní Trenčianske Teplice; provoz na trati dlouhé 5,9 km s rozchodem 760 mm byl zahájen 27. července 1909. Trať měla jednu stanici, dvě zastávky, jediný železobetonový most a 44 úrovňových přejezdů. Napájena byla stejnosměrným proudem 750 V. Odbočovala přímo z prostoru stanice Trenčianska Teplá a stala se charakteristickým technickým symbolem obce.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s17",
+        "s18"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Železniční stanice Trenčianska Teplá – výchozí bod elektrické úzkokolejky",
+        "address": "Trenčianska Teplá, 914 01 Trenčianska Teplá, Slovakia",
+        "lat": 48.9373812,
+        "lon": 18.1132865,
+        "type": "railway_station",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n206244063"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Považský cukrovar – 125 let průmyslové historie a proměna areálu v roce 2026",
+      "text": "Základní kámen Považského cukrovaru byl položen 28. září 1900 a první cukrovarnická kampaň začala 17. října 1901. Trvala 137 dní a zpracovalo se během ní 87 710 tun řepy. Závod zaměstnával 66 stálých pracovníků a 84 nájemních dělníků; během řepné kampaně počet pracovníků stoupal až k 700 sezónním zaměstnancům. Cukrovar zásadně formoval život obce – vznikla zaměstnanecká ubytovna, prádelna, lázně i kantýna s kulturními akcemi. Nordzucker v únoru 2026 oznámil ukončení výroby cukru po kampani 2025/26; areál má dále fungovat jako obchodně-logistické centrum.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Považský cukrovar – historický areál",
+        "address": "Cukrovarská 311/9, 914 01 Trenčianska Teplá, Slovakia",
+        "lat": 48.94115,
+        "lon": 18.12015,
+        "type": "factory",
+        "accuracy": "area_representative",
+        "source": "https://www.openstreetmap.org/way/72350655"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Osvobození 26. dubna 1945 – boje u cukrovaru, nádraží a Prílesu",
+      "text": "Na konci druhé světové války se o Trenčianskou Teplou tvrdě bojovalo. V dubnu 1945 probíhaly střety zejména v okolí cukrovaru, železniční stanice a Prílesu; německé dělostřelectvo rozmístěné na Skaliskách, Háji a Dubovci zpomalovalo postup osvobozovacích jednotek. Německé jednotky před ústupem zničily silniční mosty a zapálily překladiště nákladního depa. Obec osvobodily 26. dubna 1945 v ranních hodinách jednotky rumunské armády. Na území obce zahynulo 15 rumunských vojáků a během bojů přišlo o život také deset místních obyvatel.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s23"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_009",
+      "title": "Pomník padlým hrdinům – dílo Vojtecha Ihriského z roku 1928",
+      "text": "V centru Trenčianské Teplé stojí pomník padlým hrdinům, který vytvořil akademický sochař Vojtech Ihriský. Slavnostně byl odhalen 28. října 1928 na počest 75 obyvatel obce, kteří zahynuli v bojích první světové války. Později na něj přibyla také jména deseti místních obyvatel, kteří přišli o život během osvobozovacích bojů v dubnu 1945. Pomník se tak proměnil v hlavní místní pamětní místo obětí obou světových válek a připomínku osvobození obce.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s24",
+        "s25",
+        "s26"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pomník padlých hrdinů, Trenčianska Teplá",
+        "address": null,
+        "lat": 48.934,
+        "lon": 18.119,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.turistika.cz/mista/trencianska-tepla-pomnik-padlym-vo-vojne/detail"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Trenčianská Teplá jako inspirace malířů – Mánes, Aleš, Úprka a místní rodáci",
+      "text": "Lidový kroj a každodenní život v Trenčianské Teplé přitahovaly malíře už na přelomu 19. a 20. století. Obecní přehled uvádí, že sem přijížděli Josef Mánes, Mikoláš Aleš a Joža Úprka, aby zachytili místní kroje a krajinu. František Viktor Podolay, narozený ve Slopné, maloval ve 30. letech v regionu krojované postavy z Teplé a výjevy z rolnického života. Přímo v Trenčianské Teplé se narodili malíři Štefan Straka a Ján Šandora, kteří na svých plátnech zachycovali místní obyvatele, kroje i okolní krajinu.",
+      "category": "people",
+      "priority": "C",
+      "sources": [
+        "s4",
+        "s27",
+        "s28"
+      ],
+      "map_category": "personality",
+      "location": null
+    },
+    {
+      "id": "fact_011",
+      "title": "Teplanský kroj a soubor Teplanka – výšivka a písně Pováží",
+      "text": "Trenčianská Teplá je významnou národopisnou lokalitou díky mužskému a ženskému Teplanskému kroji. Jeho charakteristickým prvkem je pestrobarevná výšivka na rukávcích a zástěře s geometrickými, květinovými i zvířecími motivy, například pávem, kohoutem a ptáky. Místní ženy kroj dodnes uchovávají a předávají jeho techniky dalším generacím. Folklorní soubor Teplanka, založený roku 1960, sbírá a uvádí místní písně, tance a obyčeje; k regionální hudební tradici patří také dechová hudba Dobranka.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s29",
+        "s30",
+        "s31"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; oficiální adresa obecního úřadu Trenčianska Teplá, M. R. Štefánika 376/30, 914 01",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR / Slovensko.sk, oficiální územní a historické dokumenty obce Trenčianska Teplá, ŽSR a OpenStreetMap pro ověřené mapové body."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "primary"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Trenčianska Teplá – oficiální kontaktní adresa 914 01",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "OpenStreetMap / OMA – obecní úřad M. R. Štefánika 376/30",
+      "url": "https://www.oma.sk/u/m-r-stefanika/30?s=trencianska-tepla",
+      "type": "other"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Trenčianska Teplá – základní údaje a místní části",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Trenčianska Teplá – historie a archeologické nálezy",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Trenčianska Teplá – místní část Dobrá",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/miestna-cast-dobra/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Slovensko.sk – oficiální profil Trenčianské Teplé a Dobré",
+      "url": "https://www.slovensko.sk/sk/lokality/_d2e53b72-7fc2-43b7-9bfd-5d132c716f5b",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Trenčianska Teplá – část Príles a rod Príleských",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/cast-priles/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Pamiatky na Slovensku – kaštieľ Príles",
+      "url": "https://www.pamiatkynaslovensku.sk/priles-trencianska-tepla-kastiel",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Trenčianska Teplá – farnost a historie kostela sv. Matouše",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/farnost/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Pamiatky na Slovensku – kostel sv. Matouše",
+      "url": "https://www.pamiatkynaslovensku.sk/trencianska-tepla-kostol-sv-matusa",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "OpenStreetMap / OMA – kostel Nalezení a Povýšení sv. Kříže v Dobré",
+      "url": "https://poi.oma.sk/w155023608",
+      "type": "other"
+    },
+    {
+      "id": "s13",
+      "title": "ŽSR – místní úzkorozchodná elektrická železnice Trenčianska Teplá–Trenčianske Teplice",
+      "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1873-1918/miestne-zeleznice/miestna-uzkorozchodna-elektricka-zeleznica-trencianska-tepla-trencianske-teplice/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "OpenStreetMap / OMA – železniční stanice Trenčianska Teplá",
+      "url": "https://www.oma.sk/n206244063?s=poi",
+      "type": "other"
+    },
+    {
+      "id": "s15",
+      "title": "Považský cukrovar – kronika obce Trenčianska Teplá 2012",
+      "url": "https://www.trencianskatepla.sk/modules/file_storage/download.php?file=8e24d40f%7C110",
+      "type": "archive"
+    },
+    {
+      "id": "s16",
+      "title": "Listy cukrovarnické a řepařské – Považský cukor, historický přehled kampaně 1901",
+      "url": "https://www.cukr-listy.cz/on_line/2010/PDF/232-235.PDF",
+      "type": "specialist"
+    },
+    {
+      "id": "s17",
+      "title": "Nordzucker – konec výroby cukru na Slovensku po kampani 2025/26 (5. 2. 2026)",
+      "url": "https://www.nordzucker.com/en/news/strategic-transformation-nordzucker-ends-sugar-production-in-slovakia",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "OpenStreetMap – areál Považského cukrovaru",
+      "url": "https://www.openstreetmap.org/way/72350655",
+      "type": "other"
+    },
+    {
+      "id": "s19",
+      "title": "Obec Trenčianska Teplá – osvobození obce v dubnu 1945",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "Kronika obce Trenčianska Teplá 2011 – pomník padlým a rumunští vojáci",
+      "url": "https://www.trencianskatepla.sk/modules/file_storage/download.php?file=30f0a88b%7C111",
+      "type": "archive"
+    },
+    {
+      "id": "s21",
+      "title": "Obec Trenčianska Teplá – pomník padlých hrdinů a jeho historie",
+      "url": "https://www.trencianskatepla.sk/seniori/obec-2/zivot-v-obci/fotogaleria/obec-trencianska-tepla-v-sucastnosti/obec-trencianska-tepla-v-sucastnosti-99sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s22",
+      "title": "Turistika.cz – pomník padlých hrdinů v Trenčianské Teplé, GPS poloha",
+      "url": "https://www.turistika.cz/mista/trencianska-tepla-pomnik-padlym-vo-vojne/detail",
+      "type": "regional"
+    },
+    {
+      "id": "s23",
+      "title": "Obec Trenčianska Teplá – kronika osvobozovacích bojů a obětí",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s24",
+      "title": "Obec Trenčianska Teplá – Teplanský kroj",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/teplansky-kroj/",
+      "type": "official"
+    },
+    {
+      "id": "s25",
+      "title": "Obec Trenčianska Teplá – folklorní soubor Teplanka",
+      "url": "https://www.trencianskatepla.sk/obec-2/zivot-v-obci/organizacie-v-obci/folklorny-subor-teplanka/",
+      "type": "official"
+    },
+    {
+      "id": "s26",
+      "title": "Trenčianske osvetové stredisko – folklorní soubor Teplanka",
+      "url": "https://www.tnos.sk/buxus/docs/KS%202010.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s27",
+      "title": "Trenčianske múzeum – malíř František Viktor Podolay a jeho díla z regionu",
+      "url": "https://www.muzeumtn.sk/hlavna-stranka/aktuality/vzacne-obohatenie-zbierok-trencianskeho-muzea.html?page_id=22451",
+      "type": "museum"
+    },
+    {
+      "id": "s28",
+      "title": "Obec Trenčianska Teplá – malíři a osobnosti obce",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s29",
+      "title": "Obec Trenčianska Teplá – místní části a první písemné zmínky",
+      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
+      "type": "official"
+    },
+    {
+      "id": "s30",
+      "title": "Pamiatky na Slovensku – Dobrá, kostel Povýšení sv. Kříže",
+      "url": "https://www.pamiatkynaslovensku.sk/dobra-trencianska-tepla-kostol-povysenia-sv-kriza",
+      "type": "specialist"
+    },
+    {
+      "id": "s31",
+      "title": "OpenStreetMap – kostel sv. Matouše, Trenčianska Teplá",
+      "url": "https://www.openstreetmap.org/way/320203090",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Trenčianska Teplá – centrum obce u obecního úřadu M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tři historická sídla jednoho poštovního území: Teplá, Dobrá a Príles",
+          "text": "Současná Trenčianska Teplá zahrnuje tři historická sídla s odlišným vývojem. Samotná Teplá je písemně doložena roku 1355 pod názvem Topla, šlechtický Príles roku 1351 a Dobrá už roku 1113 v Zoborské listině. Príles byl k Trenčianské Teplé připojen v roce 1913, zatímco Dobrá zůstala samostatnou obcí až do roku 1971. Dobrá byla přitom starším církevním a správním centrem než samotná Teplá; její dějiny proto tvoří podstatnou část identity dnešní obce."
+        },
+        {
+          "id": "fact_002",
+          "title": "Pravěké a raně středověké nálezy – žárový hrob, hradiště a velkomoravská ostruha",
+          "text": "Území Trenčianské Teplé bylo osídleno už v mladším paleolitu. Roku 1936 byl při stavbě domu nalezen žárový hrob lužické kultury z pozdní doby bronzové s popelnicí, bronzovou jehlicí, břitvou, spirálovitými trubičkami a dalšími předměty; nálezy jsou uloženy v Trenčínském muzeu. V lokalitě Podhradište se našla slovanská keramika z 9.–10. století a z Čertovy skály pochází železná jezdecká ostruha z velkomoravského období. Na Podhradišti jsou patrné také valy pravěkého hradiště."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – středověké děkanství a stará zvonice s gotickým zvonem",
+          "text": "Dobrá je písemně doložena roku 1113; fara zde existovala nejpozději roku 1310 a kostel sv. Kříže je uveden v soupisu z roku 1324. Roku 1332 se trenčínský děkanát rozdělil na závažský a dobranský, přičemž Dobrá zůstala děkanským sídlem až do roku 1952. Obecní pramen ji označuje za místo jednoho z nejstarších románských kostelů na Pováží. Dnešní kostel Nalezení a Povýšení sv. Kříže byl postaven roku 1900 na místě staršího barokního chrámu; u něj stojí stará zvonice se zvonem datovaným rokem 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – šlechtické sídlo rodu Príleských a zanikající klasicistní kúrie",
+          "text": "Príles byl od středověku kuriální obcí a sídlem šlechtických rodin; nejstarší listina o něm pochází z roku 1351. Rod Príleských zde držel majetky po generace a jeho člen Ján se stal jezuitským a později piaristickým duchovním spisovatelem. V druhé polovině 19. století užíval zdejší kúrii jako letní sídlo baron Filip Skrbenský, který se podílel i na založení dobrovolného hasičského sboru v Teplé roku 1884. Československá obec legionářská koupila kaštieľ roku 1924 a v roce 1927 zde zřídila zotavovnu. Po necitlivých poválečných zásazích zůstaly jen malé fragmenty; zachovala se zvonice se zvonem z roku 1660 a část kaple s gotickým oknem."
+        },
+        {
+          "id": "fact_005",
+          "title": "Barokní kostel sv. Matouše – stavba z let 1733–1752",
+          "text": "Dominantou Trenčianské Teplé je římskokatolický kostel sv. Matouše, jehož základní kámen byl položen 21. dubna 1733. Stavbu finančně podporoval hrabě Juraj Illésházy a dokončena byla roku 1752 za faráře Jána Ďuriše. Kostel byl vysvěcen roku 1789 nitranským biskupem Františkem Xaverem Fuchsem. Třetí zvon přibyl roku 1797, boční oltáře byly zhotoveny roku 1803 a věžní hodiny z roku 1794 daroval Ján Illésházy. Jednolodní barokní stavba s polygonálním presbytářem je zapsána v Ústředním seznamu památkového fondu SR."
+        },
+        {
+          "id": "fact_006",
+          "title": "Železniční uzel a elektrická úzkokolejka do Trenčianských Teplic",
+          "text": "Železniční stanice v Trenčianské Teplé byla vybudována roku 1883 a obec se díky poloze na hlavním tahu Povážím stala důležitým železničním uzlem. V roce 1908 začala stavba elektrické úzkokolejky do lázní Trenčianske Teplice; provoz na trati dlouhé 5,9 km s rozchodem 760 mm byl zahájen 27. července 1909. Trať měla jednu stanici, dvě zastávky, jediný železobetonový most a 44 úrovňových přejezdů. Napájena byla stejnosměrným proudem 750 V. Odbočovala přímo z prostoru stanice Trenčianska Teplá a stala se charakteristickým technickým symbolem obce."
+        },
+        {
+          "id": "fact_007",
+          "title": "Považský cukrovar – 125 let průmyslové historie a proměna areálu v roce 2026",
+          "text": "Základní kámen Považského cukrovaru byl položen 28. září 1900 a první cukrovarnická kampaň začala 17. října 1901. Trvala 137 dní a zpracovalo se během ní 87 710 tun řepy. Závod zaměstnával 66 stálých pracovníků a 84 nájemních dělníků; během řepné kampaně počet pracovníků stoupal až k 700 sezónním zaměstnancům. Cukrovar zásadně formoval život obce – vznikla zaměstnanecká ubytovna, prádelna, lázně i kantýna s kulturními akcemi. Nordzucker v únoru 2026 oznámil ukončení výroby cukru po kampani 2025/26; areál má dále fungovat jako obchodně-logistické centrum."
+        },
+        {
+          "id": "fact_008",
+          "title": "Osvobození 26. dubna 1945 – boje u cukrovaru, nádraží a Prílesu",
+          "text": "Na konci druhé světové války se o Trenčianskou Teplou tvrdě bojovalo. V dubnu 1945 probíhaly střety zejména v okolí cukrovaru, železniční stanice a Prílesu; německé dělostřelectvo rozmístěné na Skaliskách, Háji a Dubovci zpomalovalo postup osvobozovacích jednotek. Německé jednotky před ústupem zničily silniční mosty a zapálily překladiště nákladního depa. Obec osvobodily 26. dubna 1945 v ranních hodinách jednotky rumunské armády. Na území obce zahynulo 15 rumunských vojáků a během bojů přišlo o život také deset místních obyvatel."
+        },
+        {
+          "id": "fact_009",
+          "title": "Pomník padlým hrdinům – dílo Vojtecha Ihriského z roku 1928",
+          "text": "V centru Trenčianské Teplé stojí pomník padlým hrdinům, který vytvořil akademický sochař Vojtech Ihriský. Slavnostně byl odhalen 28. října 1928 na počest 75 obyvatel obce, kteří zahynuli v bojích první světové války. Později na něj přibyla také jména deseti místních obyvatel, kteří přišli o život během osvobozovacích bojů v dubnu 1945. Pomník se tak proměnil v hlavní místní pamětní místo obětí obou světových válek a připomínku osvobození obce."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianská Teplá jako inspirace malířů – Mánes, Aleš, Úprka a místní rodáci",
+          "text": "Lidový kroj a každodenní život v Trenčianské Teplé přitahovaly malíře už na přelomu 19. a 20. století. Obecní přehled uvádí, že sem přijížděli Josef Mánes, Mikoláš Aleš a Joža Úprka, aby zachytili místní kroje a krajinu. František Viktor Podolay, narozený ve Slopné, maloval ve 30. letech v regionu krojované postavy z Teplé a výjevy z rolnického života. Přímo v Trenčianské Teplé se narodili malíři Štefan Straka a Ján Šandora, kteří na svých plátnech zachycovali místní obyvatele, kroje i okolní krajinu."
+        },
+        {
+          "id": "fact_011",
+          "title": "Teplanský kroj a soubor Teplanka – výšivka a písně Pováží",
+          "text": "Trenčianská Teplá je významnou národopisnou lokalitou díky mužskému a ženskému Teplanskému kroji. Jeho charakteristickým prvkem je pestrobarevná výšivka na rukávcích a zástěře s geometrickými, květinovými i zvířecími motivy, například pávem, kohoutem a ptáky. Místní ženy kroj dodnes uchovávají a předávají jeho techniky dalším generacím. Folklorní soubor Teplanka, založený roku 1960, sbírá a uvádí místní písně, tance a obyčeje; k regionální hudební tradici patří také dechová hudba Dobranka."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Trenčianska Teplá – Ortszentrum beim Gemeindeamt M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Drei historische Siedlungen eines Postgebiets: Teplá, Dobrá und Príles",
+          "text": "Die heutige Gemeinde Trenčianska Teplá umfasst drei historisch unterschiedliche Siedlungen. Teplá ist seit 1355 unter dem Namen Topla belegt, der Adelssitz Príles seit 1351 und Dobrá bereits 1113 in der Zoborer Urkunde. Príles wurde 1913 an Trenčianska Teplá angeschlossen, Dobrá blieb bis 1971 eine selbstständige Gemeinde. Dobrá war ein älteres kirchliches und administratives Zentrum als Teplá selbst; ihre Geschichte ist daher ein wesentlicher Teil der Identität der heutigen Gemeinde."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prähistorische und frühmittelalterliche Funde – Brandgrab, Burgwall und großmährischer Sporn",
+          "text": "Das Gebiet von Trenčianska Teplá war bereits im Jungpaläolithikum besiedelt. 1936 wurde beim Hausbau ein Brandgrab der Lausitzer Kultur aus der späten Bronzezeit entdeckt, mit Urne, Bronzenadel, Rasiermesser, Spiralen und weiteren Gegenständen; die Funde werden im Museum Trenčín aufbewahrt. In Podhradište fand man slawische Keramik aus dem 9.–10. Jahrhundert, von Čertova skala stammt ein eiserner Reitersporn aus großmährischer Zeit. Auf Podhradište sind außerdem Wälle einer prähistorischen befestigten Siedlung sichtbar."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – mittelalterlicher Dekanatssitz und alter Glockenturm mit gotischer Glocke",
+          "text": "Dobrá ist seit 1113 schriftlich belegt; eine Pfarrei bestand spätestens 1310, und die Kirche des Heiligen Kreuzes wird 1324 erwähnt. 1332 wurde das Dekanat Trenčín in ein Waag-rechtes und ein Dobrá-Dekanat geteilt; Dobrá blieb bis 1952 Dekanatssitz. Die Gemeinde bezeichnet den Ort als Standort einer der ältesten romanischen Kirchen im Waagtal. Die heutige Kirche der Auffindung und Erhöhung des Heiligen Kreuzes wurde 1900 an der Stelle eines älteren Barockbaus errichtet; daneben steht ein alter Glockenturm mit einer auf 1516 datierten Glocke."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – Adelssitz der Familie Príleský und verfallendes klassizistisches Herrenhaus",
+          "text": "Príles war seit dem Mittelalter ein kurialer Adelssitz; die älteste Urkunde über den Ort stammt aus dem Jahr 1351. Die Familie Príleský besaß hier über Generationen Güter; ein Familienmitglied, Ján, wurde Jesuit und später Piarist sowie geistlicher Schriftsteller. In der zweiten Hälfte des 19. Jahrhunderts nutzte Baron Filip Skrbenský das Herrenhaus als Sommerresidenz und beteiligte sich 1884 an der Gründung der Freiwilligen Feuerwehr in Teplá. Die Tschechoslowakische Legionärsgemeinschaft kaufte das Schloss 1924 und richtete 1927 ein Erholungsheim ein. Nach unsensiblen Nachkriegsumbauten blieben nur kleine Fragmente; erhalten sind ein Glockenturm mit einer Glocke von 1660 und ein Teil der Kapelle mit gotischem Fenster."
+        },
+        {
+          "id": "fact_005",
+          "title": "Barocke Kirche des heiligen Matthäus – Bauzeit 1733–1752",
+          "text": "Die römisch-katholische Kirche des heiligen Matthäus ist das Wahrzeichen von Trenčianska Teplá. Der Grundstein wurde am 21. April 1733 gelegt. Graf Juraj Illésházy unterstützte den Bau finanziell; fertiggestellt wurde er 1752 unter Pfarrer Ján Ďuriš. 1789 weihte Bischof František Xaver Fuchs die Kirche. 1797 kam eine dritte Glocke hinzu, die Seitenaltäre entstanden 1803 und die Turmuhr von 1794 wurde von Ján Illésházy gestiftet. Der einschiffige Barockbau mit polygonalem Chor ist im Zentralen Denkmalverzeichnis der Slowakei eingetragen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Eisenbahnknoten und elektrische Schmalspurbahn nach Trenčianske Teplice",
+          "text": "Der Bahnhof Trenčianska Teplá wurde 1883 gebaut; dank seiner Lage an der Hauptstrecke durch das Waagtal entwickelte sich die Gemeinde zu einem wichtigen Eisenbahnknoten. 1908 begann der Bau einer elektrischen Schmalspurbahn zum Kurort Trenčianske Teplice; der Betrieb auf der 5,9 km langen Strecke mit 760-mm-Spurweite wurde am 27. Juli 1909 aufgenommen. Die Strecke hatte einen Bahnhof, zwei Haltestellen, eine Stahlbetonbrücke und 44 niveaugleiche Bahnübergänge. Sie wurde mit 750 V Gleichstrom betrieben und zweigte direkt im Bahnhofsbereich von Trenčianska Teplá ab."
+        },
+        {
+          "id": "fact_007",
+          "title": "Považský Zuckerfabrik – 125 Jahre Industriegeschichte und Umwandlung des Geländes 2026",
+          "text": "Der Grundstein der Považský-Zuckerfabrik wurde am 28. September 1900 gelegt; die erste Kampagne begann am 17. Oktober 1901. Sie dauerte 137 Tage und verarbeitete 87.710 Tonnen Zuckerrüben. Der Betrieb beschäftigte 66 Festangestellte und 84 Lohnarbeiter; während der Rübenkampagne stieg die Zahl auf bis zu 700 Saisonkräfte. Die Fabrik prägte das Gemeindeleben – es entstanden Arbeiterunterkünfte, Wäscherei, Badehaus und eine Kantine mit Kulturveranstaltungen. Nordzucker kündigte im Februar 2026 an, die Zuckerproduktion nach der Kampagne 2025/26 einzustellen; das Gelände soll als Handels- und Logistikzentrum weiterbetrieben werden."
+        },
+        {
+          "id": "fact_008",
+          "title": "Befreiung am 26. April 1945 – Kämpfe bei Zuckerfabrik, Bahnhof und Príles",
+          "text": "Am Ende des Zweiten Weltkriegs wurde um Trenčianska Teplá heftig gekämpft. Im April 1945 fanden die schwersten Gefechte in der Umgebung der Zuckerfabrik, des Bahnhofs und von Príles statt; deutsche Artillerie auf Skaliská, Háj und Dubovec verzögerte den Vormarsch der Befreier. Vor dem Rückzug zerstörten deutsche Einheiten Straßenbrücken und setzten das Umschlaglager des Güterdepots in Brand. Rumänische Truppen befreiten die Gemeinde am Morgen des 26. April 1945. Auf dem Gemeindegebiet starben 15 rumänische Soldaten und zehn Einwohner."
+        },
+        {
+          "id": "fact_009",
+          "title": "Denkmal für die Gefallenen – Werk von Vojtech Ihriský aus dem Jahr 1928",
+          "text": "Im Zentrum von Trenčianska Teplá steht ein Denkmal für die Gefallenen, geschaffen vom akademischen Bildhauer Vojtech Ihriský. Es wurde am 28. Oktober 1928 feierlich enthüllt und erinnert an 75 Einwohner, die im Ersten Weltkrieg starben. Später wurden auch die Namen von zehn Einwohnern ergänzt, die während der Befreiungskämpfe im April 1945 ums Leben kamen. Das Denkmal entwickelte sich damit zum wichtigsten örtlichen Erinnerungsort für die Opfer beider Weltkriege und die Befreiung der Gemeinde."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá als Inspiration für Maler – Mánes, Aleš, Úprka und lokale Künstler",
+          "text": "Die Volkstracht und das Alltagsleben in Trenčianska Teplá zogen um die Wende vom 19. zum 20. Jahrhundert Maler an. Laut Gemeinde kamen Josef Mánes, Mikoláš Aleš und Joža Úprka hierher, um Trachten und Landschaft festzuhalten. František Viktor Podolay, geboren in Slopná, malte in den 1930er Jahren in der Region Trachtenfiguren aus Teplá und Szenen des bäuerlichen Lebens. In Trenčianska Teplá selbst wurden die Maler Štefan Straka und Ján Šandora geboren; sie stellten Einwohner, Trachten und die Umgebung dar."
+        },
+        {
+          "id": "fact_011",
+          "title": "Teplanský Tracht und Ensemble Teplanka – Stickerei und Lieder des Waagtals",
+          "text": "Trenčianska Teplá ist wegen ihrer Männer- und Frauentracht ein bedeutender volkskundlicher Ort. Kennzeichnend ist die farbenfrohe Stickerei auf Ärmeln und Schürzen mit geometrischen, floralen und tierischen Motiven, etwa Pfau, Hahn und Vögeln. Die Frauen des Ortes bewahren die Tracht bis heute und geben die Techniken weiter. Das 1960 gegründete Folkloreensemble Teplanka sammelt und präsentiert örtliche Lieder, Tänze und Bräuche; zur regionalen Musiktradition gehört auch die Blaskapelle Dobranka."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Trenčianska Teplá – village centre by the municipal office at M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Three historic settlements in one postal area: Teplá, Dobrá and Príles",
+          "text": "Today's municipality of Trenčianska Teplá comprises three settlements with distinct histories. Teplá is documented from 1355 under the name Topla, the noble seat of Príles from 1351, and Dobrá as early as 1113 in the Zobor charter. Príles was incorporated into Trenčianska Teplá in 1913, while Dobrá remained an independent municipality until 1971. Dobrá was an older ecclesiastical and administrative centre than Teplá itself, so its history is an essential part of the present municipality’s identity."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prehistoric and early medieval finds – cremation grave, hillfort and Great Moravian spur",
+          "text": "The area of Trenčianska Teplá was inhabited as early as the Upper Palaeolithic. In 1936, a cremation grave of the Lusatian culture from the Late Bronze Age was discovered during house construction; it contained an urn, bronze pin, razor, spiral tubes and other objects, now held by the Trenčín Museum. Slavic pottery from the 9th–10th centuries was found at Podhradište, while Čertova skala yielded an iron spur from the Great Moravian period. Remains of a prehistoric hillfort are also visible at Podhradište."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – medieval deanery seat and old bell tower with a Gothic bell",
+          "text": "Dobrá is documented from 1113; a parish existed by 1310, and the Church of the Holy Cross is listed in 1324. In 1332 the Trenčín deanery was divided into the Waag-right and Dobrá deaneries; Dobrá remained a deanery seat until 1952. The municipality describes it as the site of one of the oldest Romanesque churches in the Váh region. The present Church of the Finding and Exaltation of the Holy Cross was built in 1900 on the site of an older Baroque building; beside it stands an old bell tower with a bell dated 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – noble seat of the Príleský family and a vanishing Neoclassical manor",
+          "text": "Príles was a noble curial settlement and estate from the Middle Ages; its earliest charter dates from 1351. The Príleský family held property here for generations; one member, Ján, became a Jesuit and later a Piarist and religious writer. In the second half of the 19th century, Baron Filip Skrbenský used the manor as a summer residence and helped establish the volunteer fire brigade in Teplá in 1884. The Czechoslovak Legionary Association bought the manor in 1924 and opened a rest home there in 1927. Insensitive post-war alterations left only small fragments; the surviving features include a bell tower with a 1660 bell and part of the chapel wall with a Gothic window."
+        },
+        {
+          "id": "fact_005",
+          "title": "Baroque Church of St Matthew – built between 1733 and 1752",
+          "text": "The Roman Catholic Church of St Matthew is the landmark of Trenčianska Teplá. Its foundation stone was laid on 21 April 1733. Count Juraj Illésházy supported the construction financially; it was completed in 1752 under parish priest Ján Ďuriš. Bishop František Xaver Fuchs consecrated the church in 1789. A third bell was added in 1797, the side altars were made in 1803 and the 1794 tower clock was donated by Ján Illésházy. The single-nave Baroque building with a polygonal sanctuary is listed in Slovakia’s Central Register of Monuments."
+        },
+        {
+          "id": "fact_006",
+          "title": "Railway junction and electric narrow-gauge line to Trenčianske Teplice",
+          "text": "The Trenčianska Teplá railway station was built in 1883; its position on the main line through the Váh valley made the municipality an important railway junction. Construction of an electric narrow-gauge railway to the spa town of Trenčianske Teplice began in 1908; service on the 5.9 km, 760 mm-gauge line started on 27 July 1909. The line had one station, two stops, one reinforced-concrete bridge and 44 level crossings. It was powered by 750 V direct current and branched directly from the station area at Trenčianska Teplá."
+        },
+        {
+          "id": "fact_007",
+          "title": "Považský Sugar Factory – 125 years of industrial history and the site’s 2026 transformation",
+          "text": "The foundation stone of the Považský sugar factory was laid on 28 September 1900, and its first campaign began on 17 October 1901. It lasted 137 days and processed 87,710 tonnes of sugar beet. The factory employed 66 permanent staff and 84 hired workers; during the beet campaign, the workforce rose to as many as 700 seasonal workers. The plant shaped local life, with workers’ accommodation, a laundry, bathhouse and canteen hosting cultural events. In February 2026, Nordzucker announced that sugar production would end after the 2025/26 campaign and the site would continue as a commercial and logistics hub."
+        },
+        {
+          "id": "fact_008",
+          "title": "Liberation on 26 April 1945 – fighting near the sugar factory, station and Príles",
+          "text": "At the end of the Second World War, heavy fighting took place around Trenčianska Teplá. In April 1945, the main clashes occurred near the sugar factory, railway station and Príles; German artillery positioned on Skaliská, Háj and Dubovec slowed the advance of the liberating forces. Before retreating, German units destroyed road bridges and set fire to the freight depot’s transfer warehouse. Romanian troops liberated the municipality on the morning of 26 April 1945. Fifteen Romanian soldiers and ten local residents died within the municipality."
+        },
+        {
+          "id": "fact_009",
+          "title": "Memorial to the fallen – a 1928 work by Vojtech Ihriský",
+          "text": "In the centre of Trenčianska Teplá stands a memorial to the fallen, created by academic sculptor Vojtech Ihriský. It was ceremonially unveiled on 28 October 1928 in honour of 75 local residents who died in the First World War. The names of ten residents who lost their lives during the liberation battles in April 1945 were later added. The memorial thus became the municipality’s principal place of remembrance for the victims of both world wars and the liberation."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá as an inspiration to painters – Mánes, Aleš, Úprka and local artists",
+          "text": "The folk costume and everyday life of Trenčianska Teplá attracted painters around the turn of the 20th century. According to the municipality, Josef Mánes, Mikoláš Aleš and Joža Úprka visited to capture local costumes and landscapes. František Viktor Podolay, born in Slopná, painted people in Teplá’s folk dress and scenes of rural life in the region during the 1930s. Painters Štefan Straka and Ján Šandora were born in Trenčianska Teplá itself and depicted local people, costumes and scenery."
+        },
+        {
+          "id": "fact_011",
+          "title": "The Teplanský folk costume and Teplanka ensemble – embroidery and songs of the Váh region",
+          "text": "Trenčianska Teplá is an important ethnographic locality thanks to its men’s and women’s folk costumes. Their distinctive feature is colourful embroidery on sleeves and aprons, with geometric, floral and animal motifs such as peacocks, roosters and birds. Local women continue to preserve the costumes and pass on the techniques. The Teplanka folklore ensemble, founded in 1960, collects and performs local songs, dances and customs; the Dobranka brass band is also part of the region’s musical tradition."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Trenčianska Teplá – centro del municipio junto al ayuntamiento, M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tres asentamientos históricos en un mismo territorio postal: Teplá, Dobrá y Príles",
+          "text": "El municipio actual de Trenčianska Teplá reúne tres asentamientos con historias distintas. Teplá está documentada desde 1355 con el nombre de Topla, la sede nobiliaria de Príles desde 1351 y Dobrá ya en 1113, en la carta de Zobor. Príles se incorporó a Trenčianska Teplá en 1913, mientras que Dobrá siguió siendo municipio independiente hasta 1971. Dobrá fue un centro eclesiástico y administrativo más antiguo que la propia Teplá, por lo que su historia es esencial para la identidad del municipio actual."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hallazgos prehistóricos y altomedievales: tumba de incineración, recinto fortificado y espuela granmorava",
+          "text": "El territorio de Trenčianska Teplá estuvo habitado ya en el Paleolítico superior. En 1936, durante la construcción de una casa, se descubrió una tumba de incineración de la cultura de Lusacia de la Edad del Bronce tardía, con urna, alfiler de bronce, navaja, tubos en espiral y otros objetos, hoy conservados en el Museo de Trenčín. En Podhradište se encontró cerámica eslava de los siglos IX–X, y en Čertova skala apareció una espuela de hierro de época granmorava. En Podhradište también se observan restos de un recinto fortificado prehistórico."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá: antigua sede de decanato medieval y campanario con campana gótica",
+          "text": "Dobrá está documentada desde 1113; en 1310 ya existía una parroquia y la iglesia de la Santa Cruz aparece en un inventario de 1324. En 1332 el decanato de Trenčín se dividió en los decanatos de la derecha del Váh y de Dobrá; este último mantuvo su sede en Dobrá hasta 1952. El municipio la describe como lugar de una de las iglesias románicas más antiguas de la región del Váh. La actual iglesia de la Invención y Exaltación de la Santa Cruz se construyó en 1900 en el lugar de un edificio barroco anterior; junto a ella se conserva un antiguo campanario con una campana fechada en 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles: señorío de la familia Príleský y una casa señorial neoclásica en ruinas",
+          "text": "Príles fue desde la Edad Media una localidad señorial y sede de familias nobles; su documento más antiguo data de 1351. La familia Príleský poseyó propiedades aquí durante generaciones; uno de sus miembros, Ján, fue jesuita y más tarde escolapio y escritor religioso. En la segunda mitad del siglo XIX, el barón Filip Skrbenský utilizó la casa señorial como residencia de verano y contribuyó a fundar el cuerpo de bomberos voluntarios de Teplá en 1884. La Asociación de Legionarios Checoslovacos compró la mansión en 1924 y abrió allí una casa de reposo en 1927. Las reformas posteriores a la guerra dejaron solo pequeños fragmentos; se conservan un campanario con campana de 1660 y parte del muro de la capilla con ventana gótica."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia barroca de san Mateo: construida entre 1733 y 1752",
+          "text": "La iglesia católica romana de san Mateo es el edificio emblemático de Trenčianska Teplá. La primera piedra se colocó el 21 de abril de 1733. El conde Juraj Illésházy financió parte de la construcción, terminada en 1752 durante el ministerio del párroco Ján Ďuriš. El obispo František Xaver Fuchs consagró la iglesia en 1789. En 1797 se añadió una tercera campana, los altares laterales se realizaron en 1803 y el reloj de la torre de 1794 fue donado por Ján Illésházy. El edificio barroco de una sola nave y presbiterio poligonal está inscrito en el Registro Central de Monumentos de Eslovaquia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Nudo ferroviario y ferrocarril eléctrico de vía estrecha a Trenčianske Teplice",
+          "text": "La estación ferroviaria de Trenčianska Teplá se construyó en 1883; su ubicación en la línea principal del valle del Váh convirtió al municipio en un importante nudo ferroviario. En 1908 comenzó la construcción de un ferrocarril eléctrico de vía estrecha hacia el balneario de Trenčianske Teplice; el servicio en la línea de 5,9 km y ancho de 760 mm comenzó el 27 de julio de 1909. La línea tenía una estación, dos paradas, un puente de hormigón armado y 44 pasos a nivel. Funcionaba con corriente continua de 750 V y salía directamente de la zona de la estación de Trenčianska Teplá."
+        },
+        {
+          "id": "fact_007",
+          "title": "Azucarera Považský: 125 años de historia industrial y transformación del recinto en 2026",
+          "text": "La primera piedra de la azucarera Považský se colocó el 28 de septiembre de 1900 y la primera campaña comenzó el 17 de octubre de 1901. Duró 137 días y procesó 87.710 toneladas de remolacha azucarera. La fábrica empleaba a 66 trabajadores fijos y 84 contratados; durante la campaña de remolacha la plantilla llegaba a 700 trabajadores temporales. La fábrica transformó la vida local: creó alojamientos para empleados, lavandería, baños y un comedor con actos culturales. En febrero de 2026, Nordzucker anunció que la producción de azúcar terminaría tras la campaña 2025/26 y que el recinto seguiría funcionando como centro comercial y logístico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Liberación del 26 de abril de 1945: combates junto a la azucarera, la estación y Príles",
+          "text": "Al final de la Segunda Guerra Mundial se libraron duros combates en torno a Trenčianska Teplá. En abril de 1945, los principales enfrentamientos tuvieron lugar cerca de la azucarera, la estación ferroviaria y Príles; la artillería alemana situada en Skaliská, Háj y Dubovec ralentizó el avance de las fuerzas liberadoras. Antes de retirarse, las unidades alemanas destruyeron puentes de carretera e incendiaron el almacén de transbordo del depósito de mercancías. Las tropas rumanas liberaron el municipio la mañana del 26 de abril de 1945. Murieron quince soldados rumanos y diez habitantes locales."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monumento a los caídos: obra de Vojtech Ihriský de 1928",
+          "text": "En el centro de Trenčianska Teplá se encuentra un monumento a los caídos, obra del escultor académico Vojtech Ihriský. Fue inaugurado solemnemente el 28 de octubre de 1928 en honor a 75 habitantes que murieron en la Primera Guerra Mundial. Más tarde se añadieron también los nombres de diez vecinos que perdieron la vida durante los combates de liberación de abril de 1945. El monumento se convirtió así en el principal lugar de memoria del municipio para las víctimas de ambas guerras mundiales y de la liberación."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá como inspiración para pintores: Mánes, Aleš, Úprka y artistas locales",
+          "text": "El traje popular y la vida cotidiana de Trenčianska Teplá atrajeron a pintores a finales del siglo XIX y comienzos del XX. Según el municipio, Josef Mánes, Mikoláš Aleš y Joža Úprka visitaron el lugar para representar los trajes y el paisaje. František Viktor Podolay, nacido en Slopná, pintó en la región figuras vestidas con el traje de Teplá y escenas de la vida campesina durante los años treinta. Los pintores Štefan Straka y Ján Šandora nacieron en la propia Trenčianska Teplá y representaron a sus habitantes, sus trajes y el entorno."
+        },
+        {
+          "id": "fact_011",
+          "title": "El traje tradicional Teplanský y el conjunto Teplanka: bordado y canciones del valle del Váh",
+          "text": "Trenčianska Teplá es una localidad etnográfica importante gracias a sus trajes tradicionales masculinos y femeninos. Su rasgo distintivo es el bordado multicolor de mangas y delantales, con motivos geométricos, florales y animales como pavos reales, gallos y pájaros. Las mujeres locales siguen conservando los trajes y transmitiendo las técnicas. El conjunto folclórico Teplanka, fundado en 1960, recopila e interpreta canciones, bailes y costumbres locales; la banda de viento Dobranka también forma parte de la tradición musical regional."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Trenčianska Teplá – centre du village près de la mairie, M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Trois localités historiques dans un même territoire postal : Teplá, Dobrá et Príles",
+          "text": "La commune actuelle de Trenčianska Teplá regroupe trois localités à l’histoire distincte. Teplá est attestée depuis 1355 sous le nom de Topla, le siège noble de Príles depuis 1351 et Dobrá dès 1113 dans la charte de Zobor. Príles fut rattaché à Trenčianska Teplá en 1913, tandis que Dobrá resta une commune indépendante jusqu’en 1971. Dobrá fut un centre ecclésiastique et administratif plus ancien que Teplá elle-même ; son histoire est donc essentielle à l’identité de la commune actuelle."
+        },
+        {
+          "id": "fact_002",
+          "title": "Découvertes préhistoriques et du haut Moyen Âge – tombe à incinération, oppidum et éperon grand-morave",
+          "text": "Le territoire de Trenčianska Teplá était habité dès le Paléolithique supérieur. En 1936, lors de la construction d’une maison, une tombe à incinération de la culture de Lusace datant de l’âge du bronze final fut découverte, avec une urne, une épingle en bronze, un rasoir, des tubes spiralés et d’autres objets, aujourd’hui conservés au musée de Trenčín. Des céramiques slaves des IXe–Xe siècles furent trouvées à Podhradište ; Čertova skala a livré un éperon de fer de l’époque de la Grande-Moravie. Des vestiges de remparts d’un habitat fortifié préhistorique sont également visibles à Podhradište."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – ancien siège du doyenné médiéval et vieux clocher à cloche gothique",
+          "text": "Dobrá est attestée depuis 1113 ; une paroisse y existait au plus tard en 1310 et l’église de la Sainte-Croix figure dans un inventaire de 1324. En 1332, le doyenné de Trenčín fut divisé en doyennés de la rive droite du Váh et de Dobrá ; ce dernier conserva son siège à Dobrá jusqu’en 1952. La commune y situe l’une des plus anciennes églises romanes de la vallée du Váh. L’église actuelle de l’Invention et de l’Exaltation de la Sainte-Croix fut construite en 1900 à l’emplacement d’un édifice baroque plus ancien ; un ancien clocher voisin conserve une cloche datée de 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – siège noble de la famille Príleský et manoir néoclassique en ruine",
+          "text": "Príles fut dès le Moyen Âge un village seigneurial et le siège de familles nobles ; son plus ancien acte date de 1351. La famille Príleský y posséda des biens pendant plusieurs générations ; l’un de ses membres, Ján, devint jésuite puis piariste et écrivain religieux. Dans la seconde moitié du XIXe siècle, le baron Filip Skrbenský utilisa le manoir comme résidence d’été et contribua à la fondation des pompiers volontaires de Teplá en 1884. L’Association des légionnaires tchécoslovaques acheta le château en 1924 et y créa une maison de repos en 1927. Des transformations d’après-guerre n’ont laissé que de petits fragments ; subsistent un clocher avec une cloche de 1660 et une partie du mur de la chapelle avec une fenêtre gothique."
+        },
+        {
+          "id": "fact_005",
+          "title": "Église baroque Saint-Matthieu – construite entre 1733 et 1752",
+          "text": "L’église catholique romaine Saint-Matthieu est le monument emblématique de Trenčianska Teplá. Sa première pierre fut posée le 21 avril 1733. Le comte Juraj Illésházy contribua financièrement à sa construction, achevée en 1752 sous le curé Ján Ďuriš. L’évêque František Xaver Fuchs consacra l’église en 1789. Une troisième cloche fut ajoutée en 1797, les autels latéraux furent réalisés en 1803 et l’horloge de la tour de 1794 fut offerte par Ján Illésházy. L’édifice baroque à nef unique et chœur polygonal est inscrit au Registre central des monuments de Slovaquie."
+        },
+        {
+          "id": "fact_006",
+          "title": "Nœud ferroviaire et ligne électrique à voie étroite vers Trenčianske Teplice",
+          "text": "La gare de Trenčianska Teplá fut construite en 1883 ; sa situation sur la ligne principale de la vallée du Váh fit de la commune un important nœud ferroviaire. En 1908 commença la construction d’un chemin de fer électrique à voie étroite vers la station thermale de Trenčianske Teplice ; l’exploitation de la ligne de 5,9 km et d’écartement 760 mm débuta le 27 juillet 1909. La ligne comptait une gare, deux arrêts, un pont en béton armé et 44 passages à niveau. Elle était alimentée en courant continu de 750 V et partait directement de la zone de la gare de Trenčianska Teplá."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sucrerie Považský – 125 ans d’histoire industrielle et transformation du site en 2026",
+          "text": "La première pierre de la sucrerie Považský fut posée le 28 septembre 1900 et la première campagne commença le 17 octobre 1901. Elle dura 137 jours et transforma 87 710 tonnes de betteraves sucrières. L’usine employait 66 salariés permanents et 84 ouvriers embauchés ; pendant la campagne, l’effectif atteignait jusqu’à 700 saisonniers. La sucrerie transforma la vie locale : logements ouvriers, blanchisserie, bains et cantine avec activités culturelles furent créés. En février 2026, Nordzucker annonça la fin de la production de sucre après la campagne 2025/26 ; le site doit continuer comme centre commercial et logistique."
+        },
+        {
+          "id": "fact_008",
+          "title": "Libération du 26 avril 1945 – combats près de la sucrerie, de la gare et de Príles",
+          "text": "À la fin de la Seconde Guerre mondiale, de violents combats eurent lieu autour de Trenčianska Teplá. En avril 1945, les principaux affrontements se déroulèrent près de la sucrerie, de la gare et de Príles ; l’artillerie allemande installée sur Skaliská, Háj et Dubovec ralentit l’avancée des forces de libération. Avant leur retraite, les unités allemandes détruisirent les ponts routiers et incendièrent l’entrepôt de transbordement du dépôt de marchandises. Les troupes roumaines libérèrent la commune le matin du 26 avril 1945. Quinze soldats roumains et dix habitants périrent sur le territoire communal."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monument aux morts – œuvre de Vojtech Ihriský datant de 1928",
+          "text": "Au centre de Trenčianska Teplá se trouve un monument aux morts, œuvre du sculpteur académique Vojtech Ihriský. Il fut inauguré le 28 octobre 1928 en hommage à 75 habitants morts pendant la Première Guerre mondiale. Les noms de dix habitants tués lors des combats de libération d’avril 1945 furent ajoutés par la suite. Le monument est ainsi devenu le principal lieu de mémoire de la commune pour les victimes des deux guerres mondiales et la libération."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá, source d’inspiration des peintres – Mánes, Aleš, Úprka et artistes locaux",
+          "text": "Le costume populaire et la vie quotidienne de Trenčianska Teplá attirèrent des peintres au tournant des XIXe et XXe siècles. Selon la commune, Josef Mánes, Mikoláš Aleš et Joža Úprka vinrent y représenter les costumes et le paysage. František Viktor Podolay, né à Slopná, peignit dans la région des personnages en costume de Teplá et des scènes de la vie paysanne dans les années 1930. Les peintres Štefan Straka et Ján Šandora naquirent à Trenčianska Teplá même et représentèrent les habitants, les costumes et les paysages locaux."
+        },
+        {
+          "id": "fact_011",
+          "title": "Costume traditionnel Teplanský et ensemble Teplanka – broderie et chansons de la vallée du Váh",
+          "text": "Trenčianska Teplá est un lieu ethnographique important grâce à ses costumes traditionnels masculins et féminins. Leur trait distinctif est la broderie multicolore des manches et des tabliers, avec des motifs géométriques, floraux et animaliers comme le paon, le coq et les oiseaux. Les femmes du village conservent encore ces costumes et transmettent les techniques. L’ensemble folklorique Teplanka, fondé en 1960, collecte et interprète les chansons, danses et coutumes locales ; la fanfare Dobranka fait également partie de la tradition musicale régionale."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Trenčianska Teplá – centro del paese presso il municipio, M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tre insediamenti storici in un unico territorio postale: Teplá, Dobrá e Príles",
+          "text": "Il comune attuale di Trenčianska Teplá comprende tre insediamenti con storie distinte. Teplá è documentata dal 1355 con il nome Topla, la sede nobiliare di Príles dal 1351 e Dobrá già nel 1113 nella carta di Zobor. Príles fu annessa a Trenčianska Teplá nel 1913, mentre Dobrá rimase comune autonomo fino al 1971. Dobrá fu un centro ecclesiastico e amministrativo più antico della stessa Teplá; la sua storia è quindi essenziale per l’identità del comune attuale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Reperti preistorici e altomedievali – tomba a cremazione, fortezza e sperone della Grande Moravia",
+          "text": "Il territorio di Trenčianska Teplá era abitato già nel Paleolitico superiore. Nel 1936, durante la costruzione di una casa, fu scoperta una tomba a cremazione della cultura lusaziana della tarda età del bronzo, con urna, spillone di bronzo, rasoio, tubicini a spirale e altri oggetti, oggi conservati al Museo di Trenčín. A Podhradište sono state trovate ceramiche slave del IX–X secolo; da Čertova skala proviene uno sperone di ferro del periodo della Grande Moravia. A Podhradište sono inoltre visibili resti dei terrapieni di un insediamento fortificato preistorico."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – antica sede del decanato medievale e vecchio campanile con campana gotica",
+          "text": "Dobrá è documentata dal 1113; una parrocchia esisteva già nel 1310 e la chiesa della Santa Croce compare in un inventario del 1324. Nel 1332 il decanato di Trenčín fu diviso nei decanati della riva destra del Váh e di Dobrá; quest’ultimo mantenne la sede a Dobrá fino al 1952. Il comune la descrive come sede di una delle più antiche chiese romaniche della valle del Váh. L’attuale chiesa del Ritrovamento ed Esaltazione della Santa Croce fu costruita nel 1900 sul luogo di un edificio barocco precedente; accanto si trova un vecchio campanile con una campana datata 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – residenza nobiliare della famiglia Príleský e palazzo neoclassico in rovina",
+          "text": "Príles fu fin dal Medioevo un insediamento signorile e sede di famiglie nobili; il documento più antico risale al 1351. La famiglia Príleský possedette qui beni per generazioni; un suo membro, Ján, divenne gesuita e poi scolopio e scrittore religioso. Nella seconda metà del XIX secolo il barone Filip Skrbenský usò il palazzo come residenza estiva e contribuì alla fondazione dei vigili del fuoco volontari di Teplá nel 1884. L’Associazione dei Legionari cecoslovacchi acquistò il castello nel 1924 e vi aprì una casa di riposo nel 1927. Le trasformazioni del dopoguerra ne hanno lasciato solo piccoli frammenti; restano un campanile con una campana del 1660 e parte del muro della cappella con una finestra gotica."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chiesa barocca di San Matteo – costruita tra il 1733 e il 1752",
+          "text": "La chiesa cattolica romana di San Matteo è l’edificio simbolo di Trenčianska Teplá. La prima pietra fu posata il 21 aprile 1733. Il conte Juraj Illésházy sostenne finanziariamente la costruzione, completata nel 1752 sotto il parroco Ján Ďuriš. Il vescovo František Xaver Fuchs consacrò la chiesa nel 1789. Nel 1797 fu aggiunta una terza campana, gli altari laterali furono realizzati nel 1803 e l’orologio della torre del 1794 fu donato da Ján Illésházy. L’edificio barocco a navata unica e presbiterio poligonale è iscritto nel Registro centrale dei monumenti della Slovacchia."
+        },
+        {
+          "id": "fact_006",
+          "title": "Nodo ferroviario e ferrovia elettrica a scartamento ridotto per Trenčianske Teplice",
+          "text": "La stazione ferroviaria di Trenčianska Teplá fu costruita nel 1883; la sua posizione sulla linea principale della valle del Váh trasformò il comune in un importante nodo ferroviario. Nel 1908 iniziò la costruzione della ferrovia elettrica a scartamento ridotto verso la località termale di Trenčianske Teplice; il servizio sulla linea di 5,9 km e scartamento di 760 mm iniziò il 27 luglio 1909. La linea aveva una stazione, due fermate, un ponte in cemento armato e 44 passaggi a livello. Era alimentata a corrente continua di 750 V e partiva direttamente dall’area della stazione di Trenčianska Teplá."
+        },
+        {
+          "id": "fact_007",
+          "title": "Zuccherificio Považský – 125 anni di storia industriale e trasformazione del sito nel 2026",
+          "text": "La prima pietra dello zuccherificio Považský fu posata il 28 settembre 1900 e la prima campagna iniziò il 17 ottobre 1901. Durò 137 giorni e lavorò 87.710 tonnellate di barbabietole da zucchero. L’impianto impiegava 66 dipendenti fissi e 84 lavoratori assunti; durante la campagna il personale arrivava fino a 700 lavoratori stagionali. La fabbrica trasformò la vita locale, creando alloggi per i dipendenti, lavanderia, bagni e mensa con eventi culturali. Nel febbraio 2026 Nordzucker ha annunciato che la produzione di zucchero terminerà dopo la campagna 2025/26; il sito continuerà come centro commerciale e logistico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Liberazione del 26 aprile 1945 – combattimenti presso lo zuccherificio, la stazione e Príles",
+          "text": "Alla fine della Seconda guerra mondiale si combatterono duramente i dintorni di Trenčianska Teplá. Nell’aprile 1945 gli scontri principali si svolsero vicino allo zuccherificio, alla stazione ferroviaria e a Príles; l’artiglieria tedesca posizionata su Skaliská, Háj e Dubovec rallentò l’avanzata delle forze di liberazione. Prima della ritirata, le unità tedesche distrussero i ponti stradali e incendiarono il magazzino di trasbordo del deposito merci. Le truppe rumene liberarono il comune la mattina del 26 aprile 1945. Sul territorio comunale morirono 15 soldati rumeni e dieci abitanti locali."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monumento ai caduti – opera di Vojtech Ihriský del 1928",
+          "text": "Nel centro di Trenčianska Teplá si trova un monumento ai caduti, opera dello scultore accademico Vojtech Ihriský. Fu inaugurato solennemente il 28 ottobre 1928 in onore di 75 abitanti morti durante la Prima guerra mondiale. In seguito furono aggiunti anche i nomi di dieci residenti che persero la vita durante i combattimenti di liberazione dell’aprile 1945. Il monumento è diventato così il principale luogo della memoria locale per le vittime delle due guerre mondiali e della liberazione."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá come fonte d’ispirazione per i pittori – Mánes, Aleš, Úprka e artisti locali",
+          "text": "Il costume popolare e la vita quotidiana di Trenčianska Teplá attirarono pittori tra la fine del XIX e l’inizio del XX secolo. Secondo il comune, Josef Mánes, Mikoláš Aleš e Joža Úprka visitarono il luogo per raffigurare i costumi e il paesaggio. František Viktor Podolay, nato a Slopná, dipinse nella regione figure in costume tradizionale di Teplá e scene di vita contadina negli anni Trenta. I pittori Štefan Straka e Ján Šandora nacquero proprio a Trenčianska Teplá e rappresentarono abitanti, costumi e paesaggi locali."
+        },
+        {
+          "id": "fact_011",
+          "title": "Costume tradizionale Teplanský e gruppo Teplanka – ricami e canti della valle del Váh",
+          "text": "Trenčianska Teplá è un importante centro etnografico grazie ai suoi costumi tradizionali maschili e femminili. La caratteristica è il ricamo multicolore sulle maniche e sui grembiuli, con motivi geometrici, floreali e animali come pavoni, galli e uccelli. Le donne del luogo conservano ancora i costumi e tramandano le tecniche. Il gruppo folcloristico Teplanka, fondato nel 1960, raccoglie e presenta canti, danze e usanze locali; anche la banda di fiati Dobranka fa parte della tradizione musicale regionale."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Trenčianska Teplá – dorpscentrum bij het gemeentehuis, M. R. Štefánika 376/30",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Drie historische nederzettingen binnen één postgebied: Teplá, Dobrá en Príles",
+          "text": "De huidige gemeente Trenčianska Teplá omvat drie nederzettingen met een verschillende geschiedenis. Teplá is sinds 1355 bekend onder de naam Topla, het adellijke Príles sinds 1351 en Dobrá al in 1113 in de oorkonde van Zobor. Príles werd in 1913 bij Trenčianska Teplá gevoegd, terwijl Dobrá tot 1971 zelfstandig bleef. Dobrá was een ouder kerkelijk en bestuurlijk centrum dan Teplá zelf; haar geschiedenis vormt daarom een wezenlijk deel van de identiteit van de huidige gemeente."
+        },
+        {
+          "id": "fact_002",
+          "title": "Prehistorische en vroegmiddeleeuwse vondsten – crematiegraf, burcht en Groot-Moravische spoor",
+          "text": "Het gebied van Trenčianska Teplá was al in het Laat-Paleolithicum bewoond. In 1936 werd bij de bouw van een huis een crematiegraf van de Lausitzcultuur uit de late bronstijd ontdekt, met een urn, bronzen speld, scheermes, spiraalbuisjes en andere voorwerpen, die nu in het museum van Trenčín worden bewaard. In Podhradište is Slavisch aardewerk uit de 9e–10e eeuw gevonden; van Čertova skala komt een ijzeren spoor uit de Groot-Moravische periode. In Podhradište zijn ook wallen van een prehistorische versterkte nederzetting zichtbaar."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dobrá – middeleeuwse dekenaatszetel en oude klokkentoren met gotische klok",
+          "text": "Dobrá is sinds 1113 schriftelijk bekend; uiterlijk in 1310 bestond er een parochie en de kerk van het Heilig Kruis staat in een lijst uit 1324. In 1332 werd het decanaat Trenčín verdeeld in een decanaat aan de rechteroever van de Váh en dat van Dobrá; Dobrá bleef tot 1952 een decanaatszetel. De gemeente beschrijft het als de plaats van een van de oudste romaanse kerken in het Váhgebied. De huidige kerk van de Vinding en Verheffing van het Heilig Kruis werd in 1900 op de plek van een oudere barokke kerk gebouwd; daarnaast staat een oude klokkentoren met een klok uit 1516."
+        },
+        {
+          "id": "fact_004",
+          "title": "Príles – adellijke residentie van de familie Príleský en een vervallend classicistisch landhuis",
+          "text": "Príles was vanaf de middeleeuwen een adellijk dorp en zetel van adellijke families; het oudste document dateert uit 1351. De familie Príleský bezat hier generaties lang landgoederen; een familielid, Ján, werd jezuïet en later piarist en religieus schrijver. In de tweede helft van de 19e eeuw gebruikte baron Filip Skrbenský het landhuis als zomerresidentie en hielp hij in 1884 bij de oprichting van de vrijwillige brandweer in Teplá. De Tsjechoslowaakse Legionairsvereniging kocht het kasteel in 1924 en richtte er in 1927 een rusthuis in. Na ongevoelige naoorlogse verbouwingen bleven slechts kleine fragmenten over; bewaard zijn een klokkentoren met een klok uit 1660 en een deel van de kapelmuur met een gotisch raam."
+        },
+        {
+          "id": "fact_005",
+          "title": "Barokke Sint-Mattheuskerk – gebouwd tussen 1733 en 1752",
+          "text": "De rooms-katholieke Sint-Mattheuskerk is het herkenningspunt van Trenčianska Teplá. De eerste steen werd op 21 april 1733 gelegd. Graaf Juraj Illésházy ondersteunde de bouw financieel; deze werd in 1752 voltooid onder pastoor Ján Ďuriš. Bisschop František Xaver Fuchs wijdde de kerk in 1789 in. In 1797 werd een derde klok toegevoegd, de zijaltaren werden in 1803 gemaakt en de torenklok uit 1794 werd geschonken door Ján Illésházy. Het eenbeukige barokke gebouw met veelhoekig koor staat in het centrale monumentenregister van Slowakije."
+        },
+        {
+          "id": "fact_006",
+          "title": "Spoorwegknooppunt en elektrische smalspoorlijn naar Trenčianske Teplice",
+          "text": "Het treinstation van Trenčianska Teplá werd in 1883 gebouwd; door de ligging aan de hoofdlijn door het Váhdal werd de gemeente een belangrijk spoorwegknooppunt. In 1908 begon de bouw van een elektrische smalspoorlijn naar het kuuroord Trenčianske Teplice; de exploitatie van de 5,9 km lange lijn met een spoorwijdte van 760 mm begon op 27 juli 1909. De lijn had één station, twee haltes, één brug van gewapend beton en 44 gelijkvloerse overwegen. Zij werd gevoed met 750 V gelijkstroom en takte direct af bij het station van Trenčianska Teplá."
+        },
+        {
+          "id": "fact_007",
+          "title": "Považský-suikerfabriek – 125 jaar industriële geschiedenis en de transformatie van het terrein in 2026",
+          "text": "De eerste steen van de Považský-suikerfabriek werd op 28 september 1900 gelegd; de eerste campagne begon op 17 oktober 1901. Zij duurde 137 dagen en verwerkte 87.710 ton suikerbieten. De fabriek had 66 vaste medewerkers en 84 ingehuurde arbeiders; tijdens de bietencampagne liep het aantal op tot 700 seizoenarbeiders. De fabriek veranderde het lokale leven: er kwamen arbeiderswoningen, een wasserij, baden en een kantine met culturele activiteiten. Nordzucker kondigde in februari 2026 aan dat de suikerproductie na de campagne 2025/26 zou eindigen; het terrein blijft in gebruik als handels- en logistiek centrum."
+        },
+        {
+          "id": "fact_008",
+          "title": "Bevrijding op 26 april 1945 – gevechten bij de suikerfabriek, het station en Príles",
+          "text": "Aan het einde van de Tweede Wereldoorlog werd er zwaar gevochten rond Trenčianska Teplá. In april 1945 vonden de belangrijkste gevechten plaats bij de suikerfabriek, het treinstation en Príles; Duitse artillerie op Skaliská, Háj en Dubovec vertraagde de opmars van de bevrijders. Voor hun terugtocht vernielden Duitse eenheden verkeersbruggen en staken zij het overslagmagazijn van het goederenstation in brand. Roemeense troepen bevrijdden de gemeente in de ochtend van 26 april 1945. Op het grondgebied van de gemeente kwamen 15 Roemeense soldaten en tien plaatselijke inwoners om."
+        },
+        {
+          "id": "fact_009",
+          "title": "Monument voor de gevallenen – een werk van Vojtech Ihriský uit 1928",
+          "text": "In het centrum van Trenčianska Teplá staat een monument voor de gevallenen, gemaakt door de academische beeldhouwer Vojtech Ihriský. Het werd op 28 oktober 1928 plechtig onthuld ter nagedachtenis aan 75 inwoners die in de Eerste Wereldoorlog omkwamen. Later werden ook de namen toegevoegd van tien inwoners die tijdens de bevrijdingsgevechten in april 1945 stierven. Het monument werd zo de belangrijkste plaatselijke gedenkplaats voor de slachtoffers van beide wereldoorlogen en de bevrijding."
+        },
+        {
+          "id": "fact_010",
+          "title": "Trenčianska Teplá als inspiratie voor schilders – Mánes, Aleš, Úprka en lokale kunstenaars",
+          "text": "De volksdracht en het dagelijks leven van Trenčianska Teplá trokken rond de overgang van de 19e naar de 20e eeuw schilders aan. Volgens de gemeente bezochten Josef Mánes, Mikoláš Aleš en Joža Úprka de plaats om de klederdracht en het landschap vast te leggen. František Viktor Podolay, geboren in Slopná, schilderde in de regio in de jaren dertig figuren in de Teplá-klederdracht en taferelen uit het boerenleven. De schilders Štefan Straka en Ján Šandora werden in Trenčianska Teplá zelf geboren en schilderden inwoners, klederdracht en het landschap."
+        },
+        {
+          "id": "fact_011",
+          "title": "Het Teplanský-kostuum en ensemble Teplanka – borduurwerk en liederen uit het Váhgebied",
+          "text": "Trenčianska Teplá is een belangrijke volkskundige plaats dankzij de mannen- en vrouwenklederdracht. Kenmerkend is het kleurrijke borduurwerk op mouwen en schorten, met geometrische, bloem- en diermotieven zoals pauwen, hanen en vogels. De plaatselijke vrouwen bewaren de dracht nog steeds en geven de technieken door. Het folkloristische ensemble Teplanka, opgericht in 1960, verzamelt en brengt plaatselijke liederen, dansen en gebruiken; ook de blaaskapel Dobranka behoort tot de regionale muziektraditie."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
