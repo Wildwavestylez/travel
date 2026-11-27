@@ -38,8 +38,7 @@
       "priority": "B",
       "sources": [
         "s5",
-        "s9",
-        "s10"
+        "s7"
       ],
       "map_category": "archaeological_site",
       "location": null
@@ -53,12 +52,13 @@
       "sources": [
         "s6",
         "s7",
-        "s11"
+        "s12",
+        "s30"
       ],
       "map_category": "religious_site",
       "location": {
         "name": "Kostel Nalezení a Povýšení sv. Kříže, Dobrá",
-        "address": "Dobrá, 914 01 Trenčianska Teplá, Slovakia",
+        "address": null,
         "lat": 48.9242288,
         "lon": 18.1079851,
         "type": "church",
@@ -74,13 +74,13 @@
       "priority": "B",
       "sources": [
         "s8",
-        "s12",
-        "s13"
+        "s9",
+        "s7"
       ],
       "map_category": "architecture",
       "location": {
         "name": "Zbytky kaštieľa Príles",
-        "address": "Príles, 914 01 Trenčianska Teplá, Slovakia",
+        "address": null,
         "lat": 48.951102,
         "lon": 18.136309,
         "type": "historic_estate",
@@ -95,14 +95,14 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "s14",
-        "s15",
-        "s16"
+        "s10",
+        "s11",
+        "s31"
       ],
       "map_category": "religious_site",
       "location": {
         "name": "Kostel sv. Matouše, Trenčianska Teplá",
-        "address": "Trenčianska Teplá, 914 01 Trenčianska Teplá, Slovakia",
+        "address": null,
         "lat": 48.932459,
         "lon": 18.118458,
         "type": "church",
@@ -118,18 +118,18 @@
       "priority": "B",
       "sources": [
         "s4",
-        "s17",
-        "s18"
+        "s13",
+        "s14"
       ],
       "map_category": "technical_heritage",
       "location": {
         "name": "Železniční stanice Trenčianska Teplá – výchozí bod elektrické úzkokolejky",
-        "address": "Trenčianska Teplá, 914 01 Trenčianska Teplá, Slovakia",
+        "address": null,
         "lat": 48.9373812,
         "lon": 18.1132865,
         "type": "railway_station",
         "accuracy": "exact",
-        "source": "https://poi.oma.sk/n206244063"
+        "source": "https://www.oma.sk/n206244063?s=poi"
       }
     },
     {
@@ -139,15 +139,15 @@
       "category": "culture_and_industry",
       "priority": "A",
       "sources": [
-        "s19",
-        "s20",
-        "s21",
-        "s22"
+        "s15",
+        "s16",
+        "s17",
+        "s18"
       ],
       "map_category": "technical_heritage",
       "location": {
         "name": "Považský cukrovar – historický areál",
-        "address": "Cukrovarská 311/9, 914 01 Trenčianska Teplá, Slovakia",
+        "address": null,
         "lat": 48.94115,
         "lon": 18.12015,
         "type": "factory",
@@ -163,7 +163,7 @@
       "priority": "B",
       "sources": [
         "s5",
-        "s23"
+        "s20"
       ],
       "map_category": "historical_monument",
       "location": null
@@ -175,9 +175,9 @@
       "category": "heritage_and_monuments",
       "priority": "B",
       "sources": [
-        "s24",
-        "s25",
-        "s26"
+        "s20",
+        "s21",
+        "s22"
       ],
       "map_category": "historical_monument",
       "location": {
@@ -198,8 +198,7 @@
       "priority": "C",
       "sources": [
         "s4",
-        "s27",
-        "s28"
+        "s27"
       ],
       "map_category": "personality",
       "location": null
@@ -211,9 +210,9 @@
       "category": "culture_and_industry",
       "priority": "B",
       "sources": [
-        "s29",
-        "s30",
-        "s31"
+        "s24",
+        "s25",
+        "s26"
       ],
       "map_category": "local_culture",
       "location": null
@@ -240,12 +239,6 @@
       "title": "Slovenská pošta – vyhledávání PSČ",
       "url": "https://www.posta.sk/psc",
       "type": "primary"
-    },
-    {
-      "id": "s2",
-      "title": "Obec Trenčianska Teplá – oficiální kontaktní adresa 914 01",
-      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
-      "type": "official"
     },
     {
       "id": "s3",
@@ -344,12 +337,6 @@
       "type": "other"
     },
     {
-      "id": "s19",
-      "title": "Obec Trenčianska Teplá – osvobození obce v dubnu 1945",
-      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/historia/",
-      "type": "official"
-    },
-    {
       "id": "s20",
       "title": "Kronika obce Trenčianska Teplá 2011 – pomník padlým a rumunští vojáci",
       "url": "https://www.trencianskatepla.sk/modules/file_storage/download.php?file=30f0a88b%7C111",
@@ -366,12 +353,6 @@
       "title": "Turistika.cz – pomník padlých hrdinů v Trenčianské Teplé, GPS poloha",
       "url": "https://www.turistika.cz/mista/trencianska-tepla-pomnik-padlym-vo-vojne/detail",
       "type": "regional"
-    },
-    {
-      "id": "s23",
-      "title": "Obec Trenčianska Teplá – kronika osvobozovacích bojů a obětí",
-      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/historia/",
-      "type": "official"
     },
     {
       "id": "s24",
@@ -396,18 +377,6 @@
       "title": "Trenčianske múzeum – malíř František Viktor Podolay a jeho díla z regionu",
       "url": "https://www.muzeumtn.sk/hlavna-stranka/aktuality/vzacne-obohatenie-zbierok-trencianskeho-muzea.html?page_id=22451",
       "type": "museum"
-    },
-    {
-      "id": "s28",
-      "title": "Obec Trenčianska Teplá – malíři a osobnosti obce",
-      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
-      "type": "official"
-    },
-    {
-      "id": "s29",
-      "title": "Obec Trenčianska Teplá – místní části a první písemné zmínky",
-      "url": "https://www.trencianskatepla.sk/obec-2/o-obci/",
-      "type": "official"
     },
     {
       "id": "s30",
