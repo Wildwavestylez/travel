@@ -1,4 +1,558 @@
 {
   "postcode": "90701",
-  "status": "placeholder"
+  "city": "Myjava",
+  "district": null,
+  "county": "Myjava",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Myjavská věž a historické centrum Myjavy",
+  "representative_point": {
+    "lat": 48.750041,
+    "lon": 17.565113
+  },
+  "access_point": {
+    "lat": 48.750041,
+    "lon": 17.565113
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Dům Anny Kolényové a první zasedání Slovenské národní rady",
+      "text": "V domě Anny Kolényové v Myjavě se 19. září 1848 poprvé na území Slovenska sešla Slovenská národní rada. Vdova po evangelickém faráři poskytla svůj dům slovenským národním představitelům a během revolučních událostí zde fungovalo jejich hlavní zázemí. Dům je dnes součástí Slovenského národního muzea – Muzea Slovenských národních rad a připomíná počátky slovenského moderního politického hnutí.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "location": {
+        "name": "SNM – Muzeum Slovenských národních rad, dům Anny Kolényové",
+        "lat": 48.75607,
+        "lon": 17.567173,
+        "type": "museum",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/myjava-muzeum-slovenskych-narodnych-rad"
+      },
+      "map_category": "museum"
+    },
+    {
+      "id": "fact_002",
+      "title": "Myjavská věž – dominanta evangelického chrámu",
+      "text": "Myjavská věž patří k nejvýraznějším symbolům města. Evangelický toleranční chrám, k němuž věž náleží, byl postaven roku 1785; samotnou věž začali budovat v květnu 1854 a vysvětili ji 8. listopadu 1856. Dosahuje výšky 67 metrů a její tři zvony nesou jména Milana Rastislava Štefánika, Jána Plachtu a Daniela Krmana.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "sources": [
+        "s3"
+      ],
+      "location": {
+        "name": "Myjavská věž",
+        "lat": 48.750041,
+        "lon": 17.565113,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/myjava-evanjelicky-kostol"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Myjavský viadukt – zakřivený železniční most nad údolím",
+      "text": "Myjavský viadukt je výraznou technickou památkou železniční trati v údolí Žaboškrekov. Ocelový jednokolejný most má délku 196,7 metru a jeho niveleta vede až 29 metrů nad údolím. Půdorys mostu tvoří oblouk o poloměru 400 metrů; konstrukci podpírají tři kamenné pilíře. Viadukt je součástí stále provozované železniční tratě.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "location": {
+        "name": "Myjavský viadukt",
+        "lat": 48.757213,
+        "lon": 17.575578,
+        "type": "bridge",
+        "accuracy": "exact",
+        "source": "https://loporail.com/structures/structure/myjavsky-viadukt/"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_004",
+      "title": "Tunel generála Štefánika a oběti jeho výstavby",
+      "text": "Železniční tunel pod vrchem Poľana u Brestovce se stavěl v letech 1923–1927 a měří přibližně 2 423 metrů. Při náročné stavbě zahynulo šest dělníků; tři z nich zemřeli 18. února 1926 při explozi dynamitu. U brestoveckého portálu byl roku 1927 odhalen památník se jmény obětí. V období socialismu se tunel označoval jako Pod Poľanou, původní jméno generála Štefánika mu vrátili roku 1990.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "location": null,
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_005",
+      "title": "Stará Myjava – původní sídelní jádro města",
+      "text": "Počátky dnešní Myjavy souvisejí se Starou Myjavou. Roku 1586 se v horské části dnešního území začala formovat osada osadníků prchajících před osmanským nebezpečím z jihu Slovenska. Příliv dalších obyvatel vedl k zakládání kopanic – rozptýlených hospodářských usedlostí a osad. Po návratu Daniela Krmana roku 1711 se sídlo obce přesunulo z původní Starej Myjavy do dnešního městského centra.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s8"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_006",
+      "title": "Vodní nádrž Stará Myjava",
+      "text": "Vodní nádrž Stará Myjava leží severně od města v lesnaté krajině Myjavských kopanic, přibližně v nadmořské výšce 440 metrů. Dokončena byla na začátku 70. let 20. století a její okolí se proměnilo v rekreační oblast s travnatými břehy, lesy a možnostmi koupání, rybaření, cyklistiky i dalších volnočasových aktivit.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s9"
+      ],
+      "location": {
+        "name": "Vodní nádrž Stará Myjava",
+        "lat": 48.81022,
+        "lon": 17.596289,
+        "type": "dam",
+        "accuracy": "approximate",
+        "source": "https://www.planetslovakia.sk/relax/vodna-nadrz-stara-myjava"
+      },
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_007",
+      "title": "Polianka – kopaničářská obec s kořeny v době reformace",
+      "text": "Území dnešní Polianky se začalo osidlovat v době reformace a náboženského útlaku, kdy sem z českých zemí přicházeli uprchlíci a zakládali rozptýlené kopaničářské osady v blízkosti vodních pramenů. Nejstarší písemný záznam o lokalitě pochází z roku 1611. Samostatnou obcí se Polianka stala až roku 1955, kdy se oddělila od Myjavy.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s10"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    },
+    {
+      "id": "fact_008",
+      "title": "Myjavské kopanice a vystěhovalectví do Ameriky",
+      "text": "Myjavskou krajinu charakterizuje kopaničářské osídlení – rozptýlené usedlosti a malé osady vznikající postupným klučením půdy kolem původní vesnice. Od roku 1890 odcházely stovky mladých lidí i celé rodiny z Myjavska za prací do Spojených států. Významným centrem přistěhovalců se stalo Little Falls ve státě New York, kterému Myjavčané říkali „Druhá Myjava“; početná komunita vznikla také v Guttenbergu.",
+      "category": "geography_and_context",
+      "priority": "B",
+      "sources": [
+        "s8"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta, seznam pošt s rozšířeným predajom (Pošta Myjava 1, PSČ 907 01); geografický rozsah doplňkově ověřen v poštovních přehledech pro Myjavu, Brestovec, Polianku a Starou Myjavu.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Seznam pošt s rozšířeným predajom",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Myjava 1 je evidována s PSČ 907 01; její poloha nebyla použita jako reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (Ministerstvo vnútra SR) jako referenční autorita adres; ŠÚ SR a oficiální obecní zdroje pro správní vztahy; souřadnice památek ověřeny v odborných a mapových zdrojích."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenské národné múzeum – Slovenská národná rada v toku času",
+      "url": "https://www.snm.sk/muzea-snm/muzeum-slovenskych-narodnych-rad/muzeum-slovenskych-narodnych-rad/navstivte/expozicie?clanok=slovenska-narodna-rada-v-toku-casu",
+      "type": "museum"
+    },
+    {
+      "id": "s2",
+      "title": "Pamiatky na Slovensku – Myjava, Múzeum Slovenských národných rád",
+      "url": "https://www.pamiatkynaslovensku.sk/myjava-muzeum-slovenskych-narodnych-rad",
+      "type": "specialist"
+    },
+    {
+      "id": "s3",
+      "title": "Mesto Myjava – Myjavská veža",
+      "url": "https://www.myjava.sk/volny-cas/turisticke-ciele/myjavska-veza-veza-evanjelickeho-a-v-chramu-bozieho-1834sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Mesto Myjava – Myjavský viadukt",
+      "url": "https://www.myjava.sk/volny-cas/turisticke-ciele/myjavsky-viadukt-1828sk.html",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "LopoRail – Myjavský viadukt, technické údaje a poloha",
+      "url": "https://loporail.com/structures/structure/myjavsky-viadukt/",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Pamiatky na Slovensku – Železničný tunel generála Štefánika, Brestovec",
+      "url": "https://pam.epocha.sk/pamatniky-zahorie/okres-myjava/zeleznicny-tunel-generala-stefanika-brestovec",
+      "type": "specialist"
+    },
+    {
+      "id": "s7",
+      "title": "Slovo z Britskej Kolumbie – technické dejiny tunela pod Poľanou",
+      "url": "https://slovozbritskejkolumbie.ca/sites/default/files/attachments/Slovo.z.Britskej.Kolumbie.28.cislo.2017.jar.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s8",
+      "title": "Mesto Myjava – História mesta",
+      "url": "https://www.myjava.sk/mesto/o-myjave/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Planet Slovakia – Vodná nádrž Stará Myjava",
+      "url": "https://www.planetslovakia.sk/relax/vodna-nadrz-stara-myjava",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Polianka – História obce",
+      "url": "https://obecpolianka.sk/obec/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Register%2Badries/",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "90701.oma.sk – PSČ 907 01 a lokality",
+      "url": "https://90701.oma.sk/",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Myjavská věž a historické centrum Myjavy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Dům Anny Kolényové a první zasedání Slovenské národní rady",
+          "text": "V domě Anny Kolényové v Myjavě se 19. září 1848 poprvé na území Slovenska sešla Slovenská národní rada. Vdova po evangelickém faráři poskytla svůj dům slovenským národním představitelům a během revolučních událostí zde fungovalo jejich hlavní zázemí. Dům je dnes součástí Slovenského národního muzea – Muzea Slovenských národních rad a připomíná počátky slovenského moderního politického hnutí."
+        },
+        {
+          "id": "fact_002",
+          "title": "Myjavská věž – dominanta evangelického chrámu",
+          "text": "Myjavská věž patří k nejvýraznějším symbolům města. Evangelický toleranční chrám, k němuž věž náleží, byl postaven roku 1785; samotnou věž začali budovat v květnu 1854 a vysvětili ji 8. listopadu 1856. Dosahuje výšky 67 metrů a její tři zvony nesou jména Milana Rastislava Štefánika, Jána Plachtu a Daniela Krmana."
+        },
+        {
+          "id": "fact_003",
+          "title": "Myjavský viadukt – zakřivený železniční most nad údolím",
+          "text": "Myjavský viadukt je výraznou technickou památkou železniční trati v údolí Žaboškrekov. Ocelový jednokolejný most má délku 196,7 metru a jeho niveleta vede až 29 metrů nad údolím. Půdorys mostu tvoří oblouk o poloměru 400 metrů; konstrukci podpírají tři kamenné pilíře. Viadukt je součástí stále provozované železniční tratě."
+        },
+        {
+          "id": "fact_004",
+          "title": "Tunel generála Štefánika a oběti jeho výstavby",
+          "text": "Železniční tunel pod vrchem Poľana u Brestovce se stavěl v letech 1923–1927 a měří přibližně 2 423 metrů. Při náročné stavbě zahynulo šest dělníků; tři z nich zemřeli 18. února 1926 při explozi dynamitu. U brestoveckého portálu byl roku 1927 odhalen památník se jmény obětí. V období socialismu se tunel označoval jako Pod Poľanou, původní jméno generála Štefánika mu vrátili roku 1990."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava – původní sídelní jádro města",
+          "text": "Počátky dnešní Myjavy souvisejí se Starou Myjavou. Roku 1586 se v horské části dnešního území začala formovat osada osadníků prchajících před osmanským nebezpečím z jihu Slovenska. Příliv dalších obyvatel vedl k zakládání kopanic – rozptýlených hospodářských usedlostí a osad. Po návratu Daniela Krmana roku 1711 se sídlo obce přesunulo z původní Starej Myjavy do dnešního městského centra."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vodní nádrž Stará Myjava",
+          "text": "Vodní nádrž Stará Myjava leží severně od města v lesnaté krajině Myjavských kopanic, přibližně v nadmořské výšce 440 metrů. Dokončena byla na začátku 70. let 20. století a její okolí se proměnilo v rekreační oblast s travnatými břehy, lesy a možnostmi koupání, rybaření, cyklistiky i dalších volnočasových aktivit."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka – kopaničářská obec s kořeny v době reformace",
+          "text": "Území dnešní Polianky se začalo osidlovat v době reformace a náboženského útlaku, kdy sem z českých zemí přicházeli uprchlíci a zakládali rozptýlené kopaničářské osady v blízkosti vodních pramenů. Nejstarší písemný záznam o lokalitě pochází z roku 1611. Samostatnou obcí se Polianka stala až roku 1955, kdy se oddělila od Myjavy."
+        },
+        {
+          "id": "fact_008",
+          "title": "Myjavské kopanice a vystěhovalectví do Ameriky",
+          "text": "Myjavskou krajinu charakterizuje kopaničářské osídlení – rozptýlené usedlosti a malé osady vznikající postupným klučením půdy kolem původní vesnice. Od roku 1890 odcházely stovky mladých lidí i celé rodiny z Myjavska za prací do Spojených států. Významným centrem přistěhovalců se stalo Little Falls ve státě New York, kterému Myjavčané říkali „Druhá Myjava“; početná komunita vznikla také v Guttenbergu."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Der Myjava-Turm und das historische Zentrum von Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Anna-Kolényová-Haus und erste Sitzung des Slowakischen Nationalrats",
+          "text": "Im Haus von Anna Kolényová in Myjava trat am 19. September 1848 erstmals auf dem Gebiet der heutigen Slowakei der Slowakische Nationalrat zusammen. Die Witwe eines evangelischen Pfarrers stellte ihr Haus den slowakischen Nationalvertretern zur Verfügung; während der Revolutionsereignisse diente es als deren Hauptquartier. Heute gehört das Haus zum Slowakischen Nationalmuseum – Museum der Slowakischen Nationalräte und erinnert an die Anfänge der modernen slowakischen politischen Bewegung."
+        },
+        {
+          "id": "fact_002",
+          "title": "Der Myjava-Turm – Wahrzeichen der evangelischen Kirche",
+          "text": "Der Myjava-Turm ist eines der markantesten Wahrzeichen der Stadt. Die evangelische Toleranzkirche, zu der er gehört, wurde 1785 errichtet; mit dem Bau des Turms begann man im Mai 1854, geweiht wurde er am 8. November 1856. Er ist 67 Meter hoch. Seine drei Glocken tragen die Namen Milan Rastislav Štefánik, Ján Plachta und Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Myjava-Viadukt – eine gekrümmte Eisenbahnbrücke",
+          "text": "Das Myjava-Viadukt ist ein markantes technisches Denkmal der Eisenbahnstrecke über dem Tal Žaboškrekov. Die eingleisige Stahlbrücke ist 196,7 Meter lang und verläuft bis zu 29 Meter über dem Tal. Ihr Grundriss bildet einen Bogen mit einem Radius von 400 Metern; die Konstruktion wird von drei steinernen Pfeilern getragen. Das Viadukt gehört zu einer weiterhin betriebenen Bahnstrecke."
+        },
+        {
+          "id": "fact_004",
+          "title": "Der Štefánik-Tunnel und die Opfer seines Baus",
+          "text": "Der Eisenbahntunnel unter dem Berg Poľana bei Brestovec wurde zwischen 1923 und 1927 gebaut und ist etwa 2.423 Meter lang. Beim anspruchsvollen Bau kamen sechs Arbeiter ums Leben; drei starben am 18. Februar 1926 bei einer Dynamitexplosion. Am Brestovec-Portal wurde 1927 ein Denkmal mit den Namen der Opfer enthüllt. Während der sozialistischen Zeit hieß der Tunnel Pod Poľanou; seinen ursprünglichen Namen nach General Štefánik erhielt er 1990 zurück."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava – die ursprüngliche Siedlung der Stadt",
+          "text": "Die Anfänge des heutigen Myjava hängen mit Stará Myjava zusammen. Im Jahr 1586 entstand im bergigen Teil des heutigen Stadtgebiets eine Siedlung von Menschen, die vor der osmanischen Bedrohung aus dem Süden der Slowakei flohen. Weitere Zuwanderer legten sogenannte Kopanice an – verstreute Höfe und kleine Siedlungen. Nach der Rückkehr von Daniel Krman im Jahr 1711 wurde der Gemeindesitz von der ursprünglichen Stará Myjava in das heutige Stadtzentrum verlegt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Der Stausee Stará Myjava",
+          "text": "Der Stausee Stará Myjava liegt nördlich der Stadt in der bewaldeten Landschaft der Myjava-Kopanice auf etwa 440 Metern Höhe. Er wurde Anfang der 1970er-Jahre fertiggestellt. Seine Umgebung entwickelte sich zu einem Erholungsgebiet mit grasbewachsenen Ufern und Wäldern, das Möglichkeiten zum Baden, Angeln, Radfahren und für weitere Freizeitaktivitäten bietet."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka – eine Kopanice-Gemeinde mit Wurzeln in der Reformationszeit",
+          "text": "Das Gebiet der heutigen Gemeinde Polianka wurde zur Zeit der Reformation und religiöser Unterdrückung besiedelt. Flüchtlinge aus den böhmischen Ländern ließen sich hier nieder und gründeten verstreute Kopanice-Siedlungen in der Nähe von Wasserquellen. Die älteste schriftliche Erwähnung des Ortes stammt aus dem Jahr 1611. Eine selbstständige Gemeinde wurde Polianka erst 1955, als sie von Myjava abgetrennt wurde."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die Myjava-Kopanice und die Auswanderung nach Amerika",
+          "text": "Die Landschaft um Myjava ist durch die Kopanice-Siedlungsform geprägt: verstreute Höfe und kleine Weiler, die durch die schrittweise Rodung des Landes rund um das ursprüngliche Dorf entstanden. Ab 1890 wanderten Hunderte junge Menschen und ganze Familien aus der Region Myjava auf der Suche nach Arbeit in die Vereinigten Staaten aus. Ein wichtiges Zentrum der Einwanderer wurde Little Falls im Bundesstaat New York, das die Myjava-Auswanderer „Zweites Myjava“ nannten; eine große Gemeinschaft entstand auch in Guttenberg."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "The Myjava Tower and the historic centre of Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Anna Kolényová’s House and the First Meeting of the Slovak National Council",
+          "text": "On 19 September 1848, the Slovak National Council met for the first time on the territory of present-day Slovakia in Anna Kolényová’s house in Myjava. The widow of an evangelical pastor made her home available to Slovak national leaders, and it served as their headquarters during the revolutionary events. The house is now part of the Slovak National Museum – Museum of Slovak National Councils and commemorates the beginnings of the modern Slovak political movement."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Myjava Tower – landmark of the Evangelical church",
+          "text": "The Myjava Tower is one of the town’s most distinctive landmarks. The Evangelical Toleration Church to which it belongs was built in 1785; construction of the tower began in May 1854 and it was consecrated on 8 November 1856. It stands 67 metres high. Its three bells are named after Milan Rastislav Štefánik, Ján Plachta and Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Myjava Viaduct – a curved railway bridge",
+          "text": "The Myjava Viaduct is a striking engineering landmark on the railway line above the Žaboškrekov valley. The single-track steel bridge is 196.7 metres long and runs up to 29 metres above the valley. Its plan follows a curve with a radius of 400 metres, and the structure is supported by three stone piers. The viaduct remains part of an operational railway line."
+        },
+        {
+          "id": "fact_004",
+          "title": "The General Štefánik Tunnel and the workers who died building it",
+          "text": "The railway tunnel beneath Mount Poľana near Brestovec was built between 1923 and 1927 and is approximately 2,423 metres long. Six workers died during the demanding construction; three were killed in a dynamite explosion on 18 February 1926. A memorial bearing the victims’ names was unveiled by the Brestovec portal in 1927. During the socialist period the tunnel was called Pod Poľanou; its original name honouring General Štefánik was restored in 1990."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava – the town’s original settlement",
+          "text": "The origins of present-day Myjava are linked to Stará Myjava. In 1586, a settlement began to take shape in the hilly part of the present municipal area, founded by people fleeing the Ottoman threat from southern Slovakia. As more settlers arrived, they cleared land farther afield and established kopanice – scattered farms and small hamlets. After Daniel Krman returned in 1711, the municipal seat moved from the original Stará Myjava to the site of today’s town centre."
+        },
+        {
+          "id": "fact_006",
+          "title": "Stará Myjava Reservoir",
+          "text": "Stará Myjava Reservoir lies north of the town in the wooded landscape of the Myjava kopanice, at an elevation of about 440 metres. It was completed in the early 1970s. Its surroundings have become a recreation area with grassy banks and woodland, offering swimming, fishing, cycling and other outdoor activities."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka – a kopanice village rooted in the Reformation era",
+          "text": "The area of present-day Polianka began to be settled during the Reformation and a period of religious oppression, when refugees from the Czech lands settled here and established scattered kopanice hamlets near water springs. The oldest written record of the locality dates from 1611. Polianka became an independent municipality only in 1955, when it separated from Myjava."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Myjava kopanice and emigration to America",
+          "text": "The Myjava landscape is characterised by the kopanice settlement pattern: scattered homesteads and small hamlets created as land was gradually cleared around the original village. From 1890 onwards, hundreds of young people and entire families from the Myjava region emigrated to the United States in search of work. Little Falls in New York State became a major centre for these immigrants and was known among Myjava emigrants as ‘Second Myjava’; a sizeable community also formed in Guttenberg."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "La torre de Myjava y el centro histórico de Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La casa de Anna Kolényová y la primera reunión del Consejo Nacional Eslovaco",
+          "text": "El 19 de septiembre de 1848, el Consejo Nacional Eslovaco se reunió por primera vez en el territorio de la actual Eslovaquia, en la casa de Anna Kolényová, en Myjava. La viuda de un pastor evangélico puso su vivienda a disposición de los representantes nacionales eslovacos y, durante los acontecimientos revolucionarios, sirvió como su cuartel general. Hoy la casa forma parte del Museo Nacional Eslovaco – Museo de los Consejos Nacionales Eslovacos y recuerda los comienzos del movimiento político eslovaco moderno."
+        },
+        {
+          "id": "fact_002",
+          "title": "La torre de Myjava, emblema de la iglesia evangélica",
+          "text": "La torre de Myjava es uno de los símbolos más destacados de la ciudad. La iglesia evangélica de tolerancia a la que pertenece se construyó en 1785; las obras de la torre comenzaron en mayo de 1854 y fue consagrada el 8 de noviembre de 1856. Mide 67 metros de altura. Sus tres campanas llevan los nombres de Milan Rastislav Štefánik, Ján Plachta y Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "El viaducto de Myjava, un puente ferroviario curvo",
+          "text": "El viaducto de Myjava es un destacado monumento de ingeniería de la línea ferroviaria que cruza el valle de Žaboškrekov. El puente metálico de una sola vía mide 196,7 metros y se eleva hasta 29 metros sobre el valle. Su trazado forma un arco de 400 metros de radio y la estructura descansa sobre tres pilares de piedra. El viaducto sigue formando parte de una línea ferroviaria en servicio."
+        },
+        {
+          "id": "fact_004",
+          "title": "El túnel del general Štefánik y las víctimas de su construcción",
+          "text": "El túnel ferroviario bajo el monte Poľana, cerca de Brestovec, se construyó entre 1923 y 1927 y mide aproximadamente 2.423 metros. Seis trabajadores murieron durante las difíciles obras; tres fallecieron el 18 de febrero de 1926 en una explosión de dinamita. En 1927 se inauguró junto a la boca de Brestovec un monumento con los nombres de las víctimas. Durante el periodo socialista el túnel se llamó Pod Poľanou; recuperó su nombre original en honor al general Štefánik en 1990."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava, el asentamiento original de la ciudad",
+          "text": "Los orígenes de la actual Myjava están vinculados a Stará Myjava. En 1586 comenzó a formarse un asentamiento en la zona montañosa del actual término municipal, fundado por personas que huían de la amenaza otomana desde el sur de Eslovaquia. La llegada de nuevos habitantes impulsó la creación de kopanice: explotaciones agrícolas y pequeños núcleos dispersos. Tras el regreso de Daniel Krman en 1711, la sede municipal se trasladó desde la antigua Stará Myjava al emplazamiento del actual centro urbano."
+        },
+        {
+          "id": "fact_006",
+          "title": "Embalse de Stará Myjava",
+          "text": "El embalse de Stará Myjava se encuentra al norte de la ciudad, en el paisaje boscoso de las kopanice de Myjava, a unos 440 metros de altitud. Se terminó a comienzos de la década de 1970. Sus alrededores se convirtieron en una zona recreativa con orillas cubiertas de hierba y bosques, donde se puede nadar, pescar, practicar ciclismo y realizar otras actividades al aire libre."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka, un pueblo de kopanice con raíces en la Reforma",
+          "text": "El territorio de la actual Polianka comenzó a poblarse durante la Reforma y un periodo de persecución religiosa, cuando refugiados procedentes de las tierras checas se establecieron aquí y fundaron pequeños asentamientos dispersos cerca de manantiales. El registro escrito más antiguo de la localidad data de 1611. Polianka no se convirtió en municipio independiente hasta 1955, cuando se separó de Myjava."
+        },
+        {
+          "id": "fact_008",
+          "title": "Las kopanice de Myjava y la emigración a América",
+          "text": "El paisaje de Myjava se caracteriza por el poblamiento en kopanice: granjas dispersas y pequeñas aldeas surgidas al despejarse gradualmente terrenos alrededor del pueblo original. Desde 1890, cientos de jóvenes y familias enteras de la región emigraron a Estados Unidos en busca de trabajo. Little Falls, en el estado de Nueva York, se convirtió en un importante centro de inmigrantes y los emigrantes de Myjava lo llamaban «Segunda Myjava»; también surgió una comunidad numerosa en Guttenberg."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "La tour de Myjava et le centre historique de Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La maison d’Anna Kolényová et la première réunion du Conseil national slovaque",
+          "text": "Le 19 septembre 1848, le Conseil national slovaque s’est réuni pour la première fois sur le territoire de l’actuelle Slovaquie dans la maison d’Anna Kolényová, à Myjava. Veuve d’un pasteur évangélique, elle a mis sa maison à la disposition des représentants nationaux slovaques, qui en ont fait leur quartier général pendant les événements révolutionnaires. La maison fait aujourd’hui partie du Musée national slovaque – Musée des Conseils nationaux slovaques et rappelle les débuts du mouvement politique slovaque moderne."
+        },
+        {
+          "id": "fact_002",
+          "title": "La tour de Myjava, emblème de l’église évangélique",
+          "text": "La tour de Myjava est l’un des monuments les plus reconnaissables de la ville. L’église évangélique de tolérance à laquelle elle appartient a été construite en 1785 ; les travaux de la tour ont commencé en mai 1854 et elle a été consacrée le 8 novembre 1856. Elle mesure 67 mètres de haut. Ses trois cloches portent les noms de Milan Rastislav Štefánik, Ján Plachta et Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le viaduc de Myjava, un pont ferroviaire courbe",
+          "text": "Le viaduc de Myjava est un remarquable ouvrage d’art ferroviaire au-dessus de la vallée de Žaboškrekov. Ce pont métallique à voie unique mesure 196,7 mètres et domine la vallée de 29 mètres au maximum. Son tracé dessine un arc de 400 mètres de rayon et sa structure repose sur trois piles en pierre. Le viaduc fait toujours partie d’une ligne ferroviaire en service."
+        },
+        {
+          "id": "fact_004",
+          "title": "Le tunnel du général Štefánik et les victimes de sa construction",
+          "text": "Le tunnel ferroviaire sous le mont Poľana, près de Brestovec, a été construit entre 1923 et 1927 et mesure environ 2 423 mètres. Six ouvriers ont péri pendant les travaux difficiles ; trois sont morts dans une explosion de dynamite le 18 février 1926. Un mémorial portant les noms des victimes a été inauguré près de l’entrée côté Brestovec en 1927. À l’époque socialiste, le tunnel a été appelé Pod Poľanou ; son nom d’origine, en hommage au général Štefánik, lui a été rendu en 1990."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava, le premier noyau de peuplement de la ville",
+          "text": "Les origines de la Myjava actuelle sont liées à Stará Myjava. En 1586, un village a commencé à se former dans la partie montagneuse de l’actuel territoire communal, fondé par des habitants fuyant la menace ottomane depuis le sud de la Slovaquie. L’arrivée de nouveaux habitants a favorisé la création des kopanice, des fermes et petits hameaux dispersés. Après le retour de Daniel Krman en 1711, le siège communal a été transféré de l’ancienne Stará Myjava vers l’emplacement du centre-ville actuel."
+        },
+        {
+          "id": "fact_006",
+          "title": "Le réservoir de Stará Myjava",
+          "text": "Le réservoir de Stará Myjava se trouve au nord de la ville, dans le paysage boisé des kopanice de Myjava, à environ 440 mètres d’altitude. Il a été achevé au début des années 1970. Ses abords sont devenus un espace de loisirs avec des berges herbeuses et des bois, propice à la baignade, à la pêche, au vélo et à d’autres activités de plein air."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka, un village de kopanice aux origines liées à la Réforme",
+          "text": "Le territoire de l’actuelle Polianka a commencé à être peuplé à l’époque de la Réforme et des persécutions religieuses, lorsque des réfugiés venus des pays tchèques s’y sont installés et ont fondé des hameaux dispersés près des sources. La plus ancienne mention écrite du lieu date de 1611. Polianka n’est devenue une commune indépendante qu’en 1955, lorsqu’elle s’est séparée de Myjava."
+        },
+        {
+          "id": "fact_008",
+          "title": "Les kopanice de Myjava et l’émigration vers l’Amérique",
+          "text": "Le paysage de Myjava se caractérise par les kopanice : des fermes isolées et de petits hameaux apparus au fil du défrichement des terres autour du village d’origine. À partir de 1890, des centaines de jeunes gens et des familles entières de la région ont émigré aux États-Unis pour y trouver du travail. Little Falls, dans l’État de New York, est devenu un centre important de cette immigration et était surnommé « la deuxième Myjava » par les émigrés ; une importante communauté s’est également formée à Guttenberg."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "La torre di Myjava e il centro storico di Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La casa di Anna Kolényová e la prima riunione del Consiglio nazionale slovacco",
+          "text": "Il 19 settembre 1848 il Consiglio nazionale slovacco si riunì per la prima volta nel territorio dell’attuale Slovacchia, nella casa di Anna Kolényová a Myjava. Vedova di un pastore evangelico, mise la propria casa a disposizione dei rappresentanti nazionali slovacchi, che durante gli eventi rivoluzionari la usarono come quartier generale. Oggi la casa fa parte del Museo nazionale slovacco – Museo dei Consigli nazionali slovacchi e ricorda gli inizi del moderno movimento politico slovacco."
+        },
+        {
+          "id": "fact_002",
+          "title": "La torre di Myjava, simbolo della chiesa evangelica",
+          "text": "La torre di Myjava è uno dei simboli più riconoscibili della città. La chiesa evangelica di tolleranza a cui appartiene fu costruita nel 1785; i lavori della torre iniziarono nel maggio 1854 e la consacrazione avvenne l’8 novembre 1856. La torre è alta 67 metri. Le sue tre campane portano i nomi di Milan Rastislav Štefánik, Ján Plachta e Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il viadotto di Myjava, un ponte ferroviario curvo",
+          "text": "Il viadotto di Myjava è una notevole opera di ingegneria ferroviaria sopra la valle di Žaboškrekov. Il ponte metallico a binario unico è lungo 196,7 metri e raggiunge un’altezza di 29 metri sopra la valle. Il tracciato forma un arco con raggio di 400 metri e la struttura poggia su tre piloni in pietra. Il viadotto fa ancora parte di una linea ferroviaria in esercizio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Il tunnel del generale Štefánik e le vittime della sua costruzione",
+          "text": "Il tunnel ferroviario sotto il monte Poľana, vicino a Brestovec, fu costruito tra il 1923 e il 1927 e misura circa 2.423 metri. Durante i difficili lavori morirono sei operai; tre persero la vita il 18 febbraio 1926 in un’esplosione di dinamite. Nel 1927, presso l’imbocco di Brestovec, fu inaugurato un monumento con i nomi delle vittime. Durante il periodo socialista il tunnel fu chiamato Pod Poľanou; nel 1990 gli venne restituito il nome originario dedicato al generale Štefánik."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava, il nucleo originario dell’insediamento",
+          "text": "Le origini dell’odierna Myjava sono legate a Stará Myjava. Nel 1586 iniziò a formarsi un insediamento nella parte montuosa dell’attuale territorio comunale, fondato da persone in fuga dalla minaccia ottomana proveniente dal sud della Slovacchia. L’arrivo di altri abitanti portò alla creazione delle kopanice, fattorie e piccoli nuclei sparsi. Dopo il ritorno di Daniel Krman nel 1711, la sede comunale fu trasferita dalla Stará Myjava originaria all’attuale centro cittadino."
+        },
+        {
+          "id": "fact_006",
+          "title": "Il bacino idrico di Stará Myjava",
+          "text": "Il bacino idrico di Stará Myjava si trova a nord della città, nel paesaggio boscoso delle kopanice di Myjava, a circa 440 metri di altitudine. Fu completato all’inizio degli anni Settanta. I dintorni sono diventati un’area ricreativa con rive erbose e boschi, adatta al nuoto, alla pesca, al ciclismo e ad altre attività all’aperto."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka, villaggio di kopanice con radici nell’epoca della Riforma",
+          "text": "Il territorio dell’attuale Polianka cominciò a essere popolato durante la Riforma e le persecuzioni religiose, quando profughi provenienti dalle terre ceche si stabilirono qui e fondarono insediamenti sparsi vicino alle sorgenti. La più antica testimonianza scritta della località risale al 1611. Polianka divenne comune autonomo soltanto nel 1955, quando si separò da Myjava."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le kopanice di Myjava e l’emigrazione in America",
+          "text": "Il paesaggio di Myjava è caratterizzato dalle kopanice: fattorie isolate e piccoli insediamenti nati dal progressivo disboscamento dei terreni intorno al villaggio originario. Dal 1890 centinaia di giovani e intere famiglie della regione emigrarono negli Stati Uniti in cerca di lavoro. Little Falls, nello Stato di New York, divenne un importante centro di immigrati e fu chiamata «Seconda Myjava» dagli emigrati; una comunità numerosa si formò anche a Guttenberg."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "De Myjava-toren en het historische centrum van Myjava",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het huis van Anna Kolényová en de eerste vergadering van de Slowaakse Nationale Raad",
+          "text": "Op 19 september 1848 kwam de Slowaakse Nationale Raad voor het eerst bijeen op het grondgebied van het huidige Slowakije, in het huis van Anna Kolényová in Myjava. De weduwe van een evangelische predikant stelde haar huis ter beschikking van de Slowaakse nationale leiders; tijdens de revolutionaire gebeurtenissen fungeerde het als hun hoofdkwartier. Het huis maakt nu deel uit van het Slowaaks Nationaal Museum – Museum van de Slowaakse Nationale Raden en herinnert aan het begin van de moderne Slowaakse politieke beweging."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Myjava-toren – herkenningspunt van de evangelische kerk",
+          "text": "De Myjava-toren is een van de opvallendste herkenningspunten van de stad. De evangelische tolerantiekerk waartoe hij behoort, werd in 1785 gebouwd; de bouw van de toren begon in mei 1854 en op 8 november 1856 werd hij ingewijd. De toren is 67 meter hoog. De drie klokken zijn vernoemd naar Milan Rastislav Štefánik, Ján Plachta en Daniel Krman."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het Myjava-viaduct – een gebogen spoorbrug",
+          "text": "Het Myjava-viaduct is een opvallend technisch monument op de spoorlijn boven het dal van Žaboškrekov. De stalen brug met één spoor is 196,7 meter lang en ligt tot 29 meter boven het dal. In bovenaanzicht vormt de brug een boog met een straal van 400 meter; de constructie rust op drie stenen pijlers. Het viaduct maakt nog steeds deel uit van een spoorlijn die in gebruik is."
+        },
+        {
+          "id": "fact_004",
+          "title": "De generaal-Štefániktunnel en de slachtoffers van de bouw",
+          "text": "De spoorwegtunnel onder de berg Poľana bij Brestovec werd tussen 1923 en 1927 aangelegd en is ongeveer 2.423 meter lang. Tijdens de zware bouwwerkzaamheden kwamen zes arbeiders om het leven; drie van hen stierven op 18 februari 1926 bij een dynamietexplosie. Bij de ingang aan de kant van Brestovec werd in 1927 een gedenkteken met de namen van de slachtoffers onthuld. In de socialistische periode heette de tunnel Pod Poľanou; in 1990 kreeg hij zijn oorspronkelijke naam ter ere van generaal Štefánik terug."
+        },
+        {
+          "id": "fact_005",
+          "title": "Stará Myjava – de oorspronkelijke nederzetting van de stad",
+          "text": "De oorsprong van het huidige Myjava is verbonden met Stará Myjava. In 1586 ontstond in het heuvelachtige deel van het huidige gemeentelijke grondgebied een nederzetting van mensen die vanuit het zuiden van Slowakije vluchtten voor de Ottomaanse dreiging. Door de komst van nieuwe bewoners ontstonden kopanice: verspreide boerderijen en kleine gehuchten. Na de terugkeer van Daniel Krman in 1711 werd het gemeentebestuur verplaatst van het oorspronkelijke Stará Myjava naar de plek van het huidige stadscentrum."
+        },
+        {
+          "id": "fact_006",
+          "title": "Het stuwmeer Stará Myjava",
+          "text": "Het stuwmeer Stará Myjava ligt ten noorden van de stad, in het bosrijke landschap van de Myjava-kopanice, op ongeveer 440 meter hoogte. Het werd begin jaren zeventig voltooid. De omgeving groeide uit tot een recreatiegebied met grasoevers en bossen, waar bezoekers kunnen zwemmen, vissen, fietsen en andere buitenactiviteiten ondernemen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Polianka – een kopanice-dorp met wortels in de Reformatietijd",
+          "text": "Het gebied van het huidige Polianka werd vanaf de Reformatietijd en de periode van religieuze onderdrukking bewoond. Vluchtelingen uit de Tsjechische landen vestigden zich hier en stichtten verspreide kopanice-nederzettingen bij waterbronnen. De oudste schriftelijke vermelding van de plaats dateert uit 1611. Polianka werd pas in 1955 een zelfstandige gemeente, toen het zich van Myjava afscheidde."
+        },
+        {
+          "id": "fact_008",
+          "title": "De Myjava-kopanice en emigratie naar Amerika",
+          "text": "Het landschap rond Myjava wordt gekenmerkt door de kopanice-nederzettingsvorm: verspreide boerderijen en kleine gehuchten die ontstonden doordat land rond het oorspronkelijke dorp geleidelijk werd ontgonnen. Vanaf 1890 emigreerden honderden jongeren en hele gezinnen uit de regio Myjava naar de Verenigde Staten op zoek naar werk. Little Falls in de staat New York werd een belangrijk centrum voor deze immigranten en stond bij Myjavaanse emigranten bekend als ‘Tweede Myjava’; ook in Guttenberg ontstond een grote gemeenschap."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
