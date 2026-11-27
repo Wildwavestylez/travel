@@ -1,4 +1,444 @@
 {
   "postcode": "90846",
-  "status": "placeholder"
+  "city": "Unín",
+  "district": null,
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel sv. Martina a historické centrum Unína",
+  "representative_point": {
+    "lat": 48.728656,
+    "lon": 17.214446
+  },
+  "access_point": {
+    "lat": 48.728656,
+    "lon": 17.214446
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Zámčisko – rozsáhlé pravěké opevněné sídliště",
+      "text": "Hradisko Zámčisko nad Unínem patří k nejvýznamnějším pravěkým archeologickým lokalitám Záhoří. Nejstarší osídlení spadá do starší a střední doby bronzové, přibližně 2000–1250 př. n. l.; opevněný areál tehdy dosahoval plochy asi 17 hektarů. Archeologové doložili dvě hlavní fáze rozkvětu, které skončily násilným vypleněním. Lokalita byla osídlena také v době halštatské a ojedinělé nálezy naznačují další využití v pozdějších obdobích.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "location": {
+        "name": "Hradisko Zámčisko, Unín",
+        "lat": 48.73571,
+        "lon": 17.25066,
+        "type": "archaeological_site",
+        "accuracy": "exact",
+        "source": "https://maps.vandro.cz/misto/hradisko-zamcisko-nad-obcou-unin/"
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Unín – středověká obec doložená od roku 1392",
+      "text": "Unín se poprvé písemně připomíná roku 1392 v darovací listině Zikmunda Lucemburského, která jej uvádí pod nejstarším dochovaným názvem Wny. Obec patřila k holíčskému panství a v polovině 15. století byla jedním z nejlidnatějších sídel severního Záhoří. V květnu 1439 ji vypálily husitské oddíly; roku 1634 byla vyrabována Bethlenovým vojskem a v září 1663 ji zpustošil turecký nájezd.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Martina – gotická památka přestavěná v 18. století",
+      "text": "Původní farní kostel sv. Martina v Uníně je gotická jednolodní stavba z třetí čtvrtiny 14. století s polygonálním závěrem. Roku 1749 byl za faráře Martina Barcaje přestavěn do barokní podoby; další opravy a výmalba následovaly roku 1912 a po válečném poškození v letech 1947–1949. Kostel je zapsán v Ústředním seznamu památkového fondu pod číslem 757/1.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "location": {
+        "name": "Kostel sv. Martina, Unín",
+        "lat": 48.728656,
+        "lon": 17.214446,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/unin-kostol-sv-martina-biskupa"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Barbory z roku 1793",
+      "text": "Druhým významným sakrálním objektem Unína je kostelík sv. Barbory, původně označovaný také jako kaple. Jednolodní barokně-klasicistní stavbu nechal roku 1793 vybudovat farář Pavol Polakovič na místě staršího menšího sakrálního objektu. Dokládá to nápis za oltářním obrazem. Kolem kostelíka býval hřbitov, na němž se podle vizitace z roku 1788 již nepohřbívalo; zachovala se část starší stavby v podobě sakristie.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s6"
+      ],
+      "location": {
+        "name": "Kostel sv. Barbory, Unín",
+        "lat": 48.725112,
+        "lon": 17.213271,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w152454099"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Unínske lipky – památka na návštěvu panovníka roku 1818",
+      "text": "Na kopci Brovištia nad Unínem rostou lípy vysazené roku 1818 na památku návštěvy panovníka Ferdinanda II. Podle obecní kroniky panovník vystoupil na kopec, odkud se za jasného počasí údajně otevíral výhled až k Vídni. Lípy daly místu jméno „U Lipek“ a dodnes tvoří výrazný krajinný prvek s výhledem do okolí. V roce 2014 zde byla zpřístupněna kamenná rozhledna Lipky na vrchu Zámčisko.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s7",
+        "s8"
+      ],
+      "location": {
+        "name": "Rozhľadňa Lipky, Zámčisko",
+        "lat": 48.72697,
+        "lon": 17.24507,
+        "type": "lookout_tower",
+        "accuracy": "exact",
+        "source": "https://www.krasneslovensko.eu/trnavsky-kraj/rozhladna-lipky-kamenna-veza-na-zahori"
+      },
+      "map_category": "visitor_attraction"
+    },
+    {
+      "id": "fact_006",
+      "title": "Vinohradnictví a židovská komunita v Uníně",
+      "text": "Unín měl výraznou zemědělskou a vinařskou tradici; vinohrady se v pramenech připomínají už roku 1715 a jejich kořeny sahají do 16. století. Od 18. století zde žila také přibližně třicetičlenná židovská komunita, která měla vlastní modlitebnu, školu a hřbitov. Obec tak byla vedle rolnictví a chovu ovcí také místem menšinového náboženského a kulturního života.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální adresa Obecního úřadu Unín č. 332, 908 46 Unín a farní kontaktní adresa potvrzují PSČ 908 46 pro obec Unín; Slovenská pošta je kompetentní poštovní autoritou.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 908 46 je uváděno pro obec Unín; poloha pošty nebyla použita jako reprezentativní bod.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR pro adresní evidenci; oficiální obecní zdroje pro správní a místní geografii; odborné památkové a archeologické zdroje pro polohy lokalit."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Unín – História obce",
+      "url": "https://unin.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Vandro – Hradisko Zámčisko nad obcou Unín",
+      "url": "https://maps.vandro.cz/misto/hradisko-zamcisko-nad-obcou-unin/",
+      "type": "specialist"
+    },
+    {
+      "id": "s3",
+      "title": "ZMO Záhorie – Unín",
+      "url": "https://zmo-zahorie.sk/unin/",
+      "type": "regional"
+    },
+    {
+      "id": "s4",
+      "title": "Farnosť Unín – Dejiny farnosti",
+      "url": "https://unin.sk/obec/farnost/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Pamiatky na Slovensku – Kostol sv. Martina, Unín",
+      "url": "https://www.pamiatkynaslovensku.sk/unin-kostol-sv-martina-biskupa",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Oma – Kaplnka sv. Barbory, Unín",
+      "url": "https://poi.oma.sk/w152454099",
+      "type": "other"
+    },
+    {
+      "id": "s7",
+      "title": "Pamätná kniha obce Unína – výňatok",
+      "url": "https://unin.sk/wp-content/uploads/2023/03/Pamatna-kniha-obce-Unina-vedena-od-roku-1934-1.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Krásne Slovensko – Rozhľadňa Lipky",
+      "url": "https://www.krasneslovensko.eu/trnavsky-kraj/rozhladna-lipky-kamenna-veza-na-zahori",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Register%2Badries/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel sv. Martina a historické centrum Unína",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko – rozsáhlé pravěké opevněné sídliště",
+          "text": "Hradisko Zámčisko nad Unínem patří k nejvýznamnějším pravěkým archeologickým lokalitám Záhoří. Nejstarší osídlení spadá do starší a střední doby bronzové, přibližně 2000–1250 př. n. l.; opevněný areál tehdy dosahoval plochy asi 17 hektarů. Archeologové doložili dvě hlavní fáze rozkvětu, které skončily násilným vypleněním. Lokalita byla osídlena také v době halštatské a ojedinělé nálezy naznačují další využití v pozdějších obdobích."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín – středověká obec doložená od roku 1392",
+          "text": "Unín se poprvé písemně připomíná roku 1392 v darovací listině Zikmunda Lucemburského, která jej uvádí pod nejstarším dochovaným názvem Wny. Obec patřila k holíčskému panství a v polovině 15. století byla jedním z nejlidnatějších sídel severního Záhoří. V květnu 1439 ji vypálily husitské oddíly; roku 1634 byla vyrabována Bethlenovým vojskem a v září 1663 ji zpustošil turecký nájezd."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kostel sv. Martina – gotická památka přestavěná v 18. století",
+          "text": "Původní farní kostel sv. Martina v Uníně je gotická jednolodní stavba z třetí čtvrtiny 14. století s polygonálním závěrem. Roku 1749 byl za faráře Martina Barcaje přestavěn do barokní podoby; další opravy a výmalba následovaly roku 1912 a po válečném poškození v letech 1947–1949. Kostel je zapsán v Ústředním seznamu památkového fondu pod číslem 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Barbory z roku 1793",
+          "text": "Druhým významným sakrálním objektem Unína je kostelík sv. Barbory, původně označovaný také jako kaple. Jednolodní barokně-klasicistní stavbu nechal roku 1793 vybudovat farář Pavol Polakovič na místě staršího menšího sakrálního objektu. Dokládá to nápis za oltářním obrazem. Kolem kostelíka býval hřbitov, na němž se podle vizitace z roku 1788 již nepohřbívalo; zachovala se část starší stavby v podobě sakristie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky – památka na návštěvu panovníka roku 1818",
+          "text": "Na kopci Brovištia nad Unínem rostou lípy vysazené roku 1818 na památku návštěvy panovníka Ferdinanda II. Podle obecní kroniky panovník vystoupil na kopec, odkud se za jasného počasí údajně otevíral výhled až k Vídni. Lípy daly místu jméno „U Lipek“ a dodnes tvoří výrazný krajinný prvek s výhledem do okolí. V roce 2014 zde byla zpřístupněna kamenná rozhledna Lipky na vrchu Zámčisko."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vinohradnictví a židovská komunita v Uníně",
+          "text": "Unín měl výraznou zemědělskou a vinařskou tradici; vinohrady se v pramenech připomínají už roku 1715 a jejich kořeny sahají do 16. století. Od 18. století zde žila také přibližně třicetičlenná židovská komunita, která měla vlastní modlitebnu, školu a hřbitov. Obec tak byla vedle rolnictví a chovu ovcí také místem menšinového náboženského a kulturního života."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Martinskirche und historischer Ortskern von Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko – eine große prähistorische befestigte Siedlung",
+          "text": "Das Burgwallareal Zámčisko oberhalb von Unín gehört zu den bedeutendsten prähistorischen Fundstätten des Záhorie. Die älteste Besiedlung stammt aus der älteren und mittleren Bronzezeit, etwa 2000–1250 v. Chr.; die befestigte Anlage umfasste rund 17 Hektar. Archäologen belegen zwei Hauptphasen, die gewaltsam endeten. Auch die Hallstattzeit und spätere Perioden sind durch Funde vertreten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín – ein seit 1392 belegter mittelalterlicher Ort",
+          "text": "Unín wird 1392 erstmals in einer Schenkungsurkunde Sigismunds von Luxemburg unter dem ältesten Namen Wny erwähnt. Der Ort gehörte zur Herrschaft Holíč und war Mitte des 15. Jahrhunderts eine der größten Siedlungen im nördlichen Záhorie. 1439 wurde er von Hussiten niedergebrannt, 1634 von Bethlens Truppen geplündert und 1663 bei einem türkischen Einfall verwüstet."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Martinskirche – gotisches Denkmal mit Umbau im 18. Jahrhundert",
+          "text": "Die ursprüngliche Pfarrkirche St. Martin in Unín ist ein gotischer einschiffiger Bau aus dem dritten Viertel des 14. Jahrhunderts. 1749 wurde sie unter Pfarrer Martin Barcaj barock umgestaltet; weitere Renovierungen folgten 1912 und nach Kriegsschäden 1947–1949. Die Kirche ist unter Nummer 757/1 im zentralen Denkmalverzeichnis eingetragen."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Barbarakirche von 1793",
+          "text": "Das zweite bedeutende Sakralgebäude von Unín ist die Barbarakirche, ursprünglich auch als Kapelle bezeichnet. Der einschiffige barock-klassizistische Bau wurde 1793 von Pfarrer Pavol Polakovič an der Stelle eines älteren kleinen Sakralbaus errichtet. Eine Inschrift hinter dem Altarbild belegt die Stiftung. Um die Kirche lag ein Friedhof, auf dem laut Visitationsbericht von 1788 bereits nicht mehr bestattet wurde."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky – Erinnerung an einen Herrscherbesuch im Jahr 1818",
+          "text": "Auf dem Hügel Brovištia oberhalb von Unín wachsen Linden, die 1818 zur Erinnerung an den Besuch von Ferdinand II. gepflanzt wurden. Laut Ortschronik bestieg der Herrscher den Hügel, von dem man bei klarem Wetter angeblich bis Wien sehen konnte. Die Linden gaben dem Ort den Namen „U Lipek“ und prägen bis heute die Landschaft. 2014 wurde dort der steinerne Aussichtsturm Lipky eröffnet."
+        },
+        {
+          "id": "fact_006",
+          "title": "Weinbau und jüdische Gemeinde in Unín",
+          "text": "Unín hatte eine ausgeprägte Landwirtschafts- und Weinbautradition; Weinberge sind bereits 1715 belegt, ihre Wurzeln reichen bis ins 16. Jahrhundert. Seit dem 18. Jahrhundert lebte hier auch eine etwa 30-köpfige jüdische Gemeinde mit eigener Synagoge, Schule und Friedhof. Neben Landwirtschaft und Schafzucht war der Ort somit auch ein Zentrum religiösen und kulturellen Lebens einer Minderheit."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "St Martin’s Church and historic centre of Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko – a large prehistoric fortified settlement",
+          "text": "The Zámčisko hillfort above Unín is one of the Záhorie region’s major prehistoric archaeological sites. Its earliest settlement dates to the Early and Middle Bronze Age, around 2000–1250 BC; the fortified area covered about 17 hectares. Archaeologists have identified two main periods of prosperity, both ending violently. Finds also indicate later use during the Hallstatt period and beyond."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín – a medieval village documented since 1392",
+          "text": "Unín first appears in writing in 1392 in a donation charter of Sigismund of Luxembourg, under the oldest recorded name Wny. It belonged to the Holíč estate and was one of the most populous settlements in northern Záhorie in the mid-15th century. Hussite troops burned it in May 1439; it was plundered by Bethlen’s army in 1634 and devastated by a Turkish raid in 1663."
+        },
+        {
+          "id": "fact_003",
+          "title": "St Martin’s Church – a Gothic monument remodelled in the 18th century",
+          "text": "The original parish Church of St Martin in Unín is a Gothic single-nave building from the third quarter of the 14th century. It was remodelled in Baroque style in 1749 under parish priest Martin Barcaj, repaired in 1912 and restored after wartime damage in 1947–1949. It is listed in the Central Register of Monuments under number 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Church of St Barbara, built in 1793",
+          "text": "Unín’s second important religious building is the Church of St Barbara, originally also called a chapel. The single-nave Baroque-Classical building was erected in 1793 by parish priest Pavol Polakovič on the site of an older small religious structure. An inscription behind the altar painting records the foundation. A cemetery once surrounded it, although burials had ceased by the 1788 church visitation."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky – a memorial to a ruler’s visit in 1818",
+          "text": "Linden trees on Brovištia hill above Unín were planted in 1818 to commemorate a visit by Ferdinand II. According to the village chronicle, the ruler climbed the hill, from which Vienna could supposedly be seen in clear weather. The trees gave the place its name, ‘U Lipek’, and remain a distinctive landscape feature. The stone Lipky lookout tower opened here in 2014."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vine-growing and the Jewish community in Unín",
+          "text": "Unín had a strong agricultural and wine-growing tradition; vineyards are recorded as early as 1715, with roots reaching back to the 16th century. From the 18th century, a Jewish community of about 30 people also lived here and had its own prayer house, school and cemetery. Alongside farming and sheep raising, the village was a place of minority religious and cultural life."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia de San Martín y centro histórico de Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko, gran asentamiento prehistórico fortificado",
+          "text": "El recinto fortificado de Zámčisko, sobre Unín, es uno de los principales yacimientos prehistóricos de Záhorie. Su ocupación más antigua corresponde a la Edad del Bronce Antiguo y Medio, hacia 2000–1250 a. C.; el área fortificada abarcaba unas 17 hectáreas. Los arqueólogos han identificado dos grandes fases de auge que terminaron violentamente. También hay hallazgos de la época de Hallstatt y periodos posteriores."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín, localidad medieval documentada desde 1392",
+          "text": "Unín aparece por primera vez por escrito en 1392, en una carta de donación de Segismundo de Luxemburgo, con el nombre antiguo Wny. Pertenecía al señorío de Holíč y a mediados del siglo XV era uno de los asentamientos más poblados del norte de Záhorie. Los husitas lo incendiaron en 1439; fue saqueado por las tropas de Bethlen en 1634 y devastado por una incursión turca en 1663."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Martín, monumento gótico remodelado en el siglo XVIII",
+          "text": "La iglesia parroquial original de San Martín en Unín es un edificio gótico de una nave de la tercera cuarta parte del siglo XIV. Fue remodelada en estilo barroco en 1749 por el párroco Martin Barcaj, reparada en 1912 y restaurada tras los daños de guerra en 1947–1949. Está inscrita en el registro central de monumentos con el número 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia de Santa Bárbara, construida en 1793",
+          "text": "El segundo edificio religioso importante de Unín es la iglesia de Santa Bárbara, llamada originalmente también capilla. El edificio de una nave, de estilo barroco-clasicista, fue construido en 1793 por el párroco Pavol Polakovič sobre una estructura religiosa anterior. Una inscripción detrás del retablo documenta la fundación. Antiguamente la rodeaba un cementerio, donde ya no se enterraba en 1788."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky, recuerdo de la visita de un monarca en 1818",
+          "text": "En la colina Brovištia, sobre Unín, crecen tilos plantados en 1818 para conmemorar la visita de Fernando II. Según la crónica local, el monarca subió a la colina, desde donde supuestamente se podía ver Viena con buen tiempo. Los árboles dieron nombre al lugar, «U Lipek», y siguen marcando el paisaje. En 2014 se abrió allí la torre mirador de piedra Lipky."
+        },
+        {
+          "id": "fact_006",
+          "title": "Viticultura y comunidad judía en Unín",
+          "text": "Unín tuvo una fuerte tradición agrícola y vitivinícola; los viñedos aparecen documentados ya en 1715 y sus raíces llegan al siglo XVI. Desde el siglo XVIII vivió aquí una comunidad judía de unas 30 personas, con sala de oración, escuela y cementerio propios. Además de la agricultura y la ganadería ovina, el pueblo fue un lugar de vida religiosa y cultural minoritaria."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église Saint-Martin et centre historique d’Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko, vaste établissement fortifié préhistorique",
+          "text": "L’enceinte de Zámčisko, au-dessus d’Unín, est l’un des principaux sites archéologiques préhistoriques du Záhorie. Son occupation la plus ancienne remonte au Bronze ancien et moyen, vers 2000–1250 av. J.-C. ; l’espace fortifié couvrait environ 17 hectares. Les archéologues ont identifié deux grandes phases de prospérité qui se sont achevées violemment. Des découvertes attestent aussi des périodes ultérieures."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín, village médiéval attesté depuis 1392",
+          "text": "Unín apparaît pour la première fois dans un document en 1392, dans un acte de donation de Sigismond de Luxembourg, sous la forme ancienne Wny. Le village dépendait du domaine de Holíč et comptait parmi les localités les plus peuplées du nord du Záhorie au milieu du XVe siècle. Il fut incendié par les Hussites en 1439, pillé par les troupes de Bethlen en 1634 et dévasté par une incursion ottomane en 1663."
+        },
+        {
+          "id": "fact_003",
+          "title": "L’église Saint-Martin, monument gothique remanié au XVIIIe siècle",
+          "text": "L’église paroissiale Saint-Martin d’Unín est un édifice gothique à nef unique du troisième quart du XIVe siècle. Elle fut remaniée en style baroque en 1749 sous le curé Martin Barcaj, réparée en 1912 puis restaurée après les dégâts de guerre en 1947–1949. Elle est inscrite au registre central des monuments sous le numéro 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Sainte-Barbe, construite en 1793",
+          "text": "Le second édifice religieux important d’Unín est l’église Sainte-Barbe, autrefois également appelée chapelle. Cet édifice à nef unique de style baroque-classique fut construit en 1793 par le curé Pavol Polakovič sur le site d’un bâtiment religieux plus ancien. Une inscription derrière le tableau d’autel rappelle sa fondation. Un cimetière entourait autrefois l’église, mais les inhumations avaient cessé en 1788."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky, souvenir d’une visite royale en 1818",
+          "text": "Des tilleuls plantés en 1818 poussent sur la colline de Brovištia, au-dessus d’Unín, en souvenir de la visite de Ferdinand II. Selon la chronique locale, le souverain gravit la colline d’où l’on pouvait, par temps clair, apercevoir Vienne. Les arbres ont donné au lieu le nom « U Lipek » et marquent toujours le paysage. La tour panoramique en pierre Lipky y a ouvert en 2014."
+        },
+        {
+          "id": "fact_006",
+          "title": "Viticulture et communauté juive à Unín",
+          "text": "Unín possédait une forte tradition agricole et viticole ; des vignobles sont attestés dès 1715 et leur histoire remonte au XVIe siècle. À partir du XVIIIe siècle, une communauté juive d’environ 30 personnes vivait également dans le village, avec sa propre salle de prière, son école et son cimetière. L’agriculture et l’élevage ovin coexistaient ainsi avec une vie religieuse et culturelle minoritaire."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa di San Martino e centro storico di Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko, grande insediamento fortificato preistorico",
+          "text": "Il sito fortificato di Zámčisko, sopra Unín, è uno dei principali luoghi archeologici preistorici dello Záhorie. Il primo insediamento risale all’età del Bronzo antico e medio, circa 2000–1250 a.C.; l’area fortificata copriva circa 17 ettari. Gli archeologi hanno individuato due principali fasi di sviluppo, entrambe concluse violentemente. Reperti attestano anche periodi successivi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín, villaggio medievale documentato dal 1392",
+          "text": "Unín compare per la prima volta in un documento nel 1392, in un atto di donazione di Sigismondo di Lussemburgo, con l’antico nome Wny. Apparteneva alla signoria di Holíč e a metà del XV secolo era uno degli insediamenti più popolosi dello Záhorie settentrionale. Fu incendiato dagli ussiti nel 1439, saccheggiato dalle truppe di Bethlen nel 1634 e devastato da un’incursione turca nel 1663."
+        },
+        {
+          "id": "fact_003",
+          "title": "La chiesa di San Martino, monumento gotico rimaneggiato nel XVIII secolo",
+          "text": "La chiesa parrocchiale di San Martino a Unín è un edificio gotico a navata unica della terza parte del XIV secolo. Fu rimaneggiata in stile barocco nel 1749 dal parroco Martin Barcaj, riparata nel 1912 e restaurata dopo i danni di guerra nel 1947–1949. È iscritta nel registro centrale dei monumenti con il numero 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa di Santa Barbara, costruita nel 1793",
+          "text": "Il secondo importante edificio religioso di Unín è la chiesa di Santa Barbara, originariamente chiamata anche cappella. L’edificio a navata unica in stile barocco-classico fu costruito nel 1793 dal parroco Pavol Polakovič sul sito di una struttura religiosa più antica. Un’iscrizione dietro la pala d’altare ne documenta la fondazione. Un cimitero circondava la chiesa, ma nel 1788 non vi si seppelliva più."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky, ricordo della visita di un sovrano nel 1818",
+          "text": "Sulla collina Brovištia sopra Unín crescono tigli piantati nel 1818 per ricordare la visita di Ferdinando II. Secondo la cronaca locale, il sovrano salì sulla collina da cui, con il cielo sereno, si poteva vedere Vienna. Gli alberi diedero al luogo il nome «U Lipek» e caratterizzano ancora il paesaggio. Nel 2014 vi fu inaugurata la torre panoramica in pietra Lipky."
+        },
+        {
+          "id": "fact_006",
+          "title": "Viticoltura e comunità ebraica a Unín",
+          "text": "Unín aveva una forte tradizione agricola e vitivinicola; i vigneti sono documentati già nel 1715 e le loro origini risalgono al XVI secolo. Dal XVIII secolo viveva qui anche una comunità ebraica di circa 30 persone, con sala di preghiera, scuola e cimitero propri. Agricoltura e allevamento di pecore convivevano quindi con una vita religiosa e culturale minoritaria."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Sint-Martinuskerk en historische kern van Unín",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Zámčisko – een grote prehistorische versterkte nederzetting",
+          "text": "Het heuvelfort Zámčisko boven Unín is een van de belangrijkste prehistorische archeologische vindplaatsen van Záhorie. De oudste bewoning dateert uit de vroege en midden-bronstijd, ongeveer 2000–1250 v.Chr.; het versterkte gebied besloeg circa 17 hectare. Archeologen hebben twee belangrijke bloeifasen vastgesteld, die beide gewelddadig eindigden. Vondsten tonen ook later gebruik aan."
+        },
+        {
+          "id": "fact_002",
+          "title": "Unín – een middeleeuws dorp dat sinds 1392 is gedocumenteerd",
+          "text": "Unín wordt voor het eerst schriftelijk vermeld in 1392 in een schenkingsakte van Sigismund van Luxemburg, onder de oudste naam Wny. Het dorp hoorde bij het landgoed Holíč en was halverwege de 15e eeuw een van de dichtstbevolkte plaatsen in noordelijk Záhorie. Hussitische troepen staken het in 1439 in brand; in 1634 werd het geplunderd door het leger van Bethlen en in 1663 verwoest door een Turkse inval."
+        },
+        {
+          "id": "fact_003",
+          "title": "De Sint-Martinuskerk – gotisch monument, verbouwd in de 18e eeuw",
+          "text": "De oorspronkelijke parochiekerk van Sint-Martinus in Unín is een gotisch eenbeukig gebouw uit het derde kwart van de 14e eeuw. In 1749 werd ze onder pastoor Martin Barcaj in barokstijl verbouwd; herstel volgde in 1912 en na oorlogsschade in 1947–1949. De kerk staat in het centrale monumentenregister onder nummer 757/1."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Barbarakerk uit 1793",
+          "text": "Het tweede belangrijke religieuze gebouw van Unín is de Sint-Barbarakerk, oorspronkelijk ook kapel genoemd. Het eenbeukige barok-classicistische gebouw werd in 1793 door pastoor Pavol Polakovič opgericht op de plek van een ouder religieus gebouw. Een inscriptie achter het altaarschilderij vermeldt de stichting. Rondom lag een begraafplaats waar volgens het bezoekverslag uit 1788 niet meer werd begraven."
+        },
+        {
+          "id": "fact_005",
+          "title": "Unínske lipky – herinnering aan een vorstenbezoek in 1818",
+          "text": "Op de heuvel Brovištia boven Unín staan lindebomen die in 1818 werden geplant ter herinnering aan het bezoek van Ferdinand II. Volgens de dorpskroniek beklom de vorst de heuvel, vanwaar men bij helder weer naar verluidt Wenen kon zien. De bomen gaven de plek de naam ‘U Lipek’ en bepalen nog steeds het landschap. In 2014 werd hier de stenen uitkijktoren Lipky geopend."
+        },
+        {
+          "id": "fact_006",
+          "title": "Wijnbouw en de Joodse gemeenschap in Unín",
+          "text": "Unín kende een sterke landbouw- en wijnbouwtraditie; wijngaarden worden al in 1715 vermeld en gaan terug tot de 16e eeuw. Vanaf de 18e eeuw woonde hier ook een Joodse gemeenschap van ongeveer dertig mensen, met een eigen gebedsruimte, school en begraafplaats. Naast landbouw en schapenhouderij bestond er zo ook een minderheidsreligieus en cultureel leven."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
