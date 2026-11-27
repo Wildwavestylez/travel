@@ -281,6 +281,12 @@
       "title": "OpenStreetMap / OMA – kostol v Horňanoch, poloha a alternatívne označenie",
       "url": "https://poi.oma.sk/w128490285",
       "type": "other"
+    },
+    {
+      "id": "s20",
+      "title": "Slovenská pošta – oficiálne vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
     }
   ],
   "translations": {
@@ -567,11 +573,11 @@
   },
   "photo": null,
   "verification": {
-    "plz_source": "Slovenská pošta je primárnou autoritou pre PSČ; oficiálna stránka obce Svinná uvádza Poštu Svinná s PSČ 913 24 a samostatné doručovanie pre obce Svinná, Horňany a Veľká Hradná. Oficiálne adresné údaje obcí potvrdzujú geografické použitie kódu 913 24.",
+    "plz_source": "Slovenská pošta je primárnou autoritou pre PSČ; oficiálna stránka Pošty Svinná uvádza PSČ 913 24 a samostatné doručovanie pre obce Svinná, Horňany a Veľká Hradná. Údaj je doplnený odkazom na oficiálne vyhľadávanie PSČ Slovenskej pošty.",
     "geographic_test_data": true,
     "access_point_verified": true,
     "postcode_authority": "Slovenská pošta",
-    "postcode_source_dataset": "Obec Svinná – oficiálna stránka Pošta Svinná, zoznam troch doručovacích obcí; doplnkovo oficiálne adresné údaje obcí",
+    "postcode_source_dataset": "Obec Svinná – oficiálna stránka Pošta Svinná s tromi doručovacími obcami; Slovenská pošta – oficiálne vyhľadávanie PSČ.",
     "postcode_source_release": "06.11.2024",
     "postcode_source_checked_at": "2026-11-27",
     "postcode_conflict": false,
