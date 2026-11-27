@@ -1,4 +1,605 @@
 {
   "postcode": "90633",
-  "status": "placeholder"
+  "city": "Cerová",
+  "district": null,
+  "county": "Senica",
+  "state": "Trnavský kraj",
+  "representative_place": "Cerová – historické jádro a kostel sv. Andělů strážných",
+  "representative_point": {
+    "lat": 48.5870242,
+    "lon": 17.3819997
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Tři historické obce: Cerová, Lieskové a Rozbehy",
+      "text": "Dnešní Cerovou tvoří tři původně samostatné obce a jejich dějiny se v pramenech objevují v různých dobách. Nejstarší písemná zmínka se vztahuje k Lieskovému a pochází z roku 1445, Rozbehy jsou doloženy roku 1598 a Cerová roku 1632. Cerová a Lieskové byly úředně spojeny od 1. ledna 1890 pod názvem Korlátkö; po vzniku Československa se používalo jméno Cerová-Lieskové. Samostatná obec Rozbehy se připojila až roku 1976 a celek přijal název Cerová. Jména částí odkazují na místní dřeviny: cer a lísku.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Hrad Korlátka střežil Českou cestu",
+      "text": "Zřícenina hradu Korlátka stojí na skalním výběžku Malých Karpat nad osadou Rozbehy, v nadmořské výšce přibližně 455 metrů. Královský hrad vznikl v polovině 13. století a střežil západní hranici Uherského království i důležitou obchodní trasu zvanou Česká cesta neboli Via Bohemica, která spojovala české země s Budínem. Hrad se ve 14. století stal předmětem mocenských zápasů a později měnil majitele. Od 18. století pustl, protože se vrchnost přestěhovala do pohodlnějšího sídla v podhradí. Dochovaly se části horního hradu, torzo válcové věže a úseky dolního opevnění.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s3",
+        "s4",
+        "s12"
+      ],
+      "map_category": "castle",
+      "location": {
+        "name": "Zrúcanina hradu Korlátka",
+        "lat": 48.5751144,
+        "lon": 17.3863233,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Renesanční a barokní kaštieľ v Lieskovém",
+      "text": "Kaštieľ v Lieskovém vznikl v první polovině 17. století jako rezidence Blažeje Apponyiho, který se svým bratrem původně sídlil na hradě Korlátka. Hradní bydlení nebylo pohodlné, a proto si Blažej vybudoval kúrii v podhradí; písemný záznam dokládá, že zde 23. dubna 1643 zasedal panský soud. Součástí sídla byla kaple sv. Josefa, protože Lieskové tehdy nemělo vlastní kostel. Původní renesanční bloková stavba s nárožními věžemi byla v 18. století barokně upravena a v první polovině 19. století získala dnešní klasicistní podobu. Od roku 1969 zde působí Milosrdné sestry sv. Kříže a objekt slouží jako charitní domov, takže interiéry nejsou běžně přístupné.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "sources": [
+        "s5",
+        "s12"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Kaštieľ Lieskové",
+        "lat": 48.5829544,
+        "lon": 17.3721503,
+        "type": "historic_estate",
+        "accuracy": "exact",
+        "source": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel strážných andělů a sakrální památky tří částí",
+      "text": "Cerová, Lieskové a Rozbehy byly až do 18. století odkázány na bohoslužby v sousedních obcích. V Cerové se roku 1756 začala stavět kaple Všech svatých andělů, která se stala předchůdkyní dnešního kostela; samostatná farnost vznikla roku 1787 a chrám byl dokončen 3. října 1802. Uvnitř je cenný jednomanuálový varhanní nástroj s pedálem, který roku 1839 postavil Martin Šaško starší z Brezové pod Bradlom. V Lieskovém sloužila panská kaple sv. Josefa, zatímco v Rozbehoch se dochoval kostel Nanebevzetí Panny Marie s pozdně barokním oltářem. Rozdílné sakrální stavby připomínají, že dnešní obec vznikla spojením tří samostatných sídel.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7",
+        "s12"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Farský kostol Svätých anjelov strážcov",
+        "lat": 48.5870242,
+        "lon": 17.3819997,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Čierny potok: moře a hlubokomořské fosilie miocénu",
+      "text": "Opuštěná cihelna u Čierného potoka uchovává doklady doby, kdy se před 13 až 17 miliony let na území dnešního Záhoří rozkládalo moře. V odkrytých vápenitých jílech a tenkých vrstvách pískovců byly nalezeny mořské usazeniny a mimořádně zachovalé fosilie měkkýšů, žraloků a dalších hlubokomořských živočichů. Některé nálezy si zachovaly původní schránky nebo kosterní části. Výzkum lokality přispěl k popisu nového rodu a třinácti nových druhů živočichů; popsány byly také dva nové druhy sladkovodních rostlin, jejichž zbytky do tehdejšího moře přinesly řeky z pevniny. Podle analýz dosahovalo moře v této oblasti hloubky přibližně 250 až 350 metrů.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s8"
+      ],
+      "map_category": "science_site",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Rozbehy a první větrný park na Slovensku",
+      "text": "Na hřebeni nad osadou Rozbehy byl v říjnu 2003 uveden do provozu první větrný park na Slovensku. Projekt získal podporu z programu Evropské unie PHARE a přípravy trvaly téměř dva roky; technicky náročný byl zejména převoz dlouhých dílů na místo stavby. Původní park tvořily čtyři turbíny Vestas V47 s instalovaným výkonem 660 kW každá, na stožárech vysokých přibližně 76 metrů a s rotory o průměru 47 metrů. První turbína byla zkušebně spuštěna 10. října v 10 hodin a 10 minut. Větrníky se staly novou technickou dominantou kopaničářské krajiny a připomínají proměnu energetiky na začátku 21. století.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s9",
+        "s10",
+        "s12"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Veterný park Cerová – Rozbehy",
+        "lat": 48.5702211,
+        "lon": 17.3849592,
+        "type": "power_station",
+        "accuracy": "area_representative",
+        "source": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Rozhledna Rozbehy otevírá výhled na dvě pohoří",
+      "text": "Kamenná rozhledna nad osadou Rozbehy stojí v nadmořské výšce 460 metrů a měří sedm metrů. Byla vybudována s podporou přeshraničního programu Evropské unie mezi Slovenskem a Českou republikou a slavnostně otevřena 24. října 2009. Její vyhlídková plošina nabízí pohled na severní část Záhorské nížiny, Malé Karpaty s vrchem Záruby i Bílé Karpaty s Velkou Javorinou. Při dobré viditelnosti jsou rozpoznatelné také Bradlo s mohylou Milana Rastislava Štefánika, Pálava, Považský Inovec a vzdálenější města regionu. V okolí rozhledny se nachází turistická chata, zřícenina Korlátka a větrný park, takže jde o přirozený výchozí bod pro poznávání zdejší krajiny.",
+      "category": "tourism_and_surroundings",
+      "priority": "B",
+      "sources": [
+        "s11",
+        "s12"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Rozhľadňa Rozbehy",
+        "lat": 48.5723111,
+        "lon": 17.3908844,
+        "type": "lookout_tower",
+        "accuracy": "exact",
+        "source": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Cerová za druhé světové války a jazykovědec Ján Oravec",
+      "text": "Za druhé světové války ležela Cerová v německé ochranné zóně a v okolních Malých Karpatech působily partyzánské skupiny i německé bezpečnostní jednotky. Místní ilegální skupina Protiboj pomáhala uprchlíkům a odboji; v majeri Brezina byl zřízen tábor pro židovské dělníky nucené pracovat na nedokončené železnici. Obec zasáhly americké nálety v červenci a září 1944 a dělostřelecká palba 5. dubna 1945; osvobozena byla následujícího rána. Z Rozbehů pocházel významný slovenský jazykovědec Ján Oravec (1922–2000), který roku 1944 dezertoval ze slovenské armády a do konce války se skrýval doma. Jeho pozdější odborná práce se věnovala zejména západoslovenským nářečím a slovenskému jazyku.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s13",
+        "s14"
+      ],
+      "map_category": "personality",
+      "location": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Cerová – Naša obec a miestne časti",
+      "url": "https://www.obeccerova.sk/nasa-obec",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Cerová – Vznik a história obce",
+      "url": "https://www.obeccerova.sk/vznik-a-historia-obce-a24-439",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Cerová – Korlátko",
+      "url": "https://www.obeccerova.sk/korlatko-a24-438",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Slovakia.travel – The Korlátka Castle",
+      "url": "https://slovakia.travel/en/the-korlatka-castle",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Obec Cerová – Kaštieľ v Lieskovom",
+      "url": "https://www.obeccerova.sk/kastiel-v-lieskovom-a24-437",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Cerová – Sakrálne pamiatky",
+      "url": "https://www.obeccerova.sk/sakralne-pamiatky-a24-435",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – Kostol sv. Anjelov strážcov",
+      "url": "https://www.pamiatkynaslovensku.sk/cerova-kostol-sv-anjelov-strazcov",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Obec Cerová – Paleontologické nálezisko Čierny potok",
+      "url": "https://www.obeccerova.sk/paleontologicke-nalezisko-cierny-potok-a24-432",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Obec Cerová – Veterná elektráreň",
+      "url": "https://www.obeccerova.sk/veterna-elektraren-a24-429",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "TASR – V obci Cerová postavili prvý veterný park na Slovensku",
+      "url": "https://obce.tasr.sk/clanok/933/v-obci-cerova-postavili-prvy-veterny-park-na-slovensku",
+      "type": "news"
+    },
+    {
+      "id": "s11",
+      "title": "Obec Cerová – Rozhľadňa v Rozbehoch",
+      "url": "https://www.obeccerova.sk/rozhladna-v-rozbehoch-a24-434",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Podhoran – Databáza lokalít a súradníc",
+      "url": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s13",
+      "title": "Obec Cerová – História obce v rokoch 1939–1945",
+      "url": "https://www.obeccerova.sk/historia-obce-v-rokoch-1939-1945-a24-428",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Obec Cerová – Osobnosti obce",
+      "url": "https://www.obeccerova.sk/osobnosti-obce",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Cerová – Alúvium Rudavy",
+      "url": "https://www.obeccerova.sk/alvium-rudavy-a24-431",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Obec Cerová – Dub v Pustom Mlyne",
+      "url": "https://www.obeccerova.sk/dub-v-pustom-mlyne-a24-430",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Obec Cerová – Kontakty, adresa a administratívne zaradenie",
+      "url": "https://www.obeccerova.sk/kontakty",
+      "type": "official"
+    },
+    {
+      "id": "s19",
+      "title": "ÚDZS – Zoznam poskytovateľov, PSČ 90633",
+      "url": "https://www.udzs-sk.sk/wp-content/uploads/2025/09/Tabulka-KPZS_1.9.2025.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Cerová – historické jádro a kostel sv. Andělů strážných",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tři historické obce: Cerová, Lieskové a Rozbehy",
+          "text": "Dnešní Cerovou tvoří tři původně samostatné obce a jejich dějiny se v pramenech objevují v různých dobách. Nejstarší písemná zmínka se vztahuje k Lieskovému a pochází z roku 1445, Rozbehy jsou doloženy roku 1598 a Cerová roku 1632. Cerová a Lieskové byly úředně spojeny od 1. ledna 1890 pod názvem Korlátkö; po vzniku Československa se používalo jméno Cerová-Lieskové. Samostatná obec Rozbehy se připojila až roku 1976 a celek přijal název Cerová. Jména částí odkazují na místní dřeviny: cer a lísku."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hrad Korlátka střežil Českou cestu",
+          "text": "Zřícenina hradu Korlátka stojí na skalním výběžku Malých Karpat nad osadou Rozbehy, v nadmořské výšce přibližně 455 metrů. Královský hrad vznikl v polovině 13. století a střežil západní hranici Uherského království i důležitou obchodní trasu zvanou Česká cesta neboli Via Bohemica, která spojovala české země s Budínem. Hrad se ve 14. století stal předmětem mocenských zápasů a později měnil majitele. Od 18. století pustl, protože se vrchnost přestěhovala do pohodlnějšího sídla v podhradí. Dochovaly se části horního hradu, torzo válcové věže a úseky dolního opevnění."
+        },
+        {
+          "id": "fact_003",
+          "title": "Renesanční a barokní kaštieľ v Lieskovém",
+          "text": "Kaštieľ v Lieskovém vznikl v první polovině 17. století jako rezidence Blažeje Apponyiho, který se svým bratrem původně sídlil na hradě Korlátka. Hradní bydlení nebylo pohodlné, a proto si Blažej vybudoval kúrii v podhradí; písemný záznam dokládá, že zde 23. dubna 1643 zasedal panský soud. Součástí sídla byla kaple sv. Josefa, protože Lieskové tehdy nemělo vlastní kostel. Původní renesanční bloková stavba s nárožními věžemi byla v 18. století barokně upravena a v první polovině 19. století získala dnešní klasicistní podobu. Od roku 1969 zde působí Milosrdné sestry sv. Kříže a objekt slouží jako charitní domov, takže interiéry nejsou běžně přístupné."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel strážných andělů a sakrální památky tří částí",
+          "text": "Cerová, Lieskové a Rozbehy byly až do 18. století odkázány na bohoslužby v sousedních obcích. V Cerové se roku 1756 začala stavět kaple Všech svatých andělů, která se stala předchůdkyní dnešního kostela; samostatná farnost vznikla roku 1787 a chrám byl dokončen 3. října 1802. Uvnitř je cenný jednomanuálový varhanní nástroj s pedálem, který roku 1839 postavil Martin Šaško starší z Brezové pod Bradlom. V Lieskovém sloužila panská kaple sv. Josefa, zatímco v Rozbehoch se dochoval kostel Nanebevzetí Panny Marie s pozdně barokním oltářem. Rozdílné sakrální stavby připomínají, že dnešní obec vznikla spojením tří samostatných sídel."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: moře a hlubokomořské fosilie miocénu",
+          "text": "Opuštěná cihelna u Čierného potoka uchovává doklady doby, kdy se před 13 až 17 miliony let na území dnešního Záhoří rozkládalo moře. V odkrytých vápenitých jílech a tenkých vrstvách pískovců byly nalezeny mořské usazeniny a mimořádně zachovalé fosilie měkkýšů, žraloků a dalších hlubokomořských živočichů. Některé nálezy si zachovaly původní schránky nebo kosterní části. Výzkum lokality přispěl k popisu nového rodu a třinácti nových druhů živočichů; popsány byly také dva nové druhy sladkovodních rostlin, jejichž zbytky do tehdejšího moře přinesly řeky z pevniny. Podle analýz dosahovalo moře v této oblasti hloubky přibližně 250 až 350 metrů."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy a první větrný park na Slovensku",
+          "text": "Na hřebeni nad osadou Rozbehy byl v říjnu 2003 uveden do provozu první větrný park na Slovensku. Projekt získal podporu z programu Evropské unie PHARE a přípravy trvaly téměř dva roky; technicky náročný byl zejména převoz dlouhých dílů na místo stavby. Původní park tvořily čtyři turbíny Vestas V47 s instalovaným výkonem 660 kW každá, na stožárech vysokých přibližně 76 metrů a s rotory o průměru 47 metrů. První turbína byla zkušebně spuštěna 10. října v 10 hodin a 10 minut. Větrníky se staly novou technickou dominantou kopaničářské krajiny a připomínají proměnu energetiky na začátku 21. století."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rozhledna Rozbehy otevírá výhled na dvě pohoří",
+          "text": "Kamenná rozhledna nad osadou Rozbehy stojí v nadmořské výšce 460 metrů a měří sedm metrů. Byla vybudována s podporou přeshraničního programu Evropské unie mezi Slovenskem a Českou republikou a slavnostně otevřena 24. října 2009. Její vyhlídková plošina nabízí pohled na severní část Záhorské nížiny, Malé Karpaty s vrchem Záruby i Bílé Karpaty s Velkou Javorinou. Při dobré viditelnosti jsou rozpoznatelné také Bradlo s mohylou Milana Rastislava Štefánika, Pálava, Považský Inovec a vzdálenější města regionu. V okolí rozhledny se nachází turistická chata, zřícenina Korlátka a větrný park, takže jde o přirozený výchozí bod pro poznávání zdejší krajiny."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová za druhé světové války a jazykovědec Ján Oravec",
+          "text": "Za druhé světové války ležela Cerová v německé ochranné zóně a v okolních Malých Karpatech působily partyzánské skupiny i německé bezpečnostní jednotky. Místní ilegální skupina Protiboj pomáhala uprchlíkům a odboji; v majeri Brezina byl zřízen tábor pro židovské dělníky nucené pracovat na nedokončené železnici. Obec zasáhly americké nálety v červenci a září 1944 a dělostřelecká palba 5. dubna 1945; osvobozena byla následujícího rána. Z Rozbehů pocházel významný slovenský jazykovědec Ján Oravec (1922–2000), který roku 1944 dezertoval ze slovenské armády a do konce války se skrýval doma. Jeho pozdější odborná práce se věnovala zejména západoslovenským nářečím a slovenskému jazyku."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Cerová – die Ortsteile Cerová, Lieskové und Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Drei historische Dörfer: Cerová, Lieskové und Rozbehy",
+          "text": "Heute besteht Cerová aus drei ursprünglich selbstständigen Dörfern, deren Geschichte zu unterschiedlichen Zeiten schriftlich belegt ist. Die älteste Erwähnung betrifft Lieskové und stammt aus dem Jahr 1445; Rozbehy wird 1598 und Cerová 1632 genannt. Cerová und Lieskové wurden mit Wirkung vom 1. Januar 1890 unter dem Namen Korlátkö vereinigt. Nach der Entstehung der Tschechoslowakei wurde die Gemeinde Cerová-Lieskové genannt. Das selbstständige Rozbehy kam erst 1976 hinzu; danach erhielt die Gemeinde den Namen Cerová. Die Namen der Ortsteile erinnern an heimische Gehölze: die Zerreiche und den Haselstrauch."
+        },
+        {
+          "id": "fact_002",
+          "title": "Burg Korlátka bewachte den Böhmischen Weg",
+          "text": "Die Ruine der Burg Korlátka liegt auf einem Felsvorsprung der Kleinen Karpaten oberhalb des Ortsteils Rozbehy, auf etwa 455 Metern Höhe. Die königliche Burg entstand Mitte des 13. Jahrhunderts und bewachte die Westgrenze des Königreichs Ungarn sowie den wichtigen Handelsweg Via Bohemica, der die böhmischen Länder mit Ofen verband. Im 14. Jahrhundert geriet die Burg in Machtkämpfe und wechselte später mehrfach den Besitzer. Seit dem 18. Jahrhundert verfiel sie, nachdem die Herrschaft in einen bequemeren Sitz unterhalb der Burg gezogen war. Erhalten blieben Teile der Oberburg, der Rest eines Rundturms und Abschnitte der unteren Befestigung."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Renaissance- und Barockschloss in Lieskové",
+          "text": "Das Schloss in Lieskové entstand in der ersten Hälfte des 17. Jahrhunderts als Wohnsitz von Blažej Apponyi, der zunächst mit seinem Bruder auf der Burg Korlátka lebte. Da das Wohnen auf der Burg wenig komfortabel war, ließ Blažej im Vorburgbereich ein Herrenhaus errichten. Ein Schriftstück belegt, dass hier am 23. April 1643 ein herrschaftliches Gericht tagte. Zum Schloss gehörte eine Kapelle des heiligen Josef, denn Lieskové hatte damals keine eigene Kirche. Der Renaissancebau mit Ecktürmen wurde im 18. Jahrhundert barock umgestaltet und erhielt in der ersten Hälfte des 19. Jahrhunderts sein heutiges klassizistisches Aussehen. Seit 1969 leben hier Barmherzige Schwestern vom Heiligen Kreuz; das Gebäude dient als karitative Einrichtung und ist innen nicht regulär zugänglich."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Schutzengelkirche und die Sakralbauten der drei Ortsteile",
+          "text": "Bis ins 18. Jahrhundert mussten die Bewohner von Cerová, Lieskové und Rozbehy zum Gottesdienst in Nachbarorte gehen. 1756 begann in Cerová der Bau einer Kapelle zu Ehren der heiligen Schutzengel, aus der die heutige Kirche hervorging. Die eigenständige Pfarrei wurde 1787 eingerichtet, die Kirche am 3. Oktober 1802 fertiggestellt. Im Inneren befindet sich eine wertvolle einmanualige Orgel mit Pedal, die Martin Šaško der Ältere aus Brezová pod Bradlom 1839 baute. In Lieskové diente die herrschaftliche Josefskapelle, während in Rozbehy die Kirche Mariä Himmelfahrt mit einem spätbarocken Altar erhalten blieb. Die unterschiedlichen Sakralbauten erinnern daran, dass die heutige Gemeinde aus drei getrennten Siedlungen entstand."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: Meer und miozäne Tiefseefossilien",
+          "text": "Die aufgelassene Ziegelei am Čierny potok bewahrt Zeugnisse aus einer Zeit, als vor 13 bis 17 Millionen Jahren das Gebiet des heutigen Záhorie von einem Meer bedeckt war. In freigelegten kalkhaltigen Tonen und dünnen Sandsteinschichten wurden Meeresablagerungen und außergewöhnlich gut erhaltene Fossilien von Weichtieren, Haien und anderen Tiefseetieren gefunden. Einige Funde bewahren noch ihre ursprünglichen Schalen oder Skelettteile. Die Forschung beschrieb hier eine neue Gattung und dreizehn neue Tierarten sowie zwei neue Arten von Süßwasserpflanzen, deren Reste Flüsse vom Festland ins damalige Meer gebracht hatten. Analysen zufolge war das Meer an dieser Stelle etwa 250 bis 350 Meter tief."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy und der erste Windpark der Slowakei",
+          "text": "Auf dem Höhenrücken oberhalb von Rozbehy wurde im Oktober 2003 der erste Windpark der Slowakei in Betrieb genommen. Das Projekt erhielt Unterstützung aus dem EU-Programm PHARE; die Vorbereitungen dauerten fast zwei Jahre. Besonders schwierig war der Transport der langen Bauteile zum Standort. Der ursprüngliche Park bestand aus vier Vestas-V47-Anlagen mit je 660 kW Leistung, auf etwa 76 Meter hohen Masten und mit Rotoren von 47 Metern Durchmesser. Die erste Turbine wurde am 10. Oktober um 10 Uhr und 10 Minuten probeweise gestartet. Die Windräder wurden zu einem technischen Wahrzeichen der Kopanice-Landschaft und stehen für den Wandel der Energieversorgung zu Beginn des 21. Jahrhunderts."
+        },
+        {
+          "id": "fact_007",
+          "title": "Der Aussichtsturm Rozbehy mit Blick auf zwei Gebirge",
+          "text": "Der steinerne Aussichtsturm oberhalb von Rozbehy steht auf 460 Metern Höhe und ist sieben Meter hoch. Er wurde mit Unterstützung eines EU-Programms für grenzüberschreitende Zusammenarbeit zwischen der Slowakei und Tschechien errichtet und am 24. Oktober 2009 feierlich eröffnet. Von der Plattform blickt man auf den nördlichen Teil des Záhorie-Tieflands, die Kleinen Karpaten mit dem Gipfel Záruby und die Weißen Karpaten mit der Veľká Javorina. Bei guter Sicht sind auch Bradlo mit dem Hügelgrab von Milan Rastislav Štefánik, die Pollauer Berge und der Považský Inovec zu erkennen. In der Nähe liegen eine Berghütte, die Burgruine Korlátka und der Windpark."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová im Zweiten Weltkrieg und der Sprachwissenschaftler Ján Oravec",
+          "text": "Während des Zweiten Weltkriegs lag Cerová in einer deutschen Schutzzone; in den Kleinen Karpaten wirkten Partisanengruppen und deutsche Sicherheitsverbände. Die lokale illegale Gruppe Protiboj unterstützte Flüchtlinge und den Widerstand. Im Meierhof Brezina wurde ein Lager für jüdische Zwangsarbeiter eingerichtet, die an einer unvollendeten Eisenbahnstrecke arbeiten mussten. Amerikanische Luftangriffe trafen den Ort im Juli und September 1944, Artilleriebeschuss folgte am 5. April 1945; am nächsten Morgen wurde Cerová befreit. Aus Rozbehy stammte der bedeutende slowakische Sprachwissenschaftler Ján Oravec (1922–2000). Er desertierte 1944 aus der slowakischen Armee und versteckte sich bis Kriegsende zu Hause. Später erforschte er besonders westslowakische Dialekte und die slowakische Sprache."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Cerová – the localities of Cerová, Lieskové and Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Three historic villages: Cerová, Lieskové and Rozbehy",
+          "text": "Present-day Cerová comprises three settlements that were once independent villages and entered written records at different times. The earliest documented mention concerns Lieskové in 1445; Rozbehy is recorded in 1598 and Cerová in 1632. Cerová and Lieskové were officially united from 1 January 1890 under the name Korlátkö. After the establishment of Czechoslovakia, the municipality was called Cerová-Lieskové. The formerly independent village of Rozbehy joined in 1976, after which the municipality took the name Cerová. The names of the localities refer to native trees: the Turkey oak and the hazel shrub."
+        },
+        {
+          "id": "fact_002",
+          "title": "Korlátka Castle guarded the Bohemian Road",
+          "text": "The ruins of Korlátka Castle stand on a rocky spur of the Little Carpathians above the settlement of Rozbehy, at about 455 metres above sea level. The royal castle was built in the mid-13th century and guarded the western frontier of the Kingdom of Hungary as well as the important trade route known as the Via Bohemica, linking the Czech lands with Buda. In the 14th century it became involved in power struggles and later changed hands several times. It fell into decline from the 18th century after the estate moved to a more comfortable residence below the castle. Parts of the upper castle, a fragment of its cylindrical tower and sections of the lower fortifications survive."
+        },
+        {
+          "id": "fact_003",
+          "title": "The Renaissance and Baroque manor house in Lieskové",
+          "text": "The manor house in Lieskové was built in the first half of the 17th century as the residence of Blažej Apponyi, who had initially lived with his brother at Korlátka Castle. Life in the castle was uncomfortable, so Blažej built a manor in the settlement below it. A written record confirms that a lordly court met here on 23 April 1643. The estate included a chapel dedicated to St Joseph, as Lieskové did not yet have its own church. The original Renaissance block with corner towers was remodelled in the Baroque style in the 18th century and acquired its present Neoclassical appearance in the first half of the 19th century. Since 1969 it has housed the Sisters of the Holy Cross and serves as a charitable home, so its interiors are not normally open to visitors."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Guardian Angels Church and sacred buildings of the three localities",
+          "text": "Until the 18th century, residents of Cerová, Lieskové and Rozbehy had to attend services in neighbouring villages. In 1756 a chapel dedicated to the Holy Guardian Angels began to be built in Cerová; it became the predecessor of the present church. An independent parish was established in 1787, and the church was completed on 3 October 1802. Inside is a valuable single-manual organ with pedal, built in 1839 by Martin Šaško the Elder of Brezová pod Bradlom. Lieskové had a manor chapel dedicated to St Joseph, while Rozbehy retains the Church of the Assumption of Mary with a late-Baroque altar. These different sacred buildings recall that today’s municipality grew from three separate settlements."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: an ancient sea and Miocene deep-sea fossils",
+          "text": "The disused brickworks near Čierny potok preserves evidence of a time when the area of today’s Záhorie was covered by the sea, 13 to 17 million years ago. Marine deposits and exceptionally well-preserved fossils of molluscs, sharks and other deep-sea animals were found in exposed calcareous clays and thin sandstone layers. Some fossils retain their original shells or skeletal parts. Research at the site led to the description of one new genus and thirteen new animal species, as well as two new freshwater plant species whose remains had been carried into the sea by rivers from the nearby continent. Analyses suggest that the sea here was approximately 250 to 350 metres deep."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy and Slovakia’s first wind farm",
+          "text": "Slovakia’s first wind farm began operating on the ridge above Rozbehy in October 2003. The project received support from the European Union’s PHARE programme, and preparations took almost two years. Transporting the long components to the construction site was a particular logistical challenge. The original park consisted of four Vestas V47 turbines, each rated at 660 kW, mounted on towers about 76 metres high with 47-metre rotors. The first turbine was started for trial operation at 10:10 a.m. on 10 October. The turbines became a new technical landmark in the Kopanice landscape and represent the changing energy sector at the beginning of the 21st century."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Rozbehy lookout tower and views across two mountain ranges",
+          "text": "The stone lookout tower above Rozbehy stands at an altitude of 460 metres and is seven metres high. It was built with support from an EU cross-border cooperation programme between Slovakia and the Czech Republic and officially opened on 24 October 2009. From the viewing platform visitors can see the northern part of the Záhorie Lowland, the Little Carpathians with Mount Záruby and the White Carpathians with Veľká Javorina. On clear days, Bradlo with the memorial mound of Milan Rastislav Štefánik, the Pálava Hills and the Považský Inovec range are also visible. A mountain hut, Korlátka Castle ruins and the wind farm are nearby."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová during the Second World War and linguist Ján Oravec",
+          "text": "During the Second World War, Cerová was part of a German protection zone, while partisan groups and German security units operated in the surrounding Little Carpathians. The local underground group Protiboj helped refugees and the resistance. A camp for Jewish forced labourers was established at the Brezina farmstead, where they were made to work on an unfinished railway. American air raids struck the village in July and September 1944, followed by artillery fire on 5 April 1945; Cerová was liberated the next morning. The notable Slovak linguist Ján Oravec (1922–2000) came from Rozbehy. He deserted from the Slovak army in 1944 and hid at home until the end of the war. His later academic work focused especially on western Slovak dialects and the Slovak language."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Cerová: las localidades de Cerová, Lieskové y Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tres pueblos históricos: Cerová, Lieskové y Rozbehy",
+          "text": "La Cerová actual está formada por tres localidades que fueron pueblos independientes y aparecen en documentos de distintas épocas. La primera mención escrita corresponde a Lieskové, en 1445; Rozbehy se documenta en 1598 y Cerová en 1632. Cerová y Lieskové se unieron oficialmente el 1 de enero de 1890 bajo el nombre de Korlátkö. Tras la creación de Checoslovaquia, el municipio pasó a llamarse Cerová-Lieskové. La localidad independiente de Rozbehy se incorporó en 1976 y el conjunto adoptó el nombre de Cerová. Los nombres de las partes aluden a árboles autóctonos: el roble turco y el avellano."
+        },
+        {
+          "id": "fact_002",
+          "title": "El castillo de Korlátka protegía la ruta de Bohemia",
+          "text": "Las ruinas del castillo de Korlátka se alzan sobre un espolón rocoso de los Pequeños Cárpatos, encima de la localidad de Rozbehy, a unos 455 metros de altitud. El castillo real se construyó a mediados del siglo XIII y protegía la frontera occidental del Reino de Hungría y la importante ruta comercial llamada Via Bohemica, que unía las tierras checas con Buda. En el siglo XIV quedó envuelto en luchas por el poder y más tarde cambió varias veces de propietario. Desde el siglo XVIII fue decayendo, cuando los señores trasladaron su residencia a un lugar más cómodo bajo el castillo. Se conservan partes del castillo superior, un fragmento de la torre cilíndrica y tramos de las fortificaciones inferiores."
+        },
+        {
+          "id": "fact_003",
+          "title": "La mansión renacentista y barroca de Lieskové",
+          "text": "El palacio de Lieskové se construyó en la primera mitad del siglo XVII como residencia de Blažej Apponyi, que inicialmente vivía con su hermano en el castillo de Korlátka. Las condiciones del castillo eran poco cómodas, por lo que Blažej levantó una residencia señorial en el asentamiento situado debajo. Un documento confirma que el tribunal señorial se reunió allí el 23 de abril de 1643. La propiedad incluía una capilla dedicada a san José, ya que Lieskové todavía no tenía iglesia propia. El bloque renacentista original con torres en las esquinas fue reformado en estilo barroco en el siglo XVIII y adquirió su aspecto neoclásico actual durante la primera mitad del XIX. Desde 1969 alberga a las Hermanas de la Santa Cruz y funciona como residencia benéfica, por lo que sus interiores no suelen estar abiertos al público."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia de los Ángeles Custodios y los templos de las tres localidades",
+          "text": "Hasta el siglo XVIII, los habitantes de Cerová, Lieskové y Rozbehy tenían que acudir a los oficios religiosos en pueblos vecinos. En 1756 comenzó en Cerová la construcción de una capilla dedicada a los Santos Ángeles Custodios, antecedente de la iglesia actual. La parroquia independiente se creó en 1787 y el templo quedó terminado el 3 de octubre de 1802. En su interior destaca un valioso órgano de un teclado con pedal, construido en 1839 por Martin Šaško el Viejo, de Brezová pod Bradlom. En Lieskové existía una capilla señorial de san José, mientras que en Rozbehy se conserva la iglesia de la Asunción de María con un altar barroco tardío. Estos edificios recuerdan que el municipio actual nació de tres asentamientos distintos."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: un antiguo mar y fósiles marinos del Mioceno",
+          "text": "La antigua fábrica de ladrillos junto al arroyo Čierny potok conserva pruebas de una época en la que el territorio de la actual región de Záhorie estaba cubierto por el mar, hace entre 13 y 17 millones de años. En arcillas calcáreas y finas capas de arenisca afloran sedimentos marinos y fósiles excepcionalmente bien conservados de moluscos, tiburones y otros animales de aguas profundas. Algunos conservan sus conchas originales o partes del esqueleto. La investigación permitió describir un nuevo género y trece nuevas especies animales, además de dos nuevas especies de plantas de agua dulce cuyos restos llegaron al mar transportados por ríos desde el continente cercano. Los análisis indican que el mar alcanzaba aquí unos 250 a 350 metros de profundidad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy y el primer parque eólico de Eslovaquia",
+          "text": "El primer parque eólico de Eslovaquia comenzó a funcionar en octubre de 2003 en la cresta sobre Rozbehy. El proyecto recibió apoyo del programa PHARE de la Unión Europea y los preparativos duraron casi dos años. El transporte de las largas piezas hasta el lugar de construcción supuso un reto logístico especial. El parque original estaba formado por cuatro turbinas Vestas V47 de 660 kW cada una, instaladas en torres de unos 76 metros y con rotores de 47 metros de diámetro. La primera turbina se puso en marcha en pruebas el 10 de octubre a las 10:10. Los aerogeneradores se convirtieron en un nuevo hito técnico del paisaje de Kopanice y simbolizan la transformación energética de comienzos del siglo XXI."
+        },
+        {
+          "id": "fact_007",
+          "title": "El mirador de Rozbehy y las vistas de dos cordilleras",
+          "text": "El mirador de piedra situado sobre Rozbehy se encuentra a 460 metros de altitud y tiene siete metros de altura. Se construyó con apoyo de un programa de cooperación transfronteriza de la Unión Europea entre Eslovaquia y Chequia y se inauguró el 24 de octubre de 2009. Desde su plataforma se contempla la parte norte de la llanura de Záhorie, los Pequeños Cárpatos con el monte Záruby y los Cárpatos Blancos con Veľká Javorina. En días despejados también se distinguen Bradlo con el túmulo de Milan Rastislav Štefánik, Pálava y la cordillera de Považský Inovec. Cerca se encuentran un refugio de montaña, las ruinas de Korlátka y el parque eólico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová durante la Segunda Guerra Mundial y el lingüista Ján Oravec",
+          "text": "Durante la Segunda Guerra Mundial, Cerová formó parte de una zona de protección alemana y en los Pequeños Cárpatos actuaron grupos partisanos y unidades alemanas de seguridad. El grupo clandestino local Protiboj ayudaba a refugiados y a la resistencia. En la finca de Brezina se estableció un campo para trabajadores judíos obligados a trabajar en una línea ferroviaria inacabada. La localidad sufrió ataques aéreos estadounidenses en julio y septiembre de 1944 y fuego de artillería el 5 de abril de 1945; fue liberada a la mañana siguiente. De Rozbehy era el destacado lingüista eslovaco Ján Oravec (1922–2000), que desertó del ejército eslovaco en 1944 y permaneció escondido en su casa hasta el final de la guerra. Más tarde investigó sobre todo los dialectos del oeste de Eslovaquia y la lengua eslovaca."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Cerová – les localités de Cerová, Lieskové et Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Trois villages historiques : Cerová, Lieskové et Rozbehy",
+          "text": "La commune actuelle de Cerová réunit trois localités qui furent autrefois des villages indépendants et apparaissent dans les sources à des dates différentes. La plus ancienne mention écrite concerne Lieskové, en 1445 ; Rozbehy est attesté en 1598 et Cerová en 1632. Cerová et Lieskové furent officiellement réunis à partir du 1er janvier 1890 sous le nom de Korlátkö. Après la création de la Tchécoslovaquie, la commune prit le nom de Cerová-Lieskové. Le village indépendant de Rozbehy fut rattaché en 1976, puis l’ensemble adopta le nom de Cerová. Les noms des localités évoquent des arbres indigènes : le chêne chevelu et le noisetier."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le château de Korlátka surveillait la route de Bohême",
+          "text": "Les ruines du château de Korlátka se dressent sur un éperon rocheux des Petites Carpates, au-dessus du hameau de Rozbehy, à environ 455 mètres d’altitude. Ce château royal fut construit au milieu du XIIIe siècle pour défendre la frontière occidentale du royaume de Hongrie et surveiller la route commerciale appelée Via Bohemica, qui reliait les pays tchèques à Buda. Au XIVe siècle, il fut impliqué dans des luttes de pouvoir, puis changea plusieurs fois de propriétaire. Il tomba en ruine à partir du XVIIIe siècle, lorsque les seigneurs transférèrent leur résidence dans un logis plus confortable au pied du château. Il subsiste des éléments du château supérieur, un fragment de tour cylindrique et des sections des fortifications inférieures."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le manoir Renaissance et baroque de Lieskové",
+          "text": "Le manoir de Lieskové fut construit dans la première moitié du XVIIe siècle comme résidence de Blažej Apponyi, qui vivait initialement avec son frère au château de Korlátka. Les conditions de vie dans le château étant peu confortables, Blažej fit bâtir une demeure seigneuriale dans le village en contrebas. Un document atteste qu’un tribunal seigneurial s’y réunit le 23 avril 1643. Le domaine possédait une chapelle dédiée à saint Joseph, car Lieskové n’avait pas encore d’église propre. Le bloc Renaissance à tours d’angle fut remanié dans le style baroque au XVIIIe siècle, puis prit son aspect néoclassique actuel dans la première moitié du XIXe siècle. Depuis 1969, il accueille les Sœurs de la Sainte-Croix et sert de maison caritative ; ses intérieurs ne sont donc pas normalement ouverts au public."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église des Saints-Anges-Gardiens et les édifices religieux des trois localités",
+          "text": "Jusqu’au XVIIIe siècle, les habitants de Cerová, Lieskové et Rozbehy devaient se rendre aux offices religieux dans les villages voisins. En 1756, la construction d’une chapelle dédiée aux Saints-Anges-Gardiens commença à Cerová ; elle fut à l’origine de l’église actuelle. La paroisse indépendante fut créée en 1787 et l’église achevée le 3 octobre 1802. Elle abrite un orgue précieux à un clavier et pédalier, construit en 1839 par Martin Šaško l’Ancien, de Brezová pod Bradlom. Lieskové possédait une chapelle seigneuriale Saint-Joseph, tandis que Rozbehy conserve l’église de l’Assomption de Marie et son autel baroque tardif. Ces édifices rappellent que la commune actuelle est née de la réunion de trois localités distinctes."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok : une ancienne mer et des fossiles marins du Miocène",
+          "text": "L’ancienne briqueterie près du ruisseau Čierny potok conserve les traces d’une époque où le territoire de l’actuelle région de Záhorie était recouvert par la mer, il y a 13 à 17 millions d’années. Les argiles calcaires et les minces couches de grès mises à nu contiennent des sédiments marins et des fossiles exceptionnellement bien conservés de mollusques, de requins et d’autres animaux des grands fonds. Certains fossiles gardent leurs coquilles ou des éléments de squelette d’origine. Les recherches ont permis de décrire un nouveau genre et treize nouvelles espèces animales, ainsi que deux nouvelles espèces de plantes d’eau douce dont les restes avaient été transportés par les rivières depuis le continent voisin. Les analyses indiquent que la mer atteignait ici environ 250 à 350 mètres de profondeur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy et le premier parc éolien de Slovaquie",
+          "text": "Le premier parc éolien de Slovaquie fut mis en service en octobre 2003 sur la crête au-dessus de Rozbehy. Le projet bénéficia du programme PHARE de l’Union européenne et les préparatifs durèrent près de deux ans. Le transport des longues pièces jusqu’au chantier représenta un défi logistique particulier. Le parc initial comptait quatre éoliennes Vestas V47 de 660 kW chacune, installées sur des mâts d’environ 76 mètres avec des rotors de 47 mètres de diamètre. La première turbine fut mise en marche à titre d’essai le 10 octobre à 10 h 10. Ces éoliennes sont devenues un repère technique du paysage de Kopanice et témoignent de l’évolution du secteur énergétique au début du XXIe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le belvédère de Rozbehy et la vue sur deux massifs",
+          "text": "Le belvédère en pierre au-dessus de Rozbehy se trouve à 460 mètres d’altitude et mesure sept mètres de haut. Il fut construit grâce au soutien d’un programme de coopération transfrontalière de l’Union européenne entre la Slovaquie et la Tchéquie, puis inauguré le 24 octobre 2009. Depuis la plateforme, on découvre le nord de la plaine de Záhorie, les Petites Carpates et le sommet Záruby, ainsi que les Carpates blanches et Veľká Javorina. Par bonne visibilité, on distingue aussi Bradlo et le tumulus de Milan Rastislav Štefánik, Pálava et le massif de Považský Inovec. Un refuge de randonnée, les ruines de Korlátka et le parc éolien se trouvent à proximité."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová pendant la Seconde Guerre mondiale et le linguiste Ján Oravec",
+          "text": "Pendant la Seconde Guerre mondiale, Cerová faisait partie d’une zone de protection allemande ; des groupes de partisans et des unités de sécurité allemandes opéraient dans les Petites Carpates voisines. Le groupe clandestin local Protiboj aidait les réfugiés et la résistance. Un camp de travailleurs juifs forcés fut installé dans la ferme de Brezina pour les faire travailler sur une ligne ferroviaire inachevée. Le village fut touché par des raids aériens américains en juillet et septembre 1944, puis par des tirs d’artillerie le 5 avril 1945 ; il fut libéré le lendemain matin. Le linguiste slovaque Ján Oravec (1922–2000), originaire de Rozbehy, déserta l’armée slovaque en 1944 et se cacha chez lui jusqu’à la fin de la guerre. Ses travaux ultérieurs portèrent surtout sur les dialectes de l’ouest de la Slovaquie et la langue slovaque."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Cerová – le località di Cerová, Lieskové e Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Tre villaggi storici: Cerová, Lieskové e Rozbehy",
+          "text": "L’odierna Cerová comprende tre località che un tempo erano villaggi autonomi e compaiono nei documenti in epoche diverse. La prima menzione scritta riguarda Lieskové, nel 1445; Rozbehy è attestata nel 1598 e Cerová nel 1632. Cerová e Lieskové furono unite ufficialmente dal 1º gennaio 1890 con il nome di Korlátkö. Dopo la nascita della Cecoslovacchia il comune prese il nome di Cerová-Lieskové. Il villaggio autonomo di Rozbehy fu aggregato soltanto nel 1976, quando l’insieme assunse il nome di Cerová. I nomi delle località richiamano alberi autoctoni: la quercia ungherese e il nocciolo."
+        },
+        {
+          "id": "fact_002",
+          "title": "Il castello di Korlátka sorvegliava la Via Boema",
+          "text": "Le rovine del castello di Korlátka sorgono su uno sperone roccioso dei Piccoli Carpazi sopra la frazione di Rozbehy, a circa 455 metri di quota. Il castello reale fu costruito verso la metà del XIII secolo per proteggere il confine occidentale del Regno d’Ungheria e sorvegliare l’importante via commerciale detta Via Boema, che collegava le terre ceche a Buda. Nel XIV secolo fu coinvolto nelle lotte per il potere e in seguito cambiò più volte proprietario. Dal XVIII secolo cadde in rovina, dopo che i signori trasferirono la residenza in una dimora più comoda ai piedi del castello. Restano parti del castello superiore, un frammento della torre cilindrica e tratti delle fortificazioni inferiori."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il palazzo rinascimentale e barocco di Lieskové",
+          "text": "Il palazzo di Lieskové fu costruito nella prima metà del XVII secolo come residenza di Blažej Apponyi, che inizialmente viveva con il fratello nel castello di Korlátka. Poiché le condizioni nel castello erano scomode, Blažej fece costruire una dimora signorile nell’abitato sottostante. Un documento attesta che il 23 aprile 1643 vi si riunì il tribunale della signoria. La proprietà comprendeva una cappella dedicata a san Giuseppe, perché Lieskové non aveva ancora una propria chiesa. Il blocco rinascimentale con torri angolari fu rimaneggiato in stile barocco nel XVIII secolo e assunse l’aspetto neoclassico attuale nella prima metà del XIX secolo. Dal 1969 ospita le Suore della Santa Croce e funge da casa assistenziale, perciò gli interni non sono normalmente visitabili."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa degli Angeli Custodi e gli edifici sacri delle tre località",
+          "text": "Fino al XVIII secolo gli abitanti di Cerová, Lieskové e Rozbehy dovevano recarsi nei villaggi vicini per le funzioni religiose. Nel 1756 a Cerová iniziò la costruzione di una cappella dedicata ai Santi Angeli Custodi, predecessora della chiesa attuale. La parrocchia autonoma fu istituita nel 1787 e la chiesa venne completata il 3 ottobre 1802. All’interno si conserva un prezioso organo a un manuale con pedaliera, costruito nel 1839 da Martin Šaško il Vecchio di Brezová pod Bradlom. A Lieskové si trovava la cappella signorile di san Giuseppe, mentre a Rozbehy è conservata la chiesa dell’Assunzione di Maria con un altare tardobarocco. Questi edifici ricordano che il comune attuale nacque dall’unione di tre insediamenti distinti."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: un antico mare e fossili marini del Miocene",
+          "text": "L’ex fornace di mattoni presso il torrente Čierny potok conserva le prove di un’epoca in cui il territorio dell’attuale Záhorie era coperto dal mare, tra 13 e 17 milioni di anni fa. Nelle argille calcaree affioranti e nei sottili strati di arenaria sono stati trovati sedimenti marini e fossili eccezionalmente ben conservati di molluschi, squali e altri animali degli abissi. Alcuni reperti mantengono le conchiglie originarie o parti dello scheletro. Le ricerche hanno permesso di descrivere un nuovo genere e tredici nuove specie animali, oltre a due nuove specie di piante d’acqua dolce i cui resti furono trasportati nel mare dai fiumi provenienti dal continente vicino. Le analisi indicano che qui il mare raggiungeva una profondità di circa 250–350 metri."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy e il primo parco eolico della Slovacchia",
+          "text": "Il primo parco eolico della Slovacchia entrò in funzione nell’ottobre 2003 sul crinale sopra Rozbehy. Il progetto ricevette il sostegno del programma PHARE dell’Unione europea e la preparazione durò quasi due anni. Il trasporto dei lunghi componenti fino al cantiere fu una particolare sfida logistica. Il parco originario comprendeva quattro turbine Vestas V47 da 660 kW ciascuna, installate su torri alte circa 76 metri e dotate di rotori di 47 metri di diametro. La prima turbina fu avviata in prova il 10 ottobre alle 10:10. Le pale eoliche divennero un nuovo punto di riferimento tecnico del paesaggio di Kopanice e testimoniano il cambiamento del settore energetico all’inizio del XXI secolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "La torre panoramica di Rozbehy e la vista su due catene montuose",
+          "text": "La torre panoramica in pietra sopra Rozbehy si trova a 460 metri di quota ed è alta sette metri. Fu costruita con il sostegno di un programma di cooperazione transfrontaliera dell’Unione europea tra Slovacchia e Repubblica Ceca e inaugurata il 24 ottobre 2009. Dalla piattaforma si osservano la parte settentrionale della pianura di Záhorie, i Piccoli Carpazi con il monte Záruby e i Carpazi Bianchi con Veľká Javorina. Nelle giornate limpide si distinguono anche Bradlo con il tumulo di Milan Rastislav Štefánik, Pálava e la catena del Považský Inovec. Nelle vicinanze si trovano un rifugio escursionistico, le rovine di Korlátka e il parco eolico."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová durante la Seconda guerra mondiale e il linguista Ján Oravec",
+          "text": "Durante la Seconda guerra mondiale Cerová faceva parte di una zona di protezione tedesca; nei Piccoli Carpazi circostanti operavano gruppi partigiani e unità di sicurezza tedesche. Il gruppo clandestino locale Protiboj aiutava i rifugiati e la resistenza. Nella fattoria di Brezina fu allestito un campo per lavoratori ebrei costretti a lavorare a una ferrovia mai completata. Il paese subì incursioni aeree americane nel luglio e nel settembre 1944 e fu colpito dall’artiglieria il 5 aprile 1945; venne liberato la mattina seguente. Da Rozbehy proveniva il noto linguista slovacco Ján Oravec (1922–2000), che nel 1944 disertò dall’esercito slovacco e si nascose a casa fino alla fine della guerra. In seguito si dedicò soprattutto allo studio dei dialetti della Slovacchia occidentale e della lingua slovacca."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Cerová – de deelplaatsen Cerová, Lieskové en Rozbehy",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Drie historische dorpen: Cerová, Lieskové en Rozbehy",
+          "text": "Het huidige Cerová bestaat uit drie plaatsen die vroeger zelfstandige dorpen waren en op verschillende momenten in schriftelijke bronnen verschijnen. De oudste vermelding betreft Lieskové en dateert uit 1445; Rozbehy wordt vermeld in 1598 en Cerová in 1632. Cerová en Lieskové werden vanaf 1 januari 1890 officieel samengevoegd onder de naam Korlátkö. Na de stichting van Tsjechoslowakije kreeg de gemeente de naam Cerová-Lieskové. Het zelfstandige dorp Rozbehy werd pas in 1976 toegevoegd; daarna kreeg het geheel de naam Cerová. De namen van de deelplaatsen verwijzen naar inheemse bomen: de moseik en de hazelaar."
+        },
+        {
+          "id": "fact_002",
+          "title": "Burcht Korlátka bewaakte de Boheemse route",
+          "text": "De ruïne van burcht Korlátka staat op een rotsachtige uitloper van de Kleine Karpaten boven de nederzetting Rozbehy, op ongeveer 455 meter hoogte. De koninklijke burcht werd halverwege de dertiende eeuw gebouwd en bewaakte de westgrens van het Koninkrijk Hongarije en de belangrijke handelsroute Via Bohemica, die de Tsjechische gebieden met Boeda verbond. In de veertiende eeuw raakte de burcht betrokken bij machtsstrijd en later wisselde zij meermaals van eigenaar. Vanaf de achttiende eeuw raakte zij in verval, nadat de heren hun residentie naar een comfortabeler landhuis beneden de burcht verplaatsten. Delen van de bovenburcht, een fragment van de ronde toren en stukken van de lagere verdedigingswerken zijn bewaard gebleven."
+        },
+        {
+          "id": "fact_003",
+          "title": "Het renaissance- en barokke landhuis in Lieskové",
+          "text": "Het landhuis in Lieskové werd in de eerste helft van de zeventiende eeuw gebouwd als residentie van Blažej Apponyi, die aanvankelijk met zijn broer op burcht Korlátka woonde. Omdat het verblijf op de burcht weinig comfortabel was, liet Blažej een adellijk huis bouwen in de nederzetting eronder. Een document vermeldt dat hier op 23 april 1643 een heerlijke rechtbank bijeenkwam. Bij het landgoed hoorde een kapel gewijd aan Sint-Jozef, want Lieskové had toen nog geen eigen kerk. Het oorspronkelijke renaissanceblok met hoektorens werd in de achttiende eeuw in barokstijl aangepast en kreeg in de eerste helft van de negentiende eeuw zijn huidige neoclassicistische uiterlijk. Sinds 1969 wonen hier de Zusters van het Heilig Kruis; het gebouw dient als liefdadige woonvoorziening en is binnen doorgaans niet toegankelijk."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Kerk van de Beschermengelen en de heilige gebouwen van de drie deelplaatsen",
+          "text": "Tot in de achttiende eeuw moesten de inwoners van Cerová, Lieskové en Rozbehy voor kerkdiensten naar naburige dorpen. In 1756 begon in Cerová de bouw van een kapel gewijd aan de Heilige Beschermengelen, de voorloper van de huidige kerk. De zelfstandige parochie werd in 1787 opgericht en de kerk werd op 3 oktober 1802 voltooid. Binnen staat een waardevol eenklaviers orgel met pedaal, gebouwd in 1839 door Martin Šaško senior uit Brezová pod Bradlom. In Lieskové was er een adellijke kapel van Sint-Jozef; in Rozbehy is de kerk van Maria-Tenhemelopneming met een laatbarok altaar bewaard gebleven. Deze verschillende kerkgebouwen herinneren eraan dat de huidige gemeente uit drie afzonderlijke nederzettingen is ontstaan."
+        },
+        {
+          "id": "fact_005",
+          "title": "Čierny potok: een oeroude zee en fossielen uit het Mioceen",
+          "text": "De verlaten steenbakkerij bij de beek Čierny potok bewaart bewijzen van een tijd waarin het gebied van het huidige Záhorie, 13 tot 17 miljoen jaar geleden, door zee werd bedekt. In ontsloten kalkhoudende klei en dunne zandsteenlagen zijn mariene afzettingen en uitzonderlijk goed bewaarde fossielen gevonden van weekdieren, haaien en andere diepzeedieren. Sommige fossielen hebben hun oorspronkelijke schelpen of skeletdelen behouden. Het onderzoek leidde tot de beschrijving van een nieuw geslacht en dertien nieuwe diersoorten, evenals twee nieuwe soorten zoetwaterplanten waarvan resten door rivieren vanaf het nabije vasteland in zee waren gebracht. Volgens analyses was de zee hier ongeveer 250 tot 350 meter diep."
+        },
+        {
+          "id": "fact_006",
+          "title": "Rozbehy en het eerste windpark van Slowakije",
+          "text": "Het eerste windpark van Slowakije werd in oktober 2003 in gebruik genomen op de heuvelrug boven Rozbehy. Het project kreeg steun uit het EU-programma PHARE; de voorbereidingen duurden bijna twee jaar. Vooral het vervoer van de lange onderdelen naar de bouwplaats was logistiek ingewikkeld. Het oorspronkelijke park bestond uit vier Vestas V47-turbines van elk 660 kW, op masten van ongeveer 76 meter hoog en met rotors van 47 meter doorsnee. De eerste turbine werd op 10 oktober om 10.10 uur proefgedraaid. De windturbines werden een nieuw technisch herkenningspunt in het landschap van Kopanice en laten de verandering van de energiesector aan het begin van de eenentwintigste eeuw zien."
+        },
+        {
+          "id": "fact_007",
+          "title": "De uitkijktoren van Rozbehy met zicht op twee bergketens",
+          "text": "De stenen uitkijktoren boven Rozbehy staat op 460 meter hoogte en is zeven meter hoog. Hij werd gebouwd met steun van een EU-programma voor grensoverschrijdende samenwerking tussen Slowakije en Tsjechië en feestelijk geopend op 24 oktober 2009. Vanaf het platform kijk je uit over het noordelijke deel van de Záhorie-laagvlakte, de Kleine Karpaten met de top Záruby en de Witte Karpaten met Veľká Javorina. Bij helder weer zijn ook Bradlo met de gedenkheuvel van Milan Rastislav Štefánik, Pálava en het Považský Inovec-gebergte zichtbaar. In de buurt liggen een berghut, de ruïne van Korlátka en het windpark."
+        },
+        {
+          "id": "fact_008",
+          "title": "Cerová in de Tweede Wereldoorlog en taalkundige Ján Oravec",
+          "text": "Tijdens de Tweede Wereldoorlog lag Cerová in een Duitse beschermingszone; in de omliggende Kleine Karpaten waren partizanengroepen en Duitse veiligheidseenheden actief. De plaatselijke ondergrondse groep Protiboj hielp vluchtelingen en het verzet. Op de hoeve Brezina werd een kamp ingericht voor Joodse dwangarbeiders die aan een onvoltooide spoorlijn moesten werken. Amerikaanse luchtaanvallen troffen het dorp in juli en september 1944; op 5 april 1945 volgde artillerievuur. De volgende ochtend werd Cerová bevrijd. De bekende Slowaakse taalkundige Ján Oravec (1922–2000) kwam uit Rozbehy. Hij deserteerde in 1944 uit het Slowaakse leger en hield zich tot het einde van de oorlog thuis schuil. Later onderzocht hij vooral de west-Slowaakse dialecten en de Slowaakse taal."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhledávání PSČ; oficiální adresa Obecního úřadu Cerová 104, 906 33 Cerová; oficiální obecní web uvádí PSČ 906 33.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 906 33 je v obecních a poštovních podkladech spojeno s Cerovou; zahrnuje místní části Cerová, Lieskové a Rozbehy.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní údaje Cerová; ÚDZS seznam adres a obcí; okres Senica, Trnavský kraj."
+  },
+  "district_type": null,
+  "status": "validated"
 }
