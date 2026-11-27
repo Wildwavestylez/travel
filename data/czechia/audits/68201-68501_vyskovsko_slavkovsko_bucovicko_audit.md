@@ -60,7 +60,7 @@ Zdroje k doplněným tématům:
 Žádné. Všech 16 PSČ prošlo auditní kontrolou; zbylé null locations jsou zdůvodněné vícemístné nebo plošné příběhy, nikoli opomenuté body.
 
 ## Normalizované pole city
-V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno s `content.city`: 68201, 68301, 68308, 68321, 68323, 68333, 68352, 68354, 68401, 68501. `content.city` je určeno obcí fyzického sídla obsluhující pošty; zbývá při kontrole příslušných PSČ ověřit shodu s oficiální adresou pošty. Ostatní správní pole nebyla měněna.
+V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno s `content.city`: 68201, 68301, 68308, 68321, 68323, 68333, 68352, 68354, 68401, 68501. Následná kontrola všech 16 PSČ podle adresních detailů České pošty (postaonline.cz) a oficiální stránky obce Studnice potvrdila, že `city` odpovídá obci fyzického sídla příslušné pošty: 68201 Vyškov; 68301 Rousínov; 68303 Luleč; 68304 Drnovice; 68305 Račice-Pístovice; 68308 Studnice; 68321 Pustiměř; 68323 Ivanovice na Hané; 68333 Nesovice; 68335 Letonice; 68341 Bohdalice-Pavlovice; 68351 Holubice; 68352 Křenovice; 68354 Otnice; 68401 Slavkov u Brna; 68501 Bučovice. Ověření: oficiální stránka České pošty pro jednotlivé pobočky (včetně 68201 a 68301) a stránka obce Studnice pro adresu Studnice 66. Ostatní správní pole nebyla měněna.
 
 ## Závěrečná kontrola
 - RÚIAN inventář obsahuje všech 16 přesných PSČ; dohromady 35 461 adresních míst. Počty podle kódů jsou v pořadí sequence.json: 8 371; 4 183; 1 208; 1 795; 760; 366; 1 350; 1 716; 2 205; 505; 1 045; 518; 2 135; 1 649; 3 977; 3 678.
@@ -68,7 +68,9 @@ V 10 řádcích bylo normalizované `public.postal_codes.city` synchronizováno 
 - Všech 16 řádků má sedm překladů se shodným počtem faktů; závěrečná kontrola `translations.cs` proti master `facts` skončila u všech na 0 rozdílů (v 68304 byl nalezen a opraven jeden rozdíl v datu demolice Liblice B).
 - Pro všechna fakta platí: žádný český text pod 350 znaků, žádné prázdné povinné texty, žádná duplicitní ID, žádné prázdné zdroje, žádné neplatné priority/accuracy/category/map_category/location.type ani source type. Source ID struktury v 68341, 68351, 68352 a 68354 byly převedeny na URL strings dle schema.
 - Křížová kontrola: setkání panovníků ve Vyškově (28. 11. 1805) a Bohdalicích (29. 11. 1805) jsou dvě odlišné události; vysídlení Drahanské vrchoviny v 68308 a 68321 popisuje různé skupiny obcí a lokální dopady, nikoli duplicitní fakta.
-- `explorer_map_points`: pro žádné z 16 ID nebyl nalezen mapový bod. Během auditu nebyly vytvářeny; statusy ani `data_version` nebyly měněny. Žádná publikace, záloha ani read-only zamčení nebyly provedeny.
+- `explorer_map_points`: pro žádné z 16 ID nebyl nalezen mapový bod; nové body nebyly vytvářeny.
+- Publikace: všech 16 existujících řádků bylo sekvenčně nastaveno na `data_version=5`, `status='published'`. Přesný read-back každého PSČ potvrdil 16/16 bez výjimky.
+- Záloha: dosud neprovedena. V projektu je pouze obecná funkce `travel-backup-validated` (cílený režim selected), která exportuje JSON části + manifest, nikoli restore SQL a ukládá do obecné složky `TRAVEL_BACKUP/DATABASE`; neexistuje dedikovaná auditní funkce pro tento rozsah. Nebyla spuštěna ani vytvořena náhradní funkce. K dokončení standardní auditní zálohy je nutná existující/ověřená funkce produkující JSON + restore SQL + manifest do `TRAVEL_BACKUP/AUDITED`.
 
 ## Výsledek
-Audit rozsahu je dokončen. Žádné další databázové změny nejsou nutné; publikaci, zálohu nebo read-only zamčení provést pouze na výslovný pokyn.
+Audit A–H: PASS. `prompt_audit.md` V2.1 neobsahuje oblast I. Oblast B byla po dokončení taháku doplněna ověřením fyzického sídla všech 16 pošt. Publikace V5 / published: 16/16 PASS. Záloha Dropbox: pending — chybí dedikovaná ověřená funkce pro tento rozsah a tří-souborový auditní formát. Read-only lock neproveden.
