@@ -1,4 +1,513 @@
 {
   "postcode": "90844",
-  "status": "placeholder"
+  "city": "Petrova Ves",
+  "district": null,
+  "county": "Skalica",
+  "state": "Trnavský kraj",
+  "representative_place": "Kostel Ducha svatého a historické centrum Petrovej Vsi",
+  "representative_point": {
+    "lat": 48.721101,
+    "lon": 17.160646
+  },
+  "access_point": {
+    "lat": 48.721101,
+    "lon": 17.160646
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Petrova Ves – keltské, římské a velkomoravské osídlení",
+      "text": "Území dnešní Petrovej Vsi bylo osídleno dávno před první písemnou zmínkou z roku 1392. Archeologické nálezy dokládají keltské a římsko-barbarské sídliště; v 9. a 10. století patřilo území k Velké Moravě. Ve středověku se obec stala součástí holíčského panství a roku 1736 přešla s ním do majetku Habsburků. Název Petrova Ves se podle místní tradice odvozuje od šlechtice Petra Varádyho, tato pověst však není historicky doložena.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s1"
+      ],
+      "location": null,
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel Ducha svatého – gotické jádro a barokní přestavba",
+      "text": "Římskokatolický kostel Ducha svatého v Petrovej Vsi patří k nejvýznamnějším památkám obce a je národní kulturní památkou. Původně gotická stavba pochází z druhé poloviny 14. století; barokně byla přestavěna roku 1762. Z gotického chrámu se zachovalo zejména presbyterium s křížovou žebrovou klenbou. Roku 1931 byl kostel rozšířen o boční lodě a jeho dispozice se změnila na trojlodní.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "location": {
+        "name": "Kostel Ducha svatého, Petrova Ves",
+        "lat": 48.721101,
+        "lon": 17.160646,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/petrova-ves-kostol-sv-ducha"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_003",
+      "title": "Sochy sv. Floriána a sv. Vendelína – procesní tradice Petrovej Vsi",
+      "text": "Uprostřed Petrovej Vsi stojí socha sv. Floriána, patrona hasičů, kterou obec nechala postavit roku 1844. O dvacet let později, roku 1864, přibyla socha sv. Vendelína, patrona pastýřů. Svátky obou světců se staly místními obecními slavnostmi a obyvatelé k sochám pořádali procesí. Památky dokládají význam náboženských a hospodářských tradic v životě někdejší zemědělské obce.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "location": {
+        "name": "Socha sv. Floriána, Petrova Ves",
+        "lat": 48.718872,
+        "lon": 17.161892,
+        "type": "statue",
+        "accuracy": "exact",
+        "source": "https://kriz.epocha.sk/krize/okres-skalica/petrova-ves-liatinovy-kriz-v-chotari"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Letničie – obec doložená od roku 1452",
+      "text": "Nejstarší písemná zmínka o Letničí pochází podle obecní kroniky z daňového soupisu roku 1452, kde je obec uvedena jako Lettniecze s patnácti dvory. Území patřilo k holíčskému hradnímu panství a od roku 1736 Habsburkům. V roce 1715 se zde uvádějí vinice a 32 poddanských a želiarských domácností. Většina obce vyhořela roku 1874; v 19. století ji zasáhly také epidemie cholery.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kostel sv. Jana Křtitele v Letničí – klasicistní památka",
+      "text": "Římskokatolický kostel sv. Jana Křtitele v Letničí je klasicistní jednolodní stavba s věží a půlkruhově zakončeným presbytářem. Odborný památkový soupis datuje jeho výstavbu do roku 1822; obecní kronika připouští starší počátky a zmiňuje možnou dřevěnou stavbu z roku 1715. Kostel byl obnoven roku 1905 a zapsán do Ústředního seznamu památkového fondu pod číslem 11130/1.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "location": {
+        "name": "Kostel sv. Jána Krstiteľa, Letničie",
+        "lat": 48.712776,
+        "lon": 17.1782,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/letnicie-kostol-sv-jana-krstitela"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Kaple Sedmibolestné Panny Marie u Petrovej Vsi",
+      "text": "Na cestě z Petrovej Vsi směrem k Holíči stojí kaple Sedmibolestné Panny Marie, kterou roku 1845 nechali postavit Anton Mráz, jeho žena Anna a Mária Hrubšová. Podle místní tradice se zde při cestě na pouť do Šaštína převrátil vůz poutníků; kaple měla být výrazem vděčnosti za záchranu. Vyprávění o smrti dvanáctileté dívky je součástí ústní tradice, nikoli ověřeným historickým faktem. Kaple byla opravena roku 2014.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s10"
+      ],
+      "location": {
+        "name": "Kaple Sedmibolestné Panny Marie, Petrova Ves",
+        "lat": 48.72683,
+        "lon": 17.16278,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Čtenářský spolek a počátky veřejné knihovny v Petrovej Vsi",
+      "text": "Veřejný čtenářský život má v Petrovej Vsi dlouhou tradici. První knihovna určená veřejnosti byla založena 8. března 1897 pod hlavičkou Katolického čtenářského kruhu. Spolek měl 82 členů a k dispozici 342 knih; významnou roli v místním kulturním životě měl také Spolek sv. Vojtěcha, který do obce přinášel knihy a časopisy. Tato tradice dokládá rozvoj vzdělanosti a spolkového života na přelomu 19. a 20. století.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s11"
+      ],
+      "location": null,
+      "map_category": "local_culture"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Oficiální adresní záznamy obcí Petrova Ves 53, 908 44 Petrova Ves a Letničie 35, 908 44 Petrova Ves potvrzují, že PSČ 908 44 obsluhuje obě obce; veřejné poštovní přehledy uvádějí dodávací poštu Petrova Ves.",
+    "geographic_test_data": false,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": null,
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 908 44 pokrývá Petrovu Ves i Letničie; reprezentativní bod je v Petrovej Vsi u hlavního kostela, nikoli u pošty.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Register adries SR (Ministerstvo vnútra SR) pro adresní evidenci; oficiální obecní zdroje pro správní vztahy; odborné památkové zdroje pro polohy objektů."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Petrova Ves – História a súčasnosť",
+      "url": "https://www.petrovaves.sk/obec-2/o-obci/historia-a-sucasnost/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Pamiatky na Slovensku – Kostol sv. Ducha, Petrova Ves",
+      "url": "https://www.pamiatkynaslovensku.sk/petrova-ves-kostol-sv-ducha",
+      "type": "specialist"
+    },
+    {
+      "id": "s3",
+      "title": "Apsida – Petrova Ves, kostol Ducha Svätého",
+      "url": "https://login.apsida.sk/c/2067/petrova-ves",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Obec Petrova Ves – Popis obce a historické pamätihodnosti",
+      "url": "https://www.petrovaves.sk/obec-2/elektronicka-kronika-1/popis-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Epocha – Petrova Ves, sochy sv. Floriána a sv. Vendelína",
+      "url": "https://kriz.epocha.sk/krize/okres-skalica/petrova-ves-liatinovy-kriz-v-chotari",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Letničie – Kronika obce",
+      "url": "https://letnicie.sk/obec/kronika-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Obec Letničie – Obec v kocke",
+      "url": "https://letnicie.sk/obec/obec-v-kocke/",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Pamiatky na Slovensku – Kostol sv. Jána Krstiteľa, Letničie",
+      "url": "https://www.pamiatkynaslovensku.sk/letnicie-kostol-sv-jana-krstitela",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Obec Letničie – Kontakt a adresa",
+      "url": "https://letnicie.sk/kontakt/",
+      "type": "official"
+    },
+    {
+      "id": "s10",
+      "title": "Malé památky s velkým příběhem – Kaplnka Sedembolestnej Panny Márie, Petrova Ves",
+      "url": "https://starepribehy.eu/wp-content/uploads/2026/01/KnihaPamatkySPribehemRatiskovice.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s11",
+      "title": "Obec Petrova Ves – Obecná knižnica, história",
+      "url": "https://www.petrovaves.sk/obec-2/obecna-kniznica/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Ministerstvo vnútra SR – Register adries",
+      "url": "https://pes.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Register%2Badries/",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Obec Petrova Ves – Kontakt",
+      "url": "https://www.petrovaves.sk/contact/",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Kostel Ducha svatého a historické centrum Petrovej Vsi",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves – keltské, římské a velkomoravské osídlení",
+          "text": "Území dnešní Petrovej Vsi bylo osídleno dávno před první písemnou zmínkou z roku 1392. Archeologické nálezy dokládají keltské a římsko-barbarské sídliště; v 9. a 10. století patřilo území k Velké Moravě. Ve středověku se obec stala součástí holíčského panství a roku 1736 přešla s ním do majetku Habsburků. Název Petrova Ves se podle místní tradice odvozuje od šlechtice Petra Varádyho, tato pověst však není historicky doložena."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel Ducha svatého – gotické jádro a barokní přestavba",
+          "text": "Římskokatolický kostel Ducha svatého v Petrovej Vsi patří k nejvýznamnějším památkám obce a je národní kulturní památkou. Původně gotická stavba pochází z druhé poloviny 14. století; barokně byla přestavěna roku 1762. Z gotického chrámu se zachovalo zejména presbyterium s křížovou žebrovou klenbou. Roku 1931 byl kostel rozšířen o boční lodě a jeho dispozice se změnila na trojlodní."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sochy sv. Floriána a sv. Vendelína – procesní tradice Petrovej Vsi",
+          "text": "Uprostřed Petrovej Vsi stojí socha sv. Floriána, patrona hasičů, kterou obec nechala postavit roku 1844. O dvacet let později, roku 1864, přibyla socha sv. Vendelína, patrona pastýřů. Svátky obou světců se staly místními obecními slavnostmi a obyvatelé k sochám pořádali procesí. Památky dokládají význam náboženských a hospodářských tradic v životě někdejší zemědělské obce."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie – obec doložená od roku 1452",
+          "text": "Nejstarší písemná zmínka o Letničí pochází podle obecní kroniky z daňového soupisu roku 1452, kde je obec uvedena jako Lettniecze s patnácti dvory. Území patřilo k holíčskému hradnímu panství a od roku 1736 Habsburkům. V roce 1715 se zde uvádějí vinice a 32 poddanských a želiarských domácností. Většina obce vyhořela roku 1874; v 19. století ji zasáhly také epidemie cholery."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kostel sv. Jana Křtitele v Letničí – klasicistní památka",
+          "text": "Římskokatolický kostel sv. Jana Křtitele v Letničí je klasicistní jednolodní stavba s věží a půlkruhově zakončeným presbytářem. Odborný památkový soupis datuje jeho výstavbu do roku 1822; obecní kronika připouští starší počátky a zmiňuje možnou dřevěnou stavbu z roku 1715. Kostel byl obnoven roku 1905 a zapsán do Ústředního seznamu památkového fondu pod číslem 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kaple Sedmibolestné Panny Marie u Petrovej Vsi",
+          "text": "Na cestě z Petrovej Vsi směrem k Holíči stojí kaple Sedmibolestné Panny Marie, kterou roku 1845 nechali postavit Anton Mráz, jeho žena Anna a Mária Hrubšová. Podle místní tradice se zde při cestě na pouť do Šaštína převrátil vůz poutníků; kaple měla být výrazem vděčnosti za záchranu. Vyprávění o smrti dvanáctileté dívky je součástí ústní tradice, nikoli ověřeným historickým faktem. Kaple byla opravena roku 2014."
+        },
+        {
+          "id": "fact_007",
+          "title": "Čtenářský spolek a počátky veřejné knihovny v Petrovej Vsi",
+          "text": "Veřejný čtenářský život má v Petrovej Vsi dlouhou tradici. První knihovna určená veřejnosti byla založena 8. března 1897 pod hlavičkou Katolického čtenářského kruhu. Spolek měl 82 členů a k dispozici 342 knih; významnou roli v místním kulturním životě měl také Spolek sv. Vojtěcha, který do obce přinášel knihy a časopisy. Tato tradice dokládá rozvoj vzdělanosti a spolkového života na přelomu 19. a 20. století."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Heilig-Geist-Kirche und historischer Ortskern von Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves – keltische, römische und großmährische Besiedlung",
+          "text": "Das Gebiet des heutigen Petrova Ves war lange vor seiner ersten schriftlichen Erwähnung 1392 besiedelt. Archäologische Funde belegen eine keltische und römisch-barbarische Siedlung; im 9. und 10. Jahrhundert gehörte das Gebiet zu Großmähren. Später war es Teil der Herrschaft Holíč und kam 1736 mit ihr an die Habsburger. Die lokale Überlieferung führt den Namen auf Peter Varády zurück, ist aber historisch nicht belegt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die Heilig-Geist-Kirche – gotischer Kern und barocker Umbau",
+          "text": "Die römisch-katholische Heilig-Geist-Kirche ist das bedeutendste Denkmal von Petrova Ves und ein nationales Kulturdenkmal. Der ursprünglich gotische Bau stammt aus der zweiten Hälfte des 14. Jahrhunderts und wurde 1762 barock umgestaltet. Erhalten blieb vor allem der Chor mit gotischem Kreuzrippengewölbe. 1931 wurde die Kirche durch Seitenschiffe zur dreischiffigen Anlage erweitert."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Statuen des heiligen Florian und des heiligen Wendelin – Prozessionstradition",
+          "text": "Im Zentrum von Petrova Ves steht die 1844 errichtete Statue des heiligen Florian, des Schutzpatrons der Feuerwehrleute. 1864 kam eine Statue des heiligen Wendelin, des Schutzpatrons der Hirten, hinzu. Die Feiertage beider Heiligen wurden zu örtlichen Festtagen, an denen Prozessionen zu den Statuen stattfanden. Die Denkmäler spiegeln religiöse und landwirtschaftliche Traditionen wider."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie – eine seit 1452 belegte Gemeinde",
+          "text": "Die älteste schriftliche Erwähnung von Letničie stammt laut Gemeindechronik aus einem Steuerverzeichnis von 1452; der Ort wird als Lettniecze mit 15 Höfen genannt. Er gehörte zur Herrschaft Holíč und ab 1736 den Habsburgern. 1715 sind Weinberge sowie 32 Untertanen- und Häuslerhaushalte belegt. 1874 brannte ein Großteil des Dorfes nieder; im 19. Jahrhundert wurde es auch von Choleraepidemien heimgesucht."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Johannes-der-Täufer-Kirche in Letničie – ein klassizistisches Denkmal",
+          "text": "Die römisch-katholische Johannes-der-Täufer-Kirche in Letničie ist ein klassizistischer einschiffiger Bau mit Turm und halbrundem Chor. Ein Fachinventar datiert sie auf 1822; die Gemeindegeschichte vermutet ältere Ursprünge und erwähnt einen möglichen Holzbau von 1715. Die Kirche wurde 1905 restauriert und unter der Nummer 11130/1 in das zentrale Denkmalverzeichnis eingetragen."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Kapelle der Sieben Schmerzen Mariens bei Petrova Ves",
+          "text": "An der Straße von Petrova Ves nach Holíč steht die Kapelle der Sieben Schmerzen Mariens, die 1845 von Anton Mráz, seiner Frau Anna und Mária Hrubšová errichtet wurde. Der Überlieferung nach kippte hier ein Wagen von Pilgern auf dem Weg nach Šaštín um; die Kapelle sollte Dank für die Rettung ausdrücken. Die Erzählung vom Tod eines zwölfjährigen Mädchens gehört zur mündlichen Überlieferung und ist nicht als historische Tatsache belegt. Die Kapelle wurde 2014 renoviert."
+        },
+        {
+          "id": "fact_007",
+          "title": "Der Leseverein und die Anfänge der öffentlichen Bibliothek in Petrova Ves",
+          "text": "Das öffentliche Leseleben hat in Petrova Ves eine lange Tradition. Die erste öffentliche Bibliothek wurde am 8. März 1897 unter dem Katholischen Lesezirkel gegründet. Der Verein hatte 82 Mitglieder und 342 Bücher; auch der Sankt-Adalbert-Verein brachte Bücher und Zeitschriften in den Ort. Dies belegt die Entwicklung von Bildung und Vereinsleben um die Wende zum 20. Jahrhundert."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Church of the Holy Spirit and historic centre of Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves – Celtic, Roman and Great Moravian settlement",
+          "text": "The area of present-day Petrova Ves was settled long before its first written record in 1392. Archaeological finds document a Celtic and Roman-Barbarian settlement; in the 9th and 10th centuries the territory belonged to Great Moravia. It later formed part of the Holíč estate and passed with it to the Habsburgs in 1736. Local tradition attributes the name to a nobleman, Peter Varády, but this story is not historically verified."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Church of the Holy Spirit – Gothic core and Baroque rebuilding",
+          "text": "The Roman Catholic Church of the Holy Spirit is Petrova Ves’s principal monument and a national cultural monument. The original Gothic building dates from the second half of the 14th century and was remodelled in the Baroque style in 1762. The presbytery with its Gothic rib vault survives from the medieval church. In 1931 side aisles were added, creating a three-nave layout."
+        },
+        {
+          "id": "fact_003",
+          "title": "The statues of St Florian and St Wendelin – a tradition of processions",
+          "text": "In the centre of Petrova Ves stands a statue of St Florian, patron of firefighters, erected by the municipality in 1844. A statue of St Wendelin, patron of shepherds, followed in 1864. The feast days of both saints became local celebrations, with processions to the statues. The monuments reflect the religious and agricultural traditions of the former farming village."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie – a village documented since 1452",
+          "text": "According to the municipal chronicle, the oldest written record of Letničie is a tax register from 1452, where it appears as Lettniecze with 15 farmsteads. It belonged to the Holíč estate and from 1736 to the Habsburgs. Vineyards and 32 peasant and cottager households are recorded in 1715. Much of the village burned down in 1874, and cholera epidemics also affected it in the 19th century."
+        },
+        {
+          "id": "fact_005",
+          "title": "St John the Baptist Church in Letničie – a Neoclassical monument",
+          "text": "The Roman Catholic Church of St John the Baptist in Letničie is a Neoclassical single-nave building with a tower and a semicircular sanctuary. A specialist heritage inventory dates it to 1822; the municipal chronicle suggests older origins and mentions a possible wooden building from 1715. It was restored in 1905 and is listed in the Central Register of Monuments under number 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Chapel of Our Lady of the Seven Sorrows near Petrova Ves",
+          "text": "On the road from Petrova Ves towards Holíč stands the Chapel of Our Lady of the Seven Sorrows, built in 1845 by Anton Mráz, his wife Anna and Mária Hrubšová. Local tradition says a pilgrims’ wagon overturned here on the way to Šaštín and the chapel was built in gratitude for their rescue. The story of a twelve-year-old girl’s death belongs to oral tradition and is not a verified historical fact. The chapel was repaired in 2014."
+        },
+        {
+          "id": "fact_007",
+          "title": "The reading society and the beginnings of the public library in Petrova Ves",
+          "text": "Public reading has a long tradition in Petrova Ves. The first public library was founded on 8 March 1897 under the Catholic Reading Circle. The association had 82 members and 342 books; the St Adalbert Association also brought books and periodicals to the village. This reflects the growth of education and community life around the turn of the 20th century."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Iglesia del Espíritu Santo y centro histórico de Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves, asentamiento celta, romano y de la Gran Moravia",
+          "text": "El territorio de la actual Petrova Ves estaba habitado mucho antes de su primera mención escrita en 1392. Los hallazgos arqueológicos documentan un asentamiento celta y romano-bárbaro; en los siglos IX y X perteneció a la Gran Moravia. Más tarde formó parte del señorío de Holíč y pasó con él a los Habsburgo en 1736. La tradición local atribuye el nombre a Peter Varády, aunque no está históricamente demostrado."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia del Espíritu Santo, núcleo gótico y reconstrucción barroca",
+          "text": "La iglesia católica romana del Espíritu Santo es el principal monumento de Petrova Ves y está protegida como monumento cultural nacional. El edificio gótico original data de la segunda mitad del siglo XIV y fue remodelado en estilo barroco en 1762. Se conserva el presbiterio con bóveda gótica de crucería. En 1931 se añadieron naves laterales y pasó a tener tres naves."
+        },
+        {
+          "id": "fact_003",
+          "title": "Las estatuas de san Florián y san Vendelino, tradición de procesiones",
+          "text": "En el centro de Petrova Ves se encuentra la estatua de san Florián, patrón de los bomberos, erigida por el municipio en 1844. En 1864 se añadió la estatua de san Vendelino, patrón de los pastores. Las festividades de ambos santos se convirtieron en celebraciones locales con procesiones hasta las estatuas. Los monumentos reflejan las tradiciones religiosas y agrícolas del antiguo pueblo rural."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie, localidad documentada desde 1452",
+          "text": "Según la crónica municipal, la referencia escrita más antigua de Letničie aparece en un registro fiscal de 1452, donde figura como Lettniecze con quince explotaciones. Perteneció al señorío de Holíč y desde 1736 a los Habsburgo. En 1715 se registran viñedos y 32 hogares campesinos y de jornaleros. Gran parte del pueblo se incendió en 1874 y en el siglo XIX también sufrió epidemias de cólera."
+        },
+        {
+          "id": "fact_005",
+          "title": "Iglesia de San Juan Bautista de Letničie, monumento neoclásico",
+          "text": "La iglesia católica romana de San Juan Bautista de Letničie es un edificio neoclásico de una nave, con torre y presbiterio semicircular. Un inventario patrimonial especializado la fecha en 1822; la crónica municipal plantea orígenes anteriores y menciona una posible construcción de madera de 1715. Fue restaurada en 1905 y está inscrita en el registro central con el número 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "Capilla de Nuestra Señora de los Siete Dolores cerca de Petrova Ves",
+          "text": "En la carretera de Petrova Ves hacia Holíč se encuentra la capilla de Nuestra Señora de los Siete Dolores, construida en 1845 por Anton Mráz, su esposa Anna y Mária Hrubšová. Según la tradición local, allí volcó un carro de peregrinos que viajaban a Šaštín y la capilla se levantó en agradecimiento por su salvación. La historia de la muerte de una niña de doce años pertenece a la tradición oral, no a hechos verificados. La capilla fue reparada en 2014."
+        },
+        {
+          "id": "fact_007",
+          "title": "La asociación de lectura y los comienzos de la biblioteca pública de Petrova Ves",
+          "text": "La lectura pública tiene una larga tradición en Petrova Ves. La primera biblioteca pública se fundó el 8 de marzo de 1897 bajo el Círculo Católico de Lectura. La asociación tenía 82 miembros y 342 libros; la Asociación de San Adalberto también llevaba libros y revistas al pueblo. Esto refleja el desarrollo de la educación y la vida asociativa alrededor de 1900."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Église du Saint-Esprit et centre historique de Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves, habitat celtique, romain et de Grande-Moravie",
+          "text": "Le territoire de l’actuelle Petrova Ves était habité bien avant sa première mention écrite en 1392. Les découvertes archéologiques attestent un établissement celtique et romano-barbare ; aux IXe et Xe siècles, le territoire appartenait à la Grande-Moravie. Il dépendit ensuite du domaine de Holíč, passé aux Habsbourg en 1736. La tradition locale attribue le nom à un noble, Peter Varády, mais cette histoire n’est pas confirmée historiquement."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’église du Saint-Esprit, noyau gothique et reconstruction baroque",
+          "text": "L’église catholique du Saint-Esprit est le principal monument de Petrova Ves et un monument culturel national. L’édifice gothique d’origine date de la seconde moitié du XIVe siècle et a été remanié en style baroque en 1762. Le chœur avec sa voûte gothique à nervures est conservé. En 1931, des bas-côtés ont été ajoutés, donnant à l’église un plan à trois nefs."
+        },
+        {
+          "id": "fact_003",
+          "title": "Les statues de saint Florian et de saint Wendelin, tradition des processions",
+          "text": "Au centre de Petrova Ves se trouve la statue de saint Florian, patron des pompiers, érigée par la commune en 1844. En 1864 fut ajoutée celle de saint Wendelin, patron des bergers. Les fêtes des deux saints sont devenues des célébrations locales accompagnées de processions vers les statues. Ces monuments reflètent les traditions religieuses et agricoles du village."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie, village attesté depuis 1452",
+          "text": "Selon la chronique communale, la plus ancienne mention écrite de Letničie figure dans un registre fiscal de 1452, sous la forme Lettniecze, avec quinze fermes. Le village dépendait du domaine de Holíč puis des Habsbourg à partir de 1736. En 1715, des vignobles et 32 foyers paysans et journaliers sont mentionnés. Une grande partie du village a brûlé en 1874 ; des épidémies de choléra l’ont également touché au XIXe siècle."
+        },
+        {
+          "id": "fact_005",
+          "title": "L’église Saint-Jean-Baptiste de Letničie, monument néoclassique",
+          "text": "L’église catholique Saint-Jean-Baptiste de Letničie est un édifice néoclassique à nef unique, doté d’une tour et d’un chœur semi-circulaire. Un inventaire patrimonial spécialisé la date de 1822 ; la chronique communale évoque des origines plus anciennes et une possible construction en bois en 1715. Restaurée en 1905, elle est inscrite au registre central des monuments sous le numéro 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chapelle Notre-Dame-des-Sept-Douleurs près de Petrova Ves",
+          "text": "Sur la route de Petrova Ves vers Holíč se trouve la chapelle Notre-Dame-des-Sept-Douleurs, construite en 1845 par Anton Mráz, son épouse Anna et Mária Hrubšová. Selon la tradition locale, une charrette de pèlerins en route vers Šaštín s’y renversa et la chapelle fut érigée en remerciement de leur sauvetage. Le récit de la mort d’une fillette de douze ans relève de la tradition orale et n’est pas un fait historique vérifié. La chapelle a été réparée en 2014."
+        },
+        {
+          "id": "fact_007",
+          "title": "Le cercle de lecture et les débuts de la bibliothèque publique de Petrova Ves",
+          "text": "La lecture publique possède une longue tradition à Petrova Ves. La première bibliothèque publique a été fondée le 8 mars 1897 sous l’égide du Cercle catholique de lecture. L’association comptait 82 membres et 342 livres ; l’association Saint-Adalbert apportait également des livres et des périodiques au village. Cela témoigne du développement de l’éducation et de la vie associative autour de 1900."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Chiesa dello Spirito Santo e centro storico di Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves, insediamento celtico, romano e della Grande Moravia",
+          "text": "Il territorio dell’attuale Petrova Ves era abitato molto prima della prima menzione scritta del 1392. I reperti archeologici attestano un insediamento celtico e romano-barbarico; nei secoli IX e X il territorio appartenne alla Grande Moravia. In seguito fece parte della signoria di Holíč, passata agli Asburgo nel 1736. La tradizione locale attribuisce il nome a un nobile, Peter Varády, ma la storia non è confermata da fonti storiche."
+        },
+        {
+          "id": "fact_002",
+          "title": "La chiesa dello Spirito Santo, nucleo gotico e ricostruzione barocca",
+          "text": "La chiesa cattolica dello Spirito Santo è il principale monumento di Petrova Ves ed è tutelata come monumento culturale nazionale. L’edificio gotico originario risale alla seconda metà del XIV secolo e fu ristrutturato in stile barocco nel 1762. Si conserva il presbiterio con volta gotica a crociera. Nel 1931 furono aggiunte le navate laterali, trasformando la chiesa in un edificio a tre navate."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le statue di san Floriano e san Venceslao, tradizione di processioni",
+          "text": "Nel centro di Petrova Ves si trova la statua di san Floriano, patrono dei vigili del fuoco, eretta dal comune nel 1844. Nel 1864 fu aggiunta la statua di san Venceslao, patrono dei pastori. Le feste dei due santi divennero celebrazioni locali accompagnate da processioni verso le statue. I monumenti riflettono le tradizioni religiose e agricole del villaggio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie, località documentata dal 1452",
+          "text": "Secondo la cronaca comunale, la più antica menzione scritta di Letničie compare in un registro fiscale del 1452, con il nome Lettniecze e quindici corti. Il villaggio appartenne alla signoria di Holíč e dal 1736 agli Asburgo. Nel 1715 sono attestati vigneti e 32 famiglie contadine e di braccianti. Gran parte del villaggio bruciò nel 1874 e nel XIX secolo fu colpita anche da epidemie di colera."
+        },
+        {
+          "id": "fact_005",
+          "title": "La chiesa di San Giovanni Battista a Letničie, monumento neoclassico",
+          "text": "La chiesa cattolica di San Giovanni Battista a Letničie è un edificio neoclassico a navata unica, con torre e presbiterio semicircolare. Un inventario specialistico la data al 1822; la cronaca comunale ipotizza origini precedenti e una possibile costruzione lignea nel 1715. Fu restaurata nel 1905 ed è iscritta nel registro centrale dei monumenti con il numero 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "La cappella della Madonna dei Sette Dolori vicino a Petrova Ves",
+          "text": "Sulla strada da Petrova Ves verso Holíč si trova la cappella della Madonna dei Sette Dolori, costruita nel 1845 da Anton Mráz, dalla moglie Anna e da Mária Hrubšová. Secondo la tradizione locale, in quel punto si ribaltò un carro di pellegrini diretti a Šaštín e la cappella fu eretta per ringraziare della loro salvezza. La storia della morte di una bambina di dodici anni appartiene alla tradizione orale e non è un fatto storico verificato. La cappella fu riparata nel 2014."
+        },
+        {
+          "id": "fact_007",
+          "title": "Il circolo di lettura e le origini della biblioteca pubblica di Petrova Ves",
+          "text": "La lettura pubblica ha una lunga tradizione a Petrova Ves. La prima biblioteca pubblica fu fondata l’8 marzo 1897 sotto il Circolo cattolico di lettura. L’associazione contava 82 membri e 342 libri; anche l’Associazione di Sant’Adalberto portava libri e riviste nel villaggio. Ciò testimonia lo sviluppo dell’istruzione e della vita associativa intorno al 1900."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Heilige-Geestkerk en historische kern van Petrova Ves",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Petrova Ves – Keltische, Romeinse en Groot-Moravische bewoning",
+          "text": "Het gebied van het huidige Petrova Ves was al bewoond lang vóór de eerste schriftelijke vermelding in 1392. Archeologische vondsten tonen een Keltische en Romeins-barbaarse nederzetting aan; in de 9e en 10e eeuw behoorde het gebied tot Groot-Moravië. Later maakte het deel uit van het landgoed Holíč, dat in 1736 in handen van de Habsburgers kwam. Volgens de plaatselijke overlevering verwijst de naam naar Peter Varády, maar dit is historisch niet bewezen."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Heilige-Geestkerk – gotische kern en barokke verbouwing",
+          "text": "De rooms-katholieke Heilige-Geestkerk is het belangrijkste monument van Petrova Ves en een nationaal cultureel monument. Het oorspronkelijke gotische gebouw dateert uit de tweede helft van de 14e eeuw en werd in 1762 in barokstijl verbouwd. Het koor met gotisch kruisribgewelf is bewaard gebleven. In 1931 werden zijbeuken toegevoegd, waardoor een driebeukige kerk ontstond."
+        },
+        {
+          "id": "fact_003",
+          "title": "De beelden van Sint-Florianus en Sint-Wendelinus – processietraditie",
+          "text": "In het centrum van Petrova Ves staat het beeld van Sint-Florianus, patroonheilige van brandweerlieden, dat de gemeente in 1844 liet oprichten. In 1864 volgde een beeld van Sint-Wendelinus, patroonheilige van herders. De feestdagen van beide heiligen werden plaatselijke vieringen met processies naar de beelden. De monumenten weerspiegelen religieuze en agrarische tradities."
+        },
+        {
+          "id": "fact_004",
+          "title": "Letničie – een dorp dat sinds 1452 is gedocumenteerd",
+          "text": "Volgens de gemeentekroniek staat de oudste schriftelijke vermelding van Letničie in een belastingregister uit 1452, als Lettniecze met vijftien hoeven. Het dorp hoorde bij het landgoed Holíč en vanaf 1736 bij de Habsburgers. In 1715 worden wijngaarden en 32 boeren- en daglonersgezinnen vermeld. Een groot deel van het dorp brandde in 1874 af; in de 19e eeuw troffen cholera-epidemieën de gemeenschap."
+        },
+        {
+          "id": "fact_005",
+          "title": "De Sint-Johannes-de-Doperkerk in Letničie – een neoklassiek monument",
+          "text": "De rooms-katholieke Sint-Johannes-de-Doperkerk in Letničie is een neoklassiek eenbeukig gebouw met toren en halfrond koor. Een gespecialiseerde erfgoedinventaris dateert de kerk uit 1822; de gemeentekroniek vermoedt oudere oorsprongen en noemt een mogelijke houten kerk uit 1715. Ze werd in 1905 gerestaureerd en staat in het centrale monumentenregister onder nummer 11130/1."
+        },
+        {
+          "id": "fact_006",
+          "title": "De kapel van Onze-Lieve-Vrouw van Zeven Smarten bij Petrova Ves",
+          "text": "Aan de weg van Petrova Ves naar Holíč staat de kapel van Onze-Lieve-Vrouw van Zeven Smarten, in 1845 gebouwd door Anton Mráz, zijn vrouw Anna en Mária Hrubšová. Volgens de plaatselijke overlevering kantelde hier een wagen met pelgrims op weg naar Šaštín; de kapel werd gebouwd uit dankbaarheid voor hun redding. Het verhaal over de dood van een twaalfjarig meisje behoort tot de mondelinge traditie en is geen bevestigd historisch feit. De kapel werd in 2014 hersteld."
+        },
+        {
+          "id": "fact_007",
+          "title": "De leesvereniging en het begin van de openbare bibliotheek in Petrova Ves",
+          "text": "Openbaar lezen heeft een lange traditie in Petrova Ves. De eerste openbare bibliotheek werd op 8 maart 1897 opgericht onder de katholieke leeskring. De vereniging telde 82 leden en beschikte over 342 boeken; ook de Sint-Adalbertvereniging bracht boeken en tijdschriften naar het dorp. Dit toont de ontwikkeling van onderwijs en verenigingsleven rond 1900."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
