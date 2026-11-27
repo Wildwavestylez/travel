@@ -1,4 +1,608 @@
 {
   "postcode": "90638",
-  "status": "placeholder"
+  "city": "Rohožník",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické centrum Rohožníka u renesanční zvonice",
+  "representative_point": {
+    "lat": 48.457883,
+    "lon": 17.171464
+  },
+  "access_point": {
+    "lat": 48.457883,
+    "lon": 17.171464
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Vysoká: výrazný vápencový vrchol s pralesními lesy",
+      "text": "Nad rozhraním Rohožníka a Kuchyne vystupuje Vysoká, výrazný vápencový vrchol Malých Karpat s nadmořskou výškou přibližně 754 m. Strmý skalnatý hřeben dominuje Borské nížině a za dobré viditelnosti nabízí široké výhledy do Záhoria. Okolní území chrání přírodní rezervace Vysoká; na svazích se dochovaly lesy s charakterem pralesa, jejichž porosty mají průměrné stáří přibližně 160 až 175 let. Jde o cenné území bukových a lipovo-javorových suťových lesů v chráněné krajinné oblasti Malé Karpaty.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "location": {
+        "name": "Vrch Vysoká",
+        "lat": 48.41778,
+        "lon": 17.21722,
+        "type": "viewpoint",
+        "accuracy": "exact",
+        "source": "https://www.krasneslovensko.eu/bratislavsky-kraj/vysoka-male-karpaty"
+      },
+      "map_category": "viewpoint_landscape"
+    },
+    {
+      "id": "fact_002",
+      "title": "Panský dom: poslední dochovaná huncokárská usedlost",
+      "text": "V lesích jihovýchodně od Rohožníka leží Panský dom, místo spojené s přibližně třemi stoletími života huncokárů – německy mluvících lesních dělníků a jejich rodin, kteří pracovali v Malých Karpatech. Původní huncokárskou usedlost později doplnila pálffyovská horárna zvaná Herrenhaus, zřízená po polovině 19. století. Dodnes se zde zachovala zchátralá budova staré horárny, základy sklepa a zbytky ovocných zahrad. Obec Rohožník lokalitu označuje za poslední huncokárskou usedlost, která se dochovala jako čitelný historický celek, nikoli jen jako zarostlé ruiny.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "location": {
+        "name": "Panský dom – historická horáreň",
+        "lat": 48.41581,
+        "lon": 17.24034,
+        "type": "historic_settlement",
+        "accuracy": "approximate",
+        "source": "https://www.staremapy.sk/n/6640/pansky-dom/"
+      },
+      "map_category": "historical_monument"
+    },
+    {
+      "id": "fact_003",
+      "title": "Rohožnická synagoga: památka venkovské židovské komunity",
+      "text": "V centru Rohožníka stojí drobná synagoga, kterou místní židovská obec postavila v 19. století. Jde o pozoruhodný příklad venkovské synagogální architektury: jednoduchá stavba má téměř čtvercový půdorys, valbovou střechu a půlkruhová okna. Po zániku původní náboženské funkce sloužila budova jako sklad. V letech 2004–2005 prošla obnovou a byla znovu využita pro kulturní účely; na fasádě byla odhalena pamětní deska věnovaná židovským obětem holokaustu. Synagoga připomíná někdejší židovskou komunitu, jejíž přítomnost je v obci doložena už roku 1720.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6"
+      ],
+      "location": {
+        "name": "Synagoga Rohožník",
+        "lat": 48.457775,
+        "lon": 17.1711767,
+        "type": "synagogue",
+        "accuracy": "exact",
+        "source": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Renesanční zvonice a kostel Nanebevzetí Panny Marie",
+      "text": "Dominantou historického centra Rohožníka je samostatná kamenná zvonice, která vznikla z věže staršího kostela doloženého roku 1561. Dnešní podoba zvonice pochází ze 17. století a její úpravy pokračovaly v 19. století; větší zvon nese nápis a jméno bratislavského zvonaře Caspara Wolffa s letopočtem 1687. Vedle stojí nový kostel Nanebevzetí Panny Marie, postavený v letech 1857–1860 v romantizujícím historizujícím slohu. Zvonice tak uchovává starší stavební vrstvu obce, zatímco kostel představuje její výraznou sakrální stavbu 19. století. Představa, že zvonice byla původně římskou strážní věží, patří k místní tradici a není archeologicky prokázána.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "location": {
+        "name": "Renesanční zvonica Rohožník",
+        "lat": 48.457883,
+        "lon": 17.171464,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/rohoznik-zvonica"
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_005",
+      "title": "Kaple svaté Rozálie: poutní stopa na okraji Rohožníka",
+      "text": "Kaple svaté Rozálie stojí v někdejší samotě u Rohožníka a pravděpodobně vznikla na konci 17. století. Podle místní tradice nahradila starší kapli zničenou během tureckých válek. V interiéru bývala socha svaté Rozálie vyřezaná z hruškového dřeva; restaurátoři ji podle obecního popisu datovali rovněž do závěru 17. století. Nápisy na soše připomínají opravy z let 1885 a 1900 a další restaurování proběhlo roku 1996. V kapli se nacházela také relikvie uložená v desce z červeného mramoru. Jde o jednu z nejstarších a příběhově nejvýraznějších sakrálních památek v okolí obce.",
+      "category": "heritage_and_monuments",
+      "priority": "C",
+      "sources": [
+        "s1"
+      ],
+      "location": {
+        "name": "Kaplnka svätej Rozálie",
+        "lat": 48.4482211,
+        "lon": 17.1869658,
+        "type": "chapel",
+        "accuracy": "exact",
+        "source": "https://rohoznik.sk/obec/historia-obce/pamiatky-obce/"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_006",
+      "title": "Tiskárna Petra Bornemiszy: knihtisk v Rohožníku roku 1584",
+      "text": "Rohožník se krátce zapsal do dějin uherského knihtisku. Protestant­ský kazatel a spisovatel Peter Bornemisza přesunul svou tiskárnu z Plaveckého hradu do Rohožníka, kde roku 1584 dokončil poslední část rozsáhlé Postily – souboru nedělních kázání na celý rok. Tiskárna pracovala v domě, který si Bornemisza v obci pořídil nebo nechal postavit; její přesná historická poloha dnes není spolehlivě určena. Po Bornemiszově smrti převzal dílnu jeho tiskařský spolupracovník Valentín Mančkovič a přesunul ji dále do Hlohovce. Epizoda dokládá, že i malá obec na panství Plaveckých měla v 16. století vazbu na významnou středoevropskou knižní kulturu.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11"
+      ],
+      "location": null,
+      "map_category": "cultural_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Cementárna Rohožník: průmyslový komplex vybudovaný od roku 1971",
+      "text": "Na okraji Rohožníka vznikl v 70. letech 20. století jeden z nejvýznamnějších průmyslových areálů západního Slovenska. Základní kámen Západoslovenských cementární a vápenek byl položen roku 1971, výroba vápna a mletých vápenců začala roku 1975 a první cementářský slínek opustil výrobní linku v roce 1976. Závod se postupně rozšiřoval až do poloviny 80. let a stal se důležitým centrem výroby cementu a dalších stavebních materiálů. Jeho vznik navázal na starší těžbu vápence a práci v místních lomech. Cementárna výrazně ovlivnila zaměstnanost, hospodářství i podobu krajiny v okolí obce.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "location": {
+        "name": "Cementáreň Rohožník – priemyselný areál",
+        "lat": 48.4578918,
+        "lon": 17.190174,
+        "type": "industrial_site",
+        "accuracy": "approximate",
+        "source": "https://koda.kominari.cz/?action=karta&cislo=A251"
+      },
+      "map_category": "technical_heritage"
+    },
+    {
+      "id": "fact_008",
+      "title": "Poddanské povstání na plaveckém panství v letech 1818–1820",
+      "text": "Rohožník, tehdy nazývaný Rarbok, se stal jedním z míst odporu poddaných proti rostoucím povinnostem na pálffyovském panství. V létě 1818 se vzpoura, jejímž ohniskem byly Malacky, rozšířila i do okolních obcí. Dne 17. července vstoupilo do Rohožníka císařské vojsko vedené kapitánem Böhmem a po obnovení pořádku 20. července odtáhlo. V lednu 1820 vypuklo nové povstání: poddaní vyhnali představitele vrchnostenské správy, zabavili jim zbraně a připravovali se na ozbrojený odpor. Události ukazují, jak silné sociální napětí vyvolávaly robotní povinnosti a zásahy vrchnosti do obecní půdy a hospodaření.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s15"
+      ],
+      "location": null,
+      "map_category": "historical_monument"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – vyhľadávanie PSČ; oficiálne záznamy ÚVO a obecný úrad Rohožník uvádzajú adresy v Rohožníku s PSČ 906 38",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhľadávanie PSČ Slovenská pošta",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "Štatistický úrad SR a oficiálne územné registre; Register adries SR / Ministerstvo vnútra SR; ÚGKK SR/ZBGIS a mapové podklady"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Obec Rohožník – Pamiatky obce",
+      "url": "https://rohoznik.sk/obec/historia-obce/pamiatky-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "StareMapy.sk – Panský dom, historická horáreň",
+      "url": "https://www.staremapy.sk/n/6640/pansky-dom/",
+      "type": "specialist"
+    },
+    {
+      "id": "s3",
+      "title": "Pralesy.sk – Vysoká, pralesové lokality",
+      "url": "https://www.pralesy.sk/lokality/lokality-pralesov.html?id=82&task=view",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Krásne Slovensko – Vysoká v Malých Karpatoch",
+      "url": "https://www.krasneslovensko.eu/bratislavsky-kraj/vysoka-male-karpaty",
+      "type": "regional"
+    },
+    {
+      "id": "s5",
+      "title": "Krásy podhoranu – turistická mapa a kultúrne body Rohožníka",
+      "url": "https://admin.krasypodhoranu.sk/uploads/krasy-podhoranu/originals/e53f6622-9b28-4a37-a118-1120623b1eca.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Rohožník – história obce a synagóga",
+      "url": "https://rohoznik.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Pamiatky na Slovensku – zvonica v Rohožníku",
+      "url": "https://www.pamiatkynaslovensku.sk/rohoznik-zvonica",
+      "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Pamiatky na Slovensku – Kostol Nanebovzatia Panny Márie",
+      "url": "https://www.pamiatkynaslovensku.sk/rohoznik-kostol-nanebovzatia-panny-marie",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Planet Slovakia – zvonica Rohožník",
+      "url": "https://www.planetslovakia.sk/pamiatky/zvonica-rohoznik",
+      "type": "regional"
+    },
+    {
+      "id": "s10",
+      "title": "Encyklopedie knihy – Peter Bornemisza",
+      "url": "https://encyklopedieknihy.cz/index.php/Peter_Bornemisza",
+      "type": "specialist"
+    },
+    {
+      "id": "s11",
+      "title": "Slovenská akadémia vied – Valentín Mančkovič, uhorský tlačiar",
+      "url": "https://www.sav.sk/journals/uploads/04271153%C5%A0p%C3%A1niov%C3%A1%20Lichnerov%C3%A1%20Nemcov%C3%A1.pdf",
+      "type": "university"
+    },
+    {
+      "id": "s12",
+      "title": "Holcim – história priemyselného komplexu v Rohožníku",
+      "url": "https://www.biskupice.sk/modules/file_storage/download.php?file=d0c03343%7C544&inline=1",
+      "type": "specialist"
+    },
+    {
+      "id": "s13",
+      "title": "ASB – Profil spoločnosti Holcim Slovensko",
+      "url": "https://www.asb.sk/aktualne/tvorime-zaklady-buducnosti-profil-spolocnosti-holcim-slovensko-as",
+      "type": "news"
+    },
+    {
+      "id": "s14",
+      "title": "KODA – priemyselný areál Cementáreň Rohožník",
+      "url": "https://koda.kominari.cz/?action=karta&cislo=A251",
+      "type": "specialist"
+    },
+    {
+      "id": "s15",
+      "title": "Obec Rohožník – V rokoch 1622–1918, povstanie poddaných",
+      "url": "https://rohoznik.sk/obec/historia-obce/v-rokoch-1622-1918/",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Úrad pre verejné obstarávanie – obec Rohožník, PSČ 90638",
+      "url": "https://www.uvo.gov.sk/vestnik-a-registre/vestnik/oznamenie/detail/1367773?cHash=aeb3c2bbb786f1806fc0296f570c92d6",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "Obec Rohožník – PHSR, administratívne a geografické údaje",
+      "url": "https://rohoznik.sk/wp-content/uploads/2024/05/PHSR-2015-2020.pdf",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické centrum Rohožníka u renesanční zvonice",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: výrazný vápencový vrchol s pralesními lesy",
+          "text": "Nad rozhraním Rohožníka a Kuchyne vystupuje Vysoká, výrazný vápencový vrchol Malých Karpat s nadmořskou výškou přibližně 754 m. Strmý skalnatý hřeben dominuje Borské nížině a za dobré viditelnosti nabízí široké výhledy do Záhoria. Okolní území chrání přírodní rezervace Vysoká; na svazích se dochovaly lesy s charakterem pralesa, jejichž porosty mají průměrné stáří přibližně 160 až 175 let. Jde o cenné území bukových a lipovo-javorových suťových lesů v chráněné krajinné oblasti Malé Karpaty."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: poslední dochovaná huncokárská usedlost",
+          "text": "V lesích jihovýchodně od Rohožníka leží Panský dom, místo spojené s přibližně třemi stoletími života huncokárů – německy mluvících lesních dělníků a jejich rodin, kteří pracovali v Malých Karpatech. Původní huncokárskou usedlost později doplnila pálffyovská horárna zvaná Herrenhaus, zřízená po polovině 19. století. Dodnes se zde zachovala zchátralá budova staré horárny, základy sklepa a zbytky ovocných zahrad. Obec Rohožník lokalitu označuje za poslední huncokárskou usedlost, která se dochovala jako čitelný historický celek, nikoli jen jako zarostlé ruiny."
+        },
+        {
+          "id": "fact_003",
+          "title": "Rohožnická synagoga: památka venkovské židovské komunity",
+          "text": "V centru Rohožníka stojí drobná synagoga, kterou místní židovská obec postavila v 19. století. Jde o pozoruhodný příklad venkovské synagogální architektury: jednoduchá stavba má téměř čtvercový půdorys, valbovou střechu a půlkruhová okna. Po zániku původní náboženské funkce sloužila budova jako sklad. V letech 2004–2005 prošla obnovou a byla znovu využita pro kulturní účely; na fasádě byla odhalena pamětní deska věnovaná židovským obětem holokaustu. Synagoga připomíná někdejší židovskou komunitu, jejíž přítomnost je v obci doložena už roku 1720."
+        },
+        {
+          "id": "fact_004",
+          "title": "Renesanční zvonice a kostel Nanebevzetí Panny Marie",
+          "text": "Dominantou historického centra Rohožníka je samostatná kamenná zvonice, která vznikla z věže staršího kostela doloženého roku 1561. Dnešní podoba zvonice pochází ze 17. století a její úpravy pokračovaly v 19. století; větší zvon nese nápis a jméno bratislavského zvonaře Caspara Wolffa s letopočtem 1687. Vedle stojí nový kostel Nanebevzetí Panny Marie, postavený v letech 1857–1860 v romantizujícím historizujícím slohu. Zvonice tak uchovává starší stavební vrstvu obce, zatímco kostel představuje její výraznou sakrální stavbu 19. století. Představa, že zvonice byla původně římskou strážní věží, patří k místní tradici a není archeologicky prokázána."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kaple svaté Rozálie: poutní stopa na okraji Rohožníka",
+          "text": "Kaple svaté Rozálie stojí v někdejší samotě u Rohožníka a pravděpodobně vznikla na konci 17. století. Podle místní tradice nahradila starší kapli zničenou během tureckých válek. V interiéru bývala socha svaté Rozálie vyřezaná z hruškového dřeva; restaurátoři ji podle obecního popisu datovali rovněž do závěru 17. století. Nápisy na soše připomínají opravy z let 1885 a 1900 a další restaurování proběhlo roku 1996. V kapli se nacházela také relikvie uložená v desce z červeného mramoru. Jde o jednu z nejstarších a příběhově nejvýraznějších sakrálních památek v okolí obce."
+        },
+        {
+          "id": "fact_006",
+          "title": "Tiskárna Petra Bornemiszy: knihtisk v Rohožníku roku 1584",
+          "text": "Rohožník se krátce zapsal do dějin uherského knihtisku. Protestant­ský kazatel a spisovatel Peter Bornemisza přesunul svou tiskárnu z Plaveckého hradu do Rohožníka, kde roku 1584 dokončil poslední část rozsáhlé Postily – souboru nedělních kázání na celý rok. Tiskárna pracovala v domě, který si Bornemisza v obci pořídil nebo nechal postavit; její přesná historická poloha dnes není spolehlivě určena. Po Bornemiszově smrti převzal dílnu jeho tiskařský spolupracovník Valentín Mančkovič a přesunul ji dále do Hlohovce. Epizoda dokládá, že i malá obec na panství Plaveckých měla v 16. století vazbu na významnou středoevropskou knižní kulturu."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cementárna Rohožník: průmyslový komplex vybudovaný od roku 1971",
+          "text": "Na okraji Rohožníka vznikl v 70. letech 20. století jeden z nejvýznamnějších průmyslových areálů západního Slovenska. Základní kámen Západoslovenských cementární a vápenek byl položen roku 1971, výroba vápna a mletých vápenců začala roku 1975 a první cementářský slínek opustil výrobní linku v roce 1976. Závod se postupně rozšiřoval až do poloviny 80. let a stal se důležitým centrem výroby cementu a dalších stavebních materiálů. Jeho vznik navázal na starší těžbu vápence a práci v místních lomech. Cementárna výrazně ovlivnila zaměstnanost, hospodářství i podobu krajiny v okolí obce."
+        },
+        {
+          "id": "fact_008",
+          "title": "Poddanské povstání na plaveckém panství v letech 1818–1820",
+          "text": "Rohožník, tehdy nazývaný Rarbok, se stal jedním z míst odporu poddaných proti rostoucím povinnostem na pálffyovském panství. V létě 1818 se vzpoura, jejímž ohniskem byly Malacky, rozšířila i do okolních obcí. Dne 17. července vstoupilo do Rohožníka císařské vojsko vedené kapitánem Böhmem a po obnovení pořádku 20. července odtáhlo. V lednu 1820 vypuklo nové povstání: poddaní vyhnali představitele vrchnostenské správy, zabavili jim zbraně a připravovali se na ozbrojený odpor. Události ukazují, jak silné sociální napětí vyvolávaly robotní povinnosti a zásahy vrchnosti do obecní půdy a hospodaření."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Rohožník bei der Renaissance-Glockenstube",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: ein markanter Kalksteingipfel mit urwaldartigen Wäldern",
+          "text": "Über dem Übergang zwischen Rohožník und Kuchyňa erhebt sich Vysoká, ein markanter Kalksteingipfel der Kleinen Karpaten mit etwa 754 Metern Höhe. Der steile Felsrücken dominiert das Tiefland Borská nížina und bietet bei guter Sicht weite Ausblicke über Záhorie. Das Gebiet steht unter Naturschutz; an den Hängen blieben Wälder mit Urwaldcharakter erhalten, deren Bestände im Durchschnitt etwa 160 bis 175 Jahre alt sind. Es handelt sich um wertvolle Buchen- und Linden-Ahorn-Schuttwälder im Landschaftsschutzgebiet Kleine Karpaten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: die letzte erhaltene Huncokár-Siedlung",
+          "text": "In den Wäldern südöstlich von Rohožník liegt Panský dom, ein Ort mit einer rund dreihundertjährigen Geschichte der Huncokári – deutschsprachigen Waldarbeitern und ihren Familien, die in den Kleinen Karpaten arbeiteten. Zur ursprünglichen Siedlung kam später ein Forsthaus der Pálffy namens Herrenhaus hinzu, das nach der Mitte des 19. Jahrhunderts eingerichtet wurde. Erhalten sind das verfallene alte Forsthaus, Kellerfundamente und Reste von Obstgärten. Die Gemeinde bezeichnet den Ort als letzte Huncokár-Siedlung, die noch als lesbares historisches Ensemble und nicht nur als überwachsene Ruine erhalten ist."
+        },
+        {
+          "id": "fact_003",
+          "title": "Die Synagoge von Rohožník: ein Denkmal der ländlichen jüdischen Gemeinde",
+          "text": "Im Zentrum von Rohožník steht eine kleine Synagoge, die von der jüdischen Gemeinde im 19. Jahrhundert errichtet wurde. Sie ist ein bemerkenswertes Beispiel ländlicher Synagogenarchitektur: Der schlichte Bau hat einen nahezu quadratischen Grundriss, ein Walmdach und Rundbogenfenster. Nach dem Ende der religiösen Nutzung diente das Gebäude als Lager. In den Jahren 2004–2005 wurde es restauriert und kulturell neu genutzt; an der Fassade wurde eine Gedenktafel für die jüdischen Opfer des Holocaust enthüllt. Die Synagoge erinnert an die frühere jüdische Gemeinde, deren Anwesenheit im Ort bereits 1720 belegt ist."
+        },
+        {
+          "id": "fact_004",
+          "title": "Renaissance-Glockenstube und Kirche Mariä Himmelfahrt",
+          "text": "Das historische Zentrum von Rohožník wird von einer freistehenden steinernen Glockenstube geprägt, die aus dem Turm einer älteren, 1561 erwähnten Kirche hervorging. Ihre heutige Form stammt aus dem 17. Jahrhundert; Umbauten folgten im 19. Jahrhundert. Die größere Glocke trägt eine Inschrift mit dem Namen des Pressburger Glockengießers Caspar Wolff und der Jahreszahl 1687. Daneben steht die neue Kirche Mariä Himmelfahrt, erbaut 1857–1860 im romantisch-historisierenden Stil. Die Glockenstube bewahrt damit eine ältere Bauschicht des Ortes, während die Kirche sein bedeutendes Sakralgebäude des 19. Jahrhunderts darstellt. Die Vorstellung eines ursprünglich römischen Wachturms gehört zur lokalen Überlieferung und ist archäologisch nicht bewiesen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kapelle der heiligen Rosalia: ein alter Wallfahrtsort am Ortsrand",
+          "text": "Die Kapelle der heiligen Rosalia steht in einer ehemaligen Einöde bei Rohožník und entstand wahrscheinlich Ende des 17. Jahrhunderts. Der örtlichen Überlieferung zufolge ersetzte sie eine ältere Kapelle, die während der Türkenkriege zerstört worden war. Im Inneren befand sich früher eine aus Birnbaumholz geschnitzte Statue der heiligen Rosalia; Restauratoren datierten sie laut Gemeindebeschreibung ebenfalls auf das späte 17. Jahrhundert. Inschriften erinnern an Restaurierungen von 1885 und 1900; eine weitere Restaurierung erfolgte 1996. In der Kapelle befand sich auch eine Reliquie in einer Platte aus rotem Marmor. Sie gehört zu den ältesten und erzählerisch interessantesten Sakraldenkmälern der Umgebung."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Druckerei von Peter Bornemisza: Buchdruck in Rohožník 1584",
+          "text": "Rohožník ging kurzzeitig in die Geschichte des Buchdrucks im Königreich Ungarn ein. Der protestantische Prediger und Schriftsteller Peter Bornemisza verlegte seine Druckerei von der Burg Plavecký nach Rohožník und vollendete dort 1584 den letzten Teil seiner umfangreichen Postille, einer Sammlung von Sonntagspredigten für das ganze Jahr. Gedruckt wurde im Haus, das Bornemisza im Ort erworben oder errichten lassen hatte; der genaue historische Standort ist heute nicht zuverlässig bekannt. Nach seinem Tod übernahm sein Mitarbeiter, der Drucker Valentín Mančkovič, die Werkstatt und verlegte sie weiter nach Hlohovec. Diese Episode zeigt, dass auch eine kleine Herrschaftsgemeinde im 16. Jahrhundert mit der bedeutenden mitteleuropäischen Buchkultur verbunden war."
+        },
+        {
+          "id": "fact_007",
+          "title": "Zementwerk Rohožník: ein ab 1971 errichteter Industriekomplex",
+          "text": "Am Rand von Rohožník entstand in den 1970er Jahren einer der bedeutendsten Industriekomplexe der Westslowakei. Der Grundstein des Zement- und Kalkwerks Západoslovenské cementárne a vápenky wurde 1971 gelegt; die Herstellung von Kalk und gemahlenem Kalkstein begann 1975, der erste Zementklinker verließ 1976 die Produktionslinie. Das Werk wurde bis Mitte der 1980er Jahre schrittweise erweitert und entwickelte sich zu einem wichtigen Zentrum für Zement und weitere Baustoffe. Seine Entstehung knüpfte an den älteren Kalksteinabbau und die örtlichen Steinbrüche an. Das Zementwerk prägte Beschäftigung, Wirtschaft und Landschaft der Umgebung."
+        },
+        {
+          "id": "fact_008",
+          "title": "Bauernaufstände auf der Herrschaft Plavecký 1818–1820",
+          "text": "Rohožník, damals Rarbok genannt, war einer der Orte des Widerstands der Untertanen gegen die steigenden Lasten auf der Pálffy-Herrschaft. Im Sommer 1818 breitete sich der Aufstand, dessen Zentrum Malacky war, auch auf die umliegenden Gemeinden aus. Am 17. Juli rückte kaiserliches Militär unter Hauptmann Böhm in Rohožník ein und zog nach Wiederherstellung der Ordnung am 20. Juli wieder ab. Im Januar 1820 kam es zu einem neuen Aufstand: Die Untertanen vertrieben Vertreter der Herrschaftsverwaltung, beschlagnahmten deren Waffen und bereiteten bewaffneten Widerstand vor. Die Ereignisse zeigen die sozialen Spannungen, die durch Frondienste und Eingriffe der Grundherrschaft in Gemeindeland und Landwirtschaft entstanden."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Rohožník by the Renaissance bell tower",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: a striking limestone summit with primeval woodland",
+          "text": "Above the boundary between Rohožník and Kuchyňa rises Vysoká, a distinctive limestone summit in the Little Carpathians, about 754 metres high. Its steep rocky ridge dominates the Borská nížina lowland and offers broad views across Záhorie in clear weather. The area is protected, and slopes preserve woodland with primeval-forest character; the stands average roughly 160 to 175 years old. These are valuable beech and lime-maple scree forests within the Little Carpathians Protected Landscape Area."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: the last surviving Huncokár forest settlement",
+          "text": "In the woods southeast of Rohožník lies Panský dom, a place associated with around three centuries of Huncokár history. The Huncokári were German-speaking forest workers and their families who worked in the Little Carpathians. The original forest settlement was later joined by a Pálffy estate forester’s lodge known as Herrenhaus, established after the mid-19th century. The site retains the decaying old lodge, cellar foundations and remnants of fruit gardens. The municipality describes it as the last Huncokár settlement preserved as a recognisable historic ensemble rather than merely overgrown ruins."
+        },
+        {
+          "id": "fact_003",
+          "title": "Rohožník Synagogue: a monument to the rural Jewish community",
+          "text": "A small synagogue stands in the centre of Rohožník, built by the local Jewish community in the 19th century. It is a notable example of rural synagogue architecture: a simple building with an almost square plan, a hipped roof and semicircular windows. After religious use ended, it served as a storehouse. In 2004–2005 it was restored and adapted for cultural use; a memorial plaque dedicated to Jewish victims of the Holocaust was unveiled on its façade. The synagogue recalls the former Jewish community, whose presence in the village is documented as early as 1720."
+        },
+        {
+          "id": "fact_004",
+          "title": "Renaissance bell tower and the Church of the Assumption",
+          "text": "The historic centre of Rohožník is marked by a freestanding stone bell tower that originated as the tower of an older church mentioned in 1561. Its present form dates from the 17th century, with further alterations in the 19th century. The larger bell bears an inscription naming Bratislava bell-founder Caspar Wolff and the date 1687. Nearby stands the new Church of the Assumption of the Virgin Mary, built in 1857–1860 in a romantic historicist style. The bell tower preserves an older layer of the village’s built history, while the church is its major 19th-century religious building. The idea that the tower was originally a Roman watchtower belongs to local tradition and has not been archaeologically proven."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chapel of Saint Rosalia: an old devotional site outside the village",
+          "text": "The Chapel of Saint Rosalia stands at a former outlying settlement near Rohožník and was probably built in the late 17th century. According to local tradition, it replaced an older chapel destroyed during the Ottoman wars. Its interior once held a pear-wood statue of Saint Rosalia; restorers also dated the statue to the late 17th century. Inscriptions record repairs in 1885 and 1900, and further restoration took place in 1996. The chapel also housed a relic set into a slab of red marble. It is one of the oldest and most story-rich religious monuments in the area."
+        },
+        {
+          "id": "fact_006",
+          "title": "Peter Bornemisza’s printing press: printing in Rohožník in 1584",
+          "text": "Rohožník briefly entered the history of printing in the Kingdom of Hungary. The Protestant preacher and writer Peter Bornemisza moved his press from Plavecký Castle to Rohožník, where in 1584 he completed the final part of his extensive Postil, a collection of Sunday sermons for the whole year. Printing took place in a house Bornemisza had bought or built in the village; its exact historic location is not reliably known today. After his death, his printing associate Valentín Mančkovič took over the workshop and moved it on to Hlohovec. This episode shows that even a small estate village was connected to major Central European book culture in the 16th century."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rohožník cement works: an industrial complex built from 1971",
+          "text": "One of the most important industrial complexes in western Slovakia emerged on the edge of Rohožník during the 1970s. The foundation stone of the Západoslovenské cementárne a vápenky cement and lime works was laid in 1971; lime and ground limestone production began in 1975, and the first cement clinker left the production line in 1976. The plant expanded in stages until the mid-1980s and became a major centre for cement and other construction materials. Its development built on older limestone extraction and local quarries. The works have had a lasting impact on employment, the local economy and the surrounding landscape."
+        },
+        {
+          "id": "fact_008",
+          "title": "Peasant uprisings on the Plavecký estate, 1818–1820",
+          "text": "Rohožník, then known as Rarbok, became one of the places where serfs resisted increasing obligations on the Pálffy estate. In the summer of 1818, an uprising centred on Malacky spread to neighbouring villages. On 17 July, imperial troops led by Captain Böhm entered Rohožník and withdrew on 20 July after order had been restored. A new revolt broke out in January 1820: peasants expelled estate administrators, seized their weapons and prepared for armed resistance. These events reveal the social tensions caused by compulsory labour and the estate’s interference in communal land and farming."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Rohožník junto al campanario renacentista",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: una cumbre caliza con bosques de carácter primario",
+          "text": "Sobre el límite entre Rohožník y Kuchyňa se eleva Vysoká, una destacada cumbre caliza de los Pequeños Cárpatos, de unos 754 metros. Su cresta rocosa y escarpada domina la llanura de Borská nížina y ofrece amplias vistas de Záhorie cuando el tiempo está despejado. El entorno está protegido y conserva bosques con carácter de bosque primario, cuyos árboles tienen una edad media aproximada de 160 a 175 años. Son valiosos hayedos y bosques pedregosos de tilos y arces dentro del Área Paisajística Protegida de los Pequeños Cárpatos."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: el último asentamiento forestal huncokár conservado",
+          "text": "En los bosques al sureste de Rohožník se encuentra Panský dom, un lugar vinculado a unos tres siglos de historia de los huncokári. Eran trabajadores forestales de habla alemana y sus familias, que trabajaban en los Pequeños Cárpatos. A la antigua explotación forestal se añadió más tarde una casa de guardabosques de los Pálffy llamada Herrenhaus, establecida después de mediados del siglo XIX. Se conservan el edificio deteriorado, los cimientos de una bodega y restos de jardines frutales. El municipio la considera el último asentamiento huncokár que aún puede leerse como conjunto histórico y no solo como ruinas cubiertas de vegetación."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sinagoga de Rohožník: monumento a la comunidad judía rural",
+          "text": "En el centro de Rohožník se encuentra una pequeña sinagoga construida por la comunidad judía local en el siglo XIX. Es un ejemplo notable de arquitectura sinagogal rural: un edificio sencillo de planta casi cuadrada, tejado a cuatro aguas y ventanas semicirculares. Tras dejar de utilizarse para el culto, sirvió como almacén. En 2004–2005 fue restaurada y adaptada para usos culturales; en su fachada se descubrió una placa conmemorativa dedicada a las víctimas judías del Holocausto. La sinagoga recuerda a la antigua comunidad judía, cuya presencia en el pueblo está documentada ya en 1720."
+        },
+        {
+          "id": "fact_004",
+          "title": "Campanario renacentista e iglesia de la Asunción de la Virgen María",
+          "text": "El centro histórico de Rohožník está marcado por un campanario de piedra exento, originado en la torre de una iglesia anterior mencionada en 1561. Su forma actual data del siglo XVII y fue modificada de nuevo en el XIX. La campana mayor lleva una inscripción con el nombre del fundidor de Bratislava Caspar Wolff y el año 1687. Cerca se encuentra la nueva iglesia de la Asunción de la Virgen María, construida entre 1857 y 1860 en estilo historicista romántico. El campanario conserva una capa arquitectónica más antigua del pueblo, mientras que la iglesia es su principal edificio religioso del siglo XIX. La idea de que la torre fue originalmente una atalaya romana pertenece a la tradición local y no está demostrada arqueológicamente."
+        },
+        {
+          "id": "fact_005",
+          "title": "Capilla de Santa Rosalía: antiguo lugar devocional a las afueras",
+          "text": "La capilla de Santa Rosalía se encuentra en una antigua aldea aislada cerca de Rohožník y probablemente fue construida a finales del siglo XVII. Según la tradición local, sustituyó a una capilla anterior destruida durante las guerras contra los otomanos. En su interior hubo una estatua de Santa Rosalía tallada en madera de peral; los restauradores también la dataron a finales del siglo XVII. Las inscripciones recuerdan reparaciones de 1885 y 1900, y hubo otra restauración en 1996. La capilla albergaba además una reliquia colocada en una placa de mármol rojo. Es uno de los monumentos religiosos más antiguos y con más historia de la zona."
+        },
+        {
+          "id": "fact_006",
+          "title": "La imprenta de Peter Bornemisza: impresión en Rohožník en 1584",
+          "text": "Rohožník entró brevemente en la historia de la imprenta del Reino de Hungría. El predicador y escritor protestante Peter Bornemisza trasladó su imprenta desde el castillo de Plavecký a Rohožník, donde en 1584 terminó la última parte de su extensa Postila, una colección de sermones dominicales para todo el año. La impresión se realizó en una casa que Bornemisza había comprado o mandado construir en el pueblo; hoy no se conoce con seguridad su ubicación exacta. Tras su muerte, su colaborador, el impresor Valentín Mančkovič, se hizo cargo del taller y lo trasladó a Hlohovec. Este episodio muestra que incluso una pequeña localidad señorial estaba conectada con la importante cultura del libro de Europa central en el siglo XVI."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cementera de Rohožník: complejo industrial construido desde 1971",
+          "text": "En las afueras de Rohožník surgió durante los años setenta uno de los complejos industriales más importantes del oeste de Eslovaquia. La primera piedra de las fábricas de cemento y cal Západoslovenské cementárne a vápenky se colocó en 1971; la producción de cal y piedra caliza molida comenzó en 1975 y el primer clínker salió de la línea en 1976. La planta se amplió por etapas hasta mediados de los años ochenta y se convirtió en un centro importante de producción de cemento y otros materiales de construcción. Su desarrollo se apoyó en la antigua extracción de caliza y en las canteras locales. La fábrica ha influido durante décadas en el empleo, la economía y el paisaje de la zona."
+        },
+        {
+          "id": "fact_008",
+          "title": "Revueltas campesinas en el señorío de Plavecký, 1818–1820",
+          "text": "Rohožník, llamado entonces Rarbok, fue uno de los lugares donde los campesinos se opusieron al aumento de las obligaciones en el señorío de los Pálffy. En el verano de 1818, una revuelta cuyo foco estaba en Malacky se extendió a las aldeas vecinas. El 17 de julio entraron en Rohožník tropas imperiales dirigidas por el capitán Böhm y se retiraron el 20 de julio, una vez restablecido el orden. En enero de 1820 estalló una nueva rebelión: los campesinos expulsaron a los administradores señoriales, se apoderaron de sus armas y se prepararon para resistir. Estos acontecimientos muestran las tensiones sociales provocadas por el trabajo obligatorio y la intervención del señorío en las tierras y la economía comunales."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Rohožník près du clocher Renaissance",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká : un sommet calcaire entouré de forêts anciennes",
+          "text": "À la limite de Rohožník et de Kuchyňa s’élève Vysoká, un sommet calcaire remarquable des Petites Carpates, culminant à environ 754 mètres. Sa crête rocheuse et escarpée domine la plaine de Borská nížina et offre, par temps clair, de larges vues sur Záhorie. Le secteur est protégé et conserve des forêts présentant un caractère de forêt primaire, dont les peuplements ont un âge moyen d’environ 160 à 175 ans. Il s’agit de hêtraies et de forêts d’éboulis à tilleuls et érables, précieuses au sein de l’aire paysagère protégée des Petites Carpates."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom : le dernier hameau forestier huncokár préservé",
+          "text": "Dans les forêts au sud-est de Rohožník se trouve Panský dom, un lieu lié à environ trois siècles d’histoire des Huncokári. Il s’agissait de travailleurs forestiers germanophones et de leurs familles, employés dans les Petites Carpates. À l’ancien établissement forestier s’ajouta ensuite une maison de garde forestier des Pálffy appelée Herrenhaus, créée après le milieu du XIXe siècle. On y voit encore l’ancien bâtiment délabré, les fondations d’une cave et des vestiges de vergers. La commune le considère comme le dernier établissement huncokár conservé en tant qu’ensemble historique lisible, et non comme de simples ruines envahies par la végétation."
+        },
+        {
+          "id": "fact_003",
+          "title": "Synagogue de Rohožník : mémoire de la communauté juive rurale",
+          "text": "Au centre de Rohožník se trouve une petite synagogue construite par la communauté juive locale au XIXe siècle. C’est un exemple remarquable d’architecture synagogale rurale : un bâtiment sobre, presque carré, avec un toit en croupe et des fenêtres en plein cintre. Après la fin de son usage religieux, l’édifice servit d’entrepôt. En 2004–2005, il fut restauré et réaffecté à des activités culturelles ; une plaque commémorative dédiée aux victimes juives de la Shoah fut dévoilée sur sa façade. La synagogue rappelle l’ancienne communauté juive, dont la présence dans le village est attestée dès 1720."
+        },
+        {
+          "id": "fact_004",
+          "title": "Clocher Renaissance et église de l’Assomption de la Vierge Marie",
+          "text": "Le centre historique de Rohožník est marqué par un clocher de pierre indépendant, issu de la tour d’une ancienne église mentionnée en 1561. Sa forme actuelle date du XVIIe siècle et il fut remanié au XIXe siècle. La plus grande cloche porte une inscription avec le nom du fondeur de Bratislava Caspar Wolff et la date de 1687. À proximité se trouve la nouvelle église de l’Assomption de la Vierge Marie, construite entre 1857 et 1860 dans un style historiciste romantique. Le clocher conserve une couche architecturale plus ancienne du village, tandis que l’église en est le principal édifice religieux du XIXe siècle. L’idée d’une ancienne tour de guet romaine relève de la tradition locale et n’est pas démontrée par l’archéologie."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chapelle Sainte-Rosalie : ancien lieu de dévotion à l’écart du village",
+          "text": "La chapelle Sainte-Rosalie se trouve dans un ancien hameau isolé près de Rohožník et fut probablement construite à la fin du XVIIe siècle. Selon la tradition locale, elle remplaça une chapelle plus ancienne détruite pendant les guerres ottomanes. Son intérieur abritait autrefois une statue de sainte Rosalie sculptée dans du bois de poirier ; les restaurateurs l’ont également datée de la fin du XVIIe siècle. Des inscriptions rappellent des restaurations en 1885 et 1900, puis une nouvelle intervention eut lieu en 1996. La chapelle abritait aussi une relique placée dans une dalle de marbre rouge. C’est l’un des monuments religieux les plus anciens et les plus riches en histoire des environs."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’imprimerie de Peter Bornemisza : le livre imprimé à Rohožník en 1584",
+          "text": "Rohožník entra brièvement dans l’histoire de l’imprimerie du royaume de Hongrie. Le prédicateur et écrivain protestant Peter Bornemisza transféra son imprimerie du château de Plavecký à Rohožník, où il acheva en 1584 la dernière partie de sa vaste Postille, un recueil de sermons dominicaux pour toute l’année. L’impression eut lieu dans une maison que Bornemisza avait achetée ou fait construire dans le village ; son emplacement historique exact n’est pas connu avec certitude. Après sa mort, son collaborateur, l’imprimeur Valentín Mančkovič, reprit l’atelier et le transféra à Hlohovec. Cet épisode montre qu’un petit village seigneurial était lui aussi relié à la grande culture du livre d’Europe centrale au XVIe siècle."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cimenterie de Rohožník : un complexe industriel créé à partir de 1971",
+          "text": "À la périphérie de Rohožník fut créé dans les années 1970 l’un des complexes industriels les plus importants de l’ouest de la Slovaquie. La première pierre des cimenteries et chaufourneries Západoslovenské cementárne a vápenky fut posée en 1971 ; la production de chaux et de calcaire broyé commença en 1975, puis le premier clinker sortit de la ligne en 1976. L’usine fut agrandie par étapes jusqu’au milieu des années 1980 et devint un centre important de production de ciment et d’autres matériaux de construction. Son développement prolongeait l’ancienne extraction de calcaire et l’activité des carrières locales. L’usine a durablement influencé l’emploi, l’économie et le paysage environnant."
+        },
+        {
+          "id": "fact_008",
+          "title": "Révoltes paysannes dans le domaine de Plavecký, 1818–1820",
+          "text": "Rohožník, alors appelé Rarbok, fut l’un des lieux où les paysans résistèrent à l’augmentation des obligations imposées par le domaine des Pálffy. À l’été 1818, une révolte dont le foyer se trouvait à Malacky s’étendit aux villages voisins. Le 17 juillet, des troupes impériales commandées par le capitaine Böhm entrèrent à Rohožník et repartirent le 20 juillet après le rétablissement de l’ordre. Une nouvelle révolte éclata en janvier 1820 : les paysans chassèrent les administrateurs seigneuriaux, saisirent leurs armes et se préparèrent à la résistance armée. Ces événements révèlent les tensions sociales provoquées par les corvées et l’intervention de la seigneurie dans les terres et l’économie communales."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Rohožník presso il campanile rinascimentale",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: una vetta calcarea con boschi di carattere primordiale",
+          "text": "Al confine tra Rohožník e Kuchyňa si innalza Vysoká, una vetta calcarea distintiva dei Piccoli Carpazi, alta circa 754 metri. La sua cresta rocciosa e ripida domina la pianura di Borská nížina e, nelle giornate limpide, offre ampie vedute sulla regione di Záhorie. L’area è protetta e conserva boschi con caratteristiche di foresta primaria, con popolamenti di età media compresa tra circa 160 e 175 anni. Si tratta di preziosi faggeti e boschi detritici di tigli e aceri nell’area paesaggistica protetta dei Piccoli Carpazi."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: l’ultimo insediamento forestale huncokár conservato",
+          "text": "Nei boschi a sud-est di Rohožník si trova Panský dom, un luogo legato a circa tre secoli di storia degli Huncokári. Erano lavoratori forestali di lingua tedesca e le loro famiglie, attivi nei Piccoli Carpazi. All’insediamento forestale originario si aggiunse in seguito una casa del guardaboschi dei Pálffy chiamata Herrenhaus, istituita dopo la metà del XIX secolo. Restano l’edificio fatiscente della vecchia casa forestale, le fondamenta di una cantina e i resti di frutteti. Il comune lo considera l’ultimo insediamento huncokár conservato come complesso storico riconoscibile, e non soltanto come rudere invaso dalla vegetazione."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sinagoga di Rohožník: memoria della comunità ebraica rurale",
+          "text": "Nel centro di Rohožník sorge una piccola sinagoga costruita dalla comunità ebraica locale nel XIX secolo. È un esempio notevole di architettura sinagogale rurale: un edificio semplice, quasi quadrato, con tetto a padiglione e finestre semicircolari. Dopo la fine dell’uso religioso fu utilizzata come magazzino. Nel 2004–2005 venne restaurata e destinata ad attività culturali; sulla facciata fu inaugurata una targa commemorativa dedicata alle vittime ebree dell’Olocausto. La sinagoga ricorda la comunità ebraica di un tempo, attestata nel villaggio già nel 1720."
+        },
+        {
+          "id": "fact_004",
+          "title": "Campanile rinascimentale e chiesa dell’Assunzione della Vergine Maria",
+          "text": "Il centro storico di Rohožník è caratterizzato da un campanile in pietra indipendente, ricavato dalla torre di una chiesa più antica menzionata nel 1561. La forma attuale risale al XVII secolo e subì ulteriori modifiche nel XIX secolo. La campana maggiore reca un’iscrizione con il nome del fonditore di Bratislava Caspar Wolff e la data 1687. Nelle vicinanze sorge la nuova chiesa dell’Assunzione della Vergine Maria, costruita tra il 1857 e il 1860 in stile storicista romantico. Il campanile conserva uno strato edilizio più antico del paese, mentre la chiesa è il suo principale edificio religioso ottocentesco. L’idea che il campanile fosse originariamente una torre di guardia romana appartiene alla tradizione locale e non è stata dimostrata archeologicamente."
+        },
+        {
+          "id": "fact_005",
+          "title": "Cappella di Santa Rosalia: antico luogo di devozione fuori dal paese",
+          "text": "La cappella di Santa Rosalia si trova in un antico insediamento isolato vicino a Rohožník e fu probabilmente costruita alla fine del XVII secolo. Secondo la tradizione locale sostituì una cappella più antica distrutta durante le guerre ottomane. All’interno si trovava una statua di Santa Rosalia scolpita in legno di pero; anche i restauratori l’hanno datata alla fine del XVII secolo. Le iscrizioni ricordano restauri del 1885 e del 1900, mentre un ulteriore intervento fu realizzato nel 1996. La cappella custodiva anche una reliquia inserita in una lastra di marmo rosso. È uno dei monumenti religiosi più antichi e ricchi di storia della zona."
+        },
+        {
+          "id": "fact_006",
+          "title": "La tipografia di Peter Bornemisza: la stampa a Rohožník nel 1584",
+          "text": "Rohožník entrò per breve tempo nella storia della stampa del Regno d’Ungheria. Il predicatore e scrittore protestante Peter Bornemisza trasferì la sua tipografia dal castello di Plavecký a Rohožník, dove nel 1584 completò l’ultima parte della sua ampia Postilla, una raccolta di sermoni domenicali per tutto l’anno. La stampa avvenne in una casa che Bornemisza aveva acquistato o fatto costruire nel villaggio; oggi la sua posizione storica precisa non è nota con certezza. Dopo la sua morte, il collaboratore e tipografo Valentín Mančkovič rilevò la bottega e la trasferì a Hlohovec. L’episodio dimostra che anche un piccolo villaggio signorile era collegato alla grande cultura libraria dell’Europa centrale del XVI secolo."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cementeria di Rohožník: complesso industriale costruito dal 1971",
+          "text": "Ai margini di Rohožník nacque negli anni Settanta uno dei più importanti complessi industriali della Slovacchia occidentale. La prima pietra delle cementerie e calciere Západoslovenské cementárne a vápenky fu posata nel 1971; la produzione di calce e calcare macinato iniziò nel 1975 e il primo clinker uscì dalla linea nel 1976. Lo stabilimento fu ampliato per fasi fino alla metà degli anni Ottanta e divenne un importante centro per la produzione di cemento e altri materiali da costruzione. Il suo sviluppo si basò sulla precedente estrazione di calcare e sulle cave locali. La cementeria ha influenzato a lungo l’occupazione, l’economia e il paesaggio circostante."
+        },
+        {
+          "id": "fact_008",
+          "title": "Rivolte contadine nella signoria di Plavecký, 1818–1820",
+          "text": "Rohožník, allora chiamato Rarbok, fu uno dei luoghi in cui i contadini si opposero all’aumento degli obblighi imposti dalla signoria dei Pálffy. Nell’estate del 1818 una rivolta, il cui centro era Malacky, si estese ai villaggi vicini. Il 17 luglio le truppe imperiali guidate dal capitano Böhm entrarono a Rohožník e si ritirarono il 20 luglio dopo il ripristino dell’ordine. Nel gennaio 1820 scoppiò una nuova rivolta: i contadini cacciarono gli amministratori signorili, confiscarono le loro armi e si prepararono alla resistenza armata. Gli eventi rivelano le tensioni sociali provocate dalle corvée e dall’interferenza della signoria nelle terre e nell’economia comunali."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historisch centrum van Rohožník bij de renaissanceklokkentoren",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vysoká: een opvallende kalksteentop met oerbosachtige bossen",
+          "text": "Op de grens van Rohožník en Kuchyňa rijst Vysoká op, een markante kalksteentop in de Kleine Karpaten van ongeveer 754 meter hoog. De steile rotskam domineert het laagland Borská nížina en biedt bij helder weer weidse uitzichten over Záhorie. Het gebied is beschermd en op de hellingen zijn bossen met een oerboskarakter bewaard gebleven; de opstanden zijn gemiddeld ongeveer 160 tot 175 jaar oud. Het gaat om waardevolle beukenbossen en puinhellingbossen met linden en esdoorns binnen het beschermde landschapsgebied Kleine Karpaten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Panský dom: de laatst bewaarde Huncokár-bosnederzetting",
+          "text": "In de bossen ten zuidoosten van Rohožník ligt Panský dom, een plek die verbonden is met ongeveer drie eeuwen Huncokár-geschiedenis. De Huncokári waren Duitstalige bosarbeiders en hun gezinnen die in de Kleine Karpaten werkten. Bij de oorspronkelijke bosnederzetting kwam later een boswachterswoning van de familie Pálffy, Herrenhaus genoemd, die na het midden van de negentiende eeuw werd ingericht. Er zijn nog een vervallen oud boswachtershuis, kelderfunderingen en resten van fruitboomgaarden. De gemeente beschouwt dit als de laatste Huncokár-nederzetting die als herkenbaar historisch geheel bewaard bleef en niet slechts als overwoekerde ruïne."
+        },
+        {
+          "id": "fact_003",
+          "title": "Synagoge van Rohožník: herinnering aan de landelijke Joodse gemeenschap",
+          "text": "In het centrum van Rohožník staat een kleine synagoge die in de negentiende eeuw door de plaatselijke Joodse gemeenschap werd gebouwd. Het is een opmerkelijk voorbeeld van landelijke synagoge-architectuur: een eenvoudig gebouw met een bijna vierkante plattegrond, een schilddak en halfronde ramen. Nadat het religieuze gebruik eindigde, diende het gebouw als opslagruimte. In 2004–2005 werd het gerestaureerd en kreeg het een culturele functie; op de gevel werd een gedenkplaat onthuld ter herinnering aan de Joodse slachtoffers van de Holocaust. De synagoge herinnert aan de vroegere Joodse gemeenschap, waarvan de aanwezigheid in het dorp al in 1720 is gedocumenteerd."
+        },
+        {
+          "id": "fact_004",
+          "title": "Renaissanceklokkentoren en de kerk van Maria-Tenhemelopneming",
+          "text": "Het historische centrum van Rohožník wordt gekenmerkt door een vrijstaande stenen klokkentoren, ontstaan uit de toren van een oudere kerk die in 1561 wordt vermeld. De huidige vorm dateert uit de zeventiende eeuw; in de negentiende eeuw volgden verdere aanpassingen. De grootste klok draagt een inscriptie met de naam van de klokkengieter uit Bratislava, Caspar Wolff, en het jaartal 1687. Vlakbij staat de nieuwe kerk van Maria-Tenhemelopneming, gebouwd in 1857–1860 in romantisch-historistische stijl. De klokkentoren bewaart een oudere bouwlaag van het dorp, terwijl de kerk het belangrijkste negentiende-eeuwse religieuze gebouw is. Het verhaal dat de toren oorspronkelijk een Romeinse wachttoren was, behoort tot de lokale overlevering en is archeologisch niet bewezen."
+        },
+        {
+          "id": "fact_005",
+          "title": "Kapel van Sint-Rosalia: een oude devotieplek buiten het dorp",
+          "text": "De kapel van Sint-Rosalia staat bij een voormalige afgelegen nederzetting nabij Rohožník en werd waarschijnlijk aan het einde van de zeventiende eeuw gebouwd. Volgens de lokale overlevering verving zij een oudere kapel die tijdens de Ottomaanse oorlogen werd verwoest. Binnen stond vroeger een uit perenhout gesneden beeld van Sint-Rosalia; restauratoren dateerden het eveneens aan het einde van de zeventiende eeuw. Inscripties herinneren aan restauraties in 1885 en 1900; een verdere restauratie vond plaats in 1996. In de kapel bevond zich ook een reliek in een plaat van rood marmer. Het is een van de oudste en meest verhalende religieuze monumenten in de omgeving."
+        },
+        {
+          "id": "fact_006",
+          "title": "De drukkerij van Peter Bornemisza: boekdrukkunst in Rohožník in 1584",
+          "text": "Rohožník speelde kort een rol in de geschiedenis van de boekdrukkunst in het Koninkrijk Hongarije. De protestantse prediker en schrijver Peter Bornemisza verplaatste zijn drukkerij van kasteel Plavecký naar Rohožník, waar hij in 1584 het laatste deel voltooide van zijn omvangrijke Postil, een verzameling zondagspreken voor het hele jaar. Er werd gedrukt in een huis dat Bornemisza in het dorp had gekocht of laten bouwen; de exacte historische locatie is tegenwoordig niet betrouwbaar bekend. Na zijn dood nam zijn medewerker, drukker Valentín Mančkovič, de werkplaats over en verplaatste die naar Hlohovec. Deze episode laat zien dat zelfs een klein heerlijkheidsdorp verbonden was met de belangrijke Midden-Europese boekcultuur van de zestiende eeuw."
+        },
+        {
+          "id": "fact_007",
+          "title": "Cementfabriek Rohožník: industrieel complex gebouwd vanaf 1971",
+          "text": "Aan de rand van Rohožník ontstond in de jaren zeventig een van de belangrijkste industriële complexen van West-Slowakije. De eerste steen van de cement- en kalkfabrieken Západoslovenské cementárne a vápenky werd in 1971 gelegd; de productie van kalk en gemalen kalksteen begon in 1975 en de eerste cementklinker kwam in 1976 van de productielijn. De fabriek werd tot het midden van de jaren tachtig in fasen uitgebreid en groeide uit tot een belangrijk centrum voor cement en andere bouwmaterialen. De ontwikkeling bouwde voort op oudere kalksteenwinning en plaatselijke steengroeven. De fabriek heeft werkgelegenheid, de lokale economie en het landschap blijvend beïnvloed."
+        },
+        {
+          "id": "fact_008",
+          "title": "Boerenopstanden op het domein Plavecký, 1818–1820",
+          "text": "Rohožník, toen Rarbok genoemd, was een van de plaatsen waar horigen zich verzetten tegen de toenemende verplichtingen op het domein van de familie Pálffy. In de zomer van 1818 breidde een opstand met Malacky als centrum zich uit naar omliggende dorpen. Op 17 juli trokken keizerlijke troepen onder leiding van kapitein Böhm Rohožník binnen; op 20 juli vertrokken zij nadat de orde was hersteld. In januari 1820 brak een nieuwe opstand uit: de horigen verdreven de domeinbestuurders, namen hun wapens in beslag en bereidden zich voor op gewapend verzet. De gebeurtenissen tonen de sociale spanningen die ontstonden door herendiensten en inmenging van de landheer in gemeenschappelijke grond en landbouw."
+        }
+      ]
+    }
+  },
+  "status": "validated",
+  "district_type": null
 }
