@@ -67,9 +67,9 @@ Přemysl Otakar II. je zastoupen v souvislosti s Nymburkem a Městcem Králové.
 
 ## 4. Otevřené položky — blokují PASS
 
-### A. Český master text pod 350 znaků (22 faktů)
+### A. Český master text pod 350 znaků (18 faktů; po první dávce)
 
-- 28802: fact_001 (320), fact_003 (278), fact_004 (252), fact_007 (297)
+- 28802: **vyřešeno v první dávce** — fact_001 (696), fact_003 (632), fact_004 (618), fact_007 (613). České master texty byly rozšířeny a synchronizovány s `translations.cs`; šest dalších jazyků dostalo odpovídající rozšíření. Read-back potvrdil délky nad 350 znaků a shodu českého masteru.
 - 28903: fact_003 (320)
 - 28905: fact_004 (324)
 - 28906: fact_001 (323)
@@ -120,10 +120,14 @@ U každého zbývajícího faktu je nutné dohledat konkrétní veřejný orient
 
 ## 6. Další přesný krok
 
-1. Dokončit 22 krátkých českých master textů pouze na základě ověřitelných zdrojů a aktualizovat jejich překlady `de/en/es/fr/it/nl`.
+1. Dokončit zbývajících 18 krátkých českých master textů pouze na základě ověřitelných zdrojů a aktualizovat jejich překlady `de/en/es/fr/it/nl`.
 2. Dohledat a bezpečně doplnit zbývajících 29 poloh; neověřitelné ponechat jako `null` s důvodem.
 3. Provést individuální sémantickou kontrolu 1 518 cizojazyčných textů a opravit pouze významové vady.
 4. Ověřit pouze změněné řádky a jejich navázané údaje.
 5. Uzavřít audit až po vyřešení nebo výslovném přijetí každé otevřené položky.
+
+### Záznam průběžného postupu — 27. 11. 2026
+
+**Dávka 1 dokončena: 28802 / Nymburk.** Rozšířeny fakty `fact_001`, `fact_003`, `fact_004`, `fact_007`. Nové historické detaily jsou podloženy městskou strategií rozvoje, Památkovým katalogem NPÚ a Státním archeologickým seznamem NPÚ; u Všechlap byl využit územní plán obce a RISY. U Turecké věže byla sjednocena datace na rok 1599 podle NPÚ (nikoli dříve uváděné 1597). Přidán zdroj NPÚ do seznamu zdrojů faktů 003 a 004. Souřadnice zůstávají `null` a čekají na samostatný geografický audit.
 
 **Konečný výsledek tohoto běhu: REVIEW REQUIRED.** Auditní rozsah je přesně vymezen a první opravy jsou zapsány a ověřeny; zbývající obsahové, geografické a sémantické kontroly nejsou uzavřeny.
