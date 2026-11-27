@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-VYSKOVSKO-SLAVKOVSKO-68201-68501`  
 **Rozsah:** 68201, 68301, 68303, 68304, 68305, 68308, 68321, 68323, 68333, 68335, 68341, 68351, 68352, 68354, 68401, 68501  
-**Stav:** AUDIT COMPLETE — 16/16 PSČ zkontrolováno; obsahový, jazykový, strukturální a enum audit PASS. Bez publikace, zálohy a read-only zamčení.  
+**Stav:** AUDIT PASS A–H (prompt V2.1 neobsahuje samostatnou oblast I) — 16/16 PSČ; následně PUBLISHED V5 / Supabase read-back 16/16 PASS. Dropbox backup pending — viz provozní poznámka níže. Read-only zamčení neprovedeno.  
 **Další přesné PSČ:** žádné — rozsah dokončen.
 
 ## Závazné podklady načtené
