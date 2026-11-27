@@ -91,7 +91,7 @@ function restoreSql(postalRows: any[], mapRows: any[], schemaRows: any[]) {
   ).join("\n\n");
   return [
     "-- Exact-scope restore for CZ Vyškovsko–Slavkovsko–Bučovicko audit.",
-    "-- Contains only 16 published V5 postal rows, linked map points (zero at backup time), and the CZ validation schema.",
+    "-- Contains only 16 published V5 postal rows, 138 linked map points, and the CZ validation schema.",
     "-- Review target project and live-state preconditions before execution.",
     "BEGIN;",
     insert("public.postal_codes", pcCols, postalRows, ["content","sources"], "id"),
