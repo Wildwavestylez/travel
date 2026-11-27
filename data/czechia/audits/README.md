@@ -2,6 +2,7 @@
 
 **Stav:** Aktivní auditní taháky podle `prompt_audit.md` V2.1.
 
+| CZ-BLANSKO-BOSKOVICE-67801-68001 | 67801–68001 (38 přesných PSČ dle sequence.json) | [67801-68001_blanensko_boskovicko_audit.md](67801-68001_blanensko_boskovicko_audit.md) | **IN PROGRESS** — úvodní tematická rešerše hotova; identifikovány 3 silné kandidátní mezery (Kateřinská jeskyně 67801, Památník holokaustu Romů a Sintů 67975, Karel Absolon 68001); otevřeno ověření RÚIAN/poštovního přiřazení památníku; detailní audit B–H pokračuje; bez publikace a zálohy |
 | Kanonické ID | Rozsah | Kanonický tahák | Stav |
 |---|---|---|---|
 | CZ-DOMAZLICKO-34401-34601 | 34401–34601 | [34401-34601_domazlicko_audit.md](34401-34601_domazlicko_audit.md) | **PASS / PUBLISHED V5 / BACKUP VERIFIED / READ-ONLY LOCKED** — 19/19 PSČ, **178 faktů / 1 246 jazykových položek**; kompletní sémantická kontrola 178/178 faktů a 1 068/1 068 cizojazyčných překladů PASS; 0 otevřených významových vad; 19/19 `data_version=5`, `status=published` potvrzeno read-backem; Dropbox JSON + restore SQL + manifest v `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_34401-34601_2026-11-19T18-25-25-775Z/`, `validation.status=VERIFIED`, `readback_verified=true`, SHA-256 všech 3 souborů PASS; trigger `lock_cz_domazlicko_34401_34601_read_only` chrání přesně těchto 19 PSČ, INSERT/UPDATE/DELETE testy blokovány SQLSTATE 55000; **READ-ONLY LOCKED** |
