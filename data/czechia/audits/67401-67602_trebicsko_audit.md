@@ -3,8 +3,8 @@
 **Kanonické ID:** CZ-TREBICSKO-67401-67602  
 **Rozsah zadání:** 674xx–677xx  
 **Přesný inventář:** 46 existujících PSČ: 67401; 67501–67508 (dle sequence); 67521–67529 (dle sequence); 67531–67534; 67541–67545; 67550–67557; 67559–67560; 67571; 67573–67579; 67602.  
-**Stav:** **AUDIT CONTENT PASS / V5 PUBLISHED / BACKUP VERIFIED — NOT READ-ONLY LOCKED.** Obsahový audit dokončen; všech 46 záznamů převedeno na `data_version=5`, `status=published`; Dropbox snapshot ověřen 3/3 soubory. Neon import a read-only lock nebyly součástí tohoto kroku.
-**Pravidla:** `data/czechia/prompt_audit.md` V2.1. Publikace a záloha dokončeny 2026-11-27; Neon import a read-only lock zůstávají samostatnými kroky.
+**Stav:** **AUDIT PASS / V5 PUBLISHED / BACKUP VERIFIED / NEON IMPORT VERIFIED — NOT READ-ONLY LOCKED.** Všech 46 záznamů je `data_version=5`, `status=published`; Dropbox snapshot ověřen 3/3 soubory; Neon import do Europe Explorer production ověřen 46/46 včetně úplné JSONB shody.
+**Pravidla:** `data/czechia/prompt_audit.md` V2.1. Publikace, záloha a Neon import dokončeny 2026-11-27; read-only lock nebyl aktivován.
 
 ## 1. Inventář a autority
 
@@ -159,7 +159,7 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 - Správní údaje a sídla obslužných pošt: v dokončeném průchodu nebyl zjištěn konkrétní rozpor, který by podle Content Standardu vyžadoval další cílené ověření; plošná nová rešerše nebyla potřebná.
 - 31/31 krátkých master textů opraveno a read-back ověřeno; geografická část 59/59 původních null poloh je uzavřena; obě historická témata 1468 jsou zapracována a read-back ověřena.
 - Po každém zápisu načíst zpět pouze změněné PSČ/fakta. Nepoužívat opakované široké SELECT.
-- V5/published a záloha Dropbox byly dokončeny 2026-11-27. Neon import a read-only lock nebyly spuštěny.
+- V5/published, záloha Dropbox a Neon import byly dokončeny 2026-11-27. Read-only lock nebyl spuštěn.
 
 ## 7. Uzavření obsahového auditu
 
@@ -174,3 +174,16 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 - Backup ID: `CZ-AUDIT-TREBICSKO-67401-67602-2026-11-27T01-14-18-805Z`; scope hash: `71e4a2d860ac5dcffbd7184947f0497232f1fff5f7dbe40a20b550b44bca8c2a`; JSON object SHA-256: `911852a917d927aa2cd535513eb86abe0b282304fa15ab944360fa5e54671cae`.
 - Supabase work wave `CZ-AUDIT-TREBICSKO-67401-67602-001` = `COMPLETE`; backup snapshot = `VERIFIED`; obsah exportu: 46 PSČ / 290 faktů / 290 mapových bodů / 1 CZ validation schema.
 - **Obsahový audit je uzavřen jako PASS; V5 publikace a Dropbox záloha jsou dokončeny.** Neon import ani read-only lock nebyly spuštěny.
+
+## 8. Neon import — VERIFIED
+
+- Cíl: Neon **Europe Explorer** / production branch `br-wispy-glade-bgorspmq` / databáze `neondb` / tabulka `public.czechia_cap_records`.
+- Zdroj: Supabase `public.postal_codes`, přesně 46 ID `10481–10526`; před importem ověřeno 0 kolizí podle PSČ i `source_record_id`.
+- Před zápisem vytvořena ochranná větev `pre-trebicsko-67401-67602-import-20261127` (`br-dry-paper-bg6qq391`), po importu nastavena jako protected.
+- Import proběhl insert-only v jedné transakci rozdělené do pěti SQL dávek; vloženo **46/46**, 0 přepsaných existujících záznamů, 0 kolizí. Mapování: `postcode=postal_code`, `workflow_status=status`, `record=content`, `source_record_id=id`, `content_version=data_version`; zachovány zdrojové časové značky.
+- Read-back production: **46/46** unikátních PSČ, 46/46 `published`, 46/46 `content_version=5`, 46/46 shoda `record.postcode`; **290/290 faktů** a **290/290 faktů s latitude+longitude**.
+- Jazykové read-back počty: cs/de/en/es/fr/it/nl každý **290/290** faktů (46/46 záznamů v každém jazyce).
+- Hloubkové porovnání každého JSONB `record` proti zdrojovému snapshotu: **46/46 přesná shoda**, 0 rozdílů.
+- Před importem bylo v cílové tabulce 1 083 řádků; po importu 1 129 řádků. Počet publikovaných řádků po importu 1 126.
+- **Poznámka ke zdrojovému manifestu:** pole `scope.selection_description` v neměnném Dropbox JSON snapshotu chybně uvádí „36“; explicitní seznam `record_ids` a `postcodes`, počty `46`, validace snapshotu i skutečný import shodně potvrzují 46 záznamů. Snapshot nebyl upravován, aby zůstaly zachovány ověřené hashe.
+- Neon import je dokončen a read-back ověřen. Read-only lock nebyl aktivován.
