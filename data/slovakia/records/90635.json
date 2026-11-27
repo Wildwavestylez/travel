@@ -1,4 +1,592 @@
 {
   "postcode": "90635",
-  "status": "placeholder"
+  "city": "Plavecký Mikuláš",
+  "district": null,
+  "county": "Malacky",
+  "state": "Bratislavský kraj",
+  "representative_place": "Historické jádro Plaveckého Mikuláše",
+  "representative_point": {
+    "lat": 48.5125883,
+    "lon": 17.3020254
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Jedno PSČ pro dvě obce na hranici krajů",
+      "text": "PSČ 906 35 je spojeno s Plaveckým Mikulášem i sousedním Plaveckým Petrem. Nejde tedy o území totožné s hranicí jediné obce: Plavecký Mikuláš leží v okrese Malacky v Bratislavském kraji, zatímco Plavecký Peter patří do okresu Senica v Trnavském kraji. Poštovní obsluhu zajišťuje pošta v Plaveckém Mikuláši a její oficiální kontaktní údaje uvádí také obec Plavecký Peter. Záznam proto používá Plavecký Mikuláš jako reprezentativní obec podle názvu a sídla pošty; obě obce však patří do obsahového a geografického rozsahu tohoto PSČ.",
+      "category": "geography_and_context",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "location": null,
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_002",
+      "title": "Plavecký Mikuláš: sídlo doložené už roku 1224",
+      "text": "Plavecký Mikuláš leží v Mokré a Suché dolině na západním úbočí Malých Karpat. Obecní historie uvádí její existenci už v roce 1224; v písemných pramenech se roku 1394 objevuje jako Zentmiclos a roku 1453 jako Sanctus Nicolaus. Jméno Plavecký souvisí pravděpodobně s Polovci, kteří po tatarském vpádu střežili západní hranici Uherského království, přesné okolnosti jejich příchodu však nejsou jisté. Druhou část názvu vysvětluje zasvěcení kostela svatému Mikuláši nebo osobní jméno z rodu Balážovců. Obecní pramen výslovně upozorňuje, že jde o výkladové možnosti, nikoli jistě prokázaný původ jména.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s4"
+      ],
+      "location": {
+        "name": "Plavecký Mikuláš – historické jádro obce",
+        "lat": 48.5125883,
+        "lon": 17.3020254,
+        "type": "historic_settlement",
+        "accuracy": "approximate",
+        "source": "https://poi.oma.sk/n9135707837",
+        "address": null
+      },
+      "map_category": "historic_city"
+    },
+    {
+      "id": "fact_003",
+      "title": "Dzeravá skala: jeskyně s paleolitickými stopami",
+      "text": "Jeskyně Dzeravá skala, nazývaná také Pálffyho jeskyně, leží v Plaveckém krase na strmém svahu masivu Javorinky nad Mokrou dolinou v katastru Plaveckého Mikuláše. Archeologické výzkumy zde doložily opakované návštěvy a krátkodobá sídliště lidí v paleolitu; datování vrstev z výzkumu z let 2002–2003 spadá přibližně mezi 25 000 a 57 000 let před současnost. Nálezy ukazují na přítomnost anatomicky moderních lidí i neandertálců. Výzkum pokračoval také v roce 2024 a kombinoval archeologické, paleontologické a geologické metody. Lokalita je proto důležitým pramenem k poznání pravěkého osídlení západního Slovenska.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s5",
+        "s6"
+      ],
+      "location": {
+        "name": "Jeskyně Dzeravá skala",
+        "lat": 48.49614,
+        "lon": 17.32462,
+        "type": "cave",
+        "accuracy": "exact",
+        "source": "https://alis.uniba.sk/storage/dpg/dostupne/PR/2022/2022-PR-96505/123526v1.pdf",
+        "address": null
+      },
+      "map_category": "archaeological_site"
+    },
+    {
+      "id": "fact_004",
+      "title": "Kostel sv. Mikuláše nad obcí",
+      "text": "Farní kostel svatého Mikuláše stojí na návrší Dubníček a tvoří výraznou dominantu Plaveckého Mikuláše. Obecní zdroj jej popisuje jako hodnotnou renesanční sakrální stavbu obranného charakteru: jednolodní prostor má polygonálně uzavřené presbyterium a věž vestavěnou do západního průčelí. Při obnově kolem roku 1718 byl kostel ohrazen zdí a získal barokní hlavní oltář, kazatelnu i boční oltáře Panny Marie a svatého Josefa. V interiéru se zachovaly lavice z první poloviny 18. století a pod mladší výmalbou byly zjištěny dvě vrstvy figurálních nástěnných maleb. Chrám tak spojuje starší obrannou funkci s barokní podobou interiéru.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s7"
+      ],
+      "location": {
+        "name": "Farní kostel sv. Mikuláše",
+        "lat": 48.51467,
+        "lon": 17.29869,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://mojafarnost.sk/kostoly/kostol-plavecky-mikulas-sv-mikulasa",
+        "address": null
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_005",
+      "title": "Plavecký Peter – chráněná vesnice hliněné architektury",
+      "text": "Plavecký Peter uchovává mimořádně souvislý celek tradiční západoslovenské vesnické zástavby. Historické jádro tvoří dvojřadá cestní vesnice, která se kolem kostela rozšiřuje do čočkovité návsi. Obytné a hospodářské dvory dokládají způsob života rolnické obce; typické domy se stavěly z nepálených hliněných cihel, často s kamennou spodní částí, a doplňovaly je hospodářské budovy a stodoly. Vláda Slovenské republiky vyhlásila 23. května 1990 zdejší památkovou rezervaci lidové architektury. Ochrana se nevztahuje jen na jednotlivé domy, ale na historický půdorys, prostorové uspořádání a celkový ráz sídla.",
+      "category": "architecture_and_urbanism",
+      "priority": "A",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "location": {
+        "name": "Památková rezervace lidové architektury Plavecký Peter",
+        "lat": 48.5364553,
+        "lon": 17.3263561,
+        "type": "historic_village",
+        "accuracy": "approximate",
+        "source": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf",
+        "address": null
+      },
+      "map_category": "architecture"
+    },
+    {
+      "id": "fact_006",
+      "title": "Kostel sv. Petra a Pavla a dějiny Plaveckého Petra",
+      "text": "Dominantou Plaveckého Petra je kostel svatých Petra a Pavla, postavený roku 1600 na místě staršího chrámu a obnovený v barokním slohu roku 1712. Renesanční jednolodní stavba je obehnána zdí a její interiér si uchoval část staršího vybavení včetně obrazů svatých Petra a Pavla a svatého Martina; dřevěné lavice pocházejí z 18. století. Obec je písemně doložena od roku 1394 a v minulosti patřila převážně k panství Plaveckého hradu. Roku 1605 ji během Bočkajova povstání vyplenili a vypálili; osvobozena byla v noci ze 4. na 5. dubna 1945 vojsky 2. ukrajinského frontu. Tyto události připomínají, že pohraniční poloha přinášela obci nejen obchodní a kulturní vazby, ale i válečná nebezpečí.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11"
+      ],
+      "location": {
+        "name": "Kostel sv. Petra a Pavla",
+        "lat": 48.5361537,
+        "lon": 17.325688,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/w328663815",
+        "address": "Plavecký Peter 182, 906 35 Plavecký Peter, Slovensko"
+      },
+      "map_category": "religious_site"
+    },
+    {
+      "id": "fact_007",
+      "title": "Kamenec – lesní rezervace v katastru Plaveckého Petra",
+      "text": "V katastru Plaveckého Petra leží přírodní rezervace Kamenec, vyhlášená roku 1988 na ploše přibližně 61,62 hektaru. Chrání přirozená lesní společenstva Malých Karpat a jejich vzácné a chráněné druhy rostlin a živočichů. Rezervace je součástí širšího přírodního zázemí obce, jehož část spadá také do Chráněné krajinné oblasti Malé Karpaty a do soustavy evropsky významných území. Ochrana území zde nesměřuje k jediné vyhlídce či turistickému objektu, ale k zachování lesních stanovišť a jejich ekologických vazeb. Kamenec je proto důležitou přírodní hodnotou té části PSČ 906 35, která leží v okrese Senica.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s12",
+        "s13"
+      ],
+      "location": null,
+      "map_category": "nature"
+    },
+    {
+      "id": "fact_008",
+      "title": "Kršlenica a krasová krajina Mokré doliny",
+      "text": "Severně od Plaveckého Mikuláše se zvedá přírodní rezervace Kršlenica, jejíž skalní stěny, vápencové útvary a krasové jevy patří k výrazným přírodním motivům této části Malých Karpat. Krajina zahrnuje Mokrou dolinu a okolní vrchy; na vápencích vznikly škrapy, dutiny a menší jeskyně. Značené turistické trasy vedou přes vrch Kršlenica směrem k Čiernej skale a na malokarpatský hřeben. Z vybraných míst se otevírají pohledy do doliny a na lesnaté svahy. Význam lokality spočívá v propojení geologických a geomorfologických hodnot s lesními a skalními stanovišti, nikoli pouze v samotné turistické vyhlídce.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s14",
+        "s15"
+      ],
+      "location": {
+        "name": "Kršlenica – skalní a krasový areál",
+        "lat": 48.50417,
+        "lon": 17.32317,
+        "type": "geological_site",
+        "accuracy": "approximate",
+        "source": "https://www.kamnavylet.sk/en/attraction/krslenica",
+        "address": null
+      },
+      "map_category": "nature"
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta: PSČ 906 35 je vedeno pro poštu Plavecký Mikuláš; oficiální stránka obce Plavecký Peter potvrzuje, že její adresy používají 906 35. Přehled PSČ uvádí obě obce pod týmž kódem.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Vyhledávání PSČ Slovenské pošty a oficiální obecní kontaktní údaje",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": true,
+    "postcode_conflict_note": "PSČ 906 35 se vztahuje k Plaveckému Mikuláši (okres Malacky, Bratislavský kraj) i Plaveckému Petru (okres Senica, Trnavský kraj). Reprezentativní obcí je Plavecký Mikuláš podle názvu a sídla pošty; administrativní pole county/state proto popisují tuto obec. Plavecký Peter je zahrnut v geografickém a obsahovém rozsahu, nikoli jako druhá hodnota administrativních polí.",
+    "delivery_office_note": "Poštovní obsluhu zajišťuje pošta Plavecký Mikuláš; její provozní stav není předmětem záznamu.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální obecní zdroje obcí Plavecký Mikuláš a Plavecký Peter pro jejich polohu, okresní a krajské zařazení; OMA/OpenStreetMap a odborné zdroje pro polohu konkrétních lokalit."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "PSČ 906 35 – Plavecký Mikuláš a Plavecký Peter",
+      "url": "https://www.pscpsc.eu/sk?psc=906-35",
+      "type": "other"
+    },
+    {
+      "id": "s2",
+      "title": "Pošta Plavecký Mikuláš – Obec Plavecký Peter",
+      "url": "https://www.plaveckypeter.sk/obec/organizacie-v-obci/posta/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obec Plavecký Peter – oficiální adresa a PSČ",
+      "url": "https://www.plaveckypeter.sk/obec/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "História obce – Plavecký Mikuláš",
+      "url": "https://www.plaveckymikulas.sk/sk/historia-obce",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Jaskyňa Dzeravá skala – Archeologický ústav SAV",
+      "url": "https://archeol.sav.sk/files/Derava_skala_2024.pdf",
+      "type": "university"
+    },
+    {
+      "id": "s6",
+      "title": "Paleolitické osídlenie jaskyne Dzeravá skala – Slovenská archeológia",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/slovenska_archeologia_2005_1.pdf",
+      "type": "university"
+    },
+    {
+      "id": "s7",
+      "title": "Kostol sv. Mikuláša – poloha a adresa",
+      "url": "https://mojafarnost.sk/kostoly/kostol-plavecky-mikulas-sv-mikulasa",
+      "type": "other"
+    },
+    {
+      "id": "s8",
+      "title": "Významné pamiatky – Obec Plavecký Peter",
+      "url": "https://www.plaveckypeter.sk/obec/zakladne-informacie/vyznamne-pamiatky/?lang=sk&mapa-webu=1",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Databáza Podhoran – ľudová architektúra Plavecký Peter",
+      "url": "https://78ef84f30f.clvaw-cdnwnd.com/c1d4a765182a68e37dc3793cca53be95/200008148-2e78f2e792/Datab%C3%A1za%20Podhoran.pdf",
+      "type": "regional"
+    },
+    {
+      "id": "s10",
+      "title": "História obce – Obec Plavecký Peter",
+      "url": "https://www.plaveckypeter.sk/obec/historia-obce/",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Kostol sv. Petra a Pavla – Pamiatky na Slovensku",
+      "url": "https://www.pamiatkynaslovensku.sk/plavecky-peter-kostol-sv-petra-a-pavla",
+      "type": "specialist"
+    },
+    {
+      "id": "s12",
+      "title": "Program hospodárskeho a sociálneho rozvoja obce Plavecký Peter",
+      "url": "https://www.plaveckypeter.sk/e_download.php?file=data%2Feditor%2F64sk_1.pdf&original=phsr_pl._peter_2015-2020_-_fin%C3%A1l.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Rozhodnutie Okresného úradu Senica – ochrana prírody v katastri Plaveckého Petra",
+      "url": "https://www.plaveckypeter.sk/e_download.php?file=data%2Furedni_deska%2Fobsah919_1.pdf&original=Rozhodnutie+-+03_04_2025+14_17_47_asice.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Kršlenica – poloha a charakteristika",
+      "url": "https://www.kamnavylet.sk/en/attraction/krslenica",
+      "type": "regional"
+    },
+    {
+      "id": "s15",
+      "title": "Kršlenica – mapový bod a súradnice",
+      "url": "https://poi.oma.sk/n2892192387",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Historické jádro Plaveckého Mikuláše",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Jedno PSČ pro dvě obce na hranici krajů",
+          "text": "PSČ 906 35 je spojeno s Plaveckým Mikulášem i sousedním Plaveckým Petrem. Nejde tedy o území totožné s hranicí jediné obce: Plavecký Mikuláš leží v okrese Malacky v Bratislavském kraji, zatímco Plavecký Peter patří do okresu Senica v Trnavském kraji. Poštovní obsluhu zajišťuje pošta v Plaveckém Mikuláši a její oficiální kontaktní údaje uvádí také obec Plavecký Peter. Záznam proto používá Plavecký Mikuláš jako reprezentativní obec podle názvu a sídla pošty; obě obce však patří do obsahového a geografického rozsahu tohoto PSČ."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: sídlo doložené už roku 1224",
+          "text": "Plavecký Mikuláš leží v Mokré a Suché dolině na západním úbočí Malých Karpat. Obecní historie uvádí její existenci už v roce 1224; v písemných pramenech se roku 1394 objevuje jako Zentmiclos a roku 1453 jako Sanctus Nicolaus. Jméno Plavecký souvisí pravděpodobně s Polovci, kteří po tatarském vpádu střežili západní hranici Uherského království, přesné okolnosti jejich příchodu však nejsou jisté. Druhou část názvu vysvětluje zasvěcení kostela svatému Mikuláši nebo osobní jméno z rodu Balážovců. Obecní pramen výslovně upozorňuje, že jde o výkladové možnosti, nikoli jistě prokázaný původ jména."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: jeskyně s paleolitickými stopami",
+          "text": "Jeskyně Dzeravá skala, nazývaná také Pálffyho jeskyně, leží v Plaveckém krase na strmém svahu masivu Javorinky nad Mokrou dolinou v katastru Plaveckého Mikuláše. Archeologické výzkumy zde doložily opakované návštěvy a krátkodobá sídliště lidí v paleolitu; datování vrstev z výzkumu z let 2002–2003 spadá přibližně mezi 25 000 a 57 000 let před současnost. Nálezy ukazují na přítomnost anatomicky moderních lidí i neandertálců. Výzkum pokračoval také v roce 2024 a kombinoval archeologické, paleontologické a geologické metody. Lokalita je proto důležitým pramenem k poznání pravěkého osídlení západního Slovenska."
+        },
+        {
+          "id": "fact_004",
+          "title": "Kostel sv. Mikuláše nad obcí",
+          "text": "Farní kostel svatého Mikuláše stojí na návrší Dubníček a tvoří výraznou dominantu Plaveckého Mikuláše. Obecní zdroj jej popisuje jako hodnotnou renesanční sakrální stavbu obranného charakteru: jednolodní prostor má polygonálně uzavřené presbyterium a věž vestavěnou do západního průčelí. Při obnově kolem roku 1718 byl kostel ohrazen zdí a získal barokní hlavní oltář, kazatelnu i boční oltáře Panny Marie a svatého Josefa. V interiéru se zachovaly lavice z první poloviny 18. století a pod mladší výmalbou byly zjištěny dvě vrstvy figurálních nástěnných maleb. Chrám tak spojuje starší obrannou funkci s barokní podobou interiéru."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter – chráněná vesnice hliněné architektury",
+          "text": "Plavecký Peter uchovává mimořádně souvislý celek tradiční západoslovenské vesnické zástavby. Historické jádro tvoří dvojřadá cestní vesnice, která se kolem kostela rozšiřuje do čočkovité návsi. Obytné a hospodářské dvory dokládají způsob života rolnické obce; typické domy se stavěly z nepálených hliněných cihel, často s kamennou spodní částí, a doplňovaly je hospodářské budovy a stodoly. Vláda Slovenské republiky vyhlásila 23. května 1990 zdejší památkovou rezervaci lidové architektury. Ochrana se nevztahuje jen na jednotlivé domy, ale na historický půdorys, prostorové uspořádání a celkový ráz sídla."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kostel sv. Petra a Pavla a dějiny Plaveckého Petra",
+          "text": "Dominantou Plaveckého Petra je kostel svatých Petra a Pavla, postavený roku 1600 na místě staršího chrámu a obnovený v barokním slohu roku 1712. Renesanční jednolodní stavba je obehnána zdí a její interiér si uchoval část staršího vybavení včetně obrazů svatých Petra a Pavla a svatého Martina; dřevěné lavice pocházejí z 18. století. Obec je písemně doložena od roku 1394 a v minulosti patřila převážně k panství Plaveckého hradu. Roku 1605 ji během Bočkajova povstání vyplenili a vypálili; osvobozena byla v noci ze 4. na 5. dubna 1945 vojsky 2. ukrajinského frontu. Tyto události připomínají, že pohraniční poloha přinášela obci nejen obchodní a kulturní vazby, ale i válečná nebezpečí."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec – lesní rezervace v katastru Plaveckého Petra",
+          "text": "V katastru Plaveckého Petra leží přírodní rezervace Kamenec, vyhlášená roku 1988 na ploše přibližně 61,62 hektaru. Chrání přirozená lesní společenstva Malých Karpat a jejich vzácné a chráněné druhy rostlin a živočichů. Rezervace je součástí širšího přírodního zázemí obce, jehož část spadá také do Chráněné krajinné oblasti Malé Karpaty a do soustavy evropsky významných území. Ochrana území zde nesměřuje k jediné vyhlídce či turistickému objektu, ale k zachování lesních stanovišť a jejich ekologických vazeb. Kamenec je proto důležitou přírodní hodnotou té části PSČ 906 35, která leží v okrese Senica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica a krasová krajina Mokré doliny",
+          "text": "Severně od Plaveckého Mikuláše se zvedá přírodní rezervace Kršlenica, jejíž skalní stěny, vápencové útvary a krasové jevy patří k výrazným přírodním motivům této části Malých Karpat. Krajina zahrnuje Mokrou dolinu a okolní vrchy; na vápencích vznikly škrapy, dutiny a menší jeskyně. Značené turistické trasy vedou přes vrch Kršlenica směrem k Čiernej skale a na malokarpatský hřeben. Z vybraných míst se otevírají pohledy do doliny a na lesnaté svahy. Význam lokality spočívá v propojení geologických a geomorfologických hodnot s lesními a skalními stanovišti, nikoli pouze v samotné turistické vyhlídce."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Historischer Ortskern von Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Ein Postleitzahlengebiet für zwei Gemeinden an der Kreisgrenze",
+          "text": "Die Postleitzahl 906 35 ist sowohl mit Plavecký Mikuláš als auch mit dem benachbarten Plavecký Peter verbunden. Das Gebiet entspricht daher nicht der Grenze nur einer Gemeinde: Plavecký Mikuláš liegt im Bezirk Malacky in der Region Bratislava, Plavecký Peter dagegen im Bezirk Senica in der Region Trnava. Die postalische Versorgung erfolgt über das Postamt in Plavecký Mikuláš; auch die Gemeinde Plavecký Peter nennt dessen offizielle Kontaktdaten. Dieser Datensatz verwendet Plavecký Mikuláš als repräsentative Gemeinde, da sie Namensgeber und Sitz des Postamts ist. Beide Gemeinden gehören jedoch zum geografischen und inhaltlichen Umfang dieser Postleitzahl."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: ein Ort, der bereits 1224 belegt ist",
+          "text": "Plavecký Mikuláš liegt in den Tälern Mokrá und Suchá am Westhang der Kleinen Karpaten. Die Gemeindegeschichte nennt seine Existenz bereits für das Jahr 1224; schriftlich erscheint der Ort 1394 als Zentmiclos und 1453 als Sanctus Nicolaus. Der Namensbestandteil Plavecký hängt wahrscheinlich mit den Kumanen beziehungsweise Polowzern zusammen, die nach dem Mongoleneinfall die Westgrenze des Königreichs Ungarn bewachten. Die genauen Umstände ihrer Ansiedlung sind jedoch nicht gesichert. Der zweite Namensteil wird entweder mit dem Kirchenpatron Nikolaus oder mit einem Mitglied der Familie Baláž in Verbindung gebracht. Die Gemeinde stellt diese Erklärungen ausdrücklich als Möglichkeiten und nicht als gesicherte Herkunft dar."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: eine Höhle mit Spuren aus dem Paläolithikum",
+          "text": "Die Höhle Dzeravá skala, auch Pálffy-Höhle genannt, liegt im Karstgebiet von Plavecký auf einem steilen Hang des Javorinka-Massivs über dem Tal Mokrá dolina. Archäologische Untersuchungen belegen wiederholte Besuche und kurzfristige Aufenthalte von Menschen im Paläolithikum. Die Schichten der Grabungen von 2002–2003 wurden auf etwa 25.000 bis 57.000 Jahre vor heute datiert. Die Funde weisen sowohl auf anatomisch moderne Menschen als auch auf Neandertaler hin. Die Forschung wurde 2024 fortgesetzt und verband archäologische, paläontologische und geologische Methoden. Die Fundstelle ist damit eine wichtige Quelle für die Erforschung der vorgeschichtlichen Besiedlung der Westslowakei."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die St.-Nikolaus-Kirche über dem Ort",
+          "text": "Die Pfarrkirche des heiligen Nikolaus steht auf der Anhöhe Dubníček und prägt das Ortsbild von Plavecký Mikuláš. Die Gemeinde beschreibt sie als wertvollen Renaissancebau sakraler Wehrarchitektur: Der einschiffige Raum besitzt einen polygonalen Chorabschluss und einen in die Westfassade eingebauten Turm. Bei einer umfassenden Erneuerung um 1718 erhielt die Kirche eine Umfassungsmauer sowie einen barocken Hochaltar, eine Kanzel und Seitenaltäre der Jungfrau Maria und des heiligen Josef. Im Inneren blieben Bänke aus der ersten Hälfte des 18. Jahrhunderts erhalten; unter einer jüngeren Ausmalung wurden zwei Schichten figürlicher Wandmalereien entdeckt. Der Bau verbindet somit eine ältere Wehrfunktion mit einer barocken Innenausstattung."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter – ein geschütztes Dorf mit Lehmbauarchitektur",
+          "text": "Plavecký Peter bewahrt ein außergewöhnlich geschlossenes Ensemble traditioneller westslowakischer Dorfarchitektur. Der historische Ortskern besteht aus einem zweireihigen Straßendorf, das sich um die Kirche linsenförmig zu einem Platz erweitert. Wohn- und Wirtschaftshöfe dokumentieren das Leben eines Bauerndorfes. Typische Häuser wurden aus ungebrannten Lehmziegeln errichtet, oft mit steinernem Sockel; hinzu kamen Wirtschaftsgebäude und Scheunen. Am 23. Mai 1990 erklärte die Regierung der Slowakischen Republik den Ort zum Denkmalschutzgebiet der Volksarchitektur. Geschützt werden nicht nur einzelne Häuser, sondern auch der historische Grundriss, die räumliche Struktur und das gesamte Ortsbild."
+        },
+        {
+          "id": "fact_006",
+          "title": "Die Peter-und-Paul-Kirche und die Geschichte von Plavecký Peter",
+          "text": "Die Peter-und-Paul-Kirche ist das Wahrzeichen von Plavecký Peter. Sie wurde 1600 an der Stelle eines älteren Gotteshauses errichtet und 1712 barock erneuert. Der einschiffige Renaissancebau ist von einer Mauer umgeben. Im Inneren blieb ein Teil der älteren Ausstattung erhalten, darunter Bilder der Heiligen Petrus und Paulus sowie des heiligen Martin; die hölzernen Kirchenbänke stammen aus dem 18. Jahrhundert. Der Ort ist seit 1394 schriftlich belegt und gehörte lange überwiegend zur Herrschaft der Burg Plavecký. Während des Bocskai-Aufstands wurde er 1605 geplündert und niedergebrannt. In der Nacht vom 4. auf den 5. April 1945 befreiten ihn Truppen der 2. Ukrainischen Front. Die Grenzlage brachte somit nicht nur Verbindungen, sondern auch Kriegsgefahren."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec – ein Waldschutzgebiet im Kataster von Plavecký Peter",
+          "text": "Im Kataster von Plavecký Peter liegt das 1988 ausgewiesene Naturreservat Kamenec mit einer Fläche von etwa 61,62 Hektar. Es schützt natürliche Waldgesellschaften der Kleinen Karpaten sowie seltene und geschützte Pflanzen- und Tierarten. Das Reservat gehört zum größeren Naturraum der Gemeinde, dessen Teile auch im Landschaftsschutzgebiet Kleine Karpaten und im europäischen Schutzgebietsnetz liegen. Ziel des Schutzes ist nicht eine einzelne Aussichtsstelle oder touristische Anlage, sondern der Erhalt von Waldlebensräumen und ihren ökologischen Zusammenhängen. Kamenec ist daher ein wichtiger Naturwert jenes Teils des Postleitzahlgebiets 906 35, der im Bezirk Senica liegt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica und die Karstlandschaft des Mokrá-Tals",
+          "text": "Nördlich von Plavecký Mikuláš erhebt sich das Naturreservat Kršlenica. Seine Felswände, Kalksteinformationen und Karsterscheinungen gehören zu den markanten Naturmerkmalen dieses Teils der Kleinen Karpaten. Das Gebiet umfasst das Tal Mokrá dolina und die umliegenden Höhen; im Kalkstein entstanden Karren, Hohlräume und kleinere Höhlen. Markierte Wanderwege führen über den Gipfel Kršlenica in Richtung Čierna skala und zum Kamm der Kleinen Karpaten. Von ausgewählten Stellen öffnen sich Ausblicke in das Tal und auf die bewaldeten Hänge. Die Bedeutung des Gebiets liegt im Zusammenspiel geologischer und geomorphologischer Werte mit Wald- und Felslebensräumen, nicht nur in einem Aussichtspunkt."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Historic centre of Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "One postcode shared by two municipalities across regional borders",
+          "text": "Postcode 906 35 is associated with both Plavecký Mikuláš and neighbouring Plavecký Peter. Its area therefore does not match the boundary of a single municipality: Plavecký Mikuláš belongs to Malacky District in Bratislava Region, while Plavecký Peter belongs to Senica District in Trnava Region. Postal service is provided by the post office in Plavecký Mikuláš, whose official contact details are also listed by the municipality of Plavecký Peter. This record uses Plavecký Mikuláš as the representative municipality because it gives the postcode its name and hosts the post office. Both municipalities, however, belong to the geographic and editorial scope of this postcode."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: a settlement documented as early as 1224",
+          "text": "Plavecký Mikuláš lies in the Mokrá and Suchá valleys on the western slopes of the Little Carpathians. The municipal history records its existence as early as 1224; written sources mention it in 1394 as Zentmiclos and in 1453 as Sanctus Nicolaus. The name Plavecký is probably connected with the Cumans, also known as the Polovtsians, who guarded the western frontier of the Kingdom of Hungary after the Mongol invasion. The exact circumstances of their arrival are uncertain. The second part of the name may refer either to the church's patron saint Nicholas or to a member of the Baláž family. The municipality presents these as possible explanations, not as a proven etymology."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: a cave with Palaeolithic evidence",
+          "text": "Dzeravá skala Cave, also known as Pálffy Cave, lies in the Plavecký Karst on a steep slope of the Javorinka massif above Mokrá Valley, within the cadastral area of Plavecký Mikuláš. Archaeological research has documented repeated visits and short-term human occupations during the Palaeolithic. Layers excavated in 2002–2003 were dated to approximately 25,000–57,000 years before present. The finds indicate the presence of both anatomically modern humans and Neanderthals. Research continued in 2024, combining archaeological, palaeontological and geological methods. The site is therefore an important source for understanding prehistoric settlement in western Slovakia."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Church of St Nicholas above the village",
+          "text": "The parish Church of St Nicholas stands on Dubníček Hill and is a prominent landmark of Plavecký Mikuláš. The municipal source describes it as a valuable Renaissance example of defensive ecclesiastical architecture: the single-nave building has a polygonal chancel and a tower incorporated into its western façade. During a major renovation around 1718, the church was enclosed by a wall and received a Baroque high altar, pulpit and side altars dedicated to the Virgin Mary and St Joseph. The interior retains pews from the first half of the eighteenth century, and two layers of figurative wall paintings were found beneath a later finish. The building thus combines an earlier defensive role with a Baroque interior."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter: a protected village of earthen architecture",
+          "text": "Plavecký Peter preserves an unusually coherent ensemble of traditional western Slovak village buildings. Its historic core is a double-row roadside village that widens into a lens-shaped space around the church. Residential and farmsteads document the life of an agricultural community. Typical houses were built of unfired earthen bricks, often with stone foundations, alongside barns and other farm buildings. On 23 May 1990, the government of the Slovak Republic declared the village a folk-architecture conservation area. Protection covers not only individual houses but also the historic layout, spatial structure and overall character of the settlement."
+        },
+        {
+          "id": "fact_006",
+          "title": "The Church of Saints Peter and Paul and the history of Plavecký Peter",
+          "text": "The Church of Saints Peter and Paul is the landmark of Plavecký Peter. Built in 1600 on the site of an earlier church, it was renovated in the Baroque style in 1712. The single-nave Renaissance building is surrounded by a wall. Part of its older furnishings survives, including paintings of Saints Peter and Paul and St Martin; the wooden pews date from the eighteenth century. The village is documented in writing from 1394 and for much of its history belonged to the estate of Plavecký Castle. It was looted and burned during Bocskai's uprising in 1605, and was liberated on the night of 4–5 April 1945 by troops of the 2nd Ukrainian Front. Its frontier position brought not only connections but also the dangers of war."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec: a forest reserve in the cadastral area of Plavecký Peter",
+          "text": "The Kamenec Nature Reserve lies within the cadastral area of Plavecký Peter. Established in 1988, it covers approximately 61.62 hectares and protects natural forest communities of the Little Carpathians together with rare and protected plant and animal species. The reserve forms part of the wider natural setting of the municipality, sections of which also fall within the Little Carpathians Protected Landscape Area and the European network of protected sites. The aim is not to protect a single viewpoint or tourist facility, but to preserve forest habitats and their ecological connections. Kamenec is therefore an important natural asset in the part of postcode area 906 35 that lies in Senica District."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica and the karst landscape of Mokrá Valley",
+          "text": "North of Plavecký Mikuláš rises the Kršlenica Nature Reserve. Its rock faces, limestone formations and karst features are among the distinctive natural characteristics of this part of the Little Carpathians. The area includes Mokrá Valley and the surrounding hills, where limestone has developed into karren, cavities and small caves. Marked hiking trails cross Kršlenica towards Čierna skala and the Little Carpathian ridge. Selected points offer views into the valley and across the wooded slopes. The site's value lies in the combination of geological and geomorphological features with forest and rocky habitats, rather than in a viewpoint alone."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Centro histórico de Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Un código postal compartido por dos municipios de distintas regiones",
+          "text": "El código postal 906 35 está asociado tanto a Plavecký Mikuláš como al municipio vecino de Plavecký Peter. Por tanto, su área no coincide con el límite de un solo municipio: Plavecký Mikuláš pertenece al distrito de Malacky, en la región de Bratislava, mientras que Plavecký Peter forma parte del distrito de Senica, en la región de Trnava. El servicio postal se presta desde la oficina de Plavecký Mikuláš, cuyos datos oficiales de contacto también publica el municipio de Plavecký Peter. Este registro utiliza Plavecký Mikuláš como municipio representativo porque da nombre al código y alberga la oficina postal. Sin embargo, ambos municipios forman parte del ámbito geográfico y editorial de este código."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: un asentamiento documentado desde 1224",
+          "text": "Plavecký Mikuláš se encuentra en los valles de Mokrá y Suchá, en la vertiente occidental de los Pequeños Cárpatos. La historia municipal sitúa su existencia ya en 1224; los documentos escritos lo mencionan en 1394 como Zentmiclos y en 1453 como Sanctus Nicolaus. El nombre Plavecký probablemente está relacionado con los cumanos o polovtsianos, que protegieron la frontera occidental del Reino de Hungría tras la invasión mongola. Sin embargo, no se conocen con certeza las circunstancias de su llegada. La segunda parte del nombre podría proceder del patrón de la iglesia, san Nicolás, o de un miembro de la familia Baláž. El municipio presenta estas explicaciones como hipótesis, no como una etimología demostrada."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: una cueva con vestigios paleolíticos",
+          "text": "La cueva Dzeravá skala, también llamada cueva Pálffy, se encuentra en el karst de Plavecký, en una ladera escarpada del macizo de Javorinka, sobre el valle de Mokrá, dentro del término municipal de Plavecký Mikuláš. Las investigaciones arqueológicas han documentado visitas repetidas y ocupaciones humanas breves durante el Paleolítico. Los estratos excavados en 2002–2003 se dataron aproximadamente entre 25.000 y 57.000 años antes del presente. Los hallazgos indican la presencia tanto de humanos anatómicamente modernos como de neandertales. La investigación continuó en 2024 y combinó métodos arqueológicos, paleontológicos y geológicos. El yacimiento es una fuente importante para conocer el poblamiento prehistórico del oeste de Eslovaquia."
+        },
+        {
+          "id": "fact_004",
+          "title": "La iglesia de San Nicolás sobre el pueblo",
+          "text": "La iglesia parroquial de San Nicolás se alza en la colina de Dubníček y constituye un elemento destacado del paisaje de Plavecký Mikuláš. La fuente municipal la describe como un valioso ejemplo renacentista de arquitectura religiosa defensiva: el edificio de una sola nave tiene un presbiterio poligonal y una torre integrada en la fachada occidental. Durante una importante renovación hacia 1718, la iglesia recibió un muro perimetral, un altar mayor barroco, un púlpito y altares laterales dedicados a la Virgen María y san José. En el interior se conservan bancos de la primera mitad del siglo XVIII y, bajo una decoración posterior, se descubrieron dos capas de pinturas murales figurativas. El edificio combina así una antigua función defensiva con un interior barroco."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter: un pueblo protegido de arquitectura de tierra",
+          "text": "Plavecký Peter conserva un conjunto excepcionalmente coherente de construcciones rurales tradicionales del oeste de Eslovaquia. El núcleo histórico está formado por un pueblo lineal de dos hileras que se ensancha en forma de lente alrededor de la iglesia. Las viviendas y explotaciones agrícolas documentan la vida de una comunidad campesina. Las casas típicas se construían con ladrillos de tierra sin cocer, a menudo sobre una base de piedra, junto con edificios agrícolas y graneros. El 23 de mayo de 1990, el Gobierno de la República Eslovaca declaró el pueblo reserva patrimonial de arquitectura popular. La protección abarca no solo casas individuales, sino también el trazado histórico, la estructura espacial y el carácter general del asentamiento."
+        },
+        {
+          "id": "fact_006",
+          "title": "La iglesia de San Pedro y San Pablo y la historia de Plavecký Peter",
+          "text": "La iglesia de San Pedro y San Pablo es el principal hito de Plavecký Peter. Se construyó en 1600 en el lugar de un templo anterior y fue renovada en estilo barroco en 1712. El edificio renacentista de una sola nave está rodeado por un muro. Conserva parte de su mobiliario antiguo, incluidas pinturas de los santos Pedro y Pablo y de san Martín; los bancos de madera datan del siglo XVIII. El pueblo aparece en documentos desde 1394 y durante buena parte de su historia perteneció al señorío del castillo de Plavecký. En 1605 fue saqueado e incendiado durante la sublevación de Bocskai; fue liberado la noche del 4 al 5 de abril de 1945 por tropas del Segundo Frente Ucraniano. Su posición fronteriza trajo conexiones, pero también peligros bélicos."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec: reserva forestal en el término de Plavecký Peter",
+          "text": "La reserva natural de Kamenec se encuentra en el término municipal de Plavecký Peter. Fue declarada en 1988 y ocupa aproximadamente 61,62 hectáreas; protege comunidades forestales naturales de los Pequeños Cárpatos y especies vegetales y animales raras y protegidas. La reserva forma parte del entorno natural más amplio del municipio, algunas zonas del cual también pertenecen al Área Paisajística Protegida de los Pequeños Cárpatos y a la red europea de espacios protegidos. Su objetivo no es proteger un mirador o una instalación turística concreta, sino conservar los hábitats forestales y sus conexiones ecológicas. Kamenec es, por tanto, un importante valor natural de la parte del área postal 906 35 situada en el distrito de Senica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica y el paisaje kárstico del valle de Mokrá",
+          "text": "Al norte de Plavecký Mikuláš se encuentra la reserva natural de Kršlenica. Sus paredes rocosas, formaciones calizas y fenómenos kársticos son algunos de los rasgos naturales más característicos de esta parte de los Pequeños Cárpatos. El espacio incluye el valle de Mokrá y las colinas circundantes, donde la caliza ha dado lugar a lapiaces, cavidades y pequeñas cuevas. Los senderos señalizados cruzan Kršlenica en dirección a Čierna skala y a la cresta de los Pequeños Cárpatos. Desde algunos puntos se contemplan el valle y las laderas boscosas. El valor del lugar reside en la combinación de elementos geológicos y geomorfológicos con hábitats forestales y rocosos, no solo en sus miradores."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Centre historique de Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Un code postal partagé par deux communes de régions différentes",
+          "text": "Le code postal 906 35 est associé à Plavecký Mikuláš ainsi qu’à la commune voisine de Plavecký Peter. Son territoire ne correspond donc pas à la limite d’une seule commune : Plavecký Mikuláš relève du district de Malacky, dans la région de Bratislava, tandis que Plavecký Peter appartient au district de Senica, dans la région de Trnava. Le service postal est assuré par le bureau de Plavecký Mikuláš, dont les coordonnées officielles sont également publiées par la commune de Plavecký Peter. Cette fiche retient Plavecký Mikuláš comme commune représentative, car elle donne son nom au code et accueille le bureau de poste. Les deux communes font néanmoins partie du périmètre géographique et éditorial du code."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš : un village attesté dès 1224",
+          "text": "Plavecký Mikuláš se trouve dans les vallées de Mokrá et de Suchá, sur le versant occidental des Petites Carpates. L’histoire communale mentionne son existence dès 1224 ; les sources écrites le citent en 1394 sous le nom de Zentmiclos et en 1453 sous celui de Sanctus Nicolaus. Le nom Plavecký est probablement lié aux Coumans, également appelés Polovtsiens, qui auraient gardé la frontière occidentale du royaume de Hongrie après l’invasion mongole. Les circonstances exactes de leur arrivée restent toutefois incertaines. La seconde partie du nom pourrait venir du saint patron de l’église, Nicolas, ou d’un membre de la famille Baláž. La commune présente ces explications comme des hypothèses et non comme une étymologie établie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala : une grotte aux traces paléolithiques",
+          "text": "La grotte Dzeravá skala, également appelée grotte Pálffy, se situe dans le karst de Plavecký, sur un versant escarpé du massif de Javorinka, au-dessus de la vallée de Mokrá, dans le territoire de Plavecký Mikuláš. Les recherches archéologiques y ont mis en évidence des visites répétées et de brèves occupations humaines au Paléolithique. Les couches fouillées en 2002–2003 ont été datées d’environ 25 000 à 57 000 ans avant le présent. Les découvertes indiquent la présence d’humains anatomiquement modernes et de Néandertaliens. Les recherches se sont poursuivies en 2024 en associant des méthodes archéologiques, paléontologiques et géologiques. Le site constitue ainsi une source importante pour l’étude du peuplement préhistorique de l’ouest de la Slovaquie."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église Saint-Nicolas au-dessus du village",
+          "text": "L’église paroissiale Saint-Nicolas se dresse sur la colline de Dubníček et constitue un repère majeur de Plavecký Mikuláš. La source communale la décrit comme un exemple remarquable d’architecture religieuse défensive de la Renaissance : l’édifice à nef unique possède un chœur polygonal et une tour intégrée à la façade occidentale. Lors d’une importante rénovation vers 1718, l’église a été entourée d’un mur et dotée d’un maître-autel baroque, d’une chaire et d’autels latéraux dédiés à la Vierge Marie et à saint Joseph. L’intérieur conserve des bancs de la première moitié du XVIIIe siècle ; deux couches de peintures murales figuratives ont été découvertes sous un décor plus récent. L’édifice associe ainsi une ancienne fonction défensive à un intérieur baroque."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter : un village protégé pour son architecture en terre",
+          "text": "Plavecký Peter conserve un ensemble exceptionnellement cohérent de constructions rurales traditionnelles de l’ouest de la Slovaquie. Le noyau historique forme un village-rue à deux rangées qui s’élargit en une place en forme de lentille autour de l’église. Les maisons et les fermes témoignent de la vie d’une communauté agricole. Les habitations typiques étaient construites en briques de terre crue, souvent sur un soubassement en pierre, avec des bâtiments agricoles et des granges. Le 23 mai 1990, le gouvernement de la République slovaque a classé le village comme réserve patrimoniale d’architecture populaire. La protection porte non seulement sur les maisons, mais aussi sur le plan historique, la structure spatiale et le caractère général du village."
+        },
+        {
+          "id": "fact_006",
+          "title": "L’église Saints-Pierre-et-Paul et l’histoire de Plavecký Peter",
+          "text": "L’église Saints-Pierre-et-Paul est le principal monument de Plavecký Peter. Construite en 1600 à l’emplacement d’un sanctuaire plus ancien, elle a été rénovée dans le style baroque en 1712. L’édifice Renaissance à nef unique est entouré d’un mur. Une partie de son mobilier ancien a été conservée, notamment les tableaux des saints Pierre et Paul et de saint Martin ; les bancs en bois datent du XVIIIe siècle. Le village est attesté par écrit depuis 1394 et a longtemps dépendu du domaine du château de Plavecký. En 1605, il a été pillé et incendié pendant le soulèvement de Bocskai. Il a été libéré dans la nuit du 4 au 5 avril 1945 par les troupes du 2e Front ukrainien. Sa situation frontalière a donc apporté des échanges, mais aussi les dangers de la guerre."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec : une réserve forestière sur le territoire de Plavecký Peter",
+          "text": "La réserve naturelle de Kamenec se trouve dans le territoire cadastral de Plavecký Peter. Créée en 1988, elle couvre environ 61,62 hectares et protège les communautés forestières naturelles des Petites Carpates ainsi que des espèces végétales et animales rares et protégées. Elle fait partie du cadre naturel plus vaste de la commune, dont certaines zones appartiennent également à la zone paysagère protégée des Petites Carpates et au réseau européen des sites protégés. L’objectif n’est pas de préserver un belvédère ou une installation touristique isolée, mais les habitats forestiers et leurs relations écologiques. Kamenec constitue donc une valeur naturelle importante de la partie du code postal 906 35 située dans le district de Senica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica et le paysage karstique de la vallée de Mokrá",
+          "text": "Au nord de Plavecký Mikuláš s’élève la réserve naturelle de Kršlenica. Ses parois rocheuses, ses formations calcaires et ses phénomènes karstiques comptent parmi les traits naturels marquants de cette partie des Petites Carpates. Le site comprend la vallée de Mokrá et les collines environnantes, où le calcaire a formé des lapiaz, des cavités et de petites grottes. Des sentiers balisés traversent Kršlenica en direction de Čierna skala et de la crête des Petites Carpates. Certains points offrent des vues sur la vallée et les versants boisés. L’intérêt du lieu tient à l’association de valeurs géologiques et géomorphologiques avec des habitats forestiers et rocheux, et pas seulement à ses points de vue."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Centro storico di Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Un codice postale condiviso da due comuni in regioni diverse",
+          "text": "Il codice postale 906 35 è associato sia a Plavecký Mikuláš sia al vicino comune di Plavecký Peter. La sua area non coincide quindi con il confine di un solo comune: Plavecký Mikuláš appartiene al distretto di Malacky, nella regione di Bratislava, mentre Plavecký Peter rientra nel distretto di Senica, nella regione di Trnava. Il servizio postale è assicurato dall’ufficio di Plavecký Mikuláš, i cui recapiti ufficiali sono pubblicati anche dal comune di Plavecký Peter. Questa scheda utilizza Plavecký Mikuláš come comune rappresentativo perché dà il nome al codice e ospita l’ufficio postale. Entrambi i comuni rientrano comunque nell’ambito geografico ed editoriale del codice."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: un insediamento attestato già nel 1224",
+          "text": "Plavecký Mikuláš si trova nelle valli di Mokrá e Suchá, sul versante occidentale dei Piccoli Carpazi. La storia comunale ne attesta l’esistenza già nel 1224; le fonti scritte lo citano nel 1394 come Zentmiclos e nel 1453 come Sanctus Nicolaus. Il nome Plavecký è probabilmente collegato ai Cumani, detti anche Polovzi, che dopo l’invasione mongola avrebbero sorvegliato il confine occidentale del Regno d’Ungheria. Le circostanze precise del loro arrivo non sono però certe. La seconda parte del nome potrebbe derivare dal patrono della chiesa, san Nicola, oppure da un membro della famiglia Baláž. Il comune presenta queste spiegazioni come ipotesi, non come etimologia dimostrata."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: una grotta con tracce paleolitiche",
+          "text": "La grotta Dzeravá skala, chiamata anche grotta Pálffy, si trova nel Carso di Plavecký, su un ripido versante del massiccio di Javorinka sopra la valle di Mokrá, nel territorio comunale di Plavecký Mikuláš. Le ricerche archeologiche hanno documentato visite ripetute e brevi occupazioni umane durante il Paleolitico. Gli strati scavati nel 2002–2003 sono stati datati a circa 25.000–57.000 anni fa. I reperti indicano la presenza sia di esseri umani anatomicamente moderni sia di Neanderthal. Le ricerche sono proseguite nel 2024 combinando metodi archeologici, paleontologici e geologici. Il sito è quindi una fonte importante per comprendere il popolamento preistorico della Slovacchia occidentale."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa di San Nicola sopra il paese",
+          "text": "La chiesa parrocchiale di San Nicola sorge sulla collina di Dubníček ed è un punto di riferimento di Plavecký Mikuláš. La fonte comunale la descrive come un pregevole esempio rinascimentale di architettura religiosa difensiva: l’edificio a navata unica presenta un presbiterio poligonale e una torre incorporata nella facciata occidentale. Durante un importante restauro intorno al 1718, la chiesa fu circondata da un muro e ricevette un altare maggiore barocco, un pulpito e altari laterali dedicati alla Vergine Maria e a san Giuseppe. All’interno si conservano panche della prima metà del Settecento; sotto una decorazione più recente sono stati scoperti due strati di pitture murali figurative. L’edificio unisce così una precedente funzione difensiva a un interno barocco."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter: un villaggio protetto per l’architettura in terra cruda",
+          "text": "Plavecký Peter conserva un insieme eccezionalmente integro di edifici rurali tradizionali della Slovacchia occidentale. Il nucleo storico è un villaggio-strada a doppia fila che si allarga in uno spazio a forma di lente attorno alla chiesa. Le abitazioni e le corti agricole documentano la vita di una comunità contadina. Le case tipiche erano costruite con mattoni crudi, spesso su uno zoccolo in pietra, e affiancate da edifici agricoli e fienili. Il 23 maggio 1990 il governo della Repubblica Slovacca ha dichiarato il villaggio riserva monumentale dell’architettura popolare. La tutela comprende non soltanto le singole case, ma anche la pianta storica, la struttura spaziale e il carattere complessivo dell’insediamento."
+        },
+        {
+          "id": "fact_006",
+          "title": "La chiesa dei Santi Pietro e Paolo e la storia di Plavecký Peter",
+          "text": "La chiesa dei Santi Pietro e Paolo è il principale punto di riferimento di Plavecký Peter. Fu costruita nel 1600 sul luogo di un tempio precedente e restaurata in stile barocco nel 1712. L’edificio rinascimentale a navata unica è circondato da un muro. Conserva parte degli arredi più antichi, tra cui dipinti dei santi Pietro e Paolo e di san Martino; i banchi lignei risalgono al XVIII secolo. Il villaggio è documentato per iscritto dal 1394 e per lungo tempo appartenne soprattutto alla signoria del castello di Plavecký. Nel 1605 fu saccheggiato e incendiato durante la rivolta di Bocskai; fu liberato nella notte tra il 4 e il 5 aprile 1945 dalle truppe del 2º Fronte ucraino. La posizione di confine portò quindi non solo scambi, ma anche pericoli di guerra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec: una riserva forestale nel territorio di Plavecký Peter",
+          "text": "La riserva naturale di Kamenec si trova nel territorio catastale di Plavecký Peter. Istituita nel 1988, si estende per circa 61,62 ettari e protegge le comunità forestali naturali dei Piccoli Carpazi e le specie vegetali e animali rare e protette. La riserva fa parte del più ampio ambiente naturale del comune, alcune zone del quale rientrano anche nell’Area paesaggistica protetta dei Piccoli Carpazi e nella rete europea delle aree protette. L’obiettivo non è tutelare un singolo belvedere o impianto turistico, ma conservare gli habitat forestali e le loro relazioni ecologiche. Kamenec è quindi un importante valore naturale della parte del codice postale 906 35 situata nel distretto di Senica."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica e il paesaggio carsico della valle di Mokrá",
+          "text": "A nord di Plavecký Mikuláš si trova la riserva naturale di Kršlenica. Le sue pareti rocciose, le formazioni calcaree e i fenomeni carsici sono tra gli elementi naturali più caratteristici di questa parte dei Piccoli Carpazi. L’area comprende la valle di Mokrá e le colline circostanti, dove il calcare ha dato origine a campi solcati, cavità e piccole grotte. I sentieri segnalati attraversano Kršlenica in direzione di Čierna skala e della cresta dei Piccoli Carpazi. Da alcuni punti si aprono vedute sulla valle e sui pendii boscosi. Il valore del luogo risiede nell’unione di elementi geologici e geomorfologici con habitat forestali e rocciosi, non soltanto nei punti panoramici."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Historische dorpskern van Plavecký Mikuláš",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Eén postcode voor twee gemeenten in verschillende regio’s",
+          "text": "Postcode 906 35 is gekoppeld aan zowel Plavecký Mikuláš als het naburige Plavecký Peter. Het gebied valt dus niet samen met de grens van één gemeente: Plavecký Mikuláš ligt in het district Malacky in de regio Bratislava, terwijl Plavecký Peter deel uitmaakt van het district Senica in de regio Trnava. De postale dienstverlening verloopt via het postkantoor in Plavecký Mikuláš; de officiële contactgegevens daarvan worden ook door de gemeente Plavecký Peter vermeld. Dit record gebruikt Plavecký Mikuláš als representatieve gemeente, omdat de plaats haar naam aan de postcode geeft en het postkantoor er gevestigd is. Beide gemeenten vallen wel binnen de geografische en inhoudelijke reikwijdte van deze postcode."
+        },
+        {
+          "id": "fact_002",
+          "title": "Plavecký Mikuláš: een nederzetting die al in 1224 wordt vermeld",
+          "text": "Plavecký Mikuláš ligt in de dalen Mokrá en Suchá, op de westelijke hellingen van de Kleine Karpaten. Volgens de gemeentelijke geschiedenis bestond de nederzetting al in 1224; schriftelijke bronnen noemen haar in 1394 Zentmiclos en in 1453 Sanctus Nicolaus. De naam Plavecký houdt waarschijnlijk verband met de Koemanen, ook Polovtsen genoemd, die na de Mongoolse inval de westgrens van het Koninkrijk Hongarije bewaakten. De precieze omstandigheden van hun komst staan echter niet vast. Het tweede deel van de naam kan verwijzen naar de patroonheilige van de kerk, Nicolaas, of naar een lid van de familie Baláž. De gemeente presenteert dit als mogelijke verklaringen, niet als bewezen etymologie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Dzeravá skala: een grot met sporen uit het paleolithicum",
+          "text": "De grot Dzeravá skala, ook bekend als de Pálffy-grot, ligt in het karstgebied van Plavecký, op een steile helling van het Javorinka-massief boven de vallei Mokrá dolina, binnen het grondgebied van Plavecký Mikuláš. Archeologisch onderzoek heeft herhaald bezoek en kortstondige menselijke bewoning in het paleolithicum aangetoond. De lagen die in 2002–2003 zijn opgegraven, dateren van ongeveer 25.000 tot 57.000 jaar geleden. De vondsten wijzen op de aanwezigheid van zowel anatomisch moderne mensen als neanderthalers. Het onderzoek werd in 2024 voortgezet met archeologische, paleontologische en geologische methoden. De vindplaats is daarmee een belangrijke bron voor de kennis van de prehistorische bewoning van westelijk Slowakije."
+        },
+        {
+          "id": "fact_004",
+          "title": "De Sint-Nicolaaskerk boven het dorp",
+          "text": "De parochiekerk van Sint-Nicolaas staat op de heuvel Dubníček en vormt een opvallend herkenningspunt van Plavecký Mikuláš. De gemeentelijke bron beschrijft haar als een waardevol renaissancevoorbeeld van verdedigende kerkarchitectuur: het eenbeukige gebouw heeft een veelhoekig koor en een toren die in de westgevel is opgenomen. Bij een grote renovatie rond 1718 kreeg de kerk een ommuring, een barok hoofdaltaar, een preekstoel en zijaltaren gewijd aan Maria en Sint-Jozef. Binnen zijn kerkbanken uit de eerste helft van de achttiende eeuw bewaard gebleven; onder een latere afwerking zijn twee lagen figuratieve muurschilderingen ontdekt. Zo combineert het gebouw een oudere verdedigingsfunctie met een barok interieur."
+        },
+        {
+          "id": "fact_005",
+          "title": "Plavecký Peter: een beschermd dorp met leembouw",
+          "text": "Plavecký Peter bewaart een uitzonderlijk samenhangend geheel van traditionele dorpsgebouwen uit westelijk Slowakije. De historische kern bestaat uit een tweerijig straatdorp dat rond de kerk lensvormig verbreedt. De woon- en boerderijerven documenteren het leven van een agrarische gemeenschap. Typische huizen werden gebouwd van ongebakken leemstenen, vaak op een stenen onderbouw, met bijbehorende bedrijfsgebouwen en schuren. Op 23 mei 1990 riep de regering van de Slowaakse Republiek het dorp uit tot beschermd gebied voor volksarchitectuur. De bescherming geldt niet alleen voor afzonderlijke huizen, maar ook voor het historische stratenplan, de ruimtelijke structuur en het totale dorpsbeeld."
+        },
+        {
+          "id": "fact_006",
+          "title": "De Sint-Petrus-en-Pauluskerk en de geschiedenis van Plavecký Peter",
+          "text": "De kerk van de heiligen Petrus en Paulus is het belangrijkste herkenningspunt van Plavecký Peter. Ze werd in 1600 gebouwd op de plaats van een oudere kerk en in 1712 in barokstijl vernieuwd. Het eenbeukige renaissancegebouw is omgeven door een muur. Een deel van de oudere inrichting is bewaard gebleven, waaronder schilderijen van de heiligen Petrus en Paulus en Sint-Maarten; de houten kerkbanken dateren uit de achttiende eeuw. Het dorp wordt sinds 1394 schriftelijk vermeld en behoorde lange tijd grotendeels tot het domein van kasteel Plavecký. In 1605 werd het tijdens de opstand van Bocskai geplunderd en in brand gestoken. In de nacht van 4 op 5 april 1945 werd het bevrijd door troepen van het Tweede Oekraïense Front. De grensligging bracht dus niet alleen contacten, maar ook oorlogsgevaar."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kamenec: een bosreservaat in het grondgebied van Plavecký Peter",
+          "text": "Het natuurreservaat Kamenec ligt binnen het kadastrale gebied van Plavecký Peter. Het werd in 1988 ingesteld en beslaat ongeveer 61,62 hectare. Het beschermt natuurlijke bosgemeenschappen van de Kleine Karpaten en zeldzame en beschermde planten- en diersoorten. Het reservaat maakt deel uit van de ruimere natuurlijke omgeving van de gemeente; delen daarvan behoren ook tot het beschermde landschapsgebied Kleine Karpaten en het Europese netwerk van beschermde gebieden. Het doel is niet de bescherming van één uitzichtpunt of toeristische voorziening, maar het behoud van boshabitats en hun ecologische samenhang. Kamenec is daarom een belangrijke natuurwaarde van het deel van postcodegebied 906 35 dat in het district Senica ligt."
+        },
+        {
+          "id": "fact_008",
+          "title": "Kršlenica en het karstlandschap van de vallei Mokrá",
+          "text": "Ten noorden van Plavecký Mikuláš ligt het natuurreservaat Kršlenica. De rotswanden, kalksteenformaties en karstverschijnselen behoren tot de kenmerkende natuurwaarden van dit deel van de Kleine Karpaten. Het gebied omvat de vallei Mokrá dolina en de omliggende heuvels, waar in het kalksteen karstgroeven, holten en kleine grotten zijn ontstaan. Gemarkeerde wandelroutes lopen over Kršlenica in de richting van Čierna skala en de kam van de Kleine Karpaten. Vanaf enkele plekken is er uitzicht op de vallei en de beboste hellingen. De waarde van het gebied ligt in de combinatie van geologische en geomorfologische kenmerken met bos- en rotsbiotopen, niet alleen in de uitzichtpunten."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
