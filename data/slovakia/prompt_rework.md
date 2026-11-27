@@ -416,7 +416,7 @@ Perform one final basic validation pass after the editorial, geographic and tran
 - every fact has an explicit `location` property and exactly one valid `map_category`;
 - every non-null location has valid WGS84 coordinates, name, type, accuracy and supporting location source;
 - `null` is retained only after applying the full fallback hierarchy;
-- all fact source URLs match top-level `sources[].url` values;
+- every fact-level source ID resolves to exactly one top-level `sources[].id`, and the registry URL supports the cited claim;
 - the Czech original and all seven language versions are complete, aligned by fact ID/order and independently understandable;
 - IDs are unique and conform to the schema;
 - photo metadata is valid or `null`;
