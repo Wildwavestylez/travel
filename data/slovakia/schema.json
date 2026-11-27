@@ -327,8 +327,10 @@
           "type": "array",
           "items": {
             "type": "string",
-            "minLength": 1
-          }
+            "minLength": 1,
+            "pattern": "^s[0-9]+$"
+          },
+          "description": "Array of source IDs (for example s1, s2) referencing entries in the record's top-level sources registry. Do not store URLs here; geographic location.source remains a direct URL."
         },
         "location": {
           "description": "Independent physical/map location of the subject of this fact. Do not copy representative_point or access_point automatically. Use a defensible exact, approximate, area-representative or historical-approximate point according to the Slovak Content Standard; use null only when no meaningful point can be established.",
@@ -370,11 +372,17 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
+        "id",
         "title",
         "url",
         "type"
       ],
       "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^s[0-9]+$",
+          "description": "Stable source identifier referenced by facts[].sources."
+        },
         "title": {
           "type": "string",
           "minLength": 1
