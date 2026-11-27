@@ -160,3 +160,17 @@ Tato část **nahrazuje průběžné počty a otevřené položky uvedené výš
 
 ### Konečný stav tohoto pokračování
 **REVIEW REQUIRED.** Obsahové a strukturální kontroly jsou výrazně pokročilejší, ale audit nelze označit jako PASS, dokud nebude dokončena individuální sémantická revize 1 260 překladů a uzavřeno nebo výslovně odůvodněno sedm zbývajících nulových poloh. V5, publikace, záloha, Neon import ani read-only lock nebyly spuštěny.
+
+
+### Addendum — pokračující sémantická revize překladů
+
+Od předchozího addenda byly dokončeny další jazykové dávky:
+- 28901: 6 faktů / 36 překladů; opravena terminologie Božehrobců.
+- 28902: 5 faktů / 30 překladů; doplněny vypuštěné historické a památkové věty.
+- 28903: 10 faktů / 60 překladů; odstraněno opakování v překladu kostela sv. Markéty a doplněny chybějící historické souvislosti.
+- 28904: 7 faktů / 42 překladů; opravena role faráře Josefa Koukala a další vypuštěné informace.
+- 28905: 8 faktů / 48 překladů; opraven závažný nesoulad českého masteru 28905/fact_001, který omylem popisoval kostel v Sánech místo kostela sv. Gotharda a kostnice v Žehuni. Všechny překlady byly srovnány s obnoveným českým textem.
+- 28906: 7 faktů / 42 překladů; opraven závažný nesoulad českého masteru 28906/fact_004, který omylem popisoval kostel v Choťovicích místo Sánského kanálu a Bačovky. Chronologie byla zpřesněna podle odborného článku VTEI a databáze vodních mlýnů. Odstraněno opakování v překladu 28906/fact_001.
+- 28907: 6 faktů / 36 překladů; zkontrolováno bez nutných změn.
+
+Celkem je nyní nově vytvořeno, přepracováno nebo individuálně sémanticky zkontrolováno **73 faktů**. Zbývá **1 092 cizojazyčných textů** (182 faktů × 6 jazyků). Audit zůstává **REVIEW REQUIRED**.
