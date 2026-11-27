@@ -11,6 +11,10 @@ Use this prompt with the current:
 
 The schema defines structure and permitted values. The German Content Standard is authoritative for content, research, sources, translations and quality. The Country Profile defines German postal, geographic and administrative meaning. This prompt defines the efficient workflow. If they conflict, follow the schema and Content Standard and record the conflict; do not silently change either.
 
+## Shared TRAVEL editorial standard — mandatory
+
+Apply `data/REWORK_QUALITY_STANDARD.md` to every record in addition to this country's schema, Country Profile and Content Standard. It standardizes story depth, research synthesis, evidence, translation quality, autonomous one-record completion and strict respect for the user's batch boundary. It does not replace or override any country-specific postal, geographic, storage, schema or lifecycle rule. In a conflict, follow the applicable national documents and schema.
+
 ## Production storage and safe Supabase I/O — mandatory
 
 The current production source of truth for German records is the prepared Supabase table `public.postal_codes`, filtered by `country_code = 'DE'`. The repository holds the German schema, Content Standard, prompts and canonical sequence. Do not switch storage or split production records across Supabase, Neon and GitHub during ordinary rework; a migration requires a separate explicit project decision.
