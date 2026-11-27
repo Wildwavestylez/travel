@@ -1,4 +1,669 @@
 {
   "postcode": "91101",
-  "status": "placeholder"
+  "city": "Trenčín",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Mierové námestie a historické centrum Trenčína pod hradem",
+  "representative_point": {
+    "lat": 48.895052,
+    "lon": 18.041625
+  },
+  "access_point": {
+    "lat": 48.895052,
+    "lon": 18.041625
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Trenčínský hrad – královská pevnost nad Váhem",
+      "text": "Trenčínský hrad se zvedá na strmé skále nad městem a po staletí střežil obchodní cesty spojující Pováží s Moravou, Čechami, Slezskem a Polskem. Jeho počátky sahají do 11. století, kdy areál tvořila obytná věž a rotunda. Na konci 13. století získal hrad Matúš Čák Trenčiansky, jeden z nejmocnějších uherských magnátů své doby. Pozdější panovníci a šlechtické rody přidávali paláce a opevnění; dnešní areál zahrnuje Matúšovu věž, Ľudovítův a Barbořin palác i dělostřeleckou baštu. K nejznámějším místům patří 80 metrů hluboká Studna lásky, spojená s pověstí o Omarovi a Fatimě.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "map_category": "castle",
+      "location": {
+        "name": "Trenčínský hrad",
+        "lat": 48.894705,
+        "lon": 18.044965,
+        "type": "castle",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/hrad-trencin",
+        "address": "Matúšova 75/19, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Římský nápis Laugaricio z roku 179",
+      "text": "Na skalní stěně pod Trenčínským hradem je vytesán římský nápis datovaný do roku 179 n. l., tedy do období markomanských válek za císaře Marka Aurelia. Připomíná vítězství římského vojska nad germánskými Kvádami a přítomnost 855 vojáků II. pomocné legie v místě označeném jako Laugaricio. Nápis pořídil na příkaz legáta Marka Valeria Maximiana. Jde o mimořádně vzácný doklad římské vojenské přítomnosti severně od Dunaje, který se dochoval na původním místě. Dnes jej lze pozorovat přes skleněnou stěnu v druhém patře historického hotelu Elizabeth na začátku Mierového náměstí.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Římský nápis Laugaricio, hradní skála, Trenčín",
+        "lat": 48.895988,
+        "lon": 18.044834,
+        "type": "historic_monument",
+        "accuracy": "exact",
+        "source": "https://vici.org/vici/16479/",
+        "address": "Hotel Elizabeth, Gen. M. R. Štefánika 2, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Trenčín – středověké svobodné královské město",
+      "text": "Trenčín se v Zoborských listinách z let 1111 a 1113 připomíná jako mýtní a tržní osada pod hradem. Strategická poloha na obchodních cestách z něj postupně učinila správní a hospodářské centrum středního Pováží. Roku 1412 povýšil král Zikmund Lucemburský Trenčín na svobodné královské město a udělil mu významná městská práva. Město mělo vlastní samosprávu, tržní privilegia a opevnění; části hradeb a městských bran se dochovaly dodnes. Historické jádro je městskou památkovou rezervací a jeho hlavní osou je Mierové námestie pod hradem.",
+      "category": "history",
+      "priority": "A",
+      "sources": [
+        "s6",
+        "s7"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Piaristický kostel sv. Františka Xaverského a jezuitské gymnázium",
+      "text": "Jezuité přišli do Trenčína roku 1646 a brzy zde založili chlapecký konvikt a gymnázium, které zahájilo výuku v lednu 1649. Roku 1653 položili základní kámen kostela a kolegia; raně barokní kostel sv. Františka Xaverského byl dokončen a vysvěcen roku 1657. Na stavbě se podíleli italští stavitelé Pietro a Gothard Spazzovci. Po zrušení jezuitského řádu převzali areál piaristé, podle nichž se chrám dodnes nazývá piaristický. Interiér patří k výrazným barokním prostorům Slovenska a je známý iluzivní malovanou kupolí a freskami Christopha Tausche.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Piaristický kostel sv. Františka Xaverského, Trenčín",
+        "lat": 48.894618,
+        "lon": 18.040508,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/vyhladavanie-trencin-kostol-sv-frantiska-xaverskeho",
+        "address": "Mierové námestie, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Trenčínská synagoga – byzantsko-maurská architektura židovské komunity",
+      "text": "Trenčínská židovská komunita je v písemných pramenech doložena už na počátku 14. století; výrazněji se rozrostla v 17. a 18. století. Dnešní synagoga byla postavena roku 1913 podle projektu berlínského architekta Richarda Scheibnera na místě starší dřevěné synagogy z roku 1781. Železobetonová stavba spojuje secesní a historizující prvky s byzantsko-maurskou orientální inspirací. Během druhé světové války byla znesvěcena a její vybavení zničeno; v letech 1974–1984 prošla obnovou. Zachovala si modrou kopuli, bohatý lustr a barevné vitráže. Dnes slouží jako kulturní a výstavní prostor a připomíná dějiny židovského života ve městě.",
+      "category": "heritage_and_monuments",
+      "priority": "A",
+      "sources": [
+        "s11",
+        "s12"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Neologická synagoga, Hviezdova ulice, Trenčín",
+        "lat": 48.894429,
+        "lon": 18.039499,
+        "type": "synagogue",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/trencin-neologicka-synagoga",
+        "address": "Hviezdova 1, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Opatová nad Váhem – stará obec a kostel sv. Stanislava",
+      "text": "Opatová nad Váhem byla samostatnou obcí s první písemnou zmínkou z roku 1238; původně patřila benediktinskému opatství na Skalce a později zdejší hospodářství spravovali jezuité. Součástí Trenčína je od roku 1985. Nejvýraznější historickou památkou místní části je barokní kostel sv. Stanislava, postavený v letech 1690–1701 a vysvěcený 1. června 1701 nitranským biskupem Ladislavem Maťašovským. Kostel má jednolodní dispozici, polygonální závěr a věž představenou před průčelí; areál obklopuje historická zeď. Hlavní oltář zdobí obraz sv. Stanislava od J. B. Klemense z roku 1880.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s13",
+        "s14",
+        "s15"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Stanislava, Opatová, Trenčín",
+        "lat": 48.911853,
+        "lon": 18.098522,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/opatova-trencin-kostol-sv-stanislava",
+        "address": "Opatová 484, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_007",
+      "title": "Kubranská kyselka – minerální pramen v historické Kubré",
+      "text": "V městské části Kubrá vyvěrá Kubranská kyselka, tradičně využívaný minerální pramen známý také jako Medokýš. Patří k místním přírodním zajímavostem a po generace byl cílem obyvatel i výletníků z Trenčína a okolí. Pramen je spojen s místními pověstmi a vzpomínkami na starou Kubru; město u něj v roce 2026 podpořilo vznik informační tabule, která přibližuje příběh vody a její místo v životě obce. Kubrá byla původně samostatnou obcí a dnes tvoří severovýchodní část Trenčína; v sousední Kubrici pokračuje krajina úzkým údolím potoka mezi zalesněnými svahy.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Kubranská kyselka (Medokýš), Kubrá, Trenčín",
+        "lat": 48.886111,
+        "lon": 18.093611,
+        "type": "natural_feature",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n810409378",
+        "address": "Kubranská 282, Trenčín, Slovensko"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Románský kostel sv. Kosmy a Damiána v Trenčianských Biskupicích",
+      "text": "V Trenčianských Biskupicích stojí kostel sv. Kosmy a Damiána, jedna z nejstarších sakrálních staveb na území dnešního Trenčína. Podle architektonicko-historického výzkumu sloužil věřícím už od poloviny 13. století; odborníci jeho vznik kladou také do první třetiny 14. století, pravděpodobně na místě starší stavby. Původně románský jednolodní kostel získal později raně gotické prvky a jeho interiér zdobily středověké nástěnné malby. V minulosti zde existovala samostatná fara a působil zde arcikněz trenčianského arcidiakonátu. Kostel je národní kulturní památkou a připomíná dobu, kdy byly Biskupice samostatnou obcí.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s19",
+        "s20",
+        "s21"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Kosmy a Damiána, Trenčianske Biskupice",
+        "lat": 48.879188,
+        "lon": 18.020602,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/trencianske-biskupice-trencin-kostol-sv-kozmu-a-damiana",
+        "address": "Biskupická ulica, Trenčín, Slovensko"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – oficiální vyhledávání PSČ a oficiální seznam poboček uvádějící Trenčín 1, PSČ 911 01. Rozsah PSČ zahrnuje město Trenčín a podle adresních přehledů také místní části Biskupice, Kubrá, Kubrica a Opatová.",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální seznam poboček Slovenské pošty a vyhledávání PSČ; obecní a adresní evidence místních částí",
+    "postcode_source_release": "Seznam poboček k 15. 4. 2023",
+    "postcode_source_checked_at": "2026-11-27",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "PSČ 911 01 je obsluhováno poštou Trenčín 1; jiné městské části Trenčína používají i další doručovací PSČ.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Oficiální údaje města Trenčín, Visit Trenčín, městské kroniky a státní památkové evidence; místní části ověřeny adresními a poštovními podklady."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Visit Trenčín – Trenčiansky hrad",
+      "url": "https://visit.trencin.sk/trenciansky-hrad/",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Pamiatky na Slovensku – Hrad Trenčín",
+      "url": "https://www.pamiatkynaslovensku.sk/hrad-trencin",
+      "type": "specialist"
+    },
+    {
+      "id": "s3",
+      "title": "Mesto Trenčín – História mesta",
+      "url": "https://trencin.sk/pre-obcanov/o-meste/historia-mesta/historia-trencina/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Visit Trenčín – Roman inscription on the rock",
+      "url": "https://visit.trencin.sk/en/roman-inscription-on-the-rock/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Vici.org – Trenčín Laugaricio Roman inscription, geolocation",
+      "url": "https://vici.org/vici/16479/",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Visit Trenčín – Prvé písomné pramene o meste",
+      "url": "https://visit.trencin.sk/prve-pisomne-pramene-o-meste/",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Slovakia.travel – Trenčín, history and historic centre",
+      "url": "https://slovakia.travel/en/trencin",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Mesto Trenčín – Jezuiti v luteránskom Ríme: 370 rokov gymnázia",
+      "url": "https://trencin.sk/archivne-okienko/jezuiti-v-luteranskom-rime-370-rokov-gymnazia-v-trencine/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Pamiatky na Slovensku – Kostol sv. Františka Xaverského, Trenčín",
+      "url": "https://www.pamiatkynaslovensku.sk/vyhladavanie-trencin-kostol-sv-frantiska-xaverskeho",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Trenčiansky samosprávny kraj – Rehoľné rády v dunajskom regióne",
+      "url": "https://trnava-vuc.sk/wp-content/uploads/2022/05/4762-1-sakralne-cykloturisticke-trasy-v-okoli-dunaja-svk.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "Visit Trenčín – Synagogue",
+      "url": "https://visit.trencin.sk/en/synagogue-synagoga/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Pamiatky na Slovensku – Neologická synagóga v Trenčíne",
+      "url": "https://www.pamiatkynaslovensku.sk/trencin-neologicka-synagoga",
+      "type": "specialist"
+    },
+    {
+      "id": "s13",
+      "title": "Mesto Trenčín – Oslavy prvej písomnej zmienky o Opatovej nad Váhom",
+      "url": "https://trencin.sk/aktuality/oslavy-prvej-pisomnej-zmienky-o-opatovej-nad-vahom/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Visit Trenčín – Trasa Trenčín – Trenčianske Teplice cez Opatovú",
+      "url": "https://visit.trencin.sk/trasa-02-trencin-trencianske-teplice-cez-opatovu/",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "Pamiatky na Slovensku – Kostol sv. Stanislava v Opatovej",
+      "url": "https://www.pamiatkynaslovensku.sk/opatova-trencin-kostol-sv-stanislava",
+      "type": "specialist"
+    },
+    {
+      "id": "s16",
+      "title": "Visit Trenčín – Prameň, ktorý rozpráva: Kubranská kyselka",
+      "url": "https://visit.trencin.sk/podujatia/?id=8769",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Mesto Trenčín – Kubrá a Kubrica, prírodné a historické súvislosti",
+      "url": "https://visit.trencin.sk/trasa-15-trencin-trencianske-teplice-cez-kubricu/",
+      "type": "official"
+    },
+    {
+      "id": "s18",
+      "title": "OpenStreetMap / OMA – Kubranská kyselka, location",
+      "url": "https://poi.oma.sk/n810409378",
+      "type": "specialist"
+    },
+    {
+      "id": "s19",
+      "title": "Mesto Trenčín – Kronika mesta 2009, dejiny Trenčianskych Biskupíc",
+      "url": "https://trencin.sk/wp-content/uploads/2018/01/Kronika-mesta-Trenc%CC%8Ci%CC%81n-%E2%80%93-rok-2009.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "Pamiatky na Slovensku – Kostol sv. Kozmu a Damiána v Trenčianskych Biskupiciach",
+      "url": "https://www.pamiatkynaslovensku.sk/trencianske-biskupice-trencin-kostol-sv-kozmu-a-damiana",
+      "type": "specialist"
+    },
+    {
+      "id": "s21",
+      "title": "Apsida – Trenčín-Biskupice, kostol sv. Kozmu a Damiána",
+      "url": "https://apsida.sk/c/8542/trencin-biskupice",
+      "type": "specialist"
+    },
+    {
+      "id": "s22",
+      "title": "Slovenská pošta – Zoznam vybraných pôšt, Trenčín 1, PSČ 91101",
+      "url": "https://www.posta.sk/en/files/37391/zoznam-vybranych-post-na-predaj-ekolkov_k-15042023.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "Slovenská pošta – Vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s24",
+      "title": "PSČ 911 01 – zoznam obcí a mestských častí Trenčína",
+      "url": "https://www.pscpsc.eu/sk?psc=911-01",
+      "type": "other"
+    },
+    {
+      "id": "s25",
+      "title": "OpenStreetMap / OMA – Mierové námestie, Trenčín, representative point",
+      "url": "https://trencin.oma.sk/u/mierove-namestie",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Mierové námestie a historické centrum Trenčína pod hradem",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Trenčínský hrad – královská pevnost nad Váhem",
+          "text": "Trenčínský hrad se zvedá na strmé skále nad městem a po staletí střežil obchodní cesty spojující Pováží s Moravou, Čechami, Slezskem a Polskem. Jeho počátky sahají do 11. století, kdy areál tvořila obytná věž a rotunda. Na konci 13. století získal hrad Matúš Čák Trenčiansky, jeden z nejmocnějších uherských magnátů své doby. Pozdější panovníci a šlechtické rody přidávali paláce a opevnění; dnešní areál zahrnuje Matúšovu věž, Ľudovítův a Barbořin palác i dělostřeleckou baštu. K nejznámějším místům patří 80 metrů hluboká Studna lásky, spojená s pověstí o Omarovi a Fatimě."
+        },
+        {
+          "id": "fact_002",
+          "title": "Římský nápis Laugaricio z roku 179",
+          "text": "Na skalní stěně pod Trenčínským hradem je vytesán římský nápis datovaný do roku 179 n. l., tedy do období markomanských válek za císaře Marka Aurelia. Připomíná vítězství římského vojska nad germánskými Kvádami a přítomnost 855 vojáků II. pomocné legie v místě označeném jako Laugaricio. Nápis pořídil na příkaz legáta Marka Valeria Maximiana. Jde o mimořádně vzácný doklad římské vojenské přítomnosti severně od Dunaje, který se dochoval na původním místě. Dnes jej lze pozorovat přes skleněnou stěnu v druhém patře historického hotelu Elizabeth na začátku Mierového náměstí."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín – středověké svobodné královské město",
+          "text": "Trenčín se v Zoborských listinách z let 1111 a 1113 připomíná jako mýtní a tržní osada pod hradem. Strategická poloha na obchodních cestách z něj postupně učinila správní a hospodářské centrum středního Pováží. Roku 1412 povýšil král Zikmund Lucemburský Trenčín na svobodné královské město a udělil mu významná městská práva. Město mělo vlastní samosprávu, tržní privilegia a opevnění; části hradeb a městských bran se dochovaly dodnes. Historické jádro je městskou památkovou rezervací a jeho hlavní osou je Mierové námestie pod hradem."
+        },
+        {
+          "id": "fact_004",
+          "title": "Piaristický kostel sv. Františka Xaverského a jezuitské gymnázium",
+          "text": "Jezuité přišli do Trenčína roku 1646 a brzy zde založili chlapecký konvikt a gymnázium, které zahájilo výuku v lednu 1649. Roku 1653 položili základní kámen kostela a kolegia; raně barokní kostel sv. Františka Xaverského byl dokončen a vysvěcen roku 1657. Na stavbě se podíleli italští stavitelé Pietro a Gothard Spazzovci. Po zrušení jezuitského řádu převzali areál piaristé, podle nichž se chrám dodnes nazývá piaristický. Interiér patří k výrazným barokním prostorům Slovenska a je známý iluzivní malovanou kupolí a freskami Christopha Tausche."
+        },
+        {
+          "id": "fact_005",
+          "title": "Trenčínská synagoga – byzantsko-maurská architektura židovské komunity",
+          "text": "Trenčínská židovská komunita je v písemných pramenech doložena už na počátku 14. století; výrazněji se rozrostla v 17. a 18. století. Dnešní synagoga byla postavena roku 1913 podle projektu berlínského architekta Richarda Scheibnera na místě starší dřevěné synagogy z roku 1781. Železobetonová stavba spojuje secesní a historizující prvky s byzantsko-maurskou orientální inspirací. Během druhé světové války byla znesvěcena a její vybavení zničeno; v letech 1974–1984 prošla obnovou. Zachovala si modrou kopuli, bohatý lustr a barevné vitráže. Dnes slouží jako kulturní a výstavní prostor a připomíná dějiny židovského života ve městě."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová nad Váhem – stará obec a kostel sv. Stanislava",
+          "text": "Opatová nad Váhem byla samostatnou obcí s první písemnou zmínkou z roku 1238; původně patřila benediktinskému opatství na Skalce a později zdejší hospodářství spravovali jezuité. Součástí Trenčína je od roku 1985. Nejvýraznější historickou památkou místní části je barokní kostel sv. Stanislava, postavený v letech 1690–1701 a vysvěcený 1. června 1701 nitranským biskupem Ladislavem Maťašovským. Kostel má jednolodní dispozici, polygonální závěr a věž představenou před průčelí; areál obklopuje historická zeď. Hlavní oltář zdobí obraz sv. Stanislava od J. B. Klemense z roku 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "Kubranská kyselka – minerální pramen v historické Kubré",
+          "text": "V městské části Kubrá vyvěrá Kubranská kyselka, tradičně využívaný minerální pramen známý také jako Medokýš. Patří k místním přírodním zajímavostem a po generace byl cílem obyvatel i výletníků z Trenčína a okolí. Pramen je spojen s místními pověstmi a vzpomínkami na starou Kubru; město u něj v roce 2026 podpořilo vznik informační tabule, která přibližuje příběh vody a její místo v životě obce. Kubrá byla původně samostatnou obcí a dnes tvoří severovýchodní část Trenčína; v sousední Kubrici pokračuje krajina úzkým údolím potoka mezi zalesněnými svahy."
+        },
+        {
+          "id": "fact_008",
+          "title": "Románský kostel sv. Kosmy a Damiána v Trenčianských Biskupicích",
+          "text": "V Trenčianských Biskupicích stojí kostel sv. Kosmy a Damiána, jedna z nejstarších sakrálních staveb na území dnešního Trenčína. Podle architektonicko-historického výzkumu sloužil věřícím už od poloviny 13. století; odborníci jeho vznik kladou také do první třetiny 14. století, pravděpodobně na místě starší stavby. Původně románský jednolodní kostel získal později raně gotické prvky a jeho interiér zdobily středověké nástěnné malby. V minulosti zde existovala samostatná fara a působil zde arcikněz trenčianského arcidiakonátu. Kostel je národní kulturní památkou a připomíná dobu, kdy byly Biskupice samostatnou obcí."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Friedensplatz und historische Altstadt von Trenčín unterhalb der Burg",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Burg Trenčín – königliche Festung über der Waag",
+          "text": "Die Burg Trenčín erhebt sich auf einem steilen Felsen über der Stadt und bewachte jahrhundertelang Handelswege, die das Waagtal mit Mähren, Böhmen, Schlesien und Polen verbanden. Ihre Anfänge reichen ins 11. Jahrhundert zurück, als die Anlage aus einem Wohnturm und einer Rotunde bestand. Ende des 13. Jahrhunderts gelangte die Burg in den Besitz von Matúš Čák Trenčiansky, einem der mächtigsten Magnaten des Königreichs Ungarn. Spätere Herrscher und Adelsfamilien ergänzten Paläste und Befestigungen; heute gehören der Matúš-Turm, der Ludwigspalast, der Barbara-Palast und die Kanonenbastei zum Areal. Berühmt ist auch der 80 Meter tiefe Liebesbrunnen, der mit der Legende von Omar und Fatima verbunden ist."
+        },
+        {
+          "id": "fact_002",
+          "title": "Die römische Inschrift Laugaricio aus dem Jahr 179",
+          "text": "In den Felsen unterhalb der Burg Trenčín ist eine römische Inschrift aus dem Jahr 179 n. Chr. eingemeißelt, aus der Zeit der Markomannenkriege unter Kaiser Mark Aurel. Sie erinnert an den Sieg des römischen Heeres über die germanischen Quaden und an die Anwesenheit von 855 Soldaten der II. Legion im Ort Laugaricio. Der Text wurde auf Anordnung des Legaten Marcus Valerius Maximianus angebracht. Die Inschrift ist ein außergewöhnlich seltener Beleg für die römische Militärpräsenz nördlich der Donau und befindet sich noch an ihrem ursprünglichen Ort. Heute kann man sie hinter einer Glaswand im zweiten Stock des historischen Hotels Elizabeth am Anfang des Friedensplatzes betrachten."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín – mittelalterliche freie königliche Stadt",
+          "text": "Die Stadt wird in den Zoborer Urkunden von 1111 und 1113 als Zoll- und Marktsiedlung unterhalb der Burg erwähnt. Ihre strategische Lage an Handelswegen machte sie allmählich zu einem Verwaltungs- und Wirtschaftszentrum des mittleren Waagtals. Im Jahr 1412 erhob König Sigismund von Luxemburg Trenčín zur freien königlichen Stadt und verlieh ihr bedeutende Stadtrechte. Die Stadt verfügte über eine eigene Selbstverwaltung, Marktprivilegien und Befestigungen; Teile der Mauern und Stadttore sind bis heute erhalten. Die Altstadt ist ein städtisches Denkmalreservat, dessen Hauptachse der Friedensplatz unterhalb der Burg bildet."
+        },
+        {
+          "id": "fact_004",
+          "title": "Die Piaristenkirche des heiligen Franz Xaver und das Jesuitengymnasium",
+          "text": "Die Jesuiten kamen 1646 nach Trenčín und gründeten bald ein Knabenkonvikt und ein Gymnasium, das im Januar 1649 den Unterricht aufnahm. 1653 legten sie den Grundstein für Kirche und Kollegium; die frühbarocke Kirche des heiligen Franz Xaver wurde 1657 fertiggestellt und geweiht. Am Bau waren die italienischen Baumeister Pietro und Gothard Spazzov beteiligt. Nach der Aufhebung des Jesuitenordens übernahmen die Piaristen den Komplex, nach denen die Kirche bis heute benannt ist. Der Innenraum gehört zu den bedeutenden Barockräumen der Slowakei und ist für seine illusionistisch gemalte Kuppel und die Fresken von Christoph Tausch bekannt."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die Synagoge von Trenčín – byzantinisch-maurische Architektur der jüdischen Gemeinde",
+          "text": "Die jüdische Gemeinde von Trenčín ist bereits zu Beginn des 14. Jahrhunderts schriftlich belegt; im 17. und 18. Jahrhundert wuchs sie deutlich. Die heutige Synagoge wurde 1913 nach einem Entwurf des Berliner Architekten Richard Scheibner an der Stelle einer älteren hölzernen Synagoge von 1781 errichtet. Der Stahlbetonbau verbindet Jugendstil und Historismus mit byzantinisch-maurischen Einflüssen. Während des Zweiten Weltkriegs wurde die Synagoge entweiht und ihre Ausstattung zerstört; zwischen 1974 und 1984 wurde sie restauriert. Erhalten blieben die blaue Kuppel, ein großer Kronleuchter und farbige Glasfenster. Heute dient das Gebäude als Kultur- und Ausstellungsraum und erinnert an das jüdische Leben der Stadt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová an der Waag – ein altes Dorf und die St.-Stanislaus-Kirche",
+          "text": "Opatová an der Waag war eine eigenständige Gemeinde, die erstmals 1238 schriftlich erwähnt wird. Ursprünglich gehörte sie zur Benediktinerabtei auf Skalka; später verwalteten Jesuiten hier einen Wirtschaftshof. Seit 1985 ist Opatová Teil von Trenčín. Das bedeutendste historische Denkmal des Ortsteils ist die barocke St.-Stanislaus-Kirche, die 1690–1701 errichtet und am 1. Juni 1701 vom Bischof von Neutra, Ladislav Maťašovský, geweiht wurde. Die Kirche besitzt ein einschiffiges Langhaus, einen polygonalen Chorabschluss und einen vorgestellten Turm; das Areal ist von einer historischen Mauer umgeben. Der Hauptaltar zeigt ein Gemälde des heiligen Stanislaus von J. B. Klemens aus dem Jahr 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "Die Kubranská-Kyselka-Quelle – ein Mineralbrunnen im historischen Ortsteil Kubrá",
+          "text": "Im Stadtteil Kubrá entspringt die Kubranská Kyselka, eine traditionell genutzte Mineralquelle, die auch Medokýš genannt wird. Sie gehört zu den örtlichen Naturbesonderheiten und war über Generationen ein Ziel der Einwohner und Ausflügler aus Trenčín und Umgebung. Die Quelle ist mit lokalen Sagen und Erinnerungen an das alte Dorf Kubrá verbunden; 2026 unterstützte die Stadt dort eine Informationstafel über die Geschichte des Wassers und seine Bedeutung für die Gemeinde. Kubrá war ursprünglich ein eigenständiges Dorf und bildet heute den nordöstlichen Teil von Trenčín; im benachbarten Kubrica setzt sich die Landschaft in einem engen Bachtal zwischen bewaldeten Hängen fort."
+        },
+        {
+          "id": "fact_008",
+          "title": "Die romanische Kirche der heiligen Kosmas und Damian in Trenčianske Biskupice",
+          "text": "In Trenčianske Biskupice steht die Kirche der heiligen Kosmas und Damian, eines der ältesten Sakralgebäude auf dem Gebiet des heutigen Trenčín. Nach einer bauhistorischen Untersuchung diente sie bereits ab der Mitte des 13. Jahrhunderts den Gläubigen; Fachleute datieren ihre Entstehung auch in das erste Drittel des 14. Jahrhunderts, wahrscheinlich an der Stelle eines älteren Baus. Die ursprünglich romanische einschiffige Kirche erhielt später frühgotische Elemente; im Inneren befanden sich mittelalterliche Wandmalereien. Früher gab es hier eine eigenständige Pfarrei und den Erzpriester des Archidiakonats Trenčín. Die Kirche ist ein nationales Kulturdenkmal und erinnert an die Zeit, als Biskupice noch eine selbstständige Gemeinde war."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Mierové Square and the historic centre of Trenčín beneath the castle",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Trenčín Castle – a royal fortress above the Váh",
+          "text": "Trenčín Castle rises on a steep rock above the town and guarded trade routes linking the Váh region with Moravia, Bohemia, Silesia and Poland for centuries. Its origins date to the 11th century, when the complex consisted of a residential tower and a rotunda. At the end of the 13th century, the castle became the property of Matúš Čák Trenčiansky, one of the most powerful magnates in the Kingdom of Hungary. Later rulers and noble families added palaces and fortifications; the present complex includes Matthew's Tower, the Louis Palace, Barbara's Palace and the Cannon Bastion. One of its best-known features is the 80-metre-deep Well of Love, associated with the legend of Omar and Fatima."
+        },
+        {
+          "id": "fact_002",
+          "title": "The Roman inscription of Laugaricio from AD 179",
+          "text": "A Roman inscription dated to AD 179 is carved into the rock below Trenčín Castle, during the Marcomannic Wars under Emperor Marcus Aurelius. It commemorates a Roman victory over the Germanic Quadi and the presence of 855 soldiers of the Second Legion at a place called Laugaricio. The text was commissioned by the legion's legate, Marcus Valerius Maximianus. It is an exceptionally rare record of Roman military presence north of the Danube and remains in its original location. Today it can be viewed behind a glass wall on the second floor of the historic Hotel Elizabeth at the beginning of Mierové Square."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín – a medieval free royal town",
+          "text": "The Zobor charters of 1111 and 1113 mention Trenčín as a toll-collecting and market settlement below the castle. Its strategic position on trade routes gradually made it an administrative and economic centre of the Middle Váh region. In 1412, King Sigismund of Luxembourg elevated Trenčín to the status of a free royal town and granted it important municipal privileges. The town had its own administration, market rights and fortifications; sections of the walls and town gates have survived. The historic centre is a Town Monument Reserve, with Mierové Square forming its main axis beneath the castle."
+        },
+        {
+          "id": "fact_004",
+          "title": "The Piarist Church of St Francis Xavier and the Jesuit grammar school",
+          "text": "The Jesuits arrived in Trenčín in 1646 and soon established a boys' boarding school and a grammar school, which began teaching in January 1649. In 1653 they laid the foundation stone of a church and college; the early Baroque Church of St Francis Xavier was completed and consecrated in 1657. Italian builders Pietro and Gothard Spazzi took part in its construction. After the Jesuit order was suppressed, the Piarists took over the complex, giving the church the name by which it is still known. Its interior is among Slovakia's notable Baroque spaces, famed for an illusionistic painted dome and frescoes by Christoph Tausch."
+        },
+        {
+          "id": "fact_005",
+          "title": "The Trenčín Synagogue – Byzantine-Moorish architecture and Jewish heritage",
+          "text": "The Jewish community of Trenčín is documented from the early 14th century and grew substantially in the 17th and 18th centuries. The present synagogue was built in 1913 to a design by Berlin architect Richard Scheibner, on the site of an earlier wooden synagogue dating from 1781. The reinforced-concrete building combines Art Nouveau and historicist features with Byzantine and Moorish influences. During the Second World War it was desecrated and its furnishings destroyed; it was restored between 1974 and 1984. The blue dome, large chandelier and coloured stained-glass windows have survived. Today the building serves as a cultural and exhibition space and recalls the history of Jewish life in the town."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová by the Váh – an old village and the Church of St Stanislaus",
+          "text": "Opatová by the Váh was once an independent village, first mentioned in writing in 1238. It originally belonged to the Benedictine abbey at Skalka; later, the Jesuits managed an agricultural estate there. Opatová has been part of Trenčín since 1985. Its most important historic monument is the Baroque Church of St Stanislaus, built between 1690 and 1701 and consecrated on 1 June 1701 by Ladislav Maťašovský, Bishop of Nitra. The church has a single nave, a polygonal chancel and a tower projecting from the façade; the grounds are enclosed by a historic wall. The main altar features a painting of St Stanislaus by J. B. Klemens from 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "The Kubranská Kyselka spring – a mineral source in the historic district of Kubrá",
+          "text": "The Kubranská Kyselka, a traditionally used mineral spring also known as Medokýš, rises in the Kubrá district of Trenčín. It is a local natural feature and has been a destination for residents and visitors from the town and surrounding area for generations. The spring is associated with local legends and memories of old Kubrá; in 2026 the city supported an information board there explaining the history of the water and its place in community life. Kubrá was once an independent village and is now part of north-eastern Trenčín; nearby Kubrica continues the landscape into a narrow stream valley between wooded slopes."
+        },
+        {
+          "id": "fact_008",
+          "title": "The Romanesque Church of Saints Cosmas and Damian in Trenčianske Biskupice",
+          "text": "The Church of Saints Cosmas and Damian stands in Trenčianske Biskupice and is one of the oldest religious buildings in the present-day city of Trenčín. An architectural-history study confirms that it served worshippers from the mid-13th century; specialists also date its origin to the first third of the 14th century, probably on the site of an earlier building. The originally Romanesque single-nave church later acquired Early Gothic features, and its interior once contained medieval wall paintings. The settlement formerly had its own parish and the archpriest of the Trenčín archdeaconry. The church is a national cultural monument and recalls the time when Biskupice was an independent village."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Plaza Mierové námestie y centro histórico de Trenčín bajo el castillo",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Castillo de Trenčín, fortaleza real sobre el Váh",
+          "text": "El castillo de Trenčín se alza sobre un escarpado peñasco y durante siglos protegió las rutas comerciales que unían la región del Váh con Moravia, Bohemia, Silesia y Polonia. Sus orígenes se remontan al siglo XI, cuando el conjunto constaba de una torre residencial y una rotonda. A finales del siglo XIII pasó a manos de Matúš Čák Trenčiansky, uno de los magnates más poderosos del Reino de Hungría. Los gobernantes y familias nobles posteriores añadieron palacios y fortificaciones; hoy el recinto incluye la Torre de Matúš, el Palacio de Luis, el Palacio de Bárbara y el Bastión de los Cañones. Uno de sus lugares más conocidos es el Pozo del Amor, de 80 metros de profundidad, vinculado a la leyenda de Omar y Fátima."
+        },
+        {
+          "id": "fact_002",
+          "title": "La inscripción romana de Laugaricio del año 179",
+          "text": "En la roca bajo el castillo de Trenčín se conserva una inscripción romana fechada en el año 179 d. C., durante las guerras marcomanas del emperador Marco Aurelio. Conmemora la victoria romana sobre los cuados germánicos y la presencia de 855 soldados de la Segunda Legión en el lugar llamado Laugaricio. El texto fue encargado por el legado de la legión, Marco Valerio Maximiano. Es un testimonio excepcionalmente raro de la presencia militar romana al norte del Danubio y permanece en su emplazamiento original. Hoy puede observarse tras un cristal en la segunda planta del histórico Hotel Elizabeth, al comienzo de la plaza Mierové námestie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín, ciudad real libre medieval",
+          "text": "Las cartas de Zobor de 1111 y 1113 mencionan Trenčín como un asentamiento de mercado y cobro de peajes bajo el castillo. Su posición estratégica en las rutas comerciales lo convirtió gradualmente en un centro administrativo y económico de la región central del Váh. En 1412, el rey Segismundo de Luxemburgo elevó Trenčín a ciudad real libre y le concedió importantes privilegios municipales. La ciudad tenía administración propia, derechos de mercado y fortificaciones; todavía se conservan tramos de murallas y puertas. El centro histórico es una zona monumental protegida, cuyo eje principal es la plaza Mierové námestie, bajo el castillo."
+        },
+        {
+          "id": "fact_004",
+          "title": "Iglesia escolapia de San Francisco Javier y antiguo gimnasio jesuita",
+          "text": "Los jesuitas llegaron a Trenčín en 1646 y pronto fundaron un internado para muchachos y un gimnasio que comenzó las clases en enero de 1649. En 1653 colocaron la primera piedra de una iglesia y un colegio; la iglesia barroca temprana de San Francisco Javier se terminó y consagró en 1657. En su construcción participaron los maestros italianos Pietro y Gothard Spazzi. Tras la supresión de la orden jesuita, los escolapios asumieron el complejo, de ahí el nombre actual de la iglesia. Su interior es uno de los espacios barrocos destacados de Eslovaquia y es conocido por su cúpula pintada ilusionista y los frescos de Christoph Tausch."
+        },
+        {
+          "id": "fact_005",
+          "title": "La sinagoga de Trenčín: arquitectura bizantino-morisca y patrimonio judío",
+          "text": "La comunidad judía de Trenčín está documentada desde comienzos del siglo XIV y creció notablemente en los siglos XVII y XVIII. La sinagoga actual se construyó en 1913 según el proyecto del arquitecto berlinés Richard Scheibner, en el lugar de una sinagoga de madera anterior de 1781. El edificio de hormigón armado combina elementos modernistas e historicistas con influencias bizantinas y moriscas. Durante la Segunda Guerra Mundial fue profanado y su mobiliario destruido; fue restaurado entre 1974 y 1984. Se conservan la cúpula azul, una gran lámpara y las vidrieras de colores. Hoy funciona como espacio cultural y expositivo y recuerda la historia de la vida judía en la ciudad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová junto al Váh: antiguo pueblo e iglesia de San Estanislao",
+          "text": "Opatová junto al Váh fue un municipio independiente, mencionado por primera vez por escrito en 1238. Originalmente pertenecía a la abadía benedictina de Skalka; más tarde los jesuitas administraron allí una explotación agrícola. Desde 1985 Opatová forma parte de Trenčín. Su monumento histórico más importante es la iglesia barroca de San Estanislao, construida entre 1690 y 1701 y consagrada el 1 de junio de 1701 por Ladislav Maťašovský, obispo de Nitra. Tiene una sola nave, un presbiterio poligonal y una torre adelantada respecto a la fachada; el recinto está rodeado por un muro histórico. El altar mayor conserva una pintura de San Estanislao de J. B. Klemens de 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "La fuente mineral Kubranská kyselka en el antiguo barrio de Kubrá",
+          "text": "En el barrio de Kubrá brota la Kubranská kyselka, una fuente mineral utilizada tradicionalmente y conocida también como Medokýš. Es una singularidad natural local y durante generaciones ha atraído a vecinos y visitantes de Trenčín y sus alrededores. La fuente está ligada a leyendas y recuerdos del antiguo pueblo de Kubrá; en 2026 el ayuntamiento apoyó la instalación de un panel informativo sobre la historia del agua y su lugar en la vida de la comunidad. Kubrá fue antiguamente un municipio independiente y hoy forma parte del noreste de Trenčín; la cercana Kubrica prolonga el paisaje por un estrecho valle entre laderas boscosas."
+        },
+        {
+          "id": "fact_008",
+          "title": "Iglesia románica de San Cosme y San Damián en Trenčianske Biskupice",
+          "text": "En Trenčianske Biskupice se encuentra la iglesia de San Cosme y San Damián, uno de los edificios religiosos más antiguos del actual Trenčín. Un estudio histórico-arquitectónico confirma que servía a los fieles desde mediados del siglo XIII; los especialistas también sitúan su origen en el primer tercio del siglo XIV, probablemente sobre una construcción anterior. La iglesia original, románica y de una sola nave, adquirió posteriormente elementos del gótico temprano y su interior conservaba pinturas murales medievales. Antiguamente la localidad tenía parroquia propia y allí residía el arcipreste del arcedianato de Trenčín. La iglesia es monumento cultural nacional y recuerda la época en que Biskupice era un pueblo independiente."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Place Mierové námestie et centre historique de Trenčín sous le château",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Le château de Trenčín, forteresse royale au-dessus du Váh",
+          "text": "Le château de Trenčín s’élève sur un rocher abrupt au-dessus de la ville et protégeait depuis des siècles les routes commerciales reliant la région du Váh à la Moravie, à la Bohême, à la Silésie et à la Pologne. Ses origines remontent au XIe siècle, lorsque l’ensemble comprenait une tour résidentielle et une rotonde. À la fin du XIIIe siècle, il passa aux mains de Matúš Čák Trenčiansky, l’un des magnats les plus puissants du royaume de Hongrie. Les souverains et familles nobles qui suivirent ajoutèrent palais et fortifications ; le site actuel comprend la tour de Matúš, le palais Louis, le palais Barbara et le bastion des canons. Le puits de l’Amour, profond de 80 mètres, est célèbre et lié à la légende d’Omar et de Fatima."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’inscription romaine de Laugaricio datant de 179",
+          "text": "Une inscription romaine datée de l’an 179 apr. J.-C. est gravée dans le rocher sous le château de Trenčín, à l’époque des guerres marcomaniques de l’empereur Marc Aurèle. Elle commémore la victoire de l’armée romaine sur les Quades germaniques et la présence de 855 soldats de la IIe légion dans le lieu appelé Laugaricio. Le texte fut réalisé sur ordre du légat Marcus Valerius Maximianus. C’est un témoignage exceptionnellement rare de la présence militaire romaine au nord du Danube, conservé à son emplacement d’origine. On peut aujourd’hui l’observer derrière une vitre au deuxième étage de l’hôtel historique Elizabeth, au début de la place Mierové námestie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín, ville royale libre au Moyen Âge",
+          "text": "Les chartes de Zobor de 1111 et 1113 mentionnent Trenčín comme un bourg de marché et de péage situé sous le château. Sa position stratégique sur les routes commerciales en fit progressivement un centre administratif et économique du moyen Váh. En 1412, le roi Sigismond de Luxembourg éleva Trenčín au rang de ville royale libre et lui accorda d’importants privilèges municipaux. La ville disposait de sa propre administration, de droits de marché et de fortifications ; des portions des remparts et des portes sont encore conservées. Le centre historique est une zone patrimoniale protégée, dont l’axe principal est la place Mierové námestie sous le château."
+        },
+        {
+          "id": "fact_004",
+          "title": "L’église piariste Saint-François-Xavier et le collège jésuite",
+          "text": "Les jésuites arrivèrent à Trenčín en 1646 et fondèrent bientôt un internat pour garçons ainsi qu’un gymnase qui ouvrit en janvier 1649. En 1653, ils posèrent la première pierre d’une église et d’un collège ; l’église baroque précoce Saint-François-Xavier fut achevée et consacrée en 1657. Les bâtisseurs italiens Pietro et Gothard Spazzi participèrent aux travaux. Après la suppression de l’ordre jésuite, les piaristes reprirent le complexe, donnant à l’église son nom actuel. Son intérieur compte parmi les grands espaces baroques de Slovaquie et est connu pour sa coupole peinte en trompe-l’œil et les fresques de Christoph Tausch."
+        },
+        {
+          "id": "fact_005",
+          "title": "La synagogue de Trenčín – architecture byzantino-mauresque et patrimoine juif",
+          "text": "La communauté juive de Trenčín est attestée par des documents dès le début du XIVe siècle et s’est considérablement développée aux XVIIe et XVIIIe siècles. La synagogue actuelle fut construite en 1913 selon le projet de l’architecte berlinois Richard Scheibner, à l’emplacement d’une ancienne synagogue en bois datant de 1781. L’édifice en béton armé associe des éléments Art nouveau et historicistes à des influences byzantines et mauresques. Profanée et dépouillée pendant la Seconde Guerre mondiale, elle fut restaurée entre 1974 et 1984. Sa coupole bleue, son grand lustre et ses vitraux colorés ont été préservés. Le bâtiment sert aujourd’hui d’espace culturel et d’exposition et rappelle l’histoire de la vie juive dans la ville."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová au bord du Váh – ancien village et église Saint-Stanislas",
+          "text": "Opatová au bord du Váh était autrefois une commune indépendante, mentionnée pour la première fois par écrit en 1238. Elle appartenait à l’origine à l’abbaye bénédictine de Skalka ; plus tard, les jésuites y administrèrent un domaine agricole. Depuis 1985, Opatová fait partie de Trenčín. Son principal monument historique est l’église baroque Saint-Stanislas, construite entre 1690 et 1701 et consacrée le 1er juin 1701 par Ladislav Maťašovský, évêque de Nitra. Elle possède une nef unique, un chevet polygonal et une tour en avant de la façade ; l’ensemble est entouré d’un mur historique. Le maître-autel présente une peinture de saint Stanislas réalisée par J. B. Klemens en 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "La source minérale Kubranská kyselka dans le quartier historique de Kubrá",
+          "text": "Dans le quartier de Kubrá jaillit la Kubranská kyselka, une source minérale traditionnellement utilisée et également connue sous le nom de Medokýš. C’est une curiosité naturelle locale qui attire depuis des générations les habitants et les visiteurs de Trenčín et de ses environs. La source est liée aux légendes et aux souvenirs de l’ancien village de Kubrá ; en 2026, la ville a soutenu l’installation d’un panneau d’information racontant l’histoire de l’eau et sa place dans la vie de la communauté. Kubrá était autrefois une commune indépendante et forme aujourd’hui la partie nord-est de Trenčín ; la localité voisine de Kubrica prolonge le paysage dans une vallée étroite entre des versants boisés."
+        },
+        {
+          "id": "fact_008",
+          "title": "L’église romane Saints-Côme-et-Damien de Trenčianske Biskupice",
+          "text": "À Trenčianske Biskupice se trouve l’église Saints-Côme-et-Damien, l’un des édifices religieux les plus anciens du Trenčín actuel. Une étude architecturale et historique confirme qu’elle accueillait déjà les fidèles au milieu du XIIIe siècle ; les spécialistes situent aussi sa création dans le premier tiers du XIVe siècle, probablement à l’emplacement d’un édifice plus ancien. L’église romane d’origine, à nef unique, reçut ensuite des éléments gothiques précoces et son intérieur conservait des peintures murales médiévales. La localité possédait autrefois sa propre paroisse et accueillait l’archiprêtre de l’archidiaconé de Trenčín. L’église est classée monument culturel national et rappelle l’époque où Biskupice était un village indépendant."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Piazza Mierové námestie e centro storico di Trenčín sotto il castello",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Il castello di Trenčín, fortezza reale sopra il Váh",
+          "text": "Il castello di Trenčín sorge su una ripida rupe sopra la città e per secoli ha sorvegliato le vie commerciali che collegavano la regione del Váh con Moravia, Boemia, Slesia e Polonia. Le sue origini risalgono all’XI secolo, quando il complesso era costituito da una torre residenziale e da una rotonda. Alla fine del XIII secolo passò a Matúš Čák Trenčiansky, uno dei magnati più potenti del Regno d’Ungheria. I sovrani e le famiglie nobili successive aggiunsero palazzi e fortificazioni; oggi il complesso comprende la Torre di Matúš, il Palazzo di Luigi, il Palazzo di Barbara e il Bastione dei Cannoni. Uno dei luoghi più noti è il Pozzo dell’Amore, profondo 80 metri e legato alla leggenda di Omar e Fatima."
+        },
+        {
+          "id": "fact_002",
+          "title": "L’iscrizione romana di Laugaricio del 179 d.C.",
+          "text": "Sulla roccia sotto il castello di Trenčín è incisa un’iscrizione romana datata al 179 d.C., durante le guerre marcomanniche dell’imperatore Marco Aurelio. Ricorda la vittoria dell’esercito romano sui Quadi germanici e la presenza di 855 soldati della II Legione nel luogo chiamato Laugaricio. Il testo fu realizzato su ordine del legato Marcus Valerius Maximianus. È una testimonianza eccezionalmente rara della presenza militare romana a nord del Danubio e si trova ancora nella sua posizione originaria. Oggi è visibile dietro una parete di vetro al secondo piano dello storico Hotel Elizabeth, all’inizio di piazza Mierové námestie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín, città reale libera medievale",
+          "text": "Le carte di Zobor del 1111 e del 1113 menzionano Trenčín come insediamento commerciale e di riscossione dei pedaggi sotto il castello. La sua posizione strategica sulle vie commerciali lo trasformò gradualmente in un centro amministrativo ed economico del medio Váh. Nel 1412 il re Sigismondo di Lussemburgo elevò Trenčín al rango di città reale libera e le concesse importanti privilegi municipali. La città disponeva di un’amministrazione propria, diritti di mercato e fortificazioni; tratti delle mura e delle porte cittadine sono ancora conservati. Il centro storico è una zona monumentale protetta, il cui asse principale è piazza Mierové námestie sotto il castello."
+        },
+        {
+          "id": "fact_004",
+          "title": "La chiesa scolopia di San Francesco Saverio e il ginnasio gesuita",
+          "text": "I gesuiti arrivarono a Trenčín nel 1646 e fondarono presto un convitto maschile e un ginnasio che iniziò le lezioni nel gennaio 1649. Nel 1653 posero la prima pietra di una chiesa e di un collegio; la chiesa del primo barocco di San Francesco Saverio fu completata e consacrata nel 1657. Alla costruzione parteciparono i maestri italiani Pietro e Gothard Spazzi. Dopo la soppressione dell’ordine gesuita, il complesso passò agli scolopi, da cui deriva il nome attuale della chiesa. L’interno è uno dei notevoli spazi barocchi della Slovacchia, famoso per la cupola dipinta illusionisticamente e gli affreschi di Christoph Tausch."
+        },
+        {
+          "id": "fact_005",
+          "title": "La sinagoga di Trenčín – architettura bizantino-moresca e patrimonio ebraico",
+          "text": "La comunità ebraica di Trenčín è documentata già all’inizio del XIV secolo e crebbe notevolmente nei secoli XVII e XVIII. L’attuale sinagoga fu costruita nel 1913 su progetto dell’architetto berlinese Richard Scheibner, sul sito di una precedente sinagoga in legno del 1781. L’edificio in cemento armato unisce elementi Art Nouveau e storicisti a influenze bizantine e moresche. Durante la Seconda guerra mondiale fu profanata e gli arredi distrutti; venne restaurata tra il 1974 e il 1984. Sono rimasti la cupola blu, un grande lampadario e le vetrate colorate. Oggi l’edificio ospita attività culturali ed esposizioni e ricorda la storia della vita ebraica in città."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová sul Váh – antico villaggio e chiesa di San Stanislao",
+          "text": "Opatová sul Váh era un comune autonomo, menzionato per la prima volta per iscritto nel 1238. In origine apparteneva all’abbazia benedettina di Skalka; in seguito i gesuiti amministrarono qui una tenuta agricola. Dal 1985 Opatová fa parte di Trenčín. Il suo principale monumento storico è la chiesa barocca di San Stanislao, costruita tra il 1690 e il 1701 e consacrata il 1º giugno 1701 dal vescovo di Nitra Ladislav Maťašovský. La chiesa ha una navata unica, un presbiterio poligonale e una torre avanzata rispetto alla facciata; il complesso è circondato da un muro storico. L’altare maggiore presenta un dipinto di San Stanislao di J. B. Klemens del 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "La sorgente minerale Kubranská kyselka nel quartiere storico di Kubrá",
+          "text": "Nel quartiere di Kubrá sgorga la Kubranská kyselka, una sorgente minerale tradizionalmente utilizzata e conosciuta anche come Medokýš. È una particolarità naturale locale e da generazioni attira residenti e visitatori di Trenčín e dintorni. La sorgente è legata a leggende e ricordi dell’antico villaggio di Kubrá; nel 2026 la città ha sostenuto la realizzazione di un pannello informativo che racconta la storia dell’acqua e il suo ruolo nella vita della comunità. Kubrá era un tempo un comune autonomo e oggi costituisce la parte nord-orientale di Trenčín; nella vicina Kubrica il paesaggio prosegue in una stretta valle del torrente tra pendii boscosi."
+        },
+        {
+          "id": "fact_008",
+          "title": "La chiesa romanica dei Santi Cosma e Damiano a Trenčianske Biskupice",
+          "text": "A Trenčianske Biskupice sorge la chiesa dei Santi Cosma e Damiano, uno degli edifici religiosi più antichi dell’attuale Trenčín. Uno studio storico-architettonico conferma che era già al servizio dei fedeli dalla metà del XIII secolo; gli specialisti collocano la sua origine anche nel primo terzo del XIV secolo, probabilmente sul sito di un edificio precedente. La chiesa romanica originaria a navata unica acquisì in seguito elementi gotici precoci e l’interno conservava pitture murali medievali. In passato la località aveva una parrocchia autonoma e ospitava l’arciprete dell’arcidiaconato di Trenčín. La chiesa è monumento culturale nazionale e ricorda il periodo in cui Biskupice era un villaggio indipendente."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Mierové námestie en het historische centrum van Trenčín onder het kasteel",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Kasteel Trenčín – een koninklijke vesting boven de Váh",
+          "text": "Kasteel Trenčín staat op een steile rots boven de stad en bewaakte eeuwenlang handelsroutes die het Váhgebied verbonden met Moravië, Bohemen, Silezië en Polen. De oorsprong gaat terug tot de 11e eeuw, toen het complex bestond uit een woontoren en een rotonde. Aan het einde van de 13e eeuw kwam het kasteel in handen van Matúš Čák Trenčiansky, een van de machtigste magnaten van het Koninkrijk Hongarije. Latere vorsten en adellijke families voegden paleizen en verdedigingswerken toe; het huidige complex omvat de Matúš-toren, het Lodewijkspaleis, het Barbarapaleis en het Kanonnenbastion. Een bekende plek is de 80 meter diepe Liefdesbron, verbonden met de legende van Omar en Fatima."
+        },
+        {
+          "id": "fact_002",
+          "title": "De Romeinse inscriptie van Laugaricio uit 179 na Christus",
+          "text": "In de rots onder kasteel Trenčín is een Romeinse inscriptie uit 179 na Christus uitgehouwen, uit de tijd van de Marcomannenoorlogen onder keizer Marcus Aurelius. De tekst herdenkt de Romeinse overwinning op de Germaanse Quaden en de aanwezigheid van 855 soldaten van het Tweede Legioen op de plaats die Laugaricio werd genoemd. De inscriptie werd aangebracht in opdracht van de legioenlegaat Marcus Valerius Maximianus. Het is een uitzonderlijk zeldzaam bewijs van de Romeinse militaire aanwezigheid ten noorden van de Donau en bevindt zich nog op de oorspronkelijke plek. Tegenwoordig is zij achter glas te bekijken op de tweede verdieping van het historische Hotel Elizabeth aan het begin van Mierové námestie."
+        },
+        {
+          "id": "fact_003",
+          "title": "Trenčín – een middeleeuwse vrije koninklijke stad",
+          "text": "De Zobor-oorkonden uit 1111 en 1113 vermelden Trenčín als een markt- en tolplaats onder het kasteel. Door de strategische ligging aan handelsroutes ontwikkelde het zich geleidelijk tot een bestuurlijk en economisch centrum van het middelste Váhgebied. In 1412 verhief koning Sigismund van Luxemburg Trenčín tot vrije koninklijke stad en verleende hij belangrijke stadsprivileges. De stad had een eigen bestuur, marktrechten en verdedigingswerken; delen van de stadsmuren en poorten zijn bewaard gebleven. De historische kern is een beschermd stadsmonumentengebied, met Mierové námestie als belangrijkste as onder het kasteel."
+        },
+        {
+          "id": "fact_004",
+          "title": "De piaristenkerk van Sint-Franciscus Xaverius en het jezuïetengymnasium",
+          "text": "De jezuïeten kwamen in 1646 naar Trenčín en stichtten er al snel een jongensinternaat en een gymnasium, dat in januari 1649 met de lessen begon. In 1653 legden zij de eerste steen van een kerk en college; de vroegbarokke Sint-Franciscus-Xaveriuskerk werd in 1657 voltooid en ingewijd. De Italiaanse bouwmeesters Pietro en Gothard Spazzi werkten mee aan de bouw. Nadat de jezuïetenorde was opgeheven, namen de piaristen het complex over; aan hen dankt de kerk haar huidige naam. Het interieur behoort tot de opvallende barokke ruimtes van Slowakije en is bekend om de illusionistisch beschilderde koepel en fresco's van Christoph Tausch."
+        },
+        {
+          "id": "fact_005",
+          "title": "De synagoge van Trenčín – Byzantijns-Moorse architectuur en Joods erfgoed",
+          "text": "De Joodse gemeenschap van Trenčín wordt al aan het begin van de 14e eeuw in documenten genoemd en groeide sterk in de 17e en 18e eeuw. De huidige synagoge werd in 1913 gebouwd naar een ontwerp van de Berlijnse architect Richard Scheibner, op de plek van een oudere houten synagoge uit 1781. Het gebouw van gewapend beton combineert art-nouveau- en historiserende elementen met Byzantijnse en Moorse invloeden. Tijdens de Tweede Wereldoorlog werd het ontheiligd en werd de inrichting vernield; tussen 1974 en 1984 werd het gerestaureerd. De blauwe koepel, grote kroonluchter en gekleurde glasramen zijn bewaard gebleven. Tegenwoordig dient het gebouw als culturele en tentoonstellingsruimte en herinnert het aan het Joodse leven in de stad."
+        },
+        {
+          "id": "fact_006",
+          "title": "Opatová aan de Váh – een oud dorp en de Sint-Stanislauskerk",
+          "text": "Opatová aan de Váh was vroeger een zelfstandige gemeente en wordt voor het eerst schriftelijk vermeld in 1238. Oorspronkelijk behoorde zij tot de benedictijnerabdij van Skalka; later beheerden jezuïeten er een landbouwbedrijf. Sinds 1985 maakt Opatová deel uit van Trenčín. Het belangrijkste historische monument is de barokke Sint-Stanislauskerk, gebouwd tussen 1690 en 1701 en ingewijd op 1 juni 1701 door Ladislav Maťašovský, bisschop van Nitra. De kerk heeft één beuk, een veelhoekig koor en een toren die vóór de gevel staat; het terrein is omgeven door een historische muur. Op het hoofdaltaar staat een schilderij van Sint-Stanislaus door J. B. Klemens uit 1880."
+        },
+        {
+          "id": "fact_007",
+          "title": "De Kubranská Kyselka – een mineraalbron in het historische stadsdeel Kubrá",
+          "text": "In het stadsdeel Kubrá ontspringt de Kubranská Kyselka, een traditioneel gebruikte mineraalbron die ook Medokýš wordt genoemd. Het is een plaatselijk natuurverschijnsel dat al generaties lang inwoners en bezoekers uit Trenčín en omgeving aantrekt. De bron is verbonden met lokale sagen en herinneringen aan het oude dorp Kubrá; in 2026 ondersteunde de stad de plaatsing van een informatiebord over de geschiedenis van het water en zijn rol in het gemeenschapsleven. Kubrá was vroeger een zelfstandige gemeente en vormt nu het noordoostelijke deel van Trenčín; in het naburige Kubrica loopt het landschap verder in een smalle beekvallei tussen beboste hellingen."
+        },
+        {
+          "id": "fact_008",
+          "title": "De romaanse kerk van de heiligen Cosmas en Damianus in Trenčianske Biskupice",
+          "text": "In Trenčianske Biskupice staat de kerk van de heiligen Cosmas en Damianus, een van de oudste religieuze gebouwen in het huidige Trenčín. Een architectuurhistorisch onderzoek bevestigt dat de kerk vanaf het midden van de 13e eeuw voor gelovigen werd gebruikt; deskundigen dateren de oorsprong ook in het eerste derde deel van de 14e eeuw, waarschijnlijk op de plaats van een ouder gebouw. De oorspronkelijke romaanse eenbeukige kerk kreeg later vroeggotische elementen en het interieur bevatte middeleeuwse muurschilderingen. De plaats had vroeger een eigen parochie en was de zetel van de aartspriester van het aartsdiaconaat Trenčín. De kerk is een nationaal cultuurmonument en herinnert aan de tijd dat Biskupice nog een zelfstandig dorp was."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
