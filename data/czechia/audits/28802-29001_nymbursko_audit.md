@@ -131,3 +131,32 @@ U každého zbývajícího faktu je nutné dohledat konkrétní veřejný orient
 **Dávka 1 dokončena: 28802 / Nymburk.** Rozšířeny fakty `fact_001`, `fact_003`, `fact_004`, `fact_007`. Nové historické detaily jsou podloženy městskou strategií rozvoje, Památkovým katalogem NPÚ a Státním archeologickým seznamem NPÚ; u Všechlap byl využit územní plán obce a RISY. U Turecké věže byla sjednocena datace na rok 1599 podle NPÚ (nikoli dříve uváděné 1597). Přidán zdroj NPÚ do seznamu zdrojů faktů 003 a 004. Souřadnice zůstávají `null` a čekají na samostatný geografický audit.
 
 **Konečný výsledek tohoto běhu: REVIEW REQUIRED.** Auditní rozsah je přesně vymezen a první opravy jsou zapsány a ověřeny; zbývající obsahové, geografické a sémantické kontroly nejsou uzavřeny.
+
+
+---
+
+## Aktuální addendum — stav po pokračování auditu 27. 11. 2026
+
+Tato část **nahrazuje průběžné počty a otevřené položky uvedené výše**, které odpovídají pouze první fázi auditu. Podrobný pracovní deník je v `28802-29001_progress_20261127.md`.
+
+### Aktuální inventář a obsah
+- 31/31 PSČ; 255 faktů (původně 253, doplněna dvě nová fakta v 28905: tvrziště Na Hradě a zaniklé mohylové pohřebiště Mírkoveček).
+- Všech 22 původně krátkých českých master textů bylo rozšířeno; nyní 0 textů pod 350 znaků.
+- 32 geografických poloh doplněno od prvního inventáře (9 v první fázi, 7 v Nymburku, 16 v dalších lokalizačních dávkách).
+- Aktuálně 7 faktů s `location=null`: 28905/fact_008, 28907/fact_006, 28914/fact_004, 28923/fact_004, 28926/fact_007, 28935/fact_002 a 28941/fact_004. U těchto položek nebyl bezpečně určen jediný bod nebo je poloha historicky sporná/plošná; souřadnice nebyly domýšleny.
+
+### Aktuální jazykový stav
+- 255/255 unikátních faktů v každém jazyce `cs/de/en/es/fr/it/nl`.
+- 0 rozdílů `facts.title/text` proti `translations.cs`.
+- 45 faktů má překlady nově vytvořené, přepracované nebo individuálně sémanticky zkontrolované; zbývá 210 faktů × 6 jazyků = **1 260 cizojazyčných textů** k individuální sémantické revizi.
+- V rámci revize byly opraveny významové nedostatky: terminologie Božehrobců, chybějící historické a památkové souvislosti, opakování v překladech kostela sv. Markéty, název Křižovníků s červenou hvězdou a další vypuštěné věty.
+
+### Aktuální správní a strukturální stav
+- 31/31 shoda `city = municipality = content.city`; všechny záznamy mají `state = Středočeský kraj`.
+- Poštovní sídla odpovídají oficiálnímu seznamu provozoven; u 28802 byla pobočka Nymburk 2 uzavřena v roce 2023, současná Nymburk 1 je ve stejném městě. U 28913 nebyl nalezen aktuální detail pobočky, ale oficiální seznam uvádí Zvěřínek.
+- Strukturální read-only kontrola podle aktuálního `schema.json`: 0 chybějících povinných polí, 0 nepovolených kategorií/priorit/map kategorií, 0 prázdných zdrojů, 0 duplicitních ID faktů, 0 duplicitních ID překladů, 0 neplatných lokalizačních objektů.
+- Přesná duplicita titulů mezi fakty nebyla nalezena.
+- `sequence.json` a rozsah nebyly změněny; data_version/status nebyly měněny.
+
+### Konečný stav tohoto pokračování
+**REVIEW REQUIRED.** Obsahové a strukturální kontroly jsou výrazně pokročilejší, ale audit nelze označit jako PASS, dokud nebude dokončena individuální sémantická revize 1 260 překladů a uzavřeno nebo výslovně odůvodněno sedm zbývajících nulových poloh. V5, publikace, záloha, Neon import ani read-only lock nebyly spuštěny.
