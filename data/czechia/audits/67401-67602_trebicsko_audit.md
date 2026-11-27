@@ -3,8 +3,8 @@
 **Kanonické ID:** CZ-TREBICSKO-67401-67602  
 **Rozsah zadání:** 674xx–677xx  
 **Přesný inventář:** 46 existujících PSČ: 67401; 67501–67508 (dle sequence); 67521–67529 (dle sequence); 67531–67534; 67541–67545; 67550–67557; 67559–67560; 67571; 67573–67579; 67602.  
-**Stav:** **AUDIT CONTENT PASS / COMPLETE — NOT PUBLISHED V5.** Sémantická, překladová a strukturální kontrola dokončena; publikace a záloha nejsou součástí tohoto běhu.  
-**Pravidla:** `data/czechia/prompt_audit.md` V2.1. Publikace, záloha, Neon porovnání a read-only lock jsou mimo tento běh; nespouštět bez samostatného výslovného pokynu.
+**Stav:** **AUDIT CONTENT PASS / V5 PUBLISHED / BACKUP VERIFIED — NOT READ-ONLY LOCKED.** Obsahový audit dokončen; všech 46 záznamů převedeno na `data_version=5`, `status=published`; Dropbox snapshot ověřen 3/3 soubory. Neon import a read-only lock nebyly součástí tohoto kroku.
+**Pravidla:** `data/czechia/prompt_audit.md` V2.1. Publikace a záloha dokončeny 2026-11-27; Neon import a read-only lock zůstávají samostatnými kroky.
 
 ## 1. Inventář a autority
 
@@ -12,7 +12,7 @@
 - `groups`: 46/46 stejných PSČ v odpovídající skupině 67xxx.
 - `reference/ruian_postcodes.csv`: 46/46 odpovídajících řádků; CSV je jediný sdílený RÚIAN inventář.
 - Manifest RÚIAN: feed aktualizován 2026-11-01, stažen 2026-11-13; 2 677 unikátních PSČ v celém inventáři.
-- Supabase `public.postal_codes`: 46/46 přesných českých řádků nalezeno; ID 10481–10526; 46/46 `status=validated`; 12 záznamů má `data_version` vyšší než 1. Žádný řádek nebyl publikován ani změněn ve statusu/verzi.
+- Supabase `public.postal_codes`: 46/46 přesných českých řádků nalezeno; ID 10481–10526; po dokončení auditu 46/46 `data_version=5`, `status=published` (read-back PASS). Původní verze byly v rozsahu 1–3.
 - V `sequence.json`, `groups` ani RÚIAN CSV není v tomto rozsahu žádné PSČ 677xx. Neexistující PSČ nevytvářet; rozsah ani sekvenci neměnit.
 - Celkem 290 faktů ve 46 záznamech.
 
@@ -51,7 +51,7 @@ Hlavní regionální témata jsou převážně pokryta:
 - Původně 59 faktů mělo `location=null` nebo chybějící pole location; všech 59 poloh je nyní doplněno a read-back ověřeno, aktuálně 0 null poloh.
 - 4 neplatné hodnoty `map_category` byly nalezeny a opraveny.
 - 8 rozdílů `translations.cs` proti českému masteru bylo nalezeno a opraveno.
-- Před publikací nebyly nalezeny mapové body pro 230 faktů s neprázdnou polohou; odpovídá to stavu validated před publikací. Žádné mapové body nebyly ručně vytvořeny ani změněny.
+- Před publikací nebyly pro tento rozsah nalezeny odpovídající řádky v `explorer_map_points`. V rámci V5 publikace byly mapové body synchronizovány přímo z ověřených `content.facts[].location`: 290/290; kontrola po zápisu potvrdila 0 chybějících a 0 nadbytečných bodů.
 - Samostatný AJV ani jiný validační běh nespouštět; prompt_audit V2.1 jej nevyžaduje.
 
 ### Opravy již provedené a read-back ověřené
@@ -159,7 +159,7 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 - Správní údaje a sídla obslužných pošt: v dokončeném průchodu nebyl zjištěn konkrétní rozpor, který by podle Content Standardu vyžadoval další cílené ověření; plošná nová rešerše nebyla potřebná.
 - 31/31 krátkých master textů opraveno a read-back ověřeno; geografická část 59/59 původních null poloh je uzavřena; obě historická témata 1468 jsou zapracována a read-back ověřena.
 - Po každém zápisu načíst zpět pouze změněné PSČ/fakta. Nepoužívat opakované široké SELECT.
-- Žádné publikování V5/published, žádná záloha Dropbox, žádný Neon import, žádný read-only lock bez samostatného výslovného pokynu.
+- V5/published a záloha Dropbox byly dokončeny 2026-11-27. Neon import a read-only lock nebyly spuštěny.
 
 ## 7. Uzavření obsahového auditu
 
@@ -167,5 +167,10 @@ Při druhém průchodu byly znovu použity závazné úrovně: konkrétní objek
 - 124 překladových oprav bylo zapsáno do Supabase a načteno zpět.
 - Strukturální kontrola: 0 prázdných/chybějících cizojazyčných textů, 0 rozdílů `translations.cs` proti masteru.
 - 31/31 krátkých českých master textů opraveno a ověřeno; 59/59 původních null poloh doplněno a ověřeno; 0 duplicitních českých názvů a 0 duplicitních plných master textů.
-- Inventář 46/46, sequence/groups/RÚIAN CSV a stav Supabase zůstávají beze změny; všech 46 záznamů zůstává `validated`.
-- **Obsahový audit je uzavřen jako PASS.** V5/published, Dropbox záloha, Neon import a read-only lock nebyly spuštěny a zůstávají mimo rozsah tohoto pokynu.
+- Inventář 46/46, sequence/groups/RÚIAN CSV beze změny; všech 46 záznamů je nyní `data_version=5`, `status=published` (read-back 46/46).
+- Mapové body: 290/290 synchronizováno z ověřených souřadnic faktů; 0 chybějících a 0 nadbytečných vazeb.
+- **Dropbox záloha VERIFIED:** `/Apps/TRAVEL-Backup-Kalsped/TRAVEL_BACKUP/AUDITED/CZ_AUDIT_TREBICSKO_67401-67602_2026-11-27T01-14-18-805Z/`.
+- Uloženy `CZ_AUDIT_TREBICSKO_67401-67602_backup.json` (2 594 650 B), `CZ_AUDIT_TREBICSKO_67401-67602_restore.sql` (2 330 936 B) a `manifest.json` (3 018 B). Všechny 3 soubory byly z Dropboxu znovu načteny; SHA-256 read-back PASS.
+- Backup ID: `CZ-AUDIT-TREBICSKO-67401-67602-2026-11-27T01-14-18-805Z`; scope hash: `71e4a2d860ac5dcffbd7184947f0497232f1fff5f7dbe40a20b550b44bca8c2a`; JSON object SHA-256: `911852a917d927aa2cd535513eb86abe0b282304fa15ab944360fa5e54671cae`.
+- Supabase work wave `CZ-AUDIT-TREBICSKO-67401-67602-001` = `COMPLETE`; backup snapshot = `VERIFIED`; obsah exportu: 46 PSČ / 290 faktů / 290 mapových bodů / 1 CZ validation schema.
+- **Obsahový audit je uzavřen jako PASS; V5 publikace a Dropbox záloha jsou dokončeny.** Neon import ani read-only lock nebyly spuštěny.
