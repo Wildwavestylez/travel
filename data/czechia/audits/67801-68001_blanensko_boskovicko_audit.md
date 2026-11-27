@@ -48,3 +48,37 @@ Oficiální web památníku uvádí adresu 67975, ale sdílený RÚIAN CSV řád
 - [ ] Závěrečný report; publikace a záloha až na výslovný pokyn.
 
 **Další krok:** pokračovat detailem PSČ 67801, dokončit všechny relevantní kontroly a automaticky pokračovat sekvenčně podle výše uvedeného inventáře.
+
+
+## 4. Výsledek detailního auditu a provedené opravy
+
+### Tematická úplnost
+Doplněno 5 nových faktů v 7 jazycích:
+- 67801 — Kateřinská jeskyně (fact_007).
+- 67902 — Hugo František Salm-Reifferscheidt (fact_009).
+- 67971 — Marie von Ebner-Eschenbach a její pobyty na zámku Lysice (fact_007).
+- 67975 — Památník holokaustu Romů a Sintů na Moravě (fact_005).
+- 68001 — Karel Absolon (fact_012).
+
+### Opravy obsahu
+- 67901 — odstraněn duplicitní fakt o zámku Lysice; primární přiřazení zůstává 67971. Jedinečná osobní vazba Marie von Ebner-Eschenbach byla zachována novým faktem v 67971.
+- 67902 — fact_006 rozšířen z 328 znaků; doplněna doložená místní přezdívka „Cyrilka“ a aktualizováno všech 7 jazyků.
+- 67907 — opraveny 2 neúplné překlady, všech 7 jazyků srovnáno s českým master textem.
+- 67913 — fact_009, všech 7 jazyků srovnáno s aktuálním českým master textem.
+- 67921 — fact_009, všech 7 jazyků srovnáno s aktuálním českým master textem.
+- V cílovém rozsahu po opravách nebyl zjištěn český master text kratší než 350 znaků; kontrolované translations.cs odpovídají facts a jazykové počty odpovídají počtu faktů.
+
+### Geografie a mapové body
+- Doplněno 9 obhajitelných poloh u existujících faktů: 67933, 67934, 67953, 67961, 67972, 67973, 67974 a 67976 (u 67976 dvě polohy).
+- Zbývajících 16 hodnot location=null zůstává záměrně: jde o trasy, vícebodové soubory památek, krajinné celky nebo místa bez dostatečně obhajitelného bodu. Nebyly nahrazeny representative_point ani odhadnutým středem obce.
+- Po porovnání s přesným enumem schema.json opraveno 23 skutečně nepovolených hodnot location.type. Čtyři hodnoty, které se při prvním užším testu jevily jako chybné, ale ve skutečnosti jsou v českém schématu povolené (historic_factory, historic_mill, historic_park), byly obnoveny; stejně tak byl pro historický vodní mlýn použit povolený typ historic_mill.
+- Trigger postal_codes_sync_explorer_map_points vytváří body pouze pro status='published'. Ručně vložené body u nepublikovaných záznamů byly odstraněny. Read-back potvrzuje 3 mapové body pro již publikované 67907 (3 fakta s polohou); pro ostatní nepublikované záznamy se body ručně nevytvářejí.
+
+### Otevřená geografická výjimka
+- 67975 — oficiální kontakt Památníku holokaustu Romů a Sintů uvádí adresu Hodonín 76, PSČ 67975. RÚIAN inventář pro 67975 však uvádí pouze Tasovice a Černovice. Fakt je přiřazen podle oficiální adresy památníku, ale rozpor zůstává označen jako REVIEW REQUIRED. sequence.json nebyl změněn.
+
+### Stav a uzavření
+- ID faktů zachována; statusy a data_version nebyly měněny.
+- Jediný již publikovaný záznam v bloku je 67907 (published, V5); jeho 3 mapové body byly ověřeny.
+- Žádná publikace V5, export, záloha ani změna jiné databáze nebyla provedena.
+- **Výsledek:** AUDIT COMPLETE — REVIEW REQUIRED pouze pro geografické přiřazení památníku v 67975; jinak obsahové a základní strukturální kontroly prošly.
