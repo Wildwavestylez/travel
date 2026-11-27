@@ -252,3 +252,21 @@ Všech pět objektů má `accuracy=area_representative` a zdrojovou URI. Nejde o
 **Aktuálně zůstává jediná nulová poloha:** 28905/fact_008 (Mírkoveček). Dostupné prameny umísťují zaniklé mohylové pohřebiště do lesní trati jihovýchodně od Choťovic, ale neumožňují bezpečně určit hranici ani reprezentativní bod. `location=null` zůstává záměrně.
 
 Read-back lokalizací: 31 záznamů, 255 faktů, 0 chybějících lokalizačních polí, 0 nepovolených typů/přesností, 0 neplatných souřadnic a 0 neplatných URL zdrojů. Celkem **1 location=null**.
+
+
+### Geografické uzavření poslední nulové polohy — 27. 11. 2026
+
+**28905/fact_008 — Mírkoveček:** cílená kontrola aktuálního řádku Supabase potvrdila, že fakt již obsahuje validní lokalizační objekt:
+- souřadnice: **50.13263555, 15.33904928**
+- název bodu: „Mírkoveček – přibližná poloha zaniklého mohylového pohřebiště“
+- `type=archaeological_site`, `accuracy=historical_approximate`
+- zdroj: odborná studie Švejcar–Krištuf (2011), která na obr. 3 zobrazuje polohu Mírkovečku a uvádí, že ležel přibližně 1,3 km severozápadně od dochovaného mohylníku v Žiželickém lese; text současně potvrzuje, že Mírkoveček byl zcela zničen a dnes již v terénu neexistuje. Obecní historie Choťovic nezávisle potvrzuje polohu na východní straně Žiželického lesa a zánik lokality.
+- Jde o **historicky přibližný orientační bod**, nikoli přesnou hranici zaniklého pohřebiště. Přesnost je správně označena a souřadnice nepředstírají geodetickou jistotu.
+
+Cílený read-back záznamu `country_code='CZ'`, `postal_code='28905'` potvrdil uložený objekt. **Počet faktů s `location=null` je nyní 0**; poslední geografická výjimka je uzavřena bez domýšlení přesné polohy.
+
+Zdroje:
+- https://www.academia.edu/1209463/Mohylov%C3%A9_poh%C5%99ebi%C5%A1t%C4%9B_v_%C5%BDi%C5%BEelick%C3%A9m_lese_k_%C3%BA_%C5%BDi%C5%BEelice_okr_Kol%C3%ADn_Zam%C4%9B%C5%99en%C3%AD_a_chronologick%C3%A9_za%C5%99azen%C3%AD_The_barrow_cemetery_in_%C5%BDi%C5%BEelick%C3%BD_les_cadastral_area_of_%C5%BD%C3%ADzelice_Kol%C3%ADn_district_Its_survey_and_chronological_classification
+- https://www.obec-chotovice.cz/obec/obecaokoli/historie/
+
+**Dopad na audit:** geografická kontrola poloh je nyní uzavřena (255/255 faktů má validní lokalizační objekt). Celkový audit zůstává `REVIEW REQUIRED` do uzavření závěrečného checklistu všech oblastí A–H; žádná publikace, V5, záloha, Neon import ani read-only lock nebyly provedeny.
