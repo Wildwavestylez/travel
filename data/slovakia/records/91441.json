@@ -1,4 +1,812 @@
 {
   "postcode": "91441",
-  "status": "placeholder"
+  "city": "Nemšová",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Nemšová – centrum města u městského úřadu, Janka Paľu 2/3",
+  "representative_point": {
+    "lat": 48.9654111,
+    "lon": 18.1200306
+  },
+  "access_point": {
+    "lat": 48.9654111,
+    "lon": 18.1200306
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Čtyři historická sídla dnešní Nemšové a nové datování Trenčianské Závady",
+      "text": "Nemšová zahrnuje čtyři historická sídla: samotnou Nemšovou a místní části Ľuborča, Kľúčové a Trenčianská Závada. Nemšová i Ľuborča jsou písemně doloženy roku 1242. U Kľúčového se uvádí hraniční listina z roku 1297, zatímco první jasný záznam o vsi jako Villa Kluchow pochází z roku 1328. U Trenčianské Závady se dlouho uváděl rok 1493, ale městská kronikářka v roce 2024 doložila starší listinu z 8. května 1393, potvrzenou opisem z roku 1401. Čtyři obce byly spojeny v roce 1976 a Nemšová získala městský status roku 1989.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s4",
+        "s5",
+        "s8",
+        "s9"
+      ],
+      "map_category": "historic_city",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Kostel sv. Michala archanděla – pozdně barokní dominanta Nemšové",
+      "text": "Nejvýznamnější památkou Nemšové je římskokatolický kostel sv. Michala archanděla. Na místě stál starší kostel doložený už v letech 1332–1337; dnešní jednolodní podélnou stavbu postavili v letech 1762–1766 v pozdně barokním slohu. Kostel byl dokončen a vysvěcen roku 1766. Během druhé světové války byla zasažena věž a v roce 1961 poškodil interiér požár. Stavba je chráněnou kulturní památkou a tvoří hlavní historickou dominantu města.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11"
+      ],
+      "map_category": "religious_site",
+      "location": {
+        "name": "Kostel sv. Michala archanděla, Nemšová",
+        "address": null,
+        "lat": 48.963291,
+        "lon": 18.116752,
+        "type": "church",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/nemsova-kostol-sv-michala-archanjela"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Kľúčové – renesanční kúrie, kaple sv. Anny a pobyt botanika Holubyho",
+      "text": "V Kľúčovém stojí původně pozdně renesanční kúrie ze druhé poloviny 17. století, později upravovaná v klasicistním a romantickém stylu. Často uváděný rok 1678 není spolehlivě doložen a přesné datum vzniku zůstává nejisté. Nedaleko stojí novogotická kaple sv. Anny; dnešní stavba je datována rokem 1868, ale kapli zachycuje už mapa z roku 1859. Dřevěná zvonička byla postavena roku 1933 a nese zvon z roku 1920. V letech 1858–1859 působil v Kľúčovém jako vychovatel Jozef Ľudovít Holuby, pozdější významný slovenský botanik a národopisec.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6",
+        "s7",
+        "s11"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Ľuborča a Dvorec – pravěké nálezy, stará osada a folklorní Liborčan",
+      "text": "Ľuborča je písemně doložena roku 1242 a její území bylo osídleno už v pravěku. Archeologové zde nalezli sídlištní stopy, pohřebiště lužické kultury a bronzový poklad; mezi významné nálezy patří dvojramenná bronzová sekera, dýka a pohřební keramika, dnes vystavené v Městském muzeu Nemšová. K místní části patří také Dvorec, zemanská osada doložená už roku 1435, která byla později připojena k Ľuborči. Místní tradice udržuje folklorní skupina Liborčan, založená roku 1972, která sbírá a předvádí písně, tance a zvyky regionu.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s18"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_005",
+      "title": "Antonstál – Dreherův lovecký areál, lesní železnice a lesní pedagogika",
+      "text": "V údolí nad Ľuborčou vznikl na konci 19. století lovecký areál rodiny Dreherů. Původní dřevěný lovecký zámeček později vlastnili Kulmerové a po druhé světové válce přešel pod správu státních lesů. Areál Antonstál je spojen také s historickou lesní železnicí z Ľuborče, která sloužila k dopravě dřeva a zanikla po roce 1945. Dnes je Antonstál známý jako lesnické a vzdělávací místo v podhůří Bílých Karpat; návštěvníkům nabízí ubytování, gastronomii, arboretum a naučné aktivity zaměřené na les a přírodu.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s11"
+      ],
+      "map_category": "architecture",
+      "location": null
+    },
+    {
+      "id": "fact_006",
+      "title": "Fatimská kaple v Trenčianské Závadě – poválečné poutní místo",
+      "text": "V místní části Trenčianská Závada stojí kaple Panny Marie Fatimské, kterou v letech 1946–1949 postavili z vlastních sbírek obyvatelé Nemšové a Ľuborče. Kaple vznikla z vděčnosti za záchranu životů a majetku během druhé světové války. Je zasvěcena Fatimské Panně Marii a stala se významným poutním místem v horském prostředí Bílých Karpat. Její vznik zároveň připomíná solidaritu obyvatel jednotlivých částí dnešní Nemšové v bezprostředně poválečných letech.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s11"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Sklárna v Nemšové – průmyslová tradice od roku 1902",
+      "text": "Základy dnešního sklářského závodu v Nemšové položil roku 1902 baron Anton Dreher. Sklárna se postupně stala jedním z hlavních průmyslových podniků regionu; v roce 2002 ji převzala švýcarská skupina Vetropack a závod pokračuje pod názvem Vetropack Nemšová. V roce 2022 si připomněl 120 let od založení a 20 let členství ve skupině Vetropack. Současný závod vyrábí skleněné obaly, provozuje dvě tavicí vany a sedm výrobních linek a patří k významným zaměstnavatelům v okolí.",
+      "category": "culture_and_industry",
+      "priority": "A",
+      "sources": [
+        "s2",
+        "s12",
+        "s13"
+      ],
+      "map_category": "technical_heritage",
+      "location": null
+    },
+    {
+      "id": "fact_008",
+      "title": "Pád bombardéru B-24 Rough Cobb a příběh seržanta Andrewa A. Solocka",
+      "text": "Dne 29. srpna 1944 se nad Bílými Karpaty odehrála jedna z největších leteckých bitev druhé světové války nad územím Československa. Americký bombardér B-24H „Rough Cobb“ se po poruše motoru opozdil za formací a po nouzovém odhození bomb havaroval v lokalitě Smutný jarok, asi 300 metrů severně od loveckého zámečku Antonstál. Devět členů posádky se zachránilo; pravý boční střelec, seržant Andrew A. Solock slovenského původu, zahynul v troskách. Místní obyvatelé jej pohřbili na hřbitově v Ľuborči. Jeho ostatky byly 25. září 1946 exhumovány a převezeny na vojenský hřbitov ve francouzském Saint-Avold; v Ľuborči zůstal symbolický hrob a pamětní místo.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s14",
+        "s15",
+        "s16"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pamätník pádu bombardéra B-24H Rough Cobb, Smutný jarok",
+        "address": null,
+        "lat": 49.0108843,
+        "lon": 18.0203984,
+        "type": "memorial_site",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n2331597600"
+      }
+    },
+    {
+      "id": "fact_009",
+      "title": "Osvobození Nemšové 30. dubna 1945 a zničené mosty přes Váh a Vláru",
+      "text": "V dubnu 1945 se Nemšová a její místní části ocitly v bojové zóně. Bombardování 8. a 10. dubna poškodilo obytné domy v Nemšové a Ľuborči; 17. dubna byla zasažena kostelní věž a německé jednotky následně zničily železniční most přes Váh. Při ústupu vyhodily do vzduchu také most přes Vláru u Ľuborče. Nemšovou osvobodily 30. dubna 1945 jednotky 2. rumunské pěší divize a 51. střeleckého sboru Rudé armády. Před budovou městského úřadu stojí památník osvobození, odhalený 30. dubna 2010; v roce 2025 zde byla instalována také maketa zničeného mostu T. G. Masaryka.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s3",
+        "s16",
+        "s17"
+      ],
+      "map_category": "historical_monument",
+      "location": {
+        "name": "Pomník oslobodenia mesta, před městským úřadem Nemšová",
+        "address": "Janka Paľu 2/3, 914 41 Nemšová, Slovakia",
+        "lat": 48.9654111,
+        "lon": 18.1200306,
+        "type": "memorial",
+        "accuracy": "approximate",
+        "source": "https://www.vets.cz/vpm/mista/obec/5462-nemsova/Janka%20Pa%C4%BEu/"
+      }
+    },
+    {
+      "id": "fact_010",
+      "title": "Válečné památníky a místní hrdinové let 1918–1944",
+      "text": "Válečná paměť Nemšové a jejích částí zahrnuje několik různých období. Šestnáct obyvatel Ľuborče padlo v první světové válce; na jejich počest byl roku 1928 na hřbitově bývalého Dvorce postaven památník. Na hřbitově v Nemšové jsou pohřbeni také českoslovenští dělostřelci Jaroslav Hrejzek a Juraj Vokoun, kteří padli roku 1918 při zajišťování československé svobody, a dobrovolník Ján Tupý, zabitý v prosinci 1918 při vytlačování maďarských jednotek. Město připomíná také partyzána Jána Paľa, narozeného roku 1916, který padl v Slovenském národním povstání 13. září 1944; jeho rodný dům označuje pamětní deska.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s4",
+        "s11"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_011",
+      "title": "Městské muzeum Nemšová – archeologie, sklo a unikátní vojenská kartografie",
+      "text": "Městské muzeum sídlí v rekonstruované bývalé hospodářské budově a představuje pět tematických částí: archeologickou, historickou, národopisnou, sklářskou a vojenskou. Archeologická expozice vystavuje například mamutí kosti, kamenné nástroje z nemšovské cihelny a nálezy z pohřebiště v Ľuborči včetně bronzové dvojramenné sekery a dýky. Sklářská část ukazuje výrobky místní sklárny. Nejrozsáhlejší je expozice vojenské topografie, kartografie a polygrafie, kterou město označuje za jedinou svého druhu na Slovensku. Muzeum má bezbariérový přístup a vstup je zdarma.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s18",
+        "s4",
+        "s12"
+      ],
+      "map_category": "museum",
+      "location": null
+    },
+    {
+      "id": "fact_012",
+      "title": "Dubnické štrkovisko – chráněné ptačí území zasahující do katastru Nemšové",
+      "text": "Dubnické štrkovisko je chráněné ptačí území SKCHVU006 o rozloze 41,093 ha, vyhlášené v roce 2004. Leží v katastrech Borčice, Dubnica nad Váhom a Nemšová, takže jeho část patří i do území tohoto PSČ. Vodní plocha vznikla těžbou štěrku a následným zaplavením podzemní vodou; vytvořila náhradní mokřadní prostředí v nivě Váhu, jejíž původní přírodní stanoviště výrazně změnila regulace řeky. Předmětem ochrany je 24 druhů ptáků, mimo jiné bukáček malý, volavka purpurová, čáp černý a rybák obecný.",
+      "category": "nature_and_landscape",
+      "priority": "A",
+      "sources": [
+        "s19"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "CHVÚ Dubnické štrkovisko – orientační bod středu chráněného území",
+        "address": null,
+        "lat": 48.97119107,
+        "lon": 18.14856804,
+        "type": "protected_area",
+        "accuracy": "area_representative",
+        "source": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/6"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Oficiální vyhledávání PSČ Slovenské pošty; oficiální adresy města Nemšová a všech čtyř místních částí",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": null,
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR a oficiální městské zdroje pro správní území a místní části; ŠOP SR/Biomonitoring pro chráněné území; OpenStreetMap a Vets.cz pro ověřené mapové body."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – vyhledávání PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "primary"
+    },
+    {
+      "id": "s2",
+      "title": "Mesto Nemšová – oficiální profil, historie a místní části",
+      "url": "https://www.nemsova.sk/mesto/o-meste/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Spolek pro vojenská pietní místa – Nemšová, pomník osvobození a válečné hroby",
+      "url": "https://www.vets.cz/vpm/mista/obec/5462-nemsova/Janka%20Pa%C4%BEu/",
+      "type": "specialist"
+    },
+    {
+      "id": "s4",
+      "title": "Mesto Nemšová – místní část Ľuborča, archeologie, Dvorec a Liborčan",
+      "url": "https://www.nemsova.sk/mesto/o-meste/mestska-cast-luborca/",
+      "type": "official"
+    },
+    {
+      "id": "s5",
+      "title": "Mestská časť Kľúčové – historie a první písemné zmínky",
+      "url": "https://klucove.nemsova.sk/",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Mestská časť Kľúčové – památky, kaštieľ a kaple sv. Anny",
+      "url": "https://klucove.nemsova.sk/pamiatky",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "Mestská časť Kľúčové – Jozef Ľudovít Holuby a další rodáci",
+      "url": "https://klucove.nemsova.sk/rodaci",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Mesto Nemšová – místní část Trenčianska Závada",
+      "url": "https://www.nemsova.sk/mesto/o-meste/mestska-cast-trencianska-zavada/",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Nemšovský spravodajca 1/2024 – Villa Zawada 1393, archivní korekce první zmínky",
+      "url": "https://www.nemsova.sk/content/53/ns-01-2024-24-stran-web.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s10",
+      "title": "Pamiatky na Slovensku – kostel sv. Michala archanděla v Nemšové",
+      "url": "https://www.pamiatkynaslovensku.sk/nemsova-kostol-sv-michala-archanjela",
+      "type": "specialist"
+    },
+    {
+      "id": "s11",
+      "title": "Mesto Nemšová – kulturní památky, Antonstál, Fatimská kaple a válečný památník",
+      "url": "https://www.nemsova.sk/mesto/kultura-a-sport/kulturne-pamiatky/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Vetropack – závod Nemšová a současná výroba skleněných obalů",
+      "url": "https://www.vetropack.com/en/about-us/locations/nemsova/",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Vetropack – 120 let sklárny v Nemšové a převzetí závodu",
+      "url": "https://www.vetropack.com/de/ueber-uns/medien-news/aktuelles/tradition-trifft-innovation-vetropack-nemsova-feiert-120-jaehriges-bestehen_pub-3450/",
+      "type": "official"
+    },
+    {
+      "id": "s14",
+      "title": "Nemšovský spravodajca 3/2019 – letecká bitva a příběh Andrewa A. Solocka",
+      "url": "https://www.nemsova.sk/content/07/ns-03-2019-web.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s15",
+      "title": "Mesto Nemšová – letecká bitva nad Bílými Karpaty 1944/2016",
+      "url": "https://www.nemsova.sk/mesto/fotogaleria/letecka-bitka-nad-bielymi-karpatmi-1944-2016/",
+      "type": "official"
+    },
+    {
+      "id": "s16",
+      "title": "OpenStreetMap / OMA – památník pádu bombardéru B-24 Rough Cobb",
+      "url": "https://poi.oma.sk/n2331597600",
+      "type": "other"
+    },
+    {
+      "id": "s17",
+      "title": "Kronika města Nemšová 2015 – osvobození města a události roku 1945",
+      "url": "https://www.nemsova.sk/content/77/kronika-mesta-nemsova-2015.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s18",
+      "title": "Nemšovský spravodajca 2/2025 – 80. výročí osvobození a maketa mostu T. G. Masaryka",
+      "url": "https://www.nemsova.sk/content/48/ns-02-2025-web.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s19",
+      "title": "Mesto Nemšová – Městské muzeum a jeho stálé expozice",
+      "url": "https://www.nemsova.sk/mesto/kultura-a-sport/mestske-muzeum/",
+      "type": "official"
+    },
+    {
+      "id": "s20",
+      "title": "ŠOP SR – Biomonitoring: chráněné ptačí území Dubnické štrkovisko SKCHVU006",
+      "url": "https://www.biomonitoring.sk/InternalGeoportal/ProtectedSites/DetailSites/6",
+      "type": "official"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Nemšová – centrum města u městského úřadu, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Čtyři historická sídla dnešní Nemšové a nové datování Trenčianské Závady",
+          "text": "Nemšová zahrnuje čtyři historická sídla: samotnou Nemšovou a místní části Ľuborča, Kľúčové a Trenčianská Závada. Nemšová i Ľuborča jsou písemně doloženy roku 1242. U Kľúčového se uvádí hraniční listina z roku 1297, zatímco první jasný záznam o vsi jako Villa Kluchow pochází z roku 1328. U Trenčianské Závady se dlouho uváděl rok 1493, ale městská kronikářka v roce 2024 doložila starší listinu z 8. května 1393, potvrzenou opisem z roku 1401. Čtyři obce byly spojeny v roce 1976 a Nemšová získala městský status roku 1989."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kostel sv. Michala archanděla – pozdně barokní dominanta Nemšové",
+          "text": "Nejvýznamnější památkou Nemšové je římskokatolický kostel sv. Michala archanděla. Na místě stál starší kostel doložený už v letech 1332–1337; dnešní jednolodní podélnou stavbu postavili v letech 1762–1766 v pozdně barokním slohu. Kostel byl dokončen a vysvěcen roku 1766. Během druhé světové války byla zasažena věž a v roce 1961 poškodil interiér požár. Stavba je chráněnou kulturní památkou a tvoří hlavní historickou dominantu města."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – renesanční kúrie, kaple sv. Anny a pobyt botanika Holubyho",
+          "text": "V Kľúčovém stojí původně pozdně renesanční kúrie ze druhé poloviny 17. století, později upravovaná v klasicistním a romantickém stylu. Často uváděný rok 1678 není spolehlivě doložen a přesné datum vzniku zůstává nejisté. Nedaleko stojí novogotická kaple sv. Anny; dnešní stavba je datována rokem 1868, ale kapli zachycuje už mapa z roku 1859. Dřevěná zvonička byla postavena roku 1933 a nese zvon z roku 1920. V letech 1858–1859 působil v Kľúčovém jako vychovatel Jozef Ľudovít Holuby, pozdější významný slovenský botanik a národopisec."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča a Dvorec – pravěké nálezy, stará osada a folklorní Liborčan",
+          "text": "Ľuborča je písemně doložena roku 1242 a její území bylo osídleno už v pravěku. Archeologové zde nalezli sídlištní stopy, pohřebiště lužické kultury a bronzový poklad; mezi významné nálezy patří dvojramenná bronzová sekera, dýka a pohřební keramika, dnes vystavené v Městském muzeu Nemšová. K místní části patří také Dvorec, zemanská osada doložená už roku 1435, která byla později připojena k Ľuborči. Místní tradice udržuje folklorní skupina Liborčan, založená roku 1972, která sbírá a předvádí písně, tance a zvyky regionu."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – Dreherův lovecký areál, lesní železnice a lesní pedagogika",
+          "text": "V údolí nad Ľuborčou vznikl na konci 19. století lovecký areál rodiny Dreherů. Původní dřevěný lovecký zámeček později vlastnili Kulmerové a po druhé světové válce přešel pod správu státních lesů. Areál Antonstál je spojen také s historickou lesní železnicí z Ľuborče, která sloužila k dopravě dřeva a zanikla po roce 1945. Dnes je Antonstál známý jako lesnické a vzdělávací místo v podhůří Bílých Karpat; návštěvníkům nabízí ubytování, gastronomii, arboretum a naučné aktivity zaměřené na les a přírodu."
+        },
+        {
+          "id": "fact_006",
+          "title": "Fatimská kaple v Trenčianské Závadě – poválečné poutní místo",
+          "text": "V místní části Trenčianská Závada stojí kaple Panny Marie Fatimské, kterou v letech 1946–1949 postavili z vlastních sbírek obyvatelé Nemšové a Ľuborče. Kaple vznikla z vděčnosti za záchranu životů a majetku během druhé světové války. Je zasvěcena Fatimské Panně Marii a stala se významným poutním místem v horském prostředí Bílých Karpat. Její vznik zároveň připomíná solidaritu obyvatel jednotlivých částí dnešní Nemšové v bezprostředně poválečných letech."
+        },
+        {
+          "id": "fact_007",
+          "title": "Sklárna v Nemšové – průmyslová tradice od roku 1902",
+          "text": "Základy dnešního sklářského závodu v Nemšové položil roku 1902 baron Anton Dreher. Sklárna se postupně stala jedním z hlavních průmyslových podniků regionu; v roce 2002 ji převzala švýcarská skupina Vetropack a závod pokračuje pod názvem Vetropack Nemšová. V roce 2022 si připomněl 120 let od založení a 20 let členství ve skupině Vetropack. Současný závod vyrábí skleněné obaly, provozuje dvě tavicí vany a sedm výrobních linek a patří k významným zaměstnavatelům v okolí."
+        },
+        {
+          "id": "fact_008",
+          "title": "Pád bombardéru B-24 Rough Cobb a příběh seržanta Andrewa A. Solocka",
+          "text": "Dne 29. srpna 1944 se nad Bílými Karpaty odehrála jedna z největších leteckých bitev druhé světové války nad územím Československa. Americký bombardér B-24H „Rough Cobb“ se po poruše motoru opozdil za formací a po nouzovém odhození bomb havaroval v lokalitě Smutný jarok, asi 300 metrů severně od loveckého zámečku Antonstál. Devět členů posádky se zachránilo; pravý boční střelec, seržant Andrew A. Solock slovenského původu, zahynul v troskách. Místní obyvatelé jej pohřbili na hřbitově v Ľuborči. Jeho ostatky byly 25. září 1946 exhumovány a převezeny na vojenský hřbitov ve francouzském Saint-Avold; v Ľuborči zůstal symbolický hrob a pamětní místo."
+        },
+        {
+          "id": "fact_009",
+          "title": "Osvobození Nemšové 30. dubna 1945 a zničené mosty přes Váh a Vláru",
+          "text": "V dubnu 1945 se Nemšová a její místní části ocitly v bojové zóně. Bombardování 8. a 10. dubna poškodilo obytné domy v Nemšové a Ľuborči; 17. dubna byla zasažena kostelní věž a německé jednotky následně zničily železniční most přes Váh. Při ústupu vyhodily do vzduchu také most přes Vláru u Ľuborče. Nemšovou osvobodily 30. dubna 1945 jednotky 2. rumunské pěší divize a 51. střeleckého sboru Rudé armády. Před budovou městského úřadu stojí památník osvobození, odhalený 30. dubna 2010; v roce 2025 zde byla instalována také maketa zničeného mostu T. G. Masaryka."
+        },
+        {
+          "id": "fact_010",
+          "title": "Válečné památníky a místní hrdinové let 1918–1944",
+          "text": "Válečná paměť Nemšové a jejích částí zahrnuje několik různých období. Šestnáct obyvatel Ľuborče padlo v první světové válce; na jejich počest byl roku 1928 na hřbitově bývalého Dvorce postaven památník. Na hřbitově v Nemšové jsou pohřbeni také českoslovenští dělostřelci Jaroslav Hrejzek a Juraj Vokoun, kteří padli roku 1918 při zajišťování československé svobody, a dobrovolník Ján Tupý, zabitý v prosinci 1918 při vytlačování maďarských jednotek. Město připomíná také partyzána Jána Paľa, narozeného roku 1916, který padl v Slovenském národním povstání 13. září 1944; jeho rodný dům označuje pamětní deska."
+        },
+        {
+          "id": "fact_011",
+          "title": "Městské muzeum Nemšová – archeologie, sklo a unikátní vojenská kartografie",
+          "text": "Městské muzeum sídlí v rekonstruované bývalé hospodářské budově a představuje pět tematických částí: archeologickou, historickou, národopisnou, sklářskou a vojenskou. Archeologická expozice vystavuje například mamutí kosti, kamenné nástroje z nemšovské cihelny a nálezy z pohřebiště v Ľuborči včetně bronzové dvojramenné sekery a dýky. Sklářská část ukazuje výrobky místní sklárny. Nejrozsáhlejší je expozice vojenské topografie, kartografie a polygrafie, kterou město označuje za jedinou svého druhu na Slovensku. Muzeum má bezbariérový přístup a vstup je zdarma."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – chráněné ptačí území zasahující do katastru Nemšové",
+          "text": "Dubnické štrkovisko je chráněné ptačí území SKCHVU006 o rozloze 41,093 ha, vyhlášené v roce 2004. Leží v katastrech Borčice, Dubnica nad Váhom a Nemšová, takže jeho část patří i do území tohoto PSČ. Vodní plocha vznikla těžbou štěrku a následným zaplavením podzemní vodou; vytvořila náhradní mokřadní prostředí v nivě Váhu, jejíž původní přírodní stanoviště výrazně změnila regulace řeky. Předmětem ochrany je 24 druhů ptáků, mimo jiné bukáček malý, volavka purpurová, čáp černý a rybák obecný."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Nemšová – Stadtzentrum beim Rathaus, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vier historische Siedlungen des heutigen Nemšová und die neue Datierung von Trenčianska Závada",
+          "text": "Die heutige Stadt Nemšová umfasst vier historische Siedlungen: Nemšová sowie die Ortsteile Ľuborča, Kľúčové und Trenčianska Závada. Nemšová und Ľuborča sind seit 1242 belegt. Für Kľúčové wird eine Grenzurkunde von 1297 genannt; die erste eindeutige Erwähnung als Dorf Villa Kluchow stammt von 1328. Für Trenčianska Závada galt lange 1493 als Erstnennung. Die Stadtschreiberin wies 2024 jedoch eine ältere Urkunde vom 8. Mai 1393 nach, bestätigt durch eine Abschrift von 1401. Die vier Gemeinden wurden 1976 vereinigt; Nemšová erhielt 1989 Stadtrecht."
+        },
+        {
+          "id": "fact_002",
+          "title": "Kirche des heiligen Erzengels Michael – spätbarockes Wahrzeichen von Nemšová",
+          "text": "Das bedeutendste Denkmal von Nemšová ist die römisch-katholische Kirche des heiligen Erzengels Michael. An dieser Stelle ist bereits für 1332–1337 eine ältere Kirche belegt; der heutige einschiffige Langbau wurde 1762–1766 im spätbarocken Stil errichtet. Die Kirche wurde 1766 fertiggestellt und geweiht. Im Zweiten Weltkrieg wurde der Turm getroffen, 1961 beschädigte ein Brand den Innenraum. Das Bauwerk ist ein geschütztes Kulturdenkmal und prägt das historische Stadtbild."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – Renaissance-Herrenhaus, Annakapelle und der Botaniker Holuby",
+          "text": "In Kľúčové steht ein ursprünglich spät­renaissancezeitliches Herrenhaus aus der zweiten Hälfte des 17. Jahrhunderts, später klassizistisch und romantisch umgestaltet. Das häufig genannte Baujahr 1678 ist nicht zuverlässig belegt. In der Nähe befindet sich die neugotische Annakapelle; der heutige Bau wird auf 1868 datiert, doch eine Kapelle ist bereits auf einer Karte von 1859 verzeichnet. Der hölzerne Glockenturm entstand 1933 und trägt eine Glocke von 1920. 1858–1859 wirkte Jozef Ľudovít Holuby in Kľúčové als Erzieher; später wurde er ein bedeutender slowakischer Botaniker und Ethnograf."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča und Dvorec – prähistorische Funde, alte Siedlung und Folkloregruppe Liborčan",
+          "text": "Ľuborča ist seit 1242 schriftlich belegt und war bereits in vorgeschichtlicher Zeit besiedelt. Archäologen fanden Siedlungsspuren, ein Gräberfeld der Lausitzer Kultur und einen Bronzehort. Zu den wichtigen Funden gehören eine zweischneidige Bronzeaxt, ein Dolch und Grabkeramik, die heute im Stadtmuseum Nemšová gezeigt werden. Zum Ortsteil gehört Dvorec, ein adeliger Weiler, der bereits 1435 belegt ist und später Ľuborča angeschlossen wurde. Die 1972 gegründete Folkloregruppe Liborčan sammelt und präsentiert regionale Lieder, Tänze und Bräuche."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – Jagdresidenz der Familie Dreher, Waldbahn und Waldpädagogik",
+          "text": "Im Tal oberhalb von Ľuborča entstand Ende des 19. Jahrhunderts das Jagdgebiet der Familie Dreher. Das ursprüngliche hölzerne Jagdschlösschen kam später in den Besitz der Familie Kulmer und wurde nach dem Zweiten Weltkrieg von der staatlichen Forstverwaltung übernommen. Antonstál ist auch mit der historischen Waldbahn von Ľuborča verbunden, die dem Holztransport diente und nach 1945 eingestellt wurde. Heute ist Antonstál ein forstliches Bildungszentrum am Fuß der Weißen Karpaten und bietet Unterkunft, Gastronomie, ein Arboretum und Lernangebote rund um Wald und Natur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Fatimakapelle in Trenčianska Závada – ein Wallfahrtsort der Nachkriegszeit",
+          "text": "Die Fatimakapelle im Ortsteil Trenčianska Závada wurde 1946–1949 aus eigenen Sammlungen von Einwohnern aus Nemšová und Ľuborča errichtet. Sie entstand aus Dankbarkeit dafür, dass Leben und Besitz während des Zweiten Weltkriegs bewahrt geblieben waren. Die Kapelle ist der Jungfrau Maria von Fatima geweiht und entwickelte sich zu einem bedeutenden Wallfahrtsort in der Berglandschaft der Weißen Karpaten. Ihre Entstehung erinnert zugleich an die Solidarität der Einwohner der heutigen Stadtteile in den unmittelbaren Nachkriegsjahren."
+        },
+        {
+          "id": "fact_007",
+          "title": "Glashütte in Nemšová – industrielle Tradition seit 1902",
+          "text": "Die Grundlage des heutigen Glaswerks in Nemšová legte Baron Anton Dreher im Jahr 1902. Die Glashütte wurde zu einem der wichtigsten Industriebetriebe der Region; 2002 übernahm sie die Schweizer Vetropack-Gruppe und führt den Betrieb als Vetropack Nemšová weiter. 2022 feierte das Werk 120 Jahre seit seiner Gründung und 20 Jahre in der Vetropack-Gruppe. Der heutige Betrieb produziert Glasverpackungen, verfügt über zwei Schmelzwannen und sieben Produktionslinien und gehört zu den bedeutenden Arbeitgebern der Umgebung."
+        },
+        {
+          "id": "fact_008",
+          "title": "Absturz des Bombers B-24 Rough Cobb und die Geschichte von Sergeant Andrew A. Solock",
+          "text": "Am 29. August 1944 fand über den Weißen Karpaten eine der größten Luftschlachten des Zweiten Weltkriegs über dem Gebiet der Tschechoslowakei statt. Der amerikanische Bomber B-24H „Rough Cobb“ fiel nach einem Motorschaden zurück und stürzte im Gebiet Smutný jarok, etwa 300 Meter nördlich des Jagdschlosses Antonstál, ab. Neun Besatzungsmitglieder überlebten; der rechte Seitenschütze, Sergeant Andrew A. Solock slowakischer Herkunft, starb in den Trümmern. Einheimische bestatteten ihn auf dem Friedhof in Ľuborča. Seine sterblichen Überreste wurden am 25. September 1946 exhumiert und auf den Militärfriedhof Saint-Avold in Frankreich überführt; in Ľuborča blieben ein symbolisches Grab und eine Gedenkstätte."
+        },
+        {
+          "id": "fact_009",
+          "title": "Befreiung von Nemšová am 30. April 1945 und zerstörte Brücken über Waag und Vlára",
+          "text": "Im April 1945 gerieten Nemšová und ihre Ortsteile in die Kampfzone. Bombardierungen am 8. und 10. April beschädigten Wohnhäuser in Nemšová und Ľuborča; am 17. April wurde der Kirchturm getroffen und deutsche Einheiten zerstörten anschließend die Eisenbahnbrücke über die Waag. Beim Rückzug sprengten sie auch die Brücke über die Vlára bei Ľuborča. Nemšová wurde am 30. April 1945 von Einheiten der 2. rumänischen Infanteriedivision und des 51. Schützenkorps der Roten Armee befreit. Vor dem Rathaus steht ein am 30. April 2010 enthülltes Befreiungsdenkmal; 2025 wurde dort auch ein Modell der zerstörten T.-G.-Masaryk-Brücke aufgestellt."
+        },
+        {
+          "id": "fact_010",
+          "title": "Kriegsdenkmäler und lokale Helden der Jahre 1918–1944",
+          "text": "Die Kriegserinnerung von Nemšová und seinen Ortsteilen umfasst mehrere Epochen. Sechzehn Einwohner von Ľuborča fielen im Ersten Weltkrieg; zu ihrem Gedenken wurde 1928 auf dem Friedhof des früheren Dvorec ein Denkmal errichtet. Auf dem Friedhof von Nemšová liegen auch die tschechoslowakischen Artilleristen Jaroslav Hrejzek und Juraj Vokoun, die 1918 im Kampf um die Freiheit der Tschechoslowakei fielen, sowie der Freiwillige Ján Tupý, der im Dezember 1918 beim Zurückdrängen ungarischer Einheiten getötet wurde. Die Stadt erinnert außerdem an den Partisanen Ján Paľo, geboren 1916 und gefallen am 13. September 1944 im Slowakischen Nationalaufstand; sein Geburtshaus trägt eine Gedenktafel."
+        },
+        {
+          "id": "fact_011",
+          "title": "Stadtmuseum Nemšová – Archäologie, Glas und einzigartige Militärkartografie",
+          "text": "Das Stadtmuseum befindet sich in einem rekonstruierten ehemaligen Wirtschaftsgebäude und präsentiert fünf Themenbereiche: Archäologie, Geschichte, Volkskunde, Glasherstellung und Militärwesen. Die archäologische Ausstellung zeigt unter anderem Mammutknochen, Steinwerkzeuge aus der Ziegelei von Nemšová und Funde aus dem Gräberfeld von Ľuborča, darunter eine zweischneidige Bronzeaxt und einen Dolch. Der Glasteil zeigt Erzeugnisse der örtlichen Glashütte. Den größten Bereich bildet die Ausstellung zur militärischen Topografie, Kartografie und Drucktechnik, die laut Stadt einzigartig in der Slowakei ist. Der Eintritt ist frei und das Museum ist barrierefrei zugänglich."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – Vogelschutzgebiet im Kataster von Nemšová",
+          "text": "Das Vogelschutzgebiet Dubnické štrkovisko (SKCHVU006) umfasst 41,093 Hektar und wurde 2004 ausgewiesen. Es liegt in den Katastralgebieten Borčice, Dubnica nad Váhom und Nemšová; ein Teil gehört somit zum Gebiet dieser Postleitzahl. Das Gewässer entstand durch Kiesabbau und anschließende Überflutung mit Grundwasser. Es bildet einen Ersatzlebensraum in der Waag-Aue, deren natürliche Lebensräume durch die Regulierung des Flusses stark verändert wurden. Geschützt werden 24 Vogelarten, darunter Zwergdommel, Purpurreiher, Schwarzstorch und Flussseeschwalbe."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Nemšová – town centre by the municipal office, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Four historic settlements of present-day Nemšová and the revised date of Trenčianska Závada",
+          "text": "Today's city of Nemšová comprises four historic settlements: Nemšová itself and the localities of Ľuborča, Kľúčové and Trenčianska Závada. Nemšová and Ľuborča are documented from 1242. Kľúčové is linked to a boundary charter from 1297, while its first clear record as a village, Villa Kluchow, dates from 1328. Trenčianska Závada was long assigned the year 1493, but in 2024 the municipal chronicler identified an older charter dated 8 May 1393, confirmed by a 1401 copy. The four municipalities were joined in 1976, and Nemšová gained town status in 1989."
+        },
+        {
+          "id": "fact_002",
+          "title": "Church of St Michael the Archangel – Nemšová’s Late Baroque landmark",
+          "text": "The most important monument in Nemšová is the Roman Catholic Church of St Michael the Archangel. An earlier church on the site is documented in 1332–1337; the present single-nave longitudinal building was erected in the Late Baroque style between 1762 and 1766. It was completed and consecrated in 1766. The tower was hit during the Second World War, and a fire damaged the interior in 1961. The church is a protected cultural monument and the main historic landmark of the town."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – Renaissance manor, Chapel of St Anne and botanist Holuby",
+          "text": "Kľúčové has a late-Renaissance manor house dating from the second half of the 17th century, later remodelled in Classical and Romantic styles. The often quoted year 1678 is not reliably documented. Nearby stands the Neo-Gothic Chapel of St Anne; the present building is dated 1868, although a chapel already appears on a map from 1859. The wooden bell tower was built in 1933 and holds a bell from 1920. In 1858–1859 Jozef Ľudovít Holuby worked in Kľúčové as a tutor; he later became a major Slovak botanist and ethnographer."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča and Dvorec – prehistoric finds, an old settlement and the Liborčan folk group",
+          "text": "Ľuborča is documented from 1242 and was inhabited in prehistoric times. Archaeologists found settlement traces, a Lusatian-culture burial ground and a Bronze Age hoard. Important finds include a double-edged bronze axe, a dagger and funerary pottery, now displayed in the Nemšová Municipal Museum. The locality also includes Dvorec, a small noble settlement documented as early as 1435 and later incorporated into Ľuborča. The Liborčan folklore group, founded in 1972, collects and performs regional songs, dances and customs."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – Dreher family hunting lodge, forest railway and forest education",
+          "text": "The Dreher family established a hunting estate in the valley above Ľuborča in the late 19th century. The original wooden hunting lodge later passed to the Kulmer family and, after the Second World War, to the state forestry administration. Antonstál is also connected with the historic forest railway from Ľuborča, used for timber transport and discontinued after 1945. Today Antonstál is a forestry education site at the foothills of the White Carpathians, offering accommodation, dining, an arboretum and learning activities focused on forests and nature."
+        },
+        {
+          "id": "fact_006",
+          "title": "Fatima Chapel in Trenčianska Závada – a post-war pilgrimage site",
+          "text": "The Fatima Chapel in the Trenčianska Závada locality was built between 1946 and 1949 using funds collected by residents of Nemšová and Ľuborča. It was erected in gratitude for the protection of lives and property during the Second World War. Dedicated to Our Lady of Fatima, the chapel became an important pilgrimage site in the mountain landscape of the White Carpathians. Its construction also reflects the solidarity between the local communities that now form the city in the immediate post-war years."
+        },
+        {
+          "id": "fact_007",
+          "title": "Glassworks in Nemšová – an industrial tradition dating from 1902",
+          "text": "The foundations of today's glassworks in Nemšová were laid by Baron Anton Dreher in 1902. The glass factory became one of the region's major industrial employers; in 2002 it was acquired by the Swiss Vetropack Group and continues as Vetropack Nemšová. In 2022 the plant marked 120 years since its founding and 20 years as part of Vetropack. The current facility produces glass packaging, operates two furnaces and seven production lines, and remains a significant employer in the area."
+        },
+        {
+          "id": "fact_008",
+          "title": "The B-24 Rough Cobb crash and the story of Sergeant Andrew A. Solock",
+          "text": "On 29 August 1944, one of the largest air battles of the Second World War over the territory of Czechoslovakia took place above the White Carpathians. The American B-24H bomber “Rough Cobb” fell behind its formation after an engine failure and crashed at Smutný jarok, about 300 metres north of the Antonstál hunting lodge. Nine crew members survived; the right waist gunner, Sergeant Andrew A. Solock, of Slovak descent, died in the wreckage. Local residents buried him in the cemetery at Ľuborča. His remains were exhumed on 25 September 1946 and transferred to the military cemetery at Saint-Avold in France; a symbolic grave and memorial site remain in Ľuborča."
+        },
+        {
+          "id": "fact_009",
+          "title": "Liberation of Nemšová on 30 April 1945 and the destroyed bridges over the Váh and Vlára",
+          "text": "In April 1945, Nemšová and its localities became a combat zone. Bombing on 8 and 10 April damaged homes in Nemšová and Ľuborča; on 17 April the church tower was hit and German units then destroyed the railway bridge over the Váh. During their retreat they also blew up the bridge over the Vlára near Ľuborča. Nemšová was liberated on 30 April 1945 by units of the 2nd Romanian Infantry Division and the 51st Rifle Corps of the Red Army. A liberation memorial was unveiled in front of the town hall on 30 April 2010; in 2025 a model of the destroyed T. G. Masaryk Bridge was installed there as well."
+        },
+        {
+          "id": "fact_010",
+          "title": "War memorials and local heroes of 1918–1944",
+          "text": "War remembrance in Nemšová and its localities spans several periods. Sixteen residents of Ľuborča fell in the First World War; a memorial to them was erected in 1928 at the cemetery of former Dvorec. The cemetery in Nemšová also holds the graves of Czechoslovak artillerymen Jaroslav Hrejzek and Juraj Vokoun, killed in 1918 while defending Czechoslovak freedom, and volunteer Ján Tupý, killed in December 1918 while pushing Hungarian units out of the area. The city also commemorates partisan Ján Paľo, born in 1916 and killed on 13 September 1944 during the Slovak National Uprising; a plaque marks his birthplace."
+        },
+        {
+          "id": "fact_011",
+          "title": "Nemšová Municipal Museum – archaeology, glass and unique military cartography",
+          "text": "The Municipal Museum is housed in a reconstructed former farm building and presents five sections: archaeology, history, ethnography, glassmaking and military studies. The archaeological exhibition includes mammoth bones, stone tools from the Nemšová brickworks and finds from the Ľuborča burial ground, including a double-edged bronze axe and a dagger. The glass section displays products from the local factory. The largest section focuses on military topography, cartography and printing, which the city describes as unique in Slovakia. Admission is free and the museum is accessible to visitors with reduced mobility."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – a protected bird area extending into Nemšová’s cadastral territory",
+          "text": "The Dubnické štrkovisko bird protection area (SKCHVU006) covers 41.093 hectares and was designated in 2004. It extends across the cadastral territories of Borčice, Dubnica nad Váhom and Nemšová, so part of it lies within this postal area. The water body formed through gravel extraction and subsequent flooding by groundwater. It provides replacement wetland habitat in the Váh floodplain, whose natural habitats were heavily altered by river regulation. Twenty-four bird species are protected here, including little bittern, purple heron, black stork and common tern."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Nemšová – centro de la ciudad junto al ayuntamiento, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Cuatro asentamientos históricos de la actual Nemšová y la nueva datación de Trenčianska Závada",
+          "text": "La ciudad actual de Nemšová comprende cuatro asentamientos históricos: la propia Nemšová y las localidades de Ľuborča, Kľúčové y Trenčianska Závada. Nemšová y Ľuborča están documentadas desde 1242. Kľúčové aparece vinculada a un documento de límites de 1297, mientras que su primera mención clara como aldea, Villa Kluchow, data de 1328. Durante mucho tiempo se atribuyó a Trenčianska Závada el año 1493, pero en 2024 la cronista municipal identificó un documento anterior, fechado el 8 de mayo de 1393 y confirmado por una copia de 1401. Las cuatro localidades se unieron en 1976 y Nemšová obtuvo el título de ciudad en 1989."
+        },
+        {
+          "id": "fact_002",
+          "title": "Iglesia de san Miguel Arcángel: monumento barroco tardío de Nemšová",
+          "text": "El monumento más importante de Nemšová es la iglesia católica romana de san Miguel Arcángel. En el lugar existía una iglesia anterior documentada en 1332–1337; el edificio longitudinal actual, de una sola nave, se construyó en estilo barroco tardío entre 1762 y 1766. Fue terminado y consagrado en 1766. La torre sufrió daños durante la Segunda Guerra Mundial y un incendio dañó el interior en 1961. La iglesia está protegida como monumento cultural y es el principal hito histórico de la ciudad."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové: casa señorial renacentista, capilla de santa Ana y el botánico Holuby",
+          "text": "En Kľúčové se encuentra una casa señorial renacentista tardía de la segunda mitad del siglo XVII, reformada posteriormente en estilos clasicista y romántico. La fecha de 1678 que suele citarse no está documentada con seguridad. Cerca se alza la capilla neogótica de santa Ana; el edificio actual está fechado en 1868, aunque ya aparece una capilla en un mapa de 1859. El campanario de madera se construyó en 1933 y conserva una campana de 1920. En 1858–1859 trabajó en Kľúčové como tutor Jozef Ľudovít Holuby, que más tarde fue un destacado botánico y etnógrafo eslovaco."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča y Dvorec: hallazgos prehistóricos, antiguo asentamiento y grupo folclórico Liborčan",
+          "text": "Ľuborča está documentada desde 1242 y estuvo habitada ya en tiempos prehistóricos. Los arqueólogos encontraron restos de asentamientos, un cementerio de la cultura de Lusacia y un tesoro de la Edad del Bronce. Entre los hallazgos importantes figuran un hacha de bronce de doble filo, una daga y cerámica funeraria, hoy expuestas en el Museo Municipal de Nemšová. La localidad incluye también Dvorec, un pequeño asentamiento nobiliario documentado desde 1435 y posteriormente incorporado a Ľuborča. El grupo folclórico Liborčan, fundado en 1972, recopila e interpreta canciones, bailes y costumbres regionales."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál: pabellón de caza de los Dreher, ferrocarril forestal y educación ambiental",
+          "text": "La familia Dreher creó a finales del siglo XIX un coto de caza en el valle situado sobre Ľuborča. El pabellón de caza de madera original pasó después a la familia Kulmer y, tras la Segunda Guerra Mundial, a la administración forestal estatal. Antonstál también está vinculado al antiguo ferrocarril forestal de Ľuborča, utilizado para transportar madera y clausurado después de 1945. Hoy Antonstál es un centro educativo forestal al pie de los Cárpatos Blancos, con alojamiento, gastronomía, arboreto y actividades didácticas sobre los bosques y la naturaleza."
+        },
+        {
+          "id": "fact_006",
+          "title": "Capilla de Fátima en Trenčianska Závada: lugar de peregrinación de posguerra",
+          "text": "La capilla de Fátima en la localidad de Trenčianska Závada fue construida entre 1946 y 1949 con fondos reunidos por los habitantes de Nemšová y Ľuborča. Se levantó en agradecimiento por la protección de las vidas y los bienes durante la Segunda Guerra Mundial. Dedicada a Nuestra Señora de Fátima, se convirtió en un importante lugar de peregrinación en el paisaje montañoso de los Cárpatos Blancos. Su construcción refleja también la solidaridad entre las comunidades que hoy forman la ciudad en los años inmediatamente posteriores a la guerra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Fábrica de vidrio de Nemšová: tradición industrial desde 1902",
+          "text": "Los cimientos de la actual fábrica de vidrio de Nemšová fueron establecidos por el barón Anton Dreher en 1902. La vidriera se convirtió en una de las principales empresas industriales de la región; en 2002 fue adquirida por el grupo suizo Vetropack y continúa como Vetropack Nemšová. En 2022 celebró 120 años desde su fundación y 20 años dentro del grupo Vetropack. La planta actual fabrica envases de vidrio, dispone de dos hornos y siete líneas de producción y sigue siendo un empleador importante en la zona."
+        },
+        {
+          "id": "fact_008",
+          "title": "El accidente del bombardero B-24 Rough Cobb y la historia del sargento Andrew A. Solock",
+          "text": "El 29 de agosto de 1944 tuvo lugar sobre los Cárpatos Blancos una de las mayores batallas aéreas de la Segunda Guerra Mundial sobre el territorio de Checoslovaquia. El bombardero estadounidense B-24H «Rough Cobb» quedó rezagado tras una avería de motor y se estrelló en Smutný jarok, unos 300 metros al norte del pabellón de caza Antonstál. Nueve tripulantes sobrevivieron; el artillero lateral derecho, el sargento Andrew A. Solock, de origen eslovaco, murió entre los restos. Los vecinos lo enterraron en el cementerio de Ľuborča. Sus restos fueron exhumados el 25 de septiembre de 1946 y trasladados al cementerio militar de Saint-Avold, en Francia; en Ľuborča permanecen una tumba simbólica y un memorial."
+        },
+        {
+          "id": "fact_009",
+          "title": "Liberación de Nemšová el 30 de abril de 1945 y puentes destruidos sobre el Váh y el Vlára",
+          "text": "En abril de 1945, Nemšová y sus localidades quedaron en zona de combate. Los bombardeos del 8 y 10 de abril dañaron viviendas en Nemšová y Ľuborča; el 17 de abril fue alcanzada la torre de la iglesia y las unidades alemanas destruyeron después el puente ferroviario sobre el Váh. Durante la retirada también volaron el puente sobre el Vlára, cerca de Ľuborča. Nemšová fue liberada el 30 de abril de 1945 por unidades de la 2.ª División de Infantería rumana y del 51.º Cuerpo de Fusileros del Ejército Rojo. Frente al ayuntamiento se inauguró un monumento a la liberación el 30 de abril de 2010; en 2025 se instaló allí una maqueta del puente T. G. Masaryk destruido."
+        },
+        {
+          "id": "fact_010",
+          "title": "Monumentos de guerra y héroes locales de 1918–1944",
+          "text": "La memoria bélica de Nemšová y sus localidades abarca varias épocas. Dieciséis vecinos de Ľuborča murieron en la Primera Guerra Mundial; en su honor se levantó en 1928 un monumento en el cementerio del antiguo Dvorec. En el cementerio de Nemšová también están enterrados los artilleros checoslovacos Jaroslav Hrejzek y Juraj Vokoun, muertos en 1918 defendiendo la libertad checoslovaca, y el voluntario Ján Tupý, asesinado en diciembre de 1918 al expulsar a las unidades húngaras de la zona. La ciudad recuerda también al partisano Ján Paľo, nacido en 1916 y muerto el 13 de septiembre de 1944 durante el Levantamiento Nacional Eslovaco; una placa señala su casa natal."
+        },
+        {
+          "id": "fact_011",
+          "title": "Museo Municipal de Nemšová: arqueología, vidrio y cartografía militar única",
+          "text": "El Museo Municipal ocupa un antiguo edificio agrícola rehabilitado y presenta cinco secciones: arqueología, historia, etnografía, vidrio y estudios militares. La exposición arqueológica incluye huesos de mamut, herramientas de piedra de la fábrica de ladrillos de Nemšová y hallazgos del cementerio de Ľuborča, como un hacha de bronce de doble filo y una daga. La sección del vidrio muestra productos de la fábrica local. La mayor parte está dedicada a la topografía, cartografía e impresión militares, que la ciudad considera única en Eslovaquia. La entrada es gratuita y el edificio es accesible."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko: zona de protección de aves que se extiende al término de Nemšová",
+          "text": "La zona de protección de aves Dubnické štrkovisko (SKCHVU006) ocupa 41,093 hectáreas y fue declarada en 2004. Se extiende por los términos catastrales de Borčice, Dubnica nad Váhom y Nemšová, por lo que una parte pertenece a este territorio postal. El lago se formó por la extracción de grava y su posterior inundación con aguas subterráneas. Constituye un humedal alternativo en la llanura aluvial del Váh, cuyos hábitats naturales fueron muy modificados por la regulación del río. Aquí se protegen 24 especies de aves, entre ellas el avetorillo, la garza imperial, la cigüeña negra y el charrán común."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Nemšová – centre-ville près de la mairie, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Quatre localités historiques de l’actuelle Nemšová et la nouvelle datation de Trenčianska Závada",
+          "text": "La ville actuelle de Nemšová comprend quatre localités historiques : Nemšová elle-même et les quartiers de Ľuborča, Kľúčové et Trenčianska Závada. Nemšová et Ľuborča sont attestées depuis 1242. Kľúčové est liée à un acte de délimitation de 1297, tandis que sa première mention claire comme village, Villa Kluchow, date de 1328. On attribuait longtemps à Trenčianska Závada l’année 1493, mais en 2024 la chroniqueuse municipale a identifié un acte plus ancien du 8 mai 1393, confirmé par une copie de 1401. Les quatre communes furent réunies en 1976 et Nemšová obtint le statut de ville en 1989."
+        },
+        {
+          "id": "fact_002",
+          "title": "Église Saint-Michel-Archange – monument baroque tardif de Nemšová",
+          "text": "Le monument le plus important de Nemšová est l’église catholique romaine Saint-Michel-Archange. Une église antérieure est attestée sur le site dès 1332–1337 ; l’édifice longitudinal actuel à nef unique fut construit dans le style baroque tardif entre 1762 et 1766. Il fut achevé et consacré en 1766. La tour fut touchée pendant la Seconde Guerre mondiale et un incendie endommagea l’intérieur en 1961. L’église est protégée comme monument culturel et constitue le principal repère historique de la ville."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – manoir Renaissance, chapelle Sainte-Anne et le botaniste Holuby",
+          "text": "À Kľúčové se trouve un manoir de style Renaissance tardive datant de la seconde moitié du XVIIe siècle, remanié ensuite dans les styles classique et romantique. L’année 1678 souvent citée n’est pas confirmée par des documents fiables. À proximité se dresse la chapelle néogothique Sainte-Anne ; le bâtiment actuel est daté de 1868, bien qu’une chapelle apparaisse déjà sur une carte de 1859. Le clocher en bois fut construit en 1933 et abrite une cloche de 1920. En 1858–1859, Jozef Ľudovít Holuby travailla à Kľúčové comme précepteur ; il devint ensuite un botaniste et ethnographe slovaque de premier plan."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča et Dvorec – découvertes préhistoriques, ancien hameau et groupe folklorique Liborčan",
+          "text": "Ľuborča est attestée depuis 1242 et était habitée dès la préhistoire. Les archéologues y ont découvert des traces d’habitat, une nécropole de la culture de Lusace et un dépôt de l’âge du bronze. Parmi les trouvailles importantes figurent une hache en bronze à deux tranchants, un poignard et de la céramique funéraire, aujourd’hui exposés au musée municipal de Nemšová. Le quartier comprend également Dvorec, un petit établissement noble attesté dès 1435 puis rattaché à Ľuborča. Le groupe folklorique Liborčan, fondé en 1972, collecte et présente les chants, danses et coutumes régionales."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – pavillon de chasse des Dreher, chemin de fer forestier et éducation à la forêt",
+          "text": "À la fin du XIXe siècle, la famille Dreher établit un domaine de chasse dans la vallée au-dessus de Ľuborča. Le pavillon de chasse en bois d’origine passa ensuite à la famille Kulmer puis, après la Seconde Guerre mondiale, à l’administration forestière de l’État. Antonstál est également lié à l’ancien chemin de fer forestier de Ľuborča, utilisé pour le transport du bois et abandonné après 1945. Aujourd’hui, Antonstál est un site d’éducation forestière au pied des Carpates blanches, avec hébergement, restauration, arboretum et activités pédagogiques sur la forêt et la nature."
+        },
+        {
+          "id": "fact_006",
+          "title": "Chapelle de Fatima à Trenčianska Závada – lieu de pèlerinage d’après-guerre",
+          "text": "La chapelle de Fatima dans le quartier de Trenčianska Závada fut construite entre 1946 et 1949 grâce aux collectes des habitants de Nemšová et de Ľuborča. Elle fut érigée en signe de gratitude pour la sauvegarde des vies et des biens pendant la Seconde Guerre mondiale. Dédiée à Notre-Dame de Fatima, elle est devenue un lieu de pèlerinage important dans le paysage montagneux des Carpates blanches. Sa construction témoigne également de la solidarité entre les communautés qui forment aujourd’hui la ville, dans les années immédiatement après la guerre."
+        },
+        {
+          "id": "fact_007",
+          "title": "Verrerie de Nemšová – tradition industrielle depuis 1902",
+          "text": "Les fondations de l’actuelle verrerie de Nemšová furent posées par le baron Anton Dreher en 1902. La verrerie devint l’une des principales entreprises industrielles de la région ; en 2002, elle fut reprise par le groupe suisse Vetropack et poursuit son activité sous le nom de Vetropack Nemšová. En 2022, l’usine a célébré 120 ans depuis sa fondation et 20 ans au sein du groupe Vetropack. Elle produit des emballages en verre, exploite deux fours et sept lignes de production et demeure un employeur important de la région."
+        },
+        {
+          "id": "fact_008",
+          "title": "Le crash du bombardier B-24 Rough Cobb et l’histoire du sergent Andrew A. Solock",
+          "text": "Le 29 août 1944 eut lieu au-dessus des Carpates blanches l’une des plus grandes batailles aériennes de la Seconde Guerre mondiale sur le territoire de la Tchécoslovaquie. Le bombardier américain B-24H « Rough Cobb » prit du retard après une panne de moteur et s’écrasa dans le secteur de Smutný jarok, à environ 300 mètres au nord du pavillon de chasse d’Antonstál. Neuf membres d’équipage survécurent ; le mitrailleur latéral droit, le sergent Andrew A. Solock, d’origine slovaque, périt dans l’épave. Les habitants l’inhumèrent au cimetière de Ľuborča. Ses restes furent exhumés le 25 septembre 1946 et transférés au cimetière militaire de Saint-Avold, en France ; une tombe symbolique et un mémorial subsistent à Ľuborča."
+        },
+        {
+          "id": "fact_009",
+          "title": "Libération de Nemšová le 30 avril 1945 et destruction des ponts sur le Váh et la Vlára",
+          "text": "En avril 1945, Nemšová et ses quartiers se retrouvèrent dans une zone de combat. Les bombardements des 8 et 10 avril endommagèrent des maisons à Nemšová et Ľuborča ; le 17 avril, la tour de l’église fut touchée et les unités allemandes détruisirent ensuite le pont ferroviaire sur le Váh. Pendant leur retraite, elles firent également sauter le pont sur la Vlára près de Ľuborča. Nemšová fut libérée le 30 avril 1945 par des unités de la 2e division d’infanterie roumaine et du 51e corps de fusiliers de l’Armée rouge. Un mémorial de la libération fut inauguré devant la mairie le 30 avril 2010 ; une maquette du pont T. G. Masaryk détruit y fut installée en 2025."
+        },
+        {
+          "id": "fact_010",
+          "title": "Mémoriaux de guerre et héros locaux de 1918 à 1944",
+          "text": "La mémoire de guerre de Nemšová et de ses quartiers couvre plusieurs périodes. Seize habitants de Ľuborča périrent pendant la Première Guerre mondiale ; un monument en leur honneur fut érigé en 1928 au cimetière de l’ancien Dvorec. Le cimetière de Nemšová abrite aussi les tombes des artilleurs tchécoslovaques Jaroslav Hrejzek et Juraj Vokoun, morts en 1918 pour la liberté de la Tchécoslovaquie, ainsi que du volontaire Ján Tupý, tué en décembre 1918 en repoussant les unités hongroises de la région. La ville commémore également le partisan Ján Paľo, né en 1916 et tombé le 13 septembre 1944 pendant le Soulèvement national slovaque ; une plaque marque sa maison natale."
+        },
+        {
+          "id": "fact_011",
+          "title": "Musée municipal de Nemšová – archéologie, verre et cartographie militaire unique",
+          "text": "Le musée municipal est installé dans un ancien bâtiment agricole rénové et présente cinq sections : archéologie, histoire, ethnographie, verrerie et études militaires. L’exposition archéologique comprend notamment des os de mammouth, des outils en pierre de la briqueterie de Nemšová et des objets de la nécropole de Ľuborča, dont une hache en bronze à deux tranchants et un poignard. La section verrerie montre les produits de l’usine locale. La plus grande partie est consacrée à la topographie, à la cartographie et à l’imprimerie militaires, un ensemble que la ville décrit comme unique en Slovaquie. L’entrée est gratuite et le bâtiment est accessible."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – zone de protection des oiseaux dans le cadastre de Nemšová",
+          "text": "La zone de protection des oiseaux Dubnické štrkovisko (SKCHVU006) couvre 41,093 hectares et fut désignée en 2004. Elle s’étend sur les territoires cadastraux de Borčice, Dubnica nad Váhom et Nemšová ; une partie se trouve donc dans cette zone postale. Le plan d’eau s’est formé par l’extraction de graviers puis l’inondation par les eaux souterraines. Il constitue un habitat humide de substitution dans la plaine alluviale du Váh, dont les milieux naturels ont été fortement modifiés par la régulation du fleuve. Vingt-quatre espèces d’oiseaux y sont protégées, notamment le blongios nain, le héron pourpré, la cigogne noire et la sterne pierregarin."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Nemšová – centro città presso il municipio, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Quattro insediamenti storici dell’attuale Nemšová e la nuova datazione di Trenčianska Závada",
+          "text": "La città attuale di Nemšová comprende quattro insediamenti storici: Nemšová stessa e le località di Ľuborča, Kľúčové e Trenčianska Závada. Nemšová e Ľuborča sono documentate dal 1242. Kľúčové è collegata a un atto di delimitazione del 1297, mentre la prima menzione chiara come villaggio, Villa Kluchow, risale al 1328. Per Trenčianska Závada si indicava da tempo il 1493, ma nel 2024 la cronista comunale ha individuato un documento più antico, datato 8 maggio 1393 e confermato da una copia del 1401. I quattro comuni furono uniti nel 1976 e Nemšová ottenne lo status di città nel 1989."
+        },
+        {
+          "id": "fact_002",
+          "title": "Chiesa di San Michele Arcangelo – il monumento tardo-barocco di Nemšová",
+          "text": "Il monumento più importante di Nemšová è la chiesa cattolica romana di San Michele Arcangelo. Sul sito è documentata una chiesa precedente già nel 1332–1337; l’attuale edificio longitudinale a navata unica fu costruito in stile tardo-barocco tra il 1762 e il 1766. Fu completato e consacrato nel 1766. La torre fu colpita durante la Seconda guerra mondiale e un incendio danneggiò l’interno nel 1961. La chiesa è protetta come monumento culturale ed è il principale punto di riferimento storico della città."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – palazzo rinascimentale, cappella di Sant’Anna e il botanico Holuby",
+          "text": "A Kľúčové si trova un palazzo tardo-rinascimentale della seconda metà del XVII secolo, successivamente rimaneggiato in stile classico e romantico. L’anno 1678 spesso citato non è documentato con certezza. Nelle vicinanze sorge la cappella neogotica di Sant’Anna; l’edificio attuale è datato 1868, anche se una cappella compare già su una carta del 1859. Il campanile in legno fu costruito nel 1933 e conserva una campana del 1920. Nel 1858–1859 Jozef Ľudovít Holuby lavorò a Kľúčové come precettore; in seguito divenne un importante botanico ed etnografo slovacco."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča e Dvorec – reperti preistorici, antico insediamento e gruppo folcloristico Liborčan",
+          "text": "Ľuborča è documentata dal 1242 ed era abitata già in epoca preistorica. Gli archeologi hanno trovato tracce di insediamenti, una necropoli della cultura lusaziana e un deposito dell’età del bronzo. Tra i reperti importanti figurano un’ascia di bronzo a doppio taglio, un pugnale e ceramiche funerarie, oggi esposti al Museo municipale di Nemšová. La località comprende anche Dvorec, un piccolo insediamento nobiliare attestato dal 1435 e successivamente incorporato a Ľuborča. Il gruppo folcloristico Liborčan, fondato nel 1972, raccoglie e presenta canti, danze e usanze regionali."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – residenza di caccia dei Dreher, ferrovia forestale ed educazione al bosco",
+          "text": "Alla fine del XIX secolo la famiglia Dreher creò una tenuta di caccia nella valle sopra Ľuborča. Il padiglione di caccia in legno originario passò in seguito alla famiglia Kulmer e, dopo la Seconda guerra mondiale, all’amministrazione forestale statale. Antonstál è inoltre collegato alla storica ferrovia forestale di Ľuborča, utilizzata per il trasporto del legname e dismessa dopo il 1945. Oggi Antonstál è un centro di educazione forestale ai piedi dei Carpazi Bianchi, con alloggio, ristorazione, arboreto e attività didattiche dedicate al bosco e alla natura."
+        },
+        {
+          "id": "fact_006",
+          "title": "Cappella di Fatima a Trenčianska Závada – luogo di pellegrinaggio del dopoguerra",
+          "text": "La cappella di Fatima nella località di Trenčianska Závada fu costruita tra il 1946 e il 1949 grazie alle raccolte degli abitanti di Nemšová e Ľuborča. Fu eretta in segno di gratitudine per la salvezza di vite e beni durante la Seconda guerra mondiale. Dedicata alla Madonna di Fatima, è diventata un importante luogo di pellegrinaggio nel paesaggio montano dei Carpazi Bianchi. La sua costruzione testimonia anche la solidarietà tra le comunità che oggi formano la città negli anni immediatamente successivi alla guerra."
+        },
+        {
+          "id": "fact_007",
+          "title": "Vetreria di Nemšová – tradizione industriale dal 1902",
+          "text": "Le fondamenta dell’attuale vetreria di Nemšová furono poste dal barone Anton Dreher nel 1902. La fabbrica divenne una delle principali imprese industriali della regione; nel 2002 fu acquisita dal gruppo svizzero Vetropack e continua a operare come Vetropack Nemšová. Nel 2022 lo stabilimento ha celebrato 120 anni dalla fondazione e 20 anni all’interno del gruppo Vetropack. Oggi produce imballaggi in vetro, dispone di due forni e sette linee di produzione e resta un importante datore di lavoro nella zona."
+        },
+        {
+          "id": "fact_008",
+          "title": "Lo schianto del bombardiere B-24 Rough Cobb e la storia del sergente Andrew A. Solock",
+          "text": "Il 29 agosto 1944 si svolse sopra i Carpazi Bianchi una delle più grandi battaglie aeree della Seconda guerra mondiale sul territorio della Cecoslovacchia. Il bombardiere americano B-24H “Rough Cobb” rimase indietro dopo un guasto al motore e precipitò nella località di Smutný jarok, circa 300 metri a nord del padiglione di caccia Antonstál. Nove membri dell’equipaggio sopravvissero; il mitragliere laterale destro, il sergente Andrew A. Solock, di origine slovacca, morì tra i rottami. Gli abitanti lo seppellirono nel cimitero di Ľuborča. I suoi resti furono esumati il 25 settembre 1946 e trasferiti al cimitero militare di Saint-Avold in Francia; a Ľuborča restano una tomba simbolica e un memoriale."
+        },
+        {
+          "id": "fact_009",
+          "title": "Liberazione di Nemšová il 30 aprile 1945 e ponti distrutti sul Váh e sulla Vlára",
+          "text": "Nell’aprile 1945 Nemšová e le sue località divennero zona di combattimento. I bombardamenti dell’8 e 10 aprile danneggiarono le abitazioni di Nemšová e Ľuborča; il 17 aprile fu colpita la torre della chiesa e le unità tedesche distrussero poi il ponte ferroviario sul Váh. Durante la ritirata fecero saltare anche il ponte sulla Vlára vicino a Ľuborča. Nemšová fu liberata il 30 aprile 1945 da unità della 2ª Divisione di fanteria rumena e del 51º Corpo fucilieri dell’Armata Rossa. Un monumento alla liberazione fu inaugurato davanti al municipio il 30 aprile 2010; nel 2025 vi fu collocato anche un modello del ponte T. G. Masaryk distrutto."
+        },
+        {
+          "id": "fact_010",
+          "title": "Memoriali di guerra ed eroi locali del 1918–1944",
+          "text": "La memoria bellica di Nemšová e delle sue località copre diverse epoche. Sedici abitanti di Ľuborča morirono nella Prima guerra mondiale; in loro onore nel 1928 fu eretto un monumento nel cimitero dell’antico Dvorec. Nel cimitero di Nemšová riposano anche gli artiglieri cecoslovacchi Jaroslav Hrejzek e Juraj Vokoun, caduti nel 1918 per la libertà cecoslovacca, e il volontario Ján Tupý, ucciso nel dicembre 1918 mentre respingeva le unità ungheresi dalla zona. La città ricorda inoltre il partigiano Ján Paľo, nato nel 1916 e caduto il 13 settembre 1944 durante l’Insurrezione nazionale slovacca; una targa segna la sua casa natale."
+        },
+        {
+          "id": "fact_011",
+          "title": "Museo municipale di Nemšová – archeologia, vetro e cartografia militare unica",
+          "text": "Il Museo municipale è ospitato in un ex edificio agricolo ristrutturato e presenta cinque sezioni: archeologia, storia, etnografia, vetro e studi militari. L’esposizione archeologica comprende ossa di mammut, strumenti di pietra della fornace di Nemšová e reperti della necropoli di Ľuborča, tra cui un’ascia di bronzo a doppio taglio e un pugnale. La sezione del vetro mostra i prodotti della fabbrica locale. La parte più ampia è dedicata alla topografia, cartografia e stampa militari, un’esposizione che la città definisce unica in Slovacchia. L’ingresso è gratuito e l’edificio è accessibile."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – area protetta per gli uccelli che si estende nel catasto di Nemšová",
+          "text": "L’area di protezione degli uccelli Dubnické štrkovisko (SKCHVU006) copre 41,093 ettari ed è stata istituita nel 2004. Si estende nei territori catastali di Borčice, Dubnica nad Váhom e Nemšová, quindi una sua parte ricade in quest’area postale. Il bacino si è formato con l’estrazione di ghiaia e il successivo allagamento da parte delle acque sotterranee. Costituisce un habitat umido sostitutivo nella pianura alluvionale del Váh, i cui ambienti naturali sono stati fortemente modificati dalla regolazione del fiume. Sono protette 24 specie di uccelli, tra cui tarabusino, airone rosso, cicogna nera e sterna comune."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Nemšová – stadscentrum bij het gemeentehuis, Janka Paľu 2/3",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Vier historische nederzettingen van het huidige Nemšová en de herziene datering van Trenčianska Závada",
+          "text": "De huidige stad Nemšová omvat vier historische nederzettingen: Nemšová zelf en de deelplaatsen Ľuborča, Kľúčové en Trenčianska Závada. Nemšová en Ľuborča zijn sinds 1242 gedocumenteerd. Kľúčové is verbonden met een grensakte uit 1297, terwijl de eerste duidelijke vermelding als dorp, Villa Kluchow, uit 1328 dateert. Voor Trenčianska Závada werd lang 1493 aangehouden, maar in 2024 vond de gemeentelijke kroniekschrijfster een oudere akte van 8 mei 1393, bevestigd door een kopie uit 1401. De vier gemeenten werden in 1976 samengevoegd en Nemšová kreeg in 1989 stadsrechten."
+        },
+        {
+          "id": "fact_002",
+          "title": "Sint-Michaël-Aartsengelkerk – het laatbarokke herkenningspunt van Nemšová",
+          "text": "Het belangrijkste monument van Nemšová is de rooms-katholieke Sint-Michaël-Aartsengelkerk. Op deze plek wordt al in 1332–1337 een oudere kerk vermeld; het huidige eenbeukige langgebouw werd tussen 1762 en 1766 in laatbarokke stijl gebouwd. Het werd in 1766 voltooid en ingewijd. De toren werd tijdens de Tweede Wereldoorlog geraakt en een brand beschadigde het interieur in 1961. De kerk is beschermd als cultureel monument en vormt het belangrijkste historische herkenningspunt van de stad."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kľúčové – renaissance-landhuis, Sint-Annakerk en botanicus Holuby",
+          "text": "In Kľúčové staat een laat-renaissancistisch landhuis uit de tweede helft van de 17e eeuw, later aangepast in classicistische en romantische stijl. Het vaak genoemde bouwjaar 1678 is niet betrouwbaar aangetoond. Vlakbij staat de neogotische Sint-Annakerk; het huidige gebouw dateert uit 1868, hoewel een kapel al op een kaart uit 1859 voorkomt. De houten klokkentoren werd in 1933 gebouwd en heeft een klok uit 1920. In 1858–1859 werkte Jozef Ľudovít Holuby in Kľúčové als huisleraar; later werd hij een vooraanstaand Slowaaks botanicus en etnograaf."
+        },
+        {
+          "id": "fact_004",
+          "title": "Ľuborča en Dvorec – prehistorische vondsten, oude nederzetting en folkloristische groep Liborčan",
+          "text": "Ľuborča is sinds 1242 schriftelijk bekend en was al in de prehistorie bewoond. Archeologen vonden nederzettingssporen, een begraafplaats van de Lausitzcultuur en een bronsschat. Belangrijke vondsten zijn een dubbelzijdige bronzen bijl, een dolk en grafkeramiek, die nu in het gemeentemuseum van Nemšová worden getoond. Tot de deelplaats behoort ook Dvorec, een kleine adellijke nederzetting die al in 1435 wordt vermeld en later bij Ľuborča werd gevoegd. De in 1972 opgerichte folkloristische groep Liborčan verzamelt en brengt regionale liederen, dansen en gebruiken."
+        },
+        {
+          "id": "fact_005",
+          "title": "Antonstál – jachtslot van de familie Dreher, bosspoorlijn en boseducatie",
+          "text": "De familie Dreher stichtte aan het einde van de 19e eeuw een jachtgebied in de vallei boven Ľuborča. Het oorspronkelijke houten jachtslot kwam later in handen van de familie Kulmer en na de Tweede Wereldoorlog onder het staatsbosbeheer. Antonstál is ook verbonden met de historische bosspoorlijn vanuit Ľuborča, die voor houttransport werd gebruikt en na 1945 werd opgeheven. Tegenwoordig is Antonstál een boseducatiecentrum aan de voet van de Witte Karpaten, met logies, horeca, een arboretum en leeractiviteiten over bos en natuur."
+        },
+        {
+          "id": "fact_006",
+          "title": "Fatimakapel in Trenčianska Závada – een naoorlogse bedevaartplaats",
+          "text": "De Fatimakapel in de deelplaats Trenčianska Závada werd tussen 1946 en 1949 gebouwd met ingezamelde bijdragen van inwoners van Nemšová en Ľuborča. Zij werd opgericht uit dankbaarheid voor het behoud van levens en bezittingen tijdens de Tweede Wereldoorlog. De kapel is gewijd aan Onze-Lieve-Vrouw van Fatima en groeide uit tot een belangrijke bedevaartplaats in het berglandschap van de Witte Karpaten. De bouw ervan getuigt ook van de solidariteit tussen de gemeenschappen die nu samen de stad vormen, in de eerste jaren na de oorlog."
+        },
+        {
+          "id": "fact_007",
+          "title": "Glasfabriek in Nemšová – industriële traditie sinds 1902",
+          "text": "De basis van de huidige glasfabriek in Nemšová werd in 1902 gelegd door baron Anton Dreher. De glasfabriek groeide uit tot een van de belangrijkste industriële bedrijven in de regio; in 2002 werd zij overgenomen door de Zwitserse Vetropack-groep en gaat zij verder als Vetropack Nemšová. In 2022 vierde de fabriek 120 jaar sinds de oprichting en 20 jaar binnen de Vetropack-groep. De huidige vestiging produceert glazen verpakkingen, heeft twee ovens en zeven productielijnen en blijft een belangrijke werkgever in de omgeving."
+        },
+        {
+          "id": "fact_008",
+          "title": "De crash van de B-24 Rough Cobb en het verhaal van sergeant Andrew A. Solock",
+          "text": "Op 29 augustus 1944 vond boven de Witte Karpaten een van de grootste luchtgevechten van de Tweede Wereldoorlog boven het grondgebied van Tsjechoslowakije plaats. De Amerikaanse B-24H-bommenwerper “Rough Cobb” raakte na motorproblemen achterop en stortte neer bij Smutný jarok, ongeveer 300 meter ten noorden van het jachtslot Antonstál. Negen bemanningsleden overleefden; de rechterzijschutter, sergeant Andrew A. Solock van Slowaakse afkomst, kwam om in het wrak. Plaatselijke bewoners begroeven hem op de begraafplaats van Ľuborča. Zijn stoffelijke resten werden op 25 september 1946 opgegraven en overgebracht naar de militaire begraafplaats Saint-Avold in Frankrijk; in Ľuborča bleven een symbolisch graf en een gedenkplaats."
+        },
+        {
+          "id": "fact_009",
+          "title": "Bevrijding van Nemšová op 30 april 1945 en vernielde bruggen over de Váh en Vlára",
+          "text": "In april 1945 werden Nemšová en haar deelplaatsen een gevechtsgebied. Bombardementen op 8 en 10 april beschadigden woningen in Nemšová en Ľuborča; op 17 april werd de kerktoren geraakt en Duitse eenheden vernielden daarna de spoorbrug over de Váh. Tijdens hun terugtocht bliezen zij ook de brug over de Vlára bij Ľuborča op. Nemšová werd op 30 april 1945 bevrijd door eenheden van de 2e Roemeense Infanteriedivisie en het 51e Schutterskorps van het Rode Leger. Voor het gemeentehuis werd op 30 april 2010 een bevrijdingsmonument onthuld; in 2025 werd er ook een model van de verwoeste T. G. Masarykbrug geplaatst."
+        },
+        {
+          "id": "fact_010",
+          "title": "Oorlogsmonumenten en lokale helden van 1918–1944",
+          "text": "De oorlogsherinnering van Nemšová en haar deelplaatsen omvat verschillende perioden. Zestien inwoners van Ľuborča sneuvelden in de Eerste Wereldoorlog; ter nagedachtenis aan hen werd in 1928 op de begraafplaats van het vroegere Dvorec een monument opgericht. Op de begraafplaats van Nemšová liggen ook de Tsjechoslowaakse artilleristen Jaroslav Hrejzek en Juraj Vokoun, die in 1918 voor de Tsjechoslowaakse vrijheid sneuvelden, en vrijwilliger Ján Tupý, die in december 1918 werd gedood bij het verdrijven van Hongaarse eenheden uit de streek. De stad herdenkt ook partizaan Ján Paľo, geboren in 1916 en gesneuveld op 13 september 1944 tijdens de Slowaakse Nationale Opstand; zijn geboortehuis draagt een gedenkplaat."
+        },
+        {
+          "id": "fact_011",
+          "title": "Gemeentemuseum Nemšová – archeologie, glas en unieke militaire cartografie",
+          "text": "Het gemeentemuseum is gevestigd in een gerenoveerd voormalig bedrijfsgebouw en presenteert vijf afdelingen: archeologie, geschiedenis, etnografie, glas en militaire studies. De archeologische tentoonstelling omvat mammoetbotten, stenen werktuigen uit de steenfabriek van Nemšová en vondsten uit de begraafplaats van Ľuborča, waaronder een dubbelzijdige bronzen bijl en een dolk. De glasafdeling toont producten van de plaatselijke fabriek. Het grootste deel is gewijd aan militaire topografie, cartografie en druktechniek, een tentoonstelling die volgens de stad uniek is in Slowakije. De toegang is gratis en het gebouw is toegankelijk."
+        },
+        {
+          "id": "fact_012",
+          "title": "Dubnické štrkovisko – beschermd vogelgebied dat deels in het grondgebied van Nemšová ligt",
+          "text": "Het vogelbeschermingsgebied Dubnické štrkovisko (SKCHVU006) beslaat 41,093 hectare en werd in 2004 aangewezen. Het strekt zich uit over de kadastrale gebieden Borčice, Dubnica nad Váhom en Nemšová; een deel ervan ligt dus binnen dit postgebied. Het water ontstond door grindwinning en latere overstroming met grondwater. Het vormt een vervangend wetland in de uiterwaarden van de Váh, waarvan de natuurlijke habitats sterk zijn veranderd door de regulering van de rivier. Er worden 24 vogelsoorten beschermd, waaronder woudaap, purperreiger, zwarte ooievaar en visdief."
+        }
+      ]
+    }
+  },
+  "district_type": null,
+  "status": "validated"
 }
