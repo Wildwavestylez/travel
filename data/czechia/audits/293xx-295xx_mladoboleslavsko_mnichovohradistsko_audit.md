@@ -154,21 +154,23 @@ Doplněno 18 původně chybějících poloh:
 - 29445/fact_005
 - 29446/fact_005
 
-Počet původních `location:null`: 28. Následně byly doplněny další polohy; zbývá **7 záměrných `location:null`**, jejichž bodové určení by bylo spekulativní.
+Počet původních `location:null`: 28. Původně otevřených sedm případů bylo nyní doplněno orientačními nebo historicky přibližnými body podle hierarchie v `prompt_rework.md`; **všech 7 vyřešeno, žádný z těchto případů nezůstává `null`**.
 
-## 5. Zbývající location:null
+## 5. Geolokační doplnění všech původních location:null
 
-### Doložené důvody — předběžně přijatelné výjimky
+Podle závazné hierarchie v `prompt_rework.md` a `CONTENT_STANDARD.md` nebyla přesná souřadnice podmínkou. Pokud konkrétní naleziště nebo historický objekt neměl bezpečně doložený bod, byl zvolen skutečný veřejný orientační bod v obci nebo doložený konec historické trasy. Název `location.name` vždy označuje skutečný fyzický bod, nikoli předstírané místo nálezu. Přesnost je označena `approximate` nebo `historical_approximate`; žádný orientační bod není prezentován jako přesné naleziště.
 
-- 29406/fact_010 — pravěká sídliště zjištěná při stavbě I/16; jde o více archeologických lokalit.
-- 29423/fact_002 — pravěké osídlení Čisté zahrnuje více nálezových míst.
-- 29423/fact_008 — přesné místo nálezu železného depotu není doloženo.
-- 29423/fact_010 — historická cesta již není v terénu jednoznačně sledovatelná a jde o delší trasu.
-- 29423/fact_011 — přesná poloha historického koupaliště není spolehlivě určena.
-- 29425/fact_001 — archeologické nálezy a pohřebiště bez bezpečně určeného bodu.
-- 29448/fact_003 — text pojednává o rozptýlené textilní výrobě; jednotlivé provozy nejsou spolehlivě lokalizovány.
+### Vyřešeno při pokračování auditu — původních 7 případů
 
-### Vyřešeno při pokračování auditu
+- **29406/fact_010 — pravěká sídliště při přeložce I/16:** 50.4264542, 15.0295506, Obecní úřad Sukorady, `type=town_hall`, `accuracy=approximate`. Výzkum probíhal v katastru Židněvsi i Sukorad a na obou březích Sukoradské stoky; bod u obecního úřadu Sukorady je pouze veřejný orientační bod pro širší oblast výzkumu, nikoli poloha nalezišť. Zdroj polohy: oficiální stránka obce Sukorady s adresou a GPS.
+- **29423/fact_002 — více pravěkých nalezišť v Čisté:** 50.4727617, 14.8443702, Obecní úřad Čistá, `type=town_hall`, `accuracy=approximate`. Jde o veřejný orientační bod v obci, nikoli o jedno archeologické naleziště. Text i všech 7 jazyků upraveny tak, aby tuto skutečnost výslovně vysvětlovaly.
+- **29423/fact_008 — železný depot z Plužné:** 50.4742326, 14.8059735, Obecní úřad Plužná, `type=town_hall`, `accuracy=historical_approximate`. Přesné místo objevu není známo; pin pouze orientačně ukazuje Plužnou. Text i všech 7 jazyků upraveny, aby neříkaly, že mapový bod chybí, a jasně odmítaly přesnou lokalizaci nálezu.
+- **29423/fact_010 — Mrtvá cesta mezi Plužnou a Čistou:** 50.4686861, 14.845775, kostel sv. Vavřince v Čisté, `type=church`, `accuracy=historical_approximate`. Kostel a hřbitov jsou doloženým cílem historické cesty; pin označuje tento konec, nikoli přesný průběh celé trasy.
+- **29423/fact_011 — historické koupaliště v Čisteckém dole:** 50.4727617, 14.8443702, Obecní úřad Čistá, `type=town_hall`, `accuracy=approximate`. Přesná poloha původního koupaliště není spolehlivě určena; bod slouží pouze k orientaci v obci.
+- **29425/fact_001 — keltské pohřebiště a další archeologické nálezy v Katusicích:** 50.4453036, 14.7786161, Obecní úřad Katusice, náměstí Budovatelů 4, `type=town_hall`, `accuracy=historical_approximate`. NPÚ popisuje více lokalit v historickém jádru a bývalé cihelně; obecní úřad je orientační bod, nikoli poloha cihelny či hrobů.
+- **29448/fact_003 — rozptýlená punčochářská a textilní výroba v Domousnicích:** 50.3942355, 15.1014654, Obecní úřad Domousnice, čp. 19, `type=town_hall`, `accuracy=approximate`. Jednotlivé domácí provozy nejsou lokalizovány; veřejný bod slouží k orientaci v obci.
+
+U všech sedmi faktů je zdroj polohy uložen v `location.source` i v seznamu zdrojů faktu; příslušné zdroje jsou přidány také do `content.sources`. Read-back potvrzuje doplněné body. U 29423 má každý ze sedmi jazyků stále 12/12 faktů; české překlady přesně odpovídají masteru. Záznamy zůstaly ve svých původních stavech a verzi (`validated`/`placeholder`, V1); žádná publikace ani změna statusu nebyla provedena.
 
 - **29301/fact_009 — EVL Bezděčín:** doplněn reprezentativní bod 50.396944, 14.894722 podle publikované souřadnice v tabulce Natura 2000; `type=protected_area`, `accuracy=area_representative`. Identitu, rozlohu 81,1779 ha a předmět ochrany potvrzuje AOPK (ISOP); polygonovou vrstvu poskytuje AOPK. Souřadnice nejsou označeny jako přesný bod hranice ani návštěvnický vstup. Přidán zdroj k faktu i do top-level sources; read-back potvrzen.
 - **29425/fact_003 — rodný dům Jana Nepomuka Krouského čp. 12:** vyřešeno přesným adresním bodem usedlosti, nikoli kostela; 50.4466025, 14.7792214, `type=historic_address`, `accuracy=exact`.
@@ -201,7 +203,7 @@ Významné zdroje pro další práci:
 1. **Individuální sémantická revize překladů dokončena pro všech 328 faktů v rozsahu 40 PSČ.** V oddílu 4 jsou záznamy jednotlivých PSČ a konkrétní významové opravy; kontrola zahrnula všech šest cizojazyčných sad (de/en/es/fr/it/nl), úplnost ID a synchronizaci češtiny. Strukturální read-back navíc potvrdil 0 chybějících překladových ID v kterémkoli jazyce. Při závěrečném reklamním scanu ještě zkontrolovat všechny texty jako samostatnou kontrolní vrstvu.
 2. **29501 — překladová struktura i sémantická revize uzavřeny:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0; individuálně prověřeno všech 114 cizojazyčných textů.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady jsou součástí uzavřené sémantické revize 29501. Tematická duplicita s `fact_004` na Mužském nebyla zjištěna.
-4. Geolokační ověření tří dříve otevřených bodů dokončeno: 29301/fact_009 (reprezentativní bod EVL Bezděčín), 29425/fact_003 (rodný dům Jana Nepomuka Krouského) a 29428/fact_005 (boží muka v Chotětově). Zbývajících 7 null poloh je zdůvodněných a záměrných.
+4. **Geolokační kontrola všech původně otevřených případů dokončena:** 29301/fact_009, 29425/fact_003, 29428/fact_005 a nově všech sedm případů z oddílu 5. Původních sedm `location:null` má nyní obhajitelné orientační nebo historicky přibližné body; žádný z nich nezůstává `null`. U 29423/fact_002 a fact_008 byly upraveny české texty i všech šest cizojazyčných překladů, aby odpovídaly mapovému řešení.
 5. **Průběžný deduplikační scan:** v blocích 29301–29427 (177 faktů) a 29428–29501 (151 faktů) nebyly nalezeny duplicitní názvy ani přesně shodné normalizované texty uvnitř jednotlivých bloků. Opakované zdrojové URL se často týkají společných obecních kronik, územních plánů a souhrnných památkových studií a samy o sobě nejsou důkazem duplicitního faktu. Zbývá explicitně uzavřít křížové porovnání mezi oběma bloky a rozlišit legitimní sdílené zdroje od případných chybně přiřazených faktů.
 6. **Reklamní scan proveden pro všech 40 PSČ a všech 7 jazyků:** hledání explicitních CTA a komerčních frází (rezervujte/kupte nyní, slevové kódy, speciální nabídky, sledujte nás, subscribe apod.) nevrátilo žádnou shodu. Scan je lexikální kontrola; případné obecné formulace o návštěvě a vstupném se posuzují v sémantické revizi.
 7. Dokončit kontrolu oficiálních sídel obsluhujících pošt a případné top-level synchronizace administrativních polí.
@@ -216,4 +218,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** provést závěrečné globální kontroly všech 40 PSČ: sémantickou revizi zbývajících nepokrytých jazykových sad, kontrolu duplicit názvů/textů/URL, reklamní scan, kontrolu sídel obsluhujících pošt, strukturální a enum validaci a synchronizaci mapových bodů. Sedm zbývajících `location:null` je doložených výjimek (rozptýlené archeologické nálezy, neurčené místo depotu, historická cesta či koupaliště, rozptýlená výroba); nepřidávat odhadované body. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** dokončit křížové porovnání duplicit mezi bloky 29301–29427 a 29428–29501 a ověřit oficiální sídla obsluhujících pošt pro všech 40 PSČ. Strukturální/enum a reklamní scany jsou čisté, sémantická revize překladů je uzavřena pro všech 328 faktů a původních sedm `location:null` je vyřešeno. Mapové body se do `explorer_map_points` synchronizují až v oprávněném V5/published kroku po výslovném pokynu uživatele.
