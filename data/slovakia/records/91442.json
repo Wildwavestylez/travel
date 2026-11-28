@@ -1,4 +1,572 @@
 {
   "postcode": "91442",
-  "status": "placeholder"
+  "status": "validated",
+  "city": "Horné Srnie",
+  "district": null,
+  "district_type": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_point": {
+    "lat": 48.9901745,
+    "lon": 18.1035343,
+    "source": "https://poi.oma.sk/w770983912",
+    "accuracy": "exact"
+  },
+  "access_point": {
+    "lat": 48.9933,
+    "lon": 18.09956,
+    "source": "https://postmapia.com/en/slovakia/trenciansky/horne-srnie/horne-srnie",
+    "accuracy": "exact"
+  },
+  "access_point_name": "Pošta Horné Srnie",
+  "access_point_address": "Potočná 2, 914 42 Horné Srnie, Slovakia",
+  "access_point_note": "Poštovní přístupový bod; není použit jako reprezentativní bod obce. Současné otevírací hodiny nebyly předmětem ověření.",
+  "geographic_scope": "PSČ 91442 je geografickým PSČ obce Horné Srnie. Obecní plánovací dokumentace uvádí místní sídla a osady Čakanov, Rajkovec, Zábava a Rybníky. Sidónia je historická přeshraniční lokalita spojená s obcí; dnešní státní hranice ji rozděluje a někdejší sklářský areál je na české straně, proto je zahrnut pouze jako přeshraniční historická souvislost, nikoli jako slovenský mapový bod.",
+  "photo": null,
+  "verification": {
+    "plz_source": "https://www.posta.sk/psc",
+    "geographic_test_data": true,
+    "access_point_verified": true,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Slovenská pošta – vyhľadávanie PSČ; potvrdenie obecnej adresy 914 42 Horné Srnie",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Pošta Horné Srnie, Potočná 2, 914 42 Horné Srnie. Pošta je vedena jako přístupový bod, nikoli jako reprezentativní bod obce.",
+    "postcode_override_reason": null,
+    "geographic_authority": "ŠÚ SR a UPVS pro správní zařazení; obecní plánovací dokumentace, ŠOP SR a CHKO Bílé Karpaty pro geografický rozsah a chráněná území; WGS84 body ověřeny pomocí OMA, Postmapia, Global Energy Monitor a MAS Vršatec."
+  },
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Horné Srnie – historická brána do Vlárského průsmyku",
+      "text": "Horné Srnie leží v údolí Vláry u vstupu do Vlárského průsmyku, kudy vedla významná spojnice Pováží a Moravy známá jako Via Regni. První písemná zmínka o obci pochází z roku 1439. Místní historické prameny připomínají kumánský vpád roku 1253 a husitský vpád roku 1431. K obci náleží sídla a osady Čakanov, Rajkovec, Zábava a Rybníky.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6"
+      ],
+      "map_category": "historical_monument",
+      "location": null
+    },
+    {
+      "id": "fact_002",
+      "title": "Ostrá hora a Biele hliny – pravěké osídlení a bronzový depot",
+      "text": "Archeologické nálezy v katastru Horného Srnia dokládají využívání radiolaritu už v paleolitu a pravěké osídlení v lokalitě Biele hliny. Na severním svahu Ostré hory byl na soutoku dvou pramenů uložen depot čtyř bronzových dvouramenných karpatských insignií. Archeometrická studie publikovaná roku 2023 datuje jejich dřevěné násady přibližně do 15.–13. století př. n. l., s hlavní fází kolem roku 1325 př. n. l. Nález je významný pro poznání rané lužické kultury a bronzového zpracování.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s9"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_003",
+      "title": "Kostel sv. Jana Nepomuckého – chrám z roku 1789",
+      "text": "Římskokatolický kostel sv. Jana Nepomuckého byl postaven roku 1789. V letech 1942–1943 prošel rozsáhlou přestavbou a znovu byl vysvěcen v roce 1943. V interiéru se zachoval cenný rokokový oltář a část staršího vybavení; kostel je hlavní sakrální dominantou obce. Původní stavbu z 18. století je proto třeba odlišovat od válečné přestavby.",
+      "category": "heritage_and_monuments",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6"
+      ],
+      "map_category": "religious_site",
+      "location": null
+    },
+    {
+      "id": "fact_004",
+      "title": "Sklárna v Sidónii a cementářská tradice Horného Srnia",
+      "text": "V historické pohraniční lokalitě Sidónia, spojené s katastrem Horného Srnia, vznikla roku 1788 sklářská huť, která fungovala do roku 1932. V roce 1922 zde proběhla dělnická stávka; po uzavření odešla část obyvatel za prací, mimo jiné do Egypta. Dnešní státní hranice rozdělila historickou lokalitu a samotný areál hutě leží na české straně. Na slovenské straně se rozvíjela cementářská výroba: vápenec se těžil od roku 1883, první pece zahájily výrobu cementu roku 1895 a moderní závod vznikl roku 1929. Dnes zde působí CEMMAC a.s.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Cementáreň CEMMAC Horné Srnie",
+        "address": null,
+        "lat": 48.997127,
+        "lon": 18.102172,
+        "type": "factory",
+        "accuracy": "exact",
+        "source": "https://www.gem.wiki/CEMMAC_Horne_Srnie_Cement_Plant"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Vlárská železnice – přeshraniční trať otevřená roku 1888",
+      "text": "Vlárská železnice vznikala v letech 1883–1888 a spojila Pováží s Moravou přes Vlárský průsmyk. Trať dlouhá přibližně 179 km se stala významnou přeshraniční dopravní osou; v Horním Srní má vlastní stanici. U státní hranice byl roku 1888 odhalen přibližně čtyřmetrový památník výstavby železnice. Hornosrnianska stanice je součástí tohoto historického spojení.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s6",
+        "s17"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Železničná stanica Horné Srnie",
+        "address": null,
+        "lat": 48.9974873,
+        "lon": 18.0993077,
+        "type": "railway_station",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n1796163868"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Válečná paměť Horného Srnia – Kríž vďaky a obranné pozice",
+      "text": "Na jaře 1945 bylo podle místních svědectví přibližně 80 mužů a chlapců shromážděno německou jednotkou a hrozila jim poprava; zásah místního obyvatele Pavla Chlebany měl pomoci jejich životy zachránit. Na Vŕšku byl roku 1946 z vděčnosti postaven Kríž vďaky. Obec připomíná také 28 mužů padlých v první světové válce pomníkem z roku 1927 a oběti druhé světové války a SNP památníkem z roku 1967. Na konci války zde německá armáda vybudovala betonové protitankové zátarasy a dvě kulometné pozice; tyto pozůstatky dokládají strategický význam Vlárského průsmyku.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "map_category": "war_memorial",
+      "location": null
+    },
+    {
+      "id": "fact_007",
+      "title": "Rajkovec, Vlára a minerální prameny – přírodní dědictví obce",
+      "text": "V katastru obce se nachází přírodní památka Rajkovec, vyhlášená roku 1992 na ploše přibližně 0,94 ha; chrání vlhkou louku s bohatou orchidejovou flórou. Říční koridor Vláry je veden v soustavě Natura 2000 jako SKUEV0148 Rieka Vlára; obecní plán z roku 2018 uvádí 62,23 ha a význam toku pro čtyři druhy ryb evropského významu. Asi 3 km severně od obce leží minerální pramen s teplotou kolem 12 °C a vydatností přibližně 1 l/min. Prameny Stará rieka a minerální pramen byly zahrnuty do revitalizace s odpočinkovým místem a informačními tabulemi.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s10",
+        "s11",
+        "s15"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Minerálny prameň Horné Srnie",
+        "address": null,
+        "lat": 49.0127156,
+        "lon": 18.0823014,
+        "type": "natural_feature",
+        "accuracy": "exact",
+        "source": "https://mapa.valasskeklobucko.cz/turisticke-cile/mineralny-pramen-v-hornom-srni/"
+      }
+    },
+    {
+      "id": "fact_008",
+      "title": "Srňan a Kamenček – folklorní tradice Horného Srnia",
+      "text": "Místní folklorní život reprezentuje soubor Srňan, dětská skupina Kamenček a ženský pěvecký sbor. Obecní zpravodaj z roku 2016 připomíná čtyřicetiletou historii souboru a uvádí, že v té době pokračovaly zejména ženský sbor a dětský kolektiv, zatímco taneční složka dospělého souboru byla neaktivní. Tradice zahrnují lidové písně, tance, kroje a každoroční tříkrálové zpívání.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s16",
+        "s12"
+      ],
+      "map_category": "local_culture",
+      "location": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – vyhľadávanie PSČ",
+      "url": "https://www.posta.sk/psc",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Obec Horné Srnie – oficiálne webové sídlo a adresa obecného úradu",
+      "url": "https://www.hornesrnie.sk/webove_sidlo/",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Obecný úrad Horné Srnie – poloha a adresa",
+      "url": "https://poi.oma.sk/w770983912",
+      "type": "other"
+    },
+    {
+      "id": "s4",
+      "title": "Pošta Horné Srnie – adresa a poloha",
+      "url": "https://postmapia.com/en/slovakia/trenciansky/horne-srnie/horne-srnie",
+      "type": "other"
+    },
+    {
+      "id": "s5",
+      "title": "UPVS – profil obce Horné Srnie: história, poloha, kostol a miestne prírodné pomery",
+      "url": "https://www.slovensko.sk/sk/lokality/_a1ddbf60-e3fb-4a6e-a5b7-d7c51b5d24f4",
+      "type": "official"
+    },
+    {
+      "id": "s6",
+      "title": "Obec Horné Srnie – Lipovec 1/2009: história obce, sklárska huť, kostol, železnica a cementáreň",
+      "url": "https://www.hornesrnie.sk/modules/file_storage/download.php?file=187a196c%7C1705&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s7",
+      "title": "CEMMAC – História cementárne v Hornom Srní",
+      "url": "https://www.cemmac.sk/historia/",
+      "type": "official"
+    },
+    {
+      "id": "s8",
+      "title": "Global Energy Monitor – CEMMAC Horne Srnie Cement Plant: WGS84 poloha",
+      "url": "https://www.gem.wiki/CEMMAC_Horne_Srnie_Cement_Plant",
+      "type": "specialist"
+    },
+    {
+      "id": "s9",
+      "title": "Archaeometry – Horné Srnie: Emulation of Carpathian insignia during the Urnfield inflation",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.12917",
+      "type": "specialist"
+    },
+    {
+      "id": "s10",
+      "title": "Obec Horné Srnie – Program odpadového hospodárstva / PHSR 2016–2020: miestne lokality a prírodné územia",
+      "url": "https://www.hornesrnie.sk/e_download.php?file=data%2Feditor%2F111sk_5.pdf&original=POH_2016_2020.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s11",
+      "title": "ŠOP SR – CHKO Biele Karpaty: Prírodná pamiatka Rajkovec",
+      "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s12",
+      "title": "Obec Horné Srnie – Lipovec 1/2015: Kríž vďaky a vojnové pamätníky",
+      "url": "https://www.hornesrnie.sk/modules/file_storage/download.php?file=421735d4%7C1687&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s13",
+      "title": "Karpatský archív – Kríž vďaky na Vŕšku",
+      "url": "https://karpatskyarchiv.eu/sk/digitalnyarchiv/kriz-vdaky-na-vrsku/",
+      "type": "specialist"
+    },
+    {
+      "id": "s14",
+      "title": "Trenčiansky samosprávny kraj – Historická cyklotrasa: Horné Srnie a Vlársky priesmyk",
+      "url": "https://www.cyklotrasytsk.sk/buxus/docs/dokumenty/na_stiahnutie/na_bicykli_po_stopach_historie_od_hradu_k_hradu_1/Tabula_V._Nemsova_a_Vlarsky_priesmyk.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s15",
+      "title": "MAS Vršatec – Minerálny prameň v Hornom Srní: poloha a parametre vody",
+      "url": "https://mapa.valasskeklobucko.cz/turisticke-cile/mineralny-pramen-v-hornom-srni/",
+      "type": "regional"
+    },
+    {
+      "id": "s16",
+      "title": "Obec Horné Srnie – Lipovec 2/2016: Folklórna skupina Srňan a detská skupina Kamenček",
+      "url": "https://www.hornesrnie.sk/modules/file_storage/download.php?file=cc8f7930%7C1683&inline=1",
+      "type": "official"
+    },
+    {
+      "id": "s17",
+      "title": "Železničná stanica Horné Srnie – poloha",
+      "url": "https://poi.oma.sk/n1796163868",
+      "type": "other"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – historisches Tor zum Wlarapass",
+          "text": "Horné Srnie liegt im Tal der Vlára am Eingang zum Wlarapass, einer wichtigen Verbindung zwischen dem Waagtal und Mähren, bekannt als Via Regni. Die erste schriftliche Erwähnung stammt aus dem Jahr 1439. Örtliche Quellen berichten von einem Kumaneneinfall 1253 und einem Hussiteneinfall 1431. Zur Gemeinde gehören Čakanov, Rajkovec, Zábava und Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora und Biele hliny – vorgeschichtliche Besiedlung und Bronzehort",
+          "text": "Funde im Katastergebiet belegen die Nutzung von Radiolarit bereits im Paläolithikum und eine vorgeschichtliche Besiedlung bei Biele hliny. Am Nordhang von Ostrá hora wurde am Zusammenfluss zweier Quellen ein Hort aus vier bronzenen karpatischen Doppelinsignien niedergelegt. Eine 2023 veröffentlichte archäometrische Studie datiert die Holzschäfte ungefähr ins 15.–13. Jahrhundert v. Chr., mit einem Schwerpunkt um 1325 v. Chr. Der Fund ist wichtig für die Erforschung der frühen Lausitzer Kultur."
+        },
+        {
+          "id": "fact_003",
+          "title": "Kirche des heiligen Johannes Nepomuk – Gotteshaus von 1789",
+          "text": "Die römisch-katholische Kirche des heiligen Johannes Nepomuk wurde 1789 errichtet. 1942–1943 wurde sie umfassend umgebaut und 1943 erneut geweiht. Im Inneren blieben ein wertvoller Rokokoaltar und Teile der älteren Ausstattung erhalten. Sie ist das wichtigste sakrale Wahrzeichen der Gemeinde."
+        },
+        {
+          "id": "fact_004",
+          "title": "Glashütte in Sidónia und Zementtradition von Horné Srnie",
+          "text": "In der historischen Grenzregion Sidónia entstand 1788 eine Glashütte, die bis 1932 betrieben wurde. 1922 kam es zu einem Arbeiterstreik; nach der Schließung wanderten einige Einwohner aus, unter anderem nach Ägypten. Die heutige Staatsgrenze teilt das Gebiet; das ehemalige Hüttengelände liegt auf tschechischer Seite. Auf slowakischer Seite entwickelte sich die Zementindustrie: Kalksteinabbau seit 1883, erste Öfen 1895 und ein modernes Werk ab 1929. Heute ist dort CEMMAC tätig."
+        },
+        {
+          "id": "fact_005",
+          "title": "Vlára-Bahn – grenzüberschreitende Strecke seit 1888",
+          "text": "Die Vlára-Bahn wurde zwischen 1883 und 1888 gebaut und verband das Waagtal über den Wlarapass mit Mähren. Die etwa 179 Kilometer lange Strecke wurde zu einer wichtigen Verkehrsachse; Horné Srnie besitzt einen eigenen Bahnhof. An der Staatsgrenze wurde 1888 ein etwa vier Meter hohes Denkmal zur Erinnerung an den Bahnbau enthüllt."
+        },
+        {
+          "id": "fact_006",
+          "title": "Kriegserinnerung von Horné Srnie – Dankeskreuz und Verteidigungsstellungen",
+          "text": "Nach örtlichen Zeugenaussagen wurden im Frühjahr 1945 etwa 80 Männer und Jungen von einer deutschen Einheit zusammengetrieben und mit Erschießung bedroht; das Eingreifen des Einwohners Pavol Chlebana soll ihr Leben gerettet haben. Aus Dankbarkeit errichteten die Bewohner 1946 auf dem Vŕšok das Kríž vďaky. Ein Denkmal von 1927 erinnert an 28 Gefallene des Ersten Weltkriegs, ein weiteres von 1967 an Opfer des Zweiten Weltkriegs und des Slowakischen Nationalaufstands. Am Kriegsende baute die deutsche Armee Beton-Panzerhindernisse und zwei Maschinengewehrstellungen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, Vlára und Mineralquellen – Naturerbe der Gemeinde",
+          "text": "Im Gemeindegebiet liegt das 1992 ausgewiesene Naturdenkmal Rajkovec mit etwa 0,94 Hektar; es schützt eine feuchte Wiese mit reicher Orchideenflora. Der Flusskorridor der Vlára gehört als SKUEV0148 Rieka Vlára zum Natura-2000-Netz. Der Gemeindeplan von 2018 nennt 62,23 Hektar und vier Fischarten von europäischem Interesse. Etwa drei Kilometer nördlich liegt eine Mineralquelle mit ungefähr 12 °C und rund einem Liter pro Minute. Die Quellen Stará rieka und Mineralquelle wurden mit Rastplatz und Informationstafeln revitalisiert."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan und Kamenček – Folkloretraditionen von Horné Srnie",
+          "text": "Das örtliche Folkloreleben wird durch die Gruppe Srňan, die Kindergruppe Kamenček und einen Frauenchor repräsentiert. Der Gemeindebote von 2016 erinnert an die vierzigjährige Geschichte der Gruppe: Damals arbeiteten vor allem der Frauenchor und das Kinderensemble weiter, während die Erwachsenentanzgruppe inaktiv war. Zu den Traditionen gehören Volkslieder, Tänze, Trachten und das jährliche Dreikönigssingen."
+        }
+      ]
+    },
+    "de": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – historic gateway to the Vlára Pass",
+          "text": "Horné Srnie lies in the Vlára valley at the entrance to the Vlára Pass, a historic route linking the Váh region with Moravia, known as the Via Regni. The first written record dates to 1439. Local sources mention a Cuman raid in 1253 and a Hussite incursion in 1431. The municipality includes Čakanov, Rajkovec, Zábava and Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora and Biele hliny – prehistoric settlement and Bronze Age hoard",
+          "text": "Finds in the cadastral area show radiolarite use as early as the Palaeolithic and prehistoric settlement at Biele hliny. On the northern slope of Ostrá hora, a hoard of four bronze double-armed Carpathian insignia was deposited where two springs meet. A 2023 archaeometric study dates their wooden shafts broadly to the 15th–13th centuries BCE, with a central phase around 1325 BCE. The find is important for research on early Lusatian culture."
+        },
+        {
+          "id": "fact_003",
+          "title": "Church of St John of Nepomuk – a church dating from 1789",
+          "text": "The Roman Catholic Church of St John of Nepomuk was built in 1789. It underwent major reconstruction in 1942–1943 and was reconsecrated in 1943. A valuable Rococo altar and parts of the older furnishings have survived. It is the village’s main religious landmark."
+        },
+        {
+          "id": "fact_004",
+          "title": "Sidónia glassworks and the cement-making tradition of Horné Srnie",
+          "text": "A glassworks was established in the historic border locality of Sidónia in 1788 and operated until 1932. A workers’ strike took place there in 1922; after closure, some residents left for work elsewhere, including Egypt. The present border divides the historic locality, and the former glassworks site is now on the Czech side. On the Slovak side, limestone quarrying began in 1883, the first cement kilns operated from 1895 and a modern plant was built in 1929. CEMMAC operates there today."
+        },
+        {
+          "id": "fact_005",
+          "title": "Vlára railway – a cross-border line opened in 1888",
+          "text": "The Vlára railway was built between 1883 and 1888, linking the Váh region with Moravia through the Vlára Pass. The approximately 179-kilometre line became an important cross-border corridor, with a station in Horné Srnie. A roughly four-metre monument commemorating the railway’s construction was unveiled at the state border in 1888."
+        },
+        {
+          "id": "fact_006",
+          "title": "Wartime memory in Horné Srnie – the Cross of Gratitude and defensive positions",
+          "text": "Local accounts say that in spring 1945 a German unit gathered about 80 men and boys and threatened to execute them; intervention by resident Pavol Chlebana reportedly helped save their lives. Villagers erected the Kríž vďaky (Cross of Gratitude) on Vŕšok in 1946. A 1927 memorial commemorates 28 men killed in the First World War, and a 1967 monument remembers victims of the Second World War and the Slovak National Uprising. At the end of the war, German forces built concrete anti-tank obstacles and two machine-gun positions in the area."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, the Vlára and mineral springs – the municipality’s natural heritage",
+          "text": "The municipality contains the Rajkovec Natural Monument, designated in 1992 and covering about 0.94 hectares; it protects a wet meadow rich in orchids. The Vlára river corridor is part of Natura 2000 as SKUEV0148 Rieka Vlára. The 2018 municipal plan lists 62.23 hectares and notes four fish species of European interest. About three kilometres north of the village is a mineral spring at around 12°C, flowing at roughly one litre per minute. The Stará rieka and mineral springs were revitalised with a rest area and information panels."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan and Kamenček – folk traditions of Horné Srnie",
+          "text": "Local folk culture is represented by the Srňan ensemble, the children’s group Kamenček and a women’s choir. A 2016 municipal newsletter marked the ensemble’s forty-year history and reported that the women’s choir and children’s group continued at that time, while the adult dance section was inactive. Traditions include folk songs, dances, costumes and annual Three Kings singing."
+        }
+      ]
+    },
+    "en": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – puerta histórica al paso de Vlára",
+          "text": "Horné Srnie se encuentra en el valle del Vlára, junto al paso que comunicaba la región del Váh con Moravia y era conocido como Via Regni. La primera mención escrita data de 1439. Las fuentes locales recuerdan una incursión cumana en 1253 y otra husita en 1431. El municipio incluye Čakanov, Rajkovec, Zábava y Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora y Biele hliny – asentamiento prehistórico y tesoro de bronce",
+          "text": "Los hallazgos del término municipal demuestran el uso de radiolarita desde el Paleolítico y un asentamiento prehistórico en Biele hliny. En la ladera norte de Ostrá hora, donde confluyen dos manantiales, se depositó un tesoro de cuatro insignias broncíneas carpatianas de doble brazo. Un estudio arqueométrico de 2023 fecha sus mangos de madera, en términos generales, entre los siglos XV y XIII a. C., con una fase central hacia 1325 a. C."
+        },
+        {
+          "id": "fact_003",
+          "title": "Iglesia de San Juan Nepomuceno – templo de 1789",
+          "text": "La iglesia católica romana de San Juan Nepomuceno fue construida en 1789. Entre 1942 y 1943 pasó por una reconstrucción importante y fue consagrada de nuevo en 1943. Se conservan un valioso altar rococó y parte del mobiliario antiguo. Es el principal referente religioso del municipio."
+        },
+        {
+          "id": "fact_004",
+          "title": "Vidriería de Sidónia y tradición cementera de Horné Srnie",
+          "text": "En la localidad fronteriza histórica de Sidónia se estableció una fábrica de vidrio en 1788 que funcionó hasta 1932. En 1922 hubo una huelga; tras el cierre, algunos habitantes emigraron, entre otros destinos a Egipto. La frontera actual divide la localidad y el antiguo recinto se encuentra en el lado checo. En el lado eslovaco, la extracción de caliza comenzó en 1883, los primeros hornos produjeron cemento en 1895 y en 1929 se construyó una planta moderna. Hoy opera allí CEMMAC."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ferrocarril de Vlára – línea transfronteriza inaugurada en 1888",
+          "text": "El ferrocarril de Vlára se construyó entre 1883 y 1888 y conectó la región del Váh con Moravia a través del paso de Vlára. La línea, de unos 179 kilómetros, se convirtió en un importante corredor transfronterizo y cuenta con una estación en Horné Srnie. En 1888 se inauguró junto a la frontera un monumento de unos cuatro metros dedicado a su construcción."
+        },
+        {
+          "id": "fact_006",
+          "title": "Memoria bélica de Horné Srnie – la Cruz de la Gratitud y posiciones defensivas",
+          "text": "Según testimonios locales, en la primavera de 1945 una unidad alemana reunió a unos 80 hombres y muchachos y amenazó con ejecutarlos; la intervención de Pavol Chlebana habría contribuido a salvarles la vida. En 1946 los habitantes erigieron en Vŕšok la Kríž vďaky, la Cruz de la Gratitud. Un monumento de 1927 recuerda a 28 caídos de la Primera Guerra Mundial y otro de 1967 a las víctimas de la Segunda Guerra Mundial y del Levantamiento Nacional Eslovaco. Al final de la guerra, el ejército alemán construyó obstáculos antitanque de hormigón y dos posiciones de ametralladora."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, el Vlára y los manantiales minerales – patrimonio natural del municipio",
+          "text": "El municipio alberga el monumento natural de Rajkovec, declarado en 1992 y de unas 0,94 hectáreas, que protege una pradera húmeda rica en orquídeas. El corredor fluvial del Vlára forma parte de Natura 2000 como SKUEV0148 Rieka Vlára. El plan municipal de 2018 indica 62,23 hectáreas y cuatro especies de peces de interés europeo. A unos tres kilómetros al norte se encuentra un manantial mineral de unos 12 °C y caudal aproximado de un litro por minuto. Los manantiales Stará rieka y mineral fueron restaurados con zona de descanso y paneles informativos."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan y Kamenček – tradiciones folclóricas de Horné Srnie",
+          "text": "La cultura folclórica local está representada por el conjunto Srňan, el grupo infantil Kamenček y un coro femenino. Un boletín municipal de 2016 recordó los cuarenta años de historia del conjunto e indicó que entonces continuaban el coro femenino y el grupo infantil, mientras que la sección de danza adulta estaba inactiva. Las tradiciones incluyen canciones, bailes, trajes populares y el canto anual de los Reyes Magos."
+        }
+      ]
+    },
+    "es": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – porte historique du col de la Vlára",
+          "text": "Horné Srnie se trouve dans la vallée de la Vlára, à l’entrée du col qui reliait la région de la Váh à la Moravie et était connu sous le nom de Via Regni. La première mention écrite date de 1439. Les sources locales évoquent une incursion coumane en 1253 et une incursion hussite en 1431. La commune comprend Čakanov, Rajkovec, Zábava et Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora et Biele hliny – habitat préhistorique et dépôt de bronze",
+          "text": "Les découvertes sur le territoire communal attestent l’utilisation du radiolarite dès le Paléolithique et un habitat préhistorique à Biele hliny. Sur le versant nord d’Ostrá hora, au confluent de deux sources, fut déposé un trésor de quatre insignes carpathiques en bronze à double bras. Une étude archéométrique de 2023 date leurs manches en bois des XVe–XIIIe siècles av. J.-C., avec une phase centrale autour de 1325 av. J.-C."
+        },
+        {
+          "id": "fact_003",
+          "title": "Église Saint-Jean-Népomucène – édifice de 1789",
+          "text": "L’église catholique romaine Saint-Jean-Népomucène fut construite en 1789. Elle fut largement reconstruite en 1942–1943 et consacrée de nouveau en 1943. Un précieux autel rococo et une partie du mobilier ancien ont été conservés. Elle constitue le principal monument religieux de la commune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Verrerie de Sidónia et tradition cimentière de Horné Srnie",
+          "text": "Une verrerie fut créée en 1788 dans la région frontalière historique de Sidónia et fonctionna jusqu’en 1932. Une grève ouvrière eut lieu en 1922 ; après la fermeture, certains habitants partirent travailler ailleurs, notamment en Égypte. La frontière actuelle divise cette localité et l’ancien site se trouve du côté tchèque. Du côté slovaque, l’extraction du calcaire commença en 1883, les premiers fours produisirent du ciment en 1895 et une usine moderne fut construite en 1929. CEMMAC y est aujourd’hui implantée."
+        },
+        {
+          "id": "fact_005",
+          "title": "Chemin de fer de la Vlára – ligne transfrontalière ouverte en 1888",
+          "text": "Le chemin de fer de la Vlára fut construit entre 1883 et 1888 et relia la région de la Váh à la Moravie par le col de la Vlára. Cette ligne d’environ 179 kilomètres devint un axe transfrontalier important ; Horné Srnie possède sa propre gare. Un monument d’environ quatre mètres commémorant sa construction fut inauguré à la frontière en 1888."
+        },
+        {
+          "id": "fact_006",
+          "title": "Mémoire de guerre de Horné Srnie – Croix de gratitude et positions défensives",
+          "text": "Selon des témoignages locaux, au printemps 1945 une unité allemande rassembla environ 80 hommes et garçons et les menaça d’exécution ; l’intervention de Pavol Chlebana aurait contribué à leur sauver la vie. En 1946, les habitants érigèrent sur le Vŕšok la Kríž vďaky, la Croix de gratitude. Un monument de 1927 commémore 28 morts de la Première Guerre mondiale et un autre, inauguré en 1967, les victimes de la Seconde Guerre mondiale et du Soulèvement national slovaque. À la fin de la guerre, l’armée allemande construisit des obstacles antichars en béton et deux positions de mitrailleuses."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, la Vlára et les sources minérales – patrimoine naturel de la commune",
+          "text": "La commune abrite le monument naturel de Rajkovec, désigné en 1992 sur environ 0,94 hectare, qui protège une prairie humide riche en orchidées. Le corridor fluvial de la Vlára appartient au réseau Natura 2000 sous le code SKUEV0148 Rieka Vlára. Le plan communal de 2018 indique 62,23 hectares et quatre espèces de poissons d’intérêt européen. À environ trois kilomètres au nord se trouve une source minérale à près de 12 °C, avec un débit d’environ un litre par minute. Les sources Stará rieka et minérale ont été revitalisées avec un espace de repos et des panneaux."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan et Kamenček – traditions folkloriques de Horné Srnie",
+          "text": "La vie folklorique locale est représentée par l’ensemble Srňan, le groupe d’enfants Kamenček et une chorale féminine. Un bulletin communal de 2016 a rappelé les quarante ans d’histoire de l’ensemble : à cette époque, la chorale et le groupe d’enfants poursuivaient leurs activités, tandis que la section de danse adulte était inactive. Les traditions comprennent chants, danses, costumes et chants de l’Épiphanie."
+        }
+      ]
+    },
+    "fr": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – porta storica del passo della Vlára",
+          "text": "Horné Srnie si trova nella valle della Vlára, all’ingresso del passo che collegava la regione del Váh alla Moravia ed era noto come Via Regni. La prima menzione scritta risale al 1439. Le fonti locali ricordano un’incursione cumana nel 1253 e una ussita nel 1431. Il comune comprende Čakanov, Rajkovec, Zábava e Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora e Biele hliny – insediamento preistorico e ripostiglio bronzeo",
+          "text": "I reperti attestano l’uso della radiolarite già nel Paleolitico e un insediamento preistorico a Biele hliny. Sul versante nord di Ostrá hora, alla confluenza di due sorgenti, fu deposto un ripostiglio di quattro insegne carpatine in bronzo a doppio braccio. Uno studio archeometrico del 2023 data i manici lignei tra il XV e il XIII secolo a.C., con una fase centrale intorno al 1325 a.C."
+        },
+        {
+          "id": "fact_003",
+          "title": "Chiesa di San Giovanni Nepomuceno – edificio del 1789",
+          "text": "La chiesa cattolica romana di San Giovanni Nepomuceno fu costruita nel 1789. Tra il 1942 e il 1943 subì un’importante ricostruzione e fu riconsacrata nel 1943. Si sono conservati un prezioso altare rococò e parte degli arredi antichi. È il principale punto di riferimento religioso del comune."
+        },
+        {
+          "id": "fact_004",
+          "title": "Vetreria di Sidónia e tradizione cementiera di Horné Srnie",
+          "text": "Nel 1788 fu fondata una vetreria nella storica località di confine di Sidónia, attiva fino al 1932. Nel 1922 vi fu uno sciopero; dopo la chiusura alcuni abitanti emigrarono anche in Egitto. L’attuale confine divide la località e l’ex stabilimento si trova sul lato ceco. Sul lato slovacco l’estrazione del calcare iniziò nel 1883, i primi forni produssero cemento nel 1895 e nel 1929 fu costruito un impianto moderno. Oggi vi opera CEMMAC."
+        },
+        {
+          "id": "fact_005",
+          "title": "Ferrovia della Vlára – linea transfrontaliera aperta nel 1888",
+          "text": "La ferrovia della Vlára fu costruita tra il 1883 e il 1888 e collegò la regione del Váh con la Moravia attraverso il passo della Vlára. La linea, lunga circa 179 chilometri, divenne un importante collegamento transfrontaliero e dispone di una stazione a Horné Srnie. Nel 1888 fu inaugurato al confine un monumento alto circa quattro metri dedicato alla sua costruzione."
+        },
+        {
+          "id": "fact_006",
+          "title": "Memoria bellica di Horné Srnie – Croce della Gratitudine e postazioni difensive",
+          "text": "Secondo testimonianze locali, nella primavera del 1945 un reparto tedesco radunò circa 80 uomini e ragazzi e minacciò di fucilarli; l’intervento di Pavol Chlebana avrebbe contribuito a salvarli. Nel 1946 gli abitanti eressero sul Vŕšok la Kríž vďaky, la Croce della Gratitudine. Un monumento del 1927 ricorda 28 caduti della Prima guerra mondiale e un altro, del 1967, le vittime della Seconda guerra mondiale e dell’Insurrezione nazionale slovacca. Alla fine della guerra i tedeschi costruirono ostacoli anticarro in cemento e due postazioni di mitragliatrici."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, la Vlára e le sorgenti minerali – patrimonio naturale del comune",
+          "text": "Il comune ospita il monumento naturale di Rajkovec, istituito nel 1992 su circa 0,94 ettari, che protegge un prato umido ricco di orchidee. Il corridoio fluviale della Vlára fa parte della rete Natura 2000 con il codice SKUEV0148 Rieka Vlára. Il piano comunale del 2018 indica 62,23 ettari e quattro specie ittiche di interesse europeo. Circa tre chilometri a nord si trova una sorgente minerale a circa 12 °C, con portata di un litro al minuto. Le sorgenti Stará rieka e minerale sono state riqualificate con area di sosta e pannelli informativi."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan e Kamenček – tradizioni folkloristiche di Horné Srnie",
+          "text": "La vita folkloristica locale è rappresentata dal gruppo Srňan, dal gruppo per bambini Kamenček e da un coro femminile. Un bollettino comunale del 2016 ha ricordato i quarant’anni di storia del gruppo: allora proseguivano soprattutto il coro femminile e il gruppo infantile, mentre la sezione di danza degli adulti era inattiva. Le tradizioni comprendono canti popolari, danze, costumi e il canto dell’Epifania."
+        }
+      ]
+    },
+    "it": {
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Horné Srnie – historische toegangspoort tot de Vlárapas",
+          "text": "Horné Srnie ligt in het dal van de Vlára, bij de pas die de Váhstreek met Moravië verbond en bekendstond als de Via Regni. De eerste schriftelijke vermelding dateert uit 1439. Lokale bronnen noemen een inval van de Koemanen in 1253 en van de Hussieten in 1431. Tot de gemeente behoren Čakanov, Rajkovec, Zábava en Rybníky."
+        },
+        {
+          "id": "fact_002",
+          "title": "Ostrá hora en Biele hliny – prehistorische nederzetting en bronsschat",
+          "text": "Vondsten tonen het gebruik van radiolariet vanaf het paleolithicum en een prehistorische nederzetting bij Biele hliny. Op de noordhelling van Ostrá hora werd bij twee samenkomende bronnen een schat van vier bronzen dubbelarmige Karpathische insignia begraven. Een archeometrische studie uit 2023 dateert de houten schachten globaal in de 15e–13e eeuw v.Chr., met een zwaartepunt rond 1325 v.Chr."
+        },
+        {
+          "id": "fact_003",
+          "title": "Johannes-Nepomukkerk – kerkgebouw uit 1789",
+          "text": "De rooms-katholieke Johannes-Nepomukkerk werd in 1789 gebouwd. In 1942–1943 onderging zij een ingrijpende verbouwing en in 1943 werd zij opnieuw ingewijd. Een waardevol rococoaltaar en delen van de oudere inrichting zijn bewaard gebleven. De kerk is het belangrijkste religieuze herkenningspunt van de gemeente."
+        },
+        {
+          "id": "fact_004",
+          "title": "Glasfabriek in Sidónia en de cementtraditie van Horné Srnie",
+          "text": "In de historische grensplaats Sidónia werd in 1788 een glasfabriek opgericht die tot 1932 in bedrijf bleef. In 1922 vond er een arbeidersstaking plaats; na de sluiting vertrokken sommige inwoners, onder meer naar Egypte. De huidige staatsgrens verdeelt de plaats en het voormalige fabrieksterrein ligt nu aan de Tsjechische kant. Aan de Slowaakse kant begon de kalksteenwinning in 1883, produceerden de eerste ovens cement vanaf 1895 en werd in 1929 een moderne fabriek gebouwd. CEMMAC is er tegenwoordig actief."
+        },
+        {
+          "id": "fact_005",
+          "title": "Vláraspoorlijn – grensoverschrijdende verbinding geopend in 1888",
+          "text": "De Vláraspoorlijn werd tussen 1883 en 1888 aangelegd en verbond de Váhstreek via de Vlárapas met Moravië. De ongeveer 179 kilometer lange lijn werd een belangrijke grensoverschrijdende route; Horné Srnie heeft een eigen station. Bij de staatsgrens werd in 1888 een monument van ongeveer vier meter onthuld ter herinnering aan de aanleg."
+        },
+        {
+          "id": "fact_006",
+          "title": "Oorlogsherinnering van Horné Srnie – het Kruis van Dankbaarheid en verdedigingsposities",
+          "text": "Volgens lokale getuigenissen bracht een Duitse eenheid in het voorjaar van 1945 ongeveer 80 mannen en jongens bijeen en dreigde hen te executeren; het ingrijpen van Pavol Chlebana zou hun leven hebben gered. In 1946 richtten de inwoners op de Vŕšok het Kríž vďaky, het Kruis van Dankbaarheid, op. Een monument uit 1927 herdenkt 28 gesneuvelden uit de Eerste Wereldoorlog en een monument uit 1967 slachtoffers van de Tweede Wereldoorlog en de Slowaakse Nationale Opstand. Aan het einde van de oorlog bouwde het Duitse leger betonnen antitankhindernissen en twee mitrailleurstellingen."
+        },
+        {
+          "id": "fact_007",
+          "title": "Rajkovec, de Vlára en mineraalbronnen – natuurlijk erfgoed van de gemeente",
+          "text": "De gemeente omvat het natuurmonument Rajkovec, dat in 1992 werd aangewezen en ongeveer 0,94 hectare beslaat; het beschermt een vochtig grasland met veel orchideeën. De riviercorridor van de Vlára maakt deel uit van Natura 2000 als SKUEV0148 Rieka Vlára. Het gemeentelijke plan uit 2018 noemt 62,23 hectare en vier vissoorten van Europees belang. Ongeveer drie kilometer ten noorden van het dorp ligt een mineraalbron van circa 12 °C met een debiet van ongeveer één liter per minuut. De bronnen Stará rieka en de mineraalbron zijn hersteld met een rustplaats en informatiepanelen."
+        },
+        {
+          "id": "fact_008",
+          "title": "Srňan en Kamenček – folkloristische tradities van Horné Srnie",
+          "text": "De lokale volkscultuur wordt vertegenwoordigd door de groep Srňan, de kindergroep Kamenček en een vrouwenkoor. Een gemeentelijke nieuwsbrief uit 2016 herdacht het veertigjarig bestaan van het ensemble en meldde dat toen vooral het vrouwenkoor en de kindergroep doorgingen, terwijl de volwassen dansafdeling niet actief was. De tradities omvatten volksliederen, dansen, klederdracht en het jaarlijkse Driekoningenzingen."
+        }
+      ]
+    },
+    "nl": {
+      "facts": [
+        {
+          "id": "fact_001"
+        },
+        {
+          "id": "fact_002"
+        },
+        {
+          "id": "fact_003"
+        },
+        {
+          "id": "fact_004"
+        },
+        {
+          "id": "fact_005"
+        },
+        {
+          "id": "fact_006"
+        },
+        {
+          "id": "fact_007"
+        },
+        {
+          "id": "fact_008"
+        }
+      ]
+    }
+  }
 }
