@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29479; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29501; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -137,6 +137,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29477 Mečeříž:** 5/5 faktů v každém ze 7 jazyků; 5 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 30 cizojazyčných textů. Zachována opatrná formulace první zmínky a zaniklé tvrze podle NPÚ, tradice o pokladu po požáru roku 1620 jasně označena jako pověst, odděleny stavební fáze kostela a zvonice, ověřena technická chronologie vodojemu a biografické údaje Karla Trinkewitze; bez nutnosti obsahových oprav.
 - **29478 Dolní Slivno / Horní Slivno / Slivínko:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 48 cizojazyčných textů. Zachována nejistota vztahu první zmínky z roku 1223 k dnešním třem sídlům, odděleny stavební fáze tvrze a zámku v Dolním Slivně, archeologická lokalita Slivínko, zaniklá tvrz, Sokolovna a paměť Miroslava Tyrše; bez nutnosti obsahových oprav.
 - **29479 Košátky / Horní Slivno / Krpy / Kropáčova Vrutice / Sušno / Hřivno:** 9/9 faktů v každém ze 7 jazyků; 9 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 54 cizojazyčných textů. Zachována chronologie košáteckého zámku, dvě odlišné tvrze v Horním Slivně s jednou dosud nelokalizovanou, přestavba kostela sv. Martina, požár 1893, farní centrum v Krpech, průmyslový rozvoj Kropáčovy Vrutice, životní dráha cestovatele Josefa Kořenského a církevní spor v Hřivně roku 1662; bez nutnosti obsahových oprav.
+- **29501 Mnichovo Hradiště / Horní Krupá / Mukařov / Ptýrov / Rokytá / Ralsko-Horní Krupá:** 19/19 faktů v každém ze 7 jazyků; 19 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 krátkých cizojazyčných textů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 114 cizojazyčných textů. Potvrzeno, že místní část Horní Krupá v obci Ralsko skutečně používá PSČ 29501, přestože leží v okrese Česká Lípa a Libereckém kraji; k `fact_013` přidán ověřovací zdroj Kurzy.cz, zatímco souřadnice historického sídelního jádra zůstávají samostatně označeny jako `historical_approximate`. `fact_019` o bitvě u Mnichova Hradiště z 28. 6. 1866 má přesný bod památníku Na Habru a zdroje VHU, města a Vets.cz.
 
 ### 4.6 Doplněné polohy
 
