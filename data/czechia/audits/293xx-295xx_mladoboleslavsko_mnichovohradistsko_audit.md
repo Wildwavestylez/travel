@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29443; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29445; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -125,6 +125,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29441 Dobrovice / Sýčina / Týnec / Kosořice / Vinařice / Chloumek / Bojetice:** 9/9 faktů v každém ze 7 jazyků; 9 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 54 cizojazyčných textů. Zachována chronologie renesančního zámku a cukrovaru, sakrální památky v místních částech, přesné rozlišení archeologických mohyl od terénních nerovností a historické tvrze ve Vinařicích; bez nutnosti obsahových oprav.
 - **29442 Luštěnice / Smilovice / Němčice / Libichov / Voděrady:** 11/11 faktů v každém ze 7 jazyků; 11 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 66 cizojazyčných textů. Doplněny významové detaily do `fact_004`, `fact_005`, `fact_007` a `fact_008`: dopad požáru roku 1730 na urbanistickou podobu Rejšic, důvod více historických návsí po sloučení pěti sídel, přesný význam archeologické kategorie II a poloha Němčic jako severovýchodního okraje poštovního obvodu.
 - **29443 Vlkava / Čachovice / Lipník / Struhy / Všejany:** 6/6 faktů v každém ze 7 jazyků; 6 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 36 cizojazyčných textů. Zachovány historické posloupnosti vrchnostenského sídla Vlkavy, průmyslová proměna Čachovic po příchodu železnice a cukrovaru, nucené vysídlení Lipníka, architektonická chronologie kostela ve Struhách i nejistá lokalizace zaniklé tvrze ve Všejanech; bez nutnosti obsahových oprav.
+- **29445 Jabkenice / Chudíř / Charvatce:** 6/6 faktů v každém ze 7 jazyků; 6 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 36 cizojazyčných textů. Zachována přesná vazba Smetanovy poslední životní etapy na myslivnu a Národní muzeum, chronologie obory včetně exotických zvířat, raně gotický kostel a samostatná zvonice, opatrné datování pravěkého Hrádku a historická lokalizace zaniklé tvrze v Chudíři; bez nutnosti obsahových oprav.
 
 ### 4.6 Doplněné polohy
 
