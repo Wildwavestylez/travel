@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29415; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29421; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -112,6 +112,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29413 Mohelnice nad Jizerou / Chocnějovice / Strážiště:** 16/16 faktů v každém ze 7 jazyků; 16 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 96 cizojazyčných textů. Opraveny dvě formulace u `fact_014`: španělština a italština nyní výslovně uvádějí barokní kapli, nikoli obecný barokní objekt. Záznam je v DB jednoznačně oddělen přes `country_code='CZ'`; stejné PSČ existuje také u německého záznamu Diesdorf (`country_code='DE'`) s `content:null`, který nebyl změnou dotčen.
 - **29414 Jivina:** 11/11 faktů v každém ze 7 jazyků; 11 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 66 cizojazyčných textů. Zjištěno zásadní zkrácení `fact_004`: všech šest cizojazyčných verzí obsahovalo pouze závěrečnou větu a vynechávalo vznik jednoty Sokola v roce 1921, počátečních 60 členů, vlastní jeviště a elektrické osvětlení od roku 1935. Všech šest překladů bylo kompletně obnoveno a po zápisu ověřeno; délky 519–602 znaků.
 - **29415 Klášter Hradiště nad Jizerou:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 48 cizojazyčných textů. Zachována opatrná formulace o rozporném datování počátků kláštera, návaznosti kláštera–zámku–pivovaru, aktuální restauraci oltářního obrazu v roce 2026 a oddělení různých vrstev válečné paměti. Josef Dürich je v `29413` a `29415` pokryt odlišnými místními vazbami (rodiště v Borovicích vs. mlýn a působení v Klášteře), nejde o duplicitní fakt.
+- **29421 Bělá pod Bezdězem / Vrchbělá:** 16/16 faktů v každém ze 7 jazyků; 16 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 96 cizojazyčných textů. U překladů doplněny chybějící významové detaily: dokončení převodu městských práv v listině z roku 1337; převzetí Bezdězu augustiniány roku 1624; odkrytí další části příkopu roku 2018; světové druhy dřevin v arboretu a srovnatelný počet bylin v botanické zahradě; konstrukční materiály věžových vodojemů; první železniční spojení České Lípy s tratí Praha–Liberec; vybavení sovětského posádkového městečka školou, nemocnicí, saunou a domem důstojníků. Doplněno do všech 6 cizojazyčných verzí příslušných faktů.
 
 ### 4.6 Doplněné polohy
 
@@ -190,4 +191,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29421: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29423: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; zvláštní pozornost věnovat otevřeným plošným lokalitám a null polohám; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
