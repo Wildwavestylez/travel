@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29412; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29413; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -109,6 +109,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29406 Březno / Sukorady / Lhotky / Nová Telib / Husí Lhota / Židněves / Čížovky:** 12/12 faktů v každém ze 7 jazyků; 0 krátkých masterů, 0 rozdílů `translations.cs`/master, všech 12 ID v němčině unikátních. Individuálně zkontrolováno všech 72 cizojazyčných textů. V `fact_001` doplněny do všech jazyků opomenuté osoby Markvart a Hostilka; v `fact_012` zpřesněn význam „úročních pozemků“ jako pozemků zatížených každoročními dávkami, nikoli automaticky nájemních pozemků. Jediná `location:null` zůstává u `fact_010` záměrně: jde o plošně rozptýlený archeologický soubor záchranného výzkumu na trase I/16, nikoli o jediný bod. Záznam není kvůli tomu strukturálně neúplný; lokalizaci nepřidávat odhadem.
 - **29411 Loukov / Loukovec / Sezemice / Březina / Koryta:** 12/12 faktů v každém ze 7 jazyků; 0 krátkých masterů, 0 null poloh, 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 72 cizojazyčných textů. U `fact_005` byla aktualizována časová informace o loveckém zámečku Bažantnice: doplněn rozhovor s vlastníkem z června 2023 (památka zachráněná, ale neopravená) a regionální zpráva ze září 2026, která objekt stále popisuje jako torzo. Opraveny překlady ve všech 7 jazycích; přidány 2 aktuální zdroje. U `fact_001` zpřesněny čtyři překlady, které chybně zužovaly dřevěný most na pěší lávku.
 - **29412 Příhrazy / Žďár / Skokovy:** 12/12 faktů v každém ze 7 jazyků; 0 krátkých masterů, 0 null poloh, 0 rozdílů `translations.cs`/master. Obsahově prověřeno všech 72 cizojazyčných textů. `fact_001` zpřesněn: Český ráj je na indikativním seznamu od 19. 1. 2001 (ref. UNESCO 1511), aktualizované podání „Bohemian Paradise Rock Cities“ bylo předloženo 18. 11. 2026 (ref. 7062); doplněn zdroj Ministerstva kultury. `fact_011` rozšířen o aktuální statické zajištění kaple v červnu 2026; světící biskup je nyní uveden plným jménem Dr. František Borgiáš Krásl, ověřeným v pramenech metropolitní kapituly. Obě změny promítnuty do všech 7 jazyků; přidány 3 nové zdrojové záznamy.
+- **29413 Mohelnice nad Jizerou / Chocnějovice / Strážiště:** 16/16 faktů v každém ze 7 jazyků; 16 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 96 cizojazyčných textů. Opraveny dvě formulace u `fact_014`: španělština a italština nyní výslovně uvádějí barokní kapli, nikoli obecný barokní objekt. Záznam je v DB jednoznačně oddělen přes `country_code='CZ'`; stejné PSČ existuje také u německého záznamu Diesdorf (`country_code='DE'`) s `content:null`, který nebyl změnou dotčen.
 
 ### 4.6 Doplněné polohy
 
@@ -169,7 +170,7 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004, 29401/fact_001–fact_006 + fact_008, 29402/fact_001–fact_004, 29403/fact_001–fact_004, 29404/fact_001–fact_004 + fact_006, 29405/fact_001–fact_002, 29406/fact_001–fact_012, 29411/fact_001–fact_012 a 29412/fact_001–fact_012; u 29307 opravena jednotka Václava Tarantíka, u 29406 zpřesněny překlady dvou historických nuancí, u 29411 aktualizován stav zámečku Bažantnice a u 29412 aktualizovány údaje o indikativním seznamu UNESCO a opravách kaple. Tyto záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
+1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004, 29401/fact_001–fact_006 + fact_008, 29402/fact_001–fact_004, 29403/fact_001–fact_004, 29404/fact_001–fact_004 + fact_006, 29405/fact_001–fact_002, 29406/fact_001–fact_012, 29411/fact_001–fact_012, 29412/fact_001–fact_012 a 29413/fact_001–fact_016; u 29307 opravena jednotka Václava Tarantíka, u 29406 zpřesněny překlady dvou historických nuancí, u 29411 aktualizován stav zámečku Bažantnice, u 29412 aktualizovány údaje o UNESCO a kapli ve Žďáru a u 29413 opraveny dvě formulace překladu. Tyto záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
 2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
@@ -187,4 +188,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29413: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29414: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
