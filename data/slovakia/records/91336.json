@@ -159,14 +159,13 @@
     },
     {
       "id": "fact_009",
-      "title": "Selecké kamenné moře a Selecký potok – chráněné přírodní lokality",
-      "text": "V katastru Selce se nachází přírodní památka Selecké kamenné moře, vyhlášená roku 1985 na ploše 4,83 ha. Jde o rozsáhlé blokové pole z křemenců na svazích Považského Inovce, kde mezi balvany roste řídký dubový les s vřesem a borůvčím. Extrémní stanoviště poskytuje útočiště například tesaříkovi fialovému, ještěrce zední a užovce stromové. Další chráněnou lokalitou je přírodní památka Selecký potok, vyhlášená roku 1984 na ploše 4,53 ha k ochraně zachovalého podhorského toku, přítoků a břehových porostů.",
+      "title": "Selecké kamenné moře – křemencové balvanové pole na svazích Inovce",
+      "text": "Přírodní památka Selecké kamenné moře leží v katastru Selce na západním svahu hlavního hřebene Považského Inovce. Byla vyhlášena roku 1985 na ploše 4,83 ha a chrání rozsáhlé blokové pole z křemenců. Mezi balvany roste řídká dubina s vřesem a borůvčím; extrémní stanoviště poskytuje útočiště například dřeváři fialovému, ještěrce zední a užovce stromové. Lokalita je významná geologicky i jako útočiště teplomilných druhů.",
       "category": "nature_and_landscape",
       "priority": "B",
       "sources": [
         "s3",
         "s18",
-        "s21",
         "s20"
       ],
       "map_category": "nature",
@@ -194,6 +193,54 @@
       ],
       "map_category": "local_culture",
       "location": null
+    },
+    {
+      "id": "fact_011",
+      "title": "Selecký potok – chráněný podhorský tok v údolí Selecké doliny",
+      "text": "Přírodní památka Selecký potok byla vyhlášena roku 1984 na ploše 4,53 ha; platí zde IV. stupeň ochrany. Chrání zachovalý fragment podhorského toku, jeho přítoky a břehové porosty. Chráněný úsek začíná pod zastavěnou částí Selce a pokračuje do katastru Trenčianských Stankovců; zahrnuje také dva přítoky. Tok vytváří významný ekologický koridor a krajinný prvek Selecké doliny.",
+      "category": "nature_and_landscape",
+      "priority": "B",
+      "sources": [
+        "s3",
+        "s21"
+      ],
+      "map_category": "nature",
+      "location": null
+    },
+    {
+      "id": "fact_012",
+      "title": "Hradisko nad Selcem – opevněné sídliště lužické kultury z pozdní doby bronzové",
+      "text": "Na zalesněném vrcholu Hradisko východně od Selce, v nadmořské výšce přibližně 732 m, bylo identifikováno pravěké opevněné sídliště. Povrchový průzkum v roce 1997 doložil valy a keramiku lužické kultury; v okolí se našla také bronzová sekera s tulejkou, typická pro počátek pozdní doby bronzové. Archeologové upozornili, že kvůli husté vegetaci nebylo možné přesně zaměřit průběh opevnění. Lokalita je významným dokladem pravěkého osídlení Považského Inovce.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s26",
+        "s27"
+      ],
+      "map_category": "archaeological_site",
+      "location": null
+    },
+    {
+      "id": "fact_013",
+      "title": "Selecká kyselka a pramen u potoka – minerální prameny v katastru Selce",
+      "text": "V katastru Selce eviduje Slovenská agentura životního prostředí dva minerální prameny: Kyselku v obci (TE-39) a Pramen na břehu potoka (TE-81). Uvádí je také obecní územní plán. Nejznámější Selecká kyselka leží na horním konci obce u domu č. 281 a je vedena jako pramen s pitnou vodou. Je cílem pěších i cyklistických výletů a připomíná tradiční využívání místních vodních zdrojů v podhůří Považského Inovce.",
+      "category": "nature_and_landscape",
+      "priority": "C",
+      "sources": [
+        "s2",
+        "s28",
+        "s29"
+      ],
+      "map_category": "nature",
+      "location": {
+        "name": "Selecká kyselka",
+        "address": "Selec 281, 913 36 Selec, Slovakia",
+        "lat": 48.7767422,
+        "lon": 17.9959575,
+        "type": "natural_feature",
+        "accuracy": "exact",
+        "source": "https://poi.oma.sk/n1757161029"
+      }
     }
   ],
   "photo": null,
@@ -361,6 +408,30 @@
       "title": "OpenStreetMap / OMA – obecní úřad Selec 73",
       "url": "https://selec.oma.sk/c/73",
       "type": "other"
+    },
+    {
+      "id": "s26",
+      "title": "Archeologický ústav SAV – AVANS 1997: Hradisko lužickej kultúry v Selci",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/AVANS_v_roku_1997.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s27",
+      "title": "Archeologický ústav SAV – Nové poznatky k štruktúre hradísk lužickej kultúry na severnom Slovensku",
+      "url": "https://cevnad.sav.sk/aktivita_1_1/SZ_36.pdf",
+      "type": "specialist"
+    },
+    {
+      "id": "s28",
+      "title": "Slovenská agentúra životného prostredia – Zoznam minerálnych prameňov okresu Trenčín",
+      "url": "https://mineralne-pramene.sazp.sk/tn/zoznam_tn_okres.html",
+      "type": "official"
+    },
+    {
+      "id": "s29",
+      "title": "OpenStreetMap / OMA – Selecká kyselka, prameň TE-39",
+      "url": "https://poi.oma.sk/n1757161029",
+      "type": "other"
     }
   ],
   "translations": {
@@ -409,13 +480,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Selecké kamenné moře a Selecký potok – chráněné přírodní lokality",
-          "text": "V katastru Selce se nachází přírodní památka Selecké kamenné moře, vyhlášená roku 1985 na ploše 4,83 ha. Jde o rozsáhlé blokové pole z křemenců na svazích Považského Inovce, kde mezi balvany roste řídký dubový les s vřesem a borůvčím. Extrémní stanoviště poskytuje útočiště například tesaříkovi fialovému, ještěrce zední a užovce stromové. Další chráněnou lokalitou je přírodní památka Selecký potok, vyhlášená roku 1984 na ploše 4,53 ha k ochraně zachovalého podhorského toku, přítoků a břehových porostů."
+          "title": "Selecké kamenné moře – křemencové balvanové pole na svazích Inovce",
+          "text": "Přírodní památka Selecké kamenné moře leží v katastru Selce na západním svahu hlavního hřebene Považského Inovce. Byla vyhlášena roku 1985 na ploše 4,83 ha a chrání rozsáhlé blokové pole z křemenců. Mezi balvany roste řídká dubina s vřesem a borůvčím; extrémní stanoviště poskytuje útočiště například dřeváři fialovému, ještěrce zední a užovce stromové. Lokalita je významná geologicky i jako útočiště teplomilných druhů."
         },
         {
           "id": "fact_010",
           "title": "Selčan a Selčanka – folklorní tradice předávaná třemi generacemi",
           "text": "Folklorní skupina Selčan vznikla v roce 1964 a od té doby absolvovala stovky tanečních, hudebních a pěveckých vystoupení na Slovensku i v zahraničí. V roce 1971 na ni navázal dětský soubor Selčanka, který vychoval několik generací mladých zpěváků a tanečníků; obec uvádí, že se v něm vystřídalo více než 300 dětí. Repertoár obou souborů čerpá z místních zvyků, písní a tanců. Selčan se opakovaně účastnil celostátních přehlídek Nositelia tradícií a reprezentoval region také na festivalech v Myjavě, Detvě či Východné."
+        },
+        {
+          "id": "fact_011",
+          "title": "Selecký potok – chráněný podhorský tok v údolí Selecké doliny",
+          "text": "Přírodní památka Selecký potok byla vyhlášena roku 1984 na ploše 4,53 ha; platí zde IV. stupeň ochrany. Chrání zachovalý fragment podhorského toku, jeho přítoky a břehové porosty. Chráněný úsek začíná pod zastavěnou částí Selce a pokračuje do katastru Trenčianských Stankovců; zahrnuje také dva přítoky. Tok vytváří významný ekologický koridor a krajinný prvek Selecké doliny."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko nad Selcem – opevněné sídliště lužické kultury z pozdní doby bronzové",
+          "text": "Na zalesněném vrcholu Hradisko východně od Selce, v nadmořské výšce přibližně 732 m, bylo identifikováno pravěké opevněné sídliště. Povrchový průzkum v roce 1997 doložil valy a keramiku lužické kultury; v okolí se našla také bronzová sekera s tulejkou, typická pro počátek pozdní doby bronzové. Archeologové upozornili, že kvůli husté vegetaci nebylo možné přesně zaměřit průběh opevnění. Lokalita je významným dokladem pravěkého osídlení Považského Inovce."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka a pramen u potoka – minerální prameny v katastru Selce",
+          "text": "V katastru Selce eviduje Slovenská agentura životního prostředí dva minerální prameny: Kyselku v obci (TE-39) a Pramen na břehu potoka (TE-81). Uvádí je také obecní územní plán. Nejznámější Selecká kyselka leží na horním konci obce u domu č. 281 a je vedena jako pramen s pitnou vodou. Je cílem pěších i cyklistických výletů a připomíná tradiční využívání místních vodních zdrojů v podhůří Považského Inovce."
         }
       ]
     },
@@ -464,13 +550,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Steinmeer von Selec und Bach Selecký potok – geschützte Naturgebiete",
-          "text": "Im Katastergebiet von Selec befindet sich das Naturdenkmal Selecké kamenné more, das 1985 auf 4,83 Hektar ausgewiesen wurde. Es handelt sich um ein ausgedehntes Blockmeer aus Quarzit an den Hängen des Považský Inovec; zwischen den Felsblöcken wachsen lichter Eichenwald, Heidekraut und Heidelbeeren. Der extreme Lebensraum bietet unter anderem der Holzbiene, der Mauereidechse und der Äskulapnatter geeignete Bedingungen. Ein weiteres Schutzgebiet ist das Naturdenkmal Selecký potok, das 1984 auf 4,53 Hektar zum Schutz eines erhaltenen Vorgebirgsbachs, seiner Zuflüsse und Uferbestände ausgewiesen wurde."
+          "title": "Selecké kamenné more – Quarzit-Blockmeer an den Hängen des Inovec",
+          "text": "Das Naturdenkmal Selecké kamenné more liegt im Gemeindegebiet von Selec am Westhang des Hauptkamms des Považský Inovec. Es wurde 1985 auf 4,83 Hektar ausgewiesen und schützt ein ausgedehntes Blockmeer aus Quarzit. Zwischen den Felsblöcken wächst ein lichter Eichenbestand mit Heidekraut und Heidelbeeren; der extreme Lebensraum bietet unter anderem der violetten Holzbiene, der Mauereidechse und der Äskulapnatter Rückzugsraum. Das Gebiet ist geologisch und als Lebensraum wärmeliebender Arten bedeutsam."
         },
         {
           "id": "fact_010",
           "title": "Selčan und Selčanka – Volkskultur, die über Generationen weitergegeben wird",
           "text": "Die Folkloregruppe Selčan wurde 1964 gegründet und absolvierte seitdem Hunderte Tanz-, Musik- und Gesangsauftritte in der Slowakei und im Ausland. 1971 entstand als Nachfolge der Kinderfolkloreverein Selčanka, der mehrere Generationen junger Sänger und Tänzer ausbildete; laut Gemeinde wirkten dort mehr als 300 Kinder mit. Das Repertoire beider Gruppen schöpft aus örtlichen Bräuchen, Liedern und Tänzen. Selčan nahm wiederholt an landesweiten Wettbewerben „Nositelia tradícií“ teil und vertrat die Region auch bei Festivals in Myjava, Detva und Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "Der Bach Selecký potok – ein geschützter Vorgebirgsbach im Tal von Selec",
+          "text": "Das Naturdenkmal Selecký potok wurde 1984 auf 4,53 Hektar ausgewiesen; es gilt die vierte Schutzstufe. Geschützt werden ein gut erhaltener Abschnitt eines Vorgebirgsbachs, seine Zuflüsse und die Ufervegetation. Der geschützte Abschnitt beginnt unterhalb des bebauten Ortsgebiets von Selec und setzt sich im Katastergebiet von Trenčianske Stankovce fort; zwei Zuflüsse gehören ebenfalls dazu. Der Bach bildet einen wichtigen ökologischen Korridor und ein prägendes Landschaftselement des Selecká-Tals."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko oberhalb von Selec – befestigte Siedlung der Lausitzer Kultur aus der späten Bronzezeit",
+          "text": "Auf dem bewaldeten Gipfel Hradisko östlich von Selec, auf etwa 732 Metern Höhe, wurde eine vorgeschichtliche befestigte Siedlung identifiziert. Eine Oberflächenuntersuchung von 1997 belegte Wallanlagen und Keramik der Lausitzer Kultur; in der Umgebung wurde auch ein bronzenes Tüllenbeil gefunden, das für den Beginn der späten Bronzezeit typisch ist. Wegen der dichten Vegetation konnten die Archäologen den Verlauf der Befestigung nicht genau vermessen. Der Fundplatz ist ein wichtiger Beleg für die vorgeschichtliche Besiedlung des Považský Inovec."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka und die Quelle am Bach – Mineralquellen im Gemeindegebiet von Selec",
+          "text": "Im Gemeindegebiet von Selec verzeichnet die Slowakische Umweltagentur zwei Mineralquellen: die Quelle Kyselka im Ort (TE-39) und die Quelle am Bachufer (TE-81). Beide sind auch im Flächennutzungsplan der Gemeinde aufgeführt. Die bekannteste, Selecká kyselka, liegt am oberen Ortsende beim Haus Nr. 281 und ist als Trinkwasserquelle erfasst. Sie ist ein Ziel für Spaziergänger und Radfahrer und erinnert an die traditionelle Nutzung lokaler Wasserressourcen am Fuß des Považský Inovec."
         }
       ]
     },
@@ -519,13 +620,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Selec Stone Sea and the Selecký Stream – protected natural sites",
-          "text": "The Selecké kamenné more Natural Monument lies within Selec's cadastral area and was designated in 1985 over 4.83 hectares. It is an extensive quartzite block field on the slopes of Považský Inovec, where sparse oak woodland, heather and bilberry grow among the boulders. This extreme habitat supports species such as the violet carpenter bee, wall lizard and Aesculapian snake. Another protected site is the Selecký potok Natural Monument, designated in 1984 over 4.53 hectares to protect a well-preserved foothill stream, its tributaries and bankside vegetation."
+          "title": "Selecké kamenné more – a quartzite block field on the slopes of Považský Inovec",
+          "text": "The Selecké kamenné more natural monument lies within the cadastral area of Selec on the western slope of the main ridge of Považský Inovec. It was designated in 1985 and covers 4.83 hectares, protecting an extensive field of quartzite blocks. Sparse oak woodland, heather and bilberry grow among the boulders; this extreme habitat provides refuge for species including the violet carpenter bee, wall lizard and Aesculapian snake. The site is important both geologically and as a habitat for warmth-loving species."
         },
         {
           "id": "fact_010",
           "title": "Selčan and Selčanka – folk traditions passed down through generations",
           "text": "The Selčan folk group was founded in 1964 and has since performed hundreds of dance, music and singing programmes in Slovakia and abroad. In 1971, the children's folklore ensemble Selčanka followed; it has nurtured several generations of young singers and dancers, with more than 300 children having taken part according to the municipality. Both groups draw their repertoire from local customs, songs and dances. Selčan has repeatedly competed in the national „Nositelia tradícií“ showcases and represented the region at festivals in Myjava, Detva and Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "Selecký potok – a protected foothill stream in the Selec valley",
+          "text": "The Selecký potok natural monument was designated in 1984 and covers 4.53 hectares; the fourth level of protection applies. It protects a well-preserved section of a foothill stream, its tributaries and riparian vegetation. The protected stretch begins below the built-up area of Selec and continues into the cadastral area of Trenčianske Stankovce; two tributaries are also included. The stream forms an important ecological corridor and a defining landscape feature of the Selec valley."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko above Selec – a fortified Lusatian settlement from the Late Bronze Age",
+          "text": "A prehistoric fortified settlement has been identified on the wooded Hradisko summit east of Selec, at an elevation of approximately 732 metres. A surface survey in 1997 documented ramparts and pottery of the Lusatian culture; a bronze socketed axe typical of the beginning of the Late Bronze Age was also found nearby. Archaeologists noted that dense vegetation prevented them from mapping the course of the fortifications precisely. The site is important evidence of prehistoric settlement in the Považský Inovec range."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka and the streamside spring – mineral springs in the Selec area",
+          "text": "The Slovak Environment Agency records two mineral springs in the cadastral area of Selec: Kyselka in the village (TE-39) and the spring on the stream bank (TE-81). Both are also listed in the municipal land-use plan. The best-known, Selecká kyselka, lies at the upper end of the village near house no. 281 and is registered as a drinking-water spring. It is a destination for walkers and cyclists and reflects the traditional use of local water sources in the foothills of Považský Inovec."
         }
       ]
     },
@@ -574,13 +690,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Mar de piedras de Selec y arroyo Selecký: espacios naturales protegidos",
-          "text": "El Monumento Natural Selecké kamenné more se encuentra dentro del término de Selec y fue declarado en 1985 con una superficie de 4,83 hectáreas. Es un extenso campo de bloques de cuarcita en las laderas del Považský Inovec, donde entre las rocas crecen robles dispersos, brezo y arándanos. Este hábitat extremo ofrece refugio a especies como la abeja carpintera violeta, la lagartija roquera y la culebra de Esculapio. Otro espacio protegido es el Monumento Natural Selecký potok, declarado en 1984 con 4,53 hectáreas para proteger un arroyo de piedemonte bien conservado, sus afluentes y la vegetación ribereña."
+          "title": "Selecké kamenné more – un campo de bloques de cuarcita en las laderas del Považský Inovec",
+          "text": "El monumento natural Selecké kamenné more se encuentra en el término catastral de Selec, en la ladera occidental de la cresta principal del Považský Inovec. Fue declarado en 1985 y ocupa 4,83 hectáreas, protegiendo un extenso campo de bloques de cuarcita. Entre las rocas crecen un robledal poco denso, brezo y arándanos; este hábitat extremo ofrece refugio a especies como la abeja carpintera violeta, la lagartija roquera y la culebra de Esculapio. El lugar tiene importancia geológica y como hábitat de especies termófilas."
         },
         {
           "id": "fact_010",
           "title": "Selčan y Selčanka: tradiciones folclóricas transmitidas entre generaciones",
           "text": "El grupo folclórico Selčan se fundó en 1964 y desde entonces ha realizado cientos de actuaciones de danza, música y canto en Eslovaquia y en el extranjero. En 1971 nació el conjunto folclórico infantil Selčanka, que ha formado a varias generaciones de jóvenes cantantes y bailarines; según el municipio, han participado más de 300 niños. Ambos grupos se inspiran en las costumbres, canciones y danzas locales. Selčan ha participado repetidamente en las muestras nacionales «Nositelia tradícií» y ha representado la región en festivales de Myjava, Detva y Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "Selecký potok – un arroyo de piedemonte protegido en el valle de Selec",
+          "text": "El monumento natural Selecký potok fue declarado en 1984 y ocupa 4,53 hectáreas; se aplica el cuarto grado de protección. Protege un tramo bien conservado de arroyo de piedemonte, sus afluentes y la vegetación de ribera. El tramo protegido comienza bajo la zona edificada de Selec y continúa por el término catastral de Trenčianske Stankovce; también incluye dos afluentes. El arroyo constituye un corredor ecológico importante y un elemento destacado del paisaje del valle de Selec."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko sobre Selec – asentamiento fortificado de la cultura lusaciana de la Edad del Bronce tardía",
+          "text": "En la cima boscosa de Hradisko, al este de Selec y a unos 732 metros de altitud, se ha identificado un asentamiento prehistórico fortificado. Una prospección superficial realizada en 1997 documentó terraplenes y cerámica de la cultura lusaciana; en las inmediaciones también se encontró un hacha tubular de bronce, típica del inicio de la Edad del Bronce tardía. Los arqueólogos señalaron que la vegetación densa impidió cartografiar con precisión el trazado de las fortificaciones. El yacimiento constituye una prueba importante del poblamiento prehistórico del Považský Inovec."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka y el manantial junto al arroyo – fuentes minerales en el término de Selec",
+          "text": "La Agencia Eslovaca de Medio Ambiente registra dos manantiales minerales en el término catastral de Selec: Kyselka en el pueblo (TE-39) y el manantial de la orilla del arroyo (TE-81). Ambos aparecen también en el plan urbanístico municipal. El más conocido, Selecká kyselka, se encuentra en el extremo superior del pueblo, junto a la casa n.º 281, y está registrado como fuente de agua potable. Es un destino para caminantes y ciclistas y recuerda el uso tradicional de los recursos hídricos locales en las estribaciones del Považský Inovec."
         }
       ]
     },
@@ -629,13 +760,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Mer de pierres de Selec et ruisseau Selecký – sites naturels protégés",
-          "text": "Le monument naturel Selecké kamenné more se trouve dans le territoire de Selec et fut classé en 1985 sur 4,83 hectares. Il s’agit d’un vaste champ de blocs de quartzite sur les pentes du Považský Inovec ; entre les rochers poussent une chênaie clairsemée, la bruyère et la myrtille. Cet habitat extrême abrite notamment l’abeille charpentière violette, le lézard des murailles et la couleuvre d’Esculape. Un autre site protégé est le monument naturel Selecký potok, classé en 1984 sur 4,53 hectares pour protéger un ruisseau de piémont préservé, ses affluents et sa végétation riveraine."
+          "title": "Selecké kamenné more – un chaos de blocs de quartzite sur les pentes du Považský Inovec",
+          "text": "Le monument naturel Selecké kamenné more se trouve dans le territoire cadastral de Selec, sur le versant occidental de la crête principale du Považský Inovec. Classé en 1985, il couvre 4,83 hectares et protège un vaste champ de blocs de quartzite. Entre les rochers poussent une chênaie clairsemée, de la bruyère et des myrtilles ; ce milieu extrême abrite notamment l’abeille charpentière violette, le lézard des murailles et la couleuvre d’Esculape. Le site présente un intérêt géologique et constitue un refuge pour les espèces thermophiles."
         },
         {
           "id": "fact_010",
           "title": "Selčan et Selčanka – traditions folkloriques transmises entre générations",
           "text": "Le groupe folklorique Selčan fut fondé en 1964 et a depuis présenté des centaines de spectacles de danse, de musique et de chant en Slovaquie et à l’étranger. En 1971, l’ensemble folklorique pour enfants Selčanka lui succéda ; il a formé plusieurs générations de jeunes chanteurs et danseurs, avec plus de 300 enfants participants selon la commune. Les deux groupes puisent leur répertoire dans les coutumes, chansons et danses locales. Selčan a participé à plusieurs reprises aux rencontres nationales « Nositelia tradícií » et représenté la région aux festivals de Myjava, Detva et Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "Le ruisseau Selecký potok – un cours d’eau de piémont protégé dans la vallée de Selec",
+          "text": "Le monument naturel Selecký potok a été classé en 1984 et couvre 4,53 hectares ; le quatrième degré de protection s’y applique. Il protège un tronçon bien préservé de ruisseau de piémont, ses affluents et sa végétation riveraine. Le secteur protégé commence sous la zone bâtie de Selec et se poursuit dans le territoire cadastral de Trenčianske Stankovce ; deux affluents en font également partie. Le ruisseau constitue un corridor écologique important et un élément marquant du paysage de la vallée de Selec."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko au-dessus de Selec – habitat fortifié de la culture lusacienne de l’âge du Bronze final",
+          "text": "Un habitat fortifié préhistorique a été identifié sur le sommet boisé de Hradisko, à l’est de Selec, à environ 732 mètres d’altitude. Une prospection de surface menée en 1997 a mis en évidence des levées de terre et de la céramique de la culture lusacienne ; une hache à douille en bronze, typique du début de l’âge du Bronze final, a également été découverte à proximité. Les archéologues ont indiqué que la végétation dense empêchait de relever précisément le tracé des fortifications. Le site constitue un témoignage important de l’occupation préhistorique du Považský Inovec."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka et la source au bord du ruisseau – des sources minérales sur le territoire de Selec",
+          "text": "L’Agence slovaque de l’environnement recense deux sources minérales dans le territoire cadastral de Selec : Kyselka dans le village (TE-39) et la source au bord du ruisseau (TE-81). Elles figurent également dans le plan d’urbanisme communal. La plus connue, Selecká kyselka, se trouve à l’extrémité supérieure du village près de la maison no 281 et est répertoriée comme source d’eau potable. C’est une destination pour les promeneurs et les cyclistes, qui rappelle l’usage traditionnel des ressources en eau locales au pied du Považský Inovec."
         }
       ]
     },
@@ -684,13 +830,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Mare di pietre di Selec e torrente Selecký – siti naturali protetti",
-          "text": "Il monumento naturale Selecké kamenné more si trova nel territorio di Selec e fu istituito nel 1985 su 4,83 ettari. È un vasto campo di blocchi di quarzite sui pendii del Považský Inovec, dove tra i massi crescono una rada querceta, erica e mirtilli. Questo habitat estremo offre rifugio a specie come l’ape legnaiola violetta, la lucertola muraiola e il colubro di Esculapio. Un’altra area protetta è il monumento naturale Selecký potok, istituito nel 1984 su 4,53 ettari per proteggere un torrente pedemontano ben conservato, i suoi affluenti e la vegetazione ripariale."
+          "title": "Selecké kamenné more – un campo di blocchi di quarzite sui pendii del Považský Inovec",
+          "text": "Il monumento naturale Selecké kamenné more si trova nel territorio catastale di Selec, sul versante occidentale della cresta principale del Považský Inovec. È stato istituito nel 1985 e copre 4,83 ettari, proteggendo un vasto campo di blocchi di quarzite. Tra i massi crescono una rada querceta, erica e mirtilli; questo habitat estremo offre rifugio a specie come l’ape legnaiola violetta, la lucertola muraiola e il colubro di Esculapio. Il sito è importante dal punto di vista geologico e come rifugio per specie termofile."
         },
         {
           "id": "fact_010",
           "title": "Selčan e Selčanka – tradizioni popolari tramandate tra generazioni",
           "text": "Il gruppo folcloristico Selčan fu fondato nel 1964 e da allora ha realizzato centinaia di esibizioni di danza, musica e canto in Slovacchia e all’estero. Nel 1971 nacque il gruppo folcloristico infantile Selčanka, che ha formato diverse generazioni di giovani cantanti e ballerini; secondo il comune vi hanno partecipato più di 300 bambini. Entrambi i gruppi attingono a usanze, canti e danze locali. Selčan ha partecipato più volte alle rassegne nazionali «Nositelia tradícií» e ha rappresentato la regione ai festival di Myjava, Detva e Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "Il torrente Selecký potok – un corso d’acqua pedemontano protetto nella valle di Selec",
+          "text": "Il monumento naturale Selecký potok è stato istituito nel 1984 e copre 4,53 ettari; vi si applica il quarto livello di protezione. Protegge un tratto ben conservato di torrente pedemontano, i suoi affluenti e la vegetazione ripariale. Il tratto protetto inizia sotto l’area edificata di Selec e prosegue nel territorio catastale di Trenčianske Stankovce; comprende anche due affluenti. Il torrente costituisce un importante corridoio ecologico e un elemento caratteristico del paesaggio della valle di Selec."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko sopra Selec – insediamento fortificato della cultura lusaziana della tarda età del Bronzo",
+          "text": "Sulla cima boscosa di Hradisko, a est di Selec e a circa 732 metri di quota, è stato identificato un insediamento fortificato preistorico. Una ricognizione di superficie del 1997 ha documentato terrapieni e ceramiche della cultura lusaziana; nelle vicinanze è stata trovata anche un’ascia a cannone in bronzo, tipica dell’inizio della tarda età del Bronzo. Gli archeologi hanno osservato che la vegetazione fitta non ha permesso di rilevare con precisione il tracciato delle fortificazioni. Il sito è una testimonianza importante del popolamento preistorico del Považský Inovec."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka e la sorgente presso il torrente – fonti minerali nel territorio di Selec",
+          "text": "L’Agenzia slovacca per l’ambiente registra due sorgenti minerali nel territorio catastale di Selec: Kyselka nel paese (TE-39) e la sorgente sulla riva del torrente (TE-81). Entrambe sono riportate anche nel piano urbanistico comunale. La più conosciuta, Selecká kyselka, si trova all’estremità superiore del paese, vicino alla casa n. 281, ed è registrata come sorgente di acqua potabile. È una meta per escursionisti e ciclisti e ricorda l’uso tradizionale delle risorse idriche locali ai piedi del Považský Inovec."
         }
       ]
     },
@@ -739,13 +900,28 @@
         },
         {
           "id": "fact_009",
-          "title": "Het stenen zeegebied van Selec en de Selecký-beek – beschermde natuurgebieden",
-          "text": "Het natuurmonument Selecké kamenné more ligt binnen het grondgebied van Selec en werd in 1985 ingesteld met een oppervlakte van 4,83 hectare. Het is een uitgestrekt blokkenveld van kwartsiet op de hellingen van Považský Inovec; tussen de rotsblokken groeien open eikenbos, heide en bosbessen. Deze extreme leefomgeving biedt plaats aan soorten zoals de violette houtbij, muurhagedis en esculaapslang. Een ander beschermd gebied is het natuurmonument Selecký potok, dat in 1984 over 4,53 hectare werd ingesteld om een goed bewaarde voorbergb beek, zijn zijstromen en oevervegetatie te beschermen."
+          "title": "Selecké kamenné more – een kwartsietveld op de hellingen van Považský Inovec",
+          "text": "Het natuurmonument Selecké kamenné more ligt in het kadastrale gebied van Selec op de westelijke helling van de hoofdkam van Považský Inovec. Het werd in 1985 ingesteld en beslaat 4,83 hectare; het beschermt een uitgestrekt veld van kwartsietblokken. Tussen de rotsblokken groeien open eikenbos, struikhei en bosbessen. Dit extreme leefgebied biedt onderdak aan onder meer de violette houtbij, muurhagedis en esculaapslang. Het gebied is zowel geologisch belangrijk als een toevluchtsoord voor warmteminnende soorten."
         },
         {
           "id": "fact_010",
           "title": "Selčan en Selčanka – volkscultuur die generaties lang wordt doorgegeven",
           "text": "De volksdansgroep Selčan werd opgericht in 1964 en heeft sindsdien honderden dans-, muziek- en zangoptredens gegeven in Slowakije en daarbuiten. In 1971 volgde het kinderfolkloreensemble Selčanka, dat meerdere generaties jonge zangers en dansers heeft opgeleid; volgens de gemeente hebben meer dan 300 kinderen meegedaan. Beide groepen putten uit plaatselijke gebruiken, liederen en dansen. Selčan nam herhaaldelijk deel aan de landelijke presentaties „Nositelia tradícií” en vertegenwoordigde de regio op festivals in Myjava, Detva en Východná."
+        },
+        {
+          "id": "fact_011",
+          "title": "De beek Selecký potok – een beschermde voorbergb beek in het dal van Selec",
+          "text": "Het natuurmonument Selecký potok werd in 1984 ingesteld en beslaat 4,53 hectare; de vierde beschermingsgraad geldt er. Het beschermt een goed bewaard deel van een voorbergb beek, de zijstromen en de oevervegetatie. Het beschermde traject begint onder het bebouwde gebied van Selec en loopt door in het kadastrale gebied van Trenčianske Stankovce; ook twee zijstromen behoren ertoe. De beek vormt een belangrijke ecologische corridor en een kenmerkend landschapselement van het Selec-dal."
+        },
+        {
+          "id": "fact_012",
+          "title": "Hradisko boven Selec – versterkte nederzetting van de Lausitzcultuur uit de late bronstijd",
+          "text": "Op de beboste top Hradisko ten oosten van Selec, op ongeveer 732 meter hoogte, is een prehistorische versterkte nederzetting vastgesteld. Een oppervlakteonderzoek in 1997 documenteerde wallen en aardewerk van de Lausitzcultuur; in de omgeving werd ook een bronzen kokerbijl gevonden die kenmerkend is voor het begin van de late bronstijd. Door de dichte begroeiing konden archeologen het verloop van de versterkingen niet nauwkeurig in kaart brengen. De vindplaats vormt belangrijk bewijs voor prehistorische bewoning van het Považský Inovec-gebergte."
+        },
+        {
+          "id": "fact_013",
+          "title": "Selecká kyselka en de bron aan de beek – mineraalbronnen in het gebied van Selec",
+          "text": "Het Slowaakse Milieuagentschap registreert twee mineraalbronnen in het kadastrale gebied van Selec: Kyselka in het dorp (TE-39) en de bron aan de beekrand (TE-81). Beide staan ook in het gemeentelijke bestemmingsplan. De bekendste, Selecká kyselka, ligt aan de bovenkant van het dorp bij huisnummer 281 en is geregistreerd als drinkwaterbron. De bron is een bestemming voor wandelaars en fietsers en herinnert aan het traditionele gebruik van lokale waterbronnen aan de voet van Považský Inovec."
         }
       ]
     }
