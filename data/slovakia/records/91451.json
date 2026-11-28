@@ -19,7 +19,8 @@
       "priority": "B",
       "sources": [
         "s2",
-        "s3"
+        "s3",
+        "s9"
       ],
       "map_category": "historic_city",
       "location": {
@@ -46,7 +47,7 @@
         "lat": 48.9090342,
         "lon": 18.1727287,
         "type": "spa",
-        "accuracy": "exact",
+        "accuracy": "approximate",
         "source": "https://www.kupele-teplice.sk/o-nas/hammam/hammam-viac-z-historie/"
       }
     },
@@ -86,7 +87,7 @@
         "lat": 48.9095296,
         "lon": 18.1774626,
         "type": "swimming_pool",
-        "accuracy": "exact",
+        "accuracy": "approximate",
         "source": "https://register-architektury.sk/sk/objekt/95-kupalisko-zelena-zaba"
       }
     },
@@ -98,7 +99,8 @@
       "priority": "B",
       "sources": [
         "s2",
-        "s6"
+        "s6",
+        "s8"
       ],
       "map_category": "technical_heritage",
       "location": {
@@ -125,7 +127,7 @@
         "lat": 48.907326,
         "lon": 18.174248,
         "type": "power_station",
-        "accuracy": "exact",
+        "accuracy": "approximate",
         "source": "https://register-architektury.sk/sk/objekt/570-vodna-elektraren-trencianske-teplice"
       }
     }
@@ -187,6 +189,18 @@
       "title": "Register modernej architektúry – Vodná elektráreň Trenčianske Teplice",
       "url": "https://register-architektury.sk/sk/objekt/570-vodna-elektraren-trencianske-teplice",
       "type": "specialist"
+    },
+    {
+      "id": "s8",
+      "title": "Železnice Slovenskej republiky – Miestna úzkorozchodná elektrická železnica Trenčianska Teplá – Trenčianske Teplice",
+      "url": "https://www.zsr.sk/o-nas/historia-zeleznic/1873-1918/miestne-zeleznice/miestna-uzkorozchodna-elektricka-zeleznica-trencianska-tepla-trencianske-teplice",
+      "type": "official"
+    },
+    {
+      "id": "s9",
+      "title": "Slovensko.sk – Informácie o obci Trenčianske Teplice",
+      "url": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_8767a9a6-3936-45f2-900e-cb20f59fdd08",
+      "type": "official"
     }
   ],
   "translations": {
