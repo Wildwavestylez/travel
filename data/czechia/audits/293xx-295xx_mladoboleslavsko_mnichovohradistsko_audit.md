@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28  
+**Poslední checkpoint:** 2026-11-28 — doplněna bitva u Mnichova Hradiště 28. 6. 1866  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -34,7 +34,7 @@ Bez 294xx čísel, která v sequence/RÚIAN nejsou.
 - Původní inventura: 323 faktů; po doplnění 6 osobností a odstranění 2 duplicit: **327 faktů**.
 - Stav záznamů při inventuře: 22 `validated`, 18 `placeholder`; žádný záznam nebyl publikován ani převeden na V5.
 - Všechny kontrolované JSON povinné klíče jsou přítomny v 40/40; `facts` je pole a `translations` objekt. Administrativní `city/county/state` jsou vyplněny.
-- **29501 je zásadní blokátor:** 18 faktů, `status=placeholder`, ale `translations` je prázdný objekt — chybí všech 7 jazykových sad.
+- **29501 je zásadní blokátor:** nyní 19 faktů, `status=placeholder`; překlady byly založeny pouze pro nový `fact_019` (1/19 v každém ze 7 jazyků). U původních 18 faktů překlady stále chybí.
 - Neprováděla se publikace V5, backup, Neon import ani read-only lock.
 
 ## 4. Provedené opravy
@@ -137,7 +137,7 @@ Potvrzené nebo silně doložené tematické body:
 - Drábské světničky a Valečov — zahrnuty v 29501/fact_002 a fact_003.
 - Bedřich Smetana a Jabkenice — prověřit explicitní zastoupení v 29445.
 - Laurin & Klement a automobilová historie Mladé Boleslavi — ověřit rozsah a případné duplicity v 29301.
-- **Vysoká priorita: bitva u Mnichova Hradiště dne 28. 6. 1866.** 29501/fact_004 na Mužském zmiňuje válku 1866 pouze obecně a památníky v širší krajině; nepopisuje samotnou bitvu. VHU uvádí útok Prusů u Ševčína a Bílé Hlíně, ústup rakousko-saských vojsk přes Jizeru, zapálení mostu u zámku a pokračování boje směrem k Bosni a Valečovu. Doporučení: rozšířit 29501/fact_004 nebo vytvořit samostatný fakt až po vyřešení překladů 29501.
+- **Bitva u Mnichova Hradiště 28. 6. 1866 — doplněno jako 29501/fact_019.** Samostatný fakt popisuje útok u Ševčína a Bílé Hlíny, ústup přes Klášter Hradiště nad Jizerou, zapálení mostu u zámku, pruské překročení Jizery a ústup směrem k Bosni a Valečovu. Připojen je pomník na Habru (přesné souřadnice 50.5212167, 14.9426778) a tři zdroje: Vojenský historický ústav, městský Kamelot a Vets.cz. Fact má 619 znaků a překlad do všech 7 jazyků. Původní 29501/fact_004 na Mužském zůstává tematicky oddělený.
 - Další osobnosti narozené v Mladé Boleslavi, které byly doplněny: Eva Bosáková, Adina Mandlová, Jan Železný, František Gellner, Jan Konůpek. Kosmonoský Alois Bubák doplněn do 29306.
 
 Významné zdroje pro další práci:
@@ -154,8 +154,8 @@ Významné zdroje pro další práci:
 ## 7. Otevřené kontroly — audit není dokončen
 
 1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 327 faktů. Dosud byly plně zpracovány nové položky a opravené texty; zbytek není sémanticky uzavřen.
-2. 29501: doplnit překladovou strukturu všech 18 faktů do 7 jazyků; do té doby ponechat `REVIEW REQUIRED` a `placeholder`.
-3. Rozšířit historický kontext bitvy 28. 6. 1866 v 29501.
+2. 29501: doplnit překladovou strukturu původních 18 faktů do 7 jazyků; nyní jsou přeloženy pouze nové `fact_019` (1/19 v každém jazyce). Do té doby ponechat `REVIEW REQUIRED` a `placeholder`.
+3. Bitva 28. 6. 1866 je nyní samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
 6. Provést reklamní scan ve všech jazycích.
@@ -171,4 +171,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok po obnovení práce:** pokračovat od 29301 — dokončit individuální sémantickou kontrolu všech 7 jazyků pro 16 faktů, poté 29306 (12 faktů), dále sekvenčně. Nezačínat znovu inventuru rozsahu ani opakovat již potvrzené opravy.
+**Další krok po obnovení práce:** nejprve doplnit chybějící překlady původních 18 faktů v 29501 po malých dávkách (nový `fact_019` už má 7 jazyků), poté pokračovat od 29301 — dokončit individuální sémantickou kontrolu všech 7 jazyků pro 16 faktů, dále 29306 (12 faktů) a postupovat sekvenčně. Nezačínat znovu inventuru rozsahu ani opakovat již potvrzené opravy.
