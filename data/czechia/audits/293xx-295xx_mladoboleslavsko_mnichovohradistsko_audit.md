@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — doplněna bitva u Mnichova Hradiště 28. 6. 1866  
+**Poslední checkpoint:** 2026-11-28 — dokončeny překlady 29501 (19/19 × 7 jazyků) a obsahová revize překladů 29301 (16/16 × 7 jazyků)  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -125,7 +125,7 @@ Počet původních `location:null`: 28. Zbývá **10**.
 
 ### Ještě prověřit
 
-- 29301/fact_009 — EVL Bezděčín je plošná lokalita; potřebuje oficiální polygon a bezpečný reprezentativní bod.
+- 29301/fact_009 — EVL Bezděčín (CZ0213776, 81,18 ha) je plošná lokalita. AOPK publikuje polygonovou vrstvu Natura 2000; polygon je doložen, ale pro DB zatím nebyl bezpečně určen a read-backem ověřen reprezentativní bod. Do té doby ponechat `location:null`.
 - 29425/fact_003 — rodný dům Jana Nepomuka Krouského čp. 12; dohledat přesný adresní bod, neumisťovat automaticky na kostel.
 - 29428/fact_005 — boží muka na severním okraji Chotětova; dohledat přesný bod u křižovatky.
 
@@ -153,8 +153,8 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Dosud byly plně zpracovány nové položky a opravené texty; zbytek není sémanticky uzavřen.
-2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
+1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011; 29301 má 16/16 položek v každém jazyce a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
+2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
@@ -171,4 +171,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** překladová struktura 29501 je kompletní. Pokračovat podle `sequence.json` od 29301 — individuálně sémanticky zkontrolovat všech 7 jazyků u 16 faktů, poté 29306 (12 faktů) a dále postupovat sekvenčně. Nezačínat znovu inventuru rozsahu ani opakovat již potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29306 (12 faktů): zkontrolovat úplnost a sémantiku všech 7 jazyků; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená pouze bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a ostatní obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
