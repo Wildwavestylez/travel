@@ -147,8 +147,7 @@
       "priority": "C",
       "map_category": "technical_heritage",
       "sources": [
-        "s2",
-        "s10"
+        "s2"
       ],
       "location": {
         "name": "Topolecká – orientační bod místní části, nikoli ověřený půdorys papírny",
@@ -330,13 +329,14 @@
     {
       "id": "fact_016",
       "title": "Iľja Dibrov a partyzánský odboj pod Javorinou",
-      "text": "Iľja Danielovič Dibrov (1891–1944) byl velitelem Druhé československé partyzánské brigády J. V. Stalina. Její velitelství působilo v kopaničiarské oblasti Bílých Karpat; jednotka zaútočila na německou posádku ve Staré Turé 12. října 1944. Dibrov padl o den později při přesunu na bošácké kopanice. Jeho památku připomíná pomník ve městě i památník na hřebeni.",
+      "text": "Iľja Danielovič Dibrov (1891–1944) byl velitelem Druhé československé partyzánské brigády J. V. Stalina. Její štáb sídlil v kopaničiarské osadě Hlavina. Městská pamětní deska datuje útok na německou posádku ve Staré Turé na 12. října 1944, zatímco regionální muzeum popisuje hlavní boj 13. října. Dibrov téhož dne padl při přesunu na bošácké kopanice. Jeho památku připomíná pomník ve městě i památník na hřebeni.",
       "category": "people",
       "priority": "B",
       "map_category": "personality",
       "sources": [
         "s18",
-        "s19"
+        "s19",
+        "s23"
       ],
       "location": {
         "name": "Pomník Iľji Danieloviča Dibrova",
@@ -351,14 +351,15 @@
     {
       "id": "fact_017",
       "title": "Nárcie a partyzánská nemocnice ve Vetešovském jarku",
-      "text": "Osada Nárcie byla během SNP jedním z tragických míst odboje: v březnu 1945 ji nacistické jednotky vypálily a devět partyzánů zahynulo v hořícím úkrytu. V odlehlém Vetešovském jarku mezitím fungovala skrytá polní nemocnice, kam za sněhové vánice převezli na saních 17 zraněných. Dnešní dřevěný bunker je památníkem postaveným na počátku 60. let, nikoli původní válečnou stavbou.",
+      "text": "Osada Nárcie byla během SNP jedním z tragických míst odboje: v roce 1945 ji nacistické jednotky vypálily a devět partyzánů zahynulo v hořícím úkrytu. V odlehlém Vetešovském jarku mezitím fungovala skrytá polní nemocnice, kam za sněhové vánice převezli na saních 17 zraněných po boji u Cetuny. Dnešní dřevěný bunker je památníkem postaveným na počátku 60. let, nikoli původní válečnou stavbou.",
       "category": "history",
       "priority": "B",
       "map_category": "historical_monument",
       "sources": [
         "s19",
         "s20",
-        "s21"
+        "s24",
+        "s25"
       ],
       "location": {
         "name": "Partyzánský bunker – Vetešovský jarok",
@@ -469,12 +470,6 @@
       "type": "official"
     },
     {
-      "id": "s10",
-      "title": "História Starej Turej a papierne v Topoleckej – mestský profil",
-      "url": "https://www.slovensko.sk/sk/lokality/_b5b09fa0-7c0b-46ec-b63f-4e1775f38c08",
-      "type": "official"
-    },
-    {
       "id": "s11",
       "title": "História spoločnosti CHIRANA",
       "url": "https://www.chirana.eu/o-nas/historia?lang=sk",
@@ -518,8 +513,8 @@
     },
     {
       "id": "s18",
-      "title": "Iľja Danielovič Dibrov – Mesto Stará Turá",
-      "url": "https://www.staratura.sk/ilja-danilovic-dibrov/",
+      "title": "Dibrova Iľja Danilovič – Mesto Stará Turá",
+      "url": "https://www.staratura.sk/item/ilja-danilovic-dibrova/",
       "type": "official"
     },
     {
@@ -544,6 +539,24 @@
       "id": "s22",
       "title": "Maloplošné chránené územia – CHKO Biele Karpaty",
       "url": "https://chkobielekarpaty.sopsr.sk/priroda/maloplosne-chranene-uzemia/",
+      "type": "official"
+    },
+    {
+      "id": "s23",
+      "title": "80. SNP podjavorinskí partizáni – II. Stalinova partizánska brigáda – Trenčianske múzeum",
+      "url": "https://www.muzeumtn.sk/hlavna-stranka/blog/80-snp-podjavorinski-partizani-ii.-stalinova-partizanska-brigada.html?page_id=21252",
+      "type": "specialist"
+    },
+    {
+      "id": "s24",
+      "title": "Partizánska nemocnica – Vetešov jarok – Slovenský cestovateľ",
+      "url": "https://slovenskycestovatel.sk/item/partizanska-nemocnica-vetesov-jarok",
+      "type": "specialist"
+    },
+    {
+      "id": "s25",
+      "title": "Mestské oslavy 73. výročia SNP v osade Nárcie – Mesto Stará Turá",
+      "url": "https://www.staratura.sk/item/mestske-oslavy-73-vyrocia-snp-v-osade-narcie/",
       "type": "official"
     }
   ],
@@ -629,12 +642,12 @@
         {
           "id": "fact_016",
           "title": "Iľja Dibrov a partyzánský odboj pod Javorinou",
-          "text": "Iľja Danielovič Dibrov (1891–1944) byl velitelem Druhé československé partyzánské brigády J. V. Stalina. Její velitelství působilo v kopaničiarské oblasti Bílých Karpat; jednotka zaútočila na německou posádku ve Staré Turé 12. října 1944. Dibrov padl o den později při přesunu na bošácké kopanice. Jeho památku připomíná pomník ve městě i památník na hřebeni."
+          "text": "Iľja Danielovič Dibrov (1891–1944) byl velitelem Druhé československé partyzánské brigády J. V. Stalina. Její štáb sídlil v kopaničiarské osadě Hlavina. Městská pamětní deska datuje útok na německou posádku ve Staré Turé na 12. října 1944, zatímco regionální muzeum popisuje hlavní boj 13. října. Dibrov téhož dne padl při přesunu na bošácké kopanice. Jeho památku připomíná pomník ve městě i památník na hřebeni."
         },
         {
           "id": "fact_017",
           "title": "Nárcie a partyzánská nemocnice ve Vetešovském jarku",
-          "text": "Osada Nárcie byla během SNP jedním z tragických míst odboje: v březnu 1945 ji nacistické jednotky vypálily a devět partyzánů zahynulo v hořícím úkrytu. V odlehlém Vetešovském jarku mezitím fungovala skrytá polní nemocnice, kam za sněhové vánice převezli na saních 17 zraněných. Dnešní dřevěný bunker je památníkem postaveným na počátku 60. let, nikoli původní válečnou stavbou."
+          "text": "Osada Nárcie byla během SNP jedním z tragických míst odboje: v roce 1945 ji nacistické jednotky vypálily a devět partyzánů zahynulo v hořícím úkrytu. V odlehlém Vetešovském jarku mezitím fungovala skrytá polní nemocnice, kam za sněhové vánice převezli na saních 17 zraněných po boji u Cetuny. Dnešní dřevěný bunker je památníkem postaveným na počátku 60. let, nikoli původní válečnou stavbou."
         },
         {
           "id": "fact_018",
@@ -728,13 +741,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov und der Partisanenwiderstand",
-          "text": "Iľja Danielovič Dibrov (1891–1944) kommandierte die Zweite tschechoslowakische Partisanenbrigade J. V. Stalin. Ihr Stab war in den Weißen Karpaten tätig; die Einheit griff am 12. Oktober 1944 die deutsche Garnison in Stará Turá an. Dibrov fiel am folgenden Tag. Denkmäler in der Stadt und auf dem Kamm erinnern an ihn."
+          "title": "Iľja Dibrov und der Partisanenwiderstand unter der Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) kommandierte die Zweite tschechoslowakische Partisanenbrigade J. V. Stalin. Ihr Stab saß in der Streusiedlung Hlavina. Die städtische Gedenktafel datiert den Angriff auf die deutsche Garnison auf den 12. Oktober 1944, während das Regionalmuseum den Hauptkampf am 13. Oktober beschreibt. Dibrov fiel an diesem Tag beim Rückzug in Richtung Bošáca. Denkmäler in der Stadt und auf dem Kamm erinnern an ihn."
         },
         {
           "id": "fact_017",
           "title": "Nárcie und das Partisanenlazarett im Vetešov-Graben",
-          "text": "Die Siedlung Nárcie wurde im März 1945 von Nazi-Einheiten niedergebrannt; neun Partisanen starben in einem brennenden Versteck. Im Vetešov-Graben befand sich ein verborgenes Feldlazarett, in das 17 Verwundete während eines Schneesturms gebracht wurden. Der heutige Holzbunker ist ein in den frühen 1960er-Jahren errichtetes Denkmal."
+          "text": "Die Siedlung Nárcie wurde während des Slowakischen Nationalaufstands 1945 von Nazi-Einheiten niedergebrannt; neun Partisanen starben in einem brennenden Versteck. Im abgelegenen Vetešov-Graben befand sich ein verborgenes Feldlazarett, in das nach dem Kampf bei Cetuna 17 Verwundete während eines Schneesturms auf Schlitten gebracht wurden. Der heutige Holzbunker ist ein in den frühen 1960er-Jahren errichtetes Denkmal, kein originales Kriegsgebäude."
         },
         {
           "id": "fact_018",
@@ -828,13 +841,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov and the partisan resistance",
-          "text": "Iľja Danielovič Dibrov (1891–1944) commanded the Second Czechoslovak Partisan Brigade J. V. Stalin. Its headquarters operated in the White Carpathians; the unit attacked the German garrison in Stará Turá on 12 October 1944. Dibrov was killed the next day. Monuments in town and on the ridge commemorate him."
+          "title": "Iľja Dibrov and the partisan resistance below Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) commanded the Second Czechoslovak Partisan Brigade of J. V. Stalin. Its headquarters were in the Hlavina settlement. The town memorial plaque dates the attack on the German garrison to 12 October 1944, while the regional museum describes the main battle as taking place on 13 October. Dibrov was killed that day while moving towards Bošáca. Monuments in town and on the ridge commemorate him."
         },
         {
           "id": "fact_017",
           "title": "Nárcie and the partisan field hospital in Vetešov ravine",
-          "text": "Nazi forces burned the settlement of Nárcie in March 1945; nine partisans died in a burning hideout. A concealed field hospital operated in Vetešov ravine, where 17 wounded partisans were brought during a snowstorm. The present wooden bunker is a memorial built in the early 1960s."
+          "text": "The settlement of Nárcie was burned by Nazi forces in 1945 during the Slovak National Uprising; nine partisans died in a burning hideout. A concealed field hospital operated in the remote Vetešov ravine, where 17 wounded were brought by sled after the battle at Cetuna during a snowstorm. The present wooden bunker is a memorial built in the early 1960s, not an original wartime structure."
         },
         {
           "id": "fact_018",
@@ -928,13 +941,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov y la resistencia partisana",
-          "text": "Iľja Danielovič Dibrov (1891–1944) comandó la Segunda Brigada Partisana Checoslovaca J. V. Stalin. Su cuartel general operó en los Cárpatos Blancos; la unidad atacó la guarnición alemana de Stará Turá el 12 de octubre de 1944. Dibrov murió al día siguiente. Monumentos en la ciudad y en la cresta recuerdan su memoria."
+          "title": "Iľja Dibrov y la resistencia partisana bajo Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) comandó la Segunda Brigada Partisana Checoslovaca J. V. Stalin. Su cuartel general estaba en el asentamiento de Hlavina. La placa municipal fecha el ataque a la guarnición alemana el 12 de octubre de 1944, mientras que el museo regional sitúa el combate principal el 13 de octubre. Dibrov murió ese día durante el traslado hacia Bošáca. Monumentos en la ciudad y en la cresta recuerdan su memoria."
         },
         {
           "id": "fact_017",
           "title": "Nárcie y el hospital partisano del barranco de Vetešov",
-          "text": "Las fuerzas nazis incendiaron el asentamiento de Nárcie en marzo de 1945; nueve partisanos murieron en un refugio en llamas. En el barranco de Vetešov funcionaba un hospital de campaña oculto, adonde trasladaron a 17 heridos durante una tormenta de nieve. El búnker de madera actual es un monumento de comienzos de los años sesenta."
+          "text": "Las fuerzas nazis incendiaron el asentamiento de Nárcie en 1945 durante el Levantamiento Nacional Eslovaco; nueve partisanos murieron en un refugio en llamas. En el remoto barranco de Vetešov funcionaba un hospital de campaña oculto, adonde trasladaron en trineos a 17 heridos tras la batalla de Cetuna durante una tormenta de nieve. El búnker de madera actual es un monumento de comienzos de los años sesenta, no una estructura original de guerra."
         },
         {
           "id": "fact_018",
@@ -1028,13 +1041,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov et la résistance partisane",
-          "text": "Iľja Danielovič Dibrov (1891–1944) commandait la Deuxième brigade partisane tchécoslovaque J. V. Staline. Son état-major opérait dans les Carpates blanches ; l’unité attaqua la garnison allemande de Stará Turá le 12 octobre 1944. Dibrov fut tué le lendemain. Des monuments en ville et sur la crête lui rendent hommage."
+          "title": "Iľja Dibrov et la résistance partisane sous la Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) commandait la Deuxième brigade partisane tchécoslovaque J. V. Staline. Son état-major se trouvait dans le hameau de Hlavina. La plaque municipale date l’attaque de la garnison allemande du 12 octobre 1944, tandis que le musée régional situe le combat principal au 13 octobre. Dibrov fut tué ce jour-là lors du déplacement vers Bošáca. Des monuments en ville et sur la crête lui rendent hommage."
         },
         {
           "id": "fact_017",
           "title": "Nárcie et l’hôpital partisan du ravin de Vetešov",
-          "text": "Les forces nazies incendièrent le hameau de Nárcie en mars 1945 ; neuf partisans périrent dans une cache en flammes. Un hôpital de campagne secret fonctionnait dans le ravin de Vetešov, où 17 blessés furent amenés en traîneau pendant une tempête de neige. Le bunker en bois actuel est un mémorial construit au début des années 1960."
+          "text": "Les forces nazies incendièrent le hameau de Nárcie en 1945 pendant le Soulèvement national slovaque ; neuf partisans périrent dans une cache en flammes. Un hôpital de campagne secret fonctionnait dans le ravin isolé de Vetešov, où 17 blessés furent amenés en traîneau après la bataille de Cetuna, pendant une tempête de neige. Le bunker en bois actuel est un mémorial construit au début des années 1960, et non un bâtiment de guerre d’origine."
         },
         {
           "id": "fact_018",
@@ -1128,13 +1141,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov e la resistenza partigiana",
-          "text": "Iľja Danielovič Dibrov (1891–1944) comandava la Seconda brigata partigiana cecoslovacca J. V. Stalin. Il comando operava nei Carpazi Bianchi; l’unità attaccò la guarnigione tedesca di Stará Turá il 12 ottobre 1944. Dibrov fu ucciso il giorno seguente. Monumenti in città e sulla cresta ne ricordano la memoria."
+          "title": "Iľja Dibrov e la resistenza partigiana sotto la Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) comandava la Seconda brigata partigiana cecoslovacca J. V. Stalin. Il suo comando si trovava nell’insediamento di Hlavina. La targa municipale data l’attacco alla guarnigione tedesca al 12 ottobre 1944, mentre il museo regionale colloca il combattimento principale il 13 ottobre. Dibrov fu ucciso quel giorno durante lo spostamento verso Bošáca. Monumenti in città e sulla cresta ne ricordano la memoria."
         },
         {
           "id": "fact_017",
           "title": "Nárcie e l’ospedale partigiano nel vallone di Vetešov",
-          "text": "Le forze naziste incendiarono l’insediamento di Nárcie nel marzo 1945; nove partigiani morirono in un rifugio in fiamme. Nel vallone di Vetešov funzionava un ospedale da campo nascosto, dove 17 feriti furono trasportati su slitte durante una tormenta. Il bunker ligneo attuale è un memoriale dei primi anni Sessanta."
+          "text": "Le forze naziste incendiarono l’insediamento di Nárcie nel 1945 durante l’Insurrezione nazionale slovacca; nove partigiani morirono in un rifugio in fiamme. Nel remoto vallone di Vetešov funzionava un ospedale da campo nascosto, dove 17 feriti furono trasportati su slitte dopo la battaglia di Cetuna durante una tormenta. Il bunker ligneo attuale è un memoriale dei primi anni Sessanta, non una struttura originale di guerra."
         },
         {
           "id": "fact_018",
@@ -1228,13 +1241,13 @@
         },
         {
           "id": "fact_016",
-          "title": "Iľja Dibrov en het partizanenverzet",
-          "text": "Iľja Danielovič Dibrov (1891–1944) voerde het bevel over de Tweede Tsjechoslowaakse Partizanenbrigade J. V. Stalin. Het hoofdkwartier opereerde in de Witte Karpaten; de eenheid viel op 12 oktober 1944 het Duitse garnizoen in Stará Turá aan. Dibrov sneuvelde de volgende dag. Monumenten in de stad en op de bergkam herinneren aan hem."
+          "title": "Iľja Dibrov en het partizanenverzet onder Javorina",
+          "text": "Iľja Danielovič Dibrov (1891–1944) voerde het bevel over de Tweede Tsjechoslowaakse Partizanenbrigade J. V. Stalin. Het hoofdkwartier bevond zich in de nederzetting Hlavina. De gemeentelijke gedenkplaat dateert de aanval op het Duitse garnizoen op 12 oktober 1944, terwijl het regionale museum de hoofdstrijd op 13 oktober plaatst. Dibrov sneuvelde die dag tijdens de verplaatsing richting Bošáca. Monumenten in de stad en op de bergkam herinneren aan hem."
         },
         {
           "id": "fact_017",
           "title": "Nárcie en het partizanenveldhospitaal in de Vetešov-kloof",
-          "text": "Nazi-eenheden staken de nederzetting Nárcie in maart 1945 in brand; negen partizanen kwamen om in een brandende schuilplaats. In de Vetešov-kloof was een verborgen veldhospitaal waar 17 gewonden tijdens een sneeuwstorm per slee naartoe werden gebracht. De huidige houten bunker is een gedenkteken uit het begin van de jaren zestig."
+          "text": "Nazi-eenheden staken de nederzetting Nárcie in 1945 tijdens de Slowaakse Nationale Opstand in brand; negen partizanen kwamen om in een brandende schuilplaats. In de afgelegen Vetešov-kloof was een verborgen veldhospitaal waar na de slag bij Cetuna 17 gewonden tijdens een sneeuwstorm per slee naartoe werden gebracht. De huidige houten bunker is een gedenkteken uit het begin van de jaren zestig, geen oorspronkelijk oorlogsgebouw."
         },
         {
           "id": "fact_018",
