@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401; oprava Václava Tarantíka  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307, 29401 a 29402; oprava Václava Tarantíka  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -102,6 +102,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29306 Kosmonosy:** 12/12 faktů v každém ze 7 jazyků; 0 chybějících ID, `translations.cs` přesně odpovídá masteru. Všech 72 cizojazyčných textů bylo individuálně zkontrolováno; nejkratší jazyková položka má 558 znaků. Nalezené formulace zachovávají historické osoby, data, stavby a významové nuance; nebyla nutná obsahová oprava.
 - **29307 Hrdlořezy / Josefův Důl:** 4/4 faktů v každém ze 7 jazyků; 0 chybějících ID, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. U `fact_004` byla opravena zásadní faktická chyba: Václav Tarantík sloužil u **311. československé bombardovací peruti RAF**, nikoli u „1. československé“ peruti; text nyní správně uvádí jeho službu jako palubního radiotelegrafistu a smrt při havárii Liberatoru BZ717 (L) při návratu z operačního letu nad Atlantikem. Opraveno v masteru i všech 6 cizojazyčných překladech; přidány dva odborné zdroje (Vets.cz a Čeští RAFáci).
 - **29401 Bakovsko:** 7/7 faktů v každém ze 7 jazyků; 0 krátkých masterů, 0 null poloh, 0 rozdílů `translations.cs`/master. Individuálně zkontrolovány překlady všech sedmi faktů; historická data, osoby, sakrální a přírodní památky i rozlišení doložených skutečností od místní pověsti jsou zachovány. Dříve odstraněný duplicitní `fact_007` (lovecký zámeček v Maníkovicích) zůstává správně pouze v 29501.
+- **29402 Kněžmost:** 4/4 faktů v každém ze 7 jazyků; 0 krátkých masterů, 0 null poloh, 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 24 cizojazyčných textů. Opravena drobná italská gramatická chyba u `fact_003` („un raro ostensorio“); po zápisu potvrzen read-back.
 
 ### 4.6 Doplněné polohy
 
@@ -162,7 +163,7 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004 a 29401/fact_001–fact_006 + fact_008; u 29307 opravena jednotka Václava Tarantíka. Tyto čtyři záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
+1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004, 29401/fact_001–fact_006 + fact_008 a 29402/fact_001–fact_004; u 29307 opravena jednotka Václava Tarantíka. Tyto záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
 2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
@@ -180,4 +181,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29402: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29403: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
