@@ -267,6 +267,53 @@
       ],
       "map_category": "historical_monument",
       "location": null
+    },
+    {
+      "id": "fact_015",
+      "title": "Rozhledna Malý Jelenec – vyhlídková věž nad Trenčianskou Závadou",
+      "text": "Dřevěná rozhledna Malý Jelenec stojí nad místní částí Trenčianska Závada v nadmořské výšce přibližně 459 metrů. Byla postavena roku 2015 a nabízí výhled na Bílé Karpaty, Strážovské vrchy, Považský Inovec i Vršatská bradla. Zdroje se mírně rozcházejí ve výšce věže: regionální portál uvádí 24,6 metru, oficiální turistický portál 26 metrů. K rozhledně vede krátká pěší trasa od hospodářství Uhliská; místo je volně přístupné a slouží jako vyhledávaný cíl místních výletů.",
+      "category": "tourism_and_surroundings",
+      "priority": "C",
+      "sources": [
+        "s29",
+        "s30"
+      ],
+      "map_category": "viewpoint_landscape",
+      "location": {
+        "name": "Rozhľadňa Malý Jelenec",
+        "address": "Trenčianska Závada, 914 41 Nemšová, Slovakia",
+        "lat": 48.97375,
+        "lon": 18.0636111,
+        "type": "lookout_tower",
+        "accuracy": "exact",
+        "source": "https://visit.trencin.sk/rozhladna-maly-jelenec/"
+      }
+    },
+    {
+      "id": "fact_016",
+      "title": "Včelařská naučná stezka Ľuborča – dvanáct zastavení o včelách a krajině",
+      "text": "Včelařská naučná stezka v Ľuborči byla otevřena 1. května 2022 ve spolupráci občanského sdružení HUBERT Ľuborča a města Nemšová. Přibližně 1,8 km dlouhá trasa má dvanáct informačních zastavení a představuje život včel, místní včelařství, opylování i vztah hmyzu ke krajině. Začíná u hřbitova v Dvorci, vede kolem dřevěné sochy medvěda s mláďaty a pokračuje po části tělesa bývalé lesní železnice k někdejší střelnici. Je určena rodinám, školám, pěším i cyklistům a navazuje na další lesnické a lovecké naučné trasy v Ľuborčianské dolině.",
+      "category": "tourism_and_surroundings",
+      "priority": "C",
+      "sources": [
+        "s31",
+        "s32",
+        "s33"
+      ],
+      "map_category": "visitor_attraction",
+      "location": null
+    },
+    {
+      "id": "fact_017",
+      "title": "Protitankové zátarasy u Ľuborče – pozůstatky německé obranné linie z roku 1944",
+      "text": "V katastru Nemšové, v okolí Ľuborče, se dochovaly betonové protitankové překážky vybudované německou armádou na konci druhé světové války. Podle historické cykloturistické trasy Trenčianského samosprávného kraje šlo o třetí obrannou linii navazující na další pásma ve Vlárském průsmyku a Pováží. Masivní betonové bloky měly zpomalit postup Rudé armády; k očekávanému střetu na této trase nakonec nedošlo. Po válce byly odstraněny především překážky bránící průjezdu a část konstrukcí zůstala v terénu. Jde o hmotný doklad válečných obranných příprav v regionu.",
+      "category": "history",
+      "priority": "C",
+      "sources": [
+        "s34"
+      ],
+      "map_category": "historical_monument",
+      "location": null
     }
   ],
   "photo": null,
@@ -452,6 +499,42 @@
       "title": "Gedenkwerkstatt Nemšová – Jüdisches Leben in Nemšova / Životy židovského obyvateľstva, 2026",
       "url": "https://blogs.fu-berlin.de/nemsova/2026/08/18/juedisches-leben-in-nemsova-zivoty-zidovskeho-obyvatelstva-v-nemsovej/",
       "type": "specialist"
+    },
+    {
+      "id": "s29",
+      "title": "Visit Trenčín – Rozhľadňa Malý Jelenec, výška a GPS",
+      "url": "https://visit.trencin.sk/rozhladna-maly-jelenec/",
+      "type": "regional"
+    },
+    {
+      "id": "s30",
+      "title": "KrásneSlovensko – Rozhľadňa Malý Jelenec, turistické údaje",
+      "url": "https://www.krasneslovensko.eu/trenciansky-kraj/rozhladna-maly-jelenec",
+      "type": "regional"
+    },
+    {
+      "id": "s31",
+      "title": "Nemšovský spravodajca 2/2022 – Otvorenie Včelárskeho náučného chodníka v Ľuborči",
+      "url": "https://www.nemsova.sk/content/00/nemsovsky-spravodajca-c-2-2022-online-verzia.pdf",
+      "type": "archive"
+    },
+    {
+      "id": "s32",
+      "title": "HUBERT Ľuborča – Včelársky náučný chodník",
+      "url": "https://www.hubertluborca.sk/node/239",
+      "type": "regional"
+    },
+    {
+      "id": "s33",
+      "title": "Náučné chodníky – Včelársky náučný chodník Ľuborča, 12 zastavení a trasa",
+      "url": "https://naucnechodniky.eu/vcelarsky-naucny-chodnik-luborca/",
+      "type": "regional"
+    },
+    {
+      "id": "s34",
+      "title": "Trenčiansky samosprávny kraj – Historická cyklotrasa: protitankové zátarasy pri Nemšovej a vo Vlárskom priesmyku",
+      "url": "https://www.cyklotrasytsk.sk/buxus/docs/dokumenty/na_stiahnutie/na_bicykli_po_stopach_historie_od_hradu_k_hradu_1/Tabula_V._Nemsova_a_Vlarsky_priesmyk.pdf",
+      "type": "official"
     }
   ],
   "translations": {
@@ -527,6 +610,21 @@
           "id": "fact_014",
           "title": "Židovská komunita v Nemšové a Ľuborči – škola, modlitebna a zaniklý hřbitov",
           "text": "Židovská komunita v Nemšové a Ľuborči měla vlastní hřbitov, modlitebnu i školu. Podle sčítání z roku 1829 žilo ve farnosti 90 Židů. V 50. letech 19. století získala židovská obec od katolické církve starou školu v centru Nemšové, která sloužila jako židovská škola do roku 1915; ve stejné době vznikla modlitebna v Ľuborči. Soupis z roku 1942 evidoval 20 osob v Nemšové a 13 v Ľuborči; nejméně 14 z nich podle místního výzkumu zahynulo v koncentračních táborech. Židovský hřbitov v Nemšové byl zrušen roku 1977, ale na jeho ploše zůstaly v trávě skryté zbytky náhrobků a pohřbení zůstávají na místě. Modlitebna v Ľuborči po válce osiřela, chátrala a byla zbořena."
+        },
+        {
+          "id": "fact_015",
+          "title": "Rozhledna Malý Jelenec – vyhlídková věž nad Trenčianskou Závadou",
+          "text": "Dřevěná rozhledna Malý Jelenec stojí nad místní částí Trenčianska Závada v nadmořské výšce přibližně 459 metrů. Byla postavena roku 2015 a nabízí výhled na Bílé Karpaty, Strážovské vrchy, Považský Inovec i Vršatská bradla. Zdroje se mírně rozcházejí ve výšce věže: regionální portál uvádí 24,6 metru, oficiální turistický portál 26 metrů. K rozhledně vede krátká pěší trasa od hospodářství Uhliská; místo je volně přístupné a slouží jako vyhledávaný cíl místních výletů."
+        },
+        {
+          "id": "fact_016",
+          "title": "Včelařská naučná stezka Ľuborča – dvanáct zastavení o včelách a krajině",
+          "text": "Včelařská naučná stezka v Ľuborči byla otevřena 1. května 2022 ve spolupráci občanského sdružení HUBERT Ľuborča a města Nemšová. Přibližně 1,8 km dlouhá trasa má dvanáct informačních zastavení a představuje život včel, místní včelařství, opylování i vztah hmyzu ke krajině. Začíná u hřbitova v Dvorci, vede kolem dřevěné sochy medvěda s mláďaty a pokračuje po části tělesa bývalé lesní železnice k někdejší střelnici. Je určena rodinám, školám, pěším i cyklistům a navazuje na další lesnické a lovecké naučné trasy v Ľuborčianské dolině."
+        },
+        {
+          "id": "fact_017",
+          "title": "Protitankové zátarasy u Ľuborče – pozůstatky německé obranné linie z roku 1944",
+          "text": "V katastru Nemšové, v okolí Ľuborče, se dochovaly betonové protitankové překážky vybudované německou armádou na konci druhé světové války. Podle historické cykloturistické trasy Trenčianského samosprávného kraje šlo o třetí obrannou linii navazující na další pásma ve Vlárském průsmyku a Pováží. Masivní betonové bloky měly zpomalit postup Rudé armády; k očekávanému střetu na této trase nakonec nedošlo. Po válce byly odstraněny především překážky bránící průjezdu a část konstrukcí zůstala v terénu. Jde o hmotný doklad válečných obranných příprav v regionu."
         }
       ]
     },
@@ -602,6 +700,21 @@
           "id": "fact_014",
           "title": "Jüdische Gemeinde in Nemšová und Ľuborča – Schule, Bethaus und aufgelöster Friedhof",
           "text": "Die jüdische Gemeinde in Nemšová und Ľuborča besaß einen eigenen Friedhof, ein Bethaus und eine Schule. Laut Volkszählung von 1829 lebten 90 jüdische Menschen in der Pfarrei. In den 1850er Jahren überließ die katholische Kirche der jüdischen Gemeinde die alte Schule im Zentrum von Nemšová, die bis 1915 als jüdische Schule diente; zur gleichen Zeit entstand ein Bethaus in Ľuborča. Die Erfassung von 1942 verzeichnete 20 Personen in Nemšová und 13 in Ľuborča; nach lokalen Forschungen starben mindestens 14 von ihnen in Konzentrationslagern. Der jüdische Friedhof von Nemšová wurde 1977 aufgelöst, doch im Gras sind noch Reste von Grabsteinen verborgen und die Bestattungen befinden sich weiterhin an Ort und Stelle. Das Bethaus in Ľuborča wurde nach dem Krieg verlassen, verfiel und schließlich abgerissen."
+        },
+        {
+          "id": "fact_015",
+          "title": "Aussichtsturm Malý Jelenec – Aussichtspunkt oberhalb von Trenčianska Závada",
+          "text": "Der hölzerne Aussichtsturm Malý Jelenec steht oberhalb des Ortsteils Trenčianska Závada auf etwa 459 Metern Höhe. Er wurde 2015 errichtet und bietet Ausblicke auf die Weißen Karpaten, das Strážov-Gebirge, den Považský Inovec und die Felsen von Vršatec. Die Quellen nennen leicht unterschiedliche Höhen: Das regionale Portal gibt 24,6 Meter an, das offizielle Tourismusportal 26 Meter. Vom Hof Uhliská führt ein kurzer Wanderweg zum Turm; der Ort ist frei zugänglich und ein beliebtes Ziel für Ausflüge."
+        },
+        {
+          "id": "fact_016",
+          "title": "Imker-Lehrpfad Ľuborča – zwölf Stationen über Bienen und Landschaft",
+          "text": "Der Imker-Lehrpfad in Ľuborča wurde am 1. Mai 2022 in Zusammenarbeit des Vereins HUBERT Ľuborča und der Stadt Nemšová eröffnet. Die etwa 1,8 Kilometer lange Route umfasst zwölf Informationstafeln und stellt das Leben der Bienen, die örtliche Imkerei, die Bestäubung und die Beziehung der Insekten zur Landschaft vor. Sie beginnt am Friedhof in Dvorec, führt an einer Holzskulptur eines Bären mit Jungen vorbei und verläuft teilweise auf dem ehemaligen Bahndamm der Waldbahn bis zum früheren Schießplatz. Der Weg richtet sich an Familien, Schulen, Wanderer und Radfahrer und schließt an weitere forst- und jagdpädagogische Routen im Tal Ľuborčianska dolina an."
+        },
+        {
+          "id": "fact_017",
+          "title": "Panzerhindernisse bei Ľuborča – Reste einer deutschen Verteidigungslinie von 1944",
+          "text": "Im Katastergebiet von Nemšová, in der Umgebung von Ľuborča, sind Beton-Panzerhindernisse erhalten, die von der deutschen Armee gegen Ende des Zweiten Weltkriegs errichtet wurden. Laut einer historischen Radtour des Selbstverwaltungskreises Trenčín bildeten sie die dritte Verteidigungslinie, die an weitere Sperren im Wlarapass und im Waagtal anschloss. Die massiven Betonblöcke sollten den Vormarsch der Roten Armee verlangsamen; zu dem erwarteten Zusammenstoß auf dieser Route kam es letztlich nicht. Nach dem Krieg wurden vor allem Hindernisse entfernt, die den Verkehr blockierten; ein Teil der Anlagen blieb im Gelände erhalten. Sie sind ein materielles Zeugnis der militärischen Verteidigungsvorbereitungen in der Region."
         }
       ]
     },
@@ -677,6 +790,21 @@
           "id": "fact_014",
           "title": "Jewish community in Nemšová and Ľuborča – school, prayer house and former cemetery",
           "text": "The Jewish community in Nemšová and Ľuborča had its own cemetery, prayer house and school. According to the 1829 census, 90 Jewish people lived in the parish. In the 1850s the Catholic Church handed the old school in central Nemšová to the Jewish community; it served as a Jewish school until 1915, while a prayer house was built in Ľuborča around the same time. The 1942 register listed 20 people in Nemšová and 13 in Ľuborča; local research indicates that at least 14 of them died in concentration camps. The Jewish cemetery in Nemšová was closed and levelled in 1977, but fragments of gravestones remain hidden in the grass and the burials are still in place. The prayer house in Ľuborča was abandoned after the war, fell into disrepair and was demolished."
+        },
+        {
+          "id": "fact_015",
+          "title": "Malý Jelenec lookout tower – a viewpoint above Trenčianska Závada",
+          "text": "The wooden Malý Jelenec lookout tower stands above the local part of Trenčianska Závada at an elevation of about 459 metres. Built in 2015, it offers views of the White Carpathians, Strážov Mountains, Považský Inovec and the Vršatec cliffs. Sources differ slightly on its height: a regional portal gives 24.6 metres, while the official tourism portal lists 26 metres. A short walking route leads to the tower from the Uhliská farmstead; it is freely accessible and a popular local excursion destination."
+        },
+        {
+          "id": "fact_016",
+          "title": "Ľuborča beekeeping educational trail – twelve stops about bees and the landscape",
+          "text": "The beekeeping educational trail in Ľuborča opened on 1 May 2022 through cooperation between the HUBERT Ľuborča civic association and the city of Nemšová. The route is about 1.8 kilometres long and has twelve information stops introducing bee life, local beekeeping, pollination and the relationship between insects and the landscape. It starts at the cemetery in Dvorec, passes a wooden sculpture of a bear with cubs and follows part of the former forest railway embankment to the old shooting range. It is intended for families, schools, walkers and cyclists and connects with other forestry and hunting educational routes in the Ľuborčianska valley."
+        },
+        {
+          "id": "fact_017",
+          "title": "Anti-tank obstacles near Ľuborča – remains of a German defensive line from 1944",
+          "text": "Concrete anti-tank obstacles built by the German army near the end of the Second World War survive in the cadastral area of Nemšová, around Ľuborča. According to a historical cycling route published by the Trenčín Self-Governing Region, they formed the third defensive line connected with other barriers in the Vlára Pass and the Váh region. The massive concrete blocks were intended to slow the Red Army’s advance; the expected confrontation along this route ultimately did not take place. After the war, mainly obstacles blocking passage were removed, while some structures remained in the terrain. They are a tangible trace of wartime defensive preparations in the region."
         }
       ]
     },
@@ -752,6 +880,21 @@
           "id": "fact_014",
           "title": "Comunidad judía de Nemšová y Ľuborča – escuela, casa de oración y antiguo cementerio",
           "text": "La comunidad judía de Nemšová y Ľuborča tenía su propio cementerio, casa de oración y escuela. Según el censo de 1829, en la parroquia vivían 90 personas judías. En la década de 1850, la Iglesia católica cedió a la comunidad judía la antigua escuela del centro de Nemšová, que funcionó como escuela judía hasta 1915; por la misma época se construyó una casa de oración en Ľuborča. El registro de 1942 contabilizó 20 personas en Nemšová y 13 en Ľuborča; la investigación local indica que al menos 14 murieron en campos de concentración. El cementerio judío de Nemšová fue clausurado y nivelado en 1977, pero aún quedan restos de lápidas ocultos en la hierba y los enterramientos permanecen en el lugar. La casa de oración de Ľuborča quedó abandonada después de la guerra, se deterioró y finalmente fue demolida."
+        },
+        {
+          "id": "fact_015",
+          "title": "Mirador de Malý Jelenec – torre panorámica sobre Trenčianska Závada",
+          "text": "La torre panorámica de madera de Malý Jelenec se encuentra sobre el núcleo de Trenčianska Závada, a unos 459 metros de altitud. Fue construida en 2015 y ofrece vistas a los Cárpatos Blancos, los montes Strážov, el Považský Inovec y los riscos de Vršatec. Las fuentes discrepan ligeramente sobre su altura: un portal regional indica 24,6 metros y el portal turístico oficial, 26 metros. Un corto sendero conduce a la torre desde la granja Uhliská; el lugar es de acceso libre y constituye un destino popular para excursiones locales."
+        },
+        {
+          "id": "fact_016",
+          "title": "Sendero educativo apícola de Ľuborča – doce paradas sobre las abejas y el paisaje",
+          "text": "El sendero educativo apícola de Ľuborča se inauguró el 1 de mayo de 2022 gracias a la colaboración de la asociación cívica HUBERT Ľuborča y la ciudad de Nemšová. El recorrido, de unos 1,8 kilómetros, cuenta con doce paneles informativos sobre la vida de las abejas, la apicultura local, la polinización y la relación entre los insectos y el paisaje. Comienza en el cementerio de Dvorec, pasa junto a una escultura de madera de una osa con sus crías y sigue parte del antiguo terraplén del ferrocarril forestal hasta el antiguo campo de tiro. Está pensado para familias, escuelas, senderistas y ciclistas y conecta con otras rutas educativas forestales y cinegéticas del valle de Ľuborčianska."
+        },
+        {
+          "id": "fact_017",
+          "title": "Obstáculos antitanque cerca de Ľuborča – restos de una línea defensiva alemana de 1944",
+          "text": "En el término catastral de Nemšová, en los alrededores de Ľuborča, se conservan obstáculos antitanque de hormigón construidos por el ejército alemán al final de la Segunda Guerra Mundial. Según una ruta ciclista histórica de la Región Autónoma de Trenčín, formaban la tercera línea defensiva, conectada con otras barreras en el paso de Vlára y la región del Váh. Los grandes bloques de hormigón debían frenar el avance del Ejército Rojo; el enfrentamiento previsto en esta ruta finalmente no tuvo lugar. Después de la guerra se retiraron sobre todo los obstáculos que impedían el paso, mientras que algunas estructuras permanecieron en el terreno. Son un vestigio material de los preparativos defensivos de guerra en la región."
         }
       ]
     },
@@ -827,6 +970,21 @@
           "id": "fact_014",
           "title": "Communauté juive de Nemšová et Ľuborča – école, maison de prière et ancien cimetière",
           "text": "La communauté juive de Nemšová et Ľuborča possédait son propre cimetière, une maison de prière et une école. Selon le recensement de 1829, 90 personnes juives vivaient dans la paroisse. Dans les années 1850, l’Église catholique céda à la communauté juive l’ancienne école du centre de Nemšová, qui servit d’école juive jusqu’en 1915 ; une maison de prière fut construite à Ľuborča à la même époque. Le registre de 1942 comptait 20 personnes à Nemšová et 13 à Ľuborča ; les recherches locales indiquent qu’au moins 14 d’entre elles périrent dans des camps de concentration. Le cimetière juif de Nemšová fut fermé et nivelé en 1977, mais des fragments de pierres tombales restent cachés dans l’herbe et les sépultures sont toujours sur place. La maison de prière de Ľuborča fut abandonnée après la guerre, se dégrada puis fut démolie."
+        },
+        {
+          "id": "fact_015",
+          "title": "Tour d’observation de Malý Jelenec – belvédère au-dessus de Trenčianska Závada",
+          "text": "La tour d’observation en bois de Malý Jelenec se dresse au-dessus du quartier de Trenčianska Závada, à environ 459 mètres d’altitude. Construite en 2015, elle offre des vues sur les Carpates blanches, les monts Strážov, le Považský Inovec et les rochers de Vršatec. Les sources donnent des hauteurs légèrement différentes : 24,6 mètres selon un portail régional et 26 mètres selon le portail touristique officiel. Un court sentier pédestre mène à la tour depuis la ferme Uhliská ; l’accès est libre et le site constitue une destination appréciée pour les promenades."
+        },
+        {
+          "id": "fact_016",
+          "title": "Sentier pédagogique apicole de Ľuborča – douze étapes consacrées aux abeilles et au paysage",
+          "text": "Le sentier pédagogique apicole de Ľuborča a été inauguré le 1er mai 2022 grâce à la coopération de l’association HUBERT Ľuborča et de la ville de Nemšová. Long d’environ 1,8 kilomètre, il compte douze panneaux d’information consacrés à la vie des abeilles, à l’apiculture locale, à la pollinisation et aux liens entre les insectes et le paysage. Il commence au cimetière de Dvorec, passe près d’une sculpture en bois représentant une ourse et ses petits, puis suit une partie de l’ancienne plateforme du chemin de fer forestier jusqu’à l’ancien terrain de tir. Il s’adresse aux familles, aux écoles, aux marcheurs et aux cyclistes et rejoint d’autres sentiers pédagogiques forestiers et cynégétiques de la vallée de Ľuborčianska."
+        },
+        {
+          "id": "fact_017",
+          "title": "Obstacles antichars près de Ľuborča – vestiges d’une ligne défensive allemande de 1944",
+          "text": "Dans le territoire cadastral de Nemšová, aux alentours de Ľuborča, subsistent des obstacles antichars en béton construits par l’armée allemande à la fin de la Seconde Guerre mondiale. Selon un itinéraire cyclable historique publié par la Région autonome de Trenčín, ils formaient la troisième ligne défensive, reliée à d’autres barrages dans le col de la Vlára et la région de la Váh. Les blocs de béton massifs devaient ralentir l’avancée de l’Armée rouge ; l’affrontement attendu sur cet axe n’a finalement pas eu lieu. Après la guerre, les obstacles qui gênaient le passage ont surtout été retirés, mais certaines structures sont restées sur le terrain. Elles constituent un témoignage matériel des préparatifs défensifs de guerre dans la région."
         }
       ]
     },
@@ -902,6 +1060,21 @@
           "id": "fact_014",
           "title": "Comunità ebraica di Nemšová e Ľuborča – scuola, casa di preghiera e antico cimitero",
           "text": "La comunità ebraica di Nemšová e Ľuborča possedeva un proprio cimitero, una casa di preghiera e una scuola. Secondo il censimento del 1829, nella parrocchia vivevano 90 persone ebree. Negli anni Cinquanta dell’Ottocento la Chiesa cattolica cedette alla comunità ebraica la vecchia scuola nel centro di Nemšová, che funzionò come scuola ebraica fino al 1915; nello stesso periodo fu costruita una casa di preghiera a Ľuborča. Il registro del 1942 censiva 20 persone a Nemšová e 13 a Ľuborča; le ricerche locali indicano che almeno 14 di loro morirono nei campi di concentramento. Il cimitero ebraico di Nemšová fu chiuso e spianato nel 1977, ma nell’erba restano nascosti frammenti di lapidi e le sepolture si trovano ancora sul posto. La casa di preghiera di Ľuborča fu abbandonata dopo la guerra, cadde in rovina e venne demolita."
+        },
+        {
+          "id": "fact_015",
+          "title": "Torre panoramica di Malý Jelenec – punto panoramico sopra Trenčianska Závada",
+          "text": "La torre panoramica in legno di Malý Jelenec si trova sopra la località di Trenčianska Závada, a circa 459 metri di altitudine. Costruita nel 2015, offre vedute sui Carpazi Bianchi, sui monti Strážov, sul Považský Inovec e sulle rocce di Vršatec. Le fonti indicano altezze leggermente diverse: 24,6 metri secondo un portale regionale e 26 metri secondo il portale turistico ufficiale. Un breve sentiero conduce alla torre dalla fattoria Uhliská; l’accesso è libero ed è una meta apprezzata per le escursioni locali."
+        },
+        {
+          "id": "fact_016",
+          "title": "Sentiero didattico apistico di Ľuborča – dodici tappe dedicate alle api e al paesaggio",
+          "text": "Il sentiero didattico apistico di Ľuborča è stato inaugurato il 1º maggio 2022 grazie alla collaborazione tra l’associazione civica HUBERT Ľuborča e la città di Nemšová. Il percorso, lungo circa 1,8 chilometri, comprende dodici pannelli informativi sulla vita delle api, l’apicoltura locale, l’impollinazione e il rapporto tra insetti e paesaggio. Parte dal cimitero di Dvorec, passa accanto a una scultura lignea di un’orsa con i cuccioli e segue una parte del vecchio rilevato della ferrovia forestale fino all’ex poligono di tiro. È pensato per famiglie, scuole, escursionisti e ciclisti e si collega ad altri percorsi didattici forestali e venatori della valle Ľuborčianska."
+        },
+        {
+          "id": "fact_017",
+          "title": "Ostacoli anticarro presso Ľuborča – resti di una linea difensiva tedesca del 1944",
+          "text": "Nel territorio catastale di Nemšová, nei dintorni di Ľuborča, si conservano ostacoli anticarro in cemento costruiti dall’esercito tedesco alla fine della Seconda guerra mondiale. Secondo un itinerario ciclistico storico pubblicato dalla Regione autonoma di Trenčín, costituivano la terza linea difensiva collegata ad altre barriere nel passo della Vlára e nella regione del Váh. I grandi blocchi di cemento dovevano rallentare l’avanzata dell’Armata Rossa; lo scontro previsto lungo questo percorso alla fine non ebbe luogo. Dopo la guerra furono rimossi soprattutto gli ostacoli che impedivano il passaggio, mentre alcune strutture rimasero sul terreno. Sono una testimonianza materiale dei preparativi difensivi bellici nella regione."
         }
       ]
     },
@@ -977,6 +1150,21 @@
           "id": "fact_014",
           "title": "Joodse gemeenschap in Nemšová en Ľuborča – school, gebedshuis en voormalige begraafplaats",
           "text": "De Joodse gemeenschap in Nemšová en Ľuborča had een eigen begraafplaats, gebedshuis en school. Volgens de volkstelling van 1829 woonden er 90 Joodse mensen in de parochie. In de jaren 1850 droeg de katholieke kerk de oude school in het centrum van Nemšová over aan de Joodse gemeenschap; zij diende tot 1915 als Joodse school. Rond dezelfde tijd werd in Ľuborča een gebedshuis gebouwd. Het register van 1942 vermeldde 20 personen in Nemšová en 13 in Ľuborča; lokaal onderzoek wijst erop dat ten minste 14 van hen in concentratiekampen omkwamen. De Joodse begraafplaats in Nemšová werd in 1977 gesloten en geëgaliseerd, maar resten van grafstenen liggen nog verborgen in het gras en de graven bevinden zich nog steeds ter plaatse. Het gebedshuis in Ľuborča raakte na de oorlog verlaten, verviel en werd uiteindelijk afgebroken."
+        },
+        {
+          "id": "fact_015",
+          "title": "Uitkijktoren Malý Jelenec – uitzichtpunt boven Trenčianska Závada",
+          "text": "De houten uitkijktoren Malý Jelenec staat boven het stadsdeel Trenčianska Závada op ongeveer 459 meter hoogte. De toren werd in 2015 gebouwd en biedt uitzicht op de Witte Karpaten, het Strážovgebergte, Považský Inovec en de rotsen van Vršatec. Bronnen verschillen enigszins over de hoogte: een regionaal portaal vermeldt 24,6 meter, het officiële toeristische portaal 26 meter. Vanaf de boerderij Uhliská loopt een korte wandelroute naar de toren; de toegang is vrij en het is een geliefde bestemming voor uitstapjes."
+        },
+        {
+          "id": "fact_016",
+          "title": "Bijeneducatieve route van Ľuborča – twaalf haltes over bijen en het landschap",
+          "text": "De bijeneducatieve route in Ľuborča werd op 1 mei 2022 geopend door samenwerking tussen de vereniging HUBERT Ľuborča en de stad Nemšová. De route is ongeveer 1,8 kilometer lang en telt twaalf informatiepunten over het leven van bijen, de plaatselijke imkerij, bestuiving en de relatie tussen insecten en het landschap. Ze begint bij de begraafplaats in Dvorec, loopt langs een houten beeld van een berin met jongen en volgt een deel van de voormalige bosspoorbaan naar de oude schietbaan. De route is bedoeld voor gezinnen, scholen, wandelaars en fietsers en sluit aan op andere educatieve bosbouw- en jachtroutes in het dal van Ľuborčianska."
+        },
+        {
+          "id": "fact_017",
+          "title": "Antitankhindernissen bij Ľuborča – resten van een Duitse verdedigingslinie uit 1944",
+          "text": "In het kadastrale gebied van Nemšová, rond Ľuborča, zijn betonnen antitankhindernissen bewaard gebleven die het Duitse leger aan het einde van de Tweede Wereldoorlog bouwde. Volgens een historische fietsroute van de regio Trenčín vormden zij de derde verdedigingslinie, verbonden met andere versperringen in de Vlárapas en het gebied van de Váh. De massieve betonblokken moesten de opmars van het Rode Leger vertragen; de verwachte confrontatie op deze route vond uiteindelijk niet plaats. Na de oorlog werden vooral hindernissen verwijderd die de doorgang blokkeerden, terwijl een deel van de constructies in het terrein bleef staan. Ze vormen een tastbaar spoor van de militaire verdedigingsvoorbereidingen in de regio."
         }
       ]
     }
