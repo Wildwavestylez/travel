@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29478; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29479; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -136,6 +136,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29476 Hlavenec / Kostelní Hlavno / Sudovo Hlavno:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 48 cizojazyčných textů. Zachována přesná odlišnost tří sídel s názvem Hlavno, barokního loveckého pomníku Karla VI., Rudolfova zámečku Hubertus, gotického a novodobého kostela, dvou samostatných tvrzišť, naučné stezky a proměn Masarykova pomníku; bez nutnosti obsahových oprav.
 - **29477 Mečeříž:** 5/5 faktů v každém ze 7 jazyků; 5 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 30 cizojazyčných textů. Zachována opatrná formulace první zmínky a zaniklé tvrze podle NPÚ, tradice o pokladu po požáru roku 1620 jasně označena jako pověst, odděleny stavební fáze kostela a zvonice, ověřena technická chronologie vodojemu a biografické údaje Karla Trinkewitze; bez nutnosti obsahových oprav.
 - **29478 Dolní Slivno / Horní Slivno / Slivínko:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 48 cizojazyčných textů. Zachována nejistota vztahu první zmínky z roku 1223 k dnešním třem sídlům, odděleny stavební fáze tvrze a zámku v Dolním Slivně, archeologická lokalita Slivínko, zaniklá tvrz, Sokolovna a paměť Miroslava Tyrše; bez nutnosti obsahových oprav.
+- **29479 Košátky / Horní Slivno / Krpy / Kropáčova Vrutice / Sušno / Hřivno:** 9/9 faktů v každém ze 7 jazyků; 9 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 54 cizojazyčných textů. Zachována chronologie košáteckého zámku, dvě odlišné tvrze v Horním Slivně s jednou dosud nelokalizovanou, přestavba kostela sv. Martina, požár 1893, farní centrum v Krpech, průmyslový rozvoj Kropáčovy Vrutice, životní dráha cestovatele Josefa Kořenského a církevní spor v Hřivně roku 1662; bez nutnosti obsahových oprav.
 
 ### 4.6 Doplněné polohy
 
