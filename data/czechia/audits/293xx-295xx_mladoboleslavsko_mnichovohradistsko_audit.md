@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29431; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29441; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -122,6 +122,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29429 Sovínky / Kamenice:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 42 cizojazyčných textů. U `fact_007` doplněno přesné datum obnovení statusu městyse — 10. října 2006, rozhodnutím Poslanecké sněmovny; všech šest překladů zachovává nyní přesné datum i institucionální kontext.
 - **29430 Niměřice / Strenice / Rokytovec:** 4/4 faktů v každém ze 7 jazyků; 4 unikátní ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. U `fact_001` doplněno datum dokončení opery *Braniboři v Čechách* (23. 4. 1863) a pražské premiéry (5. 1. 1866) podle katalogu Národního muzea; zdroj přidán do faktu i top-level zdrojů a datum promítnuto do všech 7 jazyků. Ostatní tři faktové překlady odpovídají masterům.
 - **29431 Krnsko / Strenice / Jizerní Vtelno / Písková Lhota / Strašnov:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 42 cizojazyčných textů. Zachovány rozdíly mezi středověkou tvrzí, renesančním a barokním zámkem, Domem dětství, farním areálem, technickým dědictvím viaduktu a oběma lokalitami Starého Stránova; lidová pověst o švédském generálovi Riskwitzovi zůstává jasně označena jako nedoložená.
+- **29441 Dobrovice / Sýčina / Týnec / Kosořice / Vinařice / Chloumek / Bojetice:** 9/9 faktů v každém ze 7 jazyků; 9 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 54 cizojazyčných textů. Zachována chronologie renesančního zámku a cukrovaru, sakrální památky v místních částech, přesné rozlišení archeologických mohyl od terénních nerovností a historické tvrze ve Vinařicích; bez nutnosti obsahových oprav.
 
 ### 4.6 Doplněné polohy
 
