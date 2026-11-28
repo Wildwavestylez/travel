@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29447; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29448; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -128,6 +128,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29445 Jabkenice / Chudíř / Charvatce:** 6/6 faktů v každém ze 7 jazyků; 6 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 36 cizojazyčných textů. Zachována přesná vazba Smetanovy poslední životní etapy na myslivnu a Národní muzeum, chronologie obory včetně exotických zvířat, raně gotický kostel a samostatná zvonice, opatrné datování pravěkého Hrádku a historická lokalizace zaniklé tvrze v Chudíři; bez nutnosti obsahových oprav.
 - **29446 Semčice / Pěčice / Žerčice / Holé Vrchy:** 5/5 faktů v každém ze 7 jazyků; 5 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 30 cizojazyčných textů. V `fact_001` doplněn do všech šesti cizojazyčných verzí přesný průměr největšího zvonu kostela sv. Prokopa (93,5 cm); ostatní překlady zachovávají chronologii semenářské stanice, renesanční tvrze v Pěčicích, barokního kostela v Žerčicích a válečné paměti Holých Vrchů.
 - **29447 Ledce:** 5/5 faktů v každém ze 7 jazyků; 5 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 30 cizojazyčných textů. Zachována časová osa od vladyckého statku z roku 1249 přes zkázu za třicetileté války, boj 7. května 1945, kapli s novým zvonem a přírodní divadlo až po Alej svobody vysazenou 31. března 1919; bez nutnosti obsahových oprav.
+- **29448 Domousnice:** 3/3 faktů v každém ze 7 jazyků; 3 unikátní ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů a 0 rozdílů `translations.cs`/master. Všech 18 cizojazyčných textů individuálně prověřeno. `fact_003/location:null` zůstává záměrně: punčochářská a další textilní výroba byla rozptýlena mezi řemeslnické domácnosti a nejsou doloženy konkrétní provozovny, které by šlo bezpečně bodově lokalizovat. Překlady správně zachovávají tuto nejistotu a odlišují ji od doložených pivovarských sklepů, vinopalny a výrobny potaše.
 
 ### 4.6 Doplněné polohy
 
