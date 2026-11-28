@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29429; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29430; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -120,6 +120,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29427 Velké Všelisy:** 4/4 faktů v každém ze 7 jazyků; 4 unikátní ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 24 cizojazyčných textů. Doplněna opatrná datovací poznámka k první písemné zmínce (přednost má evidence NPÚ před popularizačními přehledy) a architektonické detaily zámku č.p. 18 (nepravidelný dvoukřídlý půdorys a přístup přes schodiště se zbytky ohradní zdi).
 - **29428 Chotětov:** 6/6 faktů v každém ze 7 jazyků; 6 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Přesná poloha `fact_005` (šestiboká boží muka na severním okraji Chotětova, křižovatka na Bezno a Jizerní Vtelno) byla doplněna podle geotagovaného bodu: 50.3406528, 14.8029056, `type=monument`, `accuracy=exact`; přidán zdroj s mapovým bodem. Zbylých pět faktů má již doložené polohy.
 - **29429 Sovínky / Kamenice:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 42 cizojazyčných textů. U `fact_007` doplněno přesné datum obnovení statusu městyse — 10. října 2006, rozhodnutím Poslanecké sněmovny; všech šest překladů zachovává nyní přesné datum i institucionální kontext.
+- **29430 Niměřice / Strenice / Rokytovec:** 4/4 faktů v každém ze 7 jazyků; 4 unikátní ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. U `fact_001` doplněno datum dokončení opery *Braniboři v Čechách* (23. 4. 1863) a pražské premiéry (5. 1. 1866) podle katalogu Národního muzea; zdroj přidán do faktu i top-level zdrojů a datum promítnuto do všech 7 jazyků. Ostatní tři faktové překlady odpovídají masterům.
 
 ### 4.6 Doplněné polohy
 
