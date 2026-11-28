@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29476; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29477; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -134,6 +134,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29474 Předměřice nad Jizerou / Tuřice / Kačov / Skorkov / Otradovice / Kochánky:** 10/10 faktů v každém ze 7 jazyků; 10 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 60 cizojazyčných textů. Zachována přesná rozlišení mezi kostelem a samostatnou zvonicí, inundačním mostem a mosty rozebíranými roku 1866, historickým mlýnem v Kačově, zaniklou tvrzí Tuřice zničenou dálnicí, loveckým zámečkem Opočno, parkem Františka Šťastného a chráněnou branou usedlosti čp. 10; bez nutnosti obsahových oprav.
 - **29475 Vtelno / Stránka / Hrušov:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 42 cizojazyčných textů. Zachována chronologie vtelenského zámku, románského kostela sv. Havla, poutní kaple ve Stránce, válečných a pamětních míst, historického mlýna i archeologických nálezů v Hrušově; bez nutnosti obsahových oprav.
 - **29476 Hlavenec / Kostelní Hlavno / Sudovo Hlavno:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 48 cizojazyčných textů. Zachována přesná odlišnost tří sídel s názvem Hlavno, barokního loveckého pomníku Karla VI., Rudolfova zámečku Hubertus, gotického a novodobého kostela, dvou samostatných tvrzišť, naučné stezky a proměn Masarykova pomníku; bez nutnosti obsahových oprav.
+- **29477 Mečeříž:** 5/5 faktů v každém ze 7 jazyků; 5 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 30 cizojazyčných textů. Zachována opatrná formulace první zmínky a zaniklé tvrze podle NPÚ, tradice o pokladu po požáru roku 1620 jasně označena jako pověst, odděleny stavební fáze kostela a zvonice, ověřena technická chronologie vodojemu a biografické údaje Karla Trinkewitze; bez nutnosti obsahových oprav.
 
 ### 4.6 Doplněné polohy
 
