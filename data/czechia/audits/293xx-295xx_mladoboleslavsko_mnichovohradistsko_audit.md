@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29474; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29475; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -132,6 +132,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29471 Benátky nad Jizerou / Dražice / Zdětín / Sedlec:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 42 cizojazyčných textů. Zachována opatrná formulace o setkání Tychona Brahe s Johannesem Keplerem (městská tradice, nikoli zcela doložený průběh), chronologie benáteckého zámku a dražického hradu, Smetanovo učitelské působení, středověká farní správa ve Zdětíně a proměny dvora Chrást; bez nutnosti obsahových oprav.
 - **29473 Horky nad Jizerou / Brodce / Hrušov:** 9/9 faktů v každém ze 7 jazyků; 9 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 54 cizojazyčných textů. Zachována souvislost středověké tvrze a brodu, barokní přestavba zámku a kostela s doloženou Braunovou dílnou, raná vrchnostenská sociální péče, průmyslový rozvoj Brodců a samostatné archeologické lokality Hrušova; bez nutnosti obsahových oprav.
 - **29474 Předměřice nad Jizerou / Tuřice / Kačov / Skorkov / Otradovice / Kochánky:** 10/10 faktů v každém ze 7 jazyků; 10 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 60 cizojazyčných textů. Zachována přesná rozlišení mezi kostelem a samostatnou zvonicí, inundačním mostem a mosty rozebíranými roku 1866, historickým mlýnem v Kačově, zaniklou tvrzí Tuřice zničenou dálnicí, loveckým zámečkem Opočno, parkem Františka Šťastného a chráněnou branou usedlosti čp. 10; bez nutnosti obsahových oprav.
+- **29475 Vtelno / Stránka / Hrušov:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 42 cizojazyčných textů. Zachována chronologie vtelenského zámku, románského kostela sv. Havla, poutní kaple ve Stránce, válečných a pamětních míst, historického mlýna i archeologických nálezů v Hrušově; bez nutnosti obsahových oprav.
 
 ### 4.6 Doplněné polohy
 
