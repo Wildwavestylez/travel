@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29501; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — překladová struktura 29501 uzavřena; doplněn reprezentativní bod EVL Bezděčín (29301/fact_009); otevřeny závěrečné kontroly rozsahu  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -154,7 +154,7 @@ Doplněno 18 původně chybějících poloh:
 - 29445/fact_005
 - 29446/fact_005
 
-Počet původních `location:null`: 28. Zbývá **10**.
+Počet původních `location:null`: 28. Následně byly doplněny další polohy; zbývá **7 záměrných `location:null`**, jejichž bodové určení by bylo spekulativní.
 
 ## 5. Zbývající location:null
 
@@ -168,11 +168,11 @@ Počet původních `location:null`: 28. Zbývá **10**.
 - 29425/fact_001 — archeologické nálezy a pohřebiště bez bezpečně určeného bodu.
 - 29448/fact_003 — text pojednává o rozptýlené textilní výrobě; jednotlivé provozy nejsou spolehlivě lokalizovány.
 
-### Ještě prověřit
+### Vyřešeno při pokračování auditu
 
-- 29301/fact_009 — EVL Bezděčín (CZ0213776, 81,18 ha) je plošná lokalita. AOPK publikuje polygonovou vrstvu Natura 2000; polygon je doložen, ale pro DB zatím nebyl bezpečně určen a read-backem ověřen reprezentativní bod. Do té doby ponechat `location:null`.
-- 29425/fact_003 — rodný dům Jana Nepomuka Krouského čp. 12; dohledat přesný adresní bod, neumisťovat automaticky na kostel.
-- 29428/fact_005 — boží muka na severním okraji Chotětova; dohledat přesný bod u křižovatky.
+- **29301/fact_009 — EVL Bezděčín:** doplněn reprezentativní bod 50.396944, 14.894722 podle publikované souřadnice v tabulce Natura 2000; `type=protected_area`, `accuracy=area_representative`. Identitu, rozlohu 81,1779 ha a předmět ochrany potvrzuje AOPK (ISOP); polygonovou vrstvu poskytuje AOPK. Souřadnice nejsou označeny jako přesný bod hranice ani návštěvnický vstup. Přidán zdroj k faktu i do top-level sources; read-back potvrzen.
+- **29425/fact_003 — rodný dům Jana Nepomuka Krouského čp. 12:** vyřešeno přesným adresním bodem usedlosti, nikoli kostela; 50.4466025, 14.7792214, `type=historic_address`, `accuracy=exact`.
+- **29428/fact_005 — boží muka na severním okraji Chotětova:** vyřešeno geotagovaným bodem u křižovatky na Bezno a Jizerní Vtelno; 50.3406528, 14.8029056, `type=monument`, `accuracy=exact`.
 
 ## 6. Turistická a historická úplnost — zásadní zjištění
 
@@ -200,7 +200,7 @@ Významné zdroje pro další práci:
 
 1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004, 29401/fact_001–fact_006 + fact_008, 29402/fact_001–fact_004, 29403/fact_001–fact_004, 29404/fact_001–fact_004 + fact_006, 29405/fact_001–fact_002, 29406/fact_001–fact_012, 29411/fact_001–fact_012, 29412/fact_001–fact_012, 29413/fact_001–fact_016, 29414/fact_001–fact_011 a 29415/fact_001–fact_008; u 29307 opravena jednotka Václava Tarantíka, u 29406 zpřesněny překlady dvou historických nuancí, u 29411 aktualizován stav zámečku Bažantnice, u 29412 aktualizovány údaje o UNESCO a kapli ve Žďáru, u 29413 opraveny dvě formulace, u 29414 kompletně obnoveny překlady fact_004. Tyto záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
 2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
-3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
+3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady mají úplná ID a texty, při závěrečné sémantické kontrole ještě ověřit terminologii a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
 6. Provést reklamní scan ve všech jazycích.
@@ -216,4 +216,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29429: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; zvláštní pozornost věnovat otevřeným lokalitám a bezpečnému geokódování; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** provést závěrečné globální kontroly všech 40 PSČ: sémantickou revizi zbývajících nepokrytých jazykových sad, kontrolu duplicit názvů/textů/URL, reklamní scan, kontrolu sídel obsluhujících pošt, strukturální a enum validaci a synchronizaci mapových bodů. Sedm zbývajících `location:null` je doložených výjimek (rozptýlené archeologické nálezy, neurčené místo depotu, historická cesta či koupaliště, rozptýlená výroba); nepřidávat odhadované body. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
