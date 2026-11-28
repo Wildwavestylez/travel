@@ -31,10 +31,10 @@ Bez 294xx čísel, která v sequence/RÚIAN nejsou.
 ## 3. Stav databáze při checkpointu
 
 - 40/40 záznamů existuje v `public.postal_codes`.
-- Původní inventura: 323 faktů; po doplnění 6 osobností a odstranění 2 duplicit: **327 faktů**.
+- Původní inventura: 323 faktů; po doplnění 6 osobností, odstranění 2 duplicit a přidání bitvy u Mnichova Hradiště: **328 faktů**.
 - Stav záznamů při inventuře: 22 `validated`, 18 `placeholder`; žádný záznam nebyl publikován ani převeden na V5.
 - Všechny kontrolované JSON povinné klíče jsou přítomny v 40/40; `facts` je pole a `translations` objekt. Administrativní `city/county/state` jsou vyplněny.
-- **29501 je zásadní blokátor:** nyní 19 faktů, `status=placeholder`; překlady byly založeny pouze pro nový `fact_019` (1/19 v každém ze 7 jazyků). U původních 18 faktů překlady stále chybí.
+- **29501 — překladová struktura dokončena:** 19 faktů; všech 7 jazyků (cs/de/en/es/fr/it/nl) má přesně 19 položek. Původních 18 faktů bylo doplněno po trojicích; `fact_019` o bitvě z roku 1866 zůstal zachován. Read-back: 19/19 unikátních ID v každém jazyce, 0 osiřelých CS ID a 0 rozdílů `translations.cs` proti masteru. Záznam zůstává `status=placeholder` a `REVIEW REQUIRED` do uzavření ostatních auditních kontrol.
 - Neprováděla se publikace V5, backup, Neon import ani read-only lock.
 
 ## 4. Provedené opravy
@@ -153,9 +153,9 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 327 faktů. Dosud byly plně zpracovány nové položky a opravené texty; zbytek není sémanticky uzavřen.
-2. 29501: doplnit překladovou strukturu původních 18 faktů do 7 jazyků; nyní jsou přeloženy pouze nové `fact_019` (1/19 v každém jazyce). Do té doby ponechat `REVIEW REQUIRED` a `placeholder`.
-3. Bitva 28. 6. 1866 je nyní samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
+1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Dosud byly plně zpracovány nové položky a opravené texty; zbytek není sémanticky uzavřen.
+2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
+3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
 6. Provést reklamní scan ve všech jazycích.
@@ -171,4 +171,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok po obnovení práce:** nejprve doplnit chybějící překlady původních 18 faktů v 29501 po malých dávkách (nový `fact_019` už má 7 jazyků), poté pokračovat od 29301 — dokončit individuální sémantickou kontrolu všech 7 jazyků pro 16 faktů, dále 29306 (12 faktů) a postupovat sekvenčně. Nezačínat znovu inventuru rozsahu ani opakovat již potvrzené opravy.
+**Další krok:** překladová struktura 29501 je kompletní. Pokračovat podle `sequence.json` od 29301 — individuálně sémanticky zkontrolovat všech 7 jazyků u 16 faktů, poté 29306 (12 faktů) a dále postupovat sekvenčně. Nezačínat znovu inventuru rozsahu ani opakovat již potvrzené opravy.
