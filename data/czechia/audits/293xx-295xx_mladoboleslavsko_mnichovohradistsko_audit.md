@@ -198,10 +198,10 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011, kompletně prověřeno 29306/fact_001–fact_012, 29307/fact_001–fact_004, 29401/fact_001–fact_006 + fact_008, 29402/fact_001–fact_004, 29403/fact_001–fact_004, 29404/fact_001–fact_004 + fact_006, 29405/fact_001–fact_002, 29406/fact_001–fact_012, 29411/fact_001–fact_012, 29412/fact_001–fact_012, 29413/fact_001–fact_016, 29414/fact_001–fact_011 a 29415/fact_001–fact_008; u 29307 opravena jednotka Václava Tarantíka, u 29406 zpřesněny překlady dvou historických nuancí, u 29411 aktualizován stav zámečku Bažantnice, u 29412 aktualizovány údaje o UNESCO a kapli ve Žďáru, u 29413 opraveny dvě formulace, u 29414 kompletně obnoveny překlady fact_004. Tyto záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
-2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
-3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady mají úplná ID a texty, při závěrečné sémantické kontrole ještě ověřit terminologii a návaznost na `fact_004`.
-4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
+1. **Individuální sémantická revize překladů dokončena pro všech 328 faktů v rozsahu 40 PSČ.** V oddílu 4 jsou záznamy jednotlivých PSČ a konkrétní významové opravy; kontrola zahrnula všech šest cizojazyčných sad (de/en/es/fr/it/nl), úplnost ID a synchronizaci češtiny. Strukturální read-back navíc potvrdil 0 chybějících překladových ID v kterémkoli jazyce. Při závěrečném reklamním scanu ještě zkontrolovat všechny texty jako samostatnou kontrolní vrstvu.
+2. **29501 — překladová struktura i sémantická revize uzavřeny:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0; individuálně prověřeno všech 114 cizojazyčných textů.
+3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady jsou součástí uzavřené sémantické revize 29501. Tematická duplicita s `fact_004` na Mužském nebyla zjištěna.
+4. Geolokační ověření tří dříve otevřených bodů dokončeno: 29301/fact_009 (reprezentativní bod EVL Bezděčín), 29425/fact_003 (rodný dům Jana Nepomuka Krouského) a 29428/fact_005 (boží muka v Chotětově). Zbývajících 7 null poloh je zdůvodněných a záměrných.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
 6. Provést reklamní scan ve všech jazycích.
 7. Dokončit kontrolu oficiálních sídel obsluhujících pošt a případné top-level synchronizace administrativních polí.
