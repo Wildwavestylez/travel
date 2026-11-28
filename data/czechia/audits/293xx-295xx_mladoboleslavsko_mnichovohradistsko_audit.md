@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — překladová struktura 29501 uzavřena; doplněn reprezentativní bod EVL Bezděčín (29301/fact_009); otevřeny závěrečné kontroly rozsahu  
+**Poslední checkpoint:** 2026-11-28 — překladová struktura 29501 uzavřena; doplněn reprezentativní bod EVL Bezděčín (29301/fact_009); strukturální a enum scan 40/40; prověřena návaznost na explorer_map_points  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -205,8 +205,8 @@ Významné zdroje pro další práci:
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
 6. Provést reklamní scan ve všech jazycích.
 7. Dokončit kontrolu oficiálních sídel obsluhujících pošt a případné top-level synchronizace administrativních polí.
-8. Provést závěrečný strukturální a enum validation read-back všech 40 PSČ.
-9. Zkontrolovat a synchronizovat mapové body; dosud nebyla provedena kontrola tabulky mapových bodů.
+8. **Strukturální a enum scan proveden pro všech 40 českých PSČ:** 0 duplicitních ID uvnitř záznamů, 0 chybějících povinných polí u faktů, 0 master textů pod 350 znaků, 0 chybějících překladových ID v kterémkoli ze 7 jazyků, 0 neplatných hodnot `category`, `map_category`, `location.type` a `location.accuracy`. Počty faktů a jazykových sad souhlasí; 29413 byl výslovně ověřen s `country_code='CZ'`, protože v DB existuje i nesouvisející německý záznam se stejným PSČ.
+9. **Mapové body prověřeny, synchronizace odložena:** `explorer_map_points` obsahuje 9 272 českých bodů, ale pro všech 40 auditovaných PSČ má 0 řádků. Kontrolní vzorek existujícího bodu 10000 ukazuje vazbu na `status=published`, `data_version=5`; auditovaná oblast zůstává na V1 a nebyla publikována. Do mapové tabulky se proto nyní nic nevkládá ani nepřepisuje — synchronizace je blokována pravidlem nevydávat V5/published bez výslovného pokynu.
 
 ## 8. Pravidla dokončení
 
