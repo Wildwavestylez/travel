@@ -1,4 +1,440 @@
 {
   "postcode": "91451",
-  "status": "placeholder"
+  "city": "Trenčianske Teplice",
+  "district": null,
+  "county": "Trenčín",
+  "state": "Trenčiansky kraj",
+  "representative_place": "Trenčianske Teplice – lázeňské centrum v údolí Tepličky",
+  "representative_point": {
+    "lat": 48.9080861,
+    "lon": 18.1766681
+  },
+  "access_point": null,
+  "facts": [
+    {
+      "id": "fact_001",
+      "title": "Lázeňské město v údolí Tepličky",
+      "text": "Trenčianske Teplice leží v zalesněném údolí potoka Teplička na okraji Strážovských vrchů. Písemná zmínka o místních lázních pochází z roku 1488, kdy ještě patřily do chotára sousední Trenčianské Teplé. Roku 1594 získal lázně Štefan Illésházy a jeho rod je vlastnil do roku 1835. Poté je koupil vídeňský bankéř Juraj Sina a zahájil rozsáhlou modernizaci. V 19. století se rozšířil lázeňský park i ubytovací zázemí a město se proměnilo v mezinárodně známé léčebné středisko. Lázeňský charakter dodnes určuje urbanismus, architekturu i identitu města.",
+      "category": "history",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "map_category": "historic_city",
+      "location": {
+        "name": "Centrum Trenčianských Teplic – lázeňské údolí",
+        "lat": 48.9080861,
+        "lon": 18.1766681,
+        "type": "historic_district",
+        "accuracy": "area_representative",
+        "source": "https://www.slovensko.sk/sk/institucie/o-institucii/informacie-o-obci/_8767a9a6-3936-45f2-900e-cb20f59fdd08"
+      }
+    },
+    {
+      "id": "fact_002",
+      "title": "Hammam – maurská lázeňská architektura",
+      "text": "Hammam patří k nejvýraznějším historickým stavbám trenčianskoteplických lázní. Jeho výstavba začala roku 1886 a dokončena byla v roce 1888 u zrcadliska Sina. Na projektu se podílel architekt František Schmoranz mladší, známý také svou prací pro egyptského místokrále. Stavba v maurském stylu využívá pískovec s jemně vyřezávanými ornamenty a keramické obkladačky vyráběné na zakázku v Modre a Pécsi. Více než 1 200 dlaždic nese iniciály Ifigénie de Castries, dcery barona Siny. Hammam tak není jen exotickou dekorací lázeňského areálu, ale promyšleným architektonickým odkazem jeho mecenášů.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s3"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Turecký kúpeľ Hammam",
+        "lat": 48.9090342,
+        "lon": 18.1727287,
+        "type": "spa",
+        "accuracy": "exact",
+        "source": "https://www.kupele-teplice.sk/o-nas/hammam/hammam-viac-z-historie/"
+      }
+    },
+    {
+      "id": "fact_003",
+      "title": "Sanatorium Machnáč – vrchol funkcionalismu",
+      "text": "Léčebný dům Machnáč je jedním z nejvýznamnějších děl funkcionalistické architektury na Slovensku. Pražský architekt Jaromír Krejcar jej navrhl roku 1929 a budova vznikla v letech 1930–1932 pro nemocenskou pojišťovnu soukromých úředníků. Železobetonový skelet rozděluje provoz na ubytovací a společensko-stravovací část. Výraznými prvky jsou pásová okna, volně stojící sloupy, balkony na jižním průčelí a zaoblená nároží nižší společenské části. Stavba představuje důležitý příklad propojení moderní architektury, hygienických představ meziválečné doby a lázeňské léčby. Dnes je evidována jako významná architektonická památka, avšak bez původního léčebného využití.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s4",
+        "s2"
+      ],
+      "map_category": "architecture",
+      "location": {
+        "name": "Liečebný dom Machnáč, Ľudovíta Štúra 8",
+        "lat": 48.907795,
+        "lon": 18.173824,
+        "type": "building",
+        "accuracy": "approximate",
+        "source": "https://register-architektury.sk/sk/objekt/91-liecebny-dom-machnac"
+      }
+    },
+    {
+      "id": "fact_004",
+      "title": "Zelená žaba – koupaliště zasazené do svahu",
+      "text": "Termální koupaliště Zelená žaba navrhl architekt Bohuslav Fuchs a postaveno bylo v letech 1936–1937 na jižním svahu nad lázeňským městem. Jeho organicky tvarovaná funkcionalistická architektura citlivě reaguje na lesnatý terén a patří k nejlepším Fuchsovým realizacím. Areál vznikal ve třech etapách: hlavní objekt obsahoval provozní zázemí a bazén o rozměrech 33,3 × 12 metrů, další části doplnily kuželnu a dětské koupaliště. Termální voda se do areálu přiváděla z údolí. Zelená žaba je ceněna nejen jako rekreační zařízení, ale také jako mimořádná ukázka meziválečné architektury, která spojila technickou funkčnost s krajinou.",
+      "category": "architecture_and_urbanism",
+      "priority": "B",
+      "sources": [
+        "s5",
+        "s2"
+      ],
+      "map_category": "sports_venue",
+      "location": {
+        "name": "Kúpalisko Zelená žaba, 17. novembra 15",
+        "lat": 48.9095296,
+        "lon": 18.1774626,
+        "type": "swimming_pool",
+        "accuracy": "exact",
+        "source": "https://register-architektury.sk/sk/objekt/95-kupalisko-zelena-zaba"
+      }
+    },
+    {
+      "id": "fact_005",
+      "title": "Elektrická úzkorozchodná železnice do lázní",
+      "text": "Elektrická úzkorozchodná trať spojuje Trenčianske Teplice s železničním uzlem v Trenčianské Teplé od roku 1909. Přibližně pět kilometrů dlouhé spojení usnadnilo příjezd lázeňských hostů a významně přispělo k otevření města návštěvníkům z širšího regionu. Trať má rozchod 760 milimetrů a stala se jedním z charakteristických technických prvků zdejšího lázeňského prostředí. Výpravní budova konečné stanice je samostatně evidovanou památkou; její architektonicko-historický výzkum byl zpracován v roce 2023. Železnice tak představuje nejen dopravní spojení, ale i součást historické infrastruktury, která umožnila rozvoj lázní na přelomu 19. a 20. století.",
+      "category": "culture_and_industry",
+      "priority": "B",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Železničná stanica Trenčianske Teplice",
+        "lat": 48.910138,
+        "lon": 18.170737,
+        "type": "railway_station",
+        "accuracy": "exact",
+        "source": "https://www.pamiatkynaslovensku.sk/trencianske-teplice-zeleznicna-stanica"
+      }
+    },
+    {
+      "id": "fact_006",
+      "title": "Vodní elektrárna a někdejší světelná fontána",
+      "text": "Na okraji lázeňského parku stojí drobná vodní elektrárna vybudovaná kolem roku 1920. Vodu z potoka Teplička přiváděl k objektu přibližně kilometr dlouhý kanál vedený svahem údolí. Kompaktní symetrická stavba ve stylu art deco má na čelní fasádě čtyři maurské sloupy a tři světelné prvky ve tvaru krystalu. Před budovou se nachází půlkruhová nádrž s chrliči, která byla součástí někdejší světelné fontány. Elektrárna dokládá technické zázemí lázeňského areálu a současně ukazuje, jak se i utilitární stavba stala součástí reprezentativního veřejného prostoru.",
+      "category": "culture_and_industry",
+      "priority": "C",
+      "sources": [
+        "s7"
+      ],
+      "map_category": "technical_heritage",
+      "location": {
+        "name": "Vodná elektráreň Trenčianske Teplice, Kúpeľný park",
+        "lat": 48.907326,
+        "lon": 18.174248,
+        "type": "power_station",
+        "accuracy": "exact",
+        "source": "https://register-architektury.sk/sk/objekt/570-vodna-elektraren-trencianske-teplice"
+      }
+    }
+  ],
+  "photo": null,
+  "verification": {
+    "plz_source": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom uvádza Poštu Trenčianske Teplice, 17. novembra 2, Trenčianske Teplice, 914 51. Oficiálny mestský PHRSR 2025–2034 nezávisle uvádza PSČ 914 51 pri meste.",
+    "geographic_test_data": true,
+    "access_point_verified": false,
+    "postcode_authority": "Slovenská pošta",
+    "postcode_source_dataset": "Zoznam pôšt s rozšíreným predajom",
+    "postcode_source_release": null,
+    "postcode_source_checked_at": "2026-11-28",
+    "postcode_conflict": false,
+    "postcode_conflict_note": null,
+    "delivery_office_note": "Oficiálny mestský PHRSR uvádza katastrálne územie mesta Trenčianske Teplice zložené z časti mesto Trenčianske Teplice a časti Baračka. Samostatné polygonové pokrytie PSČ nebolo doložené a hranice PSČ sa neodvodzujú z hraníc katastra.",
+    "postcode_override_reason": null,
+    "geographic_authority": "Mesto Trenčianske Teplice – PHRSR 2025–2034 a oficiálne informácie o obci pre administratívnu príslušnosť a charakter územia; Slovenská pošta pre PSČ; Register modernej architektúry, Pamiatky na Slovensku a oficiálne kúpele pre identifikáciu objektov a ich polohu."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Slovenská pošta – Zoznam pôšt s rozšíreným predajom",
+      "url": "https://www.posta.sk/subory/37746/zoznam-post-s-rozsirenym-predajom.pdf",
+      "type": "official"
+    },
+    {
+      "id": "s2",
+      "title": "Program hospodárskeho rozvoja a sociálneho rozvoja mesta Trenčianske Teplice 2025–2034",
+      "url": "https://www.teplice.sk/download_file_f.php?id=2266989",
+      "type": "official"
+    },
+    {
+      "id": "s3",
+      "title": "Termálne kúpele Trenčianske Teplice – Hammam: viac z histórie",
+      "url": "https://www.kupele-teplice.sk/o-nas/hammam/hammam-viac-z-historie/",
+      "type": "official"
+    },
+    {
+      "id": "s4",
+      "title": "Register modernej architektúry – Liečebný dom Machnáč",
+      "url": "https://register-architektury.sk/sk/objekt/91-liecebny-dom-machnac",
+      "type": "specialist"
+    },
+    {
+      "id": "s5",
+      "title": "Register modernej architektúry – Kúpalisko Zelená žaba",
+      "url": "https://register-architektury.sk/sk/objekt/95-kupalisko-zelena-zaba",
+      "type": "specialist"
+    },
+    {
+      "id": "s6",
+      "title": "Pamiatky na Slovensku – Železničná stanica Trenčianske Teplice",
+      "url": "https://www.pamiatkynaslovensku.sk/trencianske-teplice-zeleznicna-stanica",
+      "type": "specialist"
+    },
+    {
+      "id": "s7",
+      "title": "Register modernej architektúry – Vodná elektráreň Trenčianske Teplice",
+      "url": "https://register-architektury.sk/sk/objekt/570-vodna-elektraren-trencianske-teplice",
+      "type": "specialist"
+    }
+  ],
+  "translations": {
+    "cs": {
+      "representative_place": "Trenčianske Teplice – lázeňské centrum v údolí Tepličky",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Lázeňské město v údolí Tepličky",
+          "text": "Trenčianske Teplice leží v zalesněném údolí potoka Teplička na okraji Strážovských vrchů. Písemná zmínka o místních lázních pochází z roku 1488, kdy ještě patřily do chotára sousední Trenčianské Teplé. Roku 1594 získal lázně Štefan Illésházy a jeho rod je vlastnil do roku 1835. Poté je koupil vídeňský bankéř Juraj Sina a zahájil rozsáhlou modernizaci. V 19. století se rozšířil lázeňský park i ubytovací zázemí a město se proměnilo v mezinárodně známé léčebné středisko. Lázeňský charakter dodnes určuje urbanismus, architekturu i identitu města."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam – maurská lázeňská architektura",
+          "text": "Hammam patří k nejvýraznějším historickým stavbám trenčianskoteplických lázní. Jeho výstavba začala roku 1886 a dokončena byla v roce 1888 u zrcadliska Sina. Na projektu se podílel architekt František Schmoranz mladší, známý také svou prací pro egyptského místokrále. Stavba v maurském stylu využívá pískovec s jemně vyřezávanými ornamenty a keramické obkladačky vyráběné na zakázku v Modre a Pécsi. Více než 1 200 dlaždic nese iniciály Ifigénie de Castries, dcery barona Siny. Hammam tak není jen exotickou dekorací lázeňského areálu, ale promyšleným architektonickým odkazem jeho mecenášů."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sanatorium Machnáč – vrchol funkcionalismu",
+          "text": "Léčebný dům Machnáč je jedním z nejvýznamnějších děl funkcionalistické architektury na Slovensku. Pražský architekt Jaromír Krejcar jej navrhl roku 1929 a budova vznikla v letech 1930–1932 pro nemocenskou pojišťovnu soukromých úředníků. Železobetonový skelet rozděluje provoz na ubytovací a společensko-stravovací část. Výraznými prvky jsou pásová okna, volně stojící sloupy, balkony na jižním průčelí a zaoblená nároží nižší společenské části. Stavba představuje důležitý příklad propojení moderní architektury, hygienických představ meziválečné doby a lázeňské léčby. Dnes je evidována jako významná architektonická památka, avšak bez původního léčebného využití."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba – koupaliště zasazené do svahu",
+          "text": "Termální koupaliště Zelená žaba navrhl architekt Bohuslav Fuchs a postaveno bylo v letech 1936–1937 na jižním svahu nad lázeňským městem. Jeho organicky tvarovaná funkcionalistická architektura citlivě reaguje na lesnatý terén a patří k nejlepším Fuchsovým realizacím. Areál vznikal ve třech etapách: hlavní objekt obsahoval provozní zázemí a bazén o rozměrech 33,3 × 12 metrů, další části doplnily kuželnu a dětské koupaliště. Termální voda se do areálu přiváděla z údolí. Zelená žaba je ceněna nejen jako rekreační zařízení, ale také jako mimořádná ukázka meziválečné architektury, která spojila technickou funkčnost s krajinou."
+        },
+        {
+          "id": "fact_005",
+          "title": "Elektrická úzkorozchodná železnice do lázní",
+          "text": "Elektrická úzkorozchodná trať spojuje Trenčianske Teplice s železničním uzlem v Trenčianské Teplé od roku 1909. Přibližně pět kilometrů dlouhé spojení usnadnilo příjezd lázeňských hostů a významně přispělo k otevření města návštěvníkům z širšího regionu. Trať má rozchod 760 milimetrů a stala se jedním z charakteristických technických prvků zdejšího lázeňského prostředí. Výpravní budova konečné stanice je samostatně evidovanou památkou; její architektonicko-historický výzkum byl zpracován v roce 2023. Železnice tak představuje nejen dopravní spojení, ale i součást historické infrastruktury, která umožnila rozvoj lázní na přelomu 19. a 20. století."
+        },
+        {
+          "id": "fact_006",
+          "title": "Vodní elektrárna a někdejší světelná fontána",
+          "text": "Na okraji lázeňského parku stojí drobná vodní elektrárna vybudovaná kolem roku 1920. Vodu z potoka Teplička přiváděl k objektu přibližně kilometr dlouhý kanál vedený svahem údolí. Kompaktní symetrická stavba ve stylu art deco má na čelní fasádě čtyři maurské sloupy a tři světelné prvky ve tvaru krystalu. Před budovou se nachází půlkruhová nádrž s chrliči, která byla součástí někdejší světelné fontány. Elektrárna dokládá technické zázemí lázeňského areálu a současně ukazuje, jak se i utilitární stavba stala součástí reprezentativního veřejného prostoru."
+        }
+      ]
+    },
+    "de": {
+      "representative_place": "Trenčianske Teplice – Kurort im Teplička-Tal",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Der Kurort im Tal der Teplička",
+          "text": "Trenčianske Teplice liegt in einem bewaldeten Tal am Rand des Strážov-Gebirges. Eine schriftliche Erwähnung der örtlichen Heilbäder stammt aus dem Jahr 1488; damals gehörten sie noch zum Gebiet des benachbarten Trenčianska Teplá. 1594 gelangten die Bäder an Štefan Illésházy und blieben bis 1835 im Besitz seiner Familie. Danach kaufte der Wiener Bankier Juraj Sina die Anlagen und leitete eine umfassende Modernisierung ein. Im 19. Jahrhundert wurden der Kurpark und die Unterkunftsmöglichkeiten erweitert. So entwickelte sich der Ort zu einem international bekannten Heilbad, dessen Charakter bis heute Stadtbild, Architektur und lokale Identität prägt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam – maurische Architektur im Kurviertel",
+          "text": "Das Hammam gehört zu den markantesten historischen Gebäuden des Kurortes. Der Bau begann 1886 und wurde 1888 neben dem Sina-Spiegelbad fertiggestellt. An dem Entwurf wirkte der Architekt František Schmoranz der Jüngere mit, der auch für den ägyptischen Vizekönig tätig war. Das Gebäude im maurischen Stil verwendet Sandstein mit fein gearbeiteten Ornamenten und eigens angefertigte Keramikfliesen aus Modra und Pécs. Mehr als 1.200 Fliesen tragen die Initialen von Ifigénie de Castries, der Tochter des Barons Sina. Das Hammam ist ein sorgfältig gestaltetes architektonisches Zeugnis der Förderer des Kurortes."
+        },
+        {
+          "id": "fact_003",
+          "title": "Das Sanatorium Machnáč – ein Höhepunkt des Funktionalismus",
+          "text": "Das Kurhaus Machnáč zählt zu den bedeutendsten Werken der funktionalistischen Architektur in der Slowakei. Der Prager Architekt Jaromír Krejcar entwarf es 1929; gebaut wurde es 1930–1932 für die Krankenversicherung privater Angestellter. Das Stahlbetonskelett gliedert das Gebäude in einen Unterkunftsbereich und einen Gesellschafts- und Speisetrakt. Auffällig sind Fensterbänder, freistehende Stützen, Balkone an der Südfassade und die gerundeten Ecken des niedrigeren Gemeinschaftsbereichs. Der Bau verbindet moderne Architektur mit den hygienischen Vorstellungen der Zwischenkriegszeit und der Kurmedizin. Heute gilt er als bedeutendes Architekturdenkmal, wird aber nicht mehr für seinen ursprünglichen Heilzweck genutzt."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba – ein in den Hang eingebettetes Schwimmbad",
+          "text": "Das Thermalbad Zelená žaba wurde von Bohuslav Fuchs entworfen und 1936–1937 am bewaldeten Südhang über dem Kurort errichtet. Seine organisch geformte funktionalistische Architektur fügt sich sensibel in das Gelände ein. Die Anlage entstand in drei Etappen: Das Hauptgebäude enthielt die Betriebsräume und ein 33,3 × 12 Meter großes Becken; weitere Teile ergänzten eine Kegelbahn und ein Kinderbecken. Das Thermalwasser wurde aus dem Tal hinaufgepumpt. Zelená žaba ist nicht nur ein Freizeitbad, sondern auch ein außergewöhnliches Beispiel der Zwischenkriegsarchitektur, die technische Funktion und Landschaft miteinander verband."
+        },
+        {
+          "id": "fact_005",
+          "title": "Die elektrische Schmalspurbahn zum Kurort",
+          "text": "Seit 1909 verbindet eine elektrische Schmalspurbahn Trenčianske Teplice mit dem Eisenbahnknoten Trenčianska Teplá. Die etwa fünf Kilometer lange Verbindung erleichterte die Anreise der Kurgäste und öffnete den Ort für Besucher aus der weiteren Region. Die Strecke hat eine Spurweite von 760 Millimetern und wurde zu einem charakteristischen technischen Bestandteil des Kurortes. Das Empfangsgebäude des Endbahnhofs ist als eigenes Denkmal erfasst; eine bauhistorische Untersuchung wurde 2023 erstellt. Die Bahn ist somit nicht nur Verkehrsmittel, sondern Teil jener historischen Infrastruktur, die die Entwicklung des Heilbades um die Wende zum 20. Jahrhundert ermöglichte."
+        },
+        {
+          "id": "fact_006",
+          "title": "Das Wasserkraftwerk und der ehemalige Lichtbrunnen",
+          "text": "Am Rand des Kurparks steht ein kleines Wasserkraftwerk, das um 1920 errichtet wurde. Wasser aus dem Bach Teplička gelangte über einen etwa einen Kilometer langen Kanal am Talhang zum Gebäude. Der kompakte, symmetrische Art-déco-Bau besitzt an der Vorderfassade vier maurische Säulen und drei kristallförmige Beleuchtungselemente. Davor liegt ein halbrundes Becken mit Wasserspeiern, das einst Teil eines Lichtbrunnens war. Das Kraftwerk dokumentiert die technische Infrastruktur des Kurkomplexes und zeigt zugleich, wie selbst ein Zweckbau in den repräsentativen öffentlichen Raum integriert wurde."
+        }
+      ]
+    },
+    "en": {
+      "representative_place": "Trenčianske Teplice – spa town in the Teplička valley",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "The spa town in the Teplička valley",
+          "text": "Trenčianske Teplice lies in a wooded valley on the edge of the Strážov Mountains. The local spa was first mentioned in writing in 1488, when it still belonged to the territory of neighbouring Trenčianska Teplá. In 1594 the baths came into the possession of Štefan Illésházy, and his family held them until 1835. They were then bought by the Vienna banker Juraj Sina, who began a major modernisation. During the nineteenth century the spa park and accommodation facilities expanded. The town developed into an internationally known health resort, and its spa character still shapes its urban layout, architecture and local identity."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam – Moorish architecture in the spa quarter",
+          "text": "Hammam is one of the most distinctive historic buildings in the spa town. Construction began in 1886 and the Turkish bath was completed in 1888 beside the Sina mirror bath. The architect František Schmoranz Jr., who also worked for the Egyptian viceroy, took part in its design. The Moorish-style building uses sandstone with finely carved ornaments and custom-made ceramic tiles from Modra and Pécs. More than 1,200 tiles bear the initials of Ifigénie de Castries, Baron Sina’s daughter. Hammam is a carefully designed architectural legacy of the people who supported the spa."
+        },
+        {
+          "id": "fact_003",
+          "title": "Machnáč sanatorium – a landmark of Functionalism",
+          "text": "The Machnáč spa house is one of the most important works of Functionalist architecture in Slovakia. Prague architect Jaromír Krejcar designed it in 1929, and it was built in 1930–1932 for the health insurance fund of private-sector employees. Its reinforced-concrete frame separates accommodation from communal and dining spaces. Distinctive features include ribbon windows, free-standing columns, balconies on the south façade and rounded corners on the lower communal wing. The building connects modern architecture with interwar ideas about hygiene and spa treatment. It is now recognised as an important architectural monument, although it no longer serves its original medical purpose."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba – a swimming pool shaped into the hillside",
+          "text": "The Zelená žaba thermal swimming pool was designed by Bohuslav Fuchs and built in 1936–1937 on the wooded southern slope above the spa town. Its organically shaped Functionalist architecture responds sensitively to the terrain. The complex was built in three stages: the main building contained service facilities and a 33.3-by-12-metre pool, while later sections added a bowling alley and a children’s pool. Thermal water was pumped up from the valley. Zelená žaba is both a recreational facility and an outstanding example of interwar architecture that brought technical function into harmony with the landscape."
+        },
+        {
+          "id": "fact_005",
+          "title": "The electric narrow-gauge railway to the spa",
+          "text": "An electric narrow-gauge railway has connected Trenčianske Teplice with the railway junction at Trenčianska Teplá since 1909. The roughly five-kilometre link made travel easier for spa guests and opened the town to visitors from the wider region. The line has a track gauge of 760 millimetres and became a distinctive part of the spa’s technical heritage. The terminal station building is separately recorded as a heritage structure; an architectural-historical survey was prepared in 2023. The railway is more than a transport link: it formed part of the historic infrastructure that enabled the spa to develop around the turn of the twentieth century."
+        },
+        {
+          "id": "fact_006",
+          "title": "The hydroelectric plant and former illuminated fountain",
+          "text": "A small hydroelectric plant built around 1920 stands at the edge of the spa park. Water from the Teplička stream reached the building through a channel about one kilometre long along the valley slope. The compact, symmetrical Art Deco structure has four Moorish columns on its front façade and three crystal-shaped lighting elements. In front is a semicircular basin with water spouts, once part of an illuminated fountain. The plant documents the technical infrastructure of the spa complex and shows how even a utilitarian building could be integrated into a representative public space."
+        }
+      ]
+    },
+    "es": {
+      "representative_place": "Trenčianske Teplice – balneario en el valle de Teplička",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La ciudad balnearia en el valle de Teplička",
+          "text": "Trenčianske Teplice se encuentra en un valle boscoso, en el límite de los montes Strážov. Los baños locales aparecen mencionados por escrito en 1488, cuando todavía pertenecían al territorio de la vecina Trenčianska Teplá. En 1594 pasaron a manos de Štefan Illésházy y su familia los conservó hasta 1835. Después los compró el banquero vienés Juraj Sina, que inició una amplia modernización. Durante el siglo XIX se ampliaron el parque balneario y las instalaciones de alojamiento. La localidad se convirtió en un centro termal conocido internacionalmente, cuyo carácter sigue definiendo el trazado urbano, la arquitectura y la identidad local."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam: arquitectura morisca en el barrio termal",
+          "text": "Hammam es uno de los edificios históricos más destacados del balneario. Su construcción comenzó en 1886 y el baño turco se terminó en 1888 junto al espejo de agua Sina. En el proyecto participó el arquitecto František Schmoranz hijo, que también trabajó para el virrey de Egipto. El edificio de estilo morisco utiliza arenisca con ornamentos tallados y azulejos cerámicos fabricados por encargo en Modra y Pécs. Más de 1.200 azulejos llevan las iniciales de Ifigénie de Castries, hija del barón Sina. Hammam es un legado arquitectónico cuidadosamente concebido por los promotores del balneario."
+        },
+        {
+          "id": "fact_003",
+          "title": "El sanatorio Machnáč: una obra clave del funcionalismo",
+          "text": "El edificio termal Machnáč es una de las obras más importantes de la arquitectura funcionalista en Eslovaquia. El arquitecto de Praga Jaromír Krejcar lo diseñó en 1929 y se construyó entre 1930 y 1932 para el seguro de enfermedad de empleados privados. Su estructura de hormigón armado separa las habitaciones de las zonas comunes y del comedor. Destacan las ventanas corridas, los pilares exentos, los balcones de la fachada sur y las esquinas redondeadas del ala común inferior. El edificio relaciona la arquitectura moderna con las ideas de higiene y tratamiento termal del periodo de entreguerras. Hoy es un monumento arquitectónico importante, aunque ya no cumple su función médica original."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba: una piscina integrada en la ladera",
+          "text": "La piscina termal Zelená žaba fue diseñada por Bohuslav Fuchs y construida entre 1936 y 1937 en la ladera boscosa al sur del balneario. Su arquitectura funcionalista de formas orgánicas se adapta con sensibilidad al terreno. El complejo se construyó en tres etapas: el edificio principal incluía los servicios y una piscina de 33,3 por 12 metros; otras partes añadieron una bolera y una piscina infantil. El agua termal se bombeaba desde el valle. Zelená žaba es un espacio recreativo y un ejemplo excepcional de arquitectura de entreguerras que armoniza función técnica y paisaje."
+        },
+        {
+          "id": "fact_005",
+          "title": "El ferrocarril eléctrico de vía estrecha hasta el balneario",
+          "text": "Desde 1909, un ferrocarril eléctrico de vía estrecha conecta Trenčianske Teplice con el nudo ferroviario de Trenčianska Teplá. El enlace, de unos cinco kilómetros, facilitó la llegada de los visitantes y abrió la localidad a viajeros de una región más amplia. La línea tiene un ancho de vía de 760 milímetros y se convirtió en un elemento característico del patrimonio técnico del balneario. El edificio de la estación terminal está registrado por separado como estructura patrimonial; en 2023 se elaboró un estudio histórico-arquitectónico. El ferrocarril fue parte de la infraestructura que permitió el desarrollo del balneario alrededor de 1900."
+        },
+        {
+          "id": "fact_006",
+          "title": "La central hidroeléctrica y la antigua fuente iluminada",
+          "text": "En el borde del parque balneario se encuentra una pequeña central hidroeléctrica construida hacia 1920. El agua del arroyo Teplička llegaba al edificio por un canal de aproximadamente un kilómetro trazado por la ladera del valle. La compacta construcción simétrica de estilo art déco tiene cuatro columnas moriscas en la fachada frontal y tres elementos luminosos con forma de cristal. Delante hay un estanque semicircular con surtidores, que antiguamente formaba parte de una fuente iluminada. La central documenta la infraestructura técnica del complejo termal y muestra cómo un edificio utilitario podía integrarse en un espacio público representativo."
+        }
+      ]
+    },
+    "fr": {
+      "representative_place": "Trenčianske Teplice – station thermale dans la vallée de la Teplička",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La ville thermale dans la vallée de la Teplička",
+          "text": "Trenčianske Teplice se trouve dans une vallée boisée, à la limite des monts Strážov. Les bains locaux sont mentionnés par écrit dès 1488, lorsqu’ils appartenaient encore au territoire de la voisine Trenčianska Teplá. En 1594, ils passèrent aux mains de Štefan Illésházy et restèrent dans sa famille jusqu’en 1835. Ils furent ensuite achetés par le banquier viennois Juraj Sina, qui entreprit une vaste modernisation. Au XIXe siècle, le parc thermal et les installations d’hébergement furent agrandis. La localité devint une station thermale connue à l’échelle internationale, dont le caractère marque encore le plan urbain, l’architecture et l’identité locale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Le Hammam : architecture mauresque du quartier thermal",
+          "text": "Le Hammam est l’un des bâtiments historiques les plus remarquables de la station. Sa construction commença en 1886 et le bain turc fut achevé en 1888 près du bassin-miroir Sina. L’architecte František Schmoranz fils, qui travailla également pour le vice-roi d’Égypte, participa au projet. Le bâtiment de style mauresque associe du grès orné de sculptures fines et des carreaux de céramique fabriqués sur commande à Modra et Pécs. Plus de 1 200 carreaux portent les initiales d’Ifigénie de Castries, fille du baron Sina. Le Hammam est un héritage architectural soigneusement conçu par les mécènes de la station."
+        },
+        {
+          "id": "fact_003",
+          "title": "Le sanatorium Machnáč, sommet du fonctionnalisme",
+          "text": "L’établissement thermal Machnáč compte parmi les œuvres majeures de l’architecture fonctionnaliste en Slovaquie. L’architecte pragois Jaromír Krejcar le conçut en 1929 et le bâtiment fut construit entre 1930 et 1932 pour la caisse d’assurance maladie des employés privés. Sa structure en béton armé sépare les espaces d’hébergement des espaces collectifs et de restauration. On remarque les fenêtres en bande, les piliers libres, les balcons de la façade sud et les angles arrondis de l’aile commune inférieure. Le bâtiment relie l’architecture moderne aux idées d’hygiène et de cure de l’entre-deux-guerres. Il est aujourd’hui reconnu comme un monument architectural important, mais n’assure plus sa fonction médicale d’origine."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba : une piscine intégrée au versant",
+          "text": "La piscine thermale Zelená žaba fut conçue par Bohuslav Fuchs et construite en 1936–1937 sur le versant boisé au sud de la station. Son architecture fonctionnaliste aux formes organiques s’adapte avec finesse au terrain. Le complexe fut construit en trois étapes : le bâtiment principal abritait les locaux de service et un bassin de 33,3 sur 12 mètres ; d’autres parties ajoutèrent un bowling et une pataugeoire. L’eau thermale était pompée depuis la vallée. Zelená žaba est un lieu de loisirs et un exemple exceptionnel d’architecture de l’entre-deux-guerres conciliant fonction technique et paysage."
+        },
+        {
+          "id": "fact_005",
+          "title": "Le chemin de fer électrique à voie étroite vers la station",
+          "text": "Depuis 1909, un chemin de fer électrique à voie étroite relie Trenčianske Teplice au nœud ferroviaire de Trenčianska Teplá. Cette liaison d’environ cinq kilomètres facilita l’arrivée des curistes et ouvrit la localité aux visiteurs de toute la région. La voie a un écartement de 760 millimètres et constitue un élément caractéristique du patrimoine technique thermal. Le bâtiment de la gare terminus est répertorié séparément comme édifice patrimonial ; une étude architecturale et historique a été réalisée en 2023. Le chemin de fer faisait partie de l’infrastructure qui permit le développement de la station autour de 1900."
+        },
+        {
+          "id": "fact_006",
+          "title": "La centrale hydroélectrique et l’ancienne fontaine lumineuse",
+          "text": "À la limite du parc thermal se trouve une petite centrale hydroélectrique construite vers 1920. L’eau du ruisseau Teplička arrivait au bâtiment par un canal d’environ un kilomètre tracé sur le versant de la vallée. La construction compacte et symétrique de style art déco possède quatre colonnes mauresques sur sa façade avant et trois éléments lumineux en forme de cristal. Devant elle se trouve un bassin semi-circulaire avec des jets d’eau, autrefois intégré à une fontaine lumineuse. La centrale documente l’infrastructure technique du complexe thermal et montre comment un bâtiment utilitaire pouvait s’intégrer à un espace public représentatif."
+        }
+      ]
+    },
+    "it": {
+      "representative_place": "Trenčianske Teplice – città termale nella valle della Teplička",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "La città termale nella valle della Teplička",
+          "text": "Trenčianske Teplice sorge in una valle boscosa ai margini dei monti Strážov. Le terme locali sono documentate per iscritto dal 1488, quando appartenevano ancora al territorio della vicina Trenčianska Teplá. Nel 1594 passarono a Štefan Illésházy e rimasero alla sua famiglia fino al 1835. In seguito furono acquistate dal banchiere viennese Juraj Sina, che avviò un’importante modernizzazione. Nel XIX secolo furono ampliati il parco termale e le strutture ricettive. La località divenne un centro termale conosciuto a livello internazionale, il cui carattere continua a influenzare l’impianto urbano, l’architettura e l’identità locale."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam: architettura moresca nel quartiere termale",
+          "text": "Hammam è uno degli edifici storici più caratteristici delle terme. I lavori iniziarono nel 1886 e il bagno turco fu completato nel 1888 accanto allo specchio d’acqua Sina. Al progetto partecipò l’architetto František Schmoranz junior, che lavorò anche per il viceré d’Egitto. L’edificio in stile moresco utilizza arenaria con ornamenti finemente scolpiti e piastrelle in ceramica realizzate su misura a Modra e Pécs. Oltre 1.200 piastrelle recano le iniziali di Ifigénie de Castries, figlia del barone Sina. Hammam è una testimonianza architettonica accuratamente concepita dai mecenati delle terme."
+        },
+        {
+          "id": "fact_003",
+          "title": "Il sanatorio Machnáč, un vertice del funzionalismo",
+          "text": "L’edificio termale Machnáč è una delle opere più importanti dell’architettura funzionalista in Slovacchia. L’architetto praghese Jaromír Krejcar lo progettò nel 1929 e fu costruito tra il 1930 e il 1932 per la cassa malattia dei dipendenti privati. La struttura in cemento armato separa gli spazi di alloggio da quelli comuni e di ristorazione. Tra gli elementi distintivi vi sono le finestre a nastro, i pilastri liberi, i balconi sulla facciata meridionale e gli angoli arrotondati dell’ala comune più bassa. L’edificio collega l’architettura moderna alle idee igieniche e terapeutiche del periodo tra le due guerre. Oggi è riconosciuto come importante monumento architettonico, ma non svolge più la sua funzione sanitaria originaria."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba: una piscina inserita nel pendio",
+          "text": "La piscina termale Zelená žaba fu progettata da Bohuslav Fuchs e costruita nel 1936–1937 sul versante boscoso a sud della città termale. La sua architettura funzionalista dalle forme organiche si integra con sensibilità nel terreno. Il complesso fu realizzato in tre fasi: l’edificio principale ospitava i servizi e una vasca di 33,3 per 12 metri; altre parti aggiunsero una pista da bowling e una piscina per bambini. L’acqua termale veniva pompata dalla valle. Zelená žaba è una struttura ricreativa ed un eccezionale esempio di architettura tra le due guerre che armonizza funzione tecnica e paesaggio."
+        },
+        {
+          "id": "fact_005",
+          "title": "La ferrovia elettrica a scartamento ridotto per le terme",
+          "text": "Dal 1909 una ferrovia elettrica a scartamento ridotto collega Trenčianske Teplice al nodo ferroviario di Trenčianska Teplá. Il collegamento, lungo circa cinque chilometri, facilitò l’arrivo degli ospiti e aprì la località ai visitatori di un territorio più ampio. La linea ha uno scartamento di 760 millimetri ed è diventata un elemento caratteristico del patrimonio tecnico termale. L’edificio della stazione capolinea è censito separatamente come struttura tutelata; nel 2023 è stato realizzato uno studio storico-architettonico. La ferrovia faceva parte dell’infrastruttura che rese possibile lo sviluppo delle terme intorno al 1900."
+        },
+        {
+          "id": "fact_006",
+          "title": "La centrale idroelettrica e l’antica fontana luminosa",
+          "text": "Ai margini del parco termale sorge una piccola centrale idroelettrica costruita intorno al 1920. L’acqua del torrente Teplička raggiungeva l’edificio attraverso un canale lungo circa un chilometro sul pendio della valle. La costruzione compatta e simmetrica in stile art déco presenta quattro colonne moresche sulla facciata anteriore e tre elementi luminosi a forma di cristallo. Davanti si trova una vasca semicircolare con getti d’acqua, un tempo parte di una fontana illuminata. La centrale documenta l’infrastruttura tecnica del complesso termale e mostra come un edificio funzionale potesse integrarsi in uno spazio pubblico rappresentativo."
+        }
+      ]
+    },
+    "nl": {
+      "representative_place": "Trenčianske Teplice – kuuroord in het dal van de Teplička",
+      "facts": [
+        {
+          "id": "fact_001",
+          "title": "Het kuuroord in het dal van de Teplička",
+          "text": "Trenčianske Teplice ligt in een bebost dal aan de rand van het Strážovgebergte. De plaatselijke baden worden al in 1488 schriftelijk vermeld, toen ze nog tot het grondgebied van het naburige Trenčianska Teplá behoorden. In 1594 kwamen de baden in handen van Štefan Illésházy en zijn familie behield ze tot 1835. Daarna kocht de Weense bankier Juraj Sina het complex en begon een omvangrijke modernisering. In de negentiende eeuw werden het kuurpark en de verblijfsvoorzieningen uitgebreid. Zo groeide de plaats uit tot een internationaal bekend kuuroord, waarvan het karakter nog altijd het stadsplan, de architectuur en de lokale identiteit bepaalt."
+        },
+        {
+          "id": "fact_002",
+          "title": "Hammam – Moorse architectuur in het kuurgebied",
+          "text": "Hammam is een van de opvallendste historische gebouwen van het kuuroord. De bouw begon in 1886 en het Turkse bad werd in 1888 voltooid naast het Sina-spiegelbad. Architect František Schmoranz jr., die ook voor de Egyptische onderkoning werkte, was bij het ontwerp betrokken. Het gebouw in Moorse stijl gebruikt zandsteen met fijn uitgesneden ornamenten en op maat gemaakte keramische tegels uit Modra en Pécs. Meer dan 1.200 tegels dragen de initialen van Ifigénie de Castries, de dochter van baron Sina. Hammam is een zorgvuldig ontworpen architectonische erfenis van de beschermheren van het kuuroord."
+        },
+        {
+          "id": "fact_003",
+          "title": "Sanatorium Machnáč – een hoogtepunt van het functionalisme",
+          "text": "Het kuurgebouw Machnáč is een van de belangrijkste werken van de functionalistische architectuur in Slowakije. De Praagse architect Jaromír Krejcar ontwierp het in 1929; het werd gebouwd in 1930–1932 voor de ziektekostenverzekering van particuliere werknemers. Het skelet van gewapend beton scheidt de verblijfsruimten van de gemeenschappelijke en eetruimten. Kenmerkend zijn de bandramen, vrijstaande kolommen, balkons aan de zuidgevel en afgeronde hoeken van de lagere gemeenschappelijke vleugel. Het gebouw verbindt moderne architectuur met de ideeën over hygiëne en kuurbehandeling uit het interbellum. Het geldt als belangrijk architectonisch erfgoed, maar heeft zijn oorspronkelijke medische functie verloren."
+        },
+        {
+          "id": "fact_004",
+          "title": "Zelená žaba – een zwembad in de helling",
+          "text": "Het thermale zwembad Zelená žaba werd ontworpen door Bohuslav Fuchs en in 1936–1937 gebouwd op de beboste zuidhelling boven het kuuroord. De organisch gevormde functionalistische architectuur sluit zorgvuldig aan op het terrein. Het complex werd in drie fasen gebouwd: het hoofdgebouw bevatte de voorzieningen en een bad van 33,3 bij 12 meter; andere delen voegden een kegelbaan en een kinderbad toe. Het thermale water werd vanuit het dal omhoog gepompt. Zelená žaba is een recreatievoorziening en een uitzonderlijk voorbeeld van interbellumarchitectuur waarin techniek en landschap samenkomen."
+        },
+        {
+          "id": "fact_005",
+          "title": "De elektrische smalspoorlijn naar het kuuroord",
+          "text": "Sinds 1909 verbindt een elektrische smalspoorlijn Trenčianske Teplice met het spoorwegknooppunt in Trenčianska Teplá. De verbinding van ongeveer vijf kilometer maakte de reis voor kuurgasten gemakkelijker en bracht bezoekers uit een groter gebied naar de plaats. De spoorwijdte bedraagt 760 millimeter en de lijn werd een kenmerkend onderdeel van het technische erfgoed van het kuuroord. Het stationsgebouw aan het eindpunt is afzonderlijk als erfgoed geregistreerd; in 2023 werd er een architectuurhistorisch onderzoek naar uitgevoerd. De spoorlijn vormde een deel van de infrastructuur die de ontwikkeling van het kuuroord rond 1900 mogelijk maakte."
+        },
+        {
+          "id": "fact_006",
+          "title": "De waterkrachtcentrale en de vroegere lichtfontein",
+          "text": "Aan de rand van het kuurpark staat een kleine waterkrachtcentrale die rond 1920 werd gebouwd. Water uit de beek Teplička werd via een ongeveer één kilometer lang kanaal langs de dalhelling naar het gebouw geleid. Het compacte, symmetrische art-decogebouw heeft vier Moorse zuilen aan de voorgevel en drie kristalvormige lichtelementen. Ervoor ligt een halfrond bassin met waterspuiten, dat vroeger deel uitmaakte van een verlichte fontein. De centrale documenteert de technische infrastructuur van het kuurcomplex en laat zien hoe een utilitair gebouw in een representatieve openbare ruimte kon worden opgenomen."
+        }
+      ]
+    }
+  },
+  "status": "validated"
 }
