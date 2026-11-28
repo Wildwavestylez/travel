@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29427; aktualizace UNESCO a kaple ve Žďáru  
+**Poslední checkpoint:** 2026-11-28 — sémantická revize 29301, 29306, 29307 a 29401–29428; aktualizace UNESCO a kaple ve Žďáru  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -118,6 +118,7 @@ Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původn
 - **29425 Katusice / Spikaly:** 8/8 faktů v každém ze 7 jazyků; 8 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 48 cizojazyčných textů. Vyřešena poloha `fact_003` — rodný dům Jana Nepomuka Krouského, usedlost čp. 12, nikoli kostel: přesný adresní bod náměstí Budovatelů 12, 50.4466025, 14.7792214, `type=historic_address`, `accuracy=exact`; identitu domu dokládá oficiální historie obce a adresní bod souřadnicový registr. `fact_001` zůstává bez bodu záměrně, protože archeologické nálezy pocházejí z více lokalit.
 - **29426 Kluky / Skalsko / Kovanec / Vrátno / Zamachy–Syslov:** 7/7 faktů v každém ze 7 jazyků; 7 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně prověřeno všech 42 cizojazyčných textů. V překladech doplněny důležité detaily: závěr inspekce ministerstva vnitra a neúplná rehabilitace obětí politické perzekuce; dochování gotické věže a mladší hudební prameny v kostele ve Skalsku; přesná poloha nálezu mincovního depotu na jižním okraji farmy; stavební konstrukce Vrátenského větrného mlýna, jeho vzdálenost a přístup. Všechny polohy zůstávají doložené a vyplněné.
 - **29427 Velké Všelisy:** 4/4 faktů v každém ze 7 jazyků; 4 unikátní ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Individuálně zkontrolováno všech 24 cizojazyčných textů. Doplněna opatrná datovací poznámka k první písemné zmínce (přednost má evidence NPÚ před popularizačními přehledy) a architektonické detaily zámku č.p. 18 (nepravidelný dvoukřídlý půdorys a přístup přes schodiště se zbytky ohradní zdi).
+- **29428 Chotětov:** 6/6 faktů v každém ze 7 jazyků; 6 unikátních ID v každém jazyce, 0 chybějících překladů, 0 krátkých masterů, 0 null poloh a 0 rozdílů `translations.cs`/master. Přesná poloha `fact_005` (šestiboká boží muka na severním okraji Chotětova, křižovatka na Bezno a Jizerní Vtelno) byla doplněna podle geotagovaného bodu: 50.3406528, 14.8029056, `type=monument`, `accuracy=exact`; přidán zdroj s mapovým bodem. Zbylých pět faktů má již doložené polohy.
 
 ### 4.6 Doplněné polohy
 
@@ -196,4 +197,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29428: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; zvláštní pozornost věnovat otevřeným lokalitám a bezpečnému geokódování; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29429: prověřit úplnost a sémantiku všech 7 jazyků, zdroje, duplicity a lokalizace; zvláštní pozornost věnovat otevřeným lokalitám a bezpečnému geokódování; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
