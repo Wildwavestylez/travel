@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — dokončeny překlady 29501 (19/19 × 7 jazyků) a obsahová revize překladů 29301 (16/16 × 7 jazyků)  
+**Poslední checkpoint:** 2026-11-28 — 29501 překlady 19/19 × 7 jazyků; sémantická revize 29301 (16/16 × 7) a 29306 (12/12 × 7)  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -94,6 +94,13 @@ Opraveno 6 hodnot na platné `historical_monument`:
 
 Původní neplatné hodnoty: `memorial_site` a `historic_monument`. Při původní kontrole nebyly nalezeny neplatné hodnoty `category`.
 
+
+
+### 4.7 Sémantická revize překladů — 29301 a 29306
+
+- **29301 Mladá Boleslav:** 16/16 faktů v každém ze 7 jazyků; 0 chybějících ID, `translations.cs` přesně odpovídá masteru. Cizojazyčné texty `fact_001`–`fact_011` byly rozšířeny a znovu formulovány podle úplného českého obsahu (všechny nyní nad 350 znaků); `fact_012`–`fact_016` zůstaly obsahově plné a byly zahrnuty do kontroly. Samostatně zůstává otevřena poloha 29301/fact_009 (EVL Bezděčín).
+- **29306 Kosmonosy:** 12/12 faktů v každém ze 7 jazyků; 0 chybějících ID, `translations.cs` přesně odpovídá masteru. Všech 72 cizojazyčných textů bylo individuálně zkontrolováno; nejkratší jazyková položka má 558 znaků. Nalezené formulace zachovávají historické osoby, data, stavby a významové nuance; nebyla nutná obsahová oprava.
+
 ### 4.6 Doplněné polohy
 
 Doplněno 18 původně chybějících poloh:
@@ -153,7 +160,7 @@ Významné zdroje pro další práci:
 
 ## 7. Otevřené kontroly — audit není dokončen
 
-1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011; 29301 má 16/16 položek v každém jazyce a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
+1. Kompletní individuální sémantická kontrola de/en/es/fr/it/nl pro všech 328 faktů. Nově obsahově revidováno 29301/fact_001–fact_011 a kompletně prověřeno 29306/fact_001–fact_012; oba záznamy mají úplné překladové sady a 0 rozdílů CS/master. Zbývající PSČ nejsou sémanticky uzavřena.
 2. **29501 — překladová struktura uzavřena:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0. Při navazující sémantické kontrole ještě ověřit přesnost cizojazyčných formulací.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; při závěrečné sémantické kontrole ověřit překlady a návaznost na `fact_004`.
 4. Dokončit 3 zbývající geolokační ověření z oddílu 5.
@@ -171,4 +178,4 @@ Významné zdroje pro další práci:
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** pokračovat podle `sequence.json` u 29306 (12 faktů): zkontrolovat úplnost a sémantiku všech 7 jazyků; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená pouze bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a ostatní obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
+**Další krok:** pokračovat podle `sequence.json` u 29307: prověřit úplnost a sémantiku všech 7 jazyků, zdroje a lokalizace; poté postupovat sekvenčně. U 29301 zůstává samostatně otevřená bezpečná reprezentativní poloha EVL Bezděčín/fact_009 a obecné auditní kontroly rozsahu. Nezačínat znovu inventuru ani opakovat potvrzené opravy.
