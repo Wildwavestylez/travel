@@ -2,7 +2,7 @@
 
 **Kanonické ID:** `CZ-MLADOBOLESLAVSKO-MNICHOVOHRADISTSKO-293XX-295XX`  
 **Stav:** IN PROGRESS — REVIEW REQUIRED — NOT PUBLISHED  
-**Poslední checkpoint:** 2026-11-28 — překladová struktura 29501 uzavřena; doplněn reprezentativní bod EVL Bezděčín (29301/fact_009); strukturální a enum scan 40/40; prověřena návaznost na explorer_map_points  
+**Poslední checkpoint:** 2026-11-28 — překladová struktura a sémantická revize 29501 uzavřeny; doplněn reprezentativní bod EVL Bezděčín; strukturální/enum scan a reklamní scan 40/40; prověřena mapa  
 **Rozsah:** 40 přesných PSČ podle `data/czechia/sequence.json` a `data/czechia/reference/ruian_postcodes.csv`.
 
 ## 1. Závazné podklady
@@ -203,7 +203,7 @@ Významné zdroje pro další práci:
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady jsou součástí uzavřené sémantické revize 29501. Tematická duplicita s `fact_004` na Mužském nebyla zjištěna.
 4. Geolokační ověření tří dříve otevřených bodů dokončeno: 29301/fact_009 (reprezentativní bod EVL Bezděčín), 29425/fact_003 (rodný dům Jana Nepomuka Krouského) a 29428/fact_005 (boží muka v Chotětově). Zbývajících 7 null poloh je zdůvodněných a záměrných.
 5. Prověřit duplicity názvů, textů a zdrojových URL napříč všemi 40 PSČ.
-6. Provést reklamní scan ve všech jazycích.
+6. **Reklamní scan proveden pro všech 40 PSČ a všech 7 jazyků:** hledání explicitních CTA a komerčních frází (rezervujte/kupte nyní, slevové kódy, speciální nabídky, sledujte nás, subscribe apod.) nevrátilo žádnou shodu. Scan je lexikální kontrola; případné obecné formulace o návštěvě a vstupném se posuzují v sémantické revizi.
 7. Dokončit kontrolu oficiálních sídel obsluhujících pošt a případné top-level synchronizace administrativních polí.
 8. **Strukturální a enum scan proveden pro všech 40 českých PSČ:** 0 duplicitních ID uvnitř záznamů, 0 chybějících povinných polí u faktů, 0 master textů pod 350 znaků, 0 chybějících překladových ID v kterémkoli ze 7 jazyků, 0 neplatných hodnot `category`, `map_category`, `location.type` a `location.accuracy`. Počty faktů a jazykových sad souhlasí; 29413 byl výslovně ověřen s `country_code='CZ'`, protože v DB existuje i nesouvisející německý záznam se stejným PSČ.
 9. **Mapové body prověřeny, synchronizace odložena:** `explorer_map_points` obsahuje 9 272 českých bodů, ale pro všech 40 auditovaných PSČ má 0 řádků. Kontrolní vzorek existujícího bodu 10000 ukazuje vazbu na `status=published`, `data_version=5`; auditovaná oblast zůstává na V1 a nebyla publikována. Do mapové tabulky se proto nyní nic nevkládá ani nepřepisuje — synchronizace je blokována pravidlem nevydávat V5/published bez výslovného pokynu.
