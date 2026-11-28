@@ -176,14 +176,12 @@ U všech sedmi faktů je zdroj polohy uložen v `location.source` i v seznamu zd
 - **29425/fact_003 — rodný dům Jana Nepomuka Krouského čp. 12:** vyřešeno přesným adresním bodem usedlosti, nikoli kostela; 50.4466025, 14.7792214, `type=historic_address`, `accuracy=exact`.
 - **29428/fact_005 — boží muka na severním okraji Chotětova:** vyřešeno geotagovaným bodem u křižovatky na Bezno a Jizerní Vtelno; 50.3406528, 14.8029056, `type=monument`, `accuracy=exact`.
 
-## 6. Turistická a historická úplnost — zásadní zjištění
+## 6. Turistická a historická úplnost — ověřené tematické body
 
-Potvrzené nebo silně doložené tematické body:
-
-- Zámek Mnichovo Hradiště a setkání tří panovníků / Svaté aliance v roce 1833 — kandidát je v 29501/fact_001; při sémantické kontrole ověřit, že text explicitně uvádí rok a účastníky.
-- Drábské světničky a Valečov — zahrnuty v 29501/fact_002 a fact_003.
-- Bedřich Smetana a Jabkenice — prověřit explicitní zastoupení v 29445.
-- Laurin & Klement a automobilová historie Mladé Boleslavi — ověřit rozsah a případné duplicity v 29301.
+- **Zámek Mnichovo Hradiště a setkání tří panovníků v roce 1833 — ověřeno v 29501/fact_001.** Text výslovně jmenuje Františka I., Mikuláše I. a Fridricha Viléma III. a uvádí uzavření Mnichovohradišťské konvence v září 1833.
+- **Drábské světničky, Hrada a Klamorna — zahrnuty v 29501/fact_002; Valečov a skalní obydlí — v 29501/fact_003.**
+- **Bedřich Smetana a Jabkenice — ověřeno v 29445/fact_001.** Text uvádí posledních devět let skladatelova života, konkrétní opery, cyklus Má vlast a dnešní pobočku Národního muzea.
+- **Laurin & Klement a automobilová historie Mladé Boleslavi — ověřeno v 29301/fact_001.** Text uvádí založení dílny roku 1895, přechod od jízdních kol k motocyklům a první automobil Voiturette A z roku 1905; Škoda Muzeum je zasazeno do autentických výrobních hal.
 - **Bitva u Mnichova Hradiště 28. 6. 1866 — doplněno jako 29501/fact_019.** Samostatný fakt popisuje útok u Ševčína a Bílé Hlíny, ústup přes Klášter Hradiště nad Jizerou, zapálení mostu u zámku, pruské překročení Jizery a ústup směrem k Bosni a Valečovu. Připojen je pomník na Habru (přesné souřadnice 50.5212167, 14.9426778) a tři zdroje: Vojenský historický ústav, městský Kamelot a Vets.cz. Fact má 619 znaků a překlad do všech 7 jazyků. Původní 29501/fact_004 na Mužském zůstává tematicky oddělený.
 - Další osobnosti narozené v Mladé Boleslavi, které byly doplněny: Eva Bosáková, Adina Mandlová, Jan Železný, František Gellner, Jan Konůpek. Kosmonoský Alois Bubák doplněn do 29306.
 
@@ -198,15 +196,15 @@ Významné zdroje pro další práci:
 - Biografický slovník českých zemí — Jan Konůpek: https://biography.hiu.cas.cz/wiki/KON%C5%AEPEK_Jan_1883%E2%80%931950
 - Biografický slovník českých zemí — Alois Bubák: https://biography.hiu.cas.cz/wiki/BUB%C3%81K_Alois_1824%E2%80%931870
 
-## 7. Otevřené kontroly — audit není dokončen
+## 7. Výsledek závěrečných kontrol
 
-1. **Individuální sémantická revize překladů dokončena pro všech 328 faktů v rozsahu 40 PSČ.** V oddílu 4 jsou záznamy jednotlivých PSČ a konkrétní významové opravy; kontrola zahrnula všech šest cizojazyčných sad (de/en/es/fr/it/nl), úplnost ID a synchronizaci češtiny. Strukturální read-back navíc potvrdil 0 chybějících překladových ID v kterémkoli jazyce. Při závěrečném reklamním scanu ještě zkontrolovat všechny texty jako samostatnou kontrolní vrstvu.
+1. **Individuální sémantická revize překladů dokončena pro všech 328 faktů v rozsahu 40 PSČ.** Kontrola zahrnula všech šest cizojazyčných sad (de/en/es/fr/it/nl), úplnost ID a synchronizaci češtiny; strukturální read-back potvrdil 0 chybějících překladových ID v kterémkoli jazyce.
 2. **29501 — překladová struktura i sémantická revize uzavřeny:** 19/19 položek v každém ze 7 jazyků; 19/19 unikátních ID, CS/master mismatch 0; individuálně prověřeno všech 114 cizojazyčných textů.
 3. Bitva 28. 6. 1866 je samostatně pokryta v `29501/fact_019`; překlady jsou součástí uzavřené sémantické revize 29501. Tematická duplicita s `fact_004` na Mužském nebyla zjištěna.
 4. **Geolokační kontrola všech původně otevřených případů dokončena:** 29301/fact_009, 29425/fact_003, 29428/fact_005 a nově všech sedm případů z oddílu 5. Původních sedm `location:null` má nyní obhajitelné orientační nebo historicky přibližné body; žádný z nich nezůstává `null`. U 29423/fact_002 a fact_008 byly upraveny české texty i všech šest cizojazyčných překladů, aby odpovídaly mapovému řešení.
-5. **Deduplikační scan všech 328 faktů uzavřen:** samostatně byly prověřeny oba pracovní bloky (177 + 151 faktů) a následně jejich křížové porovnání. Nebyla nalezena shoda normalizovaných názvů ani přesně shodných normalizovaných českých textů mezi bloky. Opakované zdrojové URL se vztahují ke společným obecním kronikám, územním plánům a souhrnným památkovým studiím; samotné sdílení zdroje není duplicitou, pokud fakt popisuje jiný objekt, událost nebo téma. V tomto průchodu nebyl nalezen žádný přesný duplicitní fakt. Zbývá dokončit kontrolu oficiálních sídel obsluhujících pošt.
+5. **Deduplikační scan všech 328 faktů uzavřen:** samostatně byly prověřeny oba pracovní bloky (177 + 151 faktů) a následně jejich křížové porovnání. Nebyla nalezena shoda normalizovaných názvů ani přesně shodných normalizovaných českých textů mezi bloky. Opakované zdrojové URL se vztahují ke společným obecním kronikám, územním plánům a souhrnným památkovým studiím; samotné sdílení zdroje není duplicitou, pokud fakt popisuje jiný objekt, událost nebo téma. V tomto průchodu nebyl nalezen žádný přesný duplicitní fakt.
 6. **Reklamní scan proveden pro všech 40 PSČ a všech 7 jazyků:** hledání explicitních CTA a komerčních frází (rezervujte/kupte nyní, slevové kódy, speciální nabídky, sledujte nás, subscribe apod.) nevrátilo žádnou shodu. Scan je lexikální kontrola; případné obecné formulace o návštěvě a vstupném se posuzují v sémantické revizi.
-7. Dokončit kontrolu oficiálních sídel obsluhujících pošt a případné top-level synchronizace administrativních polí.
+7. **Oficiální sídla obsluhujících pošt prověřena pro všech 40 PSČ** proti seznamu pošt České pošty a detailům aktuálních poboček; adresní místa a části obcí byly porovnány s RÚIAN/ČSÚ. `content.city` odpovídá fyzické obci pobočky ve všech 40 záznamech; nebylo nutné měnit žádnou hodnotu `city`, `county` ani `state`. Byly však doplněny čtyři chybějící hodnoty `district` a `district_type=municipal_part`: `29301` Mladá Boleslav II, `29430` Dolní Cetno (obec Niměřice), `29471` Benátky nad Jizerou I a `29479` Střížovice (obec Kropáčova Vrutice). Zbylých 36 hodnot `district:null` je správně, protože adresa pošty leží v hlavní části příslušné obce. Zdroje České pošty a územního členění jsou připojeny k dotčeným záznamům.
 8. **Strukturální a enum scan proveden pro všech 40 českých PSČ:** 0 duplicitních ID uvnitř záznamů, 0 chybějících povinných polí u faktů, 0 master textů pod 350 znaků, 0 chybějících překladových ID v kterémkoli ze 7 jazyků, 0 neplatných hodnot `category`, `map_category`, `location.type` a `location.accuracy`. Počty faktů a jazykových sad souhlasí; 29413 byl výslovně ověřen s `country_code='CZ'`, protože v DB existuje i nesouvisející německý záznam se stejným PSČ.
 9. **Mapové body prověřeny, synchronizace odložena:** `explorer_map_points` obsahuje 9 272 českých bodů, ale pro všech 40 auditovaných PSČ má 0 řádků. Kontrolní vzorek existujícího bodu 10000 ukazuje vazbu na `status=published`, `data_version=5`; auditovaná oblast zůstává na V1 a nebyla publikována. Do mapové tabulky se proto nyní nic nevkládá ani nepřepisuje — synchronizace je blokována pravidlem nevydávat V5/published bez výslovného pokynu.
 
@@ -214,8 +212,8 @@ Významné zdroje pro další práci:
 
 - Neprovádět `data_version=5`, `status=published`, Neon import, backup ani read-only lock bez výslovného navazujícího pokynu uživatele.
 - Nezasahovat do existujících platných souřadnic.
-- Nepřidávat výplňový obsah; null ponechat, pokud bod nelze spolehlivě doložit.
+- U polohy je `location:null` až poslední možnost: nejprve postupovat podle hierarchie `prompt_rework.md` — přesný bod, zdrojem doložený přibližný bod, reprezentativní bod pro oblast, veřejný orientační bod. `accuracy` musí poctivě vyjadřovat skutečnou přesnost; nikdy nevydávat orientační bod za přesné naleziště. `null` ponechat jen tehdy, když nelze obhájit ani jeden z těchto typů bodu.
 - Po dokončení každého PSČ zaznamenat stručný checkpoint: počet faktů, 7 jazyků, opravy, validace, nevyřešené výjimky.
 - Pokračovat přesně podle `sequence.json`; nevracet se k již uzavřenému PSČ bez konkrétní vady nebo nového důkazu.
 
-**Další krok:** ověřit oficiální sídla obsluhujících pošt pro všech 40 PSČ a porovnat je s `content.city`; následně rozhodnout, zda je nutná bezpečná synchronizace administrativních polí. Strukturální/enum a reklamní scany jsou čisté, sémantická revize překladů je uzavřena pro všech 328 faktů a původních sedm `location:null` je vyřešeno. Mapové body se do `explorer_map_points` synchronizují až v oprávněném V5/published kroku po výslovném pokynu uživatele.
+**Další krok:** obsahový audit 293xx–295xx je uzavřen. Všech 40 PSČ má ověřené sídlo pošty, opravené administrativní části, 328 faktů s úplnými překlady, žádné nevyřešené `location:null`, žádné zjištěné přesné duplicity a čistou strukturální/enum i reklamní kontrolu. **Publikace zůstává samostatný krok:** V5, `status=published`, import do Neonu, backup ani read-only lock se neprovedou bez výslovného pokynu uživatele. Mapová synchronizace do `explorer_map_points` je proto odložena do tohoto autorizovaného kroku.
